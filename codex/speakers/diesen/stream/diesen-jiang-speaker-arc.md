@@ -49,12 +49,12 @@ Current canonical `Diesen × Jiang` raw-inputs on disk:
 
 If the operator needs only one file:
 
-- open [transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md)
+- open [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md)
 
 If the operator needs the best paired read:
 
-- open [transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md)
-- then [transcript-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-11/transcript-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md)
+- open [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md)
+- then [source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-11/source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md)
 
 That pair gives the clearest combination of:
 

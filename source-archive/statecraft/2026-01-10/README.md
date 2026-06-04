@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `substack` (1), `youtube` (1)
+- Body kind mix: `operator-transcript` (1), `transcript` (1)
+- Source form mix: `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (1)
 - Threads: `mercouris` (1), `ritter` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-ritter-the-end-of-a-dream-2026-01-10.md`
-- `youtube-alex-mercouris-medvedev-says-west-wants-war-russia-ready-oreshnik-hit-military-base-use-2026-01-10.md`
+- `source-alex-mercouris-medvedev-says-west-wants-war-russia-ready-oreshnik-hit-military-base-use-2026-01-10.md`
+- `source-ritter-the-end-of-a-dream-2026-01-10.md`

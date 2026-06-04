@@ -56,12 +56,12 @@ This is enough to treat `Dialogue Works x Armstrong` as a real mature host-local
 
 If the operator needs only one file:
 
-- open [2026-02-27 Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-27/transcript-dialogue-works-martin-armstrong-how-world-war-iii-begins-and-why-it-s-happening-now-2026-02-27.md)
+- open [2026-02-27 Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-27/source-dialogue-works-martin-armstrong-how-world-war-iii-begins-and-why-it-s-happening-now-2026-02-27.md)
 
 If the operator needs the best paired read:
 
-- open [2026-02-27 Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-27/transcript-dialogue-works-martin-armstrong-how-world-war-iii-begins-and-why-it-s-happening-now-2026-02-27.md)
-- then [2025-10-31 Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-31/transcript-dialogue-works-martin-armstrong-this-is-how-world-war-iii-starts-and-it-already-has-2025-10-31.md)
+- open [2026-02-27 Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-27/source-dialogue-works-martin-armstrong-how-world-war-iii-begins-and-why-it-s-happening-now-2026-02-27.md)
+- then [2025-10-31 Dialogue Works x Armstrong](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-31/source-dialogue-works-martin-armstrong-this-is-how-world-war-iii-starts-and-it-already-has-2025-10-31.md)
 
 That pair gives the clearest mature lane shape:
 

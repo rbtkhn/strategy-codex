@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `8`
-- Type mix: `substack` (3), `youtube` (3), `transcript` (2)
+- Body kind mix: `operator-transcript` (5), `substack-post` (3)
+- Source form mix: `interview` (4), `newsletter` (3), `solo` (1)
 - Distinct channels/shows: `5`
 - Distinct hosts: `3`
 - Distinct guests: `3`
@@ -21,17 +22,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (2), `Larry C. Johnson & Col. Larry Wilkerson` (1), `Scott Ritter` (1)
 - Threads: `davis` (2), `freeman` (2), `nima` (2), `pape` (2), `johnson` (1), `mercouris` (1), `ritter` (1), `simplicius` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (3), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-pape-victory-narrative-vs-escalation-reality-2026-03-06.md`
-- `substack-pape-victory-narratives-are-not-noise-2026-03-06.md`
-- `substack-simplicius-iran-blinds-us-with-unprecedented-2026-03-06.md`
-- `transcript-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06.md`
-- `transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-iran-wipes-out-huge-targets-explosio-2026-03-06.md`
-- `youtube-alex-mercouris-iran-destroyed-us-mideast-ad-radars-oil-crisis-aragchi-russia-china-help-2026-03-06.md`
-- `youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md`
-- `youtube-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md`
+- `source-alex-mercouris-iran-destroyed-us-mideast-ad-radars-oil-crisis-aragchi-russia-china-help-2026-03-06.md`
+- `source-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md`
+- `source-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md`
+- `source-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06.md`
+- `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-iran-wipes-out-huge-targets-explosio-2026-03-06.md`
+- `source-pape-victory-narrative-vs-escalation-reality-2026-03-06.md`
+- `source-pape-victory-narratives-are-not-noise-2026-03-06.md`
+- `source-simplicius-iran-blinds-us-with-unprecedented-2026-03-06.md`

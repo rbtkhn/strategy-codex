@@ -38,7 +38,7 @@ The 2025 shelf is now materially broader than the earlier minimal core. In addit
 
 The branch now also has a real early-May 2025 bridge on disk:
 
-- [2025-05-09 Col. Douglas Macgregor: Victory Day - Russia Already Won the War](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-09/transcript-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md)
+- [2025-05-09 Col. Douglas Macgregor: Victory Day - Russia Already Won the War](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md)
 
 That file matters because it gives the Diesen lane an earlier 2025 on-disk opening point than the June anchor: Victory Day as Russian civilizational memory, Trump losing the chance to normalize relations, the Dnieper and Odessa logic as the battlefield end state, and Macgregor's sharper claim that NATO and the EU may not survive the war's final outcome.
 
@@ -46,12 +46,12 @@ That file matters because it gives the Diesen lane an earlier 2025 on-disk openi
 
 If the operator needs only one file:
 
-- open [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
+- open [source-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 
 If the operator needs the best paired read:
 
-- open [youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md)
-- then [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
+- open [source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md)
+- then [source-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 
 That pair gives the clearest combination of:
 

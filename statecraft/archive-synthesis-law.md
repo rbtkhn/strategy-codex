@@ -33,6 +33,7 @@ Its current underlying path remains [`source-archive/statecraft/`](/C:/dev/strat
 The first coherent interpretive layer above the archive: speaker continuity, routing, crossing, support, and bounded synthesis surfaces that assemble archive truth into usable statecraft objects without replacing it.
 
 Its primary home is [`statecraft/civ-lens/`](/C:/dev/strategy-codex/statecraft/civ-lens/README.md).
+For the compact speaker-shelf grammar, open [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/civ-lens/speaker-shelf-vocabulary.md).
 
 ## Boundary Law
 
@@ -71,11 +72,30 @@ Keep these boundaries strict:
 These existing terms still matter, but they are subordinate functions inside the larger pair:
 
 - `raw-text authority`
+- `source-index`
+- `source bench`
 - `provenance bench`
 - `source-bearing full captures`
 - `whole-speaker continuity`
 
 Use them locally when they remain the sharpest name for a file or function. Do not let them compete with the top-level pair.
+
+Vocabulary rule:
+
+- **`source-index`** names the canonical route surface
+- **`source bench`** names the ordinary retrieval role that surface performs
+- **`provenance bench`** is reserved for the narrower case where the prose is emphasizing evidentiary breadth or lower-interpretation archive character rather than just naming the surface
+
+This keeps file naming, shelf function, and evidentiary emphasis distinct without multiplying layers.
+
+Thread-layer rule:
+
+- **`thread atlas`** names the recurring continuity-map surface
+- **`arc-threads`** names the strands that bounded arcs or month surfaces braid
+
+Use `thread atlas` when opening or naming the surface itself. Use `arc-threads` when describing the internal substructure of an arc. This prevents a recurring atlas from competing conceptually with the bounded arcs that rely on it.
+
+For the compact table version of this grammar, see [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/civ-lens/speaker-shelf-vocabulary.md).
 
 ## Opening Rule
 

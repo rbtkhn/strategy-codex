@@ -10,7 +10,7 @@ Use it for speaker identity, route maps, bounded 2026 monthly synthesis, dense-c
 
 - [johnson-arc.md](johnson-arc.md)
 - [johnson-routing.md](johnson-routing.md)
-- [johnson-raw-input-index.md](johnson-raw-input-index.md)
+- [johnson-source-index.md](johnson-source-index.md)
 - [johnson-helix.md](johnson-helix.md)
 - [johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md)
 - [stream/johnson-shelf-2026-03.md](stream/johnson-shelf-2026-03.md)
@@ -20,13 +20,22 @@ Use it for speaker identity, route maps, bounded 2026 monthly synthesis, dense-c
 - [johnson-historical-examples-audit.md](johnson-historical-examples-audit.md)
 - [themes/README.md](themes/README.md)
 
+## Surface Grammar
+
+- **Source surface name:** `johnson-source-index.md`
+- **Source surface role:** source bench for breadth-first Johnson retrieval
+- **Source surface interior:** materialized Johnson appearances and routeable appearance coverage
+- **Recurring continuity surface name:** `stream/johnson-april-may-2026-arc-threads.md`
+- **Recurring continuity surface role:** thread atlas for the dense April-May 2026 core
+- **Recurring continuity surface interior:** recurring arc-threads braided by the April and May shelves and host-local arcs
+
 ## Canonical Structure
 
 Johnson's canonical statecraft shelf now has six speaker-owned layers:
 
 - **Person arc:** [johnson-arc.md](johnson-arc.md) holds whole-speaker continuity across hosts and time.
 - **Routing surface:** [johnson-routing.md](johnson-routing.md) answers which host lane, month shelf, or dense-core strand surface to open first.
-- **Provenance bench:** [johnson-raw-input-index.md](johnson-raw-input-index.md) remains the canonical route map for materialized Johnson appearances.
+- **Source index:** [johnson-source-index.md](johnson-source-index.md) remains the canonical route map for materialized Johnson appearances.
 - **Crossing surface:** [johnson-helix.md](johnson-helix.md) explains the stable host transformations inside the Johnson object.
 - **Support spine:** [johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md) owns maturity law, month-status law, and the rule for how the bounded month ladder relates to host-owned chronology.
 - **Bounded month ladder:** [stream/README.md](stream/README.md) holds the canonical January through May 2026 synthesis shelves.

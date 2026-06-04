@@ -22,7 +22,7 @@ This theme holds Mercouris's use of Helsinki-style process, non-aggression frame
 
 ## Exact Quote Anchors
 
-- [2026-05-19 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-19/youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md): "a potential model the 1970s Helsinki process"
+- [2026-05-19 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-19/source-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md): "a potential model the 1970s Helsinki process"
 - same source: "a new security architecture in the Persian Gulf involving some of the leading Arab states, including the Saudis and by the way also the Iranians"
 
 ## What Mercouris Is Arguing

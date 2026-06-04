@@ -21,13 +21,13 @@ Purpose: fast-routing note for the canonical Pape shelf.
 - whole-speaker continuity
   - open [pape-arc.md](pape-arc.md)
 - provenance bench / complete route map
-  - open [pape-raw-input-index.md](pape-raw-input-index.md)
+  - open [pape-source-index.md](pape-source-index.md)
 
 ## Best Entry Points
 
-- **Best single mechanism file:** [substack-pape-the-smart-bomb-trap-2026-02-25.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-25/substack-pape-the-smart-bomb-trap-2026-02-25.md)
-- **Best blockade / shortage file:** [substack-pape-2-blockades-2-clocks-2026-04-24.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/substack-pape-2-blockades-2-clocks-2026-04-24.md)
-- **Best interview-pressure file:** [transcript-davis-pape-escalation-trap-2026-03-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
+- **Best single mechanism file:** [source-pape-the-smart-bomb-trap-2026-02-25.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-25/source-pape-the-smart-bomb-trap-2026-02-25.md)
+- **Best blockade / shortage file:** [source-pape-2-blockades-2-clocks-2026-04-24.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/source-pape-2-blockades-2-clocks-2026-04-24.md)
+- **Best interview-pressure file:** [source-davis-pape-escalation-trap-2026-03-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md)
 - **Best host-law companion for that pressure test:** [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 
 ## Boundaries

@@ -6,7 +6,7 @@ Use Sachs when the notebook needs scale change: from a hot crisis to the larger 
 
 ## Open Diesen First
 
-Open [Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/transcript-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md) first when the real question is:
+Open [Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md) first when the real question is:
 
 - what this crisis means for the wider balance
 - how escalation fits into Eurasian or multipolar transition
@@ -15,23 +15,23 @@ Open [Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-1
 
 Best current direct anchors:
 
-- [2025-01-10 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/transcript-diesen-sachs-deep-states-aims-in-russia-and-more-2025-01-10.md)
-- [2025-02-04 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/transcript-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md)
-- [2025-03-17 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-17/transcript-diesen-sachs-peace-negotiations-and-the-end-of-nato-2025-03-17.md)
-- [2025-04-07 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-07/transcript-diesen-sachs-chaos-and-restructuring-of-the-global-economy-2025-04-07.md)
-- [2025-05-02 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/transcript-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md)
-- [2025-05-19 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/transcript-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
-- [2025-06-04 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/transcript-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md)
-- [2025-06-17 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/transcript-diesen-sachs-us-prepares-to-join-war-against-iran-2025-06-17.md)
-- [2025-07-30 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-30/transcript-diesen-sachs-at-the-precipice-of-world-war-3-2025-07-30.md)
-- [2025-08-11 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-11/transcript-diesen-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md)
-- [2025-09-18 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-18/transcript-glenn-diesen-jeffrey-sachs-us-and-china-edge-toward-war-over-taiwan-2025-09-18.md)
-- [2025-09-27 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-27/transcript-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md)
-- [2025-10-06 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/transcript-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md)
-- [2025-10-22 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/transcript-glenn-diesen-jeffrey-sachs-last-chance-for-peace-in-ukraine-sabotaged-by-europe-2025-10-22.md)
-- [2025-11-08 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-08/transcript-glenn-diesen-jeffrey-sachs-venezuela-regime-change-oil-and-gangster-politics-2025-11-08.md)
-- [2026-05-12 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
-- [2026-05-23 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/transcript-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md)
+- [2025-01-10 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/source-diesen-sachs-deep-states-aims-in-russia-and-more-2025-01-10.md)
+- [2025-02-04 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-04/source-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md)
+- [2025-03-17 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-17/source-diesen-sachs-peace-negotiations-and-the-end-of-nato-2025-03-17.md)
+- [2025-04-07 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-07/source-diesen-sachs-chaos-and-restructuring-of-the-global-economy-2025-04-07.md)
+- [2025-05-02 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/source-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md)
+- [2025-05-19 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
+- [2025-06-04 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/source-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md)
+- [2025-06-17 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/source-diesen-sachs-us-prepares-to-join-war-against-iran-2025-06-17.md)
+- [2025-07-30 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-30/source-diesen-sachs-at-the-precipice-of-world-war-3-2025-07-30.md)
+- [2025-08-11 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-11/source-diesen-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md)
+- [2025-09-18 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-18/source-glenn-diesen-jeffrey-sachs-us-and-china-edge-toward-war-over-taiwan-2025-09-18.md)
+- [2025-09-27 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-27/source-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md)
+- [2025-10-06 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/source-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md)
+- [2025-10-22 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/source-glenn-diesen-jeffrey-sachs-last-chance-for-peace-in-ukraine-sabotaged-by-europe-2025-10-22.md)
+- [2025-11-08 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-08/source-glenn-diesen-jeffrey-sachs-venezuela-regime-change-oil-and-gangster-politics-2025-11-08.md)
+- [2026-05-12 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/source-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md)
+- [2026-05-23 / Glenn Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-23/source-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md)
 
 ## Open Napolitano First
 
@@ -44,32 +44,32 @@ Open [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/
 
 Best current direct anchors:
 
-- [2025-01-08 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-08/transcript-napolitano-sachs-does-trump-want-peace-2025-01-08.md)
-- [2025-02-03 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-03/youtube-napolitano-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md)
-- [2025-05-07 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-07/transcript-napolitano-sachs-can-the-kremlin-trust-trump-2025-05-07.md)
-- [2025-06-24 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-24/transcript-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md)
-- [2025-07-08 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-08/transcript-napolitano-sachs-is-netanyahu-lobbying-for-more-war-2025-07-08.md)
-- [2025-08-04 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-04/transcript-napolitano-sachs-trumps-dangerous-moves-2025-08-04.md)
-- [2025-08-21 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-21/transcript-napolitano-sachs-netanyahu-ready-to-invade-2025-08-21.md)
-- [2025-08-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-27/transcript-napolitano-sachs-a-very-dangerous-foreign-policy-2025-08-27.md)
-- [2025-08-29 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-29/transcript-napolitano-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md)
-- [2025-09-10 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-10/youtube-napolitano-sachs-how-israel-blackmails-washington-2025-09-10.md)
-- [2025-09-17 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/youtube-napolitano-sachs-definitely-genocide-2025-09-17.md)
-- [2025-09-25 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-25/youtube-napolitano-sachs-al-qaeda-at-the-un-2025-09-25.md)
-- [2025-09-30 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-30/youtube-napolitano-sachs-netanyahu-stumbles-2025-09-30.md)
-- [2025-10-06 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/transcript-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md)
-- [2025-10-13 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-13/transcript-napolitano-sachs-who-would-trust-netanyahu-2025-10-13.md)
-- [2025-10-22 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/transcript-napolitano-sachs-israels-next-moves-2025-10-22.md)
-- [2025-10-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-27/transcript-napolitano-sachs-trumps-attempt-at-venezuelan-regime-change-and-his-gaza-illusions-2025-10-27.md)
-- [2025-11-04 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-04/transcript-napolitano-sachs-regime-change-in-venezuela-2025-11-04.md)
-- [2025-11-11 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-11/transcript-napolitano-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md)
-- [2025-11-17 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-17/youtube-napolitano-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md)
-- [2025-11-24 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/transcript-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md)
-- [2025-12-02 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-02/transcript-napolitano-sachs-is-trump-planning-more-wars-2025-12-02.md)
-- [2025-12-10 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-10/transcript-napolitano-sachs-underestimating-russia-2025-12-10.md)
-- [2025-12-15 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-15/transcript-napolitano-sachs-trumps-empire-of-hubris-2025-12-15.md)
-- [2026-03-16 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/transcript-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
-- [2026-05-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/transcript-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
+- [2025-01-08 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-08/source-napolitano-sachs-does-trump-want-peace-2025-01-08.md)
+- [2025-02-03 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-03/source-napolitano-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md)
+- [2025-05-07 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-07/source-napolitano-sachs-can-the-kremlin-trust-trump-2025-05-07.md)
+- [2025-06-24 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-24/source-napolitano-sachs-is-the-us-subordinated-to-israel-2025-06-24.md)
+- [2025-07-08 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-08/source-napolitano-sachs-is-netanyahu-lobbying-for-more-war-2025-07-08.md)
+- [2025-08-04 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-04/source-napolitano-sachs-trumps-dangerous-moves-2025-08-04.md)
+- [2025-08-21 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-21/source-napolitano-sachs-netanyahu-ready-to-invade-2025-08-21.md)
+- [2025-08-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-27/source-napolitano-sachs-a-very-dangerous-foreign-policy-2025-08-27.md)
+- [2025-08-29 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-29/source-napolitano-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md)
+- [2025-09-10 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-10/source-napolitano-sachs-how-israel-blackmails-washington-2025-09-10.md)
+- [2025-09-17 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-17/source-napolitano-sachs-definitely-genocide-2025-09-17.md)
+- [2025-09-25 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-25/source-napolitano-sachs-al-qaeda-at-the-un-2025-09-25.md)
+- [2025-09-30 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-30/source-napolitano-sachs-netanyahu-stumbles-2025-09-30.md)
+- [2025-10-06 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-06/source-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md)
+- [2025-10-13 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-13/source-napolitano-sachs-who-would-trust-netanyahu-2025-10-13.md)
+- [2025-10-22 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/source-napolitano-sachs-israels-next-moves-2025-10-22.md)
+- [2025-10-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-27/source-napolitano-sachs-trumps-attempt-at-venezuelan-regime-change-and-his-gaza-illusions-2025-10-27.md)
+- [2025-11-04 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-04/source-napolitano-sachs-regime-change-in-venezuela-2025-11-04.md)
+- [2025-11-11 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-11/source-napolitano-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md)
+- [2025-11-17 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-17/source-napolitano-sachs-netanyahu-sabotages-a-palestinian-state-2025-11-17.md)
+- [2025-11-24 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-24/source-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md)
+- [2025-12-02 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-02/source-napolitano-sachs-is-trump-planning-more-wars-2025-12-02.md)
+- [2025-12-10 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-10/source-napolitano-sachs-underestimating-russia-2025-12-10.md)
+- [2025-12-15 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-15/source-napolitano-sachs-trumps-empire-of-hubris-2025-12-15.md)
+- [2026-03-16 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-16/source-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md)
+- [2026-05-27 / Judging Freedom x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-napolitano-sachs-trump-has-no-lifeline-out-of-iran-2026-05-27.md)
 
 Treat the `2025-02-03` anchor as a confirmed full front door below transcript-grade, not as a transcript-bearing local body.
 
@@ -83,8 +83,8 @@ Open the direct Sachs lecture surfaces first when the real question is:
 
 Best current direct anchors:
 
-- [2025-11-05 / Jeffrey Sachs lecture](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-05/youtube-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md)
-- [2025-11-21 / Jeffrey Sachs lecture](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-21/youtube-sachs-roasts-trump-for-skipping-the-g20-summit-in-south-africa-2025-11-21.md)
+- [2025-11-05 / Jeffrey Sachs lecture](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-05/source-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md)
+- [2025-11-21 / Jeffrey Sachs lecture](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-21/source-sachs-roasts-trump-for-skipping-the-g20-summit-in-south-africa-2025-11-21.md)
 
 Treat these as honest full front doors rather than transcript-bearing local bodies.
 
@@ -98,7 +98,7 @@ Open the Fidias interview first when the real question is:
 
 Best current anchor:
 
-- [2025-11-01 / Fidias Podcast x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-01/transcript-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md)
+- [2025-11-01 / Fidias Podcast x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-01/source-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md)
 
 ## Open Neutrality Studies Or HORIZONS First
 
@@ -110,8 +110,8 @@ Open the Neutrality Studies or HORIZONS anchors first when the real question is:
 
 Best current anchors:
 
-- [2025-12-09 / Neutrality Studies x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-09/youtube-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md)
-- [2025-12-19 / HORIZONS Discussion x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-19/transcript-horizons-vuk-jeremic-sachs-the-asia-pacific-century-explained-2025-12-19.md)
+- [2025-12-09 / Neutrality Studies x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-09/source-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md)
+- [2025-12-19 / HORIZONS Discussion x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-19/source-horizons-vuk-jeremic-sachs-the-asia-pacific-century-explained-2025-12-19.md)
 
 
 ## Open Mercouris Or Tucker First
@@ -124,10 +124,10 @@ Open the Mercouris or Tucker anchors first when the real question is:
 
 Best current anchors:
 
-- [2025-06-11 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-11/transcript-sachs-carlson-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md)
-- [2025-10-01 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-01/transcript-sachs-carlson-blackmail-bribes-and-fear-netanyahu-claims-he-controls-donald-trump-and-america-2025-10-01.md)
-- [2026-05-07 / Mercouris x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-07/transcript-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
-- [2026-04-24 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
+- [2025-06-11 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-11/source-sachs-carlson-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md)
+- [2025-10-01 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-01/source-sachs-carlson-blackmail-bribes-and-fear-netanyahu-claims-he-controls-donald-trump-and-america-2025-10-01.md)
+- [2026-05-07 / Mercouris x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-07/source-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
+- [2026-04-24 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md)
 
 These are reinforcement lanes, not primary openers.
 

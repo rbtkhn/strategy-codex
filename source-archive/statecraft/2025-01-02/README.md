@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
-- Type mix: `youtube` (5)
+- Body kind mix: `transcript` (5)
+- Source form mix: `interview` (5)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `5`
@@ -21,14 +22,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Biden` (1), `New Orleans Terror Attack` (1), `New Orleans Terror Attack UPDATE` (1), `US Leaders' Focused on the Wrong Terror Targets` (1), `Ukraine on the Verge of Military Defeat` (1)
 - Threads: `davis` (5)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `youtube-daniel-davis-deep-dive-biden-new-orleans-terror-suspect-inspired-by-isis-2025-01-02.md`
-- `youtube-daniel-davis-deep-dive-new-orleans-terror-attack-louisiana-sen-john-kennedy-2025-01-02.md`
-- `youtube-daniel-davis-deep-dive-new-orleans-terror-attack-update-2025-01-02.md`
-- `youtube-daniel-davis-deep-dive-ukraine-on-the-verge-of-military-defeat-2025-01-02.md`
-- `youtube-daniel-davis-deep-dive-us-leaders-focused-on-the-wrong-terror-targets-2025-01-02.md`
+- `source-daniel-davis-deep-dive-biden-new-orleans-terror-suspect-inspired-by-isis-2025-01-02.md`
+- `source-daniel-davis-deep-dive-new-orleans-terror-attack-louisiana-sen-john-kennedy-2025-01-02.md`
+- `source-daniel-davis-deep-dive-new-orleans-terror-attack-update-2025-01-02.md`
+- `source-daniel-davis-deep-dive-ukraine-on-the-verge-of-military-defeat-2025-01-02.md`
+- `source-daniel-davis-deep-dive-us-leaders-focused-on-the-wrong-terror-targets-2025-01-02.md`

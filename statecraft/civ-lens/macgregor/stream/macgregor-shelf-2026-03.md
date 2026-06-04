@@ -8,15 +8,15 @@ Month status: `mature retrieval month`
 
 ## March index
 
-- [youtube-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-02/youtube-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md)
+- [source-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-02/source-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md)
   - Altitude lane opens the month with world-order consequence and Iran-war enlargement.
-- [transcript-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-03/transcript-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md)
+- [source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-03/source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md)
   - Davis converts the same crisis into force-feasibility and imperial-cost language.
-- [transcript-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/transcript-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
+- [source-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/source-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
   - Practical severity lane thickens into attritional realism.
-- [youtube-daniel-davis-deep-dive-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-15/youtube-daniel-davis-deep-dive-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md)
+- [source-daniel-davis-deep-dive-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-15/source-daniel-davis-deep-dive-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md)
   - Davis lane consolidates unsustainable-war reading.
-- [transcript-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/transcript-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
+- [source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
   - Napolitano branch closes the month by sharpening desperation and elite-war-planning indictment.
 
 ## Reading note

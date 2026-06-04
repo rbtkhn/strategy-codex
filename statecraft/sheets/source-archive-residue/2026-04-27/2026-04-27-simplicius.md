@@ -7,7 +7,7 @@ source_path: docs/skill-work/work-strategy/strategy-notebook/experts/simplicius/
 ---
 
 ## 2026-04-27
-- Inbox | cold: full text in [`substack-simplicius-us-carrier-groups-trump-dissatisfied-iran-2026-04-27.md`](provenance/2026-04-27/substack-simplicius-us-carrier-groups-trump-dissatisfied-iran-2026-04-27.md) (pointer; SSOT raw-input) | thread:simplicius
+- Inbox | cold: full text in [`source-simplicius-us-carrier-groups-trump-dissatisfied-iran-2026-04-27.md`](provenance/2026-04-27/source-simplicius-us-carrier-groups-trump-dissatisfied-iran-2026-04-27.md) (pointer; SSOT raw-input) | thread:simplicius
 
 
 

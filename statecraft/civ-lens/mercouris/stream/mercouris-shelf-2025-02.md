@@ -8,11 +8,11 @@ Month status: `prehistory hinge month`
 
 ## February prehistory index
 
-- [youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
+- [source-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/source-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md)
   - February opens by moving January's contact-restoration and settlement-sequencing strand into a harder register: direct Putin-call confirmation, four-regions firmness, Kursk failure, and Europe-side energy strain all tighten at once.
-- [transcript-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/transcript-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md)
+- [source-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/source-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md)
   - The month's key reinforcement object makes the Europe-side cardlessness explicit and reusable outside the native stream: peace pressure, NATO impossibility, and the Americans-vs-Europe asymmetry become the center of discussion.
-- [youtube-alex-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-20/youtube-alex-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md)
+- [source-alex-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-20/source-alex-mercouris-disastrous-zelensky-presser-angers-trump-zelensky-dictator-us-aid-gravy-train-hints-disengagement-2025-02-20.md)
   - The late-month rupture object turns the hinge into something unmistakable: Zelensky-Trump breakage, U.S. disengagement hints, and the transition from negotiation theater to abandonment-risk all become fully legible.
 
 ## Reading note

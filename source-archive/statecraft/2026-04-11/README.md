@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `substack` (1), `transcript` (1), `youtube` (1)
+- Body kind mix: `source` (1), `substack-post` (1), `transcript` (1)
+- Source form mix: `interview` (1), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jiang Xueqin` (1)
 - Threads: `diesen` (1), `mercouris` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-simplicius-stymied-by-new-ukrainian-drone-wall-2026-04-11.md`
-- `transcript-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md`
-- `youtube-alex-mercouris-iran-keeps-hormuz-russia-keeps-advancing-two-wars-at-a-crossroads-russia-2026-04-11.md`
+- `source-alex-mercouris-iran-keeps-hormuz-russia-keeps-advancing-two-wars-at-a-crossroads-russia-2026-04-11.md`
+- `source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md`
+- `source-simplicius-stymied-by-new-ukrainian-drone-wall-2026-04-11.md`

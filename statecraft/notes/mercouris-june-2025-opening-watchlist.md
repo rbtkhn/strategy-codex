@@ -25,12 +25,12 @@ Against the current working floor of `8+` Mercouris-thread captures per month, J
 
 The currently landed `native solo Mercouris` June captures are:
 
-- `2025-06-10` - [lavrov-harshly-blames-uk-for-kiev-dirty-war-hints-retaliation-huge-missile-drone-strike-hits-kiev](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-10/youtube-alex-mercouris-lavrov-harshly-blames-uk-for-kiev-dirty-war-hints-retaliation-huge-missile-drone-strike-hits-kiev-2025-06-10.md)
-- `2025-06-11` - [moscow-tough-response-kiev-uk-dirty-war-russia-arms-output-soars-nato-fearful-us-cuts-kiev-aid](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-11/youtube-alex-mercouris-moscow-tough-response-kiev-uk-dirty-war-russia-arms-output-soars-nato-fearful-us-cuts-kiev-aid-2025-06-11.md)
-- `2025-06-15` - [iran-strikes-continue-israels-plan-ad-falter-asks-us-join-war-putin-slams-trump-in-angry-call](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-15/youtube-alex-mercouris-iran-strikes-continue-israels-plan-ad-falter-asks-us-join-war-putin-slams-trump-in-angry-call-2025-06-15.md)
-- `2025-06-20` - [china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-20/youtube-alex-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md)
-- `2025-06-24` - [us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-24/youtube-alex-mercouris-us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points-2025-06-24.md)
-- `2025-06-27` - [us-eu-turns-on-zelensky-gives-up-on-kiev-aid-dwindles-russians-encircle-pokrovsk-israel-badly-hit](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-27/youtube-alex-mercouris-us-eu-turns-on-zelensky-gives-up-on-kiev-aid-dwindles-russians-encircle-pokrovsk-israel-badly-hit-2025-06-27.md)
+- `2025-06-10` - [lavrov-harshly-blames-uk-for-kiev-dirty-war-hints-retaliation-huge-missile-drone-strike-hits-kiev](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-10/source-alex-mercouris-lavrov-harshly-blames-uk-for-kiev-dirty-war-hints-retaliation-huge-missile-drone-strike-hits-kiev-2025-06-10.md)
+- `2025-06-11` - [moscow-tough-response-kiev-uk-dirty-war-russia-arms-output-soars-nato-fearful-us-cuts-kiev-aid](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-11/source-alex-mercouris-moscow-tough-response-kiev-uk-dirty-war-russia-arms-output-soars-nato-fearful-us-cuts-kiev-aid-2025-06-11.md)
+- `2025-06-15` - [iran-strikes-continue-israels-plan-ad-falter-asks-us-join-war-putin-slams-trump-in-angry-call](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-15/source-alex-mercouris-iran-strikes-continue-israels-plan-ad-falter-asks-us-join-war-putin-slams-trump-in-angry-call-2025-06-15.md)
+- `2025-06-20` - [china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-20/source-alex-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md)
+- `2025-06-24` - [us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-24/source-alex-mercouris-us-retreats-seeks-truce-heeds-russian-warnings-hormuz-straits-closure-threats-iran-ahead-on-points-2025-06-24.md)
+- `2025-06-27` - [us-eu-turns-on-zelensky-gives-up-on-kiev-aid-dwindles-russians-encircle-pokrovsk-israel-badly-hit](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-27/source-alex-mercouris-us-eu-turns-on-zelensky-gives-up-on-kiev-aid-dwindles-russians-encircle-pokrovsk-israel-badly-hit-2025-06-27.md)
 
 So June currently preserves a thin solo lane plus one landed co-hosted Duran lane.
 
@@ -38,9 +38,9 @@ So June currently preserves a thin solo lane plus one landed co-hosted Duran lan
 
 The currently landed June 2025 `Duran / Mercouris co-hosted` captures are:
 
-- `2025-06-02` - [drone-attacks-and-russia-red-lines](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-02/transcript-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md)
-- `2025-06-17` - [trump-on-the-brink-of-iran-war-live](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/transcript-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md)
-- `2025-06-21` - [putin-iran-air-defense-and-ukraine-military-outcome](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-21/transcript-duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2025-06-21.md)
+- `2025-06-02` - [drone-attacks-and-russia-red-lines](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-02/source-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md)
+- `2025-06-17` - [trump-on-the-brink-of-iran-war-live](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md)
+- `2025-06-21` - [putin-iran-air-defense-and-ukraine-military-outcome](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-21/source-duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2025-06-21.md)
 
 That does **not** mean the June co-hosted lane is complete. It means the lane is now present on disk rather than merely inferred from external evidence.
 

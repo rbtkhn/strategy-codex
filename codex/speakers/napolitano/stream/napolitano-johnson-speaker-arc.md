@@ -28,12 +28,12 @@ In this lane the useful transformation is:
 
 ## Open first
 
-- [2026-04-20 Larry Johnson - Who Controls Hormuz?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/judging-freedom-johnson-who-controls-hormuz-2026-04-20.md)
-- [2026-03-30 Larry Johnson - Trump's Suicide Mission of Boots on the Ground](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-30/transcript-napolitano-johnson-trumps-suicide-mission-of-boots-on-the-ground-2026-03-30.md)
-- [2026-02-23 Larry Johnson - Trump's Decision Making and Huckabee's Buffoonery](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-23/transcript-napolitano-johnson-trumps-decision-making-and-huckabees-buffoonery-2026-02-23.md)
-- [2026-01-12 Larry Johnson - Is the CIA Fueling Iran's Chaos?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-12/transcript-napolitano-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md)
-- [2025-12-22 Larry Johnson - Why Is the West Ignorant of Russia?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-22/transcript-napolitano-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md)
-- [2025-11-24 Larry Johnson - 28-Point Plan Is Dead on Arrival](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-24/transcript-napolitano-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md)
+- [2026-04-20 Larry Johnson - Who Controls Hormuz?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md)
+- [2026-03-30 Larry Johnson - Trump's Suicide Mission of Boots on the Ground](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-30/source-napolitano-johnson-trumps-suicide-mission-of-boots-on-the-ground-2026-03-30.md)
+- [2026-02-23 Larry Johnson - Trump's Decision Making and Huckabee's Buffoonery](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-23/source-napolitano-johnson-trumps-decision-making-and-huckabees-buffoonery-2026-02-23.md)
+- [2026-01-12 Larry Johnson - Is the CIA Fueling Iran's Chaos?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-12/source-napolitano-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md)
+- [2025-12-22 Larry Johnson - Why Is the West Ignorant of Russia?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-22/source-napolitano-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md)
+- [2025-11-24 Larry Johnson - 28-Point Plan Is Dead on Arrival](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-24/source-napolitano-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md)
 
 ## Orthogonality guide
 

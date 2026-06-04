@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
+- Body kind mix: `transcript` (2)
+- Source form mix: `panel` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Larry Wilkerson` (1)
 - Threads: `freeman` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md`
-- `youtube-alex-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md`
+- `source-alex-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md`
+- `source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md`

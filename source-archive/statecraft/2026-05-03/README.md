@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `substack` (2), `article` (1)
+- Body kind mix: `substack-post` (2), `article` (1)
+- Source form mix: `newsletter` (3)
 - Distinct channels/shows: `2`
 - Distinct hosts: `0`
 - Distinct guests: `0`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `pape` (1), `parsi` (1), `ritter` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (2), `article-ritter-*` (1)
-
 ## Files
 
-- `article-ritter-fifth-year-russia-smo-2026-05-03.md`
-- `substack-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md`
-- `substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md`
+- `source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md`
+- `source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md`
+- `source-ritter-fifth-year-russia-smo-2026-05-03.md`

@@ -13,14 +13,14 @@ Current shape:
 Open first:
 
 - [kent-routing.md](kent-routing.md)
-- [kent-raw-input-index.md](kent-raw-input-index.md)
+- [kent-source-index.md](kent-source-index.md)
 - [kent-support-spine-2026.md](kent-support-spine-2026.md)
 - [kent-march-may-2026-cluster-note.md](kent-march-may-2026-cluster-note.md)
 
 Canonical structure:
 
 - **Routing surface:** [kent-routing.md](kent-routing.md) answers which host lane to open first.
-- **Provenance bench:** [kent-raw-input-index.md](kent-raw-input-index.md) is the canonical route map for materialized Kent appearances.
+- **Source index:** [kent-source-index.md](kent-source-index.md) is the canonical route map for materialized Kent appearances.
 - **Support spine:** [kent-support-spine-2026.md](kent-support-spine-2026.md) owns maturity law and host-role comparison.
 - **Cluster note:** [kent-march-may-2026-cluster-note.md](kent-march-may-2026-cluster-note.md) gives a bounded reusable synthesis of the March-May 2026 run.
 

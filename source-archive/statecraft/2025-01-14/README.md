@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
-- Type mix: `youtube` (3), `transcript` (2)
+- Body kind mix: `transcript` (5)
+- Source form mix: `interview` (4), `solo` (1)
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `4`
@@ -21,14 +22,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Israel Shaken` (1), `UKRAINE & CRIMEA` (1), `Why the DC Elite are Trying to Kill Tulsi's Nomination` (1)
 - Threads: `davis` (2), `freeman` (1), `mercouris` (1), `napolitano` (1), `nima` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md`
-- `transcript-napolitano-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md`
-- `youtube-alex-mercouris-trump-up-to-putin-how-war-ends-bryansk-atacms-strike-fails-gaza-ceasefir-2025-01-14.md`
-- `youtube-daniel-davis-deep-dive-ukraine-crimea-the-future-lt-col-daniel-davis-2025-01-14.md`
-- `youtube-daniel-davis-deep-dive-why-the-dc-elite-are-trying-to-kill-tulsi-s-nomination-2025-01-14.md`
+- `source-alex-mercouris-trump-up-to-putin-how-war-ends-bryansk-atacms-strike-fails-gaza-ceasefir-2025-01-14.md`
+- `source-daniel-davis-deep-dive-ukraine-crimea-the-future-lt-col-daniel-davis-2025-01-14.md`
+- `source-daniel-davis-deep-dive-why-the-dc-elite-are-trying-to-kill-tulsi-s-nomination-2025-01-14.md`
+- `source-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md`
+- `source-napolitano-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md`

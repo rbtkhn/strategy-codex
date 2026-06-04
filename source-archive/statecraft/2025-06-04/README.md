@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `transcript` (4)
+- Body kind mix: `transcript` (3), `source` (1)
+- Source form mix: `interview` (4)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `4`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Charles Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `john-mearsheimer` (1)
 - Threads: `napolitano` (2), `davis` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `mearsheimer` (1), `sachs` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1)
-
 ## Files
 
-- `transcript-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04.md`
-- `transcript-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md`
-- `transcript-napolitano-amb-charles-freeman-is-hegseth-picking-a-fight-with-china-2025-06-04.md`
-- `transcript-napolitano-macgregor-is-russia-on-the-ropes-2025-06-04.md`
+- `source-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04.md`
+- `source-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md`
+- `source-napolitano-amb-charles-freeman-is-hegseth-picking-a-fight-with-china-2025-06-04.md`
+- `source-napolitano-macgregor-is-russia-on-the-ropes-2025-06-04.md`

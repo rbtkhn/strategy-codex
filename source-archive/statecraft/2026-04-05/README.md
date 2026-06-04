@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
-- Type mix: `youtube` (3), `mercouris` (1), `substack` (1)
+- Body kind mix: `transcript` (2), `operator-transcript` (1), `substack-post` (1), `youtube` (1)
+- Source form mix: `interview` (3), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `4`
 - Distinct hosts: `3`
 - Distinct guests: `3`
@@ -21,14 +22,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Ray McGovern` (1), `Scott Ritter` (1)
 - Threads: `mercouris` (2), `davis` (1), `diesen` (1), `mcgovern` (1), `ritter` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `mercouris-f15-*` (1), `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `mercouris-f15-rescue-hormuz-nato-kiev-2026-04-05.md`
-- `substack-simplicius-its-official-us-boots-on-ground-deep-2026-04-05.md`
-- `youtube-alex-mercouris-iran-destroys-multiple-us-aircraft-us-rescues-f15-pilot-us-readies-huge-2026-04-05.md`
-- `youtube-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md`
-- `youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md`
+- `source-alex-mercouris-iran-destroys-multiple-us-aircraft-us-rescues-f15-pilot-us-readies-huge-2026-04-05.md`
+- `source-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md`
+- `source-f15-rescue-hormuz-nato-kiev-2026-04-05.md`
+- `source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md`
+- `source-simplicius-its-official-us-boots-on-ground-deep-2026-04-05.md`

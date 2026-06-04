@@ -45,7 +45,7 @@ Do not use `Diesen` as a shortcut for bargaining realism, `Davis` as a shortcut 
 The four strands are the main host transformations, but the Freeman object also has a year-level support bench that should stay wired into routing:
 
 - [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md)
-- [Freeman raw-input index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md)
+- [Freeman source index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-source-index.md)
 - [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
 
 These surfaces matter because they separate two different kinds of support material that sit outside the four host strands:

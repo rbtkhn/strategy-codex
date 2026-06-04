@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
+- Body kind mix: `source` (1), `transcript` (1)
+- Source form mix: `article` (1), `solo` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry Johnson` (1)
 - Threads: `johnson` (1), `mercouris` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-napolitano-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-napolitano-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md`
-- `youtube-alex-mercouris-russian-sumy-advance-alarms-kiev-dirty-war-escalates-russian-general-kil-2025-12-22.md`
+- `source-alex-mercouris-russian-sumy-advance-alarms-kiev-dirty-war-escalates-russian-general-kil-2025-12-22.md`
+- `source-napolitano-johnson-why-is-the-west-ignorant-of-russia-2025-12-22.md`

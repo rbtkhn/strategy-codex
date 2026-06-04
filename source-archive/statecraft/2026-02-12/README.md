@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `substack` (2), `transcript` (1), `youtube` (1)
+- Body kind mix: `paste-bundle` (1), `source` (1), `substack-post` (1), `transcript` (1)
+- Source form mix: `newsletter` (2), `interview` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Lawrence Wilkerson` (1)
 - Threads: `crooke` (1), `mercouris` (1), `napolitano` (1), `simplicius` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (2), `transcript-napolitano-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-crooke-trump-kabuki-theatre-in-ukraine-nothing-2026-02-12.md`
-- `substack-simplicius-new-western-reports-reveal-vast-russian-2026-02-12.md`
-- `transcript-napolitano-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md`
-- `youtube-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md`
+- `source-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md`
+- `source-crooke-trump-kabuki-theatre-in-ukraine-nothing-2026-02-12.md`
+- `source-napolitano-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md`
+- `source-simplicius-new-western-reports-reveal-vast-russian-2026-02-12.md`

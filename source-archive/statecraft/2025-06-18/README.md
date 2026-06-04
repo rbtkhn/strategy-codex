@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `transcript` (1)
+- Body kind mix: `transcript` (1)
+- Source form mix: `interview` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Charles Freeman` (1)
 - Threads: `freeman` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-napolitano-amb-charles-freeman-what-remains-of-the-resistance-2025-06-18.md`
+- `source-napolitano-amb-charles-freeman-what-remains-of-the-resistance-2025-06-18.md`

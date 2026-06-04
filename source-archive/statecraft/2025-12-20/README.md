@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `transcript` (2)
+- Source form mix: `solo` (2)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `0`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `daniel-davis` (1), `davis` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-ukraine-money-crisis-eu-massive-hole-in-budget-war-costs-sinking-west-ec-2025-12-20.md`
-- `youtube-daniel-davis-ukraine-russia-war-reporting-hoax-lt-col-daniel-davis-2025-12-20.md`
+- `source-alex-mercouris-ukraine-money-crisis-eu-massive-hole-in-budget-war-costs-sinking-west-ec-2025-12-20.md`
+- `source-daniel-davis-ukraine-russia-war-reporting-hoax-lt-col-daniel-davis-2025-12-20.md`

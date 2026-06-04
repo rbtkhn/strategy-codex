@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `transcript` (1)
+- Body kind mix: `transcript` (1)
+- Source form mix: `interview` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry Wilkerson` (1)
 - Threads: `nima` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-dialogue-works-col-larry-wilkerson-warning-signs-everywhere-us-on-the-verge-of-disaster-2025-08-26.md`
+- `source-dialogue-works-col-larry-wilkerson-warning-signs-everywhere-us-on-the-verge-of-disaster-2025-08-26.md`

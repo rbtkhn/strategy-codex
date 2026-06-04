@@ -1,6 +1,6 @@
 # Verify pass — Pape, *2 Blockades, 2 Clocks* (2026-04-24)
 
-**Scope:** Triage fact-check on **load-bearing empirical hooks** in [`substack-pape-2-blockades-2-clocks-2026-04-24.md`](substack-pape-2-blockades-2-clocks-2026-04-24.md). **Not** a full audit of the Substack piece. **Not** Record.
+**Scope:** Triage fact-check on **load-bearing empirical hooks** in [`source-pape-2-blockades-2-clocks-2026-04-24.md`](source-pape-2-blockades-2-clocks-2026-04-24.md). **Not** a full audit of the Substack piece. **Not** Record.
 
 **Run:** 2026-04-24 (assistant web pass).
 

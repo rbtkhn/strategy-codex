@@ -65,7 +65,7 @@ Supporting surfaces:
 
 - [wilkerson-helix.md](wilkerson-helix.md)
 - [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md)
-- [wilkerson-raw-input-index.md](wilkerson-raw-input-index.md)
+- [wilkerson-source-index.md](wilkerson-source-index.md)
 - [index.md](index.md)
 
 ## Open first

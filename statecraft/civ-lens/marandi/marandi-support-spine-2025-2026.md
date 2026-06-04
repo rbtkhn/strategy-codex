@@ -17,7 +17,7 @@ Quick separation rule:
 
 - [marandi-arc.md](marandi-arc.md) = whole-speaker continuity
 - [marandi-routing.md](marandi-routing.md) = fastest lane selection
-- [marandi-raw-input-index.md](marandi-raw-input-index.md) = provenance bench
+- [marandi-source-index.md](marandi-source-index.md) = source bench
 - [marandi-helix.md](marandi-helix.md) = host-conditioned structure
 - this file = maturity and extension law
 

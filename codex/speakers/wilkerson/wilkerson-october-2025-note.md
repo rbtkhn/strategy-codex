@@ -23,44 +23,44 @@ Unlike August and September, October is still thinner on disk, but it now shows 
 
 ## Materialized on disk
 
-1. [2025-10-01 - *Col. Larry Wilkerson: Warning Signs: Is the United States on the Path to Disaster?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-01/transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-warning-signs-is-the-united-states-on-the-path-to-disaster-2025-10-01.md)
+1. [2025-10-01 - *Col. Larry Wilkerson: Warning Signs: Is the United States on the Path to Disaster?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-01/source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-warning-signs-is-the-united-states-on-the-path-to-disaster-2025-10-01.md)
    Status: transcript-bearing solo `Dialogue Works` October opener already materialized.
    URL: [https://www.youtube.com/watch?v=hlrP9H9GN6U](https://www.youtube.com/watch?v=hlrP9H9GN6U)
 
-2. [2025-10-03 - *Larry C. Johnson & Col. Larry Wilkerson: Charlie Kirk UPDATE- Iran WAR Fallout - Putin IGNORES Trump*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-03/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-charlie-kirk-update-iran-war-fallout-putin-ignores-trump-2025-10-03.md)
+2. [2025-10-03 - *Larry C. Johnson & Col. Larry Wilkerson: Charlie Kirk UPDATE- Iran WAR Fallout - Putin IGNORES Trump*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-03/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-charlie-kirk-update-iran-war-fallout-putin-ignores-trump-2025-10-03.md)
    Status: transcript-bearing Johnson/Wilkerson `Dialogue Works` crossover now materialized from the operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=8x0SXBeMxm8](https://www.youtube.com/watch?v=8x0SXBeMxm8)
    Date note: recovered podcast mirrors had a nearby `2025-10-04` publication surface, but the transcript itself self-dates the episode as `Friday, October 3rd, 2025`, so the on-disk anchor resolves to `2025-10-03`.
 
-3. [2025-10-07 - *Col. Larry Wilkerson: October 7th Aftermath: Israel's Worst Defeat in History!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-07/transcript-dialogue-works-col-larry-wilkerson-october-7th-aftermath-israels-worst-defeat-in-history-2025-10-07.md)
+3. [2025-10-07 - *Col. Larry Wilkerson: October 7th Aftermath: Israel's Worst Defeat in History!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-07/source-dialogue-works-col-larry-wilkerson-october-7th-aftermath-israels-worst-defeat-in-history-2025-10-07.md)
    Status: transcript-bearing solo `Dialogue Works` October 7 aftermath anchor now materialized from the operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=vSsEGyyzwTM](https://www.youtube.com/watch?v=vSsEGyyzwTM)
 
-4. [2025-10-09 - *COL. Lawrence Wilkerson : US War on Iran Is Imminent!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-09/transcript-napolitano-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md)
+4. [2025-10-09 - *COL. Lawrence Wilkerson : US War on Iran Is Imminent!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-09/source-napolitano-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md)
    Status: transcript-bearing `Judging Freedom` October bridge now materialized from the operator-pasted transcript.
    URL status: direct YouTube watch ID unrecovered in this pass.
 
-5. [2025-10-10 - *Lawrence Wilkerson: The Path From Forever Wars to Nuclear War*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-10/youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-the-path-from-forever-wars-to-nuclear-war-2025-10-10.md)
+5. [2025-10-10 - *Lawrence Wilkerson: The Path From Forever Wars to Nuclear War*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-10/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-the-path-from-forever-wars-to-nuclear-war-2025-10-10.md)
    Status: transcript-bearing `Diesen` October anchor already materialized.
    URL: [https://www.youtube.com/watch?v=1E7pBHYby8w](https://www.youtube.com/watch?v=1E7pBHYby8w)
 
-6. [2025-10-14 - *Col. Larry Wilkerson: The Iran War Threat RETURNS - But Iran Has Transformed into a Military Giant!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-14/transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14.md)
+6. [2025-10-14 - *Col. Larry Wilkerson: The Iran War Threat RETURNS - But Iran Has Transformed into a Military Giant!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-14/source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14.md)
    Status: transcript-bearing solo `Dialogue Works` mid-October escalation frame already materialized.
    URL: [https://www.youtube.com/watch?v=1mFJ1TDGMcU](https://www.youtube.com/watch?v=1mFJ1TDGMcU)
 
-7. [2025-10-17 - *Larry C. Johnson & Col. Larry Wilkerson: Russia & Iran Are Building a WAR Shield!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-17/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-and-iran-are-building-a-war-shield-2025-10-17.md)
+7. [2025-10-17 - *Larry C. Johnson & Col. Larry Wilkerson: Russia & Iran Are Building a WAR Shield!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-17/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-and-iran-are-building-a-war-shield-2025-10-17.md)
    Status: transcript-bearing Johnson/Wilkerson `Dialogue Works` mid-October crossover now materialized from the operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=f1MYt24aWWQ](https://www.youtube.com/watch?v=f1MYt24aWWQ)
 
-8. [2025-10-21 - *Col. Larry Wilkerson: Every Warning Sign Is Flashing Red - The U.S. Can't Escape This*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-21/transcript-dialogue-works-col-larry-wilkerson-every-warning-sign-is-flashing-red-the-us-cant-escape-this-2025-10-21.md)
+8. [2025-10-21 - *Col. Larry Wilkerson: Every Warning Sign Is Flashing Red - The U.S. Can't Escape This*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-21/source-dialogue-works-col-larry-wilkerson-every-warning-sign-is-flashing-red-the-us-cant-escape-this-2025-10-21.md)
    Status: transcript-bearing solo `Dialogue Works` late-October continuation now materialized from the operator-pasted transcript.
    Date note: some recovery mirrors had a nearby `2025-10-22` publication surface, but the transcript itself self-dates the episode as `Tuesday, October 21st, 2025`, so the on-disk anchor resolves to `2025-10-21`.
 
-9. [2025-10-23 - *COL. Lawrence Wilkerson : What Ceasefire?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-23/transcript-napolitano-wilkerson-what-ceasefire-2025-10-23.md)
+9. [2025-10-23 - *COL. Lawrence Wilkerson : What Ceasefire?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-23/source-napolitano-wilkerson-what-ceasefire-2025-10-23.md)
    Status: transcript-bearing `Judging Freedom` late-October continuation now materialized from the operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=kx-3RfjPvMo](https://www.youtube.com/watch?v=kx-3RfjPvMo)
 
-10. [2025-10-24 - *Larry C. Johnson & Col. Larry Wilkerson: The world is on the BRINK of WORLD WAR III*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-24/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-the-world-is-on-the-brink-of-world-war-iii-2025-10-24.md)
+10. [2025-10-24 - *Larry C. Johnson & Col. Larry Wilkerson: The world is on the BRINK of WORLD WAR III*](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-24/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-the-world-is-on-the-brink-of-world-war-iii-2025-10-24.md)
    Status: transcript-bearing Johnson/Wilkerson `Dialogue Works` late-October crossover now materialized from the operator-pasted transcript.
    URL: [https://www.youtube.com/watch?v=aCnRKqguAYk](https://www.youtube.com/watch?v=aCnRKqguAYk)
    Date note: earlier recovery mirrors had suggested a nearby `2025-10-25` publication surface, but the transcript itself self-dates the episode as `Friday, October 24th, 2025`, so the on-disk anchor resolves to `2025-10-24`.

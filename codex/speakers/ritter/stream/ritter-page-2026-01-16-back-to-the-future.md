@@ -268,7 +268,7 @@ Sanctions thread: track whether the piece is arguing mechanism (elite leverage, 
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-01-16/substack-ritter-back-to-the-future-2026-01-16.md](../../../../years/2026/provenance/2026-01-16/substack-ritter-back-to-the-future-2026-01-16.md)
+- **Full verbatim (capture):** [provenance/2026-01-16/source-ritter-back-to-the-future-2026-01-16.md](../../../../years/2026/provenance/2026-01-16/source-ritter-back-to-the-future-2026-01-16.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-01-16)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/back-to-the-future

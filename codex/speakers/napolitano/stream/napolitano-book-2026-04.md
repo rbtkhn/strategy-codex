@@ -8,14 +8,14 @@ Purpose: April 2026 monthly index for the native `Judging Freedom` shelf.
 
 | Date | Guest | File |
 |---|---|---|
-| 2026-04-14 | Chas Freeman | [transcript-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-14/transcript-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md) |
-| 2026-04-20 | Larry Johnson | [judging-freedom-johnson-who-controls-hormuz-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/judging-freedom-johnson-who-controls-hormuz-2026-04-20.md) |
-| 2026-04-20 | Scott Ritter | [judging-freedom-trump-hegseth-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md) |
-| 2026-04-21 | Chas Freeman | [transcript-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/transcript-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md) |
-| 2026-04-23 | Douglas Macgregor | [transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md) |
-| 2026-04-28 | John Mearsheimer | [transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/transcript-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md) |
-| 2026-04-28 | Chas Freeman | [transcript-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/transcript-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md) |
-| 2026-04-30 | Lawrence Wilkerson | [transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md) |
+| 2026-04-14 | Chas Freeman | [source-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-14/source-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md) |
+| 2026-04-20 | Larry Johnson | [source-johnson-who-controls-hormuz-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md) |
+| 2026-04-20 | Scott Ritter | [source-trump-hegseth-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-trump-hegseth-2026-04-20.md) |
+| 2026-04-21 | Chas Freeman | [source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md) |
+| 2026-04-23 | Douglas Macgregor | [source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md) |
+| 2026-04-28 | John Mearsheimer | [source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md) |
+| 2026-04-28 | Chas Freeman | [source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md) |
+| 2026-04-30 | Lawrence Wilkerson | [source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-30/source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md) |
 
 ## Host-local arcs
 

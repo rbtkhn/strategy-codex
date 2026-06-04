@@ -65,7 +65,7 @@ If the operator needs the cleanest Marandi helix entry:
 
 If the operator specifically needs the late-May endpoint:
 
-- add [2026-05-26 / Dialogue Works x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+- add [2026-05-26 / Dialogue Works x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 
 ## Boundaries
 

@@ -23,7 +23,7 @@ The orthogonality-bearing structure on this shelf is:
 
 The Barnes quote-surface is reinforcement, not a fifth canonical strand:
 
-- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/x-barnes-kent-exit-ramp-qt-2026-04-21.md)
+- [2026-04-21 Barnes x Kent exit-ramp quote](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-barnes-kent-exit-ramp-qt-2026-04-21.md)
 
 ## Main Host Routes
 

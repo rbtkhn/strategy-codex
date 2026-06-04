@@ -13,7 +13,7 @@ Current shape:
 Open first:
 
 - [hoh-routing.md](hoh-routing.md)
-- [hoh-raw-input-index.md](hoh-raw-input-index.md)
+- [hoh-source-index.md](hoh-source-index.md)
 
 Boundary:
 

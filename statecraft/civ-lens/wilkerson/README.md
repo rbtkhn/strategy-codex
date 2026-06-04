@@ -22,7 +22,7 @@ That means:
 - [wilkerson-arc.md](wilkerson-arc.md)
 - [wilkerson-routing.md](wilkerson-routing.md)
 - [wilkerson-helix.md](wilkerson-helix.md)
-- [wilkerson-raw-input-index.md](wilkerson-raw-input-index.md)
+- [wilkerson-source-index.md](wilkerson-source-index.md)
 - [legacy Wilkerson surface orthogonality](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md)
 
 ## Structural notes

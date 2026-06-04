@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
+- Body kind mix: `transcript` (1), `youtube-transcript` (1)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
 - Threads: `mercouris` (1), `napolitano` (1), `sachs` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-napolitano-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md`
-- `youtube-alex-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md`
+- `source-alex-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md`
+- `source-napolitano-sachs-trump-and-tariffs-trump-and-war-2025-11-11.md`

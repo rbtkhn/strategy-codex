@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (2)
+- Body kind mix: `source` (1), `transcript` (1)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `1`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Chas Freeman` (1)
 - Threads: `crooke` (1), `freeman` (1), `nima` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-alastair-crooke-alastair-crooke-iran-israel-ceasefire-inside-the-12-day-war-trump-s-peace-deal-2025-06-25.md`
-- `transcript-dialogue-works-amb-chas-freeman-turning-point-in-global-power-iran-attacked-russia-reacts-2025-06-25.md`
+- `source-dialogue-works-alastair-crooke-alastair-crooke-iran-israel-ceasefire-inside-the-12-day-war-trump-s-peace-deal-2025-06-25.md`
+- `source-dialogue-works-amb-chas-freeman-turning-point-in-global-power-iran-attacked-russia-reacts-2025-06-25.md`

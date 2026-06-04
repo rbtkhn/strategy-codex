@@ -6,7 +6,7 @@ Purpose: secondary wiring for Pape host appearances. The authored Substack forec
 
 ## Source Boundary
 
-V1 includes clean host-owned or host-labeled Pape appearances from 2026 already present in tracked raw-input. It excludes `substack-pape-*`, generic `transcript-pape.md` stubs, `x-pape-*`, `verify-pape-*`, unhosted date-named `*-pape.md` files, and non-Pape speaker paths.
+V1 includes clean host-owned or host-labeled Pape appearances from 2026 already present in tracked raw-input. It excludes `substack-pape-*`, generic `source-pape-2026-04-18.md` stubs, `x-pape-*`, `verify-pape-*`, unhosted date-named `*-pape.md` files, and non-Pape speaker paths.
 
 Expected v1 count: 4 files.
 
@@ -16,25 +16,25 @@ Expected v1 count: 4 files.
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-03-10 | The Escalation Trap: Why Escalation Favors Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md) | escalation mechanics and ground-war threshold |
+| 2026-03-10 | The Escalation Trap: Why Escalation Favors Iran | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md) | escalation mechanics and ground-war threshold |
 
 ### Redacted
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-04-20 | The Collapse is Now Ahead of Schedule | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/redacted-pape-collapse-ahead-of-schedule-2026-04-20.md) | shortage clock and contraction compression |
+| 2026-04-20 | The Collapse is Now Ahead of Schedule | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) | shortage clock and contraction compression |
 
 ### Breaking Points / Ryan Grim
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-04-29 | Why a Nuclear Iran Is Inevitable | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md) | fourth-center thesis and U.S. loss of control |
+| 2026-04-29 | Why a Nuclear Iran Is Inevitable | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md) | fourth-center thesis and U.S. loss of control |
 
 ### Mario Nawfal
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-05-12 | Trump's Next Iran Steps Revealed | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md) | warning-signs compression and public forecast translation |
+| 2026-05-12 | Trump's Next Iran Steps Revealed | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-12/source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md) | warning-signs compression and public forecast translation |
 
 ## Host Function Map
 
@@ -68,7 +68,7 @@ This is the crossing table between the interview strand and the authored Substac
 ## Backlog / Exclusions
 
 - Authored Substack captures stay in [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-forecast-ledger-2026.md), not this Source Set.
-- Generic `transcript-pape.md` stubs are excluded even when they mention Cyrus Janssen or X material; they need a cleanup/source-identity pass before promotion.
+- Generic `source-pape-2026-04-18.md` stubs are excluded even when they mention Cyrus Janssen or X material; they need a cleanup/source-identity pass before promotion.
 - `x-pape-*`, date-named captures, and `verify-pape-*` files are excluded from this v1 host-appearance layer; they may become a fast-cycle or verification support layer later.
 - This note supplements the authored forecast ledger and the Pape helix; it does not replace the native Pape year stream.
 

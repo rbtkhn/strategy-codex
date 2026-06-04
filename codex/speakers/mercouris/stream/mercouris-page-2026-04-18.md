@@ -25,7 +25,7 @@ Treating this as a Mercouris lane hook means holding the inference lightly: the 
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-18/transcript-mercouris.md](../../../../years/2026/provenance/2026-04-18/transcript-mercouris.md)
+- **Full verbatim (capture):** [provenance/2026-04-18/source-mercouris-2026-04-18.md](../../../../years/2026/provenance/2026-04-18/source-mercouris-2026-04-18.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (`notebook |`, `verify:lens-fold+mercouris`, 2026-04-18)
 - **`thread:mercouris`** · **verify:** lens-fold + tri-mind narrow pass (Hormuz + PRC escalation)
 - **Canonical video:** Not applicable — `notebook |` stub (no Duran episode)

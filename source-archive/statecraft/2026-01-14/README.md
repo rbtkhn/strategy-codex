@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `cleaned-transcript` (1), `transcript` (1)
+- Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1)
 - Threads: `davis` (1), `mearsheimer` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-iran-says-protests-end-prepares-for-war-us-debates-options-kiev-crisis-b-2026-01-14.md`
-- `youtube-daniel-davis-deep-dive-prof-john-mearsheimer-classic-u-s-regime-change-in-iran-2026-01-14.md`
+- `source-alex-mercouris-iran-says-protests-end-prepares-for-war-us-debates-options-kiev-crisis-b-2026-01-14.md`
+- `source-daniel-davis-deep-dive-prof-john-mearsheimer-classic-u-s-regime-change-in-iran-2026-01-14.md`

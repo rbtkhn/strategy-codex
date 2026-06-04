@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `source` (1), `youtube` (1)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `2`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `George Beebe` (1), `Larry Johnson` (1)
 - Threads: `diesen` (2), `beebe` (1), `johnson` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-glenn-diesen-*` (1)
-
 ## Files
 
-- `youtube-glenn-diesen-george-beebe-ending-nato-expansion-is-required-for-peace-in-ukraine-2025-07-22.md`
-- `youtube-glenn-diesen-larry-johnson-larry-johnson-west-doubles-down-on-failed-wars-in-ukraine-middle-east-2025-07-22.md`
+- `source-glenn-diesen-george-beebe-ending-nato-expansion-is-required-for-peace-in-ukraine-2025-07-22.md`
+- `source-glenn-diesen-larry-johnson-larry-johnson-west-doubles-down-on-failed-wars-in-ukraine-middle-east-2025-07-22.md`

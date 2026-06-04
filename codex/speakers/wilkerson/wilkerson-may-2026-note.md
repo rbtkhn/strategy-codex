@@ -23,31 +23,31 @@ It is better read as:
 
 ## Materialized on disk
 
-1. [2026-05-05 - *Hormuz Blockade*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
+1. [2026-05-05 - *Hormuz Blockade*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
    Status: `Dialogue Works`-adjacent May opener already materialized.
 
-2. [2026-05-06 - *Hormuz, BRICS*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+2. [2026-05-06 - *Hormuz, BRICS*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md)
    Status: `Diesen` reinforcement already materialized.
 
-3. [2026-05-15 - *Trump-Xi Meeting After U.S. Defeat in Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/youtube-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md)
+3. [2026-05-15 - *Trump-Xi Meeting After U.S. Defeat in Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/source-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md)
    Status: YouTube-primary `Diesen` continuation already materialized.
 
-4. [2026-05-14 - *Checkmate in Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/transcript-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md)
+4. [2026-05-14 - *Checkmate in Iran*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/source-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md)
    Status: transcript-grade `Judging Freedom` anchor now materialized.
 
-5. [2026-05-20 - *Heated Arguments in White House*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md)
+5. [2026-05-20 - *Heated Arguments in White House*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/source-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md)
    Status: `Mario Nawfal` crossover already materialized.
 
-6. [2026-05-21 - *Trump Trapped In a Corner*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md)
+6. [2026-05-21 - *Trump Trapped In a Corner*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/source-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md)
    Status: transcript-grade `Judging Freedom` reinforcement now materialized.
 
-7. [2026-05-22 - *Iran's Unseen Move / U.S. Laser Destroyers Can't Stop What's Coming*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/transcript-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
+7. [2026-05-22 - *Iran's Unseen Move / U.S. Laser Destroyers Can't Stop What's Coming*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/source-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
    Status: transcript-grade `Dialogue Works` continuation already materialized.
 
-8. [2026-05-26 - *Failing to Adjust to a Multipolar World*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
+8. [2026-05-26 - *Failing to Adjust to a Multipolar World*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
    Status: YouTube-primary `Diesen` reinforcement already materialized.
 
-9. [2026-05-28 - *What Remains of International Law*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
+9. [2026-05-28 - *What Remains of International Law*](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
    Status: transcript-grade `Judging Freedom` month closer already materialized.
 
 Companion structural surface:

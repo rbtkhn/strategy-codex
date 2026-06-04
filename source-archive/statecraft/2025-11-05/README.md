@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (2), `transcript` (1)
+- Body kind mix: `source` (1), `transcript` (1), `youtube` (1)
+- Source form mix: `interview` (3)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `3`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Doug Macgregor` (1), `Jeffrey Sachs` (1), `Scott Ritter` (1)
 - Threads: `davis` (1), `macgregor` (1), `nima` (1), `ritter` (1), `sachs` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md`
-- `youtube-daniel-davis-deep-dive-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05.md`
-- `youtube-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md`
+- `source-daniel-davis-deep-dive-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05.md`
+- `source-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md`
+- `source-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md`

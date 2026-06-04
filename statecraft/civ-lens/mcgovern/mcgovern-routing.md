@@ -15,8 +15,8 @@ Open [Diesen x McGovern](/C:/dev/strategy-codex/codex/speakers/diesen/stream/die
 
 Best direct anchors:
 
-- [2025-02-05 / Diesen x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-05/youtube-glenn-diesen-ray-mcgovern-trump-versus-the-deep-state-2025-02-05.md)
-- [2026-04-05 / Diesen x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
+- [2025-02-05 / Diesen x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-05/source-glenn-diesen-ray-mcgovern-trump-versus-the-deep-state-2025-02-05.md)
+- [2026-04-05 / Diesen x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-05/source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
 
 ## Open Dialogue Works First
 
@@ -28,12 +28,12 @@ Open direct Dialogue Works / Nima anchors first when the real question is:
 
 Best direct anchors:
 
-- [2026-03-08 / Dialogue Works x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-08/transcript-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
-- [2026-05-20 / Dialogue Works x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-mcgovern-dialogue-works-ukraine-to-hit-russia-from-latvia-territory-israel-strikes-aid-flotilla-again-2026-05-20.md)
+- [2026-03-08 / Dialogue Works x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
+- [2026-05-20 / Dialogue Works x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/source-mcgovern-dialogue-works-ukraine-to-hit-russia-from-latvia-territory-israel-strikes-aid-flotilla-again-2026-05-20.md)
 
 ## Open Judging Freedom First
 
-Open [2026-05-18 / Judging Freedom x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/transcript-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md) first when the real question is:
+Open [2026-05-18 / Judging Freedom x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md) first when the real question is:
 
 - how legal-process pressure interacts with intelligence dissent
 - how to read Trump, China, or war continuation through anti-war constitutional framing

@@ -14,7 +14,7 @@ Backward extension should refine the existing stack, not fork it.
 
 If meaningful earlier material is added:
 
-1. update [parsi-raw-input-index.md](parsi-raw-input-index.md)
+1. update [parsi-source-index.md](parsi-source-index.md)
 2. reassess [parsi-cross-year-note.md](parsi-cross-year-note.md)
 3. update [stream/parsi-2025-present-arc-threads.md](stream/parsi-2025-present-arc-threads.md) only if the earlier material truly changes recurring thread boundaries
 4. update [parsi-arc.md](parsi-arc.md) only if the maturity story or speaker-wide motion materially changes

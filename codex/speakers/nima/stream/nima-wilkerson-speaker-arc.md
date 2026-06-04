@@ -23,7 +23,7 @@ What makes this a real speaker arc is that the same shape keeps returning:
 
 ### Materialized on disk
 
-1. [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
+1. [source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
    Best materialized anchor. Strong on Hormuz escort impossibility, blockade logic, market and logistics strain, and the claim that no one can win the war cleanly.
 
 ### Stream-discovered 2026 run
@@ -43,29 +43,29 @@ There are also mixed Johnson/Wilkerson Dialogue Works episodes in the same windo
 
 The 2025 Dialogue Works shelf was already real, but it is now clearer on disk as a long live-pressure continuation rather than a few isolated warning shots. The earliest compact proof is January 2025, where four Wilkerson appearances already establish the live-pressure contour:
 
-- [2025-01-04 *Yemen's Hypersonic Strike Stuns Israel as Iran Regroups*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-04/transcript-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md)
-- [2025-01-11 *The US Strategy That's Failing Spectacularly*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-11/transcript-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md)
-- [2025-01-14 *Israel Shaken: Hypersonic Strike & IDF Ambushed as Ceasefire Nears*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-14/transcript-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md)
-- [2025-01-18 *Israel is in Total Disarray*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-18/transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
+- [2025-01-04 *Yemen's Hypersonic Strike Stuns Israel as Iran Regroups*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-04/source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md)
+- [2025-01-11 *The US Strategy That's Failing Spectacularly*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-11/source-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md)
+- [2025-01-14 *Israel Shaken: Hypersonic Strike & IDF Ambushed as Ceasefire Nears*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-14/source-dialogue-works-israel-shaken-hypersonic-strike-idf-ambushed-as-ceasefire-nears-col-larr-2025-01-14.md)
+- [2025-01-18 *Israel is in Total Disarray*](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-18/source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
 
 That January cluster makes the lane's early job visible before the later-year thickening: Nima pushes from immediate escalation, Wilkerson answers with strategic failure, live pressure, and force-limit warning. See [wilkerson-january-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2025-note.md).
 
-February 2025 remains thinner on disk than January, but [2025-02-02 *Trump's Weakness Spells Disaster*](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-02/transcript-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md) now confirms that the January cluster was not an isolated burst. See [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md).
+February 2025 remains thinner on disk than January, but [2025-02-02 *Trump's Weakness Spells Disaster*](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-02/source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md) now confirms that the January cluster was not an isolated burst. See [wilkerson-february-2025-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2025-note.md).
 
 Beyond that January proving cluster, the fuller 2025 lane now also includes:
 
 - `2025-10-01` *Warning Signs: Is the United States on the Path to Disaster?*
 - `2025-11-18` *Epstein Files - NATO's Moves ALL FALLING APART - Iran closer to Russia*
-- [2025-12-12 *The U.S. Just Triggered a Chain Reaction It Can't Reverse*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-12/transcript-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) - joint Wilkerson/Freeman bridge; materialized on disk.
+- [2025-12-12 *The U.S. Just Triggered a Chain Reaction It Can't Reverse*](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) - joint Wilkerson/Freeman bridge; materialized on disk.
 - `2025-12-16` *The Alarms Are Blazing Red - The U.S. Is Heading Straight Into This*
 
 That makes the second-half 2025 Dialogue Works Wilkerson run feel materially dense, not merely sufficient.
 
 ## Open first
 
-Open [transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md) first when you want the cleanest materialized statement of why this host x guest run matters on its own.
+Open [source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md) first when you want the cleanest materialized statement of why this host x guest run matters on its own.
 
-Open [2025-12-12 Wilkerson/Freeman](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-12/transcript-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) first when you need the joint-speaker origin of the live-pressure lane: piracy and Venezuela, Monroe Doctrine revival, no policy process, China-war complacency, and the U.S./Israel responsibility split.
+Open [2025-12-12 Wilkerson/Freeman](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-12/source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md) first when you need the joint-speaker origin of the live-pressure lane: piracy and Venezuela, Monroe Doctrine revival, no policy process, China-war complacency, and the U.S./Israel responsibility split.
 
 ## Orthogonality guide
 

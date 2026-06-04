@@ -24,7 +24,7 @@ The shelf's month ladder sits above those strands as bounded synthesis, not as a
 | legitimacy-order or whether law still binds as negotiated constraint | [stream/crooke-thread-international-law.md](stream/crooke-thread-international-law.md) | This is the real topical law strand inside the broader Crooke corpus. |
 | cross-strand orientation to Crooke as one object | [crooke-helix.md](crooke-helix.md) | The helix explains how authored and interview pressure fit together. |
 | month-level synthesis across the live 2026 run | [stream/README.md](stream/README.md) | The month ladder gives bounded Jan-May synthesis without replacing host or source-class ownership. |
-| provenance-first routing | [crooke-raw-input-index.md](crooke-raw-input-index.md) | This is the canonical provenance bench. |
+| provenance-first routing | [crooke-source-index.md](crooke-source-index.md) | This is the canonical source bench. |
 
 ## Boundaries
 

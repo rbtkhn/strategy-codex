@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `transcript` (1)
+- Body kind mix: `transcript` (1)
+- Source form mix: `interview` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1)
 - Threads: `macgregor` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-napolitano-macgregor-readying-for-war-with-iran-2025-03-27.md`
+- `source-napolitano-macgregor-readying-for-war-with-iran-2025-03-27.md`

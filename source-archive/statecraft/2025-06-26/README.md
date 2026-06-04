@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `transcript` (1)
+- Body kind mix: `source` (1)
+- Source form mix: `interview` (1)
 - Distinct channels/shows: `0`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `john-mearsheimer` (1)
 - Threads: `mearsheimer` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-napolitano-*` (1)
-
 ## Files
 
-- `transcript-napolitano-mearsheimer-why-israel-will-fail-2025-06-26.md`
+- `source-napolitano-mearsheimer-why-israel-will-fail-2025-06-26.md`

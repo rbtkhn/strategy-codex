@@ -12,7 +12,7 @@ The shelf is intentionally a lighter first pass. Sachs is already a real cross-h
 
 - [sachs-arc.md](sachs-arc.md)
 - [sachs-routing.md](sachs-routing.md)
-- [sachs-raw-input-index.md](sachs-raw-input-index.md)
+- [sachs-source-index.md](sachs-source-index.md)
 - [sachs-helix.md](sachs-helix.md)
 - [sachs-support-spine-2025-2026.md](sachs-support-spine-2025-2026.md)
 
@@ -22,7 +22,7 @@ Sachs's canonical statecraft shelf currently has five speaker-owned layers:
 
 - **Person arc:** [sachs-arc.md](sachs-arc.md) holds whole-speaker continuity across the 2025-2026 run and the spring 2026 war-pressure cluster.
 - **Routing surface:** [sachs-routing.md](sachs-routing.md) answers which host lane or source file to open first for a given Sachs use.
-- **Provenance bench:** [sachs-raw-input-index.md](sachs-raw-input-index.md) is the canonical route map for materialized Sachs appearances and the smaller set of anchors that explain the shelf shape.
+- **Source index:** [sachs-source-index.md](sachs-source-index.md) is the canonical route map for materialized Sachs appearances and the smaller set of anchors that explain the shelf shape.
 - **Cross-host note:** [sachs-helix.md](sachs-helix.md) explains the real branch balance and why Diesen remains primary while Napolitano is now materially real.
 - **Support spine:** [sachs-support-spine-2025-2026.md](sachs-support-spine-2025-2026.md) owns maturity law and the rule for why the shelf is canonical but still intentionally lighter than a month ladder.
 
@@ -45,10 +45,10 @@ The legacy `codex/speakers/sachs/` path is now front-door compatibility only.
 
 ## Host Lanes
 
-- [Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/transcript-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
+- [Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
 - [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
-- [2026-05-07 / Mercouris x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-07/transcript-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
-- [2026-04-24 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
+- [2026-05-07 / Mercouris x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-07/source-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
+- [2026-04-24 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md)
 
 ## Boundary
 

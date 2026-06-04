@@ -6,7 +6,7 @@ Purpose: compact cross-host note for reading the recurring Crooke lanes together
 
 For the authored mechanism spine, see [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md). It remains Substack-only, but it should be read as the second strand crossing the interview helix: authored mechanism on one side, host-pressure transformation on the other.
 
-Shelf position: this is the **crossing surface**, not the front door and not the provenance bench. Open [crooke-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-arc.md) for whole-speaker continuity and [crooke-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-raw-input-index.md) for exhaustive capture truth.
+Shelf position: this is the **crossing surface**, not the front door and not the source bench. Open [crooke-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-arc.md) for whole-speaker continuity and [crooke-source-index.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-source-index.md) for exhaustive capture truth.
 
 ## Core claim
 

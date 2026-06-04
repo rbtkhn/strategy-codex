@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (2), `transcript` (1)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1), `Scott Ritter` (1)
 - Threads: `diesen` (1), `martyanov` (1), `mercouris` (1), `nima` (1), `ritter` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-andrei-martyanov-iran-bombshell-hypersonic-missile-could-sink-us-navy-carrier-trump-warned-2026-02-19.md`
-- `youtube-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19.md`
-- `youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md`
+- `source-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19.md`
+- `source-dialogue-works-andrei-martyanov-iran-bombshell-hypersonic-missile-could-sink-us-navy-carrier-trump-warned-2026-02-19.md`
+- `source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md`

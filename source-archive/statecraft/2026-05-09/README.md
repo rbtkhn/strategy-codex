@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `6`
-- Type mix: `youtube` (4), `key` (1), `substack` (1)
+- Body kind mix: `transcript` (4), `paste-bundle` (2)
+- Source form mix: `solo` (3), `interview` (2), `newsletter` (1)
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `2`
@@ -21,15 +22,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (1), `Seyed Mohammad Marandi` (1)
 - Threads: `marandi` (2), `mercouris` (2), `crooke` (1), `davis` (1), `diesen` (1), `nima` (1)
 
-## Filename Family Fallbacks
-
-- `key-excerpts-*` (1), `substack-*` (1), `youtube-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `key-excerpts-may-09-russia-iran-streams.md`
-- `substack-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09.md`
-- `youtube-alex-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md`
-- `youtube-daniel-davis-iran-response-proposal-walk-away-theory-2026-05-09.md`
-- `youtube-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md`
-- `youtube-nima-alkorshid-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md`
+- `source-alex-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md`
+- `source-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09.md`
+- `source-daniel-davis-iran-response-proposal-walk-away-theory-2026-05-09.md`
+- `source-excerpts-may-09-russia-iran-streams-2026-05-09.md`
+- `source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md`
+- `source-nima-alkorshid-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md`

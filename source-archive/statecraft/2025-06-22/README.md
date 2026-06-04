@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
+- Body kind mix: `transcript` (2)
+- Source form mix: `interview` (1), `panel` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `4`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Jacques Baud` (1), `Larry Wilkerson` (1), `Trita Parsi` (1)
 - Threads: `baud` (1), `diesen` (1), `freeman` (1), `parsi` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md`
-- `youtube-glenn-diesen-col-jacques-baud-america-bombs-iran-s-nuclear-facilities-2025-06-22.md`
+- `source-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md`
+- `source-glenn-diesen-col-jacques-baud-america-bombs-iran-s-nuclear-facilities-2025-06-22.md`

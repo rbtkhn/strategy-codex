@@ -1,8 +1,10 @@
-# Parsi 2025-present arc threads
+# Parsi 2025-present thread atlas
 
 WORK only; not Record.
 
 Purpose: canonical recurring thread atlas for the Parsi shelf across `2025-present`.
+
+Vocabulary note: this file is the **thread atlas**. The numbered items below are the recurring **arc-threads** that bounded month surfaces braid differently.
 
 ## Spine
 

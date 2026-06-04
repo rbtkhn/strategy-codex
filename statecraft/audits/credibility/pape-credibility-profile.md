@@ -42,13 +42,13 @@ Pape is a mechanism-heavy authored forecast speaker whose main value comes from 
 
 1. [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/pape/stream/pape-forecast-ledger-2026.md)
 2. [pape-speaker-object.md](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-speaker-object.md)
-3. [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
-4. [2026-05-27 Pape on the real Iran deal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/substack-pape-the-price-of-oil-is-the-real-iran-2026-05-27.md)
+3. [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md)
+4. [2026-05-27 Pape on the real Iran deal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-pape-the-price-of-oil-is-the-real-iran-2026-05-27.md)
 
 ## Disconfirming or stress-test anchors
 
-1. [2026-04-29 Pape on Breaking Points](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
-2. [2026-05-27 Pape on Breaking Points](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md)
+1. [2026-04-29 Pape on Breaking Points](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
+2. [2026-05-27 Pape on Breaking Points](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md)
 
 ## Native adjustment notes
 

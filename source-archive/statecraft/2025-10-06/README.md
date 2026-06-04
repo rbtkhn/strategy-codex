@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `transcript` (2), `youtube` (1)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (3)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (2), `Chas Freeman` (1)
 - Threads: `diesen` (2), `sachs` (2), `freeman` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md`
-- `transcript-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md`
-- `youtube-glenn-diesen-chas-freeman-coalition-of-the-deluded-pursues-war-with-russia-2025-10-06.md`
+- `source-glenn-diesen-chas-freeman-coalition-of-the-deluded-pursues-war-with-russia-2025-10-06.md`
+- `source-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md`
+- `source-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md`

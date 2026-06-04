@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `transcript` (1)
+- Body kind mix: `transcript` (1)
+- Source form mix: `panel` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `3`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Larry Wilkerson` (1), `Mohammad Marandi` (1)
 - Threads: `freeman` (1), `marandi` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18.md`
+- `source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18.md`

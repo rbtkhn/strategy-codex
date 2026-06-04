@@ -12,7 +12,7 @@ The shelf is intentionally a lighter first pass. Martyanov is already a real cro
 
 - [martyanov-arc.md](martyanov-arc.md)
 - [martyanov-routing.md](martyanov-routing.md)
-- [martyanov-raw-input-index.md](martyanov-raw-input-index.md)
+- [martyanov-source-index.md](martyanov-source-index.md)
 - [martyanov-helix.md](martyanov-helix.md)
 - [martyanov-support-spine-2025-2026.md](martyanov-support-spine-2025-2026.md)
 
@@ -22,7 +22,7 @@ Martyanov's canonical statecraft shelf currently has five speaker-owned layers:
 
 - **Person arc:** [martyanov-arc.md](martyanov-arc.md) holds whole-speaker continuity across the 2025-2026 run and the spring 2026 pressure cluster.
 - **Routing surface:** [martyanov-routing.md](martyanov-routing.md) answers which host lane or source file to open first for a given Martyanov use.
-- **Provenance bench:** [martyanov-raw-input-index.md](martyanov-raw-input-index.md) is the canonical route map for materialized Martyanov appearances.
+- **Source index:** [martyanov-source-index.md](martyanov-source-index.md) is the canonical route map for materialized Martyanov appearances.
 - **Cross-host note:** [martyanov-helix.md](martyanov-helix.md) explains the real host-conditioned structure and the uneven three-branch helix.
 - **Support spine:** [martyanov-support-spine-2025-2026.md](martyanov-support-spine-2025-2026.md) owns maturity law and the rule for why the shelf is canonical but still intentionally lighter than a month ladder.
 

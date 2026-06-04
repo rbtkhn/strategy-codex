@@ -24,7 +24,7 @@ He should be read primarily as a **person-arc-first** object:
 
 This note is a routing-oriented object statement. It does not replace [mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-arc.md), [mearsheimer-routing.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-routing.md), or [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md).
 
-For the wider cross-host surface beyond the two core host lanes, open [Mearsheimer index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/index.md) and [Mearsheimer raw-input index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md). Use the shelf as a ladder: `core host lane` / `reinforcing orbit` / `non-core appearance bench`.
+For the wider cross-host surface beyond the two core host lanes, open [Mearsheimer index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/index.md) and [Mearsheimer source index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-source-index.md). Use the shelf as a ladder: `core host lane` / `reinforcing orbit` / `non-core appearance bench`.
 
 ## Why Mearsheimer matters
 
@@ -67,12 +67,12 @@ For legacy continuity carryover only:
 For cross-host discovery and reinforcement beyond the two main host lanes:
 
 - [Mearsheimer index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/index.md)
-- [Mearsheimer raw-input index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md)
+- [Mearsheimer source index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-source-index.md)
 - [Mearsheimer surface orthogonality review](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-surface-orthogonality-2026-05.md)
 
 ## Boundaries
 
 - Do not duplicate host chronology here.
 - Do not quietly promote Napolitano reinforcement into a third canonical helix strand before the evidence genuinely supports it.
-- Treat raw-input appearances outside the Diesen / Davis core as part of the wider live object through the raw-input index unless they later become dense enough to deserve their own stronger support surface.
+- Treat raw-input appearances outside the Diesen / Davis core as part of the wider live object through the source index unless they later become dense enough to deserve their own stronger support surface.
 - Do not invent a thread atlas or historical-theme regime just to imitate Freeman. Mearsheimer should earn parity by real structure, not by copying every file type.

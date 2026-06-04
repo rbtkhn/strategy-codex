@@ -10,7 +10,7 @@ Purpose: front door for the canonical Diesen host shelf.
 - [diesen-speaker-object.md](diesen-speaker-object.md)
 - [diesen-cross-host-note.md](diesen-cross-host-note.md)
 - [diesen-host-wiring-2026.md](diesen-host-wiring-2026.md)
-- [diesen-raw-input-index.md](diesen-raw-input-index.md)
+- [diesen-source-index.md](diesen-source-index.md)
 - [stream/diesen-thread.md](stream/diesen-thread.md) - legacy host-continuity surface; not a canonical topical thread
 
 ## Canonical Structure
@@ -19,7 +19,7 @@ The orthogonality-bearing structure on this shelf is:
 
 - the host shelf front door in [README.md](README.md)
 - the distinct guest arcs under `stream/`
-- the raw-input route map in [diesen-raw-input-index.md](diesen-raw-input-index.md)
+- the source route map in [diesen-source-index.md](diesen-source-index.md)
 
 The older [stream/diesen-thread.md](stream/diesen-thread.md) file is a legacy host-continuity compatibility surface, not a canonical topical-thread atlas.
 

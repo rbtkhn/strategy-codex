@@ -23,7 +23,7 @@ either totally novel or merely repetitive.
 
 Primary source:
 
-- [June 1, 2026 Diesen / Jiang transcript](../../source-archive/statecraft/2026-06-01/transcript-diesen-jiang-u-s-trapped-in-iran-europe-s-war-against-russia-grand-bargain-with-china-2026-06-01.md)
+- [June 1, 2026 Diesen / Jiang transcript](../../source-archive/statecraft/2026-06-01/source-diesen-jiang-u-s-trapped-in-iran-europe-s-war-against-russia-grand-bargain-with-china-2026-06-01.md)
 
 Most important earlier correspondence anchor:
 
@@ -232,7 +232,7 @@ The cleanest one-line read is:
 
 For the current archive object, return to:
 
-- [June 1, 2026 Diesen / Jiang transcript](../../source-archive/statecraft/2026-06-01/transcript-diesen-jiang-u-s-trapped-in-iran-europe-s-war-against-russia-grand-bargain-with-china-2026-06-01.md)
+- [June 1, 2026 Diesen / Jiang transcript](../../source-archive/statecraft/2026-06-01/source-diesen-jiang-u-s-trapped-in-iran-europe-s-war-against-russia-grand-bargain-with-china-2026-06-01.md)
 
 For the earlier continuity anchor, return to:
 

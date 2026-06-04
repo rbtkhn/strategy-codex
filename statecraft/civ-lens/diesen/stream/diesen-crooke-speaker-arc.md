@@ -54,12 +54,12 @@ This means the lane should be read two ways:
 
 If the operator needs only one file:
 
-- open [transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
+- open [source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
 
 If the operator needs the best paired read:
 
-- open [transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
-- then [transcript-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-07/transcript-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
+- open [source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
+- then [source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
 
 That pair gives the clearest combination of:
 

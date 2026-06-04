@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `transcript` (1)
+- Body kind mix: `source` (1)
+- Source form mix: `interview` (1)
 - Distinct channels/shows: `0`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `john-mearsheimer` (1)
 - Threads: `davis` (1), `mearsheimer` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1)
-
 ## Files
 
-- `transcript-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md`
+- `source-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md`

@@ -50,7 +50,7 @@ The clearest reinforcement beyond Davis is:
 
 There is also meaningful work-politics adjacency:
 
-- [2026-04-17 Barnes x Johnson verbatim](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-17/barnes-countercurrent-2026-04-17-verbatim.md)
+- [2026-04-17 Barnes x Johnson verbatim](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md)
 
 See [barnes-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/barnes/barnes-cross-host-note.md).
 

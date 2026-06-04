@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `youtube` (3), `substack` (1)
+- Body kind mix: `transcript` (3), `substack-post` (1)
+- Source form mix: `interview` (2), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Larry Johnson` (1)
 - Threads: `diesen` (2), `mercouris` (2), `johnson` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-simplicius-whipsaw-effect-trump-again-signals-2026-03-21.md`
-- `youtube-alex-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md`
-- `youtube-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md`
-- `youtube-glenn-diesen-larry-johnson-trump-netanyahu-seek-exit-ramp-in-iran-2026-03-21.md`
+- `source-alex-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md`
+- `source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md`
+- `source-glenn-diesen-larry-johnson-trump-netanyahu-seek-exit-ramp-in-iran-2026-03-21.md`
+- `source-simplicius-whipsaw-effect-trump-again-signals-2026-03-21.md`

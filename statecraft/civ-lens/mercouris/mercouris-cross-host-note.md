@@ -13,7 +13,7 @@ Mercouris is not only a native cognition stream. There are real cross-host appea
 The clearest current host-local reinforcement on disk is:
 
 - [Davis x Mercouris host-local arc](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mercouris-speaker-arc.md), now a stable multi-file Davis branch
-- [2026-05-16 Diesen x Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
+- [2026-05-16 Diesen x Mercouris](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
 
 That matters because it shows Mercouris can remain legible outside his own stream and can be reused inside another host environment.
 

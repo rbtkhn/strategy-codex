@@ -17,11 +17,11 @@ Month status: `mature dense-core month`
 
 ## Late-May reinforcement
 
-- [2026-05-24 Mercouris provenance capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-24/youtube-alex-mercouris-russian-massive-oreshnik-kiev-revenge-attack-stuns-ukraine-eu-zelensky-fears-russian-kiev-offensive-2026-05-24.md)
+- [2026-05-24 Mercouris provenance capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-24/source-alex-mercouris-russian-massive-oreshnik-kiev-revenge-attack-stuns-ukraine-eu-zelensky-fears-russian-kiev-offensive-2026-05-24.md)
   - Late-May frontier reinforcement: Starobelsk retaliation, large Kiev/Oreshnik strike, Bila Tserkva command-post speculation, Zelensky's fear of a renewed Kiev axis, and renewed Iran-negotiation pressure under U.S. neocon escalation talk.
-- [2026-05-27 Mercouris provenance capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-alex-mercouris-russia-plans-kiev-capture-prepares-next-strike-decision-centres-kiev-without-ad-zaporozhzhye-crisis-2026-05-27.md)
+- [2026-05-27 Mercouris provenance capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-alex-mercouris-russia-plans-kiev-capture-prepares-next-strike-decision-centres-kiev-without-ad-zaporozhzhye-crisis-2026-05-27.md)
   - Late-May frontier reinforcement: embassy-withdrawal warning logic, the claim that Kiev's air-defense umbrella is now effectively hollow, Zaporizhzhia-line deterioration, and the argument that Russia is sequencing toward a sustained Kiev pressure campaign rather than a one-off revenge strike.
-- [2026-05-28 Mercouris provenance capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md)
+- [2026-05-28 Mercouris provenance capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md)
   - Late-May frontier reinforcement: Zelensky's reported panic appeal for Patriot interceptors, U.S.-Europe air-defense depletion logic, Oreshnik-against-bunkers framing, deeper Kiev pressure sequencing, and the argument that EU membership itself is moving into Russia's rejection basket.
 
 ## Reading note

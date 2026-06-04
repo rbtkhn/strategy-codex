@@ -73,8 +73,8 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 
 _Union of **on-disk** `raw-input/…` files tagged with this expert’s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [substack-ritter-chechen-miracle-path-redemption-2026-03-25.md](provenance/2026-03-25/substack-ritter-chechen-miracle-path-redemption-2026-03-25.md)
-- [substack-ritter-zionism-human-parasitoid-revisited-2026-03-18.md](provenance/2026-03-18/substack-ritter-zionism-human-parasitoid-revisited-2026-03-18.md)
-- [substack-ritter-the-backpack-girls-2026-03-14.md](provenance/2026-03-14/substack-ritter-the-backpack-girls-2026-03-14.md)
-- [substack-ritter-regime-change-double-edged-sword-2026-03-01.md](provenance/2026-03-01/substack-ritter-regime-change-double-edged-sword-2026-03-01.md)
+- [source-ritter-chechen-miracle-path-redemption-2026-03-25.md](provenance/2026-03-25/source-ritter-chechen-miracle-path-redemption-2026-03-25.md)
+- [source-ritter-zionism-human-parasitoid-revisited-2026-03-18.md](provenance/2026-03-18/source-ritter-zionism-human-parasitoid-revisited-2026-03-18.md)
+- [source-ritter-the-backpack-girls-2026-03-14.md](provenance/2026-03-14/source-ritter-the-backpack-girls-2026-03-14.md)
+- [source-ritter-regime-change-double-edged-sword-2026-03-01.md](provenance/2026-03-01/source-ritter-regime-change-double-edged-sword-2026-03-01.md)
 <!-- strategy-expert-thread:end -->

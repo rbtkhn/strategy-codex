@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
+- Body kind mix: `transcript` (2)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1), `Lawrence Wilkerson` (1)
 - Threads: `diesen` (1), `macgregor` (1), `napolitano` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-napolitano-wilkerson-what-ceasefire-2025-10-23.md`
-- `youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-broken-nato-escalates-war-on-russia-2025-10-23.md`
+- `source-glenn-diesen-douglas-macgregor-douglas-macgregor-broken-nato-escalates-war-on-russia-2025-10-23.md`
+- `source-napolitano-wilkerson-what-ceasefire-2025-10-23.md`

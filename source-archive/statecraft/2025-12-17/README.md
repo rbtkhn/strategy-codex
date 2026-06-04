@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `source` (1), `transcript` (1)
+- Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1)
 - Threads: `crooke` (1), `davis` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1), `youtube-daniel-davis-deep-dive-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-russia-winning-big-victory-huiliaipole-collapse-eu-in-panic-sanctions-ba-2025-12-17.md`
-- `youtube-daniel-davis-deep-dive-alastair-crooke-putin-says-there-s-hysteria-from-the-west-alastair-crooke-lt-col-daniel-davis-2025-12-17.md`
+- `source-alex-mercouris-russia-winning-big-victory-huiliaipole-collapse-eu-in-panic-sanctions-ba-2025-12-17.md`
+- `source-daniel-davis-deep-dive-alastair-crooke-putin-says-there-s-hysteria-from-the-west-alastair-crooke-lt-col-daniel-davis-2025-12-17.md`

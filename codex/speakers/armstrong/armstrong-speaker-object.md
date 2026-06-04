@@ -40,7 +40,7 @@ That means:
   - [armstrong-profile.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-profile.md)
   - [armstrong-thread.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-thread.md)
   - [armstrong-transcript.md](/C:/dev/strategy-codex/codex/speakers/armstrong/armstrong-transcript.md)
-- [2026-02-24 Diesen x Armstrong](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-24/youtube-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md) is real outside-host evidence, but not yet a stable second branch
+- [2026-02-24 Diesen x Armstrong](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-24/source-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md) is real outside-host evidence, but not yet a stable second branch
 
 So Armstrong now matters through one mature host-transformation lane, a native authored shelf, and one thin but real secondary-host reinforcement.
 

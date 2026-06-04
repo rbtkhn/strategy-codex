@@ -10,7 +10,7 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 
 - [freeman-arc.md](freeman-arc.md)
 - [freeman-routing.md](freeman-routing.md)
-- [freeman-raw-input-index.md](freeman-raw-input-index.md)
+- [freeman-source-index.md](freeman-source-index.md)
 - [freeman-helix.md](freeman-helix.md)
 - [freeman-support-spine-2025-2026.md](freeman-support-spine-2025-2026.md)
 - [stream/freeman-shelf-2026-03.md](stream/freeman-shelf-2026-03.md)
@@ -24,7 +24,7 @@ Freeman's canonical structure now has five speaker-owned layers:
 
 - **Person arc:** [freeman-arc.md](freeman-arc.md) is the primary Statecraft Synthesis surface for Freeman continuity across hosts, contexts, and time.
 - **Routing surface:** [freeman-routing.md](freeman-routing.md) answers which host lane or monthly shelf to open first.
-- **Provenance bench:** [freeman-raw-input-index.md](freeman-raw-input-index.md) remains the canonical route map for materialized Freeman appearances.
+- **Source index:** [freeman-source-index.md](freeman-source-index.md) remains the canonical route map for materialized Freeman appearances.
 - **Crossing surface:** [freeman-helix.md](freeman-helix.md) explains how the four core host lanes and non-core bench belong to one Freeman object.
 - **Support spine:** [freeman-support-spine-2025-2026.md](freeman-support-spine-2025-2026.md) owns maturity law, month-status law, and the rule for how the canonical month ladder relates to host-owned chronology.
 

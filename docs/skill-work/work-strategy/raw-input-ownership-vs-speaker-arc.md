@@ -87,11 +87,11 @@ If you reverse those questions, the notebook starts to blur:
 
 ## Clean examples
 
-- [youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md](../../../source-archive/statecraft/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
+- [source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md](../../../source-archive/statecraft/2026-05-12/source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
   - source-archive ownership: **Pape-first**
   - no speaker arc implied by that fact alone
 
-- [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](../../../source-archive/statecraft/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+- [source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](../../../source-archive/statecraft/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
   - source-archive ownership: **Diesen-first**
   - later supports [diesen-freeman-arc.md](../../../codex/speakers/diesen/stream/diesen-freeman-arc.md) because the recurring host-local run is real
 

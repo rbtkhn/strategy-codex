@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `transcript` (3), `youtube` (1)
+- Body kind mix: `transcript` (3), `source` (1)
+- Source form mix: `interview` (3), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `4`
 - Distinct guests: `3`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Jeffrey Sachs` (1), `Larry C. Johnson` (1)
 - Threads: `freeman` (1), `johnson` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `sachs` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-larry-johnson-larry-c-johnson-russia-launches-largest-missile-drone-attack-yet-2025-12-15.md`
-- `transcript-napolitano-sachs-trumps-empire-of-hubris-2025-12-15.md`
-- `transcript-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md`
-- `youtube-alex-mercouris-zelensky-wants-us-alliance-says-no-kiev-donbass-retreat-tense-talks-eu-b-2025-12-15.md`
+- `source-alex-mercouris-zelensky-wants-us-alliance-says-no-kiev-donbass-retreat-tense-talks-eu-b-2025-12-15.md`
+- `source-dialogue-works-larry-johnson-larry-c-johnson-russia-launches-largest-missile-drone-attack-yet-2025-12-15.md`
+- `source-napolitano-sachs-trumps-empire-of-hubris-2025-12-15.md`
+- `source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md`

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
+- Body kind mix: `source` (2)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `0`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Lawrence Wilkerson` (1)
 - Threads: `crooke` (1), `diesen` (1), `nima` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1), `youtube-glenn-diesen-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md`
-- `youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-america-is-retrenching-and-alliances-fall-apart-2025-09-12.md`
+- `source-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md`
+- `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-america-is-retrenching-and-alliances-fall-apart-2025-09-12.md`

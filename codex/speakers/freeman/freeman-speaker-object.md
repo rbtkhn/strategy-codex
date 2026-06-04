@@ -24,7 +24,7 @@ He should be read primarily as a **person-arc-first** object:
 
 This note is a routing-oriented object statement. It does not replace [freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-arc.md), [freeman-routing.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-routing.md), or [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md).
 
-For the wider cross-host surface beyond the four core host lanes, open [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md) and [Freeman raw-input index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md). Use the year bench as a ladder: `core host lane` / `non-core appearance bench` / `discovery memory`.
+For the wider cross-host surface beyond the four core host lanes, open [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md) and [Freeman source index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-source-index.md). Use the year bench as a ladder: `core host lane` / `non-core appearance bench` / `discovery memory`.
 
 ## Why Freeman matters
 
@@ -38,7 +38,7 @@ Freeman's utility profile is:
 
 ## Recent reinforcement
 
-- `2026-05-16` [Power Moves East: China Teaches USA a Big Lesson | Chas Freeman](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-16/youtube-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md) reinforces the Freeman object through a Neutrality Studies host lane: Trump-Xi as equal-status encounter, China as cautious order-preserving world power, Hormuz as maritime-order precedent, and diplomacy as a deteriorated Western capability.
+- `2026-05-16` [Power Moves East: China Teaches USA a Big Lesson | Chas Freeman](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-16/source-neutrality-studies-power-moves-east-china-teaches-usa-a-big-lesson-chas-freeman-2026-05-16.md) reinforces the Freeman object through a Neutrality Studies host lane: Trump-Xi as equal-status encounter, China as cautious order-preserving world power, Hormuz as maritime-order precedent, and diplomacy as a deteriorated Western capability.
 
 Additional non-core Freeman surfaces are already wired at the year level. The key distinction is structural: materialized transcript-bearing appearances belong to the `non-core appearance bench`, while found-but-not-yet-materialized items belong to `discovery memory`.
 
@@ -63,7 +63,7 @@ For legacy continuity carryover only:
 For cross-host discovery and reinforcement beyond the four main host lanes:
 
 - [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md)
-- [Freeman raw-input index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md)
+- [Freeman source index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-source-index.md)
 - [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
 
 ## Boundaries

@@ -22,7 +22,7 @@ Freeman uses Rome less as antique flourish than as a regime-form analogy. The qu
 
 ## Exact Quote Anchors
 
-- [2026-05-06 Glenn Diesen](../../years/2026/provenance/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+- [2026-05-06 Glenn Diesen](../../years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
   > "you can actually analogize a lot of what's happening to the final collapse of the Roman Empire"
 
   > "Feudalism was essentially born from the collapse of the Roman Empire because strong men had to protect communities."

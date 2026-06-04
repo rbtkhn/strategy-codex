@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `transcript` (1)
+- Body kind mix: `transcript` (1)
+- Source form mix: `interview` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter & Andrei Martyanov` (1)
 - Threads: `martyanov` (1), `nima` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md`
+- `source-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md`

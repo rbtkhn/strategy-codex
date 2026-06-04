@@ -68,7 +68,7 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 
 _Union of **on-disk** `raw-input/…` files tagged with this expert’s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [substack-ritter-the-flamingo-effect-2026-02-22.md](provenance/2026-02-22/substack-ritter-the-flamingo-effect-2026-02-22.md)
-- [substack-ritter-dead-at-27-2026-02-20.md](provenance/2026-02-20/substack-ritter-dead-at-27-2026-02-20.md)
-- [substack-ritter-alas-babylon-2026-02-05.md](provenance/2026-02-05/substack-ritter-alas-babylon-2026-02-05.md)
+- [source-ritter-the-flamingo-effect-2026-02-22.md](provenance/2026-02-22/source-ritter-the-flamingo-effect-2026-02-22.md)
+- [source-ritter-dead-at-27-2026-02-20.md](provenance/2026-02-20/source-ritter-dead-at-27-2026-02-20.md)
+- [source-ritter-alas-babylon-2026-02-05.md](provenance/2026-02-05/source-ritter-alas-babylon-2026-02-05.md)
 <!-- strategy-expert-thread:end -->

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `substack` (3), `youtube` (1)
+- Body kind mix: `operator-transcript` (2), `substack-post` (1), `transcript` (1)
+- Source form mix: `newsletter` (3), `interview` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `1`
 - Distinct guests: `2`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2), `Putin New Demand As Kiev Collapses` (1)
 - Threads: `ritter` (2), `mercouris` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (3)
-
 ## Files
 
-- `substack-ritter-back-to-the-future-2026-01-16.md`
-- `substack-ritter-reflections-on-a-war-2026-01-16.md`
-- `substack-simplicius-sitrep-11526-winter-break-over-russian-2026-01-16.md`
-- `youtube-alex-mercouris-putin-new-demand-as-kiev-collapses-nato-expansion-must-be-reversed-eu-in-2026-01-16.md`
+- `source-alex-mercouris-putin-new-demand-as-kiev-collapses-nato-expansion-must-be-reversed-eu-in-2026-01-16.md`
+- `source-ritter-back-to-the-future-2026-01-16.md`
+- `source-ritter-reflections-on-a-war-2026-01-16.md`
+- `source-simplicius-sitrep-11526-winter-break-over-russian-2026-01-16.md`

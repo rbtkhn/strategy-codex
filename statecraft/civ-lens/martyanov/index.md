@@ -8,7 +8,7 @@ Open this shelf when the real question is not legality, domestic liability, or i
 
 - [martyanov-arc.md](martyanov-arc.md) for whole-speaker continuity
 - [martyanov-routing.md](martyanov-routing.md) for first-open discipline
-- [martyanov-raw-input-index.md](martyanov-raw-input-index.md) for direct archive entry
+- [martyanov-source-index.md](martyanov-source-index.md) for direct archive entry
 
 ## Shelf Map
 
@@ -19,6 +19,6 @@ Treat this `statecraft/civ-lens/martyanov/` shelf as the canonical Martyanov fro
 
 ## Fast Route
 
-- open [2026-05-21 / Dialogue Works x Martyanov](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md) for live Iran-war pressure and systems-collapse reads
-- open [2025-12-08 / Davis x Martyanov](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-08/youtube-daniel-davis-deep-dive-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md) for battlefield outcome and military-feasibility correction
-- open [2025-04-08 / Diesen x Martyanov](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-08/youtube-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md) for strategic-order consequence lifted through military reality
+- open [2026-05-21 / Dialogue Works x Martyanov](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/source-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md) for live Iran-war pressure and systems-collapse reads
+- open [2025-12-08 / Davis x Martyanov](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-08/source-daniel-davis-deep-dive-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md) for battlefield outcome and military-feasibility correction
+- open [2025-04-08 / Diesen x Martyanov](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md) for strategic-order consequence lifted through military reality

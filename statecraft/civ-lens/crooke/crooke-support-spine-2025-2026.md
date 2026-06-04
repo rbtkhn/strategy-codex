@@ -15,7 +15,7 @@ Quick separation rule:
 
 - [crooke-arc.md](crooke-arc.md) = whole-speaker continuity
 - [crooke-routing.md](crooke-routing.md) = fastest strand, lane, or month selection
-- [crooke-raw-input-index.md](crooke-raw-input-index.md) = provenance bench
+- [crooke-source-index.md](crooke-source-index.md) = source bench
 - [crooke-helix.md](crooke-helix.md) = authored/interview crossing surface
 - [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md) = authored mechanism spine
 - [crooke-interview-appearances-2025-2026.md](crooke-interview-appearances-2025-2026.md) = interview support map

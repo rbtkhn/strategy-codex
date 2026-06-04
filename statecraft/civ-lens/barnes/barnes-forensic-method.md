@@ -24,14 +24,14 @@ The recurring sequence looks like this:
 
 `trigger event -> legal frame -> constitutional exposure -> factional map -> liability forecast`
 
-This method is visible in the mature Davis anchor [2026-04-03 / Davis x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-03/transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md), where a strike is not read first as a military event but as:
+This method is visible in the mature Davis anchor [2026-04-03 / Davis x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-03/source-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md), where a strike is not read first as a military event but as:
 
 - war-powers violation
 - war-crimes exposure
 - executive overreach
 - future impeachment and prosecution risk
 
-It also appears in the stronger non-Davis reinforcement lane [2026-04-23 / Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-mercouris-barnes-fractured-iran-trump-2026-04-23.md), where strategic developments are reframed through White House instability, decision-path fracture, and institutional incapacity.
+It also appears in the stronger non-Davis reinforcement lane [2026-04-23 / Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md), where strategic developments are reframed through White House instability, decision-path fracture, and institutional incapacity.
 
 ## What makes the method portable
 

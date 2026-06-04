@@ -8,17 +8,17 @@ Month status: `continuity carryover`
 
 ## January index
 
-- [substack-ritter-russia-dark-sage-karaganov-2026-01-03.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-03/substack-ritter-russia-dark-sage-karaganov-2026-01-03.md)
+- [source-ritter-russia-dark-sage-karaganov-2026-01-03.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-03/source-ritter-russia-dark-sage-karaganov-2026-01-03.md)
   - Opens the year with Russia deep-structure and strategic-culture warning.
-- [substack-ritter-the-sanctions-shield-2026-01-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-05/substack-ritter-the-sanctions-shield-2026-01-05.md)
+- [source-ritter-the-sanctions-shield-2026-01-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-05/source-ritter-the-sanctions-shield-2026-01-05.md)
   - Establishes resilience-under-pressure logic that later feeds the Iran run.
-- [transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-12/transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
+- [source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-12/source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
   - First 2026 legal-command and escalation-pressure interview node.
-- [youtube-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-13/youtube-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md)
+- [source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-13/source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md)
   - Restarts the 2026 Diesen escalation-horizon branch.
-- [substack-ritter-iranian-resilience-2026-01-12.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-12/substack-ritter-iranian-resilience-2026-01-12.md)
+- [source-ritter-iranian-resilience-2026-01-12.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-12/source-ritter-iranian-resilience-2026-01-12.md)
   - Seeds the resilience claim that later dominates the Iran-war shelf.
-- [youtube-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-27/youtube-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md)
+- [source-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-27/source-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md)
   - End-of-month bridge into the 2026 Iran-war run proper.
 
 ## Reading note

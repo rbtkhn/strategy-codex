@@ -11,7 +11,7 @@ Use it for Jiang-facing statecraft routing, Predictive History mirror access, an
 - [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - [jiang-routing.md](jiang-routing.md)
 - [jiang-arc.md](jiang-arc.md)
-- [jiang-raw-input-index.md](jiang-raw-input-index.md)
+- [jiang-source-index.md](jiang-source-index.md)
 - [jiang-support-spine-2026.md](jiang-support-spine-2026.md)
 - [ph-civ/README.md](ph-civ/README.md)
 
@@ -24,7 +24,7 @@ Jiang's canonical statecraft shelf has one count/routing SSOT, three shelf surfa
 - **Master Predictive History count/routing index:** [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - **Person arc:** [jiang-arc.md](jiang-arc.md)
 - **Routing surface:** [jiang-routing.md](jiang-routing.md)
-- **Raw-input / source bench:** [jiang-raw-input-index.md](jiang-raw-input-index.md)
+- **Source index:** [jiang-source-index.md](jiang-source-index.md)
 - **Support spine:** [jiang-support-spine-2026.md](jiang-support-spine-2026.md)
 - **Official local mirror:** [ph-civ/README.md](ph-civ/README.md)
 

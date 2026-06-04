@@ -12,7 +12,7 @@ The canonical Barnes shelf now lives under [`statecraft/civ-lens/barnes/`](/C:/d
 - [statecraft/civ-lens/barnes/index.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/index.md)
 - [statecraft/civ-lens/barnes/barnes-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-arc.md)
 - [statecraft/civ-lens/barnes/barnes-routing.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-routing.md)
-- [statecraft/civ-lens/barnes/barnes-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-raw-input-index.md)
+- [statecraft/civ-lens/barnes/barnes-source-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-source-index.md)
 - [statecraft/civ-lens/barnes/barnes-helix.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-helix.md)
 - [statecraft/civ-lens/barnes/barnes-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-support-spine-2025-2026.md)
 

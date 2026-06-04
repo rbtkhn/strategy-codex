@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `transcript` (1), `youtube` (1)
+- Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `George Beebe` (1)
 - Threads: `beebe` (1), `diesen` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-zelensky-extends-martial-law-rejects-elections-putin-demands-non-negotiable-energy-truce-expires-2025-04-16.md`
-- `youtube-glenn-diesen-george-beebe-what-us-russia-reconciliation-means-for-europe-and-ukraine-2025-04-16.md`
+- `source-alex-mercouris-zelensky-extends-martial-law-rejects-elections-putin-demands-non-negotiable-energy-truce-expires-2025-04-16.md`
+- `source-glenn-diesen-george-beebe-what-us-russia-reconciliation-means-for-europe-and-ukraine-2025-04-16.md`

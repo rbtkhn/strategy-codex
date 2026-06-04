@@ -10,7 +10,7 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 
 - [macgregor-arc.md](macgregor-arc.md)
 - [macgregor-routing.md](macgregor-routing.md)
-- [macgregor-raw-input-index.md](macgregor-raw-input-index.md)
+- [macgregor-source-index.md](macgregor-source-index.md)
 - [macgregor-helix.md](macgregor-helix.md)
 - [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md)
 - [stream/macgregor-shelf-2026-03.md](stream/macgregor-shelf-2026-03.md)
@@ -24,7 +24,7 @@ Macgregor's canonical structure now has four speaker-owned layers:
 
 - **Person arc:** [macgregor-arc.md](macgregor-arc.md) holds whole-speaker continuity across hosts, contexts, and time.
 - **Routing surface:** [macgregor-routing.md](macgregor-routing.md) answers which host lane or monthly shelf to open first.
-- **Provenance bench:** [macgregor-raw-input-index.md](macgregor-raw-input-index.md) remains the exhaustive route map for materialized Macgregor appearances.
+- **Source index:** [macgregor-source-index.md](macgregor-source-index.md) remains the exhaustive route map for materialized Macgregor appearances.
 - **Crossing surface:** [macgregor-helix.md](macgregor-helix.md) explains the durable `Diesen + Davis` double-helix and the auxiliary Napolitano branch.
 
 Support and segmentation surfaces:

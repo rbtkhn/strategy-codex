@@ -8,17 +8,17 @@ Month status: `mature dense-core month`
 
 ## April index
 
-- [2026-04-05 Davis](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-05/youtube-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md)
+- [2026-04-05 Davis](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-05/source-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md)
   - Practical air-war falsifier.
-- [2026-04-08 Dialogue Works](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-08/transcript-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
+- [2026-04-08 Dialogue Works](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
   - Ceasefire-collapse and live-pressure acceleration.
-- [2026-04-13 Davis](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- [2026-04-13 Davis](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-13/source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
   - Cleanest blockade-practicality opening.
-- [2026-04-17 Diesen](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
+- [2026-04-17 Diesen](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
   - Europe spillover and widened escalation horizon.
-- [2026-04-20 Judging Freedom](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md)
+- [2026-04-20 Judging Freedom](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/source-trump-hegseth-2026-04-20.md)
   - Piracy, command failure, and blockade illegitimacy compression.
-- [substack-ritter-new-middle-eastern-power-paradigm-2026-04-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/substack-ritter-new-middle-eastern-power-paradigm-2026-04-27.md)
+- [source-ritter-new-middle-eastern-power-paradigm-2026-04-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/source-ritter-new-middle-eastern-power-paradigm-2026-04-27.md)
   - End-of-month authored paradigm statement.
 
 ## Reading note

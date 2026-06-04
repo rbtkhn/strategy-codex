@@ -72,7 +72,7 @@ After parser hardening plus bounded frontmatter normalization, the audit settled
 
 Explicit thread-bearing files rose from `53` to `58`.
 
-The remaining parser-only lane gains are now concentrated in older files where explicit metadata is already sufficient once the parser understands:
+The remaining parser-only lane gains from that bounded repair are now concentrated in older files where explicit metadata is already sufficient once the parser understands:
 
 - numbered thread fields
 - recognized host projection
@@ -86,11 +86,11 @@ Only six files required direct archive normalization.
 
 These were upgraded to durable explicit multi-thread metadata:
 
-- [2025-02-15 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/transcript-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md)
-- [2025-03-08 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-08/transcript-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md)
-- [2025-05-02 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/transcript-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02.md)
-- [2025-05-29 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-29/transcript-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md)
-- [2025-06-20 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-20/transcript-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md)
+- [2025-02-15 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-15/source-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md)
+- [2025-03-08 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-03-08/source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md)
+- [2025-05-02 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-02/source-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02.md)
+- [2025-05-29 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-29/source-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md)
+- [2025-06-20 panel](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-20/source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md)
 
 Each now carries:
 
@@ -100,7 +100,7 @@ Each now carries:
 
 One live item was upgraded because the extra guest already resolves cleanly to a canonical speaker lane:
 
-- [2025-06-17 Mercouris / Berletic live](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/transcript-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md)
+- [2025-06-17 Mercouris / Berletic live](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-17/source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md)
 
 It now carries:
 
@@ -123,27 +123,20 @@ The main recurring parser-only families are:
 
 These are now truthful in day, month, year, and global thread surfaces without additional file churn.
 
-## Residual Holds
+## Follow-up Inventory Closure
 
-Two files remain intentional holds:
+Later on `2026-06-03`, the speaker inventory gap itself was tightened so the main unresolved participant names from this note no longer remain open:
 
-- [2026-02-27 Kiriakou / Aguilar](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-27/transcript-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md)
-- [2026-04-27 Carlson / Kiriakou](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/transcript-kiriakou-carlson-iran-truth-dc-2026-04-27.md)
+- `John Kiriakou` now resolves to canonical lane `kiriakou`
+- `Stanislav Krapivnik` now resolves to canonical lane `krapivnik`
+- `Alex Christoforou` / `Alex Christoforu` / `christoforou` now resolve to canonical lane `christoforou`
 
-The reason is narrow and consistent:
+That follow-up did two things:
 
-- `Anthony Aguilar` and `Tucker Carlson` resolve cleanly
-- `John Kiriakou` does not currently resolve to a canonical speaker slug
+- added canonical speaker folders for `kiriakou`, `krapivnik`, and `christoforou`
+- hardened slug alias routing so common spelling variants project into the same lane
 
-So the audit does not force new explicit multi-thread metadata there. Those files should remain unchanged until the Kiriakou lane itself is settled or intentionally added to canonical speaker inventory.
-
-Secondary unresolved names that did not block truthful current routing include:
-
-- `Stanislav Krapivnik`
-- `Matthew Ehret`
-- `Alex Christoforou` / `christoforou`
-
-Those names appear inside objects whose current explicit lane truth is already sufficient.
+So the post-repair metrics above should be read as the truthful end-state of the bounded audit tranche itself, not as the permanent final state of the repository after later same-day inventory repair.
 
 ## Surface Impact
 

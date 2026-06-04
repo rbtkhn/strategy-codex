@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
-- Type mix: `youtube` (3), `transcript` (2)
+- Body kind mix: `source` (2), `transcript` (2), `youtube` (1)
+- Source form mix: `interview` (5)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `5`
@@ -21,14 +22,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Doug Macgregor` (1), `Douglas Macgregor` (1), `George Beebe` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1)
 - Threads: `diesen` (3), `macgregor` (2), `beebe` (1), `davis` (1), `mearsheimer` (1), `napolitano` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1), `youtube-glenn-diesen-*` (1)
-
 ## Files
 
-- `transcript-diesen-mearsheimer-bleak-future-of-europe-defeated-broken-2025-11-26.md`
-- `transcript-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md`
-- `youtube-daniel-davis-deep-dive-col-doug-macgregor-ukraine-struggling-european-leaders-on-the-road-to-extinction-2025-11-26.md`
-- `youtube-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md`
-- `youtube-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md`
+- `source-daniel-davis-deep-dive-col-doug-macgregor-ukraine-struggling-european-leaders-on-the-road-to-extinction-2025-11-26.md`
+- `source-diesen-mearsheimer-bleak-future-of-europe-defeated-broken-2025-11-26.md`
+- `source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md`
+- `source-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md`
+- `source-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md`

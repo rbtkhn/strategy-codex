@@ -8,7 +8,7 @@ Purpose: front door for the canonical Ritter statecraft shelf, surfacing the per
 
 - [Speaker arc](ritter-arc.md) - whole-speaker continuity and the canonical answer to who Ritter is as a speaker object.
 - [Speaker routing note](ritter-routing.md) - fastest answer to which host lane or monthly shelf to open first.
-- [Raw-input index](ritter-raw-input-index.md) - exhaustive route map for every resolved Ritter raw-input appearance currently materialized in the repo.
+- [Source index](ritter-source-index.md) - exhaustive route map for every resolved Ritter raw-input appearance currently materialized in the repo.
 - [Speaker helix note](ritter-helix.md) - why the host triple helix and authored/interview split fit together before you descend into one lane.
 - [Support spine](ritter-support-spine-2025-2026.md) - canonical maturity and month-support law.
 - [February monthly shelf](stream/ritter-shelf-2026-02.md) - first bridge month where the 2026 ladder thickens visibly.

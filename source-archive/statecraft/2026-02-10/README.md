@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `transcript` (2), `substack` (1), `youtube` (1)
+- Body kind mix: `transcript` (2), `source` (1), `substack-post` (1)
+- Source form mix: `interview` (2), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1), `Seyed M. Marandi & Larry C. Johnson` (1)
 - Threads: `johnson` (1), `macgregor` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `transcript-napolitano-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-simplicius-europes-triumvirate-of-lame-stooges-2026-02-10.md`
-- `transcript-dialogue-works-mohammad-marandi-larry-c-johnson-u-s-iran-on-the-brink-as-critical-negot-2026-02-10.md`
-- `transcript-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md`
-- `youtube-alex-mercouris-lavrov-says-us-seeks-global-dominance-us-russia-relations-getting-worse-2026-02-10.md`
+- `source-alex-mercouris-lavrov-says-us-seeks-global-dominance-us-russia-relations-getting-worse-2026-02-10.md`
+- `source-dialogue-works-mohammad-marandi-larry-c-johnson-u-s-iran-on-the-brink-as-critical-negot-2026-02-10.md`
+- `source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md`
+- `source-simplicius-europes-triumvirate-of-lame-stooges-2026-02-10.md`

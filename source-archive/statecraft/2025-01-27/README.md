@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `transcript` (2)
+- Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Ukraine Russia War MILITARY UPDATE / Lt. Col Daniel Davis` (1)
 - Threads: `davis` (2)
 
-## Filename Family Fallbacks
-
-- `youtube-daniel-davis-deep-dive-*` (1)
-
 ## Files
 
-- `youtube-daniel-davis-deep-dive-ukraine-russia-war-military-update-lt-col-daniel-davis-2025-01-27.md`
-- `youtube-daniel-davis-deep-dive-will-ukraine-be-at-the-table-for-peace-talks-w-harry-kazianis-of-19forty-2025-01-27.md`
+- `source-daniel-davis-deep-dive-ukraine-russia-war-military-update-lt-col-daniel-davis-2025-01-27.md`
+- `source-daniel-davis-deep-dive-will-ukraine-be-at-the-table-for-peace-talks-w-harry-kazianis-of-19forty-2025-01-27.md`

@@ -68,7 +68,7 @@ Core host transformations:
 Support surfaces that remain part of the wider Freeman object:
 
 - [freeman-helix.md](freeman-helix.md)
-- [freeman-raw-input-index.md](freeman-raw-input-index.md)
+- [freeman-source-index.md](freeman-source-index.md)
 - [index.md](index.md)
 - [freeman-cross-year-note.md](freeman-cross-year-note.md)
 

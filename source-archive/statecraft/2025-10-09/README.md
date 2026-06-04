@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `transcript` (2), `youtube` (1)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (3)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `3`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1)
 - Threads: `napolitano` (2), `crooke` (1), `diesen` (1), `mearsheimer` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-napolitano-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md`
-- `transcript-napolitano-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md`
-- `youtube-glenn-diesen-alastair-crooke-alastair-crooke-fake-peace-in-gaza-full-scale-war-with-iran-2025-10-09.md`
+- `source-glenn-diesen-alastair-crooke-alastair-crooke-fake-peace-in-gaza-full-scale-war-with-iran-2025-10-09.md`
+- `source-napolitano-mearsheimer-israel-after-two-years-of-genocide-2025-10-09.md`
+- `source-napolitano-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md`

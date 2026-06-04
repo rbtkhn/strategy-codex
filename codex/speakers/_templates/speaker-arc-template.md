@@ -4,6 +4,14 @@ WORK only; not Record.
 
 Purpose: explain why the recurring `{host} x {guest}` lane matters as a host-local conversational form. This is an interpretive routing note downstream of raw-input accumulation, not a provenance ledger and not a lattice row.
 
+Template doctrine: separate the surface name, surface role, and surface interior before writing.
+
+- **surface name**: this file is a host-local `arc`
+- **surface role**: bounded interpretive routing for one host x guest lane
+- **surface interior**: the braid of recurring `arc-threads` inside that bounded lane
+
+Reference: [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/civ-lens/speaker-shelf-vocabulary.md)
+
 Derived speaker arcs are interpretive routing surfaces downstream of transcript/raw-input, not substitutes for transcript authority.
 
 Transcript-first evidence, arc-first interpretation:
@@ -33,6 +41,8 @@ Orthogonality rule:
 - If two arcs reach the same conclusion, keep them separate only when they arrive there by materially different mechanisms or support different downstream use.
 
 Model: an **arc is a bounded helix of arc-threads**. An **arc-thread** is a recurring thematic strand; the host-local arc is the braid of those strands inside one host x guest surface.
+
+Do not let `arc-threads` drift into the surface name for this file. The surface is the arc; the arc-threads are what it contains.
 
 Arc quality test:
 

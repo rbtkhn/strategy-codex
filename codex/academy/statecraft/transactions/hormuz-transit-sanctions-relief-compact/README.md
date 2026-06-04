@@ -21,8 +21,8 @@ Hormuz disruption creates coercive system leverage. A durable compact has to reo
 
 - [Pape coercive-center index](../../sheets/pape-coercive-center-index.md) for clocks, shortage pressure, and fourth-center leverage.
 - [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md) for balancing pressure, restraint, and structural limits.
-- [Pape 2026-05-18](../../../../years/2026/raw-input/2026-05-18/substack-pape-june-could-be-the-most-brutal-month-2026-05-18.md) for the contraction clock.
-- [Parsi 2026-05-03](../../../../years/2026/raw-input/2026-05-03/substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md) for proposal / architecture logic.
+- [Pape 2026-05-18](../../../../years/2026/raw-input/2026-05-18/source-pape-june-could-be-the-most-brutal-month-2026-05-18.md) for the contraction clock.
+- [Parsi 2026-05-03](../../../../years/2026/raw-input/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md) for proposal / architecture logic.
 - Existing Iran-lane seed: [Hormuz recognition transit transaction](../../iran/transactions/hormuz-recognition-transit-transaction.md).
 
 ## Comparison

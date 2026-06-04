@@ -10,33 +10,33 @@ Purpose: route Pape's host appearances by function and show how they reinforce, 
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-03-10 | The Escalation Trap: Why Escalation Favors Iran | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md) | escalation mechanics and ground-war threshold |
+| 2026-03-10 | The Escalation Trap: Why Escalation Favors Iran | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md) | escalation mechanics and ground-war threshold |
 
 ### Redacted
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-04-20 | The Collapse Is Now Ahead of Schedule | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/redacted-pape-collapse-ahead-of-schedule-2026-04-20.md) | shortage clock and contraction compression |
+| 2026-04-20 | The Collapse Is Now Ahead of Schedule | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md) | shortage clock and contraction compression |
 
 ### Breaking Points
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-04-29 | Why a Nuclear Iran Is Inevitable | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md) | fourth-center thesis and U.S. loss of control |
-| 2026-05-27 | Prof Pape: Iran IN DRIVERS SEAT As SHOCKING Deal Emerges | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md) | oil-price negotiation compression, escalation-trap politics, and public deal framing |
+| 2026-04-29 | Why a Nuclear Iran Is Inevitable | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md) | fourth-center thesis and U.S. loss of control |
+| 2026-05-27 | Prof Pape: Iran IN DRIVERS SEAT As SHOCKING Deal Emerges | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md) | oil-price negotiation compression, escalation-trap politics, and public deal framing |
 
 ### Switzerland with Tom Switzer
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-05-28 | The mirage of peace | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-pape-switzer-the-mirage-of-peace-2026-05-28.md) | escalation-trap theory translated into allied-audience grand-strategy, post-American-order framing, and domestic-fracture explanation |
+| 2026-05-28 | The mirage of peace | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-pape-switzer-the-mirage-of-peace-2026-05-28.md) | escalation-trap theory translated into allied-audience grand-strategy, post-American-order framing, and domestic-fracture explanation |
 
 ### Mario Nawfal
 
 | date | title | raw-input | function |
 |---|---|---|---|
-| 2026-05-12 | Trump's Next Iran Steps Revealed | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md) | warning-signs compression and public forecast translation |
-| 2026-05-20 | Iran Warns U.S. of 'Surprises'; Xi, Putin Meet in Beijing | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md) | no-off-ramp compression, Gulf coercion signaling, and cross-theater escalation translation |
+| 2026-05-12 | Trump's Next Iran Steps Revealed | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md) | warning-signs compression and public forecast translation |
+| 2026-05-20 | Iran Warns U.S. of 'Surprises'; Xi, Putin Meet in Beijing | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/source-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md) | no-off-ramp compression, Gulf coercion signaling, and cross-theater escalation translation |
 
 ## Host Function Map
 

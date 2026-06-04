@@ -76,8 +76,8 @@ Repo-current 2026 continuity anchors:
 - `codex/daily-strategy-inbox.md` - Apr 26 Mercouris handle: `US Says EU Has No Ukraine Plan; Ukraine Wants More EU Funds Russia Economy Strong; Iran Scorns Talks`
 - `codex/daily-strategy-inbox.md` - Apr 28 Mearsheimer handle: `How Trump Lost His War`, with U.S. strategic bandwidth, force depletion, and no quick-reset military option
 - `codex/daily-strategy-inbox.md` - Apr 28 Freeman handle: `What Russia Can Do For Iran`, with absent war-termination strategy, shifting objectives, endurance mismatch, and guarantees language
-- `source-archive/statecraft/2026-05-16/youtube-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md` - European legitimacy crisis, negotiation/capitulation framing, ceasefire as regrouping/rearming language
-- `source-archive/statecraft/2026-05-16/youtube-daniel-davis-deep-dive-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md` - NATO involvement/escalation-risk frame and "save what can be saved" language
-- `source-archive/statecraft/2026-04-26/youtube-alex-mercouris-us-says-eu-has-no-ukraine-plan-ukraine-wants-more-eu-funds-russia-econom-2026-04-26.md` - raw-input file handle for EU plan/funding anxiety
+- `source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md` - European legitimacy crisis, negotiation/capitulation framing, ceasefire as regrouping/rearming language
+- `source-archive/statecraft/2026-05-16/source-daniel-davis-deep-dive-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md` - NATO involvement/escalation-risk frame and "save what can be saved" language
+- `source-archive/statecraft/2026-04-26/source-alex-mercouris-us-says-eu-has-no-ukraine-plan-ukraine-wants-more-eu-funds-russia-econom-2026-04-26.md` - raw-input file handle for EU plan/funding anxiety
 
 Primary 2025 receipts live under `artifacts/cognition-streams/check-streams-2025-01-10-local/` through `check-streams-2025-05-10-local/`. The 2026 extension uses repo-current local captures only and should not be read as fresh external verification.

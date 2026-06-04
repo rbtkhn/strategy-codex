@@ -23,12 +23,12 @@ Mearsheimer repeatedly invokes World War II, Iraq, maximum-pressure Iran, and Na
 
 ## Exact Quote Anchors
 
-- [2026-04-30 Daniel Davis](../../years/2026/provenance/2026-04-30/transcript-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
+- [2026-04-30 Daniel Davis](../../years/2026/provenance/2026-04-30/source-davis-mearsheimer-weve-lost-the-iran-war-were-screwed-2026-04-30.md)
   > "We saw this in World War II with the bombing campaigns against Japan and Germany."
 
   > "they wouldn't surrender from a punishment campaign."
 
-- [2026-03-29 authored Mearsheimer](../../years/2026/provenance/2026-03-29/substack-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
+- [2026-03-29 authored Mearsheimer](../../years/2026/provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md)
   > "God is on the side of the big battalions"
 
 ## What Mearsheimer Is Arguing

@@ -63,7 +63,7 @@ Supporting surfaces:
 
 - [mearsheimer-helix.md](mearsheimer-helix.md)
 - [mearsheimer-support-spine-2025-2026.md](mearsheimer-support-spine-2025-2026.md)
-- [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md)
+- [mearsheimer-source-index.md](mearsheimer-source-index.md)
 - [index.md](index.md)
 
 ## Open first

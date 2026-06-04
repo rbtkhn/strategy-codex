@@ -53,7 +53,7 @@ The world is looking at a deliberate attack on global energy security as a means
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-01-12/substack-ritter-iranian-resilience-2026-01-12.md](../../../../years/2026/provenance/2026-01-12/substack-ritter-iranian-resilience-2026-01-12.md)
+- **Full verbatim (capture):** [provenance/2026-01-12/source-ritter-iranian-resilience-2026-01-12.md](../../../../years/2026/provenance/2026-01-12/source-ritter-iranian-resilience-2026-01-12.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-01-12)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/iranian-resilience

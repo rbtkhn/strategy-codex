@@ -50,13 +50,13 @@ This is enough to treat `Dialogue Works x Aguilar` as a real emerging 2026 host-
 
 If the operator needs only one file:
 
-- open [2026-05-04 Alkorshid x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/transcript-alkorshid-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md)
+- open [2026-05-04 Alkorshid x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-alkorshid-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md)
 
 If the operator needs the best paired read:
 
-- open [2026-05-04 Alkorshid x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/transcript-alkorshid-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md)
-- then [2026-04-29 Dialogue Works x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-29/transcript-dialogue-works-anthony-aguilar-why-everything-you-knew-about-the-middle-east-just-colla-2026-04-29.md)
-- then [2026-05-14 Dialogue Works x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-14/transcript-dialogue-works-lt-col-anthony-aguilar-israel-s-defeat-begins-hezbollah-and-yemen-just-h-2026-05-14.md)
+- open [2026-05-04 Alkorshid x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-alkorshid-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md)
+- then [2026-04-29 Dialogue Works x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-29/source-dialogue-works-anthony-aguilar-why-everything-you-knew-about-the-middle-east-just-colla-2026-04-29.md)
+- then [2026-05-14 Dialogue Works x Aguilar](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-14/source-dialogue-works-lt-col-anthony-aguilar-israel-s-defeat-begins-hezbollah-and-yemen-just-h-2026-05-14.md)
 
 That set gives the clearest current lane shape:
 

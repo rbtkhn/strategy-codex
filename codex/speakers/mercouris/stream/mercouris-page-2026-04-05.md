@@ -32,7 +32,7 @@ The episode fuses operational inference (rescue as window into insertion economi
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-05/duran-mercouris-f15-rescue-hormuz-nato-kiev-2026-04-05.md](../../../../years/2026/provenance/2026-04-05/duran-mercouris-f15-rescue-hormuz-nato-kiev-2026-04-05.md)
+- **Full verbatim (capture):** [provenance/2026-04-05/duran-source-f15-rescue-hormuz-nato-kiev-2026-04-05.md](../../../../years/2026/provenance/2026-04-05/duran-source-f15-rescue-hormuz-nato-kiev-2026-04-05.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mercouris`, aired 2026-04-05)
 - **`thread:mercouris`** · **verify:** full-text + raw-input + operator-transcript + `aired:2026-04-05` (`ingest_date` 2026-04-25 in frontmatter)
-- **Canonical video:** [raw-input frontmatter `source_url`](../../../../years/2026/provenance/2026-04-05/duran-mercouris-f15-rescue-hormuz-nato-kiev-2026-04-05.md) — replace TBD watch ID when pinned
+- **Canonical video:** [raw-input frontmatter `source_url`](../../../../years/2026/provenance/2026-04-05/duran-source-f15-rescue-hormuz-nato-kiev-2026-04-05.md) — replace TBD watch ID when pinned

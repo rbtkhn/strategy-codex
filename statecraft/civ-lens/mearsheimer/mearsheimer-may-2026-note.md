@@ -22,22 +22,22 @@ It is better read as:
 
 ## Materialized on disk
 
-1. [2026-05-04 - World Order Ending & Risk of Nuclear War](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/transcript-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
+1. [2026-05-04 - World Order Ending & Risk of Nuclear War](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
    Status: transcript-grade `Diesen` opener and strongest single mature anchor for the month.
 
-2. [2026-05-13 - Trump Will Be Forced to Cut a Deal With Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/youtube-daniel-davis-deep-dive-prof-john-mearsheimer-trump-will-be-forced-to-cut-a-deal-w-iran-2026-05-13.md)
+2. [2026-05-13 - Trump Will Be Forced to Cut a Deal With Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/source-daniel-davis-deep-dive-prof-john-mearsheimer-trump-will-be-forced-to-cut-a-deal-w-iran-2026-05-13.md)
    Status: `Davis` bargaining-geometry continuation and best May settlement-pressure anchor.
 
-3. [2026-05-13 - Shock Analysis: Russia Considers Nuclear Escalation v Europe](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/youtube-daniel-davis-deep-dive-prof-mearsheimer-shock-analysis-russia-considers-nuclear-escalation-v-eu-2026-05-13.md)
+3. [2026-05-13 - Shock Analysis: Russia Considers Nuclear Escalation v Europe](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/source-daniel-davis-deep-dive-prof-mearsheimer-shock-analysis-russia-considers-nuclear-escalation-v-eu-2026-05-13.md)
    Status: same-day `Davis` continuity showing that the May run is not only Gulf pressure but also Europe-Russia danger escalation.
 
-4. [2026-05-18 - Toward All-Out War With Both Russia & Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/youtube-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md)
+4. [2026-05-18 - Toward All-Out War With Both Russia & Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/source-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md)
    Status: `Diesen` reinforcement that turns the month into a cross-theater escalation and no-bargaining-space object.
 
-5. [2026-05-26 - Neocons Want More War](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
+5. [2026-05-26 - Neocons Want More War](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
    Status: transcript-grade `Napolitano` reinforcement orbit, sharpening defeat accounting and neocon sequence pressure.
 
-6. [2026-05-28 - Iran Ceasefire Hangs by a Thread](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md)
+6. [2026-05-28 - Iran Ceasefire Hangs by a Thread](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md)
    Status: transcript-grade `Davis` late-month hinge tying ceasefire fragility, Hormuz reopening, and settlement impossibility together.
 
 Companion structural surface:

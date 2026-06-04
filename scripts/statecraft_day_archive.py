@@ -23,23 +23,7 @@ HONORIFIC_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Longest-first so more specific families win.
-KNOWN_FAMILY_PREFIXES = (
-    "youtube-daniel-davis-deep-dive-",
-    "youtube-alex-mercouris-",
-    "youtube-glenn-diesen-",
-    "youtube-dialogue-works-",
-    "transcript-napolitano-",
-    "transcript-alkorshid-",
-    "transcript-duran-",
-    "transcript-wilkerson-judging-freedom-",
-    "judging-freedom-",
-    "youtube-hoh-dialogue-works-",
-    "youtube-blumenthal-judging-freedom-",
-    "substack-",
-    "transcript-",
-    "youtube-",
-)
+CANONICAL_SOURCE_PREFIX = "source-"
 
 
 @dataclass(frozen=True)
@@ -53,8 +37,8 @@ class ArchiveFile:
     thread_values: tuple[str, ...]
     channel_values: tuple[str, ...]
     source_type: str
-    type_label: str
-    fallback_family: str
+    source_form: str
+    kind_label: str
     has_frontmatter: bool
 
 
@@ -62,12 +46,12 @@ class ArchiveFile:
 class DaySummary:
     date: str
     source_count: int
-    type_counter: Counter[str]
+    kind_counter: Counter[str]
+    source_form_counter: Counter[str]
     channel_counter: Counter[str]
     host_counter: Counter[str]
     guest_counter: Counter[str]
     thread_counter: Counter[str]
-    fallback_counter: Counter[str]
     file_names: tuple[str, ...]
     has_readme: bool = False
     readme_parse_ok: bool = False
@@ -226,16 +210,27 @@ def type_label(name: str) -> str:
     return stem.split("-", 1)[0] if "-" in stem else stem
 
 
-def infer_family_label(name: str) -> str:
-    stem = name[:-3] if name.endswith(".md") else name
-    stem = re.sub(r"-\d{4}-\d{2}-\d{2}$", "", stem)
-    for prefix in KNOWN_FAMILY_PREFIXES:
-        if stem.startswith(prefix):
-            return f"{prefix}*"
-    if "-" not in stem:
-        return stem
-    head = stem.split("-")
-    return "-".join(head[:2]) + "-*"
+def infer_source_form(meta: dict[str, Any], host_values: tuple[str, ...], guest_values: tuple[str, ...]) -> str:
+    explicit = norm_scalar(meta.get("source_form"))
+    if explicit:
+        return explicit
+
+    source_url = norm_scalar(meta.get("source_url")).casefold()
+    publication = norm_scalar(meta.get("publication")).casefold()
+    kind = norm_scalar(meta.get("kind")).casefold()
+    source_type = norm_scalar(meta.get("source_type")).casefold()
+
+    if "substack.com" in source_url or publication.endswith("substack.com") or kind == "substack-post":
+        return "newsletter"
+    if kind in {"article", "web-page"} or source_type == "web-transcript-derived-summary":
+        return "article"
+    if len(guest_values) >= 2:
+        return "panel"
+    if len(guest_values) == 1:
+        return "interview"
+    if host_values or norm_scalar(meta.get("show")) or source_url:
+        return "solo"
+    return "post"
 
 
 def collect_archive_file(path: Path) -> ArchiveFile:
@@ -267,8 +262,8 @@ def collect_archive_file(path: Path) -> ArchiveFile:
         thread_values=thread_values,
         channel_values=channel_values,
         source_type=norm_scalar(meta.get("source_type")),
-        type_label=type_label(path.name),
-        fallback_family=infer_family_label(path.name),
+        source_form=infer_source_form(meta, host_values, guest_values),
+        kind_label=norm_scalar(meta.get("kind")) or type_label(path.name),
         has_frontmatter=bool(meta),
     )
 
@@ -288,25 +283,16 @@ def rollup_values(records: list[ArchiveFile], attr: str) -> Counter[str]:
     return counter
 
 
-def fallback_counter(records: list[ArchiveFile]) -> Counter[str]:
-    counter: Counter[str] = Counter()
-    for record in records:
-        if record.channel_values and record.host_values and record.guest_values and record.thread_values:
-            continue
-        counter[record.fallback_family] += 1
-    return counter
-
-
 def summarize_records(date: str, records: list[ArchiveFile], *, has_readme: bool = False, readme_parse_ok: bool = False) -> DaySummary:
     return DaySummary(
         date=date,
         source_count=len(records),
-        type_counter=Counter(record.type_label for record in records),
+        kind_counter=Counter(record.kind_label for record in records),
+        source_form_counter=Counter(record.source_form for record in records),
         channel_counter=rollup_values(records, "channel_values"),
         host_counter=rollup_values(records, "host_values"),
         guest_counter=rollup_values(records, "guest_values"),
         thread_counter=rollup_values(records, "thread_values"),
-        fallback_counter=fallback_counter(records),
         file_names=tuple(record.name for record in records),
         has_readme=has_readme,
         readme_parse_ok=readme_parse_ok,
@@ -369,7 +355,8 @@ def build_day_readme(day_dir: Path) -> str:
     summary = summarize_day_dir(day_dir)
     stats = [
         f"- Source files: `{summary.source_count}`",
-        f"- Type mix: {fmt_counter(summary.type_counter)}",
+        f"- Body kind mix: {fmt_counter(summary.kind_counter)}",
+        f"- Source form mix: {fmt_counter(summary.source_form_counter)}",
         f"- Distinct channels/shows: `{len(summary.channel_counter)}`",
         f"- Distinct hosts: `{len(summary.host_counter)}`",
         f"- Distinct guests: `{len(summary.guest_counter)}`",
@@ -394,10 +381,6 @@ def build_day_readme(day_dir: Path) -> str:
         f"- Hosts: {fmt_counter(summary.host_counter)}",
         f"- Guests: {fmt_counter(summary.guest_counter)}",
         f"- Threads: {fmt_counter(summary.thread_counter)}",
-        "",
-        "## Filename Family Fallbacks",
-        "",
-        f"- {fmt_counter(summary.fallback_counter)}",
         "",
         "## Files",
         "",
@@ -447,31 +430,31 @@ def parse_day_readme(day_dir: Path) -> DaySummary | None:
 
     title_match = re.search(r"^# Statecraft Archive - (\d{4}-\d{2}-\d{2})$", text, re.MULTILINE)
     source_match = re.search(r"^- Source files: `(\d+)`$", text, re.MULTILINE)
-    type_match = re.search(r"^- Type mix: (.+)$", text, re.MULTILINE)
+    kind_match = re.search(r"^- Body kind mix: (.+)$", text, re.MULTILINE)
+    source_form_match = re.search(r"^- Source form mix: (.+)$", text, re.MULTILINE)
+    legacy_type_match = re.search(r"^- Type mix: (.+)$", text, re.MULTILINE)
     channel_block = _extract_section_block(text, "Channel / Show Rollup")
     hgt_block = _extract_section_block(text, "Host / Guest / Thread Rollup")
-    fallback_block = _extract_section_block(text, "Filename Family Fallbacks")
     files_block = _extract_section_block(text, "Files")
-    if not (title_match and source_match and type_match and channel_block and hgt_block and fallback_block and files_block):
+    if not (title_match and source_match and channel_block and hgt_block and files_block):
         return None
     channel_match = re.search(r"^- (.+)$", channel_block, re.MULTILINE)
     host_match = re.search(r"^- Hosts: (.+)$", hgt_block, re.MULTILINE)
     guest_match = re.search(r"^- Guests: (.+)$", hgt_block, re.MULTILINE)
     thread_match = re.search(r"^- Threads: (.+)$", hgt_block, re.MULTILINE)
-    fallback_match = re.search(r"^- (.+)$", fallback_block, re.MULTILINE)
-    if not (channel_match and host_match and guest_match and thread_match and fallback_match):
+    if not (channel_match and host_match and guest_match and thread_match):
         return None
     files = tuple(re.findall(r"^- `([^`]+\.md)`$", files_block, re.MULTILINE))
 
     return DaySummary(
         date=title_match.group(1),
         source_count=int(source_match.group(1)),
-        type_counter=parse_counter_text(type_match.group(1)),
+        kind_counter=parse_counter_text(kind_match.group(1)) if kind_match else Counter(),
+        source_form_counter=parse_counter_text(source_form_match.group(1)) if source_form_match else parse_counter_text(legacy_type_match.group(1)) if legacy_type_match else Counter(),
         channel_counter=parse_counter_text(channel_match.group(1)),
         host_counter=parse_counter_text(host_match.group(1)),
         guest_counter=parse_counter_text(guest_match.group(1)),
         thread_counter=parse_counter_text(thread_match.group(1)),
-        fallback_counter=parse_counter_text(fallback_match.group(1)),
         file_names=files,
         has_readme=True,
         readme_parse_ok=True,
@@ -481,5 +464,7 @@ def parse_day_readme(day_dir: Path) -> DaySummary | None:
 def load_day_summary(day_dir: Path) -> DaySummary:
     parsed = parse_day_readme(day_dir)
     if parsed is not None:
+        if not parsed.kind_counter or not parsed.source_form_counter:
+            return summarize_day_dir(day_dir, has_readme=True, readme_parse_ok=True)
         return parsed
     return summarize_day_dir(day_dir, has_readme=(day_dir / "README.md").is_file(), readme_parse_ok=False)

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `7`
-- Type mix: `transcript` (5), `youtube` (2)
+- Body kind mix: `transcript` (6), `youtube` (1)
+- Source form mix: `interview` (5), `solo` (2)
 - Distinct channels/shows: `5`
 - Distinct hosts: `5`
 - Distinct guests: `5`
@@ -21,16 +22,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Anthony Aguilar` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Robert Barnes` (1)
 - Threads: `nawfal` (3), `diesen` (2), `aguilar` (1), `barnes` (1), `johnson` (1), `mercouris` (1), `nima` (1), `sachs` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-alkorshid-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-alkorshid-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md`
-- `transcript-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md`
-- `transcript-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md`
-- `transcript-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md`
-- `transcript-nawfal-larry-johnson-israel-asks-trump-to-escalate-2026-05-31.md`
-- `youtube-alex-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md`
-- `youtube-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md`
+- `source-alex-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md`
+- `source-alkorshid-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md`
+- `source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md`
+- `source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md`
+- `source-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md`
+- `source-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md`
+- `source-nawfal-larry-johnson-israel-asks-trump-to-escalate-2026-05-31.md`

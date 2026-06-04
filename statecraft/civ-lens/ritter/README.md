@@ -10,7 +10,7 @@ Use it for speaker identity, host continuity, route maps, a full bounded 2026 mo
 
 - [ritter-arc.md](ritter-arc.md)
 - [ritter-routing.md](ritter-routing.md)
-- [ritter-raw-input-index.md](ritter-raw-input-index.md)
+- [ritter-source-index.md](ritter-source-index.md)
 - [ritter-helix.md](ritter-helix.md)
 - [ritter-support-spine-2025-2026.md](ritter-support-spine-2025-2026.md)
 - [stream/ritter-shelf-2026-02.md](stream/ritter-shelf-2026-02.md)
@@ -25,7 +25,7 @@ Ritter's canonical structure now has five speaker-owned layers:
 
 - **Person arc:** [ritter-arc.md](ritter-arc.md) is the primary Statecraft Synthesis surface for Ritter continuity across authored and interview contexts.
 - **Routing surface:** [ritter-routing.md](ritter-routing.md) answers which host lane or monthly shelf to open first.
-- **Provenance bench:** [ritter-raw-input-index.md](ritter-raw-input-index.md) remains the exhaustive route map for materialized Ritter appearances.
+- **Source index:** [ritter-source-index.md](ritter-source-index.md) remains the exhaustive route map for materialized Ritter appearances.
 - **Crossing surface:** [ritter-helix.md](ritter-helix.md) explains the host triple helix and the authored/interview source-class split.
 - **Support spine:** [ritter-support-spine-2025-2026.md](ritter-support-spine-2025-2026.md) owns maturity law, month-status law, and the rule for how the canonical month ladder relates to host-owned chronology.
 

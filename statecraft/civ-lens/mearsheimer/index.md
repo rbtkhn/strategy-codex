@@ -8,7 +8,7 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 
 - [Speaker arc](mearsheimer-arc.md)
 - [Speaker routing note](mearsheimer-routing.md)
-- [Raw-input index](mearsheimer-raw-input-index.md)
+- [Source index](mearsheimer-source-index.md)
 - [Speaker helix](mearsheimer-helix.md)
 - [Support spine](mearsheimer-support-spine-2025-2026.md)
 - [Lane README](README.md)
@@ -26,7 +26,7 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 
 ### Non-core appearance bench
 
-- [Mearsheimer raw-input index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md)
+- [Mearsheimer source index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-source-index.md)
 
 ## Canonical Structure
 
@@ -39,7 +39,7 @@ Mearsheimer's orthogonality-bearing structure is:
 - [mearsheimer-may-2026-note.md](mearsheimer-may-2026-note.md)
 - the two main host-local arcs for stable distinct host transformations
 - the Napolitano branch as reinforcing orbit material rather than a third canonical strand
-- the raw-input index as the current `non-core appearance bench`
+- the source index as the current `non-core appearance bench`
 
 Current constitutional reading:
 

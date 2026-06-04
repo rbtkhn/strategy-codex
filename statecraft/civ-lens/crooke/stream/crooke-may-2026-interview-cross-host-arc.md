@@ -12,8 +12,8 @@ May 2026 shows the interview strand after the coercive fantasy has already broke
 
 | date | host | title | raw-input | arc job |
 |---|---|---|---|---|
-| 2026-05-11 | Davis | Diplomatic Solution or More War | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-11/transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md) | off-ramp test, settlement theater, leverage deadlock |
-| 2026-05-13 | Dialogue Works / Nima | Iran Smashed the U.S. Military Model, China Is Watching | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/transcript-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md) | war-model failure, live crisis meaning, outward consequence |
+| 2026-05-11 | Davis | Diplomatic Solution or More War | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-11/source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md) | off-ramp test, settlement theater, leverage deadlock |
+| 2026-05-13 | Dialogue Works / Nima | Iran Smashed the U.S. Military Model, China Is Watching | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md) | war-model failure, live crisis meaning, outward consequence |
 
 ## Month spine
 

@@ -57,6 +57,7 @@ Machine-constitutional files stay where they already belong:
 
 ## Best Entry Points
 
+- [how-the-iran-nuclear-threshold-story-hardened.md](./how-the-iran-nuclear-threshold-story-hardened.md) - stand-alone scaffold for the January-June 2026 hardening from nuclear-threshold logic to the June 2 Pakistan-offer / crude-device / demonstration-test claim
 - [america-and-the-problem-of-sovereign-command-under-allied-capture.md](./america-and-the-problem-of-sovereign-command-under-allied-capture.md) - placeholder essay scaffold for the Section 224 controversy as an America-side command argument
 - [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) - stand-alone model of the journal's current maturation
 - [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) - teachable explanation of what the repo is becoming and why that changes what matters
@@ -97,6 +98,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 ### Shelf-Native
 
+- [how-the-iran-nuclear-threshold-story-hardened.md](./how-the-iran-nuclear-threshold-story-hardened.md) - shelf-native statecraft essay scaffold tracking how the Iran nuclear story hardened from threshold logic into the June 2 hard thesis while preserving the bench split over whether the final claim is true
 - [america-and-the-problem-of-sovereign-command-under-allied-capture.md](./america-and-the-problem-of-sovereign-command-under-allied-capture.md) - shelf-native placeholder essay
 - [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) - shelf-native synthesized essay
 - [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) - shelf-native explanatory essay

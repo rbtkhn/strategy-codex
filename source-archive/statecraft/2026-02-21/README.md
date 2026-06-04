@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `substack` (1), `youtube` (1)
+- Body kind mix: `substack-post` (1), `transcript` (1)
+- Source form mix: `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `1`
 - Distinct guests: `0`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `mercouris` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-simplicius-multipolarity-a-delusion-in-face-2026-02-21.md`
-- `youtube-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21.md`
+- `source-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21.md`
+- `source-simplicius-multipolarity-a-delusion-in-face-2026-02-21.md`

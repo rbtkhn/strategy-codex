@@ -14,7 +14,7 @@ Quick separation rule:
 
 - [mercouris-arc.md](mercouris-arc.md) = whole-speaker continuity wrapper
 - [mercouris-routing.md](mercouris-routing.md) = fastest arc or month selection
-- [mercouris-raw-input-index.md](mercouris-raw-input-index.md) = provenance bench
+- [mercouris-source-index.md](mercouris-source-index.md) = source bench
 - [mercouris-helix.md](mercouris-helix.md) = crossing-surface wrapper
 - [stream/mercouris-arc.md](stream/mercouris-arc.md) = inner continuity core
 - [stream/README.md](stream/README.md) = bounded monthly synthesis shelves

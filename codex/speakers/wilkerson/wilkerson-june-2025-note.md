@@ -25,27 +25,27 @@ The honest reading is:
 
 ## Materialized on disk
 
-1. [2025-06-05 - *COL. Lawrence Wilkerson : What Did Trump Know of Drone Attacks?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-05/transcript-napolitano-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md)
+1. [2025-06-05 - *COL. Lawrence Wilkerson : What Did Trump Know of Drone Attacks?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-05/source-napolitano-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized with recovered direct YouTube watch URL.
 
-2. [2025-06-09 - *Israel's Mossad is everywhere and all over Ukraine, Russia has won! - Col. Lawrence Wilkerson*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-09/transcript-going-underground-wilkerson-israels-mossad-is-everywhere-and-all-over-ukraine-russia-has-won-2025-06-09.md)
+2. [2025-06-09 - *Israel's Mossad is everywhere and all over Ukraine, Russia has won! - Col. Lawrence Wilkerson*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-09/source-going-underground-wilkerson-israels-mossad-is-everywhere-and-all-over-ukraine-russia-has-won-2025-06-09.md)
    Status: full operator-pasted `Going Underground` crossover transcript materialized with recovered direct YouTube watch URL.
 
-3. [2025-06-14 - *Col. Larry Wilkerson and Chas Freeman: Israel's attack on Iran and Its DEVASTATING Consequences*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-14/transcript-dialogue-works-col-larry-wilkerson-and-chas-freeman-israel-s-attack-on-iran-and-its-devastating-consequences-2025-06-14.md)
+3. [2025-06-14 - *Col. Larry Wilkerson and Chas Freeman: Israel's attack on Iran and Its DEVASTATING Consequences*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-14/source-dialogue-works-col-larry-wilkerson-and-chas-freeman-israel-s-attack-on-iran-and-its-devastating-consequences-2025-06-14.md)
    Status: full operator-pasted `Dialogue Works` transcript materialized.
    URL recovery status: direct YouTube watch URL now recoverable from secondary evidence.
 
-4. [2025-06-13 - *COL. Lawrence Wilkerson : Foreign Policy in Chaos.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-13/transcript-napolitano-wilkerson-foreign-policy-in-chaos-2025-06-13.md)
+4. [2025-06-13 - *COL. Lawrence Wilkerson : Foreign Policy in Chaos.*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-13/source-napolitano-wilkerson-foreign-policy-in-chaos-2025-06-13.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized with recovered direct YouTube watch URL.
 
-5. [2025-06-16 - *Col. Lawrence Wilkerson: From Perpetual Peace to World War*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-16/youtube-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-from-perpetual-peace-to-world-war-2025-06-16.md)
+5. [2025-06-16 - *Col. Lawrence Wilkerson: From Perpetual Peace to World War*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-16/source-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-from-perpetual-peace-to-world-war-2025-06-16.md)
    Status: speaker-forward `Diesen` June anchor already materialized on disk.
    URL: [https://www.youtube.com/watch?v=UKYkTRtKOBY](https://www.youtube.com/watch?v=UKYkTRtKOBY)
 
-6. [2025-06-19 - *Colonel Wilkerson: Who Will Win the Iran-Israel War?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-19/transcript-the-source-wilkerson-who-will-win-the-iran-israel-war-2025-06-19.md)
+6. [2025-06-19 - *Colonel Wilkerson: Who Will Win the Iran-Israel War?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-19/source-the-source-wilkerson-who-will-win-the-iran-israel-war-2025-06-19.md)
    Status: full operator-pasted `The Source` / `acTVism` transcript materialized with recovered direct YouTube watch URL.
 
-7. [2025-06-22 - *Col. Larry Wilkerson, Amb. Chas Freeman & Trita Parsi: The U.S. Could Face a WAR It Can't Win!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-22/transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
+7. [2025-06-22 - *Col. Larry Wilkerson, Amb. Chas Freeman & Trita Parsi: The U.S. Could Face a WAR It Can't Win!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-22/source-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
    Status: full operator-pasted `Dialogue Works` transcript materialized.
    URL recovery status: direct YouTube watch URL now recoverable from secondary evidence.
 

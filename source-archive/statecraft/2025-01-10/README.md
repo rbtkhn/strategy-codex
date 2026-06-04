@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
-- Type mix: `youtube` (4), `transcript` (1)
+- Body kind mix: `transcript` (5)
+- Source form mix: `interview` (3), `solo` (2)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
@@ -21,14 +22,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Drones UPDATE` (1), `Jeffrey Sachs` (1)
 - Threads: `davis` (3), `daniel-davis-deep-dive` (2), `alex-mercouris` (1), `diesen` (1), `freeman` (1), `mercouris` (1), `sachs` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1), `youtube-daniel-davis-deep-dive-*` (1)
-
 ## Files
 
-- `transcript-diesen-sachs-deep-states-aims-in-russia-and-more-2025-01-10.md`
-- `youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md`
-- `youtube-daniel-davis-deep-dive-drones-update-trump-promises-report-in-days-2025-01-10.md`
-- `youtube-daniel-davis-deep-dive-how-biden-nato-the-west-destroyed-ukraine-2025-01-10.md`
-- `youtube-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md`
+- `source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md`
+- `source-daniel-davis-deep-dive-drones-update-trump-promises-report-in-days-2025-01-10.md`
+- `source-daniel-davis-deep-dive-how-biden-nato-the-west-destroyed-ukraine-2025-01-10.md`
+- `source-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md`
+- `source-diesen-sachs-deep-states-aims-in-russia-and-more-2025-01-10.md`

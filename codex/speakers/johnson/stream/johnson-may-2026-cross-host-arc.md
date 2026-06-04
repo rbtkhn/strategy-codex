@@ -14,15 +14,15 @@ Use this file before opening host-local arcs when the question is about Johnson'
 
 | Date | Host | Title | Raw-input | Arc job |
 |---|---|---|---|---|
-| 2026-05-04 | Dialogue Works | *Hormuz, Canberra, Blockade* | [raw-input](../../../years/2026/provenance/2026-05-04/transcript-alkorshid-larry-johnson-hormuz-canberra-blockade-2026-05-04.md) | blockade continuation under live pressure |
-| 2026-05-05 | Daniel Davis / Deep Dive | *Iran War: Buffet of Stupidity & Lies* | [raw-input](../../../years/2026/provenance/2026-05-05/transcript-davis-johnson-hormuz-freedom-2026-05-05.md) | coercive incoherence and shrinking realism |
-| 2026-05-08 | Dialogue Works | *Hormuz, Qatar, BRICS, Trump, China* | [raw-input](../../../years/2026/provenance/2026-05-08/transcript-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md) | Gulf/Qatar/BRICS/China repositioning |
-| 2026-05-08 | Glenn Diesen | *Iran War Creates a New Middle East* | [raw-input](../../../years/2026/provenance/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md) | regional-order redraw |
-| 2026-05-11 | Dialogue Works | *Netanyahu, Hormuz, China, Israel* | [raw-input](../../../years/2026/provenance/2026-05-11/transcript-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md) | Israeli exposure and China angle under live pressure |
-| 2026-05-14 | Mario Nawfal | *Trump & Xi Offered to Help Open Strait of Hormuz* | [raw-input](../../../years/2026/provenance/2026-05-14/youtube-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md) | non-core process and opening-channel reinforcement |
-| 2026-05-16 | Dialogue Works | *Most Embarrassing Prediction Exposed* (Jiang x Johnson x Nima) | [raw-input](../../../years/2026/provenance/2026-05-16/transcript-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md) | comparison-driven pressure and post-control reality |
-| 2026-05-18 | Dialogue Works | *Giant Mushroom Cloud Blasts Over Israeli Defense Company* | [raw-input](../../../years/2026/provenance/2026-05-18/transcript-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md) | continued humiliation-tempo and exposed vulnerability |
-| 2026-05-18 | Judging Freedom | *US Getting Ready for More War* | [raw-input](../../../years/2026/provenance/2026-05-18/transcript-napolitano-johnson-us-getting-ready-for-more-war-2026-05-18.md) | Napolitano reinforcement under continued process absurdity |
+| 2026-05-04 | Dialogue Works | *Hormuz, Canberra, Blockade* | [raw-input](../../../years/2026/provenance/2026-05-04/source-alkorshid-larry-johnson-hormuz-canberra-blockade-2026-05-04.md) | blockade continuation under live pressure |
+| 2026-05-05 | Daniel Davis / Deep Dive | *Iran War: Buffet of Stupidity & Lies* | [raw-input](../../../years/2026/provenance/2026-05-05/source-davis-johnson-hormuz-freedom-2026-05-05.md) | coercive incoherence and shrinking realism |
+| 2026-05-08 | Dialogue Works | *Hormuz, Qatar, BRICS, Trump, China* | [raw-input](../../../years/2026/provenance/2026-05-08/source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md) | Gulf/Qatar/BRICS/China repositioning |
+| 2026-05-08 | Glenn Diesen | *Iran War Creates a New Middle East* | [raw-input](../../../years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md) | regional-order redraw |
+| 2026-05-11 | Dialogue Works | *Netanyahu, Hormuz, China, Israel* | [raw-input](../../../years/2026/provenance/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md) | Israeli exposure and China angle under live pressure |
+| 2026-05-14 | Mario Nawfal | *Trump & Xi Offered to Help Open Strait of Hormuz* | [raw-input](../../../years/2026/provenance/2026-05-14/source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md) | non-core process and opening-channel reinforcement |
+| 2026-05-16 | Dialogue Works | *Most Embarrassing Prediction Exposed* (Jiang x Johnson x Nima) | [raw-input](../../../years/2026/provenance/2026-05-16/source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md) | comparison-driven pressure and post-control reality |
+| 2026-05-18 | Dialogue Works | *Giant Mushroom Cloud Blasts Over Israeli Defense Company* | [raw-input](../../../years/2026/provenance/2026-05-18/source-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md) | continued humiliation-tempo and exposed vulnerability |
+| 2026-05-18 | Judging Freedom | *US Getting Ready for More War* | [raw-input](../../../years/2026/provenance/2026-05-18/source-napolitano-johnson-us-getting-ready-for-more-war-2026-05-18.md) | Napolitano reinforcement under continued process absurdity |
 
 ## Found, Not Yet Canonical
 
@@ -50,7 +50,7 @@ Do not use this monthly cross-host arc as a substitute for the host-local arcs w
 - Glenn Diesen: [diesen-johnson-speaker-arc.md](../../diesen/stream/diesen-johnson-speaker-arc.md)
 - Dialogue Works: [nima-johnson-speaker-arc.md](../../nima/stream/nima-johnson-speaker-arc.md)
 - Judging Freedom: [napolitano-johnson-speaker-arc.md](../../napolitano/stream/napolitano-johnson-speaker-arc.md)
-- Non-core appearance bench: [johnson-raw-input-index.md](../johnson-raw-input-index.md)
+- Non-core appearance bench: [johnson-source-index.md](../johnson-source-index.md)
 
 ## Boundary
 

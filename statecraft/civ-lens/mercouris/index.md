@@ -2,18 +2,24 @@ WORK only; not Record.
 
 # Mercouris Index
 
-Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, stream-native crossing surface, bounded 2026 monthly synthesis ladder, and the `civ-state` historical membrane.
+Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the person arc, routing doctrine, source index, stream-native crossing surface, bounded 2026 monthly synthesis ladder, and the `civ-state` historical membrane.
 
 ## Open First
 
 - [Speaker arc](mercouris-arc.md)
 - [Speaker routing note](mercouris-routing.md)
-- [Raw-input index](mercouris-raw-input-index.md)
+- [Source index](mercouris-source-index.md)
 - [Speaker crossing note](mercouris-helix.md)
 - [Support spine](mercouris-support-spine-2025-2026.md)
 - [2026-02 bridge shelf](stream/mercouris-shelf-2026-02.md)
 - [2026-03 dense-core shelf](stream/mercouris-shelf-2026-03.md)
 - [Historical examples audit](mercouris-historical-examples-audit.md)
+
+## Surface Grammar
+
+- **Surface name:** `mercouris-source-index.md`
+- **Surface role:** source bench for breadth-first Mercouris retrieval
+- **Surface interior:** materialized Mercouris appearances and routeable entry points into the repaired live stream
 
 ## Core Speaker Files
 

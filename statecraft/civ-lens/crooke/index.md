@@ -2,18 +2,24 @@ WORK only; not Record.
 
 # Crooke Index
 
-Purpose: front door for the canonical Crooke statecraft shelf, surfacing the person arc, routing doctrine, provenance bench, authored/interview crossing, bounded 2026 monthly synthesis ladder, and the `civ-state` historical membrane.
+Purpose: front door for the canonical Crooke statecraft shelf, surfacing the person arc, routing doctrine, source index, authored/interview crossing, bounded 2026 monthly synthesis ladder, and the `civ-state` historical membrane.
 
 ## Open First
 
 - [Speaker arc](crooke-arc.md)
 - [Speaker routing note](crooke-routing.md)
-- [Raw-input index](crooke-raw-input-index.md)
+- [Source index](crooke-source-index.md)
 - [Speaker helix note](crooke-helix.md)
 - [Support spine](crooke-support-spine-2025-2026.md)
 - [March monthly shelf](stream/crooke-shelf-2026-03.md)
 - [April monthly shelf](stream/crooke-shelf-2026-04.md)
 - [Historical examples audit](crooke-historical-examples-audit.md)
+
+## Surface Grammar
+
+- **Surface name:** `crooke-source-index.md`
+- **Surface role:** source bench for breadth-first Crooke retrieval
+- **Surface interior:** materialized authored and interview appearances plus routeable evidence access
 
 ## Core Speaker Files
 

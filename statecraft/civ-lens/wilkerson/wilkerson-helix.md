@@ -38,7 +38,7 @@ Use this helix when the notebook is:
 
 - [wilkerson-routing.md](wilkerson-routing.md)
 - [wilkerson-cross-year-note.md](wilkerson-cross-year-note.md)
-- [wilkerson-raw-input-index.md](wilkerson-raw-input-index.md)
+- [wilkerson-source-index.md](wilkerson-source-index.md)
 
 ## Boundary
 

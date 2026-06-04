@@ -8,7 +8,7 @@ Purpose: front door for the canonical Wilkerson shelf, surfacing the speaker-rou
 
 - [Lane README](README.md) - shelf overview, speaker-routing links, and lane-role framing.
 - [Surface orthogonality review](wilkerson-surface-orthogonality-2026-05.md) - explicit audit of why Wilkerson stays a durable double helix plus auxiliary reinforcement.
-- [Raw-input index](wilkerson-raw-input-index.md) - exhaustive route map for every resolved Wilkerson raw-input appearance currently materialized in the repo.
+- [Source index](wilkerson-source-index.md) - exhaustive route map for every resolved Wilkerson raw-input appearance currently materialized in the repo.
 - [Speaker routing note](wilkerson-routing.md) - fastest answer to which host lane to open first.
 - [Speaker helix note](wilkerson-helix.md) - why the main host pair belongs together.
 
@@ -50,13 +50,13 @@ The orthogonality-bearing structure on this shelf is:
 
 ## Best Live Entry Files
 
-- [2026-03-31 Dialogue Works x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/transcript-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md)
-- [2026-05-06 Diesen x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
-- [2026-05-28 Judging Freedom x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
+- [2026-03-31 Dialogue Works x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/source-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md)
+- [2026-05-06 Diesen x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+- [2026-05-28 Judging Freedom x Wilkerson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
 
 ## Raw-Input Coverage
 
-- Full file-by-file coverage lives in [wilkerson-raw-input-index.md](wilkerson-raw-input-index.md).
+- Full file-by-file coverage lives in [wilkerson-source-index.md](wilkerson-source-index.md).
 - Chronology remains primarily host-owned in raw-input: Dialogue Works, Diesen, Napolitano, Nawfal, and mixed guest files each retain their own provenance.
 - This shelf exists because Wilkerson is too dispersed to recover efficiently by host memory alone.
 

@@ -7,6 +7,7 @@ Purpose: hold the canonical speaker-state continuity surfaces that feed repo-roo
 This subtree is the canonical home of **Statecraft Synthesis** for speaker-state work.
 
 For the canonical archive/synthesis pair, open [Statecraft Archive and Statecraft Synthesis](../archive-synthesis-law.md).
+For the compact naming grammar, open [Speaker-Shelf Vocabulary](speaker-shelf-vocabulary.md).
 
 This subtree is speaker-organized rather than lane-organized so the same speaker-state object can feed multiple lanes, bridge adapters, and `civ-state` indexes without being forced into one national bench too early.
 
@@ -56,6 +57,43 @@ Boundary law:
 
 Speaker-state continuity lives here as Statecraft Synthesis, not as source-bearing archive. Bridge adapters still live in [statecraft/bridges/](../bridges/), `civ-state` still owns retrieval memory, and lanes still own substantive drafting.
 
+## Source Vocabulary
+
+Use the source-layer terms in this order:
+
+- **`source-index`** = the named file and canonical route surface
+- **`source bench`** = the retrieval/breadth job that surface performs inside a shelf
+- **`provenance bench`** = optional emphasis when the point is evidentiary breadth rather than the public file name
+
+Default rule:
+
+- name the file as `source-index`
+- describe its ordinary shelf role as the `source bench`
+- preserve `provenance bench` only where the prose is specifically stressing source breadth, archive-facing truth, or lower-interpretation evidentiary character
+
+This avoids three kinds of drift:
+
+- treating the file name and the function as if they were separate competing surfaces
+- leaving older `raw-input` naming pressure alive inside newly normalized shelves
+- using `provenance bench` as a casual synonym when the text is really just naming the canonical route surface
+
+## Thread Vocabulary
+
+Use the thread-layer terms in this order:
+
+- **`thread atlas`** = the named surface that maps recurring continuity families across a speaker shelf or bounded run
+- **`arc-threads`** = the recurring strands that a bounded arc, month surface, or host-local arc braids together
+
+Default rule:
+
+- name the surface as a `thread atlas`
+- describe the internal strands it names as `arc-threads`
+- preserve `arc-threads` as the surface label only when quoting a legacy filename or compatibility path
+
+This keeps the surface class distinct from the internal strand grammar and avoids treating a recurring atlas like just another bounded arc.
+
+For the compact `surface name / surface role / surface interior` table behind these rules, open [Speaker-Shelf Vocabulary](speaker-shelf-vocabulary.md).
+
 ## Speaker-Shelf Prose Boundary
 
 `statecraft/civ-lens/<speaker>/` is a continuity-and-retrieval layer, not a general prose shelf.
@@ -64,7 +102,7 @@ Its canonical job is to preserve:
 
 - speaker identity and arc
 - routing and first-open discipline
-- provenance benches
+- source indexes / source benches
 - helix and support-spine logic
 - host-conditioned continuity
 - retrieval-facing shelf tools
@@ -127,7 +165,7 @@ The current normalized shelf level is the `Macgregor / Ritter` grammar:
 
 - canonical home under `statecraft/civ-lens/<speaker>/`
 - `README.md` and `index.md` front doors
-- speaker arc, routing note, provenance bench, and crossing surface
+- speaker arc, routing note, source index, and crossing surface
 - speaker-owned support spine
 - bounded monthly synthesis ladder for `2026-01` through `2026-05`
 - historical audit and `themes/README.md`
@@ -166,7 +204,7 @@ These use the full canonical statecraft speaker grammar:
 - `README.md` and `index.md`
 - arc
 - routing
-- provenance bench
+- source index
 - crossing surface
 - support spine
 - bounded `2026-01` through `2026-05` synthesis ladder
@@ -199,7 +237,7 @@ For these shelves:
 
 - the arc and routing surfaces do most of the work
 - the support spine explains why the shelf remains intentionally lighter
-- host arcs and provenance still own most chronology
+- host arcs and source benches still own most chronology
 - extension should be driven by density, not symmetry
 
 Current examples:
@@ -219,7 +257,7 @@ For these shelves:
 
 - support spine owns the maturity explanation
 - routing owns first-open discipline
-- provenance bench and host-local arcs remain the real month-entry layer
+- source bench and host-local arcs remain the real month-entry layer
 - migration should not proceed by symmetry alone
 
 Read this class as a **governed migration exception**, not as a weaker shelf.

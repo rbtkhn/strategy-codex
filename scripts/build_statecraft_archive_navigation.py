@@ -67,11 +67,12 @@ def build_year_index(root: Path, year: str) -> str:
 
     all_days = [summary for _, summaries in month_summaries for summary in summaries]
     source_total = sum(day.source_count for day in all_days)
+    kind_counter = merge_counter(all_days, "kind_counter")
+    source_form_counter = merge_counter(all_days, "source_form_counter")
     channel_counter = merge_counter(all_days, "channel_counter")
     host_counter = merge_counter(all_days, "host_counter")
     guest_counter = merge_counter(all_days, "guest_counter")
     thread_counter = merge_counter(all_days, "thread_counter")
-    fallback_counter = merge_counter(all_days, "fallback_counter")
 
     lines = [
         f"# Statecraft Archive - {year}",
@@ -83,6 +84,8 @@ def build_year_index(root: Path, year: str) -> str:
         f"- Captured months: `{len(month_summaries)}`",
         f"- Captured days: `{len(all_days)}`",
         f"- Source files: `{source_total}`",
+        f"- Body kind mix: {fmt_counter(kind_counter)}",
+        f"- Source form mix: {fmt_counter(source_form_counter)}",
         f"- Distinct channels/shows: `{len(channel_counter)}`",
         f"- Distinct hosts: `{len(host_counter)}`",
         f"- Distinct guests: `{len(guest_counter)}`",
@@ -94,7 +97,6 @@ def build_year_index(root: Path, year: str) -> str:
         f"- Hosts: {fmt_counter(host_counter)}",
         f"- Guests: {fmt_counter(guest_counter)}",
         f"- Threads: {fmt_counter(thread_counter)}",
-        f"- Filename-family fallbacks: {fmt_counter(fallback_counter)}",
         "",
         "## Months",
         "",

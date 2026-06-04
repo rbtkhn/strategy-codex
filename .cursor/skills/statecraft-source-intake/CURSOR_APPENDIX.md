@@ -16,15 +16,15 @@
 **Current live examples**
 
 - Nima / Dialogue Works:
-  - [source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 - Napolitano / Judging Freedom:
-  - [source-archive/statecraft/2026-05-26/transcript-napolitano-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-freeman-israel-humiliates-itself-2026-05-26.md)
-  - [source-archive/statecraft/2026-05-26/transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
-  - [source-archive/statecraft/2026-05-26/transcript-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md)
 - Glenn Diesen:
-  - [source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
 - The Duran / Mercouris:
-  - [source-archive/statecraft/2026-05-26/transcript-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md)
 
 **Repo notes**
 

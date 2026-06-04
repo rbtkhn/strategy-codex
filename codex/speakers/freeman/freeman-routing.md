@@ -19,7 +19,7 @@ So this note is the **speaker-side index** into the real Freeman host lanes plus
 
 Use the arc-as-helix model:
 
-- `arc-thread atlas`: recurring Freeman theses across months and hosts.
+- `thread atlas`: recurring Freeman theses across months and hosts.
 - `host-local arc`: a bounded helix of arc-threads inside one host x Freeman surface.
 - `speaker helix`: cross-host comparison of multiple host-local arcs without flattening them.
 - `month spine`: bounded cross-host sequencing for one crisis month without pretending to replace host-local arcs.
@@ -27,8 +27,8 @@ Use the arc-as-helix model:
 When the needed Freeman appearance is not cleanly host-local, route by ladder:
 
 - [2026 Freeman index](/C:/dev/strategy-codex/codex/speakers/freeman/index.md)
-- [Freeman raw-input index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md)
-- [December 2025-May 2026 arc-threads](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
+- [Freeman source index](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-source-index.md)
+- [December 2025-May 2026 thread atlas](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md)
 - [March 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md)
 - [April 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-april-2026-cross-host-arc.md)
 - [May 2026 cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-may-2026-cross-host-arc.md)
@@ -52,16 +52,16 @@ Freeman is the first concrete implementation of the general ladder, not an excep
 | anti-hegemonic legal-moral critique, war-powers skepticism, or legitimacy stress under current-event pressure | [napolitano-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-freeman-arc.md) | Napolitano gives Freeman a legal-moral, anti-war, and legitimacy-focused framing lane that stands alongside the other host transformations. |
 | cross-host orientation to Freeman as an object | [freeman-helix.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-helix.md) | The helix note explains how the four host strands fit together before you descend into a lane. |
 | durable Freeman thesis across months or hosts | [freeman-dec-2025-may-2026-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-dec-2025-may-2026-arc-threads.md) | This is the thread atlas: it names the recurring arc-threads that host-local arcs braid differently. |
-| accepted transcript-bearing appearances outside the four core host lanes | [freeman-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md) | This is the `non-core appearance bench`: materialized raw-input without forcing every acceptable source into its own host arc. |
+| accepted transcript-bearing appearances outside the four core host lanes | [freeman-source-index.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-source-index.md) | This is the `non-core appearance bench`: materialized raw-input without forcing every acceptable source into its own host arc. |
 | month-level Freeman sequencing across hosts, including captured anchors plus any still-unmaterialized routing memory | [freeman-march-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md) / [freeman-april-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-april-2026-cross-host-arc.md) / [freeman-may-2026-cross-host-arc.md](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-may-2026-cross-host-arc.md) | Those cross-host arc files are mixed month-spine surfaces: use their captured sections as routeable month structure, and treat their uncaptured entries as `discovery memory` only. |
 | how to extend the canonical Freeman atlas backward without creating a competing second atlas | [freeman-backward-extension-note.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-backward-extension-note.md) | This note defines the governed path from the current December-start atlas back toward January 2025. |
 
 ## Entry points
 
-- [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
-- [youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-06/youtube-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
-- [transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/transcript-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
-- [transcript-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/transcript-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md)
+- [source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+- [source-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-06/source-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md)
+- [source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md)
+- [source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-28/source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md)
 
 ## Host lanes by function
 

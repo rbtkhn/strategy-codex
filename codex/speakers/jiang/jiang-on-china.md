@@ -10,7 +10,7 @@ The key routing warning is simple: Jiang is often **negative about Chinese elite
 
 Primary local anchors:
 
-- [Game Theory #27: Putin Enters the Chat, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/predictive-history-game-theory-27-putin-enters-the-chat-2026-05-21.md)
+- [Game Theory #27: Putin Enters the Chat, 2026-05-21](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-21/source-game-theory-27-putin-enters-the-chat-2026-05-21.md)
 - [Game Theory #13: Epstein's World](/C:/dev/strategy-codex/codex/predictive-history/lectures/game-theory-13-epsteins-world.md)
 - [Interviews #3: Glenn Diesen - Predictions 2026, Empire, Rivalry, Collapse](/C:/dev/strategy-codex/codex/predictive-history/lectures/interviews-03-glenn-diesen-predictions-2026-empire-rivalry-collapse.md)
 - [Interviews #5: Dimitri Lascaris - Trump, Iran, Davos, Canada, China](/C:/dev/strategy-codex/codex/predictive-history/lectures/interviews-05-dimitri-lascaris-trump-iran-davos-canada-china.md)

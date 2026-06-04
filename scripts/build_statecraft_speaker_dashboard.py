@@ -50,7 +50,7 @@ class SpeakerStats:
     host_counter: Counter[str] | None = None
     channel_counter: Counter[str] | None = None
     thread_counter: Counter[str] | None = None
-    type_counter: Counter[str] | None = None
+    source_form_counter: Counter[str] | None = None
 
     def __post_init__(self) -> None:
         self.day_set = set()
@@ -58,7 +58,7 @@ class SpeakerStats:
         self.host_counter = Counter()
         self.channel_counter = Counter()
         self.thread_counter = Counter()
-        self.type_counter = Counter()
+        self.source_form_counter = Counter()
 
     def add(self, date: str, record: ArchiveFile) -> None:
         self.file_count += 1
@@ -67,7 +67,7 @@ class SpeakerStats:
         self.host_counter.update(record.host_values)
         self.channel_counter.update(record.channel_values)
         self.thread_counter.update(record.thread_values)
-        self.type_counter.update((record.type_label,))
+        self.source_form_counter.update((record.source_form,))
 
 
 def parse_args() -> DashboardArgs:

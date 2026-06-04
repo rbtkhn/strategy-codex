@@ -69,7 +69,7 @@ Let’s hope the west is sophisticated enough to comprehend the message Russia a
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-01-09/substack-ritter-the-camels-bloody-nose-2026-01-09.md](../../../../years/2026/provenance/2026-01-09/substack-ritter-the-camels-bloody-nose-2026-01-09.md)
+- **Full verbatim (capture):** [provenance/2026-01-09/source-ritter-the-camels-bloody-nose-2026-01-09.md](../../../../years/2026/provenance/2026-01-09/source-ritter-the-camels-bloody-nose-2026-01-09.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-01-09)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/the-camels-bloody-nose

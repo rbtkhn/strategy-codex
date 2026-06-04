@@ -10,7 +10,7 @@ Purpose: front door for the canonical Pape statecraft shelf.
 - [pape-routing.md](pape-routing.md)
 - [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
 - [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
-- [pape-raw-input-index.md](pape-raw-input-index.md)
+- [pape-source-index.md](pape-source-index.md)
 - [pape-helix.md](pape-helix.md)
 
 ## Canonical Structure
@@ -23,7 +23,7 @@ The orthogonality-bearing Pape structure is:
 - [pape-helix.md](pape-helix.md)
 - [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
 - [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
-- [pape-raw-input-index.md](pape-raw-input-index.md)
+- [pape-source-index.md](pape-source-index.md)
 
 ## Main Context Routes
 

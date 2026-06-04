@@ -8,7 +8,7 @@ Scope:
 
 - canonical speaker shelves under `statecraft/civ-lens/`
 - top-level speaker shelf doctrine in [statecraft/civ-lens/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/README.md)
-- top-level shelf surfaces (`README.md`, `index.md`, `*-arc.md`, `*-routing.md`, `*-raw-input-index.md`, `*-support-spine*.md`, `*-helix.md`)
+- top-level shelf surfaces (`README.md`, `index.md`, `*-arc.md`, `*-routing.md`, `*-source-index.md`, `*-support-spine*.md`, `*-helix.md`)
 - speaker-owned `stream/` and `themes/` surfaces where present
 
 Explicit carveout:
@@ -125,12 +125,12 @@ Healthy shelves with zero broken links should be treated as the norm. The five s
 
 Representative files:
 
-- [statecraft/civ-lens/crooke/crooke-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/crooke/crooke-raw-input-index.md)
+- [statecraft/civ-lens/crooke/crooke-source-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/crooke/crooke-source-index.md)
 - [statecraft/civ-lens/crooke/crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/crooke/crooke-interview-appearances-2025-2026.md)
 - [statecraft/civ-lens/mercouris/stream/mercouris-arc-threads.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/stream/mercouris-arc-threads.md)
 - [statecraft/civ-lens/mercouris/stream/mercouris-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/stream/mercouris-shelf-2026-01.md)
-- [statecraft/civ-lens/macgregor/macgregor-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/macgregor/macgregor-raw-input-index.md)
-- [statecraft/civ-lens/ritter/ritter-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/ritter/ritter-raw-input-index.md)
+- [statecraft/civ-lens/macgregor/macgregor-source-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/macgregor/macgregor-source-index.md)
+- [statecraft/civ-lens/ritter/ritter-source-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/ritter/ritter-source-index.md)
 - [statecraft/civ-lens/sachs/sachs-routing.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/sachs-routing.md)
 
 Why this matters:
@@ -213,7 +213,7 @@ Some mature shelves still advertise host-lane openings that no longer exist at t
 Clear cases:
 
 - [statecraft/civ-lens/crooke/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/crooke/README.md) points to absent Diesen, Davis, and Nima speaker arcs
-- [statecraft/civ-lens/sachs/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/README.md), [sachs-routing.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/sachs-routing.md), and [sachs-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/sachs-raw-input-index.md) all point to a missing `diesen-sachs-speaker-arc.md`
+- [statecraft/civ-lens/sachs/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/README.md), [sachs-routing.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/sachs-routing.md), and [sachs-source-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/sachs-source-index.md) all point to a missing `diesen-sachs-speaker-arc.md`
 
 Why this matters:
 

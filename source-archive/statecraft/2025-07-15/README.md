@@ -4,27 +4,25 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
-- Type mix: `transcript` (1)
+- Source files: `2`
+- Body kind mix: `transcript` (2)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
-- Distinct guests: `1`
-- Distinct threads: `2`
+- Distinct guests: `2`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (1)
+- `Judging Freedom` (2)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1)
-- Guests: `Charles Freeman` (1)
-- Threads: `freeman` (1), `napolitano` (1)
-
-## Filename Family Fallbacks
-
-- (none)
+- Hosts: `Andrew Napolitano` (2)
+- Guests: `Charles Freeman` (1), `John Mearsheimer` (1)
+- Threads: `napolitano` (2), `freeman` (1), `mearsheimer` (1)
 
 ## Files
 
-- `transcript-napolitano-amb-charles-freeman-is-middle-east-peace-possible-2025-07-15.md`
+- `source-napolitano-amb-charles-freeman-is-middle-east-peace-possible-2025-07-15.md`
+- `source-napolitano-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md`

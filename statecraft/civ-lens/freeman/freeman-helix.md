@@ -2,7 +2,13 @@
 
 WORK only; not Record.
 
-Purpose: explain how Freeman's four core host lanes and broader provenance bench belong to one speaker object.
+Purpose: explain how Freeman's four core host lanes and broader source bench belong to one speaker object.
+
+## Surface Grammar
+
+- **Surface name:** `freeman-helix.md`
+- **Surface role:** crossing surface for cross-host Freeman comparison
+- **Surface interior:** differences, reinforcements, and tensions across the four main host lanes and the broader source bench
 
 ## Core claim
 
@@ -17,7 +23,7 @@ This is why Freeman deserves:
 
 - a person arc
 - a speaker-side routing note
-- a provenance bench
+- a source bench
 - a support spine
 - a bounded Jan-May 2026 month ladder
 

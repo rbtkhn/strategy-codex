@@ -13,9 +13,9 @@ Purpose: front door for the Beebe shelf, keeping the mature Diesen branch easy t
 
 ## Best Entry Points
 
-- [2026-05-14 Diesen x Beebe](../../years/2026/provenance/2026-05-14/youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md) - best current mature anchor.
-- [2025-11-26 Diesen x Beebe](../../years/2026/provenance/2025-11-26/youtube-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md) - strongest late-2025 settlement-risk anchor.
-- [2026-01-23 Diesen x Beebe](../../years/2026/provenance/2026-01-23/youtube-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md) - best grand-strategy / retrenchment file.
+- [2026-05-14 Diesen x Beebe](../../years/2026/provenance/2026-05-14/source-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md) - best current mature anchor.
+- [2025-11-26 Diesen x Beebe](../../years/2026/provenance/2025-11-26/source-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md) - strongest late-2025 settlement-risk anchor.
+- [2026-01-23 Diesen x Beebe](../../years/2026/provenance/2026-01-23/source-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md) - best grand-strategy / retrenchment file.
 
 ## Shape
 

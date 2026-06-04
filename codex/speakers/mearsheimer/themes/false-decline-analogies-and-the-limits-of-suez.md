@@ -23,7 +23,7 @@ Mearsheimer uses Suez not just as a historical example, but as a case of analyti
 
 ## Exact Quote Anchors
 
-- [2026-04-20 Hedges](../../years/2026/provenance/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md)
+- [2026-04-20 Hedges](../../years/2026/provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md)
   > "It's not our Suez crisis."
 
   > "Britain was a declining great power."

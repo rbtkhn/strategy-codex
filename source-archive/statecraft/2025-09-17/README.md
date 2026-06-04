@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `youtube` (3), `transcript` (1)
+- Body kind mix: `source` (1), `transcript` (1), `youtube` (1), `youtube-transcript` (1)
+- Source form mix: `interview` (4)
 - Distinct channels/shows: `3`
 - Distinct hosts: `4`
 - Distinct guests: `4`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1), `Larry Wilkerson` (1), `Scott Ritter` (1)
 - Threads: `diesen` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `ritter` (1), `sachs` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-glenn-diesen-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-col-larry-wilkerson-middle-east-warning-ignites-russia-vs-west-drags-everything-into-hell-2025-09-17.md`
-- `youtube-alex-mercouris-zelensky-sacks-generals-as-front-lines-collapse-huge-russian-strike-starmer-plots-mount-modi-trump-2025-09-17.md`
-- `youtube-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17.md`
-- `youtube-napolitano-sachs-definitely-genocide-2025-09-17.md`
+- `source-alex-mercouris-zelensky-sacks-generals-as-front-lines-collapse-huge-russian-strike-starmer-plots-mount-modi-trump-2025-09-17.md`
+- `source-dialogue-works-col-larry-wilkerson-middle-east-warning-ignites-russia-vs-west-drags-everything-into-hell-2025-09-17.md`
+- `source-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17.md`
+- `source-napolitano-sachs-definitely-genocide-2025-09-17.md`

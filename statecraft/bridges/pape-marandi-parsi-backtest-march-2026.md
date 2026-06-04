@@ -30,12 +30,12 @@ Month inventory:
 
 High-value backtest anchors:
 
-- [Pape - Mar 01](../../source-archive/statecraft/2026-03-01/substack-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md)
-- [Parsi - Mar 04](../../source-archive/statecraft/2026-03-04/substack-parsi-further-thoughts-on-trump-and-israels-war-of-choice-with-iran-2026-03-04.md)
-- [Marandi - Mar 03](../../source-archive/statecraft/2026-03-03/youtube-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md)
-- [Parsi - Mar 16](../../source-archive/statecraft/2026-03-16/transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
-- [Pape - Mar 16](../../source-archive/statecraft/2026-03-16/substack-pape-irans-new-battlefield-the-global-2026-03-16.md)
-- [Marandi - Mar 24](../../source-archive/statecraft/2026-03-24/transcript-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md)
+- [Pape - Mar 01](../../source-archive/statecraft/2026-03-01/source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md)
+- [Parsi - Mar 04](../../source-archive/statecraft/2026-03-04/source-parsi-further-thoughts-on-trump-and-israels-war-of-choice-with-iran-2026-03-04.md)
+- [Marandi - Mar 03](../../source-archive/statecraft/2026-03-03/source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md)
+- [Parsi - Mar 16](../../source-archive/statecraft/2026-03-16/source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
+- [Pape - Mar 16](../../source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md)
+- [Marandi - Mar 24](../../source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md)
 
 ## What The Month Confirms
 

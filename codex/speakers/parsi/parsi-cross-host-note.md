@@ -10,16 +10,16 @@ Parsi is not only an authored diplomacy lane. There are real host-distributed ap
 
 The clearest current examples on disk are:
 
-- [2025-05-09 Dialogue Works/Freeman x Parsi](../../years/2026/provenance/2025-05-09/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-trump-s-wake-up-call-yemen-s-chaos-forcing-a-deal-with-iran-2025-05-09.md)
-- [2025-06-22 Dialogue Works/Freeman/Wilkerson x Parsi](../../years/2026/provenance/2025-06-22/transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
-- [2025-07-26 Dialogue Works/Freeman x Parsi](../../years/2026/provenance/2025-07-26/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-how-the-iran-israel-war-changed-everything-overnight-2025-07-26.md)
-- [2025-08-15 Dialogue Works/Freeman x Parsi](../../years/2026/provenance/2025-08-15/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md)
-- [2025-10-20 Davis x Parsi](../../years/2026/provenance/2025-10-20/youtube-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md)
-- [2025-12-19 Dialogue Works/Freeman x Parsi](../../years/2026/provenance/2025-12-19/transcript-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md)
-- [2026-03-16 Davis x Parsi](../../years/2026/provenance/2026-03-16/youtube-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
-- [2026-03-16 Napolitano x Parsi](../../years/2026/provenance/2026-03-16/transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
-- [2026-05-06 Duran/Mercouris x Parsi](../../years/2026/provenance/2026-05-06/transcript-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
-- [2026-05-18 Diesen x Parsi](../../years/2026/provenance/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md)
+- [2025-05-09 Dialogue Works/Freeman x Parsi](../../years/2026/provenance/2025-05-09/source-dialogue-works-amb-chas-freeman-and-trita-parsi-trump-s-wake-up-call-yemen-s-chaos-forcing-a-deal-with-iran-2025-05-09.md)
+- [2025-06-22 Dialogue Works/Freeman/Wilkerson x Parsi](../../years/2026/provenance/2025-06-22/source-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
+- [2025-07-26 Dialogue Works/Freeman x Parsi](../../years/2026/provenance/2025-07-26/source-dialogue-works-amb-chas-freeman-and-trita-parsi-how-the-iran-israel-war-changed-everything-overnight-2025-07-26.md)
+- [2025-08-15 Dialogue Works/Freeman x Parsi](../../years/2026/provenance/2025-08-15/source-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md)
+- [2025-10-20 Davis x Parsi](../../years/2026/provenance/2025-10-20/source-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md)
+- [2025-12-19 Dialogue Works/Freeman x Parsi](../../years/2026/provenance/2025-12-19/source-dialogue-works-freeman-parsi-middle-east-you-knew-disappearing-2025-12-19.md)
+- [2026-03-16 Davis x Parsi](../../years/2026/provenance/2026-03-16/source-daniel-davis-deep-dive-iran-making-it-painful-for-u-s-trita-parsi-lt-col-daniel-davis-2026-03-16.md)
+- [2026-03-16 Napolitano x Parsi](../../years/2026/provenance/2026-03-16/source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
+- [2026-05-06 Duran/Mercouris x Parsi](../../years/2026/provenance/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md)
+- [2026-05-18 Diesen x Parsi](../../years/2026/provenance/2026-05-18/source-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md)
 
 ## How to read that reinforcement
 

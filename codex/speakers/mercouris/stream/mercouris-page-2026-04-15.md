@@ -46,7 +46,7 @@ The episode stacks **factual uncertainty** on the **blockade** with a **strong s
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-15/duran-mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15.md](../../../../years/2026/provenance/2026-04-15/duran-mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
+- **Full verbatim (capture):** [provenance/2026-04-15/duran-source-russia-intensify-china-tankers-putin-xi-2026-04-15.md](../../../../years/2026/provenance/2026-04-15/duran-source-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mercouris`, aired 2026-04-15)
 - **`thread:mercouris`** · **verify:** full-text + raw-input + operator-transcript + `aired:2026-04-15` (`ingest_date` 2026-04-21 in frontmatter)
-- **Canonical video:** [raw-input frontmatter `source_url`](../../../../years/2026/provenance/2026-04-15/duran-mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15.md) — replace TBD watch ID when pinned
+- **Canonical video:** [raw-input frontmatter `source_url`](../../../../years/2026/provenance/2026-04-15/duran-source-russia-intensify-china-tankers-putin-xi-2026-04-15.md) — replace TBD watch ID when pinned

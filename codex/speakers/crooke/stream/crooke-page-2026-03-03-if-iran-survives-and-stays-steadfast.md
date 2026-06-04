@@ -24,7 +24,7 @@ WORK only; not Record.
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-03-03/substack-crooke-if-iran-survives-and-stays-steadfast-2026-03-03.md](../../../../years/2026/provenance/2026-03-03/substack-crooke-if-iran-survives-and-stays-steadfast-2026-03-03.md)
+- **Full verbatim (capture):** [provenance/2026-03-03/source-crooke-if-iran-survives-and-stays-steadfast-2026-03-03.md](../../../../years/2026/provenance/2026-03-03/source-crooke-if-iran-survives-and-stays-steadfast-2026-03-03.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:crooke`, 2026-03-03)
 - **`thread:crooke`** · **verify:** primary capture on disk + `pub_date` + inbox row; Conflicts Forum tier as analyst commentary unless wire-backed.
 - **Canonical primary:** https://conflictsforum.substack.com/p/if-iran-survives-and-stays-steadfast

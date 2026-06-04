@@ -27,9 +27,9 @@ So this note is the **speaker-side index** into the canonical Wilkerson host pai
 
 ## Best entry points
 
-- **Best single opening file:** [transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/transcript-diesen-wilkerson-hormuz-brics-2026-05-06.md)
-- **Best live-pressure opening file:** [transcript-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/transcript-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md)
-- **Best Napolitano opening file:** [transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
+- **Best single opening file:** [source-diesen-wilkerson-hormuz-brics-2026-05-06.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+- **Best live-pressure opening file:** [source-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/source-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md)
+- **Best Napolitano opening file:** [source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
 
 ## By shelf function
 

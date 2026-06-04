@@ -18,7 +18,7 @@ Shared shelf law:
 
 - canonical home under `statecraft/civ-lens/civ-lens-<speaker>/`
 - `README.md` and `index.md` front doors
-- arc, routing note, provenance bench, and crossing surface
+- arc, routing note, source index, and crossing surface
 - speaker-owned support spine
 - bounded monthly synthesis ladder for `2026-01` through `2026-05`
 - historical audit and `themes/README.md`

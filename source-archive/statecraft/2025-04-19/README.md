@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `youtube` (1)
+- Body kind mix: `transcript` (1)
+- Source form mix: `solo` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `0`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-europe-kiev-shock-us-to-quit-talks-ukraine-war-unless-deal-in-days-medvedev-welcomes-us-stance-2025-04-19.md`
+- `source-alex-mercouris-europe-kiev-shock-us-to-quit-talks-ukraine-war-unless-deal-in-days-medvedev-welcomes-us-stance-2025-04-19.md`

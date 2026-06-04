@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `transcript` (2)
+- Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (1)
 - Threads: `diesen` (1), `marandi` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md`
-- `youtube-glenn-diesen-seyed-m-marandi-total-war-attacking-nuclear-plants-desalination-infrastr-2026-03-22.md`
+- `source-alex-mercouris-iran-missiles-hit-dimona-after-us-israel-natanz-strike-israel-shock-nucl-2026-03-22.md`
+- `source-glenn-diesen-seyed-m-marandi-total-war-attacking-nuclear-plants-desalination-infrastr-2026-03-22.md`

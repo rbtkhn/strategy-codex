@@ -38,7 +38,7 @@ Use this helix when the notebook is:
 
 - [mearsheimer-routing.md](mearsheimer-routing.md)
 - [mearsheimer-support-spine-2025-2026.md](mearsheimer-support-spine-2025-2026.md)
-- [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md)
+- [mearsheimer-source-index.md](mearsheimer-source-index.md)
 
 ## Boundary
 

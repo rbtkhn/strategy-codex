@@ -5,11 +5,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
+- Body kind mix: `cleaned-transcript` (1), `youtube-transcript` (1)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
-- Distinct threads: `1`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -19,13 +20,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alex Christoforou` (1), `Alexander Mercouris` (1)
 - Guests: `Alexander Mercouris` (2)
-- Threads: `mercouris` (2)
-
-## Filename Family Fallbacks
-
-- (none)
+- Threads: `mercouris` (2), `christoforou` (1)
 
 ## Files
 
-- `transcript-duran-mercouris-eu-uk-want-unlimited-us-money-and-weapons-for-ukraine-2025-09-22.md`
-- `youtube-alex-mercouris-eu-neocons-seek-us-russia-baltic-clash-russia-ready-for-war-zelensky-mulls-lower-conscription-age-2025-09-22.md`
+- `source-alex-mercouris-eu-neocons-seek-us-russia-baltic-clash-russia-ready-for-war-zelensky-mulls-lower-conscription-age-2025-09-22.md`
+- `source-duran-mercouris-eu-uk-want-unlimited-us-money-and-weapons-for-ukraine-2025-09-22.md`

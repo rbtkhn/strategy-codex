@@ -1,20 +1,9 @@
-# Freeman provenance index
+# Freeman Raw-Input Index
 
 WORK only; not Record.
 
-Purpose: act as the canonical statecraft-side provenance bench for Freeman while raw-text authority stays in `provenance`.
+Compatibility pointer only.
 
-## Bench rule
+The canonical Freeman source route map now lives at [freeman-source-index.md](freeman-source-index.md).
 
-Freeman's provenance bench has three layers:
-
-- `core host lanes`
-- `non-core appearance bench`
-- `discovery memory`
-
-The detailed legacy bench and extension notes still live in codex-side Freeman scaffolds:
-
-- [codex/speakers/freeman/freeman-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-raw-input-index.md)
-- [codex/speakers/freeman/freeman-backward-extension-note.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-backward-extension-note.md)
-
-Use this statecraft-side file as the canonical opening route. Use the codex-side bench only as detailed compatibility residue during migration.
+Use the `source-index` name going forward; this file remains only as a stable back-compat entry for older links and notes.

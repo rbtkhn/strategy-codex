@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `substack` (1), `transcript` (1), `youtube` (1)
+- Body kind mix: `source` (1), `substack-post` (1), `transcript` (1)
+- Source form mix: `interview` (1), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1)
 - Threads: `freeman` (1), `mercouris` (1), `napolitano` (1), `parsi` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `transcript-napolitano-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-parsi-why-the-iran-ceasefire-may-have-shifted-the-dynamics-back-in-trumps-favor-2026-04-14.md`
-- `transcript-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md`
-- `youtube-alex-mercouris-russia-china-meet-plan-expel-us-mideast-trump-blockade-fails-eu-panics-a-2026-04-14.md`
+- `source-alex-mercouris-russia-china-meet-plan-expel-us-mideast-trump-blockade-fails-eu-panics-a-2026-04-14.md`
+- `source-napolitano-freeman-israels-strategy-collapsing-2026-04-14.md`
+- `source-parsi-why-the-iran-ceasefire-may-have-shifted-the-dynamics-back-in-trumps-favor-2026-04-14.md`

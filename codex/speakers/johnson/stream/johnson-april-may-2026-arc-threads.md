@@ -44,11 +44,11 @@ Thesis: Johnson's first dense-core continuity line is that each new coercive mov
 
 Anchors:
 
-- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/youtube-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
-- 2026-04-16 - Davis, *IRAN DEMANDS NOT CHANGING*: [raw-input](../../../years/2026/provenance/2026-04-16/youtube-daniel-davis-deep-dive-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md)
-- 2026-04-22 - Davis, *Iran War End: Best Case Scenario*: [raw-input](../../../years/2026/provenance/2026-04-22/youtube-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md)
-- 2026-04-29 - Davis, *Iran War's Global Economic Shockwave*: [raw-input](../../../years/2026/provenance/2026-04-29/youtube-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
-- 2026-05-05 - Davis, *Iran War: Buffet of Stupidity & Lies*: [raw-input](../../../years/2026/provenance/2026-05-05/transcript-davis-johnson-hormuz-freedom-2026-05-05.md)
+- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/source-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
+- 2026-04-16 - Davis, *IRAN DEMANDS NOT CHANGING*: [raw-input](../../../years/2026/provenance/2026-04-16/source-daniel-davis-deep-dive-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md)
+- 2026-04-22 - Davis, *Iran War End: Best Case Scenario*: [raw-input](../../../years/2026/provenance/2026-04-22/source-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md)
+- 2026-04-29 - Davis, *Iran War's Global Economic Shockwave*: [raw-input](../../../years/2026/provenance/2026-04-29/source-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
+- 2026-05-05 - Davis, *Iran War: Buffet of Stupidity & Lies*: [raw-input](../../../years/2026/provenance/2026-05-05/source-davis-johnson-hormuz-freedom-2026-05-05.md)
 
 Arc-thread motion: April opens with ceasefire language failing to hide strategic incoherence, then hardens into the view that Iran's demands are not moving, best-case outcomes are already worse than official narratives admit, and coercion is now generating more blowback than usable leverage. May consolidates that logic into an outright claim of stupidity and lies replacing strategic control.
 
@@ -63,9 +63,9 @@ Thesis: Johnson repeatedly treats military threats as outrunning realistic polit
 
 Anchors:
 
-- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/youtube-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
-- 2026-04-22 - Davis, *Iran War End: Best Case Scenario*: [raw-input](../../../years/2026/provenance/2026-04-22/youtube-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md)
-- 2026-05-05 - Davis, *Iran War: Buffet of Stupidity & Lies*: [raw-input](../../../years/2026/provenance/2026-05-05/transcript-davis-johnson-hormuz-freedom-2026-05-05.md)
+- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/source-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
+- 2026-04-22 - Davis, *Iran War End: Best Case Scenario*: [raw-input](../../../years/2026/provenance/2026-04-22/source-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md)
+- 2026-05-05 - Davis, *Iran War: Buffet of Stupidity & Lies*: [raw-input](../../../years/2026/provenance/2026-05-05/source-davis-johnson-hormuz-freedom-2026-05-05.md)
 
 Arc-thread motion: the Davis lane carries this most clearly: ceasefire, blockade, and escalation language all imply objectives that force can no longer realistically recover. The later May file turns that into a mature diagnosis of military talk outrunning policy attainability altogether.
 
@@ -80,14 +80,14 @@ Thesis: Johnson's third dense-core strand is that Hormuz and Gulf vulnerability 
 
 Anchors:
 
-- 2026-04-13 - Dialogue Works, *Will Trump's Iran Port Blockade Work or End in Total Disaster?*: [raw-input](../../../years/2026/provenance/2026-04-13/transcript-dialogue-works-larry-johnson-will-trump-s-iran-port-blockade-work-or-end-in-total-disas-2026-04-13.md)
-- 2026-04-15 - Diesen, *Trump's Naval Blockade & Ceasefire Collapse*: [raw-input](../../../years/2026/provenance/2026-04-15/youtube-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md)
-- 2026-04-20 - Dialogue Works, *The Strait of Hormuz Just Became a Graveyard for U.S. Dominance*: [raw-input](../../../years/2026/provenance/2026-04-20/transcript-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md)
-- 2026-04-20 - Judging Freedom, *Who Controls Hormuz?*: [raw-input](../../../years/2026/provenance/2026-04-20/judging-freedom-johnson-who-controls-hormuz-2026-04-20.md)
-- 2026-04-24 - Dialogue Works, *Iran Just Escorted Tankers Past U.S. Blockade*: [raw-input](../../../years/2026/provenance/2026-04-24/transcript-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md)
-- 2026-05-04 - Dialogue Works, *Hormuz, Canberra, Blockade*: [raw-input](../../../years/2026/provenance/2026-05-04/transcript-alkorshid-larry-johnson-hormuz-canberra-blockade-2026-05-04.md)
-- 2026-05-08 - Dialogue Works, *Hormuz, Qatar, BRICS, Trump, China*: [raw-input](../../../years/2026/provenance/2026-05-08/transcript-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
-- 2026-05-14 - Mario Nawfal, *Trump & Xi Offered to Help Open Strait of Hormuz*: [raw-input](../../../years/2026/provenance/2026-05-14/youtube-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md)
+- 2026-04-13 - Dialogue Works, *Will Trump's Iran Port Blockade Work or End in Total Disaster?*: [raw-input](../../../years/2026/provenance/2026-04-13/source-dialogue-works-larry-johnson-will-trump-s-iran-port-blockade-work-or-end-in-total-disas-2026-04-13.md)
+- 2026-04-15 - Diesen, *Trump's Naval Blockade & Ceasefire Collapse*: [raw-input](../../../years/2026/provenance/2026-04-15/source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md)
+- 2026-04-20 - Dialogue Works, *The Strait of Hormuz Just Became a Graveyard for U.S. Dominance*: [raw-input](../../../years/2026/provenance/2026-04-20/source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md)
+- 2026-04-20 - Judging Freedom, *Who Controls Hormuz?*: [raw-input](../../../years/2026/provenance/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md)
+- 2026-04-24 - Dialogue Works, *Iran Just Escorted Tankers Past U.S. Blockade*: [raw-input](../../../years/2026/provenance/2026-04-24/source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md)
+- 2026-05-04 - Dialogue Works, *Hormuz, Canberra, Blockade*: [raw-input](../../../years/2026/provenance/2026-05-04/source-alkorshid-larry-johnson-hormuz-canberra-blockade-2026-05-04.md)
+- 2026-05-08 - Dialogue Works, *Hormuz, Qatar, BRICS, Trump, China*: [raw-input](../../../years/2026/provenance/2026-05-08/source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
+- 2026-05-14 - Mario Nawfal, *Trump & Xi Offered to Help Open Strait of Hormuz*: [raw-input](../../../years/2026/provenance/2026-05-14/source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md)
 
 Arc-thread motion: what begins as blockade talk quickly becomes a story about reverse pressure: Hormuz exposure, escorted tankers, Canberra and Gulf-state consequences, and outside opening channels all show that maritime pressure is turning back against the U.S. camp.
 
@@ -102,12 +102,12 @@ Thesis: Johnson's fourth strand is that escalation and dominance displays keep p
 
 Anchors:
 
-- 2026-04-06 - Dialogue Works, *Iran's Dead Defense Wipes Out U.S. Jets and Black Hawks*: [raw-input](../../../years/2026/provenance/2026-04-06/transcript-dialogue-works-larry-c-johnson-irans-dead-defense-wipes-out-us-jets-and-black-hawks-2026-04-06.md)
-- 2026-04-20 - Dialogue Works, *The Strait of Hormuz Just Became a Graveyard for U.S. Dominance*: [raw-input](../../../years/2026/provenance/2026-04-20/transcript-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md)
-- 2026-04-24 - Dialogue Works, *Iran Just Escorted Tankers Past U.S. Blockade*: [raw-input](../../../years/2026/provenance/2026-04-24/transcript-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md)
-- 2026-04-27 - Dialogue Works, *Generals Just Told Trump to Stand Down*: [raw-input](../../../years/2026/provenance/2026-04-27/transcript-dialogue-works-larry-johnson-drops-a-bombshell-generals-just-told-trump-to-stand-down-2026-04-27.md)
-- 2026-05-11 - Dialogue Works, *Netanyahu, Hormuz, China, Israel*: [raw-input](../../../years/2026/provenance/2026-05-11/transcript-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
-- 2026-05-18 - Dialogue Works, *Giant Mushroom Cloud Blasts Over Israeli Defense Company*: [raw-input](../../../years/2026/provenance/2026-05-18/transcript-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md)
+- 2026-04-06 - Dialogue Works, *Iran's Dead Defense Wipes Out U.S. Jets and Black Hawks*: [raw-input](../../../years/2026/provenance/2026-04-06/source-dialogue-works-larry-c-johnson-irans-dead-defense-wipes-out-us-jets-and-black-hawks-2026-04-06.md)
+- 2026-04-20 - Dialogue Works, *The Strait of Hormuz Just Became a Graveyard for U.S. Dominance*: [raw-input](../../../years/2026/provenance/2026-04-20/source-dialogue-works-larry-johnson-the-strait-of-hormuz-just-became-a-graveyard-for-us-domina-2026-04-20.md)
+- 2026-04-24 - Dialogue Works, *Iran Just Escorted Tankers Past U.S. Blockade*: [raw-input](../../../years/2026/provenance/2026-04-24/source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md)
+- 2026-04-27 - Dialogue Works, *Generals Just Told Trump to Stand Down*: [raw-input](../../../years/2026/provenance/2026-04-27/source-dialogue-works-larry-johnson-drops-a-bombshell-generals-just-told-trump-to-stand-down-2026-04-27.md)
+- 2026-05-11 - Dialogue Works, *Netanyahu, Hormuz, China, Israel*: [raw-input](../../../years/2026/provenance/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
+- 2026-05-18 - Dialogue Works, *Giant Mushroom Cloud Blasts Over Israeli Defense Company*: [raw-input](../../../years/2026/provenance/2026-05-18/source-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md)
 
 Arc-thread motion: the live-pressure lane repeatedly treats escalatory displays as humiliating, not restoring, with wiped-out aircraft, escorted tankers, stand-down panic, and exposed Israeli vulnerability all reinforcing public loss of control.
 
@@ -122,11 +122,11 @@ Thesis: Johnson's fifth strand is that ceasefire, blockade, and White House proc
 
 Anchors:
 
-- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/youtube-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
-- 2026-04-20 - Judging Freedom, *Who Controls Hormuz?*: [raw-input](../../../years/2026/provenance/2026-04-20/judging-freedom-johnson-who-controls-hormuz-2026-04-20.md)
-- 2026-04-27 - Dialogue Works, *Generals Just Told Trump to Stand Down*: [raw-input](../../../years/2026/provenance/2026-04-27/transcript-dialogue-works-larry-johnson-drops-a-bombshell-generals-just-told-trump-to-stand-down-2026-04-27.md)
-- 2026-05-14 - Mario Nawfal, *Trump & Xi Offered to Help Open Strait of Hormuz*: [raw-input](../../../years/2026/provenance/2026-05-14/youtube-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md)
-- 2026-05-18 - Judging Freedom, *US Getting Ready for More War*: [raw-input](../../../years/2026/provenance/2026-05-18/transcript-napolitano-johnson-us-getting-ready-for-more-war-2026-05-18.md)
+- 2026-04-08 - Davis, *You Call This a CeaseFire?*: [raw-input](../../../years/2026/provenance/2026-04-08/source-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md)
+- 2026-04-20 - Judging Freedom, *Who Controls Hormuz?*: [raw-input](../../../years/2026/provenance/2026-04-20/source-johnson-who-controls-hormuz-2026-04-20.md)
+- 2026-04-27 - Dialogue Works, *Generals Just Told Trump to Stand Down*: [raw-input](../../../years/2026/provenance/2026-04-27/source-dialogue-works-larry-johnson-drops-a-bombshell-generals-just-told-trump-to-stand-down-2026-04-27.md)
+- 2026-05-14 - Mario Nawfal, *Trump & Xi Offered to Help Open Strait of Hormuz*: [raw-input](../../../years/2026/provenance/2026-05-14/source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md)
+- 2026-05-18 - Judging Freedom, *US Getting Ready for More War*: [raw-input](../../../years/2026/provenance/2026-05-18/source-napolitano-johnson-us-getting-ready-for-more-war-2026-05-18.md)
 
 Arc-thread motion: the process lane keeps turning strategy into contradiction: ceasefires that are not ceasefires, blockades that do not control Hormuz, stand-down and more-war signals arriving together, and auxiliary hosts reinforcing that process itself has become absurd.
 
@@ -141,12 +141,12 @@ Thesis: Johnson's sixth strand is that the war no longer stays local; its meanin
 
 Anchors:
 
-- 2026-04-15 - Diesen, *Trump's Naval Blockade & Ceasefire Collapse*: [raw-input](../../../years/2026/provenance/2026-04-15/youtube-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md)
-- 2026-04-29 - Davis, *Iran War's Global Economic Shockwave*: [raw-input](../../../years/2026/provenance/2026-04-29/youtube-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
-- 2026-04-30 - Diesen, *Iran Is Winning*: [raw-input](../../../years/2026/provenance/2026-04-30/transcript-diesen-johnson-iran-winning-2026-04-30.md)
-- 2026-05-08 - Diesen, *Iran War Creates a New Middle East*: [raw-input](../../../years/2026/provenance/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
-- 2026-05-08 - Dialogue Works, *Hormuz, Qatar, BRICS, Trump, China*: [raw-input](../../../years/2026/provenance/2026-05-08/transcript-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
-- 2026-05-16 - Dialogue Works, *Most Embarrassing Prediction Exposed* (Jiang x Johnson x Nima): [raw-input](../../../years/2026/provenance/2026-05-16/transcript-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md)
+- 2026-04-15 - Diesen, *Trump's Naval Blockade & Ceasefire Collapse*: [raw-input](../../../years/2026/provenance/2026-04-15/source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md)
+- 2026-04-29 - Davis, *Iran War's Global Economic Shockwave*: [raw-input](../../../years/2026/provenance/2026-04-29/source-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md)
+- 2026-04-30 - Diesen, *Iran Is Winning*: [raw-input](../../../years/2026/provenance/2026-04-30/source-diesen-johnson-iran-winning-2026-04-30.md)
+- 2026-05-08 - Diesen, *Iran War Creates a New Middle East*: [raw-input](../../../years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
+- 2026-05-08 - Dialogue Works, *Hormuz, Qatar, BRICS, Trump, China*: [raw-input](../../../years/2026/provenance/2026-05-08/source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
+- 2026-05-16 - Dialogue Works, *Most Embarrassing Prediction Exposed* (Jiang x Johnson x Nima): [raw-input](../../../years/2026/provenance/2026-05-16/source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md)
 
 Arc-thread motion: what begins as blockade and Hormuz pressure widens quickly into economic shock, new Middle East consequence, and China/BRICS/Gulf repositioning. The war is no longer a local bombing story; it is becoming a wider system-redraw story.
 

@@ -19,7 +19,7 @@ Excluded from the Source Set:
 - authored Substack captures: `substack-ritter-*`
 - non-interview authored articles: `article-ritter-*`
 - standalone rants: `ritter-rant-*`
-- generic unresolved stubs: `transcript-ritter.md`
+- generic unresolved stubs: `source-ritter-2026-04-19.md`
 - unhosted date-named captures: `YYYY-MM-DD-ritter.md`
 
 ## Source Set
@@ -28,54 +28,54 @@ Local interview appearance count: 48 captures.
 
 | host | date | raw-input | function |
 |---|---|---|---|
-| Diesen | 2025-05-24 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-05-24/youtube-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24.md) | escalation horizon |
-| Diesen | 2025-06-10 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-06-10/youtube-glenn-diesen-scott-ritter-scott-ritter-dangerous-endgame-in-ukraine-collapse-or-escalation-2025-06-10.md) | escalation horizon |
-| Diesen | 2025-09-17 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-09-17/youtube-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17.md) | escalation horizon |
-| Diesen | 2025-10-07 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-07/youtube-glenn-diesen-scott-ritter-scott-ritter-tomahawks-end-of-nato-coming-nuclear-war-2025-10-07.md) | escalation horizon |
-| Diesen | 2025-10-24 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-24/youtube-glenn-diesen-scott-ritter-scott-ritter-russia-fed-up-with-nato-escalations-retaliation-is-coming-2025-10-24.md) | escalation horizon |
-| Diesen | 2025-12-01 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-01/youtube-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md) | escalation horizon |
-| Diesen | 2025-12-10 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-10/youtube-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md) | escalation horizon |
-| Diesen | 2026-01-13 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-13/youtube-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md) | escalation horizon |
-| Diesen | 2026-01-27 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-27/youtube-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md) | escalation horizon |
-| Diesen | 2026-02-19 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-19/youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md) | escalation horizon |
-| Diesen | 2026-02-28 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-28/youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md) | escalation horizon |
-| Diesen | 2026-03-11 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-11/youtube-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md) | escalation horizon |
-| Diesen | 2026-04-07 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-07/youtube-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md) | escalation horizon |
-| Diesen | 2026-04-17 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-17/transcript-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md) | escalation horizon |
-| Diesen | 2026-05-04 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md) | escalation horizon |
-| Davis | 2026-03-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-06/youtube-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md) | operational feasibility |
-| Davis | 2026-03-16 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-16/youtube-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md) | operational feasibility |
-| Davis | 2026-03-31 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/youtube-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md) | operational feasibility |
-| Davis | 2026-04-05 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-05/youtube-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md) | operational feasibility |
-| Davis | 2026-04-13 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md) | operational feasibility |
-| Davis | 2026-05-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/transcript-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md) | operational feasibility |
-| Davis | 2026-05-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/youtube-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md) | operational feasibility |
-| Davis | 2026-05-14 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-14/youtube-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md) | operational feasibility |
-| Dialogue Works | 2025-01-05 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-01-05/transcript-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md) | live war pressure |
-| Dialogue Works | 2025-10-19 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-19/transcript-dialogue-works-scott-ritter-israel-s-attack-ignites-iran-s-oreshnik-moment-idf-in-ruins-l-scott-ritter-2025-10-19.md) | live war pressure |
-| Dialogue Works | 2025-11-05 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-05/transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md) | live war pressure |
-| Dialogue Works | 2025-12-03 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-03/transcript-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03.md) | live war pressure |
-| Dialogue Works | 2025-12-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-06/transcript-dialogue-works-scott-ritter-putin-defies-trump-eu-cornered-as-ukraine-troops-collapse-scott-ritter-2025-12-06.md) | live war pressure |
-| Dialogue Works | 2025-12-19 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-19/transcript-dialogue-works-scott-ritter-scott-ritter-russia-just-made-a-move-that-could-collapse-everything-2025-12-19.md) | live war pressure |
-| Dialogue Works | 2025-12-24 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-24/transcript-dialogue-works-scott-ritter-scott-ritter-this-is-how-it-all-collapses-russia-s-role-explained-2025-12-24.md) | live war pressure |
-| Dialogue Works | 2026-02-04 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-04/transcript-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md) | live war pressure |
-| Dialogue Works | 2026-02-11 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-11/transcript-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md) | live war pressure |
-| Dialogue Works | 2026-02-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-18/transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md) | live war pressure |
-| Dialogue Works | 2026-03-04 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-04/youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md) | live war pressure |
-| Dialogue Works | 2026-03-11 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-11/transcript-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md) | live war pressure |
-| Dialogue Works | 2026-04-08 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-08/transcript-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md) | live war pressure |
-| Dialogue Works | 2026-05-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/transcript-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md) | live war pressure |
-| Dialogue Works | 2026-05-13 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md) | live war pressure |
-| Napolitano | 2025-11-04 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md) | legality and command failure |
-| Napolitano | 2025-12-01 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-01/transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md) | legality and command failure |
-| Napolitano | 2026-01-12 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-12/transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md) | legality and command failure |
-| Napolitano | 2026-02-23 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-23/transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md) | legality and command failure |
-| Napolitano | 2026-03-17 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/transcript-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) | legality and command failure |
-| Napolitano | 2026-03-31 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/transcript-napolitano-ritter-why-iran-is-winning-2026-03-31.md) | legality and command failure |
-| Napolitano | 2026-04-20 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md) | legality and command failure |
-| Napolitano | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md) | legality and command failure |
-| Cyrus Janssen | 2026-05-10 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md) | energy and Hormuz shock |
-| Consortium News | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md) | adversarial debate / Russia-policy stress test |
+| Diesen | 2025-05-24 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-05-24/source-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24.md) | escalation horizon |
+| Diesen | 2025-06-10 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-06-10/source-glenn-diesen-scott-ritter-scott-ritter-dangerous-endgame-in-ukraine-collapse-or-escalation-2025-06-10.md) | escalation horizon |
+| Diesen | 2025-09-17 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-09-17/source-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17.md) | escalation horizon |
+| Diesen | 2025-10-07 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-07/source-glenn-diesen-scott-ritter-scott-ritter-tomahawks-end-of-nato-coming-nuclear-war-2025-10-07.md) | escalation horizon |
+| Diesen | 2025-10-24 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-24/source-glenn-diesen-scott-ritter-scott-ritter-russia-fed-up-with-nato-escalations-retaliation-is-coming-2025-10-24.md) | escalation horizon |
+| Diesen | 2025-12-01 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-01/source-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md) | escalation horizon |
+| Diesen | 2025-12-10 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-10/source-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md) | escalation horizon |
+| Diesen | 2026-01-13 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-13/source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md) | escalation horizon |
+| Diesen | 2026-01-27 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-27/source-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md) | escalation horizon |
+| Diesen | 2026-02-19 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-19/source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md) | escalation horizon |
+| Diesen | 2026-02-28 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-28/source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md) | escalation horizon |
+| Diesen | 2026-03-11 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-11/source-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md) | escalation horizon |
+| Diesen | 2026-04-07 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-07/source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md) | escalation horizon |
+| Diesen | 2026-04-17 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md) | escalation horizon |
+| Diesen | 2026-05-04 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md) | escalation horizon |
+| Davis | 2026-03-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-06/source-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md) | operational feasibility |
+| Davis | 2026-03-16 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-16/source-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md) | operational feasibility |
+| Davis | 2026-03-31 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md) | operational feasibility |
+| Davis | 2026-04-05 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-05/source-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md) | operational feasibility |
+| Davis | 2026-04-13 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md) | operational feasibility |
+| Davis | 2026-05-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/source-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md) | operational feasibility |
+| Davis | 2026-05-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/source-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md) | operational feasibility |
+| Davis | 2026-05-14 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-14/source-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md) | operational feasibility |
+| Dialogue Works | 2025-01-05 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-01-05/source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md) | live war pressure |
+| Dialogue Works | 2025-10-19 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-19/source-dialogue-works-scott-ritter-israel-s-attack-ignites-iran-s-oreshnik-moment-idf-in-ruins-l-scott-ritter-2025-10-19.md) | live war pressure |
+| Dialogue Works | 2025-11-05 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-05/source-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md) | live war pressure |
+| Dialogue Works | 2025-12-03 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-03/source-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03.md) | live war pressure |
+| Dialogue Works | 2025-12-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-06/source-dialogue-works-scott-ritter-putin-defies-trump-eu-cornered-as-ukraine-troops-collapse-scott-ritter-2025-12-06.md) | live war pressure |
+| Dialogue Works | 2025-12-19 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-19/source-dialogue-works-scott-ritter-scott-ritter-russia-just-made-a-move-that-could-collapse-everything-2025-12-19.md) | live war pressure |
+| Dialogue Works | 2025-12-24 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-24/source-dialogue-works-scott-ritter-scott-ritter-this-is-how-it-all-collapses-russia-s-role-explained-2025-12-24.md) | live war pressure |
+| Dialogue Works | 2026-02-04 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-04/source-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md) | live war pressure |
+| Dialogue Works | 2026-02-11 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-11/source-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md) | live war pressure |
+| Dialogue Works | 2026-02-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-18/source-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md) | live war pressure |
+| Dialogue Works | 2026-03-04 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-04/source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md) | live war pressure |
+| Dialogue Works | 2026-03-11 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-11/source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md) | live war pressure |
+| Dialogue Works | 2026-04-08 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md) | live war pressure |
+| Dialogue Works | 2026-05-06 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/source-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md) | live war pressure |
+| Dialogue Works | 2026-05-13 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md) | live war pressure |
+| Napolitano | 2025-11-04 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/source-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md) | legality and command failure |
+| Napolitano | 2025-12-01 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-01/source-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md) | legality and command failure |
+| Napolitano | 2026-01-12 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-12/source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md) | legality and command failure |
+| Napolitano | 2026-02-23 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-23/source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md) | legality and command failure |
+| Napolitano | 2026-03-17 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md) | legality and command failure |
+| Napolitano | 2026-03-31 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-napolitano-ritter-why-iran-is-winning-2026-03-31.md) | legality and command failure |
+| Napolitano | 2026-04-20 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-trump-hegseth-2026-04-20.md) | legality and command failure |
+| Napolitano | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md) | legality and command failure |
+| Cyrus Janssen | 2026-05-10 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md) | energy and Hormuz shock |
+| Consortium News | 2026-05-18 | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md) | adversarial debate / Russia-policy stress test |
 
 ## Host Function Map
 
@@ -104,16 +104,16 @@ This is the crossing table between the interview strand and the authored Substac
 
 ## Open First
 
-- **Best all-around interview entry:** [youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
-- **Best escalation-horizon entry:** [transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/transcript-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
-- **Best live-pressure entry:** [transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- **Best legality/command-failure entry:** [transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
-- **Best auxiliary energy-shock entry:** [youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/youtube-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md)
-- **Best debate-stress entry:** [transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/transcript-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
+- **Best all-around interview entry:** [source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- **Best escalation-horizon entry:** [source-diesen-ritter-hormuz-return-to-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
+- **Best live-pressure entry:** [source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
+- **Best legality/command-failure entry:** [source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
+- **Best auxiliary energy-shock entry:** [source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md)
+- **Best debate-stress entry:** [source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
 
 ## Backlog / Exclusions
 
-- Resolve generic stubs before use: `transcript-ritter.md` under 2026-04-17, 2026-04-18, and 2026-04-19.
+- Resolve generic stubs before use: `source-ritter-2026-04-19.md` under 2026-04-17, 2026-04-18, and 2026-04-19.
 - Keep date-named `YYYY-MM-DD-ritter.md` files out of this interview note until their host/source identity is explicit.
 - Keep `article-ritter-*`, `ritter-rant-*`, and `substack-ritter-*` out of this Source Set; they belong to authored or standalone support layers.
 - Do not promote Cyrus Janssen or Consortium News into the canonical Ritter helix unless more repeat appearances make them structurally real.

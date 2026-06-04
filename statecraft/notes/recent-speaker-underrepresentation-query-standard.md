@@ -110,12 +110,12 @@ The Freeman correction is the model case for why this query needs a standard.
 
 Using the proper rolling window `2026-05-26` through `2026-06-01`, Freeman is not a one-hit speaker. He has at least these landed appearances:
 
-- [transcript-napolitano-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-freeman-israel-humiliates-itself-2026-05-26.md)
-- [transcript-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-29/transcript-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md)
+- [source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md)
+- [source-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-29/source-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md)
 
 And if the operator intended a softer recent-week sense that includes `2026-05-25`, there is also:
 
-- [youtube-glenn-diesen-chas-freeman-crisis-in-israel-iranian-nuclear-weapons-2026-05-25.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-25/youtube-glenn-diesen-chas-freeman-crisis-in-israel-iranian-nuclear-weapons-2026-05-25.md)
+- [source-glenn-diesen-chas-freeman-crisis-in-israel-iranian-nuclear-weapons-2026-05-25.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-25/source-glenn-diesen-chas-freeman-crisis-in-israel-iranian-nuclear-weapons-2026-05-25.md)
 
 So a correct standardized answer must classify Freeman as `not underrepresented` for the strict rolling week ending `2026-06-01`.
 

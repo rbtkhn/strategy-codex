@@ -33,7 +33,7 @@ Use the shelf this way:
 | origin tracing across the bounded 2025-present arc | [stream/mercouris-shelf-2025-01.md](stream/mercouris-shelf-2025-01.md) | Start in January for the broad setup month, then move to February for the thinner hinge into the live negotiation-strain grammar. |
 | month-level synthesis across the live 2026 run | [stream/README.md](stream/README.md) | The month ladder gives bounded Jan-May synthesis without replacing stream chronology. |
 | reinforcement beyond the native stream | [mercouris-cross-host-note.md](mercouris-cross-host-note.md) | This explains the secondary cross-host reinforcement. |
-| provenance-first routing | [mercouris-raw-input-index.md](mercouris-raw-input-index.md) | This is the canonical statecraft-side provenance bench. |
+| provenance-first routing | [mercouris-source-index.md](mercouris-source-index.md) | This is the canonical statecraft-side source bench. |
 
 ## Boundaries
 

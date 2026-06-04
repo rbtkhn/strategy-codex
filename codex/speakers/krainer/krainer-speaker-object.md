@@ -51,7 +51,7 @@ The clearest reinforcement beyond Diesen is the broader recurring run visible in
 
 There is also a materialized on-disk Dialogue Works anchor:
 
-- [2025-01-18 Krainer x Wilkerson on Dialogue Works](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-01-18/transcript-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
+- [2025-01-18 Krainer x Wilkerson on Dialogue Works](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-01-18/source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md)
 
 See [krainer-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/krainer/krainer-cross-host-note.md).
 
@@ -63,7 +63,7 @@ If the operator needs the clearest current host-local entry:
 
 If the operator needs the strongest current materialized raw-input file:
 
-- open [2026-05-08 Diesen x Krainer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/transcript-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md)
+- open [2026-05-08 Diesen x Krainer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md)
 
 If the operator needs the object doctrine rather than a live lane:
 

@@ -24,7 +24,7 @@ political-economy skeptic who uses AI in four recurring ways:
 ## Financial thesis
 
 The strongest Barnes AI read begins as a macro fragility argument in
-[2026-01-13 / Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-13/transcript-mercouris-barnes-regime-change-escalator-2026-01-13.md).
+[2026-01-13 / Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-13/source-mercouris-barnes-regime-change-escalator-2026-01-13.md).
 
 Barnes argues that a significant share of apparent growth is being flattered by
 AI spending that may not create durable employment or productive value. The
@@ -60,7 +60,7 @@ capital choreography rather than through realized returns.
 ## Technical thesis
 
 Barnes is also skeptical of the intelligence claim itself in
-[2026-01-13 / Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-13/transcript-mercouris-barnes-regime-change-escalator-2026-01-13.md).
+[2026-01-13 / Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-13/source-mercouris-barnes-regime-change-escalator-2026-01-13.md).
 
 Verbatim anchors:
 
@@ -75,7 +75,7 @@ of the intelligence aura attached to them.
 ## Geopolitical thesis
 
 By
-[2026-04-03 / Davis x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-03/transcript-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md),
+[2026-04-03 / Davis x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-03/source-davis-deep-dive-robert-barnes-war-crimes-hormuz-2026-04-03.md),
 Barnes turns AI into a power-network argument.
 
 Verbatim anchors:
@@ -94,7 +94,7 @@ as an obstacle to a larger capital project.
 ## Late-May compression
 
 The later
-[2026-05-28 / Barnes x Mario Nawfal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)
+[2026-05-28 / Barnes x Mario Nawfal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)
 source compresses the same line into shorter crisis language.
 
 Verbatim anchors:

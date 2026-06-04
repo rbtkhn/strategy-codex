@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `youtube` (1)
+- Body kind mix: `transcript` (1)
+- Source form mix: `interview` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry Johnson` (1)
 - Threads: `davis` (1), `johnson` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `youtube-daniel-davis-deep-dive-larry-johnson-u-s-war-dept-v-russia-larry-johnson-lt-col-daniel-davis-2025-10-15.md`
+- `source-daniel-davis-deep-dive-larry-johnson-u-s-war-dept-v-russia-larry-johnson-lt-col-daniel-davis-2025-10-15.md`

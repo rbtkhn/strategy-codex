@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `transcript` (2), `youtube` (1)
+- Body kind mix: `transcript` (2), `source` (1)
+- Source form mix: `article` (1), `interview` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1), `Douglas Macgregor` (1)
 - Threads: `macgregor` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1), `nima` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-napolitano-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md`
-- `transcript-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md`
-- `youtube-alex-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md`
+- `source-alex-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md`
+- `source-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md`
+- `source-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md`

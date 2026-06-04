@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: give the Kent starter shelf a speaker-owned support spine beneath routing and above raw provenance. This file does not replace host-local arcs or the raw-input index. It explains what kind of speaker object Kent currently is, where the real density lives, and how the shelf should mature without overstating ownership.
+Purpose: give the Kent starter shelf a speaker-owned support spine beneath routing and above raw provenance. This file does not replace host-local arcs or the source index. It explains what kind of speaker object Kent currently is, where the real density lives, and how the shelf should mature without overstating ownership.
 
 ## What this spine owns
 
@@ -16,7 +16,7 @@ This support spine owns four notebook jobs:
 Quick separation rule:
 
 - [kent-routing.md](kent-routing.md) = fastest lane selection
-- [kent-raw-input-index.md](kent-raw-input-index.md) = provenance bench
+- [kent-source-index.md](kent-source-index.md) = source bench
 - [README.md](README.md) = front-door starter framing
 - this file = maturity and support law
 
@@ -58,8 +58,8 @@ Status: break-open month
 
 Open:
 
-- [2026-03-18 / Tucker Carlson x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-18/youtube-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md)
-- [2026-03-26 / Daniel Davis Deep Dive x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/youtube-daniel-davis-deep-dive-joe-kent-the-truth-of-the-iran-war-2026-03-26.md)
+- [2026-03-18 / Tucker Carlson x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-18/source-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md)
+- [2026-03-26 / Daniel Davis Deep Dive x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-daniel-davis-deep-dive-joe-kent-the-truth-of-the-iran-war-2026-03-26.md)
 
 Why:
 
@@ -73,7 +73,7 @@ Status: reinforcing month
 
 Open:
 
-- [2026-04-02 / Glenn Diesen x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-02/youtube-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md)
+- [2026-04-02 / Glenn Diesen x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-02/source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md)
 
 Why:
 
@@ -86,10 +86,10 @@ Status: strongest current cluster
 
 Open:
 
-- [2026-05-08 / Daniel Davis Deep Dive cleaned transcript](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/transcript-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
-- [2026-05-08 / Daniel Davis Deep Dive transcript-bearing capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/youtube-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md)
-- [2026-05-15 / Mario Nawfal x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/youtube-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md)
-- [2026-05-28 / Mario Nawfal x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
+- [2026-05-08 / Daniel Davis Deep Dive cleaned transcript](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/source-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
+- [2026-05-08 / Daniel Davis Deep Dive transcript-bearing capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/source-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md)
+- [2026-05-15 / Mario Nawfal x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md)
+- [2026-05-28 / Mario Nawfal x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
 
 Why:
 

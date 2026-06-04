@@ -58,7 +58,7 @@ This means the lane should be read two ways:
 
 If the operator needs only one file:
 
-- open [2026-05-08 Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/transcript-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
+- open [2026-05-08 Alkorshid x Postol](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
 
 If the operator needs the best companion surfaces for the uncaptured run:
 

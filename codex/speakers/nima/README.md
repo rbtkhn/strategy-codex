@@ -7,7 +7,7 @@ This is the canonical `nima` host shelf for `Dialogue Works`.
 ## Open First
 
 - [index.md](index.md)
-- [nima-raw-input-index.md](nima-raw-input-index.md)
+- [nima-source-index.md](nima-source-index.md)
 - [Profile](../../profiles/nima-profile.md)
 
 ## Stream

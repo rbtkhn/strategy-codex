@@ -30,14 +30,14 @@ In this lane the useful transformation is:
 
 ## Open first
 
-- [2026-05-18 Scott Ritter - The US Will Never Learn](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/transcript-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
-- [2026-04-20 Scott Ritter - Trump and Hegseth Haven't a Clue](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/judging-freedom-trump-hegseth-2026-04-20.md)
-- [2026-03-17 Scott Ritter - Could US Officials Face War Crime Charges?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/transcript-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md)
-- [2026-03-31 Scott Ritter - Why Iran Is Winning](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/transcript-napolitano-ritter-why-iran-is-winning-2026-03-31.md)
-- [2026-02-23 Scott Ritter - What War With Iran Will Look Like](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-23/transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
-- [2026-01-12 Scott Ritter - How Close Is Putin to Escalation?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-12/transcript-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
-- [2025-12-01 Scott Ritter - Did Hegseth Order Murders?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-01/transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md)
-- [2025-11-04 Scott Ritter - NATO's Ukraine Strategy Is Collapsing](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/transcript-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
+- [2026-05-18 Scott Ritter - The US Will Never Learn](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
+- [2026-04-20 Scott Ritter - Trump and Hegseth Haven't a Clue](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-trump-hegseth-2026-04-20.md)
+- [2026-03-17 Scott Ritter - Could US Officials Face War Crime Charges?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-17/source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md)
+- [2026-03-31 Scott Ritter - Why Iran Is Winning](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-napolitano-ritter-why-iran-is-winning-2026-03-31.md)
+- [2026-02-23 Scott Ritter - What War With Iran Will Look Like](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-23/source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
+- [2026-01-12 Scott Ritter - How Close Is Putin to Escalation?](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-12/source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md)
+- [2025-12-01 Scott Ritter - Did Hegseth Order Murders?](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-01/source-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md)
+- [2025-11-04 Scott Ritter - NATO's Ukraine Strategy Is Collapsing](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-04/source-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md)
 
 ## Orthogonality guide
 

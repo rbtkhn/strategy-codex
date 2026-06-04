@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `substack` (2), `transcript` (1), `youtube` (1)
+- Body kind mix: `transcript` (2), `source` (1), `substack-post` (1)
+- Source form mix: `newsletter` (2), `interview` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (1)
 - Threads: `pape` (2), `marandi` (1), `mercouris` (1), `nima` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (2), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-pape-the-gamblers-conceit-in-war-2026-03-24.md`
-- `substack-pape-trumps-words-dont-predict-war-his-2026-03-24.md`
-- `transcript-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md`
-- `youtube-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md`
+- `source-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md`
+- `source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md`
+- `source-pape-the-gamblers-conceit-in-war-2026-03-24.md`
+- `source-pape-trumps-words-dont-predict-war-his-2026-03-24.md`

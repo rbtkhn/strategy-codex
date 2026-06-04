@@ -18,7 +18,7 @@ Quick separation rule:
 
 - [johnson-arc.md](johnson-arc.md) = whole-speaker continuity
 - [johnson-routing.md](johnson-routing.md) = fastest route by task or host need
-- [johnson-raw-input-index.md](johnson-raw-input-index.md) = provenance bench
+- [johnson-source-index.md](johnson-source-index.md) = source bench
 - [johnson-helix.md](johnson-helix.md) = cross-host comparison of the core transformations
 - this file = maturity logic and month-support doctrine
 

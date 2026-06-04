@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `6`
-- Type mix: `youtube` (5), `transcript` (1)
+- Body kind mix: `transcript` (6)
+- Source form mix: `interview` (6)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `6`
@@ -21,15 +22,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Re` (1), `Trump` (1), `Trump Not Confident Ceasefire Will Hold` (1), `Trump's Return` (1), `Zelensky Stirs the Pot at World Economic Forum` (1)
 - Threads: `davis` (5), `freeman` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-napolitano-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md`
-- `youtube-daniel-davis-deep-dive-re-built-tunnels-in-gaza-ukraine-s-bleak-future-2025-01-21.md`
-- `youtube-daniel-davis-deep-dive-trump-not-confident-ceasefire-will-hold-2025-01-21.md`
-- `youtube-daniel-davis-deep-dive-trump-putin-is-grinding-it-out-2025-01-21.md`
-- `youtube-daniel-davis-deep-dive-trump-s-return-immediate-impact-putin-reacts-2025-01-21.md`
-- `youtube-daniel-davis-deep-dive-zelensky-stirs-the-pot-at-world-economic-forum-2025-01-21.md`
+- `source-daniel-davis-deep-dive-re-built-tunnels-in-gaza-ukraine-s-bleak-future-2025-01-21.md`
+- `source-daniel-davis-deep-dive-trump-not-confident-ceasefire-will-hold-2025-01-21.md`
+- `source-daniel-davis-deep-dive-trump-putin-is-grinding-it-out-2025-01-21.md`
+- `source-daniel-davis-deep-dive-trump-s-return-immediate-impact-putin-reacts-2025-01-21.md`
+- `source-daniel-davis-deep-dive-zelensky-stirs-the-pot-at-world-economic-forum-2025-01-21.md`
+- `source-napolitano-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md`

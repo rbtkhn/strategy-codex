@@ -13,7 +13,7 @@ This is a compatibility front door pointing to the canonical Pape statecraft she
 - [Pape forecast ledger](/C:/dev/strategy-codex/statecraft/civ-lens/pape/stream/pape-forecast-ledger-2026.md)
 - [Pape interview appearances](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-interview-appearances-2025-2026.md)
 - [Pape helix](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-helix.md)
-- [Pape raw-input index](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-raw-input-index.md)
+- [Pape source index](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-source-index.md)
 
 ## Codex-side residue
 

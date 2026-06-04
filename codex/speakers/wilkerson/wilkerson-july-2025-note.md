@@ -21,21 +21,21 @@ The honest reading is:
 
 ## Materialized on disk
 
-1. [2025-07-09 - *COL. Lawrence Wilkerson : Does The Deep State Control Trump?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-09/transcript-napolitano-wilkerson-does-the-deep-state-control-trump-2025-07-09.md)
+1. [2025-07-09 - *COL. Lawrence Wilkerson : Does The Deep State Control Trump?*](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-09/source-napolitano-wilkerson-does-the-deep-state-control-trump-2025-07-09.md)
    Status: full operator-pasted `Judging Freedom` transcript materialized.
    URL: [https://www.youtube.com/watch?v=qo9JCvTbu-Q](https://www.youtube.com/watch?v=qo9JCvTbu-Q)
    Date note: transcript opening states Wednesday, July 9th, 2025; some secondary podcast-release mirrors surface the episode as July 10, 2025, so the spoken in-episode date is preserved as canonical archive date.
 
-2. [2025-07-18 - *Col. Larry Wilkerson & Chas Freeman: WW3 IMMINENT? Shocking Signs We're on the Brink of Global War!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-18/transcript-dialogue-works-col-larry-wilkerson-and-chas-freeman-ww3-imminent-shocking-signs-we-re-on-the-brink-of-global-war-2025-07-18.md)
+2. [2025-07-18 - *Col. Larry Wilkerson & Chas Freeman: WW3 IMMINENT? Shocking Signs We're on the Brink of Global War!*](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-18/source-dialogue-works-col-larry-wilkerson-and-chas-freeman-ww3-imminent-shocking-signs-we-re-on-the-brink-of-global-war-2025-07-18.md)
    Status: full operator-pasted `Dialogue Works` Wilkerson/Freeman transcript materialized.
    URL: [https://www.youtube.com/watch?v=r2Oarv9DrqQ](https://www.youtube.com/watch?v=r2Oarv9DrqQ)
    Date note: the on-disk transcript opens as Friday, July 18, 2025; recovered secondary listing evidence points to a Saturday, July 19, 2025 publication listing, so the spoken in-episode date remains the canonical archive date and the discrepancy should stay noted.
 
-3. [2025-07-20 - *Israel WON'T Survive Next War with Iran - Yemen Proved It | Larry C. Johnson & Col. Larry Wilkerson*](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-20/youtube-dialogue-works-israel-wont-survive-next-war-with-iran-yemen-proved-it-larry-c-johnson-col-larry-wilkerson-2025-07-20.md)
+3. [2025-07-20 - *Israel WON'T Survive Next War with Iran - Yemen Proved It | Larry C. Johnson & Col. Larry Wilkerson*](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-20/source-dialogue-works-israel-wont-survive-next-war-with-iran-yemen-proved-it-larry-c-johnson-col-larry-wilkerson-2025-07-20.md)
    Status: full operator-pasted `Dialogue Works` Johnson/Wilkerson crossover transcript materialized.
    URL: [https://www.youtube.com/watch?v=bSsKJL-Y_sU](https://www.youtube.com/watch?v=bSsKJL-Y_sU)
 
-4. [2025-07-30 - *Lawrence Wilkerson: How We Encircled Russia and Made Europe a Vassal - Divide & Rule*](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-30/youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-how-we-encircled-russia-and-made-europe-a-vassal-divide-rule-2025-07-30.md)
+4. [2025-07-30 - *Lawrence Wilkerson: How We Encircled Russia and Made Europe a Vassal - Divide & Rule*](/C:/dev/strategy-codex/source-archive/statecraft/2025-07-30/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-how-we-encircled-russia-and-made-europe-a-vassal-divide-rule-2025-07-30.md)
    Status: speaker-forward `Diesen` July anchor already materialized on disk.
    URL: [https://www.youtube.com/watch?v=ux2POu7Q4rc](https://www.youtube.com/watch?v=ux2POu7Q4rc)
 

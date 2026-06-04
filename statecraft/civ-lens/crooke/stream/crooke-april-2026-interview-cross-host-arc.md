@@ -12,9 +12,9 @@ April 2026 is the strongest Crooke interview consequence month. It joins Hormuz 
 
 | date | host | title | raw-input | arc job |
 |---|---|---|---|---|
-| 2026-04-07 | Diesen | Iran Will Emerge Stronger and Reshape the Global Economy | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-07/transcript-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md) | consequence widening, economic shock, irrationality at the center |
-| 2026-04-23 | Davis | Iranians Only Getting Tougher | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) | bargaining reality, Hormuz leverage, state discipline |
-| 2026-04-27 | Diesen | Iran, Global War, World Order | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md) | world-order stress test, system war, propaganda fog |
+| 2026-04-07 | Diesen | Iran Will Emerge Stronger and Reshape the Global Economy | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md) | consequence widening, economic shock, irrationality at the center |
+| 2026-04-23 | Davis | Iranians Only Getting Tougher | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md) | bargaining reality, Hormuz leverage, state discipline |
+| 2026-04-27 | Diesen | Iran, Global War, World Order | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md) | world-order stress test, system war, propaganda fog |
 
 ## Month spine
 

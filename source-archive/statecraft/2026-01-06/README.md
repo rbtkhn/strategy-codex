@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `6`
-- Type mix: `transcript` (3), `substack` (2), `youtube` (1)
+- Body kind mix: `transcript` (3), `operator-transcript` (1), `source` (1), `substack-post` (1)
+- Source form mix: `interview` (2), `newsletter` (2), `article` (1), `solo` (1)
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `4`
@@ -21,15 +22,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Chas Freeman` (1), `Jacques Baud` (1), `Scott Ritter` (1)
 - Threads: `baud` (1), `crooke` (1), `diesen` (1), `freeman` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `ritter` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (2), `transcript-napolitano-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-ritter-the-battle-of-new-york-2026-01-06.md`
-- `substack-simplicius-big-surprise-legal-story-changes-2026-01-06.md`
-- `transcript-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md`
-- `transcript-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md`
-- `transcript-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md`
-- `youtube-alex-mercouris-venezuela-debacle-us-no-plan-rodriguez-defiant-oil-companies-skeptical-g-2026-01-06.md`
+- `source-alex-mercouris-venezuela-debacle-us-no-plan-rodriguez-defiant-oil-companies-skeptical-g-2026-01-06.md`
+- `source-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md`
+- `source-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md`
+- `source-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md`
+- `source-ritter-the-battle-of-new-york-2026-01-06.md`
+- `source-simplicius-big-surprise-legal-story-changes-2026-01-06.md`

@@ -22,9 +22,9 @@ Mercouris returns again and again to Minsk and Istanbul because they name two di
 
 ## Exact Quote Anchors
 
-- [2025-04-10 Daniel Davis raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/youtube-daniel-davis-deep-dive-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md): "we've been there before. We tried that. That was what the Minsk agreement was all about"
-- [2025-01-10 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/youtube-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "there was a draft agreement ... almost sealed agreed in Istanbul in April 2022"
-- [2025-02-10 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/youtube-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md): "accept perhaps ... Istanbul plus"
+- [2025-04-10 Daniel Davis raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-04-10/source-daniel-davis-deep-dive-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md): "we've been there before. We tried that. That was what the Minsk agreement was all about"
+- [2025-01-10 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "there was a draft agreement ... almost sealed agreed in Istanbul in April 2022"
+- [2025-02-10 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-10/source-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md): "accept perhaps ... Istanbul plus"
 
 ## What Mercouris Is Arguing
 

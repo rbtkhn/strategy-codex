@@ -23,13 +23,13 @@ Lawrence Wilkerson matters here as an **imperial-decline and military-statecraft
 
 ## Open first
 
-- [2026-05-28 Lawrence Wilkerson - What Remains of International Law](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
-- [2026-04-30 Lawrence Wilkerson - Iran's New Friend](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-30/transcript-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
-- [2026-03-26 Lawrence Wilkerson - Why Trump Is Wedded to Israel](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/transcript-napolitano-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md)
-- [2026-02-12 Lawrence Wilkerson - The Conflict That Could Draw Everyone In](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-12/transcript-napolitano-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md)
-- [2026-01-22 Lawrence Wilkerson - The Rules-Based Order Was a Lie](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-22/transcript-napolitano-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md)
-- [2025-12-18 Lawrence Wilkerson - A Disaster to Invade Venezuela](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/transcript-napolitano-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md)
-- [2025-11-26 Lawrence Wilkerson - No One Can Trust Netanyahu](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/transcript-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md)
+- [2026-05-28 Lawrence Wilkerson - What Remains of International Law](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
+- [2026-04-30 Lawrence Wilkerson - Iran's New Friend](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-30/source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md)
+- [2026-03-26 Lawrence Wilkerson - Why Trump Is Wedded to Israel](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-napolitano-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md)
+- [2026-02-12 Lawrence Wilkerson - The Conflict That Could Draw Everyone In](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-12/source-napolitano-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md)
+- [2026-01-22 Lawrence Wilkerson - The Rules-Based Order Was a Lie](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-22/source-napolitano-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md)
+- [2025-12-18 Lawrence Wilkerson - A Disaster to Invade Venezuela](/C:/dev/strategy-codex/source-archive/statecraft/2025-12-18/source-napolitano-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md)
+- [2025-11-26 Lawrence Wilkerson - No One Can Trust Netanyahu](/C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/source-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md)
 
 ## Orthogonality guide
 

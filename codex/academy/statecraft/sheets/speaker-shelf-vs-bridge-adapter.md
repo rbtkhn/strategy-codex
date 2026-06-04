@@ -96,7 +96,7 @@ Macgregor shelf ownership is already legible across:
 
 - `macgregor-arc.md`
 - `macgregor-routing.md`
-- `macgregor-raw-input-index.md`
+- `macgregor-source-index.md`
 - `macgregor-helix.md`
 - `macgregor-support-spine-2025-2026.md`
 - wrapper front doors such as `README.md` and `index.md`

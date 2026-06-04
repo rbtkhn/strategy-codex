@@ -16,19 +16,19 @@ The lane is useful because:
 
 ## Arc set
 
-1. [Joe Kent: The Truth of the Iran War](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-26/youtube-daniel-davis-deep-dive-joe-kent-the-truth-of-the-iran-war-2026-03-26.md)
+1. [Joe Kent: The Truth of the Iran War](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-26/source-daniel-davis-deep-dive-joe-kent-the-truth-of-the-iran-war-2026-03-26.md)
    Why it anchors the arc: fullest transcript-grade Davis-Kent baseline for Kent's dissent frame after his break with the administration.
 
-2. [Latest Goals in Iran War /Lt Col Daniel Davis & Joe Kent](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-02/youtube-daniel-davis-deep-dive-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md)
+2. [Latest Goals in Iran War /Lt Col Daniel Davis & Joe Kent](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-02/source-daniel-davis-deep-dive-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md)
    Why it matters: best middle anchor for military objective drift, pressure escalation, and the difficulty of finding an actual victory condition.
 
-3. [CONTROLLED BY THE DONOR CLASS: US Iran Negotiations /Joe Kent & Lt Col Daniel Davis](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/youtube-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md)
+3. [CONTROLLED BY THE DONOR CLASS: US Iran Negotiations /Joe Kent & Lt Col Daniel Davis](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md)
    Why it matters: compressed transcript-grade anchor for donor-class and negotiation-capture claims.
 
-4. [Daniel Davis Deep Dive - Joe Kent on the Strait of Hormuz, the Blockade, and the Walk-Away Option](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/transcript-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
+4. [Daniel Davis Deep Dive - Joe Kent on the Strait of Hormuz, the Blockade, and the Walk-Away Option](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
    Why it matters: operator-cleaned companion anchor for the walkaway/Hormuz logic with clearer speaker labels than the auto-materialized captures.
 
-5. [Daniel Davis x Glenn Diesen - Iran's aims, Hormuz, military options, Joe Kent](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-18/transcript-davis-diesen-military-options-kent-2026-03-18.md)
+5. [Daniel Davis x Glenn Diesen - Iran's aims, Hormuz, military options, Joe Kent](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-18/source-davis-diesen-military-options-kent-2026-03-18.md)
    Why it matters: pre-arc bridge showing how Kent's resignation entered Davis/Diesen analysis before Kent became a materialized guest object.
 
 ## Open first

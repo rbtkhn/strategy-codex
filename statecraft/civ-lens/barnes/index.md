@@ -11,7 +11,7 @@ Purpose: compact front door for the canonical Barnes statecraft shelf.
 - [barnes-on-ai.md](barnes-on-ai.md)
 - [barnes-arc.md](barnes-arc.md)
 - [barnes-routing.md](barnes-routing.md)
-- [barnes-raw-input-index.md](barnes-raw-input-index.md)
+- [barnes-source-index.md](barnes-source-index.md)
 - [barnes-helix.md](barnes-helix.md)
 - [barnes-support-spine-2025-2026.md](barnes-support-spine-2025-2026.md)
 
@@ -21,7 +21,7 @@ Purpose: compact front door for the canonical Barnes statecraft shelf.
 - If the question is **how Barnes talks about AI as bubble, financing, or incentive structure**, open [barnes-on-ai.md](barnes-on-ai.md).
 - If the question is **whole-speaker continuity**, open [barnes-arc.md](barnes-arc.md).
 - If the question is **which Barnes lane or file to open first**, open [barnes-routing.md](barnes-routing.md).
-- If the question is **what actually exists on disk**, open [barnes-raw-input-index.md](barnes-raw-input-index.md).
+- If the question is **what actually exists on disk**, open [barnes-source-index.md](barnes-source-index.md).
 - If the question is **how the host-conditioned Barnes structure works**, open [barnes-helix.md](barnes-helix.md).
 - If the question is **how mature the shelf is and what comes next**, open [barnes-support-spine-2025-2026.md](barnes-support-spine-2025-2026.md).
 

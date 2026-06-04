@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `transcript` (2), `youtube` (1)
+- Body kind mix: `source` (2), `transcript` (1)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Larry Wilkerson` (1)
 - Threads: `freeman` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-blazing-red-the-u-s-is-heading-straight-into-this-2025-12-16.md`
-- `transcript-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md`
-- `youtube-alex-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md`
+- `source-alex-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md`
+- `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-blazing-red-the-u-s-is-heading-straight-into-this-2025-12-16.md`
+- `source-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md`

@@ -28,7 +28,7 @@ The show is structured as institutional-decay (UK) + executive-control risk (US)
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-20/duran-mercouris-russia-blockade-40-ships-hormuz-2026-04-20.md](../../../../years/2026/provenance/2026-04-20/duran-mercouris-russia-blockade-40-ships-hormuz-2026-04-20.md)
+- **Full verbatim (capture):** [provenance/2026-04-20/duran-source-russia-blockade-40-ships-hormuz-2026-04-20.md](../../../../years/2026/provenance/2026-04-20/duran-source-russia-blockade-40-ships-hormuz-2026-04-20.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mercouris`, 2026-04-20)
 - **`thread:mercouris`** · **verify:** full-text + raw-input + aired:2026-04-20
 - **Canonical video:** Pin when known — see raw-input frontmatter or episode cold line (replace TBD placeholder)

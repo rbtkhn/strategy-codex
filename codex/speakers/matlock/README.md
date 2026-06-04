@@ -23,7 +23,7 @@ Matlock is therefore best read as a **single-helix, Diesen-anchored diplomatic-m
 
 ## Direct appearance set
 
-- [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-19/transcript-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
+- [2026-04-19 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
 - [2025-03-27 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md)
 - [2025-12-10 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-12-10/transcript-diesen-matlock-nato-expansion-coup-subversion-ukraine-started-war-2025-12-10.md)
 - [2025-06-21 Diesen x Matlock](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-06-21/transcript-diesen-matlock-superpower-illusions-reviving-cold-war-2025-06-21.md)

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `source` (1), `transcript` (1)
+- Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1)
 - Threads: `diesen` (1), `martyanov` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1), `youtube-glenn-diesen-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-moscow-warns-talks-kiev-s-last-chance-total-defeat-if-talks-fail-rubio-warns-against-more-sanctions-2025-05-21.md`
-- `youtube-glenn-diesen-andrei-martyanov-russia-s-military-strategy-in-ukraine-2025-05-21.md`
+- `source-alex-mercouris-moscow-warns-talks-kiev-s-last-chance-total-defeat-if-talks-fail-rubio-warns-against-more-sanctions-2025-05-21.md`
+- `source-glenn-diesen-andrei-martyanov-russia-s-military-strategy-in-ukraine-2025-05-21.md`

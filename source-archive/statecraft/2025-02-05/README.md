@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `transcript` (1), `youtube` (1)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Ray McGovern` (1)
 - Threads: `davis` (1), `diesen` (1), `freeman` (1), `mcgovern` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `youtube-daniel-davis-deep-dive-trump-and-the-takeover-of-gaza-w-ambassador-chas-freeman-2025-02-05.md`
-- `youtube-glenn-diesen-ray-mcgovern-trump-versus-the-deep-state-2025-02-05.md`
+- `source-daniel-davis-deep-dive-trump-and-the-takeover-of-gaza-w-ambassador-chas-freeman-2025-02-05.md`
+- `source-glenn-diesen-ray-mcgovern-trump-versus-the-deep-state-2025-02-05.md`

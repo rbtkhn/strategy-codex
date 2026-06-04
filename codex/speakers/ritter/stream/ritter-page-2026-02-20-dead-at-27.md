@@ -161,7 +161,7 @@ Along with tens of thousands of others whose lives will tragically be cut short 
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-02-20/substack-ritter-dead-at-27-2026-02-20.md](../../../../years/2026/provenance/2026-02-20/substack-ritter-dead-at-27-2026-02-20.md)
+- **Full verbatim (capture):** [provenance/2026-02-20/source-ritter-dead-at-27-2026-02-20.md](../../../../years/2026/provenance/2026-02-20/source-ritter-dead-at-27-2026-02-20.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-02-20)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/dead-at-27

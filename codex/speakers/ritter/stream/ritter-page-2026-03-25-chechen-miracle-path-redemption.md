@@ -95,7 +95,7 @@ The Chechen miracle is the living manifestation of Russian redemption.
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-03-25/substack-ritter-chechen-miracle-path-redemption-2026-03-25.md](../../../../years/2026/provenance/2026-03-25/substack-ritter-chechen-miracle-path-redemption-2026-03-25.md)
+- **Full verbatim (capture):** [provenance/2026-03-25/source-ritter-chechen-miracle-path-redemption-2026-03-25.md](../../../../years/2026/provenance/2026-03-25/source-ritter-chechen-miracle-path-redemption-2026-03-25.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-03-25)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/how-the-chechen-miracle-kick-started

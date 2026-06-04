@@ -23,7 +23,7 @@ Host: news-frame choreography (WSJ, Israel, “adviser” exit) plus Hormuz-week
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-03-10/transcript-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../../../../years/2026/provenance/2026-03-10/transcript-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
+- **Full verbatim (capture):** [provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../../../../years/2026/provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md)
 - **`thread:diesen` × `thread:mearsheimer` ·** Guest: [../mearsheimer/mearsheimer-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../mearsheimer/mearsheimer-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md) · **verify:** `pub_date:2026-03-10`
 - **Canonical primary:** `https://www.youtube.com/watch?v=1e9NhLfPNKU`

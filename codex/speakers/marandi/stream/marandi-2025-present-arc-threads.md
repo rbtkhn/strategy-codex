@@ -1,10 +1,12 @@
-# Marandi 2025-present arc threads
+# Marandi 2025-present thread atlas
 
 WORK only; not Record.
 
 Purpose: canonical recurring thread atlas for the Marandi shelf across `2025-present`.
 
 This is an atlas, not a host-local arc and not a chronology dump.
+
+Vocabulary note: this file is the **thread atlas**. The items below are the recurring **arc-threads** that cross hosts and bounded month surfaces.
 
 ## Spine
 
@@ -121,3 +123,4 @@ For bounded mature-core readings, open:
 - This file names recurring continuity families; it does not replace the host-local arcs.
 - This file is not a claim that all raw-input items are equally weight-bearing.
 - This file should stay Marandi-owned; do not fold adjacent non-Marandi Iran commentary into these threads.
+- `arc-threads` is the strand grammar inside the atlas, not a competing surface name for this file.

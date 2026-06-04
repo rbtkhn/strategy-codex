@@ -54,12 +54,12 @@ This is enough to treat `Alkorshid x McGovern` as a real recurring host-local br
 
 If the operator needs only one file:
 
-- open [2026-03-08 Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-08/transcript-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
+- open [2026-03-08 Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
 
 If the operator needs the best paired read:
 
-- open [2025-12-29 Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-29/transcript-dialogue-works-ray-mcgovern-did-russia-have-a-choice-2025-12-29.md)
-- then [2026-03-08 Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-08/transcript-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
+- open [2025-12-29 Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-12-29/source-dialogue-works-ray-mcgovern-did-russia-have-a-choice-2025-12-29.md)
+- then [2026-03-08 Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
 
 That pair gives the clearest lane shape:
 

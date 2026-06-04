@@ -5,11 +5,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (1), `youtube` (1)
+- Body kind mix: `cleaned-transcript` (1), `youtube` (1)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
@@ -19,13 +20,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alex Christoforou` (1), `Glenn Diesen` (1)
 - Guests: `Alexander Mercouris` (1), `George Beebe` (1)
-- Threads: `beebe` (1), `diesen` (1), `mercouris` (1)
-
-## Filename Family Fallbacks
-
-- (none)
+- Threads: `beebe` (1), `christoforou` (1), `diesen` (1), `mercouris` (1)
 
 ## Files
 
-- `transcript-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md`
-- `youtube-glenn-diesen-george-beebe-negotiations-attack-on-russia-s-nuclear-forces-2025-06-02.md`
+- `source-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md`
+- `source-glenn-diesen-george-beebe-negotiations-attack-on-russia-s-nuclear-forces-2025-06-02.md`

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (2), `transcript` (1)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Douglas Macgregor` (1)
 - Threads: `davis` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-davis-macgregor-relentless-russia-drone-attacks-on-ukraine-will-peace-talks-even-happen-2025-05-12.md`
-- `youtube-alex-mercouris-uk-eu-furious-as-trump-backs-istanbul-talks-vow-more-sanctions-moscow-scorns-latest-zelensky-stunt-2025-05-12.md`
-- `youtube-glenn-diesen-chas-freeman-the-lies-we-tell-ourselves-about-china-2025-05-12.md`
+- `source-alex-mercouris-uk-eu-furious-as-trump-backs-istanbul-talks-vow-more-sanctions-moscow-scorns-latest-zelensky-stunt-2025-05-12.md`
+- `source-davis-macgregor-relentless-russia-drone-attacks-on-ukraine-will-peace-talks-even-happen-2025-05-12.md`
+- `source-glenn-diesen-chas-freeman-the-lies-we-tell-ourselves-about-china-2025-05-12.md`

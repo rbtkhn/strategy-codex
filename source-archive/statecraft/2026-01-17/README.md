@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `transcript` (1), `youtube` (1)
+- Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Ray McGovern` (1)
 - Threads: `diesen` (1), `mcgovern` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-zelensky-rushes-top-envoys-to-us-as-kiev-crisis-deepens-trump-focus-gree-2026-01-17.md`
-- `youtube-glenn-diesen-ray-mcgovern-the-road-war-arms-control-collapsing-2026-01-17.md`
+- `source-alex-mercouris-zelensky-rushes-top-envoys-to-us-as-kiev-crisis-deepens-trump-focus-gree-2026-01-17.md`
+- `source-glenn-diesen-ray-mcgovern-the-road-war-arms-control-collapsing-2026-01-17.md`

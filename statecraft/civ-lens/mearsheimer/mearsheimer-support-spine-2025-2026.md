@@ -32,7 +32,7 @@ That is why Mearsheimer remains a **host-led mature-month exception shelf**.
 - fastest host selection: [mearsheimer-routing.md](mearsheimer-routing.md)
 - cross-host comparison: [mearsheimer-helix.md](mearsheimer-helix.md)
 - bounded mature-month support: [mearsheimer-may-2026-note.md](mearsheimer-may-2026-note.md)
-- provenance bench: [mearsheimer-raw-input-index.md](mearsheimer-raw-input-index.md)
+- source bench: [mearsheimer-source-index.md](mearsheimer-source-index.md)
 
 ## Legacy support
 

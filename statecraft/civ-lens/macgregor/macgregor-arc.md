@@ -59,7 +59,7 @@ Supporting surfaces:
 - [macgregor-helix.md](macgregor-helix.md)
 - [macgregor-support-spine-2025-2026.md](macgregor-support-spine-2025-2026.md)
 - [macgregor-cross-year-note.md](macgregor-cross-year-note.md)
-- [macgregor-raw-input-index.md](macgregor-raw-input-index.md)
+- [macgregor-source-index.md](macgregor-source-index.md)
 - [index.md](index.md)
 
 ## Open first

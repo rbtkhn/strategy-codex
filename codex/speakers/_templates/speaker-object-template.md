@@ -6,6 +6,14 @@ object_shape: {allowed-object-shape}
 
 Purpose: define `{speaker}` as a durable speaker object for routing, judgment accumulation, and clean re-entry. This is an orientation object, not a provenance ledger and not a substitute for host-local speaker arcs or raw-input.
 
+Template doctrine: before drafting, fix the three-part surface grammar explicitly.
+
+- **surface name**: what this file is called
+- **surface role**: what job this file performs
+- **surface interior**: what it contains that neighboring surfaces do not
+
+Reference: [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/civ-lens/speaker-shelf-vocabulary.md)
+
 Transcript-first evidence, arc-first interpretation, unless the object's shape honestly requires another first-open rule.
 
 Minimum invariant: every canonical speaker folder needs a **routeable rationale**. But do not create a canonical speaker folder for thin or accidental recurrence in the first place. This note may be that rationale only after the speaker has enough real continuity to justify a durable folder. Keep the claim proportional: explain why the folder exists, where to open first, what evidence supports the object, and what not to promote yet.
@@ -65,6 +73,12 @@ Routing model:
 - `thread atlas`: recurring arc-threads that cross time periods or host surfaces without replacing the host-local arcs.
 - `speaker helix`: cross-host comparison of multiple host-local arcs.
 - `cross-host reinforcement note`: support surface for speakers that are useful across hosts but not yet mature helix-first objects.
+
+Surface-grammar check:
+
+- if this file is the named surface, say so plainly
+- if another file owns recurring strands, call that file the `thread atlas`
+- if another file owns breadth-first retrieval, call that file the `source-index` and its job the `source bench`
 
 If the speaker has enough off-lane or irregular cross-host spread that routing would otherwise keep naming source exceptions, define a three-tier ladder in this note or the linked route surfaces:
 

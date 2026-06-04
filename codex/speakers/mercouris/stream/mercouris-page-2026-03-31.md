@@ -28,7 +28,7 @@ The arc is institutional-narrative: U.S. public messaging and reported plans are
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-03-31/duran-mercouris-trump-iran-talks-lavrov-chechens-2026-03-31.md](../../../../years/2026/provenance/2026-03-31/duran-mercouris-trump-iran-talks-lavrov-chechens-2026-03-31.md)
+- **Full verbatim (capture):** [provenance/2026-03-31/duran-source-trump-iran-talks-lavrov-chechens-2026-03-31.md](../../../../years/2026/provenance/2026-03-31/duran-source-trump-iran-talks-lavrov-chechens-2026-03-31.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:mercouris`, aired 2026-03-31 if a stub row is added)
 - **`thread:mercouris`** · **verify:** full-text + raw-input path + operator-transcript tier + pin canonical `source_url` when known
-- **Canonical video:** [raw-input frontmatter `source_url`](../../../../years/2026/provenance/2026-03-31/duran-mercouris-trump-iran-talks-lavrov-chechens-2026-03-31.md) — replace TBD watch ID when pinned
+- **Canonical video:** [raw-input frontmatter `source_url`](../../../../years/2026/provenance/2026-03-31/duran-source-trump-iran-talks-lavrov-chechens-2026-03-31.md) — replace TBD watch ID when pinned

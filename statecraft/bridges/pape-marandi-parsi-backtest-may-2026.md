@@ -28,13 +28,13 @@ Month inventory:
 
 High-value backtest anchors:
 
-- [Pape - May 03](../../source-archive/statecraft/2026-05-03/substack-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md)
-- [Parsi - May 01](../../source-archive/statecraft/2026-05-01/substack-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md)
-- [Parsi - May 03](../../source-archive/statecraft/2026-05-03/substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md)
-- [Marandi - May 01](../../source-archive/statecraft/2026-05-01/youtube-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md)
-- [Parsi - May 28](../../source-archive/statecraft/2026-05-28/transcript-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
-- [Pape - May 29](../../source-archive/statecraft/2026-05-29/transcript-nawfal-pape-breaking-trump-teases-lifting-iran-blockade-2026-05-29.md)
-- [Marandi - May 29](../../source-archive/statecraft/2026-05-29/transcript-india-and-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md)
+- [Pape - May 03](../../source-archive/statecraft/2026-05-03/source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md)
+- [Parsi - May 01](../../source-archive/statecraft/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md)
+- [Parsi - May 03](../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md)
+- [Marandi - May 01](../../source-archive/statecraft/2026-05-01/source-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md)
+- [Parsi - May 28](../../source-archive/statecraft/2026-05-28/source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
+- [Pape - May 29](../../source-archive/statecraft/2026-05-29/source-nawfal-pape-breaking-trump-teases-lifting-iran-blockade-2026-05-29.md)
+- [Marandi - May 29](../../source-archive/statecraft/2026-05-29/source-india-and-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md)
 
 ## What The Month Confirms
 

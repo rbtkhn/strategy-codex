@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
-- Type mix: `substack` (2), `youtube` (2), `transcript` (1)
+- Body kind mix: `transcript` (3), `operator-transcript` (1), `substack-post` (1)
+- Source form mix: `interview` (2), `newsletter` (2), `solo` (1)
 - Distinct channels/shows: `4`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,14 +22,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2), `Robert Barnes` (1)
 - Threads: `mercouris` (2), `ritter` (2), `barnes` (1), `diesen` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (2), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-ritter-losing-the-republic-2026-01-13.md`
-- `substack-simplicius-ukraines-power-grid-woes-worsen-new-2026-01-13.md`
-- `transcript-mercouris-barnes-regime-change-escalator-2026-01-13.md`
-- `youtube-alex-mercouris-russia-helps-iran-jam-starlink-ending-protests-trump-hits-brics-25-iran-2026-01-13.md`
-- `youtube-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md`
+- `source-alex-mercouris-russia-helps-iran-jam-starlink-ending-protests-trump-hits-brics-25-iran-2026-01-13.md`
+- `source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md`
+- `source-mercouris-barnes-regime-change-escalator-2026-01-13.md`
+- `source-ritter-losing-the-republic-2026-01-13.md`
+- `source-simplicius-ukraines-power-grid-woes-worsen-new-2026-01-13.md`

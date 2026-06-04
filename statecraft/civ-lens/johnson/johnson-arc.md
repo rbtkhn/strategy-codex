@@ -11,7 +11,7 @@ Purpose: define `johnson-arc` as the canonical person-level continuity surface f
 - [johnson-support-spine-2025-2026.md](johnson-support-spine-2025-2026.md) = speaker-owned maturity and month-support explanation
 - [stream/johnson-shelf-2026-03.md](stream/johnson-shelf-2026-03.md) = mature bridge-month synthesis
 - [stream/johnson-shelf-2026-04.md](stream/johnson-shelf-2026-04.md) and [stream/johnson-shelf-2026-05.md](stream/johnson-shelf-2026-05.md) = bounded dense-core month synthesis
-- [stream/johnson-april-may-2026-arc-threads.md](stream/johnson-april-may-2026-arc-threads.md) = canonical recurring-strand atlas for the dense April-May 2026 core
+- [stream/johnson-april-may-2026-arc-threads.md](stream/johnson-april-may-2026-arc-threads.md) = canonical thread atlas for the dense April-May 2026 core
 - [johnson-routing.md](johnson-routing.md) = fastest host-selection surface
 
 ## Arc Shape
@@ -53,4 +53,4 @@ The strongest current motion is:
 
 - Do not let any one host branch silently stand in for the whole Johnson continuity.
 - Do not overpromote the Napolitano branch into a fourth canonical strand unless its continuity thickens materially.
-- Do not let the dense-core atlas or bounded month shelves replace host-local arcs; those surfaces compress mature March-May retrieval, but they do not erase host difference.
+- Do not let the dense-core thread atlas or bounded month shelves replace host-local arcs; those surfaces compress mature March-May retrieval, but they do not erase host difference.

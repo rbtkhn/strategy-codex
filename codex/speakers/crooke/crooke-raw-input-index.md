@@ -1,5 +1,9 @@
-# Compatibility Pointer
+# Crooke Raw-Input Index
 
-The canonical statecraft-relevant surface now lives at [crooke-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/crooke/crooke-raw-input-index.md).
+WORK only; not Record.
 
-This legacy `codex/speakers/` path remains only as a compatibility pointer during the speaker-state migration into repo-root `statecraft/`.
+Compatibility pointer only.
+
+The canonical compatibility copy now lives at [crooke-source-index.md](crooke-source-index.md).
+
+Use the `source-index` name going forward; this file remains only as a stable back-compat entry for older links and notes.

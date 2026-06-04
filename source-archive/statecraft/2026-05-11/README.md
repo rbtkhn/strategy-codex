@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `6`
-- Type mix: `transcript` (4), `substack` (1), `youtube` (1)
+- Body kind mix: `transcript` (3), `cleaned-transcript` (2), `substack-post` (1)
+- Source form mix: `interview` (4), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `5`
 - Distinct hosts: `5`
 - Distinct guests: `4`
@@ -21,15 +22,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Jacques Baud` (1), `Jiang Xueqin` (1), `Larry Johnson` (1)
 - Threads: `nima` (2), `baud` (1), `crooke` (1), `davis` (1), `diesen` (1), `johnson` (1), `mercouris` (1), `pape` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-pape-the-5-warning-signs-that-the-iran-war-is-escalating-2026-05-11.md`
-- `transcript-alkorshid-baud-hormuz-security-architecture-2026-05-11.md`
-- `transcript-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md`
-- `transcript-davis-crooke-diplomatic-solution-more-war-2026-05-11.md`
-- `transcript-diesen-jiang-world-war-three-empire-republic-2026-05-11.md`
-- `youtube-alex-mercouris-starmer-ukraine-donbass-russia-china-iran-2026-05-11.md`
+- `source-alex-mercouris-starmer-ukraine-donbass-russia-china-iran-2026-05-11.md`
+- `source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md`
+- `source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md`
+- `source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md`
+- `source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md`
+- `source-pape-the-5-warning-signs-that-the-iran-war-is-escalating-2026-05-11.md`

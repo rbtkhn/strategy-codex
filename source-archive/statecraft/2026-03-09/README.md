@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `7`
-- Type mix: `transcript` (4), `substack` (2), `youtube` (1)
+- Body kind mix: `transcript` (5), `substack-post` (2)
+- Source form mix: `post` (3), `newsletter` (2), `interview` (1), `solo` (1)
 - Distinct channels/shows: `4`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,16 +22,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jacques Baud` (1)
 - Threads: `davis` (3), `baud` (1), `henningsen` (1), `mercouris` (1), `nima` (1), `pape` (1), `parsi` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (3), `substack-*` (2), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-pape-answers-to-questions-our-community-2026-03-09.md`
-- `substack-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09.md`
-- `transcript-davis-henningsen-wheres-the-war-going-2026-03-09.md`
-- `transcript-davis-iran-has-a-new-leader-2026-03-09.md`
-- `transcript-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-09.md`
-- `transcript-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md`
-- `youtube-alex-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md`
+- `source-alex-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md`
+- `source-davis-henningsen-wheres-the-war-going-2026-03-09.md`
+- `source-davis-iran-has-a-new-leader-2026-03-09.md`
+- `source-davis-trump-iran-war-basically-over-and-ending-soon-generals-argue-for-ground-forces-2026-03-09.md`
+- `source-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md`
+- `source-pape-answers-to-questions-our-community-2026-03-09.md`
+- `source-parsi-can-trump-declare-unilateral-victory-and-end-the-iran-war-2026-03-09.md`

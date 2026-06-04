@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (2), `transcript` (1)
+- Body kind mix: `source` (2), `transcript` (1)
+- Source form mix: `article` (1), `interview` (1), `solo` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `3`
 - Distinct guests: `1`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2)
 - Threads: `ritter` (2), `diesen` (1), `mercouris` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-napolitano-*` (1), `youtube-alex-mercouris-*` (1), `youtube-glenn-diesen-*` (1)
-
 ## Files
 
-- `transcript-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md`
-- `youtube-alex-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md`
-- `youtube-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md`
+- `source-alex-mercouris-us-kiev-hold-tense-florida-talks-kiev-no-to-moscow-terms-witkoff-kushner-2025-12-01.md`
+- `source-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md`
+- `source-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md`

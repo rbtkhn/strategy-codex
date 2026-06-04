@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (3)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Gary Vilano` (1), `Jacques Baud` (1)
 - Threads: `daniel-davis-deep-dive` (2), `davis` (2), `alex-mercouris` (1), `baud` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-ukraines-kursk-catastrophe-kiev-troops-routed-flee-in-chaos-villages-fall-riyadh-showdown-looms-2025-03-10.md`
-- `youtube-daniel-davis-deep-dive-breaking-ukraine-army-collapsing-in-kursk-russia-surrounds-ukrainian-soldiers-2025-03-10.md`
-- `youtube-daniel-davis-deep-dive-no-common-ground-in-us-ukraine-peace-talks-col-jacques-baud-2025-03-10.md`
+- `source-alex-mercouris-ukraines-kursk-catastrophe-kiev-troops-routed-flee-in-chaos-villages-fall-riyadh-showdown-looms-2025-03-10.md`
+- `source-daniel-davis-deep-dive-breaking-ukraine-army-collapsing-in-kursk-russia-surrounds-ukrainian-soldiers-2025-03-10.md`
+- `source-daniel-davis-deep-dive-no-common-ground-in-us-ukraine-peace-talks-col-jacques-baud-2025-03-10.md`

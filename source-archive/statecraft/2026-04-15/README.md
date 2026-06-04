@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `youtube` (2), `mercouris` (1), `substack` (1)
+- Body kind mix: `transcript` (2), `operator-transcript` (1), `substack-post` (1)
+- Source form mix: `interview` (2), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Larry Johnson` (1)
 - Threads: `mercouris` (2), `diesen` (1), `johnson` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `mercouris-russia-*` (1), `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15.md`
-- `substack-simplicius-anti-blockade-blockade-comes-into-2026-04-15.md`
-- `youtube-alex-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md`
-- `youtube-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md`
+- `source-alex-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md`
+- `source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md`
+- `source-russia-intensify-china-tankers-putin-xi-2026-04-15.md`
+- `source-simplicius-anti-blockade-blockade-comes-into-2026-04-15.md`

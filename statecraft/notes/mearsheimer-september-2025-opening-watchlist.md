@@ -24,10 +24,10 @@ So September is not empty overall. It is specifically thin in Mearsheimer presen
 
 Four September 2025 Mearsheimer captures are currently on disk:
 
-- `2025-09-04` - [transcript-napolitano-mearsheimer-trump-and-the-international-order-2025-09-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-04/transcript-napolitano-mearsheimer-trump-and-the-international-order-2025-09-04.md)
-- `2025-09-07` - [youtube-glenn-diesen-john-mearsheimer-why-russia-is-winning-in-ukraine-2025-09-07.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-07/youtube-glenn-diesen-john-mearsheimer-why-russia-is-winning-in-ukraine-2025-09-07.md)
-- `2025-09-10` - [transcript-napolitano-mearsheimer-israels-true-goals-2025-09-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-10/transcript-napolitano-mearsheimer-israels-true-goals-2025-09-10.md)
-- `2025-09-18` - [transcript-napolitano-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-18/transcript-napolitano-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md)
+- `2025-09-04` - [source-napolitano-mearsheimer-trump-and-the-international-order-2025-09-04.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-04/source-napolitano-mearsheimer-trump-and-the-international-order-2025-09-04.md)
+- `2025-09-07` - [source-glenn-diesen-john-mearsheimer-why-russia-is-winning-in-ukraine-2025-09-07.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-07/source-glenn-diesen-john-mearsheimer-why-russia-is-winning-in-ukraine-2025-09-07.md)
+- `2025-09-10` - [source-napolitano-mearsheimer-israels-true-goals-2025-09-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-10/source-napolitano-mearsheimer-israels-true-goals-2025-09-10.md)
+- `2025-09-18` - [source-napolitano-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md](/C:/dev/strategy-codex/source-archive/statecraft/2025-09-18/source-napolitano-mearsheimer-is-us-democracy-in-danger-of-collapse-2025-09-18.md)
 
 ## Current September Archive Shape
 

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `7`
-- Type mix: `substack` (3), `transcript` (2), `youtube` (2)
+- Body kind mix: `transcript` (4), `substack-post` (2), `paste-bundle` (1)
+- Source form mix: `interview` (3), `newsletter` (3), `solo` (1)
 - Distinct channels/shows: `5`
 - Distinct hosts: `3`
 - Distinct guests: `3`
@@ -21,16 +22,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Jacques Baud` (1), `Ted Postol` (1)
 - Threads: `nima` (2), `baud` (1), `crooke` (1), `diesen` (1), `freeman` (1), `mercouris` (1), `pape` (1), `postol` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (3), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-crooke-irans-audacious-strategic-moves-declared-2026-03-23.md`
-- `substack-pape-the-questions-that-matter-now-2026-03-23.md`
-- `substack-simplicius-final-escalatory-act-awaits-as-iran-2026-03-23.md`
-- `transcript-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md`
-- `transcript-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md`
-- `youtube-alex-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md`
-- `youtube-glenn-diesen-chas-freeman-trump-back-down-armageddon-postponed-2026-03-23.md`
+- `source-alex-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md`
+- `source-crooke-irans-audacious-strategic-moves-declared-2026-03-23.md`
+- `source-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md`
+- `source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md`
+- `source-glenn-diesen-chas-freeman-trump-back-down-armageddon-postponed-2026-03-23.md`
+- `source-pape-the-questions-that-matter-now-2026-03-23.md`
+- `source-simplicius-final-escalatory-act-awaits-as-iran-2026-03-23.md`

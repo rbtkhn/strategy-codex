@@ -126,7 +126,7 @@ Do not treat host-led interviews as equivalent in evidentiary character to direc
 
 Examples:
 
-- `transcript-ritter.md`
+- `source-ritter-2026-04-19.md`
 - dated `2026-04-25-ritter.md` style items
 
 Use for:

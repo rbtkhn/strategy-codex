@@ -1,7 +1,7 @@
 generated_by: scripts/strategy/assemble_mearsheimer_pages_verbatim.py
 primary_capture_count: 10
 pages:
-- raw_input_relative: provenance/2026-01-07/transcript-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md
+- raw_input_relative: provenance/2026-01-07/source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md
   voice_date: '2026-01-07'
   page_filename: mearsheimer-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md
   # Legacy: mearsheimer-page-2026-01-07-venezuela-greenland-nato.md (stub; see file body)
@@ -14,8 +14,8 @@ pages:
   preamble_date: '2026-01-07'
   display_title: Venezuela, Greenland & the End of NATO
   source_url: https://www.youtube.com/watch?v=-NQ3lnuYcXs
-  href_verbatim: ../../../years/2026/provenance/2026-01-07/transcript-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md
-- raw_input_relative: provenance/2026-01-20/substack-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md
+  href_verbatim: ../../../years/2026/provenance/2026-01-07/source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md
+- raw_input_relative: provenance/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md
   voice_date: '2026-01-20'
   page_filename: mearsheimer-page-2026-01-20-the-tag-team-fails-in-iran.md
   collision: false
@@ -26,8 +26,8 @@ pages:
   preamble_date: '2026-01-20'
   display_title: The Tag Team Fails in Iran
   source_url: https://mearsheimer.substack.com/p/the-tag-team-fails-in-iran
-  href_verbatim: ../../../years/2026/provenance/2026-01-20/substack-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md
-- raw_input_relative: provenance/2026-01-31/transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md
+  href_verbatim: ../../../years/2026/provenance/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md
+- raw_input_relative: provenance/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md
   voice_date: '2026-01-31'
   page_filename: mearsheimer-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md
   # Legacy: mearsheimer-page-2026-01-31-cold-war-nato-ukraine.md (stub; see file body)
@@ -40,8 +40,8 @@ pages:
   preamble_date: '2026-01-31'
   display_title: Cold War 2.0 & NATO's Defeat in Ukraine
   source_url: https://www.youtube.com/watch?v=OV75YsYnE8U
-  href_verbatim: ../../../years/2026/provenance/2026-01-31/transcript-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md
-- raw_input_relative: provenance/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md
+  href_verbatim: ../../../years/2026/provenance/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md
+- raw_input_relative: provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md
   voice_date: '2026-02-25'
   page_filename: mearsheimer-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md
   # Legacy: mearsheimer-page-2026-02-25-case-for-nuclear-iran.md (stub; see file body)
@@ -54,8 +54,8 @@ pages:
   preamble_date: '2026-02-25'
   display_title: The Case for a Nuclear Iran
   source_url: https://www.youtube.com/watch?v=vx1KnspP1gM
-  href_verbatim: ../../../years/2026/provenance/2026-02-25/transcript-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md
-- raw_input_relative: provenance/2026-03-10/transcript-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md
+  href_verbatim: ../../../years/2026/provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md
+- raw_input_relative: provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md
   voice_date: '2026-03-10'
   page_filename: mearsheimer-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md
   # Legacy: mearsheimer-page-2026-03-10-us-already-lost-no-offramp.md (stub; see file body)
@@ -68,8 +68,8 @@ pages:
   preamble_date: '2026-03-10'
   display_title: U.S. Already Lost Iran War — No Off-Ramp in Sight
   source_url: https://www.youtube.com/watch?v=1e9NhLfPNKU
-  href_verbatim: ../../../years/2026/provenance/2026-03-10/transcript-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md
-- raw_input_relative: provenance/2026-03-27/transcript-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md
+  href_verbatim: ../../../years/2026/provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md
+- raw_input_relative: provenance/2026-03-27/source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md
   voice_date: '2026-03-27'
   page_filename: mearsheimer-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md
   # Legacy: mearsheimer-page-2026-03-27-iran-holds-all-the-cards.md (stub; see file body)
@@ -82,8 +82,8 @@ pages:
   preamble_date: '2026-03-27'
   display_title: Iran Holds All the Cards — The Strategic Defeat of the U.S.
   source_url: https://www.youtube.com/watch?v=DBOVT0UdHXg
-  href_verbatim: ../../../years/2026/provenance/2026-03-27/transcript-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md
-- raw_input_relative: provenance/2026-03-29/substack-mearsheimer-will-trump-go-kamikaze-2026-03-29.md
+  href_verbatim: ../../../years/2026/provenance/2026-03-27/source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md
+- raw_input_relative: provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md
   voice_date: '2026-03-29'
   page_filename: mearsheimer-page-2026-03-29-will-trump-go-kamikaze.md
   collision: false
@@ -94,8 +94,8 @@ pages:
   preamble_date: '2026-03-29'
   display_title: Will Trump Go Kamikaze?
   source_url: https://mearsheimer.substack.com/p/will-trump-go-kamikaze
-  href_verbatim: ../../../years/2026/provenance/2026-03-29/substack-mearsheimer-will-trump-go-kamikaze-2026-03-29.md
-- raw_input_relative: provenance/2026-04-10/transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md
+  href_verbatim: ../../../years/2026/provenance/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md
+- raw_input_relative: provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md
   voice_date: '2026-04-10'
   page_filename: mearsheimer-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md
   # Legacy: mearsheimer-page-2026-04-10-world-changed-forever.md (stub; see file body)
@@ -108,8 +108,8 @@ pages:
   preamble_date: '2026-04-10'
   display_title: World Changed Forever as Iran Defeated the U.S.
   source_url: https://www.youtube.com/watch?v=H2K3qDshr70
-  href_verbatim: ../../../years/2026/provenance/2026-04-10/transcript-diesen-mearsheimer-world-changed-forever-2026-04-10.md
-- raw_input_relative: provenance/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md
+  href_verbatim: ../../../years/2026/provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md
+- raw_input_relative: provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md
   voice_date: '2026-04-20'
   page_filename: mearsheimer-page-2026-04-20-hedges-mearsheimer-iran.md
   collision: false
@@ -120,8 +120,8 @@ pages:
   preamble_date: '2026-04-20'
   display_title: Iran, Islamabad & Hormuz
   source_url: Not yet pinned — see raw-input source_note
-  href_verbatim: ../../../years/2026/provenance/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md
-- raw_input_relative: provenance/2026-04-21/transcript-mearsheimer-redacted-trump-iran-2026-04-21.md
+  href_verbatim: ../../../years/2026/provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md
+- raw_input_relative: provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md
   voice_date: '2026-04-21'
   page_filename: mearsheimer-page-2026-04-21-redacted-trump-iran.md
   collision: false
@@ -132,4 +132,4 @@ pages:
   preamble_date: '2026-04-21'
   display_title: Trump's ONLY option is surrender
   source_url: Not yet pinned — see raw-input source_note
-  href_verbatim: ../../../years/2026/provenance/2026-04-21/transcript-mearsheimer-redacted-trump-iran-2026-04-21.md
+  href_verbatim: ../../../years/2026/provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md

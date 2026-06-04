@@ -9,7 +9,7 @@ Purpose: front door for the canonical Wilkerson statecraft shelf, surfacing the 
 - [Speaker arc](wilkerson-arc.md)
 - [Speaker routing note](wilkerson-routing.md)
 - [Wilkerson helix](wilkerson-helix.md)
-- [Wilkerson raw-input index](wilkerson-raw-input-index.md)
+- [Wilkerson source index](wilkerson-source-index.md)
 - [Lane README](README.md)
 
 ## Canonical Structure

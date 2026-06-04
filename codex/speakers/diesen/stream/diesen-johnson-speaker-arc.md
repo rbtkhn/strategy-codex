@@ -45,12 +45,12 @@ This lane is now materially present on disk as a 2026 Iran-war and Gulf-pressure
 
 If the operator needs only one file:
 
-- open [transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
+- open [source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
 
 If the operator needs the best paired read:
 
-- open [transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/transcript-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
-- then [youtube-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-15/youtube-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md)
+- open [source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
+- then [source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-15/source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md)
 
 That pair gives the clearest lane shape:
 

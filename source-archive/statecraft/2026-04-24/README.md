@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `9`
-- Type mix: `transcript` (6), `substack` (1), `verify` (1), `youtube` (1)
+- Body kind mix: `transcript` (4), `operator-transcript` (3), `substack-post` (1), `verify` (1)
+- Source form mix: `interview` (5), `solo` (2), `newsletter` (1), `post` (1)
 - Distinct channels/shows: `6`
 - Distinct hosts: `6`
 - Distinct guests: `5`
@@ -21,18 +22,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas W. Freeman` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Robert Barnes` (1), `Victor Gao` (1)
 - Threads: `mercouris` (2), `nima` (2), `barnes` (1), `carlson` (1), `davis` (1), `freeman` (1), `gao` (1), `johnson` (1), `pape` (1), `sachs` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `transcript-*` (1), `verify-pape-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-pape-2-blockades-2-clocks-2026-04-24.md`
-- `transcript-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md`
-- `transcript-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md`
-- `transcript-haiphong-gao-brutal-warning-trump-iran-china-2026-04-24.md`
-- `transcript-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md`
-- `transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md`
-- `transcript-sachs-carlson-iran-war-origins-2026-04-24.md`
+- `source-alex-mercouris-russian-mod-iran-hail-joint-alliance-iran-denies-leadership-split-zelens-2026-04-24.md`
+- `source-davis-deep-dive-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md`
+- `source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md`
+- `source-haiphong-gao-brutal-warning-trump-iran-china-2026-04-24.md`
+- `source-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md`
+- `source-nima-freeman-israel-agenda-collapsing-2026-04-24.md`
+- `source-pape-2-blockades-2-clocks-2026-04-24.md`
+- `source-sachs-carlson-iran-war-origins-2026-04-24.md`
 - `verify-pape-2-blockades-2-clocks-2026-04-24.md`
-- `youtube-alex-mercouris-russian-mod-iran-hail-joint-alliance-iran-denies-leadership-split-zelens-2026-04-24.md`

@@ -17,7 +17,7 @@ Quick separation rule:
 
 - [macgregor-arc.md](macgregor-arc.md) = whole-speaker continuity
 - [macgregor-routing.md](macgregor-routing.md) = fastest lane or month selection
-- [macgregor-raw-input-index.md](macgregor-raw-input-index.md) = provenance bench
+- [macgregor-source-index.md](macgregor-source-index.md) = source bench
 - [macgregor-helix.md](macgregor-helix.md) = cross-host comparison
 - [stream/README.md](stream/README.md) = bounded monthly synthesis shelves
 - this file = maturity and month-support law
@@ -61,7 +61,7 @@ Status: real opening run, not prehistory
 
 Open:
 
-- [macgregor-raw-input-index.md](macgregor-raw-input-index.md)
+- [macgregor-source-index.md](macgregor-source-index.md)
 - [Davis x Macgregor](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
 - [Judging Freedom x Macgregor](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md)
 - [Diesen x Macgregor](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md)
@@ -96,8 +96,8 @@ Status: continuity carryover
 Open:
 
 - [stream/macgregor-shelf-2026-01.md](stream/macgregor-shelf-2026-01.md)
-- [transcript-macgregor-diesen-nato-ukraine-lost-2026-01-22.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-22/transcript-macgregor-diesen-nato-ukraine-lost-2026-01-22.md)
-- [transcript-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-07/transcript-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
+- [source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-22/source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md)
+- [source-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-07/source-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
 
 Monthly shelf rule:
 
@@ -111,8 +111,8 @@ Status: continuity carryover
 Open:
 
 - [stream/macgregor-shelf-2026-02.md](stream/macgregor-shelf-2026-02.md)
-- [transcript-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-10/transcript-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
-- [youtube-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-26/youtube-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md)
+- [source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-10/source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
+- [source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-26/source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md)
 
 Monthly shelf rule:
 
@@ -132,10 +132,10 @@ Open:
 
 Best raw-input cluster:
 
-- [2026-03-02 Diesen x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-02/youtube-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md)
-- [2026-03-03 Davis x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-03/transcript-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md)
-- [2026-03-10 Davis x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/transcript-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
-- [2026-03-26 Napolitano x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/transcript-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
+- [2026-03-02 Diesen x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-02/source-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md)
+- [2026-03-03 Davis x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-03/source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md)
+- [2026-03-10 Davis x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/source-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
+- [2026-03-26 Napolitano x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
 
 Why the monthly shelf is bounded:
 
@@ -149,9 +149,9 @@ Status: mature retrieval month
 Open:
 
 - [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)
-- [transcript-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/transcript-macgregor-diesen-total-war-iran-2026-04-21.md)
-- [transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
-- [youtube-davis-macgregor-trump-dangerous-2026-04-29.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/youtube-davis-macgregor-trump-dangerous-2026-04-29.md)
+- [source-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
+- [source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
+- [source-davis-macgregor-trump-dangerous-2026-04-29.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/source-davis-macgregor-trump-dangerous-2026-04-29.md)
 
 Why April matters:
 
@@ -170,12 +170,12 @@ Status: support-only month
 Open:
 
 - [stream/macgregor-shelf-2026-05.md](stream/macgregor-shelf-2026-05.md)
-- [transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
-- [youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/youtube-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md)
-- [transcript-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md)
-- [transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md)
-- [youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md)
-- [youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
+- [source-davis-macgregor-project-freedom-hormuz-2026-05-05.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
+- [source-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/source-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md)
+- [source-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/source-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md)
+- [source-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/source-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md)
+- [source-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-daniel-davis-deep-dive-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md)
+- [source-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
 
 Why:
 

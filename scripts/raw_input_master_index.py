@@ -80,6 +80,7 @@ class RawInputRecord:
     show: str
     source_url: str
     source_type: str
+    source_form: str
     transcript_type: str
     evidence_grade: str
     body_words: int
@@ -240,6 +241,7 @@ def _record_from_path(path: Path, *, scope: str, raw_root: Path) -> RawInputReco
         show=str(meta.get("show") or "").strip(),
         source_url=str(meta.get("source_url") or "").strip(),
         source_type=str(meta.get("source_type") or "").strip(),
+        source_form=str(meta.get("source_form") or "").strip(),
         transcript_type=str(meta.get("transcript_type") or "").strip(),
         evidence_grade=evidence_grade,
         body_words=body_words,
@@ -572,6 +574,7 @@ def render_markdown(
             title = record.title.replace("|", "\\|")
             details = [
                 f"`kind:{record.kind}`",
+                f"`form:{record.source_form or '(none)'}`",
                 f"`body:{record.body_profile}`",
             ]
             if record.thread:
@@ -588,7 +591,7 @@ def render_markdown(
         lines.extend(["", "## _aired-pending", ""])
         for record in pending:
             title = record.title.replace("|", "\\|")
-            details = [f"`kind:{record.kind}`", f"`body:{record.body_profile}`"]
+            details = [f"`kind:{record.kind}`", f"`form:{record.source_form or '(none)'}`", f"`body:{record.body_profile}`"]
             if record.thread:
                 details.append(f"`thread:{record.thread}`")
             lines.append(f"- [{record.file_name}]({record.rel_path}) — {title} | " + " | ".join(details))

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `7`
-- Type mix: `substack` (3), `transcript` (2), `youtube` (2)
+- Body kind mix: `operator-transcript` (2), `substack-post` (2), `transcript` (2), `paste-bundle` (1)
+- Source form mix: `interview` (3), `newsletter` (3), `solo` (1)
 - Distinct channels/shows: `5`
 - Distinct hosts: `4`
 - Distinct guests: `3`
@@ -21,16 +22,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1), `Larry Johnson` (1), `Scott Ritter` (1)
 - Threads: `diesen` (2), `pape` (2), `crooke` (1), `davis` (1), `johnson` (1), `mercouris` (1), `ritter` (1), `sachs` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (3), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-crooke-the-end-to-deceptive-trumpian-diplomacy-2026-02-28.md`
-- `substack-pape-the-day-1-mirage-2026-02-28.md`
-- `substack-pape-the-illusion-of-control-2026-02-28.md`
-- `transcript-davis-us-at-war-w-iran-iranian-leader-dead-2026-02-28.md`
-- `transcript-diesen-sachs-us-israel-attack-iran-war-is-spreading-across-the-region-2026-02-28.md`
-- `youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md`
-- `youtube-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md`
+- `source-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md`
+- `source-crooke-the-end-to-deceptive-trumpian-diplomacy-2026-02-28.md`
+- `source-davis-us-at-war-w-iran-iranian-leader-dead-2026-02-28.md`
+- `source-diesen-sachs-us-israel-attack-iran-war-is-spreading-across-the-region-2026-02-28.md`
+- `source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md`
+- `source-pape-the-day-1-mirage-2026-02-28.md`
+- `source-pape-the-illusion-of-control-2026-02-28.md`

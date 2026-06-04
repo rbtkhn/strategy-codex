@@ -21,25 +21,25 @@ It is better read as:
 
 ## Materialized on disk
 
-1. [2026-03-03 - *U.S. Warplanes Downed? Tel Aviv & U.S. Bases Rocked by Missiles*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-03/youtube-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md)
+1. [2026-03-03 - *U.S. Warplanes Downed? Tel Aviv & U.S. Bases Rocked by Missiles*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-03/source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md)
    Status: `Dialogue Works` YouTube-primary opener already materialized.
 
-2. [2026-03-06 - *Iran Wipes Out Huge Targets*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-06/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-iran-wipes-out-huge-targets-explosio-2026-03-06.md)
+2. [2026-03-06 - *Iran Wipes Out Huge Targets*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-06/source-dialogue-works-larry-c-johnson-col-larry-wilkerson-iran-wipes-out-huge-targets-explosio-2026-03-06.md)
    Status: transcript-grade `Dialogue Works` continuation already materialized.
 
-3. [2026-03-20 - *Second F-35 Down? Iran War Spirals*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-20/transcript-dialogue-works-larry-johnson-col-wilkerson-second-f-35-down-iran-war-spirals-int-2026-03-20.md)
+3. [2026-03-20 - *Second F-35 Down? Iran War Spirals*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-20/source-dialogue-works-larry-johnson-col-wilkerson-second-f-35-down-iran-war-spirals-int-2026-03-20.md)
    Status: transcript-grade `Dialogue Works` crossover already materialized.
 
-4. [2026-03-26 - *Why Trump Is Wedded to Israel*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/transcript-napolitano-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md)
+4. [2026-03-26 - *Why Trump Is Wedded to Israel*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-napolitano-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md)
    Status: `Judging Freedom` reinforcement already materialized.
 
-5. [2026-03-27 - *U.S.-Iran Ground Conflict Could Devastate Israel*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-27/transcript-dialogue-works-larry-johnson-col-wilkerson-us-iran-ground-conflict-could-devastate-is-2026-03-27.md)
+5. [2026-03-27 - *U.S.-Iran Ground Conflict Could Devastate Israel*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-27/source-dialogue-works-larry-johnson-col-wilkerson-us-iran-ground-conflict-could-devastate-is-2026-03-27.md)
    Status: transcript-grade `Dialogue Works` continuation already materialized.
 
-6. [2026-03-28 - *Israel May Cease to Exist / Launch Nuclear Strike*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-28/transcript-diesen-wilkerson-israel-may-cease-to-exist-launch-nuclear-strike-2026-03-28.md)
+6. [2026-03-28 - *Israel May Cease to Exist / Launch Nuclear Strike*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-28/source-diesen-wilkerson-israel-may-cease-to-exist-launch-nuclear-strike-2026-03-28.md)
    Status: `Diesen` reinforcement already materialized.
 
-7. [2026-03-31 - *Israel Might Not Survive This Endgame*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/transcript-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md)
+7. [2026-03-31 - *Israel Might Not Survive This Endgame*](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/source-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md)
    Status: transcript-grade `Dialogue Works` month closer already materialized.
 
 ## What March now proves

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
-- Type mix: `transcript` (3), `youtube` (2)
+- Body kind mix: `transcript` (5)
+- Source form mix: `interview` (2), `post` (2), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `1`
@@ -21,14 +22,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2)
 - Threads: `davis` (2), `diesen` (2), `ritter` (2), `johnson` (1), `mercouris` (1), `nima` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (2), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md`
-- `transcript-davis-johnson-trumps-lost-control-2026-03-11.md`
-- `transcript-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md`
-- `youtube-alex-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md`
-- `youtube-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md`
+- `source-alex-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md`
+- `source-davis-diesen-iranian-hatred-for-their-gov-overblown-2026-03-11.md`
+- `source-davis-johnson-trumps-lost-control-2026-03-11.md`
+- `source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md`
+- `source-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md`

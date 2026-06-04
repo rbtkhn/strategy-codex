@@ -234,12 +234,12 @@ def write_json_payload(path: Path, payload: dict[str, object], *, check: bool = 
 def build_month_readme(root: Path, month: str, day_dirs: list[Path]) -> str:
     day_summaries = [summarize_day_dir(day_dir) for day_dir in day_dirs]
     source_total = sum(day.source_count for day in day_summaries)
-    type_counter = merge_counter(day_summaries, "type_counter")
+    kind_counter = merge_counter(day_summaries, "kind_counter")
+    source_form_counter = merge_counter(day_summaries, "source_form_counter")
     channel_counter = merge_counter(day_summaries, "channel_counter")
     host_counter = merge_counter(day_summaries, "host_counter")
     guest_counter = merge_counter(day_summaries, "guest_counter")
     thread_counter = merge_counter(day_summaries, "thread_counter")
-    fallback_counter = merge_counter(day_summaries, "fallback_counter")
 
     lines = [
         f"# Statecraft Archive - {month}",
@@ -250,7 +250,8 @@ def build_month_readme(root: Path, month: str, day_dirs: list[Path]) -> str:
         "",
         f"- Captured days: `{len(day_summaries)}`",
         f"- Source files: `{source_total}`",
-        f"- Type mix: {fmt_counter(type_counter)}",
+        f"- Body kind mix: {fmt_counter(kind_counter)}",
+        f"- Source form mix: {fmt_counter(source_form_counter)}",
         f"- Distinct channels/shows: `{len(channel_counter)}`",
         f"- Distinct hosts: `{len(host_counter)}`",
         f"- Distinct guests: `{len(guest_counter)}`",
@@ -262,7 +263,6 @@ def build_month_readme(root: Path, month: str, day_dirs: list[Path]) -> str:
         f"- Hosts: {fmt_counter(host_counter)}",
         f"- Guests: {fmt_counter(guest_counter)}",
         f"- Threads: {fmt_counter(thread_counter)}",
-        f"- Filename-family fallbacks: {fmt_counter(fallback_counter)}",
         "",
         "## Days",
         "",

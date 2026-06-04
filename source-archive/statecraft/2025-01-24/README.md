@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `youtube` (3), `transcript` (1)
+- Body kind mix: `transcript` (4)
+- Source form mix: `interview` (3), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Jacques Baud` (1), `Trump Sanctions Won't Cow Putin` (1)
 - Threads: `davis` (2), `baud` (1), `freeman` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md`
-- `youtube-alex-mercouris-trump-threats-backfire-moscow-trump-bluffing-hardens-stance-china-saudi-2025-01-24.md`
-- `youtube-daniel-davis-deep-dive-col-jacques-baud-western-leaders-weak-negotiating-hand-v-putin-2025-01-24.md`
-- `youtube-daniel-davis-deep-dive-trump-sanctions-won-t-cow-putin-2025-01-24.md`
+- `source-alex-mercouris-trump-threats-backfire-moscow-trump-bluffing-hardens-stance-china-saudi-2025-01-24.md`
+- `source-daniel-davis-deep-dive-col-jacques-baud-western-leaders-weak-negotiating-hand-v-putin-2025-01-24.md`
+- `source-daniel-davis-deep-dive-trump-sanctions-won-t-cow-putin-2025-01-24.md`
+- `source-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md`

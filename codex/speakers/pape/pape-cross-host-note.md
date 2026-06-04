@@ -10,10 +10,10 @@ Pape is not only a native cognition stream. There are real cross-host appearance
 
 The clearest current examples on disk are:
 
-- [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
-- [2026-04-20 Redacted x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/redacted-pape-collapse-ahead-of-schedule-2026-04-20.md)
-- [2026-04-29 Breaking Points x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
-- [2026-05-12 Mario Nawfal x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
+- [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md)
+- [2026-04-20 Redacted x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md)
+- [2026-04-29 Breaking Points x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
+- [2026-05-12 Mario Nawfal x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-12/source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
 
 That matters because it shows the Pape voice remains intact outside the native stream: escalation traps, widening-war mechanisms, shortage clocks, fourth-center claims, and strategic sequence all survive translation into host environments.
 

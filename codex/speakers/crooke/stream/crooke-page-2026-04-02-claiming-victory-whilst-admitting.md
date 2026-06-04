@@ -24,7 +24,7 @@ WORK only; not Record.
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-04-02/substack-crooke-claiming-victory-whilst-admitting-2026-04-02.md](../../../../years/2026/provenance/2026-04-02/substack-crooke-claiming-victory-whilst-admitting-2026-04-02.md)
+- **Full verbatim (capture):** [provenance/2026-04-02/source-crooke-claiming-victory-whilst-admitting-2026-04-02.md](../../../../years/2026/provenance/2026-04-02/source-crooke-claiming-victory-whilst-admitting-2026-04-02.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:crooke`, 2026-04-02)
 - **`thread:crooke`** · **verify:** primary capture on disk + `pub_date` + inbox row; Conflicts Forum tier as analyst commentary unless wire-backed.
 - **Canonical primary:** https://conflictsforum.substack.com/p/claiming-victory-whilst-admitting

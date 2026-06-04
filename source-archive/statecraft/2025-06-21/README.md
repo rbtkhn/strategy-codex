@@ -5,11 +5,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `transcript` (1)
+- Body kind mix: `cleaned-transcript` (1)
+- Source form mix: `interview` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
-- Distinct threads: `1`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
@@ -19,12 +20,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alex Christoforou` (1)
 - Guests: `Alexander Mercouris` (1)
-- Threads: `mercouris` (1)
-
-## Filename Family Fallbacks
-
-- (none)
+- Threads: `christoforou` (1), `mercouris` (1)
 
 ## Files
 
-- `transcript-duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2025-06-21.md`
+- `source-duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2025-06-21.md`

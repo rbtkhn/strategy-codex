@@ -20,6 +20,15 @@ Each volume now also carries a `shelf-reader` layer between the volume front doo
 
 Each volume now also carries era-matched `secondary-sources` files beneath the bibliography layer. Their job is to clarify chronology, attribution, transmission, institutional context, and counterweight trouble after the primary shelf has already been opened.
 
+Together, the `shelf-reader`, `primary-sources`, and `secondary-sources` layers
+form the CIV-STATE **source-lattice**.
+
+**Source-lattice** means the layered retrieval structure through which a
+civilizational object is opened, stabilized, and only then widened into
+synthesis. Its governing law is: open the primary shelf first, use secondary
+support only when interpretive or chronological difficulty appears, and do not
+let support displace source primacy.
+
 ## Constitutional Order
 
 Read CIV-STATE in this order:

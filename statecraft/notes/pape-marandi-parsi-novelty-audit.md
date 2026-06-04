@@ -33,16 +33,16 @@ Core proving band:
 
 Primary source anchors used in this audit:
 
-- [Pape - Mar 01](../../source-archive/statecraft/2026-03-01/substack-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md)
-- [Pape - Mar 16](../../source-archive/statecraft/2026-03-16/substack-pape-irans-new-battlefield-the-global-2026-03-16.md)
-- [Parsi - Mar 16](../../source-archive/statecraft/2026-03-16/transcript-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
-- [Marandi - Mar 24](../../source-archive/statecraft/2026-03-24/transcript-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md)
-- [Parsi - Apr 14](../../source-archive/statecraft/2026-04-14/substack-parsi-why-the-iran-ceasefire-may-have-shifted-the-dynamics-back-in-trumps-favor-2026-04-14.md)
-- [Marandi - Apr 28](../../source-archive/statecraft/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)
-- [Parsi - May 03](../../source-archive/statecraft/2026-05-03/substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md)
-- [Parsi - May 28](../../source-archive/statecraft/2026-05-28/transcript-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
-- [Pape - May 29](../../source-archive/statecraft/2026-05-29/transcript-nawfal-pape-breaking-trump-teases-lifting-iran-blockade-2026-05-29.md)
-- [Marandi - May 29](../../source-archive/statecraft/2026-05-29/transcript-india-and-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md)
+- [Pape - Mar 01](../../source-archive/statecraft/2026-03-01/source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md)
+- [Pape - Mar 16](../../source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md)
+- [Parsi - Mar 16](../../source-archive/statecraft/2026-03-16/source-napolitano-parsi-how-washington-underestimated-iran-2026-03-16.md)
+- [Marandi - Mar 24](../../source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md)
+- [Parsi - Apr 14](../../source-archive/statecraft/2026-04-14/source-parsi-why-the-iran-ceasefire-may-have-shifted-the-dynamics-back-in-trumps-favor-2026-04-14.md)
+- [Marandi - Apr 28](../../source-archive/statecraft/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)
+- [Parsi - May 03](../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md)
+- [Parsi - May 28](../../source-archive/statecraft/2026-05-28/source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md)
+- [Pape - May 29](../../source-archive/statecraft/2026-05-29/source-nawfal-pape-breaking-trump-teases-lifting-iran-blockade-2026-05-29.md)
+- [Marandi - May 29](../../source-archive/statecraft/2026-05-29/source-india-and-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md)
 
 ## What The Archive Does Not Quite Say On Its Own
 

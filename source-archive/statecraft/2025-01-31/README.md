@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (3)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `2025 Ukraine Russia War Foreign Policy` (1), `DC Plane Crash Disaster` (1)
 - Threads: `davis` (2), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-rubio-unipolar-era-over-us-lied-to-kiev-eu-debates-russian-gas-return-uk-2025-01-31.md`
-- `youtube-daniel-davis-deep-dive-2025-ukraine-russia-war-foreign-policy-lt-col-daniel-davis-2025-01-31.md`
-- `youtube-daniel-davis-deep-dive-dc-plane-crash-disaster-2025-01-31.md`
+- `source-alex-mercouris-rubio-unipolar-era-over-us-lied-to-kiev-eu-debates-russian-gas-return-uk-2025-01-31.md`
+- `source-daniel-davis-deep-dive-2025-ukraine-russia-war-foreign-policy-lt-col-daniel-davis-2025-01-31.md`
+- `source-daniel-davis-deep-dive-dc-plane-crash-disaster-2025-01-31.md`

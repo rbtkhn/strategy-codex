@@ -327,7 +327,7 @@ Oreshnik / long-range fires: keep launch geography, basing, and escalation reads
 
 ### Appendix
 
-- **Full verbatim (capture):** [provenance/2026-01-10/substack-ritter-the-end-of-a-dream-2026-01-10.md](../../../../years/2026/provenance/2026-01-10/substack-ritter-the-end-of-a-dream-2026-01-10.md)
+- **Full verbatim (capture):** [provenance/2026-01-10/source-ritter-the-end-of-a-dream-2026-01-10.md](../../../../years/2026/provenance/2026-01-10/source-ritter-the-end-of-a-dream-2026-01-10.md)
 - **Inbox / triage:** [daily-strategy-inbox.md](../../daily-strategy-inbox.md) (search `thread:ritter`, 2026-01-10)
 - **`thread:ritter`** · **verify:** primary capture on disk + voice date + inbox row (SS | / JF | / YT | as applicable)
 - **Canonical primary:** https://scottritter.substack.com/p/the-end-of-a-dream

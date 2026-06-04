@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `transcript` (1)
+- Body kind mix: `transcript` (1)
+- Source form mix: `interview` (1)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Martin A. Armstrong` (1)
 - Threads: `armstrong` (1), `nima` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-dialogue-works-martin-armstrong-nato-plans-massive-troop-surge-into-ukraine-2025-07-24.md`
+- `source-dialogue-works-martin-armstrong-nato-plans-massive-troop-surge-into-ukraine-2025-07-24.md`

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (2), `transcript` (1)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (1), `panel` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (2), `Larry Wilkerson` (1), `Mohammad Marandi` (1)
 - Threads: `freeman` (2), `diesen` (1), `marandi` (1), `mercouris` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md`
-- `youtube-alex-mercouris-kievs-toretsk-disaster-russias-advances-all-fronts-eu-panic-to-speak-to-putin-china-hits-back-2025-04-04.md`
-- `youtube-glenn-diesen-chas-freeman-diplomacy-at-an-impasse-trump-escalates-actions-against-russia-and-iran-2025-04-04.md`
+- `source-alex-mercouris-kievs-toretsk-disaster-russias-advances-all-fronts-eu-panic-to-speak-to-putin-china-hits-back-2025-04-04.md`
+- `source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md`
+- `source-glenn-diesen-chas-freeman-diplomacy-at-an-impasse-trump-escalates-actions-against-russia-and-iran-2025-04-04.md`

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `transcript` (2), `youtube` (1)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `1`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (2)
 - Threads: `macgregor` (2), `davis` (1), `mercouris` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-davis-macgregor-trump-and-zelensky-at-odds-what-this-means-for-peace-talks-2025-04-15.md`
-- `transcript-napolitano-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15.md`
-- `youtube-alex-mercouris-zelensky-defies-us-refuses-talks-hates-putin-us-arms-supplies-about-to-end-eu-makes-more-threats-2025-04-15.md`
+- `source-alex-mercouris-zelensky-defies-us-refuses-talks-hates-putin-us-arms-supplies-about-to-end-eu-makes-more-threats-2025-04-15.md`
+- `source-davis-macgregor-trump-and-zelensky-at-odds-what-this-means-for-peace-talks-2025-04-15.md`
+- `source-napolitano-macgregor-will-zelenskyy-and-neocons-reject-peace-2025-04-15.md`

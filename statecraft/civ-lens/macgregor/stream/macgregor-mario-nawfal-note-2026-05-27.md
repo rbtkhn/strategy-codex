@@ -6,7 +6,7 @@ Purpose: extract the most reusable claims from the May 27 2026 Mario Nawfal appe
 
 Primary source:
 
-- [2026-05-27 Macgregor x Mario Nawfal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
+- [2026-05-27 Macgregor x Mario Nawfal](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-macgregor-mario-nawfal-trump-walks-back-on-deal-idf-to-flatten-beirut-2026-05-27.md)
 
 ## Why this appearance matters
 

@@ -67,7 +67,7 @@ Authored mechanism:
 Supporting surfaces:
 
 - [crooke-routing.md](crooke-routing.md)
-- [crooke-raw-input-index.md](crooke-raw-input-index.md)
+- [crooke-source-index.md](crooke-source-index.md)
 - [crooke-helix.md](crooke-helix.md)
 - [crooke-cross-year-note.md](crooke-cross-year-note.md)
 - [stream/crooke-forecast-ledger-2026.md](stream/crooke-forecast-ledger-2026.md)
@@ -87,7 +87,7 @@ If the operator needs the strongest whole-speaker comparative entry:
 
 If the operator needs source truth before interpretation:
 
-- open [crooke-raw-input-index.md](crooke-raw-input-index.md)
+- open [crooke-source-index.md](crooke-source-index.md)
 
 If the operator needs the mechanism first:
 

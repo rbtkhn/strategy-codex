@@ -147,10 +147,14 @@ In batch-throughput mode, rebuild when one of these becomes true:
    - If the source is partial, say so clearly and avoid pretending the capture is complete.
    - In batch mode, keep the current day folder and already-landed sibling captures in mind before naming the new object.
 
-2. **Resolve the archive family before writing**
+2. **Resolve the archive route truth before writing**
    - Identify the host / show / guest / recurring thread ownership.
-   - Reuse the existing family pattern rather than inventing a fresh one.
+   - Reuse the existing slug shape after the canonical `source-` prefix rather than inventing a fresh one.
    - Distinguish **full interview / parent episode** from **highlight clip / companion clip** before naming anything.
+   - Keep **body kind** separate from **canonical filename prefix**:
+     - `kind: transcript` describes what the body actually is
+     - canonical source-bearing archive files now begin with `source-`
+     - distinctions like solo, interview, panel, newsletter, or article belong in frontmatter, not in the filename prefix
    - Typical family questions:
      - Is this `Dialogue Works / Nima`?
      - Is this `Judging Freedom / Napolitano`?
@@ -170,6 +174,24 @@ In batch-throughput mode, rebuild when one of these becomes true:
    - Keep **front-door completeness** separate from **transcript reality**:
      - a real full transcript may still have an unresolved direct watch surface
      - if so, preserve that seam explicitly in `source_note` rather than flattening it away
+
+### Family reconciliation law
+
+Use these distinctions consistently:
+
+- **`kind`** = what the body is in source reality, usually `transcript`
+- **`source_form`** = what sort of source object this is in archive reality (`solo`, `interview`, `panel`, `newsletter`, `article`, `post`, `clip`, `roundup`)
+- **`source-*` filename** = canonical statecraft source-object prefix only
+
+Examples:
+
+- a Napolitano interview can still point to a YouTube watch URL, but the file name stays `source-*`
+- a solo Mercouris channel capture can still contain a full transcript body, and `source_form: solo` carries the distinction inside the file
+- a Substack capture still uses `source-*`, with `kind: substack-post` and `source_form: newsletter` inside the file
+
+Short rule:
+
+`kind describes the body; source_form describes the source shape; the canonical filename prefix is always source-`
 
 4. **Place it in the canonical archive**
    - Use the published date as the archive date unless the operator explicitly gives a different authoritative date.
@@ -430,15 +452,15 @@ The source ends as a **real full-source archive object** in the canonical statec
 **Current live examples**
 
 - Nima / Dialogue Works:
-  - [source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 - Napolitano / Judging Freedom:
-  - [source-archive/statecraft/2026-05-26/transcript-napolitano-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-freeman-israel-humiliates-itself-2026-05-26.md)
-  - [source-archive/statecraft/2026-05-26/transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
-  - [source-archive/statecraft/2026-05-26/transcript-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-mearsheimer-neocons-want-more-war-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md)
 - Glenn Diesen:
-  - [source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/youtube-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
 - The Duran / Mercouris:
-  - [source-archive/statecraft/2026-05-26/transcript-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md)
+  - [source-archive/statecraft/2026-05-26/source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md)
 
 **Repo notes**
 

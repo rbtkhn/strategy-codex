@@ -16,7 +16,7 @@ That matters because it shows the Barnes voice remains intact outside the Davis 
 
 There is also real work-politics reinforcement:
 
-- [2026-04-17 Barnes x Johnson verbatim](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-17/barnes-countercurrent-2026-04-17-verbatim.md)
+- [2026-04-17 Barnes x Johnson verbatim](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md)
 
 That lane is especially useful for White House room dynamics, Vance-versus-Trump process collapse, and political liability framing, but it is not yet formalized on disk as a stable host-local speaker arc.
 

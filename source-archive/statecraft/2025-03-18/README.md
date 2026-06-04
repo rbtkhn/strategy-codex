@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (2)
+- Body kind mix: `transcript` (2)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Charles Freeman` (1), `Douglas Macgregor` (1)
 - Threads: `davis` (1), `freeman` (1), `macgregor` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18.md`
-- `transcript-napolitano-amb-charles-freeman-what-putin-will-tell-trump-2025-03-18.md`
+- `source-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18.md`
+- `source-napolitano-amb-charles-freeman-what-putin-will-tell-trump-2025-03-18.md`

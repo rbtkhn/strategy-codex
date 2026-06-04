@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (2), `substack` (1)
+- Body kind mix: `substack-post` (1), `transcript` (1), `youtube` (1)
+- Source form mix: `interview` (1), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `George Beebe` (1)
 - Threads: `beebe` (1), `diesen` (1), `mercouris` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-simplicius-hoodwinks-and-hijinks-trump-nabs-2026-01-23.md`
-- `youtube-alex-mercouris-zelensky-fails-in-davos-turns-on-eu-says-cannot-resist-putin-trump-putin-2026-01-23.md`
-- `youtube-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md`
+- `source-alex-mercouris-zelensky-fails-in-davos-turns-on-eu-says-cannot-resist-putin-trump-putin-2026-01-23.md`
+- `source-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md`
+- `source-simplicius-hoodwinks-and-hijinks-trump-nabs-2026-01-23.md`

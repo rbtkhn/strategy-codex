@@ -12,7 +12,7 @@ The shelf is intentionally a lighter first pass. McGovern is already a real cros
 
 - [mcgovern-arc.md](mcgovern-arc.md)
 - [mcgovern-routing.md](mcgovern-routing.md)
-- [mcgovern-raw-input-index.md](mcgovern-raw-input-index.md)
+- [mcgovern-source-index.md](mcgovern-source-index.md)
 - [mcgovern-helix.md](mcgovern-helix.md)
 - [mcgovern-support-spine-2025-2026.md](mcgovern-support-spine-2025-2026.md)
 
@@ -22,7 +22,7 @@ McGovern's canonical statecraft shelf currently has five speaker-owned layers:
 
 - **Person arc:** [mcgovern-arc.md](mcgovern-arc.md) holds whole-speaker continuity across the 2025-2026 run and the spring 2026 pressure cluster.
 - **Routing surface:** [mcgovern-routing.md](mcgovern-routing.md) answers which host lane or source file to open first for a given McGovern use.
-- **Provenance bench:** [mcgovern-raw-input-index.md](mcgovern-raw-input-index.md) is the canonical route map for materialized McGovern appearances.
+- **Source index:** [mcgovern-source-index.md](mcgovern-source-index.md) is the canonical route map for materialized McGovern appearances.
 - **Cross-host note:** [mcgovern-helix.md](mcgovern-helix.md) explains the real host-conditioned structure and the double-helix core.
 - **Support spine:** [mcgovern-support-spine-2025-2026.md](mcgovern-support-spine-2025-2026.md) owns maturity law and the rule for why the shelf is canonical but still intentionally lighter than a month ladder.
 
@@ -47,7 +47,7 @@ The legacy `codex/speakers/mcgovern/` path is now front-door compatibility only.
 
 - [Diesen x McGovern](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
 - [Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
-- [2026-05-18 / Judging Freedom x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/transcript-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
+- [2026-05-18 / Judging Freedom x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
 
 ## Boundary
 

@@ -10,6 +10,8 @@ For the storage-side SSOT and the canonical raw-input-side version of the wiring
 
 This README is the governing speaker-routing doctrine. Speaker folders, year indexes, and lattice surfaces should implement this contract rather than restate it.
 
+For the compact speaker-shelf naming table that this routing doctrine assumes, see [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/civ-lens/speaker-shelf-vocabulary.md).
+
 ## Layer Contract
 
 - `raw-input/` = provenance
@@ -38,10 +40,37 @@ Use this ladder when cross-host spread becomes thick enough to matter. Once need
 The ladder is intentionally sparse:
 
 - the corpus-wide raw-input master index handles global lookup
-- the speaker raw-input index handles a real `non-core appearance bench`
+- the speaker source index handles a real `non-core appearance bench`
 - the arc handles interpretation
 
 Do not add a separate index surface for every arc by default.
+
+## Source Vocabulary
+
+Inside speaker routing doctrine, use the terms this way:
+
+- **`source-index`** = the named speaker route surface
+- **`source bench`** = the retrieval role that surface performs
+- **`provenance bench`** = optional emphasis when the point is evidentiary breadth rather than file naming
+
+Map rule:
+
+- when naming the surface, say `source-index`
+- when describing the routing job, say `source bench`
+- preserve `provenance bench` only where the route contract needs to stress archive-facing breadth or lower-interpretation evidence coverage
+
+## Thread Vocabulary
+
+Inside speaker routing doctrine, use the thread terms this way:
+
+- **`thread atlas`** = the named recurring-strand route surface
+- **`arc-threads`** = the recurring strands that a bounded arc or host-local arc braids together
+
+Map rule:
+
+- when naming the surface, say `thread atlas`
+- when describing what sits inside a bounded arc, say `arc-threads`
+- preserve `arc-threads` as a surface label only when a legacy filename or compatibility path still uses it
 
 ## Route Contract
 
@@ -88,13 +117,13 @@ An arc-specific index is exceptional and should only be created when all of the 
 
 1. **Front-door test** - the parent arc is no longer a practical front door for the material it now contains.
 2. **Retrieval-domain test** - the items being indexed form a distinct retrieval domain rather than just a chronology, month run, or reading order.
-3. **Question-difference test** - the proposed index answers a meaningfully different operator question than the neighboring speaker raw-input index, host lane, or arc.
+3. **Question-difference test** - the proposed index answers a meaningfully different operator question than the neighboring speaker source index, host lane, or arc.
 4. **Completion-role test** - the surface has a stable ownership story and a real completion role in the routing stack.
 
 If those tests are not all satisfied, keep the material in:
 
 - the corpus-wide raw-input master index for global lookup
-- the speaker raw-input index for `non-core appearance bench` retrieval
+- the speaker source index for `non-core appearance bench` retrieval
 - the arc itself for interpretation
 
 This is the speaker-map application of the repo's `Fullness Before Closure` doctrine: do not multiply index surfaces until the extra route is functionally necessary.

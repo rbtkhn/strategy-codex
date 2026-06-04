@@ -12,7 +12,7 @@ Purpose: demonstrate the refined `speaker-shelf-hygiene` workflow on the live Cr
 | [README.md](/C:/dev/strategy-codex/codex/speakers/crooke/README.md) | wrapper front door | keep; useful shelf overview once ordered by the shared contract |
 | [crooke-arc.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-arc.md) | person arc | keep |
 | [crooke-routing.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-routing.md) | routing note | keep |
-| [crooke-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-raw-input-index.md) | provenance bench | keep |
+| [crooke-source-index.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-source-index.md) | source bench | keep |
 | [crooke-helix.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-helix.md) | crossing surface | keep |
 | [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md) | interview support spine | keep |
 | [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md) | authored support spine | keep |
@@ -73,7 +73,7 @@ May keeps the interview dense core alive while the authored strand moves into wa
 
 The shelf passes the main source-boundary test.
 
-- [crooke-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-raw-input-index.md) remains the provenance authority across both source classes.
+- [crooke-source-index.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-source-index.md) remains the provenance authority across both source classes.
 - [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md) remains the canonical authored mechanism surface.
 - [crooke-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/crooke-interview-appearances-2025-2026.md) remains the canonical interview support spine.
 - [crooke-march-may-2026-interview-arc-threads.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-march-may-2026-interview-arc-threads.md) and the March/April/May month spines are correctly subordinate to the **interview strand only**.

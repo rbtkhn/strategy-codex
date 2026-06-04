@@ -8,7 +8,7 @@ Purpose: front door for the canonical Macgregor statecraft shelf, surfacing the 
 
 - [Speaker arc](macgregor-arc.md) - whole-speaker continuity and the canonical answer to who Macgregor is as a speaker object.
 - [Speaker routing note](macgregor-routing.md) - fastest answer to which host lane or monthly shelf to open first.
-- [Raw-input index](macgregor-raw-input-index.md) - exhaustive route map for every resolved Macgregor raw-input appearance currently materialized in the repo.
+- [Source index](macgregor-source-index.md) - exhaustive route map for every resolved Macgregor raw-input appearance currently materialized in the repo.
 - [Speaker helix note](macgregor-helix.md) - why the durable double structure fits together before you descend into one host lane.
 - [Support spine](macgregor-support-spine-2025-2026.md) - canonical maturity and month-support law.
 - [March monthly shelf](stream/macgregor-shelf-2026-03.md) - first mature cross-host month synthesis.

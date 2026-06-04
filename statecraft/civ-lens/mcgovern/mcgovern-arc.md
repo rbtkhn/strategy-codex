@@ -45,11 +45,11 @@ The real McGovern object is cross-host, but not flat.
 
 The direct archive run already shows that McGovern is more than compatibility residue:
 
-- [2025-02-05 / Diesen x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-05/youtube-glenn-diesen-ray-mcgovern-trump-versus-the-deep-state-2025-02-05.md)
-- [2026-03-08 / Dialogue Works x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-08/transcript-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
-- [2026-04-05 / Diesen x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-05/youtube-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
-- [2026-05-18 / Judging Freedom x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/transcript-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
-- [2026-05-20 / Dialogue Works x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-mcgovern-dialogue-works-ukraine-to-hit-russia-from-latvia-territory-israel-strikes-aid-flotilla-again-2026-05-20.md)
+- [2025-02-05 / Diesen x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-05/source-glenn-diesen-ray-mcgovern-trump-versus-the-deep-state-2025-02-05.md)
+- [2026-03-08 / Dialogue Works x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md)
+- [2026-04-05 / Diesen x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-05/source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
+- [2026-05-18 / Judging Freedom x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
+- [2026-05-20 / Dialogue Works x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/source-mcgovern-dialogue-works-ukraine-to-hit-russia-from-latvia-territory-israel-strikes-aid-flotilla-again-2026-05-20.md)
 
 Those files are enough to confirm a real multi-host retrieval pattern with a clear spring 2026 pressure cluster.
 

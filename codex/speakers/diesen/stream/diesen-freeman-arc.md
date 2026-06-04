@@ -27,10 +27,10 @@ For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../.
 - 2026-03-14 *The Emerging Iran-Russia-China Axis & Israel's Possible Demise* - captured on disk.
 - 2026-03-23 *Trump Back Down - Armageddon Postponed?* - captured on disk.
 
-1. [transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+1. [source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
    Best mature anchor. Strongest full statement of the **sea-power -> land-power** transition, Hormuz checkmate logic, petrodollar fragility, and post-hegemonic order consequences.
 
-2. [freeman-diesen-2026-04-18-verbatim.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-18/freeman-diesen-2026-04-18-verbatim.md)
+2. [source-diesen-2026-04-18-verbatim-2026-04-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md)
    Best first anchor for the **Islamabad / performative diplomacy / door-vs-padlock** vocabulary. Strong on the "fantasy foreign policy" and "no meeting of minds" frame that later becomes the stream's characteristic Freeman seam.
 
 ### 2025 densification

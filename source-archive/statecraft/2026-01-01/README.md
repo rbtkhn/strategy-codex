@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (2)
+- Body kind mix: `cleaned-transcript` (1), `transcript` (1)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (2)
 - Threads: `martyanov` (2), `nima` (2)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleaned.md`
-- `transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md`
+- `source-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleaned-2026-01-01.md`
+- `source-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md`

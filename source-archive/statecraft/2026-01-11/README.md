@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `substack` (1), `youtube` (1)
+- Body kind mix: `substack-post` (1), `transcript` (1)
+- Source form mix: `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `1`
 - Distinct guests: `0`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `mercouris` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-simplicius-the-us-empire-is-going-supernova-2026-01-11.md`
-- `youtube-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md`
+- `source-alex-mercouris-russia-prepares-biggest-ukraine-strike-duma-wants-reserve-armies-committ-2026-01-11.md`
+- `source-simplicius-the-us-empire-is-going-supernova-2026-01-11.md`

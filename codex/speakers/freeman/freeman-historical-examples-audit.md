@@ -22,7 +22,7 @@ Membrane rule:
 Discovery and routing base:
 
 - [Freeman index](index.md)
-- [Freeman raw-input index](freeman-raw-input-index.md)
+- [Freeman source index](freeman-source-index.md)
 - [Freeman helix](freeman-helix.md)
 - [December 2025-May 2026 arc-threads](stream/freeman-dec-2025-may-2026-arc-threads.md)
 - host-local arcs in `diesen/`, `davis/`, `nima/`, and `napolitano/`
@@ -108,7 +108,7 @@ Legacy provenance note:
 ### 1. Camp David as a recurring pattern of short-term concession without strategic reconciliation
 
 - Example: `Camp David`
-- Source: [2025-01-17 Dialogue Works](../../years/2026/provenance/2025-01-17/transcript-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md)
+- Source: [2025-01-17 Dialogue Works](../../years/2026/provenance/2025-01-17/source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md)
 - Exact quote:
 
 > "you look back on all of the Israeli negotiations Camp David for example way back when ... you see a common pattern Israel will go for the short-term benefits that an agreement provides"
@@ -135,7 +135,7 @@ Legacy provenance note:
 ### 2. Austrian State Treaty as a neutral-state and minority-rights settlement precedent
 
 - Example: `Austrian State Treaty`
-- Source: [2025-01-10 Daniel Davis](../../years/2026/provenance/2025-01-10/youtube-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md)
+- Source: [2025-01-10 Daniel Davis](../../years/2026/provenance/2025-01-10/source-daniel-davis-deep-dive-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md)
 - Exact quote:
 
 > "that would mean applying the precedent of the Austrian State Treaty of 19555 ... which guaranteed rights to minorities in Austria as it created a neutral Austrian state"
@@ -162,7 +162,7 @@ Legacy provenance note:
 ### 3. Korean Armistice, Westphalia, Vienna, JCPOA, and Minsk as a warning against ceasefire theater and broken agreements
 
 - Example: `Korean Armistice / Peace of Westphalia / Concert of Vienna / JCPOA / Minsk`
-- Source: [2025-03-12 Glenn Diesen](../../years/2026/provenance/2025-03-12/youtube-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md)
+- Source: [2025-03-12 Glenn Diesen](../../years/2026/provenance/2025-03-12/source-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md)
 - Exact quote:
 
 > "the approach to the Korean Armistice ... illustrates that a ceasefire is not necessary to reach a settlement"
@@ -197,7 +197,7 @@ Legacy provenance note:
 ### 4. Thucydides trap as a description of American behavior more than Chinese behavior
 
 - Example: `Thucydides trap / Peloponnesian War`
-- Source: [2025-12-04 Glenn Diesen](../../years/2026/provenance/2025-12-04/transcript-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md)
+- Source: [2025-12-04 Glenn Diesen](../../years/2026/provenance/2025-12-04/source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md)
 - Exact quote:
 
 > "You mentioned the Thucydides trap as a theory. I think it's a great description of American behavior. I don't think it's a good description of Chinese behavior."
@@ -226,7 +226,7 @@ Legacy provenance note:
 ### 5. Final collapse of the Roman Empire as a domestic-decay and epistemic-decay analogy
 
 - Example: `final collapse of the Roman Empire`
-- Source: [2026-05-06 Glenn Diesen](../../years/2026/provenance/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+- Source: [2026-05-06 Glenn Diesen](../../years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
 - Exact quote:
 
 > "you can actually analogize a lot of what's happening to the final collapse of the Roman Empire"
@@ -257,7 +257,7 @@ Legacy provenance note:
 ### 6. Vietnam and Afghanistan as repeated proof that bombing is not political success
 
 - Example: `Vietnam / Afghanistan`
-- Source: [2026-04-21 Judging Freedom](../../years/2026/provenance/2026-04-21/transcript-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md)
+- Source: [2026-04-21 Judging Freedom](../../years/2026/provenance/2026-04-21/source-napolitano-freeman-us-diplomacy-is-dead-2026-04-21.md)
 - Exact quote:
 
 > "We should have learned from Vietnam, from Afghanistan, from other experiences that is not the case."
@@ -286,7 +286,7 @@ Legacy provenance note:
 ### 7. Monroe Doctrine as a live legitimacy frame for hemispheric overreach
 
 - Example: `Monroe Doctrine`
-- Source: [2025-12-15 Neutrality Studies](../../years/2026/provenance/2025-12-15/transcript-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
+- Source: [2025-12-15 Neutrality Studies](../../years/2026/provenance/2025-12-15/source-neutrality-studies-freeman-us-naval-seizures-caribbean-2025-12-15.md)
 - Exact quote:
 
 > "it basically asserts a right of the United States under a Trump corollary to the Monroe Doctrine to ignore the sovereignty of every country in the Western Hemisphere while demanding that every other country respect American sovereignty"
@@ -313,7 +313,7 @@ Legacy provenance note:
 ### 8. Seven Years' War, the Battle of the Bismarck Sea, and Vietnam rail repair as a layered maritime-order argument
 
 - Example: `Seven Years' War / Battle of the Bismarck Sea / Vietnam rail repair`
-- Source: [2026-05-06 Glenn Diesen](../../years/2026/provenance/2026-05-06/transcript-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+- Source: [2026-05-06 Glenn Diesen](../../years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
 - Exact quote:
 
 > "In 1763, at the end of the Seven Years' War, Britain decisively defeated French naval power and became the dominant power on the seas"
@@ -346,7 +346,7 @@ Legacy provenance note:
 ### 9. Geneva Conventions, the invented "enemy combatant," and the Melian Dialogue
 
 - Example: `Geneva Conventions / enemy combatant / Melian Dialogue`
-- Source: [2025-12-18 Glenn Diesen](../../years/2026/provenance/2025-12-18/youtube-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md)
+- Source: [2025-12-18 Glenn Diesen](../../years/2026/provenance/2025-12-18/source-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md)
 - Exact quote:
 
 > "think about the Geneva Conventions. Suddenly in Afghanistan the United States invented a category called enemy combatant who was not entitled to the protections of the Geneva Conventions."

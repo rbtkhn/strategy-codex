@@ -37,7 +37,7 @@ The efficient structure is therefore:
 
 ## Best entry points
 
-- **Best single interview opening file:** [youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- **Best single interview opening file:** [source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-13/source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
 - **Best authored spine:** [stream/ritter-forecast-ledger-2026.md](stream/ritter-forecast-ledger-2026.md)
 - **Best interview wiring map:** [ritter-interview-appearances-2025-2026.md](ritter-interview-appearances-2025-2026.md)
 - **Best January opening:** [stream/ritter-shelf-2026-01.md](stream/ritter-shelf-2026-01.md)

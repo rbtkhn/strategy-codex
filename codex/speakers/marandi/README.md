@@ -12,7 +12,7 @@ The canonical Marandi shelf now lives under [`statecraft/civ-lens/marandi/`](/C:
 - [statecraft/civ-lens/marandi/index.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/index.md)
 - [statecraft/civ-lens/marandi/marandi-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-arc.md)
 - [statecraft/civ-lens/marandi/marandi-routing.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-routing.md)
-- [statecraft/civ-lens/marandi/marandi-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-raw-input-index.md)
+- [statecraft/civ-lens/marandi/marandi-source-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-source-index.md)
 - [statecraft/civ-lens/marandi/marandi-helix.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-helix.md)
 - [statecraft/civ-lens/marandi/marandi-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-support-spine-2025-2026.md)
 
@@ -22,7 +22,7 @@ The canonical Marandi shelf now lives under [`statecraft/civ-lens/marandi/`](/C:
 - [marandi-arc.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-arc.md)
 - [marandi-routing.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-routing.md)
 - [marandi-helix.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-helix.md)
-- [marandi-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-raw-input-index.md)
+- [marandi-source-index.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-source-index.md)
 - [stream/](/C:/dev/strategy-codex/codex/speakers/marandi/stream/)
 - [themes/README.md](/C:/dev/strategy-codex/codex/speakers/marandi/themes/README.md)
 - [marandi-thread.md](/C:/dev/strategy-codex/codex/speakers/marandi/marandi-thread.md)

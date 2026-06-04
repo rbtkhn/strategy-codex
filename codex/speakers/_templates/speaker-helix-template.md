@@ -4,7 +4,17 @@ WORK only; not Record.
 
 Purpose: compare a recurring speaker across multiple host transformations. Use this when the speaker's value is clearer across host-local arcs than inside one stream alone. This is a comparative routing note, not a generic profile and not a replacement for the underlying arcs.
 
+Template doctrine: separate the surface name, surface role, and surface interior before writing.
+
+- **surface name**: this file is a `helix`
+- **surface role**: cross-host comparison without flattening the underlying arcs
+- **surface interior**: differences, reinforcements, and tensions across host-local arcs and their arc-threads
+
+Reference: [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/civ-lens/speaker-shelf-vocabulary.md)
+
 Model: a **speaker helix** compares multiple host-local arcs without flattening them. Each host-local **arc is a bounded helix of arc-threads**; the speaker helix asks how those bounded helices reinforce, tension, or transform the same speaker.
+
+Do not let the helix absorb the jobs of the `thread atlas` or the `source-index`. The helix compares bounded arcs; it does not own recurring-strand naming or breadth-first retrieval by default.
 
 Creation threshold: a helix is not the minimum requirement for a speaker folder. The minimum is a routeable rationale. Create a helix only when multiple host-local arcs or equivalent mature strands are strong enough that cross-host comparison itself has become useful.
 

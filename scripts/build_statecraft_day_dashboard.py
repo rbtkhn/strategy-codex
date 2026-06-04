@@ -155,14 +155,10 @@ def build_dashboard_payload(
     aggregate_hosts = _merge_counter(days, "host_counter")
     aggregate_guests = _merge_counter(days, "guest_counter")
     aggregate_threads = _merge_counter(days, "thread_counter")
-    aggregate_fallbacks = _merge_counter(days, "fallback_counter")
+    aggregate_source_forms = _merge_counter(days, "source_form_counter")
 
     top_days = sorted(days, key=lambda day: (-day.source_count, day.date))[:10]
     quiet_days = [day for day in days if day.source_count <= 2][:10]
-    fallback_heavy = sorted(
-        [day for day in days if sum(day.fallback_counter.values()) > 0],
-        key=lambda day: (-sum(day.fallback_counter.values()), day.date),
-    )[:10]
     missing_hosts_or_guests = [
         day
         for day in days
@@ -200,13 +196,9 @@ def build_dashboard_payload(
             "hosts": counter_to_list(aggregate_hosts),
             "guests": counter_to_list(aggregate_guests),
             "threads": counter_to_list(aggregate_threads),
-            "fallbackFamilies": counter_to_list(aggregate_fallbacks),
+            "sourceForms": counter_to_list(aggregate_source_forms),
         },
         "anomalies": {
-            "fallbackHeavyDays": [
-                {"date": day.date, "fallbackCount": sum(day.fallback_counter.values())}
-                for day in fallback_heavy
-            ],
             "missingHostOrGuestDays": [
                 {
                     "date": day.date,
@@ -226,7 +218,7 @@ def build_dashboard_payload(
                 "hosts": counter_to_list(day.host_counter),
                 "guests": counter_to_list(day.guest_counter),
                 "threads": counter_to_list(day.thread_counter),
-                "fallbackFamilies": counter_to_list(day.fallback_counter),
+                "sourceForms": counter_to_list(day.source_form_counter),
                 "fileNames": list(day.file_names),
                 "hasReadme": day.has_readme,
                 "readmeParseOk": day.readme_parse_ok,
@@ -254,6 +246,7 @@ def render_dashboard_markdown(root: Path, payload: dict) -> str:
     aggregate_hosts = Counter({item["name"]: item["count"] for item in payload["aggregates"]["hosts"]})
     aggregate_guests = Counter({item["name"]: item["count"] for item in payload["aggregates"]["guests"]})
     aggregate_threads = Counter({item["name"]: item["count"] for item in payload["aggregates"]["threads"]})
+    aggregate_source_forms = Counter({item["name"]: item["count"] for item in payload["aggregates"]["sourceForms"]})
 
     lines = [
         "# Statecraft Day Dashboard",
@@ -301,19 +294,19 @@ def render_dashboard_markdown(root: Path, payload: dict) -> str:
     lines.extend(_render_counter_table(aggregate_hosts, "Host Leaderboard"))
     lines.extend(_render_counter_table(aggregate_guests, "Guest Leaderboard"))
     lines.extend(_render_counter_table(aggregate_threads, "Thread Leaderboard"))
+    lines.extend(_render_counter_table(aggregate_source_forms, "Source Form Leaderboard"))
 
     lines.extend(
         [
             "## Anomalies / Gaps",
             "",
-            f"- Fallback-heavy days: {fmt_counter(Counter({item['date']: item['fallbackCount'] for item in payload['anomalies']['fallbackHeavyDays']}))}",
             f"- Missing host or guest coverage: {fmt_counter(Counter({item['date']: 1 for item in payload['anomalies']['missingHostOrGuestDays']}))}",
             f"- Missing local READMEs: {fmt_counter(Counter({date: 1 for date in payload['anomalies']['missingReadmes']}))}",
             "",
             "## Day Ledger",
             "",
-            "| Day | Files | Top channels/shows | Threads | Fallback families | README |",
-            "| --- | ---: | --- | ---: | ---: | --- |",
+            "| Day | Files | Top channels/shows | Threads | Source forms | README |",
+            "| --- | ---: | --- | ---: | --- | --- |",
         ]
     )
     for day in payload["days"]:
@@ -323,11 +316,11 @@ def render_dashboard_markdown(root: Path, payload: dict) -> str:
             f"{day['fileCount']} | "
             f"{_top_names(Counter({item['name']: item['count'] for item in day['channels']}))} | "
             f"{len(day['threads'])} | "
-            f"{sum(item['count'] for item in day['fallbackFamilies'])} | "
+            f"{_top_names(Counter({item['name']: item['count'] for item in day['sourceForms']}))} | "
             f"{'yes' if day['hasReadme'] else 'no'} |"
         )
     if not payload["days"]:
-        lines.append("| `(none)` | 0 | `(none)` | 0 | 0 | no |")
+        lines.append("| `(none)` | 0 | `(none)` | 0 | `(none)` | no |")
     lines.append("")
     return "\n".join(lines)
 

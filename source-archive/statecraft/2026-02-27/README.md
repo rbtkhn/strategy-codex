@@ -5,11 +5,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `8`
-- Type mix: `transcript` (3), `substack` (2), `youtube` (2), `mercouris` (1)
+- Body kind mix: `transcript` (4), `substack-post` (2), `operator-transcript` (1), `youtube` (1)
+- Source form mix: `interview` (4), `newsletter` (2), `panel` (1), `solo` (1)
 - Distinct channels/shows: `5`
 - Distinct hosts: `3`
 - Distinct guests: `6`
-- Distinct threads: `9`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
@@ -19,19 +20,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1)
 - Guests: `Alexander Mercouris` (1), `Anthony Aguilar` (1), `Chas Freeman` (1), `George Beebe` (1), `John Kiriakou` (1), `Martin Armstrong` (1)
-- Threads: `mercouris` (2), `nima` (2), `aguilar` (1), `armstrong` (1), `beebe` (1), `diesen` (1), `freeman` (1), `pape` (1), `simplicius` (1)
-
-## Filename Family Fallbacks
-
-- `substack-*` (2), `mercouris-us-*` (1), `transcript-*` (1), `youtube-alex-mercouris-*` (1)
+- Threads: `mercouris` (2), `nima` (2), `aguilar` (1), `armstrong` (1), `beebe` (1), `diesen` (1), `freeman` (1), `kiriakou` (1), `pape` (1), `simplicius` (1)
 
 ## Files
 
-- `mercouris-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md`
-- `substack-pape-from-kosovo-to-iran-the-smart-bomb-2026-02-27.md`
-- `substack-simplicius-iran-calls-trumps-bluff-as-deep-state-2026-02-27.md`
-- `transcript-dialogue-works-amb-chas-freeman-emergency-diplomacy-oman-s-fm-flies-to-washington-to-av-2026-02-27.md`
-- `transcript-dialogue-works-martin-armstrong-how-world-war-iii-begins-and-why-it-s-happening-now-2026-02-27.md`
-- `transcript-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md`
-- `youtube-alex-mercouris-us-iran-talks-fail-embassies-evacuated-attack-imminent-konstaninovka-def-2026-02-27.md`
-- `youtube-glenn-diesen-george-beebe-window-of-opportunity-for-peace-in-ukraine-2026-02-27.md`
+- `source-alex-mercouris-us-iran-talks-fail-embassies-evacuated-attack-imminent-konstaninovka-def-2026-02-27.md`
+- `source-dialogue-works-amb-chas-freeman-emergency-diplomacy-oman-s-fm-flies-to-washington-to-av-2026-02-27.md`
+- `source-dialogue-works-martin-armstrong-how-world-war-iii-begins-and-why-it-s-happening-now-2026-02-27.md`
+- `source-glenn-diesen-george-beebe-window-of-opportunity-for-peace-in-ukraine-2026-02-27.md`
+- `source-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md`
+- `source-pape-from-kosovo-to-iran-the-smart-bomb-2026-02-27.md`
+- `source-simplicius-iran-calls-trumps-bluff-as-deep-state-2026-02-27.md`
+- `source-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md`

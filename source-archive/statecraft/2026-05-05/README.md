@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `10`
-- Type mix: `transcript` (9), `strategy` (1)
+- Body kind mix: `cleaned-transcript` (7), `transcript` (2), `paste-bundle` (1)
+- Source form mix: `interview` (8), `solo` (2)
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `7`
@@ -21,19 +22,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (2), `Douglas Macgregor` (1), `John Helmer` (1), `Larry Johnson` (1), `Larry Wilkerson` (1), `Mike Adams` (1), `Yanis Varoufakis` (1)
 - Threads: `davis` (3), `nima` (3), `diesen` (2), `marandi` (2), `johnson` (1), `macgregor` (1), `mercouris` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `strategy-codex-*` (1), `transcript-*` (1)
-
 ## Files
 
-- `strategy-codex-session-2026-05-05.md`
-- `transcript-alkorshid-helmer-hormuz-beijing-2026-05-05.md`
-- `transcript-alkorshid-marandi-hormuz-uae-china-2026-05-05.md`
-- `transcript-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md`
-- `transcript-davis-adams-famine-food-chain-2026-05-05.md`
-- `transcript-davis-johnson-hormuz-freedom-2026-05-05.md`
-- `transcript-davis-macgregor-project-freedom-hormuz-2026-05-05.md`
-- `transcript-diesen-marandi-hormuz-all-out-war-2026-05-05.md`
-- `transcript-diesen-varoufakis-europe-decline-2026-05-05.md`
-- `transcript-mercouris-hormuz-uae-russia-china-2026-05-05.md`
+- `source-alkorshid-helmer-hormuz-beijing-2026-05-05.md`
+- `source-alkorshid-marandi-hormuz-uae-china-2026-05-05.md`
+- `source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md`
+- `source-codex-session-2026-05-05.md`
+- `source-davis-adams-famine-food-chain-2026-05-05.md`
+- `source-davis-johnson-hormuz-freedom-2026-05-05.md`
+- `source-davis-macgregor-project-freedom-hormuz-2026-05-05.md`
+- `source-diesen-marandi-hormuz-all-out-war-2026-05-05.md`
+- `source-diesen-varoufakis-europe-decline-2026-05-05.md`
+- `source-mercouris-hormuz-uae-russia-china-2026-05-05.md`

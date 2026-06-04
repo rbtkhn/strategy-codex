@@ -14,7 +14,7 @@ Quick separation rule:
 
 - [freeman-arc.md](freeman-arc.md) = whole-speaker continuity
 - [freeman-routing.md](freeman-routing.md) = fastest lane or month selection
-- [freeman-raw-input-index.md](freeman-raw-input-index.md) = provenance bench
+- [freeman-source-index.md](freeman-source-index.md) = source bench
 - [freeman-helix.md](freeman-helix.md) = cross-host comparison
 - [stream/README.md](stream/README.md) = bounded monthly synthesis shelves
 - this file = maturity and month-support law

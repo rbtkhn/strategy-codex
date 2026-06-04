@@ -17,7 +17,7 @@ Use these notes when the question is not only `what Barnes files exist?` but als
 
 - [barnes-arc.md](barnes-arc.md)
 - [barnes-routing.md](barnes-routing.md)
-- [barnes-raw-input-index.md](barnes-raw-input-index.md)
+- [barnes-source-index.md](barnes-source-index.md)
 - [barnes-helix.md](barnes-helix.md)
 - [barnes-support-spine-2025-2026.md](barnes-support-spine-2025-2026.md)
 

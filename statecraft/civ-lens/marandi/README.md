@@ -12,9 +12,15 @@ Marandi is more mature than a thin compatibility shelf and more structurally sta
 
 - [marandi-arc.md](marandi-arc.md)
 - [marandi-routing.md](marandi-routing.md)
-- [marandi-raw-input-index.md](marandi-raw-input-index.md)
+- [marandi-source-index.md](marandi-source-index.md)
 - [marandi-helix.md](marandi-helix.md)
 - [marandi-support-spine-2025-2026.md](marandi-support-spine-2025-2026.md)
+
+## Surface Grammar
+
+- **Surface name:** `marandi-source-index.md`
+- **Surface role:** source bench for breadth-first Marandi retrieval
+- **Surface interior:** materialized Marandi appearances and routeable host-spread evidence
 
 ## Canonical Structure
 
@@ -22,7 +28,7 @@ Marandi's canonical statecraft shelf currently has five speaker-owned layers:
 
 - **Person arc:** [marandi-arc.md](marandi-arc.md) is the primary Statecraft Synthesis surface for Marandi continuity across the 2025-present run.
 - **Routing surface:** [marandi-routing.md](marandi-routing.md) answers which host lane or source file to open first.
-- **Provenance bench:** [marandi-raw-input-index.md](marandi-raw-input-index.md) is the canonical route map for materialized Marandi appearances.
+- **Source index:** [marandi-source-index.md](marandi-source-index.md) is the canonical route map for materialized Marandi appearances.
 - **Cross-host note:** [marandi-helix.md](marandi-helix.md) explains the real host-conditioned structure and the three-host mature core.
 - **Support spine:** [marandi-support-spine-2025-2026.md](marandi-support-spine-2025-2026.md) owns maturity law and the rule for why the shelf is cross-host mature but not yet month-led.
 
@@ -34,7 +40,7 @@ The real hierarchy on disk is:
 - `Diesen x Marandi` is a mature co-supporting lane for strategic-order altitude and escalation horizon.
 - `Davis x Marandi` is a mature co-supporting lane for operational limits and failed intimidation.
 - the dense spring 2026 run makes Marandi a true three-host speaker shelf rather than a single-host guest pattern.
-- [2026-05-26 / Dialogue Works x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md) is part of the mature pressure cluster and must be read as canonical shelf evidence, not as a late appendix.
+- [2026-05-26 / Dialogue Works x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md) is part of the mature pressure cluster and must be read as canonical shelf evidence, not as a late appendix.
 
 ## Compatibility Shape
 

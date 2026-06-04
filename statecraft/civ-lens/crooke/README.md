@@ -10,7 +10,7 @@ Use it for speaker identity, authored/interview continuity, route maps, bounded 
 
 - [crooke-arc.md](crooke-arc.md)
 - [crooke-routing.md](crooke-routing.md)
-- [crooke-raw-input-index.md](crooke-raw-input-index.md)
+- [crooke-source-index.md](crooke-source-index.md)
 - [crooke-helix.md](crooke-helix.md)
 - [crooke-support-spine-2025-2026.md](crooke-support-spine-2025-2026.md)
 - [stream/crooke-shelf-2026-03.md](stream/crooke-shelf-2026-03.md)
@@ -24,7 +24,7 @@ Crooke's canonical structure now has five speaker-owned layers:
 
 - **Person arc:** [crooke-arc.md](crooke-arc.md) holds whole-speaker continuity across authored and interview contexts.
 - **Routing surface:** [crooke-routing.md](crooke-routing.md) answers which source-class strand, host lane, or monthly shelf to open first.
-- **Provenance bench:** [crooke-raw-input-index.md](crooke-raw-input-index.md) remains the canonical route map for materialized Crooke appearances.
+- **Source index:** [crooke-source-index.md](crooke-source-index.md) remains the canonical route map for materialized Crooke appearances.
 - **Crossing surface:** [crooke-helix.md](crooke-helix.md) explains how the authored mechanism spine and interview strand reinforce, extend, or pressure one another.
 - **Support spine:** [crooke-support-spine-2025-2026.md](crooke-support-spine-2025-2026.md) owns maturity law, month-status law, and the rule for how the canonical month ladder relates to source-class and host-owned chronology.
 

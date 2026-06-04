@@ -9,6 +9,6 @@ Canonical live Sachs speaker-state work has moved to:
 - [statecraft/civ-lens/sachs/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/README.md)
 - [statecraft/civ-lens/sachs/sachs-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/sachs-arc.md)
 - [statecraft/civ-lens/sachs/sachs-routing.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/sachs-routing.md)
-- [statecraft/civ-lens/sachs/sachs-raw-input-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/sachs-raw-input-index.md)
+- [statecraft/civ-lens/sachs/sachs-source-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/sachs-source-index.md)
 
 Use the `statecraft/` shelf for current routing, branch-shape, and provenance entry. This `codex/` file remains only so old links still resolve.

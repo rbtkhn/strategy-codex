@@ -9,7 +9,7 @@ Purpose: compact front door for the canonical Marandi statecraft shelf.
 - [README.md](README.md)
 - [marandi-arc.md](marandi-arc.md)
 - [marandi-routing.md](marandi-routing.md)
-- [marandi-raw-input-index.md](marandi-raw-input-index.md)
+- [marandi-source-index.md](marandi-source-index.md)
 - [marandi-helix.md](marandi-helix.md)
 - [marandi-support-spine-2025-2026.md](marandi-support-spine-2025-2026.md)
 
@@ -17,7 +17,7 @@ Purpose: compact front door for the canonical Marandi statecraft shelf.
 
 - If the question is **whole-speaker continuity**, open [marandi-arc.md](marandi-arc.md).
 - If the question is **which Marandi lane or file to open first**, open [marandi-routing.md](marandi-routing.md).
-- If the question is **what actually exists on disk**, open [marandi-raw-input-index.md](marandi-raw-input-index.md).
+- If the question is **what actually exists on disk**, open [marandi-source-index.md](marandi-source-index.md).
 - If the question is **how the three-host structure works**, open [marandi-helix.md](marandi-helix.md).
 - If the question is **how mature the shelf is and why it is not month-led yet**, open [marandi-support-spine-2025-2026.md](marandi-support-spine-2025-2026.md).
 

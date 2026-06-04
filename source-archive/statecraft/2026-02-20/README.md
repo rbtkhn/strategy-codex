@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `substack` (2), `transcript` (1), `youtube` (1)
+- Body kind mix: `transcript` (2), `operator-transcript` (1), `substack-post` (1)
+- Source form mix: `interview` (2), `newsletter` (2)
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `3`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Russia Iran Fleets Conduct Hormuz Exercise Trump Delays Strike` (1), `Scott Ritter` (1)
 - Threads: `crooke` (1), `mercouris` (1), `nima` (1), `parsi` (1), `ritter` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (2)
-
 ## Files
 
-- `substack-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md`
-- `substack-ritter-dead-at-27-2026-02-20.md`
-- `transcript-alkorshid-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md`
-- `youtube-alex-mercouris-russia-iran-fleets-conduct-hormuz-exercise-trump-delays-strike-moscow-sa-2026-02-20.md`
+- `source-alex-mercouris-russia-iran-fleets-conduct-hormuz-exercise-trump-delays-strike-moscow-sa-2026-02-20.md`
+- `source-alkorshid-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md`
+- `source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md`
+- `source-ritter-dead-at-27-2026-02-20.md`

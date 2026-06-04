@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `substack` (1), `transcript` (1), `youtube` (1)
+- Body kind mix: `transcript` (2), `substack-post` (1)
+- Source form mix: `interview` (1), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1)
 - Threads: `freeman` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-simplicius-kiev-thermal-plant-said-to-be-gone-2026-02-06.md`
-- `transcript-dialogue-works-amb-chas-freeman-negotiations-or-the-brink-of-all-out-war-2026-02-06.md`
-- `youtube-alex-mercouris-russia-furious-as-kiev-tries-to-kill-deputy-of-russia-s-chief-negotiator-2026-02-06.md`
+- `source-alex-mercouris-russia-furious-as-kiev-tries-to-kill-deputy-of-russia-s-chief-negotiator-2026-02-06.md`
+- `source-dialogue-works-amb-chas-freeman-negotiations-or-the-brink-of-all-out-war-2026-02-06.md`
+- `source-simplicius-kiev-thermal-plant-said-to-be-gone-2026-02-06.md`

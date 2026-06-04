@@ -12,7 +12,7 @@ Use it for speaker identity, authored forecast mechanism, interview-pressure tra
 - [pape-routing.md](pape-routing.md)
 - [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
 - [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
-- [pape-raw-input-index.md](pape-raw-input-index.md)
+- [pape-source-index.md](pape-source-index.md)
 - [pape-helix.md](pape-helix.md)
 
 ## Canonical Structure
@@ -26,7 +26,7 @@ Its main speaker-owned layers are:
 - **Authored forecast spine:** [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)
 - **Interview-pressure surface:** [pape-interview-appearances-2025-2026.md](pape-interview-appearances-2025-2026.md)
 - **Authored/interview crossing:** [pape-helix.md](pape-helix.md)
-- **Provenance bench:** [pape-raw-input-index.md](pape-raw-input-index.md)
+- **Source index:** [pape-source-index.md](pape-source-index.md)
 
 Support surfaces:
 

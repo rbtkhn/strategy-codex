@@ -47,8 +47,8 @@ Freeman is a high-seriousness, mechanism-heavy speaker whose trust value comes f
 
 ## Disconfirming or stress-test anchors
 
-1. [2025-08-15 Freeman x Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-15/transcript-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md)
-2. [2026-03-17 Freeman](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/transcript-napolitano-freeman-will-china-dump-trump-2026-03-17.md)
+1. [2025-08-15 Freeman x Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2025-08-15/source-dialogue-works-amb-chas-freeman-and-trita-parsi-the-next-israel-iran-war-is-coming-2025-08-15.md)
+2. [2026-03-17 Freeman](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/source-napolitano-freeman-will-china-dump-trump-2026-03-17.md)
 
 ## Native adjustment notes
 

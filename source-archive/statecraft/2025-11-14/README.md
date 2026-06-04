@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `transcript` (2), `youtube` (1)
+- Body kind mix: `source` (1), `transcript` (1), `youtube-transcript` (1)
+- Source form mix: `interview` (3)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `3`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1), `John Mearsheimer` (1)
 - Threads: `davis` (1), `freeman` (1), `mearsheimer` (1), `mercouris` (1), `nima` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1)
-
 ## Files
 
-- `transcript-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14.md`
-- `transcript-dialogue-works-amb-chas-freeman-global-power-shift-ukraine-central-asia-middle-east-ven-2025-11-14.md`
-- `youtube-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md`
+- `source-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md`
+- `source-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14.md`
+- `source-dialogue-works-amb-chas-freeman-global-power-shift-ukraine-central-asia-middle-east-ven-2025-11-14.md`

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `transcript` (3), `youtube` (1)
+- Body kind mix: `transcript` (2), `operator-transcript` (1), `source` (1)
+- Source form mix: `interview` (2), `article` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `4`
 - Distinct guests: `3`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Lawrence Wilkerson` (1)
 - Threads: `diesen` (1), `freeman` (1), `macgregor` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-napolitano-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22.md`
-- `transcript-macgregor-diesen-nato-ukraine-lost-2026-01-22.md`
-- `transcript-napolitano-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md`
-- `youtube-alex-mercouris-rutte-gives-trump-greenland-sovereign-bases-shocked-denmark-cut-out-zele-2026-01-22.md`
+- `source-alex-mercouris-rutte-gives-trump-greenland-sovereign-bases-shocked-denmark-cut-out-zele-2026-01-22.md`
+- `source-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22.md`
+- `source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md`
+- `source-napolitano-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md`

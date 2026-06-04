@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `transcript` (2), `youtube` (1)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1), `Larry Wilkerson` (1)
 - Threads: `davis` (1), `macgregor` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-davis-macgregor-effective-russian-ultimatum-peace-on-our-terms-or-we-ll-push-to-battlefield-victory-2025-05-27.md`
-- `transcript-dialogue-works-col-larry-wilkerson-russia-launches-massive-new-offensive-the-battle-to-win-it-all-2025-05-27.md`
-- `youtube-alex-mercouris-panic-sweeps-west-merz-talks-deep-strikes-sanctions-calls-grow-as-fears-total-ukraine-defeat-rise-2025-05-27.md`
+- `source-alex-mercouris-panic-sweeps-west-merz-talks-deep-strikes-sanctions-calls-grow-as-fears-total-ukraine-defeat-rise-2025-05-27.md`
+- `source-davis-macgregor-effective-russian-ultimatum-peace-on-our-terms-or-we-ll-push-to-battlefield-victory-2025-05-27.md`
+- `source-dialogue-works-col-larry-wilkerson-russia-launches-massive-new-offensive-the-battle-to-win-it-all-2025-05-27.md`

@@ -21,10 +21,10 @@ Iran's nuclear latency is not the same as an openly declared nuclear arsenal. It
 
 - [Pape coercive-center index](../../sheets/pape-coercive-center-index.md) for system leverage and crisis clocks.
 - [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md) for balancing pressure and nuclear-restraint realism.
-- [Parsi 2026-02-20](../../../../years/2026/raw-input/2026-02-20/substack-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md) for the warning that even limited attack can widen war.
-- [Parsi 2026-03-08](../../../../years/2026/raw-input/2026-03-08/substack-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md) for regime-survival skepticism.
-- [Parsi 2026-05-03](../../../../years/2026/raw-input/2026-05-03/substack-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md) for regional architecture / proposal logic.
-- [Ritter 2026-02-05](../../../../years/2026/raw-input/2026-02-05/substack-ritter-alas-babylon-2026-02-05.md) for nuclear escalation warning.
+- [Parsi 2026-02-20](../../../../years/2026/raw-input/2026-02-20/source-parsi-no-even-a-small-attack-on-iran-will-lead-to-war-2026-02-20.md) for the warning that even limited attack can widen war.
+- [Parsi 2026-03-08](../../../../years/2026/raw-input/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md) for regime-survival skepticism.
+- [Parsi 2026-05-03](../../../../years/2026/raw-input/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md) for regional architecture / proposal logic.
+- [Ritter 2026-02-05](../../../../years/2026/raw-input/2026-02-05/source-ritter-alas-babylon-2026-02-05.md) for nuclear escalation warning.
 
 ## Comparison
 

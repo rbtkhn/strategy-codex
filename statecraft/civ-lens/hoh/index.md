@@ -8,7 +8,7 @@ Purpose: front door for the compact Hoh starter shelf inside `statecraft/civ-len
 
 - [README.md](README.md)
 - [hoh-routing.md](hoh-routing.md)
-- [hoh-raw-input-index.md](hoh-raw-input-index.md)
+- [hoh-source-index.md](hoh-source-index.md)
 
 ## Canonical Structure
 
@@ -16,7 +16,7 @@ The current Hoh starter shelf is intentionally light:
 
 - the front-door starter surface in [README.md](README.md)
 - the routing surface in [hoh-routing.md](hoh-routing.md)
-- the provenance bench in [hoh-raw-input-index.md](hoh-raw-input-index.md)
+- the source bench in [hoh-source-index.md](hoh-source-index.md)
 
 ## Current Shelf Rule
 

@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `transcript` (2), `youtube` (1)
+- Body kind mix: `transcript` (2), `source` (1)
+- Source form mix: `interview` (3)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (2), `john-mearsheimer` (1)
 - Threads: `freeman` (2), `davis` (1), `diesen` (1), `mearsheimer` (1), `nima` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1)
-
 ## Files
 
-- `transcript-dialogue-works-amb-chas-freeman-gaza-s-silent-hell-genocide-and-starvation-in-real-time-2025-08-01.md`
-- `transcript-diesen-mearsheimer-liberal-delusions-and-how-nato-led-ukraine-down-the-primrose-path-2025-08-01.md`
-- `youtube-daniel-davis-deep-dive-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01.md`
+- `source-daniel-davis-deep-dive-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01.md`
+- `source-dialogue-works-amb-chas-freeman-gaza-s-silent-hell-genocide-and-starvation-in-real-time-2025-08-01.md`
+- `source-diesen-mearsheimer-liberal-delusions-and-how-nato-led-ukraine-down-the-primrose-path-2025-08-01.md`

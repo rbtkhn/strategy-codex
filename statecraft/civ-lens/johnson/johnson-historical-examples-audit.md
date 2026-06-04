@@ -24,5 +24,5 @@ What this audit does now:
 
 - raw-input quotes remain evidence authority
 - `civ-state` is the primary pattern-reading source base
-- this audit does not replace host arcs, month shelves, or the dense-core atlas
+- this audit does not replace host arcs, month shelves, or the dense-core thread atlas
 - no Johnson-specific bridge adapter is created here

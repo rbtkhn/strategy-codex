@@ -8,7 +8,7 @@ Purpose: front door for the compact Kent starter shelf inside `statecraft/civ-le
 
 - [README.md](README.md)
 - [kent-routing.md](kent-routing.md)
-- [kent-raw-input-index.md](kent-raw-input-index.md)
+- [kent-source-index.md](kent-source-index.md)
 - [kent-support-spine-2026.md](kent-support-spine-2026.md)
 - [kent-march-may-2026-cluster-note.md](kent-march-may-2026-cluster-note.md)
 
@@ -18,7 +18,7 @@ The current Kent starter shelf has four live surfaces:
 
 - the front-door starter surface in [README.md](README.md)
 - the routing surface in [kent-routing.md](kent-routing.md)
-- the provenance bench in [kent-raw-input-index.md](kent-raw-input-index.md)
+- the source bench in [kent-source-index.md](kent-source-index.md)
 - the support and bounded-cluster surfaces in [kent-support-spine-2026.md](kent-support-spine-2026.md) and [kent-march-may-2026-cluster-note.md](kent-march-may-2026-cluster-note.md)
 
 ## Current Shelf Rule

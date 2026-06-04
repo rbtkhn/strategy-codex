@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `transcript` (2), `substack` (1), `youtube` (1)
+- Body kind mix: `transcript` (3), `substack-post` (1)
+- Source form mix: `post` (2), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `1`
 - Distinct guests: `0`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `davis` (2), `crooke` (1), `mercouris` (1), `pape` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (2), `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-pape-strategic-briefings-iran-war-and-2026-03-13.md`
-- `transcript-davis-crooke-irans-asymmetrical-war-2026-03-13.md`
-- `transcript-davis-finishing-the-job-2026-03-13.md`
-- `youtube-alex-mercouris-russia-blamed-for-iran-missile-strikes-drones-smash-bases-ships-burn-in-2026-03-13.md`
+- `source-alex-mercouris-russia-blamed-for-iran-missile-strikes-drones-smash-bases-ships-burn-in-2026-03-13.md`
+- `source-davis-crooke-irans-asymmetrical-war-2026-03-13.md`
+- `source-davis-finishing-the-job-2026-03-13.md`
+- `source-pape-strategic-briefings-iran-war-and-2026-03-13.md`

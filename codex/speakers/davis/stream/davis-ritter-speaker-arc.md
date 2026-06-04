@@ -43,12 +43,12 @@ This lane is now materially present on disk as a seven-appearance 2026 run. It s
 
 If the operator needs only one file:
 
-- open [youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- open [source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
 
 If the operator needs the best paired read:
 
-- open [youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/youtube-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
-- then [youtube-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/youtube-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md)
+- open [source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-13/source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md)
+- then [source-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-31/source-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md)
 
 That pair gives the clearest mature lane shape:
 

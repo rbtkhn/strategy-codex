@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (2), `substack` (1)
+- Body kind mix: `cleaned-transcript` (1), `substack-post` (1), `transcript` (1)
+- Source form mix: `interview` (1), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1)
 - Threads: `davis` (1), `mearsheimer` (1), `mercouris` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-simplicius-covering-his-tracks-trump-hard-pivots-2026-01-29.md`
-- `youtube-alex-mercouris-iran-says-will-close-hormuz-straits-as-us-prepares-attack-rubio-admits-r-2026-01-29.md`
-- `youtube-daniel-davis-deep-dive-john-mearsheimer-there-s-no-decisive-win-for-trump-w-iran-2026-01-29.md`
+- `source-alex-mercouris-iran-says-will-close-hormuz-straits-as-us-prepares-attack-rubio-admits-r-2026-01-29.md`
+- `source-daniel-davis-deep-dive-john-mearsheimer-there-s-no-decisive-win-for-trump-w-iran-2026-01-29.md`
+- `source-simplicius-covering-his-tracks-trump-hard-pivots-2026-01-29.md`

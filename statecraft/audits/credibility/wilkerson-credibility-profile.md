@@ -42,11 +42,11 @@ Wilkerson is an imperial-decline and military-statecraft warning speaker whose s
 
 1. [wilkerson-helix.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md)
 2. [diesen-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
-3. [2025-06-22 Wilkerson x Freeman x Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-22/transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
+3. [2025-06-22 Wilkerson x Freeman x Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-22/source-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
 
 ## Disconfirming or stress-test anchors
 
-1. [2025-06-22 Wilkerson x Freeman x Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-22/transcript-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
+1. [2025-06-22 Wilkerson x Freeman x Parsi](/C:/dev/strategy-codex/source-archive/statecraft/2025-06-22/source-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md)
 2. [nima-wilkerson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md)
 
 ## Native adjustment notes

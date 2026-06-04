@@ -68,12 +68,12 @@ The point is not to inflate Pape into a thicker interview shelf than the corpus 
 
 The clearest current cross-host reinforcement on disk is:
 
-- [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
+- [2026-03-10 Davis x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md)
 
 Useful wider reinforcement also exists in:
 
-- [2026-04-29 Breaking Points x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-29/youtube-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
-- [2026-05-12 Mario Nawfal x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-12/youtube-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
+- [2026-04-29 Breaking Points x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md)
+- [2026-05-12 Mario Nawfal x Pape](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-12/source-pape-mario-nawfal-trump-s-next-iran-steps-revealed-2026-05-12.md)
 
 See [pape-cross-host-note.md](/C:/dev/strategy-codex/codex/speakers/pape/pape-cross-host-note.md).
 
@@ -85,7 +85,7 @@ If the operator needs the best current stream entry:
 
 If the operator needs the clearest guest-distributed entry:
 
-- open [transcript-davis-pape-escalation-trap-2026-03-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/transcript-davis-pape-escalation-trap-2026-03-10.md)
+- open [source-davis-pape-escalation-trap-2026-03-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md)
 
 If the operator needs the object doctrine rather than a live lane:
 

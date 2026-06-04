@@ -71,7 +71,7 @@ Use this helix note when the notebook is doing one or more of the following:
 ## Boundaries
 
 - Do not merge the authored Source Set into the interview Source Set; the helix is a reading pattern, not a source-class collapse.
-- Do not treat generic `transcript-pape.md`, X bundles, date-named captures, or verification notes as interview-strand sources until a separate source-boundary pass promotes them.
+- Do not treat generic `source-pape-2026-04-18.md`, X bundles, date-named captures, or verification notes as interview-strand sources until a separate source-boundary pass promotes them.
 - Pape remains primarily a forecast-mechanism object. Do not flatten him into pure economics, pure war mechanics, or pure power-rank commentary.
 - This helix is mature enough to route, but smaller than the Crooke/Ritter interview shelves. Its strength is forecast discipline plus targeted public pressure.
 - If the question is mainly "what did Pape actually predict and what would falsify it?", route to [pape-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/pape/stream/pape-forecast-ledger-2026.md) rather than overloading the helix with ledger work.

@@ -14,7 +14,7 @@ Current shelf jobs after this pass:
 | [README.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/README.md) | wrapper front door | keep; now mirrors the same contract more cleanly |
 | [mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-arc.md) | person arc | keep as canonical whole-speaker continuity |
 | [mearsheimer-routing.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-routing.md) | routing | keep; fastest host-selection surface |
-| [mearsheimer-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md) | provenance bench and non-core appearance bench | keep; exhaustive authority for resolved appearances |
+| [mearsheimer-source-index.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-source-index.md) | source bench and non-core appearance bench | keep; exhaustive authority for resolved appearances |
 | [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md) | comparison surface | keep; durable `Diesen + Davis` crossing object |
 | [mearsheimer-support-spine-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md) | support spine | keep; speaker-owned maturity and host-led month-support explanation |
 | [mearsheimer-historical-examples-audit.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-historical-examples-audit.md) | support surface | keep; historical-pattern retrieval support |
@@ -32,7 +32,7 @@ That doctrine still holds:
 - the stable host comparison still lives in [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
 - the current `Diesen + Davis` pair is still the canonical core
 - the Napolitano lane is real but still reinforcing orbit, not a third equal strand
-- the raw-input index owns a meaningful non-core appearance bench that widens the shelf without collapsing that doctrine
+- the source index owns a meaningful non-core appearance bench that widens the shelf without collapsing that doctrine
 
 This is a stronger test of the refined skill than Macgregor because the shelf has both mature months and non-core breadth, yet still does not want native speaker month pages.
 
@@ -94,7 +94,7 @@ Why:
 
 Current boundary reading:
 
-- [mearsheimer-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md) remains the provenance authority and the active non-core appearance bench
+- [mearsheimer-source-index.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-source-index.md) remains the provenance authority and the active non-core appearance bench
 - [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md) remains the comparison surface
 - host-local arcs remain the best place to read transformation by host
 - [mearsheimer-support-spine-2025-2026.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md) now owns the maturity explanation rather than leaving it implicit
@@ -116,8 +116,8 @@ Current judgment:
 
 ### Unresolved but honestly labeled
 
-- [transcript-mearsheimer-redacted-trump-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/transcript-mearsheimer-redacted-trump-iran-2026-04-21.md) remains unresolved in compatibility residue and page notes
-- [transcript-hedges-mearsheimer-iran-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/transcript-hedges-mearsheimer-iran-2026-04-20.md) remains unresolved in compatibility residue and page notes
+- [source-mearsheimer-redacted-trump-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) remains unresolved in compatibility residue and page notes
+- [source-hedges-mearsheimer-iran-2026-04-20.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) remains unresolved in compatibility residue and page notes
 
 ### Unresolved and still leaking as if canonical
 

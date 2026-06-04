@@ -23,8 +23,8 @@ Open the Dialogue Works lane first when the real question is:
 
 Best current anchors:
 
-- [2026-05-20 / Dialogue Works x Hoh](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/youtube-hoh-dialogue-works-the-pentagon-s-biggest-lie-about-iran-2026-05-20.md)
-- [2026-05-27 / Dialogue Works x Hoh](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/youtube-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27.md)
+- [2026-05-20 / Dialogue Works x Hoh](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/source-hoh-dialogue-works-the-pentagon-s-biggest-lie-about-iran-2026-05-20.md)
+- [2026-05-27 / Dialogue Works x Hoh](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27.md)
 
 ## Open Napolitano First
 
@@ -36,8 +36,8 @@ Open the Judging Freedom lane first when the real question is:
 
 Best current anchors:
 
-- [2026-03-17 / Judging Freedom x Hoh](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/transcript-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md)
-- [2026-05-26 / Judging Freedom x Hoh](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md)
+- [2026-03-17 / Judging Freedom x Hoh](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md)
+- [2026-05-26 / Judging Freedom x Hoh](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md)
 
 ## Open Davis First
 
@@ -49,7 +49,7 @@ Open the Davis lane first when the real question is:
 
 Best current anchor:
 
-- [2025-10-10 / Daniel Davis Deep Dive x Matt Hoh](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-10/youtube-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md)
+- [2025-10-10 / Daniel Davis Deep Dive x Matt Hoh](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-10/source-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md)
 
 ## Current shelf rule
 

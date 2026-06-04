@@ -15,7 +15,7 @@ Open here first only if you arrived through older `codex/speakers/` routes and n
 - [Pape forecast ledger](/C:/dev/strategy-codex/statecraft/civ-lens/pape/stream/pape-forecast-ledger-2026.md)
 - [Pape interview appearances](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-interview-appearances-2025-2026.md)
 - [Pape helix](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-helix.md)
-- [Pape raw-input index](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-raw-input-index.md)
+- [Pape source index](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-source-index.md)
 
 ## Compatibility residue
 
@@ -25,7 +25,7 @@ The codex-side files remain as migration residue and support material:
 - `pape-helix.md`
 - `pape-speaker-object.md`
 - `pape-cross-host-note.md`
-- `pape-raw-input-index.md`
+- `pape-source-index.md`
 - `stream/`
 
 Do not treat this codex folder as a co-equal canonical shelf beside the statecraft one.

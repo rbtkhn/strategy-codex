@@ -12,7 +12,7 @@ The shelf is intentionally a lighter first pass. Barnes is already a real cross-
 
 - [barnes-arc.md](barnes-arc.md)
 - [barnes-routing.md](barnes-routing.md)
-- [barnes-raw-input-index.md](barnes-raw-input-index.md)
+- [barnes-source-index.md](barnes-source-index.md)
 - [barnes-helix.md](barnes-helix.md)
 - [barnes-support-spine-2025-2026.md](barnes-support-spine-2025-2026.md)
 
@@ -29,7 +29,7 @@ Barnes's canonical statecraft shelf currently has five speaker-owned layers:
 
 - **Person arc:** [barnes-arc.md](barnes-arc.md) is the primary Statecraft Synthesis surface for Barnes continuity across hosts and the January through May 2026 run.
 - **Routing surface:** [barnes-routing.md](barnes-routing.md) answers which host lane or source file to open first for a given Barnes use.
-- **Provenance bench:** [barnes-raw-input-index.md](barnes-raw-input-index.md) is the canonical route map for materialized Barnes appearances and support-tier Barnes-adjacent captures.
+- **Source index:** [barnes-source-index.md](barnes-source-index.md) is the canonical route map for materialized Barnes appearances and support-tier Barnes-adjacent captures.
 - **Cross-host note:** [barnes-helix.md](barnes-helix.md) explains the real host-conditioned structure without overstating non-Davis maturity.
 - **Support spine:** [barnes-support-spine-2025-2026.md](barnes-support-spine-2025-2026.md) owns maturity law and the rule for how this lighter shelf should extend later.
 
@@ -54,10 +54,10 @@ The legacy `codex/speakers/barnes/` path is now front-door compatibility only.
 ## Host Lanes
 
 - [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
-- [Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/transcript-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
-- [Nima x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/transcript-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
-- [Mario Nawfal x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/youtube-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)
-- [Johnson x Barnes support](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/barnes-countercurrent-2026-04-17-verbatim.md)
+- [Mercouris x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-mercouris-barnes-fractured-iran-trump-2026-04-23.md)
+- [Nima x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-alkorshid-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md)
+- [Mario Nawfal x Barnes](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md)
+- [Johnson x Barnes support](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md)
 
 ## Boundary
 

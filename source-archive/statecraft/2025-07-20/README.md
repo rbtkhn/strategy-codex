@@ -4,12 +4,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `3`
-- Type mix: `youtube` (3)
+- Source files: `4`
+- Body kind mix: `transcript` (3), `source` (1)
+- Source form mix: `interview` (3), `solo` (1)
 - Distinct channels/shows: `2`
-- Distinct hosts: `2`
-- Distinct guests: `2`
-- Distinct threads: `5`
+- Distinct hosts: `3`
+- Distinct guests: `3`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
@@ -17,16 +18,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1)
-- Guests: `Alex Krainer` (1), `Larry C. Johnson; Lawrence Wilkerson` (1)
-- Threads: `dialogue-works` (2), `nima` (2), `krainer` (1), `mercouris` (1), `wilkerson` (1)
-
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
+- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `daniel-davis` (1)
+- Guests: `Alex Krainer` (1), `Larry C. Johnson; Lawrence Wilkerson` (1), `john-mearsheimer` (1)
+- Threads: `dialogue-works` (2), `nima` (2), `davis` (1), `krainer` (1), `mearsheimer` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Files
 
-- `youtube-alex-mercouris-pokrovsk-siege-tightens-alarmed-us-orders-zelensky-restart-istanbul-talks-china-buys-russian-oil-2025-07-20.md`
-- `youtube-dialogue-works-iran-russia-china-unleash-epic-counterstrike-against-the-west-alex-krainer-2025-07-20.md`
-- `youtube-dialogue-works-israel-wont-survive-next-war-with-iran-yemen-proved-it-larry-c-johnson-col-larry-wilkerson-2025-07-20.md`
+- `source-alex-mercouris-pokrovsk-siege-tightens-alarmed-us-orders-zelensky-restart-istanbul-talks-china-buys-russian-oil-2025-07-20.md`
+- `source-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md`
+- `source-dialogue-works-iran-russia-china-unleash-epic-counterstrike-against-the-west-alex-krainer-2025-07-20.md`
+- `source-dialogue-works-israel-wont-survive-next-war-with-iran-yemen-proved-it-larry-c-johnson-col-larry-wilkerson-2025-07-20.md`

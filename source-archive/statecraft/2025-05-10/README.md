@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `transcript` (2)
+- Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1)
 - Threads: `davis` (1), `mearsheimer` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-trump-backs-starmer-macron-ultimatum-moscow-says-no-defies-sanctions-uk-labour-mps-turn-on-starmer-2025-05-10.md`
-- `youtube-daniel-davis-deep-dive-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md`
+- `source-alex-mercouris-trump-backs-starmer-macron-ultimatum-moscow-says-no-defies-sanctions-uk-labour-mps-turn-on-starmer-2025-05-10.md`
+- `source-daniel-davis-deep-dive-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md`

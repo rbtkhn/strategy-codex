@@ -11,7 +11,7 @@ Use it for speaker identity, authored/interview crossing, cross-context thread r
 - [parsi-arc.md](parsi-arc.md)
 - [parsi-routing.md](parsi-routing.md)
 - [stream/parsi-2025-present-arc-threads.md](stream/parsi-2025-present-arc-threads.md)
-- [parsi-raw-input-index.md](parsi-raw-input-index.md)
+- [parsi-source-index.md](parsi-source-index.md)
 - [parsi-helix.md](parsi-helix.md)
 - [stream/parsi-forecast-ledger-2025-2026.md](stream/parsi-forecast-ledger-2025-2026.md)
 - [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)

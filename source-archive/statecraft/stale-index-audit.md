@@ -4,7 +4,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 
 ## Stats
 
-- Day indices: `ok` (434)
+- Day indices: `ok` (435), `stale` (2)
 - Month indices: `ok` (18)
 - Year indices: `ok` (2)
 - Thread index: `ok`
@@ -78,7 +78,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `2025-03-28` | `ok` |
 | `2025-04-01` | `ok` |
 | `2025-04-02` | `ok` |
-| `2025-04-03` | `ok` |
+| `2025-04-03` | `stale` |
 | `2025-04-04` | `ok` |
 | `2025-04-05` | `ok` |
 | `2025-04-06` | `ok` |
@@ -106,7 +106,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `2025-04-28` | `ok` |
 | `2025-04-29` | `ok` |
 | `2025-04-30` | `ok` |
-| `2025-05-01` | `ok` |
+| `2025-05-01` | `stale` |
 | `2025-05-02` | `ok` |
 | `2025-05-03` | `ok` |
 | `2025-05-04` | `ok` |
@@ -164,11 +164,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `2025-07-09` | `ok` |
 | `2025-07-10` | `ok` |
 | `2025-07-11` | `ok` |
+| `2025-07-14` | `ok` |
 | `2025-07-15` | `ok` |
 | `2025-07-18` | `ok` |
 | `2025-07-20` | `ok` |
 | `2025-07-22` | `ok` |
 | `2025-07-24` | `ok` |
+| `2025-07-25` | `ok` |
 | `2025-07-26` | `ok` |
 | `2025-07-29` | `ok` |
 | `2025-07-30` | `ok` |
@@ -195,6 +197,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `2025-08-27` | `ok` |
 | `2025-08-28` | `ok` |
 | `2025-08-29` | `ok` |
+| `2025-09-04` | `ok` |
 | `2025-09-05` | `ok` |
 | `2025-09-06` | `ok` |
 | `2025-09-07` | `ok` |

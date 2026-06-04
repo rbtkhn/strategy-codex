@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (2), `transcript` (1)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Larry Johnson` (1)
 - Threads: `diesen` (2), `freeman` (1), `johnson` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-glenn-diesen-chas-freeman-america-s-global-role-after-the-ukraine-proxy-war-2025-08-14.md`
-- `youtube-alex-mercouris-moscow-firm-on-terms-for-wars-end-trump-no-zelensky-rutte-in-alaska-russia-smashes-kievs-missiles-2025-08-14.md`
-- `youtube-glenn-diesen-larry-johnson-what-to-expect-from-putin-trump-meeting-in-alaska-2025-08-14.md`
+- `source-alex-mercouris-moscow-firm-on-terms-for-wars-end-trump-no-zelensky-rutte-in-alaska-russia-smashes-kievs-missiles-2025-08-14.md`
+- `source-glenn-diesen-chas-freeman-america-s-global-role-after-the-ukraine-proxy-war-2025-08-14.md`
+- `source-glenn-diesen-larry-johnson-what-to-expect-from-putin-trump-meeting-in-alaska-2025-08-14.md`

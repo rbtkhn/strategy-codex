@@ -21,7 +21,7 @@ That means:
 
 - [mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-arc.md)
 - [mearsheimer-routing.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-routing.md)
-- [mearsheimer-raw-input-index.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md)
+- [mearsheimer-source-index.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-source-index.md)
 - [mearsheimer-helix.md](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-helix.md)
 
 ## Structural notes
@@ -43,11 +43,11 @@ Use this ladder as a Mearsheimer-local implementation of the governing [speaker-
 ## Cross-host and bench files
 
 - [Mearsheimer index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/index.md)
-- [Mearsheimer raw-input index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-raw-input-index.md)
+- [Mearsheimer source index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-source-index.md)
 
 Use these when the Mearsheimer question is wider than the two core host arcs:
 
-- open the raw-input index for the current `non-core appearance bench`
+- open the source index for the current `non-core appearance bench`
 - open the index for the combined front door and best live entry files
 - open the orthogonality review when the task is deciding whether the double helix is still the right structure
 - open the historical examples audit and theme pack when the task is historical-pattern retrieval rather than only routing

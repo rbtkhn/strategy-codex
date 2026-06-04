@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `youtube` (2), `predictive` (1), `transcript` (1)
+- Body kind mix: `transcript` (4)
+- Source form mix: `solo` (3), `interview` (1)
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
 - Distinct guests: `1`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (1)
 - Threads: `davis` (1), `diesen` (1), `jiang` (1), `mercouris` (1), `ritter` (1)
 
-## Filename Family Fallbacks
-
-- `predictive-history-*` (1), `transcript-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `predictive-history-game-theory-26-the-holy-empire-of-ai-2026-05-19.md`
-- `transcript-daniel-davis-iran-attack-on-hold-2026-05-19.md`
-- `youtube-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md`
-- `youtube-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19.md`
+- `source-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md`
+- `source-daniel-davis-iran-attack-on-hold-2026-05-19.md`
+- `source-game-theory-26-the-holy-empire-of-ai-2026-05-19.md`
+- `source-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19.md`

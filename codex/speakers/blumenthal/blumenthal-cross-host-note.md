@@ -10,7 +10,7 @@ Blumenthal is not only a legacy profile/thread shelf. There is a real live comme
 
 The clearest current anchor is:
 
-- [2026-04-21 Nemo x Blumenthal](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/transcript-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
+- [2026-04-21 Nemo x Blumenthal](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-blumenthal-israel-defeat-zionist-power-2026-04-21.md)
 
 That matters because it shows that the Blumenthal voice is legible in a concrete host setting: media-legitimacy critique, donor and influence suspicion, blockade-process cynicism, and U.S.-domestic narrative warfare all remain intact.
 

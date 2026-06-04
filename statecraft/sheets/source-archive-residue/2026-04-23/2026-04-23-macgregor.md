@@ -7,4 +7,4 @@ source_path: docs/skill-work/work-strategy/strategy-notebook/experts/macgregor/t
 ---
 
 ## 2026-04-23
-- Inbox | cold: full text in [`transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md`](provenance/2026-04-23/transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md) (pointer; SSOT raw-input) | thread:macgregor
+- Inbox | cold: full text in [`source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md`](provenance/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md) (pointer; SSOT raw-input) | thread:macgregor

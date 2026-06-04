@@ -30,12 +30,12 @@ Month inventory:
 
 High-value backtest anchors:
 
-- [Pape - Apr 02](../../source-archive/statecraft/2026-04-02/substack-pape-trump-accelerated-the-crisis-2026-04-02.md)
-- [Parsi - Apr 14](../../source-archive/statecraft/2026-04-14/substack-parsi-why-the-iran-ceasefire-may-have-shifted-the-dynamics-back-in-trumps-favor-2026-04-14.md)
-- [Pape - Apr 16](../../source-archive/statecraft/2026-04-16/substack-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md)
-- [Marandi - Apr 16](../../source-archive/statecraft/2026-04-16/transcript-marandi.md)
-- [Parsi - Apr 17](../../source-archive/statecraft/2026-04-17/transcript-parsi.md)
-- [Marandi - Apr 28](../../source-archive/statecraft/2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)
+- [Pape - Apr 02](../../source-archive/statecraft/2026-04-02/source-pape-trump-accelerated-the-crisis-2026-04-02.md)
+- [Parsi - Apr 14](../../source-archive/statecraft/2026-04-14/source-parsi-why-the-iran-ceasefire-may-have-shifted-the-dynamics-back-in-trumps-favor-2026-04-14.md)
+- [Pape - Apr 16](../../source-archive/statecraft/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md)
+- [Marandi - Apr 16](../../source-archive/statecraft/2026-04-16/source-marandi-2026-04-16.md)
+- [Parsi - Apr 17](../../source-archive/statecraft/2026-04-17/source-parsi-2026-04-17.md)
+- [Marandi - Apr 28](../../source-archive/statecraft/2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md)
 
 ## What The Month Confirms
 

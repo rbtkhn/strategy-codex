@@ -44,12 +44,12 @@ This lane is now materially present on disk as a dense cross-year run that start
 
 If the operator needs only one file:
 
-- open [transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
+- open [source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
 
 If the operator needs the best paired read:
 
-- open [transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/transcript-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
-- then [transcript-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-08/transcript-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
+- open [source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
+- then [source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md)
 
 That pair gives the clearest lane shape:
 
@@ -60,8 +60,8 @@ That pair gives the clearest lane shape:
 
 If the operator needs the strongest bridge from shock escalation to sustained-loss framing:
 
-- open [youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-04/youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md)
-- then [transcript-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-11/transcript-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md)
+- open [source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-04/source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md)
+- then [source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-11/source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md)
 
 ## Orthogonality guide
 

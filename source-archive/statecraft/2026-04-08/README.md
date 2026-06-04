@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `6`
-- Type mix: `substack` (3), `youtube` (2), `transcript` (1)
+- Body kind mix: `transcript` (3), `substack-post` (2), `paste-bundle` (1)
+- Source form mix: `newsletter` (3), `interview` (2), `solo` (1)
 - Distinct channels/shows: `5`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -21,15 +22,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry Johnson` (1), `Scott Ritter` (1)
 - Threads: `crooke` (1), `davis` (1), `johnson` (1), `mercouris` (1), `nima` (1), `parsi` (1), `ritter` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (3), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-crooke-the-10-point-iranian-framework-and-2026-04-08.md`
-- `substack-parsi-what-on-earth-just-happened-trump-iran-and-the-unlikely-ceasefire-2026-04-08.md`
-- `substack-simplicius-from-dire-straits-to-done-deal-triumphant-2026-04-08.md`
-- `transcript-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md`
-- `youtube-alex-mercouris-us-gives-iran-control-of-hormuz-for-2-week-truce-talks-iran-10-points-us-2026-04-08.md`
-- `youtube-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md`
+- `source-alex-mercouris-us-gives-iran-control-of-hormuz-for-2-week-truce-talks-iran-10-points-us-2026-04-08.md`
+- `source-crooke-the-10-point-iranian-framework-and-2026-04-08.md`
+- `source-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md`
+- `source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md`
+- `source-parsi-what-on-earth-just-happened-trump-iran-and-the-unlikely-ceasefire-2026-04-08.md`
+- `source-simplicius-from-dire-straits-to-done-deal-triumphant-2026-04-08.md`

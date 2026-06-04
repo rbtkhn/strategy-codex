@@ -12,7 +12,7 @@ Johnson now has:
 - helix
 - routing surface
 - January through May 2026 bounded month ladder
-- a canonical recurring-strand atlas for the dense April-May 2026 core
+- a canonical thread atlas for the dense April-May 2026 core
 
 The remaining continuity gap is chronological, not structural.
 

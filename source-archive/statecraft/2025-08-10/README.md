@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `youtube` (3)
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Brian Berletic` (1), `Larry Wilkerson; Scott Ritter` (1)
 - Threads: `berletic` (1), `diesen` (1), `mercouris` (1), `nima` (1), `ritter` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-alex-mercouris-zelensky-uk-eu-plot-to-gatecrash-alaska-summit-russia-breaks-through-pokrovsk-defences-brics-unite-2025-08-10.md`
-- `youtube-dialogue-works-trumps-plan-to-threaten-putin-with-sanctions-submarines-col-larry-wilkerson-scott-ritter-2025-08-10.md`
-- `youtube-glenn-diesen-brian-berletic-is-the-us-setting-a-trap-for-russia-in-alaska-2025-08-10.md`
+- `source-alex-mercouris-zelensky-uk-eu-plot-to-gatecrash-alaska-summit-russia-breaks-through-pokrovsk-defences-brics-unite-2025-08-10.md`
+- `source-dialogue-works-trumps-plan-to-threaten-putin-with-sanctions-submarines-col-larry-wilkerson-scott-ritter-2025-08-10.md`
+- `source-glenn-diesen-brian-berletic-is-the-us-setting-a-trap-for-russia-in-alaska-2025-08-10.md`

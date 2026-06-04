@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `transcript` (2)
+- Body kind mix: `transcript` (2)
+- Source form mix: `interview` (2)
 - Distinct channels/shows: `1`
 - Distinct hosts: `1`
 - Distinct guests: `2`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Charles Freeman` (1), `Jeffrey Sachs` (1)
 - Threads: `napolitano` (2), `freeman` (1), `sachs` (1)
 
-## Filename Family Fallbacks
-
-- (none)
-
 ## Files
 
-- `transcript-napolitano-amb-charles-freeman-can-trump-stop-netanyahu-2025-07-08.md`
-- `transcript-napolitano-sachs-is-netanyahu-lobbying-for-more-war-2025-07-08.md`
+- `source-napolitano-amb-charles-freeman-can-trump-stop-netanyahu-2025-07-08.md`
+- `source-napolitano-sachs-is-netanyahu-lobbying-for-more-war-2025-07-08.md`

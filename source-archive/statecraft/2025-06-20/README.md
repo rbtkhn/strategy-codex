@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
-- Type mix: `transcript` (3), `youtube` (2)
+- Body kind mix: `transcript` (4), `source` (1)
+- Source form mix: `interview` (2), `solo` (2), `panel` (1)
 - Distinct channels/shows: `4`
 - Distinct hosts: `5`
 - Distinct guests: `4`
@@ -21,14 +22,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1), `John Mearsheimer` (1), `alexander-mercouris` (1), `john-mearsheimer` (1)
 - Threads: `diesen` (2), `mearsheimer` (2), `mercouris` (2), `davis` (1), `macgregor` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1), `youtube-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20.md`
-- `transcript-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md`
-- `transcript-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md`
-- `youtube-alex-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md`
-- `youtube-daniel-davis-lt-col-daniel-davis-iran-israel-war-dont-enter-into-it-2025-06-20.md`
+- `source-alex-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md`
+- `source-daniel-davis-lt-col-daniel-davis-iran-israel-war-dont-enter-into-it-2025-06-20.md`
+- `source-diesen-macgregor-america-s-attack-on-iran-could-start-ww3-2025-06-20.md`
+- `source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md`
+- `source-napolitano-mearsheimer-what-if-the-us-does-attack-iran-2025-06-20.md`

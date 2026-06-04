@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
-- Type mix: `youtube` (3), `transcript` (1)
+- Body kind mix: `transcript` (4)
+- Source form mix: `interview` (3), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `3`
@@ -21,13 +22,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1), `Israel` (1), `Ukraine Russia War SHOWDOWN w/Chas Freeman` (1)
 - Threads: `davis` (2), `freeman` (1), `macgregor` (1), `mercouris` (1), `napolitano` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `transcript-napolitano-macgregor-the-coming-world-war-iii-2025-01-23.md`
-- `youtube-alex-mercouris-trump-blocks-ukraine-arms-threatens-russia-moscow-rejects-threats-zelens-2025-01-23.md`
-- `youtube-daniel-davis-deep-dive-israel-drunk-on-their-own-power-2025-01-23.md`
-- `youtube-daniel-davis-deep-dive-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23.md`
+- `source-alex-mercouris-trump-blocks-ukraine-arms-threatens-russia-moscow-rejects-threats-zelens-2025-01-23.md`
+- `source-daniel-davis-deep-dive-israel-drunk-on-their-own-power-2025-01-23.md`
+- `source-daniel-davis-deep-dive-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23.md`
+- `source-napolitano-macgregor-the-coming-world-war-iii-2025-01-23.md`

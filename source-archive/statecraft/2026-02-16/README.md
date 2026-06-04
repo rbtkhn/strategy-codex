@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
-- Type mix: `transcript` (2), `youtube` (2), `substack` (1)
+- Body kind mix: `transcript` (4), `substack-post` (1)
+- Source form mix: `interview` (3), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `4`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -21,14 +22,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Robert Barnes` (2), `Jacques Baud` (1)
 - Threads: `barnes` (2), `davis` (2), `baud` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (1), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-simplicius-reports-claim-us-readying-long-term-2026-02-16.md`
-- `transcript-davis-deep-dive-robert-barnes-pam-bondi-epstein-iran-2026-02-16.md`
-- `transcript-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md`
-- `youtube-alex-mercouris-putin-sends-tough-team-geneva-as-russia-prepares-giant-missile-strike-br-2026-02-16.md`
-- `youtube-daniel-davis-deep-dive-alert-what-trump-must-understand-epstein-class-v-working-class-2026-02-16.md`
+- `source-alex-mercouris-putin-sends-tough-team-geneva-as-russia-prepares-giant-missile-strike-br-2026-02-16.md`
+- `source-daniel-davis-deep-dive-alert-what-trump-must-understand-epstein-class-v-working-class-2026-02-16.md`
+- `source-davis-deep-dive-robert-barnes-pam-bondi-epstein-iran-2026-02-16.md`
+- `source-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md`
+- `source-simplicius-reports-claim-us-readying-long-term-2026-02-16.md`

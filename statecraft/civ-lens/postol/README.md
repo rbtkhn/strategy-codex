@@ -12,7 +12,7 @@ The shelf is intentionally a lighter first pass. Postol is already a real cross-
 
 - [postol-arc.md](postol-arc.md)
 - [postol-routing.md](postol-routing.md)
-- [postol-raw-input-index.md](postol-raw-input-index.md)
+- [postol-source-index.md](postol-source-index.md)
 - [postol-helix.md](postol-helix.md)
 - [postol-support-spine-2025-2026.md](postol-support-spine-2025-2026.md)
 
@@ -22,7 +22,7 @@ Postol's canonical statecraft shelf currently has five speaker-owned layers:
 
 - **Person arc:** [postol-arc.md](postol-arc.md) holds whole-speaker continuity across the 2026 pressure run and the earlier host-conditioned buildout.
 - **Routing surface:** [postol-routing.md](postol-routing.md) answers which host lane or source file to open first for a given Postol use.
-- **Provenance bench:** [postol-raw-input-index.md](postol-raw-input-index.md) is the canonical route map for materialized Postol appearances and support-tier inventory evidence.
+- **Source index:** [postol-source-index.md](postol-source-index.md) is the canonical route map for materialized Postol appearances and support-tier inventory evidence.
 - **Cross-host note:** [postol-helix.md](postol-helix.md) explains the real host-conditioned structure and why the object is helix-first.
 - **Support spine:** [postol-support-spine-2025-2026.md](postol-support-spine-2025-2026.md) owns maturity law and the rule for how this lighter shelf should extend later.
 

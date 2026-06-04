@@ -14,7 +14,7 @@ Backward extension should refine the existing stack, not fork it.
 
 If meaningful earlier material is added:
 
-1. update [marandi-raw-input-index.md](marandi-raw-input-index.md)
+1. update [marandi-source-index.md](marandi-source-index.md)
 2. reassess [marandi-cross-year-note.md](marandi-cross-year-note.md)
 3. update [stream/marandi-2025-present-arc-threads.md](stream/marandi-2025-present-arc-threads.md) only if the earlier material truly changes recurring thread boundaries
 4. update [marandi-arc.md](marandi-arc.md) only if the maturity story or speaker-wide motion materially changes

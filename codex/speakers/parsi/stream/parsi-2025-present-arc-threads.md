@@ -1,10 +1,12 @@
-# Parsi 2025-present arc threads
+# Parsi 2025-present thread atlas
 
 WORK only; not Record.
 
 Purpose: canonical recurring thread atlas for the Parsi shelf across `2025-present`.
 
 This is an atlas, not an authored ledger and not a chronology dump.
+
+Vocabulary note: this file is the **thread atlas**. The items below are the recurring **arc-threads** that cross contexts and bounded month surfaces.
 
 ## Spine
 
@@ -85,3 +87,4 @@ For bounded mature-core readings, open:
 - This file names recurring continuity families; it does not replace the authored ledger or interview map.
 - This file is not a claim that all raw-input items are equally weight-bearing.
 - This file should stay Parsi-owned; do not fold adjacent non-Parsi diplomacy commentary into these threads.
+- `arc-threads` is the strand grammar inside the atlas, not a competing surface name for this file.

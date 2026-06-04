@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Type mix: `substack` (2), `youtube` (1)
+- Body kind mix: `operator-transcript` (1), `substack-post` (1), `transcript` (1)
+- Source form mix: `newsletter` (2), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `1`
 - Distinct guests: `1`
@@ -21,12 +22,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (1)
 - Threads: `mercouris` (1), `ritter` (1), `simplicius` (1)
 
-## Filename Family Fallbacks
-
-- `substack-*` (2), `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `substack-ritter-russia-dark-sage-karaganov-2026-01-03.md`
-- `substack-simplicius-sitrep-1226-odessa-pressure-peaks-2026-01-03.md`
-- `youtube-alex-mercouris-us-raids-venezuela-seizes-maduro-no-resistance-government-retains-contro-2026-01-03.md`
+- `source-alex-mercouris-us-raids-venezuela-seizes-maduro-no-resistance-government-retains-contro-2026-01-03.md`
+- `source-ritter-russia-dark-sage-karaganov-2026-01-03.md`
+- `source-simplicius-sitrep-1226-odessa-pressure-peaks-2026-01-03.md`

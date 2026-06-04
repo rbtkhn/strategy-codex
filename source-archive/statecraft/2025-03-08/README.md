@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `1`
-- Type mix: `transcript` (1)
+- Body kind mix: `source` (1)
+- Source form mix: `panel` (1)
 - Distinct channels/shows: `0`
 - Distinct hosts: `1`
 - Distinct guests: `2`
@@ -21,10 +22,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `alexander-mercouris` (1), `john-mearsheimer` (1)
 - Threads: `diesen` (1), `mearsheimer` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `transcript-*` (1)
-
 ## Files
 
-- `transcript-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md`
+- `source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md`

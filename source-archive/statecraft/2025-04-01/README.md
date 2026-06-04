@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
-- Type mix: `youtube` (2)
+- Body kind mix: `transcript` (2)
+- Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
 - Distinct guests: `1`
@@ -21,11 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1)
 - Threads: `mearsheimer` (1), `mercouris` (1)
 
-## Filename Family Fallbacks
-
-- `youtube-alex-mercouris-*` (1)
-
 ## Files
 
-- `youtube-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md`
-- `youtube-alex-mercouris-facing-us-threats-tariffs-russia-china-confer-wang-yi-moscow-oskol-2025-04-01.md`
+- `source-al-arabiya-english-ukraine-will-be-eliminated-john-mearsheimer-and-putin-advisor-discuss-us-russia-relations-2025-04-01.md`
+- `source-alex-mercouris-facing-us-threats-tariffs-russia-china-confer-wang-yi-moscow-oskol-2025-04-01.md`

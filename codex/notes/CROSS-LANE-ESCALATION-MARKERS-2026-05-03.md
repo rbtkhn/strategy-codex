@@ -17,7 +17,7 @@ The shared pattern is that escalation is being governed by institutions and supp
 
 ## References
 
-- [Pape - What the First 60 Days Actually Changed and Why the Next 30 Will Be Worse](../provenance/2026-05-03/substack-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md)
+- [Pape - What the First 60 Days Actually Changed and Why the Next 30 Will Be Worse](../provenance/2026-05-03/source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md)
 - [Pape - What the Smart Questions Reveal About Where This War Is Going](../provenance/2026-04-29/substack-pape-what-the-smart-questions-reveal-about-where-this-war-is-going-2026-04-29.md)
 - [Pape - After the Briefing: The 3 Indicators That Will Decide the Next Phase of the Iran War](../provenance/2026-04-27/substack-pape-after-the-briefing-the-3-indicators-that-will-decide-the-next-phase-of-the-iran-war-2026-04-27.md)
 - [Mercouris refined page - 2026-04-27](../experts/mercouris/mercouris-page-2026-04-27.md)

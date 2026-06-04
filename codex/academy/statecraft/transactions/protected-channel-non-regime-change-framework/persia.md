@@ -14,7 +14,7 @@ Sovereignty-preserving protected-channel sequence.
 
 - Speaker-state inputs: [Parsi](../../../../speakers/parsi/) for off-ramp destruction and settlement architecture; [Marandi](../../../../speakers/marandi/) for institutional continuity; [Ritter](../../../../speakers/ritter/) for regime-change blowback and martyrdom warning; [Pape](../../../../speakers/pape/) for coercive-center leverage.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Parsi 2026-03-08](../../../../years/2026/raw-input/2026-03-08/substack-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-03-17](../../../../years/2026/raw-input/2026-03-17/substack-parsi-why-was-larijani-targeted-2026-03-17.md).
+- Raw-input / provenance anchors: [Parsi 2026-03-08](../../../../years/2026/raw-input/2026-03-08/source-parsi-why-the-iranian-theocracy-will-likely-survive-2026-03-08.md); [Parsi 2026-03-17](../../../../years/2026/raw-input/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md).
 
 ## Civilization / Empire Helix Input
 

@@ -18,12 +18,12 @@ This file is a month-scoped scaffold for the April 2026 strategy backlog. In the
 
 | pub_date | status | kind | title / stub | source_url | raw-input file |
 |----------|--------|------|--------------|------------|----------------|
-| 2026-04-21 | needs canonical URL | operator-transcript | marandi-blockade-trump-nima-2026-04-21 | ? | [2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md](./2026-04-21/transcript-marandi-blockade-trump-nima-2026-04-21.md) |
-| 2026-04-24 | needs canonical URL | operator-transcript | nima-freeman-israel-agenda-collapsing-2026-04-24 | ? | [2026-04-24/transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md](./2026-04-24/transcript-nima-freeman-israel-agenda-collapsing-2026-04-24.md) |
-| 2026-04-27 | ready | transcript | Trump's Final Card Just Ended Israel — Full Breakdown | [https://www.youtube.com/watch?v=iZ5xSBYxxyQ](https://www.youtube.com/watch?v=iZ5xSBYxxyQ) | [2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md](./2026-04-27/transcript-baud-dialogue-works-nima-2026-04-27.md) |
+| 2026-04-21 | needs canonical URL | operator-transcript | marandi-blockade-trump-nima-2026-04-21 | ? | [2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md](./2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md) |
+| 2026-04-24 | needs canonical URL | operator-transcript | nima-freeman-israel-agenda-collapsing-2026-04-24 | ? | [2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md](./2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md) |
+| 2026-04-27 | ready | transcript | Trump's Final Card Just Ended Israel — Full Breakdown | [https://www.youtube.com/watch?v=iZ5xSBYxxyQ](https://www.youtube.com/watch?v=iZ5xSBYxxyQ) | [2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md](./2026-04-27/source-baud-dialogue-works-nima-2026-04-27.md) |
 | 2026-04-28 | needs canonical URL | transcript | 2026-04-28-alkorshid | ? | [2026-04-28/2026-04-28-alkorshid.md](./2026-04-28/2026-04-28-alkorshid.md) |
-| 2026-04-28 | ready | cleaned-transcript | John Helmer: The Middle East Will Never Be the Same: Iran's UNTHINKABLE Play, U.S. & Israel Respond | [https://www.youtube.com/watch?v=HfIxqx3QAVE](https://www.youtube.com/watch?v=HfIxqx3QAVE) | [2026-04-28/transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md](./2026-04-28/transcript-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) |
-| 2026-04-28 | needs canonical URL | cleaned-transcript | marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28 | ? | [2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md](./2026-04-28/transcript-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) |
+| 2026-04-28 | ready | cleaned-transcript | John Helmer: The Middle East Will Never Be the Same: Iran's UNTHINKABLE Play, U.S. & Israel Respond | [https://www.youtube.com/watch?v=HfIxqx3QAVE](https://www.youtube.com/watch?v=HfIxqx3QAVE) | [2026-04-28/source-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md](./2026-04-28/source-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md) |
+| 2026-04-28 | needs canonical URL | cleaned-transcript | marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28 | ? | [2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md](./2026-04-28/source-marandi-dialogue-works-trump-plan-dead-after-strike-2026-04-28.md) |
 
 ## Notes
 

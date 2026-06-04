@@ -7,7 +7,7 @@ Purpose: front door for the canonical `Dialogue Works` host shelf under the `nim
 ## Open First
 
 - [README.md](README.md)
-- [nima-raw-input-index.md](nima-raw-input-index.md)
+- [nima-source-index.md](nima-source-index.md)
 - [stream/nima-thread.md](stream/nima-thread.md) - legacy host-continuity surface; not a canonical topical thread
 - [stream/nima-shelf-2026-04.md](stream/nima-shelf-2026-04.md)
 
@@ -17,7 +17,7 @@ The orthogonality-bearing structure on this shelf is:
 
 - the host shelf front door in [README.md](README.md)
 - the distinct guest arcs under `stream/`
-- the raw-input route map in [nima-raw-input-index.md](nima-raw-input-index.md)
+- the source route map in [nima-source-index.md](nima-source-index.md)
 
 The older [stream/nima-thread.md](stream/nima-thread.md) file is a legacy host-continuity compatibility surface, not a canonical topical-thread atlas.
 

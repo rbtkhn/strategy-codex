@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**Superseded (lane split):** This file previously duplicated the full line-by-line transcript. **SSOT** is [provenance/2026-03-10/transcript-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../../../years/2026/provenance/2026-03-10/transcript-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md) only.
+**Superseded (lane split):** This file previously duplicated the full line-by-line transcript. **SSOT** is [provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../../../years/2026/provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md) only.
 
 - **Guest lane (Mearsheimer analysis):** [mearsheimer-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](mearsheimer-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
 - **Host lane (Diesen / Greater Eurasia show):** [../diesen/stream/diesen-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../diesen/stream/diesen-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)

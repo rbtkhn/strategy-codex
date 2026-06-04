@@ -334,19 +334,19 @@ _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (d
 ### Recent transcript material
 
 ## 2026-04-28
-- Inbox | cold: full text in [`transcript-sachs-carlson-iran-war-origins-2026-04-24.md`](provenance/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
+- Inbox | cold: full text in [`source-sachs-carlson-iran-war-origins-2026-04-24.md`](provenance/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
 ## 2026-04-27
-- Inbox | cold: full text in [`transcript-sachs-carlson-iran-war-origins-2026-04-24.md`](provenance/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
+- Inbox | cold: full text in [`source-sachs-carlson-iran-war-origins-2026-04-24.md`](provenance/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
 ## 2026-04-26
-- Inbox | cold: full text in [`transcript-sachs-carlson-iran-war-origins-2026-04-24.md`](provenance/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
+- Inbox | cold: full text in [`source-sachs-carlson-iran-war-origins-2026-04-24.md`](provenance/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md) (pointer; SSOT raw-input) | thread:sachs
 ## 2026-04-25
-- YT | cold: **Tucker** **Carlson** **Ãƒâ€”** **Jeffrey** **D.** **Sachs** Ã¢â‚¬â€ *The Real Origins of the Iran War and the Coming Economic Devastation* Ã¢â‚¬â€ **aired** **2026-04-24** Ã¢â‚¬â€ **Hormuz** **closure** **&** **global** **econ** **crisis,** **fork** **(off-ramp** **vs** **renewed** **bombing** **/** **all-out** **war);** **1953** **Mossadegh** **/** **empire** **frame,** **Shah** **/ 1979,** **hostage,** **post-1980** **U.S.Ã¢â‚¬â€œIran** **arc;** **Gulf** **/ desal** **/ missile** **vulnerability;** **Trump** **/** **Netanyahu** **/ political** **vs** **Ã¢â‚¬Å“grown-upÃ¢â‚¬Â** **off-ramp** // hook: **`thread:sachs`** **Ãƒâ€”** **Ã‚Â§1e** **Hormuz** **+** **Ã‚Â§1d** **exec** **Ã¢â‚¬â€** **full** [provenance/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md](provenance/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md) | TBD (pin `watch?v=`) | verify:operator-file+YouTube+full-text+aired:2026-04-24+opinion-historical-narrative-tier+not-Record | thread:sachs | IRAN | HORMUZ | US-POL | grep:Sachs+Carlson+Iran+origins+2026-04-24
+- YT | cold: **Tucker** **Carlson** **Ãƒâ€”** **Jeffrey** **D.** **Sachs** Ã¢â‚¬â€ *The Real Origins of the Iran War and the Coming Economic Devastation* Ã¢â‚¬â€ **aired** **2026-04-24** Ã¢â‚¬â€ **Hormuz** **closure** **&** **global** **econ** **crisis,** **fork** **(off-ramp** **vs** **renewed** **bombing** **/** **all-out** **war);** **1953** **Mossadegh** **/** **empire** **frame,** **Shah** **/ 1979,** **hostage,** **post-1980** **U.S.Ã¢â‚¬â€œIran** **arc;** **Gulf** **/ desal** **/ missile** **vulnerability;** **Trump** **/** **Netanyahu** **/ political** **vs** **Ã¢â‚¬Å“grown-upÃ¢â‚¬Â** **off-ramp** // hook: **`thread:sachs`** **Ãƒâ€”** **Ã‚Â§1e** **Hormuz** **+** **Ã‚Â§1d** **exec** **Ã¢â‚¬â€** **full** [provenance/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md](provenance/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md) | TBD (pin `watch?v=`) | verify:operator-file+YouTube+full-text+aired:2026-04-24+opinion-historical-narrative-tier+not-Record | thread:sachs | IRAN | HORMUZ | US-POL | grep:Sachs+Carlson+Iran+origins+2026-04-24
 
 ### Recent raw-input (lane)
 
 _Union of **on-disk** `raw-input/Ã¢â‚¬Â¦` files tagged with this expertÃ¢â‚¬â„¢s `thread:` and **inbox** lines (same paths de-duped; disk line kept first)._
 
-- [transcript-sachs-carlson-iran-war-origins-2026-04-24.md](provenance/2026-04-24/transcript-sachs-carlson-iran-war-origins-2026-04-24.md)
+- [source-sachs-carlson-iran-war-origins-2026-04-24.md](provenance/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md)
 
 ### Page references
 

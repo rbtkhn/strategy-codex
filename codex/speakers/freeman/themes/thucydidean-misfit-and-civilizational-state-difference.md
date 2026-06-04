@@ -23,7 +23,7 @@ Freeman uses the Thucydides trap and adjacent European power-history models not 
 
 ## Exact Quote Anchors
 
-- [2025-12-04 Glenn Diesen](../../years/2026/provenance/2025-12-04/transcript-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md)
+- [2025-12-04 Glenn Diesen](../../years/2026/provenance/2025-12-04/source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md)
   > "You mentioned the Thucydides trap as a theory. I think it's a great description of American behavior. I don't think it's a good description of Chinese behavior."
 
   > "going back to, as Thucydides did, the Peloponnesian War ... Is this applicable to other cultures?"
