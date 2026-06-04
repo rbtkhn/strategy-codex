@@ -2,7 +2,7 @@
 name: "monthly-deepening"
 description: "Handle bounded month-by-month deepening for speaker or stream corpora. Use when the operator wants a month inventory, missing-list, URL recovery pass, full-transcript vs stub classification, high-value target selection, month-shelf extension, month-route judgment, or a commit limited to one month slice. Do not use for one-off transcript intake, direct YouTube caption fetch, or broad cross-month synthesis. Transcript uploads from the operator imply month-slice materialization unless the operator explicitly says inventory-only, classification-only, or do-not-write."
 portable: true
-version: "0.5.0"
+version: "0.5.1"
 tags:
   - "operator"
   - "strategy"
@@ -299,6 +299,7 @@ Do not:
 - imply there are `5` missing items when local evidence only proves `1` or `2`
 - flatten `present but URL missing` into `missing`
 - overstate confidence about dates or watch IDs
+- issue a month closeout from stale memory instead of same-turn readback
 
 Preferred recovery language:
 
@@ -306,6 +307,38 @@ Preferred recovery language:
 - `This item exists locally but its direct YouTube watch URL is still unrecovered.`
 - `I cannot truthfully produce five exact missing Mercouris February URLs from local evidence.`
 - `I can recover Mercouris for this month, but the queue splits into solo-channel, Duran co-hosted, and speaker-adjacent lanes.`
+
+## Closeout discipline
+
+Month and watchlist closeouts must be re-derived from live local surfaces in the current turn.
+
+Minimum same-turn readback set when answering with month-state claims:
+
+- the newly landed or newly inspected archive file when one exists
+- the touched day `README.md` when a day rebuild occurred
+- the touched month rollup
+- the touched month note or watchlist
+- the global `thread-index.md` when thread-count or lane-count claims are being made
+
+If the answer claims any of these, confirm them from the live files first:
+
+- month source-file counts
+- thread counts
+- queue reduction
+- `bounded recovered queue exhausted`
+- `materially repaired`
+- `repair-note ready`
+
+Rules:
+
+- do not reuse earlier closeout prose unless it was just revalidated from the live surfaces
+- do not let a watchlist lag behind the archive state
+- if one surface is stale, fix it before issuing the month summary
+- if verification is deferred, state that directly instead of implying the month surfaces are already current
+
+Preferred sequence:
+
+`land or inspect -> rebuild if needed -> read back live surfaces -> summarize`
 
 
 ## Cursor / grace-mar instance

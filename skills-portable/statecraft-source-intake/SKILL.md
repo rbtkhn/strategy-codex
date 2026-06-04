@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
-version: 0.4.0
+version: 0.4.1
 tags:
   - operator
   - statecraft
@@ -200,6 +200,7 @@ In batch-throughput mode, rebuild when one of these becomes true:
    - State whether tests were run.
    - In `batch-throughput mode`, say plainly that rebuild and verification of day/month/navigation surfaces is deferred to the next checkpoint.
    - State whether the intake batch remains uncommitted if that is still true.
+   - Re-derive the closeout from live readback done in the current turn; do not reuse stale prior closeout phrasing.
 
 8. **Refresh the smallest still-live archive surfaces**
    - In `single-source safe mode`, refresh the touched day-folder `README.md` immediately.
@@ -234,6 +235,29 @@ Default closeout law:
 - state which archive indices were refreshed
 - in batch-throughput mode, state that the current file is queued inside the still-open batch checkpoint
 - do not silently drift into lane or civ-lens synthesis
+
+### Live closeout discipline
+
+Before any final intake closeout, perform a fresh same-turn readback of the relevant live surfaces.
+
+Minimum same-turn readback set:
+
+- the landed archive file itself
+- the touched day `README.md` when it was rebuilt
+- the touched month rollup when it was rebuilt
+- the global `thread-index.md` when thread-facing claims are being made
+- any touched watchlist or month note when the answer claims queue movement, month counts, or status changes
+
+Rules:
+
+- do not rely on memory of an earlier rebuild or earlier note state
+- do not recycle prior closeout language without checking the live files again
+- if a note or rollup still shows stale values, repair it before answering
+- if verification was intentionally deferred, say that plainly instead of implying the surfaces are already current
+
+Preferred closeout behavior:
+
+`read back -> compare -> then summarize`
 
 ## Partial front-door doctrine
 
