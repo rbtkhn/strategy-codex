@@ -90,6 +90,7 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - mechanism note on when command remains formal but discretion thins from inside the machinery
 - [recognition-threshold-vs-settlement-architecture.md](./recognition-threshold-vs-settlement-architecture.md) - threshold and sequencing distinction
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - route note for treating the open archive-truth seam as a governed machine object rather than a raw debt pile
+- [assistant-session-state-clarity-contract.md](./assistant-session-state-clarity-contract.md) - reusable session-governance note defining the corrective operating contract that pairs with the UX friction audit
 
 ### Speaker-Derived And Machine Notes
 
@@ -99,6 +100,7 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [mercouris-format-synergy-doctrine.md](./mercouris-format-synergy-doctrine.md) - bounded doctrine note on how solo Mercouris and Duran/Mercouris compound rather than duplicate
 - [mercouris-february-2025-opening-watchlist.md](./mercouris-february-2025-opening-watchlist.md) - bounded opening watchlist preserving February 2025 as a thin Mercouris month with minimal solo and panel presence
 - [mercouris-june-2025-opening-watchlist.md](./mercouris-june-2025-opening-watchlist.md) - bounded opening watchlist preserving June 2025 as the weakest serious Mercouris month and naming the first solo recovery queue
+- [mearsheimer-march-2025-opening-watchlist.md](./mearsheimer-march-2025-opening-watchlist.md) - bounded opening watchlist preserving March 2025 as a thin Mearsheimer month with landed Diesen and Davis anchors plus a recovered Napolitano queue
 - [mearsheimer-july-2025-opening-watchlist.md](./mearsheimer-july-2025-opening-watchlist.md) - bounded opening watchlist preserving July 2025 as a zero-presence Mearsheimer month with one strong recovered anchor
 - [mearsheimer-april-2025-opening-watchlist.md](./mearsheimer-april-2025-opening-watchlist.md) - bounded opening watchlist preserving April 2025 as a dense but Mearsheimer-thin month with a recovered multi-family queue
 - [mearsheimer-april-2025-repair-note.md](./mearsheimer-april-2025-repair-note.md) - bounded month-truth repair note preserving April 2025 as thin but materially repaired after the Mearsheimer recovery pass
@@ -168,6 +170,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [mercouris-format-synergy-doctrine.md](./mercouris-format-synergy-doctrine.md) - shelf-native format-doctrine note
 - [mercouris-february-2025-opening-watchlist.md](./mercouris-february-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mercouris-june-2025-opening-watchlist.md](./mercouris-june-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mearsheimer-march-2025-opening-watchlist.md](./mearsheimer-march-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mearsheimer-july-2025-opening-watchlist.md](./mearsheimer-july-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mearsheimer-april-2025-opening-watchlist.md](./mearsheimer-april-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mearsheimer-april-2025-repair-note.md](./mearsheimer-april-2025-repair-note.md) - shelf-native month-truth repair note
@@ -186,6 +189,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [barnes-on-ai.md](./barnes-on-ai.md) - shelf-native speaker-derived bounded thematic note
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - shelf-native routing note
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - shelf-native bounded synthesis note
+- [assistant-session-state-clarity-contract.md](./assistant-session-state-clarity-contract.md) - shelf-native reusable session-governance note
 
 ### Mirrored Legacy Promotion
 
