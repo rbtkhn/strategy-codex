@@ -5,20 +5,21 @@ from __future__ import annotations
 
 import argparse
 import json
-from collections import Counter, defaultdict
-from dataclasses import dataclass
+from collections import Counter
+from dataclasses import dataclass, replace
 from datetime import datetime, timezone
 from pathlib import Path
 
+import build_speaker_routing_queue as speaker_routing
 import build_statecraft_day_dashboard as daydash
 from statecraft_day_archive import (
     DEFAULT_ROOT,
     ArchiveFile,
-    collect_archive_file,
     counter_to_list,
     iter_source_files,
-    load_day_summary,
     select_day_dirs,
+    summarize_records,
+    collect_archive_file,
 )
 
 
@@ -44,6 +45,7 @@ class DashboardArgs:
 @dataclass
 class SpeakerStats:
     name: str
+    slug: str
     file_count: int = 0
     day_set: set[str] | None = None
     day_counter: Counter[str] | None = None
@@ -51,6 +53,7 @@ class SpeakerStats:
     channel_counter: Counter[str] | None = None
     thread_counter: Counter[str] | None = None
     source_form_counter: Counter[str] | None = None
+    label_counter: Counter[str] | None = None
 
     def __post_init__(self) -> None:
         self.day_set = set()
@@ -59,8 +62,9 @@ class SpeakerStats:
         self.channel_counter = Counter()
         self.thread_counter = Counter()
         self.source_form_counter = Counter()
+        self.label_counter = Counter()
 
-    def add(self, date: str, record: ArchiveFile) -> None:
+    def add(self, date: str, record: ArchiveFile, label: str) -> None:
         self.file_count += 1
         self.day_set.add(date)
         self.day_counter[date] += 1
@@ -68,6 +72,17 @@ class SpeakerStats:
         self.channel_counter.update(record.channel_values)
         self.thread_counter.update(record.thread_values)
         self.source_form_counter.update((record.source_form,))
+        self.label_counter[label] += 1
+        self.name = self.preferred_label
+
+    @property
+    def preferred_label(self) -> str:
+        if not self.label_counter:
+            return self.name
+        return sorted(
+            self.label_counter,
+            key=lambda label: (-self.label_counter[label], -len(label), label),
+        )[0]
 
 
 def parse_args() -> DashboardArgs:
@@ -95,6 +110,7 @@ def _select_day_dirs(root: Path, year: str | None, from_day: str | None, to_day:
 
 
 def collect_speaker_stats(day_dirs: list[Path]) -> tuple[dict[str, SpeakerStats], int]:
+    inventory = speaker_routing._discover_inventory(speaker_routing.DEFAULT_SPEAKERS_DIR, DEFAULT_ROOT)  # noqa: SLF001
     stats: dict[str, SpeakerStats] = {}
     total_files = 0
     for day_dir in day_dirs:
@@ -103,7 +119,8 @@ def collect_speaker_stats(day_dirs: list[Path]) -> tuple[dict[str, SpeakerStats]
             total_files += 1
             record = collect_archive_file(path)
             for guest in record.guest_values:
-                stats.setdefault(guest, SpeakerStats(name=guest)).add(date, record)
+                canonical_slug = speaker_routing._match_speaker(guest, inventory) or _speaker_slug(guest)  # noqa: SLF001
+                stats.setdefault(canonical_slug, SpeakerStats(name=guest, slug=canonical_slug)).add(date, record, guest)
     return stats, total_files
 
 
@@ -122,6 +139,59 @@ def _counter_top(counter: Counter[str], limit: int = 3) -> str:
 
 def _speaker_slug(name: str) -> str:
     return daydash._normalize_slug(name)
+
+
+def _collapse_guest_counter(counter: Counter[str], aliases: tuple[str, ...], preferred_label: str) -> Counter[str]:
+    if not aliases:
+        return counter.copy()
+    alias_set = set(aliases)
+    collapsed: Counter[str] = Counter()
+    merged_count = 0
+    for name, count in counter.items():
+        if name in alias_set:
+            merged_count += count
+        else:
+            collapsed[name] += count
+    if merged_count:
+        collapsed[preferred_label] += merged_count
+    return collapsed
+
+
+def _clean_alias_labels(counter: Counter[str]) -> list[str]:
+    cleaned = [
+        label
+        for label in sorted(counter, key=lambda value: (-counter[value], -len(value), value))
+        if not any(token in label for token in ("|", ";", "&"))
+    ]
+    if cleaned:
+        return cleaned
+    return sorted(counter, key=lambda value: (-counter[value], -len(value), value))
+
+
+def _speaker_day_summaries(day_dirs: list[Path], speaker: SpeakerStats) -> list:
+    alias_names = tuple(speaker.label_counter)
+    inventory = speaker_routing._discover_inventory(speaker_routing.DEFAULT_SPEAKERS_DIR, DEFAULT_ROOT)  # noqa: SLF001
+    day_summaries = []
+    for day_dir in day_dirs:
+        records: list[ArchiveFile] = []
+        for path in iter_source_files(day_dir):
+            record = collect_archive_file(path)
+            guest_slugs = {
+                speaker_routing._match_speaker(guest, inventory) or _speaker_slug(guest)  # noqa: SLF001
+                for guest in record.guest_values
+            }
+            if speaker.slug in guest_slugs:
+                records.append(record)
+        if not records:
+            continue
+        summary = summarize_records(day_dir.name, records)
+        day_summaries.append(
+            replace(
+                summary,
+                guest_counter=_collapse_guest_counter(summary.guest_counter, alias_names, speaker.name),
+            )
+        )
+    return day_summaries
 
 
 def build_speaker_dashboard_payload(root: Path, day_dirs: list[Path], stats: dict[str, SpeakerStats], *, top_speakers: int) -> dict:
@@ -145,7 +215,8 @@ def build_speaker_dashboard_payload(root: Path, day_dirs: list[Path], stats: dic
             "topSpeakers": [
                 {
                     "name": speaker.name,
-                    "slug": _speaker_slug(speaker.name),
+                    "slug": speaker.slug,
+                    "labels": [{"name": label, "count": speaker.label_counter[label]} for label in _clean_alias_labels(speaker.label_counter)],
                     "fileCount": speaker.file_count,
                     "dayCount": len(speaker.day_set),
                     "topHosts": counter_to_list(speaker.host_counter),
@@ -214,19 +285,20 @@ def render_speaker_dashboard_markdown(payload: dict, slice_names: list[str]) -> 
     return "\n".join(lines)
 
 
-def build_saved_speaker_slices(root: Path, day_dirs: list[Path], speaker_names: list[str]) -> list[str]:
-    if not speaker_names:
+def build_saved_speaker_slices(root: Path, day_dirs: list[Path], speakers: list[SpeakerStats]) -> list[str]:
+    if not speakers:
         return []
-    all_day_summaries = [load_day_summary(day_dir) for day_dir in day_dirs]
     built: list[str] = []
-    for speaker_name in speaker_names:
-        slug = _speaker_slug(speaker_name)
-        filtered = daydash.filter_day_summaries(all_day_summaries, guests=(speaker_name,))
-        payload = daydash.build_dashboard_payload(root, filtered, guests=(speaker_name,), slug=slug)
+    for speaker in speakers:
+        slug = speaker.slug
+        filtered = _speaker_day_summaries(day_dirs, speaker)
+        payload = daydash.build_dashboard_payload(root, filtered, guests=(speaker.name,), slug=slug)
         out_md = SLICES_DIR / f"{slug}.md"
         out_json = SLICES_DIR / f"{slug}.json"
         out_md.parent.mkdir(parents=True, exist_ok=True)
         payload["artifacts"] = {"markdown": str(out_md), "json": str(out_json)}
+        payload["query"]["speakerSlug"] = slug
+        payload["query"]["speakerAliases"] = _clean_alias_labels(speaker.label_counter)
         out_json.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8", newline="\n")
         out_md.write_text(daydash.render_dashboard_markdown(root, payload), encoding="utf-8", newline="\n")
         built.append(slug)
@@ -240,7 +312,7 @@ def main() -> int:
     payload = build_speaker_dashboard_payload(args.root, day_dirs, speaker_stats, top_speakers=args.top_speakers)
 
     sorted_speakers = _sorted_speakers(speaker_stats)
-    slice_targets = [] if args.skip_slices else [speaker.name for speaker in sorted_speakers[: args.top_slices]]
+    slice_targets = [] if args.skip_slices else sorted_speakers[: args.top_slices]
     slice_names = build_saved_speaker_slices(args.root, day_dirs, slice_targets)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)

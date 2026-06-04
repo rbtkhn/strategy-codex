@@ -34,7 +34,7 @@ Reason:
 
 1. `2026-05-25`
    Host/source family: `authored policy cross-post / Brave New Europe from Responsible Statecraft`
-   Likely canonical archive family: `responsiblestatecraft-parsi-*` or `braveneweurope-parsi-*`
+   Likely canonical archive filename: `source-parsi-*`
    Working title: `The US and Iran are on the verge of a deal, and the warmongers hate it`
    Status: `missing`
    Why it matters: this would fill the current authored late-May architecture / settlement bridge between the blockade-collapse opening and the final live-deal interview pressure.
@@ -42,7 +42,7 @@ Reason:
 
 2. `2026-05-06`
    Host/source family: `Duran / Mercouris`
-   Likely canonical archive family: `transcript-duran-mercouris-trita-parsi-*`
+   Likely canonical archive filename: `source-duran-mercouris-trita-parsi-*`
    Working title discovered in hunt: `US Superpower Myth Shattered w/ Trita Parsi`
    Status: `already represented`
    Why it matters: the date, host family, and subject line resolve cleanly into the already-landed [2026-05-06 Duran / Mercouris blockade file](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-duran-mercouris-trita-parsi-us-iran-blockade-diplomacy-2026-05-06.md).
@@ -78,7 +78,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 1. `2026-05-14`
    Host/source family: `Judging Freedom / Napolitano`
-   Likely canonical archive family: `transcript-napolitano-wilkerson-*`
+   Likely canonical archive filename: `source-napolitano-wilkerson-*`
    Working title discovered in hunt: `Trump Is Checkmate in Iran`
    Status: `missing`
    Why it matters: if real and transcript-grade, this would directly break the current seven-anchor completeness claim and strengthen the auxiliary Napolitano branch inside the month.
@@ -86,7 +86,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 2. `2026-05-21`
    Host/source family: `Judging Freedom / Napolitano`
-   Likely canonical archive family: `transcript-napolitano-wilkerson-*`
+   Likely canonical archive filename: `source-napolitano-wilkerson-*`
    Working title discovered in hunt: `Trump Trapped in a Corner by Iran`
    Status: `missing`
    Why it matters: this is a second allowed-lane contradiction candidate inside the same month and would make the old `0 known missing May anchors` line untenable.
@@ -94,7 +94,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 3. `2026-05-06`
    Host/source family: `Glenn Diesen`
-   Likely canonical archive family: `youtube-glenn-diesen-lawrence-wilkerson-*` or `transcript-diesen-wilkerson-*`
+   Likely canonical archive filename: `source-glenn-diesen-lawrence-wilkerson-*` or `source-diesen-wilkerson-*`
    Working title discovered in hunt: `Rogue State America - Decay of a Superpower`
    Status: `ambiguous`
    Why it matters: the date overlaps an already-landed Diesen/Wilkerson file, but the title-level drift is large enough that it could be either a duplicate listing or a second same-day appearance.
@@ -103,7 +103,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 4. `2026-05-27`
    Host/source family: `Glenn Diesen`
-   Likely canonical archive family: `youtube-glenn-diesen-lawrence-wilkerson-*`
+   Likely canonical archive filename: `source-glenn-diesen-lawrence-wilkerson-*`
    Working title discovered in hunt: `Lawrence Wilkerson on Trump's China Peace`
    Status: `ambiguous`
    Why it matters: this may resolve into the already-landed [2026-05-26 Diesen file](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md), but it should be checked before the shelf reasserts completeness.

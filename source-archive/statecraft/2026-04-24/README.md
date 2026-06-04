@@ -4,9 +4,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `9`
-- Body kind mix: `transcript` (4), `operator-transcript` (3), `substack-post` (1), `verify` (1)
-- Source form mix: `interview` (5), `solo` (2), `newsletter` (1), `post` (1)
+- Source files: `8`
+- Helper notes (excluded from source count): `1`
+- Body kind mix: `transcript` (4), `operator-transcript` (3), `substack-post` (1)
+- Source form mix: `interview` (5), `solo` (2), `newsletter` (1)
 - Distinct channels/shows: `6`
 - Distinct hosts: `6`
 - Distinct guests: `5`
@@ -32,4 +33,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `source-nima-freeman-israel-agenda-collapsing-2026-04-24.md`
 - `source-pape-2-blockades-2-clocks-2026-04-24.md`
 - `source-sachs-carlson-iran-war-origins-2026-04-24.md`
+
+## Helper Notes
+
+_These are day-folder helper artifacts, not canonical source objects._
+
 - `verify-pape-2-blockades-2-clocks-2026-04-24.md`

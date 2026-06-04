@@ -24,6 +24,7 @@ HONORIFIC_RE = re.compile(
 )
 
 CANONICAL_SOURCE_PREFIX = "source-"
+HELPER_NOTE_PREFIXES = ("verify-",)
 
 
 @dataclass(frozen=True)
@@ -46,6 +47,7 @@ class ArchiveFile:
 class DaySummary:
     date: str
     source_count: int
+    helper_count: int
     kind_counter: Counter[str]
     source_form_counter: Counter[str]
     channel_counter: Counter[str]
@@ -53,6 +55,7 @@ class DaySummary:
     guest_counter: Counter[str]
     thread_counter: Counter[str]
     file_names: tuple[str, ...]
+    helper_file_names: tuple[str, ...] = ()
     has_readme: bool = False
     readme_parse_ok: bool = False
 
@@ -270,7 +273,24 @@ def collect_archive_file(path: Path) -> ArchiveFile:
 
 def iter_source_files(day_dir: Path) -> list[Path]:
     return sorted(
-        [path for path in day_dir.glob("*.md") if path.name != "README.md"],
+        [
+            path
+            for path in day_dir.glob("*.md")
+            if path.name != "README.md"
+            and not any(path.name.startswith(prefix) for prefix in HELPER_NOTE_PREFIXES)
+        ],
+        key=lambda path: path.name,
+    )
+
+
+def iter_helper_files(day_dir: Path) -> list[Path]:
+    return sorted(
+        [
+            path
+            for path in day_dir.glob("*.md")
+            if path.name != "README.md"
+            and any(path.name.startswith(prefix) for prefix in HELPER_NOTE_PREFIXES)
+        ],
         key=lambda path: path.name,
     )
 
@@ -283,10 +303,18 @@ def rollup_values(records: list[ArchiveFile], attr: str) -> Counter[str]:
     return counter
 
 
-def summarize_records(date: str, records: list[ArchiveFile], *, has_readme: bool = False, readme_parse_ok: bool = False) -> DaySummary:
+def summarize_records(
+    date: str,
+    records: list[ArchiveFile],
+    *,
+    helper_file_names: tuple[str, ...] = (),
+    has_readme: bool = False,
+    readme_parse_ok: bool = False,
+) -> DaySummary:
     return DaySummary(
         date=date,
         source_count=len(records),
+        helper_count=len(helper_file_names),
         kind_counter=Counter(record.kind_label for record in records),
         source_form_counter=Counter(record.source_form for record in records),
         channel_counter=rollup_values(records, "channel_values"),
@@ -294,6 +322,7 @@ def summarize_records(date: str, records: list[ArchiveFile], *, has_readme: bool
         guest_counter=rollup_values(records, "guest_values"),
         thread_counter=rollup_values(records, "thread_values"),
         file_names=tuple(record.name for record in records),
+        helper_file_names=helper_file_names,
         has_readme=has_readme,
         readme_parse_ok=readme_parse_ok,
     )
@@ -301,9 +330,11 @@ def summarize_records(date: str, records: list[ArchiveFile], *, has_readme: bool
 
 def summarize_day_dir(day_dir: Path, *, has_readme: bool | None = None, readme_parse_ok: bool = False) -> DaySummary:
     records = [collect_archive_file(path) for path in iter_source_files(day_dir)]
+    helper_file_names = tuple(path.name for path in iter_helper_files(day_dir))
     return summarize_records(
         day_dir.name,
         records,
+        helper_file_names=helper_file_names,
         has_readme=(day_dir / "README.md").is_file() if has_readme is None else has_readme,
         readme_parse_ok=readme_parse_ok,
     )
@@ -355,6 +386,7 @@ def build_day_readme(day_dir: Path) -> str:
     summary = summarize_day_dir(day_dir)
     stats = [
         f"- Source files: `{summary.source_count}`",
+        f"- Helper notes (excluded from source count): `{summary.helper_count}`",
         f"- Body kind mix: {fmt_counter(summary.kind_counter)}",
         f"- Source form mix: {fmt_counter(summary.source_form_counter)}",
         f"- Distinct channels/shows: `{len(summary.channel_counter)}`",
@@ -386,6 +418,17 @@ def build_day_readme(day_dir: Path) -> str:
         "",
     ]
     lines.extend(f"- `{name}`" for name in summary.file_names)
+    if summary.helper_file_names:
+        lines.extend(
+            [
+                "",
+                "## Helper Notes",
+                "",
+                "_These are day-folder helper artifacts, not canonical source objects._",
+                "",
+            ]
+        )
+        lines.extend(f"- `{name}`" for name in summary.helper_file_names)
     lines.append("")
     return "\n".join(lines)
 
@@ -430,12 +473,14 @@ def parse_day_readme(day_dir: Path) -> DaySummary | None:
 
     title_match = re.search(r"^# Statecraft Archive - (\d{4}-\d{2}-\d{2})$", text, re.MULTILINE)
     source_match = re.search(r"^- Source files: `(\d+)`$", text, re.MULTILINE)
+    helper_match = re.search(r"^- Helper notes \(excluded from source count\): `(\d+)`$", text, re.MULTILINE)
     kind_match = re.search(r"^- Body kind mix: (.+)$", text, re.MULTILINE)
     source_form_match = re.search(r"^- Source form mix: (.+)$", text, re.MULTILINE)
     legacy_type_match = re.search(r"^- Type mix: (.+)$", text, re.MULTILINE)
     channel_block = _extract_section_block(text, "Channel / Show Rollup")
     hgt_block = _extract_section_block(text, "Host / Guest / Thread Rollup")
     files_block = _extract_section_block(text, "Files")
+    helper_block = _extract_section_block(text, "Helper Notes")
     if not (title_match and source_match and channel_block and hgt_block and files_block):
         return None
     channel_match = re.search(r"^- (.+)$", channel_block, re.MULTILINE)
@@ -445,10 +490,12 @@ def parse_day_readme(day_dir: Path) -> DaySummary | None:
     if not (channel_match and host_match and guest_match and thread_match):
         return None
     files = tuple(re.findall(r"^- `([^`]+\.md)`$", files_block, re.MULTILINE))
+    helper_files = tuple(re.findall(r"^- `([^`]+\.md)`$", helper_block, re.MULTILINE)) if helper_block else ()
 
     return DaySummary(
         date=title_match.group(1),
         source_count=int(source_match.group(1)),
+        helper_count=int(helper_match.group(1)) if helper_match else len(helper_files),
         kind_counter=parse_counter_text(kind_match.group(1)) if kind_match else Counter(),
         source_form_counter=parse_counter_text(source_form_match.group(1)) if source_form_match else parse_counter_text(legacy_type_match.group(1)) if legacy_type_match else Counter(),
         channel_counter=parse_counter_text(channel_match.group(1)),
@@ -456,6 +503,7 @@ def parse_day_readme(day_dir: Path) -> DaySummary | None:
         guest_counter=parse_counter_text(guest_match.group(1)),
         thread_counter=parse_counter_text(thread_match.group(1)),
         file_names=files,
+        helper_file_names=helper_files,
         has_readme=True,
         readme_parse_ok=True,
     )
@@ -464,7 +512,14 @@ def parse_day_readme(day_dir: Path) -> DaySummary | None:
 def load_day_summary(day_dir: Path) -> DaySummary:
     parsed = parse_day_readme(day_dir)
     if parsed is not None:
-        if not parsed.kind_counter or not parsed.source_form_counter:
+        current_source_count = len(iter_source_files(day_dir))
+        current_helper_count = len(iter_helper_files(day_dir))
+        if (
+            not parsed.kind_counter
+            or not parsed.source_form_counter
+            or parsed.source_count != current_source_count
+            or parsed.helper_count != current_helper_count
+        ):
             return summarize_day_dir(day_dir, has_readme=True, readme_parse_ok=True)
         return parsed
     return summarize_day_dir(day_dir, has_readme=(day_dir / "README.md").is_file(), readme_parse_ok=False)
