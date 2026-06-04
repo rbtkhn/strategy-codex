@@ -101,6 +101,7 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [mercouris-june-2025-opening-watchlist.md](./mercouris-june-2025-opening-watchlist.md) - bounded opening watchlist preserving June 2025 as the weakest serious Mercouris month and naming the first solo recovery queue
 - [mearsheimer-july-2025-opening-watchlist.md](./mearsheimer-july-2025-opening-watchlist.md) - bounded opening watchlist preserving July 2025 as a zero-presence Mearsheimer month with one strong recovered anchor
 - [mearsheimer-april-2025-opening-watchlist.md](./mearsheimer-april-2025-opening-watchlist.md) - bounded opening watchlist preserving April 2025 as a dense but Mearsheimer-thin month with a recovered multi-family queue
+- [mearsheimer-april-2025-repair-note.md](./mearsheimer-april-2025-repair-note.md) - bounded month-truth repair note preserving April 2025 as thin but materially repaired after the Mearsheimer recovery pass
 - [mearsheimer-september-2025-opening-watchlist.md](./mearsheimer-september-2025-opening-watchlist.md) - bounded opening watchlist preserving September 2025 as a thin Mearsheimer month with one landed Diesen anchor
 - [mearsheimer-october-2025-opening-watchlist.md](./mearsheimer-october-2025-opening-watchlist.md) - bounded opening watchlist preserving October 2025 as a dense but Mearsheimer-thin month with one landed Diesen anchor
 - [mearsheimer-december-2025-opening-watchlist.md](./mearsheimer-december-2025-opening-watchlist.md) - bounded opening watchlist preserving December 2025 as a dense but Mearsheimer-thin month with a now-exhausted first recovered queue
@@ -169,6 +170,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [mercouris-june-2025-opening-watchlist.md](./mercouris-june-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mearsheimer-july-2025-opening-watchlist.md](./mearsheimer-july-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mearsheimer-april-2025-opening-watchlist.md](./mearsheimer-april-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mearsheimer-april-2025-repair-note.md](./mearsheimer-april-2025-repair-note.md) - shelf-native month-truth repair note
 - [mearsheimer-september-2025-opening-watchlist.md](./mearsheimer-september-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mearsheimer-october-2025-opening-watchlist.md](./mearsheimer-october-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mearsheimer-december-2025-opening-watchlist.md](./mearsheimer-december-2025-opening-watchlist.md) - shelf-native opening watchlist note

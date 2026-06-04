@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 ## Stats
 
 - Distinct threads: `55`
-- Thread-linked source files: `2311`
+- Thread-linked source files: `2317`
 - Covered days: `437`
 - Covered months: `18`
 
@@ -14,14 +14,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | Thread | Files | Days | Months | Top channels/shows | Top hosts | First day | Last day |
 | --- | ---: | ---: | ---: | --- | --- | --- | --- |
 | `mercouris` | 365 | 323 | 18 | `Mercouris` (201), `Alexander Mercouris` (117), `The Duran` (23) | `Alexander Mercouris` (319), `Alex Christoforou` (18), `glenn-diesen` (7) | `2025-01-03` | `2026-06-03` |
-| `davis` | 260 | 145 | 18 | `Daniel Davis Deep Dive` (219), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (3), `Deep Dive` (2) | `Daniel Davis` (219), `daniel-davis` (6), `Daniel Davis / Deep Dive` (6) | `2025-01-01` | `2026-06-02` |
+| `davis` | 261 | 146 | 18 | `Daniel Davis Deep Dive` (220), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (3), `Deep Dive` (2) | `Daniel Davis` (220), `daniel-davis` (6), `Daniel Davis / Deep Dive` (6) | `2025-01-01` | `2026-06-02` |
 | `nima` | 219 | 154 | 16 | `Dialogue Works` (199) | `Nima Alkhorshid` (183), `Nima Alkorshid` (23), `Dialogue Works` (6) | `2025-01-04` | `2026-06-03` |
 | `diesen` | 202 | 159 | 18 | `Glenn Diesen` (119), `Diesen` (12), `Diesen (Greater Eurasia)` (9) | `Glenn Diesen` (160), `Diesen` (24), `glenn-diesen` (8) | `2025-01-10` | `2026-06-02` |
-| `napolitano` | 180 | 129 | 18 | `Judging Freedom` (143), `Judging Freedom (Judge Napolitano)` (1) | `Andrew Napolitano` (176), `napolitano` (3) | `2025-01-07` | `2026-06-03` |
+| `napolitano` | 182 | 130 | 18 | `Judging Freedom` (145), `Judging Freedom (Judge Napolitano)` (1) | `Andrew Napolitano` (178), `napolitano` (3) | `2025-01-07` | `2026-06-03` |
 | `freeman` | 128 | 121 | 18 | `Dialogue Works` (43), `Judging Freedom` (41), `Glenn Diesen` (22) | `Andrew Napolitano` (47), `Nima Alkhorshid` (29), `Glenn Diesen` (23) | `2025-01-07` | `2026-06-02` |
 | `ritter` | 87 | 73 | 15 | `Dialogue Works` (16), `Daniel Davis Deep Dive` (11), `Glenn Diesen` (9) | `Nima Alkhorshid` (20), `Glenn Diesen` (14), `Daniel Davis` (11) | `2025-01-05` | `2026-06-01` |
 | `wilkerson` | 87 | 84 | 17 | `Dialogue Works` (40), `Judging Freedom` (17), `Glenn Diesen` (4) | `Nima Alkhorshid` (33), `Andrew Napolitano` (20), `Glenn Diesen` (12) | `2025-01-11` | `2026-06-02` |
-| `mearsheimer` | 76 | 71 | 18 | `Daniel Davis Deep Dive` (17), `Judging Freedom` (16), `Diesen (Greater Eurasia)` (7) | `Andrew Napolitano` (24), `Daniel Davis` (18), `glenn-diesen` (8) | `2025-01-17` | `2026-06-02` |
+| `mearsheimer` | 79 | 74 | 18 | `Daniel Davis Deep Dive` (18), `Judging Freedom` (18), `Diesen (Greater Eurasia)` (7) | `Andrew Napolitano` (26), `Daniel Davis` (19), `glenn-diesen` (8) | `2025-01-17` | `2026-06-02` |
 | `macgregor` | 75 | 64 | 17 | `Daniel Davis Deep Dive` (31), `Judging Freedom` (18), `Glenn Diesen` (6) | `Daniel Davis` (30), `Andrew Napolitano` (23), `Glenn Diesen` (15) | `2025-01-06` | `2026-06-02` |
 | `johnson` | 73 | 62 | 15 | `Dialogue Works` (25), `Daniel Davis Deep Dive` (13), `Glenn Diesen` (6) | `Nima Alkhorshid` (22), `Daniel Davis` (11), `Glenn Diesen` (9) | `2025-01-13` | `2026-06-03` |
 | `simplicius` | 62 | 62 | 4 | `simplicius76.substack.com` (62) | (none) | `2026-01-02` | `2026-04-27` |

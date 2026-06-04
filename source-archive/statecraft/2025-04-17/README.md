@@ -4,25 +4,26 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `2`
-- Body kind mix: `transcript` (2)
-- Source form mix: `interview` (1), `solo` (1)
+- Source files: `3`
+- Body kind mix: `transcript` (3)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
-- Distinct guests: `1`
-- Distinct threads: `3`
+- Distinct guests: `2`
+- Distinct threads: `4`
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1), `Judging Freedom` (1)
+- `Judging Freedom` (2), `Alexander Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1)
-- Guests: `Lawrence Wilkerson` (1)
-- Threads: `mercouris` (1), `napolitano` (1), `wilkerson` (1)
+- Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1)
+- Guests: `John Mearsheimer` (1), `Lawrence Wilkerson` (1)
+- Threads: `napolitano` (2), `mercouris` (1), `mearsheimer` (1), `wilkerson` (1)
 
 ## Files
 
 - `source-alex-mercouris-eu-uk-paris-summit-plans-kiev-victory-odessa-deployment-defies-us-russian-advance-on-all-fronts-2025-04-17.md`
+- `source-napolitano-mearsheimer-china-and-trade-2025-04-17.md`
 - `source-napolitano-wilkerson-are-neocons-ascendant-2025-04-17.md`
