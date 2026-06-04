@@ -96,6 +96,19 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [barnes-on-ai.md](./barnes-on-ai.md) - speaker-derived bounded thematic note now recanonicalized as a direct note-class destination
 - [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - bounded note separating June 1 Jiang claims into existing Predictive History continuity versus sharper extension
 - [may-2026-speaker-watchlist.md](./may-2026-speaker-watchlist.md) - month-scale watchlist separating healthy coverage from thin presence and backfill candidates
+- [mercouris-format-synergy-doctrine.md](./mercouris-format-synergy-doctrine.md) - bounded doctrine note on how solo Mercouris and Duran/Mercouris compound rather than duplicate
+- [mercouris-february-2025-opening-watchlist.md](./mercouris-february-2025-opening-watchlist.md) - bounded opening watchlist preserving February 2025 as a thin Mercouris month with minimal solo and panel presence
+- [mercouris-june-2025-opening-watchlist.md](./mercouris-june-2025-opening-watchlist.md) - bounded opening watchlist preserving June 2025 as the weakest serious Mercouris month and naming the first solo recovery queue
+- [mearsheimer-july-2025-opening-watchlist.md](./mearsheimer-july-2025-opening-watchlist.md) - bounded opening watchlist preserving July 2025 as a zero-presence Mearsheimer month with one strong recovered anchor
+- [mearsheimer-april-2025-opening-watchlist.md](./mearsheimer-april-2025-opening-watchlist.md) - bounded opening watchlist preserving April 2025 as a dense but Mearsheimer-thin month with a recovered multi-family queue
+- [mearsheimer-september-2025-opening-watchlist.md](./mearsheimer-september-2025-opening-watchlist.md) - bounded opening watchlist preserving September 2025 as a thin Mearsheimer month with one landed Diesen anchor
+- [mearsheimer-october-2025-opening-watchlist.md](./mearsheimer-october-2025-opening-watchlist.md) - bounded opening watchlist preserving October 2025 as a dense but Mearsheimer-thin month with one landed Diesen anchor
+- [mearsheimer-december-2025-opening-watchlist.md](./mearsheimer-december-2025-opening-watchlist.md) - bounded opening watchlist preserving December 2025 as a dense but Mearsheimer-thin month with a now-exhausted first recovered queue
+- [mearsheimer-december-2025-repair-note.md](./mearsheimer-december-2025-repair-note.md) - bounded month-truth repair note preserving December 2025 as thin but materially repaired after the Mearsheimer recovery pass
+- [mercouris-october-2025-repair-note.md](./mercouris-october-2025-repair-note.md) - bounded month-truth note preserving October 2025 as thin but materially repaired after the solo recovery pass
+- [mercouris-november-2025-opening-watchlist.md](./mercouris-november-2025-opening-watchlist.md) - bounded opening watchlist preserving November 2025 Mercouris undercoverage before deeper URL recovery
+- [mercouris-november-2025-repair-note.md](./mercouris-november-2025-repair-note.md) - bounded month-truth note preserving November 2025 as thin but materially repaired after the solo recovery pass
+- [mercouris-september-2025-repair-note.md](./mercouris-september-2025-repair-note.md) - bounded month-truth note preserving the repaired September 2025 Mercouris split between native solo and Duran/Mercouris lanes
 - [recent-speaker-underrepresentation-query-standard.md](./recent-speaker-underrepresentation-query-standard.md) - bounded query-standard note for rolling-week archive representation checks
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - compact operator synthesis of the journal's current arc
 - [statecraft-multi-lens-bench-pressure-test-2026-05.md](./statecraft-multi-lens-bench-pressure-test-2026-05.md) - bounded comparative bench object
@@ -151,6 +164,19 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [parsi-wilkerson-may-2026-backfill-attention.md](./parsi-wilkerson-may-2026-backfill-attention.md) - shelf-native backfill-attention and contradiction-check queue
 - [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - shelf-native correspondence note
 - [may-2026-speaker-watchlist.md](./may-2026-speaker-watchlist.md) - shelf-native watchlist note
+- [mercouris-format-synergy-doctrine.md](./mercouris-format-synergy-doctrine.md) - shelf-native format-doctrine note
+- [mercouris-february-2025-opening-watchlist.md](./mercouris-february-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mercouris-june-2025-opening-watchlist.md](./mercouris-june-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mearsheimer-july-2025-opening-watchlist.md](./mearsheimer-july-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mearsheimer-april-2025-opening-watchlist.md](./mearsheimer-april-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mearsheimer-september-2025-opening-watchlist.md](./mearsheimer-september-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mearsheimer-october-2025-opening-watchlist.md](./mearsheimer-october-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mearsheimer-december-2025-opening-watchlist.md](./mearsheimer-december-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mearsheimer-december-2025-repair-note.md](./mearsheimer-december-2025-repair-note.md) - shelf-native month-truth repair note
+- [mercouris-october-2025-repair-note.md](./mercouris-october-2025-repair-note.md) - shelf-native month-truth repair note
+- [mercouris-november-2025-opening-watchlist.md](./mercouris-november-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mercouris-november-2025-repair-note.md](./mercouris-november-2025-repair-note.md) - shelf-native month-truth repair note
+- [mercouris-september-2025-repair-note.md](./mercouris-september-2025-repair-note.md) - shelf-native month-truth repair note
 - [recent-speaker-underrepresentation-query-standard.md](./recent-speaker-underrepresentation-query-standard.md) - shelf-native query-standard note
 - [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) - shelf-native tracking note
 - [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md) - shelf-native speaker-function note
