@@ -4,23 +4,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `14`
-- Body kind mix: `transcript` (11), `cleaned-transcript` (2), `substack-post` (1)
-- Source form mix: `interview` (11), `solo` (2), `newsletter` (1)
-- Distinct channels/shows: `8`
-- Distinct hosts: `8`
+- Source files: `15`
+- Helper notes (excluded from source count): `0`
+- Body kind mix: `transcript` (11), `cleaned-transcript` (2), `article` (1), `substack-post` (1)
+- Source form mix: `interview` (11), `solo` (2), `article` (1), `newsletter` (1)
+- Distinct channels/shows: `9`
+- Distinct hosts: `9`
 - Distinct guests: `10`
-- Distinct threads: `15`
+- Distinct threads: `16`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (3), `Judging Freedom` (3), `Daniel Davis Deep Dive` (2), `Mario Nawfal` (2), `Diesen` (1), `Mercouris` (1), `The Duran` (1), `escalationtrap.substack.com` (1)
+- `Dialogue Works` (3), `Judging Freedom` (3), `Daniel Davis Deep Dive` (2), `Mario Nawfal` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `The Duran` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (3), `Nima Alkhorshid` (3), `Mario Nawfal` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Daniel Davis` (1), `Diesen` (1), `Gary` (1)
-- Guests: `Larry Wilkerson` (2), `Alexander Mercouris` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Seyed M. Marandi` (1), `Stanislav Krapivnik` (1)
-- Threads: `napolitano` (3), `nima` (3), `davis` (2), `mercouris` (2), `nawfal` (2), `wilkerson` (2), `christoforou` (1), `diesen` (1), `freeman` (1), `johnson` (1), `krapivnik` (1), `macgregor` (1), `marandi` (1), `mearsheimer` (1), `pape` (1)
+- Hosts: `Andrew Napolitano` (3), `Nima Alkhorshid` (3), `Daniel Davis` (2), `Mario Nawfal` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Robert Pape` (1)
+- Guests: `Lawrence Wilkerson` (2), `Alexander Mercouris` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Seyed M. Marandi` (1), `Stanislav Krapivnik` (1)
+- Threads: `napolitano` (3), `nima` (3), `davis` (2), `mercouris` (2), `nawfal` (2), `wilkerson` (2), `christoforou` (1), `diesen` (1), `freeman` (1), `johnson` (1), `krapivnik` (1), `macgregor` (1), `marandi` (1), `mearsheimer` (1), `pape` (1), `sachs` (1)
 
 ## Files
 
@@ -38,3 +39,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `source-nawfal-larry-johnson-breaking-iran-attacks-kuwait-2026-06-02.md`
 - `source-nawfal-wilkerson-breaking-pakistan-offered-iran-nukes-2026-06-02.md`
 - `source-pape-bombing-while-talking-2026-06-02.md`
+- `source-sachs-an-open-letter-to-chancellor-friedrich-merz-2026-06-02.md`

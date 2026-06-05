@@ -1,37 +1,66 @@
 {
-  "generated_at": "2026-05-29T05:31:07.421916+00:00",
-  "date": "2026-05-29",
+  "generated_at": "2026-06-04T06:12:27.013805+00:00",
+  "date": "2026-06-04",
   "user_id": "strategy-codex",
   "ok": true,
   "integrity_ok": true,
   "governance_ok": true,
   "quietRun": false,
-  "topActionReason": "calendar_mod3",
+  "topActionReason": "validated_follow_through",
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session.",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Steward / membrane (gate + template parity)** - calendar rotation; not policy or Record.",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: stage-commit-bootstrap-drift-fix; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
   "execution_paths": [
     {
-      "id": "today_field",
-      "title": "Statecraft drafting (treaty / policy / negotiation bench)",
-      "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Statecraft",
-      "stop_rule": "One slice: choose treaty, policy, negotiation, or Richelieu/Bismarck stress test - enough for first block.",
-      "signals_used": []
+      "id": "confirm",
+      "title": "Confirm the current line and follow through",
+      "first_move": "Use recent receipts to validate and execute the next move.",
+      "stop_rule": "Stop once the prior judgment is either validated or clearly no longer live.",
+      "signals_used": [
+        "outcome_receipts",
+        "artifact_overlap",
+        "dream_confidence"
+      ]
     },
     {
-      "id": "build",
-      "title": "Build / integrate (repo + work-dev)",
-      "first_move": "python3 scripts/validate-integrity.py --user strategy-codex --json",
-      "stop_rule": "Integrity passes; then optional: python3 scripts/refresh_derived_exports.py -u strategy-codex",
-      "signals_used": []
+      "id": "test",
+      "title": "Test the current frame before deepening it",
+      "first_move": "Probe the strongest uncertainty or blocker first.",
+      "stop_rule": "Stop once one bounded falsifier materially sharpens the field.",
+      "signals_used": [
+        "blocked_outcomes",
+        "repeated_loops",
+        "dream_mismatch"
+      ]
     },
     {
-      "id": "steward",
-      "title": "Steward / membrane (gate + template parity)",
-      "first_move": "Read strategy-codex/recursion-gate.md; optional: python3 scripts/operator_gate_review_pass.py -u strategy-codex",
-      "stop_rule": "Top 1-3 candidates reviewed or explicitly deferred.",
-      "signals_used": []
+      "id": "deepen",
+      "title": "Deepen the object until the model is good enough to act",
+      "first_move": "Clarify mechanism, object shape, or missing context.",
+      "stop_rule": "Stop when the object is clear enough for a later confirm or test.",
+      "signals_used": [
+        "reviewable_digest",
+        "low_readiness",
+        "object_formation"
+      ]
+    },
+    {
+      "id": "reframe",
+      "title": "Reframe when the inherited category is wrong",
+      "first_move": "Question the object, menu, or carry-forward assumption itself.",
+      "stop_rule": "Stop once a better object or better frame replaces the stale one.",
+      "signals_used": [
+        "category_drift",
+        "stale_inheritance",
+        "pattern_watch"
+      ]
     }
   ],
-  "suggested_execution_path_index": 2
+  "suggested_execution_path_index": 0,
+  "learning_action_recommendation": "confirm",
+  "learning_action_reason": "recent receipts suggest clean follow-through",
+  "carry_forward_object": "stage-commit-bootstrap-drift-fix",
+  "carry_forward_test": "Is the prior judgment still live enough to follow through cleanly?",
+  "confidence_class": "medium",
+  "bias_strength": "soft"
 }

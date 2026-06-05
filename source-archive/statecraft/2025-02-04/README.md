@@ -4,26 +4,28 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `3`
-- Body kind mix: `transcript` (3)
-- Source form mix: `interview` (3)
+- Source files: `4`
+- Helper notes (excluded from source count): `0`
+- Body kind mix: `transcript` (3), `operator-transcript` (1)
+- Source form mix: `interview` (4)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
-- Distinct guests: `3`
-- Distinct threads: `5`
+- Distinct guests: `4`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (2), `Glenn Diesen` (1)
+- `Judging Freedom` (3), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (2), `Glenn Diesen` (1)
-- Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1)
-- Threads: `napolitano` (2), `diesen` (1), `freeman` (1), `macgregor` (1), `sachs` (1)
+- Hosts: `Andrew Napolitano` (3), `Glenn Diesen` (1)
+- Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1)
+- Threads: `napolitano` (3), `diesen` (1), `freeman` (1), `macgregor` (1), `mearsheimer` (1), `sachs` (1)
 
 ## Files
 
 - `source-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md`
 - `source-napolitano-amb-chas-freeman-trump-and-usaid-2025-02-04.md`
 - `source-napolitano-macgregor-trump-and-his-oligarchs-2025-02-04.md`
+- `source-napolitano-mearsheimer-can-trump-control-netanyahu-2025-02-04.md`

@@ -3,15 +3,19 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: substack-post
 source_form: newsletter
+host_people:
+  - Robert Pape
+guest_people: []
 thread: pape
-source_url: https://escalationtrap.substack.com/p/the-trap-gets-worse
+channel_name: escalationtrap.substack.com
+source_url: "https://escalationtrap.substack.com/p/the-trap-gets-worse"
 publication: escalationtrap.substack.com
 slug: the-trap-gets-worse
 author: Prof Robert Pape
-title: "The Trap Gets Worse"
+title: The Trap Gets Worse
 subtitle: "Five Questions from Sunday's Briefing That Reveal Why Trump Cannot Escape the Escalation Trap-and Why Instability Now Favors Tehran"
 access: public
-capture_note: "Operator paste; public Substack essay body preserved from user-provided capture with light Markdown normalization."
+capture_note: Operator paste; public Substack essay body preserved from user-provided capture with light Markdown normalization.
 ---
 # The Trap Gets Worse
 

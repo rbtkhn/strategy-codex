@@ -24,7 +24,7 @@ For one compact live comparison of how cluster behavior changes across `essays/`
 
 Fast distinction:
 
-- if the object is one seam, mechanism, route question, audit, comparison, or promoted local insight, open a **note**
+- if the object is one seam, mechanism, route question, audit, comparison, session-governance contract, or promoted local insight, open a **note**
 - if the object has become a thesis that should travel on its own, open an **essay**
 
 Speaker-shelf carveout:
@@ -42,6 +42,7 @@ Use this order:
 
 1. If the object is still month-scale extraction from a live source spine, use the domain's `synthesis/` layer.
 2. If the object is reusable but still bounded to one seam, mechanism, route question, audit, or comparison, use `notes/`.
+   This also covers compact session-governance or operating-contract notes that remain local prose objects rather than doctrine.
 3. If the object now carries a stand-alone thesis that should travel outside the original routing context, use `essays/`.
 4. If it is actually doctrine, a kernel, a sheet, a bridge, a transaction, or an archive object, do not force it into a prose shelf.
 
@@ -60,6 +61,7 @@ Open a note when you need:
 - a route or threshold distinction
 - an audit-shaped interpretive object
 - a comparison that should stay local rather than widen into doctrine
+- a compact operating or session-governance contract that should remain below doctrine
 
 Notes usually preserve one reusable object without pretending to become the final argument above it.
 

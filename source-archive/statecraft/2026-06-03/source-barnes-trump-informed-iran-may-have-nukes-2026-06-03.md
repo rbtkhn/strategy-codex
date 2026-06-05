@@ -3,16 +3,22 @@ ingest_date: 2026-06-03
 pub_date: 2026-06-03
 kind: transcript
 source_form: interview
+host_people:
+  - Mario Nawfal
+guest_people:
+  - Robert Barnes
+show_title: Mario Nawfal
+channel_name: Mario Nawfal
 thread: barnes
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Robert Barnes
-title: "TRUMP INFORMED \"IRAN MAY HAVE NUKES\" - w/ Political Analyst Robert Barnes"
+title: "TRUMP INFORMED \\\"IRAN MAY HAVE NUKES\\\" - w/ Political Analyst Robert Barnes"
 source_url: "https://www.youtube.com/watch?v=2DsnE3Gzk1s"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture. YouTube watch-page metadata reports upload date 2026-06-03."
-editorial_note: "Light cleanup only for routing-safe punctuation and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture. YouTube watch-page metadata reports upload date 2026-06-03.
+editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
 ---
 # TRUMP INFORMED "IRAN MAY HAVE NUKES" - w/ Political Analyst Robert Barnes
 

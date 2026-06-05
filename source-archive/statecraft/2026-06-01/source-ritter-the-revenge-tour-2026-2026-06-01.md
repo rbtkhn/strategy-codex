@@ -2,12 +2,14 @@
 ingest_date: 2026-06-02
 pub_date: 2026-06-01
 thread: ritter
-source_url: https://scottritter.substack.com/p/the-revenge-tour-2026
+source_url: "https://scottritter.substack.com/p/the-revenge-tour-2026"
 kind: operator-transcript
 source_form: newsletter
-series: The Revenge Tour, 2026 (Substack)
+host_people: []
+guest_people: []
+series: "The Revenge Tour, 2026 (Substack)"
 speaker: Scott Ritter
-source_note: Operator-pasted full post body from Scott Ritter Substack; on-page publication date shown as Jun 01, 2026.
+source_note: "Operator-pasted full post body from Scott Ritter Substack; on-page publication date shown as Jun 01, 2026."
 title_slug: substack-ritter-the-revenge-tour-2026-2026-06-01
 ---
 # The Revenge Tour, 2026 (operator capture)

@@ -3,10 +3,15 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: transcript
 source_form: solo
+host_people:
+  - Daniel Davis
+guest_people: []
+show_title: Daniel Davis Deep Dive
+channel_name: Daniel Davis Deep Dive
 source_type: youtube
 transcript_type: operator_pasted_transcript
-title: "Iran Warhawks Delusional Fantasy /Lt Col Daniel Davis"
-source_url: https://www.youtube.com/watch?v=8ZKnRMc1m00
+title: Iran Warhawks Delusional Fantasy /Lt Col Daniel Davis
+source_url: "https://www.youtube.com/watch?v=8ZKnRMc1m00"
 youtube_id: 8ZKnRMc1m00
 channel_slug: daniel-davis-deep-dive
 source_note: Transcript pasted manually by operator for canonical June 1 2026 Daniel Davis Deep Dive capture.
@@ -14,7 +19,7 @@ editorial_note: Operator-pasted transcript body; not independently verified as v
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
-channel_url: https://www.youtube.com/@DanielDavisDeepDive
+channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 ---
 # Iran Warhawks Delusional Fantasy /Lt Col Daniel Davis

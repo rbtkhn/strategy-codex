@@ -3,20 +3,26 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
+host_people:
+  - Andrew Napolitano
+guest_people:
+  - John Mearsheimer
+show_title: Judging Freedom
+channel_name: Judging Freedom
 thread: napolitano
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof. John Mearsheimer : Will Israel Veto an American Peace?"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=Ns7777oBj4U"
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
 source_note: "Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance."
-normalization_note: "Kept operator-pasted source language and residual ASR noise as provided."
+normalization_note: Kept operator-pasted source language and residual ASR noise as provided.
 ---
 # Prof. John Mearsheimer : Will Israel Veto an American Peace?
 

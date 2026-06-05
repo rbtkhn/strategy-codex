@@ -1,14 +1,14 @@
 ---
-name: portable-skills-sync
-preferred_activation: sync skills
-description: 'Sync portable skill cores into generated host Cursor SKILL.md files: manifest-driven assembly, optional host appendix, verify step before write. Triggers: skills-portable edit, manifest.yaml, CURSOR_APPENDIX, portable pipeline, run sync, verify portable skills.'
+name: "portable-skills-sync"
+preferred_activation: "sync skills"
+description: "Sync portable skill cores into generated host Cursor SKILL.md files: manifest-driven assembly, optional host appendix, verify step before write. Triggers: skills-portable edit, manifest.yaml, CURSOR_APPENDIX, portable pipeline, run sync, verify portable skills."
 portable: true
-version: 1.0.1
+version: "1.0.1"
 tags:
-- operator
-- work-dev
-portable_source: skills-portable/portable-skills-sync/SKILL.md
-synced_by: sync_portable_skills.py
+  - "operator"
+  - "work-dev"
+portable_source: "skills-portable/portable-skills-sync/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
 # Portable skills — sync to Cursor (host)
 

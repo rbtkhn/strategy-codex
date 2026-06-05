@@ -4,23 +4,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `4`
-- Body kind mix: `transcript` (2), `source` (1), `youtube` (1)
-- Source form mix: `interview` (4)
-- Distinct channels/shows: `3`
+- Source files: `5`
+- Helper notes (excluded from source count): `0`
+- Body kind mix: `transcript` (2), `operator-transcript` (1), `source` (1), `youtube` (1)
+- Source form mix: `interview` (5)
+- Distinct channels/shows: `4`
 - Distinct hosts: `4`
-- Distinct guests: `4`
-- Distinct threads: `7`
+- Distinct guests: `5`
+- Distinct threads: `8`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Mercouris` (1)
+- `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Judging Freedom` (1), `Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1), `Glenn Diesen` (1)
-- Guests: `Andrei Martyanov` (1), `Chas Freeman` (1), `Martin Armstrong` (1), `Medvedev Wants Kiev; Moscow` (1)
-- Threads: `armstrong` (1), `davis` (1), `diesen` (1), `freeman` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1)
+- Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1)
+- Guests: `Andrei Martyanov` (1), `Chas Freeman` (1), `John Mearsheimer` (1), `Martin Armstrong` (1), `Moscow` (1)
+- Threads: `napolitano` (2), `armstrong` (1), `davis` (1), `diesen` (1), `freeman` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1)
 
 ## Files
 
@@ -28,3 +29,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `source-daniel-davis-deep-dive-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md`
 - `source-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md`
 - `source-napolitano-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md`
+- `source-napolitano-mearsheimer-trump-has-no-offramp-2026-02-24.md`

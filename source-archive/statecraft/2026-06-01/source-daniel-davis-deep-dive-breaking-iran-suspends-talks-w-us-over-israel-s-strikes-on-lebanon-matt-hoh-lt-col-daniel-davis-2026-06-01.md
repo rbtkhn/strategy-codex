@@ -3,10 +3,16 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: transcript
 source_form: interview
+host_people:
+  - Daniel Davis
+guest_people:
+  - Matt Hoh
+show_title: Daniel Davis Deep Dive
+channel_name: Daniel Davis Deep Dive
 source_type: youtube
 transcript_type: operator_pasted_transcript
 title: "BREAKING: Iran Suspends Talks w/US over Israel's strikes on Lebanon Matt Hoh & Lt Col Daniel Davis"
-source_url: https://www.youtube.com/watch?v=ACq6ZXOP314
+source_url: "https://www.youtube.com/watch?v=ACq6ZXOP314"
 youtube_id: ACq6ZXOP314
 channel_slug: daniel-davis-deep-dive
 source_note: Transcript pasted manually by operator for canonical June 1 2026 Daniel Davis Deep Dive capture.
@@ -15,7 +21,7 @@ show: Daniel Davis Deep Dive
 host: Daniel Davis
 guest: Matt Hoh
 thread: davis
-channel_url: https://www.youtube.com/@DanielDavisDeepDive
+channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 ---
 # BREAKING: Iran Suspends Talks w/US over Israel's strikes on Lebanon Matt Hoh & Lt Col Daniel Davis

@@ -3,15 +3,21 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: transcript
 source_form: interview
+host_people:
+  - Nima Alkhorshid
+guest_people:
+  - Jacques Baud
+show_title: Dialogue Works
+channel_name: Dialogue Works
 thread: nima
 show: Dialogue Works
 host: Nima R. Alkhorshid
 guest: Jacques Baud
 title: "Nima R. Alkhorshid: Col. Jacques Baud: Trump Just Pulled His Last Card... And Israel Is in SHAMBLES"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=LD3uX3lj0-Y"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
 ---
 # Nima R. Alkhorshid: Col. Jacques Baud: Trump Just Pulled His Last Card... And Israel Is in SHAMBLES
 

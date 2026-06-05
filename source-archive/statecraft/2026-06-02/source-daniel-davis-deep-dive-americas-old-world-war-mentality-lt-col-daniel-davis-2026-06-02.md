@@ -3,10 +3,15 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: solo
+host_people:
+  - Daniel Davis
+guest_people: []
+show_title: Daniel Davis Deep Dive
+channel_name: Daniel Davis Deep Dive
 source_type: youtube
 transcript_type: operator_pasted_transcript
 title: "America's OLD WORLD WAR MENTALITY /Lt Col Daniel Davis"
-source_url: https://www.youtube.com/watch?v=5dY4pJQGZ0k
+source_url: "https://www.youtube.com/watch?v=5dY4pJQGZ0k"
 youtube_id: 5dY4pJQGZ0k
 channel_slug: daniel-davis-deep-dive
 source_note: Transcript pasted manually by operator for canonical June 2 2026 Daniel Davis Deep Dive capture.
@@ -14,7 +19,7 @@ editorial_note: Operator-pasted transcript body; not independently verified as v
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
-channel_url: https://www.youtube.com/@DanielDavisDeepDive
+channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 ---
 # America's OLD WORLD WAR MENTALITY /Lt Col Daniel Davis

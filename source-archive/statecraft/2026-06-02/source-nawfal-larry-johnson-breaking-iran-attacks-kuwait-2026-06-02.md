@@ -3,6 +3,12 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
+host_people:
+  - Mario Nawfal
+guest_people:
+  - Larry Johnson
+show_title: Mario Nawfal
+channel_name: Mario Nawfal
 thread: johnson
 show: Mario Nawfal
 host: Mario Nawfal

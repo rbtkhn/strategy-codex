@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T05:31:07.003178+00:00",
+  "generated_at": "2026-06-04T06:12:26.661941+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
@@ -15,7 +15,8 @@
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "AI frontier watch: The Innermost Loop latest - Welcome to May 28, 2026 - consider explicit source hygiene if relevant tomorrow"
+    "Capture gap: Record hasn't grown in 14 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
+    "AI frontier watch: The Innermost Loop latest - Welcome to June 3, 2026 - consider explicit source hygiene if relevant tomorrow"
   ],
   "phases": {
     "recent": {
@@ -31,33 +32,21 @@
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-05-28T05:31:02.103454+00:00",
-    "window_end_utc": "2026-05-29T05:31:02.103454+00:00",
+    "window_start_utc": "2026-06-03T06:12:21.057901+00:00",
+    "window_end_utc": "2026-06-04T06:12:21.057901+00:00",
     "window_hours": 24.0,
-    "count": 1,
-    "first_ts": "2026-05-28T12:35:00+00:00",
-    "last_ts": "2026-05-28T12:35:00+00:00",
+    "count": 0,
+    "first_ts": null,
+    "last_ts": null,
     "span_hours": null,
-    "by_mode": {
-      "first-command": 1
-    },
-    "runs": [
-      {
-        "ts_iso": "2026-05-28T12:35:00+00:00",
-        "ok": true,
-        "mode": "first-command",
-        "kv": {
-          "cursor_model": "unknown",
-          "model_tier": "unknown"
-        }
-      }
-    ],
+    "by_mode": {},
+    "runs": [],
     "picks": [],
     "by_picked": {}
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-05-28T05:31:02.103454+00:00",
-    "window_end_utc": "2026-05-29T05:31:02.103454+00:00",
+    "window_start_utc": "2026-06-03T06:12:21.057901+00:00",
+    "window_end_utc": "2026-06-04T06:12:21.057901+00:00",
     "window_hours": 24.0,
     "pick_count": 0,
     "outcome_count": 0,
@@ -70,30 +59,59 @@
   },
   "execution_paths": [
     {
-      "id": "today_field",
-      "title": "Statecraft drafting (treaty / policy / negotiation bench)",
-      "first_move": "python3 scripts/operator_coffee.py -u strategy-codex - then coffee menu C - Statecraft",
-      "stop_rule": "One slice: choose treaty, policy, negotiation, or Richelieu/Bismarck stress test - enough for first block.",
-      "signals_used": []
+      "id": "confirm",
+      "title": "Confirm the current line and follow through",
+      "first_move": "Use recent receipts to validate and execute the next move.",
+      "stop_rule": "Stop once the prior judgment is either validated or clearly no longer live.",
+      "signals_used": [
+        "outcome_receipts",
+        "artifact_overlap",
+        "dream_confidence"
+      ]
     },
     {
-      "id": "build",
-      "title": "Build / integrate (repo + work-dev)",
-      "first_move": "python3 scripts/validate-integrity.py --user strategy-codex --json",
-      "stop_rule": "Integrity passes; then optional: python3 scripts/refresh_derived_exports.py -u strategy-codex",
-      "signals_used": []
+      "id": "test",
+      "title": "Test the current frame before deepening it",
+      "first_move": "Probe the strongest uncertainty or blocker first.",
+      "stop_rule": "Stop once one bounded falsifier materially sharpens the field.",
+      "signals_used": [
+        "blocked_outcomes",
+        "repeated_loops",
+        "dream_mismatch"
+      ]
     },
     {
-      "id": "steward",
-      "title": "Steward / membrane (gate + template parity)",
-      "first_move": "Read strategy-codex/recursion-gate.md; optional: python3 scripts/operator_gate_review_pass.py -u strategy-codex",
-      "stop_rule": "Top 1-3 candidates reviewed or explicitly deferred.",
-      "signals_used": []
+      "id": "deepen",
+      "title": "Deepen the object until the model is good enough to act",
+      "first_move": "Clarify mechanism, object shape, or missing context.",
+      "stop_rule": "Stop when the object is clear enough for a later confirm or test.",
+      "signals_used": [
+        "reviewable_digest",
+        "low_readiness",
+        "object_formation"
+      ]
+    },
+    {
+      "id": "reframe",
+      "title": "Reframe when the inherited category is wrong",
+      "first_move": "Question the object, menu, or carry-forward assumption itself.",
+      "stop_rule": "Stop once a better object or better frame replaces the stale one.",
+      "signals_used": [
+        "category_drift",
+        "stale_inheritance",
+        "pattern_watch"
+      ]
     }
   ],
-  "suggested_execution_path_index": 2,
-  "execution_path_suggestion_reason": "calendar_mod3",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Steward / membrane (gate + template parity)** - calendar rotation; not policy or Record.",
+  "suggested_execution_path_index": 0,
+  "execution_path_suggestion_reason": "validated_follow_through",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: stage-commit-bootstrap-drift-fix; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
+  "learning_action_recommendation": "confirm",
+  "learning_action_reason": "recent receipts suggest clean follow-through",
+  "carry_forward_object": "stage-commit-bootstrap-drift-fix",
+  "carry_forward_test": "Is the prior judgment still live enough to follow through cleanly?",
+  "confidence_class": "medium",
+  "bias_strength": "soft",
   "civmem_echoes": [
     {
       "path": "book\\APPLIED-THEOLOGY-INSIGHTS-MERCOURIS-LENS.md",
@@ -109,67 +127,54 @@
   "capture_gap": {
     "last_evidence_date": "2026-05-21",
     "last_evidence_id": "ACT-0038",
-    "days_since_evidence": 7,
+    "days_since_evidence": 14,
     "last_merge_date": "2026-05-21",
-    "days_since_merge": 7,
+    "days_since_merge": 14,
     "pending_count": 1,
-    "level": "notice",
-    "message": "Record hasn't grown in 7 days (last: ACT-0038, 2026-05-21)"
+    "level": "warning",
+    "message": "Record hasn't grown in 14 days (last: ACT-0038, 2026-05-21)"
   },
   "capability_shift": {
     "category": "model",
-    "sources_checked": 5,
+    "sources_checked": 6,
     "sources_total": 6,
-    "alert_count": 6,
+    "alert_count": 10,
     "review_count": 0,
-    "monitor_count": 1,
+    "monitor_count": 2,
     "variant_count": 0,
-    "fetch_errors": [
-      {
-        "name": "OpenAI",
-        "error": "HTTP Error 403: Forbidden"
-      }
-    ]
+    "fetch_errors": []
   },
   "frontier_source_hint": {
     "source_id": "the-innermost-loop",
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-05-29T05:31:06.737445+00:00",
+    "fetched_at": "2026-06-04T06:12:26.498722+00:00",
     "status": "ok",
-    "title": "Welcome to May 28, 2026",
-    "url": "https://theinnermostloop.substack.com/p/welcome-to-may-28-2026",
-    "published_at": "2026-05-28T04:54:26+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to May 28, 2026\" (2026-05-28T04:54:26+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
+    "title": "Welcome to June 3, 2026",
+    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-3-2026",
+    "published_at": "2026-06-03T20:31:43+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 3, 2026\" (2026-06-03T20:31:43+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
     "previous_dream_generated_at": null,
     "local_calendar_dates": [
-      "2026-05-29"
+      "2026-06-04"
     ],
     "strategy_notebook_missing_day_headers": [
-      "2026-05-29"
+      "2026-06-04"
     ]
   },
-  "last_coffee_echo": {
-    "timestamp": "2026-05-28T12:35:00+00:00",
-    "conductor": null,
-    "mode": "first-command",
-    "menu_letter": null,
-    "highlight": "Yesterday\u2019s first-command coffee is still the thread.",
-    "source": "coffee_rollup_24h"
-  },
   "handoffSchemaVersion": 3,
-  "topActionReason": "calendar_mod3",
+  "topActionReason": "validated_follow_through",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "AI frontier watch: The Innermost Loop latest - Welcome to May 28, 2026 - consider explicit source hygiene if relevant to",
+    "must_resume": "Capture gap: Record hasn't grown in 14 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
     "safe_to_drop": "",
     "blocked": "",
-    "watch_later": ""
+    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 3, 2026 - consider explicit source hygiene if relevant to"
   },
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session."

@@ -1,8 +1,14 @@
 ---
-ingest_date: '2026-06-03'
-pub_date: '2026-06-03'
+ingest_date: 2026-06-03
+pub_date: 2026-06-03
 kind: transcript
 source_form: interview
+host_people:
+  - Andrew Napolitano
+guest_people:
+  - Larry Johnson
+show_title: Judging Freedom
+channel_name: Judging Freedom
 source_type: youtube
 transcript_type: operator_pasted_transcript
 title: "Larry Johnson : Does Iran Have the Bomb? Part 2"
@@ -17,7 +23,7 @@ guest: Larry Johnson
 thread: johnson
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
-quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+quality_note: "Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain."
 ---
 # Larry Johnson : Does Iran Have the Bomb? Part 2
 

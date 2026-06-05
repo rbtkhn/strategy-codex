@@ -3,15 +3,19 @@ ingest_date: 2026-06-03
 pub_date: 2026-06-03
 kind: substack-post
 source_form: newsletter
+host_people:
+  - Robert Pape
+guest_people: []
 thread: pape
-source_url: https://escalationtrap.substack.com/p/bombing-while-talking-ii
+channel_name: escalationtrap.substack.com
+source_url: "https://escalationtrap.substack.com/p/bombing-while-talking-ii"
 publication: escalationtrap.substack.com
 slug: bombing-while-talking-ii
 author: Prof Robert Pape
-title: "Bombing While Talking II"
-subtitle: "Why Ceasefires Fail"
+title: Bombing While Talking II
+subtitle: Why Ceasefires Fail
 access: public
-capture_note: "Operator paste; public Substack essay body preserved from user-provided capture with light Markdown normalization."
+capture_note: Operator paste; public Substack essay body preserved from user-provided capture with light Markdown normalization.
 ---
 # Bombing While Talking II
 

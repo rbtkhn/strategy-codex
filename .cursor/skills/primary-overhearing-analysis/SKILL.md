@@ -1,15 +1,15 @@
 ---
-name: primary-overhearing-analysis
-preferred_activation: primary overhearing
-description: Analyzes high-symbolism speeches, visits, and rituals using primary vs overhearing audiences, speech-act function, and second-order spillover (soft power, who gains moral authority vs rivals who claim to solve the problem). Use when the operator asks for audience optics, primary/overhearing frame, papal or diplomatic visits, interfaith stops, migration messaging, or narrative competition over the solver role.
+name: "primary-overhearing-analysis"
+preferred_activation: "primary overhearing"
+description: "Analyzes high-symbolism speeches, visits, and rituals using primary vs overhearing audiences, speech-act function, and second-order spillover (soft power, who gains moral authority vs rivals who claim to solve the problem). Use when the operator asks for audience optics, primary/overhearing frame, papal or diplomatic visits, interfaith stops, migration messaging, or narrative competition over the solver role."
 portable: true
-version: 1.0.0
+version: "1.0.0"
 tags:
-- operator
-- analysis
-- strategy
-portable_source: skills-portable/primary-overhearing-analysis/SKILL.md
-synced_by: sync_portable_skills.py
+  - "operator"
+  - "analysis"
+  - "strategy"
+portable_source: "skills-portable/primary-overhearing-analysis/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
 # Primary vs overhearing audience analysis
 
@@ -75,6 +75,6 @@ Grace-mar paths (from `.cursor/skills/primary-overhearing-analysis/`).
 | Portable core | [skills-portable/primary-overhearing-analysis/SKILL.md](../../../skills-portable/primary-overhearing-analysis/SKILL.md) |
 | Manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
 | Sync | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
-| Strategy-codex architecture (optional weave) | [codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
+| Strategy notebook (optional weave) | [docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
 
 **Instance note:** Vatican or state **primary** sources (e.g. press.vatican.va) beat unattributed recap for quotes and dates when the operator wants verification.

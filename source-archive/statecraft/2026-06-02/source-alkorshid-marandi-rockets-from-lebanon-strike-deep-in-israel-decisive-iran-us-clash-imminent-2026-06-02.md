@@ -3,17 +3,23 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
+host_people:
+  - Nima Alkhorshid
+guest_people:
+  - Seyed M. Marandi
+show_title: Dialogue Works
+channel_name: Dialogue Works
 thread: nima
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Rockets from Lebanon Strike Deep in Israel - Decisive Iran-US Clash Imminent"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=gfUh61RczdQ"
 source_type: youtube
 youtube_id: gfUh61RczdQ
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
 editorial_note: "Preserve as raw cleaned transcript; verify Lebanon battlefield, sanctions, Gulf escalation, and intra-Zionist-faction claims before promotion beyond analyst tier."
 ---
 # Seyed M. Marandi: Rockets from Lebanon Strike Deep in Israel - Decisive Iran-US Clash Imminent

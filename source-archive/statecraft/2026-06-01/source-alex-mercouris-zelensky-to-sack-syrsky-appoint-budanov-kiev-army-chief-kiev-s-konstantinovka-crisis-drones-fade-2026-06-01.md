@@ -3,6 +3,11 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: youtube
 source_form: solo
+host_people:
+  - Alexander Mercouris
+guest_people: []
+show_title: Alexander Mercouris
+channel_name: Alexander Mercouris
 thread: mercouris
 show: Alexander Mercouris
 host: Alexander Mercouris

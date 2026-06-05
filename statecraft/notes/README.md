@@ -101,6 +101,7 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [mercouris-february-2025-opening-watchlist.md](./mercouris-february-2025-opening-watchlist.md) - bounded opening watchlist preserving February 2025 as a thin Mercouris month with minimal solo and panel presence
 - [mercouris-june-2025-opening-watchlist.md](./mercouris-june-2025-opening-watchlist.md) - bounded opening watchlist preserving June 2025 as the weakest serious Mercouris month and naming the first solo recovery queue
 - [mearsheimer-march-2025-opening-watchlist.md](./mearsheimer-march-2025-opening-watchlist.md) - bounded opening watchlist preserving March 2025 as a thin Mearsheimer month with landed Diesen and Davis anchors plus a recovered Napolitano queue
+- [mearsheimer-march-2025-repair-note.md](./mearsheimer-march-2025-repair-note.md) - bounded month-truth repair note preserving March 2025 as thin but materially repaired after the Mearsheimer recovery pass
 - [mearsheimer-july-2025-opening-watchlist.md](./mearsheimer-july-2025-opening-watchlist.md) - bounded opening watchlist preserving July 2025 as a zero-presence Mearsheimer month with one strong recovered anchor
 - [mearsheimer-april-2025-opening-watchlist.md](./mearsheimer-april-2025-opening-watchlist.md) - bounded opening watchlist preserving April 2025 as a dense but Mearsheimer-thin month with a recovered multi-family queue
 - [mearsheimer-april-2025-repair-note.md](./mearsheimer-april-2025-repair-note.md) - bounded month-truth repair note preserving April 2025 as thin but materially repaired after the Mearsheimer recovery pass
@@ -112,6 +113,7 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [mercouris-november-2025-opening-watchlist.md](./mercouris-november-2025-opening-watchlist.md) - bounded opening watchlist preserving November 2025 Mercouris undercoverage before deeper URL recovery
 - [mercouris-november-2025-repair-note.md](./mercouris-november-2025-repair-note.md) - bounded month-truth note preserving November 2025 as thin but materially repaired after the solo recovery pass
 - [mercouris-september-2025-repair-note.md](./mercouris-september-2025-repair-note.md) - bounded month-truth note preserving the repaired September 2025 Mercouris split between native solo and Duran/Mercouris lanes
+- [sachs-month-floor-repair-2026-06-04.md](./sachs-month-floor-repair-2026-06-04.md) - bounded archive-floor repair note preserving the Sachs pass that lifted every month from January 2025 through June 2026 to at least four captures
 - [recent-speaker-underrepresentation-query-standard.md](./recent-speaker-underrepresentation-query-standard.md) - bounded query-standard note for rolling-week archive representation checks
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - compact operator synthesis of the journal's current arc
 - [statecraft-multi-lens-bench-pressure-test-2026-05.md](./statecraft-multi-lens-bench-pressure-test-2026-05.md) - bounded comparative bench object
@@ -171,6 +173,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [mercouris-february-2025-opening-watchlist.md](./mercouris-february-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mercouris-june-2025-opening-watchlist.md](./mercouris-june-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mearsheimer-march-2025-opening-watchlist.md](./mearsheimer-march-2025-opening-watchlist.md) - shelf-native opening watchlist note
+- [mearsheimer-march-2025-repair-note.md](./mearsheimer-march-2025-repair-note.md) - shelf-native month-truth repair note
 - [mearsheimer-july-2025-opening-watchlist.md](./mearsheimer-july-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mearsheimer-april-2025-opening-watchlist.md](./mearsheimer-april-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mearsheimer-april-2025-repair-note.md](./mearsheimer-april-2025-repair-note.md) - shelf-native month-truth repair note
@@ -182,6 +185,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [mercouris-november-2025-opening-watchlist.md](./mercouris-november-2025-opening-watchlist.md) - shelf-native opening watchlist note
 - [mercouris-november-2025-repair-note.md](./mercouris-november-2025-repair-note.md) - shelf-native month-truth repair note
 - [mercouris-september-2025-repair-note.md](./mercouris-september-2025-repair-note.md) - shelf-native month-truth repair note
+- [sachs-month-floor-repair-2026-06-04.md](./sachs-month-floor-repair-2026-06-04.md) - shelf-native archive-floor repair note
 - [recent-speaker-underrepresentation-query-standard.md](./recent-speaker-underrepresentation-query-standard.md) - shelf-native query-standard note
 - [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) - shelf-native tracking note
 - [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md) - shelf-native speaker-function note

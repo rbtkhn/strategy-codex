@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-06-04T18:43:31.646979+00:00",
+  "generatedAt": "2026-06-05T05:25:39.955907+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -12,15 +12,14 @@
     "slug": "martyanov",
     "speakerSlug": "martyanov",
     "speakerAliases": [
-      "Andrei Martyanov",
-      "Pepe Escobar, Andrei Martyanov"
+      "Andrei Martyanov"
     ]
   },
   "coverage": {
-    "dayCount": 31,
-    "sourceFileCount": 32,
+    "dayCount": 32,
+    "sourceFileCount": 33,
     "firstDay": "2025-01-26",
-    "lastDay": "2026-05-28"
+    "lastDay": "2026-06-04"
   },
   "aggregates": {
     "topDays": [
@@ -110,7 +109,7 @@
     "channels": [
       {
         "name": "Dialogue Works",
-        "count": 25
+        "count": 26
       },
       {
         "name": "Daniel Davis Deep Dive",
@@ -124,7 +123,7 @@
     "hosts": [
       {
         "name": "Nima Alkhorshid",
-        "count": 25
+        "count": 26
       },
       {
         "name": "Daniel Davis",
@@ -138,29 +137,29 @@
     "guests": [
       {
         "name": "Andrei Martyanov",
-        "count": 32
+        "count": 33
       },
       {
         "name": "Alex Krainer",
         "count": 2
       },
       {
-        "name": "Scott Ritter",
+        "name": "Pepe Escobar",
         "count": 2
       },
       {
-        "name": "Pepe Escobar",
-        "count": 1
+        "name": "Scott Ritter",
+        "count": 2
       }
     ],
     "threads": [
       {
         "name": "martyanov",
-        "count": 32
+        "count": 33
       },
       {
         "name": "nima",
-        "count": 25
+        "count": 26
       },
       {
         "name": "davis",
@@ -182,7 +181,7 @@
     "sourceForms": [
       {
         "name": "interview",
-        "count": 32
+        "count": 33
       }
     ]
   },
@@ -964,6 +963,10 @@
         {
           "name": "Andrei Martyanov",
           "count": 1
+        },
+        {
+          "name": "Pepe Escobar",
+          "count": 1
         }
       ],
       "threads": [
@@ -1724,6 +1727,55 @@
       ],
       "fileNames": [
         "source-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-06-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alkorshid-andrei-martyanov-israel-s-military-just-got-humiliated-on-every-front-2026-06-04.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false

@@ -1,10 +1,54 @@
 {
   "schemaVersion": "1.0.0-statecraft-metadata-normalization-audit",
-  "generatedAt": "2026-06-05T04:50:26.001987+00:00",
+  "generatedAt": "2026-06-05T05:24:15.715503+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "coverage": {
-    "fileCount": 1518
+    "fileCount": 1546
   },
+  "structuredFieldPresence": [
+    {
+      "name": "any_structured_fields",
+      "count": 38
+    },
+    {
+      "name": "channel_name",
+      "count": 38
+    },
+    {
+      "name": "host_people",
+      "count": 38
+    },
+    {
+      "name": "show_and_channel_complete",
+      "count": 38
+    },
+    {
+      "name": "show_title",
+      "count": 31
+    },
+    {
+      "name": "guest_people",
+      "count": 25
+    }
+  ],
+  "missingStructuredCombos": [
+    {
+      "name": "missing_host_people",
+      "count": 1320
+    },
+    {
+      "name": "missing_channel_name",
+      "count": 1277
+    },
+    {
+      "name": "missing_show_title",
+      "count": 1144
+    },
+    {
+      "name": "missing_guest_people",
+      "count": 972
+    }
+  ],
   "hostRewrites": [
     {
       "name": "Judge Andrew Napolitano -> Andrew Napolitano",
@@ -45,6 +89,14 @@
     {
       "name": "Nima R. Alkhorshid -> Nima Alkhorshid",
       "count": 3
+    },
+    {
+      "name": "Clayton Morris, Natali Morris -> Clayton Morris",
+      "count": 2
+    },
+    {
+      "name": "Clayton Morris, Natali Morris -> Natali Morris",
+      "count": 2
     },
     {
       "name": "Alex Christoforu -> Alex Christoforou",
@@ -181,6 +233,14 @@
       "count": 2
     },
     {
+      "name": "Alex Christoforou, Alexander Mercouris -> Alex Christoforou",
+      "count": 1
+    },
+    {
+      "name": "Alex Christoforou, Alexander Mercouris -> Alexander Mercouris",
+      "count": 1
+    },
+    {
       "name": "Andrei Martyanov & Alex Krainer -> Alex Krainer",
       "count": 1
     },
@@ -209,6 +269,10 @@
       "count": 1
     },
     {
+      "name": "Israel AD Fails 80% Iran Missiles Hit Target; China -> Israel AD Fails 80% Iran Missiles Hit Target",
+      "count": 1
+    },
+    {
       "name": "Israel is in Total Disarray | Alex Krainer & Col. Larry Wilkerson -> Alex Krainer",
       "count": 1
     },
@@ -222,6 +286,26 @@
     },
     {
       "name": "Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter -> Scott Ritter",
+      "count": 1
+    },
+    {
+      "name": "Jeffrey Sachs, Yakov Rabkin, Manuel Ramos -> Jeffrey Sachs",
+      "count": 1
+    },
+    {
+      "name": "Jeffrey Sachs, Yakov Rabkin, Manuel Ramos -> Manuel Ramos",
+      "count": 1
+    },
+    {
+      "name": "Jeffrey Sachs, Yakov Rabkin, Manuel Ramos -> Yakov Rabkin",
+      "count": 1
+    },
+    {
+      "name": "John Mearsheimer, Alexander Mercouris -> Alexander Mercouris",
+      "count": 1
+    },
+    {
+      "name": "John Mearsheimer, Alexander Mercouris -> John Mearsheimer",
       "count": 1
     },
     {
@@ -241,6 +325,10 @@
       "count": 1
     },
     {
+      "name": "Medvedev Wants Kiev; Moscow -> Medvedev Wants Kiev",
+      "count": 1
+    },
+    {
       "name": "Medvedev Wants Kiev; Moscow -> Moscow",
       "count": 1
     },
@@ -257,11 +345,19 @@
       "count": 1
     },
     {
+      "name": "Pepe Escobar & Larry C. Johnson -> Pepe Escobar",
+      "count": 1
+    },
+    {
       "name": "Pepe Escobar, Andrei Martyanov & Alex Krainer -> Alex Krainer",
       "count": 1
     },
     {
-      "name": "Pepe Escobar, Andrei Martyanov & Alex Krainer -> Pepe Escobar, Andrei Martyanov",
+      "name": "Pepe Escobar, Andrei Martyanov & Alex Krainer -> Andrei Martyanov",
+      "count": 1
+    },
+    {
+      "name": "Pepe Escobar, Andrei Martyanov & Alex Krainer -> Pepe Escobar",
       "count": 1
     },
     {
@@ -277,7 +373,11 @@
       "count": 1
     },
     {
-      "name": "Professor Robert Pape (CPOST, University of Chicago; Escalation Trap on Substack) -> Robert Pape (CPOST, University of Chicago",
+      "name": "Professor Robert Pape (CPOST, University of Chicago; Escalation Trap on Substack) -> Robert Pape (CPOST",
+      "count": 1
+    },
+    {
+      "name": "Professor Robert Pape (CPOST, University of Chicago; Escalation Trap on Substack) -> University of Chicago",
       "count": 1
     },
     {
@@ -317,6 +417,14 @@
       "count": 1
     },
     {
+      "name": "Terror Attacks, Radicalism & U.S. Military Vets -> Radicalism",
+      "count": 1
+    },
+    {
+      "name": "Terror Attacks, Radicalism & U.S. Military Vets -> Terror Attacks",
+      "count": 1
+    },
+    {
       "name": "Terror Attacks, Radicalism & U.S. Military Vets -> U.S. Military Vets",
       "count": 1
     },
@@ -325,7 +433,19 @@
       "count": 1
     },
     {
+      "name": "Trump on Ukraine, Russia, Iran & Israel -> Iran",
+      "count": 1
+    },
+    {
       "name": "Trump on Ukraine, Russia, Iran & Israel -> Israel",
+      "count": 1
+    },
+    {
+      "name": "Trump on Ukraine, Russia, Iran & Israel -> Russia",
+      "count": 1
+    },
+    {
+      "name": "Trump on Ukraine, Russia, Iran & Israel -> Trump on Ukraine",
       "count": 1
     },
     {
@@ -341,7 +461,15 @@
       "count": 1
     },
     {
+      "name": "UKRAINE & CRIMEA -> UKRAINE",
+      "count": 1
+    },
+    {
       "name": "US Mulls Iran Ground Invasion As Options Run Out; Israel -> Israel",
+      "count": 1
+    },
+    {
+      "name": "US Mulls Iran Ground Invasion As Options Run Out; Israel -> US Mulls Iran Ground Invasion As Options Run Out",
       "count": 1
     }
   ],
@@ -351,327 +479,15 @@
       "count": 13
     },
     {
-      "name": "John Helmer",
+      "name": "Jeffrey Sachs",
       "count": 3
-    },
-    {
-      "name": "Matthew Hoh",
-      "count": 3
-    },
-    {
-      "name": "Pepe Escobar",
-      "count": 3
-    },
-    {
-      "name": "Deep Dive Intel Briefing",
-      "count": 2
-    },
-    {
-      "name": "Jiang Xueqin",
-      "count": 2
-    },
-    {
-      "name": "Las Vegas Cybertruck Explosion",
-      "count": 2
-    },
-    {
-      "name": "Michael Hudson",
-      "count": 2
     },
     {
       "name": "host-only-title-match",
       "count": 2
     },
     {
-      "name": "2025 Ukraine Russia War Foreign Policy",
-      "count": 1
-    },
-    {
-      "name": "2025 War Strategies",
-      "count": 1
-    },
-    {
-      "name": "Aaron Mat\u00e9",
-      "count": 1
-    },
-    {
-      "name": "Alex Christoforou, Alexander Mercouris",
-      "count": 1
-    },
-    {
-      "name": "Anatol Lieven",
-      "count": 1
-    },
-    {
-      "name": "Austin v. Hegseth",
-      "count": 1
-    },
-    {
-      "name": "BREAKING",
-      "count": 1
-    },
-    {
-      "name": "Biden",
-      "count": 1
-    },
-    {
-      "name": "Biden Pushes More $$$ to Ukraine to 'Pressure Putin'",
-      "count": 1
-    },
-    {
-      "name": "CLOSE",
-      "count": 1
-    },
-    {
-      "name": "Chances of US Civil War Greater than You Realize",
-      "count": 1
-    },
-    {
-      "name": "DC Plane Crash Disaster",
-      "count": 1
-    },
-    {
-      "name": "DEFP's Jennifer Kavanaugh",
-      "count": 1
-    },
-    {
-      "name": "Deceit Uncovered",
-      "count": 1
-    },
-    {
-      "name": "Devastating Failure in Ukraine's Kursk Offensive",
-      "count": 1
-    },
-    {
-      "name": "Did Israel Just Admit DEFEAT to Hamas?",
-      "count": 1
-    },
-    {
-      "name": "Dmitry Polyanskiy",
-      "count": 1
-    },
-    {
-      "name": "Drones UPDATE",
-      "count": 1
-    },
-    {
-      "name": "EXCLUSIVE",
-      "count": 1
-    },
-    {
-      "name": "Gaza Ceasefire/Hostage Deal in the Works",
-      "count": 1
-    },
-    {
-      "name": "Hegseth",
-      "count": 1
-    },
-    {
-      "name": "Iran Leader",
-      "count": 1
-    },
-    {
-      "name": "Israel",
-      "count": 1
-    },
-    {
-      "name": "Israel Shaken",
-      "count": 1
-    },
-    {
-      "name": "Kyle Anzalone",
-      "count": 1
-    },
-    {
-      "name": "LIVE from RUSSIA",
-      "count": 1
-    },
-    {
-      "name": "Laith Marouf",
-      "count": 1
-    },
-    {
-      "name": "Looks like Ukraine Aid is Stopped",
-      "count": 1
-    },
-    {
-      "name": "Matt Hoh",
-      "count": 1
-    },
-    {
-      "name": "Mike Adams",
-      "count": 1
-    },
-    {
-      "name": "Military Executive Orders",
-      "count": 1
-    },
-    {
-      "name": "Negotiating Bridge to Nowhere",
-      "count": 1
-    },
-    {
-      "name": "New Orleans Terror Attack",
-      "count": 1
-    },
-    {
-      "name": "New Orleans Terror Attack UPDATE",
-      "count": 1
-    },
-    {
-      "name": "Over 100k Ukraine Troops Charged With Desertion",
-      "count": 1
-    },
-    {
-      "name": "Patrick Henningsen",
-      "count": 1
-    },
-    {
-      "name": "Paul Craig Roberts",
-      "count": 1
-    },
-    {
-      "name": "Prepared to say Israel Committed War Crimes?",
-      "count": 1
-    },
-    {
-      "name": "Putin Holds All the Cards in Ending Ukraine War",
-      "count": 1
-    },
-    {
-      "name": "Putin New Demand As Kiev Collapses",
-      "count": 1
-    },
-    {
-      "name": "Putin's Other Options in 2022",
-      "count": 1
-    },
-    {
-      "name": "Re",
-      "count": 1
-    },
-    {
-      "name": "Russia",
-      "count": 1
-    },
-    {
-      "name": "Russia Advancing on All Fronts",
-      "count": 1
-    },
-    {
-      "name": "Russia Crushes Kursk Offensive",
-      "count": 1
-    },
-    {
-      "name": "Russia Iran Fleets Conduct Hormuz Exercise Trump Delays Strike",
-      "count": 1
-    },
-    {
-      "name": "Terror Attack in New Orleans",
-      "count": 1
-    },
-    {
-      "name": "The Duran's Alexander Mercouris NATO Preparing for WAR w RUSSIA",
-      "count": 1
-    },
-    {
-      "name": "The Extremely Weak Hand Trump's Been Dealt in Ukraine",
-      "count": 1
-    },
-    {
-      "name": "The NEW Sec of Defense / What Hegseth is Up Against",
-      "count": 1
-    },
-    {
-      "name": "There's No Happy Ending for Ukraine",
-      "count": 1
-    },
-    {
-      "name": "Trump",
-      "count": 1
-    },
-    {
-      "name": "Trump 2.0 Launches a Blizzard of ExecOrders",
-      "count": 1
-    },
-    {
-      "name": "Trump Not Confident Ceasefire Will Hold",
-      "count": 1
-    },
-    {
-      "name": "Trump Pressures Netanyahu",
-      "count": 1
-    },
-    {
-      "name": "Trump Sanctions Won't Cow Putin",
-      "count": 1
-    },
-    {
-      "name": "Trump Tells Zelensky",
-      "count": 1
-    },
-    {
-      "name": "Trump's First 48 Hours",
-      "count": 1
-    },
-    {
-      "name": "Trump's Return",
-      "count": 1
-    },
-    {
-      "name": "Trump's Ukraine Dilemma",
-      "count": 1
-    },
-    {
-      "name": "Trump's War on Terror 2.0?",
-      "count": 1
-    },
-    {
-      "name": "Tulsi Sets Her Record Straight",
-      "count": 1
-    },
-    {
-      "name": "UKRAINIAN CITIES Keep Falling w/Patrick Henningsen",
-      "count": 1
-    },
-    {
-      "name": "US Iran Sea Blockade",
-      "count": 1
-    },
-    {
-      "name": "US Leaders' Focused on the Wrong Terror Targets",
-      "count": 1
-    },
-    {
-      "name": "Ukraine Launches NEW KURSK OFFENSIVE",
-      "count": 1
-    },
-    {
-      "name": "Ukraine Russia War Trump's Limited Options for Peace",
-      "count": 1
-    },
-    {
-      "name": "Ukraine on the Verge of Military Defeat",
-      "count": 1
-    },
-    {
-      "name": "Why the DC Elite are Trying to Kill Tulsi's Nomination",
-      "count": 1
-    },
-    {
-      "name": "Yanis Varoufakis",
-      "count": 1
-    },
-    {
-      "name": "Zelensky",
-      "count": 1
-    },
-    {
-      "name": "Zelensky Stirs the Pot at World Economic Forum",
-      "count": 1
-    },
-    {
-      "name": "Zelensky is Expendable",
+      "name": "Scott Ritter",
       "count": 1
     },
     {
@@ -689,7 +505,7 @@
       "counts": [
         {
           "name": "host",
-          "count": 259
+          "count": 281
         }
       ],
       "hostExamples": [
@@ -699,7 +515,11 @@
         },
         {
           "name": "Glenn Diesen",
-          "count": 104
+          "count": 106
+        },
+        {
+          "name": "Jeffrey Sachs",
+          "count": 22
         },
         {
           "name": "Mario Nawfal",
@@ -712,10 +532,6 @@
         {
           "name": "Tucker Carlson",
           "count": 4
-        },
-        {
-          "name": "Jeffrey Sachs",
-          "count": 2
         }
       ],
       "guestExamples": []
@@ -725,13 +541,17 @@
       "counts": [
         {
           "name": "guest",
-          "count": 96
+          "count": 98
         }
       ],
       "hostExamples": [],
       "guestExamples": [
         {
           "name": "John Helmer",
+          "count": 4
+        },
+        {
+          "name": "Jiang Xueqin",
           "count": 3
         },
         {
@@ -744,10 +564,6 @@
         },
         {
           "name": "Deep Dive Intel Briefing",
-          "count": 2
-        },
-        {
-          "name": "Jiang Xueqin",
           "count": 2
         },
         {
@@ -1126,14 +942,18 @@
       "counts": [
         {
           "name": "guest",
-          "count": 37
+          "count": 40
         },
         {
           "name": "host",
-          "count": 4
+          "count": 6
         }
       ],
       "hostExamples": [
+        {
+          "name": "Clayton Morris, Natali Morris",
+          "count": 2
+        },
         {
           "name": "Clayton Morris; Natali Morris",
           "count": 1
@@ -1169,6 +989,10 @@
           "count": 2
         },
         {
+          "name": "Alex Christoforou, Alexander Mercouris",
+          "count": 1
+        },
+        {
           "name": "Andrei Martyanov & Alex Krainer",
           "count": 1
         },
@@ -1190,6 +1014,14 @@
         },
         {
           "name": "Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter",
+          "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs, Yakov Rabkin, Manuel Ramos",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer, Alexander Mercouris",
           "count": 1
         },
         {
@@ -1291,13 +1123,17 @@
       "counts": [
         {
           "name": "guest",
-          "count": 2
+          "count": 5
         }
       ],
       "hostExamples": [],
       "guestExamples": [
         {
-          "name": "Alex Christoforou, Alexander Mercouris",
+          "name": "Jeffrey Sachs",
+          "count": 3
+        },
+        {
+          "name": "Scott Ritter",
           "count": 1
         },
         {
@@ -1393,28 +1229,28 @@
         },
         {
           "name": "Andrew Napolitano",
-          "count": 85
+          "count": 90
         },
         {
           "name": "Judge Andrew Napolitano; Larry Johnson",
           "count": 1
         }
       ],
-      "totalCount": 185
+      "totalCount": 190
     },
     {
       "normalized": "Glenn Diesen",
       "rawVariants": [
         {
           "name": "Glenn Diesen",
-          "count": 160
+          "count": 162
         },
         {
           "name": "glenn-diesen",
           "count": 8
         }
       ],
-      "totalCount": 168
+      "totalCount": 170
     },
     {
       "normalized": "Alex Christoforou",
@@ -1429,6 +1265,34 @@
         }
       ],
       "totalCount": 19
+    },
+    {
+      "normalized": "Clayton Morris",
+      "rawVariants": [
+        {
+          "name": "Clayton Morris, Natali Morris",
+          "count": 2
+        },
+        {
+          "name": "Clayton Morris; Natali Morris",
+          "count": 1
+        }
+      ],
+      "totalCount": 3
+    },
+    {
+      "normalized": "Natali Morris",
+      "rawVariants": [
+        {
+          "name": "Clayton Morris, Natali Morris",
+          "count": 2
+        },
+        {
+          "name": "Clayton Morris; Natali Morris",
+          "count": 1
+        }
+      ],
+      "totalCount": 3
     },
     {
       "normalized": "Cyrus Janssen",
@@ -1465,7 +1329,7 @@
       "rawVariants": [
         {
           "name": "Chas Freeman",
-          "count": 103
+          "count": 104
         },
         {
           "name": "Amb. Chas Freeman",
@@ -1476,7 +1340,7 @@
           "count": 2
         }
       ],
-      "totalCount": 108
+      "totalCount": 109
     },
     {
       "normalized": "Lawrence Wilkerson",
@@ -1491,7 +1355,7 @@
         },
         {
           "name": "Lawrence Wilkerson",
-          "count": 16
+          "count": 18
         },
         {
           "name": "Larry Wilkerson",
@@ -1546,14 +1410,50 @@
           "count": 1
         }
       ],
-      "totalCount": 89
+      "totalCount": 91
+    },
+    {
+      "normalized": "John Mearsheimer",
+      "rawVariants": [
+        {
+          "name": "John Mearsheimer",
+          "count": 65
+        },
+        {
+          "name": "john-mearsheimer",
+          "count": 18
+        },
+        {
+          "name": "John Mearsheimer, Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "totalCount": 84
+    },
+    {
+      "normalized": "Jeffrey Sachs",
+      "rawVariants": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 80
+        },
+        {
+          "name": "Professor Jeffrey Sachs",
+          "count": 2
+        },
+        {
+          "name": "Jeffrey Sachs, Yakov Rabkin, Manuel Ramos",
+          "count": 1
+        }
+      ],
+      "totalCount": 83
     },
     {
       "normalized": "Scott Ritter",
       "rawVariants": [
         {
           "name": "Scott Ritter",
-          "count": 76
+          "count": 75
         },
         {
           "name": "Andrei Martyanov & Scott Ritter",
@@ -1584,20 +1484,6 @@
           "count": 1
         }
       ],
-      "totalCount": 83
-    },
-    {
-      "normalized": "John Mearsheimer",
-      "rawVariants": [
-        {
-          "name": "John Mearsheimer",
-          "count": 64
-        },
-        {
-          "name": "john-mearsheimer",
-          "count": 18
-        }
-      ],
       "totalCount": 82
     },
     {
@@ -1605,70 +1491,64 @@
       "rawVariants": [
         {
           "name": "Douglas Macgregor",
-          "count": 54
+          "count": 55
         },
         {
           "name": "Col. Douglas Macgregor",
           "count": 13
         }
       ],
-      "totalCount": 67
-    },
-    {
-      "normalized": "Jeffrey Sachs",
-      "rawVariants": [
-        {
-          "name": "Jeffrey Sachs",
-          "count": 55
-        },
-        {
-          "name": "Professor Jeffrey Sachs",
-          "count": 2
-        }
-      ],
-      "totalCount": 57
+      "totalCount": 68
     },
     {
       "normalized": "Larry Johnson",
       "rawVariants": [
         {
           "name": "Larry Johnson",
-          "count": 48
+          "count": 51
         },
         {
           "name": "Larry Johnson & Col. Wilkerson",
           "count": 4
         }
       ],
-      "totalCount": 52
+      "totalCount": 55
     },
     {
       "normalized": "Alexander Mercouris",
       "rawVariants": [
         {
           "name": "Alexander Mercouris",
-          "count": 42
+          "count": 44
         },
         {
           "name": "alexander-mercouris",
           "count": 7
+        },
+        {
+          "name": "Alex Christoforou, Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer, Alexander Mercouris",
+          "count": 1
         }
       ],
-      "totalCount": 49
+      "totalCount": 53
     },
     {
       "normalized": "Seyed M. Marandi",
       "rawVariants": [
         {
           "name": "Seyed M. Marandi",
-          "count": 33
+          "count": 34
         },
         {
           "name": "Seyed M. Marandi & Larry C. Johnson",
           "count": 1
         }
       ],
-      "totalCount": 34
+      "totalCount": 35
     },
     {
       "normalized": "Andrei Martyanov",
@@ -1690,11 +1570,15 @@
           "count": 1
         },
         {
+          "name": "Pepe Escobar, Andrei Martyanov & Alex Krainer",
+          "count": 1
+        },
+        {
           "name": "Scott Ritter & Andrei Martyanov",
           "count": 1
         }
       ],
-      "totalCount": 32
+      "totalCount": 33
     },
     {
       "normalized": "Jacques Baud",
@@ -1705,10 +1589,10 @@
         },
         {
           "name": "Jacques Baud",
-          "count": 7
+          "count": 8
         }
       ],
-      "totalCount": 26
+      "totalCount": 27
     },
     {
       "normalized": "Larry C. Johnson",
@@ -1749,14 +1633,14 @@
       "rawVariants": [
         {
           "name": "Ray McGovern",
-          "count": 17
+          "count": 18
         },
         {
           "name": "Scott Ritter; Ray McGovern",
           "count": 1
         }
       ],
-      "totalCount": 18
+      "totalCount": 19
     },
     {
       "normalized": "Alex Krainer",
@@ -1785,7 +1669,7 @@
       "rawVariants": [
         {
           "name": "Mohammad Marandi",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Chas Freeman & Mohammad Marandi",
@@ -1796,7 +1680,21 @@
           "count": 1
         }
       ],
-      "totalCount": 10
+      "totalCount": 11
+    },
+    {
+      "normalized": "Robert Pape",
+      "rawVariants": [
+        {
+          "name": "Robert Pape",
+          "count": 7
+        },
+        {
+          "name": "Professor Robert Pape",
+          "count": 2
+        }
+      ],
+      "totalCount": 9
     },
     {
       "normalized": "Daniel Davis",
@@ -1813,18 +1711,26 @@
       "totalCount": 8
     },
     {
-      "normalized": "Robert Pape",
+      "normalized": "Pepe Escobar",
       "rawVariants": [
         {
-          "name": "Robert Pape",
-          "count": 5
+          "name": "Pepe Escobar",
+          "count": 3
         },
         {
-          "name": "Professor Robert Pape",
-          "count": 2
+          "name": "Pepe Escobar & Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Pepe Escobar & Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Pepe Escobar, Andrei Martyanov & Alex Krainer",
+          "count": 1
         }
       ],
-      "totalCount": 7
+      "totalCount": 6
     },
     {
       "normalized": "Anthony Aguilar",
@@ -1853,20 +1759,6 @@
         }
       ],
       "totalCount": 6
-    },
-    {
-      "normalized": "Ted Postol",
-      "rawVariants": [
-        {
-          "name": "Prof. Ted Postol",
-          "count": 2
-        },
-        {
-          "name": "Ted Postol",
-          "count": 2
-        }
-      ],
-      "totalCount": 4
     }
   ]
 }

@@ -2,10 +2,10 @@
 
 _Generated observability artifact. Rebuild with `python scripts/build_statecraft_day_dashboard.py`._
 
-- Generated: `2026-06-05T01:54:34.374855+00:00`
+- Generated: `2026-06-05T05:25:38.629674+00:00`
 - Root: `C:\dev\strategy-codex\source-archive\statecraft`
-- Indexed days: `49`
-- Source files: `50`
+- Indexed days: `51`
+- Source files: `52`
 - Covered span: `2025-02-07` to `2026-06-02`
 
 ## Active Query
@@ -53,7 +53,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | `The Duran` | 19 |
 | `Alexander Mercouris` | 12 |
 | `Daniel Davis Deep Dive` | 4 |
-| `Glenn Diesen` | 1 |
+| `Glenn Diesen` | 3 |
 | `Mercouris` | 1 |
 
 ## Host Leaderboard
@@ -62,15 +62,15 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | --- | ---: |
 | `Alex Christoforou` | 18 |
 | `Alexander Mercouris` | 12 |
-| `Glenn Diesen` | 8 |
+| `Glenn Diesen` | 10 |
 | `Daniel Davis` | 4 |
 
 ## Guest Leaderboard
 
 | Name | Count |
 | --- | ---: |
-| `Alexander Mercouris` | 50 |
-| `John Mearsheimer` | 7 |
+| `Alexander Mercouris` | 52 |
+| `John Mearsheimer` | 8 |
 | `Alex Christoforou` | 1 |
 | `Brian Berletic` | 1 |
 | `Stanislav Krapivnik` | 1 |
@@ -81,10 +81,10 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `mercouris` | 50 |
+| `mercouris` | 52 |
 | `christoforou` | 20 |
-| `diesen` | 8 |
-| `mearsheimer` | 7 |
+| `diesen` | 10 |
+| `mearsheimer` | 8 |
 | `davis` | 4 |
 | `barnes` | 1 |
 | `berletic` | 1 |
@@ -95,7 +95,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `interview` | 39 |
+| `interview` | 41 |
 | `panel` | 11 |
 
 ## Anomalies / Gaps
@@ -134,7 +134,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2025-09-23](C:/dev/strategy-codex/source-archive/statecraft/2025-09-23/README.md) | 1 | Alexander Mercouris | 1 | interview | no |
 | [2025-09-26](C:/dev/strategy-codex/source-archive/statecraft/2025-09-26/README.md) | 1 | The Duran | 2 | interview | no |
 | [2025-09-27](C:/dev/strategy-codex/source-archive/statecraft/2025-09-27/README.md) | 1 | The Duran | 2 | interview | no |
-| [2025-10-22](C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/README.md) | 1 | Glenn Diesen | 2 | interview | no |
+| [2025-10-22](C:/dev/strategy-codex/source-archive/statecraft/2025-10-22/README.md) | 1 | Glenn Diesen | 3 | interview | no |
 | [2025-11-11](C:/dev/strategy-codex/source-archive/statecraft/2025-11-11/README.md) | 1 | Alexander Mercouris | 1 | interview | no |
 | [2025-11-12](C:/dev/strategy-codex/source-archive/statecraft/2025-11-12/README.md) | 1 | Alexander Mercouris | 1 | interview | no |
 | [2025-11-13](C:/dev/strategy-codex/source-archive/statecraft/2025-11-13/README.md) | 1 | Alexander Mercouris | 1 | interview | no |
@@ -144,6 +144,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-01-09](C:/dev/strategy-codex/source-archive/statecraft/2026-01-09/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
 | [2026-02-27](C:/dev/strategy-codex/source-archive/statecraft/2026-02-27/README.md) | 1 | (none) | 1 | interview | no |
 | [2026-03-01](C:/dev/strategy-codex/source-archive/statecraft/2026-03-01/README.md) | 1 | (none) | 1 | interview | no |
+| [2026-03-21](C:/dev/strategy-codex/source-archive/statecraft/2026-03-21/README.md) | 1 | Glenn Diesen | 2 | interview | no |
 | [2026-03-31](C:/dev/strategy-codex/source-archive/statecraft/2026-03-31/README.md) | 1 | (none) | 1 | interview | no |
 | [2026-04-05](C:/dev/strategy-codex/source-archive/statecraft/2026-04-05/README.md) | 1 | (none) | 1 | interview | no |
 | [2026-04-07](C:/dev/strategy-codex/source-archive/statecraft/2026-04-07/README.md) | 1 | (none) | 1 | interview | no |
@@ -151,6 +152,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-04-23](C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/README.md) | 1 | The Duran | 3 | panel | no |
 | [2026-04-25](C:/dev/strategy-codex/source-archive/statecraft/2026-04-25/README.md) | 1 | Mercouris | 2 | panel | no |
 | [2026-05-14](C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/README.md) | 1 | Alexander Mercouris | 1 | interview | no |
+| [2026-05-16](C:/dev/strategy-codex/source-archive/statecraft/2026-05-16/README.md) | 1 | Glenn Diesen | 2 | interview | no |
 | [2026-05-25](C:/dev/strategy-codex/source-archive/statecraft/2026-05-25/README.md) | 1 | The Duran | 2 | interview | no |
 | [2026-05-26](C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/README.md) | 1 | The Duran | 2 | interview | no |
 | [2026-05-27](C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |

@@ -52,6 +52,13 @@ NEXT_ACTIONS = {
     "no-action",
 }
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+SPEAKER_SLUG_ALIASES = {
+    "alex-christoforou": "christoforou",
+    "alex-christoforu": "christoforou",
+    "christoforu": "christoforou",
+    "john-kiriakou": "kiriakou",
+    "stanislav-krapivnik": "krapivnik",
+}
 
 
 @dataclass(frozen=True)
@@ -92,6 +99,9 @@ def _slug_candidates(value: object) -> list[str]:
     for candidate in candidates:
         if candidate and candidate not in out:
             out.append(candidate)
+        alias = SPEAKER_SLUG_ALIASES.get(candidate)
+        if alias and alias not in out:
+            out.append(alias)
     return out
 
 
@@ -301,8 +311,12 @@ def _canonical_host_slug(meta: dict[str, Any]) -> str:
         return "nima"
     if host_slug in {"alexander-mercouris", "alex-mercouris", "mercouris"}:
         return "mercouris"
+    if host_slug in {"alex-christoforou", "alex-christoforu", "christoforu", "christoforou"}:
+        return "christoforou"
     if host_slug in {"judge-andrew-napolitano", "andrew-napolitano", "judging-freedom", "napolitano"}:
         return "napolitano"
+    if host_slug in {"john-kiriakou", "kiriakou"}:
+        return "kiriakou"
     return host_slug
 
 

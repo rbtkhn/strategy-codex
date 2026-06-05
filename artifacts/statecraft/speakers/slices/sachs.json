@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-06-05T01:54:35.394678+00:00",
+  "generatedAt": "2026-06-05T05:25:36.440496+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -16,15 +16,39 @@
     ]
   },
   "coverage": {
-    "dayCount": 34,
-    "sourceFileCount": 34,
+    "dayCount": 79,
+    "sourceFileCount": 82,
     "firstDay": "2025-01-08",
     "lastDay": "2026-06-01"
   },
   "aggregates": {
     "topDays": [
       {
+        "date": "2025-10-06",
+        "sourceCount": 2
+      },
+      {
+        "date": "2025-10-22",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-03-16",
+        "sourceCount": 2
+      },
+      {
         "date": "2025-01-08",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-10",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-14",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-30",
         "sourceCount": 1
       },
       {
@@ -32,35 +56,11 @@
         "sourceCount": 1
       },
       {
-        "date": "2025-05-07",
+        "date": "2025-02-04",
         "sourceCount": 1
       },
       {
-        "date": "2025-06-24",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-07-08",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-08-04",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-08-21",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-08-27",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-08-29",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-09-10",
+        "date": "2025-02-18",
         "sourceCount": 1
       }
     ],
@@ -70,50 +70,66 @@
         "sourceCount": 1
       },
       {
+        "date": "2025-01-10",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-14",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-30",
+        "sourceCount": 1
+      },
+      {
         "date": "2025-02-03",
         "sourceCount": 1
       },
       {
-        "date": "2025-05-07",
+        "date": "2025-02-04",
         "sourceCount": 1
       },
       {
-        "date": "2025-06-24",
+        "date": "2025-02-18",
         "sourceCount": 1
       },
       {
-        "date": "2025-07-08",
+        "date": "2025-02-19",
         "sourceCount": 1
       },
       {
-        "date": "2025-08-04",
+        "date": "2025-03-02",
         "sourceCount": 1
       },
       {
-        "date": "2025-08-21",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-08-27",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-08-29",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-09-10",
+        "date": "2025-03-10",
         "sourceCount": 1
       }
     ],
     "channels": [
       {
         "name": "Judging Freedom",
-        "count": 28
+        "count": 33
+      },
+      {
+        "name": "Jeffrey Sachs",
+        "count": 21
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 15
+      },
+      {
+        "name": "Glenn Diesen - Greater Eurasia Podcast",
+        "count": 4
       },
       {
         "name": "Diesen",
-        "count": 1
+        "count": 2
+      },
+      {
+        "name": "Tucker Carlson",
+        "count": 2
       },
       {
         "name": "Fidias Podcast",
@@ -124,7 +140,7 @@
         "count": 1
       },
       {
-        "name": "Jeffrey Sachs",
+        "name": "Neutrality Studies",
         "count": 1
       },
       {
@@ -139,14 +155,26 @@
     "hosts": [
       {
         "name": "Andrew Napolitano",
-        "count": 28
+        "count": 33
       },
       {
-        "name": "Alexander Mercouris",
-        "count": 1
+        "name": "Jeffrey Sachs",
+        "count": 21
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 19
+      },
+      {
+        "name": "Tucker Carlson",
+        "count": 3
       },
       {
         "name": "Diesen",
+        "count": 2
+      },
+      {
+        "name": "Alexander Mercouris",
         "count": 1
       },
       {
@@ -154,11 +182,7 @@
         "count": 1
       },
       {
-        "name": "Jeffrey Sachs",
-        "count": 1
-      },
-      {
-        "name": "Tucker Carlson",
+        "name": "Pascal Lottaz",
         "count": 1
       },
       {
@@ -169,25 +193,33 @@
     "guests": [
       {
         "name": "Jeffrey Sachs",
-        "count": 34
+        "count": 82
+      },
+      {
+        "name": "Manuel Ramos",
+        "count": 1
+      },
+      {
+        "name": "Yakov Rabkin",
+        "count": 1
       }
     ],
     "threads": [
       {
         "name": "sachs",
-        "count": 34
+        "count": 82
       },
       {
         "name": "napolitano",
-        "count": 28
-      },
-      {
-        "name": "carlson",
-        "count": 1
+        "count": 33
       },
       {
         "name": "diesen",
-        "count": 1
+        "count": 21
+      },
+      {
+        "name": "carlson",
+        "count": 3
       },
       {
         "name": "fidias",
@@ -200,12 +232,20 @@
       {
         "name": "mercouris",
         "count": 1
+      },
+      {
+        "name": "neutrality",
+        "count": 1
       }
     ],
     "sourceForms": [
       {
         "name": "interview",
-        "count": 34
+        "count": 77
+      },
+      {
+        "name": "lecture",
+        "count": 5
       }
     ]
   },
@@ -213,15 +253,15 @@
     "missingHostOrGuestDays": [],
     "missingReadmes": [
       "2025-01-08",
+      "2025-01-10",
+      "2025-01-14",
+      "2025-01-30",
       "2025-02-03",
-      "2025-05-07",
-      "2025-06-24",
-      "2025-07-08",
-      "2025-08-04",
-      "2025-08-21",
-      "2025-08-27",
-      "2025-08-29",
-      "2025-09-10"
+      "2025-02-04",
+      "2025-02-18",
+      "2025-02-19",
+      "2025-03-02",
+      "2025-03-10"
     ]
   },
   "days": [
@@ -270,6 +310,149 @@
       ],
       "fileNames": [
         "source-napolitano-sachs-does-trump-want-peace-2025-01-08.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-01-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen - Greater Eurasia Podcast",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen - Greater Eurasia Podcast",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-deep-states-aims-in-russia-and-more-2025-01-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-01-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-sachs-peace-2025-01-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-01-30",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-on-us-arrogance-global-power-and-why-we-cant-trust-our-leaders-2025-01-30.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -324,6 +507,607 @@
       "readmeParseOk": false
     },
     {
+      "date": "2025-02-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-02-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-three-most-important-things-trump-has-done-so-far-and-americas-global-dominance-2025-02-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-02-19",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "lecture",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-speech-at-the-eu-parliament-2025-02-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-03-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-trump-zelenskyy-meeting-and-what-comes-next-2025-03-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-03-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-the-heat-one-on-one-2025-03-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-03-17",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-peace-negotiations-and-the-end-of-nato-2025-03-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-03-22",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-trumps-tariffs-war-and-us-role-in-ukraine-war-2025-03-22.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-07",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-chaos-and-restructuring-of-the-global-economy-2025-04-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-08",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "lecture",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-reimagining-growth-through-sustainable-development-2025-04-08.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "lecture",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-an-evening-with-professor-jeffrey-d-sachs-2025-04-09.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-25",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-who-rules-the-new-global-order-2025-04-25.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-chinese-statecraft-and-a-new-world-order-2025-05-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-03",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "lecture",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-global-order-in-transition-2025-05-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
       "date": "2025-05-07",
       "fileCount": 1,
       "channels": [
@@ -368,6 +1152,202 @@
       ],
       "fileNames": [
         "source-napolitano-sachs-can-the-kremlin-trust-trump-2025-05-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-19",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen - Greater Eurasia Podcast",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen - Greater Eurasia Podcast",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-nato-and-russia-on-the-brink-of-nuclear-war-2025-06-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-11",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Tucker Carlson",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Tucker Carlson",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Tucker Carlson",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "carlson",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-carlson-dark-forces-pushing-trump-into-war-with-iran-2025-06-11.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-17",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen - Greater Eurasia Podcast",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen - Greater Eurasia Podcast",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-us-prepares-to-join-war-against-iran-2025-06-17.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -471,6 +1451,145 @@
       "readmeParseOk": false
     },
     {
+      "date": "2025-07-15",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-end-of-the-western-centric-world-and-rise-of-brics-2025-07-15.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-07-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "lecture",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-doomsday-clock-is-ticking-us-foreign-policy-and-the-global-crisis-2025-07-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-07-30",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen - Greater Eurasia Podcast",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen - Greater Eurasia Podcast",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-at-the-precipice-of-world-war-3-2025-07-30.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
       "date": "2025-08-04",
       "fileCount": 1,
       "channels": [
@@ -515,6 +1634,55 @@
       ],
       "fileNames": [
         "source-napolitano-sachs-trumps-dangerous-moves-2025-08-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-08-11",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-trump-putin-meeting-peace-or-deception-2025-08-11.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -765,6 +1933,55 @@
       "readmeParseOk": false
     },
     {
+      "date": "2025-09-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-jeffrey-sachs-us-and-china-edge-toward-war-over-taiwan-2025-09-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
       "date": "2025-09-25",
       "fileCount": 1,
       "channels": [
@@ -809,6 +2026,55 @@
       ],
       "fileNames": [
         "source-napolitano-sachs-al-qaeda-at-the-un-2025-09-25.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-27",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-jeffrey-sachs-nato-warmongers-and-the-world-on-the-edge-of-war-2025-09-27.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -913,14 +2179,22 @@
     },
     {
       "date": "2025-10-06",
-      "fileCount": 1,
+      "fileCount": 2,
       "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
         {
           "name": "Judging Freedom",
           "count": 1
         }
       ],
       "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
         {
           "name": "Judging Freedom",
           "count": 1
@@ -930,31 +2204,40 @@
         {
           "name": "Andrew Napolitano",
           "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
         }
       ],
       "guests": [
         {
           "name": "Jeffrey Sachs",
-          "count": 1
+          "count": 2
         }
       ],
       "threads": [
         {
-          "name": "napolitano",
+          "name": "sachs",
+          "count": 2
+        },
+        {
+          "name": "diesen",
           "count": 1
         },
         {
-          "name": "sachs",
+          "name": "napolitano",
           "count": 1
         }
       ],
       "sourceForms": [
         {
           "name": "interview",
-          "count": 1
+          "count": 2
         }
       ],
       "fileNames": [
+        "source-glenn-diesen-jeffrey-sachs-another-war-against-iran-could-be-imminent-2025-10-06.md",
         "source-napolitano-sachs-trump-colonizing-gaza-2025-10-06.md"
       ],
       "hasReadme": false,
@@ -1011,14 +2294,22 @@
     },
     {
       "date": "2025-10-22",
-      "fileCount": 1,
+      "fileCount": 2,
       "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
         {
           "name": "Judging Freedom",
           "count": 1
         }
       ],
       "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
         {
           "name": "Judging Freedom",
           "count": 1
@@ -1028,31 +2319,40 @@
         {
           "name": "Andrew Napolitano",
           "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
         }
       ],
       "guests": [
         {
           "name": "Jeffrey Sachs",
-          "count": 1
+          "count": 2
         }
       ],
       "threads": [
         {
-          "name": "napolitano",
+          "name": "sachs",
+          "count": 2
+        },
+        {
+          "name": "diesen",
           "count": 1
         },
         {
-          "name": "sachs",
+          "name": "napolitano",
           "count": 1
         }
       ],
       "sourceForms": [
         {
           "name": "interview",
-          "count": 1
+          "count": 2
         }
       ],
       "fileNames": [
+        "source-glenn-diesen-jeffrey-sachs-last-chance-for-peace-in-ukraine-sabotaged-by-europe-2025-10-22.md",
         "source-napolitano-sachs-israels-next-moves-2025-10-22.md"
       ],
       "hasReadme": false,
@@ -1251,6 +2551,55 @@
       "readmeParseOk": false
     },
     {
+      "date": "2025-11-08",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-jeffrey-sachs-venezuela-regime-change-oil-and-gangster-politics-2025-11-08.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
       "date": "2025-11-11",
       "fileCount": 1,
       "channels": [
@@ -1349,6 +2698,51 @@
       "readmeParseOk": false
     },
     {
+      "date": "2025-11-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-roasts-trump-for-skipping-the-g20-summit-in-south-africa-2025-11-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
       "date": "2025-11-24",
       "fileCount": 1,
       "channels": [
@@ -1442,6 +2836,63 @@
       ],
       "fileNames": [
         "source-napolitano-sachs-is-trump-planning-more-wars-2025-12-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Neutrality Studies",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Neutrality Studies",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Pascal Lottaz",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        },
+        {
+          "name": "Manuel Ramos",
+          "count": 1
+        },
+        {
+          "name": "Yakov Rabkin",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "neutrality",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -1594,6 +3045,329 @@
       "readmeParseOk": false
     },
     {
+      "date": "2026-01-03",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-us-attacks-venezuela-and-kidnaps-president-maduro-2026-01-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-07",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-europe-russia-two-century-failure-2026-01-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-13",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-the-western-world-is-in-a-deeply-neurotic-state-2026-01-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-27",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-sachs-using-the-economy-as-a-weapon-trump-and-iran-2026-01-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-us-iran-war-inevitable-2026-02-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-03",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-sachs-the-global-cost-of-maga-politics-2026-02-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-11",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-us-economic-coercion-and-the-death-of-the-dollar-2026-02-11.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
       "date": "2026-02-28",
       "fileCount": 1,
       "channels": [
@@ -1643,7 +3417,7 @@
       "readmeParseOk": false
     },
     {
-      "date": "2026-03-16",
+      "date": "2026-03-03",
       "fileCount": 1,
       "channels": [
         {
@@ -1686,7 +3460,310 @@
         }
       ],
       "fileNames": [
+        "source-napolitano-sachs-did-trump-just-start-wwiii-2026-03-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-16",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 2
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "napolitano",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md",
         "source-napolitano-sachs-are-we-drifting-toward-a-global-war-2026-03-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-20",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-incoherent-illegal-reckless-2026-04-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-06",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-sachs-trump-reveals-his-desperation-2026-04-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-15",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-trumps-naval-blockade-of-the-strait-of-hormuz-2026-04-15.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-24",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Tucker Carlson",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Tucker Carlson",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Tucker Carlson",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "carlson",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-sachs-carlson-iran-war-origins-2026-04-24.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -1736,6 +3813,104 @@
       ],
       "fileNames": [
         "source-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-12",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-23",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-the-baltic-states-are-now-the-most-dangerous-place-in-the-world-2026-05-23.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -1834,6 +4009,55 @@
       ],
       "fileNames": [
         "source-napolitano-sachs-why-is-israel-at-war-with-its-neighbors-2026-05-29.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-31",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "sachs",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false

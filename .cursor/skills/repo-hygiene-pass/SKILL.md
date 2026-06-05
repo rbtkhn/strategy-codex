@@ -1,15 +1,15 @@
 ---
-name: repo-hygiene-pass
-preferred_activation: hygiene pass
-description: 'Run a commit-grouping hygiene pass: split changes by intent, stage one bucket at a time, and keep scratch noise out of production commits.'
+name: "repo-hygiene-pass"
+preferred_activation: "hygiene pass"
+description: "Run a commit-grouping hygiene pass: split changes by intent, stage one bucket at a time, and keep scratch noise out of production commits."
 portable: true
-version: 0.2.0
+version: "0.2.0"
 tags:
-- operator
-- work-dev
-- git
-portable_source: skills-portable/repo-hygiene-pass/SKILL.md
-synced_by: sync_portable_skills.py
+  - "operator"
+  - "work-dev"
+  - "git"
+portable_source: "skills-portable/repo-hygiene-pass/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
 # Repo Hygiene Pass
 

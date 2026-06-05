@@ -3,21 +3,27 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: transcript
 source_form: interview
+host_people:
+  - Andrew Napolitano
+guest_people:
+  - Jeffrey Sachs
+show_title: Judging Freedom
+channel_name: Judging Freedom
 source_type: youtube
 transcript_type: operator_pasted_transcript
 title: "Prof. Jeffrey Sachs : How the Best Military and Intel Failed"
-source_url: https://www.youtube.com/watch?v=xciEC59zChI
+source_url: "https://www.youtube.com/watch?v=xciEC59zChI"
 youtube_id: xciEC59zChI
 channel_slug: judging-freedom
-source_note: Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode.
+source_note: "Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode."
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Jeffrey Sachs
 thread: sachs
-channel_url: https://www.youtube.com/@judgingfreedom
+channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
-quality_note: Raw operator-pasted transcript; cold open, lineup tail, and transcription artifacts may remain.
+quality_note: "Raw operator-pasted transcript; cold open, lineup tail, and transcription artifacts may remain."
 ---
 # Prof. Jeffrey Sachs : How the Best Military and Intel Failed
 

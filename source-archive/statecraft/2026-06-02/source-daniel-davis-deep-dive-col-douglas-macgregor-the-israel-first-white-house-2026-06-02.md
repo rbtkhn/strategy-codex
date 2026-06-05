@@ -3,10 +3,16 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
+host_people:
+  - Daniel Davis
+guest_people:
+  - Douglas Macgregor
+show_title: Daniel Davis Deep Dive
+channel_name: Daniel Davis Deep Dive
 source_type: youtube
 transcript_type: operator_pasted_transcript
 title: "Col Douglas Macgregor: The Israel First White House"
-source_url: https://www.youtube.com/watch?v=Styvw9Ovzvo
+source_url: "https://www.youtube.com/watch?v=Styvw9Ovzvo"
 youtube_id: Styvw9Ovzvo
 channel_slug: daniel-davis-deep-dive
 source_note: Transcript pasted manually by operator for canonical June 2 2026 Daniel Davis Deep Dive capture.
@@ -15,7 +21,7 @@ show: Daniel Davis Deep Dive
 host: Gary
 guest: Douglas Macgregor
 thread: davis
-channel_url: https://www.youtube.com/@DanielDavisDeepDive
+channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 ---
 # Col Douglas Macgregor: The Israel First White House

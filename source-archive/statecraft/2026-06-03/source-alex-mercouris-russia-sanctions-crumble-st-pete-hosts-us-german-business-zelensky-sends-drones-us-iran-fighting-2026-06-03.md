@@ -3,14 +3,19 @@ ingest_date: 2026-06-03
 pub_date: 2026-06-03
 kind: transcript
 source_form: solo
+host_people:
+  - Alexander Mercouris
+guest_people: []
+show_title: Mercouris
+channel_name: Alexander Mercouris
 thread: mercouris
 show: Mercouris
 host: Alexander Mercouris
-title: "Russia Sanctions Crumble; St. Pete Hosts US German Business; Zelensky Sends Drones; US Iran Fighting"
+title: Russia Sanctions Crumble; St. Pete Hosts US German Business; Zelensky Sends Drones; US Iran Fighting
 channel_url: "https://www.youtube.com/@AlexMercouris/videos"
-channel_slug: "alex-mercouris"
+channel_slug: alex-mercouris
 source_url: "https://www.youtube.com/watch?v=ZkA_Wc6JJ-g"
-source_note: "Operator-pasted YouTube transcript for Alex Mercouris hub capture."
+source_note: Operator-pasted YouTube transcript for Alex Mercouris hub capture.
 ---
 # Russia Sanctions Crumble; St. Pete Hosts US German Business; Zelensky Sends Drones; US Iran Fighting
 

@@ -2,11 +2,11 @@
 
 _Generated observability artifact. Rebuild with `python scripts/build_statecraft_day_dashboard.py`._
 
-- Generated: `2026-06-04T18:43:31.646979+00:00`
+- Generated: `2026-06-05T05:25:39.955907+00:00`
 - Root: `C:\dev\strategy-codex\source-archive\statecraft`
-- Indexed days: `31`
-- Source files: `32`
-- Covered span: `2025-01-26` to `2026-05-28`
+- Indexed days: `32`
+- Source files: `33`
+- Covered span: `2025-01-26` to `2026-06-04`
 
 ## Active Query
 
@@ -50,7 +50,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `Dialogue Works` | 25 |
+| `Dialogue Works` | 26 |
 | `Daniel Davis Deep Dive` | 3 |
 | `Deep Dive` | 1 |
 
@@ -58,7 +58,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `Nima Alkhorshid` | 25 |
+| `Nima Alkhorshid` | 26 |
 | `Daniel Davis` | 4 |
 | `Glenn Diesen` | 3 |
 
@@ -66,17 +66,17 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `Andrei Martyanov` | 32 |
+| `Andrei Martyanov` | 33 |
 | `Alex Krainer` | 2 |
+| `Pepe Escobar` | 2 |
 | `Scott Ritter` | 2 |
-| `Pepe Escobar` | 1 |
 
 ## Thread Leaderboard
 
 | Name | Count |
 | --- | ---: |
-| `martyanov` | 32 |
-| `nima` | 25 |
+| `martyanov` | 33 |
+| `nima` | 26 |
 | `davis` | 4 |
 | `diesen` | 3 |
 | `krainer` | 2 |
@@ -86,7 +86,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `interview` | 32 |
+| `interview` | 33 |
 
 ## Anomalies / Gaps
 
@@ -128,3 +128,4 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-05-14](C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/README.md) | 1 | Dialogue Works | 2 | interview | no |
 | [2026-05-21](C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/README.md) | 1 | Dialogue Works | 2 | interview | no |
 | [2026-05-28](C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/README.md) | 1 | Dialogue Works | 2 | interview | no |
+| [2026-06-04](C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/README.md) | 1 | Dialogue Works | 2 | interview | no |

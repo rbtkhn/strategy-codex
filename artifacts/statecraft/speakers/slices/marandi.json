@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-06-05T01:54:36.810883+00:00",
+  "generatedAt": "2026-06-05T05:25:39.235882+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -19,8 +19,8 @@
     ]
   },
   "coverage": {
-    "dayCount": 22,
-    "sourceFileCount": 24,
+    "dayCount": 42,
+    "sourceFileCount": 50,
     "firstDay": "2025-01-05",
     "lastDay": "2026-06-03"
   },
@@ -31,7 +31,31 @@
         "sourceCount": 2
       },
       {
+        "date": "2026-03-03",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-04-13",
+        "sourceCount": 2
+      },
+      {
         "date": "2026-05-05",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-05-09",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-05-16",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-05-23",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-05-26",
         "sourceCount": 2
       },
       {
@@ -40,30 +64,6 @@
       },
       {
         "date": "2025-03-20",
-        "sourceCount": 1
-      },
-      {
-        "date": "2026-02-10",
-        "sourceCount": 1
-      },
-      {
-        "date": "2026-02-11",
-        "sourceCount": 1
-      },
-      {
-        "date": "2026-02-17",
-        "sourceCount": 1
-      },
-      {
-        "date": "2026-03-29",
-        "sourceCount": 1
-      },
-      {
-        "date": "2026-04-06",
-        "sourceCount": 1
-      },
-      {
-        "date": "2026-04-13",
         "sourceCount": 1
       }
     ],
@@ -77,6 +77,18 @@
         "sourceCount": 1
       },
       {
+        "date": "2025-04-04",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-18",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-05-02",
+        "sourceCount": 1
+      },
+      {
         "date": "2026-01-02",
         "sourceCount": 2
       },
@@ -93,29 +105,21 @@
         "sourceCount": 1
       },
       {
-        "date": "2026-03-29",
-        "sourceCount": 1
-      },
-      {
-        "date": "2026-04-06",
-        "sourceCount": 1
-      },
-      {
-        "date": "2026-04-13",
-        "sourceCount": 1
-      },
-      {
-        "date": "2026-04-17",
-        "sourceCount": 1
+        "date": "2026-03-03",
+        "sourceCount": 2
       }
     ],
     "channels": [
       {
-        "name": "Daniel Davis Deep Dive",
-        "count": 9
+        "name": "Dialogue Works",
+        "count": 26
       },
       {
-        "name": "Dialogue Works",
+        "name": "Glenn Diesen",
+        "count": 10
+      },
+      {
+        "name": "Daniel Davis Deep Dive",
         "count": 9
       },
       {
@@ -124,10 +128,6 @@
       },
       {
         "name": "Diesen",
-        "count": 1
-      },
-      {
-        "name": "Glenn Diesen",
         "count": 1
       },
       {
@@ -141,11 +141,15 @@
     ],
     "hosts": [
       {
-        "name": "Daniel Davis",
-        "count": 9
+        "name": "Nima Alkhorshid",
+        "count": 26
       },
       {
-        "name": "Nima Alkhorshid",
+        "name": "Glenn Diesen",
+        "count": 10
+      },
+      {
+        "name": "Daniel Davis",
         "count": 9
       },
       {
@@ -154,11 +158,7 @@
       },
       {
         "name": "Diesen",
-        "count": 1
-      },
-      {
-        "name": "Glenn Diesen",
-        "count": 1
+        "count": 2
       },
       {
         "name": "Judish Raj",
@@ -168,10 +168,14 @@
     "guests": [
       {
         "name": "Seyed M. Marandi",
-        "count": 24
+        "count": 50
       },
       {
         "name": "Chas Freeman",
+        "count": 5
+      },
+      {
+        "name": "Lawrence Wilkerson",
         "count": 2
       },
       {
@@ -186,26 +190,30 @@
     "threads": [
       {
         "name": "marandi",
-        "count": 24
+        "count": 50
+      },
+      {
+        "name": "nima",
+        "count": 22
+      },
+      {
+        "name": "diesen",
+        "count": 12
       },
       {
         "name": "davis",
         "count": 9
       },
       {
-        "name": "nima",
-        "count": 9
-      },
-      {
-        "name": "diesen",
-        "count": 3
-      },
-      {
         "name": "freeman",
-        "count": 2
+        "count": 5
       },
       {
         "name": "napolitano",
+        "count": 2
+      },
+      {
+        "name": "wilkerson",
         "count": 2
       },
       {
@@ -220,29 +228,27 @@
     "sourceForms": [
       {
         "name": "interview",
-        "count": 24
+        "count": 47
+      },
+      {
+        "name": "panel",
+        "count": 3
       }
     ]
   },
   "anomalies": {
-    "missingHostOrGuestDays": [
-      {
-        "date": "2026-03-29",
-        "hasHosts": false,
-        "hasGuests": true
-      }
-    ],
+    "missingHostOrGuestDays": [],
     "missingReadmes": [
       "2025-01-05",
       "2025-03-20",
+      "2025-04-04",
+      "2025-04-18",
+      "2025-05-02",
       "2026-01-02",
       "2026-02-10",
       "2026-02-11",
       "2026-02-17",
-      "2026-03-29",
-      "2026-04-06",
-      "2026-04-13",
-      "2026-04-17"
+      "2026-03-03"
     ]
   },
   "days": [
@@ -348,6 +354,181 @@
       ],
       "fileNames": [
         "source-glenn-diesen-seyed-marandi-is-israel-destroying-itself-2025-03-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-mohammad-marandi-and-amb-chas-freeman-ticking-toward-war-u-s-and-iran-at-a-dangerous-crossroads-2025-05-02.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -566,6 +747,264 @@
       "readmeParseOk": false
     },
     {
+      "date": "2026-03-03",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 2
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md",
+        "source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-seyed-m-marandi-u-s-attacked-world-s-largest-gas-field-iran-declares-eco-2026-03-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-22",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-seyed-m-marandi-total-war-attacking-nuclear-plants-desalination-infrastr-2026-03-22.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-24",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-28",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-seyed-m-marandi-yemen-enters-the-war-us-israeli-strikes-on-energy-sites-2026-03-28.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
       "date": "2026-03-29",
       "fileCount": 1,
       "channels": [
@@ -580,7 +1019,12 @@
           "count": 1
         }
       ],
-      "hosts": [],
+      "hosts": [
+        {
+          "name": "Diesen",
+          "count": 1
+        }
+      ],
       "guests": [
         {
           "name": "Seyed M. Marandi",
@@ -605,6 +1049,55 @@
       ],
       "fileNames": [
         "source-diesen-marandi-yemen-joins-the-war-red-sea-could-be-blocked-next-2026-03-29.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-31",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-seyed-m-marandi-yemen-strikes-israel-they-hit-iran-s-water-power-now-ret-2026-03-31.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -659,23 +1152,23 @@
       "readmeParseOk": false
     },
     {
-      "date": "2026-04-13",
+      "date": "2026-04-07",
       "fileCount": 1,
       "channels": [
         {
-          "name": "Daniel Davis Deep Dive",
+          "name": "Dialogue Works",
           "count": 1
         }
       ],
       "shows": [
         {
-          "name": "Daniel Davis Deep Dive",
+          "name": "Dialogue Works",
           "count": 1
         }
       ],
       "hosts": [
         {
-          "name": "Daniel Davis",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -687,7 +1180,56 @@
       ],
       "threads": [
         {
-          "name": "davis",
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-seyed-m-marandi-iran-slams-trump-s-ultimatum-w-counter-ultimatum-war-hea-2026-04-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-12",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
           "count": 1
         },
         {
@@ -702,7 +1244,122 @@
         }
       ],
       "fileNames": [
-        "source-daniel-davis-deep-dive-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md"
+        "source-glenn-diesen-seyed-m-marandi-negotiations-collapsed-return-to-war-2026-04-12.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-13",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 2
+        },
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md",
+        "source-dialogue-works-seyed-m-marandi-us-blockade-on-iran-just-triggered-iran-s-harshest-respo-2026-04-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-16",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-seyed-m-marandi-u-s-naval-blockade-ground-invasion-of-iran-2026-04-16.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -752,6 +1409,55 @@
       ],
       "fileNames": [
         "source-daniel-davis-deep-dive-iran-more-war-seems-likely-professor-marandi-2026-04-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-seyed-m-marandi-iran-just-put-the-strait-of-hormuz-on-limited-mode-signs-2026-04-18.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -953,6 +1659,104 @@
       "readmeParseOk": false
     },
     {
+      "date": "2026-05-01",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-seyed-m-marandi-u-s-attack-on-iran-could-be-imminent-2026-05-01.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-just-rocked-israel-multi-front-wa-2026-05-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
       "date": "2026-05-05",
       "fileCount": 2,
       "channels": [
@@ -1069,10 +1873,14 @@
     },
     {
       "date": "2026-05-09",
-      "fileCount": 1,
+      "fileCount": 2,
       "channels": [
         {
           "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -1080,9 +1888,17 @@
         {
           "name": "Dialogue Works",
           "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
         }
       ],
       "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
         {
           "name": "Nima Alkhorshid",
           "count": 1
@@ -1091,12 +1907,16 @@
       "guests": [
         {
           "name": "Seyed M. Marandi",
-          "count": 1
+          "count": 2
         }
       ],
       "threads": [
         {
           "name": "marandi",
+          "count": 2
+        },
+        {
+          "name": "diesen",
           "count": 1
         },
         {
@@ -1107,10 +1927,11 @@
       "sourceForms": [
         {
           "name": "interview",
-          "count": 1
+          "count": 2
         }
       ],
       "fileNames": [
+        "source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md",
         "source-nima-alkorshid-marandi-hormuz-uae-ceasefire-occupied-country-2026-05-09.md"
       ],
       "hasReadme": false,
@@ -1166,23 +1987,23 @@
       "readmeParseOk": false
     },
     {
-      "date": "2026-05-26",
+      "date": "2026-05-12",
       "fileCount": 1,
       "channels": [
         {
-          "name": "Daniel Davis Deep Dive",
+          "name": "Dialogue Works",
           "count": 1
         }
       ],
       "shows": [
         {
-          "name": "Daniel Davis Deep Dive",
+          "name": "Dialogue Works",
           "count": 1
         }
       ],
       "hosts": [
         {
-          "name": "Daniel Davis",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -1194,11 +2015,11 @@
       ],
       "threads": [
         {
-          "name": "davis",
+          "name": "marandi",
           "count": 1
         },
         {
-          "name": "marandi",
+          "name": "nima",
           "count": 1
         }
       ],
@@ -1209,6 +2030,204 @@
         }
       ],
       "fileNames": [
+        "source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-humiliate-israeli-air-defenses-mu-2026-05-12.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-16",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 2
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16.md",
+        "source-glenn-diesen-seyed-m-marandi-iran-ready-with-overwhelming-retaliation-2026-05-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-23",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 2
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-seyed-m-marandi-iran-closes-its-airspace-as-negotiations-fail-and-the-u-s-prepares-to-strike-2026-05-23.md",
+        "source-nima-alkorshid-marandi-irans-armed-forces-enter-highest-state-of-alert-war-next-2026-05-23.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-26",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 2
+        },
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md",
         "source-daniel-davis-deep-dive-us-must-stop-the-siege-of-iran-2026-05-26.md"
       ],
       "hasReadme": false,
@@ -1304,6 +2323,104 @@
       ],
       "fileNames": [
         "source-india-and-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-30",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-seyed-m-marandi-iran-dropped-the-hammer-in-strait-of-hormuz-trump-s-no-tolls-plan-backfires-2026-05-30.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-06-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alkorshid-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false

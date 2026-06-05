@@ -180,6 +180,11 @@ Use these distinctions consistently:
 
 - **`kind`** = what the body is in source reality, usually `transcript`
 - **`source_form`** = what sort of source object this is in archive reality (`solo`, `interview`, `panel`, `newsletter`, `article`, `post`, `clip`, `roundup`)
+- **Structured identity fields** = the explicit schema for person/show/channel separation inside the file:
+  - `host_people`
+  - `guest_people`
+  - `show_title`
+  - `channel_name`
 - **`source-*` filename** = canonical statecraft source-object prefix only
 
 Examples:
@@ -191,6 +196,13 @@ Examples:
 Short rule:
 
 `kind describes the body; source_form describes the source shape; the canonical filename prefix is always source-`
+
+Structured-field law:
+
+- prefer `host_people` / `guest_people` over trying to encode people truth in noisy scalar `host` / `guest` strings
+- prefer `show_title` for the recurring program label
+- prefer `channel_name` for the upstream channel / publication / venue label
+- legacy `host`, `guest`, and `show` lines may remain for compatibility, but new and touched files should carry the structured fields so downstream readers do not have to guess
 
 4. **Place it in the canonical archive**
    - Use the published date as the archive date unless the operator explicitly gives a different authoritative date.
@@ -373,8 +385,10 @@ Short rule:
 
 - Treat Tucker captures as real archive objects when the operator has supplied a full transcript-bearing interview or a clearly anchored full-source mirror.
 - Keep the host/show context explicit:
-  - `show: Tucker Carlson`
-  - `host: Tucker Carlson`
+  - `show_title: Tucker Carlson`
+  - `channel_name: Tucker Carlson`
+  - `host_people:`
+    - `Tucker Carlson`
   - recurring guest ownership can still appear in filename or downstream shelf routing when the repo already uses that pattern
 - If the direct watch URL is unresolved but a trustworthy transcript mirror and publication date are available, land the object honestly rather than over-claiming a recovered watch surface.
 - Do not confuse a Tucker clip, teaser, or excerpt with the full interview; if the object is clipped, fall back to the clip-discipline rule above.
@@ -383,8 +397,10 @@ Short rule:
 
 - Use `youtube-daniel-davis-deep-dive-*` for standard Daniel Davis Deep Dive YouTube captures unless a different neighboring family clearly governs the object.
 - Default metadata for this lane:
-  - `show: Daniel Davis Deep Dive`
-  - `host: Daniel Davis`
+  - `show_title: Daniel Davis Deep Dive`
+  - `channel_name: Daniel Davis Deep Dive`
+  - `host_people:`
+    - `Daniel Davis`
   - `thread: davis`
 - Preserve the full transcript body by default.
 - Do not assume the guest field is globally standardized across the whole Daniel Davis lane; verify against neighboring files before normalizing titles, rank prefixes, or first-name variants.

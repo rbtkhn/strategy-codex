@@ -3,14 +3,19 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: solo
+host_people:
+  - Alexander Mercouris
+guest_people: []
+show_title: Mercouris
+channel_name: Alexander Mercouris
 thread: mercouris
 show: Mercouris
 host: Alexander Mercouris
-title: "Russian Massive Strike Shatters Kiev; Tsirkon Missile First Mass Use Kiev Troops Flee Konstantinovka"
+title: Russian Massive Strike Shatters Kiev; Tsirkon Missile First Mass Use Kiev Troops Flee Konstantinovka
 channel_url: "https://www.youtube.com/@AlexMercouris/videos"
-channel_slug: "alex-mercouris"
+channel_slug: alex-mercouris
 source_url: "https://www.youtube.com/watch?v=A-49Jvk_VSk"
-source_note: "Operator-pasted YouTube transcript for Alex Mercouris hub capture."
+source_note: Operator-pasted YouTube transcript for Alex Mercouris hub capture.
 ---
 # Russian Massive Strike Shatters Kiev; Tsirkon Missile First Mass Use Kiev Troops Flee Konstantinovka
 

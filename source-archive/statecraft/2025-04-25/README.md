@@ -4,24 +4,26 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
-- Body kind mix: `transcript` (1)
-- Source form mix: `solo` (1)
-- Distinct channels/shows: `1`
-- Distinct hosts: `1`
-- Distinct guests: `0`
-- Distinct threads: `1`
+- Source files: `2`
+- Helper notes (excluded from source count): `0`
+- Body kind mix: `transcript` (1), `youtube` (1)
+- Source form mix: `interview` (1), `solo` (1)
+- Distinct channels/shows: `2`
+- Distinct hosts: `2`
+- Distinct guests: `1`
+- Distinct threads: `2`
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1)
+- `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1)
-- Guests: (none)
-- Threads: `mercouris` (1)
+- Hosts: `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
+- Guests: `Jeffrey Sachs` (1)
+- Threads: `mercouris` (1), `sachs` (1)
 
 ## Files
 
 - `source-alex-mercouris-uk-eu-bizarre-proposal-seeks-moscow-surrender-reparations-perpetual-sanctions-witkoff-meets-putin-2025-04-25.md`
+- `source-sachs-who-rules-the-new-global-order-2025-04-25.md`

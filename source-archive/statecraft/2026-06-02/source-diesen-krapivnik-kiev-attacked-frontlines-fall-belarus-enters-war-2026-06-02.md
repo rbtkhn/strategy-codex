@@ -3,6 +3,12 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: cleaned-transcript
 source_form: interview
+host_people:
+  - Glenn Diesen
+guest_people:
+  - Stanislav Krapivnik
+show_title: Diesen
+channel_name: Glenn Diesen
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 thread: diesen
@@ -10,11 +16,11 @@ show: Diesen
 host: Diesen
 guest: Stanislav Krapivnik
 title: "Stanislav Krapivnik: Kiev Attacked, Frontlines Fall & Belarus Enters War?"
-source_url: https://www.youtube.com/watch?v=5xtnwhdIp_k
+source_url: "https://www.youtube.com/watch?v=5xtnwhdIp_k"
 publication: youtube.com
 slug: diesen-krapivnik-kiev-attacked-frontlines-fall-belarus-enters-war
 capture_note: Operator paste; cleaned transcript preserved verbatim from companion capture.
-source_note: "Operator-pasted cleaned YouTube transcript with speaker labels."
+source_note: Operator-pasted cleaned YouTube transcript with speaker labels.
 normalization_state: proper-noun-pass
 quality_note: "Proper-noun normalization applied 2026-05-15; cleaned-transcript state reflects the operator capture note, not verbatim human verification."
 ---

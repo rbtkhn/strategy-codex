@@ -60,7 +60,7 @@ Treat as **IRI FM register** for **§1e / Islamabad / Hormuz–Lebanon linkage**
 
 ### Appendix
 
-- **Raw input:** [`source-archive/statecraft/2026-04-20/x-araghchi-april-2026-posts-bundle.md`](../../../../source-archive/statecraft/2026-04-20/x-araghchi-april-2026-posts-bundle.md)
+- **Raw input:** [`source-archive/statecraft/2026-04-20/source-araghchi-april-2026-posts-bundle-2026-04-20.md`](../../../../source-archive/statecraft/2026-04-20/source-araghchi-april-2026-posts-bundle-2026-04-20.md)
 - **Profile:** [https://x.com/araghchi](https://x.com/araghchi)
 - **Main notebook:** [`chapters/2026-04/days.md`](../../../chapters/2026-04/days.md) (e.g. **2026-04-17** FM / Hormuz continuity)
 
@@ -99,7 +99,7 @@ Pin **status URLs** from live X for high-traffic rows (**Pontifex**, **04-20** E
 
 ### Appendix
 
-- **Raw input:** [`source-archive/statecraft/2026-04-20/x-drpezeshkian-april-2026-posts-bundle.md`](../../../../source-archive/statecraft/2026-04-20/x-drpezeshkian-april-2026-posts-bundle.md)
+- **Raw input:** [`source-archive/statecraft/2026-04-20/source-drpezeshkian-april-2026-posts-bundle-2026-04-20.md`](../../../../source-archive/statecraft/2026-04-20/source-drpezeshkian-april-2026-posts-bundle-2026-04-20.md)
 - **Rome–Persia check:** [`rome-persia-legitimacy-signal-check.md`](../../../rome-persia-legitimacy-signal-check.md)
 
 <!-- strategy-page:end -->
@@ -138,8 +138,8 @@ Falsifiers include **dated ceasefire-status primaries** that contradict the “v
 
 ### Appendix
 
-- **Raw input:** [`source-archive/statecraft/2026-04-20/x-ghalibaf-marandi-repost-siege-battlefield.md`](../../../../source-archive/statecraft/2026-04-20/x-ghalibaf-marandi-repost-siege-battlefield.md)
+- **Raw input:** [`source-archive/statecraft/2026-04-20/source-ghalibaf-marandi-repost-siege-battlefield-2026-04-20.md`](../../../../source-archive/statecraft/2026-04-20/source-ghalibaf-marandi-repost-siege-battlefield-2026-04-20.md)
 - **Main notebook chronology:** [`chapters/2026-04/days.md`](../../../chapters/2026-04/days.md)
-- **verify (inbox style):** `full-text+source-archive/statecraft/2026-04-20/x-ghalibaf-marandi-repost-siege-battlefield.md+X-account+Marandi-RT+optional-pin`
+- **verify (inbox style):** `full-text+source-archive/statecraft/2026-04-20/source-ghalibaf-marandi-repost-siege-battlefield-2026-04-20.md+X-account+Marandi-RT+optional-pin`
 
 <!-- strategy-page:end -->

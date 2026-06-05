@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-06-05T01:54:34.374855+00:00",
+  "generatedAt": "2026-06-05T05:25:38.629674+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -13,13 +13,12 @@
     "speakerSlug": "mercouris",
     "speakerAliases": [
       "Alexander Mercouris",
-      "John Mearsheimer, Alexander Mercouris",
       "mercouris"
     ]
   },
   "coverage": {
-    "dayCount": 49,
-    "sourceFileCount": 50,
+    "dayCount": 51,
+    "sourceFileCount": 52,
     "firstDay": "2025-02-07",
     "lastDay": "2026-06-02"
   },
@@ -123,7 +122,7 @@
       },
       {
         "name": "Glenn Diesen",
-        "count": 1
+        "count": 3
       },
       {
         "name": "Mercouris",
@@ -141,7 +140,7 @@
       },
       {
         "name": "Glenn Diesen",
-        "count": 8
+        "count": 10
       },
       {
         "name": "Daniel Davis",
@@ -151,11 +150,11 @@
     "guests": [
       {
         "name": "Alexander Mercouris",
-        "count": 50
+        "count": 52
       },
       {
         "name": "John Mearsheimer",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Alex Christoforou",
@@ -181,7 +180,7 @@
     "threads": [
       {
         "name": "mercouris",
-        "count": 50
+        "count": 52
       },
       {
         "name": "christoforou",
@@ -189,11 +188,11 @@
       },
       {
         "name": "diesen",
-        "count": 8
+        "count": 10
       },
       {
         "name": "mearsheimer",
-        "count": 7
+        "count": 8
       },
       {
         "name": "davis",
@@ -219,7 +218,7 @@
     "sourceForms": [
       {
         "name": "interview",
-        "count": 39
+        "count": 41
       },
       {
         "name": "panel",
@@ -1629,11 +1628,19 @@
         {
           "name": "Alexander Mercouris",
           "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
         }
       ],
       "threads": [
         {
           "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
           "count": 1
         },
         {
@@ -2039,6 +2046,55 @@
       "readmeParseOk": false
     },
     {
+      "date": "2026-03-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
       "date": "2026-03-31",
       "fileCount": 1,
       "channels": [],
@@ -2303,6 +2359,55 @@
       ],
       "fileNames": [
         "source-alex-mercouris-china-tough-stance-in-trump-visit-russia-biggest-strike-kiev-shredded-ad-collapses-zelensky-panic-2026-05-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-16",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false

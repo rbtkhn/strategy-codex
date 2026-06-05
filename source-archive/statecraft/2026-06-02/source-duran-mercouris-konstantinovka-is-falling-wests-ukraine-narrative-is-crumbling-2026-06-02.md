@@ -3,11 +3,17 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: cleaned-transcript
 source_form: interview
+host_people:
+  - Alex Christoforou
+guest_people:
+  - Alexander Mercouris
+show_title: The Duran
+channel_name: The Duran
 show: The Duran
 host: Alex Christoforou
 guest: Alexander Mercouris
 thread: mercouris
-source_url: https://www.youtube.com/watch?v=dClwePAEoRw
+source_url: "https://www.youtube.com/watch?v=dClwePAEoRw"
 source_note: User-pasted cleaned YouTube transcript.
 title_slug: transcript-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02
 editorial_note: Preserve as raw cleaned transcript. Routes to Mercouris because this is a Duran-hosted Mercouris object with Christoforou prompts and Mercouris analysis.

@@ -3,18 +3,23 @@ ingest_date: 2026-06-03
 pub_date: 2026-06-03
 kind: transcript
 source_form: solo
+host_people:
+  - Nima Alkhorshid
+guest_people: []
+show_title: Dialogue Works
+channel_name: Dialogue Works
 thread: nima
 show: Dialogue Works
 host: Nima Alkorshid
 title: "US Bases & Airport HIT! Iran RETALIATES - Gulf Stocks CRASH + 7 Hezbollah Ops"
 channel_url: "https://www.youtube.com/watch?v=PQWhsrD4XhY"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=PQWhsrD4XhY"
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: "Operator-pasted YouTube transcript for Nima-hosted Dialogue Works capture."
+source_note: Operator-pasted YouTube transcript for Nima-hosted Dialogue Works capture.
 ---
 # US Bases & Airport HIT! Iran RETALIATES - Gulf Stocks CRASH + 7 Hezbollah Ops
 

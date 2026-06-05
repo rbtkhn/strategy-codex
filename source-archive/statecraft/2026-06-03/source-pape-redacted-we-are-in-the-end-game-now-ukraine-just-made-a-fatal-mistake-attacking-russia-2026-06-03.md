@@ -3,11 +3,18 @@ ingest_date: 2026-06-03
 pub_date: 2026-06-03
 kind: operator-transcript
 source_form: interview
+host_people:
+  - Clayton Morris
+  - Natali Morris
+guest_people:
+  - Robert Pape
+show_title: Redacted News
+channel_name: Redacted News
 show: Redacted News
-hosts: Clayton Morris, Natali Morris
+hosts: "Clayton Morris, Natali Morris"
 guest: Robert Pape
 thread_expert: pape
-source_url: https://www.youtube.com/watch?v=9cgeFOY5XEo
+source_url: "https://www.youtube.com/watch?v=9cgeFOY5XEo"
 source_note: Operator paste; canonical watch URL preserved (Redacted / YouTube).
 title_slug: pape-redacted-we-are-in-the-end-game-now-ukraine-just-made-a-fatal-mistake-attacking-russia-2026-06-03
 ---

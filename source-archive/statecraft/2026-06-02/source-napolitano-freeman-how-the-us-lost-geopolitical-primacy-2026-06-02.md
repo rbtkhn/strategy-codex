@@ -3,13 +3,19 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
+host_people:
+  - Andrew Napolitano
+guest_people:
+  - Chas Freeman
+show_title: Judging Freedom
+channel_name: Judging Freedom
 thread: napolitano
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Chas Freeman
 title: "AMB Chas Freeman : How the US Lost Geopolitical Primacy"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=FWoseXWGX5Y"
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript

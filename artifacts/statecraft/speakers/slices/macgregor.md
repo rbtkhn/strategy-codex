@@ -2,11 +2,11 @@
 
 _Generated observability artifact. Rebuild with `python scripts/build_statecraft_day_dashboard.py`._
 
-- Generated: `2026-06-05T01:54:33.273342+00:00`
+- Generated: `2026-06-05T05:25:37.991691+00:00`
 - Root: `C:\dev\strategy-codex\source-archive\statecraft`
-- Indexed days: `54`
-- Source files: `63`
-- Covered span: `2025-01-06` to `2026-06-02`
+- Indexed days: `63`
+- Source files: `74`
+- Covered span: `2025-01-06` to `2026-06-04`
 
 ## Active Query
 
@@ -27,9 +27,9 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2025-01-28](C:/dev/strategy-codex/source-archive/statecraft/2025-01-28/README.md) | 2 |
 | [2025-01-29](C:/dev/strategy-codex/source-archive/statecraft/2025-01-29/README.md) | 2 |
 | [2025-04-15](C:/dev/strategy-codex/source-archive/statecraft/2025-04-15/README.md) | 2 |
+| [2025-06-10](C:/dev/strategy-codex/source-archive/statecraft/2025-06-10/README.md) | 2 |
+| [2025-11-26](C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/README.md) | 2 |
 | [2026-05-21](C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/README.md) | 2 |
-| [2025-01-19](C:/dev/strategy-codex/source-archive/statecraft/2025-01-19/README.md) | 1 |
-| [2025-01-23](C:/dev/strategy-codex/source-archive/statecraft/2025-01-23/README.md) | 1 |
 
 ## Quiet Days (1-2 files)
 
@@ -51,8 +51,8 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | Name | Count |
 | --- | ---: |
 | `Daniel Davis Deep Dive` | 31 |
-| `Judging Freedom` | 18 |
-| `Glenn Diesen` | 2 |
+| `Judging Freedom` | 19 |
+| `Glenn Diesen` | 6 |
 | `Counter Currents` | 1 |
 | `Glenn Diesen (channel / program — pin canonical series title when known)` | 1 |
 | `Glenn Diesen (channel / program — pin canonical series title when pinned)` | 1 |
@@ -65,10 +65,9 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `Daniel Davis` | 30 |
-| `Andrew Napolitano` | 23 |
-| `Glenn Diesen` | 5 |
-| `Gary` | 1 |
+| `Daniel Davis` | 31 |
+| `Andrew Napolitano` | 24 |
+| `Glenn Diesen` | 15 |
 | `Larry Johnson` | 1 |
 | `Mario Nawfal` | 1 |
 | `Pascal Lottaz` | 1 |
@@ -78,16 +77,16 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `Douglas Macgregor` | 63 |
+| `Douglas Macgregor` | 74 |
 
 ## Thread Leaderboard
 
 | Name | Count |
 | --- | ---: |
-| `macgregor` | 63 |
+| `macgregor` | 74 |
 | `davis` | 31 |
-| `napolitano` | 23 |
-| `diesen` | 5 |
+| `napolitano` | 24 |
+| `diesen` | 15 |
 | `carlson` | 1 |
 | `johnson` | 1 |
 | `nawfal` | 1 |
@@ -96,7 +95,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 
 | Name | Count |
 | --- | ---: |
-| `interview` | 60 |
+| `interview` | 71 |
 | `article` | 3 |
 
 ## Anomalies / Gaps
@@ -138,17 +137,25 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2025-05-27](C:/dev/strategy-codex/source-archive/statecraft/2025-05-27/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
 | [2025-06-03](C:/dev/strategy-codex/source-archive/statecraft/2025-06-03/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
 | [2025-06-04](C:/dev/strategy-codex/source-archive/statecraft/2025-06-04/README.md) | 1 | Judging Freedom | 2 | interview | no |
-| [2025-06-10](C:/dev/strategy-codex/source-archive/statecraft/2025-06-10/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
+| [2025-06-10](C:/dev/strategy-codex/source-archive/statecraft/2025-06-10/README.md) | 2 | Daniel Davis Deep Dive | 3 | interview | no |
 | [2025-06-20](C:/dev/strategy-codex/source-archive/statecraft/2025-06-20/README.md) | 1 | Glenn Diesen - Greater Eurasia Podcast | 2 | interview | no |
+| [2025-08-28](C:/dev/strategy-codex/source-archive/statecraft/2025-08-28/README.md) | 1 | (none) | 2 | interview | no |
+| [2025-09-15](C:/dev/strategy-codex/source-archive/statecraft/2025-09-15/README.md) | 1 | (none) | 2 | interview | no |
+| [2025-09-25](C:/dev/strategy-codex/source-archive/statecraft/2025-09-25/README.md) | 1 | (none) | 2 | interview | no |
 | [2025-10-01](C:/dev/strategy-codex/source-archive/statecraft/2025-10-01/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
+| [2025-10-23](C:/dev/strategy-codex/source-archive/statecraft/2025-10-23/README.md) | 1 | Glenn Diesen | 2 | interview | no |
+| [2025-11-04](C:/dev/strategy-codex/source-archive/statecraft/2025-11-04/README.md) | 1 | (none) | 2 | interview | no |
 | [2025-11-05](C:/dev/strategy-codex/source-archive/statecraft/2025-11-05/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
 | [2025-11-13](C:/dev/strategy-codex/source-archive/statecraft/2025-11-13/README.md) | 1 | (none) | 2 | article | no |
-| [2025-11-26](C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
+| [2025-11-26](C:/dev/strategy-codex/source-archive/statecraft/2025-11-26/README.md) | 2 | Daniel Davis Deep Dive | 3 | interview | no |
 | [2025-12-02](C:/dev/strategy-codex/source-archive/statecraft/2025-12-02/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
+| [2025-12-10](C:/dev/strategy-codex/source-archive/statecraft/2025-12-10/README.md) | 1 | Glenn Diesen | 2 | interview | no |
 | [2025-12-11](C:/dev/strategy-codex/source-archive/statecraft/2025-12-11/README.md) | 1 | (none) | 2 | article | no |
 | [2026-01-07](C:/dev/strategy-codex/source-archive/statecraft/2026-01-07/README.md) | 1 | (none) | 2 | article | no |
 | [2026-01-22](C:/dev/strategy-codex/source-archive/statecraft/2026-01-22/README.md) | 1 | Glenn Diesen (channel / program — pin canonical series title when known) | 2 | interview | no |
 | [2026-02-10](C:/dev/strategy-codex/source-archive/statecraft/2026-02-10/README.md) | 1 | (none) | 2 | interview | no |
+| [2026-02-26](C:/dev/strategy-codex/source-archive/statecraft/2026-02-26/README.md) | 1 | Glenn Diesen | 2 | interview | no |
+| [2026-03-02](C:/dev/strategy-codex/source-archive/statecraft/2026-03-02/README.md) | 1 | Glenn Diesen | 2 | interview | no |
 | [2026-03-03](C:/dev/strategy-codex/source-archive/statecraft/2026-03-03/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
 | [2026-03-15](C:/dev/strategy-codex/source-archive/statecraft/2026-03-15/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
 | [2026-03-26](C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/README.md) | 1 | (none) | 2 | interview | no |
@@ -162,3 +169,4 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | [2026-05-28](C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/README.md) | 1 | Judging Freedom | 2 | interview | no |
 | [2026-05-29](C:/dev/strategy-codex/source-archive/statecraft/2026-05-29/README.md) | 1 | Neutrality Studies | 1 | interview | no |
 | [2026-06-02](C:/dev/strategy-codex/source-archive/statecraft/2026-06-02/README.md) | 1 | Daniel Davis Deep Dive | 2 | interview | no |
+| [2026-06-04](C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/README.md) | 1 | Judging Freedom | 2 | interview | no |

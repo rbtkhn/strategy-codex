@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-04T16:05:43+00:00",
+  "generated_at": "2026-06-05T05:53:55+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
     "2025-01": {
       "captured_days": 31,
-      "source_count": 134,
-      "thread_count": 16,
-      "channel_or_show_count": 6,
-      "host_count": 7,
-      "guest_count": 81,
+      "source_count": 136,
+      "thread_count": 18,
+      "channel_or_show_count": 7,
+      "host_count": 6,
+      "guest_count": 90,
       "guest_label_variants": [
         {
           "signature": "zelensky",
@@ -34,11 +34,11 @@
     },
     "2025-02": {
       "captured_days": 17,
-      "source_count": 31,
+      "source_count": 34,
       "thread_count": 19,
-      "channel_or_show_count": 9,
-      "host_count": 10,
-      "guest_count": 14,
+      "channel_or_show_count": 10,
+      "host_count": 9,
+      "guest_count": 12,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -49,32 +49,6 @@
             },
             {
               "label": "Charles Freeman",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "signature": "mearsheimer",
-          "labels": [
-            {
-              "label": "John Mearsheimer",
-              "count": 2
-            },
-            {
-              "label": "john-mearsheimer",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "signature": "mercouris",
-          "labels": [
-            {
-              "label": "Alexander Mercouris",
-              "count": 4
-            },
-            {
-              "label": "alexander-mercouris",
               "count": 1
             }
           ]
@@ -90,12 +64,12 @@
       "needs_label_normalization": true
     },
     "2025-03": {
-      "captured_days": 15,
-      "source_count": 22,
+      "captured_days": 19,
+      "source_count": 28,
       "thread_count": 14,
-      "channel_or_show_count": 7,
+      "channel_or_show_count": 8,
       "host_count": 8,
-      "guest_count": 11,
+      "guest_count": 9,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -109,36 +83,13 @@
               "count": 3
             }
           ]
-        },
-        {
-          "signature": "mearsheimer",
-          "labels": [
-            {
-              "label": "John Mearsheimer",
-              "count": 1
-            },
-            {
-              "label": "john-mearsheimer",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "signature": "mercouris",
-          "labels": [
-            {
-              "label": "Alexander Mercouris",
-              "count": 1
-            },
-            {
-              "label": "alexander-mercouris",
-              "count": 1
-            }
-          ]
         }
       ],
-      "existing_month_surface_count": 0,
-      "existing_month_surfaces": [],
+      "existing_month_surface_count": 2,
+      "existing_month_surfaces": [
+        "statecraft/notes/mearsheimer-march-2025-opening-watchlist.md",
+        "statecraft/notes/mearsheimer-march-2025-repair-note.md"
+      ],
       "is_dense_month": false,
       "has_finite_queue": false,
       "has_existing_benchmark_surfaces": false,
@@ -146,11 +97,11 @@
     },
     "2025-04": {
       "captured_days": 30,
-      "source_count": 57,
+      "source_count": 60,
       "thread_count": 14,
-      "channel_or_show_count": 6,
-      "host_count": 6,
-      "guest_count": 14,
+      "channel_or_show_count": 7,
+      "host_count": 7,
+      "guest_count": 13,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -177,24 +128,12 @@
               "count": 1
             }
           ]
-        },
-        {
-          "signature": "wilkerson",
-          "labels": [
-            {
-              "label": "Lawrence Wilkerson",
-              "count": 4
-            },
-            {
-              "label": "Larry Wilkerson",
-              "count": 3
-            }
-          ]
         }
       ],
-      "existing_month_surface_count": 1,
+      "existing_month_surface_count": 2,
       "existing_month_surfaces": [
-        "statecraft/notes/mearsheimer-april-2025-opening-watchlist.md"
+        "statecraft/notes/mearsheimer-april-2025-opening-watchlist.md",
+        "statecraft/notes/mearsheimer-april-2025-repair-note.md"
       ],
       "is_dense_month": true,
       "has_finite_queue": false,
@@ -203,11 +142,11 @@
     },
     "2025-05": {
       "captured_days": 31,
-      "source_count": 61,
+      "source_count": 62,
       "thread_count": 16,
-      "channel_or_show_count": 6,
-      "host_count": 9,
-      "guest_count": 14,
+      "channel_or_show_count": 7,
+      "host_count": 7,
+      "guest_count": 13,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -219,19 +158,6 @@
             {
               "label": "Charles Freeman",
               "count": 3
-            }
-          ]
-        },
-        {
-          "signature": "mearsheimer",
-          "labels": [
-            {
-              "label": "John Mearsheimer",
-              "count": 2
-            },
-            {
-              "label": "john-mearsheimer",
-              "count": 2
             }
           ]
         }
@@ -248,8 +174,8 @@
       "source_count": 42,
       "thread_count": 22,
       "channel_or_show_count": 11,
-      "host_count": 13,
-      "guest_count": 18,
+      "host_count": 10,
+      "guest_count": 15,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -261,45 +187,6 @@
             {
               "label": "Chas Freeman",
               "count": 4
-            }
-          ]
-        },
-        {
-          "signature": "mearsheimer",
-          "labels": [
-            {
-              "label": "john-mearsheimer",
-              "count": 3
-            },
-            {
-              "label": "John Mearsheimer",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "signature": "mercouris",
-          "labels": [
-            {
-              "label": "Alexander Mercouris",
-              "count": 3
-            },
-            {
-              "label": "alexander-mercouris",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "signature": "wilkerson",
-          "labels": [
-            {
-              "label": "Lawrence Wilkerson",
-              "count": 5
-            },
-            {
-              "label": "Larry Wilkerson",
-              "count": 2
             }
           ]
         }
@@ -314,12 +201,12 @@
       "needs_label_normalization": true
     },
     "2025-07": {
-      "captured_days": 15,
-      "source_count": 25,
+      "captured_days": 16,
+      "source_count": 27,
       "thread_count": 16,
-      "channel_or_show_count": 6,
+      "channel_or_show_count": 7,
       "host_count": 6,
-      "guest_count": 16,
+      "guest_count": 14,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -339,27 +226,14 @@
           ]
         },
         {
-          "signature": "mearsheimer",
+          "signature": "johnson",
           "labels": [
             {
-              "label": "john-mearsheimer",
-              "count": 3
-            },
-            {
-              "label": "John Mearsheimer",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "signature": "wilkerson",
-          "labels": [
-            {
-              "label": "Lawrence Wilkerson",
+              "label": "Larry Johnson",
               "count": 2
             },
             {
-              "label": "Larry Wilkerson",
+              "label": "Larry C. Johnson",
               "count": 1
             }
           ]
@@ -379,18 +253,18 @@
       "source_count": 42,
       "thread_count": 18,
       "channel_or_show_count": 6,
-      "host_count": 8,
-      "guest_count": 16,
+      "host_count": 6,
+      "guest_count": 15,
       "guest_label_variants": [
         {
-          "signature": "wilkerson",
+          "signature": "johnson",
           "labels": [
             {
-              "label": "Larry Wilkerson",
+              "label": "Larry C. Johnson",
               "count": 2
             },
             {
-              "label": "Lawrence Wilkerson",
+              "label": "Larry Johnson",
               "count": 1
             }
           ]
@@ -406,25 +280,11 @@
     "2025-09": {
       "captured_days": 22,
       "source_count": 45,
-      "thread_count": 14,
+      "thread_count": 16,
       "channel_or_show_count": 7,
       "host_count": 6,
-      "guest_count": 15,
-      "guest_label_variants": [
-        {
-          "signature": "wilkerson",
-          "labels": [
-            {
-              "label": "Larry Wilkerson",
-              "count": 1
-            },
-            {
-              "label": "Lawrence Wilkerson",
-              "count": 1
-            }
-          ]
-        }
-      ],
+      "guest_count": 12,
+      "guest_label_variants": [],
       "existing_month_surface_count": 2,
       "existing_month_surfaces": [
         "statecraft/notes/mearsheimer-september-2025-opening-watchlist.md",
@@ -433,16 +293,29 @@
       "is_dense_month": true,
       "has_finite_queue": false,
       "has_existing_benchmark_surfaces": false,
-      "needs_label_normalization": true
+      "needs_label_normalization": false
     },
     "2025-10": {
       "captured_days": 25,
       "source_count": 56,
       "thread_count": 20,
       "channel_or_show_count": 8,
-      "host_count": 8,
-      "guest_count": 20,
+      "host_count": 6,
+      "guest_count": 18,
       "guest_label_variants": [
+        {
+          "signature": "johnson",
+          "labels": [
+            {
+              "label": "Larry C. Johnson",
+              "count": 3
+            },
+            {
+              "label": "Larry Johnson",
+              "count": 2
+            }
+          ]
+        },
         {
           "signature": "macgregor",
           "labels": [
@@ -453,32 +326,6 @@
             {
               "label": "Douglas Macgregor",
               "count": 1
-            }
-          ]
-        },
-        {
-          "signature": "mearsheimer",
-          "labels": [
-            {
-              "label": "John Mearsheimer",
-              "count": 3
-            },
-            {
-              "label": "john-mearsheimer",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "signature": "wilkerson",
-          "labels": [
-            {
-              "label": "Larry Wilkerson",
-              "count": 4
-            },
-            {
-              "label": "Lawrence Wilkerson",
-              "count": 3
             }
           ]
         }
@@ -498,8 +345,8 @@
       "source_count": 57,
       "thread_count": 19,
       "channel_or_show_count": 8,
-      "host_count": 9,
-      "guest_count": 18,
+      "host_count": 7,
+      "guest_count": 16,
       "guest_label_variants": [
         {
           "signature": "johnson",
@@ -524,19 +371,6 @@
             {
               "label": "Doug Macgregor",
               "count": 2
-            }
-          ]
-        },
-        {
-          "signature": "wilkerson",
-          "labels": [
-            {
-              "label": "Larry Wilkerson",
-              "count": 3
-            },
-            {
-              "label": "Lawrence Wilkerson",
-              "count": 1
             }
           ]
         }
@@ -555,8 +389,8 @@
       "source_count": 77,
       "thread_count": 21,
       "channel_or_show_count": 9,
-      "host_count": 10,
-      "guest_count": 21,
+      "host_count": 7,
+      "guest_count": 20,
       "guest_label_variants": [
         {
           "signature": "johnson",
@@ -583,45 +417,6 @@
               "count": 1
             }
           ]
-        },
-        {
-          "signature": "mearsheimer",
-          "labels": [
-            {
-              "label": "John Mearsheimer",
-              "count": 4
-            },
-            {
-              "label": "john-mearsheimer",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "signature": "mercouris",
-          "labels": [
-            {
-              "label": "Alexander Mercouris",
-              "count": 1
-            },
-            {
-              "label": "alexander-mercouris",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "signature": "wilkerson",
-          "labels": [
-            {
-              "label": "Larry Wilkerson",
-              "count": 4
-            },
-            {
-              "label": "Lawrence Wilkerson",
-              "count": 3
-            }
-          ]
         }
       ],
       "existing_month_surface_count": 1,
@@ -635,12 +430,26 @@
     },
     "2026-01": {
       "captured_days": 31,
-      "source_count": 101,
-      "thread_count": 21,
-      "channel_or_show_count": 12,
-      "host_count": 7,
-      "guest_count": 17,
-      "guest_label_variants": [],
+      "source_count": 106,
+      "thread_count": 22,
+      "channel_or_show_count": 14,
+      "host_count": 9,
+      "guest_count": 18,
+      "guest_label_variants": [
+        {
+          "signature": "johnson",
+          "labels": [
+            {
+              "label": "Larry C. Johnson",
+              "count": 2
+            },
+            {
+              "label": "Larry Johnson",
+              "count": 1
+            }
+          ]
+        }
+      ],
       "existing_month_surface_count": 1,
       "existing_month_surfaces": [
         "statecraft/notes/january-2026-benchmark-note.md"
@@ -648,16 +457,30 @@
       "is_dense_month": true,
       "has_finite_queue": false,
       "has_existing_benchmark_surfaces": true,
-      "needs_label_normalization": false
+      "needs_label_normalization": true
     },
     "2026-02": {
       "captured_days": 28,
-      "source_count": 91,
+      "source_count": 96,
       "thread_count": 25,
-      "channel_or_show_count": 11,
-      "host_count": 7,
-      "guest_count": 22,
-      "guest_label_variants": [],
+      "channel_or_show_count": 14,
+      "host_count": 10,
+      "guest_count": 23,
+      "guest_label_variants": [
+        {
+          "signature": "johnson",
+          "labels": [
+            {
+              "label": "Larry Johnson",
+              "count": 2
+            },
+            {
+              "label": "Larry C. Johnson",
+              "count": 1
+            }
+          ]
+        }
+      ],
       "existing_month_surface_count": 1,
       "existing_month_surfaces": [
         "statecraft/notes/february-2026-benchmark-note.md"
@@ -665,15 +488,15 @@
       "is_dense_month": true,
       "has_finite_queue": false,
       "has_existing_benchmark_surfaces": true,
-      "needs_label_normalization": false
+      "needs_label_normalization": true
     },
     "2026-03": {
       "captured_days": 31,
-      "source_count": 199,
+      "source_count": 200,
       "thread_count": 30,
       "channel_or_show_count": 17,
-      "host_count": 9,
-      "guest_count": 45,
+      "host_count": 10,
+      "guest_count": 43,
       "guest_label_variants": [
         {
           "signature": "crooke",
@@ -706,11 +529,11 @@
           "labels": [
             {
               "label": "Larry Johnson",
-              "count": 4
+              "count": 6
             },
             {
               "label": "Larry C. Johnson",
-              "count": 2
+              "count": 4
             }
           ]
         },
@@ -769,19 +592,6 @@
               "count": 2
             }
           ]
-        },
-        {
-          "signature": "wilkerson",
-          "labels": [
-            {
-              "label": "Larry Wilkerson",
-              "count": 2
-            },
-            {
-              "label": "Lawrence Wilkerson",
-              "count": 2
-            }
-          ]
         }
       ],
       "existing_month_surface_count": 2,
@@ -796,11 +606,11 @@
     },
     "2026-04": {
       "captured_days": 30,
-      "source_count": 195,
+      "source_count": 199,
       "thread_count": 31,
-      "channel_or_show_count": 24,
-      "host_count": 20,
-      "guest_count": 41,
+      "channel_or_show_count": 25,
+      "host_count": 22,
+      "guest_count": 40,
       "guest_label_variants": [
         {
           "signature": "barnes",
@@ -833,7 +643,7 @@
           "labels": [
             {
               "label": "Larry Johnson",
-              "count": 12
+              "count": 13
             },
             {
               "label": "Larry C. Johnson",
@@ -866,23 +676,6 @@
               "count": 1
             }
           ]
-        },
-        {
-          "signature": "wilkerson",
-          "labels": [
-            {
-              "label": "Lawrence Wilkerson",
-              "count": 6
-            },
-            {
-              "label": "Larry Wilkerson",
-              "count": 1
-            },
-            {
-              "label": "Ret. Col. Lawrence Wilkerson",
-              "count": 1
-            }
-          ]
         }
       ],
       "existing_month_surface_count": 3,
@@ -901,8 +694,8 @@
       "source_count": 234,
       "thread_count": 35,
       "channel_or_show_count": 25,
-      "host_count": 20,
-      "guest_count": 46,
+      "host_count": 21,
+      "guest_count": 43,
       "guest_label_variants": [
         {
           "signature": "davis",
@@ -976,19 +769,6 @@
               "count": 1
             }
           ]
-        },
-        {
-          "signature": "wilkerson",
-          "labels": [
-            {
-              "label": "Lawrence Wilkerson",
-              "count": 6
-            },
-            {
-              "label": "Larry Wilkerson",
-              "count": 2
-            }
-          ]
         }
       ],
       "existing_month_surface_count": 3,
@@ -1003,13 +783,26 @@
       "needs_label_normalization": true
     },
     "2026-06": {
-      "captured_days": 3,
-      "source_count": 36,
-      "thread_count": 22,
+      "captured_days": 4,
+      "source_count": 47,
+      "thread_count": 24,
       "channel_or_show_count": 12,
       "host_count": 12,
-      "guest_count": 20,
+      "guest_count": 23,
       "guest_label_variants": [
+        {
+          "signature": "hoh",
+          "labels": [
+            {
+              "label": "Matt Hoh",
+              "count": 2
+            },
+            {
+              "label": "Matthew Hoh",
+              "count": 1
+            }
+          ]
+        },
         {
           "signature": "marandi",
           "labels": [

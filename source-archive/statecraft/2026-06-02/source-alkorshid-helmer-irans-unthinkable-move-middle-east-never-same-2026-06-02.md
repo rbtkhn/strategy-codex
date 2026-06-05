@@ -3,17 +3,23 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
+host_people:
+  - Nima Alkhorshid
+guest_people:
+  - John Helmer
+show_title: Dialogue Works
+channel_name: Dialogue Works
 thread: nima
 show: Dialogue Works
 host: Nima Alkhorshid
 guest: John Helmer
 title: "John Helmer: Iran's Unthinkable Move Triggers US & Israel - The Middle East Will Never Be the Same"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=OVcXeOl-LSw"
 source_type: youtube
 youtube_id: OVcXeOl-LSw
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
 editorial_note: "Preserve as raw cleaned transcript; verify polling, military, sanctions, Russian domestic-politics, and succession-faction claims before promotion beyond analyst tier."
 ---
 # John Helmer: Iran's Unthinkable Move Triggers US & Israel - The Middle East Will Never Be the Same

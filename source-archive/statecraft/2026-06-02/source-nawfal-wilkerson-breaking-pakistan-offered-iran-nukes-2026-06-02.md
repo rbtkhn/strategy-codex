@@ -3,11 +3,17 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
+host_people:
+  - Mario Nawfal
+guest_people:
+  - Lawrence Wilkerson
+show_title: Mario Nawfal
+channel_name: Mario Nawfal
 thread: wilkerson
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Larry Wilkerson
-title: "BREAKING: PAKISTAN \"OFFERED IRAN NUKES\" - w/ Col. Larry Wilkerson"
+title: "BREAKING: PAKISTAN \\\"OFFERED IRAN NUKES\\\" - w/ Col. Larry Wilkerson"
 source_url: "https://www.youtube.com/watch?v=X1BVrPUOu5Y"
 source_type: youtube
 transcript_type: operator_pasted_transcript

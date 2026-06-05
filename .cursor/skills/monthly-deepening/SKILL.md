@@ -59,6 +59,36 @@ Exception:
 
 - if the operator has pasted or uploaded a transcript body, classify the surrounding request normally but treat the transcript itself as materialization work unless the operator explicitly restricted the turn to reporting only
 
+### 1d. Perform URL recovery inside the same month pass
+
+When the operator asks for:
+
+- a month recovery pass
+- a month-opening watchlist or candidate queue
+- direct watch URLs
+- or a search for missing month items
+
+perform the YouTube/watch-URL search inside the same monthly-deepening workflow.
+
+Do not bounce back with a separate confirmation step such as:
+
+- `Do you want me to search YouTube?`
+- `Should I do the web search now?`
+
+unless the operator explicitly limited the turn to:
+
+- `local-only`
+- `inventory-only`
+- `do not browse`
+- or another clearly no-search reporting constraint
+
+Preferred default:
+
+- local evidence first
+- then immediate YouTube / web recovery in the same response when local evidence alone does not close the month question
+
+If direct YouTube watch URLs still cannot be recovered, say so plainly and preserve the strongest external anchors you do have.
+
 ### 1a. Route the month object before writing shelf prose
 
 When the request moves beyond list-making into month interpretation or shelf-building, choose exactly one month route first:

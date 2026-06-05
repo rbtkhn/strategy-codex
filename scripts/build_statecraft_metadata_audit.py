@@ -100,6 +100,8 @@ def build_payload(root: Path = DEFAULT_ROOT) -> dict:
     normalized_host_variants: dict[str, Counter[str]] = defaultdict(Counter)
     boundary_failures: dict[str, Counter[str]] = defaultdict(Counter)
     boundary_examples: dict[str, dict[str, Counter[str]]] = defaultdict(lambda: defaultdict(Counter))
+    structured_field_presence: Counter[str] = Counter()
+    missing_structured_combos: Counter[str] = Counter()
     scanned_files = 0
 
     for day_dir in iter_all_day_dirs(root):
@@ -108,6 +110,31 @@ def build_payload(root: Path = DEFAULT_ROOT) -> dict:
             meta = parse_frontmatter(path)
             record = collect_archive_file(path)
             title = norm_scalar(meta.get("title"))
+            has_host_people = bool(as_values(meta.get("host_people")))
+            has_guest_people = bool(as_values(meta.get("guest_people")))
+            has_show_title = bool(norm_scalar(meta.get("show_title")))
+            has_channel_name = bool(norm_scalar(meta.get("channel_name")))
+
+            if has_host_people:
+                structured_field_presence["host_people"] += 1
+            if has_guest_people:
+                structured_field_presence["guest_people"] += 1
+            if has_show_title:
+                structured_field_presence["show_title"] += 1
+            if has_channel_name:
+                structured_field_presence["channel_name"] += 1
+            if any((has_host_people, has_guest_people, has_show_title, has_channel_name)):
+                structured_field_presence["any_structured_fields"] += 1
+            if all((has_show_title or record.source_form in {"newsletter", "article", "post"}, has_channel_name)):
+                structured_field_presence["show_and_channel_complete"] += 1
+            if record.host_values and not has_host_people:
+                missing_structured_combos["missing_host_people"] += 1
+            if record.guest_values and not has_guest_people:
+                missing_structured_combos["missing_guest_people"] += 1
+            if record.show and record.source_form not in {"newsletter", "article", "post"} and not has_show_title:
+                missing_structured_combos["missing_show_title"] += 1
+            if record.channel_values and not has_channel_name:
+                missing_structured_combos["missing_channel_name"] += 1
 
             raw_hosts = _raw_person_values(meta, ("host", "hosts"))
             raw_guests = _raw_person_values(meta, ("guest", "guests", "speaker", "speakers", "participants"), "guest_")
@@ -162,6 +189,8 @@ def build_payload(root: Path = DEFAULT_ROOT) -> dict:
         "coverage": {
             "fileCount": scanned_files,
         },
+        "structuredFieldPresence": counter_to_list(structured_field_presence),
+        "missingStructuredCombos": counter_to_list(missing_structured_combos),
         "hostRewrites": counter_to_list(host_rewrites),
         "guestRewrites": counter_to_list(guest_rewrites),
         "droppedGuestFragments": counter_to_list(dropped_guest_fragments),
@@ -205,6 +234,8 @@ def render_markdown(payload: dict) -> str:
     add_counter_section("Top Host Rewrites", payload["hostRewrites"])
     add_counter_section("Top Guest Rewrites", payload["guestRewrites"])
     add_counter_section("Dropped Guest Fragments", payload["droppedGuestFragments"])
+    add_counter_section("Structured Field Presence", payload["structuredFieldPresence"])
+    add_counter_section("Missing Structured Field Combos", payload["missingStructuredCombos"])
 
     lines.extend(["## Field-Boundary Failure Classes", ""])
     for row in payload["fieldBoundaryFailures"]:

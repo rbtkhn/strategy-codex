@@ -22,7 +22,7 @@ HONORIFIC_RE = re.compile(
     r"prof\.?|professor|cpt\.?|ret\.?|retired)\s+",
     re.IGNORECASE,
 )
-COMPOUND_PERSON_SPLIT_RE = re.compile(r"\s*(?:;|&|\band\b)\s*", re.IGNORECASE)
+COMPOUND_PERSON_SPLIT_RE = re.compile(r"\s*(?:,|;|&|\band\b)\s*", re.IGNORECASE)
 PERSON_LABEL_ALIASES = {
     "Nima": "Nima Alkhorshid",
     "Nema": "Nima Alkhorshid",
@@ -204,28 +204,53 @@ def normalize_channel_label(value: str) -> str:
     return text
 
 
+def _append_person_values(out: list[str], raw_values: tuple[str, ...]) -> None:
+    for value in raw_values:
+        for normalized in split_person_field_value(value):
+            if normalized and normalized not in out:
+                out.append(normalized)
+
+
+def _pattern_person_values(meta: dict[str, Any], pattern: str) -> tuple[str, ...]:
+    out: list[str] = []
+    for key, raw_value in meta.items():
+        if re.fullmatch(pattern, str(key)):
+            _append_person_values(out, as_values(raw_value))
+    return tuple(out)
+
+
+def host_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
+    if "host_people" in meta:
+        structured = list(as_values(meta.get("host_people")))
+        out: list[str] = []
+        _append_person_values(out, tuple(structured))
+        return tuple(out)
+
+    out: list[str] = []
+    _append_person_values(out, as_values(meta.get("host")) + as_values(meta.get("hosts")))
+    if out:
+        return tuple(out)
+
+    _append_person_values(out, as_values(meta.get("author_people")) + as_values(meta.get("author")))
+    return tuple(out)
+
+
 def guest_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
     out: list[str] = []
     title = norm_scalar(meta.get("title"))
-    for key in ("guest", "guests", "speaker", "speakers", "participants"):
-        raw_values = list(as_values(meta.get(key)))
-        expanded_values: list[str] = []
-        for value in raw_values:
-            if key in {"speakers", "participants"} and "," in value:
-                expanded_values.extend(part.strip() for part in value.split(","))
-            else:
-                expanded_values.append(value)
-        for value in expanded_values:
-            for normalized in split_person_field_value(value):
-                if normalized not in out:
-                    out.append(normalized)
-    for key, raw_value in meta.items():
-        if not re.fullmatch(r"guest_\d+", str(key)):
-            continue
-        for value in as_values(raw_value):
-            for normalized in split_person_field_value(value):
-                if normalized not in out:
-                    out.append(normalized)
+
+    if "guest_people" in meta:
+        explicit = list(as_values(meta.get("guest_people")))
+        _append_person_values(out, tuple(explicit))
+        return tuple(out)
+
+    explicit_guest_like = as_values(meta.get("guest")) + as_values(meta.get("guests")) + _pattern_person_values(meta, r"guest_\d+")
+    if explicit_guest_like:
+        _append_person_values(out, explicit_guest_like)
+        return tuple(out)
+
+    secondary_fields = as_values(meta.get("speaker")) + as_values(meta.get("speakers")) + as_values(meta.get("participants"))
+    _append_person_values(out, secondary_fields)
     out = [value for value in out if not is_probable_topic_fragment(value, title)]
     if not out and "|" in title:
         for normalized in split_person_field_value(title):
@@ -295,22 +320,19 @@ def infer_source_form(meta: dict[str, Any], host_values: tuple[str, ...], guest_
         return "panel"
     if len(guest_values) == 1:
         return "interview"
-    if host_values or norm_scalar(meta.get("show")) or source_url:
+    if host_values or norm_scalar(meta.get("show_title")) or norm_scalar(meta.get("show")) or norm_scalar(meta.get("channel_name")) or source_url:
         return "solo"
     return "post"
 
 
 def collect_archive_file(path: Path) -> ArchiveFile:
     meta = parse_frontmatter(path)
-    host_values_out: list[str] = []
-    for value in as_values(meta.get("host")) + as_values(meta.get("hosts")):
-        for normalized in split_person_field_value(value):
-            if normalized not in host_values_out:
-                host_values_out.append(normalized)
-    host_values = tuple(host_values_out)
+    host_values = host_meta_values(meta)
     guest_values = guest_meta_values(meta)
     channel_values = (
-        as_values(meta.get("show"))
+        as_values(meta.get("channel_name"))
+        or as_values(meta.get("show_title"))
+        or as_values(meta.get("show"))
         or as_values(meta.get("channel_slug"))
         or as_values(meta.get("publication"))
     )
@@ -320,7 +342,7 @@ def collect_archive_file(path: Path) -> ArchiveFile:
         path=path,
         name=path.name,
         title=norm_scalar(meta.get("title")),
-        show=norm_scalar(meta.get("show")),
+        show=norm_scalar(meta.get("show_title")) or norm_scalar(meta.get("show")) or norm_scalar(meta.get("channel_name")),
         host_values=host_values,
         guest_values=guest_values,
         thread_values=thread_values,

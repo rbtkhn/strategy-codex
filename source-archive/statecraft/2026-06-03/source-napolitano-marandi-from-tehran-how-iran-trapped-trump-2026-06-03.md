@@ -3,20 +3,26 @@ ingest_date: 2026-06-03
 pub_date: 2026-06-03
 kind: transcript
 source_form: interview
+host_people:
+  - Andrew Napolitano
+guest_people:
+  - Mohammad Marandi
+show_title: Judging Freedom
+channel_name: Judging Freedom
 thread: napolitano
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Mohammad Marandi
 title: "Prof. Mohammad Marandi : FROM TEHRAN: How Iran Trapped Trump"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=rzLN4YbGnw4"
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
 source_note: "Materialized from operator-pasted YouTube transcript for the June 3, 2026 Judging Freedom appearance."
-normalization_note: "Removed routine ideological cold open and closing schedule promo; kept operator-pasted source language and residual ASR noise."
+normalization_note: Removed routine ideological cold open and closing schedule promo; kept operator-pasted source language and residual ASR noise.
 ---
 # Prof. Mohammad Marandi : FROM TEHRAN: How Iran Trapped Trump
 

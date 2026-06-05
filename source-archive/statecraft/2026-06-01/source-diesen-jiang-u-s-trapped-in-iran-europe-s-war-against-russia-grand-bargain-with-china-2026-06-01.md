@@ -3,17 +3,23 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: transcript
 source_form: interview
+host_people:
+  - Glenn Diesen
+guest_people:
+  - Jiang Xueqin
+show_title: Glenn Diesen
+channel_name: Glenn Diesen
 thread: diesen
 show: Glenn Diesen
 host: Glenn Diesen
 guest: Jiang Xueqin
 title: "Jiang Xueqin: U.S. Trapped In Iran, Europe's War Against Russia & a Grand Bargain With China"
 channel_url: "https://www.youtube.com/@GDiesen1/videos"
-channel_slug: "glenn-diesen"
+channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=Pk15Ov0v98U"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-editorial_note: "Direct YouTube watch URL and full transcript body supplied by operator in Codex chat. Treated as an in-review transcript-grade capture rather than an auto-subtitles object."
+editorial_note: Direct YouTube watch URL and full transcript body supplied by operator in Codex chat. Treated as an in-review transcript-grade capture rather than an auto-subtitles object.
 status: in-review
 ---
 # Jiang Xueqin: U.S. Trapped In Iran, Europe's War Against Russia & a Grand Bargain With China

@@ -67,5 +67,5 @@ tags:
 
 ## Example (grace-mar), 2026-04-27
 
-- Raw: `raw-input/2026-04-27/transcript-diesen-crooke-iran-global-war-world-order-2026-04-27.md`
+- Raw: `raw-input/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md`
 - Refined: `experts/diesen/diesen-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md` (host) + `experts/crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md` (guest)

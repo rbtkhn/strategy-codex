@@ -3,8 +3,12 @@ ingest_date: 2026-06-03
 pub_date: 2026-06-01
 kind: substack-post
 source_form: newsletter
+host_people:
+  - Trita Parsi
+guest_people: []
 thread: parsi
-source_url: https://tritaparsi.substack.com/p/why-trump-may-actually-have-told
+channel_name: tritaparsi.substack.com
+source_url: "https://tritaparsi.substack.com/p/why-trump-may-actually-have-told"
 source_type: substack
 publication: tritaparsi.substack.com
 slug: why-trump-may-actually-have-told

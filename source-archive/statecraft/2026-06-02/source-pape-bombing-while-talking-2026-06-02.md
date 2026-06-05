@@ -3,14 +3,18 @@ ingest_date: 2026-06-03
 pub_date: 2026-06-02
 kind: substack-post
 source_form: newsletter
+host_people:
+  - Robert Pape
+guest_people: []
 thread: pape
-source_url: https://escalationtrap.substack.com/p/bombing-while-talking
+channel_name: escalationtrap.substack.com
+source_url: "https://escalationtrap.substack.com/p/bombing-while-talking"
 publication: escalationtrap.substack.com
 slug: bombing-while-talking
 author: Prof Robert Pape
-title: "Bombing While Talking"
+title: Bombing While Talking
 access: public
-capture_note: "Operator paste; public Substack essay body preserved from user-provided capture with light Markdown normalization."
+capture_note: Operator paste; public Substack essay body preserved from user-provided capture with light Markdown normalization.
 ---
 # Bombing While Talking
 
