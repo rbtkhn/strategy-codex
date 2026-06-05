@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-06-04T16:04:08.717762+00:00",
+  "generatedAt": "2026-06-05T01:54:33.273342+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -18,8 +18,8 @@
     ]
   },
   "coverage": {
-    "dayCount": 62,
-    "sourceFileCount": 73,
+    "dayCount": 54,
+    "sourceFileCount": 63,
     "firstDay": "2025-01-06",
     "lastDay": "2026-06-02"
   },
@@ -54,16 +54,16 @@
         "sourceCount": 2
       },
       {
-        "date": "2025-06-10",
-        "sourceCount": 2
-      },
-      {
-        "date": "2025-11-26",
-        "sourceCount": 2
-      },
-      {
         "date": "2026-05-21",
         "sourceCount": 2
+      },
+      {
+        "date": "2025-01-19",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-23",
+        "sourceCount": 1
       }
     ],
     "quietDays": [
@@ -119,7 +119,7 @@
       },
       {
         "name": "Glenn Diesen",
-        "count": 6
+        "count": 2
       },
       {
         "name": "Counter Currents",
@@ -161,7 +161,7 @@
       },
       {
         "name": "Glenn Diesen",
-        "count": 15
+        "count": 5
       },
       {
         "name": "Gary",
@@ -187,13 +187,13 @@
     "guests": [
       {
         "name": "Douglas Macgregor",
-        "count": 73
+        "count": 63
       }
     ],
     "threads": [
       {
         "name": "macgregor",
-        "count": 73
+        "count": 63
       },
       {
         "name": "davis",
@@ -205,7 +205,7 @@
       },
       {
         "name": "diesen",
-        "count": 15
+        "count": 5
       },
       {
         "name": "carlson",
@@ -223,7 +223,7 @@
     "sourceForms": [
       {
         "name": "interview",
-        "count": 70
+        "count": 60
       },
       {
         "name": "article",
@@ -1807,7 +1807,7 @@
     },
     {
       "date": "2025-06-10",
-      "fileCount": 2,
+      "fileCount": 1,
       "channels": [
         {
           "name": "Daniel Davis Deep Dive",
@@ -1824,41 +1824,32 @@
         {
           "name": "Daniel Davis",
           "count": 1
-        },
-        {
-          "name": "Glenn Diesen",
-          "count": 1
         }
       ],
       "guests": [
         {
           "name": "Douglas Macgregor",
-          "count": 2
+          "count": 1
         }
       ],
       "threads": [
-        {
-          "name": "macgregor",
-          "count": 2
-        },
         {
           "name": "davis",
           "count": 1
         },
         {
-          "name": "diesen",
+          "name": "macgregor",
           "count": 1
         }
       ],
       "sourceForms": [
         {
           "name": "interview",
-          "count": 2
+          "count": 1
         }
       ],
       "fileNames": [
-        "source-davis-macgregor-russia-s-win-in-ukraine-will-never-be-stopped-by-nato-2025-06-10.md",
-        "source-glenn-diesen-douglas-macgregor-douglas-macgregor-russia-s-retaliation-nato-s-declining-relevance-2025-06-10.md"
+        "source-davis-macgregor-russia-s-win-in-ukraine-will-never-be-stopped-by-nato-2025-06-10.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -1913,123 +1904,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-08-28",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Douglas Macgregor",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "macgregor",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-douglas-macgregor-douglas-macgregor-with-nato-s-collapse-new-world-order-emerges-2025-08-28.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-09-15",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Douglas Macgregor",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "macgregor",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-douglas-macgregor-douglas-macgregor-500-years-of-dominance-have-come-to-an-end-2025-09-15.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-09-25",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Douglas Macgregor",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "macgregor",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-douglas-macgregor-douglas-macgregor-war-is-inevitable-2025-09-25.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-10-01",
       "fileCount": 1,
       "channels": [
@@ -2074,94 +1948,6 @@
       ],
       "fileNames": [
         "source-daniel-davis-deep-dive-col-doug-macgregor-u-s-prepares-for-war-2025-10-01.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-10-23",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Douglas Macgregor",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "macgregor",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-douglas-macgregor-douglas-macgregor-broken-nato-escalates-war-on-russia-2025-10-23.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-11-04",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Douglas Macgregor",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "macgregor",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-douglas-macgregor-douglas-macgregor-decline-out-of-control-ukraine-and-venezuela-wars-2025-11-04.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2256,7 +2042,7 @@
     },
     {
       "date": "2025-11-26",
-      "fileCount": 2,
+      "fileCount": 1,
       "channels": [
         {
           "name": "Daniel Davis Deep Dive",
@@ -2273,41 +2059,32 @@
         {
           "name": "Daniel Davis",
           "count": 1
-        },
-        {
-          "name": "Glenn Diesen",
-          "count": 1
         }
       ],
       "guests": [
         {
           "name": "Douglas Macgregor",
-          "count": 2
+          "count": 1
         }
       ],
       "threads": [
-        {
-          "name": "macgregor",
-          "count": 2
-        },
         {
           "name": "davis",
           "count": 1
         },
         {
-          "name": "diesen",
+          "name": "macgregor",
           "count": 1
         }
       ],
       "sourceForms": [
         {
           "name": "interview",
-          "count": 2
+          "count": 1
         }
       ],
       "fileNames": [
-        "source-daniel-davis-deep-dive-col-doug-macgregor-ukraine-struggling-european-leaders-on-the-road-to-extinction-2025-11-26.md",
-        "source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md"
+        "source-daniel-davis-deep-dive-col-doug-macgregor-ukraine-struggling-european-leaders-on-the-road-to-extinction-2025-11-26.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2357,55 +2134,6 @@
       ],
       "fileNames": [
         "source-daniel-davis-deep-dive-col-doug-macgregor-nato-sit-down-shut-up-that-s-what-trump-should-be-telling-them-2025-12-02.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-12-10",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Douglas Macgregor",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "macgregor",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-douglas-macgregor-u-s-pivoting-away-from-ukraine-europe-nato-2025-12-10.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2572,104 +2300,6 @@
       ],
       "fileNames": [
         "source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-02-26",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Douglas Macgregor",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "macgregor",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-03-02",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Douglas Macgregor",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "macgregor",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false

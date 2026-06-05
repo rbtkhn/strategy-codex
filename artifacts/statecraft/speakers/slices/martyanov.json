@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-06-04T16:04:11.213928+00:00",
+  "generatedAt": "2026-06-04T18:43:31.646979+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -12,12 +12,13 @@
     "slug": "martyanov",
     "speakerSlug": "martyanov",
     "speakerAliases": [
-      "Andrei Martyanov"
+      "Andrei Martyanov",
+      "Pepe Escobar, Andrei Martyanov"
     ]
   },
   "coverage": {
-    "dayCount": 28,
-    "sourceFileCount": 29,
+    "dayCount": 31,
+    "sourceFileCount": 32,
     "firstDay": "2025-01-26",
     "lastDay": "2026-05-28"
   },
@@ -44,6 +45,10 @@
         "sourceCount": 1
       },
       {
+        "date": "2025-09-06",
+        "sourceCount": 1
+      },
+      {
         "date": "2025-10-20",
         "sourceCount": 1
       },
@@ -56,11 +61,7 @@
         "sourceCount": 1
       },
       {
-        "date": "2025-11-13",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-11-20",
+        "date": "2025-11-09",
         "sourceCount": 1
       }
     ],
@@ -82,6 +83,10 @@
         "sourceCount": 1
       },
       {
+        "date": "2025-09-06",
+        "sourceCount": 1
+      },
+      {
         "date": "2025-10-20",
         "sourceCount": 1
       },
@@ -94,22 +99,18 @@
         "sourceCount": 1
       },
       {
+        "date": "2025-11-09",
+        "sourceCount": 1
+      },
+      {
         "date": "2025-11-13",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-11-20",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-11-30",
         "sourceCount": 1
       }
     ],
     "channels": [
       {
         "name": "Dialogue Works",
-        "count": 22
+        "count": 25
       },
       {
         "name": "Daniel Davis Deep Dive",
@@ -123,7 +124,7 @@
     "hosts": [
       {
         "name": "Nima Alkhorshid",
-        "count": 22
+        "count": 25
       },
       {
         "name": "Daniel Davis",
@@ -137,17 +138,29 @@
     "guests": [
       {
         "name": "Andrei Martyanov",
-        "count": 29
+        "count": 32
+      },
+      {
+        "name": "Alex Krainer",
+        "count": 2
+      },
+      {
+        "name": "Scott Ritter",
+        "count": 2
+      },
+      {
+        "name": "Pepe Escobar",
+        "count": 1
       }
     ],
     "threads": [
       {
         "name": "martyanov",
-        "count": 29
+        "count": 32
       },
       {
         "name": "nima",
-        "count": 22
+        "count": 25
       },
       {
         "name": "davis",
@@ -156,12 +169,20 @@
       {
         "name": "diesen",
         "count": 3
+      },
+      {
+        "name": "krainer",
+        "count": 2
+      },
+      {
+        "name": "ritter",
+        "count": 2
       }
     ],
     "sourceForms": [
       {
         "name": "interview",
-        "count": 29
+        "count": 32
       }
     ]
   },
@@ -172,12 +193,12 @@
       "2025-04-08",
       "2025-04-29",
       "2025-05-21",
+      "2025-09-06",
       "2025-10-20",
       "2025-10-26",
       "2025-11-02",
-      "2025-11-13",
-      "2025-11-20",
-      "2025-11-30"
+      "2025-11-09",
+      "2025-11-13"
     ]
   },
   "days": [
@@ -348,6 +369,63 @@
       "readmeParseOk": false
     },
     {
+      "date": "2025-09-06",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
       "date": "2025-10-20",
       "fileCount": 1,
       "channels": [
@@ -421,6 +499,10 @@
         {
           "name": "Andrei Martyanov",
           "count": 1
+        },
+        {
+          "name": "Pepe Escobar",
+          "count": 1
         }
       ],
       "threads": [
@@ -470,9 +552,74 @@
         {
           "name": "Andrei Martyanov",
           "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
         }
       ],
       "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "krainer",
+          "count": 1
+        },
         {
           "name": "martyanov",
           "count": 1
@@ -489,7 +636,7 @@
         }
       ],
       "fileNames": [
-        "source-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md"
+        "source-dialogue-works-andrei-martyanov-alex-krainer-its-over-global-arms-control-collapses-2025-11-09.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -784,6 +931,63 @@
       ],
       "fileNames": [
         "source-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "krainer",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-pepe-escobar-andrei-martyanov-alex-krainer-russia-strikes-us-recalculates-eu-draws-the-line-2025-12-14.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false

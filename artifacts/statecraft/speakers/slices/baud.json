@@ -1,413 +1,196 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-06-05T01:54:35.909400+00:00",
+  "generatedAt": "2026-06-05T01:54:36.410829+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
     "threads": [],
     "hosts": [],
     "guests": [
-      "Larry Johnson"
+      "Jacques Baud"
     ],
-    "slug": "johnson",
-    "speakerSlug": "johnson",
+    "slug": "baud",
+    "speakerSlug": "baud",
     "speakerAliases": [
-      "Larry Johnson",
-      "Larry C. Johnson",
-      "Trump\u2019s Opportunity to have an Historic Presidency w/Larry Johnson"
+      "Jacques Baud"
     ]
   },
   "coverage": {
-    "dayCount": 31,
-    "sourceFileCount": 32,
-    "firstDay": "2025-01-04",
-    "lastDay": "2026-06-02"
+    "dayCount": 25,
+    "sourceFileCount": 25,
+    "firstDay": "2025-01-24",
+    "lastDay": "2026-06-01"
   },
   "aggregates": {
     "topDays": [
       {
-        "date": "2026-05-08",
-        "sourceCount": 2
-      },
-      {
-        "date": "2025-01-04",
+        "date": "2025-01-24",
         "sourceCount": 1
       },
       {
-        "date": "2025-01-12",
+        "date": "2025-02-10",
         "sourceCount": 1
       },
       {
-        "date": "2025-01-19",
+        "date": "2025-03-10",
         "sourceCount": 1
       },
       {
-        "date": "2025-01-28",
+        "date": "2025-03-14",
         "sourceCount": 1
       },
       {
-        "date": "2025-04-05",
+        "date": "2025-05-29",
         "sourceCount": 1
       },
       {
-        "date": "2025-04-10",
+        "date": "2025-06-22",
         "sourceCount": 1
       },
       {
-        "date": "2025-07-20",
+        "date": "2026-01-06",
         "sourceCount": 1
       },
       {
-        "date": "2025-10-15",
+        "date": "2026-02-02",
         "sourceCount": 1
       },
       {
-        "date": "2025-10-30",
+        "date": "2026-02-16",
+        "sourceCount": 1
+      },
+      {
+        "date": "2026-02-23",
         "sourceCount": 1
       }
     ],
     "quietDays": [
       {
-        "date": "2025-01-04",
+        "date": "2025-01-24",
         "sourceCount": 1
       },
       {
-        "date": "2025-01-12",
+        "date": "2025-02-10",
         "sourceCount": 1
       },
       {
-        "date": "2025-01-19",
+        "date": "2025-03-10",
         "sourceCount": 1
       },
       {
-        "date": "2025-01-28",
+        "date": "2025-03-14",
         "sourceCount": 1
       },
       {
-        "date": "2025-04-05",
+        "date": "2025-05-29",
         "sourceCount": 1
       },
       {
-        "date": "2025-04-10",
+        "date": "2025-06-22",
         "sourceCount": 1
       },
       {
-        "date": "2025-07-20",
+        "date": "2026-01-06",
         "sourceCount": 1
       },
       {
-        "date": "2025-10-15",
+        "date": "2026-02-02",
         "sourceCount": 1
       },
       {
-        "date": "2025-10-30",
+        "date": "2026-02-16",
         "sourceCount": 1
       },
       {
-        "date": "2025-11-28",
+        "date": "2026-02-23",
         "sourceCount": 1
       }
     ],
     "channels": [
       {
-        "name": "Daniel Davis Deep Dive",
-        "count": 12
-      },
-      {
         "name": "Dialogue Works",
-        "count": 12
+        "count": 18
       },
       {
-        "name": "Mario Nawfal",
-        "count": 5
+        "name": "Daniel Davis Deep Dive",
+        "count": 4
       },
       {
-        "name": "Diesen",
-        "count": 2
+        "name": "Glenn Diesen",
+        "count": 3
       }
     ],
     "hosts": [
       {
-        "name": "Daniel Davis",
-        "count": 13
-      },
-      {
         "name": "Nima Alkhorshid",
-        "count": 12
+        "count": 18
       },
       {
-        "name": "Mario Nawfal",
-        "count": 5
+        "name": "Daniel Davis",
+        "count": 4
       },
       {
-        "name": "Diesen",
-        "count": 2
+        "name": "Glenn Diesen",
+        "count": 3
       }
     ],
     "guests": [
       {
-        "name": "Larry Johnson",
-        "count": 32
-      },
-      {
-        "name": "Lawrence Wilkerson",
-        "count": 3
-      },
-      {
-        "name": "Scott Ritter",
-        "count": 2
-      },
-      {
-        "name": "Seyed M. Marandi",
-        "count": 1
+        "name": "Jacques Baud",
+        "count": 25
       }
     ],
     "threads": [
       {
-        "name": "johnson",
-        "count": 32
-      },
-      {
-        "name": "davis",
-        "count": 13
+        "name": "baud",
+        "count": 25
       },
       {
         "name": "nima",
-        "count": 9
+        "count": 16
       },
       {
-        "name": "nawfal",
-        "count": 5
-      },
-      {
-        "name": "wilkerson",
-        "count": 3
-      },
-      {
-        "name": "dialogue-works",
-        "count": 2
+        "name": "davis",
+        "count": 4
       },
       {
         "name": "diesen",
-        "count": 2
-      },
-      {
-        "name": "ritter",
-        "count": 2
+        "count": 3
       },
       {
         "name": "daniel-davis-deep-dive",
-        "count": 1
+        "count": 2
       },
       {
-        "name": "marandi",
+        "name": "dialogue-works",
         "count": 1
       }
     ],
     "sourceForms": [
       {
         "name": "interview",
-        "count": 28
-      },
-      {
-        "name": "panel",
-        "count": 2
-      },
-      {
-        "name": "solo",
-        "count": 2
+        "count": 25
       }
     ]
   },
   "anomalies": {
     "missingHostOrGuestDays": [],
     "missingReadmes": [
-      "2025-01-04",
-      "2025-01-12",
-      "2025-01-19",
-      "2025-01-28",
-      "2025-04-05",
-      "2025-04-10",
-      "2025-07-20",
-      "2025-10-15",
-      "2025-10-30",
-      "2025-11-28"
+      "2025-01-24",
+      "2025-02-10",
+      "2025-03-10",
+      "2025-03-14",
+      "2025-05-29",
+      "2025-06-22",
+      "2026-01-06",
+      "2026-02-02",
+      "2026-02-16",
+      "2026-02-23"
     ]
   },
   "days": [
     {
-      "date": "2025-01-04",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Nima Alkhorshid",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        },
-        {
-          "name": "Lawrence Wilkerson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "johnson",
-          "count": 1
-        },
-        {
-          "name": "nima",
-          "count": 1
-        },
-        {
-          "name": "wilkerson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "solo",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-01-12",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Nima Alkhorshid",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        },
-        {
-          "name": "Scott Ritter",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "johnson",
-          "count": 1
-        },
-        {
-          "name": "nima",
-          "count": 1
-        },
-        {
-          "name": "ritter",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "solo",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-dialogue-works-israel-is-blind-its-strategic-defeat-becomes-clearer-with-time-larry-c-j-2025-01-12.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-01-19",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Nima Alkhorshid",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        },
-        {
-          "name": "Scott Ritter",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "johnson",
-          "count": 1
-        },
-        {
-          "name": "nima",
-          "count": 1
-        },
-        {
-          "name": "ritter",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-dialogue-works-trump-pressures-netanyahu-a-power-play-unfolds-larry-c-johnson-scott-rit-2025-01-19.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-01-28",
+      "date": "2025-01-24",
       "fileCount": 1,
       "channels": [
         {
@@ -429,18 +212,18 @@
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
         {
           "name": "davis",
           "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
         }
       ],
       "sourceForms": [
@@ -450,66 +233,13 @@
         }
       ],
       "fileNames": [
-        "source-daniel-davis-deep-dive-trump-s-opportunity-to-have-an-historic-presidency-w-larry-johnson-2025-01-28.md"
+        "source-daniel-davis-deep-dive-col-jacques-baud-western-leaders-weak-negotiating-hand-v-putin-2025-01-24.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
     },
     {
-      "date": "2025-04-05",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Nima Alkhorshid",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        },
-        {
-          "name": "Lawrence Wilkerson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "johnson",
-          "count": 1
-        },
-        {
-          "name": "wilkerson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "panel",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-dialogue-works-yemeni-missiles-slam-us-navy-iran-us-tension-skyrockets-col-larry-wilkerson-larry-c-johnson-2025-04-05.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-04-10",
+      "date": "2025-02-10",
       "fileCount": 1,
       "channels": [
         {
@@ -531,11 +261,15 @@
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
         {
           "name": "daniel-davis-deep-dive",
           "count": 1
@@ -543,9 +277,58 @@
         {
           "name": "davis",
           "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-whats-trumps-leverage-ending-the-ukraine-war-w-col-jacques-baud-2025-02-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-03-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
         },
         {
-          "name": "johnson",
+          "name": "daniel-davis-deep-dive",
+          "count": 1
+        },
+        {
+          "name": "davis",
           "count": 1
         }
       ],
@@ -556,13 +339,160 @@
         }
       ],
       "fileNames": [
-        "source-daniel-davis-deep-dive-russian-forces-march-on-while-western-leaders-seem-paralyzed-2025-04-10.md"
+        "source-daniel-davis-deep-dive-no-common-ground-in-us-ukraine-peace-talks-col-jacques-baud-2025-03-10.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
     },
     {
-      "date": "2025-07-20",
+      "date": "2025-03-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-col-jacques-baud-the-origin-and-solution-to-the-ukraine-war-2025-03-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-29",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-col-jacques-baud-russia-pursues-military-solution-as-diplomacy-fails-2025-05-29.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-22",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-col-jacques-baud-america-bombs-iran-s-nuclear-facilities-2025-06-22.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-06",
       "fileCount": 1,
       "channels": [
         {
@@ -584,30 +514,18 @@
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
-          "count": 1
-        },
-        {
-          "name": "Lawrence Wilkerson",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
         {
-          "name": "dialogue-works",
-          "count": 1
-        },
-        {
-          "name": "johnson",
+          "name": "baud",
           "count": 1
         },
         {
           "name": "nima",
           "count": 1
-        },
-        {
-          "name": "wilkerson",
-          "count": 1
         }
       ],
       "sourceForms": [
@@ -617,150 +535,13 @@
         }
       ],
       "fileNames": [
-        "source-dialogue-works-israel-wont-survive-next-war-with-iran-yemen-proved-it-larry-c-johnson-col-larry-wilkerson-2025-07-20.md"
+        "source-dialogue-works-col-jacques-baud-the-world-is-entering-a-lawless-era-2026-01-06.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
     },
     {
-      "date": "2025-10-15",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-larry-johnson-u-s-war-dept-v-russia-larry-johnson-lt-col-daniel-davis-2025-10-15.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-10-30",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-larry-johnson-ukraine-russia-war-update-just-back-from-russia-larry-johnson-2025-10-30.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-11-28",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-larry-johnson-putin-to-ukraine-withdraw-or-we-ll-take-it-by-force-larry-johnson-2025-11-28.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-02-10",
+      "date": "2026-02-02",
       "fileCount": 1,
       "channels": [
         {
@@ -782,21 +563,13 @@
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
-          "count": 1
-        },
-        {
-          "name": "Seyed M. Marandi",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
         {
-          "name": "johnson",
-          "count": 1
-        },
-        {
-          "name": "marandi",
+          "name": "baud",
           "count": 1
         },
         {
@@ -811,45 +584,45 @@
         }
       ],
       "fileNames": [
-        "source-dialogue-works-mohammad-marandi-larry-c-johnson-u-s-iran-on-the-brink-as-critical-negot-2026-02-10.md"
+        "source-dialogue-works-col-jacques-baud-why-the-eu-is-failing-on-every-front-2026-02-02.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
     },
     {
-      "date": "2026-02-28",
+      "date": "2026-02-16",
       "fileCount": 1,
       "channels": [
         {
-          "name": "Daniel Davis Deep Dive",
+          "name": "Dialogue Works",
           "count": 1
         }
       ],
       "shows": [
         {
-          "name": "Daniel Davis Deep Dive",
+          "name": "Dialogue Works",
           "count": 1
         }
       ],
       "hosts": [
         {
-          "name": "Daniel Davis",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
         {
-          "name": "davis",
+          "name": "baud",
           "count": 1
         },
         {
-          "name": "johnson",
+          "name": "nima",
           "count": 1
         }
       ],
@@ -860,7 +633,56 @@
         }
       ],
       "fileNames": [
-        "source-davis-us-at-war-w-iran-iranian-leader-dead-2026-02-28.md"
+        "source-dialogue-works-col-jacques-baud-iran-goes-all-in-this-could-be-the-eu-s-biggest-blunder-yet-2026-02-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-23",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-jacques-baud-the-west-s-strategic-failure-are-we-running-out-of-time-2026-02-23.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -888,13 +710,13 @@
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
         {
-          "name": "johnson",
+          "name": "baud",
           "count": 1
         }
       ],
@@ -905,7 +727,56 @@
         }
       ],
       "fileNames": [
-        "source-dialogue-works-pepe-escobar-larry-c-johnson-us-israel-hit-tehran-iran-destroys-tel-aviv-hezbollah-now-joins-2026-03-02.md"
+        "source-dialogue-works-jacques-baud-middle-east-on-fire-is-this-the-start-of-something-bigger-2026-03-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-jacques-baud-the-middle-east-just-changed-forever-2026-03-09.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -933,67 +804,18 @@
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
         {
           "name": "dialogue-works",
           "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "panel",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-04-08",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
         }
       ],
       "sourceForms": [
@@ -1003,422 +825,13 @@
         }
       ],
       "fileNames": [
-        "source-daniel-davis-deep-dive-you-call-this-a-ceasefire-fmr-cia-analyst-larry-johnson-2026-04-08.md"
+        "source-dialogue-works-col-jacques-baud-the-strait-that-controls-the-world-economy-and-iran-knows-it-2026-03-16.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
     },
     {
-      "date": "2026-04-16",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-04-17",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-hormuz-opening-ceasefire-ending-conflicting-messages-lt-col-daniel-davis-2026-04-17.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-04-22",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-iran-war-end-best-case-scenario-larry-johnson-lt-col-daniel-davis-2026-04-22.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-04-29",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-davis-johnson-iran-war-global-economic-shockwave-2026-04-29.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-04-30",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-diesen-johnson-iran-winning-2026-04-30.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-05-05",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-davis-johnson-hormuz-freedom-2026-05-05.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-05-08",
-      "fileCount": 2,
-      "channels": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        },
-        {
-          "name": "Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        },
-        {
-          "name": "Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Diesen",
-          "count": 1
-        },
-        {
-          "name": "Nima Alkhorshid",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 2
-        }
-      ],
-      "threads": [
-        {
-          "name": "johnson",
-          "count": 2
-        },
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "nima",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 2
-        }
-      ],
-      "fileNames": [
-        "source-alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md",
-        "source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-05-14",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "johnson",
-          "count": 1
-        },
-        {
-          "name": "nawfal",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-05-16",
+      "date": "2026-03-23",
       "fileCount": 1,
       "channels": [
         {
@@ -1440,13 +853,13 @@
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
         {
-          "name": "johnson",
+          "name": "baud",
           "count": 1
         },
         {
@@ -1461,7 +874,399 @@
         }
       ],
       "fileNames": [
-        "source-dialogue-works-jiang-xueqin-most-embarrassing-prediction-exposed-larry-johnson-nima-alkhorshid-2026-05-16.md"
+        "source-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-30",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-jacques-baud-what-a-us-ground-invasion-of-iran-would-really-look-like-2026-03-30.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-06",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-jacques-baud-iran-hammers-israel-and-gcc-countries-after-us-israel-attacks-2026-04-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-13",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-jacques-baud-eu-destroys-trump-s-war-fantasy-leaves-him-humiliated-2026-04-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-20",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-27",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-baud-dialogue-works-nima-2026-04-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-baud-dialogue-works-nima-2026-05-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-11",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alkorshid-baud-hormuz-security-architecture-2026-05-11.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-jacques-baud-israel-collapses-after-trumps-final-card-2026-05-18.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -1489,13 +1294,13 @@
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
         {
-          "name": "johnson",
+          "name": "baud",
           "count": 1
         },
         {
@@ -1510,13 +1315,13 @@
         }
       ],
       "fileNames": [
-        "source-alkorshid-johnson-us-iran-throw-down-over-the-strait-of-hormuz-ticking-time-bomb-2026-05-25.md"
+        "source-alkorshid-baud-trumps-last-card-just-shattered-israel-2026-05-25.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
     },
     {
-      "date": "2026-05-27",
+      "date": "2026-05-28",
       "fileCount": 1,
       "channels": [
         {
@@ -1538,18 +1343,18 @@
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
+        {
+          "name": "baud",
+          "count": 1
+        },
         {
           "name": "davis",
           "count": 1
-        },
-        {
-          "name": "johnson",
-          "count": 1
         }
       ],
       "sourceForms": [
@@ -1559,154 +1364,7 @@
         }
       ],
       "fileNames": [
-        "source-daniel-davis-deep-dive-iran-trump-has-no-good-military-options-fmr-cia-analyst-larry-johnson-2026-05-27.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-05-29",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "johnson",
-          "count": 1
-        },
-        {
-          "name": "nawfal",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-nawfal-larry-johnson-breaking-us-declares-military-operations-in-hormuz-2026-05-29.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-05-30",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "johnson",
-          "count": 1
-        },
-        {
-          "name": "nawfal",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-nawfal-larry-johnson-iran-ceasefire-on-edge-w-fmr-cia-larry-johnson-2026-05-30.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-05-31",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "johnson",
-          "count": 1
-        },
-        {
-          "name": "nawfal",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-nawfal-larry-johnson-israel-asks-trump-to-escalate-2026-05-31.md"
+        "source-davis-baud-europe-provokes-war-russia-2026-05-28.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -1734,13 +1392,13 @@
       ],
       "guests": [
         {
-          "name": "Larry Johnson",
+          "name": "Jacques Baud",
           "count": 1
         }
       ],
       "threads": [
         {
-          "name": "johnson",
+          "name": "baud",
           "count": 1
         },
         {
@@ -1755,63 +1413,14 @@
         }
       ],
       "fileNames": [
-        "source-alkorshid-johnson-strait-of-hormuz-ticking-time-bomb-us-iran-threw-down-2026-06-01.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-06-02",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Mario Nawfal",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Larry Johnson",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "johnson",
-          "count": 1
-        },
-        {
-          "name": "nawfal",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-nawfal-larry-johnson-breaking-iran-attacks-kuwait-2026-06-02.md"
+        "source-alkorshid-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
     }
   ],
   "artifacts": {
-    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\johnson.md",
-    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\johnson.json"
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\baud.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\baud.json"
   }
 }

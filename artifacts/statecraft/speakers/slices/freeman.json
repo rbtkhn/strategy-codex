@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-06-04T16:04:05.782726+00:00",
+  "generatedAt": "2026-06-05T01:54:31.863972+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -14,32 +14,18 @@
     "speakerAliases": [
       "Chas Freeman",
       "Charles Freeman",
-      "What Ukraine Lost in Battle CAN'T be Regained Negotiating w/Amb Chas Freeman",
-      "Ukraine Russia War SHOWDOWN w/Chas Freeman",
       "Chas W. Freeman",
       "Chaz Freeman"
     ]
   },
   "coverage": {
-    "dayCount": 121,
-    "sourceFileCount": 128,
+    "dayCount": 95,
+    "sourceFileCount": 99,
     "firstDay": "2025-01-07",
     "lastDay": "2026-06-02"
   },
   "aggregates": {
     "topDays": [
-      {
-        "date": "2025-03-12",
-        "sourceCount": 2
-      },
-      {
-        "date": "2025-04-04",
-        "sourceCount": 2
-      },
-      {
-        "date": "2025-07-11",
-        "sourceCount": 2
-      },
       {
         "date": "2025-08-01",
         "sourceCount": 2
@@ -49,11 +35,11 @@
         "sourceCount": 2
       },
       {
-        "date": "2026-03-06",
+        "date": "2026-01-02",
         "sourceCount": 2
       },
       {
-        "date": "2026-04-03",
+        "date": "2026-03-06",
         "sourceCount": 2
       },
       {
@@ -66,6 +52,18 @@
       },
       {
         "date": "2025-01-14",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-17",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-21",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-24",
         "sourceCount": 1
       }
     ],
@@ -91,15 +89,7 @@
         "sourceCount": 1
       },
       {
-        "date": "2025-01-23",
-        "sourceCount": 1
-      },
-      {
         "date": "2025-01-24",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-01-26",
         "sourceCount": 1
       },
       {
@@ -108,6 +98,14 @@
       },
       {
         "date": "2025-02-04",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-05",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-07",
         "sourceCount": 1
       }
     ],
@@ -118,19 +116,19 @@
       },
       {
         "name": "Judging Freedom",
-        "count": 41
-      },
-      {
-        "name": "Glenn Diesen",
-        "count": 22
+        "count": 40
       },
       {
         "name": "Daniel Davis Deep Dive",
-        "count": 10
+        "count": 8
       },
       {
         "name": "Neutrality Studies",
         "count": 2
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 1
       },
       {
         "name": "India and Global Left",
@@ -139,49 +137,37 @@
     ],
     "hosts": [
       {
-        "name": "Andrew Napolitano",
-        "count": 47
-      },
-      {
         "name": "Nima Alkhorshid",
-        "count": 29
+        "count": 45
       },
       {
-        "name": "Glenn Diesen",
-        "count": 23
-      },
-      {
-        "name": "Nema",
-        "count": 13
+        "name": "Andrew Napolitano",
+        "count": 42
       },
       {
         "name": "Daniel Davis",
-        "count": 10
-      },
-      {
-        "name": "Dialogue Works",
-        "count": 2
+        "count": 8
       },
       {
         "name": "Pascal Lottaz",
         "count": 2
       },
       {
-        "name": "Judish Raj",
+        "name": "Glenn Diesen",
         "count": 1
       },
       {
-        "name": "Nima",
+        "name": "Judish Raj",
         "count": 1
       }
     ],
     "guests": [
       {
         "name": "Chas Freeman",
-        "count": 128
+        "count": 99
       },
       {
-        "name": "Larry Wilkerson",
+        "name": "Lawrence Wilkerson",
         "count": 6
       },
       {
@@ -190,59 +176,55 @@
       },
       {
         "name": "Mohammad Marandi",
-        "count": 3
+        "count": 2
       }
     ],
     "threads": [
       {
         "name": "freeman",
-        "count": 128
+        "count": 99
       },
       {
         "name": "napolitano",
-        "count": 47
+        "count": 42
       },
       {
         "name": "nima",
         "count": 32
       },
       {
-        "name": "diesen",
-        "count": 23
-      },
-      {
         "name": "davis",
-        "count": 10
+        "count": 8
       },
       {
         "name": "wilkerson",
         "count": 6
       },
       {
+        "name": "marandi",
+        "count": 5
+      },
+      {
         "name": "parsi",
         "count": 5
       },
       {
-        "name": "marandi",
-        "count": 3
+        "name": "daniel-davis-deep-dive",
+        "count": 1
       },
       {
-        "name": "daniel-davis-deep-dive",
+        "name": "diesen",
         "count": 1
       }
     ],
     "sourceForms": [
       {
         "name": "interview",
-        "count": 115
+        "count": 88
       },
       {
         "name": "panel",
         "count": 11
-      },
-      {
-        "name": "article",
-        "count": 2
       }
     ]
   },
@@ -254,11 +236,11 @@
       "2025-01-14",
       "2025-01-17",
       "2025-01-21",
-      "2025-01-23",
       "2025-01-24",
-      "2025-01-26",
       "2025-01-28",
-      "2025-02-04"
+      "2025-02-04",
+      "2025-02-05",
+      "2025-02-07"
     ]
   },
   "days": [
@@ -420,7 +402,7 @@
       "shows": [],
       "hosts": [
         {
-          "name": "Dialogue Works",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -502,55 +484,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-01-23",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-01-24",
       "fileCount": 1,
       "channels": [
@@ -567,7 +500,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -591,55 +524,6 @@
       ],
       "fileNames": [
         "source-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-01-26",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -808,7 +692,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -985,22 +869,14 @@
     },
     {
       "date": "2025-03-12",
-      "fileCount": 2,
+      "fileCount": 1,
       "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        },
         {
           "name": "Judging Freedom",
           "count": 1
         }
       ],
       "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        },
         {
           "name": "Judging Freedom",
           "count": 1
@@ -1010,25 +886,17 @@
         {
           "name": "Andrew Napolitano",
           "count": 1
-        },
-        {
-          "name": "Glenn Diesen",
-          "count": 1
         }
       ],
       "guests": [
         {
           "name": "Chas Freeman",
-          "count": 2
+          "count": 1
         }
       ],
       "threads": [
         {
           "name": "freeman",
-          "count": 2
-        },
-        {
-          "name": "diesen",
           "count": 1
         },
         {
@@ -1039,11 +907,10 @@
       "sourceForms": [
         {
           "name": "interview",
-          "count": 2
+          "count": 1
         }
       ],
       "fileNames": [
-        "source-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md",
         "source-napolitano-amb-charles-freeman-how-natos-strategy-is-failed-in-ukraine-2025-03-12.md"
       ],
       "hasReadme": false,
@@ -1115,7 +982,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -1209,7 +1076,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -1239,14 +1106,10 @@
     },
     {
       "date": "2025-04-04",
-      "fileCount": 2,
+      "fileCount": 1,
       "channels": [
         {
           "name": "Dialogue Works",
-          "count": 1
-        },
-        {
-          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -1254,43 +1117,27 @@
         {
           "name": "Dialogue Works",
           "count": 1
-        },
-        {
-          "name": "Glenn Diesen",
-          "count": 1
         }
       ],
       "hosts": [
         {
-          "name": "Glenn Diesen",
-          "count": 1
-        },
-        {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
       "guests": [
         {
           "name": "Chas Freeman",
-          "count": 2
-        },
-        {
-          "name": "Larry Wilkerson",
           "count": 1
         },
         {
-          "name": "Mohammad Marandi",
+          "name": "Lawrence Wilkerson",
           "count": 1
         }
       ],
       "threads": [
         {
           "name": "freeman",
-          "count": 2
-        },
-        {
-          "name": "diesen",
           "count": 1
         },
         {
@@ -1304,17 +1151,12 @@
       ],
       "sourceForms": [
         {
-          "name": "interview",
-          "count": 1
-        },
-        {
           "name": "panel",
           "count": 1
         }
       ],
       "fileNames": [
-        "source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md",
-        "source-glenn-diesen-chas-freeman-diplomacy-at-an-impasse-trump-escalates-actions-against-russia-and-iran-2025-04-04.md"
+        "source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -1385,7 +1227,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -1395,11 +1237,7 @@
           "count": 1
         },
         {
-          "name": "Larry Wilkerson",
-          "count": 1
-        },
-        {
-          "name": "Mohammad Marandi",
+          "name": "Lawrence Wilkerson",
           "count": 1
         }
       ],
@@ -1544,17 +1382,13 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
       "guests": [
         {
           "name": "Chas Freeman",
-          "count": 1
-        },
-        {
-          "name": "Mohammad Marandi",
           "count": 1
         }
       ],
@@ -1646,7 +1480,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -1678,55 +1512,6 @@
       ],
       "fileNames": [
         "source-dialogue-works-amb-chas-freeman-and-trita-parsi-trump-s-wake-up-call-yemen-s-chaos-forcing-a-deal-with-iran-2025-05-09.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-05-12",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-the-lies-we-tell-ourselves-about-china-2025-05-12.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -1797,7 +1582,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -1842,7 +1627,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -1915,55 +1700,6 @@
       ],
       "fileNames": [
         "source-napolitano-amb-charles-freeman-does-putin-fear-trump-2025-05-28.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-05-31",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-the-collapse-of-american-diplomacy-2025-05-31.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2083,7 +1819,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -2093,7 +1829,7 @@
           "count": 1
         },
         {
-          "name": "Larry Wilkerson",
+          "name": "Lawrence Wilkerson",
           "count": 1
         }
       ],
@@ -2115,55 +1851,6 @@
       ],
       "fileNames": [
         "source-dialogue-works-col-larry-wilkerson-and-chas-freeman-israel-s-attack-on-iran-and-its-devastating-consequences-2025-06-14.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-06-17",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-iran-attacked-turning-point-for-russia-and-the-world-2025-06-17.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2234,7 +1921,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -2244,7 +1931,7 @@
           "count": 1
         },
         {
-          "name": "Larry Wilkerson",
+          "name": "Lawrence Wilkerson",
           "count": 1
         },
         {
@@ -2344,7 +2031,7 @@
       ],
       "hosts": [
         {
-          "name": "Nema",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -2423,14 +2110,10 @@
     },
     {
       "date": "2025-07-11",
-      "fileCount": 2,
+      "fileCount": 1,
       "channels": [
         {
           "name": "Dialogue Works",
-          "count": 1
-        },
-        {
-          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -2438,17 +2121,9 @@
         {
           "name": "Dialogue Works",
           "count": 1
-        },
-        {
-          "name": "Glenn Diesen",
-          "count": 1
         }
       ],
       "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        },
         {
           "name": "Nima Alkhorshid",
           "count": 1
@@ -2457,16 +2132,12 @@
       "guests": [
         {
           "name": "Chas Freeman",
-          "count": 2
+          "count": 1
         }
       ],
       "threads": [
         {
           "name": "freeman",
-          "count": 2
-        },
-        {
-          "name": "diesen",
           "count": 1
         },
         {
@@ -2477,12 +2148,11 @@
       "sourceForms": [
         {
           "name": "interview",
-          "count": 2
+          "count": 1
         }
       ],
       "fileNames": [
-        "source-dialogue-works-amb-chas-freeman-war-zones-can-china-ukraine-gaza-and-iran-ever-achieve-peace-2025-07-11.md",
-        "source-glenn-diesen-chas-freeman-the-old-world-is-dying-and-the-new-world-struggles-to-be-born-2025-07-11.md"
+        "source-dialogue-works-amb-chas-freeman-war-zones-can-china-ukraine-gaza-and-iran-ever-achieve-peace-2025-07-11.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2563,7 +2233,7 @@
           "count": 1
         },
         {
-          "name": "Larry Wilkerson",
+          "name": "Lawrence Wilkerson",
           "count": 1
         }
       ],
@@ -2766,55 +2436,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-08-04",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-israel-is-overextended-exhausted-and-facing-blowback-2025-08-04.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-08-08",
       "fileCount": 1,
       "channels": [
@@ -2859,55 +2480,6 @@
       ],
       "fileNames": [
         "source-dialogue-works-amb-chas-freeman-trump-s-next-move-does-he-even-know-2025-08-08.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-08-14",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-america-s-global-role-after-the-ukraine-proxy-war-2025-08-14.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -3166,55 +2738,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-09-11",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-the-old-world-is-dying-the-new-world-struggles-to-be-born-2025-09-11.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-09-15",
       "fileCount": 2,
       "channels": [
@@ -3461,55 +2984,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-10-06",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-coalition-of-the-deluded-pursues-war-with-russia-2025-10-06.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-10-07",
       "fileCount": 1,
       "channels": [
@@ -3701,55 +3175,6 @@
       ],
       "fileNames": [
         "source-napolitano-amb-chas-freeman-americas-self-destructive-hegemony-2025-10-21.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-10-25",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-imperial-overstretch-500-years-of-dominance-come-to-an-end-2025-10-25.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -4098,55 +3523,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-11-20",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-fake-peace-political-collapse-and-major-wars-2025-11-20.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-11-21",
       "fileCount": 1,
       "channels": [
@@ -4251,7 +3627,7 @@
       "shows": [],
       "hosts": [
         {
-          "name": "Dialogue Works",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -4279,55 +3655,6 @@
       ],
       "fileNames": [
         "source-dialogue-works-amb-chas-freeman-national-guard-shooting-israel-s-force-first-approach-failing-russia-ukraine-2025-11-28.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-12-04",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -4457,7 +3784,7 @@
           "count": 1
         },
         {
-          "name": "Larry Wilkerson",
+          "name": "Lawrence Wilkerson",
           "count": 1
         }
       ],
@@ -4533,94 +3860,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-12-16",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Judging Freedom",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Judging Freedom",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Andrew Napolitano",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "freeman",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-napolitano-freeman-trump-and-us-hegemony-2025-12-16.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-12-18",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-12-19",
       "fileCount": 1,
       "channels": [
@@ -4678,89 +3917,59 @@
       "readmeParseOk": false
     },
     {
-      "date": "2026-01-06",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Andrew Napolitano",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "freeman",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "article",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-napolitano-freeman-china-and-russia-view-trump-as-a-kidnapper-2026-01-06.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-01-07",
-      "fileCount": 1,
+      "date": "2026-01-02",
+      "fileCount": 2,
       "channels": [
         {
-          "name": "Glenn Diesen",
-          "count": 1
+          "name": "Dialogue Works",
+          "count": 2
         }
       ],
       "shows": [
         {
-          "name": "Glenn Diesen",
-          "count": 1
+          "name": "Dialogue Works",
+          "count": 2
         }
       ],
       "hosts": [
         {
-          "name": "Glenn Diesen",
-          "count": 1
+          "name": "Nima Alkhorshid",
+          "count": 2
         }
       ],
       "guests": [
         {
           "name": "Chas Freeman",
-          "count": 1
+          "count": 2
+        },
+        {
+          "name": "Mohammad Marandi",
+          "count": 2
         }
       ],
       "threads": [
         {
-          "name": "diesen",
-          "count": 1
+          "name": "freeman",
+          "count": 2
         },
         {
-          "name": "freeman",
-          "count": 1
+          "name": "marandi",
+          "count": 2
+        },
+        {
+          "name": "nima",
+          "count": 2
         }
       ],
       "sourceForms": [
         {
           "name": "interview",
-          "count": 1
+          "count": 2
         }
       ],
       "fileNames": [
-        "source-glenn-diesen-chas-freeman-collapse-of-law-reason-return-to-war-2026-01-07.md"
+        "source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned-2026-01-02.md",
+        "source-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -4913,94 +4122,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2026-02-17",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-02-24",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Andrew Napolitano",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "freeman",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-napolitano-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2026-02-27",
       "fileCount": 1,
       "channels": [
@@ -5045,94 +4166,6 @@
       ],
       "fileNames": [
         "source-dialogue-works-amb-chas-freeman-emergency-diplomacy-oman-s-fm-flies-to-washington-to-av-2026-02-27.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-03-01",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-the-war-against-iran-could-destroy-the-u-s-republic-2026-03-01.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-03-03",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Andrew Napolitano",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "freeman",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "article",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-napolitano-freeman-what-makes-a-war-just-2026-03-03.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -5199,55 +4232,6 @@
       "fileNames": [
         "source-daniel-davis-deep-dive-diplomacy-is-dead-w-iran-lt-col-daniel-davis-fmr-amb-chas-freeman-2026-03-06.md",
         "source-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-03-14",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-the-emerging-iran-russia-china-axis-israel-s-possible-demis-2026-03-14.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -5351,113 +4335,11 @@
       "readmeParseOk": false
     },
     {
-      "date": "2026-03-23",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-trump-back-down-armageddon-postponed-2026-03-23.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-03-27",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Nima Alkhorshid",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "freeman",
-          "count": 1
-        },
-        {
-          "name": "nima",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-dialogue-works-chas-freeman-if-troops-enter-iran-israel-s-entire-strategy-falls-a-2026-03-27.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2026-04-03",
-      "fileCount": 2,
+      "fileCount": 1,
       "channels": [
         {
           "name": "Dialogue Works",
-          "count": 1
-        },
-        {
-          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -5465,17 +4347,9 @@
         {
           "name": "Dialogue Works",
           "count": 1
-        },
-        {
-          "name": "Glenn Diesen",
-          "count": 1
         }
       ],
       "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        },
         {
           "name": "Nima Alkhorshid",
           "count": 1
@@ -5484,16 +4358,12 @@
       "guests": [
         {
           "name": "Chas Freeman",
-          "count": 2
+          "count": 1
         }
       ],
       "threads": [
         {
           "name": "freeman",
-          "count": 2
-        },
-        {
-          "name": "diesen",
           "count": 1
         },
         {
@@ -5504,12 +4374,11 @@
       "sourceForms": [
         {
           "name": "interview",
-          "count": 2
+          "count": 1
         }
       ],
       "fileNames": [
-        "source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md",
-        "source-glenn-diesen-chas-freeman-world-disorder-global-nuclear-proliferation-coming-2026-04-03.md"
+        "source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -5707,7 +4576,7 @@
       ],
       "hosts": [
         {
-          "name": "Nima",
+          "name": "Nima Alkhorshid",
           "count": 1
         }
       ],
@@ -5735,45 +4604,6 @@
       ],
       "fileNames": [
         "source-nima-freeman-israel-agenda-collapsing-2026-04-24.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-04-28",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Andrew Napolitano",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "freeman",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-napolitano-freeman-what-russia-can-do-for-iran-2026-04-28.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -5926,55 +4756,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2026-05-12",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2026-05-16",
       "fileCount": 1,
       "channels": [
@@ -6065,55 +4846,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2026-05-25",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "freeman",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-chas-freeman-crisis-in-israel-iranian-nuclear-weapons-2026-05-25.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2026-05-26",
       "fileCount": 1,
       "channels": [
@@ -6158,55 +4890,6 @@
       ],
       "fileNames": [
         "source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-05-29",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Dialogue Works",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Nima Alkhorshid",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Chas Freeman",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "freeman",
-          "count": 1
-        },
-        {
-          "name": "nima",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false

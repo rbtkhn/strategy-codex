@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-06-04T16:04:08.057064+00:00",
+  "generatedAt": "2026-06-05T01:54:33.782174+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -12,33 +12,19 @@
     "slug": "mearsheimer",
     "speakerSlug": "mearsheimer",
     "speakerAliases": [
-      "John Mearsheimer",
-      "john-mearsheimer",
-      "'Maximum Pressure' on IRAN a Good Idea? John Mearsheimer"
+      "John Mearsheimer"
     ]
   },
   "coverage": {
-    "dayCount": 72,
-    "sourceFileCount": 77,
-    "firstDay": "2025-01-17",
+    "dayCount": 55,
+    "sourceFileCount": 57,
+    "firstDay": "2025-02-12",
     "lastDay": "2026-06-02"
   },
   "aggregates": {
     "topDays": [
       {
-        "date": "2025-01-19",
-        "sourceCount": 2
-      },
-      {
         "date": "2025-06-20",
-        "sourceCount": 2
-      },
-      {
-        "date": "2025-08-28",
-        "sourceCount": 2
-      },
-      {
-        "date": "2026-01-15",
         "sourceCount": 2
       },
       {
@@ -46,14 +32,6 @@
         "sourceCount": 2
       },
       {
-        "date": "2025-01-17",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-01-29",
-        "sourceCount": 1
-      },
-      {
         "date": "2025-02-12",
         "sourceCount": 1
       },
@@ -64,31 +42,9 @@
       {
         "date": "2025-02-28",
         "sourceCount": 1
-      }
-    ],
-    "quietDays": [
-      {
-        "date": "2025-01-17",
-        "sourceCount": 1
       },
       {
-        "date": "2025-01-19",
-        "sourceCount": 2
-      },
-      {
-        "date": "2025-01-29",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-02-12",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-02-15",
-        "sourceCount": 1
-      },
-      {
-        "date": "2025-02-28",
+        "date": "2025-03-06",
         "sourceCount": 1
       },
       {
@@ -96,7 +52,45 @@
         "sourceCount": 1
       },
       {
-        "date": "2025-03-20",
+        "date": "2025-03-13",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-03-27",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-01",
+        "sourceCount": 1
+      }
+    ],
+    "quietDays": [
+      {
+        "date": "2025-02-12",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-15",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-28",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-03-06",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-03-08",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-03-13",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-03-27",
         "sourceCount": 1
       },
       {
@@ -106,24 +100,24 @@
       {
         "date": "2025-04-03",
         "sourceCount": 1
+      },
+      {
+        "date": "2025-04-09",
+        "sourceCount": 1
       }
     ],
     "channels": [
       {
-        "name": "Daniel Davis Deep Dive",
-        "count": 18
+        "name": "Judging Freedom",
+        "count": 21
       },
       {
-        "name": "Judging Freedom",
-        "count": 18
+        "name": "Daniel Davis Deep Dive",
+        "count": 11
       },
       {
         "name": "Diesen (Greater Eurasia)",
         "count": 7
-      },
-      {
-        "name": "Glenn Diesen",
-        "count": 2
       },
       {
         "name": "Americano",
@@ -145,27 +139,19 @@
     "hosts": [
       {
         "name": "Andrew Napolitano",
-        "count": 26
+        "count": 24
       },
       {
         "name": "Daniel Davis",
-        "count": 19
-      },
-      {
-        "name": "glenn-diesen",
-        "count": 8
+        "count": 12
       },
       {
         "name": "Diesen",
         "count": 7
       },
       {
-        "name": "daniel-davis",
-        "count": 6
-      },
-      {
         "name": "Glenn Diesen",
-        "count": 4
+        "count": 7
       },
       {
         "name": "napolitano",
@@ -191,29 +177,29 @@
     "guests": [
       {
         "name": "John Mearsheimer",
-        "count": 77
+        "count": 57
       },
       {
-        "name": "alexander-mercouris",
+        "name": "Alexander Mercouris",
         "count": 7
       }
     ],
     "threads": [
       {
         "name": "mearsheimer",
-        "count": 77
+        "count": 57
       },
       {
         "name": "napolitano",
-        "count": 29
-      },
-      {
-        "name": "davis",
-        "count": 25
+        "count": 27
       },
       {
         "name": "diesen",
-        "count": 19
+        "count": 14
+      },
+      {
+        "name": "davis",
+        "count": 12
       },
       {
         "name": "mercouris",
@@ -223,182 +209,30 @@
     "sourceForms": [
       {
         "name": "interview",
-        "count": 68
+        "count": 50
       },
       {
         "name": "panel",
         "count": 7
-      },
-      {
-        "name": "article",
-        "count": 2
       }
     ]
   },
   "anomalies": {
     "missingHostOrGuestDays": [],
     "missingReadmes": [
-      "2025-01-17",
-      "2025-01-19",
-      "2025-01-29",
       "2025-02-12",
       "2025-02-15",
       "2025-02-28",
+      "2025-03-06",
       "2025-03-08",
-      "2025-03-20",
+      "2025-03-13",
+      "2025-03-27",
       "2025-04-01",
-      "2025-04-03"
+      "2025-04-03",
+      "2025-04-09"
     ]
   },
   "days": [
-    {
-      "date": "2025-01-17",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-john-mearsheimer-russia-iran-a-new-nuclear-alliance-2025-01-17.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-01-19",
-      "fileCount": 2,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 2
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 2
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 2
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 2
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 2
-        },
-        {
-          "name": "mearsheimer",
-          "count": 2
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 2
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md",
-        "source-daniel-davis-deep-dive-maximum-pressure-on-iran-a-good-idea-john-mearsheimer-2025-01-19.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-01-29",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-john-mearsheimer-putin-peace-can-only-happen-on-my-terms-2025-01-29.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
     {
       "date": "2025-02-12",
       "fileCount": 1,
@@ -451,17 +285,17 @@
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
       "guests": [
         {
-          "name": "John Mearsheimer",
+          "name": "Alexander Mercouris",
           "count": 1
         },
         {
-          "name": "alexander-mercouris",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -541,13 +375,23 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-03-08",
+      "date": "2025-03-06",
       "fileCount": 1,
-      "channels": [],
-      "shows": [],
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Andrew Napolitano",
           "count": 1
         }
       ],
@@ -555,9 +399,48 @@
         {
           "name": "John Mearsheimer",
           "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mearsheimer",
+          "count": 1
         },
         {
-          "name": "alexander-mercouris",
+          "name": "napolitano",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-mearsheimer-lavrov-and-russia-2025-03-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-03-08",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -588,23 +471,23 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-03-20",
+      "date": "2025-03-13",
       "fileCount": 1,
       "channels": [
         {
-          "name": "Daniel Davis Deep Dive",
+          "name": "Judging Freedom",
           "count": 1
         }
       ],
       "shows": [
         {
-          "name": "Daniel Davis Deep Dive",
+          "name": "Judging Freedom",
           "count": 1
         }
       ],
       "hosts": [
         {
-          "name": "Daniel Davis",
+          "name": "Andrew Napolitano",
           "count": 1
         }
       ],
@@ -616,11 +499,11 @@
       ],
       "threads": [
         {
-          "name": "davis",
+          "name": "mearsheimer",
           "count": 1
         },
         {
-          "name": "mearsheimer",
+          "name": "napolitano",
           "count": 1
         }
       ],
@@ -631,7 +514,56 @@
         }
       ],
       "fileNames": [
-        "source-daniel-davis-deep-dive-john-mearsheimer-therell-be-no-meaningfulf-ceasefire-in-ukraine-russia-war-2025-03-20.md"
+        "source-napolitano-mearsheimer-how-close-to-a-regional-war-2025-03-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-03-27",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "napolitano",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-mearsheimer-killing-without-purpose-2025-03-27.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -982,17 +914,17 @@
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
       "guests": [
         {
-          "name": "John Mearsheimer",
+          "name": "Alexander Mercouris",
           "count": 1
         },
         {
-          "name": "alexander-mercouris",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -1023,72 +955,23 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-05-10",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-john-mearsheimer-trump-is-disrespecting-russia-not-smart-2025-05-10.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-05-29",
       "fileCount": 1,
       "channels": [],
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
       "guests": [
         {
-          "name": "John Mearsheimer",
+          "name": "Alexander Mercouris",
           "count": 1
         },
         {
-          "name": "alexander-mercouris",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -1119,45 +1002,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-06-04",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "daniel-davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-06-20",
       "fileCount": 2,
       "channels": [
@@ -1178,7 +1022,7 @@
           "count": 1
         },
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -1188,7 +1032,7 @@
           "count": 2
         },
         {
-          "name": "alexander-mercouris",
+          "name": "Alexander Mercouris",
           "count": 1
         }
       ],
@@ -1322,7 +1166,7 @@
       "shows": [],
       "hosts": [
         {
-          "name": "daniel-davis",
+          "name": "Daniel Davis",
           "count": 1
         }
       ],
@@ -1404,62 +1248,23 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-07-20",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "daniel-davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-davis-mearsheimer-trump-will-be-facing-endless-trouble-putin-wont-relent-in-50-days-2025-07-20.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-07-25",
       "fileCount": 1,
       "channels": [],
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
       "guests": [
         {
-          "name": "John Mearsheimer",
+          "name": "Alexander Mercouris",
           "count": 1
         },
         {
-          "name": "alexander-mercouris",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -1485,45 +1290,6 @@
       ],
       "fileNames": [
         "source-diesen-mearsheimer-mercouris-ukraine-war-will-now-be-resolved-on-battlefield-2025-07-25.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-08-01",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "glenn-diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-diesen-mearsheimer-liberal-delusions-and-how-nato-led-ukraine-down-the-primrose-path-2025-08-01.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -1568,13 +1334,13 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-08-13",
+      "date": "2025-08-28",
       "fileCount": 1,
       "channels": [],
       "shows": [],
       "hosts": [
         {
-          "name": "daniel-davis",
+          "name": "napolitano",
           "count": 1
         }
       ],
@@ -1586,54 +1352,7 @@
       ],
       "threads": [
         {
-          "name": "davis",
-          "count": 1
-        },
-        {
           "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-davis-mearsheimer-putin-will-not-lose-at-alaska-summit-2025-08-13.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-08-28",
-      "fileCount": 2,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "daniel-davis",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 2
-        }
-      ],
-      "threads": [
-        {
-          "name": "mearsheimer",
-          "count": 2
-        },
-        {
-          "name": "davis",
           "count": 1
         },
         {
@@ -1644,11 +1363,10 @@
       "sourceForms": [
         {
           "name": "interview",
-          "count": 2
+          "count": 1
         }
       ],
       "fileNames": [
-        "source-davis-mearsheimer-deadly-attacks-are-russias-answer-to-sloppy-peace-strategies-2025-08-28.md",
         "source-napolitano-mearsheimer-ukraine-and-israel-destroying-themselves-2025-08-28.md"
       ],
       "hasReadme": false,
@@ -1699,45 +1417,6 @@
       ],
       "fileNames": [
         "source-napolitano-mearsheimer-trump-and-the-international-order-2025-09-04.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-09-07",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -1841,55 +1520,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-10-08",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-10-09",
       "fileCount": 1,
       "channels": [
@@ -1988,45 +1618,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2025-10-30",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "daniel-davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-davis-mearsheimer-new-nuclear-arms-race-pentagon-to-resume-testing-2025-10-30.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2025-11-13",
       "fileCount": 1,
       "channels": [],
@@ -2061,45 +1652,6 @@
       ],
       "fileNames": [
         "source-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-11-14",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-davis-mearsheimer-how-dangerous-is-russia-to-america-to-the-world-2025-11-14.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2178,45 +1730,6 @@
       ],
       "fileNames": [
         "source-napolitano-mearsheimer-ukraine-and-reality-2025-11-20.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-11-26",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-diesen-mearsheimer-bleak-future-of-europe-defeated-broken-2025-11-26.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2375,17 +1888,17 @@
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
       "guests": [
         {
-          "name": "John Mearsheimer",
+          "name": "Alexander Mercouris",
           "count": 1
         },
         {
-          "name": "alexander-mercouris",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -2411,45 +1924,6 @@
       ],
       "fileNames": [
         "source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2025-12-24",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Andrew Napolitano",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "mearsheimer",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "article",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-napolitano-mearsheimer-an-incoherent-foreign-policy-2025-12-24.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2554,68 +2028,6 @@
     },
     {
       "date": "2026-01-15",
-      "fileCount": 2,
-      "channels": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Daniel Davis Deep Dive",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Andrew Napolitano",
-          "count": 1
-        },
-        {
-          "name": "Daniel Davis",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 2
-        }
-      ],
-      "threads": [
-        {
-          "name": "mearsheimer",
-          "count": 2
-        },
-        {
-          "name": "davis",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "article",
-          "count": 1
-        },
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-daniel-davis-deep-dive-prof-john-mearsheimer-dismantling-iran-the-four-part-strategy-2026-01-15.md",
-        "source-napolitano-mearsheimer-foreign-wars-domestic-crackdowns-2026-01-15.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-01-29",
       "fileCount": 1,
       "channels": [
         {
@@ -2658,7 +2070,7 @@
         }
       ],
       "fileNames": [
-        "source-daniel-davis-deep-dive-john-mearsheimer-there-s-no-decisive-win-for-trump-w-iran-2026-01-29.md"
+        "source-daniel-davis-deep-dive-prof-john-mearsheimer-dismantling-iran-the-four-part-strategy-2026-01-15.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2708,45 +2120,6 @@
       ],
       "fileNames": [
         "source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-02-17",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Andrew Napolitano",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "mearsheimer",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-napolitano-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2943,45 +2316,6 @@
       ],
       "fileNames": [
         "source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-03-31",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Andrew Napolitano",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "mearsheimer",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-napolitano-mearsheimer-will-trump-go-kamikaze-2026-03-31.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -3224,45 +2558,6 @@
       "readmeParseOk": false
     },
     {
-      "date": "2026-04-28",
-      "fileCount": 1,
-      "channels": [],
-      "shows": [],
-      "hosts": [
-        {
-          "name": "Andrew Napolitano",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "mearsheimer",
-          "count": 1
-        },
-        {
-          "name": "napolitano",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-napolitano-mearsheimer-how-trump-lost-his-war-2026-04-28.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
       "date": "2026-04-30",
       "fileCount": 1,
       "channels": [
@@ -3406,55 +2701,6 @@
       "fileNames": [
         "source-daniel-davis-deep-dive-prof-john-mearsheimer-trump-will-be-forced-to-cut-a-deal-w-iran-2026-05-13.md",
         "source-daniel-davis-deep-dive-prof-mearsheimer-shock-analysis-russia-considers-nuclear-escalation-v-eu-2026-05-13.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-05-18",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "John Mearsheimer",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "mearsheimer",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false

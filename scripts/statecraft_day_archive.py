@@ -19,9 +19,24 @@ DEFAULT_YEAR = "2026"
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*(?:\n|$)", re.DOTALL)
 HONORIFIC_RE = re.compile(
     r"^(?:judge|amb\.?|ambassador|col\.?|colonel|lt\.?\s*col\.?|lt\.?\s*colonel|"
-    r"prof\.?|professor|cpt\.?)\s+",
+    r"prof\.?|professor|cpt\.?|ret\.?|retired)\s+",
     re.IGNORECASE,
 )
+COMPOUND_PERSON_SPLIT_RE = re.compile(r"\s*(?:;|&|\band\b)\s*", re.IGNORECASE)
+PERSON_LABEL_ALIASES = {
+    "Nima": "Nima Alkhorshid",
+    "Nema": "Nima Alkhorshid",
+    "Nima Alkorshid": "Nima Alkhorshid",
+    "Nima R. Alkhorshid": "Nima Alkhorshid",
+    "Nima Alkhorshid Dialogue Works": "Nima Alkhorshid",
+    "Dialogue Works": "Nima Alkhorshid",
+    "Larry Wilkerson": "Lawrence Wilkerson",
+    "Wilkerson": "Lawrence Wilkerson",
+    "Alex Mercouris": "Alexander Mercouris",
+    "Alex Christoforu": "Alex Christoforou",
+    "Daniel Davis / Deep Dive": "Daniel Davis",
+    "Daniel Davis (host)": "Daniel Davis",
+}
 
 CANONICAL_SOURCE_PREFIX = "source-"
 HELPER_NOTE_PREFIXES = ("verify-",)
@@ -131,12 +146,55 @@ def as_values(value: Any) -> tuple[str, ...]:
 
 def normalize_person_label(value: str) -> str:
     text = norm_scalar(value)
+    if "|" in text:
+        text = text.rsplit("|", 1)[-1].strip()
     while True:
         updated = HONORIFIC_RE.sub("", text).strip()
         if updated == text:
             break
         text = updated
+    if "-" in text and " " not in text and text.lower() == text:
+        text = text.replace("-", " ").title()
+    text = PERSON_LABEL_ALIASES.get(text, text)
     return text
+
+
+def split_person_field_value(value: Any) -> tuple[str, ...]:
+    text = norm_scalar(value)
+    if not text:
+        return ()
+    base = text.rsplit("|", 1)[-1].strip() if "|" in text else text
+    parts = [part.strip() for part in COMPOUND_PERSON_SPLIT_RE.split(base) if part.strip()]
+    if not parts:
+        return ()
+    normalized_parts: list[str] = []
+    for part in parts:
+        normalized = normalize_person_label(part)
+        if normalized and normalized not in normalized_parts:
+            normalized_parts.append(normalized)
+    return tuple(normalized_parts)
+
+
+def is_title_fragment(candidate: str, title: str) -> bool:
+    clean_candidate = norm_scalar(candidate)
+    clean_title = norm_scalar(title)
+    if not clean_candidate or not clean_title:
+        return False
+    return clean_title.casefold().startswith(clean_candidate.casefold())
+
+
+def is_known_speaker_label(value: str) -> bool:
+    inventory = _speaker_inventory()
+    return bool(speaker_routing._match_speaker(value, inventory))  # noqa: SLF001
+
+
+def is_probable_topic_fragment(candidate: str, title: str) -> bool:
+    clean_candidate = norm_scalar(candidate)
+    if not is_title_fragment(clean_candidate, title):
+        return False
+    if is_known_speaker_label(clean_candidate):
+        return False
+    return True
 
 
 def normalize_channel_label(value: str) -> str:
@@ -148,6 +206,7 @@ def normalize_channel_label(value: str) -> str:
 
 def guest_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
     out: list[str] = []
+    title = norm_scalar(meta.get("title"))
     for key in ("guest", "guests", "speaker", "speakers", "participants"):
         raw_values = list(as_values(meta.get(key)))
         expanded_values: list[str] = []
@@ -157,15 +216,20 @@ def guest_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
             else:
                 expanded_values.append(value)
         for value in expanded_values:
-            normalized = normalize_person_label(value)
-            if normalized and normalized not in out:
-                out.append(normalized)
+            for normalized in split_person_field_value(value):
+                if normalized not in out:
+                    out.append(normalized)
     for key, raw_value in meta.items():
         if not re.fullmatch(r"guest_\d+", str(key)):
             continue
         for value in as_values(raw_value):
-            normalized = normalize_person_label(value)
-            if normalized and normalized not in out:
+            for normalized in split_person_field_value(value):
+                if normalized not in out:
+                    out.append(normalized)
+    out = [value for value in out if not is_probable_topic_fragment(value, title)]
+    if not out and "|" in title:
+        for normalized in split_person_field_value(title):
+            if normalized not in out:
                 out.append(normalized)
     return tuple(out)
 
@@ -238,15 +302,12 @@ def infer_source_form(meta: dict[str, Any], host_values: tuple[str, ...], guest_
 
 def collect_archive_file(path: Path) -> ArchiveFile:
     meta = parse_frontmatter(path)
-    host_values = tuple(
-        filter(
-            None,
-            (
-                normalize_person_label(v)
-                for v in (as_values(meta.get("host")) or as_values(meta.get("hosts")))
-            ),
-        )
-    )
+    host_values_out: list[str] = []
+    for value in as_values(meta.get("host")) + as_values(meta.get("hosts")):
+        for normalized in split_person_field_value(value):
+            if normalized not in host_values_out:
+                host_values_out.append(normalized)
+    host_values = tuple(host_values_out)
     guest_values = guest_meta_values(meta)
     channel_values = (
         as_values(meta.get("show"))

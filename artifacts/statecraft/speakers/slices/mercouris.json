@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0-statecraft-day-dashboard",
-  "generatedAt": "2026-06-04T16:04:10.213837+00:00",
+  "generatedAt": "2026-06-05T01:54:34.374855+00:00",
   "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
   "query": {
     "channels": [],
@@ -13,14 +13,13 @@
     "speakerSlug": "mercouris",
     "speakerAliases": [
       "Alexander Mercouris",
-      "alexander-mercouris",
       "John Mearsheimer, Alexander Mercouris",
       "mercouris"
     ]
   },
   "coverage": {
-    "dayCount": 51,
-    "sourceFileCount": 52,
+    "dayCount": 49,
+    "sourceFileCount": 50,
     "firstDay": "2025-02-07",
     "lastDay": "2026-06-02"
   },
@@ -124,7 +123,7 @@
       },
       {
         "name": "Glenn Diesen",
-        "count": 3
+        "count": 1
       },
       {
         "name": "Mercouris",
@@ -141,25 +140,21 @@
         "count": 12
       },
       {
-        "name": "glenn-diesen",
-        "count": 7
+        "name": "Glenn Diesen",
+        "count": 8
       },
       {
         "name": "Daniel Davis",
         "count": 4
-      },
-      {
-        "name": "Glenn Diesen",
-        "count": 3
       }
     ],
     "guests": [
       {
         "name": "Alexander Mercouris",
-        "count": 52
+        "count": 50
       },
       {
-        "name": "john-mearsheimer",
+        "name": "John Mearsheimer",
         "count": 7
       },
       {
@@ -186,7 +181,7 @@
     "threads": [
       {
         "name": "mercouris",
-        "count": 52
+        "count": 50
       },
       {
         "name": "christoforou",
@@ -194,7 +189,7 @@
       },
       {
         "name": "diesen",
-        "count": 10
+        "count": 8
       },
       {
         "name": "mearsheimer",
@@ -224,7 +219,7 @@
     "sourceForms": [
       {
         "name": "interview",
-        "count": 41
+        "count": 39
       },
       {
         "name": "panel",
@@ -394,7 +389,7 @@
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -404,7 +399,7 @@
           "count": 1
         },
         {
-          "name": "john-mearsheimer",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -596,7 +591,7 @@
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -606,7 +601,7 @@
           "count": 1
         },
         {
-          "name": "john-mearsheimer",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -696,7 +691,7 @@
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -706,7 +701,7 @@
           "count": 1
         },
         {
-          "name": "john-mearsheimer",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -743,7 +738,7 @@
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -753,7 +748,7 @@
           "count": 1
         },
         {
-          "name": "john-mearsheimer",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -896,7 +891,7 @@
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -906,7 +901,7 @@
           "count": 1
         },
         {
-          "name": "john-mearsheimer",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -992,7 +987,7 @@
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -1002,7 +997,7 @@
           "count": 1
         },
         {
-          "name": "john-mearsheimer",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -1894,7 +1889,7 @@
       "shows": [],
       "hosts": [
         {
-          "name": "glenn-diesen",
+          "name": "Glenn Diesen",
           "count": 1
         }
       ],
@@ -1904,7 +1899,7 @@
           "count": 1
         },
         {
-          "name": "john-mearsheimer",
+          "name": "John Mearsheimer",
           "count": 1
         }
       ],
@@ -2039,55 +2034,6 @@
       ],
       "fileNames": [
         "source-khamenei-strike-hormuz-russia-2026-03-01.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-03-21",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Alexander Mercouris",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "mercouris",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false
@@ -2357,55 +2303,6 @@
       ],
       "fileNames": [
         "source-alex-mercouris-china-tough-stance-in-trump-visit-russia-biggest-strike-kiev-shredded-ad-collapses-zelensky-panic-2026-05-14.md"
-      ],
-      "hasReadme": false,
-      "readmeParseOk": false
-    },
-    {
-      "date": "2026-05-16",
-      "fileCount": 1,
-      "channels": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "shows": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "hosts": [
-        {
-          "name": "Glenn Diesen",
-          "count": 1
-        }
-      ],
-      "guests": [
-        {
-          "name": "Alexander Mercouris",
-          "count": 1
-        }
-      ],
-      "threads": [
-        {
-          "name": "diesen",
-          "count": 1
-        },
-        {
-          "name": "mercouris",
-          "count": 1
-        }
-      ],
-      "sourceForms": [
-        {
-          "name": "interview",
-          "count": 1
-        }
-      ],
-      "fileNames": [
-        "source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md"
       ],
       "hasReadme": false,
       "readmeParseOk": false

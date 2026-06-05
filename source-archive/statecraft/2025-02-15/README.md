@@ -5,10 +5,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `source` (2)
 - Source form mix: `interview` (1), `panel` (1)
 - Distinct channels/shows: `0`
-- Distinct hosts: `2`
+- Distinct hosts: `1`
 - Distinct guests: `3`
 - Distinct threads: `4`
 
@@ -18,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Glenn Diesen` (1), `glenn-diesen` (1)
-- Guests: `Lawrence Wilkerson` (1), `alexander-mercouris` (1), `john-mearsheimer` (1)
+- Hosts: `Glenn Diesen` (2)
+- Guests: `Alexander Mercouris` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1)
 - Threads: `diesen` (2), `mearsheimer` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Files

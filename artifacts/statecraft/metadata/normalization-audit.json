@@ -1,0 +1,1232 @@
+{
+  "schemaVersion": "1.0.0-statecraft-metadata-normalization-audit",
+  "generatedAt": "2026-06-05T01:56:11.603662+00:00",
+  "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
+  "coverage": {
+    "fileCount": 1512
+  },
+  "hostRewrites": [
+    {
+      "name": "Judge Andrew Napolitano -> Andrew Napolitano",
+      "count": 96
+    },
+    {
+      "name": "Nima Alkorshid -> Nima Alkhorshid",
+      "count": 26
+    },
+    {
+      "name": "Dialogue Works -> Nima Alkhorshid",
+      "count": 18
+    },
+    {
+      "name": "Nema -> Nima Alkhorshid",
+      "count": 15
+    },
+    {
+      "name": "glenn-diesen -> Glenn Diesen",
+      "count": 8
+    },
+    {
+      "name": "Daniel Davis / Deep Dive -> Daniel Davis",
+      "count": 6
+    },
+    {
+      "name": "daniel-davis -> Daniel Davis",
+      "count": 6
+    },
+    {
+      "name": "Lt Col Daniel Davis -> Daniel Davis",
+      "count": 4
+    },
+    {
+      "name": "Nima -> Nima Alkhorshid",
+      "count": 3
+    },
+    {
+      "name": "Nima R. Alkhorshid -> Nima Alkhorshid",
+      "count": 3
+    },
+    {
+      "name": "Alex Christoforu -> Alex Christoforou",
+      "count": 1
+    },
+    {
+      "name": "Clayton Morris; Natali Morris -> Clayton Morris",
+      "count": 1
+    },
+    {
+      "name": "Clayton Morris; Natali Morris -> Natali Morris",
+      "count": 1
+    },
+    {
+      "name": "Cyrus Janssen; Alex Reporterfy (Reporterfy Media) -> Alex Reporterfy (Reporterfy Media)",
+      "count": 1
+    },
+    {
+      "name": "Cyrus Janssen; Alex Reporterfy (Reporterfy Media) -> Cyrus Janssen",
+      "count": 1
+    },
+    {
+      "name": "Daniel Davis (host); Col. Jacques Baud (guest) -> Daniel Davis",
+      "count": 1
+    },
+    {
+      "name": "Daniel Davis (host); Col. Jacques Baud (guest) -> Jacques Baud (guest)",
+      "count": 1
+    },
+    {
+      "name": "Judge Andrew Napolitano; Larry Johnson -> Andrew Napolitano",
+      "count": 1
+    },
+    {
+      "name": "Judge Andrew Napolitano; Larry Johnson -> Larry Johnson",
+      "count": 1
+    },
+    {
+      "name": "Lt. Col. Daniel Davis -> Daniel Davis",
+      "count": 1
+    }
+  ],
+  "guestRewrites": [
+    {
+      "name": "Col. Jacques Baud -> Jacques Baud",
+      "count": 19
+    },
+    {
+      "name": "Col. Larry Wilkerson -> Lawrence Wilkerson",
+      "count": 19
+    },
+    {
+      "name": "Col. Lawrence Wilkerson -> Lawrence Wilkerson",
+      "count": 19
+    },
+    {
+      "name": "john-mearsheimer -> John Mearsheimer",
+      "count": 18
+    },
+    {
+      "name": "Col. Douglas Macgregor -> Douglas Macgregor",
+      "count": 13
+    },
+    {
+      "name": "Larry Wilkerson -> Lawrence Wilkerson",
+      "count": 11
+    },
+    {
+      "name": "alexander-mercouris -> Alexander Mercouris",
+      "count": 7
+    },
+    {
+      "name": "Larry C. Johnson; Col. Larry Wilkerson -> Larry C. Johnson",
+      "count": 6
+    },
+    {
+      "name": "Larry C. Johnson; Col. Larry Wilkerson -> Lawrence Wilkerson",
+      "count": 6
+    },
+    {
+      "name": "Lt. Col. Anthony Aguilar -> Anthony Aguilar",
+      "count": 5
+    },
+    {
+      "name": "Col Doug Macgregor -> Doug Macgregor",
+      "count": 4
+    },
+    {
+      "name": "Larry Johnson & Col. Wilkerson -> Larry Johnson",
+      "count": 4
+    },
+    {
+      "name": "Larry Johnson & Col. Wilkerson -> Lawrence Wilkerson",
+      "count": 4
+    },
+    {
+      "name": "Amb. Chas Freeman -> Chas Freeman",
+      "count": 3
+    },
+    {
+      "name": "Colonel Lawrence Wilkerson -> Lawrence Wilkerson",
+      "count": 3
+    },
+    {
+      "name": "Larry C. Johnson & Col. Larry Wilkerson -> Larry C. Johnson",
+      "count": 3
+    },
+    {
+      "name": "Larry C. Johnson & Col. Larry Wilkerson -> Lawrence Wilkerson",
+      "count": 3
+    },
+    {
+      "name": "Chas Freeman & Mohammad Marandi -> Chas Freeman",
+      "count": 2
+    },
+    {
+      "name": "Chas Freeman & Mohammad Marandi -> Mohammad Marandi",
+      "count": 2
+    },
+    {
+      "name": "Lt Col Daniel Davis -> Daniel Davis",
+      "count": 2
+    },
+    {
+      "name": "Prof. Ted Postol -> Ted Postol",
+      "count": 2
+    },
+    {
+      "name": "Professor Jeffrey Sachs -> Jeffrey Sachs",
+      "count": 2
+    },
+    {
+      "name": "Professor Robert Pape -> Robert Pape",
+      "count": 2
+    },
+    {
+      "name": "Andrei Martyanov & Alex Krainer -> Alex Krainer",
+      "count": 1
+    },
+    {
+      "name": "Andrei Martyanov & Alex Krainer -> Andrei Martyanov",
+      "count": 1
+    },
+    {
+      "name": "Andrei Martyanov & Scott Ritter -> Andrei Martyanov",
+      "count": 1
+    },
+    {
+      "name": "Andrei Martyanov & Scott Ritter -> Scott Ritter",
+      "count": 1
+    },
+    {
+      "name": "Col. Larry Wilkerson; Scott Ritter -> Lawrence Wilkerson",
+      "count": 1
+    },
+    {
+      "name": "Col. Larry Wilkerson; Scott Ritter -> Scott Ritter",
+      "count": 1
+    },
+    {
+      "name": "Israel AD Fails 80% Iran Missiles Hit Target; China -> China",
+      "count": 1
+    },
+    {
+      "name": "Israel is in Total Disarray | Alex Krainer & Col. Larry Wilkerson -> Alex Krainer",
+      "count": 1
+    },
+    {
+      "name": "Israel is in Total Disarray | Alex Krainer & Col. Larry Wilkerson -> Lawrence Wilkerson",
+      "count": 1
+    },
+    {
+      "name": "Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter -> Mohammad Marandi",
+      "count": 1
+    },
+    {
+      "name": "Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter -> Scott Ritter",
+      "count": 1
+    },
+    {
+      "name": "Larry C. Johnson; Larry Wilkerson -> Larry C. Johnson",
+      "count": 1
+    },
+    {
+      "name": "Larry C. Johnson; Larry Wilkerson -> Lawrence Wilkerson",
+      "count": 1
+    },
+    {
+      "name": "Larry C. Johnson; Lawrence Wilkerson -> Larry C. Johnson",
+      "count": 1
+    },
+    {
+      "name": "Larry C. Johnson; Lawrence Wilkerson -> Lawrence Wilkerson",
+      "count": 1
+    },
+    {
+      "name": "Medvedev Wants Kiev; Moscow -> Moscow",
+      "count": 1
+    },
+    {
+      "name": "Pepe Escobar & Andrei Martyanov -> Andrei Martyanov",
+      "count": 1
+    },
+    {
+      "name": "Pepe Escobar & Andrei Martyanov -> Pepe Escobar",
+      "count": 1
+    },
+    {
+      "name": "Pepe Escobar & Larry C. Johnson -> Larry C. Johnson",
+      "count": 1
+    },
+    {
+      "name": "Pepe Escobar, Andrei Martyanov & Alex Krainer -> Alex Krainer",
+      "count": 1
+    },
+    {
+      "name": "Pepe Escobar, Andrei Martyanov & Alex Krainer -> Pepe Escobar, Andrei Martyanov",
+      "count": 1
+    },
+    {
+      "name": "Prof. Mohammad Marandi | Breaking -> Breaking",
+      "count": 1
+    },
+    {
+      "name": "Prof. Seyed Marandi -> Seyed Marandi",
+      "count": 1
+    },
+    {
+      "name": "Professor Robert Pape (CPOST, University of Chicago; Escalation Trap on Substack) -> Escalation Trap on Substack)",
+      "count": 1
+    },
+    {
+      "name": "Professor Robert Pape (CPOST, University of Chicago; Escalation Trap on Substack) -> Robert Pape (CPOST, University of Chicago",
+      "count": 1
+    },
+    {
+      "name": "Ret. Col. Lawrence Wilkerson -> Lawrence Wilkerson",
+      "count": 1
+    },
+    {
+      "name": "Scott Ritter & Andrei Martyanov -> Andrei Martyanov",
+      "count": 1
+    },
+    {
+      "name": "Scott Ritter & Andrei Martyanov -> Scott Ritter",
+      "count": 1
+    },
+    {
+      "name": "Scott Ritter; Larry Wilkerson -> Lawrence Wilkerson",
+      "count": 1
+    },
+    {
+      "name": "Scott Ritter; Larry Wilkerson -> Scott Ritter",
+      "count": 1
+    },
+    {
+      "name": "Scott Ritter; Ray McGovern -> Ray McGovern",
+      "count": 1
+    },
+    {
+      "name": "Scott Ritter; Ray McGovern -> Scott Ritter",
+      "count": 1
+    },
+    {
+      "name": "Seyed M. Marandi & Larry C. Johnson -> Larry C. Johnson",
+      "count": 1
+    },
+    {
+      "name": "Seyed M. Marandi & Larry C. Johnson -> Seyed M. Marandi",
+      "count": 1
+    },
+    {
+      "name": "Terror Attacks, Radicalism & U.S. Military Vets -> U.S. Military Vets",
+      "count": 1
+    },
+    {
+      "name": "The US Strategy That's Failing Spectacularly | Col. Larry Wilkerson -> Lawrence Wilkerson",
+      "count": 1
+    },
+    {
+      "name": "Trump on Ukraine, Russia, Iran & Israel -> Israel",
+      "count": 1
+    },
+    {
+      "name": "Trump's Weakness Spells Disaster | Col. Larry Wilkerson & Scott Ritter -> Lawrence Wilkerson",
+      "count": 1
+    },
+    {
+      "name": "Trump's Weakness Spells Disaster | Col. Larry Wilkerson & Scott Ritter -> Scott Ritter",
+      "count": 1
+    },
+    {
+      "name": "UKRAINE & CRIMEA -> CRIMEA",
+      "count": 1
+    },
+    {
+      "name": "US Mulls Iran Ground Invasion As Options Run Out; Israel -> Israel",
+      "count": 1
+    }
+  ],
+  "droppedGuestFragments": [
+    {
+      "name": "exact-title-match",
+      "count": 13
+    },
+    {
+      "name": "John Helmer",
+      "count": 3
+    },
+    {
+      "name": "Pepe Escobar",
+      "count": 3
+    },
+    {
+      "name": "Deep Dive Intel Briefing",
+      "count": 2
+    },
+    {
+      "name": "Jiang Xueqin",
+      "count": 2
+    },
+    {
+      "name": "Las Vegas Cybertruck Explosion",
+      "count": 2
+    },
+    {
+      "name": "Matthew Hoh",
+      "count": 2
+    },
+    {
+      "name": "Michael Hudson",
+      "count": 2
+    },
+    {
+      "name": "host-only-title-match",
+      "count": 2
+    },
+    {
+      "name": "2025 Ukraine Russia War Foreign Policy",
+      "count": 1
+    },
+    {
+      "name": "2025 War Strategies",
+      "count": 1
+    },
+    {
+      "name": "Aaron Mat\u00e9",
+      "count": 1
+    },
+    {
+      "name": "Alex Christoforou, Alexander Mercouris",
+      "count": 1
+    },
+    {
+      "name": "Anatol Lieven",
+      "count": 1
+    },
+    {
+      "name": "Austin v. Hegseth",
+      "count": 1
+    },
+    {
+      "name": "BREAKING",
+      "count": 1
+    },
+    {
+      "name": "Biden",
+      "count": 1
+    },
+    {
+      "name": "Biden Pushes More $$$ to Ukraine to 'Pressure Putin'",
+      "count": 1
+    },
+    {
+      "name": "CLOSE",
+      "count": 1
+    },
+    {
+      "name": "Chances of US Civil War Greater than You Realize",
+      "count": 1
+    },
+    {
+      "name": "DC Plane Crash Disaster",
+      "count": 1
+    },
+    {
+      "name": "DEFP's Jennifer Kavanaugh",
+      "count": 1
+    },
+    {
+      "name": "Deceit Uncovered",
+      "count": 1
+    },
+    {
+      "name": "Devastating Failure in Ukraine's Kursk Offensive",
+      "count": 1
+    },
+    {
+      "name": "Did Israel Just Admit DEFEAT to Hamas?",
+      "count": 1
+    },
+    {
+      "name": "Dmitry Polyanskiy",
+      "count": 1
+    },
+    {
+      "name": "Drones UPDATE",
+      "count": 1
+    },
+    {
+      "name": "EXCLUSIVE",
+      "count": 1
+    },
+    {
+      "name": "Gaza Ceasefire/Hostage Deal in the Works",
+      "count": 1
+    },
+    {
+      "name": "Hegseth",
+      "count": 1
+    },
+    {
+      "name": "Iran Leader",
+      "count": 1
+    },
+    {
+      "name": "Israel",
+      "count": 1
+    },
+    {
+      "name": "Israel Shaken",
+      "count": 1
+    },
+    {
+      "name": "Kyle Anzalone",
+      "count": 1
+    },
+    {
+      "name": "LIVE from RUSSIA",
+      "count": 1
+    },
+    {
+      "name": "Laith Marouf",
+      "count": 1
+    },
+    {
+      "name": "Looks like Ukraine Aid is Stopped",
+      "count": 1
+    },
+    {
+      "name": "Matt Hoh",
+      "count": 1
+    },
+    {
+      "name": "Mike Adams",
+      "count": 1
+    },
+    {
+      "name": "Military Executive Orders",
+      "count": 1
+    },
+    {
+      "name": "Negotiating Bridge to Nowhere",
+      "count": 1
+    },
+    {
+      "name": "New Orleans Terror Attack",
+      "count": 1
+    },
+    {
+      "name": "New Orleans Terror Attack UPDATE",
+      "count": 1
+    },
+    {
+      "name": "Over 100k Ukraine Troops Charged With Desertion",
+      "count": 1
+    },
+    {
+      "name": "Patrick Henningsen",
+      "count": 1
+    },
+    {
+      "name": "Paul Craig Roberts",
+      "count": 1
+    },
+    {
+      "name": "Prepared to say Israel Committed War Crimes?",
+      "count": 1
+    },
+    {
+      "name": "Putin Holds All the Cards in Ending Ukraine War",
+      "count": 1
+    },
+    {
+      "name": "Putin New Demand As Kiev Collapses",
+      "count": 1
+    },
+    {
+      "name": "Putin's Other Options in 2022",
+      "count": 1
+    },
+    {
+      "name": "Re",
+      "count": 1
+    },
+    {
+      "name": "Russia",
+      "count": 1
+    },
+    {
+      "name": "Russia Advancing on All Fronts",
+      "count": 1
+    },
+    {
+      "name": "Russia Crushes Kursk Offensive",
+      "count": 1
+    },
+    {
+      "name": "Russia Iran Fleets Conduct Hormuz Exercise Trump Delays Strike",
+      "count": 1
+    },
+    {
+      "name": "Terror Attack in New Orleans",
+      "count": 1
+    },
+    {
+      "name": "The Duran's Alexander Mercouris NATO Preparing for WAR w RUSSIA",
+      "count": 1
+    },
+    {
+      "name": "The Extremely Weak Hand Trump's Been Dealt in Ukraine",
+      "count": 1
+    },
+    {
+      "name": "The NEW Sec of Defense / What Hegseth is Up Against",
+      "count": 1
+    },
+    {
+      "name": "There's No Happy Ending for Ukraine",
+      "count": 1
+    },
+    {
+      "name": "Trump",
+      "count": 1
+    },
+    {
+      "name": "Trump 2.0 Launches a Blizzard of ExecOrders",
+      "count": 1
+    },
+    {
+      "name": "Trump Not Confident Ceasefire Will Hold",
+      "count": 1
+    },
+    {
+      "name": "Trump Pressures Netanyahu",
+      "count": 1
+    },
+    {
+      "name": "Trump Sanctions Won't Cow Putin",
+      "count": 1
+    },
+    {
+      "name": "Trump Tells Zelensky",
+      "count": 1
+    },
+    {
+      "name": "Trump's First 48 Hours",
+      "count": 1
+    },
+    {
+      "name": "Trump's Return",
+      "count": 1
+    },
+    {
+      "name": "Trump's Ukraine Dilemma",
+      "count": 1
+    },
+    {
+      "name": "Trump's War on Terror 2.0?",
+      "count": 1
+    },
+    {
+      "name": "Tulsi Sets Her Record Straight",
+      "count": 1
+    },
+    {
+      "name": "UKRAINIAN CITIES Keep Falling w/Patrick Henningsen",
+      "count": 1
+    },
+    {
+      "name": "US Iran Sea Blockade",
+      "count": 1
+    },
+    {
+      "name": "US Leaders' Focused on the Wrong Terror Targets",
+      "count": 1
+    },
+    {
+      "name": "Ukraine Launches NEW KURSK OFFENSIVE",
+      "count": 1
+    },
+    {
+      "name": "Ukraine Russia War Trump's Limited Options for Peace",
+      "count": 1
+    },
+    {
+      "name": "Ukraine on the Verge of Military Defeat",
+      "count": 1
+    },
+    {
+      "name": "Why the DC Elite are Trying to Kill Tulsi's Nomination",
+      "count": 1
+    },
+    {
+      "name": "Yanis Varoufakis",
+      "count": 1
+    },
+    {
+      "name": "Zelensky",
+      "count": 1
+    },
+    {
+      "name": "Zelensky Stirs the Pot at World Economic Forum",
+      "count": 1
+    },
+    {
+      "name": "Zelensky is Expendable",
+      "count": 1
+    },
+    {
+      "name": "pepe_escobar",
+      "count": 1
+    },
+    {
+      "name": "title-known-speaker-match",
+      "count": 1
+    }
+  ],
+  "hostVariantFamilies": [
+    {
+      "normalized": "Nima Alkhorshid",
+      "rawVariants": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 183
+        },
+        {
+          "name": "Nima Alkorshid",
+          "count": 26
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 18
+        },
+        {
+          "name": "Nema",
+          "count": 15
+        },
+        {
+          "name": "Nima",
+          "count": 3
+        },
+        {
+          "name": "Nima R. Alkhorshid",
+          "count": 3
+        }
+      ],
+      "totalCount": 248
+    },
+    {
+      "normalized": "Daniel Davis",
+      "rawVariants": [
+        {
+          "name": "Daniel Davis",
+          "count": 215
+        },
+        {
+          "name": "Daniel Davis / Deep Dive",
+          "count": 6
+        },
+        {
+          "name": "daniel-davis",
+          "count": 6
+        },
+        {
+          "name": "Lt Col Daniel Davis",
+          "count": 4
+        },
+        {
+          "name": "Daniel Davis (host); Col. Jacques Baud (guest)",
+          "count": 1
+        },
+        {
+          "name": "Lt. Col. Daniel Davis",
+          "count": 1
+        }
+      ],
+      "totalCount": 233
+    },
+    {
+      "normalized": "Andrew Napolitano",
+      "rawVariants": [
+        {
+          "name": "Judge Andrew Napolitano",
+          "count": 96
+        },
+        {
+          "name": "Andrew Napolitano",
+          "count": 85
+        },
+        {
+          "name": "Judge Andrew Napolitano; Larry Johnson",
+          "count": 1
+        }
+      ],
+      "totalCount": 182
+    },
+    {
+      "normalized": "Glenn Diesen",
+      "rawVariants": [
+        {
+          "name": "Glenn Diesen",
+          "count": 160
+        },
+        {
+          "name": "glenn-diesen",
+          "count": 8
+        }
+      ],
+      "totalCount": 168
+    },
+    {
+      "normalized": "Alex Christoforou",
+      "rawVariants": [
+        {
+          "name": "Alex Christoforou",
+          "count": 18
+        },
+        {
+          "name": "Alex Christoforu",
+          "count": 1
+        }
+      ],
+      "totalCount": 19
+    },
+    {
+      "normalized": "Cyrus Janssen",
+      "rawVariants": [
+        {
+          "name": "Cyrus Janssen",
+          "count": 1
+        },
+        {
+          "name": "Cyrus Janssen; Alex Reporterfy (Reporterfy Media)",
+          "count": 1
+        }
+      ],
+      "totalCount": 2
+    },
+    {
+      "normalized": "Larry Johnson",
+      "rawVariants": [
+        {
+          "name": "Judge Andrew Napolitano; Larry Johnson",
+          "count": 1
+        },
+        {
+          "name": "Larry Johnson",
+          "count": 1
+        }
+      ],
+      "totalCount": 2
+    }
+  ],
+  "guestVariantFamilies": [
+    {
+      "normalized": "Chas Freeman",
+      "rawVariants": [
+        {
+          "name": "Chas Freeman",
+          "count": 103
+        },
+        {
+          "name": "Amb. Chas Freeman",
+          "count": 3
+        },
+        {
+          "name": "Chas Freeman & Mohammad Marandi",
+          "count": 2
+        }
+      ],
+      "totalCount": 108
+    },
+    {
+      "normalized": "Lawrence Wilkerson",
+      "rawVariants": [
+        {
+          "name": "Col. Larry Wilkerson",
+          "count": 19
+        },
+        {
+          "name": "Col. Lawrence Wilkerson",
+          "count": 19
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 16
+        },
+        {
+          "name": "Larry Wilkerson",
+          "count": 11
+        },
+        {
+          "name": "Larry C. Johnson; Col. Larry Wilkerson",
+          "count": 6
+        },
+        {
+          "name": "Larry Johnson & Col. Wilkerson",
+          "count": 4
+        },
+        {
+          "name": "Colonel Lawrence Wilkerson",
+          "count": 3
+        },
+        {
+          "name": "Larry C. Johnson & Col. Larry Wilkerson",
+          "count": 3
+        },
+        {
+          "name": "Col. Larry Wilkerson; Scott Ritter",
+          "count": 1
+        },
+        {
+          "name": "Israel is in Total Disarray | Alex Krainer & Col. Larry Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Larry C. Johnson; Larry Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Larry C. Johnson; Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Ret. Col. Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter; Larry Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "The US Strategy That's Failing Spectacularly | Col. Larry Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Trump's Weakness Spells Disaster | Col. Larry Wilkerson & Scott Ritter",
+          "count": 1
+        }
+      ],
+      "totalCount": 89
+    },
+    {
+      "normalized": "Scott Ritter",
+      "rawVariants": [
+        {
+          "name": "Scott Ritter",
+          "count": 76
+        },
+        {
+          "name": "Andrei Martyanov & Scott Ritter",
+          "count": 1
+        },
+        {
+          "name": "Col. Larry Wilkerson; Scott Ritter",
+          "count": 1
+        },
+        {
+          "name": "Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter & Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter; Larry Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter; Ray McGovern",
+          "count": 1
+        },
+        {
+          "name": "Trump's Weakness Spells Disaster | Col. Larry Wilkerson & Scott Ritter",
+          "count": 1
+        }
+      ],
+      "totalCount": 83
+    },
+    {
+      "normalized": "John Mearsheimer",
+      "rawVariants": [
+        {
+          "name": "John Mearsheimer",
+          "count": 62
+        },
+        {
+          "name": "john-mearsheimer",
+          "count": 18
+        }
+      ],
+      "totalCount": 80
+    },
+    {
+      "normalized": "Douglas Macgregor",
+      "rawVariants": [
+        {
+          "name": "Douglas Macgregor",
+          "count": 53
+        },
+        {
+          "name": "Col. Douglas Macgregor",
+          "count": 13
+        }
+      ],
+      "totalCount": 66
+    },
+    {
+      "normalized": "Jeffrey Sachs",
+      "rawVariants": [
+        {
+          "name": "Jeffrey Sachs",
+          "count": 55
+        },
+        {
+          "name": "Professor Jeffrey Sachs",
+          "count": 2
+        }
+      ],
+      "totalCount": 57
+    },
+    {
+      "normalized": "Larry Johnson",
+      "rawVariants": [
+        {
+          "name": "Larry Johnson",
+          "count": 48
+        },
+        {
+          "name": "Larry Johnson & Col. Wilkerson",
+          "count": 4
+        }
+      ],
+      "totalCount": 52
+    },
+    {
+      "normalized": "Alexander Mercouris",
+      "rawVariants": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 42
+        },
+        {
+          "name": "alexander-mercouris",
+          "count": 7
+        }
+      ],
+      "totalCount": 49
+    },
+    {
+      "normalized": "Seyed M. Marandi",
+      "rawVariants": [
+        {
+          "name": "Seyed M. Marandi",
+          "count": 33
+        },
+        {
+          "name": "Seyed M. Marandi & Larry C. Johnson",
+          "count": 1
+        }
+      ],
+      "totalCount": 34
+    },
+    {
+      "normalized": "Andrei Martyanov",
+      "rawVariants": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 28
+        },
+        {
+          "name": "Andrei Martyanov & Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov & Scott Ritter",
+          "count": 1
+        },
+        {
+          "name": "Pepe Escobar & Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter & Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "totalCount": 32
+    },
+    {
+      "normalized": "Jacques Baud",
+      "rawVariants": [
+        {
+          "name": "Col. Jacques Baud",
+          "count": 19
+        },
+        {
+          "name": "Jacques Baud",
+          "count": 7
+        }
+      ],
+      "totalCount": 26
+    },
+    {
+      "normalized": "Larry C. Johnson",
+      "rawVariants": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 9
+        },
+        {
+          "name": "Larry C. Johnson; Col. Larry Wilkerson",
+          "count": 6
+        },
+        {
+          "name": "Larry C. Johnson & Col. Larry Wilkerson",
+          "count": 3
+        },
+        {
+          "name": "Larry C. Johnson; Larry Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Larry C. Johnson; Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Pepe Escobar & Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Seyed M. Marandi & Larry C. Johnson",
+          "count": 1
+        }
+      ],
+      "totalCount": 22
+    },
+    {
+      "normalized": "Ray McGovern",
+      "rawVariants": [
+        {
+          "name": "Ray McGovern",
+          "count": 17
+        },
+        {
+          "name": "Scott Ritter; Ray McGovern",
+          "count": 1
+        }
+      ],
+      "totalCount": 18
+    },
+    {
+      "normalized": "Alex Krainer",
+      "rawVariants": [
+        {
+          "name": "Alex Krainer",
+          "count": 8
+        },
+        {
+          "name": "Andrei Martyanov & Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Israel is in Total Disarray | Alex Krainer & Col. Larry Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Pepe Escobar, Andrei Martyanov & Alex Krainer",
+          "count": 1
+        }
+      ],
+      "totalCount": 11
+    },
+    {
+      "normalized": "Mohammad Marandi",
+      "rawVariants": [
+        {
+          "name": "Mohammad Marandi",
+          "count": 7
+        },
+        {
+          "name": "Chas Freeman & Mohammad Marandi",
+          "count": 2
+        },
+        {
+          "name": "Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter",
+          "count": 1
+        }
+      ],
+      "totalCount": 10
+    },
+    {
+      "normalized": "Daniel Davis",
+      "rawVariants": [
+        {
+          "name": "Daniel Davis",
+          "count": 6
+        },
+        {
+          "name": "Lt Col Daniel Davis",
+          "count": 2
+        }
+      ],
+      "totalCount": 8
+    },
+    {
+      "normalized": "Robert Pape",
+      "rawVariants": [
+        {
+          "name": "Robert Pape",
+          "count": 5
+        },
+        {
+          "name": "Professor Robert Pape",
+          "count": 2
+        }
+      ],
+      "totalCount": 7
+    },
+    {
+      "normalized": "Anthony Aguilar",
+      "rawVariants": [
+        {
+          "name": "Lt. Col. Anthony Aguilar",
+          "count": 5
+        },
+        {
+          "name": "Anthony Aguilar",
+          "count": 1
+        }
+      ],
+      "totalCount": 6
+    },
+    {
+      "normalized": "Doug Macgregor",
+      "rawVariants": [
+        {
+          "name": "Col Doug Macgregor",
+          "count": 4
+        },
+        {
+          "name": "Doug Macgregor",
+          "count": 2
+        }
+      ],
+      "totalCount": 6
+    },
+    {
+      "normalized": "Ted Postol",
+      "rawVariants": [
+        {
+          "name": "Prof. Ted Postol",
+          "count": 2
+        },
+        {
+          "name": "Ted Postol",
+          "count": 2
+        }
+      ],
+      "totalCount": 4
+    }
+  ]
+}

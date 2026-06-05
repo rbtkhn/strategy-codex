@@ -5,12 +5,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (5)
 - Source form mix: `interview` (4), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
-- Distinct guests: `4`
-- Distinct threads: `4`
+- Distinct guests: `2`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -19,8 +20,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (3), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
-- Guests: `Deep Dive Intel Briefing` (1), `Did Israel Just Admit DEFEAT to Hamas?` (1), `Israel is in Total Disarray | Alex Krainer & Col. Larry Wilkerson` (1), `Prepared to say Israel Committed War Crimes?` (1)
-- Threads: `davis` (3), `mercouris` (1), `nima` (1), `wilkerson` (1)
+- Guests: `Alex Krainer` (1), `Lawrence Wilkerson` (1)
+- Threads: `davis` (3), `krainer` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
 ## Files
 
