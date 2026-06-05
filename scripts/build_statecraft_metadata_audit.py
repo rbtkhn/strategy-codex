@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -13,8 +14,9 @@ from statecraft_day_archive import (
     as_values,
     collect_archive_file,
     counter_to_list,
-    guest_meta_values,
+    is_probable_topic_fragment,
     iter_all_day_dirs,
+    norm_scalar,
     parse_frontmatter,
     split_person_field_value,
 )
@@ -25,6 +27,8 @@ OUT_DIR = REPO_ROOT / "artifacts" / "statecraft" / "metadata"
 OUT_JSON = OUT_DIR / "normalization-audit.json"
 OUT_MD = OUT_DIR / "normalization-audit.md"
 SCHEMA_VERSION = "1.0.0-statecraft-metadata-normalization-audit"
+SLUG_PERSON_RE = re.compile(r"^[a-z]+(?:-[a-z]+)+$")
+ROLE_MARKER_RE = re.compile(r"\((?:host|guest)\)", re.IGNORECASE)
 
 
 def _raw_person_values(meta: dict, keys: tuple[str, ...], pattern_prefix: str | None = None) -> list[str]:
@@ -38,12 +42,64 @@ def _raw_person_values(meta: dict, keys: tuple[str, ...], pattern_prefix: str | 
     return out
 
 
+def _classify_host_boundary_failure(raw_host: str, meta: dict, normalized_parts: tuple[str, ...]) -> list[str]:
+    classes: list[str] = []
+    clean_host = norm_scalar(raw_host)
+    show_values = {
+        norm_scalar(value)
+        for key in ("show", "channel_slug", "publication")
+        for value in as_values(meta.get(key))
+    }
+    if clean_host and clean_host in show_values:
+        if normalized_parts and any(_looks_like_known_speaker(part) for part in normalized_parts):
+            classes.append("person-host-shares-show-identity")
+        else:
+            classes.append("channel-label-in-host-field")
+    if clean_host and ROLE_MARKER_RE.search(clean_host):
+        classes.append("multi-role-mixed-field")
+    if len(normalized_parts) >= 2:
+        classes.append("compound-person-field")
+    if SLUG_PERSON_RE.fullmatch(clean_host):
+        classes.append("slug-person-field")
+    return classes
+
+
+def _looks_like_known_speaker(value: str) -> bool:
+    import build_speaker_routing_queue as speaker_routing
+    from statecraft_day_archive import _speaker_inventory
+
+    return bool(speaker_routing._match_speaker(value, _speaker_inventory()))  # noqa: SLF001
+
+
+def _classify_guest_boundary_failure(
+    raw_guest: str,
+    title: str,
+    normalized_parts: tuple[str, ...],
+    record_guest_values: tuple[str, ...],
+) -> list[str]:
+    classes: list[str] = []
+    clean_guest = norm_scalar(raw_guest)
+    if is_probable_topic_fragment(clean_guest, title):
+        classes.append("title-fragment-as-guest")
+    if clean_guest and ROLE_MARKER_RE.search(clean_guest):
+        classes.append("multi-role-mixed-field")
+    if len(normalized_parts) >= 2:
+        classes.append("compound-person-field")
+    if SLUG_PERSON_RE.fullmatch(clean_guest):
+        classes.append("slug-person-field")
+    if normalized_parts and not any(part in record_guest_values for part in normalized_parts) and not classes:
+        classes.append("unresolved-guest-fragment")
+    return classes
+
+
 def build_payload(root: Path = DEFAULT_ROOT) -> dict:
     host_rewrites: Counter[str] = Counter()
     guest_rewrites: Counter[str] = Counter()
     dropped_guest_fragments: Counter[str] = Counter()
     normalized_guest_variants: dict[str, Counter[str]] = defaultdict(Counter)
     normalized_host_variants: dict[str, Counter[str]] = defaultdict(Counter)
+    boundary_failures: dict[str, Counter[str]] = defaultdict(Counter)
+    boundary_examples: dict[str, dict[str, Counter[str]]] = defaultdict(lambda: defaultdict(Counter))
     scanned_files = 0
 
     for day_dir in iter_all_day_dirs(root):
@@ -51,6 +107,7 @@ def build_payload(root: Path = DEFAULT_ROOT) -> dict:
             scanned_files += 1
             meta = parse_frontmatter(path)
             record = collect_archive_file(path)
+            title = norm_scalar(meta.get("title"))
 
             raw_hosts = _raw_person_values(meta, ("host", "hosts"))
             raw_guests = _raw_person_values(meta, ("guest", "guests", "speaker", "speakers", "participants"), "guest_")
@@ -62,6 +119,9 @@ def build_payload(root: Path = DEFAULT_ROOT) -> dict:
                         normalized_host_variants[normalized][raw_host] += 1
                         if raw_host != normalized:
                             host_rewrites[f"{raw_host} -> {normalized}"] += 1
+                for failure_class in _classify_host_boundary_failure(raw_host, meta, normalized_parts):
+                    boundary_failures[failure_class]["host"] += 1
+                    boundary_examples[failure_class]["host"][raw_host] += 1
 
             for raw_guest in raw_guests:
                 normalized_parts = split_person_field_value(raw_guest)
@@ -76,6 +136,9 @@ def build_payload(root: Path = DEFAULT_ROOT) -> dict:
                         matched = True
                 if not matched and raw_guest not in record.guest_values:
                     dropped_guest_fragments[raw_guest] += 1
+                for failure_class in _classify_guest_boundary_failure(raw_guest, title, normalized_parts, record.guest_values):
+                    boundary_failures[failure_class]["guest"] += 1
+                    boundary_examples[failure_class]["guest"][raw_guest] += 1
 
     def top_variant_families(variants: dict[str, Counter[str]], *, min_variants: int = 2, limit: int = 20) -> list[dict]:
         rows: list[dict] = []
@@ -102,6 +165,18 @@ def build_payload(root: Path = DEFAULT_ROOT) -> dict:
         "hostRewrites": counter_to_list(host_rewrites),
         "guestRewrites": counter_to_list(guest_rewrites),
         "droppedGuestFragments": counter_to_list(dropped_guest_fragments),
+        "fieldBoundaryFailures": [
+            {
+                "class": failure_class,
+                "counts": counter_to_list(counter),
+                "hostExamples": counter_to_list(boundary_examples[failure_class]["host"]),
+                "guestExamples": counter_to_list(boundary_examples[failure_class]["guest"]),
+            }
+            for failure_class, counter in sorted(
+                boundary_failures.items(),
+                key=lambda item: (-sum(item[1].values()), item[0]),
+            )
+        ],
         "hostVariantFamilies": top_variant_families(normalized_host_variants),
         "guestVariantFamilies": top_variant_families(normalized_guest_variants),
     }
@@ -130,6 +205,20 @@ def render_markdown(payload: dict) -> str:
     add_counter_section("Top Host Rewrites", payload["hostRewrites"])
     add_counter_section("Top Guest Rewrites", payload["guestRewrites"])
     add_counter_section("Dropped Guest Fragments", payload["droppedGuestFragments"])
+
+    lines.extend(["## Field-Boundary Failure Classes", ""])
+    for row in payload["fieldBoundaryFailures"]:
+        counts = ", ".join(f"`{item['name']}` ({item['count']})" for item in row["counts"]) or "`(none)` (0)"
+        lines.append(f"- `{row['class']}`: {counts}")
+        if row["hostExamples"]:
+            host_examples = ", ".join(f"`{item['name']}` ({item['count']})" for item in row["hostExamples"][:5])
+            lines.append(f"  Host examples: {host_examples}")
+        if row["guestExamples"]:
+            guest_examples = ", ".join(f"`{item['name']}` ({item['count']})" for item in row["guestExamples"][:5])
+            lines.append(f"  Guest examples: {guest_examples}")
+    if not payload["fieldBoundaryFailures"]:
+        lines.append("- `(none)`")
+    lines.append("")
 
     lines.extend(["## Guest Variant Families", ""])
     for row in payload["guestVariantFamilies"]:

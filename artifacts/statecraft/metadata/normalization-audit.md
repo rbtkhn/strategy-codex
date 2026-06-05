@@ -2,16 +2,16 @@
 
 _Generated audit artifact for read-time host/guest normalization._
 
-- Generated: `2026-06-05T01:56:11.603662+00:00`
+- Generated: `2026-06-05T04:50:26.001987+00:00`
 - Root: `C:\dev\strategy-codex\source-archive\statecraft`
-- Scanned files: `1512`
+- Scanned files: `1518`
 
 ## Top Host Rewrites
 
 | Rewrite | Count |
 | --- | ---: |
-| `Judge Andrew Napolitano -> Andrew Napolitano` | 96 |
-| `Nima Alkorshid -> Nima Alkhorshid` | 26 |
+| `Judge Andrew Napolitano -> Andrew Napolitano` | 99 |
+| `Nima Alkorshid -> Nima Alkhorshid` | 28 |
 | `Dialogue Works -> Nima Alkhorshid` | 18 |
 | `Nema -> Nima Alkhorshid` | 15 |
 | `glenn-diesen -> Glenn Diesen` | 8 |
@@ -62,11 +62,11 @@ _Generated audit artifact for read-time host/guest normalization._
 | --- | ---: |
 | `exact-title-match` | 13 |
 | `John Helmer` | 3 |
+| `Matthew Hoh` | 3 |
 | `Pepe Escobar` | 3 |
 | `Deep Dive Intel Briefing` | 2 |
 | `Jiang Xueqin` | 2 |
 | `Las Vegas Cybertruck Explosion` | 2 |
-| `Matthew Hoh` | 2 |
 | `Michael Hudson` | 2 |
 | `host-only-title-match` | 2 |
 | `2025 Ukraine Russia War Foreign Policy` | 1 |
@@ -81,13 +81,32 @@ _Generated audit artifact for read-time host/guest normalization._
 | `CLOSE` | 1 |
 | `Chances of US Civil War Greater than You Realize` | 1 |
 
+## Field-Boundary Failure Classes
+
+- `person-host-shares-show-identity`: `host` (259)
+  Host examples: `Alexander Mercouris` (117), `Glenn Diesen` (104), `Mario Nawfal` (20), `Diesen` (12), `Tucker Carlson` (4)
+- `title-fragment-as-guest`: `guest` (96)
+  Guest examples: `John Helmer` (3), `Matthew Hoh` (3), `Pepe Escobar` (3), `Deep Dive Intel Briefing` (2), `Jiang Xueqin` (2)
+- `slug-person-field`: `guest` (41), `host` (14)
+  Host examples: `glenn-diesen` (8), `daniel-davis` (6)
+  Guest examples: `john-mearsheimer` (18), `exact-title-match` (13), `alexander-mercouris` (7), `host-only-title-match` (2), `title-known-speaker-match` (1)
+- `compound-person-field`: `guest` (37), `host` (4)
+  Host examples: `Clayton Morris; Natali Morris` (1), `Cyrus Janssen; Alex Reporterfy (Reporterfy Media)` (1), `Daniel Davis (host); Col. Jacques Baud (guest)` (1), `Judge Andrew Napolitano; Larry Johnson` (1)
+  Guest examples: `Larry C. Johnson; Col. Larry Wilkerson` (6), `Larry Johnson & Col. Wilkerson` (4), `Larry C. Johnson & Col. Larry Wilkerson` (3), `Chas Freeman & Mohammad Marandi` (2), `Andrei Martyanov & Alex Krainer` (1)
+- `channel-label-in-host-field`: `host` (16)
+  Host examples: `Dialogue Works` (13), `Garland Nixon` (1), `Moral Resistance` (1), `Shaun Attwood` (1)
+- `unresolved-guest-fragment`: `guest` (2)
+  Guest examples: `Alex Christoforou, Alexander Mercouris` (1), `pepe_escobar` (1)
+- `multi-role-mixed-field`: `host` (1)
+  Host examples: `Daniel Davis (host); Col. Jacques Baud (guest)` (1)
+
 ## Guest Variant Families
 
 - `Chas Freeman`: `Chas Freeman` (103), `Amb. Chas Freeman` (3), `Chas Freeman & Mohammad Marandi` (2)
 - `Lawrence Wilkerson`: `Col. Larry Wilkerson` (19), `Col. Lawrence Wilkerson` (19), `Lawrence Wilkerson` (16), `Larry Wilkerson` (11), `Larry C. Johnson; Col. Larry Wilkerson` (6), `Larry Johnson & Col. Wilkerson` (4), `Colonel Lawrence Wilkerson` (3), `Larry C. Johnson & Col. Larry Wilkerson` (3), `Col. Larry Wilkerson; Scott Ritter` (1), `Israel is in Total Disarray | Alex Krainer & Col. Larry Wilkerson` (1), `Larry C. Johnson; Larry Wilkerson` (1), `Larry C. Johnson; Lawrence Wilkerson` (1), `Ret. Col. Lawrence Wilkerson` (1), `Scott Ritter; Larry Wilkerson` (1), `The US Strategy That's Failing Spectacularly | Col. Larry Wilkerson` (1), `Trump's Weakness Spells Disaster | Col. Larry Wilkerson & Scott Ritter` (1)
 - `Scott Ritter`: `Scott Ritter` (76), `Andrei Martyanov & Scott Ritter` (1), `Col. Larry Wilkerson; Scott Ritter` (1), `Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter` (1), `Scott Ritter & Andrei Martyanov` (1), `Scott Ritter; Larry Wilkerson` (1), `Scott Ritter; Ray McGovern` (1), `Trump's Weakness Spells Disaster | Col. Larry Wilkerson & Scott Ritter` (1)
-- `John Mearsheimer`: `John Mearsheimer` (62), `john-mearsheimer` (18)
-- `Douglas Macgregor`: `Douglas Macgregor` (53), `Col. Douglas Macgregor` (13)
+- `John Mearsheimer`: `John Mearsheimer` (64), `john-mearsheimer` (18)
+- `Douglas Macgregor`: `Douglas Macgregor` (54), `Col. Douglas Macgregor` (13)
 - `Jeffrey Sachs`: `Jeffrey Sachs` (55), `Professor Jeffrey Sachs` (2)
 - `Larry Johnson`: `Larry Johnson` (48), `Larry Johnson & Col. Wilkerson` (4)
 - `Alexander Mercouris`: `Alexander Mercouris` (42), `alexander-mercouris` (7)
@@ -106,9 +125,9 @@ _Generated audit artifact for read-time host/guest normalization._
 
 ## Host Variant Families
 
-- `Nima Alkhorshid`: `Nima Alkhorshid` (183), `Nima Alkorshid` (26), `Dialogue Works` (18), `Nema` (15), `Nima` (3), `Nima R. Alkhorshid` (3)
+- `Nima Alkhorshid`: `Nima Alkhorshid` (183), `Nima Alkorshid` (28), `Dialogue Works` (18), `Nema` (15), `Nima` (3), `Nima R. Alkhorshid` (3)
 - `Daniel Davis`: `Daniel Davis` (215), `Daniel Davis / Deep Dive` (6), `daniel-davis` (6), `Lt Col Daniel Davis` (4), `Daniel Davis (host); Col. Jacques Baud (guest)` (1), `Lt. Col. Daniel Davis` (1)
-- `Andrew Napolitano`: `Judge Andrew Napolitano` (96), `Andrew Napolitano` (85), `Judge Andrew Napolitano; Larry Johnson` (1)
+- `Andrew Napolitano`: `Judge Andrew Napolitano` (99), `Andrew Napolitano` (85), `Judge Andrew Napolitano; Larry Johnson` (1)
 - `Glenn Diesen`: `Glenn Diesen` (160), `glenn-diesen` (8)
 - `Alex Christoforou`: `Alex Christoforou` (18), `Alex Christoforu` (1)
 - `Cyrus Janssen`: `Cyrus Janssen` (1), `Cyrus Janssen; Alex Reporterfy (Reporterfy Media)` (1)
