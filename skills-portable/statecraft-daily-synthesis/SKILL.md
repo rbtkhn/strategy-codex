@@ -114,6 +114,36 @@ It should usually do four things:
    - Let the archive remain visible in the writing: speaker shelves, quote anchors, and function comparisons are allowed and often preferred.
    - Include best next moves rather than pretending the batch already settled everything.
 
+### Source-dense war-object inquiry-ladder deepener
+
+Use this optional deepener when a day-batch or month-batch is dominated by one war object and the archive clearly supports a staged climb.
+
+Preferred sequence:
+
+1. battlefield geometry
+2. hinge
+3. supporting arm
+4. campaign theory
+5. speaker-function adjudication
+
+Use this deepener only when:
+
+- the batch is genuinely centered on one war object
+- each step materially changes the question
+- the archive supports the climb without speculative stretching
+- the speaker bench is strong enough that explanatory responsibility can be divided rather than blended
+
+Do not use this deepener when:
+
+- the batch is still multi-object and fragmented
+- the map does not actually reveal a real hinge or supporting arm
+- campaign theory would have to be invented rather than extracted
+- the ladder would only restate the same battlefield claim in hotter language
+
+Short rule:
+
+`use the ladder only when the climb clarifies the object more than a flat executive read would`
+
 6. **Update the smallest live synthesis surfaces**
    - Update the relevant daily shelf index.
    - Link companion comparison notes when they become durable enough to reuse.
@@ -154,6 +184,8 @@ Short rule:
 - Never force lane certainty when the day still has a real split.
 - Never let one elegant mechanism pretend to explain the entire object if the batch clearly shows carrier, leverage, and bargaining layers separately.
 - Never mistake a synthetic intelligence essay for a synthesis note just because both are downstream from the same archive batch.
+- Never force every war batch through the inquiry ladder.
+- Never claim a hinge, supporting arm, or campaign theory unless the archive itself makes that level of distinction supportable.
 
 ## Success condition
 

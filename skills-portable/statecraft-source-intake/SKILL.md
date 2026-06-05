@@ -235,6 +235,7 @@ Structured-field law:
    - In `batch-throughput mode`, say plainly that rebuild and verification of day/month/navigation surfaces is deferred to the next checkpoint.
    - State whether the intake batch remains uncommitted if that is still true.
    - Re-derive the closeout from live readback done in the current turn; do not reuse stale prior closeout phrasing.
+   - If the landed object or checkpoint clearly creates a later interpretive seam, name it only as a `next route`; do not silently fold synthesis into the intake closeout.
 
 8. **Refresh the smallest still-live archive surfaces**
    - In `single-source safe mode`, refresh the touched day-folder `README.md` immediately.
@@ -268,6 +269,7 @@ Default closeout law:
 - state the family pattern used
 - state which archive indices were refreshed
 - in batch-throughput mode, state that the current file is queued inside the still-open batch checkpoint
+- if a later synthesis or recursive-preservation route is obvious, name it as a next route rather than doing it here
 - do not silently drift into lane or civ-lens synthesis
 
 ### Live closeout discipline
@@ -292,6 +294,20 @@ Rules:
 Preferred closeout behavior:
 
 `read back -> compare -> then summarize`
+
+### Next-route naming rule
+
+Archive intake closes at archive truth and downstream routing-surface truth, not at synthesis.
+
+If a single-source intake or batch checkpoint clearly creates a pattern that wants later interpretation, say so only as a next route.
+
+Valid next routes include:
+
+- `statecraft-daily-synthesis`
+- `statecraft-multi-lens`
+- bounded note preservation under `statecraft/notes/`
+
+Do not widen intake into analysis-by-default. The handoff should stay explicit and downstream.
 
 ## Partial front-door doctrine
 

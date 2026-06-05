@@ -116,6 +116,7 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [sachs-month-floor-repair-2026-06-04.md](./sachs-month-floor-repair-2026-06-04.md) - bounded archive-floor repair note preserving the Sachs pass that lifted every month from January 2025 through June 2026 to at least four captures
 - [recent-speaker-underrepresentation-query-standard.md](./recent-speaker-underrepresentation-query-standard.md) - bounded query-standard note for rolling-week archive representation checks
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - compact operator synthesis of the journal's current arc
+- [russia-inquiry-ladder-as-recursive-learning.md](./russia-inquiry-ladder-as-recursive-learning.md) - bounded recursive-learning method note preserving the Russia inquiry ladder as a phase-two interpretive gain
 - [statecraft-multi-lens-bench-pressure-test-2026-05.md](./statecraft-multi-lens-bench-pressure-test-2026-05.md) - bounded comparative bench object
 - [transaction-bench-maturity-audit.md](./transaction-bench-maturity-audit.md) - lane-maturity and proof-anchor audit object
 
@@ -193,6 +194,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [barnes-on-ai.md](./barnes-on-ai.md) - shelf-native speaker-derived bounded thematic note
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - shelf-native routing note
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - shelf-native bounded synthesis note
+- [russia-inquiry-ladder-as-recursive-learning.md](./russia-inquiry-ladder-as-recursive-learning.md) - shelf-native recursive-learning method note
 - [assistant-session-state-clarity-contract.md](./assistant-session-state-clarity-contract.md) - shelf-native reusable session-governance note
 
 ### Mirrored Legacy Promotion

@@ -132,6 +132,7 @@ It sits here:
 ### Handoff surfaces
 
 - `compact` for cross-lane mechanism notes
+- bounded `statecraft/notes/` objects when the comparison has become method-bearing rather than merely chat-specific
 - `bridges` for durable lens doctrine or comparison notes
 - owning lane surfaces for direct drafting
 - `statecraft-daily-synthesis` when the result belongs in the daily shelf
@@ -394,8 +395,25 @@ Broad preset coverage improves operator reach, not proof of equal doctrinal matu
 7. **Route only when the result clearly wants it**
    - bridge
    - compact
+   - bounded note
    - lane
    - daily synthesis
+
+### Reusable-law preservation rule
+
+When a chat-native inquiry has already produced a reusable explanatory ladder, speaker-function split, or comparison law, do not assume the result should remain chat-only.
+
+Prefer bounded note preservation when:
+
+- the comparison has become method-bearing rather than only object-bearing
+- the output now says something reusable about how to ask the question, not only about the current answer
+- the preserved law is narrower than lane doctrine and does not yet justify a bridge or lane mutation
+
+Default preservation target:
+
+- a bounded note under `statecraft/notes/`
+
+Do not auto-promote into doctrine or lane mutation just because the comparison felt strong in chat.
 
 ## Historical-example hard gate
 
@@ -445,6 +463,17 @@ For **tri-lens** mode, the output should usually answer:
 - Use this skill when the object is already named and the problem is multi-lens explanatory responsibility.
 
 This skill sits between diagnosis and synthesis. It should not replace either one.
+
+## Close-out route law
+
+If the comparison produces a reusable law, identify the best next route explicitly as one of:
+
+- stay chat-only
+- bounded note
+- bridge
+- lane-local recursive candidate
+
+Only choose the stronger routes when the result genuinely exceeds bounded-note scale.
 
 ## Success condition
 
