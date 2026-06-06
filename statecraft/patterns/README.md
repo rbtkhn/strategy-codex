@@ -20,6 +20,7 @@ Open this folder when the question is:
 - [Spine and support ring](spine-and-support-ring.md) - one canonical route plus strengthening material that does not overload the core line
 - [Bridge doctrine](bridge-doctrine.md) - explicit transition objects for layers that are often confused in practice
 - [Lane-hardening law](lane-hardening-law.md) - the compact operator rule for when a lane has earned bounded entry, route discipline, a bridge, and a native proof anchor
+- [Doctrine-hardening law](doctrine-hardening-law.md) - split architecture, routes, continuity hypotheses, and interpretation before promoting corpus-level doctrine
 
 ## Journal Distinction
 

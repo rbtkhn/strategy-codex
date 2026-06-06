@@ -66,6 +66,16 @@ flowchart TD
 
 **Writing-practice closes:** If a conductor pass exposes repeated public-writing friction, use the close to name a **Friction / rule candidate** before changing doctrine. The first durable home is usually [write-operator-preferences.md](../docs/skill-write/write-operator-preferences.md) or [write-shipping-checklist.md](../docs/skill-write/write-shipping-checklist.md), not Record surfaces. The future check should be concrete: would this proposed rule have prevented the session drag without adding needless process?
 
+**Doctrine-hardening closes:** If a conductor pass starts hardening doctrine,
+the close should name:
+
+- the authority layer being changed
+- the strongest claim worth falsifying
+- whether any coherent work was discovered on the wrong surface
+
+This is a bounded recursive-improvement discipline for doctrine-forming passes,
+not a universal requirement for every conductor close.
+
 ---
 
 ## 3. Cadence Closure

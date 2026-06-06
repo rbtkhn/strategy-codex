@@ -17,6 +17,7 @@ Copy into **`chapters/YYYY-MM/days.md`** under the same `## YYYY-MM-DD` block yo
 - **Falsify / next test:** <one line: what would prove this pass wrong or incomplete>
 - **Abundance / scarcity falsification:** <one line: did abundance framing help, or was scarcity genuinely binding?>
 - **Escalation:** <none | `[watch]` | `[decision]` | note for [promotion-ladder](../promotion-ladder.md) / STRATEGY.md>
+- **Authority / surface check (optional):** <what layer is this really, and is any coherent work landing on the wrong surface?>
 - **Friction / rule candidate (optional):** <what failed; home = skill-write | conductor | strategy-template | none; future check = would this rule have prevented today's drag?>
 ```
 
@@ -28,6 +29,7 @@ Copy into **`chapters/YYYY-MM/days.md`** under the same `## YYYY-MM-DD` block yo
 - **Object:** <specific work object>
 - **What moved / seam:** <one sentence>
 - **Falsify / next test:** <one line>
+- **Authority / surface check (optional):** <what layer is this really, and is any coherent work landing on the wrong surface?>
 - **Next wedge:** <the single next operator action, or `No next action recommended`>
 ```
 

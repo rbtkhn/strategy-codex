@@ -1460,3 +1460,166 @@ interpretive difficulty
 That is the sense in which the machine can now learn from its own interpretation: not by escaping source authority, but by making good interpretation more visible, more comparable, and more reusable.
 
 For a literature-tracing memo on the academic lineage behind this formulation, see [Interpretive Machine Lineage](../docs/skill-work/work-strategy/interpretive-machine-lineage.md).
+
+## 2026-06-05 - Doctrine hardening through falsification, authority-layer splitting, and bounded commits
+
+### Trigger
+
+A long PH-CIV session began as architecture refinement and doctrine writing, but
+repeatedly hit pressure around:
+
+- overstrong synthesis
+- mixed residue sets
+- wrong implementation surface
+- implicit hierarchy drift between reader architecture, corridors,
+  cross-volume notes, and Jiang-facing interpretation
+
+The session therefore stopped being only a productive editing run and became a
+recursive-learning sequence about how PH-CIV doctrine should harden.
+
+### Extracted law
+
+The reusable law is:
+
+```text
+doctrine hardening
+-> falsification
+-> authority-layer split
+-> bounded commit
+-> residual interpretive hold
+```
+
+Or more plainly:
+
+```text
+When a corpus is maturing into doctrine,
+do not commit by topic cluster alone.
+Commit by authority layer,
+and falsify the strongest claim before promoting it.
+```
+
+### Reapplication
+
+This law was reused several times inside the same session.
+
+#### 1. Secret History placement was corrected by function rather than resemblance
+
+The Volume I weave initially risked treating `Secret History` as generic topical
+support. The session corrected this by recasting the placements as:
+
+- `prologue`
+- `deepening`
+- `hinge`
+
+That changed the interleave from loose association to explicit structural role.
+
+#### 2. The wrapper-footnotes pass was judged coherent but premature
+
+A large README-level footnotes pass expressed a real source-lattice instinct,
+but after clarification it became clear that the requested truth surface was
+commentary-level, claim-specific footnotes.
+
+The machine learned:
+
+```text
+coherent implementation
+!= correct implementation surface
+```
+
+The wrapper pass was therefore removed from the residue set rather than
+prematurely hardened.
+
+#### 3. Doctrine notes were committed separately from architectural residue
+
+The `ten axioms` note and the `hidden doctrines` note were each committed as
+bounded doctrine slices rather than bundled into larger unsettled PH-CIV
+changes.
+
+That produced cleaner authority separation between:
+
+- method doctrine
+- latent-corpus doctrine
+- architectural residue still under pressure
+
+#### 4. The hidden-doctrines note was falsified rather than merely admired
+
+The strongest hidden claim was tested against the actual PH-CIV architecture.
+
+Result:
+
+- the literary-spine claim held
+- the stronger ordered claim that decline begins first in imagination before
+  politics proved softer and more extrapolative
+
+That created a usable grading rule:
+
+```text
+architecture-enacted claims
+>
+strong but more speculative extrapolations
+```
+
+#### 5. Residue was split by authority layer rather than by convenience
+
+The remaining PH-CIV changes were audited and separated into:
+
+- literary-spine / corridor doctrine
+- cross-volume continuity doctrine
+- Jiang-facing interpretive commentary
+
+These were then committed or held separately, preventing the emergence of a
+shadow theory layer beside the public two-volume architecture.
+
+### Structural changes
+
+This event produced several durable machine gains.
+
+#### 1. Commit discipline became epistemic discipline
+
+The session showed that bounded commits are not only git hygiene. They are a
+way of preserving authority truth:
+
+- reader architecture should not be mixed with interpretive commentary
+- corridor doctrine should not quietly become public constitution
+- cross-volume notes should not harden as hidden master theory
+
+#### 2. Recursive learning now includes claim grading inside doctrine formation
+
+Earlier doctrine work could stop at synthesis. This session proved the stronger
+requirement:
+
+- identify the strongest claim
+- try to falsify it
+- preserve what survives
+- soften what overreaches
+
+#### 3. Conductor sequencing again proved machine-bearing
+
+Different pressure styles improved different parts of the same PH-CIV object:
+
+- `Toscanini` improved falsification and doctrinal fit
+- `Furtwangler` improved authority audit and residue hierarchy
+- the sequence itself improved seam choice and stopping discipline
+
+#### 4. Wrong surface became a named failure mode
+
+The wrapper-footnotes pass showed that a machine can be internally coherent and
+still be building on the wrong surface. That is now a reusable guardrail for
+future source-lattice and commentary work.
+
+### Guardrail
+
+The guardrail is:
+
+```text
+Do not let elegant interpretation quietly become architecture.
+Do not let coherent scaffolding substitute for the requested truth surface.
+Do not treat all latent doctrines as equally proven.
+```
+
+Another short form:
+
+```text
+shared grammar is allowed
+authority drift is failure
+```
