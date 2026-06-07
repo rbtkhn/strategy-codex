@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "task-6",
+  "prompt_version": "composition-benchmark-v1/statecraft-daily-sparse-2026-06-06",
+  "rubric_version": "composition-rubric-v1",
+  "model": "Composer",
+  "provider": "Cursor",
+  "model_version": "unavailable",
+  "run_date": "2026-06-07",
+  "temperature": "unknown",
+  "seed": "unavailable",
+  "source_mode": "source_pack",
+  "evaluator": "Composer",
+  "notes": "Kleiber D Finale. Session-calibrated sparse-carrier test: compose statecraft daily synthesis from single Mercouris archive capture (2026-06-06). Source pack: source-archive/statecraft/2026-06-06/source-alex-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md. Verified evidence separated from interpretation in scoring notes."
+}

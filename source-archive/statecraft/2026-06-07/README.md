@@ -1,4 +1,4 @@
-# Statecraft Archive - 2026-06-06
+# Statecraft Archive - 2026-06-07
 
 _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
 
@@ -25,4 +25,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Files
 
-- `source-alex-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md`
+- `source-alex-mercouris-russia-spurns-desperate-zelensky-secret-talks-offer-lyman-konstantinovka-about-to-fall-west-panic-2026-06-07.md`

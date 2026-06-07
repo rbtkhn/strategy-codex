@@ -82,3 +82,5 @@ Boundary reminder:
   - [2026-06-01 - Persia On The Hormuz-Lebanon Gate](2026-06-01-persia-hormuz-lebanon-strategic-memory.md)
   - [2026-06-01 - America On The Hormuz-Lebanon Gate](2026-06-01-america-hormuz-lebanon-strategic-memory.md)
 - [2026-06-02](2026-06-02.md)
+- [2026-06-05](2026-06-05.md)
+- [2026-06-06](2026-06-06.md)
