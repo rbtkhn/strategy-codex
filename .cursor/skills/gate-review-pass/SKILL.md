@@ -1,7 +1,7 @@
 ---
 name: gate-review-pass
 preferred_activation: gate review
-description: "Read-only RECURSION-GATE review pass: ordered recommendations, duplicate/stale hints, escalation signalsâ€”companion decides; never merge into SELF/EVIDENCE/prompt or run process_approved_candidates without explicit companion approval and per-candidate id+summary echo (AGENTS). Triggers: review gate backlog, pending CANDIDATE-XXXX, what to approve defer or investigate next, gate-review-pass."
+description: "Read-only RECURSION-GATE review pass: ordered recommendations, duplicate/stale hints, escalation signals—companion decides; never merge into SELF/EVIDENCE/prompt or run process_approved_candidates without explicit companion approval and per-candidate id+summary echo (AGENTS). Triggers: review gate backlog, pending CANDIDATE-XXXX, what to approve defer or investigate next, gate-review-pass."
 ---
 
 # Gate Review Pass
@@ -34,8 +34,8 @@ For each candidate, show **only the review-essential fields**:
 - **id** and one-line **summary**
 - **source_exchange** or **source** (grounding evidence)
 - **suggested_entry** (what would be merged)
-- **age** (days since timestamp â€” flag if >14 days)
-- **staleness** (wall-clock + active-day age, superseded hints, warrant drift â€” run `score_gate_staleness.py` first for enriched data)
+- **age** (days since timestamp — flag if >14 days)
+- **staleness** (wall-clock + active-day age, superseded hints, warrant drift — run `score_gate_staleness.py` first for enriched data)
 - **risk_tier** from the review script (quick_merge_eligible / review_batch / manual_escalate)
 - **duplicate_hints** if any
 
@@ -46,7 +46,7 @@ Then give a recommendation per candidate:
 - approve now
 - investigate duplicates
 - manual escalation (explain why)
-- stale â€” review or reject
+- stale — review or reject
 - defer or batch review
 
 ## Guardrails
@@ -54,7 +54,7 @@ Then give a recommendation per candidate:
 - This workflow does not approve, reject, or merge anything by itself.
 - Keep companion and work-politics items distinct when that affects review.
 - Treat duplicate hints as prompts to verify, not proof that a candidate should be rejected.
-- Rejected candidates are auto-swept to Processed on the next `coffee` run â€” no manual cleanup needed.
+- Rejected candidates are auto-swept to Processed on the next `coffee` run — no manual cleanup needed.
 
 ---
 
@@ -66,18 +66,18 @@ When the operator says **"radar lens"** or **"DTV"**, reframe each candidate usi
 |---------------|----------------|-------------|
 | Keep building | defer | Real signal, but switching cost exceeds value now |
 | Integrate when convenient | approve (batch) | Low friction, fold in at next review pass |
-| Pause and adopt | approve now | Materially changes the profile â€” worth stopping for |
-| Foundational shift | approve with escalation | Rewrites a section of SELF â€” check contradictions first |
+| Pause and adopt | approve now | Materially changes the profile — worth stopping for |
+| Foundational shift | approve with escalation | Rewrites a section of SELF — check contradictions first |
 
 This is a relabeling, not new logic. Use whichever vocabulary fits the operator's current thinking mode.
 
 ---
 
-## After a batch review â€” doc-only pattern library
+## After a batch review — doc-only pattern library
 
 **Optional operator habit:** After companion decisions (approve / defer / reject) or after a long idle queue, note whether **duplicate_hints**, **risk_tier**, or **age** guidance was **misleading**.
 
-**Recursive tightening:** If the **same** mispattern appears **twice**, add **one** bullet to **this skill** (under this section) or to [docs/operator-skills.md](../../docs/operator-skills.md) Â§ *Gate review â€” pattern notes*. Do not change `recursion-gate.md` from this loop alone â€” that stays companion-governed.
+**Recursive tightening:** If the **same** mispattern appears **twice**, add **one** bullet to **this skill** (under this section) or to [docs/operator-skills.md](../../docs/operator-skills.md) § *Gate review — pattern notes*. Do not change `recursion-gate.md` from this loop alone — that stays companion-governed.
 
 ---
 
@@ -89,7 +89,7 @@ Before a gate pass, optionally run the capability shift detector to check whethe
 python3 scripts/detect_capability_shift.py -u grace-mar --offline
 ```
 
-If any alert shows `REVIEW`, cross-reference the affected files against pending candidates â€” a candidate that bakes in an assumption a new model has obsoleted may need rewording or deferral.
+If any alert shows `REVIEW`, cross-reference the affected files against pending candidates — a candidate that bakes in an assumption a new model has obsoleted may need rewording or deferral.
 
 ---
 

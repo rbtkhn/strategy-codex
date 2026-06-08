@@ -1,6 +1,9 @@
 ---
 name: hn-bookshelf-lookup
-description: History notebook writer ergonomics — resolve Shelf ids to catalog cards, list print anchors for an hn-* chapter, or generate paste lines and cited-fragments. Triggers: hn shelf, shelf lookup, Shelf-NNNN, shelf anchors, bookshelf chapter.
+description: >-
+  History notebook writer ergonomics — resolve Shelf ids to catalog cards, list
+  print anchors for an hn-* chapter, or generate paste lines and cited-fragments.
+  Triggers: hn shelf, shelf lookup, Shelf-NNNN, shelf anchors, bookshelf chapter.
 ---
 
 # History notebook — Bookshelf writer lookup

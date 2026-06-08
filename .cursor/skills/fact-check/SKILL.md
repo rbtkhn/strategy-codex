@@ -10,11 +10,11 @@ description: >-
 
 **Preferred activation (operator):** say the exact phrase **`fact check`**. **Aliases:** **`verify this`**, **`check this claim`**.
 
-**Default mode â€” triage (v1):** **fast pre-flight**, not a research memo. Prefer **one good source** + honest **Unclear** when the web is thin or noisy. **Upgrade later:** the skill can gain **standard** / **primary** depth passes if operator practice needs them â€” say **`fact check deep`** (or similar) when you add that tier.
+**Default mode — triage (v1):** **fast pre-flight**, not a research memo. Prefer **one good source** + honest **Unclear** when the web is thin or noisy. **Upgrade later:** the skill can gain **standard** / **primary** depth passes if operator practice needs them — say **`fact check deep`** (or similar) when you add that tier.
 
-Use when the operator wants a **quick external sanity check** on something **they paste or name** â€” a sentence, stat, quote attribution, URL summary, or draft line â€” before shipping, teaching, or archiving.
+Use when the operator wants a **quick external sanity check** on something **they paste or name** — a sentence, stat, quote attribution, URL summary, or draft line — before shipping, teaching, or archiving.
 
-**Not a substitute for** [politics-massie](../politics-massie/SKILL.md) (breaking-news hooks + `@usa_first_ky` drafts). Use **fact check** for **neutral verification**; use **massie x** when the goal is **campaign-shaped** copy from todayâ€™s news.
+**Not a substitute for** [politics-massie](../politics-massie/SKILL.md) (breaking-news hooks + `@usa_first_ky` drafts). Use **fact check** for **neutral verification**; use **massie x** when the goal is **campaign-shaped** copy from today's news.
 
 ## Lane
 
@@ -23,40 +23,40 @@ Use when the operator wants a **quick external sanity check** on something **the
 
 ## Procedure (triage)
 
-1. **Isolate claims** â€” List **discrete** checkable statements (who / what / when / how many). Merge near-duplicates. If the prompt is vague, ask **one** narrowing question **or** state your assumption in one line â€” do not block on back-and-forth.
+1. **Isolate claims** — List **discrete** checkable statements (who / what / when / how many). Merge near-duplicates. If the prompt is vague, ask **one** narrowing question **or** state your assumption in one line — do not block on back-and-forth.
 2. **Classify each claim**
    - **Factual** (empirically checkable).
-   - **Interpretive** â€” label **interpretation**; do not score as Supported/Contradicted without marking it as inference.
-   - **Out of scope** â€” prediction, pure opinion, privileged access â€” **Out of scope**; no fake certainty.
-3. **Search and cite (light)** â€” One **credible** source per factual claim is enough for **triage** (reputable outlet, official page, or primary doc if it surfaces quickly). Add a **second** source **only** if the claim is **obviously contested**, **high-stakes** (election / legal / medical / financial / attribution of a quote), or the first source is weak/unclear.
+   - **Interpretive** — label **interpretation**; do not score as Supported/Contradicted without marking it as inference.
+   - **Out of scope** — prediction, pure opinion, privileged access — **Out of scope**; no fake certainty.
+3. **Search and cite (light)** — One **credible** source per factual claim is enough for **triage** (reputable outlet, official page, or primary doc if it surfaces quickly). Add a **second** source **only** if the claim is **obviously contested**, **high-stakes** (election / legal / medical / financial / attribution of a quote), or the first source is weak/unclear.
 
-**Native / foreign-language primaries (strategy-adjacent â€” when claims are about non-U.S. governments or multilateral institutions):** Do **not** rely on **English-only** syndication if the verdict turns on **what Tehran, Beijing, Moscow, or the Holy See actually said**. Prefer, when discoverable in triage time: **official MFA / presidency / IRNA-class** pages in **Persian (fa)** for Iran; **MFA / state** readouts in **Chinese (zh)** for PRC; **Kremlin** / key ministries in **Russian (ru)** for Russia; **Vatican** / **Holy See** primaries per [ROME-PASS.md](../../../docs/skill-work/work-strategy/work-strategy-rome/ROME-PASS.md) for Rome-dependent claims. Use **reputable wire English summaries** as **supporting** evidence, not automatic substitutes for the native line when the dispute is **wording** or **scope**. If you cannot read the language, say so â€” **machine translation + official URL** is still better than guessing; flag **Unclear** and **Escalate** when only partisan secondary sources appear. Repo guardrails: [daily-brief-iran-watch.md](../../../docs/skill-work/work-strategy/daily-brief-iran-watch.md) (Persian triangulation), [daily-brief-prc-watch.md](../../../docs/skill-work/work-strategy/daily-brief-prc-watch.md), [daily-brief-putin-watch.md](../../../docs/skill-work/work-strategy/daily-brief-putin-watch.md).
-4. **Verdict table (lean)** â€” For each **factual** claim:
+**Native / foreign-language primaries (strategy-adjacent — when claims are about non-U.S. governments or multilateral institutions):** Do **not** rely on **English-only** syndication if the verdict turns on **what Tehran, Beijing, Moscow, or the Holy See actually said**. Prefer, when discoverable in triage time: **official MFA / presidency / IRNA-class** pages in **Persian (fa)** for Iran; **MFA / state** readouts in **Chinese (zh)** for PRC; **Kremlin** / key ministries in **Russian (ru)** for Russia; **Vatican** / **Holy See** primaries per [ROME-PASS.md](../../../docs/skill-work/work-strategy/work-strategy-rome/ROME-PASS.md) for Rome-dependent claims. Use **reputable wire English summaries** as **supporting** evidence, not automatic substitutes for the native line when the dispute is **wording** or **scope**. If you cannot read the language, say so — **machine translation + official URL** is still better than guessing; flag **Unclear** and **Escalate** when only partisan secondary sources appear. Repo guardrails: [daily-brief-iran-watch.md](../../../docs/skill-work/work-strategy/daily-brief-iran-watch.md) (Persian triangulation), [daily-brief-prc-watch.md](../../../docs/skill-work/work-strategy/daily-brief-prc-watch.md), [daily-brief-putin-watch.md](../../../docs/skill-work/work-strategy/daily-brief-putin-watch.md).
+4. **Verdict table (lean)** — For each **factual** claim:
 
    | Claim (short) | Verdict | Source (title + URL) |
    |---------------|---------|----------------------|
-   | â€¦ | **Supported** / **Contradicted** / **Unclear** / **Out of scope** | â€¦ |
+   | … | **Supported** / **Contradicted** / **Unclear** / **Out of scope** | … |
 
-   One-line **caveat** under the table if dates, geography, or â€œdeveloping storyâ€ matter.
+   One-line **caveat** under the table if dates, geography, or "developing story" matter.
 
-5. **Interpretations** (if any) â€” **Three bullets max** â€” what is **speculation** vs what the cited material **actually says**.
-6. **Confidence** â€” **One line** after the table: **low / medium / high** for triage purposes only, plus **one** phrase on what would raise it (e.g. â€œpull roll-call vote,â€ â€œoriginal press releaseâ€).
-7. **Escalation (required when applicable)** â€” If triage is **insufficient**, append a short **Escalate** block: **why** (stakes, conflict, no primary found) + **what a deeper pass would do** (e.g. two independent lines, pull primary PDF). Do **not** pretend triage was enough when it was not.
+5. **Interpretations** (if any) — **Three bullets max** — what is **speculation** vs what the cited material **actually says**.
+6. **Confidence** — **One line** after the table: **low / medium / high** for triage purposes only, plus **one** phrase on what would raise it (e.g. "pull roll-call vote," "original press release").
+7. **Escalation (required when applicable)** — If triage is **insufficient**, append a short **Escalate** block: **why** (stakes, conflict, no primary found) + **what a deeper pass would do** (e.g. two independent lines, pull primary PDF). Do **not** pretend triage was enough when it was not.
 
 ## Guardrails (Grace-Mar)
 
 - **Knowledge boundary:** Assistant + web output is **not** [Record](../../../self.md) truth. Nothing here **enters** SELF, EVIDENCE, or `bot/prompt.py` without companion approval through **RECURSION-GATE** and `process_approved_candidates.py`. See [AGENTS.md](../../../AGENTS.md) and [knowledge-boundary-framework.md](../../../docs/knowledge-boundary-framework.md).
-- **No leakage:** Do not present training-data â€œfactsâ€ as checks. Cite **what you found** and **where**.
+- **No leakage:** Do not present training-data "facts" as checks. Cite **what you found** and **where**.
 - **Lexile / Voice:** If output is **for the Voice** or **child-facing**, stay within instance **Lexile** (grace-mar: **600L** unless raised with evidence) and **no** undocumented biographical claims.
-- **Election / legal / medical / financial:** Default **Unclear** or **Escalate** unless a **strong** primary or two clear independents surfaced quickly â€” say when a **human professional** is the right next step.
+- **Election / legal / medical / financial:** Default **Unclear** or **Escalate** unless a **strong** primary or two clear independents surfaced quickly — say when a **human professional** is the right next step.
 
 ## WORK lane
 
-If the thread is clearly **WORK** and the operator did not say **no menu**, end with **3â€“5 labeled next-step options** (e.g. run a deeper pass later, tighten one sentence for posting, pivot to **massie x**, add a doc footnote under **Ship**). Otherwise skip the menu.
+If the thread is clearly **WORK** and the operator did not say **no menu**, end with **3–5 labeled next-step options** (e.g. run a deeper pass later, tighten one sentence for posting, pivot to **massie x**, add a doc footnote under **Ship**). Otherwise skip the menu.
 
 ## Related
 
-- [politics-massie](../politics-massie/SKILL.md) â€” news hooks + X drafts for the Massie analysis lane.
-- **Massie news hooks:** If your Cursor install includes **massie-x-news-search-draft** (optional user skill), use it for **todayâ€™s** KY-4 / Massie-relevant cited briefs; **fact check** stays **claim-neutral**.
-- [pros-and-cons](../pros-and-cons/SKILL.md) â€” tradeoffs when the question is **should we**, not **is it true**.
+- [politics-massie](../politics-massie/SKILL.md) — news hooks + X drafts for the Massie analysis lane.
+- **Massie news hooks:** If your Cursor install includes **massie-x-news-search-draft** (optional user skill), use it for **today's** KY-4 / Massie-relevant cited briefs; **fact check** stays **claim-neutral**.
+- [pros-and-cons](../pros-and-cons/SKILL.md) — tradeoffs when the question is **should we**, not **is it true**.
 
