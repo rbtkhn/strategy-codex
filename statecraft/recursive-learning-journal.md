@@ -1623,3 +1623,244 @@ Another short form:
 shared grammar is allowed
 authority drift is failure
 ```
+
+## 2026-06-08 - Five-conductor ship closure on a multi-lane statecraft batch
+
+### Trigger
+
+After a dense **2026-06-01 → 2026-06-07** statecraft week — daily synthesis,
+Persia/America/Russia lane objects, Lebanon third-party gate work, and pending
+multi-lane commits — the operator ran a **full conductor sequence** before ship,
+not as style rotation but as **pre-merge governance**.
+
+Cadence receipts (`work-cadence-events.md`, 2026-06-08 06:36–07:38 UTC) show five
+picks and five outcomes with `verdict=held`, each carrying `notebook_ref=` and
+`falsify=`.
+
+Sequence executed:
+
+1. **Toscanini** — skill-mount / handoff-hub integrity vs coffee doctrine
+2. **Furtwangler** — deploy-ownership and multi-lane receipt before batch commit
+3. **Kleiber** — Persia-slice ship boundary (Lebanon gate transaction, dual-carrier synthesis)
+4. **Bernstein** — verification-commit readability; no civ-lens batching without intent
+5. **Karajan** — commit hierarchy; lane order; no reopening of settled encoding commits
+
+This was the **live proof** of the sequencing law named on **2026-06-01**, applied
+to **ship pressure** rather than archive repair alone.
+
+### Extracted law
+
+The reusable law is:
+
+```text
+dense statecraft week
+-> multi-lane ship risk
+-> five-pressure pre-merge sequence
+-> named slice receipts
+-> hierarchy commit last
+```
+
+Or more plainly:
+
+```text
+When a week produces judgment objects across lanes and a batch commit is next,
+run conductors as ship governance:
+falsify the harness,
+name deploy ownership,
+bound each lane slice,
+make verification legible,
+then route commit order last.
+```
+
+Compact operator form:
+
+```text
+T -> F -> K -> B -> KJ
+only when multi-lane ship is the object
+```
+
+(`T` Toscanini, `F` Furtwangler, `K` Kleiber, `B` Bernstein, `KJ` Karajan.)
+
+### Reapplication
+
+#### 1. Kleiber close already bounded the Persia slice
+
+The Kleiber outcome pointed at
+`artifacts/benchmarks/composition/2026-06-07/cursor-composer/lebanon-third-party-gate-kleiber/closeout.md`,
+which required a **named second ship** for Persia (companion + sources +
+`lebanon-third-party-recognition-gate-transaction.md`) separate from encoding
+commits on `main`.
+
+That is immediate reuse: conductor sequence → **slice-separable commit grammar**.
+
+#### 2. Karajan + Bernstein split verification from hierarchy
+
+Bernstein falsified restaging a settled encoding commit or batching civ-lens
+without separate intent. Karajan falsified hierarchy commits that batch civ-lens
+or reopen lane order.
+
+Reuse:
+
+```text
+explain + route
+-> verification commit != hierarchy commit
+```
+
+#### 3. Furtwangler named the week's real risk
+
+The weak flank was not missing synthesis. It was **batch commit without deploy
+ownership or multi-lane receipt** after a week that mixed America capture,
+Persia gate, and infrastructure wedges.
+
+Reuse:
+
+```text
+reflection on production volume
+-> ship receipt requirement
+```
+
+### Structural changes
+
+#### 1. Conductor sequencing gained a ship-time trigger
+
+Earlier entries emphasized archive truth, phase naming, and doctrine hardening.
+This event adds:
+
+- **post-dense-week / pre-push** as a legitimate full-sequence trigger
+
+#### 2. Statecraft transactions became conductor-close objects
+
+`statecraft/persia/transactions/lebanon-third-party-recognition-gate-transaction.md`
+and America capture forks were not left as notebook-only judgment; Kleiber tied
+ship closure directly to transaction ownership.
+
+#### 3. Gap period (2026-05-21 → 2026-06-07) now has a named failure mode
+
+Most production in that window happened **without** conductor outcomes. June 8
+shows what was missing: **compression of multi-lane learning into ship discipline**
+before the batch landed.
+
+See [conductor-gap-audit-2026-05-21-06-07.md](notes/conductor-gap-audit-2026-05-21-06-07.md).
+
+### Guardrail
+
+```text
+do not run five conductors after every daily note
+```
+
+Full sequence is warranted when **all** of the following are true:
+
+- multiple lanes or transaction families moved in the same week
+- a batch commit or push is imminent
+- lane ownership or receipt boundaries are still implicit
+
+If only one lane moved, use **one or two** conductors (typically Kleiber for slice
+boundary, Karajan for route) — not the full stack.
+
+Secondary guardrail:
+
+```text
+held verdict must change commit behavior
+```
+
+If all five passes return `verdict=held` but the next commit still mixes lanes,
+the sequence was ritual, not recursive learning.
+
+### Current lesson
+
+```text
+The machine can now close a dense statecraft week
+the same way it closes an archive family:
+with sequenced pressure types and explicit ship receipts.
+```
+
+Cadence anchor: `docs/skill-work/work-cadence/work-cadence-events.md` (2026-06-08).
+Cross-journal: [conductor-arc-impact-journal.md](../docs/skill-work/work-strategy/conductor-arc-impact-journal.md) (wave evaluation — add June 8 row when next monthly review runs).
+
+## 2026-06-08 - Daily synthesis contract repair as four-tranche Kleiber stack
+
+### Trigger
+
+After the archive-index wedge landed, `validate_statecraft_daily_synthesis.py` still
+reported **56 errors** on migrated dailies — mostly legacy naming, section drift,
+lane-priority five-volume sorts, and short quote anchors on the live June production
+week.
+
+The operator asked to **replicate the 2026-06-01 Hormuz Kleiber pass**: one error
+class at a time, `before -> repair -> after -> remainder`, no false closure.
+
+### Extracted law
+
+```text
+validator backlog
+-> tranche map
+-> one mechanical family per Kleiber pass
+-> explicit remainder for next tranche
+-> stop when named class hits zero
+```
+
+Compact form:
+
+```text
+tail label -> section order -> five-volume order -> quote anchors -> monthly note
+```
+
+### The four tranches (June week)
+
+| # | Family | Repair | Errors cleared |
+|---|--------|--------|---------------:|
+| 1 | `Statecraft Notes` tail | rename to `Companion Notes` (19 files) | 15 → 0 tail |
+| 2 | Section order | `Lane Pressure` → `Lane Read`; demote `Mechanism Comparison` to `###` | 5 → 0 |
+| 3 | Five-volume shelf | reorder to `China → Persia → Rome → Russia → America` | 5 → 0 |
+| 4 | Quote anchors | extend from `source-archive` lines only | 9 → 0 on 06-03/04/06/07 |
+
+**Validator total:** 56 → 22 after tranche 4; **June 01 anchors + `2026-06.md` monthly**
+closed in follow-up pass (B/C menu).
+
+### Reapplication
+
+#### 1. Hormuz receipt pattern generalized
+
+[archive-truth-floor-audit-receipt-pattern.md](../docs/archive-truth-floor-audit-receipt-pattern.md)
+now has a daily-synthesis sibling stack:
+
+- [daily-synthesis-contract-repair-routing-2026-06-08.md](notes/daily-synthesis-contract-repair-routing-2026-06-08.md)
+- four `kleiber-close-*-stopping-rules-2026-06-08.md` receipts under `docs/`
+
+#### 2. Mechanism comparison subroutine vs contract
+
+The skill embeds same-object mechanism comparison, but the validator knows only
+eight daily `##` headings. Kleiber **demoted** the subroutine to `###` under
+Speaker Value rather than widening the contract in the same pass — reusable rule
+for skill–validator gaps.
+
+#### 3. Lane-priority sort ≠ shelf order
+
+Dominant-object urgency may sort **inside** bullets; the five-volume **bullet order**
+stays fixed for cross-day comparison.
+
+### Structural changes
+
+- June production week (`2026-06-03`–`08` dailies) is **validator-clean** on daily contract.
+- Partial month note `2026-06.md` aligned to monthly section law + valid convergence labels.
+- CI advisory backlog (**March–May** quote anchors + older monthly notes) remains named, not hidden.
+
+### Guardrail
+
+```text
+do not claim validate_statecraft_daily_synthesis is green
+until the active tranche and its remainder are both named
+```
+
+March–May migrated dailies still carry quote-anchor debt; that is the next opening,
+not a reason to reopen closed June families.
+
+### Current lesson
+
+```text
+The repo can repair its own synthesis contract
+the same way it repairs archive substrate:
+tranche by tranche, with stopping rules that survive the next push.
+```
+
+Routing: [daily-synthesis-contract-repair-routing-2026-06-08.md](notes/daily-synthesis-contract-repair-routing-2026-06-08.md).
