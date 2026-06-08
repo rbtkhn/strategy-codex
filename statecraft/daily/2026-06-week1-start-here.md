@@ -6,7 +6,7 @@ One entry point for re-entering the first captured week of June 2026. Open this 
 
 **Governing object (week):** Lebanon recognition gate spent as third-party hard power while American executive command was falsified live.
 
-**Lane order:** America (primary) → Persia (secondary) → Russia (tertiary).
+**Lane order (mechanism vs theater):** **Persia** owns the Lebanon-trigger mechanism (recognition gate + third-party deterrence); **America** is supporting-arm only (capture / executive falsification on shared live proof); **Russia** is orthogonal (Europe threshold, June 6 companion). Multi-lane shelf in `2ec582124` remains valid; deploy receipt in [conductor journal](../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md).
 
 **Archive:** [source-archive/statecraft/2026-06.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-06.md) — 7 days, 68 files through 2026-06-07. Indices rebuilt 2026-06-07 session.
 
@@ -28,6 +28,7 @@ One entry point for re-entering the first captured week of June 2026. Open this 
 |----------|------------|
 | What happened June 7? | [Daily 2026-06-07](./2026-06-07.md) |
 | Why is Lebanon the gate, not a side file? | [2026-06-01](./2026-06-01.md) → [2026-06-05](./2026-06-05.md) → [Persia companion 2026-06-06](./2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md) |
+| Does the inquiry ladder survive for Iran (not just Russia)? | [Iran war ladder stress test](../notes/iran-war-inquiry-ladder-stress-test.md) → [Russia ladder method](../notes/russia-inquiry-ladder-as-recursive-learning.md) |
 | Was the June 4 Lebanon “deal” real? | [2026-06-04](./2026-06-04.md) + [Hoh × Henningsen falsifier](./2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md) |
 | Bombing while talking / nuclear humiliation fork? | [2026-06-03](./2026-06-03.md) |
 | NDAA Section 224 / Pentagon mesh? | [Hoh in America companion](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md#hoh--section-224-statutory-mesh-june-4-pass) + [transaction Clauses A–E](../america/transactions/foreign-client-mesh-separation-and-command-review.md#instrument-text-draft-clauses) |
