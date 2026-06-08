@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `18`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (17), `cleaned-transcript` (1)
 - Source form mix: `interview` (14), `solo` (4)
 - Distinct channels/shows: `7`
@@ -18,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (6), `Daniel Davis` (3), `Jiang Xueqin` (3), `Nima Alkorshid` (3), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1)
+- Hosts: `Andrew Napolitano` (6), `Daniel Davis` (3), `Jiang Xueqin` (3), `Nima Alkhorshid` (3), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1)
 - Guests: `Scott Ritter` (2), `Seyed M. Marandi` (2), `Alastair Crooke` (1), `Alexander Mercouris` (1), `Chas Freeman` (1), `Doug Macgregor` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Matt Hoh` (1), `Robert Barnes` (1)
 - Threads: `napolitano` (6), `davis` (3), `jiang` (3), `nima` (3), `marandi` (2), `mercouris` (2), `ritter` (2), `barnes` (1), `christoforou` (1), `crooke` (1), `diesen` (1), `freeman` (1), `hoh` (1), `johnson` (1), `macgregor` (1), `mearsheimer` (1), `wilkerson` (1)
 

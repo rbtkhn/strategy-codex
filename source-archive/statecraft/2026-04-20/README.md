@@ -4,23 +4,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `14`
-- Body kind mix: `transcript` (9), `x-post-bundle` (2), `operator-transcript` (1), `x-post-text` (1), `x_bundle` (1)
-- Source form mix: `interview` (5), `solo` (5), `post` (4)
+- Source files: `15`
+- Helper notes (excluded from source count): `0`
+- Body kind mix: `transcript` (10), `x-post-bundle` (2), `operator-transcript` (1), `x-post-text` (1), `x_bundle` (1)
+- Source form mix: `interview` (6), `solo` (5), `post` (4)
 - Distinct channels/shows: `4`
-- Distinct hosts: `7`
-- Distinct guests: `5`
-- Distinct threads: `9`
+- Distinct hosts: `9`
+- Distinct guests: `8`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Judging Freedom` (1), `Mercouris` (1), `The Chris Hedges Report` (1)
+- `Dialogue Works` (2), `Judging Freedom` (2), `Mercouris` (1), `The Chris Hedges Report` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Andrew Napolitano; Larry Johnson` (1), `Chris Hedges` (1), `Clayton Morris; Natali Morris` (1), `Daniel Davis (host); Col. Jacques Baud (guest)` (1)
-- Guests: `Jacques Baud` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Robert Pape (CPOST, University of Chicago; Escalation Trap on Substack)` (1), `Scott Ritter` (1)
-- Threads: `baud` (2), `johnson` (2), `mercouris` (2), `nima` (2), `ritter` (2), `mearsheimer` (1), `napolitano` (1), `pape` (1), `parsi` (1)
+- Hosts: `Andrew Napolitano` (3), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Chris Hedges` (1), `Clayton Morris` (1), `Daniel Davis` (1), `Jacques Baud (guest)` (1), `Larry Johnson` (1), `Natali Morris` (1)
+- Guests: `Escalation Trap on Substack)` (1), `Jacques Baud` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Robert Pape (CPOST` (1), `Scott Ritter` (1), `University of Chicago` (1)
+- Threads: `baud` (2), `johnson` (2), `mercouris` (2), `napolitano` (2), `nima` (2), `ritter` (2), `mearsheimer` (1), `pape` (1), `parsi` (1), `sachs` (1)
 
 ## Files
 
@@ -33,6 +34,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `source-ghalibaf-marandi-repost-siege-battlefield-2026-04-20.md`
 - `source-hedges-mearsheimer-iran-2026-04-20.md`
 - `source-johnson-who-controls-hormuz-2026-04-20.md`
+- `source-napolitano-sachs-is-the-war-over-2026-04-20.md`
 - `source-pape-collapse-ahead-of-schedule-2026-04-20.md`
 - `source-rant-shorting-america-7pXI52jKcOU-2026-04-20.md`
 - `source-russia-blockade-40-ships-hormuz-2026-04-20.md`

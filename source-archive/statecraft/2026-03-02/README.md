@@ -5,11 +5,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `7`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (5), `operator-transcript` (1), `substack-post` (1)
 - Source form mix: `interview` (4), `solo` (2), `newsletter` (1)
 - Distinct channels/shows: `5`
-- Distinct hosts: `4`
-- Distinct guests: `4`
+- Distinct hosts: `5`
+- Distinct guests: `5`
 - Distinct threads: `8`
 
 ## Channel / Show Rollup
@@ -18,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Dialogue Works` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Daniel Davis` (1)
-- Guests: `Alastair Crooke` (1), `Douglas Macgregor` (1), `Jacques Baud` (1), `Pepe Escobar & Larry C. Johnson` (1)
+- Hosts: `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Robert Pape` (1)
+- Guests: `Alastair Crooke` (1), `Douglas Macgregor` (1), `Jacques Baud` (1), `Larry C. Johnson` (1), `Pepe Escobar` (1)
 - Threads: `diesen` (2), `baud` (1), `crooke` (1), `davis` (1), `johnson` (1), `macgregor` (1), `mercouris` (1), `pape` (1)
 
 ## Files

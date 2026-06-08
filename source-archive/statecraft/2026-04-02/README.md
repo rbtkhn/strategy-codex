@@ -4,23 +4,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `9`
-- Body kind mix: `transcript` (6), `operator-transcript` (1), `paste-bundle` (1), `source` (1)
-- Source form mix: `interview` (6), `newsletter` (2), `solo` (1)
-- Distinct channels/shows: `6`
-- Distinct hosts: `5`
-- Distinct guests: `5`
-- Distinct threads: `11`
+- Source files: `10`
+- Helper notes (excluded from source count): `0`
+- Body kind mix: `transcript` (6), `operator-transcript` (1), `paste-bundle` (1), `source` (1), `youtube` (1)
+- Source form mix: `interview` (7), `newsletter` (2), `solo` (1)
+- Distinct channels/shows: `7`
+- Distinct hosts: `6`
+- Distinct guests: `6`
+- Distinct threads: `12`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (1), `Judging Freedom` (1), `Mercouris` (1)
+- `Dialogue Works` (2), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Glenn Diesen (channel / program — pin canonical series title when pinned)` (1), `Jeffrey Sachs` (1), `Judging Freedom` (1), `Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1)
-- Guests: `Joe Kent` (2), `Andrei Martyanov` (1), `Daniel Davis` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
-- Threads: `davis` (2), `diesen` (2), `kent` (2), `nima` (2), `crooke` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1), `pape` (1), `ritter` (1), `wilkerson` (1)
+- Hosts: `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1), `Jeffrey Sachs` (1)
+- Guests: `Joe Kent` (2), `Andrei Martyanov` (1), `Daniel Davis` (1), `Jeffrey Sachs` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
+- Threads: `davis` (2), `diesen` (2), `kent` (2), `nima` (2), `crooke` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1), `pape` (1), `ritter` (1), `sachs` (1), `wilkerson` (1)
 
 ## Files
 
@@ -33,3 +34,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md`
 - `source-napolitano-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md`
 - `source-pape-trump-accelerated-the-crisis-2026-04-02.md`
+- `source-sachs-incoherent-illegal-reckless-2026-04-02.md`

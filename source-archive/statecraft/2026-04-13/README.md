@@ -5,10 +5,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `10`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (8), `operator-transcript` (1), `substack-post` (1)
 - Source form mix: `interview` (8), `newsletter` (2)
 - Distinct channels/shows: `4`
-- Distinct hosts: `4`
+- Distinct hosts: `3`
 - Distinct guests: `7`
 - Distinct threads: `10`
 
@@ -18,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (4), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Nima Alkorshid` (1)
+- Hosts: `Daniel Davis` (4), `Nima Alkhorshid` (3), `Alexander Mercouris` (1)
 - Guests: `Scott Ritter` (2), `Seyed M. Marandi` (2), `Chas Freeman` (1), `Jacques Baud` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `US Iran Sea Blockade` (1)
 - Threads: `davis` (4), `nima` (3), `marandi` (2), `ritter` (2), `baud` (1), `freeman` (1), `johnson` (1), `mearsheimer` (1), `mercouris` (1), `simplicius` (1)
 

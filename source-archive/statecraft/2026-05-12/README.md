@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `9`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (8), `cleaned-transcript` (1)
 - Source form mix: `interview` (6), `solo` (3)
 - Distinct channels/shows: `6`
@@ -18,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (3), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Jiang Xueqin` (1), `Mario Nawfal` (1), `Nima Alkorshid` (1)
+- Hosts: `Daniel Davis` (3), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Jiang Xueqin` (1), `Mario Nawfal` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Doug Macgregor` (1), `Jeffrey Sachs` (1), `Robert Barnes` (1), `Robert Pape` (1), `Seyed M. Marandi` (1)
 - Threads: `davis` (3), `diesen` (2), `barnes` (1), `freeman` (1), `jiang` (1), `macgregor` (1), `marandi` (1), `mercouris` (1), `nawfal` (1), `nima` (1), `pape` (1), `sachs` (1)
 

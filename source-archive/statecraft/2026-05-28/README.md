@@ -5,10 +5,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `15`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (13), `substack-post` (1), `youtube` (1)
 - Source form mix: `interview` (13), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `7`
-- Distinct hosts: `7`
+- Distinct hosts: `8`
 - Distinct guests: `13`
 - Distinct threads: `19`
 
@@ -18,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (4), `Mario Nawfal` (3), `Daniel Davis` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Garland Nixon` (1), `Tom Switzer` (1)
+- Hosts: `Andrew Napolitano` (4), `Mario Nawfal` (3), `Daniel Davis` (2), `Nima Alkhorshid` (2), `Alastair Crooke` (1), `Alexander Mercouris` (1), `Garland Nixon` (1), `Tom Switzer` (1)
 - Guests: `Alex Krainer` (1), `Andrei Martyanov` (1), `Douglas Macgregor` (1), `Jacques Baud` (1), `Joe Kent` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1), `Max Blumenthal` (1), `Mohammad Marandi` (1), `Robert Barnes` (1), `Robert Pape` (1), `Scott Ritter` (1), `Trita Parsi` (1)
 - Threads: `napolitano` (4), `nawfal` (3), `davis` (2), `nima` (2), `barnes` (1), `baud` (1), `blumenthal` (1), `crooke` (1), `kent` (1), `krainer` (1), `macgregor` (1), `marandi` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `parsi` (1), `ritter` (1), `wilkerson` (1)
 

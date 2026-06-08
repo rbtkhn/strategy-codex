@@ -5,12 +5,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `7`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (3), `substack-post` (2), `operator-transcript` (1), `youtube` (1)
 - Source form mix: `interview` (4), `newsletter` (2), `solo` (1)
 - Distinct channels/shows: `6`
-- Distinct hosts: `4`
-- Distinct guests: `4`
-- Distinct threads: `9`
+- Distinct hosts: `5`
+- Distinct guests: `5`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
@@ -18,9 +19,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Diesen` (1), `Glenn Diesen` (1)
-- Guests: `Chas Freeman` (1), `George Beebe` (1), `John Mearsheimer` (1), `Larry Johnson & Col. Wilkerson` (1)
-- Threads: `diesen` (2), `nima` (2), `beebe` (1), `freeman` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `simplicius` (1), `wilkerson` (1)
+- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Diesen` (1), `Glenn Diesen` (1), `Robert Pape` (1)
+- Guests: `Chas Freeman` (1), `George Beebe` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1)
+- Threads: `diesen` (2), `nima` (2), `beebe` (1), `freeman` (1), `johnson` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `simplicius` (1), `wilkerson` (1)
 
 ## Files
 

@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `7`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (7)
 - Source form mix: `interview` (5), `solo` (2)
 - Distinct channels/shows: `5`
@@ -19,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Alexander Mercouris` (2), `Daniel Davis` (2), `Nima Alkhorshid` (1), `Ryan Grim` (1), `Shaun Attwood` (1)
-- Guests: `Anthony Aguilar` (1), `Douglas Macgregor` (1), `Larry Johnson` (1), `Ret. Col. Lawrence Wilkerson` (1), `Robert Pape` (1)
+- Guests: `Anthony Aguilar` (1), `Douglas Macgregor` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Robert Pape` (1)
 - Threads: `davis` (2), `mercouris` (2), `aguilar` (1), `johnson` (1), `macgregor` (1), `nima` (1), `pape` (1), `shaun-attwood` (1), `wilkerson` (1)
 
 ## Files

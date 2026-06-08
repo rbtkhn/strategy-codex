@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `8`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (8)
 - Source form mix: `interview` (5), `solo` (3)
 - Distinct channels/shows: `4`
@@ -18,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (4), `Dialogue Works` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1)
+- Hosts: `Daniel Davis` (4), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1)
 - Guests: `Crooke` (1), `Larry Johnson` (1), `Macgregor` (1), `Ray McGovern` (1), `Stanislav Krapivnik` (1)
 - Threads: `davis` (4), `dialogue-works` (2), `crooke` (1), `diesen` (1), `johnson` (1), `krapivnik` (1), `macgregor` (1), `mcgovern` (1), `mercouris` (1)
 

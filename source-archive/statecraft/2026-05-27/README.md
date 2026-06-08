@@ -5,10 +5,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `10`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (9), `substack-post` (1)
 - Source form mix: `interview` (8), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `8`
-- Distinct hosts: `6`
+- Distinct hosts: `7`
 - Distinct guests: `8`
 - Distinct threads: `13`
 
@@ -18,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Glenn Diesen` (1), `Mario Nawfal` (1)
+- Hosts: `Daniel Davis` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Robert Pape` (1)
 - Guests: `Alexander Mercouris` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Matthew Hoh` (1), `Ray McGovern` (1), `Robert Pape` (1), `Scott Ritter` (1)
 - Threads: `davis` (2), `mercouris` (2), `nima` (2), `pape` (2), `diesen` (1), `hoh` (1), `johnson` (1), `macgregor` (1), `mcgovern` (1), `napolitano` (1), `nawfal` (1), `ritter` (1), `sachs` (1)
 

@@ -5,10 +5,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `cleaned-transcript` (2), `transcript` (1)
 - Source form mix: `solo` (2), `interview` (1)
 - Distinct channels/shows: `2`
-- Distinct hosts: `2`
+- Distinct hosts: `3`
 - Distinct guests: `1`
 - Distinct threads: `2`
 
@@ -18,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (2), `Cyrus Janssen; Alex Reporterfy (Reporterfy Media)` (1)
+- Hosts: `Alexander Mercouris` (2), `Alex Reporterfy (Reporterfy Media)` (1), `Cyrus Janssen` (1)
 - Guests: `Larry Johnson (former CIA analyst)` (1)
 - Threads: `mercouris` (2), `johnson` (1)
 

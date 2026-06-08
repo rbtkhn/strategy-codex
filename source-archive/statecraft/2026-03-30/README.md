@@ -5,11 +5,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (3), `source` (1)
 - Source form mix: `interview` (4)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
-- Distinct guests: `4`
+- Distinct guests: `5`
 - Distinct threads: `5`
 
 ## Channel / Show Rollup
@@ -19,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
-- Guests: `Israel AD Fails 80% Iran Missiles Hit Target; China` (1), `Jacques Baud` (1), `Larry C. Johnson` (1), `Larry Johnson` (1)
+- Guests: `China` (1), `Israel AD Fails 80% Iran Missiles Hit Target` (1), `Jacques Baud` (1), `Larry C. Johnson` (1), `Larry Johnson` (1)
 - Threads: `johnson` (2), `nima` (2), `baud` (1), `mercouris` (1), `napolitano` (1)
 
 ## Files

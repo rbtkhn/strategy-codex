@@ -5,10 +5,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `7`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (5), `substack-post` (2)
 - Source form mix: `post` (3), `newsletter` (2), `interview` (1), `solo` (1)
 - Distinct channels/shows: `4`
-- Distinct hosts: `2`
+- Distinct hosts: `4`
 - Distinct guests: `1`
 - Distinct threads: `7`
 
@@ -18,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
+- Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1), `Robert Pape` (1), `Trita Parsi` (1)
 - Guests: `Jacques Baud` (1)
 - Threads: `davis` (3), `baud` (1), `henningsen` (1), `mercouris` (1), `nima` (1), `pape` (1), `parsi` (1)
 

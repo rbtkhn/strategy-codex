@@ -10,7 +10,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Source form mix: `interview` (5)
 - Distinct channels/shows: `4`
 - Distinct hosts: `4`
-- Distinct guests: `5`
+- Distinct guests: `6`
 - Distinct threads: `8`
 
 ## Channel / Show Rollup
@@ -20,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1)
-- Guests: `Andrei Martyanov` (1), `Chas Freeman` (1), `John Mearsheimer` (1), `Martin Armstrong` (1), `Moscow` (1)
+- Guests: `Andrei Martyanov` (1), `Chas Freeman` (1), `John Mearsheimer` (1), `Martin Armstrong` (1), `Medvedev Wants Kiev` (1), `Moscow` (1)
 - Threads: `napolitano` (2), `armstrong` (1), `davis` (1), `diesen` (1), `freeman` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1)
 
 ## Files

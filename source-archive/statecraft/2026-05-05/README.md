@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `10`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `cleaned-transcript` (7), `transcript` (2), `paste-bundle` (1)
 - Source form mix: `interview` (8), `solo` (2)
 - Distinct channels/shows: `4`
@@ -19,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (3), `Nima Alkhorshid` (3), `Diesen` (2), `Alexander Mercouris` (1)
-- Guests: `Seyed M. Marandi` (2), `Douglas Macgregor` (1), `John Helmer` (1), `Larry Johnson` (1), `Larry Wilkerson` (1), `Mike Adams` (1), `Yanis Varoufakis` (1)
+- Guests: `Seyed M. Marandi` (2), `Douglas Macgregor` (1), `John Helmer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Mike Adams` (1), `Yanis Varoufakis` (1)
 - Threads: `davis` (3), `nima` (3), `diesen` (2), `marandi` (2), `johnson` (1), `macgregor` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Files

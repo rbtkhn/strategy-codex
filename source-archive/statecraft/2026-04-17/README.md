@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `15`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (11), `substack-post` (2), `operator-transcript` (1), `verbatim-sidecar` (1)
 - Source form mix: `post` (9), `interview` (4), `newsletter` (2)
 - Distinct channels/shows: `5`
@@ -18,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (2), `Dialogue Works` (1), `Diesen` (1)
-- Guests: `Larry Johnson` (1), `Larry Johnson & Col. Wilkerson` (1), `Scott Ritter` (1), `Seyed M. Marandi` (1)
+- Hosts: `Daniel Davis` (2), `Diesen` (1), `Nima Alkhorshid` (1)
+- Guests: `Larry Johnson` (2), `Lawrence Wilkerson` (1), `Scott Ritter` (1), `Seyed M. Marandi` (1)
 - Threads: `davis` (3), `johnson` (3), `diesen` (2), `marandi` (2), `pape` (2), `ritter` (2), `barnes` (1), `parsi` (1), `simplicius` (1), `wilkerson` (1)
 
 ## Files

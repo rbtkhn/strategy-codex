@@ -5,7 +5,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
-- Body kind mix: `substack-post` (1), `transcript` (2)
+- Helper notes (excluded from source count): `0`
+- Body kind mix: `transcript` (2), `substack-post` (1)
 - Source form mix: `interview` (1), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `2`
@@ -14,7 +15,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Mercouris` (1), `Glenn Diesen` (1), `simplicius76.substack.com` (1)
+- `Glenn Diesen` (1), `Mercouris` (1), `simplicius76.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
