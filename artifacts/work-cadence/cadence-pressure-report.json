@@ -1,54 +1,127 @@
-﻿{
+{
   "schemaVersion": "1.0.0-cadence-pressure",
-  "generatedAt": "2026-04-11T04:25:43.178083+00:00",
-  "user_id": "grace-mar",
+  "generatedAt": "2026-06-08T08:14:27.901454+00:00",
+  "user_id": "strategy-codex",
   "days": 14,
   "rhythm_summary": {
-    "user_id": "grace-mar",
+    "user_id": "strategy-codex",
     "days": 14,
-    "event_count": 91,
-    "active_day_count": 7,
+    "event_count": 50,
+    "active_day_count": 14,
     "discipline": "HEALTHY",
     "issues": [],
     "dream": {
       "count": 6,
-      "last": "2026-04-09T06:17:00+00:00",
-      "days_ago": 1,
+      "last": "2026-06-06T05:02:00+00:00",
+      "days_ago": 2,
       "ok": true
     },
     "bridge": {
-      "count": 10,
-      "last": "2026-04-11T02:39:00+00:00",
-      "days_ago": 0,
-      "sessions_without": 35
+      "count": 0,
+      "last": null,
+      "days_ago": null,
+      "sessions_without": 24
     },
     "coffee": {
-      "count": 46,
-      "per_active_day": 6.6,
+      "count": 25,
+      "close_count": 1,
+      "per_active_day": 1.8,
       "ok": true
     },
+    "coffee_recursion": {
+      "user_id": "strategy-codex",
+      "days": 14,
+      "close_count": 1,
+      "last_close": {
+        "ts": "2026-06-01T18:39:00+00:00",
+        "picked": "A",
+        "outcome": "done",
+        "readiness": "ship_ready",
+        "artifacts": [
+          "scripts/assess_session_load.py",
+          "scripts/coffee_bootstrap_brief.py"
+        ],
+        "loops": [],
+        "next": "stage-commit-bootstrap-drift-fix",
+        "conductor": null,
+        "conductor_state": "none",
+        "line": "- **2026-06-01 18:39 UTC** \u2014 coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=scripts/assess_session_load.py,scripts/coffee_bootstrap_brief.py next=stage-commit-bootstrap-drift-fix"
+      },
+      "readiness_counts": {
+        "ship_ready": 1
+      },
+      "outcome_counts": {
+        "done": 1
+      },
+      "repeated_unresolved_loops": [],
+      "artifact_counts": {
+        "scripts/assess_session_load.py": 1,
+        "scripts/coffee_bootstrap_brief.py": 1
+      },
+      "latest_conductor_state": {
+        "ts": "2026-06-08T07:38:00+00:00",
+        "conductor": "karajan",
+        "state": "closed",
+        "source": "coffee_conductor_outcome"
+      },
+      "conductor_continuity": [
+        {
+          "ts": "2026-05-27T22:42:00+00:00",
+          "conductor": "kleiber",
+          "state": "closed",
+          "source": "coffee_conductor_outcome"
+        },
+        {
+          "ts": "2026-06-08T06:38:00+00:00",
+          "conductor": "toscanini",
+          "state": "closed",
+          "source": "coffee_conductor_outcome"
+        },
+        {
+          "ts": "2026-06-08T06:43:00+00:00",
+          "conductor": "furtwangler",
+          "state": "closed",
+          "source": "coffee_conductor_outcome"
+        },
+        {
+          "ts": "2026-06-08T07:00:00+00:00",
+          "conductor": "kleiber",
+          "state": "closed",
+          "source": "coffee_conductor_outcome"
+        },
+        {
+          "ts": "2026-06-08T07:33:00+00:00",
+          "conductor": "bernstein",
+          "state": "closed",
+          "source": "coffee_conductor_outcome"
+        },
+        {
+          "ts": "2026-06-08T07:38:00+00:00",
+          "conductor": "karajan",
+          "state": "closed",
+          "source": "coffee_conductor_outcome"
+        }
+      ]
+    },
     "longest_gap": {
-      "hours": 15.1,
-      "start": "2026-04-09T23:23:00+00:00",
-      "end": "2026-04-10T14:28:00+00:00",
+      "hours": 41.0,
+      "start": "2026-06-06T05:02:00+00:00",
+      "end": "2026-06-07T22:00:00+00:00",
       "ok": true
     },
     "model_tier": {
       "counts": {
-        "unknown": 91
+        "unknown": 50
       },
       "pcts": {
         "unknown": 100.0
       },
-      "total": 91
+      "total": 50
     }
   },
   "governance": {
     "recursion_gate_pending_status_count": 1,
-    "gate_path": "/Users/robertkuhne/Documents/grace-mar/recursion-gate.md"
+    "gate_path": "C:\\dev\\strategy-codex\\recursion-gate.md"
   },
-  "pressure_signals": [
-    "high_coffee_volume"
-  ]
+  "pressure_signals": []
 }
-

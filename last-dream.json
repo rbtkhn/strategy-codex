@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T06:12:26.661941+00:00",
+  "generated_at": "2026-06-06T05:02:44.886227+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
@@ -15,8 +15,8 @@
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "Capture gap: Record hasn't grown in 14 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
-    "AI frontier watch: The Innermost Loop latest - Welcome to June 3, 2026 - consider explicit source hygiene if relevant tomorrow"
+    "Capture gap: Record hasn't grown in 15 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
+    "AI frontier watch: The Innermost Loop latest - Welcome to June 5, 2026 - consider explicit source hygiene if relevant tomorrow"
   ],
   "phases": {
     "recent": {
@@ -32,21 +32,33 @@
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-06-03T06:12:21.057901+00:00",
-    "window_end_utc": "2026-06-04T06:12:21.057901+00:00",
+    "window_start_utc": "2026-06-05T05:02:32.436928+00:00",
+    "window_end_utc": "2026-06-06T05:02:32.436928+00:00",
     "window_hours": 24.0,
-    "count": 0,
-    "first_ts": null,
-    "last_ts": null,
+    "count": 1,
+    "first_ts": "2026-06-05T14:04:00+00:00",
+    "last_ts": "2026-06-05T14:04:00+00:00",
     "span_hours": null,
-    "by_mode": {},
-    "runs": [],
+    "by_mode": {
+      "first-command": 1
+    },
+    "runs": [
+      {
+        "ts_iso": "2026-06-05T14:04:00+00:00",
+        "ok": true,
+        "mode": "first-command",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      }
+    ],
     "picks": [],
     "by_picked": {}
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-06-03T06:12:21.057901+00:00",
-    "window_end_utc": "2026-06-04T06:12:21.057901+00:00",
+    "window_start_utc": "2026-06-05T05:02:32.436928+00:00",
+    "window_end_utc": "2026-06-06T05:02:32.436928+00:00",
     "window_hours": 24.0,
     "pick_count": 0,
     "outcome_count": 0,
@@ -127,12 +139,12 @@
   "capture_gap": {
     "last_evidence_date": "2026-05-21",
     "last_evidence_id": "ACT-0038",
-    "days_since_evidence": 14,
+    "days_since_evidence": 15,
     "last_merge_date": "2026-05-21",
-    "days_since_merge": 14,
+    "days_since_merge": 15,
     "pending_count": 1,
     "level": "warning",
-    "message": "Record hasn't grown in 14 days (last: ACT-0038, 2026-05-21)"
+    "message": "Record hasn't grown in 15 days (last: ACT-0038, 2026-05-21)"
   },
   "capability_shift": {
     "category": "model",
@@ -149,32 +161,40 @@
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-06-04T06:12:26.498722+00:00",
+    "fetched_at": "2026-06-06T05:02:44.027459+00:00",
     "status": "ok",
-    "title": "Welcome to June 3, 2026",
-    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-3-2026",
-    "published_at": "2026-06-03T20:31:43+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 3, 2026\" (2026-06-03T20:31:43+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
+    "title": "Welcome to June 5, 2026",
+    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-5-2026",
+    "published_at": "2026-06-05T22:20:19+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 5, 2026\" (2026-06-05T22:20:19+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
     "previous_dream_generated_at": null,
     "local_calendar_dates": [
-      "2026-06-04"
+      "2026-06-06"
     ],
     "strategy_notebook_missing_day_headers": [
-      "2026-06-04"
+      "2026-06-06"
     ]
+  },
+  "last_coffee_echo": {
+    "timestamp": "2026-06-05T14:04:00+00:00",
+    "conductor": null,
+    "mode": "first-command",
+    "menu_letter": null,
+    "highlight": "Yesterday\u2019s first-command coffee is still the thread.",
+    "source": "coffee_rollup_24h"
   },
   "handoffSchemaVersion": 3,
   "topActionReason": "validated_follow_through",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "Capture gap: Record hasn't grown in 14 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
+    "must_resume": "Capture gap: Record hasn't grown in 15 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
     "safe_to_drop": "",
     "blocked": "",
-    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 3, 2026 - consider explicit source hygiene if relevant to"
+    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 5, 2026 - consider explicit source hygiene if relevant to"
   },
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session."

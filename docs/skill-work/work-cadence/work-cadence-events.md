@@ -702,3 +702,5 @@ _(Append below this line.)_
 - **2026-06-08 07:33 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=bernstein verdict=held notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=verification-commit-restages-2ec582124-or-batches-civ-lens-without-separate-intent
 - **2026-06-08 07:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=karajan
 - **2026-06-08 07:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=karajan verdict=held notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=hierarchy-commit-batches-civ-lens-or-reopens-2ec582124-lane-order
+- **2026-06-08 17:52 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-08 17:53 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
