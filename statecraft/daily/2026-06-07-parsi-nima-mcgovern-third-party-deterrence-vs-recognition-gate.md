@@ -10,7 +10,7 @@ This companion opens one bounded follow-on from the June 6–7 Iran–Lebanon ar
 
 The goal is not a full day synthesis. It preserves how three archive-grounded voices divide one object:
 
-- **Parsi** — structural shift: third-party hard-power deterrence against Israeli regional maneuvers
+- **Parsi** — structural shift (first Substack) + operational fork (second Substack): third-party deterrence, MOU stall, Trump enter-war / abandon-Israel trap
 - **Nima** — same-night operationalization: Dahieh trigger, axis duty-split, Trump credibility collapse
 - **McGovern** — prior-day gate logic: why Lebanon bundling makes third-party response non-disposable
 
@@ -30,9 +30,13 @@ All three treat Israeli escalation on Lebanon as incompatible with credible U.S.
 - Nima: Israel's Dahieh strike while Trump claims Monday/Tuesday signing is "a big lie"; "there is no negotiations... Some messages coming back and forth."
 - McGovern: Trump can restrain one Beirut obliteration episode but cannot stop Lebanon-wide Israeli war; deal seriousness is tested at the Lebanon layer.
 
-## Parsi — Third-Party Deterrence Thesis
+## Parsi — Third-Party Deterrence Thesis (Two Same-Day Captures)
 
-Parsi is strongest when the issue is **regional equation change**, not nightly missile counts.
+Parsi carries **two June 7 Substack objects** — structural thesis first, operational Trump/MOU fork second. Nima supplies live bench detail the essays compress.
+
+### Structural thesis — *The profound geopolitical implications*
+
+Parsi is strongest here when the issue is **regional equation change**, not nightly missile counts.
 
 Distinct contribution: names a **historical first** — a regional power with means, capacity, and willingness to impose hard-power costs on Israeli aggression against a **third party** (Lebanon), not only on direct strikes on Iran.
 
@@ -46,6 +50,27 @@ Parsi therefore owns:
 **Has the regional cost-imposition equation against Israeli third-party operations changed structurally?**
 
 His answer on June 7: yes — if the Lebanon trigger holds, Palestinian extension becomes uncertain but potentially game-changing; Israel will fight the shift.
+
+### Operational fork — *After Israel strikes Beirut, what's Trump's next move?*
+
+Parsi is strongest here when the issue is **the same night's bargaining geometry** — fragile Lebanon arrangement, live exchange, and whether MOU seriousness survives hardware.
+
+Distinct contribution: names the **Trump binary trap** and **mutual MOU bad-faith reads** while Israel is expected to strike Iran within hours.
+
+- Fragile Lebanon arrangement: Iran warned continued Lebanon strikes would draw strikes on Israel; US/Israeli side cites Hezbollah killing 15 soldiers as violation — Iran "didn't or couldn't control Hezbollah."
+- Israel knew Dahieh would force Tehran to attack or back down while **weakening US-Iran diplomacy** — Iran read: Dahieh targets senior Hezbollah/Iranian officials → response inevitable.
+- Live count: **four waves** at northern Israel, Haifa; higher-quality missiles than prior war phase; Israel strike on Iran expected within hours.
+- MOU stall: US accuses Iran of playing for time / overnegotiating / incapable of yes; Iran accuses US of **moving goalposts** and withholding **frozen-asset release upfront** as seriousness proof.
+- **Trump trap:** enter war → accused of abandoning Israel if he stays out; enter war → validates **Israeli veto** on negotiations and on whether the US is at war.
+- America First close: extrication from Israeli-Iranian rivalry "serves US interest" — echoes structural essay's dominance-balance contradiction.
+
+Parsi therefore also owns:
+
+**Is executive command on war entry still separable from client veto once Lebanon hardware fires?**
+
+His answer on June 7: no — MOU and war entry collapse into one object; whichever branch Trump takes confirms capture (abandon-Israel charge vs Israel-veto validation).
+
+**Parsi vs Nima on the night:** Parsi compresses waves (four) and trap logic; Nima expands axis duty-split, Saudi/base attribution, Vance absence, and greenlight-denial theater. Same object, different resolution — Parsi policy fork, Nima live falsification receipts.
 
 ## Nima — Live Escalation And Axis Operationalization
 
@@ -86,26 +111,29 @@ His answer: Lebanon is where Iran tests whether restoration of circulation would
 
 | Voice | Primary job | Mechanism type |
 |-------|-------------|----------------|
-| Parsi | Name structural shift (third-party deterrence) | Regional equation / U.S. interest contradiction |
+| Parsi | Name structural shift + Trump/MOU trap (two Substack captures) | Regional equation / client veto on war entry / MOU bad-faith symmetry |
 | Nima | Prove the rule live (Dahieh → waves → axis → Saudi) | Operational escalation + axis coordination |
 | McGovern | Explain why Lebanon triggers are non-disposable | Recognition gate + resistance legitimacy |
 
 Short rule:
 
-**Parsi names the new rule. Nima shows the rule firing. McGovern explains why the rule was always implicit in the gate.**
+**Parsi names the new rule and the Trump trap around it. Nima shows the rule firing. McGovern explains why the rule was always implicit in the gate.**
 
 ## Where They Converge
 
 - **Lebanon is not a chip:** All reject normalization of Lebanese killing during U.S.–Iran message-passing.
 - **Trump restraint is thin:** Parsi cites Ravid restraint hope; Nima demolishes coordination/greenlight credibility; McGovern says one Beirut save does not equal Lebanon war stop.
 - **Israel will block the shift:** Parsi — Israel will "do everything it can to disallow any shift"; Nima — Dahieh attack to kill commanders / sabotage deal; McGovern — Netanyahu blackmail mesh and Congress capture prevent sustained restraint.
-- **America misaligned:** Parsi — dominance policy vs interests; Nima — administration "done," Zionist encirclement; McGovern — lobby, mesh, Mossad PowerPoint capture.
+- **America misaligned:** Parsi — dominance policy vs interests + Trump trap (war entry = client veto); Nima — administration "done," Zionist encirclement; McGovern — lobby, mesh, Mossad PowerPoint capture.
+- **MOU vs battlefield:** Parsi (operational) — unsigned MOU + mutual stall accusations while four waves fly; Nima — "no negotiations," deal talk as lie; McGovern — circulation/Lebanon one object, paperwork secondary.
 
 ## Where They Diverge
 
 **Register:** Parsi writes policy-consequence prose (dominance balance, Palestinian extension uncertainty). Nima writes live-host urgency (footage counts, Channel 12, oil price, Vance absence). McGovern writes resistance-law and institutional-capture prose (occupation legality, Kagan rat escape, NDAA mesh).
 
-**Trump evaluative tone:** Parsi preserves a sliver — Trump "signalled" restraint and wants a deal. Nima: negotiation pointless, Trump "useless," possibly playing a scripted role. McGovern: Trump showed willingness on one Beirut episode; structural carriers (Congress, lobby, Netanyahu) override.
+**Trump evaluative tone:** Parsi (structural) preserves a sliver — Trump "signalled" restraint and wants a deal. Parsi (operational) closes the fork — either branch validates Israeli veto or abandonment charge; no clean sovereign exit. Nima: negotiation pointless, Trump "useless," possibly playing a scripted role. McGovern: Trump showed willingness on one Beirut episode; structural carriers (Congress, lobby, Netanyahu) override.
+
+**Two Parsi registers:** Structural essay = decades-scale equation change. Operational essay = same-night arrangement violation, wave count, MOU parameter fight, hours-to-Iran-strike clock. Companion keeps both; do not merge into one Parsi voice.
 
 **Axis scope:** Parsi leaves Yemen/Palestine extension uncertain. Nima makes Yemen–Iran duty-split and Iraq/Kuwait join threats central. McGovern (June 6) includes Yemen/Hormuz+Red Sea as Iran's straight-flush leverage but does not detail June 7 Saudi base attribution.
 
@@ -113,7 +141,7 @@ Short rule:
 
 ## Compression Line
 
-**June 7 makes McGovern's recognition gate visible as third-party deterrence:** Parsi names the moved battle line; Nima shows Iran/Yemen spending it the night Israel strikes Lebanon (Dahieh); McGovern (June 6) already argued Lebanon is where Iran refuses to reopen circulation while allied humiliation continues — the June 7 exchange is that gate translated into cross-border hard power.
+**June 7 makes McGovern's recognition gate visible as third-party deterrence:** Parsi names the moved battle line (structural) and the Trump/MOU trap once hardware fires (operational); Nima shows Iran/Yemen spending it the night Israel strikes Lebanon (Dahieh); McGovern (June 6) already argued Lebanon is where Iran refuses to reopen circulation while allied humiliation continues — the June 7 exchange is that gate translated into cross-border hard power with **war-entry choice falsified either way**.
 
 ## Tensions And Falsifiers
 
@@ -125,6 +153,9 @@ Short rule:
 - Nima anchor: Israelis "greenlighted the attack on Dah then greenlighted the attack on Iran" while Trump publicly denies coordination.
 - If McGovern's partial gate (Trump stops one Beirut episode) repeats without Hormuz/asset concessions, gate thesis survives but **third-party deterrence** looks episodic rather than structural — Parsi thesis downgraded to tactical not historical.
 - McGovern anchor: "Trump called up BB Netanyahu and told him to cut it out" while Lebanon-wide war continues.
+- If MOU signs with upfront frozen-asset release and 72+ hr Lebanon quiet **without** Israeli Iran strike, Parsi operational trap read weakens — Trump retains a non-war branch that is not abandonment theater.
+- Parsi (operational) anchor: "If Trump doesn't enter the war, he will be accused of abandoning Israel. If he enters the war, he will validate that Israel has an effective veto."
+- If US enters fighting actively while MOU text still circulates, Parsi client-veto branch confirms — America transaction command-firewall drafting should assume **negotiation and war entry are not separable surfaces**.
 
 ## Return Paths
 
@@ -137,7 +168,8 @@ Parent daily: [Statecraft Daily Synthesis - 2026-06-07](./2026-06-07.md). This n
 
 ## Source Anchors
 
-- [Parsi / Substack - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md>)
+- [Parsi / Substack (structural) - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md>)
+- [Parsi / Substack (operational) - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md>)
 - [Nima / Dialogue Works solo - 2026-06-07](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-07/source-alkorshid-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md>)
 - [McGovern / Dialogue Works - 2026-06-06](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md>)
 
