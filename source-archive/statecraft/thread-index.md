@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 ## Stats
 
 - Distinct threads: `57`
-- Thread-linked source files: `2460`
+- Thread-linked source files: `2461`
 - Covered days: `447`
 - Covered months: `18`
 
@@ -27,8 +27,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `macgregor` | 77 | 66 | 17 | `Daniel Davis Deep Dive` (31), `Judging Freedom` (19), `Glenn Diesen` (6) | `Daniel Davis` (31), `Andrew Napolitano` (24), `Glenn Diesen` (15) | `2025-01-06` | `2026-06-06` |
 | `pape` | 62 | 49 | 5 | `escalationtrap.substack.com` (40), `Mario Nawfal` (3), `Breaking Points` (2) | `Robert Pape` (41), `Mario Nawfal` (3), `Clayton Morris` (2) | `2026-02-25` | `2026-06-08` |
 | `simplicius` | 62 | 62 | 4 | `simplicius76.substack.com` (62) | (none) | `2026-01-02` | `2026-04-27` |
+| `crooke` | 56 | 55 | 13 | `Dialogue Works` (5), `Daniel Davis Deep Dive` (4), `Judging Freedom` (4) | `Nima Alkhorshid` (8), `Daniel Davis` (6), `Glenn Diesen` (5) | `2025-06-25` | `2026-06-08` |
 | `marandi` | 56 | 45 | 10 | `Dialogue Works` (28), `Glenn Diesen` (11), `Daniel Davis Deep Dive` (9) | `Nima Alkhorshid` (28), `Glenn Diesen` (11), `Daniel Davis` (9) | `2025-01-05` | `2026-06-08` |
-| `crooke` | 55 | 54 | 13 | `Dialogue Works` (5), `Daniel Davis Deep Dive` (4), `Judging Freedom` (4) | `Nima Alkhorshid` (8), `Daniel Davis` (6), `Glenn Diesen` (5) | `2025-06-25` | `2026-06-08` |
 | `parsi` | 34 | 31 | 12 | `substack.com/@tritaparsi` (11), `Dialogue Works` (5), `tritaparsi.substack.com` (5) | `Trita Parsi` (18), `Nima Alkhorshid` (5), `Mario Nawfal` (3) | `2025-05-09` | `2026-06-07` |
 | `martyanov` | 33 | 32 | 13 | `Dialogue Works` (26), `Daniel Davis Deep Dive` (3), `Deep Dive` (1) | `Nima Alkhorshid` (26), `Daniel Davis` (4), `Glenn Diesen` (3) | `2025-01-26` | `2026-06-04` |
 | `baud` | 30 | 29 | 12 | `Dialogue Works` (19), `Daniel Davis Deep Dive` (5), `Glenn Diesen` (4) | `Nima Alkhorshid` (19), `Daniel Davis` (5), `Glenn Diesen` (4) | `2025-01-24` | `2026-06-08` |

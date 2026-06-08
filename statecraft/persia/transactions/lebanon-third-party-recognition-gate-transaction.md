@@ -165,6 +165,7 @@ Persia instrument does not merge America fiscal rows, but **relief activation** 
 - [Parsi × Nima × McGovern statecraft note](../../daily/2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
 - [America capture extension](../../daily/2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
 - [Pape Day 100 × New Phase × Lebanon Fuse](../../daily/2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
+- [Crooke three-date ceasefire-for-all arc](../../daily/2026-06-crooke-three-date-ceasefire-for-all-arc.md)
 - [Pape Day 100 indicator watch sheet](../../daily/2026-06-08-pape-day-100-indicator-watch-sheet.md)
 - [Marandi deal floor × gate clauses](../../daily/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
 

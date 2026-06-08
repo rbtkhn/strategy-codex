@@ -69,6 +69,7 @@ Draft statecraft notes only if the batch supports them:
 - **Marandi deal floor × gate Clauses A–D** — [statecraft note](./2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) ✓ · [gate transaction patched](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) · [Hormuz cross-link patched](../persia/transactions/hormuz-recognition-transit-transaction.md)
 - **Pape Day 100 indicator watch sheet** — [weekly falsifier table](./2026-06-08-pape-day-100-indicator-watch-sheet.md) ✓
 - **Marandi deal floor × Hormuz activation** — [statecraft note §Hormuz Activation](./2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md#hormuz-activation-rule--marandi-deal-floor-line-by-line) ✓
+- **Crooke three-date arc** (Jun 4 Substack × Jun 5 Dialogue × Jun 8 Judging Freedom) — [statecraft note](./2026-06-crooke-three-date-ceasefire-for-all-arc.md) ✓ · [Jun 4 Substack captured](../../source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md)
 - **Israeli retaliation × Aguilar** — Rise-and-Kill-First vs Trump phone theater
 - **Johnson Larijani × June 7 third-party gate** — [statecraft note](./2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade.md) ✓
 - **June 8 Nima × June 7 Nima** — ladder continuity vs pause

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T18:48:24+00:00",
+  "generated_at": "2026-06-08T19:03:27+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -784,10 +784,10 @@
     },
     "2026-06": {
       "captured_days": 8,
-      "source_count": 79,
+      "source_count": 80,
       "thread_count": 29,
-      "channel_or_show_count": 13,
-      "host_count": 13,
+      "channel_or_show_count": 14,
+      "host_count": 14,
       "guest_count": 28,
       "guest_label_variants": [
         {
