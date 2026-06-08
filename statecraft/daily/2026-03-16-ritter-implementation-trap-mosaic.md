@@ -131,6 +131,6 @@ March 16 proves all three: sixteen days in (Pape), mosaic phases executing (Croo
 
 - **May shelf back-read:** May "implementation decay" reads stronger when March implementation leg is explicit — not only command unreliability but **pre-falsified force options**.
 - **June shelf:** Lebanon gate spend assumes sponsor cannot bind client; March Ritter/Johnson already shows **sponsor cannot execute advertised military closure**.
-- **Arc companion (written):** [Dollar-Hormuz × trap–mosaic lattice](./2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) — March 19–23 toll-booth layer.
-- **Postol corroboration (written):** [Postol × Ritter battlefield companion](./2026-03-23-postol-vs-ritter-implementation-battlefield.md).
+- **Arc statecraft note (written):** [Dollar-Hormuz × trap–mosaic lattice](./2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) — March 19–23 toll-booth layer.
+- **Postol corroboration (written):** [Postol × Ritter battlefield statecraft note](./2026-03-23-postol-vs-ritter-implementation-battlefield.md).
 - **Attribution:** Ritter = combat-vet implementation; Pape = newsletter trap; Crooke = institutional/asymmetric — preserve layers in public copy.

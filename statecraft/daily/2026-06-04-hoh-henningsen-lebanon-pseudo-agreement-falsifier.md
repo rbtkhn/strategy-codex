@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This companion opens one bounded follow-on from the June 4 Lebanon pseudo-deal and tests it against June 5–7 gate behavior:
+This statecraft note opens one bounded follow-on from the June 4 Lebanon pseudo-deal and tests it against June 5–7 gate behavior:
 
 **When Washington announces a U.S.–Israel–Lebanese-government "ceasefire," does that constitute settlement carry — or does the axis red line falsify it within days?**
 
@@ -135,7 +135,7 @@ Short rule:
 
 **Tom Barrack:** Henningsen foregrounds Barrack civil-war/disarmament design; Hoh foregrounds Barrack as envoy alongside pseudo-ceasefire mechanics without Henningsen's resource depth; Pape does not foreground Barrack — stays on triad exclusion.
 
-**Section 224:** Hoh carries NDAA mesh in same capture; Henningsen and Pape stay on Lebanon/strategic trap — companion pairs but does not merge mesh into their blocks (see [America captured-command companion](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md)).
+**Section 224:** Hoh carries NDAA mesh in same capture; Henningsen and Pape stay on Lebanon/strategic trap — statecraft note pairs but does not merge mesh into their blocks (see [America captured-command statecraft note](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md)).
 
 **Next-move horizon:** Hoh and Henningsen center Lebanon gate and Iran restart; Pape explicitly forecasts **horizontal** Red Sea pressure as Iran's strongest remaining card if Beirut-only analysis misses the fuse.
 

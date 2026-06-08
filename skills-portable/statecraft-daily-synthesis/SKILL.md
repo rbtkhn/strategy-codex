@@ -146,7 +146,7 @@ Short rule:
 
 6. **Update the smallest live synthesis surfaces**
    - Update the relevant daily shelf index.
-   - Link companion comparison notes when they become durable enough to reuse.
+   - Link statecraft mechanism notes when they become durable enough to reuse.
 
 7. **Check the surface class before closing**
    - Ask whether the note is still visibly a synthesis note rather than a disguised essay.

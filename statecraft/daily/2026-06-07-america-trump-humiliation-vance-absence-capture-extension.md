@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This companion extends [America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md) and the [successor carrier check](../america/transactions/foreign-client-mesh-separation-and-command-review.md#successor-carrier-check-2026-06-06-pass) with **June 7 live event proof** from Nima's urgent Dialogue Works solo.
+This statecraft note extends [America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md) and the [successor carrier check](../america/transactions/foreign-client-mesh-separation-and-command-review.md#successor-carrier-check-2026-06-06-pass) with **June 7 live event proof** from Nima's urgent Dialogue Works solo.
 
 Bounded question:
 
@@ -99,7 +99,7 @@ June 6 successor check named two forks:
 
 ## Tensions And Falsifiers
 
-- If Vance issues a load-bearing restraint statement **with** deployment/budget/negotiation movement within 48–72 hours of June 7, restraint fork revives; this companion's Vance-absence read weakens (not falsified by silence alone long-term).
+- If Vance issues a load-bearing restraint statement **with** deployment/budget/negotiation movement within 48–72 hours of June 7, restraint fork revives; this statecraft note's Vance-absence read weakens (not falsified by silence alone long-term).
 - Vance object falsifier: public endorsement of escalation or blank check after apparent restraint positioning.
 - If verifiable executive order stops base-enabled third-party strikes and sustains multi-day Lebanon ceasefire **without** Israeli sabotage, Freeman/McGovern veto reads weaken jointly.
 - Freeman anchor: post-emissary referral to Netanyahu.
@@ -109,7 +109,7 @@ June 6 successor check named two forks:
 
 ## Return Paths
 
-This companion extends the June 6 America companion and the command-firewall transaction; it does not replace them.
+This statecraft note extends the June 6 America statecraft note and the command-firewall transaction; it does not replace them.
 
 - [America: Captured Command - 2026-06-06](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md)
 - [Parsi × Nima × McGovern: Third-Party Deterrence Vs Recognition Gate - 2026-06-07](./2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md) (same Nima source; Persia mechanism split)

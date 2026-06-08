@@ -29,7 +29,7 @@ Check that the required sections exist and appear in order:
 
 Optional sections are allowed:
 
-- `Companion Notes`
+- `Statecraft Notes`
 - `Archival Note`
 
 Fail if a required section is missing, renamed beyond recognition, or substantially out of order.
@@ -102,7 +102,7 @@ Check that the monthly note contains these sections in order:
 7. `Best Re-entry Days`
 8. `What The Month Clarified`
 9. `What The Month Still Did Not Settle`
-10. `Best Next Companion Notes`
+10. `Best Next Statecraft Notes`
 
 Fail if `Functional Convergence` is missing or if the note becomes a chronology replay.
 

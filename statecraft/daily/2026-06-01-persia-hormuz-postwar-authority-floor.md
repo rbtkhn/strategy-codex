@@ -143,7 +143,7 @@ This comparison matters because it prevents three common mistakes:
 2. treating reopening the strait as something obtainable through rhetorical pressure alone
 3. treating economic disruption as incidental rather than as the practical expression of changed authority
 
-The companion note therefore sharpens the June 1 Persia read:
+The statecraft note therefore sharpens the June 1 Persia read:
 
 - the key issue is not that Iran possesses a bargaining chip
 - the key issue is that the war failed to remove a surviving order instrument

@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This companion note opens one bounded follow-on from [Statecraft Daily Synthesis - 2026-06-06](./2026-06-06.md):
+This statecraft note opens one bounded follow-on from [Statecraft Daily Synthesis - 2026-06-06](./2026-06-06.md):
 
 **Why does the June 6 bench treat Hormuz and Lebanon as one object, but assign different explanatory jobs to each?**
 
@@ -100,9 +100,9 @@ Both treat Netanyahu/Trump rupture theater as non-falsifying by itself.
 
 **Ranking difficulty:** Marandi explicitly ranks Lebanon above Hormuz as the harder American concession. McGovern emphasizes bundling and stringency but does not rank the two in operational terms — he stresses the seamless garment and Iran's willingness to extend the arc (Yemen, Gaza, Hormuz+Red Sea closure threats).
 
-**Nuclear/NPT layer:** Marandi gives a long qualified read on NPT exit as leverage-not-weapon; McGovern does not engage nuclear posture on June 6. That stays outside this companion's scope.
+**Nuclear/NPT layer:** Marandi gives a long qualified read on NPT exit as leverage-not-weapon; McGovern does not engage nuclear posture on June 6. That stays outside this statecraft note's scope.
 
-**Gulf hosts:** Marandi names Kuwait/Bahrain strikes as direct retaliation mechanics; McGovern focuses on Gulf statelet survival through expelling Americans (closer to Macgregor in the parent daily). This companion notes the gap: Marandi owns strike-map logic; McGovern owns political survival framing without the same base-retaliation detail density.
+**Gulf hosts:** Marandi names Kuwait/Bahrain strikes as direct retaliation mechanics; McGovern focuses on Gulf statelet survival through expelling Americans (closer to Macgregor in the parent daily). This statecraft notes the gap: Marandi owns strike-map logic; McGovern owns political survival framing without the same base-retaliation detail density.
 
 ## Compression Line
 
@@ -120,7 +120,7 @@ On June 6, **Hormuz is how Iran conditions world circulation; Lebanon is how Ira
 
 ## Return To Parent Daily
 
-This companion sharpens one tension the parent note surfaced in `Dominant Themes §2` and `Mechanism Comparison`: the June 6 Iran file is one object with two layers. Parent daily remains canonical for the full seven-source bench (Freeman, Macgregor, Mercouris, Polyanskiy). This note owns only the Marandi–McGovern division inside the Persia bridge.
+This statecraft note sharpens one tension the parent note surfaced in `Dominant Themes §2` and `Mechanism Comparison`: the June 6 Iran file is one object with two layers. Parent daily remains canonical for the full seven-source bench (Freeman, Macgregor, Mercouris, Polyanskiy). This note owns only the Marandi–McGovern division inside the Persia bridge.
 
 ## Source Anchors
 

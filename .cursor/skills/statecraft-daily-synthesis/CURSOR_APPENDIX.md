@@ -9,14 +9,14 @@
 
 - Daily synthesis report:
   - [statecraft/daily/2026-05-29.md](/C:/dev/strategy-codex/statecraft/daily/2026-05-29.md)
-- Companion comparison note:
+- Statecraft mechanism note:
   - [statecraft/daily/2026-05-29-pape-vs-freeman-sachs-marandi.md](/C:/dev/strategy-codex/statecraft/daily/2026-05-29-pape-vs-freeman-sachs-marandi.md)
 
 **Repo notes**
 
 - Archive truth stays upstream in `source-archive/statecraft/`.
 - This skill begins only after the archive batch is real.
-- The default companion mechanism comparison for this repo is:
+- The default statecraft mechanism comparison for this repo is:
   - `Pape` = trap logic
   - `Freeman` = strategic backfire
   - `Sachs` = enabling carrier

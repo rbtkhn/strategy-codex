@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This companion note opens one bounded follow-on from [Statecraft Daily Synthesis - 2026-06-06](./2026-06-06.md):
+This statecraft note opens one bounded follow-on from [Statecraft Daily Synthesis - 2026-06-06](./2026-06-06.md):
 
 **How close is the Ukraine war to a Russia–NATO direct-confrontation threshold, and who explains which part of that ladder?**
 
@@ -136,7 +136,7 @@ On June 6, **Polyanskiy names the European threshold Europe may already have cro
 
 ## Return To Parent Daily
 
-This companion sharpens the parent note's tertiary Russia lane and `Mechanism Comparison` row for Ukraine/NATO widening. Parent daily remains canonical for the seven-source bench. This note owns only the Polyanskiy–Mercouris division on the Russia–Europe threshold.
+This statecraft note sharpens the parent note's tertiary Russia lane and `Mechanism Comparison` row for Ukraine/NATO widening. Parent daily remains canonical for the seven-source bench. This note owns only the Polyanskiy–Mercouris division on the Russia–Europe threshold.
 
 ## Source Anchors
 

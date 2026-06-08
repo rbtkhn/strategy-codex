@@ -19,7 +19,7 @@ This note records the current architectural pause point for the `statecraft/dail
 ## What Is Sealed
 
 - `9bf1b884` hardened the daily/monthly method contract, proof fixtures, and shelf doctrine
-- `13c83a3d` polished the synthesis architecture and added the month-method companion and first close surface
+- `13c83a3d` polished the synthesis architecture and added the month-method supplement and first close surface
 - `872b4e0a` added the narrow structural validator wedge
 - `8c3ef654` sealed the May 30-31 Johnson and Aguilar archive intakes that made the latest day surface possible
 
@@ -35,7 +35,7 @@ That restraint matters. The daily shelf is currently legible because its boundar
 
 The clean read of the system is now:
 
-`archive truth -> migrated day synthesis -> month compression -> companion note -> narrow validator -> later migration`
+`archive truth -> migrated day synthesis -> month compression -> statecraft note -> narrow validator -> later migration`
 
 The key improvement since the last close is that `later migration` is no longer hidden. It is now visible in validator output and therefore visible in stewardship.
 
@@ -46,6 +46,6 @@ The next elegant build step is **not** broad new automation and **not** prematur
 The next wedge is one of these two:
 
 - migrate another bounded cluster of May daily notes into the active five-volume contract
-- or write one strong companion note opened specifically by [2026-05-31.md](./2026-05-31.md), most likely on `carrier capture versus sovereign burden-bearing`
+- or write one strong statecraft note opened specifically by [2026-05-31.md](./2026-05-31.md), most likely on `carrier capture versus sovereign burden-bearing`
 
 Either path compounds the current architecture without blurring the line between migrated proof surfaces and legacy shelf coverage.

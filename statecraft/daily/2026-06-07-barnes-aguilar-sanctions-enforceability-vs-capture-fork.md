@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This companion extends [Barnes-Aguilar On Captured Command Versus Degraded Carry - 2026-05-31](./2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md) into the June capture arc with a narrower June question:
+This statecraft note extends [Barnes-Aguilar On Captured Command Versus Degraded Carry - 2026-05-31](./2026-05-31-barnes-aguilar-captured-command-vs-degraded-carry.md) into the June capture arc with a narrower June question:
 
 **If the president retains statutory levers (sanctions, munitions faucet, NDAA reallocation), why does client veto still govern — and will those levers ever fire?**
 
@@ -88,7 +88,7 @@ Transaction implication: firewall drafting must assume **executive levers are re
 ## Where They Converge
 
 - **Client veto durable:** BB "did it anyway" pattern (Aguilar); Barnes BB needs Trump but war logic diverges (Hoh parallel).
-- **NDAA money is the real fuel:** Aguilar appropriation/reallocation; Barnes mesh context (June 4 Hoh / June 6 companion).
+- **NDAA money is the real fuel:** Aguilar appropriation/reallocation; Barnes mesh context (June 4 Hoh / June 6 statecraft note).
 - **Trump ego/humiliation:** Barnes humiliation escalation domination; Aguilar bark-without-bite triage.
 - **Israel domestic politics rewards strike:** Aguilar Bennett/opposition frame; Barnes BB election dependency (countervailing but insufficient).
 
@@ -98,7 +98,7 @@ Transaction implication: firewall drafting must assume **executive levers are re
 
 **Congress role:** Barnes — war-powers votes materially binding. Aguilar — War Powers weak once NDAA appropriated; president can shift buckets.
 
-**Military carry:** May-31 Aguilar degraded air-defense thread not re-litigated here; June companion stays on **political-economic enforceability** not raid logistics.
+**Military carry:** May-31 Aguilar degraded air-defense thread not re-litigated here; June statecraft note stays on **political-economic enforceability** not raid logistics.
 
 ## Compression Line
 
@@ -112,7 +112,7 @@ Transaction implication: firewall drafting must assume **executive levers are re
 - Barnes anchor: "Trump has no authorization for any further war… constitutionally binding."
 - If Barnes BB-leverage narrative produces Netanyahu compliance without economic coercion, Aguilar lever catalog is optional not necessary — falsifies "only sanctions/munitions work."
 - Barnes anchor: "Trump's got all the leverage against BB he wants to use."
-- If Section 224 passes and integrated procurement accelerates aid without votes, both agree capture deepens — see [America captured-command companion](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md).
+- If Section 224 passes and integrated procurement accelerates aid without votes, both agree capture deepens — see [America captured-command statecraft note](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md).
 
 ## Return Paths
 

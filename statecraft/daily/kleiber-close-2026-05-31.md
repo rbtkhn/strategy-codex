@@ -41,7 +41,7 @@ This pass therefore sharpened three valid scales of addition:
 
 1. **speaker-owned side topic**
 2. **light mechanism comparison**
-3. **full companion synthesis**
+3. **full statecraft-note synthesis**
 
 The Barnes AI note proved scale `1`.
 The Barnes-Aguilar note proved scale `2`.

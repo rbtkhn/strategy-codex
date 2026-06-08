@@ -1,6 +1,8 @@
 WORK only; not Record.
 
-# Monthly Method Companion
+# Monthly Method Supplement
+
+> **Naming:** This file is the **monthly method supplement** for `statecraft/daily` — not a *statecraft note* (those are bounded mechanism/compare follow-ons under the same shelf). Legacy filename `MONTHLY-METHOD-COMPANION.md` retained for link stability.
 
 Purpose: define the next architectural step for `statecraft/daily` month notes after the first May 2026 proof month.
 

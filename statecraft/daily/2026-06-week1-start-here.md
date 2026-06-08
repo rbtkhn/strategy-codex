@@ -2,13 +2,13 @@ WORK only; not Record.
 
 # June 2026 Week 1 — Start Here (through 2026-06-07)
 
-One entry point for re-entering the first captured week of June 2026. Open this before the full day ladder or companion scatter.
+One entry point for re-entering the first captured week of June 2026. Open this before the full day ladder or statecraft-note scatter.
 
 **Governing object (week):** Lebanon recognition gate spent as third-party hard power while American executive command was falsified live.
 
 **Escalation paths (week):** Pape's June 4 [Lebanon Fuse](https://escalationtrap.substack.com/p/the-lebanon-fuse) names two coupled fuses — **vertical** (Lebanon pseudo-deal → Iran war restart) and **horizontal** (Red Sea + Hormuz dual-corridor pressure if containment does not flip). June 7 **lit the vertical fuse** (Dahieh → waves into Israel; Nima Saudi/base duty-split). The **horizontal half remains unspent** unless Bab el-Mandeb / Yanbu / systematic Houthi interference compounds. See [Hoh × Henningsen × Pape falsifier](./2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md).
 
-**Lane order (mechanism vs theater):** **Persia** owns the Lebanon-trigger mechanism (recognition gate + third-party deterrence); **America** is supporting-arm only (capture / executive falsification on shared live proof); **Russia** is orthogonal (Europe threshold, June 6 companion). Multi-lane shelf in `2ec582124` remains valid; deploy receipt in [conductor journal](../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md).
+**Lane order (mechanism vs theater):** **Persia** owns the Lebanon-trigger mechanism (recognition gate + third-party deterrence); **America** is supporting-arm only (capture / executive falsification on shared live proof); **Russia** is orthogonal (Europe threshold, June 6 statecraft note). Multi-lane shelf in `2ec582124` remains valid; deploy receipt in [conductor journal](../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md).
 
 **Archive:** [source-archive/statecraft/2026-06.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-06.md) — 7 days, 70 files through 2026-06-07 (includes Pape *Lebanon Fuse* + second Parsi Substack). Indices rebuilt session-close.
 
@@ -29,16 +29,16 @@ One entry point for re-entering the first captured week of June 2026. Open this 
 | Question | Open first |
 |----------|------------|
 | What happened June 7? | [Daily 2026-06-07](./2026-06-07.md) |
-| Why is Lebanon the gate, not a side file? | [2026-06-01](./2026-06-01.md) → [2026-06-05](./2026-06-05.md) → [Persia companion 2026-06-06](./2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md) |
+| Why is Lebanon the gate, not a side file? | [2026-06-01](./2026-06-01.md) → [2026-06-05](./2026-06-05.md) → [Persia statecraft note 2026-06-06](./2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md) |
 | Does the inquiry ladder survive for Iran (not just Russia)? | [Iran war ladder stress test](../notes/iran-war-inquiry-ladder-stress-test.md) → [Russia ladder method](../notes/russia-inquiry-ladder-as-recursive-learning.md) |
 | Was the June 4 Lebanon “deal” real? | [2026-06-04](./2026-06-04.md) + [Hoh × Henningsen × Pape falsifier](./2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md) |
 | Why was pseudo-diplomacy doomed before signature? | [Pape — The Lebanon Fuse](</C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md>) — triad exclusion (negotiations / security / Hezbollah survival) |
 | What if Lebanon alone does not force containment? | Pape horizontal card — Red Sea + Hormuz dual instability; June 7 **partial** activation (Nima/Yemen/Saudi); full dual-corridor **open** |
 | Bombing while talking / nuclear humiliation fork? | [2026-06-03](./2026-06-03.md) |
-| NDAA Section 224 / Pentagon mesh? | [Hoh in America companion](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md#hoh--section-224-statutory-mesh-june-4-pass) + [transaction Clauses A–E](../america/transactions/foreign-client-mesh-separation-and-command-review.md#instrument-text-draft-clauses) |
+| NDAA Section 224 / Pentagon mesh? | [Hoh in America statecraft note](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md#hoh--section-224-statutory-mesh-june-4-pass) + [transaction Clauses A–E](../america/transactions/foreign-client-mesh-separation-and-command-review.md#instrument-text-draft-clauses) |
 | Why doesn’t Trump stop Netanyahu? | [America humiliation 2026-06-07](./2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) + [Barnes × Aguilar levers](./2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) |
 | Persia drafting hooks? | [Lebanon third-party transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) |
-| Ukraine parallel? | [2026-06-06 Russia companion](./2026-06-06-russia-europe-threshold-polyanskiy-mercouris.md) |
+| Ukraine parallel? | [2026-06-06 Russia statecraft note](./2026-06-06-russia-europe-threshold-polyanskiy-mercouris.md) |
 
 ---
 
@@ -56,7 +56,7 @@ One entry point for re-entering the first captured week of June 2026. Open this 
 
 ---
 
-## Companion map (bounded compares)
+## Statecraft note map (bounded compares)
 
 - [Persia gate vs Hormuz mechanics](./2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
 - [America captured command](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md)

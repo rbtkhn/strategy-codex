@@ -6,7 +6,7 @@ This note closes the first bounded `statecraft/daily` method-hardening tranche.
 
 ## What Is Now Real
 
-- the shelf now has an explicit contract for daily notes, month notes, and companion notes in [METHOD.md](./METHOD.md)
+- the shelf now has an explicit contract for daily notes, month notes, and statecraft notes in [METHOD.md](./METHOD.md)
 - a human-first audit surface now exists in [audit-rubric.md](./audit-rubric.md)
 - a small permanent proof set now exists in [benchmark-manifest.md](./benchmark-manifest.md)
 - the first month note, [2026-05.md](./2026-05.md), is now treated as a benchmark fixture rather than an isolated experiment
@@ -25,7 +25,7 @@ That restraint is deliberate. The shelf now has enough doctrine to be judged bef
 
 The daily synthesis system should now be read as:
 
-`archive truth -> day synthesis -> month compression -> companion note -> audit / benchmark / future validator`
+`archive truth -> day synthesis -> month compression -> statecraft note -> audit / benchmark / future validator`
 
 That line is now explicit on disk rather than only implicit in operator memory.
 

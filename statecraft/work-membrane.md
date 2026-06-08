@@ -57,7 +57,7 @@ The main `statecraft` artifact classes are:
 - day indexes, month indexes, and source-archive navigation surfaces
 - daily synthesis notes
 - monthly synthesis notes
-- companion notes
+- statecraft notes
 - bridge notes
 - civ-state notes, readers, and retrieval aids
 - validator and audit support surfaces
@@ -65,7 +65,7 @@ The main `statecraft` artifact classes are:
 Read them by membrane class:
 
 - source-archive navigation and generated support views are often `runtime / derived`
-- daily, monthly, companion, bridge, and method surfaces are usually `governed adjacent`
+- daily, monthly, statecraft note, bridge, and method surfaces are usually `governed adjacent`
 - active planning and operator execution surfaces remain `instrumental work`
 
 ---
@@ -76,7 +76,7 @@ Typical route shapes:
 
 - `operator-pasted source -> source-archive intake object -> day/month index`
 - `source-archive intake object -> daily synthesis note`
-- `daily synthesis note -> companion note`
+- `daily synthesis note -> statecraft note`
 - `daily/monthly synthesis -> audit rubric or benchmark fixture`
 - `source-archive + synthesis + validators -> runtime / derived helper`
 

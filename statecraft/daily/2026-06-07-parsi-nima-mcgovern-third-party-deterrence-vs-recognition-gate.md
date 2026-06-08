@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This companion opens one bounded follow-on from the June 6–7 Iran–Lebanon arc:
+This statecraft note opens one bounded follow-on from the June 6–7 Iran–Lebanon arc:
 
 **When Iran strikes Israel after an Israeli strike on Lebanon, is that a new deterrence rule (Parsi/Nima) or the live proof of McGovern's recognition gate (June 6)?**
 
@@ -133,7 +133,7 @@ Short rule:
 
 **Trump evaluative tone:** Parsi (structural) preserves a sliver — Trump "signalled" restraint and wants a deal. Parsi (operational) closes the fork — either branch validates Israeli veto or abandonment charge; no clean sovereign exit. Nima: negotiation pointless, Trump "useless," possibly playing a scripted role. McGovern: Trump showed willingness on one Beirut episode; structural carriers (Congress, lobby, Netanyahu) override.
 
-**Two Parsi registers:** Structural essay = decades-scale equation change. Operational essay = same-night arrangement violation, wave count, MOU parameter fight, hours-to-Iran-strike clock. Companion keeps both; do not merge into one Parsi voice.
+**Two Parsi registers:** Structural essay = decades-scale equation change. Operational essay = same-night arrangement violation, wave count, MOU parameter fight, hours-to-Iran-strike clock. Statecraft note keeps both; do not merge into one Parsi voice.
 
 **Axis scope:** Parsi leaves Yemen/Palestine extension uncertain. Nima makes Yemen–Iran duty-split and Iraq/Kuwait join threats central. McGovern (June 6) includes Yemen/Hormuz+Red Sea as Iran's straight-flush leverage but does not detail June 7 Saudi base attribution.
 
@@ -159,7 +159,7 @@ Short rule:
 
 ## Return Paths
 
-This companion sharpens the June 6 Persia companion's gate/mechanics split by adding June 7 **event proof** from Parsi and Nima. Parent references:
+This statecraft note sharpens the June 6 Persia statecraft note's gate/mechanics split by adding June 7 **event proof** from Parsi and Nima. Parent references:
 
 - [Persia: Lebanon-First Gate Vs Hormuz Mechanics - 2026-06-06](./2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md) (Marandi–McGovern division)
 - [Statecraft Daily Synthesis - 2026-06-06](./2026-06-06.md) (seven-source parent daily)

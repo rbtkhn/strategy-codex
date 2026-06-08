@@ -116,6 +116,6 @@ March 23 Freeman **operationalizes** the same layer without contradicting Crooke
 ## Best Next Uses
 
 - **June genesis read:** May–June command-unreliability assumes March already proved **sponsor cannot execute closure** — this lattice is the March proof packet.
-- **Companion follow-on (written):** [Postol × Ritter](./2026-03-23-postol-vs-ritter-implementation-battlefield.md) — radar/interceptor phases × Hormuz gauntlet.
+- **Statecraft note follow-on (written):** [Postol × Ritter](./2026-03-23-postol-vs-ritter-implementation-battlefield.md) — radar/interceptor phases × Hormuz gauntlet.
 - **Pape questions-as-spec:** Use §2 logistics indicators as EXECUTE falsifiers for any "Hormuz solved" headline week.
 - **Attribution:** Pape/Crooke newsletter; Freeman/Postol/Baud interview; Simplicius proxy only for Kharg/Marine rumor cross-check.

@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This companion note opens one bounded follow-on from [Statecraft Daily Synthesis - 2026-06-06](./2026-06-06.md):
+This statecraft note opens one bounded follow-on from [Statecraft Daily Synthesis - 2026-06-06](./2026-06-06.md):
 
 **Why does the June 6 bench read Washington as militarily active but politically captured — unable to restrain Israel or close either war?**
 
@@ -185,7 +185,7 @@ On June 6, **America still projects force but no longer commands outcomes**: Mac
 
 ## Return To Parent Daily
 
-This companion sharpens the parent note's primary America lane (`Lane Read`, `Dominant Themes §3`). Parent daily remains canonical for the full seven-source bench. This note owns only the Macgregor–McGovern–Freeman division inside captured-command / client-veto mechanics.
+This statecraft note sharpens the parent note's primary America lane (`Lane Read`, `Dominant Themes §3`). Parent daily remains canonical for the full seven-source bench. This note owns only the Macgregor–McGovern–Freeman division inside captured-command / client-veto mechanics.
 
 ## Source Anchors
 

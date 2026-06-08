@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This companion note isolates one mechanism that the May 31 daily note made visible but did not fully separate:
+This statecraft note isolates one mechanism that the May 31 daily note made visible but did not fully separate:
 
 - **America** reads the crisis as machinery still acting from inside a captured command environment
 - **Rome** reads the same crisis as order-claiming carriers losing the capacity to bear the burdens they invoke
@@ -13,7 +13,7 @@ The point is not to force the two CIV-STATE reads into a single voice. It is to 
 
 ## Shared Object
 
-The May 31 shelf already judged the day as a case of coercive pressure continuing after implementation credibility had weakened. This companion note narrows that judgment further:
+The May 31 shelf already judged the day as a case of coercive pressure continuing after implementation credibility had weakened. This statecraft note narrows that judgment further:
 
 **the most important problem is not only that coercion failed, but that the carriers still speaking in the language of order, deterrence, and command are increasingly unable to bear what those claims require**
 
@@ -118,7 +118,7 @@ Use **Rome first** when the task is:
 - legitimacy erosion as a carrying-capacity problem
 - overextension around infrastructure, deterrence, or escalation thresholds
 
-Use **this companion note** when the task is:
+Use **this statecraft note** when the task is:
 
 - explaining why captured machinery and failing carriers are related but not identical
 - clarifying why the May 31 daily note deepened so strongly under `Rome + America`

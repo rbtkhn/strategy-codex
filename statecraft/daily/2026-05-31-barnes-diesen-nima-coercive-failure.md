@@ -129,7 +129,7 @@ This comparison matters because it prevents three common collapses:
 2. treating Hormuz control as only a tactical bargaining chip
 3. treating Iranian refusal as either irrationality or mere propaganda
 
-The companion note clarifies the May 31 day judgment:
+The statecraft note clarifies the May 31 day judgment:
 
 - the core failure is not just that coercion stumbled
 - the core failure is that U.S. command unreliability, Iranian leverage architecture, and Iranian non-capitulation all reinforced each other at once

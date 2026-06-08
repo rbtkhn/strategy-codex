@@ -20,7 +20,7 @@ Why it is in the set:
 - heavy quote-bearing analytical load
 - clear lane hierarchy with America primary and Persia secondary
 - visible five-volume deepening pass
-- companion-note linkage already present
+- statecraft-note linkage already present
 
 What it should keep proving:
 

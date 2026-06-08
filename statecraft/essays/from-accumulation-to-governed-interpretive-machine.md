@@ -48,7 +48,7 @@ Over the most recent sequence of work, several layers started locking together.
 
 ### 1. `statecraft` became a real synthesis machine
 
-Daily synthesis, monthly synthesis, companion notes, benchmark fixtures, and
+Daily synthesis, monthly synthesis, statecraft notes, benchmark fixtures, and
 validators made `statecraft` into something more than a place for good
 geopolitical writing.
 
@@ -59,7 +59,7 @@ That means a note is no longer just a note. It may now be:
 - a day object
 - a month object
 - a mechanism comparison
-- a companion clarification
+- a statecraft-note clarification
 - a benchmarked proof surface
 
 Each one has a clearer role.

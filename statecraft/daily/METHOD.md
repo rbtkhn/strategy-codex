@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Statecraft Daily Synthesis Method
 
-Purpose: define the active contract for the `statecraft/daily` shelf now that it contains daily notes, month notes, companion notes, and occasional linked intelligence essays.
+Purpose: define the active contract for the `statecraft/daily` shelf now that it contains daily notes, month notes, statecraft notes, and occasional linked intelligence essays.
 
 Use this note when the real question is not only where a note lives, but what kind of synthesis it is supposed to perform, how to judge whether it learned anything, and what failures count as regressions rather than style variation.
 
@@ -36,9 +36,9 @@ Its job is to:
 
 It is not a chronology replay and it is not a speaker-month shelf.
 
-### Companion note
+### Statecraft note
 
-A companion note is a bounded follow-on comparison or mechanism note that emerges from a daily or monthly object.
+A **statecraft note** is a bounded follow-on comparison or mechanism note that emerges from a daily or monthly synthesis object.
 
 Its job is to:
 
@@ -47,6 +47,8 @@ Its job is to:
 - remain locally retrievable from the day or month that generated it
 
 It is not the canonical owner of chronology.
+
+**Legacy term (deprecated):** *companion note* — same surface class. Do not confuse with **companion-self** / Record, **PH companion commentary**, or intake **companion clip** (highlight segment).
 
 ### Intelligence essay
 
@@ -90,7 +92,7 @@ Required section order for the active daily contract:
 
 Optional sections:
 
-- `Companion Notes`
+- `Statecraft Notes`
 - `Archival Note`
 
 Daily note law:
@@ -120,7 +122,7 @@ Required section order for the active monthly contract:
 7. `Best Re-entry Days`
 8. `What The Month Clarified`
 9. `What The Month Still Did Not Settle`
-10. `Best Next Companion Notes`
+10. `Best Next Statecraft Notes`
 
 Monthly note law:
 
@@ -150,7 +152,7 @@ Required law for intelligence essays on this shelf:
 - speaker names, transcript quotes, and comparative archive scaffolding should usually remain absent from the body
 - the archive may remain the substrate, but not the visible narrative driver
 - these essays may be historically deeper than daily notes and may use mirrored or paired structures
-- they should point back lightly to their generating day or companion mechanism notes, but should not read like transformed daily syntheses
+- they should point back lightly to their generating day or statecraft mechanism notes, but should not read like transformed daily syntheses
 - they are allowed to be interpretive first and evidentiary second, provided they remain bounded to a clearly named live object
 
 Short test:
@@ -173,7 +175,7 @@ A valid synthesis does at least one of these:
 - sharpens or limits the lane read
 - shows why unlike speakers converge on one governing object
 - uses the five-volume pass to surface a truth the lane/speaker read would likely have missed
-- improves the next companion note or lane-draft opening
+- improves the next statecraft note or lane-draft opening
 
 A failed synthesis is one where:
 

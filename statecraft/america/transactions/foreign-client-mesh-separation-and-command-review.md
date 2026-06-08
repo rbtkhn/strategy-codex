@@ -13,7 +13,7 @@ Foreign client mesh separation and command-review firewall.
 ## Source Inputs
 
 - Speaker-state inputs: Macgregor (NDAA mesh, protection limits, force-structure mismatch), McGovern (CI critical tier, lobby capture, 1973 treaty rejection logic), Freeman (Trump→Netanyahu referendum chain, sukfong negotiation incapacity, Greater Israel backfire), **Hoh (Section 224 statutory mesh — coordination agent, procurement embedding, vote evasion, Netanyahu origination)**.
-- Scoreboards used: June 6 America companion compression — [Captured Command, NDAA Mesh, CI Alarm, Client Veto](../../daily/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (includes Hoh June 4 pass); parent [Daily Synthesis 2026-06-06](../../daily/2026-06-06.md); [Daily Synthesis 2026-06-04](../../daily/2026-06-04.md).
+- Scoreboards used: June 6 America statecraft note compression — [Captured Command, NDAA Mesh, CI Alarm, Client Veto](../../daily/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (includes Hoh June 4 pass); parent [Daily Synthesis 2026-06-06](../../daily/2026-06-06.md); [Daily Synthesis 2026-06-04](../../daily/2026-06-04.md).
 - Raw-input / provenance anchors:
   - [Macgregor / Nawfal 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-nawfal-macgregor-pentagon-names-israel-top-spy-threat-iran-levels-gulf-again-2026-06-06.md)
   - [McGovern / Dialogue Works 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
@@ -210,7 +210,7 @@ Same-night stress test on the capture fork:
 
 Transaction implication: firewall clauses must bind **beyond executive brag** — statute/sunset + base-use finding + emissary notification — because June 7 shows personal command claims are non-implementable under client veto.
 
-### Executive levers unused (Aguilar × Barnes companion pass)
+### Executive levers unused (Aguilar × Barnes statecraft-note pass)
 
 See [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](../../daily/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md).
 
@@ -235,6 +235,6 @@ Drafting bias addition:
 - [America war](../civilization/war.md)
 - [America peace](../civilization/peace.md)
 - [Empire seed instruments](../empire/seed-instruments.md)
-- [Daily companion](../../daily/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (Macgregor–McGovern–Freeman + Hoh Section 224)
+- [Daily statecraft note](../../daily/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (Macgregor–McGovern–Freeman + Hoh Section 224)
 - [Daily synthesis 2026-06-04](../../daily/2026-06-04.md)
-- [Barnes × Aguilar enforceability companion](../../daily/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md)
+- [Barnes × Aguilar enforceability statecraft note](../../daily/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md)
