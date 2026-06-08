@@ -4,16 +4,12 @@ pub_date: 2026-06-08
 kind: transcript
 source_form: interview
 thread: barnes
-threads:
-  - barnes
-  - nawfal
+threads: ""
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Robert Barnes
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Robert Barnes
+host_people: ""
+guest_people: ""
 title: "BREAKING: IRAN LAUNCHES ATTACK ON U.S. BASES – w/ Political Analyst Robert Barnes"
 source_url: "https://www.youtube.com/watch?v=bPP1SPCAegU"
 youtube_id: bPP1SPCAegU

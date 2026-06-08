@@ -16,9 +16,10 @@ source_url: "https://www.youtube.com/watch?v=X1BVrPUOu5Y"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Wilkerson interview.
-editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing.
+editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
 youtube_id: X1BVrPUOu5Y
-opening_tier: clean
+opening_tier: heavy-banter
+opening_trim_applied: true
 ---
 
 # BREAKING: PAKISTAN "OFFERED IRAN NUKES" - w/ Col. Larry Wilkerson
@@ -31,8 +32,6 @@ opening_tier: clean
 **Transcript:** Operator-pasted YouTube transcript preserved as raw-input SSOT.
 
 ## Transcript
-BREAKING: PAKISTAN "OFFERED IRAN NUKES" - w/ Col. Larry Wilkerson
-
 Transcripts:
 the ups and downs of life well let's start with their kernel um what was your reaction when you first saw that report of uh just for the audience we were just talking about the report of uh trump allegedly calling netanyahu an effing idiot what are you doing you'd be in jail without me everyone hates you everyone hates israel what the f you're doing so that's according to Axios and and channel 12 I think not channel 12 one of the Israeli media outlets also corroborated that there was a very tense call but not the details of it you know that was one of
 the things I was reading just before we went on I'm starting to figure out exactly what they were hiding I don't think it's unusual given what I've heard before about one or two phone calls and one or two meetings that they had. Trump gets volatile. Volcanic might be a better term with him from time to time.

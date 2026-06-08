@@ -16,8 +16,9 @@ source_url: "https://www.youtube.com/watch?v=4p1phpcrjoQ"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 5, 2026 Mario Nawfal / Trita Parsi interview.
-editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
-opening_tier: host-monologue
+editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+opening_tier: heavy-banter
+opening_trim_applied: true
 ---
 
 # IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE - w/ Trita Parsi
@@ -31,7 +32,7 @@ opening_tier: host-monologue
 
 ## Transcript
 
-We're going live. No jokes. Careful. Um, Tita, how are you? >> I'm doing well. How are you? >> Good, good. Um, you seem to have um following this probably better than than most people I speak to. What's the latest today? How are things looking? >> Um, there seems to have been some positive movements, but again, we it's, you know, this this issue situation has been so volatile.
+>> Um, there seems to have been some positive movements, but again, we it's, you know, this this issue situation has been so volatile.
  I I don't want to get anyone's hopes up or or anything of that kind, but essentially there is a proposal that is coming in probably has already come in by now um uh from the Iranian side and the mediators and it's primarily the Qataris. It is seeking to resolve an issue that has become a stumbling block for theou which is uh the release of Iran's frozen assets.
  The Iranians have insisted that about 12 billion should be released right away. This is important to them for a variety of reasons and I can go into that and that has been resisted in various ways by the US side. They don't want to give up too much upfront. At the same time, when it comes to the full amount of Iran's frozen assets, we're talking about somewhere between 120 to$150 billion.
  So, this is still a relatively small chunk of it. Moreover, 50% of it, six billion, is something that already was negotiated on between the US and Iran and agreed upon back in 2022. Back in 2022, the US side and the Iranians under the B administration had an agreement in which $6 billion would be released to the Iranians, but actually wouldn't even go to the Iranians.

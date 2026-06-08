@@ -12,8 +12,10 @@ source_url: "https://www.youtube.com/watch?v=-B78m8F_2SQ"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 29, 2026 Mario Nawfal / Anthony Aguilar interview.
-editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
-opening_tier: host-monologue
+editorial_note: Opening rapport/production banter trimmed in place; orphan mid-re-read fragment removed manually; transcript starts at CENTCOM announcement read.
+opening_tier: heavy-banter
+opening_trim_applied: true
+orphan_trim_applied: true
 ---
 
 # BREAKING: Trump Orders Military Action - w/ Lt. Col. Anthony Aguilar
@@ -27,13 +29,7 @@ opening_tier: host-monologue
 
 ## Transcript
 
-Uh, Colonel, how are you? >> I'm doing well. How are you, Mario? >> Good. Um, I'm hoping you can help me make sense of this. Did you see the announcement that came in from US Navy Central Command? Just came in. I'm going to get the a uh Lisa to fix your audio just to cut out now. Unless you can fix it quickly now and I'll read it out for the audience.
- You'll still be able to hear me while try to say something quickly. Yeah, Lisa, if you can fix Colonel's um Anony's audio just quickly in the back in the green room and I'll read out the announcement now for the audience um that Lieutenant Colonel is coming on to talk about. US Navy Central Command has warned mariners and airmen that Sentcom will be conducting military operations in the Strait of Hormuz north of Oman's Misandon Peninsula located in the middle of the straits and you guys know the you know I know the Oman's Mandum Peninsula
-so well because Malcolm Nas talks about it in our shows he's talked about it a lot this is Oman's um territory within the straight of Hummus um so what does it mean for the US Navy to be conducting military operations then they expand US uh the US Navy has advised to mariners to collaborate with the US when transiting the transiting the straight of hummus.
- Um they've also announced that the vessels spotted engaging in or supporting mine laying activities will be targeted by the US. So for me that seems like the US is trying to open the straight of Hummus. They're asking mariners to collaborate with the US when transiting. They're meant to work with Iran but they're saying hey on the Ammani side you transit with us.
- So the reason they're doing this is is the way I interpret this is negotiations are going on right now. Trump announced victory but there's terms that haven't been agreed and this action is because of one term. Iran wants to control the straight of hummus. The US does not want Iran to control the straight of hummus.
-And the way I see this is the US trying to put pressure on Iran again to tell them look guys we do not want you to control the straight of we will not let you control the straight of so accept to concede that and we have a deal. That's how I see it. Did you Did you hear me read out the announcement, Anthony? >> Um, I I heard the last thing, but I also >> I'll read it out quick.
- It's a quick one. I'll read it very quickly. US Navy Central Command has warned mariners and airmen that Sentcom will be conducting military operations in the straight of Hamuz north of Oman's Musandam Peninsula located in the middle of the straight. Um, the Navy has advised mariners to uh collaborate with the US when when transiting the strait, transiting the straight.
+US Navy Central Command has warned mariners and airmen that Sentcom will be conducting military operations in the straight of Hamuz north of Oman's Musandam Peninsula located in the middle of the straight. Um, the Navy has advised mariners to uh collaborate with the US when when transiting the strait, transiting the straight.
  They've also announced that the any vessels spotted engaging in or supporting mine laying activities will be targeted by the US. >> Yes, this is um this is an outcome that I saw from at least my perspective very very clearly in terms of where this would go. You know, last week when you and I talked the the peace talks were back on the table and it was going back and forth between the you know, we're we're close. Oh, now we're not close.
 Oh, we're close. Now we're close again. And ultimately, it would have to have Donald Trump's signoff before there would be, you know, any uh, you know, signing on the dotted lines, so to speak, of any type of memorandum of understanding or extended ceasefire. Um, I I saw that as a as a ruse. Um, Donald Trump has no intention of accepting uh any conditions or parameters from Iran other than absolute surrender.
  He said this in the early days of this war. In fact, in early March, he said this. I don't see him coming off of that precedent in terms of what he's already told the world. To do so, he would look even more weak than he is already in the eyes of the international community. And that this war has now been going on for 90 days.

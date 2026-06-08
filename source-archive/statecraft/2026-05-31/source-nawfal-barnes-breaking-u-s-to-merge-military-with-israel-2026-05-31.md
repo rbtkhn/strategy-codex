@@ -12,10 +12,11 @@ source_url: "https://www.youtube.com/watch?v=LPdeT4kf0HU"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Robert Barnes interview.
-editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. Lisa/producer opening audio block trimmed in place; SSOT body otherwise preserved.
 youtube_id: LPdeT4kf0HU
 opening_tier: heavy-banter
 opening_trim_applied: true
+production_trim_applied: true
 ---
 
 # BREAKING: U.S. TO MERGE MILITARY WITH ISRAEL - w/ Political Analyst Robert Barnes
@@ -28,9 +29,7 @@ opening_trim_applied: true
 **Transcript:** Operator-pasted YouTube transcript preserved as raw-input SSOT.
 
 ## Transcript
->> Yeah, glad to be here. >> So, um, one thing along the, uh, by the way, Lisa, Robert's volume is a bit low. Just a heads up. I don't know why it's, uh, I don't know in your mind if it's good. Uh, Lisa, >> yeah, >> but, um, yeah, check it because it's low for me. I don't >> work better.
->> I think so. I'll have the producer because I can't hear myself. Um, just to make sure it's at the same level. Is it at the same level now, Lisa? Um, yeah. Can you hear me at the same level as his or is am I louder? >> Yeah. Put it up more. >> All right. >> Now it should be better. >> Yeah. Perfect.
- Uh, good to have you, man. Yeah. So, a lot of people are talking on whether we're going to have a deal or not. And, uh, I I'll go through kind of the latest developments. There's an update that just came in right now. The Iranians are saying, "Look, they just they're both going back and forth on the various terms, which is expected in a deal.
+Yeah. So, a lot of people are talking on whether we're going to have a deal or not. And, uh, I I'll go through kind of the latest developments. There's an update that just came in right now. The Iranians are saying, "Look, they just they're both going back and forth on the various terms, which is expected in a deal.
  Politically, is a resumption of war even possible or that's completely out of the question?" >> Not in Trump's mind, no. In Trump's mind, that is uh entirely and within Hegseth's mind, it's entirely plausible. Not within anybody else pretty much in the world, but it is within their their two minds.
  They believe that uh that it presents actual leverage and they believe that he could uh also the thought process is he could go in for one last round and then declare victory and go home uh without any deal being signed though the problem there is you know what if Iran doesn't open up the straits as is presumed in that scenario. So in Trump's mind he absolutely can go back in and he's mind he absolutely can go back in.
  Everyone else has said that would be a high-risk uh process that would have more risk than reward attached to it. But not not with those two. >> What do you mean not with those two? So if it's if something's politically costly, it doesn't make sense to pursue it. Because that's why one of the reasons I don't think war will continue is that politically it doesn't make sense.

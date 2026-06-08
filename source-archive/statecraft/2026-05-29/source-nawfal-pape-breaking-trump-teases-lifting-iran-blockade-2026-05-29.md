@@ -12,8 +12,9 @@ source_url: "https://www.youtube.com/watch?v=49oYoBv-9pM"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 29, 2026 Mario Nawfal / Robert Pape interview.
-editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
-opening_tier: host-monologue
+editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+opening_tier: heavy-banter
+opening_trim_applied: true
 ---
 
 # BREAKING: TRUMP TEASES LIFTING IRAN BLOCKADE - w/ Analyst & Prof. Robert Pape
@@ -27,8 +28,7 @@ opening_tier: host-monologue
 
 ## Transcript
 
-Transcripts:
-Professor, it's a pleasure to speak to you again. How are you? >> Uh, I'm doing great, Mario. It's great to speak to you and everybody on your audience. >> Um, a lot has happened as always since we last spoke. Uh, it seems that we're pretty close to a deal. That's how it seems like. If you listen to western media when it comes to Iranian media today they said that according to tasim theou has been altered because we had reports that the already been agreed by both sides again according to western media I think NBC reported that I
+>> Um, a lot has happened as always since we last spoke. Uh, it seems that we're pretty close to a deal. That's how it seems like. If you listen to western media when it comes to Iranian media today they said that according to tasim theou has been altered because we had reports that the already been agreed by both sides again according to western media I think NBC reported that I
 reported that 3 days ago and that so that directly contradicts what NBC me al said which was that a preliminary extending the ceasefire 60 days and opening permanent war ending negotiations was already you know that it's been done but hasn't been announced. Um, apparently what's on the table according to Tasnim, let me see if this is according to Tasnim. Um, yeah.
 So, I don't know what this but based on the various sources, the unrestricted vessel access through the straight home, full lifting of the US naval blockade on the Iranian ports, and a path to ending the war permanently. So, when I was under the impression that Iran will have some assets unfrozen as part of this, they went to Qatar.
  Apparently the meeting went well. They get 124 billion whether it's through unfreezing of assets, humanitarian loan collateralized by assets. They get some money number one. And number two is will they charge a fee at the straight home. I'd be very surprised if they don't. I think that would be a win for Trump.

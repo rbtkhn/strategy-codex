@@ -218,7 +218,7 @@ Structured-field law:
    - Reflow into readable paragraphs or turns when the family pattern expects that.
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
    - For `Judging Freedom / Napolitano` archive captures, strip clearly separable ideological cold opens or canned sponsor/promotional reads at the opening and routine lineup/schedule promos at the close.
-   - For `Mario Nawfal` archive captures, classify `opening_tier` and run `scripts/normalize_nawfal_opening_banter.py --apply` after landing when the boundary is unmistakable (see § Mario Nawfal below).
+   - For `Mario Nawfal` archive captures, run the post-land hook `scripts/post_land_nawfal_opening_normalize.py --path <landed-file>` immediately after landing (see § Mario Nawfal below).
    - For interview lanes that routinely include sponsor or promo scaffolding, strip those blocks only when the boundary is unmistakable and the substantive interview body remains intact.
    - Do not over-clean, summarize, or rewrite the substance.
 
@@ -390,10 +390,15 @@ Short rule:
   - Strip unmistakable opening blocks: `Hey man`, `how are you` loops, producer/Lisa/audio fixes, `welcome back to reality`, `two weeks` schedule banter, `We're going live. No jokes.`, and similar live-desk filler when clearly separable from substantive exchange.
   - Do **not** strip Mario's on-topic deal/news read unless the operator explicitly requests aggressive side-quest removal (`--include-side-quests` on the normalizer).
   - If banter is entangled with substantive exchange, leave the body intact and flag `opening_tier` only.
-- After landing a Nawfal-hosted object, run:
-  - `python scripts/normalize_nawfal_opening_banter.py --path <landed-file> --apply`
-  - or batch: `python scripts/normalize_nawfal_opening_banter.py --apply`
+- **Post-land hook (default on every Nawfal land):**
+  - `python scripts/post_land_nawfal_opening_normalize.py --path <landed-file>`
+  - Preview only: `python scripts/post_land_nawfal_opening_normalize.py --path <landed-file> --dry-run`
+  - Non-Nawfal paths no-op with `skip … (not Mario Nawfal)`; Nawfal no-change returns `no-op …`
+- **Batch backfill / repair** (not per-intake default): `python scripts/normalize_nawfal_opening_banter.py --apply`
 - Receipt fields when trim applies: `opening_trim_applied: true` and an `editorial_note` line stating opening rapport/production banter was trimmed in place.
+- Lisa/producer audio blocks at the opening (volume checks, studio fixes before the host's first on-topic read) may require a second normalizer pass on already-trimmed files; receipt field: `production_trim_applied: true`.
+- Guest-dropout reconnect filler (Lisa + internet/video cut + Mario solo recap before guest returns) trims to the guest re-entry question when separable; receipt field: `dropout_trim_applied: true`.
+- Post-trim orphan fragments at the opening (e.g. `heard the last thing` / `I'll read it out quick` before the first substantive read) may be removed when an institution anchor follows; receipt field: `orphan_trim_applied: true`.
 
 ### Interview self-date precedence
 

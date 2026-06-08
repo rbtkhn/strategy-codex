@@ -16,9 +16,10 @@ source_url: "https://www.youtube.com/watch?v=uchIKTuLAUo"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Johnson interview.
-editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing.
+editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
 youtube_id: uchIKTuLAUo
-opening_tier: clean
+opening_tier: heavy-banter
+opening_trim_applied: true
 ---
 
 # BREAKING: IRAN ATTACKS KUWAIT - w/ Fmr. CIA Larry Johnson
@@ -31,8 +32,6 @@ opening_tier: clean
 **Transcript:** Operator-pasted YouTube transcript preserved as raw-input SSOT.
 
 ## Transcript
-BREAKING: IRAN ATTACKS KUWAIT - w/ Fmr. CIA Larry Johnson
-
 Transcripts:
 Oh, really? >> Yeah. Well, um, as as you were saying, perfect timing that we start. Um, just as we're going live, there were reports initially of explosions near Keshum Island. I was in my doing interview with the Colonel Wilkinson and then saw the reports, mentioned them briefly in passing.
  I thought maybe could be in the straight of Hummus. Maybe the air defenses are active against a drone, maybe some incident. You just don't know. Explo, everyone's on edge. And then right after that, I hear that sirens are off in Kuwait and that Iran has fired two ballistic missiles that we know of against Kuwait. We've had reports, unconfirmed reports, preliminary reports of an impact that's taking place.
