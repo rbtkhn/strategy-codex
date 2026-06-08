@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # June 8+ Intake Readiness — Third-Party Deterrence Stress Test
 
-**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **8** sources (+ Pape Day 100 Substack); companions through Persia gate patch.
+**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **9** sources (+ Pape Day 100 Substack; **Barnes Nawfal** Jun 8); companions through Persia gate + Crooke arc.
 
 **Parent week:** [June week-1 start here](./2026-06-week1-start-here.md) · [2026-06-07 daily](./2026-06-07.md)
 
@@ -35,7 +35,8 @@ Optional discovery: **`check streams`** for Nima, Mercouris, Davis, Napolitano, 
 | **P1** | Israeli retaliation reporting | Rise-and-Kill-First (Kishm, energy, Kharag) — Aguilar June 7 expectation |
 | **P1** | Davis / Napolitano bench | Pentagon/executive command, munitions faucet, war-powers carry — **Davis 2026-06-08 captured** |
 | **P2** | Parsi (Substack or interview) | Whether third-party rule extends to Palestine or stays Lebanon-bound |
-| **P2** | Aguilar / Nawfal | Sanctions enforceability vs bark-and-treats |
+| **P2** | Aguilar / Nawfal | Sanctions enforceability vs bark-and-treats — **Aguilar 2026-06-07 captured** |
+| **P2** | Barnes / Nawfal | Capture fork, non-intercept, Qatar MOU, Colby spying — **Barnes 2026-06-08 captured** |
 | **P2** | Marandi / Crooke / Freeman | Gate stringency after June 7 hardware spend |
 | **P3** | Mercouris solo | Ukraine parallel only if Iran–Lebanon batch thin |
 | **P3** | Pakistan courier / Johnson follow-up | Nuclear demonstration channel credibility — **Johnson 2026-06-08 captured**; courier lane still open |
