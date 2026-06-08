@@ -36,6 +36,18 @@ Boundary reminder:
 
 ## Index
 
+### 2026-03 - monthly synthesis (archive-first; day ladder pending)
+
+March archive: [source-archive/statecraft/2026-03.md](../source-archive/statecraft/2026-03.md) — 31 days, 200 source files. Monthly compression:
+
+- [2026-03 Monthly Synthesis](2026-03.md)
+- [2026-03-16](2026-03-16.md) — densest archive day (19 captures)
+  - [2026-03-16 - Pape Escalation Trap Vs Crooke Mosaic](2026-03-16-pape-vs-crooke-mosaic-trap.md)
+  - [2026-03-16 - Ritter Implementation × Trap × Mosaic](2026-03-16-ritter-implementation-trap-mosaic.md)
+- [2026-03-19](2026-03-19.md) — Crooke wheels-off essay + South Pars energy pivot (4 captures)
+
+Additional March day notes pending; use archive day READMEs under `source-archive/statecraft/2026-03-*/` for uncaptured days.
+
 ### 2026-05 - monthly synthesis plus day ladder
 
 - [2026-05 Monthly Synthesis](2026-05.md)
@@ -87,7 +99,7 @@ Boundary reminder:
 - [2026-06-02](2026-06-02.md)
 - [2026-06-03](2026-06-03.md)
 - [2026-06-04](2026-06-04.md)
-  - [2026-06-04 - Hoh × Henningsen: Lebanon Pseudo-Agreement Falsifier](2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md)
+  - [2026-06-04 - Hoh × Henningsen × Pape: Lebanon Pseudo-Agreement Falsifier](2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md)
 - [2026-06-05](2026-06-05.md)
 - [2026-06-06](2026-06-06.md)
   - [2026-06-06 - Persia: Lebanon-First Gate Vs Hormuz Mechanics](2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)

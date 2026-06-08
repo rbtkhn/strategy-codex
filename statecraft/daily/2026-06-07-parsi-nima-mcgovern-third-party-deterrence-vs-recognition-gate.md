@@ -145,6 +145,6 @@ Related:
 
 - [America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06](./2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (client veto / Trump–Netanyahu leverage parallel)
 - [America: Trump Humiliation, Vance Absence, Capture Extension - 2026-06-07](./2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md) (Vance absence / successor fork on same Nima source)
-- [Hoh × Henningsen: Lebanon Pseudo-Agreement Falsifier](./2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md) (June 4 PR setup → June 7 hardware proof)
+- [Hoh × Henningsen × Pape: Lebanon Pseudo-Agreement Falsifier](./2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md) (June 4 PR setup → June 7 hardware proof)
 - [Persia transaction — Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 - [America transaction — command firewall + successor carrier check](../america/transactions/foreign-client-mesh-separation-and-command-review.md)

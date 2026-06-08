@@ -4,24 +4,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `8`
+- Source files: `9`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (8)
-- Source form mix: `interview` (7), `solo` (1)
-- Distinct channels/shows: `3`
-- Distinct hosts: `3`
+- Body kind mix: `transcript` (8), `substack-post` (1)
+- Source form mix: `interview` (7), `newsletter` (1), `solo` (1)
+- Distinct channels/shows: `4`
+- Distinct hosts: `4`
 - Distinct guests: `7`
 - Distinct threads: `8`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (5), `Judging Freedom` (1), `Mercouris` (1)
+- `Dialogue Works` (5), `Judging Freedom` (1), `Mercouris` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (5), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
+- Hosts: `Nima Alkhorshid` (5), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Robert Pape` (1)
 - Guests: `Alex Krainer` (1), `Andrei Martyanov` (1), `Douglas Macgregor` (1), `Matthew Hoh` (1), `Patrick Henningsen` (1), `Robert Pape` (1), `Stanislav Krapivnik` (1)
-- Threads: `nima` (5), `krainer` (1), `krapivnik` (1), `macgregor` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1), `pape` (1)
+- Threads: `nima` (5), `pape` (2), `krainer` (1), `krapivnik` (1), `macgregor` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1)
 
 ## Files
 
@@ -33,3 +33,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `source-alkorshid-stanislav-krapivnik-how-firepower-just-broke-two-wars-ukraine-middle-east-2026-06-04.md`
 - `source-napolitano-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md`
 - `source-pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04.md`
+- `source-pape-the-lebanon-fuse-2026-06-04.md`
