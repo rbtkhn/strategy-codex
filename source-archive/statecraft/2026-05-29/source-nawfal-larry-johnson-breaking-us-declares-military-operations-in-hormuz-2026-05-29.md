@@ -11,9 +11,11 @@ title: "BREAKING: U.S DECLARES MILITARY OPERATIONS IN HORMUZ! - w/ Fmr. CIA Larr
 source_url: "https://www.youtube.com/watch?v=mRgCzrreKu4"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 29, 2026 Mario Nawfal / Larry Johnson interview."
-editorial_note: "Light cleanup only for routing-safe punctuation and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 29, 2026 Mario Nawfal / Larry Johnson interview.
+editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+opening_tier: host-monologue
 ---
+
 # BREAKING: U.S DECLARES MILITARY OPERATIONS IN HORMUZ! - w/ Fmr. CIA Larry Johnson
 
 **Show:** Mario Nawfal  

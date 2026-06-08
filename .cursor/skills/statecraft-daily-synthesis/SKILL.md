@@ -83,6 +83,7 @@ It should usually do four things:
    - Start from the touched day `README.md`.
    - Confirm the batch is materially real and source-bearing.
    - Identify the highest-signal captures in the batch.
+   - For Mario Nawfal sources tagged `opening_tier: host-monologue`, start chronology at the **first guest mechanism block** (first sustained guest answer to a falsifiable question), not Mario's optimistic deal loop — unless Mario's read is itself the seam under test.
 
 2. **Name the governing object**
    - Ask what the day is really about:

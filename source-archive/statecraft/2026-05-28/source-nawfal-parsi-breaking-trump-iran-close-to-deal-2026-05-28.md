@@ -11,9 +11,12 @@ title: "BREAKING: TRUMP & IRAN \"CLOSE TO DEAL\" - w/ Political Analyst Trita Pa
 source_url: "https://www.youtube.com/watch?v=aM0_O97UwrM"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 28, 2026 Mario Nawfal / Trita Parsi interview."
-editorial_note: "Light cleanup only for routing-safe punctuation and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 28, 2026 Mario Nawfal / Trita Parsi interview.
+editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+opening_tier: heavy-banter
+opening_trim_applied: true
 ---
+
 # BREAKING: TRUMP & IRAN "CLOSE TO DEAL" - w/ Political Analyst Trita Parsi
 
 **Show:** Mario Nawfal  
@@ -25,7 +28,7 @@ editorial_note: "Light cleanup only for routing-safe punctuation and obvious spa
 
 ## Transcript
 
-That is wild though. Can't believe that. That is crazy. Um, man, how are you? >> Okay. Doing well. >> So, before we go into your piece, which is which is a a fascinating piece on Substack that you wrote about the dynamic between Iran, the UAE, Israel, sorry, Iran, the UAE, Israel, and Lebanon.
+>> So, before we go into your piece, which is which is a a fascinating piece on Substack that you wrote about the dynamic between Iran, the UAE, Israel, sorry, Iran, the UAE, Israel, and Lebanon.
  I want to go through the latest developments that happened. Now, do we have a deal? I was told 3 days, two days ago, I did a post that I was told that there was a deal already announced 2 days ago. NBC just put it out now as well, saying, "Yeah, there was a deal 3 days ago, not two days ago." Um, and now, so I I'm I've been very hopeful the entire time, very optimistic the entire time.
  And I was feeling like they kind of confirmed my optimism um in that we have a deal now. It's looking very obvious we have a deal. Trump had this post a few days ago. And then we have the Abraham's accords get thrown into it. I'm like, what's going on here? And now we have Scott Bessant just talking as we speak a few minutes ago and he's talking about how the straight homes will be open as in no fee whatsoever.
  Freedom, free passage and freedom of movement, freedom of navigation for the for the ships. I'm like that's that's not a deal I think Iran would take. And apparently even the US won't immediately lift its blockade. It will be a gradual lift. nothing about the unfreezing of assets mentioned by Bessant or any of the other sources, the Western sources.

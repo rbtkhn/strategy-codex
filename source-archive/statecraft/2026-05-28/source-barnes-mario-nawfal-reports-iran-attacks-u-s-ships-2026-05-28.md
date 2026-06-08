@@ -11,9 +11,11 @@ title: "Reports: IRAN ATTACKS U.S. SHIPS - w/ Political Analyst Robert Barnes"
 source_url: "https://www.youtube.com/watch?v=NPSRkimwbIQ"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture. YouTube watch-page metadata reports upload date 2026-05-28."
-editorial_note: "Light cleanup only for routing-safe punctuation and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture. YouTube watch-page metadata reports upload date 2026-05-28.
+editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+opening_tier: host-monologue
 ---
+
 # Reports: IRAN ATTACKS U.S. SHIPS - w/ Political Analyst Robert Barnes
 
 **Show:** Mario Nawfal

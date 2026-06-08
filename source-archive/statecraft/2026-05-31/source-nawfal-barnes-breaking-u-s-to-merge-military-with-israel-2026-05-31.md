@@ -11,10 +11,13 @@ title: "BREAKING: U.S. TO MERGE MILITARY WITH ISRAEL - w/ Political Analyst Robe
 source_url: "https://www.youtube.com/watch?v=LPdeT4kf0HU"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Robert Barnes interview."
-editorial_note: "Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Robert Barnes interview.
+editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
 youtube_id: LPdeT4kf0HU
+opening_tier: heavy-banter
+opening_trim_applied: true
 ---
+
 # BREAKING: U.S. TO MERGE MILITARY WITH ISRAEL - w/ Political Analyst Robert Barnes
 
 **Show:** Mario Nawfal  
@@ -25,10 +28,7 @@ youtube_id: LPdeT4kf0HU
 **Transcript:** Operator-pasted YouTube transcript preserved as raw-input SSOT.
 
 ## Transcript
-BREAKING: U.S. TO MERGE MILITARY WITH ISRAEL - w/ Political Analyst Robert Barnes - YouTube
-
-Transcripts:
-Hey man, good to have you. >> Yeah, glad to be here. >> So, um, one thing along the, uh, by the way, Lisa, Robert's volume is a bit low. Just a heads up. I don't know why it's, uh, I don't know in your mind if it's good. Uh, Lisa, >> yeah, >> but, um, yeah, check it because it's low for me. I don't >> work better.
+>> Yeah, glad to be here. >> So, um, one thing along the, uh, by the way, Lisa, Robert's volume is a bit low. Just a heads up. I don't know why it's, uh, I don't know in your mind if it's good. Uh, Lisa, >> yeah, >> but, um, yeah, check it because it's low for me. I don't >> work better.
 >> I think so. I'll have the producer because I can't hear myself. Um, just to make sure it's at the same level. Is it at the same level now, Lisa? Um, yeah. Can you hear me at the same level as his or is am I louder? >> Yeah. Put it up more. >> All right. >> Now it should be better. >> Yeah. Perfect.
  Uh, good to have you, man. Yeah. So, a lot of people are talking on whether we're going to have a deal or not. And, uh, I I'll go through kind of the latest developments. There's an update that just came in right now. The Iranians are saying, "Look, they just they're both going back and forth on the various terms, which is expected in a deal.
  Politically, is a resumption of war even possible or that's completely out of the question?" >> Not in Trump's mind, no. In Trump's mind, that is uh entirely and within Hegseth's mind, it's entirely plausible. Not within anybody else pretty much in the world, but it is within their their two minds.
@@ -174,4 +174,3 @@ own echo chambers, eloquent people that sometimes I used to listen to, I'm not g
  So, I'd love to do this again because I got Professor Gibbs waiting in the other studio to do a live. I'd love to do this again as soon as possible, man. I'll have the team reach out. Um, and as always, really, really enjoy our conversations, Robert. Thank you so much. >> Absolutely. Happy to be here. >> Take care, man. All right, guys.
  I'll be going live in a couple of minutes with Professor Gibbs. The team is setting him up in the city. I'll stop this one and I'll continue the conversation with Robert Barnes as soon as he's available. I'll even ask him if he's free today. [Â __Â ] it. I've got the energy cuz I'm I'm enjoying it significantly.
  I've never done a guest twice in a day, but I'll I'll see if we can make an exception today with with Robert if he has nothing to do on a Sunday. All right, guys. I'll see you with Professor Gibbs in a couple of minutes.
-

@@ -7,20 +7,22 @@ thread: kent
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Joe Kent
-title: "Trump Stuck in a War He Doesn't Want to Continue - w/ Ex-Head of Counter-Terrorism Joe Kent"
-channel_slug: "mario-nawfal"
+title: Trump Stuck in a War He Doesn't Want to Continue - w/ Ex-Head of Counter-Terrorism Joe Kent
+channel_slug: mario-nawfal
 source_url: "https://www.youtube.com/watch?v=hJuCBS9jPn0"
 youtube_id: hJuCBS9jPn0
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim."
+source_note: Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim.
+opening_tier: heavy-banter
+opening_trim_applied: true
+editorial_note: Opening rapport/production banter trimmed in place; orphan "But before that" lead-in repaired manually; SSOT body otherwise preserved.
 ---
+
 # Trump Stuck in a War He Doesn't Want to Continue - w/ Ex-Head of Counter-Terrorism Joe Kent
 
->> Hey man. Yes, so I am Yeah, what what I'm really interested to ask you something that Buckley Carlson we're just talking about and Tucker Carlson's brother we were talking about the powers that influence Trump behind the scenes and we went deep into that conversation which really fascinated me and I just realized I'm not giving it enough attention.
-So then that kind of clicked in my mind as we're speaking about Tucker as something I want to ask you. But before that I want to I want to get your thoughts on the meeting with Xi and the developments since we last spoke. Where are things heading? What me and you have said that the best path the least worst path or least bad path for Trump is to just walk away.
-Surprisingly one of the people supporting our position is uh What's the gentleman I keep forgetting his name? The guy that wrote in the Atlantic. The head the face of the neocons. Kagan. Kagan said it himself. And I know he doesn't like Trump but for Kagan to say it I think that's that's that's got the blessing of the neocons to just walk away.
-But um let's start with um maybe the meeting with Xi and then the state of affairs now where we stand today. What's your position?
+What me and you have said is that the best path — the least worst path for Trump — is to just walk away. Surprisingly one of the people supporting our position is uh What's the gentleman I keep forgetting his name? The guy that wrote in the Atlantic. The head the face of the neocons. Kagan. Kagan said it himself. And I know he doesn't like Trump but for Kagan to say it I think that's that's that's got the blessing of the neocons to just walk away.
+But um let's start with um maybe the meeting with Xi and the developments since we last spoke. Where are things heading with the state of affairs now where we stand today? What's your position?
 
 You know, um I'm not sure about all the details with the the meeting with Xi. One of the big takeaways I got out of that was was President Trump and the White House really enthusiastically putting out that you know China agrees that Iran can never have a nuclear weapon.
 Almost like a soft endorsement and I don't know if I if the Chinese specifically came out and said this though the White House and President Trump said that.

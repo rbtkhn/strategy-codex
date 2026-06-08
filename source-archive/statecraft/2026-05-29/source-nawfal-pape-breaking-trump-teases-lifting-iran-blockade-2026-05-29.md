@@ -11,9 +11,11 @@ title: "BREAKING: TRUMP TEASES LIFTING IRAN BLOCKADE - w/ Analyst & Prof. Robert
 source_url: "https://www.youtube.com/watch?v=49oYoBv-9pM"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 29, 2026 Mario Nawfal / Robert Pape interview."
-editorial_note: "Light cleanup only for routing-safe punctuation and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 29, 2026 Mario Nawfal / Robert Pape interview.
+editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+opening_tier: host-monologue
 ---
+
 # BREAKING: TRUMP TEASES LIFTING IRAN BLOCKADE - w/ Analyst & Prof. Robert Pape
 
 **Show:** Mario Nawfal  

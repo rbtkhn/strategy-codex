@@ -8,14 +8,16 @@ show: Mario Nawfal
 host: Mario Nawfal
 guest: Douglas Macgregor
 title: "TRUMP WALKS BACK ON DEAL, IDF TO \"FLATTEN BEIRUT\" - w/ Col. Macgregor"
-channel_slug: "mario-nawfal"
+channel_slug: mario-nawfal
 source_url: "https://www.youtube.com/watch?v=djTgK37H3w0"
 youtube_id: djTgK37H3w0
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Transcript pasted manually by operator for canonical May 27 2026 Mario Nawfal raw-input capture."
-editorial_note: "Operator-pasted YouTube transcript preserved as raw-input SSOT. Light cleanup only where needed for routing-critical punctuation."
+source_note: Transcript pasted manually by operator for canonical May 27 2026 Mario Nawfal raw-input capture.
+editorial_note: Operator-pasted YouTube transcript preserved as raw-input SSOT. Light cleanup only where needed for routing-critical punctuation.
+opening_tier: host-monologue
 ---
+
 # TRUMP WALKS BACK ON DEAL, IDF TO "FLATTEN BEIRUT" - w/ Col. Macgregor
 
 Well, Colonel, it's a pleasure to have you again. We had you briefly for about 30 seconds yesterday, but hopefully today we'll have longer. >> Good. >> Um, there's been a roller coaster since we last spoke in trying to make sense of it because on one side you have good news, everyone's optimistic, a deal's imminent, and then suddenly things, you know, go south.

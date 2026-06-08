@@ -3,10 +3,8 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: transcript
 source_form: interview
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Trita Parsi
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: parsi
@@ -17,9 +15,11 @@ title: "BREAKING: IRAN WALKS AWAY, TRUMP SCRAMBLES, ISRAEL SAYS BETRAYAL - w/ Tr
 source_url: "https://www.youtube.com/watch?v=jXYdJfaWaOg"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 1, 2026 Mario Nawfal / Trita Parsi interview."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 1, 2026 Mario Nawfal / Trita Parsi interview.
 editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+opening_tier: host-monologue
 ---
+
 # BREAKING: IRAN WALKS AWAY, TRUMP SCRAMBLES, ISRAEL SAYS BETRAYAL - w/ Trita Parsi
 
 **Show:** Mario Nawfal  

@@ -219,6 +219,7 @@ Structured-field law:
    - Reflow into readable paragraphs or turns when the family pattern expects that.
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
    - For `Judging Freedom / Napolitano` archive captures, strip clearly separable ideological cold opens or canned sponsor/promotional reads at the opening and routine lineup/schedule promos at the close.
+   - For `Mario Nawfal` archive captures, classify `opening_tier` and run `scripts/normalize_nawfal_opening_banter.py --apply` after landing when the boundary is unmistakable (see § Mario Nawfal below).
    - For interview lanes that routinely include sponsor or promo scaffolding, strip those blocks only when the boundary is unmistakable and the substantive interview body remains intact.
    - Do not over-clean, summarize, or rewrite the substance.
 
@@ -379,6 +380,21 @@ Short rule:
 - Strip canned sponsor reads at the opening only when the boundary is unmistakable.
 - Strip routine schedule tails such as "coming up later today" or "if you're watching us live" only when clearly separable.
 - If ad copy or show promo is entangled with noisy ASR or substantive exchange, leave it in place and flag it for later manual review.
+
+### Mario Nawfal / International Affairs
+
+- Classify each landed capture with `opening_tier` in frontmatter:
+  - `heavy-banter` — rapport, schedule jokes, Lisa/producer/audio fixes, return-from-trip filler before guest depth
+  - `host-monologue` — short pleasantries then a long Mario news/deal setup before the guest's first sustained mechanism block
+  - `clean` — breaking-news or guest speaks within roughly one to two exchanges
+- Trim law (default = rapport + production only):
+  - Strip unmistakable opening blocks: `Hey man`, `how are you` loops, producer/Lisa/audio fixes, `welcome back to reality`, `two weeks` schedule banter, `We're going live. No jokes.`, and similar live-desk filler when clearly separable from substantive exchange.
+  - Do **not** strip Mario's on-topic deal/news read unless the operator explicitly requests aggressive side-quest removal (`--include-side-quests` on the normalizer).
+  - If banter is entangled with substantive exchange, leave the body intact and flag `opening_tier` only.
+- After landing a Nawfal-hosted object, run:
+  - `python scripts/normalize_nawfal_opening_banter.py --path <landed-file> --apply`
+  - or batch: `python scripts/normalize_nawfal_opening_banter.py --apply`
+- Receipt fields when trim applies: `opening_trim_applied: true` and an `editorial_note` line stating opening rapport/production banter was trimmed in place.
 
 ### Interview self-date precedence
 

@@ -11,9 +11,11 @@ title: "BREAKING: Trump Orders Military Action - w/ Lt. Col. Anthony Aguilar"
 source_url: "https://www.youtube.com/watch?v=-B78m8F_2SQ"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 29, 2026 Mario Nawfal / Anthony Aguilar interview."
-editorial_note: "Light cleanup only for routing-safe punctuation and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 29, 2026 Mario Nawfal / Anthony Aguilar interview.
+editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+opening_tier: host-monologue
 ---
+
 # BREAKING: Trump Orders Military Action - w/ Lt. Col. Anthony Aguilar
 
 **Show:** Mario Nawfal  

@@ -11,10 +11,13 @@ title: "BREAKING: IRAN COLLECTS TOLLS FROM 28 SHIPS IN PAST 24 HOURS - w/ Analys
 source_url: "https://www.youtube.com/watch?v=RlG35-5j6GY"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Glenn Diesen interview."
-editorial_note: "Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Glenn Diesen interview.
+editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
 youtube_id: RlG35-5j6GY
+opening_tier: heavy-banter
+opening_trim_applied: true
 ---
+
 # BREAKING: IRAN COLLECTS TOLLS FROM 28 SHIPS IN PAST 24 HOURS - w/ Analyst Glenn Diesen
 
 **Show:** Mario Nawfal  
@@ -25,11 +28,7 @@ youtube_id: RlG35-5j6GY
 **Transcript:** Operator-pasted YouTube transcript preserved as raw-input SSOT.
 
 ## Transcript
-BREAKING: IRAN COLLECTS TOLLS FROM 28 SHIPS IN PAST 24 HOURS - w/ Analyst Glenn Diesen - YouTube
-
-Transcripts:
-Hey man. >> Hi. How are you? >> Good. Glenn, you? >> Yeah. I can't complain. >> Long time. >> Yeah. Well, two weeks or so. So, >> we haven't done an interview in two weeks. No, it hasn't been that long. >> Oh, I don't know. I My time I I just >> It would have been No, it would have been more than a week.
- What? I can't we can't we can't spend two weeks not doing an interview, Glenn. That's way too long. >> I just >> Yeah, we did one last week. The producer just told me we did one last week. >> Well, I came back from a trip. Whenever I travel, my sense of time goes away. So, >> welcome back to reality. Well, the reality that we're dealing with now is um [sighs] there's a few things happening.
+Well, the reality that we're dealing with now is um [sighs] there's a few things happening.
  Even though people think, you know, it's been all quiet from a kinetic perspective. There hasn't been any on the Iranian um American front and Israeli front in Lebanon. It's it's held there. We'll go through Lebanon in a bit, but it's escalating very quickly there. It's not looking good at all. And that's important when it comes to the Iran war because that's one of the preconditions for Iran is for the war in Lebanon to end.
  But when it comes to the Straight Hummus, um you saw the post that Trump did. You know, it's it's I don't know if anything to discuss here. It's just a bit a whole bunch of nothing. But while all this is happening, Iran is controlling the trade of hummus. They're actually making tens of millions of dollars a day. They charge $2 million a ship. 28 ships passed yesterday.
  It's $50 million yesterday alone. So, while time passes, Iran is making $1.5 billion a month minimum. >> Yeah. No. Well, that's an interesting development because when they went into this ceasefire, I don't think the United States really wanted peace. I think uh uh it's they wanted a different format.
@@ -161,4 +160,3 @@ No. So, no, the Strait of Hormuz is is off the table. This is going to stay unde
  It's going to be a tough one, but always enjoy our conversation, man. Thank you so much. >> Yeah, thank you. And yeah, please send me his details. It sounds uh fascinating, but uh yeah, I like to try to put some distance to the wars because they're they're really horrific, you know. But if you want to analyze thing, you don't want to >> to make it too personal, but uh it's very hard when you get all these details. It's uh yeah, quite haunting.
 But uh anyways, thanks again for >> good to speak with you. >> Thank you, Glenn. All right, guys. I'll be going live in in about two to three minutes uh with Dr. uh what's his name? What's the doctor's name? Lisa um with a doctor from Gaza, British doctor who's uh been to Gaza multiple times, talk about his experiences, Nick Maynard.
  So, I'll see you guys in a couple of minutes. Going to be a pretty tough interview to listen to, but uh I recommend you join. See you guys.
-

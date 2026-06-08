@@ -4,16 +4,19 @@ pub_date: 2026-05-28
 kind: transcript
 source_form: interview
 thread: kent
-show: "Mario Nawfal"
-host: "Mario Nawfal"
-guest: "Joe Kent"
-title: "TRUMP'S LIFE IS UNDER THREAT - w/ Ex-Head of Counter-Terrorism Joe Kent"
+show: Mario Nawfal
+host: Mario Nawfal
+guest: Joe Kent
+title: TRUMP'S LIFE IS UNDER THREAT - w/ Ex-Head of Counter-Terrorism Joe Kent
 source_url: "https://www.youtube.com/watch?v=pwT2ipwrUJs"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 28, 2026 Mario Nawfal / Joe Kent interview."
-editorial_note: "Light cleanup only for routing-safe punctuation and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 28, 2026 Mario Nawfal / Joe Kent interview.
+editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+opening_tier: heavy-banter
+opening_trim_applied: true
 ---
+
 # TRUMP'S LIFE IS UNDER THREAT - w/ Ex-Head of Counter-Terrorism Joe Kent
 
 **Show:** Mario Nawfal  
@@ -25,7 +28,7 @@ editorial_note: "Light cleanup only for routing-safe punctuation and obvious spa
 
 ## Transcript
 
-life. I'll make it after. Um, hey man, how are you? >> I'm doing well. How are you? >> Good, good. So, I want to bring this up first before we go into what's happening in Iran and there's a lot of developments there. Whether we have a deal, we don't have a deal, why suddenly they're talking about the Abraham's Accords, what Netanyahu is doing in Lebanon.
+So, I want to bring this up first before we go into what's happening in Iran and there's a lot of developments there. Whether we have a deal, we don't have a deal, why suddenly they're talking about the Abraham's Accords, what Netanyahu is doing in Lebanon.
  The calls that Trump keeps calling Netanyahu for some reason every two, three days. The Gulf getting lost now with suddenly we're talking about Abraham's Accords when the US should get a ceasefire with Iran that's unrelated to them and Israel. So before we get into this whole puzzle, um I was just talking to Brandon Wart just before uh you jumped on and and and and I brought you up and I found out this morning, Lisa, if you can show that tweet again.
 Um um I don't even know how to explain like to even give a summary of it, but it's something along along the lines of certain voices that are critical of the war and that's the only commonality I could find. Um uh could be uh could be targeted in some way to try to bring them down.
  Can you actually let me read it very briefly? You may be wondering two things because I've been talking about for a while. That's how it came up. What is happening to Trump? Why is Trump making those decisions? Obviously, you're vocal about Israeli influence. But let me go through it. You may be wondering two things.

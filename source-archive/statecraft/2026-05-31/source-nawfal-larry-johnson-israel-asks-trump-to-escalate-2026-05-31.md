@@ -7,14 +7,16 @@ thread: johnson
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Larry Johnson
-title: "ISRAEL ASKS TRUMP TO ESCALATE - w/ Fmr. CIA Larry Johnson"
+title: ISRAEL ASKS TRUMP TO ESCALATE - w/ Fmr. CIA Larry Johnson
 source_url: "https://www.youtube.com/watch?v=MjXkaxgk1EE"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Larry Johnson interview."
-editorial_note: "Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Larry Johnson interview.
+editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing.
 youtube_id: MjXkaxgk1EE
+opening_tier: clean
 ---
+
 # ISRAEL ASKS TRUMP TO ESCALATE - w/ Fmr. CIA Larry Johnson
 
 **Show:** Mario Nawfal  

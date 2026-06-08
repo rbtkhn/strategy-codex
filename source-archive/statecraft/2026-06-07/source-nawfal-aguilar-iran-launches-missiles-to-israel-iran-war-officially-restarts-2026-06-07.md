@@ -3,24 +3,24 @@ ingest_date: 2026-06-07
 pub_date: 2026-06-07
 kind: transcript
 source_form: interview
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Lt. Col. Anthony Aguilar
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: aguilar
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Lt. Col. Anthony Aguilar
-title: "IRAN LAUNCHES MISSILES TO ISRAEL, IRAN WAR OFFICIALLY RESTARTS – w/ Lt. Col. Anthony Aguilar"
+title: IRAN LAUNCHES MISSILES TO ISRAEL, IRAN WAR OFFICIALLY RESTARTS – w/ Lt. Col. Anthony Aguilar
 source_url: "https://www.youtube.com/watch?v=QFKjJHKh07w"
 youtube_id: QFKjJHKh07w
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript for June 7, 2026 Mario Nawfal / Lt. Col. Anthony Aguilar interview on Iran-Israel exchange and Trump-Netanyahu restraint failure. Separable closing lineup promo to General Randy Manor segment removed."
+source_note: Operator-pasted YouTube transcript for June 7, 2026 Mario Nawfal / Lt. Col. Anthony Aguilar interview on Iran-Israel exchange and Trump-Netanyahu restraint failure. Separable closing lineup promo to General Randy Manor segment removed.
 editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+opening_tier: host-monologue
 ---
+
 # IRAN LAUNCHES MISSILES TO ISRAEL, IRAN WAR OFFICIALLY RESTARTS – w/ Lt. Col. Anthony Aguilar
 
 **Show:** Mario Nawfal  

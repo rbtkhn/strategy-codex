@@ -3,10 +3,8 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Larry Johnson
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: johnson
@@ -17,10 +15,12 @@ title: "BREAKING: IRAN ATTACKS KUWAIT - w/ Fmr. CIA Larry Johnson"
 source_url: "https://www.youtube.com/watch?v=uchIKTuLAUo"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Johnson interview."
-editorial_note: "Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Johnson interview.
+editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing.
 youtube_id: uchIKTuLAUo
+opening_tier: clean
 ---
+
 # BREAKING: IRAN ATTACKS KUWAIT - w/ Fmr. CIA Larry Johnson
 
 **Show:** Mario Nawfal  

@@ -9,12 +9,14 @@ host: Mario Nawfal
 guest: Larry Johnson
 title: "TRUMP: XI OFFERED TO HELP OPEN STRAIT OF HORMUZ - w/ Ex-CIA Larry Johnson"
 channel_url: "https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA"
-channel_slug: "mario-nawfal"
+channel_slug: mario-nawfal
 source_url: "https://www.youtube.com/watch?v=kQe3NRbWz4U"
 source_type: youtube
 transcript_type: auto_subtitles_vtt
-editorial_note: "Lightly deduped text from YouTube auto-captions extracted with yt_dlp (preferred en-orig, fallback en). Not human-verified verbatim."
+editorial_note: Lightly deduped text from YouTube auto-captions extracted with yt_dlp (preferred en-orig, fallback en). Not human-verified verbatim.
+opening_tier: clean
 ---
+
 # TRUMP: XI OFFERED TO HELP OPEN STRAIT OF HORMUZ - w/ Ex-CIA Larry Johnson
 
 **Channel:** Mario Nawfal  

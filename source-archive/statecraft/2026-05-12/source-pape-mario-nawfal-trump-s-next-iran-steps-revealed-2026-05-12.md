@@ -9,13 +9,15 @@ host: Mario Nawfal
 guest: Robert Pape
 title: "TRUMP'S NEXT IRAN STEPS REVEALED - w/ #1 Political Scientist Prof. Robert Pape"
 channel_url: "https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA"
-channel_slug: "mario-nawfal"
+channel_slug: mario-nawfal
 publication: youtube.com
 source_url: "https://www.youtube.com/watch?v=-6orPmr4ldo"
 source_type: youtube
 transcript_type: auto_subtitles_vtt
-editorial_note: "Lightly deduped text from YouTube auto-captions extracted with yt_dlp (preferred en-orig, fallback en). Not speaker-normalized or human-verified verbatim."
+editorial_note: Lightly deduped text from YouTube auto-captions extracted with yt_dlp (preferred en-orig, fallback en). Not speaker-normalized or human-verified verbatim.
+opening_tier: host-monologue
 ---
+
 # TRUMP'S NEXT IRAN STEPS REVEALED - w/ #1 Political Scientist Prof. Robert Pape
 
 **Channel:** Mario Nawfal  

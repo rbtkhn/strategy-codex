@@ -3,10 +3,8 @@ ingest_date: 2026-06-07
 pub_date: 2026-06-06
 kind: transcript
 source_form: interview
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Dmitry Polyanskiy
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: polyanskiy
@@ -17,9 +15,11 @@ title: "\"The Decision in Europe Has Already Been Made\" - w/ OSCE Rep Dmitry Po
 source_url: "https://www.youtube.com/watch?v=R5jhGeaW4DQ"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript for the June 6, 2026 Mario Nawfal / Dmitry Polyanskiy interview. Publication date assigned to 2026-06-06 per operator intake batch; transcript body does not self-date."
+source_note: Operator-pasted YouTube transcript for the June 6, 2026 Mario Nawfal / Dmitry Polyanskiy interview. Publication date assigned to 2026-06-06 per operator intake batch; transcript body does not self-date.
 editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+opening_tier: host-monologue
 ---
+
 # "The Decision in Europe Has Already Been Made" - w/ OSCE Rep Dmitry Polyanskiy
 
 **Show:** Mario Nawfal  

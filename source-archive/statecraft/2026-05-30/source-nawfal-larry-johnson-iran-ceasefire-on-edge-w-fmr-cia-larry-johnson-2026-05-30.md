@@ -11,10 +11,12 @@ title: "IRAN CEASEFIRE \"ON EDGE\" - w/ Fmr. CIA Larry Johnson"
 source_url: "https://www.youtube.com/watch?v=5jtUBd7QDR0"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 30, 2026 Mario Nawfal / Larry Johnson interview."
-editorial_note: "Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 30, 2026 Mario Nawfal / Larry Johnson interview.
+editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing.
 youtube_id: 5jtUBd7QDR0
+opening_tier: host-monologue
 ---
+
 # IRAN CEASEFIRE "ON EDGE" - w/ Fmr. CIA Larry Johnson
 
 **Show:** Mario Nawfal  

@@ -7,15 +7,17 @@ thread: wilkerson
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Larry Wilkerson
-title: "HEATED ARGUMENTS IN WHITE HOUSE - w/ Col. Larry Wilkerson"
+title: HEATED ARGUMENTS IN WHITE HOUSE - w/ Col. Larry Wilkerson
 channel_url: "https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA"
-channel_slug: "mario-nawfal"
+channel_slug: mario-nawfal
 source_url: "https://www.youtube.com/watch?v=snTPsUfEiOg"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Transcript pasted manually by operator for canonical May 20 2026 raw-input capture."
-editorial_note: "Operator-pasted YouTube transcript preserved as raw-input SSOT. Light cleanup only where needed for routing-critical punctuation."
+source_note: Transcript pasted manually by operator for canonical May 20 2026 raw-input capture.
+editorial_note: Operator-pasted YouTube transcript preserved as raw-input SSOT. Light cleanup only where needed for routing-critical punctuation.
+opening_tier: host-monologue
 ---
+
 # HEATED ARGUMENTS IN WHITE HOUSE - w/ Col. Larry Wilkerson
 
 ## Transcript

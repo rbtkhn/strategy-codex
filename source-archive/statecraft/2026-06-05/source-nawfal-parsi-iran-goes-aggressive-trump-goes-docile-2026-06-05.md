@@ -3,23 +3,23 @@ ingest_date: 2026-06-05
 pub_date: 2026-06-05
 kind: transcript
 source_form: interview
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Trita Parsi
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: parsi
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Trita Parsi
-title: "IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE - w/ Trita Parsi"
+title: IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE - w/ Trita Parsi
 source_url: "https://www.youtube.com/watch?v=4p1phpcrjoQ"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 5, 2026 Mario Nawfal / Trita Parsi interview."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 5, 2026 Mario Nawfal / Trita Parsi interview.
 editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+opening_tier: host-monologue
 ---
+
 # IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE - w/ Trita Parsi
 
 **Show:** Mario Nawfal  
