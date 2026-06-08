@@ -83,6 +83,7 @@ coverage/
 _pytest_basetemp/
 tmp_pytest_outcome_once/
 .codex-test-temp/
+.codex-tmp/
 
 # PDF tools (bundled; run setup_pdf_tools.sh to fetch)
 tools/

@@ -1,0 +1,57 @@
+﻿# Cursor agent search/index exclusions.
+# Keeps grep, glob, and semantic search off duplicate worktrees and pytest debris.
+# Canonical repo content (source-archive, statecraft, docs, codex, etc.) stays visible.
+
+# Codex worktrees and tool caches (largest timeout source)
+.codex-tmp/
+.codex-bin/
+.codex-pytest-basetemp/
+.codex-pytest-run/
+.codex-test-temp/
+
+# Pytest temp and cache trees at repo root
+.tmp-pytest-*/
+.pytest_cache/
+.pytest-temp/
+.pytest-tmp*/
+_pytest_basetemp/
+.tmp-pytest-bernstein/
+.tmp-pytest-bernstein-basetemp/
+.tmp-pytest-root-layout/
+pytest-cache-files-*/
+tmp_pytest_outcome_once/
+.test-tmp/
+
+# Ephemeral scratch dirs (pytest / tooling)
+tmp*/
+tmp_*/
+
+# Dependencies and build outputs
+node_modules/
+.venv/
+.venv-md2pdf/
+__pycache__/
+*.pyc
+build/
+dist/
+.next/
+out/
+
+# Large generated / local-only surfaces
+.codegraph/
+.chroma/
+.cache/
+derived/
+runtime-memory-*/
+runtime-bundle/runtime/
+tools/
+
+# IDE and local operator state
+.idea/
+.vscode/
+.cursor/plans/
+.integration-backups/
+integration-receipts/
+
+# Logs
+*.log
