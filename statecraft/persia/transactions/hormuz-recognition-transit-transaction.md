@@ -130,7 +130,7 @@ Draft clause:
 
 ## Comparative Placement
 
-This file remains the canonical Iran-lane transaction for the Hormuz recognition line. Cross-lane redlines, external objections, and comparison notes belong under [Hormuz Transit / Sanctions Relief Compact](../../transactions/hormuz-transit-sanctions-relief-compact/README.md) so the Iran clause is refined without competing with a second lane-local authority.
+This file remains the canonical Iran-lane transaction for the Hormuz recognition line. When the live object includes **Lebanon third-party triggers** and **Washington command-capture constraints**, pair with [Lebanon third-party recognition gate transaction](lebanon-third-party-recognition-gate-transaction.md) — gate benchmarks precede or coincide with transit/relief activation here. Cross-lane redlines, external objections, and comparison notes belong under [Hormuz Transit / Sanctions Relief Compact](../../transactions/hormuz-transit-sanctions-relief-compact/README.md) so the Iran clause is refined without competing with a second lane-local authority.
 
 ## Mirror Test
 

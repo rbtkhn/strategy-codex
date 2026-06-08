@@ -10,7 +10,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Source form mix: `interview` (7), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
-- Distinct guests: `5`
+- Distinct guests: `7`
 - Distinct threads: `8`
 
 ## Channel / Show Rollup
@@ -20,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Nima Alkhorshid` (5), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
-- Guests: `Alex Krainer` (1), `Andrei Martyanov` (1), `Douglas Macgregor` (1), `Robert Pape` (1), `Stanislav Krapivnik` (1)
+- Guests: `Alex Krainer` (1), `Andrei Martyanov` (1), `Douglas Macgregor` (1), `Matthew Hoh` (1), `Patrick Henningsen` (1), `Robert Pape` (1), `Stanislav Krapivnik` (1)
 - Threads: `nima` (5), `krainer` (1), `krapivnik` (1), `macgregor` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1), `pape` (1)
 
 ## Files

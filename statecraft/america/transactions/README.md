@@ -31,6 +31,10 @@ Return to [America lane](../README.md) when the intake family is still unclear, 
 
 America transactions should prioritize command legitimacy, successor-stable instruments, bounded coercive centers, allied burden-sharing, and restraint against overextension.
 
+## June 2026 Live Bench
+
+- [Foreign Client Mesh Separation And Command Review](foreign-client-mesh-separation-and-command-review.md) — June 6 captured-command pass (NDAA mesh, DIA CI tier, client veto; Macgregor + McGovern + Freeman + **Hoh Section 224 clauses A–E**)
+
 Treat `america` as broader than current Washington. Each transaction should separate:
 
 - current U.S. federal command;

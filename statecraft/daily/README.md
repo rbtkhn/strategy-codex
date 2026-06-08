@@ -75,12 +75,25 @@ Boundary reminder:
   - [2026-05-31 - Barnes-Diesen-Nima On Coercive Failure](2026-05-31-barnes-diesen-nima-coercive-failure.md)
   - [2026-05-31 - Rome-America On Carrier Capture Versus Sovereign Burden-Bearing](2026-05-31-rome-america-carrier-capture-vs-sovereign-burden-bearing.md)
 
-### 2026-06 - day ladder
+### 2026-06 - monthly synthesis (partial through 2026-06-07) plus day ladder
 
+**Start here:** [June 2026 Week 1 — Start Here](2026-06-week1-start-here.md) · **Next intake:** [2026-06-08 Intake Readiness](2026-06-08-intake-readiness.md)
+
+- [2026-06 Monthly Synthesis (partial)](2026-06.md)
 - [2026-06-01](2026-06-01.md)
   - [2026-06-01 - Persia On Hormuz As Postwar Authority Floor](2026-06-01-persia-hormuz-postwar-authority-floor.md)
   - [2026-06-01 - Persia On The Hormuz-Lebanon Gate](2026-06-01-persia-hormuz-lebanon-strategic-memory.md)
   - [2026-06-01 - America On The Hormuz-Lebanon Gate](2026-06-01-america-hormuz-lebanon-strategic-memory.md)
 - [2026-06-02](2026-06-02.md)
+- [2026-06-03](2026-06-03.md)
+- [2026-06-04](2026-06-04.md)
+  - [2026-06-04 - Hoh × Henningsen: Lebanon Pseudo-Agreement Falsifier](2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md)
 - [2026-06-05](2026-06-05.md)
 - [2026-06-06](2026-06-06.md)
+  - [2026-06-06 - Persia: Lebanon-First Gate Vs Hormuz Mechanics](2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
+  - [2026-06-06 - Russia–Europe Threshold: Polyanskiy Vs Mercouris](2026-06-06-russia-europe-threshold-polyanskiy-mercouris.md)
+  - [2026-06-06 - America: Captured Command, NDAA Mesh, CI Alarm, Client Veto](2026-06-06-america-captured-command-ndaa-ci-client-veto.md)
+- [2026-06-07](2026-06-07.md)
+  - [2026-06-07 - Parsi × Nima × McGovern: Third-Party Deterrence Vs Recognition Gate](2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
+  - [2026-06-07 - America: Trump Humiliation, Vance Absence, Capture Extension](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
+  - [2026-06-07 - Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md)

@@ -83,6 +83,7 @@ Each transaction should separate:
 ## Exemplars
 
 - [Hormuz recognition transit transaction](hormuz-recognition-transit-transaction.md) - volatile first pass and default worked example for the braid -> router -> transaction path. It converts Iran's Hormuz leverage into a recognition, restraint, sanctions-relief, and transit-security clause.
+- [Lebanon third-party recognition gate transaction](lebanon-third-party-recognition-gate-transaction.md) - June 2026 live bench: couples Parsi/Nima/McGovern third-party deterrence with Hormuz sequencing; treats Washington command capture as credibility constraint on U.S. assurances.
 - [Protected Channel / Non-Regime-Change Framework](../../transactions/protected-channel-non-regime-change-framework/) - two-lane Persia / America bundle that converts leadership-martyrdom and off-ramp-destruction risk into protected channels, no-partition language, and sovereignty-preserving sequencing.
 - [Minab Civilian-Harm De-Escalation Framework](../../transactions/minab-civilian-harm-deescalation-framework/) - two-lane Persia / America bundle that preserves Minab dignity while converting civilian-harm memory into inquiry, protected channels, no-regime-change language, and controlled leverage.
 
