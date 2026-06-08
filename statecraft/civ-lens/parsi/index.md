@@ -15,6 +15,7 @@ Purpose: front door for the canonical Parsi statecraft shelf.
 - [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)
 - [stream/parsi-march-2026-cross-context-arc.md](stream/parsi-march-2026-cross-context-arc.md)
 - [stream/parsi-may-2026-cross-context-arc.md](stream/parsi-may-2026-cross-context-arc.md)
+- [stream/parsi-june-2026-cross-context-arc.md](stream/parsi-june-2026-cross-context-arc.md)
 - [themes/README.md](themes/README.md)
 
 ## Canonical Structure
@@ -30,6 +31,7 @@ The orthogonality-bearing Parsi structure is:
 - [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)
 - [stream/parsi-march-2026-cross-context-arc.md](stream/parsi-march-2026-cross-context-arc.md)
 - [stream/parsi-may-2026-cross-context-arc.md](stream/parsi-may-2026-cross-context-arc.md)
+- [stream/parsi-june-2026-cross-context-arc.md](stream/parsi-june-2026-cross-context-arc.md)
 
 ## Main Context Routes
 

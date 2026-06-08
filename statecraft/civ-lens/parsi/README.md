@@ -17,6 +17,7 @@ Use it for speaker identity, authored/interview crossing, cross-context thread r
 - [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)
 - [stream/parsi-march-2026-cross-context-arc.md](stream/parsi-march-2026-cross-context-arc.md)
 - [stream/parsi-may-2026-cross-context-arc.md](stream/parsi-may-2026-cross-context-arc.md)
+- [stream/parsi-june-2026-cross-context-arc.md](stream/parsi-june-2026-cross-context-arc.md)
 - [themes/README.md](themes/README.md)
 - [parsi-historical-examples-audit.md](parsi-historical-examples-audit.md)
 
@@ -32,7 +33,7 @@ Its main speaker-owned layers are:
 - **Authored/interview crossing:** [parsi-helix.md](parsi-helix.md)
 - **Authored mechanism spine:** [stream/parsi-forecast-ledger-2025-2026.md](stream/parsi-forecast-ledger-2025-2026.md)
 - **Interview-pressure surface:** [parsi-interview-appearances-2025-2026.md](parsi-interview-appearances-2025-2026.md)
-- **Bounded mature month support:** [stream/parsi-march-2026-cross-context-arc.md](stream/parsi-march-2026-cross-context-arc.md) and [stream/parsi-may-2026-cross-context-arc.md](stream/parsi-may-2026-cross-context-arc.md)
+- **Bounded mature month support:** [stream/parsi-march-2026-cross-context-arc.md](stream/parsi-march-2026-cross-context-arc.md), [stream/parsi-may-2026-cross-context-arc.md](stream/parsi-may-2026-cross-context-arc.md), and [stream/parsi-june-2026-cross-context-arc.md](stream/parsi-june-2026-cross-context-arc.md)
 
 Support surfaces:
 
@@ -56,6 +57,7 @@ Current mature month support:
 
 - March 2026
 - May 2026
+- June 2026
 
 ## Historical Scaffold
 

@@ -90,6 +90,7 @@ Where newer intake landed directly into the live archive without a parallel prov
 
 - [substack-parsi-why-trump-may-actually-have-told-netanyahu-everybody-hates-you-2026-06-01](../../../../source-archive/statecraft/2026-06-01/source-parsi-why-trump-may-actually-have-told-netanyahu-everybody-hates-you-2026-06-01.md)
 - [transcript-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01](../../../../source-archive/statecraft/2026-06-01/source-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01.md)
+- [transcript-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05](../../../../source-archive/statecraft/2026-06-05/source-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md)
 
 ## Boundary Notes
 

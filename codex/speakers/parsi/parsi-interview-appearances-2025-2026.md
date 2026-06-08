@@ -17,7 +17,7 @@ It excludes:
 - unhosted date-named `*-parsi.md` files
 - non-Parsi speaker paths
 
-Expected v2 count: 10 files.
+Expected v2 count: 13 files.
 
 ## Source Set
 
@@ -56,6 +56,14 @@ Expected v2 count: 10 files.
 |---|---|---|---|
 | 2026-05-18 | Iran War Marks the End of American Primacy | [raw-input](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-18/source-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md) | order-transition consequence |
 
+### Mario Nawfal
+
+| date | title | raw-input | function |
+|---|---|---|---|
+| 2026-05-28 | BREAKING: Trump & Iran Close to Deal | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md) | fast-turn deal-proximity stress test |
+| 2026-06-01 | BREAKING: Iran Walks Away, Trump Scrambles, Israel Says Betrayal | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-01/source-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01.md) | walkaway volatility and Israel entanglement |
+| 2026-06-05 | IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE | [raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-05/source-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md) | frozen-assets bridge and live mediator signal |
+
 ## Host Function Map
 
 | host | function | best use |
@@ -65,6 +73,7 @@ Expected v2 count: 10 files.
 | Napolitano | Washington misread and legal-political responsibility | Use when the question is why U.S. leadership misunderstood Iran, how Israel shaped the U.S. decision space, or where responsibility attaches. |
 | Duran / Mercouris | blockade failure and diplomatic architecture | Use when the issue is the failed silver-bullet logic of blockade, the need for compromise, and the possibility of regional security architecture. |
 | Diesen | order-transition consequence | Use when Parsi's Iran-war analysis should be read as a claim about U.S. primacy, China/Russia restraint, and the broader transition away from uncontested U.S. coercion. |
+| Mario Nawfal | fast-turn negotiation signal and Gulf escalation pressure | Use when the task is live deal proximity, walkaway volatility, frozen-assets bridge logic, or Trump's ability to restrain Israel inside an open Gulf confrontation. |
 
 ## Ledger Bridge
 
@@ -87,6 +96,7 @@ This is the crossing table between the interview-pressure track and the authored
 | Best Davis entry | Davis, 2026-03-16, "Iran Making It Painful for U.S." |
 | Best Napolitano entry | Napolitano, 2026-03-16, "How Washington Underestimated Iran" |
 | Best Diesen entry | Diesen, 2026-05-18, "Iran War Marks the End of American Primacy" |
+| Best Mario Nawfal entry | Mario Nawfal, 2026-06-05, "IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE" |
 
 ## Backlog / Exclusions
 
@@ -97,7 +107,7 @@ This is the crossing table between the interview-pressure track and the authored
 
 ## Verification Notes
 
-- Source Set includes exactly 10 tracked host-labeled Parsi appearances.
+- Source Set includes exactly 13 tracked host-labeled Parsi appearances.
 - Each included file is referenced once in the Source Set.
 - Excluded source classes do not appear in the Source Set.
 - This note supplements the authored forecast and diplomacy ledger; it does not change source-class discipline there.

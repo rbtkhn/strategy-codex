@@ -10,6 +10,7 @@ Core files:
 - [Forecast + diplomacy ledger](parsi-forecast-ledger-2025-2026.md)
 - [March 2026 cross-context arc](parsi-march-2026-cross-context-arc.md)
 - [May 2026 cross-context arc](parsi-may-2026-cross-context-arc.md)
+- [June 2026 cross-context arc](parsi-june-2026-cross-context-arc.md)
 
 Rule:
 
