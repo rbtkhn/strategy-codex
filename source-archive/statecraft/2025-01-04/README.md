@@ -5,12 +5,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (4)
 - Source form mix: `interview` (2), `solo` (2)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
-- Distinct guests: `2`
-- Distinct threads: `3`
+- Distinct guests: `4`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -19,8 +20,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
-- Guests: `Las Vegas Cybertruck Explosion` (1), `Zelensky is Expendable` (1)
-- Threads: `davis` (2), `mercouris` (1), `nima` (1)
+- Guests: `Larry C. Johnson` (1), `Las Vegas Cybertruck Explosion` (1), `Lawrence Wilkerson` (1), `Zelensky is Expendable` (1)
+- Threads: `davis` (2), `johnson` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
 ## Files
 

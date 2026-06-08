@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (4)
 - Source form mix: `interview` (3), `solo` (1)
 - Distinct channels/shows: `3`
@@ -18,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1), `Nema` (1)
+- Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Jacques Baud` (1), `Trump Sanctions Won't Cow Putin` (1)
 - Threads: `davis` (2), `baud` (1), `freeman` (1), `mercouris` (1)
 

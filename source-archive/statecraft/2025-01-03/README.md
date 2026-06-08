@@ -5,11 +5,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (3)
 - Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `2`
-- Distinct guests: `2`
+- Distinct guests: `4`
 - Distinct threads: `2`
 
 ## Channel / Show Rollup
@@ -19,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1)
-- Guests: `Terror Attacks, Radicalism & U.S. Military Vets` (1), `Zelensky` (1)
+- Guests: `Radicalism` (1), `Terror Attacks` (1), `U.S. Military Vets` (1), `Zelensky` (1)
 - Threads: `davis` (2), `mercouris` (1)
 
 ## Files

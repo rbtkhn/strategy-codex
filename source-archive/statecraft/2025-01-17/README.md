@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `source` (1), `transcript` (1)
 - Source form mix: `interview` (2)
 - Distinct channels/shows: `1`
@@ -18,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (1), `Dialogue Works` (1)
+- Hosts: `Daniel Davis` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `John Mearsheimer` (1)
 - Threads: `davis` (1), `freeman` (1), `mearsheimer` (1), `nima` (1)
 

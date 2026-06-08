@@ -15,6 +15,8 @@ Other named lanes are normally **overlays, proving grounds, or execution surface
 
 This is a routing law, not a filesystem migration law.
 
+**Redesign map (path-tied):** [strategy-codex-redesign-brief.md](strategy-codex-redesign-brief.md) — ranked keep / refactor / freeze / externalize for this repo.
+
 ## Core Split
 
 The shortest distinction is:

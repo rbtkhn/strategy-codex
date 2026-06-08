@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (2)
 - Source form mix: `panel` (1), `solo` (1)
 - Distinct channels/shows: `2`
@@ -18,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1), `Nema` (1)
-- Guests: `Larry C. Johnson` (1), `Larry Wilkerson` (1)
+- Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
+- Guests: `Larry C. Johnson` (1), `Lawrence Wilkerson` (1)
 - Threads: `johnson` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Files

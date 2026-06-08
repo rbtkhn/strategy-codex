@@ -5,12 +5,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `4`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (3), `youtube` (1)
 - Source form mix: `interview` (3), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
-- Distinct guests: `3`
-- Distinct threads: `5`
+- Distinct guests: `5`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -19,8 +20,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1), `Pascal Lottaz` (1)
-- Guests: `Chas Freeman` (1), `Jeffrey Sachs, Yakov Rabkin, Manuel Ramos` (1), `John Mearsheimer` (1)
-- Threads: `napolitano` (2), `freeman` (1), `mearsheimer` (1), `mercouris` (1), `neutrality` (1)
+- Guests: `Chas Freeman` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1), `Manuel Ramos` (1), `Yakov Rabkin` (1)
+- Threads: `napolitano` (2), `freeman` (1), `mearsheimer` (1), `mercouris` (1), `neutrality` (1), `sachs` (1)
 
 ## Files
 

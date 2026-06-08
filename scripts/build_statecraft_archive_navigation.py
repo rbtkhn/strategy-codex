@@ -77,7 +77,7 @@ def build_year_index(root: Path, year: str) -> str:
     lines = [
         f"# Statecraft Archive - {year}",
         "",
-        "_Generated inventory note. Rebuild with `python scripts/build_statecraft_archive_navigation.py`._",
+        "_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`._",
         "",
         "## Stats",
         "",
@@ -156,7 +156,7 @@ def build_thread_index(root: Path) -> str:
     lines = [
         "# Statecraft Archive - Thread Index",
         "",
-        "_Generated inventory note. Rebuild with `python scripts/build_statecraft_archive_navigation.py`._",
+        "_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`._",
         "",
         "## Stats",
         "",
@@ -229,7 +229,7 @@ def build_stale_index_audit(root: Path) -> str:
     lines = [
         "# Statecraft Archive - Stale Index Audit",
         "",
-        "_Generated inventory note. Rebuild with `python scripts/build_statecraft_archive_navigation.py`._",
+        "_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`._",
         "",
         "## Stats",
         "",

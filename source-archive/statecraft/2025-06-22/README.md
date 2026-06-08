@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (2)
 - Source form mix: `interview` (1), `panel` (1)
 - Distinct channels/shows: `2`
@@ -18,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Glenn Diesen` (1), `Nema` (1)
-- Guests: `Chas Freeman` (1), `Jacques Baud` (1), `Larry Wilkerson` (1), `Trita Parsi` (1)
+- Hosts: `Glenn Diesen` (1), `Nima Alkhorshid` (1)
+- Guests: `Chas Freeman` (1), `Jacques Baud` (1), `Lawrence Wilkerson` (1), `Trita Parsi` (1)
 - Threads: `baud` (1), `diesen` (1), `freeman` (1), `parsi` (1), `wilkerson` (1)
 
 ## Files

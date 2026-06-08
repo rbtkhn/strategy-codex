@@ -10,8 +10,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Source form mix: `interview` (3), `solo` (1)
 - Distinct channels/shows: `2`
 - Distinct hosts: `3`
-- Distinct guests: `3`
-- Distinct threads: `7`
+- Distinct guests: `4`
+- Distinct threads: `8`
 
 ## Channel / Show Rollup
 
@@ -20,8 +20,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1)
-- Guests: `Alex Krainer` (1), `Larry C. Johnson` (1), `Lawrence Wilkerson` (1)
-- Threads: `dialogue-works` (2), `nima` (2), `davis` (1), `johnson` (1), `krainer` (1), `mercouris` (1), `wilkerson` (1)
+- Guests: `Alex Krainer` (1), `John Mearsheimer` (1), `Larry C. Johnson` (1), `Lawrence Wilkerson` (1)
+- Threads: `dialogue-works` (2), `nima` (2), `davis` (1), `johnson` (1), `krainer` (1), `mearsheimer` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Files
 

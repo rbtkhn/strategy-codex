@@ -5,10 +5,11 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (2), `source` (1)
 - Source form mix: `interview` (3)
 - Distinct channels/shows: `1`
-- Distinct hosts: `2`
+- Distinct hosts: `1`
 - Distinct guests: `3`
 - Distinct threads: `4`
 
@@ -18,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis / Deep Dive` (2), `daniel-davis` (1)
-- Guests: `Alastair Crooke` (1), `Larry Johnson` (1), `john-mearsheimer` (1)
+- Hosts: `Daniel Davis` (3)
+- Guests: `Alastair Crooke` (1), `John Mearsheimer` (1), `Larry Johnson` (1)
 - Threads: `davis` (3), `crooke` (1), `johnson` (1), `mearsheimer` (1)
 
 ## Files

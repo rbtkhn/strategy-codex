@@ -5,12 +5,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `6`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (6)
 - Source form mix: `interview` (4), `solo` (2)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
-- Distinct guests: `4`
-- Distinct threads: `5`
+- Distinct guests: `7`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
@@ -19,8 +20,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (3), `Nima Alkhorshid` (2), `Alexander Mercouris` (1)
-- Guests: `'Maximum Pressure' on IRAN a Good Idea? John Mearsheimer` (1), `Douglas Macgregor` (1), `John Mearsheimer` (1), `Trump Pressures Netanyahu` (1)
-- Threads: `davis` (3), `mearsheimer` (2), `nima` (2), `macgregor` (1), `mercouris` (1)
+- Guests: `'Maximum Pressure' on IRAN a Good Idea? John Mearsheimer` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Mearsheimer` (1), `Michael Hudson` (1), `Richard D. Wolff` (1), `Trump Pressures Netanyahu` (1)
+- Threads: `davis` (3), `mearsheimer` (2), `nima` (2), `freeman` (1), `macgregor` (1), `mercouris` (1)
 
 ## Files
 

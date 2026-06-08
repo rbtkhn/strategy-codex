@@ -5,11 +5,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `7`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (7)
 - Source form mix: `interview` (6), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
-- Distinct guests: `6`
+- Distinct guests: `9`
 - Distinct threads: `4`
 
 ## Channel / Show Rollup
@@ -19,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (5), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
-- Guests: `Chas Freeman` (1), `Devastating Failure in Ukraine's Kursk Offensive` (1), `Over 100k Ukraine Troops Charged With Desertion` (1), `Trump Tells Zelensky` (1), `Trump on Ukraine, Russia, Iran & Israel` (1), `Trump's Ukraine Dilemma` (1)
+- Guests: `Chas Freeman` (1), `Devastating Failure in Ukraine's Kursk Offensive` (1), `Iran` (1), `Israel` (1), `Over 100k Ukraine Troops Charged With Desertion` (1), `Russia` (1), `Trump Tells Zelensky` (1), `Trump on Ukraine` (1), `Trump's Ukraine Dilemma` (1)
 - Threads: `davis` (5), `freeman` (1), `mercouris` (1), `napolitano` (1)
 
 ## Files

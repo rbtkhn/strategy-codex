@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `transcript` (6), `article` (1), `operator-transcript` (1), `substack-post` (1)
 - Source form mix: `interview` (5), `solo` (2), `article` (1), `newsletter` (1)
 - Distinct channels/shows: `7`
-- Distinct hosts: `8`
+- Distinct hosts: `7`
 - Distinct guests: `4`
 - Distinct threads: `9`
 
@@ -19,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Clayton Morris` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Natali Morris` (1), `Robert Pape` (1)
-- Guests: `Robert Barnes` (2), `Larry Johnson` (1), `Mohammad Marandi` (1), `Robert Pape` (1)
+- Hosts: `Andrew Napolitano` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Clayton Morris` (1), `Glenn Diesen` (1), `Natali Morris` (1), `Robert Pape` (1)
+- Guests: `Larry Johnson` (1), `Mohammad Marandi` (1), `Robert Barnes` (1), `Robert Pape` (1)
 - Threads: `barnes` (2), `napolitano` (2), `nima` (2), `pape` (2), `diesen` (1), `johnson` (1), `marandi` (1), `mercouris` (1), `nawfal` (1)
 
 ## Files

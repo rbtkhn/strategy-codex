@@ -109,6 +109,13 @@ jobs:
       - name: Fork lifecycle unit tests
         run: pytest tests/test_fork_lifecycle.py -v --tb=short
 
+      - name: Check statecraft archive indices
+        run: python3 scripts/refresh_statecraft_archive_indices.py --check
+
+      - name: Validate statecraft daily synthesis (advisory until shelf retrofit)
+        run: python3 scripts/validate_statecraft_daily_synthesis.py
+        continue-on-error: true
+
       - name: Governance check
         run: python scripts/governance_checker.py
 

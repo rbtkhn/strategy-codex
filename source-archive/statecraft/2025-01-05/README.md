@@ -5,12 +5,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (5)
 - Source form mix: `interview` (4), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
-- Distinct guests: `4`
-- Distinct threads: `4`
+- Distinct guests: `5`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -19,8 +20,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (3), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
-- Guests: `CLOSE` (1), `Deceit Uncovered` (1), `Israel's Worst Nightmare Coming | Prof. Mohammad Marandi & Scott Ritter` (1), `Putin Holds All the Cards in Ending Ukraine War` (1)
-- Threads: `davis` (3), `mercouris` (1), `nima` (1), `ritter` (1)
+- Guests: `CLOSE` (1), `Deceit Uncovered` (1), `Mohammad Marandi` (1), `Putin Holds All the Cards in Ending Ukraine War` (1), `Scott Ritter` (1)
+- Threads: `davis` (3), `marandi` (1), `mercouris` (1), `nima` (1), `ritter` (1)
 
 ## Files
 

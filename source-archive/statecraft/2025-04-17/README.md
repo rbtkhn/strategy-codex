@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (3)
 - Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `2`
@@ -20,7 +21,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Alexander Mercouris` (1)
 - Guests: `John Mearsheimer` (1), `Lawrence Wilkerson` (1)
-- Threads: `napolitano` (2), `mercouris` (1), `mearsheimer` (1), `wilkerson` (1)
+- Threads: `napolitano` (2), `mearsheimer` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Files
 

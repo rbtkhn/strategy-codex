@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (3)
 - Source form mix: `interview` (3)
 - Distinct channels/shows: `3`
@@ -19,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (1), `Nima Alkhorshid` (1), `Tucker Carlson` (1)
-- Guests: `Doug Macgregor` (1), `Jeffrey Sachs` (1), `Larry Wilkerson` (1)
+- Guests: `Doug Macgregor` (1), `Jeffrey Sachs` (1), `Lawrence Wilkerson` (1)
 - Threads: `carlson` (1), `davis` (1), `macgregor` (1), `nima` (1), `sachs` (1), `wilkerson` (1)
 
 ## Files

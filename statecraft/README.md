@@ -31,6 +31,8 @@ For the migration-facing map from the old strategy surface, open [Legacy Success
 
 For the canonical source/synthesis stack, open [Statecraft Archive and Statecraft Synthesis](archive-synthesis-law.md).
 
+**Promotion ladder + phased refactor:** [strategy-codex-redesign-brief.md](../docs/strategy-codex-redesign-brief.md) (archive → daily synthesis → transactions → optional gate).
+
 `civ-lens` exists so live speaker continuity can stay statecraft-native: canon now lives under `statecraft/<speaker>/`, while `speakers/` remains redirect-only compatibility residue rather than a second authority tree.
 
 ## Namespace Note

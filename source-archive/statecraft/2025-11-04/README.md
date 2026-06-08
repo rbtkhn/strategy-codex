@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `source` (3), `transcript` (2)
 - Source form mix: `interview` (4), `article` (1)
 - Distinct channels/shows: `1`
@@ -19,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Andrew Napolitano` (3), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
-- Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Larry Wilkerson` (1), `Scott Ritter` (1)
+- Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
 - Threads: `napolitano` (3), `diesen` (1), `freeman` (1), `macgregor` (1), `nima` (1), `ritter` (1), `sachs` (1), `wilkerson` (1)
 
 ## Files

@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `2`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `source` (1), `transcript` (1)
 - Source form mix: `interview` (1), `solo` (1)
 - Distinct channels/shows: `1`
@@ -19,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Alexander Mercouris` (1), `napolitano` (1)
-- Guests: `john-mearsheimer` (1)
+- Guests: `John Mearsheimer` (1)
 - Threads: `mearsheimer` (1), `mercouris` (1), `napolitano` (1)
 
 ## Files

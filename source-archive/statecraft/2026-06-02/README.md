@@ -9,8 +9,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `transcript` (11), `cleaned-transcript` (2), `article` (1), `substack-post` (1)
 - Source form mix: `interview` (11), `solo` (2), `article` (1), `newsletter` (1)
 - Distinct channels/shows: `9`
-- Distinct hosts: `9`
-- Distinct guests: `10`
+- Distinct hosts: `8`
+- Distinct guests: `9`
 - Distinct threads: `16`
 
 ## Channel / Show Rollup
@@ -19,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (3), `Nima Alkhorshid` (3), `Daniel Davis` (2), `Mario Nawfal` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Robert Pape` (1)
-- Guests: `Lawrence Wilkerson` (2), `Alexander Mercouris` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Seyed M. Marandi` (1), `Stanislav Krapivnik` (1)
+- Hosts: `Andrew Napolitano` (3), `Nima Alkhorshid` (3), `Daniel Davis` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Robert Pape` (1)
+- Guests: `Alexander Mercouris` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Helmer` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1), `Matt Hoh` (1), `Seyed M. Marandi` (1), `Stanislav Krapivnik` (1)
 - Threads: `napolitano` (3), `nima` (3), `davis` (2), `mercouris` (2), `nawfal` (2), `wilkerson` (2), `christoforou` (1), `diesen` (1), `freeman` (1), `johnson` (1), `krapivnik` (1), `macgregor` (1), `marandi` (1), `mearsheimer` (1), `pape` (1), `sachs` (1)
 
 ## Files

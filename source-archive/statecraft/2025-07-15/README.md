@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `3`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (3)
 - Source form mix: `interview` (3)
 - Distinct channels/shows: `2`
@@ -24,6 +25,6 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Files
 
-- `source-napolitano-amb-charles-freeman-is-middle-east-peace-possible-2025-07-15.md`
 - `source-diesen-sachs-end-of-the-western-centric-world-and-rise-of-brics-2025-07-15.md`
+- `source-napolitano-amb-charles-freeman-is-middle-east-peace-possible-2025-07-15.md`
 - `source-napolitano-mearsheimer-us-escalates-the-ukraine-war-2025-07-15.md`

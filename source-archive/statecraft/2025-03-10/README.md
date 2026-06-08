@@ -4,26 +4,28 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `3`
-- Body kind mix: `transcript` (3)
-- Source form mix: `interview` (2), `solo` (1)
-- Distinct channels/shows: `2`
-- Distinct hosts: `2`
-- Distinct guests: `2`
-- Distinct threads: `5`
+- Source files: `4`
+- Helper notes (excluded from source count): `0`
+- Body kind mix: `transcript` (3), `youtube` (1)
+- Source form mix: `interview` (3), `solo` (1)
+- Distinct channels/shows: `3`
+- Distinct hosts: `3`
+- Distinct guests: `3`
+- Distinct threads: `6`
 
 ## Channel / Show Rollup
 
-- `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1)
+- `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1)
-- Guests: `Gary Vilano` (1), `Jacques Baud` (1)
-- Threads: `daniel-davis-deep-dive` (2), `davis` (2), `alex-mercouris` (1), `baud` (1), `mercouris` (1)
+- Hosts: `Daniel Davis` (2), `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
+- Guests: `Gary Vilano` (1), `Jacques Baud` (1), `Jeffrey Sachs` (1)
+- Threads: `daniel-davis-deep-dive` (2), `davis` (2), `alex-mercouris` (1), `baud` (1), `mercouris` (1), `sachs` (1)
 
 ## Files
 
 - `source-alex-mercouris-ukraines-kursk-catastrophe-kiev-troops-routed-flee-in-chaos-villages-fall-riyadh-showdown-looms-2025-03-10.md`
 - `source-daniel-davis-deep-dive-breaking-ukraine-army-collapsing-in-kursk-russia-surrounds-ukrainian-soldiers-2025-03-10.md`
 - `source-daniel-davis-deep-dive-no-common-ground-in-us-ukraine-peace-talks-col-jacques-baud-2025-03-10.md`
+- `source-sachs-the-heat-one-on-one-2025-03-10.md`

@@ -5,6 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Stats
 
 - Source files: `5`
+- Helper notes (excluded from source count): `0`
 - Body kind mix: `transcript` (5)
 - Source form mix: `interview` (4), `solo` (1)
 - Distinct channels/shows: `3`
@@ -19,7 +20,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (3), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
-- Guests: `Austin v. Hegseth` (1), `Gaza Ceasefire/Hostage Deal in the Works` (1), `Hegseth` (1), `Mohammad Marandi | Breaking` (1)
+- Guests: `Austin v. Hegseth` (1), `Breaking` (1), `Gaza Ceasefire/Hostage Deal in the Works` (1), `Hegseth` (1)
 - Threads: `davis` (3), `mercouris` (1), `nima` (1)
 
 ## Files

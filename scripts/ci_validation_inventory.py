@@ -90,6 +90,10 @@ def _argv_validate_statecraft_daily_synthesis(_user: str) -> list[str]:
     return []
 
 
+def _argv_validate_statecraft_archive_indices(_user: str) -> list[str]:
+    return ["--check"]
+
+
 ALL_CHECKS: tuple[CheckSpec, ...] = (
     CheckSpec(
         id="assert_canonical_paths",
@@ -249,9 +253,19 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
         script_relpath="scripts/validate_statecraft_daily_synthesis.py",
         argv_builder=_argv_validate_statecraft_daily_synthesis,
         user_scope="ignored",
-        groups=frozenset({"experimental"}),
+        groups=frozenset({"ci", "experimental"}),
         timeout_sec=60.0,
-        ci_source="",
+        ci_source=".github/workflows/test.yml (Validate statecraft daily synthesis — advisory)",
+    ),
+    CheckSpec(
+        id="validate_statecraft_archive_indices",
+        label="Statecraft archive navigation indices",
+        script_relpath="scripts/refresh_statecraft_archive_indices.py",
+        argv_builder=_argv_validate_statecraft_archive_indices,
+        user_scope="ignored",
+        groups=frozenset({"ci", "full"}),
+        timeout_sec=180.0,
+        ci_source=".github/workflows/test.yml (Check statecraft archive indices)",
     ),
 )
 
@@ -268,6 +282,7 @@ def checks_for_group(group: str) -> list[CheckSpec]:
             "assert_canonical_paths",
             "validate_integrity",
             "validate_template_sync_contract",
+            "validate_statecraft_archive_indices",
             "governance_checker",
             "validate_structured_files",
             "validate_control_plane",

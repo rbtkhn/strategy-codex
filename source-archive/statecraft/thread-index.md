@@ -1,11 +1,11 @@
 # Statecraft Archive - Thread Index
 
-_Generated inventory note. Rebuild with `python scripts/build_statecraft_archive_navigation.py`._
+_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`._
 
 ## Stats
 
 - Distinct threads: `57`
-- Thread-linked source files: `2461`
+- Thread-linked source files: `2463`
 - Covered days: `447`
 - Covered months: `18`
 
@@ -29,19 +29,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `simplicius` | 62 | 62 | 4 | `simplicius76.substack.com` (62) | (none) | `2026-01-02` | `2026-04-27` |
 | `crooke` | 56 | 55 | 13 | `Dialogue Works` (5), `Daniel Davis Deep Dive` (4), `Judging Freedom` (4) | `Nima Alkhorshid` (8), `Daniel Davis` (6), `Glenn Diesen` (5) | `2025-06-25` | `2026-06-08` |
 | `marandi` | 56 | 45 | 10 | `Dialogue Works` (28), `Glenn Diesen` (11), `Daniel Davis Deep Dive` (9) | `Nima Alkhorshid` (28), `Glenn Diesen` (11), `Daniel Davis` (9) | `2025-01-05` | `2026-06-08` |
-| `parsi` | 34 | 31 | 12 | `substack.com/@tritaparsi` (11), `Dialogue Works` (5), `tritaparsi.substack.com` (5) | `Trita Parsi` (18), `Nima Alkhorshid` (5), `Mario Nawfal` (3) | `2025-05-09` | `2026-06-07` |
+| `parsi` | 34 | 31 | 12 | `substack.com/@tritaparsi` (11), `Dialogue Works` (5), `tritaparsi.substack.com` (5) | `Trita Parsi` (18), `Nima Alkhorshid` (5), `Daniel Davis` (2) | `2025-05-09` | `2026-06-07` |
 | `martyanov` | 33 | 32 | 13 | `Dialogue Works` (26), `Daniel Davis Deep Dive` (3), `Deep Dive` (1) | `Nima Alkhorshid` (26), `Daniel Davis` (4), `Glenn Diesen` (3) | `2025-01-26` | `2026-06-04` |
 | `baud` | 30 | 29 | 12 | `Dialogue Works` (19), `Daniel Davis Deep Dive` (5), `Glenn Diesen` (4) | `Nima Alkhorshid` (19), `Daniel Davis` (5), `Glenn Diesen` (4) | `2025-01-24` | `2026-06-08` |
-| `nawfal` | 24 | 15 | 2 | `Mario Nawfal` (24) | `Mario Nawfal` (24) | `2026-05-12` | `2026-06-07` |
+| `nawfal` | 25 | 16 | 2 | `Mario Nawfal` (25) | `Mario Nawfal` (17) | `2026-05-12` | `2026-06-08` |
 | `christoforou` | 22 | 22 | 7 | `The Duran` (21), `Mercouris` (1) | `Alex Christoforou` (20) | `2025-02-07` | `2026-06-06` |
 | `mcgovern` | 21 | 20 | 11 | `Dialogue Works` (9), `Glenn Diesen` (6), `Judging Freedom` (5) | `Nima Alkhorshid` (9), `Glenn Diesen` (6), `Andrew Napolitano` (5) | `2025-02-05` | `2026-06-08` |
-| `barnes` | 16 | 14 | 6 | `Daniel Davis Deep Dive` (6), `The Duran` (3), `Mario Nawfal` (3) | `Daniel Davis` (6), `Mario Nawfal` (3), `Alexander Mercouris` (2) | `2026-01-13` | `2026-06-03` |
+| `barnes` | 17 | 15 | 6 | `Daniel Davis Deep Dive` (6), `Mario Nawfal` (4), `The Duran` (3) | `Daniel Davis` (6), `Mario Nawfal` (3), `Alexander Mercouris` (2) | `2026-01-13` | `2026-06-08` |
 | `krainer` | 11 | 11 | 8 | `Dialogue Works` (7), `Glenn Diesen` (3), `Diesen` (1) | `Nima Alkhorshid` (7), `Glenn Diesen` (3), `Diesen` (1) | `2025-01-18` | `2026-06-04` |
 | `beebe` | 10 | 10 | 10 | `Glenn Diesen` (10) | `Glenn Diesen` (10) | `2025-04-16` | `2026-05-14` |
 | `jiang` | 10 | 8 | 2 | `Predictive History` (8), `Glenn Diesen` (2) | `Jiang Xueqin` (8), `Glenn Diesen` (2) | `2026-01-05` | `2026-05-26` |
 | `armstrong` | 9 | 9 | 7 | `Dialogue Works` (7), `Glenn Diesen` (1), `Reinvent Money` (1) | `Nima Alkhorshid` (7), `Glenn Diesen` (1), `Paul Buitink` (1) | `2025-02-19` | `2026-06-05` |
 | `kent` | 9 | 7 | 4 | `Daniel Davis Deep Dive` (4), `Mario Nawfal` (2), `Tucker Carlson` (1) | `Daniel Davis` (4), `Mario Nawfal` (2), `Tucker Carlson` (1) | `2026-03-18` | `2026-06-01` |
-| `aguilar` | 7 | 7 | 4 | `Dialogue Works` (3), `Mario Nawfal` (2), `Moral Resistance` (1) | `Nima Alkhorshid` (3), `Mario Nawfal` (2), `Moral Resistance` (1) | `2026-02-27` | `2026-06-07` |
+| `aguilar` | 7 | 7 | 4 | `Dialogue Works` (3), `Mario Nawfal` (2), `Moral Resistance` (1) | `Nima Alkhorshid` (3), `Mario Nawfal` (1), `Moral Resistance` (1) | `2026-02-27` | `2026-06-07` |
 | `daniel-davis-deep-dive` | 7 | 4 | 4 | `Daniel Davis Deep Dive` (7) | `Daniel Davis` (7) | `2025-01-10` | `2025-04-10` |
 | `dialogue-works` | 7 | 3 | 2 | `Dialogue Works` (7) | `Nima Alkhorshid` (7) | `2025-07-20` | `2026-03-16` |
 | `krapivnik` | 7 | 7 | 4 | `Dialogue Works` (3), `The Duran` (2), `Diesen` (1) | `Nima Alkhorshid` (3), `Alex Christoforou` (2), `Diesen` (1) | `2025-02-25` | `2026-06-04` |
@@ -66,7 +66,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_archive
 | `matlock` | 1 | 1 | 1 | `Diesen - Greater Eurasia Podcast` (1) | `Diesen` (1) | `2026-04-19` | `2026-04-19` |
 | `neutrality` | 1 | 1 | 1 | `Neutrality Studies` (1) | `Pascal Lottaz` (1) | `2025-12-09` | `2025-12-09` |
 | `paul` | 1 | 1 | 1 | `Reinvent Money` (1) | `Paul Buitink` (1) | `2026-06-05` | `2026-06-05` |
-| `polyanskiy` | 1 | 1 | 1 | `Mario Nawfal` (1) | `Mario Nawfal` (1) | `2026-06-06` | `2026-06-06` |
+| `polyanskiy` | 1 | 1 | 1 | `Mario Nawfal` (1) | (none) | `2026-06-06` | `2026-06-06` |
 | `ritter-mcgovern` | 1 | 1 | 1 | `Consortium News` (1) | `Joe Lauria` (1) | `2026-05-18` | `2026-05-18` |
 | `shaun-attwood` | 1 | 1 | 1 | `Shaun Attwood` (1) | `Shaun Attwood` (1) | `2026-04-29` | `2026-04-29` |
 | `the-source` | 1 | 1 | 1 | `The Source` (1) | `Zain Raza` (1) | `2025-06-19` | `2025-06-19` |

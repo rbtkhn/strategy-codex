@@ -9,8 +9,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `transcript` (8), `cleaned-transcript` (2), `substack-post` (2), `article` (1), `operator-transcript` (1), `youtube` (1)
 - Source form mix: `interview` (9), `newsletter` (3), `solo` (2), `article` (1)
 - Distinct channels/shows: `9`
-- Distinct hosts: `9`
-- Distinct guests: `9`
+- Distinct hosts: `8`
+- Distinct guests: `8`
 - Distinct threads: `15`
 
 ## Channel / Show Rollup
@@ -19,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (3), `Andrew Napolitano` (2), `Daniel Davis` (2), `Glenn Diesen` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Mario Nawfal` (1), `Robert Pape` (1), `Trita Parsi` (1)
-- Guests: `Alexander Mercouris` (1), `Jacques Baud` (1), `Jeffrey Sachs` (1), `Jiang Xueqin` (1), `Joe Kent` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Ray McGovern` (1), `Trita Parsi` (1)
+- Hosts: `Nima Alkhorshid` (3), `Andrew Napolitano` (2), `Daniel Davis` (2), `Glenn Diesen` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Robert Pape` (1), `Trita Parsi` (1)
+- Guests: `Alexander Mercouris` (1), `Jacques Baud` (1), `Jeffrey Sachs` (1), `Jiang Xueqin` (1), `Joe Kent` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Ray McGovern` (1)
 - Threads: `nima` (3), `davis` (2), `diesen` (2), `mercouris` (2), `napolitano` (2), `parsi` (2), `baud` (1), `christoforou` (1), `johnson` (1), `kent` (1), `mcgovern` (1), `nawfal` (1), `pape` (1), `ritter` (1), `sachs` (1)
 
 ## Files
