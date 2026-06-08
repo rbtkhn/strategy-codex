@@ -36,7 +36,7 @@ Boundary reminder:
 
 ## Index
 
-### 2026-03 - monthly synthesis (archive-first; day ladder pending)
+### 2026-03 - monthly synthesis + hinge day ladder
 
 March archive: [source-archive/statecraft/2026-03.md](../source-archive/statecraft/2026-03.md) — 31 days, 200 source files. Monthly compression:
 
@@ -45,8 +45,13 @@ March archive: [source-archive/statecraft/2026-03.md](../source-archive/statecra
   - [2026-03-16 - Pape Escalation Trap Vs Crooke Mosaic](2026-03-16-pape-vs-crooke-mosaic-trap.md)
   - [2026-03-16 - Ritter Implementation × Trap × Mosaic](2026-03-16-ritter-implementation-trap-mosaic.md)
 - [2026-03-19](2026-03-19.md) — Crooke wheels-off essay + South Pars energy pivot (4 captures)
+  - [Dollar-Hormuz Terms × Trap–Mosaic Lattice](2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) (arc companion: 16 → 19 → 23)
+- [2026-03-23](2026-03-23.md) — Freeman walk-back + Postol air-defense collapse (7 captures)
+  - [Postol × Ritter — implementation × battlefield](2026-03-23-postol-vs-ritter-implementation-battlefield.md)
+- [2026-03-27](2026-03-27.md) — Johnson–Wilkerson ground devastation + Pape Marine Threshold (7 captures)
+- [2026-03-31](2026-03-31.md) — month-end: Ritter no-war-plan + Trump Hormuz walk-away / Europe offload (7 on disk)
 
-Additional March day notes pending; use archive day READMEs under `source-archive/statecraft/2026-03-*/` for uncaptured days.
+March month ladder complete for anchored hinges (16, 19, 23, 27, 31).; use archive day READMEs under `source-archive/statecraft/2026-03-*/` for uncaptured days.
 
 ### 2026-05 - monthly synthesis plus day ladder
 
