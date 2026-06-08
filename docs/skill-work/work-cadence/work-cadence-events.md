@@ -685,3 +685,18 @@ _(Append below this line.)_
 - **2026-06-02 21:51 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm
 - **2026-06-02 21:54 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-04 06:12 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-05 14:04 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-06 05:02 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-07 22:00 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-07 22:01 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe
+- **2026-06-07 22:07 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-07 22:09 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=B learning_action=test
+- **2026-06-08 03:13 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-08 06:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=toscanini
+- **2026-06-08 06:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=toscanini notebook_ref=docs/skill-work/work-coffee/CONDUCTOR-PASS.md falsify=skill-mount-integrity-fails-or-handoff-hub-diverges-from-coffee
+- **2026-06-08 06:40 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-06-08 06:43 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=furtwangler notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=statecraft-batch-commit-without-deploy-ownership-or-explicit-multi-lane-receipt
+- **2026-06-08 06:48 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=kleiber
+- **2026-06-08 07:00 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=kleiber verdict=held notebook_ref=artifacts/benchmarks/composition/2026-06-07/cursor-composer/lebanon-third-party-gate-kleiber/closeout.md falsify=statecraft-commit-without-persia-slice-receipt-or-america-primary-ownership
+- **2026-06-08 07:01 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=bernstein
+- **2026-06-08 07:33 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=bernstein verdict=held notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=verification-commit-restages-2ec582124-or-batches-civ-lens-without-separate-intent

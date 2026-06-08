@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "task-6",
+  "prompt_version": "composition-benchmark-v1/persia-dual-carrier-lebanon-trigger-2026-06-07",
+  "rubric_version": "composition-rubric-v1",
+  "model": "Composer",
+  "provider": "Cursor",
+  "model_version": "unavailable",
+  "run_date": "2026-06-07",
+  "temperature": "unknown",
+  "seed": "unavailable",
+  "source_mode": "source_pack",
+  "evaluator": "Composer",
+  "notes": "Kleiber D Finale after A-D conductor pass (deploy, ladder guardrail, Parsi falsifier). Dual-carrier Persia synthesis from Parsi Substack + Nima solo 2026-06-07 only. McGovern excluded from pack by design."
+}
