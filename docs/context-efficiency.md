@@ -27,3 +27,5 @@ Output: `artifacts/workflow-observability/context-efficiency-report.json` (+ `.m
 ## Governance
 
 Inspection only; no Record writes; no merge authority.
+
+For Tufte-style chart generation or review of these metrics, invoke portable skill **`tufte-data-viz`** (`tufte viz` / `tufte review`).

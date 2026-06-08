@@ -50,6 +50,7 @@ python3 scripts/build_workflow_observability_summary.py --repo-root .
 
 ## See also
 
+- Portable skill **`tufte-data-viz`** — Tufte-style chart generation/review for workflow and cadence observability JSON (`tufte viz` / `tufte review`).
 - [workflow-observability-thresholds.md](workflow-observability-thresholds.md) — human guidance thresholds (not automation).
 - [runtime/context-budgeting.md](runtime/context-budgeting.md) — context policy context.
 - [observability.md](observability.md) — proposal observability.

@@ -62,6 +62,16 @@ The script runs, in order: `export.py manifest`, `fork_checksum.py --manifest`, 
 
 `coffee` should feel like a sip. `dream` should feel like sleep. `bridge` should feel like sealing an envelope.
 
+### Mounted core vs specialist skills
+
+For day-to-day Codex use, keep the host-mounted cadence spine small and legible.
+
+- **Always-mounted core:** `coffee`, `conductor`, `dream`, and `bridge`
+- **Live lane/support set:** `harvest`, `memory`, `monthly-deepening`, `statecraft-source-intake`, `statecraft-daily-synthesis`, `statecraft-multi-lens`
+- **Repo-local specialists:** everything else unless repeated real use proves it belongs in the mounted default
+
+The rule is simple: mount the skills that shape rhythm or are repeatedly needed inside live operator flow; leave narrower academy, watchlist, PH, or one-off support skills repo-local until they prove they deserve host-visible default status.
+
 ---
 
 ## Cadence choreography

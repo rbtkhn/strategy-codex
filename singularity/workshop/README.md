@@ -93,6 +93,8 @@ For Coffee D specifically, add one routing question before closing the pass: has
 
 Full local captures live here for close reading. Interpretive source sheets stay in `sheets/`; this folder preserves the newsletter text used to build them.
 
+**Archive boundary:** local Innermost Loop truth ends at [2026-05-17](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-17.md) until operator-run `python scripts/backfill_innermost_loop_academy_raw.py --today 2026-06-07 --days 25 --apply` closes the gap.
+
 - [The Innermost Loop raw - 2025-12-11](../../source-archive/singularity/innermost-loop/innermost-loop-2025-12-11.md) - full newsletter capture.
 - [The Innermost Loop raw - 2025-12-12](../../source-archive/singularity/innermost-loop/innermost-loop-2025-12-12.md) - full newsletter capture.
 - [The Innermost Loop raw - 2025-12-13](../../source-archive/singularity/innermost-loop/innermost-loop-2025-12-13.md) - full newsletter capture.
