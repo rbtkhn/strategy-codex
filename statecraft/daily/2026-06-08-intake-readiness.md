@@ -66,7 +66,9 @@ Draft statecraft notes only if the batch supports them:
 - **Davis Lebanon fulcrum × Crooke ceasefire-for-all** — [statecraft note](./2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) ✓
 - **America USS Liberty legitimacy seam × McGovern June 8** — [statecraft note](./2026-06-08-america-uss-liberty-legitimacy-seam.md) ✓
 - **Pape Day 100 × New Phase × Lebanon Fuse** — [statecraft note](./2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) ✓
-- **Marandi deal floor × gate Clauses A–D** — [statecraft note](./2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) ✓ · [gate transaction patched](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
+- **Marandi deal floor × gate Clauses A–D** — [statecraft note](./2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) ✓ · [gate transaction patched](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) · [Hormuz cross-link patched](../persia/transactions/hormuz-recognition-transit-transaction.md)
+- **Pape Day 100 indicator watch sheet** — [weekly falsifier table](./2026-06-08-pape-day-100-indicator-watch-sheet.md) ✓
+- **Marandi deal floor × Hormuz activation** — [statecraft note §Hormuz Activation](./2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md#hormuz-activation-rule--marandi-deal-floor-line-by-line) ✓
 - **Israeli retaliation × Aguilar** — Rise-and-Kill-First vs Trump phone theater
 - **Johnson Larijani × June 7 third-party gate** — [statecraft note](./2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade.md) ✓
 - **June 8 Nima × June 7 Nima** — ladder continuity vs pause

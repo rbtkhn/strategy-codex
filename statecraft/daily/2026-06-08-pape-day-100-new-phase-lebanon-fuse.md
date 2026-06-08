@@ -134,6 +134,7 @@ Short rule: **Day 100 converts Jun 4 fuse + Jun 6 hegemony into a dated falsifie
 
 - Parent daily (when written): [Statecraft Daily Synthesis - 2026-06-08](./2026-06-08.md) — use this note as **escalation-trap spine**
 - [Persia transaction — Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
+- [Pape Day 100 indicator watch sheet](./2026-06-08-pape-day-100-indicator-watch-sheet.md) — **operational weekly falsifier table**
 - [America transaction — command firewall](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
 - [June 2026 partial month](./2026-06.md) — update when Day 100 shifts week object
 - [2026-06-04 daily](./2026-06-04.md) — Lebanon Fuse first landed in daily synthesis context (if present)

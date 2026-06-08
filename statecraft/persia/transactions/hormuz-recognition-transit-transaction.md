@@ -14,8 +14,9 @@ Hormuz recognition-for-transit restraint clause.
 
 - Speaker-state inputs: [Pape](../../../../speakers/pape/) for coercive-center leverage and shortage clocks; [Parsi](../../../../speakers/parsi/) for settlement architecture and sanctions-relief sequencing; [Marandi](../../../../speakers/marandi/) for Iranian bargaining logic; [Crooke](../../../speakers/crooke/README.md) for Western misreading; [Ritter](../../../../speakers/ritter/) for regime-change and military-risk warnings.
 - Scoreboards used: [Pape coercive-center index](../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../sheets/mearsheimer-structural-realist-scoreboard.md).
-- Raw-input / provenance anchors: [Pape, 2026-04-16](../../../../years/2026/provenance/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md); [Pape, 2026-05-03](../../../../years/2026/provenance/2026-05-03/source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md); [Pape, 2026-05-18](../../../../years/2026/provenance/2026-05-18/source-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Parsi, 2026-05-01](../../../../years/2026/provenance/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md); [Parsi, 2026-05-03](../../../../years/2026/provenance/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
-- Prior statecraft drafts: [Hormuz Strait Transit Agreement v0](../../../../hormuz-strait-transit-agreement-v0.md); [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../../hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
+- Raw-input / provenance anchors: [Pape, 2026-04-16](../../../../years/2026/provenance/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md); [Pape, 2026-05-03](../../../../years/2026/provenance/2026-05-03/source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md); [Pape, 2026-05-18](../../../../years/2026/provenance/2026-05-18/source-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Pape Day 100, 2026-06-08](../../../source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md); [Marandi, 2026-06-08](../../../source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md); [Parsi, 2026-05-01](../../../../years/2026/provenance/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md); [Parsi, 2026-05-03](../../../../years/2026/provenance/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
+- Paired gate instrument: [Lebanon third-party recognition gate transaction](lebanon-third-party-recognition-gate-transaction.md) — **SSOT for coupled-braid ledger rows** (`D-RED-*`, `D-HORM-01`, `D-LINK-01`) and gate-green precondition for transit notice here.
+- Statecraft notes: [Pape Day 100 indicator watch sheet](../../daily/2026-06-08-pape-day-100-indicator-watch-sheet.md); [Marandi deal floor × gate clauses](../../daily/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) — [§Hormuz Activation × `D-HORM-01`](../../daily/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md#hormuz-activation-rule--marandi-deal-floor-line-by-line).
 
 ## Historical Continuity
 
@@ -68,18 +69,47 @@ If one of those lines drops out, the transaction degrades:
 - sanctions relief without transit restraint reads as payment for instability
 - recognition without authority carrier reads as rhetoric
 
+- Prior statecraft drafts: [Hormuz Strait Transit Agreement v0](../../../../hormuz-strait-transit-agreement-v0.md); [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../../hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
+
+## Coupled Gate Activation (Lebanon gate braid SSOT)
+
+This transaction **does not duplicate** Bab el-Mandeb / Red Sea observability. Braid row definitions live in [Lebanon gate transaction — Clause D](lebanon-third-party-recognition-gate-transaction.md#clause-d--coupled-chokepoint-braid).
+
+**Activation rule for Hormuz guarantee issuance:**
+
+| Prerequisite | Source row / status |
+| --- | --- |
+| Lebanon/Gaza gate benchmark **green** | Gate transaction Observability Hinge |
+| Braid status not **`failed`** | `D-RED-04` cluster or unlogged dual-corridor contest |
+| Trigger log cross-reference when braid moves | `D-LINK-01` within 24h of any `D-*` status change |
+| Hormuz material line matches announced line | `D-HORM-01` within pre-war daily band (Marandi reference: ~25–30 transits/day) for **72h** before guarantee window opens |
+
+**Braid status rollup (derived — do not maintain a second ledger):**
+
+| Rollup | Condition |
+| --- | --- |
+| `BRAID-OK` | All `D-*` rows pass; gate-green |
+| `BRAID-STRESSED` | Any `D-*` → stressed **or** `PAUSE-CAVEAT` active |
+| `BRAID-FAILED` | `D-RED-04` cluster **or** Hormuz-only relief offered while `D-LINK-01` fires |
+
+Short rule: **Hormuz reopening is downstream of gate + braid; braid rows are owned by the gate transaction; this file spends the transit guarantee once rollup permits.**
+
 ## Observability Hinge
 
 The credibility test for this transaction is whether outside actors can observe that restraint is governed rather than merely declared.
 
 Minimum observable package:
 
+- **Gate-green + braid rollup not `failed`** per [Lebanon gate — Coupled Gate Activation](lebanon-third-party-recognition-gate-transaction.md) and [Pape Day 100 watch sheet](../../daily/2026-06-08-pape-day-100-indicator-watch-sheet.md).
 - Iran publishes a 30-day transit guarantee through named state carriers rather than through informal signaling alone.
 - A neutral channel circulates the active transit-notice and complaint-contact mechanism to commercial shippers, insurers, and key partner states.
 - During the guarantee window, Iran refrains from new transit interference against non-belligerent commercial vessels except under the suspension terms named in the clause.
 - A mediator or secretariat records whether reciprocal assurances, relief steps, and complaints were performed on schedule.
+- **`D-HORM-01` logged** in gate ledger at guarantee open and at each 30-day renewal — transit count band is the material proof of the announced commercial-passage line.
 
 If those signals are absent, the transaction should be read as a tactical pause rather than recognized restraint.
+
+**Hormuz-only reopening falsifier:** If transit notice issues while Lebanon/Gaza gate fails, `D-LINK-01` is active, or braid rollup is `failed`, read as **spoiler leverage** or ** capitulation theater** — not recognized restraint per [gate transaction falsifiers](lebanon-third-party-recognition-gate-transaction.md#falsifiers).
 
 ## Civilization / Empire Helix Input
 
@@ -120,6 +150,8 @@ Iran's durable interest is to convert the coupled Hormuz bundle of passage, coer
 
 Draft clause:
 
+> **Activation precondition:** No guarantee under this instrument shall issue unless the [Lebanon third-party recognition gate](lebanon-third-party-recognition-gate-transaction.md) mediator ledger records gate benchmark **green**, coupled-braid rollup not **`failed`**, and **`D-HORM-01`** within the pre-war daily transit band for 72 consecutive hours, with any braid status change cross-referenced to **`D-LINK-01`** and the gate trigger log.
+>
 > Upon written reciprocal assurances against regime-change operations, attacks on Iranian sovereign facilities, and interdiction of lawful Iranian energy commerce, and upon commencement within 72 hours of an initial verified and renewable sanctions-relief step through a neutral channel, Iran shall issue a renewable 30-day guarantee of safe commercial transit through the Strait of Hormuz for non-belligerent vessels. This guarantee shall be treated as a limited de-escalation and transit-security mechanism that converts reciprocal compliance into governed restraint, without prejudice to the wider positions of any party on regional security, alliance structure, nuclear status, or final sanctions architecture.
 >
 > Within 24 hours of issuance, the designated Iranian authorities and the mediator shall publish the guarantee window, complaint contact, suspension standard, and insurer-facing transit notice to commercial carriers, insurers, Gulf littoral states, and named partner governments. A parallel Gulf incident channel shall provide rapid reporting and deconfliction for commercial-shipping disputes during the guarantee period, but shall not exercise supervisory authority over Iranian sovereign decision-making.
@@ -130,7 +162,7 @@ Draft clause:
 
 ## Comparative Placement
 
-This file remains the canonical Iran-lane transaction for the Hormuz recognition line. When the live object includes **Lebanon third-party triggers** and **Washington command-capture constraints**, pair with [Lebanon third-party recognition gate transaction](lebanon-third-party-recognition-gate-transaction.md) — gate benchmarks precede or coincide with transit/relief activation here. Cross-lane redlines, external objections, and comparison notes belong under [Hormuz Transit / Sanctions Relief Compact](../../transactions/hormuz-transit-sanctions-relief-compact/README.md) so the Iran clause is refined without competing with a second lane-local authority.
+This file remains the canonical Iran-lane transaction for the Hormuz recognition line. When the live object includes **Lebanon third-party triggers** and **Washington command-capture constraints**, pair with [Lebanon third-party recognition gate transaction](lebanon-third-party-recognition-gate-transaction.md) — gate benchmarks and **`D-*` braid rows (SSOT)** precede or coincide with transit/relief activation here. Weekly operational review: [Pape Day 100 indicator watch sheet](../../daily/2026-06-08-pape-day-100-indicator-watch-sheet.md). Cross-lane redlines, external objections, and comparison notes belong under [Hormuz Transit / Sanctions Relief Compact](../../transactions/hormuz-transit-sanctions-relief-compact/README.md) so the Iran clause is refined without competing with a second lane-local authority.
 
 ## Mirror Test
 
@@ -144,13 +176,22 @@ What is the shortest plausible objection from each of the other national lanes?
 ## Falsifiers / Revisit Triggers
 
 - Falsifier: China, India, Gulf states, or Russia publicly distance from Iran's transit position in a way that deprives Tehran of bargaining depth.
+- Falsifier: Hormuz guarantee issued while gate benchmark red or braid rollup **`failed`** — treat as tactical pause / spoiler leverage (see gate transaction + watch sheet).
 - Revisit trigger: U.S. or allied interdiction expands, Iran changes transit conditions, or a mediator proposes a sanctions-relief / transit-security formula.
 - Scoreboard movement that would require review: Pape coercive-center score falls because Hormuz loses salience, or Mearsheimer score worsens because balancing pressure sharply rises.
 - Actor defection or compliance signal: Gulf cooperation with a U.S.-led coercive framework, Chinese insurance or payment workaround, Iranian controlled reopening, or verified sanctions-relief step.
 
 ## Validity Status
 
-`volatile`
+`volatile` — Day 100 ceasefire breakdown; dual-corridor braid stressed; gate-green not met for guarantee issuance; executive channel non-credible for reciprocal assurances.
+
+## Return Paths
+
+- [Lebanon third-party recognition gate transaction](lebanon-third-party-recognition-gate-transaction.md) — braid row SSOT
+- [Marandi deal floor × Hormuz activation](../../daily/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md#hormuz-activation-rule--marandi-deal-floor-line-by-line)
+- [Pape Day 100 indicator watch sheet](../../daily/2026-06-08-pape-day-100-indicator-watch-sheet.md)
+- [Persia transactions README](README.md)
+- [Persia helix](../helix.md)
 
 ## Recursive Update Candidates
 
