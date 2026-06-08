@@ -131,6 +131,11 @@ def validate_receipt(data: Any) -> list[str]:
             or not all(isinstance(x, str) for x in insp["acceptanceChecklist"])
         ):
             errors.append("inspection.acceptanceChecklist must be a list of strings")
+        if "questionsSpec" in insp and (
+            not isinstance(insp["questionsSpec"], list)
+            or not all(isinstance(x, str) for x in insp["questionsSpec"])
+        ):
+            errors.append("inspection.questionsSpec must be a list of strings")
 
     rgid = data.get("relatedGateCandidateId")
     if rgid is not None and not isinstance(rgid, str):

@@ -13,6 +13,15 @@ These lanes govern **tooling and git scope** for the turn, not Abbyâ€™s per
 - Design, tradeoffs, questions, or written plan content.
 - **No** repo file edits, **no** git, **no** pushâ€”unless the same message explicitly allows editing a specific plan file or doc.
 
+#### PLAN — questions-as-spec (default for heavy work)
+
+Before **EXECUTE** on multi-file, long-document, or ambiguous tasks, PLAN should produce **3–7 meaningful questions** that encode success standards — not a single eval rubric.
+
+- Questions must be **falsifiable or decidable** (e.g. “What would make us wrong?”, “What must not change?”, “Compared to what?”).
+- The agent helps **define task shape** from questions plus candidate files; the operator approves shape → then **EXECUTE**.
+- **Stack:** PLAN (questions) → optional [**context-folder-assembly**](../skills-portable/_drafts/context-folder-assembly/SKILL.md) → EXECUTE. Compatible with Think/Ship and proposal-first.
+- Template: [questions-as-spec-template.md](skill-work/questions-as-spec-template.md). Cheat sheet: [context-folder-operator-cheatsheet.md](skill-work/context-folder-operator-cheatsheet.md).
+
 ### `EXECUTE`
 
 - Implement the agreed scope; run checks the operator asked for (tests, linters, `validate-template`, etc.).

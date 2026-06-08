@@ -111,6 +111,8 @@ This file lives at **`docs/skill-work/`** root as **cross-cutting doctrine** (no
 
 **Related:** [context-efficiency-layer.md](context-efficiency-layer.md) â€” **what to load** at what fidelity (hot/warm/cold, budgets, recovery links). Reality Sprint compresses **one plan** into one action path; CEL assembles **session** context efficiently.
 
+**See also:** [questions-as-spec-template.md](questions-as-spec-template.md) — RSB “Failure check” questions rhyme with PLAN questions-as-spec; use the template upstream before EXECUTE on heavy work.
+
 ---
 
 ## Deferred (post-v1)

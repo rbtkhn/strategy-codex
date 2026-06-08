@@ -44,6 +44,9 @@ Every workbench JSON object must include:
 | `screenshots` | string[] | Repo-relative paths to **saved** images, or `[]` if not applicable. |
 | `observedFailures` | string[] | What broke or looked wrong (empty if pass). **Behavioral** notes, not world claims. |
 | `acceptanceChecklist` | string[] | Short checklist results (each item can be the check + `ok` / `fail`). |
+| `questionsSpec` | string[] (optional) | Meaningful questions that defined “done” for this run (PLAN artifact; inspection-only). |
+
+**Questions vs checklist:** `questionsSpec` is the **upstream spec** (what success meant before the run). `acceptanceChecklist` is **post-run verification** (binary checks). See [questions-as-spec-template.md](../../questions-as-spec-template.md).
 
 ## Doctrine (defaults)
 
@@ -70,7 +73,8 @@ Every workbench JSON object must include:
     "method": "smoke",
     "screenshots": [],
     "observedFailures": [],
-    "acceptanceChecklist": ["Exits 0: ok"]
+    "acceptanceChecklist": ["Exits 0: ok"],
+    "questionsSpec": ["What must be true when this run is done?"]
   },
   "revisionSummary": "",
   "status": "draft",
