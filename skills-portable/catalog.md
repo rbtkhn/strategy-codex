@@ -275,3 +275,22 @@ Canonical method: [skills-portable/civ-state-primary-text-acquisition/SKILL.md](
   - `promoted`
 
 Canonical method: [skills-portable/arc-to-chapter-seeds/SKILL.md](arc-to-chapter-seeds/SKILL.md)
+
+---
+
+## tufte-data-viz
+
+- **What it is**
+  - Tufte-style chart and dashboard discipline for operator observability — high data-ink, direct labels, chart-review mode.
+- **When to use it**
+  - Use for cadence-pressure views, gate snapshot interpretation, workflow rollup charts, or reviewing chat/dashboard visuals before they ship.
+- **Inputs you'll need**
+  - Fresh derived JSON (cadence-pressure, workflow observability) or an operator-supplied table/chart to review.
+- **What you get**
+  - A Cursor canvas prototype or a Tufte checklist review; inspection-only, not Record merge.
+- **Boundary**
+  - Does not approve gate candidates; token-burn charts deferred until ledger or external usage has non-zero tokens.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/tufte-data-viz/SKILL.md](tufte-data-viz/SKILL.md)

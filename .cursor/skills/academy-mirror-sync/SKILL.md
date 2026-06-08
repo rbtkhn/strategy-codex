@@ -1,16 +1,16 @@
 ---
-name: academy-mirror-sync
-preferred_activation: academy-mirror-sync
-description: Verify academy mirror folders against their public remotes and the parent strategy-codex gitlink. Use when the user asks whether a mirrored repo folder such as statecraft/civ-lens/jiang/ph-civ is in sync with its GitHub repo, origin/main, or parent submodule pointer.
+name: "academy-mirror-sync"
+preferred_activation: "academy-mirror-sync"
+description: "Verify academy mirror folders against their public remotes and the parent strategy-codex gitlink. Use when the user asks whether a mirrored repo folder such as statecraft/civ-lens/jiang/ph-civ is in sync with its GitHub repo, origin/main, or parent submodule pointer."
 portable: true
-version: 0.1.0
+version: "0.1.0"
 tags:
-- operator
-- work-strategy
-- git
-- academy
-portable_source: skills-portable/academy-mirror-sync/SKILL.md
-synced_by: sync_portable_skills.py
+  - "operator"
+  - "work-strategy"
+  - "git"
+  - "academy"
+portable_source: "skills-portable/academy-mirror-sync/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
 # Academy Mirror Sync
 

@@ -240,3 +240,10 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: tufte-data-viz
+    source: tufte-data-viz/SKILL.md
+    appendix: .cursor/skills/tufte-data-viz/CURSOR_APPENDIX.md
+    target: .cursor/skills/tufte-data-viz/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates

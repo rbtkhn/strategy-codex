@@ -34,7 +34,7 @@ Use this skill when **editing or adding** skills that follow the **portable core
 ## Workflow
 
 1. **Edit** the portable core and/or appendix; add or adjust a **manifest** entry if the skill is new.
-2. **Verify** (no writes): run the repo's sync script with `--verify`. Fix any reported issues (forbidden substring in portable body, multi-line `description`, missing `portable: true`).
+2. **Verify** (no writes): run the repo’s sync script with `--verify`. Fix any reported issues (forbidden substring in portable body, multi-line `description`, missing `portable: true`).
 3. **Sync**: run the same script without `--verify` to write targets.
 4. **Commit** together: portable `SKILL.md`, appendix, `manifest.yaml`, and generated `.cursor/skills/.../SKILL.md` (plus any doc cross-links you touched).
 
@@ -58,13 +58,13 @@ python3 scripts/sync_portable_skills.py --skill <skill-name>
 
 ## Related concepts
 
-- **Discovery ladder:** pointer backlog → `_drafts/` → portable core + manifest (see your repo's `skills-portable/README.md` if present).
+- **Discovery ladder:** pointer backlog → `_drafts/` → portable core + manifest (see your repo’s `skills-portable/README.md` if present).
 - **Extract from session:** turning a thread into a new skill often starts a draft under `_drafts/` before manifest registration.
 
 
 ## Cursor / grace-mar instance
 
-Grace-mar paths and doc links for this repository (from `.cursor/skills/portable-skills-sync/`).
+﻿Grace-mar paths and doc links for this repository (from `.cursor/skills/portable-skills-sync/`).
 
 | Topic | Path |
 |--------|------|
@@ -75,9 +75,9 @@ Grace-mar paths and doc links for this repository (from `.cursor/skills/portable
 | Drafts (pre-manifest) | [skills-portable/_drafts/README.md](../../../skills-portable/_drafts/README.md) |
 | Sync implementation | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 | Operator skill index | [docs/operator-skills.md](../../../docs/operator-skills.md) |
-| Extract session → skill | [extract-skill-from-session](../extract-skill-from-session/SKILL.md) |
+| Extract session â†’ skill | [extract-skill-from-session](../extract-skill-from-session/SKILL.md) |
 | work-dev module | [work-dev README](../../../docs/skill-work/work-dev/README.md) |
 
-**Verify defaults (this manifest):** portable bodies must not contain the substrings `` or `process_approved_candidates` — keep those in this appendix or other host docs, not in `skills-portable/*/SKILL.md` bodies.
+**Verify defaults (this manifest):** portable bodies must not contain the substrings `` or `process_approved_candidates` â€” keep those in this appendix or other host docs, not in `skills-portable/*/SKILL.md` bodies.
 
 **Pilot reference:** [politics-massie](../politics-massie/SKILL.md) (generated) and `skills-portable/politics-massie/SKILL.md` (source).

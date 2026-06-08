@@ -1,16 +1,16 @@
 ---
-name: transcript-proper-noun-normalization
-preferred_activation: proper noun normalization
-description: Normalize proper nouns and obvious ASR substitutions in transcript-bearing raw-input while preserving transcript provenance, uncertainty, and argument structure. Use for noisy YouTube/operator-pasted transcripts with mangled names, places, institutions, weapons, or recurring corpus terms.
+name: "transcript-proper-noun-normalization"
+preferred_activation: "proper noun normalization"
+description: "Normalize proper nouns and obvious ASR substitutions inside an already-landed transcript-bearing raw-input while preserving provenance, uncertainty, and argument structure. Use for noisy YouTube or operator-pasted transcripts whose names, places, institutions, weapons, or recurring corpus terms are mangled but whose overall body should otherwise stay intact. Do not use for first-pass capture, broad prose cleanup, or synthesis."
 portable: true
-version: 0.1.0
+version: "0.1.0"
 tags:
-- transcript
-- raw-input
-- quality
-- cleanup
-portable_source: skills-portable/transcript-proper-noun-normalization/SKILL.md
-synced_by: sync_portable_skills.py
+  - "transcript"
+  - "raw-input"
+  - "quality"
+  - "cleanup"
+portable_source: "skills-portable/transcript-proper-noun-normalization/SKILL.md"
+synced_by: "sync_portable_skills.py"
 ---
 # Transcript proper-noun normalization
 

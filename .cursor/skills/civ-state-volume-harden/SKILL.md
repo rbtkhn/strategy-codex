@@ -1,6 +1,6 @@
 ---
 name: "civ-state-volume-harden"
-description: "Harden or create CIV-STATE front-door and volume architecture surfaces. Use when the operator wants civilization-state diagnostics, sovereignty-chain scaffolds, opener doctrine normalization, or retrieval-oriented volume doctrine in statecraft/civ-state."
+description: "Harden or create CIV-STATE front-door and volume architecture surfaces. Use when the operator wants civilization-state diagnostics, sovereignty-chain scaffolds, opener doctrine normalization, or retrieval-oriented volume doctrine in statecraft/civ-state. Do not use for pre-draft governing-pair diagnosis, archive intake, or helix/meta-synthesis above mature lanes."
 portable: true
 version: "0.2.0"
 tags:
@@ -168,11 +168,11 @@ The CIV-STATE front door or volume surface reads as a stronger civilization-stat
 - Canonical front-door doctrine surface: [statecraft/civ-state/README.md](/C:/dev/strategy-codex/statecraft/civ-state/README.md)
 - Canonical volume map: [statecraft/civ-state/volumes/README.md](/C:/dev/strategy-codex/statecraft/civ-state/volumes/README.md)
 - Volume surfaces to harden:
-  - [CIV-STATE China](/C:/dev/strategy-codex/statecraft/civ-state/volumes/civ-state-china/README.md)
-  - [CIV-STATE Persia](/C:/dev/strategy-codex/statecraft/civ-state/volumes/civ-state-persia/README.md)
-  - [CIV-STATE Rome](/C:/dev/strategy-codex/statecraft/civ-state/volumes/civ-state-rome/README.md)
-  - [CIV-STATE Russia](/C:/dev/strategy-codex/statecraft/civ-state/volumes/civ-state-russia/README.md)
-  - [CIV-STATE America](/C:/dev/strategy-codex/statecraft/civ-state/volumes/civ-state-america/README.md)
+  - [Vol I - China](/C:/dev/strategy-codex/statecraft/civ-state/volumes/vol-i-china/README.md)
+  - [Vol II - Persia](/C:/dev/strategy-codex/statecraft/civ-state/volumes/vol-ii-persia/README.md)
+  - [Vol III - Rome](/C:/dev/strategy-codex/statecraft/civ-state/volumes/vol-iii-rome/README.md)
+  - [Vol IV - Russia](/C:/dev/strategy-codex/statecraft/civ-state/volumes/vol-iv-russia/README.md)
+  - [Vol V - America](/C:/dev/strategy-codex/statecraft/civ-state/volumes/vol-v-america/README.md)
 - Use `civilization_memory` only as evidence for this skill; CIV-STATE surfaces remain the operator-facing layer.
 - Keep volume passes bounded to CIV-STATE architecture surfaces unless the operator explicitly widens scope into lane, transaction, or source-memory files.
 

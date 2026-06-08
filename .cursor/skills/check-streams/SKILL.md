@@ -1,9 +1,9 @@
 ---
 name: "check-streams"
 preferred_activation: "check streams"
-description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris: discover today's uploads with YouTube-first tooling, filter suspected clips, list main uploads first, materialize only the operator-approved subset into canonical raw-input, and suggest speaker-folder routing hints."
+description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris. Use for daily or bounded roster discovery, operator selection, clip filtering, and handoff of approved watch URLs to transcript materialization. Do not use for one-off YouTube URL capture, archive family filing, or month-slice deepening unless the operator explicitly wants the roster layer first."
 portable: true
-version: "0.2.8"
+version: "0.3.0"
 tags:
   - "operator"
   - "strategy"
@@ -25,6 +25,19 @@ Use the single-URL YouTube transcript workflow for one-off URLs. Use this skill 
 
 For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md).
 
+## Clip law
+
+Treat highlight clips, teaser cuts, and same-day companion excerpts as discovery noise unless the operator explicitly asks to preserve them.
+
+- Main uploads come first.
+- Clips are secondary and should usually be listed separately or suppressed.
+- Do not materialize a clip into canonical archive merely because it is easier to recover than the parent interview.
+- If the parent interview is not yet recovered, keep the clip as a clue, not as a substitute.
+
+Short rule:
+
+`discover clips if useful -> prefer parent episode -> archive clips only by explicit operator override`
+
 ## Durable routing model
 
 Treat `check streams` as the intake gate, not the durable interpretation layer.
@@ -36,8 +49,6 @@ Treat `check streams` as the intake gate, not the durable interpretation layer.
 - **lattice / cognition-streams surfaces** = secondary lookup and analysis views over accumulated speaker material
 
 After materialization, prefer asking **which appearance was created and which route stack it strengthens** before updating lattice surfaces. Do not create or update speaker objects automatically from the daily check unless the operator explicitly asks.
-
-When routing friction becomes a **speaker shelf** problem rather than an ingest problem, hand off to [`speaker-shelf-hygiene`](../speaker-shelf-hygiene/SKILL.md) instead of improvising shelf doctrine inside the daily check.
 
 ## Answer-first stopping rule
 
@@ -125,6 +136,7 @@ When returning results, label each item or group with one of these statuses when
 - **materialized from operator paste**
 - **discovered but unresolved**
 - **missing direct watch URL**
+- **clip only, parent unresolved**
 
 Do not blur these states together in prose. In particular:
 
@@ -133,6 +145,7 @@ Do not blur these states together in prose. In particular:
 - `materialized from operator paste` means the operator supplied the transcript body and you used that to create or strengthen the local artifact
 - `discovered but unresolved` means the title/date/source shape appears real, but transcript-grade or canonical-source conditions are not yet satisfied
 - `missing direct watch URL` means exactly that: you found external evidence, but not a trustworthy direct YouTube watch URL
+- `clip only, parent unresolved` means the only thing currently recovered is a highlight or companion clip and the full parent episode is still not materially recovered
 
 ## URL confidence rule
 
@@ -240,6 +253,35 @@ In that situation:
 
 Do **not** block local transcript recovery merely because the direct watch URL is still missing, as long as the appearance identity is otherwise well anchored.
 
+## Partial front-door rule
+
+Keep **local transcript recovery** separate from **front-door completeness**.
+
+- If a direct YouTube watch URL is recovered, use it and treat the item as a normal YouTube-first capture.
+- If the direct watch URL is still missing but the episode identity is otherwise well anchored by:
+  - a full operator-pasted transcript
+  - a trustworthy title
+  - a trustworthy publication date
+  - a stable host/show identity
+  then local archive materialization may still proceed.
+- In that case, preserve the unresolved front-door seam explicitly:
+  - keep the operator-facing status `materialized from operator paste`
+  - also keep the unresolved status `missing direct watch URL`
+  - say plainly which secondary surface anchored the date or title
+
+Do **not** pretend that unresolved front-door recovery means the episode is fake.
+
+Short rule:
+
+`real transcript + anchored identity + missing watch URL -> materialize honestly -> keep front-door unresolved`
+
+If the only recovered external surface is a podcast or directory listing and a trustworthy YouTube watch URL was not recovered, do **not** invent one. Either:
+
+- keep `source_type: youtube` when the stream identity is clearly a known YouTube host-family object and the unresolved watch URL is explicitly preserved, or
+- use the more truthful secondary source surface in the archive metadata when the direct YouTube front door is not actually confirmed
+
+The archive must preserve the strongest truthful provenance, not the most flattering one.
+
 ## Source-archive closeout rule
 
 When a check-stream or one-off recovery **adds or strengthens canonical `source-archive/statecraft/` raw-input**, close the ingest loop at every still-live index layer touched by that capture.
@@ -260,8 +302,13 @@ If the new capture materially changes the continuity story rather than only exte
 
 - `*-arc.md`
 - `*-routing.md`
+- one bounded `*-support-spine*.md` note when the new source changes reinforcement-vs-primary reading
 
 Do this narrowly. Do not widen a simple ingest into full shelf redesign unless the operator asks.
+
+Short shelf-closeout heuristic:
+
+`bench always -> routing when opener meaning changes -> support spine when lane role changes`
 
 ## Multi-guest naming rule
 
@@ -315,14 +362,15 @@ For this skill, stronger synthesis belongs only after the daily run has yielded 
 
 ## YouTube-first invariant
 
-For this skill, **transcript-bearing stream capture means YouTube-first provenance**.
+For this skill, **discovery should be YouTube-first whenever possible**.
 
 - A stream item should be treated as a real transcript candidate only when you have a **direct YouTube watch URL** (`https://www.youtube.com/watch?v=...` or equivalent canonical YouTube watch link).
 - Podcast mirrors, Apple/Podbay/Art19/Podscan listings, transcript mirrors, and other secondary directories may help discovery, but they do **not** by themselves qualify an item as transcript-ready.
 - If only secondary episode listings are available, treat the item as **discovered but unresolved**:
   - you may report it in the check result,
   - you may create a clearly marked **scaffold/discovery placeholder**,
-  - but you must **not** describe it as a completed transcript capture or canonical transcript source.
+  - and you may materialize from a full operator paste only under the **partial front-door rule**
+  - but you must **not** silently describe it as a fully recovered YouTube-provenance capture.
 - When the operator asks for URLs, prefer the **direct YouTube watch URLs** first. Only fall back to secondary listing URLs if YouTube could not yet be recovered, and say that explicitly.
 
 ## Layering rule
