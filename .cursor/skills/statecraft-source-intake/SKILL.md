@@ -215,12 +215,15 @@ Structured-field law:
 
 5. **Normalize lightly**
    - Fix obvious spacing, formatting, and title/date typos when confidence is high.
-   - Strip obvious pasted wrapper residue such as leading `Transcripts:` lines or duplicated title wrappers when the boundary is unmistakable.
+   - **Post-land hook chain (transcript captures only; order matters):**
+     1. Cross-family caption/paste wrapper — `python scripts/post_land_caption_wrapper_normalize.py --path <landed-file>` (see § Caption / paste wrapper below).
+     2. Family opening scaffold when applicable:
+        - Napolitano — `scripts/post_land_napolitano_opening_normalize.py --path <landed-file>`
+        - Mario Nawfal — `scripts/post_land_nawfal_opening_normalize.py --path <landed-file>`
+        - Dialogue Works / Nima Alkhorshid — `scripts/post_land_dialogue_works_opening_normalize.py --path <landed-file>`
+     - Preview any step with `--dry-run` on that script.
    - Reflow into readable paragraphs or turns when the family pattern expects that.
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
-   - For `Judging Freedom / Napolitano` archive captures, run the post-land hook `scripts/post_land_napolitano_opening_normalize.py --path <landed-file>` immediately after landing (see § Napolitano / Judging Freedom below).
-   - For `Mario Nawfal` archive captures, run the post-land hook `scripts/post_land_nawfal_opening_normalize.py --path <landed-file>` immediately after landing (see § Mario Nawfal below).
-   - For `Dialogue Works / Nima Alkhorshid` archive captures, run the post-land hook `scripts/post_land_dialogue_works_opening_normalize.py --path <landed-file>` immediately after landing (see § Nima / Dialogue Works below).
    - For interview lanes that routinely include sponsor or promo scaffolding, strip those blocks only when the boundary is unmistakable and the substantive interview body remains intact.
    - Do not over-clean, summarize, or rewrite the substance.
 
@@ -421,6 +424,28 @@ Short rule:
 - Preserve the correction explicitly in `source_note` rather than silently filing under the new date.
 - If the transcript does not self-date, fall back to the best trustworthy direct or secondary publication surface and say so plainly.
 
+### Caption / paste wrapper (cross-family)
+
+- Applies to transcript-bearing `source-*.md` archive captures before family opening normalizers.
+- Classify with `transcript_wrapper_tier` in frontmatter:
+  - `clean` — no wrapper residue detected (or opening music only)
+  - `html-entities` — decoded `&gt;&gt;`, `&amp;`, `&quot;`, `&#39;`, `&nbsp;`
+  - `caption-metadata` — stripped `Kind: captions` / `Language:` preamble
+  - `paste-prefix` — stripped leading `Transcripts:` paste wrapper
+- Trim law (wrapper only — not family promo logic):
+  - Decode HTML entities in the transcript body when present.
+  - Strip unmistakable auto-caption metadata blocks (`Kind: captions` + `Language:`) at transcript open.
+  - Strip leading `Transcripts:` paste wrappers when the next line is speech.
+  - Strip opening-only `[Music]` / `Heat.` noise at transcript start.
+  - Do **not** convert `>>` into speaker labels; do **not** strip mid-body music markers or in-body Substack mentions.
+- **Post-land hook (default on every transcript land):**
+  - `python scripts/post_land_caption_wrapper_normalize.py --path <landed-file>`
+  - Preview only: `python scripts/post_land_caption_wrapper_normalize.py --path <landed-file> --dry-run`
+  - Non-transcript paths no-op with `skip … (not transcript archive capture)`; no-change returns `no-op …`
+- **Batch backfill / repair** (not per-intake default): `python scripts/normalize_caption_wrapper_residue.py --apply`
+- Receipt fields when trim applies: `caption_wrapper_normalize_applied`, `caption_entities_decoded`, `caption_header_strip_applied`, `transcripts_prefix_stripped`, optional `caption_leading_music_stripped`, plus `editorial_note` stating wrapper residue was normalized in place.
+- UTF-8 BOM before frontmatter is stripped on read so metadata and receipts parse correctly.
+
 ### Nima / Dialogue Works
 
 - Prefer `source-alkorshid-*` or `source-nima-alkorshid-*` when the object belongs to Nima Alkhorshid / Dialogue Works (`channel_slug: dialogue-works`, `show: Dialogue Works`).
@@ -512,6 +537,7 @@ Do not add speculative speaker lanes for unresolved names. If a participant does
 - Never write the daily synthesis report into `source-archive/statecraft/`; that belongs in `statecraft/`.
 - For Napolitano captures, remove cold-open or promo scaffolding only when the ideological, sponsor, or schedule boundary is unambiguous; if it is entangled with noisy ASR or substantive exchange, leave it and flag the file for later manual review.
 - For Dialogue Works captures, remove mid-intro or closing Substack/link promo only when the boundary is unmistakable; preserve solo date/timezone preambles and in-body guest Substack references during analysis.
+- For caption/paste wrapper passes, normalize only when the wrapper boundary is unmistakable; never substitute speaker-label cleanup or family opening logic in the cross-family script.
 
 ## Success condition
 
