@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # June 8+ Intake Readiness — Third-Party Deterrence Stress Test
 
-**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **12** sources (11 transcripts + Pape Substack); **[daily synthesis](./2026-06-08.md)** refreshed (12-source batch + Davis dual-episode companion). Evening Davis (`yu1H2bORJPM`) landed 2026-06-09 ingest.
+**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **13** sources (12 transcripts + Pape Substack); **[daily synthesis](./2026-06-08.md)** refreshed (13-source batch; Wilkerson × Hoh mesh spine). Wilkerson (`a2nQnLcTNuo`) + evening Davis landed 2026-06-09 ingest.
 
 **Parent week:** [June week-1 start here](./2026-06-week1-start-here.md) · [2026-06-07 daily](./2026-06-07.md)
 
@@ -65,6 +65,7 @@ Draft statecraft notes only if the batch supports them:
 
 - **Davis trust fork × Johnson Islamabad / Larijani** — [statecraft note](./2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) ✓
 - **Davis dual episode — trust fork × foreknowledge accountability** — [statecraft note](./2026-06-08-davis-dual-episode-trust-fork-foreknowledge-accountability.md) ✓ · [morning](../../source-archive/statecraft/2026-06-08/source-daniel-davis-deep-dive-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md) · [evening](../../source-archive/statecraft/2026-06-08/source-daniel-davis-deep-dive-weve-always-known-truth-of-war-iran-2026-06-08.md)
+- **Wilkerson × Hoh — Section 224 mesh receipt** — [statecraft note](./2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) ✓ · [Wilkerson June 8](../../source-archive/statecraft/2026-06-08/source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md) · [Hoh June 4](../../source-archive/statecraft/2026-06-04/source-alkorshid-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md)
 - **Davis Lebanon fulcrum × Crooke ceasefire-for-all** — [statecraft note](./2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) ✓
 - **America USS Liberty legitimacy seam × McGovern June 8** — [statecraft note](./2026-06-08-america-uss-liberty-legitimacy-seam.md) ✓
 - **Pape Day 100 × New Phase × Lebanon Fuse** — [statecraft note](./2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) ✓
@@ -88,7 +89,7 @@ Answered in [2026-06-08.md](./2026-06-08.md) (Bernstein pass, 2026-06-08):
 1. **Repeat / holds** — episodic grammar + doctrine receipt; horizontal widening signaled not primary proof.
 2. **Partial negative move** (non-intercept per Barnes/Parsi) — munitions/fuel/MOU capture path not falsified.
 3. **Confirmed** — Lebanon non-disposable (dual Crooke, Davis, Marandi, Johnson).
-4. **Split** — Persia consolidation **and** America capture co-own June 8; ceasefire framed **alive / dead / theatrical** via anchor trio.
+4. **Split** — Persia consolidation **and** America capture (Wilkerson/Hoh statutory mesh spine) co-own June 8; ceasefire framed **alive / dead / theatrical** via anchor trio; Wilkerson adds **Palestine root** tertiary frame.
 
 ---
 
