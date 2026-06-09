@@ -9,9 +9,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `transcript` (7), `substack-post` (1)
 - Source form mix: `interview` (6), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `5`
-- Distinct hosts: `4`
-- Distinct guests: `4`
-- Distinct threads: `10`
+- Distinct hosts: `3`
+- Distinct guests: `1`
+- Distinct threads: `7`
 
 ## Channel / Show Rollup
 
@@ -19,9 +19,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (3), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Robert Pape` (1)
-- Guests: `Alexander Mercouris` (1), `Charles Freeman` (1), `Ray McGovern` (1), `Seyed M. Marandi` (1)
-- Threads: `nima` (3), `mercouris` (2), `nawfal` (2), `christoforou` (1), `freeman` (1), `macgregor` (1), `marandi` (1), `mcgovern` (1), `pape` (1), `polyanskiy` (1)
+- Hosts: `Alex Christoforou` (1), `Alexander Mercouris` (1), `Robert Pape` (1)
+- Guests: `Alexander Mercouris` (1)
+- Threads: `nima` (3), `mercouris` (2), `nawfal` (2), `christoforou` (1), `macgregor` (1), `pape` (1), `polyanskiy` (1)
 
 ## Files
 

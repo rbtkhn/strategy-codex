@@ -9,9 +9,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `transcript` (9)
 - Source form mix: `interview` (7), `solo` (2)
 - Distinct channels/shows: `6`
-- Distinct hosts: `5`
-- Distinct guests: `7`
-- Distinct threads: `14`
+- Distinct hosts: `4`
+- Distinct guests: `3`
+- Distinct threads: `11`
 
 ## Channel / Show Rollup
 
@@ -19,9 +19,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (4), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Daniel Davis` (1), `Paul Buitink` (1)
-- Guests: `Larry Johnson` (2), `Alastair Crooke` (1), `Charles Freeman` (1), `Lawrence Wilkerson` (1), `Martin Armstrong` (1), `Ray McGovern` (1), `Seyed M. Marandi` (1)
-- Threads: `nima` (4), `johnson` (2), `armstrong` (1), `crooke` (1), `davis` (1), `freeman` (1), `marandi` (1), `mcgovern` (1), `mercouris` (1), `napolitano` (1), `nawfal` (1), `parsi` (1), `paul` (1), `wilkerson` (1)
+- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Paul Buitink` (1)
+- Guests: `Charles Freeman` (1), `Martin Armstrong` (1), `Seyed M. Marandi` (1)
+- Threads: `nima` (4), `armstrong` (1), `davis` (1), `freeman` (1), `johnson` (1), `marandi` (1), `mercouris` (1), `napolitano` (1), `nawfal` (1), `parsi` (1), `paul` (1)
 
 ## Files
 

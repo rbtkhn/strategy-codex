@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # June 8+ Intake Readiness — Third-Party Deterrence Stress Test
 
-**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **9** sources (+ Pape Day 100 Substack; **Barnes Nawfal** Jun 8); companions through Persia gate + Crooke arc.
+**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **11** sources (10 transcripts + Pape Substack); **[daily synthesis](./2026-06-08.md)** refreshed (Bernstein alive/dead/theatrical opening + dual-Crooke cross-weave). **2026-06-08** intake slice ready to commit; work-anyang **excluded** (singularity lane).
 
 **Parent week:** [June week-1 start here](./2026-06-week1-start-here.md) · [2026-06-07 daily](./2026-06-07.md)
 
@@ -34,10 +34,10 @@ Optional discovery: **`check streams`** for Nima, Mercouris, Davis, Napolitano, 
 | **P1** | Nima solo / Dialogue Works | Live escalation ladder, axis duty-split, Trump/Israel same-night sequence |
 | **P1** | Israeli retaliation reporting | Rise-and-Kill-First (Kishm, energy, Kharag) — Aguilar June 7 expectation |
 | **P1** | Davis / Napolitano bench | Pentagon/executive command, munitions faucet, war-powers carry — **Davis 2026-06-08 captured** |
-| **P2** | Parsi (Substack or interview) | Whether third-party rule extends to Palestine or stays Lebanon-bound |
+| **P2** | Parsi (Substack or interview) | Whether third-party rule extends to Palestine or stays Lebanon-bound — **Nawfal 2026-06-08 captured** (overnight exchange, MOU stick, intercept row) |
 | **P2** | Aguilar / Nawfal | Sanctions enforceability vs bark-and-treats — **Aguilar 2026-06-07 captured** |
 | **P2** | Barnes / Nawfal | Capture fork, non-intercept, Qatar MOU, Colby spying — **Barnes 2026-06-08 captured** |
-| **P2** | Marandi / Crooke / Freeman | Gate stringency after June 7 hardware spend |
+| **P2** | Marandi / Crooke / Freeman | Gate stringency after June 7 hardware spend — **Crooke dual-host 2026-06-08** (Napolitano + Hedges permanent-security depth) |
 | **P3** | Mercouris solo | Ukraine parallel only if Iran–Lebanon batch thin |
 | **P3** | Pakistan courier / Johnson follow-up | Nuclear demonstration channel credibility — **Johnson 2026-06-08 captured**; courier lane still open |
 
@@ -68,9 +68,11 @@ Draft statecraft notes only if the batch supports them:
 - **America USS Liberty legitimacy seam × McGovern June 8** — [statecraft note](./2026-06-08-america-uss-liberty-legitimacy-seam.md) ✓
 - **Pape Day 100 × New Phase × Lebanon Fuse** — [statecraft note](./2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) ✓
 - **Marandi deal floor × gate Clauses A–D** — [statecraft note](./2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md) ✓ · [gate transaction patched](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) · [Hormuz cross-link patched](../persia/transactions/hormuz-recognition-transit-transaction.md)
+- **Marandi Hormuz activation × D-HORM-01** — [watch sheet cross-link](./2026-06-08-pape-day-100-indicator-watch-sheet.md#d-horm-01--braid-hormuz-coupling-watch)
 - **Pape Day 100 indicator watch sheet** — [weekly falsifier table](./2026-06-08-pape-day-100-indicator-watch-sheet.md) ✓
-- **Marandi deal floor × Hormuz activation** — [statecraft note §Hormuz Activation](./2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md#hormuz-activation-rule--marandi-deal-floor-line-by-line) ✓
+- **Barnes × America capture** (non-intercept, Colby spying, MOU money) — [statecraft note](./2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) ✓
 - **Crooke three-date arc** (Jun 4 Substack × Jun 5 Dialogue × Jun 8 Judging Freedom) — [statecraft note](./2026-06-crooke-three-date-ceasefire-for-all-arc.md) ✓ · [Jun 4 Substack captured](../../source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md)
+- **Crooke Napolitano vs Hedges — permanent security** — [cross-weave note](../notes/2026-06-08-crooke-napolitano-vs-hedges-permanent-security.md) ✓ · [Napolitano capture](../../source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md) · [Hedges capture](../../source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md) · [Parsi capture](../../source-archive/statecraft/2026-06-08/source-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md)
 - **Israeli retaliation × Aguilar** — Rise-and-Kill-First vs Trump phone theater
 - **Johnson Larijani × June 7 third-party gate** — [statecraft note](./2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade.md) ✓
 - **June 8 Nima × June 7 Nima** — ladder continuity vs pause
@@ -80,12 +82,12 @@ Draft statecraft notes only if the batch supports them:
 
 ## Synthesis prompts (for daily note)
 
-When writing `2026-06-08.md`, answer:
+Answered in [2026-06-08.md](./2026-06-08.md) (Bernstein pass, 2026-06-08):
 
-1. Did third-party deterrence **repeat**, **pause**, or **widen** (Yemen/Saudi/GCC)?
-2. Did American **faucet levers** move or only rhetoric?
-3. Does Lebanon remain **non-disposable** in bench language?
-4. Is the dominant object still **America capture** or shifting to **Persia consolidation** (Pape Stage 4)?
+1. **Repeat / holds** — episodic grammar + doctrine receipt; horizontal widening signaled not primary proof.
+2. **Partial negative move** (non-intercept per Barnes/Parsi) — munitions/fuel/MOU capture path not falsified.
+3. **Confirmed** — Lebanon non-disposable (dual Crooke, Davis, Marandi, Johnson).
+4. **Split** — Persia consolidation **and** America capture co-own June 8; ceasefire framed **alive / dead / theatrical** via anchor trio.
 
 ---
 

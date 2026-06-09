@@ -4,24 +4,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `9`
+- Source files: `11`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (8), `substack-post` (1)
-- Source form mix: `interview` (6), `solo` (2), `newsletter` (1)
-- Distinct channels/shows: `7`
-- Distinct hosts: `7`
-- Distinct guests: `6`
+- Body kind mix: `transcript` (10), `substack-post` (1)
+- Source form mix: `interview` (8), `solo` (2), `newsletter` (1)
+- Distinct channels/shows: `8`
+- Distinct hosts: `5`
+- Distinct guests: `2`
 - Distinct threads: `13`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Judging Freedom` (2), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Mercouris` (1), `escalationtrap.substack.com` (1)
+- `Dialogue Works` (2), `Judging Freedom` (2), `Mario Nawfal` (2), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Mercouris` (1), `The Chris Hedges Report` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Robert Pape` (1)
-- Guests: `Alastair Crooke` (1), `Jacques Baud` (1), `Larry Johnson` (1), `Ray McGovern` (1), `Robert Barnes` (1), `Seyed M. Marandi` (1)
-- Threads: `napolitano` (2), `nima` (2), `barnes` (1), `baud` (1), `crooke` (1), `davis` (1), `diesen` (1), `johnson` (1), `marandi` (1), `mcgovern` (1), `mercouris` (1), `nawfal` (1), `pape` (1)
+- Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1), `Robert Pape` (1)
+- Guests: `Larry Johnson` (1), `Seyed M. Marandi` (1)
+- Threads: `crooke` (2), `napolitano` (2), `nawfal` (2), `nima` (2), `barnes` (1), `davis` (1), `diesen` (1), `johnson` (1), `marandi` (1), `mcgovern` (1), `mercouris` (1), `pape` (1), `parsi` (1)
 
 ## Files
 
@@ -30,7 +30,9 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `source-daniel-davis-deep-dive-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md`
 - `source-dialogue-works-larry-johnson-iran-missiles-rain-down-northern-israel-massive-strikes-2026-06-08.md`
 - `source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md`
+- `source-hedges-crooke-is-ceasefire-dead-2026-06-08.md`
 - `source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md`
 - `source-napolitano-mcgovern-putin-view-europe-ukraine-uss-liberty-anniversary-2026-06-08.md`
 - `source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md`
+- `source-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md`
 - `source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md`
