@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # June 8+ Intake Readiness — Third-Party Deterrence Stress Test
 
-**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **11** sources (10 transcripts + Pape Substack); **[daily synthesis](./2026-06-08.md)** refreshed (Bernstein alive/dead/theatrical opening + dual-Crooke cross-weave). **2026-06-08** intake slice ready to commit; work-anyang **excluded** (singularity lane).
+**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **12** sources (11 transcripts + Pape Substack); **[daily synthesis](./2026-06-08.md)** refreshed (12-source batch + Davis dual-episode companion). Evening Davis (`yu1H2bORJPM`) landed 2026-06-09 ingest.
 
 **Parent week:** [June week-1 start here](./2026-06-week1-start-here.md) · [2026-06-07 daily](./2026-06-07.md)
 
@@ -64,6 +64,7 @@ Optional discovery: **`check streams`** for Nima, Mercouris, Davis, Napolitano, 
 Draft statecraft notes only if the batch supports them:
 
 - **Davis trust fork × Johnson Islamabad / Larijani** — [statecraft note](./2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) ✓
+- **Davis dual episode — trust fork × foreknowledge accountability** — [statecraft note](./2026-06-08-davis-dual-episode-trust-fork-foreknowledge-accountability.md) ✓ · [morning](../../source-archive/statecraft/2026-06-08/source-daniel-davis-deep-dive-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md) · [evening](../../source-archive/statecraft/2026-06-08/source-daniel-davis-deep-dive-weve-always-known-truth-of-war-iran-2026-06-08.md)
 - **Davis Lebanon fulcrum × Crooke ceasefire-for-all** — [statecraft note](./2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) ✓
 - **America USS Liberty legitimacy seam × McGovern June 8** — [statecraft note](./2026-06-08-america-uss-liberty-legitimacy-seam.md) ✓
 - **Pape Day 100 × New Phase × Lebanon Fuse** — [statecraft note](./2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) ✓
