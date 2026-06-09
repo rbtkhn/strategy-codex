@@ -7,11 +7,13 @@ show: Dialogue Works
 host: Nima Alkhorshid
 guest: Charles Freeman
 thread: nima
-source_url: https://www.youtube.com/watch?v=_HTvSIymOg8
+source_url: "https://www.youtube.com/watch?v=_HTvSIymOg8"
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08
 editorial_note: Preserve as raw cleaned transcript; verify blockade, market, and Gulf-base claims before promotion beyond analyst tier.
+opening_tier: host-tease
 ---
+
 # Nima Alkorshid with Ambassador Charles Freeman: Hormuz, Ceasefire, Gulf States, and China's Role
 
 **Nima Alkorshid (host):**

@@ -9,10 +9,12 @@ host: Nima Alkorshid
 guest: Stanislav Krapivnik
 title: "Stanislav Krapivnik: How Firepower Just Broke Two Wars (Ukraine & Middle East)"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=SYlTn-et5KI"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+opening_tier: host-tease
 ---
+
 # Stanislav Krapivnik: How Firepower Just Broke Two Wars (Ukraine & Middle East)
 
 **Channel:** Dialogue Works (Nima Alkorshid)  

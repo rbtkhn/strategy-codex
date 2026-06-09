@@ -9,10 +9,12 @@ host: Nima Alkorshid
 guest: Alastair Crooke
 title: "Alastair Crooke: Systemic Collapse Explained: Why Two Fronts Matter"
 channel_url: "https://www.youtube.com/watch?v=IAKqyzQen04"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=IAKqyzQen04"
-source_note: "Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw-input."
+source_note: Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw-input.
+opening_tier: host-tease
 ---
+
 # Nima Alkorshid / Alastair Crooke - Alastair Crooke: Systemic Collapse Explained: Why Two Fronts Matter
 
 **Channel:** Dialogue Works  

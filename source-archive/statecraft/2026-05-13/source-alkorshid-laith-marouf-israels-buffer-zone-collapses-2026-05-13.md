@@ -9,12 +9,14 @@ host: Nima Alkorshid
 guest: Laith Marouf
 title: "Laith Marouf: Israel's Buffer Zone COLLAPSES as Hezbollah Launches Fierce Iron Dome & Ground Assault"
 channel_url: "https://www.youtube.com/@dialogueworks01/videos"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=k7tTpifRpNE"
 source_type: youtube
 transcript_type: auto_subtitles_vtt
-editorial_note: "Lightly deduped text from YouTube auto-captions extracted with yt_dlp (preferred en-orig, fallback en). Turn boundaries retained where captions marked a speaker change. Not human-verified verbatim."
+editorial_note: Lightly deduped text from YouTube auto-captions extracted with yt_dlp (preferred en-orig, fallback en). Turn boundaries retained where captions marked a speaker change. Not human-verified verbatim.
+opening_tier: host-tease
 ---
+
 # Laith Marouf: Israel's Buffer Zone COLLAPSES as Hezbollah Launches Fierce Iron Dome & Ground Assault
 
 **Channel:** Dialogue Works  

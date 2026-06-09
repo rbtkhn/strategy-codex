@@ -7,11 +7,13 @@ show: Dialogue Works
 host: Nima Alkhorshid
 guest: Larry Johnson
 thread: nima
-source_url: https://www.youtube.com/watch?v=gFqQmy5DAuM
+source_url: "https://www.youtube.com/watch?v=gFqQmy5DAuM"
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-johnson-hormuz-qatar-brics-trump-china-2026-05-08
 editorial_note: Preserve as raw cleaned transcript; verify blockade, logistics, and market-manipulation claims before promotion beyond analyst tier.
+opening_tier: clean
 ---
+
 # Nima Alkorshid with Larry Johnson: Hormuz, Qatar, BRICS, Trump, and China
 
 **Nima Alkorshid (host):**

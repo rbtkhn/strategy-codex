@@ -3,9 +3,8 @@ ingest_date: 2026-06-07
 pub_date: 2026-06-07
 kind: transcript
 source_form: solo
-host_people:
-  - Nima R. Alkhorshid
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: nima
@@ -13,12 +12,14 @@ show: Dialogue Works
 host: Nima R. Alkhorshid
 title: "URGENT: Iran & Israel Trade Blows – Yemen Launches, Iran Hits Saudi"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=xj8ocoG-nDw"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: "Operator-pasted YouTube transcript. Nima records from Brazil after 12:15 a.m. local June 8 but anchors the covered events to U.S. East Coast June 7, 2026 (11:15 p.m.); archive pub_date aligned to spoken U.S. event day."
+opening_tier: solo-brief
 ---
+
 # URGENT: Iran & Israel Trade Blows – Yemen Launches, Iran Hits Saudi
 
 **Channel:** Dialogue Works (Nima R. Alkhorshid)  

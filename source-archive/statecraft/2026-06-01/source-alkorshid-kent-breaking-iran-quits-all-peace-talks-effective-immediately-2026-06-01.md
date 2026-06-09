@@ -3,10 +3,8 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: transcript
 source_form: interview
-host_people:
-  - Nima Alkhorshid
-guest_people:
-  - Joe Kent
+host_people: ""
+guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: nima
@@ -18,7 +16,9 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=hQCziFanWf8"
 source_note: Cleaned transcript pasted by operator.
+opening_tier: clean
 ---
+
 # Nima R. Alkhorshid: BREAKING: IRAN QUITS ALL PEACE TALKS EFFECTIVE IMMEDIATELY - w/ Joe Kent
 
 **Channel:** Dialogue Works (Nima R. Alkhorshid)  

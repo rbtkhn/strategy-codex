@@ -7,12 +7,14 @@ thread: nima
 show: Dialogue Works
 host: Nima Alkorshid
 guest: Patrick Henningsen
-title: "Iran-U.S. Blockade, China, and Israel's Veto Power"
+title: Iran-U.S. Blockade, China, and Israel's Veto Power
 channel_url: "https://www.youtube.com/watch?v=HcCJpGh9M54"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=HcCJpGh9M54"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+opening_tier: host-tease
 ---
+
 # Nima Alkorshid — Patrick Henningsen on the Iran-U.S. blockade, China, and Israel's veto power
 
 ## Source pointers

@@ -7,11 +7,13 @@ show: Dialogue Works
 host: Nima Alkhorshid
 guest: Larry Wilkerson
 thread: nima
-source_url: https://www.youtube.com/watch?v=3UPreelfuU4
+source_url: "https://www.youtube.com/watch?v=3UPreelfuU4"
 source_note: User-pasted cleaned YouTube transcript.
 title_slug: alkorshid-wilkerson-hormuz-blockade-2026-05-05
 editorial_note: Preserve as raw cleaned transcript; verify load-bearing claims and historical references before promoting beyond analyst tier.
+opening_tier: host-tease
 ---
+
 # Alkhorshid, Wilkerson, Hormuz, Blockade - 2026-05-05
 
 Nima: Hi everybody. Today is Tuesday, May 5th, 2026, and our dear friend Col. Larry Wilkerson is here with us.

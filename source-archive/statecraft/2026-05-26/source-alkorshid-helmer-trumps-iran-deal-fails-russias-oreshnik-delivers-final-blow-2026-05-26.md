@@ -9,10 +9,12 @@ host: Nima Alkorshid
 guest: John Helmer
 title: "John Helmer: TRUMP'S IRAN DEAL FAILS - Russia's Oreshnik Delivers Final Blow"
 channel_url: "https://www.youtube.com/watch?v=ZcgzWcvRHwU"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=ZcgzWcvRHwU"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+opening_tier: host-tease
 ---
+
 # Nima Alkorshid / John Helmer - TRUMP'S IRAN DEAL FAILS - Russia's Oreshnik Delivers Final Blow
 
 **Channel:** Dialogue Works (Nima Alkorshid)  

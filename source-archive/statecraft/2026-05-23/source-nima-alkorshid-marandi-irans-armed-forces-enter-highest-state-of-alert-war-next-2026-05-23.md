@@ -9,12 +9,14 @@ host: Nima Alkorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Iran’s Armed Forces Enter HIGHEST State of Alert – War Next?"
 channel_url: "https://www.youtube.com/watch?v=3CWFQOwYh0M"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=3CWFQOwYh0M"
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-source_note: "Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim."
+source_note: Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim.
+opening_tier: host-tease
 ---
+
 # Seyed M. Marandi: Iran’s Armed Forces Enter HIGHEST State of Alert – War Next?
 
 Hi everybody, today is Saturday, May 23rd, 2026, and our dear friend and brother, Professor Miranda is here with us. Welcome Matt.

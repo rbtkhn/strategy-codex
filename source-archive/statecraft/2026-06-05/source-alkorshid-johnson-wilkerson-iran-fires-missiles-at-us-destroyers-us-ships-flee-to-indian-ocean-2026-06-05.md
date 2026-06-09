@@ -3,11 +3,8 @@ ingest_date: 2026-06-05
 pub_date: 2026-06-05
 kind: transcript
 source_form: interview
-host_people:
-  - Nima Alkhorshid
-guest_people:
-  - Larry Johnson
-  - Lawrence Wilkerson
+host_people: ""
+guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: nima
@@ -21,8 +18,10 @@ source_url: "https://www.youtube.com/watch?v=o6b4KXMS1aw"
 source_type: youtube
 youtube_id: o6b4KXMS1aw
 source_note: Cleaned transcript pasted by operator.
-editorial_note: "Preserve as raw cleaned transcript; verify military, naval, nuclear, Lebanon, and negotiation claims before promotion beyond analyst tier."
+editorial_note: Preserve as raw cleaned transcript; verify military, naval, nuclear, Lebanon, and negotiation claims before promotion beyond analyst tier.
+opening_tier: host-tease
 ---
+
 # Larry Johnson & Col. Wilkerson: Iran FIRES MISSILES at US Destroyers - US Ships FLEE to Indian Ocean
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  

@@ -9,10 +9,14 @@ host: Nima Alkorshid
 guest: Andrei Martyanov
 title: "Andrei Martyanov: Israel's Military JUST Got HUMILIATED on EVERY Front"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=V0CufjIH-PI"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+dialogue_works_close_substack_trim_applied: true
+editorial_note: Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved.
+opening_tier: host-tease
 ---
+
 # Andrei Martyanov: Israel's Military JUST Got HUMILIATED on EVERY Front
 
 **Channel:** Dialogue Works (Nima Alkorshid)  
@@ -139,6 +143,4 @@ They need to constantly lie. They are corrupted. They uh sell out them themselve
  uh you see I don't even know mention much Israel Israel by in itself is a peeps quick you know if not for the nuclear weapons uh they would be absolutely irrelevant you know for that but they are controlling elites they control United States and uh well Americans are fine with this especially baby boomers but you know they are this uh psycho you know so-called Christians they are not Christians and uh they are Israeli first person.
 >> I think when it comes when we say disastrous these two administrations, Biden and Trump administration, we're basically talking about the United States and American people, not Donald Trump himself or Joe Biden because these two were so much they're getting we know what has happened during the war in Ukraine and how these kickbacks come into the pocket.
 >> Yeah, it's utterly corrupt. It's utterly corrupt and >> personally improving the the absolutely uh and uh they want to you know want how to put it politely again I can repeat United States lost it sovereignty it's controlled by Israel it's run by Israel and Americans are fine with this most of them especially the older generation baby boomers most of them uh basically from this hippies you know and peacemen you know who were in uh and then suddenly they are dealing with the issue that oh yeah they are born again evangelicals which is that's
-to say the Christian Zionist because they uh look at the US media it's altogether just pathetic I mean yeah >> that's called the collapse of the western civilization this is how we observe it >> yeah thank you so much Andre for being with us today >> my pleasure >> please Please go to smoothie x smoothiex12.blogspot.
-com and you can follow Andre on his YouTube channel the same name Smoothie X12. You can find him there and you can he has a lot of you know he writes he have videos on his YouTube channel describing what's going on basically with the case of Russia and Ukraine and geopolitical issues.
- He's talking about all of these issues. Great pleasure, Andre, as always. >> My pleasure. Bye-bye. >> Bye-bye.
+to say the Christian Zionist because they uh look at the US media it's altogether just pathetic I mean yeah >> that's called the collapse of the western civilization this is how we observe it >> yeah

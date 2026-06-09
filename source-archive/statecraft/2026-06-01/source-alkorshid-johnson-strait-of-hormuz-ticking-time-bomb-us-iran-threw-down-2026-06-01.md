@@ -3,10 +3,8 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: cleaned-transcript
 source_form: interview
-host_people:
-  - Nima Alkhorshid
-guest_people:
-  - Larry Johnson
+host_people: ""
+guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 show: Dialogue Works
@@ -18,8 +16,10 @@ source_type: youtube
 youtube_id: bgmx1Uz_QT0
 source_note: User-pasted cleaned YouTube transcript with Dialogue Works host ownership preserved.
 title_slug: alkorshid-johnson-strait-of-hormuz-ticking-time-bomb-us-iran-threw-down-2026-06-01
-editorial_note: "Preserve as raw cleaned transcript; verify military, sanctions, market, and supply-chain claims before promotion beyond analyst tier."
+editorial_note: Preserve as raw cleaned transcript; verify military, sanctions, market, and supply-chain claims before promotion beyond analyst tier.
+opening_tier: host-tease
 ---
+
 # Nima Alkhorshid with Larry Johnson: The Strait of Hormuz Is a Ticking Time Bomb, The U.S. and Iran Just Threw Down
 Hi everybody. Today's Monday, June 1st, Larry 2026. Just >> good lord. You know, when you get to be my age, man, this time starts just dripping, flying by. I thought I thought we just celebrating, you know, New Year's Eve. >> Here we are six months later. >> Yeah, exactly. It just >> By the way, nice shirt.
  You're you're styling properly today. >> Yeah, just following you. [laughter] >> I'm a bad influence. [snorts] >> Yeah, you [laughter] Larry. I want to start with the breaking news. What's going on right now? Because moments ago, we've learned that Iran halts indirect talks and message exchanges with the United States siding.

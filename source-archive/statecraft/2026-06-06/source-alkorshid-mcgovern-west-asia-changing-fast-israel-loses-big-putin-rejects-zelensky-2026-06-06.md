@@ -3,10 +3,8 @@ ingest_date: 2026-06-07
 pub_date: 2026-06-06
 kind: transcript
 source_form: interview
-host_people:
-  - Nima Alkhorshid
-guest_people:
-  - Ray McGovern
+host_people: ""
+guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: nima
@@ -15,12 +13,14 @@ host: Nima Alkhorshid
 guest: Ray McGovern
 title: "Ray McGovern: West Asia Changing FAST, Israel LOSES Big - Putin REJECTS Zelensky"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=njK5kxdDNdE"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript. Transcript self-dates Saturday, June 6, 2026; archive date aligned to spoken date."
+source_note: Operator-pasted YouTube transcript. Transcript self-dates Saturday, June 6, 2026; archive date aligned to spoken date.
+opening_tier: host-tease
 ---
+
 # Ray McGovern: West Asia Changing FAST, Israel LOSES Big - Putin REJECTS Zelensky
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  

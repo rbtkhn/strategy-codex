@@ -5,16 +5,12 @@ kind: transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_transcript
-host_people:
-  - Nima Alkhorshid
-guest_people:
-  - Jacques Baud
+host_people: ""
+guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: nima
-threads:
-  - nima
-  - baud
+threads: ""
 show: Dialogue Works
 host: Nima R. Alkhorshid
 guest: Jacques Baud
@@ -26,6 +22,7 @@ youtube_id: CEXkLl7pVzo
 source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026 in opening lines. Light paragraph reflow only; ASR names preserved where normalization confidence is low.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+opening_tier: host-tease
 ---
 
 # Col. Jacques Baud: Iran & Israel Just Opened a NEW WAR FRONT in the Mediterranean

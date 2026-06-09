@@ -7,11 +7,13 @@ show: Dialogue Works
 host: Nima Alkhorshid
 guest: Scott Ritter
 thread: nima
-source_url: https://www.youtube.com/watch?v=yHqOBrFyCqA
+source_url: "https://www.youtube.com/watch?v=yHqOBrFyCqA"
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06
 editorial_note: Preserve as raw cleaned transcript; verify load-bearing claims and regional logistics references before promotion beyond analyst tier.
+opening_tier: host-tease
 ---
+
 # Dialogue Works - Scott Ritter on Operation Freedom, Hormuz, and Iran - 2026-05-06
 
 Host: Hi everybody. Today's Wednesday, May 6, 2026 and our dear friend, our brother Scott Ritter is here with us. Welcome back, Scott.

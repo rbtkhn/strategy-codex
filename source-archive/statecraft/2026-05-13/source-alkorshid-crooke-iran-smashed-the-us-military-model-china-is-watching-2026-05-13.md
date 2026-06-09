@@ -9,10 +9,15 @@ host: Nima Alkorshid
 guest: Alastair Crooke
 title: "Alastair Crooke: Iran Smashed the US Military Model - China Is Watching"
 channel_url: "https://www.youtube.com/watch?v=IUeHkLFFpEI"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=IUeHkLFFpEI"
-source_note: "Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw-input."
+source_note: Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw-input.
+dialogue_works_substack_trim_applied: true
+editorial_note: Mid-intro Substack/book CTA trimmed in place; SSOT body otherwise preserved. Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved.
+dialogue_works_close_substack_trim_applied: true
+opening_tier: host-tease
 ---
+
 # Nima Alkorshid / Alastair Crooke - Alastair Crooke: Iran Smashed the US Military Model - China Is Watching
 
 **Channel:** Dialogue Works  
@@ -24,7 +29,7 @@ source_note: "Auto-generated from YouTube subtitles via yt-dlp; caption-grade ra
 
 ## Transcript
 
-Hi everybody. Today is Wednesday, May 13, 2026 and our dear friend Alistister Krook is here with us. Welcome back, Alistister. &gt;&gt; Thank you. Always a pleasure, Nemo. Thank you. &gt;&gt; It's a great pleasure, Alistister, to have you on. And please go right below Alistair's name, he you can find conflict conflicts forum.substack.com. If you go there and subscribe to this channel, to this Substack account, he's going to give you a lot of deep deep analysis of what's going on in today's world, not only about the Middle East, about Ukraine, everything about the foreign policy of the United States. And Alistister, let me start with what's going on right now. Moments ago, we've learned that Donald Trump has arrived in
+Hi everybody. Today is Wednesday, May 13, 2026 and our dear friend Alistister Krook is here with us. Welcome back, Alistister. &gt;&gt; Thank you. Always a pleasure, Nemo. Thank you. &gt;&gt; It's a great pleasure, Alistister, to have you on. And let me start with what's going on right now. Moments ago, we've learned that Donald Trump has arrived in
 
 China and he's going to talk with Xi Jinping. And before getting to what would be what are the main objectives of this trip, this visit when it comes to the two conflicts in Ukraine and in the Middle East? What how do you find the United States situation in the in the Middle East? It it seems so much critical, so much important in terms of how it influenced the global economy. That's why this is the importance of this issue. And we had recently we had operation or project freedom which after 24 hours Donald Trump announced that it's concluded because it seems that Iran has some sort of leverage in in the Persian Gulf in the straight form. That's why they decided to conclude the operation or the the project after 24
 
@@ -142,4 +147,4 @@ Dhabi is is clearly not is going to resist that. But I think it's going to be on
 
 in a bank in New York and that Iraq is only allowed to spend what Washington says it can spend. Um they sit on it and they treat it like a school voice giving them pocket money. um how long that will last, how long that will continue, I I I don't know whether there'll be an upheaval, but that will change, I think, the whole Gulf. I mean, the GCC states as they are now are going to be small fry compared with a sort of Iraq coming closer to Iran. I mean that would have real weight in a in a in in in the Middle East context. I mean it two big countries with lots of resources, lots of people. Um so I think that is um I think actually that will provide a a key and if America starts leaving the bases because they now be
 
-seen by many Gulf states as being not so much um a protective element but more of vulnerability because they become a target instead of becoming a a security aspect. if they leave um the the most of the Gulf States in that area, will they can they stay on in um in Iraq? Um they're leaving Syria. Um you know, though I'm just throwing the question open, you know, it's too early to say, but I think that's what'll be very interesting in the geopolitical context. &gt;&gt; Yeah, sure. Thank you so much Alistister for being with us today. Please go to conflexforum.substack.com and subscribe there. &gt;&gt; Alistister again. Great pleasure as always. &gt;&gt; Oh, thank you. It was for me a pleasure. &gt;&gt; Thank you.
+seen by many Gulf states as being not so much um a protective element but more of vulnerability because they become a target instead of becoming a a security aspect. if they leave um the the most of the Gulf States in that area, will they can they stay on in um in Iraq? Um they're leaving Syria. Um you know, though I'm just throwing the question open, you know, it's too early to say, but I think that's what'll be very interesting in the geopolitical context. &gt;&gt; Yeah, sure.

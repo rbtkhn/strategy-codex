@@ -3,10 +3,8 @@ ingest_date: 2026-06-03
 pub_date: 2026-06-03
 kind: transcript
 source_form: interview
-host_people:
-  - Nima Alkhorshid
-guest_people:
-  - Robert Barnes
+host_people: ""
+guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: nima
@@ -22,7 +20,9 @@ transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
 source_note: Operator-pasted YouTube transcript for Nima-hosted Dialogue Works capture with Robert Barnes.
+opening_tier: host-tease
 ---
+
 # Nima Alkorshid / Robert Barnes - The Iranian Navy announces it targeted a U.S. warship in the Sea of Oman
 
 **Channel:** Dialogue Works (Nima Alkorshid)  

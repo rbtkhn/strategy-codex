@@ -6,12 +6,14 @@ kind: cleaned-transcript
 source_form: interview
 show: Dialogue Works
 host: Nima Alkhorshid
-source_url: https://www.youtube.com/watch?v=HUg0fyqLmGI
+source_url: "https://www.youtube.com/watch?v=HUg0fyqLmGI"
 title: "Lt. Col. Anthony Aguilar: Project Freedom, the USS Canberra, Hormuz, and the Strait Blockade"
 interviewer: Nima Alkhorshid
 guest: Lt. Col. Anthony Aguilar
 editorial_note: Operator-cleaned transcript supplied in chat; preserved as a full cleaned transcript with no abridging.
+opening_tier: host-tease
 ---
+
 > Note: Cleaned transcript supplied by operator; full dialogue preserved.
 
 # Lt. Col. Anthony Aguilar: Project Freedom, the USS Canberra, Hormuz, and the Strait Blockade

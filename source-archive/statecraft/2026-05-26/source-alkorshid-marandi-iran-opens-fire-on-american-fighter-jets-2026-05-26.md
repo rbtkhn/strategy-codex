@@ -9,10 +9,12 @@ host: Nima Alkorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Iran Opens Fire on American Fighter Jets"
 channel_url: "https://www.youtube.com/watch?v=suOa4WCxFGc"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=suOa4WCxFGc"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+opening_tier: host-tease
 ---
+
 # Nima Alkorshid / Seyed M. Marandi - Iran Opens Fire on American Fighter Jets
 
 **Channel:** Dialogue Works (Nima Alkorshid)  

@@ -10,7 +10,9 @@ thread: nima
 title: "Larry Johnson: Netanyahu, Hormuz, China, and Israel's Strategic Failure"
 source_note: Operator-pasted cleaned transcript with speaker labels; source URL not supplied in session.
 editorial_note: Preserve as raw cleaned transcript; verify polling, military, sanctions, and market-impact claims before promotion beyond analyst tier.
+opening_tier: host-tease
 ---
+
 > Note: Cleaned transcript supplied by operator; full dialogue preserved.
 
 # Larry Johnson: Netanyahu, Hormuz, China, and Israel's Strategic Failure

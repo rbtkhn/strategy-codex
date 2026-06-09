@@ -9,10 +9,14 @@ host: Nima Alkorshid
 guest: Matthew Hoh
 title: "Matthew Hoh: Section 224 the provision merging the US and Israeli militaries"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=7nRoD1Kxdr8"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+dialogue_works_close_substack_trim_applied: true
+editorial_note: Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved.
+opening_tier: host-tease
 ---
+
 # Matthew Hoh: Section 224 the provision merging the US and Israeli militaries
 
 **Channel:** Dialogue Works (Nima Alkorshid)  
@@ -148,6 +152,4 @@ part of this. Supposedly, uh either according to political or the economist or o
 may be the Fox News gang that he's listening to the most. But also too, I want to with Rubio, I think Rubio has had a very, very important role in all this. just quiet again filling that job as national security adviser. >> The guy is smarmy. >> Yeah. Yeah, he is. He is. I mean, you watch him guy watch him in these hearings and uh Yeah.
  I mean, one thing you you can say about Rubio, he's he's confident, you know, he believes in what he believes, you know. Um and he is he's not a dummy. Uh he may be ignorant about things. He may be uh uh shaped by an ideology. He may be shaped by a fantastical and mythological type story about Cuba and his parents and all of that.
  But certainly, you know, dealing with the person directly. Uh I think he is quite quite smart. Someone that needs to be respected. We can mock him. It's the same way with Donald Trump. I mean, the number of people who've mocked Donald Trump over the years, and I grew up outside New York City, so in the 80s, I knew fully well who Donald Trump was, and he was mocked all the time, and people made fun of him and everything else. And look where he is now.
->> Yeah, exactly. >> Thank you so much, Matt, for being with us today. And please go to Matt's Substack. Let me bring it up here. It's your your Yeah. Here it is. You can go there. You can subscribe. And you're going to enjoy what Matt is talking about because he's providing us with some sort of information.
- He's from his point of view. Many of you would know if you follow us on this podcast. Matt has his own sort of view and is so important for all of us to see all these dimensions, all these angles of the but his understanding is so good. I really enjoy every time I talk with him. >> Well, thank you Nema. I appreciate that.
-And uh everyone who's watching, subscribe to Nema. Like, share. Right. Are you You're getting close. We're getting You're getting towards a half a million, right? >> Yeah, it's it's getting close. Yeah. >> Yeah. Yeah. Yeah. So, uh but yeah. Hey, I appreciate you saying that. Thank you, Nema. >> Yeah. Thank you. Thank you so much.
+>> Yeah, exactly.

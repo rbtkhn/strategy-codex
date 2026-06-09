@@ -7,12 +7,14 @@ thread: nima
 show: Dialogue Works
 host: Nima Alkorshid
 guest: Seyed Mohammad Marandi
-title: "Hormuz, UAE, Ceasefire, and the New Security Architecture"
+title: Hormuz, UAE, Ceasefire, and the New Security Architecture
 channel_url: "https://www.youtube.com/watch?v=RDvZv4mZTlg"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=RDvZv4mZTlg"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+opening_tier: clean
 ---
+
 # Hormuz, UAE, Ceasefire, and the New Security Architecture
 
 ## Cleaned Transcript Notes

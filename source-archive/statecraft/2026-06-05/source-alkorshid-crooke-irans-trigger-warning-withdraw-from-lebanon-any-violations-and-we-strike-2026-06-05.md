@@ -3,10 +3,8 @@ ingest_date: 2026-06-05
 pub_date: 2026-06-05
 kind: transcript
 source_form: interview
-host_people:
-  - Nima Alkhorshid
-guest_people:
-  - Alastair Crooke
+host_people: ""
+guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: nima
@@ -20,8 +18,12 @@ source_url: "https://www.youtube.com/watch?v=5RrorBzJhgs"
 source_type: youtube
 youtube_id: 5RrorBzJhgs
 source_note: Cleaned transcript pasted by operator.
-editorial_note: "Preserve as raw cleaned transcript; verify Lebanon, Israel, Iranian deterrence, nuclear, and escalation claims before promotion beyond analyst tier."
+editorial_note: Preserve as raw cleaned transcript; verify Lebanon, Israel, Iranian deterrence, nuclear, and escalation claims before promotion beyond analyst tier. Mid-intro Substack/book CTA trimmed in place; SSOT body otherwise preserved. Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved.
+dialogue_works_book_interrupt_trim_applied: true
+dialogue_works_close_substack_trim_applied: true
+opening_tier: host-tease
 ---
+
 # Alastair Crooke: IRAN'S TRIGGER WARNING: 'Withdraw from Lebanon... Any Violations and We Strike
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  
@@ -33,9 +35,7 @@ editorial_note: "Preserve as raw cleaned transcript; verify Lebanon, Israel, Ira
 
 ## Cleaned Transcript
 Hi everybody. Today's Friday, June 5th, 2026 and our dear friend Alistister Krook is here with us. Welcome back, Alistister. >> Thank you very much. That's very kind. >> And I want to start with what has happened between Israel and Lebanon. Israel announced that they're going to hit the city they call Dahi in the southern part of Beirut.
- and they announced that they have everyone should evacuate the city. Then we had the Iranian response announcing the same thing for the northern part of Israel. If Israel attacks Dah, they're going to attack. They're going to do the same in the northern part of Israel. When it comes to this sort of support from Iran to Hezbollah, from Hezbollah to Iran, many people would argue would want to know what is going on.
- What is the axis of resistance? We know that you wrote an art, you wrote a book in 2009, resistance, the essence of the Islamic Revolution. And here you describe it. What does it mean? What what is resistance? What is the essence of the Iranian revolution? What is the mindset on of this revolution? But whoever is interested in learning more about Iran and what's going on in Iran today, you can go to this book. It's 2009.
- He wrote, Alistister wrote it in 2009, but everything he said in that book is still the same and you can go and find it there. And the other one is the article, the new piece that you wrote on your Substack about Iran takes its chance with war. You mean that the way that the Iran is responding to Israel? And where are we right now with the case of Iran and Israel and Hezbollah? >> [snorts] >> Uh well there was there has been a significant shift in Israeli thinking.
+ and they announced that they have everyone should evacuate the city. Then we had the Iranian response announcing the same thing for the northern part of Israel. If Israel attacks Dah, they're going to attack. They're going to do the same in the northern part of Israel. When it comes to this sort of support from Iran to Hezbollah, from Hezbollah to Iran, many people would argue would want to know what is going on. >> [snorts] >> Uh well there was there has been a significant shift in Israeli thinking.
  I mean not just about Lebanon but the we have moved first of all to a new security doctrine. Um and we've moved also uh to a new understanding uh of um greater Israel. that greater Israel should be a messianic project for some, not all in Israel, but for some, it should be a messianic project um to bring about um by force of arms um grace for Israel and therefore put make redemption a fact and become uh real because this is the precursor if you like to redemption and the and the arrival of a to Messiah according to
 that wing um in Israel. But in the security element um things have changed um dramatically with the adoption of the idea of of permanent security. Um so they've moved away from the old style of security doctrine that existed if you like going back to uh the the the founding of Israel.
  And at that time um the prime minister said very clearly we are a small country, small population, small resources. We have to stay within our borders and we have a professional military. Um and we have to rely very much therefore uh on reser um to make up the numbers if we need it. But it was also a closewitzian view that um uh was being expressed in the sense that you know war wasn't the end in itself.
@@ -133,6 +133,4 @@ Let's fold this whole thing up and go." I don't know. Um or or something else ha
  Is that going to change Russian strategy to hit some American bases in Latia and these countries? >> Well, I I I don't know what the targets will be, but that is precisely the strategy. They have been struck by the way Iran has um uh if you like targeted some from their target a vulnerable target or their adversaries struck it and that the United States withdrew from that as a consequence it pulled back.
  So the methodology of a conventional missile strike on some European, you know, it's not the Baltics because the Baltic, I mean, they're not decision makers. Russia says very clearly, you know, we are now going after the decision makers. the Baltics, you know, snappy dogs at the uh tugging at at Brussels, but the decision makers, which is Britain, France, and Germany mainly in terms of, you know, the drone and missile attacks deep and and Russia is saying, "We've had enough.
  You know, this is the last straw." particularly after the killing of all those children at the dormatory um uh by by drones um mostly young girls um teenage girls um I mean that has outraged Russians and um and they've said you know we can't go on I mean the Europeans have you know we are going to send a message to Europe and if the only way to send it is by sending a missile into and that's why Russia actually announced and provided details of all the sites in Europe that are providing missile assistance to Ukraine. It said
-here they are this is their location. This is where they sit geographically. That wasn't an accident. Thank you so much Allison for being with us today. Please go to conflictsforum.substack.com. You can find you know the article that I've just mentioned. Here is the article. Let's bring it up again that Alistister wrote on his substack and there are many other the new pieces of let me bring it up.
- Here is the conflicts forum. You can see it here. conflicts forum substack and the latest piece here is the serious warning of political violence in Israel and I was just mentioned the you know the previous piece that Alistister wrote one day ago. Thank you. Thank you so much Alistister for being with us today. Thank you.
-Great as always. >> [music]
+here they are this is their location. This is where they sit geographically. That wasn't an accident.

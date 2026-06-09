@@ -7,12 +7,14 @@ thread: nima
 show: Dialogue Works
 host: Nima Alkorshid
 guest: Col. Jacques Baud
-title: "Hormuz, Iran, France, and the New Security Architecture"
+title: Hormuz, Iran, France, and the New Security Architecture
 channel_url: "https://www.youtube.com/watch?v=5D-OD0iezZ8"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=5D-OD0iezZ8"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+opening_tier: host-tease
 ---
+
 # Nima Alkorshid / Col. Jacques Baud - Hormuz, Iran, France, and the New Security Architecture
 
 **Channel:** Dialogue Works (Nima Alkorshid)  

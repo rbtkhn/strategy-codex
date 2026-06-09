@@ -6,12 +6,14 @@ kind: cleaned-transcript
 source_form: interview
 show: Dialogue Works
 host: Nima Alkhorshid
-source_url: https://www.youtube.com/watch?v=wGws3SN4HcE
+source_url: "https://www.youtube.com/watch?v=wGws3SN4HcE"
 title: "Larry Johnson: Project Freedom, the USS Canberra, Hormuz, and the Strait Blockade"
 interviewer: Nima Alkhorshid
 guest: Larry Johnson
 editorial_note: Operator-cleaned transcript supplied in chat; lightly smoothed for readability while preserving substantive meaning and dialogue. Verify claims about blockade mechanics, military deployments, oil prices, and regional escalation before load-bearing reuse.
+opening_tier: host-tease
 ---
+
 > Note: Cleaned transcript supplied by operator; full dialogue preserved.
 
 # Larry Johnson: Project Freedom, the USS Canberra, Hormuz, and the Strait Blockade

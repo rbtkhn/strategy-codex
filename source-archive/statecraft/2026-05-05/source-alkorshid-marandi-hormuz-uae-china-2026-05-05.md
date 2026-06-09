@@ -7,11 +7,13 @@ show: Dialogue Works
 host: Nima Alkhorshid
 guest: Seyed M. Marandi
 thread: nima
-source_url: https://www.youtube.com/watch?v=TLKl_IOhQDQ
+source_url: "https://www.youtube.com/watch?v=TLKl_IOhQDQ"
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-marandi-hormuz-uae-china-2026-05-05
 editorial_note: Preserve as raw cleaned transcript; verify load-bearing claims and regional logistics references before promotion beyond analyst tier.
+opening_tier: host-tease
 ---
+
 # Dialogue Works - Marandi on Hormuz, UAE, and China - 2026-05-05
 
 Nima: Hi everybody. Today is Tuesday, May 5th, 2026, and our dear friend, our brother, Professor Marandi is here with us. Welcome back, Professor Marandi.

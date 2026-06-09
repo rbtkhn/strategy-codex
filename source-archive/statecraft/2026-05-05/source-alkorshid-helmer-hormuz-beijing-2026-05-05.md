@@ -7,11 +7,13 @@ show: Dialogue Works
 host: Nima Alkhorshid
 guest: John Helmer
 thread: nima
-source_url: https://www.youtube.com/watch?v=WLQeC8gOp-k
+source_url: "https://www.youtube.com/watch?v=WLQeC8gOp-k"
 source_note: User-pasted cleaned YouTube transcript.
 title_slug: alkorshid-helmer-hormuz-beijing-2026-05-05
 editorial_note: Preserve as raw cleaned transcript; verify claims about Hormuz, China, and Russia before promotion beyond analyst tier.
+opening_tier: host-tease
 ---
+
 # Dialogue Works - John Helmer on Hormuz, Beijing, and US Strategy - 2026-05-05
 
 Nima: Hi everybody. Today is Tuesday, May 5th, 2026, and our dear friend, our brother John Helmer is here with us. Welcome back, John.

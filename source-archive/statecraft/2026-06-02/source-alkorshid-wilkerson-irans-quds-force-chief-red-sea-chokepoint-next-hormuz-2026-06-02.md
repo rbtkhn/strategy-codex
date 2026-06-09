@@ -3,10 +3,8 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
-host_people:
-  - Nima Alkhorshid
-guest_people:
-  - Lawrence Wilkerson
+host_people: ""
+guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: nima
@@ -20,8 +18,10 @@ source_url: "https://www.youtube.com/watch?v=frZDd7KM3Fo"
 source_type: youtube
 youtube_id: frZDd7KM3Fo
 source_note: Cleaned transcript pasted by operator.
-editorial_note: "Preserve as raw cleaned transcript; verify military, logistics, Hormuz, Red Sea, and strategic claims before promotion beyond analyst tier."
+editorial_note: Preserve as raw cleaned transcript; verify military, logistics, Hormuz, Red Sea, and strategic claims before promotion beyond analyst tier.
+opening_tier: host-tease
 ---
+
 # Col. Larry Wilkerson: Iran's Quds Force chief: Red Sea Chokepoint next Hormuz
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  

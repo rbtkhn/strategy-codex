@@ -83,6 +83,7 @@ It should usually do four things:
    - Confirm the batch is materially real and source-bearing.
    - Identify the highest-signal captures in the batch.
    - For Mario Nawfal sources tagged `opening_tier: host-monologue`, start chronology at the **first guest mechanism block** (first sustained guest answer to a falsifiable question), not Mario's optimistic deal loop — unless Mario's read is itself the seam under test.
+   - For Dialogue Works / Nima sources tagged `opening_tier: full-scaffold` (or still carrying a separable mid-intro Substack CTA before the first crisis question), start chronology at the first `let me start with` / `I want to start with` falsifiable crisis read — not the Substack or book promo block. For `solo-brief`, keep the spoken date/timezone anchor; do not skip Brazil vs US East Coast dating when it governs the archive day.
 
 2. **Name the governing object**
    - Ask what the day is really about:

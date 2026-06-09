@@ -1,4 +1,4 @@
-﻿---
+---
 ingest_date: 2026-06-04
 pub_date: 2026-06-04
 kind: transcript
@@ -9,10 +9,12 @@ host: Nima Alkorshid
 guest: Alex Krainer
 title: "Alex Krainer: Iran & US on Retaliatory Mode - War Imminent"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=jPNgTYKtbY0"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+opening_tier: host-tease
 ---
+
 # Alex Krainer: Iran & US on Retaliatory Mode - War Imminent
 
 **Channel:** Dialogue Works (Nima Alkorshid)  

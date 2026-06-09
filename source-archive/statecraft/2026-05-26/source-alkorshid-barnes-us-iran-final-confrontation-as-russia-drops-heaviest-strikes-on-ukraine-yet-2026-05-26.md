@@ -9,10 +9,12 @@ host: Nima Alkorshid
 guest: Robert Barnes
 title: "Robert Barnes: US-Iran FINAL Confrontation as Russia Drops HEAVIEST Strikes on Ukraine Yet"
 channel_url: "https://www.youtube.com/watch?v=1eAZc0q6MPs"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=1eAZc0q6MPs"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+opening_tier: host-tease
 ---
+
 # Nima Alkorshid / Robert Barnes - US-Iran FINAL Confrontation as Russia Drops HEAVIEST Strikes on Ukraine Yet
 
 **Channel:** Dialogue Works (Nima Alkorshid)  

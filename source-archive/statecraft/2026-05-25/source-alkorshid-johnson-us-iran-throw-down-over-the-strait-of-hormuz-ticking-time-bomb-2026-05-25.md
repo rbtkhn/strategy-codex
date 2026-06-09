@@ -7,11 +7,13 @@ show: Dialogue Works
 host: Nima Alkhorshid
 guest: Larry Johnson
 thread: nima
-source_url: https://www.youtube.com/watch?v=qShS2y0N9Ys
+source_url: "https://www.youtube.com/watch?v=qShS2y0N9Ys"
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-johnson-us-iran-throw-down-over-the-strait-of-hormuz-ticking-time-bomb-2026-05-25
 editorial_note: Preserve as raw cleaned transcript; verify frozen-assets, Gulf security, casualty, sanctions, and supply-chain claims before promotion beyond analyst tier.
+opening_tier: clean
 ---
+
 # Nima Alkhorshid with Larry Johnson: U.S. and Iran Throw Down Over the Strait of Hormuz "Ticking Time Bomb"
 
 **Nima Alkhorshid (host):** Hi everybody. Today's Monday, May 25th, 2026, and our dear friend, our dear dear friend Larry Johnson is here with us. Welcome back, Larry.

@@ -4,12 +4,14 @@ pub_date: 2026-04-28
 ingest_date: 2026-04-28
 kind: cleaned-transcript
 source_form: interview
-source_url: https://www.youtube.com/watch?v=HfIxqx3QAVE
+source_url: "https://www.youtube.com/watch?v=HfIxqx3QAVE"
 title: "John Helmer: The Middle East Will Never Be the Same: Iran's UNTHINKABLE Play, U.S. & Israel Respond"
 interviewer: Nima Alkhorshid
 guest: John Helmer
 editorial_note: Dialogue Works; Helmer parses Kremlin communiqué, GRU (Kostyukov) presence, Ushakov/TASS “balancing” line vs Lavrov/Thucydides frame; long Dena-at-sea narrative and casualty counts — verify against primary documents and wire before load-bearing Chronicle use. Host/geography slip (Khorasan vs Turkey) left as in operator paste.
+opening_tier: host-tease
 ---
+
 > Note: Cleaned transcript per operator paste; **verify** Kremlin/TASS quotations, IRNA-adjacent naval incident claims, and poll/political predictions against primary sources — opinion-interview tier.
 
 # John Helmer: The Middle East Will Never Be the Same: Iran's UNTHINKABLE Play, U.S. & Israel Respond

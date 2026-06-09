@@ -9,10 +9,15 @@ host: Nima Alkorshid
 guest: Alastair Crooke
 title: "Alastair Crooke: Trump's Final Gamble: Iran Dares to Strike Back"
 channel_url: "https://www.youtube.com/watch?v=rSvsMr-wnq0"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=rSvsMr-wnq0"
-source_note: "Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw-input."
+source_note: Auto-generated from YouTube subtitles via yt-dlp; caption-grade raw-input.
+dialogue_works_substack_trim_applied: true
+editorial_note: Mid-intro Substack/book CTA trimmed in place; SSOT body otherwise preserved. Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved.
+dialogue_works_close_substack_trim_applied: true
+opening_tier: host-tease
 ---
+
 # Nima Alkorshid / Alastair Crooke - Alastair Crooke: Trump's Final Gamble: Iran Dares to Strike Back
 
 **Channel:** Dialogue Works  
@@ -24,7 +29,7 @@ source_note: "Auto-generated from YouTube subtitles via yt-dlp; caption-grade ra
 
 ## Transcript
 
-Hi everybody. Today is Friday, February 20th, 2026 and our dear friend Alister Crooke is here with us. Welcome back, Alister. Thank you so much. It was very kind of you to invite me to join you. Please hit like button, helping us reaching more people and follow Alister on his Substack conflictsforum.substack.com right below his name on the picture. You can find it and go there, please. I am sure that you're going to find a lot of different type of analysis on his part that is totally different from what you hear from the mainstream media. Alister, let me start with the situation in the Middle East in the West Asia. We know that from what physically is happening in the West Asia close to the Iran
+Hi everybody. Today is Friday, February 20th, 2026 and our dear friend Alister Crooke is here with us. Welcome back, Alister. Thank you so much. It was very kind of you to invite me to join you. Please hit like button, helping us reaching more people and follow Alister on his Substack conflictsforum let me start with the situation in the Middle East in the West Asia. We know that from what physically is happening in the West Asia close to the Iran
 
 uh that the United States is building lot of is bringing lot of weapon to the Middle East to fight Iran. What is on the scene? What we can see on the scene is a build-up. A lot of weapons there. And Iranian you look at the Iranian part, they're prepared. They're totally prepared. They were burying all these facilities. You know, on you know, they were putting a lot of soil under these sensitive facilities in Iran. They're prepared to to fight the United States. This is one part of the story. One part that the mainstream media trying to somehow force us into that the war is coming and all the evidence shows that we we cannot ignore that. And on the other hand, we had the second round of negotiations in the aftermath
 
@@ -152,4 +157,4 @@ hugely self-sufficient, highly competitive economy which is so competitive, it's
 
 it sees, you know, if Iran is rolled over, Turkey will be next. Russia can see that the same thing will happen. That this is a a juggernaut that they intend to stop. So, you know, and Iran has the misfortune of being at at this point the sort of the focal pivot to this huge um if you like, um conflict that is opening out across across the globe. Uh China, I mean, in in the Chinese senses, and at one level, it's an economic one. Uh it's about dollar hegemony. But at another level, it's um about just imposing ruthlessly um military power um to coerce people or to destroy them if if they stand in the way. So, that's the big [snorts] the big picture that is going on and Iran is one small part of this um bigger
 
-war. Thank you so much Alister for being with us today. Great pleasure as always and people please go to the and follow what Alister Alister is writing on his Substack. It's amazing. You can follow you can find a lot of information that you can you can not find in the mainstream media. Great pleasure as always Alister. No, it was my pleasure to join you for the day. Thank you so much.
+war.

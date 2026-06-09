@@ -9,10 +9,12 @@ host: Nima Alkhorshid
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Hormuz Toll, Strike On Kuwait, Israel Decline & Iranian Nuclear Bomb?"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=CtNtxF4LPKo"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+opening_tier: clean
 ---
+
 # Seyed M. Marandi: Hormuz Toll, Strike On Kuwait, Israel Decline & Iranian Nuclear Bomb?
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  

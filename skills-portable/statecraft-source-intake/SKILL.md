@@ -219,6 +219,7 @@ Structured-field law:
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
    - For `Judging Freedom / Napolitano` archive captures, run the post-land hook `scripts/post_land_napolitano_opening_normalize.py --path <landed-file>` immediately after landing (see § Napolitano / Judging Freedom below).
    - For `Mario Nawfal` archive captures, run the post-land hook `scripts/post_land_nawfal_opening_normalize.py --path <landed-file>` immediately after landing (see § Mario Nawfal below).
+   - For `Dialogue Works / Nima Alkhorshid` archive captures, run the post-land hook `scripts/post_land_dialogue_works_opening_normalize.py --path <landed-file>` immediately after landing (see § Nima / Dialogue Works below).
    - For interview lanes that routinely include sponsor or promo scaffolding, strip those blocks only when the boundary is unmistakable and the substantive interview body remains intact.
    - Do not over-clean, summarize, or rewrite the substance.
 
@@ -421,8 +422,27 @@ Short rule:
 
 ### Nima / Dialogue Works
 
-- Prefer the existing `transcript-alkorshid-*` family when the object belongs to Nima Alkorshid / Dialogue Works.
+- Prefer `source-alkorshid-*` or `source-nima-alkorshid-*` when the object belongs to Nima Alkhorshid / Dialogue Works (`channel_slug: dialogue-works`, `show: Dialogue Works`).
 - Resolve by host/show identity first, not by guest fame or topic overlap.
+- Classify each landed capture with `opening_tier` in frontmatter:
+  - `full-scaffold` — date intro + guest welcome + separable mid-intro Substack/CTA still present before first crisis question
+  - `host-tease` — date + welcome → first substantive host question within roughly one to two exchanges (default guest-interview synthesis start)
+  - `clean` — guest or host jumps to crisis substance quickly
+  - `solo-brief` — Nima solo update; Brazil/timezone date preamble may be load-bearing
+- Trim law (default = mid Substack CTA + book interrupt + close link promo only):
+  - Keep `Hi everybody` + spoken date + guest welcome — dating SSOT.
+  - Strip separable mid-intro Substack / channel / book promos before first `let me start with` / `I want to start with`.
+  - Strip separable book+Substack tangents between host question and guest answer when the boundary is unmistakable.
+  - Strip routine closing Substack / 21st Century Wire / link laundry after `Thank you so much … for being with us`.
+  - Do **not** trim solo timezone/date preambles; do **not** strip in-body Substack mentions during substantive guest analysis.
+  - If promo copy is entangled with noisy ASR or substantive exchange, leave it and flag for manual review.
+- **Post-land hook (default on every Dialogue Works land):**
+  - `python scripts/post_land_dialogue_works_opening_normalize.py --path <landed-file>`
+  - Preview only: `python scripts/post_land_dialogue_works_opening_normalize.py --path <landed-file> --dry-run`
+  - Non–Dialogue Works paths no-op with `skip … (not Dialogue Works / Alkhorshid)`; no-change returns `no-op …`
+- **Batch backfill / repair** (not per-intake default): `python scripts/normalize_dialogue_works_opening_scaffold.py --apply`
+- Receipt fields when trim applies: `dialogue_works_substack_trim_applied`, `dialogue_works_book_interrupt_trim_applied`, `dialogue_works_close_substack_trim_applied`, optional `dialogue_works_leading_noise_trim_applied`, plus `editorial_note` lines stating scaffold was trimmed in place.
+- Some operator-pasted captures carry a UTF-8 BOM before frontmatter; the normalizer strips BOM on read so `opening_tier` and guest metadata parse correctly.
 
 ### Glenn Diesen
 
@@ -490,6 +510,7 @@ Do not add speculative speaker lanes for unresolved names. If a participant does
 - Never treat a highlight clip as the canonical full interview unless the operator explicitly wants the clip preserved as its own object.
 - Never write the daily synthesis report into `source-archive/statecraft/`; that belongs in `statecraft/`.
 - For Napolitano captures, remove cold-open or promo scaffolding only when the ideological, sponsor, or schedule boundary is unambiguous; if it is entangled with noisy ASR or substantive exchange, leave it and flag the file for later manual review.
+- For Dialogue Works captures, remove mid-intro or closing Substack/link promo only when the boundary is unmistakable; preserve solo date/timezone preambles and in-body guest Substack references during analysis.
 
 ## Success condition
 

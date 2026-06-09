@@ -1,4 +1,4 @@
-﻿---
+---
 ingest_date: 2026-06-04
 pub_date: 2026-06-04
 kind: transcript
@@ -9,10 +9,14 @@ host: Nima Alkorshid
 guest: Patrick Henningsen
 title: "Patrick Henningsen: Hezbollah Just Drew the Line: 'Israel Out of Lebanon Completely'"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=Ha9elCUGl-E"
-source_note: "Cleaned transcript pasted by operator."
+source_note: Cleaned transcript pasted by operator.
+dialogue_works_close_substack_trim_applied: true
+editorial_note: Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved.
+opening_tier: host-tease
 ---
+
 # Patrick Henningsen: Hezbollah Just Drew the Line: 'Israel Out of Lebanon Completely'
 
 **Channel:** Dialogue Works (Nima Alkorshid)  
@@ -190,6 +194,3 @@ It keeps them staying within the acceptable lines of political discourse because
  Uh so, just bear that in mind when you look at the the playing field. Once in a while, a dark horse comes in. Ron Paul, for instance, um, someone like that. Thomas Massie could be that dark horse. He won't be that dark, though. He's He's He's already made a huge name for himself. I give him pretty good, you know, I I give Thomas Massie as good a chance as anyone to get that 30 35% that you need to be viable.
  I think he has it. I think he's got the ability to do that. Um, I I can't see anybody else that can credibly do that, especially with the young people, young gen Z's. Thomas Massie appeals to a lot of Gen Z's and uh JD Vance doesn't. So, that's that is it'll be interesting. Um, but you know, American politics is just a train wreck right now.
  It's uh I'm I'm talking about it like it's, you know, real politics. It's not. It's a disaster. So, we'll see how how things develop. Um, it'll be it'll be interesting to see who emerges as the big voices uh after the midterm elections and that will say a lot. But in terms of Trump uh his legacy and anybody attached to him, I think that's a fate of Kle at this point.
->> Thank you so much, Patrick, for being with us today. >> Great pleasure. Please go uh before wrapping up, please go to 21st Century Wire and you can follow Patrick on 21st Century Wire or going to Patrick Henningsson.substack.com and you can follow him. I'm going to put the links to the YouTube video of Patrick and all the links to Substack and 21st century.
- It's going to be in the description of this video. You can follow Patrick using those links. Thank you so much, Patrick. My pleasure. Thanks, Nema.
-

@@ -7,11 +7,13 @@ show: Dialogue Works
 host: Nima Alkhorshid
 guest: Andrei Martyanov
 thread: nima
-source_url: https://www.youtube.com/watch?v=TzcZkm0curU
+source_url: "https://www.youtube.com/watch?v=TzcZkm0curU"
 source_note: User-pasted cleaned YouTube transcript with speaker labels; preserve Alkhorshid host-stream ownership.
 title_slug: alkorshid-martyanov-irans-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07
 editorial_note: Preserve as raw cleaned transcript; verify load-bearing claims and military-logistics references before promotion beyond analyst tier.
+opening_tier: clean
 ---
+
 # Nima Alkorshid with Andrei Martyanov: Iran’s Silent Weapon That Frightens the Pentagon More Than Nukes
 
 **Nima Alkorshid:** Hi everybody. Today is Thursday, May 7, 2026 and our dear friend or brother Andrei Martyanov is here with us. Welcome back, Andrei.

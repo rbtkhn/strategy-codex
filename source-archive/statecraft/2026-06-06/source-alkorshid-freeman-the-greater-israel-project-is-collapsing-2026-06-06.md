@@ -3,10 +3,8 @@ ingest_date: 2026-06-07
 pub_date: 2026-06-06
 kind: transcript
 source_form: interview
-host_people:
-  - Nima Alkhorshid
-guest_people:
-  - Charles Freeman
+host_people: ""
+guest_people: ""
 show_title: Dialogue Works
 channel_name: Dialogue Works
 thread: nima
@@ -15,12 +13,14 @@ host: Nima Alkhorshid
 guest: Charles Freeman
 title: "Chas Freeman: The Greater Israel Project Is Collapsing"
 channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: "dialogue-works"
+channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=HuhJinByAEg"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript for Dialogue Works / Chas Freeman. Publication date assigned to 2026-06-06 per operator intake; transcript body does not self-date."
+source_note: Operator-pasted YouTube transcript for Dialogue Works / Chas Freeman. Publication date assigned to 2026-06-06 per operator intake; transcript body does not self-date.
+opening_tier: clean
 ---
+
 # Chas Freeman: The Greater Israel Project Is Collapsing
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  
