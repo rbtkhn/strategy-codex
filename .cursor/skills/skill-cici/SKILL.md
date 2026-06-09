@@ -20,8 +20,9 @@ Answer one question:
 
 - **“In Xavier’s OB1 / Cici / BrewMind world, I am observing, coaching, or logging …”** → this skill (and **cici-notebook** paths in grace-mar if Mode A).
 - **“In grace-mar’s own work-dev / integration / harness, I am building …”** → [dev-journal (work notebook / work-dev lane)](../../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md), not this skill.
+- **“Launching or operating a localized cohort”** (Anyang families, WeChat room, China stack, sponsor pitch, Foundation/Builder lanes) → [anyang-ai](../anyang-ai/SKILL.md) and [singularity/work-anyang/](../../../singularity/work-anyang/README.md) — **not** cici-notebook digest mode.
 
-If a day touches **both**, split: Xavier trajectory **here**; grace-mar implementation reflection **dev-journal**.
+If a day touches **both**, split: Xavier trajectory **here**; grace-mar implementation reflection **dev-journal**. Cohort launch work stays in **anyang-ai** even when the upstream pattern is cici-ai.
 
 ---
 
@@ -145,6 +146,7 @@ See [think-purpose-and-boundary.md](../../../docs/skill-think/think-purpose-and-
 | Synthesis flags | [SYNTHESIS-SOURCES.md](../../../docs/skill-work/work-cici/cici-notebook/SYNTHESIS-SOURCES.md) |
 | Digest script | [scripts/cici_journal_ob1_digest.py](../../../scripts/cici_journal_ob1_digest.py) |
 | Work-xavier index | [INDEX.md](../../../docs/skill-work/work-cici/INDEX.md) |
+| Localized cohort (Anyang) | [anyang-ai/SKILL.md](../anyang-ai/SKILL.md) |
 | skill-strategy (parallel rhythm) | [skill-strategy/SKILL.md](../skill-strategy/SKILL.md) |
 | THINK boundary | [think-purpose-and-boundary.md](../../../docs/skill-think/think-purpose-and-boundary.md) |
 | Operator writing (public excerpts only) | [write-operator-preferences.md](../../../docs/skill-write/write-operator-preferences.md) |
