@@ -230,6 +230,22 @@ flowchart TB
 
 ---
 
+## UX wedges (2026-06-09)
+
+Low-risk operator-UX improvements from session friction (archive vs daily desync, ship confusion, over-ritualized Kleiber on small objects):
+
+| Wedge | SSOT |
+|-------|------|
+| Archive ↔ daily desync alarm | [`scripts/check_statecraft_intake_daily_sync.py`](../scripts/check_statecraft_intake_daily_sync.py) · wired in [`statecraft-source-intake`](../skills-portable/statecraft-source-intake/SKILL.md) closeout |
+| Ship receipt block | [`scripts/operator_handoff_check.py`](../scripts/operator_handoff_check.py) · [work-menu-conventions — Ship receipt](skill-work/work-menu-conventions.md#6a-ship-receipt) |
+| Kleiber compact vs full | [conductor SKILL](../.cursor/skills/conductor/SKILL.md) · [kleiber-composition-benchmark](skill-work/work-dev/kleiber-composition-benchmark.md) |
+| Tiered WORK menus | [work-menu-conventions — Tiered menus](skill-work/work-menu-conventions.md#6b-tiered-work-menus-ship-blockers-first) |
+| Operator ship loop | [START-HERE — Operator ship loop](START-HERE.md#operator-ship-loop) |
+
+Explicit non-goals: no auto daily rewrite; no auto-push; no coffee hub change.
+
+---
+
 ## Source memos merged
 
 1. **Assistant redesign memo** — classify before accumulate; two-channel routing; single capture ladder; membrane typing; skill primitives; prompt decoupling.

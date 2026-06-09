@@ -208,7 +208,7 @@ After **`A — Steward`** (legacy tables below may still say **`B`** or **`E —
 
 **Trigger:** Operator says **`coffee`** (or **`hey`**) with **signing-off** intent — end of session, wrapping the day, stepping away.
 
-**Step 1:** Handoff-weighted — `python3 scripts/operator_coffee.py -u <id> --mode closeout` or `operator_handoff_check.py` (see [coffee SKILL.md](../../../.cursor/skills/coffee/SKILL.md)). Same paste + short paragraph as before.
+**Step 1:** Handoff-weighted — `python3 scripts/operator_coffee.py -u <id> --mode closeout` or `operator_handoff_check.py` (see [coffee SKILL.md](../../../.cursor/skills/coffee/SKILL.md)). Same paste + short paragraph as before. The handoff output includes **`## Ship receipt`** (branch, ahead/behind, uncommitted slices, suggested push) — paste or summarize that tail when closing a substantive session.
 
 **Step 2:** The **same** menu as work-start (**order A, B, C, D**). There is **no** separate closeout menu and **no** closeout-only letter.
 

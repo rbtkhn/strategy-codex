@@ -125,7 +125,20 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Compare generated indices without writing; exit 1 if any are stale or missing.",
     )
+    ap.add_argument(
+        "--check-daily-sync",
+        metavar="YYYY-MM-DD",
+        help="After refresh/check, run intake vs daily synthesis sync for this pub_date.",
+    )
     return ap.parse_args()
+
+
+def _run_daily_sync_check(day: str) -> int:
+    import check_statecraft_intake_daily_sync as daily_sync
+
+    report = daily_sync.build_sync_report(day.strip())
+    print(daily_sync.format_human(report))
+    return report.exit_code
 
 
 def main() -> int:
@@ -136,18 +149,23 @@ def main() -> int:
         return 2
 
     stale_count, _ = refresh_or_check(root, check=args.check)
+    exit_code = 0
     if args.check:
         if stale_count == 0:
             print(f"ok 0 stale archive navigation files under {root}")
-            return 0
-        print(f"stale {stale_count} archive navigation files under {root}")
-        return 1
-
-    if stale_count == 0:
+        else:
+            print(f"stale {stale_count} archive navigation files under {root}")
+            exit_code = 1
+    elif stale_count == 0:
         print(f"unchanged 0 archive navigation files under {root}")
-        return 0
-    print(f"wrote {stale_count} archive navigation files under {root}")
-    return 0
+    else:
+        print(f"wrote {stale_count} archive navigation files under {root}")
+
+    if args.check_daily_sync:
+        sync_code = _run_daily_sync_check(args.check_daily_sync)
+        if sync_code != 0:
+            exit_code = sync_code
+    return exit_code
 
 
 if __name__ == "__main__":

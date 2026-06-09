@@ -3,7 +3,7 @@ name: "statecraft-source-intake"
 preferred_activation: "statecraft source intake"
 description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
-version: "0.4.2"
+version: "0.4.3"
 tags:
   - "operator"
   - "statecraft"
@@ -109,7 +109,7 @@ In this mode:
 
 Short rule:
 
-`land -> rebuild -> verify -> close`
+`land -> rebuild -> verify -> sync-check -> close`
 
 #### 2. Batch-throughput mode
 
@@ -277,6 +277,28 @@ Default closeout law:
 - in batch-throughput mode, state that the current file is queued inside the still-open batch checkpoint
 - if a later synthesis or recursive-preservation route is obvious, name it as a next route rather than doing it here
 - do not silently drift into lane or civ-lens synthesis
+
+### Archive vs daily synthesis sync (mandatory after verify)
+
+After `land -> rebuild -> verify` for a touched `pub_date`, run the read-only sync checker **before** the WORK menu or intake closeout summary:
+
+```bash
+python3 scripts/check_statecraft_intake_daily_sync.py --day YYYY-MM-DD
+```
+
+Or delegate from index refresh:
+
+```bash
+python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM-DD
+```
+
+Rules:
+
+- **`ok`** or **`no_daily`** — report briefly; proceed to closeout/menu.
+- **`DESYNC`** — report count mismatch and archive-only slugs **before** any menu; recommend `statecraft daily synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/daily/`.
+- Anchor-trio links listed separately in the daily file are **not** auto-flagged as omissions when they appear only in the anchor block (checker encodes this).
+
+Optional agent-authored gap note when desync fires: add an **Archive vs synthesis gap audit** section to the day's intake-readiness note (pattern: `statecraft/daily/YYYY-MM-DD-intake-readiness.md`).
 
 ### Live closeout discipline
 

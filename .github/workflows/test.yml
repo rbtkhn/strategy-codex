@@ -116,6 +116,10 @@ jobs:
         run: python3 scripts/validate_statecraft_daily_synthesis.py
         continue-on-error: true
 
+      - name: Check statecraft intake vs daily sync (advisory)
+        run: python3 scripts/check_statecraft_intake_daily_sync.py --day 2026-06-08
+        continue-on-error: true
+
       - name: Governance check
         run: python scripts/governance_checker.py
 

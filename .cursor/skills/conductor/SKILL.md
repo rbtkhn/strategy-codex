@@ -17,7 +17,7 @@ description: "Conductor: name-only WORK execution stance. Read HARD-PROTOCOL.md 
 
 **Vocabulary contract:** `active arc` means the latest explicit `coffee_pick picked=conductor conductor=<slug>` that cadence still treats as unresolved. `open` means a movement is still available inside that arc; it does not by itself mean urgent or unfinished in the same way every time. `closed` means the arc has been durably sealed or explicitly marked `conductor_state=closed`. `behavioral/non-durable` means a movement settled only in chat. `durable close` means an on-disk notebook anchor or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`.
 
-**`bravo` close token:** In conductor context, treat **`bravo`** as a compact **end-of-arc closure signal**, not as coffee-hub **B** and not as a new movement pick. It means the full **A-D** conductor cycle landed to the operator's satisfaction. Default behavior: close the current conductor arc cleanly, do not reopen the Conductor Action Menu in the same reply, and give a short close shape naming `what landed`, `durable receipt if any`, and `whether anything remains open`. If the pass is only chat-complete, say that plainly rather than implying an on-disk close.
+**`bravo` close token:** In conductor context, treat **`bravo`** as a compact **end-of-arc closure signal**, not as coffee-hub **B** and not as a new movement pick. It means the full **A-D** conductor cycle landed to the operator's satisfaction. Default behavior: close the current conductor arc cleanly, do not reopen the Conductor Action Menu in the same reply, and give a short close shape naming `what landed`, `durable receipt if any`, `whether anything remains open`, and a **ship receipt** tail (`python3 scripts/operator_handoff_check.py` → `## Ship receipt`, or inline equivalent) when the pass touched disk. If the pass is only chat-complete, say that plainly rather than implying an on-disk close.
 
 **`weak` dissatisfaction token:** In conductor context, treat **`weak`** as the lightweight negative counterpart to **`bravo`**. It means the pass did not land strongly enough and should not be treated as a satisfying close. Default behavior: reply with one short acknowledgment such as `I'll try to do better next time.`, avoid defensive analysis unless the operator asks for it, and move on to the next bounded menu or fresh choice instead of lingering on the failed pass.
 
@@ -282,6 +282,20 @@ D. Finale: Park the secondary threads with a closeout line that preserves the wh
 
 This prototype applies only when resolved `conductor=kleiber`. It does not change `toscanini`, `furtwangler`, `karajan`, or `bernstein` behavior. Treat the voice as a historically inspired WORK-layer conductor mask, not literal Carlos Kleiber, not companion Voice, not Record authority, and not an autonomous actor.
 
+**Kleiber sizing (object-sized conductor):**
+
+| Mode | Trigger | Default **D. Finale** |
+|------|---------|----------------------|
+| **compact** (default) | bare `kleiber`; single-source wire-in; desync fix; one companion row | `log_cadence_event` + ship receipt — **not** composition benchmark |
+| **full** | `kleiber finale` / `kleiber benchmark`; multi-source daily refresh; validator tranche close | composition benchmark per [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md) |
+
+**Default compact menu** (statecraft intake / daily desync):
+
+- **A. Allegro:** `python3 scripts/check_statecraft_intake_daily_sync.py --day <pub_date>` — name desync or ok.
+- **B. Andante:** Diff archive day `README.md` vs `statecraft/daily/<pub_date>.md` primary list.
+- **C. Scherzo:** Wire one companion or transaction row (bounded edit).
+- **D. Finale:** `log_cadence_event` + ship receipt — benchmark only when **full** mode.
+
 **Kleiber orientation contract:**
 
 - Before the Conductor action MCQ, give a 1-3 sentence orientation in first-person conductor mask: witty precision, exact correction, playful self-awareness, and light irreverence.
@@ -340,7 +354,7 @@ D. Finale: Run composition benchmark - execute one Strategy-codex composition be
 
 ## When to read this
 
-- **Kleiber composition benchmark:** In V1, Strategy-codex composition benchmarks run only from the **Kleiber** Conductor Action Menu as fixed **option D / Finale**: `D. Finale: Run composition benchmark - execute one Strategy-codex composition benchmark, close with Held / Weakened / Broke / Open, and name the single next operator action`. Coffee may route to Kleiber; dream may carry forward eligible results; no other conductor runs this benchmark. Protocol: [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
+- **Kleiber composition benchmark:** In V1, Strategy-codex composition benchmarks run from **Kleiber full** mode (`kleiber finale`, explicit **D. Finale** benchmark pick, multi-source daily refresh, or validator tranche close) — **not** the default **compact** Kleiber path. Compact **D. Finale** = cadence log + ship receipt. Protocol: [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
 - Operator says **`conductor`**, a **master** name, or (legacy) **`D` +** fragment outside **`coffee`**; the **`coffee`** hub **never** lists five Symphony masters as separate lines. **Standalone** Conductor opens directly and does not route through the coffee hub.
 - **Conductor** never shows a lettered master-selection row. Names select conductors; letters **A-D** select actions only after a conductor is resolved.
 - **work-dev** **Engineer** (coffee **B**) often **feeds** the same session: [work-dev workspace Next actions](../../../docs/skill-work/work-dev/workspace.md) can **inform** **action** **MCQ** **options** when the **object** is **ship** / **harness** / **derived** **regeneration**. The four movement options should all be live, worthwhile paths; refusal is represented by an off-menu reply, no pick, or a different instruction.

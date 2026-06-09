@@ -94,6 +94,10 @@ def _argv_validate_statecraft_archive_indices(_user: str) -> list[str]:
     return ["--check"]
 
 
+def _argv_check_statecraft_intake_daily_sync(_user: str) -> list[str]:
+    return ["--day", "2026-06-08"]
+
+
 ALL_CHECKS: tuple[CheckSpec, ...] = (
     CheckSpec(
         id="assert_canonical_paths",
@@ -267,6 +271,16 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
         timeout_sec=180.0,
         ci_source=".github/workflows/test.yml (Check statecraft archive indices)",
     ),
+    CheckSpec(
+        id="check_statecraft_intake_daily_sync",
+        label="Statecraft archive vs daily synthesis sync",
+        script_relpath="scripts/check_statecraft_intake_daily_sync.py",
+        argv_builder=_argv_check_statecraft_intake_daily_sync,
+        user_scope="ignored",
+        groups=frozenset({"ci", "experimental"}),
+        timeout_sec=60.0,
+        ci_source=".github/workflows/test.yml (Check statecraft intake vs daily sync — advisory)",
+    ),
 )
 
 
@@ -311,6 +325,7 @@ def checks_for_group(group: str) -> list[CheckSpec]:
             "validate_speaker_state_sets",
             "judgment_contract_gauntlets",
             "validate_statecraft_daily_synthesis",
+            "check_statecraft_intake_daily_sync",
         ]
         return [by_id[i] for i in order]
     out = [c for c in ALL_CHECKS if g in c.groups]

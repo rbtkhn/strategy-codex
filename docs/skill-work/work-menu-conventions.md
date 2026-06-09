@@ -108,6 +108,55 @@ Spec: [FOLD-LEARNING.md](work-strategy/strategy-notebook/FOLD-LEARNING.md).
 
 ---
 
+## 6a. Ship receipt
+
+After substantive **`EXECUTE_LOCAL`**, conductor **`bravo`**, intake batch checkpoint, or **signing-off** coffee Step 1, paste a compact **Ship receipt** so the operator does not mentally integrate branch, ahead/behind, uncommitted slices, and push command.
+
+**Script (preferred):**
+
+```bash
+python3 scripts/operator_handoff_check.py -u strategy-codex
+```
+
+The output includes a `## Ship receipt` block with:
+
+| Field | Meaning |
+|-------|---------|
+| **Branch** | `git branch --show-current` |
+| **Tracking** | ahead/behind from `git status -sb` |
+| **origin/main** | resolved SHA when available |
+| **Uncommitted slices** | paths grouped by `statecraft/`, `ph-civ`, `singularity/`, `other` |
+| **Recent local commits** | last three oneline |
+| **Suggested push** | e.g. `git push origin main` when ahead and clean |
+| **Excluded WIP** | paths still outside the last commit |
+
+Agents may inline the same shape after a local commit when running the full handoff script is heavy.
+
+**When:** post-commit close, conductor `bravo`, intake archive-checkpoint, signing-off Step 1 tail ([menu-reference — signing-off](work-coffee/menu-reference.md#signing-off-intent)).
+
+---
+
+## 6b. Tiered WORK menus (ship blockers first)
+
+When git shows **ahead > 0** or **meaningful uncommitted** lane files (`statecraft/`, `ph-civ`, `singularity/`), the menu **must** lead with **ship blockers** before deferred forks.
+
+Shape:
+
+```text
+**Ship blockers** (if any): uncommitted statecraft slice | push pending | mixed branch
+**Deferred forks**: companion wire-in | benchmark rerun | multi-lens pass | …
+```
+
+Rule: max **2** blocker slots + **3** deferred forks (5 options total). If no blockers, use the normal 3–5 fork menu without a blocker header.
+
+Blocker examples:
+
+- uncommitted `statecraft/daily/` after intake close
+- branch **ahead 2** with clean tree → push before new lane work
+- mixed Jiang + statecraft WIP → name which slice to commit first
+
+---
+
 ## 7. Multi-agent fork generation (experimental)
 
 See [work-strategy/multi-agent-fork-generator.md](work-strategy/multi-agent-fork-generator.md) â€” optional two-pass / subagent pattern; human still chooses one branch.

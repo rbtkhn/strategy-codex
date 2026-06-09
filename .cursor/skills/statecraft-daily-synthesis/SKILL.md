@@ -190,6 +190,19 @@ Short rule:
 - Never force every war batch through the inquiry ladder.
 - Never claim a hinge, supporting arm, or campaign theory unless the archive itself makes that level of distinction supportable.
 
+## Receipt ledger (optional)
+
+When companions or transaction rows add receipt IDs (e.g. `AMER-224-RCPT-03`), optional subsection on intake-readiness or daily companion notes:
+
+```markdown
+## Receipt ledger (optional)
+| ID | File | Status |
+|----|------|--------|
+| AMER-224-RCPT-03 | statecraft/america/transactions/... | wired |
+```
+
+Agent-filled when wire-ins land; no script required in v1.
+
 ## Success condition
 
 The day or month ends with a bounded, reusable synthesis note under `statecraft/` that is grounded in the archive batch, clear about lane pressure, and explicit about which speakers explain which part of the object best.

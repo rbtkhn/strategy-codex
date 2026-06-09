@@ -22,6 +22,8 @@ If no prefix and intent is unclear, default to **PLAN** unless this message clea
 
 Full spec: [docs/operator-agent-lanes.md](../../docs/operator-agent-lanes.md).
 
+**Ship receipt:** After substantive **`EXECUTE_LOCAL`** or conductor **`bravo`**, include a compact ship receipt — run `python3 scripts/operator_handoff_check.py` and paste the `## Ship receipt` block, or inline the same fields (branch, tracking, uncommitted slices by lane, recent commits, suggested push). See [work-menu-conventions — Ship receipt](../../docs/skill-work/work-menu-conventions.md#6a-ship-receipt).
+
 ---
 
 ## Operator continuity and Record boundary (accurate invariants)

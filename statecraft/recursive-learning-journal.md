@@ -16,6 +16,28 @@ Each entry should answer:
 - what changed structurally because of the reuse
 - what guardrail prevents the lesson from collapsing into blind template repetition
 
+## 2026-06-09 - Archive truth ≠ synthesis truth until sync check passes
+
+### Trigger
+
+June 8 intake landed **14** archive sources while `statecraft/daily/2026-06-08.md` stayed at **13** until a manual Kleiber diff caught the Sachs slug missing from the primary list.
+
+### Extracted law
+
+**Archive truth and daily synthesis truth diverge by default** after intake. Treat `source-archive/statecraft/<pub_date>/` as ground truth; run `check_statecraft_intake_daily_sync.py` before closeout menus. Desync is a routing signal (wire-in or `statecraft daily synthesis`), not silent drift.
+
+### Reapplication
+
+- Mandatory sync check in `statecraft-source-intake` closeout (`land -> rebuild -> verify -> sync-check -> close`)
+- Advisory CI step on smoke day
+- Kleiber **compact** default: Allegro = sync check, Finale = cadence + ship receipt (benchmark reserved for **full** mode)
+
+### Guardrail
+
+Checker is read-only — never auto-rewrite `statecraft/daily/`. Anchor-trio links listed separately are not auto-flagged as omissions.
+
+---
+
 ## 2026-06-01 - Conductor sequencing as recursive learning on the machine itself
 
 ### Trigger

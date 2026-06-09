@@ -60,6 +60,27 @@ Full refactor map: [strategy-codex-redesign-brief.md](strategy-codex-redesign-br
 
 ---
 
+## Operator ship loop
+
+Bounded closeout after statecraft intake or daily work:
+
+```text
+intake → sync check → synthesis/companion → commit → ship receipt → push
+```
+
+| Step | Command / surface |
+|------|-------------------|
+| Land + indices | `refresh_statecraft_archive_indices.py` |
+| Archive ↔ daily sync | `check_statecraft_intake_daily_sync.py --day YYYY-MM-DD` |
+| Daily synthesis | `statecraft/daily/YYYY-MM-DD.md` (manual or `statecraft daily synthesis`) |
+| Commit | operator-directed; lane-scoped slices |
+| Ship receipt | `operator_handoff_check.py` → `## Ship receipt` |
+| Push | `git push origin <branch>` when ahead and clean |
+
+Conventions: [work-menu-conventions — Ship receipt](skill-work/work-menu-conventions.md#6a-ship-receipt) · UX wedge detail: [strategy-codex-redesign-brief — UX wedges](strategy-codex-redesign-brief.md#ux-wedges-2026-06-09)
+
+---
+
 ## Operator commands
 
 ### Archive indices (derived; regenerate after intake)
@@ -94,6 +115,16 @@ python3 scripts/validate_statecraft_daily_synthesis.py
 ```
 
 Skips legacy daily notes; enforces five-volume contract on migrated `YYYY-MM-DD.md` files only.
+
+### Archive vs daily sync (advisory in CI)
+
+```bash
+python3 scripts/check_statecraft_intake_daily_sync.py --day YYYY-MM-DD
+# Or after index refresh:
+python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM-DD
+```
+
+Exit `1` on desync; does not auto-edit daily synthesis.
 
 ---
 

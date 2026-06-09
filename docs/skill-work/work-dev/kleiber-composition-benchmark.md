@@ -10,12 +10,21 @@ Kleiber owns this benchmark because the work needs selectivity: one bounded harn
 
 ## Execution Route
 
-V1 benchmarks run from exactly one place:
+V1 benchmarks run from **Kleiber full** mode only — not the default **compact** Kleiber path (single-source wire-in, desync fix, one companion row).
+
+Triggers for full mode:
+
+- operator says **`kleiber finale`** or **`kleiber benchmark`**
+- explicit **D. Finale** pick naming composition benchmark
+- multi-source daily refresh close
+- validator tranche close
 
 ```text
-Conductor action MCQ - Reply A-D for this kleiber pass
+Conductor action MCQ - Reply A-D for this kleiber pass (full mode)
 D. Finale: Run composition benchmark - execute one Strategy-codex composition benchmark, close with Held / Weakened / Broke / Open, and name the single next operator action
 ```
+
+**Compact default** (`kleiber` alone): **D. Finale** = `log_cadence_event` + ship receipt — see [conductor SKILL — Kleiber sizing](../../.cursor/skills/conductor/SKILL.md).
 
 Coffee may route to Conductor/Kleiber, but coffee does not run benchmarks directly. Dream may carry forward benchmark results, but dream does not generate or run benchmarks.
 

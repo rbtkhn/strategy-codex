@@ -57,3 +57,29 @@ channel_key: telegram:1
     assert "CANDIDATE-0999" in joined and "Companion" in joined
     assert "complete processing" in joined
     assert "test-user/recursion-gate.md" in joined
+
+
+def test_build_ship_receipt_ahead_and_mixed_slices(handoff_mod):
+    lines = handoff_mod.build_ship_receipt(
+        status_lines=[
+            " M statecraft/daily/2026-06-08.md",
+            " M statecraft/civ-lens/jiang/ph-civ/README.md",
+            "?? singularity/workshop/README.md",
+        ],
+        branch_lines=["main"],
+        status_sb_lines=["## main...origin/main [ahead 2]"],
+        origin_main_lines=["abc123def"],
+        recent_commits=[
+            "3e3517e6 feat(statecraft): Sachs June 8 intake",
+            "e1442b0d chore: ph-civ bump",
+        ],
+    )
+    joined = "\n".join(lines)
+    assert "## Ship receipt" in joined
+    assert "**Branch:** `main`" in joined
+    assert "ahead 2" in joined
+    assert "**statecraft:**" in joined
+    assert "**ph-civ:**" in joined
+    assert "**singularity:**" in joined
+    assert "git push origin main" in joined
+    assert "3e3517e6" in joined

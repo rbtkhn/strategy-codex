@@ -11,6 +11,7 @@ not merge). Intended for good-night / handoff-check workflows.
 from __future__ import annotations
 
 import argparse
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -74,6 +75,140 @@ def _run_git(*args: str) -> list[str]:
     if proc.returncode != 0:
         return [f"git {' '.join(args)} failed: {proc.stderr.strip() or 'unknown error'}"]
     return [line for line in proc.stdout.splitlines() if line.strip()]
+
+
+def _classify_lane_slice(path: str) -> str:
+    """Classify a repo path into ship-receipt lane buckets."""
+    if "ph-civ" in path or path.startswith("codex/predictive-history/"):
+        return "ph-civ"
+    if path.startswith("statecraft/"):
+        return "statecraft"
+    if path.startswith("singularity/"):
+        return "singularity"
+    return "other"
+
+
+def _parse_ahead_behind(status_sb_lines: list[str]) -> str:
+    for line in status_sb_lines:
+        if line.startswith("## "):
+            branch_part = line[3:].strip()
+            if "[" in branch_part and "]" in branch_part:
+                return branch_part
+            if "..." in branch_part:
+                return branch_part
+            return branch_part
+    return "unknown"
+
+
+def _status_path(line: str) -> str:
+    return line[3:].strip() if len(line) > 3 else line.strip()
+
+
+def build_ship_receipt(
+    *,
+    status_lines: list[str] | None = None,
+    branch_lines: list[str] | None = None,
+    status_sb_lines: list[str] | None = None,
+    origin_main_lines: list[str] | None = None,
+    recent_commits: list[str] | None = None,
+) -> list[str]:
+    """Compact ship-state block for post-commit / signing-off handoff."""
+    if status_lines is None:
+        status_lines = _run_git("status", "--short")
+    if branch_lines is None:
+        branch_lines = _run_git("branch", "--show-current")
+    if status_sb_lines is None:
+        status_sb_lines = _run_git("status", "-sb")
+    if origin_main_lines is None:
+        origin_main_lines = _run_git("rev-parse", "origin/main")
+    if recent_commits is None:
+        recent_commits = _run_git("log", "--oneline", "-3")
+
+    branch = branch_lines[0] if branch_lines else "unknown"
+    ahead_behind = _parse_ahead_behind(status_sb_lines)
+    origin_main = origin_main_lines[0] if origin_main_lines and not origin_main_lines[0].startswith("git ") else "unavailable"
+
+    meaningful: list[str] = []
+    runtime_noise: list[str] = []
+    export_churn: list[str] = []
+    for line in status_lines:
+        category, _path = _classify_change(line)
+        if category == "runtime_noise":
+            runtime_noise.append(line)
+        elif category == "export_churn":
+            export_churn.append(line)
+        else:
+            meaningful.append(line)
+
+    slices: dict[str, list[str]] = {
+        "statecraft": [],
+        "ph-civ": [],
+        "singularity": [],
+        "other": [],
+    }
+    for line in meaningful:
+        path = _status_path(line)
+        bucket = _classify_lane_slice(path)
+        slices[bucket].append(path)
+
+    ahead_count = 0
+    if "ahead" in ahead_behind:
+        match = re.search(r"ahead (\d+)", ahead_behind)
+        if match:
+            ahead_count = int(match.group(1))
+
+    clean_tree = len(meaningful) == 0
+    if ahead_count > 0 and clean_tree:
+        suggested_push = f"git push origin {branch}"
+    elif ahead_count > 0:
+        suggested_push = f"commit remaining slices, then `git push origin {branch}`"
+    else:
+        suggested_push = "no push needed (not ahead of upstream)"
+
+    lines = [
+        "## Ship receipt",
+        "",
+        f"- **Branch:** `{branch}`",
+        f"- **Tracking:** {ahead_behind}",
+        f"- **origin/main:** `{origin_main}`",
+        "",
+        "### Uncommitted slices",
+        "",
+    ]
+    any_slice = False
+    for key in ("statecraft", "ph-civ", "singularity", "other"):
+        paths = slices[key]
+        if paths:
+            any_slice = True
+            lines.append(f"- **{key}:** {len(paths)} file(s)")
+            for p in paths[:5]:
+                lines.append(f"  - `{p}`")
+            if len(paths) > 5:
+                lines.append(f"  - _… and {len(paths) - 5} more_")
+    if not any_slice:
+        lines.append("- _Clean working tree (meaningful changes)._")
+
+    lines.extend(["", "### Recent local commits", ""])
+    if recent_commits:
+        for commit in recent_commits:
+            lines.append(f"- `{commit}`")
+    else:
+        lines.append("- _No recent commits found._")
+
+    lines.extend(["", "### Suggested push", "", f"- {suggested_push}", ""])
+
+    excluded: list[str] = []
+    for line in meaningful + export_churn + runtime_noise:
+        excluded.append(_status_path(line))
+    if excluded:
+        lines.extend(["### Excluded WIP (not in last commit)", ""])
+        for path in excluded[:12]:
+            lines.append(f"- `{path}`")
+        if len(excluded) > 12:
+            lines.append(f"- _… and {len(excluded) - 12} more_")
+        lines.append("")
+
+    return lines
 
 
 def _classify_change(path_line: str) -> tuple[str, str]:
@@ -269,18 +404,10 @@ def build_handoff_check(user_id: str = "strategy-codex") -> str:
             "_Run `python3 scripts/work_jiang/warmup_jiang_pulse.py -u %s --night` if import failed._" % user_id
         )
         lines.append("")
-    lines.extend(
-        [
-            "## Recently committed",
-            "",
-        ]
-    )
-
-    if recent_commits:
-        for line in recent_commits:
-            lines.append(f"- {line}")
-    else:
-        lines.append("- No recent commits found.")
+    lines.extend(build_ship_receipt(
+        status_lines=status_lines,
+        recent_commits=recent_commits,
+    ))
 
     lines.extend(["", "## Local work still in progress", ""])
     if meaningful_changes:
