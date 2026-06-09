@@ -1864,3 +1864,79 @@ tranche by tranche, with stopping rules that survive the next push.
 ```
 
 Routing: [daily-synthesis-contract-repair-routing-2026-06-08.md](notes/daily-synthesis-contract-repair-routing-2026-06-08.md).
+
+## 2026-06-08 - Karajan commit-hierarchy slice 1 (America primary ownership)
+
+### Trigger
+
+Gap-audit × journal cross-read (Karajan B) named **Karajan before Kleiber**: June 8 judgment ship left
+**America firewall transaction** and **Barnes companion** on disk without commit receipt while daily
+contract repair had already pushed.
+
+### Extracted law
+
+```text
+When hierarchy close falsifies batching,
+name commit slices in judgment-before-contract order
+and seal each slice before opening validator or substrate tranches.
+```
+
+### Reapplication
+
+**Slice 1 (this close):**
+
+- [foreign-client-mesh-separation-and-command-review.md](america/transactions/foreign-client-mesh-separation-and-command-review.md) — June 8 Barnes corroboration (`AMER-INT-01`, `AMER-CI-01`, `AMER-MOU-01`) wired to Nawfal source
+- [2026-06-08-barnes-america-capture-non-intercept-colby-mou.md](daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — companion note (restraint/capture fork split)
+
+**Not in slice 1:** intake-readiness tweak, validator March quote-anchors, Napolitano bulk normalize.
+
+### Guardrail
+
+```text
+If America transaction + Barnes companion share a commit with Napolitano bulk normalize
+or March quote-anchor repair, Karajan routing failed.
+```
+
+### Outcome
+
+`verdict=held` · `conductor=karajan` · slice 1 receipt on America primary-ownership lane.
+
+**Open:** slice 2 intake-readiness · slice 3 Kleiber validator · slice 4 Napolitano substrate.
+
+## 2026-06-08 - Karajan commit-hierarchy slice 1 (America primary ownership)
+
+### Trigger
+
+Gap-audit × journal cross-read (Karajan B) named **Karajan before Kleiber**: June 8 judgment ship left
+**America firewall transaction** and **Barnes companion** on disk without commit receipt while daily
+contract repair had already pushed.
+
+### Extracted law
+
+```text
+When hierarchy close falsifies batching,
+name commit slices in judgment-before-contract order
+and seal each slice before opening validator or substrate tranches.
+```
+
+### Reapplication
+
+**Slice 1 (this close):**
+
+- [foreign-client-mesh-separation-and-command-review.md](america/transactions/foreign-client-mesh-separation-and-command-review.md) — June 8 Barnes corroboration (`AMER-INT-01`, `AMER-CI-01`, `AMER-MOU-01`) wired to Nawfal source
+- [2026-06-08-barnes-america-capture-non-intercept-colby-mou.md](daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — companion note (restraint/capture fork split)
+
+**Not in slice 1:** intake-readiness tweak, validator March quote-anchors, Napolitano bulk normalize.
+
+### Guardrail
+
+```text
+If America transaction + Barnes companion share a commit with Napolitano bulk normalize
+or March quote-anchor repair, Karajan routing failed.
+```
+
+### Outcome
+
+`verdict=held` · `conductor=karajan` · slice 1 receipt on America primary-ownership lane.
+
+**Open:** slice 2 intake-readiness · slice 3 Kleiber validator · slice 4 Napolitano substrate.

@@ -19,6 +19,7 @@ Foreign client mesh separation and command-review firewall.
   - [McGovern / Dialogue Works 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md)
   - [Freeman / Dialogue Works 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md)
   - [Hoh / Dialogue Works 2026-06-04 (Section 224)](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-alkorshid-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md)
+  - [Barnes / Nawfal 2026-06-08 (non-intercept, Colby spying, MOU money)](../../source-archive/statecraft/2026-06-08/source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
 - Prior statecraft drafts: [Freeman vs Sachs America input](../freeman-vs-sachs-america-input.md); [America helix](../helix.md).
 
 ## Realism / Incentive Filter
@@ -210,6 +211,20 @@ Same-night stress test on the capture fork:
 
 Transaction implication: firewall clauses must bind **beyond executive brag** — statute/sunset + base-use finding + emissary notification — because June 7 shows personal command claims are non-implementable under client veto.
 
+### June 8 Barnes corroboration (Nawfal — non-intercept, CI, MOU)
+
+See [Barnes × America capture — non-intercept, Colby, MOU](../../daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md).
+
+Same-object stress test on **three ledger rows**:
+
+| Row | Barnes claim | Transaction clause |
+| --- | --- | --- |
+| **`AMER-INT-01`** | NBC: no U.S. intercept of Iranian missiles toward Israel; "controlled escalation" | Clause E inverse — **action** may show restraint while rhetoric brags; must pair with `AMER-FMS-01` or read as selective de-escalation under capture |
+| **`AMER-CI-01`** | Israel spying on Colby/Divine (NDS skeptics) during Section 224 push | Clauses B–D — CI-tier gate, vote floor, client origination; stacks [USS Liberty seam](../../daily/2026-06-08-america-uss-liberty-legitimacy-seam.md) DIA leak |
+| **`AMER-MOU-01`** | Qatar money / MOU upfront; Al Jazeera frozen-funds precondition | Clause B + off-ramp — emissary money requires **statutory/mediator carrier**; cross-lane Persia gate upfront-trust row |
+
+**Fork split (June 8):** non-intercept **restraint-leaning**; spying + mesh timing + deniability money **capture-leaning**. Successor check unchanged: statute/sunset must survive executive selective restraint.
+
 ### Executive levers unused (Aguilar × Barnes statecraft-note pass)
 
 See [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](../../daily/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md).
@@ -238,3 +253,4 @@ Drafting bias addition:
 - [Daily statecraft note](../../daily/2026-06-06-america-captured-command-ndaa-ci-client-veto.md) (Macgregor–McGovern–Freeman + Hoh Section 224)
 - [Daily synthesis 2026-06-04](../../daily/2026-06-04.md)
 - [Barnes × Aguilar enforceability statecraft note](../../daily/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md)
+- [Barnes × America capture — non-intercept, Colby, MOU (2026-06-08)](../../daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
