@@ -21,6 +21,7 @@
 
 | Date | Working name | Trigger | Pointer |
 |------|--------------|---------|---------|
+| 2026-06-09 | wire-verify | *(promoted)* — use skill **`wire-verify`** (`.cursor/skills/wire-verify/SKILL.md`); triggers `wire verify`, `verify wires`, `verify tier` | `skills-portable/wire-verify/SKILL.md` + manifest; Pape Nawfal pass session |
 | 2026-04-30 | ideation-engine | *(promoted)* - use skill **`ideation-engine`** (`.cursor/skills/ideation-engine/SKILL.md`); triggers `ideation engine`, `weekly opportunity brief`, `new lane ideas`, `opportunity scan` | `skills-portable/ideation-engine/SKILL.md` + manifest |
 | 2026-03-29 | portable-skills-sync | *(promoted)* — use skill **`portable-skills-sync`** (`.cursor/skills/portable-skills-sync/SKILL.md`); same trigger | `skills-portable/portable-skills-sync/SKILL.md` + manifest |
 | 2026-03-31 | work-jiang-ingest-fallback | *(promoted)* — use skill **`work-jiang-ingest-fallback`** (`.cursor/skills/work-jiang-ingest-fallback/SKILL.md`); same trigger | `skills-portable/work-jiang-ingest-fallback/SKILL.md` + manifest |

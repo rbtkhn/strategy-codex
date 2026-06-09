@@ -23,9 +23,9 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=12vCzfDomoE"
 youtube_id: 12vCzfDomoE
-source_note: Operator-pasted transcript; host self-dates Tuesday 9 June 2026. Covers Lebanon/Gaza parallel, Dahiyeh strike cycle, new resistance-equation (attack Lebanon → axis response), Hormuz fee/control, Trump-Netanyahu humiliation thesis, US refueling charade, Iraqi Kurdistan strikes, Lebanon withdrawal non-negotiable, Fox unrest propaganda.
+source_note: Operator-pasted transcript; host self-dates Tuesday 9 June 2026. Covers Lebanon/Gaza parallel, Dahiyeh strike cycle, new resistance-equation (attack Lebanon → axis response), Hormuz fee/control, Trump-Netanyahu humiliation thesis, US refueling charade, Iraqi Kurdistan strikes, Lebanon withdrawal non-negotiable, Fox unrest propaganda. verify: Netanyahu struck Iran despite Trump restraint reports supported (Al Jazeera/CNA 8 Jun); verify: Axios humiliation call supported; verify: Fox/student protests supported (exam-policy, Times of Israel/ynet 6 Jun); verify: NYT/WSJ ships lie claim unclear (no named ships); verify: refuel charade US tankers war-wide supported, nightly assist contested.
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Wire-verify 2026-06-09 — Axios call + Israel Iran exchange supported; Fox Iran protests supported (exam-policy frame, not Jan uprising); refuel charade partially supported; humiliation/charade framing = interpretation.
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 ---

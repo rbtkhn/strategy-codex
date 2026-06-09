@@ -247,3 +247,10 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: wire-verify
+    source: wire-verify/SKILL.md
+    appendix: .cursor/skills/wire-verify/CURSOR_APPENDIX.md
+    target: .cursor/skills/wire-verify/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates

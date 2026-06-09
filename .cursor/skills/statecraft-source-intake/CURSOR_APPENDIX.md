@@ -33,6 +33,7 @@
 - For manual file creation or edits, use `apply_patch`.
 - Prefer the closest same-family recent file as the pattern authority.
 - When a transcript is already supplied in chat, this skill can proceed without YouTube fetching.
+- **Post-land optional:** [wire-verify](../wire-verify/SKILL.md) — **`wire verify`** on breaking wire hooks; land **`verify:`** tails in `source_note` / `editorial_note` when operator ships receipts.
 - In same-day batch mode, the minimum expected rebuild set is:
   - `source-archive/statecraft/YYYY-MM-DD/README.md`
   - `source-archive/statecraft/YYYY-MM.md`

@@ -222,6 +222,7 @@ Structured-field law:
         - Mario Nawfal — `scripts/post_land_nawfal_opening_normalize.py --path <landed-file>`
         - Dialogue Works / Nima Alkhorshid — `scripts/post_land_dialogue_works_opening_normalize.py --path <landed-file>`
      - Preview any step with `--dry-run` on that script.
+     3. **Optional wire-verify (breaking / same-week seams):** When the capture cites **wire or desk hooks** (NYT, Axios, Reuters, IDF/CENTCOM, Hebrew media) or the operator says **`wire verify`** / **`verify tier`**, run the host **`wire-verify`** skill (**`wire verify`**) on load-bearing hooks **before** daily synthesis or notebook fold. Default **Think** (chat table only). **Ship** only when asked: append compact **`verify:`** tails to `source_note` / `editorial_note` — do not rewrite transcript body. Skip when intake is archival/historical with no developing wire seams.
    - Reflow into readable paragraphs or turns when the family pattern expects that.
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
    - For interview lanes that routinely include sponsor or promo scaffolding, strip those blocks only when the boundary is unmistakable and the substantive interview body remains intact.
@@ -231,6 +232,7 @@ Structured-field law:
    - Always check frontmatter or metadata block against the family pattern.
    - Always check opening lines and archive placement.
    - Always confirm the file is a real transcript-bearing object, not a shell.
+   - When wire-verify ran, confirm `source_note` / `editorial_note` carries **`verify:`** receipt or that the operator declined disk landing.
    - In `single-source safe mode`, also verify the rebuilt archive surfaces.
    - In `batch-throughput mode`, stop after the lightweight per-file verification and queue the rollup verification for the checkpoint pass.
 
@@ -603,6 +605,7 @@ The source ends as a **real full-source archive object** in the canonical statec
 - For manual file creation or edits, use `apply_patch`.
 - Prefer the closest same-family recent file as the pattern authority.
 - When a transcript is already supplied in chat, this skill can proceed without YouTube fetching.
+- **Post-land optional:** [wire-verify](../wire-verify/SKILL.md) — **`wire verify`** on breaking wire hooks; land **`verify:`** tails in `source_note` / `editorial_note` when operator ships receipts.
 - In same-day batch mode, the minimum expected rebuild set is:
   - `source-archive/statecraft/YYYY-MM-DD/README.md`
   - `source-archive/statecraft/YYYY-MM.md`

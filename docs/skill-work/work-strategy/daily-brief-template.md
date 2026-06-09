@@ -160,6 +160,9 @@ rules in
 
 - `verify:wire-RSS` — RSS-ingested wire / live-desk article (still not a state
   primary)
+- `verify:wire-supported` / `verify:wire-unclear` / `verify:wire-contested` /
+  `verify:wire-contradicted` — outcomes from **`wire verify`** triage (see
+  `.cursor/skills/wire-verify/SKILL.md`)
 - `verify:OSINT-unverified` — OSINT / social / analyst chain without stable
   primary capture
 - `verify:tier-A` — operator-attested high-trust capture (per notebook tables)

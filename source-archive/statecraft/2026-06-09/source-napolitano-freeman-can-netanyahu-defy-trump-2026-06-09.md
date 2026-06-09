@@ -22,9 +22,9 @@ title: "AMB. Chas Freeman: Can Netanyahu Defy Trump?"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=KSbb4c2JxRE"
 youtube_id: KSbb4c2JxRE
-source_note: "Operator-pasted transcript; host self-dates Tuesday 9 June 2026. Covers Iran disproportionate-reprisal doctrine, Hormuz control, Pakistan-channel negotiation stall, Trump \"two weeks\" / Hezbollah contact claims, Netanyahu Knesset \"no\" speech, USS Liberty / Thomas Massie floor segment, Trump-Netanyahu leak charade thesis, Epstein-file pressure on Trump."
+source_note: "Operator-pasted transcript; host self-dates Tuesday 9 June 2026. Covers Iran disproportionate-reprisal doctrine, Hormuz control, Pakistan-channel negotiation stall, Trump \"two weeks\" / Hezbollah contact claims, Netanyahu Knesset \"no\" speech, USS Liberty / Thomas Massie floor segment, Trump-Netanyahu leak charade thesis, Epstein-file pressure on Trump. verify: Axios/ABC Trump-Netanyahu profanity call (1 Jun) supported; verify: IAF Iran reach via US tankers supported war-wide (Times of Israel); verify: 8 Jun strike required US refuel unclear/contested; verify: leak-as-charade Freeman interpretation."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Ideological cold open trimmed in place; SSOT body otherwise preserved.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Ideological cold open trimmed in place; SSOT body otherwise preserved. Wire-verify 2026-06-09 — Axios profanity call supported; US tanker enablement for Iran strikes supported (war-wide), specific 8 Jun wave contested; charade thesis = interpretation.
 quality_note: Ideological cold open trimmed; closing schedule promo preserved; residual ASR noise may remain.
 opening_tier: host-tease
 transcript_wrapper_tier: clean

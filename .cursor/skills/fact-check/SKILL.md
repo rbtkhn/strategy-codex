@@ -56,6 +56,7 @@ If the thread is clearly **WORK** and the operator did not say **no menu**, end 
 
 ## Related
 
+- [wire-verify](../wire-verify/SKILL.md) — scoped pass on **wire/desk hooks** inside ingests and briefs before synthesis; adds developing-story and contested-wire handling. Prefer **wire verify** on full captures; use **fact check** for arbitrary claims.
 - [politics-massie](../politics-massie/SKILL.md) — news hooks + X drafts for the Massie analysis lane.
 - **Massie news hooks:** If your Cursor install includes **massie-x-news-search-draft** (optional user skill), use it for **today's** KY-4 / Massie-relevant cited briefs; **fact check** stays **claim-neutral**.
 - [pros-and-cons](../pros-and-cons/SKILL.md) — tradeoffs when the question is **should we**, not **is it true**.
