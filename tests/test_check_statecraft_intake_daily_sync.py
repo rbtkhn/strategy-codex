@@ -107,3 +107,52 @@ def test_live_june_08_ok_after_sachs_wire_in(sync_mod):
     report = sync_mod.build_sync_report("2026-06-08")
     assert report.status == "ok", sync_mod.format_human(report)
     assert "DESYNC" not in sync_mod.format_human(report).upper()
+
+
+def test_resolve_latest_captured_day_picks_newest_with_sources(sync_mod, tmp_path: Path):
+    archive_root = tmp_path / "source-archive" / "statecraft"
+    for day in ("2026-06-07", "2026-06-08"):
+        day_dir = archive_root / day
+        day_dir.mkdir(parents=True)
+        (day_dir / f"source-sample-{day}.md").write_text("---\nkind: transcript\n---\n", encoding="utf-8")
+    empty_dir = archive_root / "2026-06-09"
+    empty_dir.mkdir(parents=True)
+    (empty_dir / "README.md").write_text("# empty\n", encoding="utf-8")
+
+    assert sync_mod.resolve_latest_captured_day(root=archive_root) == "2026-06-08"
+
+
+def test_resolve_latest_captured_day_none_when_empty(sync_mod, tmp_path: Path):
+    archive_root = tmp_path / "source-archive" / "statecraft"
+    archive_root.mkdir(parents=True)
+    assert sync_mod.resolve_latest_captured_day(root=archive_root) is None
+
+
+def test_batch_audit_mixed_ok_and_desync(sync_mod, tmp_path: Path):
+    archive_root = tmp_path / "source-archive" / "statecraft"
+    daily_dir = tmp_path / "statecraft" / "daily"
+    daily_dir.mkdir(parents=True)
+
+    for day, slug in (("2026-06-07", "source-a-2026-06-07.md"), ("2026-06-08", "source-b-2026-06-08.md")):
+        day_dir = archive_root / day
+        day_dir.mkdir(parents=True)
+        (day_dir / slug).write_text("---\nkind: transcript\n---\n", encoding="utf-8")
+
+    (daily_dir / "2026-06-07.md").write_text(
+        "Archive checkpoint: **1**\n"
+        "- [A](../../source-archive/statecraft/2026-06-07/source-a-2026-06-07.md)\n",
+        encoding="utf-8",
+    )
+    (daily_dir / "2026-06-08.md").write_text(
+        "Archive checkpoint: **1**\n",
+        encoding="utf-8",
+    )
+
+    reports = sync_mod.build_batch_reports(root=archive_root, daily_dir=daily_dir)
+    assert len(reports) == 2
+    assert reports[0].status == "ok"
+    assert reports[1].status == "desync"
+    assert sync_mod.batch_exit_code(reports) == 1
+    human = sync_mod.format_batch_human(reports)
+    assert "desync: 1" in human
+    assert "2026-06-08" in human

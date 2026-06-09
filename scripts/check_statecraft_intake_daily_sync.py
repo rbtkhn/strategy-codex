@@ -5,6 +5,8 @@ Read-only. Exit 0 when in sync or when no daily exists; exit 1 on DESYNC.
 
 Usage:
     python3 scripts/check_statecraft_intake_daily_sync.py --day 2026-06-08
+    python3 scripts/check_statecraft_intake_daily_sync.py --latest
+    python3 scripts/check_statecraft_intake_daily_sync.py --all
     python3 scripts/check_statecraft_intake_daily_sync.py --day 2026-06-08 --json
 """
 
@@ -22,7 +24,7 @@ _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from statecraft_day_archive import DEFAULT_ROOT, summarize_day_dir  # noqa: E402
+from statecraft_day_archive import DEFAULT_ROOT, iter_all_day_dirs, summarize_day_dir  # noqa: E402
 
 DAILY_DIR = REPO_ROOT / "statecraft" / "daily"
 ARCHIVE_CHECKPOINT_RE = re.compile(
@@ -163,10 +165,138 @@ def format_human(report: SyncReport) -> str:
     return "\n".join(lines)
 
 
+def iter_captured_days(*, root: Path = DEFAULT_ROOT) -> list[str]:
+    """All YYYY-MM-DD archive days with at least one source file, oldest first."""
+    root = root.resolve()
+    if not root.is_dir():
+        return []
+    days: list[str] = []
+    for day_dir in iter_all_day_dirs(root):
+        if summarize_day_dir(day_dir).source_count > 0:
+            days.append(day_dir.name)
+    return days
+
+
+def build_batch_reports(
+    *,
+    root: Path = DEFAULT_ROOT,
+    daily_dir: Path = DAILY_DIR,
+    from_day: str | None = None,
+    to_day: str | None = None,
+) -> list[SyncReport]:
+    reports: list[SyncReport] = []
+    for day in iter_captured_days(root=root):
+        if from_day and day < from_day:
+            continue
+        if to_day and day > to_day:
+            continue
+        reports.append(build_sync_report(day, root=root, daily_dir=daily_dir))
+    return reports
+
+
+def batch_exit_code(reports: list[SyncReport]) -> int:
+    return 1 if any(report.status == "desync" for report in reports) else 0
+
+
+def format_batch_human(reports: list[SyncReport], *, desync_only: bool = False) -> str:
+    if not reports:
+        return "statecraft intake/daily sync — batch audit\nno captured archive days found"
+
+    counts = {"ok": 0, "desync": 0, "no_daily": 0, "no_archive": 0}
+    for report in reports:
+        counts[report.status] = counts.get(report.status, 0) + 1
+
+    lines = [
+        "statecraft intake/daily sync — batch audit",
+        f"days_checked: {len(reports)}",
+        f"ok: {counts['ok']} · desync: {counts['desync']} · no_daily: {counts['no_daily']}",
+        "",
+        "day          status    archive  daily_cp  archive_only",
+        "-----------  --------  -------  --------  ------------",
+    ]
+    table_rows = [r for r in reports if r.status == "desync"] if desync_only else reports
+    for report in table_rows:
+        checkpoint = (
+            str(report.daily_checkpoint_count)
+            if report.daily_checkpoint_count is not None
+            else "-"
+        )
+        if report.status == "desync":
+            only_n = len(report.archive_only)
+            flag = f"{only_n}" if only_n else "count"
+        else:
+            flag = "-"
+        lines.append(
+            f"{report.day}  {report.status:8}  {report.archive_count:7}  {checkpoint:>8}  {flag}"
+        )
+
+    desyncs = [r for r in reports if r.status == "desync"]
+    if desyncs:
+        lines.extend(["", "desync detail:"])
+        for report in desyncs:
+            lines.append(f"- {report.day}:")
+            if report.archive_only:
+                for slug in report.archive_only:
+                    lines.append(f"    archive_only: {slug}")
+            if report.daily_only:
+                for slug in report.daily_only:
+                    lines.append(f"    daily_only: {slug}")
+            if (
+                report.daily_checkpoint_count is not None
+                and report.daily_checkpoint_count != report.archive_count
+            ):
+                lines.append(
+                    f"    count_mismatch: archive={report.archive_count} "
+                    f"daily_checkpoint={report.daily_checkpoint_count}"
+                )
+        lines.extend(
+            [
+                "",
+                "action: wire missing captures or run statecraft daily synthesis per desync day",
+            ]
+        )
+    else:
+        lines.extend(["", "ok: no desync across captured archive days"])
+
+    return "\n".join(lines)
+
+
+def resolve_latest_captured_day(*, root: Path = DEFAULT_ROOT) -> str | None:
+    """Return the newest YYYY-MM-DD archive day with at least one source file."""
+    days = iter_captured_days(root=root)
+    return days[-1] if days else None
+
+
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--day", required=True, help="Publication date YYYY-MM-DD")
+    day_group = ap.add_mutually_exclusive_group(required=True)
+    day_group.add_argument("--day", help="Publication date YYYY-MM-DD")
+    day_group.add_argument(
+        "--latest",
+        action="store_true",
+        help="Use the newest archive day folder with at least one source file",
+    )
+    day_group.add_argument(
+        "--all",
+        action="store_true",
+        help="Audit every captured archive day (backlog desync scan)",
+    )
     ap.add_argument("--json", action="store_true", help="Emit machine-readable JSON")
+    ap.add_argument(
+        "--desync-only",
+        action="store_true",
+        help="With --all, print only desync rows in the table (summary still full)",
+    )
+    ap.add_argument(
+        "--from-day",
+        metavar="YYYY-MM-DD",
+        help="With --all, earliest pub_date to include",
+    )
+    ap.add_argument(
+        "--to-day",
+        metavar="YYYY-MM-DD",
+        help="With --all, latest pub_date to include",
+    )
     ap.add_argument(
         "--root",
         type=Path,
@@ -178,7 +308,32 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
-    report = build_sync_report(args.day.strip(), root=args.root.resolve())
+    root = args.root.resolve()
+    if args.all:
+        reports = build_batch_reports(root=root, from_day=args.from_day, to_day=args.to_day)
+        if args.json:
+            payload = {
+                "mode": "batch",
+                "days_checked": len(reports),
+                "desync_count": sum(1 for r in reports if r.status == "desync"),
+                "reports": [asdict(r) for r in reports],
+            }
+            print(json.dumps(payload, indent=2))
+        else:
+            print(format_batch_human(reports, desync_only=args.desync_only))
+        return batch_exit_code(reports)
+
+    if args.latest:
+        day = resolve_latest_captured_day(root=root)
+        if day is None:
+            if args.json:
+                print(json.dumps({"status": "no_capture_days", "day": None}))
+            else:
+                print("statecraft intake/daily sync — no captured archive days found")
+            return 0
+    else:
+        day = args.day.strip()
+    report = build_sync_report(day, root=root)
     if args.json:
         print(json.dumps(asdict(report), indent=2))
     else:

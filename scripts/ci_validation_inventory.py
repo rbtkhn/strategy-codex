@@ -95,7 +95,7 @@ def _argv_validate_statecraft_archive_indices(_user: str) -> list[str]:
 
 
 def _argv_check_statecraft_intake_daily_sync(_user: str) -> list[str]:
-    return ["--day", "2026-06-08"]
+    return ["--latest"]
 
 
 ALL_CHECKS: tuple[CheckSpec, ...] = (
