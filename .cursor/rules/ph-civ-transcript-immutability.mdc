@@ -1,0 +1,44 @@
+---
+description: PH-CIV mirror — lecture transcript bodies are verbatim SSOT; edit commentary/apparatus only unless operator opens a transcript lane
+globs:
+  - statecraft/civ-lens/jiang/ph-civ/**
+alwaysApply: false
+---
+
+# PH-CIV transcript immutability (mirror)
+
+**SSOT:** [`statecraft/civ-lens/jiang/jiang-routing.md`](../../statecraft/civ-lens/jiang/jiang-routing.md) (transcript floor) · public canonical repo `rbtkhn/ph-civ`.
+
+## Default (mandatory)
+
+When working under `statecraft/civ-lens/jiang/ph-civ/`:
+
+- **Do not edit** `**/*-transcript.md` bodies (including `## Part I: Full transcript` / `## Full transcript` sections).
+- **Do not** “fix typos,” normalize ASR, summarize, or fold synthesis into transcript files.
+- **Do** put claims, predictions, corridors, and cross-links in `*-commentary.md`, cards, corridors, orientation YAML — with line refs (`civ-07-transcript.md:90-93`), not inline rewrites.
+
+Commentary frontmatter already marks `transcript_fidelity: exact_body_match` and `representation_not_endorsement: true`; treat that as a hard boundary.
+
+## Allowed transcript edits (operator must name the lane)
+
+Only when the operator **explicitly** requests one of:
+
+| Lane | Typical output |
+|------|----------------|
+| **Re-materialize / re-import** | `youtube-raw-input-transcript`, rights-reviewed pull from public `rbtkhn/ph-civ` |
+| **Proper-noun normalization** | `transcript-proper-noun-normalization` — prefer sidecar / archive derivative when possible |
+| **Cleanup pass** | `transcript-cleanup` — cleaned derivative, not silent overwrite of canonical body |
+| **Upstream ph-civ ship** | Commit in `rbtkhn/ph-civ` with `PH-TRANSCRIPT-EDIT:` reason |
+
+For mirror work in strategy-codex, set `PH_CIV_TRANSCRIPT_EDIT=1` only for the above scopes.
+
+## Validator
+
+Staged guard: `python scripts/validate_ph_civ_transcript_boundary.py --staged` (also wired in optional pre-commit).
+
+Pilot ASR blocklist (civ-01–12): `python scripts/validate_transcript_proper_nouns.py` — flags known manglings still in transcript bodies; SSOT `ph-civ/data/asr-blocklist/volume-ii-pilot.json`.
+
+## Do not confuse with
+
+- **Frozen legacy PH trees** (`codex/predictive-history/`, `research/external/youtube-channels/predictive-history/`) — `validate_predictive_history_boundary.py`; do not mutate.
+- **`source-archive/statecraft/`** — separate verbatim intake; different pipeline from ph-civ chapter packets.

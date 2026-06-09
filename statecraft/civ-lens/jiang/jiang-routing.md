@@ -61,6 +61,7 @@ In the embedded `ph-civ` mirror, **lecture transcript bodies are not commentary*
 - **Edit surfaces:** `*-commentary.md`, cards, corridors, orientation YAML; cite transcript line refs instead of rewriting source text.
 - **Legitimate transcript changes** require an explicit operator lane (re-materialize, rights-reviewed re-import from `rbtkhn/ph-civ`, or named cleanup skill) and `PH_CIV_TRANSCRIPT_EDIT=1` when committing.
 - **Check before commit:** `python scripts/validate_ph_civ_transcript_boundary.py --staged` from strategy-codex root (optional pre-commit hook).
+- **ASR pilot guard (civ-01–12):** `python scripts/validate_transcript_proper_nouns.py` — blocklist at `ph-civ/data/asr-blocklist/volume-ii-pilot.json`; regenerate via `python scripts/generate_ph_civ_asr_blocklist.py` after pilot script edits.
 
 Cursor agents: `.cursor/rules/ph-civ-transcript-immutability.mdc` when paths touch the mirror.
 
