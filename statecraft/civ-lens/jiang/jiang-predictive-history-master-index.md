@@ -46,12 +46,22 @@ Series counts from the official mirror:
 
 | Series | Current public count | Primary local route | Notes |
 | --- | --- | --- | --- |
-| Civilization | `60` | [ph-civ/book/volume-ii](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/book/volume-ii) | Main Volume I civilization spine. |
+| Civilization | `60` | [ph-civ/book/volume-i-civilization/interwoven-reader/README.md](ph-civ/book/volume-i-civilization/interwoven-reader/README.md) | Canonical interwoven spine (`civ-01`–`civ-60`); packet shelf at [volume-ii](ph-civ/book/volume-ii); ten Part doorways at [parts/](ph-civ/book/volume-i-civilization/parts/README.md). |
 | Geo-Strategy | `20` | [ph-civ/book/volume-i](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/book/volume-i) | Legacy provenance shelf feeding Apocalypse. |
 | Game Theory | `27` | [ph-civ/book/volume-iii](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/book/volume-iii) | Publicly materialized through `gt-27`. |
 | Secret History | `28` | [ph-civ/book/volume-vi](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/book/volume-vi) | Full `sh-01` to `sh-28` public spine. |
 | Great Books | `10` | [ph-civ/book/volume-v](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/book/volume-v) | Publicly materialized through `gb-10`. |
 | Essays | `5` | [ph-civ/ph-apo](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/ph-apo) | Apocalypse-facing essay lane. |
+
+### Volume I reading navigation (Parts overlay)
+
+Ten **Part doorways** on the civilization spine — navigation only; [interwoven-reader](ph-civ/book/volume-i-civilization/interwoven-reader/README.md) order stays authoritative. Shelf routing detail: [jiang-routing.md — Volume I Parts](jiang-routing.md#volume-i-parts-reading-navigation).
+
+| Surface | Path |
+| --- | --- |
+| Parts index | [ph-civ/book/volume-i-civilization/parts/README.md](ph-civ/book/volume-i-civilization/parts/README.md) |
+| Registry | [ph-civ/data/parts/volume-i-parts.json](ph-civ/data/parts/volume-i-parts.json) |
+| Part boundary tour | [ph-civ/data/routes/part-boundary-tour.json](ph-civ/data/routes/part-boundary-tour.json) |
 
 Primary mirror front doors:
 
@@ -109,6 +119,7 @@ If the user asks:
 - "Where is the YouTube link for lecture X?" -> open [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/docs/source-video-index.md).
 - "Do we have a raw local capture of this Jiang / PH item?" -> open [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md).
 - "What is the canonical Jiang shelf front door?" -> stay in [README.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/README.md) and this file.
+- "How do I read Volume I by Part?" -> [interwoven spine](ph-civ/book/volume-i-civilization/interwoven-reader/README.md) for order; [Parts shelf](ph-civ/book/volume-i-civilization/parts/README.md) for doorways; [jiang-routing.md](jiang-routing.md#volume-i-parts-reading-navigation) for split seams and validate commands.
 
 ## Falsify check
 
