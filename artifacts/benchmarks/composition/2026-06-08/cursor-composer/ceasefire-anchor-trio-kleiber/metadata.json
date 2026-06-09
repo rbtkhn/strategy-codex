@@ -1,0 +1,14 @@
+{
+  "benchmark_id": "task-6",
+  "prompt_version": "composition-benchmark-v1/ceasefire-anchor-trio-2026-06-08",
+  "rubric_version": "composition-rubric-v1",
+  "model": "Composer",
+  "provider": "Cursor",
+  "model_version": "unavailable",
+  "run_date": "2026-06-08",
+  "temperature": "unknown",
+  "seed": "unavailable",
+  "source_mode": "source_pack",
+  "evaluator": "Composer",
+  "notes": "Kleiber D Finale after A+B+C conductor pass (14-source bump, gap audit, Sachs/RCPT-03 wire-in). Trio synthesis from Napolitano-Crooke + Hedges-Crooke + Parsi Nawfal 2026-06-08 only. Full batch and America mesh excluded by design."
+}

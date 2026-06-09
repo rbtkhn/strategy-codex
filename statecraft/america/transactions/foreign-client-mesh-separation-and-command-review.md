@@ -20,6 +20,7 @@ Foreign client mesh separation and command-review firewall.
   - [Freeman / Dialogue Works 2026-06-06](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-06/source-alkorshid-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md)
   - [Hoh / Dialogue Works 2026-06-04 (Section 224)](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-alkorshid-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md)
   - [Barnes / Nawfal 2026-06-08 (non-intercept, Colby spying, MOU money)](../../source-archive/statecraft/2026-06-08/source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
+  - [Sachs / Napolitano 2026-06-08 (pushback publication theory, NYT spying plant)](../../source-archive/statecraft/2026-06-08/source-napolitano-sachs-is-trump-losing-it-2026-06-08.md)
 - Prior statecraft drafts: [Freeman vs Sachs America input](../freeman-vs-sachs-america-input.md); [America helix](../helix.md).
 
 ## Realism / Incentive Filter
@@ -225,6 +226,27 @@ Same-object stress test on **three ledger rows**:
 
 **Fork split (June 8):** non-intercept **restraint-leaning**; spying + mesh timing + deniability money **capture-leaning**. Successor check unchanged: statute/sunset must survive executive selective restraint.
 
+### June 8 Sachs × Wilkerson × Barnes corroboration (pushback disclosure instrument)
+
+See [Sachs × Wilkerson × Barnes — spying pushback instrument](../../daily/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) · prior [Wilkerson × Hoh Section 224 receipt](../../daily/2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md).
+
+Tri-source read on the **same NYT/DIA spying disclosure week**:
+
+| Row | Claim | Transaction clause |
+| --- | --- | --- |
+| **`AMER-CI-01`** | Barnes: Colby/Divine during Section 224 push | Clauses B–D — CI-tier gate, vote floor, client origination |
+| **SACH-PUSH-01/02** | Sachs: planted NYT story; **the story is the signal** | Clause E — daylight bar as deliberate pushback, not investigative surprise |
+| **`AMER-224-RCPT-01/02`** | Wilkerson: mesh merges in dark; 57–60% not law | Clauses A, C — sunset + vote floor before conference |
+| **`AMER-224-RCPT-03`** | Coordinated disclosure week (NYT/DIA/Axios) vs mesh advance | Clause E falsifier — pushback **load-bearing only if mesh stalls** |
+
+**`AMER-224-RCPT-03` receipt row:**
+
+| ID | Row | Pass | Stressed | Fired (falsifier) |
+| --- | --- | --- | --- | --- |
+| **AMER-224-RCPT-03** | Sachs pushback week stresses mesh without Clauses A–D | Disclosure + mesh **stall** 30d | Disclosure + Section 224 **passes unchanged** | Performative pushback confirmed — Sachs right on signal, Wilkerson right on weld |
+
+**Compression:** Barnes names *who* was surveilled; Sachs names *why it was published*; Wilkerson names *why publication may not stop the weld*. RCPT-03 waits on conference outcome.
+
 ### Executive levers unused (Aguilar × Barnes statecraft-note pass)
 
 See [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](../../daily/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md).
@@ -254,3 +276,4 @@ Drafting bias addition:
 - [Daily synthesis 2026-06-04](../../daily/2026-06-04.md)
 - [Barnes × Aguilar enforceability statecraft note](../../daily/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md)
 - [Barnes × America capture — non-intercept, Colby, MOU (2026-06-08)](../../daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
+- [Sachs × Wilkerson × Barnes — spying pushback instrument (2026-06-08)](../../daily/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md)

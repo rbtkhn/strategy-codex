@@ -93,12 +93,13 @@ Short compression: **June 4 Hoh proves the trap is being welded into law; June 8
 | **D** — origination disqualification | Netanyahu letter | **Tape** of congressman authoring clause |
 | **E** — performative daylight | Axios leaks | Trump wants out / BB caught — rhetoric ≠ statute unwind |
 
-**New receipt row (log only — optional transaction append):**
+**Receipt rows** (01–02 here; **03** appended via [Sachs × Wilkerson × Barnes companion](./2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) → [America transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md)):
 
 | ID | Row | Falsifier |
 |----|-----|-----------|
 | **AMER-224-RCPT-01** | Hoh mechanism + Wilkerson oversight extinction = **successor-stable capture** unless Clauses A–D fire before conference | Ro Khanna amendment or Senate strip passes |
 | **AMER-224-RCPT-02** | Public opposition (57–60%) **not converted** to law before dark merge | Mesh passes with no recorded sunset |
+| **AMER-224-RCPT-03** | Sachs pushback week vs mesh advance | Section 224 passes unchanged after disclosure stack = performative pushback |
 
 ---
 
@@ -116,6 +117,7 @@ Short compression: **June 4 Hoh proves the trap is being welded into law; June 8
 1. Read **Hoh June 4** for clause mechanics and Lebanon farce pairing.
 2. Read **Wilkerson June 8** for why mesh is Netanyahu's rear-guard and why public opposition cannot brake it without Clauses A–D.
 3. Cross-read [Barnes America capture](./2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) — material rows (non-intercept, Colby) **under** statutory mesh spine.
+4. Cross-read [Sachs × Wilkerson × Barnes spying pushback](./2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) — **AMER-224-RCPT-03** (disclosure week vs dark merge).
 4. Cross-read [Davis dual episode](./2026-06-08-davis-dual-episode-trust-fork-foreknowledge-accountability.md) — adviser drowning (Keane) is **parallel** failure mode to statutory drowning (224).
 
 ---

@@ -2,11 +2,39 @@ WORK only; not Record.
 
 # June 8+ Intake Readiness — Third-Party Deterrence Stress Test
 
-**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **13** sources (12 transcripts + Pape Substack); **[daily synthesis](./2026-06-08.md)** refreshed (13-source batch; Wilkerson × Hoh mesh spine). Wilkerson (`a2nQnLcTNuo`) + evening Davis landed 2026-06-09 ingest.
+**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **14** sources (13 transcripts + Pape Substack); **[daily synthesis](./2026-06-08.md)** refreshed (14-source batch; Wilkerson × Hoh mesh spine + Sachs pushback wire-in). Sachs (`-vbRhB69TEY`) landed 2026-06-09 ingest; Wilkerson (`a2nQnLcTNuo`) + evening Davis same ingest wave.
 
 **Parent week:** [June week-1 start here](./2026-06-week1-start-here.md) · [2026-06-07 daily](./2026-06-07.md)
 
 **Thesis under test:** June 7 spent the **Lebanon recognition gate as third-party hard power** (Parsi/Nima/McGovern). June 8+ intake must determine whether that rule **holds**, **escalates**, or **reverts to episodic**.
+
+---
+
+## Archive vs synthesis gap audit (Kleiber Andante — 2026-06-09)
+
+Diff: [source-archive/statecraft/2026-06-08/README.md](../../source-archive/statecraft/2026-06-08/README.md) (**14** files) vs [2026-06-08.md](./2026-06-08.md) source base.
+
+| Archive file | Daily listing | Synthesis body |
+|--------------|---------------|----------------|
+| `source-napolitano-crooke-*` | Anchor trio | ✓ Executive read + Theme 1 |
+| `source-hedges-crooke-*` | Anchor trio | ✓ Executive read + Theme 1 |
+| `source-nawfal-parsi-*` | Anchor trio | ✓ Executive read + Theme 1 |
+| `source-pape-day-100-*` | Primary captures | ✓ Theme 2 |
+| `source-daniel-davis-*` (×2) | Primary captures | ✓ Themes 1, 6 |
+| `source-glenn-diesen-marandi-*` | Primary captures | ✓ Themes 1, 3 |
+| `source-dialogue-works-johnson-*` | Primary captures | ✓ Themes 1, 6 |
+| `source-napolitano-mcgovern-*` | Primary captures | ✓ Theme 4 |
+| `source-nawfal-barnes-*` | Primary captures | ✓ Theme 4 |
+| `source-alex-mercouris-*` | Primary captures | ✓ Theme 7 |
+| `source-alkorshid-baud-*` | Primary captures | ✓ Theme 7 |
+| `source-glenn-diesen-wilkerson-*` | Primary captures | ✓ Themes 4, 5 |
+| `source-napolitano-sachs-*` | Primary captures (post-fix) | ✓ Theme 4 + RCPT-03 |
+
+**Pre-fix omission:** Sachs only — archive README already counted 14; daily said 13 and omitted Sachs from primary list and America mesh paragraph.
+
+**Structural note:** Anchor trio (Crooke×Napolitano, Crooke×Hedges, Parsi×Nawfal) are listed separately from the primary-captures block by design — not synthesis omissions.
+
+**Companion gap (resolved):** [Sachs × Wilkerson × Barnes spying pushback](./2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) now wired into daily Theme 4 and transaction **`AMER-224-RCPT-03`**.
 
 ---
 
@@ -73,6 +101,7 @@ Draft statecraft notes only if the batch supports them:
 - **Marandi Hormuz activation × D-HORM-01** — [watch sheet cross-link](./2026-06-08-pape-day-100-indicator-watch-sheet.md#d-horm-01--braid-hormuz-coupling-watch)
 - **Pape Day 100 indicator watch sheet** — [weekly falsifier table](./2026-06-08-pape-day-100-indicator-watch-sheet.md) ✓
 - **Barnes × America capture** (non-intercept, Colby spying, MOU money) — [statecraft note](./2026-06-08-barnes-america-capture-non-intercept-colby-mou.md) ✓
+- **Sachs × Wilkerson × Barnes — spying pushback instrument** — [statecraft note](./2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md) ✓ · [Sachs June 8](../../source-archive/statecraft/2026-06-08/source-napolitano-sachs-is-trump-losing-it-2026-06-08.md)
 - **Crooke three-date arc** (Jun 4 Substack × Jun 5 Dialogue × Jun 8 Judging Freedom) — [statecraft note](./2026-06-crooke-three-date-ceasefire-for-all-arc.md) ✓ · [Jun 4 Substack captured](../../source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md)
 - **Crooke Napolitano vs Hedges — permanent security** — [cross-weave note](../notes/2026-06-08-crooke-napolitano-vs-hedges-permanent-security.md) ✓ · [Napolitano capture](../../source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md) · [Hedges capture](../../source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md) · [Parsi capture](../../source-archive/statecraft/2026-06-08/source-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md)
 - **Israeli retaliation × Aguilar** — Rise-and-Kill-First vs Trump phone theater
