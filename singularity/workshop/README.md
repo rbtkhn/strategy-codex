@@ -81,6 +81,7 @@ For Coffee D specifically, add one routing question before closing the pass: has
 - [Moonshots EP #258 - Organizational Singularity](sheets/moonshots-ep-258-organizational-singularity.md) - podcast bridge for AI-native firms, fiduciary wedges, governance wrappers, dynamic org protocols, and workforce compression claims.
 - [Moonshots EP #259 - AI Personhood, Layoffs, and Regulation](sheets/moonshots-ep-259-ai-personhood-layoffs-regulation.md) - podcast bridge for Vatican AI doctrine, personhood dispute, regulation-speed conflict, coding benchmark pressure, and human-purpose questions under automation.
 - [Moonshots EP #260 - Opus, Foundation, and AGI Timelines](sheets/moonshots-ep-260-opus-foundation-agi.md) - podcast bridge for Anthropic Opus 4.8, AGI-definition conflict, foundation capital, coding swarms, robotics, and redistribution framing.
+- [Moonshots (unscheduled) - Anthropic Pause, Recursive Self-Improvement, AI Personhood](sheets/moonshots-emerging-anthropic-pause-recursive-personhood.md) - emergency episode bridge for Anthropic inner-loop paper, global pause optionality, golden-share politics, Argentina non-human corporation, agent permissions bottleneck, and jobs-vs-market paradox.
 - [AI interface as operating layer - 2028 horizon](sheets/interface-operating-layer-2028.md) - practical design sheet for outcome-first workflows, agent-addressable actions, memory, permissions, receipts, and rollback.
 - [Narrative-Shaped Alignment](sheets/narrative-shaped-alignment.md) - work-only strategy sheet for tracking how cultural material, PH-CIV discipline, and positive future stories may shape model behavior.
 - [Karpathy Watchlist](sheets/karpathy-watchlist.md) - source-bound bridge from the Karpathy profile and pinned repos into agency, substrate, and educational-baseline questions.
@@ -94,6 +95,10 @@ For Coffee D specifically, add one routing question before closing the pass: has
 Full local captures live here for close reading. Interpretive source sheets stay in `sheets/`; this folder preserves the newsletter text used to build them.
 
 **Archive boundary:** local Innermost Loop truth ends at [2026-05-17](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-17.md) until operator-run `python scripts/backfill_innermost_loop_academy_raw.py --today 2026-06-07 --days 25 --apply` closes the gap.
+
+**Moonshots verbatim:** [moonshots-emerging-anthropic-pause-ai-personhood-2026-06-09.md](../../source-archive/singularity/moonshots/moonshots-emerging-anthropic-pause-ai-personhood-2026-06-09.md) — pairs with the unscheduled Anthropic pause / personhood workshop sheet.
+
+**Intake triad:** archive → workshop sheet → `fact-check` before note promotion. SSOT: [source-archive/singularity/README.md](../../source-archive/singularity/README.md#intake-triad-operator-protocol).
 
 - [The Innermost Loop raw - 2025-12-11](../../source-archive/singularity/innermost-loop/innermost-loop-2025-12-11.md) - full newsletter capture.
 - [The Innermost Loop raw - 2025-12-12](../../source-archive/singularity/innermost-loop/innermost-loop-2025-12-12.md) - full newsletter capture.

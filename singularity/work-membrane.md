@@ -32,6 +32,13 @@ It may not silently convert any of that into identity-bearing Record truth.
 
 `runtime / derived` still matters, but the lane has a stronger transport and interop edge than `statecraft`.
 
+### RSI / high-velocity intake routing
+
+- Frontier-lab RSI discourse, podcast bursts, and governance-option material default to **`instrumental work`** (workshop sheets) until **Verify receipt** exists on the sheet.
+- Promotion to **`governed adjacent`** (`singularity/notes/`, essays) requires explicit verify lines or primary cites for load-bearing external claims — not agent fluency alone.
+- [`record_frozen`](../../config/strategy_codex.yaml) is **interpretive pause** on the identity channel: archive and synthesis may accelerate; Record truth does not. See [review-as-bottleneck-and-interpretive-pause.md](notes/review-as-bottleneck-and-interpretive-pause.md).
+- Intake protocol: [source-archive/singularity/README.md](../source-archive/singularity/README.md#intake-triad-operator-protocol) (archive → sheet → verify before promote).
+
 ---
 
 ## Temperament

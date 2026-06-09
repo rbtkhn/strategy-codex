@@ -77,15 +77,53 @@ def _run_git(*args: str) -> list[str]:
     return [line for line in proc.stdout.splitlines() if line.strip()]
 
 
+SINGULARITY_INTAKE_PREFIXES = (
+    "source-archive/singularity/moonshots/",
+    "singularity/notes/",
+)
+
+
 def _classify_lane_slice(path: str) -> str:
     """Classify a repo path into ship-receipt lane buckets."""
     if "ph-civ" in path or path.startswith("codex/predictive-history/"):
         return "ph-civ"
     if path.startswith("statecraft/"):
         return "statecraft"
-    if path.startswith("singularity/"):
+    if path.startswith("singularity/") or path.startswith("source-archive/singularity/"):
         return "singularity"
     return "other"
+
+
+def build_singularity_intake_nudge(status_lines: list[str]) -> list[str]:
+    """Surface uncommitted singularity intake paths (archive + promoted notes)."""
+    paths: list[str] = []
+    for line in status_lines:
+        category, _path = _classify_change(line)
+        if category in ("runtime_noise", "export_churn"):
+            continue
+        path = _status_path(line)
+        if any(path.startswith(prefix) for prefix in SINGULARITY_INTAKE_PREFIXES):
+            paths.append(path)
+    if not paths:
+        return []
+    lines = [
+        "",
+        "## Singularity intake (uncommitted)",
+        "",
+        "_Moonshots archive and promoted notes should ship with verify receipts on the parent workshop sheet._",
+        "",
+    ]
+    for path in sorted(set(paths)):
+        lines.append(f"- `{path}`")
+    lines.extend(
+        [
+            "",
+            "**Handoff asks:** What intake is still unverified? What is staged but uncommitted? "
+            "Record freeze still binding (yes by default).",
+            "",
+        ]
+    )
+    return lines
 
 
 def _parse_ahead_behind(status_sb_lines: list[str]) -> str:
@@ -439,6 +477,7 @@ def build_handoff_check(user_id: str = "strategy-codex") -> str:
         status_lines=status_lines,
         recent_commits=recent_commits,
     ))
+    lines.extend(build_singularity_intake_nudge(status_lines))
 
     lines.extend(["", "## Local work still in progress", ""])
     if meaningful_changes:

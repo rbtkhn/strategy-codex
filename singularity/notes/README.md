@@ -59,6 +59,7 @@ Machine-constitutional and source-bearing files stay where they already belong:
 - [coding-swarms-and-human-control-planes.md](./coding-swarms-and-human-control-planes.md) - bounded control-plane seam from Moonshots EP #260
 - [foundation-capital-as-legitimacy-infrastructure.md](./foundation-capital-as-legitimacy-infrastructure.md) - bounded political-economy seam from Moonshots EP #260
 - [ai-as-consciousness-scaling-infrastructure.md](./ai-as-consciousness-scaling-infrastructure.md) - bounded cognitive-infrastructure seam about truthful compression, retrieval, and population-scale consciousness expansion
+- [review-as-bottleneck-and-interpretive-pause.md](./review-as-bottleneck-and-interpretive-pause.md) - control-plane seam: review bottleneck in local RSI; Record freeze vs Anthropic pause option
 
 ## Promotion Path
 
@@ -91,6 +92,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [coding-swarms-and-human-control-planes.md](./coding-swarms-and-human-control-planes.md) - promoted control-plane seam from [../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md](../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md)
 - [foundation-capital-as-legitimacy-infrastructure.md](./foundation-capital-as-legitimacy-infrastructure.md) - promoted legitimacy-infrastructure seam from [../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md](../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md)
 - [ai-as-consciousness-scaling-infrastructure.md](./ai-as-consciousness-scaling-infrastructure.md) - bounded cognitive-infrastructure seam on compression, retrieval, and non-automatic consciousness widening
+- [review-as-bottleneck-and-interpretive-pause.md](./review-as-bottleneck-and-interpretive-pause.md) - promoted control-plane seam from June 2026 Anthropic RSI reflection (local review bottleneck; interpretive pause vs global pause option)
 
 ### Mirrored Legacy Promotion
 

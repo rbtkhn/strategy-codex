@@ -82,6 +82,30 @@ Do not cite a nonexistent May 19 source sheet or imply that the workshop has alr
 
 For a future Coffee D or Statecraft pass, this note is best used to ask one question: when compute is treated as a futures market plus infrastructure queue, who still has the authority to say no before the queue becomes destiny?
 
+## Worked Example: Review Bottleneck / Interpretive Pause (local)
+
+Use when agent execution is cheap but **operator judgment** is the scarce seat — e.g. after [Moonshots (unscheduled) — Anthropic pause / personhood](moonshots-emerging-anthropic-pause-recursive-personhood.md) or [When AI builds itself](https://www.anthropic.com/institute/recursive-self-improvement).
+
+- **Agent:** Cursor work agent on `strategy-codex` (captures, sheets, scripts, fact-check drafts).
+- **Objective:** Increase interpretive-machine throughput without letting synthesis fluency become floor truth.
+- **Authority:** Operator holds taste, verify, promote, and ship; agents may not merge Record (`record_frozen`).
+- **Observability:** Git diff + **Verify receipt** tables on workshop sheets + handoff singularity-intake block (`operator_handoff_check.py`).
+- **Rollback:** Revert commit; demote sheet-only claims; abstain from note promotion.
+
+### Boundary Warning
+
+Do not treat `validate-integrity` PASS or file-exists checks as verify pass for external stats. Separate **algorithmic** wins from **merge-ready judgment** (METR holistic-gap analog).
+
+### Human Meaning Check
+
+The office at risk is **review**, not typing: if verify receipts exist but are never read on reuse, observability becomes theater.
+
+### Falsifier
+
+Weaken this example if **three** consecutive high-velocity intakes promote to `singularity/notes/` without Verify receipt tables on their parent sheets.
+
+**Cross-links:** [review-as-bottleneck-and-interpretive-pause.md](../../notes/review-as-bottleneck-and-interpretive-pause.md) · [singularity work membrane](../../work-membrane.md) · [grace-mar instance boundary](../../../docs/grace-mar-instance-boundary.md)
+
 ## Output Prompts
 
 - Write a control-plane note with five fields: agent, objective, authority, observability, rollback.
