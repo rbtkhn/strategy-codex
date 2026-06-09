@@ -716,3 +716,11 @@ _(Append below this line.)_
 - **2026-06-09 03:34 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=karajan notebook_ref=statecraft/america/transactions/foreign-client-mesh-separation-and-command-review.md falsify=karajan-slice1-not-batched-with-validator-or-napolitano
 - **2026-06-09 03:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-09 03:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=docs/kleiber-close-march-quote-anchor-stopping-rules-2026-06-08.md falsify=march-daily-quote-anchor-errors-return-on-03-16-23-27-31
+- **2026-06-09 03:39 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe
+- **2026-06-09 03:41 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe subpick=B control_plane=true
+- **2026-06-09 03:43 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
+- **2026-06-09 04:41 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-09 04:43 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=D learning_action=reframe
+- **2026-06-09 04:46 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm
+- **2026-06-09 05:38 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein focus=2026-06-08-ceasefire-triad
+- **2026-06-09 05:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=bernstein notebook_ref=statecraft/daily/2026-06-08.md falsify=Beirut-strike-within-72h-collapses-episodic-alive-read movements=allegro andante scherzo finale commit=98415d277
