@@ -110,6 +110,8 @@ Validator run: `python scripts/validate_statecraft_daily_synthesis.py` → **16 
 
 **Fast-win alternative:** rank-3 monthly rename first (3 errors, one mechanical family) if the operator wants a quick 16→13 drop before source-archive quote extension work.
 
+**Rank 3 status (2026-06-08):** **held** — `2026-03.md`, `2026-04.md`, `2026-05.md` tail `Best Next Companion Notes`; validator **8→5**.
+
 ### Projected remainder after rank 1–3
 
 ```text
