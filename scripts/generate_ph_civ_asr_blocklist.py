@@ -45,7 +45,7 @@ SKIP_LITERALS = frozenset(
     }
 )
 
-PILOT_SLUGS = [f"civ-{n:02d}" for n in range(1, 13)]
+PILOT_SLUGS = [f"civ-{n:02d}" for n in range(1, 17)]
 
 ALLOWED_RESIDUALS = [
     {"literal": "effing", "note": "Pygmy forest-spirit gloss; civ-03 pilot left uncertain"},
@@ -91,7 +91,7 @@ def main() -> None:
     source = PILOT.read_text(encoding="utf-8")
     payload = {
         "version": "2026-06-09",
-        "scope": "volume-ii civ-01..12",
+        "scope": "volume-ii civ-01..16",
         "pilot_slugs": PILOT_SLUGS,
         "source_script": "statecraft/civ-lens/jiang/ph-civ/scripts/_pilot_asr_normalize_civ01_civ07.py",
         "allowed_residuals": ALLOWED_RESIDUALS,

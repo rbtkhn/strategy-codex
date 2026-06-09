@@ -16,7 +16,7 @@ MIRROR_ROOT = REPO_ROOT / MIRROR_REL
 DEFAULT_BLOCKLIST = (
     MIRROR_ROOT / "data/asr-blocklist/volume-ii-pilot.json"
 )
-PILOT_SLUGS = [f"civ-{n:02d}" for n in range(1, 13)]
+PILOT_SLUGS = [f"civ-{n:02d}" for n in range(1, 17)]
 TRANSCRIPT_MARKERS = (
     "## Part I: Full transcript",
     "## Full transcript",
@@ -147,7 +147,7 @@ def main() -> int:
     parser.add_argument(
         "--all-volume-ii",
         action="store_true",
-        help="Scan all volume-ii transcripts (default: pilot civ-01..12 only)",
+        help="Scan all volume-ii transcripts (default: pilot civ-01..16 only)",
     )
     parser.add_argument(
         "--json",
