@@ -9,20 +9,22 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs: US Still Woefully Ignorant of Russia.'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs: US Still Woefully Ignorant of Russia.'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=0nfBJGatAhM'
+source_url: "'https://www.youtube.com/watch?v=0nfBJGatAhM'"
 source_note: Transcript pasted manually by operator. The November 24, 2025 Sachs/Napolitano anchor previously existed as a recovered full-front-door object confirmed by public Judging Freedom podcast surfaces plus a recovered direct YouTube watch URL; this local body upgrades it to transcript-bearing while preserving that recovered watch surface.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
 quality_note: Operator-supplied interview transcript captured in Codex thread; preserve roughness and spoken cadence while correcting only obvious routing-critical artifacts.
+napolitano_sponsor_trim_applied: true
+napolitano_close_promo_trim_applied: true
+opening_tier: clean
 ---
+
 # Prof. Jeffrey Sachs: US Still Woefully Ignorant of Russia.
 
-[Music] [Music] Hi everyone. Everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, November 24th, 2025, Thanksgiving week here in the US. Professor Jeffrey Sachs will be with us in just a moment. Why is the United States still so woefully ignorant of Russia? But first, this history tells us every market eventually falls, currencies collapse, and look at where we are now.
-
-38 trillion in national debt. Stocks at record highs defying gravity. So what happens next? Groceries, gas, housing, everything's going up. And this dollar, it buys less every day. When the system breaks, your stocks won't save you and your dollars won't either. But one thing will. Gold. I've said it on my show for years. Gold survives collapse. Central bankers know this and billionaires know it. That's why they're buying more. Is it too late to buy or is it just the right time? Call my friends at Lear Capital to find out. Ask questions. Get the free information. There's no pressure. And that's why I buy my gold and silver from Lear. And right now you can get up to $20,000 in bonus medals with a qualified purchase. Call 800511-4620 or go to leerjudgenap.com today.
+Hi everyone. Everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, November 24th, 2025, Thanksgiving week here in the US. Professor Jeffrey Sachs will be with us in just a moment. Why is the United States still so woefully ignorant of Russia?
 
 Professor Sachs, welcome here. Welcome home. Welcome back to the United States of America. It's so good to see you with your familiar home environment behind you.
 
@@ -168,4 +170,4 @@ Excellent. Thank you so much.
 
 Thank you. All the best.
 
-Tomorrow, a full day for you. By the way, we have a really full day for you coming up on Wednesday since we have the Thanksgiving holiday coming. I'll tell you about Wednesday tomorrow. But tomorrow, Ambassador Chas Freeman at 8:00 in the morning, Pepe Escobar at 11 in the morning, Aaron Maté at 1, Matt Hoh at 2, and on why Netanyahu keeps denying that he was involved in the murder of Charlie Kirk and so few people believe the denials, with Colonel Kwiatkowski. Tomorrow, Karen Kwiatkowski at 3. Judge Napolitano for Judging Freedom. [Music] [Music]
+Tomorrow, a full day for you. By the way, we have a really full day for you coming up on Wednesday since we have the Thanksgiving holiday coming. I'll tell you about Wednesday tomorrow. But tomorrow, Ambassador Chas Freeman at 8:00 in the morning, Pepe Escobar at 11 in the morning, Aaron Maté at 1, Matt Hoh at 2, and on why Netanyahu keeps denying that he was involved in the murder of Charlie Kirk and so few people believe the denials, with Colonel Kwiatkowski. Tomorrow, Karen Kwiatkowski at 3.

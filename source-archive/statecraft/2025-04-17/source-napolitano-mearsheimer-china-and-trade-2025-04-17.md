@@ -9,20 +9,22 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof. John Mearsheimer : China and Trade."
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
 source_url: "https://www.youtube.com/watch?v=xmQBMtpiRWk"
-source_note: "Materialized from operator-pasted YouTube transcript for the April 17, 2025 Judging Freedom appearance. This item had previously been held in the April watchlist on a weaker April 16 external seam, but the transcript body self-dates cleanly to Thursday, April 17, 2025."
+source_note: Materialized from operator-pasted YouTube transcript for the April 17, 2025 Judging Freedom appearance. This item had previously been held in the April watchlist on a weaker April 16 external seam, but the transcript body self-dates cleanly to Thursday, April 17, 2025.
 normalization_note: "Removed the pasted YouTube wrapper line and 'Transcripts:' marker, then preserved the operator-pasted transcript body with residual ASR noise intact."
+opening_tier: clean
 ---
+
 # Prof. John Mearsheimer : China and Trade.
 
 ## Transcript
 
-[Music] [Music] Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, April 17, 2025. My dear friend, the good professor John Mirshimer joins us now. Professor Mir Shimemer, thank you very much for your time. Thanks for accommodating uh my schedule. Do you have a sense that the neocons in the Trump administration are um becoming ascendant? Ascendant is too strong a word.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, April 17, 2025. My dear friend, the good professor John Mirshimer joins us now. Professor Mir Shimemer, thank you very much for your time. Thanks for accommodating uh my schedule. Do you have a sense that the neocons in the Trump administration are um becoming ascendant? Ascendant is too strong a word.
  Uh I think that they're one of two factions in the administration. Uh let's call them the restrain. Let's call the other side the restrainers here. Uh, I think the restrainers are a formidable force, but there's no question uh that the neoconservatives uh are there in large presence as well. And there's sort of a stalemate between the two sides, which is why Trump is not moving forward on either Iran or Ukraine.
 The um New York Times published a very uh interesting uh piece uh claiming that um some of his inner circle, one of whom surprised me, if the piece is accurate, talked him into saying no to Prime Minister Netanyahu when Netanyahu was last in Washington about a week ago about whether or not Trump would give Netanyahu the green light to attack Iran.
  I know sometimes you think it would be Netanyahu who would be giving a green light to Trump. We can get into that if you want, but according to the New York Times, based on leaks from inside the Pentagon, of all people, um, Secretary Hegsth was on the side of the restrainers. Now, three people in his inner circle were sumearily escorted from the Pentagon in the past 48 hours.
@@ -80,4 +82,4 @@ His answer was a non-answer, which is why we didn't bother uh playing it. But th
 Not to save the Constitution, not to save personal liberty, but to save their jobs. But this still tells you the still tells you that we are in trouble. The fact that it we need political heat to get them to act correctly. They should understand the basic principles that are at stake here.
  They should understand that the welfare of this country is at stake and they should be doing something instead of sitting on their rear end and letting Trump do whatever he wants. On that note, a happy Easter to you and your family, Professor Mayor Shimemer. It's Holy Thursday and uh Easter is on my mind.
  Thank you very much for your time as always. Thank you for letting me pick your very fertile brain. Look forward to seeing you next week. Thank you and happy Easter to you in these very depressing times. Yes, thank you, professor. All the best. And coming up tomorrow, Friday, where am I? Somewhere. There I am.
- Coming up tomorrow, Friday, Good Friday, uh at 4:00 in the afternoon, the intelligence community roundt with uh Ray McGovern and Larry Johnson and of course all of your regulars on Monday. Happy Easter, my friends. Thank you for watching. Judge Judge Npal Tenno for judging freedom. [Music] [Music]
+ Coming up tomorrow, Friday, Good Friday, uh at 4:00 in the afternoon, the intelligence community roundt with uh Ray McGovern and Larry Johnson and of course all of your regulars on Monday. Happy Easter, my friends. Thank you for watching. Judge Judge Npal Tenno for judging freedom.

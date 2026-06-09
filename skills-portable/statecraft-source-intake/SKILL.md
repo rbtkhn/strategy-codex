@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
-version: 0.4.1
+version: 0.4.2
 tags:
   - operator
   - statecraft
@@ -217,7 +217,7 @@ Structured-field law:
    - Strip obvious pasted wrapper residue such as leading `Transcripts:` lines or duplicated title wrappers when the boundary is unmistakable.
    - Reflow into readable paragraphs or turns when the family pattern expects that.
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
-   - For `Judging Freedom / Napolitano` archive captures, strip clearly separable ideological cold opens or canned sponsor/promotional reads at the opening and routine lineup/schedule promos at the close.
+   - For `Judging Freedom / Napolitano` archive captures, run the post-land hook `scripts/post_land_napolitano_opening_normalize.py --path <landed-file>` immediately after landing (see § Napolitano / Judging Freedom below).
    - For `Mario Nawfal` archive captures, run the post-land hook `scripts/post_land_nawfal_opening_normalize.py --path <landed-file>` immediately after landing (see § Mario Nawfal below).
    - For interview lanes that routinely include sponsor or promo scaffolding, strip those blocks only when the boundary is unmistakable and the substantive interview body remains intact.
    - Do not over-clean, summarize, or rewrite the substance.
@@ -375,10 +375,22 @@ Short rule:
 ### Napolitano / Judging Freedom
 
 - Keep the substantive interview transcript.
-- Strip the recurring ideological cold open when it is a clearly separable pre-interview boilerplate block.
-- Strip canned sponsor reads at the opening only when the boundary is unmistakable.
-- Strip routine schedule tails such as "coming up later today" or "if you're watching us live" only when clearly separable.
-- If ad copy or show promo is entangled with noisy ASR or substantive exchange, leave it in place and flag it for later manual review.
+- Classify each landed capture with `opening_tier` in frontmatter:
+  - `full-scaffold` — ideological cold open and/or sponsor read still present before guest depth
+  - `host-tease` — short host date/topic tease before guest entry (default acceptable synthesis start)
+  - `clean` — guest speaks within roughly one to two exchanges
+- Trim law (default = cold open + sponsor + close promo only):
+  - Strip unmistakable ideological cold opens before `Hi everyone, Judge Andrew Napolitano here for Judging Freedom`.
+  - Strip separable canned sponsor reads after `But first, this` (Lear Capital, Patriot Supply, `preparewiththeadjudge`, etc.) through the guest welcome line.
+  - Strip routine closing lineup promos (`Coming up later today/tomorrow`, schedule tails, `Judge Napolitano for Judging Freedom` sign-off blocks).
+  - Keep short host date + topic tease before guest entry unless the operator explicitly requests aggressive host-tease removal.
+  - If ad copy or show promo is entangled with noisy ASR or substantive exchange, leave it in place and flag it for later manual review.
+- **Post-land hook (default on every Napolitano land):**
+  - `python scripts/post_land_napolitano_opening_normalize.py --path <landed-file>`
+  - Preview only: `python scripts/post_land_napolitano_opening_normalize.py --path <landed-file> --dry-run`
+  - Non-Napolitano paths no-op with `skip … (not Judging Freedom / Napolitano)`; Napolitano no-change returns `no-op …`
+- **Batch backfill / repair** (not per-intake default): `python scripts/normalize_napolitano_opening_scaffold.py --apply`
+- Receipt fields when trim applies: `napolitano_cold_open_trim_applied`, `napolitano_sponsor_trim_applied`, `napolitano_close_promo_trim_applied`, optional `napolitano_leading_noise_trim_applied`, plus `editorial_note` lines stating scaffold was trimmed in place.
 
 ### Mario Nawfal / International Affairs
 

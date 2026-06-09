@@ -10,7 +10,9 @@ source_form: interview
 transcript_type: manual_transcript
 status: raw-input
 quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # COL. Lawrence Wilkerson: Why Trump Is Wedded to Israel
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

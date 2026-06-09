@@ -8,12 +8,14 @@ show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
 title: 'Using the Economy as a Weapon — Trump and Iran'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom'
+source_url: "'https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom'"
 source_note: Sachs-owned Judging Freedom category archive confirms this as a January 27, 2026 Napolitano / Sachs episode. A direct watch URL and local transcript body were not recovered in this pass.
 quality_note: Full-episode front door only; do not treat as transcript-bearing until a direct watch URL or full transcript body is recovered.
+opening_tier: clean
 ---
+
 # Using the Economy as a Weapon — Trump and Iran
 
 ## Recovery Status

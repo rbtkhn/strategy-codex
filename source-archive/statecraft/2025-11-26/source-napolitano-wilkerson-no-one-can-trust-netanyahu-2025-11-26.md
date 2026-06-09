@@ -9,15 +9,17 @@ host: Andrew Napolitano
 guest: Col. Lawrence Wilkerson
 title: "COL. Lawrence Wilkerson : No One Can Trust Netanyahu."
 channel_url: "https://www.youtube.com/@JudgingFreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=R25gw5f21VE"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
-source_note: "Operator-provided transcript materialized during November 2025 Wilkerson deepening."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+source_note: Operator-provided transcript materialized during November 2025 Wilkerson deepening.
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+opening_tier: host-tease
 ---
-[Music] [Music] Hi everyone, Judge Andrew Napolitano here for a Judging Freedom. Today is Wednesday, November 26th in the United States, the day before our Thanksgiving Day 4-day holiday weekend. Our guest today at this hour, Colonel Larry Wilkerson. Colonel Wilkerson, always a pleasure, my dear friend.
+
+Hi everyone, Judge Andrew Napolitano here for a Judging Freedom. Today is Wednesday, November 26th in the United States, the day before our Thanksgiving Day 4-day holiday weekend. Our guest today at this hour, Colonel Larry Wilkerson. Colonel Wilkerson, always a pleasure, my dear friend.
 
 Thank you for joining us. Thanks for accommodating my schedule. We have eight shows today, and I appreciate your taking the slot that works out for you and for us. I want to talk to you about Benjamin Netanyahu and the failure of the uh so-called ceasefire in Gaza. But before we get there, we would be remiss if we did not discuss the the chaos that seems to be going on with respect to Ukrainian peace uh negotiations.
 
@@ -127,4 +129,4 @@ Well, yes, the President is. You and I are not. We're trying to point it out. Co
 
 You have a great holiday. You, too. Save me some of that apple pie. Oh, yes, you got it. You got it. All right, my friends. Coming up, Phil Giraldi at 3:00, Max Blumenthal at 3:30 Colonel or Professor John Mearsheimer at 4:00. Tomorrow, 8 hours of Colonel Douglas McGregor marathon starting at 10:00 in the morning. Everything the Colonel said to us in the past week.
 
-Monday at 3:00, a joint production of Zero Hedge and Judging Freedom. A debate on who is MAGA and what does it mean today? Dinesh D'Souza versus Dave Smith, yours truly as the moderator. Judge Napolitano for Judging Freedom. [Music] [Music]
+Monday at 3:00, a joint production of Zero Hedge and Judging Freedom. A debate on who is MAGA and what does it mean today? Dinesh D'Souza versus Dave Smith, yours truly as the moderator. Judge Napolitano for Judging Freedom.

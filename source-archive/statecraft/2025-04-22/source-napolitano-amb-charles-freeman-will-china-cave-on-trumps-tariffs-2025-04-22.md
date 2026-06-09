@@ -10,9 +10,11 @@ guest: Charles Freeman
 title: "AMB. Charles Freeman : Will China Cave on Trump's Tariffs?"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered."
-quality_note: "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
+source_note: Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, April 22nd, 2025. Ambassador Charles Freeman will be here in just a minute with his views on the new and coming relationship between the United States and China.
 
 Ambassador, good day to you my friend and uh welcome here. Before we start on uh China and tariffs and Taiwan and the the coming conflict between China and the United States, uh what is your view on the passing of the uh of the pope? Is there any geopolitical significance to the passing of the pope?

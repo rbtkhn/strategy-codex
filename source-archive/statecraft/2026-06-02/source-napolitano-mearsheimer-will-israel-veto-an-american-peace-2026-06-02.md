@@ -3,10 +3,8 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
-host_people:
-  - Andrew Napolitano
-guest_people:
-  - John Mearsheimer
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 thread: napolitano
@@ -21,19 +19,23 @@ source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: "Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance."
+source_note: Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance.
 normalization_note: Kept operator-pasted source language and residual ASR noise as provided.
+napolitano_sponsor_trim_applied: true
+editorial_note: Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+napolitano_close_promo_trim_applied: true
+opening_tier: clean
 ---
+
 # Prof. John Mearsheimer : Will Israel Veto an American Peace?
 
 ## Transcript
 
 Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
 What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
- Today is Tuesday, June 2nd, 2026. Professor John Mirshimer will be with us in just a moment. Can Donald Trump's anger restrain Prime Minister Netanyahu. Will Israel veto an American peace? But first, this. Don't you just cringe when people say, "I told you so." Sorry. I told you gold and silver would reap the benefits due to excessive money printing, inflation, and global uncertainty. It's here. It's happened.
-Gold and silver have reached all-time highs. Did you call Lear Capital and buy some? It's not too late. Experts are predicting higher prices ahead. Why? Nothing has changed. Geopolitical chaos, cost of living crisis, and a weaker dollar are driving central banks to boost their gold reserves. Forecast suggest gold could hit $6,000 an ounce and silver $200 an ounce.
- Even Morgan Stanley ditched the 6040 rule for 60 2020, putting 20% into precious metals. They're getting educated and you should too. Call the best in the business and the people I trust. Lear Capital. Get the reports. Get the facts. Get some gold and silver. Tell them the judge sent you and get up to $20,000 in bonus gold or silver.
- Call 8005114620 or go to leerjudgenap.com. Professor Mir Shamber, welcome here uh my dear friend. I'd like to start with the breaking news uh this morning. Although this first item is about 48 hours old, Iran has withdrawn from negotiations. Israel is continuing to invade Lebanon. President Trump has cursed and revealed the curse or leaked it out.
+ Today is Tuesday, June 2nd, 2026. Professor John Mirshimer will be with us in just a moment. Can Donald Trump's anger restrain Prime Minister Netanyahu. Will Israel veto an American peace?
+
+Professor Mir Shamber, welcome here uh my dear friend. I'd like to start with the breaking news uh this morning. Although this first item is about 48 hours old, Iran has withdrawn from negotiations. Israel is continuing to invade Lebanon. President Trump has cursed and revealed the curse or leaked it out.
  Um, Prime Minister Netanyahu and Iranian President Peskin claims he has not resigned. On top of all this, Larry Johnson and Pepe Escobar are reporting that Iran has a nuclear weapon. Let's reserve the nuclear weapon issue for a moment. What is happening between the United States and Iran and the United States and Israel as you understand it, Professor Mayor Shimemer? Well, Lebanon is the key issue and what's going on here is that President Trump wants to separate the Israel Lebanon war from the Iran issue.
  The Iranians on the other hand, because Hezbollah is a close ally of Iran, Iranians want to link the two. And the Iranians say you cannot get a ceasefire until all of the shooting in the Middle East stops, which includes Hezbollah versus Israel. In other words, for President Trump to get a ceasefire and then get serious negotiations going after that, he has to completely shut down the war in Lebanon.
  He has to stop the fighting between Israel and Hezbollah. The problem that the president faces is that Benjamin Netanyahu number one doesn't want a peace agreement, doesn't want a ceasefire. he wants to go back to bombing and number two he understands that by continuing the war in Lebanon that he thwarts any movement towards a ceasefire.
@@ -91,5 +93,4 @@ this is Trumpian language the IDF turned around in Lebanon. Netanyahu claims, Ch
  What that means, judge, is that if Israel strikes Iran with a with its nuclear arsenal, it cannot eliminate all of the nuclear weapons that Iran has. Iran in that circumstance has a second strike capability. So all I would say to you is if they have only one remaining nuke after they test this one nuke or explode this one nuke and the Israelis have any idea of where where it is, the Israelis will go after it.
  And I would I believe the Israelis would use a nuclear weapon to take it out. So that would be an extremely dangerous situation. If Iran has nuclear weapons, we have to hope that it has a survivable deterrent. In other words, a nuclear first strike by the Israelis won't work and is and Iran will be left with a retaliatory capability that would produce some stability.
  So, if Larry and Pepe are correct, we are getting into very dangerous waters. Professor Mir Shimemer, thank you very much, my dear friend. Always great to chat with you. I didn't even get a chance to because I have to run to ask you about the latest in the special military operation in Ukraine, but that for next week. Safe travels.
- We'll look forward to seeing you, John. >> Thank you, Judge, and look forward to seeing you next week. >> Thank you. All the best. Coming up at 10 this Well, coming up when we can find him, Larry Johnson, but scheduled at 10 this morning, Colonel Bill Atory. At 2 this afternoon, Matthew Hoe at 3 this afternoon, Colonel Karen Quatowski.
- What a day. Judge Npalit channel for judging freedom.
+ We'll look forward to seeing you, John. >> Thank you, Judge, and look forward to seeing you next week. >> Thank you.

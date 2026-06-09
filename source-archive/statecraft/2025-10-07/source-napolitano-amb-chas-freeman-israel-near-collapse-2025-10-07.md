@@ -14,7 +14,9 @@ transcript_type: operator_pasted_transcript
 status: raw-input
 source_note: Transcript pasted manually by operator. Title/date were corroborated against public podcast mirrors during the October 2025 Freeman recovery pass, but the direct YouTube watch URL was not reliably recovered in this pass.
 quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: clean
 ---
+
 # [OCT-7 : TWO YEARS LATER] - AMB. Chas Freeman : Israel Near Collapse.
 
 ## Transcript

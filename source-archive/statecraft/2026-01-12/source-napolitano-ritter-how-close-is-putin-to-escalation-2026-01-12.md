@@ -10,7 +10,9 @@ source_form: article
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
 editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano January 2026 densification pass. Date and title were corroborated from Apple Podcasts and podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
+opening_tier: clean
 ---
+
 # Scott Ritter: How Close Is Putin to Escalation?
 
 This January file gives the `Judging Freedom x Ritter` lane its earliest currently embodied anchor inside the Napolitano shelf.

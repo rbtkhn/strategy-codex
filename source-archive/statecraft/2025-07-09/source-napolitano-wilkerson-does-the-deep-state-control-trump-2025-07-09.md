@@ -10,15 +10,17 @@ host: Judge Andrew Napolitano
 guest: Lawrence Wilkerson
 title: "COL. Lawrence Wilkerson : Does The Deep State Control Trump?"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=qo9JCvTbu-Q"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator pasted full transcript in Codex chat after direct YouTube watch URL had already been recovered."
-date_note: "Transcript opening states Wednesday, July 9th, 2025; some secondary podcast-release mirrors surface the episode as July 10, 2025, so the spoken in-episode date is preserved as the canonical archive date."
-quality_note: "Preserved from operator paste with light normalization only; minor transcript noise may remain."
+source_note: Operator pasted full transcript in Codex chat after direct YouTube watch URL had already been recovered.
+date_note: Transcript opening states Wednesday, July 9th, 2025; some secondary podcast-release mirrors surface the episode as July 10, 2025, so the spoken in-episode date is preserved as the canonical archive date.
+quality_note: Preserved from operator paste with light normalization only; minor transcript noise may remain.
+opening_tier: host-tease
 ---
-[Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Wednesday, July 9th, 2025. After a week off of mountain climbing, the great Colonel Lawrence Wilkerson is back with us. Colonel, we missed you dearly. The viewers missed you. The chatters missed you. Chris missed you. My team missed you and we welcome you back and happy that you're here.
+
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Wednesday, July 9th, 2025. After a week off of mountain climbing, the great Colonel Lawrence Wilkerson is back with us. Colonel, we missed you dearly. The viewers missed you. The chatters missed you. Chris missed you. My team missed you and we welcome you back and happy that you're here.
  We have of course a great deal uh to talk about. What is your understanding of the current status of the special military operation in Ukraine, the ability of the Ukrainians uh to uh resist the Russians uh using drones and the inexurable march of the Russians westward. It's a mixed bag except at the bottom line area, as we've said so many times before, Ukraine hasn't got a chance.
  They haven't got a snowballs chance in hell. Uh it's a mixed bag because one, Trump won't do what he said he would do, which is to end the war, which he could do uh if he were serious about it. And two, because uh there are other people playing in it. And three, because Putin has now decided that Trump is utterly untrustworthy and is going to pursue this war to the nth degree, whatever that might mean.
 And that means Ukraine, regardless of its continuing ability to do some things that are disruptive for Russia, is going to be destroyed. You uh used an interesting phrase, Colonel, one with which almost everybody on this uh show agrees, and that is that the the Kremlin probably believes uh that Donald Trump is not worthy of belief.
@@ -83,4 +85,4 @@ And he makes national security decisions and recommendations based on that. Righ
 That's utter bull. You could have a relationship where you had a federal government and a state government. Oh, we have that in America, don't we? Yeah. These people are idiots and they don't even realize it. They are driven by this messianic view. I mean, I I would like to see I don't think Tucker would do it.
  It would be a waste of his time. I would like to see him interrogate Huckabe the way he interrogated Cruz. You're going to get similar answers. Huckabe will know where these phrases are in the Old Testament. He's a pastor. He studied this stuff. Cruz didn't know it. He's a lawyer. He probably didn't study it the way Mike did.
  But you're going to get essentially the same mentality right back at you. It reminds me of what a very famous person, I forget his name now, but he said, 'When tyranny comes to America, it'll come wrapped in a flag, carrying a gun and holding a Bible. We'll end on that. Colonel, I'm glad you're back. Missed you terribly. Look forward to seeing you next week.
- All the best. Thank you. Same to you. Hope my tooth gets hope your tooth your tooth will be fine by next week. All the best to you, sir. Thank you. Take care. And if you think the colonel was hot, where do you see Phil Geraldi who will be here at 3:00 this afternoon? Judge Npalitana for Judging Freedom. [Music] [Music]
+ All the best. Thank you. Same to you. Hope my tooth gets hope your tooth your tooth will be fine by next week. All the best to you, sir. Thank you. Take care. And if you think the colonel was hot, where do you see Phil Geraldi who will be here at 3:00 this afternoon? Judge Npalitana for Judging Freedom.

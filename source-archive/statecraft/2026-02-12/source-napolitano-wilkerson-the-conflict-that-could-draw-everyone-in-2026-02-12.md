@@ -9,10 +9,12 @@ source_type: youtube
 source_form: interview
 transcript_type: operator_pasted_transcript
 status: raw-input
-source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
-editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity."
+source_note: Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24.
+editorial_note: Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity.
 evidence_grade: transcript-bearing
+opening_tier: host-tease
 ---
+
 # COL. Lawrence Wilkerson: The Conflict That Could Draw Everyone In
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
@@ -113,7 +115,7 @@ It's a montage from yesterday. Number 17, Chris, >> please do not waste one seco
 
 Chairman, why I have asked she asked Meritt Garland this reclaiming in my chair when I will chairman the gentle lady. >> I'm not going to get in the gutter for her theatrics. >> How many have you >> Excuse me. I'm going to answer the question. >> Answer my question. >> No, I'm going to answer the question the way I want to answer the question.
 
-Your theatrics are the way I asked. You can let her filibuster all day long, but not on our watch. Not on our time. No way. And I told you about that, Attorney General, before [music] you started. >> You don't tell me. >> Oh, I did tell you because we saw what you did in the Senate. >> Lawyer, not even a lawyer.
+Your theatrics are the way I asked. You can let her filibuster all day long, but not on our watch. Not on our time. No way. And I told you about that, Attorney General, before you started. >> You don't tell me. >> Oh, I did tell you because we saw what you did in the Senate. >> Lawyer, not even a lawyer.
 
 The Dow is over $50,000. I don't know why you're laughing. You're a great stock trader as I hear. Rasin, >> I'd like to Could I finish, please? I'm not being rude. Please. >> I only have five minutes. >> No. Yeah. And I only have 30 seconds based on your filibuster. I I find it interesting that she keeps going after President Trump, the greatest president in American history.
 

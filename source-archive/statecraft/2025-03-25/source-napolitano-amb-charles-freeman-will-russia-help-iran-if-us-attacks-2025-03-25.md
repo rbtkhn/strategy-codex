@@ -10,9 +10,11 @@ guest: Charles Freeman
 title: "AMB. Charles Freeman : Will Russia Help Iran if US Attacks?"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered."
-quality_note: "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
+source_note: Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, March 25th, 2025. Ambassador Charles Freeman will be with us in just a moment. Some interesting questions for the ambassador. If the United States and Israel attack Iran, what will Russia do? And oh, Pete Hegseth, you don't even know who you're killing. You don't even know who the Houthies are.
 
 Ambassador Freeman, welcome here, uh, my dear friend. Thank you for coming on early this morning. What What is to be gained militarily by the United States, if anything, by bombing civilians in Yemen?

@@ -10,17 +10,21 @@ show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
 title: "Prof. Jeffrey Sachs : Trump's Empire of Hubris."
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=WPcgkd-sC3s'
+source_url: "'https://www.youtube.com/watch?v=WPcgkd-sC3s'"
 source_note: Transcript pasted manually by operator. The December 15, 2025 Sachs/Napolitano anchor previously existed as a recovered full-front-door object with a preserved direct YouTube watch URL; this local body upgrades it to transcript-bearing while preserving December 15 as the controlling publication date.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
 quality_note: Operator-supplied interview transcript captured in Codex thread; preserve spoken cadence while correcting only obvious routing-critical artifacts.
+napolitano_sponsor_trim_applied: true
+napolitano_close_promo_trim_applied: true
+opening_tier: full-scaffold
 ---
+
 # Prof. Jeffrey Sachs : Trump's Empire of Hubris.
 
-Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, December 15th, 2025. Professor Jeffrey Sachs will be with us in just a moment on President Trump's imperial hubris. But first, this history tells us every market eventually falls.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, December 15th, 2025. Professor Jeffrey Sachs will be with us in just a moment on President Trump's imperial hubris.
 
 Currencies collapse. And look at where we are now. 38 trillion in national debt. Stocks at record highs defying gravity. So what happens next? Groceries, gas, housing, everything's going up. And this dollar, it buys less every day. When the system breaks, your stocks won't save you. And your dollars won't either.
 
@@ -163,7 +167,3 @@ We need to stop, Jeff, and I know it's very late where you are now. Thank you ve
 Of course. Look forward to seeing you again next week, my dear friend.
 
 Excellent. Great. Thanks a lot. All the best to you. I love it when Professor Sachs, who's such a scholar, is also passionate.
-
-Tomorrow, Tuesday, Ambassador Chas Freeman at 8:00, Scott Ritter at 11:00, Aaron Mate at 1:00 in the afternoon, Matt Hoh at 2:00 in the afternoon, Karen Kwiatkowski at 3:00 in the afternoon, and on Wednesday, my one-hour interview with Tucker Carlson here on Judging Freedom, 11:00 Wednesday morning.
-
-Judge Napolitano for Judging Freedom.

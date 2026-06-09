@@ -9,20 +9,22 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof. John Mearsheimer : Ukraine/Gaza/Iran: Is Peace Possible?"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_url: https://www.youtube.com/watch?v=RFFzClxBmb8
-source_note: "Materialized from operator-pasted YouTube transcript for the July 10, 2025 Judging Freedom appearance. The transcript self-dates as Thursday, July 10th, 2025, and the direct YouTube watch URL was pinned from the operator."
-normalization_note: "Stripped the obvious YouTube wrapper line and the closing show-promo tail; kept substantive source language with residual ASR noise."
+source_url: "https://www.youtube.com/watch?v=RFFzClxBmb8"
+source_note: Materialized from operator-pasted YouTube transcript for the July 10, 2025 Judging Freedom appearance. The transcript self-dates as Thursday, July 10th, 2025, and the direct YouTube watch URL was pinned from the operator.
+normalization_note: Stripped the obvious YouTube wrapper line and the closing show-promo tail; kept substantive source language with residual ASR noise.
+opening_tier: clean
 ---
+
 # Prof. John Mearsheimer : Ukraine/Gaza/Iran: Is Peace Possible?
 
 ## Transcript
 
-[Music] [Music] Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, July 10th, 2025. Professor John Mirshimer joins us now. Professor Mir Shimemer, always a pleasure, my dear friend. Thank you for joining us. Thank you for accommodating my schedule. Professor Mir Shimemer, why do you suppose that Israeli Prime Minister Benjamin Netanyahu has been to the White House and to Capitol Hill each three times in the past six months, the most recent of which were two visits this week, concluding yesterday.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, July 10th, 2025. Professor John Mirshimer joins us now. Professor Mir Shimemer, always a pleasure, my dear friend. Thank you for joining us. Thank you for accommodating my schedule. Professor Mir Shimemer, why do you suppose that Israeli Prime Minister Benjamin Netanyahu has been to the White House and to Capitol Hill each three times in the past six months, the most recent of which were two visits this week, concluding yesterday.
 Let me make one big point here. You do not want to underestimate the extent to which Israel is dependent on the United States. As I've said on a number of occasions on the show, Israel used to pride itself on being an independent actor in terms of fighting wars and in terms of conducting its foreign policy.
  That world has gone away. They are heavily dependent on us. Benjamin Netanya who needs us needs us desperately. So, it's no accident that he has come to visit Trump three times. Just think about that. Three times in the past six months. And as you watch him interact with Trump, what you see is that he goes to enormous lengths to kiss up the Trump.
  And the reason is he's so dependent. His country is so dependent on the United States. This is an unhealthy situation for Israel. And it's also an unhealthy situation for the United States, but it is where we are are at today. Do you suppose that Trump is naive enough, simple-minded enough, vain glorious enough uh to be impressed by the sycopantlike behavior? I mean, for example, Benjamin Netanyahu nominating somebody for the Nobel Pri Peace Prize.

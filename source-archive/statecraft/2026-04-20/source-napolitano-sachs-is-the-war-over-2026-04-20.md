@@ -5,8 +5,8 @@ kind: transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_transcript
-title: 'Prof. Jeffrey Sachs : Is the War Over?'
-source_url: 'https://www.youtube.com/watch?v=OA1YCYflWeg'
+title: "'Prof. Jeffrey Sachs : Is the War Over?'"
+source_url: "'https://www.youtube.com/watch?v=OA1YCYflWeg'"
 youtube_id: OA1YCYflWeg
 channel_slug: judging-freedom
 source_note: Transcript pasted manually by operator after direct YouTube watch URL recovery for the April 20, 2026 Judging Freedom episode.
@@ -15,10 +15,12 @@ show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
 thread: napolitano
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove routine ideological cold open, Lear Capital sponsor block, and closing lineup tail while preserving the substantive interview body with light transcript noise cleanup.
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs : Is the War Over?
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, April 20th, 2026. Professor Jeffrey Sachs will be with us in just a moment. Is the war over? Which war? Professor Sachs, welcome here, my dear friend. Thank you for accommodating my schedule. I want to take a break for a few minutes from all things Iran and speak to you about the special military operation in Ukraine. Is it effectively over?

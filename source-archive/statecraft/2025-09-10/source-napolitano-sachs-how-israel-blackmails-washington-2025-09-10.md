@@ -7,13 +7,15 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: '[SPECIAL] Prof. Jeffrey Sachs: How Israel Blackmails Washington.'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'[SPECIAL] Prof. Jeffrey Sachs: How Israel Blackmails Washington.'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=lGrooy41n1E'
+source_url: "'https://www.youtube.com/watch?v=lGrooy41n1E'"
 source_note: Sachs-owned Judging Freedom landing page confirms this as a full September 10, 2025 Sachs/Napolitano special episode, and the direct YouTube watch URL was recovered during the September 2025 deepening pass.
 quality_note: Full-episode front door only; do not treat as transcript-bearing until a full local transcript body is recovered.
+opening_tier: clean
 ---
+
 # [SPECIAL] Prof. Jeffrey Sachs: How Israel Blackmails Washington.
 
 ## Recovery Status

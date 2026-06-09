@@ -11,7 +11,9 @@ transcript_type: pasted_transcript
 status: raw-input
 editorial_note: Transcript body pasted into raw-input after the earlier summary-grade placeholder.
 quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+opening_tier: clean
 ---
+
 Scott Ritter: Why Iran Is Winning
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, March 31st, 2026. Scott Ritter will be with us in just a moment on why Iran is winning this war.

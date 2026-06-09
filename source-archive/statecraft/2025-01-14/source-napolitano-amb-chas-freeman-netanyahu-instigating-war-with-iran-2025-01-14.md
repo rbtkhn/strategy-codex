@@ -12,9 +12,11 @@ source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
 source_note: "Operator pasted transcript body in Codex chat. Direct watch URL recovered as https://www.youtube.com/watch?v=uu2-wa9ue5w. The spoken episode open says Tuesday January 14 2025."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+opening_tier: clean
 ---
-[Music] [Music] hi everyone Judge Andrew apolitano here for judging Freedom today is Tuesday January 14 2025 Ambassador Charles Freeman will be here in just a moment on the latest with prime minister Netanyahu and Iran and is a ceasefire in the works Ambassador Freeman welcome here my dear friend and thank you uh for your time Ambassador do do we know if Iran has nuclear weapons
+
+hi everyone Judge Andrew apolitano here for judging Freedom today is Tuesday January 14 2025 Ambassador Charles Freeman will be here in just a moment on the latest with prime minister Netanyahu and Iran and is a ceasefire in the works Ambassador Freeman welcome here my dear friend and thank you uh for your time Ambassador do do we know if Iran has nuclear weapons
 
 well the intelligence agency say all say it doesn't it did not have a nuclear program I think the question now is with the defenses of Iran by Hezbollah by aass stripped away from it with Syria now without defense against Israeli overflight will Iran feel obliged to actually build a nuclear weapon it has accumulated enough um semi- enriched not fully enriched uranium uh to build probably four bonds on short notice but it hasn't done so yet as far as we know
 

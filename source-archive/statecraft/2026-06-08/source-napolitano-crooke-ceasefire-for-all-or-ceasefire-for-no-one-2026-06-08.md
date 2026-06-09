@@ -5,16 +5,12 @@ kind: transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_transcript
-host_people:
-  - Andrew Napolitano
-guest_people:
-  - Alastair Crooke
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 thread: crooke
-threads:
-  - crooke
-  - napolitano
+threads: ""
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Alastair Crooke
@@ -26,6 +22,7 @@ source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. Ide
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 quality_note: Normalized to remove ad boundaries and transcript noise; minor ASR artifacts may remain.
+opening_tier: host-tease
 ---
 
 # Alastair Crooke: Ceasefire for All or Ceasefire for No One

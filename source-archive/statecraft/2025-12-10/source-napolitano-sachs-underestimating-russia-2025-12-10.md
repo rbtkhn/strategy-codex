@@ -9,18 +9,21 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs : Underestimating Russia.'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs : Underestimating Russia.'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=UNdEunkOuSk'
+source_url: "'https://www.youtube.com/watch?v=UNdEunkOuSk'"
 source_note: Transcript pasted manually by operator. The Sachs Judge Napolitano archive preserves this as a December 10, 2025 Judging Freedom x Sachs surface while the on-air introduction in public transcript mirrors frames the conversation as Tuesday, December 9, 2025. This local body upgrades the December 10 archive object to transcript-bearing while preserving that Dec 9 / Dec 10 seam in provenance.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
 quality_note: Operator-supplied interview transcript captured in Codex thread; preserve roughness and spoken cadence while correcting only obvious routing-critical artifacts.
+napolitano_close_promo_trim_applied: true
+opening_tier: clean
 ---
+
 # Prof. Jeffrey Sachs : Underestimating Russia.
 
-[Music] [Music] Oops. Not hearing. No. Hmm. I'm not hearing for some reason. Can you hear me now? I do. Okay, apologies. Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, December 9th, 2025. Professor Jeffrey Sachs joins us now. Apologies for late start. Apologies for the problem with audio, but I think we have all of our issues resolved.
+Oops. Not hearing. No. Hmm. I'm not hearing for some reason. Can you hear me now? I do. Okay, apologies. Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, December 9th, 2025. Professor Jeffrey Sachs joins us now. Apologies for late start. Apologies for the problem with audio, but I think we have all of our issues resolved.
 
 Professor Sachs, I want to talk to you about underestimating Russia, but before we do, a couple of other items in the news about which I'd like to pick your brain. Our good friend and colleague, Alastair Crooke, is reporting that the Israeli press is reporting that Israeli Prime Minister Netanyahu is threatening Israeli President Herzog unless he issues a pardon. Even though Israeli law requires an admission of guilt prior to a pardon, Netanyahu has thumbed his nose at that. Does any of this surprise you?
 
@@ -136,4 +139,4 @@ Professor Sachs, thank you very much. I love it, and everybody loves it when you
 
 See you next week. All right, all the best. Thank you.
 
-Thank you a lot. Thank you, Jeff. Coming up later today at 1:00 this afternoon, Professor John Mearsheimer. At 2:00 this afternoon, Matt Hoh. At 3:00 this afternoon, Colonel Karen Kwiatkowski. Judge Napolitano for Judging Freedom. [Music] [Music]
+Thank you a lot. Thank you, Jeff.

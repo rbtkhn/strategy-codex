@@ -18,7 +18,9 @@ thread: napolitano
 channel_url: "https://www.youtube.com/@JudgingFreedom"
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # Alastair Crooke : Trump's Plan Is To Have No Plan
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, March 16th, 2026. Alistister Crook will be with us in just a moment. What if Trump's plan is to have no plan?

@@ -9,15 +9,17 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof. John Mearsheimer : Is US Democracy In Danger Of Collapse?"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_url: https://www.youtube.com/live/5JGozKc9Obw
-source_note: "Materialized from operator-pasted YouTube transcript for the September 18, 2025 Judging Freedom appearance. The transcript self-dates as Thursday, September 18th, 2025, and the direct YouTube watch URL was pinned from the operator."
-normalization_note: "Stripped the obvious YouTube wrapper line, the opening sponsor block, and the closing show-promo tail; kept substantive source language with residual ASR noise."
+source_url: "https://www.youtube.com/live/5JGozKc9Obw"
+source_note: Materialized from operator-pasted YouTube transcript for the September 18, 2025 Judging Freedom appearance. The transcript self-dates as Thursday, September 18th, 2025, and the direct YouTube watch URL was pinned from the operator.
+normalization_note: Stripped the obvious YouTube wrapper line, the opening sponsor block, and the closing show-promo tail; kept substantive source language with residual ASR noise.
+opening_tier: clean
 ---
+
 # Prof. John Mearsheimer : Is US Democracy In Danger Of Collapse?
 
 ## Transcript

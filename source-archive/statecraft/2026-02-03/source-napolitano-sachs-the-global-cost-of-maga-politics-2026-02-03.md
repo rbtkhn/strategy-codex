@@ -7,13 +7,15 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs: The Global Cost of MAGA Politics'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs: The Global Cost of MAGA Politics'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://podscripts.co/podcasts/judging-freedom/prof-jeffrey-sachs-the-global-cost-of-maga-politics'
+source_url: "'https://podscripts.co/podcasts/judging-freedom/prof-jeffrey-sachs-the-global-cost-of-maga-politics'"
 source_note: Public transcript mirror confirms this as a February 3, 2026 Judging Freedom / Sachs episode. The direct YouTube watch URL was not recovered in this pass and the transcript body was not yet landed locally.
 quality_note: Full-episode front door only; do not treat as transcript-bearing locally until the full transcript body is materialized on disk.
+opening_tier: clean
 ---
+
 # Prof. Jeffrey Sachs: The Global Cost of MAGA Politics
 
 ## Recovery Status

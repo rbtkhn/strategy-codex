@@ -18,7 +18,9 @@ thread: napolitano
 channel_url: "https://www.youtube.com/@JudgingFreedom"
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove routine ideological cold open, lineup tail, and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # Professor Jeffrey Sachs : Trump Has No Lifeline Out of Iran
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Wednesday, May 27, 2026. Professor Jeffrey Sachs joins us now.

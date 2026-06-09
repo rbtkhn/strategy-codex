@@ -3,10 +3,8 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: transcript
 source_form: interview
-host_people:
-  - Andrew Napolitano
-guest_people:
-  - Ray McGovern
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 source_type: youtube
@@ -15,7 +13,7 @@ title: "Ray McGovern : What Putin Is Thinking"
 source_url: "https://www.youtube.com/watch?v=v3pyzLWMzJw"
 youtube_id: v3pyzLWMzJw
 channel_slug: judging-freedom
-source_note: "Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode."
+source_note: Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode.
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Light cleanup removed the routine ideological cold open and closing lineup tail.
 show: Judging Freedom
 host: Judge Andrew Napolitano
@@ -23,7 +21,9 @@ guest: Ray McGovern
 thread: mcgovern
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
+opening_tier: clean
 ---
+
 # Ray McGovern : What Putin Is Thinking
 
 ## TranscriptHi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, June 1st, 2026. Ray McGovern joins us now. Uh Ry, thank you very much. I do want to ask you about since you have such an incredible grasp on Russian culture and Russian thinking, what you think President Putin is thinking. Uh but before we do that, I have to uh ask your views on what our longtime friend and colleague Larry Johnson just said on air on this show uh about 35 minutes ago. Chris, cut number five.

@@ -18,7 +18,9 @@ thread: napolitano
 channel_url: "https://www.youtube.com/@JudgingFreedom"
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs : Are We Drifting Toward a Global War?
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, March 16th, 2026. Professor Jeffrey Saxs will be with us in just a moment on are we drifting toward a global war? Is Trump's war going to become World War II?

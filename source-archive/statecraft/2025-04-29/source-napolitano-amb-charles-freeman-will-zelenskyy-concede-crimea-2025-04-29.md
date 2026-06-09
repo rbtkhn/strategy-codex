@@ -10,9 +10,11 @@ guest: Charles Freeman
 title: "AMB. Charles Freeman : Will Zelenskyy Concede Crimea?"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered."
-quality_note: "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
+source_note: Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, April 29th, 2025. Ambassador Charles Freeman will be here with us in just a moment. Will President Sinski concede Crimea? Might there be a breakthrough? Does he even have the legal authority to do so?
 
 Ambassador Freeman, welcome here, my dear friend. Uh before we get to the subject at hand, a couple of other questions that I want to put to you. Were you surprised uh that there were no officials from the Israeli government uh at the funeral for Pope Francis? Not really.

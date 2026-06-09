@@ -13,7 +13,9 @@ transcript_type: operator_paste
 archive_class: source
 editorial_note: Operator pasted the YouTube transcript into Codex on 2026-05-26. Preserve as a transcript-bearing source capture.
 quality_note: Normalized to remove ad boundaries and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # Alastair Crooke: Fear as a Deterrent to War
 
 ## Transcript

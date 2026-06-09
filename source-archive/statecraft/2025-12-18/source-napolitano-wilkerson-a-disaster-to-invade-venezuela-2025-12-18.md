@@ -9,14 +9,18 @@ host: Andrew Napolitano
 guest: Col. Lawrence Wilkerson
 title: "COL. Lawrence Wilkerson : A Disaster to Invade Venezuela."
 channel_url: "https://www.youtube.com/@JudgingFreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=tmUHlOmTu2A"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
-source_note: "Operator-provided transcript materialized during December 2025 Wilkerson deepening."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+source_note: Operator-provided transcript materialized during December 2025 Wilkerson deepening.
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+napolitano_close_promo_trim_applied: true
+editorial_note: Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+opening_tier: clean
 ---
+
 Hi everyone, Judge Andrew Npalitaniano here for a judging freedom. Today is Thursday, December 18th, 2025. Colonel Lawrence Wilkerson joins us now. Colonel Larry, a pleasure, my dear friend. Thank you for uh for joining us. I want to spend a little bit of time talking about uh the president's um I don't even know if it's a plan, Larry, but he talks about invading Venezuela.
 
 We all thought he was going to announce it last night when Tucker Carlson revealed that a member of Congress told Tucker that the White House told him that the president was going to announce an invasion last night as we know it didn't happen. But before uh we get there, what what do you think the international community's reaction is to what Trump has been doing? The seizure uh and the high seas of an oil tanker that holds um 100 million barrels of oil.
@@ -127,4 +131,4 @@ Well, we'll leave it at that, Colonel. We have a short week next week because Ch
 
 For the second year in a row, we will have reached that number, which puts us in some very nice company. What do we win? [laughter] >> What I win is getting you back once a week in the new year. >> I wish we both I wish we'd both win no more. >> Thank you, Colonel. God love you. But I hope I'll say merry Christmas, but I hope I get to say to you again before Christmas, meaning you'll be with us Monday, Tuesday, or Wednesday morning.
 
-Chris will work it out at your convenience. >> I look forward to it. >> Thank you, Colonel. All the best. >> Uh coming up later today, 3:00 this afternoon, Professor John Mirshimer, Judge Nepal Tanner for Judging Freedom. Heat. Heat.
+Chris will work it out at your convenience. >> I look forward to it. >> Thank you, Colonel. All the best. >> Uh

@@ -9,20 +9,22 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof. John Mearsheimer : How Close to a Regional War?"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
 source_url: "https://www.youtube.com/watch?v=Xb_yxQPpo08"
-source_note: "Materialized from operator-pasted YouTube transcript for the March 13, 2025 Judging Freedom appearance. The transcript body self-dates cleanly to Thursday, March 13, 2025, which resolves the earlier March 12 / March 13 external seam in favor of March 13."
+source_note: Materialized from operator-pasted YouTube transcript for the March 13, 2025 Judging Freedom appearance. The transcript body self-dates cleanly to Thursday, March 13, 2025, which resolves the earlier March 12 / March 13 external seam in favor of March 13.
 normalization_note: "Removed the pasted YouTube wrapper line and 'Transcripts:' marker, then preserved the operator-pasted transcript body with residual ASR noise intact."
+opening_tier: clean
 ---
+
 # Prof. John Mearsheimer : How Close to a Regional War?
 
 ## Transcript
 
-[Music] [Music] hi everyone Judge Andrew apolitano here for judging Freedom today is Thursday March 13 20 March 13 Yeah March 13 2025 professor John mammer joins us now Professor Mir shamer always a pleasure thank you very much for joining us I planned on spending most of our time uh talking about your views on the likelihood of a regional war in the Middle East and we will get to that but the events in Ukraine are coming fast and thick and I need to address them with you now so in one week uh Secretary of State Marco Rubio uh presented to the
+hi everyone Judge Andrew apolitano here for judging Freedom today is Thursday March 13 20 March 13 Yeah March 13 2025 professor John mammer joins us now Professor Mir shamer always a pleasure thank you very much for joining us I planned on spending most of our time uh talking about your views on the likelihood of a regional war in the Middle East and we will get to that but the events in Ukraine are coming fast and thick and I need to address them with you now so in one week uh Secretary of State Marco Rubio uh presented to the
 Press what he said was a ceasefire agreement uh to which president zalinsky of Ukraine had signed on nothing in writing just secretary Rubio's words in the same week uh president Trump resumed the supply of military equipment and ammunition to keev and authorized the return of us uh intelligence in the same week Ukraine uh dispatched about 350 drones to bomb a residential neighborhood in Moscow what's your take on this week well uh it's quite clear that the Americans are trying to play nice with the ukrainians uh but they're not making any
 meaningful concessions uh and they're working with the ukrainians to see if they can get this whole peace process moving forward uh and then today we had this very interesting announcement from Putin about the ceasefire uh which is very interesting because he effectively says that he accepts the idea of a ceasefire in principle but then he notes that there will be some very significant obstacles uh that basically mean that in practice it will never work or if it does work it'll take a long time to implement and who knows what happens in
 the meantime but things are moving very rapidly uh but I'm not sure we're any closer to a meaningful settlement of this conflict today than we were two weeks ago I'm going to uh play for you a clip from the Secretary State ask your comments on it and then I will play for you what President Putin uh had to say about this it's interesting the Putin clip the network from which we extracted it ran underneath what we call the lower thirds Putin accepts ceasefire of course one man's acceptance is another man's rejection they
@@ -63,4 +65,4 @@ green card have no right to stay here because Mr khil has not been accused of an
 to say I guess it'll be very interesting to see how judges at all levels uh deal with the Trump Administration in in the Mons head they're going to be a huge number of legal challenges they're already uh growing in number and I'll be anxious to see if judges actually stand up to Trump uh a and his lieutenants and the various uh moves that they've made uh I'd be curious what your thoughts are on that well my thoughts are that Trump is rolling the dice and the hopes that the Supreme Court one-third of whose members he appointed will timately back
 him up only one of these cases there are now hundreds of them only one of these cases has reached the Supreme Court and they rejected his argument had to do with his ability uh to fire people without without cause without pointing to a in other words fire on Moss uh the lower courts had um enjoined the firing and the Supreme Court refused to get involved it wasn't on the merits it was is it appropriate for the Supreme Court to get involved now and the court voted 5 to four no uh but these are clearly perilous times I say this is somebody
 that knows him well and has known him for 40 years and knows the people around him uh but these are perilous times for free speech more perilous than any time in my in my lifetime of which I am aware I agree and again you do not want to underestimate the extent to which Israel and its support are driving this train Professor Mir shimer thank you very much and no matter what we talk about or how gloomy the the news may be it's a pleasure to be able to work with you and pick your brain I say this every time but I mean it sincerely you know I
-mean it I've told you this in private it's my pleasure to be on your show thank you Professor all the best same to you thank you uh and coming up at four o'clock who's probably riled up over all of this Colonel Larry Wilkerson judge nealan for judging freedom [Music] [Music]
+mean it I've told you this in private it's my pleasure to be on your show thank you Professor all the best same to you thank you uh and coming up at four o'clock who's probably riled up over all of this Colonel Larry Wilkerson judge nealan for judging freedom

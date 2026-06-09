@@ -25,7 +25,9 @@ verification_ok: true
 verification_reason: ok
 evidence_grade: transcript-grade
 quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # AMB. Chas Freeman: Trump and Xi: Who Won?
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, November 4th, 2025. Ambassador Chas Freeman will be with us in a moment. Who won the confrontation last week in South Korea? Was it President Xi or was it President Trump?

@@ -13,7 +13,9 @@ source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: Operator pasted full transcript in Codex chat. External discovery found the same-titled Judging Freedom episode on podcast mirrors, but direct YouTube watch URL has not yet been recovered.
 quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # AMB. Chas Freeman : Can the US Bring Peace?
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, August 19th, 2025. Ambassador Chaz Freeman will be with us here in just a moment.

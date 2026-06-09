@@ -12,9 +12,11 @@ source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
 source_note: "Operator pasted transcript body in Codex chat. Direct watch URL recovered as https://www.youtube.com/watch?v=wlW25wwA7Ss. The spoken episode open says Tuesday January 7th 2025."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+opening_tier: host-tease
 ---
-[Music] [Music] hi everyone Judge Andrew Napolitano here for judging Freedom today is Tuesday January 7th 2025 Ambassador Charles Freeman will be with here in just a moment on is Israel destroying itself Ambassador Freeman welcome here my dear friend I belated happy New Year to you and a deep expression of my gratitude our team's gratitude the audience's gratitude for all your uh work here during 20 24 and our hope and expectation we can continue it uh in the new year thank you so much thank you uh President elect Trump uh has um designated retired lieutenant general Keith Kellogg who worked for him um in in part during his first term in the white house as his Envoy to Ukraine Colonel or general Kellogg has been reported as saying that
+
+hi everyone Judge Andrew Napolitano here for judging Freedom today is Tuesday January 7th 2025 Ambassador Charles Freeman will be with here in just a moment on is Israel destroying itself Ambassador Freeman welcome here my dear friend I belated happy New Year to you and a deep expression of my gratitude our team's gratitude the audience's gratitude for all your uh work here during 20 24 and our hope and expectation we can continue it uh in the new year thank you so much thank you uh President elect Trump uh has um designated retired lieutenant general Keith Kellogg who worked for him um in in part during his first term in the white house as his Envoy to Ukraine Colonel or general Kellogg has been reported as saying that
 if President Putin is unwilling to talk ceasefire uh he can expect more heavy military equipment delivered to Ukraine what kind of sense does this make
 
 well this is uh something that General Kellogg has fairly consistently advocated um that is called escalation to deescalate in other words put more pressure on the other party to force them uh to come to the negotiating table uh or to make concessions at the negotiating table of course there's no uh problem getting uh the Russians to the negotiating table it's been their

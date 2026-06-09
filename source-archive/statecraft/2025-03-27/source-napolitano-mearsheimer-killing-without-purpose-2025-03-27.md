@@ -9,20 +9,22 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof. John Mearsheimer : Killing Without Purpose."
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
 source_url: "https://www.youtube.com/watch?v=n69N9h4A8N4"
-source_note: "Materialized from operator-pasted YouTube transcript for the March 27, 2025 Judging Freedom appearance. The transcript body self-dates cleanly to Thursday, March 27th, 2025."
+source_note: Materialized from operator-pasted YouTube transcript for the March 27, 2025 Judging Freedom appearance. The transcript body self-dates cleanly to Thursday, March 27th, 2025.
 normalization_note: "Removed the pasted YouTube wrapper line and 'Transcripts:' marker, then preserved the operator-pasted transcript body with residual ASR noise intact."
+opening_tier: clean
 ---
+
 # Prof. John Mearsheimer : Killing Without Purpose.
 
 ## Transcript
 
-Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, March 27th, 2025. The esteemed Professor John Mir Shimemer joins us now. Professor Mir Shimemer, always a pleasure, of course. Um, we have a lot of questions uh for you uh going across the board, but we must start with the hot news uh of the week.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, March 27th, 2025. The esteemed Professor John Mir Shimemer joins us now. Professor Mir Shimemer, always a pleasure, of course. Um, we have a lot of questions uh for you uh going across the board, but we must start with the hot news uh of the week.
  In in your view, did the Secretary of Defense uh post sensitive secret military attack plans on a nonsecure site? Yeah, there's no question about that. I mean, I actually, as someone who served in the Air Force and was in intelligence for a while, uh was shocked that they would even carry on this discourse uh on signal. It's just hard to imagine.
  One would think all the protocols tell people at that level uh and tell their assistants as well who work with them that this is verbot and you just don't do this. And uh the fact that they were carrying on this conversation and putting what has to be what has to be secret war plans uh on the site is just hard to believe.
  And then of course they're playing games with words. Um Professor Mir Shimemer. Oh, it wasn't classified. It wasn't classified. So some things are secret. You know this better than I. Whether they're classified or not. military attack plans, giving the time, giving the the uh equipment to be used are of course secret whether the Secretary of Defense has signed a formal document characterizing them as classified or not. Don't you agree? Yeah.
@@ -82,4 +84,4 @@ minister Lavro. And when I said to him, this is before Secretary of State Rubio 
 That's Well, let me ask you this. Can Donald say no to BB? He can say no. Yeah. I mean, he's not running for reelection. And uh he can say no. Will he say no? Everything that's happened since January 20th when he took office tells us that he won't say no because he's been doing Israel's bidding since then. I guess I should ask, can President Trump say no to Mrs.
  Adlesen? Well, it's the same thing because Mrs. Aden and Prime Minister Netanyahu are basically joined at the hip. Well, Professor Mir Shammer, thank you very much. Thanks for allowing me to go across the board uh on all these topics. It's always a joy to be able to uh to pick your brain, and I hope we can get together for a meal one of these days.
 will figure it out like we did not too long ago. I look forward to that and I look forward to being back next week. As as do I. Thank you, professor. All the best. And same to you. Thank you. Uh coming up tomorrow, Friday, at 4:00 in the afternoon, the intelligence community roundt with Larry Johnson and Ray McGovern.
- And then at 5:' a special live from midnight in Sana, Yemen. Who else? Pepe Escobar. Judge Nepal 104. Judging freedom. [Music] [Music]
+ And then at 5:' a special live from midnight in Sana, Yemen. Who else? Pepe Escobar. Judge Nepal 104. Judging freedom.

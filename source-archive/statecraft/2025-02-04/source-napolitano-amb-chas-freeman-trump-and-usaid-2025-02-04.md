@@ -11,8 +11,10 @@ title: "AMB. Chas Freeman : Trump and USAID."
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: "Operator pasted full transcript in Codex chat. Direct watch URL recovered as https://www.youtube.com/watch?v=matczgR0wUw."
-quality_note: "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 hi everyone Judge Andrew Napolitano here for judging Freedom today is Tuesday February 4th 2025 Ambassador Charles Freeman is here with us on just what is US Aid and what do they do with our money
 
 Elon Musk you didn't create us Aid the United States Congress did for the American people and just like Elon Musk did not create us a he doesn't have the power to destroy it and who's going to stop him we are we're going to stop him this is what the beginning of dictatorship looks like when you got the Constitution and you install yourself as the sole power that is how dictators are made these are some of the insane priorities that that organization has been spending money on $1.5 million to advance di Dei in Serbia's workplaces 70,000 for a production of a Dei musical in Ireland 47,000 for a transgender Opera in Colombia 32,000 for a transgender comic book in Peru I don't know about you but as an American taxpayer I don't want my dollars going towards this crap and I know the American people don't either and that's exactly what Elon Musk has been tasked by President Trump to do to get the fraud waste and abuse out of our federal government than you what Trump and Elon and all of their cronies are trying to do is take away the Constitutional power of congress and I want to apologize I want to say I'm sorry that you have to put up with this offensive this is a Brazen attempt attempt by a billionaire who nobody voted for to illegally and unconstitutionally steal from taxpayers so he can give himself a tax break

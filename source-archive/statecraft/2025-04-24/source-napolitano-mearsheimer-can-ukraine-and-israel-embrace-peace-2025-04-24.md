@@ -9,20 +9,22 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof. John Mearsheimer : Can Ukraine and Israel Embrace Peace?"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
 source_url: "https://www.youtube.com/watch?v=k3ioQHvJrcs"
-source_note: "Materialized from operator-pasted YouTube transcript for the April 24, 2025 Judging Freedom appearance. The transcript body self-dates cleanly to Thursday, April 24th, 2025."
+source_note: Materialized from operator-pasted YouTube transcript for the April 24, 2025 Judging Freedom appearance. The transcript body self-dates cleanly to Thursday, April 24th, 2025.
 normalization_note: "Removed the pasted YouTube wrapper line and 'Transcripts:' marker, then preserved the operator-pasted transcript body with residual ASR noise intact."
+opening_tier: clean
 ---
+
 # Prof. John Mearsheimer : Can Ukraine and Israel Embrace Peace?
 
 ## Transcript
 
-[Music] Heat. Heat. [Music] Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, April 24th, 2025. Professor John Mirshimer joins us now. Professor Mirshimer, a pleasure as always. I know you're traveling and lecturing and I deeply appreciate your uh accommodating my schedule.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, April 24th, 2025. Professor John Mirshimer joins us now. Professor Mirshimer, a pleasure as always. I know you're traveling and lecturing and I deeply appreciate your uh accommodating my schedule.
  I've been asking almost to everyone this week the following uh sort of lead off uh question and getting a variety of answers and I'll I'll put it to you if I may. Is there any political or geopolitical significance to the death of Pope Francis? I would say in a world where there's not much noble behavior uh on the part of uh the elite with regard to what's happening in Palestine.
 Uh I think the Pope's words were welcome and I think his voice will be missed. I think one could make an argument that he should have spoken louder or more forcefully about the genocide in Gaza and it's regrettably that he did. But there are limits on what someone his in his position can do. And I think he contributed in a positive way.
  And for that, I'm going to miss him. Apparently during the last three months or so of his life, he called the Catholic priest who was the pastor of the sole remaining Roman Catholic church in Gaza, which was built in the 800s uh and encouraged him to continue to minister to his flock. as a result of that and maybe something in Argentina 70 years ago uh when the Pope died I didn't know this Max Blumenthal told us the Israeli embassy to the Vatican immediately posted condolences and then Prime Minister Netany Netanyahu ordered the
@@ -74,4 +76,4 @@ So if Iran abandons we are nuclear program, Israel will Israel is what's stabili
  Has any Israeli official ever, as far as you know, since the Jonathan Pard days or whenever the technology was stolen and refined, ever answered that question? No. And they can't in simple reason that they do not acknowledge that they have nuclear weapons. both the Israelis and the American government uh do not acknowledge that Israel has nuclear weapons, right? And if it appears accidentally in a document that we say an official government document where we say that Israel has nuclear weapons, that mistake is automatically
 noticed and the document is changed. So we pretend that they don't have nuclear weapons and they of course pretend as well. So you're not going to get any Israeli leaders. Why do we go through that pretense because they want us to and uh and we basically do what they want on most issues as you know, right? Professor Mir Shamber, thank you very much.
  I know you're traveling and lecturing. I deeply appreciate your time and your analysis as always. uh safe travels and we'll look forward to seeing you again next week. Thank you, Judge. My pleasure to be here. Thank you. Thank you. And it is always a pleasure to be able to chat with the great John Mir Shmer.
- Coming up tomorrow, Friday, end of the day, end of the week, the intelligence community roundt with Larry Johnson, Ray McGovern at 4:00 in the afternoon. Judge Npalit for judging freedom. [Music] [Music]
+ Coming up tomorrow, Friday, end of the day, end of the week, the intelligence community roundt with Larry Johnson, Ray McGovern at 4:00 in the afternoon. Judge Npalit for judging freedom.

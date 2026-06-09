@@ -12,12 +12,16 @@ source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
 source_url: "https://www.youtube.com/watch?v=0oGP6bj1F8Q"
-source_note: "Operator-provided transcript materialized during Wilkerson June 2025 deepening. Transcript opening states Friday, June 13, 2025; a secondary transcript index keys the episode under 2025-06-12, so the spoken in-episode date is preserved here and the discrepancy is noted."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+source_note: Operator-provided transcript materialized during Wilkerson June 2025 deepening. Transcript opening states Friday, June 13, 2025; a secondary transcript index keys the episode under 2025-06-12, so the spoken in-episode date is preserved here and the discrepancy is noted.
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+napolitano_close_promo_trim_applied: true
+editorial_note: Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+opening_tier: host-tease
 ---
+
 # COL. Lawrence Wilkerson : Foreign Policy in Chaos.
 
-Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom at the end of a long day, Friday, June 13, 2025. We have saved it for Colonel Lawrence Wilkerson, Colonel Larry. A pleasure, my dear friend. No matter what we have to talk about, thank you uh for waiting until the end of the day and thank you for joining us.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom at the end of a long day, Friday, June 13, 2025. We have saved it for Colonel Lawrence Wilkerson, Colonel Larry. A pleasure, my dear friend. No matter what we have to talk about, thank you uh for waiting until the end of the day and thank you for joining us.
 
 Thank you for accommodating uh my schedule. Why do you think uh Donald Trump kept up the pretense of being a man of peace while planning this dastardly attack for months with BB Netanyahu? I have no idea what his motivation is. I can't get into his head. I'm not sure I'd find anything if I did. Um but I will say this.
 
@@ -113,4 +117,4 @@ And as you notice since I kissed your head, even affection for you. If I kissed 
 
 Deeply and profoundly grateful for your assistance. We look forward to seeing you at your usual time next week. Thank you. Take care. Thank you, Colonel. And next week, of course, on Monday morning, Alistister Crook at 8:00, Ray McGovern at 10, Larry Johnson at 11:30, and probably more of our regulars as the day and as the events progress.
 
-Thank you for watching. Judge Napolitano for Judging Freedom. [Music] [Music]
+Thank you for watching.

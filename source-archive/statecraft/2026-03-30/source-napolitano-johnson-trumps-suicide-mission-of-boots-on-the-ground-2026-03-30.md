@@ -11,7 +11,9 @@ transcript_type: pasted_transcript
 status: raw-input
 editorial_note: Transcript body pasted into raw-input after the earlier summary-grade placeholder.
 quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # Larry Johnson: Trump's Suicide Mission of Boots on the Ground
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, March 30th, 2026. Larry Johnson will be with us in just a moment on President Trump's suicide mission of boots on the ground.

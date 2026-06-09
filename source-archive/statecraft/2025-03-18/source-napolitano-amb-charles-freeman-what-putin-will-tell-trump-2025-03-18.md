@@ -10,9 +10,11 @@ guest: Charles Freeman
 title: "AMB. Charles Freeman : What Putin Will Tell Trump."
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered. External discovery also surfaced a March 17, 2025 listing, but the spoken episode open says Tuesday March 18th 2025."
-quality_note: "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
+source_note: Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered. External discovery also surfaced a March 17, 2025 listing, but the spoken episode open says Tuesday March 18th 2025.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: clean
 ---
+
 everyone Judge Andrew Napolitano here for judging Freedom today is Tuesday March 18th 2025 Ambassador Charles Freeman is here with us on what he thinks the conversation later today between President Trump and President Putin will be like and of course uh late breaking news from the Middle East as well
 
 Ambassador Freeman welcome here uh my friend before we speculate on what Donald Trump will say to Vladimir Putin and what Vladimir Putin will say to Donald Trump later today I'd like to explore your thoughts on the most recent developments over there what is to be gained by American bombing of the hooes Ambassador

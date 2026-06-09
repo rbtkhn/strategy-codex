@@ -5,19 +5,22 @@ kind: transcript
 source_form: interview
 source_type: podcast
 transcript_type: operator_pasted_transcript
-title: 'Prof. Jeffrey Sachs: A Very Dangerous Foreign Policy.'
-source_url: 'https://www.youtube.com/watch?v=LrbMw6U1dJE'
+title: "'Prof. Jeffrey Sachs: A Very Dangerous Foreign Policy.'"
+source_url: "'https://www.youtube.com/watch?v=LrbMw6U1dJE'"
 channel_slug: judging-freedom
 source_note: Transcript pasted manually by operator. Direct YouTube watch URL was recovered in the August 2025 Sachs pass, and this local body upgrades the August 27 Judging Freedom anchor from full-front-door grade to transcript-bearing.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
 thread: napolitano
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 evidence_grade: transcript-bearing
 quality_note: Fuller operator-supplied transcript includes the opening sponsor read and closing lineup promo; light transcript noise and obvious spelling artifacts were normalized.
+napolitano_close_promo_trim_applied: true
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs: A Very Dangerous Foreign Policy.
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Wednesday, August 27th, 2025. Professor Jeffrey Sachs will be with us in just a moment on America's very dangerous foreign policy.
@@ -135,5 +138,3 @@ Professor Sachs, thanks very much. Thanks for all the time. We went over a littl
 We'll see you next week. Thanks a lot.
 
 Thank you.
-
-Coming up later today at 12:00 noon, if you're watching us live just 20 minutes from now, Aaron Mate. At 3 this afternoon, Phil Giraldi. Tomorrow, our heavy hitters Pepe Escobar, Colonel Macgregor, Colonel Wilkerson, and Professor Mearsheimer. Judge Napolitano for Judging Freedom.

@@ -18,7 +18,9 @@ thread: napolitano
 channel_url: "https://www.youtube.com/@JudgingFreedom"
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove routine ideological cold open, schedule tail, and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs : Does Trump Want Peace?
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Wednesday, January 8th, 2025. Professor Jeffrey Sachs will be with us in just a moment on does Donald Trump really want peace?

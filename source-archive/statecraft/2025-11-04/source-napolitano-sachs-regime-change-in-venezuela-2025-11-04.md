@@ -9,15 +9,18 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs: Regime Change in Venezuela.'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs: Regime Change in Venezuela.'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=W-db27pQ2rM'
+source_url: "'https://www.youtube.com/watch?v=W-db27pQ2rM'"
 source_note: Transcript pasted manually by operator. The November 4, 2025 Sachs/Napolitano anchor previously existed as a recovered full-front-door object confirmed by the Sachs-owned Judging Freedom landing page and the direct YouTube watch surface; this local body upgrades it to transcript-bearing while preserving that recovered watch URL.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
 quality_note: Operator-supplied interview transcript captured in Codex thread; preserve roughness and spoken cadence while correcting only obvious routing-critical artifacts.
+napolitano_close_promo_trim_applied: true
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs: Regime Change in Venezuela.
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, November 4th, 2025. Professor Jeffrey Sachs joins us. Professor Sachs, I know it's practically Wednesday where you are. Thank you very much for your time.
@@ -125,5 +128,3 @@ Professor Sachs, thank you very much. I know it's tomorrow where you are and I d
 Wonderful. See you next week. Take care.
 
 Thank you. All the best, professor.
-
-Coming up tomorrow, Wednesday, at 8 in the morning, the former British diplomat and from time to time guest on Judging Freedom, Ian Proud. Professor Glenn Diesen at 11 in the morning. It's Wednesday at 3 in the afternoon, Phil Giraldi. Judge Napolitano for Judging Freedom. Heat. Heat.

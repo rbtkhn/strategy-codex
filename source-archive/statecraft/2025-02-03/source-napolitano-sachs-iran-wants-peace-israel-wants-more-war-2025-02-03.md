@@ -7,13 +7,15 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs: Iran wants peace / Israel wants more war!'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs: Iran wants peace / Israel wants more war!'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.jeffsachs.org/judge-napolitano/krat3xc328x5cbbr8zle49m62fgjx5'
+source_url: "'https://www.jeffsachs.org/judge-napolitano/krat3xc328x5cbbr8zle49m62fgjx5'"
 source_note: Sachs-owned Judging Freedom landing page confirms this as a full February 3, 2025 Sachs/Napolitano episode. Direct YouTube watch URL and transcript-bearing body were not recovered in this pass.
 quality_note: Full-episode front door only; do not treat as transcript-bearing until a direct watch URL or full transcript body is recovered.
+opening_tier: clean
 ---
+
 # Prof. Jeffrey Sachs: Iran wants peace / Israel wants more war!
 
 ## Recovery Status

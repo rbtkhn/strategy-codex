@@ -7,13 +7,15 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs: Definitely Genocide.'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs: Definitely Genocide.'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=HK1bhJkSCg0'
+source_url: "'https://www.youtube.com/watch?v=HK1bhJkSCg0'"
 source_note: Sachs-owned Judging Freedom landing page confirms this as a full September 17, 2025 Sachs/Napolitano episode, and the direct YouTube watch URL was recovered during the September 2025 deepening pass.
 quality_note: Full-episode front door only; do not treat as transcript-bearing until a full local transcript body is recovered.
+opening_tier: clean
 ---
+
 # Prof. Jeffrey Sachs: Definitely Genocide.
 
 ## Recovery Status

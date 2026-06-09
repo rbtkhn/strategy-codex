@@ -11,7 +11,9 @@ transcript_type: operator_summary_from_web_transcript
 status: raw-input
 editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano January 2026 densification pass. Date and title were corroborated from Apple Podcasts and podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
 quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: clean
 ---
+
 Larry Johnson: Is the CIA Fueling Iran's Chaos?
 
 This January anchor gives the `Judging Freedom x Johnson` lane its earliest currently embodied starting point in the Napolitano shelf.

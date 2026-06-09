@@ -11,7 +11,9 @@ transcript_type: operator_summary_from_web_transcript
 status: raw-input
 editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano December 2025 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
 quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: clean
 ---
+
 # Larry Johnson: Why Is the West Ignorant of Russia?
 
 Johnson` anchor on disk and opens the Napolitano-side Johnson branch before the more explicitly Iran-centered 2026 files.

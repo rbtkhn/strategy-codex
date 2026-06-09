@@ -19,7 +19,9 @@ channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove routine ideological cold open and closing show promo; minor artifacts may remain.
 status: raw-input
+opening_tier: host-tease
 ---
+
 # Scott Ritter: Why Bother to Negotiate With Trump?
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

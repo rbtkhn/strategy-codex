@@ -11,8 +11,10 @@ title: "AMB. Chas Freeman : Trump and Angry Europe"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: "Operator pasted full transcript in Codex chat. Direct watch URL recovered as https://www.youtube.com/watch?v=U0pOQpvUYCw."
-quality_note: "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 hi everyone Judge Andrew Napolitano here for judging Freedom today is Tuesday February 25th 2025 Ambassador Charles Freeman will be with us in just a moment on Donald Trump and an angry Europe
 
 Ambassador Freeman welcome here uh my dear friend always a pleasure to chat with you yesterday uh French president Emanuel macron uh spent a good part of the afternoon at the White House and Thursday British prime minister Kier starmer plans to do the same we have some interesting clips of president mrrone in a few minutes but big picture what leverage if any do the British or the French have over Donald Trump

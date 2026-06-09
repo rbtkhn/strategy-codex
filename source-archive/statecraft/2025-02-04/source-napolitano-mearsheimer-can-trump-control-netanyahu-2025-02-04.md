@@ -13,10 +13,12 @@ source_type: youtube
 source_form: interview
 transcript_type: operator_pasted_transcript
 status: raw-input
-source_note: "Direct YouTube watch URL and transcript body confirmed from operator paste in Codex chat on 2026-06-04. Earlier February 3 front-door inference was retired after the transcript self-dated to Tuesday, February 4th, 2025."
-editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body replaced the earlier front-door-only placeholder and corrected the archive date seam."
+source_note: Direct YouTube watch URL and transcript body confirmed from operator paste in Codex chat on 2026-06-04. Earlier February 3 front-door inference was retired after the transcript self-dated to Tuesday, February 4th, 2025.
+editorial_note: Treat as a transcript-grade raw-input capture. Operator-supplied transcript body replaced the earlier front-door-only placeholder and corrected the archive date seam.
 evidence_grade: transcript-bearing
+opening_tier: host-tease
 ---
+
 # Prof. John Mearsheimer: Can Trump Control Netanyahu?
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

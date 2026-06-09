@@ -9,18 +9,20 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs: Who Would Trust Netanyahu?'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs: Who Would Trust Netanyahu?'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=ZQSLjWvtHdw'
+source_url: "'https://www.youtube.com/watch?v=ZQSLjWvtHdw'"
 source_note: Transcript pasted manually by operator. The October 13, 2025 Sachs/Napolitano anchor previously existed as a recovered full-front-door object; this local body upgrades it to transcript-bearing while preserving the recovered direct YouTube watch surface.
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 evidence_grade: transcript-bearing
 quality_note: Operator-supplied interview transcript captured in Codex thread; preserve roughness and spoken cadence while correcting only obvious routing-critical artifacts.
+opening_tier: clean
 ---
+
 # Prof. Jeffrey Sachs: Who Would Trust Netanyahu?
 
-[Music] [Music] Hi everyone. Judge Andrew Napolitano here for Judging Freedom. Today is Monday, October 13th, 2025. Professor Jeffrey Sachs joins us now. Professor Sachs, I know it's late in the day where you are, but thank you very much for accommodating my schedule today. I would like your thoughts on what took place in Israel today and how a ceasefire came about without any negotiations involving one of the combating sides.
+Hi everyone. Judge Andrew Napolitano here for Judging Freedom. Today is Monday, October 13th, 2025. Professor Jeffrey Sachs joins us now. Professor Sachs, I know it's late in the day where you are, but thank you very much for accommodating my schedule today. I would like your thoughts on what took place in Israel today and how a ceasefire came about without any negotiations involving one of the combating sides.
 
 Well, fortunately for the moment at least, the mass murder has stopped. I think what happened is that Israel reached its blood quota. Israeli officials had said that 50 Palestinians will die for every Israeli that died on October 7th, 2023. And that totals about 64,000. And by the official count of the Gaza health authorities, the death toll is around 67,000. I think Israel had just murdered enough people. And Donald Trump said in his speech in the Knesset that it was bad. It was bad killing, killing, killing. So stop.
 
@@ -52,7 +54,7 @@ But like a politician, he wants to show that he's in control and hosting Donald 
 
 Everything is unsettled right now. So Netanyahu knows to put the smile on and take the applause and take the happiness of the Israeli people that hostages have come home and take credit for it. It's from any objective standpoint almost a sickness in this tragic situation in the immediate aftermath, that we hope, of a genocide for this kind of spectacle to be staged. But this is how it is. We're in the land of make-believe and spectacle and our president is a showman. He's not a serious person. He's a showman and this is the show that we have put on.
 
-Apparently, in addition to being a showman, he's still a businessman. I don't even know if this is licit and I should. But while on a government plane and a government mission, he's negotiating for a deal with the president of Indonesia. This apparently was a hot microphone that neither of them knew was hot. Watch this. [Music] heard. I'll translate some of it. Yes, and it's in the region and I'm not perfectly at least safe and secure here.
+Apparently, in addition to being a showman, he's still a businessman. I don't even know if this is licit and I should. But while on a government plane and a government mission, he's negotiating for a deal with the president of Indonesia. This apparently was a hot microphone that neither of them knew was hot. Watch this. heard. I'll translate some of it. Yes, and it's in the region and I'm not perfectly at least safe and secure here.
 
 Can I meet Eric? Yeah. How do I talk to Eric? Yeah, you're such a good boy. I'll have that. Yeah, I need it. Yeah, I'm not afraid of Eric. Eric is probably Trump's son. They're obviously talking about some kind of a deal that the president of Indonesia wanted to talk to Trump's son Eric about. I don't know if Eric was there on the trip where the president of Indonesia was trying to arrange it. This type of thing is demagoguery for the Trump presidency today, is it not?
 
@@ -98,4 +100,4 @@ Great, thanks.
 
 Again. We'll see you again very soon. Thank you.
 
-Excellent. Thanks a lot. I will be traveling as many of you know, but back before the end of the week. Judge Napolitano for Judging Freedom. [Music] [Music]
+Excellent. Thanks a lot. I will be traveling as many of you know, but back before the end of the week. Judge Napolitano for Judging Freedom.

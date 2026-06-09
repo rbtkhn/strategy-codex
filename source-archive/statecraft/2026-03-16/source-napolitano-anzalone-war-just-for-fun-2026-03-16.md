@@ -10,7 +10,9 @@ source_form: interview
 transcript_type: unresolved_youtube_scaffold
 status: raw-input
 editorial_note: Direct YouTube watch URL verified during the March 15-16, 2026 check-streams pass, but no transcript body has been captured yet.
+opening_tier: clean
 ---
+
 # Kyle Anzalone: WAR 'just for fun'
 
 This file preserves a verified March 16, 2026 Judging Freedom main upload as a YouTube-first scaffold.

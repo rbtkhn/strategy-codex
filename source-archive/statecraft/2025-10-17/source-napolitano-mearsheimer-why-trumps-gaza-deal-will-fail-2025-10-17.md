@@ -9,15 +9,19 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof John Mearsheimer : Why Trump’s Gaza Deal Will Fail."
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_url: https://www.youtube.com/watch?v=2doNMLV8Ji8
-source_note: "Materialized from operator-pasted YouTube transcript for the October 17, 2025 Judging Freedom appearance. The transcript self-dates as Friday, October 17th, 2025, and the direct YouTube watch URL was pinned from the operator."
-normalization_note: "Stripped the obvious YouTube wrapper line, the opening sponsor block, and the closing show-promo tail; kept substantive source language with residual ASR noise."
+source_url: "https://www.youtube.com/watch?v=2doNMLV8Ji8"
+source_note: Materialized from operator-pasted YouTube transcript for the October 17, 2025 Judging Freedom appearance. The transcript self-dates as Friday, October 17th, 2025, and the direct YouTube watch URL was pinned from the operator.
+normalization_note: Stripped the obvious YouTube wrapper line, the opening sponsor block, and the closing show-promo tail; kept substantive source language with residual ASR noise.
+napolitano_close_promo_trim_applied: true
+editorial_note: Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+opening_tier: host-tease
 ---
+
 # Prof John Mearsheimer : Why Trump’s Gaza Deal Will Fail.
 
 ## Transcript
@@ -106,4 +110,4 @@ Here is when the great philosopher professor Alexander Dugan who was not there y
 
 Professor Mearsheimer, thank you very much for your time. I know it's not your usual day and certainly not your usual time of the day. My schedule is crazy. I'll be back in the good old USA on Sunday and we'll look forward to seeing you next week.
 
-Likewise. Thank you, professor. And of course, coming up next week, our usual Monday for you, Alistair Crooke at 8 in the morning, Ray McGovern at 10 in the morning, Larry Johnson at 11:30 in the morning, and your other class A favorites throughout the day and the week. Thank you for watching. Have a great weekend. Judge Napolitano for Judging Freedom.
+Likewise. Thank you, professor. And of course, coming up next week, our usual Monday for you, Alistair Crooke at 8 in the morning, Ray McGovern at 10 in the morning, Larry Johnson at 11:30 in the morning, and your other class A favorites throughout the day and the week. Thank you for watching. Have a great weekend.

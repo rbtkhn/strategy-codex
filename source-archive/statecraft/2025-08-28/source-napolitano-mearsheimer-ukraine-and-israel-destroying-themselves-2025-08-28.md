@@ -8,16 +8,18 @@ guest: john-mearsheimer
 channel: Judging Freedom
 status: in-review
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted transcript body for an August 28, 2025 Judging Freedom appearance. Direct YouTube watch URL not yet cleanly recovered in this pass."
+source_note: Operator-pasted transcript body for an August 28, 2025 Judging Freedom appearance. Direct YouTube watch URL not yet cleanly recovered in this pass.
 source_form: interview
+opening_tier: host-tease
 ---
+
 # Prof. John Mearsheimer : Ukraine and Israel Destroying Themselves.
 
 Transcript source object supplied by operator as a Judging Freedom / YouTube transcript capture.
 
 ## Transcript
 
-[Music] [Music] Hi everyone, Judge Andrew Napolitano here for a judging freedom. Today is Thursday, August 28th. Where did the summer go? 2025. Professor John Mirshimer joins us now. I I see you're back in Chicago. Professor Mirshimer, I guess because the school year is starting, the summer is over. No matter how much we love the summer, it's come and gone.
+Hi everyone, Judge Andrew Napolitano here for a judging freedom. Today is Thursday, August 28th. Where did the summer go? 2025. Professor John Mirshimer joins us now. I I see you're back in Chicago. Professor Mirshimer, I guess because the school year is starting, the summer is over. No matter how much we love the summer, it's come and gone.
  uh not what of course I want to talk to you about, but it's uh I I can't help but mentioning it. Uh the president of the United States this week taunted taunted the Ukrainians for playing defense in the war and he likened them to a uh athletic team that only plays defense and doesn't play offense. What legitimate peaceful service peaceful purpose is served by such a taunt? >> Well, first of all, he's just simply wrong.
  Uh I don't know what he's talking about. It just goes to show you that President Trump's biggest problem is that he has good instincts on this conflict, but he just doesn't know the facts. Uh the war started in 2022. That means that we have seen war in 2022. 2023, 2024, and now 2025. In 2022, the Ukrainians launched two major offensives where they captured a huge amount of real estate from the Russians.
  uh in 2023, I believe it was on June 4th of that year, the Ukrainians launched that major offensive uh against those dug in Russian positions all for the purposes of creating a blitzkrieg uh and going to the sea of Azov. That offensive that they launched on June 4th continued on into the fall of 2023. And then in 2024, as I'm sure almost everybody remembers, in August of 2024, they launched a major offensive into the Kursk region of Russia.
@@ -84,4 +86,4 @@ Transcript source object supplied by operator as a Judging Freedom / YouTube tra
  And if you think in terms of bricks, right? This means Brazil, India, and Russia are all coming together in ways that are designed to challenge the United States, make it more difficult for us to exercise diplomatic influence around the world. And by the way, we're now talking about getting the Europeans to put snapback sanctions on Iran, uh, which is going to drive the Iranians further into the arms of those BRICS countries.
  Iran, of course, is a member of BRICS. So the United States's diplomacy uh in places like Iran and places like uh Gaza uh and what we're doing in Ukraine uh it's all uh having the consequence of isolating us and doing us great damage uh in terms of uh our leadership role around the world. >> Professor Mir Shmer, thank you very much.
  Thanks for letting me pick your brain on both of these hot spots. I hope you have a great holiday weekend coming up and we'll look forward to seeing you next week. >> I hope you have a great holiday too and I look forward to talking again in a week. >> Thank you. All the best. Thank you. Coming up tomorrow at 4:00, the end of the day, the end of the week, the end of the month, the intelligence community roundt with Larry Johnson and Ray McGovern.
- Justin Napolitano for judging freedom. [Music] Heat. Heat. [Music]
+ Justin Napolitano for judging freedom.

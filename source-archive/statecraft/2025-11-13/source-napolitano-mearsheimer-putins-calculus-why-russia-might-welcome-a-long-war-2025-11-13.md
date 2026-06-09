@@ -9,8 +9,10 @@ source_type: youtube
 source_form: interview
 transcript_type: operator_pasted_transcript
 status: in-review
-source_note: "Direct YouTube watch URL supplied by operator in Codex chat. Full transcript body supplied by operator in Codex chat."
+source_note: Direct YouTube watch URL supplied by operator in Codex chat. Full transcript body supplied by operator in Codex chat.
+opening_tier: host-tease
 ---
+
 # Prof. John Mearsheimer : Putin's Calculus: Why Russia Might Welcome a Long War
 
 ## Transcript

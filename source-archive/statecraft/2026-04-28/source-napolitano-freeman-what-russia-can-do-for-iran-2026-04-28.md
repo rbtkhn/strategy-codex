@@ -11,7 +11,9 @@ transcript_type: operator_summary_from_cleaned_transcript
 status: raw-input
 editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano April-May 2026 densification pass. This file preserves the operator-pasted cleaned-transcript substance already cited in the notebook, but it is not a clean verbatim or auto-caption transcript body.
 quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: clean
 ---
+
 Chas Freeman: What Russia Can Do For Iran
 
 This raw-input file preserves the substance of the already-cited April 28 `Judging Freedom x Freeman` lane so the Napolitano shelf can route through a real on-disk anchor instead of a note-only reference.

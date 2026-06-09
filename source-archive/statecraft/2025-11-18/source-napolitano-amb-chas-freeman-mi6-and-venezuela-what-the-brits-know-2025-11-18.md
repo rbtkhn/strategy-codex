@@ -25,7 +25,9 @@ verification_ok: true
 verification_reason: ok
 evidence_grade: transcript-grade
 quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # AMB Chas Freeman: MI6 and Venezuela: What The Brits Know
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, November 18th, 2025. Ambassador Charles Freeman will be here with us in just a moment on What do MI6 and the British know about Trump's killings in the Caribbean?

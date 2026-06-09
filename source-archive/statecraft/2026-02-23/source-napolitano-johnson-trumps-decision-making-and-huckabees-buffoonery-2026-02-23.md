@@ -9,10 +9,13 @@ source_type: youtube
 source_form: interview
 transcript_type: operator_pasted_transcript
 status: raw-input
-source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
-editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity."
+source_note: Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24.
+editorial_note: Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity.
 evidence_grade: transcript-bearing
+opening_tier: host-tease
+napolitano_leading_noise_trim_applied: true
 ---
+
 # Larry Johnson: Trump's Decision Making and Huckabee's Buffoonery
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
@@ -91,9 +94,9 @@ They've killed them. We've got to go in there to stop it and the the Ayatollah d
 
 And so, most people believe, oh yeah, Iran's on the brink. They're teetering. All we got to do is just give them a little push and bam, it's going to come down. Here's um how broad and deep this madness has been going on Chris. We we call this clip Bibi's madness. Cut number four. The deadline for attaining this goal is getting extremely close extremely close.
 
-And Iran by the way is also outpacing Iraq in the development of ballistic missile systems that [music] they hope will reach the eastern seaboard of the United States within 15 years. By next spring at most by next summer at current enrichment rates they will have finished the medium enrichment and move on to the final stage.
+And Iran by the way is also outpacing Iraq in the development of ballistic missile systems that they hope will reach the eastern seaboard of the United States within 15 years. By next spring at most by next summer at current enrichment rates they will have finished the medium enrichment and move on to the final stage.
 
-From there it's only a few months possibly a few weeks before they get [music] enough enriched uranium for the first bomb. The foremost sponsor of global terrorism could be weeks away from having enough enriched uranium [music] for an entire arsenal of nuclear weapons that would place a militant Islamic [music] terrorism weeks away from having the fissile material >> [music] >> for an entire arsenal of nuclear bombs.
+From there it's only a few months possibly a few weeks before they get enough enriched uranium for the first bomb. The foremost sponsor of global terrorism could be weeks away from having enough enriched uranium for an entire arsenal of nuclear weapons that would place a militant Islamic terrorism weeks away from having the fissile material >> [music] >> for an entire arsenal of nuclear bombs.
 
 Isn't it true that none of that is true? Yeah, that's correct. I mean particularly this the specious claim that Iran's the number one sponsor of terrorism. Uh international terrorism. And let's be clear the definition of terrorism the use of violence on civilians for political purposes. And one way that you measure it is fatalities, number of people wounded.
 

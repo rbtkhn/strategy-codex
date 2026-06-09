@@ -10,17 +10,17 @@ show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
 title: "[BREAKING SPECIAL]: Rubio's Shameful and Illegal Interference With the UN. w/ Prof. Jeffrey Sachs"
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=c-8JlGkA9XQ'
+source_url: "'https://www.youtube.com/watch?v=c-8JlGkA9XQ'"
 source_note: Transcript pasted manually by operator. Direct YouTube watch URL was recovered in the August 2025 Sachs pass, and this local body upgrades the August 29 Judging Freedom special from transcript-rich excerpt grade to transcript-bearing.
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 evidence_grade: transcript-bearing
 quality_note: Fuller operator-supplied transcript includes the opening framing and closing lineup promo; light transcript noise and obvious spelling artifacts were normalized.
+opening_tier: host-tease
 ---
-# [BREAKING SPECIAL]: Rubio's Shameful and Illegal Interference With the UN. w/ Prof. Jeffrey Sachs
 
-[Music] [Music]
+# [BREAKING SPECIAL]: Rubio's Shameful and Illegal Interference With the UN. w/ Prof. Jeffrey Sachs
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Friday, August 29th, 2025. Welcome to this special edition of Judging Freedom with my dear friend and colleague, Professor Jeffrey Sachs.
 
@@ -106,4 +106,4 @@ See you next week. Thanks a lot.
 
 Thank you. And coming up at 4:00 this afternoon on all of these issues, the intelligence community roundtable with Larry Johnson and Ray McGovern.
 
-Judge Napolitano for Judging Freedom. [Music] [Music]
+Judge Napolitano for Judging Freedom.

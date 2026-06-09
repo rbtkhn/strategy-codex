@@ -9,8 +9,10 @@ source_type: youtube
 source_form: interview
 transcript_type: operator_pasted_transcript
 status: in-review
-source_note: "Direct YouTube watch URL supplied by operator in Codex chat. Full transcript body supplied by operator in Codex chat."
+source_note: Direct YouTube watch URL supplied by operator in Codex chat. Full transcript body supplied by operator in Codex chat.
+opening_tier: host-tease
 ---
+
 # Prof. John Mearsheimer : Ukraine and Reality
 
 ## Transcript
@@ -57,7 +59,7 @@ uh orders. Originally, it was thought that this tape was AI, but the people that
 
 There's what President Trump said in caps. Sedicious behavior in caps punishable by death in caps. I would argue that it's not only free speech. It's an accurate statement of the law. But before you respond, it's about a minute and a half long. Here we go.
 
->> I'm Senator Alyssa. We need you [music] to stand up for our
+>> I'm Senator Alyssa. We need you to stand up for our
 laws,
 
 >> our Constitution, and who we are as Americans. Don't give up. Don't give up. Don't give up.

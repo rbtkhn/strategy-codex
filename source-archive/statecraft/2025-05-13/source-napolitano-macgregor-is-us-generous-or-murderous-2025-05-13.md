@@ -11,15 +11,17 @@ source_url: "https://www.youtube.com/watch?v=8nBYb63nmZk"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 status: raw-input
-source_note: "Direct YouTube watch URL supplied by the operator on 2026-05-29 and transcript confirmed from operator paste."
-editorial_note: "Mid-May 2025 Napolitano x Macgregor hinge on Trump’s Saudi reset, Netanyahu friction, zero-enrichment deadlock with Iran, and Macgregor’s warning that trillion-dollar defense logic is both strategically incoherent and fiscally ruinous."
+source_note: Direct YouTube watch URL supplied by the operator on 2026-05-29 and transcript confirmed from operator paste.
+editorial_note: Mid-May 2025 Napolitano x Macgregor hinge on Trump’s Saudi reset, Netanyahu friction, zero-enrichment deadlock with Iran, and Macgregor’s warning that trillion-dollar defense logic is both strategically incoherent and fiscally ruinous. Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
+napolitano_sponsor_trim_applied: true
+napolitano_close_promo_trim_applied: true
+opening_tier: host-tease
 ---
-[Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, May 13th, 2025. Colonel Douglas McGregor will be here in a moment on war and peace before Trump and during Trump. But first, this. While the markets are giving us whiplash, have you seen the price of gold? It's soaring.
- In the past 12 months, gold has risen to more than $3,000 an ounce. I'm so glad I bought my gold. It's not too late for you to buy yours. The same experts that predicted gold at $3,200 an ounce now predict gold at 4500 or more in the next year. What's driving the price higher? Paper currencies.
- All around the world, they are falling in value. Big money is in panic as falling currencies shrink the value of their paper wealth. That's why big banks and billionaires are buying gold in record amounts. As long as paper money keeps falling, they'll keep buying and gold will keep rising. So do what I did. Call my friends at Lear Capital.
-You'll have a great conversation and they'll send you very helpful information. Learn how you can store gold in your IRA tax and penaltyfree or have it sent directly to your doorstep. There's zero pressure to buy and you have a 100% risk-free purchase guarantee. It's time to see if gold is right for you.
- Call 8005114620. 8005114620 or go to leerjudgen.com and tell them your friend the judge sent you. Conor McGregor, welcome here. Sir, before we get to broader issues of war and peace and what the United States seems to be spending and has spent most of its time uh propagating, I want to address some very contemporary issues.
+
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, May 13th, 2025. Colonel Douglas McGregor will be here in a moment on war and peace before Trump and during Trump.
+
+judge sent you. Conor McGregor, welcome here. Sir, before we get to broader issues of war and peace and what the United States seems to be spending and has spent most of its time uh propagating, I want to address some very contemporary issues.
 Uh President Trump is in Saudi Arabia as we speak. Why is he there? I think that's an important question. And I think first of all he wants to repair relations with the Saudis. As you know, we have a a long long relationship with Saudi Arabia goes back decades and it's been a rough time lately. Uh the Biden administration certainly did no favors for us with Saudi Arabia and I think President Trump respects them and wants their goodwill.
  Now I don't know how that's going to work but I think that's his ultimate goal. It's not so much, well, I'm here to sell you more military equipment, although I'm sure that will come up. And I suspect the Saudis will probably buy some, but I think it's more along the lines of let's recognize that the last years have been difficult, the last few months have been hard uh and that's over.
  I think that's what he wants to tell the Saudis. How they will receive that, who knows? And at the same time, is it since he's not going to Israel, a slap in the face to Prime Minister Netanyahu? Yeah, I think you have to see it in those terms. But let's be frank, and no one, and I mean no one, in the international community, and that may also be true for many people in Israel who've had to deal with Mr.
@@ -73,4 +75,4 @@ Well, I hope that uh Donald Trump listens to the I'll call them America Firsters
 you've got many others here, whether it's James Ricards or Luke Roman or Alistair Mloud or any number of people that are experts in gold and these other things are all warning us categorically that we're in trouble. Even Mr. Bessement has, I think, confided to the president that we just aren't bringing in any income to fund the government, which puts you in a very difficult state.
  He's now pursuing gold arbitrage to try and extract dollars so that we can fund ourselves. I don't know how much longer this goes on. So the notion of a trillion dollar defense budget is is not only farcical from the standpoint of threats to the United States because most of the threats that concern us are in our own hemisphere. It's also dangerous. Judge, we can't afford it.
  It will sink us in our economy. Colonel McGregor, thank you very much. Thanks for your insight on uh on all of this. Uh I and I think the overwhelming majority of this audience truly appreciate what you're saying and agree with what you've articulated. Thanks for joining us. We look forward to seeing you again next week. Okay, Judge.
- Nice to see you. Likewise. Thank you. And coming up later today at 3:00 on all of these same topics, Lieutenant Colonel Karen Quatowski. Jres Napolitano for Judging Freedom. Heat. Heat. [Music] [Music]
+ Nice to see you. Likewise. Thank you.

@@ -6,26 +6,30 @@ source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_transcript
 title: "Prof. Jeffrey Sachs: Why Is Israel At War With Its Neighbors?"
-source_url: https://www.youtube.com/watch?v=Es4VF57_VAU
+source_url: "https://www.youtube.com/watch?v=Es4VF57_VAU"
 youtube_id: Es4VF57_VAU
 channel_slug: judging-freedom
 source_note: Transcript pasted manually by operator for canonical May 29, 2026 Judging Freedom raw-input capture.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Body internally dates the program as Friday, May 30, 2026; archived here under the operator's May 29, 2026 daily intake batch.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Body internally dates the program as Friday, May 30, 2026; archived here under the operator's May 29, 2026 daily intake batch. Ideological cold open trimmed in place; SSOT body otherwise preserved. Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Jeffrey Sachs
 thread: sachs
-channel_url: https://www.youtube.com/@judgingfreedom
+channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
+napolitano_cold_open_trim_applied: true
+napolitano_sponsor_trim_applied: true
+napolitano_close_promo_trim_applied: true
+opening_tier: full-scaffold
 ---
+
 # Prof. Jeffrey Sachs: Why Is Israel At War With Its Neighbors?
 
 ## Transcript
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
- Today is Friday, May 30th, 2026. Professor Jeffrey Saxs will be with us in just a moment. Why is Israel at war with all of its neighbors, but first this. If the last few years have taught us anything, it's that the systems we rely on can fail. And when they do, we're on our own. That's why I want to tell you about my Patriot Supply, America's original Patriot Preparedness Company.
- When you get their flagship solar backup generator, the ultra powerful grid doctor 3300, you'll also get over $1,000 worth of survival essentials absolutely free. four weeks worth of emergency food, water filtration, and more. All absolutely free. But with everything going on right now, there's no telling how long it'll be available.
- So go to preparewiththeadjudge.com right now to see what you can get for free. Don't wait until it's too late. Get your complete preparedness set up today. Go to preparewiththeadjudge.com. That's preparewiththejudge.com. >> Professor Saxs, good day to you, my friend, and thank you very much for >> double duty this week.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
+ Today is Friday, May 30th, 2026. Professor Jeffrey Saxs will be with us in just a moment. Why is Israel at war with all of its neighbors,
+
+>> Professor Saxs, good day to you, my friend, and thank you very much for >> double duty this week.
  Before we get to Israel and its form of government and its bellacosity, you recently published an open letter to the German Chancellor uh Frederick MS. Why did you do this and what did you tell him? Well, I published it because uh Europe is in a uh a very very distorted and dangerous state of mind gearing up for war with Russia.
  It's a kind of fervent Russia hatred that is completely irrational and that is completely counter to the historical truths. Germany is key to this. It's the biggest country in Europe. It is the country that actually has a direct responsibility for Europe not sliding to war and Chancellor Mertz is not doing his job at all.
  What I mean by this is that the roots of the conflict in Ukraine, which is now spiraling out of control or at least threatening to do so in these hours, comes from uh lies actually that Germany told already back in the 1990s. Germany wanted reunification in 1990 to reunify what had been a divided Germany after Hitler's defeat in 1945 uh that had a West Germany uh that was the zones of occupation of the United States, France and Britain and in East Germany which was the zone of occupation of the Soviet Union.
@@ -74,4 +78,4 @@ They're not making crimes in the dark. They're making crimes that they boast abo
  May maybe he just serves Israel. We don't really understand it. But I can tell you absolutely certainly the American people are against this. The American people side with the Palestinians and they are despising the crimes that Israel is committing. And as an American Jew, I can tell you lots of American Jews are despising what Israel is doing and resent being told that this is somehow about Judaism.
  This is not about Judaism. This is a violation of the most basic ethics of uh two millennia of rabbitic Judaism. It's disgusting what's happening. And this is the truth. And where are we in this country? Well, the American people are on the right side of this. Where is our president? The one who said America first.
  Well, show us, Mr. President. Because America does not want to be party to this mass murder and this ongoing war. >> Professor Saxs, thank you very much. Appreciate so much the history as well as the analysis of the uh contemporary events. And of course, you know, I love your passion on all these things. Uh, thank you, Jeeoff.
- We'll look forward to seeing you early next week. Have a nice weekend. >> Thank you. >> Thank you. And coming up later today at 4:00 this afternoon, the intelligence community roundt with Larry Johnson, Ray McGovern, and Scott Ritter. Judge Napolitano for judging freedom. Heat. Heat.
+ We'll look forward to seeing you early next week. Have a nice weekend. >> Thank you. >> Thank you.

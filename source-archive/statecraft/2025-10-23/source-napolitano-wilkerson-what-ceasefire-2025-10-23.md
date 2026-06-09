@@ -9,13 +9,15 @@ host: Andrew Napolitano
 guest: Col. Lawrence Wilkerson
 title: "COL. Lawrence Wilkerson : What Ceasefire?"
 channel_url: "https://www.youtube.com/@JudgingFreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=kx-3RfjPvMo"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Transcript pasted manually by operator during October 2025 Wilkerson month deepening."
-quality_note: "Operator-pasted YouTube transcript materialized directly from the Codex thread."
+source_note: Transcript pasted manually by operator during October 2025 Wilkerson month deepening.
+quality_note: Operator-pasted YouTube transcript materialized directly from the Codex thread.
+opening_tier: host-tease
 ---
+
 Heat. Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, October 23rd, 2023 and 25, excuse me. There he is. Colonel Larry Wilkerson. Colonel, always a pleasure, my dear friend. I missed you. I realized I was traveling, but I missed you. I was with mutual friends of yours and mine, and we talked about you, and it's great to be with you again, and thanks for thanks for being here.
 
 >> Good to be with you. I want to talk about Gaza. I've titled this entitled this segment, what ceasefire? But before we get there, do we know if it was the Kremlin or the White House that cancelled the uh Putin Trump uh meeting in Budapest? >> My information is that it was mutual. Uh but the impetus came from the White House, >> you know.
@@ -139,4 +141,4 @@ The Washington Times is delivered for free on the desk of every member of Congre
 
 The truthful answers are very sad. >> Yeah. >> Colonel, thank you very much. Thanks for the comment about my oped piece. Thanks for taking the time to look at it. Thanks for joining us today. Thank you. Take care. >> And thank you for watching us as always. Somebody, one of the chatters, one of you guys reminded me I don't thank you enough. You're right.
 
-I don't thank you enough. So, thank you for watching us. We have two more for you today. Just like the two heavy hitters we just did, two more coming up at 3:15. Max Blumenthal at 4:00. The cleanup hitter, Scott Ritter, Justin Palitana for Judging Freedom. Heat. Heat.
+I don't thank you enough. So, thank you for watching us. We have two more for you today. Just like the two heavy hitters we just did, two more coming up at 3:15. Max Blumenthal at 4:00. The cleanup hitter, Scott Ritter, Justin Palitana for Judging Freedom.

@@ -20,7 +20,9 @@ source_note: Transcript pasted manually by operator for canonical May 21 2026 Ju
 editorial_note: Operator-pasted YouTube transcript preserved as raw-input SSOT. This paste appears incomplete and currently ends mid-episode; preserve exactly as provided rather than smoothing it into a full capture.
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # COL. Douglas Macgregor : The Pentagon and Decapitation Strikes
 
 ## Transcript

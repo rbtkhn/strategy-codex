@@ -3,10 +3,8 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: transcript
 source_form: interview
-host_people:
-  - Andrew Napolitano
-guest_people:
-  - Jeffrey Sachs
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 source_type: youtube
@@ -15,7 +13,7 @@ title: "Prof. Jeffrey Sachs : How the Best Military and Intel Failed"
 source_url: "https://www.youtube.com/watch?v=xciEC59zChI"
 youtube_id: xciEC59zChI
 channel_slug: judging-freedom
-source_note: "Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode."
+source_note: Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode.
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 show: Judging Freedom
 host: Judge Andrew Napolitano
@@ -23,8 +21,10 @@ guest: Jeffrey Sachs
 thread: sachs
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
-quality_note: "Raw operator-pasted transcript; cold open, lineup tail, and transcription artifacts may remain."
+quality_note: Raw operator-pasted transcript; cold open, lineup tail, and transcription artifacts may remain.
+opening_tier: clean
 ---
+
 # Prof. Jeffrey Sachs : How the Best Military and Intel Failed
 
 ## Transcript
@@ -85,4 +85,4 @@ Cheated. Germany cheated on the Minsk agreement that could have ended this confl
  And unfortunately the German chancellor has done no better. But he individually by dent of being the leader of the most powerful country of Europe and the one that has the most direct responsibility towards Russia for having gotten us all into this terrible mess has a responsibility to at least pick up the phone and speak to his counterpart before all hell breaks loose.
  This is the point of my open letter to him. Before you have war, you better make at least a phone call to start talking to the other side. >> Professor Saxs, thank you very much. Thanks for letting me go all across the globe, almost literally on all of these topics. Deeply appreciated. Have a great week. >> Maybe we'll do another segment on Friday morning.
 >> Okay, great. >> You've been so wellreceived and look forward to seeing you again soon. Thank you. >> Thanks. Thanks a lot. >> Sure. All the best. Coming up tomorrow, Tuesday, at 8 in the morning, Ambassador Chaz Freeman. At 9 in the morning, Professor John Mirshimer. At 10 in the morning, Colonel Bill Atory.
- At 2 in the afternoon, Matt Hoe. At 3 in the afternoon, Colonel Karen Quowski, Chapal Tunnel for Judging Freedom. Heat. Heat.
+ At 2 in the afternoon, Matt Hoe. At 3 in the afternoon, Colonel Karen Quowski, Chapal Tunnel for Judging Freedom.

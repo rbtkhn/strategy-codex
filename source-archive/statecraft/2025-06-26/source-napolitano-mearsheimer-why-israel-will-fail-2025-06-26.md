@@ -8,14 +8,16 @@ guest: john-mearsheimer
 channel: Judging Freedom
 status: in-review
 source_form: interview
+opening_tier: host-tease
 ---
+
 # Prof. John Mearsheimer : Why Israel Will Fail.
 
 Transcript source object supplied by operator as a Judging Freedom / YouTube transcript capture.
 
 ## Transcript
 
-[Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, June 26th, 20125. Professor John Mir Shimemer will be here with us in just a minute with his views on why Israel will fail. But first, this we all know how devastating war is. Lives lost, communities destroyed.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, June 26th, 20125. Professor John Mir Shimemer will be here with us in just a minute with his views on why Israel will fail. But first, this we all know how devastating war is. Lives lost, communities destroyed.
  But war can also threaten your financial freedom. That's where America's heading. Our growing involvement in global conflicts. It means more spending, more debt, and a weaker dollar. That's a direct hit to your wallet. So, here are three things to keep your eyes on. Exploding debt, declining dollar, rising prices of gold and silver.
  These things are already happening. Goldman Sachs predicts gold could hit $4500 an ounce by 2026. Why? Because central banks and smart investors are buying gold hand over fist. They know what's coming and they're hedging against it. Currency collapse, inflation, and market volatility. Gold has been a trusted store of value for thousands of years and today we need that protection more than ever.
 Professor Mir Shammer, welcome here. For those of you uh who were watching us with Professor Saxs a few minutes ago, my internet went down. Professor Saxes did not.

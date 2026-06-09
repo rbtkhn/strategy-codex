@@ -13,7 +13,9 @@ transcript_type: operator_paste
 archive_class: source
 editorial_note: Operator pasted the YouTube transcript into Codex on 2026-05-26. Preserve as a transcript-bearing source capture.
 quality_note: Normalized into readable paragraphs and light speaker separation; minor transcript artifacts may remain.
+opening_tier: host-tease
 ---
+
 # AMB. Chas Freeman: Israel Humiliates Itself
 
 ## Transcript

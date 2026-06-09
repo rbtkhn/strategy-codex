@@ -17,7 +17,9 @@ thread: napolitano
 channel_url: "https://www.youtube.com/@JudgingFreedom"
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove music markers, lineup tail, and light transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # [SPECIAL] Prof. Jeffrey Sachs : Is the US Subordinated to Israel?
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, June 23rd, 2025. Professor Jeffrey Sachs joins us now. Professor Sachs, always a pleasure, my dear friend. Apologies for scheduling this, but delighted that you are here.

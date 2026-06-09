@@ -9,19 +9,22 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof. John Mearsheimer : Trump, Netanyahu, and Iran."
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: "Materialized from operator-pasted YouTube transcript for the April 10, 2025 Judging Freedom appearance."
-normalization_note: "Kept operator-pasted source language and residual ASR noise as provided."
+source_note: Materialized from operator-pasted YouTube transcript for the April 10, 2025 Judging Freedom appearance.
+normalization_note: Kept operator-pasted source language and residual ASR noise as provided.
+opening_tier: clean
+napolitano_leading_noise_trim_applied: true
 ---
+
 # Prof. John Mearsheimer : Trump, Netanyahu, and Iran.
 
 ## Transcript
 
-[Music] [Music] Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Thursday, April 10th, 2025. Professor John Mirshimer joins us now. What a week, Professor uh Mir Shimemer with the uh roing markets uh over the tariffs. Of course, it began with a lunch meeting between President Trump uh at least the week from our perspective began with a lunch meeting between President Trump and Prime Minister uh Netanyahu.
+Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Thursday, April 10th, 2025. Professor John Mirshimer joins us now. What a week, Professor uh Mir Shimemer with the uh roing markets uh over the tariffs. Of course, it began with a lunch meeting between President Trump uh at least the week from our perspective began with a lunch meeting between President Trump and Prime Minister uh Netanyahu.
  At the end of that meeting, I'm going to play a clip in a few minutes. Uh it was reported by the BBC and by the Economist magazine that Netanyahu was bitterly disappointed uh at the time when Trump had imposed the tariffs. He wanted an exception for Israel and Trump said no. Uh he wanted Trump publicly to admonish President Erdogan of Turkey and Trump said he's my friend.
  Why would I admonish him? And most importantly wanted Trump to commit to a war in Iran and instead Trump announced that the United States would be negotiating directly face-toface uh with the uh Iranians. Some of our colleagues have commented this was a head fake. That is this was a concocted between Trump and Netanyahu to give the Iranians a false sense of security.
  Some believe that he actually stood up to Netanyahu. What what is your thought on this scenario as I've described it, Professor? Well, I thought that uh Trump was saying nothing new. He's long argued that he wants to negotiate a settlement to this conflict. That's his preference. It's obviously never been the Israelis preference, but it's been his preference from the beginning.
@@ -76,7 +79,7 @@ Fascinating uh stuff, professor. Um no, no question about it. But you know, Chin
  Switching gears before we go. has uh ICE been showing up out of uniform and with masks on and picking up people off the streets in Chicago the way they have in Boston and New York. No, they've uh basically focused on uh the east coast and uh uh campuses in the Midwest uh have basically been spared up to now with one exception and that is that yesterday they put their crosshairs on Northwestern uh but not on the University of Chicago.
  Uh so it's mainly schools on the east coast and uh and northwestern uh and in fact it's mainly Ivy League schools. I saw when they put Northwestern on the hit list, they also put Cornell on the hit list, which of course is another Ivy League school. Uh, but I believe that if they are successful and they're able to get away with this, more schools will be added to that list, both on the East Coast, in the Midwest, and on the West Coast.
  This is why I've long argued that it's imperative for universities to stand up to this uh and to forcefully uh fight back against what the Trump administration is doing. But as we've seen, that has not happened. Universities have by and large caved in. Uh just like all of our institutions have caved in, just like uh the large and formerly formerly great law firms have.
- Tell me if this terrifies you, Chris. Cut number nine. [Music] The president there said he would be willing to take American citizens in the federal prison population o population o population o population o population o population o population o population o population o population o population. Is that one of the ideas you're going to be? Well, I love that.
+ Tell me if this terrifies you, Chris. Cut number nine. The president there said he would be willing to take American citizens in the federal prison population o population o population o population o population o population o population o population o population o population o population. Is that one of the ideas you're going to be? Well, I love that.
  If we could take some of our 20time wise guys that push people into subways and that hit people over the back of the head and that purposely run people over in cars. Uh if he would take them, I'd be honored to give them. I don't know what the law says on that, but I can't imagine the law would say anything different. If they can house these horrible criminals for a lot less money than it costs us, I'm all for it.
  But I have suggested that, you know, why should it stop just at people that cross the border illegally? We have some horrible criminals, American grown and born. And if we have somebody that bops an old woman over the head, if we have somebody that uh is in jail 20 times and goes back has a bad judge or a bad prosecutor that do nothing about them.
  All they worry about is politics. I don't worry about that. I think if we could get uh El Salvador or somebody but to take them, I'd be very happy with it. Can you imagine that? No. He thinks that he can ship uh people convicted of crimes to foreign countries where federal courts can't reach them. When George W.
@@ -87,4 +90,4 @@ would happen here. This is why he has to be stopped sooner rather than later. Th
  the definition of an emergency in the statute on which he's relying for this authority, a sudden and unexpected event that adversely affects national security or economic prosperity. How can you claim that a state of affairs that has existed since 1934 is a sudden and unexpected event? You can't. And what I find even more frightening is that he was asked yesterday uh on what basis would he decide to reimpose tariffs or change tariffs on particular countries.
  And he said I will rely on instinct. He said you can't put pen to paper and figure out how to do these things. I just rely on my instinct. This is a positively frightening state. I guess he forgot about or doesn't know about or doesn't care about or never heard of something called equal protection under the fifth amendment where similarly situated entities must be treated by the government in a similar way.
  Professor um Mir Shmer, thank you for your intellect and thank you for your personal courage. It's a it's a joy to be able to have these conversations with you. We'll see you again next week. Thank you, Judge. I look forward to it. Thank you my dear friend. Coming up tomorrow, Friday at the end of the day for the end of the week at 4 in the afternoon with Larry Johnson and Ray McGovern the intelligence community round table.
- Judge Napolitano for judging [Music] freedom. Heat. Heat. [Music]
+ Judge Napolitano for judging freedom.

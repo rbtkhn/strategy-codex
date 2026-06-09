@@ -4,16 +4,18 @@ pub_date: 2026-05-21
 kind: transcript
 source_form: interview
 thread: wilkerson
-show: "Judging Freedom"
-host: "Andrew Napolitano"
-guest: "Lawrence Wilkerson"
+show: Judging Freedom
+host: Andrew Napolitano
+guest: Lawrence Wilkerson
 title: "COL. Lawrence Wilkerson : Trump Trapped In a Corner"
 source_url: "https://www.youtube.com/watch?v=sSm949RgJGs"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Transcript pasted manually by operator for canonical May 21 2026 Judging Freedom / Lawrence Wilkerson raw-input capture."
-editorial_note: "Light cleanup only for routing-safe punctuation, obvious spacing, and removal of clearly separable cold-open and closing lineup promo."
+source_note: Transcript pasted manually by operator for canonical May 21 2026 Judging Freedom / Lawrence Wilkerson raw-input capture.
+editorial_note: Light cleanup only for routing-safe punctuation, obvious spacing, and removal of clearly separable cold-open and closing lineup promo.
+opening_tier: host-tease
 ---
+
 # COL. Lawrence Wilkerson : Trump Trapped In a Corner
 
 **Show:** Judging Freedom  

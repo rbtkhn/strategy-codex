@@ -3,10 +3,8 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: transcript
 source_form: interview
-host_people:
-  - Andrew Napolitano
-guest_people:
-  - Matt Hoh
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 thread: napolitano
@@ -21,9 +19,11 @@ source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: "Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance."
+source_note: Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance.
 normalization_note: Removed routine ideological cold open and closing schedule promo; kept operator-pasted source language and residual ASR noise.
+opening_tier: clean
 ---
+
 # CPT. Matt Hoh : Military Spending Into Oblivion
 
 ## Transcript

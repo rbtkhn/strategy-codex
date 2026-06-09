@@ -2,22 +2,26 @@
 ingest_date: 2026-05-28
 pub_date: 2026-05-28
 thread: blumenthal
-source_url: https://www.youtube.com/watch?v=oCMxJGVoT_M
+source_url: "https://www.youtube.com/watch?v=oCMxJGVoT_M"
 kind: transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_transcript
 title: "Max Blumenthal : Israel Will Sabotage a Trump/Iran Deal"
-show: "Judging Freedom"
-host: "Andrew Napolitano"
-guest: "Max Blumenthal"
-channel_slug: "judge-napolitano-judging-freedom"
-channel_url: https://www.youtube.com/@judgingfreedom
-series: "Judging Freedom"
+show: Judging Freedom
+host: Andrew Napolitano
+guest: Max Blumenthal
+channel_slug: judge-napolitano-judging-freedom
+channel_url: "https://www.youtube.com/@judgingfreedom"
+series: Judging Freedom
 air_day: Thursday, May 28, 2026
-source_note: "Transcript pasted manually by operator for canonical May 28 2026 Judging Freedom / Max Blumenthal raw-input capture."
+source_note: Transcript pasted manually by operator for canonical May 28 2026 Judging Freedom / Max Blumenthal raw-input capture.
 evidence_grade: transcript-bearing
+napolitano_cold_open_trim_applied: true
+editorial_note: Ideological cold open trimmed in place; SSOT body otherwise preserved.
+opening_tier: full-scaffold
 ---
+
 # Max Blumenthal : Israel Will Sabotage a Trump/Iran Deal
 
 Thursday, May 28, 2026
@@ -30,8 +34,7 @@ Link: https://www.youtube.com/watch?v=oCMxJGVoT_M
 
 ## Transcript
 
-Undeclared wars are common place. Tragically, our government engages in preemptive war, otherwise known as aggression with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-What if sometimes to love your country, you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
  Today is Thursday, May 28, 2026. Max Blumenthal will be with us in just a moment on how can the feds make it a crime to bring medication to children in Cuba and who's really making money in Venezuela. But first, this. Don't you just cringe when people say, "I told you so. Sorry. I told you gold and silver would reap the benefits due to excessive money printing, inflation, and global uncertainty.
  It's here. It's happened. Gold and silver have reached all-time highs. Did you call Lar Capital and buy some? It's not too late. Experts are predicting higher prices ahead. Why? Nothing has changed. Geopolitical chaos, cost of living crises, and a weaker dollar are driving central banks to boost their gold reserves.
  Forecast suggest gold could hit $6,000 an ounce and silver $200 an ounce. Even Morgan Stanley ditched the 6040 rule for 60 2020 20 putting 20% into precious metals. They're getting educated and you should too. Call the best in the business and the people I trust. Lear Capital. Get the reports. Get the facts. Get some gold and silver. Tell them the judge sent you and get up to $20,000 in bonus gold or silver.

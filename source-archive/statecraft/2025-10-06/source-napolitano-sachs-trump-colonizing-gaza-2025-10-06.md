@@ -9,18 +9,21 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs: Trump Colonizing Gaza.'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs: Trump Colonizing Gaza.'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=8TwTKPRe2yw'
+source_url: "'https://www.youtube.com/watch?v=8TwTKPRe2yw'"
 source_note: Transcript pasted manually by operator. The October 6, 2025 Sachs/Napolitano anchor previously existed as a recovered full-front-door object; this local body upgrades it to transcript-bearing while preserving the recovered direct YouTube watch surface.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
 quality_note: Operator-supplied interview transcript captured in Codex thread; preserve roughness and spoken cadence while correcting only obvious routing-critical artifacts.
+napolitano_close_promo_trim_applied: true
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs: Trump Colonizing Gaza.
 
-Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, October 6th, 2025. Professor Jeffrey Sachs will be here with us in just a moment on this neocolonial deal to give Gaza to Jared Kushner. But first, this my friends. If you care about your liberty and your right to control your own future, you need to hear about this.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, October 6th, 2025. Professor Jeffrey Sachs will be here with us in just a moment on this neocolonial deal to give Gaza to Jared Kushner. But first, this my friends. If you care about your liberty and your right to control your own future, you need to hear about this.
 
 From October 10th to 12th, Mikkel Thorup, host of the Expat Money Show, is bringing together top experts from around the world for the Expat Money online summit. And it's completely free to attend. You'll learn how to legally protect your wealth, secure second residences and citizenships, reduce your tax burden, and own property abroad. All to safeguard your freedom. This year's focus is on Latin America, where opportunity is booming. Argentina is shifting to free markets. El Salvador is undergoing a dramatic transformation. And Panama and Paraguay are offering simple residency programs. A plan B is no longer optional. It's essential.
 
@@ -124,4 +127,4 @@ Thank you, Professor Sachs. All the best to you. We look forward to seeing you a
 
 Thank you. We'll talk soon. Thanks.
 
-Thank you. Coming up tomorrow, Tuesday, at 8:00 in the morning, Ambassador Chas Freeman. At 2:00 in the afternoon, Matthew Hoh. At 3:00 in the afternoon, Colonel Karen Kwiatkowski. Judge Napolitano for Judging Freedom. [Music] [Music]
+Thank you.

@@ -12,12 +12,14 @@ source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
 source_url: "https://www.youtube.com/watch?v=rMDvW8fDWFQ"
-source_note: "Operator-provided transcript materialized during Wilkerson April 2025 deepening."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+source_note: Operator-provided transcript materialized during Wilkerson April 2025 deepening.
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+opening_tier: clean
 ---
+
 # COL. Lawrence Wilkerson : Trump Delusional over Tariffs and Iran.
 
-[Music] [Music] Heat. Heat. [Music] Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Thursday, April 3rd, 2025. Colonel Lawrence Wilkerson joins us now. Colonel, always a pleasure. Um, have a lot to talk to you about from tariffs to Iran. But before we get there, do you have an opinion, Colonel, on the Bellacosity? And I'm going to play a tape for you in a minute.
+Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Thursday, April 3rd, 2025. Colonel Lawrence Wilkerson joins us now. Colonel, always a pleasure. Um, have a lot to talk to you about from tariffs to Iran. But before we get there, do you have an opinion, Colonel, on the Bellacosity? And I'm going to play a tape for you in a minute.
 
 Coming out of uh out of the mouths of European leaders, where are they going with this? I think they're um operating as I said before we went on the air in the world of the insane. Frankly, I don't know if you read Andrew Cochburn's piece. Andrew sometimes can go deeply into things in odd directions, but this piece was really good.
 
@@ -116,4 +118,4 @@ I've argued that uh he's not qualified and every time you turn around, you know,
 
 Doesn't have to have a file number. Correct. It was operational data. Colonel, thank you very much. Thank you for your time and look forward to seeing you again next week. All the best. Really, take care. Sure. Byebye. Coming up at 3:00 this afternoon, Professor John Mirshimer and mad as a wet hen over these tariffs.
 
-At 4:00, Professor Jeffrey Saxs Johnson for Judging Freedom. [Music] [Music]
+At 4:00, Professor Jeffrey Saxs Johnson for Judging Freedom.

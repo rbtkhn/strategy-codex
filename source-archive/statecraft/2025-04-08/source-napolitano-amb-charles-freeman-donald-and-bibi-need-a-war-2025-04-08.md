@@ -12,7 +12,9 @@ source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered. Earlier external discovery surfaced an April 7, 2025 transcript mirror/listing, but the spoken episode open says Tuesday, April 8th, 2025.
 quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, April 8th, 2025. Ambassador Charles Freeman joins us now.
 
 Ambassador, uh, always a pleasure, my dear friend. Ambassador, what was gained in your view militarily by the two weeks of bombings, US bombings in Yemen? Uh, not very much, if anything.

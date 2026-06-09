@@ -9,20 +9,22 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs : Is Trump Planning More Wars?'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs : Is Trump Planning More Wars?'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://podcasts.apple.com/nl/podcast/prof-jeffrey-sachs-is-trump-planning-more-wars/id1591962689?i=1000739375806&l=en-GB'
+source_url: "'https://podcasts.apple.com/nl/podcast/prof-jeffrey-sachs-is-trump-planning-more-wars/id1591962689?i=1000739375806&l=en-GB'"
 source_note: Transcript pasted manually by operator. The December 2, 2025 Sachs/Napolitano anchor is corroborated by public Judging Freedom podcast surfaces and transcript-index mirrors; this local body upgrades it to transcript-bearing while preserving December 2 as the controlling publication date. Direct YouTube watch URL was not recovered during this pass, so the source URL points to a corroborating public episode page.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
 quality_note: Operator-supplied interview transcript captured in Codex thread; preserve roughness and spoken cadence while correcting only obvious routing-critical artifacts.
+napolitano_sponsor_trim_applied: true
+napolitano_close_promo_trim_applied: true
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs : Is Trump Planning More Wars?
 
-Heat. Heat. Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, December 2nd, 2025. Professor Jeffrey Sachs will be with us in just a minute on what new wars is Donald Trump planning. But first, this history tells us every market eventually falls. Currencies collapse. And look at where we are now.
-
-38 trillion in national debt. Stocks at record highs defying gravity. So what happens next? Groceries, gas, housing, everything's going up. And this dollar, it buys less every day. When the system breaks, your stocks won't save you. And your dollars won't either. But one thing will. Gold. I've said it on my show for years. Gold survives collapse. Central bankers know this and billionaires know it. That's why they're buying more. Is it too late to buy or is it just the right time? Call my friends at Lear Capital to find out. Ask questions. Get the free information. There's no pressure. And that's why I buy my gold and silver from Lear. And right now you can get up to $20,000 in bonus medals with a qualified purchase. Call 8005114620 or go to leerjudgenap.com today.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, December 2nd, 2025. Professor Jeffrey Sachs will be with us in just a minute on what new wars is Donald Trump planning.
 
 Professor Sachs, welcome here my dear friend and thank you for accommodating my schedule. Before we get to Venezuela and before we get to the murders on the high seas by the Defense Department and before we get to the likely response to that, we're now a month after the Witkoff/Kushner/Tony Blair as governor general of Gaza so-called peace plan. Are you satisfied it's a failure and the Netanyahu regime never had an intention to comply with phase two or phase three?
 
@@ -53,7 +55,6 @@ Well, the Russians have an advantage if they can secure diplomatically core obje
 That's the whole story of this conflict. So, Russia would like to achieve an agreement with the Trump administration and then have that imposed basically on Ukraine, not against the will of the Ukrainian people, but against the will of a small clique that the United States installed in a coup in February 2014 that says that it wants and it insists on Ukraine becoming part of NATO.
 
 What Russia would like is clarity: no, NATO is not going to enlarge. Ukraine is going to be neutral. And therefore Ukraine is not going to be a US pawn in a geopolitical game against Russia. And that's exactly what US policy has been for more than 30 years.
-
 
 So Russia won't give up core principles because they're winning on the battlefield, but what they would like is normal relations with the United States and by the way Europe and by the way Ukraine, but on a different basis from a regime playing the US deep-state game of trying to weaken or divide or bring down Russia.
 
@@ -144,5 +145,3 @@ And when Trump said this to the presidents in 2017, they were shocked. I know it
 Professor Sachs, thank you very much. We've been all across the board, but your thoughts are so valuable and so wonderfully articulated. Thank you for telling us about the professor from Boston College. Thank you for your time. We'll look forward to seeing you again soon.
 
 Wonderful. See you next week.
-
-All the best. Coming up tomorrow, Wednesday at 8 in the morning, Dr. Gilbert Doctorow. At 11 in the morning, Aaron Maté. At two in the afternoon, a friend of ours who hasn't been on in a while, Kevork Almassian, our expert on Syria. And at 3:00 in the afternoon, Phil Giraldi, Judge Napolitano for Judging Freedom.

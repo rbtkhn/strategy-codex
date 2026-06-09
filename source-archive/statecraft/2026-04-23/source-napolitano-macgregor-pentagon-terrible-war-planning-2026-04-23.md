@@ -8,20 +8,15 @@ show: Judging Freedom (Judge Napolitano)
 thread: macgregor
 kind: cleaned-transcript
 source_form: solo
-editorial_note: Inferred speaker labels; sponsor block present.
+editorial_note: Inferred speaker labels; sponsor block present. Ideological cold open trimmed in place; SSOT body otherwise preserved.
 canonical_url: TBD
 source_note: Canonical watch URL unresolved locally as of 2026-05-24; route by title/date and transcript body until recovered.
 quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+napolitano_cold_open_trim_applied: true
+opening_tier: host-tease
 ---
+
 # COL. Douglas Macgregor: The Pentagon’s Terrible War Planning
-
-*Cleaned transcript from uploaded auto-caption text*
-
-> Note: This is a cleaned, best-effort transcript. Speaker labels were inferred from the dialogue structure and context. Obvious caption artifacts, name errors, and repeated transcription errors were corrected conservatively while preserving the substance.
-
----
-
-## Judge Andrew Napolitano
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, April 23rd, 2026. Colonel Douglas Macgregor will be here with us in just a moment.
 

@@ -12,7 +12,9 @@ transcript_type: operator_pasted_transcript
 status: raw-input
 editorial_note: Upgraded from summary-grade to operator-pasted transcript on 2026-05-21. Transcript opening states the show date as Tuesday, 2025-12-16.
 quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: clean
 ---
+
 # Chas Freeman: Trump and US Hegemony
 
 ## Transcript

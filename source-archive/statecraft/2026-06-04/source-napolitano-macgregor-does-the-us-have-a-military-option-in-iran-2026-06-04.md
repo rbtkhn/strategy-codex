@@ -9,15 +9,17 @@ host: Judge Andrew Napolitano
 guest: Douglas Macgregor
 title: "COL. Douglas Macgregor : Does the US Have a Military Option in Iran?"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=vOjEQTXT9kQ"
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: "Materialized from operator-pasted YouTube transcript for the June 4, 2026 Judging Freedom appearance."
-normalization_note: "Removed routine ideological cold open, sponsor/ad copy, and closing schedule promo; kept operator-pasted source language and residual ASR noise."
+source_note: Materialized from operator-pasted YouTube transcript for the June 4, 2026 Judging Freedom appearance.
+normalization_note: Removed routine ideological cold open, sponsor/ad copy, and closing schedule promo; kept operator-pasted source language and residual ASR noise.
+opening_tier: clean
 ---
+
 # COL. Douglas Macgregor : Does the US Have a Military Option in Iran?
 
 ## Transcript

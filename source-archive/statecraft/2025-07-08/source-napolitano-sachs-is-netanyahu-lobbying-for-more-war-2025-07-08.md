@@ -5,24 +5,26 @@ kind: transcript
 source_form: interview
 source_type: podcast
 transcript_type: operator_pasted_transcript
-title: 'Prof. Jeffrey Sachs : Is Netanyahu Lobbying for More War?'
-source_url: 'https://www.youtube.com/watch?v=1Zlmwd7mfhQ'
+title: "'Prof. Jeffrey Sachs : Is Netanyahu Lobbying for More War?'"
+source_url: "'https://www.youtube.com/watch?v=1Zlmwd7mfhQ'"
 channel_slug: judging-freedom
 source_note: Transcript pasted manually by operator. Direct YouTube watch URL was later recovered for this Judging Freedom episode. Public transcript mirrors confirm the July 8, 2025 release surface, while the host's on-air introduction dates the conversation itself to Monday, July 7, 2025.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
 thread: napolitano
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 evidence_grade: transcript-bearing
 quality_note: Fuller operator-supplied transcript now includes the opening sponsor read and closing lineup promo; light transcript noise and obvious spelling artifacts were normalized.
+napolitano_sponsor_trim_applied: true
+napolitano_close_promo_trim_applied: true
+opening_tier: full-scaffold
 ---
+
 # Prof. Jeffrey Sachs : Is Netanyahu Lobbying for More War?
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, July 7th, 2025. Professor Jeffrey Sachs will be with us in just a moment on what is Prime Minister Netanyahu lobbying President Trump for now.
-
-But first, this.
 
 Why do so many financial experts call silver the most undervalued asset today? Because silver is essential to the future. From solar tech and electric vehicles to the explosive growth of artificial intelligence, demand is rising fast. And yet, silver is still trading at a bargain. With billions pouring into AI, silver prices have only one place to go, up.
 
@@ -141,5 +143,3 @@ But if history is a guide, and the recent history is shocking, the US has been c
 Professor Sachs, I know it's practically tomorrow where you are now. Thank you very much for your time. I'm sorry the subjects are so gloomy and aggravating, but your analysis of it is much sought after and deeply appreciated. Safe travel next week.
 
 Thank you.
-
-Coming up tomorrow, Tuesday, at 8:00 in the morning, Ambassador Charles Freeman; at 11 in the morning, Aaron Mate; at 3 in the afternoon, Colonel Karen Kwiatkowski. Judge Napolitano for Judging Freedom.

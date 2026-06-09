@@ -13,10 +13,12 @@ source_type: youtube
 source_form: interview
 transcript_type: operator_pasted_transcript
 status: raw-input
-source_note: "Direct YouTube watch URL and transcript body confirmed from operator paste in Codex chat on 2026-06-04."
-editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body replaced the earlier front-door-only placeholder."
+source_note: Direct YouTube watch URL and transcript body confirmed from operator paste in Codex chat on 2026-06-04.
+editorial_note: Treat as a transcript-grade raw-input capture. Operator-supplied transcript body replaced the earlier front-door-only placeholder.
 evidence_grade: transcript-bearing
+opening_tier: host-tease
 ---
+
 # John Mearsheimer: Trump Has No Offramp
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

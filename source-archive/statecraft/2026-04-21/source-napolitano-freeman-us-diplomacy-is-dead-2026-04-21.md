@@ -11,7 +11,9 @@ transcript_type: operator_paste
 status: raw-input
 editorial_note: Operator pasted the YouTube transcript into Codex on 2026-05-20 after an April Freeman check-streams pass found the missing Judging Freedom item. Preserve as transcript-bearing operator paste; not mechanically exact-matched against a session log.
 quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # AMB. Chas Freeman: US Diplomacy Is Dead - And the World Knows It
 
 ## Transcript

@@ -9,15 +9,17 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof. John Mearsheimer : Are Trump's Killings and Threats a Bluff?"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_url: https://www.youtube.com/watch?v=5DWUuqSiFKU
-source_note: "Materialized from operator-pasted YouTube transcript for the December 4, 2025 Judging Freedom appearance. The transcript self-dates as Thursday, December 4th, 2025, and the direct YouTube watch URL was pinned from the operator."
-normalization_note: "Stripped the obvious YouTube wrapper line and the closing show-promo tail; kept substantive source language with residual ASR noise."
+source_url: "https://www.youtube.com/watch?v=5DWUuqSiFKU"
+source_note: Materialized from operator-pasted YouTube transcript for the December 4, 2025 Judging Freedom appearance. The transcript self-dates as Thursday, December 4th, 2025, and the direct YouTube watch URL was pinned from the operator.
+normalization_note: Stripped the obvious YouTube wrapper line and the closing show-promo tail; kept substantive source language with residual ASR noise.
+opening_tier: host-tease
 ---
+
 # Prof. John Mearsheimer : Are Trump's Killings and Threats a Bluff?
 
 ## Transcript

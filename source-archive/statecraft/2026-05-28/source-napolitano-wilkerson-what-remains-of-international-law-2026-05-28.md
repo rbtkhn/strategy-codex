@@ -4,16 +4,20 @@ pub_date: 2026-05-28
 kind: transcript
 source_form: interview
 thread: wilkerson
-show: "Judging Freedom"
-host: "Andrew Napolitano"
-guest: "Lawrence Wilkerson"
+show: Judging Freedom
+host: Andrew Napolitano
+guest: Lawrence Wilkerson
 title: "COL. Lawrence Wilkerson : What Remains of International Law?"
 source_url: "https://www.youtube.com/watch?v=cbAjV-mAZCU"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Transcript pasted manually by operator for canonical May 28 2026 Judging Freedom / Lawrence Wilkerson raw-input capture."
-editorial_note: "Light cleanup only for routing-safe punctuation and obvious spacing."
+source_note: Transcript pasted manually by operator for canonical May 28 2026 Judging Freedom / Lawrence Wilkerson raw-input capture.
+editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing. Ideological cold open trimmed in place; SSOT body otherwise preserved. Canned sponsor read trimmed in place; SSOT body otherwise preserved.
+napolitano_cold_open_trim_applied: true
+napolitano_sponsor_trim_applied: true
+opening_tier: host-tease
 ---
+
 # COL. Lawrence Wilkerson : What Remains of International Law?
 
 **Show:** Judging Freedom  
@@ -25,11 +29,10 @@ editorial_note: "Light cleanup only for routing-safe punctuation and obvious spa
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
- Today is Thursday, May 28, 2026. Colonel Lawrence Wilkerson will be with us in just a minute. What if anything remains of international law? But first, this. If the last few years have taught us anything, it's that the systems we rely on can fail. And when they do, we're on our own. That's why I want to tell you about my Patriot Supply, America's original Patriot Preparedness Company.
- When you get their flagship solar backup generator, the ultra powerful grid doctor 3300, you'll also get over $1,000 worth of survival essentials absolutely free. four weeks worth of emergency food, water filtration, and more. All absolutely free. But with everything going on right now, there's no telling how long it'll be available.
- So go to preparewiththeadjudge.com right now to see what you can get for free. Don't wait until it's too late. Get your complete preparedness set up today. Go to preparewiththeadjudge.com. That's preparewiththeadjudge.com. >> Colonel Wilkerson, welcome here, my dear friend. Thank you for accommodating my schedule as you always do.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
+ Today is Thursday, May 28, 2026. Colonel Lawrence Wilkerson will be with us in just a minute. What if anything remains of international law?
+
+>> Colonel Wilkerson, welcome here, my dear friend. Thank you for accommodating my schedule as you always do.
  Uh before we talk about negotiating and who's trustworthy and what laws are being violated, if the laws mean anything internationally, uh this guy Jonathan Pard, the Americanborn uh Navy analyst convicted as an Israeli spy who's running for the Knesset in Israel whose prison term was commuted by President Trump.
  was flown by Sheldon Adlesen to Tel Aviv where he was personally greeted by Prime Minister Netanyahu. You know all that. Uh just announced that he expects that after Israel conquers Lebanon, it will take on Turkey and Egypt. Now, what do you think this is all about? I think we have at least a traitor in terms of the US who's telling the truth.
  at least as he sees it and I suspect it's seen by a lot more than than he and uh Israel is to that effect. >> Why would Israel want to start a war with Turkey and Egypt? Do Turkey or Egypt pose any material threat to the security of the Israeli state? Well, then the question is begged, judge. Do the Palestinians really pose any threat to the security of the Israeli state or the Egyptians or the Iraqis or the Iranians or the Saudis or the Emiratis or any state in the region.

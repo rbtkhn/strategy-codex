@@ -9,13 +9,15 @@ host: Andrew Napolitano
 guest: Col. Lawrence Wilkerson
 title: "COL. Lawrence Wilkerson : US War on Iran Is Imminent!"
 channel_url: "https://www.youtube.com/@JudgingFreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Transcript pasted manually by operator during October 2025 Wilkerson month deepening."
-quality_note: "Operator-pasted YouTube transcript materialized directly from the Codex thread."
+source_note: Transcript pasted manually by operator during October 2025 Wilkerson month deepening.
+quality_note: Operator-pasted YouTube transcript materialized directly from the Codex thread.
+opening_tier: host-tease
 ---
-[Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, October 9th, 2025. Colonel Lawrence Wilkerson joins us now. Colonel Larry, always a pleasure, my dear friend. Thank you for accommodating my schedule. It's a pleasure to be able to pick your brain.
+
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, October 9th, 2025. Colonel Lawrence Wilkerson joins us now. Colonel Larry, always a pleasure, my dear friend. Thank you for accommodating my schedule. It's a pleasure to be able to pick your brain.
 
 I want to talk to you primarily about the imminence of the Israeli and United States attack on Iran, but before we do, what is your take, Colonel, on the Donald Trump, Steve Witkoff, Jared Kushner, Tony Blair, Gaza agreement? First take is it's a ceasefire agreement, not a peace agreement. They've been very clouded over that, but that's what it is.
 
@@ -110,4 +112,4 @@ Well or any language for that matter. Including English. Including English. Colo
 
 I saw one by Oscar Wilde the other night was so apt. It was something like this. If you're right you'll be found out sooner or later. [Laughter] Thank you Colonel. God love you. We'll talk to you soon. Take care. All the best. Still to come at 3:00 on all of this Professor John Mearsheimer and at 4:30 on all of this Professor Jeffrey Sachs.
 
-Judge Napolitano for Judging Freedom. [Music] [Music]
+Judge Napolitano for Judging Freedom.

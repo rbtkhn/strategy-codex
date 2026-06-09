@@ -8,16 +8,18 @@ guest: john-mearsheimer
 channel: Judging Freedom
 status: in-review
 transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted transcript body for an August 7, 2025 Judging Freedom appearance. Direct YouTube watch URL not yet cleanly recovered in this pass."
+source_note: Operator-pasted transcript body for an August 7, 2025 Judging Freedom appearance. Direct YouTube watch URL not yet cleanly recovered in this pass.
 source_form: interview
+opening_tier: host-tease
 ---
+
 # Prof. John Mearsheimer : A Brief History of Israel
 
 Transcript source object supplied by operator as a Judging Freedom / YouTube transcript capture.
 
 ## Transcript
 
-[Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, August 7th, 2025. Professor John Mirshimer joins us now. Professor Professor Mirshimer, uh, thank you very much for your time. I'm going to give the floor to you and you take as long as you want. Can you explain to us please as only you can the origins of the state of Israel? Yeah, I'd be glad to do that.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, August 7th, 2025. Professor John Mirshimer joins us now. Professor Professor Mirshimer, uh, thank you very much for your time. I'm going to give the floor to you and you take as long as you want. Can you explain to us please as only you can the origins of the state of Israel? Yeah, I'd be glad to do that.
  And let me start by making some comments, four sets of comments at about 60,000 ft. Really general comments and then drop down to 15,000 feet and make a handful of comments that are more specific but fill in uh the general comments that I'll start with. Please, the >> the first of my general comments is that when the Zionist enterprise got started around 1900, it's important to understand that there were very few Jews, uh, certainly very few Zionists in Palestine.
  Uh, you know, there was an adage at the time that this was a land with no people for a people, meaning the Jews, who had no land. And of course that was simply not true. Uh there were a huge number of Palestinians living on that land. That's the first point you want to keep in mind. Second point is there's no way you're going to create a Jewish state on that land that's filled without pal filled with Palestinians without doing horrible things to the Palestinians without creating great crime committing great crimes.
  And common sense just tells you there's no way you could create a Jewish state in a piece of real estate that's filled with Palestinians again without doing great crimes. And that includes stealing their land. And it's very important to emphasize that the Zionists understood this from the get-go.

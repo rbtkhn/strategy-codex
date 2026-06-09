@@ -10,7 +10,9 @@ source_form: article
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
 editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano December 2025 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
+opening_tier: clean
 ---
+
 # COL. Douglas Macgregor: Why Threaten Venezuela?
 
 This December file is the earliest current `Judging Freedom x Macgregor` anchor on disk and makes the 2026 files read as thickening of an already established Napolitano-side lane.

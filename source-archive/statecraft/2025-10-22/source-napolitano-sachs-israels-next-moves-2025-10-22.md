@@ -9,18 +9,21 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs : Israel’s Next Moves.'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs : Israel’s Next Moves.'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=bBTysTskytw'
+source_url: "'https://www.youtube.com/watch?v=bBTysTskytw'"
 source_note: Transcript pasted manually by operator. The October 22, 2025 Sachs/Napolitano anchor previously existed as a recovered full-front-door object; this local body upgrades it to transcript-bearing while preserving the recovered direct YouTube watch surface.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
 quality_note: Operator-supplied interview transcript captured in Codex thread; preserve roughness and spoken cadence while correcting only obvious routing-critical artifacts.
+napolitano_close_promo_trim_applied: true
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs : Israel’s Next Moves.
 
-[Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Wednesday, October 22nd, 2025. Professor Jeffrey Sachs joins us now. Professor Sachs, thank you for accommodating my schedule. I do want to talk to you about Israel's next moves. But before we do that, do we know, Professor Sachs, if it was Russia or the United States that cancelled the Putin-Trump meeting in Budapest?
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Wednesday, October 22nd, 2025. Professor Jeffrey Sachs joins us now. Professor Sachs, thank you for accommodating my schedule. I do want to talk to you about Israel's next moves. But before we do that, do we know, Professor Sachs, if it was Russia or the United States that cancelled the Putin-Trump meeting in Budapest?
 
 It was the United States. Basically Trump every day like a weather vane is back and forth on basic issues and suddenly he demanded an immediate ceasefire which he had abandoned after the Alaska meeting on the basis that what was needed wasn't an immediate ceasefire. It was a solution to the underlying causes of the conflict. But Trump has no consistency at all, maybe no understanding at all of what he's engaged in. And so he swings back and forth and he said, "Why should we have a meeting if Russia doesn't agree to immediate ceasefire?" So it's bizarre but this administration is completely incompetent basically.
 
@@ -132,4 +135,4 @@ Professor Sachs, thank you very much. Thanks for staying up late. Thank you for 
 
 Fantastic. Thank you so much.
 
-Thank you. Have a nice evening. Thank you. Well, thank you for watching everybody. Tomorrow, Thursday, at 11:00 in the morning, Max Blumenthal. At 1:00 in the afternoon, Colonel Douglas Macgregor. At 2:00 in the afternoon, Colonel Lawrence Wilkerson. At 4 in the afternoon, just back from Moscow, Scott Ritter, Judge Napolitano for Judging Freedom. Heat. Heat. [Music] [Music]
+Thank you. Have a nice evening. Thank you.

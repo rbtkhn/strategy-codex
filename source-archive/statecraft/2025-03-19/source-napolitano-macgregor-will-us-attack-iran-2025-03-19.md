@@ -11,11 +11,13 @@ source_url: "https://youtu.be/NkvaukA0438"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 status: raw-input
-source_note: "Direct watch URL recovered during March 2025 Macgregor deepening on 2026-05-29 and transcript confirmed from operator paste."
-editorial_note: "Second March 2025 Napolitano x Macgregor anchor on Houthi strikes, Iran-war inevitability, NATO incoherence, and the split between Middle East escalation confidence and Ukraine settlement realism."
+source_note: Direct watch URL recovered during March 2025 Macgregor deepening on 2026-05-29 and transcript confirmed from operator paste.
+editorial_note: Second March 2025 Napolitano x Macgregor anchor on Houthi strikes, Iran-war inevitability, NATO incoherence, and the split between Middle East escalation confidence and Ukraine settlement realism.
 evidence_grade: transcript-bearing
+opening_tier: host-tease
 ---
-[Music] Heat. Heat. [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Wednesday, March 19th, 2025. Colonel Douglas McGregor joins us now. Colonel, and those of you uh listening, excuse my froggy voice. These things happen uh from time to time. Thank you for your time, Colonel.
+
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Wednesday, March 19th, 2025. Colonel Douglas McGregor joins us now. Colonel, and those of you uh listening, excuse my froggy voice. These things happen uh from time to time. Thank you for your time, Colonel.
  Colonel, what um military advantage was there or is there to bombing the Houthis over the weekend? You know, it's difficult to calculate that. Uh this has been a pretty unrewarding activity. And you would think after all the years of having bombed these people in Yemen, someone would have concluded that unless you go in on the ground, you're probably not going to disrupt them.
  And what we've seen is after every series of strikes over many many years, you recall we were also bombing them on behalf of Saudi Arabia at one point after the strikes are over they resurface and launch missiles. And their their entire focus is of course to punish US and Israeli shipping that has connection to the war in the Middle East.
  It's very straightforward. They've said, uh, until you stop killing Palestinians, we're we're going to continue to shoot at you. Are they actually interfering with American ships, not naval ships, but commercial uh transportation? Well, if they can identify the ship as SL flagged American, yes, they they've taken shots at it.
@@ -78,4 +80,4 @@ Trump shares this view, the people in the region have not fought back. They have
  I wish I wish we could take our cold and leave it somewhere else at this point since both you and I seem to have the same right and and I agree with you that the single mold scotch is more effective than the Irish whiskey. Always. Always. I don't know. I I don't know what the problem is in Ireland.
  They just can't seem to brew really good whiskey. Now, I'm sure I'll get 5,000 emails. How could you possibly say this? Oh, god. There's a pub in my neighborhood called Jameson's. I don't know if it's an outlet of the of the uh brewer or of the distillery or what, but they I don't think you'd be welcome there. I I think if somebody wanted to be shot through the face when I was growing up, all they had to do was walk into my grandfather's house and hand him a bottle of whiskey that was blended.
  Wow, you were dead on the spot. If it wasn't single malt, they wouldn't touch it. So, thanks a lot. Thank you, Colonel. All the best. Feel better, sir. Thank you. Sure. And coming up later today, my froggy voice holding out at 1:00, Pepeco Bar. Earlier, I said he's in Moscow. I don't know where he is, but we'll find out when he's here.
- Uh, and at 3:00, Phil Geraldi, Justin Paulo for Judging Freedom. [Music] [Music]
+ Uh, and at 3:00, Phil Geraldi, Justin Paulo for Judging Freedom.

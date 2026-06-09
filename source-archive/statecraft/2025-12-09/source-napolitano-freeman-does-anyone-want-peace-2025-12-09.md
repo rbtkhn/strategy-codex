@@ -13,7 +13,9 @@ source_type: youtube
 transcript_type: operator_pasted_transcript
 editorial_note: Operator-pasted YouTube transcript preserved with light paragraphing; not independently re-fetched in this pass. Use as a captured raw-input anchor for the Dec 2025 Napolitano/Freeman peace-vs-ceasefire bridge.
 quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: clean
 ---
+
 # AMB. Chas Freeman : Does Anyone Want Peace?
 
 **Judge Andrew Napolitano:** Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, December 9th, 2025. Ambassador Chas Freeman will be with us in just a moment. Does anybody want peace?

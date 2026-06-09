@@ -9,15 +9,18 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs: Trump and Tariffs/Trump and War.'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs: Trump and Tariffs/Trump and War.'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=ogRcUAU0j4o'
+source_url: "'https://www.youtube.com/watch?v=ogRcUAU0j4o'"
 source_note: Transcript pasted manually by operator. The November 11, 2025 Sachs/Napolitano anchor previously existed as a recovered full-front-door object confirmed by public podcast-directory and mirror surfaces plus a recovered direct YouTube watch URL; this local body upgrades it to transcript-bearing while preserving that recovered watch surface.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
 quality_note: Operator-supplied interview transcript captured in Codex thread; preserve roughness and spoken cadence while correcting only obvious routing-critical artifacts.
+napolitano_close_promo_trim_applied: true
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs: Trump and Tariffs/Trump and War.
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, November 11th, 2025. My dear friend, Professor Jeffrey Sachs joins us now. Professor Sachs, a pleasure. Thank you for accommodating my schedule. Thank you for all the time that you give us. It's so informative.
@@ -127,5 +130,3 @@ But I think we're back to that right now. We're on the verge of it whether they 
 Professor Sachs, thank you very much. Thanks for your economic, constitutional, and geopolitical analysis. It's so valuable and so much appreciated. All the best to you. Safe travels. We'll look forward to seeing you again soon.
 
 Excellent. See you next week. Thank you. Bye-bye.
-
-Coming up tomorrow, Wednesday at 8:00 in the morning, Dr. Gilbert Doctorow. At 11:00 in the morning, Phil Giraldi. At 1:15 in the afternoon from the Ron Paul Institute, my dear friend Daniel McAdams. At 2:00 in the afternoon, Aaron Maté. At 3:00 in the afternoon from Moscow, Scott Ritter. Judge Napolitano for Judging Freedom.

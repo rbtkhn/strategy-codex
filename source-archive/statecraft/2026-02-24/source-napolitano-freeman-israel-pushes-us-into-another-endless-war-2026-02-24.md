@@ -9,10 +9,12 @@ source_type: youtube
 source_form: interview
 transcript_type: operator_pasted_transcript
 status: raw-input
-source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
-editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity."
+source_note: Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24.
+editorial_note: Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity.
 evidence_grade: transcript-bearing
+opening_tier: host-tease
 ---
+
 # Chas Freeman: Israel Pushes US into Another Endless War
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
@@ -87,9 +89,9 @@ Um John Rackcliffe, the director of CIA, was at that meeting. He apparently said
 
 Um this was a leak. It was intended to uh enable the u the professional military and perhaps the professional espionage agencies to say I told you so when stuff happens. >> Wow. Uh let's uh switch uh slightly and perhaps you can tell me what you think of this. Uh Chris, cut number two, >> Christian Zionism.
 
-I want to go back cuz that's where we started. >> I'm not going to let you off on this because you have three times that God gave this land >> to this people. And so it is entirely fair for me with respect to ask what land are you talking about? Because I just read Genesis 15 as I have many times. And that land, I think it says from the Nile [music] to the Euphrates, which is once again basically the entire Middle East.
+I want to go back cuz that's where we started. >> I'm not going to let you off on this because you have three times that God gave this land >> to this people. And so it is entirely fair for me with respect to ask what land are you talking about? Because I just read Genesis 15 as I have many times. And that land, I think it says from the Nile to the Euphrates, which is once again basically the entire Middle East.
 
-So God gave that land to his people, the [music] Jews, or he didn't. You're saying he did. What does that mean? Does Israel have the right to that land? Because you're appealing to Genesis. You're [music] saying that's the original deed. >> It would be fine if they took it all. So, um I think there are three comments to make about this.
+So God gave that land to his people, the Jews, or he didn't. You're saying he did. What does that mean? Does Israel have the right to that land? Because you're appealing to Genesis. You're saying that's the original deed. >> It would be fine if they took it all. So, um I think there are three comments to make about this.
 
 First is this is an incredibly illtimed uh eruption of nonsense from uh an American ambassador in a crucial place. Um, it coincides with the attack on Iran, uh, and the proposed Israeli expansion of aggression against probably Syria as well as Lebanon, maybe even Jordan. Um and [clears throat] so it has alarmed the entire uh uh Arab world and has been really very unprecedentedly condemned by virtually every government in the region as well as Muslim governments elsewhere.
 

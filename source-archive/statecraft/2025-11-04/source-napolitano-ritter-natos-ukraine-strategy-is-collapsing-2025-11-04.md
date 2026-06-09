@@ -10,7 +10,9 @@ source_form: article
 transcript_type: operator_summary_from_web_transcript
 status: raw-input
 editorial_note: Direct YouTube caption fetch was blocked from this environment during the Napolitano November 2025 densification pass. Date and title were corroborated from podcast mirrors, and this file preserves a conservative summary body rather than a clean verbatim or auto-caption transcript.
+opening_tier: clean
 ---
+
 # Scott Ritter: NATO's Ukraine Strategy Is Collapsing
 
 This November anchor gives the `Judging Freedom x Ritter` lane its earliest current opening point on disk.

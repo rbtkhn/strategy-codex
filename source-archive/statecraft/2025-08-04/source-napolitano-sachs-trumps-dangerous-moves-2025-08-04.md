@@ -10,17 +10,18 @@ show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
 title: "Prof. Jeffrey Sachs: Trump's Dangerous Moves."
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=GheVaaGLZYw'
+source_url: "'https://www.youtube.com/watch?v=GheVaaGLZYw'"
 source_note: Transcript pasted manually by operator. Direct YouTube watch URL was recovered in the August 2025 Sachs pass, and this local body upgrades the August 4 Judging Freedom anchor from full-front-door grade to transcript-bearing.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
 quality_note: Fuller operator-supplied transcript includes the opening framing and closing lineup promo; light transcript noise and obvious spelling artifacts were normalized.
+napolitano_close_promo_trim_applied: true
+opening_tier: host-tease
 ---
-# Prof. Jeffrey Sachs: Trump's Dangerous Moves.
 
-[Music] [Music]
+# Prof. Jeffrey Sachs: Trump's Dangerous Moves.
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, August 4th, 2025. Professor Jeffrey Sachs joins us now. Professor Sachs, always a pleasure, my dear friend.
 
@@ -168,6 +169,4 @@ See you next week. Thanks a lot.
 
 Bye-bye.
 
-Fabulous. Coming up tomorrow, Tuesday, at 8 in the morning, Ambassador Charles Freeman; at 2 in the afternoon, Aaron Mate; at 3 in the afternoon, Colonel Karen Kwiatkowski.
-
-Judge Napolitano for Judging Freedom. [Music] [Music]
+Fabulous.

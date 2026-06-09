@@ -11,13 +11,15 @@ source_url: "https://youtu.be/KCPG7fUZ8YE"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 status: raw-input
-source_note: "Direct YouTube watch URL recovered during March 2025 Macgregor deepening on 2026-05-29; transcript body confirmed from operator paste in Codex chat."
-editorial_note: "Treat as a transcript-grade raw-input capture. This file opens March 2025 for the Napolitano x Macgregor branch around signal-chat incompetence, Iran war preparation, strategic blindness, and the collapse of target-set thinking into anti-strategy."
+source_note: Direct YouTube watch URL recovered during March 2025 Macgregor deepening on 2026-05-29; transcript body confirmed from operator paste in Codex chat.
+editorial_note: Treat as a transcript-grade raw-input capture. This file opens March 2025 for the Napolitano x Macgregor branch around signal-chat incompetence, Iran war preparation, strategic blindness, and the collapse of target-set thinking into anti-strategy.
 evidence_grade: transcript-bearing
+opening_tier: clean
 ---
+
 # COL. Douglas Macgregor : Readying For War With Iran.
 
-[Music] [Music] Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Thursday, March 27th, 2025. Colonel Douglas McGregor joins us now. Colonel, it's been a tumultuous week, and I've been waiting all week to be able to chat with you. Thank you very much for uh accommodating uh my schedule uh with your own.
+Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Thursday, March 27th, 2025. Colonel Douglas McGregor joins us now. Colonel, it's been a tumultuous week, and I've been waiting all week to be able to chat with you. Thank you very much for uh accommodating uh my schedule uh with your own.
  I I want to spend some time talking to you about the American preparation, the American military preparation for war uh against Iran. But before we get there, I'd be remiss if I didn't ask you uh questions about uh national security and the security of defense plans. So, wouldn't uh operational plans for a military attack be considered secret and to be uh preserved from uh unwanted uh eyes, whether technically classified as classified or not? No, Judge, you're you're getting to something that's very important.
  And this entire event was was a real surprise to me because my experience, which goes back into the '9s and the early years of this century, was that anytime a senior officer speaks to another senior officer or to a senior appointed official, secretary of defense, under secretary, whatever it happens to be.
  uh you conduct those conversations over secure lines that it's automatic and the reason for that is very simple that while the stated objective or theme of the meeting may not be classified inevitably you may go in or wander into that territory. It's natural because people have access to classified information. They bring that up.
@@ -74,4 +76,4 @@ There's another problem that is unspoken but is unavoidable in this discussion a
  And that's where we are right now. The answer then becomes a target set. Show me the target sets again. I want to make sure one more time. And you watch some a civilian appointee or an Air Force general who is just enthralled with the idea of bombing any opportunity they get and says, "Oh, well, this this target, if we destroy this, that'll bring down the whole regime.
  If we hit these people here, that will decapitate the regime." How many times have we heard that nonsense? And how often does it fail? Every time. Conor McGregor, thank you for your time, uh, my dear friend. Thank you for your courageous and insightful comments. Deeply and profoundly appreciated. All the best to you. Okay, judge. Thanks. Thank you.
 Coming up later today at 2:00 this afternoon on the same subjects, Colonel Larry Wilkerson at 3:30 this afternoon. On the same subjects, John, Professor John Mirshimer. Heads up on tomorrow. The round table is at 4:00 Friday afternoon and at 5:00 Friday afternoon, which is midnight in Yemen, Pepe Esscobar, who's been in Yemen all week while this controversy has been raging here in the US and he'll give us the view from the ground level there.
- Judge Napolitano for judging freedom. Heat. Heat. [Music] [Music]
+ Judge Napolitano for judging freedom.

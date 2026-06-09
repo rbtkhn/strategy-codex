@@ -9,18 +9,21 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs : Trump’s attempt at Venezuelan regime-change and his Gaza Illusions'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs : Trump’s attempt at Venezuelan regime-change and his Gaza Illusions'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=lxR4_PlVOnM'
+source_url: "'https://www.youtube.com/watch?v=lxR4_PlVOnM'"
 source_note: Transcript pasted manually by operator. The October 27, 2025 Sachs/Napolitano anchor previously existed as a recovered full-front-door object; this local body upgrades it to transcript-bearing while preserving the recovered direct YouTube watch surface.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 evidence_grade: transcript-bearing
 quality_note: Operator-supplied interview transcript captured in Codex thread; preserve roughness and spoken cadence while correcting only obvious routing-critical artifacts.
+napolitano_close_promo_trim_applied: true
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs : Trump’s attempt at Venezuelan regime-change and his Gaza Illusions
 
-Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, October 27th, 2025. My dear friend, Professor Jeffrey Sachs joins us now. Professor Sachs, thank you very much for accommodating our schedule. I want to spend some time speaking with you about the Witkoff-Kushner, Donald Trump, Tony Blair so-called Gaza Peace Agreement. But before we do, I'd like to explore your understanding on the latest events involving Venezuela, if I may.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, October 27th, 2025. My dear friend, Professor Jeffrey Sachs joins us now. Professor Sachs, thank you very much for accommodating our schedule. I want to spend some time speaking with you about the Witkoff-Kushner, Donald Trump, Tony Blair so-called Gaza Peace Agreement. But before we do, I'd like to explore your understanding on the latest events involving Venezuela, if I may.
 
 By what international or legal standard can the American government declare that the Maduro government is illicit and that someone else is actually the president of Venezuela?
 
@@ -124,6 +127,4 @@ Absolutely.
 
 Thank you. Talk to you again soon. Thank you.
 
-Sure. All the best.
-
-Coming up at 11:30 this morning, I believe from somewhere between Moscow and the United States, flying home, Larry Johnson, Judge Napolitano for Judging Freedom. [Music] [Music]
+Sure.

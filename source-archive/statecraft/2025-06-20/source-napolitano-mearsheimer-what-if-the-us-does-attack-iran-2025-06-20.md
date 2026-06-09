@@ -11,14 +11,16 @@ title: "Prof. John Mearsheimer : What If the US Does Attack Iran?"
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: "Materialized from operator-pasted YouTube transcript for the June 20, 2025 Judging Freedom appearance."
-normalization_note: "Kept operator-pasted source language and residual ASR noise as provided."
+source_note: Materialized from operator-pasted YouTube transcript for the June 20, 2025 Judging Freedom appearance.
+normalization_note: Kept operator-pasted source language and residual ASR noise as provided.
+opening_tier: host-tease
 ---
+
 # Prof. John Mearsheimer : What If the US Does Attack Iran?
 
 ## Transcript
 
-Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Friday, June 20th, 2025. Professor John Mirshimer joins us now uh fresh from his European trip and speaking tour. Professor Mirshimer, it's a pleasure. Thank you very much for accommodating my schedule and thank you for squeezing us in and what I know has been a hectic week for you.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Friday, June 20th, 2025. Professor John Mirshimer joins us now uh fresh from his European trip and speaking tour. Professor Mirshimer, it's a pleasure. Thank you very much for accommodating my schedule and thank you for squeezing us in and what I know has been a hectic week for you.
  Is Israel prevailing in its war against Iran as the mainstream media is telling everybody in the West? No. Israel is in serious trouble. Uh and you know I listened to President Trump not too long ago say that Israel is winning. And of course this is the mantra in the mainstream media. But the question you have to ask yourself is what does winning mean? It's it's a meaningless comment by itself.
  And the way you assess whether a country is winning a war is you ask yourself the question what are the goals and what is the strategy that that state has for achieving those goals. And Israel has three stated goals here. One is to eliminate uh the nuclear capability of Iran, their ability to produce nuclear weapons and this is all about enrichment.
  The second goal is regime change and the third goal which is articulated by President Trump himself is unconditional surrender. Of course, if you get unconditional surrender, that takes care of the first two goals. But these are the three goals. Then the question you have to ask yourself is what is Israel's theory of victory? Tell us how they're going to do this.
@@ -91,4 +93,4 @@ who votes for the government motion will be consciously and deliberately accepti
 Who knows how this will end. What are your last thoughts on this, Professor Mir Shimemer? Well, my last thoughts are I hope there's some way that this can be brought to an end. Uh, I hope Trump has the good sense not to take the United States into this war. Uh, and I hope that uh, the fact that he's not been talking so hawkishly the past two days means that he's beginning to see the light.
  And then I hope he goes to great lengths to get the Israelis and the Iranians to do something to bring this to an end. Am I hopeful that will happen? No. But that's sort of the best case I can make at this point in time. Professor Mary Shammer, thank you very much. We went beyond our usual time uh limit, but uh appreciate deeply and profoundly your uh insight and your analysis.
  We'll look forward to seeing you at your usual day and time next week. I'm looking forward to it. Be well. Thank you. Have a great weekend. Coming up on uh Monday, uh our usual presenters, Alistster Crook at 8 in the morning, Ray McGovern at 10 in the morning, Larry Johnson at 11:30 in the morning, and probably one or two of your other favorites before the day is out.
-Judge Npalit Tenno for Judging Freedom. [Music] [Music]
+Judge Npalit Tenno for Judging Freedom.

@@ -7,13 +7,15 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: '!!URGENT!! Prof. Jeffrey Sachs: Al-Qaeda at the UN'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'!!URGENT!! Prof. Jeffrey Sachs: Al-Qaeda at the UN'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=PzUSkCIiBCs'
+source_url: "'https://www.youtube.com/watch?v=PzUSkCIiBCs'"
 source_note: Sachs-owned Judging Freedom landing page dates this Sachs/Napolitano urgent special to September 25, 2025, while external transcript mirrors surface the episode as September 26, 2025. The direct YouTube watch URL was recovered during the September 2025 deepening pass.
 quality_note: Full-episode front door only; preserve the September 25/26 date seam in provenance and do not treat this as transcript-bearing until a full local transcript body is recovered.
+opening_tier: clean
 ---
+
 # !!URGENT!! Prof. Jeffrey Sachs: Al-Qaeda at the UN
 
 ## Recovery Status

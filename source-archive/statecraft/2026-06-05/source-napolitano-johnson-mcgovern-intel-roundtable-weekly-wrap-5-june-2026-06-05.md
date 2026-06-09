@@ -3,11 +3,8 @@ ingest_date: 2026-06-05
 pub_date: 2026-06-05
 kind: transcript
 source_form: interview
-host_people:
-  - Andrew Napolitano
-guest_people:
-  - Larry Johnson
-  - Ray McGovern
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 source_type: youtube
@@ -24,8 +21,10 @@ guest: Larry Johnson; Ray McGovern
 thread: johnson
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
-quality_note: "Preserved as operator-pasted transcript; intro/outro and transcript artifacts may remain."
+quality_note: Preserved as operator-pasted transcript; intro/outro and transcript artifacts may remain.
+opening_tier: clean
 ---
+
 # INTEL Roundtable w/ Johnson & McGovern : Weekly Wrap 5-June
 
 ## Transcript
@@ -84,4 +83,4 @@ author of the letter. >> So far, I see no point. >> He is so careful in choosing
  I don't know if you remember when he was carted out of the Ecuadorian embassy in London. He looked he looked awful. And so I told him and his brother that I would not cut my hair until he was free. >> Actually, I was prevailed upon to cut my hair when I had open heart surgery. Let the lice get in there. But it was for two and a half years.
  I was trying to give an example to my grandchildren and they don't even remember when >> gentlemen thank you. Thank you very much for another great conversation. What a fabulous picture. You look very happy there, Professor McGovern. >> Yeah, just just put put 80 pounds on him. He could be Santa Claus. >> Gentlemen, we'll see you both at your usual times on Monday.
  Have a great weekend. Thank you. >> All right, judge. Thanks. You too. >> And of course, coming up on Monday, Alistair Crook, Larry Johnson, Ray McGovern, uh, and maybe a surprise from Russia where two of our dear friends and regular, uh, guests are are there. And if Chris can find them, they'll be on together.
- I won't tell you who, but you probably know. Judge Npalit for judging freedom. Heat. Heat.
+ I won't tell you who, but you probably know. Judge Npalit for judging freedom.

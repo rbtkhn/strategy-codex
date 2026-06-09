@@ -12,12 +12,14 @@ source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
 source_url: "https://www.youtube.com/watch?v=fao5idZI928"
-source_note: "Operator-provided transcript materialized during Wilkerson June 2025 deepening. Transcript opening states Thursday, June 5, 2025."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+source_note: Operator-provided transcript materialized during Wilkerson June 2025 deepening. Transcript opening states Thursday, June 5, 2025.
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+opening_tier: clean
 ---
+
 # COL. Lawrence Wilkerson : What Did Trump Know of Drone Attacks?
 
-Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Thursday, June 5th, 2025. My dear friend, Colonel Lawrence Wilkerson joins us now. Colonel Larry, always uh a pleasure. Thank you for uh for your time.
+Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Thursday, June 5th, 2025. My dear friend, Colonel Lawrence Wilkerson joins us now. Colonel Larry, always uh a pleasure. Thank you for uh for your time.
 
 What is your take big picture before we bore in on who knew what when uh on this series of drone attacks over the weekend uh on the Russian military and on certain civilian uh targets as well. Um let me lead off with a comment, personal comment. Sure.
 
@@ -125,4 +127,4 @@ Whit may have some insights that he's gained of late, but I don't think he under
 
 Yes. Last time I saw him, he was on a house stand in Yemen just outside SA. Right. Right. Uh, Colonel, thank you for your intelligence. Thank you for the history. Thank you for dressing up for the show. My god, you look Well, I can't let you have a tie. Me not. Get a coat, judge. Get a coat. Right out there on the coat stand.
 
-Uh we'll see you next week. Thank you, Colonel. All the best. All the best to you. Take care. Thank you. And as just mentioned in a couple of minutes at 4:30 Eastern from somewhere in the middle uh of Russia, Pepe Escobar. And at 7:30 tomorrow morning, Eastern time, Jeffrey Sachs, Judge Npal Tanner for Judging Freedom. [Music] [Music]
+Uh we'll see you next week. Thank you, Colonel. All the best. All the best to you. Take care. Thank you. And as just mentioned in a couple of minutes at 4:30 Eastern from somewhere in the middle uh of Russia, Pepe Escobar. And at 7:30 tomorrow morning, Eastern time, Jeffrey Sachs, Judge Npal Tanner for Judging Freedom.

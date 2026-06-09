@@ -9,20 +9,22 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Prof. John Mearsheimer : Are Russia and China a Threat to the US?"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
 source_url: "https://www.youtube.com/watch?v=V-CEnF0ZV2k"
-source_note: "Materialized from operator-pasted YouTube transcript for the May 1, 2025 Judging Freedom appearance. This item had previously sat in the April 2025 Mearsheimer watchlist as a month-boundary seam, but the transcript body self-dates cleanly to Thursday, May 1st, 2025."
+source_note: Materialized from operator-pasted YouTube transcript for the May 1, 2025 Judging Freedom appearance. This item had previously sat in the April 2025 Mearsheimer watchlist as a month-boundary seam, but the transcript body self-dates cleanly to Thursday, May 1st, 2025.
 normalization_note: "Removed the pasted YouTube wrapper line and 'Transcripts:' marker, then preserved the operator-pasted transcript body with residual ASR noise intact."
+opening_tier: clean
 ---
+
 # Prof. John Mearsheimer : Are Russia and China a Threat to the US?
 
 ## Transcript
 
-[Music] [Music] Heat. Heat. [Music] Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, May 1st, 2025. Professor John Mirshimer joins us now. Professor Mir Shimemer, always a pleasure, my dear friend. Thank you. You always make yourself available to us no matter where you're lecturing or you happen to be.
+Hi everyone, Judge Andrew Npalitano here for Judging Freedom. Today is Thursday, May 1st, 2025. Professor John Mirshimer joins us now. Professor Mir Shimemer, always a pleasure, my dear friend. Thank you. You always make yourself available to us no matter where you're lecturing or you happen to be.
 Um, is the Russia of Vladimir Putin a threat to the national security of the United States? No, not at all. Uh, there are three great powers in the system. The United States, China, and uh, Russia. And I think it's quite clear that China is a peer competitor. It's an incredibly powerful and impressive country that's closing the gap between the United States and China. The power gap that is.
 Uh Russia is a distant third. It is a great power. It should be respected. But the idea that Russia is a threat to take over any countries in Eastern Europe or that it's a threat to Western Europe is laughable. And the argument that it's a threat to the United States is not a serious argument unless we push the Russians too far and force them to use nuclear weapons against us.
  But absent us doing that, uh, it is not a serious threat to the United States. This is not the Cold War. The United States is arguably, I think you would agree, a co-elligerant with Ukraine in the war against Russia. President Trump has surrounded himself with neocons, although he just let one of them go and moved him from national security advisor to the UN, so I don't know if he really let him go.
@@ -98,4 +100,4 @@ Whether it's Biden or it's Donald Trump, we do. And it's going to get worse. If 
  So what you're describing is the domestic front. What I was describing two minutes ago is the foreign policy front. Uh it's a deadly one-two punch here. Yes. United States is shooting itself in the foot both domestically and in terms of our foreign policy. What is going on here? Do we have a Congress? Yes.
  It's called the Knesset. That's that's another that's another matter. That's another story. We shouldn't laugh at it. Chris suggested the line and I couldn't help uh using it. It's it's deadly serious and it's another story for another time. You are the foremost authority on this subject matter.
  Professor Mir Shammer, thank you very much. It's been a long um conversation or longer than usual, but deeply gratifying to be able to pick your brain on all these topics from all around uh the globe and look forward to seeing you next week, my dear friend. I look forward to being back. Thank you. Coming up tomorrow at 4:00 Friday, the end of the day, the end of the week, the intelligence community roundt with Larry Johnson in Florida and Ray McGovern in Moscow.
-Don't want to miss it. Judge Npal Tanner for Judging Freedom. [Music] [Music]
+Don't want to miss it. Judge Npal Tanner for Judging Freedom.

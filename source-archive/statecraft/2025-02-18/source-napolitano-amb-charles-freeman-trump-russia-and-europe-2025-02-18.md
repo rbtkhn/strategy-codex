@@ -11,8 +11,10 @@ title: "AMB. Charles Freeman : Trump, Russia, and Europe."
 source_type: youtube
 transcript_type: operator_pasted_transcript
 source_note: "Operator pasted full transcript in Codex chat. Direct watch URL recovered as https://www.youtube.com/watch?v=D57_f4FeK9E."
-quality_note: "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 hi everyone Judge Andrew Napolitano here for judging Freedom today is Tuesday February 18th 20125 Ambassador Charles Freeman will be here with us in just a moment on President Trump Russia and Europe
 
 Ambassador Freeman welcome here my dear friend good day to you I do want to explore your knowledge about and uh concerns uh over uh Russia the meetings in Saudi Arabia where you were once the uh US ambassador and what you expect to happen there with Europe excluded but first uh a couple of other questions if I may uh on Israel and Gaza do you think that prime minister Netanyahu really wants the United States to own Gaza with its offshore natural gas deposits

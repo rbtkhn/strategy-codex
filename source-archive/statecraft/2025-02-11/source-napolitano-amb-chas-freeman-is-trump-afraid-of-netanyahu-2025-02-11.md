@@ -12,9 +12,11 @@ source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
 source_note: "Operator pasted transcript body in Codex chat. Direct watch URL recovered as https://www.youtube.com/watch?v=l8YtFElXI18. The spoken episode open says Tuesday February 11th 2025."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+opening_tier: host-tease
 ---
-[Music] [Music] hi everyone Judge Andrew Napolitano here for judging Freedom today is Tuesday February 11th 2025 Ambassador Charles Freeman will be here with us in just a moment on who's afraid of whom Netanyahu of trump or Trump of Netanyahu Charles Freeman a pleasure my dear friend thank you for joining the show thank you for uh accommodating U my schedule as a practical political matter not legal or constitutional but as a practical political matter is Donald Trump free to defy Benjamin Netanyahu
+
+hi everyone Judge Andrew Napolitano here for judging Freedom today is Tuesday February 11th 2025 Ambassador Charles Freeman will be here with us in just a moment on who's afraid of whom Netanyahu of trump or Trump of Netanyahu Charles Freeman a pleasure my dear friend thank you for joining the show thank you for uh accommodating U my schedule as a practical political matter not legal or constitutional but as a practical political matter is Donald Trump free to defy Benjamin Netanyahu
 
 apparently he has no such Instinct um he appears to have conveyed to Mr Netanyahu uh that we will not join him in in an attack on Iran but at the same time he's provided I think 11 mother of all bombs the hugest bomb we've ever built which is really only useful going after the Iranian nuclear program to the Israelis and um he has up the anti consistently in Gaza it's clear with his latest threat which is that if the Israeli hostages are not out by Saturday um Netanyahu should resume the genocide in Gaza that he is entirely supportive of netan so I don't know I mean that's a good question but as a practical matter there's no evidence that he has any Independence at all from the Zionist agenda
 

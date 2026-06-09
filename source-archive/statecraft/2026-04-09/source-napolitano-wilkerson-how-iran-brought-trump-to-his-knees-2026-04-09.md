@@ -4,16 +4,18 @@ pub_date: 2026-04-09
 kind: transcript
 source_form: interview
 thread: wilkerson
-show: "Judging Freedom"
-host: "Andrew Napolitano"
-guest: "Lawrence Wilkerson"
+show: Judging Freedom
+host: Andrew Napolitano
+guest: Lawrence Wilkerson
 title: "COL. Lawrence Wilkerson : How Iran Brought Trump to His Knees."
 source_url: "https://www.youtube.com/watch?v=FrwWSR1IzXo"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Transcript pasted manually by operator for canonical April 9 2026 Judging Freedom / Lawrence Wilkerson raw-input capture."
-editorial_note: "Light cleanup only for routing-safe punctuation, obvious spacing, and removal of clearly separable cold-open ad read and closing lineup promo."
+source_note: Transcript pasted manually by operator for canonical April 9 2026 Judging Freedom / Lawrence Wilkerson raw-input capture.
+editorial_note: Light cleanup only for routing-safe punctuation, obvious spacing, and removal of clearly separable cold-open ad read and closing lineup promo.
+opening_tier: clean
 ---
+
 # COL. Lawrence Wilkerson : How Iran Brought Trump to His Knees.
 
 **Show:** Judging Freedom  

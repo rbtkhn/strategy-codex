@@ -9,10 +9,12 @@ source_type: youtube
 source_form: interview
 transcript_type: operator_pasted_transcript
 status: raw-input
-source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
-editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity."
+source_note: Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24.
+editorial_note: Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity.
 evidence_grade: transcript-bearing
+opening_tier: host-tease
 ---
+
 # COL. Douglas Macgregor: A U.S. - Iran War Could Spiral Out of Control
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

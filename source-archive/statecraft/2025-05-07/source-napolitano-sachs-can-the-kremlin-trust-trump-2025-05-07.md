@@ -17,7 +17,9 @@ thread: napolitano
 channel_url: "https://www.youtube.com/@JudgingFreedom"
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove music markers, routine lineup tail, and light transcript noise; the substantive COVID cold open was retained because it is part of the Sachs exchange.
+opening_tier: host-tease
 ---
+
 # Prof. Jeffrey Sachs : Can the Kremlin Trust Trump?
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Wednesday, May 7th, 2025. Professor Jeffrey Sachs will be with us in just a moment to discuss whether the Kremlin can trust President Donald Trump.

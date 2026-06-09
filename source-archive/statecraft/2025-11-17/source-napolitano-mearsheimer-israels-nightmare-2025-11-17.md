@@ -10,7 +10,9 @@ source_form: interview
 transcript_type: operator_pasted_transcript
 status: in-review
 source_note: "Direct YouTube watch URL pinned from the existing local object. Full transcript body supplied by operator in Codex chat. The spoken opening date inside the transcript is Thursday, November 6, 2025, while this local shelf object remains filed under the stronger publication date already in use on disk: 2025-11-17."
+opening_tier: host-tease
 ---
+
 # Prof. John Mearsheimer : Israel's Nightmare.
 
 ## Transcript

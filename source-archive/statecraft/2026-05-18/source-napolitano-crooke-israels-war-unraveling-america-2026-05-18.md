@@ -18,7 +18,9 @@ thread: crooke
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # Alastair Crooke: Israel's War Unraveling America
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, May 18, 2026. Alistister Crook will be with us in just a moment on how Israel's war is unraveling America.

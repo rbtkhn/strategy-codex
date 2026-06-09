@@ -9,18 +9,18 @@ thread: napolitano
 show: Judging Freedom
 host: Andrew Napolitano
 guest: Jeffrey Sachs
-title: 'Prof. Jeffrey Sachs: Netanyahu Ready to Invade'
-channel_url: 'https://www.youtube.com/@JudgingFreedom'
+title: "'Prof. Jeffrey Sachs: Netanyahu Ready to Invade'"
+channel_url: "'https://www.youtube.com/@JudgingFreedom'"
 channel_slug: judging-freedom
-source_url: 'https://www.youtube.com/watch?v=5LBUbzpbZsE'
+source_url: "'https://www.youtube.com/watch?v=5LBUbzpbZsE'"
 source_note: Transcript pasted manually by operator. Direct YouTube watch URL was recovered in the August 2025 Sachs pass, and this local body upgrades the August 21 Judging Freedom anchor from full-front-door grade to transcript-bearing.
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 evidence_grade: transcript-bearing
 quality_note: Fuller operator-supplied transcript includes the opening framing and closing lineup promo; light transcript noise and obvious spelling artifacts were normalized.
+opening_tier: host-tease
 ---
-# Prof. Jeffrey Sachs: Netanyahu Ready to Invade
 
-[Music] Heat. Heat. [Music]
+# Prof. Jeffrey Sachs: Netanyahu Ready to Invade
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, August 21st, 2025. As you can see, the good professor Jeffrey Sachs is here with us.
 
@@ -122,4 +122,4 @@ Thank you. This tough and direct talk is absolutely required in the face of this
 
 More about all of that to come. Scott Ritter at 11, Professor Diesen at 1, Colonel Wilkerson at 2, Professor Mearsheimer at 3.
 
-Judge Napolitano for Judging Freedom. [Music] [Music]
+Judge Napolitano for Judging Freedom.

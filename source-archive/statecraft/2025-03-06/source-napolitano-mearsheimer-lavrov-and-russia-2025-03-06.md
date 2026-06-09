@@ -9,15 +9,17 @@ host: Judge Andrew Napolitano
 guest: John Mearsheimer
 title: "Professor John Mearsheimer: Lavrov & Russia"
 channel_url: "https://www.youtube.com/@judgingfreedom/videos"
-channel_slug: "judging-freedom"
+channel_slug: judging-freedom
 source_type: youtube_transcript_operator_paste
 transcript_type: operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
 source_url: "https://www.youtube.com/watch?v=GiBVTf0L2mk"
-source_note: "Materialized from operator-pasted YouTube transcript for the March 6, 2025 Judging Freedom appearance. The visible pasted transcript segment does not include a clean spoken self-date, so this filing follows the direct watch URL supplied by the operator together with the preexisting March 6 watchlist slot."
+source_note: Materialized from operator-pasted YouTube transcript for the March 6, 2025 Judging Freedom appearance. The visible pasted transcript segment does not include a clean spoken self-date, so this filing follows the direct watch URL supplied by the operator together with the preexisting March 6 watchlist slot.
 normalization_note: "Removed the pasted YouTube wrapper line and 'Transcripts:' marker, then preserved the operator-pasted transcript body with residual ASR noise intact."
+opening_tier: clean
 ---
+
 # Professor John Mearsheimer: Lavrov & Russia
 
 ## Transcript

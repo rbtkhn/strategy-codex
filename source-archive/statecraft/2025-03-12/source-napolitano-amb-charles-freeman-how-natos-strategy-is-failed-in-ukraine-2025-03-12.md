@@ -10,9 +10,11 @@ guest: Charles Freeman
 title: "AMB. Charles Freeman : How NATO's Strategy is Failed in Ukraine"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered. External discovery also surfaced a March 11, 2025 listing, but the spoken episode open says Wednesday, March 12th, 2025."
-quality_note: "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
+source_note: Operator pasted full transcript in Codex chat. Direct YouTube watch URL not yet recovered. External discovery also surfaced a March 11, 2025 listing, but the spoken episode open says Wednesday, March 12th, 2025.
+quality_note: Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 hi everyone Judge Andrew Napolitano here for judging Freedom today is Wednesday March 12th 2025 back from Moscow which much with much to discuss today with Ambassador or right now shortly with Ambassador Charles Freeman on all the mistakes that NATO made
 
 Ambassador Freeman welcome here uh my dear friend we were chatting uh in the break about how warm engaging and well uh informed Uh Russian foreign minister Sergey lavro is my interview with him which is two hours long and did involve others to ask questions one of whom is a regular on the show and longtime friend and colleague of mine Larry Johnson uh will be airing at noon here on judging Freedom noon uh Eastern uh but I um I was um I shouldn't say taken aback I was moved by his profound uh understanding uh of the way Americans think so yesterday uh Secretary of State Marco Rubio announced we have a ceasefire plan but their socalled plan is something that already has been rejected rejected publicly and privately publicly a dozen times by the Russians question for you Ambassador what kind of a mistake is it for Secretary of State Rubio to be touting a ceasefire that he knows the Russians have and will continue to reject

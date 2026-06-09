@@ -4,16 +4,18 @@ pub_date: 2026-04-16
 kind: transcript
 source_form: interview
 thread: wilkerson
-show: "Judging Freedom"
-host: "Andrew Napolitano"
-guest: "Lawrence Wilkerson"
+show: Judging Freedom
+host: Andrew Napolitano
+guest: Lawrence Wilkerson
 title: "COL. Lawrence Wilkerson : Will Israel Go Nuclear?"
 source_url: "https://www.youtube.com/watch?v=ih7CYro5gGs"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Transcript pasted manually by operator for canonical April 16 2026 Judging Freedom / Lawrence Wilkerson raw-input capture."
-editorial_note: "Light cleanup only for routing-safe punctuation, obvious spacing, and removal of clearly separable cold-open ad read and closing lineup promo."
+source_note: Transcript pasted manually by operator for canonical April 16 2026 Judging Freedom / Lawrence Wilkerson raw-input capture.
+editorial_note: Light cleanup only for routing-safe punctuation, obvious spacing, and removal of clearly separable cold-open ad read and closing lineup promo.
+opening_tier: host-tease
 ---
+
 # COL. Lawrence Wilkerson : Will Israel Go Nuclear?
 
 **Show:** Judging Freedom  

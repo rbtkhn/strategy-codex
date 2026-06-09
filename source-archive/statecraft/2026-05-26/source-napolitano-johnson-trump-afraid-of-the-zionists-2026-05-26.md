@@ -18,7 +18,9 @@ thread: johnson
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
 quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+opening_tier: host-tease
 ---
+
 # Larry Johnson: Trump Afraid of the Zionists
 
 ## Transcript

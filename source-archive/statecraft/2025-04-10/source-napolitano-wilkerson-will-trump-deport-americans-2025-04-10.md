@@ -12,12 +12,14 @@ source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
 source_url: "https://www.youtube.com/watch?v=4LcjHxKHNfs"
-source_note: "Operator-provided transcript materialized during Wilkerson April 2025 deepening."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+source_note: Operator-provided transcript materialized during Wilkerson April 2025 deepening.
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+opening_tier: host-tease
 ---
+
 # COL. Lawrence Wilkerson : Will Trump Deport Americans?
 
-Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, April 10th, 2024. My dear friend, Colonel Lawrence Wilkerson joins us now. Colonel Wilkerson. Uh a pleasure. Thank you very much for joining us. These are uh dark days and and unpleasant subject matters to discuss.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Thursday, April 10th, 2024. My dear friend, Colonel Lawrence Wilkerson joins us now. Colonel Wilkerson. Uh a pleasure. Thank you very much for joining us. These are uh dark days and and unpleasant subject matters to discuss.
 
 Do you have a moral objection to folks being swooped up off the streets in America and without any appearance before a judge, dispatched to a dungeon in a foreign country from which it appears there is no extrication or escape. Moral, ethical, and legal objections. And as I told one of my buddies this morning who was emailing me on the same subject, I said, "You know what we're doing here is the same thing George W.
 
@@ -136,4 +138,3 @@ His foreign minister spoke fluent English. He said to me in fluent English, he s
 Thank you so much for your passion, for your Thank you for your dedication to first principles, uh, which you never fail, no matter what we're talking about, and no matter who's in power. It's a pleasure to be your friend and colleague, Colonel. I hope you'll come back again next week. Well, let me just say thank you for yours.
 
 Thank you. You're getting to people and I Thank you. And I know you're going to be with Chief Sergeant Major Fritz. Please remind him that we love him. I'll do that. Thank you, Colonel. All the best. Take care. You too. And coming up at 3:00 this afternoon, the always worth waiting for Professor John Mirshimer, Judge Napolitano for judging freedom.
-[Music] [Music]

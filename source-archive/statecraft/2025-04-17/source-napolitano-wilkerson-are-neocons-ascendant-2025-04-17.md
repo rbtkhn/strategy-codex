@@ -11,12 +11,14 @@ title: "COL. Lawrence Wilkerson : Are Neocons Ascendant?"
 source_type: youtube
 transcript_type: operator_pasted_transcript
 capture_status: full-operator-paste
-source_note: "Operator-provided transcript materialized during Wilkerson April 2025 deepening. Direct YouTube watch URL remains unrecovered locally."
-quality_note: "Normalized from operator paste for readability; minor transcript noise may remain."
+source_note: Operator-provided transcript materialized during Wilkerson April 2025 deepening. Direct YouTube watch URL remains unrecovered locally.
+quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
+opening_tier: clean
 ---
+
 # COL. Lawrence Wilkerson : Are Neocons Ascendant?
 
-Heat. Heat. [Music] [Music] Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Thursday, April 17th, 2025. My dear friend, Colonel Lawrence Wilkerson joins us now. Colonel Wilkerson, a pleasure, my dear friend. I have a lot of questions uh to ask you principally about the ascendancy of neocons in uh the Trump administration.
+Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Thursday, April 17th, 2025. My dear friend, Colonel Lawrence Wilkerson joins us now. Colonel Wilkerson, a pleasure, my dear friend. I have a lot of questions uh to ask you principally about the ascendancy of neocons in uh the Trump administration.
 
 But but to to make our way there, do you think Trump is serious about negotiations uh with Iran? We we know that uh Mr. Witkoff, the chief negotiator, came back from the first round and said, "Looks like we're making a lot of progress. They're going to have enriched uranium for their domestic purposes, but none for military purposes."
 
@@ -119,4 +121,4 @@ Listen, I know Chuck Grassley uh very well. We had many, many communications whe
 
 I I as long as but he's in a position to do something about it. Yeah. If the Republicans in the Congress grew a backbone like the new president of Columbia University has, they could put a stop to all of this. The Congress is not doing its job. That's its purpose. And you know, it's its purpose under the Constitution. Yeah.
 
-Colonel, thank you very much, my dear friend. A happy Easter to you and your family. God love you, Colonel. Same to you. Take care. Thank you. Thank you. Uh, coming up at later this afternoon, but not too much longer, at 3:00, Professor John Mirshimer, judge Napolitano for judging freedom. [Music] [Music]
+Colonel, thank you very much, my dear friend. A happy Easter to you and your family. God love you, Colonel. Same to you. Take care. Thank you. Thank you. Uh, coming up at later this afternoon, but not too much longer, at 3:00, Professor John Mirshimer, judge Napolitano for judging freedom.
