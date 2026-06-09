@@ -1,6 +1,8 @@
 # Conceptual Framework — grace-mar
 
-**Purpose:** Encode the core distinctions so future AIs and developers can understand the system with minimal effort.
+> **Historical — Grace-Mar instance doctrine.** `strategy-codex` product objective is a governed interpretive machine, not fork growth. See [`product-identity.md`](product-identity.md) and [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md). Sections below apply on explicit **fork revive** only.
+
+**Purpose:** Encode the core distinctions so future AIs and developers can understand the legacy Grace-Mar instance with minimal effort.
 
 **Authority:** Subordinate to GRACE-MAR-CORE v2.0. No file may contradict GRACE-MAR-CORE.
 

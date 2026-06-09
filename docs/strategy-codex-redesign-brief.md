@@ -62,7 +62,7 @@
 | **Gate ergonomics** | `recursion-gate.md`, `scripts/preview_candidate_impact.py`, `scripts/build_gate_board.py`, `scripts/generate_gate_dashboard.py`, `apps/gate-review-app.py` | Single CLI: `codex gate list \| review \| diff \| merge` wrapping existing scripts | Thin `scripts/codex_cli.py` or `scripts/operator_gate.py` facade; no new merge authority |
 | **Schema-validated proposals** | `scripts/stage_gate_candidate.py`, `schema-registry/`, `review-queue/boundary-classifications/` | Machine-first candidates; human-readable gate board renders from JSON | Promote gate blocks to validated JSON; keep markdown export view |
 | **Context budgets declarative** | `config/context_budgets/`, `scripts/compress_active_lane.py`, `scripts/build_skill_cards.py` | Config-driven prepared context; fewer one-off scripts | One manifest: lane → budget → builders |
-| **Instance packaging** | repo-root `self.md`, `bot/`, `grace-mar-llm.txt`, `AGENTS.md` Grace-Mar framing | `strategy-codex` product root; companion as `instances/grace-mar/` or sibling repo | Document routing in `AGENTS.md` (started); move instance files in phased pass |
+| **Instance packaging** | repo-root `self.md`, `bot/`, `grace-mar-llm.txt` | **FROZEN** — operator backup; not growth objective | [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md); optional future `instances/grace-mar/` move |
 | **Voice render split** | `bot/prompt.py`, `scripts/generate_profile.py` | Prompt = policy + render; knowledge loaded from Record surfaces at query time | New candidates stop duplicating IX-A rows into prompt; render layer reads `self-knowledge.md` |
 | **Skill consolidation** | `.cursor/skills/*` (50+), `skills-portable/manifest.yaml` | ~8–12 primitives; recipes as thin manifests | Audit per [skills-portable-drift-audit-2026-05-22.md](../skills-portable/skills-portable-drift-audit-2026-05-22.md); merge overlapping statecraft-* intake/synthesis skills |
 | **Start-here map** | `docs/architecture.md`, `docs/layer-architecture.md`, scattered ADRs | One `docs/START-HERE.md` + system mermaid + links | This brief + membrane + two-channel as chapter 1 |
@@ -101,8 +101,7 @@ operator source
   → statecraft/synthesis/daily/<YYYY-MM-DD>.md         [governed adjacent]
   → statecraft/<lane>/transactions/<object>.md         [governed adjacent]
   → statecraft/civ-state/...                           [retrieval / volume]
-  → recursion-gate.md (optional)                       [IX-A/B/C only if companion-relevant]
-  → process_approved_candidates.py                     [Record — gated only]
+  → (fork revive only) recursion-gate.md → process_approved_candidates.py
 ```
 
 **Legacy parallel (freeze):** `strategy-notebook/raw-input/` + `days.md` compose — fold into `codex/` continuity without new verbatim mirrors.

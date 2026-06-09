@@ -1,12 +1,14 @@
 ---
 name: gate-review-pass
 preferred_activation: gate review
-description: "Read-only RECURSION-GATE review pass: ordered recommendations, duplicate/stale hints, escalation signals—companion decides; never merge into SELF/EVIDENCE/prompt or run process_approved_candidates without explicit companion approval and per-candidate id+summary echo (AGENTS). Triggers: review gate backlog, pending CANDIDATE-XXXX, what to approve defer or investigate next, gate-review-pass."
+description: "DEPRECATED default — fork revive only. Read-only RECURSION-GATE review when operator explicitly revives Grace-Mar archive lane. See docs/grace-mar-instance-boundary.md."
 ---
 
-# Gate Review Pass
+# Gate Review Pass — DEPRECATED (fork revive only)
 
-**Preferred activation (operator):** say the exact phrase **`gate review`**.
+**Record frozen by default.** Use only after **`fork revive`** or **`grace-mar archive`**. SSOT: [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md).
+
+**Preferred activation (operator):** **`gate review`** — only valid in fork revive context.
 
 Use this skill when the operator wants a structured review pass over pending candidates without taking action yet.
 

@@ -1,0 +1,23 @@
+# strategy-codex product config (WORK; not Record)
+# SSOT for operator defaults and Grace-Mar instance freeze posture.
+schema_version: "1.0.0"
+
+# Grace-Mar cognitive fork is operator-archived; growing the fork is not a system objective.
+record_frozen: true
+
+# Default harness / coffee / warmup user id (not the legacy grace-mar instance label).
+default_operator_user: strategy-codex
+
+# When record_frozen: prefer interpretive-machine health nudges over gate/capture-gap metrics.
+health_nudges:
+  - stale_archive_indices
+  - statecraft_daily_synthesis_validators
+  - ship_receipt
+  - channel_handoff
+
+# Explicit revive tokens (see docs/grace-mar-instance-boundary.md)
+fork_revive_tokens:
+  - grace-mar archive
+  - fork revive
+  - A gate
+  - "--territory companion"

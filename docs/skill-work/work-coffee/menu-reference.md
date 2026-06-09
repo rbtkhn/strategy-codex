@@ -216,7 +216,7 @@ After **`A — Steward`** (legacy tables below may still say **`B`** or **`E —
 
 | Letter | Signing-off add-on |
 |--------|---------------------|
-| **A** | **Steward** — same **single-track default** as work-start (**gate** if pending candidates, else **git/ship** when dirty tree or branch pressure is live, else **boundary hygiene**); **`A integrity`**, **`A git`**, **`A all`** when explicit. If handoff flagged **dirty tree / branch noise** → prefer **`A git`**; **manifest / derived churn** → **`A integrity`**. Follow-up: [Implement now vs Later](#steward-follow-up-fork-implement-now-vs-later). |
+| **A** | **Steward** — when **Record frozen** (default strategy-codex): **boundary hygiene** if live drift, else **git/ship** when dirty tree or branch pressure, else **integrity/exports**; **`A gate`** only on explicit **fork revive**. When Record is **not** frozen: **gate** if pending candidates, else same git/boundary rotation. **`A integrity`**, **`A git`**, **`A all`** when explicit. If handoff flagged **dirty tree / branch noise** → prefer **`A git`**; **manifest / derived churn** → **`A integrity`**. Follow-up: [Implement now vs Later](#steward-follow-up-fork-implement-now-vs-later). |
 | **B** | **Engineer** carryover from Step 1 when relevant; one concrete work-dev / skills step. |
 | **C** | Brief + strategy carryover only if **C** chosen; optional pointer to the next brief / strategy day. |
 | **D** | **Singularity** - singularity-academy module; use the workshop workflow and preserve WORK-only boundaries. |

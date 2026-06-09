@@ -1,5 +1,8 @@
 """
-Grace-Mar Telegram Bot
+Grace-Mar Telegram Bot — DEPRECATED (legacy Voice)
+
+Voice/bot is deprecated for strategy-codex operator work. See bot/DEPRECATED.md.
+Frozen Grace-Mar Record — fork revive only.
 
 A Telegram bot that responds as Grace-Mar, powered by her
 cognitive fork profile data and an OpenAI LLM backend.

@@ -11,12 +11,13 @@ description: >
 
 defaults:
   # Substitute in regenerate.shell when present: {repo_root}, {user}
-  user: grace-mar
+  user: strategy-codex
 
 entries:
   - id: gate-board
-    title: Gate Board
+    title: Gate Board (fork revive only)
     group: gate
+    legacy: true
     path: artifacts/gate-board.md
     doc: docs/gate-board.md
     kind: markdown
@@ -25,8 +26,9 @@ entries:
       cwd_repo_root: true
 
   - id: review-dashboard
-    title: Review dashboard (Approval Inbox)
+    title: Review dashboard (Approval Inbox — fork revive only)
     group: gate
+    legacy: true
     path: artifacts/review-dashboard.md
     kind: markdown
     regenerate:

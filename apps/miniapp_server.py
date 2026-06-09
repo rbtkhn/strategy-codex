@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Grace-Mar Q&A Mini App server.
+Grace-Mar Q&A Mini App server — DEPRECATED (legacy Voice).
+
+See bot/DEPRECATED.md. Fork revive / archaeology only for strategy-codex operator work.
 
 Serves the interactive Q&A Mini App and provides the /api/ask endpoint.
 Optional: Telegram webhook (when TELEGRAM_BOT_TOKEN and webhook URL are set).

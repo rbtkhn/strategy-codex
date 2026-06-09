@@ -1,12 +1,14 @@
 ---
 name: elicit-knowledge
 preferred_activation: elicit knowledge
-description: Topic-anchored history MCQ workflow that converts validated answers into merge-ready IX-A knowledge candidates in recursion-gate (no methodology framing, no placeholder suggested_entry). Use when the user asks to elicit knowledge and stage gate candidates.
+description: "DEPRECATED default — fork revive only. IX-A MCQ → recursion-gate when operator explicitly revives Grace-Mar archive. See docs/grace-mar-instance-boundary.md."
 ---
 
-# Elicit Knowledge -> Gate
+# Elicit Knowledge -> Gate — DEPRECATED (fork revive only)
 
-Use this skill when the operator wants to elicit historical knowledge from `self-library-bookshelf` and stage `recursion-gate` candidates.
+**Record frozen by default.** Use only after **`fork revive`**. SSOT: [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md).
+
+Use when the operator explicitly revives the fork lane and wants bookshelf MCQs staged to `recursion-gate`.
 
 ## Purpose
 

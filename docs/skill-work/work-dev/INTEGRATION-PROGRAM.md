@@ -5,6 +5,8 @@
 **Audience:** Operator, Cursor/Codex/Claude sessions, OpenClaw startup scripts.
 **Invariant:** Companion is always the gate. **Stage ≠ merge.**
 
+**strategy-codex default (2026):** Record is **frozen**; operator user id **`strategy-codex`**. Gate merge paths below apply only on explicit **`fork revive`** — see [`grace-mar-instance-boundary.md`](../../grace-mar-instance-boundary.md).
+
 **Related:** [PARALLEL-MACRO-ACTIONS.md](PARALLEL-MACRO-ACTIONS.md) (non-interfering branches), [session-continuity-contract.md](session-continuity-contract.md), [safety-story-ux.md](safety-story-ux.md).
 
 **Related research (discourse ingested; not operational law):**
@@ -27,20 +29,21 @@ Run in this order so **staged vs canonical** stays mentally straight:
 Optional proof-of-read:
 
 ```bash
-python scripts/continuity_read_log.py -u grace-mar
+python scripts/continuity_read_log.py -u strategy-codex
 ```
 
 New **agent chat** in repo (no memory):
 
 ```bash
-python scripts/harness_warmup.py -u grace-mar
+python scripts/harness_warmup.py -u strategy-codex
 # optional: --compact, --tail N
+# fork revive only: -u grace-mar
 ```
 
 Long OpenClaw sessions:
 
 ```bash
-python scripts/openclaw_heartbeat.py -u grace-mar
+python scripts/openclaw_heartbeat.py -u strategy-codex
 ```
 
 ---

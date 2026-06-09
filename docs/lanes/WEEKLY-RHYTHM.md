@@ -10,7 +10,7 @@ Run **once per week** (e.g. same calendar slot). Tick what you did; skip lanes t
 | 4 | **WPC** | One line in head: **doc-only** vs **one work-politics candidate staged** | â˜ |
 | 5 | **Civ-mem** | If active: one retrieval or index sanity check; no ship without human approval | â˜ |
 | 6 | **Operator** | Skim [operator-cognition.md](operator-cognition.md) north star â€” still true? | â˜ |
-| 7 | **Repo** | `python3 scripts/harness_warmup.py -u grace-mar --compact` pasted or run | â˜ |
+| 7 | **Repo** | `python3 scripts/harness_warmup.py -u strategy-codex --compact` pasted or run (`-u grace-mar` only on explicit **fork revive**) | â˜ |
 
 **Time box:** 30â€“90 min total; WPC brief can be the long pole.
 

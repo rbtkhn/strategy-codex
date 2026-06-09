@@ -431,6 +431,14 @@ def _top_priorities_header(user_id: str = DEFAULT_USER_ID) -> str:
     return "## Top priorities"
 
 
+def _record_frozen() -> bool:
+    try:
+        from strategy_codex_config import record_frozen
+    except ImportError:
+        from scripts.strategy_codex_config import record_frozen  # type: ignore
+    return record_frozen()
+
+
 def _priority_list(
     *,
     pending_all: list[tuple[str, str]],
@@ -438,16 +446,20 @@ def _priority_list(
     integrity_errors: list[str],
     politics_snapshot: dict[str, object],
     dirty_files: list[str],
+    frozen: bool = False,
 ) -> list[str]:
     priorities: list[str] = []
     if integrity_errors:
         priorities.append("Fix integrity failures before export or merge work.")
-    if pending_all:
-        priorities.append(
-            f"Review {len(pending_all)} pending gate candidate(s) in `recursion-gate.md` before they go stale."
-        )
-    if pending_politics:
-        priorities.append("Handle live work-politics gate items before creating more territory continuity.")
+    if not frozen:
+        if pending_all:
+            priorities.append(
+                f"Review {len(pending_all)} pending gate candidate(s) in `recursion-gate.md` before they go stale."
+            )
+        if pending_politics:
+            priorities.append(
+                "Handle live work-politics gate items before creating more territory continuity."
+            )
 
     blockers = politics_snapshot.get("territory_blockers") or []
     if blockers:
@@ -472,7 +484,14 @@ def _priority_list(
         deduped.append(item)
 
     if not deduped:
-        deduped.append("No urgent blockers detected. Pick the next highest-value work-politics or architecture task.")
+        if frozen:
+            deduped.append(
+                "Record frozen — interpretive machine: statecraft archive health, synthesis cadence, ship receipt."
+            )
+        else:
+            deduped.append(
+                "No urgent blockers detected. Pick the next highest-value work-politics or architecture task."
+            )
     return deduped[:3]
 
 
@@ -488,6 +507,7 @@ def build_operator_daily_warmup(
     evidence = _read(user_dir / "self-archive.md") or _read(user_dir / "self-evidence.md")
     session = _read(user_dir / "session-log.md")
 
+    frozen = _record_frozen()
     pending_all = _pending_candidates(recursion_gate, "all")
     pending_politics = _pending_candidates(recursion_gate, "pol")
     pending_companion = _pending_candidates(recursion_gate, "companion")
@@ -511,9 +531,14 @@ def build_operator_daily_warmup(
         "",
         f"- Generated: {ts}",
         f"- User: `{user_id}`",
-        f"- Gate pending: {len(pending_all)} total ({len(pending_politics)} work-politics, {len(pending_companion)} companion)",
     ]
-    if max_pending is not None and len(pending_all) > int(max_pending):
+    if frozen:
+        lines.append("- Record: **frozen** (fork revive: `fork revive` / `--territory companion`)")
+    else:
+        lines.append(
+            f"- Gate pending: {len(pending_all)} total ({len(pending_politics)} work-politics, {len(pending_companion)} companion)"
+        )
+    if not frozen and max_pending is not None and len(pending_all) > int(max_pending):
         lines.append(
             f"- **Gate backlog:** {len(pending_all)} pending exceeds `max_pending_candidates` ({max_pending}) in `config/fork-config.json` - review or merge soon."
         )
@@ -533,6 +558,7 @@ def build_operator_daily_warmup(
         integrity_errors=integrity_errors,
         politics_snapshot=politics_snapshot,
         dirty_files=dirty_files,
+        frozen=frozen,
     ):
         lines.append(f"- {item}")
 
@@ -592,12 +618,26 @@ def build_operator_daily_warmup(
         lines.append("_Run `python3 scripts/work_jiang/warmup_jiang_pulse.py -u %s` if import failed._" % user_id)
         lines.append("")
 
+    if frozen:
+        lines.extend(
+            [
+                "## Interpretive machine (Record frozen)",
+                "",
+                "- Fork-growth pipeline velocity hints suppressed. Focus: archive indices, daily synthesis, ship receipt.",
+                "",
+            ]
+        )
+    else:
+        lines.extend(
+            [
+                "## Pipeline velocity (operator depth)",
+                "",
+                f"- {velocity_oneliner(user_id)}",
+                "",
+            ]
+        )
     lines.extend(
         [
-            "## Pipeline velocity (operator depth)",
-            "",
-            f"- {velocity_oneliner(user_id)}",
-            "",
             "## Work-politics snapshot",
             "",
             f"- Primary date: {primary_label} ({days_until_primary} day(s) remaining)",

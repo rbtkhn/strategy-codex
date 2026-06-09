@@ -6,9 +6,9 @@
 
 ## What this repo is
 
-**strategy-codex** is a **governed interpretive machine**: verbatim sources land in archive; bounded synthesis and transactions carry judgment; optional gate promotion touches Record only with companion approval.
+**strategy-codex** is a **governed interpretive machine**: verbatim sources land in archive; bounded synthesis and transactions carry judgment under **statecraft** and **singularity**.
 
-It is **not** a single notebook blob and **not** an auto-merge identity system.
+Growing a personal cognitive fork is **not** a system objective. The Grace-Mar Record is **frozen** ([grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)). Gate promotion applies only on explicit **`fork revive`**.
 
 ---
 
@@ -16,12 +16,7 @@ It is **not** a single notebook blob and **not** an auto-merge identity system.
 
 ```mermaid
 flowchart TB
-  subgraph record [Record gated]
-    Self[self.md self-archive.md ...]
-    Gate[recursion-gate.md]
-  end
-
-  subgraph membrane [Work membrane]
+  subgraph membrane [Work membrane active]
     Archive[source-archive/statecraft]
     Daily[statecraft/daily]
     Tx[statecraft lane transactions]
@@ -32,11 +27,14 @@ flowchart TB
     SG[singularity]
   end
 
+  subgraph frozen [Frozen sidecar]
+    Record[self.md recursion-gate.md]
+  end
+
   Archive --> Daily --> Tx
-  Tx -.optional.-> Gate
-  Gate --> Self
   SC --> membrane
   SG --> singularity/
+  Tx -.fork revive only.-> Record
 ```
 
 **Membrane classes:** [work-membrane-v2.md](work-membrane-v2.md)  
@@ -51,10 +49,10 @@ operator source
   → source-archive/statecraft/<pub_date>/<slug>.md   [verbatim SSOT]
   → generated day/month/year/thread indices
   → statecraft/daily/<YYYY-MM-DD>.md                 [daily synthesis]
-  → statecraft/<lane>/transactions/<object>.md       [transaction object]
-  → recursion-gate.md (optional)                     [companion-relevant only]
-  → process_approved_candidates.py --apply           [Record — gated]
+  → statecraft/<lane>/transactions/<object>.md       [transaction object — default ceiling]
 ```
+
+Fork revive only (frozen): `recursion-gate.md` → `process_approved_candidates.py --apply`
 
 Full refactor map: [strategy-codex-redesign-brief.md](strategy-codex-redesign-brief.md)
 
@@ -93,19 +91,20 @@ python3 scripts/refresh_statecraft_archive_indices.py
 python3 scripts/refresh_statecraft_archive_indices.py --check
 ```
 
-### Gate review (sovereign merge unchanged)
+### Gate review (fork revive only — Record frozen by default)
 
 ```bash
 grace-mar gate board [-u USER]          # Kanban view → artifacts/gate-board.md
-grace-mar gate list [-u USER]           # Pending candidates + impact summary
+grace-mar gate list [-u USER]
 grace-mar gate diff CANDIDATE-XXXX [-u USER]
-grace-mar gate merge [-u USER]          # Wraps process_approved_candidates.py --apply
+grace-mar gate merge [-u USER]          # process_approved_candidates.py --apply
 ```
 
 ### Session warmup
 
 ```bash
-grace-mar warmup -u grace-mar --compact
+python3 scripts/operator_coffee.py -u strategy-codex --compact
+python3 scripts/harness_warmup.py -u strategy-codex --compact
 ```
 
 ### Daily synthesis structure (advisory in CI until shelf retrofit)
@@ -120,11 +119,14 @@ Skips legacy daily notes; enforces five-volume contract on migrated `YYYY-MM-DD.
 
 ```bash
 python3 scripts/check_statecraft_intake_daily_sync.py --day YYYY-MM-DD
+python3 scripts/check_statecraft_intake_daily_sync.py --latest   # CI advisory default
+python3 scripts/check_statecraft_intake_daily_sync.py --all                # backlog audit
+python3 scripts/check_statecraft_intake_daily_sync.py --all --desync-only  # desync rows only
 # Or after index refresh:
 python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM-DD
 ```
 
-Exit `1` on desync; does not auto-edit daily synthesis.
+Exit `1` on desync; does not auto-edit daily synthesis. `--latest` picks the newest archive day with at least one source file.
 
 ---
 
@@ -132,6 +134,9 @@ Exit `1` on desync; does not auto-edit daily synthesis.
 
 | Need | Path |
 |------|------|
+| Product identity | [product-identity.md](product-identity.md) |
+| Grace-Mar freeze / revive | [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md) |
+| Deprecated surfaces index | [deprecated-surfaces.md](deprecated-surfaces.md) |
 | Statecraft front door | [statecraft/README.md](../statecraft/README.md) |
 | Archive SSOT | [source-archive/statecraft/README.md](../source-archive/statecraft/README.md) |
 | Daily method | [statecraft/daily/METHOD.md](../statecraft/daily/METHOD.md) |

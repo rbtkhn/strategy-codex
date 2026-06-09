@@ -35,7 +35,7 @@ Reuse this skeleton **every time** you delegate a **new task type** to an extern
 ### 3. Context payload
 
 - If the tool **forgets:** attach **export + read-order pointers** from [INTEGRATION-PROGRAM.md](INTEGRATION-PROGRAM.md) § 1–2.
-- **Grace-mar reference commands:** `python scripts/harness_warmup.py -u grace-mar` (paste digest), `python scripts/continuity_read_log.py -u grace-mar`, `python integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event` (paths/adjust user id per instance).
+- **Strategy-codex reference commands (default):** `python scripts/harness_warmup.py -u strategy-codex` (paste digest), `python scripts/continuity_read_log.py -u strategy-codex`, `python integrations/openclaw_hook.py --user strategy-codex --format md+manifest --emit-event`. Use `-u grace-mar` only on explicit **fork revive** ([`grace-mar-instance-boundary.md`](../../grace-mar-instance-boundary.md)).
 
 ### 4. Verification checkpoints
 

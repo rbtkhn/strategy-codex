@@ -22,7 +22,7 @@ Layers stack; none replaces the companion gate or merge authority.
 
 ### Layer 1 â€” Canonical files (human or agent must *read*)
 
-For user id `[id]` (e.g. `grace-mar`), **before** substantive work in a shared workspace:
+For user id `[id]` (default **`strategy-codex`**; **`grace-mar`** only on explicit fork revive), **before** substantive work in a shared workspace:
 
 | Path | Role |
 |------|------|
@@ -38,10 +38,10 @@ Full checklist and OpenClaw patterns: [openclaw-integration.md Â§ Session cont
 
 | Script | What it does |
 |--------|----------------|
-| `python scripts/continuity_read_log.py -u grace-mar` | Verifies the three continuity files **exist**, logs a JSONL line to `continuity-log.jsonl` (audit trail). Does **not** merge into the Record. Use `--dry-run` to print payload only. |
-| `python scripts/harness_warmup.py -u grace-mar` | Emits a **pasteable** digest (gate tail, EVIDENCE ACT-, session-log narrative tail) for **new Cursor/agent threads** â€” still requires **pasting** into the session; not automatic recall. |
-| `python scripts/session_brief.py -u grace-mar` | Short operator brief (alternative to manual file skim). |
-| `python scripts/openclaw_heartbeat.py -u grace-mar` | Periodic pulse for long OpenClaw runs. |
+| `python scripts/continuity_read_log.py -u strategy-codex` | Verifies continuity files **exist**, logs a JSONL line to `continuity-log.jsonl` (audit trail). Does **not** merge into the Record. Use `--dry-run` to print payload only. |
+| `python scripts/harness_warmup.py -u strategy-codex` | Emits a **pasteable** digest for **new Cursor/agent threads** â€” Record frozen by default (interpretive-machine health, not gate nudges). Still requires **pasting**; not automatic recall. |
+| `python scripts/session_brief.py -u strategy-codex` | Short operator brief (alternative to manual file skim). Fork revive: `-u grace-mar`. |
+| `python scripts/openclaw_heartbeat.py -u strategy-codex` | Periodic pulse for long OpenClaw runs. |
 
 **Contract:** â€œWe ran continuityâ€ can mean **either** a human read the files **or** a documented script ran **and** its output was used â€” not â€œthe model was warm.â€
 

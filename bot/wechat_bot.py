@@ -1,5 +1,7 @@
 """
-Grace-Mar WeChat Bot
+Grace-Mar WeChat Bot — DEPRECATED (legacy Voice)
+
+See bot/DEPRECATED.md. Fork revive / archaeology only for strategy-codex operator work.
 
 A WeChat Official Account (公众号) bot that responds as Grace-Mar.
 Uses the same emulation core as the Telegram bot. Requires a web server

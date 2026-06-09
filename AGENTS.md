@@ -8,7 +8,9 @@ This file defines rules for any AI coding assistant working on this repository.
 
 **Repo vs template (legacy only):** Older docs describe an upstream `companion-self` template relationship and an embedded Grace-Mar reference instance. Treat those as historical context for migration archaeology, not a standing instruction to clone, diff, or reconcile companion-self during active strategy-codex sessions.
 
-**For conceptual clarity:** Read `docs/conceptual-framework.md` â€” Record vs. fork, Voice vs. bot, fork vs. twin, terminology. **Prime directive:** The Record belongs to the companion (GRACE-MAR-CORE Â§I).
+**Product identity:** [`docs/product-identity.md`](docs/product-identity.md) — governed interpretive machine (`statecraft` + `singularity`). **Grace-Mar fork freeze:** [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md) — growing the cognitive fork is not a system objective; Record is operator-archived (`config/strategy_codex.yaml`: `record_frozen: true`).
+
+**For conceptual clarity (legacy instance):** Read `docs/conceptual-framework.md` â€” Record vs. fork, Voice vs. bot, fork vs. twin, terminology. Applies when operator explicitly invokes **`fork revive`** or **`grace-mar archive`**.
 
 **For system design:** Read `docs/architecture.md` (includes forced-absorption risk pattern and convenience-path defenses). For the formal skill modularity model (THINK/WRITE boundaries, separate work/execution layer, Voice and profile as functions of skill-write, invariants), see `docs/skills-modularity.md`. For the typed non-Record membrane and the lane overlays for `statecraft` and `singularity`, see `docs/work-membrane-v2.md`, `statecraft/work-membrane.md`, and `singularity/work-membrane.md`.
 For the normal operator routing model, see `docs/operator-two-channel-architecture.md`.
@@ -19,7 +21,7 @@ For the normal operator routing model, see `docs/operator-two-channel-architectu
 
 **Design alignment:** This repo still carries legacy Grace-Mar / 5000 Days framing in some embedded materials - abundance, identity beyond productivity, conductor workflow, symbiosis (human holds the reins), interregnum fortification (Part 14). For active strategy-codex work, treat that as historical or embedded context unless the operator invokes it directly.
 
-**Triadic cognition:** **Mind** (human) + **Record** + **Voice** - a **triad** (one human part, two digital parts). The Grace-Mar reference instance inside this repo **hosts** Record and Voice for that companion; the companion-self **architecture** defines how those digital parts work across instances. The **work execution layer** (operator, assistant, scripts on skill-work and work territories) is **instrumental** (drafts, stages); **not** a fourth part of the triad. **Companion self** = human-computer triadic cognition. **Tricameral mind** is an accepted synonym (e.g. prompts). Mind holds authority; the Record reflects; the Voice speaks when queried. The current Voice is reactive; future versions may include agentic Voice modalities (distinct from skill-work execution). New features should reinforce this structure. See CONCEPTUAL-FRAMEWORK invariant 35, 37, 38, and section 8.
+**Operator model (default):** **Mind** (operator) + **work execution layer** (assistant, scripts, `statecraft/`, `singularity/`). Two primary channels per [`docs/operator-two-channel-architecture.md`](docs/operator-two-channel-architecture.md). **Legacy — triadic cognition (frozen Grace-Mar instance):** Mind + Record + Voice — historical instance doctrine only; Voice/bot deprecated. See CONCEPTUAL-FRAMEWORK §8 when reviving archive work.
 
 **SKILLS (Record-bound):** Use **self-skill-think**, **self-skill-write**, **self-skill-work**, and **self-skill-steward** as the **conceptual labels** for Record-bound capabilities. In this repo's active root layout, the concrete split skill files are **`skill-think.md`**, **`skill-write.md`**, and **`skill-steward.md`**, while **`self-skills.md`** remains the canonical capability index. Treat any future **`self-skill-*.md`** filenames here as migration-only or template-specific unless doctrine explicitly promotes them. See [id-taxonomy.md](docs/id-taxonomy.md), [skills-modularity.md](docs/skills-modularity.md), and [canonical-paths.md](docs/canonical-paths.md). **THINK doctrine (intake vs identity vs work):** [docs/skill-think/README.md](docs/skill-think/README.md). **Skill lifecycle (discovery ladder):** `skills-portable/README.md` â€” pointer â†’ draft â†’ listed. **Skill validation:** `python3 scripts/validate_skills.py`.
 
@@ -29,7 +31,7 @@ For the normal operator routing model, see `docs/operator-two-channel-architectu
 
 Assistants and automation in this repo are limited to the **routing** layer unless a human explicitly runs a merge:
 
-- **Allowed (routing):** Detect signals; structure IX-A / IX-B / IX-C candidates; stage proposals in `recursion-gate.md` with evidence; cluster or dedupe suggestions in operator tooling.
+- **Allowed (routing):** Statecraft/singularity WORK routing, archive→synthesis promotion, integrity/boundary/git stewardship. **Fork revive only:** detect signals; stage IX-A/B/C in `recursion-gate.md` when operator says **`fork revive`**, **`grace-mar archive`**, or equivalent (see boundary doc).
 - **Prohibited without human gate (sensemaking and accountability):** Auto-approve, auto-merge, or silently resolve conflicting candidates; substitute deep personal or ethical judgment for companion review; overwrite user intent.
 
 When uncertain, stage with an explicit note that **human sensemaking** may be requiredâ€”never merge without companion approval. Full framing: [`docs/governance-unbundling.md`](docs/governance-unbundling.md).
@@ -38,9 +40,11 @@ When uncertain, stage with an explicit note that **human sensemaking** may be re
 
 ## What This System Is
 
-A **cognitive fork** â€” a structured, versioned record of an individual's cognitive development, initialized from a real person and growing through curated interactions. Preferred terms: **Record** (the fork) and **Voice** (the bot). The Record exists inside the companion's mind. The Voice (`bot/`) provides an emulation layer: an **observation window** and the **queryable voice** of the Record â€” it responds when queried, never unbidden. "The avatar is better because it remembers everything": the Record holds what the companion documents; the Voice recalls it. Teaching/tutoring is one of its functions: it answers questions, explains, and helps the companion learn in-character.
+A **governed interpretive machine** — verbatim sources land in archive; bounded synthesis and transaction objects carry judgment under **statecraft** and **singularity**. Durable operator work ends at **governed adjacent** surfaces unless the operator explicitly revives the Grace-Mar fork lane. See [`docs/product-identity.md`](docs/product-identity.md) and [`statecraft/essays/from-accumulation-to-governed-interpretive-machine.md`](statecraft/essays/from-accumulation-to-governed-interpretive-machine.md).
 
-**Conceptual distinctions (see conceptual-framework.md):**
+**Legacy — Grace-Mar cognitive fork (frozen sidecar):** A versioned personal Record (`self.md`, `self-archive.md`, …) and deprecated Voice (`bot/`) remain at repo root for archaeology and explicit revive only. Do not treat fork growth as the product objective. [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
+
+**Legacy conceptual distinctions** (Grace-Mar instance; fork revive only — see conceptual-framework.md):
 - **Companion** â€” The person whose Record it is (the human in **triadic cognition** â€” Mind in the triad). Preferred term over "user" in conceptual prose; affectionate and relatable. **Framing:** The human is Grace-Mar's companion â€” the Record and Voice are accompanied by the human, who holds authority and meaning. Grace-Mar serves the companion; the companion serves Grace-Mar.
 - **Record and Voice** â€” The Record is the documented self; the Voice speaks the Record when queried. Self = Record + Voice (the thing you can talk to).
 - **Companion self** â€” One phrase for both sides of the dyad: the companion's self (the human's self, externalized in the Record) and the self that companions (the Record and Voice that accompany the human). The ambiguity is intentional; see CONCEPTUAL-FRAMEWORK (companion self). **Companion self contains:** **self-knowledge** (**SELF-KNOWLEDGE**, IX-A), **self-curiosity** (IX-B), **self-personality** (IX-C), **self-skill-think**, **self-skill-write**, **self-skill-work**, **self-skill-steward** (optional STEWARD split), **self-archive**, **self-library** (**SELF-LIBRARY**; CIV-MEM subdomain), **self-memory**, **self-voice** (see [ID-TAXONOMY â€” Capitalization and format](docs/id-taxonomy.md#capitalization-and-format), [boundary-self-knowledge-self-library.md](docs/boundary-self-knowledge-self-library.md)). Work territories are adjacent execution surfaces, not self-skills.
@@ -100,9 +104,11 @@ This system uses a **four-layer instruction architecture**. Later layers may nar
 
 The emulated self can only know what is explicitly documented in its profile (`self.md`). The emulation prompt (`bot/prompt.py`) enforces this. **Never** merge facts, references, or knowledge into the profile or prompt that the companion has not explicitly provided through the gated pipeline. LLM training data must not leak into the fork. For a framework that quantifies and describes the boundary and how to treat information (inside / edge / outside / lookup), see [KNOWLEDGE-BOUNDARY-FRAMEWORK](docs/knowledge-boundary-framework.md). **Runtime / pre-gate abstention** (uncertainty envelopes, fabricated-history screening â€” advisory, not merge authority) is documented in [docs/abstention-policy.md](docs/abstention-policy.md).
 
-### 2. Gated Pipeline â€” The Sovereign Merge Rule
+### 2. Gated Pipeline â€” The Sovereign Merge Rule (explicit fork revive only)
 
-*The agent may stage. It may not merge.* All profile changes pass through a companion-controlled gate:
+**Default:** Do not stage gate candidates or offer gate review. Record is frozen per [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
+
+When the operator **explicitly revives** the fork lane (`fork revive`, `grace-mar archive`, coffee **`A gate`**, etc.): *The agent may stage. It may not merge.* Profile changes pass through a companion-controlled gate:
 
 1. Detect signals (knowledge, curiosity, personality)
 2. Stage candidates in `recursion-gate.md` (shared queue â€” Telegram, WeChat, operator, tests; `channel_key` marks source)
@@ -112,11 +118,11 @@ The emulated self can only know what is explicitly documented in its profile (`s
 **Never** merge directly into self.md, self-archive.md (EVIDENCE), or prompt.py without staging and approval. See `docs/identity-fork-protocol.md` for the full protocol spec. **Companion-reported content** (e.g. "we listened to X", "merge X into grace-mar") must be staged as candidate(s) in RECURSION-GATE and merged only after companion approval â€” do not merge on report alone.
 **Reference implementation note:** Grace-Mar runs in manual-gate mode. No autonomous merge path is enabled.
 
-### 3. The "we" Convention
+### 3. The "we" Convention (fork revive only)
 
-When the companion says **"we [did X]"**, it is a pipeline invocation. Immediately run signal detection and stage candidates. Do not acknowledge and wait â€” go straight to analysis in the same response. When the operator says **"we finished [book]"** or **"we read [title]"**, run signal detection and stage a candidate that can create a READ-* entry (or a LEARN-* / curiosity candidate that references the book so THINK and SELF.IX can be updated on approval). Do not ignore book-completion signals. See pipeline-map Â§ READ for the convention.
+**Default (Record frozen):** **"we [did X]"** in work-politics, statecraft, or singularity lanes is normal operator phrasing — route to the active WORK lane; do **not** auto-stage RECURSION-GATE candidates.
 
-**Book-completion signals:** When the operator says **"we finished [title]"** or **"we read [title]"**, run signal detection and stage a candidate that can create a READ-* entry in EVIDENCE (or a LEARN-* / curiosity candidate referencing the book so THINK and SELF.IX can be updated on approval). Do not ignore these signals.
+**Fork revive only:** When the operator has explicitly reopened the fork lane and says **"we [did X]"** with companion/identity intent, or **"we finished [book]"** / **"we read [title]"** for Record growth, run signal detection and stage candidates per pipeline-map Â§ READ. Do not merge without approval.
 
 ### 4. No "Parent" Language
 

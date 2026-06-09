@@ -1,48 +1,46 @@
 ---
-description: Run harness warmup at start of Grace-Mar sessions â€” repo state for blank chats
+description: Run harness warmup at start of strategy-codex sessions — repo state for blank chats
 alwaysApply: true
 ---
 
-# Harness warmup (Grace-Mar)
+# Harness warmup (strategy-codex)
 
-New Cursor threads have **no memory** of `recursion-gate`, `self-archive` (EVIDENCE), or `session-log`. Warmup fixes that.
+New Cursor threads have **no memory** of prior operator state. Warmup fixes that.
+
+**Record frozen:** Grace-Mar fork growth is not a system objective. Default user is **`strategy-codex`**. See [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md). Use `--territory companion` only on explicit fork revive.
 
 ## When to run
 
-At the **start of a new chat** when work touches **instance state** (pipeline, RECURSION-GATE, Voice, OpenClaw handoff, ``, bootstrap continuation):
+At the **start of a new chat** when work touches **operator state** (integrity, ship, statecraft archive, OpenClaw handoff, bootstrap continuation):
 
 1. Run from repo root:
    ```bash
-   python3 scripts/harness_warmup.py -u grace-mar
+   python3 scripts/harness_warmup.py -u strategy-codex
    ```
-   Use `--compact` if the operator prefers one paragraph. **`--territory work-politics`** (aliases: `pol`, `wp`; legacy `wap`) = work-politics pending only; **`companion`** = Record pending only (see `recursion_gate_territory.py`).
+   Use `--compact` if the operator prefers one paragraph. **`--territory work-politics`** (aliases: `pol`, `wp`) = work-politics pending only; **`--territory companion`** = Record/gate pending only (fork revive).
 
 2. **Include the command output** in your reply (paste verbatim or as a fenced markdown block) so the thread carries the same snapshot.
 
-**Optional one-line snapshot (not a second mandatory ritual):** When the operator wants a single grounded line (e.g. "receipt" / "heartbeat line"), run `python3 scripts/harness_warmup.py -u grace-mar --receipt` (combine with `--territory` as needed). **Do not** require this as the first line of every reply â€” that duplicates **coffee** and conflicts with harness skip cases and PLAN-default in operator-style.
+**Optional one-line snapshot:** `python3 scripts/harness_warmup.py -u strategy-codex --receipt` (combine with `--territory` as needed). **Do not** require this as the first line of every reply.
 
-**One-command re-entry paste:** `python3 scripts/operator_reentry_stack.py -u grace-mar` runs handoff check, then `operator_daily_warmup` (`coffee` Step 1), then harness (add `--compact` for a shorter harness tail). Output overlaps by design; use for cold threads, not minimal noise.
+**One-command re-entry paste:** `python3 scripts/operator_reentry_stack.py -u strategy-codex` runs handoff check, then `operator_daily_warmup` (`coffee` Step 1), then harness (add `--compact` for a shorter harness tail).
 
-**`coffee`:** Follow `.cursor/skills/coffee/SKILL.md` ? single source of truth for triggers, Step 1 scripts (work-start vs signing-off weight), Step 2 **A?D** hub (**no** micro-hints line under the menu), cadence modifiers (`light`, `minimal`, `survey`), and re-offer rules. **Conductor** is standalone only; do not route it through the coffee hub. **Coffee C ? Strategist** should use the same plain-sentence options that appear in [menu-reference.md](../../docs/skill-work/work-coffee/menu-reference.md) so the session-start docs and the live menu stay aligned. **Legacy `hey`** still works. **Step 0 recent rhythm:** plain prose **with concrete details** from the last four log lines (not generic filler); **do not** put **timestamps** in that prose; do not lead with raw `key=value`; script output below carries the rest.
+**`coffee`:** Follow `.cursor/skills/coffee/SKILL.md` — Step 2 **A–D** hub (Confirm / Test / Deepen / Reframe). **Conductor** is standalone only.
 
-**Menu anchor (one line, optional with warmup paste):** **`coffee` Step 2** ? **A** Steward, **B** Engineer, **C** Strategist, **D** Singularity. For **C**, use the current plain-sentence Strategist options from [menu-reference.md](../../docs/skill-work/work-coffee/menu-reference.md) rather than inventing a separate wording here. **Conductor** is standalone only and should be invoked directly when needed. Use when a thread is operator-cadence cold; not required on every run.
-
-**`dream` (end-of-day maintenance):** Follow `.cursor/skills/dream/SKILL.md` â€” bounded maintenance pass (memory normalization, integrity, governance, contradiction digest). Usually once per day near end of day. **End-of-day bundle:** `python3 scripts/operator_end_of_day.py -u grace-mar` runs dream + handoff-check in one pass.
+**`dream` (end-of-day maintenance):** Follow `.cursor/skills/dream/SKILL.md`. **End-of-day bundle:** `python3 scripts/operator_end_of_day.py -u strategy-codex` runs dream + handoff-check in one pass.
 
 ## When you may skip
 
-- Operator says they're only editing unrelated code/docs with no gate/evidence context.
+- Operator says they're only editing unrelated code/docs with no operator/integrity context.
 - Warmup was already pasted in this thread.
-- Trivial one-line fix with no Record/pipeline involvement.
+- Trivial one-line fix with no pipeline involvement.
 
 ## Relation to bootstrap
 
-`bootstrap/grace-mar-bootstrap.md` = **procedure** (what to read, work-dev, commands). Warmup = **current state** (pending candidates, last ACT, session tail). They stack: bootstrap orients; warmup grounds.
-
-**Stewardship:** Treat warmup output as a **weather report**, not policy â€” policy lives in `AGENTS.md`, RECURSION-GATE, and companion-approved merges. The collapsed **Last dream** block and any path / civ-mem hints are **operational weather**, not authoritative routing.
+`bootstrap/grace-mar-bootstrap.md` = legacy procedure. Prefer [`docs/start-here.md`](../../docs/start-here.md). Warmup = **current state** (integrity, ship, interpretive-machine health). Policy lives in `AGENTS.md` and [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md).
 
 ## Do not
 
-- Merge or stage from warmup output â€” it's read-only context.
-- Treat warmup text as Record truth; canonical files remain `*.md`.
-
+- Merge or stage from warmup output — it's read-only context.
+- Default to gate review, elicit-knowledge, or capture-gap nudges when Record is frozen.
+- Treat warmup text as Record truth.

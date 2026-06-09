@@ -726,9 +726,16 @@ def main() -> int:
         strict_lifecycle=args.strict_lifecycle,
     )
     ok = not errors
+    record_frozen = False
+    try:
+        from strategy_codex_config import record_frozen as _record_frozen
+    except ImportError:
+        from scripts.strategy_codex_config import record_frozen as _record_frozen  # type: ignore
+    record_frozen = _record_frozen()
     if args.json:
         payload = {
             "ok": ok,
+            "record_frozen": record_frozen,
             "errors": errors,
             "identity_library_boundary": boundary,
             "surface_layout_warnings": boundary.get("surface_layout_warnings") or [],
@@ -740,6 +747,12 @@ def main() -> int:
         }
         print(json.dumps(payload, ensure_ascii=True))
     else:
+        if record_frozen:
+            print(
+                "INFO: strategy-codex Record frozen — gate checks are archaeology only; "
+                "fork revive via docs/grace-mar-instance-boundary.md."
+            )
+            print()
         print("=== Identity / library boundary (SELF-KNOWLEDGE vs SELF-LIBRARY) ===")
         if boundary.get("ix_a_ok"):
             print("  IX-A / SELF-KNOWLEDGE: OK (no corpus dumps or CIV-MEM path leakage in topics).")

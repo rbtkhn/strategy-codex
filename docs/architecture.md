@@ -1,5 +1,7 @@
 ﻿# GRACE-MAR Architecture
 
+> **strategy-codex product (2026):** Active operator objective is the **governed interpretive machine** (archive → synthesis → transactions), not fork growth. The Grace-Mar **Record is frozen** and **Voice/bot is deprecated** at repo root. This document remains the historical architecture spec for the embedded fork; see [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md), [product-identity.md](product-identity.md), and [deprecated-surfaces.md](deprecated-surfaces.md).
+
 **Governed by**: [GRACE-MAR-CORE v2.0](grace-mar-core.md)
 
 Terminology primer: see [glossary.md](glossary.md) for canonical definitions of Grace-Mar terms (Record, Voice, companion, recursion-gate).

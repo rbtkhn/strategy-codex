@@ -88,6 +88,16 @@ def _load_approaching_seeds(user_id: str) -> list[dict[str, Any]]:
 
 def suggest_best_move(user_id: str = DEFAULT_USER_ID) -> dict[str, Any]:
     """Compute the single best next action. Returns dict with move, source, rationale."""
+    try:
+        from strategy_codex_config import record_frozen, interpretive_machine_health_hint
+    except ImportError:
+        from scripts.strategy_codex_config import record_frozen, interpretive_machine_health_hint  # type: ignore
+    if record_frozen():
+        return {
+            "move": interpretive_machine_health_hint(),
+            "source": "interpretive_machine",
+            "rationale": "Grace-Mar Record frozen; default to statecraft/singularity lane work",
+        }
     candidates = _load_gate_candidates(user_id)
     pending = [c for c in candidates if c.get("status") == "pending"]
 

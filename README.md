@@ -1,14 +1,14 @@
 ﻿# strategy-codex
 
-**strategy-codex** - The active development repo for strategy-first companion systems, notebook tooling, and governed cognitive-fork infrastructure. It currently carries the **Grace-Mar** reference instance plus related strategy and civ-mem surfaces. **Terminology:** [docs/glossary.md](docs/glossary.md).
+**strategy-codex** — A **governed interpretive machine** for statecraft and singularity operator work: archive → synthesis → transactions. **Product identity:** [docs/product-identity.md](docs/product-identity.md). **Terminology:** [docs/glossary.md](docs/glossary.md).
 
-**Repo identity:** `strategy-codex` is now the development home. The reference surfaces now live at the repository root (`self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `self-skills.md`, `self-library.md`, and `self-llm.txt`) rather than under a nested instance directory.
+**Grace-Mar fork (frozen):** Growing a personal cognitive fork is **not** a system objective. The embedded Record at repo root is operator-archived; Voice/bot is deprecated. See [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md).
 
 **Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
 
 **New here?** Plain-language orientation and audience paths: [docs/start-here.md](docs/start-here.md) â€” quick pick [Choose your path](docs/start-here.md#choose-your-path) (Aâ€“F).
 
-If you come from **OB1-style** memory systems (dashboard, recipes, imports, review queue), the quickest mental model is: the repo has a **Library**, **Skills**, **Evidence** log, **workflow** lanes, and an **Approval Inbox** (`recursion-gate.md`). Durable Record changes are **gated**, not auto-merged. **[Coming from OB1? Start here â†’](docs/start-here-ob1-users.md)**
+If you come from **OB1-style** memory systems, see [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md) for the **legacy** Grace-Mar gate mapping. **Default onboarding:** [docs/start-here.md](docs/start-here.md) (interpretive machine, not fork growth).
 
 ## Claude Code surfaces
 
@@ -16,10 +16,10 @@ If you come from **Claude Code** workflows, the fastest mental model is:
 
 - **Skills** â†’ the repo has portable skills plus skill-adjacent runtime helpers and operator doctrine.
 - **Commands / workflows** â†’ the repo has explicit operator flows for retrieval, compression, prepared context, review, and export.
-- **Memory** â†’ the repo separates **runtime memory** from the **canonical Record**; runtime recall can assist, but durable truth stays gated.
+- **Memory** â†’ the repo separates **runtime memory** from the **canonical Record**; active work uses WORK continuity (`self-memory.md`), not fork growth.
 - **Rules / boundaries** â†’ the repo uses explicit boundary docs, source-of-truth order, authority mapping, and no-merge-without-approval constraints.
-- **Review queue** â†’ durable changes flow through the **Approval Inbox** (`recursion-gate.md`) and related review artifacts, not silent mutation.
-- **Reference state** â†’ the forkâ€™s canonical surfaces are **SELF**, **SELF-LIBRARY**, **SKILLS**, and **EVIDENCE**.
+- **Review queue** â†’ **legacy** fork changes used `recursion-gate.md` (frozen; fork revive only).
+- **Reference state** â†’ **SELF-LIBRARY** / CIV-MEM stay active for retrieval; embedded SELF/EVIDENCE are archived.
 
 A simple Claude Code-style translation is:
 
@@ -29,8 +29,8 @@ A simple Claude Code-style translation is:
 | Commands / orchestrations | retrieval, compression, export, and review scripts under `scripts/` |
 | Memory | `runtime/`, `prepared-context/`, and runtime observation flows |
 | Rules / instructions | boundary docs, authority map, source-of-truth order, runtime-vs-Record rules |
-| Review / approval | `recursion-gate.md`, review queue artifacts, gate-review workflow |
-| Durable state | **SELF**, **SELF-LIBRARY**, **SKILLS**, **EVIDENCE** |
+| Review / approval | **Legacy:** `recursion-gate.md` (fork revive only) |
+| Durable state | **Active reference:** SELF-LIBRARY / CIV-MEM; **archived:** embedded SELF / EVIDENCE |
 
 Start here:
 
@@ -38,17 +38,15 @@ Start here:
 - **Runtime vs Record** â†’ [docs/runtime-vs-record.md](docs/runtime-vs-record.md)
 - **Start-here guide** â†’ [docs/start-here.md](docs/start-here.md)
 - **OB1-style translation** â†’ [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md)
-- Want to see the system in motion? Read [docs/orchestration/memory-brief-to-gate-demo.md](docs/orchestration/memory-brief-to-gate-demo.md).
+- Want the active operator loop? [statecraft/README.md](statecraft/README.md) and [docs/start-here.md](docs/start-here.md). Legacy gate demo: [docs/orchestration/memory-brief-to-gate-demo.md](docs/orchestration/memory-brief-to-gate-demo.md).
 - Want the operator-facing interface map? See [docs/claude-surface-contract.md](docs/claude-surface-contract.md).
 - **Portability** â†’ [docs/portable-working-identity.md](docs/portable-working-identity.md) â€” how the existing architecture maps to portable working-intelligence layers
 
 ## Concept
 
-The cognitive fork exists inside the user's mind â€” their mental model of an individual, made explicit and structured. The **Record** is not a single blob: it has **four first-class surfaces** â€” **SELF** (identity, including **SELF-KNOWLEDGE** and optional **self-identity** split commitments), **SELF-LIBRARY** (governed **reference** domains, including **CIV-MEM**), **SKILLS** (capability), and **EVIDENCE** (activity and artifacts). Identity and library are **separate**: civilization-scale reference lives in SELF-LIBRARY, not in SELF-KNOWLEDGE. The fork also tracks what the companion can do (skills) and what happened (evidence). Work territories handle planning and execution without redefining the Record. Queryable, evidence-grounded, gated.
+**Active objective:** Operate a governed interpretive machine — [source-archive/statecraft/](source-archive/statecraft/README.md) → [statecraft/daily/](statecraft/daily/METHOD.md) → [statecraft/](statecraft/README.md) lane objects under **statecraft** and **singularity** channels. See [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md).
 
-The fork grows only through what the user explicitly provides. An optional emulation layer (Telegram and/or WeChat bots) acts as an observation window and teaching/tutoring interface â€” a channel through which the user selectively exposes thoughts and learns from the fork's voice.
-
-**What we're building for:** Companion authority over the Record; evidence-linked growth; seam visible (benefit vs. harm disclosed); no merge without approval. Aligned with condition-derived ethics: [AI Ethics from the Condition](docs/civilization-memory/essays/AI-ETHICS-FROM-THE-CONDITION.md).
+**Frozen legacy:** The Grace-Mar cognitive fork (SELF, EVIDENCE, recursion-gate) and Voice bots remain for archaeology and explicit **`fork revive`** only. `self-library.md` / CIV-MEM stay active as **reference** for statecraft retrieval. [`self-memory.md`](self-memory.md) is WORK continuity, not Record.
 
 ## Architecture
 
@@ -69,7 +67,7 @@ Core modules:
 | **SKILLS** | THINK and WRITE capability containers | What the Record can evidence about what they CAN DO â€” **THINK** operator doctrine: [docs/skill-think/README.md](docs/skill-think/README.md) |
 | **WORK LAYER** | `work-*` territories and instance work contexts | Planning, execution, delivery, and tool-using work outside the self-skill taxonomy |
 
-Identity and capability should not be collapsed. In practice: **SELF** owns who Grace-Mar is and how she comes across; **SKILLS** owns what she can reliably do and how far that competence currently reaches. The **Voice** should sound identity-facing even when **WRITE** is constraining the feasible quality of the output.
+Identity and capability should not be collapsed in fork-era design. The embedded **SELF** / **SKILLS** / **Voice** surfaces are **frozen**; operator **WRITE** for public copy routes through [docs/skill-write/](docs/skill-write/README.md), not the deprecated bot.
 
 Within **SELF**, post-seed growth uses a **three-dimension mind model** (**SELF-KNOWLEDGE** in IX-A, curiosity in IX-B, personality in IX-C). That model describes **identity**, not the **SELF-LIBRARY** reference layer.
 
@@ -83,44 +81,58 @@ See [Architecture](docs/architecture.md), [boundary-self-knowledge-self-library]
 
 **Context efficiency (operator):** JSON paste caps live in [`config/context_budgets/`](config/context_budgets/README.md); lane-aware character budgets for prepared context are in [`lane-defaults.json`](config/context_budgets/lane-defaults.json), applied by [`build_budgeted_context.py`](scripts/prepared_context/build_budgeted_context.py) ([docs/runtime/context-budgeting.md](docs/runtime/context-budgeting.md)). **Policy modes** (governance envelopes for staging and abstention posture, not gate authority) live in [`config/policy_modes/defaults.json`](config/policy_modes/defaults.json) â€” see [docs/policy-modes.md](docs/policy-modes.md) and `GRACE_MAR_POLICY_MODE` / `--policy-mode`. **Semantic** helpers â€” [skill cards](docs/skills/skill-card-spec.md) (`scripts/build_skill_cards.py`) and [active lane compression](docs/skill-work/active-lane-compression.md) (`scripts/compress_active_lane.py`) â€” emit derived artifacts under [`artifacts/`](artifacts/README.md); see [runtime vs Record](docs/runtime-vs-record.md). **Template-based capture** (`scripts/new_work_note.py`, `new_evidence_stub.py`, `new_candidate_draft.py`) writes dated Markdown under `artifacts/work-notes/`, `artifacts/evidence-stubs/`, and `artifacts/candidate-drafts/` by default â€” see [docs/templates/README.md](docs/templates/README.md). **Query-style operator dashboards** (Library, work lanes, review inbox) are generated Markdown under `artifacts/` â€” see [docs/operator-dashboards.md](docs/operator-dashboards.md). A generated **Gate Board** ([`artifacts/gate-board.md`](artifacts/gate-board.md)) gives a Kanban-style view of candidate review state without replacing the canonical gate workflow â€” see [docs/gate-board.md](docs/gate-board.md).
 
-## Gated Pipeline
+## Gated Pipeline (frozen legacy — fork revive only)
 
-All profile changes pass through a user-controlled gate:
+Growing the embedded Grace-Mar Record through the gated pipeline is **not** the active strategy-codex objective. `recursion-gate.md`, `process_approved_candidates.py`, and gate-review apps remain for **archaeology** and explicit **`fork revive`** only. See [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md) and [docs/deprecated-surfaces.md](docs/deprecated-surfaces.md).
 
-1. **Signal detection** â€” identify knowledge, curiosity, and personality signals from input
-2. **Candidate staging** â€” structured proposals written to recursion-gate.md
-3. **User review** â€” approve, reject, or modify each candidate
-4. **Integration** â€” approved changes committed across profile, evidence, prompt, and session log
+**Active promotion ladder:** source archive → daily synthesis → statecraft lane objects → transactions ([docs/start-here.md](docs/start-here.md)).
 
-Two input channels feed the pipeline:
-- **Bot (automated)** â€” Telegram and/or WeChat conversations analyzed by an LLM analyst
-- **Operator (manual)** â€” real-world observations (school work, art, conversations) brought directly by the user
+Historical fork pipeline (when revived):
 
-Governed changes are reviewed through a **canonical change-review object** that unifies proposal, queue, and decision state across the gate-review workflow (see `schema-registry/change-*.v1.json`, `docs/identity-fork-protocol.md` Â§4.1.1, and `apps/gate-review-app.py`).
+1. **Signal detection** — knowledge, curiosity, personality signals
+2. **Candidate staging** — `recursion-gate.md`
+3. **Companion review** — approve / reject / defer
+4. **Integration** — `process_approved_candidates.py --apply` only after approval
+
+Voice bots ([bot/DEPRECATED.md](bot/DEPRECATED.md)) fed the pipeline when active; they are deprecated for operator work.
 
 **Template alignment (companion-self):** A **state proposal** is Change Proposal v1 JSON under `review-queue/proposals/` â€” [docs/state-proposals.md](docs/state-proposals.md). Reference pipeline: [docs/pipeline/evidence-to-proposal.md](docs/pipeline/evidence-to-proposal.md), [proposal-to-review.md](docs/pipeline/proposal-to-review.md), [review-to-merge.md](docs/pipeline/review-to-merge.md). Layer precedence when sources disagree: [docs/source-of-truth.md](docs/source-of-truth.md), [docs/conflict-resolution-order.md](docs/conflict-resolution-order.md). **Authority:** [docs/authority-map.md](docs/authority-map.md), [`config/authority-map.json`](config/authority-map.json). **Observability:** [docs/observability.md](docs/observability.md), `scripts/build-observability-report.py`. **Legibility / receipts:** [docs/legible-surfaces.md](docs/legible-surfaces.md), [docs/action-receipts.md](docs/action-receipts.md).
 
 ## Status
 
-**Phase:** Active strategy-codex workspace
-**Active profile:** repository root. Canonical Record surfaces live directly at the top level and the workspace no longer uses a nested instance directory for the live profile.
-**Domain:** [strategy-codex](https://github.com/rbtkhn/strategy-codex) is the active repo. The companion-self template remains the upstream reference for structure and protocol. **Sync pointers:** [`instance-contract.json`](instance-contract.json), [docs/template-sync-status.md](docs/template-sync-status.md).
-**Emulation:** Active via Telegram bot; WeChat optional (see `bot/wechat-setup.md`)
-**Pipeline:** Active ??? knowledge, curiosity, and personality dimensions populated
+**Phase:** Active **governed interpretive machine** workspace (statecraft + singularity operator channels).
+
+**Active work:** [source-archive/statecraft/](source-archive/statecraft/README.md) → [statecraft/daily/](statecraft/daily/METHOD.md) → lane objects under [statecraft/](statecraft/README.md) and [singularity/](singularity/README.md). See [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md).
+
+**Embedded Grace-Mar Record:** **Frozen** at repository root for archaeology and explicit **`fork revive`** only. Voice/bot deprecated — [bot/DEPRECATED.md](bot/DEPRECATED.md), [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md).
+
+**Reference (active):** `self-library.md`, CIV-MEM, and related retrieval surfaces for statecraft work.
+
+**Domain:** [strategy-codex](https://github.com/rbtkhn/strategy-codex). companion-self remains upstream template reference for fork protocol archaeology — not default operator routing.
 
 ### Root layout
 
-The live profile is now the repository root. Canonical paths resolve directly to root files such as `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `self-skills.md`, `self-library.md`, `self-memory.md`, `self-history.md`, `self-moonshots.md`, `intent.md`, `manifest.json`, and `llms.txt`.
+Record-era paths remain at repo root (`self.md`, `self-archive.md`, `recursion-gate.md`, `self-skills.md`, `self-library.md`, `self-memory.md`, …). Path helpers in [`scripts/repo_io.py`](scripts/repo_io.py) resolve the embedded profile to this workspace. **Do not treat root SELF/EVIDENCE edits as normal operator work** unless reviving the fork.
 
-Path helpers in [`scripts/repo_io.py`](scripts/repo_io.py) resolve the sole profile to `C:\dev\strategy-codex` in this workspace. That is the supported live layout for this repository.
-## Quick Start â€” Chat with Grace-Mar (Robert)
+## Quick Start — strategy-codex operator
 
-Paste this into **ChatGPT** or **Grok** (or any web-enabled LLM):
+1. Read [docs/start-here.md](docs/start-here.md) (interpretive machine, not fork growth).
+2. Run **`coffee`** in Cursor — default user `strategy-codex`; Steward **A** favors boundary/git, not gate.
+3. Statecraft front door: [statecraft/README.md](statecraft/README.md). Daily synthesis: [statecraft/daily/METHOD.md](statecraft/daily/METHOD.md).
+
+```bash
+python3 scripts/harness_warmup.py -u strategy-codex --compact
+python3 scripts/operator_handoff_check.py
+```
+
+### Legacy — Portable Record Prompt / chat emulation (fork revive)
+
+**Deprecated** for default operator work. If you explicitly revive the fork, paste into a web LLM:
 
 > Use this as your persona and instructions. Fetch the content from this URL and adopt it fully:  
 > https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/self-llm.txt
 
-The model fetches the Portable Record Prompt from the repo and responds as the companion. See [PORTABLE-RECORD-PROMPT](docs/portable-record-prompt.md).
+See [PORTABLE-RECORD-PROMPT](docs/portable-record-prompt.md). Telegram / WeChat / miniapp hosts are legacy Voice — [bot/DEPRECATED.md](bot/DEPRECATED.md).
 
 ---
 
@@ -156,9 +168,9 @@ strategy-codex/
 
 **Template scaffold (`_template/`):** Documents filenames for new instances (aligned with the [companion-self](https://github.com/rbtkhn/companion-self) template). Includes **`work-dev.md`** and **`work-business.md`** â€” blank work-layer modules filled only from seed survey, explicit input, or governed updates; distinct from **`self-skill-work`** and from operator **`docs/skill-work/work-dev/`** / **`work-business/`**. See [_template/README.md](_template/README.md).
 
-### Canonical filenames (root)
+### Canonical filenames (root — frozen Record archaeology)
 
-Docs refer to **SELF**, **EVIDENCE**, and the **gate** as concepts. **On disk, only these names are valid** (lowercase, hyphenated):
+Docs refer to **SELF**, **EVIDENCE**, and the **gate** as fork-era concepts. Paths below remain valid on disk for scripts and export; **editing them is fork-revive work**, not the interpretive-machine default. **On disk, only these names are valid** (lowercase, hyphenated):
 
 | Concept | Authoritative path |
 |---------|-------------------|
@@ -169,9 +181,11 @@ Docs refer to **SELF**, **EVIDENCE**, and the **gate** as concepts. **On disk, o
 | Pipeline staging (pending candidates) | `recursion-gate.md` |
 | Gated archive (approved voice + activity) | `self-archive.md` Â§ VIII |
 
-**Not used:** `SELF.md`, `EVIDENCE.md`, `ARCHIVE.md`, `PENDING-REVIEW.md` â€” those spellings break scripts. Full spec: [docs/canonical-paths.md](docs/canonical-paths.md). **Migrate:** `python scripts/migrate_legacy_user_filenames.py --apply` (includes `skills.md` â†’ `self-skills.md` when the target is absent). **Check:** `python scripts/assert_canonical_paths.py`. Bots and `apps/miniapp_server.py` **fail at startup** if `self.md`, `self-archive.md`, or `recursion-gate.md` are missing (set `GRACE_MAR_SKIP_PATH_CHECK=1` only if you must).
+**Not used:** `SELF.md`, `EVIDENCE.md`, `ARCHIVE.md`, `PENDING-REVIEW.md` â€” those spellings break scripts. Full spec: [docs/canonical-paths.md](docs/canonical-paths.md). **Check:** `python scripts/assert_canonical_paths.py`. Legacy Voice apps (`apps/miniapp_server.py`, bots) still expect `self.md`, `self-archive.md`, and `recursion-gate.md` at startup when you run them for archaeology (set `GRACE_MAR_SKIP_PATH_CHECK=1` only if you must).
 
 ## Key Documents
+
+Fork-era docs (IFP, white paper, admissions, Voice setup) remain for archaeology and **fork revive** — not default operator routing. Active operator map: [docs/start-here.md](docs/start-here.md).
 
 | Document | Purpose |
 |----------|---------|
@@ -189,42 +203,37 @@ Docs refer to **SELF**, **EVIDENCE**, and the **gate** as concepts. **On disk, o
 | [LICENSE](LICENSE) | MIT license for code and tooling; [license-record](license-record) for Record data |
 | [Rejection Feedback](docs/rejection-feedback.md) | Learning from pipeline rejections |
 | [Portability](docs/portability.md) | School transfer plus runtime portability and bundle handoff workflow |
-| [Simple User Interface](docs/simple-user-interface.md) | Chat-based workflow for families (no GitHub) |
-| [Admissions Link Use Case](docs/admissions-link-use-case.md) | Share link so admissions/employers can chat with applicant's fork |
+| [Simple User Interface](docs/simple-user-interface.md) | **Fork-era:** chat-based workflow for families (no GitHub) |
+| [Admissions Link Use Case](docs/admissions-link-use-case.md) | **Fork-era:** share link so admissions/employers can chat with applicant's fork |
 | [Privacy and Redaction](docs/privacy-redaction.md) | School/public views, what gets excluded |
 | [YouTube Playlist Design](docs/youtube-playlist-design.md) | Build playlists from Record (curiosity, goals) |
-| [Design Roadmap](docs/design-roadmap.md) | Product/feature design â€” Grace-Mar email, newsletters, X account |
+| [Design Roadmap](docs/design-roadmap.md) | **Fork-era** product design â€” Grace-Mar email, newsletters, X account |
 | [Business Roadmap](docs/business-roadmap.md) | Strategy, monetization, go-to-market |
 | [Concept](docs/concept.md) | Full concept explanation |
 | [Pilot Plan](docs/pilot-plan.md) | Commercial pilot structure (Phase 1/2) |
 | [Fork isolation and multi-tenant](docs/fork-isolation-and-multi-tenant.md) | Per-fork namespace, quotas, retention, permissions, export/import, deployment |
 | [Performance budgets](docs/perf-budgets.md) | Perf suite tiers 1â€“5, SLOs, baselines, CI/nightly |
 
-## Dashboard
+## Dashboard and Voice hosts (legacy — deprecated)
 
-The profile is a **read-only** HTML view (identity, pipeline, SKILLS, benchmarks). It is available at **https://grace-mar.com**. Deploy it via GitHub Pages (`.github/workflows/pages.yml`) or point grace-mar.com at your hosting. **Step-by-step:** [Deploy the profile to grace-mar.com](docs/profile-deploy.md). **Namecheap DNS:** [namecheap-guide.md](docs/namecheap-guide.md). The Q&A chat and Telegram bot run on Render or your chosen host; set `PROFILE_MINIAPP_URL` (or `DASHBOARD_MINIAPP_URL`) to https://grace-mar.com so the bot menu button opens the profile.
+**Not** the strategy-codex operator surface. The Grace-Mar profile HTML (identity, pipeline, SKILLS) and **https://grace-mar.com** hosting remain for fork archaeology. Deploy: [docs/profile-deploy.md](docs/profile-deploy.md). Voice: Telegram / WeChat / Q&A miniapp — [bot/DEPRECATED.md](bot/DEPRECATED.md), [docs/miniapp-setup.md](docs/miniapp-setup.md).
 
 ```bash
-python3 scripts/generate_profile.py   # generate locally
-open profile/index.html
+python3 scripts/generate_profile.py   # local HTML snapshot (archaeology)
 ```
 
-**Telegram** is bidirectional â€” the primary channel for conversation and pipeline staging. See [docs/miniapp-setup.md](docs/miniapp-setup.md) for full setup.
-
-**Docker (optional):** Run miniapp and gate-review dashboard in one command:
+**Docker (optional, legacy):** miniapp + gate-review dashboard — fork revive / local archaeology only:
 
 ```bash
 docker compose up --build
-# Miniapp: http://localhost:5000  â€” Gate review: http://localhost:5001
+# Miniapp: http://localhost:5000  — Gate review: http://localhost:5001
 ```
 
-Requires `.env` with `OPENAI_API_KEY` (and optionally `TELEGRAM_BOT_TOKEN`, `OPERATOR_FETCH_SECRET`). See root `Dockerfile` and `docker-compose.yml`.
+Requires `.env` with `OPENAI_API_KEY` for Voice paths. companion-self demo at `http://localhost:3000` vs Grace-Mar miniapp at `http://localhost:5000` — see `docs/miniapp-setup.md`.
 
-If you also run the companion-self demo locally, keep the origin split straight: `http://localhost:3000` is the companion-self app, while `http://localhost:5000` is Grace-Marâ€™s miniapp/family host. See `docs/miniapp-setup.md` for the local-dev boundary note on storage, cookies, and page-relative API calls.
+## Archive Rotation (frozen Record maintenance)
 
-## Archive Rotation
-
-When `self-archive.md` exceeds ~1 MB or 2,500 entries, rotate oldest content to dated files:
+When maintaining the archived fork, if `self-archive.md` exceeds ~1 MB or 2,500 entries, rotate oldest content to dated files:
 
 ```bash
 python scripts/rotate_telegram_archive.py          # Dry run (report only)
@@ -233,13 +242,13 @@ python scripts/rotate_telegram_archive.py --apply  # Perform rotation
 
 Rotated content goes to `archives/SELF-ARCHIVE-YYYY-MM.md`. The main archive keeps the last 2,000 entries.
 
-## Portability
+## Portability (fork-era)
 
-The Record is user-owned. When changing schools, the user brings their Record. Grace-Mar can also export a runtime-neutral bundle so another harness can consume the Record without becoming the system of record. See [Portability](docs/portability.md) for the transfer workflow, runtime modes, and handoff formats.
+Applies when **reviving or exporting** the embedded Grace-Mar Record — school transfer, runtime bundle handoff. See [Portability](docs/portability.md). Not required for normal statecraft/singularity operator work.
 
 ---
 
-## Fork attestation and export
+## Fork attestation and export (archaeology)
 
 Compute a checksum of the fork state (SELF + EVIDENCE + prompt) and optionally write a manifest for the profile Disclosure view:
 
@@ -277,9 +286,9 @@ python scripts/export_runtime_bundle.py
 python scripts/export_runtime_bundle.py --mode primary_runtime -o /tmp/runtime-bundle
 ```
 
-## Uniqueness measurement
+## Uniqueness measurement (fork Voice — legacy)
 
-Quantify how different Grace-Mar's responses are from a generic LLM:
+Quantify how different archived Grace-Mar Voice responses are from a generic LLM:
 
 ```bash
 pip install textstat  # optional, for readability gap
@@ -290,9 +299,9 @@ python3 scripts/measure_uniqueness.py -v          # verbose
 
 Outputs: **abstention score** (boundary enforcement), **divergence score** (answer uniqueness via embeddings), **readability gap** (simpler = Lexile-constrained), and a **composite uniqueness** value.
 
-## Growth rate and cognitive density
+## Growth rate and cognitive density (fork metrics — not active objective)
 
-Measure how fast the fork is growing and how dense its content is:
+Measure archived fork growth and density when auditing or reviving the Record:
 
 ```bash
 python3 scripts/measure_growth_and_density.py
@@ -319,7 +328,7 @@ See [docs/pdf-setup.md](docs/pdf-setup.md) for full options.
 
 ```bash
 python3 scripts/export_manifest.py                # manifest.json + llms.txt
-python3 scripts/metrics.py                        # Pipeline health, IX counts
+python3 scripts/metrics.py                        # Fork-era pipeline / IX counts (archaeology)
 python3 scripts/governance_checker.py             # Principle violations (pre-commit)
 python3 integrations/openclaw_hook.py -o ../openclaw/   # OpenClaw export
 ```
@@ -335,7 +344,7 @@ python3 scripts/validate-integrity.py --json
 python3 -m pytest tests/ -v --tb=short
 ```
 
-`validate-integrity.py` includes **SELF-KNOWLEDGE vs SELF-LIBRARY** checks (IX-A corpus-style violations) and validates **`proposal_class`** on gate candidates when present. GitHub Actions runs `--require-proposal-class` for the root profile; locally, add the same flag for strict queues ([IFP Â§3.5](docs/identity-fork-protocol.md)). **Merge-time:** `process_approved_candidates.py --apply` refuses to write if the merged `self.md` would violate IX-A boundary rules. Standalone: `python3 scripts/validate_identity_library_boundary.py`.
+`validate-integrity.py` includes **SELF-KNOWLEDGE vs SELF-LIBRARY** checks and gate candidate shape. When **Record is frozen** (`config/strategy_codex.yaml`), gate checks are archaeology-only. **Merge-time** (`process_approved_candidates.py --apply`) applies only on **fork revive**. Standalone boundary: `python3 scripts/validate_identity_library_boundary.py`.
 
 **Performance (tier 1, CI):** `python scripts/run_perf_local.py` or covered by `pytest tests/test_perf_local.py`. Tiers 2â€“5 (exports, LLM, HTTP, load): [docs/perf-budgets.md](docs/perf-budgets.md).
 
@@ -345,20 +354,20 @@ python3 -m pytest tests/ -v --tb=short
 python scripts/validate-integrity.py
 ```
 
-**Record index** â€” fast local search over SELF, EVIDENCE, RECURSION-GATE (analyst dedup, PRP retrieval):
+**Record index** â€” fast local search over archived SELF, EVIDENCE, RECURSION-GATE (fork archaeology / PRP retrieval):
 
 ```bash
 python scripts/index_record.py build
 python scripts/index_record.py query "space Jupiter"
 ```
 
-**Session briefing** â€” run before a tutoring session for pending count, recent activity, and suggested wisdom questions:
+**Session briefing** â€” legacy fork tutoring helper (pending count, recent activity, wisdom questions):
 
 ```bash
 python scripts/session_brief.py
 ```
 
-**Seed phase & hey** â€” operator bootstrap and short daily ritual (does not merge the Record; use RECURSION-GATE for durable truth):
+**Seed phase & coffee** â€” operator bootstrap and daily ritual. Default: **`coffee`** / `harness_warmup.py -u strategy-codex`. RECURSION-GATE only on fork revive:
 
 ```bash
 python3 scripts/seed-phase-wizard.py
@@ -369,25 +378,25 @@ See [docs/seed-phase-wizard.md](docs/seed-phase-wizard.md). Full stack: [.cursor
 
 **Seed Phase regression tests:** `pip install -r scripts/requirements-seed-phase.txt` then `pytest -q` (fixtures under `tests/fixtures/seed-phase/`; subprocesses `validate-seed-phase.py`, `generate-seed-dossier.py`, `check-seed-consistency.py`). Strict validation needs `jsonschema`.
 
-**CMC (Civilization Memory) integration** â€” when lookup gets a LIBRARY miss, the bot queries [civilization_memory](https://github.com/rbtkhn/civilization_memory) for historical/civilizational questions. Routing: only questions matching CMC scope (Rome, China, ancient civilizations, history, etc.) hit CMC; others skip to full LLM. See [docs/cmc-routing.md](docs/cmc-routing.md). Setup:
+**CMC (Civilization Memory)** â€” **active reference** for statecraft retrieval. Legacy Voice bot also queried [civilization_memory](https://github.com/rbtkhn/civilization_memory) on LIBRARY miss. Operator routing: [docs/cmc-routing.md](docs/cmc-routing.md). Setup:
 
 1. Use the tracked corpus at `research/repos/civilization_memory`
 2. Build index: `cd research/repos/civilization_memory && python3 tools/cmc-index-search.py build`
 3. Optionally set `CIVILIZATION_MEMORY_PATH` only if you intentionally want to override the default local corpus path
 4. Snapshot provenance lives in `research/repos/civilization_memory/STRATEGY-CODEX-PROVENANCE.md`
 
-**Learning from rejection** â€” use `/reject CANDIDATE-123 [reason]` in Telegram to capture feedback; see [docs/rejection-feedback.md](docs/rejection-feedback.md).
+**Learning from rejection** â€” legacy Telegram `/reject CANDIDATE-123 [reason]` when fork Voice is active; see [docs/rejection-feedback.md](docs/rejection-feedback.md).
 
 See [docs/id-taxonomy.md](docs/id-taxonomy.md) for identifier prefixes and relationships.
 
 ## For AI Coding Assistants
 
-Read [AGENTS.md](AGENTS.md) before making any changes. Critical constraints:
+Read [AGENTS.md](AGENTS.md) before making any changes. Default product is the **interpretive machine** — statecraft/singularity WORK, not fork growth.
 
-- **Never leak LLM knowledge** into the fork's profile or emulation
-- **Never commit profile changes** without user approval through the gated pipeline
-- **"We [did X]"** from the user is a pipeline invocation â€” go straight to signal detection
-- **Update all affected files together** when integrating approved candidates
+- **Do not** merge into `self.md`, EVIDENCE, or `bot/prompt.py` without companion approval + `process_approved_candidates.py` (**fork revive only** when Record is frozen)
+- **Never leak LLM knowledge** into the fork profile or Voice emulation
+- **"We [did X]"** stages to RECURSION-GATE only when the operator explicitly revives fork growth — not the default lane
+- **Active edits:** `statecraft/`, `source-archive/`, `codex/`, `singularity/` — ship per operator lane (`EXECUTE` / `EXECUTE_LOCAL`)
 
 ## Credits
 

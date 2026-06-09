@@ -340,9 +340,14 @@ def _pick_recommendation(
 
 
 def assess_load(user_id: str) -> dict[str, Any]:
+    try:
+        from strategy_codex_config import record_frozen
+    except ImportError:
+        from scripts.strategy_codex_config import record_frozen  # type: ignore
+    frozen = record_frozen()
     cadence = _collect_cadence_today(user_id)
-    gate = _collect_gate_depth(user_id)
-    gap = _collect_capture_gap(user_id)
+    gate = None if frozen else _collect_gate_depth(user_id)
+    gap = None if frozen else _collect_capture_gap(user_id)
     dream = _collect_dream_quality(user_id)
     coffee_recursion = _collect_coffee_recursion(user_id)
     branch_count = _collect_branch_count()

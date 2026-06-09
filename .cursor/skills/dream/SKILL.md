@@ -14,6 +14,10 @@ Its purpose is to help the system settle, compress, and prepare for tomorrow. A 
 
 Normally there is only one `dream` session per day, near the end of the day. Extra `dream` runs are allowed, but they are exceptional rather than the norm.
 
+## Record frozen (strategy-codex default)
+
+When `config/strategy_codex.yaml` has **`record_frozen: true`** (or `STRATEGY_CODEX_RECORD_FROZEN=1`), dream **does not** nudge fork-growth work: no default gate-review or capture-gap coffee hints. **`tomorrow_inherits`** and execution-path hints should favor **interpretive-machine health** (archive indices, statecraft daily synthesis, integrity/exports, ship receipt). Gate merge obligations apply only on explicit **fork revive** — see [grace-mar-instance-boundary.md](../../../docs/grace-mar-instance-boundary.md).
+
 ## Design intent
 
 `dream` should feel like closure, settling, and quiet integration. It should not feel like another stimulant or another planning sprint. Because `dream` is a consolidation ritual, it should be bounded, calm, and trustworthy: enough maintenance to reduce entropy, but never so much autonomy that it blurs governance or begins acting like a second operator.

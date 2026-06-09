@@ -200,8 +200,18 @@ def maybe_emit_tier_hint(
     return True, msg
 
 
+def _record_frozen() -> bool:
+    try:
+        from strategy_codex_config import record_frozen
+    except ImportError:
+        from scripts.strategy_codex_config import record_frozen  # type: ignore
+    return record_frozen()
+
+
 def velocity_oneliner(user_id: str, *, window_days: int = 7) -> str:
     """Short line for operator_daily_warmup (no side effects)."""
+    if _record_frozen():
+        return "Record frozen — pipeline velocity hints suppressed (fork revive only)."
     snap = analyze_velocity(user_id, window_days=window_days)
     if snap.tier <= 0:
         return (
@@ -227,6 +237,9 @@ def main() -> int:
     )
     args = ap.parse_args()
     uid = args.user.strip()
+    if _record_frozen():
+        print("record_frozen=true — operator depth hint skipped (fork revive only).")
+        return 0
     if args.reset_state:
         p = _state_path(uid)
         if p.is_file():

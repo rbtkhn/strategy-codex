@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "description": "Operator-routing phrases that imply fork growth or Voice as default (strategy-codex interpretive machine).",
+  "scan_globs": [
+    "README.md",
+    "AGENTS.md",
+    "instance-doctrine.md",
+    "docs/**/*.md",
+    ".cursor/rules/**/*.mdc",
+    ".cursor/skills/**/SKILL.md",
+    "config/strategy_codex.yaml",
+    "config/operator_shell_manifest.yaml",
+    "bootstrap/*.md",
+    "scripts/operator_handoff_check.py",
+    "scripts/operator_daily_warmup.py",
+    "scripts/harness_warmup.py"
+  ],
+  "skip_path_prefixes": [
+    "archive/",
+    "bot/",
+    "tests/",
+    "research/",
+    "codex/predictive-history/",
+    "docs/skill-work/work-strategy/strategy-notebook/",
+    "node_modules/",
+    ".git/"
+  ],
+  "skip_paths_exact": [
+    "docs/white-paper.md",
+    "docs/grace-mar-core.md",
+    "docs/identity-fork-protocol.md",
+    "docs/concept.md",
+    "docs/business-prospectus.md",
+    "docs/business-roadmap.md",
+    "docs/design-roadmap.md",
+    "docs/admissions-link-use-case.md",
+    "docs/simple-user-interface.md",
+    "docs/orchestration/memory-brief-to-gate-demo.md",
+    "docs/grace-mar-instance-boundary.md",
+    "docs/deprecated-surfaces.md",
+    "docs/product-identity.md",
+    "docs/architecture.md",
+    "docs/glossary.md",
+    "docs/harness-handoff.md",
+    "docs/implementable-insights.md",
+    "docs/openclaw-integration.md",
+    "docs/profile-deploy.md",
+    "docs/web-app-plan.md",
+    "bootstrap/grace-mar-bootstrap.md",
+    "bootstrap/work-jiang-bootstrap.md",
+    ".cursor/rules/grace-mar.mdc"
+  ],
+  "context_suppress_regex": "(?i)frozen|legacy|deprecated|fork revive|archaeolog|not a system objective|not the active|fork-revive|explicit revive|operator-archived|grace-mar archive|if frozen|unless you invoked",
+  "rules": [
+    {
+      "id": "default-user-grace-mar",
+      "pattern": "(?i)(?:default(?:_operator_user|-u\\s+| user[`'\"]?\\s*[:=]\\s*)[`'\"]?)(?:grace-mar)",
+      "message": "Default operator user should be strategy-codex unless fork-revive doc.",
+      "severity": "error"
+    },
+    {
+      "id": "harness-grace-mar-default",
+      "pattern": "(?i)harness_warmup\\.py\\s+-u\\s+grace-mar(?!.*companion)",
+      "message": "Harness warmup should default to strategy-codex; use --territory companion only on fork revive.",
+      "severity": "warn"
+    },
+    {
+      "id": "chat-quick-start-default",
+      "pattern": "(?i)quick start[^\\n]{0,40}chat with grace-mar",
+      "message": "Quick Start should lead with strategy-codex operator, not chat emulation.",
+      "severity": "error"
+    },
+    {
+      "id": "emulation-active",
+      "pattern": "(?i)\\*\\*Emulation:\\*\\*\\s*Active|emulation:\\s*active via telegram",
+      "message": "Voice emulation should be marked deprecated/frozen, not active.",
+      "severity": "error"
+    },
+    {
+      "id": "pipeline-active-status",
+      "pattern": "(?i)\\*\\*Pipeline:\\*\\*\\s*Active",
+      "message": "Pipeline should not read as active default objective.",
+      "severity": "error"
+    },
+    {
+      "id": "telegram-primary-channel",
+      "pattern": "(?i)telegram[^\\n]{0,60}(?:primary channel|bidirectional)[^\\n]{0,60}(?:conversation|pipeline)",
+      "message": "Telegram should not be framed as primary operator channel.",
+      "severity": "warn"
+    },
+    {
+      "id": "grace-mar-com-primary",
+      "pattern": "(?i)grace-mar\\.com[^\\n]{0,80}(?:primary|operator surface|chat with)",
+      "message": "grace-mar.com is legacy profile hosting, not strategy-codex operator surface.",
+      "severity": "warn"
+    },
+    {
+      "id": "we-pipeline-default",
+      "pattern": "(?i)\"we \\[did[^\"]+\"[^\\n]{0,120}pipeline invocation[^\\n]{0,80}go straight to signal",
+      "message": "We-convention pipeline staging should be fork-revive-only when Record is frozen.",
+      "severity": "warn"
+    },
+    {
+      "id": "grow-the-record-menu",
+      "pattern": "(?i)(?:offer|default)[^\\n]{0,40}grow the record",
+      "message": "Do not offer growing the Record as a default menu path.",
+      "severity": "error"
+    },
+    {
+      "id": "steward-gate-default-unqualified",
+      "pattern": "(?i)steward[^\\n]{0,80}default[^\\n]{0,40}\\*\\*gate\\*\\*[^\\n]{0,40}if pending",
+      "message": "Steward default should be boundary/git when Record frozen, not gate-if-pending.",
+      "severity": "warn"
+    },
+    {
+      "id": "cognitive-fork-product",
+      "pattern": "(?i)(?:active objective|primary objective|system objective|grow)[^\\n]{0,60}cognitive fork",
+      "message": "Cognitive fork should not appear as active product objective.",
+      "severity": "warn"
+    },
+    {
+      "id": "resume-gate-review-handoff",
+      "pattern": "(?i)resume with a gate review",
+      "message": "Handoff/re-entry should not default to gate review when Record is frozen.",
+      "severity": "warn"
+    }
+  ]
+}

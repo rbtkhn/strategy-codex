@@ -238,6 +238,18 @@ def _classify_change(path_line: str) -> tuple[str, str]:
 
 def _gate_detail_lines(recursion_gate_md: str, user_id: str) -> list[str]:
     """Human-readable pending queue + proposed merge steps (read-only; does not merge)."""
+    try:
+        from strategy_codex_config import record_frozen
+    except ImportError:
+        from scripts.strategy_codex_config import record_frozen  # type: ignore
+    if record_frozen():
+        return [
+            "## RECURSION-GATE (frozen)",
+            "",
+            "Grace-Mar Record is operator-archived. Gate review is **fork revive only**.",
+            "See `docs/grace-mar-instance-boundary.md`. Say **`fork revive`** or coffee **`A gate`** to reopen.",
+            "",
+        ]
     gate_rel = f"{user_id}/recursion-gate.md"
     politics_rows, companion_rows = pending_by_territory(recursion_gate_md)
     total = len(politics_rows) + len(companion_rows)
@@ -302,7 +314,16 @@ def _gate_detail_lines(recursion_gate_md: str, user_id: str) -> list[str]:
     return lines
 
 
+def _record_frozen() -> bool:
+    try:
+        from strategy_codex_config import record_frozen
+    except ImportError:
+        from scripts.strategy_codex_config import record_frozen  # type: ignore
+    return record_frozen()
+
+
 def _active_thread(meaningful_changes: list[str], gate_pending: int, politics_blockers: list[dict]) -> tuple[str, str]:
+    frozen = _record_frozen()
     counts = {
         "operator_workflow": 0,
         "work_politics_lane": 0,
@@ -315,10 +336,15 @@ def _active_thread(meaningful_changes: list[str], gate_pending: int, politics_bl
             counts[category] += 1
     dominant = max(counts, key=counts.get)
     if counts[dominant] == 0:
-        if gate_pending:
+        if gate_pending and not frozen:
             return (
                 "gate continuity",
                 "Start with `python3 scripts/operator_gate_review_pass.py` to review pending candidates.",
+            )
+        if gate_pending and frozen:
+            return (
+                "interpretive machine",
+                "Record is frozen — say `fork revive` before gate work; otherwise run statecraft health checks or ship receipt.",
             )
         if politics_blockers:
             return (
@@ -340,9 +366,14 @@ def _active_thread(meaningful_changes: list[str], gate_pending: int, politics_bl
             "Resume work-politics work with `python3 scripts/operator_work_politics_pulse.py` and then run the brief workflow if ready.",
         )
     if dominant == "record_pipeline":
+        if frozen:
+            return (
+                "archived record paths",
+                "Record is frozen — avoid Record-adjacent edits unless you invoked `fork revive`; prefer boundary/git Steward track.",
+            )
         return (
             "record pipeline",
-            "Resume with a gate review before making any Record-adjacent edits.",
+            "Resume with a gate review before making any Record-adjacent edits (fork active only).",
         )
     return (
         "mixed repo maintenance",

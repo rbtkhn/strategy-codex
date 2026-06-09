@@ -1,8 +1,8 @@
 ﻿# Coming from OB1? Start here
 
-Plain-language bridge for people who know **Open Brain (OB1)**-style systems: one place to look, recipes, imports, and a review queue. Grace-Mar keeps the same **governance** ideas (human approval, evidence) but names surfaces differently. Precise doctrine: [glossary.md](glossary.md), [conceptual-framework.md](conceptual-framework.md).
+> **Record frozen (2026):** Growing the Grace-Mar cognitive fork is **not** a `strategy-codex` objective. Default onboarding: [start-here.md](start-here.md) (interpretive machine). This page maps **legacy** OB1 → Grace-Mar gate surfaces for **`fork revive`** only. See [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md).
 
-> Grace-Mar is not just a memory layer; it is a **governed companion record**. If you know OB1, the easiest way in is **Library, Skills, Evidence, Workflows, Dashboard, and Approval Inbox** â€” with durable writes still **gated**.
+Plain-language bridge for people who know **Open Brain (OB1)**-style systems. Precise legacy doctrine: [glossary.md](glossary.md), [conceptual-framework.md](conceptual-framework.md).
 
 ---
 

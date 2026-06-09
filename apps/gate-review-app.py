@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
-Web-based gate review dashboard — pending RECURSION-GATE candidates (canonical review shape).
+Web-based gate review dashboard — DEPRECATED default surface for strategy-codex.
+
+Record is frozen; use only on explicit fork revive. See docs/grace-mar-instance-boundary.md.
+
+Pending RECURSION-GATE candidates (canonical review shape when fork is active).
 
 Supports approve, reject, defer, and reclassify (proposal_class via target surface mapping).
 Actions update recursion-gate.md; merge runs via process_approved_candidates. Gate remains

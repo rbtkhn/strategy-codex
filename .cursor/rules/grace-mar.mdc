@@ -1,12 +1,14 @@
 ﻿---
-description: STRATEGY-CODEX repo identity + Grace-Mar governance + session protocol + pipeline
+description: DEPRECATED default routing — Grace-Mar fork archive lane only (attach on explicit revive)
 globs: **
 alwaysApply: false
 ---
 
-# STRATEGY-CODEX / GRACE-MAR
+# STRATEGY-CODEX / GRACE-MAR (legacy — fork revive only)
 
-This repo develops as **strategy-codex**. It still contains the **Grace-Mar** reference instance, which remains a cognitive fork - a versioned, evidence-grounded record of an individual's cognitive development. The fork exists inside the user's mind. It grows through selective exposure and user-curated integration.
+**DEPRECATED as default routing.** `strategy-codex` is a governed interpretive machine. Growing the cognitive fork is **not** a system objective. Attach this rule only when the operator invokes **`fork revive`**, **`grace-mar archive`**, or coffee **`A gate`**. SSOT: [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md).
+
+This repo contains a **frozen** Grace-Mar reference instance — operator-archived; not actively growing.
 
 **Conceptual framework:** [conceptual-framework.md](docs/conceptual-framework.md) â€” fork vs. twin, fork as own entity vs. emulation, terminology.
 
