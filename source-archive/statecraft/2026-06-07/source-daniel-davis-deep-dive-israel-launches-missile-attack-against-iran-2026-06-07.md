@@ -14,8 +14,9 @@ title: "BREAKING: ISRAEL LAUNCHES MISSILE ATTACK AGAINST IRAN"
 source_url: "https://www.youtube.com/watch?v=dnwkC2sIMQA"
 youtube_id: dnwkC2sIMQA
 channel_slug: daniel-davis-deep-dive
-source_note: "Operator-pasted YouTube transcript. Davis self-dates Sunday breaking edition; archive date aligned to spoken event day (Iran-Israel exchange since April, Trump-Netanyahu restraint failure same night as June 7 bench)."
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+source_note: "Operator-pasted YouTube transcript. Davis self-dates Sunday breaking edition; archive date aligned to spoken event day (Iran-Israel exchange since April, Trump-Netanyahu restraint failure same night as June 7 bench). Pentagon Israel-spying bench names Witkoff, Colby, DiMino. verify:wire-supported Israel struck Iran after Trump no-retaliation public line (8 Jun cycle); spying on Witkoff/Colby/DiMino IV (NYT/NBC); verify:wire-contested Israel intercepted all Iranian missiles (low historical intercept rate — daylight TBD at air); Davis title drift on DiMino preserved in body."
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR Mike Demino normalized to Michael P. DiMino IV — Deputy Assistant Secretary of Defense (Middle East) per war.gov/DoD; NYT/NBC Jun 2026 espionage target alongside Colby and Witkoff. Davis in-voice "deputy secretary of war for Middle Eastern affairs" preserved (ASR/title drift). Wire-verify 2026-06-09. Other ASR artifacts retained (Steve Whit/Witkoff, Bridge KBY/Colby, etc.).
+proper_noun_normalize_applied: true
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
@@ -51,7 +52,7 @@ I've got everything worked out with with Iran and if you guys go back into fire 
 
 So, he's saying that publicly. I'm told that behind the scenes, it was a lot more emphatic than that. And based on what we've seen here of late, we can probably imagine that it was. But this is really something, and I I've heard this from somebody inside our government at a pretty high level uh earlier today that there is a lot of frustration.
 
-Now, this is all of course in context of recent revelations that Israel has been spying with espionage against some of our senior leaders in our government, especially in the Pentagon to include even Steve Whit, Mike Demino, uh, who is the deputy secretary of war for Middle Eastern affairs, even at that high level, uh, Bridge KBY, a number of very high ranking officials.
+Now, this is all of course in context of recent revelations that Israel has been spying with espionage against some of our senior leaders in our government, especially in the Pentagon to include even Steve Whit, Michael P. DiMino IV, uh, who is the deputy secretary of war for Middle Eastern affairs, even at that high level, uh, Bridge KBY, a number of very high ranking officials.
 
 and and the the view inside the Pentagon was that why aren't more people why aren't our president why aren't our government doing more to protect us and and according to information we've seen since that revelation came out it said that the Pentagon already had a ranking of high of espionage on Israel against us and now it went up to one level above that and that you have to ask the obvious question why was it already at a high level and nothing was done about it that again shows just the contradiction and and the uh confusion this creates in the United
 
