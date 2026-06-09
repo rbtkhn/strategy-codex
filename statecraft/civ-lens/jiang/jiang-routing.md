@@ -19,6 +19,7 @@ Use this file to decide which Jiang layer to open first.
 - the task is checking source-video indexes, museum manifests, or public repo docs
 - the task is about mirror sync, remote identity, or public-repo parity
 - the task is about Jiang's lecture pedagogy, rhetoric, spread, or cross-volume analysis notes
+- the task is about Volume I **Part** navigation (`civ-01`–`civ-60` doorways), part-boundary tour, or interwoven-spine Part seams
 
 ## Open the raw archive first when
 
@@ -30,8 +31,38 @@ Use this file to decide which Jiang layer to open first.
 
 - Count and scope: [jiang-predictive-history-master-index.md](jiang-predictive-history-master-index.md)
 - Public mirror: [ph-civ/README.md](ph-civ/README.md)
+- Volume I interwoven spine: [ph-civ/book/volume-i-civilization/interwoven-reader/README.md](ph-civ/book/volume-i-civilization/interwoven-reader/README.md)
+- Volume I Parts shelf: [ph-civ/book/volume-i-civilization/parts/README.md](ph-civ/book/volume-i-civilization/parts/README.md)
 - Jiang analysis notes: [ph-civ/docs/jiang-analysis-index.md](ph-civ/docs/jiang-analysis-index.md)
 - Raw archive bench: [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md)
+
+## Volume I Parts (reading navigation)
+
+Ten **Part doorways** overlay the interwoven civilization spine — navigation only; spine order stays authoritative.
+
+| Surface | Path |
+|---------|------|
+| Parts index | [ph-civ/book/volume-i-civilization/parts/README.md](ph-civ/book/volume-i-civilization/parts/README.md) |
+| Registry (SSOT) | [ph-civ/data/parts/volume-i-parts.json](ph-civ/data/parts/volume-i-parts.json) |
+| Part boundary tour | [ph-civ/data/routes/part-boundary-tour.json](ph-civ/data/routes/part-boundary-tour.json) |
+| LLM `part_tour` mode | [ph-civ/data/llm-experience.json](ph-civ/data/llm-experience.json) |
+
+**Reading law:** open the [interwoven spine](ph-civ/book/volume-i-civilization/interwoven-reader/README.md) for canonical order; use Part doorways for law-discovery questions, companion weave, and corridor links. **Part** here ≠ lecture transcript "Part I / Part II" ≠ CIV-STATE Part 1/2/3.
+
+**Split seams:** VI/VII at `civ-34`/`civ-35` (Dante bookend — opens in VI, returns in VII); IX/X at `civ-53`/`civ-54`.
+
+**Validate (from `ph-civ` root):** `python scripts/validate_volume_i_parts.py` · wired into `ph-civ validate` · tests: `tests/test_volume_i_parts.py`
+
+## Transcript floor (verbatim SSOT)
+
+In the embedded `ph-civ` mirror, **lecture transcript bodies are not commentary**:
+
+- **Frozen by default:** `**/*-transcript.md` under `ph-civ/` — no typo fixes, ASR cleanup, or synthesis merges during lattice walks, Layer 3 updates, or corridor work.
+- **Edit surfaces:** `*-commentary.md`, cards, corridors, orientation YAML; cite transcript line refs instead of rewriting source text.
+- **Legitimate transcript changes** require an explicit operator lane (re-materialize, rights-reviewed re-import from `rbtkhn/ph-civ`, or named cleanup skill) and `PH_CIV_TRANSCRIPT_EDIT=1` when committing.
+- **Check before commit:** `python scripts/validate_ph_civ_transcript_boundary.py --staged` from strategy-codex root (optional pre-commit hook).
+
+Cursor agents: `.cursor/rules/ph-civ-transcript-immutability.mdc` when paths touch the mirror.
 
 ## Routing rule
 
