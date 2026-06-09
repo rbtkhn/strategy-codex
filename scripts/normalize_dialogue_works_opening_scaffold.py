@@ -40,7 +40,7 @@ CTA_SIGNAL_RE = re.compile(
 )
 BOOK_INTERRUPT_RE = re.compile(
     r"(?:We know that you wrote|What is the axis of resistance\?).*?"
-    r"(?:\.substack\.com|wrote on your Substack).*?"
+    r"(?:\.substack\.com|(?:wrote )?on your Substack|your Substack).*?"
     r"(?=\s*(?:>>|&gt;&gt;))",
     re.I | re.DOTALL,
 )

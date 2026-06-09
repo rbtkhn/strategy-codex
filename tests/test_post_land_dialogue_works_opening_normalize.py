@@ -30,7 +30,11 @@ channel_slug: dialogue-works
     )
 
 
-def test_skip_non_dialogue_works(tmp_path):
+def test_skip_non_dialogue_works(tmp_path, monkeypatch):
+    monkeypatch.setattr(
+        "scripts.post_land_dialogue_works_opening_normalize.ARCHIVE_ROOT",
+        tmp_path / "source-archive" / "statecraft",
+    )
     path = tmp_path / "source-archive" / "statecraft" / "2026-05-13" / "source-napolitano-test.md"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("---\nshow: Judging Freedom\n---\n\n## Transcript\n\nHi everyone.\n", encoding="utf-8")
