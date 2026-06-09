@@ -112,6 +112,8 @@ Validator run: `python scripts/validate_statecraft_daily_synthesis.py` → **16 
 
 **Rank 3 status (2026-06-08):** **held** — `2026-03.md`, `2026-04.md`, `2026-05.md` tail `Best Next Companion Notes`; validator **8→5**.
 
+**Rank 2 status (2026-06-08):** **held** — April dailies `04-17/20/22/30` quote anchors; validator **5→0** (full migrated shelf green).
+
 ### Projected remainder after rank 1–3
 
 ```text
