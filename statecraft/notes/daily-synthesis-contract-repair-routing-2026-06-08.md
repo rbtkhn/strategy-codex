@@ -165,5 +165,5 @@ or March quote-anchor repair, Karajan routing failed.
 | --- | --- | --- |
 | 1 — America judgment | **held** | `foreign-client-mesh…` transaction + `2026-06-08-barnes-america-capture-non-intercept-colby-mou.md` |
 | 2 — intake-readiness | open | `2026-06-08-intake-readiness.md` |
-| 3 — validator Kleiber | open | March quote-anchor rank 1 |
+| 3 — validator Kleiber | **held (March dailies)** | `2026-03-16/23/27/31` quote anchors; 16→8 errors |
 | 4 — Napolitano substrate | open | separate normalize commit |
