@@ -39,9 +39,9 @@ From in-voice close (Jun 8):
 | IRGC pause with southern-Lebanon caveat | `PAUSE-CAVEAT` — not gate-green | **Fit** — Davis/Marandi same-day pause read |
 | "Won't give concessions" | Gate is **precondition**, not concession | **Aligned** — relief follows benchmark, not vice versa |
 
-**Gap:** Marandi adds **IDF retreat to pre-war border** — Clause A should name **withdrawal benchmark**, not only "ops cease." Recommend future Clause A sub-bullet: **verified withdrawal row** on mediator ledger.
+**Gap (closed Jun 9):** Marandi **IDF retreat to pre-war border** → transaction **`A-WITH-01` withdrawal benchmark** row on mediator ledger.
 
-**Gap:** Marandi **3,500 strikes during ceasefire** (Lebanese PM figure, in-voice) — instrument should log **pseudo-ceasefire** counts as automatic gate failure (Pape "ceasefire that wasn't").
+**Gap (closed Jun 9):** Marandi **~3,500 strikes during ceasefire** (Lebanese PM figure, in-voice) → transaction **`A-PSEUDO-01` pseudo-ceasefire count** — verified strike log; automatic gate failure on pattern or 72h-window breach.
 
 ---
 
@@ -124,7 +124,7 @@ Short rule: **Marandi's Jun 8 floor names the destination ("before the war"); Ju
 
 | Hormuz activation row | Instrument requirement | Marandi floor element | Fit |
 |---|---|---|---|
-| Gate benchmark **green** | Lebanon/Gaza de-escalation baseline met | End war in Lebanon; regime **retreat**; end Gaza slaughter; lift siege | **Strong fit** — floor is **superset** (retreat row not yet in Clause A text) |
+| Gate benchmark **green** | Lebanon/Gaza de-escalation baseline met | End war in Lebanon; regime **retreat**; end Gaza slaughter; lift siege | **Strong fit** — floor is **superset**; retreat now **`A-WITH-01`** in Clause A |
 | Braid rollup not **`failed`** | No `D-RED-04` cluster; no unlogged dual contest | Yemen Red Sea closure; axis "real"; rejects partial bilateral ceasefire | **Fit if** `D-RED-*` logged — Marandi **Jun 8 live** = braid **stressed**, not failed |
 | **`D-LINK-01`** on braid moves | Lebanon/Gaza trigger within 24h of any `D-*` change | Beirut strike → Iran-on-Israel; Pakistan visit → Beirut timing | **Strong fit** — Jun 8 proof chain |
 | **`D-HORM-01` in band 72h** | ~25–30 transits/day before guarantee opens | Open Hormuz to **pre-war numbers** after **full package** | **Fit on metric** — **tension on timing** (see gaps) |

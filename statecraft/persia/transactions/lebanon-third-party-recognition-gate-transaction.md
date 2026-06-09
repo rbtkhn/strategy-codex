@@ -74,6 +74,15 @@ Iran seeks recognition that third-party resistance (Lebanon, axis partners) is *
 
 **Operational baseline (Jun 8 bench — Pape boundary disappearance + Marandi red line):** The de-escalation baseline shall treat **Beirut and southern Lebanon** as a single trigger surface unless the mediator ledger publishes a narrower geographic carve-out agreed by littoral notices. Verified strikes on Hezbollah strongholds **near Beirut** or resumed daily-assassination patterns in southern Lebanon during a nominal ceasefire shall count as gate failure even when bilateral Iran–Israel exchanges pause. IRGC conditional pauses that retain a **southern Lebanon / continued-ops caveat** do not satisfy the baseline; they require ledger classification as **governed recognition act** with published expiry, not as gate-green.
 
+**Clause A observability rows (Marandi deal-floor patch — withdrawal + pseudo-ceasefire):**
+
+| Row id | Signal | Pass / review threshold |
+| --- | --- | --- |
+| `A-WITH-01` | IDF ground posture vs **pre-war positions** (Marandi: end fighting and **retreat to where forces were before the war**; Crooke ceasefire-for-all: no occupation south of agreed line without published carve-out) | Mediator + littoral-state notice confirms withdrawal benchmark **green** 72h → contributes to gate-green; any verified forward presence or new occupation footprint without carve-out → **failed** |
+| `A-PSEUDO-01` | Verified Israeli military strikes in Lebanon during a **nominal ceasefire** window (bilateral Iran–Israel pause, Truth Social ceasefire, or MOU "quiet period" not yet gate-green) | **Any** verified strike during published 72h de-escalation window → **failed**; outside window: rolling 7-day strike count logged to ledger — pattern of **daily-assassination** (≥1 verified strike/day for 3 consecutive days) or mediator-flagged cumulative breach → **failed** (Marandi in-voice: Lebanese PM **~3,500 strikes during ceasefire** — ledger uses **verified** counts, not speaker figures alone; count is **proof grammar** for pseudo-ceasefire, Pape "ceasefire that wasn't") |
+
+Short rule: **ops cease alone is insufficient** — gate-green requires `A-WITH-01` green **and** `A-PSEUDO-01` not failed. Nominal ceasefire theater without withdrawal row or with rising pseudo-ceasefire count = **automatic gate failure** regardless of executive messaging.
+
 **Face-saving line (Iran):** **dignity-preserving regional recognition** — Lebanon and Gaza are not bargaining chips; circulation restoration cannot normalize their degradation.
 
 **Face-saving line (mediators/Gulf):** **coupled regional security sequencing** — not "Iran veto," but observable precondition before commercial reopening.
@@ -111,7 +120,7 @@ Short rule: markets may still price Hormuz-only disruption until `D-RED-04` or `
 
 ## Off-Ramp
 
-1. **72-hour Lebanon de-escalation window** verified by mediator + littoral state notices — **including Beirut and southern Lebanon** in published baseline → activates Hormuz guarantee draft window (link to existing transaction §Instrument).
+1. **72-hour Lebanon de-escalation window** verified by mediator + littoral state notices — **including Beirut and southern Lebanon** in published baseline, with **`A-WITH-01` withdrawal row green** and **`A-PSEUDO-01` strike count not failed** → activates Hormuz guarantee draft window (link to existing transaction §Instrument).
 2. **Frozen-asset goodwill tranche** (Marandi sequencing) released only after gate benchmark met — not before.
 3. **Congressional-notification carrier** on U.S. side for Israel restraint benchmark (America parallel track).
 4. **30-day renewable review** — gate, transit, relief, and third-party trigger log published to ledger.
@@ -122,6 +131,7 @@ Short rule: markets may still price Hormuz-only disruption until `D-RED-04` or `
 Minimum package before "deal live" characterization:
 
 - Named ceasefire/de-escalation baseline in Lebanon published to mediator ledger (**Beirut + southern Lebanon** scope explicit).
+- **`A-WITH-01` withdrawal benchmark** row green (pre-war positions / agreed line) and **`A-PSEUDO-01` pseudo-ceasefire count** not in failed state — verified strike log attached to any nominal ceasefire claim.
 - Gaza humanitarian corridor restoration or documented suspension of collective-pressure linkage.
 - U.S. assurances entered in ledger with **non-executive-only** carrier id.
 - Iran issues renewable transit notice only after gate benchmark row is green.
@@ -151,6 +161,7 @@ Persia instrument does not merge America fiscal rows, but **relief activation** 
 
 - Iran accepts Hormuz reopening + relief while Lebanon/Gaza gate benchmarks fail → McGovern stringency + Parsi structural-shift both weaken.
 - U.S. satisfies gate with executive tweet only; Israeli third-party operations continue → America capture + this transaction both falsified.
+- Nominal ceasefire announced while **`A-PSEUDO-01`** strike count rises or **`A-WITH-01`** withdrawal benchmark fails → Marandi pseudo-ceasefire rejection + Pape boundary-disappearance both confirmed; gate instrument correct shape.
 - Adversary demands axis disavowal and Iran accepts for relief → dignity-breaking; instrument wrong shape.
 - Permanent chokepoint closure without trigger log → empire deformation per helix; partner defection likely.
 - Lebanon trigger → Iran response logged as `HEG-EXP` while Clause A claims `GOV-REC` only → instrument incoherent; Parsi/Marandi stringency weakened.
@@ -171,4 +182,4 @@ Persia instrument does not merge America fiscal rows, but **relief activation** 
 
 ## Validity Status
 
-`volatile` — Day 100 ceasefire breakdown; boundary disappearance live; executive channel non-credible; dual-corridor braid stressed; axis duty-split evolving.
+`volatile` — Day 100 ceasefire breakdown; boundary disappearance live; executive channel non-credible; dual-corridor braid stressed; axis duty-split evolving. **Jun 9 patch:** Clause A `A-WITH-01` / `A-PSEUDO-01` rows per [Marandi deal-floor note](../../daily/2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md).
