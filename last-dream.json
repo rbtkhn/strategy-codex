@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T13:47:20.926155+00:00",
+  "generated_at": "2026-06-10T13:33:13.288888+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
@@ -15,8 +15,8 @@
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "Capture gap: Record hasn't grown in 19 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
-    "AI frontier watch: The Innermost Loop latest - Welcome to June 8, 2026 - consider explicit source hygiene if relevant tomorrow"
+    "Capture gap: Record hasn't grown in 20 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
+    "AI frontier watch: The Innermost Loop latest - Welcome to June 9, 2026 - consider explicit source hygiene if relevant tomorrow"
   ],
   "phases": {
     "recent": {
@@ -32,38 +32,19 @@
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-06-08T13:46:05.885207+00:00",
-    "window_end_utc": "2026-06-09T13:46:05.885207+00:00",
+    "window_start_utc": "2026-06-09T13:32:20.386155+00:00",
+    "window_end_utc": "2026-06-10T13:32:20.386155+00:00",
     "window_hours": 24.0,
-    "count": 4,
-    "first_ts": "2026-06-08T21:39:00+00:00",
-    "last_ts": "2026-06-09T12:33:00+00:00",
-    "span_hours": 14.9,
+    "count": 3,
+    "first_ts": "2026-06-09T19:47:00+00:00",
+    "last_ts": "2026-06-10T07:44:00+00:00",
+    "span_hours": 11.95,
     "by_mode": {
-      "first-command": 2,
-      "work-start": 2
+      "work-start": 3
     },
     "runs": [
       {
-        "ts_iso": "2026-06-08T21:39:00+00:00",
-        "ok": true,
-        "mode": "first-command",
-        "kv": {
-          "cursor_model": "unknown",
-          "model_tier": "unknown"
-        }
-      },
-      {
-        "ts_iso": "2026-06-09T03:35:00+00:00",
-        "ok": true,
-        "mode": "first-command",
-        "kv": {
-          "cursor_model": "unknown",
-          "model_tier": "unknown"
-        }
-      },
-      {
-        "ts_iso": "2026-06-09T04:41:00+00:00",
+        "ts_iso": "2026-06-09T19:47:00+00:00",
         "ok": true,
         "mode": "work-start",
         "kv": {
@@ -72,7 +53,16 @@
         }
       },
       {
-        "ts_iso": "2026-06-09T12:33:00+00:00",
+        "ts_iso": "2026-06-10T00:30:00+00:00",
+        "ok": true,
+        "mode": "work-start",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-06-10T07:44:00+00:00",
         "ok": true,
         "mode": "work-start",
         "kv": {
@@ -83,78 +73,71 @@
     ],
     "picks": [
       {
-        "ts_iso": "2026-06-08T17:53:00+00:00",
+        "ts_iso": "2026-06-09T19:48:00+00:00",
+        "picked": "B",
+        "menu_label": "B"
+      },
+      {
+        "ts_iso": "2026-06-09T19:51:00+00:00",
         "picked": "A",
         "menu_label": "A"
       },
       {
-        "ts_iso": "2026-06-08T17:58:00+00:00",
-        "picked": "D",
-        "menu_label": "D"
+        "ts_iso": "2026-06-09T19:57:00+00:00",
+        "picked": "conductor",
+        "menu_label": "conductor",
+        "conductor": "toscanini"
       },
       {
-        "ts_iso": "2026-06-08T18:00:00+00:00",
-        "picked": "D",
-        "menu_label": "D"
+        "ts_iso": "2026-06-09T20:12:00+00:00",
+        "picked": "conductor",
+        "menu_label": "conductor",
+        "conductor": "furtwangler"
       },
       {
-        "ts_iso": "2026-06-09T03:39:00+00:00",
-        "picked": "D",
-        "menu_label": "D"
+        "ts_iso": "2026-06-09T20:19:00+00:00",
+        "picked": "conductor",
+        "menu_label": "conductor",
+        "conductor": "furtwangler"
       },
       {
-        "ts_iso": "2026-06-09T03:41:00+00:00",
-        "picked": "D",
-        "menu_label": "D"
+        "ts_iso": "2026-06-09T20:25:00+00:00",
+        "picked": "conductor",
+        "menu_label": "conductor",
+        "conductor": "kleiber"
       },
       {
-        "ts_iso": "2026-06-09T03:43:00+00:00",
-        "picked": "A",
-        "menu_label": "A"
-      },
-      {
-        "ts_iso": "2026-06-09T04:43:00+00:00",
-        "picked": "D",
-        "menu_label": "D"
-      },
-      {
-        "ts_iso": "2026-06-09T04:46:00+00:00",
-        "picked": "A",
-        "menu_label": "A"
-      },
-      {
-        "ts_iso": "2026-06-09T05:38:00+00:00",
+        "ts_iso": "2026-06-09T21:19:00+00:00",
         "picked": "conductor",
         "menu_label": "conductor",
         "conductor": "bernstein"
       }
     ],
     "by_picked": {
-      "A": 3,
-      "D": 5,
-      "conductor": 1
+      "B": 1,
+      "A": 1,
+      "conductor": 5
     }
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-06-08T13:46:05.885207+00:00",
-    "window_end_utc": "2026-06-09T13:46:05.885207+00:00",
+    "window_start_utc": "2026-06-09T13:32:20.386155+00:00",
+    "window_end_utc": "2026-06-10T13:32:20.386155+00:00",
     "window_hours": 24.0,
-    "pick_count": 1,
-    "outcome_count": 8,
-    "completed_passes": 8,
+    "pick_count": 5,
+    "outcome_count": 5,
+    "completed_passes": 5,
     "orientation_only": 0,
     "off_menu_refusals": 0,
-    "last_master": "bernstein",
+    "last_master": "karajan",
     "last_outcome": {
-      "ts_iso": "2026-06-09T05:38:00+00:00",
+      "ts_iso": "2026-06-10T10:26:00+00:00",
       "kind": "outcome",
-      "conductor": "bernstein",
-      "verdict": "held",
-      "falsify": "Beirut-strike-within-72h-collapses-episodic-alive-read",
-      "commit": "98415d277",
-      "notebook_ref": "statecraft/daily/2026-06-08.md"
+      "conductor": "karajan",
+      "verdict": "ai_bench_hierarchy_closed",
+      "falsify": "palantir_only_minab_attribution_lugansk_palantir_ai_forensics",
+      "notebook_ref": "statecraft/notes/china-ai-implementation-watch.md"
     },
-    "echo": "bernstein carried the latest conductor line; last close: Beirut-strike-within-72h-collapses-episodic-alive-read; 8 closed pass(es)"
+    "echo": "karajan carried the latest conductor line; last close: palantir_only_minab_attribution_lugansk_palantir_ai_forensics; 5 closed pass(es)"
   },
   "execution_paths": [
     {
@@ -204,10 +187,10 @@
   ],
   "suggested_execution_path_index": 0,
   "execution_path_suggestion_reason": "validated_follow_through",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: push-parent-and-ph-civ-remote-when-ready; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: push-cadence-closeout-when-ready; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
   "learning_action_recommendation": "confirm",
   "learning_action_reason": "recent receipts suggest clean follow-through",
-  "carry_forward_object": "push-parent-and-ph-civ-remote-when-ready",
+  "carry_forward_object": "push-cadence-closeout-when-ready",
   "carry_forward_test": "Is the prior judgment still live enough to follow through cleanly?",
   "confidence_class": "medium",
   "bias_strength": "soft",
@@ -226,32 +209,24 @@
   "capture_gap": {
     "last_evidence_date": "2026-05-21",
     "last_evidence_id": "ACT-0038",
-    "days_since_evidence": 19,
+    "days_since_evidence": 20,
     "last_merge_date": "2026-05-21",
-    "days_since_merge": 19,
+    "days_since_merge": 20,
     "pending_count": 1,
     "level": "warning",
-    "message": "Record hasn't grown in 19 days (last: ACT-0038, 2026-05-21)"
+    "message": "Record hasn't grown in 20 days (last: ACT-0038, 2026-05-21)"
   },
   "capability_shift": {
     "category": "model",
-    "sources_checked": 3,
+    "sources_checked": 5,
     "sources_total": 6,
-    "alert_count": 2,
+    "alert_count": 9,
     "review_count": 0,
-    "monitor_count": 0,
+    "monitor_count": 2,
     "variant_count": 0,
     "fetch_errors": [
       {
         "name": "Anthropic",
-        "error": "The read operation timed out"
-      },
-      {
-        "name": "OpenAI",
-        "error": "The read operation timed out"
-      },
-      {
-        "name": "Google",
         "error": "The read operation timed out"
       }
     ]
@@ -261,26 +236,26 @@
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-06-09T13:47:16.442859+00:00",
+    "fetched_at": "2026-06-10T13:33:09.650001+00:00",
     "status": "ok",
-    "title": "Welcome to June 8, 2026",
-    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-8-2026",
-    "published_at": "2026-06-08T18:10:13+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 8, 2026\" (2026-06-08T18:10:13+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
+    "title": "Welcome to June 9, 2026",
+    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-9-2026",
+    "published_at": "2026-06-09T15:36:44+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 9, 2026\" (2026-06-09T15:36:44+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
     "previous_dream_generated_at": null,
     "local_calendar_dates": [
-      "2026-06-09"
+      "2026-06-10"
     ],
     "strategy_notebook_missing_day_headers": [
-      "2026-06-09"
+      "2026-06-10"
     ]
   },
   "last_coffee_echo": {
-    "timestamp": "2026-06-09T12:33:00+00:00",
+    "timestamp": "2026-06-10T07:44:00+00:00",
     "conductor": "bernstein",
     "mode": "work-start",
     "menu_letter": "conductor",
@@ -291,11 +266,11 @@
   "topActionReason": "validated_follow_through",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "Capture gap: Record hasn't grown in 19 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
+    "must_resume": "Capture gap: Record hasn't grown in 20 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
     "safe_to_drop": "",
     "blocked": "",
-    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 8, 2026 - consider explicit source hygiene if relevant to"
+    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 9, 2026 - consider explicit source hygiene if relevant to"
   },
-  "worktreeState": "light residue",
-  "worktreeAdvice": "leave or commit before sleep; bridge seals when you close the session."
+  "worktreeState": "risky residue",
+  "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session."
 }
