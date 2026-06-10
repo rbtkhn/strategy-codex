@@ -2,7 +2,8 @@
 
 | Topic | Path |
 |-------|------|
-| **CIV-STATE wire source registry (SSOT)** | [docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) |
+| **Corpus tiers 1–4** (wire-verify = tier **3** only) | [docs/source-lattice-beyond-the-repo.md § statecraft corpus tiers](../../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex) |
+| **CIV-STATE wire source registry (SSOT)** | [docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — sub-tiers **3a/3b/3c** |
 | Portable core | [skills-portable/wire-verify/SKILL.md](../../../skills-portable/wire-verify/SKILL.md) |
 | General fact triage | [.cursor/skills/fact-check/SKILL.md](../fact-check/SKILL.md) |
 | Strategy + verify gate | [.cursor/skills/skill-strategy/SKILL.md](../skill-strategy/SKILL.md) (Modes → **+ verify**) |
@@ -28,7 +29,8 @@
 - Run **after** transcript lands, **before** `statecraft daily synthesis` or EOD compose when breaking seams load-bear.
 - Pair with **`strategy + verify`** when folding wire hooks into codex / strategy-notebook layers.
 - **Every batch:** run the **five-lane CIV-STATE sweep** (America · Persia · PRC · Russia · Rome — cite or **`-absent`** per lane) per portable core § *CIV-STATE sweep (every pass)* — before `statecraft daily synthesis` or matrix promotion.
-- **Sub-hook passes** (v1.5.0): single-fork operator questions — combatant lanes + mesh; still emit minimum chat block + [sweep execution checklist](../../../skills-portable/wire-verify/SKILL.md#sweep-execution-checklist); do not fake 5/5 without searching.
+- **Sub-hook passes** (v1.5.0+): single-fork operator questions — combatant lanes + mesh; still emit minimum chat block + [sweep execution checklist](../../../skills-portable/wire-verify/SKILL.md#sweep-execution-checklist); do not fake 5/5 without searching.
+- **Corpus tier law** (v1.5.1): grade **tier 3** only (**3a** official · **3b** wire · **3c** syndicated/social); **tier 4** commentary (archive transcripts, Mercouris/Diesen benches) = interpretation fence — not wire facts.
 
 ## `verify:` token vocabulary (extend daily-brief defaults)
 

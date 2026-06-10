@@ -3,7 +3,7 @@ name: "wire-verify"
 preferred_activation: "wire verify"
 description: "Triage wire- and desk-reported facts in ingests and briefs before synthesis: extract media hooks, fence interpretation, score developing-story claims (supported/contradicted/unclear/contested), optional verify receipts. Triggers: wire verify, verify wires, verify tier, strategy + verify on breaking seams. Complements fact-check."
 portable: true
-version: "1.5.0"
+version: "1.5.1"
 tags:
   - "verification"
   - "statecraft"
@@ -18,11 +18,21 @@ synced_by: "sync_portable_skills.py"
 
 **Scope:** Fast external check on **claims that entered through news wires, live desks, or attributed media** — especially when **second-hand inside a transcript** ("according to the New York Times…", "Axios says…", "Hebrew media reports…").
 
+**Corpus tier (source-lattice):** Wire-verify grades **corpus tier 3 only** — current-events news / official. SSOT: [source-lattice § statecraft corpus tiers](../../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex) · registry [§ placement](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#source-lattice-placement).
+
+| Tier | Scope |
+|------|--------|
+| **1** Historical primary | Out of scope — civ-state primary-text acquisition |
+| **2** Historical secondary | Out of scope — Durant, Gibbon, CIV-MEM, etc. |
+| **3** Current-events news | **This skill** — sub-tiers **3a** (official), **3b** (major wire), **3c** (syndicated/social) |
+| **4** Current-events commentary | Out of scope for wire grade — Mercouris, Diesen, Davis, landed transcripts |
+
 **Not in scope (label, do not score as wire facts):**
 
-- Analyst **interpretation**, forecasting, or doctrine (escalation dominance, decoupling arcs, "what Iran wants").
+- **Corpus tier 4** analyst **interpretation**, forecasting, or doctrine (escalation dominance, decoupling arcs, "what Iran wants").
 - Operator opinion, predictions, moral frames.
-- **Primary-source acquisition** (full MFA readout, court filing, official PDF) — escalate to **`fact check deep`** or lane-specific primary skills.
+- **Corpus tier 1–2** historical claims cited inside commentary.
+- **Deep 3a pull** (full MFA readout, court filing, official PDF) beyond triage — escalate to **`fact check deep`** or lane-specific primary skills.
 
 ## Relationship to fact-check
 
@@ -73,7 +83,7 @@ Scan for:
 
 **Do not** close wire-verify on **English-only Western wires** alone when hooks are **regime- or institution-attributed**.
 
-**Source registry (SSOT):** [WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — per-lane **T1/T2/T3** tables, URLs, native-lang law, and verify tokens. **Do not** maintain parallel outlet lists in chat; extend the registry when a lane gains a new stable T1.
+**Source registry (SSOT):** [WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — **corpus tier 3** per-lane outlet tables (**3a/3b/3c**; legacy T1/T2/T3), URLs, native-lang law, and verify tokens. **Do not** maintain parallel outlet lists in chat; extend the registry when a lane gains a new stable **3a**.
 
 **Fixed lanes — search all five on every `wire verify` pass** (same story window as the hooks; **no topic triggers**):
 
@@ -89,7 +99,7 @@ Scan for:
 
 **Sweep law:**
 
-- **All five lanes** every pass — cite **≥1** T1/T2 when that lane commented on the seam; else **`-absent`** receipt + one-line note. **Silent skip forbidden** → `verify:triangulation-incomplete`.
+- **All five lanes** every pass — cite **≥1** **3a/3b** when that lane commented on the seam; else **`-absent`** receipt + one-line note. **Silent skip forbidden** → `verify:triangulation-incomplete`.
 - **Attribution:** facts attributed to a lane are **blocked at Supported** without that lane's receipt. Native lang when wording disputes: **`fa`** (Persia), **`zh`** (PRC), **`ru`** (Russia), **`it` / `es` / `fr` / `pt`** (Rome per registry).
 - **Mesh:** non-combatant lanes (**PRC**, **Rome**) inform **framing** when combatant lanes contest; they **do not** override America/Persia attribution.
 - **Lanes disagree** → **`Contested`** or **`Unclear`** — never flatten to one wire.
@@ -104,28 +114,28 @@ Before closing any pass, confirm **each** lane row (batch = all five; sub-hook =
 
 | Step | Requirement |
 |------|-------------|
-| 1 | **Query** ≥1 registry **T1 URL** for that lane (site search or registry table link) — not generic web prose alone |
-| 2 | **Record** lane + **lang** + tier (T1/T2/T3) on every cite |
+| 1 | **Query** ≥1 registry **3a** URL for that lane (site search or registry table link) — not generic web prose alone |
+| 2 | **Record** lane + **lang** + sub-tier (**3a** / **3b** / **3c**) on every cite |
 | 3 | If silent → **`verify:<lane>-lane-absent`** + one line: *what was searched, window, no dated line* |
 | 4 | If a lane was not searched → **`verify:triangulation-incomplete`** — do not mark "5/5 sweep" |
 
 **Anti-pattern:** Tagging **`-absent`** without naming the registry surface queried.
 
-### Social and executive tier (lane receipt)
+### Social and executive tier (corpus tier 3 sub-tiers)
 
 Full outlet tables live in the **registry**; this table fixes **common mis-tiers** only:
 
-| Surface | Lane | Tier | Satisfies lane receipt? |
-|---------|------|------|-------------------------|
-| CENTCOM / DoD / State / White House press | America | T1 | Yes, when dated to seam |
-| Trump **Truth Social** | America | T1 executive | Yes for **U.S. executive frame** — not forensic intent proof alone |
-| Anonymous **U.S. officials** (CNN/Axios/AP) | America | T2 | Supporting; pair for contested/high-stakes |
-| **IRNA** / **MFA** (`fa` or EN) | Persia | T1 | Yes for Tehran wording / denial |
-| FM **X** posts (e.g. Araghchi) | Persia | T3 | **No** alone — `verify:persia-lane` supporting + **`verify:fa-triangulation`** pending until MFA/IRNA |
-| Deputy minister via **foreign wire only** | Persia | T2/T3 | **Contested** until `fa` primary |
-| **TASS** / **Reuters** quoting Iran "unintentional" | Russia / wire | T2 overhearing | **Not** Persia T1 |
-| **Xinhua** repeating Trump/CENTCOM | PRC | T2 | Mesh framing — not independent causation adjudication |
-| Commentator transcript | — | T4 | Interpretation fence only |
+| Surface | Lane | Sub-tier | Satisfies lane receipt? |
+|---------|------|----------|-------------------------|
+| CENTCOM / DoD / State / White House press | America | **3a** | Yes, when dated to seam |
+| Trump **Truth Social** | America | **3a** executive | Yes for **U.S. executive frame** — not forensic intent proof alone |
+| Anonymous **U.S. officials** (CNN/Axios/AP) | America | **3b** | Supporting; pair for contested/high-stakes |
+| **IRNA** / **MFA** (`fa` or EN) | Persia | **3a** | Yes for Tehran wording / denial |
+| FM **X** posts (e.g. Araghchi) | Persia | **3c** | **No** alone — `verify:persia-lane` supporting + **`verify:fa-triangulation`** pending until MFA/IRNA |
+| Deputy minister via **foreign wire only** | Persia | **3b/3c** | **Contested** until `fa` **3a** |
+| **TASS** / **Reuters** quoting Iran "unintentional" | Russia / wire | **3b** overhearing | **Not** Persia **3a** |
+| **Xinhua** repeating Trump/CENTCOM | PRC | **3b** | Mesh framing — not independent causation adjudication |
+| Commentator transcript | — | **tier 4** | Interpretation fence only — not wire grade |
 
 ## Attribution duel subroutine
 
@@ -149,7 +159,7 @@ When hooks are **denial vs accusation** or **intent forks** (e.g. Tehran "not de
    - **Settled** — multiple independents align; official statement landed.
    - **Contested** — credible outlets disagree (e.g. "did not intercept" vs "fired interceptors in self-defense"; **America vs Persia** primary mismatch).
 4. **CIV-STATE sweep** — Per [pass mode](#pass-modes-batch-vs-sub-hook): run registry searches; complete [execution checklist](#sweep-execution-checklist). Record **lane** + **lang** on each cite. Lane absent → **`-absent`** token. If native primary not found in triage time on a wording row → **Unclear** + **Escalate** (`fact check deep` or operator native pull). Apply [attribution duel](#attribution-duel-subroutine) when denial/intent load-bears.
-5. **Search (triage)** — One solid cite per **lane** (or absent receipt); second cite on the **claim row** when **contested** or **high-stakes**. Prefer: **native official** > **lane primary EN** > wire > syndicated blog.
+5. **Search (triage)** — One solid cite per **lane** (or absent receipt); second cite on the **claim row** when **contested** or **high-stakes**. Prefer: **3a native official** > **3a EN** > **3b** wire > **3c** syndicated.
 6. **Verdict table**
 
    | Claim (short) | Lane | Lang | Wire / primary cited | Verdict | Cite (title + URL) |
@@ -228,7 +238,8 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 
 ## Related
 
-- **[WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md)** — per-lane wire source SSOT (America, Persia, China, Russia, adjacent).
+- **[source-lattice-beyond-the-repo.md](../../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex)** — corpus tiers **1–4** (wire-verify = tier **3** only).
+- **[WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md)** — per-lane wire source SSOT (America, Persia, China, Russia, Rome; **3a–3c**).
 - **fact-check** (host skill) — general triage; native-primary discipline; **`fact check deep`** escalation.
 - Host appendix — repo paths for inbox tokens, statecraft `source_note`, `strategy + verify` gate (Cursor install only).
 
@@ -239,7 +250,8 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 
 | Topic | Path |
 |-------|------|
-| **CIV-STATE wire source registry (SSOT)** | [docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) |
+| **Corpus tiers 1–4** (wire-verify = tier **3** only) | [docs/source-lattice-beyond-the-repo.md § statecraft corpus tiers](../../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex) |
+| **CIV-STATE wire source registry (SSOT)** | [docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — sub-tiers **3a/3b/3c** |
 | Portable core | [skills-portable/wire-verify/SKILL.md](../../../skills-portable/wire-verify/SKILL.md) |
 | General fact triage | [.cursor/skills/fact-check/SKILL.md](../fact-check/SKILL.md) |
 | Strategy + verify gate | [.cursor/skills/skill-strategy/SKILL.md](../skill-strategy/SKILL.md) (Modes → **+ verify**) |
@@ -265,7 +277,8 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 - Run **after** transcript lands, **before** `statecraft daily synthesis` or EOD compose when breaking seams load-bear.
 - Pair with **`strategy + verify`** when folding wire hooks into codex / strategy-notebook layers.
 - **Every batch:** run the **five-lane CIV-STATE sweep** (America · Persia · PRC · Russia · Rome — cite or **`-absent`** per lane) per portable core § *CIV-STATE sweep (every pass)* — before `statecraft daily synthesis` or matrix promotion.
-- **Sub-hook passes** (v1.5.0): single-fork operator questions — combatant lanes + mesh; still emit minimum chat block + [sweep execution checklist](../../../skills-portable/wire-verify/SKILL.md#sweep-execution-checklist); do not fake 5/5 without searching.
+- **Sub-hook passes** (v1.5.0+): single-fork operator questions — combatant lanes + mesh; still emit minimum chat block + [sweep execution checklist](../../../skills-portable/wire-verify/SKILL.md#sweep-execution-checklist); do not fake 5/5 without searching.
+- **Corpus tier law** (v1.5.1): grade **tier 3** only (**3a** official · **3b** wire · **3c** syndicated/social); **tier 4** commentary (archive transcripts, Mercouris/Diesen benches) = interpretation fence — not wire facts.
 
 ## `verify:` token vocabulary (extend daily-brief defaults)
 

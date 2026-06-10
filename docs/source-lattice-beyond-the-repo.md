@@ -50,6 +50,34 @@ after that into comparison, judgment, or application.
 It is not a claim that every object must be studied slowly or exhaustively.
 It is a claim about **order of operations**.
 
+## Statecraft corpus tiers (strategy-codex)
+
+In **statecraft** / **CIV-STATE** / **wire-verify** work, use a **four-tier corpus stack** (what kind of source) **in addition to** the reading-order layers above (when to use it in a pass).
+
+| Corpus tier | What | Examples | Repo surfaces |
+|-------------|------|----------|---------------|
+| **1** | **Historical primary** | Thucydides, Russian Primary Chronicle, *Federalist Papers*, treaties, inscriptions — named edition/translator in Links | CIV-STATE primary-text acquisition; `ph-civ` literary/transcript floor when the object *is* the historical text |
+| **2** | **Historical secondary** | Durant, Gibbon, Goldsworthy, Kaldellis; monographs; CIV-MEM | Civilization-state essays, museum routes — **support for tier 1**, not substitute |
+| **3** | **Current-events news / official** | CENTCOM, MFA/IRNA, Kremlin, Vatican press; Reuters, AP, Axios desks | [WIRE-VERIFY-CIV-STATE-SOURCES.md](skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — sub-tiers **3a** (official), **3b** (major wire), **3c** (syndicated/social) |
+| **4** | **Current-events commentary** | Mercouris, Diesen, Davis, Pape, stream benches | `source-archive/statecraft/` transcripts; speaker arcs; daily synthesis **Judgment** only after tier **3** receipts |
+
+**Orthogonal axes:**
+
+```text
+Corpus tier (what)     ×     Reading layer (when)
+1–4 historical → live        doorway / floor / support / synthesis
+```
+
+**Edge pins:**
+
+- **PH lecture transcript** (Jiang): default **tier 2** (structured pedagogical secondary); PH treats it as the *reading floor* for that corpus — special case, not tier 3 wire.
+- **Statecraft archive verbatim**: **tier 4** container; claims attributed to NYT/Axios/CENTCOM inside the transcript lift to **tier 3** for `wire verify`.
+- **`work-strategy-sources.md`** (WoTR, CSIS, long-arc outlets): default **tier 2** framing unless dated to a live seam, then **3b**.
+
+**Blocking rules:** tier 4 cannot substantiate tier 3 without receipt; tier 3 cannot substantiate tier 1–2; tier 2 cannot replace tier 1 on wording; tier 4 may interpret 1–3 after receipts.
+
+Wire-verify scope = **corpus tier 3 only** ([wire-verify SKILL](../skills-portable/wire-verify/SKILL.md)).
+
 ## Operational Forms
 
 ### 1. Reading protocol
