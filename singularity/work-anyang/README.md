@@ -18,4 +18,4 @@ This folder is the **operator/advisor WORK layer** in strategy-codex. It is **no
 
 **Phase:** pre-launch — mission, lanes, China stack, **philanthropist calibration** captured; WeChat group + Gitee live import still with mentor.
 
-**Sponsor pitch SSOT:** [anyang-philanthropist-calibration.md](anyang-philanthropist-calibration.md) · **One-pager (ZH):** [anyang-sponsor-one-pager.zh-CN.md](anyang-sponsor-one-pager.zh-CN.md) · **One-pager (EN, advisor):** [anyang-sponsor-one-pager.en.md](anyang-sponsor-one-pager.en.md) · **In-kind list:** [anyang-in-kind-request-list.md](anyang-in-kind-request-list.md)
+**Sponsor pitch SSOT:** [anyang-philanthropist-calibration.md](anyang-philanthropist-calibration.md) · **One-pager (ZH):** [anyang-sponsor-one-pager.zh-CN.md](anyang-sponsor-one-pager.zh-CN.md) · **One-pager (EN, advisor):** [anyang-sponsor-one-pager.en.md](anyang-sponsor-one-pager.en.md) · **In-kind list:** [anyang-in-kind-request-list.md](anyang-in-kind-request-list.md) · **Open tensions:** [anyang-open-tensions.md](anyang-open-tensions.md)

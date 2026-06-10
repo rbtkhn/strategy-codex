@@ -731,3 +731,14 @@ _(Append below this line.)_
 - **2026-06-09 19:47 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-09 19:48 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=B learning_action=test
 - **2026-06-09 19:51 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
+- **2026-06-09 19:54 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=920680d7f next=push-cadence-closeout-when-ready
+- **2026-06-09 19:57 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=toscanini
+- **2026-06-09 20:12 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=toscanini notebook_ref=source-archive/statecraft/2026-06-09/README.md falsify=day-readme-stale-returns-on-check commit=70a9060c0 movements=allegro_andante_scherzo_finale
+- **2026-06-09 20:12 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-06-09 20:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=furtwangler focus=worktree-fracture-vs-single-ship-story
+- **2026-06-09 20:21 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=furtwangler notebook_ref=singularity/notes/review-as-bottleneck-and-interpretive-pause.md falsify=multi-intent-batch-collapses-fracture-note movements=allegro_andante_finale_push_blocked commit=920680d7f 70a9060c0
+- **2026-06-09 20:25 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=kleiber
+- **2026-06-09 21:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=bernstein
+- **2026-06-09 21:36 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=bernstein notebook_ref=statecraft/daily/2026-06-09-intake-readiness.md falsify=daily-compose-before-intake-readiness-and-verify-receipts movements=allegro_andante_scherzo_finale
+- **2026-06-10 00:30 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-10 07:30 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=tensions-held-no-false-closure conductor=furtwangler notebook_ref=singularity/work-anyang/anyang-open-tensions.md falsify=recruitment-before-wechat-pin-and-mentor-rules

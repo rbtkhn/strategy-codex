@@ -185,6 +185,42 @@ Measure **where the stairs get steep**, not vanity joins or headcount alone.
 
 ---
 
+## Tensions (held, not resolved)
+
+Two pressures pull on the same program. **Do not smooth them into one sentence** until mentor and operator explicitly choose.
+
+### Tension 1 — Monorepo convenience vs bounded-cell membrane
+
+| Pressure | Voice | What it asks for |
+|---|---|---|
+| **Convenience** | Solo-operator “AI OS” patterns (one harness, nested “other worlds,” executive-assistant router) | Merge life + business + learning into **one** agent workspace for max reach |
+| **Membrane** | strategy-codex law + anyang sponsor calibration | Keep **anyang-ai** a **bounded cell**: `work-anyang/` playbook, per-member Gitee fork, no operator monorepo as the cohort model |
+
+**Held question:** Can families learn durable habits from a **small template repo** without inheriting the advisor’s full multi-territory tree?
+
+**Not decided:** Whether to add a operator-side `world-index` manifest (pointers only) vs keeping anyang strictly isolated.
+
+### Tension 2 — Teaching depth vs sponsor compression
+
+| Pressure | Voice | What it asks for |
+|---|---|---|
+| **Teaching** | Mission + in-room mentor | OB1 / companion-self **concepts**, governed workspace, “your repo / your gate” |
+| **Sponsor** | [Philanthropist calibration](anyang-philanthropist-calibration.md) | 本土 / 素养 / 开源 layers; **no** cici-ai transfer, **no** companion-self lead, **no** income promises |
+
+**Held question:** How does the mentor introduce **upstream ideas** to Builder-track adults without that vocabulary leaking into the WeChat pin or donor meeting?
+
+**Not decided:** A signed mentor **say / don’t say** sheet — see [anyang-open-tensions.md](anyang-open-tensions.md).
+
+### Tension 3 — Operator playbook ahead of mentor live surface
+
+Operator WORK artifacts (mission, calibration, one-pagers, rubric) exist on disk. Mentor live surface (WeChat, Gitee import URL, room, rules, week-one agenda) does not.
+
+**Held question:** Is pre-launch **documentation density** helping the mentor — or creating pitch drift before the first physical session?
+
+**Dependency trace:** [anyang-open-tensions.md § Launch dependency chain](anyang-open-tensions.md#launch-dependency-chain-furtwangler-c).
+
+---
+
 ## Revision
 
 | Date | Note |
@@ -194,3 +230,4 @@ Measure **where the stairs get steep**, not vanity joins or headcount alone.
 | 2026-06-08 | **Learning lanes:** Foundation (预备轨) vs Builder (实操轨); [anyang-ai-lanes.md](anyang-ai-lanes.md). |
 | 2026-06-08 | **Family recruitment** — household invites; activation counted per person. |
 | 2026-06-08 | **Philanthropist calibration** — [anyang-philanthropist-calibration.md](anyang-philanthropist-calibration.md) from sponsor MCQ. |
+| 2026-06-09 | **Tensions (held)** + link to [anyang-open-tensions.md](anyang-open-tensions.md) (Furtwangler pass). |

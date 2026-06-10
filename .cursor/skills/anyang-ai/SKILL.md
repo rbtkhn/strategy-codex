@@ -40,6 +40,8 @@ If the operator says **cici-ai** but means **China localization / Anyang familie
 | Advisor sync (EN) | [anyang-sponsor-one-pager.en.md](../../../singularity/work-anyang/anyang-sponsor-one-pager.en.md) |
 | In-kind checklist | [anyang-in-kind-request-list.md](../../../singularity/work-anyang/anyang-in-kind-request-list.md) |
 | Gitee template import | [anyang-ai-gitee-template-import.md](../../../singularity/work-anyang/anyang-ai-core/anyang-ai-gitee-template-import.md) |
+| WeChat pin + welcome (TBD file) | [anyang-ai-wechat/README.md](../../../singularity/work-anyang/anyang-ai-wechat/README.md) |
+| Open tensions (pre-launch) | [anyang-open-tensions.md](../../../singularity/work-anyang/anyang-open-tensions.md) |
 
 ---
 
