@@ -23,7 +23,8 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=-jfbieXSiH0"
 youtube_id: -jfbieXSiH0
-source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. Pepe Escobar sourcing cited in-voice; label as single-source until independently corroborated.
+source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported Iran missiles northern Israel after Beirut strike 7 Jun (Al Bawaba/Ch12 relay/AJ); Israel retaliatory strikes Iran 8 Jun (kore.co.il IDF/Israeli press); Pakistan Naqvi mediation 7 Jun (Al Jazeera); verify:wire-unclear Pepe Escobar Pakistan-source Islamabad Accords nuke-warning — single-source not wire-corroborated; verify:wire-partial missile-count volleys (20/11) — developing desk not independently tallied; verify:wire-out-of-scope Johnson Larijani third-party gate doctrine empty-building Yemen-response thesis.
+editorial_note: Wire-verify batch 2026-06-08–09.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Routine close / stay-on tail preserved.
 ---

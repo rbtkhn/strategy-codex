@@ -31,6 +31,7 @@ For each covered jurisdiction:
 | Russia | Russian (`ru`) | [Kremlin EN](http://en.kremlin.ru/), [TASS](https://tass.com/) |
 | Ukraine | Ukrainian / Russian | Official channels + major regional wires per day (operator choice) |
 | PRC | Mandarin (`zh`) | [MFA PRC EN](https://www.fmprc.gov.cn/eng/), [Xinhua EN](https://english.news.cn/home.htm) + Chinese root as needed |
+| Holy See / Rome | Italian (`it`) + Romance overhearing | [WIRE-VERIFY-CIV-STATE-SOURCES.md § Rome](WIRE-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state) — Vatican News / press.vatican.va primary; **`es` `fr` `pt`** when LatAm / EU / Brazil reception load-bears |
 
 Add rows as your briefs regularly cover other regions.
 

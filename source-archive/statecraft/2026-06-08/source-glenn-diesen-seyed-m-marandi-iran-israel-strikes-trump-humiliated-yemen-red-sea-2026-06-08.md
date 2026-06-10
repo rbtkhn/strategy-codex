@@ -23,7 +23,8 @@ channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=kcjU0rN6a2k"
 youtube_id: kcjU0rN6a2k
-source_note: Operator-pasted transcript; pub_date anchored to 2026-06-08 same-day intake batch (Tehran afternoon timestamp and live seam align with sibling 2026-06-08 captures). Light paragraph reflow only.
+source_note: Operator-pasted transcript; pub_date anchored to 2026-06-08 same-day intake batch. verify:wire-supported Iran–Israel exchange 7–8 Jun Lebanon trigger (AJ/BBC); Houthis total ban Israeli Red Sea shipping 8 Jun (Straits Times/Insurance Journal); Trump humiliation/negotiation stall — Rezaei $24B CNN 5 Jun (CNN); Gaza+Lebanon bundled gate Marandi register (AJ Iran no deal without Lebanon stop); verify:wire-partial Yemen Red Sea closure beyond Israel-flag ban — Houthi statement targets Israeli-affiliated not all traffic (Insurance Journal); verify:wire-out-of-scope Trump humiliated framing axis council rhetoric. Light paragraph reflow only.
+editorial_note: Wire-verify batch 2026-06-08–09.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 ---

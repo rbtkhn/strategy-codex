@@ -15,7 +15,7 @@ source_url: "https://www.youtube.com/watch?v=yu1H2bORJPM"
 youtube_id: yu1H2bORJPM
 channel_slug: daniel-davis-deep-dive
 source_note: Operator-pasted transcript; Davis retrospective on Feb 28 2026 war start citing April 15 2024 Michael P. DiMino IV clips and June 6 2026 Jack Keane clip; DiMino named deputy assistant secretary (Middle East) in-voice; NBC Trump/Welker casualties cited. verify:wire-supported DiMino DASD(Middle East) title; Israel spying target (NYT/NBC); Trump 13 KIA Meet Press 7 Jun; 20 US sites damaged (BBC Verify 1 Jun); wounded ~365+ Pentagon / higher est. unclear exact 400; verify:wire-supported retrospective clips attribution operator-transcript.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR Demino/DiMinno normalized to Michael P. DiMino IV — Deputy Assistant Secretary of Defense (Middle East); Defense Priorities colleague in Apr 2024 clips; NYT/NBC Jun 2026 espionage target alongside Colby. Davis in-voice "deputy assistant secretary of war for the Middle East" aligns with DoD title. Wire-verify 2026-06-09. Other ASR artifacts retained (Keane, etc.).
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR Demino/DiMinno normalized to Michael P. DiMino IV — Deputy Assistant Secretary of Defense (Middle East); Defense Priorities colleague in Apr 2024 clips; NYT/NBC Jun 2026 espionage target alongside Colby. Davis in-voice "deputy assistant secretary of war for the Middle East" aligns with DoD title. Wire-verify batch 2026-06-08–09 harmonized. Other ASR artifacts retained (Keane, etc.).
 proper_noun_normalize_applied: true
 show: Daniel Davis Deep Dive
 host: Daniel Davis

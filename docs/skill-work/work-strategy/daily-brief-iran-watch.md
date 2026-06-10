@@ -4,6 +4,8 @@
 
 **Relation to Islamabad lane:** [islamabad-operator-index.md](islamabad-operator-index.md), gap matrices, and `islamabad-framework*.md` capture **bargaining structure** and **U.S.-Iran** trade space. This hub is the **Iranian-state voice** pass, not a substitute for those frameworks; use **both** when the day is load-bearing on **pause**, **Hormuz**, **Lebanon**, or **nuclear** terms.
 
+**Wire-verify SSOT:** Per-lane source tables for **`wire verify`** triangulation live in [WIRE-VERIFY-CIV-STATE-SOURCES.md](WIRE-VERIFY-CIV-STATE-SOURCES.md#persia-lane) (Persia lane); this watch is the **48h scan** companion, not a duplicate registry.
+
 **When:** When the operator explicitly requests the **daily brief** or a **daily-brief refresh** in the [coffee skill](../../../.cursor/skills/coffee/SKILL.md) ecosystem (legacy **hey** still works): run the **web scan**, then write the **compact block** (bullets + URLs) into **section 1h** (`## 1h. IRI - last 48 hours (Islamic Republic of Iran)`) **in the daily brief file** after `generate_work_politics_daily_brief.py` (or when refreshing an existing today's file). Step 1 **coffee** does **not** run this scan automatically.
 
 ---

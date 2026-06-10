@@ -16,10 +16,13 @@
 
 ## Source order (default)
 
-1. **Primary** — [vatican.va](https://www.vatican.va) Holy Father / press / **documented** **audience** **texts** **(language** **as** **published).**
-2. **Wire** **cross-check** — **Reuters** **/** **AP** **/** **Vatican** **News** **(for** **dating** **and** **context);** **attribute** **quotes** **to** **published** **page** **or** **wire.**
-3. **Social** **—** **`@Pontifex`** **(and** **language** **siblings)** **only** **as** **syndication** **of** **speech** **/** **message** **—** **not** **a** **substitute** **for** **(1).**
-4. **CIV-MEM** **(optional** **slow** **layer)** — **only** **for** **precedent** **/** **institutional** **memory** **questions;** **see** [manifest.md](manifest.md) **§** **CIV-MEM.** **Never** **replace** **(1)–(3)** **for** **“what** **happened** **this** **week.”**
+**Wire-verify SSOT:** Per-lane outlet tables (Holy See primaries + **Italian / Spanish / French / Portuguese** overhearing) — [WIRE-VERIFY-CIV-STATE-SOURCES.md § Rome](../WIRE-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state). Use **`wire verify`** receipts when folding papal hooks into archive or daily synthesis.
+
+1. **Primary** — [press.vatican.va](https://press.vatican.va) Bollettino · [vatican.va](https://www.vatican.va) Holy Father / **documented** **audience** **texts** **(language** **as** **published).**
+2. **Wire** **cross-check** — **Vatican** **News** **(match** **speech** **language)** **/** **Reuters** **/** **AP** **(for** **dating** **and** **context);** **attribute** **quotes** **to** **published** **page** **or** **wire.**
+3. **Romance overhearing** **(when** **reception** **matters)** — **one** **of** **`it`** **/** **`es`** **/** **`fr`** **/** **`pt`** **per** [registry § Rome](../WIRE-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state) — **framing** **only** **unless** **full** **Holy** **See** **text** **reproduced.**
+4. **Social** **—** **`@Pontifex`** **(and** **language** **siblings)** **only** **as** **syndication** **of** **speech** **/** **message** **—** **not** **a** **substitute** **for** **(1).**
+5. **CIV-MEM** **(optional** **slow** **layer)** — **only** **for** **precedent** **/** **institutional** **memory** **questions;** **see** [manifest.md](manifest.md) **§** **CIV-MEM.** **Never** **replace** **(1)–(4)** **for** **“what** **happened** **this** **week.”**
 
 ---
 

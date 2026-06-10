@@ -3,29 +3,45 @@ ingest_date: 2026-06-05
 pub_date: 2026-06-05
 kind: transcript
 source_form: interview
-thread: nima
-show: Dialogue Works
-host: Nima Alkhorshid
+source_type: youtube
+transcript_type: operator_pasted_transcript
+host_people:
+  - Glenn Diesen
+guest_people:
+  - Seyed M. Marandi
+show_title: Glenn Diesen
+channel_name: Glenn Diesen
+thread: diesen
+threads:
+  - diesen
+  - marandi
+show: Glenn Diesen
+host: Glenn Diesen
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Hormuz Toll, Strike On Kuwait, Israel Decline & Iranian Nuclear Bomb?"
-channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: dialogue-works
+channel_url: "https://www.youtube.com/@GDiesen1/videos"
+channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=CtNtxF4LPKo"
-source_note: Cleaned transcript pasted by operator. Mis-attributed host — canonical Diesen-host capture at [source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md](source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md) (same URL CtNtxF4LPKo).
-editorial_note: Dialogue Works thread retained for Nima-lane routing; Glenn Diesen is actual host per transcript close.
+youtube_id: CtNtxF4LPKo
+cross_host_alias: source-alkorshid-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md
+source_note: Host re-file from mis-attributed Dialogue Works capture; same @GDiesen1 episode (CtNtxF4LPKo). Transcript body alias; guest close addresses Glenn Diesen.
+editorial_note: Diesen-host re-file 2026-06-09; canonical host object for diesen-source-index.
+evidence_grade: transcript-bearing
 opening_tier: clean
 ---
 
 # Seyed M. Marandi: Hormuz Toll, Strike On Kuwait, Israel Decline & Iranian Nuclear Bomb?
 
-**Channel:** Dialogue Works (Nima Alkhorshid)  
+**Channel:** Glenn Diesen  
 **Date:** Friday, June 5, 2026  
 **Guest:** Seyed M. Marandi  
-**URL:** https://www.youtube.com/watch?v=CtNtxF4LPKo
+**URL:** https://www.youtube.com/watch?v=CtNtxF4LPKo  
+**Alias:** [Dialogue Works mis-file](source-alkorshid-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md) (same episode)
 
 ---
 
-## Cleaned Transcript
+## Transcript
+
 Uh welcome back to the program. We are joined again by Professor Sed Muhammad Marandi, a professor at Tran University and a former adviser to Iran's nuclear negotiation team. I'm yeah very glad you had the time to speak today cuz uh there seems to be a lot of developments going on both with yeah the war uh the possible diplomatic path and also heard speculations about Iran if not developing a nuclear weapon it would show its capability to do so.
  Again I want to ask how much is speculation but uh again maybe we start at the beginning. Uh so what is it? How do you see the current state of the war? Because we now saw that well the US appears to be stepping up against Iran and at the same time we see Iran um having struck Kuwait. So uh how how can we best understand what's happening at the moment? Well, ever since the ceasefire began, uh the supposed ceasefire, uh the United States has effectively almost immediately afterwards, a few days afterwards, it began siege warfare
 against Iran, which is an act of war. And uh but it's an a double-edged sword because the global economy is crashing as a result. In addition to that, every now and then the United States carries out some sort of attack on Iranian territory. Iran has never initiated any ceasefire breach.

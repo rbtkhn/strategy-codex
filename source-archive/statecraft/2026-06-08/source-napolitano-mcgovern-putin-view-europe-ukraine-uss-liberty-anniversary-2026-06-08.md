@@ -18,7 +18,8 @@ title: "Ray McGovern: Putin's View of Europe and Ukraine; plus a Sad Anniversary
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=kiWqcTeLaIQ"
 youtube_id: kiWqcTeLaIQ
-source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. Ideological cold open and routine live schedule tail stripped at close.
+source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported USS Liberty anniversary 8 Jun 1967 — historical date; Thomas Massie floor segment operator-transcript; Iran–Israel/Lebanon same-week seam (AJ/BBC); verify:wire-partial Putin view Europe Ukraine — attributed claims only where wire-cited in-body not re-scored; verify:wire-out-of-scope McGovern Putin/Europe interpretive frame third-party deterrence Lebanon recognition gate. Ideological cold open and routine live schedule tail stripped at close.
+editorial_note: Wire-verify batch 2026-06-08–09.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 quality_note: Light cleanup removed ad boundaries and transcript noise; minor ASR artifacts may remain.

@@ -1,33 +1,42 @@
 ---
-ingest_date: 2026-06-07
+ingest_date: 2026-06-06
 pub_date: 2026-06-06
 kind: transcript
 source_form: interview
-host_people: ""
-guest_people: ""
-show_title: Dialogue Works
-channel_name: Dialogue Works
-thread: nima
-show: Dialogue Works
-host: Nima Alkhorshid
-guest: Charles Freeman
-title: "Chas Freeman: The Greater Israel Project Is Collapsing"
-channel_url: "https://www.youtube.com/@dialogueworks01"
-channel_slug: dialogue-works
-source_url: "https://www.youtube.com/watch?v=HuhJinByAEg"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript for Dialogue Works / Chas Freeman. Mis-attributed host — canonical Diesen-host capture at [source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md](source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md) (same URL HuhJinByAEg).
-editorial_note: Dialogue Works thread retained for Nima-lane routing; @GDiesen1 is publication channel per cognition-streams audit.
+host_people:
+  - Glenn Diesen
+guest_people:
+  - Charles Freeman
+show_title: Glenn Diesen
+channel_name: Glenn Diesen
+thread: diesen
+threads:
+  - diesen
+  - freeman
+show: Glenn Diesen
+host: Glenn Diesen
+guest: Charles Freeman
+title: "Chas Freeman: The Greater Israel Project Is Collapsing"
+channel_url: "https://www.youtube.com/@GDiesen1/videos"
+channel_slug: glenn-diesen
+source_url: "https://www.youtube.com/watch?v=HuhJinByAEg"
+youtube_id: HuhJinByAEg
+cross_host_alias: source-alkorshid-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md
+source_note: Host re-file from mis-attributed Dialogue Works capture; same @GDiesen1 episode (HuhJinByAEg). Transcript body alias.
+editorial_note: Diesen-host re-file 2026-06-09; canonical host object for diesen-source-index.
+evidence_grade: transcript-bearing
 opening_tier: clean
 ---
 
 # Chas Freeman: The Greater Israel Project Is Collapsing
 
-**Channel:** Dialogue Works (Nima Alkhorshid)  
+**Channel:** Glenn Diesen  
 **Date:** Saturday, June 6, 2026  
 **Guest:** Charles Freeman  
-**URL:** https://www.youtube.com/watch?v=HuhJinByAEg
+**URL:** https://www.youtube.com/watch?v=HuhJinByAEg  
+**Alias:** [Dialogue Works mis-file](source-alkorshid-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md) (same episode)
 
 ---
 

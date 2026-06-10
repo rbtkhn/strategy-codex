@@ -15,7 +15,8 @@ channel_slug: alex-mercouris
 channel_url: "https://www.youtube.com/@AlexMercouris/videos"
 source_url: "https://www.youtube.com/watch?v=aXsYSfAc7ks"
 youtube_id: aXsYSfAc7ks
-source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026 from Istanbul airport en route to Moscow. Shorter-than-normal program.
+source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026 from Istanbul airport en route to Moscow. verify:wire-supported Iran–Israel direct exchange 7–8 Jun Lebanon trigger (AJ/BBC/Independent); Oreshnik/Kiev strike pressure — Russian mass strikes Kiev early Jun wire-reported (Pravda/AP class); southern Beirut/Dahiyeh strike cycle (AJ); Trump ceasefire posts 8 Jun (BBC); verify:wire-partial Odessa fortifications push — not independently matched this pass; verify:wire-out-of-scope Mercouris field-impression Moscow route Istanbul en-route. Shorter-than-normal program.
+editorial_note: Wire-verify batch 2026-06-08–09.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Light normalization only in display heading; body preserved from operator paste.
 ---

@@ -118,6 +118,10 @@ After drafting from Russia's view, ask how America would bound the leverage, how
 
 Keep India visible as a major Eurasian partner and comprehensive-power candidate. Russian support for Iran should not unnecessarily alienate India or collapse Moscow's wider balancing geometry.
 
+## Wire verification
+
+**Wire-verify:** Russia lane is **lane 4** of the five-lane CIV-STATE sweep — [WIRE-VERIFY-CIV-STATE-SOURCES.md § Russia](../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#russia-lane).
+
 ## Drafting Prompts
 
 - What does Moscow need recognized without saying "sphere of influence"?

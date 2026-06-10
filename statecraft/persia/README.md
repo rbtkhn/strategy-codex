@@ -127,6 +127,10 @@ After drafting from Iran's view, ask how America would bound the lever, how Russ
 
 India clarifies the metric. India may be stronger as a comprehensive power, but Iran's claim is crisis leverage: resource self-sufficiency, geography, denial capacity, and chokepoint salience that can reorder bargaining in weeks.
 
+## Wire verification
+
+**Wire-verify:** Persia lane is **lane 2** of the five-lane CIV-STATE sweep — [WIRE-VERIFY-CIV-STATE-SOURCES.md § Persia](../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#persia-lane) (`fa` when wording load-bears). 48h companion: [daily-brief-iran-watch.md](../../docs/skill-work/work-strategy/daily-brief-iran-watch.md).
+
 ## Drafting Prompts
 
 - What does Iran need recognized in order to accept restraint?

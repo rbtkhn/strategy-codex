@@ -132,7 +132,9 @@ April hinge ladder: 08 → 12 → 17 → 20 → 22 → 30; use archive day READM
   - [2026-06-07 - Parsi × Nima × McGovern: Third-Party Deterrence Vs Recognition Gate](2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
   - [2026-06-07 - America: Trump Humiliation, Vance Absence, Capture Extension](2026-06-07-america-trump-humiliation-vance-absence-capture-extension.md)
   - [2026-06-07 - Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md)
-- **2026-06-08** (archive landed; daily pending)
+- [2026-06-08](2026-06-08.md)
   - [2026-06-08 - Davis Trust Fork × Johnson Islamabad / Larijani Doctrine](2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md)
   - [2026-06-08 - Davis Lebanon Fulcrum × Crooke Ceasefire-for-All](2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
   - [2026-06-08 - Johnson Larijani Doctrine × June 7 Third-Party Gate](2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade.md)
+- [2026-06-09](2026-06-09.md) — command fracture; Pape × Marandi duet; Marandi Dahiyeh wire receipts
+  - [2026-06-09 Intake Readiness](2026-06-09-intake-readiness.md)

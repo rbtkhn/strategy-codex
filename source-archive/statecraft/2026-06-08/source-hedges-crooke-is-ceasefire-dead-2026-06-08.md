@@ -17,7 +17,8 @@ source_url: "https://www.youtube.com/watch?v=bW5YD1XQA6o"
 youtube_id: bW5YD1XQA6o
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript; Sunday Iran–Israel exchange after southern Beirut strike, permanent-security doctrine, scalar deterrence, Hormuz/economic cliff, IDF implosion signals. Pub date from same-week lane context (Sunday strikes referenced); no spoken calendar date in opening.
+source_note: Operator-pasted YouTube transcript; Sunday Iran–Israel exchange after southern Beirut strike. verify:wire-supported Iran retaliatory missiles after Beirut southern suburbs strike then Israeli counter-strikes; Trump demanded halt 8 Jun (BBC/Independent/AJ); Lebanon Tyre strike same window (BBC); verify:wire-partial Hormuz closure economic cliff — IEA inventory draws Mar–Apr 246mb + critical-low warning Jun (IEA/Yahoo); verify:wire-out-of-scope permanent-security doctrine scalar deterrence IDF implosion signals far-right Ben-Gvir lane. Pub date from same-week lane context; no spoken calendar date in opening.
+editorial_note: Wire-verify batch 2026-06-08–09.
 editorial_note: Operator-pasted body preserved verbatim; host essay lede retained intact.
 evidence_grade: transcript-bearing
 ---

@@ -23,7 +23,8 @@ channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=a2nQnLcTNuo"
 youtube_id: a2nQnLcTNuo
-source_note: Operator-pasted transcript; references Ahoud Barak quote, Hamas Hasim Kasm Gaza-ceasefire linkage, Section 224 NDAA, Tom Cotton Senate complement, FT Netanyahu headline, Yemen Red Sea closure, Pew 67% poll, Josh Paul oversight resignation — verify tier for attributed officials and poll stats.
+source_note: Operator-pasted transcript. verify:wire-supported DIA spying critical + Colby/Witkoff (NYT/NBC); Houthis Israeli-shipping ban 8 Jun (Straits Times); Pew 59% wrong war decision 62% disapprove Apr (Pew) — 67% overstated vs YouGov 68% quick-deal May29–Jun1; Section 224 NDAA family cited in-batch; verify:wire-partial Ehud Barak quote — not independently matched this pass; Josh Paul oversight resignation — directional 2024-era not re-pulled; FT Netanyahu headline — partial; verify:wire-out-of-scope Wilkerson Israel bet everything lost frame Hamas Kasm linkage Tom Cotton complement.
+editorial_note: Wire-verify batch 2026-06-08–09.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 ---

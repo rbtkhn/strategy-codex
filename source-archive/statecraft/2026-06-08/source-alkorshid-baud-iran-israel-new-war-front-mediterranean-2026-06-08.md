@@ -19,7 +19,8 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=CEXkLl7pVzo"
 youtube_id: CEXkLl7pVzo
-source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026 in opening lines. Light paragraph reflow only; ASR names preserved where normalization confidence is low.
+source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported Dahiyeh red-line cycle + Iran axis-response equation (AJ 8 Jun); Israel Lebanon occupation south to Litani continues (AJ); UNIFIL mandate misuse claim — UNIFIL present south Lebanon wire-confirmed operations contested (UNIFIL/AJ); verify:wire-partial Mediterranean/NATO front escalation — no wire-matched new NATO Article 5 trigger 8 Jun; verify:wire-out-of-scope Baud trap/ego Netanyahu green-light interpretation State Dept Israel-requested intervention historical frame. Light paragraph reflow only; ASR names preserved where normalization confidence is low.
+editorial_note: Wire-verify batch 2026-06-08–09.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 opening_tier: host-tease

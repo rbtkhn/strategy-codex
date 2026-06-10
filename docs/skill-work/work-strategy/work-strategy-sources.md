@@ -72,6 +72,7 @@ Independent analysis with intelligence or geopolitical focus. Curated from [01-m
 | Sentinel Situation Report *(Substack)* | https://sentinelllc.substack.com/ | Geopolitical and security situational awareness |
 | All-Source Intelligence Fusion *(Substack)* | https://jackpoulson.substack.com/ | Open-source intelligence analysis |
 | The Intel Desk *(Substack)* | https://theinteldesk.substack.com/ | Intelligence and national security commentary |
+| The Weichert Brief *(Substack)* | https://weichert.substack.com/ | Brandon J. Weichert — Iran, great-power competition, NDAA/industrial-base reads; recurring Mario Nawfal guest |
 
 ---
 

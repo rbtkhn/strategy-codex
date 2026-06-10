@@ -123,6 +123,10 @@ After drafting from America's view, ask how Russia would exploit the U.S. burden
 
 India remains a long-horizon comprehensive-power partner and balancing pole. Do not confuse India's structural value with Iran's immediate coercive leverage; U.S. policy has to manage both metrics at once.
 
+## Wire verification
+
+**Wire-verify:** America lane is **lane 1** of the five-lane CIV-STATE sweep on every `wire verify` pass — [WIRE-VERIFY-CIV-STATE-SOURCES.md § America](../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#america-lane).
+
 ## Drafting Prompts
 
 - What U.S. move reduces Iran's leverage rather than confirming it?

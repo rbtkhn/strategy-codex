@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **14** sources (13 transcripts + Pape Substack); **[daily synthesis](./2026-06-08.md)** refreshed (14-source batch; Wilkerson × Hoh mesh spine + Sachs pushback wire-in). Sachs (`-vbRhB69TEY`) landed 2026-06-09 ingest; Wilkerson (`a2nQnLcTNuo`) + evening Davis same ingest wave.
 
-**Parent week:** [June week-1 start here](./2026-06-week1-start-here.md) · [2026-06-07 daily](./2026-06-07.md)
+**Parent week:** [June week-1 start here](./2026-06-week1-start-here.md) · [2026-06-07 daily](./2026-06-07.md) · **Wire-verify matrix (8–9 Jun):** [2026-06-08-09-wire-verify-matrix.md](./2026-06-08-09-wire-verify-matrix.md)
 
 **Thesis under test:** June 7 spent the **Lebanon recognition gate as third-party hard power** (Parsi/Nima/McGovern). June 8+ intake must determine whether that rule **holds**, **escalates**, or **reverts to episodic**.
 

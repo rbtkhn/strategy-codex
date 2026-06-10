@@ -16,8 +16,8 @@ source_url: "https://www.youtube.com/watch?v=a_GzAcbxs10"
 youtube_id: a_GzAcbxs10
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript; overnight Iran–Israel exchange bench (Channel 12 “17-hour war”), Trump–Netanyahu defiance seam, US intercept participation dispute (WSJ vs White House/CNN/NBC), MOU frozen-assets stick, Lebanon/Beirut “new equation,” Pakistan mediation weight, Gaza blockade response. Pub date from episode title and same-day Nawfal lane context; no spoken date in opening.
-editorial_note: Operator-pasted body preserved verbatim; light paragraph reflow at speaker turns only.
+source_note: Operator-pasted YouTube transcript; overnight Iran–Israel exchange bench. verify:wire-supported Iran first direct homeland missiles since April ceasefire after Beirut southern suburbs strike 7–8 Jun (Al Jazeera/BBC/Independent); bilateral pause 8 Jun Trump plea both sides halt Iran–Israel strikes Lebanon continues full force (BBC/AJ/AP); Hezbollah rejects US-Lebanon govt ceasefire farce (AJ); Pakistan Naqvi Tehran 7 Jun special letter mediation (Al Jazeera/Anadolu); MOU $24B Rezaei deadlock CNN 5 Jun (CNN/Iran Intl/Soufan); verify:wire-partial Channel 12 barrage framing — Al Bawaba relays Ch12 Sunday missiles not literal 17-hour war phrase matched; verify:wire-contested US intercept row (WSJ vs White House/CNN/NBC vs Al-Monitor self-defense); verify:wire-out-of-scope Parsi third-party deterrence doctrine Pakistan courier weight. Pub date from episode title and same-day Nawfal lane context.
+editorial_note: Operator-pasted body preserved verbatim; light paragraph reflow at speaker turns only. Wire-verify batch 2026-06-08–09.
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 ---

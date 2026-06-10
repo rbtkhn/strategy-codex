@@ -18,7 +18,8 @@ title: "Alastair Crooke: Ceasefire for All or Ceasefire for No One"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=cNMGfil1Iso"
 youtube_id: cNMGfil1Iso
-source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. Ideological cold open and precious-metals sponsor block stripped; routine live schedule tail stripped at close.
+source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported Lebanon fuse — Iran missiles Israel after Beirut Dahiyeh-area strike; Trump Truth Social immediate ceasefire 8 Jun (BBC/Independent); Israel Lebanon ops continue during Iran–Israel pause (AJ/AP); Pakistan/Oman ceasefire-for-all intermediaries lane directional (Soufan/AJ); verify:wire-partial Shin Bet political-violence warnings — polls show Netanyahu electoral pressure (TOI/in-show polls uncorroborated exact); verify:wire-out-of-scope ceasefire-for-all doctrine permanent-security scalar deterrence Netanyahu jail-risk mechanism. Ideological cold open and precious-metals sponsor block stripped; routine live schedule tail stripped at close.
+editorial_note: Wire-verify batch 2026-06-08–09.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 quality_note: Normalized to remove ad boundaries and transcript noise; minor ASR artifacts may remain.
