@@ -55,3 +55,18 @@ Create stronger Diesen cross-host doctrine only if one or more of the following 
 - a later volume needs to compare the native stream body against other host environments
 
 Until then, keep Diesen classified as a stream-native speaker object whose main body remains the `stream/` shelf under `statecraft/civ-lens/diesen/`.
+
+## Cross-host hygiene — Dialogue Works mis-file audit (2026-06-09)
+
+Bounded pass: `source-alkorshid-*` whose `source_url` **youtube_id** also appears on a **@GDiesen1** host capture, or whose transcript **closes to Glenn Diesen**.
+
+| youtube_id | Alkorshid (Nima thread) | Canonical Diesen-host | Signal |
+|---|---|---|---|
+| `CtNtxF4LPKo` | [alkorshid-marandi-hormuz-toll-…-2026-06-05.md](../../../source-archive/statecraft/2026-06-05/source-alkorshid-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md) | [glenn-diesen-marandi-hormuz-toll-…-2026-06-05.md](../../../source-archive/statecraft/2026-06-05/source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md) | **glenn_close** + cognition-streams audit |
+| `HuhJinByAEg` | [alkorshid-freeman-greater-israel-…-2026-06-06.md](../../../source-archive/statecraft/2026-06-06/source-alkorshid-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md) | [glenn-diesen-freeman-greater-israel-…-2026-06-06.md](../../../source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md) | URL collision + @GDiesen1 publish |
+
+**Repo-wide collision scan (alkorshid × diesen youtube_id):** **2 hits** — both June 2026 above; no other `source-alkorshid-*` shares a `source_url` with an on-disk `source-glenn-diesen-*` / `source-diesen-*` capture.
+
+**Routing rule:** Keep alkorshid copies for **Nima / Dialogue Works** lane pressure; open **Diesen-host** paths for `diesen-source-index`, `diesen-*-speaker-arc`, and cognition-stream host continuity.
+
+**Still open:** `K6sOEhWL0W4` (Sean Foo, 2026-06-04) — @GDiesen1 main upload with **no** statecraft capture yet.

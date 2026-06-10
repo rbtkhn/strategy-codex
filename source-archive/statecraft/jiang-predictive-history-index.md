@@ -17,7 +17,14 @@ Current local capture counts:
 - `Game Theory`: `6`
 - `Great Books`: `2`
 - `Substack essays`: `1`
-- Total indexed local Predictive History / Jiang captures: `13`
+- `Founding Members livestreams`: `1`
+- Total indexed local Predictive History / Jiang captures: `14`
+
+## Founding Members
+
+| Date | ID | Title | Source | Local file |
+| --- | --- | --- | --- | --- |
+| 2026-06-10 | `fm-01` | *Founding Members #1* (livestream) | [YouTube](https://www.youtube.com/watch?v=kFH4AujWqtI) | [source-predictive-history-founding-members-01-livestream-2026-06-10.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-10/source-predictive-history-founding-members-01-livestream-2026-06-10.md) |
 
 ## Interviews
 
@@ -58,3 +65,4 @@ Current local capture counts:
 - Some local captures may precede or exceed what is currently materialized in the public mirror.
 - The new `gb-11` / `gb-12` Dante captures are best read as future Volume I / Civilization continuations rather than as detached archive-only material.
 - The `statecraft/civ-lens/civ-lens-jiang/ph-civ` mirror remains the canonical public-facing lecture/manuscript environment.
+- **Founding Members ASR:** `ph-civ/data/asr-blocklist/founding-members-pilot.json` (regen: `python scripts/generate_founding_members_asr_blocklist.py`; validate: `python scripts/validate_statecraft_asr_blocklist.py`; apply: `python scripts/normalize_statecraft_source_asr.py … --write`).

@@ -41,6 +41,8 @@ This lane is materially present on disk as a 2026 Iran-war run. It should be rea
 | 7 | 2026-03-03 | *Iran's Military Strategy, U.S. Miscalculations* | Best first root file. Strongest early statement of Marandi in the Diesen register before the spring run fully matures. |
 | 8 | 2026-05-01 | *U.S. Attack on Iran Could Be Imminent* | Best imminent-war threshold file; useful for the lane's reading of pressure just before the May hardening. |
 | 9 | 2026-05-23 | *Iran Closes Its Airspace as Negotiations Fail and the U.S. Prepares to Strike* | Best late-May alert-state file in the Diesen register; useful for the lane's negotiation-failure and imminent-strike framing after the May hardening is already established. |
+| 10 | 2026-06-05 | *Hormuz Toll, Strike On Kuwait, Israel Decline & Iranian Nuclear Bomb?* | Jun pre-fuse anchor — Beirut red line, Pakistan written-message channel, pseudo-ceasefire / siege grammar. Canonical host: [source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md](../../../source-archive/statecraft/2026-06-05/source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md) (re-file from mis-attributed Dialogue Works alias). |
+| 11 | 2026-06-08 | *Iran-Israel Strikes, Trump Humiliated & Yemen Restricts Red Sea Access* | Lebanon-gate live proof — extended deterrence, Yemen braid, deal-floor register. [source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md](../../../source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md) |
 
 ## Open first
 
@@ -52,6 +54,11 @@ If the operator needs the best paired read:
 
 - open [source-diesen-marandi-hormuz-all-out-war-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
 - then [source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-09/source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md)
+
+If the operator needs the **June Lebanon-fuse pair**:
+
+- open [source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md](../../../source-archive/statecraft/2026-06-05/source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md)
+- then [source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md](../../../source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md)
 
 That pair gives the clearest mature lane shape:
 

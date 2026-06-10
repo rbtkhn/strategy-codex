@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T09:54:23+00:00",
+  "generated_at": "2026-06-10T08:28:52+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -783,19 +783,32 @@
       "needs_label_normalization": true
     },
     "2026-06": {
-      "captured_days": 8,
-      "source_count": 86,
-      "thread_count": 26,
-      "channel_or_show_count": 15,
-      "host_count": 13,
-      "guest_count": 17,
+      "captured_days": 10,
+      "source_count": 111,
+      "thread_count": 30,
+      "channel_or_show_count": 17,
+      "host_count": 16,
+      "guest_count": 21,
       "guest_label_variants": [
+        {
+          "signature": "freeman",
+          "labels": [
+            {
+              "label": "Charles Freeman",
+              "count": 2
+            },
+            {
+              "label": "Chas Freeman",
+              "count": 1
+            }
+          ]
+        },
         {
           "signature": "hoh",
           "labels": [
             {
               "label": "Matt Hoh",
-              "count": 1
+              "count": 2
             },
             {
               "label": "Matthew Hoh",

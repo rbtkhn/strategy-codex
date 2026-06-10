@@ -30,7 +30,10 @@ For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../.
 1. [source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
    Best mature anchor. Strongest full statement of the **sea-power -> land-power** transition, Hormuz checkmate logic, petrodollar fragility, and post-hegemonic order consequences.
 
-2. [source-diesen-2026-04-18-verbatim-2026-04-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md)
+2. [source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md](../../../source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md)
+   Best **June 2026** anchor — greater-Israel collapse, reprisal-symmetry read, Lebanon farcical-ceasefire / Hezbollah gate, agreement-incapable Washington. Canonical host re-file (same episode as Dialogue Works alias).
+
+3. [source-diesen-2026-04-18-verbatim-2026-04-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md)
    Best first anchor for the **Islamabad / performative diplomacy / door-vs-padlock** vocabulary. Strong on the "fantasy foreign policy" and "no meeting of minds" frame that later becomes the stream's characteristic Freeman seam.
 
 ### 2025 densification
