@@ -13,6 +13,7 @@ from pathlib import Path
 from asr_transcript_replacements import (
     CIVILIZATION_REPLACEMENTS,
     COMMON_REPLACEMENTS,
+    FOUNDING_MEMBERS_REPLACEMENTS,
     GAME_THEORY_REPLACEMENTS,
     GREAT_BOOKS_REPLACEMENTS,
     SECRET_HISTORY_REPLACEMENTS,
@@ -32,6 +33,8 @@ def detect_series_from_basename(name: str) -> str | None:
         return "game-theory"
     if n.startswith("great-books-"):
         return "great-books"
+    if "founding-members" in n:
+        return "founding-members"
     if n.startswith("interviews-"):
         return "interviews"
     return None
@@ -95,5 +98,8 @@ def normalize_transcript_text(
         total += n
     elif series == "great-books":
         text, n = apply_ordered_replacements(text, GREAT_BOOKS_REPLACEMENTS)
+        total += n
+    elif series == "founding-members":
+        text, n = apply_ordered_replacements(text, FOUNDING_MEMBERS_REPLACEMENTS)
         total += n
     return text, total

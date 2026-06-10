@@ -36,7 +36,7 @@ For mirror work in strategy-codex, set `PH_CIV_TRANSCRIPT_EDIT=1` only for the a
 
 Staged guard: `python scripts/validate_ph_civ_transcript_boundary.py --staged` (also wired in optional pre-commit).
 
-Pilot ASR blocklist (civ-01–12): `python scripts/validate_transcript_proper_nouns.py` — flags known manglings still in transcript bodies; SSOT `ph-civ/data/asr-blocklist/volume-ii-pilot.json`.
+Pilot ASR blocklists: `python scripts/validate_transcript_proper_nouns.py` (Volume II civ-01–18); `python scripts/validate_statecraft_asr_blocklist.py` (Founding Members livestreams in `source-archive/statecraft/`). SSOT under `ph-civ/data/asr-blocklist/` (`volume-ii-pilot.json`, `founding-members-pilot.json`).
 
 ## Do not confuse with
 
