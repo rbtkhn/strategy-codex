@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Davis Trust Fork × Johnson Islamabad / Larijani Doctrine — 2026-06-08
 
-**Parent queue:** [2026-06-08 Intake Readiness](./2026-06-08-intake-readiness.md) · **Week:** [2026-06-week1-start-here](./2026-06-week1-start-here.md) · **Event baseline:** [2026-06-07 Parsi × Nima × McGovern](./2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
+**Parent queue:** [2026-06-08 Intake Readiness](./2026-06-08-intake-readiness.md) · **Week:** [2026-06-week2-start-here](./2026-06-week2-start-here.md) · carry [week1](./2026-06-week1-start-here.md) · **Event baseline:** [2026-06-07 Parsi × Nima × McGovern](./2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
 
 **Sources:**
 

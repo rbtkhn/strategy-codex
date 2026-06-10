@@ -36,6 +36,30 @@ Its job is to:
 
 It is not a chronology replay and it is not a speaker-month shelf.
 
+### Week hinge (start-here)
+
+A **week hinge** is a thin navigation + object-migration receipt between daily notes and month compression. It is **not** weekly synthesis (no daily-parity section stack, no five-volume block, no functional-convergence grid).
+
+Its job is to:
+
+- route re-entry after absence within a **month-aligned week**
+- name **object migration** across hinge days in one line when dailies did not
+- carry **unspent paths** and falsifiers at week scale
+- link hinge dailies, statecraft notes, and wire-verify matrices without re-synthesizing transcripts
+
+**Month-aligned week partition** (not ISO/Sunday; no week spans two months):
+
+| weekN | Day range (inclusive) |
+|-------|------------------------|
+| week1 | 1 – 7 |
+| week2 | 8 – 14 |
+| week3 | 15 – 21 |
+| week4 | 22 – last day of month (may exceed 7 days) |
+
+Filename: `YYYY-MM-weekN-start-here.md`. Header states partition range and `partial through YYYY-MM-DD` when the month-week is still open.
+
+**Nav boundary:** `*-intake-readiness.md` = pre-synthesis queue; week hinge = post-daily re-entry. After a week hinge exists for the active month-week, intake and companions should point to the hinge—not day scatter.
+
 ### Statecraft note
 
 A **statecraft note** is a bounded follow-on comparison or mechanism note that emerges from a daily or monthly synthesis object.
@@ -144,6 +168,39 @@ Monthly note law:
   - `Russia`
   - `America`
 
+## Week Hinge Contract
+
+Activation: operator says **`week hinge`** or **`start-here`** + month/week.
+
+**Surface role:** Navigation + object-migration receipt between daily synthesis and monthly compression—not transcript re-synthesis.
+
+**Required sections (fixed order; ~1 screen, up to ~2 on heavy wire weeks):**
+
+1. **Governing object (week)** — one sentence; optional **object migration** line; optional **one-line convergence** using monthly function labels (e.g. `threshold + capture`)—not a full grid.
+2. **Archive checkpoint** — month-week day range; `partial through YYYY-MM-DD` when open; capture counts; `first capture YYYY-MM-DD` if month started mid-capture; link to month archive index.
+3. **If you only read three things** — **3–5 links** (default 3; heavy wire weeks → 5).
+4. **Read by question** — small routing table.
+5. **Day ladder** — hinge days with synthesis only (not full chronology).
+6. **Statecraft note map** — bounded compares; wire-verify matrix links where batch closes in this month-week.
+7. **Unspent paths** — falsifier table; **link active watch sheet** when trap/fuse week.
+8. **Next intake** — latest intake-readiness or expected batch.
+9. **Prior week carry** — 3–5 bullets from finalized `weekN-1` unspent paths + link (omit for week1).
+
+**Explicit laws:**
+
+- No five-volume CIV-STATE block; no functional-convergence grid (monthly only).
+- Quote density lighter than daily; paraphrase + links preferred.
+- Must point **down** to dailies; do not duplicate daily executive reads verbatim.
+- **Partial refresh:** refresh **replaces** sections in place; header holds `partial through` + optional one-line **last refresh** note (date + what changed).
+- **Sparse month-week:** no hinge file if zero daily syntheses in partition range; month note records `weekN: no daily floor`.
+- **Wire-verify matrices** stay tier-3 receipts—link in note map, do not rewrite as week judgment.
+
+**Triggers:** month-week close (finalize) or object migrates within month-week (refresh same file) or operator invocation.
+
+**Promotion to monthly:** only on explicit **`statecraft monthly synthesis`**—assemble `Month Arcs` from finalized week-hinge object-migration lines; no dream auto-merge into partial month notes.
+
+Template: [`_templates/week-hinge-start-here.md`](./_templates/week-hinge-start-here.md).
+
 ## Intelligence Essay Contract
 
 Required law for intelligence essays on this shelf:
@@ -165,7 +222,7 @@ If the answer is no, it is probably still a synthesis note in disguise.
 
 The governing recursive-learning law is:
 
-`shared structure is valid only if it produces day-native or month-native insight`
+`shared structure is valid only if it produces day-native, week-native, or month-native insight`
 
 This is the pass/fail test for the shelf.
 
@@ -176,6 +233,12 @@ A valid synthesis does at least one of these:
 - shows why unlike speakers converge on one governing object
 - uses the five-volume pass to surface a truth the lane/speaker read would likely have missed
 - improves the next statecraft note or lane-draft opening
+
+A valid **week hinge** does at least one of these:
+
+- improves re-entry routing (operator finds the right daily/note/matrix faster than reading all dailies in range)
+- names object migration across hinge days in one line the dailies did not state jointly
+- carries prior-week unspent paths without duplicating month compression
 
 A failed synthesis is one where:
 

@@ -178,6 +178,29 @@ Short rule:
 
 `do not ask only who is right; ask where explanatory responsibility is divided`
 
+## Week hinge subroutine (not weekly synthesis)
+
+**Activation:** operator says **`week hinge`** or **`start-here`** + month/week.
+
+This is **navigation + object-migration** between daily and monthly synthesis — **not** a third full synthesis contract (no five-volume block, no functional-convergence grid).
+
+**Month-aligned partition** (not ISO/Sunday; no cross-month weeks):
+
+| weekN | Days |
+|-------|------|
+| week1 | 1 – 7 |
+| week2 | 8 – 14 |
+| week3 | 15 – 21 |
+| week4 | 22 – EOM |
+
+**When to write or refresh:** month-week close, object migrates within month-week (refresh same `YYYY-MM-weekN-start-here.md`), or operator invocation. Header: `partial through YYYY-MM-DD` while open.
+
+**Doctrine:** [statecraft/daily/METHOD.md § Week Hinge](../../statecraft/daily/METHOD.md#week-hinge-contract) · template: [`_templates/week-hinge-start-here.md`](../../statecraft/daily/_templates/week-hinge-start-here.md).
+
+**After daily synthesis:** if dominant object migrated within the active month-week, offer or refresh the week hinge; intake-readiness should point to the hinge for post-daily re-entry.
+
+**Monthly feed:** only on explicit **`statecraft monthly synthesis`** — lift object-migration lines into `Month Arcs`; no dream auto-merge.
+
 ## Guardrails
 
 - Never write the daily synthesis into `source-archive/statecraft/`.

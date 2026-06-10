@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Davis Lebanon Fulcrum × Crooke Ceasefire-for-All — 2026-06-08
 
-**Parent queue:** [2026-06-08 Intake Readiness](./2026-06-08-intake-readiness.md) · **Week:** [2026-06-week1-start-here](./2026-06-week1-start-here.md) · **Prior gate:** [2026-06-06 Persia Lebanon-first gate](./2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
+**Parent queue:** [2026-06-08 Intake Readiness](./2026-06-08-intake-readiness.md) · **Week:** [2026-06-week2-start-here](./2026-06-week2-start-here.md) · carry [week1](./2026-06-week1-start-here.md) · **Prior gate:** [2026-06-06 Persia Lebanon-first gate](./2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
 
 **Sources:**
 

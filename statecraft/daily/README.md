@@ -16,7 +16,8 @@ They are not source authority and should not replace the underlying transcript l
 
 Use these when the question is about how the shelf works, not only which note to open:
 
-- [METHOD.md](./METHOD.md) - active doctrine for daily notes, month notes, statecraft notes, adaptive reuse, and named failure modes
+- [METHOD.md](./METHOD.md) - active doctrine for daily notes, **week hinges**, month notes, statecraft notes, adaptive reuse, and named failure modes
+- [_templates/week-hinge-start-here.md](./_templates/week-hinge-start-here.md) - month-aligned week hinge template (`week hinge` / `start-here`)
 - [audit-rubric.md](./audit-rubric.md) - human-first checklist for judging whether a note satisfies the current synthesis contract
 - [benchmark-manifest.md](./benchmark-manifest.md) - small proof set for future method changes, audits, and light automation
 - [MONTHLY-METHOD-COMPANION.md](./MONTHLY-METHOD-COMPANION.md) - monthly method **supplement** (legacy filename); month-note deepening beyond May
@@ -25,6 +26,7 @@ Use these when the question is about how the shelf works, not only which note to
 The compact distinction is:
 
 - daily note = one archive day judged into an object
+- week hinge = month-aligned week re-entry (`YYYY-MM-weekN-start-here.md`; not weekly synthesis)
 - monthly note = one archive month compressed into governing objects
 - statecraft note = one bounded follow-on comparison or mechanism note opened by a parent daily or month synthesis (legacy: *statecraft note*)
 - intelligence essay = a synthetic singularity-statecraft essay linked to a live day or object, but not written in speaker-shelf form
@@ -110,9 +112,9 @@ April hinge ladder: 08 → 12 → 17 → 20 → 22 → 30; use archive day READM
   - [2026-05-31 - Barnes-Diesen-Nima On Coercive Failure](2026-05-31-barnes-diesen-nima-coercive-failure.md)
   - [2026-05-31 - Rome-America On Carrier Capture Versus Sovereign Burden-Bearing](2026-05-31-rome-america-carrier-capture-vs-sovereign-burden-bearing.md)
 
-### 2026-06 - monthly synthesis (partial through 2026-06-07) plus day ladder
+### 2026-06 - monthly synthesis (partial) plus month-week hinges
 
-**Start here:** [June 2026 Week 1 — Start Here](2026-06-week1-start-here.md) · **June 8 batch:** [2026-06-08 Intake Readiness](2026-06-08-intake-readiness.md) (daily synthesis pending)
+**Re-entry:** [June 2026 Week 2 — Start Here](2026-06-week2-start-here.md) (partial through 2026-06-09) · prior [Week 1](2026-06-week1-start-here.md) (Jun 1–7, finalized)
 
 - [2026-06 Monthly Synthesis (partial)](2026-06.md)
 - [2026-06-01](2026-06-01.md)
@@ -136,5 +138,8 @@ April hinge ladder: 08 → 12 → 17 → 20 → 22 → 30; use archive day READM
   - [2026-06-08 - Davis Trust Fork × Johnson Islamabad / Larijani Doctrine](2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md)
   - [2026-06-08 - Davis Lebanon Fulcrum × Crooke Ceasefire-for-All](2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
   - [2026-06-08 - Johnson Larijani Doctrine × June 7 Third-Party Gate](2026-06-08-johnson-larijani-third-party-gate-parsi-nima-upgrade.md)
-- [2026-06-09](2026-06-09.md) — command fracture; Pape × Marandi duet; Marandi Dahiyeh wire receipts
+- [2026-06-09](2026-06-09.md) — command fracture; evening CENTCOM/GCC seam; Pape × Marandi duet; 19 captures
   - [2026-06-09 Intake Readiness](2026-06-09-intake-readiness.md)
+  - [2026-06-09 - Apache × Shahed physics fork (Davis / Aguilar / Krapivnik / wire)](2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md)
+  - [2026-06-09 - S9 Ukraine secondary mesh (Helmer / Mercouris / Krapivnik)](2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)
+  - [2026-06-08–09 wire-verify matrix](2026-06-08-09-wire-verify-matrix.md)

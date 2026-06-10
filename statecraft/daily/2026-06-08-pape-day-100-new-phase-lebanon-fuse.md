@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Pape: Day 100 × New Phase × Lebanon Fuse — 2026-06-08
 
-**Parent queue:** [2026-06-08 Intake Readiness](./2026-06-08-intake-readiness.md) · **Week:** [2026-06-week1-start-here](./2026-06-week1-start-here.md) · **Same-day bench:** [Davis Lebanon fulcrum × Crooke](./2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) · [America USS Liberty seam](./2026-06-08-america-uss-liberty-legitimacy-seam.md)
+**Parent queue:** [2026-06-08 Intake Readiness](./2026-06-08-intake-readiness.md) · **Week:** [2026-06-week2-start-here](./2026-06-week2-start-here.md) · carry [week1](./2026-06-week1-start-here.md) · **Same-day bench:** [Davis Lebanon fulcrum × Crooke](./2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md) · [America USS Liberty seam](./2026-06-08-america-uss-liberty-legitimacy-seam.md)
 
 **Sources:**
 

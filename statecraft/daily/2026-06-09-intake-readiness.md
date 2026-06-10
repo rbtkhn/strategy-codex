@@ -2,9 +2,9 @@ WORK only; not Record.
 
 # June 9 Intake Readiness — Command Fracture
 
-**Status:** `source-archive/statecraft/2026-06-09/` batch **landed** — **16** transcript sources; indices refreshed (`thread-index`, `2026-06.md`, day `README.md`). **Daily promoted:** [2026-06-09.md](./2026-06-09.md) (verify-gated — Marandi/Pape core wired; Weichert rows partial).
+**Status:** `source-archive/statecraft/2026-06-09/` batch **landed** — **19** transcript sources; indices refreshed (`thread-index`, `2026-06.md`, day `README.md`). **Daily promoted:** [2026-06-09.md](./2026-06-09.md) (sync **2026-06-10** — Marandi/Pape core wired; evening CENTCOM/GCC seam + S9 mesh; Weichert rows partial).
 
-**Parent day:** [2026-06-08 daily](./2026-06-08.md) · [2026-06-08 intake readiness](./2026-06-08-intake-readiness.md)
+**Parent day:** [2026-06-08 daily](./2026-06-08.md) · [2026-06-08 intake readiness](./2026-06-08-intake-readiness.md) · **Parent week:** [June week-2 start here](./2026-06-week2-start-here.md) (partial through 2026-06-09)
 
 **Bernstein conductor close:** motif named, counterpoint table run in chat; executive-read opening drafted — not promoted to full daily without this file + verify pass.
 
@@ -27,7 +27,7 @@ June 8 asked **which ceasefire label** still holds — alive, dead, or theatrica
 
 ## Archive receipt
 
-[Day README](../../source-archive/statecraft/2026-06-09/README.md) — **16** sources (full list in day README). Core command-fracture triad + Apache seam + Nawfal Weichert quartet:
+[Day README](../../source-archive/statecraft/2026-06-09/README.md) — **19** sources (full list in day README). Core command-fracture triad + Apache seam + Nawfal Weichert quartet + evening kinetic pair:
 
 | File | Channel | Guest | Thread |
 | --- | --- | --- | --- |
@@ -39,8 +39,11 @@ June 8 asked **which ceasefire label** still holds — alive, dead, or theatrica
 | [Weichert × Nawfal — rearm-not-deal](../../source-archive/statecraft/2026-06-09/source-nawfal-weichert-iran-us-rearming-for-war-2026-06-09.md) | Mario Nawfal | Brandon J. Weichert | `weichert`, `nawfal` |
 | [Weichert × Nawfal — systems war / restart](../../source-archive/statecraft/2026-06-09/source-nawfal-weichert-russia-ukraine-escalating-iran-war-restarting-2026-06-09.md) | Mario Nawfal | Brandon J. Weichert | `weichert`, `nawfal` |
 | [Aguilar × Alkorshid](../../source-archive/statecraft/2026-06-09/source-alkorshid-anthony-aguilar-iranian-drone-takes-down-us-apache-helicopter-war-imminent-2026-06-09.md) | Dialogue Works | Lt. Col. Anthony Aguilar | `nima`, `aguilar` |
+| [Davis breaking — Qeshm / Apache](../../source-archive/statecraft/2026-06-09/source-daniel-davis-deep-dive-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md) | Daniel Davis Deep Dive | Daniel Davis (solo) | `davis` |
+| [Krapivnik × Alkorshid — Breaking US attacks Iran](../../source-archive/statecraft/2026-06-09/source-alkorshid-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md) | Dialogue Works | Stanislav Krapivnik | `nima`, `krapivnik` |
+| [Nima solo — Bahrain retaliation](../../source-archive/statecraft/2026-06-09/source-alkorshid-iran-launches-immediate-retaliation-explosions-rock-bahrain-after-us-strikes-2026-06-09.md) | Dialogue Works | (solo) | `nima` |
 
-`python3 scripts/check_statecraft_intake_daily_sync.py --day 2026-06-09` → `ok` (16/16 inventory wired).
+`python3 scripts/check_statecraft_intake_daily_sync.py --day 2026-06-09` → `ok` (19/19 inventory wired).
 
 ---
 
@@ -48,7 +51,10 @@ June 8 asked **which ceasefire label** still holds — alive, dead, or theatrica
 
 | Claim class | Source | Verdict needed |
 | --- | --- | --- |
-| Apache down near Hormuz (NYT/Axios/CNN Shahed-136) | Pape/Nawfal · Aguilar | **Triage fact-check** — wire tier S2 contested; Aguilar adds tactical-adviser + drone-cost equation; do not floor cause in daily without receipt |
+| Apache down near Hormuz (NYT/Axios/CNN Shahed-136) | Pape/Nawfal · Aguilar · Davis breaking | **Triage fact-check** — wire tier S2 contested; [physics fork](./2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md) leading hypothesis mechanical→pretext; do not floor cause without receipt |
+| CENTCOM Qeshm evening strikes (five-base vs proportional) | Davis breaking · Krapivnik · Nima solo | **Supported** strike sites (CBS/Xinhua); **partial** Fox timeline; Davis disproportion read = analyst |
+| IRGC GCC base retaliation (Bahrain/Jordan/Kuwait) | Nima solo | **Developing** — Bahrain/Jordan in-voice; Kuwait TBD; 21-target claim vs US denial |
+| Krapivnik Ukraine encirclement / Konstantinovka 80% | Krapivnik | **Contradicted** on encirclement — [S9 mesh](./2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md) |
 | Hezbollah infiltration Misgav/Margalyot | Pape/Nawfal | **Triage fact-check** — Hebrew-media attribution |
 | Pape “middle game / survival→ambition” | Pape | Analyst frame — label as **Pape read**, not wire |
 | Freeman “negotiations dead” | Freeman | Expert judgment — cite as Freeman register |
@@ -113,7 +119,7 @@ Still live from [2026-06-08 daily](./2026-06-08.md):
    python3 scripts/build_statecraft_month_indices.py --month 2026-06
    ```
 
-**Intake triad:** archive ✓ · verify **partial** (Marandi + Pape core wired; Weichert ep3/ep4 pending) · synthesis **promoted** → [2026-06-09.md](./2026-06-09.md).
+**Intake triad:** archive ✓ (19) · verify **partial** (Marandi + Pape + evening CENTCOM wired; GCC retaliation developing; Weichert ep3/ep4 pending) · synthesis **promoted** → [2026-06-09.md](./2026-06-09.md) · [S9 mesh](./2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md).
 
 ---
 

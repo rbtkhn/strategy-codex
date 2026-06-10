@@ -1,8 +1,12 @@
 WORK only; not Record.
 
-# June 2026 Week 1 — Start Here (through 2026-06-07)
+# June 2026 Week 1 — Start Here
 
-One entry point for re-entering the first captured week of June 2026. Open this before the full day ladder or statecraft-note scatter.
+**Month-week 1:** 2026-06-01 – 2026-06-07 · **Status:** finalized
+
+One entry point for re-entering the first month-aligned week of June 2026. Open this before the full day ladder or statecraft-note scatter.
+
+**Method:** [METHOD.md § Week Hinge](./METHOD.md#week-hinge-contract)
 
 **Governing object (week):** Lebanon recognition gate spent as third-party hard power while American executive command was falsified live.
 
@@ -90,6 +94,6 @@ Full protocol: [2026-06-08 intake readiness](./2026-06-08-intake-readiness.md).
 
 ## Next intake
 
-When June 8+ sources land: **[2026-06-08 intake readiness](./2026-06-08-intake-readiness.md)** — third-party deterrence falsifier protocol and priority roster.
+**Superseded for Jun 8+:** [2026-06-week2-start-here](./2026-06-week2-start-here.md) (month-week 2; partial through 2026-06-09).
 
-Invoke: **`statecraft daily intake`** (or paste transcripts with URLs).
+Invoke: **`statecraft daily intake`** · **`week hinge`**

@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Batch window:** 7–9 Jun 2026 (developing-story) · **Files:** 25 (14 on 2026-06-08 + 11 on 2026-06-09) · **Procedure:** [wire-verify SKILL](../../.cursor/skills/wire-verify/SKILL.md) triage · **Receipts:** all `source_note` / `capture_note` / `editorial_note` stamped `Wire-verify batch 2026-06-08–09`
 
-**Parent:** [2026-06-08 intake readiness](./2026-06-08-intake-readiness.md) · **8 Jun synthesis:** [2026-06-08.md](./2026-06-08.md) · **9 Jun synthesis:** pending (`NO_DAILY`)
+**Parent:** [2026-06-08 intake readiness](./2026-06-08-intake-readiness.md) · **8 Jun synthesis:** [2026-06-08.md](./2026-06-08.md) · **9 Jun synthesis:** [2026-06-09.md](./2026-06-09.md)
 
 ---
 
@@ -13,14 +13,14 @@ WORK only; not Record.
 | Seam | State | Verdict | Best cite |
 |------|-------|---------|-----------|
 | **S1** Lebanon / Iran–Israel fuse | **Developing** | **Supported** — Beirut southern suburbs strike → Iran homeland missiles (first since April); bilateral pause 8–9 Jun; Lebanon ops continue | [Al Jazeera 8 Jun](https://www.aljazeera.com/news/2026/6/8/how-lebanon-became-the-breaking-point-for-the-iran-war-ceasefire) · [BBC](https://www.bbc.com/news/articles/cj6ge150z5go) |
-| **S2** Apache / infiltration | **Contested** | Apache down 8 Jun **supported** (CENTCOM); cause **unclear** (WaPo investigation vs Trump shootdown vs Axios drone); infiltration **one gunman** supported, multi-cell **contradicted** | CENTCOM · Nawfal×Pape receipts |
+| **S2** Apache / infiltration | **Contested** | Apache down 8 Jun **supported** (CENTCOM); cause **unclear**; **leading hypothesis:** mechanical ditch → attribution → Qeshm strikes ([pretext chain](./2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md#pretext-chain-mechanical-ditch--attribution--strikes)); joint P(hit × survive) **~10⁻⁵**; infiltration **one gunman** supported, multi-cell **contradicted** | CENTCOM · Nawfal×Pape · Davis breaking |
 | **S3** Houthis Red Sea | **Settled** | Total ban on **Israeli-affiliated** Red Sea navigation 8 Jun **supported**; not all commercial traffic | [Straits Times 8 Jun](https://www.straitstimes.com/world/middle-east/yemens-houthis-declare-total-ban-on-israeli-ships-in-red-sea) |
 | **S4** Trump–Netanyahu control | **Developing** | Axios Bibi-needs-war / Trump-needs-end **supported**; Netanyahu halt Iran strikes at Trump request **supported**; Knesset literal "no" **partial** (national address halt-for-now) | Axios · ynet/Fox 8 Jun |
 | **S5** US capture / spying | **Settled** | DIA Israel threat **critical**; Colby/Witkoff/DiMino targets **supported** (NYT/NBC 6 Jun); Pew **59%** wrong decision / **62%** disapprove — **not 67%** | Pew May · NYT/NBC |
 | **S6** Patriot / E3 | **Developing** | Iran-war depletion ~45–50% Patriots **supported** (CSIS); E3 interceptor **production pledge** not fresh deliveries **partial** | CSIS · GOV.UK E3 7 Jun |
 | **S7** MOU / $24B | **Developing** | Rezaei $24B deadlock CNN 5 Jun **supported**; Trump no unfreeze until requirements **supported** (NBC/Soufan) | CNN · Soufan 8 Jun |
 | **S8** IEA / inventories | **Settled** | Mar 129mb + Apr 117mb draws **supported**; 500mb industry-stock deficit path **supported** (IEA May OM R) | [IEA PDF May 2026](https://iea.blob.core.windows.net/assets/2b89a47b-34a2-40e0-90ff-68f7ccd80715/-13MAY2026__OilMarketReport_publicversion.pdf) |
-| **S9** Ukraine secondary | **Partial** | Oreshnik/Kiev pressure **supported**; Sumy breakthrough **partial** (ISW ops, no city breakthrough); UK Astute all alongside **supported** (media) | ISW 8 Jun · UKDJ 7 Jun |
+| **S9** Ukraine secondary | **Partial** | Oreshnik/Kiev pressure **supported**; Kostyantynivka **infiltration supported**, **~80%/cauldron contradicted** (ISW); Sumy oblast ops **partial** (no city breakthrough); Carly **6-mo LOC stall partial** — slow advance yes, tide-turn **overstated**; Dnieper bridges standing **supported** (observation); **[Krapivnik mesh](./2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)** | ISW 4–7 Jun · [mesh](./2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md) |
 | **S10** Russia bench | **Partial** | Levada Apr 69% support / 62% negotiate **supported**; ~200k KIA **unclear**; Armenia election rig **contradicted** by CEC | [levada.ru](https://www.levada.ru/2026/05/07/konflikt-s-ukrainoi-v-aprele-2026-goda/) |
 
 **Harmonized contested row:** `verify:wire-contested US non-intercept (NBC/CNN/CBS vs Al-Monitor self-defense fires)` — Barnes, Nawfal×Pape, Pape BP, Hoh.
@@ -63,6 +63,11 @@ WORK only; not Record.
 | `source-glenn-diesen-macgregor-*` | Y | S3 + out-of-scope multipolar |
 | `source-alkorshid-helmer-*` | Y | S10 partial + S9 Abramovich |
 | `source-alex-mercouris-moscow-*` | Y (prior + harmonized) | S6 + S9 UK SSN |
+| `source-alkorshid-stanislav-krapivnik-*` | Y | **S9 mesh** (Ukraine block) + S2 Iran interrupt (see physics-fork) |
+| `source-alkorshid-iran-launches-immediate-retaliation-*` | Y | S1 developing + S2 partial |
+| `source-daniel-davis-deep-dive-breaking-us-strikes-iran-qeshm-*` | Y | S2 pretext chain + strike package |
+
+**S9 commentary mesh:** [Helmer · Mercouris · Krapivnik — 9 Jun](./2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)
 
 ---
 
@@ -83,7 +88,7 @@ WORK only; not Record.
 
 ### **Defer / interpretation-only**
 
-- Pape/Wilkerson/Marandi/Macgregor **middle-game / grand-strategy** frameworks · Freeman leak-charade · Johnson Islamabad Accords single-source · Helmer crisis-of-confidence · Crooke permanent-security doctrine · Pew **67%** (use 59–62% Pew or 68% YouGov quick-deal) · **51** Reaper count (use **24** CRS) · Helmer **200k KIA** · multi-cell infiltration.
+- Pape/Wilkerson/Marandi/Macgregor **middle-game / grand-strategy** frameworks · Freeman leak-charade · Johnson Islamabad Accords single-source · Helmer crisis-of-confidence · Crooke permanent-security doctrine · Pew **67%** (use 59–62% Pew or 68% YouGov quick-deal) · **51** Reaper count (use **24** CRS) · Helmer **200k KIA** · multi-cell infiltration · Krapivnik **Konstantinovka 80%/cauldron** (ISW contradicts) · Kremlin faction / western-Ukraine occupation doctrine.
 
 ---
 
@@ -107,4 +112,4 @@ python scripts/refresh_statecraft_archive_indices.py --check-daily-sync 2026-06-
 python scripts/refresh_statecraft_archive_indices.py --check-daily-sync 2026-06-09
 ```
 
-**Expected:** 9 Jun remains `NO_DAILY` until operator runs **`statecraft daily synthesis`**.
+**Expected:** 9 Jun daily synced at **19** captures — re-run `--check-daily-sync 2026-06-09` after further intakes.

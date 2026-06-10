@@ -20,6 +20,14 @@ The first month note, [2026-05.md](./2026-05.md), proved five things:
 
 That is enough to establish the monthly form as real, but not enough to let it grow carelessly.
 
+## Week hinges and monthly re-entry
+
+**Best Re-entry Days** in month notes should **not** replay scattered day links when month-aligned week hinges exist.
+
+- Re-entry routing lives in **`YYYY-MM-weekN-start-here.md`** ([METHOD § Week Hinge](./METHOD.md#week-hinge-contract)).
+- Month notes list **which weekN** mattered (`week1` recognition gate, `week2` command fracture, etc.) and lift **object-migration lines** from finalized hinges into `Month Arcs`.
+- Promotion from week hinge → month is **only** on explicit **`statecraft monthly synthesis`**—no dream auto-merge into partial month files.
+
 ## Next-Wave Monthly Law
 
 Future month notes should preserve the current contract and deepen in three directions only:

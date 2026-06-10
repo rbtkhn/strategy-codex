@@ -1,0 +1,84 @@
+WORK only; not Record.
+
+# YYYY-MM Week N — Start Here (month-week N: YYYY-MM-DD – YYYY-MM-DD)
+
+<!-- Status: finalized | partial through YYYY-MM-DD -->
+<!-- Last refresh: YYYY-MM-DD — brief note of what changed -->
+
+One entry point for re-entering month-week N of YYYY-MM. Open before the day ladder or statecraft-note scatter.
+
+**Governing object (week):** <!-- one sentence -->
+
+**Object migration (optional):** <!-- prior label → new label within week -->
+
+**Convergence (optional, one line):** <!-- e.g. threshold + capture — monthly function labels only -->
+
+**Archive checkpoint:** [source-archive/statecraft/YYYY-MM.md](../../source-archive/statecraft/YYYY-MM.md) — <!-- day count, file count, first capture if mid-month --> · **Month compression:** [YYYY-MM.md](../YYYY-MM.md)
+
+---
+
+## If you only read three things
+
+<!-- 3–5 links; default 3; heavy wire weeks → 5 -->
+
+1. 
+2. 
+3. 
+
+---
+
+## Read by question
+
+| Question | Open first |
+|----------|------------|
+|  |  |
+
+---
+
+## Day ladder
+
+<!-- hinge days with daily synthesis only -->
+
+| Day | Role | Daily |
+|-----|------|-------|
+|  |  |  |
+
+---
+
+## Statecraft note map
+
+<!-- bounded compares; wire-verify matrix if batch closes this month-week -->
+
+- 
+
+---
+
+## Unspent paths
+
+<!-- falsifier table; link watch sheet when trap/fuse week -->
+
+| Path | Status | Falsifier |
+|------|--------|-----------|
+|  |  |  |
+
+**Watch sheet (if trap/fuse week):** <!-- link -->
+
+---
+
+## Prior week carry
+
+<!-- 3–5 bullets from weekN-1 unspent paths + link; omit for week1 -->
+
+- 
+
+**Prior month-week:** [YYYY-MM-weekN-1-start-here.md](./YYYY-MM-weekN-1-start-here.md)
+
+---
+
+## Next intake
+
+<!-- latest intake-readiness or expected batch -->
+
+Invoke: **`statecraft daily intake`** · **`week hinge`** to refresh this file.
+
+**Method:** [METHOD.md § Week Hinge](../METHOD.md#week-hinge-contract)
