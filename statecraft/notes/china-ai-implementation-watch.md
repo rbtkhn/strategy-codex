@@ -29,7 +29,7 @@ Lanes **overlap**; do not collapse them in the log — tag each capture by domin
 | **Crooke** | B | Productive AI vs West; Gulf AI architecture | [gulf-ai-architecture.md](./gulf-ai-architecture.md) |
 | **Sachs** | B | China open-source; IDF cloud stack; first AI wars | [sachs-on-ai.md](./sachs-on-ai.md) |
 | **Barnes** | C (US-heavy) | Bubble, liability, energy | [barnes-on-ai.md](./barnes-on-ai.md) |
-| **Weichert** | A (US war stack) | Surveillance architecture, kill chain, China applied | [weichert-on-ai.md](./weichert-on-ai.md) |
+| **Weichert** | A (US war stack) | Surveillance architecture, kill chain, China applied | [weichert-on-ai.md](./weichert-on-ai.md) · profile: [weichert-profile.md](../../codex/profiles/weichert-profile.md) |
 | **Ritter** | A (US war stack) | LOAC, CHMR, targeteer vs AI | [ritter-on-ai.md](./ritter-on-ai.md) |
 
 ## Stable baseline claims (verify before quotation-grade)
@@ -125,6 +125,7 @@ Open this note when the task is:
 - [Weichert on AI](./weichert-on-ai.md)
 - [Sachs on AI](./sachs-on-ai.md)
 - [Gulf AI architecture](./gulf-ai-architecture.md)
+- [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no civ-lens shelf)
 - [China statecraft lane](../china/README.md)
 - [Pape arc](../civ-lens/pape/pape-arc.md)
 - [Jiang ph-civ shelf](../civ-lens/jiang/ph-civ/README.md)

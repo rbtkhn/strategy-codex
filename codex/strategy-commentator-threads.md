@@ -66,6 +66,7 @@ Run operator **`thread`**: **`bin/thread`** or **`python3 scripts/strategy_threa
   `sachs`
   `jiang`
   `mearsheimer`
+  `weichert`
 
 ### `negotiate`
 
@@ -85,6 +86,7 @@ Run operator **`thread`**: **`bin/thread`** or **`python3 scripts/strategy_threa
   `johnson`
   `pape`
   `ritter`
+  `weichert`
 
 ### `authorize`
 
@@ -126,6 +128,7 @@ Run operator **`thread`**: **`bin/thread`** or **`python3 scripts/strategy_threa
   `jiang`
   `mearsheimer`
   `armstrong`
+  `weichert`
 
 ### Civ China â€” strategy (primary commentator)
 
@@ -162,6 +165,7 @@ Run operator **`thread`**: **`bin/thread`** or **`python3 scripts/strategy_threa
 | `baud` | Jacques Baud | **NATO / UN / intelligence adjacent** framing: **law of war**, **HUMINT vs OSINT** limits, **European security** and **cross theater** reads; **convergence vs tension** between **official narrative** and **evidential** claims â€” **complements** **ORBAT** lanes without duplicating them. Pair arc inside Nima stream: [nima baud arc.md](2026/nima/nima baud arc.md) | `Baud`, `NATO`, `UN`, or `EU` in cold | Ã— `ritter`, Ã— `macgregor`, Ã— `davis`, Ã— `barnes` |
 | `berletic` | Brian Berletic (`@BrianJBerletic`, The New Atlas) | **Industrial capacity**, **sanctions**, **proxy war** logistics, **force generation** vs **headline** battlefield narratives; **long run production** and **material** constraints as a distinct fingerprint | `Berletic`, `NewAtlas`, `sanctions`, or `IRAN` in cold | Ã— `ritter`, Ã— `jermy`, Ã— `diesen`, Ã— `davis`, Ã— `mearsheimer` |
 | `bigserge` | Big Serge ([`@witte_sergei`](https://x.com/witte_sergei); *Big Serge Thought*) | **Substack** long form **strategy / war studies** â€” **campaign** and **theater level** synthesis, **OSINT  and media thread** reads; **not** a wire or ORBAT primary â€” pair **`berletic`**, **`ritter`**, **`johnson`**, **`baud`**, **`mercouris`** with **tier seams** | `Big Serge`, `bigserge`, `witte_sergei`, or `Big Serge Thought` in cold | Ã— `berletic`, Ã— `ritter`, Ã— `johnson`, Ã— `baud`, Ã— `mercouris` |
+| `weichert` | Brandon J. Weichert ([`@WeTheBrandon`](https://x.com/WeTheBrandon); *The Weichert Brief*) | US **Iran-war strategic read**: Netanyahuâ€“Trump **junior-partner** thesis, Iranian **escalation dominance**, reciprocal **energy-infra** coercion, **WWI/Sarajevo** analogy lane, **NDAA/industrial-base** attrition read â€” recurring **Mario Nawfal** guest + Substack/X; **not** wire/ORBAT primary. **AI adjunct (statecraft):** surveillance architecture, kill chain (Minab), Palantir Israel testbed, China applied robotics â€” [weichert-on-ai](../statecraft/notes/weichert-on-ai.md) Â· [china-ai watch](../statecraft/notes/china-ai-implementation-watch.md) Â· [profile](profiles/weichert-profile.md) (no `civ-lens/weichert/` shelf) | `Weichert`, `WeTheBrandon`, `IRAN`, or `AI` in cold | Ã— `pape`, Ã— `nawfal`, Ã— `davis`, Ã— `marandi`, Ã— `barnes`, Ã— `ritter` (Minab/LOAC seam) |
 | `simplicius` | Simplicius (pseudonym; *Garden of Knowledge* / [`@simpatico771`](https://x.com/simpatico771)) | **Substack** long form **conflict analysis** â€” U.S.â€“Iran **ceasefire/blockade** narratives, **media/wire** synthesis, polemical register; **not** a wire primary â€” pair **`mercouris`**, **`parsi`**, **`davis`**, **`marandi`** with **tier seams** | `Simplicius`, `simplicius76`, or `simpatico771` in cold | Ã— `mercouris`, Ã— `parsi`, Ã— `davis`, Ã— `marandi`, Ã— `blumenthal` |
 | `nima` | Nima Alkorshid (*Dialogue Works*) | **Host / interviewer** lane â€” long form **geopolitical dialogue**; symmetric **`thread:`** routing with **`thread:<guest>`** on **same episode** ingests so **`raw input`** mirroring lands **host** and **guest** rows (**host prompts / framing** on **`nima`**, guest analysis on the guest **`expert_id`**) | `Nima`, `Dialogue Works`, or `DialogueWorks` in cold | Ã— `marandi`, Ã— `diesen`, Ã— `mercouris`, Ã— `davis` |
 
@@ -182,6 +186,8 @@ Run operator **`thread`**: **`bin/thread`** or **`python3 scripts/strategy_threa
   **`simplicius`:** **Substack length** **synthesis** and **narrative combat** â€” **not** a substitute for **`mercouris`** **institutional** **room** reads, **`parsi`** **Beltway** **scope** claims, or **`marandi`** **IRI adjacent** **English** register; **batch analysis** when the same week needs **â€œsecond read of wiresâ€** tension with explicit **tier** tags (**opinion** / **secondary**).
 
   **`bigserge`:** **Campaign  and theater level** **Substack** essays â€” **not** a second **`ritter`**/**`johnson`** **ORBAT** voice or **`berletic`** **production** ledger; **batch analysis** when the week needs **operations narrative** beside **material** lanes, with **hypothesis grade** labels on forward looking **battle** claims.
+
+  **`weichert`:** **Iran-war strategic read** (junior-partner, escalation dominance, NDAA/industrial attrition, Gulf veto) â€” **not** wire/ORBAT primary. **AI adjunct** lives in **statecraft notes**, not notebook SSOT: Utah/data-center surveillance cover, automated kill chain, Palantir panopticon, China applied vs US software hype â€” open [weichert-on-ai](../statecraft/notes/weichert-on-ai.md) and [china-ai-implementation-watch](../statecraft/notes/china-ai-implementation-watch.md); codex entry [weichert-profile](profiles/weichert-profile.md). **No** `civ-lens/weichert/` shelf. On Minab/Palantir days pair **`ritter`** (CHMR/LOAC/targeteer), **`sachs`** (MIC moral), **`jiang`** (bubble/surveillance religion) with **labeled seams**; wire triage favors **Maven (Palantir) + Claude** stack â€” **do not** collapse to Palantir-only attribution without verify receipt.
 
   **`greenwald`:** **Legalâ€“media** and **antiwar** **Substack** (plus video) â€” **executive**â€“**press** tension and **deadline / ceasefire** storylines â€” **not** a substitute for **`parsi`** **Beltway** scope reads, **`marandi`** **negotiation** register, or **`davis`** **extension game** mechanics without **labeled** seams; **batch analysis** when the week needs **â€œclaims vs confirmationâ€** hygiene beside **`mate`**/**`blumenthal`**.
 
