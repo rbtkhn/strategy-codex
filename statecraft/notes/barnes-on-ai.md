@@ -181,4 +181,6 @@ For the stand-alone argumentative essay built above this bounded note, return to
 
 For broader comparison work, return to:
 
+- [china-ai-implementation-watch.md](./china-ai-implementation-watch.md)
+- [pape-on-china-ai.md](./pape-on-china-ai.md)
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md)
