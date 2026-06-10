@@ -15,6 +15,7 @@ This note is the **cross-speaker chronology and falsifier surface**. Speaker-spe
 | **Hub** | this file | Four lanes, speaker registry, chronological log, verify receipts, open falsifiers |
 | **Speaker** | six `*-on-ai.md` notes | Bounded thesis depth per voice — **canonical prose** for that speaker's AI frame |
 | **Mechanism** | [gulf-ai-architecture.md](./gulf-ai-architecture.md) | Crooke/Escobar Gulf–petrodollar–China nexus (not a seventh speaker) |
+| **Compare** | [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) | Minab/Palantir four-voice routing (Ritter · Weichert · Sachs · Jiang) |
 | **Codex entry** | [weichert-profile.md](../../codex/profiles/weichert-profile.md) | Weichert Iran-war + AI routing only — **no** `civ-lens/weichert/` shelf |
 
 **Pointer law:** bounded notes link **back** to this watch; this watch **does not** mirror note bodies. Minab/Palantir vendor forks defer to [verify receipts](#verify-receipts-2026-06-10). Shelf front doors: [Pape](../civ-lens/pape/README.md) · [Jiang](../civ-lens/jiang/README.md) · [Ritter](../civ-lens/ritter/README.md) · [Sachs](../civ-lens/sachs/README.md) · [Barnes](../civ-lens/barnes/README.md) · Weichert → profile above.
@@ -80,6 +81,7 @@ Append a row when a **new capture** materially moves implementation, relative-po
 | 2026-06-10 | — | Meta | [weichert-on-ai.md](./weichert-on-ai.md), [sachs-on-ai.md](./sachs-on-ai.md), [gulf-ai-architecture.md](./gulf-ai-architecture.md) | this file |
 | 2026-06-10 | — | Verify | Minab/Palantir/Lugansk/IDF cloud triage pass — receipts below | this file |
 | 2026-06-10 | — | Meta | Cluster authority block + cross-link audit (Karajan andante) | this file |
+| 2026-06-10 | — | Meta | [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) | this file |
 
 ## Verify receipts (2026-06-10)
 
@@ -97,7 +99,7 @@ Triage pass on Minab attribution, Lugansk parallel, IDF cloud stack. **Not** quo
 | Ritter: Palantir CEO + UK/CIA/Ukraine AI at Lugansk teachers college | **Unclear / contested** | May-22 **Starobilsk** strike reported; AI+Palantir angle mainly Russian-side — not Reuters-verified |
 | Sachs: Google / Microsoft / Amazon cloud + Palantir for IDF | **Supported** (composite) | [+972 Mag](https://www.972mag.com/cloud-israeli-army-gaza-amazon-google-microsoft/); Palantir–IMOD Jan 2024 |
 
-**Composite read:** Do not fork speakers on **Palantir vs Claude** — wire reports **Maven (Palantir) + Claude** stack; open question is whether AI **laundered** legacy codes vs human-only error.
+**Composite read:** Do not fork speakers on **Palantir vs Claude** — wire reports **Maven (Palantir) + Claude** stack; open question is whether AI **laundered** legacy codes vs human-only error. Four-voice routing table → [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md).
 
 ## Open falsifiers (next verify passes)
 
@@ -137,6 +139,7 @@ Open this note when the task is:
 - [Weichert on AI](./weichert-on-ai.md)
 - [Sachs on AI](./sachs-on-ai.md)
 - [Gulf AI architecture](./gulf-ai-architecture.md)
+- [Minab / Palantir four-voice compare](./minab-palantir-four-voice-compare.md)
 - [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no civ-lens shelf)
 - [China statecraft lane](../china/README.md)
 - [Pape arc](../civ-lens/pape/pape-arc.md)
