@@ -96,7 +96,7 @@ Verbatim anchors:
 | **Karen Hao / Ronan Farrow** | OpenAI occult critique spine |
 | **Michael Burry** | Bubble validator (FM-01) |
 
-Palantir/Claude kill-chain detail → [ritter-on-ai.md](./ritter-on-ai.md); Weichert surveillance architecture → watch registry.
+Palantir/Claude kill-chain detail → [ritter-on-ai.md](./ritter-on-ai.md); Weichert surveillance architecture → [weichert-on-ai.md](./weichert-on-ai.md).
 
 ## Tension with other speakers
 

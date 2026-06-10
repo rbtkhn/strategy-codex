@@ -21,7 +21,7 @@ For Barnes-facing analysis of method, rhetoric, and cross-host speaker function,
 For speaker-derived bounded prose that has been recanonicalized out of the
 shelf, open:
 
-- [Barnes on AI note](/C:/dev/strategy-codex/statecraft/notes/barnes-on-ai.md)
+- [barnes-on-ai.md](../../notes/barnes-on-ai.md) — bubble / liability / energy; watch: [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md)
 
 ## Canonical Structure
 

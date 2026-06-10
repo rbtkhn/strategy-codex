@@ -105,4 +105,6 @@ Open when the task is:
 - [Gulf AI architecture](./gulf-ai-architecture.md)
 - [Weichert on AI](./weichert-on-ai.md)
 - [Ritter on AI](./ritter-on-ai.md)
+- [Jiang on AI](./jiang-on-ai.md)
+- [Pape on China AI](./pape-on-china-ai.md)
 - [Sachs README](../civ-lens/sachs/README.md)

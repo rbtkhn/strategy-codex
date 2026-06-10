@@ -97,3 +97,5 @@ Open when the task is:
 - [Jiang on AI](./jiang-on-ai.md)
 - [Weichert on AI](./weichert-on-ai.md)
 - [Sachs on AI](./sachs-on-ai.md)
+- [Ritter on AI](./ritter-on-ai.md)
+- [Barnes on AI](./barnes-on-ai.md)

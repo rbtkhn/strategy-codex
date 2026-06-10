@@ -8,6 +8,17 @@ WORK only; not Record.
 
 This note is the **cross-speaker chronology and falsifier surface**. Speaker-specific bounded notes ([`pape-on-china-ai.md`](./pape-on-china-ai.md), [`jiang-on-ai.md`](./jiang-on-ai.md), [`ritter-on-ai.md`](./ritter-on-ai.md), [`barnes-on-ai.md`](./barnes-on-ai.md), [`weichert-on-ai.md`](./weichert-on-ai.md), [`sachs-on-ai.md`](./sachs-on-ai.md)) and the mechanism note [`gulf-ai-architecture.md`](./gulf-ai-architecture.md) hold depth; this file holds **what changed when** and **what to verify next**.
 
+## Cluster authority (read order)
+
+| Layer | Object | Holds |
+|-------|--------|-------|
+| **Hub** | this file | Four lanes, speaker registry, chronological log, verify receipts, open falsifiers |
+| **Speaker** | six `*-on-ai.md` notes | Bounded thesis depth per voice — **canonical prose** for that speaker's AI frame |
+| **Mechanism** | [gulf-ai-architecture.md](./gulf-ai-architecture.md) | Crooke/Escobar Gulf–petrodollar–China nexus (not a seventh speaker) |
+| **Codex entry** | [weichert-profile.md](../../codex/profiles/weichert-profile.md) | Weichert Iran-war + AI routing only — **no** `civ-lens/weichert/` shelf |
+
+**Pointer law:** bounded notes link **back** to this watch; this watch **does not** mirror note bodies. Minab/Palantir vendor forks defer to [verify receipts](#verify-receipts-2026-06-10). Shelf front doors: [Pape](../civ-lens/pape/README.md) · [Jiang](../civ-lens/jiang/README.md) · [Ritter](../civ-lens/ritter/README.md) · [Sachs](../civ-lens/sachs/README.md) · [Barnes](../civ-lens/barnes/README.md) · Weichert → profile above.
+
 ## What we are tracking (four lanes)
 
 | Lane | Question | Primary speakers |
@@ -28,9 +39,9 @@ Lanes **overlap**; do not collapse them in the log — tag each capture by domin
 | **Escobar** | B | Implementation (2030 jobs / 70% link) | [gulf-ai-architecture.md](./gulf-ai-architecture.md) (Escobar strand) |
 | **Crooke** | B | Productive AI vs West; Gulf AI architecture | [gulf-ai-architecture.md](./gulf-ai-architecture.md) |
 | **Sachs** | B | China open-source; IDF cloud stack; first AI wars | [sachs-on-ai.md](./sachs-on-ai.md) |
-| **Barnes** | C (US-heavy) | Bubble, liability, energy | [barnes-on-ai.md](./barnes-on-ai.md) |
+| **Barnes** | C (US-heavy) | Bubble, liability, energy | [barnes-on-ai.md](./barnes-on-ai.md) · [Barnes README](../civ-lens/barnes/README.md) |
 | **Weichert** | A (US war stack) | Surveillance architecture, kill chain, China applied | [weichert-on-ai.md](./weichert-on-ai.md) · profile: [weichert-profile.md](../../codex/profiles/weichert-profile.md) |
-| **Ritter** | A (US war stack) | LOAC, CHMR, targeteer vs AI | [ritter-on-ai.md](./ritter-on-ai.md) |
+| **Ritter** | A (US war stack) | LOAC, CHMR, targeteer vs AI | [ritter-on-ai.md](./ritter-on-ai.md) · [Ritter README](../civ-lens/ritter/README.md) |
 
 ## Stable baseline claims (verify before quotation-grade)
 
@@ -68,6 +79,7 @@ Append a row when a **new capture** materially moves implementation, relative-po
 | 2026-06-10 | Weichert × Nawfal | Surveillance / war | Palantir panopticon; Israel AI testbed | [source-nawfal-weichert-trump-fed-up…](../source-archive/statecraft/2026-06-10/source-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-10.md) |
 | 2026-06-10 | — | Meta | [weichert-on-ai.md](./weichert-on-ai.md), [sachs-on-ai.md](./sachs-on-ai.md), [gulf-ai-architecture.md](./gulf-ai-architecture.md) | this file |
 | 2026-06-10 | — | Verify | Minab/Palantir/Lugansk/IDF cloud triage pass — receipts below | this file |
+| 2026-06-10 | — | Meta | Cluster authority block + cross-link audit (Karajan andante) | this file |
 
 ## Verify receipts (2026-06-10)
 
@@ -104,7 +116,7 @@ On **new relevant capture** (statecraft intake, Substack paste, stream):
 
 1. Tag dominant lane(s).
 2. Append one row to **Chronological log**.
-3. If one speaker accumulates ≥3 new rows or a thesis shift, update that speaker’s bounded note (`pape-on-china-ai.md`, `barnes-on-ai.md`, or Jiang shelf pointer).
+3. If one speaker accumulates ≥3 new rows or a thesis shift, update that speaker's bounded note (`*-on-ai.md` per [registry](#speaker-registry-baseline-2026-06-10)).
 4. If a baseline claim gets **supported / contradicted**, move it from **Stable baseline** to a dated verify receipt (or strike with provenance).
 5. Optional monthly: grep `source-archive/statecraft/` for `AI|robotics|Wuhan|Stargate|data center` + speaker names; diff against this log.
 
