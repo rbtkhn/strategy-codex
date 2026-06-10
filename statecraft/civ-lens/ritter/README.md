@@ -8,6 +8,7 @@ Use it for speaker identity, host continuity, route maps, a full bounded 2026 mo
 
 ## Open First
 
+- [ritter-on-ai.md](../../notes/ritter-on-ai.md) — AI targeting / CHMR / Claude–Minab / Palantir–Lugansk; watch: [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md)
 - [ritter-arc.md](ritter-arc.md)
 - [ritter-routing.md](ritter-routing.md)
 - [ritter-source-index.md](ritter-source-index.md)

@@ -63,7 +63,7 @@ Machine-constitutional files stay where they already belong:
 - [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) - teachable explanation of what the repo is becoming and why that changes what matters
 - [how-the-operator-uses-the-statecraft-machine.md](./how-the-operator-uses-the-statecraft-machine.md) - argument about what the machine is already doing
 - [high-skill-labor-compression-and-american-command.md](./high-skill-labor-compression-and-american-command.md) - lane-specific statecraft thesis
-- [why-barnes-should-reconsider-ai.md](./why-barnes-should-reconsider-ai.md) - stand-alone argument addressed to Barnes's AI skepticism, arguing that mastery of AI is not optional even under conditions of hype, bubble risk, and infrastructure strain
+- [why-barnes-should-reconsider-ai.md](./why-barnes-should-reconsider-ai.md) - **redirect only**; canonical body lives in [Barnes on AI note](../notes/barnes-on-ai.md) (corpus + reconsideration read)
 - [pope-leo-on-ai.md](./pope-leo-on-ai.md) - placeholder shell for the statecraft-side reading of papal AI doctrine as office, legitimacy, and civilizational authority under acceleration
 
 ## Promotion Path
@@ -102,10 +102,11 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [america-and-the-problem-of-sovereign-command-under-allied-capture.md](./america-and-the-problem-of-sovereign-command-under-allied-capture.md) - shelf-native placeholder essay
 - [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) - shelf-native synthesized essay
 - [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) - shelf-native explanatory essay
-- [why-barnes-should-reconsider-ai.md](./why-barnes-should-reconsider-ai.md) - shelf-native argumentative essay
 - [pope-leo-on-ai.md](./pope-leo-on-ai.md) - shelf-native placeholder for the Vatican office and legitimacy version
 
 ### Mirrored Legacy Promotion
+
+- [why-barnes-should-reconsider-ai.md](./why-barnes-should-reconsider-ai.md) - redirect stub; prose recanonicalized to [../notes/barnes-on-ai.md](../notes/barnes-on-ai.md)
 
 - [how-the-operator-uses-the-statecraft-machine.md](./how-the-operator-uses-the-statecraft-machine.md) from [../how-the-operator-uses-the-statecraft-machine.md](../how-the-operator-uses-the-statecraft-machine.md)
 - [high-skill-labor-compression-and-american-command.md](./high-skill-labor-compression-and-american-command.md) from [../america/high-skill-labor-compression-and-american-command.md](../america/high-skill-labor-compression-and-american-command.md)

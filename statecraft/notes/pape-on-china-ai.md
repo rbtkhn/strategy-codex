@@ -72,7 +72,7 @@ Verbatim anchors:
 |---------|---------|------------|
 | **Escobar** | China scaling AI into economy; jobs anxiety | Escobar: **70% by 2030** plan in Shanghai; Pape: **field plants + Wuhan** |
 | **Crooke** | Productive vs Western AI; Gulf AI architecture | Crooke: Gulf **bubble + data-center** nexus; Pape: **manufacturing heartland** |
-| **Jiang** | US misreads China; relative gain | Jiang: **surveillance partner + scam**; Pape: **implementation mobilization** |
+| **Jiang** | US misreads China; relative gain | Jiang: **surveillance partner + scam** ([jiang-on-ai.md](./jiang-on-ai.md)); Pape: **implementation mobilization** |
 | **Barnes** | US policy error | Barnes: **bubble/liability**; thin China implementation |
 
 ## Best use
@@ -86,6 +86,9 @@ Open when the task is:
 ## Return paths
 
 - [China AI implementation watch](./china-ai-implementation-watch.md) — time-series log and falsifiers
+- [Gulf AI architecture](./gulf-ai-architecture.md)
+- [Weichert on AI](./weichert-on-ai.md)
+- [Sachs on AI](./sachs-on-ai.md)
 - [Pape README](../civ-lens/pape/README.md)
 - [Pape arc](../civ-lens/pape/pape-arc.md)
 - [China statecraft lane](../china/README.md)

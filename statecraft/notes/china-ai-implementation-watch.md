@@ -6,7 +6,7 @@ WORK only; not Record.
 
 **High-importance, time-series object.** Track how China organizes **AI + robotics + energy + manufacturing** at scale, how Western speakers read that implementation, and how the read connects to **relative power**, **US industrial decline**, and **AI bubble / surveillance** lanes.
 
-This note is the **cross-speaker chronology and falsifier surface**. Speaker-specific bounded notes (`pape-on-china-ai.md`, `barnes-on-ai.md`, Jiang GT/FM strand) hold depth; this file holds **what changed when** and **what to verify next**.
+This note is the **cross-speaker chronology and falsifier surface**. Speaker-specific bounded notes ([`pape-on-china-ai.md`](./pape-on-china-ai.md), [`jiang-on-ai.md`](./jiang-on-ai.md), [`ritter-on-ai.md`](./ritter-on-ai.md), [`barnes-on-ai.md`](./barnes-on-ai.md), [`weichert-on-ai.md`](./weichert-on-ai.md), [`sachs-on-ai.md`](./sachs-on-ai.md)) and the mechanism note [`gulf-ai-architecture.md`](./gulf-ai-architecture.md) hold depth; this file holds **what changed when** and **what to verify next**.
 
 ## What we are tracking (four lanes)
 
@@ -24,12 +24,13 @@ Lanes **overlap**; do not collapse them in the log — tag each capture by domin
 | Speaker | Tier | Dominant lane(s) | Canonical bounded note |
 |---------|------|------------------|------------------------|
 | **Pape** | A (implementation) | Implementation, relative power | [pape-on-china-ai.md](./pape-on-china-ai.md) |
-| **Jiang** | A | Bubble, surveillance, US–CN partner lab | Jiang shelf / GT-24–28, FM-01 |
-| **Escobar** | B | Implementation (2030 jobs / 70% link) | — |
-| **Crooke** | B | Productive AI vs West; Gulf AI architecture | — |
-| **Sachs** | B | China open-source; IDF cloud stack | — |
+| **Jiang** | A | Bubble, Stargate, occult, surveillance (+ China partner strand) | [jiang-on-ai.md](./jiang-on-ai.md) |
+| **Escobar** | B | Implementation (2030 jobs / 70% link) | [gulf-ai-architecture.md](./gulf-ai-architecture.md) (Escobar strand) |
+| **Crooke** | B | Productive AI vs West; Gulf AI architecture | [gulf-ai-architecture.md](./gulf-ai-architecture.md) |
+| **Sachs** | B | China open-source; IDF cloud stack; first AI wars | [sachs-on-ai.md](./sachs-on-ai.md) |
 | **Barnes** | C (US-heavy) | Bubble, liability, energy | [barnes-on-ai.md](./barnes-on-ai.md) |
-| **Weichert / Ritter** | A (US war stack) | Surveillance, kill chain | — |
+| **Weichert** | A (US war stack) | Surveillance architecture, kill chain, China applied | [weichert-on-ai.md](./weichert-on-ai.md) |
+| **Ritter** | A (US war stack) | LOAC, CHMR, targeteer vs AI | [ritter-on-ai.md](./ritter-on-ai.md) |
 
 ## Stable baseline claims (verify before quotation-grade)
 
@@ -56,6 +57,35 @@ Append a row when a **new capture** materially moves implementation, relative-po
 | 2026-05-30 | Crooke × Diesen | Bubble + Gulf AI | Gulf AI architecture + US bubble; tech-brother / Gulf nexus under Iran war | [source-glenn-diesen-alastair-crooke-iran-war-resets…](../source-archive/statecraft/2026-05-30/source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md) |
 | 2026-06-10 | Jiang FM-01 | Bubble + surveillance | Founding Members livestream; AI strand continues GT thesis | [source-predictive-history-founding-members-01…](../source-archive/statecraft/2026-06-10/source-predictive-history-founding-members-01-livestream-2026-06-10.md) |
 | 2026-06-10 | — | Meta | Watch object opened; Pape lane added to speaker map | this file |
+| 2026-05-26 | Ritter × Napolitano | Surveillance / war | Palantir + CIA/MI6 AI targets; Lugansk school parallel to Minab trap | [source-napolitano-ritter-why-bother…](../source-archive/statecraft/2026-05-26/source-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md) |
+| 2026-03-14 | Ritter Substack | Surveillance / war | Backpack Girls: CHMR dissolved → Claude/CENTCOM → Minab school TLAM chain | [source-ritter-the-backpack-girls…](../source-archive/statecraft/2026-03-14/source-ritter-the-backpack-girls-2026-03-14.md) |
+| 2026-06-10 | — | Meta | [jiang-on-ai.md](./jiang-on-ai.md) bounded note (GT-24–28 + FM-01) | this file |
+| 2026-06-10 | — | Meta | [ritter-on-ai.md](./ritter-on-ai.md) bounded note (CHMR / Claude / Palantir) | this file |
+| 2026-04-20 | Sachs × Napolitano | Surveillance / war | First AI wars; Palantir Minab; war as video game for elites | [source-napolitano-sachs-is-the-war-over…](../source-archive/statecraft/2026-04-20/source-napolitano-sachs-is-the-war-over-2026-04-20.md) |
+| 2026-06-01 | Sachs × Napolitano | Surveillance / war + bubble | SV weapons testing; AI boom on Pentagon budgets | [source-napolitano-sachs-how-the-best-military…](../source-archive/statecraft/2026-06-01/source-napolitano-sachs-how-the-best-military-and-intel-failed-2026-06-01.md) |
+| 2025-08-04 | Sachs × Napolitano | Implementation | China open-source AI + factory robotics integration | [source-napolitano-sachs-trumps-dangerous-moves…](../source-archive/statecraft/2025-08-04/source-napolitano-sachs-trumps-dangerous-moves-2025-08-04.md) |
+| 2026-06-09 | Weichert × Nawfal | Surveillance / war + implementation | Utah/data-center cover; Minab kill chain; China applied AI vs US software | [source-nawfal-weichert-israel-merge…](../source-archive/statecraft/2026-06-09/source-nawfal-weichert-israel-merge-us-army-cia-2026-06-09.md) |
+| 2026-06-10 | Weichert × Nawfal | Surveillance / war | Palantir panopticon; Israel AI testbed | [source-nawfal-weichert-trump-fed-up…](../source-archive/statecraft/2026-06-10/source-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-10.md) |
+| 2026-06-10 | — | Meta | [weichert-on-ai.md](./weichert-on-ai.md), [sachs-on-ai.md](./sachs-on-ai.md), [gulf-ai-architecture.md](./gulf-ai-architecture.md) | this file |
+| 2026-06-10 | — | Verify | Minab/Palantir/Lugansk/IDF cloud triage pass — receipts below | this file |
+
+## Verify receipts (2026-06-10)
+
+Triage pass on Minab attribution, Lugansk parallel, IDF cloud stack. **Not** quotation-grade until DoD inquiry final.
+
+| Claim | Verdict | Receipt |
+|-------|---------|---------|
+| Feb 28 2026 US Tomahawk strike on Minab school; 150+ dead | **Supported** | [Amnesty](https://www.amnesty.org/en/latest/news/2026/03/usa-iran-those-responsible-for-deadly-and-unlawful-us-strike-on-school-that-killed-over-100-children-must-be-held-accountable/); [Just Security](https://www.justsecurity.org/134350/legal-analysis-minab-school-strike/) |
+| Outdated target coding / school adjacent to former IRGC compound | **Supported** | [Just Security](https://www.justsecurity.org/134350/legal-analysis-minab-school-strike/); [Washington Examiner / Cooper](https://www.washingtonexaminer.com/policy/defense/4574408/iran-school-us-active-missile-site-centcom/) |
+| Hegseth gutted CHMR (early 2025; CENTCOM team cut) | **Supported** | [ProPublica](https://www.propublica.org/article/trump-defense-department-iran-hegseth-civilian-casualties) |
+| Epic Fury used Maven (Palantir) + Claude in targeting stack | **Supported** | [Independent](https://www.independent.co.uk/news/world/americas/us-politics/iran-school-attack-ai-investigation-b2937456.html); [DefenseScoop / Cooper](https://defensescoop.com/2026/03/11/us-military-using-ai-against-iran-operation-epic-fury-adm-cooper/) |
+| Sachs: Minab “targeted by all accounts by Palantir” | **Unclear** (overspecified) | Maven is Palantir-built; investigatory line emphasizes **stale human/DIA coding** — [Semafor](https://www.semafor.com/article/03/18/2026/humans-not-ai-are-to-blame-for-deadly-iran-school-strike-sources-say) |
+| Weichert: Palantir/metadata at Minab | **Unclear** | Consistent with stale-label reporting; no primary names Palantir at Minab decision node |
+| Ritter: Claude recommended school; CHMR would have blocked | **Scenario tier** | Archive frontmatter: speculative scenario — not confirmed strike log |
+| Ritter: Palantir CEO + UK/CIA/Ukraine AI at Lugansk teachers college | **Unclear / contested** | May-22 **Starobilsk** strike reported; AI+Palantir angle mainly Russian-side — not Reuters-verified |
+| Sachs: Google / Microsoft / Amazon cloud + Palantir for IDF | **Supported** (composite) | [+972 Mag](https://www.972mag.com/cloud-israeli-army-gaza-amazon-google-microsoft/); Palantir–IMOD Jan 2024 |
+
+**Composite read:** Do not fork speakers on **Palantir vs Claude** — wire reports **Maven (Palantir) + Claude** stack; open question is whether AI **laundered** legacy codes vs human-only error.
 
 ## Open falsifiers (next verify passes)
 
@@ -65,6 +95,8 @@ Append a row when a **new capture** materially moves implementation, relative-po
 - Crooke **productive AI** — named programs, exports, or productivity metrics vs rhetoric.
 - Jiang **US–China surveillance partnership** — evidence tier beyond interpretive thesis.
 - Reporter **“I had no idea”** wave (Pape May-13) — track whether summit coverage shifts US elite perception.
+- **Minab causal AI role** — completed DoD investigating-officer report (beyond preliminary leaks).
+- **Starobilsk / Lugansk AI** — second independent line on Palantir-guided drones (beyond Russian-side claims).
 
 ## Maintenance ritual
 
@@ -87,7 +119,12 @@ Open this note when the task is:
 ## Return paths
 
 - [Pape on China AI](./pape-on-china-ai.md)
+- [Jiang on AI](./jiang-on-ai.md)
+- [Ritter on AI](./ritter-on-ai.md)
 - [Barnes on AI](./barnes-on-ai.md)
+- [Weichert on AI](./weichert-on-ai.md)
+- [Sachs on AI](./sachs-on-ai.md)
+- [Gulf AI architecture](./gulf-ai-architecture.md)
 - [China statecraft lane](../china/README.md)
 - [Pape arc](../civ-lens/pape/pape-arc.md)
 - [Jiang ph-civ shelf](../civ-lens/jiang/ph-civ/README.md)

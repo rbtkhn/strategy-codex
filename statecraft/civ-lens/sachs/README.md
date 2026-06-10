@@ -10,6 +10,7 @@ The shelf is intentionally a lighter first pass. Sachs is already a real cross-h
 
 ## Open First
 
+- [sachs-on-ai.md](../../notes/sachs-on-ai.md) — bounded AI thesis (Palantir, first AI wars, China factory AI)
 - [sachs-arc.md](sachs-arc.md)
 - [sachs-routing.md](sachs-routing.md)
 - [sachs-source-index.md](sachs-source-index.md)

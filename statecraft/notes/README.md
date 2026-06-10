@@ -94,9 +94,14 @@ Read this shelf through a few live clusters rather than as one flat list.
 
 ### Speaker-Derived And Machine Notes
 
-- [barnes-on-ai.md](./barnes-on-ai.md) - speaker-derived bounded thematic note now recanonicalized as a direct note-class destination
+- [barnes-on-ai.md](./barnes-on-ai.md) - speaker-derived bounded note: Barnes corpus AI thesis + operator reconsideration read (absorbed legacy essay)
 - [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) - high-priority rolling watch: China AI implementation, speaker lanes, chronological log, falsifiers
 - [pape-on-china-ai.md](./pape-on-china-ai.md) - Pape field-observation thesis on China industrial AI / Wuhan model (paired with watch)
+- [jiang-on-ai.md](./jiang-on-ai.md) - Jiang GT-24–28 + FM-01 full AI thesis (bubble, Stargate, occult, surveillance; China strand); paired with watch
+- [ritter-on-ai.md](./ritter-on-ai.md) - Ritter kill-chain / LOAC thesis: CHMR removal, Claude–Minab, Palantir–Lugansk (paired with watch)
+- [weichert-on-ai.md](./weichert-on-ai.md) - Weichert surveillance architecture, Minab kill chain, Palantir panopticon, China applied AI (paired with watch)
+- [sachs-on-ai.md](./sachs-on-ai.md) - Sachs first AI wars, Palantir–Minab moral read, IDF cloud stack, China factory AI (paired with watch)
+- [gulf-ai-architecture.md](./gulf-ai-architecture.md) - mechanism note: Gulf data centers, petrodollar AI bubble, Escobar 2030 plan (Crooke/Escobar)
 - [jiang-ph-civ-correspondence-june-1-2026.md](./jiang-ph-civ-correspondence-june-1-2026.md) - bounded note separating June 1 Jiang claims into existing Predictive History continuity versus sharper extension
 - [may-2026-speaker-watchlist.md](./may-2026-speaker-watchlist.md) - month-scale watchlist separating healthy coverage from thin presence and backfill candidates
 - [mercouris-format-synergy-doctrine.md](./mercouris-format-synergy-doctrine.md) - bounded doctrine note on how solo Mercouris and Duran/Mercouris compound rather than duplicate
@@ -197,6 +202,11 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [barnes-on-ai.md](./barnes-on-ai.md) - shelf-native speaker-derived bounded thematic note
 - [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) - shelf-native rolling watch / time-series tracker
 - [pape-on-china-ai.md](./pape-on-china-ai.md) - shelf-native speaker-derived bounded thematic note
+- [jiang-on-ai.md](./jiang-on-ai.md) - shelf-native speaker-derived bounded thematic note
+- [ritter-on-ai.md](./ritter-on-ai.md) - shelf-native speaker-derived bounded thematic note
+- [weichert-on-ai.md](./weichert-on-ai.md) - shelf-native speaker-derived bounded thematic note
+- [sachs-on-ai.md](./sachs-on-ai.md) - shelf-native speaker-derived bounded thematic note
+- [gulf-ai-architecture.md](./gulf-ai-architecture.md) - shelf-native mechanism note
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - shelf-native routing note
 - [recursive-learning-journal-executive-synthesis.md](./recursive-learning-journal-executive-synthesis.md) - shelf-native bounded synthesis note
 - [russia-inquiry-ladder-as-recursive-learning.md](./russia-inquiry-ladder-as-recursive-learning.md) - shelf-native recursive-learning method note
