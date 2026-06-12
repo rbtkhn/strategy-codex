@@ -39,6 +39,7 @@ Heavy-week adds:
 | Question | Open first |
 |----------|------------|
 | What changed Jun 9 → 11? | [2026-06-11](./2026-06-11.md) executive read + MOU dual channel |
+| What changed Jun 9 → 10? | [2026-06-10](./2026-06-10.md) second-strike night + talks DEAD |
 | What changed Jun 8 → 9? | [2026-06-09](./2026-06-09.md) executive read + object migration line |
 | Which ceasefire label still applied Jun 8? | [2026-06-08](./2026-06-08.md) |
 | Apache down → Qeshm strikes — accident or pretext? | [physics fork](./2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md) |
