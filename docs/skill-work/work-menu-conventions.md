@@ -22,6 +22,18 @@ Each option line includes **why** to choose it: one short **because** / **so tha
 
 ---
 
+## 1c. Menu pick execution (same turn)
+
+When the operator picks a letter for a **bounded run** (validator, sync, build, handoff check):
+
+1. **Execute** the named `scripts/*.py` command **in that turn**.
+2. Report **exit code** and **pass/fail** (plus top errors if fail).
+3. **Do not** read the full script first; **do not** batch Read+Grep+Shell on the same target before the run.
+
+Stall recovery and validator-first detail: [`.cursor/rules/agent-execution-hygiene.mdc`](../../.cursor/rules/agent-execution-hygiene.mdc) · [`.cursor/skills/validator-first/SKILL.md`](../../.cursor/skills/validator-first/SKILL.md).
+
+---
+
 ## 2. Evidence-linked options (Fork explorer)
 
 When a fork touches the **Record** or **gate**, include at least one **explicit anchor** per option where helpful:

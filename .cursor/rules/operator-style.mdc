@@ -86,6 +86,8 @@ When the operator is clearly working in any **WORK** lane — **work-strategy**,
 
 **Conventions (detail):** [docs/skill-work/work-menu-conventions.md](../../docs/skill-work/work-menu-conventions.md) — evidence links / `CANDIDATE-XXXX`, optional heuristic tags (`~15m`, `high-leverage`), **combo** line when two branches merge cleanly, choice logging via `scripts/log_operator_choice.py` (session-transcript, not MEMORY).
 
+**Execution hygiene:** When the operator **picks** a run fork (validator, sync, build), **run it same turn** — do not read the full script first. See [`.cursor/rules/agent-execution-hygiene.mdc`](agent-execution-hygiene.mdc) and [`.cursor/skills/validator-first/SKILL.md`](../skills/validator-first/SKILL.md).
+
 - **Follow the pick:** If they answer with a letter (or **A+C**), next turn executes that branch and **re-offers** per lane rules ? **coffee `A`** (Steward) may end on the **Implement now / Later** fork instead of full **A?D** when [actionable](../../docs/skill-work/work-coffee/menu-reference.md#steward-follow-up-fork-implement-now-vs-later). Otherwise **re-offer** a fresh menu unless they say **no menu** / **no options** (WORK lanes, not coffee).
 - **Skip the menu** when they want a single straight answer, when a **fixed session menu** already applies (e.g. `coffee` **A?D** or the **steward two-option** fork), or when they explicitly opt out of **non-coffee** WORK menus.
 

@@ -1,0 +1,48 @@
+---
+description: Agent execution hygiene — run validators first, finish menu picks same turn, recover from tool stalls
+alwaysApply: true
+---
+
+# Agent execution hygiene
+
+Prevents **menu picks that never run**, **parallel read/grep/shell stalls**, and **turns that end on "I'll run it"** with no result.
+
+## Menu pick = same-turn delivery
+
+When the operator picks a menu letter (or **A+C**) for a **bounded command** — validator, sync script, build, test, `handoff-check`, routing pass — **run it in that turn** and report **exit code + one-line summary** (and top errors if fail). Do **not** close the turn with only a plan, only file reads, or "starting now."
+
+## Run before read
+
+If the task names a repo script under `scripts/` and the job is **run / validate / check / sync** (not edit-the-validator):
+
+1. **Execute first:** `python scripts/<name>.py` (or documented flags) from repo root.
+2. **Read the script only** on failure, when adding flags, or when implementing a fix.
+
+Do **not** open a 300+ line script in full before the first run when the operator asked to **run** it.
+
+## One bounded step per stall
+
+- Do **not** batch **Read (full file) + Grep + Shell** on the same script/path when a **single run** answers the question.
+- Prefer **run → result** over **read → grep → run**.
+
+## Stall recovery (mandatory)
+
+If **Read**, **Grep**, or **Shell** is **interrupted**, hangs ~30s+ with no useful output, or returns empty after a long wait:
+
+1. **Do not repeat** the same parallel batch.
+2. **Retry narrower:** run the script; or `python scripts/<name>.py --help`; or `Read` with `limit` ≤ 80; or **Grep** one symbol with `head_limit`.
+
+Report the stall briefly if the second attempt still fails; offer one concrete next step.
+
+## Background commands
+
+If Shell backgrounds a command the operator is waiting on, **Await** or read the terminal output file and include the **final exit code and tail** before ending the turn on that pick.
+
+## Validator-first skill
+
+For validation menu slots and phrases like **routing pass**, **validate pin-cite**, **handoff check**, follow [`.cursor/skills/validator-first/SKILL.md`](../skills/validator-first/SKILL.md).
+
+## Relation to operator-style
+
+- **Benefit clauses** on menu options: [operator-style.mdc](operator-style.mdc) § WORK modules.
+- **PLAN default** still applies when intent is unclear; this rule applies when the operator **picked a run fork** or clearly asked to **run** a named script.
