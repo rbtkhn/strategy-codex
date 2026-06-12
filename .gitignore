@@ -77,6 +77,7 @@ npm-debug.log*
 # Testing
 coverage/
 .pytest_cache/
+.codex-pytest-run/
 .tmp-pytest-*/
 .pytest-temp/
 .pytest-tmp*/

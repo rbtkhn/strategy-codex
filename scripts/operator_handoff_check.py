@@ -77,6 +77,29 @@ def _run_git(*args: str) -> list[str]:
     return [line for line in proc.stdout.splitlines() if line.strip()]
 
 
+def _run_git_status_bundle() -> tuple[list[str], list[str], str]:
+    """One git invocation: branch tracking line + porcelain short status."""
+    proc = subprocess.run(
+        ["git", "status", "-sb", "--porcelain"],
+        cwd=REPO_ROOT,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    if proc.returncode != 0:
+        err = proc.stderr.strip() or "unknown error"
+        fail = f"git status -sb --porcelain failed: {err}"
+        return [fail], [fail], "unknown"
+    lines = [line for line in proc.stdout.splitlines() if line.strip()]
+    status_sb_lines = [lines[0]] if lines and lines[0].startswith("## ") else []
+    status_lines = [line for line in lines if not line.startswith("## ")]
+    branch = "unknown"
+    if status_sb_lines:
+        branch_part = status_sb_lines[0][3:].strip()
+        branch = branch_part.split("...")[0].strip() if branch_part else "unknown"
+    return status_lines, status_sb_lines, branch
+
+
 SINGULARITY_INTAKE_PREFIXES = (
     "source-archive/singularity/moonshots/",
     "singularity/notes/",
@@ -149,22 +172,39 @@ def build_ship_receipt(
     status_sb_lines: list[str] | None = None,
     origin_main_lines: list[str] | None = None,
     recent_commits: list[str] | None = None,
+    skip_origin_main: bool = False,
 ) -> list[str]:
     """Compact ship-state block for post-commit / signing-off handoff."""
-    if status_lines is None:
-        status_lines = _run_git("status", "--short")
-    if branch_lines is None:
-        branch_lines = _run_git("branch", "--show-current")
-    if status_sb_lines is None:
-        status_sb_lines = _run_git("status", "-sb")
-    if origin_main_lines is None:
+    branch = "unknown"
+    if status_lines is None and status_sb_lines is None and branch_lines is None:
+        bundled_status, bundled_sb, bundled_branch = _run_git_status_bundle()
+        status_lines = bundled_status
+        status_sb_lines = bundled_sb
+        branch = bundled_branch
+    else:
+        if status_lines is None:
+            status_lines = _run_git("status", "--short")
+        if branch_lines is None:
+            branch_lines = _run_git("branch", "--show-current")
+        if status_sb_lines is None:
+            status_sb_lines = _run_git("status", "-sb")
+        branch = branch_lines[0] if branch_lines else "unknown"
+    if origin_main_lines is None and not skip_origin_main:
         origin_main_lines = _run_git("rev-parse", "origin/main")
     if recent_commits is None:
         recent_commits = _run_git("log", "--oneline", "-3")
 
-    branch = branch_lines[0] if branch_lines else "unknown"
+    if branch_lines is not None and branch == "unknown":
+        branch = branch_lines[0] if branch_lines else "unknown"
     ahead_behind = _parse_ahead_behind(status_sb_lines)
-    origin_main = origin_main_lines[0] if origin_main_lines and not origin_main_lines[0].startswith("git ") else "unavailable"
+    if skip_origin_main:
+        origin_main = "skipped (--fast)"
+    else:
+        origin_main = (
+            origin_main_lines[0]
+            if origin_main_lines and not origin_main_lines[0].startswith("git ")
+            else "unavailable"
+        )
 
     meaningful: list[str] = []
     runtime_noise: list[str] = []
@@ -419,7 +459,26 @@ def _active_thread(meaningful_changes: list[str], gate_pending: int, politics_bl
     )
 
 
-def build_handoff_check(user_id: str = "strategy-codex") -> str:
+def build_fast_receipt(user_id: str = "strategy-codex") -> str:
+    """Ship receipt only — fewer git calls, no lane snapshots."""
+    _ = user_id
+    lines = ["# Handoff check (fast)", ""]
+    lines.extend(build_ship_receipt(skip_origin_main=True))
+    lines.extend(
+        [
+            "",
+            "## Guardrail",
+            "",
+            "- Fast mode: ship receipt only. Full handoff: `python3 scripts/operator_handoff_check.py`.",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def build_handoff_check(user_id: str = "strategy-codex", *, fast: bool = False) -> str:
+    if fast:
+        return build_fast_receipt(user_id=user_id)
     user_dir = USERS_DIR / user_id
     recursion_gate = _read(user_dir / "recursion-gate.md")
     evidence = _read(user_dir / "self-archive.md") or _read(user_dir / "self-evidence.md")
@@ -427,7 +486,7 @@ def build_handoff_check(user_id: str = "strategy-codex") -> str:
     last_activity = _last_activity_oneliner(evidence) or "_none parsed_"
     politics_snapshot = get_work_politics_snapshot(user_id)
 
-    status_lines = _run_git("status", "--short")
+    status_lines, status_sb_lines, branch_from_bundle = _run_git_status_bundle()
     recent_commits = _run_git("log", "--oneline", "-3")
     runtime_noise: list[str] = []
     export_churn: list[str] = []
@@ -473,10 +532,14 @@ def build_handoff_check(user_id: str = "strategy-codex") -> str:
             "_Run `python3 scripts/work_jiang/warmup_jiang_pulse.py -u %s --night` if import failed._" % user_id
         )
         lines.append("")
-    lines.extend(build_ship_receipt(
-        status_lines=status_lines,
-        recent_commits=recent_commits,
-    ))
+    lines.extend(
+        build_ship_receipt(
+            status_lines=status_lines,
+            status_sb_lines=status_sb_lines,
+            branch_lines=[branch_from_bundle],
+            recent_commits=recent_commits,
+        )
+    )
     lines.extend(build_singularity_intake_nudge(status_lines))
 
     lines.extend(["", "## Local work still in progress", ""])
@@ -532,8 +595,19 @@ def main() -> int:
     _configure_utf8_stdio()
     parser = argparse.ArgumentParser(description="Generate a handoff summary for Grace-Mar.")
     parser.add_argument("--user", "-u", default="strategy-codex", help="Profile id")
+    parser.add_argument(
+        "--fast",
+        action="store_true",
+        help="Ship receipt only (fewer git calls; skip politics/Jiang/gate detail).",
+    )
+    parser.add_argument(
+        "--receipt",
+        action="store_true",
+        dest="fast",
+        help="Alias for --fast.",
+    )
     args = parser.parse_args()
-    print(build_handoff_check(user_id=args.user))
+    print(build_handoff_check(user_id=args.user, fast=args.fast))
     return 0
 
 
