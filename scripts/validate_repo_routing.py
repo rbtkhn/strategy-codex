@@ -211,6 +211,96 @@ def validate_absolute_paths(
             )
 
 
+def _index_lists_source_index(rel: str, index_text: str, basename: str) -> bool:
+    parent_name = Path(rel).parent.name
+    rel_from_index = f"{parent_name}/{basename}"
+    return rel in index_text or rel_from_index in index_text or basename in index_text
+
+
+def collect_routing_metrics(*, strict: bool = False) -> dict[str, Any]:
+    """Lightweight coverage counters for routing surfaces (read-only)."""
+    data = load_repo_map() if REPO_MAP_PATH.is_file() else {"routes": []}
+    routes = data.get("routes", [])
+    source_indexes = discover_source_indexes()
+    index_text = CIV_INDEX.read_text(encoding="utf-8") if CIV_INDEX.is_file() else ""
+
+    route_paths = {
+        str(r.get("path", "")).replace("\\", "/")
+        for r in routes
+        if r.get("kind") == "source_index"
+    }
+    discovered = {p.relative_to(REPO_ROOT).as_posix() for p in source_indexes}
+
+    link_files = list(source_indexes)
+    if CIV_INDEX.is_file():
+        link_files.append(CIV_INDEX)
+    markdown_links = 0
+    absolute_path_violations = 0
+    for fp in link_files:
+        text = fp.read_text(encoding="utf-8")
+        markdown_links += len(MD_LINK.findall(text))
+        if has_absolute_path(text):
+            absolute_path_violations += 1
+
+    index_listed = sum(
+        1 for rel in discovered if _index_lists_source_index(rel, index_text, Path(rel).name)
+    )
+    repo_map_listed = sum(1 for rel in discovered if rel in route_paths)
+
+    broken_link_count = 0
+    if strict:
+        link_errors: list[str] = []
+        validate_markdown_links(link_files, link_errors, strict=True)
+        broken_link_count = len(link_errors)
+
+    kinds: dict[str, int] = {}
+    for route in routes:
+        kind = str(route.get("kind", "unknown"))
+        kinds[kind] = kinds.get(kind, 0) + 1
+
+    coverage_denominator = len(discovered) or 1
+    registry_coverage_pct = round(
+        100.0 * min(index_listed, repo_map_listed) / coverage_denominator,
+        1,
+    )
+
+    return {
+        "source_index_count": len(discovered),
+        "markdown_link_count": markdown_links,
+        "repo_map_routes_total": len(routes),
+        "repo_map_routes_by_kind": kinds,
+        "repo_map_source_index_routes": len(route_paths),
+        "registry_index_listed": index_listed,
+        "registry_repo_map_listed": repo_map_listed,
+        "registry_coverage_pct": registry_coverage_pct,
+        "absolute_path_violations": absolute_path_violations,
+        "broken_link_count": broken_link_count,
+        "required_surfaces_present": all(
+            p.is_file() for p in (LLM_ROUTING, REPO_MAP_PATH, CIV_INDEX)
+        ),
+    }
+
+
+def format_routing_report(metrics: dict[str, Any]) -> str:
+    kinds = metrics.get("repo_map_routes_by_kind") or {}
+    kind_line = ", ".join(f"{k}={v}" for k, v in sorted(kinds.items()))
+    lines = [
+        "## Repo routing metrics",
+        "",
+        f"- source indexes (disk): {metrics['source_index_count']}",
+        f"- markdown links (INDEX + source-index files): {metrics['markdown_link_count']}",
+        f"- repo-map routes: {metrics['repo_map_routes_total']} ({kind_line})",
+        f"- source_index routes in repo-map: {metrics['repo_map_source_index_routes']}",
+        f"- registry: INDEX lists {metrics['registry_index_listed']}/{metrics['source_index_count']}, "
+        f"repo-map lists {metrics['registry_repo_map_listed']}/{metrics['source_index_count']} "
+        f"({metrics['registry_coverage_pct']}% bijection when both match)",
+        f"- absolute path violations (INDEX + source-index): {metrics['absolute_path_violations']}",
+        f"- broken links (--strict resolution): {metrics['broken_link_count']}",
+        f"- required surfaces present: {metrics['required_surfaces_present']}",
+    ]
+    return "\n".join(lines)
+
+
 def validate_all(
     *,
     strict: bool,
@@ -276,10 +366,27 @@ def main() -> int:
         action="store_true",
         help="Print YAML stubs for missing source_index routes to stderr",
     )
+    ap.add_argument(
+        "--report",
+        action="store_true",
+        help="Print routing coverage metrics to stdout (runs validation too)",
+    )
+    ap.add_argument(
+        "--report-json",
+        action="store_true",
+        help="Print routing metrics as JSON to stdout (runs validation too)",
+    )
     args = ap.parse_args()
 
     if args.generate_repo_map_hints:
         print("# repo-map hints for missing source_index routes", file=sys.stderr)
+
+    if args.report or args.report_json:
+        metrics = collect_routing_metrics(strict=args.strict)
+        if args.report_json:
+            print(json.dumps(metrics, indent=2, sort_keys=True))
+        if args.report:
+            print(format_routing_report(metrics))
 
     errors = validate_all(
         strict=args.strict,

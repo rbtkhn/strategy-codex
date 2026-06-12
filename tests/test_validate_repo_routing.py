@@ -44,3 +44,48 @@ def test_repo_map_schema_and_barnes_route() -> None:
 
     discovered = {p.relative_to(REPO_ROOT).as_posix() for p in discover_source_indexes()}
     assert len(discovered) == 20
+
+
+def test_collect_routing_metrics() -> None:
+    from scripts.validate_repo_routing import collect_routing_metrics
+
+    metrics = collect_routing_metrics(strict=True)
+    assert metrics["source_index_count"] == 20
+    assert metrics["registry_coverage_pct"] == 100.0
+    assert metrics["markdown_link_count"] >= 600
+    assert metrics["broken_link_count"] == 0
+    assert metrics["absolute_path_violations"] == 0
+
+
+def test_validate_repo_routing_report_flag() -> None:
+    proc = subprocess.run(
+        [
+            sys.executable,
+            str(REPO_ROOT / "scripts" / "validate_repo_routing.py"),
+            "--strict",
+            "--report",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stderr or proc.stdout
+    assert "## Repo routing metrics" in proc.stdout
+    assert "source indexes (disk): 20" in proc.stdout
+
+
+def test_benchmark_routing_discovery() -> None:
+    proc = subprocess.run(
+        [
+            sys.executable,
+            str(REPO_ROOT / "scripts" / "benchmark_routing_discovery.py"),
+            "--rounds",
+            "3",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stderr or proc.stdout
+    assert "Barnes index discovery benchmark" in proc.stdout
+    assert "LLM-ROUTING dispatch" in proc.stdout
