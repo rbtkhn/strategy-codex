@@ -27,6 +27,8 @@ youtube_id: WusN5OkSwfg
 source_note: Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Routing — Dahieh→Israel→Apache pretext; Sirik/Jask water tanks; Jordan/Bahrain/Kuwait 21-target response; Ramat David; Trump flip-flop; normative-power Iran red lines; Ben Gurion target bank; Aoun flip; Lebanon civil-war playbook; Qatar/GCC dollar exposure; Erdogan talk vs action; same-day companion Diesen×Henningsen hOL1Hb2gdLI; 2026-06-10 cluster.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Henningson, DHI, Sirk, Jos, Raat David, Formos, etc.). Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved.
+verify_wire_supported_partial: "Ramat David — IDF 7–8 Jun minor damage; fragment vs direct hit under investigation. statecraft/daily/2026-06-08-09-wire-verify-matrix.md#s12"
+verify_wire_contested: "F-35 refuel over Saudi — Kan/TOI regional country blocked Israel airspace recent Iran strikes. statecraft/daily/2026-06-08-09-wire-verify-matrix.md#s13"
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 dialogue_works_close_substack_trim_applied: true

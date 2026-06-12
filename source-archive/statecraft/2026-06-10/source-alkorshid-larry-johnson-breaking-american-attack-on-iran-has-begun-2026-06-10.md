@@ -27,6 +27,7 @@ youtube_id: YE7JBvJ-h6M
 source_note: Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Live US attack on Sirik/Minab/Bandar Abbas cluster; cruise-missile interceptions; Yedioth warship hit unconfirmed; full Hormuz closure; Apache pretext; Sanger NYT leak; Islamabad accords dead; Erdogan-Netanyahu; Resi territorial waters; same-week 2026-06-10 cluster.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Sirik, Asaluya, Yediot, Resi, etc.).
+verify_wire_contested: "Islamabad accords dead — Pakistan FM 11 Jun channels open (AA); Apr Islamabad round failed; Marandi 11 Jun Iran paused replies not closed lane. statecraft/daily/2026-06-08-09-wire-verify-matrix.md#s11"
 transcript_wrapper_tier: clean
 opening_tier: host-tease
 ---

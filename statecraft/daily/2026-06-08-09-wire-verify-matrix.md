@@ -113,3 +113,42 @@ python scripts/refresh_statecraft_archive_indices.py --check-daily-sync 2026-06-
 ```
 
 **Expected:** 9 Jun daily synced at **19** captures — re-run `--check-daily-sync 2026-06-09` after further intakes.
+
+---
+
+## Jun 10 post-daily verify pass (12 Jun)
+
+**Parent:** [2026-06-10 daily](./2026-06-10.md) next-move #3 · hooks from Johnson + Henningsen archive captures.
+
+### S11 — Islamabad accords dead (Johnson 10 Jun)
+
+| Field | Receipt |
+|-------|---------|
+| **Claim** | Johnson in-voice: Islamabad accords **dead** |
+| **Verdict** | **Contested / overstated** |
+| **Wire** | Pakistan FM **11 Jun**: channels **open** (Al Jazeera); **Apr 11–12** Islamabad round **failed**; Marandi **11 Jun**: Iran **paused replies**, not closed lane |
+| **Archive** | [Johnson breaking attack](../source-archive/statecraft/2026-06-10/source-alkorshid-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md) |
+
+**Read:** Johnson **channel-death** rhetoric ahead of wire; Jun 11 mediator geometry (Qatar/Pakistan) still live — do not treat as settled closure.
+
+### S12 — Ramat David hit (Henningsen 10 Jun)
+
+| Field | Receipt |
+|-------|---------|
+| **Claim** | Henningsen: Israel **accepted** Ramat David hit |
+| **Verdict** | **Supported** (severity **partial**) |
+| **Wire** | IDF confirmed **minor damage** **7–8 Jun**; fragment vs direct hit **under investigation** (Times of Israel, Jerusalem Post) |
+| **Archive** | [Henningsen Jordan retaliation](../source-archive/statecraft/2026-06-10/source-alkorshid-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md) · carry [Wilkerson 9 Jun](../source-archive/statecraft/2026-06-09/source-alkorshid-colonel-douglas-macgregor-wilkerson-ramat-david-2026-06-09.md) |
+
+**Read:** Hit **occurred**; asset-loss / hangar-destruction tier still **escalate** (see Escalate table above).
+
+### S13 — F-35 refuel over Saudi (Henningsen 10 Jun)
+
+| Field | Receipt |
+|-------|---------|
+| **Claim** | Henningsen: F-35 **refuel over Saudi** for Iran strikes |
+| **Verdict** | **Contested** (lean **contradicted** this week) |
+| **Wire** | Kan / Times of Israel: **regional country blocked** Israel airspace for **recent** Iran strikes — conflicts with Johnson in-voice Saudi-refuel line same period |
+| **Archive** | [Henningsen Jordan retaliation](../source-archive/statecraft/2026-06-10/source-alkorshid-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md) |
+
+**Read:** Treat Saudi **corridor** as **live fork** — block vs refuel — not settled from single guest voice; pair Jun 11 executive–kinetic dual channel.
