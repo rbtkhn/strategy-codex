@@ -100,6 +100,22 @@ This system uses a **four-layer instruction architecture**. Later layers may nar
 
 ## Critical Rules
 
+### Repository search protocol for LLM agents
+
+When asked to find a file, index, corpus, source map, analyst, or speaker:
+
+1. Check [LLM-ROUTING.md](LLM-ROUTING.md).
+2. Check [repo-map.yaml](repo-map.yaml) if present.
+3. If the query involves an analyst, speaker, source corpus, transcript set, or geopolitical commentator, check [statecraft/civ-lens/](statecraft/civ-lens/) and [source-archive/statecraft/](source-archive/statecraft/).
+4. Do not rely only on GitHub code search.
+5. If `grep`, `rg`, or GitHub code search returns zero results, treat that as a possible search failure, not proof of absence.
+6. Only say "not found" after checking the routing map plus the likely path family.
+7. If the user provides a GitHub URL or exact path, fetch that path directly before doing broad search.
+
+**Search commands:** prefer `rg` for interactive local search when available; use portable `grep` (or `rg` with `grep -R` fallback) in committed scripts and CI examples. Full convention: [LLM-ROUTING.md — Search command convention](LLM-ROUTING.md#search-command-convention).
+
+**Find-then-read:** After locating a capture via a civ-lens source-index, apply [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) (corpus tiers + reading layers) before synthesis. PH chapter objects additionally use [statecraft/civ-lens/jiang/ph-civ/docs/source-lattice.md](statecraft/civ-lens/jiang/ph-civ/docs/source-lattice.md). **Source-index** (where) and **source-lattice** (how) are different queries — see LLM-ROUTING.md.
+
 ### 1. Knowledge Boundary â€” Never Leak LLM Knowledge
 
 The emulated self can only know what is explicitly documented in its profile (`self.md`). The emulation prompt (`bot/prompt.py`) enforces this. **Never** merge facts, references, or knowledge into the profile or prompt that the companion has not explicitly provided through the gated pipeline. LLM training data must not leak into the fork. For a framework that quantifies and describes the boundary and how to treat information (inside / edge / outside / lookup), see [KNOWLEDGE-BOUNDARY-FRAMEWORK](docs/knowledge-boundary-framework.md). **Runtime / pre-gate abstention** (uncertainty envelopes, fabricated-history screening â€” advisory, not merge authority) is documented in [docs/abstention-policy.md](docs/abstention-policy.md).
