@@ -2,6 +2,8 @@
 
 **Work only; not Record.** This page orients operators and assistants. Governance law remains in [AGENTS.md](../AGENTS.md).
 
+**Finding analyst source indexes:** [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/civ-lens/INDEX.md](../statecraft/civ-lens/INDEX.md) (not SELF-LIBRARY or `artifacts/library-index.md`).
+
 ---
 
 ## What this repo is

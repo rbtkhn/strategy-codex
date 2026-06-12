@@ -8,6 +8,16 @@
 
 **New here?** Plain-language orientation and audience paths: [docs/start-here.md](docs/start-here.md) â€” quick pick [Choose your path](docs/start-here.md#choose-your-path) (Aâ€“F).
 
+## Finding things in this repo
+
+This repository has multiple index surfaces. For LLM agents and coding assistants, start with:
+
+- [`LLM-ROUTING.md`](LLM-ROUTING.md) — routing rules for finding files, corpora, indexes, dashboards, and Record surfaces.
+- [`repo-map.yaml`](repo-map.yaml) — machine-readable navigation hints.
+- [`statecraft/civ-lens/INDEX.md`](statecraft/civ-lens/INDEX.md) — analyst/source-corpus route maps.
+
+For analyst or source-corpus questions such as "Barnes index," start with `statecraft/civ-lens/`, not SELF-LIBRARY or generated dashboards. For reading order after a capture is found, see [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md).
+
 If you come from **OB1-style** memory systems, see [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md) for the **legacy** Grace-Mar gate mapping. **Default onboarding:** [docs/start-here.md](docs/start-here.md) (interpretive machine, not fork growth).
 
 ## Claude Code surfaces

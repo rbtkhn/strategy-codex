@@ -2,6 +2,8 @@ WORK only; not Record.
 
 # Statecraft Civ-Lens
 
+**Agent dispatch:** For analyst/source-index routing, open [INDEX.md](INDEX.md). For repo-wide LLM routing, open [LLM-ROUTING.md](../../LLM-ROUTING.md).
+
 Purpose: hold the canonical speaker-state continuity surfaces that feed repo-root `statecraft/`.
 
 This subtree is the canonical home of **Statecraft Synthesis** for speaker-state work.
