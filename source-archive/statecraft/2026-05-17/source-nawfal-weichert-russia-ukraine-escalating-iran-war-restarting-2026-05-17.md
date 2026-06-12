@@ -1,6 +1,6 @@
 ---
 ingest_date: 2026-06-09
-pub_date: 2026-06-09
+pub_date: 2026-05-17
 kind: transcript
 source_form: interview
 source_type: youtube
@@ -23,7 +23,8 @@ source_url: "https://www.youtube.com/watch?v=ukcJlJ6cpNY"
 youtube_id: ukcJlJ6cpNY
 source_note: "Operator-pasted transcript; Nawfal×Weichert systems-war bench (WWIII gray-zone opening; Ukraine–Iran linked theater; Karaganov tactical-nuclear doctrine revision; Putin decisive-escalation window). Live Gulf hits — Saudi 3 drones, UAE nuclear-plant generator; Iran war restart / energy-infra targets; Kharg–Qeshm island landing disaster read. Trump Taiwan weapons freeze + Article 5 skepticism; NATO diminishment over Hormuz; China trip desperation / Xi wins. verify:CNN Saturday NSC Virginia golf club resume-combat; verify:Trump Taiwan tranche freeze (Baier/Hannity); verify:Karaganov May 2026 Foreign Affairs journal piece; verify:Daily Caller Francis Cappa European naval Hormuz — analyst not wire primary."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Nawfal opening-normalize metadata tier only (host-monologue); substantive Ukraine/Iran/Taiwan/Gulf live-update open retained after over-trim revert.
+youtube_upload_reconciled: true
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Nawfal opening-normalize metadata tier only (host-monologue); substantive Ukraine/Iran/Taiwan/Gulf live-update open retained after over-trim revert. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata).
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 ---
@@ -33,7 +34,7 @@ transcript_wrapper_tier: paste-prefix
 **Show:** Mario Nawfal  
 **Host:** Mario Nawfal  
 **Guest:** Brandon J. Weichert  
-**Published:** 2026-06-09  
+**Published:** 2026-05-17  
 **Source:** [YouTube](https://www.youtube.com/watch?v=ukcJlJ6cpNY)  
 **Transcript:** Operator-pasted YouTube transcript.
 

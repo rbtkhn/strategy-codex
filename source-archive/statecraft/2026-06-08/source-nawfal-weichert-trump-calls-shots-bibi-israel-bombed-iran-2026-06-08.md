@@ -1,6 +1,6 @@
 ---
 ingest_date: 2026-06-09
-pub_date: 2026-06-09
+pub_date: 2026-06-08
 kind: transcript
 source_form: interview
 source_type: youtube
@@ -23,7 +23,8 @@ source_url: "https://www.youtube.com/watch?v=g8QReaWLXSk"
 youtube_id: g8QReaWLXSk
 source_note: "Operator-pasted transcript; Nawfal×Weichert command-fracture bench (Trump junior partner, Netanyahu rogue, Iranian escalation dominance, WWI analogy, NDAA attrition read). verify:wire-tier Channel 12 17-hour timeline — Hebrew media not independently pulled; verify:contested US tanker refueling/ISR for Israeli Iran strikes (Weichert vs Nawfal in-show); verify:unverified Netanyahu Hebrew speech clip translation; verify:Houthis total ban Israeli Red Sea navigation — reported in-show, confirm wire; verify:live Hamas spokesperson Iran–US ceasefire must include full Gaza ceasefire — needs primary; verify:CENTCOM disabled tanker Gulf of Oman — check wire; Gaza aid blocked — verify; analyst-tier NDAA/Substack industrial-base thesis not wire primary."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained. Nawfal opening normalize pending post-land hook. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+youtube_upload_reconciled: true
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained. Nawfal opening normalize pending post-land hook. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata).
 opening_tier: heavy-banter
 transcript_wrapper_tier: paste-prefix
 opening_trim_applied: true
@@ -34,7 +35,7 @@ opening_trim_applied: true
 **Show:** Mario Nawfal  
 **Host:** Mario Nawfal  
 **Guest:** Brandon J. Weichert  
-**Published:** 2026-06-09  
+**Published:** 2026-06-08  
 **Source:** [YouTube](https://www.youtube.com/watch?v=g8QReaWLXSk)  
 **Transcript:** Operator-pasted YouTube transcript.
 

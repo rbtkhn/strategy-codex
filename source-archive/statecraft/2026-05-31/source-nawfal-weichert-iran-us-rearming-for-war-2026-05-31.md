@@ -1,6 +1,6 @@
 ---
 ingest_date: 2026-06-09
-pub_date: 2026-06-09
+pub_date: 2026-05-31
 kind: transcript
 source_form: interview
 source_type: youtube
@@ -23,7 +23,8 @@ source_url: "https://www.youtube.com/watch?v=3gG-bMVOgYg"
 youtube_id: 3gG-bMVOgYg
 source_note: "Operator-pasted transcript; Nawfal×Weichert rearm-not-deal bench (MOU as strategic positioning; Hormuz toll revenue; arsenal/logistics strain; Lebanon Litani crossing vs Iran red line; Iran parliament Hormuz sovereignty law). Ryan McBath Tomahawk supply-chain debate; NDAA §224/§1222; Zielinski Patriot plea; Zanghoor corridor 621mi Ukraine–Iran seam; CNN underground missile base recovery; Crassus molten-gold analogy; Avigdor Lieberman Hormuz indifference claim (Al Arabiya). verify:NYT Trump MOU amendments; verify:Litani/Channel 12 Lebanon expansion request; verify:Iran parliament Hormuz law; verify:Tomahawk inventory fraction — analyst not ORBAT primary."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Nawfal opening-normalize metadata tier only (host-monologue); Nawfal news-update open retained.
+youtube_upload_reconciled: true
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Nawfal opening-normalize metadata tier only (host-monologue); Nawfal news-update open retained. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata).
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 ---
@@ -33,7 +34,7 @@ transcript_wrapper_tier: paste-prefix
 **Show:** Mario Nawfal  
 **Host:** Mario Nawfal  
 **Guest:** Brandon J. Weichert  
-**Published:** 2026-06-09  
+**Published:** 2026-05-31  
 **Source:** [YouTube](https://www.youtube.com/watch?v=3gG-bMVOgYg)  
 **Transcript:** Operator-pasted YouTube transcript.
 

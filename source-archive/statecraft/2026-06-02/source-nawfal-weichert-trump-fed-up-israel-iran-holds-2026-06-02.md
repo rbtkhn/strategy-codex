@@ -1,6 +1,6 @@
 ---
 ingest_date: 2026-06-10
-pub_date: 2026-06-10
+pub_date: 2026-06-02
 kind: transcript
 source_form: interview
 source_type: youtube
@@ -23,7 +23,8 @@ source_url: "https://www.youtube.com/watch?v=a2Lqc7m0SfE"
 youtube_id: a2Lqc7m0SfE
 source_note: "Operator-pasted transcript; Nawfal×Weichert Trump-Netanyahu rupture / hostilities-resume bench (Channel 12/13 Beirut evacuation bluff→strike; 1945 Iran war returning article; Trump pulse talks ongoing vs Katz rhetoric; Project Freedom Nav blocked; Axios leak as strategic leak / Rubio 2028 freelancing; Israel-Ukraine oligarch Mindel Tel Aviv; Massie out / Congress capture; Netanyahu peace impossible / legal jeopardy; Israeli brain-drain / Palantir panopticon; MSAD Barnea regime-change; Iranian officer inevitable hostilities; muted media vs Iraq; Russia Berlin drone factories / Article 5 dead; Sevastopol-Crimea stack; Cancian CSIS 50% depletion vs Weichert Tucker March 1; DIB mountains reconstituted; Sparta Syria resupply). verify:Channel 12 two-call Beirut bluff sequence; verify:Trump pulse Iran talks continuous; verify:Axios Trump-Netanyahu leak; verify:MSAD Barnea regime-change quote; verify:Iranian military officer Tuesday statement; verify:FT NATO nukes Poland report; verify:Sparta Khmeimim resupply; analyst-tier not wire primary."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; complete tail (Nawfal outro). ASR artifacts retained. Nawfal opening normalize pending post-land hook.
+youtube_upload_reconciled: true
+editorial_note: Operator-pasted transcript body; complete tail (Nawfal outro). ASR artifacts retained. Nawfal opening normalize pending post-land hook. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata).
 opening_tier: banter-open
 transcript_wrapper_tier: paste-prefix
 ---
@@ -33,7 +34,7 @@ transcript_wrapper_tier: paste-prefix
 **Show:** Mario Nawfal  
 **Host:** Mario Nawfal  
 **Guest:** Brandon J. Weichert  
-**Published:** 2026-06-10  
+**Published:** 2026-06-02  
 **Source:** [YouTube](https://www.youtube.com/watch?v=a2Lqc7m0SfE)  
 **Transcript:** Operator-pasted YouTube transcript.
 

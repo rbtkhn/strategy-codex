@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T08:28:52+00:00",
+  "generated_at": "2026-06-12T10:24:09+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -691,11 +691,11 @@
     },
     "2026-05": {
       "captured_days": 31,
-      "source_count": 234,
-      "thread_count": 35,
+      "source_count": 238,
+      "thread_count": 36,
       "channel_or_show_count": 25,
       "host_count": 21,
-      "guest_count": 43,
+      "guest_count": 44,
       "guest_label_variants": [
         {
           "signature": "davis",
@@ -783,12 +783,12 @@
       "needs_label_normalization": true
     },
     "2026-06": {
-      "captured_days": 10,
-      "source_count": 111,
-      "thread_count": 30,
-      "channel_or_show_count": 17,
-      "host_count": 16,
-      "guest_count": 21,
+      "captured_days": 11,
+      "source_count": 127,
+      "thread_count": 35,
+      "channel_or_show_count": 18,
+      "host_count": 17,
+      "guest_count": 27,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -812,6 +812,19 @@
             },
             {
               "label": "Matthew Hoh",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "signature": "marandi",
+          "labels": [
+            {
+              "label": "Seyed M. Marandi",
+              "count": 5
+            },
+            {
+              "label": "Mohammad Marandi",
               "count": 1
             }
           ]

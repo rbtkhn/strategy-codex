@@ -1,6 +1,6 @@
 ---
 ingest_date: 2026-06-10
-pub_date: 2026-06-10
+pub_date: 2026-05-24
 kind: transcript
 source_form: interview
 source_type: youtube
@@ -23,7 +23,8 @@ source_url: "https://www.youtube.com/watch?v=OKSRdDflbdQ"
 youtube_id: OKSRdDflbdQ
 source_note: "Operator-pasted transcript (truncated tail); Nawfal×Weichert deal-collapse / patch-not-deal bench (Tasnim MOU cancel; Netanyahu Lebanon freedom-of-action sticking point; asset unfreeze timing; Hajj-Saudi-Pakistan holiday pause theory; Trump slow-walk; Hormuz fee UNCLOS persistent-objector; 30-day fee finesse; Lindsey Graham inadvertent agreement; Netanyahu demand shrink regime-change→nuclear-only; Taj Mahal casino / pulse promotional; Fars ignore-Trump-pulse; David Pine MDA missile data; Israel Friday jet scramble; decapitation/Samson/Russia miniaturization 2023; Natanz Desert-One landing theory; Axios post-war Abraham Accords; UAE Finlandization; Merkava massacres; Trump junior partner Lebanon; CNN 95% framework). verify:Tasnim MOU canceled; verify:Channel 12/13 Lebanon carve-out; verify:Axios two sticking points; verify:Fars private messaging on Trump pulse; verify:NBC no deal signed today; verify:Axios Abraham Accords Saturday call; verify:Israeli jets scrambled Friday; verify:CNN 95% framework wording; analyst-tier not wire primary."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; tail truncated mid-sentence ("In half an"); not independently verified as verbatim. ASR artifacts retained. Nawfal opening normalize pending post-land hook.
+youtube_upload_reconciled: true
+editorial_note: Operator-pasted transcript body; tail truncated mid-sentence ("In half an"); not independently verified as verbatim. ASR artifacts retained. Nawfal opening normalize pending post-land hook. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata).
 opening_tier: production-check
 transcript_wrapper_tier: paste-prefix
 ---
@@ -33,7 +34,7 @@ transcript_wrapper_tier: paste-prefix
 **Show:** Mario Nawfal  
 **Host:** Mario Nawfal  
 **Guest:** Brandon J. Weichert  
-**Published:** 2026-06-10  
+**Published:** 2026-05-24  
 **Source:** [YouTube](https://www.youtube.com/watch?v=OKSRdDflbdQ)  
 **Transcript:** Operator-pasted YouTube transcript.
 

@@ -1,6 +1,6 @@
 ---
 ingest_date: 2026-06-09
-pub_date: 2026-06-09
+pub_date: 2026-06-05
 kind: transcript
 source_form: interview
 source_type: youtube
@@ -23,7 +23,8 @@ source_url: "https://www.youtube.com/watch?v=p1w0nJwdILU"
 youtube_id: p1w0nJwdILU
 source_note: "Operator-pasted transcript; Nawfal×Weichert NDAA/intelligence-fusion bench (§224 defense-industrial base merge, Senate IC bill §662 CIA–Mossad seamless entity per Weichert read; Ro Khanna/Massie opposition). War updates — frozen conflict, Iran adviser Rai blockade/warning register, Oman terminal drone strike, SPR tank-bottoms by July 4 week, Hormuz reopen skepticism, China SPR/industrial-capacity contrast. verify:NDAA §224 committee passage — check congressional record; verify:Senate IC §662 — bill number/status; verify:Oman crude terminal strike attribution; verify:Trump oil/SPR statements; analyst-tier nuclear test detonation / Russian ship sink claims not wire primary."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Nawfal opening-normalize metadata tier only (host-monologue); light banter retained at open.
+youtube_upload_reconciled: true
+editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Nawfal opening-normalize metadata tier only (host-monologue); light banter retained at open. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata).
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 ---
@@ -33,7 +34,7 @@ transcript_wrapper_tier: paste-prefix
 **Show:** Mario Nawfal  
 **Host:** Mario Nawfal  
 **Guest:** Brandon J. Weichert  
-**Published:** 2026-06-09  
+**Published:** 2026-06-05  
 **Source:** [YouTube](https://www.youtube.com/watch?v=p1w0nJwdILU)  
 **Transcript:** Operator-pasted YouTube transcript.
 

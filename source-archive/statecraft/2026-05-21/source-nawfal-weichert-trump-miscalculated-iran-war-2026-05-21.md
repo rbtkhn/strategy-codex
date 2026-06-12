@@ -1,6 +1,6 @@
 ---
 ingest_date: 2026-06-10
-pub_date: 2026-06-10
+pub_date: 2026-05-21
 kind: transcript
 source_form: interview
 source_type: youtube
@@ -23,7 +23,8 @@ source_url: "https://www.youtube.com/watch?v=Yao4_QgZSsg"
 youtube_id: Yao4_QgZSsg
 source_note: "Operator-pasted transcript; Nawfal×Weichert strategic-defeat / Gulf veto bench (Gulf zero Trump influence; consultancy slow-walk; Gulf stopped imminent strike; WH split Rubio/Hegseth vs Kushner/Witkoff/Vance; Hormuz tollbooth not revert; DIB reconstitution per US intel; pause not end / Israel decider; Trump-Bibi rupture skepticism / Adelson 2024; Massie loss / AARP boomer blockade; Al Arabiya Pakistan deal as capitulation frame; Putin-Xi 40 vs Trump-Xi punt; first island chain lost / Taiwan freeze; enriched uranium walk-away; Gulf weak-link thesis; WWI red-line ladder; Poseidon pipeline pushback; Lebanon not US concern; Pape escalation trap / already WWIII). verify:Gulf stopped Trump strike (Trump thanks UAE/Saudi/Qatar); verify:Trump-Netanyahu heated call; verify:Al Arabiya final draft deal (single-source); verify:enriched uranium export impasse (Reuters/Fox vs Iran denial); verify:Iranian DIB reconstitution (CNN/US intel); verify:Massie-Galarneau result breakdown; verify:Treasury Hezbollah nine-official sanctions; verify:Iran negotiating-team text deadlock; verify:Trump enriched-uranium media-only quote; analyst-tier not wire/ORBAT primary."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; opens mid-conversation (Gulf diplomat anecdote); not independently verified as verbatim. ASR artifacts retained. Nawfal opening normalize pending post-land hook.
+youtube_upload_reconciled: true
+editorial_note: Operator-pasted transcript body; opens mid-conversation (Gulf diplomat anecdote); not independently verified as verbatim. ASR artifacts retained. Nawfal opening normalize pending post-land hook. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata).
 opening_tier: mid-conversation-entry
 transcript_wrapper_tier: paste-prefix
 ---
@@ -33,7 +34,7 @@ transcript_wrapper_tier: paste-prefix
 **Show:** Mario Nawfal  
 **Host:** Mario Nawfal  
 **Guest:** Brandon J. Weichert  
-**Published:** 2026-06-10  
+**Published:** 2026-05-21  
 **Source:** [YouTube](https://www.youtube.com/watch?v=Yao4_QgZSsg)  
 **Transcript:** Operator-pasted YouTube transcript.
 
