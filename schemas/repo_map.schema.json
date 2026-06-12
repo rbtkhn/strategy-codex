@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "strategy_codex_repo_map",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "updated_at", "purpose", "routes"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "updated_at": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "purpose": { "type": "string" },
+    "routes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "path", "kind", "authority"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "title": { "type": "string", "minLength": 1 },
+          "path": { "type": "string", "minLength": 1 },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "routing_aid",
+              "directory_index",
+              "source_index",
+              "reading_discipline",
+              "canonical_reference",
+              "generated_dashboard",
+              "generated_inventory",
+              "local_index_script"
+            ]
+          },
+          "authority": {
+            "type": "string",
+            "enum": [
+              "routing_aid",
+              "work_only",
+              "derived",
+              "derived_local",
+              "canonical_self_library"
+            ]
+          },
+          "canonical_source": { "type": "string" },
+          "domain": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "people": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "hosts": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "search_hints": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

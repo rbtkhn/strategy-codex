@@ -1,0 +1,213 @@
+version: 1
+updated_at: "2026-06-12"
+purpose: Machine-readable routing hints for LLM and tool navigation. Not an authority surface.
+
+routes:
+  - id: llm-routing
+    title: LLM routing map
+    path: LLM-ROUTING.md
+    kind: routing_aid
+    authority: routing_aid
+    tags: [routing, llm, discovery]
+    search_hints: [LLM routing, find file in repo, Barnes index]
+
+  - id: civ-lens-index
+    title: Civ Lens Index
+    path: statecraft/civ-lens/INDEX.md
+    kind: directory_index
+    authority: routing_aid
+    tags: [civ-lens, analysts, speakers, source-corpora]
+    search_hints: [civ lens index, analyst source index]
+
+  - id: source-lattice-doctrine
+    title: Source-lattice doctrine (statecraft + general)
+    path: docs/source-lattice-beyond-the-repo.md
+    kind: reading_discipline
+    authority: work_only
+    tags: [source-lattice, corpus-tiers, reading-order, wire-verify]
+    search_hints: [source lattice, corpus tiers, reading order, tier 3 tier 4]
+
+  - id: ph-civ-source-lattice
+    title: PH-CIV source-lattice
+    path: statecraft/civ-lens/jiang/ph-civ/docs/source-lattice.md
+    kind: reading_discipline
+    authority: work_only
+    domain: [ph-civ, jiang, predictive-history]
+    search_hints: [PH chapter reading order, civ transcript floor, commentary canvas order]
+
+  - id: self-library
+    title: SELF-LIBRARY
+    path: self-library.md
+    kind: canonical_reference
+    authority: canonical_self_library
+    tags: [self-library, library, reference, canon, books]
+    search_hints: [self library, library index, books canon]
+
+  - id: library-index
+    title: Library index dashboard
+    path: artifacts/library-index.md
+    kind: generated_dashboard
+    authority: derived
+    canonical_source: self-library.md
+    tags: [generated, dashboard, library-index, self-library]
+    search_hints: [library dashboard, generated library index]
+
+  - id: record-vector-index-script
+    title: Record vector index builder
+    path: scripts/index_record.py
+    kind: local_index_script
+    authority: derived_local
+    tags: [vector-index, chroma, record, embeddings]
+    search_hints: [vector index, chroma index, record embeddings]
+
+  - id: statecraft-thread-index
+    title: Statecraft archive thread index
+    path: source-archive/statecraft/thread-index.md
+    kind: generated_inventory
+    authority: derived
+    tags: [statecraft, archive, thread-index, generated]
+    search_hints: [thread index, archive inventory]
+
+  - id: barnes-source-index
+    title: Barnes source index
+    path: statecraft/civ-lens/barnes/barnes-source-index.md
+    kind: source_index
+    authority: work_only
+    domain: [statecraft, civ_lens, analyst_corpus]
+    people: [Robert Barnes, Barnes]
+    hosts: [Daniel Davis, The Duran, Alexander Mercouris, Dialogue Works, Nima, Mario Nawfal, Judge Andrew Napolitano]
+    tags: [barnes, robert-barnes, source-index, transcript-corpus, analyst, statecraft]
+    search_hints: [Barnes index, barnes source index, Robert Barnes corpus, Daniel Davis Barnes, Mercouris Barnes]
+  - id: crooke-source-index
+    title: Crooke source index
+    path: statecraft/civ-lens/crooke/crooke-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [crooke, source-index, statecraft, civ-lens]
+    search_hints: [Crooke index, crooke source index]
+  - id: diesen-source-index
+    title: Diesen source index
+    path: statecraft/civ-lens/diesen/diesen-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [diesen, source-index, statecraft, civ-lens]
+    search_hints: [Diesen index, diesen source index]
+  - id: freeman-source-index
+    title: Freeman source index
+    path: statecraft/civ-lens/freeman/freeman-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [freeman, source-index, statecraft, civ-lens]
+    search_hints: [Freeman index, freeman source index]
+  - id: hoh-source-index
+    title: Hoh source index
+    path: statecraft/civ-lens/hoh/hoh-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [hoh, source-index, statecraft, civ-lens]
+    search_hints: [Hoh index, hoh source index]
+  - id: jiang-source-index
+    title: Jiang source index
+    path: statecraft/civ-lens/jiang/jiang-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [jiang, source-index, statecraft, civ-lens]
+    search_hints: [Jiang index, jiang source index]
+  - id: johnson-source-index
+    title: Johnson source index
+    path: statecraft/civ-lens/johnson/johnson-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [johnson, source-index, statecraft, civ-lens]
+    search_hints: [Johnson index, johnson source index]
+  - id: kent-source-index
+    title: Kent source index
+    path: statecraft/civ-lens/kent/kent-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [kent, source-index, statecraft, civ-lens]
+    search_hints: [Kent index, kent source index]
+  - id: macgregor-source-index
+    title: Macgregor source index
+    path: statecraft/civ-lens/macgregor/macgregor-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [macgregor, source-index, statecraft, civ-lens]
+    search_hints: [Macgregor index, macgregor source index]
+  - id: marandi-source-index
+    title: Marandi source index
+    path: statecraft/civ-lens/marandi/marandi-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [marandi, source-index, statecraft, civ-lens]
+    search_hints: [Marandi index, marandi source index]
+  - id: martyanov-source-index
+    title: Martyanov source index
+    path: statecraft/civ-lens/martyanov/martyanov-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [martyanov, source-index, statecraft, civ-lens]
+    search_hints: [Martyanov index, martyanov source index]
+  - id: mcgovern-source-index
+    title: McGovern source index
+    path: statecraft/civ-lens/mcgovern/mcgovern-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [mcgovern, source-index, statecraft, civ-lens]
+    search_hints: [McGovern index, mcgovern source index]
+  - id: mearsheimer-source-index
+    title: Mearsheimer source index
+    path: statecraft/civ-lens/mearsheimer/mearsheimer-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [mearsheimer, source-index, statecraft, civ-lens]
+    search_hints: [Mearsheimer index, mearsheimer source index]
+  - id: mercouris-source-index
+    title: Mercouris source index
+    path: statecraft/civ-lens/mercouris/mercouris-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [mercouris, source-index, statecraft, civ-lens]
+    search_hints: [Mercouris index, mercouris source index]
+  - id: pape-source-index
+    title: Pape source index
+    path: statecraft/civ-lens/pape/pape-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [pape, source-index, statecraft, civ-lens]
+    search_hints: [Pape index, pape source index]
+  - id: parsi-source-index
+    title: Parsi source index
+    path: statecraft/civ-lens/parsi/parsi-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [parsi, source-index, statecraft, civ-lens]
+    search_hints: [Parsi index, parsi source index]
+  - id: postol-source-index
+    title: Postol source index
+    path: statecraft/civ-lens/postol/postol-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [postol, source-index, statecraft, civ-lens]
+    search_hints: [Postol index, postol source index]
+  - id: ritter-source-index
+    title: Ritter source index
+    path: statecraft/civ-lens/ritter/ritter-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [ritter, source-index, statecraft, civ-lens]
+    search_hints: [Ritter index, ritter source index]
+  - id: sachs-source-index
+    title: Sachs source index
+    path: statecraft/civ-lens/sachs/sachs-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [sachs, source-index, statecraft, civ-lens]
+    search_hints: [Sachs index, sachs source index]
+  - id: wilkerson-source-index
+    title: Wilkerson source index
+    path: statecraft/civ-lens/wilkerson/wilkerson-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [wilkerson, source-index, statecraft, civ-lens]
+    search_hints: [Wilkerson index, wilkerson source index]

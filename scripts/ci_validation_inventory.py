@@ -281,6 +281,16 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
         timeout_sec=60.0,
         ci_source=".github/workflows/test.yml (Check statecraft intake vs daily sync — advisory)",
     ),
+    CheckSpec(
+        id="validate_repo_routing",
+        label="LLM repo routing surfaces",
+        script_relpath="scripts/validate_repo_routing.py",
+        argv_builder=lambda _user: ["--strict"],
+        user_scope="ignored",
+        groups=frozenset({"ci", "experimental"}),
+        timeout_sec=120.0,
+        ci_source=".github/workflows/repo-routing.yml",
+    ),
 )
 
 
