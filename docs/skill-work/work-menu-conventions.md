@@ -12,6 +12,16 @@ Each option must be a **different next move** (different file, command, lane, or
 
 ---
 
+## 1b. Benefit clause (why pick this)
+
+Each option line includes **why** to choose it: one short **because** / **so that** / **in order to** clause on the **same line** as the fork stub (ship, validate, deploy, depth, handoff, unblock CI, etc.). Still **no pre-development** of that optionâ€™s output until the operator picks.
+
+**Example:** **A.** Commit + push ph-civ **so that** manifest and study-edition work is on remote before Pages deploy.
+
+**Exceptions:** fixed **coffee** / **steward** menus when copying verbatim skill text; operator **no menu** / **no options**.
+
+---
+
 ## 2. Evidence-linked options (Fork explorer)
 
 When a fork touches the **Record** or **gate**, include at least one **explicit anchor** per option where helpful:
