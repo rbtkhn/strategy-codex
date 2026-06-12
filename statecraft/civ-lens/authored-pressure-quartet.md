@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: cluster Crooke, Ritter, Pape, and Parsi as a distinct civ-lens speaker-object class. Each has a canonical authored spine and a secondary interview-pressure strand. Use this note when statecraft needs a repeatable crisis-analysis pass rather than a single expert read.
 
-For the wider satellite placement around this quartet, see [speaker-cluster-map.md](/C:/dev/strategy-codex/statecraft/civ-lens/speaker-cluster-map.md).
+For the wider satellite placement around this quartet, see [speaker-cluster-map.md](speaker-cluster-map.md).
 
 ## Core Claim
 
@@ -22,10 +22,10 @@ The shared source-class shape is:
 
 | speaker | role | primary instrument | best question |
 |---|---|---|---|
-| [Pape](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-helix.md) | Forecast engine | clock / threshold / falsifier | What happens next, by when, and what would prove it wrong? |
-| [Ritter](/C:/dev/strategy-codex/statecraft/civ-lens/ritter/ritter-helix.md) | Warning and force-constraint engine | operational limit / danger threshold / military-professional warning | What can force actually do, and where does the danger become intolerable? |
-| [Parsi](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/parsi-helix.md) | Diplomacy engine | bargain / off-ramp / institutional architecture | What settlement could actually work, and what would implementation require? |
-| [Crooke](/C:/dev/strategy-codex/statecraft/civ-lens/crooke/crooke-helix.md) | Mechanism and metapolitics engine | structural rupture / elite misreading / order-transition mechanism | Why does the system keep refusing the bargain or misreading the adversary? |
+| [Pape](pape/pape-helix.md) | Forecast engine | clock / threshold / falsifier | What happens next, by when, and what would prove it wrong? |
+| [Ritter](ritter/ritter-helix.md) | Warning and force-constraint engine | operational limit / danger threshold / military-professional warning | What can force actually do, and where does the danger become intolerable? |
+| [Parsi](parsi/parsi-helix.md) | Diplomacy engine | bargain / off-ramp / institutional architecture | What settlement could actually work, and what would implementation require? |
+| [Crooke](crooke/crooke-helix.md) | Mechanism and metapolitics engine | structural rupture / elite misreading / order-transition mechanism | Why does the system keep refusing the bargain or misreading the adversary? |
 
 ## Crisis Analysis Pass
 
@@ -67,10 +67,10 @@ Do not treat this as a voting panel. The quartet works best as a sequence of dif
 
 | need | open |
 |---|---|
-| forecast clock | [Pape helix](/C:/dev/strategy-codex/statecraft/civ-lens/pape/pape-helix.md) |
-| military feasibility or warning | [Ritter helix](/C:/dev/strategy-codex/statecraft/civ-lens/ritter/ritter-helix.md) |
-| diplomacy or settlement architecture | [Parsi helix](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/parsi-helix.md) |
-| structural mechanism or elite misreading | [Crooke helix](/C:/dev/strategy-codex/statecraft/civ-lens/crooke/crooke-helix.md) |
+| forecast clock | [Pape helix](pape/pape-helix.md) |
+| military feasibility or warning | [Ritter helix](ritter/ritter-helix.md) |
+| diplomacy or settlement architecture | [Parsi helix](parsi/parsi-helix.md) |
+| structural mechanism or elite misreading | [Crooke helix](crooke/crooke-helix.md) |
 
 ## Boundaries
 

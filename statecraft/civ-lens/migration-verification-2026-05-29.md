@@ -15,13 +15,13 @@ Purpose: seal the namespace migration from `statecraft/speakers/` to `statecraft
 ## Checks run
 
 - Repo grep over live docs, skills, scripts, tests, and statecraft surfaces reduced old `statecraft/speakers` claims to the intentional compatibility stub.
-- [tests/test_rehome_path_hygiene_contract.py](/C:/dev/strategy-codex/tests/test_rehome_path_hygiene_contract.py) passed via `.venv\Scripts\python.exe`.
-- [tests/test_validate_speaker_state_sets.py](/C:/dev/strategy-codex/tests/test_validate_speaker_state_sets.py) passed via `.venv\Scripts\python.exe`.
+- [tests/test_rehome_path_hygiene_contract.py](../../tests/test_rehome_path_hygiene_contract.py) passed via `.venv\Scripts\python.exe`.
+- [tests/test_validate_speaker_state_sets.py](../../tests/test_validate_speaker_state_sets.py) passed via `.venv\Scripts\python.exe`.
 - `git ls-files --stage` shows the Jiang gitlink at `statecraft/civ-lens/jiang/ph-civ` and `.gitmodules` points to the same path.
 
 ## Intentional exclusions
 
-- Benchmark provenance under `artifacts/benchmarks/` is explicitly excluded by [tests/fixtures/rehome_path_hygiene_contract.json](/C:/dev/strategy-codex/tests/fixtures/rehome_path_hygiene_contract.json).
+- Benchmark provenance under `artifacts/benchmarks/` is explicitly excluded by [tests/fixtures/rehome_path_hygiene_contract.json](../../tests/fixtures/rehome_path_hygiene_contract.json).
 - Remaining old `codex/2026/...` strings in those benchmark source packs and outputs are historical evaluation residue, not live path authority.
 
 ## Boundary

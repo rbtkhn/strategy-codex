@@ -25,9 +25,9 @@ The orthogonality-bearing structure on this shelf is:
 
 ## Main Host Arcs
 
-- [Dialogue Works x Wilkerson](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md)
-- [Diesen x Wilkerson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
-- [Judging Freedom x Wilkerson](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
+- [Dialogue Works x Wilkerson](../../../codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md)
+- [Diesen x Wilkerson](../../../codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
+- [Judging Freedom x Wilkerson](../../../codex/speakers/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
 
 ## Boundary
 

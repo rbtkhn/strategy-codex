@@ -22,8 +22,8 @@ This theme holds Mercouris's more speculative but still recurring use of imperia
 
 ## Exact Quote Anchors
 
-- [2025-01-10 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "the former Empire of the hapsburgs Austria Hungary is gradually being reconstructed along this precise issue"
-- [2026-05-16 Glenn Diesen raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md): "they're going against the grain of their recent history"
+- [2025-01-10 native raw-input](../../../../source-archive/statecraft/2025-01-10/source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "the former Empire of the hapsburgs Austria Hungary is gradually being reconstructed along this precise issue"
+- [2026-05-16 Glenn Diesen raw-input](../../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md): "they're going against the grain of their recent history"
 - same source: "the founding myth of British foreign policy is Churchill in 1940"
 
 ## What Mercouris Is Arguing
@@ -45,7 +45,7 @@ Mercouris is not only an order analyst. He is also a legitimacy analyst, and leg
 
 ## CIV-STATE Bridge
 
-Open [Habsburg residue and European legitimacy fracture](/C:/dev/strategy-codex/statecraft/civ-state/indexes/mercouris/habsburg-residue-and-european-legitimacy-fracture.md) when the task shifts from Mercouris's activation surface to deeper imperial-residue and legitimacy-memory retrieval.
+Open [Habsburg residue and European legitimacy fracture](../../../civ-state/indexes/mercouris/habsburg-residue-and-european-legitimacy-fracture.md) when the task shifts from Mercouris's activation surface to deeper imperial-residue and legitimacy-memory retrieval.
 
 ## Benchmark Snapshot
 

@@ -17,16 +17,16 @@ Purpose: front door for the canonical Mearsheimer statecraft shelf, surfacing th
 
 ### Core host lanes
 
-- [Diesen x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
-- [Davis x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md)
+- [Diesen x Mearsheimer](../../../codex/speakers/diesen/stream/diesen-mearsheimer-arc.md)
+- [Davis x Mearsheimer](../../../codex/speakers/davis/stream/davis-mearsheimer-arc.md)
 
 ### Reinforcing orbit
 
-- [Judging Freedom x Mearsheimer](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md)
+- [Judging Freedom x Mearsheimer](../../../codex/speakers/napolitano/stream/napolitano-mearsheimer-arc.md)
 
 ### Non-core appearance bench
 
-- [Mearsheimer source index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-source-index.md)
+- [Mearsheimer source index](../../../codex/speakers/mearsheimer/mearsheimer-source-index.md)
 
 ## Canonical Structure
 

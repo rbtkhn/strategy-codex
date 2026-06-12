@@ -6,7 +6,7 @@ Purpose: statecraft-side doorway to the full Mearsheimer provenance bench.
 
 The exhaustive resolved appearance map still lives here:
 
-- [legacy Mearsheimer source index](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-source-index.md)
+- [legacy Mearsheimer source index](../../../codex/speakers/mearsheimer/mearsheimer-source-index.md)
 
 Use that surface when:
 

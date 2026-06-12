@@ -63,12 +63,12 @@ Fresh direct YouTube search shows that the `Diesen x Baud` lane is broader than 
 
 If the operator needs only one file:
 
-- open [source-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-21/source-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md)
+- open [source-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md](../../../../codex/years/2026/provenance/2025-11-21/source-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md)
 
 If the operator needs the best paired read:
 
-- open [source-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-21/source-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md)
-- then [source-glenn-diesen-col-jacques-baud-the-origin-and-solution-to-the-ukraine-war-2025-03-14.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-03-14/source-glenn-diesen-col-jacques-baud-the-origin-and-solution-to-the-ukraine-war-2025-03-14.md)
+- open [source-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md](../../../../codex/years/2026/provenance/2025-11-21/source-glenn-diesen-jacques-baud-28-point-peace-plan-pushed-by-the-u-s-2025-11-21.md)
+- then [source-glenn-diesen-col-jacques-baud-the-origin-and-solution-to-the-ukraine-war-2025-03-14.md](../../../../codex/years/2026/provenance/2025-03-14/source-glenn-diesen-col-jacques-baud-the-origin-and-solution-to-the-ukraine-war-2025-03-14.md)
 
 That pair gives the clearest full lane shape:
 
@@ -106,7 +106,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about 2026 coercive feasibility or Gulf-base liability rather than the 2025 cross-year correction, route outward to [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md).
+- If the question is mainly about 2026 coercive feasibility or Gulf-base liability rather than the 2025 cross-year correction, route outward to [davis-baud-arc.md](../../../../codex/speakers/davis/stream/davis-baud-arc.md).
 
 - This is a real host-local arc, but it is primarily a **2025** lane.
 - Do not use this note to promote the **2026** Baud object into a triple helix.

@@ -48,12 +48,12 @@ This lane is materially present on disk as a 2026 Iran-war run. It should be rea
 
 If the operator needs only one file:
 
-- open [source-diesen-marandi-hormuz-all-out-war-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
+- open [source-diesen-marandi-hormuz-all-out-war-2026-05-05.md](../../../../codex/years/2026/provenance/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
 
 If the operator needs the best paired read:
 
-- open [source-diesen-marandi-hormuz-all-out-war-2026-05-05.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
-- then [source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-09/source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md)
+- open [source-diesen-marandi-hormuz-all-out-war-2026-05-05.md](../../../../codex/years/2026/provenance/2026-05-05/source-diesen-marandi-hormuz-all-out-war-2026-05-05.md)
+- then [source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md](../../../../codex/years/2026/provenance/2026-05-09/source-glenn-diesen-seyed-m-marandi-iran-rejects-u-s-deal-war-is-likely-imminent-2026-05-09.md)
 
 If the operator needs the **June Lebanon-fuse pair**:
 
@@ -102,7 +102,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what intimidation can no longer practically achieve rather than how escalation propagates through the wider system, route outward to [davis-marandi-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-marandi-speaker-arc.md).
+- If the question is mainly about what intimidation can no longer practically achieve rather than how escalation propagates through the wider system, route outward to [davis-marandi-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-marandi-speaker-arc.md).
 
 - Marandi is strongest here on red lines, retaliation logic, and strategic consequence, not on neutral tactical verification.
 - This is now a real on-disk 2026 lane, but it remains distinct from the more operational Davis-side Marandi and the more pressurized Dialogue Works Marandi.

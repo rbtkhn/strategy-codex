@@ -29,9 +29,9 @@ Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the 
 
 Compatibility residue:
 
-- [Thread compatibility file](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-thread.md)
-- [Transcript compatibility file](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-transcript.md)
-- [Legacy page residue](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/)
+- [Thread compatibility file](../../../codex/speakers/mercouris/stream/mercouris-thread.md)
+- [Transcript compatibility file](../../../codex/speakers/mercouris/stream/mercouris-transcript.md)
+- [Legacy page residue](../../../codex/speakers/mercouris/stream)
 
 ## Monthly Shelf Layer
 

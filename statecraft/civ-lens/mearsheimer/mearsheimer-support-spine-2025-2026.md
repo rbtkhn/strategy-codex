@@ -38,9 +38,9 @@ That is why Mearsheimer remains a **host-led mature-month exception shelf**.
 
 The heavier month-by-month and audit-bearing support still lives in the legacy shelf during migration:
 
-- [legacy Mearsheimer support spine](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md)
-- [legacy Mearsheimer historical examples audit](/C:/dev/strategy-codex/codex/speakers/mearsheimer/mearsheimer-historical-examples-audit.md)
-- [legacy Mearsheimer themes](/C:/dev/strategy-codex/codex/speakers/mearsheimer/themes/README.md)
+- [legacy Mearsheimer support spine](../../../codex/speakers/mearsheimer/mearsheimer-support-spine-2025-2026.md)
+- [legacy Mearsheimer historical examples audit](../../../codex/speakers/mearsheimer/mearsheimer-historical-examples-audit.md)
+- [legacy Mearsheimer themes](../../../codex/speakers/mearsheimer/themes/README.md)
 
 ## Boundary
 

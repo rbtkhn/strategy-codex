@@ -17,6 +17,6 @@ Open this shelf when the real question is not engineering truth or domestic liab
 
 ## Fast Route
 
-- open [2025-02-05 / Diesen x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2025-02-05/source-glenn-diesen-ray-mcgovern-trump-versus-the-deep-state-2025-02-05.md) for deep-state, strategic-consequence, and institutional-memory questions
-- open [2026-03-08 / Dialogue Works x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md) for live Iran-war pressure and imperial-unreality reads
-- open [2026-05-18 / Judging Freedom x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md) for legal-process pressure fused with intelligence dissent
+- open [2025-02-05 / Diesen x McGovern](../../../source-archive/statecraft/2025-02-05/source-glenn-diesen-ray-mcgovern-trump-versus-the-deep-state-2025-02-05.md) for deep-state, strategic-consequence, and institutional-memory questions
+- open [2026-03-08 / Dialogue Works x McGovern](../../../source-archive/statecraft/2026-03-08/source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md) for live Iran-war pressure and imperial-unreality reads
+- open [2026-05-18 / Judging Freedom x McGovern](../../../source-archive/statecraft/2026-05-18/source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md) for legal-process pressure fused with intelligence dissent

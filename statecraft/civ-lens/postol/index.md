@@ -17,6 +17,6 @@ Open this shelf when the real question is not ideology, legality, or domestic fa
 
 ## Fast Route
 
-- open [2026-05-15 Davis x Postol](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/source-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md) for bunker-buster, strike-feasibility, and destructive-capacity questions
-- open [2026-05-08 Dialogue Works x Postol](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/source-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md) for live-pressure missile-defense collapse and Iran-war escalation reads
-- open [Diesen x Postol](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md) when the technical mechanism needs to be translated into strategic-order consequence
+- open [2026-05-15 Davis x Postol](../../../source-archive/statecraft/2026-05-15/source-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md) for bunker-buster, strike-feasibility, and destructive-capacity questions
+- open [2026-05-08 Dialogue Works x Postol](../../../source-archive/statecraft/2026-05-08/source-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md) for live-pressure missile-defense collapse and Iran-war escalation reads
+- open [Diesen x Postol](../../../codex/speakers/diesen/stream/diesen-postol-speaker-arc.md) when the technical mechanism needs to be translated into strategic-order consequence

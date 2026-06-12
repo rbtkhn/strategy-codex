@@ -16,10 +16,10 @@ The lane is useful because:
 
 ## Arc set
 
-1. [Joe Kent: Iran War, Israeli Influence & Creating ISIS](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-02/source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md)
+1. [Joe Kent: Iran War, Israeli Influence & Creating ISIS](../../../../codex/years/2026/provenance/2026-04-02/source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md)
    Why it anchors the arc: currently the transcript-grade Diesen-Kent core. It brings out the long causal chain from Iraq/Syria/ISIS to Iran and Israeli influence.
 
-2. [Daniel Davis x Glenn Diesen - Iran's aims, Hormuz, military options, Joe Kent](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-03-18/source-davis-diesen-military-options-kent-2026-03-18.md)
+2. [Daniel Davis x Glenn Diesen - Iran's aims, Hormuz, military options, Joe Kent](../../../../codex/years/2026/provenance/2026-03-18/source-davis-diesen-military-options-kent-2026-03-18.md)
    Why it matters: bridge context where Diesen uses Kent's resignation as a signal inside the wider Iran/Hormuz pressure discussion.
 
 ## Open first
@@ -31,11 +31,11 @@ Open **Joe Kent: Iran War, Israeli Influence & Creating ISIS** first when the op
 
 ## Best paired read
 
-Best paired read: [Davis x Kent](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md)
+Best paired read: [Davis x Kent](../../../../codex/speakers/davis/stream/davis-kent-speaker-arc.md)
 
 Why: Davis shows Kent as a walkaway/force-feasibility voice; Diesen shows Kent as an order-transition and institutional-capture voice.
 
-Second-best paired read: [Kent helix](/C:/dev/strategy-codex/codex/speakers/kent/kent-helix.md)
+Second-best paired read: [Kent helix](../../../../codex/speakers/kent/kent-helix.md)
 
 Why: the helix keeps this thin but important Diesen strand proportionate against the thicker Davis branch.
 
@@ -63,4 +63,4 @@ Use `Diesen x Kent` when the notebook needs:
 - This is a real but thin arc: one transcript-grade core plus bridge context.
 - Do not let the Diesen strand outweigh the thicker Davis strand until more Diesen-Kent appearances are materialized.
 - Do not promote claims about Israeli influence, ISIS creation, or internal U.S. pressure beyond commentary tier without separate verification.
-- If the question is mainly about present feasibility or exit sequencing, route outward to [davis-kent-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-kent-speaker-arc.md) rather than stretching this structural arc into operational work.
+- If the question is mainly about present feasibility or exit sequencing, route outward to [davis-kent-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-kent-speaker-arc.md) rather than stretching this structural arc into operational work.

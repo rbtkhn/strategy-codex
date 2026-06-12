@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Purpose: isolate the recurring **international-law / legitimacy-order / negotiated-constraint** lane inside the broader Crooke corpus without confusing it with either the general [crooke-thread.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread.md) or adjacent military-legal specialist lanes elsewhere in the notebook.
+Purpose: isolate the recurring **international-law / legitimacy-order / negotiated-constraint** lane inside the broader Crooke corpus without confusing it with either the general [crooke-thread.md](../../../../codex/speakers/crooke/stream/crooke-thread.md) or adjacent military-legal specialist lanes elsewhere in the notebook.
 
 ## Boundary
 
@@ -16,10 +16,10 @@ Use this file when the notebook needs **Crooke on international law as a topical
 
 Do not use this file as a substitute for:
 
-- [crooke-thread.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread.md) for full Crooke continuity
-- [baud-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread-international-law.md) for tighter law-of-war and due-process framing
-- [davis-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-baud-arc.md) when the question is alliance mandate, co-belligerency, or coercive-feasibility legality
-- [diesen-baud-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-baud-arc.md) when the question is order-level legitimacy collapse through a more explicit legal register
+- [crooke-thread.md](../../../../codex/speakers/crooke/stream/crooke-thread.md) for full Crooke continuity
+- [baud-thread-international-law.md](../../../../codex/speakers/baud/baud-thread-international-law.md) for tighter law-of-war and due-process framing
+- [davis-baud-arc.md](../../../../codex/speakers/davis/stream/davis-baud-arc.md) when the question is alliance mandate, co-belligerency, or coercive-feasibility legality
+- [diesen-baud-arc.md](../../../../codex/speakers/diesen/stream/diesen-baud-arc.md) when the question is order-level legitimacy collapse through a more explicit legal register
 
 ## Orthogonality guide
 
@@ -28,15 +28,15 @@ This topical thread isolates the **legitimacy-order and negotiated-constraint** 
 Quick separation rule:
 
 - `crooke-thread-international-law` = whether shared constraint still binds, whether sovereignty is genuinely recognized, and whether agreements retain political substance
-- [baud-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread-international-law.md) = legal categories, due process, co-belligerency, proportionality, blockade, and law-of-war analysis
-- [crooke-thread.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread.md) = broader Crooke continuity across settlement, sovereignty, and regional order
+- [baud-thread-international-law.md](../../../../codex/speakers/baud/baud-thread-international-law.md) = legal categories, due process, co-belligerency, proportionality, blockade, and law-of-war analysis
+- [crooke-thread.md](../../../../codex/speakers/crooke/stream/crooke-thread.md) = broader Crooke continuity across settlement, sovereignty, and regional order
 
 If the operator needs negotiated-order credibility and the collapse of binding reciprocity, open Crooke first. If the operator needs more explicit legal taxonomy or law-of-war framing, Baud is usually the better first stop.
 
 Distinct from:
 
-- [baud-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread-international-law.md), which is stronger on law-of-war categories, due process, and liability taxonomy
-- [crooke-thread.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread.md), which carries broader Crooke continuity beyond the law/legitimacy strand
+- [baud-thread-international-law.md](../../../../codex/speakers/baud/baud-thread-international-law.md), which is stronger on law-of-war categories, due process, and liability taxonomy
+- [crooke-thread.md](../../../../codex/speakers/crooke/stream/crooke-thread.md), which carries broader Crooke continuity beyond the law/legitimacy strand
 - the adjacent Baud host arcs, which apply explicit legal registers under host-specific live-pressure or order-transition conditions rather than Crooke's negotiated-order register
 
 ## Core thesis
@@ -56,16 +56,16 @@ In Crooke’s register, the central question is often not “which article appli
 
 Primary Crooke materials already in the repo that plausibly feed this lane:
 
-- [crooke-page-2026-02-18-who-can-halt-the-america-first-ambition.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-page-2026-02-18-who-can-halt-the-america-first-ambition.md)
-- [crooke-page-2026-04-08-the-10-point-iranian-framework-and.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-page-2026-04-08-the-10-point-iranian-framework-and.md)
-- [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md)
-- [crooke-thread.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread.md)
+- [crooke-page-2026-02-18-who-can-halt-the-america-first-ambition.md](../../../../codex/speakers/crooke/stream/crooke-page-2026-02-18-who-can-halt-the-america-first-ambition.md)
+- [crooke-page-2026-04-08-the-10-point-iranian-framework-and.md](../../../../codex/speakers/crooke/stream/crooke-page-2026-04-08-the-10-point-iranian-framework-and.md)
+- [crooke-forecast-ledger-2026.md](../../../../codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md)
+- [crooke-thread.md](../../../../codex/speakers/crooke/stream/crooke-thread.md)
 
 Closest neighboring voices when this topic needs reinforcement or contrast:
 
-- [baud-thread-international-law.md](/C:/dev/strategy-codex/codex/speakers/baud/baud-thread-international-law.md)
-- [parsi-thread.md](/C:/dev/strategy-codex/codex/speakers/parsi/stream/parsi-thread.md)
-- [davis-thread.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-thread.md)
+- [baud-thread-international-law.md](../../../../codex/speakers/baud/baud-thread-international-law.md)
+- [parsi-thread.md](../../../../codex/speakers/parsi/stream/parsi-thread.md)
+- [davis-thread.md](../../../../codex/speakers/davis/stream/davis-thread.md)
 
 ## Recurring claims
 

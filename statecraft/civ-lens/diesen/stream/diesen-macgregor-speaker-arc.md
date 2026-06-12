@@ -40,12 +40,12 @@ The 2025 shelf is now materially broader than the earlier minimal core. In addit
 
 If the operator needs only one file:
 
-- open [source-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
+- open [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../../codex/years/2026/provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 
 If the operator needs the best paired read:
 
-- open [source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-26/source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md)
-- then [source-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
+- open [source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md](../../../../codex/years/2026/provenance/2025-11-26/source-glenn-diesen-douglas-macgregor-douglas-macgregor-nato-lost-the-war-empire-of-lies-collapses-2025-11-26.md)
+- then [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../../codex/years/2026/provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
 
 That pair gives the clearest combination of:
 
@@ -81,7 +81,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about whether Washington can materially sustain its preferred war outcome rather than what imperial distance does to the whole system, route outward to [davis-macgregor-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md).
+- If the question is mainly about whether Washington can materially sustain its preferred war outcome rather than what imperial distance does to the whole system, route outward to [davis-macgregor-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-macgregor-speaker-arc.md).
 
 - This guest run is no longer just a thin prehistory. It is still narrower than the very dense Davis branch, but the 2025 shelf is now materially real.
 - An additional Diesen x Macgregor file exists under `_aired-pending`, but it is excluded from the arc set until a publish date is pinned and it is promoted into the canonical date tree.

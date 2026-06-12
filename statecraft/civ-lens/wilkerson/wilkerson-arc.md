@@ -9,7 +9,7 @@ Purpose: define `wilkerson-arc` as the canonical statecraft-side person-level co
 Quick separation rule:
 
 - `wilkerson-arc` = Wilkerson's canonical continuity across hosts, contexts, and time
-- [legacy Wilkerson helix](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md) = cross-host comparison of the two main host transformations
+- [legacy Wilkerson helix](../../../codex/speakers/wilkerson/wilkerson-helix.md) = cross-host comparison of the two main host transformations
 - [wilkerson-routing.md](wilkerson-routing.md) = fastest host-selection surface
 - host-local arcs = bounded realizations of Wilkerson under one host's pressure
 
@@ -19,12 +19,12 @@ Quick separation rule:
 
 Its core embodied lanes are:
 
-1. [Diesen x Wilkerson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md) - imperial-decline altitude and systemic consequence
-2. [Dialogue Works x Wilkerson](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md) - live crisis pressure and military-statecraft warning
+1. [Diesen x Wilkerson](../../../codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md) - imperial-decline altitude and systemic consequence
+2. [Dialogue Works x Wilkerson](../../../codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md) - live crisis pressure and military-statecraft warning
 
 Auxiliary reinforcement:
 
-- [Napolitano x Wilkerson](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
+- [Napolitano x Wilkerson](../../../codex/speakers/napolitano/stream/napolitano-wilkerson-speaker-arc.md)
 
 ## What makes this an arc
 
@@ -45,7 +45,7 @@ That motion is broad enough that Wilkerson deserves a canonical statecraft-side 
 
 If the operator needs the strongest whole-speaker comparative entry:
 
-- open [legacy Wilkerson helix](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-helix.md)
+- open [legacy Wilkerson helix](../../../codex/speakers/wilkerson/wilkerson-helix.md)
 
 If the operator needs the fastest host-conditioned entry:
 
@@ -53,7 +53,7 @@ If the operator needs the fastest host-conditioned entry:
 
 If the operator needs the cleanest structural anchor:
 
-- open [Diesen x Wilkerson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
+- open [Diesen x Wilkerson](../../../codex/speakers/diesen/stream/diesen-wilkerson-speaker-arc.md)
 
 ## Boundary
 

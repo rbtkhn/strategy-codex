@@ -11,9 +11,9 @@ This file should be read as the **industrial-capacity and proxy-war-logistics** 
 Quick separation rule:
 
 - `Diesen x Berletic` = production base, force generation, proxy infrastructure, sanctions absorption, and long-run adversary capability
-- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jermy-speaker-arc.md) = maritime-order fallout and alliance-system consequence
-- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-krainer-speaker-arc.md) = macro-financial and commodity-system consequence
-- [diesen-martyanov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-martyanov-speaker-arc.md) = operational and technical military correction under direct force reality
+- [diesen-jermy-speaker-arc.md](diesen-jermy-speaker-arc.md) = maritime-order fallout and alliance-system consequence
+- [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md) = macro-financial and commodity-system consequence
+- [diesen-martyanov-speaker-arc.md](diesen-martyanov-speaker-arc.md) = operational and technical military correction under direct force reality
 
 If the notebook needs the material base that sustains or constrains war over time, route here. If it needs maritime-systems, macro-finance, or operational technical correction, route to the neighboring arcs instead.
 
@@ -89,9 +89,9 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [diesen-jermy-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jermy-speaker-arc.md), which is stronger on maritime-order fracture and systemic fallout than on industrial force generation
-- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-krainer-speaker-arc.md), which is stronger on debt, commodities, and macro-order consequence than on production/logistics structure
-- [diesen-martyanov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-martyanov-speaker-arc.md), which is stronger on direct military-technical and operational correction than on throughput and proxy architecture
+- [diesen-jermy-speaker-arc.md](diesen-jermy-speaker-arc.md), which is stronger on maritime-order fracture and systemic fallout than on industrial force generation
+- [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md), which is stronger on debt, commodities, and macro-order consequence than on production/logistics structure
+- [diesen-martyanov-speaker-arc.md](diesen-martyanov-speaker-arc.md), which is stronger on direct military-technical and operational correction than on throughput and proxy architecture
 
 ## Boundaries
 

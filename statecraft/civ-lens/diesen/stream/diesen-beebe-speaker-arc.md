@@ -11,10 +11,10 @@ This file should be read as the **bargaining-geometry and retrenchment-order** l
 Quick separation rule:
 
 - `Diesen x Beebe` = off-ramp design, settlement architecture, escalation management, and retrenchment choices
-- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-matlock-speaker-arc.md) = historical diplomatic memory of how earlier settlements were negotiated or broken
-- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jiang-speaker-arc.md) = speculative empire and game-theoretic horizon expansion
-- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-krainer-speaker-arc.md) = macro-financial consequence and commodity-system translation
-- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-karaganov-speaker-arc.md) = Russian elite deterrence and Eurasian doctrine
+- [diesen-matlock-speaker-arc.md](diesen-matlock-speaker-arc.md) = historical diplomatic memory of how earlier settlements were negotiated or broken
+- [diesen-jiang-speaker-arc.md](diesen-jiang-speaker-arc.md) = speculative empire and game-theoretic horizon expansion
+- [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md) = macro-financial consequence and commodity-system translation
+- [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md) = Russian elite deterrence and Eurasian doctrine
 
 If the notebook needs to know whether a viable settlement architecture still exists, and what retrenchment or escalation-management choices remain, route here. If it needs negotiation memory, speculation, macro-economics, or Russian doctrinal language, route to the neighboring arcs instead.
 
@@ -60,12 +60,12 @@ This is enough to treat `Diesen x Beebe` as a real recurring host-local branch r
 
 If the operator needs only one file:
 
-- open [2026-05-14 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-14/source-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md)
+- open [2026-05-14 Diesen x Beebe](../../../../codex/years/2026/provenance/2026-05-14/source-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md)
 
 If the operator needs the best paired read:
 
-- open [2025-11-26 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-11-26/source-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md)
-- then [2026-01-23 Diesen x Beebe](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-23/source-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md)
+- open [2025-11-26 Diesen x Beebe](../../../../codex/years/2026/provenance/2025-11-26/source-glenn-diesen-george-beebe-ukraine-faces-destruction-if-europe-derails-peace-2025-11-26.md)
+- then [2026-01-23 Diesen x Beebe](../../../../codex/years/2026/provenance/2026-01-23/source-glenn-diesen-george-beebe-a-new-us-grand-strategy-europe-s-strategic-failure-2026-01-23.md)
 
 That pair gives the clearest lane shape:
 
@@ -91,10 +91,10 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-matlock-speaker-arc.md), which is stronger on historical witness than on present-tense off-ramp design
-- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jiang-speaker-arc.md), which is stronger on speculative horizon expansion than on settlement geometry
-- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-krainer-speaker-arc.md), which is stronger on market and commodity consequence than on bargaining architecture
-- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-karaganov-speaker-arc.md), which is stronger on Russian elite doctrine than on off-ramp design
+- [diesen-matlock-speaker-arc.md](diesen-matlock-speaker-arc.md), which is stronger on historical witness than on present-tense off-ramp design
+- [diesen-jiang-speaker-arc.md](diesen-jiang-speaker-arc.md), which is stronger on speculative horizon expansion than on settlement geometry
+- [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md), which is stronger on market and commodity consequence than on bargaining architecture
+- [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md), which is stronger on Russian elite doctrine than on off-ramp design
 
 ## Boundaries
 

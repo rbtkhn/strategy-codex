@@ -24,9 +24,9 @@ Purpose: front door for the canonical Ritter statecraft shelf, surfacing the per
 
 Compatibility residue:
 
-- [Thread compatibility file](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-thread.md)
-- [Transcript compatibility file](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-transcript.md)
-- [Legacy page and manifest residue](/C:/dev/strategy-codex/codex/speakers/ritter/stream/)
+- [Thread compatibility file](../../../codex/speakers/ritter/stream/ritter-thread.md)
+- [Transcript compatibility file](../../../codex/speakers/ritter/stream/ritter-transcript.md)
+- [Legacy page and manifest residue](../../../codex/speakers/ritter/stream)
 
 ## Monthly Shelf Layer
 
@@ -47,10 +47,10 @@ This wave does not yet promote individual Ritter theme files. The shelf now has 
 
 ## Host Arcs
 
-- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
-- [Diesen x Ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
-- [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
-- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
+- [Davis host shelf](../../hosts/davis/README.md)
+- [Diesen x Ritter](../../../codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
+- [Dialogue Works x Ritter](../../../codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
+- [Napolitano host shelf](../../hosts/napolitano/README.md)
 
 ## Boundary
 

@@ -49,10 +49,10 @@ The rule here is:
 
 The legacy `codex/speakers/pape/` path is now front-door compatibility only.
 
-- [codex/speakers/pape/README.md](/C:/dev/strategy-codex/codex/speakers/pape/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/pape/index.md) become compatibility pointers.
+- [codex/speakers/pape/README.md](../../../codex/speakers/pape/README.md) and [index.md](../../../codex/speakers/pape/index.md) become compatibility pointers.
 - codex-side stream pages, thread residue, and source-hygiene notes remain support / migration residue.
 - this statecraft shelf is now the canonical opening path for Pape statecraft work.
 
 ## Boundary
 
-Pape is canonical here under `statecraft/civ-lens/pape/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft)), bridge adapters remain in [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Pape is canonical here under `statecraft/civ-lens/pape/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](../../../source-archive/statecraft)), bridge adapters remain in [`statecraft/bridges/`](../../bridges/README.md), and lanes still own substantive drafting.

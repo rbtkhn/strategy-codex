@@ -22,7 +22,7 @@ This theme holds Crooke's argument that Western strategy repeatedly mistakes dec
 
 ## Exact Quote Anchors
 
-- [2026-01-06 Diesen raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-06/source-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md): "They did that in Iraq. They bought off the Republican Guards in Iraq"
+- [2026-01-06 Diesen raw-input](../../../../source-archive/statecraft/2026-01-06/source-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md): "They did that in Iraq. They bought off the Republican Guards in Iraq"
 - same source: "Russia is a house of cards ... Venezuela is a house of cards. One shove"
 
 ## What Crooke Is Arguing
@@ -43,7 +43,7 @@ Crooke treats collapse fantasy as a hidden engine of escalation. If planners bel
 
 ## CIV-STATE Bridge
 
-Open [Decapitation theater and regime-collapse fantasy](/C:/dev/strategy-codex/statecraft/civ-state/indexes/crooke/decapitation-theater-and-regime-collapse-fantasy.md) when the task is deeper regime-change-memory and intervention-pattern retrieval.
+Open [Decapitation theater and regime-collapse fantasy](../../../civ-state/indexes/crooke/decapitation-theater-and-regime-collapse-fantasy.md) when the task is deeper regime-change-memory and intervention-pattern retrieval.
 
 ## Benchmark Snapshot
 

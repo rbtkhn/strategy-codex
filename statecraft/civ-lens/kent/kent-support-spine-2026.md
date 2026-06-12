@@ -58,8 +58,8 @@ Status: break-open month
 
 Open:
 
-- [2026-03-18 / Tucker Carlson x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-18/source-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md)
-- [2026-03-26 / Daniel Davis Deep Dive x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-daniel-davis-deep-dive-joe-kent-the-truth-of-the-iran-war-2026-03-26.md)
+- [2026-03-18 / Tucker Carlson x Joe Kent](../../../source-archive/statecraft/2026-03-18/source-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md)
+- [2026-03-26 / Daniel Davis Deep Dive x Joe Kent](../../../source-archive/statecraft/2026-03-26/source-daniel-davis-deep-dive-joe-kent-the-truth-of-the-iran-war-2026-03-26.md)
 
 Why:
 
@@ -73,7 +73,7 @@ Status: reinforcing month
 
 Open:
 
-- [2026-04-02 / Glenn Diesen x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-02/source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md)
+- [2026-04-02 / Glenn Diesen x Joe Kent](../../../source-archive/statecraft/2026-04-02/source-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md)
 
 Why:
 
@@ -86,10 +86,10 @@ Status: strongest current cluster
 
 Open:
 
-- [2026-05-08 / Daniel Davis Deep Dive cleaned transcript](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/source-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
-- [2026-05-08 / Daniel Davis Deep Dive transcript-bearing capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/source-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md)
-- [2026-05-15 / Mario Nawfal x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md)
-- [2026-05-28 / Mario Nawfal x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
+- [2026-05-08 / Daniel Davis Deep Dive cleaned transcript](../../../source-archive/statecraft/2026-05-08/source-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
+- [2026-05-08 / Daniel Davis Deep Dive transcript-bearing capture](../../../source-archive/statecraft/2026-05-08/source-daniel-davis-deep-dive-controlled-by-the-donor-class-us-iran-negotiations-joe-kent-lt-col-danie-2026-05-08.md)
+- [2026-05-15 / Mario Nawfal x Joe Kent](../../../source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md)
+- [2026-05-28 / Mario Nawfal x Joe Kent](../../../source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
 
 Why:
 

@@ -22,9 +22,9 @@ Mercouris repeatedly uses Cold War history not as nostalgia but as a measuring d
 
 ## Exact Quote Anchors
 
-- [2025-01-10 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2025-01-10/source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "even during the coldest periods of the Cold War there had continued to be some level of contact"
+- [2025-01-10 native raw-input](../../../../source-archive/statecraft/2025-01-10/source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md): "even during the coldest periods of the Cold War there had continued to be some level of contact"
 - same source: "something completely different from anything we have seen ... during the Cold War"
-- [2026-05-19 native raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-19/source-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md): "every single operational RSD10 Pioneer ... was destroyed after the 1987 INF treaty"
+- [2026-05-19 native raw-input](../../../../source-archive/statecraft/2026-05-19/source-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md): "every single operational RSD10 Pioneer ... was destroyed after the 1987 INF treaty"
 
 ## What Mercouris Is Arguing
 
@@ -45,7 +45,7 @@ Mercouris's shelf is unusually sensitive to continuity and sequence. He keeps re
 
 ## CIV-STATE Bridge
 
-Open [Cold War contact, deterrence, and arms-control inheritance](/C:/dev/strategy-codex/statecraft/civ-state/indexes/mercouris/cold-war-contact-deterrence-and-arms-control-inheritance.md) when the task shifts from Mercouris's modern activation surface to deeper contact-regime, deterrence-memory, and treaty-history retrieval.
+Open [Cold War contact, deterrence, and arms-control inheritance](../../../civ-state/indexes/mercouris/cold-war-contact-deterrence-and-arms-control-inheritance.md) when the task shifts from Mercouris's modern activation surface to deeper contact-regime, deterrence-memory, and treaty-history retrieval.
 
 ## Benchmark Snapshot
 

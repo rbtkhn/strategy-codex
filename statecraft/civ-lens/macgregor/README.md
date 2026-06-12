@@ -55,16 +55,16 @@ The Macgregor historical scaffold in this wave is intentionally narrow:
 
 The legacy `codex/speakers/macgregor/` path is now compatibility-only.
 
-- [codex/speakers/macgregor/README.md](/C:/dev/strategy-codex/codex/speakers/macgregor/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/macgregor/index.md) are front-door pointers.
+- [codex/speakers/macgregor/README.md](../../../codex/speakers/macgregor/README.md) and [index.md](../../../codex/speakers/macgregor/index.md) are front-door pointers.
 - codex-side stubs preserve compatibility for older references to moved canonical files.
-- [macgregor-thread.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-thread.md) and [macgregor-transcript.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-transcript.md) remain compatibility residue, not competing canonical surfaces.
+- [macgregor-thread.md](../../../codex/speakers/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../codex/speakers/macgregor/macgregor-transcript.md) remain compatibility residue, not competing canonical surfaces.
 
 ## Host Lanes
 
-- [Davis x Macgregor](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
-- [Diesen x Macgregor](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md)
-- [Judging Freedom x Macgregor](/C:/dev/strategy-codex/codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md)
+- [Davis x Macgregor](../../../codex/speakers/davis/stream/davis-macgregor-speaker-arc.md)
+- [Diesen x Macgregor](../../../codex/speakers/diesen/stream/diesen-macgregor-speaker-arc.md)
+- [Judging Freedom x Macgregor](../../../codex/speakers/napolitano/stream/napolitano-macgregor-speaker-arc.md)
 
 ## Boundary
 
-Macgregor is canonical here under `statecraft/civ-lens/macgregor/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft). Bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Macgregor is canonical here under `statecraft/civ-lens/macgregor/`. Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft). Bridge adapters still live under [`statecraft/bridges/`](../../bridges/README.md), and lanes still own substantive drafting.

@@ -33,7 +33,7 @@ Diesen should currently be read as a **stream-native speaker object**.
 
 That means:
 
-- the main body of the object is [statecraft/civ-lens/diesen/stream/](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/)
+- the main body of the object is [statecraft/civ-lens/diesen/stream/](stream)
 - the `diesen/` folder exists to orient the object at the same ontological level as `Mercouris`, `Crooke`, `Ritter`, or `Mearsheimer`
 - the notebook should not force Diesen into helix language when the native stream is already the clearest and strongest entry path
 
@@ -41,15 +41,15 @@ That means:
 
 If the operator needs the main body of the object:
 
-- open [statecraft/civ-lens/diesen/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/README.md)
+- open [statecraft/civ-lens/diesen/README.md](README.md)
 
 If the operator needs the most useful guest-local routing surface:
 
-- open one of the host-local arc notes from the native `diesen/stream/` shelf, for example [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-crooke-speaker-arc.md) or [diesen-postol-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-postol-speaker-arc.md)
+- open one of the host-local arc notes from the native `diesen/stream/` shelf, for example [diesen-crooke-speaker-arc.md](stream/diesen-crooke-speaker-arc.md) or [diesen-postol-speaker-arc.md](stream/diesen-postol-speaker-arc.md)
 
 If the operator needs the object doctrine rather than the stream shelf:
 
-- stay here, then read [diesen-cross-host-note.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/diesen-cross-host-note.md)
+- stay here, then read [diesen-cross-host-note.md](diesen-cross-host-note.md)
 
 ## Routing use
 

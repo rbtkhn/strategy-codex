@@ -33,9 +33,9 @@ Discovery and routing base:
 
 Interpretive source base:
 
-- [CIV-STATE README](/C:/dev/strategy-codex/statecraft/civ-state/README.md)
-- [Academy-statecraft architecture](/C:/dev/strategy-codex/statecraft/ARCHITECTURE.md)
-- [CIV-STATE source retrieval matrix](/C:/dev/strategy-codex/statecraft/civ-state/indexes/source-retrieval-matrix.md)
+- [CIV-STATE README](../../civ-state/README.md)
+- [Academy-statecraft architecture](../../ARCHITECTURE.md)
+- [CIV-STATE source retrieval matrix](../../civ-state/indexes/source-retrieval-matrix.md)
 
 ## Promotion bar
 

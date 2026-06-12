@@ -11,7 +11,7 @@ Use these notes when the question is not only `what Barnes files exist?` but als
 - [barnes-forensic-method.md](barnes-forensic-method.md)
 - [barnes-rhetoric.md](barnes-rhetoric.md)
 - [barnes-cross-host-function.md](barnes-cross-host-function.md)
-- [Barnes on AI note](/C:/dev/strategy-codex/statecraft/notes/barnes-on-ai.md)
+- [Barnes on AI note](../../notes/barnes-on-ai.md)
 
 ## Core shelf surfaces
 
@@ -31,4 +31,4 @@ Start here when you need one of three things:
 - a faster path from raw Barnes appearances to speaker-function analysis
 
 `Barnes on AI` is now canonical note-class prose under
-[statecraft/notes/barnes-on-ai.md](/C:/dev/strategy-codex/statecraft/notes/barnes-on-ai.md).
+[statecraft/notes/barnes-on-ai.md](../../notes/barnes-on-ai.md).

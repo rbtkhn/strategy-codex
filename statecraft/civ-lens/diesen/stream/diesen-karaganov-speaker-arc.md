@@ -11,10 +11,10 @@ This file should be read as the **Russian elite deterrence-and-civilizational do
 Quick separation rule:
 
 - `Diesen x Karaganov` = Russian elite deterrence doctrine, nuclear-threshold argument, Greater Eurasia, and post-West identity vocabulary
-- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jiang-speaker-arc.md) = speculative empire-maintenance and game-theoretic world-order framing
-- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-matlock-speaker-arc.md) = diplomatic memory of negotiated settlement and anti-expansion warning lineage
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-beebe-speaker-arc.md) = retrenchment and settlement geometry from a U.S. intelligence-statecraft angle
-- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-krainer-speaker-arc.md) = macro-financial and commodity-system consequences
+- [diesen-jiang-speaker-arc.md](diesen-jiang-speaker-arc.md) = speculative empire-maintenance and game-theoretic world-order framing
+- [diesen-matlock-speaker-arc.md](diesen-matlock-speaker-arc.md) = diplomatic memory of negotiated settlement and anti-expansion warning lineage
+- [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md) = retrenchment and settlement geometry from a U.S. intelligence-statecraft angle
+- [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md) = macro-financial and commodity-system consequences
 
 If the notebook needs internal Russian elite strategic vocabulary, route here. If it needs speculative empire theory, diplomatic memory, settlement design, or macro-financial translation, route to the neighboring arcs instead.
 
@@ -47,12 +47,12 @@ Current canonical `Diesen × Karaganov` raw-inputs on disk:
 
 If the operator needs only one file:
 
-- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](../../../../codex/years/2026/provenance/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
 
 If the operator needs the best paired read:
 
-- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
-- then [transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md)
+- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](../../../../codex/years/2026/provenance/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- then [transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](../../../../codex/years/2025/provenance/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md)
 
 That pair gives the clearest combination of:
 
@@ -78,10 +78,10 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jiang-speaker-arc.md), which is more free-ranging and speculative than Karaganov's elite doctrinal lane
-- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-matlock-speaker-arc.md), which is grounded in U.S. diplomatic memory rather than Russian strategic doctrine
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-beebe-speaker-arc.md), which is stronger on bargaining architecture than on deterrence-threshold argument
-- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-krainer-speaker-arc.md), which is stronger on macro-order economics than on nuclear-threshold and identity language
+- [diesen-jiang-speaker-arc.md](diesen-jiang-speaker-arc.md), which is more free-ranging and speculative than Karaganov's elite doctrinal lane
+- [diesen-matlock-speaker-arc.md](diesen-matlock-speaker-arc.md), which is grounded in U.S. diplomatic memory rather than Russian strategic doctrine
+- [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md), which is stronger on bargaining architecture than on deterrence-threshold argument
+- [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md), which is stronger on macro-order economics than on nuclear-threshold and identity language
 
 ## Boundaries
 

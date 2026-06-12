@@ -8,16 +8,16 @@ Month status: `mature retrieval month`
 
 ## April index
 
-- [source-macgregor-diesen-total-war-iran-2026-04-21.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
+- [source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
   - Altitude lane gives the clearest order-consequence and total-war framing node.
-- [source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
+- [source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md](../../../../source-archive/statecraft/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
   - Auxiliary indictment lane sharpens undeclared-war and elite-planning critique.
   - Support-tier shorthand node that preserves local April continuity.
   - Support-tier continuation node.
   - Support-tier continuation node.
   - Support-tier continuation node.
   - Support-tier continuation node.
-- [source-davis-macgregor-trump-dangerous-2026-04-29.md](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/source-davis-macgregor-trump-dangerous-2026-04-29.md)
+- [source-davis-macgregor-trump-dangerous-2026-04-29.md](../../../../source-archive/statecraft/2026-04-29/source-davis-macgregor-trump-dangerous-2026-04-29.md)
   - Davis lane caps the month with feasibility, danger, and overreach cost language.
 
 ## Reading note

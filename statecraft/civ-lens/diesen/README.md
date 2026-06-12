@@ -10,9 +10,9 @@ Open here when the question is not merely which Diesen episode to read, but how 
 
 ## Start here
 
-- [diesen-speaker-object.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/diesen-speaker-object.md)
-- [diesen-cross-host-note.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/diesen-cross-host-note.md)
-- [diesen-host-wiring-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/diesen-host-wiring-2026.md)
+- [diesen-speaker-object.md](diesen-speaker-object.md)
+- [diesen-cross-host-note.md](diesen-cross-host-note.md)
+- [diesen-host-wiring-2026.md](diesen-host-wiring-2026.md)
 
 ## Native stream
 

@@ -20,7 +20,7 @@ Freeman's source bench has three layers:
 
 The detailed legacy bench and extension notes still live in codex-side Freeman scaffolds:
 
-- [codex/speakers/freeman/freeman-source-index.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-source-index.md)
-- [codex/speakers/freeman/freeman-backward-extension-note.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-backward-extension-note.md)
+- [codex/speakers/freeman/freeman-source-index.md](../../../codex/speakers/freeman/freeman-source-index.md)
+- [codex/speakers/freeman/freeman-backward-extension-note.md](../../../codex/speakers/freeman/freeman-backward-extension-note.md)
 
 Use this statecraft-side file as the canonical opening route. Use the codex-side bench only as detailed compatibility residue during migration.

@@ -11,10 +11,10 @@ This file should be read as the **Cold War settlement-memory and diplomatic-arch
 Quick separation rule:
 
 - `Diesen x Matlock` = diplomatic memory, late Cold War negotiation practice, NATO-expansion warning lineage, and the architecture of failed inclusive settlement
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-beebe-speaker-arc.md) = present-tense bargaining geometry and retrenchment design
-- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jiang-speaker-arc.md) = speculative empire and world-order theory
-- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-karaganov-speaker-arc.md) = Russian elite deterrence and Eurasian identity doctrine
-- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-krainer-speaker-arc.md) = macro-financial and commodity-system consequence
+- [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md) = present-tense bargaining geometry and retrenchment design
+- [diesen-jiang-speaker-arc.md](diesen-jiang-speaker-arc.md) = speculative empire and world-order theory
+- [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md) = Russian elite deterrence and Eurasian identity doctrine
+- [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md) = macro-financial and commodity-system consequence
 
 If the notebook needs firsthand diplomatic memory of how the post-Cold War settlement was or was not built, route here. If it needs current bargaining design, speculative empire theory, Russian doctrinal language, or macro-economic consequence, route to the neighboring arcs instead.
 
@@ -49,12 +49,12 @@ Current canonical `Diesen × Matlock` raw-inputs on disk:
 
 If the operator needs only one file:
 
-- open [source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
+- open [source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md](../../../../codex/years/2026/provenance/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
 
 If the operator needs the best paired read:
 
-- open [source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
-- then [transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md](/C:/dev/strategy-codex/codex/years/2025/provenance/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md)
+- open [source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md](../../../../codex/years/2026/provenance/2026-04-19/source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md)
+- then [transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md](../../../../codex/years/2025/provenance/2025-03-27/transcript-diesen-matlock-negotiating-end-cold-war-instigating-new-cold-war-2025-03-27.md)
 
 That pair gives the clearest combination of:
 
@@ -80,10 +80,10 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-beebe-speaker-arc.md), which is stronger on present settlement geometry than on historical negotiation memory
-- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jiang-speaker-arc.md), which is more speculative and less evidentiary than Matlock's diplomatic-memory lane
-- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-karaganov-speaker-arc.md), which is Russian elite doctrine rather than U.S. diplomatic witness
-- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-krainer-speaker-arc.md), which is stronger on macro-order economics than on negotiation history
+- [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md), which is stronger on present settlement geometry than on historical negotiation memory
+- [diesen-jiang-speaker-arc.md](diesen-jiang-speaker-arc.md), which is more speculative and less evidentiary than Matlock's diplomatic-memory lane
+- [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md), which is Russian elite doctrine rather than U.S. diplomatic witness
+- [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md), which is stronger on macro-order economics than on negotiation history
 
 ## Boundaries
 

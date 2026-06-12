@@ -29,9 +29,9 @@ If the question is mainly "what is Crooke's mechanism?", open the authored ledge
 
 Its main interview lanes are:
 
-1. [Diesen x Crooke](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md) - order-transition altitude and system-shock consequence
-2. [Davis x Crooke](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md) - bargaining-room realism and leverage diagnosis
-3. [Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-crooke-speaker-arc.md) - live crisis pressure and event-surface meaning
+1. [Diesen x Crooke](../../../codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md) - order-transition altitude and system-shock consequence
+2. [Davis x Crooke](../../../codex/speakers/davis/stream/davis-crooke-speaker-arc.md) - bargaining-room realism and leverage diagnosis
+3. [Dialogue Works x Crooke](../../../codex/speakers/nima/stream/nima-crooke-speaker-arc.md) - live crisis pressure and event-surface meaning
 
 Its authored mechanism spine is:
 
@@ -56,9 +56,9 @@ That motion is why Crooke now deserves a person arc rather than only a helix plu
 
 Interview transformations:
 
-- [Diesen x Crooke](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md) - best for order-transition altitude
-- [Davis x Crooke](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md) - best for bargaining-room realism
-- [Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-crooke-speaker-arc.md) - best for live crisis meaning
+- [Diesen x Crooke](../../../codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md) - best for order-transition altitude
+- [Davis x Crooke](../../../codex/speakers/davis/stream/davis-crooke-speaker-arc.md) - best for bargaining-room realism
+- [Dialogue Works x Crooke](../../../codex/speakers/nima/stream/nima-crooke-speaker-arc.md) - best for live crisis meaning
 
 Authored mechanism:
 
@@ -95,7 +95,7 @@ If the operator needs the mechanism first:
 
 If the operator needs the fastest host-conditioned entry:
 
-- open [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
+- open [davis-crooke-speaker-arc.md](../../../codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
 
 ## Boundary
 

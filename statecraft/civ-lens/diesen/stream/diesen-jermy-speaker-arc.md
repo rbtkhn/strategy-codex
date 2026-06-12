@@ -11,9 +11,9 @@ This file should be read as the **maritime-order and alliance-fracture** Jermy b
 Quick separation rule:
 
 - `Diesen x Jermy` = maritime-order fallout, NATO/U.S.-EU divorce, Europe-system breakdown, and geopolitical consequence
-- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-jermy-speaker-arc.md) = blockade mechanics, reopening lag, and shipping/energy propagation under feasibility pressure
-- [peacemonger-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/jermy/peacemonger-jermy-speaker-arc.md) = hubris, hypocrisy, and public indictment of failed strategy
-- [jermy-speaker-object.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-speaker-object.md) = the higher-level triple-helix doctrine
+- [davis-jermy-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-jermy-speaker-arc.md) = blockade mechanics, reopening lag, and shipping/energy propagation under feasibility pressure
+- [peacemonger-jermy-speaker-arc.md](../../../../codex/speakers/jermy/peacemonger-jermy-speaker-arc.md) = hubris, hypocrisy, and public indictment of failed strategy
+- [jermy-speaker-object.md](../../../../codex/speakers/jermy/jermy-speaker-object.md) = the higher-level triple-helix doctrine
 
 If the notebook needs Jermy to widen maritime stress into civilizational, European, and alliance-system consequence, route here. If it needs operational closure logic or a sharper anti-elite indictment register, route to Davis or Peacemonger instead.
 
@@ -83,9 +83,9 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [davis-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-jermy-speaker-arc.md), which is stronger on closure geometry, reopening timelines, and immediate system knock-on
-- [peacemonger-jermy-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/jermy/peacemonger-jermy-speaker-arc.md), which is stronger on public anti-hubris indictment than on order-transition consequence
-- the legacy [jermy-thread.md](/C:/dev/strategy-codex/codex/speakers/jermy/jermy-thread.md), which is compatibility continuity rather than a competing canonical arc strand
+- [davis-jermy-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-jermy-speaker-arc.md), which is stronger on closure geometry, reopening timelines, and immediate system knock-on
+- [peacemonger-jermy-speaker-arc.md](../../../../codex/speakers/jermy/peacemonger-jermy-speaker-arc.md), which is stronger on public anti-hubris indictment than on order-transition consequence
+- the legacy [jermy-thread.md](../../../../codex/speakers/jermy/jermy-thread.md), which is compatibility continuity rather than a competing canonical arc strand
 
 ## Boundaries
 

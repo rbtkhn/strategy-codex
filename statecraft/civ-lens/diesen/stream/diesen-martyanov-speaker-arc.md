@@ -39,12 +39,12 @@ This is enough to treat `Diesen x Martyanov` as a real recurring host-local bran
 
 If the operator needs only one file:
 
-- open [2025-04-08 Diesen x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md)
+- open [2025-04-08 Diesen x Martyanov](../../../../codex/years/2026/provenance/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md)
 
 If the operator needs the best paired read:
 
-- open [2025-04-08 Diesen x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md)
-- then [2025-04-29 Diesen x Martyanov](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-04-29/source-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md)
+- open [2025-04-08 Diesen x Martyanov](../../../../codex/years/2026/provenance/2025-04-08/source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md)
+- then [2025-04-29 Diesen x Martyanov](../../../../codex/years/2026/provenance/2025-04-29/source-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md)
 
 That pair gives the clearest current lane shape:
 
@@ -80,7 +80,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about whether the battlefield has already decided the issue rather than how that outcome reshapes wider order, route outward to [davis-martyanov-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-martyanov-speaker-arc.md).
+- If the question is mainly about whether the battlefield has already decided the issue rather than how that outcome reshapes wider order, route outward to [davis-martyanov-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-martyanov-speaker-arc.md).
 
 - Martyanov is strongest here on strategic consequence grounded in military outcome, not on diplomacy-first sequence or legitimacy framing.
 - This branch is materially real on disk, but thinner than the Alkorshid and Davis branches in the current shelf.

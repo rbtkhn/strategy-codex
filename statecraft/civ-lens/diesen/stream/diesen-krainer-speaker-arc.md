@@ -11,10 +11,10 @@ This file should be read as the **macro-financial and commodity-system** lane in
 Quick separation rule:
 
 - `Diesen x Krainer` = sanctions, commodities, oligarchic decay, debt, and imperial-breakdown translated through economic systems
-- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jiang-speaker-arc.md) = civilizational/game-theoretic speculation and empire-maintenance narrative
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-beebe-speaker-arc.md) = settlement architecture and escalation management
-- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-matlock-speaker-arc.md) = Cold War settlement memory and NATO-expansion warning lineage
-- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-karaganov-speaker-arc.md) = Russian elite deterrence and civilizational doctrine
+- [diesen-jiang-speaker-arc.md](diesen-jiang-speaker-arc.md) = civilizational/game-theoretic speculation and empire-maintenance narrative
+- [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md) = settlement architecture and escalation management
+- [diesen-matlock-speaker-arc.md](diesen-matlock-speaker-arc.md) = Cold War settlement memory and NATO-expansion warning lineage
+- [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md) = Russian elite deterrence and civilizational doctrine
 
 If the notebook needs geopolitical crisis widened into market, commodity, and debt-system consequence, route here. If it needs speculation, bargaining design, diplomatic memory, or Russian doctrinal language, route to the neighboring arcs instead.
 
@@ -64,11 +64,11 @@ This is enough to treat `Diesen x Krainer` as a real recurring host-local branch
 
 If the operator needs only one file:
 
-- open [2026-05-08 Diesen x Krainer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md)
+- open [2026-05-08 Diesen x Krainer](../../../../codex/years/2026/provenance/2026-05-08/source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md)
 
 If the operator needs the best paired read:
 
-- open [2026-05-08 Diesen x Krainer](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md)
+- open [2026-05-08 Diesen x Krainer](../../../../codex/years/2026/provenance/2026-05-08/source-diesen-krainer-hormuz-multipolar-world-order-2026-05-08.md)
 - then `2026-04-10` *After the Iran War - A New Global Economy*
 
 That pair gives the clearest mature lane shape:
@@ -95,10 +95,10 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jiang-speaker-arc.md), which is higher-variance and less mechanism-bound than Krainer's economic-system lane
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-beebe-speaker-arc.md), which is stronger on off-ramp and retrenchment design than on macro-financial translation
-- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-matlock-speaker-arc.md), which is stronger on historical architecture than on commodities and oligarchic breakdown
-- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-karaganov-speaker-arc.md), which is stronger on Russian elite doctrine than on economic consequence
+- [diesen-jiang-speaker-arc.md](diesen-jiang-speaker-arc.md), which is higher-variance and less mechanism-bound than Krainer's economic-system lane
+- [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md), which is stronger on off-ramp and retrenchment design than on macro-financial translation
+- [diesen-matlock-speaker-arc.md](diesen-matlock-speaker-arc.md), which is stronger on historical architecture than on commodities and oligarchic breakdown
+- [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md), which is stronger on Russian elite doctrine than on economic consequence
 
 ## Boundaries
 

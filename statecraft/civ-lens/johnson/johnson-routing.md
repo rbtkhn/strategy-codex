@@ -24,16 +24,16 @@ Johnson now has a full native continuity stack of his own.
 | Johnson's durable dense-core theses across April-May 2026 | [stream/johnson-april-may-2026-arc-threads.md](stream/johnson-april-may-2026-arc-threads.md) | Canonical thread atlas for the dense 2026 core. |
 | the bounded April 2026 cross-host sequence | [stream/johnson-shelf-2026-04.md](stream/johnson-shelf-2026-04.md) | Month-synthesis surface for ceasefire contradiction, blockade theater, and widening shock. |
 | the bounded May 2026 cross-host sequence | [stream/johnson-shelf-2026-05.md](stream/johnson-shelf-2026-05.md) | Month-synthesis surface for Gulf repositioning, BRICS/China angle, and post-control reality. |
-| geopolitical altitude, regional realignment, Gulf vulnerability, or wider order consequence | [diesen-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md) | Diesen gives the highest-altitude Johnson lane. |
-| operational feasibility, coercive failure, shrinking leverage, or best-case end-state realism | [davis-lane-map-2026-05.md](/C:/dev/strategy-codex/statecraft/hosts/davis/davis-lane-map-2026-05.md) | Davis gives Johnson his clearest force-versus-objective testing ground. |
-| live crisis pressure, strike escalation, Hormuz stress, or humiliation of coercive displays | [nima-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md) | Dialogue Works pushes Johnson into his sharpest present-tense crisis register. |
-| blockade skepticism, process pressure, or auxiliary reinforcement | [napolitano-lane-map-2026-05.md](/C:/dev/strategy-codex/statecraft/hosts/napolitano/napolitano-lane-map-2026-05.md) | Napolitano gives a real but secondary host form focused on process irrationality. |
+| geopolitical altitude, regional realignment, Gulf vulnerability, or wider order consequence | [diesen-johnson-speaker-arc.md](../../../codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md) | Diesen gives the highest-altitude Johnson lane. |
+| operational feasibility, coercive failure, shrinking leverage, or best-case end-state realism | [davis-lane-map-2026-05.md](../../hosts/davis/davis-lane-map-2026-05.md) | Davis gives Johnson his clearest force-versus-objective testing ground. |
+| live crisis pressure, strike escalation, Hormuz stress, or humiliation of coercive displays | [nima-johnson-speaker-arc.md](../../../codex/speakers/nima/stream/nima-johnson-speaker-arc.md) | Dialogue Works pushes Johnson into his sharpest present-tense crisis register. |
+| blockade skepticism, process pressure, or auxiliary reinforcement | [napolitano-lane-map-2026-05.md](../../hosts/napolitano/napolitano-lane-map-2026-05.md) | Napolitano gives a real but secondary host form focused on process irrationality. |
 
 ## Best Entry Points
 
-- best single opening file: [2026-05-05 Davis x Johnson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-davis-johnson-hormuz-freedom-2026-05-05.md)
-- best altitude opening file: [2026-05-08 Diesen x Johnson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
-- best live-pressure opening file: [2026-05-11 Dialogue Works x Johnson](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
+- best single opening file: [2026-05-05 Davis x Johnson](../../../source-archive/statecraft/2026-05-05/source-davis-johnson-hormuz-freedom-2026-05-05.md)
+- best altitude opening file: [2026-05-08 Diesen x Johnson](../../../source-archive/statecraft/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
+- best live-pressure opening file: [2026-05-11 Dialogue Works x Johnson](../../../source-archive/statecraft/2026-05-11/source-alkorshid-johnson-netanyahu-hormuz-china-israel-2026-05-11.md)
 
 ## Boundaries
 

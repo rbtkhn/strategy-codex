@@ -58,10 +58,10 @@ Mercouris now has a full canonical 2026 month ladder for the live year, plus bou
 
 The legacy `codex/speakers/mercouris/` path is now front-door compatibility only.
 
-- [codex/speakers/mercouris/README.md](/C:/dev/strategy-codex/codex/speakers/mercouris/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/mercouris/index.md) are compatibility pointers.
+- [codex/speakers/mercouris/README.md](../../../codex/speakers/mercouris/README.md) and [index.md](../../../codex/speakers/mercouris/index.md) are compatibility pointers.
 - older codex-side thread, transcript, and page files remain compatibility residue.
 - this statecraft shelf is now the canonical opening path for Mercouris statecraft work.
 
 ## Boundary
 
-Mercouris is canonical here under `statecraft/civ-lens/mercouris/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Mercouris is canonical here under `statecraft/civ-lens/mercouris/`. Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft), bridge adapters still live under [`statecraft/bridges/`](../../bridges/README.md), and lanes still own substantive drafting.

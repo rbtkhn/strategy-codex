@@ -22,9 +22,9 @@ The mature core is 2026, especially:
 
 ## June 2026 landed sources
 
-- [2026-06-01 Everybody Hates You](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-01/source-parsi-why-trump-may-actually-have-told-netanyahu-everybody-hates-you-2026-06-01.md) — authored
-- [2026-06-01 Iran Walks Away](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-01/source-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01.md) — Mario Nawfal interview
-- [2026-06-05 Iran Goes Aggressive](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-05/source-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md) — Mario Nawfal interview
+- [2026-06-01 Everybody Hates You](../../../source-archive/statecraft/2026-06-01/source-parsi-why-trump-may-actually-have-told-netanyahu-everybody-hates-you-2026-06-01.md) — authored
+- [2026-06-01 Iran Walks Away](../../../source-archive/statecraft/2026-06-01/source-nawfal-parsi-breaking-iran-walks-away-trump-scrambles-israel-says-betrayal-2026-06-01.md) — Mario Nawfal interview
+- [2026-06-05 Iran Goes Aggressive](../../../source-archive/statecraft/2026-06-05/source-nawfal-parsi-iran-goes-aggressive-trump-goes-docile-2026-06-05.md) — Mario Nawfal interview
 
 ## Boundary notes
 

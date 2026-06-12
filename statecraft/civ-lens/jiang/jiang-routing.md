@@ -34,7 +34,7 @@ Use this file to decide which Jiang layer to open first.
 - Volume I interwoven spine: [ph-civ/book/volume-i-civilization/interwoven-reader/README.md](ph-civ/book/volume-i-civilization/interwoven-reader/README.md)
 - Volume I Parts shelf: [ph-civ/book/volume-i-civilization/parts/README.md](ph-civ/book/volume-i-civilization/parts/README.md)
 - Jiang analysis notes: [ph-civ/docs/jiang-analysis-index.md](ph-civ/docs/jiang-analysis-index.md)
-- Raw archive bench: [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md)
+- Raw archive bench: [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md)
 
 ## Volume I Parts (reading navigation)
 

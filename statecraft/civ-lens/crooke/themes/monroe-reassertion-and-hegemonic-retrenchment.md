@@ -22,7 +22,7 @@ This theme holds Crooke's use of Monroe-style hemispheric doctrine and perimeter
 
 ## Exact Quote Anchors
 
-- [2026-01-21 Substack raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-21/source-crooke-what-may-be-the-greenland-endgame-2026-01-21.md): "The Monroe Doctrine reassertion enables the Asia strategy. It does not replace it."
+- [2026-01-21 Substack raw-input](../../../../source-archive/statecraft/2026-01-21/source-crooke-what-may-be-the-greenland-endgame-2026-01-21.md): "The Monroe Doctrine reassertion enables the Asia strategy. It does not replace it."
 
 ## What Crooke Is Arguing
 
@@ -41,7 +41,7 @@ Crooke is consistently interested in how global competition is grounded in base 
 
 ## CIV-STATE Bridge
 
-Open [Monroe reassertion and hegemonic retrenchment](/C:/dev/strategy-codex/statecraft/civ-state/indexes/crooke/monroe-reassertion-and-hegemonic-retrenchment.md) when the task is deeper empire-memory and hemispheric-perimeter retrieval.
+Open [Monroe reassertion and hegemonic retrenchment](../../../civ-state/indexes/crooke/monroe-reassertion-and-hegemonic-retrenchment.md) when the task is deeper empire-memory and hemispheric-perimeter retrieval.
 
 ## Benchmark Snapshot
 

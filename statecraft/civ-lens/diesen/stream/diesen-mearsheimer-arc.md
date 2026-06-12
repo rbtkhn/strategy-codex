@@ -44,12 +44,12 @@ Those two files are enough to show that the Diesen-side Mearsheimer branch preda
 
 If the operator needs only one file:
 
-- open [source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
+- open [source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](../../../../codex/years/2026/provenance/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
 
 If the operator needs the best paired read:
 
-- open [source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
-- then [source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
+- open [source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md](../../../../codex/years/2026/provenance/2026-05-04/source-diesen-mearsheimer-world-order-ending-risk-nuclear-war-2026-05-04.md)
+- then [source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../../../../codex/years/2026/provenance/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
 
 That pair gives the clearest combination of:
 
@@ -69,8 +69,8 @@ Do not use this arc as a shortcut for host-level feasibility triage or Napolitan
 
 If the operator specifically needs the 2025 roots:
 
-- open [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-09-07/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md)
-- then [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2025-10-08/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md)
+- open [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md](../../../../codex/years/2026/provenance/2025-09-07/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-s-failure-to-adjust-to-a-multipolar-world-2025-09-07.md)
+- then [source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md](../../../../codex/years/2026/provenance/2025-10-08/source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md)
 
 ## Routing use
 
@@ -90,7 +90,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about whether coercion can still work in practice rather than how structure shapes the whole conflict, route outward to [davis-mearsheimer-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-mearsheimer-arc.md).
+- If the question is mainly about whether coercion can still work in practice rather than how structure shapes the whole conflict, route outward to [davis-mearsheimer-arc.md](../../../../codex/speakers/davis/stream/davis-mearsheimer-arc.md).
 
 - Mearsheimer is strongest on structure, incentives, and bargaining space, not on fine-grained operational detail.
 - The current run is rich, but the underlying files are operator transcripts with analyst-tier caveats rather than a uniform external corpus.

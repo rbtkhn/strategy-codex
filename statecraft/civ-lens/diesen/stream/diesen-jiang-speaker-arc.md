@@ -11,10 +11,10 @@ This file should be read as the **high-variance civilizational and empire-system
 Quick separation rule:
 
 - `Diesen x Jiang` = speculative game-theoretic, civilizational, and empire-maintenance framing
-- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-krainer-speaker-arc.md) = macro-financial and commodity-system breakdown
-- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-matlock-speaker-arc.md) = Cold War settlement memory and diplomatic architecture
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-beebe-speaker-arc.md) = bargaining geometry and retrenchment-order design
-- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-karaganov-speaker-arc.md) = Russian elite deterrence doctrine and Greater Eurasia identity language
+- [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md) = macro-financial and commodity-system breakdown
+- [diesen-matlock-speaker-arc.md](diesen-matlock-speaker-arc.md) = Cold War settlement memory and diplomatic architecture
+- [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md) = bargaining geometry and retrenchment-order design
+- [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md) = Russian elite deterrence doctrine and Greater Eurasia identity language
 
 If the notebook needs horizon-expansion, regime-stability speculation, or empire/debt/world-war framing, route here. If it needs macro-financial mechanism, diplomatic memory, bargaining design, or Russian elite doctrine, route to the neighboring arcs instead.
 
@@ -49,12 +49,12 @@ Current canonical `Diesen × Jiang` raw-inputs on disk:
 
 If the operator needs only one file:
 
-- open [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md)
+- open [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](../../../../codex/years/2026/provenance/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md)
 
 If the operator needs the best paired read:
 
-- open [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md)
-- then [source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-11/source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md)
+- open [source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md](../../../../codex/years/2026/provenance/2026-05-11/source-diesen-jiang-world-war-three-empire-republic-2026-05-11.md)
+- then [source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md](../../../../codex/years/2026/provenance/2026-04-11/source-diesen-jiang-iran-war-battle-petrodollar-2026-04-11.md)
 
 That pair gives the clearest combination of:
 
@@ -80,10 +80,10 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [diesen-krainer-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-krainer-speaker-arc.md), which is stronger on debt, commodities, and market-system mechanism than on civilizational speculation
-- [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-matlock-speaker-arc.md), which is stronger on diplomatic-memory evidence than on horizon-expanding theory
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-beebe-speaker-arc.md), which is stronger on settlement architecture and escalation management than on speculative empire-decline narrative
-- [diesen-karaganov-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-karaganov-speaker-arc.md), which carries Russian elite doctrinal vocabulary rather than Jiang's more free-ranging game-theoretic register
+- [diesen-krainer-speaker-arc.md](diesen-krainer-speaker-arc.md), which is stronger on debt, commodities, and market-system mechanism than on civilizational speculation
+- [diesen-matlock-speaker-arc.md](diesen-matlock-speaker-arc.md), which is stronger on diplomatic-memory evidence than on horizon-expanding theory
+- [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md), which is stronger on settlement architecture and escalation management than on speculative empire-decline narrative
+- [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md), which carries Russian elite doctrinal vocabulary rather than Jiang's more free-ranging game-theoretic register
 
 ## Boundaries
 

@@ -39,16 +39,16 @@ The real hierarchy on disk is:
 
 The legacy `codex/speakers/martyanov/` path is now front-door compatibility only.
 
-- [codex/speakers/martyanov/README.md](/C:/dev/strategy-codex/codex/speakers/martyanov/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/martyanov/index.md) are compatibility pointers.
+- [codex/speakers/martyanov/README.md](../../../codex/speakers/martyanov/README.md) and [index.md](../../../codex/speakers/martyanov/index.md) are compatibility pointers.
 - codex-side `speaker-object` and `cross-host` files are now compatibility pointers back into this shelf, not parallel doctrine surfaces.
 - this statecraft shelf is now the canonical opening path for Martyanov statecraft work.
 
 ## Host Lanes
 
-- [Dialogue Works x Martyanov](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-martyanov-speaker-arc.md)
-- [Davis x Martyanov](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-martyanov-speaker-arc.md)
-- [Diesen x Martyanov](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-martyanov-speaker-arc.md)
+- [Dialogue Works x Martyanov](../../../codex/speakers/nima/stream/nima-martyanov-speaker-arc.md)
+- [Davis x Martyanov](../../../codex/speakers/davis/stream/davis-martyanov-speaker-arc.md)
+- [Diesen x Martyanov](../../../codex/speakers/diesen/stream/diesen-martyanov-speaker-arc.md)
 
 ## Boundary
 
-Martyanov is canonical here under `statecraft/civ-lens/martyanov/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.
+Martyanov is canonical here under `statecraft/civ-lens/martyanov/`. Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.

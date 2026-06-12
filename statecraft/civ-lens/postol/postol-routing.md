@@ -6,7 +6,7 @@ Use Postol when the notebook needs engineering truth, not when it mainly needs d
 
 ## Open Davis First
 
-Open [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) first when the real question is:
+Open [Davis host shelf](../../hosts/davis/README.md) first when the real question is:
 
 - can this strike work
 - can this bunker be destroyed
@@ -14,7 +14,7 @@ Open [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
 - can this target survive
 - is the public coercion claim physically credible
 
-The best current direct anchor is [2026-05-15 / Davis x Postol](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/source-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md).
+The best current direct anchor is [2026-05-15 / Davis x Postol](../../../source-archive/statecraft/2026-05-15/source-daniel-davis-deep-dive-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md).
 
 ## Open Dialogue Works First
 
@@ -27,13 +27,13 @@ Open direct Dialogue Works / Nima transcript anchors first when the real questio
 
 Best materialized anchors:
 
-- [2026-03-23 / Dialogue Works x Postol](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-23/source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md)
-- [2026-04-03 / Dialogue Works x Postol](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-03/source-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md)
-- [2026-05-08 / Dialogue Works x Postol](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/source-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
+- [2026-03-23 / Dialogue Works x Postol](../../../source-archive/statecraft/2026-03-23/source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md)
+- [2026-04-03 / Dialogue Works x Postol](../../../source-archive/statecraft/2026-04-03/source-dialogue-works-prof-ted-postol-iran-already-achieved-nuclear-deterrence-against-isra-2026-04-03.md)
+- [2026-05-08 / Dialogue Works x Postol](../../../source-archive/statecraft/2026-05-08/source-alkorshid-postol-third-round-war-israel-worst-nightmare-yet-2026-05-08.md)
 
 ## Open Diesen First
 
-Open [Diesen x Postol](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md) first when the notebook already accepts the mechanism question and now needs:
+Open [Diesen x Postol](../../../codex/speakers/diesen/stream/diesen-postol-speaker-arc.md) first when the notebook already accepts the mechanism question and now needs:
 
 - strategic-order consequence
 - deterrence consequence
@@ -45,13 +45,13 @@ Open [Diesen x Postol](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diese
 Do not open Postol first when the real question is:
 
 - domestic liability, factional coherence, or White House room failure
-  - open [Barnes](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/README.md)
+  - open [Barnes](../barnes/README.md)
 - legal / constitutional absurdity or blockade-process irrationality
-  - open [Johnson](/C:/dev/strategy-codex/statecraft/civ-lens/johnson/README.md) or [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
+  - open [Johnson](../johnson/README.md) or [Napolitano host shelf](../../hosts/napolitano/README.md)
 - Iranian legitimacy, red-line framing, or civilizational resolve
-  - open [Marandi](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/README.md)
+  - open [Marandi](../marandi/README.md)
 - coercion theory or strategy-level forecast architecture
-  - open [Pape](/C:/dev/strategy-codex/statecraft/civ-lens/pape/README.md)
+  - open [Pape](../pape/README.md)
 
 ## Current Shelf Rule
 

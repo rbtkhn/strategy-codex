@@ -21,9 +21,9 @@ Dialogue Works is still the strongest single lane, but the shelf is not honestly
 
 | Lane | Structural status | Distinct register |
 |---|---|---|
-| [Dialogue Works x Marandi](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md) | mature primary strand | live pressure, legitimacy, red-line signaling, selective Hormuz, Gulf complicity |
-| [Diesen x Marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md) | mature co-supporting strand | strategic-order altitude, blockade logic, escalation horizon, anti-hegemonic consequence |
-| [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) | mature co-supporting strand | operational limits, failed intimidation, Iranian resilience, shrinking U.S. options |
+| [Dialogue Works x Marandi](../../../codex/speakers/nima/stream/nima-marandi-speaker-arc.md) | mature primary strand | live pressure, legitimacy, red-line signaling, selective Hormuz, Gulf complicity |
+| [Diesen x Marandi](../../../codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md) | mature co-supporting strand | strategic-order altitude, blockade logic, escalation horizon, anti-hegemonic consequence |
+| [Davis host shelf](../../hosts/davis/README.md) | mature co-supporting strand | operational limits, failed intimidation, Iranian resilience, shrinking U.S. options |
 
 ## What May 26 changes
 
@@ -50,8 +50,8 @@ Quick separation rule:
 Also keep the cross-speaker seams explicit:
 
 - Marandi = Iran-facing legitimacy, sovereignty, endurance, and selective leverage
-- [Barnes](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/README.md) = U.S. domestic liability, executive-process fracture, and war-powers exposure
-- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) = operational-feasibility and coercive-failure interpretation from the U.S. side
+- [Barnes](../barnes/README.md) = U.S. domestic liability, executive-process fracture, and war-powers exposure
+- [Davis host shelf](../../hosts/davis/README.md) = operational-feasibility and coercive-failure interpretation from the U.S. side
 
 That overlap is real on some crisis days, but the first-open jobs are different.
 
@@ -59,13 +59,13 @@ That overlap is real on some crisis days, but the first-open jobs are different.
 
 If the operator needs the cleanest Marandi helix entry:
 
-- open [Dialogue Works x Marandi](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
-- then [Diesen x Marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
-- then the [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
+- open [Dialogue Works x Marandi](../../../codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
+- then [Diesen x Marandi](../../../codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
+- then the [Davis host shelf](../../hosts/davis/README.md)
 
 If the operator specifically needs the late-May endpoint:
 
-- add [2026-05-26 / Dialogue Works x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
+- add [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md)
 
 ## Boundaries
 

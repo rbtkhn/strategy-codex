@@ -4,13 +4,13 @@ WORK only; not Record.
 
 Purpose: canonical thread atlas for the dense Crooke **interview** core from `2026-03` through `2026-05`.
 
-This file does **not** replace the authored mechanism spine in [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md). It exists so the interview strand can carry a Freeman/Johnson-style month-and-strand layer without collapsing Crooke's source-class discipline.
+This file does **not** replace the authored mechanism spine in [crooke-forecast-ledger-2026.md](../../../../codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md). It exists so the interview strand can carry a Freeman/Johnson-style month-and-strand layer without collapsing Crooke's source-class discipline.
 
 ## Canonical status
 
 - this is the canonical thread atlas for the Crooke **interview** dense core
 - the authored ledger remains the canonical Crooke mechanism spine in his own voice
-- [crooke-thread.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread.md) remains legacy compatibility only
+- [crooke-thread.md](../../../../codex/speakers/crooke/stream/crooke-thread.md) remains legacy compatibility only
 
 ## Dense-core boundary
 
@@ -30,9 +30,9 @@ Crooke repeatedly treats coercive theater as a trap, not a solution. The intervi
 
 Primary files:
 
-- [2026-03-13 Davis x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-13/source-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
-- [2026-03-17 Dialogue Works x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
-- [2026-05-11 Davis x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-11/source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
+- [2026-03-13 Davis x Crooke](../../../../source-archive/statecraft/2026-03-13/source-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
+- [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- [2026-05-11 Davis x Crooke](../../../../source-archive/statecraft/2026-05-11/source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 
 ### 2. Iran's steadfastness turns pressure into bargaining and strategic leverage
 
@@ -40,9 +40,9 @@ The interview strand keeps returning to Iranian preparedness, strategic patience
 
 Primary files:
 
-- [2026-03-13 Davis x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-13/source-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
-- [2026-03-17 Dialogue Works x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
-- [2026-04-23 Davis x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
+- [2026-03-13 Davis x Crooke](../../../../source-archive/statecraft/2026-03-13/source-davis-crooke-irans-asymmetrical-war-2026-03-13.md)
+- [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- [2026-04-23 Davis x Crooke](../../../../source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
 
 ### 3. Hormuz and system exposure turn local war into wider dependency shock
 
@@ -50,9 +50,9 @@ The interview core makes Hormuz more than a chokepoint episode. It becomes the m
 
 Primary files:
 
-- [2026-03-20 Diesen x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-20/source-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md)
-- [2026-04-07 Diesen x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
-- [2026-04-23 Davis x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
+- [2026-03-20 Diesen x Crooke](../../../../source-archive/statecraft/2026-03-20/source-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md)
+- [2026-04-07 Diesen x Crooke](../../../../source-archive/statecraft/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
+- [2026-04-23 Davis x Crooke](../../../../source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
 
 ### 4. the Western war model and mechanistic reading of conflict are breaking down
 
@@ -60,8 +60,8 @@ Crooke uses the interview core to show that the military and intellectual model 
 
 Primary files:
 
-- [2026-04-27 Diesen x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
-- [2026-05-13 Dialogue Works x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- [2026-04-27 Diesen x Crooke](../../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
+- [2026-05-13 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-05-13/source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 
 ### 5. diplomatic process degrades into settlement theater and room without an off-ramp
 
@@ -69,8 +69,8 @@ Across the dense core, Crooke keeps distinguishing public motion from real settl
 
 Primary files:
 
-- [2026-04-23 Davis x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
-- [2026-05-11 Davis x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-11/source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
+- [2026-04-23 Davis x Crooke](../../../../source-archive/statecraft/2026-04-23/source-davis-crooke-iranians-only-getting-tougher-2026-04-23.md)
+- [2026-05-11 Davis x Crooke](../../../../source-archive/statecraft/2026-05-11/source-davis-crooke-diplomatic-solution-more-war-2026-05-11.md)
 
 ### 6. regional war widens into order-transition and civilizational consequence
 
@@ -78,10 +78,10 @@ The mature interview sequence repeatedly widens the conflict beyond the local wa
 
 Primary files:
 
-- [2026-03-17 Dialogue Works x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
-- [2026-04-07 Diesen x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
-- [2026-04-27 Diesen x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
-- [2026-05-13 Dialogue Works x Crooke](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
+- [2026-03-17 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-03-17/source-alkorshid-crooke-iran-was-ready-for-this-war-and-it-could-change-the-middle-east-forever-2026-03-17.md)
+- [2026-04-07 Diesen x Crooke](../../../../source-archive/statecraft/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
+- [2026-04-27 Diesen x Crooke](../../../../source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
+- [2026-05-13 Dialogue Works x Crooke](../../../../source-archive/statecraft/2026-05-13/source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md)
 
 ## How to use this atlas
 
@@ -94,7 +94,7 @@ Primary files:
 - [March 2026 interview cross-host arc](crooke-march-2026-interview-cross-host-arc.md)
 - [April 2026 interview cross-host arc](crooke-april-2026-interview-cross-host-arc.md)
 - [May 2026 interview cross-host arc](crooke-may-2026-interview-cross-host-arc.md)
-- [crooke-forecast-ledger-2026.md](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md)
+- [crooke-forecast-ledger-2026.md](../../../../codex/speakers/crooke/stream/crooke-forecast-ledger-2026.md)
 
 ## Boundary
 

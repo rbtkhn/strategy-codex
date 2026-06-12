@@ -28,9 +28,9 @@ There are three different totals in play:
 
 | Layer | What it counts | Current total | Canonical local path |
 | --- | --- | --- | --- |
-| Public mirror corpus | Materialized public Predictive History units in the official `ph-civ` mirror | `150` | [ph-civ/data/cards.jsonl](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/data/cards.jsonl) |
-| Public source-video table | Public mirror entries with explicit YouTube source rows in one table | `63` | [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/docs/source-video-index.md) |
-| Local raw archive captures | Jiang / Predictive History captures preserved in `source-archive/statecraft` outside the public mirror | `13` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) |
+| Public mirror corpus | Materialized public Predictive History units in the official `ph-civ` mirror | `150` | [ph-civ/data/cards.jsonl](ph-civ/data/cards.jsonl) |
+| Public source-video table | Public mirror entries with explicit YouTube source rows in one table | `63` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) |
+| Local raw archive captures | Jiang / Predictive History captures preserved in `source-archive/statecraft` outside the public mirror | `13` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) |
 
 ## Canonical rule
 
@@ -47,11 +47,11 @@ Series counts from the official mirror:
 | Series | Current public count | Primary local route | Notes |
 | --- | --- | --- | --- |
 | Civilization | `60` | [ph-civ/book/volume-i-civilization/interwoven-reader/README.md](ph-civ/book/volume-i-civilization/interwoven-reader/README.md) | Canonical interwoven spine (`civ-01`–`civ-60`); packet shelf at [volume-ii](ph-civ/book/volume-ii); ten Part doorways at [parts/](ph-civ/book/volume-i-civilization/parts/README.md). |
-| Geo-Strategy | `20` | [ph-civ/book/volume-i](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/book/volume-i) | Legacy provenance shelf feeding Apocalypse. |
-| Game Theory | `27` | [ph-civ/book/volume-iii](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/book/volume-iii) | Publicly materialized through `gt-27`. |
-| Secret History | `28` | [ph-civ/book/volume-vi](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/book/volume-vi) | Full `sh-01` to `sh-28` public spine. |
-| Great Books | `10` | [ph-civ/book/volume-v](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/book/volume-v) | Publicly materialized through `gb-10`. |
-| Essays | `5` | [ph-civ/ph-apo](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/ph-apo) | Apocalypse-facing essay lane. |
+| Geo-Strategy | `20` | [ph-civ/book/volume-i](ph-civ/book/volume-i) | Legacy provenance shelf feeding Apocalypse. |
+| Game Theory | `27` | [ph-civ/book/volume-iii](ph-civ/book/volume-iii) | Publicly materialized through `gt-27`. |
+| Secret History | `28` | [ph-civ/book/volume-vi](ph-civ/book/volume-vi) | Full `sh-01` to `sh-28` public spine. |
+| Great Books | `10` | [ph-civ/book/volume-v](ph-civ/book/volume-v) | Publicly materialized through `gb-10`. |
+| Essays | `5` | [ph-civ/ph-apo](ph-civ/ph-apo) | Apocalypse-facing essay lane. |
 
 ### Volume I reading navigation (Parts overlay)
 
@@ -65,10 +65,10 @@ Ten **Part doorways** on the civilization spine — navigation only; [interwoven
 
 Primary mirror front doors:
 
-- [ph-civ/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/README.md)
-- [ph-civ/ph-civ/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/ph-civ/README.md)
-- [ph-civ/ph-apo/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/ph-apo/README.md)
-- [ph-civ/ph-mus/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/ph-mus/README.md)
+- [ph-civ/README.md](ph-civ/README.md)
+- [ph-civ/ph-civ/README.md](ph-civ/ph-civ/README.md)
+- [ph-civ/ph-apo/README.md](ph-civ/ph-apo/README.md)
+- [ph-civ/ph-mus/README.md](ph-civ/ph-mus/README.md)
 
 ## Public source-video subset
 
@@ -78,12 +78,12 @@ Current source-video row counts:
 
 | Lane | Current source-video rows | Local route | Coverage note |
 | --- | --- | --- | --- |
-| Geo-Strategy | `8` | [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/docs/source-video-index.md) | Currently `geo-13` through `geo-20`. |
-| Game Theory | `27` | [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/docs/source-video-index.md) | Currently `gt-01` through `gt-27`. |
-| Secret History | `28` | [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/docs/source-video-index.md) | Currently `sh-01` through `sh-28`. |
-| Civilization | `0` | [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/docs/source-video-index.md) | No dedicated public `civ-*` source-video rows in this table yet. |
-| Great Books | `0` | [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/docs/source-video-index.md) | No dedicated public `gb-*` source-video rows in this table yet. |
-| Interviews | `0` | [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/docs/source-video-index.md) | Interviews are not currently surfaced here as a public lane. |
+| Geo-Strategy | `8` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | Currently `geo-13` through `geo-20`. |
+| Game Theory | `27` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | Currently `gt-01` through `gt-27`. |
+| Secret History | `28` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | Currently `sh-01` through `sh-28`. |
+| Civilization | `0` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | No dedicated public `civ-*` source-video rows in this table yet. |
+| Great Books | `0` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | No dedicated public `gb-*` source-video rows in this table yet. |
+| Interviews | `0` | [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md) | Interviews are not currently surfaced here as a public lane. |
 
 Use this file when you need:
 
@@ -99,10 +99,10 @@ Current raw capture counts:
 
 | Lane | Current local raw captures | Canonical route | Notes |
 | --- | --- | --- | --- |
-| Interviews | `4` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) | Includes recent Diesen/Jiang interview captures. |
-| Game Theory | `6` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gt-23` through `gt-28` raw captures. |
-| Great Books | `2` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gb-11` and `gb-12`, both ahead of the current public mirror. |
-| Essays | `1` | [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md) | Local Substack capture. |
+| Interviews | `4` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Includes recent Diesen/Jiang interview captures. |
+| Game Theory | `6` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gt-23` through `gt-28` raw captures. |
+| Great Books | `2` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Includes `gb-11` and `gb-12`, both ahead of the current public mirror. |
+| Essays | `1` | [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md) | Local Substack capture. |
 
 Important current gaps between layers:
 
@@ -116,9 +116,9 @@ Important current gaps between layers:
 If the user asks:
 
 - "How many Predictive History lectures are there?" -> start with the **public mirror corpus** count here, not the raw archive.
-- "Where is the YouTube link for lecture X?" -> open [ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/ph-civ/docs/source-video-index.md).
-- "Do we have a raw local capture of this Jiang / PH item?" -> open [source-archive/statecraft/jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md).
-- "What is the canonical Jiang shelf front door?" -> stay in [README.md](/C:/dev/strategy-codex/statecraft/civ-lens/jiang/README.md) and this file.
+- "Where is the YouTube link for lecture X?" -> open [ph-civ/docs/source-video-index.md](ph-civ/docs/source-video-index.md).
+- "Do we have a raw local capture of this Jiang / PH item?" -> open [source-archive/statecraft/jiang-predictive-history-index.md](../../../source-archive/statecraft/jiang-predictive-history-index.md).
+- "What is the canonical Jiang shelf front door?" -> stay in [README.md](README.md) and this file.
 - "How do I read Volume I by Part?" -> [interwoven spine](ph-civ/book/volume-i-civilization/interwoven-reader/README.md) for order; [Parts shelf](ph-civ/book/volume-i-civilization/parts/README.md) for doorways; [jiang-routing.md](jiang-routing.md#volume-i-parts-reading-navigation) for split seams and validate commands.
 
 ## Falsify check

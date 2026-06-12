@@ -6,17 +6,17 @@ Purpose: provide the current canonical route map for materialized Matthew Hoh ap
 
 ## 2025-10
 
-- [youtube-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10](/C:/dev/strategy-codex/source-archive/statecraft/2025-10-10/source-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md)
+- [youtube-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10](../../../source-archive/statecraft/2025-10-10/source-daniel-davis-deep-dive-pressure-on-putin-to-finish-ukraine-war-lt-col-daniel-davis-matt-hoh-2025-10-10.md)
 
 ## 2026-03
 
-- [transcript-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-17/source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md)
+- [transcript-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17](../../../source-archive/statecraft/2026-03-17/source-napolitano-hoh-trump-believes-his-own-propaganda-2026-03-17.md)
 
 ## 2026-05
 
-- [youtube-hoh-dialogue-works-the-pentagon-s-biggest-lie-about-iran-2026-05-20](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/source-hoh-dialogue-works-the-pentagon-s-biggest-lie-about-iran-2026-05-20.md)
-- [transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md)
-- [youtube-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27.md)
+- [youtube-hoh-dialogue-works-the-pentagon-s-biggest-lie-about-iran-2026-05-20](../../../source-archive/statecraft/2026-05-20/source-hoh-dialogue-works-the-pentagon-s-biggest-lie-about-iran-2026-05-20.md)
+- [transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26](../../../source-archive/statecraft/2026-05-26/source-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md)
+- [youtube-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27](../../../source-archive/statecraft/2026-05-27/source-hoh-dialogue-works-the-us-just-ran-out-of-cruise-missiles-what-happens-next-2026-05-27.md)
 
 ## Boundary notes
 

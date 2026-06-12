@@ -45,12 +45,12 @@ This lane is now materially present on disk as a 2026 Iran-war and Gulf-pressure
 
 If the operator needs only one file:
 
-- open [source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
+- open [source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md](../../../../codex/years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
 
 If the operator needs the best paired read:
 
-- open [source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
-- then [source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-15/source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md)
+- open [source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md](../../../../codex/years/2026/provenance/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
+- then [source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md](../../../../codex/years/2026/provenance/2026-04-15/source-glenn-diesen-larry-johnson-trump-s-naval-blockade-ceasefire-collapse-2026-04-15.md)
 
 That pair gives the clearest lane shape:
 
@@ -88,7 +88,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what coercion can no longer practically achieve rather than how the regional picture is being redrawn, route outward to [davis-johnson-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-johnson-speaker-arc.md).
+- If the question is mainly about what coercion can no longer practically achieve rather than how the regional picture is being redrawn, route outward to [davis-johnson-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-johnson-speaker-arc.md).
 
 - Johnson is strongest here on geopolitical consequence and widening pressure, not on narrow tactical verification.
 - Prefer this lane when the notebook needs altitude and consequence; prefer the Davis lane for feasibility limits and the Dialogue Works lane for highest-pressure event-surface reading.

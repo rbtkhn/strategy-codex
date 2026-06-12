@@ -39,16 +39,16 @@ The real hierarchy on disk is:
 
 The legacy `codex/speakers/mcgovern/` path is now front-door compatibility only.
 
-- [codex/speakers/mcgovern/README.md](/C:/dev/strategy-codex/codex/speakers/mcgovern/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/mcgovern/index.md) are compatibility pointers.
+- [codex/speakers/mcgovern/README.md](../../../codex/speakers/mcgovern/README.md) and [index.md](../../../codex/speakers/mcgovern/index.md) are compatibility pointers.
 - codex-side `speaker-object` and `cross-host` files remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for McGovern statecraft work.
 
 ## Host Lanes
 
-- [Diesen x McGovern](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
-- [Dialogue Works x McGovern](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
-- [2026-05-18 / Judging Freedom x McGovern](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
+- [Diesen x McGovern](../../../codex/speakers/diesen/stream/diesen-mcgovern-speaker-arc.md)
+- [Dialogue Works x McGovern](../../../codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md)
+- [2026-05-18 / Judging Freedom x McGovern](../../../source-archive/statecraft/2026-05-18/source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md)
 
 ## Boundary
 
-McGovern is canonical here under `statecraft/civ-lens/mcgovern/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.
+McGovern is canonical here under `statecraft/civ-lens/mcgovern/`. Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.

@@ -11,9 +11,9 @@ This file should be read as the **order-transition and arms-control** McGovern b
 Quick separation rule:
 
 - `Diesen x McGovern` = NATO decay, arms-control collapse, strategic-restraint failure, and intelligence memory at order-transition altitude
-- [nima-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md) = live Iran/Russia escalation and imperial-unreality warning under present-tense pressure
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-beebe-speaker-arc.md) = bargaining architecture and statecraft design rather than dissident insider warning
-- [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-crooke-speaker-arc.md) = civilizational-legitimacy and sovereignty crisis rather than arms-control memory
+- [nima-mcgovern-speaker-arc.md](../../../../codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md) = live Iran/Russia escalation and imperial-unreality warning under present-tense pressure
+- [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md) = bargaining architecture and statecraft design rather than dissident insider warning
+- [diesen-crooke-speaker-arc.md](diesen-crooke-speaker-arc.md) = civilizational-legitimacy and sovereignty crisis rather than arms-control memory
 
 If the notebook needs a former insider reading how NATO and restraint architecture are breaking under order transition, route here. If it needs live crisis warning, bargaining design, or civilizational legitimacy framing, route to the neighboring branches instead.
 
@@ -55,13 +55,13 @@ This is enough to treat `Diesen x McGovern` as a real recurring host-local branc
 
 If the operator needs only one file:
 
-- open [2026-05-27 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-27/source-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md)
+- open [2026-05-27 Diesen x McGovern](../../../../codex/years/2026/provenance/2026-05-27/source-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md)
 
 If the operator needs the best paired read:
 
-- open [2026-05-27 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-27/source-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md)
-- open [2026-01-17 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-01-17/source-glenn-diesen-ray-mcgovern-the-road-war-arms-control-collapsing-2026-01-17.md)
-- then [2026-04-05 Diesen x McGovern](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-05/source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
+- open [2026-05-27 Diesen x McGovern](../../../../codex/years/2026/provenance/2026-05-27/source-glenn-diesen-ray-mcgovern-russia-escalates-with-new-strategy-2026-05-27.md)
+- open [2026-01-17 Diesen x McGovern](../../../../codex/years/2026/provenance/2026-01-17/source-glenn-diesen-ray-mcgovern-the-road-war-arms-control-collapsing-2026-01-17.md)
+- then [2026-04-05 Diesen x McGovern](../../../../codex/years/2026/provenance/2026-04-05/source-glenn-diesen-ray-mcgovern-the-death-of-nato-time-for-a-new-strategy-2026-04-05.md)
 
 That pair gives the clearest lane shape:
 
@@ -87,9 +87,9 @@ Typical pairings around the guest lane:
 
 Distinct from:
 
-- [nima-mcgovern-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md), which is stronger on live escalation and Iran-war immediacy
-- [diesen-beebe-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-beebe-speaker-arc.md), which is stronger on negotiation architecture than on intelligence-dissent memory
-- [diesen-crooke-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-crooke-speaker-arc.md), which is stronger on legitimacy and sovereignty than on restraint-system collapse
+- [nima-mcgovern-speaker-arc.md](../../../../codex/speakers/nima/stream/nima-mcgovern-speaker-arc.md), which is stronger on live escalation and Iran-war immediacy
+- [diesen-beebe-speaker-arc.md](diesen-beebe-speaker-arc.md), which is stronger on negotiation architecture than on intelligence-dissent memory
+- [diesen-crooke-speaker-arc.md](diesen-crooke-speaker-arc.md), which is stronger on legitimacy and sovereignty than on restraint-system collapse
 
 ## Boundaries
 

@@ -67,17 +67,17 @@ Johnson now has a full canonical January through May 2026 month ladder for the l
 
 The legacy `codex/speakers/johnson/` path is now front-door compatibility only.
 
-- [codex/speakers/johnson/README.md](/C:/dev/strategy-codex/codex/speakers/johnson/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/johnson/index.md) are compatibility pointers.
+- [codex/speakers/johnson/README.md](../../../codex/speakers/johnson/README.md) and [index.md](../../../codex/speakers/johnson/index.md) are compatibility pointers.
 - codex-side thread, transcript, profile, page-template, and in-flight legacy notes remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for Johnson statecraft work.
 
 ## Host Lanes
 
-- [Diesen x Johnson](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md)
-- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
-- [Dialogue Works x Johnson](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-johnson-speaker-arc.md)
-- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
+- [Diesen x Johnson](../../../codex/speakers/diesen/stream/diesen-johnson-speaker-arc.md)
+- [Davis host shelf](../../hosts/davis/README.md)
+- [Dialogue Works x Johnson](../../../codex/speakers/nima/stream/nima-johnson-speaker-arc.md)
+- [Napolitano host shelf](../../hosts/napolitano/README.md)
 
 ## Boundary
 
-Johnson is canonical here under `statecraft/civ-lens/johnson/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Johnson is canonical here under `statecraft/civ-lens/johnson/`. Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft), bridge adapters still live under [`statecraft/bridges/`](../../bridges/README.md), and lanes still own substantive drafting.

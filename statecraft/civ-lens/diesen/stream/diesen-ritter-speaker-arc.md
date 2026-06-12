@@ -42,12 +42,12 @@ This lane is now materially present on disk as a 15-appearance cross-year branch
 
 If the operator needs only one file:
 
-- open [source-diesen-ritter-hormuz-return-to-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
+- open [source-diesen-ritter-hormuz-return-to-war-2026-05-04.md](../../../../codex/years/2026/provenance/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
 
 If the operator needs the best paired read:
 
-- open [source-diesen-ritter-hormuz-return-to-war-2026-05-04.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
-- then [source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
+- open [source-diesen-ritter-hormuz-return-to-war-2026-05-04.md](../../../../codex/years/2026/provenance/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
+- then [source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../../../../codex/years/2026/provenance/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md)
 
 That pair gives the clearest combination of:
 
@@ -57,8 +57,8 @@ That pair gives the clearest combination of:
 
 If the operator needs the cleanest Iran-war escalation pair inside the Diesen stream:
 
-- open [source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-02-28/source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md)
-- then [source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-07/source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md)
+- open [source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md](../../../../codex/years/2026/provenance/2026-02-28/source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md)
+- then [source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md](../../../../codex/years/2026/provenance/2026-04-07/source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md)
 
 ## Orthogonality guide
 
@@ -89,7 +89,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about what military means can still realistically achieve rather than how escalation propagates across theaters, route outward to [davis-ritter-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-ritter-speaker-arc.md).
+- If the question is mainly about what military means can still realistically achieve rather than how escalation propagates across theaters, route outward to [davis-ritter-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-ritter-speaker-arc.md).
 
 - This guest run is no longer small; it is a real 15-appearance cross-year branch with both Europe-theater and Iran-war shelves.
 - The April 17 file is not a full cleaned transcript; it is a unified lane-split SSOT / triage-spine capture.

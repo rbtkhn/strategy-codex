@@ -31,8 +31,8 @@ Purpose: front door for the canonical Crooke statecraft shelf, surfacing the per
 
 Compatibility residue:
 
-- [Thread compatibility file](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-thread.md)
-- [Transcript compatibility file](/C:/dev/strategy-codex/codex/speakers/crooke/stream/crooke-transcript.md)
+- [Thread compatibility file](../../../codex/speakers/crooke/stream/crooke-thread.md)
+- [Transcript compatibility file](../../../codex/speakers/crooke/stream/crooke-transcript.md)
 
 ## Monthly Shelf Layer
 

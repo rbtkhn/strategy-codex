@@ -57,16 +57,16 @@ Crooke now has a full canonical 2026 month ladder for the live year, but the mon
 
 The legacy `codex/speakers/crooke/` path is now front-door compatibility only.
 
-- [codex/speakers/crooke/README.md](/C:/dev/strategy-codex/codex/speakers/crooke/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/crooke/index.md) are compatibility pointers.
+- [codex/speakers/crooke/README.md](../../../codex/speakers/crooke/README.md) and [index.md](../../../codex/speakers/crooke/index.md) are compatibility pointers.
 - older codex-side thread and transcript files remain compatibility residue.
 - this statecraft shelf is now self-contained for canonical Crooke self-description.
 
 ## Host Lanes
 
-- [Diesen x Crooke](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md)
-- [Davis x Crooke](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
-- [Dialogue Works x Crooke](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-crooke-speaker-arc.md)
+- [Diesen x Crooke](../../../codex/speakers/diesen/stream/diesen-crooke-speaker-arc.md)
+- [Davis x Crooke](../../../codex/speakers/davis/stream/davis-crooke-speaker-arc.md)
+- [Dialogue Works x Crooke](../../../codex/speakers/nima/stream/nima-crooke-speaker-arc.md)
 
 ## Boundary
 
-Crooke is canonical here under `statecraft/civ-lens/crooke/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Crooke is canonical here under `statecraft/civ-lens/crooke/`. Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft), bridge adapters still live under [`statecraft/bridges/`](../../bridges/README.md), and lanes still own substantive drafting.

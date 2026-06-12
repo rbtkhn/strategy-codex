@@ -2,14 +2,14 @@ WORK only; not Record.
 
 # Wilkerson May 2026 note
 
-Purpose: preserve what May 2026 currently means on the canonical Wilkerson shelf as the second major 2026 hinge month and bind that month-level reading to the existing structural audit in [legacy Wilkerson surface orthogonality](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md).
+Purpose: preserve what May 2026 currently means on the canonical Wilkerson shelf as the second major 2026 hinge month and bind that month-level reading to the existing structural audit in [legacy Wilkerson surface orthogonality](../../../codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md).
 
 Current audit state:
 
 - the landed month on disk is still strong
 - the old `seven-anchor complete month` claim has been superseded by two newly landed Judging Freedom anchors
 - the contradiction hunt is now narrower and mostly concerns two unresolved Diesen title-drift checks
-- use [Parsi + Wilkerson May 2026 backfill attention](/C:/dev/strategy-codex/statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) as the live queue until the contradiction check closes
+- use [Parsi + Wilkerson May 2026 backfill attention](../../notes/parsi-wilkerson-may-2026-backfill-attention.md) as the live queue until the contradiction check closes
 
 ## Core claim
 
@@ -30,36 +30,36 @@ It is better read as:
 
 ## Materialized on disk
 
-1. [2026-05-05 - Hormuz Blockade](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
+1. [2026-05-05 - Hormuz Blockade](../../../source-archive/statecraft/2026-05-05/source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md)
    Status: `Dialogue Works`-adjacent May opener already materialized.
 
-2. [2026-05-06 - Hormuz, BRICS](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md)
+2. [2026-05-06 - Hormuz, BRICS](../../../source-archive/statecraft/2026-05-06/source-diesen-wilkerson-hormuz-brics-2026-05-06.md)
    Status: `Diesen` reinforcement already materialized.
 
-3. [2026-05-15 - Trump-Xi Meeting After U.S. Defeat in Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/source-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md)
+3. [2026-05-15 - Trump-Xi Meeting After U.S. Defeat in Iran](../../../source-archive/statecraft/2026-05-15/source-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md)
    Status: YouTube-primary `Diesen` continuation already materialized.
 
-4. [2026-05-14 - Checkmate in Iran](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-14/source-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md)
+4. [2026-05-14 - Checkmate in Iran](../../../source-archive/statecraft/2026-05-14/source-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md)
    Status: transcript-grade `Judging Freedom` anchor now materialized.
 
-5. [2026-05-20 - Heated Arguments in White House](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-20/source-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md)
+5. [2026-05-20 - Heated Arguments in White House](../../../source-archive/statecraft/2026-05-20/source-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md)
    Status: `Mario Nawfal` crossover already materialized.
 
-6. [2026-05-21 - Trump Trapped In a Corner](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-21/source-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md)
+6. [2026-05-21 - Trump Trapped In a Corner](../../../source-archive/statecraft/2026-05-21/source-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md)
    Status: transcript-grade `Judging Freedom` reinforcement now materialized.
 
-7. [2026-05-22 - Iran's Unseen Move / U.S. Laser Destroyers Can't Stop What's Coming](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-22/source-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
+7. [2026-05-22 - Iran's Unseen Move / U.S. Laser Destroyers Can't Stop What's Coming](../../../source-archive/statecraft/2026-05-22/source-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md)
    Status: transcript-grade `Dialogue Works` continuation already materialized.
 
-8. [2026-05-26 - Failing to Adjust to a Multipolar World](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
+8. [2026-05-26 - Failing to Adjust to a Multipolar World](../../../source-archive/statecraft/2026-05-26/source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md)
    Status: YouTube-primary `Diesen` reinforcement already materialized.
 
-9. [2026-05-28 - What Remains of International Law](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
+9. [2026-05-28 - What Remains of International Law](../../../source-archive/statecraft/2026-05-28/source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md)
    Status: transcript-grade `Judging Freedom` month closer already materialized.
 
 Companion structural surface:
 
-- [legacy Wilkerson surface orthogonality](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md)
+- [legacy Wilkerson surface orthogonality](../../../codex/speakers/wilkerson/wilkerson-surface-orthogonality-2026-05.md)
   Status: structural review of whether the Wilkerson shelf remains a durable double helix plus one auxiliary branch.
 
 ## What May now proves
@@ -81,7 +81,7 @@ Current bounded queue:
 - `2026-05-06` `Glenn Diesen` ambiguity check, working title `Rogue State America - Decay of a Superpower`
 - `2026-05-27` `Glenn Diesen` ambiguity check, working title `Lawrence Wilkerson on Trump's China Peace`
 
-See [Parsi + Wilkerson May 2026 backfill attention](/C:/dev/strategy-codex/statecraft/notes/parsi-wilkerson-may-2026-backfill-attention.md) for acceptance criteria and the exact downstream repair path.
+See [Parsi + Wilkerson May 2026 backfill attention](../../notes/parsi-wilkerson-may-2026-backfill-attention.md) for acceptance criteria and the exact downstream repair path.
 
 ## Limits
 

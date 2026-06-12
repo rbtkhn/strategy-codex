@@ -29,10 +29,10 @@ Purpose: front door for the canonical Freeman statecraft shelf, surfacing the pe
 
 Compatibility residue:
 
-- [Thread compatibility file](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-thread.md)
-- [Transcript compatibility file](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-transcript.md)
-- [Profile residue](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-profile.md)
-- [Page template residue](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-page-template.md)
+- [Thread compatibility file](../../../codex/speakers/freeman/freeman-thread.md)
+- [Transcript compatibility file](../../../codex/speakers/freeman/freeman-transcript.md)
+- [Profile residue](../../../codex/speakers/freeman/freeman-profile.md)
+- [Page template residue](../../../codex/speakers/freeman/freeman-page-template.md)
 
 ## Monthly Shelf Layer
 
@@ -51,10 +51,10 @@ These monthly files are bounded synthesis shelves. They do not replace host-loca
 
 ## Host Arcs
 
-- [Diesen x Freeman](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md)
-- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
-- [Dialogue Works x Freeman](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md)
-- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
+- [Diesen x Freeman](../../../codex/speakers/diesen/stream/diesen-freeman-arc.md)
+- [Davis host shelf](../../hosts/davis/README.md)
+- [Dialogue Works x Freeman](../../../codex/speakers/nima/stream/nima-freeman-arc.md)
+- [Napolitano host shelf](../../hosts/napolitano/README.md)
 
 ## Boundary
 

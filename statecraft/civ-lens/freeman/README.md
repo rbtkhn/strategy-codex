@@ -53,17 +53,17 @@ Freeman now has a full canonical 2026 month ladder for the live year, but the mo
 
 The legacy `codex/speakers/freeman/` path is now front-door compatibility only.
 
-- [codex/speakers/freeman/README.md](/C:/dev/strategy-codex/codex/speakers/freeman/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/freeman/index.md) are compatibility pointers.
+- [codex/speakers/freeman/README.md](../../../codex/speakers/freeman/README.md) and [index.md](../../../codex/speakers/freeman/index.md) are compatibility pointers.
 - codex-side thread, transcript, profile, page-template, and older arc-thread notes remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for Freeman statecraft work.
 
 ## Host Lanes
 
-- [Diesen x Freeman](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-freeman-arc.md)
-- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
-- [Dialogue Works x Freeman](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md)
-- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
+- [Diesen x Freeman](../../../codex/speakers/diesen/stream/diesen-freeman-arc.md)
+- [Davis host shelf](../../hosts/davis/README.md)
+- [Dialogue Works x Freeman](../../../codex/speakers/nima/stream/nima-freeman-arc.md)
+- [Napolitano host shelf](../../hosts/napolitano/README.md)
 
 ## Boundary
 
-Freeman is canonical here under `statecraft/civ-lens/freeman/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft)), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Freeman is canonical here under `statecraft/civ-lens/freeman/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](../../../source-archive/statecraft)), bridge adapters still live under [`statecraft/bridges/`](../../bridges/README.md), and lanes still own substantive drafting.

@@ -22,7 +22,7 @@ Crooke repeatedly contrasts two diplomatic worlds. In the first, states negotiat
 
 ## Exact Quote Anchors
 
-- [2026-01-25 Dialogue Works / Nima raw-input](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-25/source-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md): "that has to be agreed formally, state to state, in a treaty or in a legal document"
+- [2026-01-25 Dialogue Works / Nima raw-input](../../../../source-archive/statecraft/2026-01-25/source-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md): "that has to be agreed formally, state to state, in a treaty or in a legal document"
 - same source: "did you have that in writing? and no, they didn't."
 
 ## What Crooke Is Arguing
@@ -43,7 +43,7 @@ Crooke's shelf is unusually sensitive to the difference between process and auth
 
 ## CIV-STATE Bridge
 
-Open [Treaty form vs transactional settlement](/C:/dev/strategy-codex/statecraft/civ-state/indexes/crooke/treaty-form-vs-transactional-settlement.md) when the task shifts from Crooke's modern activation surface to deeper treaty-memory and settlement-form retrieval.
+Open [Treaty form vs transactional settlement](../../../civ-state/indexes/crooke/treaty-form-vs-transactional-settlement.md) when the task shifts from Crooke's modern activation surface to deeper treaty-memory and settlement-form retrieval.
 
 ## Benchmark Snapshot
 

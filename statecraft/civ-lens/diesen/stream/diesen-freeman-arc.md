@@ -27,13 +27,13 @@ For the full March Freeman run, open [freeman-march-2026-cross-host-arc.md](../.
 - 2026-03-14 *The Emerging Iran-Russia-China Axis & Israel's Possible Demise* - captured on disk.
 - 2026-03-23 *Trump Back Down - Armageddon Postponed?* - captured on disk.
 
-1. [source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
+1. [source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md](../../../../codex/years/2026/provenance/2026-05-06/source-diesen-freeman-maritime-dominance-strait-of-hormuz-2026-05-06.md)
    Best mature anchor. Strongest full statement of the **sea-power -> land-power** transition, Hormuz checkmate logic, petrodollar fragility, and post-hegemonic order consequences.
 
 2. [source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md](../../../source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md)
    Best **June 2026** anchor — greater-Israel collapse, reprisal-symmetry read, Lebanon farcical-ceasefire / Hezbollah gate, agreement-incapable Washington. Canonical host re-file (same episode as Dialogue Works alias).
 
-3. [source-diesen-2026-04-18-verbatim-2026-04-18.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md)
+3. [source-diesen-2026-04-18-verbatim-2026-04-18.md](../../../../codex/years/2026/provenance/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md)
    Best first anchor for the **Islamabad / performative diplomacy / door-vs-padlock** vocabulary. Strong on the "fantasy foreign policy" and "no meeting of minds" frame that later becomes the stream's characteristic Freeman seam.
 
 ### 2025 densification
@@ -66,11 +66,11 @@ Open **2025-12-04** first when you specifically need:
 
 ## Best paired read
 
-Best paired read: [diesen-matlock-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-matlock-speaker-arc.md)
+Best paired read: [diesen-matlock-speaker-arc.md](diesen-matlock-speaker-arc.md)
 
 Why: Matlock gives the **Cold War settlement / anti-NATO-expansion** memory lane; Freeman gives the **maritime order / diplomatic decay / U.S.-China order talk** lane. They are adjacent but not redundant.
 
-Second-best paired read: [diesen-jiang-speaker-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-jiang-speaker-arc.md)
+Second-best paired read: [diesen-jiang-speaker-arc.md](diesen-jiang-speaker-arc.md)
 
 Why: Jiang and Freeman can touch the same order-transition terrain, but Freeman is steadier and more statecraft-coded while Jiang is more speculative and high-variance.
 
@@ -104,4 +104,4 @@ Do not overuse Freeman as:
 
 He is strongest as a **career-diplomat order interpreter**, not as a primary on-the-ground verifier.
 
-If the question is mainly about phony ceasefires, current-event alliance strain, or immediate crisis messaging, route outward to [nima-freeman-arc.md](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-freeman-arc.md) instead of forcing this arc to do live-pressure work.
+If the question is mainly about phony ceasefires, current-event alliance strain, or immediate crisis messaging, route outward to [nima-freeman-arc.md](../../../../codex/speakers/nima/stream/nima-freeman-arc.md) instead of forcing this arc to do live-pressure work.

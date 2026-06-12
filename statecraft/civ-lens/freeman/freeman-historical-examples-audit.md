@@ -12,5 +12,5 @@ Boundary rule:
 
 Current source-backed audit lineage remains visible through the existing Freeman shelf work:
 
-- [codex/speakers/freeman/freeman-historical-examples-audit.md](/C:/dev/strategy-codex/codex/speakers/freeman/freeman-historical-examples-audit.md)
+- [codex/speakers/freeman/freeman-historical-examples-audit.md](../../../codex/speakers/freeman/freeman-historical-examples-audit.md)
 - [themes/README.md](themes/README.md)

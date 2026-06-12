@@ -20,8 +20,8 @@ Current shelf jobs after this pass:
 | [stream/](stream/) | bounded month layer | keep; native monthly synthesis without chronology takeover |
 | [macgregor-cross-year-note.md](macgregor-cross-year-note.md) | support surface | keep; supports maturity claim, does not replace the helix |
 | [macgregor-surface-orthogonality-2026-05.md](macgregor-surface-orthogonality-2026-05.md) | support audit | keep; good doctrine support, not the only audit |
-| [macgregor-thread.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-thread.md) | compatibility residue | keep demoted |
-| [macgregor-transcript.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-transcript.md) | compatibility residue | keep demoted |
+| [macgregor-thread.md](../../../codex/speakers/macgregor/macgregor-thread.md) | compatibility residue | keep demoted |
+| [macgregor-transcript.md](../../../codex/speakers/macgregor/macgregor-transcript.md) | compatibility residue | keep demoted |
 
 ## Structural judgment
 
@@ -50,8 +50,8 @@ Status: `continuity carryover month`
 Open:
 
 - [stream/macgregor-shelf-2026-01.md](stream/macgregor-shelf-2026-01.md)
-- [2026-01-07 Napolitano x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-07/source-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
-- [2026-01-22 Diesen x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-01-22/source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md)
+- [2026-01-07 Napolitano x Macgregor](../../../source-archive/statecraft/2026-01-07/source-napolitano-macgregor-trump-is-sleepwalking-into-another-war-2026-01-07.md)
+- [2026-01-22 Diesen x Macgregor](../../../source-archive/statecraft/2026-01-22/source-macgregor-diesen-nato-ukraine-lost-2026-01-22.md)
 
 ### 2026-02
 
@@ -60,8 +60,8 @@ Status: `continuity carryover month`
 Open:
 
 - [stream/macgregor-shelf-2026-02.md](stream/macgregor-shelf-2026-02.md)
-- [2026-02-10 Napolitano x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-10/source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
-- [2026-02-26 Diesen x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-02-26/source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md)
+- [2026-02-10 Napolitano x Macgregor](../../../source-archive/statecraft/2026-02-10/source-napolitano-macgregor-us-iran-war-could-spiral-out-of-control-2026-02-10.md)
+- [2026-02-26 Diesen x Macgregor](../../../source-archive/statecraft/2026-02-26/source-glenn-diesen-douglas-macgregor-us-iran-diplomacy-fail-full-scale-war-coming-soon-2026-02-26.md)
 
 ### 2026-03
 
@@ -70,11 +70,11 @@ Status: `mature retrieval month`
 Open:
 
 - [stream/macgregor-shelf-2026-03.md](stream/macgregor-shelf-2026-03.md)
-- [2026-03-02 Diesen x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-02/source-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md)
-- [2026-03-03 Davis x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-03/source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md)
-- [2026-03-10 Davis x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-10/source-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
-- [2026-03-15 Davis x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-15/source-daniel-davis-deep-dive-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md)
-- [2026-03-26 Napolitano x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-26/source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
+- [2026-03-02 Diesen x Macgregor](../../../source-archive/statecraft/2026-03-02/source-glenn-diesen-douglas-macgregor-a-new-world-emerges-iran-will-win-israel-may-not-survive-2026-03-02.md)
+- [2026-03-03 Davis x Macgregor](../../../source-archive/statecraft/2026-03-03/source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md)
+- [2026-03-10 Davis x Macgregor](../../../source-archive/statecraft/2026-03-10/source-davis-macgregor-no-the-iran-war-is-not-over-2026-03-10.md)
+- [2026-03-15 Davis x Macgregor](../../../source-archive/statecraft/2026-03-15/source-daniel-davis-deep-dive-col-doug-macgregor-iran-war-not-ending-anytime-soon-2026-03-15.md)
+- [2026-03-26 Napolitano x Macgregor](../../../source-archive/statecraft/2026-03-26/source-napolitano-macgregor-why-trump-is-now-desperate-2026-03-26.md)
 
 ### 2026-04
 
@@ -83,9 +83,9 @@ Status: `mature retrieval month`
 Open:
 
 - [stream/macgregor-shelf-2026-04.md](stream/macgregor-shelf-2026-04.md)
-- [2026-04-21 Diesen x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
-- [2026-04-23 Judging Freedom x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
-- [2026-04-29 Davis x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-29/source-davis-macgregor-trump-dangerous-2026-04-29.md)
+- [2026-04-21 Diesen x Macgregor](../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md)
+- [2026-04-23 Judging Freedom x Macgregor](../../../source-archive/statecraft/2026-04-23/source-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md)
+- [2026-04-29 Davis x Macgregor](../../../source-archive/statecraft/2026-04-29/source-davis-macgregor-trump-dangerous-2026-04-29.md)
 
 ### 2026-05
 
@@ -94,8 +94,8 @@ Status: `support-only month`
 Open:
 
 - [stream/macgregor-shelf-2026-05.md](stream/macgregor-shelf-2026-05.md)
-- [2026-05-05 Davis x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-05/source-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
-- [2026-05-12 Davis x Macgregor](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-12/source-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md)
+- [2026-05-05 Davis x Macgregor](../../../source-archive/statecraft/2026-05-05/source-davis-macgregor-project-freedom-hormuz-2026-05-05.md)
+- [2026-05-12 Davis x Macgregor](../../../source-archive/statecraft/2026-05-12/source-daniel-davis-deep-dive-col-doug-macgregor-trump-visits-china-2026-05-12.md)
 
 ## Source-boundary audit
 
@@ -105,11 +105,11 @@ Current boundary reading:
 - [macgregor-helix.md](macgregor-helix.md) remains the comparison surface
 - host-local arcs remain the best place to read transformation by host
 - monthly shelves remain speaker-side synthesis, not source-of-record chronology
-- [macgregor-thread.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-thread.md) and [macgregor-transcript.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-transcript.md) are safe to keep only if they are visibly demoted
+- [macgregor-thread.md](../../../codex/speakers/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../codex/speakers/macgregor/macgregor-transcript.md) are safe to keep only if they are visibly demoted
 
 ## Compatibility judgment
 
-[macgregor-thread.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-thread.md) and [macgregor-transcript.md](/C:/dev/strategy-codex/codex/speakers/macgregor/macgregor-transcript.md) should remain compatibility residue.
+[macgregor-thread.md](../../../codex/speakers/macgregor/macgregor-thread.md) and [macgregor-transcript.md](../../../codex/speakers/macgregor/macgregor-transcript.md) should remain compatibility residue.
 
 Reason:
 

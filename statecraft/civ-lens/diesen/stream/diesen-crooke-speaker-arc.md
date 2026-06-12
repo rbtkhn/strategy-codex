@@ -54,12 +54,12 @@ This means the lane should be read two ways:
 
 If the operator needs only one file:
 
-- open [source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
+- open [source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](../../../../codex/years/2026/provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
 
 If the operator needs the best paired read:
 
-- open [source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
-- then [source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
+- open [source-diesen-crooke-iran-global-war-world-order-2026-04-27.md](../../../../codex/years/2026/provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md)
+- then [source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md](../../../../codex/years/2026/provenance/2026-04-07/source-diesen-crooke-iran-will-emerge-stronger-after-the-war-reshape-the-global-economy-2026-04-07.md)
 
 That pair gives the clearest combination of:
 
@@ -97,7 +97,7 @@ Typical pairings around the guest lane:
 
 ## Boundaries
 
-- If the question is mainly about spoiler logic, diplomatic room, or what settlement architecture is structurally possible, route outward to [davis-crooke-speaker-arc.md](/C:/dev/strategy-codex/codex/speakers/davis/stream/davis-crooke-speaker-arc.md) instead of stretching this altitude lane into bargaining analysis.
+- If the question is mainly about spoiler logic, diplomatic room, or what settlement architecture is structurally possible, route outward to [davis-crooke-speaker-arc.md](../../../../codex/speakers/davis/stream/davis-crooke-speaker-arc.md) instead of stretching this altitude lane into bargaining analysis.
 
 - Crooke is strongest here on statecraft memory, civilizational motive, and systemic consequence, not on technical military verification or exact shipping arithmetic.
 - The materialized shelf is real but still partial relative to the fresh stream search; absence from canonical raw-input should not be mistaken for absence from the lane.

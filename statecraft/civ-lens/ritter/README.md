@@ -57,17 +57,17 @@ The Ritter historical scaffold in this wave is intentionally narrow:
 
 The legacy `codex/speakers/ritter/` path is now front-door compatibility only.
 
-- [codex/speakers/ritter/README.md](/C:/dev/strategy-codex/codex/speakers/ritter/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/ritter/index.md) are compatibility pointers.
+- [codex/speakers/ritter/README.md](../../../codex/speakers/ritter/README.md) and [index.md](../../../codex/speakers/ritter/index.md) are compatibility pointers.
 - codex-side core files remain available for migration continuity, but this statecraft shelf is now the canonical opening path.
-- [ritter-thread.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-thread.md) and [ritter-transcript.md](/C:/dev/strategy-codex/codex/speakers/ritter/stream/ritter-transcript.md) remain compatibility residue, not competing canonical surfaces.
+- [ritter-thread.md](../../../codex/speakers/ritter/stream/ritter-thread.md) and [ritter-transcript.md](../../../codex/speakers/ritter/stream/ritter-transcript.md) remain compatibility residue, not competing canonical surfaces.
 
 ## Host Lanes
 
-- [Diesen x Ritter](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
-- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
-- [Dialogue Works x Ritter](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
-- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
+- [Diesen x Ritter](../../../codex/speakers/diesen/stream/diesen-ritter-speaker-arc.md)
+- [Davis host shelf](../../hosts/davis/README.md)
+- [Dialogue Works x Ritter](../../../codex/speakers/nima/stream/nima-ritter-speaker-arc.md)
+- [Napolitano host shelf](../../hosts/napolitano/README.md)
 
 ## Boundary
 
-Ritter is canonical here under `statecraft/civ-lens/ritter/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft)), bridge adapters still live under [`statecraft/bridges/`](/C:/dev/strategy-codex/statecraft/bridges/README.md), and lanes still own substantive drafting.
+Ritter is canonical here under `statecraft/civ-lens/ritter/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](../../../source-archive/statecraft)), bridge adapters still live under [`statecraft/bridges/`](../../bridges/README.md), and lanes still own substantive drafting.

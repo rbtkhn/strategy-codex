@@ -6,7 +6,7 @@ This speaker-local file is now a routing pointer only.
 
 The canonical bounded note-class prose home for this object is:
 
-- [statecraft/notes/barnes-on-ai.md](/C:/dev/strategy-codex/statecraft/notes/barnes-on-ai.md)
+- [statecraft/notes/barnes-on-ai.md](../../notes/barnes-on-ai.md)
 
 Use the Barnes shelf for continuity and retrieval:
 

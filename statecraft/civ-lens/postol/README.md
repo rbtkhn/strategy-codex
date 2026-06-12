@@ -30,7 +30,7 @@ Postol's canonical statecraft shelf currently has five speaker-owned layers:
 
 The real hierarchy on disk is:
 
-- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md) is the clearest mature first-open lane for engineering constraint, bunker-buster skepticism, and strike-feasibility correction.
+- [Davis host shelf](../../hosts/davis/README.md) is the clearest mature first-open lane for engineering constraint, bunker-buster skepticism, and strike-feasibility correction.
 - `Diesen x Postol` is a real co-supporting lane for escalation horizon, deterrence consequence, and the strategic meaning of physical limits.
 - `Dialogue Works x Postol` is a real co-supporting lane for live-pressure missile-effects and air-defense-collapse reads, with the clearest materialized anchors on March 23, April 3, and May 8, 2026.
 - the shelf is stronger than compatibility residue but still lighter than a month ladder because host arcs and direct transcript files own most chronology.
@@ -39,16 +39,16 @@ The real hierarchy on disk is:
 
 The legacy `codex/speakers/postol/` path is now front-door compatibility only.
 
-- [codex/speakers/postol/README.md](/C:/dev/strategy-codex/codex/speakers/postol/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/postol/index.md) are compatibility pointers.
+- [codex/speakers/postol/README.md](../../../codex/speakers/postol/README.md) and [index.md](../../../codex/speakers/postol/index.md) are compatibility pointers.
 - codex-side `speaker-object` and `cross-host` files remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for Postol statecraft work.
 
 ## Host Lanes
 
-- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
-- [Diesen x Postol](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-postol-speaker-arc.md)
-- [Dialogue Works x Postol](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-postol-speaker-arc.md)
+- [Davis host shelf](../../hosts/davis/README.md)
+- [Diesen x Postol](../../../codex/speakers/diesen/stream/diesen-postol-speaker-arc.md)
+- [Dialogue Works x Postol](../../../codex/speakers/nima/stream/nima-postol-speaker-arc.md)
 
 ## Boundary
 
-Postol is canonical here under `statecraft/civ-lens/postol/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.
+Postol is canonical here under `statecraft/civ-lens/postol/`. Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.

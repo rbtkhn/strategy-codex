@@ -71,10 +71,10 @@ Do not overstate:
 
 ## Best entry surfaces
 
-- [2026-03-18 / Tucker Carlson x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-03-18/source-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md)
-- [2026-05-08 / Daniel Davis Deep Dive cleaned transcript](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-08/source-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
-- [2026-05-15 / Mario Nawfal x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md)
-- [2026-05-28 / Mario Nawfal x Joe Kent](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
+- [2026-03-18 / Tucker Carlson x Joe Kent](../../../source-archive/statecraft/2026-03-18/source-tucker-carlson-joe-kent-reveals-all-in-first-interview-since-resigning-as-trump-s-count-2026-03-18.md)
+- [2026-05-08 / Daniel Davis Deep Dive cleaned transcript](../../../source-archive/statecraft/2026-05-08/source-davis-kent-hormuz-blockade-walkaway-2026-05-08.md)
+- [2026-05-15 / Mario Nawfal x Joe Kent](../../../source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md)
+- [2026-05-28 / Mario Nawfal x Joe Kent](../../../source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
 
 ## Practical reading rule
 

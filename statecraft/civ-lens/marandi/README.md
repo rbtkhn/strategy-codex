@@ -40,22 +40,22 @@ The real hierarchy on disk is:
 - `Diesen x Marandi` is a mature co-supporting lane for strategic-order altitude and escalation horizon.
 - `Davis x Marandi` is a mature co-supporting lane for operational limits and failed intimidation.
 - the dense spring 2026 run makes Marandi a true three-host speaker shelf rather than a single-host guest pattern.
-- [2026-05-26 / Dialogue Works x Marandi](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md) is part of the mature pressure cluster and must be read as canonical shelf evidence, not as a late appendix.
+- [2026-05-26 / Dialogue Works x Marandi](../../../source-archive/statecraft/2026-05-26/source-alkorshid-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md) is part of the mature pressure cluster and must be read as canonical shelf evidence, not as a late appendix.
 
 ## Compatibility Shape
 
 The legacy `codex/speakers/marandi/` path is now front-door compatibility only.
 
-- [codex/speakers/marandi/README.md](/C:/dev/strategy-codex/codex/speakers/marandi/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/marandi/index.md) are compatibility pointers.
+- [codex/speakers/marandi/README.md](../../../codex/speakers/marandi/README.md) and [index.md](../../../codex/speakers/marandi/index.md) are compatibility pointers.
 - codex-side thread, transcript, speaker-object, page, and theme files remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for Marandi statecraft work.
 
 ## Host Lanes
 
-- [Dialogue Works x Marandi](/C:/dev/strategy-codex/codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
-- [Diesen x Marandi](/C:/dev/strategy-codex/codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
-- [Davis host shelf](/C:/dev/strategy-codex/statecraft/hosts/davis/README.md)
+- [Dialogue Works x Marandi](../../../codex/speakers/nima/stream/nima-marandi-speaker-arc.md)
+- [Diesen x Marandi](../../../codex/speakers/diesen/stream/diesen-marandi-speaker-arc.md)
+- [Davis host shelf](../../hosts/davis/README.md)
 
 ## Boundary
 
-Marandi is canonical here under `statecraft/civ-lens/marandi/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft)), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.
+Marandi is canonical here under `statecraft/civ-lens/marandi/` as a Statecraft Synthesis shelf. Raw-text authority stays in the **Statecraft Archive** ([`source-archive/statecraft/`](../../../source-archive/statecraft)), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.

@@ -40,17 +40,17 @@ The real hierarchy on disk is:
 
 The legacy `codex/speakers/sachs/` path is now front-door compatibility only.
 
-- [codex/speakers/sachs/README.md](/C:/dev/strategy-codex/codex/speakers/sachs/README.md) and [index.md](/C:/dev/strategy-codex/codex/speakers/sachs/index.md) are compatibility pointers.
+- [codex/speakers/sachs/README.md](../../../codex/speakers/sachs/README.md) and [index.md](../../../codex/speakers/sachs/index.md) are compatibility pointers.
 - codex-side `speaker-object` and `cross-host` files remain compatibility residue or migration scaffolds.
 - this statecraft shelf is now the canonical opening path for Sachs statecraft work.
 
 ## Host Lanes
 
-- [Diesen x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2025-05-19/source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
-- [Napolitano host shelf](/C:/dev/strategy-codex/statecraft/hosts/napolitano/README.md)
-- [2026-05-07 / Mercouris x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-07/source-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
-- [2026-04-24 / Tucker x Sachs](/C:/dev/strategy-codex/source-archive/statecraft/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md)
+- [Diesen x Sachs](../../../source-archive/statecraft/2025-05-19/source-diesen-sachs-europes-declining-economy-security-and-common-sense-2025-05-19.md)
+- [Napolitano host shelf](../../hosts/napolitano/README.md)
+- [2026-05-07 / Mercouris x Sachs](../../../source-archive/statecraft/2026-05-07/source-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md)
+- [2026-04-24 / Tucker x Sachs](../../../source-archive/statecraft/2026-04-24/source-sachs-carlson-iran-war-origins-2026-04-24.md)
 
 ## Boundary
 
-Sachs is canonical here under `statecraft/civ-lens/sachs/`. Raw-text authority stays in [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.
+Sachs is canonical here under `statecraft/civ-lens/sachs/`. Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft), host-local chronology still lives primarily in host arcs and source captures, and this shelf is a routing and synthesis surface only.

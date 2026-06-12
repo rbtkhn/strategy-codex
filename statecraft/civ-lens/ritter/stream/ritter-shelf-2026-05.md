@@ -8,21 +8,21 @@ Month status: `mature retrieval month`
 
 ## May index
 
-- [2026-05-04 Diesen](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
+- [2026-05-04 Diesen](../../../../source-archive/statecraft/2026-05-04/source-diesen-ritter-hormuz-return-to-war-2026-05-04.md)
   - Cleanest post-Hormuz escalation-horizon opening.
-- [2026-05-06 Davis](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-06/source-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
+- [2026-05-06 Davis](../../../../source-archive/statecraft/2026-05-06/source-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md)
   - Continuing operational-reality opening.
-- [2026-05-13 Dialogue Works](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
+- [2026-05-13 Dialogue Works](../../../../source-archive/statecraft/2026-05-13/source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md)
   - Sharpest live-pressure and resilience articulation.
-- [2026-05-18 Judging Freedom](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
+- [2026-05-18 Judging Freedom](../../../../source-archive/statecraft/2026-05-18/source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md)
   - Legal-command lane remains fully active.
-- [2026-05-10 Cyrus Janssen](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-10/source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md)
+- [2026-05-10 Cyrus Janssen](../../../../source-archive/statecraft/2026-05-10/source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md)
   - Support-tier energy-shock extension.
-- [2026-05-18 Consortium News](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
+- [2026-05-18 Consortium News](../../../../source-archive/statecraft/2026-05-18/source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md)
   - Support-tier debate-pressure extension.
-- [2026-05-27 Dialogue Works](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-27/source-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md)
+- [2026-05-27 Dialogue Works](../../../../source-archive/statecraft/2026-05-27/source-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md)
   - Sharpest late-May convergence of Iran-war loss-of-control and Ukraine-to-Europe escalation pressure.
-- [2026-05-28 Garland Nixon](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-28/source-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md)
+- [2026-05-28 Garland Nixon](../../../../source-archive/statecraft/2026-05-28/source-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md)
   - Support-tier constitutional-decay and Kiev-targeting extension that widens the late-May pressure cluster without changing the canonical helix.
 
 ## Reading note

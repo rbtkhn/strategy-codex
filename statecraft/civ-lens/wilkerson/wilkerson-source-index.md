@@ -6,7 +6,7 @@ Purpose: statecraft-side doorway to the full Wilkerson provenance bench.
 
 The exhaustive resolved appearance map still lives here:
 
-- [legacy Wilkerson source index](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-source-index.md)
+- [legacy Wilkerson source index](../../../codex/speakers/wilkerson/wilkerson-source-index.md)
 
 Use that surface when:
 

@@ -12,13 +12,13 @@ That means the main question is not whether the object exists. The question is h
 
 The current notebook truth is:
 
-- the primary body is [statecraft/civ-lens/diesen/stream/](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/)
+- the primary body is [statecraft/civ-lens/diesen/stream/](stream)
 - the guest-local evidence is distributed through recurring `diesen-*speaker-arc.md` notes
 - the speaker folder exists to hold higher-order orientation about Diesen as an object, not to compete with the stream shelf
 
 Recent representation note:
 
-- [2026-05-16 Diesen x Mercouris](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/stream/diesen-mercouris-speaker-arc.md) should be read as both a Diesen host-shelf event and a Mercouris speaker-object reinforcement. The raw transcript remains single-source at [source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](/C:/dev/strategy-codex/codex/years/2026/provenance/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md).
+- [2026-05-16 Diesen x Mercouris](stream/diesen-mercouris-speaker-arc.md) should be read as both a Diesen host-shelf event and a Mercouris speaker-object reinforcement. The raw transcript remains single-source at [source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](../../../codex/years/2026/provenance/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md).
 
 ## How to read the split
 

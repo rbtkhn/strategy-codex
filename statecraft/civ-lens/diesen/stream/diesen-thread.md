@@ -14,7 +14,7 @@ Quick separation rule:
 
 If a question is about host transformation, guest differentiation, or canonical routing, route to those named shelf surfaces instead of widening this file.
 
-Compatibility note: this file is a **legacy host-continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Diesen structure now lives in the host shelf front door at [diesen/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/README.md), the host routing surface at [diesen/index.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/index.md), and the distinct guest arcs under this host. Do not treat this file as a competing canonical topical-thread atlas.
+Compatibility note: this file is a **legacy host-continuity compatibility surface** carried forward from the earlier strategy-thread system. The canonical Diesen structure now lives in the host shelf front door at [diesen/README.md](../README.md), the host routing surface at [diesen/index.md](../index.md), and the distinct guest arcs under this host. Do not treat this file as a competing canonical topical-thread atlas.
 
 **Source:** Distilled from [`strategy-expert-diesen-transcript.md`](strategy-expert-diesen-transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).

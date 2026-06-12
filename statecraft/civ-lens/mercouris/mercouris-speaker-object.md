@@ -4,7 +4,7 @@ WORK only; not Record.
 
 object_shape: stream-native
 
-Purpose: define Mercouris as a first-class speaker object without forcing him into the wrong shape. Unlike Crooke or Ritter, whose most useful speaker notes are cross-host helixes, Mercouris is primarily a stream-native speaker object whose main body already exists as the native [Mercouris statecraft speaker shelf](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/README.md). Within that stream, `mercouris-arc` should be read as a bounded helix containing multiple `mercouris-arc-threads`.
+Purpose: define Mercouris as a first-class speaker object without forcing him into the wrong shape. Unlike Crooke or Ritter, whose most useful speaker notes are cross-host helixes, Mercouris is primarily a stream-native speaker object whose main body already exists as the native [Mercouris statecraft speaker shelf](README.md). Within that stream, `mercouris-arc` should be read as a bounded helix containing multiple `mercouris-arc-threads`.
 
 ## Core claim
 
@@ -21,9 +21,9 @@ The native Mercouris stream is therefore not background evidence for some higher
 
 ## Arc doctrine
 
-`mercouris-arc` is not a synonym for the whole folder and not a single episode run. It is the bounded helix carried by the native stream. It contains multiple recurring `mercouris-arc-threads`, currently indexed at [mercouris-arc-threads.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/stream/mercouris-arc-threads.md).
+`mercouris-arc` is not a synonym for the whole folder and not a single episode run. It is the bounded helix carried by the native stream. It contains multiple recurring `mercouris-arc-threads`, currently indexed at [mercouris-arc-threads.md](stream/mercouris-arc-threads.md).
 
-Use [mercouris-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/stream/mercouris-arc.md) when the question is about the bounded arc shape. Use the thread atlas when the question is about durable theses. Use the monthly shelves and pages when the question is about dated sequencing.
+Use [mercouris-arc.md](stream/mercouris-arc.md) when the question is about the bounded arc shape. Use the thread atlas when the question is about durable theses. Use the monthly shelves and pages when the question is about dated sequencing.
 
 Mercouris now also has visible month-support stratification inside the native stream: January functions as a **continuity-setup month**, February functions as a **mature bridge month**, while March through May function as **mature dense-core shelves**.
 
@@ -58,38 +58,38 @@ In other words: do not read Mercouris as a failed Crooke or an unfinished Ritter
 
 The main secondary reinforcement currently visible is the stable **Davis x Mercouris host-local arc**. That matters because it shows the Mercouris voice can survive translation into another host lane, especially under Davis's military-feasibility and policy-risk questioning. The guest-distributed body is now real enough to route, but it is still thinner than the native Mercouris stream body.
 
-See [mercouris-cross-host-note.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/mercouris-cross-host-note.md).
+See [mercouris-cross-host-note.md](mercouris-cross-host-note.md).
 
 ## Open first
 
 If the operator needs the best current entry into the speaker object:
 
-- open [mercouris-shelf-2026-05.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/stream/mercouris-shelf-2026-05.md)
+- open [mercouris-shelf-2026-05.md](stream/mercouris-shelf-2026-05.md)
 
 If the operator needs the escalation bridge rather than the live frontier:
 
-- open [mercouris-shelf-2026-02.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/stream/mercouris-shelf-2026-02.md)
+- open [mercouris-shelf-2026-02.md](stream/mercouris-shelf-2026-02.md)
 
 If the operator needs the pre-bridge setup rather than the escalation bridge or live frontier:
 
-- open [mercouris-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/stream/mercouris-shelf-2026-01.md)
+- open [mercouris-shelf-2026-01.md](stream/mercouris-shelf-2026-01.md)
 
 If the operator needs the first dense-core crisis month rather than the bridge or latest frontier:
 
-- open [mercouris-shelf-2026-03.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/stream/mercouris-shelf-2026-03.md)
+- open [mercouris-shelf-2026-03.md](stream/mercouris-shelf-2026-03.md)
 
 If the operator needs the sharpest current frontier page:
 
-- open [mercouris-page-2026-05-08-to-2026-05-12.md](/C:/dev/strategy-codex/codex/speakers/mercouris/stream/mercouris-page-2026-05-08-to-2026-05-12.md)
+- open [mercouris-page-2026-05-08-to-2026-05-12.md](../../../codex/speakers/mercouris/stream/mercouris-page-2026-05-08-to-2026-05-12.md)
 
 If the operator needs the object doctrine rather than the live stream:
 
-- stay here, then read [mercouris-cross-host-note.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/mercouris-cross-host-note.md)
+- stay here, then read [mercouris-cross-host-note.md](mercouris-cross-host-note.md)
 
 If the operator needs the Mercouris arc:
 
-- open [mercouris-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/stream/mercouris-arc.md)
-- then open [mercouris-arc-threads.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/stream/mercouris-arc-threads.md)
+- open [mercouris-arc.md](stream/mercouris-arc.md)
+- then open [mercouris-arc-threads.md](stream/mercouris-arc-threads.md)
 
 ## Routing use
 

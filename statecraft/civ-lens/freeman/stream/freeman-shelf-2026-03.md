@@ -9,4 +9,4 @@ March is the first clearly mature Freeman war-system month across hosts.
 Open with:
 
 - [Freeman support spine](../freeman-support-spine-2025-2026.md)
-- [Legacy March cross-host arc](/C:/dev/strategy-codex/codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md)
+- [Legacy March cross-host arc](../../../../codex/speakers/freeman/stream/freeman-march-2026-cross-host-arc.md)

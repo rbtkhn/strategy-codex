@@ -42,4 +42,4 @@ This shelf owns the local opening path. Public repo identity remains `rbtkhn/ph-
 
 ## Boundary
 
-Jiang is canonical here under `statecraft/civ-lens/jiang/`. Use the Jiang shelf to decide which layer you mean, the embedded mirror for public corpus files, and [`source-archive/statecraft/`](/C:/dev/strategy-codex/source-archive/statecraft) for raw source authority outside the mirror.
+Jiang is canonical here under `statecraft/civ-lens/jiang/`. Use the Jiang shelf to decide which layer you mean, the embedded mirror for public corpus files, and [`source-archive/statecraft/`](../../../source-archive/statecraft) for raw source authority outside the mirror.
