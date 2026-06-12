@@ -1,0 +1,34 @@
+---
+description: Prevent multi-minute tool hangs — Read over Grep for bounded paths; no parallel search storms; shell batching; fail-over after slow tools.
+alwaysApply: true
+---
+
+# Agent tool latency discipline (anti-hang)
+
+**Problem:** `Grep` / `Glob` / broad search on small known files can block minutes (Windows harness + context pressure). Do not sit on hung tools.
+
+## Hard rules
+
+1. **Known path → `Read`, not `Grep`.** If the file is already named, use `Read` with `limit`/`offset`.
+2. **No parallel search storms.** One `Read` (≤120 lines) beats multiple `Grep`s on the same target.
+3. **One shell per intent.** Combine commands with `;` — each `Shell` call pays ~8–10s harness tax on Windows.
+4. **Small ships:** `python3 scripts/operator_handoff_check.py --fast` — not full handoff every slice.
+5. **After any hang or "interrupted" in the thread:** `Read` + `Write` only; no `Grep`, `Glob`, `SemanticSearch`.
+6. **Never retry the same hung tool shape** on the same paths — fail over to `Read` or ask for a line range.
+
+## Bounded paths (always `Read`)
+
+- `statecraft/daily/*.md`, watch sheets, wire matrices
+- Single `source-archive/statecraft/<day>/source-*.md`
+- Files the operator has open — `Read` them; don't repo-wide `Grep`
+
+Use `Grep` / `SemanticSearch` only when the path is **unknown** or the search spans **many** files.
+
+## Conductor / WORK menus
+
+When a movement names **exact files**, `Read` those files first — never open with parallel `Grep`.
+
+## Operator override
+
+- **`fast tools`** or **`read only`** → strict Read/Write/single-shell for that turn.
+- **`no grep`** → force this rule.

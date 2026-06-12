@@ -98,6 +98,18 @@ From [week1](./2026-06-week1-start-here.md) finalized unspent paths:
 
 ---
 
+## Open tension (2026-06-12 — Furtwangler park)
+
+**MOU theater vs braid failure:** [2026-06-11 daily](./2026-06-11.md) frames anchor trio as **MOU theater × dual channel**; [watch sheet](./2026-06-08-pape-day-100-indicator-watch-sheet.md) **2026-06-11** row marks **`BRAID-FAILED`** (`D-HORM-01`) and **MOU theater ≠ off-ramp**. Hold both without synthesis until one falsifies the other.
+
+**Decision trigger (Hormuz/MOU):** Commercial transit + comms restore `D-HORM-01` to pass **without** collapsing the **trap confirmed** row — or explicit written terms within 72h that markets treat as binding despite evening kinetics.
+
+**Routing score vs git receipt:** `validate_repo_routing.py --strict` passes locally while `codex/speakers/mercouris/mercouris-source-index.md` (+4 Jun 8–11 rows) and `statecraft/data/month-routing-metadata.json` (`generated_at` only) remain uncommitted.
+
+**Decision trigger (ship):** Commit mercouris shelf rows **or** `git restore` metadata stamp **before** treating routing/shelf as closed.
+
+---
+
 ## Next intake
 
 - **[2026-06-09 intake readiness](./2026-06-09-intake-readiness.md)** — command fracture queue; 19/19 sync.
