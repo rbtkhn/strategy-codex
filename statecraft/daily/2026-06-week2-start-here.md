@@ -2,17 +2,17 @@ WORK only; not Record.
 
 # June 2026 Week 2 — Start Here
 
-**Month-week 2:** 2026-06-08 – 2026-06-14 · **Status:** partial through 2026-06-09
+**Month-week 2:** 2026-06-08 – 2026-06-14 · **Status:** partial through 2026-06-11
 
-**Last refresh:** 2026-06-10 — initial partial hinge after 8–9 Jun daily synthesis + wire-verify batch close.
+**Last refresh:** 2026-06-12 — MOU dual-channel object after [2026-06-11 daily](./2026-06-11.md) + Pape indicator backtest row.
 
 One entry point for re-entering month-week 2 of June 2026. Open before the day ladder or statecraft-note scatter.
 
-**Governing object (week):** Who commands the **stop button** when ceasefire grammar has downgraded to fraying de-escalation—and whether evening kinetics re-escalate anyway.
+**Governing object (week):** Whether **near-text MOU** and **executive–kinetic dual channel** can coexist without falsifying command — after command fracture and GCC ladder (Jun 9–10).
 
-**Object migration:** ceasefire **label** (Jun 8) → command **fracture** + Apache **pretext chain** → CENTCOM/GCC **evening kinetic** (Jun 9).
+**Object migration:** ceasefire **label** (Jun 8) → command **fracture** + Apache **pretext** (Jun 9) → MOU **theater** × Kharg/strike **oscillation** (Jun 11).
 
-**Convergence (one line):** `trap + threshold + legitimacy` — Pape middle-game trap geometry; Marandi resistance-equation receipt; Freeman command-fracture gauntlet.
+**Convergence (one line):** `trap + threshold + legitimacy` — Pape **trap-confirmed** indicator row; Marandi/Johnson **five demands** gate; Barnes **dual-channel** routing.
 
 **Archive checkpoint:** [source-archive/statecraft/2026-06.md](../../source-archive/statecraft/2026-06.md) — **2** daily syntheses in range (08–09); **19** source files on 2026-06-09; first capture in week2 **2026-06-08**. **Month compression:** [2026-06.md](./2026-06.md) (partial).
 
@@ -20,16 +20,17 @@ One entry point for re-entering month-week 2 of June 2026. Open before the day l
 
 ---
 
-## If you only read three things
+## If you only read four things
 
-1. **[2026-06-09](./2026-06-09.md)** — command fracture + evening CENTCOM/GCC seam (dominant close).
-2. **[2026-06-08](./2026-06-08.md)** — ceasefire grammar baseline + wire batch open.
-3. **[2026-06-08-09-wire-verify-matrix](./2026-06-08-09-wire-verify-matrix.md)** — S1–S10 shared seam receipts (tier 3).
+1. **[2026-06-11](./2026-06-11.md)** — MOU theater × dual channel + Pape backtest spine (dominant close).
+2. **[2026-06-09](./2026-06-09.md)** — command fracture + evening CENTCOM/GCC seam.
+3. **[2026-06-08](./2026-06-08.md)** — ceasefire grammar baseline + wire batch open.
+4. **[Pape watch sheet — Jun 11 row](./2026-06-08-pape-day-100-indicator-watch-sheet.md)** — trap confirmed + backtest.
 
 Heavy-week adds:
 
-4. **[Apache × Shahed physics fork](./2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md)** — S2 cause contested; pretext chain.
-5. **[S9 Ukraine mesh — Krapivnik](./2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)** — secondary bench (not Apache).
+5. **[Apache × Shahed physics fork](./2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md)** — S2 cause contested; pretext chain.
+6. **[S9 Ukraine mesh — Krapivnik](./2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)** — secondary bench (not Apache).
 
 ---
 
@@ -37,6 +38,7 @@ Heavy-week adds:
 
 | Question | Open first |
 |----------|------------|
+| What changed Jun 9 → 11? | [2026-06-11](./2026-06-11.md) executive read + MOU dual channel |
 | What changed Jun 8 → 9? | [2026-06-09](./2026-06-09.md) executive read + object migration line |
 | Which ceasefire label still applied Jun 8? | [2026-06-08](./2026-06-08.md) |
 | Apache down → Qeshm strikes — accident or pretext? | [physics fork](./2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md) |

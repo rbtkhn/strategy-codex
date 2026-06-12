@@ -112,7 +112,7 @@ Short rule: **Jun 8 opens all three indicators in stressed or linked state — w
 | Week ending | #1 Cushion | #2 Boundaries | #3 Braid rollup | Escalation-trap read |
 |-------------|------------|---------------|-----------------|----------------------|
 | **2026-06-08** (baseline) | `CUSH-STRESSED` | `BOUND-LINKED` | `BRAID-STRESSED` | **Live** — both sides assume time favors self |
-| *(next review)* | | | | |
+| **2026-06-11** (Jun 9–11 pass) | `CUSH-STRESSED` → normalizing path | `BOUND-REGIONALIZED` | **`BRAID-FAILED`** (`D-HORM-01`) | **Trap confirmed** — MOU theater ≠ off-ramp |
 
 **Trap confirmed (Pape):** #1 → fired **and** #2 → fired or `BOUND-LINKED` sustained **and** #3 → `BRAID-STRESSED` or worse — without off-ramp (upfront trust goods + in-person talks).
 
@@ -125,6 +125,34 @@ Short rule: **Jun 8 opens all three indicators in stressed or linked state — w
 | Date | Reviewer | Notes |
 |------|----------|-------|
 | 2026-06-08 | intake batch | Baseline row opened from Pape Day 100 + gate patch |
+| 2026-06-11 | indicator pass + backtest | Jun 9–11 wire/archive pass: `TRIG-CAT-01` fired; `D-HORM-01` failed; `CUSH-GATE-01` pseudo-gate risk on MOU; trap-confirmed row. Backtest § below. Parent daily: [2026-06-11.md](./2026-06-11.md). |
+
+---
+
+## Jun 1-8 spine backtest (vs 2026-06-11 row)
+
+**Window:** Pape Substack **Jun 1–8** scored against **Jun 9–11** events + scorecard above. **~85% directional hit** on trap geometry; not a war-winner pick.
+
+| Post | Core bet | Jun 11 verdict |
+|------|----------|----------------|
+| **Jun 1** *Trap Gets Worse* | Instability favors Tehran; bombing-while-talking ~30d; cushion clock | **Right** — trap row confirmed |
+| **Jun 2** *Bombing While Talking* | Lebanon linked to Gulf talks; resistance viable | **Right** — resistance equation + MOU dual channel |
+| **Jun 3** *Bombing While Talking II* | Credibility trap; Labor Day blockade; strike-back loop | **Right** — CENTCOM/GCC ladder; blockade until MOU |
+| **Jun 4** *Lebanon Fuse* | Triad exclusion; fuse at sea | **Right** — Hormuz/Kharg primary; Red Sea partial |
+| **Jun 6** *New Phase* | Survival → hegemony; Gulf-host pressure; $24B | **Right** — MOU draft assets; GCC base ladder |
+| **Jun 8** *Day 100* | Three indicators; off-ramp disappears | **Right** — watch protocol validated |
+
+**Indicator backtest (Jun 8 forecast → Jun 11):**
+
+| Indicator | Forecast | Actual | Hit |
+|-----------|----------|--------|-----|
+| **#1 Cushion** | Emergency measures → enduring crisis | IEA second-tranche consult; blockade-through-summer; MOU cushion language | **Partial → Right** |
+| **#2 Boundaries** | Linked theaters before governments admit | Lebanon→Iran→Gulf→Hormuz single ladder | **Right** |
+| **#3 Braid** | Dual-corridor contest | `D-HORM` failed; `D-RED` stressed (Houthi Israeli ban only) | **Partial** |
+
+**Weakest leg:** full Red Sea braid failure — Hormuz/Kharg carried the braid before Mandab commercial pattern.
+
+**Still open:** inventory cliff mid-Jul–early Aug; summer gasoline → more-war politics (Jun 1 Q4–5).
 
 ---
 
@@ -135,4 +163,4 @@ Short rule: **Jun 8 opens all three indicators in stressed or linked state — w
 - [Hormuz recognition transit transaction](../persia/transactions/hormuz-recognition-transit-transaction.md)
 - [Marandi deal floor × gate clauses](./2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
 - [Davis Lebanon fulcrum × Crooke](./2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
-- Parent daily (when written): [2026-06-08.md](./2026-06-08.md)
+- Parent daily: [2026-06-08.md](./2026-06-08.md) · [2026-06-11.md](./2026-06-11.md) (MOU theater × indicator row)
