@@ -16,7 +16,10 @@ Modes
   closeout    Signing-off Step 1: handoff check (gate, PH closeout, commits, worktree) - same coffee A-D hub menu after; conductor remains name-only
   reentry     Cold-thread stack: handoff + daily warmup + harness (same as operator_reentry_stack)
   first-command
-              New-chat bootstrap: compact cold-thread stack + Coffee Bootstrap Brief
+              New-chat bootstrap: Coffee Bootstrap Brief + inline fast Step 1 (one Python
+              process, one git status scan). Skips subprocess chain, integrity validator,
+              gh auth probe, and daily warmup. Use --verbose for full blocks; --subprocess
+              for legacy subprocess chain.
 
 Usage
 -----
@@ -79,28 +82,96 @@ def _run(argv: list[str], *, label: str | None = None, quiet: bool = False) -> i
 
 def _branch_snapshot() -> str:
     """One plain-language block: branch hygiene status."""
-    status = subprocess.run(
-        ["git", "status", "-sb"], cwd=str(_REPO),
-        **_CAPTURE_KWARGS,
-    )
-    branches = subprocess.run(
-        ["git", "branch", "-vv"], cwd=str(_REPO),
-        **_CAPTURE_KWARGS,
-    )
-    status_out = status.stdout.strip()
-    branch_out = branches.stdout.strip()
-    non_main = [
-        line.strip() for line in branch_out.splitlines()
-        if line.strip() and not line.strip().startswith("* main")
-        and not line.strip().startswith("main")
-    ]
-    if not non_main:
+    try:
+        from git_worktree_snapshot import get_git_worktree_snapshot
+    except ImportError:
+        from scripts.git_worktree_snapshot import get_git_worktree_snapshot  # type: ignore
+
+    snap = get_git_worktree_snapshot()
+    if not snap.ok:
+        return f"Branch snapshot unavailable: {snap.error}"
+    if snap.branch_name == "main" and not snap.status_lines:
         return "Branch hygiene: clean (main only)."
+    status_out = "\n".join(snap.porcelain_lines)
     return (
         f"Branch snapshot:\n{status_out}\n\n"
-        f"Branches:\n{branch_out}\n\n"
-        f"Non-main branches: {len(non_main)} - review per git-branch-hygiene.md."
+        f"Non-main branch check: branch={snap.branch_name}."
     )
+
+
+def _emit_inline(label: str, text: str, *, quiet: bool) -> None:
+    if quiet:
+        print(f"$ {label} ... ok", flush=True)
+        return
+    print(f"\n{'=' * 60}\n$ {label}\n{'=' * 60}\n", flush=True)
+    if text:
+        print(text, end="" if text.endswith("\n") else "\n")
+
+
+def _run_inline_steps(
+    user: str,
+    *,
+    mode: str,
+    compact: bool,
+    quiet: bool,
+    verbose_dream: bool,
+    show_civ_mem: bool,
+    show_rollup: bool,
+    fast: bool,
+) -> int:
+    """Run coffee Step 1 in-process (one Python interpreter, one git snapshot)."""
+    try:
+        from git_worktree_snapshot import get_git_worktree_snapshot
+    except ImportError:
+        from scripts.git_worktree_snapshot import get_git_worktree_snapshot  # type: ignore
+
+    get_git_worktree_snapshot(refresh=True)
+
+    if mode == "closeout":
+        from operator_handoff_check import build_handoff_check
+
+        _emit_inline(
+            f"operator_handoff_check.py -u {user}",
+            build_handoff_check(user_id=user, fast=fast),
+            quiet=quiet,
+        )
+        return 0
+
+    if mode in {"reentry", "first-command"}:
+        from operator_handoff_check import build_handoff_check
+
+        handoff_fast = fast or mode == "first-command"
+        _emit_inline(
+            f"operator_handoff_check.py -u {user}" + (" --fast" if handoff_fast else ""),
+            build_handoff_check(user_id=user, fast=handoff_fast),
+            quiet=quiet,
+        )
+
+    if mode in {"work-start", "light", "reentry"}:
+        from operator_daily_warmup import build_operator_daily_warmup
+
+        _emit_inline(
+            f"operator_daily_warmup.py -u {user}",
+            build_operator_daily_warmup(
+                user_id=user,
+                verbose_dream=verbose_dream,
+                show_civ_mem=show_civ_mem or None,
+                show_rollup=show_rollup or None,
+                fast=fast or mode in {"light", "first-command"},
+            ),
+            quiet=quiet,
+        )
+
+    if mode in {"work-start", "light", "minimal", "reentry", "first-command"}:
+        from harness_warmup import render_compact_warmup
+
+        _emit_inline(
+            f"harness_warmup.py -u {user} --compact",
+            render_compact_warmup(user),
+            quiet=quiet,
+        )
+
+    return 0
 
 
 def main() -> int:
@@ -155,6 +226,16 @@ def main() -> int:
         default=None,
         help="Cursor UI model label for work-cadence-events line (else CURSOR_MODEL env, else unknown)",
     )
+    p.add_argument(
+        "--fast",
+        action="store_true",
+        help="Fast Step 1: shared git snapshot, skip integrity/gh/pytest probes, handoff --fast.",
+    )
+    p.add_argument(
+        "--subprocess",
+        action="store_true",
+        help="Force legacy subprocess chain instead of in-process Step 1.",
+    )
     args = p.parse_args()
     if args.first_command:
         args.mode = "first-command"
@@ -197,21 +278,42 @@ def main() -> int:
 
     first_command = args.mode == "first-command"
     show_details = not first_command or args.verbose
+    fast = args.fast or first_command
+    use_inline = not args.subprocess
 
     if first_command:
         try:
             from coffee_bootstrap_brief import build_coffee_bootstrap_brief, format_coffee_bootstrap_brief
 
-            print(format_coffee_bootstrap_brief(build_coffee_bootstrap_brief(user)))
+            print(format_coffee_bootstrap_brief(build_coffee_bootstrap_brief(user, fast=fast)))
             if args.verbose:
                 print()
         except Exception as exc:
             print(f"Coffee Bootstrap Brief: unavailable ({exc})")
 
-    for argv in steps:
-        code = _run(argv, quiet=first_command and not args.verbose)
+    if use_inline:
+        code = _run_inline_steps(
+            user,
+            mode=args.mode,
+            compact=args.compact,
+            quiet=first_command and not args.verbose,
+            verbose_dream=args.verbose_dream,
+            show_civ_mem=args.show_civ_mem,
+            show_rollup=args.show_rollup,
+            fast=fast,
+        )
         if code != 0:
             return code
+    else:
+        for argv in steps:
+            argv = list(argv)
+            if fast and "operator_handoff_check.py" in " ".join(argv):
+                argv.append("--fast")
+            if fast and "operator_daily_warmup.py" in " ".join(argv):
+                argv.append("--fast")
+            code = _run(argv, quiet=first_command and not args.verbose)
+            if code != 0:
+                return code
 
     if args.mode != "closeout" and show_details:
         print(f"\n{'=' * 60}\n$ git branch snapshot\n{'=' * 60}\n", flush=True)

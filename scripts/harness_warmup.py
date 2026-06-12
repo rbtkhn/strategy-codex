@@ -204,6 +204,143 @@ def _last_activity_oneliner(evidence_content: str) -> str:
     return f"{act_id} ({d}) — {label}"
 
 
+def render_compact_warmup(
+    user: str,
+    *,
+    territory: str = "all",
+    tail: int = DEFAULT_TAIL,
+    fresh_judge: bool = False,
+) -> str:
+    """Build compact harness warmup text without spawning a subprocess."""
+    territory = normalize_territory_cli(territory)
+    user_dir = profile_dir(user)
+    if not user_dir.exists():
+        return f"User dir not found: {user_dir}"
+
+    try:
+        from strategy_codex_config import record_frozen
+    except ImportError:
+        from scripts.strategy_codex_config import record_frozen  # type: ignore
+    frozen = record_frozen() and territory != "companion"
+
+    pr = read_path(user_dir / "recursion-gate.md")
+    evidence = read_path(user_dir / "self-archive.md") or read_path(user_dir / "self-evidence.md")
+    session = read_path(user_dir / "session-log.md")
+
+    politics_n = len(pending_by_territory(pr)[0])
+    comp_n = len(pending_by_territory(pr)[1])
+    pending_list = [] if frozen else _pending_candidates(pr, territory)
+    pending_n = len(pending_list)
+    last_act = "" if frozen else _last_activity_oneliner(evidence)
+    tail_lines = _session_lines_tail(session, max(1, tail))
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+    receipt_one = _last_merge_receipt_line(user_dir)
+
+    best_move_line = ""
+    try:
+        from suggest_best_move import suggest_best_move
+        best_move_line = suggest_best_move(user).get("move", "")
+    except Exception:
+        try:
+            from scripts.suggest_best_move import suggest_best_move
+            best_move_line = suggest_best_move(user).get("move", "")
+        except Exception:
+            pass
+
+    stale = _stale_candidates(pr)
+
+    cadence_line = ""
+    try:
+        from audit_cadence_rhythm import compute_rhythm_summary, format_discipline_one_liner
+        cadence_line = format_discipline_one_liner(compute_rhythm_summary(user, 14))
+    except Exception:
+        try:
+            from scripts.audit_cadence_rhythm import compute_rhythm_summary, format_discipline_one_liner
+            cadence_line = format_discipline_one_liner(compute_rhythm_summary(user, 14))
+        except Exception:
+            pass
+
+    gap_line = ""
+    if not frozen:
+        try:
+            from detect_capture_gap import detect_gap, format_gap_one_liner
+            gap_result = detect_gap(user)
+            if gap_result.get("level", "ok") != "ok":
+                gap_line = format_gap_one_liner(gap_result)
+        except Exception:
+            try:
+                from scripts.detect_capture_gap import detect_gap, format_gap_one_liner
+                gap_result = detect_gap(user)
+                if gap_result.get("level", "ok") != "ok":
+                    gap_line = format_gap_one_liner(gap_result)
+            except Exception:
+                pass
+
+    shift_line = ""
+    try:
+        from detect_capability_shift import detect_shifts, format_alert_one_liner
+        shift_result = detect_shifts(user, offline=True, category="model")
+        if shift_result.get("alert_count", 0) > 0:
+            shift_line = format_alert_one_liner(shift_result)
+    except Exception:
+        try:
+            from scripts.detect_capability_shift import detect_shifts, format_alert_one_liner
+            shift_result = detect_shifts(user, offline=True, category="model")
+            if shift_result.get("alert_count", 0) > 0:
+                shift_line = format_alert_one_liner(shift_result)
+        except Exception:
+            pass
+
+    autonomy_line = ""
+    try:
+        from work_dev.evaluate_autonomy_tiers import format_autonomy_warmup_line
+
+        al = format_autonomy_warmup_line(_REPO_ROOT)
+        if al:
+            autonomy_line = al
+    except Exception:
+        try:
+            from scripts.work_dev.evaluate_autonomy_tiers import format_autonomy_warmup_line
+
+            al = format_autonomy_warmup_line(_REPO_ROOT)
+            if al:
+                autonomy_line = al
+        except Exception:
+            pass
+
+    bits: list[str] = []
+    if fresh_judge:
+        bits.append(
+            f"[FRESH JUDGE · canonical=repo · gate={user}/recursion-gate.md · receipt={receipt_one or 'none'}]"
+        )
+    bits.append(f"[strategy-codex warmup · {user} · {ts} · territory={territory}]")
+    if frozen:
+        bits.append("Record frozen (fork revive: --territory companion).")
+    else:
+        bits.append(
+            f"Pending ({territory}): {pending_n} (work-politics {politics_n} · Companion {comp_n} total)."
+        )
+    if pending_list:
+        bits.append("IDs: " + ", ".join(p[0] for p in pending_list[:5]) + ("…" if len(pending_list) > 5 else "") + ".")
+    if stale:
+        bits.append("STALE: " + ", ".join(f"{cid} ({age}d)" for cid, age in stale) + ".")
+    if last_act:
+        bits.append(f"Last EVIDENCE: {last_act}.")
+    if best_move_line:
+        bits.append(f"Best move: {best_move_line}.")
+    if cadence_line:
+        bits.append(cadence_line + ".")
+    if gap_line:
+        bits.append(gap_line + ".")
+    if shift_line:
+        bits.append(shift_line + ".")
+    if autonomy_line:
+        bits.append(autonomy_line + ".")
+    if tail_lines:
+        bits.append("Session tail: " + " / ".join(tail_lines[-2:]))
+    return " ".join(bits)
+
+
 def main() -> int:
     _configure_utf8_stdio()
     parser = argparse.ArgumentParser(
@@ -354,37 +491,7 @@ def main() -> int:
             pass
 
     if args.compact:
-        bits = []
-        if args.fresh_judge:
-            bits.append(
-                f"[FRESH JUDGE · canonical=repo · gate={args.user}/recursion-gate.md · receipt={receipt_one or 'none'}]"
-            )
-        bits.append(f"[strategy-codex warmup · {args.user} · {ts} · territory={territory}]")
-        if frozen:
-            bits.append("Record frozen (fork revive: --territory companion).")
-        else:
-            bits.append(
-                f"Pending ({territory}): {pending_n} (work-politics {politics_n} · Companion {comp_n} total)."
-            )
-        if pending_list:
-            bits.append("IDs: " + ", ".join(p[0] for p in pending_list[:5]) + ("…" if len(pending_list) > 5 else "") + ".")
-        if stale:
-            bits.append("STALE: " + ", ".join(f"{cid} ({age}d)" for cid, age in stale) + ".")
-        if last_act:
-            bits.append(f"Last EVIDENCE: {last_act}.")
-        if best_move_line:
-            bits.append(f"Best move: {best_move_line}.")
-        if cadence_line:
-            bits.append(cadence_line + ".")
-        if gap_line:
-            bits.append(gap_line + ".")
-        if shift_line:
-            bits.append(shift_line + ".")
-        if autonomy_line:
-            bits.append(autonomy_line + ".")
-        if tail:
-            bits.append("Session tail: " + " / ".join(tail[-2:]))
-        print(" ".join(bits))
+        print(render_compact_warmup(args.user, territory=territory, tail=max(1, args.tail), fresh_judge=args.fresh_judge))
         return 0
 
     lines = [

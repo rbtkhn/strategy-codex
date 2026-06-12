@@ -103,55 +103,29 @@ def _collect_coffee_recursion(user_id: str) -> dict[str, Any] | None:
 
 
 def _collect_branch_count() -> int:
-    import subprocess
-
     try:
-        result = subprocess.run(
-            ["git", "branch"],
-            capture_output=True,
-            text=True,
-            cwd=str(REPO_ROOT),
-            timeout=5,
-            check=False,
-        )
-    except Exception:
+        from git_worktree_snapshot import get_git_worktree_snapshot
+    except ImportError:
+        from scripts.git_worktree_snapshot import get_git_worktree_snapshot  # type: ignore
+
+    snap = get_git_worktree_snapshot()
+    if not snap.ok:
         return 0
-    branches = [
-        line.strip()
-        for line in result.stdout.splitlines()
-        if line.strip() and not line.strip().lstrip("* ").startswith("main")
-    ]
-    return len(branches)
+    if snap.branch_name != "main" and snap.branch_name != "unknown":
+        return 1
+    return 0
 
 
 def _collect_changed_paths() -> list[str]:
-    import subprocess
+    try:
+        from git_worktree_snapshot import get_git_worktree_snapshot
+    except ImportError:
+        from scripts.git_worktree_snapshot import get_git_worktree_snapshot  # type: ignore
 
-    changed: set[str] = set()
-
-    def _run_git(args: list[str]) -> None:
-        try:
-            result = subprocess.run(
-                ["git", *args],
-                capture_output=True,
-                text=True,
-                cwd=str(REPO_ROOT),
-                timeout=5,
-                check=False,
-            )
-        except Exception:
-            return
-        if result.returncode != 0:
-            return
-        for raw in result.stdout.splitlines():
-            item = raw.strip()
-            if item:
-                changed.add(item.replace("\\", "/"))
-
-    _run_git(["diff", "--name-only", "origin/main..HEAD"])
-    _run_git(["diff", "--name-only"])
-    _run_git(["ls-files", "--others", "--exclude-standard"])
-    return sorted(changed)
+    snap = get_git_worktree_snapshot()
+    if snap.ok:
+        return list(snap.changed_paths)
+    return []
 
 
 def _time_of_day_energy() -> str:

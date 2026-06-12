@@ -79,25 +79,17 @@ def _run_git(*args: str) -> list[str]:
 
 def _run_git_status_bundle() -> tuple[list[str], list[str], str]:
     """One git invocation: branch tracking line + porcelain short status."""
-    proc = subprocess.run(
-        ["git", "status", "-sb", "--porcelain"],
-        cwd=REPO_ROOT,
-        check=False,
-        capture_output=True,
-        text=True,
-    )
-    if proc.returncode != 0:
-        err = proc.stderr.strip() or "unknown error"
-        fail = f"git status -sb --porcelain failed: {err}"
+    try:
+        from git_worktree_snapshot import get_git_worktree_snapshot
+    except ImportError:
+        from scripts.git_worktree_snapshot import get_git_worktree_snapshot  # type: ignore
+
+    snap = get_git_worktree_snapshot()
+    if not snap.ok:
+        fail = snap.error or "git status failed"
         return [fail], [fail], "unknown"
-    lines = [line for line in proc.stdout.splitlines() if line.strip()]
-    status_sb_lines = [lines[0]] if lines and lines[0].startswith("## ") else []
-    status_lines = [line for line in lines if not line.startswith("## ")]
-    branch = "unknown"
-    if status_sb_lines:
-        branch_part = status_sb_lines[0][3:].strip()
-        branch = branch_part.split("...")[0].strip() if branch_part else "unknown"
-    return status_lines, status_sb_lines, branch
+    status_sb_lines = [snap.branch_line] if snap.branch_line else []
+    return list(snap.status_lines), status_sb_lines, snap.branch_name
 
 
 SINGULARITY_INTAKE_PREFIXES = (

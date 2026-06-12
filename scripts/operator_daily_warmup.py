@@ -384,16 +384,15 @@ def _format_last_dream_block(
 
 
 def _git_status_lines() -> list[str]:
-    proc = subprocess.run(
-        ["git", "status", "--short"],
-        cwd=REPO_ROOT,
-        check=False,
-        capture_output=True,
-        text=True,
-    )
-    if proc.returncode != 0:
-        return [f"git status failed: {proc.stderr.strip() or 'unknown error'}"]
-    return [line for line in proc.stdout.splitlines() if line.strip()]
+    try:
+        from git_worktree_snapshot import get_git_worktree_snapshot
+    except ImportError:
+        from scripts.git_worktree_snapshot import get_git_worktree_snapshot  # type: ignore
+
+    snap = get_git_worktree_snapshot()
+    if not snap.ok:
+        return [snap.error or "git status failed"]
+    return list(snap.status_lines)
 
 
 def _integrity_errors(user_id: str) -> list[str]:
@@ -501,6 +500,7 @@ def build_operator_daily_warmup(
     verbose_dream: bool = False,
     show_civ_mem: bool | None = None,
     show_rollup: bool | None = None,
+    fast: bool = False,
 ) -> str:
     user_dir = profile_dir(user_id)
     recursion_gate = _read(user_dir / "recursion-gate.md")
@@ -518,7 +518,7 @@ def build_operator_daily_warmup(
     tail_n = get_int(coffee_budget, "max_session_tail_lines", 3)
     session_tail = _session_lines_tail(session, tail_n)
     politics_snapshot = get_work_politics_snapshot(user_id)
-    integrity_errors = _integrity_errors(user_id)
+    integrity_errors: list[str] = [] if (fast or frozen) else _integrity_errors(user_id)
     dirty_files = _git_status_lines()
     content_counts = (politics_snapshot.get("content_queue") or {}).get("status_counts") or {}
     brief_counts = (politics_snapshot.get("brief_readiness") or {}).get("status_counts") or {}
@@ -655,6 +655,8 @@ def build_operator_daily_warmup(
             lines.append(f"- {err}")
         if len(integrity_errors) > 5:
             lines.append(f"- ... and {len(integrity_errors) - 5} more integrity issue(s)")
+    elif fast or frozen:
+        lines.append("- Integrity: skipped in fast/frozen coffee mode (run validate-integrity.py explicitly if needed).")
     else:
         lines.append("- Integrity validator passed.")
 
@@ -709,6 +711,11 @@ def main() -> int:
         action="store_true",
         help="Show coffee 24h rollup line in collapsed Last dream (overrides coffee.json default).",
     )
+    parser.add_argument(
+        "--fast",
+        action="store_true",
+        help="Skip integrity validator and other heavy subprocess checks.",
+    )
     args = parser.parse_args()
     print(
         build_operator_daily_warmup(
@@ -716,6 +723,7 @@ def main() -> int:
             verbose_dream=args.verbose_dream,
             show_civ_mem=True if args.show_civ_mem else None,
             show_rollup=True if args.show_rollup else None,
+            fast=args.fast,
         )
     )
     return 0

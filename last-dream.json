@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-10T13:33:13.288888+00:00",
+  "generated_at": "2026-06-12T22:29:21.052218+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
-    "cursor_model": "unknown"
+    "cursor_model": "composer"
   },
   "strict_mode": false,
   "phase": "both",
@@ -15,8 +15,8 @@
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "Capture gap: Record hasn't grown in 20 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
-    "AI frontier watch: The Innermost Loop latest - Welcome to June 9, 2026 - consider explicit source hygiene if relevant tomorrow"
+    "Capture gap: Record hasn't grown in 22 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
+    "AI frontier watch: The Innermost Loop latest - Welcome to June 12, 2026 - consider explicit source hygiene if relevant tomorrow"
   ],
   "phases": {
     "recent": {
@@ -32,39 +32,21 @@
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-06-09T13:32:20.386155+00:00",
-    "window_end_utc": "2026-06-10T13:32:20.386155+00:00",
+    "window_start_utc": "2026-06-11T22:28:25.830397+00:00",
+    "window_end_utc": "2026-06-12T22:28:25.830397+00:00",
     "window_hours": 24.0,
-    "count": 3,
-    "first_ts": "2026-06-09T19:47:00+00:00",
-    "last_ts": "2026-06-10T07:44:00+00:00",
-    "span_hours": 11.95,
+    "count": 1,
+    "first_ts": "2026-06-12T10:10:00+00:00",
+    "last_ts": "2026-06-12T10:10:00+00:00",
+    "span_hours": null,
     "by_mode": {
-      "work-start": 3
+      "first-command": 1
     },
     "runs": [
       {
-        "ts_iso": "2026-06-09T19:47:00+00:00",
+        "ts_iso": "2026-06-12T10:10:00+00:00",
         "ok": true,
-        "mode": "work-start",
-        "kv": {
-          "cursor_model": "unknown",
-          "model_tier": "unknown"
-        }
-      },
-      {
-        "ts_iso": "2026-06-10T00:30:00+00:00",
-        "ok": true,
-        "mode": "work-start",
-        "kv": {
-          "cursor_model": "unknown",
-          "model_tier": "unknown"
-        }
-      },
-      {
-        "ts_iso": "2026-06-10T07:44:00+00:00",
-        "ok": true,
-        "mode": "work-start",
+        "mode": "first-command",
         "kv": {
           "cursor_model": "unknown",
           "model_tier": "unknown"
@@ -73,71 +55,38 @@
     ],
     "picks": [
       {
-        "ts_iso": "2026-06-09T19:48:00+00:00",
-        "picked": "B",
-        "menu_label": "B"
+        "ts_iso": "2026-06-12T10:12:00+00:00",
+        "picked": "D",
+        "menu_label": "D"
       },
       {
-        "ts_iso": "2026-06-09T19:51:00+00:00",
+        "ts_iso": "2026-06-12T10:16:00+00:00",
+        "picked": "D",
+        "menu_label": "D"
+      },
+      {
+        "ts_iso": "2026-06-12T13:28:00+00:00",
         "picked": "A",
         "menu_label": "A"
-      },
-      {
-        "ts_iso": "2026-06-09T19:57:00+00:00",
-        "picked": "conductor",
-        "menu_label": "conductor",
-        "conductor": "toscanini"
-      },
-      {
-        "ts_iso": "2026-06-09T20:12:00+00:00",
-        "picked": "conductor",
-        "menu_label": "conductor",
-        "conductor": "furtwangler"
-      },
-      {
-        "ts_iso": "2026-06-09T20:19:00+00:00",
-        "picked": "conductor",
-        "menu_label": "conductor",
-        "conductor": "furtwangler"
-      },
-      {
-        "ts_iso": "2026-06-09T20:25:00+00:00",
-        "picked": "conductor",
-        "menu_label": "conductor",
-        "conductor": "kleiber"
-      },
-      {
-        "ts_iso": "2026-06-09T21:19:00+00:00",
-        "picked": "conductor",
-        "menu_label": "conductor",
-        "conductor": "bernstein"
       }
     ],
     "by_picked": {
-      "B": 1,
-      "A": 1,
-      "conductor": 5
+      "D": 2,
+      "A": 1
     }
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-06-09T13:32:20.386155+00:00",
-    "window_end_utc": "2026-06-10T13:32:20.386155+00:00",
+    "window_start_utc": "2026-06-11T22:28:25.830397+00:00",
+    "window_end_utc": "2026-06-12T22:28:25.830397+00:00",
     "window_hours": 24.0,
-    "pick_count": 5,
-    "outcome_count": 5,
-    "completed_passes": 5,
+    "pick_count": 0,
+    "outcome_count": 0,
+    "completed_passes": 0,
     "orientation_only": 0,
     "off_menu_refusals": 0,
-    "last_master": "karajan",
-    "last_outcome": {
-      "ts_iso": "2026-06-10T10:26:00+00:00",
-      "kind": "outcome",
-      "conductor": "karajan",
-      "verdict": "ai_bench_hierarchy_closed",
-      "falsify": "palantir_only_minab_attribution_lugansk_palantir_ai_forensics",
-      "notebook_ref": "statecraft/notes/china-ai-implementation-watch.md"
-    },
-    "echo": "karajan carried the latest conductor line; last close: palantir_only_minab_attribution_lugansk_palantir_ai_forensics; 5 closed pass(es)"
+    "last_master": null,
+    "last_outcome": null,
+    "echo": null
   },
   "execution_paths": [
     {
@@ -187,10 +136,10 @@
   ],
   "suggested_execution_path_index": 0,
   "execution_path_suggestion_reason": "validated_follow_through",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: push-cadence-closeout-when-ready; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: phase1-visual-or-intake-hygiene; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
   "learning_action_recommendation": "confirm",
   "learning_action_reason": "recent receipts suggest clean follow-through",
-  "carry_forward_object": "push-cadence-closeout-when-ready",
+  "carry_forward_object": "phase1-visual-or-intake-hygiene",
   "carry_forward_test": "Is the prior judgment still live enough to follow through cleanly?",
   "confidence_class": "medium",
   "bias_strength": "soft",
@@ -209,25 +158,33 @@
   "capture_gap": {
     "last_evidence_date": "2026-05-21",
     "last_evidence_id": "ACT-0038",
-    "days_since_evidence": 20,
+    "days_since_evidence": 22,
     "last_merge_date": "2026-05-21",
-    "days_since_merge": 20,
+    "days_since_merge": 22,
     "pending_count": 1,
     "level": "warning",
-    "message": "Record hasn't grown in 20 days (last: ACT-0038, 2026-05-21)"
+    "message": "Record hasn't grown in 22 days (last: ACT-0038, 2026-05-21)"
   },
   "capability_shift": {
     "category": "model",
-    "sources_checked": 5,
+    "sources_checked": 3,
     "sources_total": 6,
-    "alert_count": 9,
+    "alert_count": 6,
     "review_count": 0,
-    "monitor_count": 2,
+    "monitor_count": 1,
     "variant_count": 0,
     "fetch_errors": [
       {
         "name": "Anthropic",
-        "error": "The read operation timed out"
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      },
+      {
+        "name": "xAI",
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      },
+      {
+        "name": "Google",
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
       }
     ]
   },
@@ -236,40 +193,40 @@
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-06-10T13:33:09.650001+00:00",
+    "fetched_at": "2026-06-12T22:29:19.112899+00:00",
     "status": "ok",
-    "title": "Welcome to June 9, 2026",
-    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-9-2026",
-    "published_at": "2026-06-09T15:36:44+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 9, 2026\" (2026-06-09T15:36:44+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
+    "title": "Welcome to June 12, 2026",
+    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-12-2026",
+    "published_at": "2026-06-12T15:33:48+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 12, 2026\" (2026-06-12T15:33:48+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
     "previous_dream_generated_at": null,
     "local_calendar_dates": [
-      "2026-06-10"
+      "2026-06-12"
     ],
     "strategy_notebook_missing_day_headers": [
-      "2026-06-10"
+      "2026-06-12"
     ]
   },
   "last_coffee_echo": {
-    "timestamp": "2026-06-10T07:44:00+00:00",
-    "conductor": "bernstein",
-    "mode": "work-start",
-    "menu_letter": "conductor",
-    "highlight": "Yesterday\u2019s work-start coffee is still the thread. Menu pick: conductor. Conductor line: bernstein.",
+    "timestamp": "2026-06-12T10:10:00+00:00",
+    "conductor": null,
+    "mode": "first-command",
+    "menu_letter": "A",
+    "highlight": "Yesterday\u2019s first-command coffee is still the thread. Menu pick: A.",
     "source": "coffee_rollup_24h"
   },
   "handoffSchemaVersion": 3,
   "topActionReason": "validated_follow_through",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "Capture gap: Record hasn't grown in 20 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
+    "must_resume": "Capture gap: Record hasn't grown in 22 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
     "safe_to_drop": "",
     "blocked": "",
-    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 9, 2026 - consider explicit source hygiene if relevant to"
+    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 12, 2026 - consider explicit source hygiene if relevant t"
   },
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session."

@@ -135,37 +135,44 @@ def test_git_credential_status_reports_invalid_token(monkeypatch) -> None:
 
 
 def test_git_state_status_summarizes_ahead_dirty_and_untracked(monkeypatch) -> None:
-    def fake_run(argv, **kwargs):
-        assert argv == ["git", "status", "--short", "--branch"]
-        return type(
-            "Result",
-            (),
-            {
-                "returncode": 0,
-                "stdout": (
-                    "## main...origin/main [ahead 1]\n"
-                    " M scripts/a.py\n"
-                    "A  docs/new.md\n"
-                    "?? artifacts/tmp/\n"
-                ),
-                "stderr": "",
-            },
-        )()
+    from git_worktree_snapshot import GitWorktreeSnapshot, clear_git_worktree_snapshot_cache
 
-    monkeypatch.setattr("coffee_bootstrap_brief.subprocess.run", fake_run)
+    clear_git_worktree_snapshot_cache()
+    snap = GitWorktreeSnapshot(
+        branch_line="## main...origin/main [ahead 1]",
+        branch_name="main",
+        tracking="main...origin/main [ahead 1]",
+        status_lines=(
+            " M scripts/a.py",
+            "A  docs/new.md",
+            "?? artifacts/tmp/",
+        ),
+        dirty_tracked_count=2,
+        untracked_count=1,
+    )
+
+    monkeypatch.setattr(
+        "git_worktree_snapshot.get_git_worktree_snapshot",
+        lambda **kwargs: snap,
+    )
 
     assert _git_state_status() == "main...origin/main [ahead 1]; dirty=2; untracked=1"
 
 
 def test_git_state_status_reports_clean(monkeypatch) -> None:
-    def fake_run(argv, **kwargs):
-        return type(
-            "Result",
-            (),
-            {"returncode": 0, "stdout": "## main...origin/main\n", "stderr": ""},
-        )()
+    from git_worktree_snapshot import GitWorktreeSnapshot, clear_git_worktree_snapshot_cache
 
-    monkeypatch.setattr("coffee_bootstrap_brief.subprocess.run", fake_run)
+    clear_git_worktree_snapshot_cache()
+    snap = GitWorktreeSnapshot(
+        branch_line="## main...origin/main",
+        branch_name="main",
+        tracking="main...origin/main",
+    )
+
+    monkeypatch.setattr(
+        "git_worktree_snapshot.get_git_worktree_snapshot",
+        lambda **kwargs: snap,
+    )
 
     assert _git_state_status() == "main...origin/main; clean"
 

@@ -9,7 +9,9 @@ Record or derived memory surfaces.
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -112,7 +114,7 @@ def _find_gh() -> str | None:
     return None
 
 
-def _git_credential_status() -> str:
+def _git_credential_status(*, skip_gh: bool = False) -> str:
     """Return a compact read-only GitHub credential hint for fresh chats."""
     origin = subprocess.run(
         ["git", "remote", "get-url", "origin"],
@@ -121,11 +123,16 @@ def _git_credential_status() -> str:
         text=True,
         encoding="utf-8",
         errors="replace",
-        timeout=5,
+        timeout=3,
         check=False,
     )
     remote = origin.stdout.strip() if origin.returncode == 0 else "unknown"
     protocol = "https" if remote.startswith("https://") else "ssh" if remote.startswith("git@") else "unknown"
+
+    if skip_gh or os.environ.get("COFFEE_SKIP_GH", "").strip().lower() in {"1", "true", "yes"}:
+        return f"origin={protocol}; gh=skipped"
+    if os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN"):
+        return f"origin={protocol}; gh=token-env"
 
     gh = _find_gh()
     if not gh:
@@ -138,7 +145,7 @@ def _git_credential_status() -> str:
         text=True,
         encoding="utf-8",
         errors="replace",
-        timeout=8,
+        timeout=2,
         check=False,
     )
     output = f"{auth.stdout}\n{auth.stderr}".lower()
@@ -153,40 +160,21 @@ def _git_credential_status() -> str:
 
 def _git_state_status() -> str:
     """Return a compact read-only branch/dirty-worktree hint for fresh chats."""
-    result = subprocess.run(
-        ["git", "status", "--short", "--branch"],
-        cwd=str(REPO_ROOT),
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-        timeout=8,
-        check=False,
-    )
-    if result.returncode != 0:
-        return "unavailable - run git status --short --branch"
+    try:
+        from git_worktree_snapshot import format_git_state_summary, get_git_worktree_snapshot
+    except ImportError:
+        from scripts.git_worktree_snapshot import format_git_state_summary, get_git_worktree_snapshot  # type: ignore
 
-    lines = [line for line in result.stdout.splitlines() if line.strip()]
-    if not lines:
-        return "unknown"
-
-    branch = lines[0].removeprefix("## ").strip() or "unknown branch"
-    changes = lines[1:]
-    dirty = sum(1 for line in changes if not line.startswith("??"))
-    untracked = sum(1 for line in changes if line.startswith("??"))
-    if dirty == 0 and untracked == 0:
-        return f"{branch}; clean"
-
-    parts: list[str] = []
-    if dirty:
-        parts.append(f"dirty={dirty}")
-    if untracked:
-        parts.append(f"untracked={untracked}")
-    return f"{branch}; " + "; ".join(parts)
+    return format_git_state_summary(get_git_worktree_snapshot())
 
 
-def _pytest_status() -> str:
+def _pytest_status(*, skip_subprocess: bool = False) -> str:
     """Return whether the current Python runtime can run pytest."""
+    if skip_subprocess or os.environ.get("COFFEE_SKIP_PYTEST", "").strip().lower() in {"1", "true", "yes"}:
+        if importlib.util.find_spec("pytest") is None:
+            return "missing - install test extras before pytest verification"
+        return "available (import check)"
+
     result = subprocess.run(
         [sys.executable, "-m", "pytest", "--version"],
         cwd=str(REPO_ROOT),
@@ -194,7 +182,7 @@ def _pytest_status() -> str:
         text=True,
         encoding="utf-8",
         errors="replace",
-        timeout=8,
+        timeout=3,
         check=False,
     )
     if result.returncode == 0:
@@ -203,6 +191,8 @@ def _pytest_status() -> str:
     output = f"{result.stdout}\n{result.stderr}"
     if "No module named pytest" in output:
         return "missing - install test extras before pytest verification"
+    if importlib.util.find_spec("pytest") is not None:
+        return "available (import check)"
     return "unverified - run python -m pytest --version before test work"
 
 
@@ -221,9 +211,16 @@ def build_coffee_bootstrap_brief(
     *,
     events_path: Path = EVENTS_PATH,
     now: datetime | None = None,
+    fast: bool = False,
 ) -> dict[str, Any]:
     """Build a structured first-command coffee brief."""
     now = now or datetime.now(timezone.utc)
+    try:
+        from git_worktree_snapshot import get_git_worktree_snapshot
+    except ImportError:
+        from scripts.git_worktree_snapshot import get_git_worktree_snapshot  # type: ignore
+
+    get_git_worktree_snapshot(refresh=True)
     try:
         from assess_session_load import assess_load
 
@@ -256,10 +253,10 @@ def build_coffee_bootstrap_brief(
             f"branches={load.get('branch_count', 0)}; "
             f"memory={_memory_status(user_id)}"
         ),
-        "repo_identity": _repo_identity_status(),
-        "git_credentials": _git_credential_status(),
+        "repo_identity": _repo_identity_status() if not fast else "skipped (--fast)",
+        "git_credentials": _git_credential_status(skip_gh=fast),
         "git_state": _git_state_status(),
-        "pytest": _pytest_status(),
+        "pytest": _pytest_status(skip_subprocess=fast),
         "recent_rhythm": format_coffee_recent_rhythm(
             user_id, events_path=events_path, now=now, changed_paths=load_changed_paths
         ),

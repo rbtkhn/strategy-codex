@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-10T13:33:13.503769+00:00",
-  "date": "2026-06-10",
+  "generated_at": "2026-06-12T22:29:21.410915+00:00",
+  "date": "2026-06-12",
   "user_id": "strategy-codex",
   "ok": true,
   "integrity_ok": true,
@@ -9,7 +9,7 @@
   "topActionReason": "validated_follow_through",
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session.",
-  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: push-cadence-closeout-when-ready; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: phase1-visual-or-intake-hygiene; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
   "execution_paths": [
     {
       "id": "confirm",
@@ -59,7 +59,7 @@
   "suggested_execution_path_index": 0,
   "learning_action_recommendation": "confirm",
   "learning_action_reason": "recent receipts suggest clean follow-through",
-  "carry_forward_object": "push-cadence-closeout-when-ready",
+  "carry_forward_object": "phase1-visual-or-intake-hygiene",
   "carry_forward_test": "Is the prior judgment still live enough to follow through cleanly?",
   "confidence_class": "medium",
   "bias_strength": "soft"
