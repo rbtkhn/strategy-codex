@@ -1,6 +1,6 @@
 # Three Minds × `skill-strategy` — Repo-ready pattern note
 
-> **`tri-mind` / tri-frame choreography is deprecated** (2026-06) — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md). Patterns below are **legacy reference**; new work → **single named mind** or [`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md).
+> **skill-strategy dissolved (2026-06)** — use [DEFAULT-PATH.md](../DEFAULT-PATH.md) + [SKILL-STRATEGY-DEPRECATED.md](../SKILL-STRATEGY-DEPRECATED.md). Patterns below are **legacy reference**.
 
 **Purpose:** Practical patterns for combining mind files with `skill-strategy` in Grace-Mar.  
 **Status:** Brainstorm / advisory only; tri-frame defaults **retired**.  

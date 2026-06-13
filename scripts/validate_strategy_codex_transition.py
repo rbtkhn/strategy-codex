@@ -11,11 +11,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 LEGACY_DIR = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "strategy-notebook"
 
+SKILL_STRATEGY_PATH = REPO_ROOT / ".cursor" / "skills" / "skill-strategy" / "SKILL.md"
+
 CRITICAL_DOCS = (
     "AGENTS.md",
     "docs/skill-work/work-strategy/README.md",
     "docs/skill-work/work-strategy/DEFAULT-PATH.md",
-    ".cursor/skills/skill-strategy/SKILL.md",
+    "docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
+    ".cursor/rules/strategy-codex-pass.mdc",
 )
 
 REQUIRED_MARKERS = (
@@ -67,6 +70,19 @@ def validate_critical_docs() -> list[str]:
     return errors
 
 
+def validate_skill_strategy_dissolved() -> list[str]:
+    errors: list[str] = []
+    if SKILL_STRATEGY_PATH.is_file():
+        errors.append(
+            f"{SKILL_STRATEGY_PATH.relative_to(REPO_ROOT)}: skill-strategy skill must be "
+            "removed (dissolved); use DEFAULT-PATH + strategy-codex-pass.mdc"
+        )
+    deprecated = read_rel("docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md")
+    if "dissolved" not in deprecated.lower():
+        errors.append("SKILL-STRATEGY-DEPRECATED.md: must document dissolved status")
+    return errors
+
+
 def validate_strategy_context_constants() -> list[str]:
     from strategy_context import (  # type: ignore
         LEGACY_STRATEGY_NOTEBOOK_DIR,
@@ -91,6 +107,7 @@ def main() -> int:
     errors: list[str] = []
     errors.extend(validate_legacy_dir_is_pointer_only())
     errors.extend(validate_critical_docs())
+    errors.extend(validate_skill_strategy_dissolved())
     errors.extend(validate_strategy_context_constants())
     if errors:
         for error in errors:

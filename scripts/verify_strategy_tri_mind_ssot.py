@@ -13,7 +13,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 
-# Tri-mind B/M/M and any expert whose mind file is linked from skill-strategy lens URLs.
+# Tri-mind B/M/M voice profile paths (skill-strategy dissolved; see VOICES-SUPERSEDE-MINDS.md).
 TRI_MIND_IDS = ("barnes", "mearsheimer", "mercouris")
 
 

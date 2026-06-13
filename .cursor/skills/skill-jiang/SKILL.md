@@ -191,6 +191,10 @@ With **gt-18** in prefix: one prediction **before** new ingest; resolve when shi
 - Batch smoke helper: `scripts/work_jiang/run_blind_chain_rounds.py`
 - Maintenance only: `scripts/work_jiang/closed_loop_gt18_runner.py`, `inject_blind_closed_loop_replays.py`
 
+## Codex `days.md` — Jiang resonance (optional)
+
+On **`strategy page compose`**, when PH lecture mechanism applies: `### Jiang resonance (optional)` — lecture/chapter id + one mechanism line + Links. **None** if no lecture applies. Out of scope: full corpus ingest here — use this skill's forward-chain workflow.
+
 ## Changelog (skill)
 
 | Version | Notes |

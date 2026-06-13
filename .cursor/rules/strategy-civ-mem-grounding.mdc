@@ -5,7 +5,7 @@ alwaysApply: false
 
 # Strategy notebook — upstream MEM grounding (execution)
 
-Use when the operator asks for **civilization MEM** depth, **MEM-grounded** synthesis, or **Fold** prose that **paraphrases** bodies from `research/repos/civilization_memory`. **SSOT procedure:** [`.cursor/skills/skill-strategy/SKILL.md`](../../.cursor/skills/skill-strategy/SKILL.md) § *Civilization memory (civ-mem) — optional slow layer* and § *Pre-write checklist* (MEM bullet).
+Use when the operator asks for **civilization MEM** depth, **MEM-grounded** synthesis, or **Fold** prose that **paraphrases** bodies from `research/repos/civilization_memory`. **SSOT procedure:** [memory/SKILL.md](../../.cursor/skills/memory/SKILL.md) and [DEFAULT-PATH.md](../../docs/skill-work/work-strategy/DEFAULT-PATH.md) optional civ-mem row.
 
 **Do:**
 

@@ -19,6 +19,8 @@ synced_by: "sync_portable_skills.py"
 
 Use this skill when the live object is already named and the real task is to divide explanatory responsibility across multiple statecraft lenses rather than to keep summarizing one speaker at a time.
 
+**Voice / lens (post–skill-strategy dissolve):** Not on DEFAULT-PATH menu C. Use after **statecraft handoff**, on **`strategy page compose`**, or when the operator names a speaker — [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md). Single-speaker in-voice → `statecraft/voices/<speaker>-profile.md`.
+
 This is a **comparison-and-diagnosis** skill. Its default output is a bounded analysis in chat, not note-writing by default.
 
 ## Use this skill when

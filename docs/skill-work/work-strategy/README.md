@@ -1,12 +1,39 @@
 # work-strategy
 
+## Activation — `strategy` (no Cursor skill)
+
+The **`skill-strategy` skill is dissolved** ([SKILL-STRATEGY-DEPRECATED.md](SKILL-STRATEGY-DEPRECATED.md)). On **`strategy`**, **`strategy pass`**, or legacy **`work-strategy`** (codex pass):
+
+1. Read [.cursor/rules/strategy-codex-pass.mdc](../../.cursor/rules/strategy-codex-pass.mdc)
+2. Run [DEFAULT-PATH.md](DEFAULT-PATH.md) — three moves, then stop
+3. Load other skills **only** on modifier or menu fork (table below)
+
+**Phrases:** `strategy page`, `strategy page read`, `strategy input`, `strategy write` (compound → also skill-write), `strategy + verify`.
+
+### Routing
+
+| Say this | Load |
+|----------|------|
+| **`strategy`** / **`strategy pass`** | DEFAULT-PATH.md |
+| **`strategy page` / compose** | STRATEGY-NOTEBOOK-ARCHITECTURE.md EOD section |
+| **`strategy + verify`** | wire-verify / fact-check |
+| **`strategy write`** | skill-write + codex substance |
+| **`strategy input`** | strategy-input-raw-ingest.mdc + codex/raw-input/ |
+| **Voice / lens** | statecraft handoff or compose — VOICES-SUPERSEDE-MINDS.md; statecraft-multi-lens |
+| **Live crisis / intake** | statecraft-* lanes — not DEFAULT-PATH body |
+| **`tri-mind` / `tri-frame`** | Deprecated — TRI-MIND-DEPRECATED.md; statecraft-multi-lens or one voice profile |
+| **Weekly brief** | weekly-brief-run |
+| **Speaker shelf audit** | speaker-shelf-hygiene |
+
+---
+
 **Legacy status:** `docs/skill-work/work-strategy/` is now a **legacy compatibility surface**, not the canonical operator judgment owner. The active public/operator-facing successor is [statecraft/](../../../statecraft/README.md). Use [Legacy Successor Map](LEGACY-SUCCESSOR-MAP.md) when an older strategy path still exists on disk and you need the current conceptual destination.
 
 **Naming:** `strategy-codex` remains the repo and notebook identity, but the old `work-strategy` lane terminology is obsolete as a canonical live surface. The canonical chronology corpus lives under root [`/codex`](../../../codex/README.md), while live judgment, prose, and mechanism now belong under [statecraft/](../../../statecraft/README.md). `strategy-notebook` is a deprecated compatibility namespace for old links, script aliases, fixtures, and historical logs; do not add new canonical material there.
 
 **Current role (one sentence):** This tree is now primarily a **legacy holding surface** for still-unmigrated notebook machinery, operator doctrine, and historical strategy memos that have not yet been re-homed into `statecraft/`, `/codex`, or `singularity/`.
 
-**Default path (fast start):** [DEFAULT-PATH.md](DEFAULT-PATH.md) â€” three moves for a normal pass; everything else is optional. Start there if the full skill file feels heavy.
+**Default path (fast start):** [DEFAULT-PATH.md](DEFAULT-PATH.md) � three moves for a normal **`strategy`** pass; no Cursor skill to load.
 
 **Full sequence (SSOT):** [STRATEGY-NOTEBOOK-ARCHITECTURE.md â€” Default operating path](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#default-operating-path-ssot) â€” inbox-first numbered path (weave, optional escalation markers, STRATEGY promotion when stable, no Record). **Conductor / cadence â†’ durable /codex anchor:** [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) (optional close template: [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md)).
 

@@ -123,7 +123,7 @@ Default shape: ask 3-5 concrete MCQs or short-answer prompts, summarize the capt
 | **coffee** | Rhythm layer informs what coffee should emphasize at reentry |
 | **dream** | Rhythm + friction layers inform what dream should check at closeout |
 | **bridge** | Rhythm layer informs when bridge is most useful |
-| **skill-strategy** | Decisions + thresholds layers inform strategy judgment quality |
+| **`strategy` / DEFAULT-PATH** | Decisions + thresholds layers inform codex judgment quality |
 | **strategy-codex** | Optional checkpoint for stream calibration, routing, EOD page shape, contrapuntal comparison, and civ-mem lens choice |
 | **work-cadence** | Telemetry-grounded mode reads cadence events as input |
 | **lane-survey** | Run a lane survey before creating work-elicitation if evaluating alternatives |

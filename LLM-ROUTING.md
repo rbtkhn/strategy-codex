@@ -21,6 +21,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | daily statecraft synthesis | [statecraft/daily/](statecraft/daily/) — **after** archive + source-index |
 | host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/hosts/](statecraft/hosts/) |
 | statecraft lane / active operator work | [statecraft/](statecraft/) |
+| **`strategy` / `strategy pass` / codex ledger pass** | [docs/skill-work/work-strategy/DEFAULT-PATH.md](docs/skill-work/work-strategy/DEFAULT-PATH.md), [.cursor/rules/strategy-codex-pass.mdc](.cursor/rules/strategy-codex-pass.mdc) — **no** skill-strategy skill ([SKILL-STRATEGY-DEPRECATED.md](docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md)) |
 | library / reading / canon / books | [self-library.md](self-library.md), [artifacts/library-index.md](artifacts/library-index.md) |
 | SELF / SKILLS / EVIDENCE / Record | `self.md`, `self-skills.md`, `self-archive.md`, `recursion-gate.md` — **frozen archaeology** at repo root; default work is `statecraft/` / `singularity/` |
 | Grace-Mar fork doctrine / pipeline habits (archived) | [archive/grace-mar-corpus/README.md](archive/grace-mar-corpus/README.md) — stubs at former `docs/*.md` paths with `archived: true` |

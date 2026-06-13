@@ -13,7 +13,7 @@ description: >-
 
 - **[`statecraft-multi-lens`](../statecraft-multi-lens/SKILL.md)** — multi-preset comparison on a live statecraft object
 - **Named single mind** — say **Mercouris**, **Mearsheimer**, or **Barnes** (read `strategy-expert-<id>-mind.md`; [`minds-authentic-voice.mdc`](../../rules/minds-authentic-voice.mdc))
-- **[`skill-strategy`](../skill-strategy/SKILL.md)** — notebook pass without tri-frame wrapper
+- **[DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md)** — codex ledger pass without tri-frame wrapper
 
 **SSOT:** [TRI-MIND-DEPRECATED.md](../../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md)
 
@@ -29,7 +29,7 @@ If the operator **explicitly** repeats **`tri-mind`** after one-line redirect, t
 
 **Design principle:** Tri-mind is the strategy **differentiator**, not the strategy **engine**. Use it when one lens is not enough, not as the default wrapper around every strategy pass.
 
-**Relation to `skill-strategy`:** [`skill-strategy`](../skill-strategy/SKILL.md) is the **lane pass** (strategy-codex notebook, briefs, promotion). **`tri-mind`** is **lens choreography** when the operator wants **structured** Mercouris / Mearsheimer / Barnes output. Do **not** invoke **`tri-mind`** on every `strategy` turn — [strategy-minds-granular.mdc](../../rules/strategy-minds-granular.mdc).
+**Relation to `strategy` pass:** [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) is the **codex ledger** pass. **`tri-mind`** is **legacy lens choreography**. Do **not** invoke **`tri-mind`** on every `strategy` turn — [strategy-minds-granular.mdc](../../rules/strategy-minds-granular.mdc).
 
 **Relation to LEARN MODE:** If the operator is in **LEARN MODE** (full extraction, SCHOLAR hooks, strict ordering), follow [LEARN_MODE_RULES.md](../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md) — it may **override** section ordering and depth; say so when both apply.
 
@@ -97,7 +97,7 @@ If the operator **already** included the code with the thesis (e.g. “tri-mind 
 
 Patterns and recipes: [MINDS-SKILL-STRATEGY-PATTERNS.md](../../../docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md).
 
-**Note:** [`skill-strategy`](../skill-strategy/SKILL.md) § Post-entry lens offer uses **B → M → M** program order for **one-liner** options (Barnes, Mearsheimer, Mercouris). **`tri-mind`** uses the **A/B/C** letter map above — do not conflate the two orderings when labeling output; use **A/B/C** headings here.
+**Note (legacy):** Post-entry lens offer → [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md) + **statecraft-multi-lens**. **`tri-mind`** uses the **A/B/C** letter map below.
 
 ---
 
@@ -211,4 +211,4 @@ Default **chat only**. To append to [daily-strategy-inbox.md](../../../docs/skil
 
 - [minds/README.md](../../../docs/skill-work/work-strategy/minds/README.md)
 - [CIV-MEM-TRI-FRAME-ROUTING.md](../../../docs/skill-work/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md)
-- [skill-strategy/SKILL.md](../skill-strategy/SKILL.md) § Three minds (optional — granular)
+- [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) — codex pass; voice → statecraft

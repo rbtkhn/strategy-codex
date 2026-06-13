@@ -47,7 +47,7 @@ For those cases, prefer:
 - [`check-streams`](../check-streams/SKILL.md) for live source discovery and raw-input recovery
 - [`transcript-cleanup`](../transcript-cleanup/SKILL.md) for transcript text cleanup
 - [`speaker-relations-membrane`](../speaker-relations-membrane/SKILL.md) for neutral relation-note placement
-- [`skill-strategy`](../skill-strategy/SKILL.md) for notebook synthesis and strategy-page work
+- [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) for codex synthesis and strategy-page work
 
 ## Shared shelf contract
 

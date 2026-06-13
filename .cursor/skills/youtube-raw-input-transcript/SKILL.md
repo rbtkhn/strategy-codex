@@ -20,6 +20,8 @@ Use this skill when a YouTube episode should become a canonical transcript artif
 
 In strategy-codex, this skill is also the shared **transcript + appearance materialization** layer for daily ingest, one-off captures, and bounded densification tranches. Prefer the one-shot capture path unless the operator explicitly asks for transcript-only output.
 
+**Essay / paste ingest:** Substack and non-YouTube **`strategy input`** → [`codex/raw-input/`](../../../codex/raw-input/README.md) per [strategy-input-raw-ingest.mdc](../../../.cursor/rules/strategy-input-raw-ingest.mdc) and [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md).
+
 ## Layering rule
 
 - Use **`youtube transcript`** when the operator already has a specific URL or episode in hand.

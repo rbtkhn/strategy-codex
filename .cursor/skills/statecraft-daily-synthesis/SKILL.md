@@ -21,6 +21,8 @@ Use this skill when a day-batch or month-batch of statecraft source captures is 
 
 This skill is for **downstream synthesis**, not archive capture and not synthetic intelligence-essay writing. Its job is to read the landed archive batch, identify the governing object, and write a compact, durable interpretation surface without pretending to replace the underlying transcript authority.
 
+**Codex watch tags (optional cross-link):** When folding into `/codex`, use [FIVE-THREAD-WATCH-TAGS.md](../../../docs/skill-work/work-strategy/FIVE-THREAD-WATCH-TAGS.md) for §1d–§1h plane discipline — synthesis stays on **statecraft** side by default.
+
 ## Use this skill when
 
 - the day archive is already materialized

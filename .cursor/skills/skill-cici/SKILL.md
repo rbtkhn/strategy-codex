@@ -108,7 +108,7 @@ If **L1 (commits)** and **L2 (notes)** disagree, do not force resolution: add a 
 
 Borrowings are **light** — cici-notebook stays **WORK coaching**, not strategy geopolitics, not operator public copy, not Record THINK.
 
-### skill-strategy (best alignment)
+### `strategy` codex pass (parallel rhythm)
 
 - **Frontier on disk:** Treat the latest written **`YYYY-MM-DD.md`** (and **Journal day** line) as the checkpoint — read files; do not rely on chat memory alone.
 - **Capture → fold → digest:** Same rhythm as strategy’s inbox → dream: [daily-cici-notebook-inbox](../../../docs/skill-work/work-cici/cici-notebook/daily-cici-notebook-inbox.md) → `inbox/YYYY-MM-DD.md` → [cici_journal_ob1_digest.py](../../../scripts/cici_journal_ob1_digest.py).
@@ -147,6 +147,6 @@ See [think-purpose-and-boundary.md](../../../docs/skill-think/think-purpose-and-
 | Digest script | [scripts/cici_journal_ob1_digest.py](../../../scripts/cici_journal_ob1_digest.py) |
 | Work-xavier index | [INDEX.md](../../../docs/skill-work/work-cici/INDEX.md) |
 | Localized cohort (Anyang) | [anyang-ai/SKILL.md](../anyang-ai/SKILL.md) |
-| skill-strategy (parallel rhythm) | [skill-strategy/SKILL.md](../skill-strategy/SKILL.md) |
+| `strategy` / DEFAULT-PATH (parallel rhythm) | [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) |
 | THINK boundary | [think-purpose-and-boundary.md](../../../docs/skill-think/think-purpose-and-boundary.md) |
 | Operator writing (public excerpts only) | [write-operator-preferences.md](../../../docs/skill-write/write-operator-preferences.md) |

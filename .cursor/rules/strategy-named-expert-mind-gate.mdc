@@ -2,7 +2,7 @@
 description: Named-expert strategy analysis must load mind SSOT before in-voice substantive reply (chat or disk).
 globs:
   - docs/skill-work/work-strategy/strategy-notebook/**/*.md
-  - .cursor/skills/skill-strategy/SKILL.md
+  - docs/skill-work/work-strategy/DEFAULT-PATH.md
 alwaysApply: false
 ---
 
@@ -20,4 +20,4 @@ alwaysApply: false
 
 **Not gated:** Generic structural realism / IR lecture with **no** “Mearsheimer says” framing; operator explicitly asks **tacet** or **no expert voice**.
 
-**Disk writes:** EOD compose involving that expert still follows **`skill-strategy`** pre-write checklist (profile + mind as already specified).
+**Disk writes:** EOD compose involving that expert still follows [DEFAULT-PATH.md](../../docs/skill-work/work-strategy/DEFAULT-PATH.md) and [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) pre-compose checklist.

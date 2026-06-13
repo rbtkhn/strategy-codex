@@ -35,3 +35,9 @@ description: >-
 
 - `candidate_hn_chapters` is **planning** only; [book-architecture.yaml](docs/skill-work/work-strategy/history-notebook/book-architecture.yaml) and chapter prose remain SSOT.
 - Do not merge catalog facts into the **Record** without the recursion-gate pipeline.
+
+## Codex `days.md` — History resonance (optional)
+
+On **`strategy page compose`**, when a mechanism pattern applies, add under the day block:
+
+`### History resonance (optional)` — chapter id(s) (e.g. `hn-i-v1-04`) + one mechanism line + Links. **None** or **deferred** if no chapter applies. See [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md).

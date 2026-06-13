@@ -32,7 +32,7 @@ Protocol: [LEARN_MODE_RULES.md](../LEARN_MODE_RULES.md).
 
 **Daily brief overlays:** [DAILY-BRIEF-MINDS-WORKFLOW.md](DAILY-BRIEF-MINDS-WORKFLOW.md), [daily-brief-minds-menu.md](../daily-brief-minds-menu.md).
 
-**Post-entry lens menu (`strategy` / ingest):** [skill-strategy SKILL.md](../../../.cursor/skills/skill-strategy/SKILL.md) — read **voice profile** `#linguistic-style-fingerprint-detailed` first; mind file only for Tier B or explicit quote-bank need.
+**Post-entry lens menu (`strategy` / ingest):** [DEFAULT-PATH.md](../DEFAULT-PATH.md) + [VOICES-SUPERSEDE-MINDS.md](../VOICES-SUPERSEDE-MINDS.md) — read **voice profile** `#linguistic-style-fingerprint-detailed` first; mind file only for Tier B or explicit quote-bank need.
 
 **June 2026 triad pass:** Barnes, Mercouris, Mearsheimer Tier A + [triad-voice-orthogonality-june-2026.md](../../../statecraft/voices/_scratch/triad-voice-orthogonality-june-2026.md).
 

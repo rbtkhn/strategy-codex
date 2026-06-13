@@ -1,0 +1,21 @@
+# Strategy-codex pass — doc-first activation (skill-strategy dissolved)
+
+**SSOT:** [`docs/skill-work/work-strategy/DEFAULT-PATH.md`](../../docs/skill-work/work-strategy/DEFAULT-PATH.md) · [`docs/skill-work/work-strategy/README.md`](../../docs/skill-work/work-strategy/README.md) · [`docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md`](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md)
+
+**There is no `.cursor/skills/skill-strategy/` skill.** **`strategy-codex`** /codex pass is doc-first; **`strategy-notebook`** is **deprecated compatibility** only.
+
+## When this applies
+
+Operator says **`strategy`**, **`strategy pass`**, **`work-strategy`** (codex pass), or obvious variants without naming **statecraft** as the primary job.
+
+## Required behavior
+
+1. Read **DEFAULT-PATH.md** (three moves) and skim **work-strategy README** Activation / Routing if scope is unclear.
+2. **`strategy` = `/codex` ledger only** (STATUS → inbox → menu). **Live judgment and voice passes → statecraft / conductor** — not the default codex menu.
+3. Load **other skills only on explicit modifier or menu fork** (`strategy + verify` → wire-verify / fact-check; `strategy write` → skill-write; `strategy page` → architecture EOD; menu **C** → pivot statecraft).
+4. **Stop** after DEFAULT-PATH move 3 unless the operator picks a fork or names a modifier.
+
+## Boundaries
+
+- WORK only — not Record merge.
+- Verbatim ingest → [strategy-input-raw-ingest.mdc](strategy-input-raw-ingest.mdc) + [`codex/raw-input/`](../../codex/raw-input/README.md).

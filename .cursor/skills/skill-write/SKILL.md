@@ -4,7 +4,7 @@ preferred_activation: skill-write
 description: >-
   Primary activation tokens (strong): skill-write, strategy write, publish to Locals, VivaBarnesLaw / Duran, X trim, PH comment -> then read docs/skill-write/write-operator-preferences.md + write-shipping-checklist.md.
   Weak alias: bare "write" (ambiguous with code tasks) -> use strong tokens when you mean operator public copy.
-  Operator public copy for Locals (VivaBarnesLaw, Duran), X, Predictive History comments. Compound: strategy write / strategy + write in the same turn -> load skill-strategy for substance and this hub for paste-ready prose (topic-first ledes, memorable declarative closers, checklist). VivaBarnesLaw Locals defaults are NOT CIV-MIND-BARNES / tri-mind voice unless explicitly requested. Copy paired with an image: substance-first lede; no screenshot/posting/grab meta unless caption requested. For analysis-derived Locals posts, use the recipe + scaffold under docs/skill-write and default to one medium post with medium quote density.
+  Operator public copy for Locals (VivaBarnesLaw, Duran), X, Predictive History comments. Compound: strategy write / strategy + write in the same turn -> substance from [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) / codex frontier and this hub for paste-ready prose (topic-first ledes, memorable declarative closers, checklist). VivaBarnesLaw Locals defaults are NOT CIV-MIND-BARNES / tri-mind voice unless explicitly requested.
 ---
 
 # skill-write - operator publishing
@@ -32,7 +32,7 @@ description: >-
 | Operator says | Agent does |
 |---------------|------------|
 | **`skill-write`**, **`strategy write`**, **`publish`** (Locals / X / PH), **VivaBarnesLaw** / **Locals paste** | Load **write-operator-preferences** and apply **shipping checklist** before shipping paste-ready copy. |
-| **`strategy`** + **`write`** / **`publish`** in the **same** request | Run **[`skill-strategy`](../skill-strategy/SKILL.md)** for **substance** and this hub for **public surface** prose - **both**, not strategy alone. In current repo doctrine, the substance side will usually resolve through `statecraft/` or `singularity/`, not legacy `work-strategy` framing. |
+| **`strategy`** + **`write`** / **`publish`** in the **same** request | Substance from [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) / codex frontier; this hub for **public surface** prose — **both**, not write alone. |
 | Bare **`write`** (coding context) | **Not** this skill by default - clarify or use **`skill-write`**. |
 | **Locals** / **VivaBarnesLaw** | Forum craft per hub - **not** default [`CIV-MIND-BARNES`](../../../docs/skill-work/work-strategy/strategy-notebook/experts/barnes/mind.md) linguistic fingerprint (that is **tri-mind / WORK** unless explicitly requested). |
 
@@ -44,9 +44,9 @@ For **analysis-derived Locals** drafts, the standard workflow now includes:
 - reusable scaffold
 - worked example
 
-## Relation to `skill-strategy`
+## Relation to `strategy` / codex pass
 
-After a substantive **`strategy`** pass, the strategy skill **offers once** whether you want **`skill-write`** next unless you already combined **`strategy write`**. When you **combine** them in one message, **skip the menu** and apply **both** contracts: judgment source of truth from the strategy lane; **shipping** shape from this hub.
+After a substantive **`strategy`** pass ([DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md)), you **may offer once** whether the operator wants **`skill-write`** next unless they already combined **`strategy write`**. When combined in one message, apply **both** contracts.
 
 ## Internal vs public wording
 
@@ -62,7 +62,7 @@ Typical example:
 
 Do not make the reader learn repo shorthand unless that teaching move is itself part of the piece.
 
-**Out of scope - expert refined pages:** Standalone **`experts/<expert_id>/<expert_id>-page-*.md`** files (Verbatim / Reflection / Foresight, **`raw-input`** links) are **notebook WORK** artifacts; craft lives under **`skill-strategy`** ([Expert refined pages - craft](../skill-strategy/SKILL.md#expert-refined-pages--craft)). Do **not** apply this hub's Locals / X / PH shipping defaults to those pages unless the operator explicitly asks to **adapt** notebook material for **publication**.
+**Out of scope - expert refined pages:** Notebook WORK artifacts; craft → [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md). Do **not** apply this hub's Locals / X / PH defaults unless the operator asks to **adapt** for **publication**.
 
 ## Optional: `civilization_memory` adjacency (WORK)
 
