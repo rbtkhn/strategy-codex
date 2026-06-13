@@ -252,3 +252,10 @@ routes:
     authority: work_only
     tags: [wilkerson, source-index, statecraft, civ-lens]
     search_hints: [Wilkerson index, wilkerson source index]
+  - id: weichert-source-index
+    title: Weichert source index
+    path: statecraft/civ-lens/weichert/weichert-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [weichert, source-index, statecraft, civ-lens, nawfal]
+    search_hints: [Weichert index, weichert source index, Nawfal Weichert]

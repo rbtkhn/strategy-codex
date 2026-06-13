@@ -32,6 +32,7 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Ritter | [ritter/ritter-source-index.md](ritter/ritter-source-index.md) |
 | Sachs | [sachs/sachs-source-index.md](sachs/sachs-source-index.md) |
 | Wilkerson | [wilkerson/wilkerson-source-index.md](wilkerson/wilkerson-source-index.md) |
+| Weichert | [weichert/weichert-source-index.md](weichert/weichert-source-index.md) |
 
 **Jiang special case:** [jiang/jiang-source-index.md](jiang/jiang-source-index.md) is the provenance bench. PH reading lattice lives at [jiang/ph-civ/docs/source-lattice.md](jiang/ph-civ/docs/source-lattice.md) (mirror-bearing shelf).
 
