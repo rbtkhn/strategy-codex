@@ -2,7 +2,7 @@
 
 **Purpose:** When you are in **work-strategy**, **work-politics**, **work-jiang**, or **work-dev**, the assistant ends most substantive turns with **labeled forks** (multiple choice). This doc names the **shape** so menus stay **useful, grounded, and pivot-only** (no faux â€œdoneâ€).
 
-**Rule source:** [`.cursor/rules/operator-style.mdc`](../../.cursor/rules/operator-style.mdc) (always-on).
+**Rule source:** [`.cursor/rules/menu-option-benefits.mdc`](../../.cursor/rules/menu-option-benefits.mdc) (always-on SSOT) · [`.cursor/rules/operator-style.mdc`](../../.cursor/rules/operator-style.mdc) (WORK menus + execution hygiene).
 
 ---
 
@@ -12,13 +12,26 @@ Each option must be a **different next move** (different file, command, lane, or
 
 ---
 
-## 1b. Benefit clause (why pick this)
+## 1b. Benefit clause (why pick this) — required
 
-Each option line includes **why** to choose it: one short **because** / **so that** / **in order to** clause on the **same line** as the fork stub (ship, validate, deploy, depth, handoff, unblock CI, etc.). Still **no pre-development** of that optionâ€™s output until the operator picks.
+**Scope:** Every **assistant-authored** labeled multi-choice block — WORK closing menus, lens/mind offers, tri-mind letter picks, steward forks, and other **A–E** pivots. **Not** required when copying **verbatim** coffee / steward text from [menu-reference](work-coffee/menu-reference.md), or when the operator says **no menu** / **no options**.
 
-**Example:** **A.** Commit + push ph-civ **so that** manifest and study-edition work is on remote before Pages deploy.
+Each option line states **why** to choose it: one short **because** / **so that** / **in order to** clause on the **same line** as the fork stub (ship, validate, deploy, depth, handoff, unblock CI, falsifier upgrade, remote sync, etc.). Still **no pre-development** of that option’s output until the operator picks.
 
-**Exceptions:** fixed **coffee** / **steward** menus when copying verbatim skill text; operator **no menu** / **no options**.
+**Shape:** `**Label** — fork stub, because/so that/in order to payoff`
+
+**Good:**
+
+```text
+**A** — Commit the hinge slice only, so that falsifiers ship without unrelated WIP
+**B** — Run wire-verify on UAE tranche, because J12-4 may upgrade from contested to partial
+```
+
+**Bad:** label-only stubs; benefit on a second line; implied payoff without **because** / **so that** / **in order to**.
+
+**Combo picks (`A+C`):** each listed letter option still carries its own benefit when shown.
+
+**Cursor rule (always-on):** [`.cursor/rules/menu-option-benefits.mdc`](../../.cursor/rules/menu-option-benefits.mdc)
 
 ---
 
@@ -193,7 +206,8 @@ Dated WORK outputs (daily brief, weekly scaffold, newsletter digest, optional `m
 
 ## See also
 
-- **`strategy + verify`** (named fork) â€” Â§4 **Combo and hybrid options** above; full spec under **work-strategy** in [skill-strategy SKILL](../../.cursor/skills/skill-strategy/SKILL.md).
+- **Menu benefit clause (always-on):** [`.cursor/rules/menu-option-benefits.mdc`](../../.cursor/rules/menu-option-benefits.mdc) · §1b above
+- **`strategy + verify`** (named fork) — §4 **Combo and hybrid options** above; full spec under **work-strategy** in [skill-strategy SKILL](../../.cursor/skills/skill-strategy/SKILL.md).
 - **Fixed session menu (`coffee` - same **A-D** hub for work-start and signing-off; legacy **hey** still works):** not the 3-5 WORK pattern - canonical hub: **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. Coffee **C** then routes into the four civilizational-state lanes America, China, Persia, and Russia. Conductor is standalone by `conductor` / master name, not a hub letter. **C** exits the coffee hub by default unless **`stay in coffee`**; **skills** / **meta:** say with **B - Engineer**. Legacy **A-G** workload table for mapping: [menu-reference.md](../work-coffee/menu-reference.md). Roles: [.cursor/skills/coffee/SKILL.md](../../../.cursor/skills/coffee/SKILL.md).
 - [Operatorâ€“agent lanes](../../operator-agent-lanes.md)
 - [Coffee skill](../../../.cursor/skills/coffee/SKILL.md)
