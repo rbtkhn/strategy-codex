@@ -27,6 +27,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | legacy codex speaker shelf | [codex/speakers/](codex/speakers/) — **compatibility only**; prefer civ-lens |
 | machine-readable route registry | [repo-map.yaml](repo-map.yaml) |
 | civ-lens shelf-class doctrine | [statecraft/civ-lens/README.md](statecraft/civ-lens/README.md) |
+| speaker cluster / satellite map | [statecraft/civ-lens/speaker-cluster-map.md](statecraft/civ-lens/speaker-cluster-map.md) |
+| expert profile (canonical shelf) | `statecraft/civ-lens/<speaker>/<speaker>-profile.md` — see [civ-lens README § Speaker profile law](statecraft/civ-lens/README.md#speaker-profile-law) |
+| expert profile (legacy / profile-only) | [codex/profiles/](codex/profiles/) — compatibility or lanes without a civ-lens shelf |
 
 ## Parallel index disambiguation
 
@@ -41,6 +44,9 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [artifacts/library-index.md](artifacts/library-index.md) | Derived SELF-LIBRARY **dashboard** | Derived |
 | [scripts/index_record.py](scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
 | [codex/speakers/](codex/speakers/) | Legacy speaker storage during migration | Compatibility |
+| [statecraft/civ-lens/speaker-cluster-map.md](statecraft/civ-lens/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
+| `statecraft/civ-lens/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
+| [codex/profiles/*-profile.md](codex/profiles/) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |
 
 **Do not** answer "no Barnes index" because `library-index.md` or GitHub code search returned zero hits.
 

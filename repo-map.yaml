@@ -19,6 +19,14 @@ routes:
     tags: [civ-lens, analysts, speakers, source-corpora]
     search_hints: [civ lens index, analyst source index]
 
+  - id: speaker-cluster-map
+    title: Speaker cluster map
+    path: statecraft/civ-lens/speaker-cluster-map.md
+    kind: routing_aid
+    authority: work_only
+    tags: [civ-lens, speaker-cluster, pape, ritter, parsi, crooke, satellite-routing]
+    search_hints: [speaker cluster map, satellite speaker, which speaker after Pape, anchor satellite routing]
+
   - id: source-lattice-doctrine
     title: Source-lattice doctrine (statecraft + general)
     path: docs/source-lattice-beyond-the-repo.md

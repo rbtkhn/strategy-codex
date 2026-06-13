@@ -130,6 +130,20 @@ Pointer law for future migrations:
 
 When the real question is host-law rather than speaker identity, open [statecraft/hosts/](../hosts/README.md) instead of treating retired `codex/speakers/<host>/...` surfaces as live authority.
 
+## Speaker profile law
+
+A **speaker profile** (`<speaker>-profile.md`) is the identity-and-voice hub: expert_id, role, pairing tags, voice fingerprint, convergence/tension stubs, and links — not transcript provenance, arc motion, or load-bearing synthesis.
+
+Canonical placement:
+
+- **Migrated canonical shelf** → `statecraft/civ-lens/<speaker>/<speaker>-profile.md` (SSOT). List it in the shelf `README.md` **Open first** block before arc/routing when identity or voice tier is the job.
+- **Profile-only / commentator-thread lane** (no first-class shelf yet) → `codex/profiles/<speaker>-profile.md` until real on-disk continuity warrants a shelf.
+- **Legacy paths** (`codex/profiles/`, `codex/speakers/<speaker>/`) → thin compatibility redirects after migration; **do not** duplicate the profile corpus in both places.
+
+Current migrated profiles: [Barnes](barnes/barnes-profile.md), [Mercouris](mercouris/mercouris-profile.md).
+
+For anchor-and-satellite routing after Pape, Ritter, Parsi, or Crooke, open [speaker-cluster-map.md](speaker-cluster-map.md).
+
 Transcript-first evidence, arc-first interpretation.
 
 When live statecraft work names a speaker or needs speaker-grounded analysis, use this routing order unless the speaker's object shape explicitly says otherwise:
