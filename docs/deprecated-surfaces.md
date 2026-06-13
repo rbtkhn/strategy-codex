@@ -11,6 +11,7 @@
 | Surface | Path | Replacement |
 |---------|------|-------------|
 | Grace-Mar Record | `self.md`, `self-archive.md`, `recursion-gate.md`, … | Governed adjacent: archive → daily → transactions |
+| Grace-Mar doctrine corpus | [`archive/grace-mar-corpus/`](../archive/grace-mar-corpus/README.md) | [`legacy-operator-concepts.md`](legacy-operator-concepts.md) |
 | Archive pointer | [`archive/grace-mar-frozen.md`](../archive/grace-mar-frozen.md) | Operator backup location |
 
 **Revive:** `fork revive`, `grace-mar archive`, coffee **`A gate`**, harness `--territory companion`

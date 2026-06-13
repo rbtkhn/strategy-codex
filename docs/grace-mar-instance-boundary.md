@@ -6,7 +6,7 @@ The embedded **Grace-Mar** cognitive fork in this repo is **operator-archived**.
 
 **Product identity:** [`product-identity.md`](product-identity.md) · [`start-here.md`](start-here.md)
 
-**Archive pointer:** [`archive/grace-mar-frozen.md`](../archive/grace-mar-frozen.md)
+**Archive pointer:** [`archive/grace-mar-frozen.md`](../archive/grace-mar-frozen.md) · **Grace-Mar corpus (archaeology):** [`archive/grace-mar-corpus/README.md`](../archive/grace-mar-corpus/README.md) · **Legacy concepts:** [`legacy-operator-concepts.md`](legacy-operator-concepts.md)
 
 ---
 
