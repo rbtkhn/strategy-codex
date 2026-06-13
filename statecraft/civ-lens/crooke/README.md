@@ -8,6 +8,7 @@ Use it for speaker identity, authored/interview continuity, route maps, bounded 
 
 ## Open First
 
+- [Speaker profile](crooke-profile.md) — identity, voice fingerprint, convergence/tension, links hub
 - [crooke-arc.md](crooke-arc.md)
 - [crooke-routing.md](crooke-routing.md)
 - [crooke-source-index.md](crooke-source-index.md)

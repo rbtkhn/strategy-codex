@@ -6,6 +6,7 @@ Purpose: front door for the canonical Pape statecraft shelf.
 
 ## Open First
 
+- [Speaker profile](pape-profile.md)
 - [pape-arc.md](pape-arc.md)
 - [pape-routing.md](pape-routing.md)
 - [stream/pape-forecast-ledger-2026.md](stream/pape-forecast-ledger-2026.md)

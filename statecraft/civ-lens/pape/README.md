@@ -8,6 +8,7 @@ Use it for speaker identity, authored forecast mechanism, interview-pressure tra
 
 ## Open First
 
+- [Speaker profile](pape-profile.md) — identity, voice fingerprint, convergence/tension, links hub
 - [pape-arc.md](pape-arc.md)
 - [pape-on-china-ai.md](../../notes/pape-on-china-ai.md) — China industrial AI / Wuhan model (field-observation strand); chronology in [china-ai-implementation-watch.md](../../notes/china-ai-implementation-watch.md)
 - [pape-routing.md](pape-routing.md)
