@@ -104,6 +104,14 @@ artifacts/evidence-stubs/*
 artifacts/patch-intake/*
 !artifacts/patch-intake/.gitkeep
 !artifacts/patch-intake/README.md
+# Local transcript/intake scratch (rebuildable; see artifacts/README.md commit-worthiness)
+artifacts/intake/*
+!artifacts/intake/.gitkeep
+artifacts/cognition-streams-audit/*
+!artifacts/cognition-streams-audit/.gitkeep
+artifacts/*-parts/*
+!artifacts/*-parts/.gitkeep
+artifacts/_parent_line_*.txt
 artifacts/mcp-admission/*
 !artifacts/mcp-admission/.gitkeep
 !artifacts/mcp-admission/README.md
