@@ -2,15 +2,17 @@
 
 > **`tri-mind` / tri-frame choreography is deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md). Use **[`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md)** for multi-preset comparison, or invoke **one** named mind below.
 
-**Canonical long-form fingerprints (SSOT)** live in the **strategy-expert `*-mind.md`** files at the strategy-notebook root (same bundle family as `-thread` / `-transcript`). Stable **`CIV-MIND-*.md`** paths under [`strategy-notebook/minds/`](../strategy-notebook/minds/) **redirect** to those files for skills, bookmarks, and upstream template naming — **do not duplicate** the corpus there.
+**Canonical long-form mind corpus** lives in **`codex/strategy-expert-*-mind.md`** (role, contrast, catalyst doctrine, extended transcript quote bank). Stable **`CIV-MIND-*.md`** paths under [`codex/minds/`](../../../codex/minds/) **redirect** to those files — **do not duplicate** the corpus there.
 
-| Lens | Role | Expert mind (SSOT) | Profile · thread · transcript |
-|------|------|-------------------|------------------------------|
-| Mercouris | Legitimacy, narrative, doctrine, symbolic continuity | [`strategy-expert-mercouris-mind.md`](../strategy-notebook/strategy-expert-mercouris-mind.md) | [`strategy-expert-mercouris.md`](../strategy-notebook/strategy-expert-mercouris.md) · [`-thread`](../strategy-notebook/strategy-expert-mercouris-thread.md) · [`-transcript`](../strategy-notebook/strategy-expert-mercouris-transcript.md) |
-| Mearsheimer | Power, alliances, security dilemmas, great-power geometry | [`strategy-expert-mearsheimer-mind.md`](../strategy-notebook/strategy-expert-mearsheimer-mind.md) | [`strategy-expert-mearsheimer.md`](../strategy-notebook/strategy-expert-mearsheimer.md) · [`-thread`](../strategy-notebook/strategy-expert-mearsheimer-thread.md) · [`-transcript`](../strategy-notebook/strategy-expert-mearsheimer-transcript.md) |
-| Barnes | Material bases, liabilities, fiscal/resource constraints | [`strategy-expert-barnes-mind.md`](../strategy-notebook/strategy-expert-barnes-mind.md) | [`strategy-expert-barnes.md`](../strategy-notebook/strategy-expert-barnes.md) · [`-thread`](../strategy-notebook/strategy-expert-barnes-thread.md) · [`-transcript`](../strategy-notebook/strategy-expert-barnes-transcript.md) |
+**Structured linguistic register (Tier A):** [`statecraft/voices/<speaker>/<speaker>-profile.md`](../../../statecraft/voices/) § `#linguistic-style-fingerprint-detailed` — agents read this **first** for in-voice table discipline; mind file § IV remains quote bank until rows migrate. Shape law: [voice-profile-template.md](../../../statecraft/voices/voice-profile-template.md).
 
-**Redirect paths (stable links, not duplicate bodies):** [CIV-MIND-MERCOURIS.md](../strategy-notebook/minds/CIV-MIND-MERCOURIS.md) · [CIV-MIND-MEARSHEIMER.md](../strategy-notebook/minds/CIV-MIND-MEARSHEIMER.md) · [CIV-MIND-BARNES.md](../strategy-notebook/minds/CIV-MIND-BARNES.md)
+| Lens | Role | Expert mind (quote bank) | Voice profile (structured register) |
+|------|------|--------------------------|-------------------------------------|
+| Mercouris | Legitimacy, narrative, doctrine, symbolic continuity | [`strategy-expert-mercouris-mind.md`](../../../codex/strategy-expert-mercouris-mind.md) | [mercouris-profile.md](../../../statecraft/voices/mercouris/mercouris-profile.md) (when Tier A) |
+| Mearsheimer | Power, alliances, security dilemmas, great-power geometry | [`strategy-expert-mearsheimer-mind.md`](../../../codex/strategy-expert-mearsheimer-mind.md) | [mearsheimer-profile.md](../../../statecraft/voices/) — *profile shelf pending* |
+| Barnes | Liability, jurisdiction, US civic machinery | [`strategy-expert-barnes-mind.md`](../../../codex/strategy-expert-barnes-mind.md) | [barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md) § detailed (Tier A) |
+
+**Redirect paths (stable links, not duplicate bodies):** [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) · [CIV-MIND-MEARSHEIMER.md](../../../codex/minds/CIV-MIND-MEARSHEIMER.md) · [CIV-MIND-BARNES.md](../../../codex/minds/CIV-MIND-BARNES.md)
 
 **Index:** [strategy-notebook/minds/README.md](../strategy-notebook/minds/README.md)
 
@@ -26,6 +28,8 @@ Protocol: [LEARN_MODE_RULES.md](../LEARN_MODE_RULES.md).
 
 **Daily brief overlays:** [DAILY-BRIEF-MINDS-WORKFLOW.md](DAILY-BRIEF-MINDS-WORKFLOW.md), [daily-brief-minds-menu.md](../daily-brief-minds-menu.md).
 
-**Post-entry lens menu (`strategy` / ingest):** [skill-strategy SKILL.md](../../../.cursor/skills/skill-strategy/SKILL.md) § Post-entry lens offer — read **LINGUISTIC FINGERPRINT** from the expert **`-mind.md`** files above (or the **`CIV-MIND-*.md`** redirects). **Optional single lens only** — no tri-frame default.
+**Post-entry lens menu (`strategy` / ingest):** [skill-strategy SKILL.md](../../../.cursor/skills/skill-strategy/SKILL.md) § Post-entry lens offer — for **Tier A** profiles, read **`#linguistic-style-fingerprint-detailed`** in the voice profile first, then mind file § IV for extended quotes. **Optional single lens only** — no tri-frame default.
+
+**Pass 2 mapping:** Barnes mind IV.\* → [barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md) detailed tables (2026-06); Mercouris / Mearsheimer profiles follow same eight-family schema when promoted.
 
 **Tri-mind skill:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md) · legacy [tri-mind SKILL.md](../../../.cursor/skills/tri-mind/SKILL.md).

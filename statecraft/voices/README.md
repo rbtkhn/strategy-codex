@@ -134,9 +134,11 @@ When the real question is host-law rather than speaker identity, open [statecraf
 
 ## Speaker profile law
 
-A **speaker profile** (`<speaker>-profile.md`) is the identity-and-voice hub: expert_id, role, pairing tags, voice fingerprint, convergence/tension stubs, and links — not transcript provenance, arc motion, or load-bearing synthesis.
+A **speaker profile** (`<speaker>-profile.md`) is the identity-and-voice hub: expert_id, role, pairing tags, compact voice tier, **structured linguistic style fingerprint (detailed when Tier A)**, convergence/tension stubs, and links — not transcript provenance, arc motion, or load-bearing synthesis.
 
-**Shape contract:** [voices-profile-template.md](voices-profile-template.md) — required sections, seed vs mature tiers, migration checklist. Upstream minimal scaffold: [strategy-codex-template-profile.md](../../codex/strategy-codex-template-profile.md).
+**Shape contract:** [voice-profile-template.md](voice-profile-template.md) — required sections, Tier B/A linguistic law, seed vs mature tiers, migration checklist. Upstream minimal scaffold: [strategy-codex-template-profile.md](../../codex/strategy-codex-template-profile.md).
+
+**Linguistic register SSOT:** When Tier **A**, agents read `#linguistic-style-fingerprint-detailed` in the profile first; `strategy-expert-<id>-mind.md` remains role/contrast + extended quote bank.
 
 Canonical placement:
 

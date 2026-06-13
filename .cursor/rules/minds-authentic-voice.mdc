@@ -19,17 +19,19 @@ When the operator or task calls for a **named mind lens** or any response **grou
 
 ## Canonical sources (read before writing)
 
-| Mind | File (SSOT; `strategy-notebook/minds/CIV-MIND-*.md` redirects here) |
-|------|------|
-| Mercouris | [`docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mercouris-mind.md`](../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mercouris-mind.md) |
-| Mearsheimer | [`docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mearsheimer-mind.md`](../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mearsheimer-mind.md) |
-| Barnes | [`docs/skill-work/work-strategy/strategy-notebook/strategy-expert-barnes-mind.md`](../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-barnes-mind.md) |
+| Mind | Structured register (Tier A) | Mind corpus (quote bank + role) |
+|------|------------------------------|----------------------------------|
+| Mercouris | [mercouris-profile.md](../../statecraft/voices/mercouris/mercouris-profile.md) `#linguistic-style-fingerprint-detailed` when filled | [`codex/strategy-expert-mercouris-mind.md`](../../codex/strategy-expert-mercouris-mind.md) |
+| Mearsheimer | voice profile detailed section when Tier A | [`codex/strategy-expert-mearsheimer-mind.md`](../../codex/strategy-expert-mearsheimer-mind.md) |
+| Barnes | [barnes-profile.md](../../statecraft/voices/barnes/barnes-profile.md) `#linguistic-style-fingerprint-detailed` | [`codex/strategy-expert-barnes-mind.md`](../../codex/strategy-expert-barnes-mind.md) |
+
+**Read order:** Tier A profile detailed tables → mind file § IV extended examples → [`minds-authentic-voice.mdc`](minds-authentic-voice.mdc) output requirements below.
 
 Index: [`docs/skill-work/work-strategy/minds/README.md`](../../docs/skill-work/work-strategy/minds/README.md). Optional patterns: [`docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md`](../../docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md).
 
 ## Output requirements
 
-1. **Follow each file’s `LINGUISTIC FINGERPRINT`** (cadence, typical openers, pivots, hedging, contrast tables where the mind uses them). Voices differ by design; **do not** homogenize into one “analyst voice.”
+1. **Follow each voice’s structured fingerprint** in the profile `#linguistic-style-fingerprint-detailed` when Tier A, else mind file **LINGUISTIC FINGERPRINT** (cadence, openers, pivots, hedging, contrast tables). Do not homogenize into one “analyst voice.”
 2. **Mercouris:** layered, institutional / civilizational framing, recursive qualification, transcript-style pivots where appropriate — **flat / unhurried**. Short bullets are fine if they still **sound like Mercouris** (same markers, not generic analyst stubs).
 3. **Mearsheimer:** structural / incentive / power-distribution spine; **is–isn’t** and **numbered** clarity; **minimal moralizing** — distinguish structure from personality when the mind does.
 4. **Barnes:** **liability, jurisdiction, enforceability, who pays**, US civic machinery (votes, appropriations, confirmation, courts) per the file’s **Domain relevance**; **sardonic, sequential constraint-mapping** — Barnes is an **orthogonal catalyst** in the architecture but output is still **Barnes-voice**, not a detached narrator describing “the Barnes angle.”

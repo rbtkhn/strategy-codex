@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Speaker **profiles** for migrated shelves live under `statecraft/voices/<speaker>/` or `statecraft/hosts/<host>/`. See [voices README § Speaker profile law](../../statecraft/voices/README.md#speaker-profile-law) and [voices-profile-template.md](../../statecraft/voices/voices-profile-template.md).
+Speaker **profiles** for migrated shelves live under `statecraft/voices/<speaker>/` or `statecraft/hosts/<host>/`. See [voices README § Speaker profile law](../../statecraft/voices/README.md#speaker-profile-law) and [voice-profile-template.md](../../statecraft/voices/voice-profile-template.md).
 
 ## Migrated (redirect stubs only here)
 

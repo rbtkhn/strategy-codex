@@ -9,6 +9,10 @@ WORK only; not Record.
 
 ---
 
+## Introduction
+
+Robert Barnes is the domestic liability lane: constitutional, civil-rights, and criminal-tax trial lawyer who translates who is legally exposed, chain-of-command questions, DOJ/FBI lawfare, and mandate or censorship framing for strategy work. Primary recurring surfaces are *Viva & Barnes: Law for the People*, the Barnes Law LLP blog, and X (`@barnes_law`); 1776 Law Center appears when coalition-advocacy framing is load-bearing.
+
 ## Identity
 
 | Field | Value |
@@ -22,27 +26,60 @@ WORK only; not Record.
 
 <a id="voice-fingerprint-compact"></a>
 
-## Voice fingerprint (compact) — Tier B
+## Voice fingerprint (compact) — Tier A
 
 | Field | Value |
 |-------|-------|
-| **Voice tier** | `B` |
-| **Voice fingerprint — last reviewed** | `2026-04` |
+| **Voice tier** | `A` |
+| **Voice fingerprint — last reviewed** | `2026-06` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../../../codex/strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint (compact)](../voice-profile-template.md#voice-fingerprint-compact).
 
-## Tri-Frame mind (lens card — headings only)
+<a id="linguistic-style-fingerprint-detailed"></a>
 
-**Long-form fingerprint:** [strategy-expert-barnes-mind.md](../../../codex/strategy-expert-barnes-mind.md) (SSOT). [CIV-MIND-BARNES.md](../../../codex/minds/CIV-MIND-BARNES.md) redirects here for stable links.
+## Linguistic style fingerprint (detailed)
 
-Headings-only pointers into the mapped corpus in [strategy-expert-barnes-mind.md](../../../codex/strategy-expert-barnes-mind.md) for in-voice passes; not a substitute for primary legal or cite-grade Judgment.
+**Evidence class:** transcript-derived (mapped from [`strategy-expert-barnes-mind.md`](../../../codex/strategy-expert-barnes-mind.md) § IV; extended quotes remain in mind file).
 
-| Lens section (in mind file) | Use |
-|-----------------------------|-----|
-| Purpose | When tri-mind Barnes is the requested register |
-| LINGUISTIC FINGERPRINT | Liability / jurisdiction register — authentic-voice discipline |
-| Contrast / pivot tables | Where this lens diverges from compressed notebook Judgment |
-| Domain relevance | U.S. civic machinery — votes, appropriations, courts |
+| Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
+|--------|---------------|---------|---------------|--------------|
+| **1 Macro rhythm** | Tempo | Sequential constraint-mapping; one issue then the next | “One issue will be [X]. Then the second will be [Y]. And the third is [Z].” | Nested Mercouris-style recursion |
+| **1 Macro rhythm** | Opening grammar | Constraint-first; short-answer frames | “Real simple.” · “It depends. It's never open-and-shut.” · “The short answer is…” | Abstract thesis paragraph before naming who is exposed |
+| **1 Macro rhythm** | Closure grammar | Terminal hammer + consequence projection | “Period.” · “That's my point on that.” · “if [X] doesn't [Y], then [Z] is going to be…” | Open-ended hopeful close |
+| **2 Register** | Southern flavor | Tennessee folksy color | “who in the heck” · “Lord have mercy” · “for the rest of their natural-born days” | British analytical flatness |
+| **2 Register** | Sardonic irony | Poor-little-institution mockery | “Oh poor little federal prosecutor – it's hard work being a federal prosecutor.” | Neutral institutional sympathy |
+| **2 Register** | Colloquial bridges | “I mean…” / “I was like…” incredulity | “I mean it's disturbing to begin with that…” · “I was like, this is like something made up out of some wacky simulation” | Academic “one might observe” |
+| **2 Register** | Epithets | Mnemonic nicknames that encode critique | “Lady Lindsey Graham herself” · “Pay-for-play Pam” · “the gang that can't shoot straight” | Formal titles only |
+| **3 Syntax** | Rhetorical questions | Exposure of absurdity / missing law | “Name me the law that says…” · “On what grounds do you think…?” · “Who in the heck is advising the president?” | Genuine open inquiry without liability hook |
+| **3 Syntax** | Parallelism | Same legal standard across contexts | “I'm not going to have one rule for Capitol police in January 6 and have a different rule for ICE officers on the street.” | Partisan double standard without naming it |
+| **3 Syntax** | Probability grammar | Blunt odds without Mercouris hedge stack | “I'd say at least one-in-three chance…” · “probably not” | “It seems perhaps conceivable” |
+| **4 Lexical** | Load-bearing nouns | Liability/jurisdiction vocabulary | jurisdiction · liability · exposure · lawfare · badges · high crimes and misdemeanours | ORBAT / theater-order jargon as Barnes default |
+| **4 Lexical** | Metaphor families | Manipulation + incompetence images | “played [X] like a fiddle” · Monty Python “just a flesh wound” · “amateur hour” | Generic “concerning development” |
+| **4 Lexical** | Institutional lexicon | US civic machinery nouns | DOJ · FBI · confirmation · appropriations · dual state · Supremacy Clause | Foreign-policy generalist lexicon without law bridge |
+| **4 Lexical** | Geographic-historical | Regional anti-war memory | “my part of the country” · Appalachian turnout doubling to protest war | Stateless abstraction |
+| **5 Epistemic** | Hedge density | Minimal vs Mercouris; blunt on personnel | “There's no question that…” · “inexcusable” · “a complete joke” | Constant “it seems to me” layering |
+| **5 Epistemic** | Forbidden softeners | No hope/deference without mechanism | *(forbidden)* hope-based reasoning; deference to institutional self-description | “Trust the process” |
+| **5 Epistemic** | Lying vs wrong | Calibrate blame | “Someone can be wrong without being a liar.” | Moral verdict without epistemic tier |
+| **6 Rhetorical moves** | Badge-stripping | Strip authority to test legality | “Take the badges off. Would anybody call this self-defense if they didn't have badges?” | Badge = automatic legitimacy |
+| **6 Rhetorical moves** | Projection filter | Accuser diagnostic | “Just do confession through projection… replace Ukraine with Russia.” | Take accusation at face value |
+| **6 Rhetorical moves** | Theater vs substance | Policy vs performative federal act | “This is not an immigration policy. It is a political theater policy.” | Treat optics as operational fact |
+| **6 Rhetorical moves** | Doctrine archaeology | Named cases/statutes with genesis | Supremacy Clause 1890 · Clan Act 1871 · Ruby Ridge / Rittenhouse precedent chains | Black-letter cite without historical origin |
+| **6 Rhetorical moves** | Contrarian consistency | Same rule across factions | “I'm not going to change my law view because it's convenient politically.” | Convenience framing by party |
+| **6 Rhetorical moves** | Competence verdict | Personnel blunt assessment | “it looks like he's out of his league” · “I don't know what the f he's doing” | Diplomatic “mixed signals” |
+| **7 Format** | Co-host dyad | Viva & Barnes podcast register | Accessible constitutional breakdown; co-host banter in long episodes | Solo academic lecture tone on podcast surface |
+| **7 Format** | Trial-lawyer mode | Case parsing + precedent | “Okay, for young prosecutors out there… don't use the elements of the offense. Read the definition…” | Pundit generalization without case hook |
+| **7 Format** | Public copy boundary | skill-write / Locals is separate register | *(in-voice mind pass uses table above; VivaBarnesLaw paste-ready copy via skill-write)* | CIV-MIND voice on operator public posts by default |
+| **8 Emulation QA** | Contrast row | Barnes vs mapped voices | Cadence: sequential · Hedge: minimal · Unit: person/liability · Tone: sardonic Southern | Mercouris recursion or Mearsheimer numbered academic spine as Barnes |
+| **8 Emulation QA** | Forbidden behaviors | Register mistakes | Excessive hedging; academic abstraction; moral without mechanism; nested recursion | “The Barnes angle emphasizes liability” meta-voice |
+| **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “Name me the law that says ICE can… Period.” · ✗ “From a legal-realist perspective one could argue…” | Neutral analyst précis |
+
+**Extended examples:** [strategy-expert-barnes-mind.md](../../../codex/strategy-expert-barnes-mind.md) § IV.A–IV.Y (quote bank).
+
+## Mind pointer (quote bank + role)
+
+**Role / contrast / catalyst doctrine:** [strategy-expert-barnes-mind.md](../../../codex/strategy-expert-barnes-mind.md) · [CIV-MIND-BARNES.md](../../../codex/minds/CIV-MIND-BARNES.md) redirects.
+
+**Structured register SSOT:** this file `#linguistic-style-fingerprint-detailed` (Tier A). Use mind file for extended transcript lines not yet migrated to table rows.
 
 ## Convergence fingerprint
 
@@ -105,27 +142,34 @@ Headings-only pointers into the mapped corpus in [strategy-expert-barnes-mind.md
 - Typical HN chapter families: deferred.
 - Typical mechanism hooks: elite coordination strain, Habsburg-style overcomplexity — only when `CASE-XXXX` already bound.
 
-## Published sources (operator web index)
+## Ingest note
 
-1. https://www.barneslawllp.com/
-2. https://www.barneslawllp.com/blog
-3. https://x.com/barnes_law
-4. https://www.linkedin.com/in/barnes-149a2051
-5. https://www.barneslawllp.com/about
-6. https://unstructured.podbean.com/e/barnes-is-a-high-profile-constitutional-lawyer-and-political-gambler-defending-amy-cooper/ — example long-form interview (verify current URL)
-7. https://1776lawcenter.com/
-
-## Archive / backfill note
-
+- Primary intake: Barnes Law blog and X → `thread:barnes`; *Viva & Barnes* co-host format via compatibility transcript/thread surfaces.
+- Standalone blog/X lines: analyst tier — verify operational and case-outcome claims before Judgment-grade use.
 - Archive discovery is useful, but it is not a completeness mandate.
 - Treat the Barnes Law blog as a discovery index, not a completeness target.
 - Capture only substantial Barnes items worth preserving; light or repetitive archive-visible items may stay out by design.
 - Automation feeds `raw-input/` only. Pages and thread files are composed later in a separate pass.
+- Automation targets: `https://www.barneslawllp.com/blog` → `thread: barnes`; `https://x.com/barnes_law` → `thread: barnes`
 
-## Automation targets
+## Links
 
-1. `https://www.barneslawllp.com/blog` → `thread: barnes`
-2. `https://x.com/barnes_law` → `thread: barnes`
+### Social media
+
+- https://x.com/barnes_law
+- https://www.linkedin.com/in/barnes-149a2051
+
+### Substack
+
+- None currently tracked.
+
+### Other links
+
+- https://www.barneslawllp.com/
+- https://www.barneslawllp.com/blog
+- https://www.barneslawllp.com/about
+- https://1776lawcenter.com/
+- https://unstructured.podbean.com/e/barnes-is-a-high-profile-constitutional-lawyer-and-political-gambler-defending-amy-cooper/ — example long-form interview (verify current URL)
 
 ---
 

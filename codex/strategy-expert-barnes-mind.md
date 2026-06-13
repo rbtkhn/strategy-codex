@@ -118,6 +118,9 @@ III. CONTRAST WITH MERCOURIS AND MEARSHEIMER
 ────────────────────────────────────────────────────────────
 IV. LINGUISTIC FINGERPRINT (TRANSCRIPT-DERIVED)
 ────────────────────────────────────────────────────────────
+
+**Structured register SSOT (Tier A):** [barnes-profile.md](../../statecraft/voices/barnes/barnes-profile.md#linguistic-style-fingerprint-detailed) — read profile detailed tables first for in-voice passes. This section remains the **extended quote bank** until all rows migrate.
+
 When invoked, BARNES maintains his full linguistic fingerprint.
 
 IV.A JURISDICTIONAL PRIMACY OPENING

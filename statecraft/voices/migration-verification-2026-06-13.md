@@ -8,7 +8,7 @@ Purpose: seal `statecraft/civ-lens` → `statecraft/voices` and `statecraft/civ-
 
 - Canonical live synthesis namespace: `statecraft/voices/`
 - Canonical source-memory path: `statecraft/states/`
-- Profile template: `statecraft/voices/voices-profile-template.md`
+- Profile template: `statecraft/voices/voice-profile-template.md` (legacy `voices-profile-template.md` redirects)
 - `statecraft/speakers/README.md` is the **only** compatibility stub → `voices/`
 - Submodule gitlink: `statecraft/voices/jiang/ph-civ` (`.gitmodules` + `git ls-files --stage`)
 - ph-civ submodule: 48 chapter README bridge URLs updated to `statecraft/states/` (submodule commit `0e3cade`)
