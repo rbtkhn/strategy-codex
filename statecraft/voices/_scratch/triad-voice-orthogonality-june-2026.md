@@ -64,3 +64,40 @@ No June M×B co-host; orthogonality is **parallel same-week**, not duet.
 ## §6 Thread fence
 
 Mercouris **June Ukraine-primary** rows (`[ukraine]`) are **not orthogonality-tested** against Barnes or Mearsheimer on Iran axes above.
+
+---
+
+## §7 Phase 6 emulation smoke (2026-06-13)
+
+**Object:** June 10–11 Iran seam — Apache pretext, deal/rug-pull, Hormuz tanker claims, ceasefire vs shooting.
+
+**Method:** Three short in-voice paragraphs on the same object; read against §5 collapse-risk rows.
+
+### Barnes (Davis register)
+
+Help me make sense of this, because what you're getting out of the White House is confession through projection in real time. Trump keeps saying they're tapping us along — no, it's Trump that's been begging for a deal and rug-pulling it once it's done. That's the rugpull presidency: six or seven times the terms were agreed and he couldn't handle criticism from the Israel lobby and the Fox crowd, so he blows it up on a helicopter pretext that doesn't hold up. Vance is on Fox selling nukes-only while Trump is on Truth ordering strikes — that's not policy confusion, that's deliberate humiliation of the negotiator. The fear stack flips hour to hour: economy, midterms, Fox, looking like Obama — all fear, no hope. Exit beats escalation because you're gambling he'll stay on a good day for a whole day, and that hasn't paid off in three months.
+
+**Family 8:** person/liability unit ✓ · minimal hedge ✓ · not Mercouris (no not-on-ground stack) ✓ · not Mearsheimer (no numbered ceasefire spine as primary) ✓
+
+### Mercouris (solo register, conference-short)
+
+Good day. Today is 11th June 2026, and the situation in the Persian Gulf remains very difficult to read with confidence. President Trump claims hundreds of millions of barrels of oil have passed through the Strait of Hormuz; I'm going to say straight away that I'm very skeptical about some of these claims. There have been suggestions for some time that tankers switch off transponders — I would have thought the Iranians would take steps to prevent that — and I would not be at all surprised if what we're seeing is the military, confronted with impossible orders, pleasing the president by presenting the situation as better than it really is. I'm not there and I'm not able to observe what is actually taking place on the Strait of Hormuz. If there is another attack, the Iranians may respond against Gulf oil facilities — and then, frankly, all bets are off. Oil executives still speak of rapidly depleting reserves; they don't seem particularly impressed, and frankly, I'm not.
+
+**Family 8:** hedge stack + not-on-ground ✓ · theater/chronology unit ✓ · not Barnes (no toddler/rug-pull lexicon) ✓ · not Mearsheimer (no escalation-ladder enumeration as spine) ✓
+
+### Mearsheimer (Davis register)
+
+It's impossible to call what's going on a ceasefire, Danny — we've gone up the escalation ladder. Trump said he was compelled to respond to the Apache; the Iranians said they'd retaliate disproportionately; Trump attacked; they responded; Trump is promising to respond again. The question is whether you believe he can defeat the Iranians as he goes up that ladder and get them to submit — and submit to what? Because the what keeps changing. I thought the deal on the table was a ceasefire first: stop all shooting, including in Lebanon; open the Strait of Hormuz; $24 billion in frozen assets back; lift sanctions on Iranian oil exports. Once you do those four things, you get a real ceasefire — then serious negotiations on nuclear issues, reparations, and the rest. It appeared both sides agreed on that framework and were working out details. Now the terms seem to be shifting again, and I don't know what deal we're trying to get them to sign. That's my bottom line: we're climbing the ladder, not closing a deal.
+
+**Family 8:** state/ladder unit ✓ · numbered if/then ✓ · moderate hedge (not Mercouris-density) ✓ · not Barnes (no Vance humiliation chain as primary move) ✓
+
+### Smoke verdict
+
+| Collapse risk | Result |
+|---------------|--------|
+| Barnes → Mercouris ORBAT | **Pass** |
+| Barnes → Mearsheimer structure-only | **Pass** |
+| Mercouris → Mearsheimer bluntness | **Pass** |
+| All three → generic “Trump bad” | **Pass** |
+
+**Overall:** Phase 6 **pass** — triad separation holds on Jun 10–11 object.
