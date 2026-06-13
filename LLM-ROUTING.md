@@ -12,6 +12,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 |---|---|
 | analyst / speaker / commentator **source index** | [statecraft/civ-lens/INDEX.md](statecraft/civ-lens/INDEX.md), `statecraft/civ-lens/**/**-source-index.md` |
 | Barnes / Robert Barnes | [statecraft/civ-lens/barnes/](statecraft/civ-lens/barnes/), `source-archive/statecraft/**/source-*barnes*` |
+| Daniel Davis / Davis host | [statecraft/hosts/davis/](statecraft/hosts/davis/) |
+| Napolitano / Judging Freedom | [statecraft/hosts/napolitano/](statecraft/hosts/napolitano/) |
+| Nima / Dialogue Works | [statecraft/hosts/nima/](statecraft/hosts/nima/), [codex/speakers/nima/](codex/speakers/nima/) for stream + source-index |
 | transcript / capture / source file | [source-archive/statecraft/](source-archive/statecraft/) |
 | archive inventory by thread (counts, coverage) | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) — **generated inventory**, not a route map |
 | daily statecraft synthesis | [statecraft/daily/](statecraft/daily/) — **after** archive + source-index |

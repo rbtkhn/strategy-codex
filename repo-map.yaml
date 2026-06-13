@@ -27,6 +27,39 @@ routes:
     tags: [civ-lens, speaker-cluster, pape, ritter, parsi, crooke, satellite-routing]
     search_hints: [speaker cluster map, satellite speaker, which speaker after Pape, anchor satellite routing]
 
+  - id: davis-host-shelf
+    title: Davis (Deep Dive) host shelf
+    path: statecraft/hosts/davis/README.md
+    kind: routing_aid
+    authority: work_only
+    domain: [statecraft, hosts, deep-dive]
+    people: [Daniel Davis, Davis]
+    hosts: [Daniel Davis Deep Dive]
+    tags: [davis, deep-dive, host-shelf, host-profile, statecraft]
+    search_hints: [Davis host, Daniel Davis, Deep Dive host, Davis profile, feasibility host]
+
+  - id: napolitano-host-shelf
+    title: Napolitano (Judging Freedom) host shelf
+    path: statecraft/hosts/napolitano/README.md
+    kind: routing_aid
+    authority: work_only
+    domain: [statecraft, hosts, judging-freedom]
+    people: [Andrew Napolitano, Judge Andrew Napolitano, Napolitano]
+    hosts: [Judging Freedom]
+    tags: [napolitano, judging-freedom, host-shelf, statecraft]
+    search_hints: [Napolitano host, Judging Freedom, Napolitano profile, legal process host]
+
+  - id: nima-host-shelf
+    title: Nima (Dialogue Works) host shelf
+    path: statecraft/hosts/nima/README.md
+    kind: routing_aid
+    authority: work_only
+    domain: [statecraft, hosts, dialogue-works]
+    people: [Nima, Alkorshid]
+    hosts: [Dialogue Works]
+    tags: [nima, dialogue-works, host-shelf, host-profile, statecraft]
+    search_hints: [Nima host, Dialogue Works host, Nima profile, Dialogue Works routing, Alkorshid]
+
   - id: source-lattice-doctrine
     title: Source-lattice doctrine (statecraft + general)
     path: docs/source-lattice-beyond-the-repo.md
