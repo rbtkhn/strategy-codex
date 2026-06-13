@@ -2,12 +2,12 @@
 ingest_date: 2026-04-21
 pub_date: 2026-04-15
 thread: mercouris
-source_url: https://www.youtube.com/watch?v=TBD-mercouris-2026-04-15
+source_url: "https://www.youtube.com/watch?v=6kqD_urUtjA"
 kind: operator-transcript
 source_form: interview
 series: The Duran
 speaker: Alexander Mercouris
-source_note: Operator-ingested transcript; pin canonical The Duran YouTube watch?v= when available.
+source_note: "Duplicate residue; canonical capture source-alex-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md holds merged body."
 title_slug: mercouris-russia-intensify-china-tankers-putin-xi-2026-04-15
 ---
 # Russia Warns US Will 'Intensify' Iran War; China Warns Navy Will Protect China Oil Tankers; Putin-Xi Trip (operator transcript)
