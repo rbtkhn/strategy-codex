@@ -120,6 +120,32 @@ After resolution, use the executable first-command bootstrap with the resolved i
 
 This prints a **Coffee Bootstrap Brief** first, then runs an **inline fast Step 1** (one Python process, one shared `git status` scan — typically seconds, not minutes). The brief includes git state, cadence rhythm, and hub recommendation; **Repo identity**, **gh auth**, and **pytest subprocess probes** are skipped in fast mode (use `--verbose` for full underlying blocks, `--subprocess` for the legacy subprocess chain). Ordinary in-thread `coffee`, `coffee light`, `coffee minimal`, and signing-off behavior stay unchanged.
 
+<a id="harness-hang-recovery"></a>
+
+### Harness hang recovery (Windows / long threads)
+
+**Symptom:** `Read`, `Shell`, or `Glob` returns *Interrupted by the user after ~300000ms+* with no stdout — usually a **harness timeout**, not operator cancel and not a repo script failure.
+
+**Do not** retry the same parallel batch (full `operator_coffee.py` + multiple reads + grep).
+
+**Fast recovery (same turn must still show Step 2 hub menu):**
+
+1. Operator may say **`fast tools`** or **`read only`** — then **Read/Write + one Shell only** ([agent-tool-latency-discipline.mdc](../../rules/agent-tool-latency-discipline.mdc)).
+2. Step 0 rhythm — one Shell:
+   ```bash
+   python3 scripts/cadence_recent_rhythm.py --ritual coffee
+   ```
+3. Step 1 ship snapshot — one Shell:
+   ```bash
+   python3 scripts/operator_handoff_check.py --fast
+   ```
+4. Synthesize **Recent rhythm** prose from cadence output; paste handoff **Ship receipt** block.
+5. Emit the full **Coffee Hub Menu — Reply A–D** immediately. **Do not** end on “starting now.”
+
+**Signing-off under hang:** skip heavy `operator_coffee.py --mode closeout`; use `--fast` handoff only unless the operator explicitly asks for full closeout.
+
+**Operator finish phrase:** **`fast tools and finish <task>`** = bounded Read/Write first, then **one** combined git or validator Shell for the named task.
+
 For Step 0 recent rhythm, prefer the shared executable formatter in `scripts/cadence_recent_rhythm.py --ritual coffee` over manual log synthesis. `scripts/coffee_bootstrap_brief.py` already delegates to that helper. It reads `coffee_close` receipts first, names readiness / artifact anchors / repeated unresolved loops, and keeps the first screen free of timestamp walls.
 
 ### Step 0 — Recent rhythm (before Step 1 scripts)

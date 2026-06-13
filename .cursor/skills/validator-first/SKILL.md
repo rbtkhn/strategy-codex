@@ -47,9 +47,27 @@ description: >-
 
 Use **`python`** or **`python3`** per host; Windows repo root paths as in session.
 
+## Civ-lens profile SSOT wedge (strategy-codex)
+
+Use when shipping **speaker profile migration** (`codex/profiles/` → `statecraft/civ-lens/<speaker>/` or `statecraft/hosts/<host>/` + redirect stub). One **pair or single speaker** per commit — not the whole migration wave.
+
+**Procedure (one validator run + one git Shell when executing):**
+
+1. **Run first** (do not read validator source):
+   ```bash
+   python3 scripts/validate_repo_routing.py --strict
+   ```
+2. **Stage only** the wedge: canonical profile + shelf `README.md` / `index.md` + `*-source-index.md` when new + `codex/profiles/*-profile.md` redirect + `INDEX.md` / `repo-map.yaml` wiring if touched.
+3. **Commit** with a message naming the speaker pair and “civ-lens SSOT” or “hosts SSOT”.
+4. **`git push origin main`** when the menu pick includes push; report network failure separately from validator failure.
+5. On pass after ship: optional `operator_handoff_check.py --fast` receipt.
+
+**Do not** mix telemetry (`work-cadence-events.md`, `self-memory.md`), `.gitignore`, or unrelated validator WIP into the same commit unless the operator names that combo.
+
 ## Stall recovery
 
 If Shell hangs or interrupts:
 
 1. Retry **only** the run command (no parallel reads).
-2. If still blocked, report and suggest operator run locally with the exact one-liner.
+2. If still blocked, switch to **`fast tools`**: Read/Write the target files, then one narrow Shell (see [coffee SKILL — Harness hang recovery](../coffee/SKILL.md#harness-hang-recovery)).
+3. If still blocked, report and suggest operator run locally with the exact one-liner.
