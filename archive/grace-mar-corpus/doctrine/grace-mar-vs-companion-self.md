@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 ﻿# Grace-Mar vs Companion-Self â€” Instance vs Template
 
 Side-by-side comparison of the two repositories that form the companion-self vision: personalized, long-term cognitive profiles (companion selves) that grow through interaction, evidence, and self-directed learning.

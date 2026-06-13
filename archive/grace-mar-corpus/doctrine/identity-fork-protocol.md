@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Identity Fork Protocol (IFP) — v1.0
 
 **A sovereign, evidence-linked, agent-consumable identity layer for the agent web.**

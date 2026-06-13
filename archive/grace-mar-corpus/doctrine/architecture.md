@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **ork revive only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 ﻿# GRACE-MAR Architecture
 
 > **strategy-codex product (2026):** Active operator objective is the **governed interpretive machine** (archive → synthesis → transactions), not fork growth. The Grace-Mar **Record is frozen** and **Voice/bot is deprecated** at repo root. This document remains the historical architecture spec for the embedded fork; see [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md), [product-identity.md](product-identity.md), and [deprecated-surfaces.md](deprecated-surfaces.md).

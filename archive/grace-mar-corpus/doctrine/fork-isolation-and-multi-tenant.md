@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Fork Isolation and Multi-Tenant Design
 
 **Purpose:** Define clean boundaries so each cognitive fork is isolated by namespace, with room for per-fork quotas, retention, permissions, and export/import — even when the pilot runs a single fork. Designing for multi-tenant boundaries now avoids a painful rewrite when adding a second fork or family mesh.

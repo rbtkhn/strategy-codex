@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Admissions / Job Applicant Link — Use Case & Plan
 
 **Purpose:** Allow applicants to share a link so admissions officers or employers can interact with their cognitive fork (Grace-Mar) as part of the application process. The fork becomes a conversational window into who the applicant is.

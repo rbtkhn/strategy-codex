@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Fork lifecycle (fork history)
 
 Grace-Mar treats each cognitive fork under `<fork_id>/` as a **versioned, evidence-grounded record** with an explicit lifecycle.

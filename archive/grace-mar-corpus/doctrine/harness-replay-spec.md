@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 ﻿# Harness Event Replay â€” product spec (north star)
 
 Grace-Mar treats **Voice as model + harness** and expects debugging to separate **model limit, prompt gap, pipeline miss, or tool/context issue** ([architecture.md](architecture.md)). The system is split into **record, runtime, audit, and policy** lanesâ€”not one opaque memory store. The audit lane already anchors concrete files: `pipeline-events.jsonl`, `merge-receipts.jsonl`, `compute-ledger.jsonl`, `harness-events.jsonl`, `fork-manifest.json` ([harness-inventory.md](harness-inventory.md)). That layout is the architectural placeholder for **causal replay**.

@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Governance unbundling in cognitive forks
 
 **Purpose:** Name how **routing**, **sensemaking**, and **accountability** split in companion-self style systems so agents and contributors know what may be automated versus what stays human-gated.

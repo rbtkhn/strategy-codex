@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **ork revive only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Conceptual Framework — grace-mar
 
 > **Historical — Grace-Mar instance doctrine.** `strategy-codex` product objective is a governed interpretive machine, not fork growth. See [`product-identity.md`](product-identity.md) and [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md). Sections below apply on explicit **fork revive** only.
