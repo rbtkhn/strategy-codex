@@ -5,12 +5,18 @@
     "README.md",
     "AGENTS.md",
     "instance-doctrine.md",
+    "contributing.md",
+    "pyproject.toml",
+    "mkdocs.yml",
     "docs/**/*.md",
     ".cursor/rules/**/*.mdc",
     ".cursor/skills/**/SKILL.md",
+    ".github/workflows/*.yml",
     "config/strategy_codex.yaml",
     "config/operator_shell_manifest.yaml",
     "bootstrap/*.md",
+    "extension/readme.md",
+    "scripts/session_brief.py",
     "scripts/operator_handoff_check.py",
     "scripts/operator_daily_warmup.py",
     "scripts/harness_warmup.py"
@@ -26,32 +32,41 @@
     ".git/"
   ],
   "skip_paths_exact": [
-    "docs/white-paper.md",
-    "docs/grace-mar-core.md",
-    "docs/identity-fork-protocol.md",
-    "docs/concept.md",
-    "docs/business-prospectus.md",
-    "docs/business-roadmap.md",
-    "docs/design-roadmap.md",
-    "docs/admissions-link-use-case.md",
-    "docs/simple-user-interface.md",
-    "docs/orchestration/memory-brief-to-gate-demo.md",
     "docs/grace-mar-instance-boundary.md",
     "docs/deprecated-surfaces.md",
     "docs/product-identity.md",
-    "docs/architecture.md",
     "docs/glossary.md",
     "docs/harness-handoff.md",
     "docs/implementable-insights.md",
-    "docs/openclaw-integration.md",
     "docs/profile-deploy.md",
     "docs/web-app-plan.md",
+    "docs/legacy-operator-concepts.md",
+    "docs/replacement-capture-habits.md",
+    "docs/orchestration/memory-brief-to-gate-demo.md",
     "bootstrap/grace-mar-bootstrap.md",
     "bootstrap/work-jiang-bootstrap.md",
     ".cursor/rules/grace-mar.mdc"
   ],
-  "context_suppress_regex": "(?i)frozen|legacy|deprecated|fork revive|archaeolog|not a system objective|not the active|fork-revive|explicit revive|operator-archived|grace-mar archive|if frozen|unless you invoked",
+  "context_suppress_regex": "(?i)frozen|legacy|deprecated|fork revive|archaeolog|not a system objective|not the active|fork-revive|explicit revive|operator-archived|grace-mar archive|if frozen|unless you invoked|archived: true|moved_to:",
   "rules": [
+    {
+      "id": "pipeline-will-grow",
+      "pattern": "(?i)pipeline will grow the record",
+      "message": "Do not imply the pipeline will grow the Record by default.",
+      "severity": "error"
+    },
+    {
+      "id": "live-cognitive-fork-instance",
+      "pattern": "(?i)live cognitive-fork instance",
+      "message": "Contributing/onboarding should lead with strategy-codex interpretive machine, not live fork instance.",
+      "severity": "error"
+    },
+    {
+      "id": "bots-live-active",
+      "pattern": "(?i)bots live|active instance[^\\n]{0,40}pipeline running",
+      "message": "Voice/bots should be archaeology-only, not active default.",
+      "severity": "error"
+    },
     {
       "id": "default-user-grace-mar",
       "pattern": "(?i)(?:default(?:_operator_user|-u\\s+| user[`'\"]?\\s*[:=]\\s*)[`'\"]?)(?:grace-mar)",
