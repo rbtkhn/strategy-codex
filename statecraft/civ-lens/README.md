@@ -134,6 +134,8 @@ When the real question is host-law rather than speaker identity, open [statecraf
 
 A **speaker profile** (`<speaker>-profile.md`) is the identity-and-voice hub: expert_id, role, pairing tags, voice fingerprint, convergence/tension stubs, and links — not transcript provenance, arc motion, or load-bearing synthesis.
 
+**Shape contract:** [civ-lens-profile-template.md](civ-lens-profile-template.md) — required sections, seed vs mature tiers, migration checklist. Upstream minimal scaffold: [strategy-codex-template-profile.md](../../codex/strategy-codex-template-profile.md).
+
 Canonical placement:
 
 - **Migrated canonical shelf** → `statecraft/civ-lens/<speaker>/<speaker>-profile.md` (SSOT). List it in the shelf `README.md` **Open first** block before arc/routing when identity or voice tier is the job.

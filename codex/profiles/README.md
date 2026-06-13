@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Speaker **profiles** for migrated shelves live under `statecraft/civ-lens/<speaker>/` or `statecraft/hosts/<host>/`. See [civ-lens README § Speaker profile law](../../statecraft/civ-lens/README.md#speaker-profile-law).
+Speaker **profiles** for migrated shelves live under `statecraft/civ-lens/<speaker>/` or `statecraft/hosts/<host>/`. See [civ-lens README § Speaker profile law](../../statecraft/civ-lens/README.md#speaker-profile-law) and [civ-lens-profile-template.md](../../statecraft/civ-lens/civ-lens-profile-template.md).
 
 ## Migrated (redirect stubs only here)
 
