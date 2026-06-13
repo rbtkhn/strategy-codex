@@ -22,7 +22,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/hosts/](statecraft/hosts/) |
 | statecraft lane / active operator work | [statecraft/](statecraft/) |
 | library / reading / canon / books | [self-library.md](self-library.md), [artifacts/library-index.md](artifacts/library-index.md) |
-| SELF / SKILLS / EVIDENCE / Record | `self.md`, `self-skills.md`, `self-archive.md`, `recursion-gate.md` |
+| SELF / SKILLS / EVIDENCE / Record | `self.md`, `self-skills.md`, `self-archive.md`, `recursion-gate.md` — **frozen archaeology** at repo root; default work is `statecraft/` / `singularity/` |
+| Grace-Mar fork doctrine / pipeline habits (archived) | [archive/grace-mar-corpus/README.md](archive/grace-mar-corpus/README.md) — stubs at former `docs/*.md` paths with `archived: true` |
+| legacy operator concepts (tri-mind, fork growth, Voice) | [docs/legacy-operator-concepts.md](docs/legacy-operator-concepts.md) |
 | generated dashboard / derived operator surface | [artifacts/](artifacts/) |
 | local semantic / vector index | [scripts/index_record.py](scripts/index_record.py), local `.chroma` paths |
 | **source-lattice** / corpus tiers / reading order | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) |
