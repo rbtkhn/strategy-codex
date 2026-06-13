@@ -212,9 +212,18 @@ Optional footer when captures anchor the profile:
 
 ### Family 2 — Register and sociolinguistic color
 
+**Regional flavor ≠ dialectology.** Family 2 captures **transcript-visible sociolinguistic markers** for in-voice emulation (oral color, regional grounding in lexicon and idiom, formality band). It is **not**:
+
+- phonetic / accent identification or ASR accent classification
+- a dialect taxonomy (e.g. Appalachian vs General American isogloss work)
+- biographical truth about where a speaker grew up — only **speech-pattern evidence** with archive slug or `mind-legacy` label
+
+When regional grounding matters, split rows: **regional grounding** (where the voice anchors itself) vs **oral colloquial** (how it sounds) vs **geographic-historical lexicon** (Family 4 — political memory vocabulary). Do not infer dialect from host intro alone unless the guest adopts that frame in their own speech.
+
 | Sub-dimension | Capture |
 |---|---|
-| Regional / cultural flavor | Dialect, regional grounding |
+| Regional / cultural grounding | Oral-register markers tied to stated or repeated regional identity — **not** phonology |
+| Oral colloquial color | Intensifiers, domestic analogy, folksy idiom (quoted lines) |
 | Formality band | Oral argument vs podcast vs written |
 | Colloquial bridges | Fillers, incredulity markers |
 | Epithets and nicknames | Sardonic labels, mnemonic sobriquets |
