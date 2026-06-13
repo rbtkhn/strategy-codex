@@ -278,6 +278,18 @@ B. Andante: Build a review packet that ranks work by arc value, risk, and finish
 C. Scherzo: Execute one workflow slice in `docs/skill-work/work-strategy/`.
 D. Finale: Park the secondary threads with a closeout line that preserves the whole arc.
 
+**Statecraft week-close example**
+
+The week already has a governing pair; what protrudes is repeated compression across five notes. We rebalance the hinge, wire the receipt into the bridge hierarchy, sink the one-liner into compact, and close with falsifier forks — not another daily paragraph.
+
+**Conductor Action Menu - Reply A-D for this `karajan` pass**
+A. Allegro: Rebalance `statecraft/daily/<week>-start-here.md` — elevate the governing pair in "If you only read four things" and sync the note map to current wire seams.
+B. Andante: Wire transaction receipt rows and wire-verify grades into the lane bridge sheet (e.g. `*-marandi-*-bridge.md`, `AMER-*-RCPT-*` + J12-* columns).
+C. Scherzo: Draft `statecraft/compact/<slug>-objection-matrix.md` per [compact README compression sink](../../../statecraft/compact/README.md#compression-sink-dedup-rule); replace duplicate one-liners downstream with links.
+D. Finale: Extend `statecraft/daily/<day>-72h-watch-run.md` with new falsifier forks; run `python3 scripts/check_statecraft_intake_daily_sync.py --day <pub_date>`; log `coffee_pick` + `coffee_conductor_outcome` (`conductor=karajan`, `verdict=shaped`, `notebook_ref=`, `falsify=`).
+
+**Worked example (Jun 12):** [triple-fracture compact](../../../statecraft/compact/jun-12-triple-fracture-objection-matrix.md) · [72h watch finale](../../../statecraft/daily/2026-06-12-72h-watch-run.md#karajan-finale-receipt-2026-06-13).
+
 ## Kleiber conductor voice prototype
 
 This prototype applies only when resolved `conductor=kleiber`. It does not change `toscanini`, `furtwangler`, `karajan`, or `bernstein` behavior. Treat the voice as a historically inspired WORK-layer conductor mask, not literal Carlos Kleiber, not companion Voice, not Record authority, and not an autonomous actor.

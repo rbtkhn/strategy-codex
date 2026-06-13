@@ -769,3 +769,5 @@ _(Append below this line.)_
 - **2026-06-12 23:52 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=B learning_action=test
 - **2026-06-12 23:53 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-12 23:54 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm slice=coffee-cadence-infra
+- **2026-06-13 10:41 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-06-13 10:41 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=shaped notebook_ref=statecraft/daily/2026-06-12-72h-watch-run.md falsify=RCPT-04-stressed-A-prime-south-open

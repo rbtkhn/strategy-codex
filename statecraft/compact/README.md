@@ -52,3 +52,15 @@ The compact path exists to keep cross-lane work honest:
 - drafting last
 
 If the object starts sounding elegant before its owners, carriers, and resistance structure are stable, step back toward `state-deploy`, comparison, or transaction-fit rather than widening the compact.
+
+## Compression sink (dedup rule)
+
+When **three or more** statecraft daily notes, bridge sheets, or transaction corroboration blocks repeat the **same one-line compression**, stop duplicating it:
+
+1. Draft one file under `statecraft/compact/<slug>-objection-matrix.md` (or mechanism note) with the **objection matrix**, cross-lane map, shared falsifiers, and a **canonical one-liner**.
+2. Replace downstream compression blocks with a **single link** to that compact (detail tables stay in the linked notes).
+3. Point the week hinge **note map** at the compact as **canonical compression**.
+
+**Example:** [jun-12-triple-fracture-objection-matrix.md](./jun-12-triple-fracture-objection-matrix.md) — dual-document · A′ gradient · §224 quid triangle.
+
+Do not use the compact to skip `state-deploy` ownership judgment or to mirror full speaker depth tables.

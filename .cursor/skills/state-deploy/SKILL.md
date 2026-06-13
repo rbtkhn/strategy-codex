@@ -169,6 +169,8 @@ When the operator replies with a letter after a `state-deploy` output, execute t
 - `C` = compact / comparison surface
 - `D` = transaction or stress-test path
 
+**Combo picks (`A+B`, etc.):** Execute each letter in one turn when paths are complementary — e.g. **`A+B`** = America (or owning lane) instrument pass **plus** two-lane comparison table with shared falsifiers; do not reprint the deploy menu until both paths are delivered.
+
 ## Recursive-Update Membrane
 
 If a deployment call exposes a durable cross-lane pattern, compact type, or routing lesson, suggest a reviewable update candidate. Do not directly rewrite lane books from the deployment turn.
