@@ -1,0 +1,48 @@
+---
+description: Every assistant menu option must state its benefit concisely on the same line
+alwaysApply: true
+---
+
+# Menu option benefits (required)
+
+When the assistant ends a turn with a **labeled multi-choice block** (**A–E**, lens picks, mind offers, steward forks, conductor next moves where authored by the assistant, etc.), **each option line must include a concise benefit** — why pick it — **in the option text itself**.
+
+## Format
+
+- **One line per option:** label + fork stub + benefit clause on the **same line**.
+- **Benefit cue words:** use **because**, **so that**, or **in order to** (pick one; keep it short).
+- **Payoff types:** ship, validate, unblock, depth, breadth, lane handoff, falsifier upgrade, remote sync, time-save, risk reduction — whatever fits the fork.
+- **Stub only:** benefit describes payoff; **do not** develop the option’s output until the operator picks it.
+
+## Good
+
+```text
+**A** — Commit the hinge slice only, so that Karajan falsifiers ship without unrelated WIP
+**B** — Run wire-verify on UAE tranche, because J12-4 may upgrade from contested to partial
+```
+
+## Bad
+
+```text
+**A** — Commit
+**B** — Wire verify (do this if you want receipts)
+```
+
+Benefit after a second sentence, on the next line, or implied without **because** / **so that** / **in order to** — **non-compliant**.
+
+## Scope
+
+- **All** assistant-authored closing menus — not only WORK lanes.
+- **Lens / mind / tri-mind** letter offers — same rule.
+- **Combo picks** (**A+C**): each letter option still carries its own benefit when shown.
+
+## Exceptions
+
+- **Fixed verbatim menus** copied from skill SSOT without assistant rewording (e.g. coffee **A–D** hub, steward **Implement now / Later** when wording comes straight from [menu-reference](../../docs/skill-work/work-coffee/menu-reference.md)).
+- Operator says **no menu** / **no options**.
+- **Single straight answer** with no multi-choice block.
+
+## Related
+
+- [operator-style.mdc](operator-style.mdc) — WORK menus, present-don’t-pre-develop, execution hygiene
+- [work-menu-conventions.md](../../docs/skill-work/work-menu-conventions.md) — combo lines, receipts, logging
