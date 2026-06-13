@@ -6,6 +6,7 @@ Purpose: front door for the canonical first-pass Diesen `civ-lens` shelf.
 
 ## Open First
 
+- [Speaker profile](diesen-profile.md)
 - [README.md](README.md)
 - [diesen-speaker-object.md](diesen-speaker-object.md)
 - [diesen-cross-host-note.md](diesen-cross-host-note.md)

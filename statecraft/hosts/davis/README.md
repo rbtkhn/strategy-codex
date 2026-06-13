@@ -8,6 +8,7 @@ Use it when a statecraft read needs `Daniel Davis Deep Dive` as a host transform
 
 ## Open First
 
+- [Speaker profile](davis-profile.md) — identity, voice fingerprint, automation targets, links hub
 - [index.md](index.md)
 - [davis-host-law.md](davis-host-law.md)
 - [davis-lane-map-2026-05.md](davis-lane-map-2026-05.md)

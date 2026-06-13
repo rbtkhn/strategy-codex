@@ -6,6 +6,7 @@ Purpose: front door for the canonical live Davis host shelf in repo-root `statec
 
 ## Open First
 
+- [Speaker profile](davis-profile.md)
 - [README.md](README.md)
 - [davis-host-law.md](davis-host-law.md)
 - [davis-lane-map-2026-05.md](davis-lane-map-2026-05.md)
