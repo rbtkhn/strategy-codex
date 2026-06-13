@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Wisdom Questions — Reflective Tier
 
 **Purpose:** Curated questions to elicit identity-relevant content for the cognitive fork. Designed for users of any age; wording can be adapted for younger users (e.g. ages 5–10) or for reflective, simple-language contexts. Answers flow through the normal pipeline: signal detection → RECURSION-GATE → user approval → merge into SELF, EVIDENCE, prompt. These questions support **abundance rituals**, **post-work rehearsal**, and **narrative re-authoring** (SaveWisdom/5000 Days Part 8): articulating experience thickens preferred stories; the process is as valuable as the output. Treat questions as **ritual**, not checklist — one at a time, with space for reflection.

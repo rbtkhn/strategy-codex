@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Companion-Self Developer Plan — Minimal Docs and Implementation Checklist
 
 **Audience:** Developer (or agent) working in the **companion-self** repo. Use this plan to implement the minimum viable template. Source: [COMPANION-SELF-BOOTSTRAP](../bootstrap/companion-self-bootstrap.md) §3; reference implementation: [grace-mar](https://github.com/rbtkhn/grace-mar).

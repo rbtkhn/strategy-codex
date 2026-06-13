@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Operator Weekly Review — Checklist
 
 **Purpose:** Recommended rhythm for operators to maintain the pipeline and keep the Record current. Adapted from Second Brain patterns — see [SECOND-BRAIN-PATTERNS](second-brain-patterns.md) §4.

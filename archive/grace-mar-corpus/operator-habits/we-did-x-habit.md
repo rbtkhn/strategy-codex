@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 ﻿# "We did X" â†’ stage: keep the gate current
 
 **Purpose:** Make it a **habit** that after real activity you say **"we did X"** so the agent runs signal detection and stages candidates to RECURSION-GATE. The gate then reflects real activity and doesn't go stale.

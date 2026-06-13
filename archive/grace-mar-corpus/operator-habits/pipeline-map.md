@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 ﻿# Pipeline Map
 
 **Purpose:** Diagram the feedback loops that feed the cognitive fork â€” which modules feed which, where data is transformed, and where loops exist or are missing.
