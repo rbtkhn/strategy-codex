@@ -6,6 +6,7 @@ Purpose: front door for the canonical Parsi statecraft shelf.
 
 ## Open First
 
+- [Speaker profile](parsi-profile.md)
 - [parsi-arc.md](parsi-arc.md)
 - [parsi-routing.md](parsi-routing.md)
 - [stream/parsi-2025-present-arc-threads.md](stream/parsi-2025-present-arc-threads.md)

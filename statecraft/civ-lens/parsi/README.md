@@ -8,6 +8,7 @@ Use it for speaker identity, authored/interview crossing, cross-context thread r
 
 ## Open First
 
+- [Speaker profile](parsi-profile.md) — identity, voice fingerprint, convergence/tension, links hub
 - [parsi-arc.md](parsi-arc.md)
 - [parsi-routing.md](parsi-routing.md)
 - [stream/parsi-2025-present-arc-threads.md](stream/parsi-2025-present-arc-threads.md)

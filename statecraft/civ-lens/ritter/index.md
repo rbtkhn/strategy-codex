@@ -6,6 +6,7 @@ Purpose: front door for the canonical Ritter statecraft shelf, surfacing the per
 
 ## Open First
 
+- [Speaker profile](ritter-profile.md)
 - [Speaker arc](ritter-arc.md) - whole-speaker continuity and the canonical answer to who Ritter is as a speaker object.
 - [Speaker routing note](ritter-routing.md) - fastest answer to which host lane or monthly shelf to open first.
 - [Source index](ritter-source-index.md) - exhaustive route map for every resolved Ritter raw-input appearance currently materialized in the repo.
