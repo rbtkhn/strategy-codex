@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Month-week 2:** 2026-06-08 – 2026-06-14 · **Status:** partial through 2026-06-12
 
-**Last refresh:** 2026-06-12 (C+A) — week hinge through [2026-06-12 daily](./2026-06-12.md); intake-daily sync **6 ok · 0 desync · 1 no_daily→promoted** (Jun 12); archive **8** captures Jun 12; ship receipts `4757a4618` (coffee infra) · `7eef4f229` (intake sync repair).
+**Last refresh:** 2026-06-13 (C+D) — Marandi×J12-6 bridge + 72h watch run; J12-6 **FAIL** on Lebanon ops; hinge through [2026-06-12 daily](./2026-06-12.md).
 
 One entry point for re-entering month-week 2 of June 2026. Open before the day ladder or statecraft-note scatter.
 
@@ -22,15 +22,16 @@ One entry point for re-entering month-week 2 of June 2026. Open before the day l
 
 ## If you only read four things
 
-1. **[2026-06-11](./2026-06-11.md)** — MOU theater × dual channel + Pape backtest spine (dominant close).
-2. **[2026-06-09](./2026-06-09.md)** — command fracture + evening CENTCOM/GCC seam.
-3. **[2026-06-08](./2026-06-08.md)** — ceasefire grammar baseline + wire batch open.
+1. **[2026-06-12](./2026-06-12.md)** — MOU publish/deny × **Lebanon point-1 live fracture** (dominant close).
+2. **[2026-06-11](./2026-06-11.md)** — MOU theater × dual channel + Pape backtest spine.
+3. **[2026-06-09](./2026-06-09.md)** — command fracture + evening CENTCOM/GCC seam.
 4. **[Pape watch sheet — Jun 11 row](./2026-06-08-pape-day-100-indicator-watch-sheet.md)** — trap confirmed + backtest.
 
 Heavy-week adds:
 
-5. **[Apache × Shahed physics fork](./2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md)** — S2 cause contested; pretext chain.
-6. **[S9 Ukraine mesh — Krapivnik](./2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)** — secondary bench (not Apache).
+5. **[Johnson×Wilkerson×Aguilar gate comparison](./2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md)** — text vs grammar vs lever.
+6. **[Jun 12 wire-verify matrix](./2026-06-12-wire-verify-matrix.md)** — J12-6 fracture receipt.
+7. **[Apache × Shahed physics fork](./2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md)** — S2 cause contested; pretext chain.
 
 ---
 
@@ -38,12 +39,15 @@ Heavy-week adds:
 
 | Question | Open first |
 |----------|------------|
+| What changed Jun 11 → 12? | [2026-06-12](./2026-06-12.md) publish/deny + Lebanon point-1 fracture |
+| MOU point-1 vs Marandi Clause A? | [Marandi×J12-6×Aguilar bridge](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) |
+| 72h falsifier results? | [72h watch run](./2026-06-12-72h-watch-run.md) |
 | What changed Jun 9 → 11? | [2026-06-11](./2026-06-11.md) executive read + MOU dual channel |
 | What changed Jun 9 → 10? | [2026-06-10](./2026-06-10.md) second-strike night + talks DEAD |
 | What changed Jun 8 → 9? | [2026-06-09](./2026-06-09.md) executive read + object migration line |
 | Which ceasefire label still applied Jun 8? | [2026-06-08](./2026-06-08.md) |
 | Apache down → Qeshm strikes — accident or pretext? | [physics fork](./2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md) |
-| Wire-supported vs contested rows? | [wire-verify matrix](./2026-06-08-09-wire-verify-matrix.md) |
+| Wire-supported vs contested rows? | [Jun 12 matrix](./2026-06-12-wire-verify-matrix.md) · [8–9 batch](./2026-06-08-09-wire-verify-matrix.md) |
 | GCC retaliation developing? | [Nima solo Bahrain brief](../../source-archive/statecraft/2026-06-09/source-alkorshid-iran-launches-immediate-retaliation-explosions-rock-bahrain-after-us-strikes-2026-06-09.md) + [2026-06-09](./2026-06-09.md) §5 |
 | Ukraine secondary (not primary)? | [S9 mesh](./2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md) |
 | Pape trap indicators this week? | [Day 100 watch sheet](./2026-06-08-pape-day-100-indicator-watch-sheet.md) |
@@ -72,21 +76,31 @@ Heavy-week adds:
 - [Wilkerson × Hoh — Section 224 mesh](./2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) (America carry)
 - [Pape Day 100 × Lebanon fuse](./2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
 - [Marandi deal floor × gate Clauses A–D](./2026-06-08-persia-marandi-deal-floor-vs-lebanon-gate-clauses.md)
+- [Jun 12 wire-verify matrix](./2026-06-12-wire-verify-matrix.md) — J12-1–J12-6 seams
+- [Johnson×Wilkerson×Aguilar MOU gate](./2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md)
+- [Parsi quiet-lane + asset-path deepener](./2026-06-12-parsi-quiet-lane-asset-path-deepener.md)
+- [Marandi clauses × J12-6 × Aguilar bridge](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
+- [72h watch run (Jun 12–13)](./2026-06-12-72h-watch-run.md)
 
 ---
 
-## Unspent paths
+## Falsifier table (through Jun 12)
 
-| Path | Status (through Jun 9) | Falsifier |
-|------|------------------------|-----------|
-| **GCC retaliation scale** | **Developing** — Bahrain/Jordan in-voice; Kuwait TBD | Base-limited hits vs IRGC 21-target claim |
-| **Southern-Lebanon hammering** vs Iran warning | **Watch** — resistance-equation enforcement | Iran silent on major Lebanon civilian hammering |
-| **Apache cause (intent)** | **Contested** — physics favors accident; politics fired anyway | Ordinance/MFA deep-check |
-| **Horizontal fuse** (from week1) | **Partial** — Houthis ban 8 Jun; not dual-corridor choke | Bab el-Mandeb / Yanbu pattern without Lebanon trigger |
-| **Trump trap / MOU fork** (from week1) | **Live** — deal rhetoric parallel to live strikes Jun 9 | Written terms within 72h despite evening kinetics |
-| **US non-intercept** | **Contested** | NBC primary vs Al-Monitor self-defense line |
+| ID | Path / seam | Status | Pass (72h) | Fail (72h) | **72h run (13 Jun)** |
+|----|-------------|--------|------------|------------|---------------------|
+| **J12-6** | **Lebanon point-1 vs live IDF ops** | **Supported fracture** | IDF ops **halt** | Evacuation/strike pattern continues | **FAIL** — Eternal Darkness expands; Beaufort/Nabatieh; [watch](./2026-06-12-72h-watch-run.md#fork-1--lebanon-point-1-j12-6) |
+| **J12-4** | UAE asset tranche ($3B delivered) | **Contested** | UAE official confirms tranche | MFA denial holds | **FAIL** (delivered) — MFA denial 13 Jun; [watch](./2026-06-12-72h-watch-run.md#fork-2--uae-asset-tranche-j12-4) |
+| **J12-2** | 14-point MOU scaffold vs Trump denial | **Partial** | Mutual published text both sides | One-side draft only | **HOLD partial** — Fars denies Geneva Sun; Pakistan claims final; [watch](./2026-06-12-72h-watch-run.md#fork-3--mutual-mou-text-j12-2) |
+| **J12-3** | WH performance bundle vs Iran upfront assets | **Partial** | Performance path + Hormuz open | Upfront $24B on wire | **HOLD** — Vance no cash reaffirmed |
+| **GCC retaliation scale** | Bahrain/Jordan ladder (Jun 9–11) | **Developing** | Base-limited hits stabilize | IRGC 21-target claim verified at scale |
+| **Southern-Lebanon hammering** | Resistance-equation (Jun 8–9 carry) | **Escalated** — Jun 12 IDF orders + Nabatieh push | Iran/Lebanon restraint holds under hammering | Iran retaliates on Lebanon axis per Marandi ladder |
+| **Apache cause (intent)** | S2 pretext chain | **Contested** | Ordinance/MFA deep-check settles accident | Politics-fired read holds |
+| **Trump trap / MOU fork** | Dual channel (week carry) | **Live** — #39–40 cycle; cancel-strikes **supported** | `D-HORM-01` pass + binding written terms | Kinetics resume during mediator sign |
+| **US non-intercept** | America bench | **Contested** | NBC primary corroborated | Al-Monitor self-defense line holds |
 
-**Watch sheet:** [Pape Day 100 indicator watch sheet](./2026-06-08-pape-day-100-indicator-watch-sheet.md) — `CUSH-*`, `TRIG-*`, `D-*` rows.
+**Watch sheet:** [Pape Day 100 indicator watch sheet](./2026-06-08-pape-day-100-indicator-watch-sheet.md) — `CUSH-*`, `TRIG-*`, `D-*` rows. **J12-6** is the week-2 **legitimacy** falsifier: MOU text without Lebanon ops halt = **pseudo-gate** (`CUSH-GATE-01` risk).
+
+**Companion compression:** Johnson = text exists · Wilkerson = grammar broken · Aguilar = lever absent — [gate comparison](./2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md). **Marandi × Aguilar FM floor × J12-6:** [bridge](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) — gate **red** on 72h fail.
 
 ---
 
@@ -101,15 +115,17 @@ From [week1](./2026-06-week1-start-here.md) finalized unspent paths:
 
 ---
 
-## Open tension (2026-06-12 — Furtwangler park)
+## Open tension (2026-06-12 — Karajan Andante)
 
-**MOU theater vs braid failure:** [2026-06-11 daily](./2026-06-11.md) frames anchor trio as **MOU theater × dual channel**; [watch sheet](./2026-06-08-pape-day-100-indicator-watch-sheet.md) **2026-06-11** row marks **`BRAID-FAILED`** (`D-HORM-01`) and **MOU theater ≠ off-ramp**. Hold both without synthesis until one falsifies the other.
+**MOU theater vs braid failure:** [2026-06-11 daily](./2026-06-11.md) + [2026-06-12 daily](./2026-06-12.md) — publish/deny adds a **third channel** to dual-channel fracture; [watch sheet](./2026-06-08-pape-day-100-indicator-watch-sheet.md) **`BRAID-FAILED`** (`D-HORM-01`) still holds. Hold both without synthesis until Hormuz transits or mutual text falsifies.
 
-**Decision trigger (Hormuz/MOU):** Commercial transit + comms restore `D-HORM-01` to pass **without** collapsing the **trap confirmed** row — or explicit written terms within 72h that markets treat as binding despite evening kinetics.
+**Decision trigger (J12-6 Lebanon):** 72h run → **FAIL** ([watch](./2026-06-12-72h-watch-run.md)) — pseudo-gate holds; [Marandi×Aguilar bridge](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) gate **red**. G7 weekend signing **without** Lebanon ops halt = trap strengthened, not off-ramp.
 
-**Routing score vs git receipt:** `validate_repo_routing.py --strict` passes locally while `codex/speakers/mercouris/mercouris-source-index.md` (+4 Jun 8–11 rows) and `statecraft/data/month-routing-metadata.json` (`generated_at` only) remain uncommitted.
+**Decision trigger (Hormuz/MOU):** Commercial transit restores `D-HORM-01` **or** mutual written terms markets treat as binding — **without** J12-6 passing first, trap row may hold even on Hormuz reopen.
 
-**Orchestration receipts (2026-06-12):** `4757a4618` coffee/cadence infra · `7eef4f229` intake-daily sync (Jun 6 + Jun 8). `main` **ahead 2** — push when operator approves.
+**Routing score vs git receipt:** `validate_repo_routing.py --strict` passes locally while `codex/speakers/mercouris/mercouris-source-index.md` and `statecraft/data/month-routing-metadata.json` remain uncommitted.
+
+**Orchestration receipts (2026-06-12):** `fd7360d44` Jun 12 promote · `7eef4f229` sync repair · `4757a4618` coffee infra. `main` **ahead 3** — push when operator approves.
 
 **Decision trigger (ship):** Commit mercouris shelf rows **or** `git restore` metadata stamp **before** treating routing/shelf as closed.
 
@@ -117,11 +133,12 @@ From [week1](./2026-06-week1-start-here.md) finalized unspent paths:
 
 ## Next intake
 
-- **Jun 12 (parked):** [Parsi breaking leak](../../source-archive/statecraft/2026-06-12/source-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md) — morning `statecraft daily synthesis`; do not batch with scratch WIP.
+- **Jun 13–15 (G7 horizon):** J12-6 **failed** 72h — watch weekend MOU signature vs Lebanon ops; [72h watch](./2026-06-12-72h-watch-run.md) · [Marandi bridge](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md).
+- **[2026-06-12 daily](./2026-06-12.md)** — promoted (`fd7360d44`); **8/8** sync.
 - **[2026-06-09 intake readiness](./2026-06-09-intake-readiness.md)** — command fracture queue; **16/16** sync.
-- **[2026-06-08 intake readiness](./2026-06-08-intake-readiness.md)** — ceasefire grammar + wire batch; **15/15** sync (Weichert wired `7eef4f229`).
+- **[2026-06-08 intake readiness](./2026-06-08-intake-readiness.md)** — ceasefire grammar + wire batch; **15/15** sync.
 
-**Intake function (Jun 6–12):** `check_statecraft_intake_daily_sync.py --all --from-day 2026-06-06 --to-day 2026-06-12` → **6 ok · 0 desync · 1 no_daily**.
+**Intake function (Jun 6–12):** `check_statecraft_intake_daily_sync.py --all --from-day 2026-06-06 --to-day 2026-06-12` → **7 ok · 0 desync**.
 
 Refresh this hinge when **2026-06-12 – 2026-06-14** dailies land or month-week 2 closes.
 

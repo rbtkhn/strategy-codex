@@ -86,8 +86,10 @@ WORK only; not Record.
 
 ## Falsifiers (72h)
 
-| Watch | Pass | Fail |
-|-------|------|------|
-| UAE official confirms any tranche | J12-4 upgrades to **partial/supported** | MFA denial holds → stay **contested** |
-| Mutual MOU text published both sides | J12-2 → **supported** | One-side draft only → stay **partial** |
-| IDF ops halt southern Lebanon | J12-6 fracture **heals** | Evacuation/strike pattern continues → **supported fracture** |
+| Watch | Pass | Fail | **72h run (13 Jun)** |
+|-------|------|------|---------------------|
+| UAE official confirms any tranche | J12-4 upgrades to **partial/supported** | MFA denial holds → stay **contested** | **FAIL delivered** — [run](./2026-06-12-72h-watch-run.md#fork-2--uae-asset-tranche-j12-4) |
+| Mutual MOU text published both sides | J12-2 → **supported** | One-side draft only → stay **partial** | **HOLD partial** — [run](./2026-06-12-72h-watch-run.md#fork-3--mutual-mou-text-j12-2) |
+| IDF ops halt southern Lebanon | J12-6 fracture **heals** | Evacuation/strike pattern continues → **supported fracture** | **FAIL** — [run](./2026-06-12-72h-watch-run.md#fork-1--lebanon-point-1-j12-6) |
+
+Full scorecard: [2026-06-12-72h-watch-run.md](./2026-06-12-72h-watch-run.md)

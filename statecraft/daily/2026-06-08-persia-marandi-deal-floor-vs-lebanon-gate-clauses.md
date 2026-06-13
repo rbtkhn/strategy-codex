@@ -180,3 +180,5 @@ Short rule: **Marandi's Jun 8 floor names the destination ("before the war"); Ju
 - [Davis Lebanon fulcrum × Crooke](./2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
 - [Marandi, 2026-06-02 — 25–30 ships/day](../../source-archive/statecraft/2026-06-02/source-alkorshid-marandi-rockets-from-lebanon-strike-deep-in-israel-decisive-iran-us-clash-imminent-2026-06-02.md)
 - Parent daily (when written): [2026-06-08.md](./2026-06-08.md)
+- **Jun 12 bridge:** [Marandi clauses × J12-6 × Aguilar FM floor](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
+- **72h watch:** [2026-06-12-72h-watch-run.md](./2026-06-12-72h-watch-run.md)
