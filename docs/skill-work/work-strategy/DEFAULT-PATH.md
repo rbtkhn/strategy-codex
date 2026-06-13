@@ -58,7 +58,7 @@ These are all valuable. None are required on every pass.
 
 | Feature | When to add |
 |---------|-------------|
-| **Tri-frame / minds** | Operator says `tri-mind`, `tri-frame`, `tutti`, or picks a lens from the menu |
+| **Named minds / multi-lens** | Operator names one mind, or requests **`statecraft-multi-lens`** (`tri-mind` / `tri-frame` **deprecated** — [TRI-MIND-DEPRECATED.md](TRI-MIND-DEPRECATED.md)) |
 | **Civ-mem lookup** | Operator asks for upstream MEM depth or civilizational grounding |
 | **History notebook wire** | Judgment leans on a mechanism pattern from LIB-0156 |
 | **Commentator thread correlation** | Two+ ingests from indexed experts on the same crisis |

@@ -1,5 +1,7 @@
 # Reviewer prompt — brainstorm: three minds × `skill-strategy`
 
+> **Archive brainstorm (2026-04).** **`tri-mind` / tri-frame** choreography is **deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md). Use this prompt for **single-lens** or **`statecraft-multi-lens`** ideas only unless explicitly replaying legacy protocol.
+
 **Purpose:** Give **external reviewers** (human colleagues, contractors, or AI assistants in a fresh context) a **single, self-contained brief** so they can **brainstorm effective and creative** ways to use the **three mind files** together with **`skill-strategy`** (the work-strategy strategy pass centered on the **strategy-notebook**). This document **extends** prior operator/agent notes: it does **not** prescribe one workflow; it asks for **ideas**, **tradeoffs**, and **experiments**.
 
 **Audience:** People who can read the repo but may not have Grace-Mar thread history. **Assume** they will open paths below as needed.

@@ -1,6 +1,8 @@
 # skill-strategy exercise series — running log
 <!-- word_count: 336 -->
 
+> **Historical log.** Rows referencing **tri-frame** / **TF** are **2026-04 archive** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md).
+
 **Purpose:** Comparable rows across runs — notebook path, rubric snapshot, failure mode, recursive **SKILL.md** candidate. See [`EXERCISE-PROMPTS.md`](EXERCISE-PROMPTS.md) for copy-paste prompts and exercise definitions.
 
 **Rubric columns (abbreviations used below):** full definitions in [`skill-strategy-exercise-rubric-reference.md`](skill-strategy-exercise-rubric-reference.md).
@@ -10,7 +12,7 @@
 | NB | Notebook-primary (Chronicle / Reflection / References) |
 | VF | Verify discipline |
 | LK | Links complete (exercise-specific) |
-| TF | Tri-frame / lens control (as specified) |
+| TF | Tri-frame / lens control (legacy archive) |
 | CP | Contradiction preservation |
 | NS | No STRATEGY.md touch (when negative test) |
 | WB | WORK boundary (no Record merge) |

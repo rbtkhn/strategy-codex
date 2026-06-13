@@ -3,7 +3,7 @@
 
 **Measured:** ~**4500** words for the full `## 2026-04-10` section (shell `wc -w` on lines 82–349 of `chapters/2026-04/days.md`, **2026-04-10**).  
 **Target band:** ~**900–1100** words per [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Daily length* / *Condense-to-target*.  
-**Path:** **Full** (draft mixes core day + **DEMO Phases 1–5** + **Barnes/Mearsheimer essay blocks** + **flashpoint web table** + **session continuations** + **Postol redo**).
+**Path:** **Full** (draft mixes core day + **DEMO Phases 1–5** + **Barnes/Mearsheimer essay blocks** + **flashpoint web table** + **session continuations** + **Postol redo**). Phase 4 **tri-frame** = **legacy archive** ([TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md)).
 
 This file is an **outline only** — no in-page rewrite executed here.
 

@@ -1,6 +1,8 @@
 # skill-strategy exercise prompts (copy-paste)
 <!-- word_count: 230 -->
 
+> **Legacy exercises (2026-04).** Prompts mentioning **tri-frame** (Exercises 4, 8, demo Phase 4) are **archive replay only** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). New multi-lens work → **`statecraft-multi-lens`**.
+
 **Skill:** [`.cursor/skills/skill-strategy/SKILL.md`](../../../../.cursor/skills/skill-strategy/SKILL.md)  
 **Notebook:** [`../chapters/YYYY-MM/days.md`](../chapters/2026-04/days.md) — append `### EXERCISE — <slug> (YYYY-MM-DD)` **or** clean-room under this folder + one pointer line in `days.md`.  
 **Log:** append a row to [`skill-strategy-exercise-log.md`](skill-strategy-exercise-log.md).  
@@ -56,7 +58,7 @@ Output a small table: §1x → cited? Y/N; gap list for next morning.
 
 ---
 
-## Exercise 4 — Single-lens vs tri-frame (controlled)
+## Exercise 4 — Single-lens vs tri-frame (controlled) — **legacy**
 
 ```text
 strategy
@@ -101,7 +103,7 @@ Run only when **≥3** exercise log rows exist. Template: bottom of [`skill-stra
 
 ---
 
-## Exercise 8 — Tri-frame routing drill (civ-mem paths)
+## Exercise 8 — Tri-frame routing drill (civ-mem paths) — **legacy**
 
 **Read first:** [`../minds/CIV-MEM-TRI-FRAME-ROUTING.md`](../minds/CIV-MEM-TRI-FRAME-ROUTING.md)
 

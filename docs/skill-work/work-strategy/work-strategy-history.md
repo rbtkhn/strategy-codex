@@ -2,7 +2,9 @@
 
 > **Append-only** log for the **work-strategy** territory (daily brief config, cross-territory strategy, `daily-brief-focus`, RSS / scoring hooks). **Not** Record truth; **not** companion [self-memory](../../../self-memory.md). **Rotatable.**
 
-**Distinct from:** **Lane CI:** [LANE-CI.md](LANE-CI.md). **Operator rhythm:** [coffee](../../../.cursor/skills/coffee/SKILL.md) (**`coffee`**; legacy **`hey`** still works). **Per-lane log:** this file â€” [work-modules-history-principle.md](../work-modules-history-principle.md).
+**Distinct from:** **Lane CI:** [LANE-CI.md](LANE-CI.md). **Operator rhythm:** [coffee](../../../.cursor/skills/coffee/SKILL.md) (**`coffee`**; legacy **`hey`** still works). **Per-lane log:** this file — [work-modules-history-principle.md](../work-modules-history-principle.md).
+
+> **Tri-mind / tri-frame (2026-06):** Log entries before **2026-06** that mention **tri-frame**, **tri-mind**, or three-mind demos are **historical archive context** — not current operator routing. See [TRI-MIND-DEPRECATED.md](TRI-MIND-DEPRECATED.md). Demo SSOT paths moved to [`codex/notes/`](../../../codex/notes/README.md) (legacy links under `strategy-notebook/notes/` in older rows).
 
 ## How to append
 

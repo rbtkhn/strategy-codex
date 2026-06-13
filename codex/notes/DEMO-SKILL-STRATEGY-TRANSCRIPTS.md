@@ -1,7 +1,9 @@
 # Demo script — `skill-strategy` using three ingested transcripts
 <!-- word_count: 1331 -->
 
-**Purpose:** Runnable calibration for [skill-strategy](../../../../.cursor/skills/skill-strategy/SKILL.md): notebook-first output, verify discipline, and **explicit tri-frame** (all **three minds**). **WORK only** — not Record, not Voice.
+> **Legacy demo (2026-04).** Phase 4 **tri-frame** choreography is **obsolete** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Keep this playbook for **notebook / verify / synthesis** calibration; substitute **`statecraft-multi-lens`** or **single named mind** for new lens exercises.
+
+**Purpose:** Runnable calibration for [skill-strategy](../../../../.cursor/skills/skill-strategy/SKILL.md): notebook-first output, verify discipline, and **legacy explicit tri-frame** (all **three minds** — archived Phase 4 only). **WORK only** — not Record, not Voice.
 
 **Prerequisite:** From repo root, run `bash scripts/demo_skill_strategy_transcripts_check.sh` (expect `All digest files present.`). If any file is missing, stop.
 
@@ -125,7 +127,9 @@ Synthesize across all three digests (Mearsheimer, Mercouris, Davis×Crooke paths
 
 ---
 
-## Phase 4 — Tri-frame (three minds) — **mandatory for full demo**
+## Phase 4 — Tri-frame (three minds) — **legacy; mandatory only for full 2026-04 demo replay**
+
+> **Deprecated:** Do not use tri-frame as the default lens path. [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md) · replacement: [`statecraft-multi-lens`](../../../../.cursor/skills/statecraft-multi-lens/SKILL.md).
 
 **Goal:** Exercise **Mercouris**, **Mearsheimer**, and **Barnes** on the **shared corpus**, with explicit trigger so [granular minds](../../../../.cursor/rules/strategy-minds-granular.mdc) is satisfied.
 

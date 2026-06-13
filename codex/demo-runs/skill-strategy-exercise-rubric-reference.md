@@ -1,6 +1,8 @@
 # skill-strategy exercise series — extended rubric reference
 <!-- word_count: 490 -->
 
+> **Legacy rubric.** **Tri-frame** criteria (row **TF**) apply only when replaying **2026-04** demo/exercise prompts. New lens work → [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md) · **`statecraft-multi-lens`**.
+
 **Use:** Score each run (demo, exercise, or combined session). Pair with [`skill-strategy-exercise-log.md`](skill-strategy-exercise-log.md) and [`EXERCISE-PROMPTS.md`](EXERCISE-PROMPTS.md).
 
 **Baseline demo:** [`../notes/DEMO-SKILL-STRATEGY-TRANSCRIPTS.md`](../notes/DEMO-SKILL-STRATEGY-TRANSCRIPTS.md) — Phases 0–5. Filled example: [`skill-strategy-results-2026-04-10.md`](skill-strategy-results-2026-04-10.md).
@@ -14,7 +16,7 @@
 | NB | Notebook-primary | Output uses `### Chronicle`, `### Reflection`, `### References` (or equivalent subsection labels) on the chosen surface. | Full transcript recap as Judgment; or STRATEGY.md touched when exercise forbids it. |
 | VF | Verify discipline | `### Web verification (YYYY-MM-DD)` when verify is in scope; unverified numbers not stated as fact. | Thread-only or stale numbers as settled Judgment fact. |
 | LK | Links complete | Exercise-specific required paths (digests, watch docs, repo paths) appear under Links. | Missing required pointer when the input supports it. |
-| TF | Tri-frame / lens | When exercise specifies **tri-frame** or **single-lens**, order and labels match the prompt; no merge of A/B runs when exercise says compare. | Wrong order; merged outputs when separated runs required. |
+| TF | Tri-frame / lens (legacy) | When **legacy** exercise specifies **tri-frame** or **single-lens**, order and labels match the prompt; no merge of A/B runs when exercise says compare. | Wrong order; merged outputs when separated runs required. |
 | CP | Contradiction preservation | Distinct mechanisms / planes remain tagged; no forced single story. | Flattened contradiction into one smooth paragraph without Thesis A/B or seam language. |
 | NS | No STRATEGY touch | Negative-test exercises: no edit to `docs/skill-work/work-strategy/STRATEGY.md`. | STRATEGY.md edited without operator promotion request. |
 | WB | WORK boundary | No `self.md`, `recursion-gate` merge, or Record edit. | Direct profile or Record merge. |
