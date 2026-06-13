@@ -28,7 +28,7 @@ It is **not**:
 - arc motion (→ `*-arc.md`)
 - task routing (→ `*-routing.md`)
 - load-bearing synthesis (→ `statecraft/notes/`, daily, essays)
-- full mind-corpus dump (→ `strategy-expert-<id>-mind.md` quote bank; profile holds **structured** register tables)
+- **`strategy-expert-<id>-mind.md`** as structured register SSOT — **compatibility quote bank only** ([VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md))
 
 ---
 

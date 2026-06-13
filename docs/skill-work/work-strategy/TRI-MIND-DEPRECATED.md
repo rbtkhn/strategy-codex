@@ -11,17 +11,18 @@ WORK only; not Record.
 | Old | Use instead |
 |---|---|
 | **`tri-mind`**, **`tri-frame`**, **`tutti`**, **`abc`** / **`ab+c`** | **[`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md)** for preset multi-lens comparison on a live object |
-| One analyst voice | Name the mind or speaker directly (**Mercouris**, **Mearsheimer**, **Barnes**, or any voices shelf) — read `strategy-expert-<id>-mind.md` when in-voice register matters ([`minds-authentic-voice.mdc`](../../../.cursor/rules/minds-authentic-voice.mdc)) |
+| One analyst voice | Name the speaker directly (**Mercouris**, **Mearsheimer**, **Barnes**, or any voices shelf) — read **[`statecraft/voices/<speaker>/<speaker>-profile.md`](../../../statecraft/voices/)** when in-voice register matters ([`minds-authentic-voice.mdc`](../../../.cursor/rules/minds-authentic-voice.mdc); minds superseded — [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md)) |
 | Strategy notebook pass | **[`skill-strategy`](../../../.cursor/skills/skill-strategy/SKILL.md)** — optional **single** post-entry lens; no default tri-frame |
 | Live statecraft object | **Repo-root [`statecraft/`](../../../statecraft/)** lanes, daily synthesis, voices shelves |
 
 ## What is **not** deprecated
 
-- **`strategy-expert-*-mind.md`** / **CIV-MIND** fingerprints — still SSOT for named in-voice register when you explicitly request one mind
+- **`statecraft/voices/<speaker>-profile.md`** — **canonical SSOT** for named-speaker voice (see [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md))
 - **Individual** Mercouris / Mearsheimer / Barnes analysis (one at a time)
 - **Historical** `tri-mind` lines in `work-cadence-events.md`, demo runs, and archived notebook prose
+- **`strategy-expert-*-mind.md`** — **compatibility quote bank only** during migration; not primary SSOT for new work
 
 ## Migration notes for agents
 
-- Treat **`tri-mind`** triggers as **legacy aliases** — redirect once to **statecraft-multi-lens** or a **named single mind**; do not run the A/B/C menu ritual.
+- Treat **`tri-mind`** triggers as **legacy aliases** — redirect once to **statecraft-multi-lens** or a **named single voice profile**; do not run the A/B/C menu ritual.
 - **LEARN MODE** tri-frame ordering is legacy; new LEARN sessions should not assume three-mind roundtables unless the operator explicitly revives archive protocol.
