@@ -14,7 +14,7 @@ Each option must be a **different next move** (different file, command, lane, or
 
 ## 1b. Benefit clause (why pick this) — required
 
-**Scope:** Every **assistant-authored** labeled multi-choice block — WORK closing menus, lens/mind offers, tri-mind letter picks, steward forks, and other **A–E** pivots. **Not** required when copying **verbatim** coffee / steward text from [menu-reference](work-coffee/menu-reference.md), or when the operator says **no menu** / **no options**.
+**Scope:** Every **assistant-authored** labeled multi-choice block — WORK closing menus, lens/mind offers, steward forks, and other **A–E** pivots. **Not** required when copying **verbatim** coffee / steward text from [menu-reference](work-coffee/menu-reference.md), or when the operator says **no menu** / **no options**.
 
 Each option line states **why** to choose it: one short **because** / **so that** / **in order to** clause on the **same line** as the fork stub (ship, validate, deploy, depth, handoff, unblock CI, falsifier upgrade, remote sync, etc.). Still **no pre-development** of that option’s output until the operator picks.
 

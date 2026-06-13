@@ -4,13 +4,13 @@
 
 **Default target:** one **medium** Locals post with **one thesis spine**, **medium quote density**, and a **memorable declarative closer**.
 
-**Use this when:** the input is already analytical and evidence-rich — a strategy pass, transcript analysis, notebook synthesis, historical context artifact, or tri-mind output — and the task is to turn it into publishable Locals prose rather than keep it in notebook form.
+**Use this when:** the input is already analytical and evidence-rich — a strategy pass, transcript analysis, notebook synthesis, historical context artifact, or **named-mind** analysis — and the task is to turn it into publishable Locals prose rather than keep it in notebook form.
 
 ## Valid source inputs
 
 - strategy analysis reports
 - notebook lines or `days.md` synthesis
-- tri-mind output
+- **named-mind** or **`statecraft-multi-lens`** output (not legacy **`tri-mind`** — [TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md))
 - transcript / raw-input excerpts
 - historical expert context artifacts
 

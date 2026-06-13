@@ -1,7 +1,9 @@
 # Three Minds × `skill-strategy` — Repo-ready pattern note
 
-**Purpose:** Practical patterns for combining the three mind files with `skill-strategy` in Grace-Mar without turning tri-frame into a default.  
-**Status:** Brainstorm / advisory only.  
+> **`tri-mind` / tri-frame choreography is deprecated** (2026-06) — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md). Patterns below are **legacy reference**; new work → **single named mind** or [`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md).
+
+**Purpose:** Practical patterns for combining mind files with `skill-strategy` in Grace-Mar.  
+**Status:** Brainstorm / advisory only; tri-frame defaults **retired**.  
 **Primary surface:** `strategy-notebook` first; `STRATEGY.md` only on stabilization.
 
 ---

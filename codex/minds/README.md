@@ -13,16 +13,14 @@ Optional upstream (diff / governance-only; if civ-mem present): `docs/templates/
 
 **Residual expert-id audit / upstream naming:** [EXPERT-NAMING-RESIDUAL.md](../EXPERT-NAMING-RESIDUAL.md)
 
-**Tri-frame entry index (expert bundles + routing):** [minds/README.md](../../minds/README.md)
+**Mind entry index:** [minds/README.md](../../minds/README.md)
 
-**CIV-MEM (upstream repo) × tri-frame:** which MEM / STATE / SCHOLAR slices to open first — [CIV-MEM-TRI-FRAME-ROUTING.md](../../minds/CIV-MEM-TRI-FRAME-ROUTING.md). **Depth:** shared spine from `MEM–RELEVANCE–X`, then up to **1–2 MEM reads per mind** (Barnes / Mearsheimer / Mercouris) aligned to each mind’s column — not a single pair of MEMs for the whole triad unless that is all the index offers. **Search / index** over the checkout: [CIV-MEM-UPSTREAM-SEARCH.md](../../minds/CIV-MEM-UPSTREAM-SEARCH.md). **Daily brief overlays:** [DAILY-BRIEF-MINDS-WORKFLOW.md](../../minds/DAILY-BRIEF-MINDS-WORKFLOW.md) (same tri-frame order; civ-mem optional grounding).
+**CIV-MEM (upstream repo) × mind grounding (legacy tri-frame table):** [CIV-MEM-TRI-FRAME-ROUTING.md](../../minds/CIV-MEM-TRI-FRAME-ROUTING.md) — **deprecated** as tri-frame choreography; column hints still apply per mind. **Search / index:** [CIV-MEM-UPSTREAM-SEARCH.md](../../minds/CIV-MEM-UPSTREAM-SEARCH.md).
+
+**Tri-mind:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Prefer **[`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md)**.
 
 **Recipes and post-entry lens offer:** [MINDS-SKILL-STRATEGY-PATTERNS.md](../../minds/MINDS-SKILL-STRATEGY-PATTERNS.md)
 
-**Trump–Leo × civ-mem Barnes drill (session sheet):** [TRUMP-LEO-CIV-MEM-BARNES-DRILL.md](../TRUMP-LEO-CIV-MEM-BARNES-DRILL.md) — MEM table, § VII mapping, before/after without civ-mem; **ROME** manual picks + **AMERICA** `MEM–RELEVANCE` when upstream lacks `MEM–RELEVANCE–ROME.md`.
+**Cursor skill:** [skill-strategy SKILL.md](../../../.cursor/skills/skill-strategy/SKILL.md) — loads mind fingerprints via expert `-mind.md` or `CIV-MIND-*.md` redirects.
 
-**Ensemble metaphor** (score / parts / conductor / dissonance; ties month **Polyphony** to daily practice): [STRATEGY-NOTEBOOK-ARCHITECTURE.md § Ensemble metaphor](../STRATEGY-NOTEBOOK-ARCHITECTURE.md#ensemble-metaphor-chamber-group-gloss)
-
-**Cursor skill:** [skill-strategy SKILL.md](../../../../../.cursor/skills/skill-strategy/SKILL.md) — loads mind fingerprints via expert `-mind.md` or `CIV-MIND-*.md` redirects.
-
-**Granular control:** [strategy-minds-granular.mdc](../../../../../.cursor/rules/strategy-minds-granular.mdc) — no automatic tri-frame; 0–3 lenses as operator indicates.
+**Granular control:** [strategy-minds-granular.mdc](../../../.cursor/rules/strategy-minds-granular.mdc) — no tri-frame; zero or one named lens by default.

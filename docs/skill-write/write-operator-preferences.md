@@ -1,6 +1,6 @@
 # Operator writing preferences (WRITE doctrine)
 
-**Purpose:** **Primary calibration** — turn **system outputs** (e.g. `tri-mind` analysis, strategy notebook lines, harness-adjacent judgment) into copy that fits **your** publishing surfaces. **First-class targets:**
+**Purpose:** **Primary calibration** — turn **system outputs** (e.g. **named-mind** analysis, strategy notebook lines, harness-adjacent judgment) into copy that fits **your** publishing surfaces. **First-class targets:**
 
 | Surface | Notes |
 |---------|--------|
@@ -19,7 +19,7 @@
 |--------|----------------|
 | **`skill-write.md`** | **Companion Record** — demonstrated production, samples, YAML capability evidence; feeds Voice / linguistic layer per [skills-modularity](../skills-modularity.md). |
 | **This file + siblings under `docs/skill-write/`** | **Operator preferences and craft rules** — how you want drafts shaped when working with agents; does not require gate merge to update (docs lane). |
-| **CIV-MIND-BARNES / `tri-mind` Barnes block** | **WORK/strategy** lens and **authentic voice** per [`minds/README.md`](../skill-work/work-strategy/minds/README.md) — **not** the default register for **VivaBarnesLaw Locals** posts. **Locals** drafts follow **this hub** (topic-first, closers, plain exposition). Mind-voice is for analysis passes unless you ask to adapt it. |
+| **CIV-MIND-BARNES / named Barnes mind** | **WORK/strategy** lens and **authentic voice** per [`minds/README.md`](../skill-work/work-strategy/minds/README.md) — **not** the default register for **VivaBarnesLaw Locals** posts. **Locals** drafts follow **this hub** (topic-first, closers, plain exposition). Mind-voice is for analysis passes unless you ask to adapt it. (**`tri-mind` deprecated** — [TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md).) |
 
 **Relation to SELF:** Preferences here are **workflow and style instructions**, not identity claims about the companion. If a preference should become **Record truth**, it still goes through the normal pipeline.
 
@@ -37,7 +37,7 @@ Snapshot from operator Q&A; revise this table if decisions change.
 | 2 | **D** — All public operator writing in scope unless excluded by name. |
 | 3 | **D** — No default voice; agent offers **multiple-choice** when register is unclear. |
 | 4 | **A** — Operator copy **ignores** companion Lexile / Voice constraints unless you align explicitly. |
-| 5 | **C** — Canonical inputs: **tri-mind** + strategy **notebook/inbox** + **work-politics daily brief** + **PH / work-jiang** hooks. |
+| 5 | **C** — Canonical inputs: **strategy notebook/inbox** + **work-politics daily brief** + **PH / work-jiang** hooks + optional **named-mind** analysis (not **`tri-mind`** choreography). |
 | 6 | **A** — **One global** [shipping checklist](write-shipping-checklist.md). |
 | 7 | **A** — VivaBarnes + Duran **same defaults**; evolve **one** style optimized for **both** over time. |
 | 8 | **B** — PH comments: **top-level**; **short paragraph** OK. |
@@ -82,7 +82,7 @@ Edit and extend this section as your taste evolves.
 ### Voice and register
 
 - **No default persona** in the hub — you choose per piece. **When** tone or register is **ambiguous**, the agent should offer **multiple-choice** forks (short, scannable options) instead of assuming a single voice.
-- **Grace‑Mar on Locals (VivaBarnes / Duran)** — **House style** for that forum copy is **not** “the operator’s personal voice to imitate” and **not** default **CIV-MIND-BARNES** / **tri-mind**; see [grace-mar-locals-voice.md](grace-mar-locals-voice.md) (Cursor: [`.cursor/rules/drafting-grace-mar-locals-voice.mdc`](../../.cursor/rules/drafting-grace-mar-locals-voice.mdc)).
+- **Grace‑Mar on Locals (VivaBarnes / Duran)** — **House style** for that forum copy is **not** “the operator’s personal voice to imitate” and **not** default **CIV-MIND-BARNES** / **tri-mind** (deprecated); see [grace-mar-locals-voice.md](grace-mar-locals-voice.md) (Cursor: [`.cursor/rules/drafting-grace-mar-locals-voice.mdc`](../../.cursor/rules/drafting-grace-mar-locals-voice.mdc)).
 
 ### Companion Lexile / Voice vs operator copy
 
@@ -150,14 +150,14 @@ After a substantive **`strategy`** pass with **load-bearing** Judgment-style pro
 
 Skill-write handoff commonly starts from:
 
-- **`tri-mind`** — [`.cursor/skills/tri-mind/SKILL.md`](../../.cursor/skills/tri-mind/SKILL.md)
 - **Strategy notebook / inbox** — [`daily-strategy-inbox.md`](../skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md), `chapters/YYYY-MM/days.md` when used
+- **Named-mind analysis** (single lens) or **`statecraft-multi-lens`** output — not legacy **`tri-mind`** ([TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md))
 - **Work-politics daily brief** — generator and lane per [work-strategy README](../skill-work/work-strategy/README.md) / coffee **C**
 - **Predictive History / work-jiang** — lecture hooks, analysis memos under [`codex/predictive-history/`](../../codex/predictive-history/) and [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) when the piece ties to corpus
 
 ### From analysis to public copy
 
-**`tri-mind`** is **WORK / strategy** lens choreography—not skill-write by itself. When you turn **any** of the sources above into **Locals / X / Predictive History comments**, apply **this hub**—especially **topic-first ledes** and **no abstract stacked closers**—and trim in-voice analysis into publishable prose. Mind stubs for fingerprinting: [minds/README.md](../skill-work/work-strategy/minds/README.md).
+When you turn **any** of the sources above into **Locals / X / Predictive History comments**, apply **this hub**—especially **topic-first ledes** and **no abstract stacked closers**—and trim in-voice analysis into publishable prose. Mind stubs for fingerprinting: [minds/README.md](../skill-work/work-strategy/minds/README.md).
 
 For **Locals** specifically, the standard path is now documented in [locals-analysis-to-post-recipe.md](locals-analysis-to-post-recipe.md) and [locals-post-scaffold.md](locals-post-scaffold.md). The default public output is **one medium post** with **one thesis spine** and **medium quote density**, not a notebook recap or dated table pasted into forum prose.
 
@@ -185,4 +185,4 @@ When paste-ready copy **anchors** to paths under [`research/repos/civilization_m
 - [grace-mar-locals-voice.md](grace-mar-locals-voice.md) — **Grace‑Mar** Locals (VivaBarnes / Duran) do / do not; gears and prudence
 - [README.md](README.md) — skill-write doctrine hub
 - [skills-modularity.md](../skills-modularity.md) §4 — Voice and profile as f(skill-write)
-- [`tri-mind` SKILL](../../.cursor/skills/tri-mind/SKILL.md) — tri-frame pass (source analysis; then hand off to preferences above for public copy)
+- [TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md) — **`tri-mind` obsolete**; use **`statecraft-multi-lens`** or a **named single mind** for analysis before skill-write handoff

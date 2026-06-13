@@ -1,4 +1,6 @@
-# work-strategy minds (Tri-Frame entry points)
+# work-strategy minds (named expert entry points)
+
+> **`tri-mind` / tri-frame choreography is deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md). Use **[`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md)** for multi-preset comparison, or invoke **one** named mind below.
 
 **Canonical long-form fingerprints (SSOT)** live in the **strategy-expert `*-mind.md`** files at the strategy-notebook root (same bundle family as `-thread` / `-transcript`). Stable **`CIV-MIND-*.md`** paths under [`strategy-notebook/minds/`](../strategy-notebook/minds/) **redirect** to those files for skills, bookmarks, and upstream template naming — **do not duplicate** the corpus there.
 
@@ -14,7 +16,7 @@
 
 **civ-mem** (`research/repos/civilization_memory`) is the **full** local corpus tracked in strategy-codex (MEMs, CORE, etc.). It is **optional** for mind profiles: use only if you want historical depth or governance-only templates alongside Grace-Mar’s SSOT minds. Snapshot provenance lives in `research/repos/civilization_memory/STRATEGY-CODEX-PROVENANCE.md`.
 
-**Tri-frame routing** (which upstream files to open for Mercouris / Mearsheimer / Barnes): [CIV-MEM-TRI-FRAME-ROUTING.md](CIV-MEM-TRI-FRAME-ROUTING.md). **Indexing / search:** [CIV-MEM-UPSTREAM-SEARCH.md](CIV-MEM-UPSTREAM-SEARCH.md).
+**Tri-frame routing (legacy):** [CIV-MEM-TRI-FRAME-ROUTING.md](CIV-MEM-TRI-FRAME-ROUTING.md) — **deprecated** choreography; civ-mem column hints still useful for **single-mind** grounding. **Indexing / search:** [CIV-MEM-UPSTREAM-SEARCH.md](CIV-MEM-UPSTREAM-SEARCH.md).
 
 Protocol: [LEARN_MODE_RULES.md](../LEARN_MODE_RULES.md).
 
@@ -24,6 +26,6 @@ Protocol: [LEARN_MODE_RULES.md](../LEARN_MODE_RULES.md).
 
 **Daily brief overlays:** [DAILY-BRIEF-MINDS-WORKFLOW.md](DAILY-BRIEF-MINDS-WORKFLOW.md), [daily-brief-minds-menu.md](../daily-brief-minds-menu.md).
 
-**Post-entry lens menu (`strategy` / ingest):** [skill-strategy SKILL.md](../../../.cursor/skills/skill-strategy/SKILL.md) § Post-entry lens offer — read **LINGUISTIC FINGERPRINT** from the expert **`-mind.md`** files above (or the **`CIV-MIND-*.md`** redirects).
+**Post-entry lens menu (`strategy` / ingest):** [skill-strategy SKILL.md](../../../.cursor/skills/skill-strategy/SKILL.md) § Post-entry lens offer — read **LINGUISTIC FINGERPRINT** from the expert **`-mind.md`** files above (or the **`CIV-MIND-*.md`** redirects). **Optional single lens only** — no tri-frame default.
 
-**Tri-mind skill (explicit invoke):** [tri-mind SKILL.md](../../../.cursor/skills/tri-mind/SKILL.md) — fixed menu **A** Mercouris / **B** Mearsheimer / **C** Barnes; one letter = solo, two = duet, **`ab+c`** = litigator-close (duet **`ab`** then Barnes closing only), **abc** = symmetric roundtable; **not** the default on every generic **`strategy`** pass ([strategy-minds-granular.mdc](../../../.cursor/rules/strategy-minds-granular.mdc)).
+**Tri-mind skill:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md) · legacy [tri-mind SKILL.md](../../../.cursor/skills/tri-mind/SKILL.md).

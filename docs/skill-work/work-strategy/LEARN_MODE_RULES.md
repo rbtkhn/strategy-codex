@@ -1,5 +1,7 @@
 # LEARN_MODE_RULES
 
+> **`tri-mind` / tri-frame roundtables are deprecated** (2026-06) — [TRI-MIND-DEPRECATED.md](TRI-MIND-DEPRECATED.md). LEARN MODE below is **legacy archive protocol**; new sessions should not assume mandatory Tri-Frame synthesis unless explicitly reviving this mode.
+
 **Civilizational Strategy Learn Mode Adapter**  
 **Version:** 2026-03-29 | **Last gated update:** _TBD_
 
@@ -17,7 +19,7 @@ All LEARN MODE sessions **must** reference the three primary CMC analytical lens
 - **[`strategy-expert-mearsheimer-mind.md`](strategy-notebook/strategy-expert-mearsheimer-mind.md)** — Power distribution, security dilemmas, offensive/defensive realism, alliance dynamics, and great-power competition geometry.
 - **[`strategy-expert-barnes-mind.md`](strategy-notebook/strategy-expert-barnes-mind.md)** — Material foundations, liability chains, extraction/defection logic, fiscal and resource constraints, and structural economic realities.
 
-These three minds form the **Tri-Frame Synthesis** and must be applied unless a single-frame analysis is explicitly justified.
+These three minds formed the **Tri-Frame Synthesis** (legacy). **Deprecated** as mandatory choreography — apply **one** mind at a time or use [`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md) unless explicitly running archive LEARN MODE.
 
 ## LEARN MODE protocol (strict order)
 

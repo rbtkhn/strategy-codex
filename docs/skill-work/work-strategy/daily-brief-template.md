@@ -109,11 +109,10 @@ Every numeric claim or attributed quote in the narrative layer must include
 either a URL from the brief source chain or the literal marker:
 `[UNVERIFIED — no primary found]`
 
-### Tri-mind layer policy
+### Named-mind layer policy (tri-mind deprecated)
 
-Three-mind material is optional in the narrative layer. Add only when the
-operator requests it or when evidence maturity supports lens separation.
-Do not treat tri-mind as a default section for every brief.
+**`tri-mind` / tri-frame is obsolete** — [TRI-MIND-DEPRECATED.md](TRI-MIND-DEPRECATED.md). Named-mind material is optional in the narrative layer. Add only when the operator **names one mind** or requests **`statecraft-multi-lens`**.
+Do not treat three-mind / tri-frame sections as a default for every brief.
 
 ### Canonical source boundary
 

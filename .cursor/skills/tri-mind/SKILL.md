@@ -2,13 +2,28 @@
 name: tri-mind
 preferred_activation: tri-mind
 description: >-
-  Tri-lens pass with a fixed A/B/C menu (Mercouris, Mearsheimer, Barnes): one letter = solo; two letters = 1-on-1 duet; abc = roundtable with topic-led or operator-chosen opening order (varied permutations, not always A→B→C); ab+c = litigator-close (Mercouris–Mearsheimer duet then Barnes closing only — not symmetric abc).
-  Triggers: tri-mind, tri-frame, tutti. WORK only; not the default on every strategy pass — see strategy-minds-granular.
+  DEPRECATED (2026-06). Tri-frame A/B/C choreography is obsolete — use statecraft-multi-lens or a named single mind (Mercouris/Mearsheimer/Barnes). Legacy: tri-lens menu pass. See docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md and .cursor/skills/statecraft-multi-lens/SKILL.md.
 ---
 
-# Tri-mind pass (`tri-mind`)
+# Tri-mind pass (`tri-mind`) — **DEPRECATED**
 
-**Preferred activation (operator):** say the exact phrase **`tri-mind`**. **Aliases:** **`tri-frame`**, **`tutti`**, **`three minds`**, **`full tri-frame`**.
+**Status (strategy-codex):** **`tri-mind`**, **`tri-frame`**, **`tutti`**, and the fixed **A/B/C menu** are **obsolete**. **Do not** steer new operator habit here.
+
+**Use instead:**
+
+- **[`statecraft-multi-lens`](../statecraft-multi-lens/SKILL.md)** — multi-preset comparison on a live statecraft object
+- **Named single mind** — say **Mercouris**, **Mearsheimer**, or **Barnes** (read `strategy-expert-<id>-mind.md`; [`minds-authentic-voice.mdc`](../../rules/minds-authentic-voice.mdc))
+- **[`skill-strategy`](../skill-strategy/SKILL.md)** — notebook pass without tri-frame wrapper
+
+**SSOT:** [TRI-MIND-DEPRECATED.md](../../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md)
+
+If the operator **explicitly** repeats **`tri-mind`** after one-line redirect, treat as legacy archive behavior below — **prefer** redirecting again to **statecraft-multi-lens**.
+
+---
+
+## Legacy body (read-only reference)
+
+**Preferred activation (legacy):** say the exact phrase **`tri-mind`**. **Aliases:** **`tri-frame`**, **`tutti`**, **`three minds`**, **`full tri-frame`**.
 
 **Purpose:** Run **in-voice** analysis using the **Tri-Frame** minds with a **fixed letter menu** — not every pass needs all three. This is **analysis in chat** (or inbox paste) first; it is **not** a substitute for **`strategy`** unless the operator also wants strategy-codex capture.
 
@@ -22,7 +37,7 @@ description: >-
 
 ---
 
-## Operator choice menu (always use these letters)
+## Operator choice menu (legacy — do not offer in new sessions)
 
 When **`tri-mind`** applies and the operator has **not** yet given a letter code in the **same** message, present **exactly** this block (no extra minds, no reorder):
 

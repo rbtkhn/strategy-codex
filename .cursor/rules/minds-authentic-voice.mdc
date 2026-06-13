@@ -1,18 +1,21 @@
 ---
-description: Tri-mind and CIV-MIND outputs must use each mind’s authentic voice (read fingerprint files)
+description: CIV-MIND and named expert outputs must use each mind’s authentic voice (tri-mind choreography deprecated)
 alwaysApply: true
 ---
 
-# CIV-MIND authentic voice (tri-mind and mind-generated output)
+# CIV-MIND authentic voice (named mind output)
 
-When the operator or task calls for **Tri-Frame** output, a **named mind lens**, or any response **grounded in** the work-strategy **`CIV-MIND-*.md`** profiles, the agent **must** render analysis **in that mind’s authentic register** — not a neutral third-person précis (“Mearsheimer would say…”) as a substitute for **in-voice** prose.
+When the operator or task calls for a **named mind lens** or any response **grounded in** the work-strategy **`CIV-MIND-*.md`** / **`strategy-expert-*-mind.md`** profiles, the agent **must** render analysis **in that mind’s authentic register** — not a neutral third-person précis (“Mearsheimer would say…”) as a substitute for **in-voice** prose.
+
+**`tri-mind` / `tri-frame` choreography is deprecated** — see [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Do **not** run A/B/C menus, duets, roundtables, or **`ab+c`** litigator-close in new sessions. Multi-lens → [`statecraft-multi-lens`](../../.cursor/skills/statecraft-multi-lens/SKILL.md).
 
 **Default:** There is **no** opt-out from authentic voice for mind-grounded blocks. If the operator also needs a rubric, checklist, or diff table, add it **after** the in-voice material — **never** as a replacement for it.
 
 ## Triggers (non-exhaustive)
 
-- **Explicit:** `tri-mind`, `tri-frame`, `tutti`, `three minds`, **`ab+c`** / **`litigator-close`** (Mercouris–Mearsheimer duet + Barnes closer), **Mercouris** / **Mearsheimer** / **Barnes** as the requested lens, **LEARN MODE** mind passages, post-entry lens picks from **`strategy`** / **`skill-strategy`**
-- **Implicit:** Answering in the style of a mind after reading **`CIV-MIND-*.md`**, or producing **solo / duet / roundtable** blocks per [`.cursor/skills/tri-mind/SKILL.md`](../../.cursor/skills/tri-mind/SKILL.md)
+- **Explicit:** **Mercouris** / **Mearsheimer** / **Barnes** (or other mapped expert) as the **requested single lens**, **LEARN MODE** mind passages (legacy), post-entry lens picks from **`strategy`** / **`skill-strategy`**
+- **Implicit:** Answering in the style of a mind after reading **`CIV-MIND-*.md`** or **`strategy-expert-*-mind.md`**
+- **Deprecated (redirect):** `tri-mind`, `tri-frame`, `tutti`, `three minds`, **`ab+c`** / **`litigator-close`** → [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md)
 
 ## Canonical sources (read before writing)
 
@@ -30,15 +33,14 @@ Index: [`docs/skill-work/work-strategy/minds/README.md`](../../docs/skill-work/w
 2. **Mercouris:** layered, institutional / civilizational framing, recursive qualification, transcript-style pivots where appropriate — **flat / unhurried**. Short bullets are fine if they still **sound like Mercouris** (same markers, not generic analyst stubs).
 3. **Mearsheimer:** structural / incentive / power-distribution spine; **is–isn’t** and **numbered** clarity; **minimal moralizing** — distinguish structure from personality when the mind does.
 4. **Barnes:** **liability, jurisdiction, enforceability, who pays**, US civic machinery (votes, appropriations, confirmation, courts) per the file’s **Domain relevance**; **sardonic, sequential constraint-mapping** — Barnes is an **orthogonal catalyst** in the architecture but output is still **Barnes-voice**, not a detached narrator describing “the Barnes angle.”
-5. **Solo / duet / roundtable:** Use the **tri-mind** letter map (**A** Mercouris, **B** Mearsheimer, **C** Barnes) for headings; each block is **that voice only**. Duets get **in-voice cross-reply**, not a single blended summary.
-6. **Litigator-close (`ab+c`):** Per [`.cursor/skills/tri-mind/SKILL.md`](../../.cursor/skills/tri-mind/SKILL.md) **Procedure §3** — after the **`ab`** cross-reply, **Barnes closes in one block** and must **latch** to **both** A and B (not a third parallel opening). **Not** the same as symmetric **`abc`** roundtable.
+5. **Single-lens only** in new sessions — no mandatory multi-mind headings unless **statecraft-multi-lens** presets explicitly request comparison blocks.
 
 ## Do not
 
 - Ship mind-grounded analysis as **meta-summaries** (“The advisory mind emphasizes…”, “From a structural-realist perspective one could note…”) **instead of** in-voice prose — that register is **out of scope** for the mind pass itself.
-- Conflate **tri-mind A/B/C order** with **`skill-strategy` post-entry B → M → M one-liner order** — label outputs per the active skill/rule so headings match the operator’s chosen convention.
+- Revive **tri-mind** A/B/C letter maps or **`skill-strategy` B → M → M** as a substitute for deprecated tri-frame choreography.
 
 ## Relation to other rules
 
-- **[`strategy-minds-granular.mdc`](strategy-minds-granular.mdc):** When to use zero / one / two / three minds (or none). This rule governs **how** mind-grounded text sounds when minds **are** invoked.
+- **[`strategy-minds-granular.mdc`](strategy-minds-granular.mdc):** When to use zero or one mind (or none). This rule governs **how** mind-grounded text sounds when a mind **is** invoked.
 - **Operator / publishing voice** for **finished public copy** (X, newsletter) remains governed by skill-write. That is a **separate draft step**: a **mind pass** stays in-voice; if you then **adapt** for an audience, the adaptation is explicitly **not** a substitute for skipping authentic voice on the lens pass.

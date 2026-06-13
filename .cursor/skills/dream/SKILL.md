@@ -103,7 +103,7 @@ python3 auto-research/swarm/orchestrator.py dream
 python3 scripts/operator_end_of_day.py
 ```
 
-**civ-mem checkout vs CI pin (optional):** When the day's work leaned on tri-frame civ-mem routing, `bash scripts/check_civ_mem_upstream_pin.sh` checks that `research/repos/civilization_memory` `HEAD` matches the SHA in `docs/ci/civilization_memory_upstream.env`. No local checkout prints a skip line and exits successfully; a mismatch exits non-zero so you can re-clone or checkout the pinned commit before the next strategy pass.
+**civ-mem checkout vs CI pin (optional):** When the day's work leaned on civ-mem routing for a **named mind**, `bash scripts/check_civ_mem_upstream_pin.sh` checks that `research/repos/civilization_memory` `HEAD` matches the SHA in `docs/ci/civilization_memory_upstream.env`. No local checkout prints a skip line and exits successfully; a mismatch exits non-zero so you can re-clone or checkout the pinned commit before the next strategy pass.
 
 The ritual should:
 

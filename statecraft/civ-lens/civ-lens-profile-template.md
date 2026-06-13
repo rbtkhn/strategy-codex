@@ -160,7 +160,7 @@ Optional footer when captures anchor the profile:
 
 - **Tier `B`** is the default for migrated civ-lens profiles until a full mind pass promotes register evidence.
 - **Last reviewed** = month of last operator or assistant pass on voice table + mechanisms.
-- Long-form voice for tri-mind lives in `strategy-expert-<id>-mind.md` / CIV-MIND — **not** duplicated in full inside the profile.
+- Long-form voice for **named minds** lives in `strategy-expert-<id>-mind.md` / CIV-MIND — **not** duplicated in full inside the profile. (**`tri-mind` choreography deprecated** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md).)
 - Do not merge wire-grade operational claims into voice fingerprint; keep those in failure modes or ingest notes.
 
 ---

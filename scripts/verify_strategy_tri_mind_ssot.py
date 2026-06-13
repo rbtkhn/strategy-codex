@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Fail if tri-mind expert mind SSOT paths are missing (flat or experts/<id>/mind.md)."""
+"""Fail if expert mind SSOT paths are missing (flat or experts/<id>/mind.md).
+
+DEPRECATED name: tri-mind trio bookmark parity. Tri-mind choreography is obsolete
+(TRI-MIND-DEPRECATED.md); script retained for mind-file CI only.
+"""
 
 from __future__ import annotations
 

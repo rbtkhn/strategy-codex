@@ -1,6 +1,8 @@
-﻿# CIV-MEM surfaces for tri-frame analysis
+﻿# CIV-MEM surfaces for tri-frame analysis — **DEPRECATED choreography**
 
-**Purpose:** Route **Mercouris**, **Mearsheimer**, and **Barnes** to the right **civilization_memory** (civ-mem) slices so tri-frame work is **grounded**, not a vibes-only re-label. **Minds** = lenses ([`strategy-notebook/minds/CIV-MIND-*.md`](../strategy-notebook/minds/)); **civ-mem** = MEM / STATE / SCHOLAR / ARC / CORE evidence.
+> **`tri-mind` / tri-frame is obsolete** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md). This doc remains as **civ-mem routing hints** when grounding a **single** named mind (Mercouris / Mearsheimer / Barnes).
+
+**Purpose:** Route **Mercouris**, **Mearsheimer**, and **Barnes** to the right **civilization_memory** (civ-mem) slices so analysis is **grounded**, not vibes-only. **Minds** = lenses ([`strategy-notebook/minds/CIV-MIND-*.md`](../strategy-notebook/minds/)); **civ-mem** = MEM / STATE / SCHOLAR / ARC / CORE evidence.
 
 **Where the repo lives:** [`research/repos/civilization_memory/`](../../../../research/repos/civilization_memory/README.md) â€” also symlinked as [`SELF-LIBRARY/civilization_memory`](../../../../SELF-LIBRARY/civilization_memory). **LIB:** [LIB-0157](../../../../self-library.md#operator-analytical-books). **Not** the same as [LIB-0132](../../../../self-library.md) (`docs/civilization-memory/` satellite essays).
 

@@ -53,7 +53,7 @@ Use this surface when one or more of the following is true:
 - a strategy note needs a cleaner mechanism rather than a loose analogy
 - a watch or decision point would benefit from case-backed framing
 - the operator keeps reaching for the same historical references repeatedly
-- a tri-frame judgment would improve from stable civilizational context
+- a judgment would improve from stable civilizational context (optional **named mind** or **`statecraft-multi-lens`** — not default tri-frame; see [TRI-MIND-DEPRECATED.md](TRI-MIND-DEPRECATED.md))
 
 Typical flow:
 

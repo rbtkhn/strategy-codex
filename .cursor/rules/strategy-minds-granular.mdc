@@ -1,16 +1,20 @@
 ---
-description: Strategy passes — no automatic tri-frame; Mercouris/Mearsheimer/Barnes only when invoked
+description: Named expert minds — no tri-frame; single lens or statecraft-multi-lens when needed
 alwaysApply: true
 ---
 
-# work-strategy minds — granular use (no default tri-frame)
+# work-strategy minds — granular use (tri-mind deprecated)
+
+**`tri-mind` / `tri-frame` / `tutti` are deprecated** — see [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Do **not** run the A/B/C menu or tri-frame roundtables in new sessions.
 
 Do **not** assume **tri-frame** (Mercouris + Mearsheimer + Barnes together) on every **`strategy`**, **`strategy pass`**, **`work-strategy`**, or generic **skill-strategy** / strategy-notebook pass.
 
-**Default:** Use **zero, one, two, or three** lenses as the operator indicates — or **none** (plain Chronicle / Reflection / References without M/M/B labeling). Single-lens and two-lens passes are normal.
+**Default:** Use **zero or one** named lens — or **none** (plain Chronicle / Reflection / References without M/M/B labeling). Multi-lens comparison → **[`statecraft-multi-lens`](../../.cursor/skills/statecraft-multi-lens/SKILL.md)**.
 
-**Apply tri-frame or strict LEARN MODE** only when the operator explicitly asks (e.g. **tri-frame**, **LEARN MODE**, **all three minds**, or equivalent). Full **LEARN MODE** protocol (ordering, extraction, SCHOLAR hooks) remains in [`docs/skill-work/work-strategy/LEARN_MODE_RULES.md`](../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md) for those sessions.
+**Named mind (single):** When the operator names **Mercouris**, **Mearsheimer**, **Barnes**, or another mapped expert, read that mind's SSOT and render in authentic register per [minds-authentic-voice.mdc](minds-authentic-voice.mdc).
+
+**LEARN MODE** tri-frame ordering is **legacy** — [LEARN_MODE_RULES.md](../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md) applies only when the operator explicitly invokes archive LEARN protocol.
 
 **Entry points:** [`docs/skill-work/work-strategy/minds/README.md`](../../docs/skill-work/work-strategy/minds/README.md) → canonical **`strategy-notebook/minds/CIV-MIND-*.md`** (full mind bodies in-repo; **no civ-mem required**). Optional upstream diff: `research/repos/civilization_memory/docs/templates/CIV–MIND–*.md` when present.
 
-**In-voice output:** When minds are invoked, follow [`.cursor/rules/minds-authentic-voice.mdc`](minds-authentic-voice.mdc) (read fingerprints; no neutral substitute for authentic register).
+**In-voice output:** When a **single** named mind is invoked, follow [`.cursor/rules/minds-authentic-voice.mdc`](minds-authentic-voice.mdc) (read fingerprints; no neutral substitute for authentic register).
