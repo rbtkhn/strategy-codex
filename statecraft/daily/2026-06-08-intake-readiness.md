@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # June 8+ Intake Readiness — Third-Party Deterrence Stress Test
 
-**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **14** sources (13 transcripts + Pape Substack); **[daily synthesis](./2026-06-08.md)** refreshed (14-source batch; Wilkerson × Hoh mesh spine + Sachs pushback wire-in). Sachs (`-vbRhB69TEY`) landed 2026-06-09 ingest; Wilkerson (`a2nQnLcTNuo`) + evening Davis same ingest wave.
+**Status:** `source-archive/statecraft/2026-06-08/` batch **landed** — **15** sources (14 transcripts + Pape Substack); **[daily synthesis](./2026-06-08.md)** refreshed (15-source batch; Wilkerson × Hoh mesh spine + Sachs pushback wire-in + Weichert command-fracture). Sachs (`-vbRhB69TEY`) landed 2026-06-09 ingest; Wilkerson (`a2nQnLcTNuo`) + evening Davis same ingest wave; Weichert (`g8QReaWLXSk`) wired in daily source base 2026-06-12 sync repair.
 
 **Parent week:** [June week-2 start here](./2026-06-week2-start-here.md) (partial through 2026-06-09) · prior [week-1](./2026-06-week1-start-here.md) · **Wire-verify matrix (8–9 Jun):** [2026-06-08-09-wire-verify-matrix.md](./2026-06-08-09-wire-verify-matrix.md)
 
