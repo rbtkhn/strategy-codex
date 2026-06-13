@@ -18,6 +18,7 @@ if str(SCRIPTS) not in sys.path:
 from yaml_compat import safe_load_path
 
 CIV_LENS = REPO_ROOT / "statecraft" / "civ-lens"
+HOSTS = REPO_ROOT / "statecraft" / "hosts"
 REPO_MAP_PATH = REPO_ROOT / "repo-map.yaml"
 SCHEMA_PATH = REPO_ROOT / "schemas" / "repo_map.schema.json"
 LLM_ROUTING = REPO_ROOT / "LLM-ROUTING.md"
@@ -39,6 +40,16 @@ def _err(errors: list[str], msg: str) -> None:
 
 def discover_source_indexes() -> list[Path]:
     return sorted(CIV_LENS.glob("**/*-source-index.md"))
+
+
+def discover_host_shelves() -> list[Path]:
+    if not HOSTS.is_dir():
+        return []
+    return sorted(HOSTS.glob("*/README.md"))
+
+
+def host_shelf_route_id(slug: str) -> str:
+    return f"{slug}-host-shelf"
 
 
 def load_repo_map() -> dict[str, Any]:
@@ -120,6 +131,59 @@ def validate_source_index_registry(
             continue
         if rel.endswith("-source-index.md") and not full.is_file():
             _err(errors, f"repo-map source_index points to missing file: {rel}")
+
+
+def validate_host_shelf_registry(
+    data: dict[str, Any],
+    errors: list[str],
+    *,
+    generate_hints: bool,
+) -> None:
+    routes = data.get("routes", [])
+    host_routes_by_id = {
+        str(r.get("id", "")): r
+        for r in routes
+        if str(r.get("id", "")).endswith("-host-shelf")
+    }
+    discovered = discover_host_shelves()
+    discovered_paths = {p.relative_to(REPO_ROOT).as_posix() for p in discovered}
+
+    for shelf in discovered:
+        slug = shelf.parent.name
+        expected_id = host_shelf_route_id(slug)
+        expected_path = shelf.relative_to(REPO_ROOT).as_posix()
+        route = host_routes_by_id.get(expected_id)
+        if route is None:
+            _err(errors, f"repo-map missing host_shelf route: {expected_id}")
+            if generate_hints:
+                title = slug.replace("-", " ").title()
+                print(
+                    f"  - id: {expected_id}\n"
+                    f"    title: {title} host shelf\n"
+                    f"    path: {expected_path}\n"
+                    f"    kind: routing_aid\n"
+                    f"    authority: work_only\n"
+                    f"    tags: [{slug}, host-shelf, statecraft]\n"
+                    f"    search_hints: [{title} host, {slug} profile]",
+                    file=sys.stderr,
+                )
+            continue
+        rel = str(route.get("path", "")).replace("\\", "/")
+        if rel != expected_path:
+            _err(
+                errors,
+                f"repo-map host_shelf path mismatch for {expected_id}: {rel} != {expected_path}",
+            )
+        if route.get("kind") != "routing_aid":
+            _err(errors, f"repo-map host_shelf {expected_id} must have kind routing_aid")
+        full = REPO_ROOT / rel
+        if not full.is_file():
+            _err(errors, f"repo-map host_shelf points to missing file: {rel}")
+
+    for route_id, route in host_routes_by_id.items():
+        rel = str(route.get("path", "")).replace("\\", "/")
+        if rel not in discovered_paths:
+            _err(errors, f"repo-map host_shelf orphan route (no disk shelf): {route_id}")
 
 
 def validate_required_routes(data: dict[str, Any], errors: list[str]) -> None:
@@ -230,6 +294,13 @@ def collect_routing_metrics(*, strict: bool = False) -> dict[str, Any]:
         if r.get("kind") == "source_index"
     }
     discovered = {p.relative_to(REPO_ROOT).as_posix() for p in source_indexes}
+    host_shelves = discover_host_shelves()
+    host_shelf_paths = {p.relative_to(REPO_ROOT).as_posix() for p in host_shelves}
+    host_shelf_route_paths = {
+        str(r.get("path", "")).replace("\\", "/")
+        for r in routes
+        if str(r.get("id", "")).endswith("-host-shelf")
+    }
 
     link_files = list(source_indexes)
     if CIV_INDEX.is_file():
@@ -246,6 +317,9 @@ def collect_routing_metrics(*, strict: bool = False) -> dict[str, Any]:
         1 for rel in discovered if _index_lists_source_index(rel, index_text, Path(rel).name)
     )
     repo_map_listed = sum(1 for rel in discovered if rel in route_paths)
+    host_shelf_repo_map_listed = sum(
+        1 for rel in host_shelf_paths if rel in host_shelf_route_paths
+    )
 
     broken_link_count = 0
     if strict:
@@ -264,15 +338,25 @@ def collect_routing_metrics(*, strict: bool = False) -> dict[str, Any]:
         1,
     )
 
+    host_denominator = len(host_shelf_paths) or 1
+    host_shelf_coverage_pct = round(
+        100.0 * host_shelf_repo_map_listed / host_denominator,
+        1,
+    )
+
     return {
         "source_index_count": len(discovered),
+        "host_shelf_count": len(host_shelf_paths),
         "markdown_link_count": markdown_links,
         "repo_map_routes_total": len(routes),
         "repo_map_routes_by_kind": kinds,
         "repo_map_source_index_routes": len(route_paths),
+        "repo_map_host_shelf_routes": len(host_shelf_route_paths),
         "registry_index_listed": index_listed,
         "registry_repo_map_listed": repo_map_listed,
         "registry_coverage_pct": registry_coverage_pct,
+        "host_shelf_repo_map_listed": host_shelf_repo_map_listed,
+        "host_shelf_coverage_pct": host_shelf_coverage_pct,
         "absolute_path_violations": absolute_path_violations,
         "broken_link_count": broken_link_count,
         "required_surfaces_present": all(
@@ -288,12 +372,16 @@ def format_routing_report(metrics: dict[str, Any]) -> str:
         "## Repo routing metrics",
         "",
         f"- source indexes (disk): {metrics['source_index_count']}",
+        f"- host shelves (disk): {metrics['host_shelf_count']}",
         f"- markdown links (INDEX + source-index files): {metrics['markdown_link_count']}",
         f"- repo-map routes: {metrics['repo_map_routes_total']} ({kind_line})",
         f"- source_index routes in repo-map: {metrics['repo_map_source_index_routes']}",
+        f"- host_shelf routes in repo-map: {metrics['repo_map_host_shelf_routes']}",
         f"- registry: INDEX lists {metrics['registry_index_listed']}/{metrics['source_index_count']}, "
         f"repo-map lists {metrics['registry_repo_map_listed']}/{metrics['source_index_count']} "
         f"({metrics['registry_coverage_pct']}% bijection when both match)",
+        f"- host shelves: repo-map lists {metrics['host_shelf_repo_map_listed']}/{metrics['host_shelf_count']} "
+        f"({metrics['host_shelf_coverage_pct']}%)",
         f"- absolute path violations (INDEX + source-index): {metrics['absolute_path_violations']}",
         f"- broken links (--strict resolution): {metrics['broken_link_count']}",
         f"- required surfaces present: {metrics['required_surfaces_present']}",
@@ -322,6 +410,7 @@ def validate_all(
     validate_source_index_registry(
         data, index_text, errors, generate_hints=generate_hints
     )
+    validate_host_shelf_registry(data, errors, generate_hints=generate_hints)
 
     validate_routing_doc_links(errors)
     validate_index_lattice_section(errors)
@@ -364,7 +453,7 @@ def main() -> int:
     ap.add_argument(
         "--generate-repo-map-hints",
         action="store_true",
-        help="Print YAML stubs for missing source_index routes to stderr",
+        help="Print YAML stubs for missing source_index and host_shelf routes to stderr",
     )
     ap.add_argument(
         "--report",
@@ -379,7 +468,7 @@ def main() -> int:
     args = ap.parse_args()
 
     if args.generate_repo_map_hints:
-        print("# repo-map hints for missing source_index routes", file=sys.stderr)
+        print("# repo-map hints for missing source_index / host_shelf routes", file=sys.stderr)
 
     if args.report or args.report_json:
         metrics = collect_routing_metrics(strict=args.strict)

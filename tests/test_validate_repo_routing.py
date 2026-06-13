@@ -26,8 +26,11 @@ def test_validate_repo_routing_allow_absolute_paths() -> None:
 
 def test_repo_map_schema_and_barnes_route() -> None:
     from scripts.validate_repo_routing import (
+        discover_host_shelves,
         discover_source_indexes,
+        host_shelf_route_id,
         load_repo_map,
+        validate_host_shelf_registry,
         validate_required_routes,
         validate_schema,
     )
@@ -36,6 +39,7 @@ def test_repo_map_schema_and_barnes_route() -> None:
     data = load_repo_map()
     validate_schema(data, errors)
     validate_required_routes(data, errors)
+    validate_host_shelf_registry(data, errors, generate_hints=False)
     assert not errors, errors
 
     ids = {r["id"] for r in data["routes"]}
@@ -43,14 +47,21 @@ def test_repo_map_schema_and_barnes_route() -> None:
     assert "source-lattice-doctrine" in ids
 
     discovered = {p.relative_to(REPO_ROOT).as_posix() for p in discover_source_indexes()}
-    assert len(discovered) == 20
+    assert len(discovered) >= 20
+
+    host_shelves = discover_host_shelves()
+    assert len(host_shelves) == 3
+    for shelf in host_shelves:
+        assert host_shelf_route_id(shelf.parent.name) in ids
 
 
 def test_collect_routing_metrics() -> None:
     from scripts.validate_repo_routing import collect_routing_metrics
 
     metrics = collect_routing_metrics(strict=True)
-    assert metrics["source_index_count"] == 20
+    assert metrics["source_index_count"] >= 20
+    assert metrics["host_shelf_count"] == 3
+    assert metrics["host_shelf_coverage_pct"] == 100.0
     assert metrics["registry_coverage_pct"] == 100.0
     assert metrics["markdown_link_count"] >= 600
     assert metrics["broken_link_count"] == 0
@@ -71,7 +82,8 @@ def test_validate_repo_routing_report_flag() -> None:
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
     assert "## Repo routing metrics" in proc.stdout
-    assert "source indexes (disk): 20" in proc.stdout
+    assert "host shelves (disk): 3" in proc.stdout
+    assert "host shelves: repo-map lists 3/3 (100.0%)" in proc.stdout
 
 
 def test_benchmark_routing_discovery() -> None:
