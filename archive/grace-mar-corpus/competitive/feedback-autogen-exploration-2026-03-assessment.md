@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Assessment: AutoGen / Multi-Agent Exploration Feedback (2026-03)
 
 **Source:** [feedback-autogen-exploration-2026-03.md](feedback-autogen-exploration-2026-03.md)  

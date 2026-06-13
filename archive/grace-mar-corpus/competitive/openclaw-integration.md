@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 ﻿# OpenClaw Integration Guide
 
 **One-loop operator checklist:** [skill-work/work-dev/INTEGRATION-PROGRAM.md](skill-work/work-dev/INTEGRATION-PROGRAM.md) â€” read order, export, stage-only, merge, script index. **Parallel branches:** [PARALLEL-MACRO-ACTIONS.md](skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md), `python scripts/integration_macro_actions.py`.

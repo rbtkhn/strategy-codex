@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Atlassian Rovo Alignment
 
 **Status:** WORK / architecture positioning; issue-tracker substrate comparison; not Record truth, not a roadmap commitment.

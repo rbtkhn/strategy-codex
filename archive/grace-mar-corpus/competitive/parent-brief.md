@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Parent Brief — Grace-Mar
 
 *Age-specific variant when the operator is a parent/guardian. For age-neutral language, see [operator-brief.md](operator-brief.md).*

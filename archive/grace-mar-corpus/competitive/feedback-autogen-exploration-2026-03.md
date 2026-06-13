@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 ﻿# Feedback: AutoGen / Multi-Agent Exploration (for assessment)
 
 **Purpose:** Handoff for a new agent session to **assess** this feedback. The feedback compares grace-marâ€™s cognitive-fork design to multi-agent patterns (AutoGen/AG2) and suggests hybrid exploration paths. No commitment to implement; assess alignment, risks, and where this would live.

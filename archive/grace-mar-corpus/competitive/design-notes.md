@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Design Notes — White Paper & Business Proposal Input
 
 **Purpose:** Capture design insights, positioning, and implications derived from build-pattern research and agent-infrastructure analysis. Use for future white paper, business proposal, and investor narrative.

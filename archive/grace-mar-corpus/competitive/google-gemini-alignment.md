@@ -1,3 +1,5 @@
+> **ARCHIVED (Grace-Mar corpus).** Fork growth is **not** default strategy-codex routing. **`fork revive` only** — see [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md).
+
 # Google Gemini / Vertex Agent Alignment
 
 **Status:** WORK / architecture positioning; not Record truth, not a roadmap commitment.
