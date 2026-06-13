@@ -1,0 +1,31 @@
+WORK only; not Record.
+
+# Nima Lane Map (2026-06)
+
+Purpose: classify recurring Dialogue Works guest lanes without duplicating civ-lens speaker authority.
+
+Canonical guest arcs (compatibility paths) live under [codex/speakers/nima/stream/](../../../codex/speakers/nima/stream/).
+
+## High-traffic guest routes
+
+| guest lane | open first | compatibility arc |
+|---|---|---|
+| Crooke | [crooke routing](../../civ-lens/crooke/crooke-routing.md) | [nima-crooke-speaker-arc.md](../../../codex/speakers/nima/stream/nima-crooke-speaker-arc.md) |
+| Freeman | [freeman routing](../../civ-lens/freeman/freeman-routing.md) | [nima-freeman-arc.md](../../../codex/speakers/nima/stream/nima-freeman-arc.md) |
+| Johnson / Wilkerson | [johnson](../../civ-lens/johnson/README.md) / [wilkerson](../../civ-lens/wilkerson/README.md) | [nima-johnson-speaker-arc.md](../../../codex/speakers/nima/stream/nima-johnson-speaker-arc.md), [nima-wilkerson-speaker-arc.md](../../../codex/speakers/nima/stream/nima-wilkerson-speaker-arc.md) |
+| Marandi | [marandi](../../civ-lens/marandi/README.md) | [nima-marandi-speaker-arc.md](../../../codex/speakers/nima/stream/nima-marandi-speaker-arc.md) |
+| Ritter | [ritter](../../civ-lens/ritter/README.md) | [nima-ritter-speaker-arc.md](../../../codex/speakers/nima/stream/nima-ritter-speaker-arc.md) |
+| Postol | [postol](../../civ-lens/postol/README.md) | [nima-postol-speaker-arc.md](../../../codex/speakers/nima/stream/nima-postol-speaker-arc.md) |
+| Martyanov | [martyanov](../../civ-lens/martyanov/README.md) | [nima-martyanov-speaker-arc.md](../../../codex/speakers/nima/stream/nima-martyanov-speaker-arc.md) |
+| Baud | codex baud shelf | [nima-baud-arc.md](../../../codex/speakers/nima/stream/nima-baud-arc.md) |
+
+## Routing default
+
+1. Open [nima-profile.md](nima-profile.md) or episode row in the profile inventory when the job is roster/backfill.
+2. Open [nima-source-index.md](../../../codex/speakers/nima/nima-source-index.md) when the job is provenance location.
+3. Open the guest civ-lens shelf when the job is whole-speaker judgment.
+4. Open the host-local arc in `codex/speakers/nima/stream/` when the job is Dialogue Works–specific transformation on that guest.
+
+## Boundary
+
+This map is host-family routing aid only. It does not merge guest claims or replace source-archive authority.

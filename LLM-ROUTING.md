@@ -15,7 +15,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | transcript / capture / source file | [source-archive/statecraft/](source-archive/statecraft/) |
 | archive inventory by thread (counts, coverage) | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) — **generated inventory**, not a route map |
 | daily statecraft synthesis | [statecraft/daily/](statecraft/daily/) — **after** archive + source-index |
-| host-family continuity (Davis, Napolitano, …) | [statecraft/hosts/](statecraft/hosts/) |
+| host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/hosts/](statecraft/hosts/) |
 | statecraft lane / active operator work | [statecraft/](statecraft/) |
 | library / reading / canon / books | [self-library.md](self-library.md), [artifacts/library-index.md](artifacts/library-index.md) |
 | SELF / SKILLS / EVIDENCE / Record | `self.md`, `self-skills.md`, `self-archive.md`, `recursion-gate.md` |
@@ -29,7 +29,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | civ-lens shelf-class doctrine | [statecraft/civ-lens/README.md](statecraft/civ-lens/README.md) |
 | speaker cluster / satellite map | [statecraft/civ-lens/speaker-cluster-map.md](statecraft/civ-lens/speaker-cluster-map.md) |
 | expert profile (canonical shelf) | `statecraft/civ-lens/<speaker>/<speaker>-profile.md` — see [civ-lens README § Speaker profile law](statecraft/civ-lens/README.md#speaker-profile-law) |
-| expert profile (legacy / profile-only) | [codex/profiles/](codex/profiles/) — compatibility or lanes without a civ-lens shelf |
+| expert profile (legacy / profile-only) | [codex/profiles/](codex/profiles/) — compatibility, profile-only lanes, or pre-migration redirects; see [codex/profiles/README.md](codex/profiles/README.md) |
+| host profile (canonical) | `statecraft/hosts/<host>/<host>-profile.md` |
 
 ## Parallel index disambiguation
 

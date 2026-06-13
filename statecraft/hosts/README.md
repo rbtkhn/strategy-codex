@@ -15,15 +15,16 @@ This layer exists so live host-law, host-native routing pressure, and guest-lane
 
 ## Current Migration Front
 
-This first pass is intentionally narrow.
-
 - [Davis](davis/README.md)
 - [Napolitano](napolitano/README.md)
+- [Nima (Dialogue Works)](nima/README.md)
 
-These are the two highest-leverage hosts for current statecraft routing because they repeatedly transform the same guests in different ways:
+[Davis](davis/README.md) and [Napolitano](napolitano/README.md) are the highest-leverage hosts for feasibility vs legal/process pressure:
 
 - `Davis` = feasibility, bargaining geometry, and settlement-room pressure
 - `Napolitano` = legal, constitutional, and process pressure
+
+[Nima](nima/README.md) owns Dialogue Works interview framing, dual-thread ingest discipline, and guest-discovery routing. Stream chronology and source-index remain under `codex/speakers/nima/` until a fuller transfer pass.
 
 Their shared comparison note remains in [host-backbone-napolitano-davis-orthogonality-2026-05.md](../sheets/host-backbone-napolitano-davis-orthogonality-2026-05.md).
 
@@ -31,6 +32,7 @@ Their shared comparison note remains in [host-backbone-napolitano-davis-orthogon
 
 - host front doors
 - host-law notes
+- host identity profiles (`<host>-profile.md`) when the live host shelf is canonical here
 - host-native guest-lane maps
 - live routing distinctions that apply across multiple speaker shelves
 

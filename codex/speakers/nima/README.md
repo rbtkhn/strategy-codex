@@ -2,13 +2,15 @@
 
 WORK only; not Record.
 
-This is the canonical `nima` host shelf for `Dialogue Works`.
+**Canonical host shelf (SSOT):** [`statecraft/hosts/nima/README.md`](../../../statecraft/hosts/nima/README.md)
 
-## Open First
+This `codex/speakers/nima/` tree remains compatibility residue for source-index, stream arcs, and chronology during migration.
 
-- [index.md](index.md)
+## Open First (compatibility)
+
+- [statecraft/hosts/nima/](../../../statecraft/hosts/nima/) — live host-law, profile, lane map
 - [nima-source-index.md](nima-source-index.md)
-- [Profile](../../profiles/nima-profile.md)
+- [stream/](stream/)
 
 ## Stream
 
@@ -33,4 +35,4 @@ Treat those as transition-era compatibility surfaces, not co-equal canonical nam
 
 ## Boundary
 
-`nima` is the canonical host/thread id under `codex/speakers/nima/`. Raw-text authority stays in [`codex/years/2026/provenance/`](C:/dev/strategy-codex/codex/years/2026/provenance).
+Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft/) and legacy provenance benches. Live host routing uses `statecraft/hosts/nima/`.
