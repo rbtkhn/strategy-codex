@@ -2,19 +2,19 @@ WORK only; not Record.
 
 # June 2026 Week 2 — Start Here
 
-**Month-week 2:** 2026-06-08 – 2026-06-14 · **Status:** partial through 2026-06-11
+**Month-week 2:** 2026-06-08 – 2026-06-14 · **Status:** partial through 2026-06-12
 
-**Last refresh:** 2026-06-12 — MOU dual-channel object after [2026-06-11 daily](./2026-06-11.md) + Pape indicator backtest row.
+**Last refresh:** 2026-06-12 (C+A) — week hinge through [2026-06-12 daily](./2026-06-12.md); intake-daily sync **6 ok · 0 desync · 1 no_daily→promoted** (Jun 12); archive **8** captures Jun 12; ship receipts `4757a4618` (coffee infra) · `7eef4f229` (intake sync repair).
 
 One entry point for re-entering month-week 2 of June 2026. Open before the day ladder or statecraft-note scatter.
 
 **Governing object (week):** Whether **near-text MOU** and **executive–kinetic dual channel** can coexist without falsifying command — after command fracture and GCC ladder (Jun 9–10).
 
-**Object migration:** ceasefire **label** (Jun 8) → command **fracture** + Apache **pretext** (Jun 9) → MOU **theater** × Kharg/strike **oscillation** (Jun 11).
+**Object migration:** ceasefire **label** (Jun 8) → command **fracture** + Apache **pretext** (Jun 9) → GCC **ladder** + talks DEAD (Jun 10) → MOU **theater** × Kharg/strike **oscillation** (Jun 11) → MOU **publish/deny** × Lebanon **point-1 live test** (Jun 12).
 
 **Convergence (one line):** `trap + threshold + legitimacy` — Pape **trap-confirmed** indicator row; Marandi/Johnson **five demands** gate; Barnes **dual-channel** routing.
 
-**Archive checkpoint:** [source-archive/statecraft/2026-06.md](../../source-archive/statecraft/2026-06.md) — **2** daily syntheses in range (08–09); **19** source files on 2026-06-09; first capture in week2 **2026-06-08**. **Month compression:** [2026-06.md](./2026-06.md) (partial).
+**Archive checkpoint:** [source-archive/statecraft/2026-06.md](../../source-archive/statecraft/2026-06.md) — **5** daily syntheses in week2 range (**08–12**); archive counts **15 / 16 / 9 / 19 / 8** (Jun 8–12). Intake sync audit **2026-06-12:** Jun 6–11 **ok**; Jun 12 **ok** (8 archive · 8 daily_cp). First capture in week2 **2026-06-08**. **Month compression:** [2026-06.md](./2026-06.md) (partial through Jun 9 — lags week2 close).
 
 **Method:** [METHOD.md § Week Hinge](./METHOD.md#week-hinge-contract)
 
@@ -57,6 +57,9 @@ Heavy-week adds:
 |-----|------|-------|
 | 06-08 | Ceasefire grammar + wire batch open; Lebanon fuse carry | [2026-06-08](./2026-06-08.md) |
 | 06-09 | Command fracture + evening kinetic seam | [2026-06-09](./2026-06-09.md) |
+| 06-10 | Second-strike night + GCC ladder; talks DEAD vs Vance lane | [2026-06-10](./2026-06-10.md) |
+| 06-11 | MOU theater × dual channel + Pape backtest spine | [2026-06-11](./2026-06-11.md) |
+| 06-12 | MOU publish/deny × Lebanon point-1 live test; Johnson triple-function | [2026-06-12](./2026-06-12.md) |
 
 ---
 
@@ -106,15 +109,20 @@ From [week1](./2026-06-week1-start-here.md) finalized unspent paths:
 
 **Routing score vs git receipt:** `validate_repo_routing.py --strict` passes locally while `codex/speakers/mercouris/mercouris-source-index.md` (+4 Jun 8–11 rows) and `statecraft/data/month-routing-metadata.json` (`generated_at` only) remain uncommitted.
 
+**Orchestration receipts (2026-06-12):** `4757a4618` coffee/cadence infra · `7eef4f229` intake-daily sync (Jun 6 + Jun 8). `main` **ahead 2** — push when operator approves.
+
 **Decision trigger (ship):** Commit mercouris shelf rows **or** `git restore` metadata stamp **before** treating routing/shelf as closed.
 
 ---
 
 ## Next intake
 
-- **[2026-06-09 intake readiness](./2026-06-09-intake-readiness.md)** — command fracture queue; 19/19 sync.
-- **[2026-06-08 intake readiness](./2026-06-08-intake-readiness.md)** — ceasefire grammar + wire batch.
+- **Jun 12 (parked):** [Parsi breaking leak](../../source-archive/statecraft/2026-06-12/source-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md) — morning `statecraft daily synthesis`; do not batch with scratch WIP.
+- **[2026-06-09 intake readiness](./2026-06-09-intake-readiness.md)** — command fracture queue; **16/16** sync.
+- **[2026-06-08 intake readiness](./2026-06-08-intake-readiness.md)** — ceasefire grammar + wire batch; **15/15** sync (Weichert wired `7eef4f229`).
 
-Refresh this hinge when **2026-06-10 – 2026-06-14** dailies land or month-week 2 closes.
+**Intake function (Jun 6–12):** `check_statecraft_intake_daily_sync.py --all --from-day 2026-06-06 --to-day 2026-06-12` → **6 ok · 0 desync · 1 no_daily**.
+
+Refresh this hinge when **2026-06-12 – 2026-06-14** dailies land or month-week 2 closes.
 
 Invoke: **`statecraft daily intake`** · **`week hinge`** · **`statecraft daily synthesis`**
