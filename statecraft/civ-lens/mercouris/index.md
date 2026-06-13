@@ -6,6 +6,7 @@ Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the 
 
 ## Open First
 
+- [Speaker profile](mercouris-profile.md)
 - [Speaker arc](mercouris-arc.md)
 - [Speaker routing note](mercouris-routing.md)
 - [Source index](mercouris-source-index.md)
@@ -25,9 +26,12 @@ Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the 
 
 - [Speaker folder README](README.md)
 - [Speaker object note](mercouris-speaker-object.md)
+- [Speaker profile](mercouris-profile.md)
 - [Cross-host note](mercouris-cross-host-note.md)
 
 Compatibility residue:
+
+- [Profile compatibility redirect](../../../codex/profiles/mercouris-profile.md)
 
 - [Thread compatibility file](../../../codex/speakers/mercouris/stream/mercouris-thread.md)
 - [Transcript compatibility file](../../../codex/speakers/mercouris/stream/mercouris-transcript.md)

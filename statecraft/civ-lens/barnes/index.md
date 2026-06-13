@@ -6,6 +6,7 @@ Purpose: compact front door for the canonical Barnes statecraft shelf.
 
 ## Open First
 
+- [Speaker profile](barnes-profile.md)
 - [README.md](README.md)
 - [barnes-analysis-index.md](barnes-analysis-index.md)
 - [barnes-on-ai.md](barnes-on-ai.md)
@@ -17,6 +18,7 @@ Purpose: compact front door for the canonical Barnes statecraft shelf.
 
 ## Fast route map
 
+- If the question is **who Barnes is as a strategy-expert lane**, open [barnes-profile.md](barnes-profile.md).
 - If the question is **how Barnes works as a speaker object**, open [barnes-analysis-index.md](barnes-analysis-index.md).
 - If the question is **how Barnes talks about AI as bubble, financing, or incentive structure**, open [barnes-on-ai.md](barnes-on-ai.md).
 - If the question is **whole-speaker continuity**, open [barnes-arc.md](barnes-arc.md).
@@ -33,3 +35,7 @@ Barnes is best read as a **cross-host person arc with a dominant Davis branch**.
 - Mercouris is the clearest non-Davis reinforcement lane.
 - the May 26, 2026 Nima / Dialogue Works source is the key late-May confirmation that the object extends beyond April and beyond a Davis-only reading.
 - Johnson support-tier material remains useful, but not yet canonical-strand equal.
+
+## Compatibility residue
+
+- [codex/speakers/barnes/barnes-profile.md](../../../codex/speakers/barnes/barnes-profile.md) — compatibility redirect only.

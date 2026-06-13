@@ -10,6 +10,7 @@ The shelf is intentionally a lighter first pass. Barnes is already a real cross-
 
 ## Open First
 
+- [Speaker profile](barnes-profile.md) — identity, voice fingerprint, convergence/tension, links hub
 - [barnes-arc.md](barnes-arc.md)
 - [barnes-routing.md](barnes-routing.md)
 - [barnes-source-index.md](barnes-source-index.md)
@@ -49,6 +50,7 @@ The legacy `codex/speakers/barnes/` path is now front-door compatibility only.
 
 - [codex/speakers/barnes/README.md](../../../codex/speakers/barnes/README.md) and [index.md](../../../codex/speakers/barnes/index.md) are compatibility pointers.
 - codex-side thread, transcript, speaker-object, cross-host, mind, and profile files remain compatibility residue or migration scaffolds.
+- [codex/profiles/](../../../codex/profiles/) has no Barnes row; legacy profile redirect: [codex/speakers/barnes/barnes-profile.md](../../../codex/speakers/barnes/barnes-profile.md).
 - this statecraft shelf is now the canonical opening path for Barnes statecraft work.
 
 ## Host Lanes

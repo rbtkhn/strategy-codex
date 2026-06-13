@@ -8,6 +8,7 @@ Use it for speaker identity, stream-native continuity, route maps, bounded 2026 
 
 ## Open First
 
+- [Speaker profile](mercouris-profile.md) — identity, voice fingerprint, convergence/tension, links hub
 - [mercouris-arc.md](mercouris-arc.md)
 - [mercouris-routing.md](mercouris-routing.md)
 - [mercouris-source-index.md](mercouris-source-index.md)
@@ -34,6 +35,7 @@ Mercouris's canonical structure now has five speaker-owned layers:
 Support and segmentation surfaces:
 
 - [mercouris-speaker-object.md](mercouris-speaker-object.md) remains the object-shape doctrine.
+- [mercouris-profile.md](mercouris-profile.md) is the canonical strategy-expert profile card.
 - [mercouris-cross-host-note.md](mercouris-cross-host-note.md) remains the reinforcement note.
 - [stream/mercouris-arc.md](stream/mercouris-arc.md) and [stream/mercouris-arc-threads.md](stream/mercouris-arc-threads.md) remain the inner core logic.
 - [stream/README.md](stream/README.md) holds the bounded 2026 monthly synthesis shelves.
@@ -60,6 +62,7 @@ The legacy `codex/speakers/mercouris/` path is now front-door compatibility only
 
 - [codex/speakers/mercouris/README.md](../../../codex/speakers/mercouris/README.md) and [index.md](../../../codex/speakers/mercouris/index.md) are compatibility pointers.
 - older codex-side thread, transcript, and page files remain compatibility residue.
+- [codex/profiles/mercouris-profile.md](../../../codex/profiles/mercouris-profile.md) is a compatibility redirect only.
 - this statecraft shelf is now the canonical opening path for Mercouris statecraft work.
 
 ## Boundary
