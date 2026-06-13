@@ -1,0 +1,16 @@
+# Replacement capture habits (Record frozen)
+
+**Default operator surface:** governed interpretive machine — `statecraft/`, `singularity/`, `codex/`, `source-archive/statecraft/`. The embedded Grace-Mar Record at repo root is **frozen** ([grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)).
+
+When the operator would have used fork-growth habits, use these **instead** unless they explicitly invoke **`fork revive`**.
+
+| Was (fork growth) | Now (interpretive machine) |
+|-------------------|----------------------------|
+| **"We did X"** → RECURSION-GATE staging | Lane history (`docs/skill-work/work-*/…-history.md`), [`self-memory.md`](../self-memory.md), [`cadence-learning-events.jsonl`](../cadence-learning-events.jsonl) |
+| Book completion → LEARN/READ gate candidate | `codex/` / bookshelf WORK, strategy inbox, or statecraft archive intake |
+| Wisdom questions → IX merge | Singularity or statecraft synthesis notes; **fork revive only** for IX-A/B/C gate |
+| Weekly gate review rhythm | `python3 scripts/operator_handoff_check.py`, integrity scripts, ship receipt |
+| Voice / Telegram as primary channel | WORK menus (`coffee`, conductor), statecraft daily synthesis |
+| Pipeline will grow the Record | Explicit WORK artifacts with git audit trail |
+
+**Archaeology:** Legacy habits and doctrine live under [`archive/grace-mar-corpus/`](../archive/grace-mar-corpus/README.md). Redirect table: [legacy-operator-concepts.md](legacy-operator-concepts.md).

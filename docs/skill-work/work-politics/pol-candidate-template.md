@@ -1,6 +1,8 @@
 ﻿# work-politics candidate template (RECURSION-GATE)
 
-Paste a new `### CANDIDATE-XXXX` block **above** `## Processed` in `recursion-gate.md` (or let the bot stage; then add missing fields). Replace `XXXX` with the next id (match repo sequence). **Territory** is required so work-politics pending shows under `--territory pol` / `work-politics` and batch merge works.
+> **INACTIVE unless `fork revive`:** Record is frozen. Default work-politics capture uses lane docs + [`replacement-capture-habits.md`](../../replacement-capture-habits.md). This YAML template is for explicit fork-revive gate work only.
+
+Paste a new `### CANDIDATE-XXXX` block **above** `## Processed` in `recursion-gate.md` (fork revive only). Replace `XXXX` with the next id (match repo sequence). **Territory** is required so work-politics pending shows under `--territory pol` / `work-politics` and batch merge works.
 
 ### `channel_key` â€” multi-client convention
 

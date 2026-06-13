@@ -2,11 +2,9 @@
 
 > **Strategy-codex status:** This territory is legacy/archive context. Do not use it as an active `coffee` / Steward default, and do not route current strategy-codex boundary hygiene through companion-self template sync unless the operator explicitly asks for that obsolete migration lane.
 
-**Objective:** Eventually enable Grace-Mar to autonomously manage and improve the companion-self codebase â€” and to maintain proper sync between companion-self and grace-mar.
+> **FROZEN (2026):** Grace-Mar is **not** an active instance or proving ground in strategy-codex. Record is operator-archived; template sync is **legacy archaeology** only on explicit operator request. Default routing: [grace-mar-instance-boundary.md](../../grace-mar-instance-boundary.md), [replacement-capture-habits.md](../../replacement-capture-habits.md).
 
-Companion-self is both the **concept** (companion's self + self that companions, self-* taxonomy, triadic cognition) and the **template repo** ([github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self)). Grace-Mar is a private instance and working tool built from that template. This submodule scopes: (1) **sync** â€” keeping grace-mar aligned with companion-self; (2) **contribution back** â€” proposing improvements upstream.
-
-**Canonical framing:** `companion-self` is the upstream template and public architecture for sovereign, evidence-grounded cognitive forks. `grace-mar` is the private proving ground and active instance: a working tool where structural ideas are tested against real use. Improvements developed in `grace-mar` that are structural, reusable, and instance-agnostic may be merged back into `companion-self`; Record content, private workflows, and instance-specific state remain private to `grace-mar`.
+**Objective (archived):** Historical goal to enable Grace-Mar to manage companion-self template sync — superseded by strategy-codex as governed interpretive machine.
 
 ## Related territory: integration / OpenClaw (not template merge)
 

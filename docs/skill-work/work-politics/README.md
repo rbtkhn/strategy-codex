@@ -28,7 +28,9 @@
 
 ## Sync with RECURSION-GATE
 
-Work-politics work lives in **two places**: this folder (**docs**, working truth) and **`recursion-gate.md`** (gated merges into SELF / EVIDENCE / prompt). Optimal sync = **know which lane** and **touch the gate on a rhythm**.
+> **Record frozen:** Gate sync below applies only on explicit **`fork revive`**. Default work-politics capture uses lane docs + [replacement-capture-habits.md](../../replacement-capture-habits.md) — not ambient RECURSION-GATE staging.
+
+Work-politics work lives in **two places**: this folder (**docs**, working truth) and **`recursion-gate.md`** (gated merges into SELF / EVIDENCE / prompt — **fork revive only**). Optimal sync = **know which lane** and **touch the gate on a rhythm** when the fork lane is open.
 
 **Audit replay (example):** [harness-replay-work-politics-demo.md](../work-dev/harness-replay-work-politics-demo.md) â€” run `replay_harness_event.py` on a work-politics `CANDIDATE-*` and read pipeline / harness / receipts alongside gate YAML.
 
