@@ -303,7 +303,7 @@ Helper captures, generic transcript stubs, X bundles, and date-named placeholder
 
 Migration-side boundary:
 
-- if a speaker has a canonical shelf under `statecraft/civ-lens/`, the codex-side front door should not keep behaving like live authority
+- if a speaker has a canonical shelf under `statecraft/voices/`, the codex-side front door should not keep behaving like live authority
 - month-support and doctrine audits may move statecraft-side while legacy codex files remain as stubs or residue
 
 ### 6. Audit placeholder leakage
@@ -337,7 +337,7 @@ Do not start by rewriting the biggest legacy file if a smaller page, manifest, o
 
 Migration variant:
 
-If the shelf is being migrated into `statecraft/civ-lens/`, use this repair order:
+If the shelf is being migrated into `statecraft/voices/`, use this repair order:
 
 1. canonical statecraft-side shelf
 2. support spine and month-layer doctrine

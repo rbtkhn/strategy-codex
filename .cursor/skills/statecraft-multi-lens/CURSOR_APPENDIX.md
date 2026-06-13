@@ -24,18 +24,18 @@
 - `Davis` practical-room law:
   - [statecraft/hosts/davis/davis-host-law.md](/C:/dev/strategy-codex/statecraft/hosts/davis/davis-host-law.md)
 - `Ritter` person arc:
-  - [statecraft/civ-lens/ritter/ritter-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/ritter/ritter-arc.md)
+  - [statecraft/voices/ritter/ritter-arc.md](/C:/dev/strategy-codex/statecraft/voices/ritter/ritter-arc.md)
 - `Diesen` speaker object:
-  - [statecraft/civ-lens/diesen/diesen-speaker-object.md](/C:/dev/strategy-codex/statecraft/civ-lens/diesen/diesen-speaker-object.md)
+  - [statecraft/voices/diesen/diesen-speaker-object.md](/C:/dev/strategy-codex/statecraft/voices/diesen/diesen-speaker-object.md)
 - `Mercouris` front door and arc:
-  - [statecraft/civ-lens/mercouris/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/README.md)
-  - [statecraft/civ-lens/mercouris/mercouris-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/mercouris/mercouris-arc.md)
+  - [statecraft/voices/mercouris/README.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/README.md)
+  - [statecraft/voices/mercouris/mercouris-arc.md](/C:/dev/strategy-codex/statecraft/voices/mercouris/mercouris-arc.md)
 - `Mearsheimer` front door and arc:
-  - [statecraft/civ-lens/mearsheimer/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/mearsheimer/README.md)
-  - [statecraft/civ-lens/mearsheimer/mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/mearsheimer/mearsheimer-arc.md)
+  - [statecraft/voices/mearsheimer/README.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/README.md)
+  - [statecraft/voices/mearsheimer/mearsheimer-arc.md](/C:/dev/strategy-codex/statecraft/voices/mearsheimer/mearsheimer-arc.md)
 - `Wilkerson` front door and arc:
-  - [statecraft/civ-lens/wilkerson/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/wilkerson/README.md)
-  - [statecraft/civ-lens/wilkerson/wilkerson-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/wilkerson/wilkerson-arc.md)
+  - [statecraft/voices/wilkerson/README.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/README.md)
+  - [statecraft/voices/wilkerson/wilkerson-arc.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-arc.md)
 
 **Current preset-support notes**
 
@@ -50,7 +50,7 @@
 - Policy:
   - [statecraft/bridges/anchored-historical-citation-policy.md](/C:/dev/strategy-codex/statecraft/bridges/anchored-historical-citation-policy.md)
 - Operational matrix:
-  - [statecraft/civ-state/indexes/historical-example-retrieval-matrix.md](/C:/dev/strategy-codex/statecraft/civ-state/indexes/historical-example-retrieval-matrix.md)
+  - [statecraft/states/indexes/historical-example-retrieval-matrix.md](/C:/dev/strategy-codex/statecraft/states/indexes/historical-example-retrieval-matrix.md)
 
 **Neighbor skills**
 

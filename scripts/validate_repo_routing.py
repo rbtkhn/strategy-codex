@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate LLM routing surfaces: repo-map, civ-lens INDEX, source-index registry, links."""
+"""Validate LLM routing surfaces: repo-map, voices INDEX, source-index registry, links."""
 
 from __future__ import annotations
 
@@ -17,12 +17,12 @@ if str(SCRIPTS) not in sys.path:
 
 from yaml_compat import safe_load_path
 
-CIV_LENS = REPO_ROOT / "statecraft" / "civ-lens"
+VOICES = REPO_ROOT / "statecraft" / "voices"
 HOSTS = REPO_ROOT / "statecraft" / "hosts"
 REPO_MAP_PATH = REPO_ROOT / "repo-map.yaml"
 SCHEMA_PATH = REPO_ROOT / "schemas" / "repo_map.schema.json"
 LLM_ROUTING = REPO_ROOT / "LLM-ROUTING.md"
-CIV_INDEX = CIV_LENS / "INDEX.md"
+VOICES_INDEX = VOICES / "INDEX.md"
 
 ABS_PATTERNS = (
     re.compile(r"/C:/", re.I),
@@ -39,7 +39,7 @@ def _err(errors: list[str], msg: str) -> None:
 
 
 def discover_source_indexes() -> list[Path]:
-    return sorted(CIV_LENS.glob("**/*-source-index.md"))
+    return sorted(VOICES.glob("**/*-source-index.md"))
 
 
 def discover_host_shelves() -> list[Path]:
@@ -70,7 +70,7 @@ def validate_schema(data: dict[str, Any], errors: list[str]) -> None:
 
 
 def validate_required_files(errors: list[str]) -> None:
-    for p in (LLM_ROUTING, REPO_MAP_PATH, CIV_INDEX):
+    for p in (LLM_ROUTING, REPO_MAP_PATH, VOICES_INDEX):
         if not p.is_file():
             _err(errors, f"missing required file: {p.relative_to(REPO_ROOT)}")
 
@@ -120,7 +120,7 @@ def validate_source_index_registry(
                     f"    path: {rel}\n"
                     f"    kind: source_index\n"
                     f"    authority: work_only\n"
-                    f"    tags: [{slug}, source-index, statecraft, civ-lens]\n"
+                    f"    tags: [{slug}, source-index, statecraft, voices]\n"
                     f"    search_hints: [{slug.title()} index, {slug} source index]",
                     file=sys.stderr,
                 )
@@ -190,7 +190,7 @@ def validate_required_routes(data: dict[str, Any], errors: list[str]) -> None:
     ids = {r.get("id") for r in data.get("routes", [])}
     for req in (
         "llm-routing",
-        "civ-lens-index",
+        "voices-index",
         "source-lattice-doctrine",
         "ph-civ-source-lattice",
         "barnes-source-index",
@@ -203,14 +203,14 @@ def validate_routing_doc_links(errors: list[str]) -> None:
     text = LLM_ROUTING.read_text(encoding="utf-8")
     if "source-lattice-beyond-the-repo.md" not in text:
         _err(errors, "LLM-ROUTING.md must link to docs/source-lattice-beyond-the-repo.md")
-    if "statecraft/civ-lens/INDEX.md" not in text:
-        _err(errors, "LLM-ROUTING.md must reference statecraft/civ-lens/INDEX.md")
+    if "statecraft/voices/INDEX.md" not in text:
+        _err(errors, "LLM-ROUTING.md must reference statecraft/voices/INDEX.md")
 
 
 def validate_index_lattice_section(errors: list[str]) -> None:
-    text = CIV_INDEX.read_text(encoding="utf-8")
+    text = VOICES_INDEX.read_text(encoding="utf-8")
     if "source-lattice" not in text.lower():
-        _err(errors, "civ-lens/INDEX.md must mention source-lattice disambiguation")
+        _err(errors, "voices/INDEX.md must mention source-lattice disambiguation")
 
 
 def has_absolute_path(text: str) -> bool:
@@ -286,7 +286,7 @@ def collect_routing_metrics(*, strict: bool = False) -> dict[str, Any]:
     data = load_repo_map() if REPO_MAP_PATH.is_file() else {"routes": []}
     routes = data.get("routes", [])
     source_indexes = discover_source_indexes()
-    index_text = CIV_INDEX.read_text(encoding="utf-8") if CIV_INDEX.is_file() else ""
+    index_text = VOICES_INDEX.read_text(encoding="utf-8") if VOICES_INDEX.is_file() else ""
 
     route_paths = {
         str(r.get("path", "")).replace("\\", "/")
@@ -303,8 +303,8 @@ def collect_routing_metrics(*, strict: bool = False) -> dict[str, Any]:
     }
 
     link_files = list(source_indexes)
-    if CIV_INDEX.is_file():
-        link_files.append(CIV_INDEX)
+    if VOICES_INDEX.is_file():
+        link_files.append(VOICES_INDEX)
     markdown_links = 0
     absolute_path_violations = 0
     for fp in link_files:
@@ -360,7 +360,7 @@ def collect_routing_metrics(*, strict: bool = False) -> dict[str, Any]:
         "absolute_path_violations": absolute_path_violations,
         "broken_link_count": broken_link_count,
         "required_surfaces_present": all(
-            p.is_file() for p in (LLM_ROUTING, REPO_MAP_PATH, CIV_INDEX)
+            p.is_file() for p in (LLM_ROUTING, REPO_MAP_PATH, VOICES_INDEX)
         ),
     }
 
@@ -406,7 +406,7 @@ def validate_all(
     validate_route_paths(data, errors)
     validate_required_routes(data, errors)
 
-    index_text = CIV_INDEX.read_text(encoding="utf-8") if CIV_INDEX.is_file() else ""
+    index_text = VOICES_INDEX.read_text(encoding="utf-8") if VOICES_INDEX.is_file() else ""
     validate_source_index_registry(
         data, index_text, errors, generate_hints=generate_hints
     )
@@ -417,16 +417,16 @@ def validate_all(
 
     source_indexes = discover_source_indexes()
     abs_files: list[Path] = list(source_indexes)
-    if CIV_INDEX.is_file():
-        abs_files.append(CIV_INDEX)
+    if VOICES_INDEX.is_file():
+        abs_files.append(VOICES_INDEX)
     if scope_all_civ_lens:
-        abs_files = sorted(CIV_LENS.rglob("*.md"))
+        abs_files = sorted(VOICES.rglob("*.md"))
 
     validate_absolute_paths(abs_files, errors, allow=allow_absolute_paths)
 
     link_files = list(source_indexes)
-    if CIV_INDEX.is_file():
-        link_files.append(CIV_INDEX)
+    if VOICES_INDEX.is_file():
+        link_files.append(VOICES_INDEX)
     validate_markdown_links(link_files, errors, strict=strict)
 
     return errors

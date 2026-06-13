@@ -32,8 +32,8 @@ Its current underlying path remains [`source-archive/statecraft/`](/C:/dev/strat
 
 The first coherent interpretive layer above the archive: speaker continuity, routing, crossing, support, and bounded synthesis surfaces that assemble archive truth into usable statecraft objects without replacing it.
 
-Its primary home is [`statecraft/civ-lens/`](/C:/dev/strategy-codex/statecraft/civ-lens/README.md).
-For the compact speaker-shelf grammar, open [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/civ-lens/speaker-shelf-vocabulary.md).
+Its primary home is [`statecraft/voices/`](/C:/dev/strategy-codex/statecraft/voices/README.md).
+For the compact speaker-shelf grammar, open [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/voices/speaker-shelf-vocabulary.md).
 
 ## Boundary Law
 
@@ -95,7 +95,7 @@ Thread-layer rule:
 
 Use `thread atlas` when opening or naming the surface itself. Use `arc-threads` when describing the internal substructure of an arc. This prevents a recurring atlas from competing conceptually with the bounded arcs that rely on it.
 
-For the compact table version of this grammar, see [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/civ-lens/speaker-shelf-vocabulary.md).
+For the compact table version of this grammar, see [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/voices/speaker-shelf-vocabulary.md).
 
 ## Opening Rule
 
@@ -111,6 +111,6 @@ This is the constitutional guard against polished routing that has lost contact 
 
 - repo-root front door: [statecraft/README.md](/C:/dev/strategy-codex/statecraft/README.md)
 - archive-seam routing note: [Archive Truth-Floor Repair Routing](notes/archive-truth-floor-repair-routing-2026-06-01.md)
-- synthesis home: [statecraft/civ-lens/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/README.md)
+- synthesis home: [statecraft/voices/README.md](/C:/dev/strategy-codex/statecraft/voices/README.md)
 - bridge layer: [statecraft/bridges/README.md](/C:/dev/strategy-codex/statecraft/bridges/README.md)
-- retrieval memory: [statecraft/civ-state/README.md](/C:/dev/strategy-codex/statecraft/civ-state/README.md)
+- retrieval memory: [statecraft/states/README.md](/C:/dev/strategy-codex/statecraft/states/README.md)

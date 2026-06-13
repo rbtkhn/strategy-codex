@@ -5,33 +5,28 @@ kind: transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_transcript
-host_people:
-  - Judge Andrew Napolitano
-guest_people:
-  - Larry Johnson
-  - Ray McGovern
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 thread: napolitano
-threads:
-  - napolitano
-  - johnson
-  - mcgovern
+threads: ""
 thread_expert: johnson
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Larry Johnson; Ray McGovern
-title: "INTEL Roundtable w/ Johnson & McGovern - Weekly Wrap 12-June"
+title: INTEL Roundtable w/ Johnson & McGovern - Weekly Wrap 12-June
 channel_url: "https://www.youtube.com/@judgingfreedom"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=ILZhqQQf-UY"
 youtube_id: ILZhqQQf-UY
-source_note: "Operator-pasted transcript; host self-dates Friday 12 June 2026 intel roundtable. Trump whiplash — Kharg occupy/bomb vs peace-deal 39th time; CNN montage; credibility collapse / boy-who-cried-wolf. McGovern — IC sidelined; Russia Day Darov constructive-US rhetoric; Putin smoothing for Iran backstop. Johnson SPR depletion — light vs heavy crude, diesel import gap, July 4th price shock; political SPR use. Joe Kent alignment inside NSC (investigation for truth-telling); Rubio funnel/sphincter; leak suppression. Hegseth bombs negotiation clip vs Trump strike reversal; ammo/tomahawk exhaustion. NYT Netanyahu White House/Mar-a-Lago spying (Pakistan track); Epstein blackmail frame; NDAA §224/§622 Cotton intel-sharing codification; Israel penetration CIA/DoD. Tucker Carlson limits-of-American-power clip — Hormuz control, vincibility thesis; Ukraine/Red Sea/Iran precedents. Russia-China-Iran triangle; Trump health/Walter Reed; UFC cage-match distraction. Parsi deportation attempt (Quincy); Chris Hedges no-fly; McGovern midterm-not-midterms warning. FISA §702 House non-renewal — Binney executive-order workaround. Cross-ref same-day Diesen×Johnson + Freeman + Aguilar Jun 12 batch."
+source_note: Operator-pasted transcript; host self-dates Friday 12 June 2026 intel roundtable. Trump whiplash — Kharg occupy/bomb vs peace-deal 39th time; CNN montage; credibility collapse / boy-who-cried-wolf. McGovern — IC sidelined; Russia Day Darov constructive-US rhetoric; Putin smoothing for Iran backstop. Johnson SPR depletion — light vs heavy crude, diesel import gap, July 4th price shock; political SPR use. Joe Kent alignment inside NSC (investigation for truth-telling); Rubio funnel/sphincter; leak suppression. Hegseth bombs negotiation clip vs Trump strike reversal; ammo/tomahawk exhaustion. NYT Netanyahu White House/Mar-a-Lago spying (Pakistan track); Epstein blackmail frame; NDAA §224/§622 Cotton intel-sharing codification; Israel penetration CIA/DoD. Tucker Carlson limits-of-American-power clip — Hormuz control, vincibility thesis; Ukraine/Red Sea/Iran precedents. Russia-China-Iran triangle; Trump health/Walter Reed; UFC cage-match distraction. Parsi deportation attempt (Quincy); Chris Hedges no-fly; McGovern midterm-not-midterms warning. FISA §702 House non-renewal — Binney executive-order workaround. Cross-ref same-day Diesen×Johnson + Freeman + Aguilar Jun 12 batch.
 evidence_grade: transcript-bearing
 editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Npalitano, Hakesith/Hegseth, Carg/Kharg, hormones/Hormuz, Ta Psy/Parsi, etc.). Closing Monday lineup promo retained.
-opening_tier: clean
+opening_tier: full-scaffold
 transcript_wrapper_tier: paste-asr
 opening_trim_applied: false
+napolitano_leading_noise_trim_applied: true
 ---
 
 # INTEL Roundtable w/ Johnson & McGovern - Weekly Wrap 12-June
@@ -119,4 +114,3 @@ to investigate things and and he said we don't have to go out to break the law t
 " His answer is, well, the the FBI and NSA have all the authorities they need by executive order. There's something called section 703. They're going to go ahead and do this anyway. And this whole charade, remember when Mueller and Comey showed up at the bedside of the attorney general and said, "We're not going to we're not going to let you sign this intrusive surveillance." Right.
 >> That was all a charade. Yes. >> Next day they gave a different name to it for God's sake. So yeah, we're all under surveillance. We have to cope with that and we have to not let ourselves be inhibited by it. >> Gentlemen, thank you very much. A great uh great conversation as it always is. Have a nice weekend.
  We'll look forward to seeing you both on Monday morning. >> Thanks, Judge. >> Thank you. And of course on Monday we will have our usual lineup for you of uh Alistister Crook at 8 and Larry at 9ine and Ray at 10 and Professor Saxs in the afternoon and Scott Ritter if we can find him. Thank you for watching. Judge Npalitano for Judging Freedom.
-Heat. Heat.

@@ -2,8 +2,8 @@
 
 WORK only; not Record.
 
-**Canonical profile (SSOT):** [`statecraft/civ-lens/parsi/parsi-profile.md`](../../statecraft/civ-lens/parsi/parsi-profile.md)
+**Canonical profile (SSOT):** [`statecraft/voices/parsi/parsi-profile.md`](../../statecraft/voices/parsi/parsi-profile.md)
 
 This path remains for stable links from legacy `codex/profiles/` routing. **Do not duplicate the corpus here.**
 
-**Canonical shelf:** [`statecraft/civ-lens/parsi/README.md`](../../statecraft/civ-lens/parsi/README.md)
+**Canonical shelf:** [`statecraft/voices/parsi/README.md`](../../statecraft/voices/parsi/README.md)

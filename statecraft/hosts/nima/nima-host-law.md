@@ -11,7 +11,7 @@ Nima is the host to open when the real question is:
 - how is this long-form interview being framed
 - which guest lane the episode should route into after host prompts
 - whether both `thread:nima` and `thread:<guest>` are mirrored on the ingest
-- which surrounding speaker to open after an anchor pass (see [speaker-cluster-map](../../civ-lens/speaker-cluster-map.md))
+- which surrounding speaker to open after an anchor pass (see [speaker-cluster-map](../../voices/speaker-cluster-map.md))
 
 ## Governing Transformation
 
@@ -31,10 +31,10 @@ Dialogue Works repeatedly pushes guests toward:
 
 ## Do Not Misread Nima As
 
-- a whole-speaker civ-lens shelf (guest identity still lives in civ-lens)
+- a whole-speaker voices shelf (guest identity still lives in `voices/`)
 - a substitute for guest source-index or arc authority
 - the same thing as the legacy `alkorshid` spelling (compatibility alias only)
 
 ## Boundary
 
-Use this note for host-law. Use [nima-lane-map-2026-06.md](nima-lane-map-2026-06.md) for guest-class pointers. Use civ-lens speaker shelves when the real question is whole-speaker identity beyond host transformation.
+Use this note for host-law. Use [nima-lane-map-2026-06.md](nima-lane-map-2026-06.md) for guest-class pointers. Use `statecraft/voices/` speaker shelves when the real question is whole-speaker identity beyond host transformation.

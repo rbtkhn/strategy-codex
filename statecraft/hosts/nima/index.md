@@ -18,7 +18,7 @@ Open Nima / Dialogue Works first when:
 - the ingest is a host-led long-form interview
 - host prompts or framing are load-bearing beside guest claims
 - routing needs both `thread:nima` and `thread:<guest>` on the same episode
-- the job is guest discovery across multiple civ-lens shelves after an anchor pass
+- the job is guest discovery across multiple voices shelves after an anchor pass
 
 ## Provenance and stream (compatibility)
 

@@ -20,13 +20,13 @@ The danger is not that either slice lacks substance. The danger is that they blu
 The first slice proved clean enough to ship on its own:
 
 - [statecraft/README.md](/C:/dev/strategy-codex/statecraft/README.md)
-- [statecraft/civ-state/README.md](/C:/dev/strategy-codex/statecraft/civ-state/README.md)
-- [statecraft/civ-state/power-truth-time-annex.md](/C:/dev/strategy-codex/statecraft/civ-state/power-truth-time-annex.md)
-- [statecraft/civ-state/power-truth-time-retrieval-checklist.md](/C:/dev/strategy-codex/statecraft/civ-state/power-truth-time-retrieval-checklist.md)
-- [statecraft/civ-state/civilization-empire-faith-science-memory-desire-retrieval-checklist.md](/C:/dev/strategy-codex/statecraft/civ-state/civilization-empire-faith-science-memory-desire-retrieval-checklist.md)
-- [statecraft/civ-state/ph-civ-to-civ-state-bridge.md](/C:/dev/strategy-codex/statecraft/civ-state/ph-civ-to-civ-state-bridge.md)
-- [statecraft/civ-state/era-hardening-checklist.md](/C:/dev/strategy-codex/statecraft/civ-state/era-hardening-checklist.md)
-- [statecraft/civ-state/ph-civ-era-overlay-options.md](/C:/dev/strategy-codex/statecraft/civ-state/ph-civ-era-overlay-options.md)
+- [statecraft/states/README.md](/C:/dev/strategy-codex/statecraft/states/README.md)
+- [statecraft/states/power-truth-time-annex.md](/C:/dev/strategy-codex/statecraft/states/power-truth-time-annex.md)
+- [statecraft/states/power-truth-time-retrieval-checklist.md](/C:/dev/strategy-codex/statecraft/states/power-truth-time-retrieval-checklist.md)
+- [statecraft/states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md](/C:/dev/strategy-codex/statecraft/states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md)
+- [statecraft/states/ph-civ-to-civ-state-bridge.md](/C:/dev/strategy-codex/statecraft/states/ph-civ-to-civ-state-bridge.md)
+- [statecraft/states/era-hardening-checklist.md](/C:/dev/strategy-codex/statecraft/states/era-hardening-checklist.md)
+- [statecraft/states/ph-civ-era-overlay-options.md](/C:/dev/strategy-codex/statecraft/states/ph-civ-era-overlay-options.md)
 
 That pass is now durably isolated in commit `5dcaaa52`.
 
@@ -38,7 +38,7 @@ The second slice is also real, but different in kind. Its visible center is:
 - [statecraft/daily/2026-05-29.md](/C:/dev/strategy-codex/statecraft/daily/2026-05-29.md)
 - [statecraft/daily/2026-05-30.md](/C:/dev/strategy-codex/statecraft/daily/2026-05-30.md)
 - [statecraft/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md](/C:/dev/strategy-codex/statecraft/bridges/statecraft-multi-lens-bench-pressure-test-2026-05.md)
-- [statecraft/civ-lens/macgregor/macgregor-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/macgregor/macgregor-support-spine-2025-2026.md)
+- [statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/macgregor/macgregor-support-spine-2025-2026.md)
 
 This is not spillover from the doctrine pass. It is a separate synthesis-and-method ship.
 

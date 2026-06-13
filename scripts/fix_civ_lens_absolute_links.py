@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_ROOT = REPO_ROOT / "statecraft" / "civ-lens"
+DEFAULT_ROOT = REPO_ROOT / "statecraft" / "voices"
 
 ABS_PREFIX = re.compile(
     r"/C:/dev/strategy-codex/(?P<rest>[^\s\)\>\"']+)",
@@ -55,7 +55,7 @@ def main() -> int:
         nargs="*",
         type=Path,
         default=[DEFAULT_ROOT],
-        help="Files or directories to scan (default: statecraft/civ-lens)",
+        help="Files or directories to scan (default: statecraft/voices)",
     )
     ap.add_argument(
         "--apply",

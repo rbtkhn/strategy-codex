@@ -1,6 +1,6 @@
 generated_by: scripts/strategy/build_ritter_refined_pages.py
-compatibility_note: "Codex-side refined pages remain compatibility residue after the canonical Ritter migration; use statecraft/civ-lens/ritter/README.md and the canonical month ladder first."
-canonical_shelf: /C:/dev/strategy-codex/statecraft/civ-lens/ritter/README.md
+compatibility_note: "Codex-side refined pages remain compatibility residue after the canonical Ritter migration; use statecraft/voices/ritter/README.md and the canonical month ladder first."
+canonical_shelf: /C:/dev/strategy-codex/statecraft/voices/ritter/README.md
 primary_capture_count: 24
 backlog:
 - note: Substack *The Consequences of Incompetence* (2026-04-19) — listed in inbox/transcript;

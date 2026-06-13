@@ -15,8 +15,8 @@ This is where durable non-Record judgment lives.
 Live examples:
 
 - [statecraft/daily/2026-05.md](../statecraft/daily/2026-05.md)
-- [statecraft/civ-state/reader-guide.md](../statecraft/civ-state/reader-guide.md)
-- [statecraft/civ-state/indexes/failure-mode-routes.md](../statecraft/civ-state/indexes/failure-mode-routes.md)
+- [statecraft/states/reader-guide.md](../statecraft/states/reader-guide.md)
+- [statecraft/states/indexes/failure-mode-routes.md](../statecraft/states/indexes/failure-mode-routes.md)
 - [singularity/workshop/keystone-helix.md](../singularity/workshop/keystone-helix.md)
 
 What these have in common:
@@ -40,7 +40,7 @@ Live examples:
 - [docs/skill-work/work-strategy/README.md](../docs/skill-work/work-strategy/README.md)
 - [docs/skill-work/work-dev/README.md](../docs/skill-work/work-dev/README.md)
 - [singularity/workshop/sheets/coffee-d-singularity.md](../singularity/workshop/sheets/coffee-d-singularity.md)
-- [statecraft/civ-state/migration/README.md](../statecraft/civ-state/migration/README.md)
+- [statecraft/states/migration/README.md](../statecraft/states/migration/README.md)
 
 What these have in common:
 
@@ -77,14 +77,14 @@ Short feel:
 
 ## Two near-miss comparisons
 
-### `statecraft/civ-state/indexes/`
+### `statecraft/states/indexes/`
 
 This folder *sounds* like `runtime / derived`, but many of its strongest files are actually `governed adjacent`.
 
 Examples:
 
-- [source-retrieval-matrix.md](../statecraft/civ-state/indexes/source-retrieval-matrix.md)
-- [interpretive-difficulty-map.md](../statecraft/civ-state/indexes/interpretive-difficulty-map.md)
+- [source-retrieval-matrix.md](../statecraft/states/indexes/source-retrieval-matrix.md)
+- [interpretive-difficulty-map.md](../statecraft/states/indexes/interpretive-difficulty-map.md)
 
 Why:
 

@@ -10,11 +10,11 @@ One entry point for re-entering month-week 2 of June 2026. Open before the day l
 
 **Governing object (week):** Whether **near-text MOU** and **executive–kinetic dual channel** can coexist without falsifying command — after command fracture and GCC ladder (Jun 9–10).
 
-**Object migration:** ceasefire **label** (Jun 8) → command **fracture** + Apache **pretext** (Jun 9) → GCC **ladder** + talks DEAD (Jun 10) → MOU **theater** × Kharg/strike **oscillation** (Jun 11) → MOU **publish/deny** × Lebanon **point-1 live test** (Jun 12).
+**Object migration:** ceasefire **label** (Jun 8) → command **fracture** + Apache **pretext** (Jun 9) → GCC **ladder** + talks DEAD (Jun 10) → MOU **theater** × Kharg/strike **oscillation** (Jun 11) → MOU **publish/deny** × Lebanon **point-1 live test** × **bridge-skeptic** + **§224 coupling** (Jun 12, 9 captures).
 
 **Convergence (one line):** `trap + threshold + legitimacy` — Pape **trap-confirmed** indicator row; Marandi/Johnson **five demands** gate; Barnes **dual-channel** routing.
 
-**Archive checkpoint:** [source-archive/statecraft/2026-06.md](../../source-archive/statecraft/2026-06.md) — **5** daily syntheses in week2 range (**08–12**); archive counts **15 / 16 / 9 / 19 / 8** (Jun 8–12). Intake sync audit **2026-06-12:** Jun 6–11 **ok**; Jun 12 **ok** (8 archive · 8 daily_cp). First capture in week2 **2026-06-08**. **Month compression:** [2026-06.md](./2026-06.md) (partial through Jun 9 — lags week2 close).
+**Archive checkpoint:** [source-archive/statecraft/2026-06.md](../../source-archive/statecraft/2026-06.md) — **5** daily syntheses in week2 range (**08–12**); archive counts **15 / 16 / 9 / 19 / 9** (Jun 8–12). Intake sync audit **2026-06-12:** Jun 6–11 **ok**; Jun 12 **ok** (9 archive · 9 daily_cp). First capture in week2 **2026-06-08**. **Month compression:** [2026-06.md](./2026-06.md) (partial through Jun 9 — lags week2 close).
 
 **Method:** [METHOD.md § Week Hinge](./METHOD.md#week-hinge-contract)
 
@@ -22,7 +22,7 @@ One entry point for re-entering month-week 2 of June 2026. Open before the day l
 
 ## If you only read four things
 
-1. **[2026-06-12](./2026-06-12.md)** — MOU publish/deny × **Lebanon point-1 live fracture** (dominant close).
+1. **[2026-06-12](./2026-06-12.md)** — MOU publish/deny × **Lebanon point-1 live fracture** × dual Aguilar (DW lever / MR bridge-skeptic + §224) (dominant close).
 2. **[2026-06-11](./2026-06-11.md)** — MOU theater × dual channel + Pape backtest spine.
 3. **[2026-06-09](./2026-06-09.md)** — command fracture + evening CENTCOM/GCC seam.
 4. **[Pape watch sheet — Jun 11 row](./2026-06-08-pape-day-100-indicator-watch-sheet.md)** — trap confirmed + backtest.
@@ -100,7 +100,7 @@ Heavy-week adds:
 
 **Watch sheet:** [Pape Day 100 indicator watch sheet](./2026-06-08-pape-day-100-indicator-watch-sheet.md) — `CUSH-*`, `TRIG-*`, `D-*` rows. **J12-6** is the week-2 **legitimacy** falsifier: MOU text without Lebanon ops halt = **pseudo-gate** (`CUSH-GATE-01` risk).
 
-**Companion compression:** Johnson = text exists · Wilkerson = grammar broken · Aguilar = lever absent — [gate comparison](./2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md). **Marandi × Aguilar FM floor × J12-6:** [bridge](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) — gate **red** on 72h fail.
+**Companion compression:** Johnson = text exists · Wilkerson = grammar broken · DW Aguilar = lever absent · MR Aguilar = A′ gradient — [gate comparison](./2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md). **Marandi × DW FM floor × MR A′ × J12-6:** [bridge](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) — gate **red** on ops; **A′ south-tier** watch open.
 
 ---
 

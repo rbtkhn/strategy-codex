@@ -84,7 +84,7 @@
 |---------|---------------|--------|
 | Public PH artifact | frozen local trees above | `rbtkhn/ph-civ` sole canonical corpus |
 | CIV-MEM bulk reference | `research/repos/civilization_memory/`, CIV-MEM indexes | Versioned submodule or sibling; strategy-codex holds routing + mirrors only |
-| Academy mirrors | `statecraft/civ-lens/jiang/ph-civ`, `scripts/check_academy_mirror_sync.py` | Gitlink discipline; parent repo does not own upstream manuscript |
+| Academy mirrors | `statecraft/voices/jiang/ph-civ`, `scripts/check_academy_mirror_sync.py` | Gitlink discipline; parent repo does not own upstream manuscript |
 | Record portable bundle | `scripts/export_fork.py`, `runtime-bundle/`, `fork-manifest.json` | Default export: Markdown + JSON (+ optional SQLite view); ZIP import **stages only** |
 | Large speaker month corpora | per-speaker shelves under `codex/years/` | Sparse checkout / worktrees for operators who do not need full month depth |
 
@@ -100,7 +100,7 @@ operator source
   → source-archive/statecraft/YYYY-MM.md + day index   [generated]
   → statecraft/synthesis/daily/<YYYY-MM-DD>.md         [governed adjacent]
   → statecraft/<lane>/transactions/<object>.md         [governed adjacent]
-  → statecraft/civ-state/...                           [retrieval / volume]
+  → statecraft/states/...                           [retrieval / volume]
   → (fork revive only) recursion-gate.md → process_approved_candidates.py
 ```
 

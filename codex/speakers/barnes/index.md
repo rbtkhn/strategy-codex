@@ -6,12 +6,12 @@ Purpose: compatibility front door pointing to the canonical Barnes statecraft sh
 
 ## Open First
 
-- [statecraft/civ-lens/barnes/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/README.md)
-- [statecraft/civ-lens/barnes/barnes-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-arc.md)
-- [statecraft/civ-lens/barnes/barnes-routing.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-routing.md)
-- [statecraft/civ-lens/barnes/barnes-source-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-source-index.md)
-- [statecraft/civ-lens/barnes/barnes-helix.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-helix.md)
-- [statecraft/civ-lens/barnes/barnes-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/barnes/barnes-support-spine-2025-2026.md)
+- [statecraft/voices/barnes/README.md](/C:/dev/strategy-codex/statecraft/voices/barnes/README.md)
+- [statecraft/voices/barnes/barnes-arc.md](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-arc.md)
+- [statecraft/voices/barnes/barnes-routing.md](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-routing.md)
+- [statecraft/voices/barnes/barnes-source-index.md](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-source-index.md)
+- [statecraft/voices/barnes/barnes-helix.md](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-helix.md)
+- [statecraft/voices/barnes/barnes-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/barnes/barnes-support-spine-2025-2026.md)
 
 ## Compatibility residue
 

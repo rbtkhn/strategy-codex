@@ -112,4 +112,4 @@ Daily synthesis (implementation trap, **not** AI-specific): [2026-03-16-ritter-i
 - [Jiang on AI](./jiang-on-ai.md) — shared Minab/Palantir references, different frame
 - [Barnes on AI](./barnes-on-ai.md)
 - [Gulf AI architecture](./gulf-ai-architecture.md)
-- [Ritter README](../civ-lens/ritter/README.md)
+- [Ritter README](../voices/ritter/README.md)

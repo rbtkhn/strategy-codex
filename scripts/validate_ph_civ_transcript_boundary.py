@@ -12,7 +12,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-MIRROR_REL = "statecraft/civ-lens/jiang/ph-civ"
+MIRROR_REL = "statecraft/voices/jiang/ph-civ"
 MIRROR_ROOT = REPO_ROOT / MIRROR_REL
 
 ESCAPE_ENV = "PH_CIV_TRANSCRIPT_EDIT"
@@ -27,8 +27,8 @@ ALLOWED_MAINTENANCE_PATHS = frozenset(
         "tests/test_validate_transcript_proper_nouns.py",
         ".pre-commit-config.yaml",
         ".cursor/rules/ph-civ-transcript-immutability.mdc",
-        "statecraft/civ-lens/jiang/jiang-routing.md",
-        "statecraft/civ-lens/jiang/ph-civ/data/asr-blocklist/volume-ii-pilot.json",
+        "statecraft/voices/jiang/jiang-routing.md",
+        "statecraft/voices/jiang/ph-civ/data/asr-blocklist/volume-ii-pilot.json",
     }
 )
 

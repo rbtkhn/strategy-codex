@@ -13,7 +13,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_BLOCKLIST = (
     REPO_ROOT
-    / "statecraft/civ-lens/jiang/ph-civ/data/asr-blocklist/founding-members-pilot.json"
+    / "statecraft/voices/jiang/ph-civ/data/asr-blocklist/founding-members-pilot.json"
 )
 DEFAULT_ROOT = REPO_ROOT / "source-archive/statecraft"
 TRANSCRIPT_MARKERS = ("## Transcript", "## Full transcript", "## Cleaned Transcript")

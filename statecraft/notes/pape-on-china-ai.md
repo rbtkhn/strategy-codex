@@ -92,6 +92,6 @@ Open when the task is:
 - [Gulf AI architecture](./gulf-ai-architecture.md)
 - [Weichert on AI](./weichert-on-ai.md)
 - [Sachs on AI](./sachs-on-ai.md)
-- [Pape README](../civ-lens/pape/README.md)
-- [Pape arc](../civ-lens/pape/pape-arc.md)
+- [Pape README](../voices/pape/README.md)
+- [Pape arc](../voices/pape/pape-arc.md)
 - [China statecraft lane](../china/README.md)

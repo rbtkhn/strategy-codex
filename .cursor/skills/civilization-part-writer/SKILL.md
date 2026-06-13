@@ -2,7 +2,7 @@
 name: civilization-part-writer
 preferred_activation: civilization-part-writer
 description: >-
-  Write or refine Part 1 civilization essays in statecraft/civ-state,
+  Write or refine Part 1 civilization essays in statecraft/states,
   especially `civilization-<civ>.md` chapters. Use when the operator wants the
   legitimacy-bearing opening of a CIV-STATE volume: operator-orienting,
   continuity-backed, high-metaphysical but governed, beauty-and-form aware, and
@@ -159,13 +159,13 @@ This skill succeeds when Part 1 reads like the rightful opening of a CIV-STATE v
 
 ## strategy-codex instance notes
 
-- Canonical volume shelf: [statecraft/civ-state/volumes/README.md](../../../statecraft/civ-state/volumes/README.md)
+- Canonical volume shelf: [statecraft/states/volumes/README.md](../../../statecraft/states/volumes/README.md)
 - Current Part 1 chapter family lives under:
-  - [China civilization](../../../statecraft/civ-state/volumes/civ-state-china/civilization-china.md)
-  - [Persia civilization](../../../statecraft/civ-state/volumes/civ-state-persia/civilization-persia.md)
-  - [Rome civilization](../../../statecraft/civ-state/volumes/civ-state-rome/civilization-rome.md)
-  - [Russia civilization](../../../statecraft/civ-state/volumes/civ-state-russia/civilization-russia.md)
-  - [America civilization](../../../statecraft/civ-state/volumes/civ-state-america/civilization-america.md)
+  - [China civilization](../../../statecraft/states/volumes/civ-state-china/civilization-china.md)
+  - [Persia civilization](../../../statecraft/states/volumes/civ-state-persia/civilization-persia.md)
+  - [Rome civilization](../../../statecraft/states/volumes/civ-state-rome/civilization-rome.md)
+  - [Russia civilization](../../../statecraft/states/volumes/civ-state-russia/civilization-russia.md)
+  - [America civilization](../../../statecraft/states/volumes/civ-state-america/civilization-america.md)
 - Companion skills:
   - [civ-state-volume-architect](../civ-state-volume-architect/SKILL.md)
   - [statecraft-guidebook-writer](../statecraft-guidebook-writer/SKILL.md)

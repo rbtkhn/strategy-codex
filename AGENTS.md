@@ -106,7 +106,7 @@ When asked to find a file, index, corpus, source map, analyst, or speaker:
 
 1. Check [LLM-ROUTING.md](LLM-ROUTING.md).
 2. Check [repo-map.yaml](repo-map.yaml) if present.
-3. If the query involves an analyst, speaker, source corpus, transcript set, or geopolitical commentator, check [statecraft/civ-lens/](statecraft/civ-lens/) and [source-archive/statecraft/](source-archive/statecraft/).
+3. If the query involves an analyst, speaker, source corpus, transcript set, or geopolitical commentator, check [statecraft/voices/](statecraft/voices/) and [source-archive/statecraft/](source-archive/statecraft/).
 4. Do not rely only on GitHub code search.
 5. If `grep`, `rg`, or GitHub code search returns zero results, treat that as a possible search failure, not proof of absence.
 6. Only say "not found" after checking the routing map plus the likely path family.
@@ -114,7 +114,7 @@ When asked to find a file, index, corpus, source map, analyst, or speaker:
 
 **Search commands:** prefer `rg` for interactive local search when available; use portable `grep` (or `rg` with `grep -R` fallback) in committed scripts and CI examples. Full convention: [LLM-ROUTING.md — Search command convention](LLM-ROUTING.md#search-command-convention).
 
-**Find-then-read:** After locating a capture via a civ-lens source-index, apply [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) (corpus tiers + reading layers) before synthesis. PH chapter objects additionally use [statecraft/civ-lens/jiang/ph-civ/docs/source-lattice.md](statecraft/civ-lens/jiang/ph-civ/docs/source-lattice.md). **Source-index** (where) and **source-lattice** (how) are different queries — see LLM-ROUTING.md.
+**Find-then-read:** After locating a capture via a voices source-index, apply [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) (corpus tiers + reading layers) before synthesis. PH chapter objects additionally use [statecraft/voices/jiang/ph-civ/docs/source-lattice.md](statecraft/voices/jiang/ph-civ/docs/source-lattice.md). **Source-index** (where) and **source-lattice** (how) are different queries — see LLM-ROUTING.md.
 
 ### 1. Knowledge Boundary â€” Never Leak LLM Knowledge
 

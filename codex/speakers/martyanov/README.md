@@ -6,7 +6,7 @@ This legacy `codex/speakers/martyanov/` path is now compatibility-only.
 
 The canonical live statecraft shelf is:
 
-- [statecraft/civ-lens/martyanov/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/martyanov/README.md)
+- [statecraft/voices/martyanov/README.md](/C:/dev/strategy-codex/statecraft/voices/martyanov/README.md)
 
 Open that repo-root shelf for current Martyanov routing, provenance entry, and cross-host continuity.
 

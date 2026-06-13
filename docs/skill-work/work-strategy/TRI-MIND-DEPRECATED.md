@@ -11,9 +11,9 @@ WORK only; not Record.
 | Old | Use instead |
 |---|---|
 | **`tri-mind`**, **`tri-frame`**, **`tutti`**, **`abc`** / **`ab+c`** | **[`statecraft-multi-lens`](../../../.cursor/skills/statecraft-multi-lens/SKILL.md)** for preset multi-lens comparison on a live object |
-| One analyst voice | Name the mind or speaker directly (**Mercouris**, **Mearsheimer**, **Barnes**, or any civ-lens shelf) — read `strategy-expert-<id>-mind.md` when in-voice register matters ([`minds-authentic-voice.mdc`](../../../.cursor/rules/minds-authentic-voice.mdc)) |
+| One analyst voice | Name the mind or speaker directly (**Mercouris**, **Mearsheimer**, **Barnes**, or any voices shelf) — read `strategy-expert-<id>-mind.md` when in-voice register matters ([`minds-authentic-voice.mdc`](../../../.cursor/rules/minds-authentic-voice.mdc)) |
 | Strategy notebook pass | **[`skill-strategy`](../../../.cursor/skills/skill-strategy/SKILL.md)** — optional **single** post-entry lens; no default tri-frame |
-| Live statecraft object | **Repo-root [`statecraft/`](../../../statecraft/)** lanes, daily synthesis, civ-lens shelves |
+| Live statecraft object | **Repo-root [`statecraft/`](../../../statecraft/)** lanes, daily synthesis, voices shelves |
 
 ## What is **not** deprecated
 

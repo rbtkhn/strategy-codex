@@ -92,7 +92,7 @@ Cross-link: [pape-on-china-ai.md](./pape-on-china-ai.md) (field tour), [gulf-ai-
 | 2026-06-02 | [Trump fed up / Palantir panopticon](../source-archive/statecraft/2026-06-02/source-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md) | Israel testbed |
 | 2026-05-17–2026-06-08 | Other Nawfal×Weichert May–Jun | War context; lighter AI |
 
-Optional profile: [`codex/profiles/weichert-profile.md`](../../codex/profiles/weichert-profile.md) — **canonical codex entry** (Nawfal Iran-war lane + AI pointers; no `civ-lens/weichert/` shelf).
+Optional profile: [`codex/profiles/weichert-profile.md`](../../codex/profiles/weichert-profile.md) — **canonical codex entry** (Nawfal Iran-war lane + AI pointers; no `voices/weichert/` shelf).
 
 ## Tension with other speakers
 
@@ -115,7 +115,7 @@ Open when the task is:
 ## Return paths
 
 - [China AI implementation watch](./china-ai-implementation-watch.md)
-- [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no civ-lens shelf)
+- [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no voices shelf)
 - [Gulf AI architecture](./gulf-ai-architecture.md)
 - [Ritter on AI](./ritter-on-ai.md)
 - [Jiang on AI](./jiang-on-ai.md)

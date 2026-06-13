@@ -13,8 +13,8 @@ If the route is missing or unpublished, the item is parked instead of inventing 
 
 ## Canonical sources
 
-- Public source list: [`statecraft/civ-lens/civ-lens-jiang/ph-civ/docs/source-video-index.md`](../../../../statecraft/civ-lens/civ-lens-jiang/ph-civ/docs/source-video-index.md)
-- Museum manifest index: [`statecraft/civ-lens/civ-lens-jiang/ph-civ/data/museum/index.json`](../../../../statecraft/civ-lens/civ-lens-jiang/ph-civ/data/museum/index.json)
+- Public source list: [`statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md`](../../../../statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md)
+- Museum manifest index: [`statecraft/voices/civ-lens-jiang/ph-civ/data/museum/index.json`](../../../../statecraft/voices/civ-lens-jiang/ph-civ/data/museum/index.json)
 - Comment doctrine: [`docs/skill-write/predictive-history-youtube-comments.md`](../../../skill-write/predictive-history-youtube-comments.md)
 
 ## Queue and commands

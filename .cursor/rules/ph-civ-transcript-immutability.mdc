@@ -1,17 +1,17 @@
 ---
 description: PH-CIV mirror — lecture transcript bodies are verbatim SSOT; edit commentary/apparatus only unless operator opens a transcript lane
 globs:
-  - statecraft/civ-lens/jiang/ph-civ/**
+  - statecraft/voices/jiang/ph-civ/**
 alwaysApply: false
 ---
 
 # PH-CIV transcript immutability (mirror)
 
-**SSOT:** [`statecraft/civ-lens/jiang/jiang-routing.md`](../../statecraft/civ-lens/jiang/jiang-routing.md) (transcript floor) · public canonical repo `rbtkhn/ph-civ`.
+**SSOT:** [`statecraft/voices/jiang/jiang-routing.md`](../../statecraft/voices/jiang/jiang-routing.md) (transcript floor) · public canonical repo `rbtkhn/ph-civ`.
 
 ## Default (mandatory)
 
-When working under `statecraft/civ-lens/jiang/ph-civ/`:
+When working under `statecraft/voices/jiang/ph-civ/`:
 
 - **Do not edit** `**/*-transcript.md` bodies (including `## Part I: Full transcript` / `## Full transcript` sections).
 - **Do not** “fix typos,” normalize ASR, summarize, or fold synthesis into transcript files.

@@ -1,0 +1,18 @@
+version = 1
+slug = "diesen"
+
+compact_state_files = [
+  "statecraft/voices/diesen/README.md",
+  "statecraft/voices/diesen/diesen-speaker-object.md",
+  "statecraft/voices/diesen/diesen-cross-host-note.md",
+  "statecraft/voices/diesen/diesen-host-wiring-2026.md",
+]
+
+provenance_roots = [
+  "source-archive/statecraft",
+]
+
+[[guest_matrices]]
+file = "statecraft/voices/diesen/diesen-host-wiring-2026.md"
+arc_glob = "statecraft/voices/diesen/stream/diesen-*-speaker-arc.md"
+expected_count = 20

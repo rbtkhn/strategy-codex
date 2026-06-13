@@ -144,11 +144,11 @@ This skill succeeds when the membrane becomes clearer rather than blurrier: the 
 ## strategy-codex instance notes
 
 - Canonical membrane notes:
-  - [PH-CIV to CIV-STATE bridge](../../../statecraft/civ-state/ph-civ-to-civ-state-bridge.md)
-  - [PH-CIV promotion ledger](../../../statecraft/civ-state/ph-civ-promotion-ledger.md)
-  - [CIV-STATE review queue](../../../statecraft/civ-state/review-queue.md)
+  - [PH-CIV to CIV-STATE bridge](../../../statecraft/states/ph-civ-to-civ-state-bridge.md)
+  - [PH-CIV promotion ledger](../../../statecraft/states/ph-civ-promotion-ledger.md)
+  - [CIV-STATE review queue](../../../statecraft/states/review-queue.md)
 - Public local mirror:
-  - [statecraft/civ-lens/jiang/ph-civ/README.md](../../../statecraft/civ-lens/jiang/ph-civ/README.md)
+  - [statecraft/voices/jiang/ph-civ/README.md](../../../statecraft/voices/jiang/ph-civ/README.md)
 - Use this skill before direct CIV-STATE mutation when the conversion rule itself is still doing the hard work.
 
 ## Preferred validation commands after skill edits

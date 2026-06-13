@@ -99,7 +99,7 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [pape-on-china-ai.md](./pape-on-china-ai.md) - Pape field-observation thesis on China industrial AI / Wuhan model (paired with watch)
 - [jiang-on-ai.md](./jiang-on-ai.md) - Jiang GT-24–28 + FM-01 full AI thesis (bubble, Stargate, occult, surveillance; China strand); paired with watch
 - [ritter-on-ai.md](./ritter-on-ai.md) - Ritter kill-chain / LOAC thesis: CHMR removal, Claude–Minab, Palantir–Lugansk (paired with watch)
-- [weichert-on-ai.md](./weichert-on-ai.md) - Weichert surveillance architecture, Minab kill chain, Palantir panopticon, China applied AI (paired with watch); codex entry [weichert-profile.md](../../codex/profiles/weichert-profile.md) → [weichert shelf](../civ-lens/weichert/README.md)
+- [weichert-on-ai.md](./weichert-on-ai.md) - Weichert surveillance architecture, Minab kill chain, Palantir panopticon, China applied AI (paired with watch); codex entry [weichert-profile.md](../../codex/profiles/weichert-profile.md) → [weichert shelf](../voices/weichert/README.md)
 - [sachs-on-ai.md](./sachs-on-ai.md) - Sachs first AI wars, Palantir–Minab moral read, IDF cloud stack, China factory AI (paired with watch)
 - [gulf-ai-architecture.md](./gulf-ai-architecture.md) - mechanism note: Gulf data centers, petrodollar AI bubble, Escobar 2030 plan (Crooke/Escobar)
 - [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) - Minab/Palantir compare: Ritter · Weichert · Sachs · Jiang (linked from watch verify)
@@ -142,7 +142,7 @@ Promotion to `../essays/` happens when the bounded object starts carrying a broa
 
 Speaker-derived note rule:
 
-- if the file still mainly helps the operator enter or navigate a speaker shelf, keep it in `statecraft/civ-lens/`
+- if the file still mainly helps the operator enter or navigate a speaker shelf, keep it in `statecraft/voices/`
 - if it now works as a direct bounded prose destination, its canonical home is `statecraft/notes/`
 
 Pointer law:
@@ -238,5 +238,5 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - Return to [statecraft front door](../README.md) for the domain machine.
 - Return to [statecraft kernel](../statecraft.md) for the full continuity surface.
 - Return to [statecraft essays](../essays/README.md) when the output has become more synthesized and stand-alone.
-- Return to [statecraft civ-lens](../civ-lens/README.md) when the real job is speaker continuity and retrieval rather than bounded prose placement.
+- Return to [statecraft voices](../voices/README.md) when the real job is speaker continuity and retrieval rather than bounded prose placement.
 - Return to [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) when the real question is prose class rather than file location.

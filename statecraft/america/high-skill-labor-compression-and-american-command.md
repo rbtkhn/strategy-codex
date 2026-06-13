@@ -68,4 +68,4 @@ Best partner surfaces:
 - [state/current-executive.md](state/current-executive.md)
 - [state/successor-authority-patterns.md](state/successor-authority-patterns.md)
 - [../compact/high-skill-labor-compression-and-sovereign-judgment.md](../compact/high-skill-labor-compression-and-sovereign-judgment.md)
-- [../civ-state/high-skill-labor-compression-and-civilizational-statecraft.md](../civ-state/high-skill-labor-compression-and-civilizational-statecraft.md)
+- [../states/high-skill-labor-compression-and-civilizational-statecraft.md](../states/high-skill-labor-compression-and-civilizational-statecraft.md)

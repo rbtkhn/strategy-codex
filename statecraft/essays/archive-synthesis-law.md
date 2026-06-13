@@ -32,7 +32,7 @@ Its current underlying path remains [`source-archive/statecraft/`](/C:/dev/strat
 
 The first coherent interpretive layer above the archive: speaker continuity, routing, crossing, support, and bounded synthesis surfaces that assemble archive truth into usable statecraft objects without replacing it.
 
-Its primary home is [`statecraft/civ-lens/`](/C:/dev/strategy-codex/statecraft/civ-lens/README.md).
+Its primary home is [`statecraft/voices/`](/C:/dev/strategy-codex/statecraft/voices/README.md).
 
 ## Boundary Law
 
@@ -90,6 +90,6 @@ This is the constitutional guard against polished routing that has lost contact 
 ## Companion Surfaces
 
 - repo-root front door: [statecraft/README.md](/C:/dev/strategy-codex/statecraft/README.md)
-- synthesis home: [statecraft/civ-lens/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/README.md)
+- synthesis home: [statecraft/voices/README.md](/C:/dev/strategy-codex/statecraft/voices/README.md)
 - bridge layer: [statecraft/bridges/README.md](/C:/dev/strategy-codex/statecraft/bridges/README.md)
-- retrieval memory: [statecraft/civ-state/README.md](/C:/dev/strategy-codex/statecraft/civ-state/README.md)
+- retrieval memory: [statecraft/states/README.md](/C:/dev/strategy-codex/statecraft/states/README.md)

@@ -64,11 +64,11 @@ Most useful supports:
 
 - [Iran state memory](../persia/civilization/objects/state-memory.md)
 - [Iran peace](../persia/civilization/peace.md)
-- [Hormuz recognition / transit restraint](../civ-state/persia/hormuz-recognition-transit-restraint.md)
-- [Treaty form vs transactional settlement](../civ-state/indexes/crooke/treaty-form-vs-transactional-settlement.md)
-- [Settlement precedent and broken agreement](../civ-state/indexes/freeman/settlement-precedent-and-broken-agreement.md)
-- [Settlement-room architecture](../civ-state/migration/canonical-family-settlement-room-architecture.md)
-- [Escalation governance](../civ-state/migration/canonical-family-escalation-governance.md)
+- [Hormuz recognition / transit restraint](../states/persia/hormuz-recognition-transit-restraint.md)
+- [Treaty form vs transactional settlement](../states/indexes/crooke/treaty-form-vs-transactional-settlement.md)
+- [Settlement precedent and broken agreement](../states/indexes/freeman/settlement-precedent-and-broken-agreement.md)
+- [Settlement-room architecture](../states/migration/canonical-family-settlement-room-architecture.md)
+- [Escalation governance](../states/migration/canonical-family-escalation-governance.md)
 
 These notes do not generate the tri-lens by themselves, but they do help refine the surviving insights into tighter doctrinal form:
 
@@ -113,8 +113,8 @@ It is the stronger claim that the trap itself changes the institutional shape of
 
 - [Iran peace](../persia/civilization/peace.md) says peace must become ordinary governance rather than exceptional diplomacy
 - [Iran state memory](../persia/civilization/objects/state-memory.md) says a bargain must survive supreme, elected, diplomatic, parliamentary, and security carriers
-- [Treaty form vs transactional settlement](../civ-state/indexes/crooke/treaty-form-vs-transactional-settlement.md) says brokerage is weaker than recognizable state form
-- [Settlement precedent and broken agreement](../civ-state/indexes/freeman/settlement-precedent-and-broken-agreement.md) says later inheritance and implementation burden are load-bearing
+- [Treaty form vs transactional settlement](../states/indexes/crooke/treaty-form-vs-transactional-settlement.md) says brokerage is weaker than recognizable state form
+- [Settlement precedent and broken agreement](../states/indexes/freeman/settlement-precedent-and-broken-agreement.md) says later inheritance and implementation burden are load-bearing
 
 Sharpened rule:
 
@@ -156,10 +156,10 @@ The later settlement is not starting from nothing. It is being rehearsed, in com
 
 `civ-state` refinement:
 
-- [Hormuz recognition / transit restraint](../civ-state/persia/hormuz-recognition-transit-restraint.md) already gives the key pattern:
+- [Hormuz recognition / transit restraint](../states/persia/hormuz-recognition-transit-restraint.md) already gives the key pattern:
   `geography creates leverage -> dignity requires recognition -> restraint must be reciprocal -> overuse degrades sovereignty`
 - [Iran peace](../persia/civilization/peace.md) clarifies that Hormuz restraint must read as sovereign regulation rather than surrender
-- [Settlement-room architecture](../civ-state/migration/canonical-family-settlement-room-architecture.md) clarifies that route inhabitation and political settlement are one room, not two unrelated layers
+- [Settlement-room architecture](../states/migration/canonical-family-settlement-room-architecture.md) clarifies that route inhabitation and political settlement are one room, not two unrelated layers
 
 Sharpened rule:
 
@@ -201,7 +201,7 @@ It says the architecture's scope is not a later optional add-on. It is being set
 `civ-state` refinement:
 
 - [Iran peace](../persia/civilization/peace.md) names the room-geometry problem directly: inclusion must materially change sanctions relief, verification dignity, route access, and Hormuz restraint
-- [Settlement-room architecture](../civ-state/migration/canonical-family-settlement-room-architecture.md) says peace fails when order ownership and room inhabitation split apart
+- [Settlement-room architecture](../states/migration/canonical-family-settlement-room-architecture.md) says peace fails when order ownership and room inhabitation split apart
 - [Iran state memory](../persia/civilization/objects/state-memory.md) says regional architecture that bypasses Iran while asking it for calm is one of the load-bearing continuity burdens
 
 Sharpened rule:
@@ -248,9 +248,9 @@ This is one reason late-stage technical chatter is so easy to misread. Public ag
 
 `civ-state` refinement:
 
-- [Escalation governance](../civ-state/migration/canonical-family-escalation-governance.md) says crises become ungovernable when stop conditions and contact conditions no longer belong to the same design
-- [Settlement precedent and broken agreement](../civ-state/indexes/freeman/settlement-precedent-and-broken-agreement.md) says ceasefire optics and settlement architecture must not be confused
-- [Treaty form vs transactional settlement](../civ-state/indexes/crooke/treaty-form-vs-transactional-settlement.md) says verbal or brokered assurance without legal carrier creates successor distrust
+- [Escalation governance](../states/migration/canonical-family-escalation-governance.md) says crises become ungovernable when stop conditions and contact conditions no longer belong to the same design
+- [Settlement precedent and broken agreement](../states/indexes/freeman/settlement-precedent-and-broken-agreement.md) says ceasefire optics and settlement architecture must not be confused
+- [Treaty form vs transactional settlement](../states/indexes/crooke/treaty-form-vs-transactional-settlement.md) says verbal or brokered assurance without legal carrier creates successor distrust
 - [Iran peace](../persia/civilization/peace.md) says later carriers need observable gains, bounded review, and routable recognition rather than negotiation prestige alone
 
 Sharpened rule:

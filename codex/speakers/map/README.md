@@ -10,7 +10,7 @@ For the storage-side SSOT and the canonical raw-input-side version of the wiring
 
 This README is the governing speaker-routing doctrine. Speaker folders, year indexes, and lattice surfaces should implement this contract rather than restate it.
 
-For the compact speaker-shelf naming table that this routing doctrine assumes, see [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/civ-lens/speaker-shelf-vocabulary.md).
+For the compact speaker-shelf naming table that this routing doctrine assumes, see [Speaker-Shelf Vocabulary](/C:/dev/strategy-codex/statecraft/voices/speaker-shelf-vocabulary.md).
 
 ## Layer Contract
 

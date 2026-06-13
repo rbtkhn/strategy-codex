@@ -16,9 +16,9 @@ This note is the **cross-speaker chronology and falsifier surface**. Speaker-spe
 | **Speaker** | six `*-on-ai.md` notes | Bounded thesis depth per voice — **canonical prose** for that speaker's AI frame |
 | **Mechanism** | [gulf-ai-architecture.md](./gulf-ai-architecture.md) | Crooke/Escobar Gulf–petrodollar–China nexus (not a seventh speaker) |
 | **Compare** | [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) | Minab/Palantir four-voice routing (Ritter · Weichert · Sachs · Jiang) |
-| **Codex entry** | [weichert-profile.md](../../codex/profiles/weichert-profile.md) | Weichert Iran-war + AI routing only — **no** `civ-lens/weichert/` shelf |
+| **Codex entry** | [weichert-profile.md](../../codex/profiles/weichert-profile.md) | Weichert Iran-war + AI routing only — **no** `voices/weichert/` shelf |
 
-**Pointer law:** bounded notes link **back** to this watch; this watch **does not** mirror note bodies. Minab/Palantir vendor forks defer to [verify receipts](#verify-receipts-2026-06-10). Shelf front doors: [Pape](../civ-lens/pape/README.md) · [Jiang](../civ-lens/jiang/README.md) · [Ritter](../civ-lens/ritter/README.md) · [Sachs](../civ-lens/sachs/README.md) · [Barnes](../civ-lens/barnes/README.md) · Weichert → profile above.
+**Pointer law:** bounded notes link **back** to this watch; this watch **does not** mirror note bodies. Minab/Palantir vendor forks defer to [verify receipts](#verify-receipts-2026-06-10). Shelf front doors: [Pape](../voices/pape/README.md) · [Jiang](../voices/jiang/README.md) · [Ritter](../voices/ritter/README.md) · [Sachs](../voices/sachs/README.md) · [Barnes](../voices/barnes/README.md) · Weichert → profile above.
 
 ## What we are tracking (four lanes)
 
@@ -40,9 +40,9 @@ Lanes **overlap**; do not collapse them in the log — tag each capture by domin
 | **Escobar** | B | Implementation (2030 jobs / 70% link) | [gulf-ai-architecture.md](./gulf-ai-architecture.md) (Escobar strand) |
 | **Crooke** | B | Productive AI vs West; Gulf AI architecture | [gulf-ai-architecture.md](./gulf-ai-architecture.md) |
 | **Sachs** | B | China open-source; IDF cloud stack; first AI wars | [sachs-on-ai.md](./sachs-on-ai.md) |
-| **Barnes** | C (US-heavy) | Bubble, liability, energy | [barnes-on-ai.md](./barnes-on-ai.md) · [Barnes README](../civ-lens/barnes/README.md) |
+| **Barnes** | C (US-heavy) | Bubble, liability, energy | [barnes-on-ai.md](./barnes-on-ai.md) · [Barnes README](../voices/barnes/README.md) |
 | **Weichert** | A (US war stack) | Surveillance architecture, kill chain, China applied | [weichert-on-ai.md](./weichert-on-ai.md) · profile: [weichert-profile.md](../../codex/profiles/weichert-profile.md) |
-| **Ritter** | A (US war stack) | LOAC, CHMR, targeteer vs AI | [ritter-on-ai.md](./ritter-on-ai.md) · [Ritter README](../civ-lens/ritter/README.md) |
+| **Ritter** | A (US war stack) | LOAC, CHMR, targeteer vs AI | [ritter-on-ai.md](./ritter-on-ai.md) · [Ritter README](../voices/ritter/README.md) |
 
 ## Stable baseline claims (verify before quotation-grade)
 
@@ -140,7 +140,7 @@ Open this note when the task is:
 - [Sachs on AI](./sachs-on-ai.md)
 - [Gulf AI architecture](./gulf-ai-architecture.md)
 - [Minab / Palantir four-voice compare](./minab-palantir-four-voice-compare.md)
-- [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no civ-lens shelf)
+- [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no voices shelf)
 - [China statecraft lane](../china/README.md)
-- [Pape arc](../civ-lens/pape/pape-arc.md)
-- [Jiang ph-civ shelf](../civ-lens/jiang/ph-civ/README.md)
+- [Pape arc](../voices/pape/pape-arc.md)
+- [Jiang ph-civ shelf](../voices/jiang/ph-civ/README.md)

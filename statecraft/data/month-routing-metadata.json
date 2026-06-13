@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T22:36:13+00:00",
+  "generated_at": "2026-06-13T10:17:23+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -606,10 +606,10 @@
     },
     "2026-04": {
       "captured_days": 30,
-      "source_count": 199,
-      "thread_count": 31,
-      "channel_or_show_count": 25,
-      "host_count": 22,
+      "source_count": 201,
+      "thread_count": 32,
+      "channel_or_show_count": 26,
+      "host_count": 24,
       "guest_count": 40,
       "guest_label_variants": [
         {
@@ -783,11 +783,11 @@
       "needs_label_normalization": true
     },
     "2026-06": {
-      "captured_days": 11,
-      "source_count": 135,
-      "thread_count": 39,
-      "channel_or_show_count": 19,
-      "host_count": 18,
+      "captured_days": 12,
+      "source_count": 144,
+      "thread_count": 40,
+      "channel_or_show_count": 20,
+      "host_count": 19,
       "guest_count": 28,
       "guest_label_variants": [
         {
@@ -795,7 +795,7 @@
           "labels": [
             {
               "label": "Charles Freeman",
-              "count": 2
+              "count": 3
             },
             {
               "label": "Chas Freeman",

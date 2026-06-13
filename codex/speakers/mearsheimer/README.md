@@ -66,7 +66,7 @@ The older [mearsheimer-thread.md](/C:/dev/strategy-codex/codex/speakers/mearshei
 
 Do not treat `mearsheimer-thread.md` as competing with the helix or the host-local arc structure. The orthogonality-bearing structure lives in the double helix plus the distinct host transformations it compares.
 
-This is why Mearsheimer is not currently being migrated by symmetry alone into `statecraft/civ-lens/`: the shelf law now recognizes a real `host-led mature-month exception` class, and Mearsheimer is the main deliberate case.
+This is why Mearsheimer is not currently being migrated by symmetry alone into `statecraft/voices/`: the shelf law now recognizes a real `host-led mature-month exception` class, and Mearsheimer is the main deliberate case.
 
 ## Host lanes
 

@@ -269,7 +269,7 @@ Upstream from statecraft back into `civ-state`, only as reviewable candidates:
 
 Transport rule:
 
-- use [civ-state/review-queue.md](civ-state/review-queue.md)
+- use [civ-state/review-queue.md](states/review-queue.md)
 - do not silently patch both layers from one live drafting pass
 
 ## Speaker-Arc Input Protocol
@@ -288,9 +288,9 @@ Recognized classes include:
 - bridge adapter
 - speaker-state intake mapping
 
-When a speaker-conditioned crisis sequence or thread needs bounded continuity before lane descent, statecraft-governed speaker month pages, thread atlases, routing notes, and other speaker-state continuity surfaces belong in the live [statecraft/civ-lens/](speakers/README.md) tree rather than outside statecraft by default.
+When a speaker-conditioned crisis sequence or thread needs bounded continuity before lane descent, statecraft-governed speaker month pages, thread atlases, routing notes, and other speaker-state continuity surfaces belong in the live [statecraft/voices/](speakers/README.md) tree rather than outside statecraft by default.
 
-The migration target is the whole live speaker corpus. `codex/speakers/` is compatibility/archive during cutover, not a second canonical authority once a speaker has migrated into repo-root `statecraft/civ-lens/`.
+The migration target is the whole live speaker corpus. `codex/speakers/` is compatibility/archive during cutover, not a second canonical authority once a speaker has migrated into repo-root `statecraft/voices/`.
 
 Speaker arcs may feed:
 
@@ -366,7 +366,7 @@ That use-pattern is now part of the machine's real operating truth, even when a 
 - [notes/README.md](notes/README.md) owns the bounded statecraft prose shelf.
 - [essays/README.md](essays/README.md) owns the stand-alone statecraft prose shelf.
 - [../docs/prose-index.md](../docs/prose-index.md) owns cross-domain prose-class routing.
-- [civ-state/review-queue.md](civ-state/review-queue.md) owns the upstream source-candidate staging surface.
+- [civ-state/review-queue.md](states/review-queue.md) owns the upstream source-candidate staging surface.
 
 ## Compatibility
 

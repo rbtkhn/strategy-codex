@@ -11,7 +11,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_MIRROR = "statecraft/civ-lens/jiang/ph-civ"
+DEFAULT_MIRROR = "statecraft/voices/jiang/ph-civ"
 
 
 def run_git(args: list[str], cwd: Path) -> tuple[int, str, str]:

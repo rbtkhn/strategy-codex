@@ -6,7 +6,7 @@ This legacy `codex/speakers/sachs/` path is now compatibility-only.
 
 The canonical live statecraft shelf is:
 
-- [statecraft/civ-lens/sachs/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/sachs/README.md)
+- [statecraft/voices/sachs/README.md](/C:/dev/strategy-codex/statecraft/voices/sachs/README.md)
 
 Open that repo-root shelf for current Sachs routing, provenance entry, and cross-host continuity.
 

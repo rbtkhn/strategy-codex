@@ -42,11 +42,11 @@ What changes from turn to turn is the live recommendation and the explanation fo
 
 Use only these surfaces to compute the recommendation:
 
-1. `statecraft/civ-lens/`
+1. `statecraft/voices/`
 2. `statecraft/bridges/`
-3. `statecraft/civ-state/ph-civ-to-civ-state-bridge.md`
-4. `statecraft/civ-state/ph-civ-promotion-ledger.md`
-5. `statecraft/civ-state/review-queue.md`
+3. `statecraft/states/ph-civ-to-civ-state-bridge.md`
+4. `statecraft/states/ph-civ-promotion-ledger.md`
+5. `statecraft/states/review-queue.md`
 6. the current CIV-STATE volume shelf or chapter-family surfaces when retrieval genuinely requires them
 
 Do not use:
@@ -76,7 +76,7 @@ Use when the object is still interpretively unstable.
 Route toward:
 
 - `statecraft-framework`
-- `statecraft/civ-state/civilization-empire-faith-science-memory-desire.md`
+- `statecraft/states/civilization-empire-faith-science-memory-desire.md`
 - the retrieval checklist when pair diagnosis is the real bottleneck
 
 This is for governing-pair diagnosis and CIV-STATE interpretive orientation, not volume writing.

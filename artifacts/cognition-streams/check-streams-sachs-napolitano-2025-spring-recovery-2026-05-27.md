@@ -67,7 +67,7 @@ Local:
 - `.codex-tmp/check-streams-2025-05-09/freedom-flat/CHANNEL-VIDEO-INDEX.md`
 - `.codex-tmp/check-streams-2025-03-08/freedom-flat/index.json`
 - `.codex-tmp/check-streams-2025-05-09/freedom-flat/index.json`
-- `statecraft/civ-lens/civ-lens-sachs/sachs-raw-input-index.md`
+- `statecraft/voices/civ-lens-sachs/sachs-raw-input-index.md`
 
 Web:
 

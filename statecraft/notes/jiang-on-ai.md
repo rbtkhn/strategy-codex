@@ -139,7 +139,7 @@ Open when the task is:
 - [Weichert on AI](./weichert-on-ai.md)
 - [Sachs on AI](./sachs-on-ai.md)
 - [Pape on China AI](./pape-on-china-ai.md)
-- [Jiang README](../civ-lens/jiang/README.md)
-- [Jiang arc](../civ-lens/jiang/jiang-arc.md)
+- [Jiang README](../voices/jiang/README.md)
+- [Jiang arc](../voices/jiang/jiang-arc.md)
 
 Legacy filename (redirect): [jiang-on-china-ai.md](./jiang-on-china-ai.md)

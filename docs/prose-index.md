@@ -29,7 +29,7 @@ Fast distinction:
 
 Speaker-shelf carveout:
 
-- `statecraft/civ-lens/` is a continuity-and-retrieval layer, not a general prose shelf
+- `statecraft/voices/` is a continuity-and-retrieval layer, not a general prose shelf
 - speaker-derived bounded prose should route to `notes/` once it becomes reusable beyond shelf support
 - speaker-derived thesis-bearing prose should route to `essays/`
 

@@ -2,7 +2,7 @@
 name: empire-part-writer
 preferred_activation: empire-part-writer
 description: >-
-  Write or refine Part 2 empire essays in statecraft/civ-state, especially
+  Write or refine Part 2 empire essays in statecraft/states, especially
   `empire-<civ>.md` chapters. Use when the operator wants the outward-instrument
   chapter of a CIV-STATE volume: machinery-first, severe-strategic, centered on
   projection stack, coercion within broader carriage, tragic necessity, and a
@@ -164,13 +164,13 @@ This skill succeeds when Part 2 reads like the necessary hard middle of a CIV-ST
 
 ## strategy-codex instance notes
 
-- Canonical volume shelf: [statecraft/civ-state/volumes/README.md](../../../statecraft/civ-state/volumes/README.md)
+- Canonical volume shelf: [statecraft/states/volumes/README.md](../../../statecraft/states/volumes/README.md)
 - Current Part 2 chapter family lives under:
-  - [China empire](../../../statecraft/civ-state/volumes/civ-state-china/empire-china.md)
-  - [Persia empire](../../../statecraft/civ-state/volumes/civ-state-persia/empire-persia.md)
-  - [Rome empire](../../../statecraft/civ-state/volumes/civ-state-rome/empire-rome.md)
-  - [Russia empire](../../../statecraft/civ-state/volumes/civ-state-russia/empire-russia.md)
-  - [America empire](../../../statecraft/civ-state/volumes/civ-state-america/empire-america.md)
+  - [China empire](../../../statecraft/states/volumes/civ-state-china/empire-china.md)
+  - [Persia empire](../../../statecraft/states/volumes/civ-state-persia/empire-persia.md)
+  - [Rome empire](../../../statecraft/states/volumes/civ-state-rome/empire-rome.md)
+  - [Russia empire](../../../statecraft/states/volumes/civ-state-russia/empire-russia.md)
+  - [America empire](../../../statecraft/states/volumes/civ-state-america/empire-america.md)
 - Companion skills:
   - [civ-state-volume-architect](../civ-state-volume-architect/SKILL.md)
   - [civilization-part-writer](../civilization-part-writer/SKILL.md)

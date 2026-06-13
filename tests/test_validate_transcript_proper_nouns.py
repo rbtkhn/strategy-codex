@@ -14,7 +14,7 @@ from validate_transcript_proper_nouns import (  # noqa: E402
 
 BLOCKLIST = (
     REPO_ROOT
-    / "statecraft/civ-lens/jiang/ph-civ/data/asr-blocklist/volume-ii-pilot.json"
+    / "statecraft/voices/jiang/ph-civ/data/asr-blocklist/volume-ii-pilot.json"
 )
 
 

@@ -184,7 +184,7 @@ Avoid these:
 - repo-root front door: [statecraft/README.md](../../../statecraft/README.md)
 - source-truth layer: [source-archive/README.md](../../../source-archive/README.md)
 - continuity layer: [codex/README.md](../../../codex/README.md)
-- speaker synthesis home: [statecraft/civ-lens/README.md](../../../statecraft/civ-lens/README.md)
+- speaker synthesis home: [statecraft/voices/README.md](../../../statecraft/voices/README.md)
 - host-law layer: [statecraft/hosts/README.md](../../../statecraft/hosts/README.md)
 - lane front doors:
   - [America](../../../statecraft/america/README.md)

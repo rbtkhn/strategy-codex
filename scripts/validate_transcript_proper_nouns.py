@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-MIRROR_REL = "statecraft/civ-lens/jiang/ph-civ"
+MIRROR_REL = "statecraft/voices/jiang/ph-civ"
 MIRROR_ROOT = REPO_ROOT / MIRROR_REL
 DEFAULT_BLOCKLIST = (
     MIRROR_ROOT / "data/asr-blocklist/volume-ii-pilot.json"
@@ -124,7 +124,7 @@ def format_report(hits: list[Hit], blocklist_path: Path) -> str:
             "Regenerate blocklist after pilot edits:",
             "  python scripts/generate_ph_civ_asr_blocklist.py",
             "Re-run normalization:",
-            "  python statecraft/civ-lens/jiang/ph-civ/scripts/_pilot_asr_normalize_civ01_civ07.py",
+            "  python statecraft/voices/jiang/ph-civ/scripts/_pilot_asr_normalize_civ01_civ07.py",
         ]
     )
     return "\n".join(lines)

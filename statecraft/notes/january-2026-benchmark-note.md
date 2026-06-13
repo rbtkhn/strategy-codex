@@ -51,13 +51,13 @@ Use these existing surfaces as the benchmark spine:
 - [wilkerson-january-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-january-2026-note.md)
   Keeps one bounded truth straight: January is a thin opening month for Wilkerson specifically, not a broken month overall.
 
-- [freeman-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/civ-lens/freeman/stream/freeman-shelf-2026-01.md)
+- [freeman-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/freeman/stream/freeman-shelf-2026-01.md)
   Preserves January as a bounded entry shelf before the mature spring Freeman core thickens.
 
-- [ritter-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/civ-lens/ritter/stream/ritter-shelf-2026-01.md)
+- [ritter-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/ritter/stream/ritter-shelf-2026-01.md)
   Shows January as the year's opening membrane, joining authored warning continuity to reopening interview lanes.
 
-- [crooke-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/civ-lens/crooke/stream/crooke-shelf-2026-01.md)
+- [crooke-shelf-2026-01.md](/C:/dev/strategy-codex/statecraft/voices/crooke/stream/crooke-shelf-2026-01.md)
   Preserves January as an authored-leaning setup shelf before the later interview core becomes mature.
 
 ## What January Is Good For

@@ -33,21 +33,32 @@ For the canonical source/synthesis stack, open [Statecraft Archive and Statecraf
 
 **Promotion ladder + phased refactor:** [strategy-codex-redesign-brief.md](../docs/strategy-codex-redesign-brief.md) (archive → daily synthesis → transactions → optional gate).
 
-`civ-lens` exists so live speaker continuity can stay statecraft-native: canon now lives under `statecraft/<speaker>/`, while `speakers/` remains redirect-only compatibility residue rather than a second authority tree.
+`voices` and `states` name the live statecraft stack: analyst continuity under `statecraft/voices/<speaker>/`, civilization pattern memory under `statecraft/states/`, while `speakers/` remains redirect-only compatibility residue.
 
-## Namespace Note
+## Namespace map
+
+| Operator term | Path | Legacy tokens still valid |
+|---|---|---|
+| **voices** | `statecraft/voices/` | Statecraft Synthesis; `*-profile.md`; was `civ-lens` |
+| **states** | `statecraft/states/` | CIV-STATE concept; `civ-state-america/` volumes; was `civ-state` path |
+| **hosts** | `statecraft/hosts/` | host-conditioned guests (not in `voices/`) |
+
+## Namespace Note (2026-06)
 
 What changed:
-- live speaker synthesis moved from `statecraft/speakers/` to `statecraft/civ-lens/`
-- canonical migrated shelf paths now read `statecraft/<speaker>/`
+- synthesis folder **`civ-lens`** → **`statecraft/voices/`** (Statecraft Synthesis)
+- substrate folder **`civ-state`** → **`statecraft/states/`** (source-memory substrate)
+- canonical migrated shelf paths: `statecraft/voices/<speaker>/`
 
 Why it matters:
-- statecraft speaker continuity now reads as its own live layer rather than as a leftover generic speakers folder
-- the `civ-lens` name makes the split clearer: `civ-lens` holds whole-speaker continuity, while `hosts` holds host-conditioned guest transformation
+- **voices** = whole-analyst continuity (any medium: interview, essay, social)
+- **hosts** = host-conditioned guest transformation
+- **states** = upstream CIV-STATE retrieval memory (not `state-*` lane skills)
 
 What not to worry about:
-- `statecraft/speakers/` still exists as a redirect-only compatibility stub for old links
-- benchmark residue under excluded artifact paths is intentional and does not mean the live migration is incomplete
+- `statecraft/speakers/` is the **only** allowed redirect stub → `voices/`
+- inner volume folders still use `civ-state-america/` naming
+- benchmark residue under `artifacts/benchmarks/` may still cite old paths
 
 ## Constitutional Linkage
 
@@ -101,7 +112,7 @@ That means the first honest lane menu should ask which transcript-bearing intake
 
 `statecraft civ-state` is the exact named fast path for the upstream CIV-STATE bench. Use it when the question is not yet lane ownership or drafting, but rather CIV-STATE frame judgment, retrieval, membrane promotion, or review. It is distinct from `state-deploy`, distinct from [compact](compact/README.md), and distinct from lane-direct statecraft work.
 
-Speaker-state continuity that belongs to live statecraft now opens from [statecraft/civ-lens/](civ-lens/README.md), not from an external speaker shelf by default. The target is whole-corpus statecraft-native speaker continuity, with `codex/speakers/` retained only as compatibility/archive during migration.
+Speaker-state continuity that belongs to live statecraft now opens from [statecraft/voices/](voices/README.md), not from an external speaker shelf by default.
 
 Host-native continuity that belongs to live statecraft now opens from [statecraft/hosts/](hosts/README.md), not from retired `codex/speakers/<host>/...` paths.
 
@@ -114,7 +125,7 @@ Use:
 - [Sovereignty Under Acceleration](../singularity/workshop/sheets/sovereignty-under-acceleration.md)
 - [High-Skill Labor Compression and Sovereign Judgment](compact/high-skill-labor-compression-and-sovereign-judgment.md)
 - [High-Skill Labor Compression and American Command](america/high-skill-labor-compression-and-american-command.md)
-- [High-Skill Labor Compression and Civilizational Statecraft](civ-state/high-skill-labor-compression-and-civilizational-statecraft.md)
+- [High-Skill Labor Compression and Civilizational Statecraft](states/high-skill-labor-compression-and-civilizational-statecraft.md)
 
 The active higher-order interpretive frame for this stack is now:
 
@@ -174,7 +185,7 @@ This is a retrieval aid, not a mandatory first-router. Use it when order collaps
 - `Industrial` = mass-state and industrial command
 - `Cybernetic` = post-1991 network, sanctions, platform, deterrence, and system-administration age
 
-Canonical doctrine lives in [Civilization, Empire, Faith, Science, Memory, Desire](civ-state/civilization-empire-faith-science-memory-desire.md) and the bounded operator pass lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civ-state/civilization-empire-faith-science-memory-desire-retrieval-checklist.md).
+Canonical doctrine lives in [Civilization, Empire, Faith, Science, Memory, Desire](states/civilization-empire-faith-science-memory-desire.md) and the bounded operator pass lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md).
 
 Read the stack in this order:
 

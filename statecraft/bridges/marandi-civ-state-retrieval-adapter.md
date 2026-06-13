@@ -10,9 +10,9 @@ This adapter is part of the [Persia recognition-vs-settlement bridge](persia-rec
 
 ## Source Support Block
 
-- `primary_anchor`: [Persia cybernetic primary sources](../civ-state/volumes/civ-state-persia/civ-state-persia-primary-sources-cybernetic.md)
+- `primary_anchor`: [Persia cybernetic primary sources](../states/volumes/civ-state-persia/civ-state-persia-primary-sources-cybernetic.md)
 - `secondary_support_role`: `institutional_context`, `counterweight`, `misreading_correction`
-- `secondary_support_work`: [Persia cybernetic secondary sources](../civ-state/volumes/civ-state-persia/civ-state-persia-secondary-sources-cybernetic.md)
+- `secondary_support_work`: [Persia cybernetic secondary sources](../states/volumes/civ-state-persia/civ-state-persia-secondary-sources-cybernetic.md)
 - `counterweight_used`: recognition leakage must be separated from durable settlement and restoration language must be checked against overuse-of-leverage failure
 - `failure_mode_checked`: sovereignty and endurance narration becoming symbolic overclaim without governable settlement room
 - `current_carrier_relation`: present Iranian recognition claims are borne through state institutions, red-line language, maritime leverage, and current bargaining channels rather than through civilizational memory alone
@@ -57,7 +57,7 @@ After the first `civ-state` object, open:
 - [Iran state memory](../persia/civilization/objects/state-memory.md)
 - [Iran geo](../persia/civilization/geo.md)
 - [Iran peace](../persia/civilization/peace.md)
-- [Hormuz Recognition / Transit Restraint](../civ-state/persia/hormuz-recognition-transit-restraint.md)
+- [Hormuz Recognition / Transit Restraint](../states/persia/hormuz-recognition-transit-restraint.md)
 
 Speaker-side return path when needed:
 

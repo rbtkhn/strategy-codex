@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://strategy-codex.local/statecraft/states/schemas/sidecar-manifest.schema.json",
+  "title": "CIV-STATE Sidecar Manifest",
+  "type": "object",
+  "required": [
+    "source_id",
+    "stored_representation",
+    "text_path",
+    "witness_locator",
+    "rights_class",
+    "validation_status"
+  ],
+  "properties": {
+    "source_id": { "type": "string" },
+    "stored_representation": {
+      "type": "string",
+      "enum": ["canonical_witness", "working_translation", "operator_transcription"]
+    },
+    "text_path": { "type": "string" },
+    "witness_locator": { "type": "string" },
+    "rights_class": {
+      "type": "string",
+      "enum": ["public_domain", "official_government_text", "operator_authored_transcription", "modern_translation_restricted", "unclear"]
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": ["unvalidated", "spot_checked", "verified"]
+    },
+    "notes": { "type": "string" }
+  }
+}

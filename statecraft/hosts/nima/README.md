@@ -35,4 +35,4 @@ Use this repo-root shelf for live host-law and profile SSOT; descend into codex 
 
 ## Boundary
 
-This shelf owns Dialogue Works host-law and live guest-lane classification. It does not replace source authority (`source-archive/statecraft/` / legacy provenance benches) or whole-speaker civ-lens shelves.
+This shelf owns Dialogue Works host-law and live guest-lane classification. It does not replace source authority (`source-archive/statecraft/` / legacy provenance benches) or whole-speaker voices shelves.

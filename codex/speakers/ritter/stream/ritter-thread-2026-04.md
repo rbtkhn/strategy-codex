@@ -11,7 +11,7 @@ Quick separation rule:
 
 If a question is about authored forecast structure, host transformation, or canonical routing, route to those Ritter surfaces instead of treating this month chapter as its own strand.
 
-Compatibility note: any unresolved watch placeholders that remain below in the machine layer are carryover residue, not canonical citations. Use the canonical April 2026 month shelf at [statecraft/civ-lens/ritter/stream/ritter-shelf-2026-04.md](/C:/dev/strategy-codex/statecraft/civ-lens/ritter/stream/ritter-shelf-2026-04.md), then refined page files or raw-input captures.
+Compatibility note: any unresolved watch placeholders that remain below in the machine layer are carryover residue, not canonical citations. Use the canonical April 2026 month shelf at [statecraft/voices/ritter/stream/ritter-shelf-2026-04.md](/C:/dev/strategy-codex/statecraft/voices/ritter/stream/ritter-shelf-2026-04.md), then refined page files or raw-input captures.
 
 <!-- strategy-expert-thread:start -->
 ## Machine layer — Extraction (script-maintained)

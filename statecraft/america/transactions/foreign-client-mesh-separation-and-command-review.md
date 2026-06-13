@@ -21,6 +21,8 @@ Foreign client mesh separation and command-review firewall.
   - [Hoh / Dialogue Works 2026-06-04 (Section 224)](/C:/dev/strategy-codex/source-archive/statecraft/2026-06-04/source-alkorshid-matthew-hoh-section-224-the-provision-merging-the-us-and-israeli-militaries-2026-06-04.md)
   - [Barnes / Nawfal 2026-06-08 (non-intercept, Colby spying, MOU money)](../../source-archive/statecraft/2026-06-08/source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
   - [Sachs / Napolitano 2026-06-08 (pushback publication theory, NYT spying plant)](../../source-archive/statecraft/2026-06-08/source-napolitano-sachs-is-trump-losing-it-2026-06-08.md)
+  - [Aguilar / Moral Resistance 2026-06-12 (§224 Hill trip, FY27 mesh likely pass, Iran-bridge quid, inverse lever)](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)
+  - [Aguilar / Dialogue Works 2026-06-12 (aid-cut enforcement lever — positive mirror to §224 inverse)](../../source-archive/statecraft/2026-06-12/source-alkorshid-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md)
 - Prior statecraft drafts: [Freeman vs Sachs America input](../freeman-vs-sachs-america-input.md); [America helix](../helix.md).
 
 ## Realism / Incentive Filter
@@ -257,6 +259,39 @@ Drafting bias addition:
 - **Appropriation reallocation** under NDAA must face notification floor when benefiting foreign client after red-line breach (Aguilar NDAA bucket-shift; Barnes June 3 war-powers vs mesh).
 - **Barnes leverage narrative** (BB election dependency) is insufficient firewall substitute — June 7 proves rhetoric without faucet closure.
 
+### June 12 Aguilar MR corroboration (§224 inverse-lever × Iran-bridge quid)
+
+See [Marandi × J12-6 × Aguilar bridge](../../daily/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) · [Johnson×Wilkerson×Aguilar gate comparison](../../daily/2026-06-12-johnson-wilkerson-aguilar-mou-gate-comparison.md) · [2026-06-12 daily](../../daily/2026-06-12.md).
+
+**Bounded question:** Does **Section 224 passage during the Iran MOU bridge** function as an **inverse enforcement lever** — licensing future client ops while Washington claims a 60-day pause?
+
+| Row | Aguilar (MR) claim | Inverse-lever read | Transaction clause |
+| --- | --- | --- | --- |
+| **`AMER-224-INV-01`** | FY27 NDAA **US–Israel Defense Technology Cooperative** (House HR 880 §224; Senate same verbiage) likely survives floor | Mesh **hardens** while executive sells bridge | Clauses A, C — moratorium/sunset + vote floor |
+| **`AMER-224-INV-02`** | Hill trip: bipartisan staff concern; **9 Senate committee Dem nos**; phones "blowing up" on 224 | Opposition **real but drowned** by topline fight | Clause C — vote floor must not be obscured by appropriation theater |
+| **`AMER-224-INV-03`** | War spend ~**$500B** never appropriated → NDAA topline **$1.55T → ~$2.1T** reconciliation fight | Congress fights budget; **§224 slips through** | Clause C + off-ramp §1 — separate recorded vote on mesh regardless of topline |
+| **`AMER-224-INV-04`** | Massie amendment retry citing **DIA critical-threat** designation | Pushback **may stall** mesh if tied to CI tier | Clauses B, A — NOFORN/CI gate before mesh effective |
+| **`AMER-224-INV-05`** | "Let it pass, kill authorization later" / SecDef authorize **nothing** — Aguilar: **irresponsible** | Deferred-kill = **running with scissors** | Successor check — executive agent starvation insufficient if statute creates permanent coordination office |
+| **`AMER-224-INV-06`** | **Bridge quid:** Netanyahu tolerates 60-day pause; demands **§224 license** so future Lebanon/Hezbollah ops need no US permission | **Inverse of DW aid-cut lever** — client buys autonomy, not restraint | Clauses D, E — client-origination flag + performative daylight bar |
+| **`AMER-224-INV-07`** | Trump pressures Speaker/Senate (Wicker) to pass mesh while MOU track active | Executive trades **client mesh** for **negotiation quiet** | Off-ramp §4 — emissary deals cannot alter basing/strike terms without 72h congressional notification |
+
+**Positive mirror (DW Aguilar same day):** only credible **forward lever** remains **cut full military support to Israel** ([DW capture](../../source-archive/statecraft/2026-06-12/source-alkorshid-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md)) — **not** mesh integration. **Inverse pair:** `aid-cut = lever absent (required)` · `§224 = inverse lever (client license)`.
+
+**`AMER-224-RCPT-04` receipt row (inverse-lever):**
+
+| ID | Row | Pass | Stressed | Fired (falsifier) |
+| --- | --- | --- | --- | --- |
+| **AMER-224-RCPT-04** | §224 passes during Iran MOU bridge without sunset/vote floor | Mesh **stalls** 30d while bridge active | §224 **enacted** Oct FY27; executive agent stood up | Inverse-lever confirmed — client bought license during pause theater |
+
+**Drafting bias (June 12):**
+
+- Treat **MOU bridge + §224 advance** as **coupled capture** unless Clauses A–D pass **before** conference — not sequential "deal first, mesh later."
+- **Separate recorded vote** on §224 required even if NDAA topline passes — Clause C anti-bake applies when war-reconciliation swells headline number.
+- **SecDef null authorization** is a **weak successor fork** if statute creates standing coordination agent (Aguilar MR) — prefer **Clause A moratorium** at source.
+- Cross-lane: Persia [Lebanon gate](../../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) Clause B fails if America ships **§224 license** while claiming MOU enforcement — **inverse of aid-cut carrier**.
+
+**Compression:** `DW Aguilar = cut aid or MOU worthless · MR Aguilar = §224 is what Israel buys instead of asking permission · RCPT-04 waits on FY27 enactment.`
+
 ## Falsifiers
 
 - Section 224 (or equivalent) passes Senate unchanged with no sunset, NOFORN schedule, or vote floor → Hoh statutory-mesh peak confirmed; capture fork successor-stable.
@@ -264,6 +299,8 @@ Drafting bias addition:
 - CI designation downgraded without behavioral change → alarm-without-correction confirmed.
 - Kuwait/Bahrain base-enabled strikes continue with unchanged host agreements → protection-fiction confirmed.
 - Lebanon gate moves before Hormuz normalization without client restraint → veto still subordinates U.S. closure.
+- Section 224 passes during active Iran MOU bridge with no sunset, separate vote, or moratorium → **`AMER-224-RCPT-04` fired**; inverse-lever confirmed (MR Aguilar quid thesis).
+- Congress adopts "pass mesh, starve authorization later" without recorded mesh vote → Clause C anti-bake failed; Aguilar **running with scissors** path live.
 
 ## Return Paths
 
@@ -277,3 +314,5 @@ Drafting bias addition:
 - [Barnes × Aguilar enforceability statecraft note](../../daily/2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md)
 - [Barnes × America capture — non-intercept, Colby, MOU (2026-06-08)](../../daily/2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
 - [Sachs × Wilkerson × Barnes — spying pushback instrument (2026-06-08)](../../daily/2026-06-08-sachs-wilkerson-barnes-spying-pushback-instrument.md)
+- [Marandi × J12-6 × Aguilar bridge (§224 inverse-lever cross-lane)](../../daily/2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
+- [Aguilar MR / no-deal + §224 (archive)](../../source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md)

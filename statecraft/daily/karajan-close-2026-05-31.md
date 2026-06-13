@@ -27,7 +27,7 @@ This note records the current architectural pause point for the `statecraft/dail
 
 - it does not pretend the rest of May has been migrated to the active five-volume contract
 - it does not pretend the broader `experimental` validation group is healthy
-- it does not absorb the separate open `statecraft/civ-state` seam into the daily-synthesis tranche
+- it does not absorb the separate open `statecraft/states` seam into the daily-synthesis tranche
 
 That restraint matters. The daily shelf is currently legible because its boundary is explicit.
 

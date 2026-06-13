@@ -2,17 +2,17 @@
 
 `codex/speakers/` is now a compatibility/archive layer during the statecraft speaker migration.
 
-Canonical live speaker authority belongs under [statecraft/civ-lens/](/C:/dev/strategy-codex/statecraft/civ-lens/README.md). This legacy tree remains for:
+Canonical live speaker authority belongs under [statecraft/voices/](/C:/dev/strategy-codex/statecraft/voices/README.md). This legacy tree remains for:
 
 - compatibility pointers
 - non-statecraft speaker storage that has not been promoted into live statecraft use
 - archive residue and older shelf structures during phased cutover
 
-Do not treat `codex/speakers/` as a second live canonical speaker tree once a speaker has migrated into repo-root `statecraft/civ-lens/`.
+Do not treat `codex/speakers/` as a second live canonical speaker tree once a speaker has migrated into repo-root `statecraft/voices/`.
 
 Short constitutional split:
 
-- `statecraft/civ-lens/` = canonical live speaker continuity
+- `statecraft/voices/` = canonical live speaker continuity
 - `codex/speakers/` = compatibility/archive and not-yet-migrated residue
 
 Speakers are higher-order strategy-codex objects outside the current eight-stream scaffold. They may carry speaker-arcs, speaker-helixes, cross-year notes, profiles, and other speaker-local materials without becoming first-class cognition streams in this volume.
@@ -44,7 +44,7 @@ Derived speaker arcs are interpretive routing surfaces downstream of transcript/
 
 Carveout rule: object shape controls whether transcript-first is the correct default. Transcript-bearing relational arcs and transcript-backed routing notes should use this order by default. Authored-first, stream-native, profile-only, or otherwise mixed-provenance speakers should say so explicitly and keep the first-open surface that matches their real object shape.
 
-Layering rule: before migration, a **speaker arc** in the speaker shelf is the canonical person-level continuity surface; **host-local arcs** in host shelves are bounded transformations of that speaker under one host's pressure; **bench or month-spine support** in the speaker shelf exists only to route non-core appearances and month-level sequencing without replacing the canonical arc; and **statecraft intake** remains downstream, drawing speaker-state from these surfaces to build country, transaction, or civilizational instruments without becoming the owner of the speaker object itself. After migration, those live continuity jobs belong under repo-root `statecraft/civ-lens/`, while this tree should point there rather than compete with it. Freeman is the model case for this layering.
+Layering rule: before migration, a **speaker arc** in the speaker shelf is the canonical person-level continuity surface; **host-local arcs** in host shelves are bounded transformations of that speaker under one host's pressure; **bench or month-spine support** in the speaker shelf exists only to route non-core appearances and month-level sequencing without replacing the canonical arc; and **statecraft intake** remains downstream, drawing speaker-state from these surfaces to build country, transaction, or civilizational instruments without becoming the owner of the speaker object itself. After migration, those live continuity jobs belong under repo-root `statecraft/voices/`, while this tree should point there rather than compete with it. Freeman is the model case for this layering.
 
 Cross-speaker disagreement or comparison objects that do not belong to one speaker's continuity ownership should live under [`relations/`](relations/), not inside a single speaker folder by default.
 

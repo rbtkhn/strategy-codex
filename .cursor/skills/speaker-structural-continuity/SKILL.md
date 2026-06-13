@@ -14,8 +14,8 @@ This skill audits **structural continuity across a speaker shelf**:
 - native arc
 - thread atlas
 - month-support shelves
-- migration boundary between `statecraft/civ-lens/` and `codex/speakers/` when present
-- canonical outer grammar when a shelf has normalized into `statecraft/civ-lens/`
+- migration boundary between `statecraft/voices/` and `codex/speakers/` when present
+- canonical outer grammar when a shelf has normalized into `statecraft/voices/`
 
 It is for **agreement checks**, **drift detection**, and **route-stack coherence**.
 
@@ -31,7 +31,7 @@ For month-status classification, repair ranking, or `mature every segment` doctr
 
 ## Normalized outer grammar
 
-When a speaker has normalized into `statecraft/civ-lens/`, treat this as the expected outer shelf grammar unless the shelf explicitly says otherwise:
+When a speaker has normalized into `statecraft/voices/`, treat this as the expected outer shelf grammar unless the shelf explicitly says otherwise:
 
 1. `README.md`
 2. `index.md`
@@ -97,7 +97,7 @@ Audit these continuity surfaces in order:
 5. `*-arc-threads.md` or equivalent atlas
 6. support spine
 7. month-support shelves
-8. codex-side compatibility fronts and stubs if the speaker has migrated into `statecraft/civ-lens/`
+8. codex-side compatibility fronts and stubs if the speaker has migrated into `statecraft/voices/`
 
 Check for agreement on:
 
@@ -119,7 +119,7 @@ Use these tests:
 - `front-door continuity`
   - can a future agent enter the shelf from the README and reach the correct canonical surfaces without being pushed into compatibility residue?
 - `outer-grammar continuity`
-  - if this is a normalized `statecraft/civ-lens/` shelf, are `README`, `index`, support spine, monthly ladder, audit, and themes all visibly present and legible?
+  - if this is a normalized `statecraft/voices/` shelf, are `README`, `index`, support spine, monthly ladder, audit, and themes all visibly present and legible?
 - `shelf-class continuity`
   - is the shelf being described as the same class everywhere, or are different surfaces half-describing different constitutional types?
 - `route-stack continuity`
@@ -135,7 +135,7 @@ Use these tests:
 - `boundary continuity`
   - are compatibility files still demoted, or have they silently become quasi-canonical again?
 - `migration continuity`
-  - if the speaker moved into `statecraft/civ-lens/`, do the codex-side pointer fronts and compatibility stubs still resolve without preserving dual authority?
+  - if the speaker moved into `statecraft/voices/`, do the codex-side pointer fronts and compatibility stubs still resolve without preserving dual authority?
 - `inner-shape continuity`
   - does the normalized outer scaffold preserve the speaker's real inner shape rather than forcing a fake one?
 

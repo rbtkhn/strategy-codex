@@ -194,8 +194,8 @@ Open when the task is:
 
 ## Return paths
 
-- [Barnes README](../civ-lens/barnes/README.md)
-- [barnes-analysis-index.md](../civ-lens/barnes/barnes-analysis-index.md)
+- [Barnes README](../voices/barnes/README.md)
+- [barnes-analysis-index.md](../voices/barnes/barnes-analysis-index.md)
 - [China AI implementation watch](./china-ai-implementation-watch.md)
 - [Jiang on AI](./jiang-on-ai.md)
 - [Ritter on AI](./ritter-on-ai.md)

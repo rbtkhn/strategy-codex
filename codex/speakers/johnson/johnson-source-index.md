@@ -3,7 +3,7 @@
 WORK only; not Record.
 
 Compatibility note: the canonical Johnson source bench now lives at
-[statecraft/civ-lens/johnson/johnson-source-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/johnson/johnson-source-index.md).
+[statecraft/voices/johnson/johnson-source-index.md](/C:/dev/strategy-codex/statecraft/voices/johnson/johnson-source-index.md).
 
 This codex-side file is compatibility residue only. Use the statecraft-side
 source index for canonical provenance routing and materialized Johnson

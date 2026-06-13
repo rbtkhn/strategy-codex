@@ -10,9 +10,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 | User asks for… | Search these paths first |
 |---|---|
-| analyst / speaker / commentator **source index** | [statecraft/civ-lens/INDEX.md](statecraft/civ-lens/INDEX.md), `statecraft/civ-lens/**/**-source-index.md` |
-| Barnes / Robert Barnes | [statecraft/civ-lens/barnes/](statecraft/civ-lens/barnes/), `source-archive/statecraft/**/source-*barnes*` |
-| Weichert / Nawfal Weichert | [statecraft/civ-lens/weichert/](statecraft/civ-lens/weichert/), `source-archive/statecraft/**/source-*nawfal-weichert*` |
+| analyst / speaker / commentator **source index** | [statecraft/voices/INDEX.md](statecraft/voices/INDEX.md), `statecraft/voices/**/**-source-index.md` |
+| Barnes / Robert Barnes | [statecraft/voices/barnes/](statecraft/voices/barnes/), `source-archive/statecraft/**/source-*barnes*` |
+| Weichert / Nawfal Weichert | [statecraft/voices/weichert/](statecraft/voices/weichert/), `source-archive/statecraft/**/source-*nawfal-weichert*` |
 | Daniel Davis / Davis host | [statecraft/hosts/davis/](statecraft/hosts/davis/) |
 | Napolitano / Judging Freedom | [statecraft/hosts/napolitano/](statecraft/hosts/napolitano/) |
 | Nima / Dialogue Works | [statecraft/hosts/nima/](statecraft/hosts/nima/), [codex/speakers/nima/](codex/speakers/nima/) for stream + source-index |
@@ -28,13 +28,13 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | generated dashboard / derived operator surface | [artifacts/](artifacts/) |
 | local semantic / vector index | [scripts/index_record.py](scripts/index_record.py), local `.chroma` paths |
 | **source-lattice** / corpus tiers / reading order | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) |
-| PH chapter lattice / civ-* reading order | [statecraft/civ-lens/jiang/ph-civ/docs/source-lattice.md](statecraft/civ-lens/jiang/ph-civ/docs/source-lattice.md) |
+| PH chapter lattice / civ-* reading order | [statecraft/voices/jiang/ph-civ/docs/source-lattice.md](statecraft/voices/jiang/ph-civ/docs/source-lattice.md) |
 | wire / official primary (live seam) | [docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md](docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md), `wire verify` skill |
-| legacy codex speaker shelf | [codex/speakers/](codex/speakers/) — **compatibility only**; prefer civ-lens |
+| legacy codex speaker shelf | [codex/speakers/](codex/speakers/) — **compatibility only**; prefer voices |
 | machine-readable route registry | [repo-map.yaml](repo-map.yaml) |
-| civ-lens shelf-class doctrine | [statecraft/civ-lens/README.md](statecraft/civ-lens/README.md) |
-| speaker cluster / satellite map | [statecraft/civ-lens/speaker-cluster-map.md](statecraft/civ-lens/speaker-cluster-map.md) |
-| expert profile (canonical shelf) | `statecraft/civ-lens/<speaker>/<speaker>-profile.md` — see [civ-lens README § Speaker profile law](statecraft/civ-lens/README.md#speaker-profile-law) |
+| voices shelf-class doctrine | [statecraft/voices/README.md](statecraft/voices/README.md) |
+| speaker cluster / satellite map | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) |
+| expert profile (canonical shelf) | `statecraft/voices/<speaker>/<speaker>-profile.md` — see [voices README § Speaker profile law](statecraft/voices/README.md#speaker-profile-law) |
 | expert profile (legacy / profile-only) | [codex/profiles/](codex/profiles/) — compatibility, profile-only lanes, or pre-migration redirects; see [codex/profiles/README.md](codex/profiles/README.md) |
 | host profile (canonical) | `statecraft/hosts/<host>/<host>-profile.md` |
 
@@ -44,15 +44,15 @@ Several surfaces use the word **index**. They are not interchangeable.
 
 | Surface | Job | Authority |
 |---|---|---|
-| `statecraft/civ-lens/**/**-source-index.md` | Per-analyst **route map** — which captures to open first | WORK only |
-| [statecraft/civ-lens/INDEX.md](statecraft/civ-lens/INDEX.md) | Front door listing all analyst source indexes | WORK routing aid |
+| `statecraft/voices/**/**-source-index.md` | Per-analyst **route map** — which captures to open first | WORK only |
+| [statecraft/voices/INDEX.md](statecraft/voices/INDEX.md) | Front door listing all analyst source indexes | WORK routing aid |
 | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) | Generated capture **inventory** by thread | Derived / archive |
 | [self-library.md](self-library.md) | Canonical SELF-LIBRARY reference layer | Canonical reference |
 | [artifacts/library-index.md](artifacts/library-index.md) | Derived SELF-LIBRARY **dashboard** | Derived |
 | [scripts/index_record.py](scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
 | [codex/speakers/](codex/speakers/) | Legacy speaker storage during migration | Compatibility |
-| [statecraft/civ-lens/speaker-cluster-map.md](statecraft/civ-lens/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
-| `statecraft/civ-lens/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
+| [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
+| `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
 | [codex/profiles/*-profile.md](codex/profiles/) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |
 
 **Do not** answer "no Barnes index" because `library-index.md` or GitHub code search returned zero hits.
@@ -61,12 +61,12 @@ Several surfaces use the word **index**. They are not interchangeable.
 
 | Term | Question | Where |
 |---|---|---|
-| **source-index** | *Where* is the corpus? Which file opens first? | civ-lens `*-source-index.md` |
+| **source-index** | *Where* is the corpus? Which file opens first? | voices `*-source-index.md` |
 | **source-lattice** | *How* should layers be read so summary does not replace source? | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) |
 
 **Find-then-read contract:**
 
-1. **Find** — this file → civ-lens source-index → `source-archive/`
+1. **Find** — this file → voices source-index → `source-archive/`
 2. **Read** — source-lattice doctrine (corpus tiers 1–4 + reading layers); PH chapters → `ph-civ/docs/source-lattice.md`
 3. **Block** — tier-4 commentary cannot substantiate tier-3 claims without wire receipts
 
@@ -85,7 +85,7 @@ For any request of the form "find X in this repo":
 1. If the user supplied an exact path or URL, fetch that path first.
 2. Search exact term, lowercase term, and likely titlecase term.
 3. Check this routing map and [repo-map.yaml](repo-map.yaml) before concluding absence.
-4. If the query names an analyst, speaker, source corpus, or transcript set, inspect [statecraft/civ-lens/](statecraft/civ-lens/) and [source-archive/statecraft/](source-archive/statecraft/).
+4. If the query names an analyst, speaker, source corpus, or transcript set, inspect [statecraft/voices/](statecraft/voices/) and [source-archive/statecraft/](source-archive/statecraft/).
 5. If `grep`, `rg`, or GitHub code search returns zero results, treat that as a search miss, not proof of absence.
 6. Do not answer "not found" until the relevant path family has been checked.
 7. After locating a capture, apply find-then-read (source-lattice) before synthesis or judgment-bearing output.

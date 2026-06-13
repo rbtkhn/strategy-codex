@@ -51,13 +51,13 @@ Use these existing surfaces as the benchmark spine:
 - [wilkerson-february-2026-note.md](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-february-2026-note.md)
   Keeps one important truth straight: February is a thin `bridge month` for Wilkerson specifically, not a broken month overall.
 
-- [freeman-shelf-2026-02.md](/C:/dev/strategy-codex/statecraft/civ-lens/freeman/stream/freeman-shelf-2026-02.md)
+- [freeman-shelf-2026-02.md](/C:/dev/strategy-codex/statecraft/voices/freeman/stream/freeman-shelf-2026-02.md)
   Preserves February as a late-2025 to spring-2026 continuity bridge for Freeman.
 
-- [ritter-shelf-2026-02.md](/C:/dev/strategy-codex/statecraft/civ-lens/ritter/stream/ritter-shelf-2026-02.md)
+- [ritter-shelf-2026-02.md](/C:/dev/strategy-codex/statecraft/voices/ritter/stream/ritter-shelf-2026-02.md)
   Shows February as the first true Ritter bridge month where war-pressure, Hormuz, and legal-command lanes all thicken before March.
 
-- [crooke-shelf-2026-02.md](/C:/dev/strategy-codex/statecraft/civ-lens/crooke/stream/crooke-shelf-2026-02.md)
+- [crooke-shelf-2026-02.md](/C:/dev/strategy-codex/statecraft/voices/crooke/stream/crooke-shelf-2026-02.md)
   Preserves the authored-to-interview bridge without overstating February as a full chronology owner.
 
 ## What February Is Good For

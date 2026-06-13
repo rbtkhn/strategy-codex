@@ -6,11 +6,22 @@ Purpose: hold the canonical live host-family continuity surfaces that belong to 
 
 This layer exists so live host-law, host-native routing pressure, and guest-lane classification no longer depend on retired `codex/speakers/<host>/...` paths for active statecraft work.
 
+## Vertical stack (archive → voices → hosts → states)
+
+Read live work in this order when layers blur:
+
+1. [`source-archive/statecraft/`](../source-archive/statecraft/) — **Statecraft Archive** (verbatim sources)
+2. [`statecraft/voices/`](../voices/) — **Statecraft Synthesis** (whole-analyst continuity)
+3. [`statecraft/hosts/`](../hosts/) — host-conditioned **guest** transformation (not whole-analyst shelves)
+4. [`statecraft/states/`](../states/) — **CIV-STATE** source-memory substrate
+
+Do not flatten guest-on-host reads into `voices/` when host law changes retrieval posture.
+
 ## Canonical Rule
 
 - `statecraft/hosts/` is the canonical home for live host-family continuity in repo-root `statecraft/`
 - `statecraft/sheets/` still owns cross-host comparison notes and compact routing law
-- `statecraft/civ-lens/` still owns speaker-state identity, support spines, and speaker-native routing
+- `statecraft/voices/` still owns speaker-state identity, support spines, and speaker-native routing
 - `codex/speakers/<host>/...` is compatibility residue only; it may preserve chronology or archive material, but it is not the live authority for host-law
 
 ## Current Migration Front

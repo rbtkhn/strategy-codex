@@ -20,7 +20,15 @@ def handoff_mod():
     return mod
 
 
-def test_gate_detail_lines_empty_queue(handoff_mod):
+@pytest.fixture()
+def gate_unfrozen(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Fork-revive gate parsing tests need Record unfrozen."""
+    import strategy_codex_config as scc
+
+    monkeypatch.setattr(scc, "record_frozen", lambda: False)
+
+
+def test_gate_detail_lines_empty_queue(handoff_mod, gate_unfrozen):
     text = "## Candidates\n\n## Processed\n"
     lines = handoff_mod._gate_detail_lines(text, "grace-mar")
     joined = "\n".join(lines)
@@ -29,7 +37,7 @@ def test_gate_detail_lines_empty_queue(handoff_mod):
     assert "operator_gate_review_pass.py" in joined
 
 
-def test_gate_detail_lists_pending_wap_and_companion(handoff_mod):
+def test_gate_detail_lists_pending_wap_and_companion(handoff_mod, gate_unfrozen):
     gate = """## Candidates
 
 ### CANDIDATE-0998 (wap)
@@ -59,11 +67,22 @@ channel_key: telegram:1
     assert "test-user/recursion-gate.md" in joined
 
 
+def test_gate_detail_lines_frozen_record(handoff_mod, monkeypatch: pytest.MonkeyPatch):
+    import strategy_codex_config as scc
+
+    monkeypatch.setattr(scc, "record_frozen", lambda: True)
+    lines = handoff_mod._gate_detail_lines("## Candidates\n", "grace-mar")
+    joined = "\n".join(lines)
+    assert "## RECURSION-GATE (frozen)" in joined
+    assert "fork revive" in joined
+    assert "**Total pending:**" not in joined
+
+
 def test_build_ship_receipt_ahead_and_mixed_slices(handoff_mod):
     lines = handoff_mod.build_ship_receipt(
         status_lines=[
             " M statecraft/daily/2026-06-08.md",
-            " M statecraft/civ-lens/jiang/ph-civ/README.md",
+            " M statecraft/voices/jiang/ph-civ/README.md",
             "?? singularity/workshop/README.md",
         ],
         branch_lines=["main"],

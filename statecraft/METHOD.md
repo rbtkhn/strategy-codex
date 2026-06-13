@@ -38,7 +38,7 @@ Open the kernel first if you need:
 
 ## Upstream Candidate Rule
 
-Use the [CIV-STATE review queue](civ-state/review-queue.md) when live drafting discovers a durable source-memory issue.
+Use the [CIV-STATE review queue](states/review-queue.md) when live drafting discovers a durable source-memory issue.
 
 - If the discovery changes source pattern, retrieval logic, historical counterweight, or object schema, stage it upstream.
 - If the discovery changes lane routing, deployer behavior, helix judgment, objection handling, or instrument design, keep it in statecraft.

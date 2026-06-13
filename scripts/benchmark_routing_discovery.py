@@ -19,7 +19,7 @@ if str(SCRIPTS) not in sys.path:
 
 from yaml_compat import safe_load_path
 
-TARGET_REL = Path("statecraft/civ-lens/barnes/barnes-source-index.md")
+TARGET_REL = Path("statecraft/voices/barnes/barnes-source-index.md")
 TARGET_NAME = TARGET_REL.name
 CANONICAL = TARGET_REL.as_posix()
 
@@ -61,7 +61,7 @@ def llm_routing_table() -> str | None:
 
 def civ_lens_index() -> str | None:
     """Routing path step 2: civ-lens INDEX table."""
-    index = REPO_ROOT / "statecraft/civ-lens/INDEX.md"
+    index = REPO_ROOT / "statecraft/voices/INDEX.md"
     if not index.is_file():
         return None
     text = _read_text(index)

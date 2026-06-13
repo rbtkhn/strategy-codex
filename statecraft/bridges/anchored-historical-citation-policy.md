@@ -205,8 +205,8 @@ Best partner surfaces:
 
 - [Recognition Threshold Vs Settlement Architecture](recognition-threshold-vs-settlement-architecture.md)
 - [Pape / Marandi / Parsi Novelty Audit](pape-marandi-parsi-novelty-audit.md)
-- [CIV-STATE Source Retrieval Matrix](../civ-state/indexes/source-retrieval-matrix.md)
-- [Historical Example Retrieval Matrix](../civ-state/indexes/historical-example-retrieval-matrix.md)
+- [CIV-STATE Source Retrieval Matrix](../states/indexes/source-retrieval-matrix.md)
+- [Historical Example Retrieval Matrix](../states/indexes/historical-example-retrieval-matrix.md)
 
 ## Return Rule
 

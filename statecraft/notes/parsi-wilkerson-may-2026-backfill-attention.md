@@ -38,7 +38,7 @@ Reason:
    Working title: `The US and Iran are on the verge of a deal, and the warmongers hate it`
    Status: `missing`
    Why it matters: this would fill the current authored late-May architecture / settlement bridge between the blockade-collapse opening and the final live-deal interview pressure.
-   Shelf consequence if landed: update [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/stream/parsi-forecast-ledger-2025-2026.md) and [parsi-may-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/stream/parsi-may-2026-cross-context-arc.md) so May reads as a fuller authored-to-interview sequence rather than a thin bridge month.
+   Shelf consequence if landed: update [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/stream/parsi-forecast-ledger-2025-2026.md) and [parsi-may-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/voices/parsi/stream/parsi-may-2026-cross-context-arc.md) so May reads as a fuller authored-to-interview sequence rather than a thin bridge month.
 
 2. `2026-05-06`
    Host/source family: `Duran / Mercouris`
@@ -82,7 +82,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
    Working title discovered in hunt: `Trump Is Checkmate in Iran`
    Status: `missing`
    Why it matters: if real and transcript-grade, this would directly break the current seven-anchor completeness claim and strengthen the auxiliary Napolitano branch inside the month.
-   Shelf consequence if landed: repair [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/civ-lens/wilkerson/wilkerson-may-2026-note.md), extend [legacy Wilkerson source index](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-source-index.md), and revisit the month's host-balance reading.
+   Shelf consequence if landed: repair [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-may-2026-note.md), extend [legacy Wilkerson source index](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-source-index.md), and revisit the month's host-balance reading.
 
 2. `2026-05-21`
    Host/source family: `Judging Freedom / Napolitano`
@@ -122,9 +122,9 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 ### If Parsi lands new May material
 
-- update [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/stream/parsi-forecast-ledger-2025-2026.md) for authored additions
-- update [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/parsi-interview-appearances-2025-2026.md) for any distinct host-owned appearance
-- update [parsi-may-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/parsi/stream/parsi-may-2026-cross-context-arc.md) so May no longer reads as an artificially thin bridge month
+- update [parsi-forecast-ledger-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/stream/parsi-forecast-ledger-2025-2026.md) for authored additions
+- update [parsi-interview-appearances-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/parsi/parsi-interview-appearances-2025-2026.md) for any distinct host-owned appearance
+- update [parsi-may-2026-cross-context-arc.md](/C:/dev/strategy-codex/statecraft/voices/parsi/stream/parsi-may-2026-cross-context-arc.md) so May no longer reads as an artificially thin bridge month
 
 ### If Parsi lands nothing new
 
@@ -133,7 +133,7 @@ This is not a weak-presence verdict. It is now a resolved truth-maintenance verd
 
 ### If Wilkerson lands any new May material
 
-- repair [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/civ-lens/wilkerson/wilkerson-may-2026-note.md)
+- repair [wilkerson-may-2026-note.md](/C:/dev/strategy-codex/statecraft/voices/wilkerson/wilkerson-may-2026-note.md)
 - repair [legacy Wilkerson source index](/C:/dev/strategy-codex/codex/speakers/wilkerson/wilkerson-source-index.md)
 - re-evaluate whether May's host-balance story still reads as `double helix plus one auxiliary branch` or whether the auxiliary branch has become denser inside that month than the current note admits
 

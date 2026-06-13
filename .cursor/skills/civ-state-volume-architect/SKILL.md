@@ -3,7 +3,7 @@ name: civ-state-volume-architect
 preferred_activation: civ-state-volume-architect
 description: >-
   Create, refound, or normalize CIV-STATE volume architecture in
-  statecraft/civ-state. Use when the operator wants to define or enforce the
+  statecraft/states. Use when the operator wants to define or enforce the
   canonical volume-part law, rename or add chapter families, rewire volume
   READMEs, or keep Civilization, Empire, and Statecraft distinct while placing
   geo-strategy, secret-history, and game-theory beneath Part 3.
@@ -11,7 +11,7 @@ description: >-
 
 # CIV-STATE Volume Architect
 
-Use this skill to shape the architecture of `statecraft/civ-state/volumes/` as a stable book-form, not a pile of files.
+Use this skill to shape the architecture of `statecraft/states/volumes/` as a stable book-form, not a pile of files.
 
 This skill is for **volume law and chapter-family design**. It decides what parts a volume has, what each part is for, how the front door routes into them, and how subordinate essays sit beneath them.
 
@@ -52,7 +52,7 @@ For any CIV-STATE architecture pass, resolve these explicitly:
 1. What are the canonical top-level parts now?
 2. What files are subordinate rather than coequal?
 3. What exact order should the volume opener block show?
-4. What shelf doctrine must change in `statecraft/civ-state/volumes/README.md`?
+4. What shelf doctrine must change in `statecraft/states/volumes/README.md`?
 5. What bridge or promotion notes must be updated so the membrane matches the new destination set?
 
 If any of those five are still fuzzy, the architecture pass is not finished.
@@ -78,12 +78,12 @@ If any of those five are still fuzzy, the architecture pass is not finished.
 
 5. **Rewire the opener block and the volume shelf together.**
    Do not change one without the other.
-   The per-volume `README.md` files and [statecraft/civ-state/volumes/README.md](../../../statecraft/civ-state/volumes/README.md) should tell the same story.
+   The per-volume `README.md` files and [statecraft/states/volumes/README.md](../../../statecraft/states/volumes/README.md) should tell the same story.
 
 6. **Update membrane surfaces when destination classes change.**
    If a new family becomes canonical, update:
-   - [PH-CIV to CIV-STATE bridge](../../../statecraft/civ-state/ph-civ-to-civ-state-bridge.md)
-   - [PH-CIV promotion ledger](../../../statecraft/civ-state/ph-civ-promotion-ledger.md)
+   - [PH-CIV to CIV-STATE bridge](../../../statecraft/states/ph-civ-to-civ-state-bridge.md)
+   - [PH-CIV promotion ledger](../../../statecraft/states/ph-civ-promotion-ledger.md)
 
 7. **Mark residue honestly.**
    If an older file remains on disk for continuity, label it as support, legacy, or drill-down rather than letting it compete with the new architecture.
@@ -148,11 +148,11 @@ This skill succeeds when a CIV-STATE volume reads like a stable constitutional b
 
 ## strategy-codex instance notes
 
-- Canonical shelf front door: [statecraft/civ-state/README.md](../../../statecraft/civ-state/README.md)
-- Canonical volume map: [statecraft/civ-state/volumes/README.md](../../../statecraft/civ-state/volumes/README.md)
+- Canonical shelf front door: [statecraft/states/README.md](../../../statecraft/states/README.md)
+- Canonical volume map: [statecraft/states/volumes/README.md](../../../statecraft/states/volumes/README.md)
 - Primary membrane notes:
-  - [ph-civ-to-civ-state-bridge.md](../../../statecraft/civ-state/ph-civ-to-civ-state-bridge.md)
-  - [ph-civ-promotion-ledger.md](../../../statecraft/civ-state/ph-civ-promotion-ledger.md)
+  - [ph-civ-to-civ-state-bridge.md](../../../statecraft/states/ph-civ-to-civ-state-bridge.md)
+  - [ph-civ-promotion-ledger.md](../../../statecraft/states/ph-civ-promotion-ledger.md)
 - Companion architecture-adjacent skills:
   - [civ-state-volume-harden](../civ-state-volume-harden/SKILL.md)
   - [statecraft-framework](../statecraft-framework/SKILL.md)

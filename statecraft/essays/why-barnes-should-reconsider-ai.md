@@ -11,5 +11,5 @@ Do not treat this file as parallel prose authority. Edit **`statecraft/notes/bar
 ## Return paths
 
 - [Barnes on AI](../notes/barnes-on-ai.md)
-- [Barnes README](../civ-lens/barnes/README.md)
+- [Barnes README](../voices/barnes/README.md)
 - [statecraft essays README](./README.md)

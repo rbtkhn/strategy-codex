@@ -7,7 +7,7 @@ Purpose: record the bounded pass that lifted every live Sachs month from `2025-0
 ## Enforcement Metric
 
 - canonical pass/fail metric: live `sachs` counts in the month `Threads:` rows
-- support surfaces checked: `thread-index.md` and `statecraft/civ-lens/sachs/sachs-source-index.md`
+- support surfaces checked: `thread-index.md` and `statecraft/voices/sachs/sachs-source-index.md`
 
 ## Before
 

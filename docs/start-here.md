@@ -2,7 +2,7 @@
 
 **Work only; not Record.** This page orients operators and assistants. Governance law remains in [AGENTS.md](../AGENTS.md).
 
-**Finding analyst source indexes:** [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/civ-lens/INDEX.md](../statecraft/civ-lens/INDEX.md) (not SELF-LIBRARY or `artifacts/library-index.md`).
+**Finding analyst source indexes:** [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/voices/INDEX.md](../statecraft/voices/INDEX.md) (not SELF-LIBRARY or `artifacts/library-index.md`).
 
 ---
 
@@ -12,6 +12,16 @@
 
 Growing a personal cognitive fork is **not** a system objective. The Grace-Mar Record is **frozen** ([grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)). Gate promotion applies only on explicit **`fork revive`**.
 
+**SELF / library / memory:** [`self.md`](../self.md) (identity) is **frozen**; [`self-library.md`](../self-library.md) stays **active for reference** routing; [`self-memory.md`](../self-memory.md) is **session continuity** — not SELF, not Record. Split: [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md).
+
+## Namespace map (statecraft paths)
+
+| Term | Path | Notes |
+|---|---|---|
+| voices | `statecraft/voices/` | Analyst registers (interview + written); was `civ-lens` |
+| states | `statecraft/states/` | CIV-STATE pattern memory; volumes still `civ-state-*` |
+| hosts | `statecraft/hosts/` | Guest-on-host continuity; not in `voices/` |
+
 ---
 
 ## System map
@@ -20,6 +30,8 @@ Growing a personal cognitive fork is **not** a system objective. The Grace-Mar R
 flowchart TB
   subgraph membrane [Work membrane active]
     Archive[source-archive/statecraft]
+    Voices[statecraft/voices]
+    States[statecraft/states]
     Daily[statecraft/daily]
     Tx[statecraft lane transactions]
   end
@@ -33,7 +45,8 @@ flowchart TB
     Record[self.md recursion-gate.md]
   end
 
-  Archive --> Daily --> Tx
+  Archive --> Voices --> States
+  Voices --> Daily --> Tx
   SC --> membrane
   SG --> singularity/
   Tx -.fork revive only.-> Record

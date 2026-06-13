@@ -87,6 +87,6 @@ If only a few migrations happen next, the cleanest order is:
 - Do not read `missing index.md` as automatic evidence that a residue folder deserves promotion.
 - Distinguish **speaker**, **host/platform**, and **utility residue** before deciding the migration shape.
 - Use this note to set backlog order, not to silently promote anything.
-- `Postol` has now been promoted into [statecraft/civ-lens/postol/](/C:/dev/strategy-codex/statecraft/civ-lens/postol/README.md); it no longer belongs in the residue backlog.
-- `McGovern` has now been promoted into [statecraft/civ-lens/mcgovern/](/C:/dev/strategy-codex/statecraft/civ-lens/mcgovern/README.md); it no longer belongs in the residue backlog.
-- `Martyanov` has now been promoted into [statecraft/civ-lens/martyanov/](/C:/dev/strategy-codex/statecraft/civ-lens/martyanov/README.md); it no longer belongs in the residue backlog.
+- `Postol` has now been promoted into [statecraft/voices/postol/](/C:/dev/strategy-codex/statecraft/voices/postol/README.md); it no longer belongs in the residue backlog.
+- `McGovern` has now been promoted into [statecraft/voices/mcgovern/](/C:/dev/strategy-codex/statecraft/voices/mcgovern/README.md); it no longer belongs in the residue backlog.
+- `Martyanov` has now been promoted into [statecraft/voices/martyanov/](/C:/dev/strategy-codex/statecraft/voices/martyanov/README.md); it no longer belongs in the residue backlog.

@@ -2,7 +2,7 @@
 name: statecraft-guidebook-writer
 preferred_activation: statecraft-guidebook-writer
 description: >-
-  Write or refine Part 3 statecraft synthesis essays in statecraft/civ-state,
+  Write or refine Part 3 statecraft synthesis essays in statecraft/states,
   especially `statecraft-<civ>.md` chapters. Use when the operator wants a
   present-tense guidebook for modern statesmen: operational synthesis that turns
   Civilization and Empire into a live diplomatic read through order,
@@ -160,13 +160,13 @@ This skill succeeds when Part 3 reads like a serious guidebook for a modern stat
 
 ## strategy-codex instance notes
 
-- Canonical volume shelf: [statecraft/civ-state/volumes/README.md](../../../statecraft/civ-state/volumes/README.md)
+- Canonical volume shelf: [statecraft/states/volumes/README.md](../../../statecraft/states/volumes/README.md)
 - Current Part 3 chapter family lives under:
-  - [China statecraft](../../../statecraft/civ-state/volumes/civ-state-china/statecraft-china.md)
-  - [Persia statecraft](../../../statecraft/civ-state/volumes/civ-state-persia/statecraft-persia.md)
-  - [Rome statecraft](../../../statecraft/civ-state/volumes/civ-state-rome/statecraft-rome.md)
-  - [Russia statecraft](../../../statecraft/civ-state/volumes/civ-state-russia/statecraft-russia.md)
-  - [America statecraft](../../../statecraft/civ-state/volumes/civ-state-america/statecraft-america.md)
+  - [China statecraft](../../../statecraft/states/volumes/civ-state-china/statecraft-china.md)
+  - [Persia statecraft](../../../statecraft/states/volumes/civ-state-persia/statecraft-persia.md)
+  - [Rome statecraft](../../../statecraft/states/volumes/civ-state-rome/statecraft-rome.md)
+  - [Russia statecraft](../../../statecraft/states/volumes/civ-state-russia/statecraft-russia.md)
+  - [America statecraft](../../../statecraft/states/volumes/civ-state-america/statecraft-america.md)
 - Companion architecture skill:
   - [civ-state-volume-architect](../civ-state-volume-architect/SKILL.md)
 

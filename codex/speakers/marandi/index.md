@@ -6,12 +6,12 @@ Purpose: compatibility front door pointing to the canonical Marandi statecraft s
 
 ## Open First
 
-- [statecraft/civ-lens/marandi/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/README.md)
-- [statecraft/civ-lens/marandi/marandi-arc.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-arc.md)
-- [statecraft/civ-lens/marandi/marandi-routing.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-routing.md)
-- [statecraft/civ-lens/marandi/marandi-source-index.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-source-index.md)
-- [statecraft/civ-lens/marandi/marandi-helix.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-helix.md)
-- [statecraft/civ-lens/marandi/marandi-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/civ-lens/marandi/marandi-support-spine-2025-2026.md)
+- [statecraft/voices/marandi/README.md](/C:/dev/strategy-codex/statecraft/voices/marandi/README.md)
+- [statecraft/voices/marandi/marandi-arc.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-arc.md)
+- [statecraft/voices/marandi/marandi-routing.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-routing.md)
+- [statecraft/voices/marandi/marandi-source-index.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-source-index.md)
+- [statecraft/voices/marandi/marandi-helix.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-helix.md)
+- [statecraft/voices/marandi/marandi-support-spine-2025-2026.md](/C:/dev/strategy-codex/statecraft/voices/marandi/marandi-support-spine-2025-2026.md)
 
 ## Compatibility residue
 

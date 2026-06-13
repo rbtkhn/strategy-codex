@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://strategy-codex.local/statecraft/states/schemas/source-record.schema.json",
+  "title": "CIV-STATE Source Record",
+  "type": "object",
+  "required": [
+    "source_id",
+    "civilization",
+    "era",
+    "branch",
+    "title",
+    "author_or_body",
+    "source_type",
+    "date_or_range",
+    "original_language",
+    "target_language",
+    "witness_type",
+    "canonical_witness",
+    "rights_class",
+    "storage_class",
+    "acquisition_method",
+    "witness_locator",
+    "sidecar_locator",
+    "canonical_excerpt_available",
+    "full_text_available",
+    "validation_status",
+    "notes"
+  ],
+  "properties": {
+    "source_id": { "type": "string" },
+    "civilization": { "type": "string" },
+    "era": { "type": "string" },
+    "branch": { "type": "string" },
+    "title": { "type": "string" },
+    "author_or_body": { "type": "string" },
+    "source_type": { "type": "string" },
+    "date_or_range": { "type": "string" },
+    "original_language": { "type": "string" },
+    "target_language": { "type": "string" },
+    "witness_type": {
+      "type": "string",
+      "enum": ["official_text", "public_domain_text", "academic_text", "scan_ocr", "manual_transcription"]
+    },
+    "canonical_witness": {
+      "type": "object",
+      "required": ["label", "language", "locator"],
+      "properties": {
+        "label": { "type": "string" },
+        "language": { "type": "string" },
+        "locator": { "type": "string" }
+      }
+    },
+    "working_translation": {
+      "type": ["object", "null"],
+      "properties": {
+        "label": { "type": "string" },
+        "language": { "type": "string" },
+        "translator": { "type": "string" },
+        "locator": { "type": "string" }
+      }
+    },
+    "alternate_translations": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "rights_class": {
+      "type": "string",
+      "enum": ["public_domain", "official_government_text", "operator_authored_transcription", "modern_translation_restricted", "unclear"]
+    },
+    "storage_class": {
+      "type": "string",
+      "enum": ["metadata_only", "excerpt_only", "full_text_sidecar"]
+    },
+    "acquisition_method": { "type": "string" },
+    "witness_locator": { "type": "string" },
+    "sidecar_locator": { "type": "string" },
+    "canonical_excerpt_available": { "type": "boolean" },
+    "full_text_available": { "type": "boolean" },
+    "validation_status": {
+      "type": "string",
+      "enum": ["unvalidated", "spot_checked", "verified"]
+    },
+    "notes": { "type": "string" }
+  }
+}

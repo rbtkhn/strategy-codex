@@ -6,8 +6,8 @@ This legacy codex front door is now compatibility-only.
 
 Canonical Johnson statecraft work now lives at:
 
-- [statecraft/civ-lens/johnson/README.md](/C:/dev/strategy-codex/statecraft/civ-lens/johnson/README.md)
-- [statecraft/civ-lens/johnson/index.md](/C:/dev/strategy-codex/statecraft/civ-lens/johnson/index.md)
+- [statecraft/voices/johnson/README.md](/C:/dev/strategy-codex/statecraft/voices/johnson/README.md)
+- [statecraft/voices/johnson/index.md](/C:/dev/strategy-codex/statecraft/voices/johnson/index.md)
 
 Open the statecraft shelf for:
 

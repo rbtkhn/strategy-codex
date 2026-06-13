@@ -14,7 +14,7 @@ import json
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-CIV_STATE_DIR = REPO_ROOT / "statecraft" / "civ-state"
+CIV_STATE_DIR = REPO_ROOT / "statecraft" / "states"
 SOURCE_RECORDS_DIR = CIV_STATE_DIR / "source-records"
 SOURCE_EXCERPTS_DIR = CIV_STATE_DIR / "source-excerpts"
 SOURCE_SIDECAR_DIR = CIV_STATE_DIR / "source-sidecar"
@@ -79,7 +79,7 @@ def validate() -> list[dict[str, str]]:
     record_paths: list[Path] = []
     source_ids: dict[str, Path] = {}
     for rel in record_index["records"]:
-        record_path = REPO_ROOT / "statecraft" / "civ-state" / "source-records" / rel
+        record_path = REPO_ROOT / "statecraft" / "states" / "source-records" / rel
         record_paths.append(record_path)
         if not record_path.exists():
             add_issue(issues, RECORD_INDEX, "error", f"Indexed source record missing: {rel}")
@@ -158,7 +158,7 @@ def validate() -> list[dict[str, str]]:
         return issues
 
     for rel in sidecar_index["manifests"]:
-        manifest_path = REPO_ROOT / "statecraft" / "civ-state" / "source-sidecar" / rel
+        manifest_path = REPO_ROOT / "statecraft" / "states" / "source-sidecar" / rel
         if not manifest_path.exists():
             add_issue(issues, SIDECAR_INDEX, "error", f"Indexed sidecar manifest missing: {rel}")
             continue

@@ -15,7 +15,7 @@ import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-VOLUMES_DIR = REPO_ROOT / "statecraft" / "civ-state" / "volumes"
+VOLUMES_DIR = REPO_ROOT / "statecraft" / "states" / "volumes"
 
 EXPECTED_VOLUMES = {
     "civ-state-china": ["ancient", "medieval", "colonial", "industrial", "cybernetic"],
@@ -70,17 +70,17 @@ PROMOTION_TAXONOMY = [
 ]
 
 INDEX_FILES = {
-    "failure-mode-routes": REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "failure-mode-routes.md",
-    "interpretive-difficulty-map": REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "interpretive-difficulty-map.md",
-    "recurring-secondary-sources": REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "recurring-secondary-sources.md",
-    "secondary-source-promotion-ledger": REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "secondary-source-promotion-ledger.md",
-    "paired-reading-wedge-template": REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "paired-reading-wedge-template.md",
+    "failure-mode-routes": REPO_ROOT / "statecraft" / "states" / "indexes" / "failure-mode-routes.md",
+    "interpretive-difficulty-map": REPO_ROOT / "statecraft" / "states" / "indexes" / "interpretive-difficulty-map.md",
+    "recurring-secondary-sources": REPO_ROOT / "statecraft" / "states" / "indexes" / "recurring-secondary-sources.md",
+    "secondary-source-promotion-ledger": REPO_ROOT / "statecraft" / "states" / "indexes" / "secondary-source-promotion-ledger.md",
+    "paired-reading-wedge-template": REPO_ROOT / "statecraft" / "states" / "indexes" / "paired-reading-wedge-template.md",
 }
 
 PILOT_WEDGE_FILES = [
-    REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "paired-reading-wedge-america-medieval.md",
-    REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "paired-reading-wedge-rome-ancient.md",
-    REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "paired-reading-wedge-persia-cybernetic.md",
+    REPO_ROOT / "statecraft" / "states" / "indexes" / "paired-reading-wedge-america-medieval.md",
+    REPO_ROOT / "statecraft" / "states" / "indexes" / "paired-reading-wedge-rome-ancient.md",
+    REPO_ROOT / "statecraft" / "states" / "indexes" / "paired-reading-wedge-persia-cybernetic.md",
 ]
 
 REQUIRED_WEDGE_HEADINGS = [
@@ -92,9 +92,9 @@ REQUIRED_WEDGE_HEADINGS = [
 ]
 
 SOURCE_SUPPORT_BLOCK_FILES = [
-    REPO_ROOT / "statecraft" / "civ-state" / "volumes" / "civ-state-america" / "statecraft-america.md",
-    REPO_ROOT / "statecraft" / "civ-state" / "volumes" / "civ-state-rome" / "statecraft-rome.md",
-    REPO_ROOT / "statecraft" / "civ-state" / "persia" / "hormuz-recognition-transit-restraint.md",
+    REPO_ROOT / "statecraft" / "states" / "volumes" / "civ-state-america" / "statecraft-america.md",
+    REPO_ROOT / "statecraft" / "states" / "volumes" / "civ-state-rome" / "statecraft-rome.md",
+    REPO_ROOT / "statecraft" / "states" / "persia" / "hormuz-recognition-transit-restraint.md",
     REPO_ROOT / "statecraft" / "bridges" / "marandi-civ-state-retrieval-adapter.md",
 ]
 
@@ -109,9 +109,9 @@ SOURCE_SUPPORT_FIELDS = [
 
 DOCTRINE_FILES = [
     REPO_ROOT / "statecraft" / "README.md",
-    REPO_ROOT / "statecraft" / "civ-state" / "README.md",
-    REPO_ROOT / "statecraft" / "civ-state" / "power-truth-time-retrieval-checklist.md",
-    REPO_ROOT / "statecraft" / "civ-state" / "power-truth-time-annex.md",
+    REPO_ROOT / "statecraft" / "states" / "README.md",
+    REPO_ROOT / "statecraft" / "states" / "power-truth-time-retrieval-checklist.md",
+    REPO_ROOT / "statecraft" / "states" / "power-truth-time-annex.md",
 ]
 
 STALE_PATTERNS = [
@@ -276,15 +276,15 @@ def validate() -> list[dict[str, str]]:
         if "1991" not in text:
             issues.append({"path": str(path.relative_to(REPO_ROOT)), "level": "warn", "message": "Doctrine file does not mention the 1991 boundary"})
 
-    reader_guide = REPO_ROOT / "statecraft" / "civ-state" / "reader-guide.md"
-    hybrid_references = REPO_ROOT / "statecraft" / "civ-state" / "hybrid-references.md"
+    reader_guide = REPO_ROOT / "statecraft" / "states" / "reader-guide.md"
+    hybrid_references = REPO_ROOT / "statecraft" / "states" / "hybrid-references.md"
     for taxonomy_file in [reader_guide, hybrid_references]:
         text = read_text(taxonomy_file)
         for term in ROLE_TAXONOMY + RECURRENCE_TAXONOMY + PROMOTION_TAXONOMY:
             if term not in text:
                 issues.append({"path": str(taxonomy_file.relative_to(REPO_ROOT)), "level": "error", "message": f"Taxonomy term missing: {term}"})
 
-    indexes_readme = REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "README.md"
+    indexes_readme = REPO_ROOT / "statecraft" / "states" / "indexes" / "README.md"
     indexes_readme_text = read_text(indexes_readme)
     for name, path in INDEX_FILES.items():
         if not path.exists():
@@ -361,7 +361,7 @@ def validate() -> list[dict[str, str]]:
         if not re.search(r"(statecraft|civilization|empire)-[a-z]+\.md", return_section):
             issues.append({"path": str(wedge_path.relative_to(REPO_ROOT)), "level": "error", "message": "Pilot wedge return path must link a chapter surface"})
 
-    retrieval_matrix = REPO_ROOT / "statecraft" / "civ-state" / "indexes" / "source-retrieval-matrix.md"
+    retrieval_matrix = REPO_ROOT / "statecraft" / "states" / "indexes" / "source-retrieval-matrix.md"
     retrieval_matrix_text = read_text(retrieval_matrix)
     for required_link in ["failure-mode-routes.md", "interpretive-difficulty-map.md", "recurring-secondary-sources.md"]:
         if required_link not in retrieval_matrix_text:
