@@ -122,7 +122,7 @@ The emulated self can only know what is explicitly documented in its profile (`s
 
 ### 2. Gated Pipeline â€” The Sovereign Merge Rule (explicit fork revive only)
 
-**Default:** Do not stage gate candidates or offer gate review. Record is frozen per [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
+**Default:** Do not stage gate candidates or offer gate review. Record is frozen per [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md). Default capture: [`docs/replacement-capture-habits.md`](docs/replacement-capture-habits.md). Legacy concepts: [`docs/legacy-operator-concepts.md`](docs/legacy-operator-concepts.md). Full fork doctrine: [`archive/grace-mar-corpus/README.md`](archive/grace-mar-corpus/README.md).
 
 When the operator **explicitly revives** the fork lane (`fork revive`, `grace-mar archive`, coffee **`A gate`**, etc.): *The agent may stage. It may not merge.* Profile changes pass through a companion-controlled gate:
 

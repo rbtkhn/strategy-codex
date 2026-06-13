@@ -14,8 +14,8 @@ Distinct modes govern what the agent may do. Avoid mixing them.
 
 | Mode | Purpose | Agent behavior |
 |------|---------|----------------|
-| **Session** | Interactive conversation with companion | Respond as Voice; propose activities. Do not merge. Do not stage unless "we [did X]" triggers pipeline. |
-| **Pipeline** | Process staged candidates | Detect signals, stage to RECURSION-GATE, or on approval instruct operator to run `process_approved_candidates.py --apply` (do not edit SELF/EVIDENCE/prompt directly). See [OPERATOR-WEEKLY-REVIEW](../../docs/operator-weekly-review.md) for recommended rhythm. |
+| **Session** | Interactive conversation | Default: statecraft/singularity WORK. Voice emulation **fork revive only**. Do not merge unless operator revives fork and says "we [did X]". |
+| **Pipeline** | Process staged candidates | **Fork revive only.** Detect signals, stage to RECURSION-GATE; merge via `process_approved_candidates.py --apply`. Default capture: [replacement-capture-habits.md](docs/replacement-capture-habits.md). |
 | **Query** | Browse or answer questions about the Record | Read-only. Report what is documented. Do not edit. |
 | **Maintenance** | End-of-day consolidation (`dream`) | Run `scripts/auto_dream.py` Ã¢â‚¬” normalize self-memory, check integrity and governance, refresh contradiction digest, emit pipeline event. Read-only with respect to the Record; may write to self-memory and derived artifacts. No merge authority. See `.cursor/skills/dream/SKILL.md`. |
 
@@ -33,9 +33,9 @@ When in doubt, default to Session (conversational, no merges).
 
 ---
 
-## Success Metrics (Targeting System)
+## Success Metrics (frozen Record — archaeology)
 
-What "good" looks like for the strategy-codex embedded Record/runtime:
+Fork-era Voice/pipeline metrics below apply only on **`fork revive`**. Active strategy-codex health: statecraft archive coverage, synthesis cadence, integrity scripts, ship receipts.
 
 | Metric | Target | How to verify |
 |--------|--------|---------------|
@@ -113,9 +113,11 @@ repo-root/
 Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ README.md                    # Project overview
 Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ bootstrap/grace-mar-bootstrap.md  # Session bootstrap for Cursor
 Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ docs/
-Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ grace-mar-core.md       # Canonical governance (v2.0)
-Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ conceptual-framework.md # Fork vs. twin, emulation, terminology (AI parsing)
-Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ architecture.md         # Full system architecture
+Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ grace-mar-instance-boundary.md  # Live freeze SSOT
+Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ legacy-operator-concepts.md   # Redirect table
+Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ replacement-capture-habits.md # Default capture when frozen
+Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ architecture.md         # Stub → archive/grace-mar-corpus/doctrine/
+Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ conceptual-framework.md # Stub → archive/grace-mar-corpus/doctrine/
 Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ layer-architecture.md   # Four-layer instruction model
 Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-template.md        # SELF module template
 Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ skills-template.md      # SKILLS module template
