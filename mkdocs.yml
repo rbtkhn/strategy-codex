@@ -1,8 +1,8 @@
-# MkDocs — Grace-Mar documentation site
+# MkDocs — strategy-codex documentation (legacy grace-mar.com hosting)
 # Build: mkdocs build. Serve locally: mkdocs serve.
-# Deploy: Can be built into profile/docs/ and deployed with profile (see deploy-profile.yml).
-site_name: Grace-Mar
-site_description: Cognitive fork — Record, Voice, and gated pipeline
+# Deploy: profile/docs/ with deploy-profile.yml (archaeology hosting).
+site_name: strategy-codex
+site_description: Governed interpretive machine — statecraft and singularity operator work
 site_url: https://grace-mar.com
 
 docs_dir: docs

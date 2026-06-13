@@ -2,7 +2,7 @@
 
 **strategy-codex** — A **governed interpretive machine** for statecraft and singularity operator work: archive → synthesis → transactions. **Product identity:** [docs/product-identity.md](docs/product-identity.md). **Terminology:** [docs/glossary.md](docs/glossary.md).
 
-**Grace-Mar fork (frozen):** Growing a personal cognitive fork is **not** a system objective. The embedded Record at repo root is operator-archived; Voice/bot is deprecated. See [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md).
+**Grace-Mar fork (frozen archaeology):** Growing a personal cognitive fork is **not** a system objective. Embedded Record at repo root; full doctrine quarantined under [archive/grace-mar-corpus/README.md](archive/grace-mar-corpus/README.md). See [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md).
 
 **Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
 
@@ -44,7 +44,7 @@ A simple Claude Code-style translation is:
 
 Start here:
 
-- **Architecture overview** â†’ [docs/architecture.md](docs/architecture.md)
+- **Architecture overview** â†’ [docs/architecture.md](docs/architecture.md) (stub → [archive/grace-mar-corpus/doctrine/architecture.md](archive/grace-mar-corpus/doctrine/architecture.md))
 - **Runtime vs Record** â†’ [docs/runtime-vs-record.md](docs/runtime-vs-record.md)
 - **Start-here guide** â†’ [docs/start-here.md](docs/start-here.md)
 - **OB1-style translation** â†’ [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md)

@@ -1,21 +1,23 @@
 # Positioning — Governed State OS
 
 **Territory:** work-dev  
-**Status:** Draft  
+**Status:** Draft (historical framing — **Grace-Mar is frozen reference instance**, not live runtime)  
 **Date:** 2026-04-06  
 **Origin:** External six-layer agent-infrastructure analysis mapped against companion-self and grace-mar repos.
+
+> **2026 quarantine:** strategy-codex is a **governed interpretive machine** (`statecraft` + `singularity`). Grace-Mar embedded Record is **operator-archived** — see [`grace-mar-instance-boundary.md`](../../grace-mar-instance-boundary.md). Treat "live instance" language below as **archaeology**.
 
 ---
 
 ## The read
 
-An external analysis mapped companion-self and grace-mar against a six-layer agent infrastructure thesis (compute/sandbox → identity/comms → memory/state → tools/integration → provisioning/billing → orchestration/coordination). The core finding:
+An external analysis mapped companion-self and grace-mar against a six-layer agent infrastructure thesis (compute/sandbox → identity/comms → memory/state → tools/integration → provisioning/billing → orchestration/coordination). The core finding (historical):
 
-> Companion-Self is best understood as a template for layer 3 plus governance around layer 6. Grace-Mar is best understood as the live instance / operator-facing control plane prototype.
+> Companion-Self is best understood as a template for layer 3 plus governance around layer 6. Grace-Mar was the operator-facing control plane prototype (**now frozen** in strategy-codex).
 
-The analyst's one-line positioning:
+The analyst's one-line positioning (historical):
 
-> **Companion-Self is a governed state OS for companions. Grace-Mar is the first runtime instance of that OS.**
+> **Companion-Self is a governed state OS for companions. Grace-Mar was the first runtime instance of that OS.**
 
 And the strength identification:
 
