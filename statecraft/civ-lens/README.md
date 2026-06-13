@@ -141,7 +141,7 @@ Canonical placement:
 - **Profile-only / commentator-thread lane** (no first-class shelf yet) → `codex/profiles/<speaker>-profile.md` until real on-disk continuity warrants a shelf.
 - **Legacy paths** (`codex/profiles/`, `codex/speakers/<speaker>/`) → thin compatibility redirects after migration; **do not** duplicate the profile corpus in both places.
 
-Current migrated profiles: [Barnes](barnes/barnes-profile.md), [Mercouris](mercouris/mercouris-profile.md), [Pape](pape/pape-profile.md), [Crooke](crooke/crooke-profile.md), [Ritter](ritter/ritter-profile.md), [Parsi](parsi/parsi-profile.md), [Diesen](diesen/diesen-profile.md). Host profiles: [Davis](../hosts/davis/davis-profile.md), [Nima](../hosts/nima/nima-profile.md). Profile-only lanes: [codex/profiles/README.md](../../codex/profiles/README.md).
+Current migrated profiles: [Barnes](barnes/barnes-profile.md), [Mercouris](mercouris/mercouris-profile.md), [Pape](pape/pape-profile.md), [Crooke](crooke/crooke-profile.md), [Ritter](ritter/ritter-profile.md), [Parsi](parsi/parsi-profile.md), [Diesen](diesen/diesen-profile.md), [Weichert](weichert/weichert-profile.md) (seed). Host profiles: [Davis](../hosts/davis/davis-profile.md), [Nima](../hosts/nima/nima-profile.md). Profile-only lanes: [codex/profiles/README.md](../../codex/profiles/README.md).
 
 For anchor-and-satellite routing after Pape, Ritter, Parsi, or Crooke, open [speaker-cluster-map.md](speaker-cluster-map.md).
 

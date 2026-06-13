@@ -12,6 +12,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 |---|---|
 | analyst / speaker / commentator **source index** | [statecraft/civ-lens/INDEX.md](statecraft/civ-lens/INDEX.md), `statecraft/civ-lens/**/**-source-index.md` |
 | Barnes / Robert Barnes | [statecraft/civ-lens/barnes/](statecraft/civ-lens/barnes/), `source-archive/statecraft/**/source-*barnes*` |
+| Weichert / Nawfal Weichert | [statecraft/civ-lens/weichert/](statecraft/civ-lens/weichert/), `source-archive/statecraft/**/source-*nawfal-weichert*` |
 | Daniel Davis / Davis host | [statecraft/hosts/davis/](statecraft/hosts/davis/) |
 | Napolitano / Judging Freedom | [statecraft/hosts/napolitano/](statecraft/hosts/napolitano/) |
 | Nima / Dialogue Works | [statecraft/hosts/nima/](statecraft/hosts/nima/), [codex/speakers/nima/](codex/speakers/nima/) for stream + source-index |
