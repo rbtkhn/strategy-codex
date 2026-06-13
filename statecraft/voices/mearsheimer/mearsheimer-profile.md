@@ -39,7 +39,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** June 2026 intakes (3) + [`strategy-expert-mearsheimer-mind.md`](../../../codex/strategy-expert-mearsheimer-mind.md) § IV quote bank. Orthogonality: [triad SSOT](../_scratch/triad-voice-orthogonality-june-2026.md).
+**Evidence class:** June 2026 intakes (3) + Tier A detailed table (this file). Orthogonality: [triad SSOT](../_scratch/triad-voice-orthogonality-june-2026.md). Historical mind: `git show 904fb3bc6:codex/strategy-expert-mearsheimer-mind.md`
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
@@ -69,13 +69,11 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “we're going up the escalation ladder… Do you believe that's true?” · ✗ “Trump operates by fear like a toddler…” (Barnes tier-D) | Barnes liability voice as Mearsheimer |
 | **8 Emulation QA** | Anti-pattern fence | vs Mercouris | ✗ Mandatory “I'm not on the ground” stack on every paragraph | ✓ Numbered ceasefire dimensions then hedge on specifics |
 
-**Extended examples:** [strategy-expert-mearsheimer-mind.md](../../../codex/strategy-expert-mearsheimer-mind.md) § IV.A–IV.I (quote bank).
+**Extended examples:** this table. Unmigrated historical lines: `git show 904fb3bc6:codex/strategy-expert-mearsheimer-mind.md`
 
-## Mind pointer (quote bank + role)
+## Legacy redirects (compatibility)
 
-**Role / contrast / advisory doctrine:** [strategy-expert-mearsheimer-mind.md](../../../codex/strategy-expert-mearsheimer-mind.md) · [CIV-MIND-MEARSHEIMER.md](../../../codex/minds/CIV-MIND-MEARSHEIMER.md) redirects.
-
-**Structured register SSOT:** this file `#linguistic-style-fingerprint-detailed` (Tier A). Use mind file for extended transcript lines not yet migrated to table rows.
+[`strategy-expert-mearsheimer-mind.md`](../../../codex/strategy-expert-mearsheimer-mind.md) · [CIV-MIND-MEARSHEIMER.md](../../../codex/minds/CIV-MIND-MEARSHEIMER.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 ## Convergence fingerprint
 
@@ -125,4 +123,4 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ---
 
-**Companion files:** [mearsheimer-source-index.md](mearsheimer-source-index.md) · [strategy-expert-mearsheimer-mind.md](../../../codex/strategy-expert-mearsheimer-mind.md)
+**Companion files:** [mearsheimer-source-index.md](mearsheimer-source-index.md) · [strategy-expert-mearsheimer-mind.md](../../../codex/strategy-expert-mearsheimer-mind.md) (redirect)

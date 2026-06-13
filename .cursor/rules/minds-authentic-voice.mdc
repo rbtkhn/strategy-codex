@@ -21,13 +21,13 @@ When the operator or task calls for a **named speaker lens** (Mercouris, Mearshe
 
 ## Canonical sources (read before writing)
 
-| Speaker | Voice profile (SSOT) | Compatibility (Tier B or quote bank only) |
-|---------|------------------------|-------------------------------------------|
-| Mercouris | [mercouris-profile.md](../../statecraft/voices/mercouris/mercouris-profile.md) `#linguistic-style-fingerprint-detailed` | [`strategy-expert-mercouris-mind.md`](../../codex/strategy-expert-mercouris-mind.md) |
-| Mearsheimer | [mearsheimer-profile.md](../../statecraft/voices/mearsheimer/mearsheimer-profile.md) `#linguistic-style-fingerprint-detailed` | [`strategy-expert-mearsheimer-mind.md`](../../codex/strategy-expert-mearsheimer-mind.md) |
-| Barnes | [barnes-profile.md](../../statecraft/voices/barnes/barnes-profile.md) `#linguistic-style-fingerprint-detailed` | [`strategy-expert-barnes-mind.md`](../../codex/strategy-expert-barnes-mind.md) |
+| Speaker | Voice profile (SSOT) | Legacy redirect |
+|---------|------------------------|-----------------|
+| Mercouris | [mercouris-profile.md](../../statecraft/voices/mercouris/mercouris-profile.md) `#linguistic-style-fingerprint-detailed` | [`strategy-expert-mercouris-mind.md`](../../codex/strategy-expert-mercouris-mind.md) → profile |
+| Mearsheimer | [mearsheimer-profile.md](../../statecraft/voices/mearsheimer/mearsheimer-profile.md) `#linguistic-style-fingerprint-detailed` | [`strategy-expert-mearsheimer-mind.md`](../../codex/strategy-expert-mearsheimer-mind.md) → profile |
+| Barnes | [barnes-profile.md](../../statecraft/voices/barnes/barnes-profile.md) `#linguistic-style-fingerprint-detailed` | [`strategy-expert-barnes-mind.md`](../../codex/strategy-expert-barnes-mind.md) → profile |
 
-**Read order:** Voice profile (Tier A detailed tables + role sections) → archive slug when claim-grade → mind file **only** if Tier B or operator needs unmigrated quote lines.
+**Read order:** Voice profile only for triad (Tier A). Historical mind body: `git show 904fb3bc6:codex/strategy-expert-<id>-mind.md`. Other speakers: mind file until Tier A profile exists.
 
 Index: [`statecraft/voices/README.md`](../../statecraft/voices/README.md) · compatibility [`minds/README.md`](../../docs/skill-work/work-strategy/minds/README.md).
 

@@ -39,7 +39,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** June 2026 intakes (15; `[iran]`/`[dual]`/`[ukraine]` tagged) + [`strategy-expert-mercouris-mind.md`](../../../codex/strategy-expert-mercouris-mind.md) § III quote bank. **Ukraine-primary rows not orthogonality-tested vs Barnes/Mearsheimer on Iran axes.** Orthogonality: [triad SSOT](../_scratch/triad-voice-orthogonality-june-2026.md).
+**Evidence class:** June 2026 intakes (15; `[iran]`/`[dual]`/`[ukraine]` tagged) + Tier A detailed table (this file). **Ukraine-primary rows not orthogonality-tested vs Barnes/Mearsheimer on Iran axes.** Orthogonality: [triad SSOT](../_scratch/triad-voice-orthogonality-june-2026.md). Historical mind: `git show 904fb3bc6:codex/strategy-expert-mercouris-mind.md`
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
@@ -69,13 +69,11 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “I'm very skeptical… I'm not there and I'm not able to observe…” · ✗ “confession through projection… rugpull presidency” | Barnes or Mearsheimer register |
 | **8 Emulation QA** | Anti-pattern fence | vs Mearsheimer | ✗ Numbered four-element ceasefire as default Mercouris spine | ✓ Hedge stack before operational claim |
 
-**Extended examples:** [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) § III (quote bank).
+**Extended examples:** this table. Unmigrated historical lines: `git show 904fb3bc6:codex/strategy-expert-mercouris-mind.md`
 
-## Mind pointer (quote bank + role)
+## Legacy redirects (compatibility)
 
-**Role / contrast / primary doctrine:** [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) · [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) redirects.
-
-**Structured register SSOT:** this file `#linguistic-style-fingerprint-detailed` (Tier A). Use mind file for extended transcript lines not yet migrated to table rows.
+[`strategy-expert-mercouris-mind.md`](../../../codex/strategy-expert-mercouris-mind.md) · [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 ## Convergence fingerprint
 
@@ -171,4 +169,4 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [mercouris-transcript.md](../../../codex/speakers/mercouris/stream/mercouris-transcript.md) (7-day rolling verbatim, compatibility), [mercouris-thread.md](../../../codex/speakers/mercouris/stream/mercouris-thread.md) (distilled analytical thread, compatibility), [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) (long-form mind).
+**Companion files:** [mercouris-transcript.md](../../../codex/speakers/mercouris/stream/mercouris-transcript.md) · [mercouris-thread.md](../../../codex/speakers/mercouris/stream/mercouris-thread.md) · [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) (redirect)

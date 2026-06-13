@@ -8,11 +8,13 @@
 
 **Compatibility only:** **`strategy-expert-*-mind.md`** / **`CIV-MIND-*.md`** — extended quote bank + frozen role/contrast until rows migrate into profiles. **Do not** add new structured register tables here.
 
-| Lens | Role | Voice profile (SSOT) | Mind file (compatibility) |
-|------|------|----------------------|---------------------------|
+| Lens | Role | Voice profile (SSOT) | Mind file (redirect → profile) |
+|------|------|----------------------|--------------------------------|
 | Mercouris | Legitimacy, narrative, doctrine, symbolic continuity | [mercouris-profile.md](../../../statecraft/voices/mercouris/mercouris-profile.md) § detailed (Tier A) | [`strategy-expert-mercouris-mind.md`](../../../codex/strategy-expert-mercouris-mind.md) |
 | Mearsheimer | Power, alliances, security dilemmas, great-power geometry | [mearsheimer-profile.md](../../../statecraft/voices/mearsheimer/mearsheimer-profile.md) § detailed (Tier A) | [`strategy-expert-mearsheimer-mind.md`](../../../codex/strategy-expert-mearsheimer-mind.md) |
 | Barnes | Liability, jurisdiction, US civic machinery | [barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md) § detailed (Tier A) | [`strategy-expert-barnes-mind.md`](../../../codex/strategy-expert-barnes-mind.md) |
+
+**Triad mind files (2026-06):** redirect stubs only — historical corpus at `git show 904fb3bc6:codex/strategy-expert-<id>-mind.md`.
 
 **Redirect paths (stable links, not duplicate bodies):** [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) · [CIV-MIND-MEARSHEIMER.md](../../../codex/minds/CIV-MIND-MEARSHEIMER.md) · [CIV-MIND-BARNES.md](../../../codex/minds/CIV-MIND-BARNES.md)
 
