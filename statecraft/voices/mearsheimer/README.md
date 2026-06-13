@@ -19,6 +19,7 @@ That means:
 
 ## Open First
 
+- [mearsheimer-profile.md](mearsheimer-profile.md) — Tier A voice + June 2026 receipts
 - [mearsheimer-arc.md](mearsheimer-arc.md)
 - [mearsheimer-routing.md](mearsheimer-routing.md)
 - [mearsheimer-source-index.md](mearsheimer-source-index.md)

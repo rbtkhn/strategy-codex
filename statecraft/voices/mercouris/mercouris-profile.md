@@ -26,27 +26,56 @@ Alexander Mercouris is the long-form diplomatic-and-narrative synthesis lane: es
 
 <a id="voice-fingerprint-compact"></a>
 
-## Voice fingerprint (compact) — Tier B
+## Voice fingerprint (compact) — Tier A
 
 | Field | Value |
 |-------|-------|
-| **Voice tier** | `B` |
-| **Voice fingerprint — last reviewed** | `2026-04` |
+| **Voice tier** | `A` |
+| **Voice fingerprint — last reviewed** | `2026-06` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../../../codex/strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint (compact)](../voice-profile-template.md#voice-fingerprint-compact).
 
-## Tri-Frame mind (lens card — headings only)
+<a id="linguistic-style-fingerprint-detailed"></a>
 
-**Long-form fingerprint:** [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) (SSOT). [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) **redirects** here for stable links.
+## Linguistic style fingerprint (detailed)
 
-Headings-only pointers into the mapped corpus in [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) for **in-voice** passes; **not** a substitute for **Duran-primary** Judgment. Read that file for full **LINGUISTIC FINGERPRINT** prose.
+**Evidence class:** June 2026 intakes (15; `[iran]`/`[dual]`/`[ukraine]` tagged) + [`strategy-expert-mercouris-mind.md`](../../../codex/strategy-expert-mercouris-mind.md) § III quote bank. **Ukraine-primary rows not orthogonality-tested vs Barnes/Mearsheimer on Iran axes.** Orthogonality: [triad SSOT](../_scratch/triad-voice-orthogonality-june-2026.md).
 
-| Lens section (in mind file) | Use |
-|---------------------------------|-----|
-| **Purpose** | When tri-mind Mercouris is the requested register |
-| **LINGUISTIC FINGERPRINT** | Cadence, openers, hedging — authentic-voice discipline |
-| **Contrast / pivot tables** | Where this lens diverges from compressed notebook Judgment |
-| **Domain relevance** | Hormuz, Lebanon, Islamabad institutional “room” |
+| Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
+|--------|---------------|---------|---------------|--------------|
+| **1 Macro rhythm** | Program opener | Date + topic + difficulty frame `[iran]` | “Good day. Today is 11th June 2026… I'm still in Russia attending the conference” · [`2026-06-11` solo] | Barnes constraint-first “Real simple.” |
+| **1 Macro rhythm** | Reset pivots | Layer transitions `[mind-legacy]` | “Now about this…” · “But anyway…” · “There we are.” · [mind § III.A] | Sequential liability enumeration |
+| **1 Macro rhythm** | Section closure | Program boundary `[mind-legacy]` | “That's today's program.” · “This is where I finish my program today.” · [mind § III.A] | Terminal “Period.” hammer |
+| **2 Register** | British calm | Flat affect under catastrophe `[mind-legacy]` | “Utterly calm when discussing catastrophe” · [mind § III.D] | Southern sardonic nicknames |
+| **2 Register** | Scholarly current-events | Analytical not tabloid `[mind-legacy]` | “Scholarly even when discussing current events” · [mind § III.D] | Performative outrage |
+| **2 Register** | Ironic institutional distance | Subtle hypocrisy note `[mind-legacy]` | “Anyway, there we are.” · [mind § III.C] | Mockery except subtle irony |
+| **3 Syntax** | Self-correction | Qualify then refine `[mind-legacy]` | “well, not [X], [Y]” · “or rather [correction]” · [mind § III.A] | Is/isn't numbered list (Mearsheimer) |
+| **3 Syntax** | Question-answer self-structure | Pose then answer `[mind-legacy]` | Question-answer self-structure in long monologue · [mind § III intro] | Rhetorical absurdity without hedge |
+| **4 Lexical** | Escalation lexicon | “All bets are off” `[iran]` | “all bets are off and we might see escalations all the way up to possible attacks on desalination plants” · [`2026-06-11`] | Rug-pull presidency coinage |
+| **4 Lexical** | Market sentiment | “Penny drops” via Duran co-ref `[iran]` | “when the penny finally drops that the straight… is not going to fully reopen” · [`2026-06-11`] | Deal-count punditry (38×) as voice row |
+| **4 Lexical** | Source-attribution | Named outlet + caveat `[iran]` | Hersh anecdote framed with reliability downgrade · [`2026-06-11`] | Confession-through-projection |
+| **5 Epistemic** | Mandatory skepticism | High-frequency hedge `[iran]` | “I'm very skeptical about some of these claims” (Hormuz tankers) · [`2026-06-11`] | Barnes “There's no question that…” on personnel |
+| **5 Epistemic** | Not-on-ground fence | Scope limit `[iran]` | “I'm not there and I'm not able to observe what is actually taking place on the straight of Hormuz” · [`2026-06-11`] | Blunt competence verdict on Trump cognition |
+| **5 Epistemic** | Source-tier downgrade | Narrator reliability `[iran]` | “I no longer think that he is a reliable narrator about discussions… in Washington” (Hersh) · [`2026-06-11`] | Take attributed leak as verified fact |
+| **5 Epistemic** | Conditional surprise | Hedge + hypothesis `[iran]` | “I would not be at all surprised if this is what we're seeing” (military pleasing Trump) · [`2026-06-11`] | Minimal hedge on structural incentive |
+| **6 Rhetorical moves** | Claim skepticism | Tanker/transponder math `[iran]` | Skepticism about transponder-off passage + arranged reports · [`2026-06-11`] | Escalation ladder enumeration as primary |
+| **6 Rhetorical moves** | Military–political gap | Orders vs battlefield `[iran]` | “impossible orders from Trump… pretending… situation… is better than it really is” · [`2026-06-11`] | Legal exposure / who pays |
+| **6 Rhetorical moves** | Source archaeology | Conference unattributed `[dual]` | Beijing drone supply chain; withhold identity when no permission · [`2026-06-11`] | Barnes projection filter |
+| **6 Rhetorical moves** | Battlefield sourcing | Ryabkov/Raovka tier `[ukraine]` | Raovka Lyman reporting with nationalist-source caveat · [`2026-06-11`] | Iran seam orthogonality row |
+| **7 Format** | Conference-short program | Travel situational frame `[iran]` | Russia conference opener + Iran section before Ukraine pivot · [`2026-06-11`] | Davis long-form host dyad |
+| **7 Format** | Duran co-reference | Colleague citation `[iran]` | “program that Alex Christoforou and I have just done on the Duran” · [`2026-06-11`] | Solo Carlson guest validator |
+| **7 Format** | Ukraine map monologue | Deep battlefield paragraph `[ukraine]` | Lyman/Slavansk connurbation arc · [`2026-06-11`] | Domestic Fox-fear stack |
+| **8 Emulation QA** | Triad contrast | Full matrix | [triad-voice-orthogonality-june-2026.md](../_scratch/triad-voice-orthogonality-june-2026.md) | Duplicating 8-axis prose in profile |
+| **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “I'm very skeptical… I'm not there and I'm not able to observe…” · ✗ “confession through projection… rugpull presidency” | Barnes or Mearsheimer register |
+| **8 Emulation QA** | Anti-pattern fence | vs Mearsheimer | ✗ Numbered four-element ceasefire as default Mercouris spine | ✓ Hedge stack before operational claim |
+
+**Extended examples:** [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) § III (quote bank).
+
+## Mind pointer (quote bank + role)
+
+**Role / contrast / primary doctrine:** [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) · [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) redirects.
+
+**Structured register SSOT:** this file `#linguistic-style-fingerprint-detailed` (Tier A). Use mind file for extended transcript lines not yet migrated to table rows.
 
 ## Convergence fingerprint
 

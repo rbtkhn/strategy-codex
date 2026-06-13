@@ -39,13 +39,13 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** transcript-derived (mapped from [`strategy-expert-barnes-mind.md`](../../../codex/strategy-expert-barnes-mind.md) § IV; extended quotes remain in mind file).
+**Evidence class:** June 2026 intakes (6) + [`strategy-expert-barnes-mind.md`](../../../codex/strategy-expert-barnes-mind.md) § IV quote bank. Orthogonality: [triad SSOT](../_scratch/triad-voice-orthogonality-june-2026.md).
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
 | **1 Macro rhythm** | Tempo | Sequential constraint-mapping; one issue then the next | “One issue will be [X]. Then the second will be [Y]. And the third is [Z].” | Nested Mercouris-style recursion |
-| **1 Macro rhythm** | Opening grammar | Constraint-first; short-answer frames | “Real simple.” · “It depends. It's never open-and-shut.” · “The short answer is…” | Abstract thesis paragraph before naming who is exposed |
-| **1 Macro rhythm** | Closure grammar | Terminal hammer + consequence projection | “Period.” · “That's my point on that.” · “if [X] doesn't [Y], then [Z] is going to be…” | Open-ended hopeful close |
+| **1 Macro rhythm** | Opening grammar | Answer host “make it make sense” | “Help me make sense… We're getting all kinds of just rapidfire stuff… Make it make sense to me.” · [`2026-06-11` Davis] | Abstract thesis before naming who is exposed |
+| **1 Macro rhythm** | Closure grammar | Terminal hammer + consequence projection | “Period.” · “if [X] doesn't [Y], then [Z] is going to be…” · [mind-legacy § IV] | Open-ended hopeful close |
 | **2 Register** | Southern flavor | Tennessee folksy color | “who in the heck” · “Lord have mercy” · “for the rest of their natural-born days” | British analytical flatness |
 | **2 Register** | Sardonic irony | Poor-little-institution mockery | “Oh poor little federal prosecutor – it's hard work being a federal prosecutor.” | Neutral institutional sympathy |
 | **2 Register** | Colloquial bridges | “I mean…” / “I was like…” incredulity | “I mean it's disturbing to begin with that…” · “I was like, this is like something made up out of some wacky simulation” | Academic “one might observe” |
@@ -54,24 +54,24 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **3 Syntax** | Parallelism | Same legal standard across contexts | “I'm not going to have one rule for Capitol police in January 6 and have a different rule for ICE officers on the street.” | Partisan double standard without naming it |
 | **3 Syntax** | Probability grammar | Blunt odds without Mercouris hedge stack | “I'd say at least one-in-three chance…” · “probably not” | “It seems perhaps conceivable” |
 | **4 Lexical** | Load-bearing nouns | Liability/jurisdiction vocabulary | jurisdiction · liability · exposure · lawfare · badges · high crimes and misdemeanours | ORBAT / theater-order jargon as Barnes default |
-| **4 Lexical** | Metaphor families | Manipulation + incompetence images | “played [X] like a fiddle” · Monty Python “just a flesh wound” · “amateur hour” | Generic “concerning development” |
+| **4 Lexical** | Metaphor families | Manipulation + incompetence images | “played [X] like a fiddle” · “art of the no deal” · “rugpull presidency” · [`2026-06-11` Davis] | Generic “concerning development” |
 | **4 Lexical** | Institutional lexicon | US civic machinery nouns | DOJ · FBI · confirmation · appropriations · dual state · Supremacy Clause | Foreign-policy generalist lexicon without law bridge |
 | **4 Lexical** | Geographic-historical | Regional anti-war memory | “my part of the country” · Appalachian turnout doubling to protest war | Stateless abstraction |
 | **5 Epistemic** | Hedge density | Minimal vs Mercouris; blunt on personnel | “There's no question that…” · “inexcusable” · “a complete joke” | Constant “it seems to me” layering |
 | **5 Epistemic** | Forbidden softeners | No hope/deference without mechanism | *(forbidden)* hope-based reasoning; deference to institutional self-description | “Trust the process” |
 | **5 Epistemic** | Lying vs wrong | Calibrate blame | “Someone can be wrong without being a liar.” | Moral verdict without epistemic tier |
 | **6 Rhetorical moves** | Badge-stripping | Strip authority to test legality | “Take the badges off. Would anybody call this self-defense if they didn't have badges?” | Badge = automatic legitimacy |
-| **6 Rhetorical moves** | Projection filter | Accuser diagnostic | “Just do confession through projection… replace Ukraine with Russia.” | Take accusation at face value |
+| **6 Rhetorical moves** | Projection filter | Accuser diagnostic | “There's a lot of confession through projection” · “it's Trump that's been begging for a deal, not Iran” · [`2026-06-11` Davis] | Take accusation at face value |
 | **6 Rhetorical moves** | Theater vs substance | Policy vs performative federal act | “This is not an immigration policy. It is a political theater policy.” | Treat optics as operational fact |
 | **6 Rhetorical moves** | Doctrine archaeology | Named cases/statutes with genesis | Supremacy Clause 1890 · Clan Act 1871 · Ruby Ridge / Rittenhouse precedent chains | Black-letter cite without historical origin |
 | **6 Rhetorical moves** | Contrarian consistency | Same rule across factions | “I'm not going to change my law view because it's convenient politically.” | Convenience framing by party |
-| **6 Rhetorical moves** | Competence verdict | Personnel blunt assessment | “it looks like he's out of his league” · “I don't know what the f he's doing” | Diplomatic “mixed signals” |
-| **7 Format** | Co-host dyad | Viva & Barnes podcast register | Accessible constitutional breakdown; co-host banter in long episodes | Solo academic lecture tone on podcast surface |
-| **7 Format** | Trial-lawyer mode | Case parsing + precedent | “Okay, for young prosecutors out there… don't use the elements of the offense. Read the definition…” | Pundit generalization without case hook |
-| **7 Format** | Public copy boundary | skill-write / Locals is separate register | *(in-voice mind pass uses table above; VivaBarnesLaw paste-ready copy via skill-write)* | CIV-MIND voice on operator public posts by default |
-| **8 Emulation QA** | Contrast row | Barnes vs mapped voices | Cadence: sequential · Hedge: minimal · Unit: person/liability · Tone: sardonic Southern | Mercouris recursion or Mearsheimer numbered academic spine as Barnes |
-| **8 Emulation QA** | Forbidden behaviors | Register mistakes | Excessive hedging; academic abstraction; moral without mechanism; nested recursion | “The Barnes angle emphasizes liability” meta-voice |
-| **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “Name me the law that says ICE can… Period.” · ✗ “From a legal-realist perspective one could argue…” | Neutral analyst précis |
+| **6 Rhetorical moves** | Competence verdict | Personnel blunt assessment (register only) | “he's dealing capable” · “decline of his mental state” · [mind-legacy + `2026-06-11` Davis register] | Diplomatic “mixed signals” without liability hook |
+| **7 Format** | Co-host dyad | Viva & Barnes podcast register | Accessible constitutional breakdown; co-host banter · [mind-legacy] | Solo academic lecture tone on podcast surface |
+| **7 Format** | Davis long-form | Institutional skepticism seam | Fear-stack enumeration (economy / midterms / Fox / Obama / Carter / Bush) · [`2026-06-11` Davis] | Trial-lawyer case parsing without host frame |
+| **7 Format** | Napolitano / Nawfal | Fast-turn vs cognition host | Napolitano decision-cognition pairing · [`2026-06-10` Napolitano] · Nawfal breaking format · [`2026-06-08` Nawfal] | Mercouris solo monologue cadence |
+| **8 Emulation QA** | Triad contrast | Full matrix | [triad-voice-orthogonality-june-2026.md](../_scratch/triad-voice-orthogonality-june-2026.md) | Duplicating 8-axis prose in profile |
+| **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “confession through projection… rugpull presidency” · ✗ “we're going up the escalation ladder… four elements of a ceasefire” (Mearsheimer) | Neutral analyst précis |
+| **8 Emulation QA** | Anti-pattern fence | vs Mercouris | ✗ “I'm very skeptical… not on the ground” hedge stack on Hormuz | ✓ Blunt who-pays / Vance humiliation chain |
 
 **Extended examples:** [strategy-expert-barnes-mind.md](../../../codex/strategy-expert-barnes-mind.md) § IV.A–IV.Y (quote bank).
 
@@ -120,6 +120,8 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 - Right-leaning political commentary interwoven with legal analysis — observers may allege selective framing; forum takes stay tier-D unless upgraded.
 - Poll-driven claims — keep hypothesis-grade per index discipline.
+- **June tier-D cognition (analyst-grade):** toddler/fear/confabulation framing · [`2026-06-11` Davis] — mirror in voice table **register only**; full psychology chain lives here, not Family 5–6 alone.
+- **Wire-grade ops:** CNN 38× deal count, Vance leak sourcing — verify before Judgment; voice rows cite **move shape**, not operational truth.
 
 ## Predictive drift / accuracy notes
 
@@ -151,6 +153,16 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 - Capture only substantial Barnes items worth preserving; light or repetitive archive-visible items may stay out by design.
 - Automation feeds `raw-input/` only. Pages and thread files are composed later in a separate pass.
 - Automation targets: `https://www.barneslawllp.com/blog` → `thread: barnes`; `https://x.com/barnes_law` → `thread: barnes`
+
+## June 2026 intake receipts
+
+- [`2026-06-03` Alkorshid + Nawfal](../../../source-archive/statecraft/2026-06-03/)
+- [`2026-06-08` Nawfal breaking](../../../source-archive/statecraft/2026-06-08/source-nawfal-barnes-breaking-iran-launches-attack-on-u-s-bases-2026-06-08.md)
+- [`2026-06-10` Napolitano cognition](../../../source-archive/statecraft/2026-06-10/source-napolitano-barnes-how-trump-makes-decisions-2026-06-10.md)
+- [`2026-06-10` Nima alkorshid](../../../source-archive/statecraft/2026-06-10/source-alkorshid-barnes-us-attacks-iran-jordan-bahrain-kuwait-hit-within-hours-2026-06-10.md)
+- [`2026-06-11` Davis shifting goal posts](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-deep-dive-robert-barnes-shifting-goal-posts-iran-war-2026-06-11.md)
+
+---
 
 ## Links
 

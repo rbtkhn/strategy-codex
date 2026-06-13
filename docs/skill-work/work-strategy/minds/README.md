@@ -8,8 +8,8 @@
 
 | Lens | Role | Expert mind (quote bank) | Voice profile (structured register) |
 |------|------|--------------------------|-------------------------------------|
-| Mercouris | Legitimacy, narrative, doctrine, symbolic continuity | [`strategy-expert-mercouris-mind.md`](../../../codex/strategy-expert-mercouris-mind.md) | [mercouris-profile.md](../../../statecraft/voices/mercouris/mercouris-profile.md) (when Tier A) |
-| Mearsheimer | Power, alliances, security dilemmas, great-power geometry | [`strategy-expert-mearsheimer-mind.md`](../../../codex/strategy-expert-mearsheimer-mind.md) | [mearsheimer-profile.md](../../../statecraft/voices/) — *profile shelf pending* |
+| Mercouris | Legitimacy, narrative, doctrine, symbolic continuity | [`strategy-expert-mercouris-mind.md`](../../../codex/strategy-expert-mercouris-mind.md) | [mercouris-profile.md](../../../statecraft/voices/mercouris/mercouris-profile.md) § detailed (Tier A) |
+| Mearsheimer | Power, alliances, security dilemmas, great-power geometry | [`strategy-expert-mearsheimer-mind.md`](../../../codex/strategy-expert-mearsheimer-mind.md) | [mearsheimer-profile.md](../../../statecraft/voices/mearsheimer/mearsheimer-profile.md) § detailed (Tier A) |
 | Barnes | Liability, jurisdiction, US civic machinery | [`strategy-expert-barnes-mind.md`](../../../codex/strategy-expert-barnes-mind.md) | [barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md) § detailed (Tier A) |
 
 **Redirect paths (stable links, not duplicate bodies):** [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) · [CIV-MIND-MEARSHEIMER.md](../../../codex/minds/CIV-MIND-MEARSHEIMER.md) · [CIV-MIND-BARNES.md](../../../codex/minds/CIV-MIND-BARNES.md)
@@ -30,6 +30,6 @@ Protocol: [LEARN_MODE_RULES.md](../LEARN_MODE_RULES.md).
 
 **Post-entry lens menu (`strategy` / ingest):** [skill-strategy SKILL.md](../../../.cursor/skills/skill-strategy/SKILL.md) § Post-entry lens offer — for **Tier A** profiles, read **`#linguistic-style-fingerprint-detailed`** in the voice profile first, then mind file § IV for extended quotes. **Optional single lens only** — no tri-frame default.
 
-**Pass 2 mapping:** Barnes mind IV.\* → [barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md) detailed tables (2026-06); Mercouris / Mearsheimer profiles follow same eight-family schema when promoted.
+**Pass 2 mapping (2026-06):** Barnes, Mercouris, and Mearsheimer mind IV → voice-profile detailed tables; triad orthogonality SSOT: [triad-voice-orthogonality-june-2026.md](../../../statecraft/voices/_scratch/triad-voice-orthogonality-june-2026.md).
 
 **Tri-mind skill:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md) · legacy [tri-mind SKILL.md](../../../.cursor/skills/tri-mind/SKILL.md).

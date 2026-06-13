@@ -6,7 +6,7 @@ Purpose: single **shape contract** for `statecraft/voices/<speaker>/<speaker>-pr
 
 **Exemplars:**
 
-- **Full (Tier A linguistic):** [barnes/barnes-profile.md](barnes/barnes-profile.md)
+- **Full (Tier A linguistic):** [barnes/barnes-profile.md](barnes/barnes-profile.md) · [mercouris/mercouris-profile.md](mercouris/mercouris-profile.md) · [mearsheimer/mearsheimer-profile.md](mearsheimer/mearsheimer-profile.md)
 - **Seed:** [weichert/weichert-profile.md](weichert/weichert-profile.md) · [pape/pape-profile.md](pape/pape-profile.md)
 
 **Host profiles** reuse the same spine; swap shelf pointers and role framing for host-law / guest-transformation jobs. Exemplar: [../hosts/davis/davis-profile.md](../hosts/davis/davis-profile.md).
@@ -60,6 +60,7 @@ It is **not**:
 | `## Statecraft / AI` or bounded notes table | When thematic notes live under `statecraft/notes/` |
 | `## Seed` | When automation mirrors commentator index rows |
 | Mind pointer block | When `strategy-expert-<id>-mind.md` or CIV-MIND exists — quote bank + role/contrast; **not** duplicate of detailed tables |
+| Orthogonality notes | When triad/pair contrast is load-bearing — prefer shared SSOT under `_scratch/`; profiles link, Family 8 stubs only |
 | Intake receipt links (footer) | When Nawfal/archive captures are the profile's anchor set |
 
 **Seed maturity:** mark thin sections with `*Seed profile — operator extends when upgraded.*` or `*Seed — extend when Tier A.*` rather than omitting the heading.

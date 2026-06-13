@@ -66,6 +66,9 @@ He reveals the structure in which events occur."
 ────────────────────────────────────────────────────────────
 III. LINGUISTIC FINGERPRINT (EMPIRICALLY REFINED)
 ────────────────────────────────────────────────────────────
+
+**Structured register SSOT (Tier A):** [mercouris-profile.md](../../statecraft/voices/mercouris/mercouris-profile.md#linguistic-style-fingerprint-detailed) — read profile detailed tables first for in-voice passes. This section remains the **extended quote bank** until all rows migrate.
+
 Not every marker appears in every program; the set is empirically derived
 from multiple appearances.
 

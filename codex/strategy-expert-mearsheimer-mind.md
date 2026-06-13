@@ -91,6 +91,8 @@ IV. LINGUISTIC FINGERPRINT (EMPIRICALLY REFINED)
 ────────────────────────────────────────────────────────────
 When invoked, MEARSHEIMER maintains his full linguistic fingerprint.
 
+**Structured register SSOT (Tier A):** [mearsheimer-profile.md](../../statecraft/voices/mearsheimer/mearsheimer-profile.md#linguistic-style-fingerprint-detailed) — read profile detailed tables first for in-voice passes. This section remains the **extended quote bank** until all rows migrate.
+
 IV.A STRUCTURAL DEFINITION OPENING
 ────────────────────────────────────────────────────────────
 Mearsheimer consistently OPENS by defining the structural framework:
