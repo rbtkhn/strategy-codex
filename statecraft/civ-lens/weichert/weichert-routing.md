@@ -51,10 +51,10 @@ Purpose: fast-routing note for the canonical Weichert shelf (**Nawfal-first**, s
 
 - Route Nawfal captures through the **source index** first; do not treat Substack/X as the primary chronology owner.
 - Route AI days to **notes**, not duplicated mechanism tables in the profile.
-- Do not open arc, helix, or month stream until Phase 3 maturity — this note is the routing layer only.
+- Do not open helix or month stream until capture breadth warrants it — use [weichert-arc.md](weichert-arc.md) for person-level Nawfal continuity.
 - Verify wire-sensitive claims (tanker/ISR participation, vendor-specific Minab nodes) before synthesis; see profile **Failure modes**.
 
-## Deferred (Phase 3+)
+## Deferred
 
-- [ ] `weichert-arc.md` when a bounded 2026 Iran-war run stabilizes
-- [ ] helix / month stream when multi-host comparison becomes load-bearing
+- [ ] `weichert-helix.md` when a second host or authored strand crosses the Nawfal bench
+- [ ] month stream / support spine when multi-host comparison becomes load-bearing

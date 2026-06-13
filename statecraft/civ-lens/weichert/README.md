@@ -9,6 +9,7 @@ Use it for speaker identity, Nawfal-first source routing, Iran-war hawk mechanis
 ## Open First
 
 - [Speaker profile](weichert-profile.md) — identity, voice fingerprint, mechanism table, links hub
+- [Weichert arc](weichert-arc.md) — bounded 2026 Nawfal Iran-war continuity (May 17–Jun 8)
 - [Weichert routing](weichert-routing.md) — Nawfal-first task routes and source-class split
 - [Source index](weichert-source-index.md) — materialized Nawfal captures (2026-05 through 2026-06)
 - [weichert-on-ai.md](../../notes/weichert-on-ai.md) — surveillance stack, Minab kill chain, Palantir panopticon, China applied AI
@@ -16,9 +17,8 @@ Use it for speaker identity, Nawfal-first source routing, Iran-war hawk mechanis
 
 ## Maturity (honest)
 
-Phase 1 shipped **profile SSOT + source bench**. Phase 2 adds **[weichert-routing.md](weichert-routing.md)**. Still deferred:
+Phase 1 shipped **profile SSOT + source bench**. Phase 2 adds **[weichert-routing.md](weichert-routing.md)**. Phase 3 adds **[weichert-arc.md](weichert-arc.md)** (seed Nawfal run). Still deferred:
 
-- `weichert-arc.md`
 - helix / month stream / support spine
 
 ## Ingest law
