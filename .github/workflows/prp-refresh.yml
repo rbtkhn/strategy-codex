@@ -1,13 +1,8 @@
-# Refresh PRP when Record changes. Keeps the lattice anchor in sync.
+# Refresh PRP when Record changes. **Fork-revive / archaeology only** — Record frozen by default.
 name: PRP Refresh
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'self.md'
-      - 'self-evidence.md'
-      - 'bot/prompt.py'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -24,7 +19,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Regenerate PRP
+      - name: Regenerate PRP (grace-mar frozen Record)
         run: |
           python scripts/export_prp.py -u grace-mar -n Robert -o grace-mar-llm.txt
 

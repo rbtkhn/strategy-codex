@@ -18,12 +18,12 @@ jobs:
           python-version: "3.11"
 
       - name: Regenerate library index
-        run: python3 scripts/build_library_index.py -u grace-mar
+        run: python3 scripts/build_library_index.py -u strategy-codex
 
       - name: Assert artifacts/library-index.md matches generator
         run: |
           if ! git diff --exit-code -- artifacts/library-index.md; then
-            echo "::error::artifacts/library-index.md is out of date. Run: python3 scripts/build_library_index.py -u grace-mar"
+            echo "::error::artifacts/library-index.md is out of date. Run: python3 scripts/build_library_index.py -u strategy-codex"
             git diff -- artifacts/library-index.md | head -200
             exit 1
           fi

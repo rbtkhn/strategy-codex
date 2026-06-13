@@ -93,7 +93,7 @@ def load_mock_run(path: Path) -> dict[str, Any]:
 
 def _is_canonical_record_path(token: str) -> bool:
     norm = token.replace("\\", "/").strip().lower().lstrip("./")
-    if norm.startswith("users/grace-mar/"):
+    if norm.startswith("users/strategy-codex/") or norm.startswith("users/grace-mar/"):
         return True
     return norm in _CANONICAL_RECORD_PATHS
 
@@ -211,8 +211,8 @@ def resolve_mock_run_destination(repo_root: Path, output: Path | None) -> Path:
     except ValueError as e:
         raise ValueError(f"output must be under {bucket} (got {resolved})") from e
     rp = rel_to_repo.parts
-    if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
-        raise ValueError("refusing output path under ")
+    if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() in ("grace-mar", "strategy-codex"):
+        raise ValueError("refusing output path under users/grace-mar or users/strategy-codex")
     return resolved
 
 

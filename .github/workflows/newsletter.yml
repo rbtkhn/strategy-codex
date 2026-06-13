@@ -1,9 +1,7 @@
-# Weekly newsletter digest — generate and commit to research/newsletter/
+# Weekly newsletter digest — **manual / fork-revive archaeology only** (Record frozen).
 name: Newsletter digest
 
 on:
-  schedule:
-    - cron: "0 9 * * 1"  # Monday 09:00 UTC
   workflow_dispatch:
 
 jobs:

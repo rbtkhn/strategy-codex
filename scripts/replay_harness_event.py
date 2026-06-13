@@ -5,7 +5,8 @@ Harness Event Replay — correlate audit-lane JSONL + gate YAML for a candidate 
 Does not reconstruct full LLM prompts unless logged elsewhere. See docs/harness-replay.md.
 Implementation: grace_mar.replay (loaders use profile root with runtime-bundle fallback).
 
-  python scripts/replay_harness_event.py -u grace-mar --candidate CANDIDATE-0089
+  python scripts/replay_harness_event.py -u strategy-codex --candidate CANDIDATE-0089
+  python scripts/replay_harness_event.py -u grace-mar --candidate CANDIDATE-0089  # fork revive / archaeology only
   python scripts/replay_harness_event.py -u grace-mar --bundle-id abc123
   python scripts/replay_harness_event.py -u grace-mar --event-id evt_20260320_120000_a1b2c3d4
 """
@@ -33,7 +34,7 @@ from grace_mar.replay.report import build_report
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Replay harness/pipeline audit context for a candidate or bundle.")
-    ap.add_argument("-u", "--user", default="grace-mar", help="User id")
+    ap.add_argument("-u", "--user", default="strategy-codex", help="User id (default strategy-codex; use grace-mar only on fork revive)")
     ap.add_argument("--candidate", default="", help="CANDIDATE-nnnn")
     ap.add_argument("--bundle-id", default="", help="Harness bundle_id")
     ap.add_argument(

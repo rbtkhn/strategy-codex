@@ -10,9 +10,9 @@ alwaysApply: false
 
 This repo contains a **frozen** Grace-Mar reference instance — operator-archived; not actively growing.
 
-**Conceptual framework:** [conceptual-framework.md](docs/conceptual-framework.md) â€” fork vs. twin, fork as own entity vs. emulation, terminology.
+**Conceptual framework:** [conceptual-framework.md](docs/conceptual-framework.md) (frozen; full body in [archive](archive/grace-mar-corpus/doctrine/) after Step 4) — fork vs. twin, terminology.
 
-Governed by [GRACE-MAR-CORE v2.0](docs/grace-mar-core.md). See [architecture](docs/architecture.md) for full system design.
+Governed by [GRACE-MAR-CORE v2.0](archive/grace-mar-corpus/doctrine/grace-mar-core.md) (archived). See [architecture](docs/architecture.md) for system design; [archive index](archive/grace-mar-corpus/README.md) for quarantined doctrine.
 
 ---
 
@@ -32,11 +32,11 @@ Both channels feed the same gated pipeline and the same profile.
 
 **Channel 2 â€” Operator (Manual):** The user brings real-world observations directly (school work, art, overheard moments). Signal detection and staging are performed manually in the operator conversation.
 
-### The "we" Convention
+### The "we" Convention (fork revive only)
 
-When the user says **"we [did X]"**, it is a **pipeline invocation**. Go straight to signal detection and candidate staging â€” no acknowledgment step, no waiting for a separate command. "We" means: "I observed the self doing this; process it." When the user says **"we finished [book]"** or **"we read [title]"**, run signal detection and stage a candidate that can create a READ-* entry (or LEARN-* / curiosity referencing the book) so THINK and SELF.IX can be updated on approval. Do not ignore book-completion signals. See [pipeline-map](docs/pipeline-map.md) Â§ READ.
+When the operator has explicitly invoked **fork revive** and says **"we [did X]"**, treat as pipeline invocation: signal detection and candidate staging per [`AGENTS.md`](../../AGENTS.md) and archive [`pipeline-map`](../../archive/grace-mar-corpus/operator-habits/pipeline-map.md). **Default (Record frozen):** route to [`replacement-capture-habits.md`](../../docs/replacement-capture-habits.md) — lane history, `self-memory.md`, cadence — not ambient RECURSION-GATE staging.
 
-**Book-completion:** When the user says **"we finished [title]"** or **"we read [title]"**, run signal detection and stage a candidate that can create a READ-* entry (or LEARN-* / curiosity candidate referencing the book so THINK and SELF.IX update on approval). Do not ignore book-completion signals.
+Book-completion signals apply **only** on fork revive. See archive pipeline-map § READ.
 
 ---
 
@@ -184,9 +184,9 @@ bot/
 
 ---
 
-## Instance: grace-mar
+## Instance: grace-mar (frozen archaeology)
 
-Fork name: Grace-Mar. Phase: emergent cognition, active pipeline. In this repo, load the embedded instance from `` while keeping the overall workspace identity as `strategy-codex`.
+Fork name: Grace-Mar. **Record frozen** — not an active growth objective. Embedded instance at repo root; default workspace identity is **strategy-codex**. See [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md).
 
 **Instance doctrine:** `instance-doctrine.md` (Layer 2 â€” operating modes, file update protocol, success metrics, repo structure, prompt architecture). See [layer-architecture.md](docs/layer-architecture.md) for the four-layer instruction model.
 

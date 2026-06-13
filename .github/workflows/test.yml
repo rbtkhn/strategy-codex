@@ -47,12 +47,18 @@ jobs:
           pip install -e .
           pip install -e ".[reflect]"
 
-      - name: Verify grace-mar package CLI
+      - name: Verify package CLI (strategy-codex warmup default)
         run: |
           python -c "from pathlib import Path; from grace_mar.repo_io import repo_root; r = repo_root(); assert (r / 'users').is_dir(), r"
           grace-mar --help
-          grace-mar warmup -u grace-mar --compact | head -1
+          grace-mar warmup -u strategy-codex --compact | head -1
           grace-mar reflect --help | head -1
+
+      - name: Fork-language audit (strict)
+        run: python3 scripts/audit_fork_language.py --strict --errors-only
+
+      - name: Validate Grace-Mar stub redirects
+        run: python3 scripts/validate_grace_mar_stub_redirects.py
 
       - name: Run pytest
         run: pytest tests/ -v --tb=short
@@ -61,7 +67,7 @@ jobs:
       - name: Assert canonical paths
         run: python scripts/assert_canonical_paths.py --user grace-mar
 
-      - name: Validate integrity
+      - name: Validate integrity (frozen Grace-Mar Record — archaeology)
         run: python scripts/validate-integrity.py --user grace-mar --require-proposal-class
 
       - name: Validate template sync contract

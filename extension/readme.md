@@ -1,6 +1,8 @@
-# Grace-Mar Browser Extension
+# Grace-Mar Browser Extension — **legacy archaeology**
 
-One-click capture from any URL to your Grace-Mar Record. LLM transcript handback for ChatGPT/Grok/Claude. Local only; stages to RECURSION-GATE (user approves via /review in Telegram).
+**Record frozen.** Default operator surface is strategy-codex (statecraft/singularity). This extension stages to RECURSION-GATE only on explicit **fork revive**; otherwise use WORK capture per [`docs/replacement-capture-habits.md`](../docs/replacement-capture-habits.md).
+
+One-click capture from any URL to the embedded Grace-Mar Record. LLM transcript handback for ChatGPT/Grok/Claude. Local only; legacy Voice path via Telegram `/review`.
 
 ## Setup
 

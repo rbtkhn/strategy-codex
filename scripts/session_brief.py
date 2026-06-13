@@ -636,7 +636,7 @@ def main() -> int:
         topics_str = ", ".join(from_record)
         lines.append(f"The Record holds: {topics_str}. Ask Grace-Mar to recall any of these.")
     else:
-        lines.append("(nothing yet — pipeline will grow the Record)")
+        lines.append("(nothing yet — Record frozen; use statecraft/singularity WORK for continuity — see docs/replacement-capture-habits.md)")
     lines.extend(["", "## Suggested Activities", ""])
     if suggested_activities:
         for a in suggested_activities:
