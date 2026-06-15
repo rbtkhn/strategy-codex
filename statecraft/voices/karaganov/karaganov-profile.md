@@ -118,7 +118,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 ## Ingest note
 
 - Primary intake family: `source-glenn-diesen-*-karaganov-*` under `source-archive/statecraft/`.
-- Legacy 2025 Diesen solos remain on `codex/years/` until archive promotion — see [karaganov-source-index.md](karaganov-source-index.md).
+- 2025 Diesen solos promoted to archive SSOT (2026-06-13); legacy `codex/years/` stubs are redirects — see [karaganov-source-index.md](karaganov-source-index.md).
 
 ## Links
 
