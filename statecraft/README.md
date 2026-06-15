@@ -125,7 +125,7 @@ Use:
 - [Sovereignty Under Acceleration](../essays/sovereignty-under-acceleration.md) — cross-channel bridge essay (workshop [sheet](../singularity/workshop/sheets/sovereignty-under-acceleration.md) for operating passes)
 - [High-Skill Labor Compression and Sovereign Judgment](compact/high-skill-labor-compression-and-sovereign-judgment.md)
 - [High-Skill Labor Compression and American Command](america/high-skill-labor-compression-and-american-command.md)
-- [High-Skill Labor Compression and Civilizational Statecraft](states/high-skill-labor-compression-and-civilizational-statecraft.md)
+- [High-Skill Labor Compression and Civilizational Statecraft](states/essays/high-skill-labor-compression-and-civilizational-statecraft.md)
 
 The active higher-order interpretive frame for this stack is now:
 
@@ -185,7 +185,7 @@ This is a retrieval aid, not a mandatory first-router. Use it when order collaps
 - `Industrial` = mass-state and industrial command
 - `Cybernetic` = post-1991 network, sanctions, platform, deterrence, and system-administration age
 
-Canonical doctrine lives in [Civilization, Empire, Faith, Science, Memory, Desire](states/civilization-empire-faith-science-memory-desire.md) and the bounded operator pass lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md).
+Canonical doctrine lives in [Civilizational Statecraft Framework](states/framework/doctrine.md) and the bounded operator pass lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md).
 
 Read the stack in this order:
 

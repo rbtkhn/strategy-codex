@@ -146,7 +146,7 @@ The ladder is reusable anywhere the system is tempted to sound persuasive before
 - Need ownership judgment? open `state-deploy`.
 - Need cross-lane mechanism after ownership? open [../compact/README.md](../compact/README.md).
 - Need bundle reuse? open [transaction-router.md](transaction-router.md).
-- Need higher-order diagnosis before trusting the draft? open [../states/civilization-empire-faith-science-memory-desire.md](../states/civilization-empire-faith-science-memory-desire.md).
+- Need higher-order diagnosis before trusting the draft? open [../states/framework/doctrine.md](../states/framework/doctrine.md).
 - Need deep legitimacy first? open [../states/sacred-grammar/README.md](../states/sacred-grammar/README.md).
 
 ## Teaching Line

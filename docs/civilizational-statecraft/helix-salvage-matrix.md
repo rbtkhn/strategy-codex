@@ -20,8 +20,8 @@ Maps the legacy **`rbtkhn/civ-emp`** helix-lane public cut to the **`rbtkhn/civ-
 | `transactions/*` | **Do not publish** | strategy-codex operator layer |
 | Orientation routers (`migration/orientation-*.md`) | Archive | `reader-guide.md`, `source-lattice.md` |
 | `indexes/source-retrieval-matrix.md` | **Do not publish** | Public source-lattice + volume shelves |
-| `synthesis/*` helix memos | Audit → distill | `comparative/continuity-mechanism.md`, pattern-library |
-| `iran/hormuz-recognition-transit-restraint.md` | Publish (transformed) | `comparative/hormuz-recognition-transit-restraint.md` |
+| `synthesis/*` helix memos | Audit → distill | `framework/continuity.md`, pattern-library |
+| `iran/hormuz-recognition-transit-restraint.md` | Publish (transformed) | `essays/hormuz-recognition-transit-restraint.md` |
 | Hormuz proof logic in transactions | **Do not publish** | Mechanism already in comparative object |
 | `ARCHITECTURE.md` helix doctrine | Archive | `FOUNDING-PROVENANCE.md` + `archive/helix-lane-v1/` |
 | Speaker indexes under `indexes/mercouris/` etc. | Archive | Not book apparatus; optional future advanced layer |
@@ -38,9 +38,9 @@ Maps the legacy **`rbtkhn/civ-emp`** helix-lane public cut to the **`rbtkhn/civ-
 
 ## High-value distillations (P0)
 
-1. **Hormuz** — already in `statecraft/states/persia/hormuz-recognition-transit-restraint.md` → export to comparative/
-2. **Continuity mechanism** — whole-work comparative door (`continuity-mechanism.md`)
-3. **Pattern library** — cross-case sheets under `comparative/pattern-library/`
+1. **Hormuz** — already in `statecraft/states/essays/hormuz-recognition-transit-restraint.md` → export to comparative/
+2. **Continuity mechanism** — whole-work comparative door (`framework/continuity.md`)
+3. **Pattern library** — cross-case sheets under `framework/patterns/`
 4. **Sacred grammar** — legitimacy substrate per civ
 
 ## Archive location

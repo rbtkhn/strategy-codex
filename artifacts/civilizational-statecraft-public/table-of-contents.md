@@ -111,12 +111,12 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Civilizational Motion](framework/civilizational-motion.md)
-4. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)
-5. [Era Law](framework/era-law.md)
+3. [Civilizational Motion](framework/motion.md)
+4. [Civilizational Statecraft Framework](framework/doctrine.md)
+5. [Era Law](framework/era.md)
 6. [Hybrid References](hybrid-references.md)
-7. [Comparative Continuity](comparative/continuity-mechanism.md)
-8. [Pattern Library](comparative/pattern-library/README.md)
+7. [Continuity Mechanism](framework/continuity.md)
+8. [Pattern Library](framework/patterns/README.md)
 9. [Index](index.md)
 10. [Source-Lattice](source-lattice.md)
 

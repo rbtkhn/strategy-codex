@@ -131,7 +131,7 @@ Secondary object classes such as `god`, `lit`, `art`, `geo`, `war`, and `peace` 
 
 Return to:
 
-- [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local)
+- [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local)
 - lane civilization surfaces
 - lane `state-memory`
 
@@ -141,13 +141,13 @@ Return to:
 
 - empire instruments
 - [transaction router](../sheets/transaction-router.md)
-- state carrier surfaces; for phase rhythm see [Civilizational motion](framework/civilizational-motion.md)
+- state carrier surfaces; for phase rhythm see [Civilizational motion](motion.md)
 
 ### If faith is governing
 
 Return to:
 
-- [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local)
+- [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local)
 - lane-local `god`
 - other legitimacy-bearing civilization surfaces
 
@@ -185,9 +185,9 @@ Use this doctrine when:
 
 Do not use it as a substitute for source objects or transaction design. Its job is to identify the governing layer and return you to the right retrieval surface.
 
-When periodization or era-matched shelf choice matters, use [Era Law](framework/era-law.md) as background architecture — after the governing pair is named, not before.
+When periodization or era-matched shelf choice matters, use [Era Law](era.md) as background architecture — after the governing pair is named, not before.
 
-When phase placement in the beautify → amplify → degrade rhythm matters, use [Civilizational motion](framework/civilizational-motion.md) before era shelves or lane descent.
+When phase placement in the beautify → amplify → degrade rhythm matters, use [Civilizational motion](motion.md) before era shelves or lane descent.
 
 ## Bottom line
 

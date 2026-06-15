@@ -41,7 +41,7 @@ So Persia participates in the pattern, but does not end in it.
 
 ## Key source doors
 
-- [Continuity Mechanism](../continuity-mechanism.md)
+- [Continuity Mechanism](../continuity.md)
 - [Rome bibliography](../../volumes/rome/bibliography.md)
 - Augustine, *City of God*
 - *Corpus Juris Civilis*

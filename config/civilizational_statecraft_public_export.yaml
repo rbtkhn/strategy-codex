@@ -1,7 +1,7 @@
 # Civilizational Statecraft public export manifest (WORK; not Record)
 # SSOT for scripts/export_civilizational_statecraft_public.py
 schema_version: "1.0.0"
-release_tag: "v0.1.6"
+release_tag: "v0.1.7"
 canonical_public_repo: "https://github.com/rbtkhn/civ-state"
 legacy_public_repo: "https://github.com/rbtkhn/civ-emp"
 
@@ -62,28 +62,31 @@ apparatus:
   - src: hybrid-references.md
     dest: hybrid-references.md
     transform: hybrid_references_public
-  - src: civilization-empire-faith-science-memory-desire.md
-    dest: framework/civilization-empire-faith-science-memory-desire.md
+  - src: framework/doctrine.md
+    dest: framework/doctrine.md
     transform: strip_work_fence
-  - src: framework/era-law.md
-    dest: framework/era-law.md
+  - src: framework/era.md
+    dest: framework/era.md
     transform: strip_work_fence
-  - src: framework/civilizational-motion.md
-    dest: framework/civilizational-motion.md
+  - src: framework/motion.md
+    dest: framework/motion.md
     transform: strip_work_fence
-  - src: continuity-mechanism.md
-    dest: comparative/continuity-mechanism.md
+  - src: framework/continuity.md
+    dest: framework/continuity.md
     transform: strip_work_fence
-  - src: high-skill-labor-compression-and-civilizational-statecraft.md
-    dest: comparative/high-skill-labor-compression-and-civilizational-statecraft.md
+  - src: framework/README.md
+    dest: framework/README.md
+    transform: strip_work_fence
+  - src: essays/high-skill-labor-compression-and-civilizational-statecraft.md
+    dest: essays/high-skill-labor-compression-and-civilizational-statecraft.md
     transform: high_skill_public
-  - src: persia/hormuz-recognition-transit-restraint.md
-    dest: comparative/hormuz-recognition-transit-restraint.md
+  - src: essays/hormuz-recognition-transit-restraint.md
+    dest: essays/hormuz-recognition-transit-restraint.md
     transform: hormuz_public
 
 directories:
-  - src: pattern-library
-    dest: comparative/pattern-library
+  - src: framework/patterns
+    dest: framework/patterns
     transform: strip_work_fence
 
 generated:

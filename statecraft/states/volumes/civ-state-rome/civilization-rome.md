@@ -86,4 +86,4 @@ Open Rome correctly by asking whether the problem involves territorial power, or
 - [Rome sacred grammar](../../volumes/civ-state-rome/sacred-grammar.md)
 - [Rome volume writing brief](../../../rome/rome-volume-writing-brief.md)
 - [Statecraft front door](../../../README.md)
-- [Civilizational Statecraft Framework](../../civilization-empire-faith-science-memory-desire.md)
+- [Civilizational Statecraft Framework](../../framework/doctrine.md)

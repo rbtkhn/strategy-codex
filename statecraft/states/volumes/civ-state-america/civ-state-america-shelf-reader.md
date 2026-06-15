@@ -39,4 +39,4 @@ Switchboard rule:
 - Open [America civilization](civilization-america.md) if the live question is continuity, legitimacy, or category strain.
 - Open [America empire](empire-america.md) if the live question is maritime-financial reach, alliance stack, or outward instrument.
 - Open [America empire](empire-america.md) if the live question is command burden, fragmentation, or settlement-bearing restraint.
-- Return to [Source Retrieval Matrix](../../indexes/source-retrieval-matrix.md) or [Continuity Mechanism](../../continuity-mechanism.md) only after the America shelf has been read as a contested late-opening case.
+- Return to [Source Retrieval Matrix](../../indexes/source-retrieval-matrix.md) or [Continuity Mechanism](../../framework/continuity.md) only after the America shelf has been read as a contested late-opening case.

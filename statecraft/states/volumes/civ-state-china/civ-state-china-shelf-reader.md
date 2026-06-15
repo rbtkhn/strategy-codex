@@ -40,4 +40,4 @@ Switchboard rule:
 - Open [China civilization](civilization-china.md) if the live question is legitimacy or continuity.
 - Open [China empire](empire-china.md) if the live question is outward instrument, maritime pressure, or scale.
 - Open [China empire](empire-china.md) if the live question is present-tense pressure, room, or settlement.
-- Return to [Continuity Mechanism](../../continuity-mechanism.md) or the [Pattern Library](../../pattern-library/README.md) only after the China shelf has been read in its own grammar.
+- Return to [Continuity Mechanism](../../framework/continuity.md) or the [Pattern Library](../../framework/patterns/README.md) only after the China shelf has been read in its own grammar.

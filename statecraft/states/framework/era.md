@@ -1,5 +1,7 @@
 # Civilizational Era Law
 
+WORK only; not Record.
+
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: name the shared form-historical era spine used across volume bibliographies and governing-layer retrieval  
@@ -9,7 +11,7 @@ Last updated: 2026-06-15
 
 Civilizational Statecraft is not organized by calendar convenience alone. Its era cuts are **form-historical**: they mark shifts in how inherited order, outward instrument, and present carrier are carried — not merely when events happened.
 
-Use era law as **background architecture** when chronology, shelf choice, or post-1991 command form matters. It is **not** a mandatory first router. Identify the [governing layer](civilization-empire-faith-science-memory-desire.md) first; open an era shelf when periodization clarifies the read.
+Use era law as **background architecture** when chronology, shelf choice, or post-1991 command form matters. It is **not** a mandatory first router. Identify the [governing layer](doctrine.md) first; open an era shelf when periodization clarifies the read.
 
 ## The five eras
 
@@ -70,8 +72,8 @@ Use era law when:
 
 Do **not** use era law when:
 
-- the governing pair is still unclear — return to the [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md) first
-- the problem is already clearly comparative across civilizations — use [Continuity Mechanism](../comparative/continuity-mechanism.md) or the [Pattern Library](../comparative/pattern-library/README.md)
+- the governing pair is still unclear — return to the [Civilizational Statecraft Framework](doctrine.md) first
+- the problem is already clearly comparative across civilizations — use [Continuity Mechanism](continuity.md) or the [Pattern Library](patterns/README.md)
 - the problem is vocabulary or evidence law — use [Glossary](../glossary.md) or [Hybrid References](../hybrid-references.md)
 
 ### Read sequence inside a volume
@@ -99,8 +101,8 @@ When two eras both seem active, ask which **form** is governing behavior now —
 
 ## Relation to other framework surfaces
 
-- [Civilizational motion](civilizational-motion.md) — three-beat rhythm and retrieval movement; read when phase placement governs
-- [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md) — governing six-term doctrine; era law supports it, does not replace it
+- [Civilizational motion](motion.md) — three-beat rhythm and retrieval movement; read when phase placement governs
+- [Civilizational Statecraft Framework](doctrine.md) — governing six-term doctrine; era law supports it, does not replace it
 - [Reader Guide](../reader-guide.md) — whole-work reading method and volume chapter law
 - Volume `sacred-grammar.md` — legitimacy substrate when faith or civilization governs within one case
 

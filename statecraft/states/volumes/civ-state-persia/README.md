@@ -92,7 +92,7 @@ Best current carriers:
 - [Iran helix](../../../persia/helix.md)
 - [Iran state carriers](../../../persia/state/README.md)
 - [Iran transactions](../../../persia/transactions/README.md)
-- [Hormuz proof object](../../persia/hormuz-recognition-transit-restraint.md)
+- [Hormuz proof object](../../essays/hormuz-recognition-transit-restraint.md)
 
 ## Present Sovereign Capstone
 

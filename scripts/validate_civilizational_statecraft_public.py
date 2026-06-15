@@ -41,11 +41,16 @@ REQUIRED_ROOT = [
 ]
 
 REQUIRED_FRAMEWORK = [
-    "framework/civilization-empire-faith-science-memory-desire.md",
-    "framework/civilizational-motion.md",
-    "framework/era-law.md",
-    "comparative/continuity-mechanism.md",
-    "comparative/pattern-library/README.md",
+    "framework/doctrine.md",
+    "framework/motion.md",
+    "framework/era.md",
+    "framework/continuity.md",
+    "framework/patterns/README.md",
+]
+
+REQUIRED_ESSAYS = [
+    "essays/high-skill-labor-compression-and-civilizational-statecraft.md",
+    "essays/hormuz-recognition-transit-restraint.md",
 ]
 
 VOLUME_ESSAYS = ["civilization", "empire"]
@@ -182,6 +187,7 @@ def main() -> int:
     errors: list[str] = []
     errors.extend(check_required(export, REQUIRED_ROOT))
     errors.extend(check_required(export, REQUIRED_FRAMEWORK))
+    errors.extend(check_required(export, REQUIRED_ESSAYS))
     errors.extend(check_forbidden(export, manifest.get("forbidden_patterns", []), exclude_prefixes))
 
     era_spine = manifest.get("era_spine", {})

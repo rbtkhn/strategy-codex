@@ -6,4 +6,4 @@ This folder holds CIV-STATE source objects for Persia-lane statecraft. Use it wh
 
 Proof object:
 
-- [Hormuz Recognition / Transit Restraint](hormuz-recognition-transit-restraint.md) - converts Iran's geography, sovereignty memory, and chokepoint leverage into a source object for recognition-for-transit settlement design.
+- [Hormuz Recognition / Transit Restraint](../../essays/hormuz-recognition-transit-restraint.md) - converts Iran's geography, sovereignty memory, and chokepoint leverage into a source object for recognition-for-transit settlement design.

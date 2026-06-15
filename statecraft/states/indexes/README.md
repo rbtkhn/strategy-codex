@@ -22,7 +22,7 @@ Whole-work doors:
 - [Hybrid References](../hybrid-references.md)
 - [Index](../index.md)
 - [Volume map](../volumes/README.md)
-- [Civilization, Empire, Faith, Science, Memory, Desire](../civilization-empire-faith-science-memory-desire.md)
+- [Civilization, Empire, Faith, Science, Memory, Desire](../framework/doctrine.md)
 - [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](../civilization-empire-faith-science-memory-desire-retrieval-checklist.md)
 
 Retrieval maps and difficulty surfaces:
@@ -48,4 +48,4 @@ Migration and companion support:
 
 Proof object:
 
-- [Persia: Hormuz Recognition / Transit Restraint](../persia/hormuz-recognition-transit-restraint.md)
+- [Persia: Hormuz Recognition / Transit Restraint](../essays/hormuz-recognition-transit-restraint.md)

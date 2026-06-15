@@ -113,10 +113,10 @@ Use this layer when the problem is retrieval, comparison, vocabulary, or upstrea
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md)
+3. [Civilizational Statecraft Framework](framework/doctrine.md)
 4. [Hybrid References](hybrid-references.md)
-5. [Continuity Mechanism](continuity-mechanism.md)
-6. [Civilizational Pattern Library](pattern-library/README.md)
+5. [Continuity Mechanism](framework/continuity.md)
+6. [Civilizational Pattern Library](framework/patterns/README.md)
 7. [Index](index.md)
 8. [Source Retrieval Matrix](indexes/source-retrieval-matrix.md)
 9. [PH-CIV to CIV-STATE Bridge](ph-civ-to-civ-state-bridge.md)

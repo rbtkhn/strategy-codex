@@ -136,12 +136,12 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Civilizational Motion](framework/civilizational-motion.md)
-4. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)
-5. [Era Law](framework/era-law.md)
+3. [Civilizational Motion](framework/motion.md)
+4. [Civilizational Statecraft Framework](framework/doctrine.md)
+5. [Era Law](framework/era.md)
 6. [Hybrid References](hybrid-references.md)
-7. [Comparative Continuity](comparative/continuity-mechanism.md)
-8. [Pattern Library](comparative/pattern-library/README.md)
+7. [Continuity Mechanism](framework/continuity.md)
+8. [Pattern Library](framework/patterns/README.md)
 9. [Index](index.md)
 10. [Source-Lattice](source-lattice.md)
 
@@ -173,12 +173,12 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
         if block:
             replacement = (
                 block.group(1)
-                + "1. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)\n"
+                + "1. [Civilizational Statecraft Framework](framework/doctrine.md)\n"
                 + "2. [Hybrid References](hybrid-references.md)\n"
                 + "3. [Index](index.md)\n"
                 + "4. [Source-Lattice](source-lattice.md)\n"
-                + "5. [Comparative Continuity](comparative/continuity-mechanism.md)\n"
-                + "6. [Pattern Library](comparative/pattern-library/README.md)\n"
+                + "5. [Continuity Mechanism](framework/continuity.md)\n"
+                + "6. [Pattern Library](framework/patterns/README.md)\n"
             )
             text = text[: block.start()] + replacement + text[block.end() :]
         text = re.sub(
@@ -224,18 +224,28 @@ def transform_index_public(text: str, manifest: dict, volume_slugs: dict[str, st
         lines.append(line)
     text = "\n".join(lines) + "\n"
     text = re.sub(
-        r"pattern-library/",
-        "comparative/pattern-library/",
+        r"framework/patterns/",
+        "framework/patterns/",
         text,
     )
     text = re.sub(
         r"\]\(continuity-mechanism\.md\)",
-        "](comparative/continuity-mechanism.md)",
+        "](framework/continuity.md)",
+        text,
+    )
+    text = re.sub(
+        r"\]\(framework/continuity-mechanism\.md\)",
+        "](framework/continuity.md)",
         text,
     )
     text = re.sub(
         r"\]\(high-skill-labor-compression",
-        "](comparative/high-skill-labor-compression",
+        "](essays/high-skill-labor-compression",
+        text,
+    )
+    text = re.sub(
+        r"\]\(essays/high-skill-labor-compression",
+        "](essays/high-skill-labor-compression",
         text,
     )
     return strip_ph_civ_prose(strip_operator_links(text))
@@ -259,8 +269,13 @@ def transform_hybrid_references_public(text: str, manifest: dict, volume_slugs: 
     )
     text = strip_ph_civ_prose(strip_operator_links(text))
     text = re.sub(
-        r"pattern-library/",
-        "comparative/pattern-library/",
+        r"framework/patterns/",
+        "framework/patterns/",
+        text,
+    )
+    text = re.sub(
+        r"framework/patterns/",
+        "framework/patterns/",
         text,
     )
     return text
@@ -388,27 +403,127 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
             text,
         )
 
-    framework = f"{prefix}framework/civilization-empire-faith-science-memory-desire.md"
+    framework = f"{prefix}framework/doctrine.md"
+    motion = f"{prefix}framework/motion.md"
+    era = f"{prefix}framework/era.md"
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?doctrine\.md\)",
+        f"]({framework})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?motion\.md\)",
+        f"]({motion})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?era\.md\)",
+        f"]({era})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?civilizational-framework\.md\)",
+        f"]({framework})",
+        text,
+    )
     text = re.sub(
         r"\]\((?:\.\./)*(?:framework/)?civilization-empire-faith-science-memory-desire\.md\)",
         f"]({framework})",
         text,
     )
-    if dest_rel.parts[:1] == ("comparative",):
-        comparative_path = "continuity-mechanism.md"
-    else:
-        comparative_path = f"{prefix}comparative/continuity-mechanism.md"
+    continuity = f"{prefix}framework/continuity.md"
+    patterns = f"{prefix}framework/patterns/"
     text = re.sub(
         r"\]\((?:\.\./)*continuity-mechanism\.md\)",
-        f"]({comparative_path})",
+        f"]({continuity})",
         text,
     )
     text = re.sub(
-        r"\]\((?:\.\./)*pattern-library/",
-        f"]({prefix}comparative/pattern-library/",
+        r"\]\((?:\.\./)*(?:framework/)?continuity\.md\)",
+        f"]({continuity})",
         text,
     )
-    if dest_rel.parts[:1] == ("framework",):
+    text = re.sub(
+        r"\]\((?:\.\./)*comparative/continuity-mechanism\.md\)",
+        f"]({continuity})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*framework/patterns/",
+        f"]({patterns}",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*framework/patterns/",
+        f"]({patterns}",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*framework/patterns/",
+        f"]({patterns}",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*essays/(high-skill-labor-compression[^)]+\))",
+        rf"]({prefix}essays/\1",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*comparative/(high-skill-labor-compression[^)]+\))",
+        rf"]({prefix}essays/\1",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*essays/(hormuz-recognition[^)]+\))",
+        rf"]({prefix}essays/\1",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*comparative/(hormuz-recognition[^)]+\))",
+        rf"]({prefix}essays/\1",
+        text,
+    )
+    if dest_rel.parts[:2] == ("framework", "patterns"):
+        for root_doc in (
+            "reader-guide.md",
+            "glossary.md",
+            "index.md",
+            "table-of-contents.md",
+            "introduction.md",
+            "hybrid-references.md",
+            "volumes/README.md",
+        ):
+            text = re.sub(
+                rf"\]\((?:\.\./)*{re.escape(root_doc)}",
+                f"](../../{root_doc}",
+                text,
+            )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/continuity\.md\)",
+            "](../continuity.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*continuity\.md\)",
+            "](../continuity.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/doctrine\.md\)",
+            "](../doctrine.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/motion\.md\)",
+            "](../motion.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/era\.md\)",
+            "](../era.md)",
+            text,
+        )
+    elif dest_rel.parts[:1] == ("framework",) and len(dest_rel.parts) == 2:
         for root_doc in (
             "reader-guide.md",
             "glossary.md",
@@ -424,26 +539,66 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
                 text,
             )
         text = re.sub(
+            r"\]\(\.\./framework/doctrine\.md\)",
+            "](doctrine.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\(\.\./doctrine\.md\)",
+            "](doctrine.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\(\.\./framework/civilizational-framework\.md\)",
+            "](doctrine.md)",
+            text,
+        )
+        text = re.sub(
             r"\]\(\.\./framework/civilization-empire-faith-science-memory-desire\.md\)",
-            "](civilization-empire-faith-science-memory-desire.md)",
+            "](doctrine.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\(\.\./civilizational-framework\.md\)",
+            "](doctrine.md)",
             text,
         )
         text = re.sub(
             r"\]\(\.\./civilization-empire-faith-science-memory-desire\.md\)",
-            "](civilization-empire-faith-science-memory-desire.md)",
+            "](doctrine.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/era\.md\)",
+            "](era.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/civilizational-era\.md\)",
+            "](era.md)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*framework/era-law\.md\)",
-            "](era-law.md)",
+            "](era.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/motion\.md\)",
+            "](motion.md)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*framework/civilizational-motion\.md\)",
-            "](civilizational-motion.md)",
+            "](motion.md)",
             text,
         )
-    if dest_rel.parts[:1] == ("comparative",):
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/patterns/",
+            "](patterns/",
+            text,
+        )
+    if dest_rel.parts[:1] == ("essays",):
         readme = "../README.md"
     elif dest_rel.parts[:1] == ("framework",):
         readme = "../README.md"
@@ -518,14 +673,23 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
 
     depth = len(dest_rel.parts) - 1
     up = "../" * depth if depth else ""
-    if depth == 1 and dest_rel.parts[0] == "comparative" and len(dest_rel.parts) == 2:
+    if depth == 1 and dest_rel.parts[0] == "essays" and len(dest_rel.parts) == 2:
         text = re.sub(r"\]\(volumes/", r"](../volumes/", text)
+    if depth == 1 and dest_rel.parts[0] == "framework" and len(dest_rel.parts) == 2:
+        text = re.sub(r"\]\(volumes/", r"](../volumes/", text)
+    if depth == 2 and dest_rel.parts[:2] == ("framework", "patterns"):
+        text = re.sub(r"\]\(volumes/", r"](../../volumes/", text)
     if depth >= 2:
         text = re.sub(r"\]\(\.\./volumes/", f"]({'../' * depth}volumes/", text)
         text = re.sub(r"\]\(\.\./glossary\.md\)", f"]({'../' * depth}glossary.md)", text)
         text = re.sub(
             r"\]\(continuity-mechanism\.md\)",
-            f"]({'../' * (depth - 1)}continuity-mechanism.md)",
+            f"]({'../' * (depth - 1)}framework/continuity.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\(framework/continuity\.md\)",
+            f"]({'../' * (depth - 1)}framework/continuity.md)",
             text,
         )
     text = re.sub(

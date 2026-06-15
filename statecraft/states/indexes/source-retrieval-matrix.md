@@ -39,7 +39,7 @@ Route by governing layer or governing pair:
 
 One live retrieval family now worth naming explicitly is **high-skill labor compression**. Use it when synthetic cognition compresses elite analytical, legal, diplomatic, intelligence, clerical, or policy-forming work and the real question becomes judgment infrastructure, legitimacy, sovereign carrier, or apprenticeship loss rather than labor-market productivity alone. Best current bridge objects:
 
-- [High-Skill Labor Compression and Civilizational Statecraft](../high-skill-labor-compression-and-civilizational-statecraft.md)
+- [High-Skill Labor Compression and Civilizational Statecraft](../essays/high-skill-labor-compression-and-civilizational-statecraft.md)
 - [High-Skill Labor Compression and Sovereign Judgment](../../compact/high-skill-labor-compression-and-sovereign-judgment.md)
 
 Terminology note:

@@ -33,11 +33,11 @@ Civilizational Statecraft is a **five-volume** whole-work book with shared retri
 
 The first cross-civilizational comparison-sheet layer now begins with:
 
-- [Continuity Mechanism](continuity-mechanism.md)
+- [Continuity Mechanism](framework/continuity.md)
 
 The first comparative pattern shelf now begins with:
 
-- [Civilizational Pattern Library](pattern-library/README.md)
+- [Civilizational Pattern Library](framework/patterns/README.md)
 
 Each civilization-state volume should also carry its own bibliography with a primary-source center of gravity.
 
@@ -54,7 +54,7 @@ Use it when the real question is:
 - membrane promotion
 - review
 
-One live retrieval family worth watching is **high-skill labor compression**: synthetic cognition compressing elite work until the real question becomes judgment infrastructure, legitimacy, and sovereign carrier rather than labor-market productivity alone. Use [High-Skill Labor Compression and Civilizational Statecraft](high-skill-labor-compression-and-civilizational-statecraft.md) when that bridge is the honest next retrieval move.
+One live retrieval family worth watching is **high-skill labor compression**: synthetic cognition compressing elite work until the real question becomes judgment infrastructure, legitimacy, and sovereign carrier rather than labor-market productivity alone. Use [High-Skill Labor Compression and Civilizational Statecraft](essays/high-skill-labor-compression-and-civilizational-statecraft.md) when that bridge is the honest next retrieval move.
 
 Its fixed action families are:
 
@@ -264,7 +264,7 @@ Each CIV-STATE source object should be short and usable. It should include:
 
 ## Indexes
 
-- [Continuity Mechanism](continuity-mechanism.md) - first cross-civilizational comparison sheet for continuity survival.
+- [Continuity Mechanism](framework/continuity.md) - first cross-civilizational comparison sheet for continuity survival.
 - [CIV-STATE → Game Systems Mapping](civ-state-game-systems-mapping.md) - one-page bridge from civ-state layers to strategy-game mechanics; adjacent operator note, not public book unless exported.
 - [Game substrate](game-substrate/README.md) - machine companion (profile schema v0.1, Persia.pkg, pattern schemas, settlement clauses); workshop-only by default.
 - [Table of Contents](table-of-contents.md) - canonical five-volume reading order for Civilizational Statecraft, with whole-work apparatus in the appendix.
@@ -286,7 +286,7 @@ Each CIV-STATE source object should be short and usable. It should include:
 
 ## Orientation Doctrine
 
-- [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md) - the active higher-order orientation frame for CIV-STATE.
+- [Civilizational Statecraft Framework](framework/doctrine.md) - the active higher-order orientation frame for CIV-STATE.
 - [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md) - bounded operator pass for deciding which layer or pair actually governs a live object before lane translation or clause drafting.
 - [Power, Truth, Time](power-truth-time-annex.md) - superseded active shorthand retained only as historical residue and genealogy.
 - [Power, Truth, Time Retrieval Checklist](power-truth-time-retrieval-checklist.md) - superseded checklist retained only as historical residue.
@@ -312,7 +312,7 @@ Use the front door that matches the actual operator question:
 - `I need quick whole-work recall by name, route, or concept`
   - open [Index](index.md)
 - `which governing pair is really carrying this live object?`
-  - open [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md)
+  - open [Civilizational Statecraft Framework](framework/doctrine.md)
 - `which deep legitimacy grammar is load-bearing here?`
   - open [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local)
 - `should this public Predictive History insight be promoted into CIV-STATE?`
@@ -344,4 +344,4 @@ For operator hardening and drift checks, use [CIV-STATE Era Hardening Checklist]
 
 ## Proof Objects
 
-- [Persia: Hormuz Recognition / Transit Restraint](persia/hormuz-recognition-transit-restraint.md) - first proof object showing how CIV-STATE converts Civilization and Empire into an operational source pattern for a live Persia-lane transaction.
+- [Persia: Hormuz Recognition / Transit Restraint](essays/hormuz-recognition-transit-restraint.md) - first proof object showing how CIV-STATE converts Civilization and Empire into an operational source pattern for a live Persia-lane transaction.

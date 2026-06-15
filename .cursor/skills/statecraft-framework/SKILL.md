@@ -155,7 +155,7 @@ python scripts/validate_skills.py
 
 **strategy-codex instance notes**
 
-- Canonical doctrine note: [Civilizational Statecraft Framework](/C:/dev/strategy-codex/statecraft/states/civilization-empire-faith-science-memory-desire.md)
+- Canonical doctrine note: [Civilizational Statecraft Framework](/C:/dev/strategy-codex/statecraft/states/framework/doctrine.md)
 - Canonical retrieval matrix: [statecraft/states/indexes/source-retrieval-matrix.md](/C:/dev/strategy-codex/statecraft/states/indexes/source-retrieval-matrix.md)
 - Primary deep-grammar shelf: [statecraft/states/sacred-grammar/README.md](/C:/dev/strategy-codex/statecraft/states/sacred-grammar/README.md)
 - Use this skill before lane descent when the governing pair is unclear or when a live object is being flattened into one layer too quickly.

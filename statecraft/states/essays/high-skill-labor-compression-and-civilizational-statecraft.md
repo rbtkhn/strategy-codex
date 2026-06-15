@@ -103,7 +103,7 @@ Best downstream partners:
 
 - [README.md](README.md)
 - [ph-civ-to-civ-state-bridge.md](ph-civ-to-civ-state-bridge.md)
-- [civilization-empire-faith-science-memory-desire.md](civilization-empire-faith-science-memory-desire.md)
+- [framework/doctrine.md](framework/doctrine.md)
 - [../statecraft.md](../statecraft.md)
 - [../README.md](../README.md)
 - [../../essays/sovereignty-under-acceleration.md](../../essays/sovereignty-under-acceleration.md)

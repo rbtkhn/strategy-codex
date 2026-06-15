@@ -37,7 +37,7 @@ Persia shows the pattern partially in some later phases, especially under conces
 ## Key source doors
 
 - [Rome bibliography](../../volumes/rome/bibliography.md)
-- [Continuity Mechanism](../continuity-mechanism.md)
+- [Continuity Mechanism](../continuity.md)
 - Boniface VIII, *Unam Sanctam*
 - *Peace of Westphalia*
 - Vatican I, *Pastor Aeternus*

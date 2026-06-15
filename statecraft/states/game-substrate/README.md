@@ -43,6 +43,6 @@ Future: `scripts/validate_civ_state_game_profiles.py`.
 ## Related book doors
 
 - [Volume II Persia](../volumes/civ-state-persia/README.md)
-- [Parity rival](../pattern-library/parity-rival.md)
-- [Continuity mechanism](../continuity-mechanism.md)
-- [Framework](../civilization-empire-faith-science-memory-desire.md)
+- [Parity rival](../framework/patterns/parity-rival.md)
+- [Continuity mechanism](../framework/continuity.md)
+- [Framework](../framework/doctrine.md)

@@ -54,11 +54,16 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 
 ## Whole-work apparatus
 
-- [Civilizational motion](framework/civilizational-motion.md)
-- [Framework](framework/civilization-empire-faith-science-memory-desire.md)
-- [Era law](framework/era-law.md)
-- [Comparative continuity](comparative/continuity-mechanism.md)
-- [Pattern library](comparative/pattern-library/README.md)
+- [Framework shelf](framework/README.md)
+- [Civilizational motion](framework/motion.md) · [Doctrine](framework/doctrine.md) · [Era law](framework/era.md)
+- [Continuity mechanism](framework/continuity.md) · [Pattern library](framework/patterns/README.md)
+
+## Essays
+
+- [High-skill labor compression and civilizational statecraft](essays/high-skill-labor-compression-and-civilizational-statecraft.md)
+- [Hormuz recognition / transit restraint](essays/hormuz-recognition-transit-restraint.md)
+
+## More apparatus
 - [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local) · [Volume Map](volumes/README.md)
 - [Glossary](glossary.md) · [Hybrid references](hybrid-references.md) · [Index](index.md)
 

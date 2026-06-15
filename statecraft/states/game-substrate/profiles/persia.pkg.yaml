@@ -43,7 +43,7 @@ behavior:
       advisor_hint: >
         Persia rejects peace that requires vassal language—even if materially
         favorable.
-      book_anchor: pattern-library/parity-rival.md
+      book_anchor: framework/patterns/parity-rival.md
     - id: sacred_humiliation
       label: Foreign control of sacred or civilizational core
       clause_veto: foreign_garrison_ban
@@ -60,7 +60,7 @@ behavior:
       governing_pair: memory_desire
       advisor_hint: >
         A second humiliation peace activates memory-governed refusal.
-      book_anchor: continuity-mechanism.md
+      book_anchor: framework/continuity.md
   acceptable_losses:
     - buffer_territory
     - tributary_status
@@ -85,13 +85,13 @@ patterns:
       parity_rivals: [rome]
       interface_regions: [mesopotamia, armenian_highlands, caucasus_interface]
       proof_events: [carrhae]
-    book_anchor: pattern-library/parity-rival.md
+    book_anchor: framework/patterns/parity-rival.md
   - pattern_id: survivable_sovereignty
     role: secondary
     schema_ref: null
     params:
       dignity_floor: true
-    book_anchor: pattern-library/survivable-sovereignty.md
+    book_anchor: framework/patterns/survivable-sovereignty.md
 
 continuity:
   script_id: endurance_under_parity
@@ -101,7 +101,7 @@ continuity:
       effects_hint: >
         Government survives off-map or in secondary city; endurance clock and
         parity war continue; no instant elimination.
-      book_anchor: continuity-mechanism.md
+      book_anchor: framework/continuity.md
     - trigger: unequal_peace
       branch: humiliation_unrest_spiral
       effects_hint: >
@@ -112,7 +112,7 @@ continuity:
       effects_hint: >
         Peace must include parity_acknowledgment or truce without submission;
         otherwise war resumes at memory threshold.
-      book_anchor: pattern-library/parity-rival.md
+      book_anchor: framework/patterns/parity-rival.md
   recovery_triggers:
     - dignity_restored
     - parity_acknowledged
@@ -174,7 +174,7 @@ counterweights:
     summary: >
       Steppe pressure, maritime encirclement, and internal fracture are not
       Rome-parity wars; overusing parity_rival flattens the profile.
-    book_anchor: pattern-library/parity-rival.md
+    book_anchor: framework/patterns/parity-rival.md
   - id: settlement_openness
     summary: >
       Failure mode includes sovereignty without settlement openness; endurance
@@ -190,8 +190,8 @@ book_anchors:
   - volumes/civ-state-persia/geo-strategy-persia.md
   - volumes/civ-state-persia/game-theory-persia.md
   - volumes/civ-state-persia/sacred-grammar.md
-  - pattern-library/parity-rival.md
-  - pattern-library/survivable-sovereignty.md
-  - continuity-mechanism.md
+  - framework/patterns/parity-rival.md
+  - framework/patterns/survivable-sovereignty.md
+  - framework/continuity.md
   - schemas/parity-rival.schema.yaml
   - settlement/clauses-v0.1.yaml

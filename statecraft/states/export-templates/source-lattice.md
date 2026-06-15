@@ -23,7 +23,7 @@ doorway → primary floor → secondary support → widened interpretation
 | **Secondary support** | `sources/secondary/{era}.md` | What clarifies chronology, provenance, translation, or counterweight trouble? |
 | **Widened interpretation** | `civilization-*.md`, `empire-*.md`, `statecraft-*.md` (+ sub-lenses) | What judgment does the chain bear now? |
 
-Cross-volume comparison opens only after one volume grammar is clear: see `comparative/continuity-mechanism.md` and `comparative/pattern-library/`.
+Cross-volume comparison opens only after one volume grammar is clear: see `framework/continuity.md` and `framework/patterns/`.
 
 ## Switchboard rule
 

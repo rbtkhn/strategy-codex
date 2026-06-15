@@ -14,7 +14,7 @@ Legacy public cut from **`rbtkhn/civ-emp`** (now **`rbtkhn/civ-state`**) before 
 | `transactions/` | Live instruments | **Not published** — operator layer only |
 | `indexes/source-retrieval-matrix.md` | Operator routing | **Not published** — public source-lattice + volume shelves |
 | `synthesis/`, orientation routers | Operator task entry | `reader-guide.md`, `table-of-contents.md` |
-| `iran/hormuz-*` proof object | Pattern→carrier→restraint | `comparative/hormuz-recognition-transit-restraint.md` |
+| `iran/hormuz-*` proof object | Pattern→carrier→restraint | `essays/hormuz-recognition-transit-restraint.md` |
 
 ## Salvage matrix
 

@@ -100,7 +100,7 @@ Use this note when:
 Best downstream partners:
 
 - [README.md](../README.md)
-- [civilization-empire-faith-science-memory-desire.md](../framework/civilization-empire-faith-science-memory-desire.md)
+- [framework/doctrine.md](../framework/doctrine.md)
 - ../statecraft.md
 - [../README.md](../README.md)
 

@@ -139,7 +139,7 @@ Return to:
 
 - empire instruments
 - transaction router
-- state carrier surfaces; for phase rhythm see [Civilizational motion](civilizational-motion.md)
+- state carrier surfaces; for phase rhythm see [Civilizational motion](motion.md)
 
 ### If faith is governing
 
@@ -183,9 +183,9 @@ Use this doctrine when:
 
 Do not use it as a substitute for source objects or transaction design. Its job is to identify the governing layer and return you to the right retrieval surface.
 
-When periodization or era-matched shelf choice matters, use [Era Law](era-law.md) as background architecture — after the governing pair is named, not before.
+When periodization or era-matched shelf choice matters, use [Era Law](era.md) as background architecture — after the governing pair is named, not before.
 
-When phase placement in the beautify → amplify → degrade rhythm matters, use [Civilizational motion](civilizational-motion.md) before era shelves or lane descent.
+When phase placement in the beautify → amplify → degrade rhythm matters, use [Civilizational motion](motion.md) before era shelves or lane descent.
 
 ## Bottom line
 

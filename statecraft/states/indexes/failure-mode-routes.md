@@ -57,7 +57,7 @@ Anchor routes:
 - [Persia cybernetic primary sources](../volumes/civ-state-persia/civ-state-persia-primary-sources-cybernetic.md)
 - [Persia cybernetic secondary sources](../volumes/civ-state-persia/civ-state-persia-secondary-sources-cybernetic.md)
 - [Statecraft Persia](../volumes/civ-state-persia/statecraft-persia.md)
-- [Hormuz Recognition / Transit Restraint](../persia/hormuz-recognition-transit-restraint.md)
+- [Hormuz Recognition / Transit Restraint](../essays/hormuz-recognition-transit-restraint.md)
 
 ## Outward Instrument Outrunning Inherited Form
 

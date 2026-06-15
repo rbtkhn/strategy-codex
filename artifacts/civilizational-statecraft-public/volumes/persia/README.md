@@ -90,7 +90,7 @@ Best current carriers:
 - Iran helix
 - Iran state carriers
 - Iran transactions
-- Hormuz proof object
+- [Hormuz proof object](../../essays/hormuz-recognition-transit-restraint.md)
 
 ## Present Sovereign Capstone
 
