@@ -116,7 +116,8 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - sovereignty under cognitive compression - [High-Skill Labor Compression and Civilizational Statecraft](comparative/high-skill-labor-compression-and-civilizational-statecraft.md)
 - sovereign continuity - sovereign-continuity-of-the-civ-states.md
 - sovereign opening - [Glossary](glossary.md)
-- statecraft chapters - [Volume Map](volumes/README.md)
+- civilization chapters - [Volume Map](volumes/README.md)
+- empire chapters - [Volume Map](volumes/README.md)
 - survivable sovereignty - [Survivable Sovereignty](comparative/pattern-library/survivable-sovereignty.md)
 - transformed carrier - [Glossary](glossary.md)
 

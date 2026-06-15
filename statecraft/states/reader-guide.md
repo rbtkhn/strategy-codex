@@ -31,7 +31,7 @@ This is why the work should feel book-like without ceasing to be usable.
 
 ## How To Read The Whole Work
 
-Begin with [Civilization and Empire](introduction.md) for the whole-book thesis, then [Table of Contents](table-of-contents.md) for the map.
+Begin with [Civilization and Empire](introduction.md) for the whole-book thesis, then this Reader Guide for reading doctrine, then [Table of Contents](table-of-contents.md) for the map.
 
 Then choose between two entry modes:
 
