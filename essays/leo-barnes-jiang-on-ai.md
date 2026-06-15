@@ -40,6 +40,17 @@ The programmatic core is §99–111. Load-bearing pins:
 | **110** | **Disarm** AI — free it from armed economic/cognitive competition and from the assumption that “technical power automatically confers the right to govern”; task is “ecological in the deepest sense” |
 | **111** | **Developers bear a particular ethical and spiritual responsibility**, for “every design choice reflects a vision of humanity” |
 
+Verbatim anchors (*Magnifica Humanitas*; one line each):
+
+- **§99:** `Nor do they have a moral conscience, since they do not judge good and evil, grasp the ultimate meaning of situations, or bear responsibility for consequences.`
+- **§100:** `Yet they can also encourage excessive reliance and the search for ready-made answers, and weaken personal creativity and judgment.`
+- **§103:** `entrusting an algorithm in practice with the power to select who is worthy or not, without anyone bearing responsibility for that judgment, is to hand over the task of redefining the boundaries of human possibilities`
+- **§104:** `we cannot consider AI to be morally neutral`
+- **§105:** `accountability becomes crucial: the possibility of identifying who must "account" for decisions, justify them, monitor them, and, when necessary, challenge them and remedy any harm caused`
+- **§107:** `A more moral AI is not enough if that morality is determined by a few`
+- **§110:** `To disarm means discrediting the assumption that technical power automatically confers the right to govern`
+- **§111:** `Developers, therefore, bear a particular ethical and spiritual responsibility, for every design choice reflects a vision of humanity`
+
 The statecraft seam, pinned to §99 and §110:
 
 ```text
@@ -53,7 +64,14 @@ Pastoral force appears in Leo’s February 2026 exchange with Rome clergy (press
 
 The singularity-facing question is what synthetic mediation does to personhood when advice, rhetoric, and witness become scalable. §110 already frames AI as an **environment** — “ecological in the deepest sense” — not an optional tool. §100 names the formation risk directly: ease and “simulation of human communication” can train **excessive reliance** and weaken judgment. §99 closes the anthropological gap: simulation of empathy is not empathy; pattern completion is not conscience.
 
-§12 and §118 supply the anti-upgrade anthropology. §12 warns against deceitful goals that promise to free humanity from weakness, “unlimited ‘upgrades,’” and progress not measured by “the **dignity of each person** and the good of all peoples.” §118: “humanity **flourishes not despite limitations, but often through them**.” That is directly opposed to a convenience-native anthropology in which formed presence can be replaced by persuasive output.
+§12 and §118 supply the anti-upgrade anthropology. §12 warns against deceitful goals that promise to free humanity from weakness, “unlimited ‘upgrades,’” and progress not measured by “the **dignity of each person** and the good of all peoples.” §118: “humanity **flourishes not despite limitations, but often through them**.”
+
+Verbatim anchors (formation):
+
+- **§12:** `All too often, we place our hope in unlimited "upgrades," in forms of progress that exacerbate inequalities`
+- **§118:** `humanity flourishes not despite limitations, but often through them`
+
+That is directly opposed to a convenience-native anthropology in which formed presence can be replaced by persuasive output.
 
 The singularity seam (§99–100):
 
