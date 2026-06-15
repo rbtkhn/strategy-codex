@@ -143,6 +143,8 @@ April hinge ladder: 08 → 12 → 17 → 20 → 22 → 30; use archive day READM
   - [2026-06-09 - Apache × Shahed physics fork (Davis / Aguilar / Krapivnik / wire)](2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md)
   - [2026-06-09 - S9 Ukraine secondary mesh (Helmer / Mercouris / Krapivnik)](2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)
   - [2026-06-08–09 wire-verify matrix](2026-06-08-09-wire-verify-matrix.md)
+- [2026-06-13](2026-06-13.md) — Saturday brink × sign-tomorrow theater × PH Boomer Hell overlay (7 captures)
+  - [PH Boomer Hell wire-verify matrix](2026-06-13-ph-boomer-hell-wire-verify-matrix.md)
 - [2026-06-14](2026-06-14.md) — intra-day MOU close × Marandi pre/post-close arc × Nima pre/post-close host arc × two-speed clock (6 captures)
   - [2026-06-14 wire-verify matrix](2026-06-14-wire-verify-matrix.md)
   - [Lebanon enforcement × Nima host arc](2026-06-14-lebanon-enforcement-nima-host-arc.md)

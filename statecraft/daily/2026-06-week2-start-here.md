@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Month-week 2:** 2026-06-08 – 2026-06-14 · **Status:** partial through 2026-06-14
 
-**Last refresh:** 2026-06-15 — [2026-06-14 daily](./2026-06-14.md) lands **intra-day MOU close × Marandi pre/post-close arc × two-speed clock**; J12-6 carry **FAIL** unchanged at triage.
+**Last refresh:** 2026-06-15 — [2026-06-13 daily](./2026-06-13.md) + [2026-06-14 daily](./2026-06-14.md); J12-6 carry **FAIL** unchanged at triage.
 
 One entry point for re-entering month-week 2 of June 2026. Open before the day ladder or statecraft-note scatter.
 
@@ -12,11 +12,11 @@ One entry point for re-entering month-week 2 of June 2026. Open before the day l
 
 **Governing pair (Jun 12 close):** `aid-cut required` (DW Aguilar) · `§224 inverse advancing` (MR Aguilar) — **bridge may be the product** while client buys **mesh license** during pause theater ([`AMER-224-RCPT-04`](../america/transactions/foreign-client-mesh-separation-and-command-review.md#june-12-aguilar-mr-corroboration-224-inverse-lever--iran-bridge-quid)).
 
-**Object migration:** ceasefire **label** (Jun 8) → command **fracture** + Apache **pretext** (Jun 9) → GCC **ladder** + talks DEAD (Jun 10) → MOU **theater** × Kharg/strike **oscillation** (Jun 11) → MOU **publish/deny** × Lebanon **point-1 live test** × **bridge-skeptic** + **§224 coupling** (Jun 12) → **intra-day negotiation close** × **Marandi pre/post-close arc** × **Nima pre/post-close host arc** × **two-speed clock** (halt tonight / sign Jun 19 / Hormuz contested) (Jun 14, **6** captures).
+**Object migration:** ceasefire **label** (Jun 8) → command **fracture** + Apache **pretext** (Jun 9) → GCC **ladder** + talks DEAD (Jun 10) → MOU **theater** × Kharg/strike **oscillation** (Jun 11) → MOU **publish/deny** × Lebanon **point-1 live test** × **bridge-skeptic** + **§224 coupling** (Jun 12) → **Saturday brink × sign-tomorrow theater** × PH **Boomer Hell overlay** (Jun 13) → **intra-day negotiation close** × **Marandi pre/post-close arc** × **Nima pre/post-close host arc** × **two-speed clock** (halt tonight / sign Jun 19 / Hormuz contested) (Jun 14, **6** captures).
 
 **Convergence (one line):** `trap + threshold + legitimacy + inverse-lever` — Pape **trap-confirmed**; Marandi/Johnson **five demands** gate; Barnes **dual-channel**; **§224 inverse-pair** (`aid-cut absent` · `mesh advancing` — J12-7 supported, J12-8 partial).
 
-**Archive checkpoint:** [source-archive/statecraft/2026-06.md](../../source-archive/statecraft/2026-06.md) — **5** daily syntheses in week2 range (**08–12**); archive counts **15 / 16 / 9 / 19 / 9** (Jun 8–12). Intake sync audit **2026-06-12:** Jun 6–11 **ok**; Jun 12 **ok** (9 archive · 9 daily_cp). First capture in week2 **2026-06-08**. **Month compression:** [2026-06.md](./2026-06.md) (partial through Jun 9 — lags week2 close).
+**Archive checkpoint:** [source-archive/statecraft/2026-06.md](../../source-archive/statecraft/2026-06.md) — **6** daily syntheses in week2 range (**08–13** + **14**); archive **7** captures on Jun 13. First capture in week2 **2026-06-08**. **Month compression:** [2026-06.md](./2026-06.md) (partial through Jun 9 — lags week2 close).
 
 **Method:** [METHOD.md § Week Hinge](./METHOD.md#week-hinge-contract)
 
@@ -44,6 +44,8 @@ Heavy-week adds:
 
 | Question | Open first |
 |----------|------------|
+| What changed Jun 12 → 13? | [2026-06-13](./2026-06-13.md) brink optimism × Sunday sign theater × PH overlay |
+| What changed Jun 13 → 14? | [2026-06-14](./2026-06-14.md) Beirut strike × intra-day close × SNSC halt vs ops |
 | What changed Jun 11 → 12? | [2026-06-12](./2026-06-12.md) publish/deny + Lebanon point-1 fracture + **§224 inverse-pair** |
 | §224 inverse lever vs aid-cut? | [foreign-client-mesh](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [wire matrix J12-7/8](./2026-06-12-wire-verify-matrix.md#shared-seam-anchors-j12-1--j12-9) |
 | MOU point-1 vs Marandi Clause A? | [Marandi×J12-6×Aguilar bridge](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md) |
@@ -70,6 +72,7 @@ Heavy-week adds:
 | 06-10 | Second-strike night + GCC ladder; talks DEAD vs Vance lane | [2026-06-10](./2026-06-10.md) |
 | 06-11 | MOU theater × dual channel + Pape backtest spine | [2026-06-11](./2026-06-11.md) |
 | 06-12 | MOU publish/deny × Lebanon fracture × **§224 inverse-pair**; Johnson triple-function | [2026-06-12](./2026-06-12.md) |
+| 06-13 | **Saturday brink** × sign-tomorrow theater × PH **Boomer Hell** overlay; Davis dual-episode | [2026-06-13](./2026-06-13.md) |
 | 06-14 | **Intra-day MOU close** × Marandi pre/post-close × two-speed clock; Beirut × Jun 19 sign | [2026-06-14](./2026-06-14.md) |
 
 ---
@@ -92,6 +95,7 @@ Heavy-week adds:
 - [72h watch run (Jun 12–13)](./2026-06-12-72h-watch-run.md) — Fork 1–5 incl. §224 + A′
 - [Lebanon enforcement × Nima host arc (Jun 14)](./2026-06-14-lebanon-enforcement-nima-host-arc.md) — J14-13–J14-16 · pseudo-gate hardened · host timeline method
 - [Jun 14 wire-verify matrix](./2026-06-14-wire-verify-matrix.md) — J14-1–**J14-16**
+- [PH Boomer Hell wire-verify (Jun 13)](./2026-06-13-ph-boomer-hell-wire-verify-matrix.md) — J13-PH-1–**J13-PH-5**
 
 ## Falsifier table (through Jun 12)
 
