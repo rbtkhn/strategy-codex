@@ -17,7 +17,27 @@ Repo-root essays use **transport synthesis** voice per [essay-voice.md](../docs/
 - **Promotion:** compress apparatus when elevating from channel notes — do not copy note density
 - **Optional frontmatter:** `voice_profile: tri-blend-band-a` on new essays (future lint hook)
 
-**Exemplars:** [leo-barnes-jiang-on-ai.md](./leo-barnes-jiang-on-ai.md) (comparative voice structure — Band B legacy apparatus), [ai-and-the-expansion-of-human-consciousness.md](./ai-and-the-expansion-of-human-consciousness.md) (prose-first argument), [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) (system/product).
+**Exemplars:** [leo-barnes-jiang-on-ai.md](./leo-barnes-jiang-on-ai.md) (comparative voice — **Band A exemplar**; see [AI cluster](#ai-cluster-reading-order)), [ai-and-the-expansion-of-human-consciousness.md](./ai-and-the-expansion-of-human-consciousness.md) (prose-first argument), [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) (system/product).
+
+## AI cluster (reading order)
+
+Cross-channel AI essays on this shelf — **not merged into one thesis**. Read in this order when building judgment from hype → medium → machine identity → operator substrate.
+
+| # | Essay | Layer |
+|---|--------|--------|
+| 1 | [leo-barnes-jiang-on-ai.md](./leo-barnes-jiang-on-ai.md) | **Answerability spine** — office, liability, formation under scale (comparative voice; Band A exemplar) |
+| 2 | [ai-and-the-expansion-of-human-consciousness.md](./ai-and-the-expansion-of-human-consciousness.md) | **Medium** — cognition-changing layer; judgment vs imitation |
+| 3 | [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) | **Product identity** — accumulation → governed interpretive machine |
+| 4 | [interpretive-machine.md](./interpretive-machine.md) | **Core thesis** — interpretive learning + judgment infrastructure ([cluster](./interpretive-machine/README.md) optional depth) |
+| 5 | [agent-control-plane.md](./agent-control-plane.md) | **Substrate** — governance, receipts, rollback |
+| 6 | [interface-operating-layer-2028.md](./interface-operating-layer-2028.md) | **Horizon** — interface as operating layer |
+| 7 | [future-roadmap-implications.md](./future-roadmap-implications.md) | **Roadmap capstone** — substrate, control plane, trust (optional if time-bound) |
+
+**Adjacent (same shelf, different arc):** [high-skill-labor-compression-and-american-command.md](./high-skill-labor-compression-and-american-command.md) (America lane instance) · [narrative-shaped-alignment.md](./narrative-shaped-alignment.md) (formation / alignment bridge) · [system-design-lineage-is-not-unique-in-kind.md](./system-design-lineage-is-not-unique-in-kind.md) (design-family precedent — not AI-cluster core).
+
+**Redirect only:** [pope-leo-on-ai.md](./pope-leo-on-ai.md) → `leo-barnes-jiang-on-ai.md`.
+
+**Notes / archive (receipts, not shelf sequence):** [Barnes on AI](../statecraft/notes/barnes-on-ai.md) · [Jiang on AI](../statecraft/notes/jiang-on-ai.md) · Vatican primaries under `source-archive/statecraft/` (linked from leo essay).
 
 ## Authority rule
 
@@ -83,7 +103,7 @@ Cross-channel pairs may exist on **both** compatibility shelves until recanonica
 |-------|------|
 | [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) | Product identity essay — accumulation → governed interpretive machine |
 | [interpretive-machine.md](./interpretive-machine.md) | Cross-channel thesis — interpretive learning + judgment infrastructure ([cluster](./interpretive-machine/README.md)) |
-| [leo-barnes-jiang-on-ai.md](./leo-barnes-jiang-on-ai.md) | Tri-voice AI essay — Leo (office/answerability), Barnes (liability/bubble), Jiang (formation/surveillance); Vatican primaries archived |
+| [leo-barnes-jiang-on-ai.md](./leo-barnes-jiang-on-ai.md) | Tri-voice AI essay — Band A comparative voice exemplar; [AI cluster §](#ai-cluster-reading-order) spine |
 | [pope-leo-on-ai.md](./pope-leo-on-ai.md) | Redirect stub → `leo-barnes-jiang-on-ai.md` |
 | [sovereignty-under-acceleration.md](./sovereignty-under-acceleration.md) | Cross-channel bridge — authority under acceleration; Coffee D → statecraft handoff |
 | [narrative-shaped-alignment.md](./narrative-shaped-alignment.md) | Cross-channel thesis — narrative vs rule alignment; PH-CIV formation bridge |

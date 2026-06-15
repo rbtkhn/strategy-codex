@@ -1,3 +1,7 @@
+---
+voice_profile: tri-blend-band-a
+---
+
 # Leo, Barnes, and Jiang on AI
 
 WORK only; not Record.
