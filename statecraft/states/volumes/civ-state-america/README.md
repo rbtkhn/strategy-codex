@@ -4,13 +4,12 @@ WORK only; not Record.
 
 America is a live lane-backed CIV-STATE volume. Use it when the problem is republic and empire together: maritime command, alliance management, sanctions, domestic legitimacy, bounded coercion, and successor-stable authority.
 
-America is included here as the deliberately contested edge case. It is not the cleanest civilization-state example. It belongs in the set because the Anglo-American sovereignty chain from Alfred to the present helps clarify what happens when civilizational inheritance, maritime empire, settler-republic statehood, and liberal-universal claims sit under one increasingly strained sovereign form. Alfred the Great is the foundational continuity sovereign of that longer chain, not the sovereign beginning of America proper.
-
-This volume should therefore be read as the longer Anglo-American continuity chain passing through later American concentration, not as if the full spine were simply identical with the territorial United States from the beginning.
+Read [Introduction America](introduction.md) for the volume entry. Deliberately contested edge case: Anglo-American chain from Alfred through republic, maritime empire, and present strain.
 
 Primary live lane: [America statecraft lane](../../../america/README.md)
 
 **Opener Block**
+- Volume introduction: [Introduction America](introduction.md)
 - Deep grammar: Anglo constitutional inheritance and Protestant / civil-religious legitimacy
 - Deep grammar retrieval: [America sacred grammar](../../sacred-grammar/america.md)
 - Sovereign opening: Alfred the Great as the foundational continuity sovereign
@@ -18,7 +17,6 @@ Primary live lane: [America statecraft lane](../../../america/README.md)
 - Current carrier: United States
 - Civilization chapter: [America civilization](civilization-america.md)
 - Empire chapter: [America empire](empire-america.md)
-- Statecraft chapter: [America statecraft](statecraft-america.md)
 - Shelf reader: [America shelf reader](civ-state-america-shelf-reader.md)
 - Volume bibliography: [America bibliography](civ-state-america-bibliography.md)
 - Sovereign continuity support note: [America sovereign continuity](sovereign-continuity.md)

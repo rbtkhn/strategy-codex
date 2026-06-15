@@ -4,6 +4,7 @@ Front-door volume order for **Civilizational Statecraft**.
 
 For whole-work apparatus, open:
 
+- [Civilization and Empire](../introduction.md)
 - [Table of Contents](../table-of-contents.md)
 - [Reader Guide](../reader-guide.md)
 - [Source-Lattice](../source-lattice.md)
@@ -21,10 +22,10 @@ Read civilization-state cases in this order:
 4. [Russia](russia/README.md)
 5. [America](america/README.md)
 
-Each volume follows the same part law:
+Each volume follows the same reader order:
 
 ```text
-civilization → empire → statecraft
+introduction → civilization → empire
 ```
 
 Then optional sub-lenses: geo-strategy, secret-history, game-theory.
@@ -33,10 +34,10 @@ Then optional sub-lenses: geo-strategy, secret-history, game-theory.
 
 Each volume carries:
 
-- **Doorway:** volume README + `shelf-reader.md`
+- **Doorway:** volume README + introduction + `shelf-reader.md`
 - **Primary floor:** `bibliography.md` + `sources/primary/{era}.md`
 - **Secondary support:** `sources/secondary/{era}.md` (when present)
-- **Widened interpretation:** civilization, empire, and statecraft essays
+- **Widened interpretation:** civilization and empire essays
 
 Governing law: open the primary shelf first; use secondary only when difficulty appears; ascend to essays after the shelf problem is clarified. See [Source-Lattice](../source-lattice.md).
 

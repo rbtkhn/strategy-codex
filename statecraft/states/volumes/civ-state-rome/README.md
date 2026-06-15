@@ -4,20 +4,18 @@ WORK only; not Record.
 
 Rome is currently a CIV-STATE source-memory volume rather than a full repo-root lane peer. Use it when the live object needs Roman republic/empire formation, late-imperial breakdown, Christian and Eastern Roman continuity, papal residue, or successor-order comparison.
 
-Rome is presented here as a strong but transformed civilization-state case: not one uninterrupted territorial state, but a sovereignty chain mutating from city-foundation to republic, empire, Eastern Roman continuation, and Catholic residue. Romulus is the foundational sovereign of the chain; Aeneas and Troy remain mythic prehistory beneath it. The Eastern Roman Empire is the indispensable continuity state without which the Roman chain becomes falsely discontinuous, and the Catholic Church is the clearest surviving residue-carrier.
-
-This volume should therefore be read as one Roman sovereignty claim moving through transformed carriers across the era spine, not as five disconnected Roman afterlives.
+Read [Introduction Rome](introduction.md) for the volume entry. Transformed continuity case: sovereignty through republic, empire, Eastern Roman bridge, and Catholic residue — not one uninterrupted territorial state.
 
 Primary source base: [Rome source corpus](../../../../research/repos/civilization_memory/content/civilizations/ROME/)
 
 **Opener Block**
+- Volume introduction: [Introduction Rome](introduction.md)
 - Deep grammar: Aeneas / Troy as mythic prehistory, with Roman law and civic order as civilizational grammar
 - Deep grammar retrieval: [Rome sacred grammar](../../sacred-grammar/rome.md)
 - Sovereign opening: Romulus as the foundational sovereign
 - Current carrier: Catholic Church
 - Civilization chapter: [Rome civilization](civilization-rome.md)
 - Empire chapter: [Rome empire](empire-rome.md)
-- Statecraft chapter: [Rome statecraft](statecraft-rome.md)
 - Shelf reader: [Rome shelf reader](civ-state-rome-shelf-reader.md)
 - Volume bibliography: [Rome bibliography](civ-state-rome-bibliography.md)
 - Sovereign continuity support note: [Rome sovereign continuity](sovereign-continuity.md)

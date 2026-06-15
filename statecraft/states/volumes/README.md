@@ -8,13 +8,14 @@ It does not replace lane-local `statecraft/<lane>/` storage. It organizes CIV-ST
 
 For the whole-work apparatus beside this five-volume shelf, open:
 
+- [Civilization and Empire](../introduction.md)
 - [Table of Contents](../table-of-contents.md)
 - [Reader Guide](../reader-guide.md)
 - [Glossary](../glossary.md)
 - [Hybrid References](../hybrid-references.md)
 - [Index](../index.md)
 
-The purpose of this volume set is to provide an authoritative working illustration of the **civilization-state** through five concrete cases. Each volume is organized as a sovereignty-chain scaffold nested through the repo's preferred era spine. The canonical Part 1 opening now lives in a legitimacy-bearing civilization essay, the canonical Part 2 opening now lives in an outward-instrument empire essay, and the canonical Part 3 opening now lives in a present-tense statecraft synthesis that turns the volume into a statesman's guidebook.
+The purpose of this volume set is to provide an authoritative working illustration of the **civilization-state** through five concrete cases. Each volume opens with a reader **introduction**, then **Civilization** and **Empire** chapters, optional sub-lenses, and source-lattice shelves nested through the preferred era spine.
 
 Each volume now also carries a `shelf-reader` layer between the volume front door and the bibliography-era source files. Its job is to help the operator traverse the source shelf without widening immediately into whole-volume doctrine or raw era-file descent.
 
@@ -94,6 +95,14 @@ Use the opener block operationally:
 
 The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar Library](../sacred-grammar/README.md). Use it when the problem is legitimacy substrate rather than sovereign opener or present carrier.
 
+## Volume Introductions
+
+- [Introduction China](civ-state-china/introduction.md)
+- [Introduction Persia](civ-state-persia/introduction.md)
+- [Introduction Rome](civ-state-rome/introduction.md)
+- [Introduction Russia](civ-state-russia/introduction.md)
+- [Introduction America](civ-state-america/introduction.md)
+
 ## Civilization Chapters
 
 - [China civilization](civ-state-china/civilization-china.md)
@@ -110,13 +119,11 @@ The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar 
 - [Russia empire](civ-state-russia/empire-russia.md)
 - [America empire](civ-state-america/empire-america.md)
 
-## Statecraft Chapters
+## Optional Sub-Lenses
 
-- [China statecraft](civ-state-china/statecraft-china.md)
-- [Persia statecraft](civ-state-persia/statecraft-persia.md)
-- [Rome statecraft](civ-state-rome/statecraft-rome.md)
-- [Russia statecraft](civ-state-russia/statecraft-russia.md)
-- [America statecraft](civ-state-america/statecraft-america.md)
+The named `geo-strategy`, `secret-history`, and `game-theory` files are substantive optional lenses beneath **Empire**, not coequal volume-opening surfaces.
+
+Legacy `statecraft-<civ>.md` files remain on disk for workshop merge; they are not part of the reader-facing volume order.
 
 ## Volume Bibliographies
 
@@ -172,10 +179,6 @@ The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar 
 - [Russia secret-history](civ-state-russia/secret-history-russia.md)
 - [America secret-history](civ-state-america/secret-history-america.md)
 
-## Statecraft Sub-Essays
-
-The named `geo-strategy`, `secret-history`, and `game-theory` files remain substantive, but they now sit beneath Part 3 `statecraft-<civ>.md` as subordinate diagnostic lenses rather than as coequal volume-opening surfaces.
-
 ## Usage Rule
 
 - Use a volume README when you need the best current opening sequence for one civilization across time.
@@ -196,11 +199,11 @@ This means the volume map is not the right first stop for every `civ-state` ques
 
 Every volume should be read the same way:
 
-- first open the civilization essay and identify the civilization-state claim
-- then open the empire essay when the governing issue is outward instrument, reach, or overreach
-- then open the statecraft essay to convert the first two parts into a present-tense diplomatic read
-- then descend into geo-strategy, secret-history, and game-theory as subordinate lenses
-- then open the linked objects that best carry that phase now
+- open the volume **introduction** for case placement and sovereignty chain
+- open **Civilization** to legitimate the core and identify the civilization-state claim
+- open **Empire** when the governing issue is outward instrument, reach, overreach, or civilizational entropy
+- descend into geo-strategy, secret-history, and game-theory as optional sub-lenses when needed
+- open the linked shelf objects that best carry the phase in question
 
 ## Volume Status
 

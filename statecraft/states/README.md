@@ -22,6 +22,7 @@ Short constitutional split:
 
 Civilizational Statecraft is a **five-volume** whole-work book with shared retrieval apparatus in the appendix. The canonical whole-work surfaces live in:
 
+- [Civilization and Empire](introduction.md)
 - [Table of Contents](table-of-contents.md)
 - [Reader Guide](reader-guide.md)
 - [Glossary](glossary.md)
@@ -165,36 +166,35 @@ This volume layer organizes retrieval and source-memory entry. It does not repla
 
 The apparatus for that book-form is whole-work first, then volume-local:
 
-1. [Table of Contents](table-of-contents.md)
-2. [Reader Guide](reader-guide.md)
-3. [Volume map](volumes/README.md)
-4. the relevant civilization volume
-5. `Civilization -> Empire -> Statecraft`
+1. [Civilization and Empire](introduction.md)
+2. [Table of Contents](table-of-contents.md)
+3. [Reader Guide](reader-guide.md)
+4. [Volume map](volumes/README.md)
+5. the relevant volume introduction, then `Civilization` → `Empire`
 
-## Volume Part Law
+## Volume Chapter Law
 
-Each CIV-STATE volume now opens through a fixed three-part law:
+Each CIV-STATE volume opens through a fixed reader order:
 
-1. `civilization-<civ>.md`
-2. `empire-<civ>.md`
-3. `statecraft-<civ>.md`
+1. `introduction.md`
+2. `civilization-<civ>.md`
+3. `empire-<civ>.md`
 
 `README.md` is the front door, not a chapter.
 
-The three parts do different work:
+The two chapters do different work:
 
-- `Civilization` legitimates the core, carries the continuity-bearing order, and orients the operator to what kind of civilization-state this is.
-- `Empire` exposes the outward instrument: projection stack, coercive carriage, maintenance burden, and overreach risk.
-- `Statecraft` converts the first two into a present-tense diplomatic read of pressure, room, legitimacy, equilibrium, and settlement possibility.
+- **Civilization** legitimates the core, carries the continuity-bearing order, and orients the reader to what kind of civilization-state this is.
+- **Empire** exposes the outward instrument: projection stack, coercive carriage, maintenance burden, overreach risk, and civilizational entropy when amplification outruns form.
 
-The named `geo-strategy-<civ>.md`, `secret-history-<civ>.md`, and `game-theory-<civ>.md` files remain substantive, but they now sit beneath Part 3 as **Statecraft sub-essays**, not as coequal volume-opening parts. Legacy `sovereign-continuity.md` files may remain on disk as support notes, but they are no longer the canonical Part 1 opening surface.
+The named `geo-strategy-<civ>.md`, `secret-history-<civ>.md`, and `game-theory-<civ>.md` files remain substantive optional lenses beneath **Empire**. Legacy `statecraft-<civ>.md` files remain on disk for workshop merge; they are not part of the reader-facing volume order. Legacy `sovereign-continuity.md` files may remain as support notes.
 
-Use the three-part law operationally:
+Use the chapter law operationally:
 
-- open `Civilization` first when the problem is legitimacy, continuity, or category membership
-- open `Empire` next when the problem is reach, burden, outward instrument, or overreach
-- open `Statecraft` when the problem is a live diplomatic read rather than historical structure alone
-- descend into `geo-strategy`, `secret-history`, and `game-theory` only after Part 3 makes the pressure geometry clearer
+- open **Introduction** when the issue is case placement, chain narrative, or read path
+- open **Civilization** when the problem is legitimacy, continuity, or category membership
+- open **Empire** when the problem is reach, burden, outward instrument, overreach, or entropy
+- descend into sub-lenses when terrain, memory, or incentive geometry narrows the read
 
 ## Alias Doors
 
@@ -212,7 +212,7 @@ History is pattern memory for strategic operators. Civilization stores inherited
 
 Short form:
 
-`civilization beautifies -> empire amplifies -> entropy degrades -> statecraft restores`
+`civilization beautifies -> empire amplifies -> civilizational entropy -> statecraft restores`
 
 The active higher-order CIV-STATE doctrine is now the **Civilizational Statecraft Framework**:
 
@@ -234,8 +234,8 @@ Terminology note:
 Statecraft lanes use this source chain:
 
 1. CIV-STATE supplies the Civilization and Empire source pattern.
-2. Volume-local `civilization-<civ>.md`, `empire-<civ>.md`, and `statecraft-<civ>.md` convert that pattern into a stable book-form for operator retrieval.
-3. Part 3 descends through `geo-strategy`, `secret-history`, and `game-theory` when a narrower pressure lens is required.
+2. Volume-local `introduction.md`, `civilization-<civ>.md`, and `empire-<civ>.md` convert that pattern into a stable book-form for operator retrieval.
+3. Optional sub-lenses (`geo-strategy`, `secret-history`, `game-theory`) narrow the read when empire pressure geometry requires it.
 4. Lane-local `civilization/`, `empire/`, and `state/` files translate the volume read into inherited code, outward reach, and current authority carrier.
 5. `helix.md` regulates the tension between inherited code and imperial instrument.
 6. `transactions/` test whether the regulated pattern can become authority, restraint, and settlement.

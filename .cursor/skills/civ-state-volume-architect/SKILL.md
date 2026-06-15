@@ -5,8 +5,8 @@ description: >-
   Create, refound, or normalize CIV-STATE volume architecture in
   statecraft/states. Use when the operator wants to define or enforce the
   canonical volume-part law, rename or add chapter families, rewire volume
-  READMEs, or keep Civilization, Empire, and Statecraft distinct while placing
-  geo-strategy, secret-history, and game-theory beneath Part 3.
+  READMEs, or keep Civilization and Empire distinct while placing
+  geo-strategy, secret-history, and game-theory as optional sub-lenses beneath Empire.
 ---
 
 # CIV-STATE Volume Architect
@@ -37,12 +37,12 @@ It is **not** the same as `civ-state-volume-harden`. That skill strengthens an a
 
 - A CIV-STATE volume is a guided book-form, not a flat bundle.
 - `README.md` is the front door, not a chapter.
-- The current canonical top-level volume order is:
-  1. `civilization-<civ>.md`
-  2. `empire-<civ>.md`
-  3. `statecraft-<civ>.md`
-- Part 3 `statecraft-<civ>.md` is a real synthesis chapter, not a thin index.
-- `geo-strategy-<civ>.md`, `secret-history-<civ>.md`, and `game-theory-<civ>.md` are subordinate Statecraft sub-essays.
+- The current canonical reader volume order is:
+  1. `introduction.md`
+  2. `civilization-<civ>.md`
+  3. `empire-<civ>.md`
+- `geo-strategy-<civ>.md`, `secret-history-<civ>.md`, and `game-theory-<civ>.md` are optional sub-lenses beneath **Empire**.
+- Legacy `statecraft-<civ>.md` files may remain on disk for workshop merge; they are not reader-facing volume parts.
 - Legacy support files may remain on disk, but they must stop pretending to be canonical if doctrine has moved past them.
 
 ## Required checks
@@ -68,9 +68,9 @@ If any of those five are still fuzzy, the architecture pass is not finished.
 
 3. **Lock each part's job.**
    Distinguish clearly:
+   - `Introduction` orients the case in the five-volume arc
    - `Civilization` legitimates the core
-   - `Empire` exposes outward instrument
-   - `Statecraft` converts the first two into live statesmanlike judgment
+   - `Empire` exposes outward instrument and civilizational entropy
 
 4. **Set file naming before prose expansion.**
    Resolve whether the family is generic or named-per-civilization first.
@@ -91,30 +91,32 @@ If any of those five are still fuzzy, the architecture pass is not finished.
 8. **Validate parallelism across all five volumes.**
    Check that each volume folder contains the same top-level families and that opener-block ordering matches the shelf law.
 
-## Three-part doctrine
+## Volume chapter doctrine
 
 Use this as the default constitutional shape unless the operator explicitly supersedes it:
 
+- `introduction.md`
+  - case entry in the five-volume arc
+  - sovereignty chain narrative and read path
+
 - `civilization-<civ>.md`
-  - operator-opening essay
   - legitimacy-bearing core
   - continuity-bearing civilization argument
 
 - `empire-<civ>.md`
   - outward-instrument essay
   - projection stack
-  - coercion, finance, logistics, alliance, maintenance, overreach
+  - coercion, finance, logistics, alliance, maintenance, overreach, civilizational entropy
 
-- `statecraft-<civ>.md`
-  - present-tense guidebook essay
-  - operational synthesis
-  - live diplomatic judgment under pressure
-
-Statecraft sub-essays:
+Optional sub-lenses beneath **Empire**:
 
 - `geo-strategy-<civ>.md`
 - `secret-history-<civ>.md`
 - `game-theory-<civ>.md`
+
+Legacy (workshop merge target, not reader-facing):
+
+- `statecraft-<civ>.md`
 
 These deepen the Part 3 read. They do not replace it.
 

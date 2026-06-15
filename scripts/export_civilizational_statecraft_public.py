@@ -188,12 +188,13 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 
     text = re.sub(
         r"(## Retrieval Order\n\nUse the whole-work apparatus[^\n]+\n\n)"
-        r"(1\. \[Reader Guide\][^\n]+\n)"
-        r"(2\. \[Table of Contents\][^\n]+\n)"
-        r"(3\. the relevant volume[^\n]+\n)"
-        r"(4\. the relevant[^\n]+\n)"
-        r"5\. \[Sacred Grammar Library\][^\n]+\n",
-        r"\1\2\3\4\5. [Sacred Grammar Library](sacred-grammar/README.md) or [Source-Lattice](source-lattice.md) when the volume front door alone is too broad\n",
+        r"(1\. \[Civilization and Empire\][^\n]+\n)"
+        r"(2\. \[Reader Guide\][^\n]+\n)"
+        r"(3\. \[Table of Contents\][^\n]+\n)"
+        r"(4\. the relevant volume[^\n]+\n)"
+        r"(5\. the relevant[^\n]+\n)"
+        r"6\. \[Sacred Grammar Library\][^\n]+\n",
+        r"\1\2\3\4\5\6. [Sacred Grammar Library](sacred-grammar/README.md) or [Source-Lattice](source-lattice.md) when the volume front door alone is too broad\n",
         text,
         count=1,
     )

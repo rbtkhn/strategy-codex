@@ -31,7 +31,7 @@ This is why the work should feel book-like without ceasing to be usable.
 
 ## How To Read The Whole Work
 
-Begin with [Table of Contents](table-of-contents.md).
+Begin with [Civilization and Empire](introduction.md) for the whole-book thesis, then [Table of Contents](table-of-contents.md) for the map.
 
 Then choose between two entry modes:
 
@@ -54,9 +54,9 @@ Choose governing-layer entry when the real question is:
 
 Every CIV-STATE volume should be opened through the same order:
 
-1. `civilization-<civ>.md`
-2. `empire-<civ>.md`
-3. `statecraft-<civ>.md`
+1. volume `introduction.md`
+2. `civilization-<civ>.md`
+3. `empire-<civ>.md`
 
 Each volume should also carry its own bibliography. Use it when the operator needs the primary-source field, bounded secondary support, or civ-mem evidence orientation for one civilization-state case rather than for the whole work at once.
 
@@ -69,25 +69,19 @@ Read the stack as a switchboard:
 - stay in the primary shelf when the issue is legitimacy language, founding wording, sacred grammar, legal form, or the civilization's own self-description
 - open the secondary shelf when the issue is chronology, provenance, translation, institutional context, counterweight, or misreading correction
 - return to the primary shelf once the difficulty has been clarified rather than letting secondary scholarship become the new center of gravity
-- move upward into civilization, empire, or statecraft once the source difficulty has been resolved and the live question has become present carrier, outward instrument, or settlement-bearing judgment
+- move upward into civilization or empire once the source difficulty has been resolved and the live question has become present carrier, outward instrument, or civilizational entropy
 
-Read Part 1 first when the issue is continuity, legitimacy, founding, inheritance, sacred grammar, or category membership.
+Read the volume introduction first when the issue is case placement, sovereignty chain, or read path.
 
-Read Part 2 next when the issue is reach, projection stack, coercive carriage, maintenance burden, or overreach.
+Read **Civilization** when the issue is continuity, legitimacy, founding, inheritance, sacred grammar, or category membership.
 
-Read Part 3 when the issue is no longer merely historical structure but the present-tense diplomatic read:
+Read **Empire** when the issue is reach, projection stack, coercive carriage, maintenance burden, overreach, or civilizational entropy.
 
-- room
-- pressure
-- legitimacy
-- equilibrium
-- settlement possibility
+## When To Descend Into the Sub-Lenses
 
-## When To Descend Into the Statecraft Sub-Essays
+The `geo-strategy`, `secret-history`, and `game-theory` files are optional sub-lenses beneath **Empire**.
 
-The `geo-strategy`, `secret-history`, and `game-theory` files sit beneath Part 3.
-
-Descend only when the statecraft chapter has made the pressure geometry narrower:
+Descend when the civilization and empire read has clarified the pressure geometry:
 
 - `geo-strategy` when terrain, corridors, buffers, chokepoints, distance, or maritime exposure govern
 - `secret-history` when humiliation memory, symbolic activation, sacred residue, or hidden inheritance govern
@@ -166,6 +160,7 @@ It must prevent five errors:
 
 ## Companion Doors
 
+- [Civilization and Empire](introduction.md)
 - [Table of Contents](table-of-contents.md)
 - [Glossary](glossary.md)
 - [Hybrid References](hybrid-references.md)

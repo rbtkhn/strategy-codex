@@ -2,18 +2,18 @@
 
 China is a live lane-backed volume. Use it when the civilizational problem is order, continuity, mandate, anti-humiliation recovery, industrial rhythm, or long-horizon leverage.
 
-China is presented here as a strong civilization-state case: a long dynastic-state continuity whose legitimating grammar of order, mandate, and anti-chaos authority survives repeated rupture and culminates in the PRC as the current sovereign carrier. Its opener is intentionally asymmetric: Yu the Great functions as the traditional foundational sovereign, while Xia remains the foundational narrative layer and early state memory rather than equally firm documentary administration. The continuity claim then becomes fully legible through Zhou mandate grammar, Qin-Han standardization, dynastic restoration cycles, and modern party-state reconstitution after Republican fragmentation.
+Read [Introduction China](introduction.md) for the volume entry. Strong civilization-state case: dynastic continuity whose mandate grammar survives rupture and culminates in the PRC as present carrier.
 
 Primary live lane: China statecraft lane
 
 **Opener Block**
+- Volume introduction: [Introduction China](introduction.md)
 - Deep grammar: mandate, ritual order, and anti-chaos civilization
 - Deep grammar retrieval: [China sacred grammar](../../sacred-grammar/china.md)
 - Sovereign opening: Yu the Great as the traditional foundational sovereign
 - Current carrier: PRC party-state
 - Civilization chapter: [China civilization](civilization-china.md)
 - Empire chapter: [China empire](empire-china.md)
-- Statecraft chapter: [China statecraft](statecraft-china.md)
 - Shelf reader: [China shelf reader](shelf-reader.md)
 - Volume bibliography: [China bibliography](bibliography.md)
 - Sovereign continuity support note: [China sovereign continuity](sovereign-continuity.md)

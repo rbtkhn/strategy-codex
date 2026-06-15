@@ -4,18 +4,18 @@ WORK only; not Record.
 
 Persia is the civilizational title of the live Persia lane. Use this volume when the problem is dignity, sovereignty, sacred legitimacy, plateau endurance, chokepoint leverage, or recognition under pressure.
 
-Persia is presented here as a strong civilization-state case: a sovereignty chain founded politically through Cyrus, but resting on a deeper sacred-civilizational grammar in which Zoroaster and Persian continuity long predate the current regime form. Earlier rulers and earlier Iranian hegemonies existed, but Cyrus is the first ruler after whom the chain remains recognizably Persian. Islamic and Shi'a transformation mutate that chain without erasing it, and later Iranian carriers repeatedly present themselves as restorers or protectors of Persian sovereignty rather than as founders of an entirely new civilizational order.
+Read [Introduction Persia](introduction.md) for the volume entry. Cyrus-founded chain with deeper Zoroastrian grammar; Islamic and Shi'a transformation without civilizational erasure.
 
 Primary live lane: [Persia statecraft lane](../../../persia/README.md)
 
 **Opener Block**
+- Volume introduction: [Introduction Persia](introduction.md)
 - Deep grammar: Zoroaster as the deeper sacred grammar
 - Deep grammar retrieval: [Persia sacred grammar](../../sacred-grammar/persia.md)
 - Sovereign opening: Cyrus as the foundational sovereign
 - Current carrier: Islamic Republic Iran
 - Civilization chapter: [Persia civilization](civilization-persia.md)
 - Empire chapter: [Persia empire](empire-persia.md)
-- Statecraft chapter: [Persia statecraft](statecraft-persia.md)
 - Shelf reader: [Persia shelf reader](civ-state-persia-shelf-reader.md)
 - Volume bibliography: [Persia bibliography](civ-state-persia-bibliography.md)
 - Sovereign continuity support note: [Persia sovereign continuity](sovereign-continuity.md)

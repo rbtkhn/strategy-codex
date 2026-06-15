@@ -2,20 +2,18 @@
 
 Russia is a live lane-backed volume. Use it when the problem is strategic depth, recognition, sovereignty under encirclement pressure, imperial inheritance, or disruption without overbind.
 
-Russia is presented here as a strong civilization-state case because its sovereignty chain begins with Rurik and survives recurrent chaos rather than uninterrupted calm. The Russian claim persists through Kievan formation, Horde domination, Muscovite regathering, imperial expansion, Soviet mutation, and post-Soviet restoration claims. Russia's civilization-state claim is not that its sovereignty is unbroken in form, but that sovereign memory repeatedly survives political destruction and regathers authority after chaos.
-
-The inheritance from Kievan Rus is contested in modern historiography, but is tracking the Russian sovereignty claim and survival narrative: how continuity is asserted, condensed, and carried forward after fracture, not how every dispute is finally resolved.
+Read [Introduction Russia](introduction.md) for the volume entry. Sovereignty chain from Rurik through regathering after recurrent fracture — not uninterrupted institutional calm.
 
 Primary live lane: Russia statecraft lane
 
 **Opener Block**
+- Volume introduction: [Introduction Russia](introduction.md)
 - Deep grammar: Orthodoxy, suffering, endurance, and gathering after fracture
 - Deep grammar retrieval: [Russia sacred grammar](../../sacred-grammar/russia.md)
 - Sovereign opening: Rurik as the foundational sovereign
 - Current carrier: present Russian state / Russian Federation
 - Civilization chapter: [Russia civilization](civilization-russia.md)
 - Empire chapter: [Russia empire](empire-russia.md)
-- Statecraft chapter: [Russia statecraft](statecraft-russia.md)
 - Shelf reader: [Russia shelf reader](shelf-reader.md)
 - Volume bibliography: [Russia bibliography](bibliography.md)
 - Sovereign continuity support note: [Russia sovereign continuity](sovereign-continuity.md)

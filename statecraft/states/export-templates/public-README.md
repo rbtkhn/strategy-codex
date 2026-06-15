@@ -6,15 +6,15 @@ A comparative book for the general statesman reader: five civilization-state vol
 
 ## What this book is
 
-This book teaches **civilizational statecraft** — how inherited civilizational form, imperial instrument, and live statecraft judgment interact under pressure. It is **self-contained**: finish navigation inside this repository.
+This book teaches **civilizational statecraft** — how inherited civilizational form, imperial instrument, and statesmanlike judgment interact under pressure. It is **self-contained**: finish navigation inside this repository.
 
-The governing movement at volume level:
+The governing helix:
 
 ```text
-civilization → empire → statecraft
+civilization beautifies → empire amplifies → civilizational entropy
 ```
 
-The governing movement at whole-work level:
+Whole-work retrieval movement:
 
 ```text
 memory → legitimacy → carrier → pressure → settlement
@@ -22,10 +22,11 @@ memory → legitimacy → carrier → pressure → settlement
 
 ## Start here
 
-1. [Table of Contents](table-of-contents.md)
-2. [Reader Guide](reader-guide.md)
-3. [Source-Lattice](source-lattice.md) — how to read shelves before synthesis
-4. [Volume Map](volumes/README.md)
+1. [Civilization and Empire](introduction.md)
+2. [Table of Contents](table-of-contents.md)
+3. [Reader Guide](reader-guide.md)
+4. [Source-Lattice](source-lattice.md) — how to read shelves before synthesis
+5. [Volume Map](volumes/README.md)
 
 ## Reading order
 
@@ -36,6 +37,8 @@ Read civilization-state cases in this order:
 3. [Rome](volumes/rome/README.md) — preview volume; see volume README
 4. [Russia](volumes/russia/README.md)
 5. [America](volumes/america/README.md)
+
+Within each volume: **introduction** → **Civilization** → **Empire** → optional sub-lenses.
 
 ## Whole-work apparatus
 

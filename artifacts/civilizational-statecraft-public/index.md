@@ -17,7 +17,9 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 - carrier - [Glossary](glossary.md)
 - China - [China](volumes/china/README.md)
+- [Civilization and Empire](introduction.md) - whole-book introduction
 - civilization-state - [Glossary](glossary.md)
+- civilizational entropy - [Civilization and Empire](introduction.md)
 - Civilizational Statecraft Framework - [civilization-empire-faith-science-memory-desire.md](framework/civilization-empire-faith-science-memory-desire.md)
 - Civilizational Pattern Library - [Civilizational Pattern Library](comparative/pattern-library/README.md)
 - corridor civilization - [Corridor Civilization](comparative/pattern-library/corridor-civilization.md)

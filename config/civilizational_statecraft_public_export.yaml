@@ -1,7 +1,7 @@
 # Civilizational Statecraft public export manifest (WORK; not Record)
 # SSOT for scripts/export_civilizational_statecraft_public.py
 schema_version: "1.0.0"
-release_tag: "v0.1.2"
+release_tag: "v0.1.3"
 canonical_public_repo: "https://github.com/rbtkhn/civ-state"
 legacy_public_repo: "https://github.com/rbtkhn/civ-emp"
 
@@ -44,6 +44,9 @@ exclude_globs:
 
 # Root apparatus → public paths
 apparatus:
+  - src: introduction.md
+    dest: introduction.md
+    transform: strip_work_fence
   - src: table-of-contents.md
     dest: table-of-contents.md
     transform: toc_public
@@ -103,9 +106,9 @@ generated:
     generator: version_stamp
 
 volume_essay_globs:
+  - "introduction.md"
   - "civilization-*.md"
   - "empire-*.md"
-  - "statecraft-*.md"
   - "geo-strategy-*.md"
   - "secret-history-*.md"
   - "game-theory-*.md"
