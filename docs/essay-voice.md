@@ -130,7 +130,7 @@ Operator elicitation (2026-06): **Kissinger–Churchill–Durant** blend — not
 | Set-piece vs table | Weight budget: one or the other at full density per strand |
 | Warning vs falsifiers | Falsifiers (optional) → then **warning close is final paragraph** |
 | Solemn vs forensic | Report forensic findings solemnly; sardonic register stays in notes |
-| Exemplar vs template | [`leo-barnes-jiang-on-ai.md`](../essays/leo-barnes-jiang-on-ai.md) = structural exemplar, **Band B legacy** for apparatus |
+| Exemplar vs template | [`leo-barnes-jiang-on-ai.md`](../essays/leo-barnes-jiang-on-ai.md) = structural exemplar — **Band A lede, all three voice sections, warning close**; comparative seam table may remain Band B legacy |
 
 ---
 
@@ -229,11 +229,70 @@ inherit judgment. Full pin-cite grid lives in the archive capture, not here.
 
 ---
 
+## Template slop (comparative-voice ledes)
+
+Mechanical **register roll call** and **meta signpost** syntax — not the same failure as a legitimate **topic + thesis** triad (law 1).
+
+| Legitimate (Durant + Kissinger) | Template slop |
+|---------------------------------|---------------|
+| Spine first — conflict, stakes, or transport claim | Roster first — three parallel “X speaks from Y” or “X names Z” stamps |
+| Voices enter **in service of the thesis** | Voices listed like program notes before the argument starts |
+| Comparison **performed** in prose | Comparison **announced** (“This essay compares…”) |
+| Convergence **earned** in a sentence | Convergence **labeled** (“three kinds of…”, “three registers, one…”) |
+
+**Opening scope for lint:** text after the `#` title line and before the first `##` heading (capped at 1500 characters). Use `--full` for SLOP-07 (closer) and body-wide SLOP-08.
+
+**Enforcement:** `python3 scripts/prose_slop_lint.py` · [`docs/prose-forge.md`](prose-forge.md). Optional legacy allowlist in the script (currently empty) skips named files in default full scan; use `--strict` or `--diff` for CI and changed lines.
+
+### Rule map (SLOP-01..08)
+
+| ID | Detects | Fix |
+|----|---------|-----|
+| **SLOP-01** | Two or more `… names …` clauses in the opening block (except `names three`) | Lead with spine; vary verbs (*presses*, *follows*, *reads*); perform convergence in prose — not `… name three kinds …` labels |
+| **SLOP-02** | Three or more em-dash sentences in the opening block | Break parallel em-dash rhythm; mix sentence length and structure |
+| **SLOP-03** | *(Manual — not automated)* Faux Churchill bombast without a load-bearing set-piece | One set-piece or paraphrase; drop mock oratory ([Anti-patterns](#anti-patterns)) |
+| **SLOP-04** | `This essay compares/explores/discusses/examines/will examine/argues that…` | Delete meta signpost; show comparison in the next sentences |
+| **SLOP-05** | Opening sentence starts with a name roster (`Pope…`, `Robert…`, `Jiang…`, `Leo…`, `Barnes…`) **without** spine verbs in the first two sentences | Put thesis/spine in sentence one; registers follow — spine verbs that exempt: `scaling faster`, `refuses`, `converge`, `constraint`, `answerability` |
+| **SLOP-06** | `three registers, one refusal\|constraint\|spine`; line-start `This paper/piece/note …` in opening block | Converge in argument, not in a label line; open with thesis, not “This note …” |
+| **SLOP-07** | Final prose paragraph ends with `?` (`--full` only) | Declarative Kissinger warning close (law 8) |
+| **SLOP-08** | `tri-mind`, `tri-frame`, or `roundtable` anywhere in scanned text (`--full` = whole file; default = opening block only) | Remove deprecated workflow vocabulary; compare registers, not host dialogue |
+
+### Before / after (comparative-voice lede)
+
+**Before (template slop — do not ship):**
+
+```markdown
+Three registers refuse the same naive triumphalism… Pope Leo XIV speaks from…
+Robert Barnes speaks from… Jiang Xueqin speaks from…
+
+This essay compares those three voices. It is not a tri-mind roundtable.
+… Leo, Barnes, and Jiang name three kinds of answerability…
+```
+
+**After (Band A — spine first):**
+
+```markdown
+Machine competence is scaling faster than answerability — and three registers
+in this repo refuse the same naive triumphalism… Pope Leo XIV speaks as a
+legitimacy-bearing office… Robert Barnes follows the forensic political
+economy… Jiang Xueqin reads a pedagogical-eschatological arc…
+
+The notes hold verbatim depth… What follows carries a single transport claim:
+office, liability, and formation triangulate **answerability** while scale,
+convenience, and persuasive synthetic speech keep advancing together.
+```
+
+See [`essays/leo-barnes-jiang-on-ai.md`](../essays/leo-barnes-jiang-on-ai.md) opening and voice sections (Band A lede + three register bodies; comparative seam table may remain Band B legacy).
+
+**Note on [Sample voice paragraph](#sample-voice-paragraph):** mid-essay illustration of tri-blend texture — not a copy-paste opening template. A spine-first lede should not stack three `X names Y` lines without the thesis leading.
+
+---
+
 ## Exemplars
 
 | Essay | Model for |
 |-------|-----------|
-| [leo-barnes-jiang-on-ai.md](../essays/leo-barnes-jiang-on-ai.md) | Comparative voice structure, tri-register compare, evidence tier — **not** apparatus density; closer is falsifier-shaped, not warning-shaped (legacy gap) |
+| [leo-barnes-jiang-on-ai.md](../essays/leo-barnes-jiang-on-ai.md) | Comparative voice structure — **Band A lede + Leo + Barnes + Jiang body**; comparative table Band B legacy; **Kissinger warning close** |
 | [ai-and-the-expansion-of-human-consciousness.md](../essays/ai-and-the-expansion-of-human-consciousness.md) | Prose-first medium argument, decisive close |
 | [from-accumulation-to-governed-interpretive-machine.md](../essays/from-accumulation-to-governed-interpretive-machine.md) | System essay, short-version |
 | [interpretive-machine.md](../essays/interpretive-machine.md) | Definitional + ancestor convergence |

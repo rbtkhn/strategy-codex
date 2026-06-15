@@ -50,7 +50,7 @@ python3 scripts/prose_forge.py gate artifacts/prose-forge/draft/candidate.md
 
 ## Legacy shelf
 
-[`essays/leo-barnes-jiang-on-ai.md`](../essays/leo-barnes-jiang-on-ai.md) is on the **legacy allowlist** — skipped by default full scan (known SLOP-04 debt). Use `--strict` or `--diff` on changed lines.
+The script **`LEGACY_ALLOWLIST`** is empty — all repo-root essays are linted in default full scan. Retrofitted exemplar: [`essays/leo-barnes-jiang-on-ai.md`](../essays/leo-barnes-jiang-on-ai.md) (Band A lede + voice sections; passes `--strict --full`).
 
 New essays may set frontmatter `voice_profile: tri-blend-band-a` (future strict gate).
 

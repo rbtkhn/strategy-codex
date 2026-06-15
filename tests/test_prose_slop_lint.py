@@ -58,22 +58,18 @@ def test_must_pass_set_piece_blockquote() -> None:
     assert "SLOP-02" not in rule_ids(findings)
 
 
-def test_must_flag_legacy_meta_strict() -> None:
-    path = REPO_ROOT / "essays/leo-barnes-jiang-on-ai.md"
-    findings = lint_file(path, strict=True)
-    assert "SLOP-04" in rule_ids(findings)
-
-
-def test_must_pass_legacy_open_default_skip() -> None:
+def test_leo_exemplar_passes_default_lint() -> None:
     path = REPO_ROOT / "essays/leo-barnes-jiang-on-ai.md"
     findings = lint_file(path, strict=False, diff_mode=False)
-    assert findings == []
+    slop = {f.rule_id for f in findings if f.rule_id.startswith("SLOP-")}
+    assert slop == set()
 
 
-def test_legacy_opening_no_slop_01_when_strict() -> None:
+def test_leo_exemplar_passes_strict_full_lint() -> None:
     path = REPO_ROOT / "essays/leo-barnes-jiang-on-ai.md"
-    findings = lint_file(path, strict=True)
-    assert "SLOP-01" not in rule_ids(findings)
+    findings = lint_file(path, strict=True, full=True)
+    slop = {f.rule_id for f in findings if f.rule_id.startswith("SLOP-")}
+    assert slop == set()
 
 
 def test_rhetorical_question_closer_full_scan() -> None:

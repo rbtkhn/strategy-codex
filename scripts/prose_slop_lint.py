@@ -60,11 +60,7 @@ WRITE_01 = re.compile(
     re.IGNORECASE,
 )
 
-LEGACY_ALLOWLIST = frozenset(
-    {
-        "essays/leo-barnes-jiang-on-ai.md",
-    }
-)
+LEGACY_ALLOWLIST: frozenset[str] = frozenset()
 
 
 @dataclass
