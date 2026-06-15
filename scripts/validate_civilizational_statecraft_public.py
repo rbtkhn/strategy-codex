@@ -42,6 +42,7 @@ REQUIRED_ROOT = [
 
 REQUIRED_FRAMEWORK = [
     "framework/civilization-empire-faith-science-memory-desire.md",
+    "framework/era-law.md",
     "comparative/continuity-mechanism.md",
     "comparative/pattern-library/README.md",
 ]

@@ -185,6 +185,8 @@ Use this doctrine when:
 
 Do not use it as a substitute for source objects or transaction design. Its job is to identify the governing layer and return you to the right retrieval surface.
 
+When periodization or era-matched shelf choice matters, use [Era Law](framework/era-law.md) as background architecture — after the governing pair is named, not before.
+
 ## Bottom line
 
 The active CIV-STATE question is no longer:

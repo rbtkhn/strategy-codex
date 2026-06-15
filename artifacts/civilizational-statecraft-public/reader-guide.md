@@ -61,6 +61,8 @@ Choose governing-layer entry when the real question is:
 - whether legitimacy, expertise, memory, or desire is distorting the read
 - whether the object still needs retrieval discipline before lane drafting
 
+When chronology or shelf choice matters within that mode, read [Era Law](framework/era-law.md) before opening era files inside a volume.
+
 ## How To Read One Civilization Volume
 
 Every volume in Civilizational Statecraft should be opened through the same order:
