@@ -53,7 +53,8 @@ flowchart TB
 ```
 
 **Membrane classes:** [work-membrane-v2.md](work-membrane-v2.md)  
-**Two channels:** [operator-two-channel-architecture.md](operator-two-channel-architecture.md) — *what system is emerging* vs *what object must be judged*
+**Two channels:** [operator-two-channel-architecture.md](operator-two-channel-architecture.md) — *what system is emerging* vs *what object must be judged*  
+**Essays (primary shelf):** [essays/README.md](../essays/README.md) — cross-channel theses; [prose-index.md](prose-index.md) for notes vs essays routing
 
 ---
 
@@ -150,6 +151,8 @@ Exit `1` on desync; does not auto-edit daily synthesis. `--latest` picks the new
 | Need | Path |
 |------|------|
 | Product identity | [product-identity.md](product-identity.md) |
+| **Essays (primary shelf)** | [essays/README.md](../essays/README.md) · canonical product essay: [from-accumulation-to-governed-interpretive-machine.md](../essays/from-accumulation-to-governed-interpretive-machine.md) |
+| Prose class chooser | [prose-index.md](prose-index.md) |
 | Grace-Mar freeze / revive | [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md) |
 | Deprecated surfaces index | [deprecated-surfaces.md](deprecated-surfaces.md) |
 | Statecraft front door | [statecraft/README.md](../statecraft/README.md) |

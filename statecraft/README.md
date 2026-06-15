@@ -217,10 +217,10 @@ At the broader repo level, the aliasing rule is now:
 
 ## Output Surfaces
 
-`statecraft/` now recognizes two first-class prose output folders alongside doctrine, journals, indexes, sheets, bridges, transactions, and source structures:
+`statecraft/` now recognizes channel-scoped notes alongside doctrine, journals, indexes, sheets, bridges, transactions, and source structures:
 
-- [notes/](notes/README.md) for working, exploratory, bounded interpretive outputs
-- [essays/](essays/README.md) for more synthesized, stand-alone, carriage-bearing long-form outputs
+- [notes/](notes/README.md) for working, exploratory, bounded interpretive outputs (statecraft-scoped only)
+- [essays/](essays/README.md) for **compatibility holdings** of pre-root statecraft-native essays — **new essays:** [../essays/README.md](../essays/README.md) at repo root
 
 For prose-class routing across domains, use [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) as the canonical chooser. The local shelf READMEs explain only the statecraft-specific version once that class decision is already made.
 

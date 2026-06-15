@@ -14,8 +14,8 @@ For one compact live comparison of how cluster behavior changes across `essays/`
 
 `notes/` and `essays/` are first-class prose output classes. They are not doctrine, not sheets, not bridges, not transactions, not journals, and not source archives.
 
-- `notes/` preserve **bounded interpretive objects**
-- `essays/` carry **stand-alone synthesized arguments**
+- `notes/` preserve **bounded interpretive objects** — channel-scoped only (`statecraft/notes/`, `singularity/notes/`)
+- `essays/` carry **stand-alone synthesized arguments** — **primary shelf:** repo-root [`essays/`](../essays/README.md); channel `*/essays/` folders are compatibility holdings for pre-root material
 
 `synthesis/` is adjacent but different. It is a domain-specific extraction layer, not a general prose class. In practice:
 
@@ -31,7 +31,7 @@ Speaker-shelf carveout:
 
 - `statecraft/voices/` is a continuity-and-retrieval layer, not a general prose shelf
 - speaker-derived bounded prose should route to `notes/` once it becomes reusable beyond shelf support
-- speaker-derived thesis-bearing prose should route to `essays/`
+- speaker-derived thesis-bearing prose should route to repo-root [`essays/`](../essays/README.md)
 
 Short boundary rule: `source-lattice` governs retrieval order; prose-index
 doctrine governs prose-class placement.
@@ -43,14 +43,14 @@ Use this order:
 1. If the object is still month-scale extraction from a live source spine, use the domain's `synthesis/` layer.
 2. If the object is reusable but still bounded to one seam, mechanism, route question, audit, or comparison, use `notes/`.
    This also covers compact session-governance or operating-contract notes that remain local prose objects rather than doctrine.
-3. If the object now carries a stand-alone thesis that should travel outside the original routing context, use `essays/`.
+3. If the object now carries a stand-alone thesis that should travel outside the original routing context, use repo-root [`essays/`](../essays/README.md) (including cross-channel theses).
 4. If it is actually doctrine, a kernel, a sheet, a bridge, a transaction, or an archive object, do not force it into a prose shelf.
 
 For speaker-derived objects, apply one extra test:
 
 - if the file mainly helps you understand or enter a speaker, keep it in the speaker shelf
 - if the file is now a reusable bounded prose destination, route it to `notes/`
-- if the file has become a transportable stand-alone argument, route it to `essays/`
+- if the file has become a transportable stand-alone argument, route it to repo-root [`essays/`](../essays/README.md)
 
 ## When To Open A Note
 
@@ -85,15 +85,16 @@ density is high and the evidence base is heterogeneous, prefer:
 
 ## Canonical Routes
 
-Need a **bounded interpretive object**:
+Need a **thesis-bearing synthesized argument**:
+
+- **primary (default)** — cross-channel or stand-alone essay -> [essays](/C:/dev/strategy-codex/essays/README.md) at repo root
+- statecraft-heavy legacy holdings -> [statecraft essays](/C:/dev/strategy-codex/statecraft/essays/README.md) (compatibility; migrate to root `essays/` in bounded passes)
+- singularity-heavy legacy holdings -> [singularity essays](/C:/dev/strategy-codex/singularity/essays/README.md) (compatibility; migrate to root `essays/` in bounded passes)
+
+Need a **bounded interpretive object** (channel-scoped only — do not split across channels at note layer):
 
 - statecraft route / mechanism / comparison / audit / threshold object -> [statecraft notes](/C:/dev/strategy-codex/statecraft/notes/README.md)
 - singularity promoted seam / substrate / control-plane / source-hygiene object -> [singularity notes](/C:/dev/strategy-codex/singularity/notes/README.md)
-
-Need a **thesis-bearing synthesized argument**:
-
-- statecraft framing or cross-lane argument -> [statecraft essays](/C:/dev/strategy-codex/statecraft/essays/README.md)
-- singularity thesis about agency, acceleration, substrate, alignment, labor, or authority -> [singularity essays](/C:/dev/strategy-codex/singularity/essays/README.md)
 
 Need a **month-scale extraction layer rather than a prose shelf**:
 
@@ -123,8 +124,9 @@ This index points to shelf roles and canonical entry surfaces first.
 
 Stability rule:
 
-- shelf READMEs are the canonical entrypoints for their local prose shelves
-- some shelf contents remain mirrored compatibility material while taxonomy settles
+- repo-root [`essays/README.md`](../essays/README.md) is the canonical entrypoint for new thesis-bearing prose
+- channel `notes/` READMEs remain canonical for channel-scoped bounded objects
+- channel `*/essays/` READMEs index compatibility holdings only until bounded migration
 - prefer `shelf-native` items and README-curated entry points over assuming every file inside a shelf is equally canonical prose authority
 
 Later cleanup may remove or rewrite some mirrored or review-needed items, but this index should remain stable because it routes through shelf authority first rather than through raw folder contents.

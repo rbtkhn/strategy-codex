@@ -118,5 +118,5 @@ The discipline is the same as Anthropic’s review bottleneck: **taste and promo
 - **Parent sheet:** [moonshots-emerging-anthropic-pause-recursive-personhood.md](../workshop/sheets/moonshots-emerging-anthropic-pause-recursive-personhood.md)
 - **Related:** [coding-swarms-and-human-control-planes.md](./coding-swarms-and-human-control-planes.md)
 - **Related workshop:** [Agent control plane](../workshop/sheets/agent-control-plane.md)
-- **Local doctrine:** [from-accumulation-to-governed-interpretive-machine.md](../../statecraft/essays/from-accumulation-to-governed-interpretive-machine.md)
+- **Local doctrine:** [from-accumulation-to-governed-interpretive-machine.md](../../essays/from-accumulation-to-governed-interpretive-machine.md)
 - **Boundary:** [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md)

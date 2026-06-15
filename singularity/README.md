@@ -26,8 +26,8 @@ Use this folder for singularity concepts and study structure, not for generic AI
 ## Current Workshop Anchor
 
 - [Synthesis](synthesis/README.md) - first-class monthly singularity synthesis shelf for extracting analytical value and actionable ideas from the Innermost Loop archive.
-- [Notes](notes/README.md) - first-class singularity notes shelf for exploratory and bounded interpretive outputs.
-- [Essays](essays/README.md) - first-class singularity essay shelf for more synthesized, stand-alone, carriage-bearing long-form outputs.
+- [Notes](notes/README.md) - first-class singularity notes shelf for exploratory and bounded interpretive outputs (singularity-scoped only).
+- [Essays](essays/README.md) - **compatibility holdings** for pre-root singularity-native essays — **new essays:** [../essays/README.md](../essays/README.md) at repo root.
 - [Cici AI / work-cici](work-cici/README.md) - singularity-native cohort, advisor, and beginner-compounding overlay for testing whether recursive AI meaningfully raises the floor for real-world coordination and learning.
 - [Two-Channel Operator Architecture](/C:/dev/strategy-codex/docs/operator-two-channel-architecture.md) - canonical routing law for `singularity`, `statecraft`, and their overlays.
 - [Shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) - canonical prose-class chooser across domains.

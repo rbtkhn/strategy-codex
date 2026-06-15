@@ -2,13 +2,15 @@
 
 work only; not Record.
 
+> **Compatibility shelf.** Canonical primary essay home: [../../essays/README.md](../../essays/README.md) at repo root. New stand-alone essays default there (including cross-channel theses). This folder retains pre-root singularity-native holdings until bounded migration.
+
 This shelf indexes **carriage-bearing singularity theses**.
 
 Open [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) first when you need to distinguish bounded promoted seams from stand-alone arguments.
 
 ## Authority Rule
 
-This README is the **canonical prose-discovery surface** for `singularity/essays/`.
+This README is the **canonical prose-discovery surface for compatibility holdings** in `singularity/essays/` — not the default destination for new essays.
 
 Use the classifications below strictly:
 
@@ -56,7 +58,7 @@ Machine-constitutional and source-bearing files stay where they already belong:
 ## Best Entry Points
 
 - [ai-and-the-expansion-of-human-consciousness.md](./ai-and-the-expansion-of-human-consciousness.md) - stand-alone thesis arguing that AI may change the conditions of consciousness formation in a way comparable to writing and print
-- [interpretive-machine.md](./interpretive-machine.md) - stand-alone thesis about interpretive learning systems
+- [interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md) - stand-alone thesis about interpretive learning systems (**canonical**; compatibility stub under `singularity/essays/`)
 - [system-design-lineage-is-not-unique-in-kind.md](./system-design-lineage-is-not-unique-in-kind.md) - source-backed synthesis arguing that the repo's design family has clear academic precedent
 - [pope-leo-on-ai.md](./pope-leo-on-ai.md) - singularity-side placeholder shell for Catholic AI doctrine as a question of mediation, anthropology, and synthetic judgment
 - [sovereignty-under-acceleration.md](./sovereignty-under-acceleration.md) - authority-and-sovereignty thesis
@@ -94,9 +96,9 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 ### Shelf-Native
 
 - [ai-and-the-expansion-of-human-consciousness.md](./ai-and-the-expansion-of-human-consciousness.md) stand-alone singularity thesis on AI as a cognition-changing medium rather than only a productivity tool
-- [interpretive-machine.md](./interpretive-machine.md) synthesized from the [interpretive-machine cluster](./interpretive-machine/README.md)
+- [interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md) synthesized from the [interpretive-machine cluster](/C:/dev/strategy-codex/essays/interpretive-machine/README.md) (**canonical** at repo root)
 - [system-design-lineage-is-not-unique-in-kind.md](./system-design-lineage-is-not-unique-in-kind.md) synthesized from the [system-design-lineage cluster](./system-design-lineage/README.md)
-- [pope-leo-on-ai.md](./pope-leo-on-ai.md) shelf-native placeholder awaiting primary Leo text integration
+- [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) cross-channel placeholder (**canonical**; local stub only)
 
 ### Mirrored Legacy Promotion
 

@@ -10,10 +10,13 @@ It is **not** primarily a system for growing a personal cognitive fork. The embe
 
 ## Canonical essay
 
-Full argument and success metrics: [`statecraft/essays/from-accumulation-to-governed-interpretive-machine.md`](../statecraft/essays/from-accumulation-to-governed-interpretive-machine.md)
+Full argument and success metrics: [`essays/from-accumulation-to-governed-interpretive-machine.md`](../essays/from-accumulation-to-governed-interpretive-machine.md)
+
+**Essay shelf (primary):** [`essays/README.md`](../essays/README.md) — cross-channel stand-alone theses. Channel `notes/` remain scoped to statecraft or singularity only.
 
 ## Operator entry
 
 - [`start-here.md`](start-here.md)
+- [`essays/README.md`](../essays/README.md) — primary essay shelf (cross-channel theses)
 - [`operator-two-channel-architecture.md`](operator-two-channel-architecture.md)
 - [`AGENTS.md`](../AGENTS.md)

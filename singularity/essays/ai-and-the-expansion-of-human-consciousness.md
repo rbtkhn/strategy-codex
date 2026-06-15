@@ -66,7 +66,7 @@ This essay is structurally supported by several existing local arguments:
 
 - [Barnes on AI](/C:/dev/strategy-codex/statecraft/notes/barnes-on-ai.md) for skeptical pressure around hype, liability, and oversold intelligence claims
 - [Pope Leo on AI](/C:/dev/strategy-codex/singularity/essays/pope-leo-on-ai.md) for mediation, authorship, judgment, and answerability
-- [Interpretive Machine](/C:/dev/strategy-codex/singularity/essays/interpretive-machine.md) for the difference between answer automation and judgment-forming infrastructure
+- [Interpretive Machine](/C:/dev/strategy-codex/essays/interpretive-machine.md) for the difference between answer automation and judgment-forming infrastructure
 
 Those surfaces help define the boundaries of the claim. They do not change the main thesis here:
 

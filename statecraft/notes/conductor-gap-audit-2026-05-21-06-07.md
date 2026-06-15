@@ -55,7 +55,7 @@ Flag an artifact when it meets **any** of:
 
 | Artifact | Note |
 |----------|------|
-| `statecraft/essays/from-accumulation-to-governed-interpretive-machine.md` | Meta-essay; Bernstein re-entry pass would help cold readers |
+| `essays/from-accumulation-to-governed-interpretive-machine.md` | Meta-essay; Bernstein re-entry pass would help cold readers |
 | `2026-06-week1-start-here.md` | Navigation object; Karajan route pass if it changes month priority |
 | `statecraft/america/transactions/foreign-client-mesh-separation-and-command-review.md` | Revised in gap window; Kleiber slice if commit imminent |
 | Dream integrity failures (2026-05-22, 05-23, 05-26, 05-27) | Steward/Kleiber **no_action** or **watch** on integrity — not statecraft, but left conductor silent |

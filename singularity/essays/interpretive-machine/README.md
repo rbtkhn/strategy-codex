@@ -2,30 +2,12 @@
 
 work only; not Record.
 
-This folder is the canonical home of the bounded support cluster behind
-[Interpretive Machine](../interpretive-machine.md).
+**Canonical home:** [../../../essays/interpretive-machine/README.md](../../../essays/interpretive-machine/README.md)
 
-Use this cluster when the main essay is too compressed and you need the
-supporting lines separated by function:
+Compatibility stub — pre-root singularity cluster. Edit repo-root cluster files:
 
-- [lineage.md](./lineage.md) for the academic and conceptual ancestors
-- [workflow-manifestations.md](./workflow-manifestations.md) for live repo proof
-- [corporate-applications.md](./corporate-applications.md) for product and
-  institutional extrapolation
+- [lineage.md](../../../essays/interpretive-machine/lineage.md)
+- [workflow-manifestations.md](../../../essays/interpretive-machine/workflow-manifestations.md)
+- [corporate-applications.md](../../../essays/interpretive-machine/corporate-applications.md)
 
-The cluster is intentionally subordinate to the carriage-bearing essay above
-it. These notes exist so the domain argument can stay clean without losing the
-supporting scaffolds.
-
-This is also the default cluster shape for literature-backed support work:
-
-- `README.md` as cluster front door
-- function-separated support notes
-- optional evidence matrix when comparison across sources becomes central
-- one synthesized essay above the cluster
-
-## Return Path
-
-- Return to [Interpretive Machine](../interpretive-machine.md) for the
-  synthesized essay.
-- Return to [Singularity Essays](../README.md) for the broader essay shelf.
+Main essay: [interpretive-machine.md](../../../essays/interpretive-machine.md)

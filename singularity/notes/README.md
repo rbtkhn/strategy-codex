@@ -29,7 +29,7 @@ Use `singularity/notes/` for:
 The local distinction is:
 
 - a **singularity note** preserves one promoted seam, control-plane packet, source-hygiene companion, or bounded substrate argument
-- a **singularity essay** carries a broader thesis that should travel beyond the original month, sheet, or workshop route
+- a **singularity essay** carries a broader thesis that should travel beyond the original month, sheet, or workshop route — **new essays:** [../../essays/](../../essays/README.md)
 
 Do **not** use this folder for:
 
@@ -69,7 +69,7 @@ Most singularity notes are promoted from:
 - workshop sheets when one seam should survive separately from the sheet that generated it
 - source-hygiene or companion notes when reuse needs a disciplined local packet
 
-Promotion to `../essays/` happens when the seam becomes a stand-alone thesis rather than a bounded promoted object.
+Promotion to [../../essays/](../../essays/README.md) (repo root) happens when the seam becomes a stand-alone thesis rather than a bounded promoted object.
 
 ## Existing Likely Candidates
 

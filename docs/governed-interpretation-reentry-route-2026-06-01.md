@@ -20,7 +20,7 @@ If you only need the shortest truthful phrase, stop there.
 
 Open:
 
-- [From Accumulation To A Governed Interpretive Machine](/C:/dev/strategy-codex/statecraft/essays/from-accumulation-to-governed-interpretive-machine.md)
+- [From Accumulation To A Governed Interpretive Machine](/C:/dev/strategy-codex/essays/from-accumulation-to-governed-interpretive-machine.md)
 
 Use it when the question is:
 
@@ -124,5 +124,6 @@ Move down that ladder only as far as your question really requires.
 
 ## Return Path
 
+- [essays shelf](/C:/dev/strategy-codex/essays/README.md)
 - [statecraft front door](/C:/dev/strategy-codex/statecraft/README.md)
 - [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md)

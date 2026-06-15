@@ -40,7 +40,7 @@ When uncertain, stage with an explicit note that **human sensemaking** may be re
 
 ## What This System Is
 
-A **governed interpretive machine** — verbatim sources land in archive; bounded synthesis and transaction objects carry judgment under **statecraft** and **singularity**. Durable operator work ends at **governed adjacent** surfaces unless the operator explicitly revives the Grace-Mar fork lane. See [`docs/product-identity.md`](docs/product-identity.md) and [`statecraft/essays/from-accumulation-to-governed-interpretive-machine.md`](statecraft/essays/from-accumulation-to-governed-interpretive-machine.md).
+A **governed interpretive machine** — verbatim sources land in archive; bounded synthesis and transaction objects carry judgment under **statecraft** and **singularity**. Durable operator work ends at **governed adjacent** surfaces unless the operator explicitly revives the Grace-Mar fork lane. See [`docs/product-identity.md`](docs/product-identity.md) and [`essays/from-accumulation-to-governed-interpretive-machine.md`](essays/from-accumulation-to-governed-interpretive-machine.md).
 
 **Legacy — Grace-Mar cognitive fork (frozen sidecar):** A versioned personal Record (`self.md`, `self-archive.md`, …) and deprecated Voice (`bot/`) remain at repo root for archaeology and explicit revive only. Do not treat fork growth as the product objective. [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
 

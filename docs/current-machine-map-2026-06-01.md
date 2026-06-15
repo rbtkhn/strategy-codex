@@ -277,7 +277,7 @@ If you are cold and want the fastest honest path back in:
 
 ### For the broader recent shift in plain language
 
-- open [statecraft/essays/from-accumulation-to-governed-interpretive-machine.md](/C:/dev/strategy-codex/statecraft/essays/from-accumulation-to-governed-interpretive-machine.md)
+- open [essays/from-accumulation-to-governed-interpretive-machine.md](/C:/dev/strategy-codex/essays/from-accumulation-to-governed-interpretive-machine.md)
 
 ## The Current Weak Flank
 

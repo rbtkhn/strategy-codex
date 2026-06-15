@@ -35,7 +35,7 @@ Use `statecraft/notes/` for bounded interpretive objects such as:
 The local distinction is:
 
 - a **statecraft note** preserves one mechanism, one route question, one threshold distinction, one audit object, or one comparison seam
-- a **statecraft essay** carries a broader statecraft argument that should stand on its own outside the original routing context
+- a **statecraft essay** carries a broader statecraft argument that should stand on its own outside the original routing context — **new essays:** [../../essays/](../../essays/README.md)
 
 Do **not** use this folder for:
 
@@ -138,7 +138,7 @@ Most statecraft notes are promoted from:
 - root or lane-local notes when one mechanism deserves preservation without widening into doctrine
 - speaker shelves when the file's main job is no longer retrieval but preservation of a reusable bounded object
 
-Promotion to `../essays/` happens when the bounded object starts carrying a broader stand-alone claim rather than one local statecraft seam.
+Promotion to [../../essays/](../../essays/README.md) (repo root) happens when the bounded object starts carrying a broader stand-alone claim rather than one local statecraft seam.
 
 Speaker-derived note rule:
 

@@ -8,17 +8,19 @@ This is a small live comparison note for one recurring placement question:
 
 The goal is not to create a new taxonomy. The goal is to make future placement decisions faster.
 
+**Primary essay shelf (2026-06):** repo-root [`essays/`](../essays/README.md). Channel `*/essays/` folders are compatibility holdings; notes remain channel-scoped only.
+
 ## Core Distinction
 
 The same subject can appear in all three places, but it should behave differently in each one:
 
-- `singularity/essays/` carries the **thesis-bearing owner**
+- repo-root [`essays/`](../essays/README.md) (primary) or channel `*/essays/` (compatibility) carries the **thesis-bearing owner**
 - `singularity/notes/` carries the **bounded promoted object**
 - `docs/skill-work/` carries the **operator doctrine or legacy compatibility layer**
 
 If one file is trying to do all three jobs at once, the placement is probably wrong.
 
-## 1. When A Cluster Lives In `singularity/essays/`
+## 1. When A Cluster Lives In repo-root `essays/`
 
 Here the cluster exists to support a carriage-bearing argument.
 
@@ -37,8 +39,8 @@ What should not be true:
 
 Live example:
 
-- [singularity/essays/interpretive-machine.md](/C:/dev/strategy-codex/singularity/essays/interpretive-machine.md)
-- [singularity/essays/interpretive-machine/README.md](/C:/dev/strategy-codex/singularity/essays/interpretive-machine/README.md)
+- [essays/interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md)
+- [essays/interpretive-machine/README.md](/C:/dev/strategy-codex/essays/interpretive-machine/README.md)
 
 The interpretive-machine cluster now behaves correctly here. The essay owns the transportable claim. The cluster holds lineage, workflow proof, and product extrapolation without pretending to become the main argument.
 
@@ -115,5 +117,6 @@ docs/skill-work owns operator doctrine, procedure, and compatibility residue
 ## Return Path
 
 - Return to [Prose Index](/C:/dev/strategy-codex/docs/prose-index.md) for the canonical class chooser.
-- Return to [Singularity Essays](/C:/dev/strategy-codex/singularity/essays/README.md) for thesis-bearing singularity prose.
+- Return to [Essays (repo root)](/C:/dev/strategy-codex/essays/README.md) for the primary thesis-bearing essay shelf.
+- Return to [Singularity Essays](/C:/dev/strategy-codex/singularity/essays/README.md) for singularity compatibility essay holdings.
 - Return to [Singularity Notes](/C:/dev/strategy-codex/singularity/notes/README.md) for bounded promoted singularity objects.

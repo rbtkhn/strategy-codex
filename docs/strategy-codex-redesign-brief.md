@@ -2,7 +2,7 @@
 
 **Status:** operator planning artifact · **work only; not Record**  
 **Purpose:** Merge two “from scratch” redesign memos into one ranked action map tied to **this repo’s paths** — not greenfield fantasy.  
-**Companion essays:** [from-accumulation-to-governed-interpretive-machine.md](../statecraft/essays/from-accumulation-to-governed-interpretive-machine.md) · [operator-two-channel-architecture.md](operator-two-channel-architecture.md) · [work-membrane-v2.md](work-membrane-v2.md)
+**Companion essays:** [from-accumulation-to-governed-interpretive-machine.md](../essays/from-accumulation-to-governed-interpretive-machine.md) · [operator-two-channel-architecture.md](operator-two-channel-architecture.md) · [work-membrane-v2.md](work-membrane-v2.md)
 
 ---
 
@@ -83,6 +83,7 @@
 | Surface | Current paths | Target |
 |---------|---------------|--------|
 | Public PH artifact | frozen local trees above | `rbtkhn/ph-civ` sole canonical corpus |
+| Public Civilizational Statecraft book | `statecraft/states/` (workshop SSOT) | `rbtkhn/civ-state` sole canonical public book — export via [`scripts/export_civilizational_statecraft_public.py`](../scripts/export_civilizational_statecraft_public.py); see [civilizational-statecraft-external-boundary.md](civilizational-statecraft-external-boundary.md) |
 | CIV-MEM bulk reference | `research/repos/civilization_memory/`, CIV-MEM indexes | Versioned submodule or sibling; strategy-codex holds routing + mirrors only |
 | Academy mirrors | `statecraft/voices/jiang/ph-civ`, `scripts/check_academy_mirror_sync.py` | Gitlink discipline; parent repo does not own upstream manuscript |
 | Record portable bundle | `scripts/export_fork.py`, `runtime-bundle/`, `fork-manifest.json` | Default export: Markdown + JSON (+ optional SQLite view); ZIP import **stages only** |
@@ -225,7 +226,7 @@ flowchart TB
 | Layer loading | [layer-architecture.md](layer-architecture.md) |
 | Portable skills | [skills-portable/README.md](../skills-portable/README.md) |
 | Archive stale audit | [source-archive/statecraft/stale-index-audit.md](../source-archive/statecraft/stale-index-audit.md) |
-| Accumulation → machine essay | [statecraft/essays/from-accumulation-to-governed-interpretive-machine.md](../statecraft/essays/from-accumulation-to-governed-interpretive-machine.md) |
+| Accumulation → machine essay | [essays/from-accumulation-to-governed-interpretive-machine.md](../essays/from-accumulation-to-governed-interpretive-machine.md) |
 
 ---
 
