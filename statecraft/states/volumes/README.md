@@ -1,10 +1,10 @@
-﻿# CIV-STATE Volumes
+﻿# Volume Map
+
+**Civilizational Statecraft** — five-volume shelf. Workshop path: `statecraft/states/volumes/` (`civ-state` substrate slug; not the book title).
 
 WORK only; not Record.
 
-This folder is the front-door volume order for `civ-state`.
-
-It does not replace lane-local `statecraft/<lane>/` storage. It organizes CIV-STATE retrieval so the source base can be opened in one stable civilizational sequence before descending into helix, civilization, empire, state, or transaction surfaces.
+This folder is the front-door volume order for the book. It does not replace lane-local `statecraft/<lane>/` storage. It organizes retrieval so the source base can be opened in one stable civilizational sequence before descending into helix, civilization, empire, state, or transaction surfaces.
 
 For the whole-work apparatus beside this five-volume shelf, open:
 
@@ -15,7 +15,7 @@ For the whole-work apparatus beside this five-volume shelf, open:
 - [Hybrid References](../hybrid-references.md)
 - [Index](../index.md)
 
-The purpose of this volume set is to provide an authoritative working illustration of the **civilization-state** through five concrete cases. Each volume opens with a reader **introduction**, then **Civilization** and **Empire** chapters, optional sub-lenses, and source-lattice shelves nested through the preferred era spine.
+The purpose of this volume set is to provide an authoritative working illustration of the **civilization-state** through five concrete cases. Each volume opens with a thematic **volume introduction** (not the whole-work essay [Civilization and Empire](../introduction.md)), then **Civilization** and **Empire** chapters, optional sub-lenses, and source-lattice shelves nested through the preferred era spine.
 
 Each volume now also carries a `shelf-reader` layer between the volume front door and the bibliography-era source files. Its job is to help the operator traverse the source shelf without widening immediately into whole-volume doctrine or raw era-file descent.
 
@@ -32,13 +32,13 @@ let support displace source primacy.
 
 ## Constitutional Order
 
-Read CIV-STATE in this order (five-volume frame):
+Read Civilizational Statecraft in this order (five-volume frame):
 
-1. [CIV-STATE China](civ-state-china/README.md) — **Volume I**
-2. [CIV-STATE Persia](civ-state-persia/README.md) — **Volume II**
-3. [CIV-STATE Rome](civ-state-rome/README.md) — **Volume III**
-4. [CIV-STATE Russia](civ-state-russia/README.md) — **Volume IV**
-5. [CIV-STATE America](civ-state-america/README.md) — **Volume V**
+1. [Volume I — China](civ-state-china/README.md)
+2. [Volume II — Persia](civ-state-persia/README.md)
+3. [Volume III — Rome](civ-state-rome/README.md)
+4. [Volume IV — Russia](civ-state-russia/README.md)
+5. [Volume V — America](civ-state-america/README.md)
 
 Each volume is nested through the preferred era spine:
 
@@ -93,15 +93,20 @@ Use the opener block operationally:
 - **Sovereign opening** routes toward founding, origin, and state-memory objects
 - **Current carrier** routes toward helix, state, and transaction surfaces
 
-The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar Library](../sacred-grammar/README.md). Use it when the problem is legitimacy substrate rather than sovereign opener or present carrier.
+The canonical deep-grammar surface is each volume's [`sacred-grammar.md`](civ-state-china/sacred-grammar.md) — see [Reader Guide § Sacred grammar](../reader-guide.md#sacred-grammar-volume-local).
 
-## Volume Introductions
+## Volume introductions
 
+Thematic opening essays for each volume (distinct from the whole-work essay [Civilization and Empire](../introduction.md)):
 - [Mandate of Heaven](civ-state-china/introduction.md) — Volume I China
 - [Order of Asha](civ-state-persia/introduction.md) — Volume II Persia
 - [Pax Romana](civ-state-rome/introduction.md) — Volume III Rome
 - [The Third Rome](civ-state-russia/introduction.md) — Volume IV Russia
 - [Imperial Republic](civ-state-america/introduction.md) — Volume V America
+
+## Sacred grammar (volume-local)
+
+- [China](civ-state-china/sacred-grammar.md) · [Persia](civ-state-persia/sacred-grammar.md) · [Rome](civ-state-rome/sacred-grammar.md) · [Russia](civ-state-russia/sacred-grammar.md) · [America](civ-state-america/sacred-grammar.md)
 
 ## Civilization Chapters
 
@@ -131,7 +136,7 @@ Do not resolve these by silent edit. Name them before prose merge, ledes, or ano
 
 | Tension | What pulls | Current fact | Decision still open |
 |---------|------------|--------------|---------------------|
-| **Public reader vs workshop Part 3** | [`rbtkhn/civ-state`](https://github.com/rbtkhn/civ-state) v0.1.3 exports **introduction → Civilization → Empire** only; workshop still carries `statecraft-*.md` on disk | Export gate + validator exclude `statecraft-*.md`; files remain for merge | When and how to fold `statecraft-*.md` prose into **Empire** and/or volume **introduction** without reintroducing a third reader-facing part |
+| **Public reader vs workshop Part 3** | [`rbtkhn/civ-state`](https://github.com/rbtkhn/civ-state) v0.1.3 exports **volume introduction → Civilization chapter → Empire chapter** only; workshop still carries `statecraft-*.md` on disk | Export gate + validator exclude `statecraft-*.md`; files remain for merge | When and how to fold `statecraft-*.md` prose into **Empire** and/or **volume introduction** without reintroducing a third reader-facing part |
 | **`legacy-cut` retention vs book-only archive** | v0.1.2 public tree included `archive/helix-lane-v1/legacy-cut/`; v0.1.3 has **stub README only** | Export staging generates `archive/helix-lane-v1/README.md` only; workshop has **no** `legacy-cut` source tree; manifest `legacy_archive.sanitize` runs only if that folder already exists in output | Restore helix cut as a later archival commit, keep book-only stub, or copy sanitized legacy from pre-v0.1.3 civ-state history — see Andante note below |
 | **Upstream push vs tagged public** | Public tag **v0.1.3** merged on GitHub; strategy-codex `main` may still be **ahead of origin** with export/skill/navigation commits | Workshop is SSOT for the next export; remote sync is operator/network dependent | Push strategy-codex when network allows so workshop receipts match what shipped |
 
@@ -198,7 +203,7 @@ Do not resolve these by silent edit. Name them before prose merge, ledes, or ano
 - Use a volume README when you need the best current opening sequence for one civilization across time.
 - Use [Table of Contents](../table-of-contents.md) when you want the five-volume work order before choosing one civilization.
 - Use [Reader Guide](../reader-guide.md) when you want the operator's whole-book reading doctrine before entering a single volume.
-- Use [Sacred Grammar Library](../sacred-grammar/README.md) when the object is specifically about deep legitimacy grammar and continuity through rupture.
+- Use [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local) when the object is specifically about deep legitimacy grammar and continuity through rupture.
 - Use the lane README when ownership is already clear and the drafting problem is live.
 - Use [Civilization, Empire, Faith, Science, Memory, Desire](../civilization-empire-faith-science-memory-desire.md) when the object is really about governing layer rather than civilizational carrier.
 - Use the [Source retrieval matrix](../indexes/source-retrieval-matrix.md) when you already know the object class and need the narrowest workable source.

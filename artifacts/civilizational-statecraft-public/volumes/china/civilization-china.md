@@ -22,9 +22,9 @@ This chapter treats China as a civilization of durable order, not as a timeless 
 
 ## Return Path
 
-- Return to [China](README.md) for the full volume spine.
+- Return to [Volume I — China](README.md) for the full volume spine.
 - Return to China sovereign continuity for the narrower continuity-only drill-down.
-- Return to [China sacred grammar](../../sacred-grammar/china.md) for the deeper legitimacy substrate.
+- Return to [China sacred grammar](../../volumes/china/sacred-grammar.md) for the deeper legitimacy substrate.
 - Return to the live China statecraft lane when the drafting problem is active.
 
 ## Core Thesis

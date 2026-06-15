@@ -1,8 +1,10 @@
 # Civilizational Statecraft external boundary
 
-`rbtkhn/civ-state` is the canonical **public Civilizational Statecraft** book.
+`rbtkhn/civ-state` is the canonical **public Civilizational Statecraft** book (repo slug only — not a reader-facing title).
 
-It is the standalone comparative artifact: **Civilization and Empire** (whole-book introduction), **five case volumes** (China, Persia, Rome, Russia, America) each with volume introduction plus Civilization and Empire chapters, source-lattice, plus a **whole-work appendix** (framework, sacred grammar, hybrid references, index, comparative continuity, pattern library).
+It is the standalone comparative artifact: **Civilization and Empire** (whole-work opening essay), **five case volumes** (China, Persia, Rome, Russia, America) each with a **thematic volume introduction**, then **Civilization** and **Empire** essay chapters, source-lattice, plus a **whole-work appendix** (framework, sacred grammar, hybrid references, index, comparative continuity, pattern library).
+
+Title layers are locked in workshop [Names and titles](../statecraft/states/reader-guide.md#names-and-titles) and [Glossary](../statecraft/states/glossary.md).
 
 Inside `strategy-codex`, Civilizational Statecraft is an **external published book** after cutover:
 

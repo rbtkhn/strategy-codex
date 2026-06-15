@@ -8,5 +8,5 @@ Use it when you want named direct entry into the Persia civilization-state sourc
 
 - Canonical volume: [CIV-STATE Persia](volumes/civ-state-persia/README.md)
 - Live lane peer: [Persia statecraft lane](../persia/README.md)
-- Deep grammar shelf: [Persia sacred grammar](sacred-grammar/persia.md)
+- Deep grammar shelf: [Persia sacred grammar](volumes/civ-state-persia/sacred-grammar.md)
 

@@ -1,5 +1,7 @@
 # CIV-STATE
 
+**Book title:** Civilizational Statecraft · **Opening essay:** [Civilization and Empire](introduction.md) · **This tree:** `civ-state` workshop substrate (not a reader title)
+
 work only; not Record.
 
 **Path:** `statecraft/states/` — not national lane skills (`state-america`, `state-persia`, `state-deploy`); those route live objects. This tree holds upstream civilization-**state** pattern memory (`states/volumes/civ-state-america/`, etc.).
@@ -141,17 +143,17 @@ This opener doctrine should also guide retrieval:
 - **Sovereign opening** points toward state-memory, founding, and origin objects
 - **Current carrier** points toward helix, state, and transaction surfaces
 
-The canonical CIV-STATE deep-grammar shelf is now [Sacred Grammar Library](sacred-grammar/README.md). It is built from `civilization_memory` as evidence through seed MEM plus `MEM CONNECTIONS` traversal, then translated back into CIV-STATE doctrine.
+The canonical CIV-STATE deep-grammar shelf is now [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local). It is built from `civilization_memory` as evidence through seed MEM plus `MEM CONNECTIONS` traversal, then translated back into CIV-STATE doctrine.
 
 ## Volume Order
 
-The front-door CIV-STATE order is now five volumes:
+The front-door volume order for **Civilizational Statecraft**:
 
-1. [CIV-STATE China](volumes/civ-state-china/README.md)
-2. [CIV-STATE Persia](volumes/civ-state-persia/README.md)
-3. [CIV-STATE Rome](volumes/civ-state-rome/README.md)
-4. [CIV-STATE Russia](volumes/civ-state-russia/README.md)
-5. [CIV-STATE America](volumes/civ-state-america/README.md)
+1. [Volume I — China](volumes/civ-state-china/README.md)
+2. [Volume II — Persia](volumes/civ-state-persia/README.md)
+3. [Volume III — Rome](volumes/civ-state-rome/README.md)
+4. [Volume IV — Russia](volumes/civ-state-russia/README.md)
+5. [Volume V — America](volumes/civ-state-america/README.md)
 
 Each volume is nested through the preferred era spine, but not every volume literally instantiates every era file.
 
@@ -174,9 +176,9 @@ The apparatus for that book-form is whole-work first, then volume-local:
 
 ## Volume Chapter Law
 
-Each CIV-STATE volume opens through a fixed reader order:
+Each Civilizational Statecraft volume opens through a fixed reader order:
 
-1. `introduction.md`
+1. volume introduction (thematic essay; not [Civilization and Empire](introduction.md))
 2. `civilization-<civ>.md`
 3. `empire-<civ>.md`
 
@@ -191,7 +193,7 @@ The named `geo-strategy-<civ>.md`, `secret-history-<civ>.md`, and `game-theory-<
 
 Use the chapter law operationally:
 
-- open **Introduction** when the issue is case placement, chain narrative, or read path
+- open **volume introduction** when the issue is case placement, chain narrative, or read path
 - open **Civilization** when the problem is legitimacy, continuity, or category membership
 - open **Empire** when the problem is reach, burden, outward instrument, overreach, or entropy
 - descend into sub-lenses when terrain, memory, or incentive geometry narrows the read
@@ -277,7 +279,7 @@ Each CIV-STATE source object should be short and usable. It should include:
 - [PH-CIV promotion ledger](ph-civ-promotion-ledger.md) - compact intake surface for deciding when a public `ph-civ` insight deserves promotion into `civ-state` before any upstream mutation is staged.
 - [Sovereign continuity of the CIV-states](sovereign-continuity-of-the-civ-states.md) - compact comparative note on how the five cases carry continuity-bearing sovereignty through rupture.
 - [Current sovereign heads of the CIV-states](current-sovereign-heads-of-the-civ-states.md) - present-tense capstone note showing how each volume reaches the current world through a live sovereign apex.
-- [Sacred Grammar Library](sacred-grammar/README.md) - canonical deep-grammar retrieval shelf beneath the volume opener doctrine.
+- [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local) - canonical deep-grammar retrieval shelf beneath the volume opener doctrine.
 - [Source retrieval matrix](indexes/source-retrieval-matrix.md) - default retrieval contract for state-memory, god, lit, art, geo, war, peace, and empire-instrument work.
 - [Arc-conditioned retrieval bridge](../bridges/README.md) - quiet adapter layer for routing speaker-arc claims into disciplined `civ-state` retrieval.
 - [Migration workspace](migration/README.md) - symmetric-first control plane for moving active statecraft lanes off direct legacy `civ-mem` dependency.
@@ -312,7 +314,7 @@ Use the front door that matches the actual operator question:
 - `which governing pair is really carrying this live object?`
   - open [Civilizational Statecraft Framework](civilization-empire-faith-science-memory-desire.md)
 - `which deep legitimacy grammar is load-bearing here?`
-  - open [Sacred Grammar Library](sacred-grammar/README.md)
+  - open [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local)
 - `should this public Predictive History insight be promoted into CIV-STATE?`
   - open [PH-CIV promotion ledger](ph-civ-promotion-ledger.md)
 - `how do I translate PH-CIV source pattern into CIV-STATE working doctrine?`

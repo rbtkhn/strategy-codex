@@ -129,7 +129,7 @@ Secondary object classes such as `god`, `lit`, `art`, `geo`, `war`, and `peace` 
 
 Return to:
 
-- [Sacred Grammar Library](../sacred-grammar/README.md)
+- [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local)
 - lane civilization surfaces
 - lane `state-memory`
 
@@ -145,7 +145,7 @@ Return to:
 
 Return to:
 
-- [Sacred Grammar Library](../sacred-grammar/README.md)
+- [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local)
 - lane-local `god`
 - other legitimacy-bearing civilization surfaces
 

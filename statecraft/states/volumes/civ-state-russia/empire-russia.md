@@ -24,7 +24,7 @@ This chapter does not reduce Russia to aggression alone or romanticize every out
 
 ## Return Path
 
-- Return to [CIV-STATE Russia](README.md) for the full volume spine.
+- Return to [Volume IV — Russia](README.md) for the full volume spine.
 - Return to [Civilization Russia](civilization-russia.md) for the regathering logic the empire stack claims to defend.
 - Return to [Russia empire instrument](../../../russia/empire/seed-instruments.md) for the narrower lane-local support object.
 - Return to the live [Russia statecraft lane](../../../russia/README.md) when the drafting problem is active.

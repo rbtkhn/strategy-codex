@@ -22,7 +22,7 @@ This chapter does not flatten Rome into glorious conquest or late decline melodr
 
 ## Return Path
 
-- Return to [Rome](README.md) for the full volume spine.
+- Return to [Volume III — Rome](README.md) for the full volume spine.
 - Return to [Civilization Rome](civilization-rome.md) for the inner logic of law, universality, and transformed continuity.
 - Return to Rome source corpus for deeper source-memory surfaces.
 - Return to the [statecraft root](README.md) when the Rome case is being used comparatively rather than lane-locally.
@@ -82,6 +82,6 @@ Open Rome imperially by asking what machinery is actually at issue: incorporatio
 ## Key evidence spine Anchors
 
 - Rome source corpus
-- [Rome sacred grammar](../../sacred-grammar/rome.md)
+- [Rome sacred grammar](../../volumes/rome/sacred-grammar.md)
 - [Rome source-memory volume](README.md)
 - [Civilizational Statecraft Framework](../../framework/civilization-empire-faith-science-memory-desire.md)

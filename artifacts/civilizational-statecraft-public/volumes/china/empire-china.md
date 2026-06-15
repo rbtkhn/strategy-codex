@@ -22,7 +22,7 @@ This chapter does not reduce China to conquest, nor does it romanticize every ou
 
 ## Return Path
 
-- Return to [China](README.md) for the full volume spine.
+- Return to [Volume I — China](README.md) for the full volume spine.
 - Return to [Civilization China](civilization-china.md) for the inner legitimacy logic the empire stack claims to serve.
 - Return to China empire instrument for the narrower lane-local support object.
 - Return to the live China statecraft lane when the drafting problem is active.

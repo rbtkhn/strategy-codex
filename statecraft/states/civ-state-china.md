@@ -8,5 +8,5 @@ Use it when you want named direct entry into the China civilization-state source
 
 - Canonical volume: [CIV-STATE China](volumes/civ-state-china/README.md)
 - Live lane peer: [China statecraft lane](../china/README.md)
-- Deep grammar shelf: [China sacred grammar](sacred-grammar/china.md)
+- Deep grammar shelf: [China sacred grammar](volumes/civ-state-china/sacred-grammar.md)
 

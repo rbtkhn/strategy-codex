@@ -44,7 +44,6 @@ REQUIRED_FRAMEWORK = [
     "framework/civilization-empire-faith-science-memory-desire.md",
     "comparative/continuity-mechanism.md",
     "comparative/pattern-library/README.md",
-    "sacred-grammar/README.md",
 ]
 
 VOLUME_ESSAYS = ["civilization", "empire"]
@@ -106,7 +105,7 @@ def check_required(export: Path, paths: list[str]) -> list[str]:
 def check_volume(export: Path, slug: str, eras: list[str], stub: bool) -> list[str]:
     errors: list[str] = []
     base = export / "volumes" / slug
-    for name in ["README.md", "introduction.md", "shelf-reader.md", "bibliography.md"]:
+    for name in ["README.md", "introduction.md", "sacred-grammar.md", "shelf-reader.md", "bibliography.md"]:
         if not (base / name).is_file():
             errors.append(f"volumes/{slug}: missing {name}")
     for legacy in base.glob("statecraft-*.md"):

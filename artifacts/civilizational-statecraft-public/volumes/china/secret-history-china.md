@@ -22,7 +22,7 @@ This chapter tracks symbolic activation, but it does not make narrative the sole
 
 ## Return Path
 
-Return through [China](README.md), [China sovereign continuity](README.md), [China geo-strategy](README.md), and [China sacred grammar](../../sacred-grammar/china.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [China](README.md), [China sovereign continuity](README.md), [China geo-strategy](README.md), and [China sacred grammar](README.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 

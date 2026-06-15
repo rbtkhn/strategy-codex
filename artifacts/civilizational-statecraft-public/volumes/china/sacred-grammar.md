@@ -1,4 +1,6 @@
-# China Sacred Grammar
+# Sacred Grammar
+
+Volume-local deep grammar for **Civilizational Statecraft**, Volume I — China.
 
 - **Core grammar**  
   Mandate, ritual order, and anti-disorder legitimacy. Rule is justified when it preserves order, provisioning, continuity, and civilizational dignity; disorder is not just failure but mandate stress.

@@ -1,4 +1,8 @@
-# Rome Sacred Grammar
+# Sacred Grammar
+
+WORK only; not Record.
+
+Volume-local deep grammar for **Civilizational Statecraft**, Volume III — Rome.
 
 - **Core grammar**
   Civic-sacral order, law, citizenship, and universality. Rome makes rightful rule legible through public order, juridical form, imperial inclusion, and later Christianized universality.
@@ -16,7 +20,7 @@
   Rome teaches how law, universality, and sacred continuity can survive institutional mutation. It is most useful when the live question concerns successor-order legitimacy, transformed carriers, and residue that still organizes authority after territorial exhaustion.
 
 - **Evidence spine**
-  Seed MEMs: MEM–ROME–CHRISTIANITY and MEM–ROME–LAW–CITIZENSHIP
-  MEM CONNECTIONS cluster: Christianity + law/citizenship -> Constantinople -> Great Schism / Papacy / Vatican
-  Corroborating overview: CIV–STATE–ROME
-  Local shape reference: [CIV-STATE Rome](../volumes/rome/README.md)
+  Seed MEMs: [MEM–ROME–CHRISTIANITY](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–CHRISTIANITY.md) and [MEM–ROME–LAW–CITIZENSHIP](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–LAW–CITIZENSHIP.md)
+  MEM CONNECTIONS cluster: Christianity + law/citizenship -> [Constantinople](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–CONSTANTINOPLE.md) -> [Great Schism](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–PAPACY–GREAT–SCHISM.md) / [Papacy](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–PAPACY.md) / [Vatican](../../../../research/repos/civilization_memory/content/civilizations/ROME/MEM–ROME–VATICAN.md)
+  Corroborating overview: [CIV–STATE–ROME](../../../../research/repos/civilization_memory/content/civilizations/ROME/CIV–STATE–ROME.md)
+  Local shape reference: [Volume front door](README.md)

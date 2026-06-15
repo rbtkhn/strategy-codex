@@ -22,7 +22,7 @@ This chapter tracks symbolic activation, but it does not make Roman memory the s
 
 ## Return Path
 
-Return through [CIV-STATE Rome](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/README.md), [Rome sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/sovereign-continuity.md), [Rome geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/geo-strategy-rome.md), and [Rome sacred grammar](/C:/dev/strategy-codex/statecraft/states/sacred-grammar/rome.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [CIV-STATE Rome](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/README.md), [Rome sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/sovereign-continuity.md), [Rome geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/geo-strategy-rome.md), and [Rome sacred grammar](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/sacred-grammar.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 
@@ -99,7 +99,7 @@ When drafting from the Rome volume, the governing question is:
 
 ## Key CIV-MEM Anchors
 
-- [Rome sacred grammar](../../sacred-grammar/rome.md)
+- [Rome sacred grammar](../../volumes/civ-state-rome/sacred-grammar.md)
 - [Rome source corpus](../../../../research/repos/civilization_memory/content/civilizations/ROME/)
 - [Rome sovereign continuity](sovereign-continuity.md)
 - [Rome geo-strategy](geo-strategy-rome.md)

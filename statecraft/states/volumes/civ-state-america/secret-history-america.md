@@ -22,7 +22,7 @@ This chapter tracks symbolic activation, but it does not reduce America to myth 
 
 ## Return Path
 
-Return through [CIV-STATE America](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/README.md), [America sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/sovereign-continuity.md), [America geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/geo-strategy-america.md), and [America sacred grammar](/C:/dev/strategy-codex/statecraft/states/sacred-grammar/america.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [CIV-STATE America](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/README.md), [America sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/sovereign-continuity.md), [America geo-strategy](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/geo-strategy-america.md), and [America sacred grammar](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-america/sacred-grammar.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 

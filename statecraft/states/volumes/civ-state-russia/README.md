@@ -1,5 +1,7 @@
 ﻿# CIV-STATE Russia
 
+**Civilizational Statecraft**, Volume IV. Volume introduction: [The Third Rome](introduction.md). `civ-state-russia` is the workshop folder slug—not the book title.
+
 WORK only; not Record.
 
 Russia is a live lane-backed CIV-STATE volume. Use it when the problem is strategic depth, recognition, sovereignty under encirclement pressure, imperial inheritance, or disruption without overbind.
@@ -11,7 +13,7 @@ Primary live lane: [Russia statecraft lane](../../../russia/README.md)
 **Opener Block**
 - Volume introduction: [The Third Rome](introduction.md)
 - Deep grammar: Orthodoxy, suffering, endurance, and gathering after fracture
-- Deep grammar retrieval: [Russia sacred grammar](../../sacred-grammar/russia.md)
+- Deep grammar retrieval: [Russia sacred grammar](sacred-grammar.md)
 - Sovereign opening: Rurik as the foundational sovereign
 - Current carrier: present Russian state / Russian Federation
 - Civilization chapter: [Russia civilization](civilization-russia.md)

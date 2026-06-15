@@ -1,10 +1,26 @@
 # Glossary
 
-This glossary defines the governing CIV-STATE vocabulary. It is concept-first, but it also names peoples, polities, dynasties, churches, empires, and transformed carriers that repeatedly structure the books.
+This glossary defines the governing vocabulary for **Civilizational Statecraft**. It is concept-first, but it also names peoples, polities, dynasties, churches, empires, and transformed carriers that repeatedly structure the books.
 
 Where a concept or name is still unevenly evidenced across the five cases, keep the entry narrower rather than pretending to finality.
 
 ## Core Concepts
+
+### Civilizational Statecraft
+
+The **book title** — the public comparative work (five civilization-state volumes plus whole-work apparatus). Published at [`rbtkhn/civ-state`](https://github.com/rbtkhn/civ-state).
+
+### Civilization and Empire
+
+The **whole-work opening essay** ([introduction.md](introduction.md)) — the governing helix and five-volume frame. This title is **not** the book title and **not** a volume introduction.
+
+### civ-state
+
+The **workshop folder slug** and GitHub repository name for the source-memory substrate. Operators use it for paths and export; **readers** should say **Civilizational Statecraft** for the book.
+
+### Volume introduction
+
+Each volume's thematic opening essay (for example Mandate of Heaven, Order of Asha) — distinct from **Civilization and Empire** and from the **Civilization** / **Empire** chapter pair inside that volume.
 
 ### Civilization-state
 

@@ -20,7 +20,7 @@ identity:
     settlement openness.
 
 opener:
-  deep_grammar_ref: sacred-grammar/persia.md
+  deep_grammar_ref: volumes/civ-state-persia/sacred-grammar.md
   sovereign_opening: Cyrus as foundational sovereign
   current_carrier_archetype: Islamic Republic Iran (confessional carrier of Persian chain)
   parts:
@@ -189,7 +189,7 @@ book_anchors:
   - volumes/civ-state-persia/secret-history-persia.md
   - volumes/civ-state-persia/geo-strategy-persia.md
   - volumes/civ-state-persia/game-theory-persia.md
-  - sacred-grammar/persia.md
+  - volumes/civ-state-persia/sacred-grammar.md
   - pattern-library/parity-rival.md
   - pattern-library/survivable-sovereignty.md
   - continuity-mechanism.md

@@ -22,7 +22,7 @@ Geography is real here, but it is not self-explaining. Seas, frontiers, and chok
 
 ## Return Path
 
-Return through [CIV-STATE Rome](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/README.md), [Rome sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/sovereign-continuity.md), [Rome sacred grammar](/C:/dev/strategy-codex/statecraft/states/sacred-grammar/rome.md), and the [Rome source corpus](/C:/dev/strategy-codex/research/repos/civilization_memory/content/civilizations/ROME/) when the problem needs either fuller continuity or deeper source-memory excavation.
+Return through [CIV-STATE Rome](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/README.md), [Rome sovereign continuity](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/sovereign-continuity.md), [Rome sacred grammar](/C:/dev/strategy-codex/statecraft/states/volumes/civ-state-rome/sacred-grammar.md), and the [Rome source corpus](/C:/dev/strategy-codex/research/repos/civilization_memory/content/civilizations/ROME/) when the problem needs either fuller continuity or deeper source-memory excavation.
 
 ## Core Thesis
 

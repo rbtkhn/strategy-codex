@@ -22,7 +22,7 @@ This chapter tracks symbolic activation, but it does not reduce America to myth 
 
 ## Return Path
 
-Return through [America](README.md), [America sovereign continuity](README.md), [America geo-strategy](README.md), and [America sacred grammar](../../sacred-grammar/america.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [America](README.md), [America sovereign continuity](README.md), [America geo-strategy](README.md), and [America sacred grammar](README.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 

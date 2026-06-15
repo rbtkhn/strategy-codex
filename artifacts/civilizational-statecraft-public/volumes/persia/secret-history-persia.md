@@ -22,7 +22,7 @@ This chapter tracks symbolic activation, but it does not reduce Persia to theolo
 
 ## Return Path
 
-Return through [Persia](README.md), [Persia sovereign continuity](README.md), [Persia geo-strategy](README.md), and [Persia sacred grammar](../../sacred-grammar/persia.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [Persia](README.md), [Persia sovereign continuity](README.md), [Persia geo-strategy](README.md), and [Persia sacred grammar](README.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 

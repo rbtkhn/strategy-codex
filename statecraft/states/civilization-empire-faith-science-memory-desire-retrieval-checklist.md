@@ -90,7 +90,7 @@ Name the civilization object in one line:
 
 Default router:
 
-- if the live question is legitimacy, truth-order, covenant, ritual order, Orthodoxy, providence, juridical universality, or what makes authority feel rightful, open the [Sacred Grammar Library](sacred-grammar/README.md) first
+- if the live question is legitimacy, truth-order, covenant, ritual order, Orthodoxy, providence, juridical universality, or what makes authority feel rightful, open the [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local) first
 
 ## 2. Empire pass
 
@@ -191,7 +191,7 @@ After the six-part pass, choose the right next surface.
 
 Return to:
 
-- [Sacred Grammar Library](sacred-grammar/README.md)
+- [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local)
 - lane civilization surfaces
 - lane `state-memory`
 
@@ -207,7 +207,7 @@ Return to:
 
 Return to:
 
-- [Sacred Grammar Library](sacred-grammar/README.md) first
+- [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local) first
 - then lane-local `god`, `lit`, or adjacent legitimacy objects
 
 ### If science is clearly governing

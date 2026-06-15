@@ -25,8 +25,10 @@ Read civilization-state cases in this order:
 Each volume follows the same reader order:
 
 ```text
-introduction → civilization → empire
+volume introduction → civilization chapter → empire chapter
 ```
+
+The whole work opens with [Civilization and Empire](../introduction.md) (opening essay — not the book title).
 
 Then optional sub-lenses: geo-strategy, secret-history, game-theory.
 

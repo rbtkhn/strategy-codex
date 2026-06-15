@@ -12,7 +12,7 @@ Civilization beautifies through law, citizenship, and imperial universality; emp
 
 **Sovereignty chain (narrative):** Romulus and republican-imperial universalization; Eastern Roman continuation; papal and legal residue as present carriers.
 
-**Sacred / civilizational grammar:** Roman law, citizenship, imperial universality, Christianity, papal residue. See [Rome sacred grammar](../../sacred-grammar/rome.md).
+**Sacred / civilizational grammar:** Roman law, citizenship, imperial universality, Christianity, papal residue. See [Rome sacred grammar](../../volumes/civ-state-rome/sacred-grammar.md).
 
 **Present carrier:** Catholic Church as clearest residue; Eastern Roman Empire as indispensable bridge in the chain narrative.
 

@@ -1,6 +1,6 @@
 # Table of Contents
 
-This is the whole-work table of contents for **Civilizational Statecraft**. Read it as a statesman's book, not as a file inventory.
+This is the whole-work table of contents for **Civilizational Statecraft** (the book title). Read it as a statesman's book, not as a file inventory. Title layers: [Names and titles](reader-guide.md#names-and-titles) in the Reader Guide.
 
 The governing helix:
 
@@ -15,6 +15,8 @@ memory → legitimacy → carrier → pressure → settlement
 ```
 
 ## Civilization and Empire
+
+This section names the **opening essay**, not the book. The book title is **Civilizational Statecraft**.
 
 Open [Civilization and Empire](introduction.md) before Volume I when you need the whole-book thesis: why statecraft requires civilizational perspective on history, and how the five volumes supply comparative pattern memory.
 
@@ -34,7 +36,7 @@ The earliest durable dynastic-state continuity chain in the set.
 - [Empire](volumes/china/empire-china.md)
 - Sub-lenses: [geo-strategy](volumes/china/geo-strategy-china.md) · [secret-history](volumes/china/secret-history-china.md) · [game-theory](volumes/china/game-theory-china.md)
 - Source-lattice: [shelf reader](volumes/china/shelf-reader.md) · [bibliography](volumes/china/bibliography.md)
-- Deep grammar: [China sacred grammar](sacred-grammar/china.md)
+- Deep grammar: [China sacred grammar](volumes/china/sacred-grammar.md)
 
 ### Volume II. Persia
 
@@ -46,7 +48,7 @@ The Cyrus-founded sovereignty chain, with Zoroaster as deeper sacred grammar ben
 - [Empire](volumes/persia/empire-persia.md)
 - Sub-lenses: [geo-strategy](volumes/persia/geo-strategy-persia.md) · [secret-history](volumes/persia/secret-history-persia.md) · [game-theory](volumes/persia/game-theory-persia.md)
 - Source-lattice: [shelf reader](volumes/persia/shelf-reader.md) · [bibliography](volumes/persia/bibliography.md)
-- Deep grammar: [Persia sacred grammar](sacred-grammar/persia.md)
+- Deep grammar: [Persia sacred grammar](volumes/persia/sacred-grammar.md)
 
 ### Volume III. Rome
 
@@ -58,7 +60,7 @@ The classical hinge and transformed-continuity case.
 - [Empire](volumes/rome/empire-rome.md)
 - Sub-lenses: [geo-strategy](volumes/rome/geo-strategy-rome.md) · [secret-history](volumes/rome/secret-history-rome.md) · [game-theory](volumes/rome/game-theory-rome.md)
 - Source-lattice: [shelf reader](volumes/rome/shelf-reader.md) · [bibliography](volumes/rome/bibliography.md)
-- Deep grammar: [Rome sacred grammar](sacred-grammar/rome.md)
+- Deep grammar: [Rome sacred grammar](volumes/rome/sacred-grammar.md)
 
 ### Volume IV. Russia
 
@@ -70,7 +72,7 @@ The medieval-to-modern sovereignty chain.
 - [Empire](volumes/russia/empire-russia.md)
 - Sub-lenses: [geo-strategy](volumes/russia/geo-strategy-russia.md) · [secret-history](volumes/russia/secret-history-russia.md) · [game-theory](volumes/russia/game-theory-russia.md)
 - Source-lattice: [shelf reader](volumes/russia/shelf-reader.md) · [bibliography](volumes/russia/bibliography.md)
-- Deep grammar: [Russia sacred grammar](sacred-grammar/russia.md)
+- Deep grammar: [Russia sacred grammar](volumes/russia/sacred-grammar.md)
 
 ### Volume V. America
 
@@ -82,7 +84,7 @@ The latest formal chain and the deliberately contested edge case.
 - [Empire](volumes/america/empire-america.md)
 - Sub-lenses: [geo-strategy](volumes/america/geo-strategy-america.md) · [secret-history](volumes/america/secret-history-america.md) · [game-theory](volumes/america/game-theory-america.md)
 - Source-lattice: [shelf reader](volumes/america/shelf-reader.md) · [bibliography](volumes/america/bibliography.md)
-- Deep grammar: [America sacred grammar](sacred-grammar/america.md)
+- Deep grammar: [America sacred grammar](volumes/america/sacred-grammar.md)
 
 Volume order is chronological by **sovereignty-chain emergence**, not by the earliest sacred or ethnocultural precursor.
 
@@ -92,9 +94,10 @@ Legacy `sovereign-continuity.md` files remain support notes inside each volume r
 
 Open every volume in the same order:
 
-1. volume `introduction.md` (volume-local)
-2. `Civilization`
-3. `Empire`
+1. volume introduction (thematic essay; not the whole-work [Civilization and Empire](introduction.md))
+2. [`sacred-grammar.md`](reader-guide.md#sacred-grammar-volume-local) when legitimacy or truth-order governs
+3. `Civilization` chapter
+4. `Empire` chapter
 
 Then descend only as needed into optional sub-lenses:
 
@@ -109,12 +112,11 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
 3. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)
-4. [Sacred Grammar Library](sacred-grammar/README.md)
-5. [Hybrid References](hybrid-references.md)
-6. [Comparative Continuity](comparative/continuity-mechanism.md)
-7. [Pattern Library](comparative/pattern-library/README.md)
-8. [Index](index.md)
-9. [Source-Lattice](source-lattice.md)
+4. [Hybrid References](hybrid-references.md)
+5. [Comparative Continuity](comparative/continuity-mechanism.md)
+6. [Pattern Library](comparative/pattern-library/README.md)
+7. [Index](index.md)
+8. [Source-Lattice](source-lattice.md)
 
 ## Retrieval Order
 
@@ -125,7 +127,8 @@ Use the whole-work apparatus in this order when the operator does not yet know w
 3. [Table of Contents](table-of-contents.md) — choose the volume
 4. the relevant volume introduction and `README.md`
 5. the relevant `Civilization` → `Empire` sequence
-. [Sacred Grammar Library](sacred-grammar/README.md) or [Source-Lattice](source-lattice.md) when the volume front door alone is too broad
+. the relevant volume [sacred-grammar.md](reader-guide.md#sacred-grammar-volume-local) when legitimacy governs
+7. [Source-Lattice](source-lattice.md) when the volume front door alone is too broad
 
 ## Door Reminder
 

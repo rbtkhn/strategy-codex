@@ -22,9 +22,9 @@ This chapter does not claim that America is an uncontested civilization-state in
 
 ## Return Path
 
-- Return to [America](README.md) for the full volume spine.
+- Return to [Volume V — America](README.md) for the full volume spine.
 - Return to America sovereign continuity for the narrower continuity-only drill-down.
-- Return to [America sacred grammar](../../sacred-grammar/america.md) for the deeper legitimacy substrate.
+- Return to [America sacred grammar](../../volumes/america/sacred-grammar.md) for the deeper legitimacy substrate.
 - Return to the live America statecraft lane when the drafting problem is active.
 
 ## Core Thesis

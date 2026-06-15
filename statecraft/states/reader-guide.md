@@ -15,6 +15,19 @@ Read it with four habits:
 - look for equilibrium before maximal declaration
 - look for settlement possibility before rhetorical climax
 
+## Names and titles
+
+Do not collapse these layers:
+
+| Name | Role |
+|------|------|
+| **Civilizational Statecraft** | Book title (public reader-facing name) |
+| **Civilization and Empire** | Whole-work opening essay ([introduction.md](introduction.md)) — not the book title |
+| **Volume introduction** | Each volume's thematic essay (e.g. Mandate of Heaven) — not the whole-work essay |
+| **civ-state** | Workshop folder and GitHub repo slug — source-memory substrate, not a reader title |
+
+Within each volume, read **volume introduction → Civilization chapter → Empire chapter**. The whole work begins with **Civilization and Empire**, then this Reader Guide, then the volume map.
+
 ## What This Work Is
 
 Civilizational Statecraft is a **five-volume** source-memory book for operators:
@@ -52,9 +65,9 @@ Choose governing-layer entry when the real question is:
 
 ## How To Read One Civilization Volume
 
-Every CIV-STATE volume should be opened through the same order:
+Every volume in Civilizational Statecraft should be opened through the same order:
 
-1. volume `introduction.md`
+1. volume introduction (thematic essay; not [Civilization and Empire](introduction.md))
 2. `civilization-<civ>.md`
 3. `empire-<civ>.md`
 
@@ -88,6 +101,22 @@ Descend when the civilization and empire read has clarified the pressure geometr
 - `game-theory` when incentives, hierarchy, coalition geometry, bargaining, or escalation govern
 
 Do not open these first by default when the civilization, empire, and present-carrier read is still unclear.
+
+## Sacred grammar (volume-local)
+
+**Sacred grammar** is the legitimacy substrate beneath sovereignty — mandate, Asha, Roman juridical universality, Orthodoxy, covenant and civil religion, and similar deep-grammar questions.
+
+Each volume carries its own **`sacred-grammar.md`** beside introduction, Civilization, and Empire. Open it when the question is *what makes authority feel rightful here* — not yet sovereign opening or present carrier.
+
+| Volume | File |
+|--------|------|
+| I — China | [volumes/civ-state-china/sacred-grammar.md](volumes/civ-state-china/sacred-grammar.md) |
+| II — Persia | [volumes/civ-state-persia/sacred-grammar.md](volumes/civ-state-persia/sacred-grammar.md) |
+| III — Rome | [volumes/civ-state-rome/sacred-grammar.md](volumes/civ-state-rome/sacred-grammar.md) |
+| IV — Russia | [volumes/civ-state-russia/sacred-grammar.md](volumes/civ-state-russia/sacred-grammar.md) |
+| V — America | [volumes/civ-state-america/sacred-grammar.md](volumes/civ-state-america/sacred-grammar.md) |
+
+Sacred grammar is **not** sovereign opening, current carrier, official religion alone, or a policy memo. Build judgments from seed MEM → MEM CONNECTIONS → overview corroborators, then translate into book-native prose (workshop evidence rules apply).
 
 ## How CIV-MEM Enters the Work
 
@@ -166,5 +195,4 @@ It must prevent five errors:
 - [Hybrid References](hybrid-references.md)
 - [Index](index.md)
 - [Volume Map](volumes/README.md)
-- [Sacred Grammar Library](sacred-grammar/README.md)
 - [Source Retrieval Matrix](indexes/source-retrieval-matrix.md)

@@ -47,7 +47,7 @@ book_anchors: [ ... ]
 
 | Field | Type | Required | Notes |
 |-------|------|----------|-------|
-| `deep_grammar_ref` | path | yes | e.g. `sacred-grammar/persia.md` |
+| `deep_grammar_ref` | path | yes | e.g. `volumes/civ-state-persia/sacred-grammar.md` |
 | `sovereign_opening` | string | yes | Founding chain label |
 | `current_carrier_archetype` | string | yes | Present institution class (not named leader) |
 | `parts` | object | yes | Keys: `civilization`, `empire`, `statecraft` → relative paths |

@@ -8,7 +8,7 @@ In the helix of this book, China illustrates civilization beautifying through ma
 
 **Sovereignty chain (narrative):** traditional order-opening through Yu and Xia memory; Zhou mandate grammar; Qin-Han unification; restoration dynasties; late-Qing and Republican rupture; PRC reconstitution as present carrier.
 
-**Sacred / civilizational grammar:** mandate, ritual order, continuity, anti-fragmentation legitimacy. See [China sacred grammar](../../sacred-grammar/china.md).
+**Sacred / civilizational grammar:** mandate, ritual order, continuity, anti-fragmentation legitimacy. See [China sacred grammar](../../volumes/china/sacred-grammar.md).
 
 **Present carrier:** PRC party-state as bearer of a much older administrative civilization.
 

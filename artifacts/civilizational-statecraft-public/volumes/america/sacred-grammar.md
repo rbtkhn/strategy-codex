@@ -1,4 +1,6 @@
-# America Sacred Grammar
+# Sacred Grammar
+
+Volume-local deep grammar for **Civilizational Statecraft**, Volume V — America.
 
 - **Core grammar**
   Covenant, constitutional order, rights, providence, and civil religion. American sacred grammar makes liberty feel rightful when it is carried through law, consent, oath, and governed succession rather than raw destiny alone.

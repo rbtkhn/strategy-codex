@@ -22,7 +22,7 @@ This chapter tracks symbolic activation, but it does not reduce Russia to myth a
 
 ## Return Path
 
-Return through [Russia](README.md), [Russia sovereign continuity](README.md), [Russia geo-strategy](README.md), and [Russia sacred grammar](../../sacred-grammar/russia.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [Russia](README.md), [Russia sovereign continuity](README.md), [Russia geo-strategy](README.md), and [Russia sacred grammar](README.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 

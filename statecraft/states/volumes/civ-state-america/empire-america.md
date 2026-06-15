@@ -24,7 +24,7 @@ This chapter does not reduce America to old-style territorial conquest or to a m
 
 ## Return Path
 
-- Return to [CIV-STATE America](README.md) for the full volume spine.
+- Return to [Volume V — America](README.md) for the full volume spine.
 - Return to [Civilization America](civilization-america.md) for the procedural-civilizational legitimacy the empire stack claims to defend.
 - Return to [America empire instrument](../../../america/empire/seed-instruments.md) for the narrower lane-local support object.
 - Return to the live [America statecraft lane](../../../america/README.md) when the drafting problem is active.

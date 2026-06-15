@@ -24,9 +24,9 @@ This chapter does not claim that every Russian regime is morally identical or po
 
 ## Return Path
 
-- Return to [CIV-STATE Russia](README.md) for the full volume spine.
+- Return to [Volume IV — Russia](README.md) for the full volume spine.
 - Return to [Russia sovereign continuity](sovereign-continuity.md) for the narrower continuity-only drill-down.
-- Return to [Russia sacred grammar](../../sacred-grammar/russia.md) for the deeper legitimacy substrate.
+- Return to [Russia sacred grammar](../../volumes/civ-state-russia/sacred-grammar.md) for the deeper legitimacy substrate.
 - Return to the live [Russia statecraft lane](../../../russia/README.md) when the drafting problem is active.
 
 ## Core Thesis

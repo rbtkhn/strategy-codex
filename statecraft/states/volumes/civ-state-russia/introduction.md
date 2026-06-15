@@ -10,7 +10,7 @@ Civilization beautifies through restored center and sacralized order; empire amp
 
 **Sovereignty chain (narrative):** Rurik and Kievan Rus; Horde-licensed survival; Muscovite internalization; tsarist and Soviet mutation; Russian Federation as present restoration claimant.
 
-**Sacred / civilizational grammar:** Orthodoxy, suffering, gathering, endurance, anti-encirclement legitimacy. See [Russia sacred grammar](../../sacred-grammar/russia.md).
+**Sacred / civilizational grammar:** Orthodoxy, suffering, gathering, endurance, anti-encirclement legitimacy. See [Russia sacred grammar](../../volumes/civ-state-russia/sacred-grammar.md).
 
 **Present carrier:** Russian Federation as claimant to restored continuity after Soviet and post-Soviet rupture.
 

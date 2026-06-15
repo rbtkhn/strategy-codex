@@ -1,4 +1,6 @@
-# Persia Sacred Grammar
+# Sacred Grammar
+
+Volume-local deep grammar for **Civilizational Statecraft**, Volume II — Persia.
 
 - **Core grammar**
   Asha against Druj: righteous order against corruption, lie, and chaos. Persian sacred grammar binds justice, sovereignty, endurance, and dignity into one moral-political frame.

@@ -8,5 +8,5 @@ Use it when you want named direct entry into the Russia civilization-state sourc
 
 - Canonical volume: [CIV-STATE Russia](volumes/civ-state-russia/README.md)
 - Live lane peer: [Russia statecraft lane](../russia/README.md)
-- Deep grammar shelf: [Russia sacred grammar](sacred-grammar/russia.md)
+- Deep grammar shelf: [Russia sacred grammar](volumes/civ-state-russia/sacred-grammar.md)
 

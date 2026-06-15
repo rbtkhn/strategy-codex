@@ -10,7 +10,7 @@ Civilization beautifies through constitutional inheritance and civil-religious l
 
 **Sovereignty chain (narrative):** Anglo constitutional and civil-religious inheritance from Alfred; American republic founding (1776); constitutional carrier (1789); contemporary United States as latest expression.
 
-**Sacred / civilizational grammar:** Anglo constitutional inheritance, Protestant and civil-religious legitimacy, maritime-commercial order, republican self-conception. See [America sacred grammar](../../sacred-grammar/america.md).
+**Sacred / civilizational grammar:** Anglo constitutional inheritance, Protestant and civil-religious legitimacy, maritime-commercial order, republican self-conception. See [America sacred grammar](../../volumes/civ-state-america/sacred-grammar.md).
 
 **Present carrier:** contemporary United States as latest sovereign expression of the longer Anglo-American chain.
 

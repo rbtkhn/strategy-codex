@@ -24,7 +24,7 @@ This chapter does not reduce Persia to missiles, slogans, or resistance theater.
 
 ## Return Path
 
-- Return to [CIV-STATE Persia](README.md) for the full volume spine.
+- Return to [Volume II — Persia](README.md) for the full volume spine.
 - Return to [Civilization Persia](civilization-persia.md) for the inner dignity and continuity logic the empire stack claims to protect.
 - Return to [Persia empire instrument](../../../persia/empire/seed-instruments.md) for the narrower lane-local support object.
 - Return to the live [Persia statecraft lane](../../../persia/README.md) when the drafting problem is active.

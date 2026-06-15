@@ -2,24 +2,26 @@
 
 WORK only; not Record.
 
-Use this as the whole-work index for Civilizational Statecraft. It is biased toward names, peoples, polities, dynasties, empires, churches, routes, and retrieval doors rather than toward purely abstract categorization.
+Use this as the whole-work index for Civilizational Statecraft. It is biased toward names, peoples, polities, dynasties, empires, churches, routes, and retrieval doors rather than toward purely abstract categorization. Volume front-door links use **Volume I–V** labels, not the `civ-state` slug — see [Names and titles](reader-guide.md#names-and-titles).
 
 ## A
 
-- Alfred the Great - [CIV-STATE America](volumes/civ-state-america/README.md)
-- America - [CIV-STATE America](volumes/civ-state-america/README.md)
+- Alfred the Great - [Volume V — America](volumes/civ-state-america/README.md)
+- America - [Volume V](volumes/civ-state-america/README.md)
 - Anglo-America - [Glossary](glossary.md)
 
 ## B
 
 - bureaucratic restoration - [Bureaucratic Restoration](pattern-library/bureaucratic-restoration.md)
-- Byzantium - [Glossary](glossary.md), [CIV-STATE Rome](volumes/civ-state-rome/README.md)
+- Byzantium - [Glossary](glossary.md), [Volume III — Rome](volumes/civ-state-rome/README.md)
 
 ## C
 
 - carrier - [Glossary](glossary.md)
-- China - [CIV-STATE China](volumes/civ-state-china/README.md)
-- [Civilization and Empire](introduction.md) - whole-book introduction
+- China - [Volume I](volumes/civ-state-china/README.md)
+- [Civilization and Empire](introduction.md) — opening essay for Civilizational Statecraft (not the book title)
+- Civilizational Statecraft — book title; see [Names and titles](reader-guide.md#names-and-titles)
+- civ-state — workshop/repo slug; not the book title — [Glossary](glossary.md#civ-state)
 - civilization-state - [Glossary](glossary.md)
 - civilizational entropy - [Civilization and Empire](introduction.md)
 - Civilizational Statecraft Framework - [civilization-empire-faith-science-memory-desire.md](civilization-empire-faith-science-memory-desire.md)
@@ -28,7 +30,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - continuity - [Glossary](glossary.md)
 - continuity mechanism - [Continuity Mechanism](continuity-mechanism.md)
 - current sovereign heads - [current-sovereign-heads-of-the-civ-states.md](current-sovereign-heads-of-the-civ-states.md)
-- Cyrus - [CIV-STATE Persia](volumes/civ-state-persia/README.md)
+- Cyrus - [Volume II — Persia](volumes/civ-state-persia/README.md)
 
 ## D
 
@@ -95,7 +97,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 - parity rival - [Parity Rival](pattern-library/parity-rival.md)
 - Pax Romana - [Volume III introduction](volumes/civ-state-rome/introduction.md)
-- Persia - [CIV-STATE Persia](volumes/civ-state-persia/README.md)
+- Persia - [Volume II](volumes/civ-state-persia/README.md)
 - PH-CIV promotion ledger - [ph-civ-promotion-ledger.md](ph-civ-promotion-ledger.md)
 - PH-CIV to CIV-STATE bridge - [ph-civ-to-civ-state-bridge.md](ph-civ-to-civ-state-bridge.md)
 - provisional evidence law - [Hybrid References](hybrid-references.md)
@@ -109,13 +111,13 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - reader guide - [Reader Guide](reader-guide.md)
 - restoration - [Glossary](glossary.md)
 - review queue - [review-queue.md](review-queue.md)
-- Rome - [CIV-STATE Rome](volumes/civ-state-rome/README.md)
+- Rome - [Volume III](volumes/civ-state-rome/README.md)
 - routes - [Table of Contents](table-of-contents.md), [Volume Map](volumes/README.md)
-- Russia - [CIV-STATE Russia](volumes/civ-state-russia/README.md)
+- Russia - [Volume IV](volumes/civ-state-russia/README.md)
 
 ## S
 
-- sacred grammar - [sacred-grammar/README.md](sacred-grammar/README.md)
+- sacred grammar - [Reader Guide § Sacred grammar](reader-guide.md#sacred-grammar-volume-local); volume files e.g. [China](volumes/civ-state-china/sacred-grammar.md)
 - sacred reconcentration - [Sacred Reconcentration](pattern-library/sacred-reconcentration.md)
 - Safavid Persia - [Glossary](glossary.md)
 - secret-history chapters - [Volume Map](volumes/README.md)

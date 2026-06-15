@@ -4,7 +4,7 @@
 
 **Repository:** [rbtkhn/civ-state](https://github.com/rbtkhn/civ-state)  
 **Reader title:** Civilizational Statecraft  
-**Release:** v0.1.3
+**Release:** v0.1.4
 
 ## Lineage
 

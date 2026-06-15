@@ -22,7 +22,7 @@ This chapter tracks symbolic activation, but it does not make Roman memory the s
 
 ## Return Path
 
-Return through [Rome](README.md), [Rome sovereign continuity](README.md), [Rome geo-strategy](README.md), and [Rome sacred grammar](../../sacred-grammar/rome.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [Rome](README.md), [Rome sovereign continuity](README.md), [Rome geo-strategy](README.md), and [Rome sacred grammar](README.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 
@@ -99,7 +99,7 @@ When drafting from the Rome volume, the governing question is:
 
 ## Key evidence spine Anchors
 
-- [Rome sacred grammar](../../sacred-grammar/rome.md)
+- [Rome sacred grammar](../../volumes/rome/sacred-grammar.md)
 - Rome source corpus
 - Rome sovereign continuity
 - [Rome geo-strategy](geo-strategy-rome.md)

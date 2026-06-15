@@ -1,5 +1,7 @@
 ﻿# CIV-STATE America
 
+**Civilizational Statecraft**, Volume V. Volume introduction: [Imperial Republic](introduction.md). `civ-state-america` is the workshop folder slug—not the book title.
+
 WORK only; not Record.
 
 America is a live lane-backed CIV-STATE volume. Use it when the problem is republic and empire together: maritime command, alliance management, sanctions, domestic legitimacy, bounded coercion, and successor-stable authority.
@@ -11,7 +13,7 @@ Primary live lane: [America statecraft lane](../../../america/README.md)
 **Opener Block**
 - Volume introduction: [Imperial Republic](introduction.md)
 - Deep grammar: Anglo constitutional inheritance and Protestant / civil-religious legitimacy
-- Deep grammar retrieval: [America sacred grammar](../../sacred-grammar/america.md)
+- Deep grammar retrieval: [America sacred grammar](sacred-grammar.md)
 - Sovereign opening: Alfred the Great as the foundational continuity sovereign
 - Birth of present state: 1776
 - Current carrier: United States

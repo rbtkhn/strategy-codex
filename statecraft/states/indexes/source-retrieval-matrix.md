@@ -14,7 +14,7 @@ CIV-STATE is the local Civilization and Empire source base for academy-statecraf
 
 Use this constitution in order:
 
-1. **Deep grammar retrieval** - when the live question is legitimacy, truth-order, covenant, ritual order, Orthodoxy, providence, juridical universality, or what makes authority feel rightful, open the [Sacred Grammar Library](../sacred-grammar/README.md) first.
+1. **Deep grammar retrieval** - when the live question is legitimacy, truth-order, covenant, ritual order, Orthodoxy, providence, juridical universality, or what makes authority feel rightful, open the [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local) first.
 2. **Sacred-grammar evidence spine** - move from the shelf into one seed MEM, then its `MEM CONNECTIONS` cluster, then overview corroborators.
 3. **Lane retrieval** - return downstream into lane-local `state-memory`, `god`, `helix`, `state/`, and transaction surfaces as needed.
 4. **Counterweight retrieval** - require at least one source or lane object where the pattern degrades, reverses, overreaches, or becomes unusable.

@@ -119,7 +119,7 @@ Signs this pass matters:
 
 Default router for this pass:
 
-- if the live question is legitimacy, sacred order, covenant, providence, Orthodoxy, juridical universality, or constitutional creed with civilizational depth, open the [Sacred Grammar Library](sacred-grammar/README.md) first
+- if the live question is legitimacy, sacred order, covenant, providence, Orthodoxy, juridical universality, or constitutional creed with civilizational depth, open the [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local) first
 - use the shelf's evidence spine before forming statecraft claims
 - only then return downstream to lane-local `god`, `state-memory`, `lit`, helix, or transaction surfaces
 
@@ -173,7 +173,7 @@ Return to:
 ### If truth is clearly governing
 Return to:
 
-- [Sacred Grammar Library](sacred-grammar/README.md) first
+- [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local) first
 - then lane-local `god`, `state-memory`, `lit`, or adjacent civilization objects where present
 - relevant speaker-state retrieval adapters if the object arrived through a speaker arc
 - cross-lane family notes only after the truth-order has been named clearly

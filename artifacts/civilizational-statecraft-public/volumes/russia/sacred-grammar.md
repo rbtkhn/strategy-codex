@@ -1,4 +1,6 @@
-# Russia Sacred Grammar
+# Sacred Grammar
+
+Volume-local deep grammar for **Civilizational Statecraft**, Volume IV — Russia.
 
 - **Core grammar**
   Orthodoxy, suffering, endurance, and gathering after fracture. Russian sacred grammar gives identity moral continuity even when sovereignty breaks, migrates, or hardens under pressure.

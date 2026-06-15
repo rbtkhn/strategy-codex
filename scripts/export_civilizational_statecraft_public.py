@@ -137,12 +137,11 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
 3. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)
-4. [Sacred Grammar Library](sacred-grammar/README.md)
-5. [Hybrid References](hybrid-references.md)
-6. [Comparative Continuity](comparative/continuity-mechanism.md)
-7. [Pattern Library](comparative/pattern-library/README.md)
-8. [Index](index.md)
-9. [Source-Lattice](source-lattice.md)
+4. [Hybrid References](hybrid-references.md)
+5. [Comparative Continuity](comparative/continuity-mechanism.md)
+6. [Pattern Library](comparative/pattern-library/README.md)
+7. [Index](index.md)
+8. [Source-Lattice](source-lattice.md)
 
 """
 
@@ -173,12 +172,11 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
             replacement = (
                 block.group(1)
                 + "1. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)\n"
-                + "2. [Sacred Grammar Library](sacred-grammar/README.md)\n"
-                + "3. [Hybrid References](hybrid-references.md)\n"
-                + "4. [Index](index.md)\n"
-                + "5. [Source-Lattice](source-lattice.md)\n"
-                + "6. [Comparative Continuity](comparative/continuity-mechanism.md)\n"
-                + "7. [Pattern Library](comparative/pattern-library/README.md)\n"
+                + "2. [Hybrid References](hybrid-references.md)\n"
+                + "3. [Index](index.md)\n"
+                + "4. [Source-Lattice](source-lattice.md)\n"
+                + "5. [Comparative Continuity](comparative/continuity-mechanism.md)\n"
+                + "6. [Pattern Library](comparative/pattern-library/README.md)\n"
             )
             text = text[: block.start()] + replacement + text[block.end() :]
         text = re.sub(
@@ -194,8 +192,10 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
         r"(3\. \[Table of Contents\][^\n]+\n)"
         r"(4\. the relevant volume[^\n]+\n)"
         r"(5\. the relevant[^\n]+\n)"
-        r"6\. \[Sacred Grammar Library\][^\n]+\n",
-        r"\1\2\3\4\5\6. [Sacred Grammar Library](sacred-grammar/README.md) or [Source-Lattice](source-lattice.md) when the volume front door alone is too broad\n",
+        r"6\. the relevant volume `sacred-grammar\.md`[^\n]+\n"
+        r"7\. \[Source Retrieval Matrix\][^\n]+\n",
+        r"\1\2\3\4\5\6. the relevant volume [sacred-grammar.md](reader-guide.md#sacred-grammar-volume-local) when legitimacy governs\n"
+        r"7. [Source-Lattice](source-lattice.md) when the volume front door alone is too broad\n",
         text,
         count=1,
     )
@@ -276,11 +276,11 @@ def rewrite_absolute_links(text: str, volume_slugs: dict[str, str]) -> str:
             rf"](\1)",
             text,
         )
-    text = re.sub(
-        rf"\]\(/C:/dev/strategy-codex/statecraft/states/sacred-grammar/([a-z]+)\.md\)",
-        r"](../../sacred-grammar/\1.md)",
-        text,
-    )
+        text = re.sub(
+            rf"\]\(/C:/dev/strategy-codex/statecraft/states/volumes/{re.escape(folder)}/sacred-grammar\.md\)",
+            r"](sacred-grammar.md)",
+            text,
+        )
     text = re.sub(
         r"\[[^\]]+\]\(/C:/dev/strategy-codex/research/repos/civilization_memory[^)]+\)",
         "the volume bibliography and primary shelves",
@@ -406,11 +406,21 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         f"]({prefix}comparative/pattern-library/",
         text,
     )
-    text = re.sub(
-        r"\]\((?:\.\./)*sacred-grammar/",
-        f"]({prefix}sacred-grammar/",
-        text,
-    )
+    if dest_rel.parts[:1] == ("framework",):
+        for root_doc in (
+            "reader-guide.md",
+            "glossary.md",
+            "index.md",
+            "table-of-contents.md",
+            "introduction.md",
+            "hybrid-references.md",
+            "volumes/README.md",
+        ):
+            text = re.sub(
+                rf"\]\((?:\.\./)*{re.escape(root_doc)}",
+                f"](../{root_doc}",
+                text,
+            )
     if dest_rel.parts[:1] == ("comparative",):
         readme = "../README.md"
     elif dest_rel.parts[:1] == ("framework",):

@@ -8,7 +8,7 @@ Civilization beautifies through imperial dignity and Persianate order; empire am
 
 **Sovereignty chain (narrative):** Cyrus and Achaemenid founding; Parthian and Sasanian continuity; Persianate Islamic absorption; Safavid confessional reconstitution; Qajar and Pahlavi pressure; Islamic Republic as present carrier.
 
-**Sacred / civilizational grammar:** Zoroaster beneath Persian continuity, transformed through Islam and Shi'a legitimacy without civilizational erasure. See [Persia sacred grammar](../../sacred-grammar/persia.md).
+**Sacred / civilizational grammar:** Zoroaster beneath Persian continuity, transformed through Islam and Shi'a legitimacy without civilizational erasure. See [Persia sacred grammar](../../volumes/persia/sacred-grammar.md).
 
 **Present carrier:** Islamic Republic Iran as bearer of a much older Persian chain.
 
