@@ -95,12 +95,14 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 ### Shelf-Native
 
-- [interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md) synthesized from the [interpretive-machine cluster](/C:/dev/strategy-codex/essays/interpretive-machine/README.md) (**canonical** at repo root)
-- [system-design-lineage-is-not-unique-in-kind.md](/C:/dev/strategy-codex/essays/system-design-lineage-is-not-unique-in-kind.md) synthesized from the [system-design-lineage cluster](/C:/dev/strategy-codex/essays/system-design-lineage/README.md) (**canonical** at repo root)
-- [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) cross-channel placeholder (**canonical**; local stub only)
+_No full-body essays remain on this compatibility shelf — canonical theses live at repo-root [`essays/`](../../essays/README.md). Stubs below preserve older paths._
+
+- [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) cross-channel placeholder (**canonical** at repo root; local stub only)
 
 ### Mirrored Legacy Promotion
 
+- [interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md) synthesized from the [interpretive-machine cluster](/C:/dev/strategy-codex/essays/interpretive-machine/README.md) (**canonical** at repo root; local stub only)
+- [system-design-lineage-is-not-unique-in-kind.md](/C:/dev/strategy-codex/essays/system-design-lineage-is-not-unique-in-kind.md) synthesized from the [system-design-lineage cluster](/C:/dev/strategy-codex/essays/system-design-lineage/README.md) (**canonical** at repo root; local stub only)
 - [ai-and-the-expansion-of-human-consciousness.md](../../essays/ai-and-the-expansion-of-human-consciousness.md) pre-root singularity thesis on AI as a cognition-changing medium (**canonical** at repo root; local stub only)
 - [sovereignty-under-acceleration.md](/C:/dev/strategy-codex/essays/sovereignty-under-acceleration.md) from [../workshop/sheets/sovereignty-under-acceleration.md](../workshop/sheets/sovereignty-under-acceleration.md) (**canonical** at repo root; workshop sheet remains operating surface)
 - [narrative-shaped-alignment.md](/C:/dev/strategy-codex/essays/narrative-shaped-alignment.md) from [../workshop/sheets/narrative-shaped-alignment.md](../workshop/sheets/narrative-shaped-alignment.md) (**canonical** at repo root; workshop sheet remains operating surface)
