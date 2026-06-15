@@ -1,4 +1,4 @@
-# Introduction China
+# Mandate of Heaven
 
 *The earliest durable dynastic-state continuity chain in the set.*
 

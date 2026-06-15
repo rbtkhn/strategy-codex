@@ -4,12 +4,12 @@ WORK only; not Record.
 
 China is a live lane-backed CIV-STATE volume. Use it when the civilizational problem is order, continuity, mandate, anti-humiliation recovery, industrial rhythm, or long-horizon leverage.
 
-Read [Introduction China](introduction.md) for the volume entry. Strong civilization-state case: dynastic continuity whose mandate grammar survives rupture and culminates in the PRC as present carrier.
+Read [Mandate of Heaven](introduction.md) for the volume entry. Strong civilization-state case: dynastic continuity whose mandate grammar survives rupture and culminates in the PRC as present carrier.
 
 Primary live lane: [China statecraft lane](../../../china/README.md)
 
 **Opener Block**
-- Volume introduction: [Introduction China](introduction.md)
+- Volume introduction: [Mandate of Heaven](introduction.md)
 - Deep grammar: mandate, ritual order, and anti-chaos civilization
 - Deep grammar retrieval: [China sacred grammar](../../sacred-grammar/china.md)
 - Sovereign opening: Yu the Great as the traditional foundational sovereign

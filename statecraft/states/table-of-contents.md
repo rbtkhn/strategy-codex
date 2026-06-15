@@ -31,7 +31,7 @@ Civilizational Statecraft is a **five-volume** comparative work. Each volume is 
 The earliest durable dynastic-state continuity chain in the set.
 
 - [Volume front door](volumes/civ-state-china/README.md)
-- [Introduction China](volumes/civ-state-china/introduction.md)
+- [Mandate of Heaven](volumes/civ-state-china/introduction.md)
 - [Civilization](volumes/civ-state-china/civilization-china.md)
 - [Empire](volumes/civ-state-china/empire-china.md)
 - Sub-lenses: [geo-strategy](volumes/civ-state-china/geo-strategy-china.md) · [secret-history](volumes/civ-state-china/secret-history-china.md) · [game-theory](volumes/civ-state-china/game-theory-china.md)
@@ -43,7 +43,7 @@ The earliest durable dynastic-state continuity chain in the set.
 The Cyrus-founded sovereignty chain, with Zoroaster as deeper sacred grammar beneath it.
 
 - [Volume front door](volumes/civ-state-persia/README.md)
-- [Introduction Persia](volumes/civ-state-persia/introduction.md)
+- [Order of Asha](volumes/civ-state-persia/introduction.md)
 - [Civilization](volumes/civ-state-persia/civilization-persia.md)
 - [Empire](volumes/civ-state-persia/empire-persia.md)
 - Sub-lenses: [geo-strategy](volumes/civ-state-persia/geo-strategy-persia.md) · [secret-history](volumes/civ-state-persia/secret-history-persia.md) · [game-theory](volumes/civ-state-persia/game-theory-persia.md)
@@ -55,7 +55,7 @@ The Cyrus-founded sovereignty chain, with Zoroaster as deeper sacred grammar ben
 The classical hinge and transformed-continuity case.
 
 - [Volume front door](volumes/civ-state-rome/README.md)
-- [Introduction Rome](volumes/civ-state-rome/introduction.md)
+- [Pax Romana](volumes/civ-state-rome/introduction.md)
 - [Civilization](volumes/civ-state-rome/civilization-rome.md)
 - [Empire](volumes/civ-state-rome/empire-rome.md)
 - Sub-lenses: [geo-strategy](volumes/civ-state-rome/geo-strategy-rome.md) · [secret-history](volumes/civ-state-rome/secret-history-rome.md) · [game-theory](volumes/civ-state-rome/game-theory-rome.md)
@@ -67,7 +67,7 @@ The classical hinge and transformed-continuity case.
 The medieval-to-modern sovereignty chain.
 
 - [Volume front door](volumes/civ-state-russia/README.md)
-- [Introduction Russia](volumes/civ-state-russia/introduction.md)
+- [The Third Rome](volumes/civ-state-russia/introduction.md)
 - [Civilization](volumes/civ-state-russia/civilization-russia.md)
 - [Empire](volumes/civ-state-russia/empire-russia.md)
 - Sub-lenses: [geo-strategy](volumes/civ-state-russia/geo-strategy-russia.md) · [secret-history](volumes/civ-state-russia/secret-history-russia.md) · [game-theory](volumes/civ-state-russia/game-theory-russia.md)
@@ -79,7 +79,7 @@ The medieval-to-modern sovereignty chain.
 The latest formal chain and the deliberately contested edge case.
 
 - [Volume front door](volumes/civ-state-america/README.md)
-- [Introduction America](volumes/civ-state-america/introduction.md)
+- [Imperial Republic](volumes/civ-state-america/introduction.md)
 - [Civilization](volumes/civ-state-america/civilization-america.md)
 - [Empire](volumes/civ-state-america/empire-america.md)
 - Sub-lenses: [geo-strategy](volumes/civ-state-america/geo-strategy-america.md) · [secret-history](volumes/civ-state-america/secret-history-america.md) · [game-theory](volumes/civ-state-america/game-theory-america.md)

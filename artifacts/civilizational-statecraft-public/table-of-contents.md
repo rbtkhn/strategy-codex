@@ -29,7 +29,7 @@ Civilizational Statecraft is a **five-volume** comparative work. Each volume is 
 The earliest durable dynastic-state continuity chain in the set.
 
 - [Volume front door](volumes/china/README.md)
-- [Introduction China](volumes/china/introduction.md)
+- [Mandate of Heaven](volumes/china/introduction.md)
 - [Civilization](volumes/china/civilization-china.md)
 - [Empire](volumes/china/empire-china.md)
 - Sub-lenses: [geo-strategy](volumes/china/geo-strategy-china.md) · [secret-history](volumes/china/secret-history-china.md) · [game-theory](volumes/china/game-theory-china.md)
@@ -41,7 +41,7 @@ The earliest durable dynastic-state continuity chain in the set.
 The Cyrus-founded sovereignty chain, with Zoroaster as deeper sacred grammar beneath it.
 
 - [Volume front door](volumes/persia/README.md)
-- [Introduction Persia](volumes/persia/introduction.md)
+- [Order of Asha](volumes/persia/introduction.md)
 - [Civilization](volumes/persia/civilization-persia.md)
 - [Empire](volumes/persia/empire-persia.md)
 - Sub-lenses: [geo-strategy](volumes/persia/geo-strategy-persia.md) · [secret-history](volumes/persia/secret-history-persia.md) · [game-theory](volumes/persia/game-theory-persia.md)
@@ -53,7 +53,7 @@ The Cyrus-founded sovereignty chain, with Zoroaster as deeper sacred grammar ben
 The classical hinge and transformed-continuity case.
 
 - [Volume front door](volumes/rome/README.md)
-- [Introduction Rome](volumes/rome/introduction.md)
+- [Pax Romana](volumes/rome/introduction.md)
 - [Civilization](volumes/rome/civilization-rome.md)
 - [Empire](volumes/rome/empire-rome.md)
 - Sub-lenses: [geo-strategy](volumes/rome/geo-strategy-rome.md) · [secret-history](volumes/rome/secret-history-rome.md) · [game-theory](volumes/rome/game-theory-rome.md)
@@ -65,7 +65,7 @@ The classical hinge and transformed-continuity case.
 The medieval-to-modern sovereignty chain.
 
 - [Volume front door](volumes/russia/README.md)
-- [Introduction Russia](volumes/russia/introduction.md)
+- [The Third Rome](volumes/russia/introduction.md)
 - [Civilization](volumes/russia/civilization-russia.md)
 - [Empire](volumes/russia/empire-russia.md)
 - Sub-lenses: [geo-strategy](volumes/russia/geo-strategy-russia.md) · [secret-history](volumes/russia/secret-history-russia.md) · [game-theory](volumes/russia/game-theory-russia.md)
@@ -77,7 +77,7 @@ The medieval-to-modern sovereignty chain.
 The latest formal chain and the deliberately contested edge case.
 
 - [Volume front door](volumes/america/README.md)
-- [Introduction America](volumes/america/introduction.md)
+- [Imperial Republic](volumes/america/introduction.md)
 - [Civilization](volumes/america/civilization-america.md)
 - [Empire](volumes/america/empire-america.md)
 - Sub-lenses: [geo-strategy](volumes/america/geo-strategy-america.md) · [secret-history](volumes/america/secret-history-america.md) · [game-theory](volumes/america/game-theory-america.md)

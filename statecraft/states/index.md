@@ -61,6 +61,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 ## I
 
+- Imperial Republic - [Volume V introduction](volumes/civ-state-america/introduction.md)
 - index - this file
 
 ## J
@@ -79,6 +80,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 ## M
 
 - Machiavelli - [Hybrid References](hybrid-references.md)
+- Mandate of Heaven - [Volume I introduction](volumes/civ-state-china/introduction.md)
 - Metternich - [Hybrid References](hybrid-references.md)
 - migration workspace - [migration/README.md](migration/README.md)
 - Muscovy - [Glossary](glossary.md)
@@ -86,11 +88,13 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 ## O
 
 - order - [Reader Guide](reader-guide.md)
+- Order of Asha - [Volume II introduction](volumes/civ-state-persia/introduction.md)
 - overreach - [Glossary](glossary.md)
 
 ## P
 
 - parity rival - [Parity Rival](pattern-library/parity-rival.md)
+- Pax Romana - [Volume III introduction](volumes/civ-state-rome/introduction.md)
 - Persia - [CIV-STATE Persia](volumes/civ-state-persia/README.md)
 - PH-CIV promotion ledger - [ph-civ-promotion-ledger.md](ph-civ-promotion-ledger.md)
 - PH-CIV to CIV-STATE bridge - [ph-civ-to-civ-state-bridge.md](ph-civ-to-civ-state-bridge.md)
@@ -128,7 +132,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 - table of contents - [Table of Contents](table-of-contents.md)
 - Talleyrand - [Hybrid References](hybrid-references.md)
-- Third Rome - [Glossary](glossary.md)
+- The Third Rome - [Volume IV introduction](volumes/civ-state-russia/introduction.md), [Glossary](glossary.md)
 - transformed continuity - [Transformed Continuity](pattern-library/transformed-continuity.md)
 
 ## U

@@ -1,4 +1,4 @@
-# Introduction Russia
+# The Third Rome
 
 *The medieval-to-modern sovereignty chain.*
 

@@ -2,12 +2,12 @@
 
 America is a live lane-backed volume. Use it when the problem is republic and empire together: maritime command, alliance management, sanctions, domestic legitimacy, bounded coercion, and successor-stable authority.
 
-Read [Introduction America](introduction.md) for the volume entry. Deliberately contested edge case: Anglo-American chain from Alfred through republic, maritime empire, and present strain.
+Read [Imperial Republic](introduction.md) for the volume entry. Deliberately contested edge case: Anglo-American chain from Alfred through republic, maritime empire, and present strain.
 
 Primary live lane: America statecraft lane
 
 **Opener Block**
-- Volume introduction: [Introduction America](introduction.md)
+- Volume introduction: [Imperial Republic](introduction.md)
 - Deep grammar: Anglo constitutional inheritance and Protestant / civil-religious legitimacy
 - Deep grammar retrieval: [America sacred grammar](../../sacred-grammar/america.md)
 - Sovereign opening: Alfred the Great as the foundational continuity sovereign

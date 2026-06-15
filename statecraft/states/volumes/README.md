@@ -97,11 +97,11 @@ The canonical CIV-STATE shelf for deep-grammar retrieval is now [Sacred Grammar 
 
 ## Volume Introductions
 
-- [Introduction China](civ-state-china/introduction.md)
-- [Introduction Persia](civ-state-persia/introduction.md)
-- [Introduction Rome](civ-state-rome/introduction.md)
-- [Introduction Russia](civ-state-russia/introduction.md)
-- [Introduction America](civ-state-america/introduction.md)
+- [Mandate of Heaven](civ-state-china/introduction.md) — Volume I China
+- [Order of Asha](civ-state-persia/introduction.md) — Volume II Persia
+- [Pax Romana](civ-state-rome/introduction.md) — Volume III Rome
+- [The Third Rome](civ-state-russia/introduction.md) — Volume IV Russia
+- [Imperial Republic](civ-state-america/introduction.md) — Volume V America
 
 ## Civilization Chapters
 

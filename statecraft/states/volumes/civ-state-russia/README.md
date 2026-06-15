@@ -4,12 +4,12 @@ WORK only; not Record.
 
 Russia is a live lane-backed CIV-STATE volume. Use it when the problem is strategic depth, recognition, sovereignty under encirclement pressure, imperial inheritance, or disruption without overbind.
 
-Read [Introduction Russia](introduction.md) for the volume entry. Sovereignty chain from Rurik through regathering after recurrent fracture — not uninterrupted institutional calm.
+Read [The Third Rome](introduction.md) for the volume entry. Sovereignty chain from Rurik through regathering after recurrent fracture — not uninterrupted institutional calm.
 
 Primary live lane: [Russia statecraft lane](../../../russia/README.md)
 
 **Opener Block**
-- Volume introduction: [Introduction Russia](introduction.md)
+- Volume introduction: [The Third Rome](introduction.md)
 - Deep grammar: Orthodoxy, suffering, endurance, and gathering after fracture
 - Deep grammar retrieval: [Russia sacred grammar](../../sacred-grammar/russia.md)
 - Sovereign opening: Rurik as the foundational sovereign

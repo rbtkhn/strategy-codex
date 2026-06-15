@@ -57,6 +57,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 ## I
 
+- Imperial Republic - [Volume V introduction](volumes/america/introduction.md)
 - index - this file
 
 ## J
@@ -75,6 +76,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 ## M
 
 - Machiavelli - [Hybrid References](hybrid-references.md)
+- Mandate of Heaven - [Volume I introduction](volumes/china/introduction.md)
 - Metternich - [Hybrid References](hybrid-references.md)
 - migration workspace - migration/README.md
 - Muscovy - [Glossary](glossary.md)
@@ -82,11 +84,13 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 ## O
 
 - order - [Reader Guide](reader-guide.md)
+- Order of Asha - [Volume II introduction](volumes/persia/introduction.md)
 - overreach - [Glossary](glossary.md)
 
 ## P
 
 - parity rival - [Parity Rival](comparative/pattern-library/parity-rival.md)
+- Pax Romana - [Volume III introduction](volumes/rome/introduction.md)
 - Persia - [Persia](volumes/persia/README.md)
 - provisional evidence law - [Hybrid References](hybrid-references.md)
 
@@ -120,7 +124,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 - table of contents - [Table of Contents](table-of-contents.md)
 - Talleyrand - [Hybrid References](hybrid-references.md)
-- Third Rome - [Glossary](glossary.md)
+- The Third Rome - [Volume IV introduction](volumes/russia/introduction.md), [Glossary](glossary.md)
 - transformed continuity - [Transformed Continuity](comparative/pattern-library/transformed-continuity.md)
 
 ## U

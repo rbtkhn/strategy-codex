@@ -2,12 +2,12 @@
 
 Persia is the civilizational title of the live Persia lane. Use this volume when the problem is dignity, sovereignty, sacred legitimacy, plateau endurance, chokepoint leverage, or recognition under pressure.
 
-Read [Introduction Persia](introduction.md) for the volume entry. Cyrus-founded chain with deeper Zoroastrian grammar; Islamic and Shi'a transformation without civilizational erasure.
+Read [Order of Asha](introduction.md) for the volume entry. Cyrus-founded chain with deeper Zoroastrian grammar; Islamic and Shi'a transformation without civilizational erasure.
 
 Primary live lane: Persia statecraft lane
 
 **Opener Block**
-- Volume introduction: [Introduction Persia](introduction.md)
+- Volume introduction: [Order of Asha](introduction.md)
 - Deep grammar: Zoroaster as the deeper sacred grammar
 - Deep grammar retrieval: [Persia sacred grammar](../../sacred-grammar/persia.md)
 - Sovereign opening: Cyrus as the foundational sovereign

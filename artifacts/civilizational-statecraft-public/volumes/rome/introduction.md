@@ -1,4 +1,4 @@
-# Introduction Rome
+# Pax Romana
 
 *The classical hinge and transformed-continuity case.*
 
