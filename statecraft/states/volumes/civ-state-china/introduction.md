@@ -2,15 +2,13 @@
 
 WORK only; not Record.
 
-*The earliest durable dynastic-state continuity chain in the set.*
-
-China belongs in this comparative work as a strong civilization-state case: a long dynastic continuity whose legitimating grammar of order, mandate, and anti-chaos authority survives repeated rupture and culminates in the present party-state as sovereign carrier. Yu the Great functions as the traditional foundational sovereign; Xia remains foundational narrative and early state memory rather than equally firm documentary administration. The chain becomes legible through Zhou mandate grammar, Qin-Han standardization, dynastic restoration cycles, and modern reconstitution after Republican fragmentation.
+China opens **Volume I** of *Civilizational Statecraft* as the earliest durable dynastic-state continuity chain in the comparative set. Its legitimating grammar is **mandate**: rule is justified when it preserves order and provisioning, and morally stressed when chaos, corruption, or fragmentation appear. Yu the Great is the traditional foundational sovereign; Xia remains foundational narrative and early state memory rather than equally firm documentary administration. The chain becomes legible through Zhou mandate language, Qin-Han standardization, dynastic restoration cycles, and modern reconstitution after Republican fragmentation, with the PRC party-state as present carrier.
 
 In the helix of this book, China illustrates civilization beautifying through mandate-bearing order; empire amplifying through administrative scale and continental reach; civilizational entropy when order hardens into brittle absorption or coercive standardization that outruns humane carry. A statesman dealing with China misreads the present if mandate, humiliation memory, and reconstitution after rupture are treated as mere regime tactics.
 
 **Sovereignty chain (narrative):** traditional order-opening through Yu and Xia memory; Zhou mandate grammar; Qin-Han unification; restoration dynasties; late-Qing and Republican rupture; PRC reconstitution as present carrier.
 
-**Sacred / civilizational grammar:** mandate, ritual order, continuity, anti-fragmentation legitimacy. See [China sacred grammar](../../volumes/civ-state-china/sacred-grammar.md).
+**Sacred / civilizational grammar:** mandate, ritual order, continuity, anti-fragmentation legitimacy. See [China sacred grammar](sacred-grammar.md).
 
 **Present carrier:** PRC party-state as bearer of a much older administrative civilization.
 
