@@ -45,6 +45,17 @@ Rank these first when routing live statecraft work.
 
 - [Diesen × Karaganov speaker arc](../diesen/stream/diesen-karaganov-speaker-arc.md)
 
+## Voice QA receipts (Tier A profile)
+
+Bounded **voice-profile-panel** smoke tests — register QA only; not wire truth or Kremlin policy SSOT.
+
+| Date | File | Covers |
+|---|---|---|
+| 2026-06-13 | [karaganov-solo-smoke-2026-06-13.md](../_scratch/karaganov-solo-smoke-2026-06-13.md) | Solo · × Mercouris duet · × Mearsheimer duet · tri-voice chain (wire-fenced) |
+| 2026-06-13 | [triad-roundtable-demo-2026-06-13.md](../_scratch/triad-roundtable-demo-2026-06-13.md) | Barnes × Mercouris × Mearsheimer MOU panel (orthogonal triad) |
+
+Skill: [voice-profile-panel](../../../skills-portable/voice-profile-panel/SKILL.md) · Profile: [karaganov-profile.md](karaganov-profile.md)
+
 ## Reading rule
 
 1. Open **Statecraft Archive** direct files first.

@@ -32,6 +32,50 @@ editorial_note: Operator-pasted transcript body; not independently verified as v
 opening_tier: host-tease
 transcript_wrapper_tier: paste-asr
 opening_trim_applied: false
+verify_receipt: 2026-06-14
+verify:
+  - claim: Aug 2024 Ukrainian cross-border incursion into Kursk Oblast
+    verdict: supported
+    note: Zelensky/Syrskyi acknowledged; Putin "major provocation" — BBC/Al Jazeera Aug 2024
+  - claim: U.S. backed Kursk incursion / weapons used within policy
+    verdict: partial
+    note: DoD "consistent with our policy"; counter-fire from border — not proven co-command
+  - claim: U.S. planned or assisted conduct of Kursk operation
+    verdict: unclear
+    note: No DoD/State co-planning line located; UK/US kit used within policy limits
+  - claim: 1 Jun 2025 Operation Spiderweb — Ukraine struck Russian airfields hosting nuclear-capable bombers
+    verdict: supported
+    note: SBU/Zelensky; BBC cites Russian MOD confirming multi-region drone strikes
+  - claim: 2025 strike hit "one leg of the strategic nuclear triad" (strategic aviation)
+    verdict: partial
+    note: Air leg only — Carnegie/PBS/Arms Control; no ICBM/SSBN leg struck
+  - claim: Spiderweb destroyed ~41 aircraft / major triad degradation
+    verdict: contested
+    note: SBU ~41 vs U.S. officials ~10 destroyed vs ACA ~11 bombers
+  - claim: U.S. did not criticize Spiderweb strikes
+    verdict: partial
+    note: Admin "purely Ukrainian operation"; Bacon "legitimate targets"; no State condemnation located
+  - claim: U.S. knew in advance or directed Spiderweb
+    verdict: contradicted
+    note: CBS/Newsweek — White House not told in advance
+  - claim: St Petersburg region drone attack "last week" before 13 Jun 2026 panel
+    verdict: supported
+    note: Large-scale Ukrainian drone attack 6 Jun 2026 — BBC/France24/Al Jazeera; SPIEF final day; Kronstadt/naval targets claimed
+  - claim: St Petersburg strike caused confirmed arsenal/base damage (not intercept-only)
+    verdict: partial
+    note: Zelensky Kronstadt/arsenal claims; Russia emphasizes intercept counts; satellite/OSINT on 15th Arsenal disputed tier
+  - claim: Mearsheimer deterrence-decay / red-line erosion framing
+    verdict: out_of_scope
+    note: Tier-4 commentary; discrete hooks above graded separately
+verify_tokens:
+  - "verify:wire-supported"
+  - "verify:wire-partial"
+  - "verify:wire-contested"
+  - "verify:wire-unclear"
+  - "verify:america-lane-absent"
+  - "verify:persia-lane-absent"
+  - "verify:prc-lane-absent"
+  - "verify:rome-lane-absent"
 ---
 
 # John Mearsheimer & Sergey Karaganov: Nuclear Strike on Europe to Restore Deterrence
