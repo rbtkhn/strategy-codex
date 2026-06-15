@@ -4,15 +4,18 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 
 ## Stats
 
-- Day indices: `ok` (451)
-- Month indices: `ok` (18)
-- Year indices: `ok` (2)
+- Day indices: `ok` (457)
+- Month indices: `ok` (21)
+- Year indices: `ok` (4)
 - Thread index: `ok`
 
 ## Day Index Status
 
 | Day | Status |
 | --- | --- |
+| `2023-01-14` | `ok` |
+| `2024-01-28` | `ok` |
+| `2024-10-21` | `ok` |
 | `2025-01-01` | `ok` |
 | `2025-01-02` | `ok` |
 | `2025-01-03` | `ok` |
@@ -297,6 +300,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `2025-12-22` | `ok` |
 | `2025-12-23` | `ok` |
 | `2025-12-24` | `ok` |
+| `2025-12-25` | `ok` |
 | `2025-12-27` | `ok` |
 | `2025-12-29` | `ok` |
 | `2025-12-30` | `ok` |
@@ -464,11 +468,16 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `2026-06-10` | `ok` |
 | `2026-06-11` | `ok` |
 | `2026-06-12` | `ok` |
+| `2026-06-13` | `ok` |
+| `2026-06-14` | `ok` |
 
 ## Month Index Status
 
 | Month | Status |
 | --- | --- |
+| `2023-01` | `ok` |
+| `2024-01` | `ok` |
+| `2024-10` | `ok` |
 | `2025-01` | `ok` |
 | `2025-02` | `ok` |
 | `2025-03` | `ok` |
@@ -492,6 +501,8 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 
 | Year | Status |
 | --- | --- |
+| `2023` | `ok` |
+| `2024` | `ok` |
 | `2025` | `ok` |
 | `2026` | `ok` |
 

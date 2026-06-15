@@ -114,7 +114,7 @@ April hinge ladder: 08 → 12 → 17 → 20 → 22 → 30; use archive day READM
 
 ### 2026-06 - monthly synthesis (partial) plus month-week hinges
 
-**Re-entry:** [June 2026 Week 2 — Start Here](2026-06-week2-start-here.md) (partial through 2026-06-09) · prior [Week 1](2026-06-week1-start-here.md) (Jun 1–7, finalized)
+**Re-entry:** [June 2026 Week 2 — Start Here](2026-06-week2-start-here.md) (partial through 2026-06-14) · prior [Week 1](2026-06-week1-start-here.md) (Jun 1–7, finalized)
 
 - [2026-06 Monthly Synthesis (partial)](2026-06.md)
 - [2026-06-01](2026-06-01.md)
@@ -143,3 +143,6 @@ April hinge ladder: 08 → 12 → 17 → 20 → 22 → 30; use archive day READM
   - [2026-06-09 - Apache × Shahed physics fork (Davis / Aguilar / Krapivnik / wire)](2026-06-09-apache-shahed-physics-fork-davis-aguilar-wire.md)
   - [2026-06-09 - S9 Ukraine secondary mesh (Helmer / Mercouris / Krapivnik)](2026-06-09-ukraine-secondary-s9-krapivnik-mesh.md)
   - [2026-06-08–09 wire-verify matrix](2026-06-08-09-wire-verify-matrix.md)
+- [2026-06-14](2026-06-14.md) — intra-day MOU close × Marandi pre/post-close arc × Nima pre/post-close host arc × two-speed clock (6 captures)
+  - [2026-06-14 wire-verify matrix](2026-06-14-wire-verify-matrix.md)
+  - [Lebanon enforcement × Nima host arc](2026-06-14-lebanon-enforcement-nima-host-arc.md)

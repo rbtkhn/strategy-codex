@@ -2,9 +2,9 @@ WORK only; not Record.
 
 # June 2026 Week 2 — Start Here
 
-**Month-week 2:** 2026-06-08 – 2026-06-14 · **Status:** partial through 2026-06-12
+**Month-week 2:** 2026-06-08 – 2026-06-14 · **Status:** partial through 2026-06-14
 
-**Last refresh:** 2026-06-13 (Karajan A–D finale) — week hinge + compact + 72h Fork 4–5 (`RCPT-04` stressed, A′ open); J12-6 **FAIL**; hinge through [2026-06-12 daily](./2026-06-12.md).
+**Last refresh:** 2026-06-15 — [2026-06-14 daily](./2026-06-14.md) lands **intra-day MOU close × Marandi pre/post-close arc × two-speed clock**; J12-6 carry **FAIL** unchanged at triage.
 
 One entry point for re-entering month-week 2 of June 2026. Open before the day ladder or statecraft-note scatter.
 
@@ -12,7 +12,7 @@ One entry point for re-entering month-week 2 of June 2026. Open before the day l
 
 **Governing pair (Jun 12 close):** `aid-cut required` (DW Aguilar) · `§224 inverse advancing` (MR Aguilar) — **bridge may be the product** while client buys **mesh license** during pause theater ([`AMER-224-RCPT-04`](../america/transactions/foreign-client-mesh-separation-and-command-review.md#june-12-aguilar-mr-corroboration-224-inverse-lever--iran-bridge-quid)).
 
-**Object migration:** ceasefire **label** (Jun 8) → command **fracture** + Apache **pretext** (Jun 9) → GCC **ladder** + talks DEAD (Jun 10) → MOU **theater** × Kharg/strike **oscillation** (Jun 11) → MOU **publish/deny** × Lebanon **point-1 live test** × **bridge-skeptic** + **§224 coupling** (Jun 12, 9 captures).
+**Object migration:** ceasefire **label** (Jun 8) → command **fracture** + Apache **pretext** (Jun 9) → GCC **ladder** + talks DEAD (Jun 10) → MOU **theater** × Kharg/strike **oscillation** (Jun 11) → MOU **publish/deny** × Lebanon **point-1 live test** × **bridge-skeptic** + **§224 coupling** (Jun 12) → **intra-day negotiation close** × **Marandi pre/post-close arc** × **Nima pre/post-close host arc** × **two-speed clock** (halt tonight / sign Jun 19 / Hormuz contested) (Jun 14, **6** captures).
 
 **Convergence (one line):** `trap + threshold + legitimacy + inverse-lever` — Pape **trap-confirmed**; Marandi/Johnson **five demands** gate; Barnes **dual-channel**; **§224 inverse-pair** (`aid-cut absent` · `mesh advancing` — J12-7 supported, J12-8 partial).
 
@@ -24,7 +24,8 @@ One entry point for re-entering month-week 2 of June 2026. Open before the day l
 
 ## If you only read four things
 
-1. **[2026-06-12](./2026-06-12.md)** — **§224 inverse-pair** (`aid-cut required` · `mesh advancing`) × MOU publish/deny × **Lebanon point-1 fracture** × dual Aguilar (DW lever / MR bridge-skeptic) — dominant close.
+1. **[2026-06-14](./2026-06-14.md)** — **Marandi timeline** (pre-close Diesen → post-close Nima/Davis) × **two-speed clock** × Beirut strike × SNSC halt — week-2 close.
+2. **[2026-06-12](./2026-06-12.md)** — **§224 inverse-pair** (`aid-cut required` · `mesh advancing`) × MOU publish/deny × **Lebanon point-1 fracture** × dual Aguilar (DW lever / MR bridge-skeptic).
 2. **[America foreign-client-mesh transaction](../america/transactions/foreign-client-mesh-separation-and-command-review.md)** — **`AMER-224-RCPT-04`** stressed; J12-7/8/9 wire grades; inverse-lever rows `INV-01`–`07`.
 3. **[2026-06-11](./2026-06-11.md)** — MOU theater × dual channel + Pape backtest spine.
 4. **[Marandi×J12-6×Aguilar bridge](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)** — Clause A/A′ + **RCPT-04** hierarchy row; gate **red** on ops, **A′ south** watch open.
@@ -69,6 +70,7 @@ Heavy-week adds:
 | 06-10 | Second-strike night + GCC ladder; talks DEAD vs Vance lane | [2026-06-10](./2026-06-10.md) |
 | 06-11 | MOU theater × dual channel + Pape backtest spine | [2026-06-11](./2026-06-11.md) |
 | 06-12 | MOU publish/deny × Lebanon fracture × **§224 inverse-pair**; Johnson triple-function | [2026-06-12](./2026-06-12.md) |
+| 06-14 | **Intra-day MOU close** × Marandi pre/post-close × two-speed clock; Beirut × Jun 19 sign | [2026-06-14](./2026-06-14.md) |
 
 ---
 
@@ -88,8 +90,8 @@ Heavy-week adds:
 - [Jun 12 triple-fracture compact](../compact/jun-12-triple-fracture-objection-matrix.md) — **canonical compression** (dual-document · A′ · §224 quid)
 - [Marandi clauses × J12-6 × Aguilar bridge](./2026-06-12-marandi-clauses-j12-6-aguilar-floor-bridge.md)
 - [72h watch run (Jun 12–13)](./2026-06-12-72h-watch-run.md) — Fork 1–5 incl. §224 + A′
-
----
+- [Lebanon enforcement × Nima host arc (Jun 14)](./2026-06-14-lebanon-enforcement-nima-host-arc.md) — J14-13–J14-16 · pseudo-gate hardened · host timeline method
+- [Jun 14 wire-verify matrix](./2026-06-14-wire-verify-matrix.md) — J14-1–**J14-16**
 
 ## Falsifier table (through Jun 12)
 
@@ -152,6 +154,6 @@ From [week1](./2026-06-week1-start-here.md) finalized unspent paths:
 
 **Intake function (Jun 6–12):** `check_statecraft_intake_daily_sync.py --all --from-day 2026-06-06 --to-day 2026-06-12` → **7 ok · 0 desync**.
 
-Refresh this hinge when **2026-06-12 – 2026-06-14** dailies land or month-week 2 closes.
+Refresh this hinge when **2026-06-15+** dailies land or month-week 2 **finalizes**.
 
 Invoke: **`statecraft daily intake`** · **`week hinge`** · **`statecraft daily synthesis`**

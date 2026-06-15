@@ -1,8 +1,53 @@
 {
-  "generated_at": "2026-06-13T10:17:23+00:00",
+  "generated_at": "2026-06-15T07:11:30+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
+    "2023-01": {
+      "captured_days": 1,
+      "source_count": 1,
+      "thread_count": 3,
+      "channel_or_show_count": 1,
+      "host_count": 1,
+      "guest_count": 2,
+      "guest_label_variants": [],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": false,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": false
+    },
+    "2024-01": {
+      "captured_days": 1,
+      "source_count": 1,
+      "thread_count": 3,
+      "channel_or_show_count": 1,
+      "host_count": 1,
+      "guest_count": 2,
+      "guest_label_variants": [],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": false,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": false
+    },
+    "2024-10": {
+      "captured_days": 1,
+      "source_count": 1,
+      "thread_count": 3,
+      "channel_or_show_count": 1,
+      "host_count": 1,
+      "guest_count": 2,
+      "guest_label_variants": [],
+      "existing_month_surface_count": 0,
+      "existing_month_surfaces": [],
+      "is_dense_month": false,
+      "has_finite_queue": false,
+      "has_existing_benchmark_surfaces": false,
+      "needs_label_normalization": false
+    },
     "2025-01": {
       "captured_days": 31,
       "source_count": 136,
@@ -142,11 +187,11 @@
     },
     "2025-05": {
       "captured_days": 31,
-      "source_count": 62,
-      "thread_count": 16,
+      "source_count": 63,
+      "thread_count": 17,
       "channel_or_show_count": 7,
       "host_count": 7,
-      "guest_count": 13,
+      "guest_count": 14,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -385,12 +430,12 @@
       "needs_label_normalization": true
     },
     "2025-12": {
-      "captured_days": 28,
-      "source_count": 77,
-      "thread_count": 21,
+      "captured_days": 29,
+      "source_count": 78,
+      "thread_count": 22,
       "channel_or_show_count": 9,
       "host_count": 7,
-      "guest_count": 20,
+      "guest_count": 21,
       "guest_label_variants": [
         {
           "signature": "johnson",
@@ -783,12 +828,12 @@
       "needs_label_normalization": true
     },
     "2026-06": {
-      "captured_days": 12,
-      "source_count": 144,
-      "thread_count": 40,
+      "captured_days": 14,
+      "source_count": 156,
+      "thread_count": 41,
       "channel_or_show_count": 20,
       "host_count": 19,
-      "guest_count": 28,
+      "guest_count": 30,
       "guest_label_variants": [
         {
           "signature": "freeman",
@@ -821,7 +866,7 @@
           "labels": [
             {
               "label": "Seyed M. Marandi",
-              "count": 5
+              "count": 9
             },
             {
               "label": "Mohammad Marandi",
