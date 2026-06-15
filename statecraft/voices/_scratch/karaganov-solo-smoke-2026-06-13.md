@@ -157,6 +157,37 @@ Alex, you're right to separate **danger** from **prescription**, and Sergey is r
 
 ---
 
+## Wire verify appendix (Jun 2026 panel hooks)
+
+**SSOT:** [2026-06-13 panel intake `verify:` block](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md) · receipt `2026-06-14`
+
+### Mearsheimer structural hooks (Kursk + Spiderweb)
+
+| Claim | Verdict |
+|-------|---------|
+| Aug 2024 Kursk incursion | **Supported** |
+| U.S. policy acceptance of Kursk | **Partial** (not proven co-command) |
+| 1 Jun 2025 Operation Spiderweb (strategic bomber airfields) | **Supported** |
+| “Triad leg” / strategic aviation only | **Partial** |
+| Bomber-loss scale (SBU ~41 vs U.S. ~10 vs ACA ~11) | **Contested** |
+| U.S. non-condemnation of Spiderweb | **Partial** |
+| U.S. pre-brief / directed Spiderweb | **Contradicted** |
+
+### St Petersburg hook (Diesen — “last week” before 13 Jun 2026 panel)
+
+| Claim | Verdict | Cite |
+|-------|---------|------|
+| Large-scale Ukrainian drone attack on St Petersburg / Leningrad region **~6 Jun 2026** | **Supported** | [BBC 6 Jun 2026](https://www.bbc.co.uk/news/articles/cg7498kz808o) |
+| SPIEF final-day timing (“Russian Davos”) | **Supported** | [France 24 6 Jun 2026](https://www.france24.com/en/europe/20260606-ukraine-launches-fresh-drone-attack-st-petersburg-region-final-day-russian-davos) |
+| Confirmed arsenal/base damage (not intercept-only) | **Partial** | Zelensky Kronstadt/arsenal claims; Russia MOD emphasizes intercept counts (376 downed via [Al Jazeera](https://www.aljazeera.com/news/2026/6/6/russia-says-hundreds-of-ukrainian-drones-downed-as-economic-forum-ends)) |
+| Earlier SPIEF-week strike (3 Jun oil/naval) | **Supported** | [ABC 7 Jun 2026](https://www.abc.net.au/news/2026-06-07/ukraine-hit-russian-oil-facilities/106768620) |
+
+**Mesh:** Russia **3b** (MOD, Beglov, Drozdenko via wires) · America/Persia/PRC/Rome **absent** on seam · **Escalate:** `fact check deep` on 15th Arsenal / Kronstadt satellite damage.
+
+**Voice-QA use:** Wire grades fence **Mearsheimer** ladder claims in tri-voice chain above; they do not validate **Karaganov** fuse advocacy.
+
+---
+
 ## Return paths
 
 - Triad panel demo: [triad-roundtable-demo-2026-06-13.md](triad-roundtable-demo-2026-06-13.md)

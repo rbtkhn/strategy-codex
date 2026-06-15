@@ -114,12 +114,13 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 - Pair **× `diesen`** when nuclear threshold, Age of Wars, or Eurasia civilizational run is live.
 - Pair **× `mearsheimer`** when structural realism needs force-warning counterpoint (Jun 2026 panel pattern).
 - Pair **× `mercouris`** when same episode carries **Cold War fear memory** vs **fuse reinstall** tension — keep both registers.
-- **Voice QA receipt:** [karaganov-solo-smoke-2026-06-13.md](../_scratch/karaganov-solo-smoke-2026-06-13.md) — solo + Mercouris duet on nuclear-threshold object (2026-06-13).
+- **Voice QA receipt:** [karaganov-solo-smoke-2026-06-13.md](../_scratch/karaganov-solo-smoke-2026-06-13.md) — solo, duets, tri-voice chain + wire appendix.
 
 ## Ingest note
 
 - Primary intake family: `source-glenn-diesen-*-karaganov-*` under `source-archive/statecraft/`.
 - 2025 Diesen solos promoted to archive SSOT (2026-06-13); legacy `codex/years/` stubs are redirects — see [karaganov-source-index.md](karaganov-source-index.md).
+- **Voice QA (Tier A):** After promotion or major intake, run **`voice profile panel`** — solo smoke on nuclear-threshold / deterrence object, or Diesen-panel **duet/tri-voice** chain (× `mercouris`, × `mearsheimer`). Receipts: [source-index § Voice QA receipts](karaganov-source-index.md#voice-qa-receipts-tier-a-profile) · skill [voice-profile-panel](../../../skills-portable/voice-profile-panel/SKILL.md). Wire hooks → panel intake `verify:` block, not voice table alone.
 
 ## Links
 

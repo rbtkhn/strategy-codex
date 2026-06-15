@@ -47,6 +47,8 @@ Rank these first when routing live statecraft work.
 
 ## Voice QA receipts (Tier A profile)
 
+<a id="voice-qa-receipts-tier-a-profile"></a>
+
 Bounded **voice-profile-panel** smoke tests — register QA only; not wire truth or Kremlin policy SSOT.
 
 | Date | File | Covers |
