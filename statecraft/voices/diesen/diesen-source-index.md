@@ -7,6 +7,12 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Glenn
 ## _aired-pending
 - [transcript-macgregor-diesen-iran-new-world-yd_uJiRcl0Q](../../../source-archive/statecraft/_aired-pending/transcript-macgregor-diesen-iran-new-world-yd_uJiRcl0Q.md)
 
+## 2023-01
+- [youtube-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14](../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md)
+
+## 2024-10
+- [youtube-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md)
+
 ## 2025-02
 - [youtube-glenn-diesen-ray-mcgovern-trump-versus-the-deep-state-2025-02-05](../../../source-archive/statecraft/2025-02-05/source-glenn-diesen-ray-mcgovern-trump-versus-the-deep-state-2025-02-05.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15](../../../source-archive/statecraft/2025-02-15/source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md)
@@ -25,6 +31,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Glenn
 - [youtube-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29](../../../source-archive/statecraft/2025-04-29/source-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md)
 
 ## 2025-05
+- [youtube-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14](../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md)
 - [youtube-glenn-diesen-andrei-martyanov-russia-s-military-strategy-in-ukraine-2025-05-21](../../../source-archive/statecraft/2025-05-21/source-glenn-diesen-andrei-martyanov-russia-s-military-strategy-in-ukraine-2025-05-21.md)
 - [youtube-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24](../../../source-archive/statecraft/2025-05-24/source-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24.md)
 - [youtube-glenn-diesen-col-jacques-baud-russia-pursues-military-solution-as-diplomacy-fails-2025-05-29](../../../source-archive/statecraft/2025-05-29/source-glenn-diesen-col-jacques-baud-russia-pursues-military-solution-as-diplomacy-fails-2025-05-29.md)
@@ -94,6 +101,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Glenn
 - [youtube-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10](../../../source-archive/statecraft/2025-12-10/source-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md)
 - [youtube-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18](../../../source-archive/statecraft/2025-12-18/source-glenn-diesen-chas-freeman-age-of-wars-as-freedom-of-navigation-ends-2025-12-18.md)
 - [youtube-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-economic-collapse-will-end-the-u-s-empire-2025-12-24](../../../source-archive/statecraft/2025-12-24/source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-economic-collapse-will-end-the-u-s-empire-2025-12-24.md)
+- [youtube-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25](../../../source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md)
 
 ## 2026-01
 - [transcript-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05](../../../source-archive/statecraft/2026-01-05/source-diesen-jiang-predictions-2026-empire-rivalry-collapse-2026-01-05.md)
@@ -211,3 +219,4 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Glenn
 - [source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08](../../../source-archive/statecraft/2026-06-08/source-glenn-diesen-seyed-m-marandi-iran-israel-strikes-trump-humiliated-yemen-red-sea-2026-06-08.md)
 - [source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08](../../../source-archive/statecraft/2026-06-08/source-glenn-diesen-lawrence-wilkerson-israel-bet-everything-war-iran-lost-2026-06-08.md)
 - [source-glenn-diesen-douglas-macgregor-new-world-israel-dying-nato-dead-us-defeated-iran-2026-06-09](../../../source-archive/statecraft/2026-06-09/source-glenn-diesen-douglas-macgregor-new-world-israel-dying-nato-dead-us-defeated-iran-2026-06-09.md)
+- [source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md)

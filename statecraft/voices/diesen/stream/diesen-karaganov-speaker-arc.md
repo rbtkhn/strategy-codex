@@ -39,20 +39,23 @@ Current canonical `Diesen × Karaganov` raw-inputs on disk:
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
-| 1 | 2026-05-10 | *Sergey Karaganov on World War, Nuclear Doctrine, Europe, and Russia's Future* | Best single mature anchor. It combines his deterrence doctrine, world-war framing, anti-Europe escalation logic, and Russia's future in one file. Open this first. |
-| 2 | 2025-12-25 | *Sergey Karaganov: Confronting Europe, Pivot to East & Nuclear War* | Best hard-security and Europe-escalation file; strongest on the direct nuclear-threshold and anti-European-war argument. |
-| 3 | 2025-05-14 | *Sergey Karaganov: Russia's Eurasian Future & Spiritual Revival* | Best civilizational and Siberization base text; strongest for Greater Eurasia, spiritual framing, and the post-European identity lane. |
+| −1 | 2023-01-14 | *Russia, from Greater Europe to Greater Eurasia* | Earliest archive anchor for the civilizational pivot: Founding Act 1997, EU constitution/Christianity break, comprador elite, Peter the Great period ending, BRICS/SCO/Global South, Iran corridor, China-Russia sovereign balance — pre-doctrine full arc. |
+| 0 | 2024-10-21 | *Russia Changes Nuclear Doctrine — Karaganov, Mercouris & Diesen* | Doctrine-change debate origin: Putin shift after Sochi/Valdai; Mercouris Cold War deterrence catalogue; 10–12 step ladder; Belarus umbrella; deep-strike threshold. |
+| 1 | 2026-05-10 | *Sergey Karaganov on World War, Nuclear Doctrine, Europe, and Russia's Future* | Best single mature anchor. It combines his deterrence doctrine, world-war framing, anti-Europe escalation logic, and Russia's future in one file. Open this first for doctrine depth. |
+| 2 | 2026-06-13 | *John Mearsheimer & Sergey Karaganov: Nuclear Strike on Europe to Restore Deterrence* | Best triangulation file — Karaganov escalation ladder vs Mearsheimer structural realism, Schelling coercion, US non-response, Germany proliferation. |
+| 3 | 2025-12-25 | *Sergey Karaganov: Confronting Europe, Pivot to East & Nuclear War* | Best hard-security and Europe-escalation file; strongest on the direct nuclear-threshold and anti-European-war argument. |
+| 4 | 2025-05-14 | *Sergey Karaganov: Russia's Eurasian Future & Spiritual Revival* | Best civilizational and Siberization base text; strongest for Greater Eurasia, spiritual framing, and the post-European identity lane. |
 
 ## Open first
 
 If the operator needs only one file:
 
-- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](../../../../codex/years/2026/provenance/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](../../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
 
 If the operator needs the best paired read:
 
-- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](../../../../codex/years/2026/provenance/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
-- then [transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](../../../../codex/years/2025/provenance/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md)
+- open [source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md](../../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md)
+- then [source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](../../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md)
 
 That pair gives the clearest combination of:
 

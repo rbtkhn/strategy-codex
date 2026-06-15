@@ -13,7 +13,10 @@ Mercouris is not only a native cognition stream. There are real cross-host appea
 The clearest current host-local reinforcement on disk is:
 
 - [Davis x Mercouris host-local arc](../../../codex/speakers/davis/stream/davis-mercouris-speaker-arc.md), now a stable multi-file Davis branch
+- [Diesen x Mercouris host-local arc](../diesen/stream/diesen-mercouris-speaker-arc.md), now deepened by **2023-01-14** and **2024-10-21** Karaganov triangulation panels (order-transition + deterrence-history) plus **2026-05-16** legitimacy dyad
 - [2026-05-16 Diesen x Mercouris](../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
+
+Karaganov doctrine on those panels routes through [karaganov-source-index.md](../karaganov/karaganov-source-index.md) — not this note.
 
 That matters because it shows Mercouris can remain legible outside his own stream and can be reused inside another host environment.
 
@@ -24,7 +27,7 @@ Read the reinforcement this way:
 - it **confirms** that Mercouris is more than a sealed native lane
 - it now has both Davis and Diesen guest-host reinforcement on disk
 - the Davis branch is dense enough to justify a stable host-local arc note
-- it does **not yet confirm** a materially dense multi-host Mercouris helix, because the density is still concentrated in one secondary host branch
+- the Diesen branch is **no longer thin**: 2023/2024 Karaganov triads backfill order-transition and deterrence-history before the 2026 legitimacy dyad
 - it therefore supports the Mercouris speaker object without yet requiring a canonical Mercouris double-helix claim
 
 So the right current shape is:
@@ -36,7 +39,7 @@ So the right current shape is:
 
 ## Why this still matters
 
-Even uneven cross-host reinforcement is important here because Mercouris's main strength is already so great on the native stream side. The Davis branch is now stable and multi-file, while the Diesen branch remains thinner but still meaningful. Together they clarify that the object is not merely local to one folder, even if it remains fundamentally stream-anchored.
+Even uneven cross-host reinforcement is important here because Mercouris's main strength is already so great on the native stream side. The Davis branch is now stable and multi-file, while the Diesen branch has **historical depth** (2023–2024 Karaganov triads) plus the 2026 legitimacy anchor. Together they clarify that the object is not merely local to one folder, even if it remains fundamentally stream-anchored.
 
 ## Future trigger
 

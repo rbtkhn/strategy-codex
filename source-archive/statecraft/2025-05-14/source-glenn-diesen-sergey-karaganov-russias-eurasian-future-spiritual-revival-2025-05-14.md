@@ -1,20 +1,37 @@
 ---
-promoted_to: "source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md"
-ingest_date: 2026-05-11
+ingest_date: 2026-06-13
 pub_date: 2025-05-14
-thread: diesen
-show: Diesen - Greater Eurasia Podcast
-host: Diesen
-guest: Sergey Karaganov
-title: "Sergey Karaganov: Russia's Eurasian Future & Spiritual Revival"
-source_url: "https://www.youtube.com/watch?v=FH70b-9k4bQ"
+kind: transcript
+source_form: interview
 source_type: youtube
 transcript_type: cleaned_transcript
-editorial_note: "Operator-pasted cleaned transcript."
+host_people:
+  - Glenn Diesen
+guest_people:
+  - Sergey Karaganov
+show_title: Glenn Diesen
+channel_name: Glenn Diesen
+thread: karaganov
+threads:
+  - diesen
+  - karaganov
+thread_expert: karaganov
+show: Glenn Diesen
+host: Glenn Diesen
+guest: Sergey Karaganov
+title: "Sergey Karaganov: Russia's Eurasian Future & Spiritual Revival"
+channel_url: "https://www.youtube.com/@GDiesen1/videos"
+channel_slug: glenn-diesen
+source_url: "https://www.youtube.com/watch?v=FH70b-9k4bQ"
+youtube_id: FH70b-9k4bQ
+source_note: "Promoted from codex/years/2025/raw-input/2025-05-14/ (2026-06-13). Siberization, Dostoevsky/Bible, spiritual revival, Greater Eurasia, post-human Europe break. Legacy: codex/years/2025/raw-input/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md."
+evidence_grade: transcript-bearing
+editorial_note: Operator-pasted cleaned transcript; promoted from codex/years with body preserved.
+opening_tier: host-tease
+transcript_wrapper_tier: paste-asr
+opening_trim_applied: false
+promoted_from: "codex/years/2025/raw-input/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md"
 ---
-> **Archive SSOT:** [source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md) — this legacy path is compatibility residue only.
-
-
 # Diesen / Sergey Karaganov - Russia's Eurasian Future & Spiritual Revival
 
 **Channel:** Glenn Diesen  

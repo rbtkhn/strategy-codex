@@ -53,7 +53,7 @@ March 2026 is the first **mature dense-core month** in that motion: the point wh
 
 Current reinforcement branches:
 
-- [Diesen x Mercouris](../../../../codex/speakers/diesen/stream/diesen-mercouris-speaker-arc.md) - a thin but meaningful host-local branch that braids the legitimacy-crisis thread with Diesen's order-transition frame.
+- [Diesen x Mercouris](../../diesen/stream/diesen-mercouris-speaker-arc.md) - a deepening host-local branch (2023/2024 Karaganov triads + 2026 legitimacy dyad) that braids order-transition, deterrence-history, and legitimacy-crisis threads with Diesen's frame.
 - [Davis x Mercouris](../../../../codex/speakers/davis/stream/davis-mercouris-speaker-arc.md) - a stable host-local branch that braids Davis's military-feasibility frame with Mercouris's diplomatic sequencing, European spoiler logic, and institutional-politics register.
 
 Distinct from:

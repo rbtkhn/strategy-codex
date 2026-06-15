@@ -38,7 +38,7 @@ If a new Mercouris item can live equally well in several of these without changi
 - [Mercouris thread](../../../../codex/speakers/mercouris/stream/mercouris-thread.md)
 - [April shelf](mercouris-shelf-2026-04.md)
 - [May shelf](mercouris-shelf-2026-05.md)
-- [Diesen x Mercouris host-local arc](../../../../codex/speakers/diesen/stream/diesen-mercouris-speaker-arc.md)
+- [Diesen x Mercouris host-local arc](../../diesen/stream/diesen-mercouris-speaker-arc.md)
 - [Davis x Mercouris host-local arc](../../../../codex/speakers/davis/stream/davis-mercouris-speaker-arc.md)
 - [Mercouris source index](../mercouris-source-index.md)
 
@@ -48,12 +48,13 @@ Thesis: Mercouris repeatedly converts scattered diplomatic, military, market, an
 
 Anchors:
 
+- 2024-10-21 - Diesen × Mercouris × Karaganov, nuclear doctrine / deterrence communication: [raw-input](../../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md)
 - 2026-04-13 - U.S.-Iran sea blockade / talks collapse / Lavrov to China: [raw-input](../../../../source-archive/statecraft/2026-04-13/source-alex-mercouris-us-iran-sea-blockade-talks-collapse-iran-calls-putin-lavrov-to-china-bud-2026-04-13.md)
 - 2026-04-19 - Lavrov says U.S.-Iran war about oil / China warning: [raw-input](../../../../source-archive/statecraft/2026-04-19/source-alex-mercouris-lavrov-says-us-iran-war-about-oil-targets-china-warns-russia-will-enforc-2026-04-19.md)
 - 2026-04-20 - Russia says U.S. blockade failing / Hormuz transit claims: [raw-input](../../../../source-archive/statecraft/2026-04-20/source-russia-blockade-40-ships-hormuz-2026-04-20.md)
 - 2026-05-06 - Hormuz rollback / Axios memo / unipolar moment: [raw-input](../../../../source-archive/statecraft/2026-05-06/source-mercouris-hormuz-rollback-axios-memo-unipolar-moment-2026-05-06.md)
 
-Arc-thread motion: the strand begins as close reading of official rooms and public statements, then turns into a statecraft grammar for reading blockade announcements, ceasefire windows, warning language, and visible retreat.
+Arc-thread motion: **2024 Diesen×Karaganov triad** adds published-deterrence and red-line communication as institutional grammar; the strand then moves through close reading of official rooms and public statements into a statecraft grammar for blockade announcements, ceasefire windows, warning language, and visible retreat.
 
 January setup note: January 2026 gathers the institutional ingredients that February later fuses. Trump-Europe shock, the early negotiation room, and widening non-Ukraine pressure are already being read as one developing sequence, but not yet as the harder theater of February.
 
@@ -170,12 +171,13 @@ Thesis: Mercouris's multipolar strand reads Russia, China, Iran, Gulf actors, an
 
 Anchors:
 
+- 2023-01-14 - Diesen × Mercouris × Karaganov, Greater Eurasia / Global South non-alignment: [raw-input](../../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md)
 - 2026-04-02 - Russia-China act as Trump Iran-war address fails: [raw-input](../../../../source-archive/statecraft/2026-04-02/source-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md)
 - 2026-04-15 - Russia warning / China tankers / Putin-Xi: [raw-input](../../../../source-archive/statecraft/2026-04-15/source-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
 - 2026-04-24 - Russian MoD / Iran alliance / leadership split denial: [raw-input](../../../../source-archive/statecraft/2026-04-24/source-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md)
 - 2026-05-15 - China warns U.S. over Taiwan / will not pressure Iran: [raw-input](../../../../source-archive/statecraft/2026-05-15/source-alex-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md)
 
-Arc-thread motion: Russia and China begin as diplomatic responders to U.S. overreach, then become part of an alternative room that complicates U.S. coercion against Iran and Ukraine at the same time.
+Arc-thread motion: **2023 Diesen×Karaganov triad** supplies pre-2025 multipolar-room and Western-blindness backfill; **2024 same triad** adds deterrence-communication and post-Cold War European hubris; Russia and China begin as diplomatic responders to U.S. overreach, then become part of an alternative room that complicates U.S. coercion against Iran and Ukraine at the same time.
 
 January setup note: January lays the groundwork for this strand by widening the native stream beyond Ukraine-only framing and making early Iran pressure, Trump shock, and alternative diplomatic positioning part of the same running field. The room is not yet thick, but its contours are forming.
 
@@ -200,13 +202,15 @@ Thesis: Mercouris's legitimacy line tracks the erosion of authority inside Brita
 
 Anchors:
 
+- 2023-01-14 - Diesen × Mercouris × Karaganov, Greater Europe → Greater Eurasia: [raw-input](../../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md)
+- 2024-10-21 - Diesen × Mercouris × Karaganov, nuclear doctrine / European fear loss: [raw-input](../../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md)
 - 2025-01-16 - Davis x Mercouris, NATO preparing for war with Russia: [raw-input](../../../../source-archive/statecraft/2025-01-16/source-daniel-davis-deep-dive-the-duran-s-alexander-mercouris-nato-preparing-for-war-w-russia-2025-01-16.md)
 - 2026-05-16 - Diesen x Mercouris, political legitimacy crisis across Europe: [raw-input](../../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
 - 2026-05-17 - Russia/Moldova decree / EU assembles Belarus force: [raw-input](../../../../source-archive/statecraft/2026-05-17/source-alex-mercouris-russia-moldova-decree-stuns-eu-assembles-belarus-force-brushes-off-zelen-2026-05-17.md)
 - 2026-05-18 - EU split on Russia talks / Dnipro weapon report / Iran: [raw-input](../../../../source-archive/statecraft/2026-05-18/source-alex-mercouris-eu-split-on-russia-talks-russia-conducts-huge-ukraine-strike-reports-new-weapon-hits-dnipro-iran-2026-05-18.md)
 - 2026-05-19 - Russia warns NATO / Baltic war test / nuclear forces: [raw-input](../../../../source-archive/statecraft/2026-05-19/source-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md)
 
-Arc-thread motion: early reinforcement through Davis frames NATO wartime posture; the later Davis branch adds rule-of-law erosion and U.S. force-posture legitimacy; Diesen makes the European legitimacy crisis explicit; late-May native stream material shows the same crisis moving through Moldova, Belarus, Baltic warning, Russia talks, and NATO escalation rhetoric.
+Arc-thread motion: **2023 Diesen×Karaganov triad** supplies pre-2025 multipolar-room and Western-blindness backfill; early reinforcement through Davis frames NATO wartime posture; the later Davis branch adds rule-of-law erosion and U.S. force-posture legitimacy; Diesen makes the European legitimacy crisis explicit; late-May native stream material shows the same crisis moving through Moldova, Belarus, Baltic warning, Russia talks, and NATO escalation rhetoric.
 
 January setup note: January is an important setup month here because Europe's strategic disorientation, Greenland shock, and widening mismatch between anti-Russia language and real capacity begin to accumulate before February makes legitimacy crisis a clearer explicit object.
 

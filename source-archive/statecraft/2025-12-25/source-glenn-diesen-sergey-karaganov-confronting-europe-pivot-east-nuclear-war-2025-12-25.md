@@ -1,20 +1,37 @@
 ---
-promoted_to: "source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md"
-ingest_date: 2026-05-11
+ingest_date: 2026-06-13
 pub_date: 2025-12-25
-thread: diesen
-show: Diesen
-host: Diesen
-guest: Sergey Karaganov
-title: "Sergey Karaganov: Confronting Europe, Pivot to East & Nuclear War"
-source_url: "https://www.youtube.com/watch?v=HnOB7nKv0AY"
+kind: transcript
+source_form: interview
 source_type: youtube
 transcript_type: cleaned_transcript
-editorial_note: "Operator-pasted cleaned transcript."
+host_people:
+  - Glenn Diesen
+guest_people:
+  - Sergey Karaganov
+show_title: Glenn Diesen
+channel_name: Glenn Diesen
+thread: karaganov
+threads:
+  - diesen
+  - karaganov
+thread_expert: karaganov
+show: Glenn Diesen
+host: Glenn Diesen
+guest: Sergey Karaganov
+title: "Sergey Karaganov: Confronting Europe, Pivot to East & Nuclear War"
+channel_url: "https://www.youtube.com/@GDiesen1/videos"
+channel_slug: glenn-diesen
+source_url: "https://www.youtube.com/watch?v=HnOB7nKv0AY"
+youtube_id: HnOB7nKv0AY
+source_note: "Promoted from codex/years/2025/raw-input/2025-12-25/ (2026-06-13). Nuclear threshold, Belarus/Oreshnik, European mad hyenas, piecemeal peace, Germany problem. Legacy: codex/years/2025/raw-input/2025-12-25/transcript-diesen-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md."
+evidence_grade: transcript-bearing
+editorial_note: Operator-pasted cleaned transcript; promoted from codex/years with body preserved.
+opening_tier: host-tease
+transcript_wrapper_tier: paste-asr
+opening_trim_applied: false
+promoted_from: "codex/years/2025/raw-input/2025-12-25/transcript-diesen-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md"
 ---
-> **Archive SSOT:** [source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md](source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) — this legacy path is compatibility residue only.
-
-
 # Diesen / Sergey Karaganov - Confronting Europe, Pivot to East & Nuclear War
 
 **Channel:** Glenn Diesen  

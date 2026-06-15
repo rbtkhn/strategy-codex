@@ -40,11 +40,13 @@ What makes this a real host-local arc is the fit between the two objects:
 
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
-| 1 | 2026-05-16 | *Alexander Mercouris: The Political Legitimacy Crisis Across Europe* | Current anchor. Best file for European legitimacy crisis, foreign-policy fixation, and the Europe-as-western-Eurasia fork. Open this first. |
+| −1 | 2023-01-14 | *Russia, from Greater Europe to Greater Eurasia* (× Karaganov) | Earliest materialized Diesen×Mercouris triad on disk. Mercouris: unequal-treaty framing, European cultural idealization vs post-1960s reality, Western multipolar blind spot. Treat as `diesen + mercouris + karaganov`. |
+| 0 | 2024-10-21 | *Russia Changes Nuclear Doctrine* (× Karaganov) | Doctrine-debate triad. Mercouris: Cold War deterrence episodes (Suez, Berlin, Vietnam ships, 1973, Cuba); Europeans lost post-Cold War fear of Russia; doctrine as communicated law. Treat as `diesen + mercouris + karaganov`. Karaganov doctrine SSOT → [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md). |
+| 1 | 2026-05-16 | *Alexander Mercouris: The Political Legitimacy Crisis Across Europe* | Current anchor for European legitimacy crisis, foreign-policy fixation, and the Europe-as-western-Eurasia fork. Open this first for **legitimacy-only** dyad work. |
 | 2 | 2025-12-19 | *Fake Diplomacy & Permanent Conflict - John Mearsheimer, Alexander Mercouris & Glenn Diesen* | Three-speaker diplomacy panel. Best file for fake-negotiation diagnosis, no-common-ground bargaining, Euroclear/Russian-asset escalation, and Ukraine-war endgame logic. Treat as `diesen + mercouris + mearsheimer`, not a pure Diesen x Mercouris dyad. |
 | 3 | 2026-03-21 | *Alexander Mercouris: Iran War Transforms Ukraine War* | Best file for the Iran/Hormuz-to-Ukraine transfer strand: energy attrition, sanctions breakdown, Russia/China support to Iran, and the way one hegemonic war undermines the other. |
 
-This is currently a thin but meaningful host-local branch: two Mercouris-focused dyads and one three-speaker panel with unusually clean fit between Diesen's order-transition frame, Mercouris's institutional politics register, and Mearsheimer's structural-realist bargaining frame.
+This is currently a **deepening** host-local branch: two early Karaganov triangulation panels (2023, 2024), two Mercouris-focused dyads, and one three-speaker Mearsheimer panel with clean order-transition / institutional fit.
 
 ### Discovered by Diesen stream check
 
@@ -56,7 +58,9 @@ Older cross-host appearances found during the same check, such as 2024 Duran pan
 
 If the operator needs the raw source:
 
-- open [source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](../../../../codex/years/2026/provenance/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
+- open [source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md](../../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md) — civilizational / order-transition base
+- open [source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md](../../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) — deterrence-history / doctrine-communication base
+- open [source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](../../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
 - open [youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md](../../../../codex/years/2025/provenance/2025-12-19/youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md)
 - open [source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md](../../../../codex/years/2026/provenance/2026-03-21/source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md)
 
@@ -96,7 +100,7 @@ Distinct from:
 
 ## Boundaries
 
-- This arc is transcript-bearing but still a thin three-file branch, not a mature multi-episode Diesen x Mercouris run on the scale of the native Mercouris stream or the Davis x Mercouris branch.
+- This arc is transcript-bearing and **deepening** (2023–2026 span), not yet a mature multi-episode run on the scale of the native Mercouris stream or the Davis x Mercouris branch.
 - Do not treat this file as replacing Mercouris's native stream or the wider `mercouris-arc`, which remains the main body.
 - Do not treat Diesen as merely a host wrapper; his order-transition frame is part of why this appearance matters.
 - Prefer this arc when the notebook needs Europe-legitimacy diagnosis at order-transition altitude, not when it needs day-by-day Mercouris monologue continuity.

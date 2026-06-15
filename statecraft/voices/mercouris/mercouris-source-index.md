@@ -16,6 +16,15 @@ The detailed legacy bench remains available at:
 
 Use this statecraft-side file as the canonical opening route. Use the codex-side bench only as detailed compatibility residue during migration.
 
+## 2023–2024 guest-host anchors (Diesen × Karaganov × Mercouris)
+
+Use these when the task is order-transition / deterrence-history reinforcement on a Diesen host bench — primary Karaganov doctrine routing stays on [karaganov-source-index.md](../karaganov/karaganov-source-index.md).
+
+- [2023-01-14 | Diesen × Mercouris × Karaganov | Greater Europe → Greater Eurasia](../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md) — unequal-treaty / Founding Act; European idealization; multipolar blindness; BRICS/SCO
+- [2024-10-21 | Diesen × Mercouris × Karaganov | Russia changes nuclear doctrine](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) — Cold War deterrence catalogue; post-Cold War European fear loss; doctrine-as-law; deep-strike threshold
+
+Host-local arc: [../diesen/stream/diesen-mercouris-speaker-arc.md](../diesen/stream/diesen-mercouris-speaker-arc.md)
+
 ## 2025-01 prehistory anchors
 
 Use these when the task is early-strand continuity rather than the live 2026 repaired run:

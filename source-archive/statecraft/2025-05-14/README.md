@@ -4,25 +4,26 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
+- Source files: `2`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (1)
-- Source form mix: `solo` (1)
-- Distinct channels/shows: `1`
-- Distinct hosts: `1`
-- Distinct guests: `0`
-- Distinct threads: `1`
+- Body kind mix: `transcript` (2)
+- Source form mix: `interview` (1), `solo` (1)
+- Distinct channels/shows: `2`
+- Distinct hosts: `2`
+- Distinct guests: `1`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
-- `Alexander Mercouris` (1)
+- `Alexander Mercouris` (1), `Glenn Diesen` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Alexander Mercouris` (1)
-- Guests: (none)
-- Threads: `mercouris` (1)
+- Hosts: `Alexander Mercouris` (1), `Glenn Diesen` (1)
+- Guests: `Sergey Karaganov` (1)
+- Threads: `diesen` (1), `karaganov` (1), `mercouris` (1)
 
 ## Files
 
 - `source-alex-mercouris-istanbul-talks-chaos-trump-sends-witkoff-kellogg-zelensky-talking-only-to-putin-moscow-hardline-2025-05-14.md`
+- `source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md`
