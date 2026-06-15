@@ -69,6 +69,34 @@ public issue / PR on rbtkhn/civ-state
   → public PR + tag (e.g. v0.1.1)
 ```
 
+## Merge triggers (hold until explicit — v0.1.3+)
+
+These are **decision gates**, not automatic pipeline steps. See also [Unresolved tensions](../statecraft/states/volumes/README.md#unresolved-tensions-2026-06-15--hold-before-next-merge) in the volume map.
+
+### When `statecraft-<civ>.md` prose may merge into Empire / introduction
+
+Proceed **only when all** are true:
+
+1. **Per-volume plan** — operator names target file(s) (`empire-*.md`, `introduction.md`, or both) for each civ; no repo-wide bulk merge in one commit.
+2. **No third reader part** — merged prose does not reintroduce Part 3 / `statecraft-*` as a coequal chapter in [table-of-contents.md](../statecraft/states/table-of-contents.md), [reader-guide.md](../statecraft/states/reader-guide.md), or export `volume_essay_globs`.
+3. **Shelf alignment** — volume shelf-readers and secondary-sources already route upward to empire/introduction (no `statecraft-*.md` links).
+4. **Export gate unchanged** — `statecraft-*.md` stays **out** of public export and validator required essays unless manifest + boundary doc are updated in the **same** tagged release.
+5. **Retire workshop file** — after merge, remove or archive `statecraft-<civ>.md` with a one-line pointer in the volume README (workshop residue labeled honestly).
+
+**Do not merge** while ledes under volume introduction H1s are still thin placeholders and the operator has not chosen whether present-carrier judgment lives in **introduction** or **Empire**.
+
+### When `archive/helix-lane-v1/legacy-cut/` may return to the public book
+
+Proceed **only when all** are true:
+
+1. **Operator intent** — explicit choice to restore helix-lane v1 cut for **external** readers (not only workshop salvage in [helix-salvage-matrix.md](civilizational-statecraft/helix-salvage-matrix.md)).
+2. **Source path** — export manifest gains a documented copy source (e.g. import from civ-state tag **v0.1.2** `legacy-cut/`, or a workshop archive tree checked into strategy-codex); sanitize-only-on-existing-output is insufficient alone.
+3. **Sanitize receipt** — `sanitize_legacy_archive` run recorded; forbidden-pattern lint PASS on restored tree.
+4. **Stub README updated** — [archive/helix-lane-v1/README.md](../statecraft/states/export-templates/archive-helix-lane-v1-README.md) template reflects restore vs redirect policy.
+5. **Tagged release** — public restore ships as a **minor** tag bump (e.g. v0.1.4), not silent drift inside a patch narrative.
+
+**Default after v0.1.3:** keep **book-only** archive stub (`archive/helix-lane-v1/README.md` only). Absence of `legacy-cut` in export staging is export-source law, not accidental deletion.
+
 ## Related
 
 - Unified public-artifact law: [public-artifacts-boundary.md](public-artifacts-boundary.md)

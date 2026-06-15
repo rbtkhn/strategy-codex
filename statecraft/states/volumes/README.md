@@ -125,6 +125,20 @@ The named `geo-strategy`, `secret-history`, and `game-theory` files are substant
 
 Legacy `statecraft-<civ>.md` files remain on disk for workshop merge; they are not part of the reader-facing volume order.
 
+## Unresolved tensions (2026-06-15 — hold before next merge)
+
+Do not resolve these by silent edit. Name them before prose merge, ledes, or another public export.
+
+| Tension | What pulls | Current fact | Decision still open |
+|---------|------------|--------------|---------------------|
+| **Public reader vs workshop Part 3** | [`rbtkhn/civ-state`](https://github.com/rbtkhn/civ-state) v0.1.3 exports **introduction → Civilization → Empire** only; workshop still carries `statecraft-*.md` on disk | Export gate + validator exclude `statecraft-*.md`; files remain for merge | When and how to fold `statecraft-*.md` prose into **Empire** and/or volume **introduction** without reintroducing a third reader-facing part |
+| **`legacy-cut` retention vs book-only archive** | v0.1.2 public tree included `archive/helix-lane-v1/legacy-cut/`; v0.1.3 has **stub README only** | Export staging generates `archive/helix-lane-v1/README.md` only; workshop has **no** `legacy-cut` source tree; manifest `legacy_archive.sanitize` runs only if that folder already exists in output | Restore helix cut as a later archival commit, keep book-only stub, or copy sanitized legacy from pre-v0.1.3 civ-state history — see Andante note below |
+| **Upstream push vs tagged public** | Public tag **v0.1.3** merged on GitHub; strategy-codex `main` may still be **ahead of origin** with export/skill/navigation commits | Workshop is SSOT for the next export; remote sync is operator/network dependent | Push strategy-codex when network allows so workshop receipts match what shipped |
+
+**Andante note (`legacy-cut`, v0.1.3):** Export manifest [`config/civilizational_statecraft_public_export.yaml`](../../../config/civilizational_statecraft_public_export.yaml) declares `legacy_archive.rel_path: archive/helix-lane-v1/legacy-cut` with `sanitize: true`, but the export script **does not copy** legacy-cut from `statecraft/states/` — it only **sanitizes** that path when already present in the output tree. v0.1.3 PR #2 used a full staging sync; staging never contained `legacy-cut`, so the public drop is **absence from export source**, not a sanitize pass deleting workshop files. Confirmed on tag v0.1.3: `archive/helix-lane-v1/README.md` only.
+
+**Falsifier fork:** If someone merges `statecraft-*.md` back into export globs or restores `legacy-cut` without updating this block and [`docs/civilizational-statecraft-external-boundary.md`](../../../docs/civilizational-statecraft-external-boundary.md), treat that as an explicit operator decision — not drift.
+
 ## Volume Bibliographies
 
 - [China bibliography](civ-state-china/civ-state-china-bibliography.md)
