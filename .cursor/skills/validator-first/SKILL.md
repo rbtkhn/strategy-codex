@@ -44,6 +44,7 @@ description: >-
 | Manifest sync all | `ph-civ`: `scripts/sync_all_parts_to_manifest.py` |
 | Study edition | `ph-civ`: `scripts/validate_study_edition.py --part NN` |
 | Handoff / ship | `strategy-codex`: `python3 scripts/operator_handoff_check.py` |
+| CIV-STATE public export | `strategy-codex`: `python3 scripts/export_civilizational_statecraft_public.py` then `python3 scripts/validate_civilizational_statecraft_public.py artifacts/civilizational-statecraft-public` — **not** `--validate` on the export script |
 
 Use **`python`** or **`python3`** per host; Windows repo root paths as in session.
 
