@@ -21,3 +21,13 @@ fork_revive_tokens:
   - fork revive
   - A gate
   - "--territory companion"
+
+# Public Civilizational Statecraft book (after v0.1.0 cutover)
+civilizational_statecraft_public:
+  canonical_repo: "https://github.com/rbtkhn/civ-state"
+  legacy_repo: "https://github.com/rbtkhn/civ-emp"
+  export_staging: "artifacts/civilizational-statecraft-public"
+  export_manifest: "config/civilizational_statecraft_public_export.yaml"
+  observe_only_workshop_paths_after_cutover: true
+  release_tag: "v0.1.1"
+  cutover_date: "2026-06-15"

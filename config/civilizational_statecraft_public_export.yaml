@@ -1,0 +1,143 @@
+# Civilizational Statecraft public export manifest (WORK; not Record)
+# SSOT for scripts/export_civilizational_statecraft_public.py
+schema_version: "1.0.0"
+release_tag: "v0.1.1"
+canonical_public_repo: "https://github.com/rbtkhn/civ-state"
+legacy_public_repo: "https://github.com/rbtkhn/civ-emp"
+
+source_root: "statecraft/states"
+default_output: "artifacts/civilizational-statecraft-public"
+
+volume_slugs:
+  civ-state-china: china
+  civ-state-persia: persia
+  civ-state-rome: rome
+  civ-state-russia: russia
+  civ-state-america: america
+
+volume_stubs:
+  rome:
+    preview: true
+    reader_caveat: >
+      Rome remains a source-memory and continuity hinge in the set. Some lattice
+      shelves and essays are still maturing relative to lane-backed volumes.
+
+era_spine:
+  china: [ancient, medieval, colonial, industrial, cybernetic]
+  persia: [ancient, medieval, colonial, industrial, cybernetic]
+  rome: [ancient, medieval, colonial, industrial, cybernetic]
+  russia: [medieval, colonial, industrial, cybernetic]
+  america: [medieval, colonial, industrial, cybernetic]
+
+# Tier 1 — never export (operator / ph-civ bridge surfaces)
+exclude_globs:
+  - "ph-civ-to-civ-state-bridge.md"
+  - "ph-civ-promotion-ledger.md"
+  - "ph-civ-era-overlay-options.md"
+  - "review-queue.md"
+  - "README.md"
+  - "indexes/**"
+  - "migration/**"
+  - "export-templates/**"
+
+# Root apparatus → public paths
+apparatus:
+  - src: table-of-contents.md
+    dest: table-of-contents.md
+    transform: toc_public
+  - src: reader-guide.md
+    dest: reader-guide.md
+    transform: reader_guide_public
+  - src: glossary.md
+    dest: glossary.md
+    transform: strip_work_fence
+  - src: index.md
+    dest: index.md
+    transform: index_public
+  - src: hybrid-references.md
+    dest: hybrid-references.md
+    transform: hybrid_references_public
+  - src: civilization-empire-faith-science-memory-desire.md
+    dest: framework/civilization-empire-faith-science-memory-desire.md
+    transform: strip_work_fence
+  - src: continuity-mechanism.md
+    dest: comparative/continuity-mechanism.md
+    transform: strip_work_fence
+  - src: high-skill-labor-compression-and-civilizational-statecraft.md
+    dest: comparative/high-skill-labor-compression-and-civilizational-statecraft.md
+    transform: high_skill_public
+  - src: persia/hormuz-recognition-transit-restraint.md
+    dest: comparative/hormuz-recognition-transit-restraint.md
+    transform: hormuz_public
+
+directories:
+  - src: sacred-grammar
+    dest: sacred-grammar
+    transform: strip_work_fence
+  - src: pattern-library
+    dest: comparative/pattern-library
+    transform: strip_work_fence
+
+generated:
+  - dest: source-lattice.md
+    template: source-lattice.md
+  - dest: README.md
+    template: public-README.md
+  - dest: volumes/README.md
+    template: public-volumes-README.md
+  - dest: FOUNDING-PROVENANCE.md
+    template: FOUNDING-PROVENANCE.md
+  - dest: archive/helix-lane-v1/README.md
+    template: archive-helix-lane-v1-README.md
+  - dest: LICENSE
+    template: LICENSE
+  - dest: CONTRIBUTING.md
+    template: CONTRIBUTING.md
+  - dest: manifest.yaml
+    generator: manifest_snapshot
+  - dest: EXPORT-RECEIPT.md
+    generator: export_receipt
+  - dest: VERSION
+    generator: version_stamp
+
+volume_essay_globs:
+  - "civilization-*.md"
+  - "empire-*.md"
+  - "statecraft-*.md"
+  - "geo-strategy-*.md"
+  - "secret-history-*.md"
+  - "game-theory-*.md"
+
+# Validator: skip paths under these top-level prefixes (book-only smoke vs full repo)
+validation_exclude_prefixes:
+  - archive
+
+# Legacy helix-lane v1 cut (civ-emp pre-rename) — sanitize in publish clone, not re-exported from states/
+legacy_archive:
+  rel_path: archive/helix-lane-v1/legacy-cut
+  sanitize: true
+
+# Post-export lint — fail export if matched in any .md file
+forbidden_patterns:
+  - "ph-civ"
+  - "PH-CIV"
+  - "rbtkhn/ph-civ"
+  - "ph-civ-to-civ-state-bridge"
+  - "ph-civ-promotion-ledger"
+  - "ph-civ-era-overlay"
+  - "strategy-codex"
+  - ".cursor/"
+  - "recursion-gate"
+  - "statecraft/america/transactions"
+  - "statecraft/china/transactions"
+  - "statecraft/persia/transactions"
+  - "statecraft/russia/transactions"
+  - "WORK only; not Record"
+
+link_rewrite:
+  - from: "volumes/civ-state-{slug}/"
+    to: "volumes/{slug}/"
+  - from: "../volumes/civ-state-{slug}/"
+    to: "../volumes/{slug}/"
+  - from: "../../volumes/civ-state-{slug}/"
+    to: "../../volumes/{slug}/"
