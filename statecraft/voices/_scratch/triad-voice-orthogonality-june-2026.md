@@ -101,3 +101,40 @@ It's impossible to call what's going on a ceasefire, Danny — we've gone up the
 | All three → generic “Trump bad” | **Pass** |
 
 **Overall:** Phase 6 **pass** — triad separation holds on Jun 10–11 object.
+
+---
+
+## §8 Anti-AI panel checklist (LLM roundtable QA)
+
+**Purpose:** After a **sequential fictional panel** (voice-profile-panel skill) or any multi-voice simulation, scan for template symmetry that passes orthogonality but fails **transcript-orality**. WORK only; not wire truth.
+
+**When:** End of panel demo, before claiming "pass as voice QA." Score each row **1 (absent) – 5 (dominant failure)**; composite **≥2.5** on any two rows → rerun affected round(s) with bans below.
+
+### Banned patterns (hard fail if ≥2 speakers hit same ban every turn)
+
+| Ban | Example / symptom |
+|-----|-------------------|
+| **Mechanical chain openers** | "I hear you…" / "I don't dispute X, but…" every turn |
+| **Grant-and-pivot symmetry** | Identical concede-then-reverse grammar per speaker |
+| **Outline close** | Round 3 ends optimist / skeptic / escalation triad in prose |
+| **Third-person self** | Barnes (or any voice) says "Barnes thinks…" in panel speech |
+| **Paragraph symmetry** | All speakers ~same word count every turn |
+| **Equal courtesy grants** | Uniform praise before disagreement |
+
+### Pass patterns (prefer in rerun)
+
+| Voice | Orality anchors (from Jun 2026 demo) |
+|-------|--------------------------------------|
+| **Mercouris** | Self-correction; Hersh/source downgrade; "there we are"; conference-travel preface |
+| **Barnes** | Lady Lindsey, badges, *Period.*; first-person; fear-stack without ORBAT primary |
+| **Mearsheimer** | One bottom line; numbered if/then; albatross / Israel dependency; ladder not personality |
+
+### Rerun law
+
+- Operator may request **Round N only** rerun — do not rewrite earlier rounds unless asked.
+- Rerun must **vary openers** and **asymmetric length**; still not raw-transcript messy.
+- Orthogonality (§5–§7) and anti-AI (§8) are **independent** — pass both for full panel QA.
+
+### Pointer
+
+Draft skill: [`skills-portable/_drafts/voice-profile-panel/SKILL.md`](../../../skills-portable/_drafts/voice-profile-panel/SKILL.md)

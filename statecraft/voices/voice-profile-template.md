@@ -288,6 +288,8 @@ When regional grounding matters, split rows: **regional grounding** (where the v
 | LLM failure modes | Neutral précis; “X would say…” |
 | Authenticity spot-checks | Sounds-like / not-like pairs |
 
+**Panel QA (optional):** After Tier A promotion, run solo smoke or sequential panel per draft skill [`voice-profile-panel`](../../skills-portable/_drafts/voice-profile-panel/SKILL.md); anti-AI tells in [triad §8](_scratch/triad-voice-orthogonality-june-2026.md#8-anti-ai-panel-checklist-llm-roundtable-qa).
+
 ---
 
 ## Migration checklist
