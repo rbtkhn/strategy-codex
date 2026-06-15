@@ -32,6 +32,35 @@ editorial_note: Operator-pasted transcript body; not independently verified as v
 opening_tier: host-tease
 transcript_wrapper_tier: paste-asr
 opening_trim_applied: false
+verify_receipt: 2026-06-13
+verify:
+  - claim: Putin Sochi Oct 2023 direct pushback to Karaganov on changing nuclear posture
+    verdict: supported
+    note: Valdai Club plenary 2023-10-05; TASS — Putin saw no need to change doctrine
+  - claim: Blinken — not for US to tell Kyiv where to strike with US weapons
+    verdict: supported
+    note: State Dept press 2023-09-15/16 — "targeting decisions are theirs, not ours"; policy fence on strikes outside Ukraine
+  - claim: US cluster munitions used against civilian targets in Belgorod
+    verdict: partial
+    note: US cluster transfer to Ukraine Jul 2023 supported; Belgorod Dec 30 2023 strike — Moscow claims cluster config; NBC/AFP could not independently verify munitions or civilian targeting
+  - claim: Biden said F-16s would start World War III, then approved F-16 transfer
+    verdict: contested
+    note: Biden Mar 2022 WWIII line referred to US crews with offensive equipment (PolitiFact/FactCheck); F-16 coalition path approved May 2023 (BBC/NBC) — panel compresses tank/plane quote onto F-16 red-line arc
+  - claim: Biden/Blinken said climate change equal or worse than nuclear war
+    verdict: supported
+    note: Biden Hanoi 2023-09-10; NYC fundraiser Oct 2023; Blinken 60 Minutes Australia declined hierarchy but both existential
+  - claim: Nuclear deterrence / red-line erosion as described in panel
+    verdict: out_of_scope
+    note: Tier-4 commentary frame; wire hooks above grade discrete attributed lines only
+verify_tokens:
+  - "verify:wire-supported"
+  - "verify:wire-contested"
+  - "verify:wire-partial"
+  - "verify:russia-lane-absent"
+  - "verify:america-lane-absent"
+  - "verify:prc-lane-absent"
+  - "verify:persia-lane-absent"
+  - "verify:rome-lane-absent"
 ---
 
 # Lowering the Nuclear Threshold? - Sergey Karaganov, Alexander Mercouris, and Glenn Diesen
