@@ -23,7 +23,7 @@ This chapter does not claim that every Russian regime is morally identical or po
 ## Return Path
 
 - Return to [Russia](README.md) for the full volume spine.
-- Return to [Russia sovereign continuity](sovereign-continuity.md) for the narrower continuity-only drill-down.
+- Return to Russia sovereign continuity for the narrower continuity-only drill-down.
 - Return to [Russia sacred grammar](../../sacred-grammar/russia.md) for the deeper legitimacy substrate.
 - Return to the live Russia statecraft lane when the drafting problem is active.
 

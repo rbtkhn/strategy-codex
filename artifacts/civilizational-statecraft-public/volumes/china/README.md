@@ -16,7 +16,7 @@ Primary live lane: China statecraft lane
 - Empire chapter: [China empire](empire-china.md)
 - Shelf reader: [China shelf reader](shelf-reader.md)
 - Volume bibliography: [China bibliography](bibliography.md)
-- Sovereign continuity support note: [China sovereign continuity](sovereign-continuity.md)
+- Sovereign continuity support note: China sovereign continuity
 - Geo-strategy chapter: [China geo-strategy](geo-strategy-china.md)
 - Secret-history chapter: [China secret-history](secret-history-china.md)
 - Game-theory chapter: [China game-theory](game-theory-china.md)

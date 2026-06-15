@@ -31,11 +31,11 @@ Switchboard rule:
 - stay in the primary shelf when the issue is law, universality language, constitutional wording, or the civilization's own self-description
 - open the era-matched secondary shelf when the issue is chronology, provenance, translation, institutional context, counterweight, or misreading correction
 - return to the primary shelf once the difficulty has been clarified
-- move upward into civilization, empire, or statecraft once the shelf problem has become a present carrier or settlement-bearing judgment problem
+- move upward into civilization or empire once the shelf problem has become a present carrier or settlement-bearing judgment problem
 
 - Open the [Rome bibliography](bibliography.md) for era entry and source doors.
 - Open the era-matched `secondary-sources` file from the bibliography when chronology, transformed-continuity interpretation, or counterweight is the real need rather than direct source descent alone.
 - Open [Rome civilization](civilization-rome.md) if the live question is legitimacy, continuity, or category membership.
 - Open [Rome empire](empire-rome.md) if the live question is universality, projection, or imperial residue.
-- Open [Rome statecraft](statecraft-rome.md) if the live question is present-tense successor-order comparison.
+- Open [Rome empire](empire-rome.md) if the live question is present-tense successor-order comparison.
 - Return to [Continuity Mechanism](../../comparative/continuity-mechanism.md) or the [Pattern Library](../../comparative/pattern-library/README.md) only after the Roman shelf has been read as transformed continuity.

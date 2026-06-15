@@ -24,5 +24,5 @@ Stay with the primary shelf when the issue is party language, constitutional for
 
 - Return to [Industrial primary sources](../primary/industrial.md) once the clarification or counterweight has been taken.
 - Return to the [China bibliography](../../bibliography.md) for the rest of the China evidence stack.
-- Open [China statecraft](../../statecraft-china.md) when the live question is present carrier formation, strategic room, or state form under late-industrial inheritance.
+- Open [China introduction](../../introduction.md) when the live question is present carrier formation, strategic room, or state form under late-industrial inheritance.
 - Open [China empire](../../empire-china.md) when the live question is scale, projection, or developmental instrument.

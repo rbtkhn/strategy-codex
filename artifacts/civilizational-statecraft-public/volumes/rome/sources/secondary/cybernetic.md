@@ -24,5 +24,5 @@ Stay with the primary shelf when the issue is papal document language, Vatican d
 
 - Return to [Cybernetic primary sources](../primary/cybernetic.md) once the clarification or counterweight has been taken.
 - Return to the [Rome bibliography](../../bibliography.md) for the rest of the Rome evidence stack.
-- Open [Rome statecraft](../../statecraft-rome.md) when the live question is successor-order comparison and present-tense residue.
+- Open [Rome empire](../../empire-rome.md) when the live question is successor-order comparison and present-tense residue.
 - Open [Rome empire](../../empire-rome.md) when the live question is the outward speech of universality under narrowed carrier conditions.

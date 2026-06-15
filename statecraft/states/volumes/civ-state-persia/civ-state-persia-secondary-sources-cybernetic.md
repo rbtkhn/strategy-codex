@@ -26,5 +26,5 @@ Stay with the primary shelf when the issue is doctrine, official speech, sanctio
 
 - Return to [Cybernetic primary sources](civ-state-persia-primary-sources-cybernetic.md) once the clarification or counterweight has been taken.
 - Return to the [Persia bibliography](civ-state-persia-bibliography.md) for the rest of the Persia evidence stack.
-- Open [Persia statecraft](statecraft-persia.md) when the live question is present deterrence, recognition, and settlement-bearing room.
+- Open [Persia empire](empire-persia.md) when the live question is present deterrence, recognition, and settlement-bearing room.
 - Open [Persia empire](empire-persia.md) when the live question is Gulf leverage, corridor pressure, or regional instrument.

@@ -24,5 +24,5 @@ Stay with the primary shelf when the issue is official doctrine, white-paper lan
 
 - Return to [Cybernetic primary sources](../primary/cybernetic.md) once the clarification or counterweight has been taken.
 - Return to the [China bibliography](../../bibliography.md) for the rest of the China evidence stack.
-- Open [China statecraft](../../statecraft-china.md) when the live question is present carrier judgment, maritime pressure, or strategic room.
+- Open [China empire](../../empire-china.md) when the live question is present carrier judgment, maritime pressure, or strategic room.
 - Open [China empire](../../empire-china.md) when the live question is instrument, corridor, and order-projection under cybernetic conditions.

@@ -27,4 +27,4 @@ Stay with the primary shelf when the issue is declaration language, constitution
 - Return to [Colonial primary sources](civ-state-america-primary-sources-colonial.md) once the clarification or counterweight has been taken.
 - Return to the [America bibliography](civ-state-america-bibliography.md) for the rest of the America evidence stack.
 - Open [America civilization](civilization-america.md) when the live question is continuity under contradiction.
-- Open [America statecraft](statecraft-america.md) when the live question is what the founding contradiction still does to present carrier legitimacy.
+- Open [America introduction](introduction.md) when the live question is what the founding contradiction still does to present carrier legitimacy.

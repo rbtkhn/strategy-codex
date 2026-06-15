@@ -16,7 +16,7 @@ Primary live lane: Persia statecraft lane
 - Empire chapter: [Persia empire](empire-persia.md)
 - Shelf reader: [Persia shelf reader](shelf-reader.md)
 - Volume bibliography: [Persia bibliography](bibliography.md)
-- Sovereign continuity support note: [Persia sovereign continuity](sovereign-continuity.md)
+- Sovereign continuity support note: Persia sovereign continuity
 - Geo-strategy chapter: [Persia geo-strategy](geo-strategy-persia.md)
 - Secret-history chapter: [Persia secret-history](secret-history-persia.md)
 - Game-theory chapter: [Persia game-theory](game-theory-persia.md)

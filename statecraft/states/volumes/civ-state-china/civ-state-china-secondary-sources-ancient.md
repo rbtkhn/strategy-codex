@@ -27,4 +27,4 @@ Stay with the primary shelf when the issue is legitimacy language, canonical wor
 - Return to [Ancient primary sources](civ-state-china-primary-sources-ancient.md) once the clarification or counterweight has been taken.
 - Return to the [China bibliography](civ-state-china-bibliography.md) for the rest of the China evidence stack.
 - Open [China civilization](civilization-china.md) when the live question is mandate, continuity, or category membership.
-- Open [China statecraft](statecraft-china.md) only after the ancient continuity problem has been translated into a present carrier question.
+- Open [China introduction](introduction.md) only after the ancient continuity problem has been translated into a present carrier question.

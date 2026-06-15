@@ -27,4 +27,4 @@ Stay with the primary shelf when the issue is papal bull, ecclesial decree, conc
 - Return to [Colonial primary sources](civ-state-rome-primary-sources-colonial.md) once the clarification or counterweight has been taken.
 - Return to the [Rome bibliography](civ-state-rome-bibliography.md) for the rest of the Rome evidence stack.
 - Open [Rome empire](empire-rome.md) when the live question is universality beyond territorial concentration.
-- Open [Rome statecraft](statecraft-rome.md) when the live question is successor-order residue rather than early modern institutional detail alone.
+- Open [Rome empire](empire-rome.md) when the live question is successor-order residue rather than early modern institutional detail alone.

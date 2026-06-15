@@ -26,5 +26,5 @@ Stay with the primary shelf when the issue is constitutional-revolutionary langu
 
 - Return to [Industrial primary sources](civ-state-persia-primary-sources-industrial.md) once the clarification or counterweight has been taken.
 - Return to the [Persia bibliography](civ-state-persia-bibliography.md) for the rest of the Persia evidence stack.
-- Open [Persia statecraft](statecraft-persia.md) when the live question is present bargaining room built on industrial-era wounds.
+- Open [Persia empire](empire-persia.md) when the live question is present bargaining room built on industrial-era wounds.
 - Open [Persia empire](empire-persia.md) when the live question is leverage, projection, and survivable outward instrument.

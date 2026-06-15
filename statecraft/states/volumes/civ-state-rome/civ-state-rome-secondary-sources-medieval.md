@@ -27,4 +27,4 @@ Stay with the primary shelf when the issue is canon law, ecclesial wording, Byza
 - Return to [Medieval primary sources](civ-state-rome-primary-sources-medieval.md) once the clarification or counterweight has been taken.
 - Return to the [Rome bibliography](civ-state-rome-bibliography.md) for the rest of the Rome evidence stack.
 - Open [Rome civilization](civilization-rome.md) when the live question is transformed continuity.
-- Open [Rome statecraft](statecraft-rome.md) when the live question is what medieval Roman residue still carries into later successor order.
+- Open [Rome empire](empire-rome.md) when the live question is what medieval Roman residue still carries into later successor order.

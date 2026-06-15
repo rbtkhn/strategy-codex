@@ -101,5 +101,5 @@ When drafting from the Rome volume, the governing question is:
 
 - [Rome sacred grammar](../../sacred-grammar/rome.md)
 - Rome source corpus
-- [Rome sovereign continuity](sovereign-continuity.md)
+- Rome sovereign continuity
 - [Rome geo-strategy](geo-strategy-rome.md)

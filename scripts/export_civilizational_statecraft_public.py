@@ -14,6 +14,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import fnmatch
 import hashlib
 import json
 import re
@@ -438,6 +439,7 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         "transactions/",
         "../sheets/",
         "current-sovereign-heads",
+        "sovereign-continuity.md",
         "sovereign-continuity-of-the-civ",
         "civilization_memory",
         "/C:/",
@@ -475,7 +477,7 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
     if dest_rel.parts[:1] == ("volumes",) and "sources" in dest_rel.parts:
         ups = "../" * (len(dest_rel.parts) - 3)
         text = re.sub(
-            r"\]\((bibliography\.md|civilization-[^)]+\.md|empire-[^)]+\.md|statecraft-[^)]+\.md|shelf-reader\.md)\)",
+            r"\]\((bibliography\.md|civilization-[^)]+\.md|empire-[^)]+\.md|introduction\.md|shelf-reader\.md)\)",
             rf"]({ups}\1)",
             text,
         )
@@ -507,6 +509,38 @@ def write_public_file(output: Path, dest_rel: Path, content: str, manifest: dict
     write_text(output / dest_rel, content, dry_run)
 
 
+VOLUME_WORKSHOP_ONLY = frozenset({"sovereign-continuity.md"})
+
+
+def should_export_volume_file(src_name: str, slug: str, manifest: dict) -> bool:
+    if src_name in VOLUME_WORKSHOP_ONLY or src_name.startswith("statecraft-"):
+        return False
+    if src_name == "README.md":
+        return True
+    if src_name.startswith(f"civ-state-{slug}-"):
+        return True
+    for pattern in manifest.get("volume_essay_globs", []):
+        if fnmatch.fnmatch(src_name, pattern):
+            return True
+    return False
+
+
+def prune_legacy_volume_artifacts(output: Path, manifest: dict, dry_run: bool) -> list[str]:
+    """Remove workshop-only volume files that must not ship in the public book."""
+    removed: list[str] = []
+    for slug in manifest.get("volume_slugs", {}).values():
+        vol_dir = output / "volumes" / slug
+        if not vol_dir.is_dir():
+            continue
+        for pattern in ("statecraft-*.md", "sovereign-continuity.md"):
+            for path in vol_dir.glob(pattern):
+                rel = str(path.relative_to(output))
+                if not dry_run:
+                    path.unlink()
+                removed.append(rel)
+    return removed
+
+
 def volume_dest_path(src_name: str, vol_folder: str, slug: str) -> Path | None:
     if src_name == "README.md":
         return Path("volumes") / slug / "README.md"
@@ -536,6 +570,8 @@ def export_volume(vol_folder: str, slug: str, manifest: dict, output: Path, dry_
     essay_globs = manifest.get("volume_essay_globs", ["*.md"])
     for path in sorted(src_dir.iterdir()):
         if not path.is_file() or path.suffix != ".md":
+            continue
+        if not should_export_volume_file(path.name, slug, manifest):
             continue
         dest_rel = volume_dest_path(path.name, vol_folder, slug)
         if dest_rel is None:
@@ -825,6 +861,11 @@ def main() -> int:
 
     for vol_folder, slug in vol_items:
         written.extend(export_volume(vol_folder, slug, manifest, output, args.dry_run))
+
+    if not args.dry_run:
+        pruned = prune_legacy_volume_artifacts(output, manifest, False)
+        if pruned:
+            print(f"Pruned {len(pruned)} legacy volume file(s)")
 
     if args.dry_run:
         print(f"DRY RUN would write {len(written)} files to {output}")

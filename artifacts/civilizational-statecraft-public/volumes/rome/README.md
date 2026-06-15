@@ -16,7 +16,7 @@ Primary source base: Rome source corpus
 - Empire chapter: [Rome empire](empire-rome.md)
 - Shelf reader: [Rome shelf reader](shelf-reader.md)
 - Volume bibliography: [Rome bibliography](bibliography.md)
-- Sovereign continuity support note: [Rome sovereign continuity](sovereign-continuity.md)
+- Sovereign continuity support note: Rome sovereign continuity
 - Geo-strategy chapter: [Rome geo-strategy](geo-strategy-rome.md)
 - Secret-history chapter: [Rome secret-history](secret-history-rome.md)
 - Game-theory chapter: [Rome game-theory](game-theory-rome.md)

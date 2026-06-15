@@ -47,7 +47,7 @@ REQUIRED_FRAMEWORK = [
     "sacred-grammar/README.md",
 ]
 
-VOLUME_ESSAYS = ["civilization", "empire", "statecraft"]
+VOLUME_ESSAYS = ["civilization", "empire"]
 
 
 def load_manifest() -> dict:
@@ -106,9 +106,11 @@ def check_required(export: Path, paths: list[str]) -> list[str]:
 def check_volume(export: Path, slug: str, eras: list[str], stub: bool) -> list[str]:
     errors: list[str] = []
     base = export / "volumes" / slug
-    for name in ["README.md", "shelf-reader.md", "bibliography.md"]:
+    for name in ["README.md", "introduction.md", "shelf-reader.md", "bibliography.md"]:
         if not (base / name).is_file():
             errors.append(f"volumes/{slug}: missing {name}")
+    for legacy in base.glob("statecraft-*.md"):
+        errors.append(f"volumes/{slug}: legacy statecraft essay must not export: {legacy.name}")
     for part in VOLUME_ESSAYS:
         matches = list(base.glob(f"{part}-*.md"))
         if not matches and not stub:

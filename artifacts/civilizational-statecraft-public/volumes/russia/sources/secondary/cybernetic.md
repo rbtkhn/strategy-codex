@@ -24,5 +24,5 @@ Stay with the primary shelf when the issue is official speech, constitutional ch
 
 - Return to [Cybernetic primary sources](../primary/cybernetic.md) once the clarification or counterweight has been taken.
 - Return to the [Russia bibliography](../../bibliography.md) for the rest of the Russia evidence stack.
-- Open [Russia statecraft](../../statecraft-russia.md) when the live question is recognition, coercive room, and present settlement geometry.
+- Open [Russia empire](../../empire-russia.md) when the live question is recognition, coercive room, and present settlement geometry.
 - Open [Russia empire](../../empire-russia.md) when the live question is outward instrument and restoration-through-pressure under post-1991 conditions.
