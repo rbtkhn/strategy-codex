@@ -20,39 +20,49 @@ None of the three is a frontier-AI engineer in this repo. That is the point. The
 
 Primary treatise: [*Magnifica Humanitas*](../source-archive/statecraft/2026-05-15/source-vatican-magnifica-humanitas-leo-xiv-2026-05-15.md) (Pope Leo XIV, signed 15 May 2026). Doctrinal foundation: [*Antiqua et Nova*](../source-archive/statecraft/2025-01-28/source-vatican-antiqua-et-nova-ai-2025-01-28.md) (28 January 2025). Institutional anchor: [Vatican City State AI guidelines (Decree N. DCCII)](../source-archive/statecraft/2024-12-16/source-vatican-city-state-ai-guidelines-dccii-2024-12-16.md) (effective 1 January 2025).
 
-Leo’s encyclical is a social encyclical in the lineage of *Rerum Novarum*, not a technical white paper. Its governing move is to treat AI as a **change of era** that threatens dehumanization unless regulatory, cultural, and spiritual discernment keep pace with private transnational power. Technology is not inherently evil, Leo insists, but “each phase of progress has also revealed the ambiguity of tools that can cause harm when not oriented toward the good.” The live question is who holds power today and whether humanity will repeat the “Babel syndrome” — homogenization, profit idolatry, and the pretense that a single digital language can translate the mystery of the person into data and performance.
+Leo’s encyclical is a social encyclical in the lineage of *Rerum Novarum*, not a technical white paper. §4 treats AI as part of a **change of era**: technology is not “in itself” antagonistic to humanity, yet “each phase of progress has also revealed the ambiguity of tools that can cause harm when not oriented toward the good.” §5 presses the statecraft question of **who holds power** — private transnational actors now often surpass states — and whether regulatory tools can curb distortion. §10 names the **“Babel syndrome”**: profit idolatry, homogenizing uniformity, and the pretense that even a digital language can translate “the mystery of the person, into data and performance.”
 
 ### Statecraft: legitimacy-bearing office
 
 From a statecraft angle, Leo is not mainly offering a useful tech ethic. Rome speaks as a transnational office with civilizational residue. The encyclical distinguishes ecclesial and political competence, honors civil institutions, and still presses conscience on regulation, labor, peace, and the concentration of digital power.
 
-*Antiqua et Nova* already drew the line that matters for office: certain judgments “should never be delegated to AI,” and “fundamental respect for human dignity demands that we refuse to allow the essential aspects of human judgment to be replaced by automated systems.” The Vatican City guidelines operationalize that instinct for institutional life: judicial interpretation, fact analysis, and sentencing “must never be handled by AI” — tasks “reserved exclusively for the magistrate.”
+*Antiqua et Nova* already drew office lines the encyclical extends. §74: treatment decisions and the “weight of responsibility they entail must always remain with the human person and **should never be delegated to AI**.” §94: “fundamental respect for human dignity demands that we refuse to allow the uniqueness of the person to be identified with a set of data,” and warns against **delegating judgments to algorithms** that cannot carry “compassion, mercy, forgiveness, and above all, the hope that people are able to change.” The Vatican City guidelines operationalize that instinct for institutional life: judicial interpretation, fact analysis, and sentencing must not be handled by AI — tasks reserved to the magistrate (DCCII; see archive capture note).
 
-Leo’s programmatic vocabulary in *Magnifica Humanitas* sharpens the stakes. So-called artificial intelligences “do not have a moral conscience, since they do not judge good and evil, grasp the ultimate meaning of situations, or bear responsibility for consequences.” Developers “bear a particular ethical and spiritual responsibility, for every design choice reflects a vision of humanity.” Leo calls to **disarm** AI — not reject it, but free it from armed competition, monopolistic control, and the assumption that technical power automatically confers the right to govern.
+The programmatic core is §99–111. Load-bearing pins:
 
-The statecraft seam, pinned to primary text:
+| § | Claim (archive) |
+|---|-----------------|
+| **99** | AI systems “merely imitate” human intelligence; they “do not have a **moral conscience**,” do not “judge good and evil, grasp the ultimate meaning of situations, or bear **responsibility** for consequences”; they may “simulate empathy and understanding” without understanding |
+| **100** | Personal use can “weaken personal creativity and **judgment**” through “ready-made answers” |
+| **102–103** | Sensitive decisions risk delegation to systems that do not know mercy or hope; entrusting selection algorithms without anyone bearing responsibility “is to hand over the task of redefining the boundaries of human possibilities” |
+| **104–105** | AI is not morally neutral; **accountability** must run from designers through deployers — who must “account,” justify, monitor, and remedy harm |
+| **106–107** | Prudence and slower adoption are not anti-progress; moralizing machines (“alignment”) without **shared political standards** lets controllers impose their moral vision as invisible infrastructure |
+| **110** | **Disarm** AI — free it from armed economic/cognitive competition and from the assumption that “technical power automatically confers the right to govern”; task is “ecological in the deepest sense” |
+| **111** | **Developers bear a particular ethical and spiritual responsibility**, for “every design choice reflects a vision of humanity” |
+
+The statecraft seam, pinned to §99 and §110:
 
 ```text
 one of the world's oldest legitimacy-bearing offices insists that machine
 competence is not enough to inherit moral judgment, witness, or rule
 ```
 
-Pastoral force appears in Leo’s February 2026 exchange with Rome clergy (press-reported, not yet archived verbatim here): resist preparing homilies with artificial intelligence — “to give a true homily is to share faith,” which AI “will never be able to share.” That aligns with DCCII-era institutional discipline and with the encyclical’s concern for formed presence over simulated fluency.
+Pastoral force appears in Leo’s February 2026 exchange with Rome clergy (press-reported, not yet archived verbatim here): resist preparing homilies with artificial intelligence — “to give a true homily is to share faith,” which AI “will never be able to share.” That aligns with DCCII-era institutional discipline and with §100’s warning against substituting fluency for formed judgment.
 
 ### Singularity: mediation, authorship, formation
 
-The singularity-facing question is what synthetic mediation does to personhood when advice, rhetoric, and witness become scalable. Leo frames AI as an **environment** people already inhabit — “ecological in the deepest sense” — not a optional tool. The danger is outsourcing interpretation itself: fluent simulation mistaken for understanding, dependency trained where disciplined reflection once formed.
+The singularity-facing question is what synthetic mediation does to personhood when advice, rhetoric, and witness become scalable. §110 already frames AI as an **environment** — “ecological in the deepest sense” — not an optional tool. §100 names the formation risk directly: ease and “simulation of human communication” can train **excessive reliance** and weaken judgment. §99 closes the anthropological gap: simulation of empathy is not empathy; pattern completion is not conscience.
 
-*Magnifica Humanitas* warns against deceitful goals that promise to free humanity from weakness, against “unlimited upgrades,” and against progress measured without “the dignity of each person and the good of all peoples.” Humanity “flourishes not despite limitations, but often through them.” That is directly opposed to a convenience-native anthropology in which formed presence can be replaced by persuasive output.
+§12 and §118 supply the anti-upgrade anthropology. §12 warns against deceitful goals that promise to free humanity from weakness, “unlimited ‘upgrades,’” and progress not measured by “the **dignity of each person** and the good of all peoples.” §118: “humanity **flourishes not despite limitations, but often through them**.” That is directly opposed to a convenience-native anthropology in which formed presence can be replaced by persuasive output.
 
-The singularity seam:
+The singularity seam (§99–100):
 
 ```text
 when synthetic systems can speak persuasively,
 what remains non-delegable about formed human presence?
 ```
 
-Leo and the earlier doctrinal note converge: assistance yes; succession no. Simulation of empathy is not empathy; pattern completion is not conscience.
+Leo and *Antiqua et Nova* converge: assistance yes; succession no. §111 assigns the design vision; §105 assigns the accountability chain; §74 and §94 mark what must never be delegated.
 
 ## Barnes — bubble, capture, and who pays
 
