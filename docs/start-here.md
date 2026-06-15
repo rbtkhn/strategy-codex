@@ -81,7 +81,7 @@ flowchart TB
   Tx -.fork revive only.-> Record
 ```
 
-**Essays node:** cross-channel theses at [essays/README.md](../essays/README.md); channel `*/essays/` = compatibility stubs. Class law: [prose-index.md](prose-index.md).
+**Essays node:** cross-channel theses at [essays/README.md](../essays/README.md); channel `*/essays/` = compatibility stubs. Class law: [prose-index.md](prose-index.md). Voice law: [essay-voice.md](essay-voice.md).
 
 **Membrane classes:** [work-membrane-v2.md](work-membrane-v2.md)  
 **Two channels:** [operator-two-channel-architecture.md](operator-two-channel-architecture.md) — *what system is emerging* vs *what object must be judged*

@@ -1,0 +1,9 @@
+extends: existence
+message: "Template slop (essay-voice SLOP-04): '%s'. Show comparison in prose."
+level: warning
+ignorecase: true
+tokens:
+  - "this essay compares"
+  - "this essay explores"
+  - "this essay discusses"
+  - "this essay examines"

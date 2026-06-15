@@ -2,9 +2,9 @@
 
 WORK only; not Record.
 
-Three registers refuse the same naive triumphalism about artificial intelligence — and each refuses a different failure mode. Pope Leo XIV speaks from a legitimacy-bearing office that must not delegate moral judgment to machines. Robert Barnes speaks from forensic political economy: bubble, circular finance, and capture around a product that hallucinates. Jiang Xueqin speaks from a pedagogical-eschatological arc: supervised machine learning dressed as thought, bailout theater, and a surveillance end-state sold through occult branding and US–China race fiction.
+Machine competence is scaling faster than answerability — and three registers in this repo refuse the same naive triumphalism about artificial intelligence, each pressing a different failure mode. Pope Leo XIV speaks as a legitimacy-bearing office that must not delegate moral judgment to machines. Robert Barnes follows the forensic political economy of bubble, circular finance, and capture around a product that hallucinates. Jiang Xueqin reads a pedagogical-eschatological arc: supervised machine learning dressed as thought, bailout theater, and a surveillance end-state sold through occult branding and US–China race fiction.
 
-This essay compares those three voices. It is not a tri-mind roundtable. The notes hold verbatim depth and source maps; the Vatican primaries are archived in full; here the argument is transportable: **machine competence is scaling faster than answerability**, and Leo, Barnes, and Jiang name three kinds of answerability the hype layer tries to skip.
+The notes hold verbatim depth and source maps; the Vatican primaries are archived in full. What follows carries a single transport claim: office, liability, and formation triangulate **answerability** while scale, convenience, and persuasive synthetic speech keep advancing together.
 
 ## The shared seam
 

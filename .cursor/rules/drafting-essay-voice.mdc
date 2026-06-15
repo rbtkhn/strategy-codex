@@ -1,0 +1,20 @@
+---
+description: >-
+  Repo-root essay transport voice: Kissinger–Churchill–Durant tri-blend, Band A light apparatus.
+  Read docs/essay-voice.md when drafting or editing essays/*.md.
+globs:
+  - essays/**/*.md
+alwaysApply: false
+---
+
+# Essay voice (pointer)
+
+When drafting or editing **repo-root essays** under `essays/`:
+
+1. Read **[`docs/essay-voice.md`](../../docs/essay-voice.md)** — draft checklist, genre tree, apparatus router, eight laws.
+2. **Placement** stays in [`docs/prose-index.md`](../../docs/prose-index.md); **public copy** stays in [`docs/skill-write/`](../../docs/skill-write/) — do not conflate essay voice with Locals/X register.
+3. **Topic-first lede** — same orientation as [drafting-topic-lede.mdc](drafting-topic-lede.mdc), extended for long-form essays.
+4. **Close** — Kissinger warning (declarative); align with [drafting-no-rhetorical-question-closer.mdc](drafting-no-rhetorical-question-closer.mdc).
+5. **Before ship** — run `python3 scripts/prose_slop_lint.py <path>` or `python3 scripts/prose_forge.py lint <path>` ([prose-forge.md](../../docs/prose-forge.md)).
+
+Do not duplicate the full doctrine here — edit **`docs/essay-voice.md`** if the rule changes.

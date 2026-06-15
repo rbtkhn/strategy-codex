@@ -24,6 +24,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | singularity lane / acceleration work | [singularity/](singularity/) |
 | **essay / stand-alone thesis** (cross-channel default) | [essays/README.md](essays/README.md) — primary shelf; channel `*/essays/` = compatibility only |
 | **prose class** (note vs essay vs synthesis) | [docs/prose-index.md](docs/prose-index.md) — notes stay in `statecraft/notes/` or `singularity/notes/` only |
+| **essay voice** (how repo-root essays sound) | [docs/essay-voice.md](docs/essay-voice.md) — tri-blend transport synthesis, Band A apparatus, draft checklist |
+| **prose forge** (essay slop lint / staged rewrite) | [docs/prose-forge.md](docs/prose-forge.md) · `scripts/prose_slop_lint.py` · `scripts/prose_forge.py` |
 | product identity / governed interpretive machine essay | [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md) |
 | archive / synthesis layer law | [essays/archive-synthesis-law.md](essays/archive-synthesis-law.md) |
 | recursive learning three-layer model | [essays/three-layers-of-recursive-learning-in-statecraft.md](essays/three-layers-of-recursive-learning-in-statecraft.md) |

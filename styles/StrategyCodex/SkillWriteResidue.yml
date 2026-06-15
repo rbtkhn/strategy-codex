@@ -1,0 +1,12 @@
+extends: existence
+message: "Skill-write analyst residue: '%s'. Prefer plain reader exposition."
+level: warning
+ignorecase: true
+tokens:
+  - "the analytic point is"
+  - "ground claims"
+  - "equilibrium / entropy"
+  - "has any bite"
+  - "when the stakes spike"
+  - "grab"
+  - "scroll-stop"

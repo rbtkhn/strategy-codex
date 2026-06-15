@@ -1,0 +1,8 @@
+extends: existence
+message: "Possible essay-style expansion in a note: '%s'. Keep scope bounded per prose-index."
+level: suggestion
+ignorecase: true
+tokens:
+  - "this essay compares"
+  - "this essay explores"
+  - "in conclusion"

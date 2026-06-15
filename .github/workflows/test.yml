@@ -39,6 +39,20 @@ jobs:
             fi
           fi
 
+      - name: Prose slop lint (essays, advisory)
+        continue-on-error: true
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            python3 scripts/prose_slop_lint.py --diff "${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }}" essays/
+          else
+            BEFORE="${{ github.event.before }}"
+            if [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then
+              python3 scripts/prose_slop_lint.py --diff "${BEFORE}...${{ github.sha }}" essays/ || true
+            else
+              echo "Skipping diff-based prose slop lint for zero-before push."
+            fi
+          fi
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt

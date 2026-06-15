@@ -1,0 +1,14 @@
+extends: existence
+message: "Generic AI-texture phrase: '%s'. Prefer a concrete claim."
+level: warning
+ignorecase: true
+tokens:
+  - "in today's rapidly evolving"
+  - "delve into"
+  - "it is important to note"
+  - "a testament to"
+  - "plays a crucial role"
+  - "robust framework"
+  - "complex landscape"
+  - "multifaceted"
+  - "underscores the importance"

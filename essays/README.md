@@ -6,6 +6,19 @@ WORK only; not Record.
 
 **Prose class SSOT:** [docs/prose-index.md](../docs/prose-index.md)
 
+**Essay voice SSOT:** [docs/essay-voice.md](../docs/essay-voice.md) — Kissinger–Churchill–Durant tri-blend, Band A light apparatus, draft checklist at top of doctrine.
+
+## Essay voice
+
+Repo-root essays use **transport synthesis** voice per [essay-voice.md](../docs/essay-voice.md):
+
+- **Tri-blend:** Kissinger spine (structure, parallel, warning close), Churchill set-pieces for primaries, Durant clarity in ledes/transitions
+- **Band A default:** prose-first, max one comparison table; pin-cites live in notes/archive links
+- **Promotion:** compress apparatus when elevating from channel notes — do not copy note density
+- **Optional frontmatter:** `voice_profile: tri-blend-band-a` on new essays (future lint hook)
+
+**Exemplars:** [leo-barnes-jiang-on-ai.md](./leo-barnes-jiang-on-ai.md) (comparative voice structure — Band B legacy apparatus), [ai-and-the-expansion-of-human-consciousness.md](./ai-and-the-expansion-of-human-consciousness.md) (prose-first argument), [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) (system/product).
+
 ## Authority rule
 
 This README is the **canonical prose-discovery surface** for repo-root `essays/`.
