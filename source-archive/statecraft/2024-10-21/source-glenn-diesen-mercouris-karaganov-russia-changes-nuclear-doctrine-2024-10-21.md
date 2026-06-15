@@ -32,6 +32,31 @@ editorial_note: Operator-pasted transcript body; not independently verified as v
 opening_tier: host-tease
 transcript_wrapper_tier: paste-asr
 opening_trim_applied: false
+verify_receipt: 2026-06-15
+verify:
+  - claim: Biden said climate change worse / more frightening than nuclear war (Aug–Sep 2023)
+    verdict: supported
+    note: White House transcript Hanoi press conference 2023-09-10; NYC DNC fundraiser Oct 2023
+  - claim: Blinken said climate worse than nuclear war (same window)
+    verdict: contested
+    note: 60 Minutes Australia 2023-07-30 — declined hierarchy; both existential; Karaganov overreads parity as ranking
+  - claim: Ramstein leader-level 12 Oct 2024 — Zelensky to lobby deep strikes into Russia
+    verdict: partial
+    note: Meeting scheduled POLITICO/Eurointegration; postponed after Biden canceled for Hurricane Milton; long-range-strike ask confirmed pre-meeting
+  - claim: Putin Valdai Sochi Oct 2023 personal pushback to Karaganov doctrine change
+    verdict: supported
+    note: Valdai Club transcript 2023-10-05; TASS — no need to change doctrine
+  - claim: Russia nuclear doctrine change followed Karaganov advocacy (~1yr after Valdai)
+    verdict: unclear
+    note: Oct 2024 panel timing claim; doctrine shift reported Sep–Oct 2024 — causation not wire-provable from panel alone
+verify_tokens:
+  - "verify:wire-supported"
+  - "verify:wire-contested"
+  - "verify:russia-lane-absent"
+  - "verify:america-lane-absent"
+  - "verify:prc-lane-absent"
+  - "verify:persia-lane-absent"
+  - "verify:rome-lane-absent"
 ---
 
 # Russia Changes Nuclear Doctrine - Sergey Karaganov, Alexander Mercouris & Glenn Diesen

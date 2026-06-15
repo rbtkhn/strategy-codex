@@ -39,7 +39,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** Jan 2024 origin panel + Oct 2024 doctrine panel + May/Jun 2026 Diesen run (4 archive intakes) + Tier A table (this file). **Not** Kremlin policy SSOT — voice register for emulation/spot-check only. Pair contrast vs `mercouris` (Cold War fear, nervous about lowering thresholds) and `mearsheimer` (structural geometry without nuclear-fuse obligation).
+**Evidence class:** Jan 2023 Greater Eurasia triad + Jan 2024 origin panel + Oct 2024 doctrine panel + May/Dec 2025 Diesen solos + May/Jun 2026 Diesen run (7 archive intakes) + Tier A table (this file). **Not** Kremlin policy SSOT — voice register for emulation/spot-check only. Pair contrast vs `mercouris` (Cold War fear, nervous about lowering thresholds) and `mearsheimer` (structural geometry without nuclear-fuse obligation).
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
@@ -70,7 +70,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “reinstall the nuclear fuse… obligation to lower the nuclear threshold… age of Wars… retreat with dignity” · ✗ “I'm very skeptical… I'm not on the ground” (Mercouris) | Restraint-realist skeptic or beltway diplomacy voice |
 | **8 Emulation QA** | Anti-pattern fence | vs `mearsheimer` | ✗ Numbered escalation ladder without nuclear-fuse / Europe-punishment spine | ✓ System tectonics + sobering + limited European strike doctrine |
 
-**Extended examples:** this table. **Intake receipts:** [2024-01-28 lowering threshold / Age of War](../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md) · [2024-10-21 doctrine change](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) · [2026-05-10 solo](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) · [2026-06-13 Mearsheimer panel](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md).
+**Extended examples:** this table. **Intake receipts:** [2023-01-14 Greater Eurasia](../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md) · [2024-01-28 lowering threshold / Age of War](../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md) · [2024-10-21 doctrine change](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) · [2025-05-14 Eurasian future solo](../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md) · [2025-12-25 confronting Europe solo](../../../source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) · [2026-05-10 solo](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) · [2026-06-13 Mearsheimer panel](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md).
 
 ## Convergence fingerprint
 
@@ -135,10 +135,10 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 - Council on Foreign and Defense Policy (CFDP) — verify current URL on ingest
 - Cross-host arc: [diesen-karaganov-speaker-arc.md](../diesen/stream/diesen-karaganov-speaker-arc.md)
 
-## Seed
+## Profile status
 
-*Seed profile — extend when commentator index promotes full `karaganov` thread row.*
+Tier A voice profile (reviewed 2026-06). Extend when [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) promotes a full **`karaganov`** thread row.
 
 ---
 
-**Intake receipts (chronology):** [2023-01-14 Greater Eurasia](../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md) · [2024-01-28 lowering threshold](../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md) · [2024-10-21 doctrine](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) · [2026-05-10 solo](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) · [2026-06-13 panel](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md)
+**Intake receipts (chronology):** [2023-01-14 Greater Eurasia](../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md) · [2024-01-28 lowering threshold](../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md) · [2024-10-21 doctrine](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) · [2025-05-14 Eurasian future](../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md) · [2025-12-25 confronting Europe](../../../source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) · [2026-05-10 solo](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) · [2026-06-13 panel](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md)

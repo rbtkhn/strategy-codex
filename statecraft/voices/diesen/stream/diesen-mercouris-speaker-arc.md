@@ -41,12 +41,13 @@ What makes this a real host-local arc is the fit between the two objects:
 | Rank | Date | Title | Why it matters most |
 |---|---|---|---|
 | −1 | 2023-01-14 | *Russia, from Greater Europe to Greater Eurasia* (× Karaganov) | Earliest materialized Diesen×Mercouris triad on disk. Mercouris: unequal-treaty framing, European cultural idealization vs post-1960s reality, Western multipolar blind spot. Treat as `diesen + mercouris + karaganov`. |
-| 0 | 2024-10-21 | *Russia Changes Nuclear Doctrine* (× Karaganov) | Doctrine-debate triad. Mercouris: Cold War deterrence episodes (Suez, Berlin, Vietnam ships, 1973, Cuba); Europeans lost post-Cold War fear of Russia; doctrine as communicated law. Treat as `diesen + mercouris + karaganov`. Karaganov doctrine SSOT → [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md). |
-| 1 | 2026-05-16 | *Alexander Mercouris: The Political Legitimacy Crisis Across Europe* | Current anchor for European legitimacy crisis, foreign-policy fixation, and the Europe-as-western-Eurasia fork. Open this first for **legitimacy-only** dyad work. |
-| 2 | 2025-12-19 | *Fake Diplomacy & Permanent Conflict - John Mearsheimer, Alexander Mercouris & Glenn Diesen* | Three-speaker diplomacy panel. Best file for fake-negotiation diagnosis, no-common-ground bargaining, Euroclear/Russian-asset escalation, and Ukraine-war endgame logic. Treat as `diesen + mercouris + mearsheimer`, not a pure Diesen x Mercouris dyad. |
-| 3 | 2026-03-21 | *Alexander Mercouris: Iran War Transforms Ukraine War* | Best file for the Iran/Hormuz-to-Ukraine transfer strand: energy attrition, sanctions breakdown, Russia/China support to Iran, and the way one hegemonic war undermines the other. |
+| 0 | 2024-01-28 | *Lowering nuclear threshold / Age of War* (× Karaganov) | Origin fuse-reinstall triad. Mercouris: Cold War fear memory, nervous about lowering thresholds; partial agree on danger, disagree on remedy. Putin Sochi Valdai pushback frame. Karaganov doctrine SSOT → [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md). |
+| 1 | 2024-10-21 | *Russia Changes Nuclear Doctrine* (× Karaganov) | Doctrine-debate triad. Mercouris: Cold War deterrence episodes (Suez, Berlin, Vietnam ships, 1973, Cuba); Europeans lost post-Cold War fear of Russia; doctrine as communicated law. Treat as `diesen + mercouris + karaganov`. Karaganov doctrine SSOT → [diesen-karaganov-speaker-arc.md](diesen-karaganov-speaker-arc.md). |
+| 2 | 2026-05-16 | *Alexander Mercouris: The Political Legitimacy Crisis Across Europe* | Current anchor for European legitimacy crisis, foreign-policy fixation, and the Europe-as-western-Eurasia fork. Open this first for **legitimacy-only** dyad work. |
+| 3 | 2025-12-19 | *Fake Diplomacy & Permanent Conflict - John Mearsheimer, Alexander Mercouris & Glenn Diesen* | Three-speaker diplomacy panel. Best file for fake-negotiation diagnosis, no-common-ground bargaining, Euroclear/Russian-asset escalation, and Ukraine-war endgame logic. Treat as `diesen + mercouris + mearsheimer`, not a pure Diesen x Mercouris dyad. |
+| 4 | 2026-03-21 | *Alexander Mercouris: Iran War Transforms Ukraine War* | Best file for the Iran/Hormuz-to-Ukraine transfer strand: energy attrition, sanctions breakdown, Russia/China support to Iran, and the way one hegemonic war undermines the other. |
 
-This is currently a **deepening** host-local branch: two early Karaganov triangulation panels (2023, 2024), two Mercouris-focused dyads, and one three-speaker Mearsheimer panel with clean order-transition / institutional fit.
+This is currently a **deepening** host-local branch: three early Karaganov triangulation panels (2023, 2024-01-28, 2024-10-21), two Mercouris-focused dyads, and one three-speaker Mearsheimer panel with clean order-transition / institutional fit.
 
 ### Discovered by Diesen stream check
 
@@ -59,6 +60,7 @@ Older cross-host appearances found during the same check, such as 2024 Duran pan
 If the operator needs the raw source:
 
 - open [source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md](../../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md) — civilizational / order-transition base
+- open [source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md](../../../../source-archive/statecraft/2024-01-28/source-glenn-diesen-mercouris-karaganov-lowering-nuclear-threshold-age-of-war-2024-01-28.md) — fuse-reinstall origin / Mercouris threshold disagreement base
 - open [source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md](../../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) — deterrence-history / doctrine-communication base
 - open [source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md](../../../../source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md)
 - open [youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md](../../../../codex/years/2025/provenance/2025-12-19/youtube-glenn-diesen-fake-diplomacy-permanent-conflict-mearsheimer-mercouris-diesen-2025-12-19.md)
