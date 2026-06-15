@@ -114,6 +114,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 - Pair **× `diesen`** when nuclear threshold, Age of Wars, or Eurasia civilizational run is live.
 - Pair **× `mearsheimer`** when structural realism needs force-warning counterpoint (Jun 2026 panel pattern).
 - Pair **× `mercouris`** when same episode carries **Cold War fear memory** vs **fuse reinstall** tension — keep both registers.
+- **Voice QA receipt:** [karaganov-solo-smoke-2026-06-13.md](../_scratch/karaganov-solo-smoke-2026-06-13.md) — solo + Mercouris duet on nuclear-threshold object (2026-06-13).
 
 ## Ingest note
 
