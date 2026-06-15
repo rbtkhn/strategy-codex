@@ -48,7 +48,7 @@ Begin with [Civilization and Empire](introduction.md) for the whole-book thesis,
 Then choose between two entry modes:
 
 - civilization-first entry through [Volume Map](volumes/README.md)
-- governing-layer entry through [Civilizational Statecraft Framework](framework/doctrine.md) and, for rhythm placement, [Civilizational motion](framework/rhythm.md)
+- governing-layer entry through [Civilizational Statecraft Framework](framework/doctrine.md) and, for rhythm placement, [Rhythm](framework/rhythm.md)
 
 Choose civilization-first when the real question is:
 
@@ -173,7 +173,7 @@ Use it to:
 Then return downstream to:
 
 - lane civilization / empire / state surfaces
-- [civilizational motion](framework/rhythm.md) when phase placement governs
+- [Rhythm](framework/rhythm.md) when phase placement governs
 - transactions
 
 Do not try to spend the whole work directly when a narrower lane object now governs.
