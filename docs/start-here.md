@@ -36,14 +36,14 @@ Pick **one letter** (same A–F as [README § Choose your path](../README.md#cho
 | **B** | Parent or guardian | [seed-phase-survey.md](seed-phase-survey.md) |
 | **C** | **Operator (default)** | Promotion ladder below · [statecraft/README.md](../statecraft/README.md) |
 | **D** | Technical contributor | [skill-work/work-dev/](skill-work/work-dev/) |
-| **E** | Curious visitor | [product-identity.md](product-identity.md) |
+| **E** | Curious visitor | [intelligence-harness.md](intelligence-harness.md) · [product-identity.md](product-identity.md) · [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md) |
 | **F** | Journalist / blogger | [Door F](#door-f) |
 
 <a id="door-f"></a>
 
 ### Door F — public-safe orientation
 
-Public-safe entry only — no seed intake, gate queues, or private operator material. See [product-identity.md](product-identity.md) and [README door F](../README.md#door-f).
+Public-safe entry only — no seed intake, gate queues, or private operator material. Safe entry points: [intelligence-harness.md](intelligence-harness.md), [product-identity.md](product-identity.md), [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md), [README door F](../README.md#door-f).
 
 **Cross-channel essays:** full index at [README § Essays index](../README.md#essays-index) · shelf law at [essays/README.md](../essays/README.md) · note vs essay routing at [prose-index.md](prose-index.md).
 
@@ -181,6 +181,7 @@ Exit `1` on desync; does not auto-edit daily synthesis. `--latest` picks the new
 | Need | Path |
 |------|------|
 | Product identity | [product-identity.md](product-identity.md) |
+| Intelligence harness (curious visitor) | [intelligence-harness.md](intelligence-harness.md) · [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md) |
 | **Essays (primary shelf)** | [essays/README.md](../essays/README.md) · canonical product essay: [from-accumulation-to-governed-interpretive-machine.md](../essays/from-accumulation-to-governed-interpretive-machine.md) |
 | Prose class chooser | [prose-index.md](prose-index.md) |
 | Grace-Mar freeze / revive | [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md) |
