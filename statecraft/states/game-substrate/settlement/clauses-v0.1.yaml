@@ -1,0 +1,68 @@
+# Settlement clause library v0.1
+# WORK only; not Record.
+# Shared clause ids; per-volume weights live in profiles/*.pkg.yaml
+
+schema_version: "0.1"
+
+clauses:
+  - id: non_submission
+    label: Non-submission covenant
+    description: >
+      Peace without explicit vassalage, tribute language, or rank inferiority
+      in treaty text.
+    tags: [recognition, parity_acknowledged]
+    typical_veto_if_missing: [persia, russia]
+
+  - id: buffer_territory
+    label: Buffer territory cession
+    description: >
+      Material border loss accepted when core sovereignty and dignity remain
+      intact.
+    tags: [buffer_territory]
+    material_cost: medium
+
+  - id: religious_autonomy
+    label: Religious jurisdiction preserved
+    description: >
+      Sacred sites and confessional authority remain under domestic carrier;
+      no foreign religious administration.
+    tags: [religious_autonomy]
+    typical_veto_if_missing: [persia]
+
+  - id: foreign_garrison_ban
+    label: No foreign garrison in core
+    description: >
+      Occupation forces excluded from capital, holy cities, or plateau core.
+    tags: [foreign_garrison]
+    severity: hard
+    maps_to_red_line: foreign_garrison
+
+  - id: symbolic_reparation
+    label: Symbolic reparation without rank change
+    description: >
+      Material or symbolic compensation without civilizational subordination.
+    tags: [recognition]
+    material_cost: low
+
+  - id: parity_acknowledgment
+    label: Parity acknowledgment clause
+    description: >
+      Explicit recognition of equal sovereign status between signatories.
+    tags: [parity_acknowledged, recognition]
+    required_for_pattern: [parity_rival]
+
+  - id: public_submission
+    label: Public submission / vassalage
+    description: >
+      Treaty requires explicit inferior rank, audience ritual, or vassal title.
+    tags: [public_submission, humiliation]
+    severity: hard
+    typical_hard_veto: [persia, russia, china]
+
+  - id: unequal_treaty_memory
+    label: Unequal treaty recurrence
+    description: >
+      Peace repeats historical humiliation pattern; memory-governed rejection.
+    tags: [humiliation]
+    governing_pair: memory_desire
+    severity: hard

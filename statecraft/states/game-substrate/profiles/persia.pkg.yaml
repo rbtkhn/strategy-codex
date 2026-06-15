@@ -1,0 +1,197 @@
+# Persia.pkg — CIV-STATE Volume II reference profile v0.1
+# WORK only; not Record.
+# End-to-end reference: profile + parity_rival + settlement clauses
+
+schema_version: "0.1"
+profile_id: persia
+volume: II
+volume_slug: persia
+display_name: Persia (Volume II)
+tier: B
+
+identity:
+  continuity_mechanism: endurance_under_parity
+  governing_pair_default: memory_desire
+  civilization_state_claim: >
+    Strong civilization-state from fused sovereignty continuity and
+    sacred-civilizational depth; endurance under equal rivals.
+  failure_mode: >
+    Dignity hardens into siege logic, martyrdom lock, or sovereignty without
+    settlement openness.
+
+opener:
+  deep_grammar_ref: sacred-grammar/persia.md
+  sovereign_opening: Cyrus as foundational sovereign
+  current_carrier_archetype: Islamic Republic Iran (confessional carrier of Persian chain)
+  parts:
+    civilization: volumes/civ-state-persia/civilization-persia.md
+    empire: volumes/civ-state-persia/empire-persia.md
+    statecraft: volumes/civ-state-persia/statecraft-persia.md
+
+behavior:
+  stress_bias:
+    - plateau_endurance
+    - dignity_preservation
+    - chokepoint_leverage
+    - parity_rival_fixation
+  red_lines:
+    - id: public_submission
+      label: Public submission to parity or great-power rank
+      clause_veto: public_submission
+      severity: hard
+      governing_pair: memory_desire
+      advisor_hint: >
+        Persia rejects peace that requires vassal language—even if materially
+        favorable.
+      book_anchor: pattern-library/parity-rival.md
+    - id: sacred_humiliation
+      label: Foreign control of sacred or civilizational core
+      clause_veto: foreign_garrison_ban
+      severity: hard
+      governing_pair: faith_science
+      advisor_hint: >
+        Garrison in holy or plateau core reads as civilizational erasure, not
+        ordinary occupation.
+      book_anchor: volumes/civ-state-persia/secret-history-persia.md
+    - id: unequal_peace_repeat
+      label: Unequal treaty pattern recurrence
+      clause_veto: unequal_treaty_memory
+      severity: hard
+      governing_pair: memory_desire
+      advisor_hint: >
+        A second humiliation peace activates memory-governed refusal.
+      book_anchor: continuity-mechanism.md
+  acceptable_losses:
+    - buffer_territory
+    - tributary_status
+    - material_reparation_without_rank_change
+  overreach_signal: empire_share_above_civilization_share
+  offer_tags_accept:
+    - parity_acknowledged
+    - recognition
+    - buffer_territory
+    - religious_autonomy
+  offer_tags_reject:
+    - public_submission
+    - humiliation
+    - foreign_garrison
+    - unequal_treaty_memory
+
+patterns:
+  - pattern_id: parity_rival
+    role: primary
+    schema_ref: schemas/parity-rival.schema.yaml
+    params:
+      parity_rivals: [rome]
+      interface_regions: [mesopotamia, armenian_highlands, caucasus_interface]
+      proof_events: [carrhae]
+    book_anchor: pattern-library/parity-rival.md
+  - pattern_id: survivable_sovereignty
+    role: secondary
+    schema_ref: null
+    params:
+      dignity_floor: true
+    book_anchor: pattern-library/survivable-sovereignty.md
+
+continuity:
+  script_id: endurance_under_parity
+  rupture_events:
+    - trigger: capital_captured
+      branch: exile_carrier_endurance
+      effects_hint: >
+        Government survives off-map or in secondary city; endurance clock and
+        parity war continue; no instant elimination.
+      book_anchor: continuity-mechanism.md
+    - trigger: unequal_peace
+      branch: humiliation_unrest_spiral
+      effects_hint: >
+        Legitimacy penalty until recognition restored or carrier reconstituted.
+      book_anchor: volumes/civ-state-persia/statecraft-persia.md
+    - trigger: parity_rival_war_end
+      branch: mutual_recognition_or_long_truce
+      effects_hint: >
+        Peace must include parity_acknowledgment or truce without submission;
+        otherwise war resumes at memory threshold.
+      book_anchor: pattern-library/parity-rival.md
+  recovery_triggers:
+    - dignity_restored
+    - parity_acknowledged
+    - religious_autonomy_secured
+    - carrier_reconstituted
+
+settlement:
+  clause_weights:
+    - clause_id: non_submission
+      weight: 90
+      notes: Default requirement for any Persia peace
+    - clause_id: parity_acknowledgment
+      weight: 85
+      notes: Required when parity_rival contest_active
+    - clause_id: buffer_territory
+      weight: 40
+      notes: Acceptable material concession
+    - clause_id: religious_autonomy
+      weight: 75
+      notes: Sacred grammar load-bearing
+    - clause_id: foreign_garrison_ban
+      weight: -95
+      notes: Hard distaste; maps to red line
+    - clause_id: public_submission
+      weight: -100
+      notes: Hard veto
+    - clause_id: unequal_treaty_memory
+      weight: -90
+      notes: Memory-governed rejection
+    - clause_id: symbolic_reparation
+      weight: 25
+      notes: Acceptable if rank unchanged
+  hard_vetoes:
+    - public_submission
+    - foreign_garrison_ban
+    - unequal_treaty_memory
+  preferred_clauses:
+    - non_submission
+    - parity_acknowledgment
+    - religious_autonomy
+
+victory:
+  preferred_type: endurance
+  asymmetric_optional:
+    id: parity_endurance_win
+    description: >
+      Survive N turns against parity rival without capitulation or submission
+      peace; dignity and recognition intact.
+    requires_pattern: parity_rival
+    requires_tags: [parity_acknowledged]
+
+advisors:
+  geo: volumes/civ-state-persia/geo-strategy-persia.md
+  memory: volumes/civ-state-persia/secret-history-persia.md
+  incentives: volumes/civ-state-persia/game-theory-persia.md
+
+counterweights:
+  - id: not_every_war_is_parity
+    summary: >
+      Steppe pressure, maritime encirclement, and internal fracture are not
+      Rome-parity wars; overusing parity_rival flattens the profile.
+    book_anchor: pattern-library/parity-rival.md
+  - id: settlement_openness
+    summary: >
+      Failure mode includes sovereignty without settlement openness; endurance
+      must not become permanent siege logic in game balance.
+    book_anchor: volumes/civ-state-persia/README.md
+
+book_anchors:
+  - volumes/civ-state-persia/README.md
+  - volumes/civ-state-persia/civilization-persia.md
+  - volumes/civ-state-persia/empire-persia.md
+  - volumes/civ-state-persia/statecraft-persia.md
+  - volumes/civ-state-persia/secret-history-persia.md
+  - volumes/civ-state-persia/geo-strategy-persia.md
+  - volumes/civ-state-persia/game-theory-persia.md
+  - sacred-grammar/persia.md
+  - pattern-library/parity-rival.md
+  - pattern-library/survivable-sovereignty.md
+  - continuity-mechanism.md
+  - schemas/parity-rival.schema.yaml
+  - settlement/clauses-v0.1.yaml

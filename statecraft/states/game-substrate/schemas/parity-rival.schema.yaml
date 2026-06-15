@@ -1,0 +1,85 @@
+# Parity Rival — pattern schema v0.1
+# WORK only; not Record.
+# Prose authority: pattern-library/parity-rival.md
+
+schema_version: "0.1"
+pattern_id: parity_rival
+display_name: Parity Rival
+
+question: >
+  What kind of rival does a civilization remember as a true equal—not a mere
+  invader—whose existence tests endurance, closure, and self-command?
+
+state_machine:
+  states:
+    - id: dormant
+      description: No active parity contest; rival may exist on map
+    - id: contest_active
+      description: Long war or repeated frontier contest with locked equal
+    - id: endurance_mode
+      description: Material loss acceptable; dignity and sovereignty floor held
+    - id: closure_fantasy_risk
+      description: Faction tempted by decisive annihilation or total submission of rival
+    - id: mutual_recognition
+      description: Coexistence acknowledged; settlement legible
+
+  transitions:
+    - from: dormant
+      to: contest_active
+      when: parity_rival_at_war OR frontier_contest_threshold
+    - from: contest_active
+      to: endurance_mode
+      when: capital_threatened OR material_loss_without_capital_loss
+    - from: contest_active
+      to: closure_fantasy_risk
+      when: winning_decisively AND annihilation_peace_offered
+    - from: endurance_mode
+      to: mutual_recognition
+      when: peace_includes parity_acknowledged AND NOT public_submission
+    - from: closure_fantasy_risk
+      to: contest_active
+      when: overreach_extends_war OR counterweight_event
+
+params:
+  parity_rivals:
+    type: list[string]
+    required: true
+    description: Faction ids or volume_slugs treated as structural equals
+  interface_regions:
+    type: list[string]
+    required: false
+    description: Map labels for recurring contest geography (e.g. mesopotamia)
+  proof_events:
+    type: list[string]
+    required: false
+    description: Memory hooks triggering secret-history advisor (e.g. carrhae)
+
+ai_weights:
+  annexation_desire: -0.6
+  decisive_victory_desire: -0.3
+  endurance_tolerance: 0.8
+  respect_without_affinity: 0.7
+  long_war_acceptance: 0.5
+
+diplomacy:
+  reject_peace_if_tags: [public_submission, humiliation, foreign_garrison]
+  accept_peace_if_tags: [parity_acknowledged, recognition, buffer_territory]
+  prefer_endurance_over: [map_paint, vassalage, rival_capital_capture]
+
+game_tests:
+  - Does AI prefer endurance to map paint?
+  - Does peace with parity rival avoid vassal language?
+  - Does decisive winning trigger overextension / closure_fantasy_risk?
+
+strongest_volume: persia
+weaker_volumes: [china, rome_partial]
+
+book_anchors:
+  - pattern-library/parity-rival.md
+  - continuity-mechanism.md
+
+counterweight:
+  summary: >
+    Not every neighbor is a parity rival; treating all wars as equal-contest
+    wars flattens Persia and misreads China/Rome shelves.
+  when_false: rival_is_steppe_raider OR rival_is_temporary_coalition

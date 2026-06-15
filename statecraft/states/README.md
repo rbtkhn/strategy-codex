@@ -262,6 +262,9 @@ Each CIV-STATE source object should be short and usable. It should include:
 
 ## Indexes
 
+- [Continuity Mechanism](continuity-mechanism.md) - first cross-civilizational comparison sheet for continuity survival.
+- [CIV-STATE → Game Systems Mapping](civ-state-game-systems-mapping.md) - one-page bridge from civ-state layers to strategy-game mechanics; adjacent operator note, not public book unless exported.
+- [Game substrate](game-substrate/README.md) - machine companion (profile schema v0.1, Persia.pkg, pattern schemas, settlement clauses); workshop-only by default.
 - [Table of Contents](table-of-contents.md) - canonical five-volume reading order for Civilizational Statecraft, with whole-work apparatus in the appendix.
 - [Reader Guide](reader-guide.md) - operator-facing doctrine for how to open, read, and descend through the work.
 - [Glossary](glossary.md) - whole-work vocabulary of concepts, names, peoples, polities, dynasties, churches, and transformed carriers.

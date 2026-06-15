@@ -1,7 +1,7 @@
 # Civilizational Statecraft public export manifest (WORK; not Record)
 # SSOT for scripts/export_civilizational_statecraft_public.py
 schema_version: "1.0.0"
-release_tag: "v0.1.1"
+release_tag: "v0.1.2"
 canonical_public_repo: "https://github.com/rbtkhn/civ-state"
 legacy_public_repo: "https://github.com/rbtkhn/civ-emp"
 
@@ -35,6 +35,8 @@ exclude_globs:
   - "ph-civ-promotion-ledger.md"
   - "ph-civ-era-overlay-options.md"
   - "review-queue.md"
+  - "civ-state-game-systems-mapping.md"
+  - "game-substrate/**"
   - "README.md"
   - "indexes/**"
   - "migration/**"

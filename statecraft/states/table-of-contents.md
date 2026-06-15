@@ -114,6 +114,8 @@ Use this layer when the problem is retrieval, comparison, vocabulary, or upstrea
 10. [PH-CIV to CIV-STATE Bridge](ph-civ-to-civ-state-bridge.md)
 11. [PH-CIV Promotion Ledger](ph-civ-promotion-ledger.md)
 12. [Review Queue](review-queue.md)
+13. [CIV-STATE → Game Systems Mapping](civ-state-game-systems-mapping.md) — adjacent bridge for strategy-game substrate use; not part of the public book unless exported
+14. [Game substrate](game-substrate/README.md) — machine companion layer (profiles, schemas, settlement clauses); workshop-only by default
 
 ## Retrieval Order
 

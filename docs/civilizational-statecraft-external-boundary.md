@@ -2,7 +2,9 @@
 
 `rbtkhn/civ-state` is the canonical **public Civilizational Statecraft** book.
 
-It is the standalone comparative artifact: two-volume whole work, five civilization-state volumes, source-lattice per volume, framework, comparative sheets, and sacred-grammar library. Inside `strategy-codex`, Civilizational Statecraft is an **external published book** after cutover:
+It is the standalone comparative artifact: **five case volumes** (China, Persia, Rome, Russia, America), each with source-lattice, plus a **whole-work apparatus** (framework, sacred grammar, hybrid references, index, comparative continuity, pattern library). The legacy workshop TOC once grouped those under a **two-part shelf label** (“Two-Volume Frame”); the reader-facing frame is **five case volumes + appendix**, not two books at the case level.
+
+Inside `strategy-codex`, Civilizational Statecraft is an **external published book** after cutover:
 
 - observation allowed
 - critique allowed

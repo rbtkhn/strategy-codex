@@ -85,6 +85,10 @@ def strip_operator_links(text: str) -> str:
         r"^\s*- .*\[.*\]\([^)]*indexes/source-retrieval-matrix[^)]*\).*\n",
         r"^\s*- .*\[.*\]\([^)]*review-queue[^)]*\).*\n",
         r"^\s*- .*\[.*\]\([^)]*ph-civ[^)]*\).*\n",
+        r"^\s*- .*\[.*\]\([^)]*game-substrate[^)]*\).*\n",
+        r"^\s*- .*\[.*\]\([^)]*civ-state-game-systems-mapping[^)]*\).*\n",
+        r"^\s*\d+\. .*\[.*\]\([^)]*game-substrate[^)]*\).*\n",
+        r"^\s*\d+\. .*\[.*\]\([^)]*civ-state-game-systems-mapping[^)]*\).*\n",
     ]
     for pat in patterns:
         text = re.sub(pat, "", text, flags=re.I | re.M)
@@ -105,49 +109,91 @@ def strip_ph_civ_prose(text: str) -> str:
     return text
 
 
+def rewrite_public_volume_asset_links(text: str, volume_slugs: dict[str, str]) -> str:
+    for slug in volume_slugs.values():
+        text = re.sub(
+            rf"volumes/{re.escape(slug)}/civ-state-{re.escape(slug)}-shelf-reader\.md",
+            f"volumes/{slug}/shelf-reader.md",
+            text,
+        )
+        text = re.sub(
+            rf"volumes/{re.escape(slug)}/civ-state-{re.escape(slug)}-bibliography\.md",
+            f"volumes/{slug}/bibliography.md",
+            text,
+        )
+    return text
+
+
 def transform_toc_public(text: str, manifest: dict, volume_slugs: dict[str, str]) -> str:
     text = strip_work_fence(text)
     text = rewrite_volume_links(text, volume_slugs)
-    # Remove Volume II operator items 5–8 and renumber
-    block = re.search(
-        r"(### Volume II\. Civilizational Statecraft and Retrieval\n\n"
-        r"This volume teaches[^\n]+\n\n)"
-        r"(1\. .*\n)"
-        r"(2\. .*\n)"
-        r"(3\. .*\n)"
-        r"(4\. .*\n)"
-        r"(5\. .*\n)?"
-        r"(6\. .*\n)?"
-        r"(7\. .*\n)?"
-        r"(8\. .*\n)?",
-        text,
-        re.S,
-    )
-    if block:
-        replacement = (
-            block.group(1)
-            + "1. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)\n"
-            + "2. [Sacred Grammar Library](sacred-grammar/README.md)\n"
-            + "3. [Hybrid References](hybrid-references.md)\n"
-            + "4. [Index](index.md)\n"
-            + "5. [Source-Lattice](source-lattice.md)\n"
-            + "6. [Comparative Continuity](comparative/continuity-mechanism.md)\n"
-            + "7. [Pattern Library](comparative/pattern-library/README.md)\n"
+    text = rewrite_public_volume_asset_links(text, volume_slugs)
+
+    public_appendix = """## Appendix. Whole-Work Apparatus
+
+Use this layer when the problem is retrieval, comparison, or vocabulary rather than one civilization volume alone.
+
+1. [Glossary](glossary.md)
+2. [Volume Map](volumes/README.md)
+3. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)
+4. [Sacred Grammar Library](sacred-grammar/README.md)
+5. [Hybrid References](hybrid-references.md)
+6. [Comparative Continuity](comparative/continuity-mechanism.md)
+7. [Pattern Library](comparative/pattern-library/README.md)
+8. [Index](index.md)
+9. [Source-Lattice](source-lattice.md)
+
+"""
+
+    if "## Appendix. Whole-Work Apparatus" in text:
+        text = re.sub(
+            r"## Appendix\. Whole-Work Apparatus\n\n.*?(?=## Retrieval Order)",
+            public_appendix,
+            text,
+            flags=re.S,
         )
-        text = text[: block.start()] + replacement + text[block.end() :]
-    text = re.sub(
-        r"5\. \[Source Retrieval Matrix\][^\n]+\n",
-        "",
-        text,
-    )
+    else:
+        # Legacy two-volume TOC fallback
+        block = re.search(
+            r"(### Volume II\. Civilizational Statecraft and Retrieval\n\n"
+            r"This volume teaches[^\n]+\n\n)"
+            r"(1\. .*\n)"
+            r"(2\. .*\n)"
+            r"(3\. .*\n)"
+            r"(4\. .*\n)"
+            r"(5\. .*\n)?"
+            r"(6\. .*\n)?"
+            r"(7\. .*\n)?"
+            r"(8\. .*\n)?",
+            text,
+            re.S,
+        )
+        if block:
+            replacement = (
+                block.group(1)
+                + "1. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)\n"
+                + "2. [Sacred Grammar Library](sacred-grammar/README.md)\n"
+                + "3. [Hybrid References](hybrid-references.md)\n"
+                + "4. [Index](index.md)\n"
+                + "5. [Source-Lattice](source-lattice.md)\n"
+                + "6. [Comparative Continuity](comparative/continuity-mechanism.md)\n"
+                + "7. [Pattern Library](comparative/pattern-library/README.md)\n"
+            )
+            text = text[: block.start()] + replacement + text[block.end() :]
+        text = re.sub(
+            r"5\. \[Source Retrieval Matrix\][^\n]+\n",
+            "",
+            text,
+        )
+
     text = re.sub(
         r"(## Retrieval Order\n\nUse the whole-work apparatus[^\n]+\n\n)"
         r"(1\. \[Reader Guide\][^\n]+\n)"
-        r"(2\. \[Volume Map\][^\n]+\n)"
+        r"(2\. \[Table of Contents\][^\n]+\n)"
         r"(3\. the relevant volume[^\n]+\n)"
         r"(4\. the relevant[^\n]+\n)"
-        r"(5\. \[Sacred Grammar Library\][^\n]+\n)",
-        r"\1\2\3\4\5. [Source-Lattice](source-lattice.md) when shelf traversal is unclear\n",
+        r"5\. \[Sacred Grammar Library\][^\n]+\n",
+        r"\1\2\3\4\5. [Sacred Grammar Library](sacred-grammar/README.md) or [Source-Lattice](source-lattice.md) when the volume front door alone is too broad\n",
         text,
         count=1,
     )
@@ -162,6 +208,8 @@ def transform_index_public(text: str, manifest: dict, volume_slugs: dict[str, st
         "ph-civ-to-civ-state-bridge",
         "review-queue",
         "source-retrieval-matrix",
+        "game-substrate",
+        "civ-state-game-systems-mapping",
         "PH-CIV",
         "ph-civ",
     ]
@@ -255,7 +303,14 @@ def transform_reader_guide_public(text: str, manifest: dict, volume_slugs: dict[
 
 
 def transform_high_skill_public(text: str, manifest: dict, volume_slugs: dict[str, str]) -> str:
-    return public_surface_transform(text, manifest, volume_slugs)
+    text = public_surface_transform(text, manifest, volume_slugs)
+    text = re.sub(
+        r"^\s*- .*\[.*\]\(\.\./\.\./essays/[^)]+\).*\n",
+        "",
+        text,
+        flags=re.M,
+    )
+    return text
 
 
 def transform_hormuz_public(text: str, manifest: dict, volume_slugs: dict[str, str]) -> str:

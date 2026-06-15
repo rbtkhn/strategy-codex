@@ -47,6 +47,8 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 ## G
 
 - game-theory chapters - [Volume Map](volumes/README.md)
+- game substrate - [Game substrate](game-substrate/README.md)
+- game systems mapping - [CIV-STATE → Game Systems Mapping](civ-state-game-systems-mapping.md)
 - geo-strategy chapters - [Volume Map](volumes/README.md)
 - glossary - [Glossary](glossary.md)
 
