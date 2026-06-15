@@ -39,7 +39,7 @@ The second is the more singularity-relevant object. Once the builders of the sys
 ### Foresight
 
 - Reuse this note when a singularity discussion sounds like philanthropy, dividends, or transition policy on the surface but is really about consent, legitimacy, and who gets to write the social contract under acceleration.
-- Pair it with [Sovereignty Under Acceleration](../workshop/sheets/sovereignty-under-acceleration.md) when the live question becomes who has the authority to define a stable political settlement around frontier systems.
+- Pair it with [Sovereignty Under Acceleration](../essays/sovereignty-under-acceleration.md) when the live question becomes who has the authority to define a stable political settlement around frontier systems.
 - Pair it with [Compute, Political Currency, Control Plane, and Substrate](./compute-political-currency-control-plane-substrate.md) when the question is how financial legitimacy stories interact with control over the underlying physical stack.
 - Route it toward `statecraft` when the next job is not workshop interpretation but comparison of public-wealth funds, transition compacts, ownership regimes, or legitimacy bargains across institutions and states.
 - Keep it narrower than an essay. If later months show repeated convergence between frontier capital pools, labor-transition promises, and state-capacity questions, then the seam may deserve a stand-alone thesis. For now it should remain a bounded legitimacy packet tied to the EP #260 source sheet.
@@ -49,6 +49,6 @@ The second is the more singularity-relevant object. Once the builders of the sys
 ### Appendix
 
 - **Parent sheet:** [Moonshots EP #260 - Opus, Foundation, and AGI Timelines](../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md)
-- **Related bridge:** [Sovereignty Under Acceleration](../workshop/sheets/sovereignty-under-acceleration.md)
+- **Related bridge:** [Sovereignty Under Acceleration](../essays/sovereignty-under-acceleration.md)
 - **Related note:** [Compute, Political Currency, Control Plane, and Substrate](./compute-political-currency-control-plane-substrate.md)
 - **Related continuity:** [Moonshots EP #256 - Inner Loop, Full Stack, and Trust Infrastructure](../workshop/sheets/moonshots-ep-256-inner-loop-full-stack-trust.md)

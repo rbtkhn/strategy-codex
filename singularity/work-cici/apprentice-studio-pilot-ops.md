@@ -10,7 +10,7 @@ Use it when `Grace Gems` is acting as the first real-work client and `singularit
 
 Primary references:
 
-- [Apprentice Studio - 30-Day Pilot](../../../singularity/workshop/sheets/apprentice-studio-30-day-pilot.md)
+- [Apprentice Studio - 30-Day Pilot](../../../essays/apprentice-studio-30-day-pilot.md)
 - [Grace Gems apprentice task pack](../work-business/grace-gems/apprentice-studio-task-pack.md)
 - [cici-ai Community Dashboard](cici-ai-community-dashboard.md)
 - [cici-ai First Task Proof Packet](cici-ai-first-task-proof-packet.md)

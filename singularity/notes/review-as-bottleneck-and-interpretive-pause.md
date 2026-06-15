@@ -55,7 +55,7 @@ The failure mode to watch: **review collapse** — treating agent fluency as ver
 ### Foresight
 
 - Reuse when intake velocity spikes (Moonshots, daily statecraft batches, multi-file EXECUTE threads).
-- Route to [Agent control plane](../workshop/sheets/agent-control-plane.md) when implementing permissions (read / act / commit / promote).
+- Route to [Agent control plane](../essays/agent-control-plane.md) when implementing permissions (read / act / commit / promote).
 - Route to `work-dev` when building receipts into handoff-check or intake validators.
 - Keep narrower than an essay until multiple lanes show the same review bottleneck with shared fixtures.
 
@@ -117,6 +117,6 @@ The discipline is the same as Anthropic’s review bottleneck: **taste and promo
 
 - **Parent sheet:** [moonshots-emerging-anthropic-pause-recursive-personhood.md](../workshop/sheets/moonshots-emerging-anthropic-pause-recursive-personhood.md)
 - **Related:** [coding-swarms-and-human-control-planes.md](./coding-swarms-and-human-control-planes.md)
-- **Related workshop:** [Agent control plane](../workshop/sheets/agent-control-plane.md)
+- **Related workshop:** [Agent control plane](../essays/agent-control-plane.md)
 - **Local doctrine:** [from-accumulation-to-governed-interpretive-machine.md](../../essays/from-accumulation-to-governed-interpretive-machine.md)
 - **Boundary:** [grace-mar-instance-boundary.md](../../docs/grace-mar-instance-boundary.md)

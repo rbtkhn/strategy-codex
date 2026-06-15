@@ -6,13 +6,56 @@
 
 **Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
 
-**New here?** Plain-language orientation and audience paths: [docs/start-here.md](docs/start-here.md) â€” quick pick [Choose your path](docs/start-here.md#choose-your-path) (Aâ€“F).
+**New here?** [Choose your path](#choose-your-path) (A–F) · [Essays index](#essays-index) · full orientation [docs/start-here.md](docs/start-here.md).
+
+## Choose your path {#choose-your-path}
+
+Pick **one letter**, then open the linked surface. **Default for strategy-codex work:** **C** (operator). Fork / seed formation applies only on explicit **`fork revive`** ([grace-mar-instance-boundary](docs/grace-mar-instance-boundary.md)).
+
+| Pick | You are… | Start here |
+|------|----------|------------|
+| **A** | Companion (fork revive / seed) | [grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md) · frozen [self.md](self.md) |
+| **B** | Parent or guardian | [seed-phase-survey.md](docs/seed-phase-survey.md) — read guardrail rows before JSON capture |
+| **C** | **Operator (default)** | [docs/start-here.md](docs/start-here.md) · [statecraft/README.md](statecraft/README.md) · archive → daily → lane objects |
+| **D** | Technical contributor | [docs/skill-work/work-dev/](docs/skill-work/work-dev/) · [agent-control-plane essay](essays/agent-control-plane.md) |
+| **E** | Curious visitor | [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md) |
+| **F** | Journalist / blogger | [Door F — public-safe only](#door-f) |
+
+<a id="door-f"></a>
+
+### Door F — public-safe orientation
+
+Do not quote repo internals or operator drafts as on-the-record without consent. Safe entry points: [product-identity.md](docs/product-identity.md), [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md), public Predictive History ([ph-civ](https://github.com/rbtkhn/ph-civ)). Seed intake and gate material are **not** for publication.
+
+### Essays index — cross-channel theses {#essays-index}
+
+Stand-alone arguments that may span **statecraft and singularity** live at repo-root **`essays/`** (not channel `*/essays/` compatibility stubs). Bounded seams stay in [statecraft/notes/](statecraft/notes/README.md) or [singularity/notes/](singularity/notes/README.md). Class law: [docs/prose-index.md](docs/prose-index.md).
+
+**Shelf front door:** [essays/README.md](essays/README.md)
+
+| Essay | Open when… |
+|-------|------------|
+| [from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md) | You need the plain-language “what is this repo becoming?” thesis |
+| [interpretive-machine.md](essays/interpretive-machine.md) | Judgment-forming infrastructure, interpretive learning ([cluster](essays/interpretive-machine/README.md)) |
+| [system-design-lineage-is-not-unique-in-kind.md](essays/system-design-lineage-is-not-unique-in-kind.md) | Design-family academic precedent ([cluster](essays/system-design-lineage/README.md)) |
+| [sovereignty-under-acceleration.md](essays/sovereignty-under-acceleration.md) | Authority under acceleration; Coffee D → statecraft handoff |
+| [agent-control-plane.md](essays/agent-control-plane.md) | Permissions, receipts, rollback, human meaning in agent stacks |
+| [narrative-shaped-alignment.md](essays/narrative-shaped-alignment.md) | Story-shaped vs rule-shaped alignment; PH-CIV formation |
+| [interface-operating-layer-2028.md](essays/interface-operating-layer-2028.md) | Voice/browser/memory/tools collapsing into one operating layer |
+| [future-roadmap-implications.md](essays/future-roadmap-implications.md) | Roadmap: substrate, control plane, trust, cohort activation |
+| [apprentice-studio-30-day-pilot.md](essays/apprentice-studio-30-day-pilot.md) | Grace Gems × cici-ai beginner uplift under review gates |
+| [pope-leo-on-ai.md](essays/pope-leo-on-ai.md) | Cross-channel placeholder — Vatican office + mediation (await primary text) |
+| [brewmind-business-plan.md](essays/brewmind-business-plan.md) | work-cici BrewMind network-first plan (WORK draft) |
+| [ai-and-the-expansion-of-human-consciousness.md](essays/ai-and-the-expansion-of-human-consciousness.md) | AI as medium shift (writing / print); consciousness vs simulated understanding |
+
+Workshop **sheets** under `singularity/workshop/sheets/` remain the operating surface for live passes; link from each essay’s **Return Path** when you need the pass worksheet.
 
 ## Finding things in this repo
 
 This repository has multiple index surfaces. For LLM agents and coding assistants, start with:
 
 - [`LLM-ROUTING.md`](LLM-ROUTING.md) — routing rules for finding files, corpora, indexes, dashboards, and Record surfaces.
+- [`essays/README.md`](essays/README.md) — primary cross-channel essay shelf ([essays index](#essays-index)).
 - [`repo-map.yaml`](repo-map.yaml) — machine-readable navigation hints.
 - [`statecraft/voices/INDEX.md`](statecraft/voices/INDEX.md) — analyst/source-corpus route maps.
 
@@ -54,11 +97,49 @@ Start here:
 
 ## Concept
 
-**Active objective:** Operate a governed interpretive machine — [source-archive/statecraft/](source-archive/statecraft/README.md) → [statecraft/daily/](statecraft/daily/METHOD.md) → [statecraft/](statecraft/README.md) lane objects under **statecraft** and **singularity** channels. See [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md).
+**Active objective:** Operate a governed interpretive machine — [source-archive/statecraft/](source-archive/statecraft/README.md) → [statecraft/daily/](statecraft/daily/METHOD.md) → [statecraft/](statecraft/README.md) lane objects under **statecraft** and **singularity** channels. Cross-channel theses: [essays/](essays/README.md). See [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md).
 
 **Frozen legacy:** The Grace-Mar cognitive fork (SELF, EVIDENCE, recursion-gate) and Voice bots remain for archaeology and explicit **`fork revive`** only. `self-library.md` / CIV-MEM stay active as **reference** for statecraft retrieval. [`self-memory.md`](self-memory.md) is WORK continuity, not Record.
 
 ## Architecture
+
+### Operator system map
+
+Active WORK flows through **statecraft** and **singularity** into archive → synthesis → lane objects; cross-channel theses promote to repo-root **`essays/`** ([essays index](#essays-index)). Full orientation: [docs/start-here.md — System map](docs/start-here.md#system-map).
+
+```mermaid
+flowchart TB
+  subgraph membrane [Work membrane active]
+    Archive[source-archive/statecraft]
+    Voices[statecraft/voices]
+    States[statecraft/states]
+    Daily[statecraft/daily]
+    Tx[statecraft lane transactions]
+  end
+
+  subgraph channels [Operator channels]
+    SC[statecraft]
+    SG[singularity]
+  end
+
+  Essays[essays/ primary prose shelf]
+
+  subgraph frozen [Frozen sidecar]
+    Record[self.md recursion-gate.md]
+  end
+
+  Archive --> Voices --> States
+  Voices --> Daily --> Tx
+  SC --> membrane
+  SG --> singularity/
+  SC --> Essays
+  SG --> Essays
+  Tx -.fork revive only.-> Record
+```
+
+**Essays node:** [essays/README.md](essays/README.md) · notes stay channel-scoped · [docs/prose-index.md](docs/prose-index.md) · [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md)
+
+### Embedded Record (frozen legacy)
 
 **The fork has four canonical Record surfaces: SELF, SELF-LIBRARY, SKILLS, and EVIDENCE.** That replaces any older â€œtwo core modulesâ€ (SELF vs SKILLS only) framing. **IX-A / IX-B / IX-C** live under **SELF / SELF-KNOWLEDGE** â€” not under SELF-LIBRARY.
 

@@ -57,10 +57,10 @@ Machine-constitutional and source-bearing files stay where they already belong:
 
 ## Best Entry Points
 
-- [ai-and-the-expansion-of-human-consciousness.md](./ai-and-the-expansion-of-human-consciousness.md) - stand-alone thesis arguing that AI may change the conditions of consciousness formation in a way comparable to writing and print
+- [ai-and-the-expansion-of-human-consciousness.md](../../essays/ai-and-the-expansion-of-human-consciousness.md) - stand-alone thesis on AI as a cognition-changing medium (**canonical** at repo root; local stub only)
 - [interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md) - stand-alone thesis about interpretive learning systems (**canonical**; compatibility stub under `singularity/essays/`)
 - [system-design-lineage-is-not-unique-in-kind.md](/C:/dev/strategy-codex/essays/system-design-lineage-is-not-unique-in-kind.md) - source-backed synthesis arguing that the repo's design family has clear academic precedent (**canonical**; compatibility stub under `singularity/essays/`)
-- [pope-leo-on-ai.md](./pope-leo-on-ai.md) - singularity-side placeholder shell for Catholic AI doctrine as a question of mediation, anthropology, and synthetic judgment
+- [pope-leo-on-ai.md](../../essays/pope-leo-on-ai.md) - cross-channel placeholder for Catholic AI doctrine (**canonical** at repo root; local stub only)
 - [sovereignty-under-acceleration.md](/C:/dev/strategy-codex/essays/sovereignty-under-acceleration.md) - authority-and-sovereignty thesis (**canonical**; compatibility stub under `singularity/essays/`)
 - [agent-control-plane.md](/C:/dev/strategy-codex/essays/agent-control-plane.md) - control-plane thesis surface (**canonical**; compatibility stub under `singularity/essays/`)
 
@@ -95,13 +95,13 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 ### Shelf-Native
 
-- [ai-and-the-expansion-of-human-consciousness.md](./ai-and-the-expansion-of-human-consciousness.md) stand-alone singularity thesis on AI as a cognition-changing medium rather than only a productivity tool
 - [interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md) synthesized from the [interpretive-machine cluster](/C:/dev/strategy-codex/essays/interpretive-machine/README.md) (**canonical** at repo root)
 - [system-design-lineage-is-not-unique-in-kind.md](/C:/dev/strategy-codex/essays/system-design-lineage-is-not-unique-in-kind.md) synthesized from the [system-design-lineage cluster](/C:/dev/strategy-codex/essays/system-design-lineage/README.md) (**canonical** at repo root)
 - [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) cross-channel placeholder (**canonical**; local stub only)
 
 ### Mirrored Legacy Promotion
 
+- [ai-and-the-expansion-of-human-consciousness.md](../../essays/ai-and-the-expansion-of-human-consciousness.md) pre-root singularity thesis on AI as a cognition-changing medium (**canonical** at repo root; local stub only)
 - [sovereignty-under-acceleration.md](/C:/dev/strategy-codex/essays/sovereignty-under-acceleration.md) from [../workshop/sheets/sovereignty-under-acceleration.md](../workshop/sheets/sovereignty-under-acceleration.md) (**canonical** at repo root; workshop sheet remains operating surface)
 - [narrative-shaped-alignment.md](/C:/dev/strategy-codex/essays/narrative-shaped-alignment.md) from [../workshop/sheets/narrative-shaped-alignment.md](../workshop/sheets/narrative-shaped-alignment.md) (**canonical** at repo root; workshop sheet remains operating surface)
 - [agent-control-plane.md](/C:/dev/strategy-codex/essays/agent-control-plane.md) from [../workshop/sheets/agent-control-plane.md](../workshop/sheets/agent-control-plane.md) (**canonical** at repo root; workshop sheet remains operating surface)

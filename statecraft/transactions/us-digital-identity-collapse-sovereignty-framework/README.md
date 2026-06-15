@@ -19,7 +19,7 @@ The contested object is identity infrastructure under failure: who can prove per
 
 ## Shared Source Frame
 
-- [Sovereignty Under Acceleration](../../../singularity/workshop/sheets/sovereignty-under-acceleration.md) for AI infrastructure risk.
+- [Sovereignty Under Acceleration](../../../essays/sovereignty-under-acceleration.md) for AI infrastructure risk.
 - [Civilization and Empire cycle](../../sheets/civilization-empire-cycle.md) for entropy/restoration.
 - Relevant statecraft lane helix files for authority and successor continuity.
 

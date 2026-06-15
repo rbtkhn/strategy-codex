@@ -34,8 +34,8 @@ The second question may govern the first more than technical people expect.
 ### Foresight
 
 - Reuse this note when a singularity discussion sounds technical on the surface but is really about dignity, category, moral standing, or institutional permission.
-- Pair it with [Narrative-Shaped Alignment](../workshop/sheets/narrative-shaped-alignment.md) when the live question is what stories are training humans or models to interpret intelligence, agency, and moral rank.
-- Pair it with [Sovereignty Under Acceleration](../workshop/sheets/sovereignty-under-acceleration.md) when the question becomes which institution has the authority to set the public category for AI inside law, war, labor, or education.
+- Pair it with [Narrative-Shaped Alignment](../essays/narrative-shaped-alignment.md) when the live question is what stories are training humans or models to interpret intelligence, agency, and moral rank.
+- Pair it with [Sovereignty Under Acceleration](../essays/sovereignty-under-acceleration.md) when the question becomes which institution has the authority to set the public category for AI inside law, war, labor, or education.
 - Keep it narrower than a stand-alone essay. If later materials show multiple institutions converging or colliding around AI personhood across months, then the seam may deserve essay-class expansion. For now it should remain a bounded legitimacy packet tied to the EP #259 source sheet.
 
 ---
@@ -43,6 +43,6 @@ The second question may govern the first more than technical people expect.
 ### Appendix
 
 - **Parent sheet:** [Moonshots EP #259 - AI Personhood, Layoffs, and Regulation](../workshop/sheets/moonshots-ep-259-ai-personhood-layoffs-regulation.md)
-- **Related sheet:** [Narrative-Shaped Alignment](../workshop/sheets/narrative-shaped-alignment.md)
-- **Related bridge:** [Sovereignty Under Acceleration](../workshop/sheets/sovereignty-under-acceleration.md)
+- **Related sheet:** [Narrative-Shaped Alignment](../essays/narrative-shaped-alignment.md)
+- **Related bridge:** [Sovereignty Under Acceleration](../essays/sovereignty-under-acceleration.md)
 - **Related Moonshots continuity:** [Moonshots EP #256 - Inner Loop, Full Stack, and Trust Infrastructure](../workshop/sheets/moonshots-ep-256-inner-loop-full-stack-trust.md)

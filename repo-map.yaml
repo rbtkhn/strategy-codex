@@ -17,7 +17,15 @@ routes:
     kind: prose_shelf
     authority: work_only
     tags: [essays, prose, cross-channel, thesis, interpretive-machine]
-    search_hints: [essays shelf, stand-alone essay, cross-channel essay, governed interpretive machine essay, interpretive machine essay, pope leo essay]
+    search_hints: [essays shelf, stand-alone essay, cross-channel essay, governed interpretive machine essay, interpretive machine essay, pope leo essay, ai expansion of consciousness, ai medium shift essay]
+
+  - id: ai-consciousness-essay
+    title: AI and the Expansion of Human Consciousness
+    path: essays/ai-and-the-expansion-of-human-consciousness.md
+    kind: essay
+    authority: work_only
+    tags: [singularity, ai, medium, consciousness, interpretive-machine]
+    search_hints: [expansion of human consciousness, ai medium writing print, cognition-changing medium, ai-and-the-expansion-of-human-consciousness]
 
   - id: prose-index
     title: Prose class chooser (notes vs essays)

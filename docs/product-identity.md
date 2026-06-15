@@ -8,6 +8,40 @@
 
 It is **not** primarily a system for growing a personal cognitive fork. The embedded Grace-Mar Record is a **frozen legacy sidecar**. See [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md).
 
+## System map
+
+```mermaid
+flowchart TB
+  subgraph membrane [Work membrane active]
+    Archive[source-archive/statecraft]
+    Voices[statecraft/voices]
+    States[statecraft/states]
+    Daily[statecraft/daily]
+    Tx[statecraft lane transactions]
+  end
+
+  subgraph channels [Operator channels]
+    SC[statecraft]
+    SG[singularity]
+  end
+
+  Essays[essays/ primary prose shelf]
+
+  subgraph frozen [Frozen sidecar]
+    Record[self.md recursion-gate.md]
+  end
+
+  Archive --> Voices --> States
+  Voices --> Daily --> Tx
+  SC --> membrane
+  SG --> singularity/
+  SC --> Essays
+  SG --> Essays
+  Tx -.fork revive only.-> Record
+```
+
+Cross-channel theses at [`essays/README.md`](../essays/README.md); bounded notes stay in channel `notes/` only ([`prose-index.md`](prose-index.md)). Full operator map: [`start-here.md — System map`](start-here.md#system-map).
+
 ## Canonical essay
 
 Full argument and success metrics: [`essays/from-accumulation-to-governed-interpretive-machine.md`](../essays/from-accumulation-to-governed-interpretive-machine.md)

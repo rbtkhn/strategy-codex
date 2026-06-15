@@ -200,7 +200,7 @@ Why this is a true cross:
 
 ### Falsification Example: Agent Control Plane
 
-[Agent Control Plane](/C:/dev/strategy-codex/singularity/workshop/sheets/agent-control-plane.md)
+[Agent Control Plane](/C:/dev/strategy-codex/essays/agent-control-plane.md)
 looks politically important, and it uses words like authority, rollback, and
 human meaning. But it is still primarily an upstream architecture and
 governance-design object unless a concrete sovereign carrier or bounded command

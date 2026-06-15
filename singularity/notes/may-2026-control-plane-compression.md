@@ -31,7 +31,7 @@ The evidence boundary matters. The month synthesis is already a judgment layer a
 ### Foresight
 
 - Reuse this page when a singularity conversation is over-indexing on benchmarks and under-indexing on the control plane that decides what capability can touch.
-- Pair it with the compute note when the substrate is the primary pressure, and with [agent control plane](../workshop/sheets/agent-control-plane.md) when delegated authority is the main pressure.
+- Pair it with the compute note when the substrate is the primary pressure, and with [agent control plane](../essays/agent-control-plane.md) when delegated authority is the main pressure.
 - Route it into statecraft when the live question becomes compute sovereignty, infrastructure legitimacy, industrial policy, or national capacity rather than singularity interpretation alone.
 - If April-May continuity later shows the same compression pattern recurring across months, that would be the point to consider essay-class synthesis. Until then, this page should remain a bounded seam-preservation object.
 

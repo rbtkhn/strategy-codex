@@ -85,8 +85,8 @@ Assuming national strategy can govern AI meaningfully without leverage over comp
 
 - [Innermost Loop Synthesis - May 2026](../synthesis/2026-05.md) for the full month context.
 - [The Innermost Loop - 2026-05-15](../workshop/sheets/innermost-loop-2026-05-15.md) for compute sovereignty, cyber hardening windows, and data-center legitimacy.
-- [Future Roadmap Implications](../workshop/sheets/future-roadmap-implications.md) for downstream strategy translation.
-- [Sovereignty Under Acceleration](../workshop/sheets/sovereignty-under-acceleration.md) when the object clearly becomes statecraft.
+- [Future Roadmap Implications](../essays/future-roadmap-implications.md) for downstream strategy translation.
+- [Sovereignty Under Acceleration](../essays/sovereignty-under-acceleration.md) when the object clearly becomes statecraft.
 
 ## Source Anchors
 

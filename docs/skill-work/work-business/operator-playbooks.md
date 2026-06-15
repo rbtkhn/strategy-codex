@@ -169,5 +169,5 @@ This is a planning and packaging surface. It does not claim external demand befo
 
 - [singularity-academy-ai-operating-system-sprint.md](singularity-academy-ai-operating-system-sprint.md)
 - [singularity-academy-5000mo-roadmap.md](singularity-academy-5000mo-roadmap.md)
-- [../../../singularity/workshop/sheets/future-roadmap-implications.md](../../../singularity/workshop/sheets/future-roadmap-implications.md)
-- [../../../singularity/workshop/sheets/agent-control-plane.md](../../../singularity/workshop/sheets/agent-control-plane.md)
+- [../../../essays/future-roadmap-implications.md](../../../essays/future-roadmap-implications.md)
+- [../../../essays/agent-control-plane.md](../../../essays/agent-control-plane.md)

@@ -99,10 +99,10 @@ If it fails, the same infrastructure can scale:
 - Reuse this note when an AI discussion sounds like a tooling or productivity
   discussion on the surface but is really about externalized cognition,
   pedagogy, and what kinds of reality remain humanly holdable.
-- Pair it with [Narrative-Shaped Alignment](../workshop/sheets/narrative-shaped-alignment.md)
+- Pair it with [Narrative-Shaped Alignment](../essays/narrative-shaped-alignment.md)
   when the live question is whether compression is enlarging understanding or
   quietly training interpretive obedience.
-- Pair it with [AI interface as operating layer - 2028 horizon](../workshop/sheets/interface-operating-layer-2028.md)
+- Pair it with [AI interface as operating layer - 2028 horizon](../essays/interface-operating-layer-2028.md)
   when the question becomes whether retrieval, memory, tools, and explanation
   are converging into one ambient cognitive surface.
 - Route it toward `work-cici` when the next job is beginner formation,
@@ -121,7 +121,7 @@ If it fails, the same infrastructure can scale:
 
 ### Appendix
 
-- **Related sheet:** [Narrative-Shaped Alignment](../workshop/sheets/narrative-shaped-alignment.md)
-- **Related sheet:** [AI interface as operating layer - 2028 horizon](../workshop/sheets/interface-operating-layer-2028.md)
-- **Related sheet:** [Sovereignty Under Acceleration](../workshop/sheets/sovereignty-under-acceleration.md)
+- **Related sheet:** [Narrative-Shaped Alignment](../essays/narrative-shaped-alignment.md)
+- **Related sheet:** [AI interface as operating layer - 2028 horizon](../essays/interface-operating-layer-2028.md)
+- **Related sheet:** [Sovereignty Under Acceleration](../essays/sovereignty-under-acceleration.md)
 - **Related route:** [work-cici README](../work-cici/README.md)

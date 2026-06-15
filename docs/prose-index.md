@@ -76,6 +76,8 @@ Open an essay when you need:
 
 Essays should carry the argument, not just point toward it.
 
+Example cross-channel entries on the primary shelf: [from-accumulation-to-governed-interpretive-machine.md](../essays/from-accumulation-to-governed-interpretive-machine.md), [ai-and-the-expansion-of-human-consciousness.md](../essays/ai-and-the-expansion-of-human-consciousness.md) — full index at [essays/README.md](../essays/README.md).
+
 Some essays are also **evidence-bearing research syntheses**. When claim
 density is high and the evidence base is heterogeneous, prefer:
 

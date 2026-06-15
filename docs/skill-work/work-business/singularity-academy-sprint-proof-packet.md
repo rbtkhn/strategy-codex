@@ -31,7 +31,7 @@ Every item in this packet should answer one of three questions:
 
 ### 2. Control-plane proof
 
-- [Agent control plane](../../../singularity/workshop/sheets/agent-control-plane.md)
+- [Agent control plane](../../../essays/agent-control-plane.md)
 - [cici-ai Daily Brief Control-Plane Pilot](../work-cici/cici-ai-daily-brief-control-plane-pilot.md)
 
 What it proves:
@@ -51,7 +51,7 @@ What it proves:
 
 ### 4. Beginner-safe workflow proof
 
-- [Apprentice Studio - 30-Day Pilot](../../../singularity/workshop/sheets/apprentice-studio-30-day-pilot.md)
+- [Apprentice Studio - 30-Day Pilot](../../../essays/apprentice-studio-30-day-pilot.md)
 - [Apprentice Studio Pilot Ops](../work-cici/apprentice-studio-pilot-ops.md)
 - [cici-ai First Task Proof Packet](../work-cici/cici-ai-first-task-proof-packet.md)
 

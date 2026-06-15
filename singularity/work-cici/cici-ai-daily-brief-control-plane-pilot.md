@@ -163,5 +163,5 @@ The flow is not useful if it creates more polished summaries without improving p
 ## Next Use
 
 - Pair this note with [cici-ai Daily Telegram Brief](cici-ai-daily-telegram-brief.md) when evolving the generator or the posting routine.
-- Use it with [Future Roadmap Implications](../../../singularity/workshop/sheets/future-roadmap-implications.md) as the first live test of `agent control-plane maturity`.
+- Use it with [Future Roadmap Implications](../../../essays/future-roadmap-implications.md) as the first live test of `agent control-plane maturity`.
 - If this pilot works, use the same shape for other automated report surfaces before broadening the doctrine.

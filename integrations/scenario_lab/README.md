@@ -30,8 +30,8 @@ Build an intake packet from local evidence:
 python -m integrations.scenario_lab.export_to_scenario \
   --scenario "Compute sovereignty and agent control over the next 12 months" \
   --domain company-action \
-  --evidence-path singularity/workshop/sheets/agent-control-plane.md \
-  --evidence-path singularity/workshop/sheets/sovereignty-under-acceleration.md \
+  --evidence-path essays/agent-control-plane.md \
+  --evidence-path essays/sovereignty-under-acceleration.md \
   --assumption "External checkout is configured locally" \
   --output compute-sovereignty/packet.json \
   --markdown-output compute-sovereignty/packet.md

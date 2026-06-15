@@ -24,7 +24,30 @@ Growing a personal cognitive fork is **not** a system objective. The Grace-Mar R
 
 ---
 
-## System map
+## Choose your path {#choose-your-path}
+
+Pick **one letter** (same A–F as [README § Choose your path](../README.md#choose-your-path)). **Default:** **C** (operator). Seed-phase calibration: [seed-phase-survey § Calibrate](seed-phase-survey.md#calibrate-from-your-start-here-path).
+
+| Pick | You are… | Start here |
+|------|----------|------------|
+| **A** | Companion (fork revive / seed) | [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md) |
+| **B** | Parent or guardian | [seed-phase-survey.md](seed-phase-survey.md) |
+| **C** | **Operator (default)** | Promotion ladder below · [statecraft/README.md](../statecraft/README.md) |
+| **D** | Technical contributor | [skill-work/work-dev/](skill-work/work-dev/) |
+| **E** | Curious visitor | [product-identity.md](product-identity.md) |
+| **F** | Journalist / blogger | [Door F](#door-f) |
+
+<a id="door-f"></a>
+
+### Door F — public-safe orientation
+
+Public-safe entry only — no seed intake, gate queues, or private operator material. See [product-identity.md](product-identity.md) and [README door F](../README.md#door-f).
+
+**Cross-channel essays:** full index at [README § Essays index](../README.md#essays-index) · shelf law at [essays/README.md](../essays/README.md) · note vs essay routing at [prose-index.md](prose-index.md).
+
+---
+
+## System map {#system-map}
 
 ```mermaid
 flowchart TB
@@ -41,6 +64,8 @@ flowchart TB
     SG[singularity]
   end
 
+  Essays[essays/ primary prose shelf]
+
   subgraph frozen [Frozen sidecar]
     Record[self.md recursion-gate.md]
   end
@@ -49,12 +74,15 @@ flowchart TB
   Voices --> Daily --> Tx
   SC --> membrane
   SG --> singularity/
+  SC --> Essays
+  SG --> Essays
   Tx -.fork revive only.-> Record
 ```
 
+**Essays node:** cross-channel theses at [essays/README.md](../essays/README.md); channel `*/essays/` = compatibility stubs. Class law: [prose-index.md](prose-index.md).
+
 **Membrane classes:** [work-membrane-v2.md](work-membrane-v2.md)  
-**Two channels:** [operator-two-channel-architecture.md](operator-two-channel-architecture.md) — *what system is emerging* vs *what object must be judged*  
-**Essays (primary shelf):** [essays/README.md](../essays/README.md) — cross-channel theses; [prose-index.md](prose-index.md) for notes vs essays routing
+**Two channels:** [operator-two-channel-architecture.md](operator-two-channel-architecture.md) — *what system is emerging* vs *what object must be judged*
 
 ---
 

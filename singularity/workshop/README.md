@@ -38,7 +38,7 @@ Use the workshop to compare these lanes by the same fields:
 5. **Test displacement.** Ask what skill, role, institution, market, or meaning-structure is being weakened or transformed.
 6. **Produce reuse.** End with an agency map, alignment warning, substrate boundary, human-meaning note, or bridge question.
 
-For Coffee D specifically, add one routing question before closing the pass: has the object matured into carrier, legitimacy, treaty, policy, or sovereignty design? If yes, hand off through [Sovereignty Under Acceleration](sheets/sovereignty-under-acceleration.md) to repo-root `statecraft/` instead of treating singularity as the final surface.
+For Coffee D specifically, add one routing question before closing the pass: has the object matured into carrier, legitimacy, treaty, policy, or sovereignty design? If yes, hand off through [Sovereignty Under Acceleration](../../essays/sovereignty-under-acceleration.md) to repo-root `statecraft/` (operating [sheet](sheets/sovereignty-under-acceleration.md)) instead of treating singularity as the final surface.
 
 ## Entry Points
 
@@ -51,13 +51,13 @@ For Coffee D specifically, add one routing question before closing the pass: has
 ## First Sheet
 
 - [Coffee D - Singularity Operating Sheet](sheets/coffee-d-singularity.md) - reusable Coffee D route for agency under acceleration, route-away gates, and compact output prompts.
-- [Apprentice Studio - 30-Day Pilot](sheets/apprentice-studio-30-day-pilot.md) - compact pilot doctrine for using Grace Gems as a real-work substrate, cici-ai as the onboarding/progress surface, and singularity-academy as the evaluation layer.
+- [Apprentice Studio - 30-Day Pilot](../../essays/apprentice-studio-30-day-pilot.md) — essay; [operating sheet](sheets/apprentice-studio-30-day-pilot.md)
 - [Predictive History YouTube Comment Lab](sheets/predictive-history-youtube-comment-lab.md) - public-interface lab for testing whether AI-assisted comment workflows can create reusable distribution, audience formation, and cohort-readable outreach leverage for `ph-civ`.
-- [Agent control plane](sheets/agent-control-plane.md) - first reusable singularity worksheet for agent governance, substrate authority, and human-gated control.
-- [Sovereignty Under Acceleration](sheets/sovereignty-under-acceleration.md) - statecraft bridge for human agency, infrastructure power, control planes, and treaty/policy outputs.
+- [Agent control plane](../../essays/agent-control-plane.md) — essay; [operating sheet](sheets/agent-control-plane.md)
+- [Sovereignty Under Acceleration](../../essays/sovereignty-under-acceleration.md) — essay; [operating sheet](sheets/sovereignty-under-acceleration.md)
 - [Scenario Lab Pilot](sheets/scenario-lab-pilot.md) - bounded futures substrate for structured branching, actor pressure, and scenario-family work inside singularity-academy.
-- [AI interface as operating layer - 2028 horizon](sheets/interface-operating-layer-2028.md) - two-year design horizon for voice, browser, coding, memory, tools, and agents collapsing into one operating layer.
-- [Narrative-Shaped Alignment](sheets/narrative-shaped-alignment.md) - practical bridge for rule-shaped versus story-shaped alignment, PH-CIV formation material, and model-facing cultural substrate.
+- [AI interface as operating layer - 2028 horizon](../../essays/interface-operating-layer-2028.md) — essay; [operating sheet](sheets/interface-operating-layer-2028.md)
+- [Narrative-Shaped Alignment](../../essays/narrative-shaped-alignment.md) — essay; [operating sheet](sheets/narrative-shaped-alignment.md)
 - [CodeGraph pilot benchmark](../../docs/skill-work/work-dev/codegraph-pilot-benchmark.md) - bounded technical proving-ground loop for deciding whether local code-intelligence actually compounds enough to expand.
 
 ## Commercial Wedge

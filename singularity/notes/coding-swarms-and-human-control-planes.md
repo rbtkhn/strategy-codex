@@ -36,8 +36,8 @@ If those answers get weaker while throughput gets stronger, then "better coding 
 ### Foresight
 
 - Reuse this note when a coding-agent discussion sounds like a tooling discussion on the surface but is really about authority, supervision, and rollback.
-- Pair it with [Agent control plane](../workshop/sheets/agent-control-plane.md) when the live question is how to make delegated technical action inspectable before it becomes default workflow.
-- Pair it with [AI interface as operating layer - 2028 horizon](../workshop/sheets/interface-operating-layer-2028.md) when the question is whether code, tools, memory, and orchestration are converging into one ambient operating surface.
+- Pair it with [Agent control plane](../essays/agent-control-plane.md) when the live question is how to make delegated technical action inspectable before it becomes default workflow.
+- Pair it with [AI interface as operating layer - 2028 horizon](../essays/interface-operating-layer-2028.md) when the question is whether code, tools, memory, and orchestration are converging into one ambient operating surface.
 - Route it toward `work-dev` when the next job is not interpretation but concrete requirements for receipts, branching discipline, fork visibility, and integration review.
 - Keep it narrower than an essay. If multiple source families later converge on the same object across coding, business operations, and scientific research swarms, then the seam may deserve a wider stand-alone thesis. For now it should remain a bounded control-plane packet.
 
@@ -46,6 +46,6 @@ If those answers get weaker while throughput gets stronger, then "better coding 
 ### Appendix
 
 - **Parent sheet:** [Moonshots EP #260 - Opus, Foundation, and AGI Timelines](../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md)
-- **Related sheet:** [Agent control plane](../workshop/sheets/agent-control-plane.md)
-- **Related sheet:** [AI interface as operating layer - 2028 horizon](../workshop/sheets/interface-operating-layer-2028.md)
+- **Related sheet:** [Agent control plane](../essays/agent-control-plane.md)
+- **Related sheet:** [AI interface as operating layer - 2028 horizon](../essays/interface-operating-layer-2028.md)
 - **Related continuity:** [Moonshots EP #256 - Inner Loop, Full Stack, and Trust Infrastructure](../workshop/sheets/moonshots-ep-256-inner-loop-full-stack-trust.md)

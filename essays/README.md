@@ -79,6 +79,7 @@ Cross-channel pairs may exist on **both** compatibility shelves until recanonica
 | [apprentice-studio-30-day-pilot.md](./apprentice-studio-30-day-pilot.md) | Singularity × work-cici pilot thesis — beginner uplift under review gates |
 | [brewmind-business-plan.md](./brewmind-business-plan.md) | work-cici business plan — network-first BrewMind (WORK draft) |
 | [system-design-lineage-is-not-unique-in-kind.md](./system-design-lineage-is-not-unique-in-kind.md) | Cross-channel design-family thesis — academic precedent ([cluster](./system-design-lineage/README.md)) |
+| [ai-and-the-expansion-of-human-consciousness.md](./ai-and-the-expansion-of-human-consciousness.md) | AI as cognition-changing medium (writing / print analogy); judgment vs imitation |
 
 ## New essays (forward-only)
 
