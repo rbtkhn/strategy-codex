@@ -72,17 +72,11 @@ Jiang’s register is **formation answerability**: what desire, belief, and soci
 
 ## Comparative seam
 
-| Register | Refuses | Risks missing |
-|----------|---------|---------------|
-| **Leo** | Delegating judgment, pastoral witness, and moral mediation to machines | Bubble economics, surveillance architecture, incentive maps |
-| **Barnes** | Naive capability triumph; circular finance; capture without cost | Metaphysical/social end-state Jiang names; positive office language Leo guards |
-| **Jiang** | Branding-as-thought; bailout theater; autocrat-win surveillance | Forensic US incentive map Barnes carries; non-delegable judgment Leo formalizes |
+All three refuse naive triumphalism and treat fluent synthetic speech as politically load-bearing — not as neutral tooling but as a force that reorganizes legitimacy, price, and desire at once. They diverge by **answerability function**: Leo is normative (what must not be delegated), Barnes is forensic (who benefits and who pays), Jiang is pedagogical-eschatological (what is being formed and toward what end-state).
 
-**Overlap:** all three refuse naive triumphalism; all three treat persuasive synthetic speech as politically load-bearing.
+Each register also under-reads what the others carry. Leo’s office grammar can miss bubble economics, surveillance architecture, and the incentive maps Barnes traces. Barnes’s liability read can miss the metaphysical end-state Jiang names and the positive office language Leo guards against succession. Jiang’s debunking exposure can miss the forensic US incentive map Barnes carries and the non-delegable judgment Leo formalizes in magisterial prose.
 
-**Divergence:** Leo normative (what must not be delegated); Barnes forensic (who benefits and who pays); Jiang pedagogical-eschatological (what is being formed and toward what end-state).
-
-**Productive tension:** Barnes + reconsideration accept infrastructural thickness Leo never denies; Leo + Jiang both see religion-shaped AI, but Leo offers counter-doctrine while Jiang offers debunking exposure; Barnes and Jiang share bubble vocabulary but split on occult/surveillance depth vs US liability.
+The productive tension is where the comparison earns its keep. Barnes plus reconsideration accepts infrastructural thickness Leo never denies — bubble and capture can be real without dissolving the machine-shaped rails already laid. Leo and Jiang both hear religion-shaped AI, but Leo answers with counter-doctrine while Jiang answers with debunking exposure. Barnes and Jiang share bubble vocabulary yet split on depth: Jiang presses occult branding and surveillance eschatology; Barnes presses US liability, Gulf energy, and campaign-finance capture.
 
 ## Convergent claim
 

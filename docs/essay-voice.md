@@ -130,7 +130,7 @@ Operator elicitation (2026-06): **Kissinger–Churchill–Durant** blend — not
 | Set-piece vs table | Weight budget: one or the other at full density per strand |
 | Warning vs falsifiers | Falsifiers (optional) → then **warning close is final paragraph** |
 | Solemn vs forensic | Report forensic findings solemnly; sardonic register stays in notes |
-| Exemplar vs template | [`leo-barnes-jiang-on-ai.md`](../essays/leo-barnes-jiang-on-ai.md) = structural exemplar — **Band A lede, all three voice sections, warning close**; comparative seam table may remain Band B legacy |
+| Exemplar vs template | [`leo-barnes-jiang-on-ai.md`](../essays/leo-barnes-jiang-on-ai.md) = structural exemplar — **Band A comparative voice** (prose seam; no apparatus table) |
 
 ---
 
@@ -282,7 +282,7 @@ office, liability, and formation triangulate **answerability** while scale,
 convenience, and persuasive synthetic speech keep advancing together.
 ```
 
-See [`essays/leo-barnes-jiang-on-ai.md`](../essays/leo-barnes-jiang-on-ai.md) opening and voice sections (Band A lede + three register bodies; comparative seam table may remain Band B legacy).
+See [`essays/leo-barnes-jiang-on-ai.md`](../essays/leo-barnes-jiang-on-ai.md) — Band A comparative voice exemplar (prose seam; no pin-cite grid in body).
 
 **Note on [Sample voice paragraph](#sample-voice-paragraph):** mid-essay illustration of tri-blend texture — not a copy-paste opening template. A spine-first lede should not stack three `X names Y` lines without the thesis leading.
 
@@ -292,7 +292,7 @@ See [`essays/leo-barnes-jiang-on-ai.md`](../essays/leo-barnes-jiang-on-ai.md) op
 
 | Essay | Model for |
 |-------|-----------|
-| [leo-barnes-jiang-on-ai.md](../essays/leo-barnes-jiang-on-ai.md) | Comparative voice structure — **Band A lede + Leo + Barnes + Jiang body**; comparative table Band B legacy; **Kissinger warning close** |
+| [leo-barnes-jiang-on-ai.md](../essays/leo-barnes-jiang-on-ai.md) | Comparative voice structure — **Band A throughout** (lede, three voice sections, prose comparative seam, Kissinger warning close) |
 | [ai-and-the-expansion-of-human-consciousness.md](../essays/ai-and-the-expansion-of-human-consciousness.md) | Prose-first medium argument, decisive close |
 | [from-accumulation-to-governed-interpretive-machine.md](../essays/from-accumulation-to-governed-interpretive-machine.md) | System essay, short-version |
 | [interpretive-machine.md](../essays/interpretive-machine.md) | Definitional + ancestor convergence |
