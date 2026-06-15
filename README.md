@@ -33,7 +33,7 @@ Pick **one letter**, then open the linked surface. **Default for strategy-codex 
 
 ### Door F — public-safe orientation
 
-Do not quote repo internals or operator drafts as on-the-record without consent. Safe entry points: [product-identity.md](docs/product-identity.md), [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md), public Predictive History ([ph-civ](https://github.com/rbtkhn/ph-civ)). Seed intake and gate material are **not** for publication.
+Do not quote repo internals or operator drafts as on-the-record without consent. Safe entry points: [intelligence-harness.md](docs/intelligence-harness.md), [product-identity.md](docs/product-identity.md), [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md), public Predictive History ([ph-civ](https://github.com/rbtkhn/ph-civ)). Seed intake and gate material are **not** for publication.
 
 ### Essays index — cross-channel theses {#essays-index}
 
