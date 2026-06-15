@@ -22,6 +22,7 @@ Do not collapse these layers:
 | **Civilizational Statecraft** | Book title (public reader-facing name) |
 | **Civilization and Empire** | Whole-work opening essay ([introduction.md](introduction.md)) — not the book title |
 | **Volume introduction** | Each volume's thematic essay (e.g. Mandate of Heaven) — not the whole-work essay |
+| **Civilizational motion** | Recurrent three-beat rhythm ([framework/civilizational-motion.md](framework/civilizational-motion.md)) — beautify, amplify, degrade; not the book title |
 | **civ-state** | Workshop folder and GitHub repo slug — source-memory substrate, not a reader title |
 
 Within each volume, read **volume introduction → Civilization chapter → Empire chapter**. The whole work begins with **Civilization and Empire**, then this Reader Guide, then the volume map.
@@ -47,7 +48,7 @@ Begin with [Civilization and Empire](introduction.md) for the whole-book thesis,
 Then choose between two entry modes:
 
 - civilization-first entry through [Volume Map](volumes/README.md)
-- governing-layer entry through [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)
+- governing-layer entry through [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md) and, for rhythm placement, [Civilizational motion](framework/civilizational-motion.md)
 
 Choose civilization-first when the real question is:
 
@@ -172,7 +173,7 @@ Use it to:
 Then return downstream to:
 
 - lane civilization / empire / state surfaces
-- helix
+- [civilizational motion](framework/civilizational-motion.md) when phase placement governs
 - transactions
 
 Do not try to spend the whole work directly when a narrower lane object now governs.

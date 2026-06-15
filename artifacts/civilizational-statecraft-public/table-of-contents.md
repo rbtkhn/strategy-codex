@@ -2,10 +2,10 @@
 
 This is the whole-work table of contents for **Civilizational Statecraft** (the book title). Read it as a statesman's book, not as a file inventory. Title layers: [Names and titles](reader-guide.md#names-and-titles) in the Reader Guide.
 
-The governing helix:
+The governing **civilizational motion**:
 
 ```text
-civilization beautifies → empire amplifies → civilizational entropy
+civilization beautifies → empire amplifies → entropy degrades
 ```
 
 Whole-work retrieval movement:
@@ -111,13 +111,14 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)
-4. [Era Law](framework/era-law.md)
-5. [Hybrid References](hybrid-references.md)
-6. [Comparative Continuity](comparative/continuity-mechanism.md)
-7. [Pattern Library](comparative/pattern-library/README.md)
-8. [Index](index.md)
-9. [Source-Lattice](source-lattice.md)
+3. [Civilizational Motion](framework/civilizational-motion.md)
+4. [Civilizational Statecraft Framework](framework/civilization-empire-faith-science-memory-desire.md)
+5. [Era Law](framework/era-law.md)
+6. [Hybrid References](hybrid-references.md)
+7. [Comparative Continuity](comparative/continuity-mechanism.md)
+8. [Pattern Library](comparative/pattern-library/README.md)
+9. [Index](index.md)
+10. [Source-Lattice](source-lattice.md)
 
 ## Retrieval Order
 

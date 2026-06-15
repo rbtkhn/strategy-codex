@@ -4,10 +4,10 @@ WORK only; not Record.
 
 This is the whole-work table of contents for **Civilizational Statecraft** (the book title). Read it as a statesman's book, not as a file inventory. Title layers: [Names and titles](reader-guide.md#names-and-titles) in the Reader Guide.
 
-The governing helix:
+The governing **civilizational motion**:
 
 ```text
-civilization beautifies → empire amplifies → civilizational entropy
+civilization beautifies → empire amplifies → entropy degrades
 ```
 
 Whole-work retrieval movement:

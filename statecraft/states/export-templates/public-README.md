@@ -8,10 +8,10 @@ A comparative book for the general statesman reader: five civilization-state vol
 
 This book teaches **civilizational statecraft** — how inherited civilizational form, imperial instrument, and statesmanlike judgment interact under pressure. It is **self-contained**: finish navigation inside this repository.
 
-The governing helix:
+The governing **civilizational motion**:
 
 ```text
-civilization beautifies → empire amplifies → civilizational entropy
+civilization beautifies → empire amplifies → entropy degrades
 ```
 
 Whole-work retrieval movement:
@@ -27,6 +27,7 @@ memory → legitimacy → carrier → pressure → settlement
 | **Civilizational Statecraft** | This book's title |
 | **Civilization and Empire** | Whole-work opening essay — not the book title |
 | **Volume introduction** | Each volume's thematic essay (e.g. Mandate of Heaven) |
+| **Civilizational motion** | Three-beat rhythm — beautify, amplify, degrade |
 | **civ-state** | GitHub repo slug only — not a reader title |
 
 See [Reader Guide](reader-guide.md#names-and-titles) and [Glossary](glossary.md).
@@ -53,7 +54,9 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 
 ## Whole-work apparatus
 
+- [Civilizational motion](framework/civilizational-motion.md)
 - [Framework](framework/civilization-empire-faith-science-memory-desire.md)
+- [Era law](framework/era-law.md)
 - [Comparative continuity](comparative/continuity-mechanism.md)
 - [Pattern library](comparative/pattern-library/README.md)
 - [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local) · [Volume Map](volumes/README.md)

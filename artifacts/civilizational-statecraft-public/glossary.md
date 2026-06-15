@@ -12,7 +12,11 @@ The **book title** — the public comparative work (five civilization-state volu
 
 ### Civilization and Empire
 
-The **whole-work opening essay** ([introduction.md](introduction.md)) — the governing helix and five-volume frame. This title is **not** the book title and **not** a volume introduction.
+The **whole-work opening essay** ([introduction.md](introduction.md)) — civilizational motion and the five-volume frame. This title is **not** the book title and **not** a volume introduction.
+
+### Civilizational motion
+
+The recurrent three-beat rhythm — civilization beautifies, empire amplifies, entropy degrades — plus the retrieval movement memory → legitimacy → carrier → pressure → settlement. Canonical framework page: [framework/civilizational-motion.md](framework/civilizational-motion.md). Distinct from paired-civilization **double-helix** analysis in external memory corpora.
 
 ### civ-state
 
