@@ -20,6 +20,10 @@ That means `singularity` may:
 
 It may not silently convert any of that into identity-bearing Record truth.
 
+### Harness function
+
+The **singularity** channel turns AI-system observations into bounded **architectural doctrine**. Default ceiling: workshop sheet → verified note or essay. See [intelligence-harness.md](../docs/intelligence-harness.md) and [agent-control-plane essay](../essays/agent-control-plane.md).
+
 ---
 
 ## Dominant membrane classes

@@ -2,6 +2,14 @@
 
 **strategy-codex** — A **governed interpretive machine** for statecraft and singularity operator work: archive → synthesis → transactions. **Product identity:** [docs/product-identity.md](docs/product-identity.md). **Terminology:** [docs/glossary.md](docs/glossary.md).
 
+## Why this exists now
+
+Model intelligence is getting cheaper. The scarce layer is the harness around it: source truth, context routing, artifact authority, review discipline, and accountable output.
+
+**strategy-codex** is that harness for **statecraft** and **singularity** work — a **governed interpretive machine** that does not try to be the model; it governs how models, operators, sources, and judgment objects interact.
+
+**Deeper read:** [docs/intelligence-harness.md](docs/intelligence-harness.md) · [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md)
+
 **Grace-Mar fork (frozen archaeology):** Growing a personal cognitive fork is **not** a system objective. Embedded Record at repo root; full doctrine quarantined under [archive/grace-mar-corpus/README.md](archive/grace-mar-corpus/README.md). See [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md).
 
 **Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
@@ -18,7 +26,7 @@ Pick **one letter**, then open the linked surface. **Default for strategy-codex 
 | **B** | Parent or guardian | [seed-phase-survey.md](docs/seed-phase-survey.md) — read guardrail rows before JSON capture |
 | **C** | **Operator (default)** | [docs/start-here.md](docs/start-here.md) · [statecraft/README.md](statecraft/README.md) · archive → daily → lane objects |
 | **D** | Technical contributor | [docs/skill-work/work-dev/](docs/skill-work/work-dev/) · [agent-control-plane essay](essays/agent-control-plane.md) |
-| **E** | Curious visitor | [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md) |
+| **E** | Curious visitor | [intelligence-harness.md](docs/intelligence-harness.md) · [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md) |
 | **F** | Journalist / blogger | [Door F — public-safe only](#door-f) |
 
 <a id="door-f"></a>
@@ -64,6 +72,8 @@ For analyst or source-corpus questions such as "Barnes index," start with `state
 If you come from **OB1-style** memory systems, see [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md) for the **legacy** Grace-Mar gate mapping. **Default onboarding:** [docs/start-here.md](docs/start-here.md) (interpretive machine, not fork growth).
 
 ## Claude Code surfaces
+
+**strategy-codex** is model-portable by design: it is not an OpenAI, Claude, Grok, Cursor, or local-model system — it is the governed harness that lets any sufficiently capable model operate inside bounded context, authority, and review rules. See [docs/intelligence-harness.md](docs/intelligence-harness.md).
 
 If you come from **Claude Code** workflows, the fastest mental model is:
 

@@ -1,6 +1,8 @@
-﻿# Harness inventory (Grace-Mar)
+﻿# Harness inventory (Grace-Mar fork — legacy)
 
-Single place for **what each component owns**, **where state lives**, and **what may write** â€” aligned with industry â€œharness > modelâ€ practice (orchestration, verification, minimal tool surface). See [architecture Â§ System boundaries](architecture.md#system-boundaries-and-harness), [harness-handoff](harness-handoff.md).
+**Default strategy-codex operators:** product harness orientation lives in [intelligence-harness.md](intelligence-harness.md) and [start-here.md](start-here.md). This file is the **Grace-Mar fork** component inventory (gate-centric); use on explicit **`fork revive`** only.
+
+Single place for **what each component owns**, **where state lives**, and **what may write** — aligned with industry "harness > model" practice (orchestration, verification, minimal tool surface). See [architecture § System boundaries](architecture.md#system-boundaries-and-harness), [harness-handoff](harness-handoff.md).
 
 ---
 

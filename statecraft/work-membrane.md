@@ -20,6 +20,10 @@ That means `statecraft` may:
 
 It may not silently convert any of that into identity-bearing Record truth.
 
+### Harness function
+
+The **statecraft** channel turns source streams into bounded **analytical judgment** objects. Default ceiling: daily synthesis → transaction object. See [intelligence-harness.md](../docs/intelligence-harness.md) and [start-here — Promotion ladder](../docs/start-here.md#promotion-ladder-statecraft).
+
 ---
 
 ## Dominant membrane classes

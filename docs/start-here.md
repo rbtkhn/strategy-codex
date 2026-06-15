@@ -10,6 +10,8 @@
 
 **strategy-codex** is a **governed interpretive machine**: verbatim sources land in archive; bounded synthesis and transactions carry judgment under **statecraft** and **singularity**.
 
+**External name:** an **intelligence harness** for the same system — [intelligence-harness.md](intelligence-harness.md).
+
 Growing a personal cognitive fork is **not** a system objective. The Grace-Mar Record is **frozen** ([grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)). Gate promotion applies only on explicit **`fork revive`**.
 
 **SELF / library / memory:** [`self.md`](../self.md) (identity) is **frozen**; [`self-library.md`](../self-library.md) stays **active for reference** routing; [`self-memory.md`](../self-memory.md) is **session continuity** — not SELF, not Record. Split: [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md).

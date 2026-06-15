@@ -6,6 +6,8 @@
 
 **strategy-codex** is a **governed interpretive machine**: sources land verbatim in archive; bounded synthesis and transaction objects carry judgment; operator work routes through **statecraft** and **singularity**.
 
+**External name:** an **intelligence harness** for the same system — [intelligence-harness.md](intelligence-harness.md).
+
 It is **not** primarily a system for growing a personal cognitive fork. The embedded Grace-Mar Record is a **frozen legacy sidecar**. See [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md).
 
 ## System map

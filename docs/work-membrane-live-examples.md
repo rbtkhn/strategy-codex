@@ -2,6 +2,8 @@
 
 **Purpose:** Give the shared [work membrane v2](work-membrane-v2.md) one compact companion surface built from live repo examples, so contributors can feel the class differences instead of only reading definitions.
 
+**Why membrane classes matter when intelligence is cheap:** [intelligence-harness.md](intelligence-harness.md).
+
 This is a bounded doctrine companion, not a generated inventory.
 
 ---
