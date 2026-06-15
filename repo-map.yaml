@@ -1,5 +1,5 @@
 version: 1
-updated_at: "2026-06-12"
+updated_at: "2026-06-13"
 purpose: Machine-readable routing hints for LLM and tool navigation. Not an authority surface.
 
 routes:
@@ -10,6 +10,30 @@ routes:
     authority: routing_aid
     tags: [routing, llm, discovery]
     search_hints: [LLM routing, find file in repo, Barnes index]
+
+  - id: essays-shelf
+    title: Essays (primary cross-channel shelf)
+    path: essays/README.md
+    kind: prose_shelf
+    authority: work_only
+    tags: [essays, prose, cross-channel, thesis, interpretive-machine]
+    search_hints: [essays shelf, stand-alone essay, cross-channel essay, governed interpretive machine essay, interpretive machine essay, pope leo essay]
+
+  - id: prose-index
+    title: Prose class chooser (notes vs essays)
+    path: docs/prose-index.md
+    kind: routing_aid
+    authority: work_only
+    tags: [prose, notes, essays, routing]
+    search_hints: [prose index, note vs essay, where to put prose, channel notes]
+
+  - id: product-identity-essay
+    title: From accumulation to governed interpretive machine
+    path: essays/from-accumulation-to-governed-interpretive-machine.md
+    kind: essay
+    authority: work_only
+    tags: [product-identity, interpretive-machine, governance]
+    search_hints: [governed interpretive machine, what is strategy-codex becoming, accumulation essay]
 
   - id: voices-index
     title: Voices Index

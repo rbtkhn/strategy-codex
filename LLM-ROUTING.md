@@ -21,6 +21,10 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | daily statecraft synthesis | [statecraft/daily/](statecraft/daily/) — **after** archive + source-index |
 | host-family continuity (Davis, Napolitano, Nima, …) | [statecraft/hosts/](statecraft/hosts/) |
 | statecraft lane / active operator work | [statecraft/](statecraft/) |
+| singularity lane / acceleration work | [singularity/](singularity/) |
+| **essay / stand-alone thesis** (cross-channel default) | [essays/README.md](essays/README.md) — primary shelf; channel `*/essays/` = compatibility only |
+| **prose class** (note vs essay vs synthesis) | [docs/prose-index.md](docs/prose-index.md) — notes stay in `statecraft/notes/` or `singularity/notes/` only |
+| product identity / governed interpretive machine essay | [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md) |
 | **`strategy` / `strategy pass` / codex ledger pass** | [docs/skill-work/work-strategy/DEFAULT-PATH.md](docs/skill-work/work-strategy/DEFAULT-PATH.md), [.cursor/rules/strategy-codex-pass.mdc](.cursor/rules/strategy-codex-pass.mdc) — **no** skill-strategy skill ([SKILL-STRATEGY-DEPRECATED.md](docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md)) |
 | library / reading / canon / books | [self-library.md](self-library.md), [artifacts/library-index.md](artifacts/library-index.md) |
 | SELF / SKILLS / EVIDENCE / Record | `self.md`, `self-skills.md`, `self-archive.md`, `recursion-gate.md` — **frozen archaeology** at repo root; default work is `statecraft/` / `singularity/` |
@@ -55,6 +59,15 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
 | `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
 | [codex/profiles/*-profile.md](codex/profiles/) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |
+
+**Essays vs channel essay folders vs notes:**
+
+| Surface | Job | Authority |
+|---|---|---|
+| [essays/README.md](essays/README.md) | **Primary** stand-alone / cross-channel theses | WORK prose shelf |
+| `statecraft/notes/` · `singularity/notes/` | Channel-scoped bounded interpretive objects | WORK prose shelf |
+| `statecraft/essays/` · `singularity/essays/` | Pre-root **compatibility** essay holdings | Stubs → `essays/` |
+| [docs/prose-index.md](docs/prose-index.md) | Note vs essay vs synthesis class chooser | WORK routing aid |
 
 **Do not** answer "no Barnes index" because `library-index.md` or GitHub code search returned zero hits.
 

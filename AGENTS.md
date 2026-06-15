@@ -102,19 +102,22 @@ This system uses a **four-layer instruction architecture**. Later layers may nar
 
 ### Repository search protocol for LLM agents
 
-When asked to find a file, index, corpus, source map, analyst, or speaker:
+When asked to find a file, index, corpus, source map, analyst, speaker, **essay**, or **prose object**:
 
 1. Check [LLM-ROUTING.md](LLM-ROUTING.md).
 2. Check [repo-map.yaml](repo-map.yaml) if present.
 3. If the query involves an analyst, speaker, source corpus, transcript set, or geopolitical commentator, check [statecraft/voices/](statecraft/voices/) and [source-archive/statecraft/](source-archive/statecraft/).
-4. Do not rely only on GitHub code search.
-5. If `grep`, `rg`, or GitHub code search returns zero results, treat that as a possible search failure, not proof of absence.
-6. Only say "not found" after checking the routing map plus the likely path family.
-7. If the user provides a GitHub URL or exact path, fetch that path directly before doing broad search.
+4. If the query involves a **stand-alone essay**, **cross-channel thesis**, or **prose-class** placement (essay vs note vs synthesis), check [essays/README.md](essays/README.md) first (primary essay shelf), then [docs/prose-index.md](docs/prose-index.md) (class chooser). Bounded seams live in `statecraft/notes/` or `singularity/notes/` only; `statecraft/essays/` and `singularity/essays/` are **compatibility stubs** — follow pointers to repo-root `essays/`.
+5. Do not rely only on GitHub code search.
+6. If `grep`, `rg`, or GitHub code search returns zero results, treat that as a possible search failure, not proof of absence.
+7. Only say "not found" after checking the routing map plus the likely path family.
+8. If the user provides a GitHub URL or exact path, fetch that path directly before doing broad search.
 
 **Search commands:** prefer `rg` for interactive local search when available; use portable `grep` (or `rg` with `grep -R` fallback) in committed scripts and CI examples. Full convention: [LLM-ROUTING.md — Search command convention](LLM-ROUTING.md#search-command-convention).
 
 **Find-then-read:** After locating a capture via a voices source-index, apply [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) (corpus tiers + reading layers) before synthesis. PH chapter objects additionally use [statecraft/voices/jiang/ph-civ/docs/source-lattice.md](statecraft/voices/jiang/ph-civ/docs/source-lattice.md). **Source-index** (where) and **source-lattice** (how) are different queries — see LLM-ROUTING.md.
+
+**Prose routing:** After locating an essay or note candidate, confirm class and canonical home via [docs/prose-index.md](docs/prose-index.md) — repo-root [`essays/`](essays/README.md) for transportable theses; channel `notes/` for bounded seams; channel `*/essays/` only when following compatibility stubs.
 
 ### 1. Knowledge Boundary â€” Never Leak LLM Knowledge
 

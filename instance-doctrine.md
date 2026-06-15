@@ -158,6 +158,20 @@ repo-root/
 
 ---
 
+## Repository search protocol (agents)
+
+Cross-host mirror of [AGENTS.md — Repository search protocol for LLM agents](AGENTS.md#repository-search-protocol-for-llm-agents). Full step list lives in AGENTS; prose-specific routing:
+
+1. Check [LLM-ROUTING.md](LLM-ROUTING.md) and [repo-map.yaml](repo-map.yaml) when locating files, indexes, or routing surfaces.
+2. **Stand-alone / cross-channel essays** → [essays/README.md](essays/README.md) (primary shelf). Channel `statecraft/essays/` and `singularity/essays/` hold **compatibility stubs** only — follow pointers to repo-root `essays/`.
+3. **Prose class** (note vs essay vs synthesis) → [docs/prose-index.md](docs/prose-index.md).
+4. **Bounded interpretive objects** → `statecraft/notes/` or `singularity/notes/` only (channel-scoped; do not split at note layer).
+5. **Prose routing after locate:** Confirm canonical home via prose-index before citing, editing, or promoting essay-class material.
+
+Active operator channels: [statecraft/](statecraft/README.md), [singularity/](singularity/README.md). Product essay: [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md).
+
+---
+
 ## Instance-specific terminology
 
 - **Do not** use legacy on-disk names (`SELF.md`, `EVIDENCE.md`, `PENDING-REVIEW.md`, …) Ã¢â‚¬” canonical paths are **`self.md`**, **`self-skills.md`** (capability index; legacy `skills.md` until migrated), **`self-archive.md`** (EVIDENCE), **`recursion-gate.md`** ([canonical-paths.md](../../docs/canonical-paths.md))

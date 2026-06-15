@@ -71,6 +71,14 @@ Cross-channel pairs may exist on **both** compatibility shelves until recanonica
 | [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) | Product identity essay — accumulation → governed interpretive machine |
 | [interpretive-machine.md](./interpretive-machine.md) | Cross-channel thesis — interpretive learning + judgment infrastructure ([cluster](./interpretive-machine/README.md)) |
 | [pope-leo-on-ai.md](./pope-leo-on-ai.md) | Cross-channel placeholder — statecraft legitimacy + singularity mediation emphases |
+| [sovereignty-under-acceleration.md](./sovereignty-under-acceleration.md) | Cross-channel bridge — authority under acceleration; Coffee D → statecraft handoff |
+| [narrative-shaped-alignment.md](./narrative-shaped-alignment.md) | Cross-channel thesis — narrative vs rule alignment; PH-CIV formation bridge |
+| [agent-control-plane.md](./agent-control-plane.md) | Cross-channel thesis — agent governance, receipts, rollback, human meaning |
+| [interface-operating-layer-2028.md](./interface-operating-layer-2028.md) | Cross-channel thesis — AI interface as operating layer (2028 horizon) |
+| [future-roadmap-implications.md](./future-roadmap-implications.md) | Cross-channel roadmap — substrate, control plane, trust infrastructure |
+| [apprentice-studio-30-day-pilot.md](./apprentice-studio-30-day-pilot.md) | Singularity × work-cici pilot thesis — beginner uplift under review gates |
+| [brewmind-business-plan.md](./brewmind-business-plan.md) | work-cici business plan — network-first BrewMind (WORK draft) |
+| [system-design-lineage-is-not-unique-in-kind.md](./system-design-lineage-is-not-unique-in-kind.md) | Cross-channel design-family thesis — academic precedent ([cluster](./system-design-lineage/README.md)) |
 
 ## New essays (forward-only)
 
