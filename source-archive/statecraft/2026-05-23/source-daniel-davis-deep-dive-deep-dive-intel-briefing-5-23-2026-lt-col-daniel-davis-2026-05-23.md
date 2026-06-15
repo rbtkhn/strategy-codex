@@ -5,8 +5,8 @@ kind: transcript
 source_form: solo
 source_type: youtube
 transcript_type: operator_pasted_transcript
-title: "Deep Dive Intel Briefing 5/23/2026 Lt Col Daniel Davis"
-source_url: https://www.youtube.com/watch?v=E1hNNQvGPGs
+title: Deep Dive Intel Briefing 5/23/2026 Lt Col Daniel Davis
+source_url: "https://www.youtube.com/watch?v=E1hNNQvGPGs"
 youtube_id: E1hNNQvGPGs
 channel_slug: daniel-davis-deep-dive
 source_note: Transcript pasted manually by operator for canonical May 23 2026 Davis briefing capture.
@@ -14,9 +14,11 @@ editorial_note: Operator-pasted transcript body; not independently verified as v
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
-channel_url: https://www.youtube.com/@DanielDavisDeepDive
+channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
+transcript_wrapper_tier: clean
 ---
+
 # Deep Dive Intel Briefing 5/23/2026 Lt Col Daniel Davis
 
 Hey everybody, welcome to the Daniel Davis Deep Dive Intelligence Brief, where we bring you the best of what we learned this week and the most important things that happened overnight. All kinds of things are going on right now. President Trump was supposed to be going to his son's wedding. He was supposed to be going to Florida, and then dramatic scenes where you the motorcade is seen rushing back to the capital into the to the White House, and everybody's like, man, that the war's going to start tonight. And then it's like, no, actually it's not going to start.

@@ -9,12 +9,14 @@ host: Glenn Diesen
 guest: Seyed M. Marandi
 title: "Seyed M. Marandi: Iran Closes Its Airspace as Negotiations Fail and the U.S. Prepares to Strike"
 channel_url: "https://www.youtube.com/@GDiesen1/videos"
-channel_slug: "glenn-diesen"
+channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=igXSXxqMRfc"
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-source_note: "Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim."
+source_note: Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim.
+transcript_wrapper_tier: clean
 ---
+
 # Seyed M. Marandi: Iran Closes Its Airspace as Negotiations Fail and the U.S. Prepares to Strike
 
 Welcome back. We have the great privilege today to be joined by S Muhammad Marandi, a professor at Thran University and a former adviser to Iran's nuclear negotiation team. Uh thank you very much for coming back on.

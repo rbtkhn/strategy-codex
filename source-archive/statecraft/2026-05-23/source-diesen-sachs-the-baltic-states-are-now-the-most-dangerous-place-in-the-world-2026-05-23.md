@@ -9,13 +9,15 @@ host: Glenn Diesen
 guest: Jeffrey Sachs
 title: "Jeffrey Sachs: The Baltic States Are Now the \"Most Dangerous Place\" in the World"
 channel_url: "https://www.youtube.com/@GDiesen1/videos"
-channel_slug: "glenn-diesen"
+channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=3EfEitDQPj4"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-editorial_note: "Direct YouTube watch URL and full transcript body supplied by operator in Codex chat. Treated as an in-review transcript-grade capture rather than an auto-subtitles object."
+editorial_note: Direct YouTube watch URL and full transcript body supplied by operator in Codex chat. Treated as an in-review transcript-grade capture rather than an auto-subtitles object.
 status: in-review
+transcript_wrapper_tier: clean
 ---
+
 # Jeffrey Sachs: The Baltic States Are Now the "Most Dangerous Place" in the World
 
 **Channel:** Glenn Diesen  

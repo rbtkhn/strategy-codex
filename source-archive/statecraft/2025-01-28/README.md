@@ -4,14 +4,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `9`
+- Source files: `10`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (9)
-- Source form mix: `interview` (8), `solo` (1)
+- Body kind mix: `transcript` (9), `institutional-primary` (1)
+- Source form mix: `interview` (8), `solo` (1), `vatican_official_text` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `7`
-- Distinct threads: `6`
+- Distinct threads: `9`
 
 ## Channel / Show Rollup
 
@@ -21,7 +21,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (7), `Alexander Mercouris` (1), `Andrew Napolitano` (1)
 - Guests: `Douglas Macgregor` (2), `BREAKING` (1), `Chances of US Civil War Greater than You Realize` (1), `Chas Freeman` (1), `EXCLUSIVE` (1), `Rapid Change at the Pentagon w/Lt. Col Daniel Davis` (1), `Trump’s Opportunity to have an Historic Presidency w/Larry Johnson` (1)
-- Threads: `davis` (7), `macgregor` (2), `freeman` (1), `johnson` (1), `mercouris` (1), `napolitano` (1)
+- Threads: `davis` (7), `macgregor` (2), `ai` (1), `freeman` (1), `johnson` (1), `mercouris` (1), `napolitano` (1), `pope-leo` (1), `vatican` (1)
 
 ## Files
 
@@ -34,3 +34,4 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - `source-daniel-davis-deep-dive-rapid-change-at-the-pentagon-w-lt-col-daniel-davis-2025-01-28.md`
 - `source-daniel-davis-deep-dive-trump-s-opportunity-to-have-an-historic-presidency-w-larry-johnson-2025-01-28.md`
 - `source-napolitano-amb-chas-freeman-netanyahu-on-the-ropes-2025-01-28.md`
+- `source-vatican-antiqua-et-nova-ai-2025-01-28.md`

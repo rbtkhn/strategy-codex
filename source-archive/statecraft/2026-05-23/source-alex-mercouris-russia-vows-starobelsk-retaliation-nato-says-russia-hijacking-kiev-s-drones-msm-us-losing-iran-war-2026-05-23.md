@@ -6,16 +6,18 @@ source_form: solo
 thread: mercouris
 show: Alexander Mercouris
 host: Alexander Mercouris
-title: "Russia Vows Starobelsk Retaliation; NATO Says Russia Hijacking Kiev's Drones; MSM US Losing Iran War"
+title: Russia Vows Starobelsk Retaliation; NATO Says Russia Hijacking Kiev's Drones; MSM US Losing Iran War
 channel_url: "https://www.youtube.com/@AlexMercourisReal"
-channel_slug: "alexander-mercouris"
+channel_slug: alexander-mercouris
 source_url: "https://www.youtube.com/watch?v=z5f8biIKc6M"
 source_type: youtube
 transcript_type: operator_pasted_transcript
-source_note: "Transcript pasted manually by operator for canonical May 23 2026 raw-input capture."
-editorial_note: "Operator-pasted YouTube transcript preserved as raw-input SSOT. Light cleanup only where needed for routing-critical punctuation."
+source_note: Transcript pasted manually by operator for canonical May 23 2026 raw-input capture.
+editorial_note: Operator-pasted YouTube transcript preserved as raw-input SSOT. Light cleanup only where needed for routing-critical punctuation.
 status: in-review
+transcript_wrapper_tier: clean
 ---
+
 # Russia Vows Starobelsk Retaliation; NATO Says Russia Hijacking Kiev's Drones; MSM US Losing Iran War
 
 **Channel:** Alexander Mercouris  

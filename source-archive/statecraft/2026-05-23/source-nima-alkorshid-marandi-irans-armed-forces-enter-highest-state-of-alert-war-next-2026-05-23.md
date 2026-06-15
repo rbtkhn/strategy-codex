@@ -15,6 +15,7 @@ source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 source_note: Operator-pasted YouTube transcript; transcript-bearing but not human-verified verbatim.
 opening_tier: host-tease
+transcript_wrapper_tier: clean
 ---
 
 # Seyed M. Marandi: Iran’s Armed Forces Enter HIGHEST State of Alert – War Next?
