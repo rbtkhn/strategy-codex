@@ -254,3 +254,10 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: voice-profile-panel
+    source: voice-profile-panel/SKILL.md
+    appendix: .cursor/skills/voice-profile-panel/CURSOR_APPENDIX.md
+    target: .cursor/skills/voice-profile-panel/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates

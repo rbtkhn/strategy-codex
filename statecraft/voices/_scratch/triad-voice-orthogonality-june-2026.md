@@ -137,4 +137,4 @@ It's impossible to call what's going on a ceasefire, Danny — we've gone up the
 
 ### Pointer
 
-Draft skill: [`skills-portable/_drafts/voice-profile-panel/SKILL.md`](../../../skills-portable/_drafts/voice-profile-panel/SKILL.md)
+Skill: [`skills-portable/voice-profile-panel/SKILL.md`](../../../skills-portable/voice-profile-panel/SKILL.md) · [`.cursor/skills/voice-profile-panel/SKILL.md`](../../../.cursor/skills/voice-profile-panel/SKILL.md)
