@@ -25,6 +25,12 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | **essay / stand-alone thesis** (cross-channel default) | [essays/README.md](essays/README.md) — primary shelf; channel `*/essays/` = compatibility only |
 | **prose class** (note vs essay vs synthesis) | [docs/prose-index.md](docs/prose-index.md) — notes stay in `statecraft/notes/` or `singularity/notes/` only |
 | product identity / governed interpretive machine essay | [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md) |
+| archive / synthesis layer law | [essays/archive-synthesis-law.md](essays/archive-synthesis-law.md) |
+| recursive learning three-layer model | [essays/three-layers-of-recursive-learning-in-statecraft.md](essays/three-layers-of-recursive-learning-in-statecraft.md) |
+| how operator uses statecraft machine | [essays/how-the-operator-uses-the-statecraft-machine.md](essays/how-the-operator-uses-the-statecraft-machine.md) |
+| high-skill labor compression American command | [essays/high-skill-labor-compression-and-american-command.md](essays/high-skill-labor-compression-and-american-command.md) |
+| Iran nuclear threshold story hardened | [essays/how-the-iran-nuclear-threshold-story-hardened.md](essays/how-the-iran-nuclear-threshold-story-hardened.md) |
+| America sovereign command allied capture | [essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md](essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md) |
 | AI as medium / expansion of human consciousness essay | [essays/ai-and-the-expansion-of-human-consciousness.md](essays/ai-and-the-expansion-of-human-consciousness.md) |
 | **`strategy` / `strategy pass` / codex ledger pass** | [docs/skill-work/work-strategy/DEFAULT-PATH.md](docs/skill-work/work-strategy/DEFAULT-PATH.md), [.cursor/rules/strategy-codex-pass.mdc](.cursor/rules/strategy-codex-pass.mdc) — **no** skill-strategy skill ([SKILL-STRATEGY-DEPRECATED.md](docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md)) |
 | library / reading / canon / books | [self-library.md](self-library.md), [artifacts/library-index.md](artifacts/library-index.md) |

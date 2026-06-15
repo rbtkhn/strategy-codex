@@ -184,4 +184,4 @@ Return to the full journal when the detailed proof, chronology, or individual le
 
 - Full chronology and proof: [recursive-learning-journal.md](../recursive-learning-journal.md)
 - Metrics and operational testing: [skill-refinement-scorecard.md](./skill-refinement-scorecard.md)
-- Stand-alone synthesis above this note: [three-layers-of-recursive-learning-in-statecraft.md](../essays/three-layers-of-recursive-learning-in-statecraft.md)
+- Stand-alone synthesis above this note: [three-layers-of-recursive-learning-in-statecraft.md](../../essays/three-layers-of-recursive-learning-in-statecraft.md)

@@ -203,4 +203,4 @@ For the current speaker bench, return to:
 
 For the future stand-alone argument, return to:
 
-- [america-and-the-problem-of-sovereign-command-under-allied-capture.md](../essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md)
+- [america-and-the-problem-of-sovereign-command-under-allied-capture.md](../../essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md)

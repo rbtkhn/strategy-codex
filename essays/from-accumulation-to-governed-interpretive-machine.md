@@ -213,6 +213,6 @@ That is the real ambition.
 - [statecraft front door](../statecraft/README.md)
 - [singularity front door](../singularity/README.md)
 - [statecraft recursive learning journal](../statecraft/recursive-learning-journal.md)
-- [three layers of recursive learning in statecraft](../statecraft/essays/three-layers-of-recursive-learning-in-statecraft.md)
+- [three layers of recursive learning in statecraft](./three-layers-of-recursive-learning-in-statecraft.md)
 - [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md)
 - [product identity](/C:/dev/strategy-codex/docs/product-identity.md)

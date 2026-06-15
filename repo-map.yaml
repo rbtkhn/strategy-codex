@@ -27,6 +27,54 @@ routes:
     tags: [singularity, ai, medium, consciousness, interpretive-machine]
     search_hints: [expansion of human consciousness, ai medium writing print, cognition-changing medium, ai-and-the-expansion-of-human-consciousness]
 
+  - id: archive-synthesis-law-essay
+    title: Statecraft Archive and Statecraft Synthesis
+    path: essays/archive-synthesis-law.md
+    kind: essay
+    authority: work_only
+    tags: [statecraft, archive, synthesis, voices, layer-law]
+    search_hints: [archive synthesis law, statecraft archive synthesis, vertical law stack, archive truth floor]
+
+  - id: recursive-learning-three-layers-essay
+    title: Three Layers of Recursive Learning in Statecraft
+    path: essays/three-layers-of-recursive-learning-in-statecraft.md
+    kind: essay
+    authority: work_only
+    tags: [statecraft, recursive-learning, interpretive-machine, journal]
+    search_hints: [three layers recursive learning, recursive learning journal essay, instruction drift learning]
+
+  - id: operator-uses-statecraft-machine-essay
+    title: How The Operator Uses The Statecraft Machine
+    path: essays/how-the-operator-uses-the-statecraft-machine.md
+    kind: essay
+    authority: work_only
+    tags: [statecraft, operator, workflow, recursive-learning, transactions]
+    search_hints: [how operator uses statecraft, memory to mechanism, lane membrane test, falsifiable pattern transfer]
+
+  - id: high-skill-labor-american-command-essay
+    title: High-Skill Labor Compression and American Command
+    path: essays/high-skill-labor-compression-and-american-command.md
+    kind: essay
+    authority: work_only
+    tags: [statecraft, america, command, labor-compression, legitimacy]
+    search_hints: [high skill labor compression, american command essay, vendor carried command, judgment offices]
+
+  - id: iran-nuclear-threshold-hardened-essay
+    title: How the Iran Nuclear Threshold Story Hardened
+    path: essays/how-the-iran-nuclear-threshold-story-hardened.md
+    kind: essay
+    authority: work_only
+    tags: [statecraft, iran, nuclear, threshold, persia, archive]
+    search_hints: [iran nuclear threshold hardened, June 2 Pakistan offer, crude device demonstration test, nuclear story hardening]
+
+  - id: america-sovereign-command-allied-capture-essay
+    title: America and the Problem of Sovereign Command Under Allied Capture
+    path: essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md
+    kind: essay
+    authority: work_only
+    tags: [statecraft, america, command, section-224, allied-capture]
+    search_hints: [section 224 NDAA, allied capture command, sovereign command under allied capture, FY27 NDAA Israel integration]
+
   - id: prose-index
     title: Prose class chooser (notes vs essays)
     path: docs/prose-index.md

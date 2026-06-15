@@ -55,6 +55,12 @@ Stand-alone arguments that may span **statecraft and singularity** live at repo-
 | [pope-leo-on-ai.md](essays/pope-leo-on-ai.md) | Cross-channel placeholder — Vatican office + mediation (await primary text) |
 | [brewmind-business-plan.md](essays/brewmind-business-plan.md) | work-cici BrewMind network-first plan (WORK draft) |
 | [ai-and-the-expansion-of-human-consciousness.md](essays/ai-and-the-expansion-of-human-consciousness.md) | AI as medium shift (writing / print); consciousness vs simulated understanding |
+| [archive-synthesis-law.md](essays/archive-synthesis-law.md) | Archive → synthesis vertical law before host law, bridges, CIV-STATE, lanes |
+| [three-layers-of-recursive-learning-in-statecraft.md](essays/three-layers-of-recursive-learning-in-statecraft.md) | Three-layer recursive learning (objects / interpretation / instructions) |
+| [how-the-operator-uses-the-statecraft-machine.md](essays/how-the-operator-uses-the-statecraft-machine.md) | Operator question-types — memory→mechanism, membrane tests, falsifiable transfer |
+| [high-skill-labor-compression-and-american-command.md](essays/high-skill-labor-compression-and-american-command.md) | America lane — synthetic cognition compressing command offices |
+| [how-the-iran-nuclear-threshold-story-hardened.md](essays/how-the-iran-nuclear-threshold-story-hardened.md) | Iran nuclear story hardening Jan–Jun 2026 — threshold to transfer/test claims |
+| [america-and-the-problem-of-sovereign-command-under-allied-capture.md](essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md) | Section 224 / allied capture — formal sovereignty vs embedded command |
 
 Workshop **sheets** under `singularity/workshop/sheets/` remain the operating surface for live passes; link from each essay’s **Return Path** when you need the pass worksheet.
 

@@ -59,13 +59,13 @@ Machine-constitutional files stay where they already belong:
 
 ## Best Entry Points
 
-- [how-the-iran-nuclear-threshold-story-hardened.md](./how-the-iran-nuclear-threshold-story-hardened.md) - stand-alone scaffold for the January-June 2026 hardening from nuclear-threshold logic to the June 2 Pakistan-offer / crude-device / demonstration-test claim
-- [america-and-the-problem-of-sovereign-command-under-allied-capture.md](./america-and-the-problem-of-sovereign-command-under-allied-capture.md) - placeholder essay scaffold for the Section 224 controversy as an America-side command argument
-- [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) - stand-alone model of the journal's current maturation
+- [how-the-iran-nuclear-threshold-story-hardened.md](../../essays/how-the-iran-nuclear-threshold-story-hardened.md) - stand-alone scaffold for the January-June 2026 hardening (**canonical** at repo root; local stub only)
+- [america-and-the-problem-of-sovereign-command-under-allied-capture.md](../../essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md) - placeholder essay scaffold for Section 224 / allied capture (**canonical** at repo root; local stub only)
+- [three-layers-of-recursive-learning-in-statecraft.md](../../essays/three-layers-of-recursive-learning-in-statecraft.md) - stand-alone model of the journal's current maturation (**canonical** at repo root; local stub only)
 - [from-accumulation-to-governed-interpretive-machine.md](/C:/dev/strategy-codex/essays/from-accumulation-to-governed-interpretive-machine.md) - teachable explanation of what the repo is becoming (**canonical**; compatibility stub under `statecraft/essays/`)
 - [interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md) - cross-channel thesis on interpretive learning (**canonical**; cluster at [essays/interpretive-machine/](/C:/dev/strategy-codex/essays/interpretive-machine/README.md))
-- [how-the-operator-uses-the-statecraft-machine.md](./how-the-operator-uses-the-statecraft-machine.md) - argument about what the machine is already doing
-- [high-skill-labor-compression-and-american-command.md](./high-skill-labor-compression-and-american-command.md) - lane-specific statecraft thesis
+- [how-the-operator-uses-the-statecraft-machine.md](../../essays/how-the-operator-uses-the-statecraft-machine.md) - argument about what the machine is already doing (**canonical** at repo root; local stub only)
+- [high-skill-labor-compression-and-american-command.md](../../essays/high-skill-labor-compression-and-american-command.md) - lane-specific statecraft thesis (**canonical** at repo root; america + essay stubs)
 - [why-barnes-should-reconsider-ai.md](./why-barnes-should-reconsider-ai.md) - **redirect only**; canonical body lives in [Barnes on AI note](../notes/barnes-on-ai.md) (corpus + reconsideration read)
 - [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) - cross-channel placeholder (**canonical**; compatibility stub under `statecraft/essays/`)
 
@@ -101,22 +101,20 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 ### Shelf-Native
 
-- [how-the-iran-nuclear-threshold-story-hardened.md](./how-the-iran-nuclear-threshold-story-hardened.md) - shelf-native statecraft essay scaffold tracking how the Iran nuclear story hardened from threshold logic into the June 2 hard thesis while preserving the bench split over whether the final claim is true
-- [america-and-the-problem-of-sovereign-command-under-allied-capture.md](./america-and-the-problem-of-sovereign-command-under-allied-capture.md) - shelf-native placeholder essay
-- [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) - shelf-native synthesized essay
+_No full-body essays remain on this compatibility shelf — canonical theses live at repo-root [`essays/`](../../essays/README.md). Stubs below preserve older paths._
+
 - [from-accumulation-to-governed-interpretive-machine.md](/C:/dev/strategy-codex/essays/from-accumulation-to-governed-interpretive-machine.md) - canonical at repo root; local stub only
 - [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) - canonical at repo root; local stub only
 
 ### Mirrored Legacy Promotion
 
+- [three-layers-of-recursive-learning-in-statecraft.md](../../essays/three-layers-of-recursive-learning-in-statecraft.md) - synthesized recursive-learning model (**canonical** at repo root; local stub only)
+- [how-the-operator-uses-the-statecraft-machine.md](../../essays/how-the-operator-uses-the-statecraft-machine.md) from [../how-the-operator-uses-the-statecraft-machine.md](../how-the-operator-uses-the-statecraft-machine.md) — operator usage essay (**canonical** at repo root; domain + essay stubs)
+- [high-skill-labor-compression-and-american-command.md](../../essays/high-skill-labor-compression-and-american-command.md) from [../america/high-skill-labor-compression-and-american-command.md](../america/high-skill-labor-compression-and-american-command.md) — America command essay (**canonical** at repo root; america + essay stubs)
+- [how-the-iran-nuclear-threshold-story-hardened.md](../../essays/how-the-iran-nuclear-threshold-story-hardened.md) — Iran threshold hardening scaffold (**canonical** at repo root; local stub only)
+- [america-and-the-problem-of-sovereign-command-under-allied-capture.md](../../essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md) — Section 224 / allied capture scaffold (**canonical** at repo root; local stub only)
+- [archive-synthesis-law.md](../../essays/archive-synthesis-law.md) from [../archive-synthesis-law.md](../archive-synthesis-law.md) — layer law (**canonical** at repo root; domain + essay stubs)
 - [why-barnes-should-reconsider-ai.md](./why-barnes-should-reconsider-ai.md) - redirect stub; prose recanonicalized to [../notes/barnes-on-ai.md](../notes/barnes-on-ai.md)
-
-- [how-the-operator-uses-the-statecraft-machine.md](./how-the-operator-uses-the-statecraft-machine.md) from [../how-the-operator-uses-the-statecraft-machine.md](../how-the-operator-uses-the-statecraft-machine.md)
-- [high-skill-labor-compression-and-american-command.md](./high-skill-labor-compression-and-american-command.md) from [../america/high-skill-labor-compression-and-american-command.md](../america/high-skill-labor-compression-and-american-command.md)
-
-### Review-Needed
-
-- [archive-synthesis-law.md](./archive-synthesis-law.md) from [../archive-synthesis-law.md](../archive-synthesis-law.md) - doctrinal / constitutional text, not yet clean essay-class authority
 
 ## Later Phases
 

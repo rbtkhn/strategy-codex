@@ -59,8 +59,8 @@ Existing essay bodies still on channel shelves — migrate in bounded passes; do
 
 | Shelf | Role | Index |
 |-------|------|--------|
-| Statecraft | Pre-root statecraft-native essays; Iran, America command, interpretive-machine teachable docs | [statecraft/essays/README.md](../statecraft/essays/README.md) |
-| Singularity | Pre-root singularity-native essays; interpretive-machine cluster, workshop promotions | [singularity/essays/README.md](../singularity/essays/README.md) |
+| Statecraft | Pre-root statecraft-native essays; Iran, America command, interpretive-machine teachable docs | [statecraft/essays/README.md](../statecraft/essays/README.md) — **stubs only** (2026-06 migration complete) |
+| Singularity | Pre-root singularity-native essays; interpretive-machine cluster, workshop promotions | [singularity/essays/README.md](../singularity/essays/README.md) — **stubs only** (2026-06 migration complete) |
 
 Cross-channel pairs may exist on **both** compatibility shelves until recanonicalized under `essays/` (see **Current shelf** below).
 
@@ -80,6 +80,12 @@ Cross-channel pairs may exist on **both** compatibility shelves until recanonica
 | [brewmind-business-plan.md](./brewmind-business-plan.md) | work-cici business plan — network-first BrewMind (WORK draft) |
 | [system-design-lineage-is-not-unique-in-kind.md](./system-design-lineage-is-not-unique-in-kind.md) | Cross-channel design-family thesis — academic precedent ([cluster](./system-design-lineage/README.md)) |
 | [ai-and-the-expansion-of-human-consciousness.md](./ai-and-the-expansion-of-human-consciousness.md) | AI as cognition-changing medium (writing / print analogy); judgment vs imitation |
+| [archive-synthesis-law.md](./archive-synthesis-law.md) | Archive → synthesis stack law; vertical layer boundaries before lanes / CIV-STATE |
+| [three-layers-of-recursive-learning-in-statecraft.md](./three-layers-of-recursive-learning-in-statecraft.md) | Recursive-learning journal — objects, interpretation, instruction surfaces |
+| [how-the-operator-uses-the-statecraft-machine.md](./how-the-operator-uses-the-statecraft-machine.md) | Grounded operator question-types — memory→mechanism, membrane tests, falsifiable transfer |
+| [high-skill-labor-compression-and-american-command.md](./high-skill-labor-compression-and-american-command.md) | America lane — elite office compression, vendor-carried command, legitimacy thinning |
+| [how-the-iran-nuclear-threshold-story-hardened.md](./how-the-iran-nuclear-threshold-story-hardened.md) | Iran nuclear threshold hardening Jan–Jun 2026 — bench split preserved (scaffold) |
+| [america-and-the-problem-of-sovereign-command-under-allied-capture.md](./america-and-the-problem-of-sovereign-command-under-allied-capture.md) | Section 224 / allied capture — America sovereign command scaffold (placeholder) |
 
 ## New essays (forward-only)
 
