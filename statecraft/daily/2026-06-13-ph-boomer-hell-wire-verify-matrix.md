@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Parent daily:** [2026-06-13](./2026-06-13.md) · **Archive:** [source-predictive-history-welcome-to-boomer-hell-2026-06-13.md](../../source-archive/statecraft/2026-06-13/source-predictive-history-welcome-to-boomer-hell-2026-06-13.md) · **Cross-day use:** [Jun 14 § Boomer Hell overlay](./2026-06-14.md#cross-day-seam-jun-13--boomer-hell-overlay)
 
-**Mode:** sub-hook batch (PH essay tier-4 commentary; wire-grade **only** on named checkable hooks) · **Pass #2 (deep)** · **Hooks:** 9 · **CIV-STATE sweep:** 4/5 spoke · **Confidence:** medium-high (America financial); medium (CZ causality wording)
+**Mode:** sub-hook batch · **Pass #3 (energy + May 23)** · **Hooks:** 13 (J13-PH-1–11 · J23-PH-1–4) · **CIV-STATE sweep:** 4/5 spoke · **Confidence:** medium-high (America financial/energy); medium (CZ causality · SPR wording)
 
 ## Pass #2 — deep hooks (J13-PH-6 – J13-PH-9)
 
@@ -20,8 +20,25 @@ WORK only; not Record.
 | PH line | Label |
 | --- | --- |
 | China “organ storage container for elderly official” urban legend | **Analyst-tier / folklore** — not wire-primary |
-| Oil sub-$100 vs SPR “depleted in a month or two” | **Escalate** energy-desk pass if load-bearing |
 | Hunter Biden quote on Kushner | **Attribution** only — not independent verification of Hunter line |
+
+## Pass #3 — energy desk (J13-PH-10 – J13-PH-11)
+
+| ID | PH claim (essay) | Verdict | Cite / fence |
+| --- | --- | --- | --- |
+| **J13-PH-10** | Oil **remains below $100/bbl** (Jun 13 essay air) | **Supported** | Brent ~**$83–88** · WTI ~**$80–85** Jun 12–15 ([Trading Economics Jun 15](https://tradingeconomics.com/commodity/brent-crude-oil) · [Gulf News Jun 12](https://gulfnews.com/business/energy/why-oil-is-failing-crude-benchmarks-slide-below-90-as-traders-reassess-hormuz-supply-risks-1.500572519) · [Economic Times Jun 15](https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-june-15-crude-oil-hits-march-lows-down-4-as-us-iran-sign-peace-deal-what-are-experts-saying/articleshow/131731293.cms)) |
+| **J13-PH-11** | **Most of the world’s** strategic petroleum reserves **depleted in a month or two** | **Contradicted / partial wording** | **US SPR** ~**349.2M bbl** week ending **Jun 5** — Reagan-era **low**, not empty; ~**66M** released since Feb 28; ~**9M/week** draw ([Al-Monitor/EIA](https://www.al-monitor.com/originals/2026/06/us-strategic-oil-stockpile-nears-four-decade-low-iran-war-drags) · [Fortune Jun 10](https://fortune.com/2026/06/10/us-strategic-petroleum-reserve-depleted-lowest-level-since-reagan/)). **Global:** IEA **400M bbl** coordinated release ≠ “depleted.” PH conflates **rapid draw** with **imminent exhaustion**. |
+
+## May 23 essay hooks (J23-PH-1 – J23-PH-4)
+
+**Archive:** [Mad King Trump (2026-05-23)](../../source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md)
+
+| ID | PH claim | Verdict | Cite |
+| --- | --- | --- | --- |
+| **J23-PH-1** | Tulsi Gabbard resignation **effective Jun 30 2026**; husband rare bone cancer | **Supported** | [Fox News May 22](https://www.foxnews.com/politics/exclusive-tulsi-gabbard-resigns-from-trump-cabinet) |
+| **J23-PH-2** | Massie primary **most expensive in House history** (~$30M+) | **Supported** | **~$32.6M** ad spend ([ABC/AdImpact](https://abcnews.com/Politics/republican-thomas-massie-pitted-trump-backed-opponent-expensive/story?id=132977731)) |
+| **J23-PH-3** | Massie / Gallrein / Boomers block | **Partial** (shared) | → **J13-PH-1/2** only — do not double-count |
+| **J23-PH-4** | Gorka **considering** charging Tucker Carlson **domestic terrorist** | **Partial** | Klippenstein carry — not DOJ primary at triage |
 
 ## Lane sweep receipts
 
@@ -51,9 +68,15 @@ WORK only; not Record.
 - **J13-PH-6:** DOJ pardon instrument + Binance/WLF contract docs if causality row promoted.
 - **J13-PH-8:** Same-day Forbes/Bloomberg closing marks if trillionaire row load-bearing in America lane.
 - **J13-PH-9:** SPAK investigation status + environmental impact study completion.
+- **J13-PH-10/11:** EIA weekly SPR through Jun 15 + IEA collective stock release ledger if depletion clock promoted.
+- **J23-PH-4:** Primary DOJ/Gorka statement if Tucker row load-bearing.
 
 ## Mesh
 
 **America overlay:** Massie generational fracture **usable** for legitimacy read; **do not** quote PH “every demographic except Boomers” without **J13-PH-1 partial** fence.
 
 **Russia/PRC overlay:** Longevity **state-program + hot-mic** rows **supported** at wire tier; **do not** merge into Iran/Lebanon MOU judgment ([Jun 14 dominant object](./2026-06-14.md#executive-read)).
+
+**Cross-essay:** [Mad King × Boomer Hell](./2026-06-13-jiang-ph-mad-king-boomer-hell-cross-weave.md) — Massie block = **one receipt**; May = purge mechanism, Jun = generational structure.
+
+**Markets-vs-physics:** **J13-PH-10 supported** + **J13-PH-11 contradicted/partial** — usable as **delusion overlay** (cheap oil despite stress), not SPR depletion clock.

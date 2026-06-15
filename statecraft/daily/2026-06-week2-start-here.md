@@ -95,7 +95,8 @@ Heavy-week adds:
 - [72h watch run (Jun 12–13)](./2026-06-12-72h-watch-run.md) — Fork 1–5 incl. §224 + A′
 - [Lebanon enforcement × Nima host arc (Jun 14)](./2026-06-14-lebanon-enforcement-nima-host-arc.md) — J14-13–J14-16 · pseudo-gate hardened · host timeline method
 - [Jun 14 wire-verify matrix](./2026-06-14-wire-verify-matrix.md) — J14-1–**J14-16**
-- [PH Boomer Hell wire-verify (Jun 13)](./2026-06-13-ph-boomer-hell-wire-verify-matrix.md) — J13-PH-1–**J13-PH-5**
+- [PH Boomer Hell wire-verify (Jun 13)](./2026-06-13-ph-boomer-hell-wire-verify-matrix.md) — J13-PH-1–**J13-PH-9**
+- [Jiang PH cross-weave — Mad King × Boomer Hell](./2026-06-13-jiang-ph-mad-king-boomer-hell-cross-weave.md)
 
 ## Falsifier table (through Jun 12)
 
