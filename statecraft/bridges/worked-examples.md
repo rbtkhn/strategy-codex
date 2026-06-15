@@ -23,7 +23,7 @@ The goal is not to prove one adapter right and the other wrong. The goal is to p
 
 Both runs start from the same source base:
 
-- [Hormuz Recognition / Transit Restraint](../states/persia/hormuz-recognition-transit-restraint.md)
+- [Hormuz Recognition / Transit Restraint](../states/essays/hormuz-recognition-transit-restraint.md)
 - [Iran helix](../persia/helix.md)
 
 The test is whether the adapters produce different statecraft outputs from the same object rather than from different corpora.

@@ -57,7 +57,7 @@ After the first `civ-state` object, open:
 - [Iran state memory](../persia/civilization/objects/state-memory.md)
 - [Iran geo](../persia/civilization/geo.md)
 - [Iran peace](../persia/civilization/peace.md)
-- [Hormuz Recognition / Transit Restraint](../states/persia/hormuz-recognition-transit-restraint.md)
+- [Hormuz Recognition / Transit Restraint](../states/essays/hormuz-recognition-transit-restraint.md)
 
 Speaker-side return path when needed:
 

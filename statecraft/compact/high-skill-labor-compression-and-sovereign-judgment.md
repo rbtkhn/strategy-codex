@@ -65,6 +65,6 @@ Use this note before drafting if the object needs:
 
 Best partners:
 
-- [../states/high-skill-labor-compression-and-civilizational-statecraft.md](../states/high-skill-labor-compression-and-civilizational-statecraft.md)
+- [../states/essays/high-skill-labor-compression-and-civilizational-statecraft.md](../states/essays/high-skill-labor-compression-and-civilizational-statecraft.md)
 - [../america/high-skill-labor-compression-and-american-command.md](../america/high-skill-labor-compression-and-american-command.md)
 - [../../essays/sovereignty-under-acceleration.md](../../essays/sovereignty-under-acceleration.md)

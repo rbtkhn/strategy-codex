@@ -64,7 +64,7 @@ Most useful supports:
 
 - [Iran state memory](../persia/civilization/objects/state-memory.md)
 - [Iran peace](../persia/civilization/peace.md)
-- [Hormuz recognition / transit restraint](../states/persia/hormuz-recognition-transit-restraint.md)
+- [Hormuz recognition / transit restraint](../states/essays/hormuz-recognition-transit-restraint.md)
 - [Treaty form vs transactional settlement](../states/indexes/crooke/treaty-form-vs-transactional-settlement.md)
 - [Settlement precedent and broken agreement](../states/indexes/freeman/settlement-precedent-and-broken-agreement.md)
 - [Settlement-room architecture](../states/migration/canonical-family-settlement-room-architecture.md)
@@ -156,7 +156,7 @@ The later settlement is not starting from nothing. It is being rehearsed, in com
 
 `civ-state` refinement:
 
-- [Hormuz recognition / transit restraint](../states/persia/hormuz-recognition-transit-restraint.md) already gives the key pattern:
+- [Hormuz recognition / transit restraint](../states/essays/hormuz-recognition-transit-restraint.md) already gives the key pattern:
   `geography creates leverage -> dignity requires recognition -> restraint must be reciprocal -> overuse degrades sovereignty`
 - [Iran peace](../persia/civilization/peace.md) clarifies that Hormuz restraint must read as sovereign regulation rather than surrender
 - [Settlement-room architecture](../states/migration/canonical-family-settlement-room-architecture.md) clarifies that route inhabitation and political settlement are one room, not two unrelated layers
