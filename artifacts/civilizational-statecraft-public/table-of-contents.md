@@ -111,7 +111,7 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Civilizational Motion](framework/motion.md)
+3. [Rhythm](framework/rhythm.md)
 4. [Civilizational Statecraft Framework](framework/doctrine.md)
 5. [Era Law](framework/era.md)
 6. [Hybrid References](hybrid-references.md)

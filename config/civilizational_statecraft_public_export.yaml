@@ -1,7 +1,7 @@
 # Civilizational Statecraft public export manifest (WORK; not Record)
 # SSOT for scripts/export_civilizational_statecraft_public.py
 schema_version: "1.0.0"
-release_tag: "v0.1.7"
+release_tag: "v0.1.8"
 canonical_public_repo: "https://github.com/rbtkhn/civ-state"
 legacy_public_repo: "https://github.com/rbtkhn/civ-emp"
 
@@ -68,8 +68,8 @@ apparatus:
   - src: framework/era.md
     dest: framework/era.md
     transform: strip_work_fence
-  - src: framework/motion.md
-    dest: framework/motion.md
+  - src: framework/rhythm.md
+    dest: framework/rhythm.md
     transform: strip_work_fence
   - src: framework/continuity.md
     dest: framework/continuity.md

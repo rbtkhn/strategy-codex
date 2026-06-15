@@ -42,7 +42,7 @@ REQUIRED_ROOT = [
 
 REQUIRED_FRAMEWORK = [
     "framework/doctrine.md",
-    "framework/motion.md",
+    "framework/rhythm.md",
     "framework/era.md",
     "framework/continuity.md",
     "framework/patterns/README.md",

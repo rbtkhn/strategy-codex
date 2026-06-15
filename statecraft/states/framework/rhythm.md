@@ -1,4 +1,6 @@
-# Civilizational Motion
+# Rhythm
+
+**Civilizational motion** — the whole-work three-beat law (beautifies → amplifies → degrades).
 
 WORK only; not Record.
 

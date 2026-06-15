@@ -16,7 +16,7 @@ The **whole-work opening essay** ([introduction.md](introduction.md)) — civili
 
 ### Civilizational motion
 
-The recurrent three-beat rhythm — civilization beautifies, empire amplifies, entropy degrades — plus the retrieval movement memory → legitimacy → carrier → pressure → settlement. Canonical framework page: [framework/motion.md](framework/motion.md). Distinct from paired-civilization **double-helix** analysis in external memory corpora.
+The recurrent three-beat rhythm — civilization beautifies, empire amplifies, entropy degrades — plus the retrieval movement memory → legitimacy → carrier → pressure → settlement. Canonical framework page: [framework/rhythm.md](framework/rhythm.md). Distinct from paired-civilization **double-helix** analysis in external memory corpora.
 
 ### civ-state
 

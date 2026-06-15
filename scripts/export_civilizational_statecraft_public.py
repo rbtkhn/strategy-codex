@@ -136,7 +136,7 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Civilizational Motion](framework/motion.md)
+3. [Rhythm](framework/rhythm.md)
 4. [Civilizational Statecraft Framework](framework/doctrine.md)
 5. [Era Law](framework/era.md)
 6. [Hybrid References](hybrid-references.md)
@@ -404,7 +404,7 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         )
 
     framework = f"{prefix}framework/doctrine.md"
-    motion = f"{prefix}framework/motion.md"
+    rhythm = f"{prefix}framework/rhythm.md"
     era = f"{prefix}framework/era.md"
     text = re.sub(
         r"\]\((?:\.\./)*(?:framework/)?doctrine\.md\)",
@@ -412,8 +412,13 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         text,
     )
     text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?rhythm\.md\)",
+        f"]({rhythm})",
+        text,
+    )
+    text = re.sub(
         r"\]\((?:\.\./)*(?:framework/)?motion\.md\)",
-        f"]({motion})",
+        f"]({rhythm})",
         text,
     )
     text = re.sub(
@@ -514,8 +519,13 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
             text,
         )
         text = re.sub(
+            r"\]\((?:\.\./)*framework/rhythm\.md\)",
+            "](../rhythm.md)",
+            text,
+        )
+        text = re.sub(
             r"\]\((?:\.\./)*framework/motion\.md\)",
-            "](../motion.md)",
+            "](../rhythm.md)",
             text,
         )
         text = re.sub(
@@ -584,13 +594,18 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
             text,
         )
         text = re.sub(
+            r"\]\((?:\.\./)*framework/rhythm\.md\)",
+            "](rhythm.md)",
+            text,
+        )
+        text = re.sub(
             r"\]\((?:\.\./)*framework/motion\.md\)",
-            "](motion.md)",
+            "](rhythm.md)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*framework/civilizational-motion\.md\)",
-            "](motion.md)",
+            "](rhythm.md)",
             text,
         )
         text = re.sub(

@@ -4,7 +4,7 @@ Whole-work governing shelf for *Civilizational Statecraft*. Read [Civilization a
 
 ## Law shelf
 
-1. [Motion](motion.md) — civilizational rhythm (beautifies → amplifies → degrades)
+1. [Rhythm](rhythm.md) — civilizational motion (beautifies → amplifies → degrades)
 2. [Doctrine](doctrine.md) — six-term Civilizational Statecraft Framework
 3. [Era](era.md) — form-historical era spine (Ancient → Cybernetic)
 

@@ -101,7 +101,7 @@ When two eras both seem active, ask which **form** is governing behavior now —
 
 ## Relation to other framework surfaces
 
-- [Civilizational motion](motion.md) — three-beat rhythm and retrieval movement; read when phase placement governs
+- [Rhythm](rhythm.md) — civilizational motion (three-beat rhythm and retrieval movement); read when phase placement governs
 - [Civilizational Statecraft Framework](doctrine.md) — governing six-term doctrine; era law supports it, does not replace it
 - [Reader Guide](../reader-guide.md) — whole-work reading method and volume chapter law
 - Volume `sacred-grammar.md` — legitimacy substrate when faith or civilization governs within one case
