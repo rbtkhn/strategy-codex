@@ -6,7 +6,7 @@ This folder is the front-door volume order for `civ-state`.
 
 It does not replace lane-local `statecraft/<lane>/` storage. It organizes CIV-STATE retrieval so the source base can be opened in one stable civilizational sequence before descending into helix, civilization, empire, state, or transaction surfaces.
 
-For the whole-work apparatus above this shelf, open:
+For the whole-work apparatus beside this five-volume shelf, open:
 
 - [Table of Contents](../table-of-contents.md)
 - [Reader Guide](../reader-guide.md)
@@ -31,13 +31,13 @@ let support displace source primacy.
 
 ## Constitutional Order
 
-Read CIV-STATE in this order:
+Read CIV-STATE in this order (five-volume frame):
 
-1. [CIV-STATE China](civ-state-china/README.md)
-2. [CIV-STATE Persia](civ-state-persia/README.md)
-3. [CIV-STATE Rome](civ-state-rome/README.md)
-4. [CIV-STATE Russia](civ-state-russia/README.md)
-5. [CIV-STATE America](civ-state-america/README.md)
+1. [CIV-STATE China](civ-state-china/README.md) — **Volume I**
+2. [CIV-STATE Persia](civ-state-persia/README.md) — **Volume II**
+3. [CIV-STATE Rome](civ-state-rome/README.md) — **Volume III**
+4. [CIV-STATE Russia](civ-state-russia/README.md) — **Volume IV**
+5. [CIV-STATE America](civ-state-america/README.md) — **Volume V**
 
 Each volume is nested through the preferred era spine:
 
@@ -179,7 +179,7 @@ The named `geo-strategy`, `secret-history`, and `game-theory` files remain subst
 ## Usage Rule
 
 - Use a volume README when you need the best current opening sequence for one civilization across time.
-- Use [Table of Contents](../table-of-contents.md) when you want the two-volume work order before choosing one civilization.
+- Use [Table of Contents](../table-of-contents.md) when you want the five-volume work order before choosing one civilization.
 - Use [Reader Guide](../reader-guide.md) when you want the operator's whole-book reading doctrine before entering a single volume.
 - Use [Sacred Grammar Library](../sacred-grammar/README.md) when the object is specifically about deep legitimacy grammar and continuity through rupture.
 - Use the lane README when ownership is already clear and the drafting problem is live.

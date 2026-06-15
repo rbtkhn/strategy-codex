@@ -106,7 +106,7 @@ Best downstream partners:
 - [civilization-empire-faith-science-memory-desire.md](civilization-empire-faith-science-memory-desire.md)
 - [../statecraft.md](../statecraft.md)
 - [../README.md](../README.md)
-- [../../singularity/workshop/sheets/sovereignty-under-acceleration.md](../../singularity/workshop/sheets/sovereignty-under-acceleration.md)
+- [../../essays/sovereignty-under-acceleration.md](../../essays/sovereignty-under-acceleration.md)
 
 ## Return Rule
 

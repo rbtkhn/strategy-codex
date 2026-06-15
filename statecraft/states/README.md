@@ -20,7 +20,7 @@ Short constitutional split:
 
 `civ-state remembers -> statecraft drafts`
 
-Civilizational Statecraft should now also be read as a two-volume whole-work book with five nested civilization-state volumes. The canonical whole-work apparatus lives in:
+Civilizational Statecraft is a **five-volume** whole-work book with shared retrieval apparatus in the appendix. The canonical whole-work surfaces live in:
 
 - [Table of Contents](table-of-contents.md)
 - [Reader Guide](reader-guide.md)
@@ -242,7 +242,7 @@ Statecraft lanes use this source chain:
 
 ## What CIV-STATE Optimizes For
 
-CIV-STATE should mirror PH-CIV's pattern discipline and two-volume seriousness while differing in use. PH-CIV can carry public manuscript, lecture, commentary, and route structure. CIV-STATE should carry operational judgment:
+CIV-STATE should mirror PH-CIV's pattern discipline and five-volume book seriousness while differing in use. PH-CIV can carry public manuscript, lecture, commentary, and route structure. CIV-STATE should carry operational judgment:
 
 - short source objects rather than full public chapters
 - pattern plus mechanism rather than narrative alone
@@ -262,7 +262,7 @@ Each CIV-STATE source object should be short and usable. It should include:
 
 ## Indexes
 
-- [Table of Contents](table-of-contents.md) - canonical whole-work reading order for the two-volume Civilizational Statecraft book.
+- [Table of Contents](table-of-contents.md) - canonical five-volume reading order for Civilizational Statecraft, with whole-work apparatus in the appendix.
 - [Reader Guide](reader-guide.md) - operator-facing doctrine for how to open, read, and descend through the work.
 - [Glossary](glossary.md) - whole-work vocabulary of concepts, names, peoples, polities, dynasties, churches, and transformed carriers.
 - [Hybrid References](hybrid-references.md) - source basis plus bounded references layer; the strongest visible civ-mem evidence door in the book apparatus.

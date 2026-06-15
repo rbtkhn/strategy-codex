@@ -122,7 +122,7 @@ One live bridge worth keeping in view across this stack is **high-skill labor co
 
 Use:
 
-- [Sovereignty Under Acceleration](../singularity/workshop/sheets/sovereignty-under-acceleration.md)
+- [Sovereignty Under Acceleration](../essays/sovereignty-under-acceleration.md) — cross-channel bridge essay (workshop [sheet](../singularity/workshop/sheets/sovereignty-under-acceleration.md) for operating passes)
 - [High-Skill Labor Compression and Sovereign Judgment](compact/high-skill-labor-compression-and-sovereign-judgment.md)
 - [High-Skill Labor Compression and American Command](america/high-skill-labor-compression-and-american-command.md)
 - [High-Skill Labor Compression and Civilizational Statecraft](states/high-skill-labor-compression-and-civilizational-statecraft.md)

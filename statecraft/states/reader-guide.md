@@ -17,11 +17,15 @@ Read it with four habits:
 
 ## What This Work Is
 
-Civilizational Statecraft is a two-volume source-memory book for operators.
+Civilizational Statecraft is a **five-volume** source-memory book for operators:
 
-Its first volume clarifies the civilization-state cases themselves: continuity, grammar, empire, and present carrier.
+1. China
+2. Persia
+3. Rome
+4. Russia
+5. America
 
-Its second volume teaches how to retrieve, test, translate, and use those patterns without letting analogy become propaganda or archive become inert memory.
+Each volume teaches one civilization-state case through continuity, grammar, empire, and present carrier. The [appendix apparatus](table-of-contents.md#appendix-whole-work-apparatus) teaches how to retrieve, test, translate, and use those patterns without letting analogy become propaganda or archive become inert memory.
 
 This is why the work should feel book-like without ceasing to be usable.
 
