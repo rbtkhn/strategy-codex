@@ -67,7 +67,7 @@ Machine-constitutional files stay where they already belong:
 - [how-the-operator-uses-the-statecraft-machine.md](../../essays/how-the-operator-uses-the-statecraft-machine.md) - argument about what the machine is already doing (**canonical** at repo root; local stub only)
 - [high-skill-labor-compression-and-american-command.md](../../essays/high-skill-labor-compression-and-american-command.md) - lane-specific statecraft thesis (**canonical** at repo root; america + essay stubs)
 - [why-barnes-should-reconsider-ai.md](./why-barnes-should-reconsider-ai.md) - **redirect only**; canonical body lives in [Barnes on AI note](../notes/barnes-on-ai.md) (corpus + reconsideration read)
-- [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) - cross-channel placeholder (**canonical**; compatibility stub under `statecraft/essays/`)
+- [leo-barnes-jiang-on-ai.md](/C:/dev/strategy-codex/essays/leo-barnes-jiang-on-ai.md) - tri-voice AI essay; [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) redirect stub
 
 ## Promotion Path
 
@@ -104,7 +104,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 _No full-body essays remain on this compatibility shelf — canonical theses live at repo-root [`essays/`](../../essays/README.md). Stubs below preserve older paths._
 
 - [from-accumulation-to-governed-interpretive-machine.md](/C:/dev/strategy-codex/essays/from-accumulation-to-governed-interpretive-machine.md) - canonical at repo root; local stub only
-- [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) - canonical at repo root; local stub only
+- [leo-barnes-jiang-on-ai.md](/C:/dev/strategy-codex/essays/leo-barnes-jiang-on-ai.md) - canonical tri-voice essay; [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) redirect stub
 
 ### Mirrored Legacy Promotion
 

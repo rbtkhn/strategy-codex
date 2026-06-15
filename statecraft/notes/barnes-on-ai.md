@@ -194,6 +194,7 @@ Open when the task is:
 
 ## Return paths
 
+- [Leo, Barnes, and Jiang on AI](../../essays/leo-barnes-jiang-on-ai.md)
 - [Barnes README](../voices/barnes/README.md)
 - [barnes-analysis-index.md](../voices/barnes/barnes-analysis-index.md)
 - [China AI implementation watch](./china-ai-implementation-watch.md)

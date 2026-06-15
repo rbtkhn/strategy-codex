@@ -70,7 +70,8 @@ Cross-channel pairs may exist on **both** compatibility shelves until recanonica
 |-------|------|
 | [from-accumulation-to-governed-interpretive-machine.md](./from-accumulation-to-governed-interpretive-machine.md) | Product identity essay — accumulation → governed interpretive machine |
 | [interpretive-machine.md](./interpretive-machine.md) | Cross-channel thesis — interpretive learning + judgment infrastructure ([cluster](./interpretive-machine/README.md)) |
-| [pope-leo-on-ai.md](./pope-leo-on-ai.md) | Cross-channel placeholder — statecraft legitimacy + singularity mediation emphases |
+| [leo-barnes-jiang-on-ai.md](./leo-barnes-jiang-on-ai.md) | Tri-voice AI essay — Leo (office/answerability), Barnes (liability/bubble), Jiang (formation/surveillance); Vatican primaries archived |
+| [pope-leo-on-ai.md](./pope-leo-on-ai.md) | Redirect stub → `leo-barnes-jiang-on-ai.md` |
 | [sovereignty-under-acceleration.md](./sovereignty-under-acceleration.md) | Cross-channel bridge — authority under acceleration; Coffee D → statecraft handoff |
 | [narrative-shaped-alignment.md](./narrative-shaped-alignment.md) | Cross-channel thesis — narrative vs rule alignment; PH-CIV formation bridge |
 | [agent-control-plane.md](./agent-control-plane.md) | Cross-channel thesis — agent governance, receipts, rollback, human meaning |

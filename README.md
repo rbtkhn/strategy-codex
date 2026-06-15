@@ -52,7 +52,8 @@ Stand-alone arguments that may span **statecraft and singularity** live at repo-
 | [interface-operating-layer-2028.md](essays/interface-operating-layer-2028.md) | Voice/browser/memory/tools collapsing into one operating layer |
 | [future-roadmap-implications.md](essays/future-roadmap-implications.md) | Roadmap: substrate, control plane, trust, cohort activation |
 | [apprentice-studio-30-day-pilot.md](essays/apprentice-studio-30-day-pilot.md) | Grace Gems × cici-ai beginner uplift under review gates |
-| [pope-leo-on-ai.md](essays/pope-leo-on-ai.md) | Cross-channel placeholder — Vatican office + mediation (await primary text) |
+| [leo-barnes-jiang-on-ai.md](essays/leo-barnes-jiang-on-ai.md) | Tri-voice AI essay — Leo, Barnes, Jiang; Vatican primaries in source-archive |
+| [pope-leo-on-ai.md](essays/pope-leo-on-ai.md) | Redirect stub → tri-voice essay |
 | [brewmind-business-plan.md](essays/brewmind-business-plan.md) | work-cici BrewMind network-first plan (WORK draft) |
 | [ai-and-the-expansion-of-human-consciousness.md](essays/ai-and-the-expansion-of-human-consciousness.md) | AI as medium shift (writing / print); consciousness vs simulated understanding |
 | [archive-synthesis-law.md](essays/archive-synthesis-law.md) | Archive → synthesis vertical law before host law, bridges, CIV-STATE, lanes |

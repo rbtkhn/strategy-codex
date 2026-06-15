@@ -60,7 +60,7 @@ Machine-constitutional and source-bearing files stay where they already belong:
 - [ai-and-the-expansion-of-human-consciousness.md](../../essays/ai-and-the-expansion-of-human-consciousness.md) - stand-alone thesis on AI as a cognition-changing medium (**canonical** at repo root; local stub only)
 - [interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md) - stand-alone thesis about interpretive learning systems (**canonical**; compatibility stub under `singularity/essays/`)
 - [system-design-lineage-is-not-unique-in-kind.md](/C:/dev/strategy-codex/essays/system-design-lineage-is-not-unique-in-kind.md) - source-backed synthesis arguing that the repo's design family has clear academic precedent (**canonical**; compatibility stub under `singularity/essays/`)
-- [pope-leo-on-ai.md](../../essays/pope-leo-on-ai.md) - cross-channel placeholder for Catholic AI doctrine (**canonical** at repo root; local stub only)
+- [leo-barnes-jiang-on-ai.md](../../essays/leo-barnes-jiang-on-ai.md) - tri-voice AI essay (Leo, Barnes, Jiang); [pope-leo-on-ai.md](../../essays/pope-leo-on-ai.md) redirect stub
 - [sovereignty-under-acceleration.md](/C:/dev/strategy-codex/essays/sovereignty-under-acceleration.md) - authority-and-sovereignty thesis (**canonical**; compatibility stub under `singularity/essays/`)
 - [agent-control-plane.md](/C:/dev/strategy-codex/essays/agent-control-plane.md) - control-plane thesis surface (**canonical**; compatibility stub under `singularity/essays/`)
 
@@ -97,7 +97,7 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 _No full-body essays remain on this compatibility shelf — canonical theses live at repo-root [`essays/`](../../essays/README.md). Stubs below preserve older paths._
 
-- [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) cross-channel placeholder (**canonical** at repo root; local stub only)
+- [leo-barnes-jiang-on-ai.md](/C:/dev/strategy-codex/essays/leo-barnes-jiang-on-ai.md) tri-voice AI essay; [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) redirect stub
 
 ### Mirrored Legacy Promotion
 

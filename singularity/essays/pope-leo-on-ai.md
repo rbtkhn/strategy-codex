@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**Canonical home:** [../../essays/pope-leo-on-ai.md](../../essays/pope-leo-on-ai.md)
+**Canonical home:** [../../essays/leo-barnes-jiang-on-ai.md](../../essays/leo-barnes-jiang-on-ai.md)
 
-Compatibility stub — pre-root singularity emphasis now lives in the cross-channel
-repo-root essay. Edit there; keep this pointer so older links resolve.
+Compatibility stub — tri-voice essay (Leo, Barnes, Jiang on AI) at repo root.
+Legacy slug [pope-leo-on-ai.md](../../essays/pope-leo-on-ai.md) redirects there.

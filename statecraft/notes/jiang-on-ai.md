@@ -132,6 +132,7 @@ Open when the task is:
 
 ## Return paths
 
+- [Leo, Barnes, and Jiang on AI](../../essays/leo-barnes-jiang-on-ai.md)
 - [China AI implementation watch](./china-ai-implementation-watch.md)
 - [Gulf AI architecture](./gulf-ai-architecture.md)
 - [Barnes on AI](./barnes-on-ai.md)

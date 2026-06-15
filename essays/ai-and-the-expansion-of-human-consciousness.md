@@ -65,7 +65,8 @@ The decisive question, then, is not whether AI is powerful. The decisive questio
 This essay is structurally supported by several existing local arguments:
 
 - [Barnes on AI](../statecraft/notes/barnes-on-ai.md) for skeptical pressure around hype, liability, and oversold intelligence claims
-- [Pope Leo on AI](./pope-leo-on-ai.md) for mediation, authorship, judgment, and answerability
+- [Jiang on AI](../statecraft/notes/jiang-on-ai.md) for bailout, surveillance end-state, and branding-as-thought pressure
+- [Leo, Barnes, and Jiang on AI](./leo-barnes-jiang-on-ai.md) for office, liability, and formation answerability under hype
 - [Interpretive Machine](./interpretive-machine.md) for the difference between answer automation and judgment-forming infrastructure
 
 Those surfaces help define the boundaries of the claim. They do not change the main thesis here:
