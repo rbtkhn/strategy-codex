@@ -40,6 +40,7 @@ Short definitions for contributors and tooling. **Governed by:** [GRACE-MAR-CORE
 | **Runtime vs Record** | **Runtime** = session paste, harness output, derived artifacts, MEMORY — not canonical truth. **Record** = SELF, SELF-LIBRARY, SKILLS, EVIDENCE after gate. See [runtime-vs-record.md](runtime-vs-record.md). |
 | **Intelligence harness** | **Product term** — the governed structure around models in **strategy-codex**: source truth, context routing, artifact authority, review, transaction ceilings. Not a specific vendor or model. See [intelligence-harness.md](intelligence-harness.md). |
 | **Harness script** | **Tooling term** — operational scripts (`harness_warmup.py`, eval/replay harnesses) that implement parts of the product harness; distinct from the product identity itself. |
+| **Intake queue sidecar** | **Derived JSON** under `artifacts/statecraft-intake-queue/` tracking `synthesis_status` and routing hints for an archive capture; **not** archive SSOT. See [statecraft-intake-queue.md](statecraft-intake-queue.md). |
 
 ## Cadence shortcuts (FAQ)
 

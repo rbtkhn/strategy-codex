@@ -121,6 +121,25 @@ Full operator map: [start-here.md — Operator ship loop](start-here.md#operator
 
 ---
 
+## Intake queue (agent workbench loop)
+
+Commercial agent stacks often run: **external signal → structured store → score → write-back → digest**. The strategy-codex equivalent adds a **Git-sovereign queue** before daily synthesis:
+
+| Commercial pattern | strategy-codex |
+| -------------------- | -------------- |
+| Database rows | Archive frontmatter + derived sidecars |
+| Lead score | Rule-based intake hints (`reasoning`; v0) |
+| Write-back | `synthesis_status` in sidecar JSON |
+| Top-five digest | `statecraft_intake_queue.py --write-digest` |
+
+**Promotion is a queue problem, not a summarization problem.** Sidecars never replace archive body or daily synthesis authority.
+
+Full spec: [statecraft-intake-queue.md](statecraft-intake-queue.md)
+
+**Agent boundary:** classify, score, and draft — yes; contact, publish, or canonical merge — operator only.
+
+---
+
 ## Three live examples
 
 Pointers only — these are existing artifacts, not new content.
@@ -157,4 +176,5 @@ High-leverage repair and intake surfaces:
 - [work-membrane-live-examples.md](work-membrane-live-examples.md)
 - [agent-control-plane.md](../essays/agent-control-plane.md)
 - [start-here.md](start-here.md)
+- [statecraft-intake-queue.md](statecraft-intake-queue.md)
 - [README — Why this exists now](../README.md#why-this-exists-now)

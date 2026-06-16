@@ -104,6 +104,10 @@ artifacts/evidence-stubs/*
 artifacts/patch-intake/*
 !artifacts/patch-intake/.gitkeep
 !artifacts/patch-intake/README.md
+artifacts/statecraft-intake-queue/*
+!artifacts/statecraft-intake-queue/.gitkeep
+!artifacts/statecraft-intake-queue/README.md
+!artifacts/statecraft-intake-queue/digest-*.md
 # Local transcript/intake scratch (rebuildable; see artifacts/README.md commit-worthiness)
 artifacts/intake/*
 !artifacts/intake/.gitkeep

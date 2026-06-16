@@ -22,6 +22,8 @@ Its job is to:
 
 It is not a transcript recap and it is not a month-level compression.
 
+**Intake digest (precursor):** An [intake digest](intake-digest-TEMPLATE.md) ranks queue-eligible sources before the daily note exists. It is **not** a substitute for daily synthesis — use [statecraft-intake-queue.md](../../docs/statecraft-intake-queue.md) and `statecraft_intake_queue.py --write-digest`.
+
 ### Monthly note
 
 A monthly note sits above the day shelf.

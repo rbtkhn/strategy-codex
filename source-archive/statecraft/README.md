@@ -15,6 +15,8 @@ Canonical path:
 
 Use this tree for source-bearing captures only. Route control, bridge, continuity, synthesis, and drafting surfaces belong in `statecraft/`, not here.
 
+**Intake queue (derived):** After land, run `python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD` to see which captures are not yet in daily synthesis. Sidecar metadata lives under `artifacts/statecraft-intake-queue/` — spec: [docs/statecraft-intake-queue.md](../../docs/statecraft-intake-queue.md).
+
 Dated day folders may also contain generated local `README.md` inventory indices. These are derived navigation aids, not source captures.
 Generated month indices now live at `source-archive/statecraft/YYYY-MM.md`. These are derived navigation aids, not source captures.
 Generated year indices now live at `source-archive/statecraft/YYYY.md`. Thread and staleness navigation also live at the archive root as derived indices.

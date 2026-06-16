@@ -287,6 +287,7 @@ After `land -> rebuild -> verify` for a touched `pub_date`, run the read-only sy
 
 ```bash
 python3 scripts/check_statecraft_intake_daily_sync.py --day YYYY-MM-DD
+python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD
 ```
 
 Or delegate from index refresh:

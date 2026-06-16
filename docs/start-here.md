@@ -116,6 +116,7 @@ intake → sync check → synthesis/companion → commit → ship receipt → pu
 |------|-------------------|
 | Land + indices | `refresh_statecraft_archive_indices.py` |
 | Archive ↔ daily sync | `check_statecraft_intake_daily_sync.py --day YYYY-MM-DD` |
+| Intake queue report | `statecraft_intake_queue.py --day YYYY-MM-DD` ([spec](statecraft-intake-queue.md)) |
 | Daily synthesis | `statecraft/daily/YYYY-MM-DD.md` (manual or `statecraft daily synthesis`) |
 | Commit | operator-directed; lane-scoped slices |
 | Ship receipt | `operator_handoff_check.py` → `## Ship receipt` |
