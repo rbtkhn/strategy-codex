@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Status: Superseded by `framework/doctrine.md`
+Status: Superseded by `framework/form.md`
 Surface: `civ-state`
 Purpose: provide a higher-order orientation frame and academic genealogy for Civilization and Empire retrieval
 Last updated: 2026-05-26
@@ -11,7 +11,7 @@ Last updated: 2026-05-26
 
 This note is retained as genealogy and historical residue.
 
-The active CIV-STATE doctrine now lives in [Civilization, Empire, Faith, Science, Memory, Desire](framework/doctrine.md). Use this older annex only when you specifically need the compressed triadic genealogy or the academic literature review that accompanied it.
+The active CIV-STATE framework now lives on the [framework shelf](framework/README.md) — [Form](framework/form.md), [Truth](framework/truth.md), and [Memory](framework/memory.md). Use this older annex only when you specifically need the compressed triadic genealogy or the academic literature review that accompanied it.
 
 `civ-state` is named for **Civilization and Empire**, but repeated use quickly reveals that the pair sits inside a larger architecture.
 

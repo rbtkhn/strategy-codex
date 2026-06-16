@@ -17,7 +17,7 @@ Civ-state answers **why factions behave differently under the same map pressure*
 | Five volumes | Asymmetric faction packages (different rupture/recovery laws) | [Table of Contents](table-of-contents.md), [Volume map](volumes/README.md) |
 | Part law (`civilization / empire / statecraft`) | Three-layer faction anatomy (legitimacy / reach / live diplomacy) | `volumes/civ-state-*/civilization-*.md`, `empire-*.md`, `statecraft-*.md` |
 | Opener block (deep grammar · sovereign opening · current carrier) | Faction bootstrap: ideology · founding myth · government type | Volume `README.md`, [Sacred Grammar](reader-guide.md#sacred-grammar-volume-local) |
-| Framework pairs (civ/empire · faith/science · memory/desire) | AI misperception + offer rejection (wrong grammar = plausible non-deal) | [Framework](framework/doctrine.md) |
+| Framework pairs (civ/empire · faith/science · memory/desire) | AI misperception + offer rejection (wrong grammar = plausible non-deal) | [Framework shelf](framework/README.md) |
 | Pattern library | Reusable AI state machines and victory scripts | [Pattern library](framework/patterns/README.md) |
 | Continuity mechanism | Defeat / collapse / recovery arcs (same loss, different futures) | [Continuity mechanism](framework/continuity.md) |
 | Sub-lenses (geo · secret-history · game-theory) | Advisor / intel specialties narrowing pressure geometry | `geo-strategy-*.md`, `secret-history-*.md`, `game-theory-*.md` |

@@ -55,7 +55,7 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 ## Whole-work apparatus
 
 - [Framework shelf](framework/README.md)
-- [Rhythm](framework/rhythm.md) · [Doctrine](framework/doctrine.md) · [Era law](framework/era.md)
+- [Rhythm](framework/rhythm.md) · [Form](framework/form.md) · [Truth](framework/truth.md) · [Memory](framework/memory.md) · [Time](framework/time.md)
 - [Continuity mechanism](framework/continuity.md) · [Pattern library](framework/patterns/README.md)
 
 ## Essays

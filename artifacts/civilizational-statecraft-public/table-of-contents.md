@@ -111,14 +111,17 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Rhythm](framework/rhythm.md)
-4. [Civilizational Statecraft Framework](framework/doctrine.md)
-5. [Era Law](framework/era.md)
-6. [Hybrid References](hybrid-references.md)
-7. [Continuity Mechanism](framework/continuity.md)
-8. [Pattern Library](framework/patterns/README.md)
-9. [Index](index.md)
-10. [Source-Lattice](source-lattice.md)
+3. [Framework shelf](framework/README.md)
+4. [Rhythm](framework/rhythm.md)
+5. [Form](framework/form.md)
+6. [Truth](framework/truth.md)
+7. [Memory](framework/memory.md)
+8. [Time](framework/time.md)
+9. [Hybrid References](hybrid-references.md)
+10. [Continuity Mechanism](framework/continuity.md)
+11. [Pattern Library](framework/patterns/README.md)
+12. [Index](index.md)
+13. [Source-Lattice](source-lattice.md)
 
 ## Retrieval Order
 

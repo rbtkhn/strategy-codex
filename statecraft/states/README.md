@@ -286,7 +286,7 @@ Each CIV-STATE source object should be short and usable. It should include:
 
 ## Orientation Doctrine
 
-- [Civilizational Statecraft Framework](framework/doctrine.md) - the active higher-order orientation frame for CIV-STATE.
+- [Civilizational Statecraft Framework](framework/README.md) - the active higher-order orientation frame for CIV-STATE (Form · Truth · Memory).
 - [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md) - bounded operator pass for deciding which layer or pair actually governs a live object before lane translation or clause drafting.
 - [Power, Truth, Time](power-truth-time-annex.md) - superseded active shorthand retained only as historical residue and genealogy.
 - [Power, Truth, Time Retrieval Checklist](power-truth-time-retrieval-checklist.md) - superseded checklist retained only as historical residue.
@@ -312,7 +312,7 @@ Use the front door that matches the actual operator question:
 - `I need quick whole-work recall by name, route, or concept`
   - open [Index](index.md)
 - `which governing pair is really carrying this live object?`
-  - open [Civilizational Statecraft Framework](framework/doctrine.md)
+  - open the [framework shelf](framework/README.md)
 - `which deep legitimacy grammar is load-bearing here?`
   - open [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local)
 - `should this public Predictive History insight be promoted into CIV-STATE?`

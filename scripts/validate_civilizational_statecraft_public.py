@@ -41,9 +41,11 @@ REQUIRED_ROOT = [
 ]
 
 REQUIRED_FRAMEWORK = [
-    "framework/doctrine.md",
+    "framework/form.md",
+    "framework/truth.md",
+    "framework/memory.md",
     "framework/rhythm.md",
-    "framework/era.md",
+    "framework/time.md",
     "framework/continuity.md",
     "framework/patterns/README.md",
 ]

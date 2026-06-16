@@ -205,7 +205,7 @@ Do not resolve these by silent edit. Name them before prose merge, ledes, or ano
 - Use [Reader Guide](../reader-guide.md) when you want the operator's whole-book reading doctrine before entering a single volume.
 - Use [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local) when the object is specifically about deep legitimacy grammar and continuity through rupture.
 - Use the lane README when ownership is already clear and the drafting problem is live.
-- Use [Civilization, Empire, Faith, Science, Memory, Desire](../framework/doctrine.md) when the object is really about governing layer rather than civilizational carrier.
+- Use the [framework shelf](framework/README.md) when the object is really about governing layer rather than civilizational carrier.
 - Use the [Source retrieval matrix](../indexes/source-retrieval-matrix.md) when you already know the object class and need the narrowest workable source.
 
 This means the volume map is not the right first stop for every `civ-state` question.

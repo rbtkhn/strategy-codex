@@ -48,7 +48,7 @@ Begin with [Civilization and Empire](introduction.md) for the whole-book thesis,
 Then choose between two entry modes:
 
 - civilization-first entry through [Volume Map](volumes/README.md)
-- governing-layer entry through [Civilizational Statecraft Framework](framework/doctrine.md) and, for rhythm placement, [Rhythm](framework/rhythm.md)
+- governing-layer entry through the [framework shelf](framework/README.md) — [Form](framework/form.md) · [Truth](framework/truth.md) · [Memory](framework/memory.md); for rhythm placement, [Rhythm](framework/rhythm.md)
 
 Choose civilization-first when the real question is:
 
@@ -62,7 +62,7 @@ Choose governing-layer entry when the real question is:
 - whether legitimacy, expertise, memory, or desire is distorting the read
 - whether the object still needs retrieval discipline before lane drafting
 
-When chronology or shelf choice matters within that mode, read [Era Law](framework/era.md) before opening era files inside a volume.
+When chronology or shelf choice matters within that mode, read [Time](framework/time.md) (era law) before opening era files inside a volume.
 
 ## How To Read One Civilization Volume
 

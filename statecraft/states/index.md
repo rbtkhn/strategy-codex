@@ -24,7 +24,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - civ-state — workshop/repo slug; not the book title — [Glossary](glossary.md#civ-state)
 - civilization-state - [Glossary](glossary.md)
 - civilizational entropy - [Civilization and Empire](introduction.md)
-- Civilizational Statecraft Framework - [framework/doctrine.md](framework/doctrine.md)
+- Civilizational Statecraft Framework - [framework/README.md](framework/README.md) ([Form](framework/form.md) · [Truth](framework/truth.md) · [Memory](framework/memory.md))
 - Civilizational Pattern Library - [Civilizational Pattern Library](framework/patterns/README.md)
 - corridor civilization - [Corridor Civilization](framework/patterns/corridor-civilization.md)
 - continuity - [Glossary](glossary.md)
@@ -39,7 +39,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 ## E
 
-- empire - [Civilizational Statecraft Framework](framework/doctrine.md)
+- empire - [Form](framework/form.md) · [framework shelf](framework/README.md)
 - equilibrium - [Glossary](glossary.md)
 
 ## F

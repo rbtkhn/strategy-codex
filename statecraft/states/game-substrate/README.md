@@ -45,4 +45,4 @@ Future: `scripts/validate_civ_state_game_profiles.py`.
 - [Volume II Persia](../volumes/civ-state-persia/README.md)
 - [Parity rival](../framework/patterns/parity-rival.md)
 - [Continuity mechanism](../framework/continuity.md)
-- [Framework](../framework/doctrine.md)
+- [Framework shelf](../framework/README.md)

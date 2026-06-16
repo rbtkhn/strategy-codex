@@ -33,7 +33,7 @@ Short rule:
 
 > Ask first what inheritance is at stake, then what instrument carries it, then what faith-order and science-order authorize it, then what memory sustains it, and finally what desire is bending it.
 
-When periodization matters, use [Era Law](framework/era.md) as background architecture rather than as a mandatory first-router.
+When periodization matters, use [Time](framework/time.md) (era law) as background architecture rather than as a mandatory first-router.
 
 `Cybernetic` is the right overlay when the object is governed by deterrence, sanctions, networks, platform authority, system administration, or other post-1991 command forms.
 

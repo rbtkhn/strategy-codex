@@ -76,7 +76,7 @@ Use when the object is still interpretively unstable.
 Route toward:
 
 - `statecraft-framework`
-- `statecraft/states/framework/doctrine.md`
+- `statecraft/states/framework/form.md` · `truth.md` · `memory.md`
 - the retrieval checklist when pair diagnosis is the real bottleneck
 
 This is for governing-pair diagnosis and CIV-STATE interpretive orientation, not volume writing.

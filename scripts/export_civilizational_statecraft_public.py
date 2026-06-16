@@ -136,14 +136,17 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Rhythm](framework/rhythm.md)
-4. [Civilizational Statecraft Framework](framework/doctrine.md)
-5. [Era Law](framework/era.md)
-6. [Hybrid References](hybrid-references.md)
-7. [Continuity Mechanism](framework/continuity.md)
-8. [Pattern Library](framework/patterns/README.md)
-9. [Index](index.md)
-10. [Source-Lattice](source-lattice.md)
+3. [Framework shelf](framework/README.md)
+4. [Rhythm](framework/rhythm.md)
+5. [Form](framework/form.md)
+6. [Truth](framework/truth.md)
+7. [Memory](framework/memory.md)
+8. [Time](framework/time.md)
+9. [Hybrid References](hybrid-references.md)
+10. [Continuity Mechanism](framework/continuity.md)
+11. [Pattern Library](framework/patterns/README.md)
+12. [Index](index.md)
+13. [Source-Lattice](source-lattice.md)
 
 """
 
@@ -173,7 +176,7 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
         if block:
             replacement = (
                 block.group(1)
-                + "1. [Civilizational Statecraft Framework](framework/doctrine.md)\n"
+                + "1. [Framework shelf](framework/README.md)\n"
                 + "2. [Hybrid References](hybrid-references.md)\n"
                 + "3. [Index](index.md)\n"
                 + "4. [Source-Lattice](source-lattice.md)\n"
@@ -403,12 +406,35 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
             text,
         )
 
-    framework = f"{prefix}framework/doctrine.md"
+    form = f"{prefix}framework/form.md"
+    truth = f"{prefix}framework/truth.md"
+    memory = f"{prefix}framework/memory.md"
     rhythm = f"{prefix}framework/rhythm.md"
-    era = f"{prefix}framework/era.md"
+    time = f"{prefix}framework/time.md"
+    framework_readme = f"{prefix}framework/README.md"
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?form\.md\)",
+        f"]({form})",
+        text,
+    )
     text = re.sub(
         r"\]\((?:\.\./)*(?:framework/)?doctrine\.md\)",
-        f"]({framework})",
+        f"]({form})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?truth\.md\)",
+        f"]({truth})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?memory\.md\)",
+        f"]({memory})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*framework/README\.md\)",
+        f"]({framework_readme})",
         text,
     )
     text = re.sub(
@@ -422,18 +448,33 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         text,
     )
     text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?time\.md\)",
+        f"]({time})",
+        text,
+    )
+    text = re.sub(
         r"\]\((?:\.\./)*(?:framework/)?era\.md\)",
-        f"]({era})",
+        f"]({time})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?era-law\.md\)",
+        f"]({time})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:framework/)?civilizational-era\.md\)",
+        f"]({time})",
         text,
     )
     text = re.sub(
         r"\]\((?:\.\./)*(?:framework/)?civilizational-framework\.md\)",
-        f"]({framework})",
+        f"]({form})",
         text,
     )
     text = re.sub(
         r"\]\((?:\.\./)*(?:framework/)?civilization-empire-faith-science-memory-desire\.md\)",
-        f"]({framework})",
+        f"]({form})",
         text,
     )
     continuity = f"{prefix}framework/continuity.md"
@@ -514,8 +555,13 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
             text,
         )
         text = re.sub(
+            r"\]\((?:\.\./)*framework/form\.md\)",
+            "](../form.md)",
+            text,
+        )
+        text = re.sub(
             r"\]\((?:\.\./)*framework/doctrine\.md\)",
-            "](../doctrine.md)",
+            "](../form.md)",
             text,
         )
         text = re.sub(
@@ -529,8 +575,28 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
             text,
         )
         text = re.sub(
+            r"\]\((?:\.\./)*framework/time\.md\)",
+            "](../time.md)",
+            text,
+        )
+        text = re.sub(
             r"\]\((?:\.\./)*framework/era\.md\)",
-            "](../era.md)",
+            "](../time.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/truth\.md\)",
+            "](../truth.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/memory\.md\)",
+            "](../memory.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/README\.md\)",
+            "](../README.md)",
             text,
         )
     elif dest_rel.parts[:1] == ("framework",) and len(dest_rel.parts) == 2:
@@ -549,48 +615,63 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
                 text,
             )
         text = re.sub(
+            r"\]\(\.\./framework/form\.md\)",
+            "](form.md)",
+            text,
+        )
+        text = re.sub(
             r"\]\(\.\./framework/doctrine\.md\)",
-            "](doctrine.md)",
+            "](form.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\(\.\./form\.md\)",
+            "](form.md)",
             text,
         )
         text = re.sub(
             r"\]\(\.\./doctrine\.md\)",
-            "](doctrine.md)",
+            "](form.md)",
             text,
         )
         text = re.sub(
             r"\]\(\.\./framework/civilizational-framework\.md\)",
-            "](doctrine.md)",
+            "](form.md)",
             text,
         )
         text = re.sub(
             r"\]\(\.\./framework/civilization-empire-faith-science-memory-desire\.md\)",
-            "](doctrine.md)",
+            "](form.md)",
             text,
         )
         text = re.sub(
             r"\]\(\.\./civilizational-framework\.md\)",
-            "](doctrine.md)",
+            "](form.md)",
             text,
         )
         text = re.sub(
             r"\]\(\.\./civilization-empire-faith-science-memory-desire\.md\)",
-            "](doctrine.md)",
+            "](form.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/time\.md\)",
+            "](time.md)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*framework/era\.md\)",
-            "](era.md)",
+            "](time.md)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*framework/civilizational-era\.md\)",
-            "](era.md)",
+            "](time.md)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*framework/era-law\.md\)",
-            "](era.md)",
+            "](time.md)",
             text,
         )
         text = re.sub(
@@ -606,6 +687,26 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         text = re.sub(
             r"\]\((?:\.\./)*framework/civilizational-motion\.md\)",
             "](rhythm.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/truth\.md\)",
+            "](truth.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/memory\.md\)",
+            "](memory.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\((?:\.\./)*framework/README\.md\)",
+            "](README.md)",
+            text,
+        )
+        text = re.sub(
+            r"\]\(README\.md\)",
+            "](README.md)",
             text,
         )
         text = re.sub(

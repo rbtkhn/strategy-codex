@@ -113,7 +113,7 @@ Use this layer when the problem is retrieval, comparison, vocabulary, or upstrea
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Civilizational Statecraft Framework](framework/doctrine.md)
+3. [Framework shelf](framework/README.md) — [Form](framework/form.md) · [Truth](framework/truth.md) · [Memory](framework/memory.md)
 4. [Hybrid References](hybrid-references.md)
 5. [Continuity Mechanism](framework/continuity.md)
 6. [Civilizational Pattern Library](framework/patterns/README.md)
