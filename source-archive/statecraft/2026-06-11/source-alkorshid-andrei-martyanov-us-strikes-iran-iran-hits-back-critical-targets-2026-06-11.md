@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-12
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Nima Alkorshid
 guest_people:
@@ -24,13 +24,14 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=HIJI1Lwr2AU"
 youtube_id: HIJI1Lwr2AU
-source_note: Operator-pasted transcript; host self-dates Thursday 11 June 2026. Night strikes Karaj/southern Iran (fighters, Tomahawks); Asaluyeh petrochemical (2 Tomahawks intercepted); Bandar Abbas/Sir island; Iranian retaliation Kuwait/Bahrain/Jordan (footage vs intercept claims); Trump Kharg invasion then reversal/framework; Tasnim Trump-lying frame; Apache-helicopter/drone pretext humiliation (Ka-52 ejection-seat riff); Netanyahu directs Trump; Hersh nuke skepticism; §224 formalizes existing Israel Pentagon access (Wilkerson/Feith); Iran SpaceX ground-station target list (Qatar/Israel/Jordan/UAE/Oman); spared Saudi/Qatar — Riyadh terror/read; 16 US bases evicted thesis; MIComplex surge limits/Patriot/Hodges; Russia production contrast; Adam Smith §224-style Ukraine = more money; Iran-Russia vs US twin-war read. Same-day seam Krainer -7gGIjs0STg + Breaking Points + Napolitano bench.
+source_note: "Operator-pasted transcript; host self-dates Thursday 11 June 2026. Night strikes Karaj/southern Iran (fighters, Tomahawks); Asaluyeh petrochemical (2 Tomahawks intercepted); Bandar Abbas/Sir island; Iranian retaliation Kuwait/Bahrain/Jordan (footage vs intercept claims); Trump Kharg invasion then reversal/framework; Tasnim Trump-lying frame; Apache-helicopter/drone pretext humiliation (Ka-52 ejection-seat riff); Netanyahu directs Trump; Hersh nuke skepticism; §224 formalizes existing Israel Pentagon access (Wilkerson/Feith); Iran SpaceX ground-station target list (Qatar/Israel/Jordan/UAE/Oman); spared Saudi/Qatar — Riyadh terror/read; 16 US bases evicted thesis; MIComplex surge limits/Patriot/Hodges; Russia production contrast; Adam Smith §224-style Ukraine = more money; Iran-Russia vs US twin-war read. Same-day seam Krainer -7gGIjs0STg + Breaking Points + Napolitano bench. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Matiano, Aselu, Ben Hodgees, etc.). High-register decomposition blocks preserved verbatim for register-quarantine on synthesis.
 opening_tier: host-tease
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 6 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Andrei Martyanov: US Strikes Iran – Iran Hits Back at CRITICAL Targets IMMEDIATELY
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  
@@ -40,7 +41,7 @@ transcript_wrapper_tier: clean
 
 ## Transcript
 
-Hi everybody. Today's Thursday, June 11th, 2026 and our dear friend Andrei Martyanov is here with us. Welcome back, Andre. >> My pleasure. Andre, the latest news is Donald Trump today said he's going to attack Iran again because yes, last night as you know, we had an attack, American attacker or in Iranian, you know, on Iranian islands and cities in the southern part of Iran and one of them in Karach close to the to the capital of Iran, Thran.
+Hi everybody. Today's Thursday, June 11th, 2026 and our dear friend Andrei Martyanov is here with us. Welcome back, Andre. >> My pleasure. Andre, the latest news is Donald Trump today said he's going to attack Iran again because yes, last night as you know, we had an attack, American attacker or in Iranian, you know, on Iranian islands and cities in the southern part of Iran and one of them in Karach close to the to the capital of Iran, Tehran.
  And that was not a significant attack in Karach. It seems that it was done by some sort of drones. But the attacks in the southern part of Iran were basically they tried to hit the targets with the use of fighter jets. They used tomahawk missiles. two Tomahawk missiles were intercepted that they were trying to attack you know the prochemical plant in Aselu which is close to the to the Persian Gulf and but they hit some targets in Bandaras and Sir the Sik island in the Persian Gulf that's all what has happened last night
 and then the Iranian attack on Kuwait Bahrain and Jordan and the hit in Jordan was confirmed by the footages came out of Jordan, you know, despite having this sort of announcement by Jordanian government that all of these missiles were intercepted by the air defense system. So today, Donald Trump said that he's going to attack Iran tonight again and he's going to he may want to invade the Hark Island, that island that everybody is so going crazy about that in in the United States.
  We're so obsessed with that island. And just moments ago, it seems that Donald Trump, it says that he will no longer bomb Iran tonight and announces that a framework for negotiations with Iran has been approved by both sides. The Iranian tasim agency said Donald Trump is lying. It's just more than 38 times he just came out and telling lies to you.

@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-11
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Daniel Davis
 guest_people:
@@ -24,13 +24,14 @@ channel_slug: daniel-davis-deep-dive
 channel_url: "https://www.youtube.com/channel/UCWDN5zr5ttctoIAhZwW6tcQ"
 source_url: "https://www.youtube.com/watch?v=64oUyBhHqbA"
 youtube_id: 64oUyBhHqbA
-source_note: "Operator-pasted transcript; pub_date inferred from transcript voice (11 Jun 2026 — day after June 10 strike cluster; noon ET bombing tease; water plants hit yesterday; 3:30pm Art Burman same-day close). Routing: CNN 38x deal claims; toddler/confabulation Trump model; rug-pull presidency; Vance deal lane vs Trump sabotage; Pakistan nuke fear button; Apache pretext; Israel lobby Fox fear; 100M-barrel Hormuz fantasy exit; energy-infra strike risk; AI targeting; 1776 Law Center promo."
+source_note: "Operator-pasted transcript; pub_date inferred from transcript voice (11 Jun 2026 — day after June 10 strike cluster; noon ET bombing tease; water plants hit yesterday; 3:30pm Art Burman same-day close). Routing: CNN 38x deal claims; toddler/confabulation Trump model; rug-pull presidency; Vance deal lane vs Trump sabotage; Pakistan nuke fear button; Apache pretext; Israel lobby Fox fear; 100M-barrel Hormuz fantasy exit; energy-infra strike risk; AI targeting; 1776 Law Center promo. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body preserved verbatim from parent paste (WebFetch transcript surface when parent log unavailable). ASR artifacts retained (Sitcom, Parse/Parsey, McCor, Christophoru, etc.).
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 6 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Robert Barnes: Shifting Goal Posts w/Iran War
 
 **Show:** Daniel Davis Deep Dive  

@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-12
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Judge Andrew Napolitano
 guest_people:
@@ -24,16 +24,17 @@ channel_slug: judging-freedom
 channel_url: "https://www.youtube.com/@judgingfreedom"
 source_url: "https://www.youtube.com/watch?v=ar9V-pip-_Q"
 youtube_id: ar9V-pip-_Q
-source_note: Operator-pasted transcript; host self-dates Thursday 11 June 2026. Trump Kharg/Kharg Island bluff cycle + no-live-negotiations read; SPR 415M→350M barrels trajectory; Iran won't deal without Israel restraint; walk-away blocked by Israeli nuclear-use fear; NDAA Cotton §622 intel-sharing mandate; Lavrov Gulf-Russia-Iran stability proposal; Hegseth negotiate-with-bombs clip; Kent walk-away echo; century-scale disaster framing. Same-day seam with Napolitano×Kent/Marandi/Wilkerson 2026-06-11 cluster.
+source_note: "Operator-pasted transcript; host self-dates Thursday 11 June 2026. Trump Kharg/Kharg Island bluff cycle + no-live-negotiations read; SPR 415M→350M barrels trajectory; Iran won't deal without Israel restraint; walk-away blocked by Israeli nuclear-use fear; NDAA Cotton §622 intel-sharing mandate; Lavrov Gulf-Russia-Iran stability proposal; Hegseth negotiate-with-bombs clip; Kent walk-away echo; century-scale disaster framing. Same-day seam with Napolitano×Kent/Marandi/Wilkerson 2026-06-11 cluster. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Hegseth, Car/Kharg Island, etc.). Ideological cold open and closing lineup promo trimmed in place.
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 napolitano_cold_open_trim_applied: true
 napolitano_leading_noise_trim_applied: true
 napolitano_close_promo_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 6 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Hegseth, Car/Kharg Island, etc.). Ideological cold open and closing lineup promo trimmed in place."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # COL. Douglas Macgregor : Trump's Biggest Mistake
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  
@@ -58,7 +59,7 @@ as well as the honor of the United States. Now, the problem with this judge is t
  It's on a trajectory to reach operational minimums, in other words, the bottom, by early autumn, probably September. So the longer you wait to act and end this, the worse the situation gets here at home. And remember, war is an engine for inflation. And what are we witnessing? Inflation. And it's getting worse. All the indicators are, if you're the head of state right now, is get out. Stop.
 So, the Dow Jones Industrial Average rose nearly 2% after Trump made the announcement about which your very wise friend on Wall Street laughed. That means that not everybody agrees with your friend. They're willing to make bets that things will be better, at least better enough for them to make money on it when Trump makes these announcements.
  This is the 38th time he has said in the past two months negotiations are coming to an end. We're getting close to an agreement. >> Uh look, Judge, I know and I don't think the po people on Wall Street who are frankly let's let's let's be very frank about this. They're very remote from where things actually happen. If you go to someone in Wall Street and you say the price of sulfur used to make fertilizer and refined minerals 18 months ago uh is now up 900%.
-And then you try to tell him that 50% of the sulfur that's used for fertilizer comes through the straight of moose, he has a blank stare. They don't understand the human impact. They don't understand that farm incomes right now are projected to fall between 30 and 60 billion dollars be because of higher input costs.
+And then you try to tell him that 50% of the sulfur that's used for fertilizer comes through the Strait of Hormuz, he has a blank stare. They don't understand the human impact. They don't understand that farm incomes right now are projected to fall between 30 and 60 billion dollars be because of higher input costs.
  You know, tell somebody there what happens if we accidentally kill a crew on a tanker from a third country in the straight of Hormuz. What happens then? What happens if it's Chinese? What happens if it's Indian or Japanese? They all look at you like, "What? What are you talking about?" None of these people know the gravity of the situation.
  And so what do they do? They bet on the president. >> Well, um, how can Iran possibly agree to anything with Trump without restraining without him agreeing to restrain Israel? And and well, the second part of this is, can he restrain Israel? >> Yeah, of course not. I mean, why would they believe anything we say? Let's be frank. We haven't been truthful.
  We've lied prolifically about everything. We've tried to kill them on numerous occasions. We we essentially promote the idea that we can kill anybody, anywhere, anytime we want to. I I think the Iranians have turned a deaf ear to the whole thing. As far as I can tell, they've dug in for the long haul. And this is the problem.
@@ -72,7 +73,7 @@ Can Trump restrain Israel or or is whatever they know about him enough to overbe
  But obviously people have the goods on him. And there's something else at work here. I mean, you're you're dealing with someone whose personality utterly and completely refuses to accept reality. Uh I I'm not sure that he's always lying or misleading. Sometimes I think he actually believes what he says. And unfortunately, that's dangerous because, you know, he's wrong.
  I mean, he said, I guess this was a week or two ago, the American military can do anything. That was his statement. It could do anything. Well, on the one hand, everybody puffs up their chest and says, "Oh, he's so proud and that's wonderful." Well, you know, when uh people told Hitler the truth about Russia and said, "Whatever you do, don't invade the place.
 " And talk to him about the problems associated with it, he said, "The German soldier can do anything." And that shut up everybody in the room. Nobody can do everything. No military power in the world can do anything. Doesn't make any sense. So that that's another aspect of his personality that worries me. >> Well, here's an aspect of somebody else's personality that'll probably worry you with apologies.
-Secretary Heg Seth yesterday, Chris, cut number two. So, as President Trump said, they've been tap tap tapping. You can see when someone's trying to tap tap tap on a deal. Instead, they're going to have tap tap tap bombs dropping on key facilities in Iran from the United States of America. And that's not because uh we want to restart anything we don't have to restart.
+Secretary Hegseth yesterday, Chris, cut number two. So, as President Trump said, they've been tap tap tapping. You can see when someone's trying to tap tap tap on a deal. Instead, they're going to have tap tap tap bombs dropping on key facilities in Iran from the United States of America. And that's not because uh we want to restart anything we don't have to restart.
  It's because we are the War Department is prepared to set the terms to ensure that we get the kind of deal President Trump expects. >> He really mean that? Doesn't he understand that whatever goals the administration has cannot be accomplished by military force alone? >> Well, obviously he doesn't believe that or he wouldn't have said it.
  He must think that uh much like the Air Force and Curtis Lame, drop enough bombs and everybody will listen to you. That hasn't really worked very well. Now, somebody will point to the atom bomb, but hopefully no one is seriously considering the use of nuclear weapons because that would open Pandora's box in the worst way imaginable.
  But uh you know this these statements are difficult to swallow but I think he believes it for whatever it's worth. How big a mistake is this war? >> This is probably the single greatest disaster for the last hundred years. I mean, this is this is worse than uh you know, Churchill's folly in the dinels, which cost him his job, cost to him out of office, and damn near destroyed his career.
@@ -86,7 +87,7 @@ create the first Arab liberal democracy and you need to understand that's where 
  Nobody wants to jeopardize that. Here's uh here's that clip I mentioned to you. It's a full screen from Joe Kent. No deal is required for us to just walk away. It's evident that we can't stop either side from attacking the other. There is only one realistic choice we have. Stay and get sucked in further into the war or look out for our interests and just walk.
  No one is saying that to the president. >> No. And there's a reason for that and that reason is Israel. There is fear that if you do what Joe said and and I happen to agree with him. I think he's right. But if you do that, the Israelis will then turn to the use of a nuclear weapon. They will feel that under the circumstances that we've abandoned them and the only way for them to survive is to annihilate their opponent.
  And the only way to annihilate that opponent in their minds is with a nuclear weapon. Now I I've always worried about this because as we've discussed in the past, Pakistan has made it very clear to the Turks that a nuclear weapon would be available to them if they needed it. And Mr. Erdogan never misses the opportunity to tell the Israelis, we know what you have and we're not afraid of it.
- And that's what he's saying. I rather suspect that a similar agreement may well have been reached with uh Persia, with Thrron. If so, that would be suicidal on the part of the Israelis, >> right? I >> think that's the sticking point. >> The Israelis, of course, are using their leverage in the United States Congress to insert two sections into the National Defense Authorization Act.
+ And that's what he's saying. I rather suspect that a similar agreement may well have been reached with uh Persia, with Tehran. If so, that would be suicidal on the part of the Israelis, >> right? I >> think that's the sticking point. >> The Israelis, of course, are using their leverage in the United States Congress to insert two sections into the National Defense Authorization Act.
  You can't make this up. Which uh require making available to Israeli military and intelligence American top secrets. Have you ever heard of a of a relationship like this? A president in the future can't stop this unless he wants to break the law. Well, first of all, you can I understand what you mean about breaking the law, but I would urge members of the House and the Senate to think long and hard about this because the time is going to come when having put your name on the dotted line and signed up and voted for it that you are probably going to be
 accused of treason. And that's a treasonous act what we're discussing right now. Uh I don't know who wrote it. My supposition is that someone like uh Senator Cotton is probably the author. He's very >> Yes, he is. He is the author of the section 622 which requires it doesn't permit it requires sharing of intelligence and military secrets.
 >> Yeah. Well, it's I think it's a grave mistake. we shouldn't do it. Now, under FDR, we had this thing we called lend lease. Lend lease uh began long before it was actually entirely approved to the Soviet Union, to the communists in July of 1941. Very few people know that it ran throughout the war.

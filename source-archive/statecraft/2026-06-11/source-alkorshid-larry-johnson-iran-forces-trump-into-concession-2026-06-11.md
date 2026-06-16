@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-12
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Nima Alkhorshid
 guest_people:
@@ -24,14 +24,15 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=oVIpH5FQF3Y"
 youtube_id: oVIpH5FQF3Y
-source_note: Operator-pasted transcript; host self-dates Thursday 11 Jun 2026. Two-week Pakistan-channel draft + US added conditions; Qatar delegation in Iran during US night attack; 3–4 day Hormuz-only mini-campaign (coastal defense/cruise sites; dual-use off limits per source — Kish water tanks exception in-body); 39th deal-imminent claim; 12 F-35 damaged/destroyed Muwaffaq Salti Jordan (verify:wire-tier Russian/Iranian source pair); Iran five demands (sanctions/assets, Hormuz control, blockade lift, Israel Lebanon+Palestine ceasefire); Khamenei approval gate; Kharg invasion trap/mines; 49 Tomahawks + new intercept tech; Trump 100M-barrel steal debunk; Kellogg total-war/nuke Fox clip; Ramat David hit imagery; Pepe Pakistan vs Qatar mediator shift; UAE/Emirati Tehran delegation; China/Pakistan/Qatar backstage; Kennedy Kharg=Vietnam; Bahi FM no finalized deal; pen-prick exchange loop. Same-day Davis Johnson Dj7QDmiaaj4 + Krainer/Martyanov/Aguilar MOU bench.
+source_note: "Operator-pasted transcript; host self-dates Thursday 11 Jun 2026. Two-week Pakistan-channel draft + US added conditions; Qatar delegation in Iran during US night attack; 3–4 day Hormuz-only mini-campaign (coastal defense/cruise sites; dual-use off limits per source — Kish water tanks exception in-body); 39th deal-imminent claim; 12 F-35 damaged/destroyed Muwaffaq Salti Jordan (verify:wire-tier Russian/Iranian source pair); Iran five demands (sanctions/assets, Hormuz control, blockade lift, Israel Lebanon+Palestine ceasefire); Khamenei approval gate; Kharg invasion trap/mines; 49 Tomahawks + new intercept tech; Trump 100M-barrel steal debunk; Kellogg total-war/nuke Fox clip; Ramat David hit imagery; Pepe Pakistan vs Qatar mediator shift; UAE/Emirati Tehran delegation; China/Pakistan/Qatar backstage; Kennedy Kharg=Vietnam; Bahi FM no finalized deal; pen-prick exchange loop. Same-day Davis Johnson Dj7QDmiaaj4 + Krainer/Martyanov/Aguilar MOU bench. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Moshtava Kami, Moafik Salty, Clark/Kharg, etc.). Host closing Wilkerson-schedule + cigar banter trimmed at tail.
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 dialogue_works_close_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Moshtava Kami, Moafik Salty, Clark/Kharg, etc.). Host closing Wilkerson-schedule + cigar banter trimmed at tail."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Larry Johnson: BREAKING: Iran Forces Trump Into Concession – War Price Unbearable
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  
@@ -67,7 +68,7 @@ um that you know that could be the whole stumbling block. Now that doesn't even 
 So the you know but this uh you saw we went from this morning you know Washington DC time. So you know saying 9:00 a.m. 10:00 a.m. my time or actually about 9:00 a.m. my time. Trump is saying we're going to hit them harder today. We're going to destro you know destroy them. >> U he said we're going to >> we may we may put troops on Car Island.
 Um and then 5 hours later he goes, "Okay, yeah, we're not going to bomb." And uh and in fact, we're going to we're ready to sign an agreement. Almost ready. But I'm I'm telling you right now that there will be attacks tonight. In fact, I think there already reports of attacks, some minor, you know, air air defenses uh engaged.
 So, you know, um this is this isn't over by any stretch. >> No, it's not over. And what Donald Trump said, you know, the the attack last night, Larry, was interesting. Iranian response. They're not attacking UAE, not Saudi Arabia, nor it seems that something in terms of the negotiation.
- As you mentioned, we had the delegation. We had a delegation from the UAE going to Iran. I don't know what is the nature. At least we know what is the meaning of the delegate. What was the mission of the delegation? Because the source in Thran said that that they were, you know, talking about the differences they had between the differences that Iran had with the United States with that text.
+ As you mentioned, we had the delegation. We had a delegation from the UAE going to Iran. I don't know what is the nature. At least we know what is the meaning of the delegate. What was the mission of the delegation? Because the source in Tehran said that that they were, you know, talking about the differences they had between the differences that Iran had with the United States with that text.
  But when when you look at the situation in in the Persian Gulf, Donald Trump says he said today that the straight is open. >> He said many strange thing the straight is open. We have you know taken out you know a 100 million barrels of oil. We stole it from Iran. Something the meaning of that was that we stole it from Iran.
  They don't know that we did that to them. You do realize how silly that was because you know 100 million barrels of oil represents five days of normal flow out of the Persian Gulf. So go back to like February 26th, February 25th before the start of the war. Every day 20 million barrels were coming out. So that's only five days worth of oil.
 Number one. Number two, it would require that much oil would require probably between you know 70 and let's say 110 oil tankers depending on the size of the oil tankers u and within uh ter put it in terms of US use that's how much oil barrels of oil the United States use United States uses every day.

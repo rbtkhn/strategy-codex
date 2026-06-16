@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-12
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Judge Andrew Napolitano
 guest_people:
@@ -24,15 +24,16 @@ channel_slug: judging-freedom
 channel_url: "https://www.youtube.com/@judgingfreedom"
 source_url: "https://www.youtube.com/watch?v=Hg7FvDUzi6c"
 youtube_id: Hg7FvDUzi6c
-source_note: Operator-pasted transcript; host self-dates Thursday 11 June 2026; guest live from Tehran. Framework deal gap (assets/siege/sanctions lift vs Trump public denials); Pakistan message channel paused over US ceasefire violations + Lebanon; Hormuz helicopter in Iranian waters; no deal without Lebanon/Gaza restraint; siege pressure to force US-first over Israel-first; military defeat read. Same-week seam with Napolitano×Kent 2026-06-11 and Mercouris Iran sections.
+source_note: "Operator-pasted transcript; host self-dates Thursday 11 June 2026; guest live from Tehran. Framework deal gap (assets/siege/sanctions lift vs Trump public denials); Pakistan message channel paused over US ceasefire violations + Lebanon; Hormuz helicopter in Iranian waters; no deal without Lebanon/Gaza restraint; siege pressure to force US-first over Israel-first; military defeat read. Same-week seam with Napolitano×Kent 2026-06-11 and Mercouris Iran sections. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Morandi, Thran, Hormos, etc.). Ideological cold open trimmed in place.
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 napolitano_cold_open_trim_applied: true
 napolitano_leading_noise_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 30 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Marandi, Tehran, Hormos, etc.). Ideological cold open trimmed in place."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Prof. Mohammad Marandi : FROM TEHRAN. Why Iran Risks War
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  
@@ -43,16 +44,16 @@ napolitano_leading_noise_trim_applied: true
 ## Transcript
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
- Today is Thursday, June 11th, 2026. My dear friend, Professor Muhammad Morandi joins us from Thran. Uh, Professor Morandi, a pleasure. Thank you very much uh for joining us. Can you uh tell us what the US bombed or attacked in the past 24 hours and has it affected life in the capital of Iran? Thank you very much for inviting me, judge.
- They did uh bomb areas near the uh straight of Hormos and uh they also targeted uh places uh near Thran in the city of Karaj which is a very large city that is close to Tehran. Um the the damage was limited. I don't think it was u nearly as extensive as advertised. It was perhaps uh they say it was I don't know 30% uh uh big bigger in scope than the previous assaults and the Iranian response was uh uh pretty heavy-handed uh as well.
+ Today is Thursday, June 11th, 2026. My dear friend, Professor Muhammad Marandi joins us from Tehran. Uh, Professor Marandi, a pleasure. Thank you very much uh for joining us. Can you uh tell us what the US bombed or attacked in the past 24 hours and has it affected life in the capital of Iran? Thank you very much for inviting me, judge.
+ They did uh bomb areas near the uh Strait of Hormuz and uh they also targeted uh places uh near Tehran in the city of Karaj which is a very large city that is close to Tehran. Um the the damage was limited. I don't think it was u nearly as extensive as advertised. It was perhaps uh they say it was I don't know 30% uh uh big bigger in scope than the previous assaults and the Iranian response was uh uh pretty heavy-handed uh as well.
  So um and nothing has changed. Of course the I heard that the American that's uh western media claimed that there was a a deal between Iran and the United States anou that's not true. The Iranians have said that their position on the uh on any potential agreement with the United States has not changed and that Trump if he wants to deal he'll have to accept those terms which uh he almost did accept the the negotiator the negotiators which sent messages back and forth on paper have been acknowledging one thing yet Trump in his public statements has been saying
 the opposite On paper, they have more or less agreed to release Iran's uh the stolen assets. Um but Trump says he will not give Iran's assets. Uh on paper, they have more or less agreed, not in final in there's no final text, but they more or less agreed to lift the siege. Trump says he's not going to lift the siege.
  On paper, they more or less agreed that they would lift the sanctions for the period of the implementation of the agreement. Trump says he's not going to do that. So, uh, his negotiators do one thing, he says something else. But until that framework, which the both sides in general have agreed upon, until Trump acknowledges and accepts that framework, there won't be a deal.
 Are negotiations going on either as we speak or in general these days? And if so, does it consist in passing messages through the Pakistanis or does it consist in anything else? It certainly doesn't consist of what you observed when everybody was physically together in Islamabad. No, they're not. They're negotiations.
 Uh they all the messages go through Pakistan. I don't think the Pakistanis really have uh a significant role to play because everything is written down. Uh but recently the Iranians have not responded because of the uh this this the the constant violations of the so-called ceasefire by the Americans over the past few weeks.
  They've been constantly bombing and raiding and uh and also because of the the uh the ongoing genocidal attacks in Lebanon. So uh but the the Iranians have said that the Americans know their position. Their position is what what was negotiated a few weeks ago and we you it's been discussed on your show by multiple guests. It's nothing new.
- the, as I said, the lifting of sanctions for the period of the negot of the the deal, the releasing of Iranian stolen assets, uh a ceasefire in Lebanon and in Gaza, um and an end to the war and uh and also the lifting of the siege. And Iran in return would uh allow and facilitate the trade to to normalize through the straight of hormones and uh and also Iran would state that it does not pursue a nuclear weapon which is something that Iran has always been saying these if I recall them all correctly.
- This is basically the framework. >> Right. Right. But but Trump and uh his secretary of defense who calls himself the secretary of war uh Pete Hegsth are of the view that the resumption of bombing will affect Iran's negotiating excuse me negotiating posture. It is doesn't that just manifest an abject ignorance of the way the Iranians think and the way the government operates? Yes.
+ the, as I said, the lifting of sanctions for the period of the negot of the the deal, the releasing of Iranian stolen assets, uh a ceasefire in Lebanon and in Gaza, um and an end to the war and uh and also the lifting of the siege. And Iran in return would uh allow and facilitate the trade to to normalize through the Strait of Hormuz and uh and also Iran would state that it does not pursue a nuclear weapon which is something that Iran has always been saying these if I recall them all correctly.
+ This is basically the framework. >> Right. Right. But but Trump and uh his secretary of defense who calls himself the secretary of war uh Pete Hegseth are of the view that the resumption of bombing will affect Iran's negotiating excuse me negotiating posture. It is doesn't that just manifest an abject ignorance of the way the Iranians think and the way the government operates? Yes.
  And it makes Iranians think that the United States is increasingly similar to the Israeli regime and that all it likes to do is just bomb and kill. And so you sort of see that the the two look more like one another. Sort of like uh the end of Animal Farm. >> Oh my god. You you took the thought right out of my head and I looked from man to pig and pig to man and could hardly tell the difference.
  I think that's the way animal farm ends of course. >> Yes. Yes. Um, has Iran altered its military strategy so as to become offensive preemptively and so as to respond with greater force than that which was visited upon it? >> Um, that's a difficult question. I think that uh in in general in order to initiate a war the Iranians would never do that and they would never start a war and that goes against their religious principles.
  Uh we are in war uh as we speak. The war has not ended. It's it's over well over 3 months. But I think the Iranians prefer not to initiate conflict. And we've every time it's been the Americans who've broken the ceasefire. In the case of this helicopter, uh the helicopter was in the straight of Homos which is as you know not international waters.

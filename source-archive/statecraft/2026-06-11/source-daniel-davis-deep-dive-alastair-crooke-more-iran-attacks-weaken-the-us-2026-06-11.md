@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-11
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Daniel Davis
 guest_people:
@@ -24,13 +24,14 @@ channel_slug: daniel-davis-deep-dive
 channel_url: "https://www.youtube.com/channel/UCWDN5zr5ttctoIAhZwW6tcQ"
 source_url: "https://www.youtube.com/watch?v=pEHDc-UYi0U"
 youtube_id: pEHDc-UYi0U
-source_note: "Operator-pasted transcript; pub_date inferred from transcript voice (11 Jun 2026 — live Trey Yinst energy-infra threat; teases Larry Johnson ~1hr + Barnes 1:45pm + Art Burman 3:30pm same afternoon). Routing: escalatory deterrence; Supreme Leader office letter; ceasefire-for-all-or-none; Lebanon resistance link; Trump-Netanyahu trap; Jack Keane finish-the-job clip; Naryshkin 20-30yr confrontation; Gulf AI data centers; Ben Caspit deflated Netanyahu; Israel sliding to anarchy; same-day Davis triple with Johnson + Barnes."
+source_note: "Operator-pasted transcript; pub_date inferred from transcript voice (11 Jun 2026 — live Trey Yinst energy-infra threat; teases Larry Johnson ~1hr + Barnes 1:45pm + Art Burman 3:30pm same afternoon). Routing: escalatory deterrence; Supreme Leader office letter; ceasefire-for-all-or-none; Lebanon resistance link; Trump-Netanyahu trap; Jack Keane finish-the-job clip; Naryshkin 20-30yr confrontation; Gulf AI data centers; Ben Caspit deflated Netanyahu; Israel sliding to anarchy; same-day Davis triple with Johnson + Barnes. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body preserved verbatim from parent paste. ASR artifacts retained (Alistister, Krook, Trey Yin/Yinst, Naryshkin/Bresnikov, etc.).
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 38 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Alastair Crooke: More Iran Attacks WEAKEN the US
 
 **Show:** Daniel Davis Deep Dive  
@@ -48,7 +49,7 @@ talk about here in a moment. Uh and we have with us the remarkable Alistister Cr
 Iran's military is a complete and total mess. Much of it like their navy and air force doesn't even exist anymore. They have been completely defeated. Iran is all talking. no action even though they literally just fired I think 20 something missiles at three of our bases last night.
  Uh but anyway, the bully of the Middle East is dead. They've taken too long to negotiate a deal that would have been great for them. Now they will have to pay the price. And then of course you just saw that by Trey Yin, which added a little bit more to that. What say you? Well, I think this is uh wholly to be expected and I think um that Iran has introduced um its new um if you like uh its new plan, its new system, the new phase of the war um the not yesterday but the day before in a letter from the Supreme Leader's office um which was
 very clear moving to um escatillatory um deterrence. So in other words, they are going to go up the escatillary ladder, I can't say that properly, up the ladder. Uh every time something happens, America attacks, a helicopter attacks or whatever it is, or the infrastructure of Horos is attacked, then they go up.
- And that's what we saw in in in in the airport in Kuwait. That was the reaction. And then on the other hand, um they are escalating in the negotiations. Um, Iran are using deterrence in the escalations so that every time they get a message sent to them by the Pakistanis or the Ammanis saying that, oh yes, Trump has agreed to release frozen assets and then it turns out that he denies it the next day.
+ And that's what we saw in in in in the airport in Kuwait. That was the reaction. And then on the other hand, um they are escalating in the negotiations. Um, Iran are using deterrence in the escalations so that every time they get a message sent to them by the Pakistanis or the Omanis saying that, oh yes, Trump has agreed to release frozen assets and then it turns out that he denies it the next day.
  Then they put their demand up and say, "Well, now that's a precondition." And then on the third bank um they have linked um not just Lebanon but the whole of the resistance um to the deal the ceasefire and the deal with Washington. so that if there is any attack in Lebanon or on the Palestinians, um the Iranians say they are ready to fire missiles at Israel.
  This is a very new thing. This is new. This is really important because um until now um if something happened throughout this period of the years for from 24 onwards if you like um a ceasefire was established in Lebanon. a ceasefire was established by the United States envoy um talking in Lebanon um and said there was now a ceasefire and immediately then um Israel um breached that ceasefire and continued to breach it, assassinating people um attacking houses um destroying villages and that goes on today and so far until now Iran has not directly intervened in
 this war in this direct way and they have now said very plainly um that if there is an attack in Lebanon our ally our resistance ally um and the other allies in this then uh we will attack directly into Israel before they didn't attack directly into Israel there were attacks but they were not directed into Israel.
@@ -60,7 +61,7 @@ So that he's in a deeper deeper trap now as a consequence of what Iran has done.
  So, if he can't stop fighting there, and he certainly can't stop fighting uh and I mean an actual ceasefire in in Gaza and apparently according to some Spanish media, the Iranians foreign ministry spokesman, I'm sorry, the IRGC spokesman explicitly said that about 10 hours ago, 14 hours ago, that they are connected. Well, then what is the play for Iran? Because if if Israel doesn't stop those places, then Iran can't end the war.
  So, what's their play? Well, they set it out very clearly in a letter um that was written from the Supreme Leaders, came from the Supreme Leaders Office. Um and um in it, it says the results of the war with the United States and Israel to date are have proved to be the basis for a new security order in the Middle East. Iran and the axis of resistance seek to dictate its rules.
  I mean just absorb that Iran and the axis of resistance are confident enough to in seek to dictate its rules. I'm quoting from the letter. The US no longer the letter says the piece says US is no longer capable of achieving its goals through warfare. It has lost its primary leverage against Iran, i.e. the military um threats against Iran.
- Um Iran has emerged from the war. I'm still quoting the same thing. Emerged from the war with new bargaining chips, control of foremost, the ability to suspend or a new context with Washington. They see that as a a le new point of leverage and the ability to influence the Lebanese arena. The halt of the attack on Beirut following the Iranian threat is proof that Thran is already altering the calculations of both Trump and Netanyahu.
+ Um Iran has emerged from the war. I'm still quoting the same thing. Emerged from the war with new bargaining chips, control of foremost, the ability to suspend or a new context with Washington. They see that as a a le new point of leverage and the ability to influence the Lebanese arena. The halt of the attack on Beirut following the Iranian threat is proof that Tehran is already altering the calculations of both Trump and Netanyahu.
 And the central the central point of this um is in the approach to Hezbollah. It is no longer presented as a regional ally but as a part of Iran's own national security equation. Therefore, according to the article, Iran will not return to the pre-war situation. Not in homos, not in the face of the American presence in the region, not in its relations with the axis of resistance.
  I mean, you've just heard it. I mean, this is an extraordinary extraordinarily robust statement. I'm you know I it remains to be seen whether all of this is achieved of course but this is not a surrender document. This is a defiance document. This is a document of defiance by Iran saying that they believe that they are in a position um to dictate the future um geopolitical shape of the Middle East.
 >> Well, we will have to see. >> Yeah. Yeah. Well, let me ask you this question since you know the the Iranian side. You you studied for for quite a number of years. Uh does that would seem to imply as I'm just listening here that they would probably recognize the normity of what they're what they're saying.

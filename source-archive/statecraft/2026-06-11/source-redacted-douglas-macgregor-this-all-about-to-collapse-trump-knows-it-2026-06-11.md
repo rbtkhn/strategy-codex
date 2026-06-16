@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-12
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Clayton Morris
   - Natali Morris
@@ -25,14 +25,15 @@ channel_slug: redacted-news
 channel_url: "https://www.youtube.com/@RedactedNews"
 source_url: "https://www.youtube.com/watch?v=1tqCXZFIfOI"
 youtube_id: 1tqCXZFIfOI
-source_note: Operator-pasted transcript; Redacted × Macgregor 11 Jun 2026. Trump called-off-strikes + deal-in-2–3-days (#38 Greenwald 5-step cycle); Tucker sovereignty monologue (Netanyahu chose war time/place); Wall Street source no-deal truth; Bernie Madoff salesman analogy; SPR→empty-by-autumn + sulfur 900%/fertilizer/Hormuz + farm-income collapse bench; end-state menu (pretend-leave / Israel nuke if abandoned / Kashmir hot-cold); Lavrov Arab-states–Russia security arrangement; Redacted insider Iran denies deal + Vance/Pakistan team Truth-Social sabotage; Israeli backers want obliteration; can't cut Israel loose; Gulf states may seek Pakistan/Turk/Iran nuclear access; Kharg airmobile disaster + Chinese oil-buyer stake; CENTCOM Hormuz-open vs graft queue ($10M bypass); undisclosed base losses (verify:wire-tier); Marandi tease same episode. Same-day Napolitano Macgregor ar9V-pip-_Q overlap on Kharg/SPR/Israel-veto/Lavrov.
+source_note: "Operator-pasted transcript; Redacted × Macgregor 11 Jun 2026. Trump called-off-strikes + deal-in-2–3-days (#38 Greenwald 5-step cycle); Tucker sovereignty monologue (Netanyahu chose war time/place); Wall Street source no-deal truth; Bernie Madoff salesman analogy; SPR→empty-by-autumn + sulfur 900%/fertilizer/Hormuz + farm-income collapse bench; end-state menu (pretend-leave / Israel nuke if abandoned / Kashmir hot-cold); Lavrov Arab-states–Russia security arrangement; Redacted insider Iran denies deal + Vance/Pakistan team Truth-Social sabotage; Israeli backers want obliteration; can't cut Israel loose; Gulf states may seek Pakistan/Turk/Iran nuclear access; Kharg airmobile disaster + Chinese oil-buyer stake; CENTCOM Hormuz-open vs graft queue ($10M bypass); undisclosed base losses (verify:wire-tier); Marandi tease same episode. Same-day Napolitano Macgregor ar9V-pip-_Q overlap on Kharg/SPR/Israel-veto/Lavrov. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (McGregor/Mirand/Mandandy, Cargo/Kharg, etc.). Redacted closing subscribe promo trimmed at tail.
 opening_tier: news-lead
 transcript_wrapper_tier: clean
 redacted_close_promo_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (McGregor/Mirand/Mandandy, Cargo/Kharg, etc.). Redacted closing subscribe promo trimmed at tail."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # "This all about to collapse and Trump knows it" Col. Douglas Macgregor
 
 **Channel:** Redacted News (Clayton Morris, Natali Morris)  
@@ -80,7 +81,7 @@ And then there's always the possibility that we sort of freeze everything and th
  The rest of the world is not that not that well off and our European allies are certainly not in a strong position. It's time for President Trump to think beyond just his own personal interests and think about the world. What are we doing to the rest of the world? We're not just disrupting supply chains as you pointed out at the beginning, Natalie, when you were talking about famine.
 We're destroying potentially hundreds of millions of lives all over the globe. That's the last thing we as Americans want to do. That's something we've never wanted to do. So, how do you get to Trump in the Oval Office and say, "Mr. President, step back from all of this. Whatever your personal concerns are, this needs to stop. This is why.
 " And show him categorically what's at stake. When I was last with a man and when I met him, he was a he was an intelligent person who could actually reason and think things through. I don't know what's happened, but he's got to move beyond this emotional state and extricate himself and us from this terrible position.
->> What do you think happens next? US Central Command, it just seems like we're living in a bizarro world, Colonel. I mean, US Central Command earlier this morning posted, "The Straight of Hormuse remains open for transit pathway." And all you need to do is just scroll down to read the or talk to anyone who knows anything or just scroll down and read the community notes.
+>> What do you think happens next? US Central Command, it just seems like we're living in a bizarro world, Colonel. I mean, US Central Command earlier this morning posted, "The Strait of Hormuz remains open for transit pathway." And all you need to do is just scroll down to read the or talk to anyone who knows anything or just scroll down and read the community notes.
  Commercial shipping through the straight remains severely restricted. Uh I spoke to Professor Mandandy [clears throat] in Iran just a short time ago. We'll play that interview in a few minutes, but he said no ships get through unless Iran lets them through. Like what is Sentcom posted here? >> No, I in fact I had another phone call with someone on the inside and I said, "You have a list of the ships, their names, who the captains are, where they're bound to.
 " And he said, "Come on, Doug. Of course not." Well, I said, "Well, then this damn thing is not open, is it?" He said, "No, it's it's not open, but we're saying it's open." You know what it what right what's going on right now in the Gulf is a lot of graft as you would expect. I mean you've got people in the in the world who are saying look uh you want to get through the get through the straight of hormuz okay normally you'd pay a toll of 2 million or or a million or whatever it is stand in line but if you're willing to pay 10 million we can move you up in
 the queue. So there are there are people down in the Gulf right now who are making plenty of money by cutting these kinds of deals. So are there ships carrying oil out of the Gulf? Yes. But they're carrying it out because the Iranians have let them do so. Whether that was done in accordance with the stated regulations or it was done because of bribery, who knows? But at the end of the day, we're not really in control of everything. And that's the point.

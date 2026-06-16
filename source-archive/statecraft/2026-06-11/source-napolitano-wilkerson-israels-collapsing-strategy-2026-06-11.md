@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-12
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Judge Andrew Napolitano
 guest_people:
@@ -24,16 +24,17 @@ channel_slug: judging-freedom
 channel_url: "https://www.youtube.com/@judgingfreedom"
 source_url: "https://www.youtube.com/watch?v=0qNpuJ_vQh4"
 youtube_id: 0qNpuJ_vQh4
-source_note: "Operator-pasted transcript; host self-dates Thursday 11 June 2026. Kent same-day bench — others in IC agree Iran war is Israel's; Trump never talked to Iranian principal (competent authority); 8:30 Kharg/Car Island total-control Truth vs 2pm cancel-strikes roller coaster; Hegseth negotiate-with-bombs clip; Pakistan-only intermediaries; Iran leverage next 96h / won't front US; Israel multi-front collapse (Gaza aid profiteering, Lebanon defying Trump, Iran, Netanyahu polls/jail); Kharj seizure insanity (105–110°F dehydration); ~50k regional troops / ~300k max boots; Bessent Venezuela oil fiction; USS Liberty June 8 1967 / Massie floor / Pollard-Sy Hersh line — Israel can get away with anything. Same-day bench Kent×Napolitano, Mearsheimer×Davis, Escobar×DW."
+source_note: "Operator-pasted transcript; host self-dates Thursday 11 June 2026. Kent same-day bench — others in IC agree Iran war is Israel's; Trump never talked to Iranian principal (competent authority); 8:30 Kharg/Car Island total-control Truth vs 2pm cancel-strikes roller coaster; Hegseth negotiate-with-bombs clip; Pakistan-only intermediaries; Iran leverage next 96h / won't front US; Israel multi-front collapse (Gaza aid profiteering, Lebanon defying Trump, Iran, Netanyahu polls/jail); Kharj seizure insanity (105–110°F dehydration); ~50k regional troops / ~300k max boots; Bessent Venezuela oil fiction; USS Liberty June 8 1967 / Massie floor / Pollard-Sy Hersh line — Israel can get away with anything. Same-day bench Kent×Napolitano, Mearsheimer×Davis, Escobar×DW. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; ideological cold open, sponsor block, and closing lineup promo omitted. ASR artifacts retained (Npalitaniano, Sanders/Wilkerson slip, Hexseth, etc.).
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 napolitano_cold_open_trim_applied: true
 napolitano_sponsor_trim_applied: true
 napolitano_close_promo_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 8 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; ideological cold open, sponsor block, and closing lineup promo omitted. ASR artifacts retained (Npalitaniano, Sanders/Wilkerson slip, Hexseth, etc.)."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # COL. Lawrence Wilkerson : Israel's Collapsing Strategy
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  

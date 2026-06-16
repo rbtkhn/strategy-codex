@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-12
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Breaking Points
 guest_people:
@@ -24,14 +24,15 @@ channel_slug: breaking-points
 channel_url: "https://www.youtube.com/c/BreakingPoints"
 source_url: "https://www.youtube.com/watch?v=bV8xIpqv18c"
 youtube_id: bV8xIpqv18c
-source_note: Operator-pasted transcript; Breaking Points × Weichert morning-of 11 Jun 2026. Trump Truth Social + Fox Kharg/Car Island occupation threats; appetite/stomach walk-back; JCS Caine invasion-failure warning; Gallipoli/amphibious Hormuz read; Marandi same-day contrast (wants landing trap); fake ceasefire; Politico oil-CEO July 4 barrel-bottom panic; Netanyahu deal-sabotage survival motive; Hersh low-yield nuclear contemplation (verify:wire-tier single-source); Trump 2016 Scarborough nuke anecdote; §622 IAA vs §224 NDAA faint (Paul Pillar); Five Eyes elevation / open-kimono intel; DIA CI tier; CIA lifers keepaway. Same-day seam with Napolitano×Kent/Macgregor/Marandi/Wilkerson + Krainer + America firewall draft.
+source_note: "Operator-pasted transcript; Breaking Points × Weichert morning-of 11 Jun 2026. Trump Truth Social + Fox Kharg/Car Island occupation threats; appetite/stomach walk-back; JCS Caine invasion-failure warning; Gallipoli/amphibious Hormuz read; Marandi same-day contrast (wants landing trap); fake ceasefire; Politico oil-CEO July 4 barrel-bottom panic; Netanyahu deal-sabotage survival motive; Hersh low-yield nuclear contemplation (verify:wire-tier single-source); Trump 2016 Scarborough nuke anecdote; §622 IAA vs §224 NDAA faint (Paul Pillar); Five Eyes elevation / open-kimono intel; DIA CI tier; CIA lifers keepaway. Same-day seam with Napolitano×Kent/Macgregor/Marandi/Wilkerson + Krainer + America firewall draft. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Wert, CarG, Morandi, Raisen Kaine, etc.). Breaking Points subscribe close stripped at tail.
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 breaking_points_close_promo_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Wert, CarG, Marandi, Raisen Kaine, etc.). Breaking Points subscribe close stripped at tail."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # REPORT: Trump Strongly Considered NUKING Iran
 
 **Show:** Breaking Points  
@@ -55,12 +56,12 @@ work out and Trump is not listening. Trump doesn't care. He's in full-blown LBJ 
 Galipoly and uh it's not going to end well. And I think the Iranians will probably let them land because this is the Persian this is the Persian mindset. This is how they this is what they do. This is what they did to Cassus. They're going to let them land and then they're going to wait for us to unload all of our stuff, get settled, and then all of a sudden you're going to see tens of thousands of Shahed drones every day, swarm upon swarm.
  You're going to see swarms of missiles, uh, you know, landing on these guys. This is going to be a disaster of unmitigated proportions. So, it isn't just a question of stomach of the American people. It's a question of the the ability of the US military, which is very limited right now because of the target.
  And also, by the way, this is coming from a guy, the president. Neither he nor his sons have ever served. So, they have no connection to what's going to happen for the families of these troops and these Marines when they land and they get killed. >> Yeah, Brandon, you're taking this very seriously and this is the big debate now that we've had.
- Uh we actually just spoke with Professor Sed Morandi from the University of Tron. He laughed actually uh whenever we read him the truth social post that he's not taking it seriously. You are. >> Well, he also said we want them to come. Yeah. No, we want them to come. >> Yeah. He said, "I want them to come." He said, "We want." >> So remember, this is what the North Vietnamese were saying.
- They wanted in 1965 in Ayad Drang. They wanted the Americans to land. They wanted to kill Americans. That's what they wanted very badly. And we gave it to them. And we killed a lot of them. But guess what? We didn't we didn't win that war. And um yeah, so Morandi, you know, he's he's on the ground.
+ Uh we actually just spoke with Professor Sed Marandi from the University of Tron. He laughed actually uh whenever we read him the truth social post that he's not taking it seriously. You are. >> Well, he also said we want them to come. Yeah. No, we want them to come. >> Yeah. He said, "I want them to come." He said, "We want." >> So remember, this is what the North Vietnamese were saying.
+ They wanted in 1965 in Ayad Drang. They wanted the Americans to land. They wanted to kill Americans. That's what they wanted very badly. And we gave it to them. And we killed a lot of them. But guess what? We didn't we didn't win that war. And um yeah, so Marandi, you know, he's he's on the ground.
  Uh you know, so he you know, he wants us to land. That should give us pause. You don't want to do what your enemy wants. You want to be unpredictable um in this way. Not the way Trump's been doing it, but you don't want you don't want to follow the pattern that they're prepared for because that means they've laid enough defenses.
  I'm taking it very seriously cuz Trump has no idea what the f he's doing. >> Well, this is the this is the age old question, though. Why don't you think that it's just another negotiating play? I mean, literally the day of civilization's end going to end. Tonight, we have a ceasefire. Now, obviously, the ceasefire is fake.
  Uh two days ago, the White House would have called his panicans for saying that. Now, Trump just says it out loud. He's like, "It was the most violated ceasefire in history." We agree, sir. We were saying that too the whole time while you were also denigrating us. But Brandon, why just walk us through the mindset here in particular, you know, with the Israel connection, the lobby, and where he's being pushed right now.
->> Well, let's just start with the the baseline here. Every aspect of this ceasefire has been a fake lie. It's been a lie. So why assume now that suddenly, oh, now this is going to be the turning of the corner to serious negotiations? It is not. Second of all, uh the the issue here now is the straight of hormuse itself.
+>> Well, let's just start with the the baseline here. Every aspect of this ceasefire has been a fake lie. It's been a lie. So why assume now that suddenly, oh, now this is going to be the turning of the corner to serious negotiations? It is not. Second of all, uh the the issue here now is the Strait of Hormuz itself.
  What does it represent? It is the basically the jugular of the global economy. It is 20% of the oil, 18% I think about 18% of the natural gas, uh onethird of the world's agricultural supplies, notably ura and fertilizer. Um all of that's choked up right now since basically the beginning of the war. Trump knows because last week Politico reported this.
  Uh all the American oil CEOs trundled up to the White House on Friday afternoon last week and said, "Mr. President, we are reaching bottom of the barrel beginning as early as July 4th weekend. Happy 250th anniversary, America." And Trump, I think, is secretly panicking because if he doesn't get the oil flows restored like now, then suddenly all of his BS becomes recognized and the whole economy collapses and he can't, you know, goose the system anymore with all of his rhetoric.
  So, I think he's trying very hard to figure out how do I restore the oil flow so whatever economic pain there is, it's short-lived. And I think his solution here is the insane one. It's, oh, we're gonna have to take Car Island and land troops there and restart the oil and we'll just intercept all that oil and redirect it and that'll be and we'll do sea control uh from Car Island.

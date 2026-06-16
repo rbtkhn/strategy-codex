@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-12
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Judge Andrew Napolitano
 guest_people:
@@ -24,16 +24,17 @@ channel_slug: judging-freedom
 channel_url: "https://www.youtube.com/@judgingfreedom"
 source_url: "https://www.youtube.com/watch?v=CSQ5rwTv2p4"
 youtube_id: CSQ5rwTv2p4
-source_note: Operator-pasted transcript; host self-dates Thursday 11 June 2026. Mossad/DIA critical-CI spying on Witkoff/Colby/Doran; leak to NYT/NBC from three-letter agencies; Shin Bet Secret Service vehicle trackers (Blumenthal 2025 → NYT confirm); White House Stingray first-term (Politico); Boris Johnson Netanyahu bathroom surveillance cite; Trump Truth Social delay-bombing/MOU blindsides Israel; §224 NDAA defense-tech merger (quantum/AI/cyber, joint production MS/AR jobs lock-in); §622 intel-sharing mandate (guest frames as NDAA — triangulate vs Senate IAA §622 per Pillar/Weichert); treaty-clause evasion; Kharg/Qarq morning reversal; Netanyahu Lebanon Dahiyeh red-line sabotage loop; Smotrich/Ben Gvir split; Haredi draft coalition threat; Kushner Sazan Island Albania Flamingo Revolution; Rothschild yacht/Epstein-class bunker read; Affinity Partners Saudi $2B; Edi Rama hybrid-war framing. Same-day seam Kent CI bench + Freeman/Weichert §224/§622.
+source_note: "Operator-pasted transcript; host self-dates Thursday 11 June 2026. Mossad/DIA critical-CI spying on Witkoff/Colby/Doran; leak to NYT/NBC from three-letter agencies; Shin Bet Secret Service vehicle trackers (Blumenthal 2025 → NYT confirm); White House Stingray first-term (Politico); Boris Johnson Netanyahu bathroom surveillance cite; Trump Truth Social delay-bombing/MOU blindsides Israel; §224 NDAA defense-tech merger (quantum/AI/cyber, joint production MS/AR jobs lock-in); §622 intel-sharing mandate (guest frames as NDAA — triangulate vs Senate IAA §622 per Pillar/Weichert); treaty-clause evasion; Kharg/Qarq morning reversal; Netanyahu Lebanon Dahiyeh red-line sabotage loop; Smotrich/Ben Gvir split; Haredi draft coalition threat; Kushner Sazan Island Albania Flamingo Revolution; Rothschild yacht/Epstein-class bunker read; Affinity Partners Saudi $2B; Edi Rama hybrid-war framing. Same-day seam Kent CI bench + Freeman/Weichert §224/§622. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Qarq, Hexseth, etc.). Ideological cold open and closing Macgregor lineup promo trimmed in place.
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 napolitano_cold_open_trim_applied: true
 napolitano_leading_noise_trim_applied: true
 napolitano_close_promo_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 32 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Qarq, Hexseth, etc.). Ideological cold open and closing Macgregor lineup promo trimmed in place."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Max Blumenthal : Israel Jeopardizes US Troops
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  

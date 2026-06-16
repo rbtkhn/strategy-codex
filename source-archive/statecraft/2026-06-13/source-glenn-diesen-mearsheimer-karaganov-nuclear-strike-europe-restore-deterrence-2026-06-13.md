@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-13
 pub_date: 2026-06-13
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Glenn Diesen
 guest_people:
@@ -26,9 +26,8 @@ channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=Q8PT0jiemKc"
 youtube_id: Q8PT0jiemKc
-source_note: "Operator-pasted transcript; Glenn Diesen panel on restoring Russian deterrence vs NATO incremental escalation (tanks→F-16→long-range→NATO-territory strikes). Karaganov — world war beginning; tectonic shift mid-2000s; restore fear of nuclear/God; limited nuclear use in Europe 'winnable' but moral sin restrains Putin; escalation letters/warheads to delivery vehicles; conventional Europe strikes first; Germany prime target / eliminationist rhetoric; Europe source of evil — push aside, go east/south Siberia; compatriot majority wants fuller nuclear deterrence use; Biden-era massive conventional threat if Russia nukes → Russian counter-nuclear → US withdrawal (Karaganov); Trump interest not peacemaker. Mearsheimer — Cold War red lines forgotten; Kursk 2024 + triad attack 2025 unthinkable; Shelling limited nuclear as coercion not battlefield win; US won't respond to limited European nuclear strike (agrees w/ Karaganov); Germany nuclear proliferation risk; essentialist pushback on Karaganov Germany rhetoric; frozen Ukraine + unstable Eastern Europe. St Petersburg attack last week referenced. Cross-ref 2026-05-10 Karaganov solo Diesen; 2026-05-18 Mearsheimer Diesen Karaganov retaliation lane; Jun 12–13 Russia/Ukraine batch."
+source_note: "Operator-pasted transcript; Glenn Diesen panel on restoring Russian deterrence vs NATO incremental escalation (tanks→F-16→long-range→NATO-territory strikes). Karaganov — world war beginning; tectonic shift mid-2000s; restore fear of nuclear/God; limited nuclear use in Europe 'winnable' but moral sin restrains Putin; escalation letters/warheads to delivery vehicles; conventional Europe strikes first; Germany prime target / eliminationist rhetoric; Europe source of evil — push aside, go east/south Siberia; compatriot majority wants fuller nuclear deterrence use; Biden-era massive conventional threat if Russia nukes → Russian counter-nuclear → US withdrawal (Karaganov); Trump interest not peacemaker. Mearsheimer — Cold War red lines forgotten; Kursk 2024 + triad attack 2025 unthinkable; Shelling limited nuclear as coercion not battlefield win; US won't respond to limited European nuclear strike (agrees w/ Karaganov); Germany nuclear proliferation risk; essentialist pushback on Karaganov Germany rhetoric; frozen Ukraine + unstable Eastern Europe. St Petersburg attack last week referenced. Cross-ref 2026-05-10 Karaganov solo Diesen; 2026-05-18 Mearsheimer Diesen Karaganov retaliation lane; Jun 12–13 Russia/Ukraine batch. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Karagenov/Karaganov, Mishama/Mearsheimer, Caragonov, chima/realism, etc.). Video freeze / Karaganov dropout mid-session noted in paste.
 opening_tier: host-tease
 transcript_wrapper_tier: paste-asr
 opening_trim_applied: false
@@ -76,8 +75,10 @@ verify_tokens:
   - "verify:persia-lane-absent"
   - "verify:prc-lane-absent"
   - "verify:rome-lane-absent"
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # John Mearsheimer & Sergey Karaganov: Nuclear Strike on Europe to Restore Deterrence
 
 **Channel:** Glenn Diesen  
@@ -140,7 +141,7 @@ As I've said uh uh if uh God forbids uh this war continues uh because it is an b
 the uh uh attacks uh on uh valable uh uh military or and symbolic targets in Europe and I don't want that. Uh then if uh there is a response uh the response would be limited nuclear strike uh then uh Russia would win. Nobody would would dare to attack Russian soil but uh we would uh then uh feel ourselves sinners and that is the main reason the main reason why I think myself people like myself and I think President Putin are refraining from using nuclear weapons.
  I think that if we uh decide to do that, it is an absolute winnable strategy. United States would never respond as you know and uh Europeans are good for nothing or the more that if uh uh French of course they are now almost insane or the Brits would try to think that means immediate evaporation of their nations but I don't want that ever to happen but as I've said I mean the threshold is not about unlimited unlimited etc etc war it is about I mean uh uh uh crossing certain moral um uh barriers first second if we use
 nuclear weapons and we win and I'm I'm assure you that quote unquote we would win because that would be a victory uh then everybody in the world and there are many countries which already have nuclear weapons. There are several which will acquire nuclear weapons will be using them and we will get into the absolutely different world because before um with this myths and which we have created that nuclear war is unthinkable that it would lead to the immediate uh global thermonuclear and evaporation of humanity. It is not. But we have to stop
-somewhere before and because uh now we have already several nuclear powers will have uh two or three but uh and I think that we should have two or three more. Uh but uh uh uh if we have two or three more, we have to restore the validity of nuclear deterrence. And if we use nuclear weapons in a limited way and win that would undermine this uh fear which we have installed in ourselves.
+somewhere before and because uh now we have already several nuclair powers will have uh two or three but uh and I think that we should have two or three more. Uh but uh uh uh if we have two or three more, we have to restore the validity of nuclear deterrence. And if we use nuclear weapons in a limited way and win that would undermine this uh fear which we have installed in ourselves.
 uh uh and uh I I participated in this process from the 70s. Uh of course you remember this ideas about uh u the nuclear winter about global ster. We uh we uh installed uh that uh these theories because we wanted to prevent another world war but it has started and that is why I am thinking about restoring uh the validity of nuclear deterrence hopefully before nuclear weapons are used.
 >> Glenn can I ask Sergey two questions? >> Yeah, go. >> So Sergey, I want to be clear here. You're basically saying that if Russia were to use nuclear weapons, limited nuclear attack into Europe, the Europeans and the United States simply would not respond in kind. They would accept the fact that it's not possible to attack Russia with nuclear weapons.
 And they would also change their behavior in the sense that they would now understand what the red line is or deterrence would be restored from the Russian side. So that's your argument. So you're you don't envision fighting a nuclear war. You believe that if Russia uses nuclear weapons, the West will submit. So that's my first question.

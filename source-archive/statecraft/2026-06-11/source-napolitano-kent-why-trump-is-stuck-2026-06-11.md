@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-12
 pub_date: 2026-06-11
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Judge Andrew Napolitano
 guest_people:
@@ -24,16 +24,17 @@ channel_slug: judging-freedom
 channel_url: "https://www.youtube.com/@judgingfreedom"
 source_url: "https://www.youtube.com/watch?v=v-PwVY70s0U"
 youtube_id: v-PwVY70s0U
-source_note: Operator-pasted transcript; host self-dates Thursday 11 June 2026. Kent post-resignation IC dissent bench — Israel CI tier leak/DIA formalization, Mossad admin targeting, Gabbard exit vs Pulte DNI unqualified, Trump Truth Social Kharg/oil infrastructure escalation, Hegseth negotiate-with-bombs clip, Israel restraint as binding constraint, hardliner self-fulfilling prophecy after decapitation, declare-victory-and-leave vs Carter trap. Same-week seam with Nawfal×Kent 2026-06-10 and Barnes 2026-06-10.
+source_note: "Operator-pasted transcript; host self-dates Thursday 11 June 2026. Kent post-resignation IC dissent bench — Israel CI tier leak/DIA formalization, Mossad admin targeting, Gabbard exit vs Pulte DNI unqualified, Trump Truth Social Kharg/oil infrastructure escalation, Hegseth negotiate-with-bombs clip, Israel restraint as binding constraint, hardliner self-fulfilling prophecy after decapitation, declare-victory-and-leave vs Carter trap. Same-week seam with Nawfal×Kent 2026-06-10 and Barnes 2026-06-10. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Hexseth, etc.). Ideological cold open and closing lineup promo trimmed in place.
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 napolitano_cold_open_trim_applied: true
 napolitano_leading_noise_trim_applied: true
 napolitano_close_promo_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Hexseth, etc.). Ideological cold open and closing lineup promo trimmed in place."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Joe Kent: Why Trump Is Stuck
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  
