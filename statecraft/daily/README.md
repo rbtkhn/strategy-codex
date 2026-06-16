@@ -149,3 +149,8 @@ April hinge ladder: 08 → 12 → 17 → 20 → 22 → 30; use archive day READM
 - [2026-06-14](2026-06-14.md) — intra-day MOU close × Marandi pre/post-close arc × Nima pre/post-close host arc × two-speed clock (6 captures)
   - [2026-06-14 wire-verify matrix](2026-06-14-wire-verify-matrix.md)
   - [Lebanon enforcement × Nima host arc](2026-06-14-lebanon-enforcement-nima-host-arc.md)
+- [2026-06-15](2026-06-15.md) — provisional MOU exit × dual-document gap × Trump–Netanyahu rupture × Sachs Rome-limit (8 captures; cross-ref Sun 14 Johnson×Marandi)
+  - [Johnson × Davis — MOU skepticism fork](2026-06-15-johnson-davis-mou-skepticism-fork.md)
+  - [Marandi × Sachs — outcome accounting fork](2026-06-15-marandi-sachs-outcome-accounting.md)
+  - [Davis Iran × Davis Ukraine — parallel / Moscow fork](2026-06-15-davis-iran-ukraine-parallel-fork.md)
+  - [2026-06-15 wire-verify matrix (Ukraine/G7)](2026-06-15-wire-verify-matrix.md)
