@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-03
 pub_date: 2026-06-03
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -16,19 +16,21 @@ channel_url: "https://www.youtube.com/@judgingfreedom/videos"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=rzLN4YbGnw4"
 source_type: youtube_transcript_operator_paste
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: Materialized from operator-pasted YouTube transcript for the June 3, 2026 Judging Freedom appearance.
+source_note: "Materialized from operator-pasted YouTube transcript for the June 3, 2026 Judging Freedom appearance. · ASR pass 2026-06-15."
 normalization_note: Removed routine ideological cold open and closing schedule promo; kept operator-pasted source language and residual ASR noise.
 opening_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 22 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Prof. Mohammad Marandi : FROM TEHRAN: How Iran Trapped Trump
 
 ## Transcript
 
-Today is Wednesday, June 3rd, 2026. My dear friend, Professor Muhammad Morandi coming to us live from Tran, Iran. Professor Morandi, always uh a pleasure. Before we get into the uh recent events and allegations, what is life like in Thran today? Still normaly? >> Yes, things are very normal, judge, and thank you very much for inviting me.
+Today is Wednesday, June 3rd, 2026. My dear friend, Professor Muhammad Marandi coming to us live from Tran, Iran. Professor Marandi, always uh a pleasure. Before we get into the uh recent events and allegations, what is life like in Tehran today? Still normaly? >> Yes, things are very normal, judge, and thank you very much for inviting me.
 
 The uh clashes last night in the Persian Gulf after the Americans attacked the Iranian tanker has been all over the news. And uh but besides but besides that nothing really important is happening. Uh the media here is saying that uh the uh uh Iranians uh have still uh refrained from continuing to send messages back and forth uh to the Americans.
 
@@ -62,7 +64,7 @@ So at that time uh people went to Ayatollahi the first leader Ayatahi and said t
 
 Then later who was martyed in this war said that gave a fatwa against nuclear weapons. So there is a very long history of opposition to weapons of mass destruction in Iran since the beginning of the revolution. However, Dr. Larijani before he was martyed uh in this war he was the chair of the supreme national security council he too said that Iran does not want nuclear weapons but he once did say that if Iran is facing existential an existential threat to its existence then Iran's nuclear posture would change. I don't think that at the moment anyone here believes that Iran's uh existence is being existentially threatened. So I would assume that the nuclear posture hasn't changed. But again, I I I will have to listen to what Larry has to say and what Pepe has to say and um and take both of them seriously because both of them are very credible people, very knowledge knowledgeable people and very good friends and >> and they have extraordinary uh contacts.
 
-I'm I'm not going to uh jump the shark here, but I think they'll tell us without specifically naming the contacts why they believe them and what work these uh these contacts do. A question or two about fatwas. Can the uh present supreme leader who is the son of the leader that was murdered on February 28th lift the fatwa that his father imposed? in in Shia Islam uh judge um juristprudence uh the gate to juristprudence is open in Sunni Islam it's closed but in in Shia Islam time and place have a uh a very important impact on Jewish prudence. So a a a senior figure a a a a high-ranking religious figure his opinion on issues depends on circumstances. The 21st century is different from the 20th century. Iran is different from Brazil. So uh so each has their own fatwas. They can change their own fatwas on on different issues. But uh Ayatah the the leader now cannot reverse Ayatah the martyr Ayat fatwa but he can give his own fatwa because fatwa was his and now he's he's he's martyed but he is no longer uh the uh the the leader of the the revolution or the Islamic Republic. So based on the assessment of the Supreme National Security Council, okay, on on on based on think tanks and issu and events that take place, we'll have to make his own decisions, but I have not seen any indication that there is any new fatwa on this issue. >> Got it. Got it. Um, two days ago, the West was reporting that Iranian President Pzkian had submitted his resignation and then maybe 18 hours later um, President Peskin's office denied it.
+I'm I'm not going to uh jump the shark here, but I think they'll tell us without specifically naming the contacts why they believe them and what work these uh these contacts do. A question or two about fatwas. Can the uh present supreme leader who is the son of the leader that was murdered on February 28th lift the fatwa that his father imposed? in in Shia Islam uh judge um juristprudence uh the gate to juristprudence is open in Sunni Islam it's closed but in in Shia Islam time and place have a uh a very important impact on Jewish prudence. So a a a senior figure a a a a high-ranking religious figure his opinion on issues depends on circumstances. The 21st century is different from the 20th century. Iran is different from Brazil. So uh so each has their own fatwas. They can change their own fatwas on on different issues. But uh Ayatah the the leader now cannot reverse Ayatah the martyr Ayat fatwa but he can give his own fatwa because fatwa was his and now he's he's he's martyed but he is no longer uh the uh the the leader of the the revolution or the Islamic Republic. So based on the assessment of the Supreme National Security Council, okay, on on on based on think tanks and issu and events that take place, we'll have to make his own decisions, but I have not seen any indication that there is any new fatwa on this issue. >> Got it. Got it. Um, two days ago, the West was reporting that Iranian President Pzkian had submitted his resignation and then maybe 18 hours later um, President Pezeshkian's office denied it.
 
 Do you know what this is all about? >> The uh, from from my understanding, the media outlet that put this out is called Iran International. Iran International is a Saudi funded or has been a Saudi funded. The Saudis are now saying they don't they don't fund it anymore, but someone is heavily funding it uh as we speak.
 

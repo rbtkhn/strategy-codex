@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-02
 pub_date: 2026-06-02
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -16,27 +16,28 @@ channel_url: "https://www.youtube.com/@judgingfreedom/videos"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=Ns7777oBj4U"
 source_type: youtube_transcript_operator_paste
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance.
+source_note: "Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance. · ASR pass 2026-06-15."
 normalization_note: Kept operator-pasted source language and residual ASR noise as provided.
 napolitano_sponsor_trim_applied: true
-editorial_note: Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 napolitano_close_promo_trim_applied: true
 opening_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 68 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Prof. John Mearsheimer : Will Israel Veto an American Peace?
 
 ## Transcript
 
 Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
  Today is Tuesday, June 2nd, 2026. Professor John Mirshimer will be with us in just a moment. Can Donald Trump's anger restrain Prime Minister Netanyahu. Will Israel veto an American peace?
 
 Professor Mir Shamber, welcome here uh my dear friend. I'd like to start with the breaking news uh this morning. Although this first item is about 48 hours old, Iran has withdrawn from negotiations. Israel is continuing to invade Lebanon. President Trump has cursed and revealed the curse or leaked it out.
- Um, Prime Minister Netanyahu and Iranian President Peskin claims he has not resigned. On top of all this, Larry Johnson and Pepe Escobar are reporting that Iran has a nuclear weapon. Let's reserve the nuclear weapon issue for a moment. What is happening between the United States and Iran and the United States and Israel as you understand it, Professor Mayor Shimemer? Well, Lebanon is the key issue and what's going on here is that President Trump wants to separate the Israel Lebanon war from the Iran issue.
+ Um, Prime Minister Netanyahu and Iranian President Pezeshkian claims he has not resigned. On top of all this, Larry Johnson and Pepe Escobar are reporting that Iran has a nuclear weapon. Let's reserve the nuclear weapon issue for a moment. What is happening between the United States and Iran and the United States and Israel as you understand it, Professor Mayor Shimemer? Well, Lebanon is the key issue and what's going on here is that President Trump wants to separate the Israel Lebanon war from the Iran issue.
  The Iranians on the other hand, because Hezbollah is a close ally of Iran, Iranians want to link the two. And the Iranians say you cannot get a ceasefire until all of the shooting in the Middle East stops, which includes Hezbollah versus Israel. In other words, for President Trump to get a ceasefire and then get serious negotiations going after that, he has to completely shut down the war in Lebanon.
  He has to stop the fighting between Israel and Hezbollah. The problem that the president faces is that Benjamin Netanyahu number one doesn't want a peace agreement, doesn't want a ceasefire. he wants to go back to bombing and number two he understands that by continuing the war in Lebanon that he thwarts any movement towards a ceasefire.
 So Trump is in a really difficult situation here because he's desperate and it's very important to understand he is desperate to shut this war down and get the ceasefire in place and then get negotiations going. But he can't do that because Iran has made it such that the war in Lebanon has to be shut down at the same time before the ceasefire can kick in.

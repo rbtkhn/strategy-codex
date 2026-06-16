@@ -1,6 +1,7 @@
 ---
 ingest_date: 2026-06-02
 pub_date: 2026-06-02
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 kind: cleaned-transcript
 source_form: interview
 host_people:
@@ -14,15 +15,19 @@ host: Alex Christoforou
 guest: Alexander Mercouris
 thread: mercouris
 source_url: "https://www.youtube.com/watch?v=dClwePAEoRw"
-source_note: User-pasted cleaned YouTube transcript.
+source_note: "User-pasted cleaned YouTube transcript. · ASR pass 2026-06-15."
 title_slug: transcript-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02
-editorial_note: Preserve as raw cleaned transcript. Routes to Mercouris because this is a Duran-hosted Mercouris object with Christoforou prompts and Mercouris analysis.
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # The Duran / Alexander Mercouris - Konstantinovka Is Falling, West's Ukraine Narrative Is Crumbling
 
-**Alex Christoforou:** All right, Alexander, let's talk about the situation in Ukraine. Let's talk about the military situation, the situation with Constantin. We have this uh this narrative from Ukraine and from the uh the collective west media about uh drone drone strikes, drone dominance in the uh the Crema landbridge in Zaparo which is uh once again showing that the tide has turned towards Ukraine's favor.
+## Transcript
 
-This is what the western media is is pushing out there. And we also have Zalinski uh whining and crying about Patriot missiles and also about uh the the fact that the United States and the EU is starting to ease up on the uh oil sanctions, the Russian oil sanctions because they need oil because of the conflict in the Middle East and he is really really whining and crying about it.
+**Alex Christoforou:** All right, Alexander, let's talk about the situation in Ukraine. Let's talk about the military situation, the situation with Konstantinovka. We have this uh this narrative from Ukraine and from the uh the collective west media about uh drone drone strikes, drone dominance in the uh the Crema landbridge in Zaparo which is uh once again showing that the tide has turned towards Ukraine's favor.
+
+This is what the western media is is pushing out there. And we also have Zelensky uh whining and crying about Patriot missiles and also about uh the the fact that the United States and the EU is starting to ease up on the uh oil sanctions, the Russian oil sanctions because they need oil because of the conflict in the Middle East and he is really really whining and crying about it.
 
 So anyway, uh where where should we start the military update? What's going on on the front lines? um the creme lambridge
 
@@ -46,11 +51,11 @@ And indeed it is having an effect because when you see the pictures of what is b
 
 As I'm sure this is connected to these attacks. Now, this is not the first time this has happened. This has happened regularly. There had been at various times shortages of water, shortages of uh um fuel in the past, all kinds of shortages as a result of these Ukrainian attacks. They do not change the military situation and eventually the Russians always find ways round and one obvious way is to redirect traffic carrying fuel through the Crimean bridge and that I am sure is what is going to happen.
 
-Now they will, Russians will take other action to protect the highway, but it is not the big decisive change in the balance of the war that people assume it is. And lastly, we now have more detailed analysis and more information about the situation on the front lines. And far from the tide turning, what we actually see is a Russian offensive that is gaining momentum with a major crisis in Constantin for the Ukrainians, a renewal of the offensive in Zaporia region, and reports that Zalinski has told Senator Richard Blumentol, who was
+Now they will, Russians will take other action to protect the highway, but it is not the big decisive change in the balance of the war that people assume it is. And lastly, we now have more detailed analysis and more information about the situation on the front lines. And far from the tide turning, what we actually see is a Russian offensive that is gaining momentum with a major crisis in Konstantinovka for the Ukrainians, a renewal of the offensive in Zaporia region, and reports that Zelensky has told Senator Richard Blumentol, who was
 
-recently in Kiev, that he's planning to sack Sarski, the Ukrainian military chief, and replace him with Budanov presumably because the military situation the actual military situation is going so bad. So that in a summary is what is happening now. Ukraine is trying to hit back in all sorts of other ways. There have been attacks on the Zaparogia nuclear power plant.
+recently in Kiev, that he's planning to sack Sarski, the Ukrainian military chief, and replace him with Budanov presumably because the military situation the actual military situation is going so bad. So that in a summary is what is happening now. Ukraine is trying to hit back in all sorts of other ways. There have been attacks on the Zaparogia nuclair power plant.
 
-Again nothing new in itself but these attacks do seem to be becoming more dangerous. We can talk about that later. So, in my opinion, it wasn't uh Zalinski that told Blumenthal about Cerski and Budanov. I think it was Blumenthal that told Zalinski about
+Again nothing new in itself but these attacks do seem to be becoming more dangerous. We can talk about that later. So, in my opinion, it wasn't uh Zelensky that told Blumenthal about Cerski and Budanov. I think it was Blumenthal that told Zelensky about
 
 **Alexander Mercouris:** plausibly
 
@@ -66,7 +71,7 @@ you have Congress and all these people are are kind of trying to to get their po
 
 I mean he was a very tough special forces soldier but you know in a very low level I mean he was he was never had command he's never had a command position uh commanding large bodies of men in battle he's been in military intelligence whereas you correctly say he's been largely guided by the CIA he does not have the background or experience to command armies.
 
-I mean, that is not what he does. And I mean, he'd be up against the professionals of the Russian general staff. Um, I mean, Syski at least has had command experience as disillusioning before him. So if the Americans want to replace U SKI with Budanov, it is indeed the case that they are taking uh tighter control and that they're pushing more of Zilinsk's people out of the picture.
+I mean, that is not what he does. And I mean, he'd be up against the professionals of the Russian general staff. Um, I mean, Syski at least has had command experience as disillusioning before him. So if the Americans want to replace U SKI with Budanov, it is indeed the case that they are taking uh tighter control and that they're pushing more of Zelensky's people out of the picture.
 
 And of course it begs the question why and I'm going to suggest that the reason the obvious reason why they're doing it and we touched on this u before is that the CIA can see perfectly clearly that the situation is not going at all in the way that the media in the west and the Ukrainians are implying the situation is deteriorating and for that reason they want their man in charge not so much to turn the tide of the conventional war,
 
@@ -128,13 +133,13 @@ And of course it begs the question why and I'm going to suggest that the reason 
 
 I suspect also from within the Russian security council. Now I think Putin does not want to do that because I think he's very concerned that this is a trap that if Russia starts um launching attacks on St. Vbarden where the real headquarters and the real decision-m centers are um that would create demands to um for direct western intervention in the war and might escalate into an actual World War II type scenario.
 
-And I think uh Putin um feels that with the situation in Ukraine, the real situation in Ukraine developing in Russia's favor, doing that is not in Russian national interest. What I think is going to happen, however, is something entirely different, which Putin has talked about, which Lavrov has talked about, which the Russian military has talked about, which is that we're going to get increasing use of um missiles, to attack command bunkers and installations inside Ukraine itself, to isolate Zalinski and the leadership in Kiev as we discussed in a recent video
+And I think uh Putin um feels that with the situation in Ukraine, the real situation in Ukraine developing in Russia's favor, doing that is not in Russian national interest. What I think is going to happen, however, is something entirely different, which Putin has talked about, which Lavrov has talked about, which the Russian military has talked about, which is that we're going to get increasing use of um missiles, to attack command bunkers and installations inside Ukraine itself, to isolate Zelensky and the leadership in Kiev as we discussed in a recent video
 
 and as I've been discussing in um programs I've done on my own channel, I've obtained a significant amount of information now which I consider reliable about the Archnik system and it does indeed seem to be designed for attacks against command bunkers and underground structures and is said to be effective in doing so.
 
-So the Russians are going to conduct this systematic campaign against Kiev and places like that for all of the reasons that we discussed in a previous program. And I believe that this was something that was already been planned and prepared even before Star Belk. So, as as Russia um captures Constantinfka, uh everyone should expect a whole lot of of media stories and and distractions away from what Russia is about to do with Constantinoka.
+So the Russians are going to conduct this systematic campaign against Kiev and places like that for all of the reasons that we discussed in a previous program. And I believe that this was something that was already been planned and prepared even before Starobilsk. So, as as Russia um captures Konstantinovka, uh everyone should expect a whole lot of of media stories and and distractions away from what Russia is about to do with Konstantinovka.
 
-We should probably expect Ukraine to launch all kinds of different uh drone strikes as well in order to try and distract from Constantin. I mean, that's always the pattern whenever Russia is about to take a city, whether it's Bakfa, Bakaros, whatever, you then get all this this distraction, a whole campaign
+We should probably expect Ukraine to launch all kinds of different uh drone strikes as well in order to try and distract from Konstantinovka. I mean, that's always the pattern whenever Russia is about to take a city, whether it's Bakfa, Bakaros, whatever, you then get all this this distraction, a whole campaign
 
 **Alex Christoforou:** of of distraction, whether it's media articles,
 
@@ -142,19 +147,19 @@ We should probably expect Ukraine to launch all kinds of different uh drone stri
 
 **Alex Christoforou:** Russian uh victory or a very big city for Russia to capture. and important
 
-**Alexander Mercouris:** absolutely for Russia which hasn't been getting much press at all to be quite honest compared to Bakmuda um and again the reason this the the reasons for this obviously intentional there has been as part of this campaign to project the appearance that Ukraine is doing well on the battle fronts there's clearly been the message sent out do not cover the Constantine of Casttory. Don't talk about it.
+**Alexander Mercouris:** absolutely for Russia which hasn't been getting much press at all to be quite honest compared to Bakmuda um and again the reason this the the reasons for this obviously intentional there has been as part of this campaign to project the appearance that Ukraine is doing well on the battle fronts there's clearly been the message sent out do not cover the Konstantinovka story. Don't talk about it.
 
-And um when it does fall, um it'll be very interesting to see how it is indeed handled by the media in the West. My own guess is they will continue to say as little about it as possible. But the time when it's going to be possible to deny the realities on the ground is probably ending because of course the fall of Constantinovka which is to be clear the biggest town the Russians will have captured since Marupople.
+And um when it does fall, um it'll be very interesting to see how it is indeed handled by the media in the West. My own guess is they will continue to say as little about it as possible. But the time when it's going to be possible to deny the realities on the ground is probably ending because of course the fall of Konstantinovka which is to be clear the biggest town the Russians will have captured since Marupople.
 
-Okay. I mean it's it's it's an important it's a big place. Um um um the the when Constantino falls that is going to open the way for the siege of the for two remaining fortified cities in Donbass Slavansk and Kataussk. You remember how right at the beginning of the war we talked about the Russians working to create a cauldron in Dombas to surround the Ukrainian army there and that looked like their plan.
+Okay. I mean it's it's it's an important it's a big place. Um um um the the when Konstantinovka falls that is going to open the way for the siege of the for two remaining fortified cities in Donbass Slavansk and Kataussk. You remember how right at the beginning of the war we talked about the Russians working to create a cauldron in Dombas to surround the Ukrainian army there and that looked like their plan.
 
 Well, we were right about that. As it turns out, we were we were wrong about the time scale that it would take. But we are almost there now and we are and that is going to be a critical moment because one suspects in fact I am sure that much of the best part of the Ukrainian army that still exists is concentrated in trying to defend these two cities.
 
 So we're going to have the siege of Slavians and Klamatsk. We also, by the way, have um an accelerating Russian offensive in Zaporia region pushing towards the city of Zaporia. I don't think the media in the west could could conceal the fall of Donbass and the arrival of the Russian army before Zaraporo and Neper.
 
-They might avoid discussing the battle of Constantinfka but they the these other events are just too big to be concealed in that kind of way. So we are going to see over the next few weeks exactly what you said, more and more attempts to create distractions, to uh create events that will shift the narrative and events that the Ukrainians and their Western backers hope will distract the Russians from the single-minded approach.
+They might avoid discussing the battle of Konstantinovka but they the these other events are just too big to be concealed in that kind of way. So we are going to see over the next few weeks exactly what you said, more and more attempts to create distractions, to uh create events that will shift the narrative and events that the Ukrainians and their Western backers hope will distract the Russians from the single-minded approach.
 
-approach they have to what they're doing on the battlefields. And this is where attacks like the one that's just happened on the Zaporo nuclear power plant come in. There was an attack on it by a fiber optic drone apparently and it struck one of the machine rooms. Um we're most likely going to get further attacks like that. We could be seeing commando raids.
+approach they have to what they're doing on the battlefields. And this is where attacks like the one that's just happened on the Zaporo nuclair power plant come in. There was an attack on it by a fiber optic drone apparently and it struck one of the machine rooms. Um we're most likely going to get further attacks like that. We could be seeing commando raids.
 
 We could be seeing all sorts of things. There might be other attacks in other places. There could be attempted incidents of various kinds inside Russia itself. So it's going to be a very fraugh and very difficult summer. And of course as the cauldrons in Donbass start to form as you know the Russians start to approach Zaporo.
 
@@ -172,7 +177,7 @@ We're going to probably hear a concerted attempt in the West to try to get the R
 
 **Alexander Mercouris:** Yeah.
 
-**Alex Christoforou:** So you have so you have that narrative going on. uh Zalinski uh yesterday he came out with two big uh complaints. The first complaint is about the uh the dealing with uh the way the west is dealing with Russian oil. Not only the EU but also the United States. His argument is that is that look you've you've loosened the the sanctions on Russian oil and the price of oil he actually said this the price of oil hasn't dropped significantly.
+**Alex Christoforou:** So you have so you have that narrative going on. uh Zelensky uh yesterday he came out with two big uh complaints. The first complaint is about the uh the dealing with uh the way the west is dealing with Russian oil. Not only the EU but also the United States. His argument is that is that look you've you've loosened the the sanctions on Russian oil and the price of oil he actually said this the price of oil hasn't dropped significantly.
 
 So why are you loosening the price of of of why are you loosening the sanctions on Russian oil? That was his argument which which shows his his incompetence right there. But anyway, and then he started to to uh to cry about uh about the fact that the United States is not producing enough Patriots missiles.
 
@@ -180,7 +185,7 @@ He believes that the United States and the big MIC company should be producing a
 
 We'll he'll get the license and then he'll create all kinds of contracts with Europe. Of course, nothing's going to get produced, but all kinds of money is going to exchange hands on on his uh on his license to to produce Patriot. I mean, he he's up to all kinds of scheming. But anyway, what do you think of uh what's going on there?
 
-**Alexander Mercouris:** The first thing is that this is a perfect a further perfect example of the colossal sense of entitle entitlement that Zalinski who has much of the qualities about him of a spoiled child.
+**Alexander Mercouris:** The first thing is that this is a perfect a further perfect example of the colossal sense of entitle entitlement that Zelensky who has much of the qualities about him of a spoiled child.
 
 This colossal sense of entitlement that he has. He he obviously must know that there is a global energy shortage. Um he must also know that Usilla and people like that would not be thinking of uh relaxing the oil price gap unless there was a genuine energy crisis or prospect of an energy crisis in Europe.
 
@@ -188,7 +193,7 @@ And yet he insists that this should not happen. He expects Western businesses, W
 
 It is it is admitted in every place now that the United States is critically short of air defense systems. The United States is still not resolved its crisis in the Middle East. And yet he continues to demand that he be provided with more. He sent a begging letter to Trump. Um, it's absolutely the case that Ukraine's air defenses are now in a terrible condition.
 
-But he demands the impossible. He insists on the impossible. But of course, behind the sense of entitlement, behind all of these things, there's always with Zalinski that cynicism that is always there. So, of course, give us the license to produce the Patriot missiles. give us the contracts to do it. Ukraine whose entire industrial economy is in pieces which is being uh sustained entirely by um western um um by western funding.
+But he demands the impossible. He insists on the impossible. But of course, behind the sense of entitlement, behind all of these things, there's always with Zelensky that cynicism that is always there. So, of course, give us the license to produce the Patriot missiles. give us the contracts to do it. Ukraine whose entire industrial economy is in pieces which is being uh sustained entirely by um western um um by western funding.
 
 Um Ukraine which frankly would be incapable of producing an advanced system like the Patriot which is an incredibly complex system. It's impossible to do in Ukraine and would have been impossible to do even in peace conditions. We're talking about um a decadel long program to prepare UK Ukraine to I'm talking in peace time to prepare Ukraine to produce peace uh in in peace conditions to produce patriots.
 
@@ -196,7 +201,7 @@ But he wants the license to do that now. He says give us the give us the tools a
 
 Give us the money and we will do it for you. We will make enough Patriot missiles for ourselves and we'll have even more to spare to give to you and to give to your Israeli friends and to give to everybody and all I need is another $100 billion. That's all I need to do it. That's obviously where this is going.
 
-Again, it is so transparent with him that it is astonishing that all across the media people aren't even saying it. But anyway, there it is. I mean, western governments continue to act as if these are serious proposals. Um, commentators, you will find actual commentators who act as if these are serious proposals. It's obvious what Zalinski is up to.
+Again, it is so transparent with him that it is astonishing that all across the media people aren't even saying it. But anyway, there it is. I mean, western governments continue to act as if these are serious proposals. Um, commentators, you will find actual commentators who act as if these are serious proposals. It's obvious what Zelensky is up to.
 
 And of course, it's even more important to him now to keep the money going, to keep the money coming in because if things really are falling apart, as I absolutely believe, then you need the money to come in now because in one year's time, in three years time, there may be no cause to send money to Ukraine anymore.
 

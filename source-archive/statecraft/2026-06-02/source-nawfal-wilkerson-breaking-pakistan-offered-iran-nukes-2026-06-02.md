@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-02
 pub_date: 2026-06-02
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -14,14 +14,15 @@ guest: Larry Wilkerson
 title: "BREAKING: PAKISTAN \\\"OFFERED IRAN NUKES\\\" - w/ Col. Larry Wilkerson"
 source_url: "https://www.youtube.com/watch?v=X1BVrPUOu5Y"
 source_type: youtube
-transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Wilkerson interview.
-editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Wilkerson interview. · ASR pass 2026-06-15."
 youtube_id: X1BVrPUOu5Y
 opening_tier: heavy-banter
 opening_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 12 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # BREAKING: PAKISTAN "OFFERED IRAN NUKES" - w/ Col. Larry Wilkerson
 
 **Show:** Mario Nawfal  
@@ -45,7 +46,7 @@ And he has people coming out now and attacking him on issues that he's very vuln
 And Lapid picked it up. And everyone who's standing in Netanyahu's path if you will either blocking him or no longer a confidant or a friend or been hurt by him or interested in replacing him is now seeing blood smelling blood and so it's getting dicey for BB and Trump wades in and has a phone call like this I'm sure that added to his angst.
 And he immediately reversed himself, apparently, if I'm reading the tea leaves right. He told Trump he would do something that I think he was at least remotely sincere in doing, that is, watching what he was doing in Lebanon with a much more careful eye and then he got these attacks you can't let the american president no matter who it is tell you how to run our state let alone run our security and they're very very barbed attacks and he's very vulnerable to them so now he's back on the warpath again in lebanon yeah that's that's what was exactly that's the reports we're hearing it's hard to
 differentiate the rhetoric like we're going to do this we're going to do that versus action like are they going to actually do it um the there were there's two questions i have first there was a one report i think it was channel 12 or 13 or 14 there's so many of these channels that said that the way this went ahead was um there was a call initially and that was true that netanyahu got the permission from trump but the permission wasn't to strike beirut the permission was to bluff that they're going to strike beirut
-issue an evacuation order and then what netanyahu did was kind of find a way and maybe spoke to another official to get the authority on delivering on the threat but trump did not okay that last spot actually bombing beirut he okayed everything up to the evacuation and then when trump found out so yeah when trump found out that netanyahu was going to actually bomb beirut that's where he called him and had that very tense call um is that possible is that how so one of my guests told me they were speculating that like mario what happens probably um netanyahu spoke to ruby or hexeth or someone else in the administration
+issue an evacuation order and then what netanyahu did was kind of find a way and maybe spoke to another official to get the authority on delivering on the threat but trump did not okay that last spot actually bombing beirut he okayed everything up to the evacuation and then when trump found out so yeah when trump found out that netanyahu was going to actually bomb beirut that's where he called him and had that very tense call um is that possible is that how so one of my guests told me they were speculating that like mario what happens probably um netanyahu spoke to ruby or Hegseth or someone else in the administration
 and got the authority to strike beirut kind of was a bit slimy about it without trump's okay is it possible could something happen without the trump's okay to that level yes it could um you work the system if you're a leader in the world, especially an ally, you work the system to find the spots where if something happens with the big guy, and you don't like it, or you don't want to comport with it, you don't want to even follow it in any way, fashion, or form, then you find one of those people whom you can later blame if you have to, who will give you the leeway to do what you need to do,
 maybe because he doesn't know what the president has said, or, and Netanyahu is not about to tell him what he said, or they're operating at cross purposes. And I would submit right now that Marco Rubio is operating from time to time at cross purposes with what the rest of the administration, as it were, wants.
 And you're going to see increasingly the vice president doing that, too, I think, because I think he knows he's been put out to pasture. Feels going down to Argentina may be the biggest indicator of him having been put out to pastor.

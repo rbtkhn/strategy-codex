@@ -117,12 +117,12 @@ April hinge ladder: 08 → 12 → 17 → 20 → 22 → 30; use archive day READM
 **Re-entry:** [June 2026 Week 2 — Start Here](2026-06-week2-start-here.md) (partial through 2026-06-14) · prior [Week 1](2026-06-week1-start-here.md) (Jun 1–7, finalized)
 
 - [2026-06 Monthly Synthesis (partial)](2026-06.md)
-- [2026-06-01](2026-06-01.md)
+- [2026-06-01](2026-06-01.md) — failed coercive control; nuclear speakability gate; 15 captures (12 ASR cleaned 2026-06-15)
   - [2026-06-01 - Persia On Hormuz As Postwar Authority Floor](2026-06-01-persia-hormuz-postwar-authority-floor.md)
   - [2026-06-01 - Persia On The Hormuz-Lebanon Gate](2026-06-01-persia-hormuz-lebanon-strategic-memory.md)
   - [2026-06-01 - America On The Hormuz-Lebanon Gate](2026-06-01-america-hormuz-lebanon-strategic-memory.md)
-- [2026-06-02](2026-06-02.md)
-- [2026-06-03](2026-06-03.md)
+- [2026-06-02](2026-06-02.md) — nuclearization speakability gate; carrier exhaustion; 16 captures (14 ASR cleaned 2026-06-15)
+- [2026-06-03](2026-06-03.md) — bombing-while-talking trap; Marandi gate; 9 captures (7 ASR cleaned 2026-06-15)
 - [2026-06-04](2026-06-04.md) — Lebanon pseudo-settlement gate; Orekhov/Konstantinovka crisis; 8 ASR cleaned 2026-06-15
   - [2026-06-04 - Hoh × Henningsen × Pape: Lebanon Pseudo-Agreement Falsifier](2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md)
 - [2026-06-05](2026-06-05.md) — two-theater entrapment; Lebanon gate + Oreshnik/Konstantinovka; 11 ASR cleaned 2026-06-15

@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-01
 pub_date: 2026-06-01
-kind: transcript
+kind: cleaned-transcript
 source_form: solo
 host_people:
   - Daniel Davis
@@ -9,18 +9,20 @@ guest_people: []
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: Iran Warhawks Delusional Fantasy /Lt Col Daniel Davis
 source_url: "https://www.youtube.com/watch?v=8ZKnRMc1m00"
 youtube_id: 8ZKnRMc1m00
 channel_slug: daniel-davis-deep-dive
-source_note: Transcript pasted manually by operator for canonical June 1 2026 Daniel Davis Deep Dive capture.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Light cleanup removed the routine closing promo.
+source_note: "Transcript pasted manually by operator for canonical June 1 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15."
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. Light cleanup removed the routine closing promo."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # Iran Warhawks Delusional Fantasy /Lt Col Daniel Davis
 

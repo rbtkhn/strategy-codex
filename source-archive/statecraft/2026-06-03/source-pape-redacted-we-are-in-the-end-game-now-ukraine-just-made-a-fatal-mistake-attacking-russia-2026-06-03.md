@@ -1,7 +1,8 @@
 ---
 ingest_date: 2026-06-03
 pub_date: 2026-06-03
-kind: operator-transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+kind: cleaned-transcript
 source_form: interview
 host_people:
   - Clayton Morris
@@ -15,8 +16,11 @@ hosts: "Clayton Morris, Natali Morris"
 guest: Robert Pape
 thread_expert: pape
 source_url: "https://www.youtube.com/watch?v=9cgeFOY5XEo"
-source_note: Operator paste; canonical watch URL preserved (Redacted / YouTube).
+source_note: "Operator paste; canonical watch URL preserved (Redacted / YouTube). · ASR pass 2026-06-15."
 title_slug: pape-redacted-we-are-in-the-end-game-now-ukraine-just-made-a-fatal-mistake-attacking-russia-2026-06-03
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # Redacted News x Robert Pape - Ukraine, Russia, escalation trap (operator transcript)
 
@@ -28,15 +32,17 @@ title_slug: pape-redacted-we-are-in-the-end-game-now-ukraine-just-made-a-fatal-m
 
 ---
 
+## Transcript
+
 **Host:** Well, Russia says that it may respond with nuclear weapons to the attacks on St. Petersburg that happened today. Here is Russian Deputy Foreign Minister Sergey Rab Rabigkov. That's probably not right. Uh he said to put it straightforwardly, these documents send a signal that encroachments on Russia and its territory by aggressors, including those who may possess such weapons, could prompt us to use these weapons in the worst case scenario, meaning nuclear weapons.
 
 So he's not just saying we could use nuclear weapons against Ukraine. He's saying we could justify using them against other countries who have nuclear weapons. Now, obviously, it's NATO that's launching these attacks on St. Petersburg. Ukraine doesn't have the capability to do that themselves. Ukraine also does not have nuclear weapons. NATO countries do. NATO countries are the aggressors here.
 
 Now, this comes as UK Ukraine began striking at Russia during the St. Petersburg International Economic Forum, which is hosting attendees from over 130 countries. It includes over two 20,000 people. Here is video of the drone strikes in St. Petersburg today that began to be launched just as this forum was taking place. So you can see the drone coming clear across the city. This is obviously a highly populated civilian territory. Uh we also have video um of a bus, a civilian bus that was attacked in Russia as well. Uh we're having reports of seven civilian casualties plus 11 injured by Ukrainian armed forces drone strike.
 
-Now, obviously, Russians are getting pretty tired of this. And the Putin government knows it. Well, at the same time, Zalinsky, Ukrainian President Zalinsky is saying, "But I've been open to peace negotiations all along. I've always wanted peace." He is meeting with the head of NATO, Mark Rut, today. He did basically the same thing he always does when Europe's class of idiots come to visit. He makes videos showing off his acting skills. highly edited, heartstring pulling videos, solemn tributes to the soldiers he sent to their deaths. Once again, portraying himself as the tragic war hero of the war he refuses to end. We're going to watch as much of this as we can stomach. It's about 40 seconds. I probably can take about 20, but roll it.
+Now, obviously, Russians are getting pretty tired of this. And the Putin government knows it. Well, at the same time, Zelensky, Ukrainian President Zelensky is saying, "But I've been open to peace negotiations all along. I've always wanted peace." He is meeting with the head of NATO, Mark Rut, today. He did basically the same thing he always does when Europe's class of idiots come to visit. He makes videos showing off his acting skills. highly edited, heartstring pulling videos, solemn tributes to the soldiers he sent to their deaths. Once again, portraying himself as the tragic war hero of the war he refuses to end. We're going to watch as much of this as we can stomach. It's about 40 seconds. I probably can take about 20, but roll it.
 
-Okay, that's good. You get the picture. You can find these kinds of things for the last 3 years on Zalinsk's social stream. Who buys this? Well, mostly European politicians eager to applaud him and then send European taxpayer funds into his pocket. He continued his pitch to join NATO, said that big trouble would come if Ukraine is again denied membership. He says even Russia should want us to be in NATO. says, "I believe Russians also need Ukraine to be in NATO because in the future it could be painful if Ukraine is not in NATO." And then warning eyebrow raise. You see what he means there? Okay, it's already painful, but okay. He pretends to be open to peace negotiations, but we know the terms of that. You can watch that here. Says, He's ready for direct negotiations with Putin, he says.
+Okay, that's good. You get the picture. You can find these kinds of things for the last 3 years on Zelensky's social stream. Who buys this? Well, mostly European politicians eager to applaud him and then send European taxpayer funds into his pocket. He continued his pitch to join NATO, said that big trouble would come if Ukraine is again denied membership. He says even Russia should want us to be in NATO. says, "I believe Russians also need Ukraine to be in NATO because in the future it could be painful if Ukraine is not in NATO." And then warning eyebrow raise. You see what he means there? Okay, it's already painful, but okay. He pretends to be open to peace negotiations, but we know the terms of that. You can watch that here. Says, He's ready for direct negotiations with Putin, he says.
 
 **Host:** So, he's been saying that for years. He doesn't mean it because he continues to put obstacles in the way. So, claiming to want peace while escalating the war and killing civilians is familiar and dangerous. Joining us to discuss it is Professor Robert Pap. He's the director of the Chicago project on security and threats at the University of Chicago and author of escalation trap on Substack and feels like that's exactly what we're doing. This is an escalation trap. We've seen this play out for now 3 years. What are we to make of it now? It feels increasingly dangerous.
 
@@ -76,7 +82,7 @@ But I think there are some other frameworks here that are very very helpful beca
 
 **Host:** I mean, I in as early as 2015, the IMF warned Ukraine, stop the genocide on the Dawnboss or we're not going to loan to you anymore. But they continued to loan. So, Ukraine has taken this Western money and funneled it into their weapons programs and now they're sort of a dog off the leash. And yet we continue the funding.
 
-**Host:** Well, and Zalinsky just admitted $200 billion that we we gave them. I don't know where it is. I'm sorry. Well, to all these corrupt individuals who managed to get all this money. Where is this money? This massive money laundering operation that's run through Ukraine.
+**Host:** Well, and Zelensky just admitted $200 billion that we we gave them. I don't know where it is. I'm sorry. Well, to all these corrupt individuals who managed to get all this money. Where is this money? This massive money laundering operation that's run through Ukraine.
 
 **Professor Robert Pape:** There is an incredibly strong case. What you're essentially I would put it in slightly more my my terms of restraint. I think you're making a very strong case for restraint here. And you're saying that the idea of just willy-nilly supporting and so forth uh often can be counterproductive. I think that's an extremely strong case uh here. And as the escalation grows here, which it could well do, this is not good for us to get trapped in somebody else dragging us in.
 
@@ -116,9 +122,9 @@ And so now whatever Europe gets is going to be far worse than they could have go
 
 **Professor Robert Pape:** I I I I certainly think that that's right. So there's a lot once you have so many actors as you're pointing out, you have so many ways in which these escalation traps can continue. That's why I'm trying to identify and and there's not many good offramps here. Uh but what I'm trying to do is identify what would be the key thing that could truly help and that is if the Europeans would decide among themselves and make it a public decision that this is the line they're willing to support. When they give money for X Y or Z it is to support the line freezing the conflict at the line of contact getting an armistice.
 
-It doesn't we we still don't have an official uh peace treaty for the Korean War. we have an armistice. That is what I think the model should be. And I think it should be front and center. And if they're not doing it, I think the reporters should be constantly asking why not. And why are you just letting Zalinski drag the world Europe and others and us deeper into an escalation trap? That's the way I would put it. We say that with Israel. Why aren't we saying that here?
+It doesn't we we still don't have an official uh peace treaty for the Korean War. we have an armistice. That is what I think the model should be. And I think it should be front and center. And if they're not doing it, I think the reporters should be constantly asking why not. And why are you just letting Zelensky drag the world Europe and others and us deeper into an escalation trap? That's the way I would put it. We say that with Israel. Why aren't we saying that here?
 
-**Host:** No, that's a great point. Yeah, Zalinsky. Yeah. Well, you had Representative Luna last week saying, "Make peace now, you fool." To Zalinsky, you're the one holding up this peace program. So, there are some people who are pretty vocal about it, but
+**Host:** No, that's a great point. Yeah, Zelensky. Yeah. Well, you had Representative Luna last week saying, "Make peace now, you fool." To Zelensky, you're the one holding up this peace program. So, there are some people who are pretty vocal about it, but
 
 **Professor Robert Pape:** and I'm telling you that I just like we didn't let the South Koreans dictate everything uh here. We need to decide what is in our own interest, what's in the European interest. And I I I look, we may agree, we may come to believe, you may persuade me that we want all of the territory back and it's worth fighting another, you know, half million dead to get. I I don't believe that, but I but I think we should be talking about that. Where exactly is uh are we going to settle? And I think for the West, and it's pretty clear that we want a new Iron Curtain. I said this back basically in foreign affairs in the fall of 2022. Sorry to keep, but I I actually laid out we should have a new ironed curtain and just freeze it there and we're just not willing to say these words. I I don't It's to me it's it's baffling.
 

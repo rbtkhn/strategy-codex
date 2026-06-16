@@ -1,7 +1,8 @@
 ---
 ingest_date: 2026-06-02
 pub_date: 2026-06-02
-kind: transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -17,11 +18,12 @@ channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=OVcXeOl-LSw"
 source_type: youtube
 youtube_id: OVcXeOl-LSw
-source_note: Cleaned transcript pasted by operator.
-editorial_note: Preserve as raw cleaned transcript; verify polling, military, sanctions, Russian domestic-politics, and succession-faction claims before promotion beyond analyst tier.
+source_note: "Cleaned transcript pasted by operator. · ASR pass 2026-06-15."
 opening_tier: host-tease
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 12 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Preserve as raw cleaned transcript; verify polling, military, sanctions, Russian domestic-politics, and succession-faction claims before promotion beyond analyst tier."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # John Helmer: Iran's Unthinkable Move Triggers US & Israel - The Middle East Will Never Be the Same
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  
@@ -31,7 +33,7 @@ opening_tier: host-tease
 
 ---
 
-## Cleaned Transcript
+## Transcript
 
 Hi everybody. Today's Tuesday, June 2nd, 2026, and our dear friend, our brother, John Helmer, is here with us. Welcome back, John. >> Thanks for having me. You know, good to be back. >> John, let me start with what has happened yesterday. And Israelis wanted to attack Dahi in the southern part of Beirut.
 And it was some sort of announcement on the part of Israelis. They said that they have to evacuate their homes. The whole city should be evacuated. Then we had some sort of Iranian message. They said there is no talks anymore. No direct indirect and no messages between Iran and the United States.
@@ -76,7 +78,7 @@ So what he does is the same thing as President Trump does. He says contradictory
 And perception that he's weak is what drives the deep state of the United States and all the European powers to escalate as best they can. So what we have then is President Putin fighting an election and now under attack publicly through Bloomberg. But they're not saying anything that hasn't been made public uh in the Russian media uh to cut military expenses while he's trying to finish the war.
 And so that's the conflict we now have in in in in Moscow. Doesn't it sound similar in election terms, budget terms to the one that Trump has in Washington? >> John, what do they say about you? You you mentioned Krill Deitri. Is there any negotiate is there any negotiations going on as we talk or they have some sort of pause because Donald Trump today came out and said this fake news is talking about there is no negotiations going on between Iran and the United States.
 We are talking to each other but nobody's willing to mention that Iranians said that there is no negotiation for two days they were there were no negotiations between the two side but when it comes to Russia what do we know about that? Well, uh, around war making around all politics, you you always have kibbitzers. That's the expression for people who want to seem as if they're central to a negotiation, who want to seem to be knowledgeable, who want to influence outcomes, but who aren't part of formal negotiation and don't direct orders, either military
-ones, diplomatic ones, or political ones. So there are lots of kibbitzers all broadcasting that that they are having talks and that's going on all the time. Second, there is a tele open telephone line between Ushakov and Witkov. We know that because some of the tapes have been uh leaked. So Witkov and Ushakov want to talk.
+ones, diplomatic ones, or political ones. So there are lots of kibbitzers all broadcasting that that they are having talks and that's going on all the time. Second, there is a tele open telephone line between Ushakov and Witkoff. We know that because some of the tapes have been uh leaked. So Witkoff and Ushakov want to talk.
 They do by telephone. Is that a negotiation? Yes, it is. Um the same uh attempts are being made by Dimmitri to make himself look as if he's u central to this process. He's a kibitzer because he has constantly to fight against the general staff and sur and the foreign ministry as we've just said. Is there in fact a a formal negotiation between that would bind the Ukrainian side, the US side to do what Russia has already tabled? Well, uh Dmitri Pascov said a couple hours back uh this war could end if the Ukraine pulled out of
 withdrew its forces from the Dawnbas that mess means Zaparo, Harrison, Daetsk, and Lugansk. If they pulled out this war would be over immediately. Is there then a negotiation on that point? Answer no. Why is there no negotiation? Because all the sides and on this point Dmitri is simply throwing sand and putting up smokec screen.
 All the sides, the US side is as committed to permanent war with Russia and as the Europeans in it benefits from this escalation of drone capacity that the Ukrainians are demonstrating. The US side want to see Russia's refinery capacity cut by 30 or 40% as we now face at the moment. So is there a negotiation to stop that answer? No.
@@ -109,7 +111,7 @@ So, uh, the the question was put to me and I didn't know it, so I'm asking didn'
 I I you know Iran Iraq war the situation in those days is not even comparable to what's going on right now in Iran. You go in Iran today there there sanctions there is inflation and people are feeling the the tremendous pressure from the United States but >> people are living you know their life was improved drastically is not even comparable today going to Iran is totally different and the government has somehow managed how to deal with those sanctions because Iran Iraq war was at the beginning of the revolution.
 >> Yes. >> And right now the revolution for more than 40 years they know how to manage everything, how to deal with the sanctions. We had some years during the first Trump administration that Iran even was not able to export any oil. >> Yes. >> You know, they had this sort of history and they know how to deal with that right now.
 That's why they're not willing. That's why they're they're not in a rush to make a deal, make some sort of agreement with the United States. That's why when whenever Donald Trump asks them to answer some sort of, you know, the new messages, they're going to it's going to last as long as they want because they have this trade for most today.
-I don't know if you you saw the report of this authority of the straight of foremost these people the new mechanism of straight for since this since they started with this new mechanism more than 300 >> ships or tankers passed through through the formos and all of them paid the tolls. >> Yes. So they the United States can argue Donald Trump can argue that we are putting a lot of pressure on them and there is some sort of truth to what he's talking about because of the blockade but it's not that much to destroy.
+I don't know if you you saw the report of this authority of the Strait of Hormuz these people the new mechanism of straight for since this since they started with this new mechanism more than 300 >> ships or tankers passed through through the formos and all of them paid the tolls. >> Yes. So they the United States can argue Donald Trump can argue that we are putting a lot of pressure on them and there is some sort of truth to what he's talking about because of the blockade but it's not that much to destroy.
 No >> the country is so comfortable. They know what at what's at stake for them. >> They know how to deal and the pressure is bearable. It's not something unbearable for Iranian people and Iranian economy. That's why they would continue these cycles and of conflict as long as the Trump administration wants to continue with the policies in Lebanon, in Gaza, in the and in against Iran in in Persian Gulf.
 I think that the understanding is this that they can outlast the United States or the Trump administration, not the United States, the Trump administration. >> Well, thank you for that. Uh I'm com I'm trying to compare uh what you've said about Iranian public resistance and acceptance of permanent war the and as I understand it and I share the the view the reason Iran is making Israeli attacks on Lebanon and Gaza and now extending if these continue the uh El Mandeb uh straight closure would follow.
 The reason is that uh the US can make sign anou but the permanent war continues using the Israeli platform and the Israeli platform of expansion into into Syria into Lebanon into Gaza. Um these are all parts of the the the war that will continue because Iran is now the principal pillar of resistance to that transformation.
@@ -123,7 +125,7 @@ achievement there was no positive outcome for the United States that's why they'
 >> I I'm I'm having to answer um in in political terms on the one and that's the the most important political function answering your question is the succession to Trump. Trump is so sensitive to his succession, he's just uh authorized the White House to report on his medical checkup in the last few days.
 I put the u I just put that up on in a tweet. Um what what that shows is he is he claims that he just scored 30 out of 30 points on the Montreal Cognitive Assessment Scale. So, I put it up as a twe tweet and and everybody can do the do the test to see if they can identify a tiger, a picture of a tiger, see if they can draw a bed, see if they can remember five words that have just been uttered at them and so forth.
 Trump is very concerned about succession. He also is trying to maintain his ability through the Mara constituency within the Republican party to control the succession and dictate it. Now I say all of these things as background to the big picture you you've just raised. The big picture is permanent war.
-But but with the Trump group, which includes the the Kabad uh ideologically infected uh Jewish advisers like the ambitious Steven Millet, deputy chief of staff and backed by Jared Kushner, Witco, Lutnik at Commerce and others. These people are want essentially military action, genocide outcomes for Iran, for the Middle East.
+But but with the Trump group, which includes the the Kabad uh ideologically infected uh Jewish advisers like the ambitious Steven Millet, deputy chief of staff and backed by Jared Kushner, Witkoff, Lutnik at Commerce and others. These people are want essentially military action, genocide outcomes for Iran, for the Middle East.
 The opposition in the succession is uh Rubio, a Roman Catholic, and uh JD Vance, also Roman Catholic. Vance is currently the leading contender to uh become the Republican nominee in 2028. And 2028's rapidly approaching. It's only uh two years off. Trump's uh readiness to allow a successor like Vance um or his vulnerability if Vance or Rubio take over um are what are driving his interest in creating a donastic succession.
 Either Eric Trump or Donald Trump Jr. The polls currently measure Donald Trump Jr. as 10 12 13% favored by Republicans in this succession context. My answer to your question is Vance represents a Catholic doctrine of the just war and the Iran war and the Ukraine war don't qualify in quite the way the Miller the Jewish faction the Kabad faction um think and Trump will go one way or another with with his sentiment primarily uh towards Kabat towards Miller towards the Jewish community.
 Uh so there is some prospect that with Vance and Rubio, you would have um what we began with when the Trump administration began and we were talking about the strategy of sequencing of wars where the US would pull out of wars that they were unable to win directly or even indirectly through the Europeans like the Ukraine war.

@@ -1,20 +1,19 @@
 ---
 ingest_date: 2026-06-01
 pub_date: 2026-06-01
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "Ray McGovern : What Putin Is Thinking"
 source_url: "https://www.youtube.com/watch?v=v3pyzLWMzJw"
 youtube_id: v3pyzLWMzJw
 channel_slug: judging-freedom
-source_note: Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Light cleanup removed the routine ideological cold open and closing lineup tail.
+source_note: "Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode. · ASR pass 2026-06-15."
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Ray McGovern
@@ -22,8 +21,10 @@ thread: mcgovern
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
 opening_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. Light cleanup removed the routine ideological cold open and closing lineup tail."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Ray McGovern : What Putin Is Thinking
 
 ## TranscriptHi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, June 1st, 2026. Ray McGovern joins us now. Uh Ry, thank you very much. I do want to ask you about since you have such an incredible grasp on Russian culture and Russian thinking, what you think President Putin is thinking. Uh but before we do that, I have to uh ask your views on what our longtime friend and colleague Larry Johnson just said on air on this show uh about 35 minutes ago. Chris, cut number five.
@@ -47,7 +48,7 @@ That's as clear as you can get. I mean, this guy is really good. I quit. And thi
  So, it's really crazy. It'll be interesting to see what happens when the strait continues to be obstructed as and the economy goes down to hell, not only in our country, of course, worldwide. So, the Iranians will not enter into a permanent agreement without a strong mechanism to restrain Israel and Israel will never allow the United States to enter into uh an agreement that restrains it.
 Therefore, no agreement is possible. >> Well, you heard Ben Gavier just late last week say, you know, we will not allow an agreement to take place. We will just not allow this kind of agreement. Well, you know, that's pretty blatant. Uh he said that quite openly and he's the same guy that tortured and some of them were raped some of those people on the on the Samud Flotillaa that ended up in Israeli prison.
  So this guy is really deranged. They're doing all kinds of things in the West Bank as well. Somebody's got to re them in and they must have something on Trump because it'll be simple as pie for Trump to say, "Look, it's up to here now. I don't care about my Jewish donors. Uh we're going to end this thing." But he can't do that. He won't do that.
- And I guess it has to do with the money he needs or what the the the major donors the 1% of the 1% of the US population has given him and his colleagues. Uh Alistar Crook told us that um Witoff and Kushner have suggested to some Pakistani intermediaries that they Witoff and Kushner would invest in gleaming high-rise office buildings and residential towers in Thyron.
+ And I guess it has to do with the money he needs or what the the the major donors the 1% of the 1% of the US population has given him and his colleagues. Uh Alistar Crook told us that um Witkoff and Kushner have suggested to some Pakistani intermediaries that they Witkoff and Kushner would invest in gleaming high-rise office buildings and residential towers in Thyron.
 A it is reprehensible that self-deing would be going on during negotiations. be after all this these people still don't understand the Iranian the Persian mentality do they >> well if that report is true you know it's just besp speaks what you just said they don't understand the Iranian mentality they don't understand the Hezbollah law mentality or the other arc of resistance mentalities but they're trying to get back the occupied territories uh which the UN ruled unanimously back in November of 1967 that under international law, Israel
 must give back those occupied territories. That's what it's all about. And that's how long it's taken for Israel to solidify its presence there and kick the kick other people out or at least disable them to the point where they're no threat to Israel. Does your um gut tell you going back to what Larry said uh that if Larry and and apparently our colleague and friend Pepe Escobar is part of the communication with which Larry was engaged.
  If our friends Larry and Pepe are correct, wouldn't US intel know about this? >> Well, I think they should. Uh I don't know exactly how sensitive this source is or how how this source has been nourished and developed by Larry and Tippy. Uh so it's really hard for me to say. Uh it it always astounds me how little the US intelligence community knows.

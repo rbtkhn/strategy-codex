@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-02
 pub_date: 2026-06-02
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people:
   - Daniel Davis
@@ -10,19 +10,21 @@ guest_people:
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "Col Douglas Macgregor: The Israel First White House"
 source_url: "https://www.youtube.com/watch?v=Styvw9Ovzvo"
 youtube_id: Styvw9Ovzvo
 channel_slug: daniel-davis-deep-dive
-source_note: Transcript pasted manually by operator for canonical June 2 2026 Daniel Davis Deep Dive capture.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+source_note: "Transcript pasted manually by operator for canonical June 2 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15."
 show: Daniel Davis Deep Dive
 host: Gary
 guest: Douglas Macgregor
 thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 11 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # Col Douglas Macgregor: The Israel First White House
 
@@ -67,7 +69,7 @@ And you'll get a response, oh, but they started this war 47 years ago. Well, tha
  The whole thing failed. We think somewhere's between 500 and 8 thou 800,000 casualties on the Iranian side. >> How many died? Certainly somewhere between three and 500,000 Iranians died. They fought tenaciously and ultimately the war ended with Iran in control of its own oil resources, which was what was most important.
  And they hurled rockets and missiles at each other. No, none of us really paid a great deal of attention to it. We only looked at what Saddam did. But again, the the Iranians learned a lot from that. So here we sit right now. We keep arguing that somehow or another Iran makes makes us uncomfortable, presents this tremendous threat, and that if we don't destroy Iran and bring it under control that millions of terrorists will overrun the world and so forth. It's all nonsense.
 Who who wants this? This is an Israeli proposition. This is an Israeli agenda. And the Israeli agenda is underwritten by billionaires in the United States who bought President Trump the White House. Least they can do after they bought Congress for their own purposes. Might as well buy the White House as well.
-They own everything. So they own everything right now. And what do you get? You give Marco Rubio. Uh you get Pete Hegsth. You get Donald Trump and JD Vance and everybody else that is loyal to the bitter end to the Israeli agenda. Anybody thinks otherwise is wrong. If you were not an Israel first person, you weren't going to get a job in the administration.
+They own everything. So they own everything right now. And what do you get? You give Marco Rubio. Uh you get Pete Hegseth. You get Donald Trump and JD Vance and everybody else that is loyal to the bitter end to the Israeli agenda. Anybody thinks otherwise is wrong. If you were not an Israel first person, you weren't going to get a job in the administration.
 >> Yeah. >> It's unapologetic. So, we're we're stuck because we took on a war without really understanding what we were doing. You know, one of the first things you need to do is say, "Well, wait a minute. We're going to go into Iran, right?" And somebody says, "Well, we want to bomb it." Okay.
  Uh, what do you want to bomb? Well, we're going to bomb their nuclear facilities. We're going to bomb this. And then pretty soon the the target list goes from 10 critical things out to a thousand. >> And you know, oh well those targets are destroyed. What do we do now? Well, we'll find more targets. That that's kind of where we are.
  And then somebody brings up, well, what about ground forces? Oo, ground forces. That could mean a lot of casualties and Americans don't like that. And oh, by the way, we don't have enough of an army to do anything. And this thing sort of, you know, snowballs and continues. Now, we found it impossible to break through the straight.
@@ -89,7 +91,7 @@ already know that Pakistan possesses a nuclear weapon. Of course they do. They'v
  Well, it's worked out so that India also has a deterrence and that has helped frankly to keep the peace on the uh Indian subcontinent. Neither side has been willing to do that. But now we have a a different uh set of circumstances. Israel, not us, but Israel is embarked on a war of conquest in the Middle East. Its army is falling apart.
  It's got serious morale problems. They've lost a lot of people. the population doesn't want to fight, but that doesn't matter because they still have the air force and most of the people that they're attacking have no air defenses and as long as the people they're attacking have no air defenses to speak of, they can pretty much bomb at will wherever they like against anybody they don't like.
 >> Secondly, this war of conquest is very serious. All you have to do is look on the uniforms of the Israeli soldiers and it shows Sinai under Israeli control, Jordan, parts of northern Saudi Arabia, half or more of Syria, part of northern Iraq and most of Lebanon. So that's the goal. And right now there is a growing consensus that this must stop and that's consensus is in the Islamic world.
- The Arab states are too corrupt, too greedy, and too fearful, that is their elites, to do anything. So the task then falls to the non-Arab states. The non-Arab states that are very opposed to this are Turkey, Istanbul, or excuse me, Ankura, Pakistan, and obviously Iran and Thran, Islamabad. These are the capitals.
+ The Arab states are too corrupt, too greedy, and too fearful, that is their elites, to do anything. So the task then falls to the non-Arab states. The non-Arab states that are very opposed to this are Turkey, Istanbul, or excuse me, Ankura, Pakistan, and obviously Iran and Tehran, Islamabad. These are the capitals.
  These are the states that are opposed. And there are discussions. People are saying it's time to turn over nuclear weapons one way or the other in some form even if it's temporary to Iran and Turkey in particular. Uh give them this as the deterrent they need to bring this war to a halt. Now this is very dangerous as we all know because Mr.
  Netanyahu has nuclear weapons. Everybody's aware of that at least somewhere in the neighborhood of 300. M >> if he thinks that this could happen, what is to stop him from launching a nuclear weapon? >> Quick answer, nothing. >> Nothing. >> What evidence is there that he listens to anything Washington says to him that he takes instruction from the president of the United States? >> Nothing.
 >> Yeah. >> Now, I don't know what's going to happen, but I think it's important that we keep these things in mind. And if we were serious about bringing this to a to an end, this terrible and pointless and stupid and self-defeating war with Iran, we would pull the plug on the Israelis right away and say, "Very well, you don't care to participate in a negotiated settlement that we are reaching with Iran, so be it.
@@ -114,7 +116,7 @@ It's doubled the population of the planet. We've been able to feed people in a s
  Those supply chains are in trouble. Why? Well, trucks run on diesel. You know, what are they going to do? They've got to deliver this. It's frightening. And that's why to listen to somebody like Rubio who is pitching these sort of uh I don't know empty empty slogans and empty promises >> is so disturbing because nobody wants to frighten people.
  But you know, people ought to be frightened right now because what we've done by attacking Iran, we've not just hurt ourselves, we put a large portion of the world's population at very high risk, >> disrupted the whole world. We're doing fine right now as far as, you know, supplies go, but that's not going to hold. >> Well, nobody paying attention to the numbers of farmers who are declaring bankruptcy.
 >> Bankruptcies. >> Can't afford to buy fertilizer. The price is going through the roof. What good is fertilizer you can't afford to buy, you know, and how much can you subsidize? Now, right now in India, they're subsidizing everything in sight to try and keep the lid on. But even they are worried, the government is over the next several months.
- How long is can this go on before everything collapses. There are other things that you need to do. You know, we need more nuclear power. Let's be frank. That's vital and essential. Uh are there green aspects of power that you can reinvigorate? Yeah, sure there are. But you're going to need to do a lot more with coal.
+ How long is can this go on before everything collapses. There are other things that you need to do. You know, we need more nuclair power. Let's be frank. That's vital and essential. Uh are there green aspects of power that you can reinvigorate? Yeah, sure there are. But you're going to need to do a lot more with coal.
  Remember coal? That's the evil thing that everybody wants to get rid of. It's dirty and nasty and bad. >> Well, the Indians and I think the Japanese are moving in that direction. I know they are in China. They're liquefying coal. You can do that >> and it works. We're going to have to do all of these things, but there has to be a sense of of not just urgency, but emergency in Washington. I don't see it.
 >> I don't see any evidence for it. not with the president or anybody else because the first thing anybody who's advised a president should do every morning is say, "Sir, end the war. Get out. Stop. We'll sort the details later. Right now, we need to get out." >> He's already kicked those people out, Doug.
  He's not going to get face to face with any of those people that would even hint at what you just suggested. >> Yeah, I think so. You know, uh, just yesterday, Doug, I know you released the national conversation called All for What, and you get into some great details about what needs to happen, what should be happening already, and I'd like to set it up before you get into what you were talking about in this video with with uh Megan Kelly, who was just on a podcast yesterday, and you know how close she was with the president for a year.

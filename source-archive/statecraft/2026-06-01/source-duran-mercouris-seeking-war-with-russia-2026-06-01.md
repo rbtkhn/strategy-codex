@@ -1,6 +1,7 @@
 ---
 ingest_date: 2026-06-01
 pub_date: 2026-06-01
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 kind: cleaned-transcript
 source_form: interview
 host_people:
@@ -14,11 +15,15 @@ host: Alex Christoforou
 guest: Alexander Mercouris
 thread: mercouris
 source_url: "https://www.youtube.com/watch?v=NPNNM3ehgvE"
-source_note: User-pasted cleaned YouTube transcript.
+source_note: "User-pasted cleaned YouTube transcript. · ASR pass 2026-06-15."
 title_slug: transcript-duran-mercouris-seeking-war-with-russia-2026-06-01
-editorial_note: Preserve as raw cleaned transcript. Routes to Mercouris because this is a Duran-hosted Mercouris object with Christoforou prompts and Mercouris analysis.
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # The Duran / Alexander Mercouris - Seeking War With Russia
+
+## Transcript
 
 **Alex Christoforou:** All right, Alexander, let's talk about the war hysteria or the war intoxication that is gripping Europe. Even Belarus and Lukashenko are talking about how Europe is gearing up for a war in 2030. They seem very, very sure that this is happening, that the Europeans, including the UK, I say the Europeans in total, the EU and the UK, are very much committed to a conflict against Russia and Belarus by 2030.
 

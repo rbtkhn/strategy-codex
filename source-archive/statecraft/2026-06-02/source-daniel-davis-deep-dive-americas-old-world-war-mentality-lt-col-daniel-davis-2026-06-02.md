@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-02
 pub_date: 2026-06-02
-kind: transcript
+kind: cleaned-transcript
 source_form: solo
 host_people:
   - Daniel Davis
@@ -9,18 +9,20 @@ guest_people: []
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "America's OLD WORLD WAR MENTALITY /Lt Col Daniel Davis"
 source_url: "https://www.youtube.com/watch?v=5dY4pJQGZ0k"
 youtube_id: 5dY4pJQGZ0k
 channel_slug: daniel-davis-deep-dive
-source_note: Transcript pasted manually by operator for canonical June 2 2026 Daniel Davis Deep Dive capture.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+source_note: "Transcript pasted manually by operator for canonical June 2 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15."
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # America's OLD WORLD WAR MENTALITY /Lt Col Daniel Davis
 

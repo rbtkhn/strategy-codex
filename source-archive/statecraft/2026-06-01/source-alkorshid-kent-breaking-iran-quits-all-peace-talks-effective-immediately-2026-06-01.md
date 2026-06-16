@@ -1,7 +1,8 @@
 ---
 ingest_date: 2026-06-01
 pub_date: 2026-06-01
-kind: transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -15,10 +16,12 @@ title: "Nima R. Alkhorshid: BREAKING: IRAN QUITS ALL PEACE TALKS EFFECTIVE IMMED
 channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=hQCziFanWf8"
-source_note: Cleaned transcript pasted by operator.
+source_note: "Cleaned transcript pasted by operator. · ASR pass 2026-06-15."
 opening_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 41 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Nima R. Alkhorshid: BREAKING: IRAN QUITS ALL PEACE TALKS EFFECTIVE IMMEDIATELY - w/ Joe Kent
 
 **Channel:** Dialogue Works (Nima R. Alkhorshid)  
@@ -28,7 +31,9 @@ opening_tier: clean
 
 ---
 
-## Cleaned Transcriptemployed now. Joey, sorry. So, I had to I had to do the job. >> I know. Yeah. >> Well, it's good to have you, man. I appreciate you coming in on such short notice. Me and you always talk whenever we have a we do an interview um to try to understand who's pulling the strings and and who's calling the shots and what pressure is Trump facing.
+## Transcript
+
+employed now. Joey, sorry. So, I had to I had to do the job. >> I know. Yeah. >> Well, it's good to have you, man. I appreciate you coming in on such short notice. Me and you always talk whenever we have a we do an interview um to try to understand who's pulling the strings and and who's calling the shots and what pressure is Trump facing.
  And that's something we're always trying to decipher. Obviously, you know a lot more about it than I do with your experience. And then things like what happened today kind of shake up beliefs that I have that Trump can reign in in Netanyahu and uh Netanyahu Israel bit off more than it could chew.
  When I say Israel, including the lobby group and then something like today happens. Well, um we know that Lebanon was part of the ceasefire. Iran has made it clear time and time and time again. And then we see Israel continue to escalate, continue to expand beyond the Latani River. Um then they they request from the US to expand and strike Beirut.
  They announced they want to strike Beirut but then according to reports Trump did not greenlight it. And then a few days later yesterday they requested again and according to channel 12 the response from the Americans was more positive. Not sure if Trump is using Israel to pressure Iran. I don't know.
@@ -60,7 +65,7 @@ there's, you know, something we've discussed before. There's another factor ther
  Iran from a PR perspective took the complete opposite side and they took a position that no other country has taken to that extent. They're like you know what our life as Iranians is equal to a Palestinian or Lebanese life and their plight is now linked to the ceasefire negotiations. So they are gambling by trying to turn these negotiations with Trump into something much bigger.
  And I think on the like look at the way they're going to be perceived now versus how they were perceived in January. In January they were perceived as the brutal regime killing thousands of their own protesters, which is true. And now they're perceived as the government that's standing up for the Palestinian cause.
  What a PR disaster for the Western world. >> It truly is. It's uh it's fascinating because like you pointed out the protesters were on the streets in January and even even before that even more u more recent protests against the regime. A lot of common Iranians had said like why does my government care more about the Houthis and why do they care more about you know Hezbollah and Iraqi proxies than than they care about me.
- Now post war we've we've killed off a lot of the moderates. Um you know maybe the president didn't really resign. Maybe he had to recamp. Maybe that was fake. >> He might resign. He might resign to he might resign tomorrow because I've been hearing about it for a while. But either way, I mean, you even when you listen to the tone coming out of Arachi, who I think is normally pretty moderate, now he's having to repeat what the IOGC news networks are saying.
+ Now post war we've we've killed off a lot of the moderates. Um you know maybe the president didn't really resign. Maybe he had to recamp. Maybe that was fake. >> He might resign. He might resign to he might resign tomorrow because I've been hearing about it for a while. But either way, I mean, you even when you listen to the tone coming out of Araghchi, who I think is normally pretty moderate, now he's having to repeat what the IOGC news networks are saying.
  And so now really, we've emboldened this like this Kasum Solmani class who said, "No, our job actually is to export the revolution, which I think that the most of popular sentiment in Iran for that had really died down over the years because they saw the, you know, the toll of war uh to on their on their own borders. But now we brought we brought the war to them.
 We killed off their supreme leaders. So we've basically justified the hardliners position. If we want to make this kind of backfire and blow up on them, this is another uh reason why we should just walk away because all that rhetoric works really well for the Iranians if we're there playing the aggressors.
  If we're in their face, if Iran's still getting bombed, we still have our ships there, uh, etc. We still have our bases in the region. The Iranian people are like, "Actually, you know what? That kind of makes a lot of sense. The Americans are here. The Israelis are bombing us. uh if we take our guys out, if we take our troops completely out, we deprive them of the ability to be able to strike us, but also we take away a lot of their narrative and then Iran has to explain to the rest of the world why they're continuing to be aggressive, why
@@ -84,7 +89,7 @@ unless the president just kind of surprises everybody and walks away from this, 
 So it's and that's going to overextend us even more. So you know we're we're in quite the bind here. So I hope he I just hope he wakes up and gets frustrated of everybody and and pulls us out aggressively. >> Yeah. Yeah, I think what um what the Iranis are doing as well is pressuring the global community to then pressure Trump to reign in Israel, which is crazy that it needs that much pressure for something you'd consider to be so simple.
  Netanyahu will stop aid if you don't stop bombing Lebanon. Now, do what Bill Clinton or Reagan said. Reagan in 82, I was just informed one of my interviews when the bombing of the barracks happened. Didn't Reagan call what Israeli actions in Lebanon a holocaust? If I remember correctly, that's if you if he does that. Go ahead. >> No, I I believe he did.
  He used pretty strong language. And then Reagan just said, you know, I'm gonna pull my guys out, you know, and he did. And he and he recovered quickly politically because Reagan had a really good relationship with the American media. And I think Trump has an even better one. So if Reagan can do it, Trump can do it two times over.
->> Agree. So on that front, and then you look at what Bill Clinton said to Netanyahu in uh in his administration. He goes, he said to his aids about Natanyahu, he's like, um, what did he say? Who the [Â __Â ] does he think he is? >> Yeah. >> Um, who's the superpower here? Like, it just needs Trump to kind of take that attitude with Netanyahu and it changes everything.
+>> Agree. So on that front, and then you look at what Bill Clinton said to Netanyahu in uh in his administration. He goes, he said to his aids about Netanyahuhu, he's like, um, what did he say? Who the [Â __Â ] does he think he is? >> Yeah. >> Um, who's the superpower here? Like, it just needs Trump to kind of take that attitude with Netanyahu and it changes everything.
  Do you think that's a possibility? Do you think that he may actually snap at Netanyahu and we see things change drastically? I know I've been saying this for a while actually. I talked about it. We talked about it uh in our first first interview and I mentioned to you like, do you think that could happen? And you told me, look, it's um it's um possible.
  You told me not to hold my breath, but it's possible. And you were like hopeful about it. It would be great if it happens. Do you think it could happen based on what we've seen since our last uh since our first conversation? >> If it if it doesn't happen sometime really soon, then then I'm going to lean more towards there definitely is something else that we're not seeing here that that's much much darker that's preventing Trump from doing that because he should be very very like frustrated to put it mildly. Uh he should be pretty
 infuriated with how he was kind of pulled into the war. He was promised this this was going to be relatively quick and easy. You know, the Israelis have spoiled how many ceasefires now at this point. So, for him not to have that level of frustration with with BB that that to me means there's something else that none of us are really seeing or discussing that's that's at play here.

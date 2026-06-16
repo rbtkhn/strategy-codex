@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-02
 pub_date: 2026-06-02
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -16,21 +16,23 @@ channel_url: "https://www.youtube.com/@judgingfreedom/videos"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=FWoseXWGX5Y"
 source_type: youtube_transcript_operator_paste
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance.
+source_note: "Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance. · ASR pass 2026-06-15."
 normalization_note: Removed routine ideological cold open, sponsor read, and closing schedule promo; kept operator-pasted source language and residual ASR noise.
 opening_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 28 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # AMB Chas Freeman : How the US Lost Geopolitical Primacy
 
 ## Transcript
 
 Ambassador Freeman, uh, welcome here. Let's get right to uh the breaking news of the morning. We'll reserve the Larry Johnson uh revelations uh in just a moment. Uh Iran in in the past 48 hours, Iran has withdrawn from the negotiations with the United States, such as they were.
 
- The Israelis have ramped up their invasion and slaughter in Lebanon. Uh, President Peskian has denied that he's resigning and President Trump in very very direct uh, ways has cursed out Prime Minister Netanyahu. What's going on? >> Well, I think the main uh, thing that's going on is that Iran has correctly concluded that the United States is incapable of making a deal.
+ The Israelis have ramped up their invasion and slaughter in Lebanon. Uh, President Pezeshkian has denied that he's resigning and President Trump in very very direct uh, ways has cursed out Prime Minister Netanyahu. What's going on? >> Well, I think the main uh, thing that's going on is that Iran has correctly concluded that the United States is incapable of making a deal.
  um any kind of agreement that would remotely uh respond to Iranian national interests. And the reasons for that are structural. Essentially, we have a negotiating process uh which is indirect um either conducted by amateurs like uh Whitkoff and Kushner or through intermediaries like the Pakistanis and Qataries. uh anything that any agreement that is apparently reached in these discussions is ad referendum to President Trump.
 President Trump is not famous for his constancy uh or predictability. Quite the contrary. Therefore, he often adjusts changes um what has already been apparently agreed by his negotiators or basically repudiates what they have agreed. Um, and if he does agree, anything he agrees to is at referendum to Prime Minister Netanyahu of Israel, uh, who reserves the right and exercises it uh, to veto anything that, uh, Donald Trump has, uh, has apparently approved.
 And as if that were not enough, uh, that the Trump administration, Mr. Trump um is under constant pressure from wararm mongers in Congress uh and from his Zionist mega donors whereas Mr. Netanyahu is under pressure from fanatic fascists in his cabinet and uh others. Um, and the whole enterprise that he uh embarked upon with the United States was essentially uh intended to uh take down Iran, to destroy the Iranian state, to break it up uh to uh remove its weapons capability, eliminate it as a threat to the continued expansion of the Israeli

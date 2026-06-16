@@ -1,35 +1,35 @@
 ---
 ingest_date: 2026-06-01
 pub_date: 2026-06-01
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "Prof. Jeffrey Sachs : How the Best Military and Intel Failed"
 source_url: "https://www.youtube.com/watch?v=xciEC59zChI"
 youtube_id: xciEC59zChI
 channel_slug: judging-freedom
-source_note: Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+source_note: "Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode. · ASR pass 2026-06-15."
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Jeffrey Sachs
 thread: sachs
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
-quality_note: Raw operator-pasted transcript; cold open, lineup tail, and transcription artifacts may remain.
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 opening_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # Prof. Jeffrey Sachs : How the Best Military and Intel Failed
 
 ## Transcript
 Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
  Today is Monday, June 1st, 2026. Professor Jeffrey Saxs joins us now. Professor Saxs, thank you as always for accommodating my schedule. About 3 hours ago, uh, credible news, uh, reports surfaced indicating that Iran has withdrawn from negotiations with the United States. Is this any surprise to you, given that the US has attacked Iran during a so-called ceasefire and Israel is continuing to slaughter innocents in Lebanon? Well, I've been saying for weeks that I think the fighting can end without uh any kind of formal agreement. The United
 States made a a bad mistake to launch a war against Iran. It was predicated on a totally delusional idea that the war would last one day, that the US would take out the leadership of Iran and put in the leadership that it wanted. uh something like uh what the US did in Venezuela, but Iran is not Venezuela uh and Iran is not the US neighborhood.
  And the whole idea was a complete botchup. So the US made a terrible mistake. Uh since then, Trump has been making one demand after another that the Iranians just say no to because the United States can't compel Iran to any of these US demands. The US could not accomplish what Trump said it would accomplish. Given that um we've been in the same situation now for three months basically which is that the US can escalate in which case a lot of the Middle East is likely to get blown up uh with a profound consequence for the whole
@@ -43,7 +43,7 @@ So all of this is to say it is perfectly plain why Iran would say what are what 
 >> He can say whatever he wants. He's he's actually pretty good at saying whatever he wants, but there's no other thing to do. And this is the most basic point. >> And when he says, by the way, I don't he says, I don't care about the midterms. Okay, if you don't, basically what you're saying is you don't care at all about the American people, which I think is pretty close to being true.
  and why his approval rating is down to 34% and the disapproval rating up to 60%. No, he doesn't care about this. By the way, there is a whole group of Americans that don't care about the American people. Uh Silicon Valley tech titans are are testing their weapons. They they probably like this war well enough because they're they're doing their AI testing and surveillance and showing how their systems work.
 And you know, of course, we have the uh Israel lobby and all the rest. It's just interesting. The American people are sick of all of this. But in one respect, Professor Saxs, aren't the negotiations pointless without a restraint on Israel? Well, I if if you're asking uh could we get some kind of deep settlement with Iran on many issues on regional security, on the nuclear brief, uh on um peace on the straits, it's impossible right now anyway.
- There's no way to get such an agreement. We don't even have negotiators. Uh Kushner Witco are you kidding? We don't have people that can negotiate the nuclear issues not even technically uh with the capacity to do this much less the distrust they keep killing the negotiators and all the rest. So I don't think that there is any scope for any kind of detailed agreement.
+ There's no way to get such an agreement. We don't even have negotiators. Uh Kushner Witkoff are you kidding? We don't have people that can negotiate the nuclear issues not even technically uh with the capacity to do this much less the distrust they keep killing the negotiators and all the rest. So I don't think that there is any scope for any kind of detailed agreement.
 I don't know, you know, what Donald Trump understands, but negotiating is a professional business. It's it's not a joke and a game on True Social. It actually requires detailed work, not Kushner flying in for a warning on God knows what purpose. And so, it's not going to happen at all. And with Israel, again, it's rather simple.
  Uh, Israel is a violent rogue state that is on a murder spree because it's trying to build what it calls greater Israel, which means controlling all of Palestine, controlling Gaza, controlling the West Bank, controlling East Jerusalem and parts of Syria and parts of Lebanon and God knows where else they want to Oh, and this is a madness and it means that they have to engage in nonstop murder of people, which is what they're doing right now.
 Now, could the United States stop this? Uh, depends what you mean by could. In a moment, the United States president could stop it by saying, "We're not supporting that. Not another penny, no more ammunition, no more diplomatic cover. You're done. Israel has absolutely no capacity to continue without the US backing.
@@ -59,7 +59,7 @@ Now, could the United States stop this? Uh, depends what you mean by could. In a
  This is uh also pretty pretty cheeky of uh uh the US authorities. The US has confiscated billions, arguably tens of billions of dollars of Iranian assets, illegally confiscated it. I would argue the US has destroyed tens of billions of dollars of Iranian infrastructure, not to mention killing vast numbers of people. And then they say, "No, you can't collect a dollar per barrel of oil going through the straight," which by the way would be maybe seven or eight billion dollars a year and would take many years even to make up the costs that the United States
 has imposed in just a few weeks. And Bessant, who I consider our thug in chief, he has no attributes of a Treasury Secretary that I see. He knows nothing about the US economy. Cares nothing about the US economy. He's just an enforcer, >> right, >> of sanctions, crushing currencies, punishing others.
  He says, "How dare they even consider having a toll. Give me a break." Do you >> how about not bombing this place in the first place and killing all these people or confiscating their reserves or as Bessant said in Davos this year using quote economic statecraft? Uh that that was a nice euphemism to mean crushing the Iranian currency so that people would come out onto the streets.
- I mean this is American policy. It's thuggery. It's just thuggishness. >> Do you think the u people that make these decisions, whether it's Bessant at Treasury or Ratcliffe at CIA or Rubio at state or Heg Seth at defense or Trump himself, have the remotest understanding of Iranian history, culture, way of thinking? >> Of course not.
+ I mean this is American policy. It's thuggery. It's just thuggishness. >> Do you think the u people that make these decisions, whether it's Bessant at Treasury or Ratcliffe at CIA or Rubio at state or Hegseth at defense or Trump himself, have the remotest understanding of Iranian history, culture, way of thinking? >> Of course not.
  And more than that, uh, our side has no culture at all other than, uh, kind of gangsterism. And their view of Iran, which is completely bizarre, uh, completely, uh, ignorant, is some medieval state that we're going to crush under our demands. And their motivation to a very large extent is revenge. What revenge? Well, Iran was part of the American Empire after 1953 because the CIA made a coup.
  Uh it installed a police state. That police state under US authority lasted 26 years. The Iranian people threw it off in 1979. And I'll tell you, empires hate when a a nation throws off the imperial yoke. And so the US is out for revenge institutionally. We're going to teach them. They got away from us in 1979, but not for good. We're back.
  That's what they think. It's not going to work, but that's what they think. Uh you and I often um discuss matters that uh implicate the first amendment, something we both rely on for our work. >> We do. Uh about an hour ago, the Secretary of Defense, who calls himself the Secretary of War, uh issued an edict classifying the press office at the Pentagon as a classified place, meaning you cannot go into the press room without a top secret classified security clearance, which of course none of the press has.

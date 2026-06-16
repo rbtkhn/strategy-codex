@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-02
 pub_date: 2026-06-02
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -16,14 +16,16 @@ channel_url: "https://www.youtube.com/@judgingfreedom/videos"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=KVEE4zcp-p0"
 source_type: youtube_transcript_operator_paste
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance.
+source_note: "Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance. · ASR pass 2026-06-15."
 normalization_note: Removed routine ideological cold open and closing schedule promo; kept operator-pasted source language and residual ASR noise.
 opening_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 38 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # CPT. Matt Hoh : Military Spending Into Oblivion
 
 ## Transcript
@@ -34,7 +36,7 @@ Uh a homebuilder known for barroom brawling and corporate takeovers with zero ex
  But what if you have an intelligence community that doesn't want to be loyal to the president? He will not have any understanding, any depth, any experience that will tell him that his people are lying to him and they lie all the time. All the time. You know what? Imagine if he had like a Mike Morell working for him, a career, you know, or a John Brennan, you know, right? I mean, how would he handle them? He would would he just assume because Morell and Brennan were career CIA guys that they're going to be honest, that they have integrity,
 that they aren't dupes for in their those cases the Democratic party, you know, and the same thing too with uh the current CIA director Radcliffe. You know, in Radcliffe's case, he had no intelligence background before uh he went into Congress and he's on the intelligence committee and he believes every word the intelligence community tells him because he's got no reason not to.
  Everything he knows about the intelligence committee, he's learned from the Wall Street Journal and the New York Times and Fox News and from Hollywood movies and reading Tom Clancy. I mean, I'm I'm assuming this this gentleman is in the same uh is coming with the same background. >> You got to scratch your head about what's going through Trump's head.
- Isn't being DNI, director of national intelligence, a full-time job? >> Yes, absolutely. According to Tulsi Gabbert, it was like 18 hours a day. Well, this gentleman is still going to run Fanny May, the Federal National Mortgage Association, while he's DNI. >> Both of those are jobs that are probably overwhelming for anyone in their singular capacity.
+ Isn't being DNI, director of national intelligence, a full-time job? >> Yes, absolutely. According to Tulsi Gabbard, it was like 18 hours a day. Well, this gentleman is still going to run Fanny May, the Federal National Mortgage Association, while he's DNI. >> Both of those are jobs that are probably overwhelming for anyone in their singular capacity.
  The DNI is responsible for the uh 18 uh federal intelligence agencies. uh and I think now might be 19 now because the Capitol Hill police have their own intelligence service from what I understand now. So they're somehow, you know, adjacent or ancillary to uh all the other federal intelligence agencies.
  So maybe there's 19 intelligence agencies now. But yeah, how how you could not do this part-time or as a second job, but that's not the purpose. His purpose is to be loyal to the president, to push the president's agenda, uh to be a figurehead essentially. We've seen that Jean Ratcliffe, the CIA director, he he supplanted uh Tulsi Gabbard over the last year.
  He is a darling of the intelligence committee. He is a darling of the neoconservatives. He is fully in the pocket uh of the Israel lobby. And I think Ratcliffe is the guy who is the one who runs uh you know, American intelligence. Uh but uh he also has the great trust of the United States. Who was the first person who went to Venezuela after the Maduro kidnapping? It was Ratcliffe, right? I mean, so who's you know that those uh you know, I I don't think this the DNI's purpose is going to be for anything other than to uh just essentially be Donald Trump's
@@ -49,7 +51,7 @@ journalist who authored this piece, uh has, you know, made it out as if Donald J
  I mean, so it it causes drama. I it it's theater. I I think the tension is really there. I think Netanyahu is one of those people who would who would get uh Mother Teresa to curse. Uh you know, but uh I I I think in the end uh all these stories we see about this anger, this this this hostility, this this tension between the White House and Netanyahu's government, uh whatever changes, nothing ever changes.
  At the end of the day, there's still that support. I mean, Joe Biden famously paused one shipment of bombs. Uh meanwhile, he sent $22 billion dollars in weapons, munitions, and assistance to Israel despite uh the dozen or so headlines that Barack Ravid wrote describing this type of tension between Netanyahu. So, >> uh we had here in New York on Sunday the Israel Day parade and I just learned that two of the most despicable people on the planet who are not from New York were here marching in the parade.
  When is this crazy congressman from Florida by the name of Randy Fine? This is the guy that Max Blumenthal chased through the Capitol building once. Now Max is built like you and Fine is built like uh the former governor of New Jersey. So I don't think it was I don't think it was much of a race.
- And the other was Bellazil Smootrich, >> right? >> Smotrich himself was here in New York marching in the parade, >> happily with a big smile on his face, mugging for the cameras at the front of the Israeli delegation. Uh he wasn't skulking in the back uh with a baseball cap on uh you know uh and sunglasses. But it wasn't just him.
+ And the other was Bellazil Smotrich, >> right? >> Smotrich himself was here in New York marching in the parade, >> happily with a big smile on his face, mugging for the cameras at the front of the Israeli delegation. Uh he wasn't skulking in the back uh with a baseball cap on uh you know uh and sunglasses. But it wasn't just him.
  It was a whole host of war criminals that came over from Israel. there's been a number of folks who have, you know, taken the time to document who was there and you see just just members of the Knesset, uh, former Israeli ministers, uh, various public figures who have called for genocide who have rooted on the, you know, the the atrocities, uh, you know, so it wasn't just Smootric, it was a whole cobble of these people that were there.
  And we have to remind people that Bezos Motrich among other things is currently under investigation by the International Criminal Court for war crimes and we're likely to see within this year an arrest warrant be issued for him. >> Is he an official in the government as in the cabinet as well as in the Knesset? Is he like the treasury or something like that? >> He's the finance minister judge.
  I mean he's not some like backbencher. He's not some guy who is the minister of uh you know uh theme parks or something like that you know he is the minister of finance. He's also essentially the governor of the West Bank. uh his position also includes uh this this role ad ministering on the civilian side the West Bank and Enmar Bengavir as a minister of national security on the security side on the police side administers the West Bank you know that way and this is why it's such a terrible place to be in the West Bank has been

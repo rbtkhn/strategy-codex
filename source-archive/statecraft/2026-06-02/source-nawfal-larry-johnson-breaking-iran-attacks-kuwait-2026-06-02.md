@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-02
 pub_date: 2026-06-02
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -14,14 +14,15 @@ guest: Larry Johnson
 title: "BREAKING: IRAN ATTACKS KUWAIT - w/ Fmr. CIA Larry Johnson"
 source_url: "https://www.youtube.com/watch?v=uchIKTuLAUo"
 source_type: youtube
-transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Johnson interview.
-editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Johnson interview. · ASR pass 2026-06-15."
 youtube_id: uchIKTuLAUo
 opening_tier: heavy-banter
 opening_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # BREAKING: IRAN ATTACKS KUWAIT - w/ Fmr. CIA Larry Johnson
 
 **Show:** Mario Nawfal  
@@ -68,8 +69,8 @@ There you go. Um anyway, so these are the strikes and and um we are seeing I thi
 >> Um just my way to help remember his name that that that was the secret ace in the hole for this masterful Israeli uh CIA plot to put Akmaden in. What? Yeah, that that is ridiculous. Yeah. So is someone that's very hawkish against Israel. Talks about destroying Israel. That's number one.
  Number two, if that was actually part of the plan, they won't just He's still there. He's still alive there in Iran. If he was, which I don't believe he was, >> they wouldn't just say that openly. That's not how you treat. If you had someone working with you from an intelligence perspective inside a country, um you wouldn't just announce his name.
  It's like the Americans saying, "Yeah, in Venezuela we work with Tom, Dick, and Harry >> to be able to get rid of >> Maduro." >> All this is is an attempt to uh put him in the hot seat to try to create internal strife among IRGC and politicians and you know to raise doubt and suspicion. Uh but that that's really ham-handed. I mean come on.
->> Have you heard the news? Have you heard the news that Peskan quit as well, Larry? >> Oh, yeah. Yeah. Pesk now International. >> He's so ups Yeah. He's so upset that he's being isolated. Except our source um who is he is Pakistani. Um >> source of gonna get you in trouble, Larry. >> Nah, we're we're okay.
- We're he's protected. Uh but he he commented that it was after the National Security Council meeting on Wednesday or Thursday. I guess we convened late Wednesday, early Thursday. Peskin was the one tagged to go tell the Pakistani Prime Minister Shariff, hey, if the United States keeps up these strikes, these are the three things we're going to do.
+>> Have you heard the news? Have you heard the news that Pezeshkian quit as well, Larry? >> Oh, yeah. Yeah. Pesk now International. >> He's so ups Yeah. He's so upset that he's being isolated. Except our source um who is he is Pakistani. Um >> source of gonna get you in trouble, Larry. >> Nah, we're we're okay.
+ We're he's protected. Uh but he he commented that it was after the National Security Council meeting on Wednesday or Thursday. I guess we convened late Wednesday, early Thursday. Pezeshkian was the one tagged to go tell the Pakistani Prime Minister Shariff, hey, if the United States keeps up these strikes, these are the three things we're going to do.
  We're going to withdraw, break off the negotiations. We're going to withdraw from the non-prololiferation treaty. and we're going to set off a demonstration nuke. So tell them if they you know is that is that the way they want to go? Fine. Let them know and then so you know if possession was on the als he wouldn't be playing a central role in this. Not at all.
 >> Um so um just got a report of explosions in East Fahan, central Iran. Unconfirmed preliminary reports of explosions in East Fahan. We haven't seen any military activity to show large scale attacks. So would you would you agree that this doesn't seem like a large scale operation just back and forth like we've seen the last couple of weeks? >> Yeah, so far so far no.
  Not a large large scale. >> I'll keep reading as things come out if it gets worse. Um just going back to the point because that was the the main thing I wanted to focus on. Um so the discussion we had yesterday is that uh just to make sure I understand it and I don't know if you have more context but to understand it is that what the source says is that okay more missiles uh with all activity now concluded okay that's before missiles also launched from eastan and central Iran as part of the earlier wave of launch um so the the

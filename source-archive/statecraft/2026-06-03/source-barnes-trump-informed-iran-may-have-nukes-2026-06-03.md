@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-03
 pub_date: 2026-06-03
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -14,12 +14,13 @@ guest: Robert Barnes
 title: "TRUMP INFORMED \\\"IRAN MAY HAVE NUKES\\\" - w/ Political Analyst Robert Barnes"
 source_url: "https://www.youtube.com/watch?v=2DsnE3Gzk1s"
 source_type: youtube
-transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture. YouTube watch-page metadata reports upload date 2026-06-03.
-editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture. YouTube watch-page metadata reports upload date 2026-06-03. · ASR pass 2026-06-15."
 opening_tier: host-monologue
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 6 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # TRUMP INFORMED "IRAN MAY HAVE NUKES" - w/ Political Analyst Robert Barnes
 
 **Show:** Mario Nawfal

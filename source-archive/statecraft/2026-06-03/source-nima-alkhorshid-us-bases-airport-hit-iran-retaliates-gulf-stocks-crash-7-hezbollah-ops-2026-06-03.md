@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-03
 pub_date: 2026-06-03
-kind: transcript
+kind: cleaned-transcript
 source_form: solo
 host_people:
   - Nima Alkhorshid
@@ -16,18 +16,23 @@ channel_url: "https://www.youtube.com/watch?v=PQWhsrD4XhY"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=PQWhsrD4XhY"
 source_type: youtube_transcript_operator_paste
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: Operator-pasted YouTube transcript for Nima-hosted Dialogue Works capture.
+source_note: "Operator-pasted YouTube transcript for Nima-hosted Dialogue Works capture. · ASR pass 2026-06-15."
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 7 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # US Bases & Airport HIT! Iran RETALIATES - Gulf Stocks CRASH + 7 Hezbollah Ops
+
+## Transcript
 
 Hi everybody. Today's Wednesday, June 3rd, 2026 and I'm here to talk about what has happened last night between Iran and the United States. There were some sort of fighting happening last night and all of a sudden it happened and you remember know I was repeating that this blockade is going to escalate and escalate so fast because Iran is not happy with the situation with the blockade.
 
 So as time goes by we're going to have these sort of escalations happening between Iran and the United States. I don't know what would be the tolerance on the part of the Iranians and the United States. How long is it going to be like this? And Donald Trump after you know this sort of fight he said that the ceasefire is still in place that the reality didn't change about the ceasefire.
 
-Nobody knows what does that mean anymore because the two sides are fighting each other. and the United States. What has happened last night? It was the United States attacking one of the Iranian oil tankers in the Persian Gulf and an attack on a telecommunication tower in the in in in the southern part in in the straight of Formos one of those cities in the Formos.
+Nobody knows what does that mean anymore because the two sides are fighting each other. and the United States. What has happened last night? It was the United States attacking one of the Iranian oil tankers in the Persian Gulf and an attack on a telecommunication tower in the in in in the southern part in in the Strait of Hormuz one of those cities in the Formos.
 
 So is a Kesh Island they call it island is an island there. Then Iranian response was immediately immediately they attacked American bases in Kuwait and Bahrain. The American fifth fleet in Bahrain was attacked by Iranians. And there since the war started between Iran and the United States, they removed many of these equipments in these bases in Bahrain and Kuwait, put them in some other places in the country.
 
@@ -43,7 +48,7 @@ What we've learned from Bahrain he they have arrested some people in in Bahrain 
 
 But the main point of attacking these two countries as the Iranian foreign minister has announced that because these attacks were originated from Kuwait and Bahrain that's why Iran started attacking them. So as war is going on I think I think the the calculation on the part of the United States is to put pressure by the use of the blockade.
 
-You remember Donald Trump announced two three days ago that he's going to lift the blockade in the trade of Hormos. Then he later on the same day he came out and said that's not going to happen because Iran is not just agreeing on the terms that they have agreed on based on the messages that they're sending back and forth.
+You remember Donald Trump announced two three days ago that he's going to lift the blockade in the Strait of Hormuz. Then he later on the same day he came out and said that's not going to happen because Iran is not just agreeing on the terms that they have agreed on based on the messages that they're sending back and forth.
 
 But the problem is Donald Trump is just making things up. He thinks that he just in his recent interview he's talking about meeting with the supreme leader of Iran. How can someone believe what this guy is talking about? He said he's I'm prepared to talk with him, you know, have a meeting with him.
 
@@ -173,21 +178,21 @@ So, as soon as the midterm elections are done and they're getting their candidat
 
 The economy is not doing great. Donald Trump has two more years of his presidency. What does he want from that? His personal wealth is just growing, is getting better. All he cares is his personal life and his people and his sons and daughters. And this is the whole agenda on his part. That's why when it comes to the American economy say I don't care about the financial system for financial situation in the United States because Iran is making nuclear bombs and I have to do something about nuclear bombs in Iran which he knows that he's lying to the American people.
 
-This is total lie. He's asking to open up this rate of formos. He's asking Iran to hand over the enriched uranium. None of those things going to happen. He's not going to get anything from Iran. If he wants Iran to declare that they're not going to Iran declaring that they're not going to, you know, build nuclear weapons, Iran would declare that.
+This is total lie. He's asking to open up this Strait of Hormuz. He's asking Iran to hand over the enriched uranium. None of those things going to happen. He's not going to get anything from Iran. If he wants Iran to declare that they're not going to Iran declaring that they're not going to, you know, build nuclear weapons, Iran would declare that.
 
 There is no problem with that. and Iran. My understanding of Iran today that their assessment on the nuclear program has not changed. I know that there is there's some rumors right now they're talking about and Iran has nuclear weapons, Iran is building nuclear weapons or is getting nuclear weapons or something like that.
 
-My understanding is that Iran at this particular moment they feel so comfortable because they know the importance of the straight of formos. They know their military capabilities. Their stockpile of missiles are full more than they had before this war started. The drones are getting better. Their air defense system is growing and improving drastically because of the lessons they've learned.
+My understanding is that Iran at this particular moment they feel so comfortable because they know the importance of the Strait of Hormuz. They know their military capabilities. Their stockpile of missiles are full more than they had before this war started. The drones are getting better. Their air defense system is growing and improving drastically because of the lessons they've learned.
 
 Iran has never been attacked by these sort of air powers, these sort of fighter jets. They had no experience before. So the experience they had during the 39 days of war has, you know, somehow helped them to improve their air defense system. Right now in Iran they have Majid air defense system they have Bart they have you know Arash the archer and these are the new air defense system simply they have a integrated system they're bringing all these weapons together in a some sort of communication system that they can communicate they can hit the target better that would that has hugely improved the Iranian capabil is with the with the case of the air defense systems and they don't have any problem with the interceptors because all most I would say they are all produced in Iran and they are producing them 24/7 and this is what's going on with Iranians and so they're so confident they know what they're doing they know they know their capabilities they know how they know they they're lack average the leverage they have on the United States with the case of negotiations.
 
-So let's assume worst case scenario for Iran is going to be not reaching any sort of agreement. So they don't reach an agreement with the United States. What is the outcome of that? The blockade of the straight of formos. If the United States tries to stay there with the blockade, we're going to get back to the fullscale war between Iran and the United States.
+So let's assume worst case scenario for Iran is going to be not reaching any sort of agreement. So they don't reach an agreement with the United States. What is the outcome of that? The blockade of the Strait of Hormuz. If the United States tries to stay there with the blockade, we're going to get back to the fullscale war between Iran and the United States.
 
-How long does the United States want to continue that war? Are they going to be able what are the capabilities? What is the situation with the stockpile in the United States? the meeting that Donald Trump had with Xiinping in China, which basically in my opinion was focused on rare earth minerals because to produce more missiles to produce more interceptors for Israel and for the United States, they need rare earth minerals and they're short of that.
+How long does the United States want to continue that war? Are they going to be able what are the capabilities? What is the situation with the stockpile in the United States? the meeting that Donald Trump had with Xi Jinping in China, which basically in my opinion was focused on rare earth minerals because to produce more missiles to produce more interceptors for Israel and for the United States, they need rare earth minerals and they're short of that.
 
 They don't have it. They're 90% dependent on the United States. As Marco Rubio yesterday said, they're dependent on China. It's 90% of the rails minerals are coming from China. That's why you see Marco Rubia going to Armenia, other countries, making new deals to receive more minerals from these countries which they don't have it the way that the United States they're trying to diversify that that pro diversify you know the the the case of you know the rare earth minerals but China is still they're dominant right now with those minerals. So there was no outcome with that summit. So the United States is not going to be able to build up the stockpile anytime soon. At least 10 years. They need 10 years to get back to the same level of missiles and interceptors that they had before this war started. Just imagine in 39 days they have used 10 years of production.
 
-So is that going to be a viable choice for the United States to trade to stay in this trade of hormones to continue? I don't see that. And if they they stay there to do to hit these tankers, oil tankers, I think sooner or later Iran going to hit the aircraft carriers, destroyers, they're going to blow them up because that's the final Iran tries to be so cautious with their targets.
+So is that going to be a viable choice for the United States to trade to stay in this Strait of Hormuz to continue? I don't see that. And if they they stay there to do to hit these tankers, oil tankers, I think sooner or later Iran going to hit the aircraft carriers, destroyers, they're going to blow them up because that's the final Iran tries to be so cautious with their targets.
 
 They try, as I've mentioned, they didn't kill they didn't try to kill civilians. They their targets were so precise not to influence the people ordinary people civilians in GCC countries. Believe it or not, many people in Iran believe even those people on these aircraft carriers who are doing nothing basically just providing 5,000 people on some of these aircraft carriers.
 

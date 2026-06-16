@@ -1,35 +1,35 @@
 ---
 ingest_date: 2026-06-03
 pub_date: 2026-06-03
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "Larry Johnson : Does Iran Have the Bomb? Part 2"
 source_url: "https://www.youtube.com/watch?v=yLSrunuWrns"
 youtube_id: yLSrunuWrns
 channel_slug: judging-freedom
-source_note: Transcript pasted manually by operator on 2026-06-03.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+source_note: "Transcript pasted manually by operator on 2026-06-03. · ASR pass 2026-06-15."
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Larry Johnson
 thread: johnson
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
-quality_note: Normalized to remove routine ideological cold open, sponsor/promo copy, and transcript noise; minor artifacts may remain.
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 opening_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # Larry Johnson : Does Iran Have the Bomb? Part 2
 
 ## Transcript
 
-Hi everyone, Judge Andrew Npalitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
 Today is Wednesday, June 3rd, 2026. My dear friend and colleague Larry Johnson joins us now. Larry, a pleasure. Thank you for coming back.
 
@@ -43,7 +43,7 @@ Does Iran have a deliverable nuclear weapon?
 
 >> Uh, I don't know. All I all I know is this. Um, as and I know you had Pepe on earlier. I haven't had a chance to fully watch what he said, but I know that we've been in sync on this. We received information last week, Wednesday, last Thursday, late on Thursday. Um it is from a source in Pakistan that is uh the the position and access of this person is such that this information that we were provided with is the kind of stuff that this person would have access to.
 
-We're not saying it was we're not talking about some taxi driver uh or somebody uh who's sitting in a in a schwarma station. uh this this is someone who actually had access to this information. Um and you know the sequence what we were told and what we looked at this information is that in the aftermath of the US attacks on Iran in the in the Persian Gulf, the attacks at Bonder Abbas, the attacks in Keshum Island, the attack that killed four uh Iran Iranian sailors that the Iranian National Security Council met and out of that meeting, President Peskin was directed to call up Prime Minister Sharif and basically say three things and those three things were and remember we're getting this information last week and I didn't when I talked to you on Monday at 9:30 we didn't even have the the the first part of this which was Iran was going to pull out of negotiations they were going to end the negotiations with the United States now remember when we talked on Monday at 9 to 9:30 that news had not broken
+We're not saying it was we're not talking about some taxi driver uh or somebody uh who's sitting in a in a schwarma station. uh this this is someone who actually had access to this information. Um and you know the sequence what we were told and what we looked at this information is that in the aftermath of the US attacks on Iran in the in the Persian Gulf, the attacks at Bandar Abbas, the attacks in Keshum Island, the attack that killed four uh Iran Iranian sailors that the Iranian National Security Council met and out of that meeting, President Pezeshkian was directed to call up Prime Minister Sharif and basically say three things and those three things were and remember we're getting this information last week and I didn't when I talked to you on Monday at 9:30 we didn't even have the the the first part of this which was Iran was going to pull out of negotiations they were going to end the negotiations with the United States now remember when we talked on Monday at 9 to 9:30 that news had not broken
 
 >> right
 
@@ -129,11 +129,11 @@ So that's why they stayed away from that. the same way that they didn't uh they 
 
 >> because surely if they have only one they're not going to waste it in the desert but where do you think the nuclear devices originated?
 
->> Uh, no. I I think they they originated within most likely within Iran. Now, an important point to make that um as Pepe noted, Peskian was directed to communicate to the prime minister of Pakistan. They talked over the phone. I'm pretty sure that they don't have a secure telephone, that they're not using a tactical satellite radio. I could be wrong.
+>> Uh, no. I I think they they originated within most likely within Iran. Now, an important point to make that um as Pepe noted, Pezeshkian was directed to communicate to the prime minister of Pakistan. They talked over the phone. I'm pretty sure that they don't have a secure telephone, that they're not using a tactical satellite radio. I could be wrong.
 
 >> CIA, MI6, and Mossad heard it. Yeah, that's my point. In fact, that may have been the very point, the reason they did it. If they did it over an open line, they wanted to make sure that everybody heard it, including Israelis 82 unit 8200, they intercepted it, United States.
 
-And so, everybody's got to now take a big breath and go, is this for real? Again, this when you get into these kinds of issues with intelligence, you know, this person once you know the bonafites of the person, you know that they do have this kind of access that they they are not hearing something around the water cooler or they're not hearing rumors in the bathroom.
+And so, everybody's got to now take a big breath and go, is this for real? Again, this when you get into these kinds of issues with intelligence, you know, this person once you know the bonaPhilotas of the person, you know that they do have this kind of access that they they are not hearing something around the water cooler or they're not hearing rumors in the bathroom.
 
 This is something that they would have been involved with the decision-m from from the standpoint of Pakistan knowing what is being communicated with Iran and what Iran is communicating with them. So, and that's why I say I am struck by how cautious Trump has been. You know, this so far that we're day three this week since that news broke.
 
@@ -179,7 +179,7 @@ If if you if you attack my family, I will defend my family.
 
 I mean right now Russia and China are actively engaged with helping Iran stabilize in the aftermath of that attack on the 28th. And and there there's ample reports about uh both technology u military equipment uh technical advice from experts. All of that's being provided. And um you know I I imagine one of the things one of the things I learned yesterday from a completely it's a it's a recently retired member of uh the US military an officer um who was involved with intel and and and he's been directly involved with the the stuff surrounding central command that has uh oversight of this war. uh in in with Iran. He said the there's a lot of frustration among the the intel analysts because the intelligence is being ignored. So I'm saying okay that is u and you know that may in part be you know part of Tulsi Gabbard's frustration and and then you let's let's compound that with here's Trump bringing in a man that is completely totally unqualified to be director of national intelligence and and it's just it's making a joke.
 
-But on the other hand, Trump now has got if if the intelligence community has come back in and said, "Hey, yeah, we intercepted. We we've got the recording of Peskian's conversation with Prime Minister Sharif." And that's what they said, what what what Johnson and Escobar are saying. That's exactly what they said.
+But on the other hand, Trump now has got if if the intelligence community has come back in and said, "Hey, yeah, we intercepted. We we've got the recording of Pezeshkian's conversation with Prime Minister Sharif." And that's what they said, what what what Johnson and Escobar are saying. That's exactly what they said.
 
 >> Wow.
 

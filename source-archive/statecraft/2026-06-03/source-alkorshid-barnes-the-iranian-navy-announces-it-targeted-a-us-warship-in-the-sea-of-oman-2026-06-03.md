@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-03
 pub_date: 2026-06-03
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -16,13 +16,15 @@ channel_url: "https://www.youtube.com/watch?v=c9xkvJjlAC0"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=c9xkvJjlAC0"
 source_type: youtube_transcript_operator_paste
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: Operator-pasted YouTube transcript for Nima-hosted Dialogue Works capture with Robert Barnes.
+source_note: "Operator-pasted YouTube transcript for Nima-hosted Dialogue Works capture with Robert Barnes. · ASR pass 2026-06-15."
 opening_tier: host-tease
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Nima Alkorshid / Robert Barnes - The Iranian Navy announces it targeted a U.S. warship in the Sea of Oman
 
 **Channel:** Dialogue Works (Nima Alkorshid)  
@@ -56,7 +58,7 @@ So all of those factors have played a role in Trump sort of being stuck in this 
 
 The Kuwaitis and Bahrain will mostly go along with what the Saudis and the Qataris won. So all that's left cheerleading further escalation in the war the Emiratis who you know grew up playing Call of Duty and they think war is a game uh with the of course a lot of the Amiradis are deeply ti some of the leadership of the Emiratis are tied into the Epstein files and things like that but they were the ones behind about a half a billion dollar investment into World Liberty Financial uh one of those crypto rugps that Trump did a ton of right between his election and his inauguration and that was basically a gift of a half a billion to the Trump family. So the uh the Trump brothers are invested now in the Israeli drone company that is also profitering from the war. Uh the Jared Kushner has made has received huge investments uh from the Amiradis and the Saudis and others connected to the conflict.
 
-Wickoff has real estate deals tied to the Emiratis and the Israelis and the Saudis. So there's a lot of personal financial ties and you heard rumors that the 300 billion being floated as part of a potential deal between the US and Iran that the key according that was that Witoff was relating to some whomever he could talk to because the regular Iranians aren't talking to him anymore. So he'd just find some you know random mechanic shop somewhere say hey let them know that uh I'll push for that 300 million as long as you know 300 billion as long as we get a piece of it. The that's their whole thing. I mean, it's one big shakedown operation. Basically, Trump runs the White House like it's the Corleone family, the except somehow dumber. Uh, and so the the that's been the modus operandi all the way through.
+Witkoff has real estate deals tied to the Emiratis and the Israelis and the Saudis. So there's a lot of personal financial ties and you heard rumors that the 300 billion being floated as part of a potential deal between the US and Iran that the key according that was that Witkoff was relating to some whomever he could talk to because the regular Iranians aren't talking to him anymore. So he'd just find some you know random mechanic shop somewhere say hey let them know that uh I'll push for that 300 million as long as you know 300 billion as long as we get a piece of it. The that's their whole thing. I mean, it's one big shakedown operation. Basically, Trump runs the White House like it's the Corleone family, the except somehow dumber. Uh, and so the the that's been the modus operandi all the way through.
 
 And the hurdle to getting he he can't admit defeat. uh he can't deal with criticism from the Israel lobby and the uh Israeli aligned donor class and deep state folks here in the states but at the same time knows he can't realistically escalate without it getting a lot worse and that's where there's been this sort of stalemate. Now what may have broke through is what Larry Johnson reported last week. the I heard from people uh that they received the message in the White House that Larry Johnson relayed had been relayed was in fact relayed which was that Iran has stated that uh that if there isn't a deal done and there's any form of escalation that they will then withdraw from the negotiations, withdraw from the non-prololiferation treaty and that they will set off a nuclear weapon to show that they now have nukes.
 
@@ -98,7 +100,7 @@ So, uh, all the motivation and incentives are to get out and to get out sooner r
 
 **Nima (host):** And one of the reasons is this war of choice has depleted the US stockpile when it comes to the cruise missiles name it. And we had the interceptors being depleted during the war. something like somehow when interceptors with the TAT system there they were reports there were reports of 50% of those interceptors were depleted the problem is how he's going to replace them he's going to get it back to what it was before this war started he went to China I think part of the plan was to make a new deal with the rare earth minerals and just improve that it seems that that didn't work well that's why you see yesterday Marco Rubio talking about we are dependent 90% on these minerals for coming from China. We have to diversify. He went to Armenia making a new deal with Armenia. I don't know how what are the capabilities of Armenia pro providing that sort of minerals to the United States.
 
-But after all these are all problems that Donald Trump himself created for his administration and for the United States. And that's why I don't know even the continuation of the war going to deplete more the stockpile of the United States. You know, 39 days of war looking at Iran today and they're get they're back at they have the same number of missiles and drones by you know we had the reports even in New York Times talking about this. So this is the reality what he's in. And I don't know what is the offramp, a good offramp, a safe a face saving off ramp for Donald Trump to help him. And I don't see that coming from Iran. I don't see that coming from Israel because Benjamin Net doesn't want to help him. It's impossible to get it from Benjamin Net. He would do everything that I think one of the reason that he had that phone call, you know, because of the case of Lebanon.
+But after all these are all problems that Donald Trump himSouth Koread for his administration and for the United States. And that's why I don't know even the continuation of the war going to deplete more the stockpile of the United States. You know, 39 days of war looking at Iran today and they're get they're back at they have the same number of missiles and drones by you know we had the reports even in New York Times talking about this. So this is the reality what he's in. And I don't know what is the offramp, a good offramp, a safe a face saving off ramp for Donald Trump to help him. And I don't see that coming from Iran. I don't see that coming from Israel because Benjamin Net doesn't want to help him. It's impossible to get it from Benjamin Net. He would do everything that I think one of the reason that he had that phone call, you know, because of the case of Lebanon.
 
 There was a phone call that Axis reported that Donald Trump was talking badly with Benjamin Net. Then he today in in a new interview, he confirmed that he did that. Benjamin Net was asked if that happened. He somehow said that that happened. So this is the desperate situation that Donald Trump created. But he he's not there. He's not he doesn't want to put the blame on Benjamin Net. I don't know why is that and he he can do something about it about Israel. You're the big guy in the Middle East. Go and fight it by yourself. Why? You know, this is the problem. How do you see that? How do you see the way that Donald Trump could redefine or reassess his sort of position in getting out of the war but making it as you know less consequential as possible?
 

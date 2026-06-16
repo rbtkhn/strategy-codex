@@ -1,16 +1,20 @@
 ---
 ingest_date: 2026-06-02
 pub_date: 2026-06-01
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 thread: ritter
 source_url: "https://scottritter.substack.com/p/the-revenge-tour-2026"
-kind: operator-transcript
+kind: cleaned-transcript
 source_form: newsletter
 host_people: []
 guest_people: []
 series: "The Revenge Tour, 2026 (Substack)"
 speaker: Scott Ritter
-source_note: "Operator-pasted full post body from Scott Ritter Substack; on-page publication date shown as Jun 01, 2026."
+source_note: "Operator-pasted full post body from Scott Ritter Substack; on-page publication date shown as Jun 01, 2026. · ASR pass 2026-06-15."
 title_slug: substack-ritter-the-revenge-tour-2026-2026-06-01
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # The Revenge Tour, 2026 (operator capture)
 
@@ -20,6 +24,8 @@ title_slug: substack-ritter-the-revenge-tour-2026-2026-06-01
 
 ---
 
+
+## Transcript
 
 The Saint Petersburg International Economic Forum
 Revenge, they say, is a dish best served cold.
