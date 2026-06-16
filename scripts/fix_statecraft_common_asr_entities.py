@@ -384,33 +384,57 @@ def select_specs(only_labels: set[str] | None) -> tuple[ReplacementSpec, ...]:
 
 
 URL_SEGMENT_RE = re.compile(r"https?://[^\s)>\]\"']+", re.IGNORECASE)
-SPELLING_LABEL_PREFIXES = ("kiev_", "kharkov_")
+MARKDOWN_LINK_RE = re.compile(r"\[[^\]\n]*\]\([^)\n]+\)")
 
 
-def _subn_outside_urls(text: str, spec: ReplacementSpec) -> tuple[str, int]:
-    if not spec.label.startswith(SPELLING_LABEL_PREFIXES):
+def _merged_protected_spans(text: str) -> list[tuple[int, int]]:
+    spans: list[tuple[int, int]] = []
+    for pattern in (URL_SEGMENT_RE, MARKDOWN_LINK_RE):
+        for match in pattern.finditer(text):
+            spans.append((match.start(), match.end()))
+    if not spans:
+        return []
+    spans.sort(key=lambda item: item[0])
+    merged: list[tuple[int, int]] = [spans[0]]
+    for start, end in spans[1:]:
+        prev_start, prev_end = merged[-1]
+        if start <= prev_end:
+            merged[-1] = (prev_start, max(prev_end, end))
+        else:
+            merged.append((start, end))
+    return merged
+
+
+def _subn_outside_protected(text: str, spec: ReplacementSpec) -> tuple[str, int]:
+    spans = _merged_protected_spans(text)
+    if not spans:
         return spec.pattern.subn(spec.replacement, text)
     parts: list[str] = []
     total = 0
-    last = 0
-    for match in URL_SEGMENT_RE.finditer(text):
-        chunk = text[last : match.start()]
+    cursor = 0
+    for start, end in spans:
+        chunk = text[cursor:start]
         chunk, n = spec.pattern.subn(spec.replacement, chunk)
         total += n
         parts.append(chunk)
-        parts.append(match.group(0))
-        last = match.end()
-    tail = text[last:]
+        parts.append(text[start:end])
+        cursor = end
+    tail = text[cursor:]
     tail, n = spec.pattern.subn(spec.replacement, tail)
     total += n
     parts.append(tail)
     return "".join(parts), total
 
 
-def apply_replacements(text: str, specs: tuple[ReplacementSpec, ...]) -> tuple[str, Counter[str]]:
+def apply_replacements(
+    text: str,
+    specs: tuple[ReplacementSpec, ...] | None = None,
+) -> tuple[str, Counter[str]]:
+    if specs is None:
+        specs = REPLACEMENT_SPECS
     counts: Counter[str] = Counter()
     for spec in specs:
-        text, n = _subn_outside_urls(text, spec)
+        text, n = _subn_outside_protected(text, spec)
         if n:
             counts[spec.label] += n
     return text, counts

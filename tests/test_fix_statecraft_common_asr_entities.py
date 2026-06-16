@@ -121,6 +121,24 @@ def test_apply_replacements_fixes_residual_hegseth_context_variants() -> None:
     assert counts["hegseth_tail_token"] == 9
 
 
+def test_apply_replacements_skips_markdown_link_paths_and_urls() -> None:
+    line = (
+        "- [source-mercouris-oil-crisis-aragchi-russia-2026-03-06.md]"
+        "(2026-03-06/source-mercouris-oil-crisis-aragchi-russia-2026-03-06.md) "
+        "— Aragchi met Xiinping; see https://example.com/path/kyiv-story"
+    )
+
+    updated, counts = fix.apply_replacements(line)
+
+    assert "aragchi" in updated
+    assert "Araghchi" in updated
+    assert "Xi Jinping" in updated
+    assert "https://example.com/path/kyiv-story" in updated
+    assert counts["araghchi_name"] == 1
+    assert counts["xi_jinping"] == 1
+    assert counts.get("kiev_kyiv_canonical", 0) == 0
+
+
 def test_fix_root_only_touches_transcript_like_files(tmp_path: Path) -> None:
     transcript = tmp_path / "source-archive" / "statecraft" / "2026-05-31" / "transcript-example.md"
     transcript.parent.mkdir(parents=True)
