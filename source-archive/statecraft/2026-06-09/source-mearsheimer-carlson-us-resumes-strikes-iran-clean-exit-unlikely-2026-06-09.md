@@ -293,7 +293,7 @@ If you go back, let's say, to December 27, 2021, December 2021, and ramp forward
 It's really quite remarkable.
 
 
-**John Mearsheimer:** Well, and not just that provokes Russia by sending Kla Harris to the Munich Security Conference and saying in public to Zilinski, we want you to join NATO on camera.
+**John Mearsheimer:** Well, and not just that provokes Russia by sending Kla Harris to the Munich Security Conference and saying in public to Zelensky, we want you to join NATO on camera.
 
 
 **John Mearsheimer:** Absolutely. This is right before Yes.
