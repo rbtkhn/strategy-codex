@@ -2,7 +2,7 @@
 """Normalize Judging Freedom / Napolitano archive scaffold in place.
 
 Spec (conservative trim lanes):
-  1. cold_open — ideological boilerplate before the host intro anchor
+  1. cold_open — ideological boilerplate before the host intro anchor (always strip when detected)
   2. sponsor — separable canned reads after "But first, this" (or equivalent)
   3. close_promo — routine lineup / schedule tails at episode close
 
@@ -27,7 +27,7 @@ TRANSCRIPT_SECTION_RE = re.compile(r"(^## Transcript\s*\n)(.*)$", re.DOTALL | re
 
 HOST_INTRO_RE = re.compile(
     r"(?:\[Music\]\s*)*(?:Heat\.\s*Heat\.\s*)?"
-    r"Hi everyone,?\s+Judge Andrew Napolitano here for (?:a\s+)?[Jj]udging\s+[Ff]reedom",
+    r"Hi everyone,?\s+Judge Andrew N(?:ap(?:olitano|alitaniano)|palitaniano) here for (?:a\s+)?[Jj]udging\s+[Ff]reedom",
     re.IGNORECASE,
 )
 COLD_OPEN_SIGNAL_RE = re.compile(
@@ -51,13 +51,19 @@ GUEST_ENTRY_RE = re.compile(
     re.IGNORECASE,
 )
 CLOSE_PROMO_START_RE = re.compile(
-    r"(?:\s+And\s+)?(?:Coming up (?:later today|tomorrow)|"
-    r"Tomorrow,?\s+(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)|"
+    r"(?:\s+And\s+)?(?:"
+    r"Coming up(?:,?\s+)(?:if you.re watching|on all of this|later today|tomorrow)|"
+    r"coming up on all of this|"
+    r"on Monday we will have(?: our usual lineup)?|"
+    r"And of course on Monday|"
     r"All the best\.\s+Coming up|"
     r"Well, thank you for watching everybody\.)",
     re.IGNORECASE,
 )
-CLOSE_SIGNOFF_RE = re.compile(r"Judge Napolitano for Judging Freedom", re.IGNORECASE)
+CLOSE_SIGNOFF_RE = re.compile(
+    r"(?:Judge|judge)\s+Nap(?:olitano|alitaniano|palitaniano)\s+for\s+[Jj]udging\s+[Ff]reedom",
+    re.IGNORECASE,
+)
 MUSIC_NOISE_RE = re.compile(r"(?:\[Music\]\s*|Heat\.\s*Heat\.\s*)+", re.IGNORECASE)
 
 EDITORIAL_COLD_OPEN_NOTE = (
@@ -70,7 +76,18 @@ EDITORIAL_CLOSE_NOTE = (
     "Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
 )
 
-GUEST_TITLE_PREFIXES = ("amb.", "ambassador", "colonel", "col.", "professor", "prof.", "judge", "dr.", "dr", "lt.")
+VALID_TRIM_LANES = frozenset({"cold_open", "sponsor", "close_promo", "noise"})
+DEFAULT_TRIM_LANES = VALID_TRIM_LANES
+
+
+def parse_lanes(raw: str | None) -> frozenset[str]:
+    if not raw:
+        return DEFAULT_TRIM_LANES
+    lanes = {part.strip() for part in raw.split(",") if part.strip()}
+    unknown = lanes - VALID_TRIM_LANES
+    if unknown:
+        raise SystemExit(f"Unknown --lanes value(s): {', '.join(sorted(unknown))}")
+    return frozenset(lanes)
 
 
 @dataclass(frozen=True)
@@ -270,25 +287,30 @@ def trim_sponsor_block(paragraphs: list[str], guest: str) -> tuple[list[str], bo
 
 
 def trim_close_promo_block(paragraphs: list[str]) -> tuple[list[str], bool]:
-    if len(paragraphs) < 2:
+    if not paragraphs:
         return paragraphs, False
-    tail = "\n\n".join(paragraphs[-4:])
-    promo = CLOSE_PROMO_START_RE.search(tail)
+    full_text = "\n\n".join(paragraphs)
+    search_window = full_text[-8000:] if len(full_text) > 8000 else full_text
+    window_offset = len(full_text) - len(search_window)
+    promo = CLOSE_PROMO_START_RE.search(search_window)
     if not promo:
-        if CLOSE_SIGNOFF_RE.search(tail) and re.search(
+        if CLOSE_SIGNOFF_RE.search(search_window) and re.search(
             r"\b(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\b.*?"
             r"(?:morning|afternoon|evening)",
-            tail,
+            search_window,
             re.I | re.DOTALL,
         ):
-            promo = CLOSE_SIGNOFF_RE.search(tail)
+            promo = CLOSE_SIGNOFF_RE.search(search_window)
         else:
             return paragraphs, False
-    cut_at = len("\n\n".join(paragraphs[:-4])) + (2 if len(paragraphs) > 4 else 0) + promo.start()
-    full_text = "\n\n".join(paragraphs)
+    cut_at = window_offset + promo.start()
     trimmed = full_text[:cut_at].rstrip()
+    if not trimmed or trimmed == full_text:
+        return paragraphs, False
     new_paragraphs = split_paragraphs(trimmed)
-    if not new_paragraphs or new_paragraphs == paragraphs:
+    if not new_paragraphs:
+        return [trimmed], True
+    if new_paragraphs == paragraphs:
         return paragraphs, False
     return new_paragraphs, True
 
@@ -445,6 +467,7 @@ def normalize_text(
     text: str,
     *,
     tag_only: bool = False,
+    lanes: frozenset[str] = DEFAULT_TRIM_LANES,
 ) -> tuple[bool, str, FileChange | None]:
     meta, body = split_frontmatter(text)
     if not is_napolitano_capture(meta, path):
@@ -461,6 +484,11 @@ def normalize_text(
     close_done = bool(meta.get("napolitano_close_promo_trim_applied"))
     noise_done = bool(meta.get("napolitano_leading_noise_trim_applied"))
 
+    allow_cold_open = "cold_open" in lanes and not cold_done
+    allow_sponsor = "sponsor" in lanes and not sponsor_done
+    allow_close = "close_promo" in lanes and not close_done
+    allow_noise = "noise" in lanes and not noise_done
+
     if tag_only:
         tier = classify_opening_tier(
             original_paragraphs,
@@ -472,17 +500,23 @@ def normalize_text(
             return True, dump_frontmatter(meta) + body, FileChange(path, tier)
         return False, text, None
 
-    if cold_done and sponsor_done and close_done and noise_done:
+    lane_done = {
+        "cold_open": cold_done,
+        "sponsor": sponsor_done,
+        "close_promo": close_done,
+        "noise": noise_done,
+    }
+    if all(lane_done[lane] for lane in lanes):
         tier = str(meta.get("opening_tier") or "host-tease")
         return False, text, FileChange(path, tier)
 
     new_body, changed, change = trim_transcript_body(
         transcript_body,
         guest,
-        allow_cold_open=not cold_done,
-        allow_sponsor=not sponsor_done,
-        allow_close=not close_done,
-        allow_noise=not noise_done,
+        allow_cold_open=allow_cold_open,
+        allow_sponsor=allow_sponsor,
+        allow_close=allow_close,
+        allow_noise=allow_noise,
     )
     if not changed:
         if meta.get("opening_tier"):
@@ -557,7 +591,13 @@ def main() -> int:
     parser.add_argument("--path", type=Path, action="append", default=[], help="Explicit archive file(s).")
     parser.add_argument("--apply", action="store_true", help="Write changes in place.")
     parser.add_argument("--tag-only", action="store_true", help="Only set opening_tier metadata.")
+    parser.add_argument(
+        "--lanes",
+        default="cold_open,sponsor,close_promo,noise",
+        help="Comma-separated trim lanes (default: all).",
+    )
     args = parser.parse_args()
+    lanes = parse_lanes(args.lanes)
 
     explicit = [REPO_ROOT / p if not p.is_absolute() else p for p in args.path] if args.path else None
     paths = candidate_paths(args.root, explicit)
@@ -566,7 +606,9 @@ def main() -> int:
 
     for path in paths:
         text = path.read_text(encoding="utf-8")
-        changed, new_text, file_change = normalize_text(path, text, tag_only=args.tag_only)
+        changed, new_text, file_change = normalize_text(
+            path, text, tag_only=args.tag_only, lanes=lanes
+        )
         if file_change is None:
             skipped += 1
             continue

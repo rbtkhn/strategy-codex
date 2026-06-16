@@ -19,21 +19,23 @@ source_type: youtube_transcript_operator_paste
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: "Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance. · ASR pass 2026-06-15."
+source_note: Materialized from operator-pasted YouTube transcript for the June 2, 2026 Judging Freedom appearance. · ASR pass 2026-06-15.
 normalization_note: Kept operator-pasted source language and residual ASR noise as provided.
 napolitano_sponsor_trim_applied: true
 napolitano_close_promo_trim_applied: true
-opening_tier: clean
+opening_tier: full-scaffold
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 68 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 68 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Canned sponsor read trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved. Ideological cold open trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+napolitano_cold_open_trim_applied: true
+napolitano_leading_noise_trim_applied: true
 ---
+
 # Prof. John Mearsheimer : Will Israel Veto an American Peace?
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
  Today is Tuesday, June 2nd, 2026. Professor John Mirshimer will be with us in just a moment. Can Donald Trump's anger restrain Prime Minister Netanyahu. Will Israel veto an American peace?
 
 Professor Mir Shamber, welcome here uh my dear friend. I'd like to start with the breaking news uh this morning. Although this first item is about 48 hours old, Iran has withdrawn from negotiations. Israel is continuing to invade Lebanon. President Trump has cursed and revealed the curse or leaked it out.

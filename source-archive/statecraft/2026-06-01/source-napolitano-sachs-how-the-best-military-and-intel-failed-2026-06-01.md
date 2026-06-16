@@ -13,23 +13,26 @@ title: "Prof. Jeffrey Sachs : How the Best Military and Intel Failed"
 source_url: "https://www.youtube.com/watch?v=xciEC59zChI"
 youtube_id: xciEC59zChI
 channel_slug: judging-freedom
-source_note: "Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode. · ASR pass 2026-06-15."
+source_note: Transcript pasted manually by operator for the June 1, 2026 Judging Freedom episode. · ASR pass 2026-06-15.
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Jeffrey Sachs
 thread: sachs
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
-opening_tier: clean
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+opening_tier: host-tease
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. Ideological cold open trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+napolitano_cold_open_trim_applied: true
+napolitano_leading_noise_trim_applied: true
+napolitano_close_promo_trim_applied: true
 ---
+
 # Prof. Jeffrey Sachs : How the Best Military and Intel Failed
 
 ## Transcript
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
  Today is Monday, June 1st, 2026. Professor Jeffrey Saxs joins us now. Professor Saxs, thank you as always for accommodating my schedule. About 3 hours ago, uh, credible news, uh, reports surfaced indicating that Iran has withdrawn from negotiations with the United States. Is this any surprise to you, given that the US has attacked Iran during a so-called ceasefire and Israel is continuing to slaughter innocents in Lebanon? Well, I've been saying for weeks that I think the fighting can end without uh any kind of formal agreement. The United
 States made a a bad mistake to launch a war against Iran. It was predicated on a totally delusional idea that the war would last one day, that the US would take out the leadership of Iran and put in the leadership that it wanted. uh something like uh what the US did in Venezuela, but Iran is not Venezuela uh and Iran is not the US neighborhood.
  And the whole idea was a complete botchup. So the US made a terrible mistake. Uh since then, Trump has been making one demand after another that the Iranians just say no to because the United States can't compel Iran to any of these US demands. The US could not accomplish what Trump said it would accomplish. Given that um we've been in the same situation now for three months basically which is that the US can escalate in which case a lot of the Middle East is likely to get blown up uh with a profound consequence for the whole
@@ -84,5 +87,4 @@ uh and uh their defense commissioner uh is uh also from the Baltic states. Uh Li
 Cheated. Germany cheated on the Minsk agreement that could have ended this conflict back in 2015. You have a responsibility to stop this slide into a European war. So what I want to say is not about uh who's got rights and not rights. What I want to say is that Europe is on the verge of a complete disaster and uh the European Commission is beerefted of any uh any capacity internally to stop it because they're filled with wararm mongers.
  And unfortunately the German chancellor has done no better. But he individually by dent of being the leader of the most powerful country of Europe and the one that has the most direct responsibility towards Russia for having gotten us all into this terrible mess has a responsibility to at least pick up the phone and speak to his counterpart before all hell breaks loose.
  This is the point of my open letter to him. Before you have war, you better make at least a phone call to start talking to the other side. >> Professor Saxs, thank you very much. Thanks for letting me go all across the globe, almost literally on all of these topics. Deeply appreciated. Have a great week. >> Maybe we'll do another segment on Friday morning.
->> Okay, great. >> You've been so wellreceived and look forward to seeing you again soon. Thank you. >> Thanks. Thanks a lot. >> Sure. All the best. Coming up tomorrow, Tuesday, at 8 in the morning, Ambassador Chaz Freeman. At 9 in the morning, Professor John Mirshimer. At 10 in the morning, Colonel Bill Atory.
- At 2 in the afternoon, Matt Hoe. At 3 in the afternoon, Colonel Karen Quowski, Chapal Tunnel for Judging Freedom.
+>> Okay, great. >> You've been so wellreceived and look forward to seeing you again soon. Thank you. >> Thanks. Thanks a lot. >> Sure.

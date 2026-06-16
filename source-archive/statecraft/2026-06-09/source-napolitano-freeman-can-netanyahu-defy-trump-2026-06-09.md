@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Judge Andrew Napolitano
-guest_people:
-  - Chas Freeman
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 thread: freeman
-threads:
-  - freeman
-  - napolitano
+threads: ""
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Chas Freeman
@@ -24,14 +20,16 @@ source_url: "https://www.youtube.com/watch?v=KSbb4c2JxRE"
 youtube_id: KSbb4c2JxRE
 source_note: "Operator-pasted transcript; host self-dates Tuesday 9 June 2026. verify:wire-supported Axios/ABC Trump-Netanyahu profanity call 1 Jun; Pakistan Naqvi mediation stall 7 Jun (Al Jazeera/Anadolu); IAF Iran reach via US tankers war-wide (Times of Israel); Iran disproportionate-reprisal after Beirut red line (AJ); Iran–Israel bilateral pause Lebanon continues (BBC/AJ); Hormuz blockade/contested strait (IEA/war reporting); verify:wire-partial 8 Jun strike required US refuel for reach — tanker-enabled campaign supported single-strike refuel proof unclear; Trump two-weeks Hezbollah contact — in-voice not matched; verify:wire-out-of-scope leak-as-charade Freeman thesis Epstein-file pressure USS Liberty Massie segment. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 napolitano_cold_open_trim_applied: true
 napolitano_leading_noise_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 22 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 22 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+napolitano_close_promo_trim_applied: true
 ---
+
 # AMB. Chas Freeman: Can Netanyahu Defy Trump?
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  
@@ -85,5 +83,4 @@ Uh his courage in bringing it to everyone's attention so effectively. >> Let me 
  You know, he's under pressure um trying to keep uh whatever those files contained contain uh under wraps. Um the Israelis obviously have all of the information in them from Epstein, who was uh a Mossad agent um among other distinctions. Uh he's also under pressure from his Zionist donors, one of whom gave him $250 million, not peanuts.
 Uh and uh uh on the other hand, of course, [clears throat] he's under pressure from that wing of the MAGA movement that um has peeled off to a great extent, exemplified by Tucker Carlson now. Uh uh, and perhaps J.D. Vance, um, that he's under pressure uh, to respect American nationalism and act accordingly. So, he's in a very, very bad political position.
 And the real question is not, uh, you know, does he have the courage to defend Netanyahu? Clearly, all things being equal, he does. The question is, given the real, his political realities and the pressure he's under from so many, uh, to whom he's beholden, uh, or of whom he fears, uh, does he have the courage to act? So far, there's no evidence he does.
->> Ambassador, thank you very much. A great conversation, as always, notwithstanding the gloom and doom involved, but, uh, your your analysis is so eloquent and profound. Deeply appreciated. Thank you, my dear friend. >> Thank you. >> Sure. And, uh, coming up on all of this, that we're also going to talk to him, uh, about Ukraine at 9:00, Professor John Mearsheimer, at 2:00 this afternoon, Matt Hoh, at 3:00 this afternoon, on all of this, Colonel Karen Kwiatkowski.
- Just in time to tune in for Judging Freedom. >>
+>> Ambassador, thank you very much. A great conversation, as always, notwithstanding the gloom and doom involved, but, uh, your your analysis is so eloquent and profound. Deeply appreciated. Thank you, my dear friend. >> Thank you. >> Sure. And, uh,

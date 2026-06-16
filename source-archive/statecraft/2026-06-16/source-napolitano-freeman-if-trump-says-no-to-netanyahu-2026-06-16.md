@@ -5,16 +5,12 @@ kind: transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_youtube_transcript
-host_people:
-  - Judge Andrew Napolitano
-guest_people:
-  - Chas Freeman
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 thread: freeman
-threads:
-  - freeman
-  - napolitano
+threads: ""
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Chas Freeman
@@ -24,14 +20,15 @@ source_url: "https://www.youtube.com/watch?v=ki_x_N3lsAY"
 youtube_id: ki_x_N3lsAY
 source_note: "Operator-pasted transcript; host self-dates Tuesday 16 June 2026. Trump accepted April-like Iran terms — Freeman: US oil storage exhaustion + Hormuz shipping delay → pump-price politics; Iran adopted Israeli-standard disproportionate reprisal (5–10×) on US bases; not ceasefire but agreed de-escalation + unpromising negotiation; Trump making up other-side commitments; Israel saboteur not ally — wants war until Iran destroyed; Netanyahu/cabinet reject Lebanon withdrawal + reserve unilateral Iran strikes; WaPo Israelis denounce Trump Iran deal catastrophe. JD Vance clip — frozen assets are Iran's own money under illegal unilateral sanctions. G7 Avon: Europeans push Zelensky win fiction + reimpose Israeli agenda (strip missiles/resistance ties). Unpublished MOU held to spin greatest US defeat since Vietnam; CENTCOM exodus claim vs Iran toll/fees on Hormuz transit (Freeman). 100-day war ledger: inflation, lost Hormuz Anglo-American rules, failed regime change (anti-nuke echelon replaced by pro-nuke), Israel not saved, stockpile/interceptor depletion (Taiwan/Ukraine contingency), credibility destroyed, ~$1T borrowed cost. Warner clip concurrence; McGregor worst modern FP decision frame. Hegseth stockpile denial — battlefield transparency → information-sphere deception norm. Netanyahu domestic vice: Oct 7 blame + US betrayal on instigated war; equation changed — neighbors now fire back, Iran will retaliate disproportionately to Israeli misbehavior; security-zone speech clip. Same-object MOU cross-ref source-alex-mercouris-us-iran-agree-mou-sea-blockade-neocons-israel-furious-putin-trump-ignore-uk-eu-2026-06-16.md (Freeman audit spine; Mercouris architecture spine). · Wire-verify 2026-06-16: verify:wire-supported J16-1 WaPo catastrophe headline (DNYUZ/WaPo syndication); verify:wire-supported J16-2 Vance Fox Hannity single-dime quote; verify:wire-supported J16-3 Warner FTN 14 Jun gas $2.80→$4.20; verify:wire-supported J16-4 Hegseth FTN manufactured-story quote (stockpile factual row verify:wire-contested vs prior testimony/CSIS); verify:wire-contested J16-5 $24B frozen assets verify:dual-lane-contested (Vance/CBS vs Mehr/Al Jazeera draft); verify:wire-contested J16-6 Hormuz toll-free US 60d vs Freeman/Iran fees-management; verify:wire-partial J16-7 MOU unpublished pre-19 Jun Geneva signing; verify:america-lane · verify:persia-lane · verify:prc-lane · verify:russia-lane · verify:rome-lane (5/5 sweep)."
 evidence_grade: transcript-bearing
-opening_tier: host-tease
+opening_tier: full-scaffold
 transcript_wrapper_tier: paste-prefix
 normalization_state: raw_operator_paste
-editorial_note: "Operator-pasted transcript body; ideological cold open retained (host date/topic tease load-bearing). Canned sponsor read + closing lineup promo trimmed in place. ASR artifacts retained (Npalitaniano, Silinski, Harm/Hormuz, Hegsth, Sullinsky, etc.). Not human-verified verbatim."
-quality_note: "Fresh intake 2026-06-16; sponsor/close trim applied; wire-verify receipts 2026-06-16."
+editorial_note: Operator-pasted transcript body; ideological cold open, canned sponsor read, and closing lineup promo trimmed in place. ASR artifacts retained (Npalitaniano, Silinski, Harm/Hormuz, Hegsth, Sullinsky, etc.). Not human-verified verbatim.
+quality_note: Fresh intake 2026-06-16; sponsor/close trim applied; wire-verify receipts 2026-06-16.
 napolitano_sponsor_trim_applied: true
 napolitano_close_promo_trim_applied: true
 napolitano_leading_noise_trim_applied: true
+napolitano_cold_open_trim_applied: true
 ---
 
 # AMB. Chas Freeman: If Trump Says No to Netanyahu
@@ -44,7 +41,7 @@ napolitano_leading_noise_trim_applied: true
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected. What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Tuesday, June 16th, 2026. Ambassador Chaz Freeman will be with us in just a moment. What happens if President Trump says no to Prime Minister Benjamin Netanyahu?
+Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Tuesday, June 16th, 2026. Ambassador Chaz Freeman will be with us in just a moment. What happens if President Trump says no to Prime Minister Benjamin Netanyahu?
 
 Ambassador Freeman, welcome here, my dear friend. No matter what we discuss, it's always a pleasure to discuss it with you. Why do you think Donald Trump linked and accepted basically the same deal, as far as we can tell what it is, as the Iranians offered back in April?
 

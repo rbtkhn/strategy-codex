@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Judge Andrew Napolitano
-guest_people:
-  - Jeffrey Sachs
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 thread: sachs
-threads:
-  - sachs
-  - napolitano
+threads: ""
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Jeffrey Sachs
@@ -24,11 +20,15 @@ source_url: "https://www.youtube.com/watch?v=-vbRhB69TEY"
 youtube_id: -vbRhB69TEY
 source_note: "Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported DIA Israel spying critical threat Colby/Witkoff/DiMino (NYT/NBC/TOI 6 Jun); Pew 59% wrong-decision 61% disapprove Trump Iran handling Apr survey (Pew May short-read) — not 67%; Axios Trump-Netanyahu call lane (Axios/Hindu 8 Jun); Iran–Israel exchange Lebanon fuse (AJ/BBC); verify:wire-partial Netanyahu Knesset no — national address halt-for-now not literal no-vote speech (ynet/Fox 8 Jun); Shin Bet political-violence warnings directional; Meet the Press Welker clip not re-pulled; verify:wire-out-of-scope Sachs Trump losing-it thesis. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 opening_tier: host-tease
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 22 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 22 substitutions; not human-verified verbatim; verify before quotation. Ideological cold open trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+napolitano_cold_open_trim_applied: true
+napolitano_leading_noise_trim_applied: true
+napolitano_close_promo_trim_applied: true
 ---
+
 # Prof. Jeffrey Sachs: Is Trump Losing It?
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  
@@ -38,8 +38,7 @@ editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft enti
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force [music] must be understood and rejected.
->> What if sometimes to love your country, you had to alter or abolish [music] the government? What if Jefferson was right? What if that government is best which governs [music] least? What if it is dangerous to be right when the government is wrong? What if it is better to perish [music] fighting for freedom than to live as a slave? What if freedom's [music] greatest hour of danger is now? >> [music] >> Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
  Today is Monday, June 8, 2026. Professor Jeffrey Sachs joins us now. Professor Sachs, always a pleasure, no matter what we're uh talking about. Before we um address the decision-making of Donald Trump and its outward appearances, why do you think Iran is willing to risk another phase of all-out war with the US and Israel rather than comply with Trump's more outlandish demands? >> I think uh Iran does not find uh Trump's demands credible.
  Uh the reason being that Iran has retaliatory capacity. If the United States and Israel escalate, Iran also will escalate and cause grave damage in Israel and in the Gulf. I I think this has been the conclusion basically now for 3 months that there is no real credible path of escalation and therefore Trump's threats and bluster don't carry weight.
 This has been my view also all along. I think it's confirmed in the last 48 hours with the renewed exchange of fire which quickly was brought back under control by the United States which does not want escalation. Neither side wants escalation actually since there is unlikely to be a formal agreement, my view has been all along and I continue to hold it that just informally the United States should go home and the Gulf and the Straits should be opened for uh international shipping of hydrocarbons and as best as possible we get back to
@@ -89,5 +88,4 @@ You play right into their hands with this crap. You know that these elections ar
 We've got a a lot of things that um 340 million people here seriously need for their health care and their jobs and the schools for their children and safety. And um we just saw, of course, uh we're not in uh in good hands. So, I thank you for making sure that we stay with reality. We're We're We're in a kind of unreality on all sides right now.
 I think the world's never been more dangerous in in the sense of uh this astounding craziness. But, there's one piece of good news, by the way. Every time I look, if you look at where the majority of the American people stand on issues, pretty sensible. If you look at that around the world, pretty sensible. If you look at what politics delivers, very very sad.
 But, if we could somehow get the will of uh the American people actually translated into what we do, the wars would stop. Uh and um we may be able to address some of the problems in our society. >> Thank you, Professor Sachs. Eloquent as always, my dear friend. So, how about that view? >> Wow, what a thing to watch.
->> Yeah, we'll probably hook up at the end of the week on Friday make it again, depending upon where on the planet you are. Thank you, Jeffrey. >> Very good. We'll see you then. >> All the best. Bye-bye. >> Bye-bye. >> Uh coming up tomorrow, Tuesday, a full day for you with a new guest at 8:00 in the morning, Ambassador Chas Freeman.
- At 9:00 in the morning, Professor John Mearsheimer. At 10:00 in the morning, Robert Barnes, the lawyer with the inside scoop on how Donald Trump makes his decisions in the Oval Office. At 2:00, Matt Hoh. At 3:00, Colonel Karen Kwiatkowski. Join me, Paul Toner, for Judging Freedom. >> [music] [music] [music] [music] [music]
+>> Yeah, we'll probably hook up at the end of the week on Friday make it again, depending upon where on the planet you are. Thank you, Jeffrey. >> Very good. We'll see you then. >> All the best. Bye-bye. >> Bye-bye. >> Uh

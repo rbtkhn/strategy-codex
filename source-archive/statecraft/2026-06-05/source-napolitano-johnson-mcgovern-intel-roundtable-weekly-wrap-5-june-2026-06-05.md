@@ -13,24 +13,26 @@ title: "INTEL Roundtable w/ Johnson & McGovern : Weekly Wrap 5-June"
 source_url: "https://www.youtube.com/watch?v=9mOCqLYJOaM"
 youtube_id: 9mOCqLYJOaM
 channel_slug: judging-freedom
-source_note: "Transcript pasted manually by operator on 2026-06-05. · ASR pass 2026-06-15."
+source_note: Transcript pasted manually by operator on 2026-06-05. · ASR pass 2026-06-15.
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Larry Johnson; Ray McGovern
 thread: johnson
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
-opening_tier: clean
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+opening_tier: full-scaffold
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 26 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 26 substitutions; not human-verified verbatim; verify before quotation. Ideological cold open trimmed in place; SSOT body otherwise preserved.
+napolitano_cold_open_trim_applied: true
+napolitano_leading_noise_trim_applied: true
 ---
+
 # INTEL Roundtable w/ Johnson & McGovern : Weekly Wrap 5-June
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom.
+Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom.
  Today is Friday, June 5th, 2026. It's the end of the day, the end of the week, our favorite time, our favorite airing of the intelligence community roundt with my two longtime friends and collaborators, Ray McGovern and Larry Johnson. Guys, welcome here and thank you for all the extra time this week. Uh, Larry, triple duty uh for you.
 Larry, let me start with you. Of course, I have to go to Iran and nukes. >> Yep. >> What new information do you have since we discussed this last two days ago? >> Well, yeah, the Pakistanis continue, and let me emphasize the information I put out was from a Pakistani source. So, I'm not saying that they're absolutely cor, but it it was a credible person.
  uh and but both Pepe and I were able to validate the the person's access but uh there's still you know the Pakistanis are optimistic but you're hearing different things um the Iranians have just said hey we're we're still waiting to hear from Trump what's Trump going to do and there are indications in Israel right now that they're gearing up for an attack.

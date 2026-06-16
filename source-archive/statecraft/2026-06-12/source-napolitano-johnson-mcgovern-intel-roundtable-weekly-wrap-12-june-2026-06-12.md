@@ -20,16 +20,19 @@ channel_url: "https://www.youtube.com/@judgingfreedom"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=ILZhqQQf-UY"
 youtube_id: ILZhqQQf-UY
-source_note: "Operator-pasted transcript; host self-dates Friday 12 June 2026 intel roundtable. Trump whiplash — Kharg occupy/bomb vs peace-deal 39th time; CNN montage; credibility collapse / boy-who-cried-wolf. McGovern — IC sidelined; Russia Day Darov constructive-US rhetoric; Putin smoothing for Iran backstop. Johnson SPR depletion — light vs heavy crude, diesel import gap, July 4th price shock; political SPR use. Joe Kent alignment inside NSC (investigation for truth-telling); Rubio funnel/sphincter; leak suppression. Hegseth bombs negotiation clip vs Trump strike reversal; ammo/tomahawk exhaustion. NYT Netanyahu White House/Mar-a-Lago spying (Pakistan track); Epstein blackmail frame; NDAA §224/§622 Cotton intel-sharing codification; Israel penetration CIA/DoD. Tucker Carlson limits-of-American-power clip — Hormuz control, vincibility thesis; Ukraine/Red Sea/Iran precedents. Russia-China-Iran triangle; Trump health/Walter Reed; UFC cage-match distraction. Parsi deportation attempt (Quincy); Chris Hedges no-fly; McGovern midterm-not-midterms warning. FISA §702 House non-renewal — Binney executive-order workaround. Cross-ref same-day Diesen×Johnson + Freeman + Aguilar Jun 12 batch. · ASR pass 2026-06-15."
+source_note: Operator-pasted transcript; host self-dates Friday 12 June 2026 intel roundtable. Trump whiplash — Kharg occupy/bomb vs peace-deal 39th time; CNN montage; credibility collapse / boy-who-cried-wolf. McGovern — IC sidelined; Russia Day Darov constructive-US rhetoric; Putin smoothing for Iran backstop. Johnson SPR depletion — light vs heavy crude, diesel import gap, July 4th price shock; political SPR use. Joe Kent alignment inside NSC (investigation for truth-telling); Rubio funnel/sphincter; leak suppression. Hegseth bombs negotiation clip vs Trump strike reversal; ammo/tomahawk exhaustion. NYT Netanyahu White House/Mar-a-Lago spying (Pakistan track); Epstein blackmail frame; NDAA §224/§622 Cotton intel-sharing codification; Israel penetration CIA/DoD. Tucker Carlson limits-of-American-power clip — Hormuz control, vincibility thesis; Ukraine/Red Sea/Iran precedents. Russia-China-Iran triangle; Trump health/Walter Reed; UFC cage-match distraction. Parsi deportation attempt (Quincy); Chris Hedges no-fly; McGovern midterm-not-midterms warning. FISA §702 House non-renewal — Binney executive-order workaround. Cross-ref same-day Diesen×Johnson + Freeman + Aguilar Jun 12 batch. · ASR pass 2026-06-15.
 evidence_grade: transcript-bearing
-opening_tier: full-scaffold
+opening_tier: host-tease
 transcript_wrapper_tier: paste-asr
 opening_trim_applied: false
 napolitano_leading_noise_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Napolitano, Hakesith/Hegseth, Carg/Kharg, hormones/Hormuz, Ta Psy/Parsi, etc.). Closing Monday lineup promo retained."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Napolitano, Hakesith/Hegseth, Carg/Kharg, hormones/Hormuz, Ta Psy/Parsi, etc.). Ideological cold open and closing Monday lineup promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+napolitano_cold_open_trim_applied: true
+napolitano_close_promo_trim_applied: true
 ---
+
 # INTEL Roundtable w/ Johnson & McGovern - Weekly Wrap 12-June
 
 **Channel:** Judging Freedom  
@@ -42,8 +45,7 @@ quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly free society, the issue of initiating force must be understood and rejected.
-What if sometimes to love your country you had to alter or abolish the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting for freedom than to live as a slave? What if freedom's greatest hour of danger is now? Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
+Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
  Today is Friday, June 12th, 2026. It's the end of the week, the end of the day. Our favorite gathering uh of guests, both of whom do double and sometimes triple duty. our wrap-up of the week's events, the intelligence community roundt becoming a very very popular uh program here. Thanks to all of you and thanks of course to my guests Larry Johnson and Ray McGovern.
  Larry, uh, to you first, uh, because of your great piece about the whiplash that Donald Trump has given you because he announced yesterday morning we were going to bomb heavily and occupy Carg Island by the end of the week and then yesterday afternoon he said, "Ah, the war is over. We have a deal." Who believes him, Larry? >> Uh, nobody.
  you know, trying to follow, you know, one minute you're looking to this side. It's like following a tennis match except this is on high speed and and he's going to uh as he said, uh bomb the poop out of him to be he was even crudder than that. Uh and uh then man, more war going to hit him harder harder and then within five hours he goes, "Oh, hey, we're signing a peace agreement this week or soon.
@@ -114,4 +116,4 @@ to investigate things and and he said we don't have to go out to break the law t
  My uh weekend show on the network that employs me uh which will be taping in a little while features our friend Bill Benny. >> Oh yeah. >> Who of course along with Snowden and the others broke the news that they don't follow the law at all. They spy on everybody they want and capture every keystroke. Ray, last word on this. >> I talked to Bill just yesterday and I said, "What about this?" He said, "Come on, Ray. Let's have lunch again.
 " His answer is, well, the the FBI and NSA have all the authorities they need by executive order. There's something called section 703. They're going to go ahead and do this anyway. And this whole charade, remember when Mueller and Comey showed up at the bedside of the attorney general and said, "We're not going to we're not going to let you sign this intrusive surveillance." Right.
 >> That was all a charade. Yes. >> Next day they gave a different name to it for God's sake. So yeah, we're all under surveillance. We have to cope with that and we have to not let ourselves be inhibited by it. >> Gentlemen, thank you very much. A great uh great conversation as it always is. Have a nice weekend.
- We'll look forward to seeing you both on Monday morning. >> Thanks, Judge. >> Thank you. And of course on Monday we will have our usual lineup for you of uh Alistister Crook at 8 and Larry at 9ine and Ray at 10 and Professor Saxs in the afternoon and Scott Ritter if we can find him. Thank you for watching. Judge Napolitano for Judging Freedom.
+ We'll look forward to seeing you both on Monday morning. >> Thanks, Judge. >> Thank you.

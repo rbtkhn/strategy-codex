@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
-version: 0.4.3
+version: 0.4.4
 tags:
   - operator
   - statecraft
@@ -406,21 +406,34 @@ Short rule:
 
 - Keep the substantive interview transcript.
 - Classify each landed capture with `opening_tier` in frontmatter:
-  - `full-scaffold` — ideological cold open and/or sponsor read still present before guest depth
+  - `full-scaffold` — ideological cold open and/or sponsor read still present before guest depth (pre-trim or entangled promo only; repair should drive toward `host-tease` or `clean`)
   - `host-tease` — short host date/topic tease before guest entry (default acceptable synthesis start)
   - `clean` — guest speaks within roughly one to two exchanges
-- Trim law (default = cold open + sponsor + close promo only):
-  - Strip unmistakable ideological cold opens before `Hi everyone, Judge Andrew Napolitano here for Judging Freedom`.
-  - Strip separable canned sponsor reads after `But first, this` (Lear Capital, Patriot Supply, `preparewiththeadjudge`, etc.) through the guest welcome line.
-  - Strip routine closing lineup promos (`Coming up later today/tomorrow`, schedule tails, `Judge Napolitano for Judging Freedom` sign-off blocks).
-  - Keep short host date + topic tease before guest entry unless the operator explicitly requests aggressive host-tease removal.
-  - If ad copy or show promo is entangled with noisy ASR or substantive exchange, leave it in place and flag it for later manual review.
+- Trim law (default lanes = cold open + sponsor + close promo; keep host-tease):
+  - **Cold open (always):** strip ideological boilerplate before the host intro anchor (`Undeclared wars…`, Jefferson litany, etc.) whenever detectable — including intel roundtables and single-paragraph transcripts. No “retain on policy” exceptions.
+  - **Host intro anchor:** `Hi everyone, Judge Andrew Napolitano here for Judging Freedom` — the normalizer tolerates common ASR host-name typos (`Npalitaniano`, `Napalitaniano`, …); manual body fix only when automation misses.
+  - **Sponsor:** strip separable canned reads after `But first, this` (Lear Capital, Patriot Supply, `preparewiththeadjudge`, etc.) through the guest welcome line when the boundary is clear.
+  - **Close promo:** strip routine lineup / schedule tails at episode close, including `Coming up later today/tomorrow`, `Coming up, if you're watching`, `All the best. Coming up`, `on Monday we will have our usual lineup`, `And of course on Monday`, and `Judge Napolitano for Judging Freedom` sign-off blocks after guest farewell.
+  - **Keep:** short host date + topic tease before guest entry unless the operator explicitly requests aggressive host-tease removal.
+  - **Entangled promo only:** if sponsor or close copy is woven into substantive exchange (not ideological cold-open boilerplate), leave the body intact and flag `opening_tier: full-scaffold` for manual review — do **not** use this escape hatch for separable cold opens.
+- **Body-shape edge cases** (SSOT = `scripts/normalize_napolitano_opening_scaffold.py`):
+  - Many captures are **one long paragraph** — close-promo trim searches the full body tail, not paragraph splits only.
+  - Transcript may live under `## Transcript` or `## Cleaned Transcript` (fallback path preserves title/metadata prefix blocks).
+  - Do **not** use legacy `normalize_napolitano_transcript_ads.py` for new work — post-land and batch repair use `normalize_napolitano_opening_scaffold.py`.
 - **Post-land hook (default on every Napolitano land):**
-  - `python scripts/post_land_napolitano_opening_normalize.py --path <landed-file>`
+  - `python scripts/post_land_napolitano_opening_normalize.py --path <landed-file>` (wraps scaffold normalizer; all default lanes)
   - Preview only: `python scripts/post_land_napolitano_opening_normalize.py --path <landed-file> --dry-run`
   - Non-Napolitano paths no-op with `skip … (not Judging Freedom / Napolitano)`; Napolitano no-change returns `no-op …`
-- **Batch backfill / repair** (not per-intake default): `python scripts/normalize_napolitano_opening_scaffold.py --apply`
-- Receipt fields when trim applies: `napolitano_cold_open_trim_applied`, `napolitano_sponsor_trim_applied`, `napolitano_close_promo_trim_applied`, optional `napolitano_leading_noise_trim_applied`, plus `editorial_note` lines stating scaffold was trimmed in place.
+- **Batch backfill / repair** (month sweep, ASR aftermath — not per-intake default):
+  - Full default lanes: `python scripts/normalize_napolitano_opening_scaffold.py --apply`
+  - Bounded lane: `python scripts/normalize_napolitano_opening_scaffold.py --apply --lanes cold_open` (or `sponsor`, `close_promo`, `noise`; comma-separated)
+  - Single file: add `--path <archive-file>` (repeatable)
+  - Tag refresh only: `--tag-only`
+- **Residual verify** (before commit on repair sweeps):
+  - Expect **0** transcript bodies with ideological cold-open text and **0** routine close-promo tails unless the operator explicitly retained a named file.
+  - Quick check: grep `source-archive/statecraft/**/source-napolitano-*.md` for `Undeclared wars are commonplace`, `on Monday we will have our usual lineup`, or `All the best. Coming up`; reconcile any hit against trim flags / editorial retain notes.
+  - One-line receipt: `<N> scanned · <clean> clean · <residuals> named or none`
+- Receipt fields when trim applies: `napolitano_cold_open_trim_applied`, `napolitano_sponsor_trim_applied`, `napolitano_close_promo_trim_applied`, optional `napolitano_leading_noise_trim_applied`, plus concise `editorial_note` lines (no contradictory “retained” + “trimmed” wording).
 
 ### Mario Nawfal / International Affairs
 
