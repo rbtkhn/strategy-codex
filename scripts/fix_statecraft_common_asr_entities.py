@@ -245,6 +245,43 @@ REPLACEMENT_SPECS: tuple[ReplacementSpec, ...] = (
     ),
     ReplacementSpec(re.compile(r"\bFormoose\b", re.IGNORECASE), "Hormuz", "formoose_word"),
     ReplacementSpec(re.compile(r"\bBabel\s+Mandab\b", re.IGNORECASE), "Bab el-Mandeb", "bab_el_mandeb"),
+    ReplacementSpec(re.compile(r"\bAmmanis\b", re.IGNORECASE), "Omanis", "omanis_ammanis"),
+    ReplacementSpec(re.compile(r"\bArmanis\b", re.IGNORECASE), "Omanis", "omanis_armanis"),
+    ReplacementSpec(re.compile(r"\bRick states\b", re.IGNORECASE), "BRICS states", "brics_rick_states"),
+    ReplacementSpec(
+        re.compile(r"\bdestabilization of the bricks payment\b", re.IGNORECASE),
+        "destabilization of the BRICS payment",
+        "brics_bricks_payment_destabilization",
+    ),
+    ReplacementSpec(re.compile(r"\bbricks payment\b", re.IGNORECASE), "BRICS payment", "brics_bricks_payment"),
+    ReplacementSpec(re.compile(r"\bcrisis in the bricks\b", re.IGNORECASE), "crisis in BRICS", "brics_bricks_crisis"),
+    ReplacementSpec(
+        re.compile(r"\bin the bricks or in the BRICS payment\b", re.IGNORECASE),
+        "in BRICS or in the BRICS payment",
+        "brics_bricks_or_payment",
+    ),
+    ReplacementSpec(re.compile(r"\bConstantinfka\b", re.IGNORECASE), "Konstantinovka", "konstantinovka_constantinfka"),
+    ReplacementSpec(re.compile(r"\bConstantinovka\b", re.IGNORECASE), "Konstantinovka", "konstantinovka_typo"),
+    ReplacementSpec(
+        re.compile(r"\bConstantin Donets(?:'s|'s)?\s+people's republic\b", re.IGNORECASE),
+        "Konstantinovka, Donetsk People's Republic",
+        "konstantinovka_constantin_donets",
+    ),
+    ReplacementSpec(re.compile(r"\bPakarovsk\b", re.IGNORECASE), "Pokrovsk", "pokrovsk_pakarovsk"),
+    ReplacementSpec(re.compile(r"\bPakovsk\b", re.IGNORECASE), "Pokrovsk", "pokrovsk_pakovsk"),
+    ReplacementSpec(re.compile(r"\bPacross\b", re.IGNORECASE), "Pokrovsk", "pokrovsk_pacross"),
+    ReplacementSpec(re.compile(r"\bBakarovsk\b", re.IGNORECASE), "Pokrovsk", "pokrovsk_bakarovsk"),
+    ReplacementSpec(
+        re.compile(r"\bProsk and Mirnoglad\b", re.IGNORECASE),
+        "Pokrovsk and Myrnohrad",
+        "pokrovsk_prosk_mirnoglad",
+    ),
+    ReplacementSpec(re.compile(r"\bMirnoglad\b", re.IGNORECASE), "Myrnohrad", "myrnohrad_mirnoglad"),
+    ReplacementSpec(re.compile(r"\bMirinoglad\b", re.IGNORECASE), "Myrnohrad", "myrnohrad_mirinoglad"),
+    ReplacementSpec(re.compile(r"\bMir noad\b", re.IGNORECASE), "Myrnohrad", "myrnohrad_mir_noad"),
+    ReplacementSpec(re.compile(r"\bMin Lugrad\b", re.IGNORECASE), "Myrnohrad", "myrnohrad_min_lugrad"),
+    ReplacementSpec(re.compile(r"\bChasfya\b", re.IGNORECASE), "Chasiv Yar", "chasiv_yar_chasfya"),
+    ReplacementSpec(re.compile(r"\bYujaya\b", re.IGNORECASE), "Yuzhnaya", "yuzhnaya_yujaya"),
 )
 
 
