@@ -152,6 +152,24 @@ When the operator names one recent event and wants statecraft judgment, do not o
 
 When statecraft drafting is blocked by missing intent, ask one bounded clarifier about the instrument: treaty, policy paper, negotiation brief, or stress test. Do not ask Record/self-knowledge elicitation questions from the coffee hub itself.
 
+<a id="statecraft-intake-closeout"></a>
+
+### Statecraft intake closeout (post-land ship loop)
+
+After **`statecraft-source-intake`** land or a same-day archive batch, run the bounded closeout **before** daily synthesis or a WORK menu:
+
+```text
+refresh indices (if batch) → sync check → intake queue report → promote / digest → commit → ship receipt
+```
+
+| Step | Command |
+|------|---------|
+| Sync | `python3 scripts/check_statecraft_intake_daily_sync.py --day YYYY-MM-DD` |
+| Queue | `python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD` |
+| Optional digest | `--write-digest --digest-out artifacts/statecraft-intake-queue/digest-YYYY-MM-DD.md` |
+
+Full map: [start-here — Operator ship loop](../../start-here.md#operator-ship-loop) · [statecraft-intake-queue.md](../../statecraft-intake-queue.md). **Kleiber** compact conductor default: sync + queue in **A. Allegro** ([conductor SKILL](../../../.cursor/skills/conductor/SKILL.md)). **Coffee signing-off** after intake: prefer **A — Steward** **git/ship** when the tree carries landed captures.
+
 <a id="build-b--detailed-scope"></a>
 
 ### Engineer (B) — detailed scope (legacy anchor id: Build)

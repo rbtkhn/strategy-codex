@@ -105,13 +105,14 @@ operator source
 **Ship loop:**
 
 ```text
-intake → sync check → synthesis/companion → commit → ship receipt → push
+intake → sync check → intake queue report → synthesis/companion → commit → ship receipt → push
 ```
 
 | Step | Command / surface |
 |------|-------------------|
 | Land + indices | `refresh_statecraft_archive_indices.py` |
 | Archive ↔ daily sync | `check_statecraft_intake_daily_sync.py --day YYYY-MM-DD` |
+| Intake queue report | `statecraft_intake_queue.py --day YYYY-MM-DD` ([spec](statecraft-intake-queue.md)) |
 | Daily synthesis | `statecraft/daily/YYYY-MM-DD.md` |
 | Ship receipt | `operator_handoff_check.py` → `## Ship receipt` |
 

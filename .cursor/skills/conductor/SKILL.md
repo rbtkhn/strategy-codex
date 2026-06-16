@@ -303,9 +303,11 @@ This prototype applies only when resolved `conductor=kleiber`. It does not chang
 
 **Default compact menu** (statecraft intake / daily desync):
 
-- **A. Allegro:** `python3 scripts/check_statecraft_intake_daily_sync.py --day <pub_date>` — name desync or ok.
+Post-intake ship loop: `sync check` → `intake queue report` → daily synthesis — [start-here — Operator ship loop](../../../docs/start-here.md#operator-ship-loop) · [statecraft-intake-queue.md](../../../docs/statecraft-intake-queue.md)
+
+- **A. Allegro:** `python3 scripts/check_statecraft_intake_daily_sync.py --day <pub_date>` then `python3 scripts/statecraft_intake_queue.py --day <pub_date>` — name sync status and `new` / `queued` vs `daily`.
 - **B. Andante:** Diff archive day `README.md` vs `statecraft/daily/<pub_date>.md` primary list.
-- **C. Scherzo:** Wire one companion or transaction row (bounded edit).
+- **C. Scherzo:** Wire one companion or transaction row (bounded edit); optional `--emit-sidecars` when queue has `new` sources.
 - **D. Finale:** `log_cadence_event` + ship receipt — benchmark only when **full** mode.
 
 **Kleiber orientation contract:**

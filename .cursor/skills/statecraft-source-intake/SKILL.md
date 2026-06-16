@@ -1,16 +1,16 @@
 ---
-name: "statecraft-source-intake"
-preferred_activation: "statecraft source intake"
-description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
+name: statecraft-source-intake
+preferred_activation: statecraft source intake
+description: Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis.
 portable: true
-version: "0.4.3"
+version: 0.4.3
 tags:
-  - "operator"
-  - "statecraft"
-  - "source-archive"
-  - "transcript"
-portable_source: "skills-portable/statecraft-source-intake/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- statecraft
+- source-archive
+- transcript
+portable_source: skills-portable/statecraft-source-intake/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Statecraft source intake
 
@@ -109,7 +109,7 @@ In this mode:
 
 Short rule:
 
-`land -> rebuild -> verify -> sync-check -> close`
+`land -> rebuild -> verify -> sync-check -> queue-report -> close`
 
 #### 2. Batch-throughput mode
 
@@ -222,8 +222,7 @@ Structured-field law:
         - Mario Nawfal — `scripts/post_land_nawfal_opening_normalize.py --path <landed-file>`
         - Dialogue Works / Nima Alkhorshid — `scripts/post_land_dialogue_works_opening_normalize.py --path <landed-file>`
      - Preview any step with `--dry-run` on that script.
-     - **Batch throughput (preferred for same-day multi-capture):** one process + one index refresh — `python3 scripts/post_land_statecraft_batch.py --day YYYY-MM-DD --sync-daily YYYY-MM-DD` (mid-batch: add `--skip-index`; closeout: omit `--skip-index`).
-     3. **Optional wire-verify (breaking / same-week seams):** When the capture cites **wire or desk hooks** (NYT, Axios, Reuters, IDF/CENTCOM, Hebrew media) or the operator says **`wire verify`** / **`verify tier`**, run the host **`wire-verify`** skill (**`wire verify`**) on load-bearing hooks **before** daily synthesis or notebook fold. Default **Think** (chat table only). **Ship** only when asked: append compact **`verify:`** tails to `source_note` / `editorial_note` — do not rewrite transcript body. Skip when intake is archival/historical with no developing wire seams.
+     3. **Optional wire-verify (breaking / same-week seams):** When the capture cites **wire or desk hooks** (NYT, Axios, Reuters, IDF/CENTCOM, Hebrew media) or the operator says **`wire verify`** / **`verify tier`**, run the host **`wire-verify`** skill (**`wire verify`**) on load-bearing hooks **before** daily synthesis or notebook fold. **Wire-verify:** run the **five-lane CIV-STATE sweep** per [WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — **America · Persia · PRC · Russia · Rome** (cite or **`-absent`** per lane) — not English-only wires. Default **Think** (chat table only). **Ship** only when asked: append compact **`verify:`** tails to `source_note` / `editorial_note` — do not rewrite transcript body. Skip when intake is archival/historical with no developing wire seams.
    - Reflow into readable paragraphs or turns when the family pattern expects that.
    - Preserve full transcript body for solo `Alexander Mercouris` captures unless the operator explicitly asks for trimming.
    - For interview lanes that routinely include sponsor or promo scaffolding, strip those blocks only when the boundary is unmistakable and the substantive interview body remains intact.
@@ -290,7 +289,7 @@ python3 scripts/check_statecraft_intake_daily_sync.py --day YYYY-MM-DD
 python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD
 ```
 
-Or delegate from index refresh:
+Or delegate sync from index refresh:
 
 ```bash
 python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM-DD
@@ -298,8 +297,9 @@ python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM
 
 Rules:
 
-- **`ok`** or **`no_daily`** — report briefly; proceed to closeout/menu.
-- **`DESYNC`** — report count mismatch and archive-only slugs **before** any menu; recommend `statecraft daily synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/daily/`.
+- **`ok`** or **`no_daily`** — report sync briefly; run intake queue report and surface `new` / `queued` counts before closeout/menu.
+- **`DESYNC`** — report count mismatch and archive-only slugs **before** queue report or menu; recommend `statecraft daily synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/daily/`.
+- **Queue report** — read-only by default; `--emit-sidecars` / `--write-digest` only when operator or conductor movement explicitly requests writes ([statecraft-intake-queue.md](../../../docs/statecraft-intake-queue.md)).
 - Anchor-trio links listed separately in the daily file are **not** auto-flagged as omissions when they appear only in the anchor block (checker encodes this).
 
 Optional agent-authored gap note when desync fires: add an **Archive vs synthesis gap audit** section to the day's intake-readiness note (pattern: `statecraft/daily/YYYY-MM-DD-intake-readiness.md`).

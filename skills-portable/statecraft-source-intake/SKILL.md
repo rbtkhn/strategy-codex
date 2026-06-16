@@ -108,7 +108,7 @@ In this mode:
 
 Short rule:
 
-`land -> rebuild -> verify -> sync-check -> close`
+`land -> rebuild -> verify -> sync-check -> queue-report -> close`
 
 #### 2. Batch-throughput mode
 
@@ -285,9 +285,10 @@ After `land -> rebuild -> verify` for a touched `pub_date`, run the read-only sy
 
 ```bash
 python3 scripts/check_statecraft_intake_daily_sync.py --day YYYY-MM-DD
+python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD
 ```
 
-Or delegate from index refresh:
+Or delegate sync from index refresh:
 
 ```bash
 python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM-DD
@@ -295,8 +296,9 @@ python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM
 
 Rules:
 
-- **`ok`** or **`no_daily`** — report briefly; proceed to closeout/menu.
-- **`DESYNC`** — report count mismatch and archive-only slugs **before** any menu; recommend `statecraft daily synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/daily/`.
+- **`ok`** or **`no_daily`** — report sync briefly; run intake queue report and surface `new` / `queued` counts before closeout/menu.
+- **`DESYNC`** — report count mismatch and archive-only slugs **before** queue report or menu; recommend `statecraft daily synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/daily/`.
+- **Queue report** — read-only by default; `--emit-sidecars` / `--write-digest` only when operator or conductor movement explicitly requests writes ([statecraft-intake-queue.md](../../../docs/statecraft-intake-queue.md)).
 - Anchor-trio links listed separately in the daily file are **not** auto-flagged as omissions when they appear only in the anchor block (checker encodes this).
 
 Optional agent-authored gap note when desync fires: add an **Archive vs synthesis gap audit** section to the day's intake-readiness note (pattern: `statecraft/daily/YYYY-MM-DD-intake-readiness.md`).

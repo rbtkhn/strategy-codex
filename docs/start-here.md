@@ -109,7 +109,7 @@ Full refactor map: [strategy-codex-redesign-brief.md](strategy-codex-redesign-br
 Bounded closeout after statecraft intake or daily work:
 
 ```text
-intake → sync check → synthesis/companion → commit → ship receipt → push
+intake → sync check → intake queue report → synthesis/companion → commit → ship receipt → push
 ```
 
 | Step | Command / surface |
@@ -174,6 +174,18 @@ python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM
 ```
 
 Exit `1` on desync; does not auto-edit daily synthesis. `--latest` picks the newest archive day with at least one source file.
+
+### Intake queue report (after sync check)
+
+```bash
+python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD
+python3 scripts/statecraft_intake_queue.py --latest
+python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --json
+python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --emit-sidecars
+python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --write-digest --digest-out artifacts/statecraft-intake-queue/digest-YYYY-MM-DD.md
+```
+
+Spec: [statecraft-intake-queue.md](statecraft-intake-queue.md). Default Kleiber compact conductor pass runs sync + queue report in **A. Allegro** ([conductor SKILL](../.cursor/skills/conductor/SKILL.md)).
 
 ---
 

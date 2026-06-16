@@ -146,5 +146,7 @@ Digest template: [statecraft/daily/intake-digest-TEMPLATE.md](../statecraft/dail
 
 - [intelligence-harness.md](intelligence-harness.md)
 - [start-here.md — Operator ship loop](start-here.md#operator-ship-loop)
+- [conductor SKILL — Kleiber compact menu](../.cursor/skills/conductor/SKILL.md) (default post-intake **A. Allegro**: sync + queue report)
+- [coffee / menu-reference — Statecraft intake closeout](skill-work/work-coffee/menu-reference.md#statecraft-intake-closeout)
 - [statecraft-source-intake skill](../.cursor/skills/statecraft-source-intake/SKILL.md)
 - [artifacts/statecraft-intake-queue/README.md](../artifacts/statecraft-intake-queue/README.md)
