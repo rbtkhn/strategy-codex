@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-05-31
 pub_date: 2026-05-31
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 thread: diesen
 show: Glenn Diesen
@@ -12,9 +12,11 @@ channel_url: "https://www.youtube.com/@GDiesen1/videos"
 channel_slug: "glenn-diesen"
 source_url: "https://www.youtube.com/watch?v=WgOJXWqk0io"
 source_type: youtube
-transcript_type: operator_pasted_transcript
-editorial_note: "Direct YouTube watch URL and full transcript body supplied by operator in Codex chat. Treated as an in-review transcript-grade capture rather than an auto-subtitles object."
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 status: in-review
+normalization_state: ai_assisted_proper_noun_cleanup
+quality_note: "ASR normalization pass 2026-06-16; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
 ---
 # Jeffrey Sachs: Germany Is Leading Europe Toward World War III
 
@@ -30,7 +32,7 @@ Welcome back to the program. Today we are joined again by Professor Jeffrey Saxs
  And uh now you wrote uh yet another open letter to the German chancellor which has been republished in the German media. I wanted first to ask uh why he wrote a second letter. How what do you feel has changed um in the proxy war in Ukraine? >> Well to put it simply things are worse now than they were 6 months ago. So that was the reason for the letter.
  Uh the first time I wrote uh the open letter which was December 2025, the situation was rather grim. Uh there was wararm mongering and escalation and I wrote that Germany had a special responsibility in this context as the most uh powerful country of Europe, the most populous country of Europe. uh the country that has lots of uh historical uh uh responsibilities regarding the issues that we're facing right now.
  And in January 2026, just uh a couple of weeks after that letter was published, I saw glimmers of hope. Chancellor Mertz made a couple of speeches where he somewhat surprisingly said in a in an open way, well, Russia's part of Europe, that we're going to have to live together with Russia after this war. Uh we we need to speak with Russia.
- and he and President Mcronone and some other leaders uh in Europe uh started to opine in January uh about the need for some kind of new diplomacy and uh Europe in a rather clumsy way started publicly to look for who it might be that could serve as a diplomat diplomatic envoy from Europe. By the way, it's rather sad and strange that the person designated for that job Kaiakalas is deemed by both sides to be uh inadequate for this because she's an open rousophobe.
+ and he and President Macron and some other leaders uh in Europe uh started to opine in January uh about the need for some kind of new diplomacy and uh Europe in a rather clumsy way started publicly to look for who it might be that could serve as a diplomat diplomatic envoy from Europe. By the way, it's rather sad and strange that the person designated for that job Kaiakalas is deemed by both sides to be uh inadequate for this because she's an open rousophobe.
  Uh and every day hate speech comes out of her mouth. uh anti-Russian uh speech uh making it uh not really possible for her to fulfill her job uh which is to be Europe's chief diplomat. Well, after January and despite this uh rather bizarre public opining who could serve as our emissary, should it be former Chancellor Merkel? Should it be former uh European Central Bank President Mario Draghi? Should it be former Chancellor Schroeder? It was a rather bizarre uh process, I have to say.
  Um nothing has come of it. But what has occurred in the last uh few weeks and really in the last couple of weeks to a startling degree is an escalation of rhetoric and the uh Ukrainian attack on the girls school in Star Bilsk with many uh deaths of young students and Europe not only not apologizing for that or explaining why a missile went in the wrong direction actually in denial or silence uh about this uh horrible event.
  And in response uh Russia has said through foreign minister Lavrov and a call to US Secretary of State Marco Rubio that Russia is going to attack the capital uh Kiev. It's going to attack control centers and areas of operations control in uh the capital and uh Minister Lavrov advised the western uh diplomats to take care and uh be safe and clear out.
@@ -88,7 +90,7 @@ They don't talk to the public. They don't engage in any discussion of what we're
  Uh there's no inquiries into anything. It's a very very dangerous uh situation because the normal processes of truthtelling or analysis or what diplomats are especially important for understanding how the other side thinks and explaining that straightforwardly. and if there is something wrong with how the other side thinks discussing it together with the other side to try at least to clarify none of these processes happens right now so I was at a uh again I'm this is anecdotal and it's years ago uh but for me it's what we see every moment I was
 invited by the G7 foreign ministers to speak to them. Well, I was invited by the host country at the time, which was Indonesia, to speak to sorry, to the G20 foreign ministers. And uh this was after the invasion. They would not speak with foreign minister Lavrov. So here are foreign ministers. It's their job. That's why they're there.
 and they would not even speak to the Russian foreign minister. This is the idea. You do not engage in actual communication much less diplomacy and negotiation and I don't really understand uh what the motivations are. People have various explanations. We can say the publics are disgusted by this.
- Broadly speaking, Mertz's popularity is, you know, essentially in complete collapse. Mcronone's popularity is essentially in complete collapse. Starmer's popularity is essentially in complete collapse. It's not as if these people are expressing the will of their republics. Absolutely the opposite. And uh so then it raises all sorts of questions.
+ Broadly speaking, Mertz's popularity is, you know, essentially in complete collapse. Macron's popularity is essentially in complete collapse. Starmer's popularity is essentially in complete collapse. It's not as if these people are expressing the will of their republics. Absolutely the opposite. And uh so then it raises all sorts of questions.
  Some people say, "Well, Mertz, he's he's Black Rockck. Uh I don't know if that's the explanation or not. He's the German military industry. Who knows? It seems doubtful to me. Uh these explanations so simplistic, but frankly, I don't have a a better one. uh because the behavior is so bizarre at this point uh so counterproductive and so dangerous and we have to keep the core message to the Europeans.
  You said you were going to talk. You said you were going to find an intermediary. For heaven's sake, 450 million people in the European Union, find someone and get started. Yeah. No, it's incredible. Uh again, we have diplomats who don't believe in diplomacy, leaders who ignore their basic national interest and seemingly have some contempt for their own public and journalists who think it's their job to defend narratives.
  I think at the end of this, we also risk a legitimacy crisis when, as you said, they're not actually doing their jobs. Uh anyways, I hope we will have an opportunity to discuss some positive development uh in the future. But uh thank you very much and I really enjoyed your open letter and I will leave a link to it in the description and I would encourage everyone to read it.
