@@ -1,7 +1,8 @@
 ---
 ingest_date: 2026-06-04
 pub_date: 2026-06-04
-kind: transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+kind: cleaned-transcript
 source_form: interview
 thread: nima
 show: Dialogue Works
@@ -11,10 +12,12 @@ title: "Stanislav Krapivnik: How Firepower Just Broke Two Wars (Ukraine & Middle
 channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=SYlTn-et5KI"
-source_note: Cleaned transcript pasted by operator.
+source_note: "Cleaned transcript pasted by operator. · ASR pass 2026-06-15."
 opening_tier: host-tease
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 24 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Stanislav Krapivnik: How Firepower Just Broke Two Wars (Ukraine & Middle East)
 
 **Channel:** Dialogue Works (Nima Alkorshid)  
@@ -55,7 +58,7 @@ uh and they're grabbing those areas where the areas where Hezbollah is entrenche
 That's what they're conducting is an ethnic cleansing. They're making by killing some of the people, they're making the rest of the local people of the local ethnic group leave so they can grab the land free of the people. When they're blowing up uh Lebanese villages, some of them are up to 3,000 4,000 years old of continuous settlement.
  That is ethnic cleansing. When you're removing any roots and markings of a previous population that lived there, that is a war crime. Then the Ukrainian I'm sorry, Ukrainian, yeah, they're war criminals, too. But the uh the uh Israeli government is a war crime. That is a cabal of of war criminals. Not just Netanyahu. They all are.
  I mean, and the the worst part is the opposition is even worse and screaming for even more mass genocide. The Israeli government is a like I said, it's it's genocide masquerading as a country. They're out to mass murder everything and everybody around them. They don't hide it. They'll tell you that straight out. They they boast in it.
- They uh they wallow in that in that shite uh with with great pride. I mean, when you got somebody like Ben Gavir, that that psychopath that deserves a hanging. Uh I mean, quite literally, that man deserves to be hung as a war criminal. They all do. Let's be honest. That that man uh his wife makes him a birthday cake with a noose on it.
+ They uh they wallow in that in that shite uh with with great pride. I mean, when you got somebody like Ben-Gvir, that that psychopath that deserves a hanging. Uh I mean, quite literally, that man deserves to be hung as a war criminal. They all do. Let's be honest. That that man uh his wife makes him a birthday cake with a noose on it.
  And in Hebrew, wishes do come true because he got a bill passed that you can do the death penalty to uh non uh non-Jewish uh prisoners. They killed them anyways before they just died by accident or something like that. Drowned in their own piss or whatever. Well, now we can just flat out hang them and maybe harvest a few organs because, you know, if this was they lose consciousness, the body is still alive, you can harvest up the organs real quick.
  Uh, organ harvesting comes from live bodies. That's what people need to understand, by the way. And the Ukrainian government, you look at the Ukrainian government, uh, they passed the law legalizing the export of organs. They taxed it. You figure a country in war would be importing organs. That's to save its soldiers lives. No, no. They made $4 billion on export of organs, which begs to uh the question of how many organs were they actually exporting? Mostly from their own wounded soldiers that get chopped up.
  uh into uh into kibbles and bits at the medical at at the medical clinics uh in the rear. You know, they go in with a leg wound, they come out without hard lungs and everything else. Uh so yes, you're you're looking at the same type of people and they're backed by the same type of people called MSAD, MI6, CIA. We're quite literally facing I mean this in this case the Israeli government and the Ukrainian government are the eastern most enclaves of the Epstein elites.
@@ -129,7 +132,7 @@ What what the hell has that got to do with the Iran conflict? You're telling you
  Israel this way that they're continuing there cannot survive this in my opinion as time goes by. The United States you know did everything they could do for Israel. You know the last one was this this attack on Iran. What else can they do for Israel? and how Israel can survive, you know, these continuous fights, this this continuous war in the Middle East.
 They're talking about next target being Turkey and Egypt. And how prepared are they going to be? Because you pick a fight with Turkey and Egypt and together with Iran. And the war with Iran is not over. And it's going to continue in my opinion. As long as they have they're attacking Lebanon, they're going to have this war between Israel and Iran.
  You know, they crossed all red lines in the West Asia. That's why Iran is just feeling so they're so comfortable with these attacks on Israel. They can fight. They can they can attack Israel any moment. That's why they announced yesterday the foreign minister of Iran saying officially posting that Iran is gonna attack Israel as soon as they perceive that Israel is attacking Dah in Beirut for example.
->> Yep. >> And here is what coming back to the main problem which is Palestine. Here is what P said today about Palestine. Currently against the backdrop of the events taking place around Iran and the straight of Hormos, we forgot about the tragedy of Palestine. But it is still there. It is still there. And the president of Egypt has always made a great contribution trying to find a just settlement for the problems related to Palestine.
+>> Yep. >> And here is what coming back to the main problem which is Palestine. Here is what P said today about Palestine. Currently against the backdrop of the events taking place around Iran and the Strait of Hormuz, we forgot about the tragedy of Palestine. But it is still there. It is still there. And the president of Egypt has always made a great contribution trying to find a just settlement for the problems related to Palestine.
 And naturally, I would like to emphasize the Russian Federation believes that the fundamental solution to this issue is the establishment of a full-fledged Palestinian state. Yeah. The problem with the Palestinian state that Israel is not going to withdraw from the West Bank. They're not going to give the east Jerusalem as they you know they're these guys are talking about capturing the southern part of Lebanon, the southern part of Syria.
 >> I don't know if we continue with this concept of two-state solution. How this is so getting unrealistic in my opinion because Israel is not going to withdraw from the West Bank. That's not going to happen. Simply that's the main reason that is not going to happen. Israel will have to be forced to withdraw in one way or the other with a military intervention or because the casualties are just so heavy and hard that they they can't take it anymore.
  Uh and collapse inside the Israeli society and government. That's that's the only way um you know you get these settlers. I mean mostly these settlers are coming from the US. So you got somebody that comes across the entire world to go steal the house of somebody else. That's a special kind of person. You know, the the settlers that were buying uh or renting barges, uh tour barges, and they're all getting on there with their little children, and they're floating down the coast of Gaza at night as Gaza is being bombed, uh and they're

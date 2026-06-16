@@ -1,7 +1,8 @@
 ---
 ingest_date: 2026-06-05
 pub_date: 2026-06-05
-kind: transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+kind: cleaned-transcript
 source_form: interview
 host_people:
   - Paul Buitink
@@ -18,8 +19,10 @@ channel_slug: reinvent-money
 source_url: "https://www.youtube.com/watch?v=UUz7YOLVy9o"
 source_type: youtube
 youtube_id: UUz7YOLVy9o
-source_note: "Cleaned transcript pasted by operator. Filed under the operator-supplied June 5, 2026 batch; transcript body says the interview was recorded on Thursday, June 4, 2026."
-editorial_note: "Preserve as raw cleaned transcript; verify claims about Trump, Putin, Iran, Taiwan, sanctions, sovereign debt, and market timing before promotion beyond analyst tier."
+source_note: "Cleaned transcript pasted by operator. Filed under the operator-supplied June 5, 2026 batch; transcript body says the interview was recorded on Thursday, June 4, 2026. · ASR pass 2026-06-15."
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 24 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Preserve as raw cleaned transcript; verify claims about Trump, Putin, Iran, Taiwan, sanctions, sovereign debt, and market timing before promotion beyond analyst tier."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # "Things will Escalate Next Week" | Martin Armstrong on Iran, Ukraine, Peace, Gold & Bitcoin
 
@@ -61,7 +64,7 @@ And so I things should start to escalate a bit more from next week on going into
 
 So then in Asian culture, as long as we said that, they didn't have to go take it. Once you start saying, you know, Nancy Pelosi flew to, you know, to Taiwan, stand up, you know, be independent. Once you do that, you're slapping China in the face. And then you know um you're they have to do something you know it's so I mean this is part of the whole problem in understanding geopolitics.
 
-Um, now Mcronone flew to China before Trump got there and Mcronone said, he's representing Europe per se. Um, and he basically said that they would no longer participate in wars outside of the European theater, um, meaning the Middle East. But he added that they would not um do anything with regard to Taiwan.
+Um, now Macron flew to China before Trump got there and Macron said, he's representing Europe per se. Um, and he basically said that they would no longer participate in wars outside of the European theater, um, meaning the Middle East. But he added that they would not um do anything with regard to Taiwan.
 
 So when Trump got there, that's what Jing was focusing on and Trump tried to back off. He he does not want war with China. All right? And so even afterwards he said, you know, I recommended chip companies move to the United States, you know. Um, and now you have these two idiots, one from Japan and one from Philippines.
 
@@ -73,7 +76,7 @@ And I don't think that they quite understand. Um but you get this nonsense that 
 
 Um, Ukrainians in Odessa started dragging Russians off the street, beating them. They chased a whole bunch into the trade union building and set it on fire and burned them alive. That's what started the whole separation movement, you know, and um I mean, as you know, we've had, you know, employees both on both sides in Ukraine.
 
-And um I mean, the Russian side basically even did all the translation of the movies uh that they produced on me for Russian TV. Um, and the two sides would never even talk to each other. I mean, the hatred there is it's just ingrained. Uh, so I don't see a solution there. And the same thing with, you know, Thrron versus Israel.
+And um I mean, the Russian side basically even did all the translation of the movies uh that they produced on me for Russian TV. Um, and the two sides would never even talk to each other. I mean, the hatred there is it's just ingrained. Uh, so I don't see a solution there. And the same thing with, you know, Tehran versus Israel.
 
 I mean, you're not going to find the Ayatollah called Netanyahu come on over for dinner. You know, u, it's just not going to happen. Um when you have this hatred that's systemic um you know it's not a conquest model you know it's not like I'll give you this territory you give me that one you know it's uh you can't get to a peace solution when it's this type of hatred.
 
@@ -121,13 +124,13 @@ Um, but because I've I've I've spoken to military um highups and and I it does g
 
 start attacking European cities. Not directly with with nuclear arms at first but maybe first with conventional arms. But, you know, to me it seems like the mood in in Kremlin is heating up, especially now, Ukraine has been more successful lately with um cutting off energy sources and supply lines and and attacking even St.
 
-Petersburg with with drones. So, do you expect the new escalation coming soon in that war? >> Yes. Uh the problem there um is Zalinski and Trump began to lift some sanctions on the U energy because of the straits of Hermoose to help the rest of the world. And Zullinsky said no way and he started attacking you know refineries so he could care less what happens to the rest of Europe.
+Petersburg with with drones. So, do you expect the new escalation coming soon in that war? >> Yes. Uh the problem there um is Zelensky and Trump began to lift some sanctions on the U energy because of the straits of Hermoose to help the rest of the world. And Zullinsky said no way and he started attacking you know refineries so he could care less what happens to the rest of Europe.
 
-or the world. All right. Um, and I mean, look, I have clips of Zalinski before he was president. He stood on stage as a comedian making jokes about confiscating assets from Jews and Russians. He married a Christian girl. His children are are baptized. He pretended like George Soros to be Christian. Only when he became president did he suddenly say that he was Jewish.
+or the world. All right. Um, and I mean, look, I have clips of Zelensky before he was president. He stood on stage as a comedian making jokes about confiscating assets from Jews and Russians. He married a Christian girl. His children are are baptized. He pretended like George Soros to be Christian. Only when he became president did he suddenly say that he was Jewish.
 
 And I believe that was to hide the fact that he was part of the whole Ukrainian neo-Nazi movement. Um, and so I don't see him I mean the solution is basically to honestly let the Donbos leave. There are Russian people there anyhow. They do not want to be part of Ukraine and Ukraine they hate Russian people. So, I mean, they should be allowed to vote >> internationally, you know, and >> I mean, monitor it, you know, whatever you want, >> but I mean, if you do not do that, I do not see a solution to Ukraine. And what you're
 
-seeing now, my greatest fear, and I have expressed this, and I know that Zalinski has attempted several times to assassinate Putin, he has to know what I know. All right, you take out Putin, he is probably the most uh respectful and conservative Russian there. Okay. You get rid of him and as you were talking about the people behind him would push the button.
+seeing now, my greatest fear, and I have expressed this, and I know that Zelensky has attempted several times to assassinate Putin, he has to know what I know. All right, you take out Putin, he is probably the most uh respectful and conservative Russian there. Okay. You get rid of him and as you were talking about the people behind him would push the button.
 
 >> Yeah, I'm afraid so too. Like Metadev, the former president also saying that Europe will no longer sleep peacefully. I mean that's that's a clear >> clear sign that uh Europe really needs to be careful with with how they escalate this war because it could go utterly wrong if if people like Medford come to power.
 
@@ -161,13 +164,13 @@ That sets in motion a banking crisis. All right, this is much more complicated. 
 
 So Iran is trying to set in motion more than just an energy crisis, but a banking crisis. Um, and this is what, you know, Trump had no clue about and why he's trying to get out, but Netanyahu won't let him. >> So, how will this end then? >> Look, I I don't see it ending well. Uh, may escalate into this summer.
 
-uh I Iran has come out and said even if there's some sort of a peace deal that's achieved they said Israel will never be allowed to use the straight hormoose um like I said th this is a deepseated hatred so I don't see um I am going to publish uh this weekend I have an internal video um from Iran um the government there giving a training session on a future of a possible war.
+uh I Iran has come out and said even if there's some sort of a peace deal that's achieved they said Israel will never be allowed to use the Strait of Hormuz um like I said th this is a deepseated hatred so I don't see um I am going to publish uh this weekend I have an internal video um from Iran um the government there giving a training session on a future of a possible war.
 
 They've been planning for this for 20 years. All right. They have one of the largest stockpiles of ballistic missiles than anybody. Um and um my sources say that at best, you know, maybe they, you know, they still have at least 70% left. >> Yeah. And they they've been restocking, of course, during the the >> Yeah, of course.
 
 Uh you know, I just don't see this as fading off into the sunset. Um it's probably going to get more aggressive towards the end of this summer uh going into the fall and then you're looking at the first quarter of 27. Um uh it it's I don't see Netanyahu backing down. He's like like I said about Zillinsky. He could care less about the rest of the world.
 
-Um, I got to win this and that's the way it's going to be. Period. Um, and Zalinski is doing the same thing there. Uh, and personally, I think we ought to take the two of them and throw them in a cage and let them fight it out amongst each other, you know. Um, sell tickets on, you know, on YouTube or something. Um, but it's just the way it is.
+Um, I got to win this and that's the way it's going to be. Period. Um, and Zelensky is doing the same thing there. Uh, and personally, I think we ought to take the two of them and throw them in a cage and let them fight it out amongst each other, you know. Um, sell tickets on, you know, on YouTube or something. Um, but it's just the way it is.
 
 I you know unfortunately these are the two characters that are pushing uh for for war and then in in Asia it's Japan and the Philippines. >> Yeah. A lot of uh theaters to worry about. Uh switching back to markets. Uh, Michael Sailor has been selling Bitcoin even though he told everyone to sell their kidney and get into debt to buy more Bitcoin and he would never sell, but now he's um he's selling Bitcoin.
 

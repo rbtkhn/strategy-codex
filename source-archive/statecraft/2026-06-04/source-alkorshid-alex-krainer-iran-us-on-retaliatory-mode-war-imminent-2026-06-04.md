@@ -1,7 +1,8 @@
 ---
 ingest_date: 2026-06-04
 pub_date: 2026-06-04
-kind: transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+kind: cleaned-transcript
 source_form: interview
 thread: nima
 show: Dialogue Works
@@ -11,10 +12,12 @@ title: "Alex Krainer: Iran & US on Retaliatory Mode - War Imminent"
 channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=jPNgTYKtbY0"
-source_note: Cleaned transcript pasted by operator.
+source_note: "Cleaned transcript pasted by operator. · ASR pass 2026-06-15."
 opening_tier: host-tease
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 22 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Alex Krainer: Iran & US on Retaliatory Mode - War Imminent
 
 **Channel:** Dialogue Works (Nima Alkorshid)  
@@ -48,7 +51,7 @@ So he's using that while the war is going on. And one of the main reason that he
  It seems that the outcome was not positive in the eyes of the Trump administration. That's why Mark reveal said that we are 90% dependent on these rare earth minerals coming from China. We have to diversify the market. He he went to Armenia to make a new deal with the minerals. But Armenia is not capable of providing the United States the way China is.
  This is the the problem that they're facing on one hand economically, militarily, and internally with the, you know, midterm elections. Donald Trump knows if he loses that he's going to be impeached and maybe he's going to be removed from power. You see that desperation in the way that Iran tried to do something with is Israel because Israel announced that they want to attack Dah in Lebanon.
  Then Iran put pressure on Donald Trump. Donald Trump called Benjamin Net said he don't do that. And just last night we've learned that they there is a new agreement between the government in Lebanon and Israel. But before going there to the case of Hezbollah, Donald Trump right now economically, militarily if he decides to continue the war, he has the shortages.
- How many days? How many weeks it can continue the war with the intensity we've seen during the 40 days of war? Oh, it's going to be four, two weeks, 3 weeks, four weeks. Then the day after that, are they prepared? because it's going to be completely depleted the stockpile and the economy is not doing the global economy is under tremendous pressure because of this rate of for how do you see all these factors coming together and putting pressure on Donald Trump himself >> well starting with oil it's it's not just a question of the quality of oil
+ How many days? How many weeks it can continue the war with the intensity we've seen during the 40 days of war? Oh, it's going to be four, two weeks, 3 weeks, four weeks. Then the day after that, are they prepared? because it's going to be completely depleted the stockpile and the economy is not doing the global economy is under tremendous pressure because of the Strait of for how do you see all these factors coming together and putting pressure on Donald Trump himself >> well starting with oil it's it's not just a question of the quality of oil
 that the United States produces versus what they get from uh Venezuela let's say because in the United case, you know, now the bulk of production is uh is fracked uh fracking out of fracking wells and that's that's very light. Oil is good for producing gasoline, but it's it it it it gains you no uh diesel fuel and no uh jet fuel for aircraft.
 So that's a problem. Uh but then at the same time, you know, uh there's also the issues of oil price. So if you rem you know right now uh let's say ballpark about 10% of global oil supply has been removed from from the markets which is the biggest disruption ever in in the whole history of oil markets and I don't think that it's it's been yet fully uh discounted in in in in oil markets because even you know even in 2022 oil price was $120 and in 2008 oil price was $140.
  So, we're now hovering around 100 Brent crude oil. That's not particularly high. You know, we might be looking at much higher prices in in in the oil markets. But then, you know, if the war escalates, uh, we already know that, you know, one of the one of the target areas that the that the United States and Israel have designated in Iran is is Iran's uh energy infrastructure.
@@ -86,7 +89,7 @@ Maybe they even prefer it that way. And their view of of security is scorched ea
  And then you see even with the fall of Bashar Assad, it wasn't Israel, it was Turkey and the forces in Idlib. They did that because they but the United States it was Israel and it was us. We won the conflict. It was it wasn't you know I you know the information is out the intelligence everything is out right now we can say that it was what 80% 85% of what has happened in Syria was the Turkish sort of move against Assad government.
  So the Assad government is gone but the connection between Iran and Hezbollah is getting stronger. You know this is the reality of what's going on and they cannot control. They thought that they they disconnected Iran from Hezbollah but look at these drones. You know this is the clear you know evidence that there is a strong connection between Iran and Hezbollah and they cannot do anything about it.
  That's why you see every time they go they bomb Syria. That's why they're talking about fighting Turkey and Egypt after, you know, the fight between I don't know what does that come from because you have to be totally delusional to think of, you know, you are in an in an active war against Iran that you're losing and you have depleted everything in this war and you're talking about the next round of war against Turkey and Egypt.
- This is these people are really what is in your opinion how how can we understand these people? >> It's in fact extremely difficult to understand in mind and you have you have answered the question. It's delusional. Uh I you know about about a year ago I I spoke with a with a Muslim friend of mine who studies uh esquetology including Jewish esquetology.
+ This is these people are really what is in your opinion how how can we understand these people? >> It's in fact extremely difficult to understand in mind and you have you have answered the question. It's delusional. Uh I you know about about a year ago I I spoke with a with a Muslim friend of mine who studies uh eschatology including Jewish eschatology.
  And as it turns out, that's definitely part of their part of the equation in this because there's a there's a powerful um there's a powerful group uh in in Israel uh that has considerable political influence who believe that these are you know biblical times uh that uh this is when you know the Messiah is going to reveal himself. Um and uh that that whole scenario involves the so-called Jewish uh sorry the redemption of is Israel.
 Now I I have to say when I first heard this I I thought it was so insane that I I thought no no wait it can't possibly be that. But then I listened to many of these rabbis saying exactly the same thing. And what does redemption of Israel mean? because I've heard other people talk about it, but I don't know that that that it's it's understood correctly.
  Basically redemption of Israel means uh it entails that the Israelis are going to misbehave to such an extent that they draw uh the wrath of the whole world against them and they basically unite the world against themselves and that then triggers Armageddon like the war of world united against Israel and the Israelis suffer a terrible punishment and it's only through this punishment that they earn their redemption and then once they earn that redemption then the Messiah can reveal himself and now this story is the deeper you go

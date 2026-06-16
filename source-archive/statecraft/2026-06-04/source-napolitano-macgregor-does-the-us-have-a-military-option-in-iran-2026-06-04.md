@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-04
 pub_date: 2026-06-04
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 thread: macgregor
 show: Judging Freedom
@@ -12,14 +12,16 @@ channel_url: "https://www.youtube.com/@judgingfreedom/videos"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=vOjEQTXT9kQ"
 source_type: youtube_transcript_operator_paste
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 capture_status: full-operator-paste
 evidence_grade: transcript-bearing
-source_note: Materialized from operator-pasted YouTube transcript for the June 4, 2026 Judging Freedom appearance.
+source_note: "Materialized from operator-pasted YouTube transcript for the June 4, 2026 Judging Freedom appearance. · ASR pass 2026-06-15."
 normalization_note: Removed routine ideological cold open, sponsor/ad copy, and closing schedule promo; kept operator-pasted source language and residual ASR noise.
 opening_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 8 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # COL. Douglas Macgregor : Does the US Have a Military Option in Iran?
 
 ## Transcript

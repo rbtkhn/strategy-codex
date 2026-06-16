@@ -123,9 +123,9 @@ April hinge ladder: 08 → 12 → 17 → 20 → 22 → 30; use archive day READM
   - [2026-06-01 - America On The Hormuz-Lebanon Gate](2026-06-01-america-hormuz-lebanon-strategic-memory.md)
 - [2026-06-02](2026-06-02.md)
 - [2026-06-03](2026-06-03.md)
-- [2026-06-04](2026-06-04.md)
+- [2026-06-04](2026-06-04.md) — Lebanon pseudo-settlement gate; Orekhov/Konstantinovka crisis; 8 ASR cleaned 2026-06-15
   - [2026-06-04 - Hoh × Henningsen × Pape: Lebanon Pseudo-Agreement Falsifier](2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md)
-- [2026-06-05](2026-06-05.md)
+- [2026-06-05](2026-06-05.md) — two-theater entrapment; Lebanon gate + Oreshnik/Konstantinovka; 11 ASR cleaned 2026-06-15
 - [2026-06-06](2026-06-06.md) — dual-theater entrapment; Greater Israel collapse bench; 8 ASR cleaned 2026-06-15
   - [2026-06-06 - Persia: Lebanon-First Gate Vs Hormuz Mechanics](2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
   - [2026-06-06 - Russia–Europe Threshold: Polyanskiy Vs Mercouris](2026-06-06-russia-europe-threshold-polyanskiy-mercouris.md)

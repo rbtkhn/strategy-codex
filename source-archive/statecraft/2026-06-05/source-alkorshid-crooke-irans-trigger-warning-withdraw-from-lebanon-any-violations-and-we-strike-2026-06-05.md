@@ -1,7 +1,8 @@
 ---
 ingest_date: 2026-06-05
 pub_date: 2026-06-05
-kind: transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -17,13 +18,14 @@ channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=5RrorBzJhgs"
 source_type: youtube
 youtube_id: 5RrorBzJhgs
-source_note: Cleaned transcript pasted by operator.
-editorial_note: Preserve as raw cleaned transcript; verify Lebanon, Israel, Iranian deterrence, nuclear, and escalation claims before promotion beyond analyst tier. Mid-intro Substack/book CTA trimmed in place; SSOT body otherwise preserved. Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved.
+source_note: "Cleaned transcript pasted by operator. · ASR pass 2026-06-15."
 dialogue_works_book_interrupt_trim_applied: true
 dialogue_works_close_substack_trim_applied: true
 opening_tier: host-tease
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 5 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Preserve as raw cleaned transcript; verify Lebanon, Israel, Iranian deterrence, nuclear, and escalation claims before promotion beyond analyst tier. Mid-intro Substack/book CTA trimmed in place; SSOT body otherwise preserved. Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Alastair Crooke: IRAN'S TRIGGER WARNING: 'Withdraw from Lebanon... Any Violations and We Strike
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  
@@ -82,7 +84,7 @@ in Islam and it is very clear on certain things about attacking can you attack u
  It's not just at the whim of the supreme leader. His his decision would be the final decision of course, but it would be first discussed and aired. And I haven't seen any of that happening. uh I have to say um which might suggest you know that it isn't happening because even if um the supreme leader is not making appearance having that discussion in comm for example would be quite would would be would be quite possible um what is the balance I mean because this is a long discussion I mean you know I I've been involved D somehow or other with this discussion about um you
 know the JCPOA for 20 years or something like that far too far too far too too long. Um and you know it's a it's it's a it's a huge question about um uh whether there's any advantage to Iran to have a weapon. I think one has to put that in the context though of what's happening generally that the western um counterpoliferation policy is actually moving states towards weaponization.
  I'm not talking about Iran specifically but I'm just saying everywhere one can understand you know many states sort of say well look at North Korea you know can't you see I mean you know North Korea does anyone touch North Korea now it's all gone silent so you know it does you know it can provide deterrence and interestingly enough this is a debate that's now going back going on in Russia where Russia They have nuclear weapons but the debate going on in Russia is you know the west doesn't fear them doesn't it's lost its deterrent
-effect psychology you know has taken over the neocons all said listen you know Putin would never do that I mean you know it's all bluff we don't have to pay any attention to that and anyway we in America would win a nuclear engagement and we're ready for Um so uh you know even with Russia which is a nuclear power already they are having to go back and looking to to that.
+effect psychology you know has taken over the neocons all said listen you know Putin would never do that I mean you know it's all bluff we don't have to pay any attention to that and anyway we in America would win a nuclear engagement and we're ready for Um so uh you know even with Russia which is a nuclair power already they are having to go back and looking to to that.
  So um you know the proliferation process is is actually prompting people in in in that direction. But again, I think one would ask in in the specifically Iranian case would um if like admission of a weaponization that had been done surreptitiously and without a change of the um fatwa. Um would how would that be seen and what would be the reaction? Um I think it would not be well viewed by Russia and China who to the best of my knowledge I obviously not in the inner circles on this but Russia and China have uh have generally um not encouraged
 um states to go down the the nuclear weapons road. Um but also then uh I suppose it would provide initially um you know for people to say well um Tulsi Gabbard then and the intelligence services were wrong. Iran was plotting a weapon all all the time. Uh and we told you so. And Trump warned you know if they get a weapon they'll use it.
 They'll strike at America. they'll Israel will no longer exist. What will what what will be the you know the re what will come out of this? What will be the outcome? So I think that um one has to look very carefully um at how this it's not just a question of the demonstration but how will this play out more how will it play out in America and how will it play out in not just Israel but in the Jewish financial carter of America which has such extraord- extordinary influence o over the US. How will what will be the
@@ -118,7 +120,7 @@ balance the market. So how long can he continue with this same sort of attitude 
  I mean he's never done that. You know Trump is increasingly um in a strange med medical mental condition. Um, and you know, this seems more likely that he will do something unpredicted and unpredictable and maybe very stupid um uh in in in this time. Um because you know it's it's undoubtedly you know he's under huge stress because of these things.
  Uh and his reasoning is not really there. Do you think that this move on the part of Senate and Congress that somehow they're limiting Donald Trump's, you know, sort of power when it comes to the war with Iran? They're trying to is that going to help Donald Trump to give him some sort of offer, political offer. I'm say the Congress is asking for that, Senate is asking for that.
  I have to follow them. And is that going to help him? >> No, he's not saying that. He's saying the opposite. He's saying they're traitors. He's saying the four Republicans that voted with the Democrats are traitors. So he's certainly not saying, "Oh, well, this is a message to me and I ought to take it seriously.
-" No, he's saying, you know, those people were traitors. So I don't think I I don't think there, you know, that's, you know, that's not his character. Again, you know, he will go at it and he will blame, you know, everyone is to blame, but not him. He will blame someone. It'll might be Hegath or someone else or or it was Massie or whoever it'll be, but someone will no doubt be blamed for for for the situation.
+" No, he's saying, you know, those people were traitors. So I don't think I I don't think there, you know, that's, you know, that's not his character. Again, you know, he will go at it and he will blame, you know, everyone is to blame, but not him. He will blame someone. It'll might be Hegseth or someone else or or it was Massie or whoever it'll be, but someone will no doubt be blamed for for for the situation.
  So, um uh I I I I don't think that will be the way out. I don't really see a a way out. and he seems to have dismissed um or in the words that the New York Times uses not heeded the warnings about the economic consequences uh um and you know not on just oil and gas I mean you know oil isn't a single substance it is there's light oil there's heavy oil and you know you you can't make diesel from light oil.
  Uh and heavy oil does certain things. Um and also there are all the other elements pass through hormones that are critical to supply lines. Technic things um helium and um fertilizers and things fertilizer prices is shooting up in in Europe. This is the planting season at the moment. you know you can still get things but you know in a month or two it may be very different.
  I mean it is a very serious situation that [clears throat] is growing. Um and uh is he capable of you know just turning around to um [clears throat] Galibbuff and saying let's look let's just call it quits and let's get out of this finish. No deal. I don't know. Yeah, I think I think that could be the point that would be the point at least on the part of Iranians.

@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-05
 pub_date: 2026-06-05
-kind: transcript
+kind: cleaned-transcript
 source_form: solo
 host_people:
   - Daniel Davis
@@ -9,18 +9,20 @@ guest_people: []
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "Zelensky's Letter to Putin /Lt Col Daniel Davis"
 source_url: "https://www.youtube.com/watch?v=MjGbYbqMJ1E"
 youtube_id: MjGbYbqMJ1E
 channel_slug: daniel-davis-deep-dive
-source_note: Transcript pasted manually by operator for canonical June 5 2026 Daniel Davis Deep Dive capture.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+source_note: "Transcript pasted manually by operator for canonical June 5 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15."
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # Zelensky's Letter to Putin /Lt Col Daniel Davis
 
@@ -28,7 +30,7 @@ evidence_grade: transcript-bearing
 
 Hey everybody, welcome back to the Daniel Davis deep dive road show edition. I am still in Tlisi, Georgia where I'm at a conference on sustainable development. A lot of things are going on. We cannot wait until I get back to my studio to tell you about it because there's a lot of developments in both the Russia Ukraine war and in the US Iran war that directly affect where these wars could go and American national security.
 
-And spoiler alert, it ain't good for our side. Let's get right into it. for the United States. We'll start off with Russia, Ukraine, because President Trump said from his oval office that said, "Hey, even though I came into office claiming in 20 as far back as 2023, I'm going to end this war in a day." But President Trump is trying to take credit for what appears to be, at least on paper, an opening, a diplomatic opening between of at the initiative of Zalinski to Vladimir Putin, hey, maybe we need to have a negotiated settlement. Here's how
+And spoiler alert, it ain't good for our side. Let's get right into it. for the United States. We'll start off with Russia, Ukraine, because President Trump said from his oval office that said, "Hey, even though I came into office claiming in 20 as far back as 2023, I'm going to end this war in a day." But President Trump is trying to take credit for what appears to be, at least on paper, an opening, a diplomatic opening between of at the initiative of Zelensky to Vladimir Putin, hey, maybe we need to have a negotiated settlement. Here's how
 
 Trump characterizes that meeting. >> Well, I don't know. I'm glad that they're maybe talking about meeting. I think we had a lot to do with it. I know exactly what you're doing. But uh I think it would be great if they met. They should get it done. Uh they're going to make both make compromises. I suggested those compromises and you know we've had a lot to do with it.
 
@@ -60,13 +62,13 @@ And then on the other hand, his party is voting for more money for Ukraine, for 
 
 Those things are not compatible. They can't go together. And President Trump could have put a lot of pressure on Ukraine long ago to get this thing over and did none of it. so many opportunities which can only lead to the conclusion he doesn't want to and that is a conclusion that those on the Russian side are coming to and that's not neutral either.
 
-It that is a growing and dangerous situation and so given what President Trump has said, what Congress has done and what Rubio said there is was a really cocky response from Voteir Zalinski. He wrote an open letter to President Putin which was published yesterday and in it it is just saturated with arrogance and condescension like he's the guy in the catbird seat and he's looking down on Vladimir Putin and effectively as I read that he's asking for Russian surrender.
+It that is a growing and dangerous situation and so given what President Trump has said, what Congress has done and what Rubio said there is was a really cocky response from Voteir Zelensky. He wrote an open letter to President Putin which was published yesterday and in it it is just saturated with arrogance and condescension like he's the guy in the catbird seat and he's looking down on Vladimir Putin and effectively as I read that he's asking for Russian surrender.
 
 Here's what he wrote where he summarized a lot of this stuff. This is from him. This is a direct quote. This is not a summary. Open letter to the president of the Russian Federation from the president of Ukraine. When you come to power in Russia more than 26 years ago, many people in Ukraine viewed you positively. That's how it was.
 
 That is now in the past. Now the overwhelming majority of Ukrainians view it positively in that our long range drones paid a visit to the opening of your forum in St. Petersburg, covering a distance of more than a thousand kilometers. As you know very well, that distance is not the limit of our capabilities.
 
-And of course that's President Zalinski putting the thumb in the face of President Putin and saying listen uh at President Putin's big economic forum that he likes to promote and tout of course they knew that Ukraine would try to do something so they had extra air defense and other measures in place which didn't work because Ukraine drones did get through.
+And of course that's President Zelensky putting the thumb in the face of President Putin and saying listen uh at President Putin's big economic forum that he likes to promote and tout of course they knew that Ukraine would try to do something so they had extra air defense and other measures in place which didn't work because Ukraine drones did get through.
 
 It did strike some oil infrastructure and you had this big black smoke and billowing fires which you know was really embarrassing for President Putin. So Zlinsky sends this expost to kind of like twist that thumb after it's in a sign and going gotcha. So now that's not more like he's he's now thinking he's in the cat bird seat and said you know what all that stuff I've got a lot more where that came from and if you don't do what I tell you it's going to be delivered.
 
@@ -78,7 +80,7 @@ They chose a side. we can't stand up to all that. We better surrender while we c
 
 I think you know where this is going. Sergey Lavrov was not short of anything to say in response to this. >> We're ready. As President Putin has said many times, we're always ready for negotiations, but we do not see readiness on the other side. And most importantly, we do not see partners who are capable of making and honoring agreements.
 
-As for the Ukrainians, the regime that came to power after the coup in February 2014, I think it is beyond dispute by now that they're completely incapable of honoring agreements. Even those who cover for them, finance them, and arm them know exactly who they're dealing with. And I would say the Europeans are defending Zalinski so fiercely for one reason only.
+As for the Ukrainians, the regime that came to power after the coup in February 2014, I think it is beyond dispute by now that they're completely incapable of honoring agreements. Even those who cover for them, finance them, and arm them know exactly who they're dealing with. And I would say the Europeans are defending Zelensky so fiercely for one reason only.
 
 He's waging war against the Russian Federation on their behalf. >> Okay, that last part is really critical there because he's pointing out and saying out loud and reiterating stuff that we've been telling you for the last several weeks that Russia has been amping up its statements and it its arguments about what it's willing to do and the growing boldness of its red lines and the thinning of its patience.
 
@@ -106,11 +108,11 @@ It's not changing the balance." You may have slowed some things down. Slowing do
 
 I got all my big buddies behind my shoulder here, so I'm going to take action to try and provoke it. Hell no. Because what he's doing, he's playing with not just fire with, forget about what Lavro said. This is America, my friend. And and this is Western Europe. He is playing with fire to try and draw us in so we fight his war for him that can't be won.
 
-And then now he wants missiles to fall not on Kiev, not on Lava, uh not on Bahmood, any of these cities. He wants them to fall on European cities. He wants Berlin to be on fire. Paris, that's what he's trying to do because that wouldn't make Zalinski happy. Make sure you mark this one. Bookmark this show. Nothing's happened yet.
+And then now he wants missiles to fall not on Kiev, not on Lava, uh not on Bahmood, any of these cities. He wants them to fall on European cities. He wants Berlin to be on fire. Paris, that's what he's trying to do because that wouldn't make Zelensky happy. Make sure you mark this one. Bookmark this show. Nothing's happened yet.
 
 Valillinski is poking a stick in Russia's eye to try and spawn them to come and attack Western Europe so that those countries then go article 5 and they go in and fight on behalf just like in very similar cases, not just like but very similar to how Netanyahu uh twisted things around to make President Trump fight his war for him in Iran by using the United States armed forces and drawing us into that war.
 
-Zalinsky saw that. He said, "Hey man, I want some of that. So, let me see what I can do from a position of weakness to draw Russia into doing something that has to have an article 5 reaction. So, now everybody else, all their armies have to come in and fight for me. I he could care less if Berlin is on fire.
+Zelensky saw that. He said, "Hey man, I want some of that. So, let me see what I can do from a position of weakness to draw Russia into doing something that has to have an article 5 reaction. So, now everybody else, all their armies have to come in and fight for me. I he could care less if Berlin is on fire.
 
 He could care less if if Paris it goes up in flames or or some of their military installations there. No concerns at all. In fact, that would make him happy. Nothing would make him happier than to see billowing smoke coming out of of a western country because he wants to article 5 draw us in to fight for him.
 

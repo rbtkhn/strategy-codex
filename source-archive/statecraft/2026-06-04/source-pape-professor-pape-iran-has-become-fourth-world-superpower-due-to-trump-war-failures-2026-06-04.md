@@ -1,13 +1,17 @@
 ---
 ingest_date: 2026-06-04
 pub_date: 2026-06-04
-kind: transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+kind: cleaned-transcript
 source_form: interview
 thread: pape
 guest: Robert Pape
 source_url: https://www.youtube.com/watch?v=6VaTuSpPisE
-source_note: Operator paste; canonical watch URL preserved (YouTube).
+source_note: "Operator paste; canonical watch URL preserved (YouTube). · ASR pass 2026-06-15."
 title_slug: pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # Robert Pape - fourth center of world power framing (operator transcript)
 
@@ -16,6 +20,8 @@ title_slug: pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-t
 **Speaker:** Professor Robert Pape
 
 ---
+
+## Transcript
 
 in we've got professor pap back again he came last time he spoke in depth about his perspective in relation to the escalation trap well it seems like what's happening when you look at the current war is things are moving towards his fourth avenue which is that Iran is becoming the fourth power in the world we're going to speak about that we're going to be speaking about the ceasefire deal we're going to be speaking about all of those things with professor Pep Professor Pap, thank you so much for taking your time out to join us. How are
 you? >> Uh, I'm doing great and thank you so much for having me on again. >> We appreciate it's an honor and a privilege. Professor Pap, you came last time and you spoke about the escalation trap and you said, you know, the moving between the third and fourth stage, which is possible kinetic to allowing Iran to become essentially the fourth power.
@@ -53,7 +59,7 @@ power so how does it actually uh uh gain power? Well, it gains power by wielding
 Well, notice Kuwait's not so eager to have that retaliation because they're not so confident that this is all going to come out on top. They're going to come out on top in that. That's called bandwagoning. So, what you are seeing is the use of power by Iran in selective ways, in strategic ways.
  And just in the last week, they've gained power. Not not overwhelming. They haven't won the war, but they've gained power. >> Yeah. And just to add to your point, when you when you're talking about the fragmentation, one thing you'll notice Iran is not doing is they're not targeting Saudi Arabia or Qatar or Iman at the moment.
  They attacks are specifically Bahin, Kuwait, and the UAE. So, and this is why I'm hearing reports that actually Saudi and Qatar are more amiable to start moving away from the US and moving more towards this new front, which could be Iran, China, and various. you you can see that there's been some thought given to how to use force on the part of of of the IRCG.
- This is not a situation where they're just lashing out in incoherent ways. You might remember the first few days of the war when they used uh uh when they came back with some missiles and drones, there was the American side, I think it was Secretary Hegos, said, "Well, this is just the dying the spasms of the dying regime or or so forth.
+ This is not a situation where they're just lashing out in incoherent ways. You might remember the first few days of the war when they used uh uh when they came back with some missiles and drones, there was the American side, I think it was Secretary Hegels, said, "Well, this is just the dying the spasms of the dying regime or or so forth.
 " That's not really what's happened here. Uh they have I I wouldn't I don't want to overread this so I don't want to paint them as like an A+ student or brilliance and so forth. That's going too far. But what they've been is they've certainly been in the B+ range and they are doing really quite a an effective job given that they're uh regime has been uh weakened somewhat.
 They have this mosaic uh decision-m that they have to use. This is not a situation where uh their leaders can come out and communicate in the open. And what that means is all of that gets uh slowed down. It gets compartmentalized. Uh and nonetheless, they've been able to gain power over this period of time.
  That's really the the if you say what's the report card so far. Uh Iran has gained power steadily and now we're entering the fourth month of the war and the United States here has not been gaining power. They've been losing power. And by the way, since we were on, this is what President Xi said directly essentially to President Trump.

@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-09
 pub_date: 2026-06-05
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Mario Nawfal
 guest_people:
@@ -21,14 +21,15 @@ guest: Brandon J. Weichert
 title: ISRAEL TO MERGE WITH U.S. ARMY & CIA – w/ Brandon Weichert
 source_url: "https://www.youtube.com/watch?v=p1w0nJwdILU"
 youtube_id: p1w0nJwdILU
-source_note: "Operator-pasted transcript; Nawfal×Weichert NDAA/intelligence-fusion bench (§224 defense-industrial base merge, Senate IC bill §662 CIA–Mossad seamless entity per Weichert read; Ro Khanna/Massie opposition). War updates — frozen conflict, Iran adviser Rai blockade/warning register, Oman terminal drone strike, SPR tank-bottoms by July 4 week, Hormuz reopen skepticism, China SPR/industrial-capacity contrast. verify:NDAA §224 committee passage — check congressional record; verify:Senate IC §662 — bill number/status; verify:Oman crude terminal strike attribution; verify:Trump oil/SPR statements; analyst-tier nuclear test detonation / Russian ship sink claims not wire primary."
+source_note: "Operator-pasted transcript; Nawfal×Weichert NDAA/intelligence-fusion bench (§224 defense-industrial base merge, Senate IC bill §662 CIA–Mossad seamless entity per Weichert read; Ro Khanna/Massie opposition). War updates — frozen conflict, Iran adviser Rai blockade/warning register, Oman terminal drone strike, SPR tank-bottoms by July 4 week, Hormuz reopen skepticism, China SPR/industrial-capacity contrast. verify:NDAA §224 committee passage — check congressional record; verify:Senate IC §662 — bill number/status; verify:Oman crude terminal strike attribution; verify:Trump oil/SPR statements; analyst-tier nuclear test detonation / Russian ship sink claims not wire primary. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
 youtube_upload_reconciled: true
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Nawfal opening-normalize metadata tier only (host-monologue); light banter retained at open. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata).
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # ISRAEL TO MERGE WITH U.S. ARMY & CIA – w/ Brandon Weichert
 
 **Show:** Mario Nawfal  

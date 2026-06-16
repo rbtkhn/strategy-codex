@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-05
 pub_date: 2026-06-05
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -14,13 +14,14 @@ guest: Trita Parsi
 title: IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE - w/ Trita Parsi
 source_url: "https://www.youtube.com/watch?v=4p1phpcrjoQ"
 source_type: youtube
-transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 5, 2026 Mario Nawfal / Trita Parsi interview.
-editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 5, 2026 Mario Nawfal / Trita Parsi interview. · ASR pass 2026-06-15."
 opening_tier: heavy-banter
 opening_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for routing-safe punctuation and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE - w/ Trita Parsi
 
 **Show:** Mario Nawfal  
@@ -42,7 +43,7 @@ opening_trim_applied: true
  This is not the US giving any money. But the administration doesn't want to leave the impression that they're giving money or that they're giving anything the to the Iranians upfront. As you recall, the Republicans were very critical of the Trump of the B Obama administration when it did uh release some of Iran's money earlier on to get the JCPOA.
 reality is this. There's never going to be any deal, particularly one that requires significant nuclear concessions from the Iranian side, that does not give back Iran's money to itself. That is just it's an impossibility. So, if you're arguing against making sure that the money is released, their money is released back to them, you're essentially arguing against having any deal and any compromise.
  But the administration understandably from their perspective is trying to make sure that this is done in such a way that it doesn't look as if they are giving more than Obama or that they are doing things that is the same thing as Obama did. So I'm I think they're looking for different ways to frame this and the Qataris appear to have come up with some good ideas on how to resolve this issue.
-So it will be very interesting to see um uh what the American response to this proposal will be. But if it is positive then it does appear as if the other issues more or less have been resolved and we could actually go towards a quick uh agreement on this issue >> because the straight of hormones yeah because it seems like the straight of hormones issue at least from what I've heard in the last couple days I don't know what the arrangement is but essentially that that is now behind them it's been resolved exactly how I don't
+So it will be very interesting to see um uh what the American response to this proposal will be. But if it is positive then it does appear as if the other issues more or less have been resolved and we could actually go towards a quick uh agreement on this issue >> because the Strait of Hormuz yeah because it seems like the Strait of Hormuz issue at least from what I've heard in the last couple days I don't know what the arrangement is but essentially that that is now behind them it's been resolved exactly how I don't
 know I do know that the opposition add it to the idea of a joint um management of the trait between Iran and several GCC states have gotten a bit more support among some of the GCC states, not the UAE. I think the UAE is still dead set against it. The Saudis have been publicly against it. I don't know if they've shifted their position, but I think from the US standpoint, they never liked the idea of it just being Iran and Oman.
 Um but it seems like there's been some movement on that front. Um then the issue of the down blending uh or uh shipping out of the LEU during sorry the HU during this highly >> period highly enriched uranium is also there's some sort of arrangement there and and part of it seems to be that the Iranians will be down blending parts of it and part of the reason why that is interesting is because earlier on the Trump administration's position was that all of it had to be shipped out.
  it should not be down blended. Um and uh so you know perhaps the Iranians are down blending it and then shipping it. I don't know the details of that but it seems like both sides on that issue have shown some flexibility. But the release of the funds has been one of the last sticking points and we'll see if the current proposal now resolves it.

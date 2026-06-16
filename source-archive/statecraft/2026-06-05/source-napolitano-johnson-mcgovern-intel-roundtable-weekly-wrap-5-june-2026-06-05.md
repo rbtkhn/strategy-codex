@@ -1,30 +1,30 @@
 ---
 ingest_date: 2026-06-05
 pub_date: 2026-06-05
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "INTEL Roundtable w/ Johnson & McGovern : Weekly Wrap 5-June"
 source_url: "https://www.youtube.com/watch?v=9mOCqLYJOaM"
 youtube_id: 9mOCqLYJOaM
 channel_slug: judging-freedom
-source_note: Transcript pasted manually by operator on 2026-06-05.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+source_note: "Transcript pasted manually by operator on 2026-06-05. · ASR pass 2026-06-15."
 show: Judging Freedom
 host: Judge Andrew Napolitano
 guest: Larry Johnson; Ray McGovern
 thread: johnson
 channel_url: "https://www.youtube.com/@judgingfreedom"
 evidence_grade: transcript-bearing
-quality_note: Preserved as operator-pasted transcript; intro/outro and transcript artifacts may remain.
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 opening_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 26 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # INTEL Roundtable w/ Johnson & McGovern : Weekly Wrap 5-June
 
 ## Transcript
@@ -51,7 +51,7 @@ This will not happen. Right now, we are in the first stage of negotiations and M
  And we will give another dimension to the war by attacking these other American bases that we have been attacking so far. America will definitely suffer much more losses. America's losses will be very heavy. Is that credible? >> Oh, yeah. >> Yes, it is. >> Wow. >> This is their position for a while now. Uh they were the ones that said no more negotiations until we see some reason to trust you people and trust is completely absent.
  And so with the absence of trust, uh one can understand why the Iranians are thinking that they have the upper hand here. They have the straight. It's not poker. They have the straight of Hormuz. And that's the big deal. >> So this morning I asked our friend and colleague uh Professor Saxs if Netanyahu uh is in a position to wreck a US Iran peace deal.
  Jeff believes, I hope it's not wishful thinking, but I believe he's intellectually honest, that if Trump wants a peace deal and Netanyahu tries to wreck it, Trump will lower the boom on Netanyahu. Larry, yeah, that Trump has the ability to lower the boom. He has the leverage to lower the boom. Now, the question is, uh, does he have the spine, the backbone? That I don't know.
-He's he's resembled more of a jellyfish of late and and has refus been very uh subservient and responsive to his Zionist owners particularly Mrs. Aden uh and Paul Singer among two this you know look this all I can note is in the last 36 hours we've had a lot of quiet you know in the preceding days like Monday well actually going to last week so the reason this whole you know that report about Iran threatening to detonate a nuke got spun up was because the United States was initiating attacks they they bombed Bonder Abbas a port they blew up
+He's he's resembled more of a jellyfish of late and and has refus been very uh subservient and responsive to his Zionist owners particularly Mrs. Aden uh and Paul Singer among two this you know look this all I can note is in the last 36 hours we've had a lot of quiet you know in the preceding days like Monday well actually going to last week so the reason this whole you know that report about Iran threatening to detonate a nuke got spun up was because the United States was initiating attacks they they bombed Bandar Abbas a port they blew up
 uh two uh small naval craft, the speedboats, they're killing four sailors. They hit targets on Keshum Island. And so it was out of that that the Iranians were, you know, they were outraged. Uh and then they started hitting back and and but and so the last big dust up we had was I think it was Wednesday, uh at least Wednesday morning in Iran time.
  And that where the United States initi again initiated they hit an Iranian tanker with a Hellfire missile fired by a US helicopter that flew out of Kuwait and then they they blew up a communications tower on Keshum Island. The Iranians immediately retaliated, firing a missile at another at a US ship, reportedly hitting it. And then they attacked that the both au a US airfield or an airfield or US assets are stationed and a military base uh with a combination of missiles and drones and and were successful.
  They wiped out uh a storage center for drones on one of the bases. So and and I thought, okay, here we go. And then since in the aftermath of that attack, Donald Trump didn't say one word. He didn't normally he would have come back out with a lot of trash talk and threats etc. Not one word. And fortunately in the last despite a report that Iran fired at two US ships that tried to enter the straight of Hormuz, didn't hit him.
@@ -66,7 +66,7 @@ uh two uh small naval craft, the speedboats, they're killing four sailors. They 
 Yeah, >> he's right, Larry. >> Oh, yeah. Listen, the u Iran has thought this thing through fairly clearly and but we are seeing something historic, judge. Uh never in the history since the creation of of Iran 47 years ago has the Iranians stepped up and said, "If you're going to end this war, it's got to stop in Lebanon and Palestine as well.
 " We've not had any other country in in history in modern history that stood up and made such a bold direct statement linking their own security to that of the people of Lebanon and the Palestinians. And so that I think that has started to resonate. Uh we saw a little bit of that with the Saudis where the you know the Trump administration was pushing them to sign back on to the Abraham Accord.
  They said, "We're not doing any Abraham accord until the Palestinians have a state." >> But as Ry just pointed out, if Netanyahu went along with that, if Netanyahu withdrew his troops from Lebanon and his occupation of Gaza, he'd be out of a job and probably out of his freedom. >> Sure. Yeah. No, absolutely.
- Well, and let's let's take the focus off of Netanyahu. If Netanyahu goes, there's still a majority of Israelis that want to be in Lebanon and want to be in Palestine. So, I mean, Netanyahu's not the problem, but it's it's uh Ben Gavir and Smootrich will learn the lesson that I learned at the age of 18 when my father and I had a dispute over the length of my hair and he said, "Get your haircut or get out." I got out.
+ Well, and let's let's take the focus off of Netanyahu. If Netanyahu goes, there's still a majority of Israelis that want to be in Lebanon and want to be in Palestine. So, I mean, Netanyahu's not the problem, but it's it's uh Ben-Gvir and Smotrich will learn the lesson that I learned at the age of 18 when my father and I had a dispute over the length of my hair and he said, "Get your haircut or get out." I got out.
  And, you know, getting out, you discover, huh, I got to get a job and I've got to work to make some money and I don't have somebody paying my bills now and I I have to become self-sufficient. Let Israel become self-sufficient. Let's see how that works. Because if if Trump has the wherewithal to say, "Okay, fine.
  You want to go on your own? Be on your own. But not with our money, not with our weapons, not with our aircraft, not with our intelligence. Good luck. Have a nice day." That would be a sobering moment for the Zionists. Not just BB Netanyahu, but the Zionists. >> Did you go back? >> Did you cut your hair? >> No. You know me.
 >> I don't know you very well. I have to tell you, every once in a while, one of the chatters will say, "Can you ask Larry to turn around? Does he have a ponytail?" No, Larry does not have a ponytail. Apparently, you had one at one point, but no. >> Yeah. No, but but you know, my father and I reconciled, but I also I just I didn't surrender, right? >> But but it was an important lesson.
