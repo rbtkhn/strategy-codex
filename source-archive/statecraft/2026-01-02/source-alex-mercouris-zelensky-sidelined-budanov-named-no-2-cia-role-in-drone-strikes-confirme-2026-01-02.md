@@ -70,7 +70,7 @@ acted to replace his former chief of
 staff, Andriy Yermak, who was ousted
 from his position um a few weeks ago in
 connection with the ongoing corruption
-scandal in Kyiv.
+scandal in Kiev.
 And the man who Zelenskyy has chosen,
 who's picked who's picked who he has
 picked to take Yermak's place, turns out
@@ -175,13 +175,13 @@ and the Americans, the meetings the
 meeting in Miami, for example, might
 have been the moment when
 both in Washington
-and in Kyiv
+and in Kiev
 the decision was finally made that
 Zelenskyy is impossible, that he is um
 uncooperative,
 and probably corrupt,
 and that Washington's man must now take
-the reins in Kyiv. I think that is
+the reins in Kiev. I think that is
 highly likely.
 Um
 it's, but as I said, perhaps unwise
@@ -446,7 +446,7 @@ fails completely if the front lines
 break down if the Russian army advances
 and captures more and more territory, if
 it seizes Odessa and Nikolaev, if it
-seizes Kharkiv and Poltava and Chernihiv
+seizes Kharkov and Poltava and Chernihiv
 and Sumy, if it takes Kiev itself,
 well,
 who better
@@ -1008,7 +1008,7 @@ this is not going to
 destabilize Russia.
 It is not going to
 bleed Russia dry or create
-a political crisis in Kyiv.
+a political crisis in Kiev.
 If the Russians find themselves facing
 an insurgency
 in Ukraine,
@@ -1309,7 +1309,7 @@ the overall Russian commander who's also
 chief of the general staff
 in the meantime has recently visited the
 headquarters of group of forces north
-uh who are active in Kharkiv and Sumy
+uh who are active in Kharkov and Sumy
 region.
 The Russian forces in the north seem to
 be particularly busy in Sumy region

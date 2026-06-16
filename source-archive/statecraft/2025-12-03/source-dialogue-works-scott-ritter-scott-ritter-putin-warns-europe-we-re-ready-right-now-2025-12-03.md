@@ -1299,7 +1299,7 @@ States want to do business with you,
 right? Um and we're going to go into
 Odessa because goddammit, we can. We're
 Russia. We're going TO DO EVERYTHING.
-ODESSA, KHARKIV, TAKE IT ALL. AND
+ODESSA, Kharkov, TAKE IT ALL. AND
 Europe's going to go, "See,
 we warned you about the Russians.
 Aggressive." And there may be a peace.

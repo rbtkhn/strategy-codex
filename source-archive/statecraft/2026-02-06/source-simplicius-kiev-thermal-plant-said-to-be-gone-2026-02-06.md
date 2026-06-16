@@ -66,7 +66,7 @@ have a trove of BDA images—particular thanks to the AMK Mapping channel for co
 all ( follow his X account here ).    Thermal plants in Kiev and Kharkov were again
 targeted, with a 750 kV substation field in Vinnitsya also hit.    First is the Zmiivska TPP
 in Kharkov:    Satellite imagery shows significant damage to the Zmiivska Thermal Power
-Plant in Kharkiv Oblast, including the 330 kV and 110 kV substations, along with 4 of the
+Plant in Kharkov Oblast, including the 330 kV and 110 kV substations, along with 4 of the
 generator transformers, as a result of Russia’s most recent combined missile attack.    5
 craters from Iskander-M ballistic missiles are visible, which is 1 more impact than what I
 previously reported.    Notably, the TPP has halted all power generation.    Let’s compare
@@ -82,7 +82,7 @@ target.    Coordinates: 49.165, 28.72248    The hits appear about here:
 need dozens of missiles and hundreds of drones to entirely take out? You can see why.
 Turning over to Kiev, we see the TPP-5 (Thermal Power Plant 5) was struck reportedly by
 Iskanders at 50.39325474093848, 30.56989136578839 geolocation:   Satellite imagery shows new
-damage to the CHP-5 Combined Heat and Power Plant in Kyiv, after it was hit by 4 Russian
+damage to the CHP-5 Combined Heat and Power Plant in Kiev, after it was hit by 4 Russian
 Iskander-M ballistic missiles in the most recent combined missile attack on Ukraine.    A
 large burn mark is visible, and it has entered an emergency shutdown mode.    This
 corresponds to the following hit area:    50.39325474093848, 30.56989136578839 What’s
@@ -91,26 +91,26 @@ turbines which were hit:    But TPP-5 was not the plant which fared the worst. T
 Darnytska district of Kiev was alleged to have been permanently put out of service according
 to several Ukrainian statements.    Rutti Fruitti Mark Rutte reported from the plant —which
 is at geolocation 50.44781824547086, 30.644984293087234 —to show us the damage first hand:
-Satellite imagery shows new damage to the CHP-4 Combined Heat and Power Plant in Kyiv, after
+Satellite imagery shows new damage to the CHP-4 Combined Heat and Power Plant in Kiev, after
 it was hit by 2 Iskander-M ballistic missiles    Both craters are visible in the red circle.
 The other craters in the imagery are from previous strikes.    As a result of the strikes,
 CHP-4 has entered an emergency shutdown mode.    The strike appears to correspond to
 somewhere here in the center:   Above video from Radio Svoboda.    Ukrainian investigative
 journalist Yuri Nikolov claims TPP-6 and 4 could be completely gone:    Ukrainian outlet
 Hromadske Radio quotes a Ukrainian infrastructure minister in writing that TPP-4 is “ almost
-completely destroyed ”:   The Darnytsia CHPP in Kyiv is almost completely destroyed by enemy
+completely destroyed ”:   The Darnytsia CHPP in Kiev is almost completely destroyed by enemy
 strikes , — Ukrainian Minister for Communities, Territories and Infrastructure Development
 Oleksiy Kuleba.  He reported the lack of heating in 1,146 homes as a result of the Russian
 shelling of energy infrastructure.  "They are currently heated exclusively by electricity.
 We understand and know all the problems these people are facing. We are constantly
-coordinating with the city of Kyiv regarding all their needs," Kuleba said during a visit by
+coordinating with the city of Kiev regarding all their needs," Kuleba said during a visit by
 60 ambassadors of foreign states to the Darnytsia thermal power plant site in the Ukrainian
-capital on Wednesday.  This CHPP served around 500,000 people in Kyiv, but since the start
+capital on Wednesday.  This CHPP served around 500,000 people in Kiev, but since the start
 of the heating season, it has already been attacked five times with ballistic missiles and
 drones and is now almost completely destroyed.  "Today you are here after yesterday's
 attack, when the enemy directed 5 ballistic missiles here, aimed precisely at the only thing
 that remained operational here—this very equipment that was intended to supply heat to the
-population. This was done on the coldest night in Kyiv. The nighttime temperature reached
+population. This was done on the coldest night in Kiev. The nighttime temperature reached
 -26 degrees. All of this has led to the fact that, as you can see today, the station is
 almost completely destroyed," he said.   According to Kuleba, the beginning of the
 restoration of this station has already started.    “We have two days to technically
@@ -123,7 +123,7 @@ pipelines and complicate restoration work.    That said, you can see the ministe
 plant’s “restoration” is still planned—or rather, the analysis on whether it can be restored
 at all.    Lastly, the 750 kV substation at 50.493880929107966, 29.693279584170742
 geolocation, which connects the Rivne nuclear power plant to Kiev, was again struck:
-Satellite imagery shows new damage to the “Kyiv” 750 kV electrical substation after it was
+Satellite imagery shows new damage to the “Kiev” 750 kV electrical substation after it was
 targeted by numerous Russian Kh-22/32 cruise missiles and Zircon hypersonic cruise missiles.
 Notably, a number of craters and burn marks are visible outside the substation, indicating
 that some of the less accurate Kh-22 missiles were used alongside Kh-32s.    Damage is also

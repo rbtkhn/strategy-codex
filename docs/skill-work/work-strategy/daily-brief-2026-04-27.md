@@ -146,7 +146,7 @@ Gate snapshot in Ã‚§1 stays quiet (zero pending work-politics candidates); t
 
 ### Slow structural layer (work-jiang)
 
-Today’s fast **W** weight (Norway pledging drone scale to Kyiv, Ukraine deep-strike storylines) rhymes with Predictive History Volume I patterns of **alliance cargo as credibility** (who ships what, on what timeline) and escalation geometryÃ¢â‚¬”use [SELF-LIBRARY Ã¢â‚¬” Predictive History](../../../self-library.md#operator-analytical-books) when a chapter anchor is needed for copy that ships. If operator work stays Iran and Hormuz first, treat Ukraine RSS as **parallel pressure** on European capacity and US attention budget, not as the slow-layer primary unless you open a Geo-Strategy thread explicitly.
+Today’s fast **W** weight (Norway pledging drone scale to Kiev, Ukraine deep-strike storylines) rhymes with Predictive History Volume I patterns of **alliance cargo as credibility** (who ships what, on what timeline) and escalation geometryÃ¢â‚¬”use [SELF-LIBRARY Ã¢â‚¬” Predictive History](../../../self-library.md#operator-analytical-books) when a chapter anchor is needed for copy that ships. If operator work stays Iran and Hormuz first, treat Ukraine RSS as **parallel pressure** on European capacity and US attention budget, not as the slow-layer primary unless you open a Geo-Strategy thread explicitly.
 
 ## 4. Triangulation (when lead is political)
 

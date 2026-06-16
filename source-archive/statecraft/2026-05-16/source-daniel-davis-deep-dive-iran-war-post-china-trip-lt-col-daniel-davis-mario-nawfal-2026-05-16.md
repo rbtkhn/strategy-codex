@@ -587,7 +587,7 @@ counterattacks uh in a number especially
 in the center part of the zone. Uh but
 Russia is making another pretty big move
 right now in Zaparisia in the south and
-up in the north in the Kharkiv area. So
+up in the north in the Kharkov area. So
 I I would dispute whatever the ISW is
 saying right now, but there had been
 some. But there is also some some
@@ -613,7 +613,7 @@ Russian side today announced that they
 had now completely taken all of Luhansk
 and that he said that they are now
 moving I think it was the 25th army is
-moving in the direction of Kharkiv in
+moving in the direction of Kharkov in
 the north and so they're now apparently
 they're going to open up a front up
 there as well and to me the biggest

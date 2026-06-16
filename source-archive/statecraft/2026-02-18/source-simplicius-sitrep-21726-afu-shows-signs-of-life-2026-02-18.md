@@ -217,7 +217,7 @@ being exchanged, but more are regularly captured as well.    —   It was reveal
 fighter pilots are flying some of the F-16s in defensive roles over Kiev, helping to shoot
 down Russian drones and missiles:    https://www.intelligenceonline.com/europe-
 russia/2026/02/16/us-dutch-veterans-bolster-ukraine-air-force-s-f-16s-in-skies-above-
-kyiv,110628200-art It may come as a ‘shocking’ escalation of the war to some, but has likely
+Kiev,110628200-art It may come as a ‘shocking’ escalation of the war to some, but has likely
 been done since the beginning, particularly since we’ve heard from US military pilots
 volunteering for these roles as far back as 2023. It’s just the name of the game in proxy
 wars, just as Soviet pilots flew in Korea. Either way, this comes as one of the first

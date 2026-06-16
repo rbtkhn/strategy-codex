@@ -112,8 +112,8 @@ https://www.dw.com/en/ukraine-zelenskyy-declares-energy-emergency-in-cold-snap/l
 Director of the Ukrainian Energy Center, Viktor Kharchenko:   Kiev has never seen a more
 difficult situation. Never before in the world has a power grid been attacked at -15°C,
 destroying a city with central heating.    Now, Kharkov was targeted last night:    Earlier
-5-6 Tornado-S missiles struck TPP-5 in Pisochyn Kharkiv with reconnaissance drone correcting
-the hits. The mayor of Kharkiv mentioned that the energy is heavily damaged. According to
+5-6 Tornado-S missiles struck TPP-5 in Pisochyn Kharkov with reconnaissance drone correcting
+the hits. The mayor of Kharkov mentioned that the energy is heavily damaged. According to
 Zelensky 400 thousand people are without lights and heating    The mayor of Kharkov made the
 announcement on his official channel:   Another interesting find on this count is a
 Ukrainian officer posted from the front that it is actually Zelensky secretly holding units

@@ -30,9 +30,9 @@ https://www.wsj.com/world/europe/european-defense-companies-in-line-to-benefit-f
 eus-105-billion-ukraine-loan-22d826ad And from Bloomberg:
 https://www.bloomberg.com/news/articles/2026-01-14/eu-s-90-billion-ukraine-loan-to-mostly-
 support-european-firms As one TG summary writes:    THE EUROPEAN UNION DECEIVED UKRAINE: Out
-of the promised 90 billion euros, the EU will allocate only 30 to Kyiv (15 per year) , and
+of the promised 90 billion euros, the EU will allocate only 30 to Kiev (15 per year) , and
 60 will be kept in the EU for the needs of European defense industry enterprises. Earlier,
-Kyiv was promised a loan of 90 billion euros in direct credits (45 per year), and the money
+Kiev was promised a loan of 90 billion euros in direct credits (45 per year), and the money
 for weapons was supposed to be provided separately from other sources.    Everyone in
 Ukraine wants to profit, and no one except Russia cares about its prosperity, not even its
 own leadership. Europeans are planning to build their own defense industry and army at

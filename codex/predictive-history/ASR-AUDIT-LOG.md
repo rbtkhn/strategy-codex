@@ -146,7 +146,7 @@ Do **not** proofread entire transcripts unless depth **C** or a chapter requires
 | 2026-03-24 | geo-strategy-08 | Proper name | "Tran" / "tan" / "Teran" | Tehran | Iranian capital |
 | 2026-03-24 | geo-strategy-08 | Proper name | "dones" (eastern Ukraine) | Donbas | Ukraine region |
 | 2026-03-24 | geo-strategy-08 | Proper name | "Crea" (southern front) | Crimea | Ukraine context |
-| 2026-03-24 | geo-strategy-08 | Proper name | "K" (the capital) | Kyiv | Ukrainian capital |
+| 2026-03-24 | geo-strategy-08 | Proper name | "K" (the capital) | Kiev | Ukrainian capital |
 | 2026-03-24 | geo-strategy-08 | Proper name | "alab alabes" / "alabed" | Alcibiades | Athenian statesman, 415 BC |
 | 2026-03-24 | geo-strategy-08 | Proper name | "nus" (opponent) | Nicias | Athenian general opposing Sicily expedition |
 | 2026-03-24 | geo-strategy-08 | Proper name | "faciiities the pelan war" | Thucydides; Peloponnesian War | "we studied [X] last semester" |

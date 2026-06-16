@@ -31,7 +31,7 @@ regional energy company.    ▪️Meanwhile, a monitoring map of Kiev has appear
 than 80% of subscribers remain without electricity and heat.    But the most shocking figure
 came from mayor Klitschko, who said that just in January alone , 600,000 residents have fled
 Kiev, with more being urged to flee:    https://www.thetimes.com/world/russia-ukraine-
-war/article/no-power-18c-and-russian-attacks-kyiv-faces-catastrophe-mp2dmdbsz Temperatures
+war/article/no-power-18c-and-russian-attacks-Kiev-faces-catastrophe-mp2dmdbsz Temperatures
 have fallen as low as ­minus 18C during a cold snap projected to last at least two more
 weeks. This month 600,000 people have already fled the capital, home to more than 3 million,
 Klitschko said.    Other publications quoted Klitschko specifically stating the 600k came in
@@ -74,7 +74,7 @@ assures the whole world about its “precise” weapons, we can see that this is
 Daggers (Kinzhal) hit wherever they can, and the accuracy of cruise missiles and ballistics
 is also not perfect.    Everyone well remembers the recent tragedy in Ternopil, when instead
 of a factory, “precise” missiles hit a residential building. We also remember the hits on
-neighboring buildings in Kyiv during the attack on the “Luch” Design Bureau. We all remember
+neighboring buildings in Kiev during the attack on the “Luch” Design Bureau. We all remember
 the “precise” Shahed drones that attacked the hydroelectric power station, but all of them
 hit residential buildings in Vyshgorod.    I very much hope that the Russians will have the
 sense not to try to attack nuclear power plants, because a missile strike by an Iskander or

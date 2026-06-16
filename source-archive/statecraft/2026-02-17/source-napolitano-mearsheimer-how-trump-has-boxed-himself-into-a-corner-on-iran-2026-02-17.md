@@ -43,9 +43,9 @@ It wasn't that the the allies, the Western allies, you know, marched into German
 
 Um, do you place any significance in the recent use by Foreign Minister Lavrov and other senior Russian officials including President Putin of the phrase Novorossiya, the new Russia uh, to describe all of those oblasts starting with the Crimea in the south and going up to Kherson, I think I have the geography right in the north.
 
-Yeah, I think it's Kharkiv in the north. Uh, Kherson's just above uh, the Crimean Peninsula. Uh, I think uh, the really interesting question here is how many oblasts to the west of the [snorts] four oblasts they have already annexed, uh, the Russians will try to take. I've long argued that it was in Ukraine's interest to settle this war now because they've only lost four oblasts plus Crimea.
+Yeah, I think it's Kharkov in the north. Uh, Kherson's just above uh, the Crimean Peninsula. Uh, I think uh, the really interesting question here is how many oblasts to the west of the [snorts] four oblasts they have already annexed, uh, the Russians will try to take. I've long argued that it was in Ukraine's interest to settle this war now because they've only lost four oblasts plus Crimea.
 
-Of course the Ukrainians would recoil at my use of the word only but the problem is that if the Russians do win on the battlefield as I was describing it before, the Russians are likely to take more territory uh, and they're likely to take oblasts like Odessa and Kharkiv. And this would be even more disastrous for Ukraine.
+Of course the Ukrainians would recoil at my use of the word only but the problem is that if the Russians do win on the battlefield as I was describing it before, the Russians are likely to take more territory uh, and they're likely to take oblasts like Odessa and Kharkov. And this would be even more disastrous for Ukraine.
 
 But if you're the Russians and you think about where this war is headed and that is that you're going to get some sort of frozen conflict, some sort of armistice. You're not going to get a meaningful peace agreement. And that means you're going to have poisonous relations between Russia on one side and the west on the other side plus Ukraine for as far as the eye can see.
 
@@ -59,7 +59,7 @@ Oh, there's no question about that. There's just no question about that. The Rus
 
 But these four oblasts that they've now annexed were not annexed at the time. And I think if the Ukrainians had been really flexible, they could have worked out an agreement with the Russians where they kept all four of those oblasts including the two oblasts that are in the Donbas. But they would have certainly not lost as much territory as they now have lost.
 
-And then again, as we were saying a few minutes ago, the really interesting question at this point is whether or not they lose any further oblasts including places like Odessa and Kharkiv. Well, before we go to Iran and and whatever Donald Trump plans to do, how different would the US-Iran relationship be, the US-Israeli relationship be, the Israeli relationship to the Middle East be if Palestine were were free state? And when you say if Palestine were free state, that can have two meanings.
+And then again, as we were saying a few minutes ago, the really interesting question at this point is whether or not they lose any further oblasts including places like Odessa and Kharkov. Well, before we go to Iran and and whatever Donald Trump plans to do, how different would the US-Iran relationship be, the US-Israeli relationship be, the Israeli relationship to the Middle East be if Palestine were were free state? And when you say if Palestine were free state, that can have two meanings.
 
 Do you mean there were a two-state solution and you had a Palestinian state and an Israeli state? Yes. Well, assuming that that was done in a way that produced a peaceful outcome, that this Palestinian state and this Israeli state could live side by side, the Middle East would be much more peaceful.
 

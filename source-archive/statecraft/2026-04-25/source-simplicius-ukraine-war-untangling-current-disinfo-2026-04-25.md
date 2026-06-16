@@ -22,7 +22,7 @@ But first, let us review what ‘stagnant’ may possibly mean and give a brief 
 
 Much of Russia’s recent activity has come in unexpected quarters, particularly in the Sumy and Kharkov regions:
 
-> **Clément Molin** @clement_molin — This month of april 2026, Russia seized 117km2, of which 55% are located on the UKR-RUS border. Since the start of the year, Russian northern corps expanded its infiltrations in Sumy and Kharkiv regions. This strategy is forcing Ukraine to defend the border. Thread 1/15 — Apr 23, 2026.
+> **Clément Molin** @clement_molin — This month of april 2026, Russia seized 117km2, of which 55% are located on the UKR-RUS border. Since the start of the year, Russian northern corps expanded its infiltrations in Sumy and Kharkov regions. This strategy is forcing Ukraine to defend the border. Thread 1/15 — Apr 23, 2026.
 
 As the analyst states above: “The strategy is forcing Ukraine to defend the border”, and there have been recent reports of Ukraine sending reserves from other fronts to Sumy where Russia has been showing increased activity and territorial gains.
 
@@ -38,7 +38,7 @@ There has been a lot of buzz recently about Ukraine doing “better than ever”
 
 https://www.bloomberg.com/news/articles/2026-04-22/ukraine-says-it-asked-turkey-to-help-seek-zelenskiy-putin-talks
 
-> Kyiv asks Turkey to arrange a meeting between Zelensky and Putin Ukraine is pushing for talks as soon as possible to give new momentum to diplomacy. “We have directly approached the Turks. But if such a meeting is organized in another capital — not Moscow or Minsk — we will take part,” said Foreign Minister Andrii Sybiha.
+> Kiev asks Turkey to arrange a meeting between Zelensky and Putin Ukraine is pushing for talks as soon as possible to give new momentum to diplomacy. “We have directly approached the Turks. But if such a meeting is organized in another capital — not Moscow or Minsk — we will take part,” said Foreign Minister Andrii Sybiha.
 
 Why is Ukraine so urgently pushing for direct talks with Putin to end the conflict, if Ukraine is doing so well as its backers suggest? And why is Russia so unbothered by it all, if Russia is the one supposedly seeing reversals on the battlefield and a collapsing economy?
 

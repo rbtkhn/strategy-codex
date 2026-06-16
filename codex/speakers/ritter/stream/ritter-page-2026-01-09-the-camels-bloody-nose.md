@@ -53,7 +53,7 @@ Let’s hope the west is sophisticated enough to comprehend the message Russia a
 
 ### Reflection
 
-**Operator note:** Short escalation-signal essay (Oreshnik, Lvov/Kyiv strikes, Kapustin Yar training-launch read). Near-war/scenario-adjacent claims (CIA drones, tanker seizures, NATO defense)—essay ≠ wire. Light cleanup of operator/OCR errors only.
+**Operator note:** Short escalation-signal essay (Oreshnik, Lvov/Kiev strikes, Kapustin Yar training-launch read). Near-war/scenario-adjacent claims (CIA drones, tanker seizures, NATO defense)—essay ≠ wire. Light cleanup of operator/OCR errors only.
 
 **WORK:** The Camel’s Bloody Nose (Substack) · Format: Substack-style essay. Historical and legal passages reflect Ritter’s read; verify dates, quotes, and casualty figures against primary or scholarly sources if promoted. Lanes: Russia–U.S. / Ukraine / strategic stability, Nuclear / arms control. Commentator tier; verify before wire-use. Prompts: falsifiers, delta vs prior Ritter, wire boundary for `days.md`.
 

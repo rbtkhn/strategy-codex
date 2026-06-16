@@ -1,0 +1,27 @@
+---
+description: Canonical Ukraine place spelling in strategy-codex (Kiev not Kyiv; Kharkov not Kharkiv)
+alwaysApply: true
+---
+
+# strategy-codex — Ukraine place spelling (canonical)
+
+## Kiev
+
+**Policy:** In **strategy-codex** operator surfaces, synthesis, archive cleanup, and agent drafts, normalize the Ukrainian capital to **`Kiev`**, not **`Kyiv`**.
+
+- **Entity pass labels:** `kiev_kyiv_canonical`, `kiev_kyiv_poss`, `kiev_kief_asr`
+- **Verbatim exception:** Preserve **Kyiv** inside quoted headlines, wire lines, or official document text when the source spelling is load-bearing; use **Kiev** in operator framing around it.
+- **Review (operator note):** reconsider Kyiv in **2050** if Ukraine is still an independent state.
+
+## Kharkov
+
+**Policy:** Normalize **`Kharkiv`** → **`Kharkov`** (same register as Kiev).
+
+- **Entity pass labels:** `kharkov_kharkiv_canonical`, `kharkov_kharkiv_poss`
+- **Verbatim exception:** Preserve **Kharkiv** inside load-bearing quotes; use **Kharkov** in operator framing.
+
+## Pass usage
+
+`scripts/fix_statecraft_common_asr_entities.py` — use `--only-labels` for targeted sweeps; `--any-markdown` on synthesis trees (`statecraft/`, `docs/`, `codex/`).
+
+Related: [write-operator-preferences.md](../../docs/skill-write/write-operator-preferences.md) (place names).

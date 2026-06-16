@@ -93,7 +93,7 @@ _Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md
 | Cluster | Disposition | Notes |
 |--------|-------------|--------|
 | **EU FAC** Ã¢â‚¬” adjourn **without** **20th** **sanctions** **package** / **€90 bn** **disbursement** **mechanics**; **Hungary** **“no** **immediate** **reversal”** **during** **transition** | **Q** | **Council**/**Hungary** **readouts**; **do** **not** cite **€90 bn** **mechanics** as Record **until** **Commission**/**Council** **text** |
-| **OrbÃƒÂ¡n** **Apr 19** Ã¢â‚¬” **Druzhba** **linkage** to **€90 bn** **loan** **approval** | **Q** | **Budapest**/**Kyiv** **pipeline** **primaries** |
+| **OrbÃƒÂ¡n** **Apr 19** Ã¢â‚¬” **Druzhba** **linkage** to **€90 bn** **loan** **approval** | **Q** | **Budapest**/**Kiev** **pipeline** **primaries** |
 | **Ukraine GUR** Ã¢â‚¬” **Yamal** + **Filchenkov** **out** **of** **service** **Sevastopol**; **~$150M** | **Q** | **MoD**, **OSINT**, **satellite** |
 | **IsraelÃ¢â‚¬“Lebanon** Ã¢â‚¬” **day** **5** **ceasefire**, **no** **violations**; **Oman** **US-brokered** **pause** | **Q** | **UNIFIL**/**bilateral** **compliance** **metrics**; **see** **Ã‚§1h** **IRI** **bundle** **seams** **not** **merged** |
 | **IMF WEO** Ã¢â‚¬” **reference**/**adverse** **growth**/**inflation**; **Hormuz** **energy** **premium** | **Q** | **IMF** **PDF**/**press**; **cross-check** **[Ã‚§1h](strategy-notebook/provenance/2026-04-20/source-araghchi-april-2026-posts-bundle-2026-04-20.md)** **Hormuz** **FM** **line** |
@@ -166,7 +166,7 @@ OSINT/satellite confirmation of Yamal and Filchenkov status or Russian relocatio
 Lebanon ceasefire day-six compliance metrics.
 Any Ukrainian follow-on strikes or Russian barrage adjustments.
 Market or policy reactions referencing WEO scenarios in energy forwards.
-Druzhba pipeline restoration signals from Kyiv or Budapest.
+Druzhba pipeline restoration signals from Kiev or Budapest.
 
 13. Bottom Line
 Today’s anticipated FAC stall amid Hungarian transition, combined with confirmed Sevastopol vessel disablements and sustained Lebanon ceasefire, underscores that electoral resets and tactical pauses have not yet overcome material and procedural friction. Ukrainian diffusion advantages continue to impose measurable costs on Russian legacy assets while IMF scenarios anchor the energy-constraint baseline. Tomorrow’s FAC outcomes and strike-response metrics will reveal whether institutional velocity or battlefield arithmetic compresses timelines first. Highest-signal variables remain falsifiable quantities: transition language, vessel status, compliance days, and scenario-driven policy citations. Material realities and institutional mechanics continue to lead; narratives follow

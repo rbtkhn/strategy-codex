@@ -18,6 +18,12 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ROOT = REPO_ROOT / "source-archive" / "statecraft"
+POLICY_SKIP_PATHS = frozenset(
+    {
+        ".cursor/rules/strategy-codex-kiev-spelling.mdc",
+        "docs/skill-write/write-operator-preferences.md",
+    }
+)
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 KIND_RE = re.compile(r"^kind:\s*([^\n]+)$", re.MULTILINE)
 SOURCE_TYPE_RE = re.compile(r"^source_type:\s*([^\n]+)$", re.MULTILINE)
@@ -317,8 +323,25 @@ REPLACEMENT_SPECS: tuple[ReplacementSpec, ...] = (
     ReplacementSpec(re.compile(r"\bChasfy\b", re.IGNORECASE), "Chasiv Yar", "chasiv_yar_chasfy"),
     ReplacementSpec(re.compile(r"\bChasy\b", re.IGNORECASE), "Chasiv Yar", "chasiv_yar_chasy"),
     ReplacementSpec(re.compile(r"\bKamatsk\b", re.IGNORECASE), "Kramatorsk", "kramatorsk_kamatsk"),
+    # strategy-codex canonical spelling (operator policy): Kiev, not Kyiv, until revised.
+    ReplacementSpec(re.compile(r"\bKyiv's\b", re.IGNORECASE), "Kiev's", "kiev_kyiv_poss"),
+    ReplacementSpec(re.compile(r"\bKyiv\b", re.IGNORECASE), "Kiev", "kiev_kyiv_canonical"),
+    ReplacementSpec(re.compile(r"\bKief\b", re.IGNORECASE), "Kiev", "kiev_kief_asr"),
+    # strategy-codex canonical spelling (operator policy): Kharkov, not Kharkiv.
+    ReplacementSpec(re.compile(r"\bKharkiv's\b", re.IGNORECASE), "Kharkov's", "kharkov_kharkiv_poss"),
+    ReplacementSpec(re.compile(r"\bKharkiv\b", re.IGNORECASE), "Kharkov", "kharkov_kharkiv_canonical"),
+    ReplacementSpec(re.compile(r"\bKharkof\b", re.IGNORECASE), "Kharkov", "kharkov_kharkof_asr"),
+    ReplacementSpec(re.compile(r"\bKharkoff\b", re.IGNORECASE), "Kharkov", "kharkov_kharkoff_asr"),
     ReplacementSpec(re.compile(r"\bMirrad\b", re.IGNORECASE), "Myrnohrad", "myrnohrad_mirrad"),
 )
+
+
+def is_policy_skip(path: Path) -> bool:
+    try:
+        rel = path.relative_to(REPO_ROOT).as_posix()
+    except ValueError:
+        return False
+    return rel in POLICY_SKIP_PATHS
 
 
 def parse_frontmatter(text: str) -> dict[str, str]:
@@ -339,6 +362,8 @@ def parse_frontmatter(text: str) -> dict[str, str]:
 def is_transcript_like(path: Path, text: str) -> bool:
     if path.name == "README.md":
         return False
+    if path.name.startswith("source-"):
+        return True
     meta = parse_frontmatter(text)
     kind = meta.get("kind", "").casefold()
     if "transcript" in kind:
@@ -352,24 +377,63 @@ def is_transcript_like(path: Path, text: str) -> bool:
     return False
 
 
-def apply_replacements(text: str) -> tuple[str, Counter[str]]:
+def select_specs(only_labels: set[str] | None) -> tuple[ReplacementSpec, ...]:
+    if not only_labels:
+        return REPLACEMENT_SPECS
+    return tuple(spec for spec in REPLACEMENT_SPECS if spec.label in only_labels)
+
+
+URL_SEGMENT_RE = re.compile(r"https?://[^\s)>\]\"']+", re.IGNORECASE)
+SPELLING_LABEL_PREFIXES = ("kiev_", "kharkov_")
+
+
+def _subn_outside_urls(text: str, spec: ReplacementSpec) -> tuple[str, int]:
+    if not spec.label.startswith(SPELLING_LABEL_PREFIXES):
+        return spec.pattern.subn(spec.replacement, text)
+    parts: list[str] = []
+    total = 0
+    last = 0
+    for match in URL_SEGMENT_RE.finditer(text):
+        chunk = text[last : match.start()]
+        chunk, n = spec.pattern.subn(spec.replacement, chunk)
+        total += n
+        parts.append(chunk)
+        parts.append(match.group(0))
+        last = match.end()
+    tail = text[last:]
+    tail, n = spec.pattern.subn(spec.replacement, tail)
+    total += n
+    parts.append(tail)
+    return "".join(parts), total
+
+
+def apply_replacements(text: str, specs: tuple[ReplacementSpec, ...]) -> tuple[str, Counter[str]]:
     counts: Counter[str] = Counter()
-    for spec in REPLACEMENT_SPECS:
-        text, n = spec.pattern.subn(spec.replacement, text)
+    for spec in specs:
+        text, n = _subn_outside_urls(text, spec)
         if n:
             counts[spec.label] += n
     return text, counts
 
 
-def fix_root(root: Path, *, write: bool) -> dict[str, object]:
+def fix_root(
+    root: Path,
+    *,
+    write: bool,
+    any_markdown: bool = False,
+    only_labels: set[str] | None = None,
+) -> dict[str, object]:
+    specs = select_specs(only_labels)
     changed_files = 0
     total_replacements: Counter[str] = Counter()
     file_rows: list[dict[str, object]] = []
     for path in sorted(root.rglob("*.md")):
-        original = path.read_text(encoding="utf-8", errors="replace")
-        if not is_transcript_like(path, original):
+        if is_policy_skip(path):
             continue
-        updated, counts = apply_replacements(original)
+        original = path.read_text(encoding="utf-8", errors="replace")
+        if not any_markdown and not is_transcript_like(path, original):
+            continue
+        updated, counts = apply_replacements(original, specs)
         if not counts:
             continue
         changed_files += 1
@@ -393,12 +457,28 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Root directory to scan.")
     parser.add_argument("--write", action="store_true", help="Write fixes in place. Omit for dry run.")
+    parser.add_argument(
+        "--any-markdown",
+        action="store_true",
+        help="Process any *.md under --root (not only transcript-like surfaces).",
+    )
+    parser.add_argument(
+        "--only-labels",
+        default="",
+        help="Comma-separated replacement labels to apply (default: all).",
+    )
     return parser.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
-    result = fix_root(args.root.resolve(), write=args.write)
+    only_labels = {label.strip() for label in args.only_labels.split(",") if label.strip()} or None
+    result = fix_root(
+        args.root.resolve(),
+        write=args.write,
+        any_markdown=args.any_markdown,
+        only_labels=only_labels,
+    )
     print(json.dumps(result, indent=2))
     return 0
 

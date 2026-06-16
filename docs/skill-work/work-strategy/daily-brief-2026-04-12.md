@@ -66,7 +66,7 @@ _Filled at **good morning** per [daily-brief-putin-watch.md](daily-brief-putin-w
 
 - **Easter ceasefire (announced ~Apr 9Ã¢â‚¬“11):** TASS (state wire, `ru`/`en` desk): [Putin declares Easter ceasefire](http://en.tass.ru/politics/2114659); companion explainer [reaction to Easter ceasefire initiative](http://www.tass.com/politics/2114935). **Triangulate** timing/duration with Kremlin primary text if citing for campaign-adjacent work.
 - **Negotiation framing (Russia):** TASS: [Talks on Ukraine to resume once all three parties show readiness Ã¢â‚¬” Russian MFA](https://tass.com/politics/2114867) Ã¢â‚¬” **state wire**; label as Russian government line, not independent verification.
-- **Western cross-check:** Le Monde live (Apr 12): [Kremlin refuses to extend Easter truce until Kyiv accepts Russian conditions](https://www.lemonde.fr/international/live/2026-04-12/en-direct-guerre-en-ukraine-le-kremlin-refuse-de-prolonger-la-treve-pascale-tant-que-kiev-n-acceptera-pas-les-conditions-russes_6679492_3210.html); BBC: [Ukraine and Russia accuse each other of hundreds of ceasefire violations](https://www.bbc.com/news/articles/cz78y73v830o?at_medium=RSS&at_campaign=rss).
+- **Western cross-check:** Le Monde live (Apr 12): [Kremlin refuses to extend Easter truce until Kiev accepts Russian conditions](https://www.lemonde.fr/international/live/2026-04-12/en-direct-guerre-en-ukraine-le-kremlin-refuse-de-prolonger-la-treve-pascale-tant-que-kiev-n-acceptera-pas-les-conditions-russes_6679492_3210.html); BBC: [Ukraine and Russia accuse each other of hundreds of ceasefire violations](https://www.bbc.com/news/articles/cz78y73v830o?at_medium=RSS&at_campaign=rss).
 
 ## 1e. JD Vance Ã¢â‚¬” last 48 hours
 

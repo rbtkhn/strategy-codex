@@ -1241,7 +1241,7 @@ Uh
 
 that's why they hate Nazis and that's
 
-why they hate neo-Nazis in Kyiv.
+why they hate neo-Nazis in Kiev.
 
 Ray, we had Germany reducing the aid to
 
@@ -1327,7 +1327,7 @@ I'll give you a for instance, okay? It's
 
 a for instance.
 
-Uh before the coup in Kyiv,
+Uh before the coup in Kiev,
 
 uh there was this uh
 
@@ -1347,7 +1347,7 @@ And there was no common European danger
 
 or enemy to speak of.
 
-Okay? Before the coup in Kyiv. So, what
+Okay? Before the coup in Kiev. So, what
 
 happened? Oh, right after that, okay?
 
@@ -1569,7 +1569,7 @@ Western services working with it
 
 overthrew the duly established
 
-government in Kyiv on the 14th of
+government in Kiev on the 14th of
 
 February 2000
 
@@ -1589,7 +1589,7 @@ in advance. You know that story where
 
 Victoria Nuland's talking to US
 
-ambassador in Kyiv where it's all we got
+ambassador in Kiev where it's all we got
 
 it all wired.
 
@@ -1925,7 +1925,7 @@ negotiating,
 
 yeah, we can do something about that.
 
-Meanwhile, we got Kharkiv, we got
+Meanwhile, we got Kharkov, we got
 
 Odessa, we got other Let's let's deal.
 
@@ -2273,7 +2273,7 @@ yeah, we're we're happy for the
 
 Europeans to give
 
-Kyiv whatever guarantees they like, you
+Kiev whatever guarantees they like, you
 
 know.
 

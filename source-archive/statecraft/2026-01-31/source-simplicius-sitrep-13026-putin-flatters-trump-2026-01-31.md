@@ -38,12 +38,12 @@ attempting to push the ceasefire until February 8th—either an additional week,
 1st being the beginning of the ceasefire.    On Sunday, February 1, at a new round of
 negotiations in Abu Dhabi, the US plans to formally confirm a week-long pause in attacks on
 Ukrainian energy infrastructure.    The Ukrainians have asked for a delay until February 8,
-when the temperature in Kyiv will reach +5°C. After that, warming will begin.    The “pause”
+when the temperature in Kiev will reach +5°C. After that, warming will begin.    The “pause”
 is purely psychological. In terms of restoring anything, there are still months of work
 ahead. The only thing that is currently working, and the main topic of discussion, is the
-Kyiv TPP-6. A week ago, they launched one of six boilers there, and now they are starting up
-the second one.    The heat loop from it is already being distributed through Kyiv’s main
-networks.    In Kyiv, the collapse is still ongoing, with power grids being disrupted and
+Kiev TPP-6. A week ago, they launched one of six boilers there, and now they are starting up
+the second one.    The heat loop from it is already being distributed through Kiev’s main
+networks.    In Kiev, the collapse is still ongoing, with power grids being disrupted and
 entire neighborhoods shutting down.    Kiev Independent reports that over one million
 residents still have “adverse conditions” including no power:
 https://kyivindependent.com/we-are-all-used-to-this-now-inside-one-of-kyivs-hardest-hit-
@@ -70,15 +70,15 @@ suspected:    Note in particular the part about the PURL (Prioritized Ukraine Re
 List), which I had debunked before as a scam meant to give the impression of European
 “solidarity”. Here we see just how “effective” it has been.    A last interesting take from
 the War Chronicle military analysis channel:    According to preliminary estimates, if the
-attacks on Kyiv and the region’s power grids continue, the consumption of diesel fuel in the
+attacks on Kiev and the region’s power grids continue, the consumption of diesel fuel in the
 Ukrainian capital could reach 300 to 900 tons per day. This amount will be needed only for
 the operation of emergency services and industrial generators at production and utility
 facilities.    If the power supply problems persist, the purchase of diesel fuel on an
-industrial scale in Kyiv alone over a year could cost 200–500 million dollars.    However,
+industrial scale in Kiev alone over a year could cost 200–500 million dollars.    However,
 this problem is scalable. There are about 100,000 boiler houses of various sizes in Ukraine:
 from district to school and hospital/industrial ones.    It is almost impossible to fully
 power them with diesel generators, but those that can still be connected will also require a
-large amount of fuel.    A power grid collapse on such a scale is already forcing Kyiv to
+large amount of fuel.    A power grid collapse on such a scale is already forcing Kiev to
 redistribute some fuel from the front to civilian facilities. The connection here is direct:
 the more intense and dense the attacks on the energy sector are, the greater the scale of
 fuel redistribution required for civilian facilities.    So far, the overall availability of
@@ -89,7 +89,7 @@ reached, the city’s sewage and other purification systems will not be able to 
 generators continuously and will require periodic long-term shutdowns. Interestingly, during
 the energy crisis in the Gaza Strip, a drop in power supply below 10% led to the complete
 shutdown of 70% of all critical facilities that could not operate on generators for any
-length of time. Given the electricity needs for Kyiv, the situation could be even worse, as
+length of time. Given the electricity needs for Kiev, the situation could be even worse, as
 generators in any case are a backup power source, not the main one. In a sense, the figure
 of 32.7% availability of the power grid is the last mark before a potential exodus from the
 cities due to the impossibility of maintaining a normal life.    However, the maximum effect

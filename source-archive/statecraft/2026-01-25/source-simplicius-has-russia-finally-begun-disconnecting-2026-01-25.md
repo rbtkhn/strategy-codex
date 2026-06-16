@@ -67,10 +67,10 @@ powering these three plants should send Ukraine into its final power grid death 
 Now that we’re caught up, let’s take a look at what allegedly happened last night. Russian
 hypersonic Zirkon, Iskander, and other missiles allegedly hit the major 750 kV substation
 linking the Rivne NPP to Kiev according to several unverified reports—this one from AMK :
-The main targets for this strike was Ukrainian energy infrastructure in Kyiv Oblast. The
-following was targeted:    CHP-6 Combined Heat and Power Plant, Kyiv Oblast (50.53188,
-30.66309) by ~2 Iskander-Ms.    CHP-5 Power & Heat and Power Plant, Kyiv Oblast (50.39403,
-30.56928) by ~2 Iskander-Ms.    “Kyiv” 750 kV electrical substation, Kyiv Oblast (50.49441,
+The main targets for this strike was Ukrainian energy infrastructure in Kiev Oblast. The
+following was targeted:    CHP-6 Combined Heat and Power Plant, Kiev Oblast (50.53188,
+30.66309) by ~2 Iskander-Ms.    CHP-5 Power & Heat and Power Plant, Kiev Oblast (50.39403,
+30.56928) by ~2 Iskander-Ms.    “Kiev” 750 kV electrical substation, Kiev Oblast (50.49441,
 29.69235) by ~5 Iskander-Ms, ~4 Kh-22/32s, and ~2 Zircons    Unknown target north of
 Radomyshl, Zhytomyr Oblast by ~2 Kh-22/32s and ~2 Kinzhals.    Unknown target near Pryluky,
 Chernihiv Oblast by ~2 Iskander-Ks    Unknown target near Samar, Dnipropetrovsk Oblast by ~1
@@ -83,7 +83,7 @@ appears Russia has hit this receiving-end station near Kiev, rather than the Riv
 adjacent 750 kV terminal. This appears to be the ‘safer’ choice for now so as not to damage
 the nuclear plant itself directly.   One commentator elaborates :   This substation is very
 important in the western Ukraine transmission grid as it connects the 750 kV Rivne and
-Khmelnytskyi NPPs with the two main 330 kV lines of the Kyiv urban agglomeration. However,
+Khmelnytskyi NPPs with the two main 330 kV lines of the Kiev urban agglomeration. However,
 the grid is resilient and there is another route via the substation close to Ternopil
 (Zahidne) then other 330kV lines. Finally, the Nalyvaikivka 750 kV substation is hundreds of
 km from any nuclear plant, so be careful of reports indicating Russia is targeting nuclear
@@ -100,7 +100,7 @@ between 12:52pm and 6:25pm on January 20th  Coordinates: 47.85645, 35.21813    A
 report lists a series of 330 kV and 110 kV stations which were attacked by drones:    Due to
 last night’s Geran-2 drone attacks, almost all of Chernihiv City, along with multiple other
 cities, were left without power.    Strikes were carried out on:    - “Slavutich” 330 kV
-electrical substation in the city of Slavutych (part of Kyiv Oblast, but primarily used for
+electrical substation in the city of Slavutych (part of Kiev Oblast, but primarily used for
 Chernihiv Oblast). 51.52364, 30.70781.    - “Nizhinska” 330 kV electrical substation in the
 city of Nizhyn. 51.0308, 31.95607.    - Either the “Bakhmach-2” or the “Bakhmach tranzytna”
 110 kV electrical substations in the city of Bakhmach. 51.17942, 32.85552 and 51.18858,

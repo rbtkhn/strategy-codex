@@ -79,6 +79,14 @@ When the operator corrects the same public-writing behavior **twice** in one ses
 
 Edit and extend this section as your taste evolves.
 
+### Place names (strategy-codex repo)
+
+- **Kiev, not Kyiv** — Normalize the capital to **Kiev** in archive cleanup, synthesis, agent drafts, and operator public copy.
+- **Kharkov, not Kharkiv** — Same register: normalize **Kharkiv** → **Kharkov**.
+- **Verbatim exception** — Preserve **Kyiv** / **Kharkiv** inside quoted headlines, wire lines, or official document text when the source spelling is load-bearing; use **Kiev** / **Kharkov** in operator framing around the quote.
+- **Enforcement** — [`.cursor/rules/strategy-codex-kiev-spelling.mdc`](../../.cursor/rules/strategy-codex-kiev-spelling.mdc); entity pass in `scripts/fix_statecraft_common_asr_entities.py` (Kiev: `kiev_*`; Kharkov: `kharkov_*` labels).
+- **Review (operator note):** reconsider Kyiv in **2050** if Ukraine is still an independent state.
+
 ### Voice and register
 
 - **No default persona** in the hub — you choose per piece. **When** tone or register is **ambiguous**, the agent should offer **multiple-choice** forks (short, scannable options) instead of assuming a single voice.

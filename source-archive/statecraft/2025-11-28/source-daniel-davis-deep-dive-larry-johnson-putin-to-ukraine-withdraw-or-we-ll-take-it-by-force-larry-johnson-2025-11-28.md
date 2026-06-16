@@ -566,7 +566,7 @@ Russia.
 Uh
 Russia was slow to react. Uh and and
 this is where you had the advances
-particularly up in Kharkiv where uh the
+particularly up in Kharkov where uh the
 Russians were forced to fall back, but
 led to the mobilization of 320,000
 in 2022. But at no point did the
@@ -1149,7 +1149,7 @@ said in the course of this year that uh
 territory that the Russian soldiers
 occupy in places like Dnipropetrovsk is
 currently not part uh of the Russian
-Republic. Neither is Kharkiv. Neither is
+Republic. Neither is Kharkov. Neither is
 Sumy. Neither is Poltava.
 Neither is Odessa.
 But he's made the point, if we start
@@ -1408,7 +1408,7 @@ some information that there were certain
 certain commanders out you know, getting
 getting savaged by the Russians that are
 talking about turning and marching on
-Kyiv.
+Kiev.
 No, I didn't that wasn't on our show.
 That's that's news to me. Yeah, so yeah,
 he

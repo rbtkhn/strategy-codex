@@ -520,7 +520,7 @@ we've seen Ukraine's loss of capability.
 They could mount an offensive in in 2022
 where they took back Kherson or forced
 the Russians to relinquish Kherson
-and Kharkiv.
+and Kharkov.
 We saw in 2023 they filed that so-called
 counteroffensive that tried to penetrate
 the Surovikin lines, failed,
@@ -919,12 +919,12 @@ we're going to continue moving into
 Dnipropetrovsk,
 Sumy,
 Poltava,
-Kharkiv, and Odessa. They're going to
+Kharkov, and Odessa. They're going to
 take them back.
-And they're going to take Kyiv.
+And they're going to take Kiev.
 That's where this is going to end.
 They'll, you know, we'll probably a year
-from now they'll be sitting in Kyiv.
+from now they'll be sitting in Kiev.
 And And there's nothing the west can do
 about it. You know, with that actually
 that's that's not just a Russian
@@ -933,7 +933,7 @@ London The Times this past Sunday
 published an op-ed piece where he says,
 "I hate to say this, but probably by the
 spring, I think Russia could be up to
-Kyiv." That's what he said. That's not
+Kiev." That's what he said. That's not
 any of of our commentary. That is
 somebody who's very much a pro-Ukrainian
 side is just looking at the fundamentals

@@ -56,7 +56,7 @@ Europe in you know 1945 there just wasn't much attention paid to it. That doesn'
 
  But very shortly thereafter, he was besieged by people who convinced him that I think of several things. First of all, he you can't do anything, President Trump unless it looks like a win for you. Other words, if you're going to go sign an agreement, it has to be a win for you. Uh everything has to be a win. Everything is seen as a contest in the private sector sense.
 
- You know, this is a real estate salesman. So, he sees everything as I've got to win. I can't lose. Uh, you know, I had urged him to just end all aid to this heinous regime in Kief and withdraw all all US military personnel and and civilians from Ukraine. Period. Get out. End it. Tell the Europeans we're out. We'll be happy to host a peace conference where you and the Russians can sit down and work out future borders, but we're not we're not going to stay.
+ You know, this is a real estate salesman. So, he sees everything as I've got to win. I can't lose. Uh, you know, I had urged him to just end all aid to this heinous regime in Kiev and withdraw all all US military personnel and and civilians from Ukraine. Period. Get out. End it. Tell the Europeans we're out. We'll be happy to host a peace conference where you and the Russians can sit down and work out future borders, but we're not we're not going to stay.
 
  He's now done a 180°ree turn. uh and he's going in the opposite direction. I think it's a serious mistake because I don't think Zelensky will last and as soon as Zelensky is out of business, that'll be the end of this agreement. Well, I was also noticed that with the 9th of May celebration, there's another ceasefire.
 
@@ -98,11 +98,11 @@ doesn't seem our political class fears it much at all. Uh indeed the whole idea 
 
  What what do you see happening at the moment? Well, I've always said that at some point the general staff would would tell President Putin that it would be useful to be on the the upper river line that you might you might as well just occupy and take all the territory up to that river line. It's a natural barrier.
 
- Uh for hundreds and hundreds of years it was the western frontier of Europe. Kief under the Polish Lithuanian Commonwealth was a fortress of the west. Uh once you passed Kief, once you pass that river, you were dealing with Tatars, uh Mongols, and Russians, you know, that's it. Uh so I think if I were if I were on the Russian general staff, that's what I would argue for.
+ Uh for hundreds and hundreds of years it was the western frontier of Europe. Kiev under the Polish Lithuanian Commonwealth was a fortress of the west. Uh once you passed Kiev, once you pass that river, you were dealing with Tatars, uh Mongols, and Russians, you know, that's it. Uh so I think if I were if I were on the Russian general staff, that's what I would argue for.
 
  This is a defensible river line that gives us a a buffer zone, if you will. uh and we are in a position to do whatever we need to against the western portion of Ukraine if it comes down to it. If anything's being demonstrated in this war is that the strike capability, precision strike capability, whether it's a drone or cruise missile or uh you know ballistic missile, theater ballistic or strategic, there's nothing they cannot hit and destroy.
 
- Uh, and if you occupy that river line and you are compelled at some point to cross it, well, you're already there. Other words, you're not moving from a few hundred miles back. You're right up on the river. And so, if you have to stage in order to cross to to extinguish whatever heinous regime comes to power in Kief, although I don't think Zelensky will last much longer, and if he does, he's not going to be replaced by something worse.
+ Uh, and if you occupy that river line and you are compelled at some point to cross it, well, you're already there. Other words, you're not moving from a few hundred miles back. You're right up on the river. And so, if you have to stage in order to cross to to extinguish whatever heinous regime comes to power in Kiev, although I don't think Zelensky will last much longer, and if he does, he's not going to be replaced by something worse.
 
  I think there'll be a more amanable group at some stage, but then you have that benefit. Now, the one thing that he can still do that he hasn't done is he can cross the river and attack from the north down into Odessa. Odessa historically was Russian, never Ukrainian. And if he did that, that would strangle Ukraine.
 

@@ -1703,13 +1703,13 @@ attempted incursion into Belgorod
 was another diversion of men and
 resources
 in order to try to
-cover up for the disaster in Kyiv
+cover up for the disaster in Kiev
 and it has achieved nothing.
 Now, further
 um south,
 the Russians have apparently established
 a very big and powerful bridgehead
-in northern Kharkiv region.
+in northern Kharkov region.
 They're now said to be just 3 km north
 of Kupiansk
 on the western bank

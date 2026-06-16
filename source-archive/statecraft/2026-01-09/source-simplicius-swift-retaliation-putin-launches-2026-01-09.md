@@ -80,7 +80,7 @@ Ukrainian cities experienced major to total power outages.    💥— Large-scal
 strikes on the energy infrastructure in Kiev have taken place, resulting in damage to 3 x
 Power Plants: TPP-4, TPP-5, and TPP-6.    Acc to local monitoring channels, up to 12
 Ballistic Missiles, 25 x Caliber Cruise Missilies and around 200 x Drones took part in the
-attacks    After a wave of missile attacks, Kyiv is experiencing serious problems with
+attacks    After a wave of missile attacks, Kiev is experiencing serious problems with
 electricity, water supply, and heating. There are communication outages. Problems on the
 railway have also begun, but they were already observed yesterday, they have just worsened
 now.    The even bigger story is the fact that Dnipro and Zaporozhye—both cities of nearly

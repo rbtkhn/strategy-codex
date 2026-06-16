@@ -32,10 +32,10 @@ same thing, as the West’s intel agencies are generally one overlapping arm of 
 deep state managed by the same interests—one need only to research the history of the CIA’s
 foundation to understand this fact.    Not surprisingly, the new revelations include the
 fact that Ukraine’s strikes on Russia’s “shadow fleet” tankers were likewise aided by the
-CIA.    Kyiv was using its explosive-laden long-range naval drones to blow holes in the
+CIA.    Kiev was using its explosive-laden long-range naval drones to blow holes in the
 ships, opening a new front in the war to cut off Russia’s largest source of funding and
 strengthen its negotiating position at US-led peace talks.    According to US and Ukrainian
-officials, the CIA was authorised to assist Kyiv’s military in these efforts, despite the
+officials, the CIA was authorised to assist Kiev’s military in these efforts, despite the
 risk of angering Putin’s regime.    The problem is, these attacks have done little more than
 make the situation worse for Ukraine , not Russia. They have resulted in Russia’s own
 escalation, for instance the current hellacious licking that Odessa is getting, both to its

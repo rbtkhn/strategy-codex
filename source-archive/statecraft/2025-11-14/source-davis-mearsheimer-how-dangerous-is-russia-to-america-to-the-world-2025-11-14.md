@@ -21,9 +21,9 @@ It's entirely possible, though not guaranteed, that this war could come to an en
 
 We like to always look beyond just what's in front of our nose here because so often times that can be the most important thing. To try to help us make sense out of what's coming and to put things in context, we have the amazing John Mearsheimer, international relations theorist, professor of political science at the University of Chicago, and big-time friend of the show. John, welcome back as always.
 
-Glad to be here, and thank you for your kind words, Danny. Well, listen, you know, this war I don't want to be premature and say that the war is over, but given the over the continuing growth of evidence that shows that things are trending in the Russian side, and I could go on a whole detail analysis of the front line from Zaporizhzhia all the way up to the Kharkiv area.
+Glad to be here, and thank you for your kind words, Danny. Well, listen, you know, this war I don't want to be premature and say that the war is over, but given the over the continuing growth of evidence that shows that things are trending in the Russian side, and I could go on a whole detail analysis of the front line from Zaporizhzhia all the way up to the Kharkov area.
 
-Bakhmut, of course, that's in the news. Kharkiv Oblast is in the news. Kupiansk is in the news. All of these are moving in the Russia's direction. We could talk a lot about that, too. But, I want to actually pull back just a wee bit to the operational level first of all because it was a video released just about an hour and a half ago, actually, from from our time here.
+Bakhmut, of course, that's in the news. Kharkov Oblast is in the news. Kupiansk is in the news. All of these are moving in the Russia's direction. We could talk a lot about that, too. But, I want to actually pull back just a wee bit to the operational level first of all because it was a video released just about an hour and a half ago, actually, from from our time here.
 
 And Putin I'm sorry, that Lavrov was asked a question about the terms about the ending of the war. One of the things he said was we haven't changed. The The He specifically brought up which something you and I sought many times is the June 14th, 2024 terms set by Putin which were demilitarization, denazification, the no NATO, and then some territorial issues, and some other issues related to the people and their rights within whatever's left of Ukraine.
 
@@ -34,7 +34,7 @@ How else should one relate to this person? That is why Nazism is an undeniable I
 
 And that seems to be what he's talking about there. But, that's one of the big ones, the denazification, because what they've said and and then the context of those comments there, it was root causes which he says many, many times, of course. All of them do. But, that's one of the big ones, the denazification.
 
-What What do you think if you're If you're a Westerner, if you're a Kievan, what do you hear when you hear him say denazification in terms of the Zelenskyy regime sitting in Kyiv today? Well, definitely means he wants to get rid of the Zelenskyy regime. And more generally, he wants to change the basic nature of the regime.
+What What do you think if you're If you're a Westerner, if you're a Kievan, what do you hear when you hear him say denazification in terms of the Zelenskyy regime sitting in Kiev today? Well, definitely means he wants to get rid of the Zelenskyy regime. And more generally, he wants to change the basic nature of the regime.
 
 I think this goal is unachievable. I think the main three goals that the Russians seek and may be able to achieve are number one to uh make sure that Ukraine doesn't join NATO. Number two, possibly get Ukraine and the West to accept annexation of some territory. And number three, agree to reduce the offensive potency of the uh Ukrainian military.
 
@@ -189,7 +189,7 @@ He was talking about let's keep giving Ukraine all this stuff and the bombing ca
 
 We've had those conversations with the Ukrainians about what they need and I know that's ongoing and you know, clearly helping them survive the winter is important just from on a humanitarian ground. The challenge is that Ukraine's energy grid has been diminished each year.
 
-So each year they started a lower baseline than the year before. Now I think in Kyiv for example, upwards of 50 to 60% of the day is spent without electrical power and they've done a tremendous job of sort of rerouting their grid and trying to work around it but that also means there are hours of the day where you can't there's no water. There's no electricity.
+So each year they started a lower baseline than the year before. Now I think in Kiev for example, upwards of 50 to 60% of the day is spent without electrical power and they've done a tremendous job of sort of rerouting their grid and trying to work around it but that also means there are hours of the day where you can't there's no water. There's no electricity.
 
 You have to schedule business and life activities around that and that's clearly part of Russia's strategy is to try to collapse morale within Ukraine and the will to fight. So, you you know, we've we've That's why we've been in discussions with them about defensive weapons to be able to protect their grid.
 
@@ -225,7 +225,7 @@ And again, this gets back to that whole story that you showed where the Russians
 
 And Danny, if I can make one final point on this, you want to remember that now that Finland is in NATO, the Russians have to worry about their border with Finland. And they are doing things to reinforce that border because that is a border with an important NATO state. So, when you think about what's going on here, the potential for more and more trouble down the road is endless.
 
-Uh it certainly is. And let when when you say that the your Russians will win an ugly victory, but not a complete destruction of the state of Ukraine, uh do you I I think we've talked in the past that you say basically up to the Dnieper River to include Odessa maybe in the south and Kharkiv in the north.
+Uh it certainly is. And let when when you say that the your Russians will win an ugly victory, but not a complete destruction of the state of Ukraine, uh do you I I think we've talked in the past that you say basically up to the Dnieper River to include Odessa maybe in the south and Kharkov in the north.
 
 I mean, what what do you consider the limit of advance? I'd take about 40% uh if I were in Putin's shoes, right? I mean, you you you know, again, it's it's worth repeating this even though you and I have talked about it many times. Because the West is unwilling to accommodate the Russians in any way, uh and the West is still interested in wrecking Russia as a great power.
 
