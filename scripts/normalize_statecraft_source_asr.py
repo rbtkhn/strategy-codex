@@ -26,6 +26,16 @@ from fix_statecraft_common_asr_entities import apply_replacements as apply_entit
 
 TRANSCRIPT_HEADINGS = ("## Transcript", "## Full transcript", "## Cleaned Transcript")
 FM_RE = re.compile(r"^---\s*\n.*?\n---\s*\n", re.DOTALL)
+EDITORIAL_NOTE_RE = re.compile(r'^editorial_note:\s*"?(.+?)"?\s*$', re.DOTALL)
+SOURCE_NOTE_RE = re.compile(r"^source_note:\s*(.+)$", re.MULTILINE)
+PRESERVE_EDITORIAL_MARKERS = (
+    "trimmed",
+    "sponsor",
+    "stripped",
+    "subscribe",
+    "cold open",
+    "promo",
+)
 
 
 def split_transcript(md: str) -> tuple[str, str | None]:
@@ -40,7 +50,39 @@ def split_transcript(md: str) -> tuple[str, str | None]:
     return md, None
 
 
-def patch_frontmatter(fm_block: str, *, sub_count: int) -> str:
+def _parse_quoted_field(line: str) -> str:
+    raw = line.split(":", 1)[-1].strip()
+    if raw.startswith('"') and raw.endswith('"'):
+        return raw[1:-1]
+    return raw.strip('"')
+
+
+def _merge_editorial_note(existing: str | None, sub_count: int) -> str:
+    base = (
+        f"AI-assisted ASR repair (common + series tiers + statecraft entity pass); "
+        f"{sub_count} substitutions; not human-verified verbatim; verify before quotation."
+    )
+    if not existing:
+        return base
+    low = existing.lower()
+    if any(marker in low for marker in PRESERVE_EDITORIAL_MARKERS):
+        return f"{base} Prior provenance: {existing.rstrip('.')}."
+    return base
+
+
+def _append_source_note_asr_pass(fm_block: str, today: str) -> str:
+    marker = f"ASR pass {today}"
+    if marker in fm_block:
+        return fm_block
+    match = SOURCE_NOTE_RE.search(fm_block)
+    if not match:
+        return fm_block
+    old = match.group(1).strip().strip('"')
+    new_val = f"{old} · {marker}."
+    return fm_block[: match.start()] + f'source_note: "{new_val}"' + fm_block[match.end() :]
+
+
+def patch_frontmatter(fm_block: str, *, sub_count: int, prior_editorial: str | None = None) -> str:
     today = date.today().isoformat()
     lines = fm_block.splitlines()
     body_lines: list[str] = []
@@ -49,6 +91,7 @@ def patch_frontmatter(fm_block: str, *, sub_count: int) -> str:
     if lines and lines[-1].strip() == "---":
         lines = lines[:-1]
     seen_kind = seen_norm = seen_type = seen_edit = seen_quality = False
+    captured_editorial: str | None = prior_editorial
     for line in lines:
         if line.startswith("kind:"):
             body_lines.append("kind: cleaned-transcript")
@@ -63,10 +106,8 @@ def patch_frontmatter(fm_block: str, *, sub_count: int) -> str:
             seen_norm = True
             continue
         if line.startswith("editorial_note:"):
-            body_lines.append(
-                'editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); '
-                f"{sub_count} substitutions; not human-verified verbatim; verify before quotation.\""
-            )
+            if captured_editorial is None:
+                captured_editorial = _parse_quoted_field(line)
             seen_edit = True
             continue
         if line.startswith("quality_note:"):
@@ -80,13 +121,12 @@ def patch_frontmatter(fm_block: str, *, sub_count: int) -> str:
         body_lines.insert(1 if not seen_kind else 2, "transcript_type: ai_assisted_operator_pasted_youtube_transcript")
     if not seen_norm:
         body_lines.append("normalization_state: ai_assisted_proper_noun_cleanup")
-    if not seen_edit:
-        body_lines.append(
-            'editorial_note: "AI-assisted ASR repair; not human-verified verbatim; verify before quotation."'
-        )
+    merged_edit = _merge_editorial_note(captured_editorial, sub_count)
+    body_lines.append(f'editorial_note: "{merged_edit}"')
     if not seen_quality:
         body_lines.append(f'quality_note: "ASR normalization pass {today}; ph-civ replacement SSOT."')
-    return "---\n" + "\n".join(body_lines) + "\n---"
+    block = "---\n" + "\n".join(body_lines) + "\n---"
+    return _append_source_note_asr_pass(block, today)
 
 
 def run(path: Path, *, series: str | None, write: bool) -> int:
@@ -96,26 +136,39 @@ def run(path: Path, *, series: str | None, write: bool) -> int:
         print(f"{path}: no transcript heading found", file=sys.stderr)
         return 1
 
+    prior_editorial: str | None = None
+    fm_match = FM_RE.match(raw)
+    if fm_match:
+        for line in fm_match.group(0).splitlines():
+            if line.startswith("editorial_note:"):
+                prior_editorial = _parse_quoted_field(line)
+                break
+
     series_resolved = detect_series(path) if series == "auto" else series
     new_body, n = normalize_transcript_text(body, series=series_resolved)
     new_body, entity_counts = apply_entity_re(new_body)
     n += sum(entity_counts.values())
 
-    if n == 0:
+    body_changed = new_body != body
+    should_patch_fm = write and fm_match is not None
+
+    if n == 0 and not body_changed and not should_patch_fm:
         print(f"{path}: no substitutions (series={series_resolved!r})")
         return 0
 
-    if head.startswith("---"):
-        fm_match = FM_RE.match(head)
-        if fm_match:
-            new_fm = patch_frontmatter(fm_match.group(0).rstrip("\n"), sub_count=n) + "\n"
-            head = new_fm + head[len(fm_match.group(0)) :]
+    if should_patch_fm:
+        new_fm = patch_frontmatter(
+            fm_match.group(0).rstrip("\n"),
+            sub_count=n,
+            prior_editorial=prior_editorial,
+        ) + "\n"
+        head = new_fm + head[len(fm_match.group(0)) :]
 
-    new_text = head + new_body
+    new_text = head + (new_body if body_changed else body)
 
     print(
         f"{path}: {n} substitution(s) (series={series_resolved!r}); "
-        f"entity={dict(entity_counts)}"
+        f"entity={dict(entity_counts)}; body_changed={body_changed}; fm_patched={should_patch_fm}"
     )
     if write:
         path.write_text(new_text, encoding="utf-8", newline="\n")
