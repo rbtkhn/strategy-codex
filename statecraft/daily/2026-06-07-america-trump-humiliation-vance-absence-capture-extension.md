@@ -21,7 +21,7 @@ June 6 and June 7 agree Washington **performs command** while **client veto and 
 - June 6 Macgregor: Israel retains "veto power"; Trump in a "dark room without any windows."
 - June 6 McGovern: partial Beirut restraint ≠ Lebanon war stop; Netanyahu leverage + lobby encirclement.
 - June 6 Freeman: deals run "at referendum first to Trump then to... Netanyahu."
-- June 7 Nima: Trump says he told Netanyahu not to attack Iran and "I'm running the show"; Israel attacks anyway; "Benjamin Nadia just humiliating him."
+- June 7 Nima: Trump says he told Netanyahu not to attack Iran and "I'm running the show"; Israel attacks anyway; "Benjamin Netanyahu just humiliating him."
 
 All treat public Trump–Netanyahu rupture as **non-falsifying by itself**.
 

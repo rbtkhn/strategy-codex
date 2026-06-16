@@ -61,7 +61,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **6 Rhetorical moves** | Claim skepticism | Tanker/transponder math `[iran]` | Skepticism about transponder-off passage + arranged reports · [`2026-06-11`] | Escalation ladder enumeration as primary |
 | **6 Rhetorical moves** | Military–political gap | Orders vs battlefield `[iran]` | “impossible orders from Trump… pretending… situation… is better than it really is” · [`2026-06-11`] | Legal exposure / who pays |
 | **6 Rhetorical moves** | Source archaeology | Conference unattributed `[dual]` | Beijing drone supply chain; withhold identity when no permission · [`2026-06-11`] | Barnes projection filter |
-| **6 Rhetorical moves** | Battlefield sourcing | Ryabkov/Raovka tier `[ukraine]` | Raovka Lyman reporting with nationalist-source caveat · [`2026-06-11`] | Iran seam orthogonality row |
+| **6 Rhetorical moves** | Battlefield sourcing | Ryabkov/Readovka tier `[ukraine]` | Readovka Lyman reporting with nationalist-source caveat · [`2026-06-11`] | Iran seam orthogonality row |
 | **7 Format** | Conference-short program | Travel situational frame `[iran]` | Russia conference opener + Iran section before Ukraine pivot · [`2026-06-11`] | Davis long-form host dyad |
 | **7 Format** | Duran co-reference | Colleague citation `[iran]` | “program that Alex Christoforou and I have just done on the Duran” · [`2026-06-11`] | Solo Carlson guest validator |
 | **7 Format** | Ukraine map monologue | Deep battlefield paragraph `[ukraine]` | Lyman/Slavansk connurbation arc · [`2026-06-11`] | Domestic Fox-fear stack |

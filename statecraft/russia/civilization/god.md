@@ -24,7 +24,7 @@ The statecraft use is to ask whether a proposal touches Russia's sacred continui
 
 ## Statecraft Signals
 
-- **Orthodox / Rus inheritance:** recognition disputes involving Rus memory, Kiev / Kyiv, Orthodoxy, Moscow, or civilizational inheritance are never merely territorial.
+- **Orthodox / Rus inheritance:** recognition disputes involving Rus memory, **Kiev**, Orthodoxy, Moscow, or civilizational inheritance are never merely territorial.
 - **Identity without sovereignty:** some Russian red lines come from the fear that political loss becomes civilizational erasure; this does not mean every sovereignty claim is sacred.
 - **Sacral ratification after force:** Moscow and Muscovy show that power may be gathered coercively and legitimated later. Treat sacred language as a force multiplier, not always as the original cause.
 - **Managed-periphery refusal:** clauses that make Russia look tutored, dissolved, spiritually defeated, or externally administered activate sacred refusal even when material terms are negotiable.

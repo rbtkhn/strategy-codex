@@ -66,7 +66,7 @@ When a new Wang Yi hit appears, classify it before using it:
 
 Use these as starting surfaces, not an exhaustive set:
 
-- **Mercouris / China supports Iranian sovereignty:** [2026-03-06 Mercouris](../../../../../years/2026/provenance/2026-03-06/source-alex-mercouris-iran-destroyed-us-mideast-ad-radars-oil-crisis-aragchi-russia-china-help-2026-03-06.md)
+- **Mercouris / China supports Iranian sovereignty:** [2026-03-06 Mercouris](../../../../../years/2026/provenance/2026-03-06/source-alex-mercouris-iran-destroyed-us-mideast-ad-radars-oil-crisis-Araghchi-russia-china-help-2026-03-06.md)
 - **Mercouris / China-Russia coordination with Lavrov:** [2026-04-15 Mercouris](../../../../../years/2026/provenance/2026-04-15/source-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
 - **Mercouris / Pakistan initiative and Chinese backing:** [2026-04-02 Mercouris](../../../../../years/2026/provenance/2026-04-02/source-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md)
 - **Gao / China behind-the-scenes peace pressure:** [2026-04-24 Haiphong / Gao](../../../../../years/2026/provenance/2026-04-24/source-haiphong-gao-brutal-warning-trump-iran-china-2026-04-24.md)

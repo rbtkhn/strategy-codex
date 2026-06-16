@@ -54,7 +54,7 @@ June 15 Deep Dive owns:
 - **No White House text** — NYT morning: still no release; Trump characterizations vs Iranian releases
 - **Vance $24B waffle** — “doesn’t appear anywhere in any of the texts”; open to “talk about” unfreezing; Marandi band **$10–12B** upfront may be “technically true” evasion
 - **JCPOA trust frame** — Iran won’t capitulate for promises after tear-up; **2 years** to JCPOA vs **60-day** Keane fantasy; proxies/missiles “never going to happen”
-- **Hormuz leverage logic** — why would weaker power surrender chokepoint that brought US to table; Mandi: fees forever
+- **Hormuz leverage logic** — why would weaker power surrender chokepoint that brought US to table; Marandi: fees forever
 - **Lebanon as kill switch** — Smotrich/Gantz freedom-of-action; Hezbollah conditional hold; point 1 all-fronts halt; **80%** something Israel–Hezbollah before Friday; **0%** long-term survival once terms public
 - **Domestic sellability** — $10B+ vs Obama $1.7B mockery; $300B reparations Iranian media = non-starter; terms release = ammunition to Levin/Graham
 - **Stockpile / credibility** — Hegseth denial vs math (PAC-3 production ~650/yr vs thousands expended); adversaries **not fooled**

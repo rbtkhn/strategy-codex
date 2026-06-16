@@ -111,7 +111,7 @@ That vocabulary usually has four parts: a statement of what exposure has actuall
 | authority form | role in memory | statecraft lesson |
 | --- | --- | --- |
 | Rurik / Varangian-Novgorod founding order | first dynasty-and-route memory; authority as imposed or invited order over river trade, tribute, and local elites | settlement language should remember that Russian state memory begins with order-making across dispersed routes, not only with modern borders. |
-| Kievan Rus | dynastic, Orthodox, legal, and river-route inheritance; Rus as civilization before later state centers divide | recognition disputes involving Kiev / Kyiv, Orthodoxy, law, and inheritance are never merely territorial. |
+| Kievan Rus | dynastic, Orthodox, legal, and river-route inheritance; Rus as civilization before later state centers divide | recognition disputes involving **Kiev**, Orthodoxy, law, and inheritance are never merely territorial. |
 | Mongol / Golden Horde pressure | tribute, survival, centralization, steppe-security discipline, and the memory of subordination | Russian security language often treats external management as existential because tribute memory turns dependence into humiliation. |
 | Muscovy | gathering of lands, autocracy, Orthodox legitimacy, frontier defense, and liberation-from-tribute memory | clauses that ignore central authority, frontier buffers, or Orthodox / sovereign legitimacy can read as state-dissolving pressure. |
 | Russian Empire / Romanovs | great-power recognition, borderland management, warm-water access, administrative-military reach, and European status | recognition formulas must distinguish legitimate great-power voice from unlimited imperial veto. |

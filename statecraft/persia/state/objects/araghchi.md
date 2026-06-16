@@ -36,13 +36,13 @@ Araghchi matters here because the Iran lane needs to know which Iranian signals 
 Track Araghchi across all raw-inputs, not only Parsi, Marandi, Ritter, or Mercouris.
 
 ```powershell
-rg -n "Araghchi|Araqchi|Abbas Araghchi|Abbas Araqchi|Iranian foreign minister" codex/years
+rg -n "Araghchi|Araghchi|Abbas Araghchi|Abbas Araghchi|Iranian foreign minister" codex/years
 ```
 
 Snapshot from the first object pass:
 
-- `codex/years` contains 161 local files with an Araghchi / Araqchi / Iranian foreign minister match.
-- `source-archive/statecraft` contains 151 local files with an Araghchi / Araqchi / Iranian foreign minister match.
+- `codex/years` contains 161 local files with an Araghchi / Araghchi / Iranian foreign minister match.
+- `source-archive/statecraft` contains 151 local files with an Araghchi / Araghchi / Iranian foreign minister match.
 
 Treat these counts as a refreshable search snapshot, not as a fixed source set.
 
@@ -67,7 +67,7 @@ Use these as starting surfaces, not an exhaustive set:
 - **Parsi / blockade and bargaining pressure:** [2026-05-01 Substack](../../../../../years/2026/provenance/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md)
 - **Parsi / regional architecture proposal:** [2026-05-03 Substack](../../../../../years/2026/provenance/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md)
 - **Mercouris / Russia-China-Iran channel:** [2026-04-15 Mercouris](../../../../../years/2026/provenance/2026-04-15/source-russia-intensify-china-tankers-putin-xi-2026-04-15.md)
-- **Mercouris / Araghchi to Moscow:** [2026-04-25 Mercouris](../../../../../years/2026/provenance/2026-04-25/source-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md)
+- **Mercouris / Araghchi to Moscow:** [2026-04-25 Mercouris](../../../../../years/2026/provenance/2026-04-25/source-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-Araghchi-to-moscow-won-t-talk-2026-04-25.md)
 
 ## Statecraft Uses
 
