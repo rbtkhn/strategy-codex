@@ -2,10 +2,24 @@
 
 WORK only; not Record.
 
-Status: Active checklist
-Surface: `civ-state`
-Purpose: turn the six-part CIV-STATE doctrine into a bounded retrieval discipline before lane translation or clause drafting
-Last updated: 2026-05-26
+Status: Active checklist  
+Surface: `civ-state`  
+Purpose: turn the six-part CIV-STATE framework into a bounded retrieval discipline before lane translation or clause drafting  
+Last updated: 2026-06-15
+
+## Framework shelf map
+
+The six terms route through three pair pages plus chronology:
+
+| Pair | Shelf page | Passes in this checklist |
+|------|------------|--------------------------|
+| civilization ↔ empire | [Form](framework/form.md) | §1 Civilization · §2 Empire |
+| faith ↔ science | [Truth](framework/truth.md) | §3 Faith · §4 Science |
+| memory ↔ desire | [Memory](framework/memory.md) | §5 Memory · §6 Desire |
+| (motion law) | [Rhythm](framework/rhythm.md) | use when phase placement governs |
+| (era law) | [Time](framework/time.md) | use when form-historical shelf choice governs |
+
+Whole-work index: [framework/README.md](framework/README.md).
 
 ## Purpose
 
@@ -69,6 +83,8 @@ If the object fails early, stop and route before pretending all six are necessar
 
 ## 1. Civilization pass
 
+**Pair page:** [Form](framework/form.md) · see also [Rhythm](framework/rhythm.md) when beautify → amplify → degrade placement governs.
+
 Ask first:
 
 - what civilizational inheritance is at stake
@@ -88,6 +104,8 @@ Default router:
 
 ## 2. Empire pass
 
+**Pair page:** [Form](framework/form.md).
+
 Ask next:
 
 - what outward instrument is carrying the object
@@ -102,6 +120,8 @@ Name the empire object in one line:
 - instrument without durable legitimacy
 
 ## 3. Faith pass
+
+**Pair page:** [Truth](framework/truth.md).
 
 Ask next:
 
@@ -118,6 +138,8 @@ Name the faith object in one line:
 
 ## 4. Science pass
 
+**Pair page:** [Truth](framework/truth.md).
+
 Ask next:
 
 - what technical, procedural, expert, managerial, or cybernetic order authorizes the actor's claim
@@ -133,6 +155,8 @@ Name the science object in one line:
 
 ## 5. Memory pass
 
+**Pair page:** [Memory](framework/memory.md) — not lane `state-memory` alone.
+
 Ask next:
 
 - what memory the actor is preserving, replaying, or defending
@@ -147,6 +171,8 @@ Name the memory object in one line:
 - memory preserving continuity under pressure
 
 ## 6. Desire pass
+
+**Pair page:** [Memory](framework/memory.md).
 
 Ask next:
 
@@ -183,7 +209,7 @@ After the six-part pass, choose the right next surface.
 
 ### If civilization is clearly governing
 
-Return to:
+Return to [Form](framework/form.md), then:
 
 - [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local)
 - lane civilization surfaces
@@ -191,7 +217,7 @@ Return to:
 
 ### If empire is clearly governing
 
-Return to:
+Return to [Form](framework/form.md), then:
 
 - [CIV-STATE Source Retrieval Matrix](indexes/source-retrieval-matrix.md)
 - relevant lane `empire/`, `state/`, or `helix` surfaces
@@ -199,21 +225,21 @@ Return to:
 
 ### If faith is clearly governing
 
-Return to:
+Return to [Truth](framework/truth.md), then:
 
 - [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local) first
 - then lane-local `god`, `lit`, or adjacent legitimacy objects
 
 ### If science is clearly governing
 
-Return to:
+Return to [Truth](framework/truth.md), then:
 
 - procedural, technical, governance, verification, or implementation surfaces
 - current carriers and mechanism design
 
 ### If memory is clearly governing
 
-Return to:
+Return to [Memory](framework/memory.md), then:
 
 - lane `state-memory`
 - continuity-sensitive family notes
@@ -221,7 +247,7 @@ Return to:
 
 ### If desire is clearly governing
 
-Return to:
+Return to [Memory](framework/memory.md), then:
 
 - mutation and escalation sheets
 - prestige, overreach, novelty, or appetite diagnostics

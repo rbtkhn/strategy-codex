@@ -287,7 +287,7 @@ Each CIV-STATE source object should be short and usable. It should include:
 ## Orientation Doctrine
 
 - [Civilizational Statecraft Framework](framework/README.md) - the active higher-order orientation frame for CIV-STATE (Form · Truth · Memory).
-- [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md) - bounded operator pass for deciding which layer or pair actually governs a live object before lane translation or clause drafting.
+- [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md) - bounded operator pass mapped to **Form · Truth · Memory** pair pages before lane translation or clause drafting.
 - [Power, Truth, Time](power-truth-time-annex.md) - superseded active shorthand retained only as historical residue and genealogy.
 - [Power, Truth, Time Retrieval Checklist](power-truth-time-retrieval-checklist.md) - superseded checklist retained only as historical residue.
 
