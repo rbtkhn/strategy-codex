@@ -37,7 +37,7 @@ that the American plan
 um Kellogg plus or Kellogg minus,
 whichever you prefer to call it, the
 plan which was rejected outright by
-President Zalinski over the course of
+President Zelensky over the course of
 last week and which caused a
 collective blast of horror from the
 European leadership. Um I suggested that
@@ -153,13 +153,13 @@ again or rather to resume direct negoti
 negotiations negotiations which Ukraine
 basically walked out of in April
 2022 and prohibited itself from
-conducting further by Zalinsk's decree
+conducting further by Zelensky's decree
 of October
 2022 but of which the Russians have
 repeatedly said they are ready to engage
 in. They have never as they repeatedly
 point out point out ruled out
-negotiations even whilst Zalinski
+negotiations even whilst Zelensky
 remains as they would say de facto
 president of Ukraine though as the
 Russians have also made clear they don't
@@ -702,8 +702,8 @@ movement from the Russian side, but the
 Russians have said that they're prepared
 to agree to direct talks with the
 Ukrainians. Now, I believe that Trump
-told Zalinski when they met in Rome that
-Zalinski should get on and start direct
+told Zelensky when they met in Rome that
+Zelensky should get on and start direct
 talks with the
 Russians. The Ukrainians have made no
 such move. They continue to refuse all
@@ -712,7 +712,7 @@ continue to demand more and more
 sanctions on Russia. They've been doing
 this continuously.
 There's an article in the British media
-today by Andre Yermach, Zalinsk's chief
+today by Andre Yermach, Zelensky's chief
 of staff which takes a completely
 unyielding position not just on the
 subject of talks but continues to insist
@@ -759,7 +759,7 @@ prepared to budge on the question of
 talks. Notice that in all the time that
 negotiations with the Russians have been
 floated, the idea of negotiations with
-the Russians have been floated, Zilinski
+the Russians have been floated, Zelensky
 has never
 wavered on his refusal to resend his
 October 2022 decree, which in
@@ -1526,11 +1526,11 @@ future, though probably not very far in
 the future. But in the meantime, there
 is unquestionably a major crisis for the
 Ukrainians north of south of
-Constantinfka as well. Now to repeat
+Konstantinovka as well. Now to repeat
 again, the Russians claimed back in
 January that they'd captured Toretsk,
 south of
-Constantinfka. The Ukrainians
+Konstantinovka. The Ukrainians
 then spun stories that they were still
 fighting in Toretsk. They then launched
 various counterattacks against the
@@ -1566,12 +1566,12 @@ Chasya in a village called
 Stupski which apparently um is close to
 the main supply lines and that they have
 also entered the two remaining micro
-districts of Chasfya
+districts of Chasiv Yar
 um which um which the
 Ukrainians will have will struggle to
 defend.
 There are s some suggestions that this
-long battle of Chasfya could be over um
+long battle of Chasiv Yar could be over um
 within about a week or so may be in time
 for the Russian celebrations on the 9th
 of May. Though I would stress again that
@@ -1582,46 +1582,46 @@ campaigns around any political events
 just to say. But anyway that's the
 information from Chasufyar. Um if
 Chasufya were to fall
-then Raovka did a very interesting
+then Readovka did a very interesting
 analysis of the military situation. To
-repeat again Raovka is a Russian
+repeat again Readovka is a Russian
 newspaper. So obviously they report in
 events from a Russian point of view. But
-Raidovka said that if Chasfya falls,
+Readovka said that if Chasiv Yar falls,
 then the entire Ukrainian defense
-position south of Constantinfka will
+position south of Konstantinovka will
 become
 untenable and that the Ukrainians will
 be left with no option but to withdraw
-their forces into Constantinfka itself
+their forces into Konstantinovka itself
 because trying to hold the ground south
 of
-Constantinfka would
+Konstantinovka would
 risk putting placing the Ukrainian
 troops
-south of Constantinfka into a cauldron.
+south of Konstantinovka into a cauldron.
 So, one could see how with the events
 around the Oscll River and with these
-events south of Constantinfka,
+events south of Konstantinovka,
 um the Russians could be fairly soon in
 a position to launch an attack on
-Constantinfka and on the other cities
+Konstantinovka and on the other cities
 that make up the um
 Slavansk
-Constantinoka connibation. And of
+Konstantinovka connibation. And of
 course, as the Russians have themselves
-pointed out, if they do control chasy
+pointed out, if they do control Chasiv Yar
 and indeed Toretsk, they will control
 all the high ground with all the
 advantages in terms of artillery fire
 and that kind of thing which that
 brings. And well, there's also been more
 reports around about the situation in
-Pakovsk and around Pakosk. the Russians
+Pokrovsk and around Pakosk. the Russians
 continuing to advance
 um make
-advances northeast of Pakovsk but also
-doing so west of Pakovsk as well.
+advances northeast of Pokrovsk but also
+doing so west of Pokrovsk as well.
 Now there's been a number of reports in
 the media in the west. Um one in the
 Wall Street Journal I believe which
@@ -1680,7 +1680,7 @@ course of May, the Russian advance uh
 offensive will probably begin in earnest
 and that the Ukrainians are in a
 precarious position to deal with it. So
-that is the military reality. Zilinski,
+that is the military reality. Zelensky,
 by the way, continues to talk about
 attacks on Moscow. At least that was my
 interpretation of his words. He spoke of

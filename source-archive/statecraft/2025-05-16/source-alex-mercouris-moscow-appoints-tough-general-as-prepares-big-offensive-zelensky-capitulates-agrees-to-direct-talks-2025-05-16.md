@@ -179,7 +179,7 @@ words, the current negotiating team.
 Well, we've now had negotiations between
 the Ukrainians and the Russians. The
 October 2022 decree has not been
-rescended and Zalinski himself did not
+rescended and Zelensky himself did not
 participate in the discussions. He was
 not there in the Domal Bach palace. He
 went back from Anchora where he went he
@@ -190,7 +190,7 @@ friends Karma and I presume Mackron and
 Matz who I believe certainly in Star's
 case are also there in Albania. So
 nothing none of the conditions that
-Zalinski has set
+Zelensky has set
 down prior to the start of direct
 negotiations between Russia and Ukraine
 have been fulfilled. There is no
@@ -202,7 +202,7 @@ the Ukrainians are conducting the the
 negotiations and he is not
 himself involved. It would
 seem on the face of it that not only is
-everything that Zalinski has been saying
+everything that Zelensky has been saying
 for the
 last two plus years um been set aside,
 thrown into the dust bin. But his own
@@ -221,7 +221,7 @@ madness has persisted today though maybe
 some of it is quietly abating. Now, the
 first thing to say is that throughout
 yesterday, this incredibly disruptive
-behavior that Vladimir Zalinski has been
+behavior that Vladimir Zelensky has been
 engaged in throughout the last week, in
 fact, many would say throughout the last
 three plus years, but certainly
@@ -264,7 +264,7 @@ at 10:00 yesterday morning. Then it was
 put back to
 6 pm in the
 afternoon. Of course, no meeting took
-place because Zilinski wasn't going to
+place because Zelensky wasn't going to
 send his negotiating team to Istanbul.
 He kept everybody guessing about whether
 he was going to send any sort of
@@ -286,7 +286,7 @@ gave Vlad Vladimir Putin
 uh a two-day ultimatum to agree a 30-day
 ceasefire, warning him of sanctions if
 he didn't.
-Anyway, Zalinski was clearly promised
+Anyway, Zelensky was clearly promised
 those sanctions on that day. He was led
 to believe that the United States was in
 agreement with that policy and would
@@ -315,11 +315,11 @@ seriously to achieve peace. This even as
 a Russian
 delegation is has been kept waiting for
 a whole day in a different city in
-Turkey from the one that uh Zalinski
+Turkey from the one that uh Zelensky
 chose to go to. Kept waiting for a whole
 day before the Ukrainians finally showed
 up.
-So the fact that Zalinski spoke in this
+So the fact that Zelensky spoke in this
 furious manner after his meeting with
 Erdogan, the fact that he's now flying
 to Trana to Albania to meet with his
@@ -328,7 +328,7 @@ hugs and comfort and reassurance.
 Well, that brings us back to what must
 have happened over the course of that
 threehour meeting with Erdogan
-because as far as I can tell, Zalinski
+because as far as I can tell, Zelensky
 came to Turkey with no intention of
 engaging the Russians in any kind of
 negotiation. He didn't want to meet with
@@ -353,11 +353,11 @@ probably trying to get Erdogan to come
 over to his side to get Erdogan perhaps
 to put pressure on Putin to come to
 Istanbul to meet with um
-Zalinski probably with a hope that Putin
+Zelensky probably with a hope that Putin
 would refuse. news and that
 Erdogan and Trump and all of the others
 would then move forward and give
-Zilinski the uh sanctions against Russia
+Zelensky the uh sanctions against Russia
 that he wanted. Well, he then met
 encountered when he finally met with
 Erdogan an Erdogan who was clearly not
@@ -370,7 +370,7 @@ row. No doubt Erdogan who has good
 relations at least at the moment with
 Trump was in regular touch with Trump
 and with the Americans.
-And what Zalinski probably
+And what Zelensky probably
 experienced over the course of his
 meeting with
 Erdogan was something akin to the third
@@ -379,25 +379,25 @@ Turks and indirectly through Erdogan by
 the Americans that he absolutely did
 need to send a delegation to negotiate
 with the Russians today. And he ducked
-and weaved and knowing what Zalinski is
+and weaved and knowing what Zelensky is
 like, he was probably quite rude. And
 for all I know, it went beyond that.
 though of course I wasn't present in the
 meeting so I don't know I don't know
 whether they were raised raised voices
-but with Zalinski that is perfectly
+but with Zelensky that is perfectly
 likely but eventually after three
 gruelling hours and 3 hours is a very
 very long time for a meeting as I said
 it clearly shows acrimony and difficulty
 over the course of the meeting anyway
-out after those three hours Zalinski
+out after those three hours Zelensky
 realized that he had no choice but to
 send a delegation to meet with the
 Russians in Istanbul.
 Um I don't know what the Turks and the
 Americans said to him, but of course
-Zilinski knows perfectly well the
+Zelensky knows perfectly well the
 extraordinary power that Trump has over
 him and over Ukraine. He must recall how
 in March after the disastrous Oval
@@ -410,9 +410,9 @@ again. No doubt and quite plausibly over
 the course of the meeting. Um the
 European leaders were contacted. They
 were probably told by the Americans and
-the Turks also to get Zalinski to come
+the Turks also to get Zelensky to come
 round. And one way or the other,
-Zalinski found that he was left with no
+Zelensky found that he was left with no
 choice but to send his delegation
 to
 Istanbul, which he did in the evening
@@ -439,7 +439,7 @@ happened. Now obviously to some extent I
 am speculating but I do think these
 speculations are um without foundation a
 three-hour meeting and bear in mind that
-Zalinski was only in anchor for 5 hours
+Zelensky was only in anchor for 5 hours
 a three-hour meeting is a very long
 meeting indeed especially if as was
 certainly the case in this instance
@@ -457,7 +457,7 @@ in Britain on this whole topic. Um he
 has now written a fine piece on his
 blog, The
 Peacem, in which he says that from this
-point on, the best thing for Zalinski to
+point on, the best thing for Zelensky to
 do is to stay out of the negotiations
 entirely, not involve himself any
 further in the negotiations, to let the
@@ -466,7 +466,7 @@ work this out together and to see
 whether a consensus between them might
 be reached. That is going to prove
 extraordinarily difficult. But if
-Zilinski involves himself directly in
+Zelensky involves himself directly in
 the discussions, then one can absolutely
 guarantee that these discussions would
 go will go nowhere. We will get
@@ -479,15 +479,15 @@ touched upon it in a program that um we
 did on the Duran, which you will find on
 the Duran probably later today, which is
 that
-Zalinsk's behavior is all of the peace
-with the way that Zalinski behaves. But
+Zelensky's behavior is all of the peace
+with the way that Zelensky behaves. But
 what is unfathomable, what is truly
 extraordinary is that everybody else
 involved in this crisis, the Russians,
 the Europeans, the Americans, the Turks,
 everybody instead
 of telling
-Zilinski to shut up, tolerates this sort
+Zelensky to shut up, tolerates this sort
 of behavior from him. I understand that
 there is sympathy for him. I understand
 that he is the leader of an embattled
@@ -519,7 +519,7 @@ and possibly the United States to keep
 them there and to let them stay. But
 anyway, many and I suspect some people
 in Moscow will ask why do the Russians
-continue to indulge Zalinski in this
+continue to indulge Zelensky in this
 manner? For the record, I think they
 were right to do so and I think they've
 come out looking better and stronger as
@@ -534,14 +534,14 @@ February, Trump and Vance and the
 Americans responded in the only
 appropriate way to this kind of
 disruptive behavior one gets from
-Zilinski. But the
+Zelensky. But the
 Europeans in
 particular, instead
 of pushing
-back, instead of telling Zalinski this
+back, instead of telling Zelensky this
 sort of behavior is outrageous and
 cannot be
-tolerated, instead of telling Zalinski
+tolerated, instead of telling Zelensky
 that ultimately you are the leader of
 Ukraine, you make a decision either when
 you get a proposal like the one you got
@@ -553,7 +553,7 @@ Istanbul, resend your October 2022
 decree and send a proper accredited
 delegation to meet with the Russians.
 That was the proper appropriate choice
-or choices that a leader in Zalinsk's
+or choices that a leader in Zelensky's
 position might have followed. You don't
 put on the extraordinary display that
 we've seen put on over the last week.
@@ -701,9 +701,9 @@ purpose of the discussions for the
 moment is to agree a 30-day ceasefire
 and that they're not for the moment
 prepared to discuss any other matters.
-That is what Zalinski has told them.
+That is what Zelensky has told them.
 That is the remit they have from
-Zalinski and for the moment at least
+Zelensky and for the moment at least
 they're not prepared to go beyond it. So
 that was the position that the two sides
 took. The position is completely
@@ -734,7 +734,7 @@ have such diametrically opposed views
 whether there has been any agreement for
 a future meeting. Just saying I suspect
 if it was left to
-Zalinski the answer would be no.
+Zelensky the answer would be no.
 But Turkey has moved heaven and earth to
 get this meeting going. I think the
 Turks will not be happy if the
@@ -768,7 +768,7 @@ It doesn't seem to have achieved
 anything other than to have the two
 sides restate their views, but it is a
 meeting. It is a meeting nonetheless.
-Zalinski didn't want it. He's moved
+Zelensky didn't want it. He's moved
 heaven and earth to try to avoid it.
 He's been forced to agree to it. He's
 now going to no doubt go out and say
@@ -783,7 +783,7 @@ impose the massive sanctions on Russia
 that he has been insisting upon and
 which he thought he was promised on
 Saturday as night follows day. That is
-what Zalinski is going to say or so I
+what Zelensky is going to say or so I
 expect.
 Anyway, we will see what happens and we
 will see what the outcome of all of this
@@ -804,7 +804,7 @@ difficult to bend and manipulate Trump.
 That's my way of describing it, not the
 uh bend and manipulate Trump to their
 own
-purposes. And that Zalinski himself is
+purposes. And that Zelensky himself is
 becoming tired. um even though he's
 bearing up with it and he feels that
 he's having to play sim simultaneous
@@ -815,7 +815,7 @@ and that though he's feels able to do it
 he's finding it more and more difficult
 to keep up with it. That at least was my
 what I got the sense I got from the
-article in Dpaggel. So Zalinski will try
+article in Dpaggel. So Zelensky will try
 to speak of today's negotiations as a
 failure.
 He's going to hope that if that view is
@@ -827,7 +827,7 @@ promised and which he hopes will then
 fully commit Donald Trump to support
 indefinite support for himself and for
 Ukraine. So that's I suspect
-Zalinsk's approach. The
+Zelensky's approach. The
 Russians will want this whole
 negotiation process to go forward. They
 will want further meetings
@@ -933,9 +933,9 @@ their way out of this mess without
 instead of perhaps simply walking away,
 then the party they need to negotiate
 with is Russia. They
-can't let Vladimir Zalinski conduct the
+can't let Vladimir Zelensky conduct the
 negotiation for them because
-Zilinski putting aside his the
+Zelensky putting aside his the
 eccentricities of his
 personality. Anyway, his objective is to
 keep them committed, to keep them
@@ -961,7 +961,7 @@ Um, let's see how it all comes together.
 I'm going to finish with one little
 point before I move on to the military
 situation. And that is that um
-Zalinski's people I notice are now busy
+Zelensky's people I notice are now busy
 spreading yet another narrative. This is
 that the Istanbul negotiation of Mar
 February March April 2022 was a failure.
@@ -1002,7 +1002,7 @@ they rejected the terms that had
 been in principle
 agreed in Istanbul in April 2022 and
 which as I said their representatives
-with Zalinsk's full backing
+with Zelensky's full backing
 initial they simply walked away from the
 discussions and spent the next three
 years basically pretending that those
@@ -1050,7 +1050,7 @@ compatible with the known facts which on
 the contrary clearly show that an
 agreement in principle on those
 supposedly maximalist Russian demands
-was in fact reached. Zalinski and his
+was in fact reached. Zelensky and his
 people of course are saying all of that
 now because they don't want
 to they don't want to accept that they
@@ -1312,7 +1312,7 @@ try to move towards negotiations with
 the
 Ukrainians. But with the Americans
 hostile to negotiations and with
-Zilinski emphatically opposing
+Zelensky emphatically opposing
 negotiations, it was easy for the
 Russians to swat all those calls away.
 So the Russians were able to focus fully
@@ -1448,11 +1448,11 @@ Kurakov, the fall of
 Civer will probably have a similar
 effect enabling the Russians to capture
 places like
-Constantinfka and Dujifka
+Konstantinovka and Dujifka
 um important communities in this area as
 they gradually press forward with their
 attack on
-Constantinfka. And a little to the west
+Konstantinovka. And a little to the west
 of Civer, there's
 Leman, which the Russians also briefly
 captured for a period in 2022, but which
@@ -1484,7 +1484,7 @@ Leman will also fall to the Russians and
 fall very fast. And um Stanislav Kunik
 told us on the Direan that the fall of
 Leman opens the way for the capture of
-of places like Kamatsk. It is the high
+of places like Kramatorsk. It is the high
 ground Slavansk sorry it is the high
 ground relative to these places. Now
 there's been a lot there's been more
@@ -1499,7 +1499,7 @@ They appear to believe that there are
 one or two places still left, but um
 probably not more than one or two
 buildings. Um it looks as
-if the central area of Chasy has finally
+if the central area of Chasiv Yar has finally
 fallen. There may be other locations
 around Chasufyar, some of the outlying
 micro districts where some fighting
@@ -1515,18 +1515,18 @@ Even more consequential in some way is
 the gathering catastrophe and I this
 isn't a
 understatement which is the Ukrainian
-defenses around Pakovsk and
-Constantinfka. The battle of
-Constantinfka is becoming very very
+defenses around Pokrovsk and
+Konstantinovka. The battle of
+Konstantinovka is becoming very very
 confusing. The Russians have taken up
 all kinds of positions around the
-southern arc of Constantinfka. Of
+southern arc of Konstantinovka. Of
 course, if they capture um Chasuya, once
 they finish the capture of Chasuya,
 um they will be located to the east of
-Constantinfka as well and they will
+Konstantinovka as well and they will
 occupy the high ground around
-Constantinfka. Um anyway, it is a
+Konstantinovka. Um anyway, it is a
 confusing and muddling battle. The
 Russians have taken more positions north
 of Toretsk. Apparently that will prevent
@@ -1537,9 +1537,9 @@ Ukrainian defenses south of Toretsk are
 fragmenting and are starting to crumble.
 And there are some claims that the
 Ukrainians are retreating into the urban
-area of um Constantinfka
+area of um Konstantinovka
 itself because their defenses south of
-Constantinoka are no longer viable
+Konstantinovka are no longer viable
 anymore. In which
 case, very much like what we're seeing
 in
@@ -1554,9 +1554,9 @@ Bakros and
 Mirnograd and that the Russians
 have continued to control
 territory perhaps even parts of the
-southern builtup area of Pakovsk.
+southern builtup area of Pokrovsk.
 itself and it all points to a Russian
-potential Russian attack on Pacross
+potential Russian attack on Pokrovsk
 starting to develop perhaps over the
 next few weeks. Constantine falls and if
 Pakross

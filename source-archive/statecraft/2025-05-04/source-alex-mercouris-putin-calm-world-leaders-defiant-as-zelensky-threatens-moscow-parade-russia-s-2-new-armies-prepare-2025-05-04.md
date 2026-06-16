@@ -135,20 +135,20 @@ leaders who will be attending will be
 President Lula of Brazil. Um there are
 now reports that he has repeatedly
 rejected all attempts by
-Zalinski to have meetings with him. Um
+Zelensky to have meetings with him. Um
 there
 is frankly bad feeling between these two
 men. Um, I believe that it was at the G7
 meeting in Tokyo to which Lula was
-invited that Zalinski turned up and
+invited that Zelensky turned up and
 demanded a meeting with Lula and Lula
 agreed. And well, when the meeting was
-due, Zalinski failed to show up. And
+due, Zelensky failed to show up. And
 Lula was furious and has never forgotten
 it or forgiven it. And it seems that
 just as he's rejecting messages from um
-Zalinski, he's also refusing to meet
-with Zilinski and telling Zalinski that
+Zelensky, he's also refusing to meet
+with Zelensky and telling Zelensky that
 he should focus instead on his American
 and Europe European friends and not
 bother Lula at all. But Lula is going to
@@ -297,7 +297,7 @@ of important leaders going to Moscow.
 Now, one leader who was not invited to
 Moscow has figuratively speaking gate
 crashed the meeting and that of course
-predictably is President Zalinski of
+predictably is President Zelensky of
 Ukraine. He has made statements over the
 last couple of days
 which convey the strong impression that
@@ -314,7 +314,7 @@ have to say I find that absolutely
 outrageous. And Ian Proud, the former
 British diplomat, has written a fine
 piece about this. and its title is,
-"Will anyone criticize Zilinsk's threat
+"Will anyone criticize Zelensky's threat
 to attack the Moscow Victory Day
 parade?" And I I'll read some extracts
 from it. This is all on in Prz's uh
@@ -354,19 +354,19 @@ direct negotiations with Ukraine and
 that the United States appears to be
 supporting that
 position and um
-then Ian Proud turns to Zalinsk's
+then Ian Proud turns to Zelensky's
 threats and these are his words. We are
 choosing precisely those saw points in
 Russia that will most prompt Moscow to
 diplomacy now that they are worried that
 their parade is in question and they are
 right to be worried. Those are
-Zilinski's words and Ian Proud says this
+Zelensky's words and Ian Proud says this
 is beyond contemptable.
-Zalinski claims that this threat is
+Zelensky claims that this threat is
 about pressuring Russia to agree to a
 diplomatic solution, but that is absurd.
-As Zalinski will well know, an attack on
+As Zelensky will well know, an attack on
 Moscow on victory day would lead to a
 sharp escalation of the war from the
 Russian side. It would destroy any hope
@@ -374,7 +374,7 @@ of diplomacy.
 and um Ian proud. Then what goes on goes
 on to say what concerns me at
 greatly is that western leaders have not
-distanced themselves from Zilinsk's
+distanced themselves from Zelensky's
 comments. I have seen no words of rebuke
 from leaders in London, Berlin, Paris or
 Washington. Why have they not condemned
@@ -391,10 +391,10 @@ British celebrate victory over Germany,
 the British army would be mobilizing and
 we'd be gearing up for World War II.
 Instead,
-Zalinsk's outburst is greeted with
+Zelensky's outburst is greeted with
 indifference.
 How have we become so morally imu
-reduced that we have imbued Zalinski
+reduced that we have imbued Zelensky
 with such impunity that he can wage a
 war at our expense and take every step
 imaginable to prolong the war with
@@ -415,7 +415,7 @@ and entirely predictably and consistent
 with the entire pattern of this
 conflict, there is total silence.
 Western leaders have nothing to say.
-They're not concerned that Zalinski
+They're not concerned that Zelensky
 makes threats of this kind. Threats to
 attack a parade attended by President
 Cining, President Lula, um other world
@@ -426,8 +426,8 @@ leaders entirely silent about
 this, but of course, so is the media
 also. I have not seen anywhere in the
 Western media a single comment, a single
-report of Zalinsk's words. It's as if
-Zalinski never said this. If
+report of Zelensky's words. It's as if
+Zelensky never said this. If
 um there's been a decision simply not to
 report these words of Zilinskis, I
 simply don't know. But one way or the
@@ -435,7 +435,7 @@ other, and not for the first time,
 Western publics are
 being terribly
 misinformed, including about the po the
-personality of Vladimir Zalinski
+personality of Vladimir Zelensky
 himself. Anyway, there we go. Now
 the person at the center of the victory
 day parade in Moscow is of course
@@ -527,7 +527,7 @@ still in the last two years of Donald
 Trump's first term. Half of which period
 by the way is accounted for by the
 president presidency of lat of President
-Zalinski who um of course was
+Zelensky who um of course was
 elected on a platform of seeking peace
 with Russia. So it looks as if
 um throughout the time when Donald Trump
@@ -864,15 +864,15 @@ all of these world leaders are coming to
 Moscow, why Cishin Ping is in Moscow,
 why Lula prefers to speak with Putin as
 opposed to
-Zalinski, why um, Prime Minister Modi of
+Zelensky, why um, Prime Minister Modi of
 India was intending to go to Moscow and
 why he too clearly has immense
 disrespect for Putin and by the way, as
 far as I can tell, unalloyed contempt
-for Zalinski. It's notable that after
+for Zelensky. It's notable that after
 their brief meeting in Kiev last year,
 uh Modi has
-avoided um Zalinski as if Zalinski was
+avoided um Zelensky as if Zelensky was
 an infectious disease. Anyway, um I
 think that one of the reasons all of
 these world
@@ -886,20 +886,20 @@ They at least are grateful to him for
 doing so. I think they fully understand
 how dangerous the whole situation was. I
 think they contrast the kind of wild man
-statements that come from Zalinski every
+statements that come from Zelensky every
 day. And not just statements, by the
 way, but also actions. They certainly
 are aware of this extraordinary threat
-that Zalinski has made about the May 9th
+that Zelensky has made about the May 9th
 victory parade. They compare the two
-leaders, Putin and Zalinski. And in any
+leaders, Putin and Zelensky. And in any
 comparison of leaders, that inevitably,
 by the way, runs to a comparison between
 two countries. If the leader of one
 country appears to be a sober, calm and
 reasonable person and the leader of
 another country is a leader who behaves
-like Vladimir Zalinski.
+like Vladimir Zelensky.
 Well, inevitably uh the leaders the
 other leaders of the global community
 will
@@ -907,19 +907,19 @@ measure assess each of these countries
 by the quality of the leader that leads
 them. So that is why all of these
 leaders are going to the victory parade
-in Moscow. Zalinski, by the way, did try
+in Moscow. Zelensky, by the way, did try
 to organize his own um leaders event in
 Kiev, which he intends to hold on the
 8th of May, despite the fact that
 Ukraine was part of the Soviet Union and
 tens of millions of Ukrainians served in
 the Red Army and victory day for the Red
-Army is on the 9th of May. Zilinski and
+Army is on the 9th of May. Zelensky and
 the Maidan movement and government have
 chosen to commemorate victory day on the
 8th of May which of course follows the
 western
-calendar. But anyway, Zilinski tried to
+calendar. But anyway, Zelensky tried to
 hold a similar rival event in
 Kiev and from what I can see all of the
 leaders of the global south chose to
@@ -942,14 +942,14 @@ and I hope that nothing like that comes
 and
 well I will go back to what Ian Proud
 says. I hope this is from Ian Proud. I
-hope that Zalinski is bluffing with his
+hope that Zelensky is bluffing with his
 latest inflam inflammatory threat. But
 what would we do if Ukraine did launch
 attacks on Moscow on Victory Day? would
 we condemn it? And then he goes on to
 say, I hope in that situation we would
 withdraw all support from Ukraine,
-pressure Zalinski to step down, ushering
+pressure Zelensky to step down, ushering
 long overdue elections while talking to
 Russia to prevent a quick escalation to
 World War II. I worry, however, that we
@@ -1728,7 +1728,7 @@ Airborne Guards Division, whereas
 Ukraine has been s repeatedly sending
 reinforcements to try to hold high
 positions, the high ground in the area
-of Chasy. They're still doing it even
+of Chasiv Yar. They're still doing it even
 now, even as they've lost control of
 nearly all of the key points in the
 city. And it's been suggested again that
@@ -1744,12 +1744,12 @@ has mobilized 2 million men as of July
 2023 and that the number should be
 approaching 3 million by now. Most
 estimates place the Ukrainian field army
-at about 1 million men while Zalinski
+at about 1 million men while Zelensky
 has claimed to be fielding
 880,000. And he then points out
 that
 the
-figure of 43,000 that Zalinski has
+figure of 43,000 that Zelensky has
 claimed
 as Ukrainian
 dead is not one to be taken seriously.

@@ -27,7 +27,7 @@ Otherwise, I have to accept the fact that I'm increasingly wanting to accept tha
 
 So all of these things go together plus the fact that he seems to think that this kind of bombass if it is him writing it and it is him saying it or suggesting to someone to write it along those lines it's his technique for negotiation he's trying to force Putin back to some kind of arrangement where they can get together and have a deal.
 
-um he had a choice here a few days ago, I think, between moving on and closing down Ukraine completely and therefore meeting essentially Putin's initial demands to go into talks with Trump even individually, not even including Zalinski. I don't think Putin gives a damn about Zalinski. I don't think Trump does either really.
+um he had a choice here a few days ago, I think, between moving on and closing down Ukraine completely and therefore meeting essentially Putin's initial demands to go into talks with Trump even individually, not even including Zelensky. I don't think Putin gives a damn about Zelensky. I don't think Trump does either really.
 
 Um he's just an impediment to a deal on both sides. Um and and then Trump also had the choice of just walking away entirely. Well, many of us thought the people I speak to both inside and outside the administration and commentators like Scott and Larry and others thought he was walking away. Well, how do you walk away and rail like this? You're not really walking away if you're railing like this.
 
@@ -53,7 +53,7 @@ Putin has already told you there will be no ceasefire, there will be no negotiat
 
 Is it Washington? Is it the United Kingdom? Is it all the European countries together with with Washington? Because if they could achieve that and killing Vladimir Putin, what would that mean for the conflict in Ukraine? I don't think it would mean a thing except that that would put the hardliners if if you will. I don't like that term, but I guess it suffices.
 
-It it would put the more uh robust support of the war people in the Duma and elsewhere. It would put them uh in the driver's seat to do what probably Putin I think has been a restraint on. Uh there would be no more restraints. In other words, bye-bye Keefe. Um you want some arrestic missiles down on top of you, Voldemir Zalinski? Welcome.
+It it would put the more uh robust support of the war people in the Duma and elsewhere. It would put them uh in the driver's seat to do what probably Putin I think has been a restraint on. Uh there would be no more restraints. In other words, bye-bye Keefe. Um you want some arrestic missiles down on top of you, Voldemir Zelensky? Welcome.
 
 We'll give you some. Um I think the war would get more robust from the Russian position and it would do so almost overnight if you got rid of Putin. Putin is prudent. Putin is circumspect. Putin wants a better relationship with the United States. I'm not so sure. There are too many Putin's in that regard in Moscow.
 
@@ -202,7 +202,7 @@ Um, I I wouldn't put anything past BB. I wouldn't put anything past him. I I kno
 
 He doesn't sense it. And what he's doing is doubling and tripling down on the draconian measures that he takes instead of relaxing a bit because I think he feels like like the dictator riding the tiger. You know, he feels like if he dismounts the tiger will eat him. If he stays on the tiger, he'll die.
 
-But he'd rather stay on the tiger and not go to jail. And oh, by the way, he'd like to take on Iran in the process. He'd like to whip the tiger into an attack on Thran. Um, and that's what scares me about the situation because I do not believe that Donald Trump, as he has said, won't be with him. I mean, Donald Trump apparently has said that he will not back Netanyahu in a war against Iran.
+But he'd rather stay on the tiger and not go to jail. And oh, by the way, he'd like to take on Iran in the process. He'd like to whip the tiger into an attack on Tehran. Um, and that's what scares me about the situation because I do not believe that Donald Trump, as he has said, won't be with him. I mean, Donald Trump apparently has said that he will not back Netanyahu in a war against Iran.
 
 Was that a negotiating ploy? Was that the truth? I I don't know. But my guess would be that if Netanyahu gets Israel in a true existential mess visa v Iran, then the United States will be there. I'm told, Lima, I'm told by competent people that the strike packages are already assembled, that the jets are ready, that the plan is intact, approved, and all it takes is the word and it starts.
 

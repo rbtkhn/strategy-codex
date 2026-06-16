@@ -565,7 +565,7 @@ guarantee that the negotiations will be
 su
 successful. He spokes he speaks about
 the loathing that the Ukrainians and the
-Russians Putin and Zalinski feel for
+Russians Putin and Zelensky feel for
 each other.
 But nonetheless, and despite that,
 negotiations of some kind are still
@@ -634,7 +634,7 @@ favor of Ukraine. We
 saw the investment fund stroke mineral
 rights extraction deal finally signed or
 one document of it signed. We saw that
-meeting between Trump and Zalinski in
+meeting between Trump and Zelensky in
 St. Peter's
 Basilica. We've had murmurss and rumors
 that the administration is very
@@ -966,9 +966,9 @@ direct negotiations between Ukraine and
 Russia
 ought to begin and that the Russians are
 ready for those
-negotiations. Zilinski of
+negotiations. Zelensky of
 course has
-rejected that idea. Zalinski insists on
+rejected that idea. Zelensky insists on
 a peace or ceasefire first and then
 negotiations only after without Ukraine
 making in the meantime any sort of
@@ -998,10 +998,10 @@ between himself and Putin that there
 should be direct negotiations between
 Russia and Ukraine. Now, that would
 indeed put a great deal of pressure on
-the Ukrainians, on Zilinski
+the Ukrainians, on Zelensky
 himself to agree to those
 negotiations. But again, judging from
-Zalinsk's behavior up to now, he will
+Zelensky's behavior up to now, he will
 almost certainly reject the demand and
 the Europeans almost certainly will back
 him. And it's unlikely that such a joint
@@ -1011,7 +1011,7 @@ negotiating process forward in any
 substantive way. In fact, we would be
 stuck in exactly the same position in
 which we are in at the present time.
-Perhaps at that point with Zalinski
+Perhaps at that point with Zelensky
 rejecting negotiations, direct
 negotiations with Russia, then maybe
 finally Trump will walk away from the
@@ -1036,19 +1036,19 @@ probably be appearing
 tomorrow is
 that
 Trump having essentially given an awful
-lot to Zilinski over the last two weeks,
-having given Zalinski
+lot to Zelensky over the last two weeks,
+having given Zelensky
 um the mineral rights investment deal,
 the investment fund deal, which I'm
 going to return to in a moment, having
 given a few dribbles of weapons to
-Zalinski, having given Zalinski that
+Zelensky, having given Zelensky that
 photo op of the meeting between Trump
-himself and Zalinski in St. Peters
+himself and Zelensky in St. Peters
 having Trump having done all of that
-he's also enormously boosted Zalinsk's
+he's also enormously boosted Zelensky's
 self-confidence. I discussed yesterday
-this extraordinary threat that Zalinski
+this extraordinary threat that Zelensky
 has made to attack the 9th May victory
 parade in Moscow. Now the Russians have
 reacted as one might imagine very
@@ -1075,14 +1075,14 @@ warning
 um would carry
 weight. Anyway, there are reports that
 privately the Europeans and the
-Americans have told Zilinski to calm
+Americans have told Zelensky to calm
 down and to stop making these kind of
 threats. And he does appear to have
 walked them back to some extent. He's
 now saying that it's the Russians, not
 him at all, who's to blame for all of
 the tension. But I'm going to suggest
-that given that Zalinski has seen things
+that given that Zelensky has seen things
 go his
 way for the last couple of weeks, he's
 not had to agree to negotiations with
@@ -1101,7 +1101,7 @@ is entirely unsurprising that
 he feeling
 confident, feeling that he is on a
 roll
-does the thing that Zalinski in these
+does the thing that Zelensky in these
 kind of situations always does. run away
 with his rhetoric make these kind of
 threats against u Russian parades. Um he
@@ -1113,11 +1113,11 @@ and he makes threats of this kind. That
 really ought
 to show to Trump, to the people in
 Washington, what an impossible person
-Zalinski is. It's baffling that they
+Zelensky is. It's baffling that they
 still haven't fully registered with
 this, that after the Oval Office meeting
 in February, they still imagine that
-Zalinski is some kind of potential
+Zelensky is some kind of potential
 negotiating partner and that they
 haven't taken further steps to reign him
 in. Maybe maybe if there is a meeting
@@ -1125,7 +1125,7 @@ with Putin over the next few weeks, that
 will be the moment when the United
 States finally does that. I have to say
 I have little expectation that that is
-so. Now, why is Zalinski so confident?
+so. Now, why is Zelensky so confident?
 Well, I've given some explanations, but
 I should say that I've had a discussion
 with my colleague and friend Alex
@@ -1312,7 +1312,7 @@ a different scale from anything I've
 ever seen. But you could see the same
 story play out in Ukraine again. And
 this gives us, I think, the clue to why
-Zalinski is so optimistic at the present
+Zelensky is so optimistic at the present
 time because the money flow looks like
 it's going to resume or perhaps he
 believes it will resume. And of course,
@@ -1326,12 +1326,12 @@ Ukrainian political elite who have been
 looking to him to provide them with the
 financial umbrella, if I can put it like
 that, that they are used to, they will
-now feel that Zalinski has indeed acted
+now feel that Zelensky has indeed acted
 to secure their interests with the
 Americans and is going to keep the money
 flowing. So that will bind them closer
 to
-Zilinski even than they already are. It
+Zelensky even than they already are. It
 will mean that his political position
 in
 Kiev, which has already looked stronger
@@ -1432,7 +1432,7 @@ ratify the document that has been
 published as a treaty between the United
 States and Ukraine if they're not seen
 if they're not given sight of these two
-other critical documents. Well, Zalinski
+other critical documents. Well, Zelensky
 is not producing the
 documents. He's simply saying to
 Ukrainian MPs that if you don't go ahead
@@ -1508,20 +1508,20 @@ getting much much
 worse. Now there are
 reports now that the Russians have made
 very big breakthroughs in the
-Constantinfka area and that the
+Konstantinovka area and that the
 situation there is moving rapidly
 towards
 crisis. Two, three, four, five. There
 are also reports of major Russian
-advances around Pacross. a very heavy
-shelling of Pacross and of continued um
+advances around Pokrovsk. a very heavy
+shelling of Pokrovsk and of continued um
 advances by the Russians most
 specifically in the village of Udachnia
-southwest of Pakovsk but along the
-railways from Kotlin towards Pakovsk
+southwest of Pokrovsk but along the
+railways from Kotlin towards Pokrovsk
 itself and well we're still uncertain as
 to what exactly is happening in southern
-Pakovsk where it looks as if a Russian
+Pokrovsk where it looks as if a Russian
 uh reconnaissance group um brief briefly
 entered the town or perhaps not so
 briefly maybe they're still there a
@@ -1538,7 +1538,7 @@ today trying to get it all together
 probably you can get a fairly detailed
 picture. My my sense again is as I said
 that especially in the
-Constantinovka Leman and Pakovsk areas
+Konstantinovka Leman and Pokrovsk areas
 things are now starting to move very
 fast. I saw that and our old friend
 Andre Marotk essentially says the same.
@@ -1555,7 +1555,7 @@ Republic zone of responsibility as well
 as the Dor Donet direction notably near
 to is of course his
 village just west of
-Civeres Solidar and Chasy. These are all
+Civeres Solidar and Chasiv Yar. These are all
 promising developments. And he said all
 of this in an interview that he gave to
 the um massive circulation Russian

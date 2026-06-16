@@ -66,7 +66,7 @@ You have leaders of various countries
 coming
 together to discuss Ukraine. The
 Ukrainians are nearly always there
-either Zalinski or in this particular
+either Zelensky or in this particular
 case the Ukrainian foreign minister
 Andre Ciga. Anyway, they're all there
 always. Um, in this particular meeting,
@@ -315,7 +315,7 @@ Ukraine. Um when they talk about
 security guarantees for Ukraine, well Ma
 Stalmer, Prime Minister Starmmer has
 spelled that out many times as has of
-course Vladimir Zalinski. But in
+course Vladimir Zelensky. But in
 StarMA's words, it means setting Ukraine
 on an irreversible course towards NATO.
 Now, all of this is a fantasy. It is a
@@ -462,32 +462,32 @@ prime minister what
 he says without naming names is made
 absolutely explicit by the man who the
 Europeans seem intent on embracing who
-is of course Vladimir Vladimir Zalinski.
-Now, Zalinsky has said absolutely
+is of course Vladimir Vladimir Zelensky.
+Now, Zelensky has said absolutely
 terrible things about Witito. Um,
 basically saying that Witito has fallen
 under Putin's spell, which is
 absurd. But he's also saying
 increasingly abusive things about the
 vice president JD Vance.
-It is clear that Vance and Zalinski have
+It is clear that Vance and Zelensky have
 developed an intense animus uh between
 each other. That was obvious during the
-Oval Office meeting when Zalinski under
+Oval Office meeting when Zelensky under
 his
 breath
 said something about Vance in Russian,
 which I'm not going to repeat or
 translate, but which was off the scale
 insulting just to say. But anyway,
-Zilinski continues to talk about the
+Zelensky continues to talk about the
 Americans in this way.
 and he gets no push back from the
 Europeans. On the contrary, you see that
 they are repeating his talking
 points. That's essentially what the
 French prime minister has now done. Even
-as the Zalinski accuses the Americans of
+as the Zelensky accuses the Americans of
 repeating Russian talking points, which
 is not true, by the way, the Europeans
 are starting to repeat
@@ -537,7 +537,7 @@ All of this leads me to the belief that
 the current thinking at least in Paris
 within Macron's circle is that if things
 go seriously wrong in Ukraine for the
-Ukrainians then Zilinski can declare an
+Ukrainians then Zelensky can declare an
 unilateral
 ceasefire, invite the British and French
 peacekeepers to come in. And there they
@@ -729,14 +729,14 @@ Do the European leaders really
 understand what they're doing? Why are
 they as obsessed with this conflict with
 Russia, with Ukraine as they are? Why
-have they embraced Zalinski to the
+have they embraced Zelensky to the
 extent that they have done? There's been
 a long article in Politico which I'm not
 going to read by the way u you can find
 it um which discusses the way in which
-the European leaders rallied to Zalinski
+the European leaders rallied to Zelensky
 after the row in the Oval Office. It
-seems that Zalinski after having that
+seems that Zelensky after having that
 bruising in inqu in in encounter with
 Trump and Vance in the Oval Office
 needed
@@ -744,7 +744,7 @@ reassurance. And so what did he do? He
 rushed off to Europe. He met first with
 Kier Starma. Well, you've all seen that
 those pictures of Starmer hugging
-Zalinski
+Zelensky
 um outside Dugging Downing Street. There
 was then he was then invited to the
 meeting in Paris there. Well, sorry.
@@ -756,7 +756,7 @@ which the British government uses
 sometimes to host foreign delegations
 and where, by the way, treaties are
 often signed.
-Anyway, the Zalinski was there with all
+Anyway, the Zelensky was there with all
 the other European leaders. He was the
 hero of the hour. He made all his
 various speeches and comments and said
@@ -775,8 +775,8 @@ then they were doing exactly what was
 calculated in order to antagonize him
 most, which is to embrace him at
 precisely the moment. to embrace
-Zilinski at precisely the moment when
-Zilinski had had that row with Trump in
+Zelensky at precisely the moment when
+Zelensky had had that row with Trump in
 the ad and Vance in the Oval Office. I
 suspect that Trump who is supposed to
 have a good memory for this sort of
@@ -786,7 +786,7 @@ beneath the surface. He's he's kept his
 irritation and his anger about it um
 under control, but I suspect that it is
 still very much there. Anyway, there it
-is. Um cling on to Zalinski, come up
+is. Um cling on to Zelensky, come up
 with fantastic plans to deploy European
 troops to Adessa and elsewhere in
 Ukraine. um engage the Russians in
@@ -1099,7 +1099,7 @@ period of the Biden administration has
 now
 left arsenals of critical weapons
 critically depleted.
-So, President Zalinski
+So, President Zelensky
 um
 demanded I mean I say demanded he asked
 but the way he asks it is it sounds more
@@ -1158,7 +1158,7 @@ or a direct grant has had to be dropped.
 Apparently the idea now is to provide
 Ukraine with just 5 billion euros. Um,
 so who is going to pay for the $50
-billion dollar dollars that Zalinski is
+billion dollar dollars that Zelensky is
 talking
 about in order to supply these missiles
 to
@@ -1444,7 +1444,7 @@ tourist missiles to Ukraine, they would
 simply collect dust because they cannot
 be used in the way that he expects them
 to be used. So the Europeans are
-encouraging Zilinski and the Ukrainians
+encouraging Zelensky and the Ukrainians
 to keep on fighting. They are holding in
 front of the Ukrainians the illusion of
 victory because an illusion is what it
@@ -1507,7 +1507,7 @@ ahead of a potential siege. But this is
 in some respects the smallest part of
 the story. Um it looks as if Ukrainian
 defenses south of
-Constantinovka, the
+Konstantinovka, the
 southernmost town of the Slavans
 Katausskin connibation
 um have now broken down. Again, I am not
@@ -1594,7 +1594,7 @@ ragged. And as we see, Ukraine cannot
 replace its losses with manpower and has
 lost the ability to replace its losses
 with equipment. So why are the Europeans
-continuing to give Zalinski comfort and
+continuing to give Zelensky comfort and
 support, telling him to go on fighting,
 telling him that only outright victory
 will

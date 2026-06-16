@@ -803,7 +803,7 @@ and I guess some of the funds that were
 supposed to be unfrozen have been
 unfrozen and are being returned to Iran.
 I don't know that for a fact. Did Did
-Professor Morandi say anything about
+Professor Marandi say anything about
 that today? No, he didn't mention that.
 No.
 Okay.

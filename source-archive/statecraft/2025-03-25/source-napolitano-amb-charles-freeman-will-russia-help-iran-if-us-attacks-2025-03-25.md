@@ -69,9 +69,9 @@ Well, there's a lot of evidence of deployments in the direction of uh of the Per
 
 So, if I were Iranian, I would take the the prospect of an attack by the United States very seriously. Uh and apparently they are taking it seriously. uh and they are redoubling their relationship with the Russians in particular um in support of their defense.
 
-What do you think the Kremlin will do if uh American B-52s show up over Thrron?
+What do you think the Kremlin will do if uh American B-52s show up over Tehran?
 
-Well, I don't think there's no alliance per se between uh Moscow and Thrron. So I think the Russian response would be quite cautious. The Russians are very much focused on at the moment on Ukraine and European security less so on West Asia as they showed when they were willing to abandon their protetéé Bashar al-Assad in in Syria. So I think the response would be um material support uh rather than a direct response against the United States.
+Well, I don't think there's no alliance per se between uh Moscow and Tehran. So I think the Russian response would be quite cautious. The Russians are very much focused on at the moment on Ukraine and European security less so on West Asia as they showed when they were willing to abandon their protetéé Bashar al-Assad in in Syria. So I think the response would be um material support uh rather than a direct response against the United States.
 
 But I have to say that such an attack would really uh do incredible damage to our reputation internationally. An undeclared war, as you said, well, apparently we no longer uh pay attention to the constitutional provisions uh under which we're theoretically governed. But internationally, this would be seen as an unprovoked assault on a major country aimed at consolidating Israeli supremacy uh in a sea of Arabs and and Muslims. Um and uh it would really uh consolidate the emerging uh detestation of us by much of the world.
 
@@ -83,7 +83,7 @@ How do you think um President Trump's efforts to reset the relationship between 
 
 Oh, I suspect you would keep talking because we are the only country that I know of. Um, until recently, we were the only country that I knew of um that considers not talking to be uh a useful form of diplomacy. So, uh you know, the British Well, that was when we had the worst secretary of state in the modern era. Well, that's right. Um, but you know, I mean, of course, uh, I recall a remark by President Nixon with which I agree. He he said, uh, it's not always better to talk than not to talk. It depends if you on whether you know what you're going to say. Um, and I would argue that it that the most important thing is not talking, it's listening, which we also don't haven't done.
 
-Okay, let let me rephrase my question. Would an American military support of an Israeli attack on Thrron impair American Russian relationships?
+Okay, let let me rephrase my question. Would an American military support of an Israeli attack on Tehran impair American Russian relationships?
 
 It would affect them very negatively because it would appear to demonstrate that uh that we are prepared to bully and and use force uh as a substitute for diplomacy and that will discredit diplomacy. I mean, the Russians are already very suspicious of us because of our breaking pledges that we made to them about not expanding NATO to the east, because of our our abrogation of treaties uh in the arms control area and other uh things in which they think they have been deceived by us. Um I think this would would really uh bring that to a point of no return.
 

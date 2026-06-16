@@ -676,7 +676,7 @@ Israelis intelligence on where the real
 critical elements were. Now, the
 Iranians, Iranians had fooled them.
 Thank thank goodness in the case of
-Thran they had they had fooled them um
+Tehran they had they had fooled them um
 and they didn't get really good
 information and we didn't really make a
 formidable attack on Iran despite
@@ -750,7 +750,7 @@ themselves that all the countries are
 going to go to 5% of their GDP. Ha,
 that's laughable. That's reasonable. I'm
 sorry. If you do that, every leader
-doing that from Merittz to Mcronone to
+doing that from Merittz to Macron to
 Starmer, you name them, will be thrown
 out of office by their own people
 because the reason they live today in
@@ -871,7 +871,7 @@ countries are blessed with that kind or
 cursed with that kind of situation, too.
 And France is cursed with its
 traditional historical problem. It can't
-rule itself. Mcronone has proved that.
+rule itself. Macron has proved that.
 So, we'll just have to see how Europe
 and the governments there play out. But,
 we've done a lot of damage. We've done

@@ -17,7 +17,7 @@ source_note: "Operator-pasted YouTube transcript; transcript-bearing but not hum
 ---
 # Seyed M. Marandi: Iran Just Warned: Next Attack Will Be MET WITH TOTAL OBLITERATION
 
-Hi everybody. Today's Saturday, May 16, 2026 and our dear friend, our brother, Professor Mendi, is here with us. Welcome back, Professor Mandi.
+Hi everybody. Today's Saturday, May 16, 2026 and our dear friend, our brother, Professor Mendi, is here with us. Welcome back, Professor Marandi.
 
 >> Hi, Nima. One of the very good things about you, Nima, is that you are very patient and tolerant, and I really apologize for for being so late. Uh it's uh it's my fault.
 
@@ -31,7 +31,7 @@ Hi everybody. Today's Saturday, May 16, 2026 and our dear friend, our brother, P
 
 I'm sure that he said about Iranian position and and with the case of the trade of form and the ongoing war between Iran and the United States. It was coordinated before between the two foreign ministers, Iranian foreign minister and Wang Yi, the Chinese foreign minister. And then we have Donald Trump going to China.
 
-From what we've heard so far, the announcement they were talking about basically two points of what in in that statement of white house was about the Strait of Hormuz. One of them was that we have to open up the straight of for the second one demilitarization of the Strait of Hormuz. I don't know if you because they were talking about the toll system that Iran is trying to define in this rate of model or has defined in this rate of for.
+From what we've heard so far, the announcement they were talking about basically two points of what in in that statement of white house was about the Strait of Hormuz. One of them was that we have to open up the straight of for the second one demilitarization of the Strait of Hormuz. I don't know if you because they were talking about the toll system that Iran is trying to define in the Strait of model or has defined in the Strait of for.
 
 >> Yeah.
 
@@ -111,7 +111,7 @@ So the Americans are really in in their obedience to the Zionist lobby and the Z
 
 But if that happens then I think uh what we're going to what what we can see ahead will be far worse than what the trajectory that we're we're now uh taking. In the statement of white house they basically talking about opening up the Strait of Hormuz and demilitarization. I see no problem with Iranian position with these two points.
 
-They don't they they want to open up the Strait of Hormuz and they have actually the main problem that Iran has today is militarization of the straight of form and what the United States is doing with the case of blockade. Is there any sort of disagreement with those two points in the statement of White House? You know, somehow summing up the meeting between Donald Trump and she well again there's no joint statement.
+They don't they they want to open up the Strait of Hormuz and they have actually the main problem that Iran has today is militarization of the Strait of Hormuz and what the United States is doing with the case of blockade. Is there any sort of disagreement with those two points in the statement of White House? You know, somehow summing up the meeting between Donald Trump and she well again there's no joint statement.
 
 So I think de opening the Strait of Hormuz is what Iran and China want and uh that's how we make money. That's how business is done. demilitarization. Iran didn't start the war and those destroying those US bases are a step towards demilitarization of the Persian Gulf. And the reason why Iran is going to control the Strait of Hormuz is not just for compensation for what these Arab regimes help do to Iran, but also to make sure that the the United States does not um uh make the Persian Gulf once again a military uh foothold for assaulting Iran.
 
@@ -285,7 +285,7 @@ I would say that I I would not take this seriously from them.
 
 >> Yeah.
 
->> Thank you so much Professor Mandi for being with us today. Great.
+>> Thank you so much Professor Marandi for being with us today. Great.
 
 >> Sorry Nema. I apologize to you. I apologize to every single one of your viewers and uh
 

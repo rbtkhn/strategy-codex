@@ -1355,7 +1355,7 @@ strike.
 >> The only country that is happy if
 something happens between Iran and the
 United States is Israel. And they're
-pushing so hard. They want it. And Netno
+pushing so hard. They want it. And Netanyahu
 is the one you know objective of his you
 know life and his final goal in my
 opinion is a war between Iran and the

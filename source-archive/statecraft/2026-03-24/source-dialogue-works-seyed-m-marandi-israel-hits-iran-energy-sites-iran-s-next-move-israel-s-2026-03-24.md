@@ -17,7 +17,7 @@ source_note: "Automated YouTube transcript fetch for Dialogue Works."
 
 Hi everybody. Today's Tuesday, March
 24th, 2026 and our dear friend or
-brother, Professor Mirandi is here with
+brother, Professor Marandi is here with
 us. Welcome back, Professor Moran.
 >> Thank you, Nema. It's always a pleasure
 being on your show. And once again, I
@@ -161,7 +161,7 @@ myself.
 So you know even though they were
 defeated what with in less than a year
 they started another war against Iran.
-Professor Morandi, we yesterday Donald
+Professor Marandi, we yesterday Donald
 Trump suddenly came out and he said, you
 know, after issuing an ultimatum of 48
 hours that he's going to attack the
@@ -774,7 +774,7 @@ people are not happy with Al Golani. If
 he joins the fight against Hezbollah,
 he's going to see some sort of
 resistance from within coming to and the
-other point, Professor Mandi, is that
+other point, Professor Marandi, is that
 Israel is talking about the Leonia River
 is the new border of Israel. And while
 you see the government in Lebanon saying
@@ -1111,8 +1111,7 @@ the security structure in the Persian
 Gulf region will have to change
 fundamentally. And of course there will
 be the constant uh compensation that
-Iran will get and they have the straight
-of hormones to use to get it. And uh you
+Iran will get and they have the Strait of Hormuz to use to get it. And uh you
 know this this change will have to
 include Iran's allies across the region.
 >> You mean the security architecture
@@ -1321,7 +1320,7 @@ Koreans should be thinking more
 carefully about the future of their
 relationship with the United States.
 >> Yeah.
-Thank you so much, Professor Mandi, for
+Thank you so much, Professor Marandi, for
 being with us today. Great pleasure.
 >> Thanks.
 >> It's a great pleasure being with you,

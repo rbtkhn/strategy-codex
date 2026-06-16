@@ -34,7 +34,7 @@ though people have disregarded the fact
 that in those same truth social posts
 he'd also made certain frankly
 uncomplentary comments about President
-Zalinski of Ukraine as well. But the one
+Zelensky of Ukraine as well. But the one
 that people remember, the one that
 stands out is the one in which he spoke
 about President Putin having gone crazy.
@@ -451,7 +451,7 @@ offensives in Khakov and
 um Herson region in the late summer
 autumn of
 2022 and of course in October
-2022 Zalinski issued his decree ree
+2022 Zelensky issued his decree ree
 forbidding any negotiations with the
 Russians at all. A decree by the way
 which he has not rescinded or reversed.
@@ -722,12 +722,12 @@ team of negotiators to Istanbul on the
 15th of May and basically challenged the
 Ukrainians to send a negotiating team to
 meet them. And as we remember um
-Zalinski u twisted and turned but after
+Zelensky u twisted and turned but after
 um the third degree type of pressure was
 put on him first by the Americans and
 then by Erdogan over the course of a
-threehour meeting he had with Zalinski
-in Anchora. Um, Zalinski did eventually
+threehour meeting he had with Zelensky
+in Anchora. Um, Zelensky did eventually
 send a negotiating team to
 Istanbul, even though it actually met
 with the Russians not on the 15th of
@@ -900,7 +900,7 @@ And I'm going to be relatively brief
 because as I said I have I'm on leave I
 have time constraints to work with.
 But we've had another meeting this time
-between Fred Matz and um Zalinski in
+between Fred Matz and um Zelensky in
 which Mattz has apparently committed 5
 billion euros to help Ukraine build long
 range cruise missiles that could reach
@@ -913,7 +913,7 @@ build to build cruise missiles. Uh,
 what's
 happening, and this is I'm confident is
 the truth. What is happening is that
-Friedick Mounts is giving Zilinski
+Friedick Mounts is giving Zelensky
 another 5 billion euros.
 In other words, more money. We know
 what's going to happen to all of that

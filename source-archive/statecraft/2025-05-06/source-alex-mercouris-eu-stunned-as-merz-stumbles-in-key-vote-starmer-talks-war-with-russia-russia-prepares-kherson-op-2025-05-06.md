@@ -1533,13 +1533,13 @@ autumn and then they stopped there that
 the attacks on Odachnia have resumed.
 Uh obviously all of this is preparing
 what looks like a fist ahead of an
-attack on Pakovsk and there's also been
+attack on Pokrovsk and there's also been
 a huge amount of shelling and bombing
-now of Pakovsk as well. General Sirki,
+now of Pokrovsk as well. General Sirki,
 by the way, the uh Ukrainian military
 commander, is claiming that there's been
 a stabilization of the situation around
-Pakovsk.
+Pokrovsk.
 Just
 over two, eight weeks ago, as I
 remember, he was telling us that the
@@ -1610,7 +1610,7 @@ short of manpower in Hersan region that
 they're having to trans they've had to
 transfer large numbers of their troops
 to all sorts of places to hold the line
-in Pakovsk in Constantinova in Sumi
+in Pokrovsk in Constantinova in Sumi
 region in the Oscll and Jerobets river
 lines.
 If true, then maybe a crossriver
@@ -1652,7 +1652,7 @@ ceasefire comes into effect. The
 Russians this time have made clear that
 they will react very strongly to any
 Ukrainian attacks during the period of
-that ceasefire. Zalinski has already
+that ceasefire. Zelensky has already
 made it clear that the Ukrainians will
 not observe the ceasefire.
 So fighting is certain to continue right

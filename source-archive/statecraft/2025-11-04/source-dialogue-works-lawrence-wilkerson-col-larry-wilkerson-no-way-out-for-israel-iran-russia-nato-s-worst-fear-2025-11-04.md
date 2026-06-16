@@ -442,7 +442,7 @@ of Lebanon.
 That's that's BB's plan right now. that
 that's what he's thinking about doing.
 Getting the United States to dispatch
-that heinous regime in Thran for him
+that heinous regime in Tehran for him
 while he dispatches an equally heinous
 Hezbollah in Lebanon. And the two go
 together, you know, as you well know, uh
@@ -739,7 +739,7 @@ we have important and you know
 responsible people within the Trump
 administration who are warning who are
 talking about these things. One of them
-is Tulsi Gabbert. Larry
+is Tulsi Gabbard. Larry
 >> I don't know but it seems that nobody
 cares what she's talking about nothing
 domestically in terms of the foreign
@@ -797,7 +797,7 @@ that we're going to send there to sit as
 the head of that tribunal. But Nema, we
 would have to bring ourselves.
 We can't just bring BB Netanyahu and
-Smootrich and Ben Gir and that crew of
+Smotrich and Ben Gir and that crew of
 I can't even reprehensible. They're not
 even human beings.
 We'd have to bring ourselves to the bar,
@@ -908,7 +908,7 @@ they are unconscionable
 right now. They should be hauled before
 the bar. They should be prosecuted. And
 if we still had hanging, many of them
-like Smootrich and Ben Gir should swing
+like Smotrich and Ben Gir should swing
 from the yard arm of whatever. They
 should hang until they are dead because
 their crimes are as heinous or worse as
@@ -926,7 +926,7 @@ city
 you know just removing the traffic
 lights something so not that much
 important doesn't but it's just making
-everything I think what Netno did to
+everything I think what Netanyahu did to
 Israel is this he removed all these red
 lines.
 >> Yeah.
@@ -1255,14 +1255,14 @@ religion in Ukraine too because the
 Russian high man does not like the
 Ukrainian high man and vice versa.
 Yeah.
-There is a new billboard Larry in Thran
+There is a new billboard Larry in Tehran
 in Iran. A huge billboard. It shows the
 victims of the United States. Guess
 who's among those victims? Victims.
 Here is the picture.
 Yeah, look at
 you know just on the corner you see
-Zalinski is among them. Gaddafi
+Zelensky is among them. Gaddafi
 >> Oh, I didn't see the Yeah, I see.
 They're in the prison of her cap.
 >> Yeah. [laughter]
@@ -1272,17 +1272,17 @@ big plane or ship or whatever, come and
 take the Statue of Liberty back.
 [laughter]
 I said, "Where are you going to put it?"
-In Mcronone's palace, [laughter]
+In Macron's palace, [laughter]
 [snorts]
-there is Zalinski today. Who's Zilinski
+there is Zelensky today. Who's Zelensky
 to Ukraine?
-Iran is saying that Zalinski is the
+Iran is saying that Zelensky is the
 victim of the United States. But after
-all, who's Zalinski to Ukraine? Is is
-that matter? Who's Zalinski or we have
+all, who's Zelensky to Ukraine? Is is
+that matter? Who's Zelensky or we have
 to understand the roots of those people
-who are supporting Zalinsky in Ukraine?
-I don't know Zalinski at all. I've never
+who are supporting Zelensky in Ukraine?
+I don't know Zelensky at all. I've never
 met him, never talked with him, watched
 him uh on different videos in the
 meetings with Donald Trump and other
@@ -1290,7 +1290,7 @@ places like that. But I suspect that if
 history is any guide, and I do know
 Ukraine a bit because I had to deal with
 several people
-somewhat like Zalinski when I was in the
+somewhat like Zelensky when I was in the
 government, Julia Tashenko comes to
 mind. Um, and
 I suspect he's trapped, but he fashioned

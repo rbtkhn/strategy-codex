@@ -203,7 +203,7 @@ Is there an Is there a possibility that Trump, sorry, Putin may find Europe very
 
 it's going to mean is there's a certain uh belt, if your readers or listeners would Google uh Ukraine uh uh defensive belt here, you would see behind the line in the Donbas, there's a certain belt that Google Maps will be able to articulate for them. They can see it on the uh map. It's a little bit hard to describe it, it's a little bit easier to see an image, and you'd see why it looks like a belt and so forth.
 
-That is a critical corridor that if Putin were able to launch a ground offensive and break through it, that would probably um break the back of the Ukraine defense, and you'd probably lose the ground all the way up to the Dnieper River, almost all the the to Kyiv. So, this is a this is a critical area here.
+That is a critical corridor that if Putin were able to launch a ground offensive and break through it, that would probably um break the back of the Ukraine defense, and you'd probably lose the ground all the way up to the Dnieper River, almost all the the to Kiev. So, this is a this is a critical area here.
 
 It's not just another piece of territory. Well, he's been trying to do that for several years, Mario. Okay? And I just showed my students how there's been almost no territorial change in the last several years. It's not because that objective has not been there. It's not because Putin doesn't know it. It's It's because the drones in Ukraine, uh here, have been preventing Putin's ground forces from being able to concentrate that breakthrough.
 

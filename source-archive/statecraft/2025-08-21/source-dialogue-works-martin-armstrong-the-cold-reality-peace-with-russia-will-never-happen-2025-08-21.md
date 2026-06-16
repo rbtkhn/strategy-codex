@@ -177,7 +177,7 @@ because I believe that Europe will do
 
 its best to sabotage it. Um
 
-the same thing with uh Zalinski.
+the same thing with uh Zelensky.
 
 Um I had information I passed it on and
 
@@ -243,7 +243,7 @@ despite all the propaganda that they
 
 constantly put out,
 
-Zalinski,
+Zelensky,
 
 um, look, his backer was the same
 
@@ -263,7 +263,7 @@ Zillinsky in. All right. It's um the
 
 corruption is just off the charts over
 
-there. It always has been. And Zalinski
+there. It always has been. And Zelensky
 
 has suspended all elections
 
@@ -301,7 +301,7 @@ speech and I put it on my blog. She came
 
 out and said 100,000 Ukrainians have
 
-been killed. Zalinski said that was um
+been killed. Zelensky said that was um
 
 basically national security information
 
@@ -927,7 +927,7 @@ Lauren, when you look at the meeting
 
 between Donald Trump and Europeans
 
-together with Zilinski, in your opinion,
+together with Zelensky, in your opinion,
 
 what was that sort of desperation? They
 
@@ -1015,7 +1015,7 @@ that was just supposed to be a signing
 
 in Kiev
 
-and he told Zilinski, "No, you insist
+and he told Zelensky, "No, you insist
 
 upon going to the White House and
 
@@ -1067,7 +1067,7 @@ supposed to be in Kiev. Um I think he
 
 they put out some sort of explanation
 
-and that Zalinsky insisted upon coming
+and that Zelensky insisted upon coming
 
 there and it was all basically the same
 
@@ -1313,7 +1313,7 @@ nonsense that goes on that they demonize
 
 Putin to pretend like he's or something.
 
-Then you had Zilinsky trying to
+Then you had Zelensky trying to
 
 assassinate him a couple months ago.
 
@@ -1337,7 +1337,7 @@ met him. He says, "This guy's really
 
 smart. Everybody that's ever met him
 
-says the same thing. All right. Zilinsky
+says the same thing. All right. Zelensky
 
 tried to take him out.
 
@@ -1387,7 +1387,7 @@ governments use. Uh and
 
 so
 
-Zalinsky tried to assassinate him.
+Zelensky tried to assassinate him.
 
 He knows what I know. You take out
 
@@ -1881,7 +1881,7 @@ the horizon. And you know, um there's a
 
 lot more behind the scenes yet. Uh and
 
-Zalinski,
+Zelensky,
 
 look, he is a dictator.
 
@@ -2041,9 +2041,9 @@ self-interests that are in the opposite
 
 direction.
 
-You you talk about removing Zalinski and
+You you talk about removing Zelensky and
 
-you see Zilinski as one of the main
+you see Zelensky as one of the main
 
 obstacles to get any sort of peace in
 
@@ -2215,7 +2215,7 @@ nothing. All right.
 
 Trump cuts that off.
 
-They're dead. Okay. You have Mcronone
+They're dead. Okay. You have Macron
 
 coming out
 
@@ -2235,7 +2235,7 @@ going on behind the curtain.
 
 Um
 
-Mcronone has offered um nukes to put
+Macron has offered um nukes to put
 
 nukes on on Germany's fighter jets etc.
 
@@ -2249,7 +2249,7 @@ I've spoken to some people in France
 
 that are very much also against
 
-Mcronone.
+Macron.
 
 All right. They call him the petite
 
@@ -2339,7 +2339,7 @@ All right. I know somebody who was went
 
 there for the second election. They said
 
-Mcronone flew in to make sure that
+Macron flew in to make sure that
 
 Europe won.
 

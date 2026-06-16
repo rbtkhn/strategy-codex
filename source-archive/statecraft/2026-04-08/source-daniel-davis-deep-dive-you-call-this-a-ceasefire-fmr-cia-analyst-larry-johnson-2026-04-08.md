@@ -122,7 +122,7 @@ supposed to take place, I think, on
 Friday the 10th, not not Thursday. Um
 but and then
 >> then there have been air strikes just
-within the last hour inside Thran. So
+within the last hour inside Tehran. So
 they're getting hit. So Iran's going to
 respond. Um and they're going to respond
 against United Arab Emirates and against
@@ -179,7 +179,7 @@ take cover and then when they emerge
 from cover they ambushed the hell out of
 the Israelis and they have they pro they
 destroyed more than more than a hundred
-marava tanks destroyed or damaged and uh
+Merkava tanks destroyed or damaged and uh
 the casualties that Israel is reporting
 from this is around 400 just double that
 to 800 at least close to close to a

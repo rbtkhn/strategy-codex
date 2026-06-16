@@ -68,7 +68,7 @@ basically since Donald Trump's
 inauguration and more
 specifically since the argument in the
 Oval Office between Donald Trump and
-Vladimir Zalinski, which took place at
+Vladimir Zelensky, which took place at
 the end of February. I mean the number
 of meetings has been off the scale. And
 I ought to say that so far as I can see
@@ -198,7 +198,7 @@ message to the Europeans and to the
 Ukrainians who were also present. And
 importantly, the Ukrainians at this
 meeting were not just represented by
-their foreign minister, but by Zalinsk's
+their foreign minister, but by Zelensky's
 chief of staff, Andre Yermach, the man
 who uh met with the Americans, with
 Rubio himself.
@@ -379,13 +379,13 @@ because it's the best that they can
 achieve at this particular point in
 time. So that's one side. The Ukrainians
 is much more difficult because ever
-since the meeting in Jedha, Zilinski and
+since the meeting in Jedha, Zelensky and
 the Ukrainians have been rowing back on
 many of the proposals, many of the
 things that they appear to concede in
 Jedha. Now, prior to the meeting in
 Jedha with the Americans, Andre Yarmmak,
-Zalinsk's um chief of staff wrote an
+Zelensky's um chief of staff wrote an
 incredibly belligerent article in the
 Guardian, the British newspaper, The
 Guardian, in which basically he took the
@@ -400,7 +400,7 @@ position remains that the Americans got
 Yammer and some other Ukrainian
 negotiators
 um isolated in Jedha. I've described the
-circumstances. Zalinski himself was kept
+circumstances. Zelensky himself was kept
 away just as he's been kept away from
 this meeting in Paris, by the way. But
 the Americans worked on the Ukrainians.
@@ -417,18 +417,18 @@ integrity, to Russian aggression. It
 said none of those things. It seemed as
 if the Ukrainians
 had moved from the extremely hard line
-Zalinski has been taking and from the
+Zelensky has been taking and from the
 hard line that Yamach outlined in his
 article in the Guardian. Well, as always
 happens, as soon as the Jeda
 meeting was out of the
 way,
-Zalinski and Ukrainian officials,
+Zelensky and Ukrainian officials,
 including
 Yerak, went back on
 whatever whatever things they may have
 said to the Americans in Jedha.
-Zalinski now says that Ukrainian
+Zelensky now says that Ukrainian
 territory remains Ukrainian. That
 includes Crimea. Ukraine insists on all
 of this territory being returned to
@@ -445,13 +445,13 @@ European Union. He is not prepared to um
 compromise on this. The Americans might
 say that
 Ukraine should not join NATO, but
-Zalinski insists that they should. And
+Zelensky insists that they should. And
 of course, so does Kestarma. Kestarma
 has openly said that Ukraine is on an
 irreversible path towards NATO. In fact,
-he signed a treaty with Zalinski that
+he signed a treaty with Zelensky that
 commits Britain to exactly that
-objective. So, Zalinski is not prepared
+objective. So, Zelensky is not prepared
 to compromise on that issue. He is of
 course not prepared to compromise on any
 of Ukraine's internal arrangements. He's
@@ -478,7 +478,7 @@ substantive concessions to the Russians
 on this issue. They did accept that
 there would be significant reductions in
 military in the size of their military
-in Istanbul. But Zalinski has now gone
+in Istanbul. But Zelensky has now gone
 back entirely on all of that. He insists
 that Ukraine be allowed to have as big
 and as powerful a military as it wants.
@@ -493,7 +493,7 @@ article, Kellogg also speaks about the
 United States rearming Ukraine,
 continuing to arm Ukraine after the end
 of the war. So on this issue, Kellogg
-and Zalinski are in effect in agreement
+and Zelensky are in effect in agreement
 with each other. The point is that none
 of this is acceptable to the Russians
 and they have made that repeatedly clear
@@ -637,7 +637,7 @@ Ukrainians for their part agree to the
 various parts of Kellogg's plan that the
 Americans are apparently insisting on.
 Again, it looks as if
-Zalinski is preparing to bulk at
+Zelensky is preparing to bulk at
 Kellogg's plan. He is not prepared, it
 seems, to agree to any um loss of
 territory. He still insists that all of
@@ -681,9 +681,9 @@ imposed mineral rights extraction
 agreement.
 They've apparently now agreed the
 memorandum of intention that
-Zalinski and his team had
+Zelensky and his team had
 been in had been expected to sign during
-Zalinsk's disastrous visit to the Oval
+Zelensky's disastrous visit to the Oval
 Office back in February.
 However, the Ukrainians do say that the
 mineral rights extraction agreement
@@ -892,7 +892,7 @@ Kellogg and Kellogg and others. He feels
 that he was led down the garden path. He
 supposed that this would be an easier
 negotiation than it had turned out to
-be. He's found Zalinski intractable and
+be. He's found Zelensky intractable and
 impossible. And he's found that the
 Russians actually mean what they say.
 And as I said, it does seem to me as if
@@ -1022,7 +1022,7 @@ plan because it doesn't deliver outright
 victory. But they will accept it because
 they have no choice. The
 Ukrainians may bulk and may push back.
-Zalinski seems most unwilling to make
+Zelensky seems most unwilling to make
 any kind of concessions at all.
 Um but perhaps as they did in Jedha
 under the weight of American and perhaps
@@ -1130,7 +1130,7 @@ Well, when I heard that comment of
 Rubios, I did initially wonder whether
 it was in fact being addressed to the
 Ukrainians and to the
-Europeans. After all, Zalinski still com
+Europeans. After all, Zelensky still com
 is committed to achieving some kind of
 victory over Russia and incredibly so
 are some Europeans also. Usuland lion
@@ -1229,7 +1229,7 @@ Um the Ukrainians, for example,
 um repeatedly spread stories that they'd
 recaptured places like Kino and Pishan
 and Shiffchenko close to
-Pakovsk. I don't believe that they ever
+Pokrovsk. I don't believe that they ever
 recaptured these places. The Ukrainians
 also mounted a whole series of
 counterattacks around Toetsk. They tried
@@ -1494,7 +1494,7 @@ and Oscar rivers. The most dramatic news
 continues to come from the area of
 Constantin
 um Torres
-Chasfar and the area around Pacross. And
+Chasfar and the area around Pokrovsk. And
 it does now increasingly look as if the
 major weight of the pending Russian
 offensive is going to come there. Um
@@ -1512,28 +1512,28 @@ to the to the west of
 tot. And its capture
 apparently opens the way for a Russian
 advance into Constantin itself. Um,
-Constantinfka is located just to the
+Konstantinovka is located just to the
 south of this place. But anyway, this
 place has now also fallen. Now, it's
 even more dramatic or at least my guess
 is it's more
 dramatic is that the Russians now appear
 to be um launching major push towards
-encircling um Pacross from the east.
+encircling um Pokrovsk from the east.
 They've already um established
 themselves strongly to the west of
-Pacross. As I said, they control places
+Pokrovsk. As I said, they control places
 like they definitely control places like
 Kotlin or and the others, but it looks
 as if they are um are now working to try
 to advance towards um
-Pacross from the uh from the um east as
+Pokrovsk from the uh from the um east as
 well.
 And um there are reports that the
 Russians are now starting to push
 um towards the village of Novo
 Economic and Mir which are located on
-the road from Pakovsk to Constantin but
+the road from Pokrovsk to Constantin but
 on literally on the eastern part of the
 road. Now there was a report
 um yesterday that the Russians had um
@@ -1545,7 +1545,7 @@ Echonomic and Mir. And of course, the
 Russians have also been
 pushing to advance in the area to the
 east of
-Pacross in other in other locations.
+Pokrovsk in other in other locations.
 Um, if the Russians do capture these
 places, if they actually capture, for
 example, Novo Economic, given that the
@@ -1553,12 +1553,12 @@ Russians are already
 positioned very strongly to the
 southwest of
 Pakos, then it does seem to me as if the
-communications to Pacross are really
+communications to Pokrovsk are really
 going to be um cut by not just by
 drones, but by artillery and all this
 and I would have thought that this is
 all preparatory to an operation to storm
-and capture Pacross which we could start
+and capture Pokrovsk which we could start
 perhaps to see take shape over the
 course of May. Anyway, all of this is
 happening and it's happening right

@@ -863,7 +863,7 @@ they can destroy it but it's just
 they're getting back to the same they're
 going to rebuild it that's Why I think
 these GCC countries are basically mostly
-dependent on this rate of formos more
+dependent on this Strait of Hormuz more
 than Iran much more than Iran because
 Larry when they're talking about Saudi
 Arabia has an alternative this east west
@@ -887,7 +887,7 @@ defense system. It has run in the last
 five days, it's run two uh full
 full-blown exercises, let's call them
 live fire exercises testing their air
-defense systems in Thran because
+defense systems in Tehran because
 initially the other night we, you know,
 got reports of drones flying over and
 explosions going off and then we
@@ -898,7 +898,7 @@ right there tells you, you know, they're
 getting ready and if they made it clear
 if attacked and they're not going to
 wait to till missiles uh impact in on in
-Thran, as soon as the United State if
+Tehran, as soon as the United State if
 the United States and Israel go airborne
 and then launch missiles and such,
 Iran's going to be immediately firing
@@ -959,7 +959,7 @@ Uh you can always tell that these AR are
 fake. All you got to do is look at the
 eyes. Uh and and the face the face is
 not normal. They've done one they've
-done the same with uh Professor Morandi.
+done the same with uh Professor Marandi.
 Uh, in fact,
 >> they have it with with Colonel
 Wilkerson. I saw one.
@@ -1182,7 +1182,7 @@ everything that the Washington that
 Washington asked
 asked them to do and here is Vanderolion
 talking about lifting sanctions on Iran
-Because this rate of formos is bringing
+Because this Strait of Hormuz is bringing
 new reality of the relationship between
 Iran and Europeans. If they want to have
 some sort of understanding, mutual
@@ -1296,7 +1296,7 @@ screaming screaming for mercy within the
 next two to three weeks. Marks mark my
 words.
 >> Yeah,
-Larry, before wrapping up, Zalinsky came
+Larry, before wrapping up, Zelensky came
 out and said Europe does need to start
 producing ammunitions in Europe and
 together he he's considering Ukraine as

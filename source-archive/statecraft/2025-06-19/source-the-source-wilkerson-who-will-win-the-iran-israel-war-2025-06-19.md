@@ -61,7 +61,7 @@ Um, but it's international waters they're challenging them in. Even though the t
 
 Um, so you got that happening on the northern flank with these little pipsqueak countries that want to drag the United States into because they wouldn't be doing it if they didn't think they had article 5 in NATO down through Ukraine, which Trump has now abandoned completely apparently and the Russians are just annihilating Ukraine now.
 
-I wouldn't be surprised to see Odessa fall. I wouldn't be surprised to see Kee either burning or fall. I wouldn't be surprised to see Zalinski's scout on a telephone pole somewhere outside Ke. They've they've won so thoroughly now that there's hardly anything in their way to going further. And on down to the Levant where we just described that situation.
+I wouldn't be surprised to see Odessa fall. I wouldn't be surprised to see Kee either burning or fall. I wouldn't be surprised to see Zelensky's scout on a telephone pole somewhere outside Ke. They've they've won so thoroughly now that there's hardly anything in their way to going further. And on down to the Levant where we just described that situation.
 
 Um this is right for a regional possibly even a global war. It reminds me of 1914. If you're familiar with Barbara Tuckman's phrase, the march of folly, this is a march of folly par excal, and the United States is leading it. You've already mentioned this, but I would like to dive deeper in into this issue of uh international law.
 

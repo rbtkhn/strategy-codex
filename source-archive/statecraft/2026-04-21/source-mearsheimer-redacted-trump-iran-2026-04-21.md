@@ -109,7 +109,7 @@ One of the reasons we did not have a blockade on the strait before last week was
 
 All of this behavior by the president just does not make any sense to me at all.
 
-**Host:** A couple weeks ago we had Professor Mirandi on the show, and he recommended a book called *Going to Tehran* by American foreign policy experts talking about the decades of reneging on détente with Iran. This is consistent with what the Clinton administration did, what Obama has done—ignoring them, pulling the rug out from under them. They have made sincere efforts to negotiate. This is really a bipartisan extension of the uni-party.
+**Host:** A couple weeks ago we had Professor Marandi on the show, and he recommended a book called *Going to Tehran* by American foreign policy experts talking about the decades of reneging on détente with Iran. This is consistent with what the Clinton administration did, what Obama has done—ignoring them, pulling the rug out from under them. They have made sincere efforts to negotiate. This is really a bipartisan extension of the uni-party.
 
 Why have we done this for so long? Are you able to see a puppet behind this nonsensical behavior?
 

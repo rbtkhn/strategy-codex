@@ -56,8 +56,8 @@ some point within the next couple of
 days. As I said in my program yesterday,
 there is no word at all of whether the
 Ukrainians are preparing or working on a
-plan of their own. Uh, Zalinski,
-President Zalinski has previously said
+plan of their own. Uh, Zelensky,
+President Zelensky has previously said
 that the only matter that his officials
 are tasked with dealing with in the
 negotiations with the Russians are steps
@@ -65,7 +65,7 @@ towards agreeing a ceasefire, a 30-day
 unconditional ceasefire followed by an
 unlimited unconditional ceasefire.
 They're not prepared to discuss
-according to Zalinski anything else. So
+according to Zelensky anything else. So
 my own guess which I said yesterday is
 that the
 Ukrainians will u treat the Russian
@@ -133,7 +133,7 @@ to the position that he faced on the
 precise when the European leaders Macron
 Star Tusk and Matz went to Kiev and they
 published a joint ultimatum with
-Zalinski threatening the Russians with
+Zelensky threatening the Russians with
 bone crunching.
 sanctions unless they agreed to an
 unconditional ceasefire within two days
@@ -483,7 +483,7 @@ done in other cases. just to say um
 including certain cases that happened in
 Britain and um nobody commenting about
 the fact that uh a Russian general was
-assassinated in Moscow and that Zalinski
+assassinated in Moscow and that Zelensky
 himself and his officials seem to
 be proud of the fact and admitted
 responsibility. I say near Moscow, not
@@ -631,10 +631,10 @@ that. But the Russians have also
 apparently continued to put their
 pressure around, exert their pressure
 around
-Pakovsk. And they appear also to be
+Pokrovsk. And they appear also to be
 advancing rather more rapidly again
 westwards towards the Neper in the area
-southwest of uh Pacross. Now, a
+southwest of uh Pokrovsk. Now, a
 Ukrainian official has act I actually I
 think he's a parliamentarian has
 actually come out and said that he does
@@ -655,7 +655,7 @@ forward throughout the
 summer probably seeking to capture more
 and more territory probably pressing
 forward with their main battle, the
-battle for Pakovsk and the ma battles
+battle for Pokrovsk and the ma battles
 for Slavansk and
 Katausk. And um then once we get to the
 winter when operations begin to slow,

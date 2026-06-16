@@ -665,7 +665,7 @@ attack us in in a joint effort. What do
 we do?" Iran's been planning for this.
 They have underground cities. They have
 redundant uh communications. You can
-take out Thrron could be nuked. I hope
+take out Tehran could be nuked. I hope
 it's not, but it could be nuked and Iran
 will not collapse. They will continue to
 function. They've built this, I forget
@@ -844,7 +844,7 @@ know. All speculation on my part. I
 should make that clear.
 >> That makes sense to me. I think that's a
 good speculation on your part, Scott. We
-know that NetNo doesn't want Iran to be
+know that Netanyahu doesn't want Iran to be
 a normal country for the United States.
 I'm say a normal country because I see
 no reason that the United States and

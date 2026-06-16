@@ -282,7 +282,7 @@ away from the front line. So what we're
 the the only thing that I can evaluate
 from this statement is that basically
 Ukraine is going to sacrifice itself or
-Zilinski is going to sacrifice uh the
+Zelensky is going to sacrifice uh the
 most important let's say FPV trainers or
 users that he has on the battlefield or
 the defensive teams of those uh you
@@ -810,7 +810,7 @@ Iraq, Yemen, Lebanon all together and
 how do you see this, you know, the new
 reality? They know that the United
 States is not going to be able to open
-up this rate of veros. They have to come
+up the Strait of veros. They have to come
 to some sort of understanding with Iran.
 And how is that going to change or
 somehow influence their policies toward

@@ -499,10 +499,10 @@ he described it, would comply with the
 Easter ceasefire either. Well, in that
 expectation, I would suggest that he was
 proved largely right.
-Now, Ukraine Zalinski responded to
+Now, Ukraine Zelensky responded to
 Putin's proposal for an east Easter
 ceasefire very much along the lines of
-what one might expect. Zalinski
+what one might expect. Zelensky
 initially went directly after Putin made
 the
 proposal appeared to reject it. He said
@@ -528,7 +528,7 @@ ceasefires of any
 sort, it won't play well with the
 Americans, it might put Ukraine in a
 more awkward position. So very
-grudgingly, Zalinski said that Ukraine
+grudgingly, Zelensky said that Ukraine
 would mirror the ceasefire. didn't
 exactly say, in other words, that
 Ukraine was joining the ceasefire. He
@@ -634,7 +634,7 @@ the ceasefire ended,
 um after after that hour, Putin's uh
 spokesman Pescov was asked whether the
 ceasefire would be extended, the Easter
-ceasefire would be extended as Zalinski
+ceasefire would be extended as Zelensky
 was asking and Pescov said that no order
 to extend the cease ceasefire had come
 from Putin and that the ceasefire had
@@ -898,7 +898,7 @@ discovered that the Russians are calling
 for
 denazification in Ukraine. The Americans
 in part correctly take this to mean the
-disestablishment of Zilinski's
+disestablishment of Zelensky's
 government in
 Kiev. Absolutely, that is no doubt the
 case. But of course, it goes well beyond
@@ -946,9 +946,9 @@ control in eastern Ukraine including by
 the way their land bridge to Crimea but
 not they don't regain gain possession of
 Hersan city or of Zaporia city or of the
-towns of Slavans Kamatsk
+towns of Slavans Kramatorsk
 um
-Constantinovka and Pakovsk. So those ter
+Konstantinovka and Pokrovsk. So those ter
 those places despite the fact that the
 Russian constitution considers them to
 be Russian remain under Ukrainian
@@ -1057,7 +1057,7 @@ will. That I suspect is what the
 Europeans, at least the British and the
 French and perhaps the Germans are
 saying to each
-other. For Zilinski, this is a much more
+other. For Zelensky, this is a much more
 difficult proposal to accept. And if you
 follow, if you listen to what he has
 been saying for the last 3
@@ -1078,7 +1078,7 @@ In addition, if it is correct that the
 United States is
 proposing to recognize Crimea as
 Russian, that would be an almost
-impossible thing for Zalinski to accept.
+impossible thing for Zelensky to accept.
 if he signs off on an agreement which
 results in the United States recognizing
 Crimea as
@@ -1091,7 +1091,7 @@ prospect that the Europeans, Ukraine,
 NATO would ever be able to push the
 Russians out of Crimea. Just saying.
 So
-logically, most likely Zilinski will
+logically, most likely Zelensky will
 refuse this
 proposal. I
 suspect that over the course of this
@@ -1220,7 +1220,7 @@ said that they're prepared to do it even
 if the Russians don't agree and if the
 Americans don't provide a backs stop.
 All that it requires is
-Zilinski to suggest it and the British
+Zelensky to suggest it and the British
 and the French troops will just go in.
 And the Russians have repeatedly said
 that that is unacceptable also.
@@ -1229,7 +1229,7 @@ complicated negotiation between the
 Americans and the Ukrainians over the
 course of this
 week, dragging on for this week.
-Perhaps Zalinski will crack and will
+Perhaps Zelensky will crack and will
 give a verbal support for this
 proposal. Though my own view is that he
 will walk it back immediately afterwards
@@ -1669,7 +1669,7 @@ as if Ukrainian defenses not just around
 Constantin are crumbling, but also that
 the Russians are now making further
 progress around
-Pakovsk and
+Pokrovsk and
 importantly that the Ukrainians were
 able to gain no make gain no
 advantage out of the 30-day ceasefire.

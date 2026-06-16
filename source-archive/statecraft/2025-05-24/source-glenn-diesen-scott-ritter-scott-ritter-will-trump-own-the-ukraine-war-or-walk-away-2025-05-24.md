@@ -637,11 +637,11 @@ um in May, I forget the in May 14th
 through 19th or something of that
 nature, uh having meetings with senior
 Ukrainian officials, including some
-rumors say Zalinski. Um and these
+rumors say Zelensky. Um and these
 meetings were at the behest of the
 Russian government saying this is what
 needs to happen um in terms of the
-transition away from a Zalinski
+transition away from a Zelensky
 government to a government acceptable to
 Russia. Not only to bring about uh the
 end of the conflict but to rule Ukraine
@@ -1072,7 +1072,7 @@ think that we're getting close to that
 point. Um, but they've shown themselves
 to be surprisingly resilient, etc. The
 other thing that might be coming up is
-the political collapse of Zalinski. What
+the political collapse of Zelensky. What
 will replace him, I don't know, but the
 Russians are betting on his political
 collapse and the creation of a vacuum

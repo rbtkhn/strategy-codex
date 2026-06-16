@@ -369,9 +369,7 @@ assassinate Abu Mazum immediately that
 
 we need to assassinate all the leaders
 
-we can get our hands on. This is Ben
-
-Gavir in Hebrew, of course, subscripts
+we can get our hands on. This is Ben-Gvir in Hebrew, of course, subscripts
 
 underneath. Um, and she's standing out
 
@@ -1083,7 +1081,7 @@ Now, how do you continue a regime in
 
 Israel
 
-with the need for people like Smootrich
+with the need for people like Smotrich
 
 and Ben Gir and a host of others? I
 
@@ -2303,7 +2301,7 @@ same that we think twice thrice before
 
 starting something with nuclear weapons.
 
-Um after watching Starmer and Mcronone,
+Um after watching Starmer and Macron,
 
 I'm not sure that I think that way about
 
@@ -2453,9 +2451,9 @@ look at the behavior of the United
 
 States and Europeans in Ukraine in terms
 
-of Zalinsk's presidency? It seems to me
+of Zelensky's presidency? It seems to me
 
-that the United States wants Zalinski
+that the United States wants Zelensky
 
 to be removed from power,
 

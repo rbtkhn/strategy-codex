@@ -56,7 +56,7 @@ already dysfunctional non-functioning
 economy uh this will lead to political
 collapse and we see that happening right
 now I mean uh you know all around
-Zalinsky the um
+Zelensky the um
 the walls are falling um you know I
 don't know how much longer he can hold
 on if he's capable of holding on. Um if
@@ -166,7 +166,7 @@ weeks later it turns out what they said
 was true. So they say that um that the
 the Naboo, the the anti-corruption uh
 organ um has the goods not just on
-Yermac but on Zalinski that they they
+Yermac but on Zelensky that they they
 have his voice um kneedeep in this
 current um you know Machinik or whatever
 the guy's name is Mitchnik Mitchnuk um
@@ -196,7 +196,7 @@ become an issue. There's only one nation
 in the world that has that kind of power
 over Ukraine, that's the United States.
 So I do believe that this is a mechanism
-of pressuring Zalinski, manipulating the
+of pressuring Zelensky, manipulating the
 system. Um, and if I was a Ukrainian,
 understand every single one of them is
 corrupt. There's not a clean person

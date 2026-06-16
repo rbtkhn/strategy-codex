@@ -44,7 +44,7 @@ what has been happening over the last 24
 hours. At the end of my last program, I
 discussed President Putin's response to
 the ultimatum delivered by the four
-European leaders plus Zalinski in Kiev
+European leaders plus Zelensky in Kiev
 yesterday demanding that Russia, I'm
 sorry, on Saturday, demanding that
 Russia agree to a
@@ -269,7 +269,7 @@ forget all about that. forget about
 cease uh ceasefires and
 ultimatums and further
 sanctions, but
-instead tell Zalinski that the game is
+instead tell Zelensky that the game is
 now up. He must go he must send his
 people to Istanbul on Thursday.
 Negotiations should begin without any
@@ -400,7 +400,7 @@ eventually their territory plus NATO
 membership but not immediately not in a
 year's time or two years time perhaps in
 5 10 or 15 or 20 years time Anyway,
-Kellogg supported Zalinsk's position and
+Kellogg supported Zelensky's position and
 said that first there has to be a
 ceasefire and then there have to be
 talks which is the diametric opposite of
@@ -423,7 +423,7 @@ toward in the right direction, but
 clearly a ceasefire was needed. And all
 of the other European leaders basically
 were saying went on saying the same
-thing. And Zalinski himself up to that
+thing. And Zelensky himself up to that
 moment had been saying the same thing.
 He too appeared to reject the proposal
 for the talks in Istanbul on Thursday
@@ -478,7 +478,7 @@ implement the ultimatum and we will
 support you.
 Well, understandably, perhaps the
 Europeans couldn't just leave it at that
-and neither could Zalinski
+and neither could Zelensky
 himself. And of course, he clearly
 doesn't want negotiations with the
 Russians. and he
@@ -495,19 +495,19 @@ grandly that he would go to Istanbul
 himself and was expecting to meet no
 less a person than Vladimir Putin there.
 Now, Axios, the US magazine says that um
-Zalinski has made it clear that he
+Zelensky has made it clear that he
 intends to go to Istanbul and be there
 on the 15th of
 May whether Putin turns up or not and
 whether there is a ceasefire or not. I
 have to say I have not myself been able
 to find any evidence that this is indeed
-what Zalinski is saying about
+what Zelensky is saying about
 his
 declaring his readiness to go to
 Istanbul. Well, that of course is a
 public fact. But the only statements of
-Zalinski which I have been able to
+Zelensky which I have been able to
 find appear to reaffirm his insistence
 that before any kind of negotiations or
 diplomatic contacts begin the Russians
@@ -518,15 +518,15 @@ not is irrelevant because on the
 assumption that the Russians stick to
 their position as I fully accept expect
 and do not declare a ceasefire as I also
-fully expect then neither he Zalinski
+fully expect then neither he Zelensky
 nor any other Ukrainian official is
 going to go to Istanbul at all. And I
 should say that other Ukrainian
-officials, members of Zalinski's team,
+officials, members of Zelensky's team,
 people like Yermach and Podoliak in
 effect seem to be saying the same the
 same thing. So I don't myself expect
-Zalinski to go to Istanbul on Thursday
+Zelensky to go to Istanbul on Thursday
 because I don't expect there to be a
 ceasefire in place before Thursday. And
 for the record, um, the Russian news
@@ -534,17 +534,17 @@ agency,
 Norvasti, contacted the Turkish
 authorities and they said that they had
 no information about any planned trip to
-by Zalinski to Istanbul at all.
+by Zelensky to Istanbul at all.
 For the
 record, I think that
-Zalinsk's offer, if that is what it is,
+Zelensky's offer, if that is what it is,
 um is one that no one should take
 seriously. It is
-again an example of how for Zilinski and
+again an example of how for Zelensky and
 indeed for his entire government, public
 relations is the single most important
 aspect of their conduct of the
-conflict. Let's assume that Zalinski
+conflict. Let's assume that Zelensky
 goes to
 Istanbul on Thursday and Putin doesn't
 turn up. What exactly is he going to do?
@@ -560,7 +560,7 @@ president of Ukraine and he only meets
 with the really important people or to
 be more precise the only important
 person who is Putin
-himself. Let us say that Zalinski takes
+himself. Let us say that Zelensky takes
 a different stance and does meet with
 the Russian negotiators.
 What exactly is he going to say to them
@@ -573,7 +573,7 @@ Istanbul separate from that of a
 properly organized team of
 negotiators? And if, which I don't
 seriously expect, Putin himself does
-turn up in Istanbul, what is Zalinski
+turn up in Istanbul, what is Zelensky
 going to agree with Putin over the
 course of just a
 few minutes or perhaps an hour or so of
@@ -582,7 +582,7 @@ entire conflict over the course of one
 conversation? Are they going to agree to
 conduct the entire
 negotiation by
-themselves? Zilinski has in the past
+themselves? Zelensky has in the past
 said that though every other Ukrainian
 official is precluded from talking to
 the Russians as a result of his October
@@ -600,14 +600,14 @@ to somehow
 um draw attention away from Putin's
 proposal for
 negotiations and to make it seem as if
-Zalinski is doing something big and
+Zelensky is doing something big and
 important when what he's actually
 proposing that he himself go
 to Istanbul
 is confirmation
 of his own complete lack of seriousness
 in his approach to this matter. Anyway,
-that is what Zalinski said. Maybe he
+that is what Zelensky said. Maybe he
 will go to Istanbul. Probably he won't.
 I don't seriously believe Putin will go.
 A negotiating team from Russia will no
@@ -688,7 +688,7 @@ in this strange situation at the moment.
 Now, Trump wants the Ukrainians or said
 that he wants the Ukrainians to
 go to Istanbul to initiate discussions
-with the Russians. Zalinski clearly
+with the Russians. Zelensky clearly
 doesn't want to send a negotiating team,
 but he's offered to send to go himself.
 But he seems to be saying, at least as
@@ -1069,7 +1069,7 @@ journalists do. But anyway, he goes on
 to say, "The Russian president offered
 offers talks with Kiev, but translation
 from Kremlin suggests he will accept no
-no less than Zalinsk's capitulation and
+no less than Zelensky's capitulation and
 swaves of territory." And it says that
 Putin's remarks were in essence very
 familiar. Although he proposed direct
@@ -1080,7 +1080,7 @@ negotiations should address the root
 causes of the war. In
 translation from Kremlin to English,
 this is a re reference at the very least
-to the removal of President Zilinski's
+to the removal of President Zelensky's
 pro-western government in Kiev and a
 legally binding agreement from NATO that
 Ukraine will never be allowed to join.
@@ -1208,15 +1208,15 @@ Russian military structures have told
 Tass that Cutlerovka is in fact
 neighbors on the Nepro region to the
 southwest of
-Pacross. Its liberation paves the way to
+Pokrovsk. Its liberation paves the way to
 the neighboring region in other
 words to Nearu region as well. If you
 look at a map, both of these places,
 Bagotier and um
 Katarovka lie well to the west,
-southwest of Pakovsk. The Russians have
+southwest of Pokrovsk. The Russians have
 in effect
-outflanked Pakovsk from the west.
+outflanked Pokrovsk from the west.
 Um if they
 do press further west from Katarovka
 specifically and move on to
@@ -1224,29 +1224,29 @@ the next big fortified village which is
 I believe Novo Pavka which is an
 important logistics hub. then Ukrainian
 defenses in this area and in the area of
-Pakovsk will become increasingly
+Pokrovsk will become increasingly
 weakened. And well, there were
 reports again yesterday, not just
 reports, but further film confirmation
 of the presence of Russian troops in the
 village of Zero, which lies directly to
-the southwest of Pakovsk. It's
+the southwest of Pokrovsk. It's
 practically an outlying suburb of
-Pakovsk. And as I discussed in an
+Pokrovsk. And as I discussed in an
 earlier
 program, that could mean that
 suggestions that the Russians have
 established some kind of foothold in
-southern Pacross are actually true and
+southern Pokrovsk are actually true and
 that
-fighting within Pacross has already
+fighting within Pokrovsk has already
 begun. But let me emphasize that I don't
 know this for a fact. This is purely an
 inference based on the fragmentaryary
 reports we're getting from a different
 different parts of the battlefield.
 Anyway, one way or the other, it does
-look as if the news around Pacross is
+look as if the news around Pokrovsk is
 now steadily tightening and things for
 the Ukrainians are getting harder and
 harder. I personally think that we will

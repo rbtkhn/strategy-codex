@@ -337,7 +337,7 @@ by simply doubling down on what I think
 is already a failed strategy,
 especially since it's not necessary for
 us.
-Uh Secretary Hicks said this morning
+Uh Secretary Hegseth said this morning
 also uh commented on that, but for all
 of his declaration and all of his, you
 know, tough rhetoric and stuff, this

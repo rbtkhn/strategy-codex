@@ -315,7 +315,7 @@ and the Trump family. Um, that's what I
 see. I see they they're a pack of
 grifters.
 Um, and that that's why they've just
-turned their back completely on Zalinsky
+turned their back completely on Zelensky
 as far as I'm concerned. You know,
 that's the way these grifters operate.
 That's the way real estate agents
@@ -468,7 +468,7 @@ Ukrainians are fighting that?
 >> No. No. Colonel Wilkerson's wrong.
 Number one, there are a lot of members
 of Congress that are counting on those
-millions of dollars that Zalinsky is
+millions of dollars that Zelensky is
 siphoning off. So, come on. They've got
 Hey, they got to have retirement
 accounts, too, you know. So, I I have
@@ -841,7 +841,7 @@ very I mean the Russians are sticklers
 for legal procedures and those kinds of
 details and and and he also reiterated
 we're not going to be dealing
-negotiating at any type with Zalinski.
+negotiating at any type with Zelensky.
 He's a criminal. He's a pirate.
 He's illegitimate. There has to be a
 legitimate leader in Ukraine that we can
@@ -849,7 +849,7 @@ deal with. Now, I'm not up to speed
 enough on the Ukrainian constitution. I
 don't know what the uh what kind of
 procedure is in place that you know,
-Zalinski resigns and then is replaced by
+Zelensky resigns and then is replaced by
 a vote of the Rada and you know, would
 they put someone like Zelni in? uh the
 Russians would negotiate with a Zillusni
@@ -869,7 +869,7 @@ from the Trump side about what came out
 of that. And they're not even trying to
 play the spend game. Uh because I think
 they now realize Russia holds the cards.
-You know, Trump told Zalinsky that he
+You know, Trump told Zelensky that he
 didn't hold any Trump cards. Well,
 Donald Trump doesn't hold any Trump
 cards either.
@@ -881,7 +881,7 @@ I guess it's accurate, I think it was,
 uh, it was a reputable source. I can't
 remember what it was, but that he just
 cancelled officially the meeting with
-Zalinsky, too.
+Zelensky, too.
 >> Oh, really? Yeah, not going to have a
 meeting with Minski. That's a signal.
 But I was going to say, uh, there's
@@ -1215,10 +1215,10 @@ And yet the lie is continually pushed
 about, oh yeah, those Islamists, man,
 they want to kill all Christians.
 And yet you go to Iran. Do do you know
-anything about Iran, Nema? Uh in Thran,
+anything about Iran, Nema? Uh in Tehran,
 they're still uh the old I think the
 oldest Jewish community in the world
-still lives in Thrron.
+still lives in Tehran.
 Wait a second. I thought they were going
 to kill all the Jews.
 So, this this effort to link um Judaism
@@ -1250,9 +1250,9 @@ planning to assassinate Candace Owens.
 >> And the reason why would the French and
 the the Israelis cooperate on that?
 Well, one Candace Owens is calling out
-Mcronone's, you know, wife is claiming
+Macron's, you know, wife is claiming
 that she's a he. Uh and what we do know
-factually is uh Mcronone
+factually is uh Macron
 current wife was a school teacher in the
 late 30s or early 40s fooling around
 with a 15 year old boy, which in most

@@ -1125,7 +1125,7 @@ Soviet Union and the vast majority of
 them fought with the Soviet Union as
 part of the Soviet Union to achieve that
 victory. Well, of course that does not
-impress Zilinski and his team, his his
+impress Zelensky and his team, his his
 associates.
 They've rejected the um proposed Russian
 ceasefire outright and they have been
@@ -1183,7 +1183,7 @@ outset. But anyway, one can sense the
 political
 urgency that drives the Ukrainians to
 try to do this thing. One can guess that
-Zalinski and Yermach and Podolak and all
+Zelensky and Yermach and Podolak and all
 of these people are teleoning Syski
 probably by the hour demanding updates
 on the situation in Totino that um Sirki
@@ -1419,7 +1419,7 @@ not numerous in number. They've had to
 transfer transfer large proportion of
 their forces to try to hold positions in
 Sunumi region and close to
-Constantinfka. And for that reason, it's
+Konstantinovka. And for that reason, it's
 not entirely impossible that the
 Russians have indeed established these
 bridge heads. I'm not saying that is the
@@ -1468,11 +1468,11 @@ battlefronts which is Prosk
 um a couple of days ago I reported how
 um it seemed that a Russian sabotage and
 reconnaissance group had entered the
-southern outskirts of Pakovsk.
+southern outskirts of Pokrovsk.
 There was an awful lot of push back from
 people who said that this simply wasn't
 the case that two random Russian
-soldiers ended up in southern Pakarovsk.
+soldiers ended up in southern Pokrovsk.
 That I, by the way, think is
 inconceivable. If you look at the
 positions of the front lines, it is
@@ -1488,10 +1488,10 @@ Ukrainians themselves provided which
 showed that this was the case. It is
 also indisputable that the Russians have
 been conducting a massive artillery and
-missile preparation on southern Pakovsk
+missile preparation on southern Pokrovsk
 and the neighboring town of Mirnograd
 which perhaps ought to be understood as
-an industrial suburb of Pakovsk over the
+an industrial suburb of Pokrovsk over the
 last week or so which also looks like
 it's intended to prepare the ground for
 some kind of military operation in
@@ -1501,7 +1501,7 @@ u came out and said that the Ukrainians
 needed to be careful because the Toretsk
 um
 president looked like it was about to
-repeat itself in Pacross. In other
+repeat itself in Pokrovsk. In other
 words,
 infiltration
 into the urban areas of what is supposed
@@ -1527,7 +1527,7 @@ which Toretsk itself was a central part.
 So this appears to suggest that
 something like that might be either in
 the course of happening or about to
-happen in Pacross itself. An
+happen in Pokrovsk itself. An
 infiltration of the city from the south,
 the gradual establishment of a critical
 mass of troops there and then a further
@@ -1544,12 +1544,12 @@ itself. that is not so different from
 Todd, but it is all much more compact
 and there isn't a string a a widely
 spread out uh um circle of villages and
-communities around Pacross that form the
+communities around Pokrovsk that form the
 same kind of urban connibation as the
 one that one sees and saw in Torres.
-So if the Russians break into Pakovsk in
+So if the Russians break into Pokrovsk in
 that kind of way, even as they gradually
-tighten the pinses around Pacross from
+tighten the pinses around Pokrovsk from
 the east and the west as they're
 currently doing, then my guess is that
 Pakross will probably fall much more
@@ -1565,7 +1565,7 @@ Russians seem to be attacking right
 across the battlefronts and there's been
 more news of further significant
 advances by the Russians in the
-Constantinfka area.
+Konstantinovka area.
 So, it seems to me that once we are past
 the May 9th
 celebrations, as May
@@ -1581,9 +1581,9 @@ of all of the territory of the four
 regions that remains under Ukrainian
 control. The three cities in Dombbas,
 Slavansk, Katossk,
-Constantinfka and of course the other
+Konstantinovka and of course the other
 the town of
-Pakovsk, Zaporo city
+Pokrovsk, Zaporo city
 itself, Hessant city as well. Could it
 be just saying that the Russians are now
 talking about talking to themselves
@@ -1608,7 +1608,7 @@ happen. That they're looking at
 negotiations, trying to get negotiations
 between the Ukrainians and the Russians
 going in order to work on a final
-settlement. Well, Zalinski shows no
+settlement. Well, Zelensky shows no
 interest in that. I suspect that even if
 the four regions fall under Russian
 control, he won't show any interest in

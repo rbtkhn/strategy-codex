@@ -93,7 +93,7 @@ Agency and probably the Mossad. Those
 three are very very carefully joined at
 the hip. The Mossads being all over
 Ukraine from the very beginning. Uh you
-know, Zalinski visited Israel 10 or 12
+know, Zelensky visited Israel 10 or 12
 times before the war broke out. Uh that
 that is a a closely integrated effort, I
 think. So that that's a fact of life.
@@ -102,7 +102,7 @@ what are we going to do, but what are
 the Russians going to do at this point?
 Um, how about the arms treaties though?
 Cuz I spoke yesterday with Professor
-Morandi. He's uh he's an adviser to the
+Marandi. He's uh he's an adviser to the
 Iranian nuclear team and he made the
 point that uh that even their nuclear
 deal would be affected by this because
@@ -244,7 +244,7 @@ end the war. Now, in terms of the
 battlefield, the war is over. The
 Russians have won. But strategically,
 the war continues and will continue as
-long as Zalinski is there in Kief with
+long as Zelensky is there in Kiev with
 his little inner circle. And they
 pretend to be a functional government
 with real institutions and real armed
@@ -285,9 +285,9 @@ if you're in Moscow, what are you going
 to do? I don't think they have much
 choice. Uh, I think that they've got to
 roll over the Yeer River. They've got to
-cross it. They've got to go into Kief
+cross it. They've got to go into Kiev
 and put this government out of business
-in Kief. They've got to cross take
+in Kiev. They've got to cross take
 Odessa because Odessa is the gateway for
 arms and all sorts of equipment and
 technology for Ukraine. Now, they're
@@ -300,7 +300,7 @@ Then you at least have a land bridge to
 Muldova.
 And I think that could be done. Once it
 becomes clear that the government in
-Kief is out of business and Odessa is in
+Kiev is out of business and Odessa is in
 Russian hands, I think at that point
 you're looking at an end state. Then you
 have a rumpstate Ukraine.
@@ -353,7 +353,7 @@ new leadership in the West, we could see
 something positive happen, but right now
 the Russians have to deal with a
 situation that exists. They've got to
-get rid of Zilinski and this horrible
+get rid of Zelensky and this horrible
 government he represents.
 There is something awfully irrational
 about both governments and media at the

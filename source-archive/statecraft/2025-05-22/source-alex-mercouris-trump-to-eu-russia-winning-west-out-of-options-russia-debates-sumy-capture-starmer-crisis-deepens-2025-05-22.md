@@ -1067,9 +1067,9 @@ increasingly talking about a using the
 word collapse. There's been a collapse
 of Ukrainian
 positions around
-Constantinfka. Um the Russians have been
+Konstantinovka. Um the Russians have been
 pressing forward around
-Pakovsk and further
+Pokrovsk and further
 west. They have now over the last 24
 hours finally crossed into Nepo region
 um and taken some positions there.
@@ -1152,7 +1152,7 @@ Could it be that he was very impressed
 by the splenders of St. Peters and at
 the Vatican City State whilst he was
 there uh to attend the previous pope's
-funeral when he met Zalinski in St.
+funeral when he met Zelensky in St.
 Peter's Basilica in the circumstances
 which I have discussed possibly.
 Or could it be that by shuffling this
@@ -1181,11 +1181,11 @@ Erdogan? He seemed only too delighted to
 host the negotiations in Istanbul which
 took place last week. Could it be that
 Erdogan also after having a three-hour
-conversation with Zilinski came to the
+conversation with Zelensky came to the
 conclusion that this negotiation process
 is a shipwreck that it's going to
 collide eventually with the rock the
-rocks Zalinski is absolutely incapable
+rocks Zelensky is absolutely incapable
 of coming to any kind of rational
 agreement with the Russians And given
 that the negotiations are going to
@@ -1223,13 +1223,13 @@ order to make up the
 numbers, the Russians and the Ukrainians
 are in discussion with each other about
 including certain civilians, presumably
-political enemies of President Zalinski.
+political enemies of President Zelensky.
 um in this 1,000 total that the
 Ukrainians of Russian prisoners that the
 Ukrainians are supposed to hand over to
 the Russians. Well, who knows? Speaking
 of political opponents of President
-Zilinski, I do want to say very quickly
+Zelensky, I do want to say very quickly
 something about the recent assassination
 of a prominent lawyer u which is
 Ukrainian lawyer which has just taken
@@ -1262,7 +1262,7 @@ taking place on the territory of a NATO
 country and
 eliminating a political opponent or a
 potential opponent, a President
-Zalinski.
+Zelensky.
 Well, Western reaction completely
 uninterested, entirely indifferent.
 There's been reporting of the story, but
@@ -1289,7 +1289,7 @@ highly likely
 statements in this
 case. Anyway, there we go. It's quite
 likely that some political opponents of
-President Zilinski will be taken out of
+President Zelensky will be taken out of
 Ukrainian prisons and included in this
 1,000 prisoner
 swap to make up the Ukrainian numbers.

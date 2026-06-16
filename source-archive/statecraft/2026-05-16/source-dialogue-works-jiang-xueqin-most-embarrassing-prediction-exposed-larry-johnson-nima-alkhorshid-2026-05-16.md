@@ -271,7 +271,7 @@ Japan going to capture all [laughter]
 
 And then when Don Jr. wins, if he wins, then Don Jr. could abdicate and Trump would be the president. And in the constitution, you read the constitution very carefully, it doesn't actually prohibit people from doing that. It's not been done in the past. And like no same person with any morality would do this. But that doesn't stop Trump from from doing this.
 
-Okay, that's one possibility. Another possibility is that by 2028, America is at war with everyone. there's a national draft. The president now has emergency war powers and so he can actually suspend the constitution and delayed election which is what Zilinski did in Ukraine. So these are two different possibilities. But I think that given Trump's track record, given his personality, I think he very much um wants a third term.
+Okay, that's one possibility. Another possibility is that by 2028, America is at war with everyone. there's a national draft. The president now has emergency war powers and so he can actually suspend the constitution and delayed election which is what Zelensky did in Ukraine. So these are two different possibilities. But I think that given Trump's track record, given his personality, I think he very much um wants a third term.
 
 And I think that he will do everything possible to get a third term.
 

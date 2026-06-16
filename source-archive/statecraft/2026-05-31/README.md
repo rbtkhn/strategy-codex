@@ -6,7 +6,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Source files: `8`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (7), `youtube` (1)
+- Body kind mix: `cleaned-transcript` (8)
 - Source form mix: `interview` (6), `solo` (2)
 - Distinct channels/shows: `5`
 - Distinct hosts: `5`

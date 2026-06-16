@@ -53,13 +53,13 @@ But now then the drone wars are picking up in both directions. So what is the Ru
 
 >> Well, first of all, there is a very I think uh logical explanation of why there were less intensive uh strike campaigns uh previously because we wanted to give some uh space for diplomacy.
 
-uh you remember that until recently there were high hopes on these uh trilateral efforts uh uh Russia, United States, Ukraine to come to an agreement and that's why logically of course we diminished uh the intensification of the hostilities of attacks uh whatsoever. Uh that was not the case by the way uh from Ukrainian side because Ukrainian side always tried to provoke us uh to create some some some kind of an outcry because Zilinski right now needs some kind of a big strategy tragedy.
+uh you remember that until recently there were high hopes on these uh trilateral efforts uh uh Russia, United States, Ukraine to come to an agreement and that's why logically of course we diminished uh the intensification of the hostilities of attacks uh whatsoever. Uh that was not the case by the way uh from Ukrainian side because Ukrainian side always tried to provoke us uh to create some some some kind of an outcry because Zelensky right now needs some kind of a big strategy tragedy.
 
 He wants uh something to involve directly uh countries from NATO uh maybe United States uh but this is a big prize of course but maybe some of his uh neighbors to get directly into war with Russia because that's the only way for him to to survive and to avoid responsibility for what he did for his country and his countrymen.
 
 as as far as the uh attacks you mentioned uh are concerned uh well it's hard to evaluate the damage because there are very different uh estimates of this uh I read that it doesn't affect very much our uh oil uh production and oil experts capacities I think that was Bloomberg who was making such kind of a conclusion uh Ukraine was hitting some some refineries on the south in the south of the country uh Uh I would say that there were uh the oil products that were already paid uh by consumers including by European consumers and that they were designated for exports.
 
-So I think it was another blow for European energy security and you know that even some of the EU partners, EU sponsors asked Zilinski to stop hitting Russian uh refineries but he proudly said that he denied uh this uh request, this suggestion. So he's trying to plead the moments.
+So I think it was another blow for European energy security and you know that even some of the EU partners, EU sponsors asked Zelensky to stop hitting Russian uh refineries but he proudly said that he denied uh this uh request, this suggestion. So he's trying to plead the moments.
 
 He's trying to portray himself as a master of the situation. But in fact he's not uh because we are seeing again that here is uh another sign of uh a bigger involvement of NATO countries into uh this military campaign. you know that uh some of the uh bordering countries to Russia like Baltic states like Finland apparently gave their uh airspace uh for Ukrainian UAVs uh which uh hit refineries in the north of Russia near St. Petersburg.
 
@@ -83,7 +83,7 @@ There is a forced conscription uh going on in Ukraine. People are being kept uh 
 
 They're being beaten. It is not something that we uh invented. It is something that is that it is all over Ukrainian social media. Everybody can see this and of course the morale is very low. Uh people abandon their positions and uh there are there is a big number of uh those who left their uh battlefield positions and who are uh being uh looked after uh by their commanders.
 
-So this is a factor uh which is does not exist in our ranks. In Russian army still the volunteers are fighting. There is no forced conscription and I think this is a big difference. Everybody who is a more or less specialist will explain to you that the morale and the capacity of army to fight is very important. That's why the sponsors of Zilinski are very anxious about this.
+So this is a factor uh which is does not exist in our ranks. In Russian army still the volunteers are fighting. There is no forced conscription and I think this is a big difference. Everybody who is a more or less specialist will explain to you that the morale and the capacity of army to fight is very important. That's why the sponsors of Zelensky are very anxious about this.
 
 That's why they uh as a precondition for the new for new money that he got uh they formulated uh the intensification of mobilization campaign or forced conscription. they also lobby the making a lower uh threshold for for conscripts. Some also say that women also should be should be brought to the front.
 
@@ -125,7 +125,7 @@ uh you know the question right now is not about uh not so much about the territo
 
 The question is how uh the uh the Ukra the remainder of Ukraine the the the Ukraine that would come out of this conflict how it will look like and what are be the what what will be the norms what will be the uh principles of functioning of this society because it's absolutely out of question that this society will remain in the same uh nationalistic neoasi anti-Russian rousophobic uh shape.
 
-This is the key issue and I think that is the question that our European colleagues leave aside when it comes to the true colors of the Zilinski regime. Uh they just pretend that nothing is happening. They don't think that they need to uh insist on Ukraine to correct uh anything. But the fact is that Ukraine is the only country in the world which officially banned another language, the Russian language.
+This is the key issue and I think that is the question that our European colleagues leave aside when it comes to the true colors of the Zelensky regime. Uh they just pretend that nothing is happening. They don't think that they need to uh insist on Ukraine to correct uh anything. But the fact is that Ukraine is the only country in the world which officially banned another language, the Russian language.
 
 Uh despite the provisions of his constitution which guarantee uh the liberty of choosing Russian language for Russian speakers who represent majority of the population still there is not another country uh that behaves itself like this. Israel does not is not banning Arabic. Palestine is not banning Hebrew.
 
@@ -189,9 +189,9 @@ So far I think that uh nobody listens to to diplomats and frankly to my big regr
 
 I I just just to to finish I uh I would like to quote uh something that I said at the at yesterday's meeting of the OEC permanent council when the European uh neighbors launched another uh propaganda campaign against Russia again based on the claims that were uh abducting Ukrainian children.
 
-Uh we were we asked repeatedly about the facts uh but they do not provide facts. they just continue to uh to spread hearsay and to to make claims that are not substantiated by anything and this continues for years. So I just quoted the interview that the former press secretary of Zilinski and very close ally of him Yula Mandel uh gave to Taka Carlson a couple of days ago.
+Uh we were we asked repeatedly about the facts uh but they do not provide facts. they just continue to uh to spread hearsay and to to make claims that are not substantiated by anything and this continues for years. So I just quoted the interview that the former press secretary of Zelensky and very close ally of him Yula Mandel uh gave to Taka Carlson a couple of days ago.
 
-Uh she said that Zilinski at some point when he uh was losing popularity and he assembled uh all those who are close to him, he said that he needed hundreds of of gables talking heads. Uh that was her expression that I used and I I just said that the ones that I'm facing in OEC right now the ones that we are facing unfortunately in diplomatic uh forests from European part they are simply these talking gable's heads because they are spreading absolutely unbelievable propaganda and lies about Russia.
+Uh she said that Zelensky at some point when he uh was losing popularity and he assembled uh all those who are close to him, he said that he needed hundreds of of gables talking heads. Uh that was her expression that I used and I I just said that the ones that I'm facing in OEC right now the ones that we are facing unfortunately in diplomatic uh forests from European part they are simply these talking gable's heads because they are spreading absolutely unbelievable propaganda and lies about Russia.
 
 So I really hope that they will come to their senses and that they will remember that they are diplomats and diplomats should listen to each other and should try to uh inform their capitals uh in an unbiased way to take uh very uh necessary uh decisions. So far this is not the case and uh this is a source of big frustration for me. But I think I will continue still uh my my job here and I will try to uh to to wake up at least some of my colleagues uh before it is too late.
 

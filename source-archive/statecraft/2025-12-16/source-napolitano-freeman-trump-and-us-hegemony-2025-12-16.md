@@ -97,7 +97,7 @@ The Ukrainians, Stepan Bandera who's now the national hero and founding father o
 
 So, there's a lot of history here and there are good geopolitical reasons for Poland to have done what it has done, which is to become the most heavily armed country in Europe in terms of defense expenditures at least, and to be wary.
 
-I don't think the Poles like the idea of German doubling of defense spending given the history between them and the Germans. I don't think they like what they've seen in Ukraine from the Russians. So, they are in a precarious position and reacting probably rationally despite the true Russophobia in Poland and their animosity toward the Banderite government in Kyiv.
+I don't think the Poles like the idea of German doubling of defense spending given the history between them and the Germans. I don't think they like what they've seen in Ukraine from the Russians. So, they are in a precarious position and reacting probably rationally despite the true Russophobia in Poland and their animosity toward the Banderite government in Kiev.
 
 ## Judge Andrew Napolitano
 

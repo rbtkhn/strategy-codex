@@ -1211,7 +1211,7 @@ Russia, etc. Why? Why' they go through
 
 all this stuff? All right. The the
 
-second election, Mcronone even went
+second election, Macron even went
 
 there to make sure the EU won. Why?
 

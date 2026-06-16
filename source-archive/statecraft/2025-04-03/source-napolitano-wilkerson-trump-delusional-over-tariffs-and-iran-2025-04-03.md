@@ -60,7 +60,7 @@ Last week, the uh president after boasting about the success, his word, uh of th
 
 He's quote pissed off at Putin's impatience in the excuse me, at Putin's patience in the uh negotiations over uh Ukraine. He also sent B-52s to fly over the Indian Ocean. I can only imagine what that costs. What is going on here? Is is this any way to negotiate with Vladimir Putin? Neither Putin nor the Ayatollah or whomever is going to be in the deal making in Iran and the Ayatollah is ultimately behind whatever happens.
 
-I think Trump is trying to build negotiating pressure in both places and he's failing miserably with Putin because Putin doesn't have to yield to this kind of pressure. He may be succeeding to a certain extent with the security group in Thran because I think they do want a ne a deal and I know they don't want a war.
+I think Trump is trying to build negotiating pressure in both places and he's failing miserably with Putin because Putin doesn't have to yield to this kind of pressure. He may be succeeding to a certain extent with the security group in Tehran because I think they do want a ne a deal and I know they don't want a war.
 
 So, uh, getting getting a war would be awarding rewarding BB Netanyahu too significantly. And BB's in real trouble now, especially with Cuttergate. This this is a scandal that just won't quit. I think what it means is that when the Amir was sending money per BB's wishes to Hamas and to Palestinian Islamic Jihad, PI, BBE was taking a cut of that money and they and they have proof of that.
 

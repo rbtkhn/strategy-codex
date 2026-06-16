@@ -42,9 +42,9 @@ largest country of Europe, but also the country that explicitly promised the Sov
 
 Of course, history is another matter, but not even going to the history of World War II, but just going to the history of German reunification. And afterwards, Germany has cheated repeatedly and Chancellor Mertz acts as if there is no responsibility at all. Then we move to France which is just bizarre in its foreign policy I have to say.
 
-Uh maybe Mcronone's idea which is not all wrong but is absolutely peculiar in how it is being carried out is Europe's strategic autonomy. I have no problem with Europe's strategic autonomy from the United States, but to implement it through wararm mongering with Russia is a quite a dangerous game, completely unnecessary.
+Uh maybe Macron's idea which is not all wrong but is absolutely peculiar in how it is being carried out is Europe's strategic autonomy. I have no problem with Europe's strategic autonomy from the United States, but to implement it through wararm mongering with Russia is a quite a dangerous game, completely unnecessary.
 
-One could argue for Europe's strategic autonomy on the simple fact that we're 80 years after the end of World War II and it's time that Europe get on with it. It doesn't need the United States to either be its defender or the determinant of its foreign policy. But Mcronone seems to think that in order to carry out his idea of strategic autonomy, he has to be a hostile rousophobic leader as well.
+One could argue for Europe's strategic autonomy on the simple fact that we're 80 years after the end of World War II and it's time that Europe get on with it. It doesn't need the United States to either be its defender or the determinant of its foreign policy. But Macron seems to think that in order to carry out his idea of strategic autonomy, he has to be a hostile rousophobic leader as well.
 
 Add in Britain to this mix which is also and always rousophobic and has been since 1840 at least we have quite a brew which is no diplomacy uh only talk of escalation now the actual events of escalation taking place from Ukraine and let's understand the Ukrainian situation this is a radical government it has not anything to do with democracy.
 

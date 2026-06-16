@@ -53,7 +53,7 @@ other half of that equation at least in
 
 terms of the battlefield negotiations
 
-and that's what is the zalinsky regime
+and that's what is the Zelensky regime
 
 saying what are they talking about so
 
@@ -203,7 +203,7 @@ sees that as a legal Ambush that if he
 
 signs a decree with any kind of an
 
-agreement with with zalinski who by
+agreement with with Zelensky who by
 
 according to him not a legitimate
 
@@ -237,7 +237,7 @@ written in stone he wants that
 
 formalized and the problem he has is
 
-that if zalinski signs it someone down
+that if Zelensky signs it someone down
 
 the road can say yes he signed it but he
 
@@ -517,7 +517,7 @@ going to send turn off the tap
 
 soon well we're looking at that we're
 
-talking to zalinski we're going to be
+talking to Zelensky we're going to be
 
 talking with President Putin very soon
 
@@ -555,11 +555,11 @@ go oh no we'll keep that tap going what
 
 does that tell you and what does that
 
-tell both zalinsky and we'll start off
+tell both Zelensky and we'll start off
 
-with with zalinsky what does that tell
+with with Zelensky what does that tell
 
-zalinsky first of all well it tells
+Zelensky first of all well it tells
 
 Linsky there's some possibility that
 
@@ -833,7 +833,7 @@ Force of Arms now let's look at the
 
 other half of the equation here uh now
 
-we have zalinski who's going to give his
+we have Zelensky who's going to give his
 
 view of things and at the end of this
 
@@ -841,7 +841,7 @@ we'll see how that Lins up with ground
 
 Tru reality in this first clip here
 
-we're gonna have bladimir zalinski
+we're gonna have bladimir Zelensky
 
 saying that basically he's gonna expose
 
@@ -1237,7 +1237,7 @@ media uh about great victories for
 
 whether it's Benjamin Netanyahu over in
 
-the Middle East or zalinski and Biden
+the Middle East or Zelensky and Biden
 
 here in the
 
@@ -1251,7 +1251,7 @@ whack balance of power between the two
 
 sides um assess this comment from
 
-zilinsky who's basically saying that he
+Zelensky who's basically saying that he
 
 not only is Putin afraid of Trump trump
 
@@ -1409,7 +1409,7 @@ nothing that Budapest memorandum was
 
 just a piece of paper same as the Minsk
 
-agreements so he has previously zalinsky
+agreements so he has previously Zelensky
 
 I think in December specifically sided
 
@@ -1423,7 +1423,7 @@ Minsk agreements and they didn't follow
 
 it here if you're agreeing with this if
 
-you're zalinski and saying yeah the The
+you're Zelensky and saying yeah the The
 
 Budapest memorandum uh didn't protect
 
@@ -1543,7 +1543,7 @@ here I mean I think any rational
 
 thinking person is going to see that the
 
-the view of things that zilinsky is uh
+the view of things that Zelensky is uh
 
 articulating and view of things that
 
@@ -1957,7 +1957,7 @@ Ukraine I agree with that but this gets
 
 back to our discussion a few minutes ago
 
-about zalinski I think zalinski if he
+about Zelensky I think Zelensky if he
 
 believes what he is saying is seriously
 
@@ -1997,7 +1997,7 @@ out what the balance of power looks like
 
 and what the trajectories are for both
 
-sides but you have zalinsky and I should
+sides but you have Zelensky and I should
 
 add you have all these people in the
 

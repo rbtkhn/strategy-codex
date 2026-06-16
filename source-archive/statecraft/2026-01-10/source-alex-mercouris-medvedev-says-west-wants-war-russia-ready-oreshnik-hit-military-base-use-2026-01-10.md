@@ -177,9 +177,9 @@ Not only will that create a complete collapse in whatever remains of the Ukraini
 
 Ukraine will become or could become a country where the countryside has emptied and where the cities have emptied as well. A ghost land in which the men who are fighting on the front lines are fighting for nothing behind them. I cannot imagine that that is a sustainable situation. All the more so given the pressures on the army on the front lines. And I suspect that the situation anyway, given the stresses and pressures of the army, will accelerate the breakdown which is going to come.
 
-Now yesterday I also did in the evening a program with Daniel Davis and he pointed out to me that there's an article in the Kyiv Independent which speaks of how given Russian preponderance in infantry, endless supplies of infantry and Russian superiority in every type of weapon and material in order to conduct the war over the course of 2026 this year, as the Kyiv Independent put it, Russia's supposedly maximalist objectives might eventually become achievable.
+Now yesterday I also did in the evening a program with Daniel Davis and he pointed out to me that there's an article in the Kiev Independent which speaks of how given Russian preponderance in infantry, endless supplies of infantry and Russian superiority in every type of weapon and material in order to conduct the war over the course of 2026 this year, as the Kiev Independent put it, Russia's supposedly maximalist objectives might eventually become achievable.
 
-Let us turn to the situation on the front lines. Bearing that thought from the Kyiv Independent in mind, there has in fact been more information from the front lines over the last 24 hours and it continues to speak of a continued deterioration of the military situation for Ukraine and I would suggest an accelerating deterioration of the military situation for Ukraine.
+Let us turn to the situation on the front lines. Bearing that thought from the Kiev Independent in mind, there has in fact been more information from the front lines over the last 24 hours and it continues to speak of a continued deterioration of the military situation for Ukraine and I would suggest an accelerating deterioration of the military situation for Ukraine.
 
 Firstly, there's been more reports of further Russian advances in Zaporizhzhia region near Huliaipole. The city of Huliaipole of course fell in late December. There's been some sort of a Russian reorganization after this, but the Russians have been able to continue their advance westwards from Huliaipole and they've been able to break through the various Ukrainian defense lines.
 
@@ -209,7 +209,7 @@ As I have said, as I said yesterday, a cauldron is forming around Sloviansk and 
 
 So there we are. That is the situation at the moment in Ukraine. 2026 is already shaping out to be a terrible year for Ukraine. 2024 was bad. 2025 was worse. 2026 might be existential. If the war ends in 2026, if Ukraine collapses this year, I for one would not be at all surprised.
 
-I can say with some confidence that I get the sense that more and more people in Kiev itself, the political class there, believe it. The fact that the Kyiv Independent is now talking about the Russians achieving possibly their maximalist goals in Ukraine this year basically is a hint that Ukraine's defeat this year is coming.
+I can say with some confidence that I get the sense that more and more people in Kiev itself, the political class there, believe it. The fact that the Kiev Independent is now talking about the Russians achieving possibly their maximalist goals in Ukraine this year basically is a hint that Ukraine's defeat this year is coming.
 
 Let me say again that whatever happens in Venezuela, it's not going to be of much interest to many people if there is a collapse in Ukraine this year. Venezuela will seem like a punctuation mark.
 

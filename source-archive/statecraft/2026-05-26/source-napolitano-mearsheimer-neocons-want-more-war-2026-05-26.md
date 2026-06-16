@@ -36,13 +36,13 @@ Well, just talk about the negotiating process. First of all, it appears that on 
 
 This is something that should be done in private. There should be professional teams on both sides instead of on just one side, and they ought to try to work out the differences so that we can shut this war down. But if you listen to a lot of what President Trump says and then what the Iranians follow up with, it's quite clear that many of the points President Trump is making are at odds with what is the Iranian position, and there is no way they would accept Trump's various demands. It's a rather bizarre process and it's hard to see how it leads to a meaningful deal.
 
-Well, also over the weekend was a massive attack on governmental buildings in Kyiv and an Oreshnik was used, although according to Alastair the Oreshnik was not used on those buildings so that it wouldn't kill civilians. It was used on other assets on the outskirts of Kyiv. But all of this taken together, is Putin taking the gloves off? What is the significance of an attack of this magnitude?
+Well, also over the weekend was a massive attack on governmental buildings in Kiev and an Oreshnik was used, although according to Alastair the Oreshnik was not used on those buildings so that it wouldn't kill civilians. It was used on other assets on the outskirts of Kiev. But all of this taken together, is Putin taking the gloves off? What is the significance of an attack of this magnitude?
 
-Well, it's quite significant, because it does appear he's taking the gloves off, and the Russians have made it clear that the United States and other countries should get their diplomats out of Kyiv because that was just the first of what will be a string of attacks on Kyiv. It looks like he's going to really pound the infrastructure in Kyiv in serious ways that have not been done before. I think this does reflect the fact that he's taking the gloves off.
+Well, it's quite significant, because it does appear he's taking the gloves off, and the Russians have made it clear that the United States and other countries should get their diplomats out of Kiev because that was just the first of what will be a string of attacks on Kiev. It looks like he's going to really pound the infrastructure in Kiev in serious ways that have not been done before. I think this does reflect the fact that he's taking the gloves off.
 
 And do you expect a European response? I don't mean verbally, I mean militarily.
 
-No. I think what the Europeans will do is try to increase the number and the quality of the drones that they give to Ukraine and go to considerable lengths to facilitate more Ukrainian attacks on Russia with those drones. I think what has in good part prompted this attack by the Russians on Kyiv and the threat of more attacks on Kyiv is the fact that the Ukrainians have been launching more and more drone attacks on the Russians, and the Russians are reaching a point where they believe they've just had enough and it's time to retaliate and do everything they can to put an end to this.
+No. I think what the Europeans will do is try to increase the number and the quality of the drones that they give to Ukraine and go to considerable lengths to facilitate more Ukrainian attacks on Russia with those drones. I think what has in good part prompted this attack by the Russians on Kiev and the threat of more attacks on Kiev is the fact that the Ukrainians have been launching more and more drone attacks on the Russians, and the Russians are reaching a point where they believe they've just had enough and it's time to retaliate and do everything they can to put an end to this.
 
 So is the possession of nuclear weapons a deterrent? Because it doesn't seem to scare the Ukrainians at all.
 
@@ -60,7 +60,7 @@ It did. It took them a good couple of months to push them out, which they eventu
 
 And then furthermore, the Ukrainians actually attacked, again with British and American help, one leg of the strategic nuclear triad of the Russian inventory. They went after the bomber leg of the triad, and this was again unthinkable during the Cold War. It just goes to show that the Russian nuclear deterrent wasn't really deterring Ukraine from attacking Russian assets on Russian soil, to include invading Russia.
 
-There's been tremendous pressure on Putin to do something about this for a long time now. But Putin has been very reluctant to up the ante. It appears that he's now decided that something has to be done, and I think the bombing of Kyiv is the first step in that direction.
+There's been tremendous pressure on Putin to do something about this for a long time now. But Putin has been very reluctant to up the ante. It appears that he's now decided that something has to be done, and I think the bombing of Kiev is the first step in that direction.
 
 Well, this is asking you to predict what might have happened, but what might have happened if Iran did have a nuclear weapon? Would the United States and Israel have attacked it as boldly and viciously as they did in June and February?
 

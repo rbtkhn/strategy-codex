@@ -35,7 +35,7 @@ uh he may have, but I don't believe I can say that categorically because he's no
 
 I mean, it's the same thing as if uh some proximate power, a submarine off our coast, whatever, shot uh whatever at Whiteman Air Force Base or Barstow or Mano Man, I guess it is in North Dakota where our B-52s and B2s are and and hit a bunch of them and burned them up. Um, it's absurd that we allowed this war to get this dimension to it and yet we have and I would expect I don't expect Putin to come back with a nuclear weapon which his doctrine tells him he can and we have his doctrine and have read it.
 
-I don't expect him to do that though because he's not insane like I think some of our people are. Lindsey Graham comes to mind immediately. I do expect him, however, to devastate Ukraine, including probably taking out Zalinsky and his entire entourage and maybe even half the legislature.
+I don't expect him to do that though because he's not insane like I think some of our people are. Lindsey Graham comes to mind immediately. I do expect him, however, to devastate Ukraine, including probably taking out Zelensky and his entire entourage and maybe even half the legislature.
 
 I expect he's going to be very dramatic, very painstaking, very careful, but he is going to devastate Ukraine. Colonel, who's in charge of American foreign policy? Could a rogue team of CIA agents have knowledge of this, have assisted their friends in MI6, have not told John Ratcliffe, have not told Kelsey Gabbard? And if they didn't know, then they can't be blamed for not telling the president.
 
@@ -77,9 +77,9 @@ What kind of pressure do you think there is on President Putin to do what you su
 
 Those things can't be stopped, can they? No, not that I'm aware of. Um, I I think Putin will be very calibrated, very uh circumspect, but nonetheless devastating. and his prudence and circumspection will add to that devastation because he's not going to go nuclear. There are people Lindsey Graham I would put in this category. I would put Lindsay right here.
 
-Lindsey Graham wants him to use a nuclear weapon. And then Lindsey Graham wants us to execute a first strike. I'm convinced of that. The man is certifiable. Here's uh someone you and I don't always agree with, but he he does agree with us on Lindsey Graham and President Zalinsky and the dangers of all this leading to World War II.
+Lindsey Graham wants him to use a nuclear weapon. And then Lindsey Graham wants us to execute a first strike. I'm convinced of that. The man is certifiable. Here's uh someone you and I don't always agree with, but he he does agree with us on Lindsey Graham and President Zelensky and the dangers of all this leading to World War II.
 
-Steve Bannon, uh Chris, cut number seven. We can't have people over there stir taking the telling the Ukrainians that we're going to back more. What we're trying to do is calm this down. What President Trump is trying to say is look, look, we can't have Lindsey Graham and particularly Zalinsky leading us into a third world war with a deep strike into Russia.
+Steve Bannon, uh Chris, cut number seven. We can't have people over there stir taking the telling the Ukrainians that we're going to back more. What we're trying to do is calm this down. What President Trump is trying to say is look, look, we can't have Lindsey Graham and particularly Zelensky leading us into a third world war with a deep strike into Russia.
 
 And Putin came back today and said, "Hey, we're going to get to the bottom of this and we're going to see who's accountable in Ukraine and beyond." And that was a message to the United States. What he's doing over there right now is stirring it up. He's giving Ukrainians false hope that we're there to support them on engaging Russia in a kinetic conflict and we are not.
 

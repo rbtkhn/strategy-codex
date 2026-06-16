@@ -253,7 +253,7 @@ left, which means Russia is getting
 dominating, which means that the the
 will of society to continue to resist is
 is collapsing. And there's already talk
-in Ukraine now to get rid of Zalinsky,
+in Ukraine now to get rid of Zelensky,
 replace him with the speaker of the
 parliament who that person will not be
 allowed to survive, too. I did an
@@ -355,7 +355,7 @@ of Novaria, of Keron, Zaparisia,
 Donetsk, Lugansk as being part of Russia
 and Crimea as well. Um, but Ukraine
 would continue to survive and had they
-taken advantage of that, the Zalinsky
+taken advantage of that, the Zelensky
 government would probably have been
 allowed to not allowed but wouldn't able
 to survive or some derivative thereof.
@@ -371,7 +371,7 @@ that gave it most of what it wanted but
 not all of what it wanted. I think that
 that window is shut is gone. Um, I think
 that the Russians now have recognized
-the Zalinsky government for what it is,
+the Zelensky government for what it is,
 a terrorist organization, and that there
 can be no coexistence, peaceful or
 otherwise, that it must be destroyed.
@@ -939,7 +939,7 @@ war. Um and and it's rapidly happening.
 It's rapidly happening on the
 battlefield right now and I think you're
 going to see the rapid political
-collapse of Zilinski. There's talk that
+collapse of Zelensky. There's talk that
 there's already move inside Ukraine to u
 to oust him because he is no longer a
 useful tool of anybody. He's he's become

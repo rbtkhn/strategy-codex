@@ -33,7 +33,7 @@ be achieved?
 Oh, I I read them as being divergent. I
 mean, and unchangingly
 divergent so far. I mean, it's quite
-clear um that the that Zalinski has not
+clear um that the that Zelensky has not
 conceded an inch on any point after the
 meetings after Alaska at the White
 House. There was no he is says no to
@@ -52,7 +52,7 @@ from the ceased far program. it may come
 back, but it was temporarily at least
 removed. And um Trump accepted the idea
 of um that um the a solution could be
-enforced on Zilinski and the Europeans
+enforced on Zelensky and the Europeans
 through force advance by Russia i.e. on
 the battlefield. it would be decided on
 the battlefield and then would be if you

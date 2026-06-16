@@ -103,7 +103,7 @@ I don't know if it's likely in this first in the second round, but it's definite
 
 is it's just that Trump has now become into a habit of not listening to US intelligence but instead listening to the Israelis.
 
-Yeah, I was surprised by Trump's how surprised Trump was to be honest because uh in the weeks before the war as well I had on my podcast interviewed quite a few times professor Morandi who is quite influential also in the media he was always making the same point if if or when the US attacks the first they were going to shut down the straighter moose and attack all their bases and uh at least it should have been considered as a I mean it seemed quite reasonable that they wouldn't allow the opponent opponent to to dictate the the conditions of how this war should be fought.
+Yeah, I was surprised by Trump's how surprised Trump was to be honest because uh in the weeks before the war as well I had on my podcast interviewed quite a few times professor Marandi who is quite influential also in the media he was always making the same point if if or when the US attacks the first they were going to shut down the straighter moose and attack all their bases and uh at least it should have been considered as a I mean it seemed quite reasonable that they wouldn't allow the opponent opponent to to dictate the the conditions of how this war should be fought.
 
 Um
 

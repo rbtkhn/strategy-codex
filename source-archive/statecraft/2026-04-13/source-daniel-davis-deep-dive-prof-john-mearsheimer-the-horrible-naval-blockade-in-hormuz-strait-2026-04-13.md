@@ -1358,7 +1358,7 @@ softer
 but as soft a landing as possible is
 what we want.
 &gt;&gt; You know, we we actually had uh
-Professor Morandi uh from University of
+Professor Marandi uh from University of
 Tehran on the show this morning who was
 part of the Iranian delegation who was
 there and he made the comment that the

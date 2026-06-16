@@ -64,7 +64,7 @@ So, we've just seen the shape of things to come.
 
 **Alex Christoforou:** >> And uh and they're putting out they're all putting out the same message with regards to to why this this strike happened and what it means. it means that Russia is weak, not that Russia is is strong. Um, I is this where we're going to where we're going to go with this? Uh, the the Europeans are going to continue to escalate.
 
-They're going to continue to to try and put pressure on on Russia through sanctions. The US is going to continue to supply uh weapons or sell the weapons to to the Europeans. Zilinski is going to continue to travel around and look for money and look for for weapons.
+They're going to continue to to try and put pressure on on Russia through sanctions. The US is going to continue to supply uh weapons or sell the weapons to to the Europeans. Zelensky is going to continue to travel around and look for money and look for for weapons.
 
 **Alexander Mercouris:** Well, I'll tell you what's going to happen. Firstly, um, whenever you see an arric strike take place, there is a consistent pattern. The first response from west from western leaders, people like Macron. I mean, I I bear in mind I I'm used to reading messages and and seeing um, you know, judging how people respond. The first response is shock. I mean, they are shocked by the scale of the attack that happens.
 

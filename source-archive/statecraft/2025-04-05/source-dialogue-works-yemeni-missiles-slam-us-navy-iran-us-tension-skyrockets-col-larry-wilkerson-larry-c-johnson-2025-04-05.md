@@ -28,7 +28,7 @@ A really lousy operation. But the B2 has doesn't need to go to Diego Garcia. It'
 
 This is typical Trump in my view. Um, I don't think he wants a war with Iran. I think he wants to put maximum pressure on them and then he wants a deal and he wants to hold that deal up as better than the Obama deal. Uh no 25-year moratorum. Maybe they'll even be able to discuss ballistic missiles and other things that Iran permit would not permit in the first round with the JCPOA. But I think Trump wants a deal.
 
-I don't think he wants a war. I think all of this is putting pressure or he thinks it's putting pressure on Thrron. That's a bad reading of Tron, too, but that's another matter. Larry, does that surprise you when they're trying to do the same that the Biden administration was doing? Yeah. Yeah. Well, they many months. Yeah.
+I don't think he wants a war. I think all of this is putting pressure or he thinks it's putting pressure on Tehran. That's a bad reading of Tron, too, but that's another matter. Larry, does that surprise you when they're trying to do the same that the Biden administration was doing? Yeah. Yeah. Well, they many months. Yeah.
 
 They didn't they didn't pay attention. um you know the um how the US Navy has changed over the last 40 years. We went from an era in which ship tenders would come along behind you know like a carrier strike group and could reload, refuel, you know, resupply to the the current situation where these the two destroyers and the cruiser that are accompanying the Harry S.
 
@@ -85,7 +85,7 @@ There's even one speculation out of Tel Aviv. A friend of mine, uh, pretty smart
 
 So, this is a much bigger problem than just Iran, but Israel is at the center of it. And I keep coming back to this proposition that I make. I don't think other than the Congress which is bought and paid for by the military-industrial complex and Apac and others too. But I don't think other than that it's really Apac that has this influence.
 
-I think it's the empire that is using Israel to do its bidding for it in the Levant. And its bidding is chaos. We want chaos because chaos serves our purpose. We want chaos in the center of Europe with Ukraine too because it serves our purpose. And then you ask what is our purpose? That's a very good question, Larry. Go ahead. Well, I was just going to say the other the other let's the other dynamic to throw in this is the comprehensive security agreement signed between uh Thrron and Moscow on January 17th.
+I think it's the empire that is using Israel to do its bidding for it in the Levant. And its bidding is chaos. We want chaos because chaos serves our purpose. We want chaos in the center of Europe with Ukraine too because it serves our purpose. And then you ask what is our purpose? That's a very good question, Larry. Go ahead. Well, I was just going to say the other the other let's the other dynamic to throw in this is the comprehensive security agreement signed between uh Tehran and Moscow on January 17th.
 
 Um, now it's not a classic mutual defense treaty, you know, in which uh Russian the Russians don't say if you're attacked, we're going to come defend you and we'll fight beside you. However, u the one section that does deal with military response u is is tied to article 51 of the United Nations charter.
 

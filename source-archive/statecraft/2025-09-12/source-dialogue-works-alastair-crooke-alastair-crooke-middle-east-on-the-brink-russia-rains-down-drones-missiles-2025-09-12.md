@@ -1089,7 +1089,7 @@ changes and things that need to be a
 referendum uh of the Ukrainian people
 and um and you know that means the end
 of martial law and that means the end of
-Zilinski in power and nothing moves
+Zelensky in power and nothing moves
 nothing happens and so what does uh
 Trump want I I think at the moment
 escalation

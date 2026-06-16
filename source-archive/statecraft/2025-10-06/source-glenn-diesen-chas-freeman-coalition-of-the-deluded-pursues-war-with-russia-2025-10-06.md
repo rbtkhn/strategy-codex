@@ -1238,7 +1238,7 @@ to to continue fighting this war?
 
 Yeah. Let's start with the um program
 
-that Vladimir Zalinski ran uh the
+that Vladimir Zelensky ran uh the
 
 campaign that he ran uh to become
 
@@ -1340,7 +1340,7 @@ resolved. Um but it's noteworthy that u
 
 before
 
-uh Zalinsky was turned um he had a
+uh Zelensky was turned um he had a
 
 program that's very similar to the one
 

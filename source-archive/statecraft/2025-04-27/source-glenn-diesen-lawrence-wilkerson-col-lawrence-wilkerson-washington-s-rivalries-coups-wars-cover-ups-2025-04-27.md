@@ -262,7 +262,7 @@ the way they build it. That's the way
 they pitched it. And now he's looking
 like he's going to abandon it. And most
 of all, he's going to abandon their
-hero, Vladimir Zalinski. He's going to
+hero, Vladimir Zelensky. He's going to
 abandon it. So, you got a lot of anger
 in this uh lingering element and a lot
 of that lingering element with regard to
@@ -425,7 +425,7 @@ thing to audiences at various places in
 the country and they've been pillaring
 him and they've been throwing eggs at
 him and things like that. That's what
-should happen to Ben Gabir. Uh, in fact,
+should happen to Ben-Gvir. Uh, in fact,
 he should be arrested and turned over to
 the International Criminal Court. Um,
 but the the administration's got so many

@@ -356,7 +356,7 @@ preparations to cross the Vulture River
 and to capture the remainder of
 Volchansk, which lies to the south of
 the Vulture River, which I understand is
-the smaller part of Volchansk. Raovka,
+the smaller part of Volchansk. Readovka,
 the Russian newspaper based in
 Smallensk, which I've talked about many
 times on many programs, says that the
@@ -451,7 +451,7 @@ from their friends in the West. Contrast
 this with the Russian
 attitude. There have been numerous
 occasions over the course of the war
-when um Zalinski has been well within
+when um Zelensky has been well within
 um sight of Russian drones. Apparently,
 there was one notorious incident when he
 was in Adessa with the Greek prime
@@ -459,14 +459,14 @@ minister Con uh Mr.
 Mitsutakis and they were both being
 tracked by a Russian drone. But the
 Russians made no attempt to attack
-Zalinski at that time or to kill
-Zalinski or do any of those things.
+Zelensky at that time or to kill
+Zelensky or do any of those things.
 And whilst there is no doubt that if the
-Russians wanted to assassinate Zalinski,
+Russians wanted to assassinate Zelensky,
 they could do so, they have adopted the
 policy of not doing so. And President
 Putin has said that one of the reasons
-for that is that Zalinski is such an
+for that is that Zelensky is such an
 unstable and erratic leader. It is not
 in Russia's interests to replace him
 with somebody who might be better
@@ -560,7 +560,7 @@ south, things are now taking not just a
 dramatic but actually potentially a
 catastrophic turn.
 Um, not only does it appear that the
-battle for Chasy is now essentially at
+battle for Chasiv Yar is now essentially at
 an end, as we will see shortly, there is
 an article in the Financial
 Times, which indirectly appears to admit
@@ -599,18 +599,18 @@ is getting
 worse basically by the day. It's not
 easy for me to get a complete
 understanding of this very complicated
-battle south of Constantinfka.
+battle south of Konstantinovka.
 But I do remember saying um roughly a
 year ago looking at a map at that time
 that it did seem to me that the
 territory south of
-Constantinfka could form an obvious
+Konstantinovka could form an obvious
 cauldron for the Russians to create for
 the Ukrainian
 forces positioned south of
-Constantinfka. And it looks as if that
+Konstantinovka. And it looks as if that
 is exactly the way things are playing
-out. Now, Reovka has provided a very
+out. Now, Readovka has provided a very
 detailed report about this battle and um
 they are also saying the same, but
 they're also saying that one of the
@@ -619,9 +619,9 @@ this disaster south of Constantine, it's
 an unfolding disaster. It hasn't played
 out fully, but it's still, as I said,
 it's still unfolding. Anyway, the reason
-that Raovvka says that this is happening
+that Readovka says that this is happening
 is again because the Ukrainians south of
-Constantinfka are now desperately short
+Konstantinovka are now desperately short
 of men and reserves. So that they cannot
 hold all their all the
 fortifications and trench lines that
@@ -638,10 +638,10 @@ parts of the battlefronts.
 There has been further reports of more
 Russian advances towards the village,
 the key village of Nova Echonovich
-um east of Pakovsk for
+um east of Pokrovsk for
 example and in the area of the fortified
 village of
-Batier southwest of Pakovsk where the
+Batier southwest of Pokrovsk where the
 Russians are gradually pushing towards
 the Neper. There's been news also there
 of further Russian
@@ -735,7 +735,7 @@ course, any attempt to do so would
 catastrophically
 deplete air defenses throughout the
 West. So that is the reality.
-Now, Zilinski himself is very, very
+Now, Zelensky himself is very, very
 angry about the American response to
 these
 Russian missile and air attacks on Kiev.
@@ -750,7 +750,7 @@ actually said that he was very unhappy
 about one such Russian attack and told
 Putin to stop. Of course, Putin and the
 Russians haven't stopped and Trump no
-longer bothers. Anyway, um Zalinski is
+longer bothers. Anyway, um Zelensky is
 still angry about this. He doesn't, of
 course, just to say, expect Trump to be
 similarly angry about Ukrainian drone
@@ -792,9 +792,9 @@ is that, as I said, Russian advances are
 significantly faster than this. We then
 read, "Fighting has intensified in
 recent weeks around
-Pakovsk and
-Constantinovka, pressuring the
-strongholds of Kamatsk and Slavansk and
+Pokrovsk and
+Konstantinovka, pressuring the
+strongholds of Kramatorsk and Slavansk and
 approaching the borders of neighboring
 Nepropet region." Interesting. The
 Financial Times, by the way, calls it
@@ -811,7 +811,7 @@ including new models connected via fiber
 optic cables that make them immune to
 electronic jamming. Defenders have been
 forced to pull back from towns,
-including Toretsk and Chasy, where the
+including Toretsk and Chasiv Yar, where the
 cost of holding ground proved too high.
 I said that the Financial Times appears
 to be indirectly confirming the

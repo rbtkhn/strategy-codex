@@ -35,8 +35,8 @@ American side because of everything
 getting stuck in the straight? We're
 going to try to figure out what the
 Iranian side looks like. Here we have
-back with us today uh Professor Morandi
-from Thrron University and former
+back with us today uh Professor Marandi
+from Tehran University and former
 adviser to the Iran's nuclear
 negotiating team and combat veteran
 himself. Uh, professor, welcome back to
@@ -160,7 +160,7 @@ border of Afghanistan and Turkmanistan
 near an airport uh the plane suddenly
 went down and landed at that airport. Uh
 so they they were pretending to I guess
-move to fly to Thran, but then as soon
+move to fly to Tehran, but then as soon
 after they got inside Iranian territory,
 they swiftly went for to land as far
 away from the Americans and the Israelis
@@ -487,8 +487,7 @@ because it wasn't closed. Every day
 certain ships would go through. Iran
 said friendly countries can use the
 straight and so every day a number of
-countries did pass through the straight
-of Hormos of course after paying a fee.
+countries did pass through the Strait of Hormuz of course after paying a fee.
 Uh maybe some countries didn't because
 they're close to Iran like Iraq or like
 China or whoever. But I I don't know
@@ -742,7 +741,7 @@ by the Iranian side?
 negotiate for years as you rightly point
 out for Vietnam. You negotiate for a
 year and a half in Korea and you
-negotiate for 19 hours with Thran. And
+negotiate for 19 hours with Tehran. And
 and as I said earlier the Iranian
 negotiator negotiators did not make a
 single phone call to Iran. They had full

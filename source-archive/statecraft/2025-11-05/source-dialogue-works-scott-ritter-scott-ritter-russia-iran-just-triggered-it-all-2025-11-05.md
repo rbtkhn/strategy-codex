@@ -27,7 +27,7 @@ Zan Mdani. He is a Muslim immigrants
 immigrant and
 he socialist
 and he said that he's going to arrest
-Nadia if he goes to New York. many
+Netanyahu if he goes to New York. many
 issues and with this which he with his
 sort of view toward you know the things
 in the in New York we know that many
@@ -1259,7 +1259,7 @@ Canal, etc. You know, now you're talking
 about a rail line from St. Petersburg to
 Bandar Abbas. You're talking about a rail
 line from uh western China straight into
-Thrron. Um and and I think this is just
+Tehran. Um and and I think this is just
 the natural state of affairs, but I
 think it's it's they're not necessarily
 connected to to one another, the two

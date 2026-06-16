@@ -258,7 +258,7 @@ they've got NATO intelligence.
 And with all of that, Russia continues
 to move forward. You know, two years ago
 it was Bakmoot. A year ago, it was
-Adifka. Now it's not only Pacross, but
+Adifka. Now it's not only Pokrovsk, but
 it's a whole list of of of settlements,
 villages, cities that are falling under
 the control of the Russians up up to and
@@ -932,7 +932,7 @@ these private charities will take care
 of you because we, the government, are
 not," which is the reality.
 Um, you know, I want to circle back
-around to Hexith where we started all
+around to Hegseth where we started all
 this. Uh, because you you whether
 whether we think that it's nonsensical
 or not, this is the secretary of well,
@@ -948,7 +948,7 @@ last uh clip here, just kind of give us
 the best estimate you can of how this is
 going to be received in Russia and what
 they may do as a result of this because
-Hexith here is talking about an
+Hegseth here is talking about an
 incredible signal he's going to send to
 Moscow. As a result, NATO allies have
 committed more than $2 billion in
@@ -1218,7 +1218,7 @@ just show me that shirt one more time
 just so I can before I get off if I
 There we go. All right. Good. Yeah,
 >> I should have should have worn it, but
-I'm I'm giving it to Professor Morandi
+I'm I'm giving it to Professor Marandi
 so it's clean. Clean.
 >> I'm sure he'll appreciate that. I'm sure
 he will. And give him our regards when

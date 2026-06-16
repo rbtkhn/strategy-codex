@@ -93,7 +93,7 @@ nation up into self- sustaining um
 military and governing districts um
 under the assumption that
 there could be a decapitation strike
-against Thrron um not that it would
+against Tehran um not that it would
 eliminate the leadership but it could
 eliminate the ability of the leadership
 to communicate with um the various
@@ -413,7 +413,7 @@ everything, our national security, our
 national legitimacy, everything on
 behalf of Israel.
 Well, if you were advising the Iranian
-government or if you're just in Thran,
+government or if you're just in Tehran,
 uh, how would you assess their likely
 response? Because in the first attack on
 Iran, I I would have thought that the

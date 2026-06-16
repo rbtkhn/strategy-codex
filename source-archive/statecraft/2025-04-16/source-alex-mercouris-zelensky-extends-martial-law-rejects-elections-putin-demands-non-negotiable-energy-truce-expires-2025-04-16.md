@@ -267,7 +267,7 @@ there is now growing uncertainty in
 Moscow about when the truce on attacks
 on the Russian and Ukrainian energy
 systems that President Putin and
-President Zalinski supposedly agreed. at
+President Zelensky supposedly agreed. at
 the urging of President Trump
 expires and what will be Russia's
 decision when this truce ends. Now I say
@@ -277,7 +277,7 @@ they they consider that truce to have
 become. There was never any
 communication between Russia and Ukraine
 directly on that topic. To repeat again,
-President Zalinsk's decree of 2nd
+President Zelensky's decree of 2nd
 October 2022 which basically prohibits
 negotiations between Ukraine and Russia
 remains in place. And though there have
@@ -397,7 +397,7 @@ So anyway, what is Putin going to do?
 Well, I think he's going to wait until
 the first days of May. And the reason
 that he's going to do that is actually
-very simple. Zilinsk's term um as
+very simple. Zelensky's term um as
 president of
 course technically constitutionally
 ended last year but he has remained
@@ -413,17 +413,17 @@ Now, I ought to say that about 2 3 weeks
 ago, at the time when there appeared to
 be intensifying um arguments between the
 Ukrainians and the Americans and when um
-Zalinsk's position after his disastrous
+Zelensky's position after his disastrous
 Oval Office meeting looked somewhat
 fragile, um there was a sudden flurry of
 comments and talk that President
-Zalinski's official officials were
+Zelensky's official officials were
 planning elections to rush through and
 hold elections in Ukraine in May. In
 other words, next month. The idea
 supposedly was to get the elections out
 of the way as quickly as possible before
-any opponents of President Zilinski
+any opponents of President Zelensky
 could organize and pro present a serious
 challenge to him. Well, that idea has
 faded away. um if you look hard enough
@@ -432,14 +432,14 @@ and articles about it in the western
 media. No part of the western media
 however is now noting the fact that even
 though um
-Zalinsk's
+Zelensky's
 renewed authority to remain as president
 given by these rolling sixmonth
 extensions of martial law that he gets
 his parliament to authorize. Well, uh,
 no western, um, publication that I'm
 aware of is now saying has now mentioned
-the fact that Zilinsky has again signed
+the fact that Zelensky has again signed
 off on
 another martial law
 extension and that this has now just
@@ -452,7 +452,7 @@ will begin and that any talk any further
 talk of holding an election in Ukraine
 has therefore been called off for at
 least another six months. I never
-believed that Zalinski seriously
+believed that Zelensky seriously
 intended to go through an election
 process. Um, I always thought this was
 another piece. All the talk about
@@ -1041,7 +1041,7 @@ In fact, there has been so much
 criticism of General Astri, who has, by
 the way, publicly denied
 responsibility and involvement in the
-decision that Zalinski has been forced
+decision that Zelensky has been forced
 to sack him. Now, that to my mind puts
 the question absolutely beyond doubt.
 There was a military
@@ -1269,7 +1269,7 @@ chased and snatched from toilet stalls
 in front of their mothers and stuffed
 into the territorial recruiting and
 social support center vans. President
-Zilinski said they need combat units
+Zelensky said they need combat units
 rather than peacekeepers. That's a blunt
 statement. However, Macron Starmer are
 into a game of words. They have come up
@@ -1408,21 +1408,21 @@ anyway, um
 it's starting to look as if the Russians
 who are undertaking a massive
 bombardment both with fab bombs but also
-with artillery of southern Pacross are
+with artillery of southern Pokrovsk are
 perhaps
-aiming for an attack on Pakovsk itself
+aiming for an attack on Pokrovsk itself
 at some point in the next few weeks.
 perhaps when the the ground finally
 hardens in May. Just saying. There's
 been, by the way, another Ukrainian
-counterattack in the area of Pacross.
+counterattack in the area of Pokrovsk.
 Perhaps a sign that the Ukrainians are
 becoming very, very nervous about a
 potential Russian attack in this region.
-And in the area of Constantinfka, the
+And in the area of Konstantinovka, the
 southernmost city of the
 Slovansk
-Constantinoka connibation, it seems that
+Konstantinovka connibation, it seems that
 the Russians are moving very rapidly
 um around Toretsk um west of Toretsk in
 all sorts of places. And again, I
@@ -1589,7 +1589,7 @@ stop commercial shipping in the Black
 Sea. They could take out the power
 stations and they could hunt down and
 kill the Ukrainian leaders. They could
-hunt Zalinski and his officials and they
+hunt Zelensky and his officials and they
 could do all of these
 things.
 But I can already hear the
@@ -1694,8 +1694,8 @@ Russians niche the Neper this year,
 which I think they certainly can do, and
 if they capture these four cities,
 Pakosk,
-Constantinfka, Slavansk, and
-Kamatsk, and again, they've captured
+Konstantinovka, Slavansk, and
+Kramatorsk, and again, they've captured
 cities before. I don't see why they
 should not be able to do this again. The
 total size of the Slavansks
@@ -1714,7 +1714,7 @@ fact, the battle of Donbass will have
 ended. There will presumably still be
 more to do if the Ukrainians are not by
 that point suing for peace, which given
-Zalinsk's personality, I think is
+Zelensky's personality, I think is
 unlikely.
 But anyway, with the battle of Donbass
 out of the way, with the armies that

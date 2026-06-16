@@ -43,7 +43,7 @@ time. and that it was not a foregone
 conclusion that they would accept it.
 Well, in the event yesterday, before the
 talks today even began, the Ukrainians,
-President Zalinski himself rejected the
+President Zelensky himself rejected the
 Kellogg plan outright and did so in the
 most extreme and I have to say I thought
 even insulting terms. Um, I've discussed
@@ -51,21 +51,21 @@ in previous programs how the Ukrainian
 delegation that was being sent to uh
 London um would be headed by Andre
 Yermach
-uh Zalinsk's chief of staff. The
+uh Zelensky's chief of staff. The
 Ukrainian defense and foreign ministers
 would also participate. But that it was
-interesting that Zalinski himself was
+interesting that Zelensky himself was
 not going. And I suggested and I still
 believe by the way that that was at the
 wish of the Americans just as happened
 after the disastrous meeting between
-Trump and Vance and Zalinski in the Oval
+Trump and Vance and Zelensky in the Oval
 Office at the end of February. The
 Americans called the Ukrainians to a
 meeting on that occasion in Jedha and
-made sure that Zalinski, who they have
+made sure that Zelensky, who they have
 now by now come to realize is a wrecker.
-They made sure that Zalinski would not
+They made sure that Zelensky would not
 attend that meeting. And out of that
 meeting, an apparent agreement by the
 Ukrainians for an unconditional 30-day
@@ -73,9 +73,9 @@ ceasefire
 emerged. Well, it seems to me that the
 Americans tried to do the same thing
 with the meeting in London. They knew
-that Zalinski before the meeting in
+that Zelensky before the meeting in
 Jedda would not agree to an
-unconditional ceasefire. Zalinski has
+unconditional ceasefire. Zelensky has
 repeatedly said that he's only
 interested in a ceasefire if he gets a
 security guarantee from the United
@@ -84,11 +84,11 @@ the United States to come to Ukraine's
 aid and
 defense if the Russians were to violate
 the ceasefire. And of course, as night
-follows day, Zalinski would then arrange
+follows day, Zelensky would then arrange
 for the ceasefire to be violated, would
 blame the Russians for the fact, and
 would demand assistance from the
-Americans. Anyway, Zalinski would not
+Americans. Anyway, Zelensky would not
 have agreed to the unconditional
 ceasefire proposal that came out of the
 meeting in Jedha and there was little
@@ -101,7 +101,7 @@ is because despite the fact that the
 Kellogg plan is
 frankly very beneficial or at least
 works strongly in Ukraine's interests at
-this time. Zalinski has
+this time. Zelensky has
 consistently refused to walk back from
 any of the various demands he has been
 in
@@ -131,7 +131,7 @@ Ukraine, about war crimes, trials of
 Russian officials, including perhaps
 President Putin himself, things of that
 kind. As for Ukraine's right to join
-NATO, Zalinski has made it clear that
+NATO, Zelensky has made it clear that
 that is, as far as he is concerned,
 non-negotiable. He insists on it. He
 insists on Ukraine's right to build up
@@ -149,18 +149,18 @@ Kellogg plan because the Kellogg
 plan does three things that he doesn't
 like. Firstly, it leaves the Russians in
 control of significant territory in what
-as far as Zalinski is concerned is
+as far as Zelensky is concerned is
 eastern Ukraine.
 Donbass, large areas of Zoroier, large
 areas of Herson region and of course
-Crimea. That as far as Zalinski is
+Crimea. That as far as Zelensky is
 concerned is
 unacceptable. It
 also apparently
 uh
 provides for US
 recognition of Crimea as legally part of
-Russia. And again, Zalinski is adamantly
+Russia. And again, Zelensky is adamantly
 opposed to that. As far as he's
 concerned, Crimea is Russian is sorry is
 Ukrainian and it the whole topic is not
@@ -170,21 +170,21 @@ Thirdly, the Kellogg plan does not
 provide for US security guarantees for
 Ukraine. There might be European
 security guarantees to Ukraine, security
-guarantees provided by Zilinsk's friends
+guarantees provided by Zelensky's friends
 in London, Paris and Berlin.
-But Zalinski knows that without the
+But Zelensky knows that without the
 United States, those security
 guarantees are worth little. And even
 though Kellogg clearly does envisage
 deployments of European troops to
-Ukrainian territory, Zalinski also knows
+Ukrainian territory, Zelensky also knows
 that those
 troops without an American guarantee
 behind them cannot fundamentally change
 the military balance. So he wasn't happy
 with that either. There were other
 provisions about the Kellogg plan as it
-has evolved which Zalinski also strongly
+has evolved which Zelensky also strongly
 disagrees
 with as is so often the case when
 outsiders come to a conflict.
@@ -198,11 +198,11 @@ nuclear power plant and um operate the
 nuclear power plant on behalf of both
 the Russians and the
 Ukrainians was totally unacceptable to
-Zilinski as well. As far as he is
+Zelensky as well. As far as he is
 concerned, the Zaparoian nuclear power
 plant is Ukrainian and must be returned
 to
-Ukraine. Well, this time Zalinski was
+Ukraine. Well, this time Zelensky was
 not going to allow the same thing to
 happen as happened in Jedha. He's never
 been really happy with the ceasefire.
@@ -217,7 +217,7 @@ trashed the Kellogg plan. Ukraine will
 not recognize Crimea as part of Russia.
 Ukraine continues to consider all of the
 territory currently occupied by Russia
-in what Zalinski considers to be eastern
+in what Zelensky considers to be eastern
 Ukraine. It considers it to be Ukrainian
 and it expects that that territory will
 be returned eventually to Ukraine. Um,
@@ -225,21 +225,21 @@ Ukraine categorically
 rejects any formula which leaves the
 Zarapoia nuclear power plant outside
 Ukraine's control.
-Um, Zalinski made a whole series of
+Um, Zelensky made a whole series of
 comments about NATO and these have not
 been properly understood by the media in
 the west or at least they haven't been
 properly um reported there as far as I'm
-concerned. Anyway, Zilinski said if
+concerned. Anyway, Zelensky said if
 Ukraine cannot join NATO then what
 alternative security guarantee is it
-going to be given? Um, what Zalinski
+going to be given? Um, what Zelensky
 actually means is that Ukraine must have
 security guarantees
 identical to NATO membership if it does
-not join NATO itself. That is Zalinsk's
+not join NATO itself. That is Zelensky's
 way of saying that Ukraine really should
-join NATO. And of course, Zalinski says
+join NATO. And of course, Zelensky says
 all of this um in order basically to
 throw the whole question of NATO
 membership back to the Americans and to
@@ -253,7 +253,7 @@ only guarantee that they can have that
 the United States will come to their
 defense again if they find themselves in
 another war with the Russians. So in
-effect, Zalinski trashed the entire
+effect, Zelensky trashed the entire
 Kellogg plan. And he went further. He
 said that the Ukrainian delegation that
 is being sent
@@ -297,7 +297,7 @@ leaders who provided guarantees for the
 implementation of the Minsk agreement um
 those two leaders have agreed actually
 happened.
-So in effect, Zilinski
+So in effect, Zelensky
 wrecked wrecked the entire
 um negotiation in London before it had
 even begun. He made it clear that
@@ -317,7 +317,7 @@ itself was well, we were initially told
 that it had been downgraded to a meeting
 of officials when uh the Americans
 realized
-that Zalinski's people, his delegation
+that Zelensky's people, his delegation
 were was not interested in negotiating
 or talking about or agreeing to the
 Kellogg plan.
@@ -531,17 +531,17 @@ intended to cause the Russians to deny
 the story in the Financial Times. Now,
 had that happened, the Europeans would
 have been able to say, "Look, it's not
-just Zilinski who is rejecting the
+just Zelensky who is rejecting the
 Kellogg plan. It's also the Russians.
 Why are we even here talking about
 um all of these proposals that the
-Americans are coming up with?" Zalinski
+Americans are coming up with?" Zelensky
 himself is not really at fault here
 because the Russians are refusing to
 give up their demands, their so-called
 maximalist demands for the four regions
 and therefore that means that it is they
-not Zalinski who are ultimately
+not Zelensky who are ultimately
 responsible for the collapse of the
 negotiations. So this is what I think
 this was all about. It was and the
@@ -586,11 +586,11 @@ that the story is a fake. leaving
 it leaving it
 open for people perhaps to think
 otherwise or perhaps more to the
-point keeping the focus on Zalinski as
+point keeping the focus on Zelensky as
 the man the person who had wrecked the
 discussions in London making it clear
 that it's not the Russians the Russians
-aren't involved It's Zilinski and no one
+aren't involved It's Zelensky and no one
 else who has rejected outright the
 Kellogg plan at this point and that if
 you are angered angered and upset about
@@ -598,13 +598,13 @@ that fact then you should be angered and
 upset with
 him. Now there will be many people who
 will discuss and comment about
-Zalinsk's actions over the last 24 hours
+Zelensky's actions over the last 24 hours
 in their own ways. I already seen
 articles appearing in say the Daily
 Telegraph that says that the Kellogg
 plan is a surrender to the Russians.
 There'll be no doubt attempts to say
-that Zalinski is heroically defending
+that Zelensky is heroically defending
 Ukraine's cause and that he is resisting
 American pressure. We were reading all
 of yesterday about the immense pressure
@@ -613,7 +613,7 @@ exceed to the Kellogg plan. How they
 they were in fact being presented with
 an ultimatum to accept the Kellogg plan.
 um and that they bravely resisted that
-pressure and Zalinski heroically
+pressure and Zelensky heroically
 resisted demands in effect for Ukraine's
 capitulation. Already that narrative is
 starting to be spun and it is starting
@@ -632,12 +632,12 @@ best that Ukraine can possibly hope to
 achieve at this time given that it is
 losing the war. I obviously don't agree
 with this view, this positive view of
-what Zalinski has just
+what Zelensky has just
 done. I have to say it to me it is a
 repeat on a larger
 canvas of the Oval Office episode all
 over again.
-Zalinski on that occasion came to
+Zelensky on that occasion came to
 Washington. He was supposed to agree to
 the mineral rights extraction deal. The
 Americans were putting some general
@@ -683,7 +683,7 @@ a leader, a
 statesman responsible, acting
 responsibly for the long-term welfare of
 his nation and people. Just
-saying what Zalinski in essence is
+saying what Zelensky in essence is
 demanding is that the United States win
 for
 him his war against Russia. He knows
@@ -717,7 +717,7 @@ blog, but basically
 um he um he is demanding Mr. Melnik is
 demanding and there's no reason to doubt
 that in this Melnik is
-being in effect Zalinsk's voice. He is
+being in effect Zelensky's voice. He is
 demanding that the Germans
 themselves go ahead and um
 provide
@@ -806,22 +806,22 @@ um Simplicius the thinker does and to
 some extent and it is indeed
 fantastical.
 But to me again, what it
-demonstrates, just as what Zalinski
-um Zalinsk's comments demonstrate, is
+demonstrates, just as what Zelensky
+um Zelensky's comments demonstrate, is
 this
 incredible irrational,
 unreasonable sense of entitlement.
 Now, a few weeks ago, about three weeks
 ago, um when Putin was asked why do the
-Russians not come after Zalinski
+Russians not come after Zelensky
 himself, I remember discussing this,
 Putin actually said in reply that there
 was no sense for the Russians in doing
 that
 because the Ukrainian leadership, and he
-was clearly referring to Zilinski, um
+was clearly referring to Zelensky, um
 are irrational and that removing ing
-Zalinski from the scene in that way
+Zelensky from the scene in that way
 whilst there was a war
 ongoing would simply mean might mean
 that Ukraine
@@ -834,12 +834,12 @@ argue that the events of the last 24
 hours
 confirm the
 validity of what Putin said.
-Putin, as a result of what Zalinski has
+Putin, as a result of what Zelensky has
 done, if Witgolf does indeed go to
 Moscow this week, is not going to be
 presented with a Kellogg plan, which he
 would be bound to reject, but which
-Zalinski and the
+Zelensky and the
 Ukrainians had accepted. So Putin is not
 going to have to go through the
 um he's not going to
@@ -855,7 +855,7 @@ isn't forced to reject something that
 he's bound to
 reject and that he really doesn't like.
 But I have to say
-this, eccentric though Zalinski often
+this, eccentric though Zelensky often
 is, very often is, I I'm not sure that
 any other Ukrainian leader would in fact
 ultimately behave very differently
@@ -870,10 +870,10 @@ um and unrealistic. That this insistence
 on maximalist being demands being
 achieved appears to me to be true of the
 entire Ukrainian political system.
-Zalinski insists on this, but I remember
+Zelensky insists on this, but I remember
 that Porrohenko, the former president
 who sometimes put himself forward as a
-more reasonable alternative to Zalinski,
+more reasonable alternative to Zelensky,
 it seems to me is fundamentally no
 different. I remember how at the time
 when the Aminsk agreement was signed at
@@ -896,9 +896,9 @@ was indeed committed to the Minsk
 agreement, in reality, um, he went out
 of his way to sabotage it.
 I have heard nothing from Porrohenko to
-suggest that if he replaced Zalinski,
+suggest that if he replaced Zelensky,
 his position would be any more
-reasonable or tractable than Zalinsk's
+reasonable or tractable than Zelensky's
 is. He might articulate his positions in
 more reasonably sounding ways. He might
 uh make statements that could be
@@ -930,7 +930,7 @@ what I've said in the past, even if I am
 wrong about
 this, I don't
 think it's going to be possible to get
-round Zilinski anyway because I believe
+round Zelensky anyway because I believe
 that the moment when it would have been
 possible to remove him from power has
 gone. There was an interesting article
@@ -940,18 +940,18 @@ as
 pro-Russian or hostile to Ukraine.
 Anyway, there was an interesting article
 in the economist recently which again
-was very critical of Zilinski um
+was very critical of Zelensky um
 admitted
 that the political situation in Ukraine
 today is in effect a wasteland. That
-Zalinski has systematically undermined
+Zelensky has systematically undermined
 and removed all of his political
 opponents. that he has achieved a
 complete monopoly of political power and
 that in effect it is impossible to
 displace him. Moreover, by taking the
 stance that he is
-taking, Zalinski may be taking a
+taking, Zelensky may be taking a
 position which is unpopular with wider
 Ukrainian society.
 Not that that is ever easy to judge, but
@@ -977,7 +977,7 @@ um a whole core of the National Guard
 has been created and built around one of
 the units of the Azoff brigade.
 So very difficult to see how it would be
-possible to remove Zalinski from
+possible to remove Zelensky from
 power through any
 internal coup. I know some people still
 float that possibility. But what might
@@ -989,7 +989,7 @@ passed.
 Moreover, the further factor is that
 though the Americans by now can be under
 no illusions about what an impossible
-individual you Zalinski is, and if they
+individual you Zelensky is, and if they
 had any remaining doubts, if even
 Kellogg had any remaining doubts, then
 the events of the last 24 hours ought to
@@ -998,13 +998,13 @@ Kellogg's case, I doubt that it will,
 but they will. But that's another issue.
 But if the Americans had any doubts up
 to now and really had become
-disillusioned with Zilinski and had come
+disillusioned with Zelensky and had come
 to recognize fully what an impossible
 individual he is and how negotiating
 with him on anything but his terms is a
 completely hopeless exercise. Well, the
 Europeans are different. They continue
-to remain fully committed to Zalinsk's
+to remain fully committed to Zelensky's
 cause. The British Prime Minister Karma
 has recently been speaking of his
 immense admiration for the Ukrainian
@@ -1020,7 +1020,7 @@ Americans recognize Crimea as Russian,
 um, that's up to them, but we never
 will." Other European officials
 um, never fail to express their
-admiration for Zalinski and for
+admiration for Zelensky and for
 Ukraine's cause.
 and they continue to insist that support
 for Ukraine must be provided and that
@@ -1034,7 +1034,7 @@ would otherwise be. A fattist comment by
 the way, but that is in fact what she
 wrote. And well, those are her words.
 So, how does one get round the problem
-of Zilinski? He's not going to accept
+of Zelensky? He's not going to accept
 the Keral plan. He's made that
 absolutely clear. I don't think there
 should be any expectations that he will
@@ -1049,7 +1049,7 @@ ceasefires over the last um few weeks he
 rejected them or rather he undermined
 them. There was the energy truce.
 Putin agreed to it.
-Zalinski initially seemed doubtful.
+Zelensky initially seemed doubtful.
 Eventually, after intense pressure from
 the Americans and the Europeans, he
 appeared to come round. There is
@@ -1119,7 +1119,7 @@ never criticize them for this. Um the
 Ukrainians have just
 sabotaged the um Kellogg plan, but we
 see no real criticism of
-Zalinski as a result of that. Zalinski
+Zelensky as a result of that. Zelensky
 spoke behaved in an incredibly borish
 way when he met with Vance and Trump in
 the Oval Office. All the European
@@ -1166,7 +1166,7 @@ until the eve of his departure from
 Saigon.
 President Alghani in
 Afghanistan did exactly the same.
-Zalinski is just the last in a
+Zelensky is just the last in a
 succession of leaders, Ukrainian leaders
 uh uh of leaders that the United States
 who has supported who
@@ -1191,7 +1191,7 @@ statement that this proposal that was
 made this week was the last chance that
 if this wasn't settled this speak the
 United States will pull out of the
-negotiations. Well, Zalinski clearly
+negotiations. Well, Zelensky clearly
 doesn't believe that. And just as Tu in
 Vietnam didn't believe that the
 Americans would pull the rug on him
@@ -1201,7 +1201,7 @@ and recommit. And Alani in Afghanistan
 appears to have believed the same thing.
 And
 In the case of
-Zalinski, he again made that pretty
+Zelensky, he again made that pretty
 clear over the course of his speech
 yesterday. He said
 that there was no way that the Americans
@@ -1218,7 +1218,7 @@ here the Americans Donald Trump face a
 serious test
 because as I said if the events of the
 last three months haven't
-confirmed that Zalinski the Ukrainians
+confirmed that Zelensky the Ukrainians
 will never agree to a peace agreement on
 anything other than their own terms. And
 if the last 24 hours
@@ -1226,7 +1226,7 @@ Don't do that. I can't see what will.
 And besides, if the Russ if the
 Americans come back and resume their
 efforts to negotiate and continue their
-support for Ukraine, then Zalinski will
+support for Ukraine, then Zelensky will
 have every reason to believe in future
 that um any American threats to pull out
 are simply a bluff and he will dig in
@@ -1344,9 +1344,9 @@ um has been true that he has led Trump
 down a blind alley by presenting a plan
 which the Russians were bound to reject,
 but which of course
-Zalinski, whose probable acceptance of
+Zelensky, whose probable acceptance of
 his plan Kellogg may have taken for
-granted, but which Zalinski has also now
+granted, but which Zelensky has also now
 rejected.
 So I think that ke Trump needs to stop
 listening to
@@ -1421,16 +1421,16 @@ statements about this from I believe it
 was
 Kimakovski the one of the Russian
 officials about how all the Ukrainian
-counterattacks around Pakovsk have been
+counterattacks around Pokrovsk have been
 a failure and how the Russians are
 advancing north of Kloino and um are
 also
-advancing um to the northeast of Pacross
-as well. The situation around Pacross is
+advancing um to the northeast of Pokrovsk
+as well. The situation around Pokrovsk is
 looking very very difficult for the
 Ukrainians and I would not be surprised
 if uh we see a sudden collapse in
-Pacross at some point over the next
+Pokrovsk at some point over the next
 couple of weeks. Not that difficult from
 the collapse that suddenly happened in
 Celidor a few months ago.
@@ -1440,7 +1440,7 @@ increasingly look like a major
 operational
 crisis for the Ukrainians in the area of
 um
-Constantinfka Su Bala, the main
+Konstantinovka Su Bala, the main
 Ukrainian
 military village, which is the main
 Ukrainian military position. immediately
@@ -1463,9 +1463,9 @@ extremely difficult.
 All the conditions point
 to a future collapse of Ukrainian
 positions around
-Constantinfka
+Konstantinovka
 and a likely assault on
-Constantinfka sometime in the early
+Konstantinovka sometime in the early
 summer perhaps in parallel with an
 attack on Pakarosk.
 Meanwhile, we're getting more
@@ -1544,8 +1544,8 @@ late in the early summer or late spring.
 But I won't say
 conclusively that
 negotiations to end the war are now
-dead. But after Zalinsk's recent after
-Zalinsk's outburst and the collapse of
+dead. But after Zelensky's recent after
+Zelensky's outburst and the collapse of
 the talks in
 London, it seems to me that a military a
 military resolution of this

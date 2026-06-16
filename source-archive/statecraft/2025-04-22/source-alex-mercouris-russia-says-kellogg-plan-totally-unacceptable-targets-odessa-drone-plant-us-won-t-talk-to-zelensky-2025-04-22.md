@@ -51,8 +51,8 @@ able to retain control of the territory
 they currently occupy, but they will not
 have the entirety of the four regions
 transferred to them. So the Ukrainians
-will still retain control of Pakovsk,
-Kataussk, um, Slavansk, Constantinfka,
+will still retain control of Pokrovsk,
+Kataussk, um, Slavansk, Konstantinovka,
 the city of Zaporosia, the city of
 Heron, all parts of the four regions,
 but all parts that the Russian army has
@@ -107,7 +107,7 @@ his article of April
 2024 and the Ukrainians and the
 Europeans are going to be asked to
 accept it. Now I have said in previous
-programs that Zalinski certainly is
+programs that Zelensky certainly is
 going to have a lot of difficulty
 accepting these proposals. So for
 example, he continues to
@@ -120,12 +120,12 @@ does not contain any security guarantees
 for Ukraine provided by the United
 States. The only security guarantees
 provided will be by the European states
-and Zalinski has previously made it
+and Zelensky has previously made it
 clear that he is not happy with that
 either and he's not happy with any final
 plan that um comes up um that does not
 provide for US security guarantees. And
-lastly, Zalinski has always insisted
+lastly, Zelensky has always insisted
 that the return of all territory that
 was previously Ukrainian territory um
 including Crimea uh must be part of any
@@ -142,7 +142,7 @@ negotiations in which Ukraine itself
 does not participate because he
 continues to rule out negotiations,
 direct negotiations between Ukraine and
-Russia. So Zilinski
+Russia. So Zelensky
 himself, if these proposals were put to
 him, would probably reject them and
 reject them outright. and that might be
@@ -150,8 +150,8 @@ why he is not invited to attend the
 meeting in London. The Ukrainian
 delegation will be led as it was at the
 meeting in Jedda about a month ago by
-Zalinsk's chief of staff Andre Yermach.
-The Americans kept Zalinski far away
+Zelensky's chief of staff Andre Yermach.
+The Americans kept Zelensky far away
 from the meeting that took place in
 Jedha. Um they also at that time of
 course made sure that the meeting did
@@ -160,14 +160,14 @@ that there were no European officials
 floating around able to uh influence the
 Ukrainians in any way. The Americans, in
 other words, isolated the Ukrainian
-delegation from Zalinski
+delegation from Zelensky
 itself and from Ukraine's European
 allies and friends. And by the way, also
 from Ukraine's allies and friends in the
 United States. And they were able to
 extract some concessions from the
 Ukrainians in Jeda. concessions which
-Zalinski himself had it been left to him
+Zelensky himself had it been left to him
 would probably not have conceded.
 Anyway, this time the meeting will be in
 London. The Europeans will be there. The
@@ -177,7 +177,7 @@ likely that the Europeans, however
 grudgingly, will accept the Kellogg plan
 and they will therefore apply pressure
 on the Ukrainians also to accept it. But
-Zalinski who is as I said likely if he
+Zelensky who is as I said likely if he
 is present in London to reject the plan
 he is being kept well away. So we don't
 yet know whether or not the Ukrainians
@@ -563,7 +563,7 @@ as I've discussed in many places the
 Kellogg plan almost certainly is. And
 now I have a direct quote. the
 participation of three close associates
-of Zalinski, in other words, uh, Yermach
+of Zelensky, in other words, uh, Yermach
 and the Ukrainian defense and foreign
 ministers in the upcoming negotiations
 to the roar of Big Ben in addition to

@@ -58,7 +58,7 @@ I think by introducing some of these twists to the proposed deal, no ceasefire i
 
 That means that the pressure on the United States, on the American consumer with gas at the pump during the summer driving season, and on the global economy, which is likely to get into a serious recession at least by midsummer, is going to continue. There will be no relief. So to go back to your original question, nobody's throwing Donald Trump or the United States a lifeline.
 
-Well, let's talk about Ukraine. How significant is the massive attack using an Oreshnik on Kyiv this past weekend?
+Well, let's talk about Ukraine. How significant is the massive attack using an Oreshnik on Kiev this past weekend?
 
 Well, it has two elements to it, of course. One is that it's retaliation for the Ukrainian strike on the kids in the school in Russia. And second, the use of the Oreshnik is a symbolic warning of the capability to strike any part of Europe with a nuclear weapon. The Oreshnik is usually a nuclear-armed weapon. In this case, it had a conventional warhead. So I think this is a very ominous thing.
 

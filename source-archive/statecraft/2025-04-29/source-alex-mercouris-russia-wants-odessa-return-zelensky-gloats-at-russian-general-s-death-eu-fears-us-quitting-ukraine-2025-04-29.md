@@ -19,7 +19,7 @@ quality_note: "English caption fetch via repo YouTube transcript pipeline; adjac
 
 Good day. Today is Tuesday 29th April
 2025 and um as I anticipated in my
-program yesterday, President Zalinski of
+program yesterday, President Zelensky of
 Ukraine appears to have rejected
 President Putin's proposal for a
 ceasefire for the holiday um on the 9th
@@ -29,7 +29,7 @@ the day that
 Russia and previously the Soviet Union
 commemorated their victory during the
 Second World War over Germany. Um
-Zalinski has fired back. He said that a
+Zelensky has fired back. He said that a
 ceasefire of that kind really isn't
 enough. The kind of ceasefire Ukraine
 wants is a ceasefire for 30 days. a that
@@ -37,7 +37,7 @@ kind of ceasefire, a ceasefire that will
 save lives as opposed to a ceasefire
 that is purely intended to
 allow parades to take place. Um,
-Zalinski also did something else which
+Zelensky also did something else which
 perhaps is rather more chilling, which
 is that he actually publicized a meeting
 which took place between himself and
@@ -51,7 +51,7 @@ is the first time to my knowledge that
 the Ukrainians have acted so quickly in
 acknowledging their own involvement in
 an assassination on Russian territory.
-And um Zalinski through this act appears
+And um Zelensky through this act appears
 to be taking direct responsibility for
 this assassination. He's not making it
 appear as if it was just the work of
@@ -89,7 +89,7 @@ interrupted for a whole day uh a crucial
 day by President Putin's sudden and
 unilateral announcement of a
 ceasefire made following an apparent
-agreement by President Zalinski at that
+agreement by President Zelensky at that
 time to begin
 negotiations. And I can remember again
 that the Russian military at that time
@@ -97,7 +97,7 @@ made little secret of their own
 exasperation at this decision.
 So I
 expect that this
-time, even as Zalinski rejects the May
+time, even as Zelensky rejects the May
 9th
 ceasefire, there will be significant
 pressure from the Russian military on
@@ -107,7 +107,7 @@ ceasefire, is simply not going to
 happen.
 Um, incidentally and in
 parting, whereas it seems there was some
-pressure from the West on Zalinski to
+pressure from the West on Zelensky to
 agree to Putin's proposal for an Easter
 ceasefire about a week ago. There is no
 analogous pressure this time from the
@@ -118,7 +118,7 @@ I said, I suspect that the senior people
 in the Russian army will be somewhat
 relieved about this. Anyway, there we
 are. That is the state of the situation
-between Putin and Zalinski as of the
+between Putin and Zelensky as of the
 time of making this program. Now Russian
 officials have been very busy making
 comments over the last 24 hours. Uh
@@ -204,7 +204,7 @@ forward their own
 proposal which was taking Donald Trump's
 ideas for a ceasefire clearly is
 intended to lead to the
-achievement of President Zilinsk's
+achievement of President Zelensky's
 so-called peace plan which requires the
 Russians to pull out completely from
 every millimeter of Ukrainian territory.
@@ -407,14 +407,14 @@ discussed anything meaningful over the
 course of that 15-minute conversation in
 St. Peters Basilica. Um the conversation
 that took place then between Trump and
-Zalinski was a demand from Trump to
-Zalinski to enter into negotiations with
+Zelensky was a demand from Trump to
+Zelensky to enter into negotiations with
 Putin with the Russians in the way that
 the Russians have demanded.
 Now, it doesn't seem as if
-Zilinski
+Zelensky
 agreed and several days have passed and
-there's no sign yet that Zalinski in
+there's no sign yet that Zelensky in
 fact has agreed. He's not made any step
 towards beginning direct negotiations
 with the Russians. Now, perhaps in light
@@ -531,7 +531,7 @@ minus, at least in any kind of time
 span, that seems to work for his
 political interests. And I think he's
 equally getting equally frustrated
-um with Zalinski himself
+um with Zelensky himself
 because Putin says,
 "Look, why don't we just we and the
 Ukrainians just sit down and end this
@@ -539,16 +539,16 @@ thing?" And we were told by
 um uh um by resident the Ukrainian um
 telegram channel that during the brief
 encounter in
-Rome, Trump also told Zalinski to get
+Rome, Trump also told Zelensky to get
 down and start talking to the Russians.
 But as might have been
-predicted, Zalinski showing no
+predicted, Zelensky showing no
 enthusiasm or interest or desire to do
 so. The Russians today have again
 repeated that they are prepared to enter
 into negotiations.
 Peskov was asked about the question of
-um Zalinsk's illegitimacy as far as the
+um Zelensky's illegitimacy as far as the
 Russians are concern are
 concerned and um um
 and
@@ -567,7 +567,7 @@ kind of statements. Pascov went on to
 say that one gets the impression that
 France completely ignores President
 Putin's statements which is
-unfortunate on the question of Zalinsk's
+unfortunate on the question of Zelensky's
 illegitimacy. It poses problems to the
 peace process but achieving a peace
 settlement is a the top priority. The
@@ -576,15 +576,15 @@ this process. Everything else is
 secondary. This is not inconsistent with
 what the Russians have said many times.
 Putin's point has been that obviously he
-will negotiate with Zalinski if he must
+will negotiate with Zelensky if he must
 because there is no one else in power in
 Kiev at the moment. So you can't choose
 your negotiating partner. That doesn't
-mean that Putin considers Zalinski to be
+mean that Putin considers Zelensky to be
 legitimate.
 But the problem
 is if an agreement is reached, will
-Zalinski have the authority, the
+Zelensky have the authority, the
 constitutional authority to sign the
 agreement? And if he doesn't and the
 agreement isn't worth the written the
@@ -597,13 +597,13 @@ since the collapse of the Istanbul talks
 in April 2022. They said this to the
 Chinese and the Brazilians and the
 Indians last year. They say it still,
-but obviously the issue of Zilinski's
+but obviously the issue of Zelensky's
 legitimacy remains an issue. but not an
 issue that prevents talks. So, Besoff
 anyway again confirmed that the Russians
 are willing and ready to enter into
 negotiations. But, as I said previously,
-it doesn't look as if Zalinski is. He's
+it doesn't look as if Zelensky is. He's
 still talking about a ceasefire. He
 wants to have a 30-day ceasefire. He's
 still committed to
@@ -746,7 +746,7 @@ these people suppose? So anyway just
 coming back to this issue if the United
 States if President Trump have now come
 up against the immovable obstacle which
-is Vladimir Zalinski who won't negotiate
+is Vladimir Zelensky who won't negotiate
 with the Russians and if the Russians
 are refusing a ceasefire then surely
 this is the right moment for the United
@@ -772,7 +772,7 @@ Now, that then brings us as to what
 might happen next.
 As we will see shortly, the Russians are
 now banging on the gates of
-Constantinfka and Slavansk and Kataussk.
+Konstantinovka and Slavansk and Kataussk.
 It seems to me that there is a good
 chance that by the autumn
 um the battle for
@@ -1034,7 +1034,7 @@ that the Russians have cooled on the
 idea of Victor Midvetchuk as the person
 like best position to take over in Kiev
 when the entire regime there as they
-call it not just Zilinski but Porro
+call it not just Zelensky but Porro
 Shenenko
 Klitschko all of the others um are
 basically removed from the scene they
@@ -1153,7 +1153,7 @@ article could be seen as corroborating,
 at least to some degree,
 um, the
 the comment in resident about Trump
-giving Zilinski in Rome a 10day
+giving Zelensky in Rome a 10day
 ultimatum to get talks organized with
 the Russians and agree a ceasefire.
 or the United States will walk away. And
@@ -1166,7 +1166,7 @@ halfway through the
 week, but there is no visible movement
 at the moment. The Russians are saying
 that it all depends on
-Zalinski. Zalinski, as the economist has
+Zelensky. Zelensky, as the economist has
 now admitted, is now fully entrenched in
 power in Kiev. I pointed out some weeks
 ago that the day when he could be easily
@@ -1183,7 +1183,7 @@ predecessor, Pedro Porrohenko. I
 understand that a court in Kiev has now
 convicted Porrohenko and sentenced him
 to 15 years in prison.
-So, if Zalinski doesn't decide on
+So, if Zelensky doesn't decide on
 negotiations over the course of the next
 few days, it's difficult to see anyone
 else doing so. Now, we're told that the
@@ -1196,7 +1196,7 @@ negotiations, then logically they're
 going to stop further military aid to
 Ukraine and the Europeans will be left
 by themselves trying to support Ukraine
-and Zalinski by the way um through the
+and Zelensky by the way um through the
 rest of the war. Something which
 everybody knows they are not able to
 do. So it's
@@ -1210,7 +1210,7 @@ the fact that um Trump has made some
 criticisms of Zalenc of of Putin and of
 the Russians over the last few
 weeks, over the last few days over the
-missile strikes in Kief. But the
+missile strikes in Kiev. But the
 Financial Times article then goes on to
 acknowledge that despite those
 criticisms, Trump has shown no sign that
@@ -1280,7 +1280,7 @@ diplomacy and
 statesmanship appears to have been
 reduced. Now there are
 alternatives. They could have a frank
-discussion with Zilinski. They could
+discussion with Zelensky. They could
 tell him look the Americans are pulling
 out. We don't have the capacity, the
 means, and resources to take that
@@ -1300,8 +1300,8 @@ the plate for the Russian
 military to gobble
 up. That would be telling the Ukrainians
 the truth. That would be confronting
-Zalinski with the realities. Perhaps
-Zalinski himself won't listen. Perhaps
+Zelensky with the realities. Perhaps
+Zelensky himself won't listen. Perhaps
 members of his entourage won't listen.
 Maybe the Ukrainians at that point will
 dig in. But at least
@@ -1445,10 +1445,10 @@ that kind of objective.
 But the Ukrainians themselves say that
 the most um difficult situation for them
 is now in the area south of
-Constantinoka, the southern
+Konstantinovka, the southern
 town of the um
 Slavansk
-Constantinfka connibation.
+Konstantinovka connibation.
 And there are
 reports there are now a cascade of
 reports mostly from the Russians but I
@@ -1456,10 +1456,10 @@ believe some reports also from the
 Ukrainians that the Ukrainians are now
 in the process of retreating completely
 from the central part of
-Chasy that there are uh that the
+Chasiv Yar that there are uh that the
 Russians have now entered the two
 remaining micro districts of Chasfyar.
-that Chasy could be completely cleared
+that Chasiv Yar could be completely cleared
 at some point within the next few days.
 That the battle of Chassya and by the
 way the battle of Bachmut because
@@ -1491,11 +1491,11 @@ now finally coming to an end. and the
 entire Bahmut area, Bahmut, Solidar, the
 various villages around Bahmut, um,
 Kyumfka, Klesfka, all of these places
-and of course Chasy itself are finally
+and of course Chasiv Yar itself are finally
 coming under Russian control with the
 Russians once they control this entire
 territory holding the high ground and
-able to shell Constantinfka and observe
+able to shell Konstantinovka and observe
 what goes on there. and not just
 Constantine but all of the surrounding
 area as well. And apparently the
@@ -1506,7 +1506,7 @@ Um, there's even some talk of a
 potential operational crisis, a cauldron
 for the Ukrainians starting to develop
 in the territory between Toretsk and
-Chasfy and south of
+Chasiv Yar and south of
 Constantin and the Russians
 gradually, well, actually practically
 now on the on the southern outskirts of
@@ -1517,18 +1517,18 @@ that the Russians were going to push to
 the Neper. But it looks as if these
 movements on the Oscll and Jerobet
 rivers and around
-Constantinfka they all suggest that it's
+Konstantinovka they all suggest that it's
 the cities
 Slavanskosk
-Constantinfka and further west Prosk
+Konstantinovka and further west Prosk
 that for the moment are the Russian
 priority and around Prosk there's more
 reports the Russians appear to be edging
 closer now to the important village of
 Novo
 Economic located just north of the main
-road going east from Pakovsk to um
-Constantinfka and I discussed how the
+road going east from Pokrovsk to um
+Konstantinovka and I discussed how the
 Russians have seem to be taking um
 Pakosk into a
 semicircle and there's been rather
@@ -1538,7 +1538,7 @@ Because the Ukrainian authorities
 yesterday announced the evacuation of
 civilians from certain villages lying
 southwest of
-Pacross in Nepo region. It looks as if
+Pokrovsk in Nepo region. It looks as if
 they expect the Russians to attack these
 villages fairly soon. That would mean
 the Russians crossing into Nepro region.
@@ -1548,7 +1548,7 @@ with Nepal region, but they've not so
 far made any attempt to cross it, but
 seizing these villages apparently is
 part of some big battle which is coming
-to take Pacross.
+to take Pokrovsk.
 And there has been other news from other
 battle places, but there's been a lot of
 talk mostly over the last couple of days
@@ -1589,7 +1589,7 @@ understand that negotiations between the
 Ukrainians and the Russians are the only
 way forward and well
 um everything now hangs on what Vladimir
-Zalinski of all people decides to do.
+Zelensky of all people decides to do.
 Now I'm going to finish briefly with
 two final observations. The first is one
 last point about Ukraine. Now there's

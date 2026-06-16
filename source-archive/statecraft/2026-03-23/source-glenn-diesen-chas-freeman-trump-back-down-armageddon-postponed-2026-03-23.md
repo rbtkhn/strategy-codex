@@ -196,8 +196,8 @@ both functionally closed that is have no
 personnel of consequence left at least
 that's the appearance um uh but of
 course I don't know whether the Saudi
-embassy in Thran or theQatari embassy in
-Thran have been closed
+embassy in Tehran or theQatari embassy in
+Tehran have been closed
 I suppose they probably have been but u
 there are many other loces for a
 dialogue confidential dialogue that must
@@ -396,7 +396,7 @@ that I can see at present. So all those
 things are true and and um in the middle
 of all this if Trump has finally
 discovered the merits of maintaining a
-dialogue with Thrron
+dialogue with Tehran
 even if it's under the table and not
 acknowledged by Tehran even if it's
 conducted by Steven Whit whom the
@@ -754,8 +754,7 @@ that's basically what's been going on.
 All this business about mining the
 Strait of Hormuz has no real evidence
 behind it. And it is the real question
-why Iran would want to mine the straight
-of hormones when it basically sees it as
+why Iran would want to mine the Strait of Hormuz when it basically sees it as
 the ability to open it to selected
 parties as a point of diplomatic
 opportunity and leverage. So I'm not

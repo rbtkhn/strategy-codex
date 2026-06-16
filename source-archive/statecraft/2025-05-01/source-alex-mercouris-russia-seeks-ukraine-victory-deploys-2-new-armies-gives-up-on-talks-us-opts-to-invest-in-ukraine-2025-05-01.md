@@ -170,7 +170,7 @@ Um
 certainly in no section of this
 agreement are there any security
 guarantees provided by the United States
-to Ukraine. When Zalinski first floated
+to Ukraine. When Zelensky first floated
 the idea of a minerals deal, he couched
 it clearly as an attempt
 to persuade the United States to provide
@@ -180,7 +180,7 @@ of Ukraine's minerals, its natural
 resources, and with security guarantee
 provisions. In fact, part of the reason
 for the row in the Oval Office back in
-February was Zalinsk's fury that he had
+February was Zelensky's fury that he had
 not been able to extract a security
 guarantee from the United States um in
 return for the mineral rights extraction
@@ -281,11 +281,11 @@ scrap of paper that cannot make or take
 us anywhere very far. But this must be
 said in the battle of wills between
 Vladimir
-Zalinski and Donald
+Zelensky and Donald
 Trump which has produced this agreement.
 It seems to be absolutely clear,
 incredible though it appears that
-Vladimir Zalinski has turned out the
+Vladimir Zelensky has turned out the
 winner. Um he may not have got the
 security guarantee from the United
 States that he was looking for. he might
@@ -324,7 +324,7 @@ of the agreement that was reached. Also
 note that as I said it seems as if only
 this agreement not the other two was
 signed and that also is consistent with
-um Zalinski getting his way. Apparently,
+um Zelensky getting his way. Apparently,
 he wants to renegotiate part parts of
 those agreements. Also, the Americans
 said take it or leave it, but the
@@ -380,7 +380,7 @@ something back. He's agreed to this
 agreement in effect
 um agreeing to pretty much well to many
 of the demands a great many of the
-demands that uh Zalinski has made. In my
+demands that uh Zelensky has made. In my
 opinion, Donald Trump now is on a slide.
 Way back in the summer of
 2024, I think it's fair to say before
@@ -412,7 +412,7 @@ which the Russians also didn't agree. he
 found that his um attempts to achieve
 peace were running into enormous
 opposition from Europe and indeed from
-Zilinski himself. And
+Zelensky himself. And
 so in order to say that he's achieved at
 least something he needed this agreement
 and that's what he's come up with. But
@@ -590,7 +590,7 @@ shows that the regime is staking
 everything on war. Moreover, Kiev's
 self-imposed legislative ban on
 negotiations with Russia remains in
-effect. That refers to Zalinsk's October
+effect. That refers to Zelensky's October
 2022 uh October 2022 decree. There is no
 basis to suggest that Ukraine is ready
 to alter its actions on the ground in
@@ -684,7 +684,7 @@ Anyway,
 um Donald Trump apparently is haunted by
 the fall of Saigon scenario and the fall
 of Carbull scenario and is desperate to
-avoid a similar fall of Kief taking
+avoid a similar fall of Kiev taking
 place whilst he is president. Well, all
 I will say about that is that if Donald
 Trump really does want to prevent Kiev
@@ -1040,7 +1040,7 @@ planned over the next couple of days
 close in Bellarus by the Russian and
 Bellerus militaries. There's some people
 in Ukraine who are apparently worried,
-including Zilinski himself, that this
+including Zelensky himself, that this
 might be another preparation for another
 strike at Kiev. I think that is we're
 too early for that to happen. I doubt
@@ -1058,7 +1058,7 @@ recapture
 Leman and of course Kensk as well and
 it's been suggested that Leman is the
 gateway to advancing on Slavansk and
-Kamatsk as chasy also is the Russians
+Kramatorsk as Chasiv Yar also is the Russians
 will be in a much stronger position if
 they capture Leman now and they would
 have been than they were when they held
@@ -1087,7 +1087,7 @@ success. So with
 Chasifiar probably soon under Russian
 control with Leman under Russian control
 with Toretsk also under Russian control
-with Constantinoka in the low
+with Konstantinovka in the low
 ground again an attack on
 Slavansks. all of these places looks
 very likely in the
@@ -1100,7 +1100,7 @@ me to be very difficult and last
 lastly there
 is continuing Russian pressure in the
 house around
-Pacross. And yesterday there were the
+Pokrovsk. And yesterday there were the
 first reports that the Russians have now
 broken in to the um fortified village of
 Bogatier in southwest Dumbbas. This is
@@ -1190,7 +1190,7 @@ got an investment fund agreement much
 more favorable to
 themselves may provide them with certain
 encouragement. But in the meantime,
-um Zalinsk's priority, it seems to me,
+um Zelensky's priority, it seems to me,
 continues to
 be
 to bring the war to the Russians. Now,
@@ -1203,12 +1203,12 @@ destroying Ukrainian drone production
 factories or by shooting down drones or
 maybe Ukraine is struggling to make more
 drones. But anyway, whatever. But
-Zalinski and his people are now making
+Zelensky and his people are now making
 increasing threats to attack the Red
 Square parade, or so it seems to me, on
 the 9th of May. I touched on this in my
 program yesterday, but this seems to be
-mostly what Zalinski is
+mostly what Zelensky is
 about is focusing
 on at the moment.
 And well, I don't know whether there
@@ -1347,9 +1347,9 @@ United States, the European Union, from
 Lindsey Graham and from people like
 that. Um all of the talk which I've been
 seeing is a further the need for further
-development of the bricks and of the
+development of BRICS and of the
 importance of the bricks for
-um the importance of the bricks and the
+um the importance of BRICS and the
 new trading and economic system that the
 bricks are creating for the future
 obviously not just of Russia but of

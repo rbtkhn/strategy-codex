@@ -1,7 +1,8 @@
 ---
 ingest_date: 2026-05-31
 pub_date: 2026-05-31
-kind: transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+kind: cleaned-transcript
 source_form: solo
 thread: nima
 show: Dialogue Works
@@ -10,10 +11,12 @@ title: "Nima R. Alkhorshid: \"TOTAL SURRENDER\" � Trump Dares Iran, But They J
 channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=Zqs4c_dOCog"
-source_note: Cleaned transcript pasted by operator.
+source_note: "Cleaned transcript pasted by operator. · ASR pass 2026-06-16."
 opening_tier: solo-brief
+normalization_state: ai_assisted_proper_noun_cleanup
+quality_note: "ASR normalization pass 2026-06-16; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # Nima R. Alkhorshid: "TOTAL SURRENDER" - Trump Dares Iran, But They Just DISMANTLED His Every Move
 
 **Channel:** Dialogue Works (Nima R. Alkhorshid)  
@@ -69,10 +72,10 @@ It was all about when they started the war, it was all about defeating, destroyi
 We mentioned on this podcast alone I have more than 20 30 podcasts talking about what would be the Iranian reaction if the United States attacks Iran. It was all it was all out. The Iranians were so honest in the way that they would respond to the United States. They said that they did everything they said.
 They said if the United States attacks us, we're going to close the Strait of Hormuz the global economy would be under tremendous pressure which is happening as we talked. They said we're going to hit all American bases in GCC countries. They said they're going to punish these countries because of the American bases.
 They did that. So, and what forced the United States? What did force the United States or the Trump administration? You remember in June 2025 when they start when they started the war by those assassinations and they thought that they're going to the government going to collapse and everything going to collapse.
- So, they started with assassination and then Donald Trump came out. He said just evacuate Thran, the capital of Iran. Just You have no way but you have to surrender. And nothing of that sort happened. After 10 12 days of war, he came out and said that and this is going to be a ceasefire between the two sides temporary ceasefire.
+ So, they started with assassination and then Donald Trump came out. He said just evacuate Tehran, the capital of Iran. Just You have no way but you have to surrender. And nothing of that sort happened. After 10 12 days of war, he came out and said that and this is going to be a ceasefire between the two sides temporary ceasefire.
 And then they started with some sort of turmoil, some sort of protest in Iran. They have everything. They did everything. Right now when you put the puzzle all together, all these pieces together, they the US Treasury Secretary said what the United States did since day one, the Trump administration came into power in the United States, what they did to bring down or to destroy the Iranian economy.
  He said that we know what has happened to the Iranian economy because I was you remember I I was in Iran in December 2025 in January when those protests happened in Iran. I saw those protests. I was watching what was happening inside Iran in the first two days. It was protest. It's all about all you know all about the inflation the economy the problem people were facing and then the government tried to negotiate with protesters with the economist with the elites of bazar as the elites of the market Iranian market so when they
-perceive that Iran the government is doing something so they started with you know to turn the protests into riots and they destroyed banks you know ambulance es I 20% of the ambulances in Thran were destroyed during those days and many people innocent people were killed. Donald Trump sent a lot of weapons.
+perceive that Iran the government is doing something so they started with you know to turn the protests into riots and they destroyed banks you know ambulance es I 20% of the ambulances in Tehran were destroyed during those days and many people innocent people were killed. Donald Trump sent a lot of weapons.
  He said, "I I sent them to Turkish to this terrorist to the to the Kurdish people in in Iraq to send them to Iranian people to the Iranian people, so-called people." And but he said they those weapons didn't get to in the hand of the Iranian people but they got in because Turkish you know the these Kurdish people in the in Iraq said we don't have those weapons where are those weapons and Iran is finding those weapons little by little.
 You look at the pictures coming out of Iran, how the intelligence, how the, you know, the Iranian security forces are capturing or getting these weapons that are in the hand of those riadors who were paid, who were, you know, armed by the United States, putting pressure on their economy, destroying the lives of the people of Iran, and sending the weapon to kill themselves, to kill the people of Iran.
 The same scenario, the same CIA scenario, the same scenario they did in Maidan, in Ukraine. They had snipers at the same time hitting the people and the forces and the security forces and the police. They did the same in Iran. This is the same scenario. By the way, they had these Iranian in diaspora, the son of the former Sha of Iran and coming out and so go who whoever supports me go into the streets and do the protests, you know, bring the capture the institutions in Iran and these are the hands and just three days

@@ -36,7 +36,7 @@ also saw yesterday was what tends to
 happen when a bunch of
 amateurs, which is what the leaders of
 the European states and Vladimir
-Zalinski basically are. What happens
+Zelensky basically are. What happens
 when amateurs who feel very um pleased
 with themselves and imagine themselves
 to be extremely clever people come up
@@ -188,7 +188,7 @@ the rhetoric that we heard yesterday
 from the uh European leaders, the four
 eur the three the eur four European
 leaders who came to uh Kiev and to
-Zalinski was rhetoric that we have heard
+Zelensky was rhetoric that we have heard
 before. So Karma, for example, repeated
 his um trit comments, no ifs and no
 buts. Putin and Russia must simply
@@ -264,7 +264,7 @@ during any ceasefire intelligence
 intelligence sharing and arming of
 Ukraine must stop. But Macron said on
 the contrary, France and the others
-would insist upon it. Anaku Zalinski
+would insist upon it. Anaku Zelensky
 went out of his way to describe um the
 various enormous sanctions that the
 Russians would face if they didn't agree
@@ -381,7 +381,7 @@ that agreeing to a
 ceasefire which the Russians announcing
 a ceasefire which the Russians had not
 agreed to would be a recipe for military
-disaster. And I suspect that Zalinski,
+disaster. And I suspect that Zelensky,
 who in the past has rejected ceasefires
 himself, probably listened for once to
 what his generals had to say and told
@@ -411,7 +411,7 @@ hours in which to agree. The ceasefire
 was supposed to come into effect on
 Monday. There were threats of massive
 sanctions um against the Russians. If
-they didn't, Zalinski has given us some
+they didn't, Zelensky has given us some
 idea of what these sanctions are meant
 to be. They're going to be against the
 so-called Russian shadow fleet, against
@@ -427,7 +427,7 @@ ultimatum to the Russians to agree to a
 ceasefire starting on Monday with a
 threat that if they didn't they would
 face all of these tough sanctions. We
-were told by Zalinski that the
+were told by Zelensky that the
 Americans would support the
 sanctions and the European leaders came
 out with all of those extraordinarily
@@ -458,7 +458,7 @@ This is after all the proposal, the
 counter proposal they made to the
 American proposal that was presented to
 them um three weeks ago in Paris and
-London, the one that Zalinski
+London, the one that Zelensky
 immediately rejected. Anyway, um,
 whatever the intention of the ceasefire
 was meant to be, as I've said, the idea
@@ -687,7 +687,7 @@ the junction with Belgarod region
 precisely on the days of the ceasefire
 we declared. He's absolutely right. As
 I've discussed this in previous
-programs, Zilinski sent fleets of drones
+programs, Zelensky sent fleets of drones
 to try and attack Moscow even as while
 even as world leaders were gathering
 there and Ukrainian attempts to break
@@ -723,7 +723,7 @@ ceasefire proposal, but as we all saw,
 tried to intimidate leaders of states
 who gathered for the celebrations in
 Moscow." And then again, it's true. No
-question about this. Zilinski made
+question about this. Zelensky made
 comments about how Ukraine could not
 guarantee the safety of leaders who
 attended the victory day celebrations.
@@ -762,7 +762,7 @@ clearly inadequate means and those who
 are trying to do this do not correspond
 to the scope that they themselves are
 counting on. Now, he's not just
-referring to Zilinski here. He's
+referring to Zelensky here. He's
 referring to the leaders of the West.
 You could see the studied contempt that
 he feels for all of them. He's very
@@ -847,7 +847,7 @@ agree on some new truses a new
 ceasefire was a rejection of the
 ultimatum made by Macron star mess tusk
 and
-zalinski earlier in the day because what
+Zelensky earlier in the day because what
 Putin is saying is that he's not
 prepared to agree to this
 ceasefire that the Western
@@ -929,7 +929,7 @@ interrupted not by us. What is wrong
 with that? Those who truly want peace
 cannot but support this. And then again
 and in studded contrast to Macron st
-uh Tusk Zalinski of course and the
+uh Tusk Zelensky of course and the
 leaders of the other leaders of the west
 Usula and all of the others. What does
 he do? He goes away and extends his
@@ -1053,7 +1053,7 @@ since April
 a step in the right
 direction. Others have sort of said the
 same thing. The Ukrainians clearly are
-unhappy. Zalinski has also come out and
+unhappy. Zelensky has also come out and
 said, well, you know, it is a step in
 the right direction. But of course, he
 insists as he always has that first
@@ -1418,8 +1418,8 @@ in his careful, elegant way, he brushed
 it aside. Now, what is going to happen?
 I'm going to suggest that the best thing
 that could happen is for Donald Trump to
-telephone Zilinski and tell Donald Trump
-and tell Zalinski, right, you're going
+telephone Zelensky and tell Donald Trump
+and tell Zelensky, right, you're going
 to send your delegation to meet Putin's
 people in Istanbul and you're going to
 get intell uh negotiations started and
@@ -1449,7 +1449,7 @@ Europeans
 determined to break Russia in some way
 and if possible to get the power of the
 United States to exert itself on Russia
-so as to break it with Zilinski and his
+so as to break it with Zelensky and his
 people constantly maneuvering and trying
 to find all sorts of ways to involve the
 United States directly in the war

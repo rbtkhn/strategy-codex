@@ -37,7 +37,7 @@ Maybe he's pontificating for various reasons amongst this group of people he kno
 
 Yeah. His connection froze again. Yeah. Yeah. Yeah. But I I think that's true. I think that's true. And I think you have to uh you have to parse what Trump says with that kind of understanding of why he's saying it and who's opposing him on any particular issue. And this is not just his cabinet or his cabinet equivalent people, special envoys and so forth.
 
-It's also the other leaders like for example and his disciple with Zalinski bull and everybody knows what this disciple is supposed to star wishes with him which are continue the conflict as long so I think Trump is illerved saying I think John's right about that but Trump is aware of that and so You have to really parse his remark with regard to knowing he understands that, trying to figure out who he's saying it against or for and what his really true motivations are, which I'm not even sure he knows from time to time. That makes it really
+It's also the other leaders like for example and his disciple with Zelensky bull and everybody knows what this disciple is supposed to star wishes with him which are continue the conflict as long so I think Trump is illerved saying I think John's right about that but Trump is aware of that and so You have to really parse his remark with regard to knowing he understands that, trying to figure out who he's saying it against or for and what his really true motivations are, which I'm not even sure he knows from time to time. That makes it really
 
 difficult. Carl, can you do something with your internet connection because you are just freezing up frequently. Yeah. Let me let me come. I'll come back on again. Okay, Larry, when it comes to the point that Colonel was trying to raise that the the the main objectives in the mind of Donald Trump and what does he want really from the Middle East? What would come to your mind? What is the picture that comes to your mind? Well, I think he's still holding on to the hopes of making the Abraham Accords become a reality. Now, Steve Whit is out
 
@@ -189,7 +189,7 @@ And that's the reason he comes to Washington so often, to prove to his own citiz
 
 He as we talk they're attacking they're somehow responding to Yemen and how about inside Israel? Do you do you see that people in Israel are getting closer to somehow say to Nino you're not anymore the prime minister you're not that much beneficial to Israel? Well what what you're seeing is a fracturing of of Israel into two into two real well three camps.
 
-um the the let's call it the settler camp, the Bengavver, the Smootrich, they appear to be the largest u not necessarily a majority, but the largest plurality. Um then you've got sort of the let's call it the traditional European, the gold my crowd. Um that doesn't mean that those two sides they they they share something in common. It's a hatred of the Palestinians by and large and a desire to destroy them.
+um the the let's call it the settler camp, the Bengavver, the Smotrich, they appear to be the largest u not necessarily a majority, but the largest plurality. Um then you've got sort of the let's call it the traditional European, the gold my crowd. Um that doesn't mean that those two sides they they they share something in common. It's a hatred of the Palestinians by and large and a desire to destroy them.
 
 So I don't want to present that, oh there's one crowd that wants to work with the Palestinians. No, they but they are diametrically opposed. And then you've got the ultra the ultraorththodox, you know, the ones who are refusing to serve in the military and who do not recognize Israel as as a fulfillment of prophecy.
 
@@ -230,9 +230,9 @@ And the ship's the ship's captain politely told the Estonians to go have sex wit
 
 And when the Russians showed up on scene, he was he was basically targeting these guys and they all fled. So that level of comfort that's going to continue. I think that's going to be actually where the war kicks off initially. It's going to happen out of the Baltic because these these idiots and the NATO, they don't understand. Back the hell off.
 
-And Russia's Russia is not going to back down on this and and and until this NATO issue is solved, you know, a bunch of Ukrainians are going to continue to die. They're simply pawns of NATO. And and here's Trump pretending I don't have nothing to do with NATO. Nonsense. Carl, I have never thought that Donald Trump would be that much incapable of dealing with Zalinski.
+And Russia's Russia is not going to back down on this and and and until this NATO issue is solved, you know, a bunch of Ukrainians are going to continue to die. They're simply pawns of NATO. And and here's Trump pretending I don't have nothing to do with NATO. Nonsense. Carl, I have never thought that Donald Trump would be that much incapable of dealing with Zelensky.
 
-It seems that he's totally somehow not been he has not been able to put pressure on Zilinski the way that he was talking about it before. No, it's um Larry's right. This is very dangerous game to play and these Europeans have no idea how dangerous a game this is to play. Um we are responsible in many cases for putting them in place as I've said other places.
+It seems that he's totally somehow not been he has not been able to put pressure on Zelensky the way that he was talking about it before. No, it's um Larry's right. This is very dangerous game to play and these Europeans have no idea how dangerous a game this is to play. Um we are responsible in many cases for putting them in place as I've said other places.
 
 We've been working since 2002. I was there from two to five uh on getting governments elected in Europe that one do not represent their people and two represent our interests only. And we're paying for that now. paying for it dearly all across the enhanced membership in NATO. Um I think what Sergey Lavough uh uh Badinski Pavl others said in the last few hours and the most operative phrase for them is recognized by Trump and that phrase is um got it written right here.
 
@@ -244,13 +244,13 @@ And Russia's going to keep on pushing and keep on winning and keep on the blood 
 
 So, it it doesn't want that. It wants it to stop. And now the press is full of this morning these little innuendos about Putin being assassinated, about Putin losing his grip, about the Russian people wanting to get rid of it. This is all CIA I wouldn't be surprised that MSA didn't joining in it. Um, and all the British intelligent MI6, you know, the French intelligence and others.
 
-We need to stop this. We need to bring this conflict to a close. Trump said he would do it. Do it. Do it. and recognize that you have to see and deal with the root causes of this conflict, you and NATO with Ukraine as your proxy. What was Zalinski doing, Larry, in in Stumble? And he he said that Putin is not here.
+We need to stop this. We need to bring this conflict to a close. Trump said he would do it. Do it. Do it. and recognize that you have to see and deal with the root causes of this conflict, you and NATO with Ukraine as your proxy. What was Zelensky doing, Larry, in in Stumble? And he he said that Putin is not here.
 
-He's not coming here to reach a deal. We know that it's so much is not that realistic. What was the main objective on his part? Well, actually he didn't go to Eststeo. He went to Ankora Ankura and he had a had a meeting with uh Erdogan and you know they they were they rubbed butter on each other's rear end and then um he gave the blessing for his delegation led by Umarov to go to Ishtanbul and then Zalinsky flew to Albania to hang out at a a NATO foreign ministers meeting and you know there to you know suck up you you know, maybe the they they they could
+He's not coming here to reach a deal. We know that it's so much is not that realistic. What was the main objective on his part? Well, actually he didn't go to Eststeo. He went to Ankora Ankura and he had a had a meeting with uh Erdogan and you know they they were they rubbed butter on each other's rear end and then um he gave the blessing for his delegation led by Umarov to go to Ishtanbul and then Zelensky flew to Albania to hang out at a a NATO foreign ministers meeting and you know there to you know suck up you you know, maybe the they they they could
 
-have the cocaine cowboy party with, you know, Starmer and Mcronone. Maybe they come in, you know, and hey, that was a great train ride. Let's do it again. Um, Almania is a place to do it. Yeah. Yeah. I mean, it's, you know, a lot of the organized crime is there and and the cocaine flows freely.
+have the cocaine cowboy party with, you know, Starmer and Macron. Maybe they come in, you know, and hey, that was a great train ride. Let's do it again. Um, Almania is a place to do it. Yeah. Yeah. I mean, it's, you know, a lot of the organized crime is there and and the cocaine flows freely.
 
-Uh but you know, Zalinski's he's trying to posture this as if you know that, oh, I'm going to show up Putin. You know, Zalinsky is a he's a he's a pimple on a Nat's ass is the reality with respect to to Putin. Putin is not obsessed with him. Putin recognizes correctly that Zinski's just been a tool.
+Uh but you know, Zelensky's he's trying to posture this as if you know that, oh, I'm going to show up Putin. You know, Zelensky is a he's a he's a pimple on a Nat's ass is the reality with respect to to Putin. Putin is not obsessed with him. Putin recognizes correctly that Zinski's just been a tool.
 
 He's he's been a willing uh conspirator with the West in their entire effort to try to destroy Russia. And I think he realizes, man, he's got to he's got to keep this gig going because once it's over, he's a dead man, literally. So, as long as they're still in the fight, you know, he can he can keep up the pretense.
 
@@ -316,7 +316,7 @@ Because there is no unity within. But it's that's where the that's where the pro
 
 Had he been president, the war would be a different place. That's how bad Bill Clinton was to kick all this off that Larry just described. Yeah, I'll never forgive him for it. I'll never forgive him for it. What what Larry just said, Carl, is shows that how delusional is the mindset of Europeans. And we have to consider that those days are gone.
 
-They're not there anymore. Russia today is a totally different country in terms of their military, their economy, the ties that they have been growing stronger with China, Iran and even India I would argue within the bricks and you see the same strategy on the part of Europeans as Larry was just pointing out.
+They're not there anymore. Russia today is a totally different country in terms of their military, their economy, the ties that they have been growing stronger with China, Iran and even India I would argue within BRICS and you see the same strategy on the part of Europeans as Larry was just pointing out.
 
 How how do you see Europeans confronting the reality? Is there any place for reality in their mind? Not very well. Not very well. And look at what just happened apparently and I'm glad it happened with India and Pakistan. They reconciled their differences. Um they exchanged a few rounds of one another and reconciled their differences.
 

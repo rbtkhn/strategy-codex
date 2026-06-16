@@ -7,7 +7,7 @@ kind: operator-transcript
 source_form: newsletter
 series: The Camel’s Bloody Nose (Substack)
 speaker: Scott Ritter
-source_note: Short escalation-signal essay (Oreshnik, Lvov/Kyiv strikes, Kapustin Yar training-launch read). Near-war/scenario-adjacent claims (CIA drones, tanker seizures, NATO defense)—essay ≠ wire. Light cleanup of operator/OCR errors only.
+source_note: Short escalation-signal essay (Oreshnik, Lvov/Kiev strikes, Kapustin Yar training-launch read). Near-war/scenario-adjacent claims (CIA drones, tanker seizures, NATO defense)—essay ≠ wire. Light cleanup of operator/OCR errors only.
 title_slug: substack-ritter-the-camels-bloody-nose-2026-01-09
 ---
 # The Camel’s Bloody Nose (operator capture)

@@ -157,7 +157,7 @@ against lukeil um drilling rigs in the
 Caspian Sea. Uh they didn't destroy the
 rigs, but you know, they got their they
 got their video that they were able to
-put out there and they have Zalinsky
+put out there and they have Zelensky
 meeting with the new head of the
 Ukrainian intelligence services talking
 about how we have struck deep into

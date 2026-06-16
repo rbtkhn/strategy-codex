@@ -46,13 +46,13 @@ In terms of Hormuz, the Iranians are firm on the position that they, together wi
 
 So they haven't changed their position on that, and nor have they changed it on the nuclear issue.
 
-Before we get to the subject at hand, Russia undertook a massive attack over the past two or three days using its famous or infamous Oreshnik and other related instruments of war in Kyiv. Will this evoke a response from Europeans, from the European governments, a military response?
+Before we get to the subject at hand, Russia undertook a massive attack over the past two or three days using its famous or infamous Oreshnik and other related instruments of war in Kiev. Will this evoke a response from Europeans, from the European governments, a military response?
 
-I'm not sure, and I don't think it should because first of all the Oreshnik was not used against areas of the city. My understanding is that it was used at an airfield on the borders of Kyiv, which is where it is believed military facilities are held there, maybe weapons, armaments, I don't know. But the Oreshnik was probably chosen for there precisely because with its multiple warheads, it is not within the strict, very tight target range of the warhead being within sort of five meters square. It is a wider warhead.
+I'm not sure, and I don't think it should because first of all the Oreshnik was not used against areas of the city. My understanding is that it was used at an airfield on the borders of Kiev, which is where it is believed military facilities are held there, maybe weapons, armaments, I don't know. But the Oreshnik was probably chosen for there precisely because with its multiple warheads, it is not within the strict, very tight target range of the warhead being within sort of five meters square. It is a wider warhead.
 
 So it was not used in the city, and Russia gave clear warning, 24 hours notice. Lavrov gave warning, saying I advise Americans and Europeans to leave the area. They are doing this in retaliation for the attack on a dormitory where young people, and mostly women, were killed. Not one drone, which is always possible could be an accident, but four drones attacked it, and I think 21 are dead.
 
-For Russians as a whole, this attack on the children there, because they are young people, teenagers mostly, this attack is really what Lavrov suggested was the last straw. This is just unacceptable. So the attack is going to be on the decision-making centers and the military infrastructure in Kyiv. It's not targeted on civilians. It's targeted on decision-making centers.
+For Russians as a whole, this attack on the children there, because they are young people, teenagers mostly, this attack is really what Lavrov suggested was the last straw. This is just unacceptable. So the attack is going to be on the decision-making centers and the military infrastructure in Kiev. It's not targeted on civilians. It's targeted on decision-making centers.
 
 Now many of those decision-making centers presumably after the warning will have been empty, but nonetheless this is a clear message. And you'll rightly say it's a message to Europe as much as anything else, because it is European and this is why I've talked and sent you a piece that I wrote about nuclear weapons, but nuclear weapons together with conventional weapons as a form of defense.
 
@@ -70,7 +70,7 @@ Karaganov is saying in this paper that the Europeans are really trying to, and t
 
 This is what Karaganov has said clearly: our deterrence is no longer there. It doesn't work, clearly, because the Europeans just go up and up and they are slowly, to use the metaphor, turning up the heat. If the frog doesn't jump out of the pan, then it gets boiled and dies. What we're seeing now, and you described it as the gloves coming off, well, the frog has jumped out of the pan.
 
-Putin is jumping out of the pan. He's not going to be boiled alive by the Europeans who are desperate to try and pull the United States into war, by France, by Britain, by Germany sending their stocks. I say so many because it was just in April announced: 120,000 drones from Britain going to Ukraine to fire into Russia and to kill Russians. He's saying enough is enough. Last straw. That's why he told them to get out of Kyiv.
+Putin is jumping out of the pan. He's not going to be boiled alive by the Europeans who are desperate to try and pull the United States into war, by France, by Britain, by Germany sending their stocks. I say so many because it was just in April announced: 120,000 drones from Britain going to Ukraine to fire into Russia and to kill Russians. He's saying enough is enough. Last straw. That's why he told them to get out of Kiev.
 
 And before, when he made a warning before the remembrance day parade, the Europeans said, oh no, it's a bluff, it's a bluff, we're not leaving. Well, if they don't leave on the advice of Mr. Lavrov, it's their responsibility and they must take the consequences. Things are getting tougher.
 

@@ -25,7 +25,7 @@ United States, the Europeans, and the
 Ukrainians were supposed to all unite in
 support of Kellogg's peace plan. As I
 discussed in my previous video, on
-Tuesday, President Zalinski made an
+Tuesday, President Zelensky made an
 extraordinary speech in which he
 rejected the Kellogg peace plan in its
 entirety, every single part of it. He
@@ -53,9 +53,9 @@ that the Russians should then enter into
 negotiations about paying reparations
 and war crimes trials and all of that
 kind of thing. As I said, that was the
-speech that Zalinski made yesterday. He
+speech that Zelensky made yesterday. He
 rejected outright Kellogg's peace plan.
-Now, prior to Zalinsk's speech, prior to
+Now, prior to Zelensky's speech, prior to
 the meeting in
 London, the United States, the US
 Secretary of State Marco Rubio, Kellogg
@@ -76,7 +76,7 @@ point and no satisfactory outcome. That
 was what Rubio said. That was what Witkoff
 said. That was what Kellogg said. That
 was what Donald Trump said. And after
-Zalinsk's speech on Tuesday, after the
+Zelensky's speech on Tuesday, after the
 break up and collapse of the talks on
 Wednesday, with no endorsement of
 Kellogg's peace plan, the moment one
@@ -99,7 +99,7 @@ war. He published a truly remarkable
 comment on Truth Social. I'm not going
 to read it in its entirety, but it
 begins with these words. Ukrainian
-President Vladimir Zalinski is boasting
+President Vladimir Zelensky is boasting
 on the front page of the Wall Street
 Journal that Ukraine will not legally
 recognize the occupation of Crimea.
@@ -322,7 +322,7 @@ those sort of things. So all of this
 clearly set out by the Russians in
 various statements they have um made
 over the last 24 hours clearly in ahead
-of Zalinsk's oh sorry of not zalinski's
+of Zelensky's oh sorry of not Zelensky's
 obviously wit gov's visit to Moscow now
 professor Mheimr um who's looked at all
 of this he said that the Russian and
@@ -334,7 +334,7 @@ is some kind of deal that can be done
 that can somehow reconcile the two. And
 we saw that when the Kellogg plan, which
 attempts to do that, was presented to
-Zalinski, he rejected it outright. These
+Zelensky, he rejected it outright. These
 statements from the Russians make the
 same point in a in a sense. The Russians
 are far more
@@ -343,7 +343,7 @@ they
 say than um the Ukrainians are. We're
 not going to have the same kind of angry
 speech from Putin that we got from
-Zalinski. Putin is going to speak
+Zelensky. Putin is going to speak
 quietly,
 courteously with Wit Golf. He's going to
 discuss it all in detail presumably over
@@ -399,7 +399,7 @@ would grudgingly, very grudgingly accept
 the Kellogg plan. Well, it turns out
 otherwise. It's absolutely clear over
 the last 24 hours that the Europeans are
-backing again Zalinski against Trump.
+backing again Zelensky against Trump.
 We've had two articles about this. U one
 in two articles in the Financial Times.
 There have been articles in all sorts of
@@ -469,7 +469,7 @@ is that they themselves have frozen
 themselves out of the discussions. But
 anyway, there was apparently um um a um
 um anger at the meeting on Wednesday
-um when um after Zalinsk's extraordinary
+um when um after Zelensky's extraordinary
 speech. Rubio and um Witkoff decided that
 they would walk out of the meeting.
 We're told that
@@ -534,8 +534,8 @@ we learn that in practice, they've
 chosen sides.
 The sides that have been talked about
 are Trump versus
-Zalinski, America versus Ukraine, and
-predictably they are choosing Zalinski
+Zelensky, America versus Ukraine, and
+predictably they are choosing Zelensky
 and Ukraine against the United States.
 And we're told that Washington's offer
 to endorse Moscow's control of Crimea,
@@ -623,7 +623,7 @@ accept the Kellogg plan. Now, I have to
 say I'm absolutely stunned by this. I am
 incredulous. The Europeans are saying
 that they won't accept the Kellogg plan.
-I can understand why Zalinski won't
+I can understand why Zelensky won't
 accept the Kellogg plan. After all, if
 the Kellogg plan were implemented in any
 form, there would have to be elections
@@ -726,7 +726,7 @@ which to me
 again is a shining example of good
 sense. This is what he says. Crimea
 should be the easiest concession for
-Zalinski to make because one, it has
+Zelensky to make because one, it has
 been part of Russia for the last decade.
 Two, the vast majority of its population
 are ethnic Russians who, as Western
@@ -735,7 +735,7 @@ Russia. Three, Ukraine has no military
 way to retake it. The disastrous summer
 counteroffensive of
 2023 made that abundantly
-clear. If Zalinski won't concede this,
+clear. If Zelensky won't concede this,
 he won't concede anything. So, a deal
 with him is impossible. The Secretary of
 State is right to walk away. What David
@@ -814,7 +814,7 @@ against what is probably well certainly
 in Dombas Ukraine's last line of
 defense. the cities of Slavansk,
 Kramatossk and
-Constantin, and the town of Pakovsk. And
+Constantin, and the town of Pokrovsk. And
 all of these cities now are vulnerable
 to Russian attack and probably will be
 the subject of Russian attack over the
@@ -843,7 +843,7 @@ criticized, Trump at least makes that
 very point. He makes the point that
 Ukraine has suffered terrible losses
 over the last three years, but that if
-Zalinski continues to maintain the
+Zelensky continues to maintain the
 stance that he is maintaining now, he
 will lose his entire country or could
 lose his entire country over the next
@@ -908,7 +908,7 @@ future of Ukraine as an independent
 country might indeed be put at risk.
 Now, one person who has grasped this is
 Ukraine's former spin doctor in chief,
-former associate of Zalinski, now in
+former associate of Zelensky, now in
 bitter disagreement with him and I
 understand in exile perhaps in New York
 and that is of course Alex Aristovich.
@@ -956,7 +956,7 @@ Anyway,
 Trump apparently is paying little
 attention for the moment at least to any
 of
-this. Zalinski has rejected Kellogg's
+this. Zelensky has rejected Kellogg's
 plan. The plan that Kellogg
 um sold to Trump and told Trump
 would easily end the war. One of the I
@@ -965,27 +965,27 @@ to use this word but one of the most
 pathetic moments for me over the last 24
 hours was a comment that Trump made
 impromptu in which he said that he has
-found Zilinski much more difficult to
+found Zelensky much more difficult to
 work with than he'd ever
 expected. Well, all I can say about that
 is again, had he spent any time
 actually observing the realities of the
 conflict, if he'd spent any time
-listening to Zilinski and informing
+listening to Zelensky and informing
 himself about the political realities of
-Ukraine, nothing about Zilinsk's
+Ukraine, nothing about Zelensky's
 entrangence or borishness or refusal to
 accept reality would have surprised him.
 should. But anyway, there it is. He says
-that he's found Zalinski much more
+that he's found Zelensky much more
 difficult to work with than he imagined.
 He says that by contrast, he's found
 Putin easier to work with than he has
-found Zalinski. But he still seems to
+found Zelensky. But he still seems to
 cling on to the idea that somehow or
 other in some unknown way or other. Um
 someone somewhere will give um the
-Europeans apparently backing Zalinski
+Europeans apparently backing Zelensky
 against him. Um the Russians as I said
 reinforcing their stance as they have
 been doing over the last 24 hours.
@@ -1212,7 +1212,7 @@ will say to Whitkov, "Look, forget about
 this Kellogg plan." He won't say quite
 in that way, but he says, "Forget about
 it. The Ukrainians are not going to
-accept it." Zalinski has made that
+accept it." Zelensky has made that
 perfectly clear. Your European allies
 are not accepting it. They have made
 that also perfectly clear. Um we that is
@@ -1266,7 +1266,7 @@ energy market, allowing a return to
 Russia of some of your companies. Do you
 really want to put all that at risk
 by
-letting someone like Zilinski and his
+letting someone like Zelensky and his
 European allies um
 disrupt the improvement in relations
 between us? And if Putin wants to take
@@ -1358,7 +1358,7 @@ This is significantly less than what
 they used to claim and probably in fact
 many more missiles and drones have got
 through. Though it's important to say
-that Kief continues to be the most
+that Kiev continues to be the most
 heavily protected of all Ukrainian
 cities from drone and missile strikes.
 But anyway, um it's clear that a lot of
@@ -1369,17 +1369,17 @@ were component parts of the military
 industrial system such as it is in
 Ukraine today. And the Russian defense
 ministry also says that um railway uh
-railway um connections to Kief, the ones
+railway um connections to Kiev, the ones
 by the way used by Western leaders
 presumably when they traveled to Kiev,
 those were attacked also. Now, I'm not
 going to go into the details of the
 fighting on the battle fronts, but it's
 um clear to me that especially in the
-Constantinovka area and around Pakovsk,
+Konstantinovka area and around Pokrovsk,
 the Russians continue to
-advance around Pakovsk
-incrementally in the Constantinovka area
+advance around Pokrovsk
+incrementally in the Konstantinovka area
 rapidly and that the buildup of Russian
 forces in northern Ukraine continues as
 well. As I said, the Russians have been

@@ -381,7 +381,7 @@ destroy this balance of power. Our
 conclusion, well, we will have to occupy
 the ground in the Middle East to restore
 that balance of power, balance of power
-between Baghdad and Thran and vice
+between Baghdad and Tehran and vice
 versa, which had been carefully crafted,
 if you'll recall, after the first Gulf
 War. We even allowed the Shia to rise up

@@ -26,7 +26,7 @@ American side shows that there still
 remains a great deal of confusion and
 it's not even clear what the American
 side is. We just did a show with uh
-Professor Morandi out of Iran and they
+Professor Marandi out of Iran and they
 are despite the accusations against
 them, they are quite unified in what
 they're doing at both at their uh
@@ -71,7 +71,7 @@ their reprocessed material. They're not
 going to uh do any more reprocessing, no
 more enrichment. And by the way, they've
 also promised me that they would never
-again use the straight of horm. All
+again use the Strait of Hormuz. All
 those things are done. So, we'll
 probably have a deal, but I'm actually
 planning on uh resuming the war if they
@@ -760,8 +760,7 @@ it's a test of us. The right answer to
 that test is to preserve the blockade.
 The blockade is an answer to what
 they're doing in terms of trying to
-exert their leverage over the straight
-of Hormuse. Let's not underestimate the
+exert their leverage over the Strait of Hormuz. Let's not underestimate the
 impact of a leadership dominated by
 those who are really ideological and who
 think that any concession at this point
@@ -904,10 +903,10 @@ damn thing and yet we foolishly pretend,
 oh, they don't they don't have emotions
 like us.
 You know, I thought it was really
-telling last night in Thran before uh it
+telling last night in Tehran before uh it
 was announced that President Trump had
 extended the ceasefire. There was
-basically a parade in in Thran with
+basically a parade in in Tehran with
 missile launchers out there and people
 with flags and stuff all draped around
 it knowing that you know satellite
@@ -1335,7 +1334,7 @@ of military action where they would be
 blamed as breaking the ceasefire.
 They're doing that out of respect to
 Pakistan and out of respect to China.
->> And and by the way, Professor Morandi
+>> And and by the way, Professor Marandi
 just told me right before your show here
 that Iran would not break the ceasefire.
 They would not be the one to do it.

@@ -57,9 +57,9 @@ Israel. So I would bet I'm not sure of this but I would bet that someone like Du
 
 Uh now that may not be true because we don't have all the evidence here.
 
->> Right. Right. But can Prime Minister Netanyahu afford to change plans without losing those two fanatics and who whoever else votes with them in the Knesset, Ben Gavir and Smootrich.
+>> Right. Right. But can Prime Minister Netanyahu afford to change plans without losing those two fanatics and who whoever else votes with them in the Knesset, Ben-Gvir and Smotrich.
 
-Well, there's two points to be made. One is that I don't think he can afford to do it because I don't think it's just Ben Gvere and Smootrich.
+Well, there's two points to be made. One is that I don't think he can afford to do it because I don't think it's just Ben Gvere and Smotrich.
 
 I think the fact is that the center of gravity in Israel uh is so far to the right that it's very hard to shift positions now.
 

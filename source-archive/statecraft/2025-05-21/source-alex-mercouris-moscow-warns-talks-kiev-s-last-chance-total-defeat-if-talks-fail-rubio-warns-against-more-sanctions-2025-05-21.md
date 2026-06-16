@@ -138,7 +138,7 @@ retains an
 identity as a country, these
 negotiations that are now underway
 between Russia and Ukraine, the direct
-negotiations that Zalinski resisted for
+negotiations that Zelensky resisted for
 so long and has sought to outlaw, are
 Ukraine's last chance. If these
 negotiations fail, then Russia will move
@@ -460,7 +460,7 @@ not really made to the Ukrainians at
 all. I think Medved by now fully
 understands that the Ukrainians are not
 capable of negotiations or at least
-Zilinski isn't um leading to any kind of
+Zelensky isn't um leading to any kind of
 satisfactory outcome. I think that this
 was more a warning addressed to the
 people who Putin and the VEDv have at
@@ -508,13 +508,13 @@ military situation in any detail in this
 program. Suffice to say that I was
 reading in TAS uh our old friend Andre
 Marotko saying that the Russians are now
-close to encircling Constantinfka that
+close to encircling Konstantinovka that
 they're attacking Constantin from three
 directions and that I've seen the first
 discussion in Russian telegram channels
 of how Russia might conduct the battle
 to capture the cities of Slavansk and
-Kamatsk. The first serious discussions
+Kramatorsk. The first serious discussions
 of that topic that I have
 seen at any time so far in this war.
 Well, there we are. Now, in my program

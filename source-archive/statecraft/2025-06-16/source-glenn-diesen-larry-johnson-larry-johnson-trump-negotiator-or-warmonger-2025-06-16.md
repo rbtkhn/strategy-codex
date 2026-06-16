@@ -269,7 +269,7 @@ have for Iran to show how authoritarian
 they are but when you go there it's uh
 they don't they laws that women have to
 cover their hair, but it's not enforced.
-So, if you walk in Thran in the markets
+So, if you walk in Tehran in the markets
 in the evening, you see like 30% of
 women choosing not to have it on,
 walking around in jeans and t-shirts.
@@ -730,7 +730,7 @@ and, uh, and this of course would be a
 wider war. Or the third would be that
 the Israelis break out a nuclear weapon
 or something like this to have a proper
-decapitation of Thran. But
+decapitation of Tehran. But
 what are other possible options here?
 Because it's starting to I'm not really
 seeing it. I don't see Israel def

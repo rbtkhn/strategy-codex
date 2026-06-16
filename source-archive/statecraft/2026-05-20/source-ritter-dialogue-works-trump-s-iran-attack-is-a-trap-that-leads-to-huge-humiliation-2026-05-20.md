@@ -59,7 +59,7 @@ His truth social media postings are designed to generate market impact. Market i
 
 It's all a giant act of theater. It's a charade designed to um you know ostensibly put pressure on Iran, but I don't think Iran's feeling any pressure. And uh the secondary benefit is to have Trump in incorporated rake in the money from manipulating markets. Yeah, the assessment of the battlefield. I think you you're right about the reasons that you've just mentioned, but the problem is that we don't have a logical sort of thinking in Washington.
 
-And many people are arguing that NetO falters domestically right now. One of the main reasons that the United States may decide to attack Iran again because Netno is just he's not in a good position right now in Israel. and everybody knows what's going on there and he needs something. >> No, I mean there there's no doubt about that.
+And many people are arguing that NetO falters domestically right now. One of the main reasons that the United States may decide to attack Iran again because Netanyahu is just he's not in a good position right now in Israel. and everybody knows what's going on there and he needs something. >> No, I mean there there's no doubt about that.
 
 But how long can you play that card? You know, uh the first card uh you know, the first hand was was played back in February 11th when Netanyahu and the head of MSAD met with Trump one-on-one in the White House and sold him a bill of goods that has since been exposed as a bill of goods. They lied. They lied about their abilities.
 
@@ -139,7 +139,7 @@ You know these are essential corridors of of wealth for you know for Iran and fo
 
 It's uh you know this is two of the world's most powerful influential nations coming together and they're not seeking a bilateral world. They're not seeking a return to the um to the Cold War. They're seeking a true multi-olar world that empowers many nations, not just a handful. And um you know this is the this is the new reality that the United States is going to have to adjust to one way or the other.
 
-We used to have OPIC and OPIC plus to decide about the price of oil. Do you think we have a new alternative in the market which is a straight form because the flow tankers through the Strait of Hormuz can change the price of oil in my opinion in a long run. >> Yeah. But that's u I mean from a practical standpoint I mean in terms of outcomes um sure I mean look we used to have Ramco you know the uh the American Arab uh oil company um the Arab American oil company and they basically overproduced Saudi oil production infrastructure. I
+We used to have OPIC and OPIC plus to decide about the price of oil. Do you think we have a new alternative in the market which is a Strait of Hormuz because the flow tankers through the Strait of Hormuz can change the price of oil in my opinion in a long run. >> Yeah. But that's u I mean from a practical standpoint I mean in terms of outcomes um sure I mean look we used to have Ramco you know the uh the American Arab uh oil company um the Arab American oil company and they basically overproduced Saudi oil production infrastructure. I
 
 forget the numbers at 12.5 million at one point in time was maximum production but they were only producing at nine million. Why? Why have over because that's very expensive to have all this infrastructure that you're not using. And the answer is because when the United States needs more oil on the market, the Saudis can increase.
 
@@ -155,7 +155,7 @@ And I believe Iran would support that as long as nations aren't positioning them
 
 happens then Iran has the right to do this but so long as expectations are met, Iran has to let the traffic go through. >> Yeah. I I think that's why I would say Israel is losing Saudi Arabia and Qatar because the situation the calculation on the part of these governments in these countries has totally changed and do you think that is there any way for Israel to you know to do something about it or to reverse what's going on with the case of Iran because Saudi Arabia and Qatar are I would say so much dependent on
 
-Iran right now with it. I it doesn't matter if they're going to rebuild or they're going to build new pipeline, but it's not they're not going to get everything out of their countries by these pipelines. They're going to be dependent on this rate of for not only when it comes to this rate. We have the internet cables that they're talking many people are talking about that in Iran right now.
+Iran right now with it. I it doesn't matter if they're going to rebuild or they're going to build new pipeline, but it's not they're not going to get everything out of their countries by these pipelines. They're going to be dependent on the Strait of for not only when it comes to the Strait. We have the internet cables that they're talking many people are talking about that in Iran right now.
 
 >> Yeah. Yeah. This is >> I remember in the 1990s um I had a conversation with the Israelis about the growing threat of Hamas. Um when I was traveling to Israel from 1994 through 1998, every time I went to Israel, there was a terrorist attack, a Hamas terrorist attack that killed people.
 

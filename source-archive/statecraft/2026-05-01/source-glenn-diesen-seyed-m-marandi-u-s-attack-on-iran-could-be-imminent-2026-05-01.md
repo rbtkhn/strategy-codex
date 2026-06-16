@@ -222,7 +222,7 @@ would make you think that they have
 something up their sleeves, something
 that they would do do different this
 time around. And uh you know from your
-perspective there sitting in Thran, what
+perspective there sitting in Tehran, what
 do you think the US would do if the
 different if they now as you suggest
 could invade or attack over the next few
@@ -840,7 +840,7 @@ Iranians have have up their sleeve? I'm
 not saying the government are whispering
 in your ear telling them what you're
 planning to do, but you know, you're
-you're there in Thran, you have a
+you're there in Tehran, you have a
 general idea what cards can be played
 and also Iran as allies, they have
 autonomy of their own. Uh so what what

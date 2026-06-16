@@ -54,7 +54,7 @@ Istanbul and working with the Russians
 to
 um agreeing to the Russian proposal to
 President Putin's proposal for direct
-negotiations. Zilinski had suggested
+negotiations. Zelensky had suggested
 that he might go
 himself, but it seemed to me yesterday
 that he was making that conditional on
@@ -99,22 +99,22 @@ terribly important that this meeting in
 Istanbul between the Ukrainians and the
 Russians take place. He understood that
 the leaders that's to say Putin and
-Zalinski would be attending.
+Zelensky would be attending.
 Um he was actually I think as of that
 time as of the time that he said that
 wrong in thinking this Putin has never
 said that he is going to Istanbul on
 Thursday and as we will see shortly that
 doesn't seem to be his intention at all.
-As for Zalinski, as of the time when
+As for Zelensky, as of the time when
 Trump spoke, it still seems to me that
-Zalinsk's actual position was that he
+Zelensky's actual position was that he
 would not go to Istanbul unless the
 Russians agreed to a ceasefire. But
 anyway, Trump appears to have convinced
 himself or misunderstood or assumed that
 a summit meeting between Putin and
-Zalinski would probably happen in
+Zelensky would probably happen in
 Istanbul on Thursday. He said this would
 be a wonderful and very good thing that
 it would move things forward and that
@@ -192,7 +192,7 @@ very badly or so the Europeans and the
 Ukrainians fear if the Ukrainians do not
 go to Istanbul. to repeat again up to
 Donald Trump making those comments.
-The position, Zalinsk's position, as far
+The position, Zelensky's position, as far
 as I can understand it, is that he was
 not going to go to Istanbul unless the
 Russians agreed to a ceasefire.
@@ -258,16 +258,16 @@ Ukrainians negotiate with the Russians
 because they're worried about the
 Ukrainians negotiating by themselves.
 And apparently they all
-expect Zalinski himself to go to
+expect Zelensky himself to go to
 Istanbul on Thursday even if there is no
 ceasefire. And it's quite clear that
-they're all telling Zilinski that having
+they're all telling Zelensky that having
 now broached the idea of his going to
 Istanbul on Thursday, he must indeed go
 in light of what Donald Trump has been
 saying.
 Well,
-Zalinski now finds that he is expected
+Zelensky now finds that he is expected
 to go to
 Istanbul, but as I said previously, it
 seems to me that his original proposal
@@ -275,9 +275,9 @@ of going to Istanbul was not intended
 seriously. Now, he is expected to go.
 And so we've had further comments and
 statements coming from Kiev, not so much
-from Zalinski himself, but from his
+from Zelensky himself, but from his
 various um um officials, from Podoliac
-and Yermach, that yes indeed Zalinski
+and Yermach, that yes indeed Zelensky
 will go to Istanbul on
 Thursday, but if Putin doesn't come,
 even if there is an extremely strong
@@ -286,18 +286,18 @@ in Istanbul, even if the Russians come
 and are ready to sit down and to
 negotiate with him. And there's no
 reason, by the way, why the Russians
-wouldn't negotiate with Zilinski anyway.
+wouldn't negotiate with Zelensky anyway.
 Even if they do come, but come without
-Putin, then Zalinski will not speak to
+Putin, then Zelensky will not speak to
 them. He will walk out and the Russians
 will be left in Istanbul.
-and Zalinski himself will fly to
+and Zelensky himself will fly to
 Ukraine. And I've been reading again in
 the British media that his aids
 Podoliaak Yermach and the others are now
 putting out putting it out that there is
 no point in the great and wise President
-Zalinski meeting with Vladimir Putin's
+Zelensky meeting with Vladimir Putin's
 underlings in Istanbul. um even if they
 be people like the Russian prime
 minister Mikail Mushin because it would
@@ -363,9 +363,9 @@ would also say reinforcing a point that
 Ian Proud has made that another reason
 for being very wary of having a meeting
 of this kind, a leaders meeting of Putin
-and Zalinski in Istanbul is that it is
+and Zelensky in Istanbul is that it is
 an absolute certainty as night follows
-day that Zalinski would use the meeting
+day that Zelensky would use the meeting
 to grandstand and to try to put Putin in
 an awkward position. And why would the
 Russians want to agree to something like
@@ -377,7 +377,7 @@ agreement in the U. EU in the European
 Union about them. The Americans haven't
 decided whether they're actually going
 to go forward with sanctions at all.
-Zalinski, one moment he gives the
+Zelensky, one moment he gives the
 impression that he's going to Istanbul,
 the next moment he isn't. Then he says
 he will, but he won't speak to anybody
@@ -400,7 +400,7 @@ Russians far more than they are prepared
 to do. Probably they're not especially
 keen on a ceasefire at all. After all,
 to repeat again, right up to February,
-Zalinsk's position was that he wouldn't
+Zelensky's position was that he wouldn't
 accept a ceasefire unless he got
 security guarantees from the United
 States. When ceasefires have been
@@ -524,7 +524,7 @@ to Kiev. There's no reason why those
 leaders needed to go to Kiev at all.
 Just saying. I mean obviously there were
 the victory day celebrations in Moscow
-the following day. Zalinski was keen to
+the following day. Zelensky was keen to
 some
 extent
 to draw attention away from those
@@ -572,7 +572,7 @@ for serious
 negotiations with the Russians. If there
 was a desire for serious negotiations in
 with the Russians, the Europeans would
-be taking Zilinski to one side and say
+be taking Zelensky to one side and say
 to to them, "Are you out of your
 senses?" Do you really think that the
 way forward is for you to go to Istanbul
@@ -644,7 +644,7 @@ negotiations at this time. As I've
 discussed, it is the conventional way to
 conduct negotiations at this time. And
 then of course, if
-Zilinski is true to his word, he will
+Zelensky is true to his word, he will
 flounce off to Kiev and refuse to meet
 with them. And then the big unanswered
 question again comes back to this. What
@@ -658,7 +658,7 @@ realized? His great moment as acting as
 the peacemaker, you can always see the
 photos at least the photos in Trump's
 mind, himself in the middle, Putin on
-one side, Zilinski on the other. He
+one side, Zelensky on the other. He
 brings them both together, he gets them
 to shake hands, something of that kind.
 Anyway, he's will he be angry that that
@@ -666,7 +666,7 @@ great photo op isn't going to happen, or
 will he see through all of these
 maneuvers and intrigues that I've been
 setting up in this program? Will he
-realize that Zalinski is not in the
+realize that Zelensky is not in the
 slightest bit serious about negotiations
 with the Russians? that his announcement
 that he's going to Istanbul to meet with
@@ -675,7 +675,7 @@ not serious about negotiations with the
 Russians. And will Trump say to himself
 and will Trump on behalf of the United
 States also say that enough is enough?
-Zalinski isn't interested in
+Zelensky isn't interested in
 negotiations. Ukraine is not interested
 in negotiations.
 He's alluded to that possibility on his
@@ -736,7 +736,7 @@ massive sanctions would follow. is
 saying today that unless the Russians
 negotiate seriously with the Ukrainians
 on Thursday, in other words, unless
-Putin comes and meets with Zalinski on
+Putin comes and meets with Zelensky on
 Thursday, massive sanctions will follow.
 Just saying. And um the German foreign
 minister, the new German foreign
@@ -1034,7 +1034,7 @@ this plays out. There's been more
 comments incidentally from
 um Leonid Slutski who is chairman of the
 state duma committee on international
-affairs. He is scathing about Zalinski.
+affairs. He is scathing about Zelensky.
 He says on Thursday our negotiators will
 be in Istanbul regardless of Kiev's
 stance and they will be there and this
@@ -1081,7 +1081,7 @@ summer of 2024, there was a whole
 narrative for a time about how the war
 was in stalemate and then over the
 course of the summer as the Russians
-advanced towards Pakovsk and captured
+advanced towards Pokrovsk and captured
 settlement after settlement and broke
 through one Ukrainian defense line after
 another. The mood began to shift and
@@ -1134,7 +1134,7 @@ across the entire contact line. Last
 year it was mainly focused on
 ADFA on the territory to the west of
 ADFA all the way to Celidovo Kurakov
-Uladar and ultimately Pakovsk.
+Uladar and ultimately Pokrovsk.
 This time it's happening right across
 it's extending right across the entire
 battlefront. And I should say that
@@ -1262,14 +1262,14 @@ entire village. Anyway, further
 north, the Russians continue to hold
 their um positions um in the village of
 Zero
-um just southwest of Pakovsk. But
+um just southwest of Pokrovsk. But
 perhaps more alarming for the
 Ukrainians, the Russians have now
 captured the village of
 Mirubka, which lies to the east of
-Pacross and
+Pokrovsk and
 Mirnograd, south of the main road from
-Pakovsk to
+Pokrovsk to
 Constantin. The Russians have captured
 villages like Vosvanka, Yeliska.
 They are apparently attacking another
@@ -1280,21 +1280,21 @@ Um there are two small villages Mir and
 Mikolai of K left and then there's the
 more important village of Novo
 Economic and then essentially the
-Russians have encircled Pacross from the
+Russians have encircled Pokrovsk from the
 east and are in a strong position to cut
 off Ukrainian supply lines to Prosk from
 the north. Now the Russians are saying
 that the fall of Mirrol
 Yubiffka opens the way for the attack on
-Pakarovsk and it's our old friend Andre
+Pokrovsk and it's our old friend Andre
 Marroko and he's told Tass the seizure
 of the settlement of
 Mirubka opens operational space in
 particular in the direction of
 Mirnograd. This is the city, the town,
 the suburb, the eastern suburb of
-Pakovsk which is located close to
-Pakovsk. So that is what Marotko is
+Pokrovsk which is located close to
+Pokrovsk. So that is what Marotko is
 saying. Um it is increasingly my belief
 that the battle of Pakosk is going to
 begin in earnest this
@@ -1304,7 +1304,7 @@ also are going very badly. Um there's
 been a lot of reports about the
 situation in
 um in the area south of
-Constantinovka. Um a Ukrainian an
+Konstantinovka. Um a Ukrainian an
 analyst I'm taking this by the way from
 Simplicius the thinker, but he's got a
 summary of some comments that have been
@@ -1318,7 +1318,7 @@ will be much more convenient for the
 enemy to conduct a general occupation
 here. Nobody thinks the enemy will stop
 or make a deal. They will attack and
-attack on mass and Constantinovka
+attack on mass and Konstantinovka
 Proskansk and towards the Oscol in the
 estie direction and towards Duska and
 Chas of Yar. Only the armed forces of
@@ -1331,7 +1331,7 @@ there have been many reports in this
 area and they all seem to suggest that
 the situation is indeed getting a lot
 worse. Now, yesterday
-Raovka, the Russian
+Readovka, the Russian
 newspaper based in
 Smallinsk also gave a summary of the
 fighting in this area
@@ -1343,7 +1343,7 @@ after reading their report that the
 Russians have indeed now captured the
 central area of Chasfyar. There's only
 certain outlying micro districts left.
-Now Reovka is very well informed. It is
+Now Readovka is very well informed. It is
 not always 100% reliable and it may also
 be that there's a translation error. But
 I have wondered where the Russian

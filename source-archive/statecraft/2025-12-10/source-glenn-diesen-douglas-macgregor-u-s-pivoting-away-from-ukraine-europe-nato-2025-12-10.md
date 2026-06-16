@@ -30,7 +30,7 @@ And as far as the battlefield is concerned, at least the reports that I'm being 
 
 Then others are now disguising themselves as women in order to find their way through the lines. uh the Russians are treating them as humanely as possible because they're simply shaking their heads in disbelief that this sort of nonsense is continuing. I think the the Russians are also moving some forces over the river that are now in and around Odessa.
 
-I was told yesterday that Russian special operations forces roam freely during the night around Odessa and in Kief because you have these long periods where you have no illumination, no lighting, uh no energy for it. And so they can put on their night vision devices and wander around without interference. I think this whole thing is is coming to a very tragic but predictable end.
+I was told yesterday that Russian special operations forces roam freely during the night around Odessa and in Kiev because you have these long periods where you have no illumination, no lighting, uh no energy for it. And so they can put on their night vision devices and wander around without interference. I think this whole thing is is coming to a very tragic but predictable end.
 
 And I think the Russians are concerned now with what happens as this thing crumbles. Now, they can't force the Europeans to do much. Uh, but I think the Europeans are foolish to believe that there's anything they can do to influence the outcome other than be willing to sit down and talk to the Russians. The most interesting aspect of this whole thing is now this new national security document that's come out, which has no strategy per se. is simply a set of assertions.
 
@@ -153,7 +153,7 @@ the way, I think that will change. Now, will that be violent or political? Will 
 
 Well, that's the main [clears throat] common denominator though of Starmer, Mertz, and Macron is they're all immensely unpopular. They don't really focus much on domestic politics. spend most of the time um yeah being obsessed about Ukraine and defeating Russia. So it doesn't they don't have much support of course among their public.
 
-Well, the Germans need to come to terms with an important reality. Here is this man Mance who used to work for Black Rockck. Black Rockck, Larry Frink, the former CEO, was in Kief talking to his friend Zelenskyy about buying up and getting control of vast quantities of Ukrainian farmland, which Mr.
+Well, the Germans need to come to terms with an important reality. Here is this man Mance who used to work for Black Rockck. Black Rockck, Larry Frink, the former CEO, was in Kiev talking to his friend Zelenskyy about buying up and getting control of vast quantities of Ukrainian farmland, which Mr.
 
 Zelenskyy was only too happy to sell. And this this is the background for merits as prime min or as chancellor of Germany. I mean, that's frightening. I mean, this person is fundamentally flawed and corrupt in my judgment based on his experience in that environment with people like Frink. I mean, everyone in Washington will tell you privately, if Larry Frink says it, don't believe it.
 
@@ -170,7 +170,7 @@ I don't see much evidence that the majority of Polish citizens favor war with Ru
 
 Uh we started uh pull preparing to get out certainly no later than 1970. Uh we were largely out of the fighting by 1972, early 73. and we left and in 75 everything fell apart and no one in Washington talked about it and we stopped talking about it and it went away. That's what we do when things don't go our way. We fail strategically.
 
-We stop talking about it and we go on to the next opportunity. I think that's what's going to happen in Ukraine. It's just going to fall apart. The Russians will advance. I think they're inevitably going to have to go into Kief in some fashion. They will definitely go to Odessa. They've got more force concentrations up in the north.
+We stop talking about it and we go on to the next opportunity. I think that's what's going to happen in Ukraine. It's just going to fall apart. The Russians will advance. I think they're inevitably going to have to go into Kiev in some fashion. They will definitely go to Odessa. They've got more force concentrations up in the north.
 
 Now, they want to end this thing, but they know they can't just walk out. Although they'd like to walk out and go back to where they were in terms of the the areas that they've enexed as part of Russia, but they know that's not possible. So, they're going to press forward slowly, deliberately, and wait for things to change in Europe.
 

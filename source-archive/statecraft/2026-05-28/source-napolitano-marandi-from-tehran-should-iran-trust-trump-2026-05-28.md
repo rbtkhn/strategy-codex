@@ -25,7 +25,7 @@ opening_tier: host-tease
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.
 
-Today is Thursday, May 28, 2026. My dear friend, Professor Muhammad Morandi joins us from Tehran, Iran for his weekly chat.
+Today is Thursday, May 28, 2026. My dear friend, Professor Muhammad Marandi joins us from Tehran, Iran for his weekly chat.
 
 Muhammad, a pleasure, my dear friend. Thank you as always for taking the time and having the courage to chat with us.
 
@@ -89,7 +89,7 @@ Can I change my connection to see if it'll get any better? I'm sorry for...
 
 Sure. Go ahead. Change your connection as quickly as you can and I will talk while you're changing the connection.
 
-So, we're speaking with Professor Muhammad Morandi from Tehran and obviously we're having some difficulty with the internet connection. There you are. Are you back, my dear friend?
+So, we're speaking with Professor Muhammad Marandi from Tehran and obviously we're having some difficulty with the internet connection. There you are. Are you back, my dear friend?
 
 This is a different connection. I hope it's better and I apologize to everyone.
 
@@ -163,7 +163,7 @@ I once introduced a book to you on your show, Going to Tehran by Flint and Hilla
 
 I think now is the time for people to better understand Iran because I think in the years ahead, Iran is going to be a much more important player and actor on the world stage. And I think that ordinary Americans, if they begin to better understand the country, in future, post Trump, post Netanyahu, there will hopefully be opportunities for the two peoples to move closer to each other.
 
-Professor Muhammad Morandi, always a pleasure. Thank you for your courage and your intellectual honesty, my dear friend. Be well. We'll talk to you again soon.
+Professor Muhammad Marandi, always a pleasure. Thank you for your courage and your intellectual honesty, my dear friend. Be well. We'll talk to you again soon.
 
 Thank you, Judge. Thank you for your courage, your intellectual honesty, and God be with you.
 

@@ -25,7 +25,7 @@ Hi everybody. Today's Friday, May 22nd, 2026 and our dear friend, our brother St
 
 Always a pleasure.
 
-Yeah, let's start with what is happening in the United States. Tulsi Gabbert resign and she's she was one of the in my opinion one of the most important characters or figures in the Trump administration because before you know on January when we thought that he she's going to be part of the administration we thought that she's going to be against the war in the Middle East she's going to help Donald Trump in the case of the war in Ukraine. Nothing of that sort has happened. We have, you know, the continuation of the war in Ukraine, the war in the Middle East, which we didn't have it before. And she didn't do anything. She was against, you know, expansion of American forces in the Middle East when it comes to Syria and that those problems in Syria. She was advocating for withdrawing the troops from Syria. No more war in the Middle East. But we haven't heard that much from her position when the war against Iran started. And right now, if you remember, the Trump administration, the White House, by the way, if I'm not mistaken, a month ago, they announced that she has to resign before midterm election.
+Yeah, let's start with what is happening in the United States. Tulsi Gabbard resign and she's she was one of the in my opinion one of the most important characters or figures in the Trump administration because before you know on January when we thought that he she's going to be part of the administration we thought that she's going to be against the war in the Middle East she's going to help Donald Trump in the case of the war in Ukraine. Nothing of that sort has happened. We have, you know, the continuation of the war in Ukraine, the war in the Middle East, which we didn't have it before. And she didn't do anything. She was against, you know, expansion of American forces in the Middle East when it comes to Syria and that those problems in Syria. She was advocating for withdrawing the troops from Syria. No more war in the Middle East. But we haven't heard that much from her position when the war against Iran started. And right now, if you remember, the Trump administration, the White House, by the way, if I'm not mistaken, a month ago, they announced that she has to resign before midterm election.
 
 Yep.
 
@@ -241,7 +241,7 @@ Oh, but they're very good with the Arabs, you know. Just go there, hey, we need 
 
 Yeah, just imagine going there talking with Iranian foreign minister Araghchi who was part of the negotiations during JCPOA, who knows each and every angle of the nuclear program and negotiations, and talking with Steve Witkoff and J.D. Vance.
 
-It's dumb and dumber, man. It is dumb and dumber. Morandi was telling me, professor Morandi was telling me that he was watching J.D. Vance call Netanyahu some four times.
+It's dumb and dumber, man. It is dumb and dumber. Marandi was telling me, professor Marandi was telling me that he was watching J.D. Vance call Netanyahu some four times.
 
 So the vice president of United States in negotiating peace deal is calling and getting marching orders from Netanyahu.
 

@@ -1079,7 +1079,7 @@ it's coming to a halt with the
 
 disappearance very soon of three key
 
-leaders, Armor, Mcronone, and Merits. I
+leaders, Armor, Macron, and Merits. I
 
 don't think I I don't think they'll they
 

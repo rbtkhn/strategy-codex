@@ -53,7 +53,7 @@ So I would say absolutely not. That's the last fight that you ever want to have.
 
 uh they have been doing a lot of things for some time now to prepare in the south and I would I would say the northnortheast of Ukraine to complete the seizure of the places that they said from the very beginning that they would take and one of those of course is Odessa. You have to cross the Nampa River and attack south to seize Odessa.
 
-Odessa is historically a Russian city where everybody speaks Russian. Uh the other is Karkov called by the Ukrainians Carkef that too is historically Russian. Now beyond that uh we [clears throat] don't know but I think the Russians would have enough troops if they decided to move do west toward Kief they could do it and they could probably move into Kief and seize it.
+Odessa is historically a Russian city where everybody speaks Russian. Uh the other is Karkov called by the Ukrainians Carkef that too is historically Russian. Now beyond that uh we [clears throat] don't know but I think the Russians would have enough troops if they decided to move do west toward Kiev they could do it and they could probably move into Kiev and seize it.
 
 The Ukrainians are on the ropes. They don't have much to defend it. But I don't think the Russians want that because they really would prefer that Ukraine end up much like Austria. And that would be historic Ukraine. And if you look at the map, uh the map of so-called Nova Russia, which is new Russia, as founded by Katherine the Great in the 1700s when she was empress of Russia.
 
@@ -69,14 +69,14 @@ We we mention regime change as a a distant third or fourth because we know we ca
 
 You want certain effects. That means water, food, harbors, energy, all of those things. Uh and I think all of those are on the agenda. But again, you know, what if it doesn't work? We can talk about that. So tomorrow u prime minister Netanyahu will recite the Mossad line. The Mossad stenographer also known as the director of the CIA will be there and will nod his approval.
 
-The Mossad skeptic also known as the director of national intelligence Telsey Gabbard will not be there. And [clears throat] all these arguments that Trump will hear from Hegsith and Rubio and Sebastian Gorka and the others will be, "It's time to bomb. It's time to kill. Let's do it and get it over with.
+The Mossad skeptic also known as the director of national intelligence Tulsi Gabbard Gabbard will not be there. And [clears throat] all these arguments that Trump will hear from Hegsith and Rubio and Sebastian Gorka and the others will be, "It's time to bomb. It's time to kill. Let's do it and get it over with.
 " Trump will say, "I want a quick in-n-out like we did in Venezuela." Will they tell him there is no such thing as a quick in-n-out toran? What are they going to do? Kidnap an 85year-old man from his bedroom at 2 in the morning? >> Uh, not necessarily. I remember uh Bill Clinton asked that question, how long will this last about the Kosovo air campaign? And he was told initially a few days, a week, maybe two weeks at the most.
 
 Well, the Kosovo air campaign took 78 days. And it was not ultimately the air campaign that compelled the Serbs to abandon Kosovo. It was the Russians who had been visited by Strobe Talbat in Moscow. promised certain things and on the basis of that the Russians said we can't support you through the winter and the reason the Serbs stood firm against us in Kosovo >> was that they had been reassured by the Russians that the Russians could supply them with the food and fuel that they would need to get through the winter assuming that they would be bombed you
 
 know into the stone age which of course is what we tried to do uh it it didn't work but Strobe Talbat won the day so the serves pulled out. My point is air and missile power is an uncertain uh product. You you don't know how much it will achieve. And since we haven't stipulated very carefully what we want other than the three demands that Mr.
 
-Netanyahu came up with that frankly the the Iranians can't accept. Uh, I I don't know how long this could last and I don't think anybody does. And if President Trump is being told otherwise, he's not getting the truth. What is the likely um regional um uh picture if the United States engages in a sustained more than two or three weeks bombing of Thran uh with the Israelis in an effort to uh decapitate the Iranian regime.
+Netanyahu came up with that frankly the the Iranians can't accept. Uh, I I don't know how long this could last and I don't think anybody does. And if President Trump is being told otherwise, he's not getting the truth. What is the likely um regional um uh picture if the United States engages in a sustained more than two or three weeks bombing of Tehran uh with the Israelis in an effort to uh decapitate the Iranian regime.
 
 I mean, you can only imagine what the Iranian response will be against Israel and against American troops in the area. Well, to just briefly mention again the Coast War air campaign, it was pretty clear as we moved into April and May that the campaign would not be sustained throughout the summer because the Italians, the Greeks, uh even the Turks, others were raising objections.
 
@@ -120,7 +120,7 @@ And now the argument is, well, Iran is weaker than it's ever been. That's not tr
 
 I think we're going to get an education this time around, but we should have gotten that in Ukraine, I would think, based on Russian performance there. But that's not what you hear from inside the beltway. They continue to sort of repeat General Keane's words and others who come on and say, "Oh, they're weak. We can buffalo them. We can brutalize them.
 
-We can exploit them. There's nothing they can do." That's not true. >> Is the United States militarily prepared and in position to engage in a sustained attack on Thran? Well, I know that the Navy [clears throat] has limitations that uh are well known. First of all, the I'm told 10 days to two weeks of missiles and then you begin to run into problems and that's because we have no surge capacity.
+We can exploit them. There's nothing they can do." That's not true. >> Is the United States militarily prepared and in position to engage in a sustained attack on Tehran? Well, I know that the Navy [clears throat] has limitations that uh are well known. First of all, the I'm told 10 days to two weeks of missiles and then you begin to run into problems and that's because we have no surge capacity.
 
 It's not just a function of building missiles. These are complex items. Building them is very challenging. You need skilled technicians on the assembly lines. You need people that know what they're doing, that are prepared and educated and trained for it. We only have a a small number of those. It's like building submarines is the same problem for us.
 
@@ -152,7 +152,7 @@ We're going to see everyone everywhere who can do it acquire nuclear weapons >> 
 
 How do you reconcile that? >> Well, you can't if you're an Iranian, [clears throat] but the Israelis have insisted on this condition on the grounds that they're special. They're the victims of the Second World War. They're the survivors of the Holocaust. Anything they do is justified. Whatever anybody else does isn't. That's the world they live in.
 
-And that's the world unfortunately that our president and our government all richly rewarded financially for their support by the Israeli lobby uh is committed to. Wow. Well, Professor Morandi reminds us that tomorrow is like the 4th of July uh in Iran. It celebrates the ousting of uh the Palavi regime, the sha in 19 uh 79.
+And that's the world unfortunately that our president and our government all richly rewarded financially for their support by the Israeli lobby uh is committed to. Wow. Well, Professor Marandi reminds us that tomorrow is like the 4th of July uh in Iran. It celebrates the ousting of uh the Palavi regime, the sha in 19 uh 79.
 
 There'll be millions of people in the streets. I don't know if the attacks will occur tomorrow, if this will deter things, if the Americans even know that this is coming. Well, you know, I suppose you could start it in the absence of Mr. Netanyahu on the ground in Israel, but [clears throat] I think that's unlikely. So, I think until he's wrapped up his visit here, we probably won't see an attack. But I wouldn't rule it out.
 

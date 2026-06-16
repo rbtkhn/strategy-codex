@@ -59,7 +59,7 @@ It's not like Israel. You know, Israel's not well, it's about the size of Greate
 
 and they'll admit that if they're frank. I don't want to ruin your afternoon and Prime Minister Netanyahu made many statements. This is the core of it. It's only about 40 seconds long, but the essence of it is that this is going to go on and on and on and then I'm going to ask you about um Iran's offensive weaponry.
 
-Chris, cut number six. This operation will continue for as many days as it takes to remove this threat. For decades, the tyrants of Thran have brazenly, openly called for Israel's destruction. They've backed up their genocidal rhetoric with a program to develop nuclear weapons. Iran could produce a nuclear weapon in a very short time. It could be a year.
+Chris, cut number six. This operation will continue for as many days as it takes to remove this threat. For decades, the tyrants of Tehran have brazenly, openly called for Israel's destruction. They've backed up their genocidal rhetoric with a program to develop nuclear weapons. Iran could produce a nuclear weapon in a very short time. It could be a year.
 
 It could be within a few months, less than a year. This is a clear and present danger to Israel's very survival. Israel will never allow those who call for our annihilation to develop the means to achieve that goal. Tonight, Israel backs those words with action. All right. Some some bluster. I don't know.
 

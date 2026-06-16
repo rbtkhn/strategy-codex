@@ -85,7 +85,7 @@ That's what's happening to these
 wounded. If you get wounded in this
 fight, you're dead. You're not getting
 out. The other guys are saying, "You got
-to let us break out." And Zilinsky
+to let us break out." And Zelensky
 apparently um just last night said, "No,
 stay there. Fight and die." That's it.
 Um, if you're going to allow your two
@@ -258,7 +258,7 @@ point in time when this war ends, you
 can end the war. Let's say, let's say
 old Gil got a hold of Putin and Putin
 said, "Okay, we're going to decapitate.
-We kill Zalinski."
+We kill Zelensky."
 That's going to make Europe really want
 to do business with you. make the United
 States want to do business with it,
@@ -404,7 +404,7 @@ stupid can they be? You've heard this.
 You know, Putin treated the Europeans
 with a modicum of respect. He used to
 take phone calls from, you know,
-Mcronone and and and and and Merkel um
+Macron and and and and and Merkel um
 and listen to them and consider what
 they had to say. But now you just look
 at the stupidity of Europe. I mean, just
@@ -610,7 +610,7 @@ avoiding. That's why we're not talking
 to them because what's there to talk to?
 These are morons. Klay Kalas this you
 know nothing she says makes sense
-literally Mcronone nothing he says makes
+literally Macron nothing he says makes
 sense nothing any European says makes
 sense even the head of this military uh
 committee he doesn't make sense the

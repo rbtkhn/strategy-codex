@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-05-31
 pub_date: 2026-05-31
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 thread: johnson
 show: Mario Nawfal
@@ -10,15 +10,16 @@ guest: Larry Johnson
 title: ISRAEL ASKS TRUMP TO ESCALATE - w/ Fmr. CIA Larry Johnson
 source_url: "https://www.youtube.com/watch?v=MjXkaxgk1EE"
 source_type: youtube
-transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Larry Johnson interview.
-editorial_note: Opening dropout reconnect filler and post-return solo recap (Joe Kent duress + NDAA legislation read) trimmed manually; guest re-entry preserved at TPUSA question.
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Larry Johnson interview. · ASR pass 2026-06-16."
 youtube_id: MjXkaxgk1EE
 opening_tier: heavy-banter
 opening_trim_applied: true
 dropout_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+quality_note: "ASR normalization pass 2026-06-16; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Opening dropout reconnect filler and post-return solo recap (Joe Kent duress + NDAA legislation read) trimmed manually; guest re-entry preserved at TPUSA question."
 ---
-
 # ISRAEL ASKS TRUMP TO ESCALATE - w/ Fmr. CIA Larry Johnson
 
 **Show:** Mario Nawfal  
@@ -98,7 +99,7 @@ Uh it is Iran's made it clear that it sees its future as with the global south, 
  the the the fuel for the trucks that keep America's economic lifeline flowing from coast to coast. Um, and in the past, the United States got that out of Persian Gulf. It's not getting it now. It's got some coming out of Venezuela, but Venezuela can't produce at the level like the Saudis did.
  And and the US was getting a lot of that diesel out of the Saudis. So, nonetheless, we've temporarily compensated for it. But that's why you see such a now see like a $2 spread almost between the price of diesel, price of gasoline. Gasoline can be made from the the light crude that comes out of the United States. So, like the United States has a surplus of light crude and that gets exported to Europe where they turn it into gas and you know, we turn it into gas here.
  But the real bite's coming on the diesel front and the United States doesn't it only now through uh Iraq has some access to oil that is appropriate for the refineries that need heavy crude in order to make diesel. >> Well, these are reasons why I just don't think Trump will eventually Trump will fold and will concede.
- This is one of the other many reasons like I just cannot afford it. And then you go back to well Zalinski said it well today. I'm sure you've seen his statements. He said, "We are not seeing enough." In an interview with uh some uh I can't remember news outlet uh American news outlet. He says, "We are not seeing enough anti-bballistic missile production in the US and this could lead to a crisis in different parts of the world, including the Middle East.
+ This is one of the other many reasons like I just cannot afford it. And then you go back to well Zelensky said it well today. I'm sure you've seen his statements. He said, "We are not seeing enough." In an interview with uh some uh I can't remember news outlet uh American news outlet. He says, "We are not seeing enough anti-bballistic missile production in the US and this could lead to a crisis in different parts of the world, including the Middle East.
  I hope, God bless, that the ceasefire will be long and lasting peace. I wish it to the Middle Eastern countries and to the United States. I hope that Trump and his team in the on the American side will negotiate a ceasefire. We have to prepare for the challenges. And we Ukraine don't have a ceasefire.
  We have a long 5-year war. Russia's ramping up its internal production of ballistic missiles. And we have a deficit of anti-bballistic missile production. I sent a letter to the White House and to the US Congress. I hope they will understand and respond. 60 to 65 anti-bballistic missiles per month compared to current challenges is nothing.
  It is no secret and Russia knows this. We need to expand the production. I asked the previous US administration and I'm asking today's administration to give Ukraine licenses to produce Patriot missiles. We can increase the production of Patriot missiles. This will help us. This will help the Middle East and any country that the United States decides to help.

@@ -36,7 +36,7 @@ here, how could this be over and there
 were several options we looked at. In
 the process of doing that second show,
 we thought we were going to have
-Professor Morandi from Tehran University
+Professor Marandi from Tehran University
 who was going to come and tell us the no
 kidding, here's what the Iranian side is
 saying. We we see what the American side
@@ -50,7 +50,7 @@ important to look at what actually
 happens on the ground. We did that in
 the Russia-Ukraine war, we're doing it
 here. Now then though, subsequent to
-that we got Professor Morandi back and I
+that we got Professor Marandi back and I
 was able to record a short interview
 with him which I'm going to play in just
 a second. But as a setup to that,
@@ -58,7 +58,7 @@ because there's been additional news
 coming from President Trump that we need
 to have and and when you hear what
 President Trump is saying now in light
-of what Professor Morandi says here in a
+of what Professor Marandi says here in a
 minute, it's going to make a little bit
 more sense and maybe not in that great
 of a direction or at least a little bit

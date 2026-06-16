@@ -51,7 +51,7 @@ learned from just before coming up to
 
 this live we've learned that he talked
 
-with Zalinski as well.
+with Zelensky as well.
 
 And
 
@@ -187,7 +187,7 @@ happen now it's not going to include you
 
 guys. Um it's just going to be me and
 
-Vlad and Zalinski if you'll agree. So
+Vlad and Zelensky if you'll agree. So
 
 that will be stage two. We'll meet I
 
@@ -331,7 +331,7 @@ area where Russia could make a dramatic
 
 uh concession, if you will, to Ukraine
 
-that Zilinski or whoever succeeds him
+that Zelensky or whoever succeeds him
 
 could take some pride in of saying,
 
@@ -937,7 +937,7 @@ his wish to appear in control and have
 
 persuaded Vlad to meet with him and get
 
-Zalinski here get in here. And I do
+Zelensky here get in here. And I do
 
 think that if the three of them meet as
 
@@ -1053,11 +1053,11 @@ that they have lost the war. They
 
 already have lost the war. Whether it
 
-means capturing Kief or whether we God
+means capturing Kiev or whether we God
 
-knows what will happen to Zilinski.
+knows what will happen to Zelensky.
 
-Zilinski I feel is a rather inconvenient
+Zelensky I feel is a rather inconvenient
 
 figure right now for both sides. Uh and
 
@@ -1083,7 +1083,7 @@ story. So I think we can see here that
 
 there's a combined effort to try to
 
-discredit Zilinski right now
+discredit Zelensky right now
 
 as we speak. Um and the hopes that there
 
@@ -1093,13 +1093,13 @@ somebody else that's quite clear. So our
 
 our discussions have you we've all now
 
-mentioned if Zalinski is around I think
+mentioned if Zelensky is around I think
 
 is a very good question as to whether he
 
 will be around unless and this is a
 
-significant fact unless Zalinski can be
+significant fact unless Zelensky can be
 
 the fall guy the the the
 
@@ -1219,7 +1219,7 @@ that conclusion. So I mean it's hard to
 
 believe, but here's Bill Burns talking
 
-with uh with Zalinski. Okay, he said,
+with uh with Zelensky. Okay, he said,
 
 "How things going?" So go, "Oh, we got
 
@@ -1297,9 +1297,9 @@ mind.
 
 >> Graham, here is what he said about
 
-Zalinski. Donald Trump.
+Zelensky. Donald Trump.
 
->> President Zilinsky just signed a law
+>> President Zelensky just signed a law
 
 allowing for citizens aged 60 and above
 

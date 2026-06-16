@@ -665,7 +665,7 @@ room maneuver room here phase. I think
 it says that this is the Russian
 position. It's carved in stone. It will
 not alter. And um and you see Trump, I
-mean Trump's saying, you know, Zalinsky
+mean Trump's saying, you know, Zelensky
 better take the deal. What deal? Well,
 apparently there's a deal on the table
 that Russia has is willing to accept. It
@@ -709,10 +709,10 @@ pretense of some sort of American
 involvement on the ground and the
 Russians aren't going to allow that. Um
 and so you know Zillusi because you know
-what I'm saying is that Zalinsky will
+what I'm saying is that Zelensky will
 never agree to this? He can't. Um so who
 is the political leader that would
-replace Zalinsky that can agree with
+replace Zelensky that can agree with
 this and right now there isn't one.
 There isn't one out there um you know on
 the Ukrainian side. So void of a

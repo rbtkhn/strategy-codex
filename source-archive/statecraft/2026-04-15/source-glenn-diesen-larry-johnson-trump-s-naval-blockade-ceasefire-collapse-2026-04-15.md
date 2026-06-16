@@ -702,7 +702,7 @@ we're done and broke it off So it's very
 hard to read this kind of diplomatic
 behavior.
 >> Yeah, that was that was I think the most
-telling part from Professor Morandi that
+telling part from Professor Marandi that
 you know didn't have the courtesy to
 say, okay, hey listen folks, foreign
 minister Araghchi, we've just got to
@@ -718,7 +718,7 @@ okay, we're out of here. And you know,
 the Iranians were coming where where'
 the Americans go? Oh, they they beat it.
 Now, I was when I when I first heard
-that, I got I I sent Professor Morandi a
+that, I got I I sent Professor Marandi a
 note just said, "Hey, I hope you guys
 are talking to the Russians or the
 Chinese about getting an having them fly

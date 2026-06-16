@@ -141,7 +141,7 @@ Not for Saudi Arabia, not for Dubai, not for the UAE, not for Qatar, not for us,
 
 We've also shown you a drone went in and destroyed one of our premier radar systems. That's also degraded our ability to continue to defend against missiles, etc. So all this is damaging our credibility.
 
-And of course, once this is settled, that is already going to be permanently damaged. But how long can we go like this? President Trump thinks he can go four weeks, but in the limited area with the Houthis, we saw that go seven weeks and remain inconclusive. Now this is obviously a much bigger target set. We've probably launched thousands of missiles already. How many do we have? How long can we keep going on at this rate?
+And of course, once this is settled, that is already going to be permanently damaged. But how long can we go like this? President Trump thinks he can go four weeks, but in the limited area with the Houthis, we saw that go seven weeks and remain inconclusive. Now this is obviously a much bigger target set. We've probably launched thousands of missiles already. How many do we have? How long can we keep going on at the Strait?
 
 If something bigger is coming like President Trump said earlier today, then we're going to deplete our stocks even faster. I haven't even talked about what this is going to do beyond the region into our global requirements. You don't have to go much further than the Russia-Ukraine war. You've got to know that Volodymyr Zelenskyy hopes Iran goes down fast. Well, I bet he does because he knows that every day this goes on and every hour where we're firing all these missiles and where we're trying to defend against the incoming Iranian missiles, those are fewer missiles that he's got.
 

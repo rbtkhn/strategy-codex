@@ -32,7 +32,7 @@ they the Russians annexed back in 2022
 then they said then we'll have a
 ceasefire and a long-term negotiation
 because they think it'll take a long
-time Uh but Zalinsky says, "Yeah, that's
+time Uh but Zelensky says, "Yeah, that's
 not a good idea. I'm not going to do
 that." He's actually been saying this
 for a while. You see, this is dated
@@ -41,7 +41,7 @@ demands to surrender anything. It won't
 go out of any territory. Now, today, I
 think it was today, uh we had Pescov
 reissue that statement. President
-Zalinski must order the armed forces of
+Zelensky must order the armed forces of
 Ukraine to cease fire and withdraw from
 the territory of Donbos,
 from the territory of Russia's regions.
@@ -107,7 +107,7 @@ Ukrainians now control, just abandon it,
 uh, and then we'll have a ceasefire,
 which will be the frozen conflict. Uh
 and unsurprisingly
-uh Zalinski said no thanks.
+uh Zelensky said no thanks.
 &gt;&gt; Now it's interesting. There are two
 interpretations for why that uh tactical
 I guess pause is the right word or at

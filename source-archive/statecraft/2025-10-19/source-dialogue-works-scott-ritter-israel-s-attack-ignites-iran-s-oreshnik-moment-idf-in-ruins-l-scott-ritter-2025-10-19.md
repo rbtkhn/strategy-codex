@@ -81,7 +81,7 @@ undefended rear of of of Thyron and, you
 know, Parton and all the all that
 defense industry that exists there uh to
 the
-guess the southeast of Thrron. Um, all
+guess the southeast of Tehran. Um, all
 of this was um was was hit by the
 Israelis to to great effect. I mean,
 Iran got hit hard. There's no doubt
@@ -297,7 +297,7 @@ talk about before, uh, about how, you
 know, we have gender issues that have to
 be addressed. I think that's why we're
 seeing photographs today of women
-running around Thran without hijabs on
+running around Tehran without hijabs on
 because I think the Iranians are going
 that this is an artificial problem we
 don't need. We need, you know, we can we

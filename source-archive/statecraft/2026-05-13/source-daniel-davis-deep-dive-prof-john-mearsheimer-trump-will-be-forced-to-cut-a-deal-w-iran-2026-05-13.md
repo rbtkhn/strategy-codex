@@ -678,8 +678,7 @@ trillion dollar defense budget country
 the size of us the most powerful
 military in the history of the world
 according to President Trump could not
-and still cannot open the straight of
-horror moves by force? Well, Danny, as
+and still cannot open the Strait of Hormuz by force? Well, Danny, as
 you know, Afghanistan had a much smaller
 the Taliban here had a much smaller
 defense budget than Iran did. And uh we
@@ -958,7 +957,7 @@ that they the Russians annexed back in
 2022. Then they said then we'll have a
 ceasefire and a long-term negotiation
 because they think it'll take a long
-time. Uh but Zalinsky says yeah that's
+time. Uh but Zelensky says yeah that's
 not a good idea. I'm not going to do
 that. He's actually been saying this for
 a while. You see this is dated April
@@ -967,7 +966,7 @@ surrender anything. It won't go out of
 any territory. Now, today, I think it
 was today, uh, we had Peskov reissue
 that statement.
-&gt;&gt; President Zalinski must order the armed
+&gt;&gt; President Zelensky must order the armed
 forces of Ukraine to cease fire and
 withdraw from the territory of Donbos,
 from the territory of Russia's regions.
@@ -1034,7 +1033,7 @@ Ukrainians now control, just abandon it.
 Uh and then we'll have a ceasefire,
 which will be the frozen conflict. Uh
 and unsurprisingly
-uh Zalinski said no thanks.
+uh Zelensky said no thanks.
 &gt;&gt; Now it's interesting there are two
 interpretations for why that uh tactical
 I guess pause is the right word or at

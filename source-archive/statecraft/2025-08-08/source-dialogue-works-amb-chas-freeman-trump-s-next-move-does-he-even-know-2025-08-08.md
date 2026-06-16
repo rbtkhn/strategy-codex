@@ -35,7 +35,7 @@ I think particularly those in the butoaucracy who supported him, they're very ha
 
 Trump has aggravated or created and people are unhappy. He sent Steve Witkoff to talk with Vladimir Putin and he said the outcome was positive and he's going to meet with Vladimir Putin. Do you see that meeting coming and if so what would you assume to be the outcome of that meeting? >> Very difficult questions indeed.
 
-Um first it appears that he initially at least u conditioned the possibility of that meeting on a simultaneous or serial meeting between between President Putin and uh and Vladim Vladimir Zilinski and it's very clear and President Putin has reiterated he's not prepared to meet with Zilinski until a whole series of conditions have been met which are very unlikely.
+Um first it appears that he initially at least u conditioned the possibility of that meeting on a simultaneous or serial meeting between between President Putin and uh and Vladim Vladimir Zelensky and it's very clear and President Putin has reiterated he's not prepared to meet with Zelensky until a whole series of conditions have been met which are very unlikely.
 
 So, uh, will there be a Trump Putin meeting? Very likely. U, what will come of it? Not very much, I suspect. Why? Because I mean, the reason for the meeting, it seems to me, one possible re reason for the meeting is that President Trump trapped himself by issuing a deadline for Russia to comply with his ceasefire proposal.
 

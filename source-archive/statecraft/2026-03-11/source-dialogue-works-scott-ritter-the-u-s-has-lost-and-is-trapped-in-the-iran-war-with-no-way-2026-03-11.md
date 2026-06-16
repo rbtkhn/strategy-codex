@@ -1219,8 +1219,8 @@ States, the Iranian Navy was always
 going to be sunk and it has no impact.
 So he sat there and he said, "We're
 destroying the navy so we can keep the
-straight of horm open. Haven't kept the
-straight of horm open." So again,
+Strait of Hormuz open. Haven't kept the
+Strait of Hormuz open." So again,
 fundamental flaw in the way you're
 thinking, plus all the munitions you've
 wasted on sinking Iranian ships that

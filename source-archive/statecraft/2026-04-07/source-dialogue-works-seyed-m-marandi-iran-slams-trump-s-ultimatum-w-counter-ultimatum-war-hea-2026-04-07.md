@@ -608,7 +608,7 @@ which it seems Trump is repeating and I
 think that is where he's getting his
 language.
 So
-I think Professor Morandi, when it comes
+I think Professor Marandi, when it comes
 to the Strait of Hormuz today, we had
 J.D. Vance talking about the Strait of
 Hormuz. One of the most important things
@@ -1148,7 +1148,7 @@ partner infrastructure in a way that
 denies them access to the region's oil
 and gas for years.
 And they're they're even talking about
-Professor Mandi because this Bobel
+Professor Marandi because this Bobel
 Mandab is not
 you know, in the game right now. He's
 not being closed effectively by Houthis

@@ -833,7 +833,7 @@ and circled around into Aabaijani
 airspace. Uh and then the Israelis fired
 the bigger weapons from circling down to
 the Caspian Sea and then firing directly
-to to Thran from there. um attempting to
+to to Tehran from there. um attempting to
 damage more the air uh air defenses, but
 it wasn't as described. Oh, well, you
 know, we could fly. It was open
@@ -912,7 +912,7 @@ one speaks like that. I mean they must
 be brought down to earth. Well so what's
 the point of the talks? It's it's about
 sort of the wider politics. It's about
-the bricks and the idea of the bricks of
+BRICS and the idea of the bricks of
 instituting the set of everyone who
 signed the MPT has a right to enrich
 uranium and has a right to peaceful you

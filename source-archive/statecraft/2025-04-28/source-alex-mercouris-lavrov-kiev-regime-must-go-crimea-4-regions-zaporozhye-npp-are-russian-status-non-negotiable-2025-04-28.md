@@ -31,7 +31,7 @@ conflict in Ukraine to an end. After the
 various statements and comments made by
 Donald Trump, after the various comments
 and statements made by Vladimir
-Zalinski, after the various comments and
+Zelensky, after the various comments and
 statements made by various European
 leaders, the Russians have gone out of
 their way to make clear that their
@@ -384,7 +384,7 @@ him on the 27th of April, which is to
 say yesterday, presumably
 um directly
 following the meeting between Trump and
-Zalinski in Rome. And the Russian
+Zelensky in Rome. And the Russian
 foreign ministry has published this um
 readout of the conversation. On 27th
 April, Foreign Minister Lavough had a
@@ -724,7 +724,7 @@ again at the very beginning of the
 special military operation when he
 announced a one-day ceasefire on the
 second day of the special military
-operation after Zalinski said that he
+operation after Zelensky said that he
 was prepared to enter into talks
 about ending the conflict which would
 drop Ukraine's bid to enter NATO. And of
@@ -840,11 +840,11 @@ the Ukrainians?
 Well, as Lavro pointed out over the
 course of his interview with
 CBS just a couple of days ago, when
-Zalinski also gave an interview to the
-American media, um Zalinski appeared to
+Zelensky also gave an interview to the
+American media, um Zelensky appeared to
 rule out negotiations with the Russians.
 He said, "The Russians cannot be
-trusted." Zilinski has repeatedly spoken
+trusted." Zelensky has repeatedly spoken
 about the importance of getting a
 ceasefire before any negotiations take
 place and the framework that he wants to
@@ -854,7 +854,7 @@ input from him um set out during their
 during the meetings in Paris and London
 next week.
 So
-that's Zalinsk's current
+that's Zelensky's current
 stance. He has very grudgingly and
 reluctantly shifted before. At one point
 he didn't seem to be prepared to agree
@@ -869,7 +869,7 @@ European proposal also again seemed to
 imply that the Ukrainians expected
 security guarantees. So I I don't really
 see that
-Zalinski shows much sign of wanting to
+Zelensky shows much sign of wanting to
 shift on his fundamental
 positions. Now there are reports I saw
 them somewhere and I can't remember
@@ -1296,7 +1296,7 @@ people have pointed out to me, there is
 a British speech expert who's an expert
 in lip reading who's come up and said
 given us um some accounts of some of the
-things that uh Zalinski and uh Trump
+things that uh Zelensky and uh Trump
 apparently said over the course of that
 meeting. Firstly, in my program
 yesterday, I expressed some uncertainty
@@ -1322,7 +1322,7 @@ in the media in parts of the media. Um
 we're told that the purpose of the third
 chair was for the interpreter. There
 wasn't any need for an interpreter.
-Zalinsky speaks English. So anyway,
+Zelensky speaks English. So anyway,
 whatever. Um it seems that simply wasn't
 true. Donald Trump basically told
 Macarron to shove off. It doesn't seem
@@ -1392,7 +1392,7 @@ were contradictions in American
 accounts. They were supposed to have
 been withdrawn in January. Then they
 were supposed to have been brought back.
-Then Zilinski provided various evidence
+Then Zelensky provided various evidence
 for these troops which none of which
 stacked up or um came you know stood up
 to examination.
@@ -1643,7 +1643,7 @@ battle over the last
 weeks basically since the fall of
 Toretsk before Toretsk was given more
 importance. Now it looks as if it's
-Chasy. Well, if so, and if Chasy is
+Chasiv Yar. Well, if so, and if Chasiv Yar is
 indeed about to fall, then as I said,
 that will be another important moment in
 the battle. But I think it's perhaps

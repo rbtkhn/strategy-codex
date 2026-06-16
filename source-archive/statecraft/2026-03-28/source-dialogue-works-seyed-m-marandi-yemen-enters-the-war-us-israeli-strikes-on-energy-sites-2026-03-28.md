@@ -1603,7 +1603,7 @@ and uh
 they will have to deal with the five
 conditions that Iran has already set.
 Yeah.
-Thank you so much, Professor Morandi,
+Thank you so much, Professor Marandi,
 for being with us today. As always.
 >> Thank you, Nima. Always a pleasure.
 Yeah.

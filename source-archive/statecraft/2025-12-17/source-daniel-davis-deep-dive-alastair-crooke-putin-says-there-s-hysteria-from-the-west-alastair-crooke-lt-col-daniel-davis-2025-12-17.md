@@ -141,7 +141,7 @@ security architecture. and that has to
 be done with um uh with the United
 States. Well, none of this none of the
 latter is in these proposals. And then
-afterwards um we had um we had Zalinski
+afterwards um we had um we had Zelensky
 saying um first of all there will be no
 dejur
 factor um relinquishing of any
@@ -183,7 +183,7 @@ want a ceasefire on this lines. No, we
 don't accept territorial transfers. No,
 we don't accept there is no role for
 NATO in the whole process." And and and
-Zilinski said last night and he said,
+Zelensky said last night and he said,
 um, we're making a huge concession. um
 we're not going to demand NATO, but
 actually the Ukrainian constitution
@@ -529,7 +529,7 @@ men from which to draw and a defense
 industrial base that can't be matched at
 any time in the foreseeable future. And
 yet, given all that, here is Voteir
-Zalinsk's claim right now.
+Zelensky's claim right now.
 That's exactly where the real path to
 peace begins. It's not enough to force
 Russia into a deal. It's not enough to
@@ -621,7 +621,7 @@ Japanese were dosile and compliant with
 the United States authority. I mean and
 he said that in those terms and I think
 that is what you were hearing from
-Zilinski [laughter]
+Zelensky [laughter]
 in slightly more coded terms but that
 was the import of what he was saying. So
 which which you can't you losing that

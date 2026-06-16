@@ -634,7 +634,7 @@ at least allegedly are not suffering
 mental decline also having this kind of
 detached from reality moment. And then
 we've already talked a little bit about
-Secretary Hex, but here's one more thing
+Secretary Hegseth, but here's one more thing
 that he said this morning from the press
 conference that seems even worse than
 Trump. You have no defense industry, no
@@ -1138,7 +1138,7 @@ uh there there was genuine concern on
 the part of the Iranian delegation that
 they were going to be ambushed when they
 were flying back from Islamabad uh to
-Thran. So they they they going going to
+Tehran. So they they they going going to
 Moscow gives them a lot more options for
 safety and security. Um,
 so it but again the conditions that Iran
@@ -1179,7 +1179,7 @@ Americans while ago. Does Iran have the
 wherewithal to make to back up his his
 defiant words that we're not going to
 give into you? Because if the locked and
-loaded that Secretary Hexith said this
+loaded that Secretary Hegseth said this
 morning means something that we're about
 to do and we come in with all this heavy
 bombardment. Uh, can he hold on to that?

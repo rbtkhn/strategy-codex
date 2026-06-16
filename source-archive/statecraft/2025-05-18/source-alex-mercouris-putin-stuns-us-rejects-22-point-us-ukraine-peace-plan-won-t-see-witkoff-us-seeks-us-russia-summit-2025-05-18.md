@@ -79,7 +79,7 @@ expect that the Ukrainians will in fact
 recognize these four regions and Crimea
 as well as part of Russia. Well, of
 course, that is something that Vladimir
-Zalinski has categorically said Ukraine
+Zelensky has categorically said Ukraine
 will never do. There are other
 provisions as well. The Russians want
 major protections for Russian speakers
@@ -204,11 +204,11 @@ time. The same, by the way, applies
 obviously to the rumors, claims, the
 talk
 that Vladimir Putin might come to
-Istanbul to meet Vladimir Zalinski
+Istanbul to meet Vladimir Zelensky
 there. Putin has never never at any
 point in time suggested that he was
 going to go to Istanbul
-um this week to meet with Zilinski or
+um this week to meet with Zelensky or
 anyone else from Ukraine or to engage
 himself in
 negotiations. Um, if Putin had really
@@ -220,7 +220,7 @@ gave on Saturday, last Saturday. Well,
 he would have said so. He never did. The
 only person who ever floated the idea of
 a direct meeting between Putin and
-himself was of course Vladimir Zilinski.
+himself was of course Vladimir Zelensky.
 So how exactly Putin is supposed to be
 stringing along Trump I entirely failed
 to see. As I said, that would imply an
@@ -267,7 +267,7 @@ at length the following day on a call
 between Ukrainian and US officials.
 According to people familiar with the
 matter, Ukraine was represented on the
-call by Zalinsk's chief of staff Andre
+call by Zelensky's chief of staff Andre
 Yermach and Ukrainian Defense Minister
 Rust Momero, the US by Witkoff, Secretary
 of State Marco Rubio, who is currently
@@ -995,7 +995,7 @@ Russians are in conclusive control of um
 of um Bagotier.
 And it also looks as if Ukrainian
 positions south of
-Constantinfka are now in rapid collapse.
+Konstantinovka are now in rapid collapse.
 Um, it looks as if some kind of cauldron
 is being created around at least some of
 the Ukrainian troops
@@ -1004,7 +1004,7 @@ Constantin, opening the way potentially
 for a Russian assault on Constantin at
 some point within the next few weeks.
 A Russian
-assault on the city of Pacross a little
+assault on the city of Pokrovsk a little
 further to the west, in my
 opinion, is probably already
 underway, even though there has been no
@@ -1014,17 +1014,17 @@ captured a lot of the ground immediately
 south of Pakosk. There are reports that
 have placed Russian reconnaissance
 troops inside
-Pakovsk and the latest information that
+Pokrovsk and the latest information that
 seems to be coming from Pakosk speaks of
 intense fighting going on in areas which
 suggest that the Russians have indeed
 broken into the town. Now that doesn't
-mean that Bakarovsk is going to fall
+mean that Pokrovsk is going to fall
 tomorrow. It's a bigish place and no
 doubt there'll be extensive fighting and
 well this is not over. Not by any means.
 But it does look to me as if the battle
-of Pakovsk is now indeed underway and
+of Pokrovsk is now indeed underway and
 the Russians of course have every
 intention to win it. Well, this is where
 I'm going to finish today's program. Let

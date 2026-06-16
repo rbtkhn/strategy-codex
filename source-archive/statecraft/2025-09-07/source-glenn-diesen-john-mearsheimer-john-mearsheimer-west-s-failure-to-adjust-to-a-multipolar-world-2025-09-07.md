@@ -225,7 +225,7 @@ I mean these are independent states. Uh there's no such thing as Europe uh as a 
 
 As I've long argued, NATO underpins the EU. You take NATO away and I think the EU's future will be much less rosy because uh security uh underpins economy and the EU is underpinned by NATO. So the Europeans, the different states in Europe are going to have to think long and hard individually uh about how they deal with uh security. And by the way, you see this in how in terms of how they think about dealing with Ukraine.
 
-There's not a lot of agreement in these meetings uh that Mcronone and uh Starmer put together about how to deal with Ukraine moving forward. It's not like everybody wants to ante up troops to station in Ukraine once the shooting stops. Uh obviously countries like Britain and France do. Germany seems to be on the fence. Poland is not on the fence.
+There's not a lot of agreement in these meetings uh that Macron and uh Starmer put together about how to deal with Ukraine moving forward. It's not like everybody wants to ante up troops to station in Ukraine once the shooting stops. Uh obviously countries like Britain and France do. Germany seems to be on the fence. Poland is not on the fence.
 
 Poland doesn't want to put troops in Ukraine. Uh and I would imagine that you know if you look at relations among various states over in Eastern Europe uh over Ukraine, you'll see all sorts of differences. I've read a number of articles on how the Poles and the Hungarians uh have very bad relations these days and a lot of it revolves around uh the Ukraine issue and you know Poland and Hungary are basically frontline states in Eastern Europe.
 

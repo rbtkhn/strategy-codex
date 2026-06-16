@@ -329,7 +329,7 @@ Um
 
 then um part two,
 
-Zalinski is out there
+Zelensky is out there
 
 um telling everybody,
 
@@ -523,7 +523,7 @@ They really think they're going to treat
 
 them decently. He's outlawed their
 
-language. Zilinski's outlawed their
+language. Zelensky's outlawed their
 
 religion. I mean, come on. Um, if the
 
@@ -607,7 +607,7 @@ you know, um, it was Kiev that started
 
 the civil war. Washington Post even did
 
-that when they found out that Zalinski
+that when they found out that Zelensky
 
 knew when, you know, Russia was going to
 
@@ -665,7 +665,7 @@ have their you know MI6 is supporting
 
 bodyguards and those people who are
 
-protecting Zalinski in Ukraine are
+protecting Zelensky in Ukraine are
 
 mostly you know British,
 
@@ -995,7 +995,7 @@ nofly zone over Ukraine and all this
 
 other kind of anything they possibly can
 
-do to create war." You got Mcronone
+do to create war." You got Macron
 
 saying, "We'll send in troops." Oh, you
 
@@ -1385,7 +1385,7 @@ which I gave to them. Um
 
 I was surprised they didn't have it.
 
-It's a video of um Zalinski before he
+It's a video of um Zelensky before he
 
 was president as a comedian on stage.
 
@@ -1395,7 +1395,7 @@ about confiscating the assets from
 
 Russians and Jews.
 
-All right. Um the truth of Zalinski is
+All right. Um the truth of Zelensky is
 
 like Soros.
 
@@ -1843,7 +1843,7 @@ We'll put sanctions on on China. stop
 
 them from buying Russian oil. We'll
 
-attack let Zalinski attack his his
+attack let Zelensky attack his his
 
 energy and all that. Then Putin will
 

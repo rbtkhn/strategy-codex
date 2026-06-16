@@ -86,7 +86,7 @@ is due to be a telephone call between
 President Donald Trump of the United
 States and President Putin of Russia.
 After the call, Trump is apparently
-intending to speak to Zalinski u to
+intending to speak to Zelensky u to
 discuss presumably what happened over
 the course of the call with Putin and
 the progress of the negotiations in
@@ -269,7 +269,7 @@ an absolutely key point, we've gone from
 a position where Ukraine was rejecting
 negotiations outright. It is now finally
 negotiating and negotiating directly
-with the Russians despite Zalinsk's
+with the Russians despite Zelensky's
 October
 2022 decree and that must be considered
 a breakthrough. This is something that I
@@ -633,12 +633,12 @@ things we know about this forthcoming
 meeting. After speaking, rather call uh
 between Trump and Putin. We know that
 after speaking with Putin, Trump intends
-to call Zalinski. Now there's been an
-interesting development about Zalinski
+to call Zelensky. Now there's been an
+interesting development about Zelensky
 because on Friday
 uh Trump also spoke with the various
 European leaders who was all gathered in
-Tana where uh they welcomed Zalinski
+Tana where uh they welcomed Zelensky
 with open arms with hugs and handshakes
 and all of that after he
 flew to Tana from anchor where he'd had
@@ -657,7 +657,7 @@ But apparently several of the
 participants in this in the call and
 we're getting this from the uh media uh
 was struck by how subdued and tired and
-depressed Zalinski appeared to be. He
+depressed Zelensky appeared to be. He
 came
 to Albania to Tyrana a defeated man. He
 hadn't wanted talks with the Russians to
@@ -674,7 +674,7 @@ meeting apparently tired and
 despondent and he was not the usual
 theatrical
 fiery
-stubborn angry Zalinski that we so often
+stubborn angry Zelensky that we so often
 see. So anyway, we will see where this
 goes. Whether there will be a meeting
 between Trump and

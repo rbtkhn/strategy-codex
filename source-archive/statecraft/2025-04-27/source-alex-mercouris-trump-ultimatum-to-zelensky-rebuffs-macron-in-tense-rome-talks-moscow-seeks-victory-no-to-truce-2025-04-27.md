@@ -19,7 +19,7 @@ quality_note: "English caption fetch via repo YouTube transcript pipeline; adjac
 
 Good day. Today is Sunday, 27th April,
 2025. Donald Trump and um Vladimir
-Zalinski met in Rome. And I don't think
+Zelensky met in Rome. And I don't think
 I have ever seen such a massive PR
 operation swing into action uh directly
 after that meeting across the European
@@ -31,7 +31,7 @@ places, you would have thought that this
 was a breakthrough meeting, a massive
 substantive substantive discussion
 between Donald Trump and Vladimir
-Zalinski, that great questions of moment
+Zelensky, that great questions of moment
 were decided over the course of this
 meeting, and that Donald Trump veered
 and changed his stance about the entire
@@ -72,7 +72,7 @@ war purely in terms of an eventual
 military victory. But anyway, a lot of
 go over that therefore, but let's first
 of all discuss that meeting between
-Donald Trump and Vladimir Zalinski, the
+Donald Trump and Vladimir Zelensky, the
 one that has attracted so much attention
 with all the pictures and photographs
 and film um very selective pictures and
@@ -111,7 +111,7 @@ authorities
 um appeared to have broken protocol by
 adjusting the places that um the various
 world leaders um sat in to make sure
-that Zalinski was as close to Donald
+that Zelensky was as close to Donald
 Trump as possible in the first row. Now
 I have to say again I do wonder about
 whether that was appropriate and it does
@@ -123,7 +123,7 @@ pressure from the western powers than
 the late pope was. Something which by
 the way doesn't surprise me at all. But
 of course,
-positioning Zalinski so close to Trump
+positioning Zelensky so close to Trump
 would have made it easier to arrange a
 meeting with Trump. And the other thing,
 if I've understood the sequence of
@@ -131,15 +131,15 @@ pictures
 correctly, is that we
 see shortly before what I understand to
 be shortly before the meeting between
-Trump and Zalinski pictures of Trump,
-Zalinski, Star, and Macron all floating
+Trump and Zelensky pictures of Trump,
+Zelensky, Star, and Macron all floating
 around all together in a kind of circle
 And well, I wasn't there. I wasn't
 listening into their discussions. But if
 we put that together with what was being
 reported in the media before, it looked
 to me as if uh Starmer and
-Macron came along with Zilinski and
+Macron came along with Zelensky and
 basically bought and hold Trump and
 basically um arranged the meeting in
 that kind of a way.
@@ -147,13 +147,13 @@ So this is not a meeting carefully
 prepared through diplomats through
 diplomatic contacts in advance. It looks
 as if very much it was an impromptu
-meeting initiated by Zalinski of course
+meeting initiated by Zelensky of course
 but also facilitated by the British and
 the French. Basically they came together
 as a group and they made it
 possible well at least at least they
 ensured that Trump would speak to
-Zilinski. Now there is some other photos
+Zelensky. Now there is some other photos
 as well some other pictures and I've
 seen photos rather than continuous film
 but it looks as if three
@@ -169,7 +169,7 @@ as if what was initially intended was
 that this would be a threeparty
 discussion. Trump,
 Mackron, and
-Zalinski. Now again, I've seen pictures
+Zelensky. Now again, I've seen pictures
 and film which suggest that Trump
 basically shed Macron away. He made it
 clear that he did not want Macron to be
@@ -180,13 +180,13 @@ not sure of the exact sequence. It may
 be that this sequence is entirely wrong.
 It may be that the incident with Macaron
 took place after the conversation with
-Zalinski, not before. But I would
+Zelensky, not before. But I would
 suggest that this is the most the the
 way I've outlined it is perhaps the most
 natural explanation of events. Anyway,
 the meeting then happened. We've all
 seen the photos of the two men, Trump
-and Zalinski, sitting in chairs looking
+and Zelensky, sitting in chairs looking
 at each other
 intently, engaged in what looked like
 intense
@@ -196,7 +196,7 @@ the meeting lasted all of 15 minutes.
 It's
 inconceivable that a substantive
 discussion can have taken place between
-Zilinski and Trump over such a brief
+Zelensky and Trump over such a brief
 period. So I don't know exactly what was
 discussed. We have had some reports from
 Ukraine which suggest a rather less
@@ -246,7 +246,7 @@ men saw eye to eye and were in agreement
 with each other. Well, all of those
 reports when you actually unpack them,
 all those reports but one seem to come
-from the Ukrainians from Zilinski
+from the Ukrainians from Zelensky
 himself. This is a very positive and
 constructive meeting. The Ukrainians are
 trying to imply the media in Europe has
@@ -265,7 +265,7 @@ discussed over a stretch of 15 minutes.
 And well, as I said, I may be completely
 wrong about the sequencing, though there
 is pictures, as I said, of Trump with
-MRO and Zalinski and Stal are all in
+MRO and Zelensky and Stal are all in
 attendance. And there is pictures and
 film of Trump apparently waving macron
 away. Uh but as I said I I'm not
@@ -287,7 +287,7 @@ interesting very well informed clearly
 with
 contacts within the Ukrainian military
 the senior ranks of the Ukrainian
-military very critical of Zalinski
+military very critical of Zelensky
 himself uh formerly very supportive of
 General Zulusni the former Ukrainian
 military chief who's now in de facto to
@@ -295,7 +295,7 @@ exile in London where he is Ukraine's
 ambassador. Anyway, resident is saying
 that Donald Trump what actually happened
 at the meeting was that Donald Trump
-told Zalinski that there was just 10
+told Zelensky that there was just 10
 days left. Unless there was some kind of
 ceasefire in place in 10 days time, the
 United States would indeed quit the
@@ -313,7 +313,7 @@ leadership to the military and which has
 reached resident and which they're
 reporting as well. But anyway, that is
 what resident is saying that in effect
-Trump gave Zalinski a 10-day ultimatum
+Trump gave Zelensky a 10-day ultimatum
 to get a ceasefire agreed with Putin as
 quickly as possible. And unless that
 happened, well, the United States would
@@ -325,13 +325,13 @@ between Ukraine, the United States and
 Russia and that is Kber who was the
 former Ukrainian foreign minister um
 who shall we say was dismissed on
-relatively good terms by Zalinski a few
+relatively good terms by Zelensky a few
 months ago and who's been by the way
 very busy commenting about things on the
 Ukrainian to the Ukrainian media and to
 the media in the West. And I get the
 impression that Kaba, who has clearly
-not um broken with Zalinski or with the
+not um broken with Zelensky or with the
 Ukrainian government, is relatively well
 informed about things in Ukraine, about
 political events in Ukraine. Anyway,
@@ -350,7 +350,7 @@ end than we were before Donald Trump
 became president. Now, that doesn't
 suggest a
 particularly good meeting between
-Zilinski and Trump, and it doesn't
+Zelensky and Trump, and it doesn't
 suggest that the Ukrainians are happy
 with the direction the negotiations are
 taking. Anyway, that's that's from the
@@ -378,7 +378,7 @@ reason why there might have been some um
 irritation on Trump's side with the
 Russians, just as Trump has said nothing
 on Truth Social about his conversation
-with Zilinski, at least not so far. and
+with Zelensky, at least not so far. and
 the very fact that there's been a
 delay, even if he does eventually say
 something, but to my mind, if he felt
@@ -391,7 +391,7 @@ about how well the whole discussion was
 going up to this time. Anyway, um just
 as we have had nothing from Trump about
 his conversation with
-Zalinski, we have had nothing from Trump
+Zelensky, we have had nothing from Trump
 about Witkoff's meeting with Putin.
 Um, now the Russians have quite
 obviously been complaining about the
@@ -421,7 +421,7 @@ taken seriously.
 Um I when I mentioned that comment of
 Lavrovs yesterday, I po pointed out that
 he'd actually referenced
-Zalinski about that comment. But I can't
+Zelensky about that comment. But I can't
 help but feel thinking about this
 further that the Russians Lavough were
 also perhaps
@@ -607,7 +607,7 @@ as a result of them in any way. Um, and
 I can't help but think that what Trump
 is doing here is balancing or trying to
 balance criticism of the Ukrainians and
-of Zilinski and in this case of the New
+of Zelensky and in this case of the New
 York Times with criticism of Putin and
 the Russians in order to avoid the
 impression that he is biased or
@@ -796,7 +796,7 @@ to
 that telegram um post by resident the
 resident um telegram channel in uh
 Ukraine which says that Trump gave
-Zalinski a 10-day ultimatum. Get a
+Zelensky a 10-day ultimatum. Get a
 ceasefire within 10 days or we're
 walking out.
 Um, most
@@ -818,11 +818,11 @@ negotiations unless there is there
 cannot be a ceasefire unless those
 negotiations are underway. I suspect
 that what Trump then told
-Zalinski and what he said to him in
+Zelensky and what he said to him in
 Rome and
 what the post by president is in effect
 alluding to is that Trump said to
-Zilinski, "Look, the time has now come
+Zelensky, "Look, the time has now come
 when you
 must reopen negotiations with the
 Russians and I want you to do do that
@@ -894,7 +894,7 @@ their own proposals, written proposals
 as to how that was supposed to be done.
 And at that time, the Russians envisaged
 that there would probably be a follow-up
-meeting attended by Putin and Zalinski
+meeting attended by Putin and Zelensky
 themselves and that this would take the
 form of a kind of Russian Ukrainian
 summit meeting at the president's level
@@ -925,7 +925,7 @@ have been ignored or forgotten in the
 west. And there was no further move
 towards negotiations by the Ukrainians
 until in October
-2022, Zalinski
+2022, Zelensky
 published his disastrous
 decree in which he ruled out
 negotiations with the Russians
@@ -940,10 +940,10 @@ in many places was really a demand for
 Russia's unconditional
 capitulation and
 that those two announcements those two
-decisions by Zalinski in Kiev
+decisions by Zelensky in Kiev
 The decision, the decree prohibiting
 negotiations and the announcement of
-Zalinsk's peace plan brought the entire
+Zelensky's peace plan brought the entire
 process of diplomatic contact and
 negotiations between Russia and Ukraine
 to an end. Now, the Russians, ever
@@ -965,10 +965,10 @@ been open to negotiations with the
 Ukrainians ever since. They are fully
 willing to conduct negotiations with the
 Ukrainians. They have a huge question
-mark over Zilinsk's status or at least
+mark over Zelensky's status or at least
 they publicly say that they do. They've
 cast doubt on whether
-Zalinski is in a constitutional
+Zelensky is in a constitutional
 position to sign any peace settlement
 agreement. I'm not going to discuss
 this. As I said, I've expressed my own
@@ -983,7 +983,7 @@ has been completely different. The
 Ukrainians say that they are not
 prepared to enter into negotiations,
 direct substantive negotiations with the
-Russians. Zalinsk's decree of October
+Russians. Zelensky's decree of October
 2022 remains in place. He shows no sign
 of being prepared to revoke it. But what
 he has said, and he's only said it, by
@@ -997,7 +997,7 @@ the agreement by the Ukrainians under
 American
 pressure in
 March to an unconditional
-ceasefire. Zalinski has said that
+ceasefire. Zelensky has said that
 Ukraine
 would consider negotiations with the
 Russians if a
@@ -1043,7 +1043,7 @@ and anyway that that is a route to a
 frozen conflict not a route to a final
 settlement. So I think this is an
 unbridgeidgeable gap. If it is true that
-Trump did ask Zalinski did tell Zalinski
+Trump did ask Zelensky did tell Zelensky
 to get moving to start negotiations with
 the Russians his true social post in
 which he says that the Ukrainians and
@@ -1071,7 +1071,7 @@ some interesting discussion
 points, but we are willing, as we have
 always said, to talk to the Ukrainians."
 And I can very well imagine that that is
-what Trump said to Zilinski when they
+what Trump said to Zelensky when they
 met in Rome. And probably it's all that
 Trump said to Silinski when they met in
 Rome. Now I'm going to say
@@ -1368,7 +1368,7 @@ likely than not. Trump, who was probably
 by this point getting very irritated
 with all of these people, Star Mackel,
 um the Estonian prime minister,
-Zalinski,
+Zelensky,
 um all the Vatican Secretary, all of
 these people all trying to get him to
 make commitments to engage in diplomacy
@@ -1561,7 +1561,7 @@ looking at a possible
 default. And well that's
 major emerging problem. The other thing
 is that as some of us may remember,
-Zalinski stopped gas transit from Russia
+Zelensky stopped gas transit from Russia
 to Europe back in January. Whereas he
 stopped it, he refused to renew the
 contract whereby Russia exported gas to
@@ -1590,24 +1590,24 @@ few
 hours. Um, there are more reports. I
 know people always push back about this,
 but there are more reports that now we
-are literally on the brink in Chasfy
+are literally on the brink in Chasiv Yar
 that the Russians have not only largely
 cleared the central citadel area of
-Chasy, but that they've entered the two
+Chasiv Yar, but that they've entered the two
 remaining micro districts. The
-Ukrainians have fought for Chasy uh far
+Ukrainians have fought for Chasiv Yar uh far
 longer again than it was wise for them
 to do. They suffered horrible attrition
 as a result. Um the Russians have never
 committed large forces to
-Chasy. Um but it does look at last as if
+Chasiv Yar. Um but it does look at last as if
 this battle is indeed drawing to an end.
 And the Russians continue more advances
 um around
-Pakarovsk and in the area between
+Pokrovsk and in the area between
 Chiffyard and Toetsk and in the area
 there thereabouts
-um south of Constantinfka.
+um south of Konstantinovka.
 The biggest most dramatic piece of
 information is
 from the northern border areas. Now

@@ -17,14 +17,14 @@ source_note: "Automated YouTube transcript fetch for Dialogue Works."
 
 Hi everybody. Today's Monday, April 13,
 2026 and our dear friend or brother,
-Professor Mandi is here with us. Welcome
+Professor Marandi is here with us. Welcome
 back, professor.
 >> Thank you, Nema. It's great being with
 you.
 >> And many of us want to know what has
 happened in Islamabad in Istanbul in in
 Pakistan. I say it the second time and
-what we've learned professor Mandi from
+what we've learned professor Marandi from
 the Axis these are the terms that Axis
 reported on ending all uranium
 enrichment dismantling all major nuclear
@@ -160,7 +160,7 @@ and uh but also he's telling his friends
 in the Persian Gulf that well you won't
 be exporting anything or importing
 anything either.
-Professor Mandi, I think
+Professor Marandi, I think
 when it comes to the Syrian seriousness
 of the Iranian part, Iranian
 negotiators, you're looking at the
@@ -460,7 +460,7 @@ left and to his right. So,
 why would he still need to make all
 these phone calls? It's it's very
 bizarre.
-the outcome, Professor Mirandi, for the
+the outcome, Professor Marandi, for the
 Iranian negotiators, for the Iranian
 delegations,
 and how do they see as time goes by? We
@@ -552,14 +552,14 @@ Otherwise Trump's signature or Vance's
 signature
 means nothing to the Iranians.
 >> Yeah. What what does that mean? It means
-that professor Mandi before before you
+that professor Marandi before before you
 know this question I I had something
 else in my mind about the food security
 of Iran. We know that Iran produces more
 than 90% of what it uses and is which is
 not the case for GCC countries. They are
 importing everything everything
-literally everything from this rate of
+literally everything from the Strait of
 hormos and how is that going to play out
 in a long run because many people don't
 understand the food production the
@@ -876,7 +876,7 @@ most advanced capabilities have yet to
 be uh have yet to be inaugurated or have
 yet to be uh shown to us on the
 battlefield. Yeah, I think the
-combination of this rate of formos
+combination of this Strait of Hormuz
 together with bubble mandab would
 somehow nether the sue canal as well and
 do you see anytime soon that bubble
@@ -1048,7 +1048,7 @@ whether in Cuba, doesn't matter. And
 that's why we're so evil and that's why
 we're demonized.
 >> Yeah. Before wrapping up, Professor
-Mirandi, we've seen Europe behaving even
+Marandi, we've seen Europe behaving even
 with this blockade. The United Kingdom
 and together with Australia, they said
 they're not going to be part of the
@@ -1100,6 +1100,6 @@ in Europe and elections in Germany. None
 of them are going his way right now. And
 of course, nothing seems to be going his
 way.
->> Thank you so much, Professor Mandi.
+>> Thank you so much, Professor Marandi.
 >> Thank you. Great pleasure.
 >> Pleasure is mine.

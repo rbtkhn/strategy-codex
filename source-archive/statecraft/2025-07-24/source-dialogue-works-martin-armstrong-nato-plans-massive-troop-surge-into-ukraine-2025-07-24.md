@@ -513,7 +513,7 @@ and this isn't one person
 
 just look down the list I mean Stammer
 
-Mcronone Mertz um now the former you
+Macron Mertz um now the former you
 
 know head of uh Netherlands he's a real
 
@@ -557,7 +557,7 @@ peace. This is all about war. you know,
 
 drafting people, preparing,
 
-you know, you have Mcronone,
+you know, you have Macron,
 
 I've been told from from France that
 
@@ -663,7 +663,7 @@ He signed it. They were all there on the
 
 stage, you know. Okay.
 
-He even told Zilinski it's men's
+He even told Zelensky it's men's
 
 agreement is very important.
 
@@ -2483,7 +2483,7 @@ they can manipulate history as well. Um,
 
 this is why
 
-uh Zilinski tried to assassinate Putin
+uh Zelensky tried to assassinate Putin
 
 cuz he has not responded.
 

@@ -712,22 +712,22 @@ Constantin very soon. There is more
 reports of the Russians having completed
 the capture of
 Malinifka village to the north east of
-Mirnograd at Pacross and of the Russians
+Mirnograd at Pokrovsk and of the Russians
 having closed in and begun the first
 probing attacks on the key village. In
 fact, it's a small town known as E Novo
 Economic
 um
-norththeast of Pacross. If you look at
+norththeast of Pokrovsk. If you look at
 where Novo Economic actually is, you can
 see why the fall of this place would be
 absolutely critical to the defense of
-Pakovsk.
+Pokrovsk.
 And um I can well imagine that
 once this place is captured, Ukrainian
-defenses in Pakovsk could very very
+defenses in Pokrovsk could very very
 quickly
-unravel resupplying Pakovsk in the event
+unravel resupplying Pokrovsk in the event
 of the fall of this village would be I
 think extremely difficult. But anyway,
 um, so heavy battles clearly taking
@@ -747,7 +747,7 @@ major place the weight where the weight
 of the Russian offensive is going to
 fall. There will certainly be attempts
 to capture um to capture um Slavian
-kamatsk
+Kramatorsk
 and that particular connivation in fact
 that's clearly going to come but as I
 said the major weight of the Russian
@@ -831,7 +831,7 @@ Though he is very very careful to give
 positive spin on
 events may be aware of the fact that if
 he speaks too openly and too critically
-he risks falling foul of Zalinski.
+he risks falling foul of Zelensky.
 Anyway, if you actually analyze what
 Zulusi had to say he is clearly very
 concerned about the overall situation.
@@ -1222,7 +1222,7 @@ might hear it and they might run away
 and decide that they could work with all
 of that and change their strategies."
 But of course, they won't because they
-never do. Zalinski,
+never do. Zelensky,
 Silski, Podoliac,
 um, Yermach, all of these people, they
 remain
@@ -1262,7 +1262,7 @@ simply weakening forces and throwing
 away valuable men and machines which
 could be used more effectively to defend
 against the Russian offensive when it
-comes. But again, Zalinski, Zerki,
+comes. But again, Zelensky, Zerki,
 Yarmmak, Podoliaak, all of them
 focused on trying to regain some few
 hundred meters, a few blownup houses in

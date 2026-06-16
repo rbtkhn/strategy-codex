@@ -17,11 +17,11 @@ source_note: "Automated YouTube transcript fetch for Dialogue Works."
 
 Hi everybody. Today's Thursday, May 12,
 2026 and our dear friend, our brother,
-Professor Mandi is here with us. Welcome
+Professor Marandi is here with us. Welcome
 back, Professor.
 >> Thank you, Nemo. It's always a great
 pleasure being on your show.
->> Let me start professor Mandi with what
+>> Let me start professor Marandi with what
 has happened yesterday. Donald Trump was
 waiting for Iranian response after four
 days. As he mentioned, Iran gave him a
@@ -166,7 +166,7 @@ system, testing them various times at
 least, you know, three times if I'm not
 mistaken. In Tehran, they were testing
 the air defense system. And today we've
-learned that Thran's Muhammad Rasool
+learned that Tehran's Muhammad Rasool
 Allah IRGC corpse carried out an carried
 unannounced wartime exercise to thwart
 enemies infiltration attempts. It seems
@@ -644,8 +644,7 @@ their side of the bargain, Iran won't
 either. So when Netanyahu refused to
 accept the cease and Lebanon, the
 Iranians said those ships from those
-five countries cannot use the straight
-of Horos. Uh that I think is that is
+five countries cannot use the Strait of Hormuz. Uh that I think is that is
 because of our experience at least
 partially in 2015. But in any case, back
 then we were willing, Iran was willing
@@ -711,7 +710,7 @@ don't pay reparations. We We wage war.
 We murder. We slaughter.
 Yeah,
 it seems that we've lost Professor
-Mirandi. I hope he's Yeah, he's going to
+Marandi. I hope he's Yeah, he's going to
 be back.
 Let's see what has happened with the
 connection. Yeah, I I think the
@@ -737,9 +736,9 @@ remember in his latest interview on 60
 minutes and he sees that we are months
 away from putting an end to the war in
 between the United States and Iran.
-Yeah. here. Professor Mirandi, just I
+Yeah. here. Professor Marandi, just I
 know that you don't feel good, Professor
-Mandi and the internet somehow is not
+Marandi and the internet somehow is not
 helping us, but just to wrap up this
 session, Professor Man, just a little
 bit about what Hezbollah is doing
@@ -814,7 +813,7 @@ they're stenographers and they will um
 do whatever the Epstein class wants them
 to do.
 >> Yeah. Thank you so much, Professor
-Mandi, for being with us today. I hope
+Marandi, for being with us today. I hope
 you get better soon.
 >> Thank you, Nema. It's always a great
 pleasure and an honor being on your

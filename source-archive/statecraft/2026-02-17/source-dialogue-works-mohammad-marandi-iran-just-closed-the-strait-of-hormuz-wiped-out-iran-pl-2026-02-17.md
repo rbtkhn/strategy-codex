@@ -21,16 +21,16 @@ evidence_grade: transcript-bearing
 
 Hi everybody. Today's Tuesday,
 February 17, 2026, and our dear friend,
-our brother, Professor Mandi, is here
+our brother, Professor Marandi, is here
 with us. Welcome back, Professor Mandy.
 >> Thank you very much for inviting me,
 Nema. It's a great pleasure being with
 you.
 >> Yeah, please hit like button, helping us
 reaching more people. And let me start
-professor Mandi with what we've learned
+professor Marandi with what we've learned
 before coming to this live which is that
-Iran will partially close this rate of
+Iran will partially close the Strait of
 Hormos
 in you know what is the action what is
 the strategy on the part of the Iranian
@@ -148,7 +148,7 @@ economies. They care about Israel.
 >> still muted.
 >> Yeah.
 >> Let me
-Can you hear me, Professor Mandi?
+Can you hear me, Professor Marandi?
 >> Yes.
 >> Yeah.
 >> Yes. We are witnessing some sort of
@@ -229,11 +229,11 @@ conspiracy and people and and back then
 Trump was talking about attacking Iran.
 on 11 on uh January the uh 12th millions
 came to the streets and roughly 3
-million in Thran. And then the same
+million in Tehran. And then the same
 Western media, this Epstein media, they
 tried to say that this was uh AI. This
 is fabricated. There was helicopter
-footage over the rally in Thran, which
+footage over the rally in Tehran, which
 was unbelievably huge. They said it was
 AI, which of course was a lie. But then
 on February the 11th, on the anniversary
@@ -248,7 +248,7 @@ larger number of Western journalists and
 regional journalists and Asian
 journalists and and and others were
 there. They couldn't fight it. The the
-numbers in Thran were 25% higher than on
+numbers in Tehran were 25% higher than on
 January the 12th. So,
 while the West is uh the United States
 is fragmented, Iran is united. And then,
@@ -287,7 +287,7 @@ definitely not end well for Trump
 though
 >> yeah
 the question was focused, Professor
-Mirandi, the Iranian response to the
+Marandi, the Iranian response to the
 United States, but you mentioned that.
 Yeah, you you responded to that, but let
 me let me bring what is the objective
@@ -1218,7 +1218,7 @@ refugees from across the world start
 pouring in when when war starts. So they
 are in a very bad place and the Iranians
 have no interest in speaking with
->> the other part professor Mandi which was
+>> the other part professor Marandi which was
 mentioned by the Iranian foreign
 minister in DHA is that the main the
 core the the you know the center of the
@@ -1386,7 +1386,7 @@ against Iran. So by doing this Iran is
 reminding the world where we were last
 time round and that we don't we simply
 don't trust the United States.
-Thank you so much Professor Mandi for
+Thank you so much Professor Marandi for
 being with us today. Great pleasure as
 always.
 >> It's a great honor Nema. Thank you very

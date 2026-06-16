@@ -355,7 +355,7 @@ being lawyers to help their families. Uh
 one of the girls was in a contest where
 she would memorize passages from the
 Quran. And she was two weeks away from
-going to Thran, the capital city, to
+going to Tehran, the capital city, to
 enter into a major competition where if
 she won, it would get her on a pathway
 where she could be a journalist and do
@@ -587,7 +587,7 @@ about that would be a a plausible exit
 and and the fact that he had that in his
 hand. He could have done that in his
 past negotiations, but it didn't. We we
-spoke to uh Professor Morandi earlier
+spoke to uh Professor Marandi earlier
 this morning uh who said that the first
 couple of sessions of this were were
 actually positive more than they
@@ -619,7 +619,7 @@ were just inches away from Islamabad
 memorandum of understanding we incurred
 maximalist shifting goalpost and
 blockade which validates what professor
-Morandi told us zero lessons learned
+Marandi told us zero lessons learned
 goodwill begets goodwill enmity begets
 enmity and then uh golly buff uh he
 posted this also late yesterday he said
@@ -1479,7 +1479,7 @@ what's going to happen this summer once
 the weather gets better, uh, there's two
 big there's a there's sort of a an urban
 belt that's left in the Dombas. Uh,
-Kamatsk and Slavansk are are two of the
+Kramatorsk and Slavansk are are two of the
 the major cities there and the Russians
 are closing in on that. you're going to
 see the Russians seize uh these uh these

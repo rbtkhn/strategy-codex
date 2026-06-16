@@ -230,10 +230,10 @@ multiple launch rocket systems should
 also be supplied to Ukraine now I
 remember vividly the whole narrative
 that took place at that time it was
-supposed to be zalinski who was
+supposed to be Zelensky who was
 demanding the supply of these highas
 systems supposedly there was a telephone
-conversation between Biden and zalinski
+conversation between Biden and Zelensky
 in which very grudgingly um and with all
 kinds of qualifications and conditions
 and caveats um President Biden agreed to
@@ -1242,13 +1242,13 @@ situation in the diplomacy at all POF as
 I said seem to be um take a bleak view
 about it and there is no real sign as
 far as I can see that the Russians are
-giving ground while zalinski for his
+giving ground while Zelensky for his
 part continues to speak in ways that
 suggest that he remains committed to
 continuing the war now over the last
 couple of days um a lot of attention has
 been focused on one particular remark
-that zalinski made he made what looked
+that Zelensky made he made what looked
 like a
 prediction that Putin would die soon and
 he said that when that happens all will
@@ -1273,7 +1273,7 @@ to think that um he's ready to die of
 natural courses anytime soon now these
 commentaries
 always frustrate me because it's
-absolutely clear to me what zalinski was
+absolutely clear to me what Zelensky was
 doing he was hinting again that the
 ukrainians are looking for some way to
 assassinate
@@ -1310,12 +1310,12 @@ attempt to assassinate Putin whilst he
 was in his office except of course that
 the Drone didn't get through and as it
 happens Putin himself was not there so
-what zalinski is hinting at is that he
+what Zelensky is hinting at is that he
 thinks that soon the ukrainians will get
 through and will succeed in
 assassinating Putin
 now
-maybe zalinski has reasons to think that
+maybe Zelensky has reasons to think that
 or there may be something else going on
 which is that even though the
 ukrainians are trying to assassinate
@@ -1388,7 +1388,7 @@ that
 case any diplomatic initiatives by
 Donald Trump or anyone else would get
 anywhere at all anyway there we go
-that's what zalinski is doing and to
+that's what Zelensky is doing and to
 repeat again those words those comments
 of his together with his incredible
 performance a couple of days ago about a
@@ -1413,7 +1413,7 @@ well that we've had fewer of those
 um there is always one particular guest
 who is always
 invited and that is
-zalinski and zalinski comes
+Zelensky and Zelensky comes
 along and he always turns up in his Trad
 Mark
 costume and always demanding more
@@ -1431,7 +1431,7 @@ to challenge head on inevitably comes to
 dominate the
 discourse of these meetings everybody
 ends up repeating these incredibly
-belligerent zalinsky talking points
+belligerent Zelensky talking points
 because nobody
 can put themselves in a position of
 pushing back on them
@@ -1472,7 +1472,7 @@ run them quietly think that it's already
 done its job it's made it more difficult
 for the Americans and the Russians to
 agree ceasefire terms it's given
-zalinski the public backing he
+Zelensky the public backing he
 needs because the Americans sorry the
 British and the French and the other
 European
@@ -1513,7 +1513,7 @@ conclusion is that the Biden
 Administration and US military command
 were easily defeating Russia until one
 the Ukrainian generals started acting up
-and disobeyed us orders two zalinsky
+and disobeyed us orders two Zelensky
 chased big wins for PR re failing to
 follow us strategy three resulting in
 the you 2023 counter offensive failure
@@ -1536,7 +1536,7 @@ by The Victors in this case New York
 Times has decided that the US under
 Biden was
 Victorious if not for the insubordinate
-Ukrainian generals and ego of zalinski
+Ukrainian generals and ego of Zelensky
 trump will be blamed for the end result
 capitulation the 100 the article 100%
 explains why NATO and the Europeans

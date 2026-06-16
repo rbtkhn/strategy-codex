@@ -54,7 +54,7 @@ crucible here where he's going to have
 to make a decision. And he's trying to
 explain to Brett Bear that um yeah,
 don't worry about this this whole
-straight hormuse thing. I got that
+Strait of Hormuz thing. I got that
 covered and they are definitely going to
 give me what I want.
 >> They're afraid to make a deal. They

@@ -174,7 +174,7 @@ Ukrainian uh, military chief, General
 Zelusni, who's currently in London as
 Ukraine's ambassador there, that he was
 the person who ultimately ordered this
-attack. President Zalinski supposedly
+attack. President Zelensky supposedly
 was not involved or even informed.
 Anyway, um this investigation, as I
 said, has now been wound up in several
@@ -1072,7 +1072,7 @@ absolutely determined to ensure the
 protection of Russian speakers in
 whatever remains of Ukraine. If the
 so-called government, which is basically
-Zalinski's hunter, believes that some
+Zelensky's hunter, believes that some
 own agreement will be reached on the
 cessation of hostilities and what
 remains of Ukraine will continue to live
@@ -1081,7 +1081,7 @@ enacted. This is an illusion. It cannot
 be allowed under any
 circumstances. Um, and it would be a
 crime to leave people in Ukraine under
-the authority of a Zalinski regime that
+the authority of a Zelensky regime that
 bans the Russian language. Millions of
 people on the territory of Ukraine speak
 Russian. It is their mother tongue and
@@ -1377,7 +1377,7 @@ exposed the fact that as a result of his
 posting to London and I'm going to guess
 the cutting off of information to him
 from uh the Ukrainian military by the
-Zilinski government. Um, Zillusion is
+Zelensky government. Um, Zillusion is
 losing touch with the realities of the
 situation because I've been reading a
 whole set and cluster of comments from
@@ -1459,7 +1459,7 @@ perhaps more important for the
 Ukrainians
 is at the southern end of the
 Slavanskur
-Constantinovka connibation. Um I
+Konstantinovka connibation. Um I
 appreciate that um because I'm not going
 into details in my various programs. I'm
 not describing the developments here,
@@ -1474,25 +1474,25 @@ steadily moving closer to
 Constantinufka and being actually
 essentially in the southern
 outskirts and there's also been further
-news in the Pacross area and it seems to
+news in the Pokrovsk area and it seems to
 me that having stabilized their position
-southwest of Pacross in places like
+southwest of Pokrovsk in places like
 Cortino and
 Udach putting themselves elves in a
-position to cut supplies to Pakovsk
-along the roads leading to Pakovsk and
+position to cut supplies to Pokrovsk
+along the roads leading to Pokrovsk and
 the rest. The Russians at the moment are
 mostly focused on cutting off Ukrainian
 supplies from the north and from
 um by by basically um putting themselves
 in a position where they can block
-resupply to Pakovsk um from the north.
+resupply to Pokrovsk um from the north.
 And they're doing so they're doing
 so
 by pushing forward and capturing more
 and more
 positions east and north of
-Pakarovsk. And increasingly now it looks
+Pokrovsk. And increasingly now it looks
 as if Russian forces are converging on
 the important village of Novo Economic.
 Yeah, I've referred to it many times in
@@ -1504,7 +1504,7 @@ village is
 captured, then I'm going to suggest that
 Mirnograd is
 lost. And once Mirnograd is lost, so
-will Pakovsk be. Anyway,
+will Pokrovsk be. Anyway,
 so events are moving with growing speed
 on the battle fronts in this area too.
 And further

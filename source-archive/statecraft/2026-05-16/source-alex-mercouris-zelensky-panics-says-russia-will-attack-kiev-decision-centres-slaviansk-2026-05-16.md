@@ -30,7 +30,7 @@ button and to check your subscription to
 this channel. Well, I make my program
 today a day after the president of
 Ukraine,
-um, Vladimir Zalinski,
+um, Vladimir Zelensky,
 um, made a series of very interesting
 statements
 which suggest a mood of growing
@@ -39,7 +39,7 @@ and perhaps worries about the long-term
 direction of the war or perhaps I should
 correct that the shortterm direction of
 the war. Outwardly
-um Ukraine Zalinski himself remain
+um Ukraine Zelensky himself remain
 defiant. The Ukrainians have been very
 busy over the last few weeks promoting
 in the media in the Western media
@@ -68,7 +68,7 @@ ground. But I will return to the
 situation, the actual situation in
 Zaporia region and elsewhere on the
 battle fronts later in this program.
-Let's go first to what Vladimir Zalinski
+Let's go first to what Vladimir Zelensky
 was saying. And basically what he said
 was this that he believes that the
 Russian command
@@ -79,13 +79,13 @@ has obtained access to secret plans by
 the Russians to um attack central Kiev,
 to attack this decision making centers
 in Kiev itself,
-to kill him, Zalinski
+to kill him, Zelensky
 and the other top leaders of Ukraine.
 And all of this in conjunction with
 ongoing preparations by the Russians for
 an further offensive on Kiev from the
 north from the territory of Belleris.
-And Zalinski went on to say that Ukraine
+And Zelensky went on to say that Ukraine
 is now busy um trying to prepare for
 this oncoming Russian offensive from the
 north and that he has given the
@@ -145,7 +145,7 @@ that plans can change, that restrictions
 that might remain in effect might be
 lifted. Putin himself confirmed that he
 had authorized the attack on central
-Kief in the event that there had been an
+Kiev in the event that there had been an
 attack on the Victory Day parade in
 Moscow. So on the assumption that the
 restrictions, the prohibition of an
@@ -155,7 +155,7 @@ prepared
 in certain circumstances
 to withdraw that prohibition.
 But do we have any reason to think as
-Zalinski says that Putin is
+Zelensky says that Putin is
 thinking
 about doing that now? Well, there have
 been plenty of drone attacks by Ukraine,
@@ -219,7 +219,7 @@ playing out. I don't believe that these
 drone attacks in and of themselves would
 be sufficient for Putin or for the
 Russian leadership to make a decision to
-come after Zalinski himself and the
+come after Zelensky himself and the
 other leaders of Ukraine. But that is a
 guess. There are people in Russia who do
 advocate for these things. Mostly, so
@@ -228,7 +228,7 @@ people of that kind. I doubt that they
 have much political influence, but
 certainly those demands are indeed
 there. But anyway, let's go back to
-Zilinsk's statements and ask ourselves,
+Zelensky's statements and ask ourselves,
 is there any other reason why he might
 fear this? And well, I'm going to
 suggest that he might indeed be worried
@@ -253,7 +253,7 @@ the way from Bellerus that I would
 expect the big blow against Kiev to come
 and as I suspect that an attack on Kiev
 itself where he is personally located is
-for Zalinski himself the biggest single
+for Zelensky himself the biggest single
 strategic nightmare the thing he fears
 most.
 I can imagine
@@ -274,12 +274,12 @@ just over a week ago go with threatening
 strikes on central Kiev. how those
 things taken together with further
 reports about a Russian buildup in
-Belleris might be causing Zalinski
+Belleris might be causing Zelensky
 fear and worry and anxiety about his own
 safety and about the safety of the
 overall government in Kiev itself. So
 that is my own speculation. Now, of
-course, with Zilinski, there might be
+course, with Zelensky, there might be
 other factors at play. He may be
 doing what he often does, projecting
 himself as the valiant, tragic hero,
@@ -291,11 +291,11 @@ this program. Um, the president of the
 United States seems to have lost
 interest in the Ukraine conflict and in
 him and appears to
-blame Zalinski for the failure
+blame Zelensky for the failure
 to achieve any progress
 to achieve a negotiated
 end to the war.
-Um, and of course, Zalinski is under
+Um, and of course, Zelensky is under
 domestic pressure from the legal
 proceedings
 which have led to charges being brought
@@ -308,12 +308,12 @@ remanded to prison for 60 days
 and with reports circulating
 inside Kiev itself
 that
-Zalinski
+Zelensky
 might at some point be identified as a
 co-conspirator
 directly implicated in the Firepoint
 corruption scandal. So the pressures on
-Zalinski are considerable
+Zelensky are considerable
 and putting aside whatever information
 he might have about the Russians, um
 it's perhaps in character that as I said
@@ -327,7 +327,7 @@ own way strange way be a plea for
 further support and aid from the west.
 So anyway, we shall see exactly what
 this is all about. But for the record,
-my own view is that Zalinski, despite
+my own view is that Zelensky, despite
 everything, is reasonably confident of
 the West support.
 I suspect that he understands well the
@@ -374,7 +374,7 @@ the true reality in the conflict is that
 the balance in the war of the sky in the
 war in the sky continues to tilt
 very heavily in Russia's favor.
-If Zalinski is indeed becoming nervous,
+If Zelensky is indeed becoming nervous,
 it is because of developments on the
 front lines. And this is where I'm going
 to come to the latest report from the
@@ -532,14 +532,14 @@ the potential fall thereafter of Eium.
 All of these would indeed
 suffice
 in my opinion
-to make Zalinski
+to make Zelensky
 panicky
 and worried
 and might make him might lead him to
 make the kind of statements that he was
 making yesterday.
 Well, there it is. The one thing that
-Zilinski is not prepared to do ever is
+Zelensky is not prepared to do ever is
 to
 seriously engage the Russians in
 negotiations
@@ -555,7 +555,7 @@ fronts to say well if so isn't this a
 good moment to negotiate with the
 Russians and come to an agreement with
 them that's what in effect has been
-saying but Zalinski himself remains
+saying but Zelensky himself remains
 so far as I can see
 categorically
 adamantly
@@ -648,7 +648,7 @@ remain in overall control. I get no
 sense that they're prepared to move from
 that position either.
 So given that this is indeed Europe's
-stance, Zalinski is under no real
+stance, Zelensky is under no real
 pressure to begin negotiations.
 The Americans might want him to make
 concessions, but the Americans
@@ -666,7 +666,7 @@ the Americans
 repeatedly show that they're not
 prepared to use the immense leverage
 over the Ukrainians that they actually
-have. So, Zalinski,
+have. So, Zelensky,
 he may be very afraid that the Russians
 might indeed before long come for him,
 but he's not so afraid at the moment
@@ -680,7 +680,7 @@ Anyway, Ulia Mendel has actually said
 that it is all but physically impossible
 for the Russians to carry out a
 successful decapitation strike against
-the Ukrainian leadership. Um, Zalinsk's
+the Ukrainian leadership. Um, Zelensky's
 command bunker
 in Kiev
 is located far below the ground surface.
@@ -696,7 +696,7 @@ anyway, um
 even with nuclear weapons, using nuclear
 weapons, according to Mendel, it would
 be all but impossible to destroy this
-bunker and Zalinski inside it. And from
+bunker and Zelensky inside it. And from
 the way she speaks, and I suspect she's
 right, um, Kiev has several of these
 command bunkers
@@ -709,7 +709,7 @@ unless it was done with minimal notice
 and completely by surprise.
 which of course it might be. But anyway,
 there it is. For the record, my own view
-is that Zilinski is indeed becoming
+is that Zelensky is indeed becoming
 increasingly nervous.
 What is making him nervous is the
 situation on the front lines and his
@@ -1444,7 +1444,7 @@ in my opinion, over the next few weeks,
 the situation on the front lines is
 going to intensify.
 If Leman falls soon
-with Constantinfka likely to fall
+with Konstantinovka likely to fall
 shortly after,
 well, this
 narrative of Ukraine holding its own is

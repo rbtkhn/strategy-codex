@@ -242,7 +242,7 @@ the situation has changed in any
 fundamental way. I don't see how Trump
 can produce a uh decisive victory in the
 sense that he knocks off the regime in
-Thran. And furthermore, and this is very
+Tehran. And furthermore, and this is very
 important to remember, the Iranians have
 said to the Israelis and to the
 Americans, if only the Americans attack

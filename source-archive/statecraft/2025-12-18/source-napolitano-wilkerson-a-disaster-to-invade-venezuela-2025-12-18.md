@@ -65,7 +65,7 @@ That's my problem. >> Well, well, that that brings another a whole another, as y
 
 " >> Correct. Unless you're willing to take from that defense apart trillion dollars and move a little over, you are just deepening our predicament. >> Colonel, uh, as we speak, the Europeans are deciding not whether but how they can steal steal $300 billion dollar more or less worth of Russian uh bank deposits in Belgian banks.
 
-the prime minister of Belgium. I don't know anything about his politics or personality or past, but on this issue, he understands property rights and he understands the banking system and he has said no, no, and no again. Now, I don't know if his no uh is enough to stop this uh Kaya Kalis Ursula Vander Lion MS Starmer Mcronone orchestrated onslaught.
+the prime minister of Belgium. I don't know anything about his politics or personality or past, but on this issue, he understands property rights and he understands the banking system and he has said no, no, and no again. Now, I don't know if his no uh is enough to stop this uh Kaya Kalis Ursula Vander Lion MS Starmer Macron orchestrated onslaught.
 
 I'm worried about that judge and I'm worried about two other things. Meritz has made it very clear that his strategy to rebuild a very very morbent even collapsing economy in Germany is to use the 5% that he's guaranteed Trump with regard to defense spending to re-energize Germany's military. >> Oh boy. >> You you had the CI CEO of Rin Metal.
 
@@ -79,7 +79,7 @@ He doesn't >> I think you're right. He doesn't because he listens to Steven Mill
 
 He's a dangerous man. This is what Helmet Cole and Coen Powell and HW Bush and Jim Baker and Chevard Nazi Gorbachas foreign minister and Gorbache himself and Metherron and Thatcher and Major and I could go on. This is what we talked about when Cole, the German in Bon at the time, expressed real concern about moving the capital back to Berlin, though he really relished doing it, as you might imagine, and even more concern over reuniting and being in Russia's face.
 
->> That's why we gave them the promise that it would go no further east. that eased Cole's fears. >> So Meritz two days ago in the presence of Mcronone, Stormer, I don't know if the crazy ladies were there, Vander Lion and Kaya Kalis, but Merch and Stormer were there, but more importantly, Kushner and Witkoff were there, stated his understanding of a peace proposal which was truly absurd.
+>> That's why we gave them the promise that it would go no further east. that eased Cole's fears. >> So Meritz two days ago in the presence of Macron, Stormer, I don't know if the crazy ladies were there, Vander Lion and Kaya Kalis, but Merch and Stormer were there, but more importantly, Kushner and Witkoff were there, stated his understanding of a peace proposal which was truly absurd.
 
 800,000 man Ukrainian army serviced by US intelligence and supported by uh EU troops. No membership in NATO. Now, you ready for this? The demilitarization of 150 miles into Russia. I can't even say this with a straight face of the Russian Ukrainian border. Okay, here's my point. When he said it, Whitito and Kushner didn't say anything.
 

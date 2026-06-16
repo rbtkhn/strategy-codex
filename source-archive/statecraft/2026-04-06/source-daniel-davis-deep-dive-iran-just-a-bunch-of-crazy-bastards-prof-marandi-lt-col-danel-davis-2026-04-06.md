@@ -17,7 +17,7 @@ source_note: "Automated YouTube transcript fetch for Daniel Davis Deep Dive."
 
 Hey everybody, welcome to the Daniel
 Davis deep dive. We are going to have
-Professor Morandi here from Thrron
+Professor Marandi here from Tehran
 University join us in just a moment. Uh
 he is having some connection issues, but
 he just contacted us and said it'll just
@@ -328,7 +328,7 @@ But if it was up to me, I'd take the
 oil. Well, we'll see if he actually gets
 out or not. if he's willing to have a
 negotiated settlement. Uh hopefully
-we'll get Professor Morandi on and he'll
+we'll get Professor Marandi on and he'll
 give us the view on where the Iranians
 are on this. Still trying to work that
 out. Uh don't give up on him yet. We
@@ -436,7 +436,7 @@ They didn't talk about that, but it is a
 profound amount. And you've probably
 seen no shortage of video on on social
 media etc showing all kinds of things in
-in Thran and some of the other cities uh
+in Tehran and some of the other cities uh
 in uh K uh I think Isvahan the Basher
 lots of places have been hit a lot of
 things have been blown up but it has not
@@ -485,7 +485,7 @@ defense. We definitely have air
 superiority, but we don't have air
 supremacy, not air mastery. Meaning that
 there's nothing left, which is what
-Secretary Hex has said. And then,
+Secretary Hegseth has said. And then,
 weirdly enough, after all these aircraft
 have been knocked down the last three or
 four days and this aircraft shot down,
@@ -729,7 +729,7 @@ said, "Oh, yeah. They they they said,
 willing to be bombed by you, so just
 keep bringing it on." But you say that
 doesn't play well among the actual
-Iranians in Thrron. Oh, absolutely. I
+Iranians in Tehran. Oh, absolutely. I
 mean, people right on my way here to
 this studio, uh, I passed through
 numerous crowds on the street across
@@ -865,7 +865,7 @@ children uh screaming in fear at the
 bombs and women screaming in fear when
 the bombs strike and and children being
 taken out from under the rubble every
-day in Thran and other cities when
+day in Tehran and other cities when
 apartment blocks come down and you see
 children's hands hanging out. People
 want that in Iran. According to Trump,
@@ -1324,7 +1324,7 @@ nuclear weapon to try and bring Iran to
 the heel just like they did with Japan
 in 1945.
 What would happen in that case? Because
-literally uh Thrron could could be
+literally uh Tehran could could be
 vaporized. Is there any concern about
 that on the Iranian side?
 >> Well, it just shows how sinister the
@@ -1389,7 +1389,7 @@ at least
 putting out there the catastrophic
 consequences of President Trump acting
 on his uh his threats here, not just to
-Thrron, but to all of us, but especially
+Tehran, but to all of us, but especially
 those who may be under the the bombs of
 it. Uh just on a humanitarian level. Um
 that's our hope that we're certainly
@@ -1459,7 +1459,7 @@ is a war of choice that could threaten
 to not just harm the target country but
 by extension because of how they may
 react could cause devastation for all of
-us. And Professor Morandi there put it
+us. And Professor Marandi there put it
 out pretty clearly. Nobody's going to
 get by if this happens. Not us, not
 Europe, not Asia, not Africa, uh, and

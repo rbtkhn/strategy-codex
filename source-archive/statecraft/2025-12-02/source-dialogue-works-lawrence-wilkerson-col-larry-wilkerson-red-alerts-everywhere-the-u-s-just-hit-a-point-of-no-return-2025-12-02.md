@@ -490,8 +490,8 @@ demonstration of that. You didn't show
 Sergey Lavough. You didn't show Marco
 Rubio. You didn't show Volo Deir de
 I can't even say his name anymore.
-Zalinski.
->> Yeah. Wimir Zalinski.
+Zelensky.
+>> Yeah. Wimir Zelensky.
 >> Yeah. You showed Kushner, the architect
 of the big deal in Gaza. And you showed
 Whitkoff, the other architect of the big
@@ -819,8 +819,8 @@ would be the crucial point if the United
 States is not there to help them.
 >> Today he has. What about tomorrow after
 Mcron or Stars or somebody gets to him
-or Zalinsky even?
->> Uh I think Zalinski's lost his card with
+or Zelensky even?
+>> Uh I think Zelensky's lost his card with
 Trump.
 >> I really do. I think he's lost it. I
 don't think Trump wants to even be in
@@ -843,7 +843,7 @@ these are two different path to deal
 with the issue of Ukraine. And you
 mentioned Macron. Here is what Macron
 said in his meeting he had the meeting
-he had with Zalinski. Just look at that
+he had with Zelensky. Just look at that
 absurdity of what he's talking about.
 >> He wasn't screaming at Candy Owen.
 Candace Owens. [laughter]
@@ -1152,7 +1152,7 @@ them.
 >> Or this would be very fitting. take them
 out in the street, make them carry their
 own crosses, and crucify them.
->> By the way, Netno is asking, you know,
+>> By the way, Netanyahu is asking, you know,
 the president of Israel to pardon him.
 >> I know.
 And Trump's probably weighing in every

@@ -295,7 +295,7 @@ point the Russians have won an important
 point and are
 decisively ahead on points. Now there is
 a narrative that is there all across the
-media and which Zilinski himself has
+media and which Zelensky himself has
 been busy promoting over the last few
 hours which is that because the
 delegation that went to Istanbul from
@@ -310,13 +310,13 @@ achieved. The whole negotiation, every
 single part of what happened in Istanbul
 was a complete failure. And well, um,
 the Russians supposedly are to blame for
-that. And of course, Zalinski, who is
+that. And of course, Zelensky, who is
 now in Tana, at least went to Tyrana
 yesterday, where he met with his dear
 friends Macron, Stalmer, um,
 Mel, Tusk, all of them. They're all in
 Tyrana at the moment. Um anyway, um
-Zalinski of course has been repeating
+Zelensky of course has been repeating
 this point
 relentlessly and it's been taken up by
 the media in the West
@@ -425,7 +425,7 @@ information about what took place over
 the course of the meeting itself. So
 firstly, the Ukrainians came into the
 meeting with the mandate they were given
-by Zalinski and they demanded an
+by Zelensky and they demanded an
 immediate
 unconditional 30-day
 ceasefire. The Russians said no. They
@@ -800,11 +800,11 @@ working hard to do over the days
 preceding the meeting in Istanbul. So
 anyway, there we go. Um, an incredibly
 tough line from the Russians. Now,
-Zalinski went to Tyrana. He's met all
+Zelensky went to Tyrana. He's met all
 his good friends there, these European
 chums. Um there's even a photograph
 which I understand was made in Tyran
-which shows Zalinski with some of them
+which shows Zelensky with some of them
 including Stala by the way um in a room
 with lots of big windows and
 foliage behind. I presume this is the
@@ -821,7 +821,7 @@ over the last week, but basically ever
 since the disastrous Oval Office meeting
 which took place at the end of February
 between
-Zilinski, Trump and
+Zelensky, Trump and
 Vance. The whole poker game as of this
 specific moment in
 time appears to have failed.
@@ -878,7 +878,7 @@ call that took place in Ukraine when the
 four leaders Mron Starmer, Tusk and um
 Mattz were in Ukraine. the the famous
 telephone call in which the four
-European leaders plus Zalinski called
+European leaders plus Zelensky called
 and spoke to Trump was unexpected by
 Trump. Apparently he was asleep when
 they called and he had to be woken up.
@@ -929,7 +929,7 @@ they have happened and his
 intensely
 relaxed response to the fact that Putin
 himself didn't turn up to attend the
-talks as Zalinski
+talks as Zelensky
 absurdly
 suggested and also um the way in which
 um the way in which Trump is now talking
@@ -939,7 +939,7 @@ the conflict. Um it could be that Trump
 is indeed very very angry but that he is
 in angry with m with
 me Mron Stmer and Tusk and of course
-Zilinski and not
+Zelensky and not
 with
 Putin because of the way they tried to
 maneuver maneuver him in
@@ -1448,18 +1448,18 @@ this over the course of the day and we
 shall see. It's becoming increasingly
 clear to me that the Russians almost
 certainly do have an armed presence
-inside southern Pacross, though the area
+inside southern Pokrovsk, though the area
 is very um subject to heavy fighting.
 And technically, it might not be Pacros.
 It might be some of the outline villages
 or supposed villages that in reality do
 form as far as I can see part of the
 builtup area that
-ultimately amounts to Pakovsk.
+ultimately amounts to Pokrovsk.
 So clearly the Russians are advancing
 there and they're advancing in
-Constantinfka around Constantinfka as
-well. And um Raovka the other day was
+Konstantinovka around Konstantinovka as
+well. And um Readovka the other day was
 saying that they now expect that the
 Ukrainian forces south of Kovstantinovka
 are going to withdraw from their

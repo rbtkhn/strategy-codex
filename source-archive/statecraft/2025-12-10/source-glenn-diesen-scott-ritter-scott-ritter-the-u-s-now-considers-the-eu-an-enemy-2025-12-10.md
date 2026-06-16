@@ -474,7 +474,7 @@ elements in Europe that um align with
 our ideals and our values and working
 actively against those who conspire
 against us. And so yeah, if you're
-Starmer, if you're Mcronone, if you're
+Starmer, if you're Macron, if you're
 Mertz, be on notice. You're our enemy
 now because you made yourself our enemy.
 >> I think back in February when um at the
@@ -786,7 +786,7 @@ Um and you know if Ukraine can't find a
 way to gain access to you know 120 to
 150 billion uh dollars in the short term
 uh there will be a political crisis of
-existential proportions which Zalinsky
+existential proportions which Zelensky
 may not survive. Um you know so right
 off the bat you have you have this
 reality an economic reality which
@@ -795,7 +795,7 @@ over that the fact that the Ukrainian
 army is just being routed on the
 battlefield, every day gets worse and it
 and it's not going to change. It's not
-going to reverse. Um, you know, Zalinsky
+going to reverse. Um, you know, Zelensky
 instead of doing the smart thing, which
 would be to go to Trump and say,
 "Forgive me, daddy. The pro prodigal son
@@ -807,13 +807,13 @@ Europeans who Trump just declared war on
 through his national security strategy
 document. Um and all [clears throat] the
 Europeans are doing and continue to
-support Zalinsky is prove Trump's point
+support Zelensky is prove Trump's point
 that they don't care about, you know,
 the things that America cares about. We
 don't want more war with Russia. We want
 stable relations with Russia. And yet
 Europe is becoming, you know, a war
-party collective. And Zalinsky appears
+party collective. And Zelensky appears
 to be aligning himself fully with that,
 rejecting outright um some of the core
 demands made in the uh peace plan that

@@ -1269,7 +1269,7 @@ was created to to lure you know Putin in
 
 to begin
 
-with um you had zalinski standing up the
+with um you had Zelensky standing up the
 
 day before saying Ukraine is going to
 
@@ -1531,7 +1531,7 @@ negotiating table all right then you
 
 have
 
-zalinski I mean I speak to some of
+Zelensky I mean I speak to some of
 
 ukrainians and I can tell you bluntly
 
@@ -2015,7 +2015,7 @@ policy of Europe in Ukraine and in
 
 Europe he has the same sort of problem
 
-because zalinski is not officially the
+because Zelensky is not officially the
 
 president of Ukraine and there has to be
 
@@ -2059,17 +2059,17 @@ the the thing that would really uh
 
 overturn
 
-zilinski most people do not
+Zelensky most people do not
 
 realize what Biden did he is not only
 
-paying zalinsky salary but everybody in
+paying Zelensky salary but everybody in
 
 government and their
 
 pensions all right cut all that money
 
-off then you're going to see zalinsky
+off then you're going to see Zelensky
 
 fall all right um look we had employees
 
@@ -2475,7 +2475,7 @@ what Biden did that's what he was told
 
 the neocons oh don't talk to anybody
 
-zilinski is saying the same nonsense why
+Zelensky is saying the same nonsense why
 
 because if you talk to him maybe you
 
@@ -2537,7 +2537,7 @@ sure the pipeline continued Victoria
 
 nulan I mean everything they do has been
 
-taking out Nord dream um zalinski
+taking out Nord dream um Zelensky
 
 cutting off the the gas to you know his
 

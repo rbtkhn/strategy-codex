@@ -542,12 +542,12 @@ true. And then on top of this, you have
 the latest uh not the first by any
 means, but the latest corruption scandal
 involving the people immediately around
-Zilinsky and probably Zilinsky himself.
+Zelensky and probably Zelensky himself.
 um you know there have been repeated I
 don't know if you remember there were
 various papers uh from Panama about
 illegal investment published a while
-back and Zalinsky was prominent among
+back and Zelensky was prominent among
 the names of those who were using that
 mechanism uh to salt away money and he's
 we know that his mother has a villa on

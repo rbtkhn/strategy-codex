@@ -73,7 +73,7 @@ be said, what might be construed to be
 the joint Ukrainian European position.
 And this second document
 um I suspect has been hammered out and
-discussed by Star Mron and Zalinski and
+discussed by Star Mron and Zelensky and
 their various officials and almost
 certainly by the NATO secretariat and by
 the European Commission including Usula
@@ -145,7 +145,7 @@ discussions between the Ukrainians and
 the Europeans which have been
 underway
 probably ever since that disastrous
-meeting between Zalinski and Trump in
+meeting between Zelensky and Trump in
 the Oval Office at the end of February.
 And I am going to anticipate and say
 that I believe I now
@@ -163,7 +163,7 @@ When the American document
 appeared at the meetings in Paris, it
 came as a complete shock. As I said, it
 is completely different and the
-vehements of Zalinsk's
+vehements of Zelensky's
 reaction and the extraordinary reaction
 that we saw from European governments in
 the hours
@@ -346,7 +346,7 @@ agreement agreed between them. This is
 apparently almost identical to the
 memorandum of intent that was supposed
 to be signed over the course of
-Zilinsk's visit to um Washington, the
+Zelensky's visit to um Washington, the
 visit which ended in the row in the Oval
 Office. Now, at the time when we were
 told that the memorandum of intent had
@@ -527,7 +527,7 @@ Americans brought with them um says it
 was presented apparently to the
 Europeans and to the Ukrainians on
 Tuesday. The Europeans were stunned and
-horrified by it and Zilinski had a
+horrified by it and Zelensky had a
 public tantrum when he saw it. He
 assumed that his representatives Yermach
 and the others were going to discuss the
@@ -1037,7 +1037,7 @@ fits and the agonized ringing of hands
 that you see across Europe, the reasons
 for it are now becoming clear.
 Now to repeat
-again, Zalinski has rejected this entire
+again, Zelensky has rejected this entire
 proposal outright and the proposal is
 actually framed if we go back to the
 original provision. These terms
@@ -1053,7 +1053,7 @@ proposal presumably to Witkoff to to
 Moscow with Witkoff. Witkoff is now as I
 said meeting with Putin. I'm sure the
 Russians have already seen the proposal.
-Um unlike Zalinski, Putin will come back
+Um unlike Zelensky, Putin will come back
 and say, "Look, there's things here
 which I can't agree with, but this does
 represent real progress." Very much the
@@ -1102,7 +1102,7 @@ fundamental point. The
 Russians might
 be minded to work with
 this. The Ukrainians are not. And over
-the last few hours, ever since Zalinski
+the last few hours, ever since Zelensky
 spoke, they have been reiterating and
 arguing and complaining about the
 American proposal and saying time after
@@ -1139,7 +1139,7 @@ proposal, it doesn't, as I said, fully
 satisfy them, but it's a step in the
 right direction. and they're not going
 to reject it outright in the way that
-Zalinski and the Europeans are doing.
+Zelensky and the Europeans are doing.
 Anyway, what is now going to happen?
 Now, to repeat again, we're told that
 this is a final offer from the United
@@ -1240,7 +1240,7 @@ get a cut in? Who knows? But anyway, I I
 do get the sense that this is ultimately
 where Donald Trump himself wants to go.
 But in the meantime, despite the fact
-that Zalinski and the Ukrainians have
+that Zelensky and the Ukrainians have
 rejected these proposals outright and
 are not going to go back on them, there
 is another report, I believe it's also
@@ -1385,7 +1385,7 @@ looks as if the village in of Goral in
 Kosk region is now mostly under Russian
 control and that the Russians have made
 significant further advances, especially
-in the Constantinoka area, but as I
+in the Konstantinovka area, but as I
 said, this is discussions for another
 day. Anyway, what do the Americans do?
 Do they actually walk away as they've
@@ -1484,13 +1484,13 @@ definitely starting to enter the end
 game in the war. As I said, I don't
 expect the
 Ukrainians to shift their position. I
-don't believe that Zalinski is capable
+don't believe that Zelensky is capable
 of shifting his position. As I said in
 my program yesterday, David Saxs, the
 American entrepreneur who is now um
 working to some in some respects for the
 um administration, he said that
-Zalinsk's outburst over Crimea, the
+Zelensky's outburst over Crimea, the
 easiest thing for him to concede, shows
 that he is basically not interested in
 peace, that he's not capable of engaging
@@ -1499,17 +1499,17 @@ Um, Donald Trump's son, Donald Trump
 Jr.,
 reposted that comment of David Sachs
 with approval. Elon Musk has
-ridiculed Zalinsk's latest comment,
+ridiculed Zelensky's latest comment,
 latest claim that every dollar of aid
 provided by the United States to Ukraine
 can be accounted for. An absurd comment
-by Zilinski, by the way, and I wonder
+by Zelensky, by the way, and I wonder
 what on earth possessed him to say it.
 Zaharova, the Russian Foreign Ministry
 spokesman, has also said that all of the
 various violations of the ceasefire of
 the various ceasefires that the
-Ukrainians have undertaken and Zilinsk's
+Ukrainians have undertaken and Zelensky's
 own stance and behavior shows that he is
 not somebody that can be negotiated with
 and who can be looked to to make peace.

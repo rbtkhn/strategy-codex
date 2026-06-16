@@ -50,7 +50,7 @@ conflict and even prior to this uh but
 especially after the onset of uh the
 special military operation uh MI6
 um you know
-basically took control of Limir Zalinski
+basically took control of Limir Zelensky
 um you know not only in terms of the
 security but also in terms terms of
 crafting his narrative. Um the most
@@ -59,13 +59,13 @@ keeping Ukraine in the fight. This is
 the big uh MI6 orchestrated PR campaign
 and we see it playing out. Uh I have to
 laugh. I think it was in Vnius uh two
-years ago when uh Zalinsky was sort of
+years ago when uh Zelensky was sort of
 standing alone and everybody made a meme
 of him standing there looking dower
 while the rest of Europe gathered and
 and yet now we have the coalition of a
 willing meeting and you know these
-staged events where you know Zalinsky
+staged events where you know Zelensky
 walks in confident everybody stands up
 to shake his hand and embrace him we
 know what they think of this man they

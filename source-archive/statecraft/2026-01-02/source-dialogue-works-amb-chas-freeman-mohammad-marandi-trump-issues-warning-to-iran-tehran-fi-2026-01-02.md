@@ -33,13 +33,13 @@ Language: en
 >> Hi everybody. Today's Friday,
 January 2nd, 2026, and our dear friends,
 Ambassador Chaz Freeman and Professor
-Mirandi are here with us. Welcome back,
-Professor Mandi and Ambassador.
+Marandi are here with us. Welcome back,
+Professor Marandi and Ambassador.
 >> Glad to be with you, Nema.
 >> Thank you for inviting us
 >> and and happy new year to you and to our
 audience.
-And let me start professor Mandi with
+And let me start professor Marandi with
 you. And here is what we have seen with
 a tweet from Donald Trump. Somehow
 you know let me just bring it up here.
@@ -69,7 +69,7 @@ interest. The American people should
 know Trump started this adventurism.
 They should be mindful of their soldiers
 safety.
-What is going on, Professor Mirandi
+What is going on, Professor Marandi
 and with the case of the you know with
 the case of the protests in Iran and
 because Donald Trump is talking about
@@ -126,7 +126,7 @@ I think I don't know if he did it this
 on to social or or on Twitter but uh his
 statement I think only uh
 strengthens the case of the
-administration in Thran and the
+administration in Tehran and the
 government and the the uh the the
 National Security Council that the the
 United States and the Israeli regime uh
@@ -194,7 +194,7 @@ move on to some new story
 >> can't hear you na
 >> yeah ambassador your understanding of
 reaction on the part of Donald Trump
->> well I think Muhammad Mirandi is correct
+>> well I think Muhammad Marandi is correct
 um the basic policy of uh The United
 States in support of Israeli interest in
 eliminating Iran as a rival uh in the
@@ -318,7 +318,7 @@ um uh I don't know how this is going to
 turn out but my I suspect it will not be
 to the benefit of those in the west uh
 who want to dominate Iran.
-Yeah, Professor Mandi, for me to be here
+Yeah, Professor Marandi, for me to be here
 in Iran, seeing what's going on here,
 you know, not seeing myself, but seeing
 the videos coming from different people
@@ -333,7 +333,7 @@ after 12 years and
 being here and experiencing here is
 somehow
 surprising but to you what is going on
-professor Mandi and how what's your
+professor Marandi and how what's your
 understanding in that?
 Well, this is not new and uh the
 ambassador rightly pointed out previous
@@ -625,7 +625,7 @@ indeed in the region because I think
 people are pretty skeptical everywhere
 now about uh this kind of reporting.
 Yeah,
-Professor Mandi, I
+Professor Marandi, I
 when when we talk about Iran and
 Ambassador Chasan tried to to picture
 the difficulties of the current
@@ -691,7 +691,7 @@ solution and a political solution with
 the United States. As you rightly
 pointed out on the day of his
 inauguration, hours later,
-Ismael Hi was martyed in Thran. He was
+Ismael Hi was martyed in Tehran. He was
 an official guest for the inauguration
 ceremony. President Pzashan hugged him
 and then of course the United States
@@ -906,9 +906,9 @@ away some useful insights when you
 return to Brazil. um and um look forward
 to continuing the dialogue and I thank
 you Muhammad for some insights.
->> Thank you professor Mandi
+>> Thank you professor Marandi
 and
-before wrapping up Professor Mirandi
+before wrapping up Professor Marandi
 with what has happened I talk with you
 know that I talk with one of the you
 know top rank you know diplomats here in
@@ -1014,7 +1014,7 @@ because he won the election. He won an
 absolute majority. He won all the swing
 states. He said he's going to do it. He
 could have done it but he didn't. So
-he's seen in Thran as a weak person who
+he's seen in Tehran as a weak person who
 >> there's a consistent problem here
 Muhammad which is um that Trump wants to
 be a mediator and a peacemaker but he's
@@ -1139,7 +1139,7 @@ confrontation, I think the uh the result
 is going to be very delletterious to my
 own country, let alone Iran.
 Yeah,
-thank you so much, Professor Mirandi,
+thank you so much, Professor Marandi,
 Ambassador Chaz Freeman for being with
 us today. Great pleasure as always and
 happy new year again.

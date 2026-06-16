@@ -857,7 +857,7 @@ to be around this time next year. I
 mean, France just lost its sixth, maybe
 seventh prime minister uh in two years.
 Uh it's a it's nonfunctioning
-government. How long can Mcronone
+government. How long can Macron
 continue to uh to stay on? At some point
 in time, you know, reality dictates
 he'll have to resign and have hold snap

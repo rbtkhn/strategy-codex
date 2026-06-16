@@ -928,9 +928,9 @@ logistic challenges. But anyway, there's
 an awful lot of talk about that. Um,
 there continues to be a lot of
 discussion about the situation in
-Pakovsk. Um, I discussed yesterday that
+Pokrovsk. Um, I discussed yesterday that
 in my opinion the um entry of Russian
-troops into Pakovsk was
+troops into Pokrovsk was
 probably the work of a um sabotage and
 reconnaissance group. In other words, it
 was more likely a raid. We haven't heard
@@ -947,25 +947,25 @@ all is a sign, however, of the direction
 of events around
 Pakosk. And there's been more news of
 more Russian advances to the northeast
-of Bakarovsk in this area of
+of Pokrovsk in this area of
 Malinifka. Um with the village the key
 village of Novo
 Economic lying only some further
 distance to the
 west and also more news of the Russians
 continuing their advances southwest of
-Pakovsk as well. um on the lines towards
+Pokrovsk as well. um on the lines towards
 Nearro towards ultimately the Neper
 River.
 So there's quite a lot of development
 still there. Perhaps the most dramatic
 news continues to be in the
-Constantinfka area. Um the Russians
+Konstantinovka area. Um the Russians
 apparently have achieved a number of
 breakthroughs in this area as well.
 They seem to be intent on capturing
 large territory north of
-Chasy where the battle is apparently now
+Chasiv Yar where the battle is apparently now
 definitely winding down. I've heard that
 the Russians have captured more of the
 remaining buildings in the central
@@ -1004,8 +1004,8 @@ battle will probably come in the summer
 when as I said the Russians seek to
 storm these three cities um Slavans,
 Clamators,
-Constantinoka and perhaps also pretty
-fairly soon Pakovsk as well. Anyway, you
+Konstantinovka and perhaps also pretty
+fairly soon Pokrovsk as well. Anyway, you
 can read it all as I said in Simplick
 the thinker. I want to return briefly to
 the topic of the two big reserve armies

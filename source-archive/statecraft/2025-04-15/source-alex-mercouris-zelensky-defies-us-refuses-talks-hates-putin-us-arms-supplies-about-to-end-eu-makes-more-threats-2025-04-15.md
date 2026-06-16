@@ -25,15 +25,15 @@ point perhaps to a moment when the
 United States finally makes its decision
 to part company with Ukraine and with
 the extraordinary personality of
-President Zalinski. Now speaking of
-President Zilinski, he has given a
+President Zelensky. Now speaking of
+President Zelensky, he has given a
 interview on CBS 60 Minutes, an
 extraordinary long rambling interview.
 Not always a very coherent one as far as
 I'm concerned and I don't pretend or
 intend to pass it or to discuss it in
 any very great detail. It was very much
-the same things that Zalinski always
+the same things that Zelensky always
 says and which um come back to his core
 views. But ultimately what the interview
 did, what it
@@ -62,7 +62,7 @@ aside his 2nd October 2022 decree which
 prohibits everybody from in Ukraine from
 negotiating with Russia whilst President
 Putin remains its leader. There are
-times when Zalinski himself has
+times when Zelensky himself has
 insinuated that
 he is personally authorized to conduct
 negotiations with the Russians and with
@@ -104,7 +104,7 @@ can imagine even assuming that President
 Putin himself was suddenly to die or
 fall ill or something were to happen to
 him. Just saying all of this, even as
-President Zilinski himself acknowledges
+President Zelensky himself acknowledges
 that it's very unlikely, all but
 impossible in fact for the Ukrainian
 military to recover the territories that
@@ -124,7 +124,7 @@ remembering at a meeting between
 American officials, senior American
 officials and Ukrainian officials which
 took place in Saudi Arabia in Jedha.
-Zalinski himself was kept away from that
+Zelensky himself was kept away from that
 meeting obviously by the Americans and
 the Ukrainians themselves were obliged
 to meet with the Americans in Jedha in
@@ -136,7 +136,7 @@ holding contacts and discussions with
 their European friends. The Ukrainians
 then very grudgingly agreed to an
 unconditional
-ceasefire, one which Zalinski up to that
+ceasefire, one which Zelensky up to that
 point had consistently opposed and
 rejected. He rejected the unconditional
 ceasefire idea when he attended the
@@ -169,7 +169,7 @@ of that um in return for well basically
 nothing at all would be an extraordinary
 thing for any political leader to give
 up. But I will say this, I can
-understand why Zilinski is not prepared
+understand why Zelensky is not prepared
 to sign that mineral rights extraction
 agreement. But he must know that by
 doing so, he's antagonizing Donald Trump
@@ -192,7 +192,7 @@ States, the Ukraine is definitely going
 to lose and which even with the
 assistance of the United States in time
 it is going to lose. Well, as I said,
-Zalinski, as he has consistently done,
+Zelensky, as he has consistently done,
 as has been the hallmark of his policies
 and his personality and his positions
 ever since the summer of 2022,
@@ -210,7 +210,7 @@ within a few days demands continue are
 repeated again that Ukraine will be a
 member of NATO at some point that it
 insists on that
-right and in addition Zalinski obviously
+right and in addition Zelensky obviously
 shows no interest at all in making any
 fundamental concessions on any of the
 other things or even partial concessions
@@ -241,7 +241,7 @@ destruction to stop. If the 2020
 presidential election was not rigged and
 it and it was in so many ways, that
 horrible war would never have happened.
-President Zalinski and crooked Joe Biden
+President Zelensky and crooked Joe Biden
 did an absolutely horrible job in
 allowing this travesty to begin. There
 was so many ways of preventing it from
@@ -272,7 +272,7 @@ that the war that took place in February
 2022 was to a great
 extent an intended war. I remember that
 soon after Biden's election, uh,
-Zalinski began to change, uh, Ukrainian
+Zelensky began to change, uh, Ukrainian
 doctrines, uh, Ukrainian military
 doctrines. He began to
 uh recast those military
@@ -298,7 +298,7 @@ reaction, the Russian assembling of
 around 100,000 men to counter that
 Ukrainian concentration which attracted
 all the attention. So looking back, I
-strongly suspect that Zilinski acted in
+strongly suspect that Zelensky acted in
 that way because he was
 receiving encouragement from the people
 who were to form the new Biden
@@ -368,7 +368,7 @@ February
 2022 when I noticed the sense of
 euphoria and excitement amongst American
 and European officials and indeed
-President Zalinski
+President Zelensky
 himself
 as the showdown with Russia and with
 Putin appeared to be nearing closer and
@@ -486,7 +486,7 @@ can learn about the policies of its
 immediate predecessor. Just saying. But
 anyway, that is my belief. And when uh
 Trump says that the war uh would never
-have happened and that Zalinski and
+have happened and that Zelensky and
 crooked Joe Biden as he calls him did an
 abs absolutely horrible job in allowing
 it, this travesty to begin, he's telling
@@ -502,11 +502,11 @@ the record, President Ble and President
 Trump got on extremely well
 together. I noticed the President Ble
 was not wearing a tie or a proper suit
-any more than Zalinski wears a tie and a
+any more than Zelensky wears a tie and a
 suit. He
 is, shall we say, an eccentric
 personality in his own way. Very
-different way to Zalinski. But in all
+different way to Zelensky. But in all
 other respects, he seems to be very
 friendly with Trump. And he also seems
 to be going out of his way to um support
@@ -529,21 +529,21 @@ course of this meeting with President
 Muklli in the Oval Office,
 um Trump was asked
 questions about
-um Zalinski, about the state of the war,
+um Zelensky, about the state of the war,
 about those sort of things. Um, a
 journalist asked him about President
-Zalinsk's
+Zelensky's
 uh demand for 10 more uh Patriot missile
 batteries and
 Trump expressing himself again with some
 degree of exasperation. So that is what
-Zalinski always does. He's always comes
+Zelensky always does. He's always comes
 back and demands missile batteries. He
 wants he says he's going to buy them. By
 the way, though obviously since
 Ukraine is entirely without money, it is
 in fact heading towards a financial
-collapse. Just saying. um Zalinski to
+collapse. Just saying. um Zelensky to
 the extent that this demand for 10
 Patriot missile batteries
 um is a serious is a serious request. He
@@ -551,20 +551,20 @@ presumably again expects it expects that
 these missile batteries are going to be
 provided with someone else's money.
 Anyway, just saying. But anyway, Trump
-responded that Zilinsky always comes
+responded that Zelensky always comes
 back and makes these demands for missile
 batteries and all that kind of thing.
 And he said that um again this
-demonstrates Zalinsk's folly. I'm being
+demonstrates Zelensky's folly. I'm being
 much more measured in my language here
 than Trump himself was much more
 measured in uh sorry much more measured
 than Trump was. Anyway, Trump said that
-Zalinski always does this. In fact, what
+Zelensky always does this. In fact, what
 he should have done is thought carefully
 before starting the war. And in this
 instance, Trump was clearly signaling
-that he believes that it was Zilinski
+that he believes that it was Zelensky
 that played a critical role in starting
 the war. He said that before starting a
 war
@@ -579,7 +579,7 @@ fight it and to fight it successfully.
 And in
 fact what Trump was instead what Trump
 said was that
-Zilinski far from doing that provoke
+Zelensky far from doing that provoke
 that war without making those kind of
 assessments or
 preparations and he's been scrging
@@ -588,12 +588,12 @@ particular begging for more and more
 weapons in order to fight that war ever
 since. So this is clearly Trump
 signaling again that
-Zalinski was responsible for the war.
+Zelensky was responsible for the war.
 Now there's been a lot of anger about
 these words of Trumps in the European
 media uh particularly the British and
 German media. Um, it's been said that
-again Trump is blaming Zalinski for the
+again Trump is blaming Zelensky for the
 fact that the Russians invaded Ukraine.
 Um
 again,
@@ -610,7 +610,7 @@ indisputable to anybody who has followed
 these events with any degree of care,
 which is that Ukraine did not honor the
 provisions of the Minsk agreement which
-it signed in 2015 and which Zalinski
+it signed in 2015 and which Zelensky
 himself was
 elected on a
 platform in which he said that he would
@@ -654,12 +654,12 @@ to be so partial about the facts that
 the facts
 themselves become distorted out of all
 recognition. Anyway, moving on. That's
-what Trump said. Now then, Zilinski of
+what Trump said. Now then, Zelensky of
 course fired back and he made comments
 again that um the Americans are
 accepting some American officials and
 here again he clearly had JD Vance in
-mind. Um it's clear that Zalinski has an
+mind. Um it's clear that Zelensky has an
 intense animous against JD Vance. He
 made
 a well he said something under his
@@ -696,7 +696,7 @@ well. And my conclusion is that the
 brief I won't even call it
 reconciliation but shall we say
 relaxation in tensions between the Trump
-administration and Zalinski and his
+administration and Zelensky and his
 officials which we have seen since the
 meeting in Jedha when the
 Ukrainians had their
@@ -763,7 +763,7 @@ House are there for it. But regardless,
 we can see that Ukraine still has
 support in Washington.
 But I think that Trump is gradually
-coming to the view that Zalinski will
+coming to the view that Zelensky will
 never
 be anything else other than a massive
 obstacle to the
@@ -997,7 +997,7 @@ Russian energy facilities over the
 period of this
 truce and I don't think that there ever
 will be. Um, I don't think that
-Zalinski, judging from the personality
+Zelensky, judging from the personality
 of the man, as again
 illustrated in that interview he gave to
 CBS, has
@@ -1033,11 +1033,11 @@ prepared to take any step at all to get
 the Black Sea
 initiative operating again. So my own
 sense is that Trump's patience is
-running out and that Zalinsk's
+running out and that Zelensky's
 latest comments, his
 demonstrations have shown to Trump
 again that this
-man Zalinski is impossible, that there
+man Zelensky is impossible, that there
 are really no alternatives within the
 Ukrainian political
 system the amongst the politicians in
@@ -1065,7 +1065,7 @@ administration is going to run out and
 then Trump has to make a decision
 whether he supplies Ukraine with more
 weapons and more funding and in effect
-sides with Zalinski, a man he clearly
+sides with Zelensky, a man he clearly
 loses against Putin, a man for whom he
 has a certain degree of respect.
 and commits to the prolongation of a war
@@ -1168,17 +1168,17 @@ before long is going to have to make a
 decision. Does he start exercising his
 draw down authority to send more weapons
 to Ukraine? He clearly doesn't believe
-that Zalinski is really interested in
+that Zelensky is really interested in
 achieving peace. He also clearly blames
-Zalinski, at least in part, for starting
+Zelensky, at least in part, for starting
 the war in the first place. Um, he
-doesn't like Zilinski and he's no reason
+doesn't like Zelensky and he's no reason
 to think that anyone else in Ukraine who
 could take his place is going to do
 anything fundamentally different. So,
 does he start exercising his draw down
 authority? He's spoken with contempt
-about Zalinsk's demand for 10 more
+about Zelensky's demand for 10 more
 Patriot missile batteries. Does he
 reverse his position completely and
 start supplying Ukraine with weapons?
@@ -1231,7 +1231,7 @@ were going
 forward and
 when senior people within the
 administration have had dealings with
-Zalinski and have come away with the
+Zelensky and have come away with the
 view that this is somebody that they
 don't like and who they don't believe
 should be supported.
@@ -1495,11 +1495,11 @@ hostility to Russia, continuing support
 for Ukraine, talking about further
 support for
 Ukraine. It
-is strengthening Zalinsk's belief that
+is strengthening Zelensky's belief that
 he can go on defying both the Americans
 and the Russians at the same time. It is
 in other words
-consolidating Zalinsk's
+consolidating Zelensky's
 self-confidence and making him believe
 that he can continue to prolong the war
 because he still has strong cards that
@@ -1576,7 +1576,7 @@ ever deepening crisis in recruitment for
 the Ukrainians.
 Not only is their military continuing to
 grow smaller, but it seems that the
-latest attempt, Zilinski's latest
+latest attempt, Zelensky's latest
 attempt to try to get young people to
 sign up for the Ukrainian army has been
 a disastrous failure. We are told and
@@ -1587,7 +1587,7 @@ have signed contracts under the
 18-24 program so far.
 Um this comes actually it originates
 from Pavl Palisa who is in fact a member
-of Ukraine uh Zalinsk's own office
+of Ukraine uh Zelensky's own office
 deputy head of the presidential office
 um of the government of Ukraine Ukraine
 uh despite being offered a one-time cash
@@ -1642,14 +1642,14 @@ do to repel it. And as he correctly
 says, the effect of this advance is
 gradually to
 create an encircumment of
-Pacross and ultimately also to weaken
+Pokrovsk and ultimately also to weaken
 Ukrainian positions um in in the area of
-Constantinoka and in the salient between
+Konstantinovka and in the salient between
 um the salient the area that the
 Ukrainians still control between Toddk
 and
 Chasfiar. And Kimakovski went on to say
-the situation near Pakovsk was basically
+the situation near Pokrovsk was basically
 not very good when the enemy tried to
 shave off a sort of bulge, a sort of arc
 in the area of Kotlin, Otradoyer and
@@ -1726,7 +1726,7 @@ counter offensive of the autumn of 2022.
 So,
 a deteriorating situation for the
 Ukrainians. But of course,
-Zalinski is blind to that. He continues
+Zelensky is blind to that. He continues
 to speak about eventual victories over
 the Russians. The
 Europeans want a just and fair peace for

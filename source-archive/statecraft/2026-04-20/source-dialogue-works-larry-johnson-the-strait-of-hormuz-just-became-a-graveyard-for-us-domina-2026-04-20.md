@@ -161,7 +161,7 @@ coast.
 >> Well, not only that, but uh the the
 other factor that's going to kick in
 here is weather. And you know, Professor
-Morandi's talked about it. Uh I don't
+Marandi's talked about it. Uh I don't
 know if you've ever experienced
 what it's like to be in say Qatar in
 May, but uh it's like being in a in a
@@ -860,9 +860,9 @@ economic crunch is coming. It with each
 passing day, it's going to get worse.
 I think the most that the Trump
 administration can do with the case of
-this rate of formos is forcing Iranians
+this Strait of Hormuz is forcing Iranians
 to to charge at least some of these
-countries that are using this rate to
+countries that are using the Strait to
 pay in dollar. So here comes the second
 part of the question. Iran is under the
 US sanctions for such a long time. It

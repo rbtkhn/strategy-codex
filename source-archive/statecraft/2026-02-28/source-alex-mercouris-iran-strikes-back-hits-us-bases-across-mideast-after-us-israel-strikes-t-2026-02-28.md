@@ -59,7 +59,7 @@ Anyway, though some Iranian military commanders may have been killed in the init
 
 So it looks as if the initial decapitation strike failed. This is not to suggest that this is over. Presumably over the next week or longer, for as long as this operation continues, the United States will try to hunt all of these Iranian leaders. We could be seeing strikes on all sorts of compounds and facilities across Iran.
 
-Reuters is saying that they have been told by an Iranian official that Hame has been moved to a safe location outside Thran. Um the United States will be trying to identify what that safe location is. Of course, it's not impossible that this information provided to Reuters by supposedly an Iranian official is itself a piece of misdirection.
+Reuters is saying that they have been told by an Iranian official that Hame has been moved to a safe location outside Tehran. Um the United States will be trying to identify what that safe location is. Of course, it's not impossible that this information provided to Reuters by supposedly an Iranian official is itself a piece of misdirection.
 
 But anyway, one can't for the moment say that the decapitation strike, the attempt to decapitate Iran's leadership is over. And well, we could see we might see some attack of that kind take place over the next couple of days or weeks. Though in advance of this attack, the Iranian authorities had already taken steps to create redundancy within their leadership to decentralize it as far as possible to make it robust and resilient in anticipation of the attack which has now come.
 

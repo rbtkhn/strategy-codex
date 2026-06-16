@@ -581,7 +581,7 @@ They're taking out, you know, critical
 defense industry targets, but they're
 also starting to hit the energy related
 infrastructure, etc. And politically, I
-mean, Zalinski is just in an outright
+mean, Zelensky is just in an outright
 panic right now. And everybody around
 him is in a panic. And I think what
 you'll see is that as the military

@@ -43,7 +43,7 @@ ballistic missiles Etc lots of support
 
 well now then not only has Iran joined
 
-with the bricks and in general with an
+with BRICS and in general with an
 
 economic situation now uh in just the
 
@@ -299,7 +299,7 @@ that Iran has been provided so Russia
 
 has incentive to keep Iran viable and to
 
-keep them out of War also for the bricks
+keep them out of War also for BRICS
 
 issue but as this report from do ofll
 
@@ -1239,7 +1239,7 @@ if Trump were to do that and and to cut
 
 off the supplies even according to what
 
-zalinski said about two months ago oh
+Zelensky said about two months ago oh
 
 yeah he's we we wouldn't last two weeks
 
@@ -1599,7 +1599,7 @@ map uh there there has been an issue
 
 that was ironically precipitated by uh
 
-Vladimir zalinski of Ukraine when after
+Vladimir Zelensky of Ukraine when after
 
 all this two two and three quarters
 

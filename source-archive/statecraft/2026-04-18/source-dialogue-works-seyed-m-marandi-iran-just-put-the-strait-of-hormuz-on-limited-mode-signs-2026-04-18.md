@@ -17,17 +17,17 @@ source_note: "Automated YouTube transcript fetch for Dialogue Works."
 
 Hi everybody. Today's Saturday, April
 18, 2026 and our dear friend or brother,
-Professor Mandi is here with us. Welcome
-back, Professor Mandi.
+Professor Marandi is here with us. Welcome
+back, Professor Marandi.
 >> Hi, Nema. How are you doing? Hope
 >> all is well over there. [laughter]
 >> Over here, I think we're moving closer
 to war.
 >> Yeah, [laughter]
-let's start with that. Professor Mandi,
+let's start with that. Professor Marandi,
 we've learned yesterday that suddenly we
 the foreign minister of Iran announced
-that this rate is open and commercial
+that the Strait is open and commercial
 vessels can pass through this Strait of Hormuz what he just he he mentioned in
 that tweet and then Donald Trump came
 out with a series of non you know
@@ -571,7 +571,7 @@ the balance of power in this region
 permanently and in the world. So
 regardless of what the Americans do,
 they're this, you know, the Iranians are
-not going to give up the trade of homes
+not going to give up the Strait of Hormuz
 ever. And the these dictatorships in the
 Persian Gulf, these family dictatorships
 are going to have to deal with a new
@@ -613,7 +613,7 @@ that if we cannot achieve it with the
 negotiations, we're going to definitely
 achieve it on the battlefield. This is
 what really happening. And professor
-Mandi, we know that. And just one thing,
+Marandi, we know that. And just one thing,
 Nema, just one thing, Nema, the vice
 president of Iran,
 he was the vice president
@@ -643,11 +643,11 @@ when he says that he sounds exactly like
 a military commander and I think this is
 something that uh people should take
 note of.
-You mentioned this trade of formoose
+You mentioned this Strait of Hormuz
 which is one of the whoever follows
 Persian media the Iranian media domestic
 media understand what is the tone and as
-we've mentioned we professor Mandi just
+we've mentioned we professor Marandi just
 mentioned and they say that it's going
 to remain under the control of Iranian
 government but when it comes to the
@@ -684,7 +684,7 @@ interpretation. The second
 interpretation would be that's the
 normal abnormal Donald Trump.
 What is the communications professor
-Morandi? We had the phone call between
+Marandi? We had the phone call between
 Iranian foreign minister and his
 counterpart in counterpart in Saudi
 Arabia and is there any sort of other
@@ -942,7 +942,7 @@ True. I I think that the Iranian threat
 to strike the Israelis
 uh tipped the balance, but the real
 reason in my opinion was the fact that
-the straight of horos continued to be
+the Strait of Hormuz continued to be
 blocked. And this is, I think, the
 Iranian strategy to push the United
 States so hard economically that they
@@ -1202,7 +1202,7 @@ Bahrain and Kuwait. I think uh, we've
 been living in a much more prosperous
 region and a much more integrated
 region.
->> Thank you so much, Professor Mandi, for
+>> Thank you so much, Professor Marandi, for
 being with us today. Great pleasure as
 always.
 >> Thank you very much, Nemo. It's always a

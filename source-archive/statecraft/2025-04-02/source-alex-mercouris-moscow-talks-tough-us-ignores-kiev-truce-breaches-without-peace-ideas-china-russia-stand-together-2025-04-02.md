@@ -714,7 +714,7 @@ Bloomberg um talking about how Trump
 after making some critical comments
 about Putin um on Friday has now swung
 back he's been more critical about
-zalinski he's saying that zalinski will
+Zelensky he's saying that Zelensky will
 face serious consequences if Ukraine
 tries to renegotiate the mineral rights
 extraction deal which is now much more
@@ -735,7 +735,7 @@ Trump has been very critical of the
 ukrainians for doing that he's made
 other statements
 about
-zalinski um but he hasn't yet exactly
+Zelensky um but he hasn't yet exactly
 reversed his critical comments about
 Putin though he does seem to be rowing
 the back and he has said that he still
@@ -942,7 +942,7 @@ manufacturing can continues to remain
 strong so anyway
 let's note all of this Trump has
 enormous leverage over
-zalinski but he has much more leverage
+Zelensky but he has much more leverage
 much less leverage in fact if one has to
 be frank he has no leverage at all over
 Vladimir Putin at least he does not have

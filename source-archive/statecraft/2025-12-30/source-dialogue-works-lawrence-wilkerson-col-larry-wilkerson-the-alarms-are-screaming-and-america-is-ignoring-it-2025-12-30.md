@@ -31,11 +31,11 @@ Vladimir Putin. I don't know. They were
 trying to assassinate to do something.
 And
 do you know do you understand what's
-going on in Kief in Ukraine? Zalinski
+going on in Kiev in Ukraine? Zelensky
 talking to Trump and then trying to
 assassinate, you know, the president of
 Russia who's the only reason that
-Zalinski was not assassinated. So far,
+Zelensky was not assassinated. So far,
 >> I don't know whom to believe anymore on
 any of this kind of stuff. Um, this
 morning, for example, I'm hearing from
@@ -68,7 +68,7 @@ do it. What I mean in that sense is that
 one of the European intelligence bodies,
 even MSAD, for example, might have tried
 to do it and then make it look like
-Zalinski did it and heat up the war a
+Zelensky did it and heat up the war a
 little bit. I don't know how they expect
 to heat it up by killing Putin. I
 imagine they'd heat it up in the sense
@@ -190,7 +190,7 @@ actually did the interview. I'm not so
 sure that that wasn't to set some people
 off the scent. Um and what she did was
 she just deepened the scent.
-Larry, here is Zalinski talking about,
+Larry, here is Zelensky talking about,
 you know, the Russian soldiers and the
 way they're preparing or this the
 current state of the Russian army. They
@@ -265,7 +265,7 @@ Vladimir Putin and all the rest of the
 guys involved in this proxy war in this
 conflict
 um ru the day of having in front of them
-because in Trump's case Zalinski is a
+because in Trump's case Zelensky is a
 better liar than Trump and in Putin's
 case has no leg to stand on so he's just
 nothing but a lie. Um and mobilization
@@ -1050,7 +1050,7 @@ them and take them.
 >> Larry, do you There is something so
 strange going on between Donald Trump
 and you know
-Netno. Why is he trying Donald Trump
+Netanyahu. Why is he trying Donald Trump
 trying so hard to help Neta? What is
 >> Because Miriam Adlesen has her hand up
 between Donald Trump's legs and gripping
@@ -1064,7 +1064,7 @@ of the government, this sector of the
 political parties in Israel.
 >> I've talked to enough people to know
 that they they perhaps despise
-Smootrich.
+Smotrich.
 They they do despise Ben Gir almost to a
 person. Even some of Ben Gver's own
 people despise him. Um, but they don't
@@ -1315,7 +1315,7 @@ didn't you?
 I was How come you're delivering that
 speech in English? [laughter]
 >> No shortage of water. By the way, I'm in
-Thran, but there is no shortage of
+Tehran, but there is no shortage of
 water. And the tap water is drinkable.
 And [laughter]
 >> then is it further south in there or

@@ -455,7 +455,7 @@ cause of serious worry. Well, anyway, in
 the meantime, world leaders have been
 speaking to each other as they always
 do. President Trump and President
-Zilinski had a telephone
+Zelensky had a telephone
 conversation yesterday. This happened
 directly
 after the Ukrainian Parliament ratified
@@ -482,8 +482,8 @@ um news or released Donald Trump's own
 announcement that the Ukrainian
 parliament had ratified the mineral
 rights extraction
-deal. Trump and Zalinski spoke on the
-phone. Zalinski again apparently
+deal. Trump and Zelensky spoke on the
+phone. Zelensky again apparently
 insisted on the movement forward
 movement with the 30-day ceasefire that
 the Americans and the Ukrainians agreed
@@ -516,7 +516,7 @@ um while Russia is still open to a
 ceasefire, it has to be on the
 conditions that President Putin
 previously laid out.
-Zalinski has shown no interest in any of
+Zelensky has shown no interest in any of
 this and of course he's highly likely to
 agree to a freeze on arms supplies or
 the provision of intelligence during the
@@ -599,8 +599,8 @@ about respecting the sanctity of direct
 negotiations. He does appear to want
 negotiations, direct negotiations
 between Russia and Ukraine, something
-which Zalinski is still rejecting.
-Zalinski insists that he's not going to
+which Zelensky is still rejecting.
+Zelensky insists that he's not going to
 enter into negotiations with the
 Russians unless he gets his ceasefire.
 Not clear why, by the way. He's never
@@ -617,7 +617,7 @@ then of course once that point has been
 passed, we then move forward to the next
 point which is the final agreement. But
 usually we get negotiations before the
-ceasefire is announced. Zalinski says he
+ceasefire is announced. Zelensky says he
 won't accept that. He wants negotiations
 only after a ceasefire is in place. In
 reality, of course, as we all know, he
@@ -1456,10 +1456,10 @@ have happened after. There's also um now
 film of Russian troops in the village of
 Zero S, which is
 immediately on the southern outskirts of
-Pacross.
+Pokrovsk.
 Now
 this is very close to that section of
-Pacross where there were
+Pokrovsk where there were
 pictures of fighting involving Russian
 soldiers just a few days ago. Now
 there's been much speculation about
@@ -1467,16 +1467,16 @@ those pictures. Um, I've seen some
 people claim that there was no real
 fighting in southern Praovsk, that the
 Russians never broke into southern
-Pakovsk at all. That what we were seeing
+Pokrovsk at all. That what we were seeing
 with a small group of Russian soldiers
 who lost their way and stumbled into the
 city until the Ukrainians basically
 defeated and destroyed them. That's what
 some people say. Others are saying that
 it was just a reconnaissance group
-conducting a raid in Pacross and nothing
+conducting a raid in Pokrovsk and nothing
 more than that.
-Um the Russian newspaper Raovka however
+Um the Russian newspaper Readovka however
 spoke made
 comparisons between the way in which the
 Russians infiltrated
@@ -1492,14 +1492,14 @@ exactly what is going on in southern
 Prosk. There's been lots of film of
 heavy Russian shelling and bombing and
 missile attacks in the area of southern
-Pakovsk. And we now have further proof
+Pokrovsk. And we now have further proof
 that the Russians are probably in
 complete control of this small village
 of Zero, which is essentially an
 outlying suburb of
-Pacross. It could be that the Russians
+Pokrovsk. It could be that the Russians
 have in fact established a presence in
-southern Pacross. The pictures of the
+southern Pokrovsk. The pictures of the
 Russian troops in
 Seov may suggest it. Let me repeat
 again. I am not there. I don't know this

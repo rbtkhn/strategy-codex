@@ -40,9 +40,9 @@ Tell me what you think about the idea of Israeli settlements in Gaza. And lest y
 
 There will be Jewish settlement in Gaza. Without settlement, there is nothing. First of all, the territories of the land of Israel are ours. But without settlement, they have no foothold. So we have patience, but we also have determination and faith. And with God's help, we will continue the series of victories and the great miracles that have happened to us to overcome all kinds of campaigns with religious fanaticism driving governmental policy with a history of non-compliance with a president of the United States saying if Hamas doesn't disarm, we will disarm them with none of the principles present in Cairo and the so-called ceasefire Gaza deal was signed.
 
-Why would anybody expect it to succeed? I don't know. You and I certainly don't. I mean when you listen to Smootrich talk, I think what you're hearing is the mainstream view inside of Israel. Israelis across the board are interested in creating a greater Israel which means that Gaza will be part of Israel and the Palestinians will be driven out of Gaza and then the question is what happens after that and of course the answer is settlements go in.
+Why would anybody expect it to succeed? I don't know. You and I certainly don't. I mean when you listen to Smotrich talk, I think what you're hearing is the mainstream view inside of Israel. Israelis across the board are interested in creating a greater Israel which means that Gaza will be part of Israel and the Palestinians will be driven out of Gaza and then the question is what happens after that and of course the answer is settlements go in.
 
-So when you hear people like Smootrich talk, they reflect what is the consensus opinion in Israel. And if you believe that then how does a ceasefire hold up over time? Because this ceasefire is designed to prevent the Israelis from colonizing Gaza, you know.
+So when you hear people like Smotrich talk, they reflect what is the consensus opinion in Israel. And if you believe that then how does a ceasefire hold up over time? Because this ceasefire is designed to prevent the Israelis from colonizing Gaza, you know.
 
 Before we jump to Venezuela and then the conversation between President Trump and President Putin, I need to play this for you. Can the United States possibly disarm Hamas? Here's President Trump.
 

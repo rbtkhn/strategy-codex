@@ -275,7 +275,7 @@ who's looked at this for so long to see
 that happening.
 The Arab states are pulled away a little
 bit from their recent blooming rapper
-with Thrron, looking back towards what
+with Tehran, looking back towards what
 might happen if this truly is a peace
 agreement that will last.
 All of this is going to be interrupted
@@ -618,7 +618,7 @@ crowd with the Knesset with the Knesset
 members. Somehow it was amazing to me
 how he was humiliating himself and the
 United States
-just to you know just to help Netno's
+just to you know just to help Netanyahu's
 position in Israel. Here is what he said
 what he asked
 for
@@ -929,7 +929,7 @@ that's what became assassin in English.
 Well, that the Israelis are the asene of
 the modern age.
 >> Larry, I talked with today I talked with
-Mirandi about and I asked him how does
+Marandi about and I asked him how does
 Iran feel about Net's message
 to Iran because Net said to the Russian
 president that they're not going to
@@ -937,7 +937,7 @@ attack. they're not planning to attack
 Iran. And the Russian president came out
 and said, Net said this during the phone
 call I had with him. And the point that
-Mirandi
+Marandi
 brought up was amazing to me that
 publishing what has happened during the
 phone call on the part of the Russian

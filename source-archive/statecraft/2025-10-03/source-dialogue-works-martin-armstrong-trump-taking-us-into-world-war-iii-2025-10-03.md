@@ -149,7 +149,7 @@ Trump's with us."
 
 And he's not really, but um,
 
-you got Zilinski coming out, um, you
+you got Zelensky coming out, um, you
 
 know, against Hungary. Um, oh, they're
 
@@ -1133,7 +1133,7 @@ Um,
 
 and you know, look, I speak to people in
 
-France and they call uh Mcronone the
+France and they call uh Macron the
 
 petite Napoleon. Um,
 
@@ -1545,7 +1545,7 @@ what you know I've been told flat
 
 outright that there are some people like
 
-Mcronone they think if they get a hold
+Macron they think if they get a hold
 
 of the 75 trillion that's twice the size
 
@@ -1691,7 +1691,7 @@ Not going to happen. Um,
 
 and they will do whatever they have to
 
-to retain power, just like Zalinski in
+to retain power, just like Zelensky in
 
 in Ukraine. Um, suspended all elections
 
@@ -1807,7 +1807,7 @@ learned that NBC reported that Trump has
 
 told agencies to share intelligence with
 
-the Zalinski administration to help
+the Zelensky administration to help
 
 guide long range missiles and drones and
 

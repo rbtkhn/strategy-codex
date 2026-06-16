@@ -250,7 +250,7 @@ to
 succeed. They were urged to make that
 step by the Europeans and they took that
 step. They withdrew their troops from
-Kief and about two weeks later, as they
+Kiev and about two weeks later, as they
 said they would do, they sent their
 written proposals to the
 Ukrainians as to how to move forward
@@ -278,7 +278,7 @@ for the Ukrainians to respond to it.
 except of course that the Ukrainians
 didn't respond to it. Eventually in
 October
-2022, Zalinski issued his decree
+2022, Zelensky issued his decree
 prohibiting Ukraine from engaging the
 Russians in any sort of negotiation at
 all. From that moment going forward, the
@@ -303,7 +303,7 @@ which led to the fall in the following
 months of Kurakovo,
 Celidovo, Uglad and brought the
 Russians to the outskirts of
-Pacross. Anyway, in June
+Pokrovsk. Anyway, in June
 2024,
 Putin revisited the topic of the
 negotiations that took place in 2022 in
@@ -412,7 +412,7 @@ be a sign of a serious negotiation. It
 would be a sign that this had become
 basically a theatrical performance, a
 summit meeting between Putin and
-Zalinski for which no ground, nothing
+Zelensky for which no ground, nothing
 had been pre-prepared. It's impossible
 to see what would have resulted out from
 such a
@@ -820,7 +820,7 @@ negotiations. What about the other side?
 Well, I'm going to say it as of the
 moment of making of this program. I am
 not at all clear what exactly the other
-side is doing. Zalinski when Putin first
+side is doing. Zelensky when Putin first
 proposed the negotiations in on Saturday
 appeared to say no. Then when it became
 clear that Trump wanted the negotiations
@@ -829,7 +829,7 @@ would go and would negotiate provided
 the Russians agreed to a ceasefire
 first." The Russians have not agreed to
 a ceasefire. The Europeans apparently
-worked on Zalinski and told him that he
+worked on Zelensky and told him that he
 had to go because if he didn't go or if
 he didn't send someone, he
 would bring down upon himself the wroth
@@ -838,7 +838,7 @@ their wonderful plan to impose more bone
 crunching sanctions against Russia and
 to box Donald Trump into supporting in
 Ukraine. So after a lot of dithering and
-hesitation, put uh um u um Zalinski said
+hesitation, put uh um u um Zelensky said
 that he would go, but then he said that
 he would go, but he would really only
 decide whether to go depending on
@@ -867,7 +867,7 @@ not. Um and indeed um the reports say
 that though the Russians have arrived
 arrived some hours ago in Istanbul and
 they're waiting for the Ukrainians to
-turn up. Um Zalinski has flown to
+turn up. Um Zelensky has flown to
 Anchora not to Istanbul at all and he's
 there and he's going to have this
 meeting with Erdogan. why you couldn't
@@ -914,7 +914,7 @@ official that the polit bureau, the
 North Vietnamese polit bureau assigned
 to cover the talks. It was Leukto and
 that was how the negotiations were
-conducted then. But no, Zalinski
+conducted then. But no, Zelensky
 obviously works by his own rules. He's
 brought his cabinet or much of his
 cabinet with him to
@@ -922,7 +922,7 @@ Anchora and as of this time it's still
 completely unclear to me whether these
 people are going to stumble to meet with
 the Russians.
-Um, Zalinsk's aid and Mikail Podoliaak
+Um, Zelensky's aid and Mikail Podoliaak
 yesterday was sort of suggesting that
 they would not, but today it seems as if
 they might. I have to say I think it
@@ -938,7 +938,7 @@ Istanbul, but it's not clear at the
 moment, at least to me, whether they're
 going to actually meet and discuss and
 meet with the Russians. That's the first
-thing. The second thing is that Zalinski
+thing. The second thing is that Zelensky
 is again saying that yes um maybe
 possibly some kind of discussions with
 the Russians might take place, but the
@@ -959,7 +959,7 @@ times for an unconditional 30-day
 ceasefire. Well, given that this has
 already been communicated to the
 Russians many times, why does it need
-Zilinski and his people to come to
+Zelensky and his people to come to
 Turkey to convey it again? Again, it all
 seems to me very strange, incredibly
 confusing. But it's not just the
@@ -1054,14 +1054,14 @@ the Ukrainians like the South Vietnamese
 basically pushed to one side. Something
 which I would have thought the
 Ukrainians would not want. But
-anyway, Zalinski refuses to cancel his
+anyway, Zelensky refuses to cancel his
 October 2022 decree unless he's simply
 going to disregard it. Now, it's
 difficult to see how the Ukrainians can
 meet with the Russians. given that
-Zalinski who says that he himself is
+Zelensky who says that he himself is
 exempt from this
-decree. Um given that Zilinski himself
+decree. Um given that Zelensky himself
 apparently does not intend to be with
 the Russians in Istanbul. I say
 apparently because from one moment to
@@ -1075,7 +1075,7 @@ start at
 10 p.m. at 10 10:00 a.m. local time.
 They were then put back until 2:00 p.m.
 local time as everybody waits to see
-what Zilinski is going to do. By the
+what Zelensky is going to do. By the
 time this video goes up, you will
 probably know a lot of the answers to
 these questions. Whether the Ukrainians
@@ -1118,7 +1118,7 @@ different. Anyway, the careful
 systematic thorough preparation by the
 Russians and this bizarre
 cacophony
-of Zilinski is coming, he's not coming,
+of Zelensky is coming, he's not coming,
 Putin is a coward for not coming. Um,
 we're only going to discuss ceasefires.
 We're not going to discuss anything
@@ -1234,7 +1234,7 @@ better what the other side is doing and
 who the other side that they're actually
 going to be negotiating with is. I mean
 will it be Yermach for example or will
-it be Omarov? Will it be Zilinski
+it be Omarov? Will it be Zelensky
 himself or will it be Kellogg or will it
 be Wickgov? I mean all of all of these
 are important factors for anybody in
@@ -1516,7 +1516,7 @@ Russians in Putin's proposal for direct
 negotiations with Ukraine. The Chinese
 are very keen to see these negotiations
 underway.
-Then of course, Zalinski comes along and
+Then of course, Zelensky comes along and
 demands that the negotiations be
 replaced in effect by a personal summit
 meeting between himself and Putin. So

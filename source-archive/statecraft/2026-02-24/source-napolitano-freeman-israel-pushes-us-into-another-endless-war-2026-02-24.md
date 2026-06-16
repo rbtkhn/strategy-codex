@@ -23,7 +23,7 @@ Today is Tuesday, February 24th, 2026. Ambassador Chaz Freeman joins us now. Amb
 
 How reckless was it for Ukraine to use British hardware and US intelligence to strike a Russian [clears throat] munitions plant 800 miles uh into Russia deep in the Euro Mountains? Well, it just invites counter escalation from Russia. That's been the pattern. Um um Ukraine of course is at war with Russia and is entitled to strike anywhere it pleases in Russia.
 
-Um but um this doesn't help it on the battlefield um in Ukraine, which is what is deciding the outcome of this war and the future of the Zalinski administration as well as the peace in or war in Europe. Um so um this is an act that uh boosts Ukrainian morale. um uh um certainly has some effect on [clears throat] Russian capabilities.
+Um but um this doesn't help it on the battlefield um in Ukraine, which is what is deciding the outcome of this war and the future of the Zelensky administration as well as the peace in or war in Europe. Um so um this is an act that uh boosts Ukrainian morale. um uh um certainly has some effect on [clears throat] Russian capabilities.
 
 Um pleases uh the hawks in Western Europe uh who want you to keep fighting to the last Ukrainian, but it doesn't liberate Ukrainian territory. It doesn't defend UK Ukrainian territory against further Russian inroads. So it's strategically strategically irrelevant essentially. Does it uh invite the consideration for Kremlin retaliation on Great Britain? Does it further damage the Kremlin's view of the United States? I mean, here we are supposedly negotiating uh with Russia.
 

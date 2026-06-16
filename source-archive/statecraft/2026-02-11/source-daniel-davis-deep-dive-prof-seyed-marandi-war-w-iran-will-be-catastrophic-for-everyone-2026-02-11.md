@@ -38,7 +38,7 @@ whether there's negotiations or whether
 there's conflict, we need to understand
 the Iranian side. And we are privileged
 today to have with us Professor Muhammad
-Morandi, professor at Thran University
+Marandi, professor at Tehran University
 and a former adviser to Iran's nuclear
 negotiating team. So somebody with a lot
 of firsthand experience about what's
@@ -685,7 +685,7 @@ And one interesting thing is that the
 speech that you just showed of President
 Pezeshkian
 was this as you rightly pointed out was
-this morning. It was in Thran during the
+this morning. It was in Tehran during the
 40 the commemoration of the revolution.
 Today is the 47th anniversary of the
 revolution. There were four million
@@ -1102,7 +1102,7 @@ ago, I think, and he he said that in the
 past uh whether it was the assassination
 of General Solomon or or uh the the
 destruction of the Iranian embassy in
-Syria or the attacks into uh Thran
+Syria or the attacks into uh Tehran
 during the inauguration, etc. All of
 these things were had limited
 retaliation, limited reaction because

@@ -40,13 +40,13 @@ And let me start.
 >> Even though even though we are very
 late, please press the like button.
 >> Yeah. [laughter]
-Okay. You can like Professor Morandi and
+Okay. You can like Professor Marandi and
 Professor Aquarid. Don't like me. Okay.
 Like them. They're the good guys.
 >> No, no. You like all of us or you don't
 like anyone?
 >> Yeah. [laughter]
->> Let me start, Professor Mirandi, with
+>> Let me start, Professor Marandi, with
 you and with what's going on in terms of
 the foreign policy of Iran. We know that
 the foreign minister of Iran Abbas Araghchi called Turkey, Egypt and the I
@@ -118,7 +118,7 @@ because Iran will survive this war. Iran
 will you know even if it's hurt it will
 survive but many of these regimes will
 probably not survive.
->> Larry actually what professor Mandi just
+>> Larry actually what professor Marandi just
 said about what would be the outcome of
 an American attack on Iran and Israeli
 attack on Iran. Do they want to bring
@@ -176,7 +176,7 @@ destined for Israel arriving in their
 ports and we couldn't do it. So, you
 know, this is what we're engaged with
 right now is just sheer madness.
->> I think I think Professor Morandi, it's
+>> I think I think Professor Marandi, it's
 it's important to mention
 the assessment on the part of the
 Iranian military because we know the
@@ -406,7 +406,7 @@ anything that can stop us. And
 you know, I I think they're going to be
 sadly mistaken
 because uh you know, as Professor
-Morandi was correctly observing,
+Marandi was correctly observing,
 Iran's not been sitting back on its
 hands saying, "Oh, you know, is this a
 great day? Let's uh let's let's have
@@ -434,7 +434,7 @@ you know if we're going to go with the
 definition of terrorism of of acts of
 violence killing civilians that's the
 United States not Iran.
->> Yeah. Professor Mandi we know that
+>> Yeah. Professor Marandi we know that
 Benjamin Netanyahu is going to meet with
 Donald Trump. I would assume that he's
 going to do everything. He's going to
@@ -564,7 +564,7 @@ Stephen was the under secretary of
 defense under Ronald Reagan and he's
 he's a Zionist. I mean he's a
 self-admitted Zionist but he's not a
-he's not a crazy like Ben Gavir or
+he's not a crazy like Ben-Gvir or
 Smutridge
 but boy he he he went he went crazy the
 other day. He wrote a piece on Substack
@@ -642,7 +642,7 @@ think I think the United States is going
 to uh create uh you know it's like an
 act of suicide almost.
 [cough and clears throat]
-I think professor Mirandi my
+I think professor Marandi my
 understanding of what is what I'm
 hearing from Iranian officials that it
 doesn't matter if the United States or
@@ -835,7 +835,7 @@ this conflict that we see. It's about we
 cannot abide by having countries that
 have a moral code and we got to destroy
 them if we can.
-I think professor Mandi my question to
+I think professor Marandi my question to
 you would be
 the case of Palestine and how important
 is that for Iran and the policies the
@@ -947,7 +947,7 @@ countries like Iran, Russia and China
 are on the rise. So a military I don't
 believe that if the United States
 invaded Iran after taking Iraq back then
-some were saying real men go to Thran. I
+some were saying real men go to Tehran. I
 don't believe the United States would
 have won then. I think it would have
 been a a catastrophic failure. But I
@@ -1106,7 +1106,7 @@ unfortunately in America the the people
 embrace it and they celebrate it. Uh
 they think we're we're doing what we're
 doing is right.
-Professor Mandi, it seems that Ali Lori
+Professor Marandi, it seems that Ali Lori
 Jani has met with the [clears throat]
 Houthis as well, the head of Ansora
 movement as well. How would you bring
@@ -1363,7 +1363,7 @@ indirectly making the case that Iran
 must have a nuclear weapon in order to
 be left alone.
 I I think you know the t what uh what
-professor Morandi was talking about in
+professor Marandi was talking about in
 terms of uh possible outcomes.
 So I I think there's an assumption in
 the west that whatever if we attack this
@@ -1470,7 +1470,7 @@ that it may be necessary for Iran to
 attack Armenia and Azerbaijan
 because they will be used as launch pads
 for uh US uh military operations.
->> Professor Mandi, we know that some of
+>> Professor Marandi, we know that some of
 those missiles that [clears throat] the
 United States used against Iran, you
 know, in the at the end of the 12-day
@@ -1537,7 +1537,7 @@ exaggerated. Well, tomorrow is the
 anniversary of the revolution and I
 advise everyone to watch the rallies
 tomorrow across Iran, including in
-Thran, and to see where public opinion
+Tehran, and to see where public opinion
 stands. They will be rolling coverage.
 Journalists will be there and uh Musk
 and X will not be able to pretend that
@@ -1604,7 +1604,7 @@ the global economy, and make sure that
 the United States is forced to back off.
 >> Yeah. [clears throat]
 >> Thank you so much, Larry and Professor
-Mirandi, for being Larry. Do you want
+Marandi, for being Larry. Do you want
 something to add?
 >> I have something. No, I I let Let me add
 this. It touches on the whole economic

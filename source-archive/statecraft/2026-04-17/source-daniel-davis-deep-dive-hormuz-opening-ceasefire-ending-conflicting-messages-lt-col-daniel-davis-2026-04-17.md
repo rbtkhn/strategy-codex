@@ -789,7 +789,7 @@ on we're going to stick with the the
 show here a little bit. There's a couple
 of other things I want to uh get to. Uh
 Gary, if you could also send a note to
-Professor Morandi uh and let him know
+Professor Marandi uh and let him know
 that uh the time with Larry has left,
 but if he still is able to in the last
 few minutes, it would be great to get

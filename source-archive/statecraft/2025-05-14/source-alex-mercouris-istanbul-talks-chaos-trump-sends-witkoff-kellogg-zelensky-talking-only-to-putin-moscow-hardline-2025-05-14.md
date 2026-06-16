@@ -40,7 +40,7 @@ expectations as to the topics that will
 be discussed in
 Istanbul. But even that as of the
 present moment in time is completely
-unclear. Zalinski of course says that he
+unclear. Zelensky of course says that he
 will go, but he's also made it clear
 that if he does go, he will only speak
 to the Russians if Vladimir Putin
@@ -49,12 +49,12 @@ unclear at the moment whether anyone
 else from Ukraine will be accompanying
 him to Istanbul. Um, assuming that he
 does in fact go there tomorrow. Now,
-Zalinski has made further comments. He
+Zelensky has made further comments. He
 said that in accordance with his October
 2022 decree. Um, he and he alone is in a
 position legally to speak to Putin. No
 one else can do so. No one else apart
-from Zalinski himself from the Ukrainian
+from Zelensky himself from the Ukrainian
 side is able to speak to the Russians.
 And of course, as we see, he says that
 he will only speak to the Russians if it
@@ -67,9 +67,9 @@ of this decree. But my own very clear
 understanding of what looks like the
 very clear language of the decree is
 that it prohibits any Ukrainian
-official, including Zalinski himself
+official, including Zelensky himself
 from talking to any Russian official at
-all. So when Zalinski says that he can
+all. So when Zelensky says that he can
 speak to the Russians but no one else
 can, I think he is actually wrong about
 the meaning of his own decree. However,
@@ -82,11 +82,11 @@ Istanbul, if they send a delegation
 there and the delegation meets with the
 Russians, well, no doubt they can find a
 form of words to justify how it is
-compatible with the decree that Zalinski
+compatible with the decree that Zelensky
 made back in October 2022.
 However, having said all of that, I ask
 inevitably the obvious question, which
-is why if Zilinski is prepared to engage
+is why if Zelensky is prepared to engage
 the Russians in direct talks, he is not
 prepared to resend the decree. I believe
 that he has the
@@ -104,13 +104,13 @@ community as Ukraine's president and I
 don't think it is for outsiders to
 discuss and comment on this. Anyway,
 going back to the degree decree, if you
-assume, as Zalinski does, the
+assume, as Zelensky does, the
 international community, except perhaps
 Putin does, and the Ukrainian parliament
 and the Ukrainian political class all do
-that Zalinski is president. And as far
+that Zelensky is president. And as far
 as I can see, this decree is one that
-Zalinski
+Zelensky
 himself can resend with a stroke of the
 pen. As far as I can tell, it was a
 decree that he enacted and it is a
@@ -121,7 +121,7 @@ he makes no step towards cancelling the
 decree. Let us say for example that the
 decree was enacted by the Ukrainian
 Parliament. The Ukrainian Parliament
-basically does exactly what Zalinski
+basically does exactly what Zelensky
 asks it to do. There are dissenters
 within the Ukrainian Parliament, but his
 party has an overwhelming majority
@@ -136,7 +136,7 @@ doing so and in that event no doubt they
 would do it. Now I say that because of
 course if he cancels the decree the
 uncertainty or the ambiguity uh goes
-away uh Zalinski doesn't have to go to
+away uh Zelensky doesn't have to go to
 Istanbul himself. He can do things in a
 much more normal way than he has done up
 to now. He can simply appoint a
@@ -166,20 +166,20 @@ intention to go to Istanbul or rather
 his announcement that he is going to
 Istanbul is simply theater intended to
 impress first and foremost Donald Trump.
-Anyway, that's Zinski. Zalinski talks
+Anyway, that's Zinski. Zelensky talks
 about him going to Istanbul, but he
 won't talk to the Russians. he will only
 talk to Putin and if he doesn't go to
 Istanbul presumably there's no point in
 the Ukrainians sending a delegation to
-Istanbul because according to Zilinski
+Istanbul because according to Zelensky
 if they do they're not able to speak to
 the Russians because well they're
 prevented to do from doing so by his own
 decree the one he refuses to cancel or
 won't cancel or won't ask the parliament
 to cancel. Well, describe it whichever
-whichever way you will. Anyway, Zilinski
+whichever way you will. Anyway, Zelensky
 won't go to um well may or may not go to
 Istanbul. What about the Americans?
 Donald Trump has floated the possibility
@@ -232,7 +232,7 @@ for this summit meeting with Putin. It
 is Putin who has been somewhat uneasy
 about having this summit meeting. So
 putting aside the
-possibility of uh Zalinski and Putin
+possibility of uh Zelensky and Putin
 having a summit meeting and Donald Trump
 coming and participating in that summit
 meeting, I suspect that one of the
@@ -348,7 +348,7 @@ also apparently going to be sent to
 Istanbul. I haven't seen this
 conclusively confirmed, but it seems as
 if it may be true. So, well, um,
-Zalinski may go, or perhaps he won't. If
+Zelensky may go, or perhaps he won't. If
 he does go, it'll only be if Putin
 comes. If he doesn't go, well, there's
 no point in sending other Ukrainians to
@@ -385,7 +385,7 @@ unexpected, which was decide to go to
 Istanbul, well, the Russians would adv
 announce the fact in advance perhaps in
 order to in ensure that both Trump and
-Zilinski were going. And the fact that
+Zelensky were going. And the fact that
 they've not announced it reinforces my
 belief that Putin is not going. Having
 said that, this is a situation as I said
@@ -1122,7 +1122,7 @@ Russians and to impose sanctions on the
 Russian Russians when the Russians
 essentially say no that that is the
 European objective. It's the Ukrainian
-objective as well. Zalinski incidentally
+objective as well. Zelensky incidentally
 gave a press conference to uh various
 selected members of the Western media
 yesterday including a journalist from
@@ -1249,14 +1249,14 @@ completely under Russian
 control. I believe that this is now
 confirmed. There were reports
 yesterday, reports that go beyond that
-one article that I saw in Raovka. There
+one article that I saw in Readovka. There
 were various commentaries, all of which
 said that the Russians are now in full
-control of the central area of Chasy.
+control of the central area of Chasiv Yar.
 Ukrainians still control some outlying
 positions in some of the micro districts
 of
-Chasfy, but the main defense position
+Chasiv Yar, but the main defense position
 that the Ukrainians had still had left
 in Chassy has now fallen. And that means
 that the Russians control well one
@@ -1315,7 +1315,7 @@ dramatically,
 um, after the Russian confirmation that
 they'd captured the village of
 Mirubka, west of Mirror and sorry, east
-of Mirrad and Pakovsk. There were more
+of Myrnohrad and Pokrovsk. There were more
 reports later in the evening yesterday
 that the Russians have also captured the
 village of Malinifka north of
@@ -1333,7 +1333,7 @@ leading to Pakov from the west. But if
 the Russians are able to capture Novo
 Economic and possibly some villages to
 the north of it, then it seems to me
-that Pacross is in what the Russians
+that Pokrovsk is in what the Russians
 like to call operational encirclement.
 Yes, it will still be possible for some
 Ukrainian men and vehicles to move up
@@ -1342,14 +1342,14 @@ down roads to leading into Pacros from
 the north.
 It will not be a tight circle
 established around
-Pakovsk, but
+Pokrovsk, but
 effectively maintaining supplies to the
-garrison in Pakovsk will become all but
+garrison in Pokrovsk will become all but
 impossible and we would be justified at
 that point in talking or so it seems to
 me about the beginning of the end of the
 battle for
-Pakovsk. So all of these things are
+Pokrovsk. So all of these things are
 taking
 place
 simultaneously along all the battle

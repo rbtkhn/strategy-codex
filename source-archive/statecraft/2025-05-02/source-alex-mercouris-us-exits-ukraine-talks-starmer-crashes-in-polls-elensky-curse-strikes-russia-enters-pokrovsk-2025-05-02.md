@@ -142,14 +142,14 @@ collapse of Karma's popularity or the
 popularity of his government with his
 obsessive focus as I've discussed in
 previous programs with Ukraine, with its
-leader Vladimir Zalinski, with support
+leader Vladimir Zelensky, with support
 for Ukraine. It seems to me, and I've
 said this in several programs now, that
 Kharma, at least for the time being, is
 much more interested or has been much
 more interested in keeping the war in
 Ukraine going and in supporting
-President Zilinski and Ukraine than he
+President Zelensky and Ukraine than he
 has been in governing Britain itself.
 So, the result is the problems are
 piling up. People across Britain are
@@ -183,9 +183,9 @@ supposed to be devoting as much time to
 foreign policy as to do domestic policy.
 over the last couple of weeks as well
 we've seen peace plan and counterpieace
-plan and visits by Zalinski to
+plan and visits by Zelensky to
 Washington and meetings between Trump
-and Zalinski in Rome and Witkoff's visits
+and Zelensky in Rome and Witkoff's visits
 to Moscow and all of that. It seems to
 me that the prime minister Karma's major
 focus has been overwhelmingly on Ukraine
@@ -210,7 +210,7 @@ he's absolutely right to mention the
 disastrous
 political consequences for every western
 leader who has got too close to the
-person of Vladimir Zalinski. I mean,
+person of Vladimir Zelensky. I mean,
 look how many of them have failed or go
 or gone down in smoke. I mean, Joe
 Biden, Olaf Schultz,
@@ -225,11 +225,11 @@ Alinski curse, and that of course is
 Karma. Far from being careful to keep
 his distance, he has gone out of his way
 to embrace it, as he showed when he
-hugged Zalinski outside Downing Street.
+hugged Zelensky outside Downing Street.
 Well, I'm not a superstitious man. I
 don't assume that that is cause and
 result. I don't suggest that hugging
-Zilinski was what brought about the
+Zelensky was what brought about the
 electoral debacle right across the UK
 that we see today. And I should say that
 despite Runorn being a seat which
@@ -245,14 +245,14 @@ he had done the size of the reform
 victory might have been much greater.
 Just saying. But anyway, if the
 consequences there's no cause or
-consequence for that hugging of Zilinski
+consequence for that hugging of Zelensky
 outside Downing Street in terms of these
 results. Well, maybe there isn't. But
 all I could say
 is maybe, just
 maybe,
 Kristarmama might be well advised to hug
-Zalinski a little less from this point
+Zelensky a little less from this point
 on. Now, in saying all of this, I'm
 going to quickly add a personal note. As
 many of you will have gathered, I am no
@@ -270,7 +270,7 @@ anyway, there it is. You can take it as
 you wish. The fact is Labour is going
 down in flames. Kestarma seems to be
 going down with it and it was he and no
-one else who chose to hug Zilinski
+one else who chose to hug Zelensky
 outside Downing Street. Maybe it is the
 Elinski curse. Maybe it is not. Whatever
 it is, it suggests incredibly poor
@@ -291,7 +291,7 @@ it's become clear that neither Russia
 nor Ukraine are prepared to accept the
 Kellogg plan, even the modified version
 of the Kellogg plan that was presented
-to Zalinski and the Europeans at
+to Zelensky and the Europeans at
 meetings in Paris and London last week.
 And the Russians were not prepared to
 accept the Kellogg plan when Wigg
@@ -817,7 +817,7 @@ kilometer or half a kilometer of
 advances right across the front lines
 and every part of the front lines north
 of Bagotier and all the way up to
-Pakarovsk towards the west towards
+Pokrovsk towards the west towards
 places like Novel Pavlka
 um fortified big fortified village in
 Nepro region which The Russians are now
@@ -827,7 +827,7 @@ order to capture this village. And it
 looks like they're preparing
 to take steps to cut off, as I've
 discussed in several places, the supply
-lines to Pakovsk from the west. They
+lines to Pokrovsk from the west. They
 already control one of the roads leading
 to Pakrs from the west. There is a
 northern road. Um they're not far from
@@ -836,10 +836,10 @@ now well to the west of Pakr and it
 looks as if they're in a strong position
 to veer northwards um to once they've
 broken Ukrainian supplies and to cut off
-Pacross from the north. And there have
+Pokrovsk from the north. And there have
 been lots of reports that they have now
 accelerated their advances northeast of
-Pakarovsk. There are reports that
+Pokrovsk. There are reports that
 they've now entered a village to the
 northeast of Pakarov called
 Malinifka. Um and uh apparently fighting
@@ -848,11 +848,11 @@ particular village and um they continue
 to move gradually towards the village of
 Novo Economic big village apparently
 sprawling village I've seen it described
-which is just to the east of Pacross
-just north of the road from Pacross to
+which is just to the east of Pokrovsk
+just north of the road from Pokrovsk to
 Constantina.
 If this village is captured, then not
-only are supplies from Pacross to
+only are supplies from Pokrovsk to
 Constantin conclusively and finally cut,
 but the Russians would be in a very
 strong position at that point to cut off
@@ -882,8 +882,8 @@ north from this village and they seem to
 have broken into Pakrosk and there were
 reports or there are reports that they
 control that they seized some buildings
-inside Pakovsk on the southern outskirts
-on the southern suburbs of Pakovsk and I
+inside Pokrovsk on the southern outskirts
+on the southern suburbs of Pokrovsk and I
 don't know whether they're still in
 those
 buildings but anyway even if they've
@@ -893,7 +893,7 @@ um all of this as Russian units seem to
 be
 moving to consolidate control of certain
 other small communities immediately
-south of Pakarovsk and of the main
+south of Pokrovsk and of the main
 Russian defense lines um the main
 Russian lines around the village of
 Shvchenko and Pisha and those sort of
@@ -927,7 +927,7 @@ So maybe this is the start of the battle
 of Pagrosk. If it is, well, we will no
 doubt find out in a few hours. I would
 quickly say that if the battle of
-Bakarovsk has indeed
+Pokrovsk has indeed
 begun, then it is not going to last
 anything like as long as the battle of
 Toretsk or of Bakmut or of or any of
@@ -942,7 +942,7 @@ communities which the
 Ukrainians were in control of and which
 they could use to support their forces
 in any one. Whereas if you look at a map
-of Pakrosk, Pakovsk looks much more
+of Pakrosk, Pokrovsk looks much more
 isolated. And if its supply lines are
 cut, it's difficult to see how the
 Ukrainians inside Bakovs can hold the
@@ -990,7 +990,7 @@ October uh
 ADVKA. Then after Abd Kafel, the main
 focus of the Russian pressure was in
 southwestern
-Donbass towards Pakovsk and Ugladar and
+Donbass towards Pokrovsk and Ugladar and
 all of those places. And um of course in
 May they did start a secondary offensive
 towards Toretsk. Today, what we are
@@ -1009,8 +1009,8 @@ length. But anyway, suffice to say that
 the Russians are making advances.
 Perhaps their most interesting
 advances, apart from the ones around
-Pakovsk at the moment, continue to be
-the ones around Constantinfka, which
+Pokrovsk at the moment, continue to be
+the ones around Konstantinovka, which
 they seem to be attacking from multiple
 directions. And
 um but from the south um there was
@@ -1024,7 +1024,7 @@ Ukrainian troops who were supposed to be
 defending that village uh fled before
 the battle was fully joined. Anyway, um
 so lots of fighting going on around um
-Constantinfka, continued fighting around
+Konstantinovka, continued fighting around
 Joseph. As I said, the Russians telling
 us that they've mostly cleared that
 they've almost entirely cleared the
@@ -1032,7 +1032,7 @@ central area. There is still a fortified
 position. The Ukrainians still retain
 that needs to be captured, but the
 Russians now also making advances north
-of Chasy as well.
+of Chasiv Yar as well.
 not easy for me to understand what the
 purpose of those that advance is, but it
 does seem to be creating another front

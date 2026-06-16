@@ -1601,7 +1601,7 @@ agreed unquote that it wasn't. So, you
 
 know, I I think I heard them actually
 
-say that a meeting with Zalinsky. Who
+say that a meeting with Zelensky. Who
 
 said I'd do that? So, we've got to see
 
@@ -2011,7 +2011,7 @@ with that incredibly stupid democratic
 
 structure they have for conducting
 
-elections. Um Mcronone is a dead man
+elections. Um Macron is a dead man
 
 walking. Starmer's a dead man walking. I
 

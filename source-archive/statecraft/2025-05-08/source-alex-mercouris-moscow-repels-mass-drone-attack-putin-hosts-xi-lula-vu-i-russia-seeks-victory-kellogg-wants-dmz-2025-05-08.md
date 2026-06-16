@@ -414,7 +414,7 @@ appropriate and intelligent response to
 the situation the current situation and
 one which all of these important foreign
 v visitors will have
-appreciated. Now Zalinsk's reaction has
+appreciated. Now Zelensky's reaction has
 been completely different. He has
 publicly rejected the ceasefire. He's um
 complained angrily that Ukraine doesn't
@@ -427,7 +427,7 @@ Putin um won't do that. It's almost
 insulting that President Putin should
 announce such a ceasefire at all. At
 least that seems to be the tone of what
-President Zalinski has been saying. So
+President Zelensky has been saying. So
 he has in public at least rejected the
 ceasefire and his words have been backed
 by deeds because one of the most
@@ -447,8 +447,8 @@ yesterday I was reading and hearing
 reports about Ukrainian drones um flying
 towards Moscow being shot down by the
 Russian air defenses. Now I have to say
-this. This has on Zalinsk's side and not
-just of course Zalinski because the
+this. This has on Zelensky's side and not
+just of course Zelensky because the
 entire Ukrainian political and military
 leadership um is as one with him on this
 a fundamentally
@@ -477,7 +477,7 @@ seems to me to be
 misconceived to the point of well
 irrationality. Um, what
 exactly does
-Zalinski and his officials, what do they
+Zelensky and his officials, what do they
 think
 precisely that they are doing? Are they
 intending to show to all of these
@@ -529,7 +529,7 @@ just 100% against them, but practically
 as an enemy. And obviously that is not a
 wise thing to do. Now, in the case of
 China, it gets even worse because for
-several weeks now, President Zalinski
+several weeks now, President Zelensky
 and his officials have been cranking up
 the rhetoric against China, criticizing
 China, making claims the Chinese troops
@@ -747,7 +747,7 @@ following. But the Ukrainian government
 behaves constantly in its own way. It
 has been continuously fed with flattery
 by its European allies. Especially his
-leader, President Zalinski, has been
+leader, President Zelensky, has been
 lionized wherever he goes in Europe. He
 is hailed everywhere as a heroic figure
 and a colossal statesman, even though he
@@ -935,7 +935,7 @@ that's what I've heard. But anyway, the
 rumors that the Arnik could be
 used are indeed out there and floating
 around. So, it's not just drone strikes
-against Moscow that Zalinski and the
+against Moscow that Zelensky and the
 Ukrainians have been conducting. They
 have also been making continuous
 attempts to break into Ksk region
@@ -1051,7 +1051,7 @@ irrationally, allowing public relations
 to dictate their military
 strategies. Anyway, whatever. Just as
 with these drone attacks on
-Moscow, Zalinski and Sirki and all of
+Moscow, Zelensky and Sirki and all of
 them have doubled and tripled and
 quadrupled down on these attacks on
 Totino. Now, as of the time of making of
@@ -1093,7 +1093,7 @@ understand the kind of obsession, the
 kind of anger that I'm talking about and
 the way it can result in action of this
 kind. Well, anyway, while all of this is
-going on, while Zalinski continues these
+going on, while Zelensky continues these
 attacks on
 Moscow and these attempts on the Kos
 border, we now supposedly have a
@@ -1185,7 +1185,7 @@ control Toretsk. They have been making
 significant breakthroughs to the west of
 Toretsk which have brought
 them close to the outskirts of uh
-Constantinfka
+Konstantinovka
 itself. They captured over the last
 couple of days a strategic village
 called Nova Elanovka.
@@ -1196,7 +1196,7 @@ battle which is
 Jasf because about a week ago we were
 getting reports that um the Ukrainians
 were facing a critical situation in the
-central area of Chasy. they were only
+central area of Chasiv Yar. they were only
 clinging on uh there and it looked as if
 the Russians were about to clear the
 central area of Chassya. And then as I
@@ -1220,7 +1220,7 @@ commentators do seem to think it is very
 important indeed. And I'm not sure how
 this relates to any Ukrainian positions
 that continue to hold out in the central
-part of Chasy, but I've seen it
+part of Chasiv Yar, but I've seen it
 suggested that this capture of this
 territory to the north does somehow
 impact on Ukrainian positions in central
@@ -1232,7 +1232,7 @@ other, it does look as if the Russians
 have consolidated their control in this
 area very significantly, and it looks as
 if they're preparing um to finish the
-battle of Chasy. Maybe the central area
+battle of Chasiv Yar. Maybe the central area
 has already been captured and that it's
 precisely because the Russians control
 the central part of Chassy that they're
@@ -1249,23 +1249,23 @@ arguing, by the way, that that is the
 case. But anyway, one way or the other,
 it looks as if the Russians are rapidly
 gaining control of all the high ground
-around Constantinoka itself. And again,
+around Konstantinovka itself. And again,
 I suspect after the victory day
 celebrations in the second half of May,
 we will start to see concerted attempts
 to try to press home the advantage the
 Russians have achieved here and to begin
-the assault on Constantinfka itself. So
+the assault on Konstantinovka itself. So
 um we can see how events are moving in
 this direction as well. And then there
 is very heavy fighting going on around
-Pacross. The Russians have consolidated
+Pokrovsk. The Russians have consolidated
 their positions to the south and
 southwest of Pakosk. There's uncertainty
 whether they hold ground inside
-Bakarovsk or not. There were reports
+Pokrovsk or not. There were reports
 some days ago that a UK uh Russian group
-had broken into southern Pakarovsk and
+had broken into southern Pokrovsk and
 there were videos to this effect. Then
 it was claimed by the Ukrainians that
 they'd been these troops had been pushed
@@ -1277,11 +1277,11 @@ I'm not able to uh I'm I'm not on the
 ground so I cannot say. But regardless,
 uh there are very heavy Russian missile
 and artillery strikes on Ukrainian
-positions in southern Pakovsk now. And
+positions in southern Pokrovsk now. And
 it is difficult to see these as anything
 other than preparations for some kind of
 assault which is to come. And it may be,
-as Raovka was saying a couple of days
+as Readovka was saying a couple of days
 ago, that the Russians have infiltrated
 their forces into southern Bakovsk and
 this artillery and missile barrage is
@@ -1289,8 +1289,8 @@ intended to support their forces. Or it
 could be more complicated than that. I'm
 not sure. But regardless, the Russians
 continue to advance significantly to the
-southwest of Pakarovsk and also to the
-northeast of Pakarovsk. And there are
+southwest of Pokrovsk and also to the
+northeast of Pokrovsk. And there are
 reports that over the last couple of
 days the Russians have made a
 significant advance towards the village,
@@ -1305,7 +1305,7 @@ capture this village and with reports
 that the Russians are advancing um also
 somewhat to the north of this village as
 well, um the entire communication system
-of Pakovsk from the west could come
+of Pokrovsk from the west could come
 under significant pressure. And in the
 northeast, the Russians apparently have
 now captured some or maybe more than
@@ -1313,7 +1313,7 @@ some, maybe more than half of the
 village of
 Malinfka and they're closing in
 ultimately on the village of Ne Novo
-Echonomic just to the east of Pakovsk
+Echonomic just to the east of Pokrovsk
 Mirnugrad.
 And there's also reports that the
 Russians are looking to capture some
@@ -1510,7 +1510,7 @@ terms if there were negotiations. They
 have nonetheless said that they are
 ready for negotiations.
 Now, the Ukrainians have consistently
-rejected negotiations. Zalinski has made
+rejected negotiations. Zelensky has made
 that point completely clear. He's passed
 a law, a decree. He made a decree in
 October 2022 that forbade negotiations
@@ -1523,7 +1523,7 @@ proposals that were presented about two
 weeks ago um which alongside the same
 meeting where the American proposals
 were presented make it absolutely clear
-that as far as Zalinski is concerned the
+that as far as Zelensky is concerned the
 only purpose of negotiations is
 ultimately to
 achieve a Russian capit. ulation. I have
@@ -1533,12 +1533,12 @@ European proposal and I have also said
 that it's obviously one that the
 Russians are never going to accept at a
 time when they're winning the war.
-Anyway, Zalinski does not agree to
+Anyway, Zelensky does not agree to
 negotiations in the way
 that Vance appears to think he should.
 and as the Russians are proposing. So
 that actually puts Vance closer to the
-Russian position than to Zalinsk's
+Russian position than to Zelensky's
 position. Now that's what Vance is
 saying. But then another American, a
 member of the administration has been
@@ -1658,7 +1658,7 @@ that these plans to dust off um old
 Patriot missile systems in Israel and
 perhaps in Germany um are being revived.
 And we also see that these enormous
-drone attacks that Zalinski is
+drone attacks that Zelensky is
 conducting against
 um
 Moscow appear
@@ -1667,7 +1667,7 @@ elicit no word of complaint from the
 administration or from Donald Trump. Few
 weeks ago, Trump spoke angrily about the
 Russ the fact that the Russians had
-conducted missile strikes on Kief,
+conducted missile strikes on Kiev,
 missile and drone strikes on Kiev. He is
 saying nothing at all about Ukrainian
 drone strikes on Moscow um in connection

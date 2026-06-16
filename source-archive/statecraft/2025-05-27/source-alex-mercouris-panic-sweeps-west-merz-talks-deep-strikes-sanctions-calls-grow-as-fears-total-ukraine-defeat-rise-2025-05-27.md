@@ -216,7 +216,7 @@ agreement.
 This is clearly intended to put pressure
 on Donald Trump. And Donald Trump has
 responded. He was needled by criticism
-from Zilinski that the United States has
+from Zelensky that the United States has
 not criticized the Russian missile and
 drone attacks on Kiev. Donald Trump put
 out statements. a statement. He posted a
@@ -237,12 +237,12 @@ were killing people, and that if Putin
 continued along these lines, it could be
 the end of Russia. But what people
 didn't mention also is that Trump then
-went on to criticize President Zilinski
+went on to criticize President Zelensky
 in almost equally sharp terms. He said
-that everything that Zalinski says that
+that everything that Zelensky says that
 um is counterproductive that you
-Zilinski basically needed to shut up
-that Zilinsk's comments were most
+Zelensky basically needed to shut up
+that Zelensky's comments were most
 unhelpful and then of course Trump then
 finished by saying that all that he was
 trying to do was end the war to save
@@ -251,14 +251,14 @@ hadn't initiated the war in any way. Had
 he been president from 2021, the war
 would never have happened and that it's
 Vladimir Putin's war and Vladimir
-Zalinsk's war and also John Joe Biden's
+Zelensky's war and also John Joe Biden's
 war, but not Donald Trump's war. Anyway,
 so it was actually an example of Trump
 obviously needled by criticism that he'd
 not criticized the strike on Kiev coming
 out
 and making if you like equivalent
-criticisms of both Putin and Zalinski,
+criticisms of both Putin and Zelensky,
 but of the media class, the commentary
 at the
 Europeans, people in the United States
@@ -642,7 +642,7 @@ demands. And the West is starting to
 realize that it's out of
 options and that the Russian offensive
 is simply going to continue.
-And even Zilinski today has spoken about
+And even Zelensky today has spoken about
 the fact that a big Russian offensive is
 coming.
 Now I'm not going to go through a
@@ -660,8 +660,8 @@ and all of that and that the Russians
 aren't really winning the war. He on the
 contrary is starting to panic. He's
 talking about a collapse of Ukrainian
-defenses around Constantinoka and around
-Pakovsk. Um he sees the Russians pushing
+defenses around Konstantinovka and around
+Pokrovsk. Um he sees the Russians pushing
 forward in both places and he's talking
 increasingly about the fact that
 Ukraine the Ukrainian troops on the
@@ -745,12 +745,12 @@ that we could be seeing a Russian
 offensive to clear the remainder of
 Volchansk of the Vulture River fairly
 soon. But the real big crisis is coming
-in the Constantinovka and Pacross area.
+in the Konstantinovka and Pokrovsk area.
 And I spoke, I think it was two days
 ago, about the Russians establishing a
 semicord of the Ukrainian uh of the
 Ukrainian forces south of uh
-Constantinfka
+Konstantinovka
 following their uh capture of the
 village of Zarya. Uh the village well
 apparently they've now captured Zarya.
@@ -771,7 +771,7 @@ are now in very, very serious risk of
 being encircled and the options to
 retreat to Constantine itself have been
 lost and some kind of disaster is
-unfolding there. And in the Pakovsk
+unfolding there. And in the Pokrovsk
 area, it looks as if the Russians have
 successfully um completed their fight
 for the village of Malinfka to the um
@@ -784,14 +784,14 @@ just of encircling
 or at least preparing for the attack of
 the key village of Novo Echonovich,
 essentially a suburb of Mirnograd and
-Pakr to the east of Mirror and Pakovsk,
+Pakr to the east of Mirror and Pokrovsk,
 but that they're already actually uh
 starting to position
 themselves where they could threaten
 communications and supplies being sent
-to Pakovsk itself. In fact, it looks as
+to Pokrovsk itself. In fact, it looks as
 if the situation of the Ukrainians in
-Pakovsk is now becoming extremely grim.
+Pokrovsk is now becoming extremely grim.
 And we could even find ourselves in a
 situation that might even start to
 resemble

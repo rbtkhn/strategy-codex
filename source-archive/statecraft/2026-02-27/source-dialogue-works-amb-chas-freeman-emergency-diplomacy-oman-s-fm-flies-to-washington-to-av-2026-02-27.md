@@ -598,7 +598,7 @@ mainstream media and in terms of they're
 trying to push that we have to go we
 have to fight Iran we have to get rid we
 have to get rid of this regime in Iran
-and he here is a clip of Nadia arguing
+and he here is a clip of Netanyahu arguing
 for such a long time the main reason of
 the conflict with Iran
 &gt;&gt; Iran could produce a nuclear weapon in a

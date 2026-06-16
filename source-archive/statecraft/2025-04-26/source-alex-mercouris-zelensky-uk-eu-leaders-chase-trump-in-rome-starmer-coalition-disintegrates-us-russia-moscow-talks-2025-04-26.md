@@ -61,7 +61,7 @@ negotiations. Otherwise, negotiations
 are not serious. Uh to ask for
 somebody's opinion regarding the
 substance of
-negotiations, go to Zilinski. He is
+negotiations, go to Zelensky. He is
 happy to talk to anybody through media,
 even to President Trump. So that's what
 Lavro said. The Russians don't disclose
@@ -303,9 +303,9 @@ Ukrainians and the Russians to
 meet and he speaks about these this
 meeting having to take place at the
 highest level and um that might imply a
-summit meeting between Zilinski and
+summit meeting between Zelensky and
 Putin.
-Now whether Zalinski is prepared to meet
+Now whether Zelensky is prepared to meet
 with Putin at this time, that is another
 question. I get the impression that the
 answer is no. But put all that aside,
@@ -315,7 +315,7 @@ indeed intended to meet or at least
 engage in technical implementation
 uh discussions immediately. And that of
 course
-remains Zalinsk's
+remains Zelensky's
 October 2022
 decree which prohibits direct
 negotiations between Ukraine and Russia.
@@ -467,18 +467,18 @@ the current contact line might be
 significantly further
 west. As I will discuss later in this
 program, it looks as if the situation
-around Pacross, for example, is now
+around Pokrovsk, for example, is now
 changing and it is looking increasingly
 likely that there will be a Russian
-attempt to capture Pacross over the next
+attempt to capture Pokrovsk over the next
 few weeks and months and it could be
 that by the time the ceasefire is
-agreed, Pakovsk will be under Russian
+agreed, Pokrovsk will be under Russian
 control. In which case, in which
 case according to this plan, the
 American plan, the Americans will
 recognize Russian control of
-Pakarovsk. So this distinction does need
+Pokrovsk. So this distinction does need
 to be made. the two proposals Istanbul
 plus the set of proposals Putin made in
 June last year and the Kellogg plan are
@@ -548,7 +548,7 @@ demand now as a condition to enter into
 any discussions at all a security
 guarantee from the United States itself.
 Something which the United States is not
-prepared to agree to. So, as Zalinski
+prepared to agree to. So, as Zelensky
 made very clear in his speech on
 Tuesday, as both he and other Ukrainian
 officials have also made clear since
@@ -619,13 +619,13 @@ political oppo opponents, locking some
 of those opponents up, driving others
 into exile, that kind of thing. There is
 really no political alternative to
-Zilinski in Ukraine at the moment. There
-is no sign that Zilinski is prepared to
+Zelensky in Ukraine at the moment. There
+is no sign that Zelensky is prepared to
 concede on any of this.
 Um, the Washington
 Post says that the Europeans may have
 tried to get
-Zalinski to accept these
+Zelensky to accept these
 realities, but he is resisting and he
 won't even agree a ceasefire unless
 there are guarantees and not just
@@ -653,7 +653,7 @@ concedes that Ukraine cannot
 recover territory that Russia controls
 in eastern
 Ukraine. But
-Zalinski refuses to do any of these
+Zelensky refuses to do any of these
 things. And for the moment at least, he
 plays he continues to play games with
 his October 2022 decree. Sometimes he
@@ -675,7 +675,7 @@ negotiations whilst he refuses to resend
 the decree. And they also point out and
 they are continuing to point out that
 since there is a question mark over
-Zilinsk's own
+Zelensky's own
 legitimacy, he
 um his term expired in May last year.
 He's been
@@ -693,22 +693,22 @@ whether the r the Russians are right or
 wrong about this, but the Russians
 repeatedly say that um this contradicts
 the terms of Ukraine's own constitution,
-that Zalinski clinging on to power in
+that Zelensky clinging on to power in
 this way um casts a major question over
 his legitimacy.
 And they say that absolutely they are
-prepared to meet with Zalinski. They are
+prepared to meet with Zelensky. They are
 prepared to speak and discuss things
 with him. But they have serious doubts
-about whether any document that Zalinski
+about whether any document that Zelensky
 signs has legal
 authority in Ukraine simply
 because of the
-uncertainties about Zalinsk's own
+uncertainties about Zelensky's own
 position. Now, I'm not going to get
 into, as I said, all of this discussion,
 but what I will simply say is this
-again, that Zalinski himself doesn't
+again, that Zelensky himself doesn't
 seem to be keen on direct negotiations
 with the Russians, and the
 Russians, though they are prepared to
@@ -722,10 +722,10 @@ into negotiations with the Americans,
 with the with the
 Ukrainians. But the Russians do have
 serious doubts about the sense and
-purpose of negotiating with Zalinski
+purpose of negotiating with Zelensky
 himself.
 And there are of course time moments
-when Zalinski
+when Zelensky
 himself insists that he is the only
 person authorized or int entitled to
 enter
@@ -792,7 +792,7 @@ quite in the way that is being done
 here. Trump is coming to Rome for 15
 hours. He's going to be 15 hours in
 Rome. Apparently, only 15 hours. And yet
-we get Zalinski hurrying to Rome,
+we get Zelensky hurrying to Rome,
 begging to meet Trump. Um unclear what
 they can talk about and discuss in the
 short time that they will have to speak
@@ -828,9 +828,9 @@ could afford to give to these
 leaders as they apparently seek meetings
 with him. There's the added
 complication that if we're talking about
-Zilinski,
+Zelensky,
 Trump now makes little secret that he
-doesn't like him anyway. And Zalinski
+doesn't like him anyway. And Zelensky
 incidentally quite obviously doesn't
 like Trump.
 And what is Starmer and Macron going to
@@ -877,9 +877,9 @@ quote. And we are told that President
 Trump's plan to let Russia keep occupied
 territory in Ukraine is set in stone.
 The Tri Time Times has been told as
-pressure builds on President Zalinski to
+pressure builds on President Zelensky to
 accept a forced peace, a forced peace.
-Trump may meet Zalinski in Rome on
+Trump may meet Zelensky in Rome on
 Saturday on the margins of Pope
 Francis's funeral. But he believes that
 the Ukrainian re leader and then we have
@@ -896,7 +896,7 @@ pull out of the peace process next
 week unless a deal is done. And
 that's another warning that apparently
 in private discussions Trump is saying
-that unless Zalinski comes round the
+that unless Zelensky comes round the
 United States will pull out of the
 entire deal next
 week
@@ -924,7 +924,7 @@ any uh deadlines because he'll be
 satisfied that the parties are moving in
 the right direction.
 But if the Ukrainians, if
-Zilinski maintain their current
+Zelensky maintain their current
 position, if they refuse to work within
 the framework
 of
@@ -947,15 +947,15 @@ going to set any artificial timetables.
 He's going to let let that play out and
 take its course. So it it what Trump
 appears to be insisting on is that
-Zalinski make a definite commitment this
+Zelensky make a definite commitment this
 week to
 accept Kellogg plus the framework
-proposal that Zalinski
+proposal that Zelensky
 rejected on
 Tuesday. Now is that actually going to
 happen? Is it really the case that
 um
-Zalinski
+Zelensky
 believes
 that he has no choice,
 understands that he has no choice.
@@ -974,7 +974,7 @@ weapons cut off this year because
 Ukraine uses that money to buy more
 weapons from other allies the source
 added asked if this was a take it or
-leave it moment for Zalinski the source
+leave it moment for Zelensky the source
 said the United States saw it as take it
 or take it. The Americans believe
 European public opinion will turn
@@ -985,7 +985,7 @@ that's most certainly true. So the point
 being made
 here is that the Americans uh feel that
 if
-Zalinski rejects this proposal, he is
+Zelensky rejects this proposal, he is
 dooming Ukraine through a prolong a
 prolonged war in which he's going to be
 completely dependent on the
@@ -1023,7 +1023,7 @@ later it's going to find itself facing
 the Russians by itself, at which point
 it won't survive. And so the
 Americans appear to be confident that
-Zalinski will break this week and come
+Zelensky will break this week and come
 round to seeing things from their point
 of view and will sign up to the American
 proposal. In which case, going back to
@@ -1041,7 +1041,7 @@ Putin at his speech to the Russian
 Foreign Ministry um in June of last
 year.
 I'm
-not at all confident that Zilinski is
+not at all confident that Zelensky is
 going to do what the Americans expect
 him to
 do. He continues to get support from the
@@ -1049,15 +1049,15 @@ Europeans. Um, some Europeans are
 already saying again that a bad peace is
 worse than a continuation of the war.
 um which suggests to me that there is no
-unonymity of pressure on Zalinski to
-come round and I don't think Zilinski
+unonymity of pressure on Zelensky to
+come round and I don't think Zelensky
 anyway is particularly receptive to this
 kind of pressure. It's important to say
 that there have been many attempts over
 the course of this
 year
 to get
-Zalinski to make substantive
+Zelensky to make substantive
 concessions in order to get the peace
 process moving. But he has never done
 so. He has never
@@ -1085,7 +1085,7 @@ be of an article five
 nature whilst even whilst there is no
 consensus amongst the allies on NATO
 membership. So I don't get the sense
-that Zalinski is ever someone who's in
+that Zelensky is ever someone who's in
 the moods to
 compromise. And I suspect also that he
 doesn't believe in the reality of the
@@ -1101,7 +1101,7 @@ and be defeated, the United States will
 not be able to stand aside and will be
 obliged to come to the rescue. So I am
 not convinced that
-Zalinski is in fact going to come round
+Zelensky is in fact going to come round
 in the way that the Americans expect
 that he will.
 If he does, then it'll be a very
@@ -1132,22 +1132,22 @@ personally, to get involved in all of
 this at all because
 progress depends on the unstable
 personality, I'm being kind now, of
-Vladimir Zalinski. Um, and
+Vladimir Zelensky. Um, and
 who would really
 count on
 that? Certainly not me. I would have
 thought that
-Zalinski would be a reason enough
-personality. The personality of Zalinski
+Zelensky would be a reason enough
+personality. The personality of Zelensky
 is reason enough to keep away from this
 whole mess. And the fact that the
 Europeans so strongly support
-Zalinski is another reason to keep away
+Zelensky is another reason to keep away
 from this whole mess
 altogether. But anyway, this is the line
 that Donald Trump has taken. Now if as
 is more likely or as I think is more
-likely, Zalinski resists all the
+likely, Zelensky resists all the
 pressure and says no and continues to
 reject publicly the proposal that has
 been put in front of him. if he wheels
@@ -1179,7 +1179,7 @@ But I think on this occasion Trump as a
 businessman should understand the sunk
 cost fallacy and should realize that
 really there isn't any way towards peace
-that Zalinski as his son Donald Trump
+that Zelensky as his son Donald Trump
 Jr. has pointed out clearly isn't
 someone who is interested in peace or at
 least not any peace on any
@@ -1395,7 +1395,7 @@ happens. So anyway, there we are. This
 is the situation at the moment.
 Um the
 Europeans
-Zalinski chasing Trump around
+Zelensky chasing Trump around
 Rome trying to meet with him. I mean, if
 it wasn't also tragic, it would actually
 be funny. It it's it's the kind of
@@ -1418,7 +1418,7 @@ acknowledges that it is fragile, which
 it obviously is.
 an awful lot now
 depends on
-Zilinski. Um, somebody who is
+Zelensky. Um, somebody who is
 unpredictable to say the least. Um,
 somebody who absolutely cannot be
 counted upon to make any kind of
@@ -1426,7 +1426,7 @@ decision, but whose sincerity in seeking
 peace. I can't believe anybody who knows
 this conflict well uh takes seriously by
 now. So anyway, we will see what
-Zalinski does. Um my
+Zelensky does. Um my
 own sense is that he will remain as
 intrang intransigent and as
 outspoken and as
@@ -1521,7 +1521,7 @@ earlier in the war. So it looks as if a
 battle for Leman is about to start.
 Um perhaps the most
 dramatic news relates to
-Pacross where the Russians um apparently
+Pokrovsk where the Russians um apparently
 are continuing their advance to the
 northeast of Pakosk. Um ultimately maybe
 to the to Novo Economic N. As I said,
@@ -1542,7 +1542,7 @@ Sergeka is located just south of the
 E50 road, which is one of the remaining
 supply roads, the two remaining supply
 roads that the Ukrainians use to keep
-their garrison in Pacross
+their garrison in Pokrovsk
 um um supplied. The southern road has
 already been cut by the Russians. The
 northern road, this is the northern
@@ -1550,10 +1550,10 @@ road. If Suefka is captured, presumably
 this other road would become
 unusable. If the Russians capture Novo
 Economic and they also capture
-Saiffka west of Pakovsk, then it looks
+Saiffka west of Pokrovsk, then it looks
 to me as if the Russians will have in
 effect cut the major supply roads to
-Pakarovsk. Um they might not be in
+Pokrovsk. Um they might not be in
 physical control of the roads
 themselves but they will certainly be
 able to establish drone control over the
@@ -1561,7 +1561,7 @@ roads and in that case um supply
 situation for the Pakov's garrison will
 become
 catastrophic and I suspect
-that in that case Pakovsk will fall and
+that in that case Pokrovsk will fall and
 fall quite quickly. There would be other
 roads which the Ukrainians could use,
 but they are again small country roads,
@@ -1575,7 +1575,7 @@ these smaller roads are used.
 Um little cover and protection from the
 Russian drones. We could see a collapse
 in
-Pacross not very different from the
+Pokrovsk not very different from the
 collapse we saw um in the autumn in
 Celidovo and before before then in Uglad
 just saying. So anyway, that's the
@@ -1657,8 +1657,8 @@ are. That this is where I'm going to end
 the program today. As I
 said,
 an absurd situation playing out in Rome.
-As I said, Zilinski running after Trump.
-The Europeans running after Zalinski and
+As I said, Zelensky running after Trump.
+The Europeans running after Zelensky and
 Trump. Everybody trying to speak to
 Trump. Nobody apparently, as far as I
 can see, having any clear idea what

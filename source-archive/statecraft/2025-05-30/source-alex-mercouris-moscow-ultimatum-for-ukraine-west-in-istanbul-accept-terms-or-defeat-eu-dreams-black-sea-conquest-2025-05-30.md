@@ -37,7 +37,7 @@ why because as I discussed in my program
 yesterday the Russians have made the
 decision an entirely understandable
 decision to withhold their memorandum.
-Um Vladimir Zalinski is bitterly
+Um Vladimir Zelensky is bitterly
 complaining about this and is saying
 that this is um an example a further act
 of bad faith by the Russians. But the
@@ -750,15 +750,15 @@ fronts. But the last 24 hours since I
 did my program
 um have it seems to me taken a massive
 decisive further turn on the battle
-front. Now, Reovka today um is has just
+front. Now, Readovka today um is has just
 published an article about the fighting
-in Chasy.
+in Chasiv Yar.
 Um it is now, I think, largely
 acknowledged, in fact, almost entirely
 acknowledged that the Russians have
 indeed captured the central fortified
 positions in Chasar. There are only a
-few outlying areas left. And Raovka
+few outlying areas left. And Readovka
 today is reporting that the Russians
 that the 98th Guards Airborne Division,
 the force, the division that
@@ -768,32 +768,32 @@ force in this area that the Russians
 have deployed ever since the uh Vagnner
 organization was pulled out um in May
 2023. 3. Anyway, the 98th Guards
-Airborne Division, according to Raovka,
+Airborne Division, according to Readovka,
 is now beginning its final assault on
 the remaining Ukrainian positions in the
 um
 westernmost suburbs of
-Chasfy. And Raidovka is writing as if
+Chasiv Yar. And Readovka is writing as if
 the Russians expect that the whole of
 Chassy will pass under their control
 within the next couple of days. Um, when
 I mean the next couple of days, I mean I
 don't mean weeks or a week or so. Um,
 apparently there's li little left now to
-capture. Central Chasy is under Russian
+capture. Central Chasiv Yar is under Russian
 control. The important village of
 Stupuchki is under Russian control. The
 Russians control a large belt of
 territory to the north of Chasyar which
 provides them with strategic depth in
-this area. Raovka says that Ukrainian
+this area. Readovka says that Ukrainian
 reinforcements which have been sent to
-hold positions in the Constantinovka
+hold positions in the Konstantinovka
 area have been
-deployed to the south, not to the Chasy
+deployed to the south, not to the Chasiv Yar
 area because that the situation is so
 critical in these other places that
-Chasy is being given less priority. So
+Chasiv Yar is being given less priority. So
 that there are relatively few Ukrainian
 troops left defending Chassya. Anyway,
 one way or the other, it does now look
@@ -803,7 +803,7 @@ Bahmut connibation of which Chassya is
 ultimately a part that that battle is
 about to end. And all of this has
 happened as the
-territory south of Constantinoka in
+territory south of Konstantinovka in
 which I said the some Ukrainian troops
 appeared to have been caught in a
 cauldron that this area has now passed
@@ -826,33 +826,33 @@ high
 ground relative to
 Constantin. And the ability of the
 Ukrainians to defend
-Constantinfka will no doubt start
+Konstantinovka will no doubt start
 to be limited. And the Russians have
 been advancing in all sorts of other
 places as well. And the most dramatic
 advances appear to be taking place
-around Pakovsk. The Russians have made
+around Pokrovsk. The Russians have made
 taken strong positions to the southwest
-of Pakovsk. I believe that they are
+of Pokrovsk. I believe that they are
 actually entrenched in the southern
-suburbs of Pakovsk. But perhaps the most
+suburbs of Pokrovsk. But perhaps the most
 alarming development for the Ukrainians
 is that the Russians are pushing
-northeast of Pacross. Locations which
+northeast of Pokrovsk. Locations which
 just a few weeks ago
 um back in March I don't think anybody
 would have expected them to advance so
 fast in this area. Anyway, I don't think
 it's the case any longer that you can
-speak of Pacross being taken in some
+speak of Pokrovsk being taken in some
 kind of semicircle or anything like that
 or pincers. I think that outright
-encirclement of Pacross is now becoming
+encirclement of Pokrovsk is now becoming
 a real
 possibility. And our old friend Andre
 Marosko has now also been talking about
 the situation around Pakosk. He has said
-that Ukrainian reserves around Pakovsk
+that Ukrainian reserves around Pokrovsk
 have been almost
 um entirely defeated. He's perhaps
 exaggerating,
@@ -898,7 +898,7 @@ Still, this was the pattern in the
 summer of
 2024 in the enormous Russian advance
 that took place west of Vdefka towards
-Pakarovsk. I remember noticing it there
+Pokrovsk. I remember noticing it there
 that the Russians would be able to take
 one settlement and then move on to the
 next settlement and Ukrainian resistance
@@ -993,7 +993,7 @@ focus on what goes on in a room in the
 DMAC palace in Istanbul. Let's not worry
 too much about the fact that Chasfiar is
 about to fall and Constantin is about to
-fall and Pakovsk is about to fall and
+fall and Pokrovsk is about to fall and
 that the Ukrainian army is
 disintegrating and that attempts to um
 enlist more troops into the Ukrainian
@@ -1012,7 +1012,7 @@ altogether too cynical here, and I
 suspect I am. I'm sure that nobody in
 any of the western capitals or in Moscow
 is actually thinking in this way. Um,
-certainly Zalinski, who continues to
+certainly Zelensky, who continues to
 show no sign of any interest in
 negotiations, he continues to demand
 more and more military assistance from

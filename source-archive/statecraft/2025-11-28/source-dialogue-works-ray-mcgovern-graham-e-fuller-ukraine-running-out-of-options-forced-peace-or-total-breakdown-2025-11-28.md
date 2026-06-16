@@ -385,7 +385,7 @@ treaty that is backed by the United
 
 States. And I'm afraid I mean I feel
 
-sorry for Zilinski. I think maybe he's a
+sorry for Zelensky. I think maybe he's a
 
 nice guy. U he's he's been brave. He's
 
@@ -409,7 +409,7 @@ as to what Trump is worried about in
 
 saying to hell with the EU or to hell
 
-with Zilinski on this. We're calling the
+with Zelensky on this. We're calling the
 
 shots. It's our weapons. It's our money.
 
@@ -559,9 +559,9 @@ more important thing is that this fellow
 
 um Driscoll, Daniel Driscoll said to be
 
-very close to JD Vance, he went to Kief.
+very close to JD Vance, he went to Kiev.
 
-Okay? And what did he say in Kief?
+Okay? And what did he say in Kiev?
 
 Forget about it. The war's over, you
 
@@ -961,7 +961,7 @@ who if if Trump says to hell with the EU
 
 and
 
-um to hell with Zilinski, they've got no
+um to hell with Zelensky, they've got no
 
 power. We've got the power. What would
 
@@ -975,7 +975,7 @@ than I am. But most of the rest of the
 
 world I don't think would say oh my god
 
-you're throwing Zilinski under the bus
+you're throwing Zelensky under the bus
 
 or the poor Europeans or they're not
 
@@ -987,7 +987,7 @@ some move. So what are the downsides
 
 that you can see if Trump says to hell
 
-with the EU and to hell with Zilinski?
+with the EU and to hell with Zelensky?
 
 This is what it's going to be. Take it.
 
@@ -1259,7 +1259,7 @@ because everything is coming down in
 
 Ukraine. You see Yermach, you know,
 
-Zalinski just accepted Yermach's
+Zelensky just accepted Yermach's
 
 resignation. That shows how desperate is
 
@@ -1297,7 +1297,7 @@ crazy, but it does suggest that the
 
 power is shifting away from the standard
 
-players of Zilinski and and his
+players of Zelensky and and his
 
 entourage. And I just I'm hoping that
 
@@ -1319,7 +1319,7 @@ know, when you look at the background of
 
 how Nabu, this uh inspector agency was
 
-formed in Kief. It was formed by CIA and
+formed in Kiev. It was formed by CIA and
 
 you it's by intelligence people. Okay.
 
@@ -1389,7 +1389,7 @@ around. Maybe he's joined Umeierra
 
 whoever he is. But uh all that is
 
-designed to weaken Zalinski and as you
+designed to weaken Zelensky and as you
 
 point out uh Nema to show the Europeans
 

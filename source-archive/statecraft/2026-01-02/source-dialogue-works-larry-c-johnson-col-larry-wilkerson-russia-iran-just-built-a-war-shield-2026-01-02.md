@@ -601,7 +601,7 @@ Trump continues to entertain
 peace plans that are either crafted by
 Keith Kellogg, you know, Captain Crunch
 or
-the Cornflakes guy um or Zalinski or the
+the Cornflakes guy um or Zelensky or the
 Europeans. None of those, whether we're
 talking the 28 point peace plan, the 19
 point peace plan, the 20 point peace
@@ -611,7 +611,7 @@ proposals.
 And Russia's terms have been made very,
 very clear. And while Trump has uh in
 his last remarks
-surrounding the when Zalinski was at
+surrounding the when Zelensky was at
 Mara Lago, he did, you know, affirm the
 Russian position. Yeah, it's not going
 to be a ceasefire. But but beyond that,
@@ -626,7 +626,7 @@ a negotiated settlement here to be had.
 It is going to require the actual defeat
 of the Banderites, the Azoff battalion,
 the rights sector.
->> Colonel, here is what Zalinski said. His
+>> Colonel, here is what Zelensky said. His
 new year message to maybe two
 Ukrainians.
 >> What does Ukraine want?
@@ -809,7 +809,7 @@ they're losing them.
 Carl, what's so amazing to me being in
 Iran after, you know, 12 years, more
 than 12 years, and seeing what's going
-on on streets here in Thran. I mean, I'm
+on on streets here in Tehran. I mean, I'm
 currently in Tehran, and I have many
 friends all around the country. I'm in
 contact with them to see what's going on

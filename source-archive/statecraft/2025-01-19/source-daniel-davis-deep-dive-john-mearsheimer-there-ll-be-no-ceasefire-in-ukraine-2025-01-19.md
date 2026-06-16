@@ -159,7 +159,7 @@ or not because if Trump were to do that
 
 and and to cut off the supplies even
 
-according to what zalinski said about
+according to what Zelensky said about
 
 two months ago oh yeah he's we we
 

@@ -102,7 +102,7 @@ it.
 >> Yeah. [clears throat]
 And we had the meeting after all between
 Steve Wkov together with Kushner and
-Zalinski on the other hand. And what was
+Zelensky on the other hand. And what was
 amazing to see the Black Rock CEO being
 part [clears throat] of you know
 shocker. [snorts]
@@ -513,7 +513,7 @@ I don't see that happening.
 opinion polls
 regarding the Starmer uh what his he's
 down like 13%.
-Mcronone is like 19%
+Macron is like 19%
 Mertz you know 20 what was he 25 26%.
 The so you've got this phenomena where
 these countries are being led by leaders
@@ -539,7 +539,7 @@ have differences with the EU.
 So with uh Vanderion pushing to seize
 Russian assets
 um there has been some push back from
-you know I know Mcronone
+you know I know Macron
 and uh even uh you know major European
 banks have pushed back against seizing
 the Russian assets.
@@ -1151,7 +1151,7 @@ front and so far the Russians have been
 pretty effective in countering it.
 Yeah.
 The other thing Larry about the case of
-Australia Netno came out and said one of
+Australia Netanyahu came out and said one of
 the reasons of the rise of ant you know
 anti-semitism is because of the
 recognition of the Palestinian state by

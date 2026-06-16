@@ -585,7 +585,7 @@ there's, you know, 400 meters down. Very
 unlikely. Did a lot a lot of superficial
 surface damage. Uh the uh you know, they
 shut down the airport temporarily in
-Thran. Uh I think it it's still it may
+Tehran. Uh I think it it's still it may
 still be closed, but you know, Iran's
 got 28 other airports. So, uh, the real
 damage was, uh, the attack on civilians,

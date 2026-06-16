@@ -870,7 +870,7 @@ delusional, but this is what I've been
 
 hearing over the past year.
 
-Mcronone. Um I speak to some people very
+Macron. Um I speak to some people very
 
 high up in France and they call him the
 
@@ -880,7 +880,7 @@ Uh there were three generals that
 
 opposed him and wanted parliament to u
 
-make any decision on law not Mcronone
+make any decision on law not Macron
 
 um whose
 
@@ -1118,9 +1118,9 @@ um local customs. Uh I mean culture. I
 
 mean you name it. It's um
 
-like they actually told Zalinski to they
+like they actually told Zelensky to they
 
-approved Zalinsky to destroy the
+approved Zelensky to destroy the
 
 pipelines of energy to to Hungary
 

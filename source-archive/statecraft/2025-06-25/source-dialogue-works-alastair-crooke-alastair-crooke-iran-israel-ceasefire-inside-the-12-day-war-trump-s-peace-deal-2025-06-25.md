@@ -782,7 +782,7 @@ would see it, um, of course, not
 everyone agrees with that at all, but
 the only way to stop it is regime change
 and to install a pro-western puppet into
-Thran who would ensure that there was
+Tehran who would ensure that there was
 never ever any threat to Israel
 whatsoever. So that so even at the
 moment we're in a a pause even though
@@ -1078,7 +1078,7 @@ but it was the same with China. China
 was ready to help and actually I think
 possibly did help. There have been
 evidence of a number of um large cargo
-uh aircraft arriving in Thran. Um uh but
+uh aircraft arriving in Tehran. Um uh but
 the Chinese made the same complaint and
 they said, you know, we're ready. We
 were ready to help. We offered help and

@@ -32,7 +32,7 @@ of the Trump administration. They're
 talking mostly you look at these points.
 They have been published. I don't know
 who published these points. It was the
-Trump administration or the Zalinski
+Trump administration or the Zelensky
 administration. But the most important
 parts of this agreement, this plan is
 that the recognition of Russia, Russian
@@ -383,7 +383,7 @@ transpire and come to a even remotely
 successful conclusion with regard to
 Ukraine the problem's going to be the
 Nazis. It doesn't matter who you elect.
-Well yeah it does. get rid of Zalinski
+Well yeah it does. get rid of Zelensky
 and get back to some kind of electoral
 process that looks remotely democratic
 and you put someone else in there.
@@ -604,7 +604,7 @@ loss, especially loss in the media,
 which damages Donald Trump.
 >> Yeah, Larry.
 Bloomberg reported that Merron and
-Stormer are teaming up with Zalinski to
+Stormer are teaming up with Zelensky to
 block key elements of the US plan and
 what is the position of Europe today?
 what do they want from you know because
@@ -669,7 +669,7 @@ it. Now, what you have in Europe right
 now is a tremendous disconnect between
 the leadership and the public.
 >> Yeah.
->> I mean, good God. I mean Merz Mcronone
+>> I mean, good God. I mean Merz Macron
 and and Starmer uh they are com their
 their popularity combined doesn't break
 50%. You know if you could take each of
@@ -926,21 +926,21 @@ they reported that the United States
 threatens to cut into weapons to press
 Ukraine into peace deal
 and
-on the part of Zalinski I I think we
-have to consider what Zalinski is
+on the part of Zelensky I I think we
+have to consider what Zelensky is
 talking about. Just moments ago,
-Zilinsky was he's saying that we have
+Zelensky was he's saying that we have
 they're pushing us toward a difficult
 choice either losing dignity or risking
 the loss of it our key sponsor which is
 the United States. It seems that
-Zalinski is in a tough position right
+Zelensky is in a tough position right
 now. He has to decide about it. I don't
 know
 what's going on in Washington, but
 they're putting a lot of pressure on
-Zalinski as well.
-I think they've given up on Zalinsky, if
+Zelensky as well.
+I think they've given up on Zelensky, if
 that's the right phrase to use. Uh, a
 better way to describe it, although
 bloody minded, is that they wish he'd
@@ -955,7 +955,7 @@ to have a different leader in Keefe in
 order to move forward. I think that's
 true with regard to Russia, given the
 statements they've made about not
-wanting to have Zalinsky in the deal,
+wanting to have Zelensky in the deal,
 and it's true with regard to us. But
 you're fighting people like Lindsey
 Graham and I think Marco Rubio, too. I
@@ -986,7 +986,7 @@ the last soul, to the last drop of
 blood.
 Um, again, the domestic political
 situation is going to make it extremely
-difficult, but Zalinski is going to make
+difficult, but Zelensky is going to make
 it even more difficult if he stays
 around. So, I think he's got to be
 gotten rid of in some way. I hate to use
@@ -996,10 +996,10 @@ Yeah,
 >> Larry,
 I really do believe that if Donald
 Trump, he's serious in putting pressure
-on Zalinski, he has to put pressure on
+on Zelensky, he has to put pressure on
 the British government and British
 intelligence because they're behind
-Zalinski.
+Zelensky.
 And do you see anything of that sort
 happening?
 >> Uh, well, no. I mean, I don't think it's
@@ -1556,7 +1556,7 @@ that's the element that will not rest
 just as they are wanting to bleed Russia
 through Ukraine with even more
 vehements. They will not rest until
-there's regime change in Thran.
+there's regime change in Tehran.
 >> Yeah.
 >> Here here is part of the interview that
 the foreign minister of Iran did on with

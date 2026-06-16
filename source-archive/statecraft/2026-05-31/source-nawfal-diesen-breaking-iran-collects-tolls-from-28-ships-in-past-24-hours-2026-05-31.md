@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-05-31
 pub_date: 2026-05-31
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 thread: diesen
 show: Mario Nawfal
@@ -10,14 +10,15 @@ guest: Glenn Diesen
 title: "BREAKING: IRAN COLLECTS TOLLS FROM 28 SHIPS IN PAST 24 HOURS - w/ Analyst Glenn Diesen"
 source_url: "https://www.youtube.com/watch?v=RlG35-5j6GY"
 source_type: youtube
-transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Glenn Diesen interview.
-editorial_note: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the May 31, 2026 Mario Nawfal / Glenn Diesen interview. · ASR pass 2026-06-16."
 youtube_id: RlG35-5j6GY
 opening_tier: heavy-banter
 opening_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+quality_note: "ASR normalization pass 2026-06-16; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved."
 ---
-
 # BREAKING: IRAN COLLECTS TOLLS FROM 28 SHIPS IN PAST 24 HOURS - w/ Analyst Glenn Diesen
 
 **Show:** Mario Nawfal  

@@ -237,7 +237,7 @@ everything is going in that direction.
 You know, the protests coming, you know,
 they're turning radically into riots to
 see what's going on. a quarter a master
-a quarter of ambulances here in Thran
+a quarter of ambulances here in Tehran
 were sab you know were somehow destroyed
 if you if you are you know a a protester
 how you can go and destroy the
@@ -1011,7 +1011,7 @@ South America. Uh in Chile, other places
 there's been covert action used but not
 a military invasion.
 Um, you are Brazilian by choice, Iranian
-by origin. Um, and you're in Thran,
+by origin. Um, and you're in Tehran,
 [clears throat] but I'm sure you're
 thinking about things from the Brazilian
 perspective. From the Brazilian

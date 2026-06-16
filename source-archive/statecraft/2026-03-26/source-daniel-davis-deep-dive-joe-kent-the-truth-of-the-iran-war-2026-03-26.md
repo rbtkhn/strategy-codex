@@ -176,7 +176,7 @@ then four-star general
 you know, what was about to to drop was
 really heavy long walk. How was that for
 you when you went and told I don't know
-if it was Director Gabbert or or some
+if it was Director Gabbard or or some
 other official but can you tell us a
 little bit about how that happened?
 Yeah, I mean it was
@@ -196,10 +196,10 @@ that I made the decision that I had to
 leave and it was challenging. I mean I
 have as a presidential appointee I had
 to resign directly to the president
-but DNI Gabbert was my day-to-day boss
+but DNI Gabbard was my day-to-day boss
 with NCTC as part of ODNI. So
 I I had a really hard hard frank candid
-discussion with DNI Gabbert.
+discussion with DNI Gabbard.
 Obviously she wasn't pleased with
 with the decision that I had made
 but she heard me out and then you know,
@@ -253,7 +253,7 @@ fine.
 Wow. Well, that's
 I got to say that surprises me a little
 bit but I'm actually glad to hear that
-both from DNI Gabbert, the vice
+both from DNI Gabbard, the vice
 president and the president. I mean
 that's that's about as good as you could
 ask for under those circumstances. So
@@ -694,7 +694,7 @@ this round of conflict.
 absolute key part. This was part of your
 resignation letter and it was also a
 central part of the hearing
-with DNI Gabbert here
+with DNI Gabbard here
 last week or so
 all on the issue of an imminent threat.
 The United States senior officials keep
@@ -707,7 +707,7 @@ literally screamed, "There was an
 imminent threat." But when that key
 exchange there between Senator
 I think Isakson
-or Assoff, sorry, and and DNI Gabbert,
+or Assoff, sorry, and and DNI Gabbard,
 he said, "Look, according to your
 testimony,
 we destroyed their enrichment capacity,
@@ -742,7 +742,7 @@ Graham say this, but people we just
 can't take Lindsey Graham seriously.
 Even before midnight hammer, the
 Iranians weren't on the cusp of making a
-nuclear bomb. I mean, DNI Gabbert
+nuclear bomb. I mean, DNI Gabbard
 testified this in her annual threat
 assessment in 25 and then and again in
 26 that they just didn't have the
@@ -1018,7 +1018,7 @@ Uh and that's something that apparently
 according to Iranian sources that I've
 talked to the who have access to the the
 government thinking. They say they can
-sustain this rate of fire indefinitely.
+sustain the Strait of fire indefinitely.
 But Joe, we can't sustain our
 interceptors, especially THAAD and
 Patriot 3s, uh that much longer. I don't

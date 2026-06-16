@@ -98,7 +98,7 @@ attacks on Ukraine made no sense. even
 as he simultaneously
 made comments um appearing to be highly
 critical
-of um President Zalinski of Ukraine. Um
+of um President Zelensky of Ukraine. Um
 so that was Donald Trump. He's then
 spoken since. He's talked about the fact
 that he's now seriously considering
@@ -769,7 +769,7 @@ become so catastrophic that the
 Ukrainian military command general Syski
 in other words have been obliged to
 redeploy three brigades from Sunumi
-region to Constantinfka
+region to Konstantinovka
 which now means that the Ukrainians are
 desperately short of troops in Sunumi
 region. I am not suggesting that the
@@ -860,7 +860,7 @@ previously heavily fortified cities. But
 even that, as I said, isn't the worst of
 it. The real catastrophe that is
 playing out for the Ukrainians is in the
-area of Constantinfka.
+area of Konstantinovka.
 I said that it looked as if the
 Ukrainian troops south of Constantin
 were in a double cauldron. in effect
@@ -872,7 +872,7 @@ about to create another layer of
 encirclement
 north of the line that they'd already
 taken, which had already bottled these
-Ukrainian troops south of Constantinfka
+Ukrainian troops south of Konstantinovka
 in And in fact, it looks as if this
 advance
 is continuing.
@@ -884,7 +884,7 @@ reinforcing in this area as well. And
 that their advances, if anything, are
 continuing to accelerate.
 And
-with the battle of Chasy
+with the battle of Chasiv Yar
 probably having mostly ended, the city,
 the town of Chassy, the central part of
 Chasuya it seems has fallen. It seems
@@ -893,7 +893,7 @@ control of the dominant heights in
 Torres and Chasfar. I would remind
 people that the Financial Times
 essentially admitted that the Ukrainians
-had pulled out of Toretsk and Chasy
+had pulled out of Toretsk and Chasiv Yar
 3 days ago. Uh the Russians will be in
 control of the dominant heights over
 Constantin.
@@ -903,7 +903,7 @@ becoming absolutely critical. But even
 more
 uh critical
 is what is happening to the west of
-Constantinfka because the Russians
+Konstantinovka because the Russians
 in this area
 not only appear to have captured the
 village of Malininoka which appeared to
@@ -912,7 +912,7 @@ village of Novo Economic
 which
 the loss of which would interrupt
 Ukrainian
-um supplies to the garrison in Pakovsk.
+um supplies to the garrison in Pokrovsk.
 But it seems that the Russians are
 actually advancing northwards um from
 Constantin from this area west of
@@ -922,30 +922,30 @@ Bakovsk
 and Mirnograd
 and of Novo Echonomich
 just as they are well to the west of
-Pakovsk
+Pokrovsk
 as they continue to advance towards the
 Neper. And
 in advance of the Russians,
 their drones go. And apparently Russian
 drones are now busy attacking
 Ukrainian supply convoys on the main
-roads leading from Kamatsk to
+roads leading from Kramatorsk to
 Constantin.
 It looks as if supplies for the Pakov's
 garrison are starting to be interrupted
 to break down in multiple places.
 Um
 there's been much less news from
-Pakarovsk itself recently. When I last
-discussed the situation in Pakovsk,
+Pokrovsk itself recently. When I last
+discussed the situation in Pokrovsk,
 um it seemed to me that the Russians had
 probably captured positions in southern
-Pacross and had taken control of certain
-villages to the southwest of Pakovsk
+Pokrovsk and had taken control of certain
+villages to the southwest of Pokrovsk
 which were basically were contiguous
-contiguous with Pakovsk itself. In other
+contiguous with Pokrovsk itself. In other
 words, which should be better understood
-as outskirts suburbs of Pakovsk.
+as outskirts suburbs of Pokrovsk.
 Well, we've heard less news about what
 the Russians might be doing and whether
 they're still in these places. My guess
@@ -953,23 +953,23 @@ is that they are.
 And my guess is that as I said over the
 next couple of weeks, probably very
 soon, we're going to see a simultaneous
-attack on Pakovsk from multiple
+attack on Pokrovsk from multiple
 directions with the Ukrainian garrison
 finding it as difficult to hold on to
-Pakovsk as the Ukrainian garrison
+Pokrovsk as the Ukrainian garrison
 months ago. Now, it seems like an age
 though in time terms. It's not actually
 so far back.
 It's difficult for the Ukrainian
-garrison in Pacross to hold out as it
+garrison in Pokrovsk to hold out as it
 was for say the Ukrainian garrison in
 Celidov to hold out as well. So to
-repeat again the fall of Pacross
+repeat again the fall of Pokrovsk
 when it happens and it is a question of
 when not if will deepen
 massively the Ukrainian crisis in
 Donbass.
-um Constantinfka.
+um Konstantinovka.
 The position of the Ukrainian forces
 there is looking increasingly
 precarious.
@@ -1083,7 +1083,7 @@ just to say I'm not going to go ahead
 with those sanctions. They would be
 counterproductive to the United States
 itself. Um, a curse on both their
-houses. Putin is crazy. Zalinski is
+houses. Putin is crazy. Zelensky is
 well, he can't keep his mouth shut. He's
 wrong about everything.
 just let these two people work it out

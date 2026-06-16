@@ -458,7 +458,7 @@ and kidnap family and keep them, you
 know, we don't know if they are alive.
 That's what they good at, you know,
 fighting war. No,
->> Zalinski in his new year message, he
+>> Zelensky in his new year message, he
 said that they're not going to they're
 closer to peace in maybe in early days
 of in early months of 2026. But after

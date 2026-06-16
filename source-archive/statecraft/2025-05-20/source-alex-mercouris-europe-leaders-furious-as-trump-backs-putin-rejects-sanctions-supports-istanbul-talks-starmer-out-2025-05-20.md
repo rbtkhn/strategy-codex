@@ -128,7 +128,7 @@ And to reiterate again, the European
 leaders um four of whom Macron Star um
 um um Maltz and Tusk who were in um who
 were at that time in Kiev together with
-Zalinski all initially said that this
+Zelensky all initially said that this
 proposal of Trump of Putin's was
 unacceptable that there had to be a
 ceasefire first before
@@ -150,7 +150,7 @@ diplomatic activity is quite the word
 that I would use. I have described at
 length and we have discussed at length
 on the duran the extraordinary
-girrations that Vladimir Zalinski went
+girrations that Vladimir Zelensky went
 through um as he first said that he
 wanted to speak to Putin personally in
 Estanbul but would only do so if there
@@ -445,7 +445,7 @@ productive call because in the hours
 after the conversation took
 place, Donald Trump called a series of
 leaders in Europe and he also called
-President Zalinski of Ukraine and he
+President Zelensky of Ukraine and he
 briefed all of them on the call and none
 of them were happy. Um, we've had
 comments about this from the Financial
@@ -501,7 +501,7 @@ added, "It was clear Trump was not ready
 to put greater pressure on Putin to come
 to the negotiating table in earnest." So
 Putin suggests negotiations in Istanbul.
-Zalinski attempts to avoid those
+Zelensky attempts to avoid those
 negotiations. He won't negotiate with
 anybody but Putin. He won't let anybody
 speak to the
@@ -514,7 +514,7 @@ that he has to send a negotiating team.
 and does so um
 reluctantly. But it is Putin supposedly
 who is reluctant to engage in earnest in
-negotiations, not Zalinski. Now again as
+negotiations, not Zelensky. Now again as
 I said the writers of the Financial
 Times obviously have a right to their
 point of view but I find again their
@@ -525,8 +525,8 @@ let's let's move on. So the European
 lead leaders we're told was stunned by
 the call and someone else made pretty
 clear how he feels about the call and
-that was Zalinski because directly after
-Trump spoke to him Zalinski set out his
+that was Zelensky because directly after
+Trump spoke to him Zelensky set out his
 own opinions in a statement. Ukraine has
 a right to join NATO. It must join NATO.
 Um Ukraine has to have all its territory
@@ -535,7 +535,7 @@ never accept anything less than the
 return of all of its territory,
 including
 Crimea. And
-effectively, Zalinski ruled out any
+effectively, Zelensky ruled out any
 concessions, any compromises with the
 Russians
 whatsoever, even though he again
@@ -546,7 +546,7 @@ these negotiations can succeed. But if
 that does also happen, then as far as I
 can see, it will be impossible to deny
 the fact to the Americans that it is
-Zilinski in effect who is the prime
+Zelensky in effect who is the prime
 obstacle to negotiations to achieve a
 peace settlement. Since the demands that
 he is making, virtually everyone else,
@@ -555,7 +555,7 @@ acknowledge are
 unrealistic and therefore unreasonable.
 But anyway, let's not move too far
 ahead. The Europeans are stunned.
-Zilinski obviously is furious. I mean,
+Zelensky obviously is furious. I mean,
 the fact that he's spoken out in this
 strong way, he's issued this kind of
 very strong statement tells us how
@@ -569,7 +569,7 @@ leaders by Donald
 Trump, all of the European leaders were
 busy phoning each other, talking about
 what to do. They were also phoning busy
-phoning Zalinski. There was apparently a
+phoning Zelensky. There was apparently a
 whole day of discussion and I suspect
 recrimination and argument about the way
 forward. We're told by the Financial
@@ -799,9 +799,9 @@ whilst I have been here. My impression
 is that we are now indeed looking at a
 collapse, an actual collapse of
 Ukrainian defenses around the town of
-Constantinoka in the
+Konstantinovka in the
 Slavansk
-Constantinoka
+Konstantinovka
 connibation and
 around
 Bakovsk. But that and much else I'm

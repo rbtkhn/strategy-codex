@@ -455,7 +455,7 @@ they will take Odessa in the near term.
 And once they've done that, the question
 is, do they do they go up to the edge of
 the river and then plan on crossing into
-Kief? I mean, Donald Trump is
+Kiev? I mean, Donald Trump is
 effectively saying, "I don't care. It's
 not my problem." This is this is the
 issue. I mean, you hear all this
@@ -996,7 +996,7 @@ would be very foolish to do so because
 they could make their countries uh
 targets for the Russians. If if the
 Germans provide tourist missiles, put
-those into the hands of Zilinski and his
+those into the hands of Zelensky and his
 organized crime syndicate and they
 launch those into into Russia and they
 attack a city like Ria or Belgraat or

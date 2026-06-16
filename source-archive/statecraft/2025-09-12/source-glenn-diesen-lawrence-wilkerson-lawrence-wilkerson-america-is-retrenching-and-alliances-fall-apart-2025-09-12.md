@@ -1151,7 +1151,7 @@ it and their having been the product of
 
 our having done it is now falling apart.
 
-Mcronone is the first one to really show
+Macron is the first one to really show
 
 vulnerability but Germany will follow
 

@@ -35,10 +35,10 @@ of June
 to the Russians there's been no
 confirmation from the Ukrainian
 government from the Ukrainian officials
-from Zalinski himself at least no
+from Zelensky himself at least no
 confirmation to the Russians that the UK
 Ukrainians do indeed intend to come to
-Istanbul at all. Zalinski continues to
+Istanbul at all. Zelensky continues to
 complain angrily about the fact that the
 Russians have not provided their written
 response to his ceasefire proposals or
@@ -57,7 +57,7 @@ ceasefire proposals in advance of the
 meeting in
 Istanbul. Why they would wait until the
 meeting took place before handing those
-two documents over. But anyway, Zilinski
+two documents over. But anyway, Zelensky
 is making a big play of this. He's
 saying that this proves that the
 Russians aren't serious about
@@ -717,7 +717,7 @@ position that would allow it to occupy
 all four of the Ukrainian regions it has
 officially annexed but not entirely
 conquered. And Moscow could reasonably
-expect that Zalinski would not survive
+expect that Zelensky would not survive
 such a defeat politically, paving the
 way for regime change that Russia claims
 to want. But very likely it would amount
@@ -949,7 +949,7 @@ But we have said from the beginning that
 each day a diplomatic solution to this
 conflict is delayed worsens the
 situation for Ukraine.
-The s hysterical regime of Zalinski
+The s hysterical regime of Zelensky
 behaves like a spoiled child. They will
 be left without Zaporia, Neprop,
 Petetro, Sumi, Harkov, Adessa, and
@@ -963,7 +963,7 @@ committee Leonid Slutski who is the head
 of the international affairs committee
 of the dummer said that the second round
 of talks will take place in a tough
-environment following Zilinsk's 's visit
+environment following Zelensky's 's visit
 to mass this meeting in Germany where
 they talked about missiles and all of
 that and um Slutzki expressed confidence
@@ -1049,8 +1049,8 @@ answer, an immediate answer from the
 Ukrainians as to what their response
 will be. I suspect the Ukrainians will
 refuse. They will go after
-Kiev. They will talk to Zalinski.
-Zalinski will have fits and rage about
+Kiev. They will talk to Zelensky.
+Zelensky will have fits and rage about
 all of this and then we we will see
 where it all goes. But anyway, that I
 suspect is what we're looking

@@ -197,7 +197,7 @@ Well, now then I think you see that China a lot a lot of people had hoped that w
 
 >> We need to understand the root causes of every conflict and we understand what is the root cause here.
 
-Unprovoked aggression by the US and Israel against Iran. Now, everyone calling upon Iran and everyone else with this demand to open up the straight of horm. I would like to remind you that before February 28th before the start of this aggression there was no problem any problem with the straight of horses the navigation was insured safe navigation was insured 100%.
+Unprovoked aggression by the US and Israel against Iran. Now, everyone calling upon Iran and everyone else with this demand to open up the Strait of Hormuz. I would like to remind you that before February 28th before the start of this aggression there was no problem any problem with the straight of horses the navigation was insured safe navigation was insured 100%.
 
 So when this aggression against Iran was launched, the goal was clear, it was declared to put an end to the period of history where allegedly Iran instilled fear and terror into its neighboring countries. The same with the kidnapping of President Maduro from Venezuela when he was accused of drug trafficking. And then it turned out that the US was not interested in drug trafficking.
 

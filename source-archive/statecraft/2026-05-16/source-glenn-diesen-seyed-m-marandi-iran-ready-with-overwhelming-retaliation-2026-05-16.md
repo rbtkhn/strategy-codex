@@ -17,7 +17,7 @@ source_note: "Operator-pasted YouTube transcript; transcript-bearing but not hum
 ---
 # Seyed M. Marandi: Iran Ready With Overwhelming Retaliation
 
-Welcome back. We are joined today by Professor Sed Muhammad Marandi, a professor at Thran University and a former advisor to Iran's nuclear negotiation team. So, uh, thank you for coming back on the program.
+Welcome back. We are joined today by Professor Sed Muhammad Marandi, a professor at Tehran University and a former advisor to Iran's nuclear negotiation team. So, uh, thank you for coming back on the program.
 
 >> Thank you very much for inviting me. It's always a great pleasure being on your show.
 
@@ -29,7 +29,7 @@ And therefore uh when they travel abroad to China, they seem to be blind and uh 
 
 I think they would have by through that alone recognized that uh their requests were not going to achieve any results. But um but in any case, I I think it's probably even uh worse than I had anticipated. Not on the Iran front, but in general, the trip achie the trip achieved nothing. Uh the only positive note I think for Trump was that he was able to stay in China for a couple of days without uh insulting the host.
 
-that was I think for him quite an achievement. But uh beyond that I I don't see any excess. It was a wasted and uh I think now that he's returned to the United States probably what we're going to see is um a move towards renewed violence with Iran. The United States does not have the political will to implement the ceasefire to end the siege on Iranian ports and to bring about a ceasefire in Lebanon and Gaza so that uh ships can more ships the ships from the five linked to the five countries that assisted them against Iran could pass through the straight of Horos.
+that was I think for him quite an achievement. But uh beyond that I I don't see any excess. It was a wasted and uh I think now that he's returned to the United States probably what we're going to see is um a move towards renewed violence with Iran. The United States does not have the political will to implement the ceasefire to end the siege on Iranian ports and to bring about a ceasefire in Lebanon and Gaza so that uh ships can more ships the ships from the five linked to the five countries that assisted them against Iran could pass through the Strait of Hormuz.
 
 They don't have the political will to do so. uh probably or I guess it's pretty clear that the reason behind it is the Zionist lobby in the Israeli regime. They will not accept a u a ceasefire. They will not accept an end to the hostilities for a host of reasons.
 

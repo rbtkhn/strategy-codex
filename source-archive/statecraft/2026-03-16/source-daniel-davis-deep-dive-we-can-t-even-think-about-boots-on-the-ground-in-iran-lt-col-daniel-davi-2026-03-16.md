@@ -77,7 +77,7 @@ he was showing here because I want to
 show you something here. Even the idea
 that we could go up in here because
 there is some terrain you can drive up
-into here to get up to Thrron to try to
+into here to get up to Tehran to try to
 have a military victory. Uh even if you
 said we still have Afghanistan today and
 we never left. Uh so the uh Bram air
@@ -96,7 +96,7 @@ possible. But then you want to say,
 "Yeah, and then we're going to go
 through this the one mountain pass area
 where you can go into the plains to try
-and get up to Thrron." You you see that
+and get up to Tehran." You you see that
 there's mountains on the north and on
 the on the north and on the south and
 then there's just this gauntlet here.

@@ -921,7 +921,7 @@ in that direction. Do you see that
 happening? Do you see because after all
 the security of the Middle East I would
 say right now is based on what Iranian
-decision in this rate of foremost. I
+decision in this Strait of Hormuz. I
 think that the reality is totally
 understood on the part of the Trump
 administration. How is that going to

@@ -939,7 +939,7 @@ Iranian context a position of
 neutrality. Um but there are issues for
 example again involving Iran. Uh during
 the Islamic revolution when the American
-diplomats at the embassy in Thran were
+diplomats at the embassy in Tehran were
 taken hostage and held for a year by
 Iranian students. Uh the United States
 mounted a failed rescue attempt uh from

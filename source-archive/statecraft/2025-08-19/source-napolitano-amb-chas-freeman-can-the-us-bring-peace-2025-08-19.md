@@ -62,7 +62,7 @@ uh but this is pretty far away from the United States and the case for a direct 
 
 Peacekeepers will not produce peace. they will produce a truce, a continued uh stalemate um like the one in Korea uh which has never been resolved. Um uh constant danger of war breaking out again. That is something that is emphatically not in anyone's interest. Not Western Europeans, not Ukrainians, not the uh Russians or Poles.
 
-So I think um there needs to be as the president has suggested if if there can be a meeting between Vladimir Putin and Vadim Zalinski uh as a kickstart to a later trilateral that's going to have to be followed by some kind of conference perhaps resembling the Congress of Vienna uh perhaps resembling something else but uh maybe the treaty of Westfailia a reorganization of European and security architecture on a collective basis.
+So I think um there needs to be as the president has suggested if if there can be a meeting between Vladimir Putin and Vadim Zelensky uh as a kickstart to a later trilateral that's going to have to be followed by some kind of conference perhaps resembling the Congress of Vienna uh perhaps resembling something else but uh maybe the treaty of Westfailia a reorganization of European and security architecture on a collective basis.
 
 Not between Ukraine and Russia, not between the United States and Russia, but between all of the participants and interested parties. Not easy. Uh but that is where we have to head if we What does what does security guarantee mean other than troops on the ground in inviting attack? No, I think that's the point.
 
@@ -82,9 +82,9 @@ No, I think the only thing that can possibly refer to is the Russian repost to t
 
 On the other hand, they're very clear. They're insisting on the entire territory of both Lugansk oblast and Donetsk oblast. They're apparently willing to accept the uh line of control the uh the battlefront um in Zaparisian uh as the de facto border. That obviously is constitutionally difficult for them.
 
-They would have to uh they would have to have a treaty. they would have to amend their constitution to um uh to yield those portions of those oblasts that they claim but do not control. But I don't think that's an insuperable obstacle. Nor do I believe that uh President Putin uh absolutely will not meet with President Zalinski even though he's been very reluctant to do this in the past.
+They would have to uh they would have to have a treaty. they would have to amend their constitution to um uh to yield those portions of those oblasts that they claim but do not control. But I don't think that's an insuperable obstacle. Nor do I believe that uh President Putin uh absolutely will not meet with President Zelensky even though he's been very reluctant to do this in the past.
 
-And President Zilinski, I note, who always refused to talk with President Putin, now appears to want to do that. So that these are important changes. Agreed. Agreed. And for all of our criticism of President Trump and his lack of understanding of the uh history here, he did break the ice. I mean, Joe Biden refused after one initial meeting early on in his presidency.
+And President Zelensky, I note, who always refused to talk with President Putin, now appears to want to do that. So that these are important changes. Agreed. Agreed. And for all of our criticism of President Trump and his lack of understanding of the uh history here, he did break the ice. I mean, Joe Biden refused after one initial meeting early on in his presidency.
 
 even to speak to Vladimir Putin and even to allow his secretary of state Anthony Blinkin to speak to Sergey Lavough. That uh type of uh wall of separation in in your view and mine was just horrible and made things worse. It's always better of course to talk. Uh do you think that Trump and you and I and and your colleagues on this show have been back and forth on this so many times.
 

@@ -91,7 +91,7 @@ there is a possibility that there will
 be at some point negotiations.
 Uh there is a possibility that Trump may
 choose an offramp, but that's not the
-calculation here in Thran.
+calculation here in Tehran.
 And um the very fact that the Americans
 have brought in all these troops and uh
 are preparing for uh and they have

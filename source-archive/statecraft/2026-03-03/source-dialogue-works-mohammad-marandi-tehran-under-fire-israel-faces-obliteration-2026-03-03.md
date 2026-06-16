@@ -252,4 +252,4 @@ Uh I I wasn't following the news. Apparently, they said yesterday bombed the par
 
 The way in which that meeting will be conducted will be in in a manner where it will be safe them to make the decision if the decision has not yet already been made. But they're not going to go and sit in parliament start discussing the new leader when the the Trump regime and the Epstein regime and the Zionist regime are out to kill uh anyone who they can find. Or their puppet.
 
-It which would be Yeah. Thank you Thank you, Professor Mandi, for being with us today. Great pleasure, as always. Thank you very much, Arron.
+It which would be Yeah. Thank you Thank you, Professor Marandi, for being with us today. Great pleasure, as always. Thank you very much, Arron.

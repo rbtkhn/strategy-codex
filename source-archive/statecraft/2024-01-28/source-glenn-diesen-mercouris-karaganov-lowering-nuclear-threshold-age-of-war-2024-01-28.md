@@ -37,7 +37,7 @@ verify:
   - claim: Putin Sochi Oct 2023 direct pushback to Karaganov on changing nuclear posture
     verdict: supported
     note: Valdai Club plenary 2023-10-05; TASS — Putin saw no need to change doctrine
-  - claim: Blinken — not for US to tell Kyiv where to strike with US weapons
+  - claim: Blinken — not for US to tell Kiev where to strike with US weapons
     verdict: supported
     note: State Dept press 2023-09-15/16 — "targeting decisions are theirs, not ours"; policy fence on strikes outside Ukraine
   - claim: US cluster munitions used against civilian targets in Belgorod
