@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-09
 pub_date: 2026-06-09
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Breaking Points
 guest_people:
@@ -23,14 +23,14 @@ channel_slug: breaking-points
 channel_url: "https://www.youtube.com/c/BreakingPoints"
 source_url: "https://www.youtube.com/watch?v=6SQnX9QRu9o"
 youtube_id: 6SQnX9QRu9o
-source_note: Operator-pasted transcript; Breaking Points × Pape 9 Jun 2026. verify:wire-supported day-100 middle game Lebanon fuse 7–8 Jun (AJ/BBC); Beirut/Hezbollah red line → Iran missiles (AJ); Rezaei $24B adviser statement CNN 5 Jun; Houthis Israeli-shipping ban 8 Jun (Straits Times); Kuwait/Bahrain escalation dominance lane (in-body + AJ war reporting); Trump losing control Netanyahu retaliated despite orders (Axios/BBC); IEA inventory/SPR strain directional (IEA May); verify:wire-partial IRGC commander security-belt quote — doctrine frame not independently matched to named IRGC release this pass; NYT 4 Apr fourth-center — partial (NYT framing exists, exact quote unverified); verify:wire-contested US non-intercept (NBC/CNN vs Al-Monitor); verify:wire-out-of-scope McKinder pivot economic-crisis-locked-through-midterms Israel grand-strategic decline framework. Cross-ref Nawfal Pape same day (4wfVXkp9eGs).
-editorial_note: Wire-verify batch 2026-06-08–09.
+source_note: "Operator-pasted transcript; Breaking Points × Pape 9 Jun 2026. verify:wire-supported day-100 middle game Lebanon fuse 7–8 Jun (AJ/BBC); Beirut/Hezbollah red line → Iran missiles (AJ); Rezaei $24B adviser statement CNN 5 Jun; Houthis Israeli-shipping ban 8 Jun (Straits Times); Kuwait/Bahrain escalation dominance lane (in-body + AJ war reporting); Trump losing control Netanyahu retaliated despite orders (Axios/BBC); IEA inventory/SPR strain directional (IEA May); verify:wire-partial IRGC commander security-belt quote — doctrine frame not independently matched to named IRGC release this pass; NYT 4 Apr fourth-center — partial (NYT framing exists, exact quote unverified); verify:wire-contested US non-intercept (NBC/CNN vs Al-Monitor); verify:wire-out-of-scope McKinder pivot economic-crisis-locked-through-midterms Israel grand-strategic decline framework. Cross-ref Nawfal Pape same day (4wfVXkp9eGs). · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Paper, Thrron, Hezblah, Baba Mendub, hegeimon). Breaking Points subscribe close stripped at tail.
 opening_tier: host-tease
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Professor Pape REACTS: Iran's 'Axis Of Resistance' Will Transform The World
 
 **Show:** Breaking Points  
@@ -45,7 +45,7 @@ Very excited now to be joined by our great friend of the show, Professor Robert 
  What do you make of this new term of the axis of resistance, this security belt comment in the context of everything that's been happening here in this war? >> Uh, this is more evidence for the new stage of the war that we've entered into. We just passed day 100 of the Iran war. There is no end in sight. We are not at the end.
  We are in the middle game. And in the middle game, the most distinctive feature which has happened for weeks and this what you just showed is strong evidence of it is that Iran has moved from survival to ambition. Let me say that again. Iran is no longer just considering how does it survive. Iran is moving from survival to ambition. You see that in its behavior.
 You see that uh a week ago it responds to relatively minor strikes here by the US by upping the ante to put pressure on Kuwait and Baharrain. Uh they are not just doing tit fortat. They are using a version of their own escalation dominance to put pressure on those Gulf states to withdraw American forces from their territory.
- Almost at the same time they threaten Israel. You attack Hezbollah's strongholds in Beirut. That's Iran's key ally and Iran is going to punish, going to retaliate. This is part of that new red line that you just showed. They are extending an umbrella. They are not just worrying about survival in Thrron. They're extending an umbrella, a new architecture.
+ Almost at the same time they threaten Israel. You attack Hezbollah's strongholds in Beirut. That's Iran's key ally and Iran is going to punish, going to retaliate. This is part of that new red line that you just showed. They are extending an umbrella. They are not just worrying about survival in Tehran. They're extending an umbrella, a new architecture.
  That is a new ambition. And then last week, right at the end of last week, the senior adviser to the supreme leader made a statement almost identical to what you just showed except did not define the umbrella area so clearly use the same uh geographic space by the way, but not that clear set of red lines.
  So what you are seeing is that Iran is gaining has gained power in the opening stage. That's like the opening in chess. It has gained power. And in the middle game, it's not just happy going for a draw. It's going to extend that power in a more ambitious way. And that middle game with this new security architecture, and I'm glad to say a bit more about that, but this this middle game, this is going to go on folks through the summer.
  We are almost surely now going to have the new crisis in the world economy based on Iran's behavior and rhetoric. This is this is almost locked in. The the world may not fully expect it, but this is what you would expect. This is this is what the the direction of the modeling for the 20 years would would expect.

@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-11
 pub_date: 2026-06-10
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Nima Alkhorshid
 guest_people:
@@ -24,14 +24,15 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=YE7JBvJ-h6M"
 youtube_id: YE7JBvJ-h6M
-source_note: Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Live US attack on Sirik/Minab/Bandar Abbas cluster; cruise-missile interceptions; Yedioth warship hit unconfirmed; full Hormuz closure; Apache pretext; Sanger NYT leak; Islamabad accords dead; Erdogan-Netanyahu; Resi territorial waters; same-week 2026-06-10 cluster.
+source_note: "Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Live US attack on Sirik/Minab/Bandar Abbas cluster; cruise-missile interceptions; Yedioth warship hit unconfirmed; full Hormuz closure; Apache pretext; Sanger NYT leak; Islamabad accords dead; Erdogan-Netanyahu; Resi territorial waters; same-week 2026-06-10 cluster. · ASR pass 2026-06-15. · verify:wire-supported J10-1,J10-7 · verify:wire-contested S11 · matrix statecraft/daily/2026-06-10-wire-verify-matrix.md"
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Sirik, Asaluya, Yediot, Resi, etc.).
 verify_wire_contested: "Islamabad accords dead — Pakistan FM 11 Jun channels open (AA); Apr Islamabad round failed; Marandi 11 Jun Iran paused replies not closed lane. statecraft/daily/2026-06-08-09-wire-verify-matrix.md#s11"
 transcript_wrapper_tier: clean
 opening_tier: host-tease
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Larry Johnson: BREAKING: The American ATTACK on Iran has BEGUN - Iran's Upscale Retaliation Coming
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  
@@ -53,7 +54,7 @@ Not like a Brazilian Iranian in my book.
 >> Okay. Let me start. Let let me give you what has happened so far. The attack is happening as we talk.
 What we know the air defense the air defenses are active in the western part of the Iran naval base in sirik island reportedly targeted by two strikes and one strike close to the Minab that city that kids that were they were killed 5 kilometers from Minab and Iran at the same time that these attacks are happening Iran is attacking Kurdish Iraqi Kurdistan in Arabil they're attacking them by drones and missiles.
 And there was some sort of report that the United States Navy carried out attacks on Siri from from warships in the Gulf of Oman and there was a you know confirmed there is a confirmed strike in Gh Island and they tried to attack they tried to hit a prochemical plant in Asaluya.
->> Mhm. You know then it seems that the air defense system hit the you know intercepted and there is some sort of limited explosion but because of the air defense system hitting the target hitting the missile that didn't achieve so far anything there are explosions in band Kangan band Kangan is close to Aselu as these are close to Bucher that nuclear power plant. So they're they're on the co they're on the coast the west.
+>> Mhm. You know then it seems that the air defense system hit the you know intercepted and there is some sort of limited explosion but because of the air defense system hitting the target hitting the missile that didn't achieve so far anything there are explosions in band Kangan band Kangan is close to Aselu as these are close to Bucher that nuclair power plant. So they're they're on the co they're on the coast the west.
 >> Exactly. All of these then Siri, you know, Kangan, they're all close to the Persian Gulf.
 And the US official, a US official said that the strikes on southern Iran will continue including hundreds of targets and continue for hours.
 Right now, as we talk, Iranian army MI28 helicopters are active over Tehran to intercept, you know, these little drones.
@@ -74,7 +75,7 @@ Well, and that's important right there that they they've now they are intercepti
 Um I I think you know I think now Trump and his team have uh they screwed themselves.
 They really think that this is going to break Iran. They really do believe themselves when they say oh that Iran Iran's army is broken. The military is defeated. They have no capability.
 They're just the economy is a disaster.
-So it's up to >> breaking news. Larry >> Yedias Abernath the Israeli publication the Israeli media just reported that it seems that US warship got hit by Iranian anti-ship missile and it's yeah it's it's reported on Israeli media that they hit the US warship and there are some reports that the in the airport in Banderab bus again close to the straight for most close to the Persian Gul. They hit the airport in Bandarus and that remains to be confirmed. The Iranian hidden US warship, but it was reported in Yedoth Aber if yed, >> I think. Yidd is really Yeah, Israeli.
+So it's up to >> breaking news. Larry >> Yedias Abernath the Israeli publication the Israeli media just reported that it seems that US warship got hit by Iranian anti-ship missile and it's yeah it's it's reported on Israeli media that they hit the US warship and there are some reports that the in the airport in Banderab bus again close to the straight for most close to the Persian Gul. They hit the airport in BanDarius and that remains to be confirmed. The Iranian hidden US warship, but it was reported in Yedoth Aber if yed, >> I think. Yidd is really Yeah, Israeli.
 >> Yeah, there it is. I see it.
 Haronoth. Haronoth, I think it is.
 >> Haronoth. Haronoth. idiot are wrong.
@@ -195,7 +196,7 @@ God, you know, just the arrogance and and obnoxious attitude of BPU.
 I I I I wish I could say that his his his arrogance and you know that he is he's not representative of a lot of Israelis. Oh, a contr he's he is the quintessential expression of what a lot of Israelis are like, unfortunately.
 Yeah, breaking news. Iran's Ambia Central Command announced the full closure of the Straight of Hormuz, allowing zero ships to pass from now on with or without tolls.
 Every single movement through this straight will be targeted.
-So, this is the full closure of the Straight of Hormos.
+So, this is the full closure of the Strait of Hormuz.
 >> Yep.
 >> I think we're getting back to the initial days of the second round of war.
 >> Mhm. And we're going to see the price of oil just going up.
@@ -227,8 +228,8 @@ They're they're trying to do what Iran is asking them to do. So if Hezbollah is 
 >> This is the main objective. I don't see Hezbollah being tricked this way because they know what is the objective. That's why they're not they're trying to to calm everything down in Lebanon in terms of, you know, these sort of interactions with the government. Well, my look my understanding of Hezbollah and that you know the way you're talking about it and I'm not saying you're not saying it this way but you're describing this attitude as if they are a onenote pony that they're basically a militia and they can't do social services and government take care of government affairs uh while fighting a war. That that's that's wrong. They are they are a de facto government. In fact, they're probably a more effective government than the actual government of Lebanon.
 And they've got so they do social services and they do taking care of people's domestic needs while also at the same time fighting off the Israeli army. And they have, you know, the Israelis uh I don't think they've consolidated and held territory north of the Latani River. I think they've been forced to retreat and they've already had to withdraw some units because of casualties. So, you know, this Israel is now going to find itself in a at least a three-front war with Hezbollah attacking from the north, Iran attacking from uh the east, the Houthi is attacking from the south.
 >> Yeah. Two ships.
-Yeah. Iran blew up two ships attempting to cross the straight of foremost.
-I don't know what is happening in the mind of these people who can cross the war is happening. They want to cross the straight of foremost. Well, they they trust the United States and I said, "Oh, we got this under control. Go ahead and watch the insurance.
+Yeah. Iran blew up two ships attempting to cross the Strait of Hormuz.
+I don't know what is happening in the mind of these people who can cross the war is happening. They want to cross the Strait of Hormuz. Well, they they trust the United States and I said, "Oh, we got this under control. Go ahead and watch the insurance.
 If these ships were insured by any Western insurance companies, there'll be a big payout on that." So I'll give you a four minute three minute warning. I gota So >> okay just just >> go ahead >> just to wrap up. Do you feel that the United States going to continue this attack up until >> I just I take I take him at their word.
 They said they were going to. Now we'll see if they reverse that. But you still didn't answer my question. How did you know this morning this was going to happen?
 All right, >> that was my guess. I was just guessing that it's gonna happen that way. I asked >> what? Cahil Gabbron.

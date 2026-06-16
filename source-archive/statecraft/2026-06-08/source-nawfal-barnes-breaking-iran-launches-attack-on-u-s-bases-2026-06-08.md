@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-08
 pub_date: 2026-06-08
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 thread: barnes
 threads: ""
@@ -14,14 +14,15 @@ title: "BREAKING: IRAN LAUNCHES ATTACK ON U.S. BASES – w/ Political Analyst Ro
 source_url: "https://www.youtube.com/watch?v=bPP1SPCAegU"
 youtube_id: bPP1SPCAegU
 source_type: youtube
-transcript_type: operator_pasted_transcript
-source_note: Operator-pasted transcript; day-after Jun 7 Iran–Israel exchange bench. NBC non-intercept claim, capture fork (Trump needs out / Bibi needs war), Qatar money MOU, Israeli spying on Colby/DiMino/Witkoff (NYT/NBC Jun 2026), Erbil/Kurdistan base attack, World Cup exit pressure. verify:wire-supported Israel spying on Colby, DiMino IV, Witkoff; DIA critical threat level; Iran missiles Kuwait/Bahrain 6 Jun; verify:wire-contested US non-intercept (NBC/CNN/CBS vs Al-Monitor self-defense fires); verify:wire-unclear Erbil US-base damage (Jun 8 strikes on Kurdish opposition sites); capture-fork interpretation.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR "Mike divino" normalized to Michael P. DiMino IV — Deputy Assistant Secretary of Defense (Middle East) per war.gov/DoD; NYT/NBC Jun 2026 name him as Israeli espionage target alongside Under Secretary Elbridge Colby and envoy Steve Witkoff. Wire-verify batch 2026-06-08–09 harmonized. Other ASR artifacts retained (Amarilis, mcgrick, etc.).
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+source_note: "Operator-pasted transcript; day-after Jun 7 Iran–Israel exchange bench. NBC non-intercept claim, capture fork (Trump needs out / Bibi needs war), Qatar money MOU, Israeli spying on Colby/DiMino/Witkoff (NYT/NBC Jun 2026), Erbil/Kurdistan base attack, World Cup exit pressure. verify:wire-supported Israel spying on Colby, DiMino IV, Witkoff; DIA critical threat level; Iran missiles Kuwait/Bahrain 6 Jun; verify:wire-contested US non-intercept (NBC/CNN/CBS vs Al-Monitor self-defense fires); verify:wire-unclear Erbil US-base damage (Jun 8 strikes on Kurdish opposition sites); capture-fork interpretation. · ASR pass 2026-06-15."
 proper_noun_normalize_applied: true
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # BREAKING: IRAN LAUNCHES ATTACK ON U.S. BASES – w/ Political Analyst Robert Barnes
 
 **Show:** Mario Nawfal  

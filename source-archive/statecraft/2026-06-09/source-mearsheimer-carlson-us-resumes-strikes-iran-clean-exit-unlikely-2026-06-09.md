@@ -1,10 +1,10 @@
 ---
 ingest_date: '2026-06-11'
 pub_date: '2026-06-09'
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "BREAKING: U.S. Resumes Strikes on Iran. A Clean Exit Is Unlikely. Tucker and John Mearsheimer React."
 show_title: Tucker Carlson
 channel_name: Tucker Carlson
@@ -22,13 +22,14 @@ threads:
 channel_slug: tucker-carlson
 source_url: "https://www.youtube.com/watch?v=TQvZaBQuT80"
 youtube_id: TQvZaBQuT80
-source_note: "Operator-pasted YouTube transcript; breaking CENTCOM strikes-resume monologue plus Mearsheimer interview (38th imminent-deal motif; Hormuz control; limits of US military/economic/moral power; sovereignty/Netanyahu timing; Ukraine Karaganov nuclear-risk thread; Iran ceasefire four-element frame). Same-day bench as Apache-down / proportional-response cluster (cf. Davis 9 Jun breaking). Sponsor reads omitted and marked."
-editorial_note: "Operator-pasted transcript body; paragraph reflow; sponsor blocks omitted; not independently verified as verbatim."
+source_note: "Operator-pasted YouTube transcript; breaking CENTCOM strikes-resume monologue plus Mearsheimer interview (38th imminent-deal motif; Hormuz control; limits of US military/economic/moral power; sovereignty/Netanyahu timing; Ukraine Karaganov nuclear-risk thread; Iran ceasefire four-element frame). Same-day bench as Apache-down / proportional-response cluster (cf. Davis 9 Jun breaking). Sponsor reads omitted and marked. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 32 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; paragraph reflow; sponsor blocks omitted; not independently verified as verbatim."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # BREAKING: U.S. Resumes Strikes on Iran. A Clean Exit Is Unlikely. Tucker and John Mearsheimer React.
 
 **Show:** Tucker Carlson  
@@ -299,14 +300,14 @@ It's really quite remarkable.
 This is right before in February. That's exactly right.
 
 
-**John Mearsheimer:** And then just think about this. The war starts February 24th. Shortly thereafter, I mean a day or two later, Putin sends a message to Zalinski and says, "Let's start negotiating." They first start negotiating in Bellarus and then they go to Istanbul. These are the famous Istanbul negotiations. Okay, this is in March, early April of 2022, almost immediately after the war starts.
+**John Mearsheimer:** And then just think about this. The war starts February 24th. Shortly thereafter, I mean a day or two later, Putin sends a message to Zelensky and says, "Let's start negotiating." They first start negotiating in Bellarus and then they go to Istanbul. These are the famous Istanbul negotiations. Okay, this is in March, early April of 2022, almost immediately after the war starts.
 And it looks like the Ukrainians and the Russians may be able to cut a deal. They did not cut the deal, but they're getting closer and closer. Things are working out very well. What happens?
 Boris Johnson, with support from the United States, of course, comes in and he tells the Ukrainians to walk away from the negotiations.
 Now, the question you want to ask yourself is why did this happen?
 
 
 **John Mearsheimer:** Yes. I I've wanted to ask him that, but he won't he won't talk to me.
-The reason it happened is that we thought that economic sanctions would bring the Russians to their knees and that the Ukrainians who we had armed and trained, we meaning the West had armed and trained between 2014 when the crisis first broke out and 2022 when the war broke out, the actual war. In that in that 8-year period, we had armed, we meaning the West, had armed and trained the Ukrainians, and they were a quite formidable fighting force, as the Russians found out over the course of 2022. We believed that the Ukrainian army on the battlefield coupled with economic sanctions would do the Russians in. And that's why we told uh Zalinski to walk away from the negotiations in Istanbul. And you want to also remember that late in the fall of that year, 2022, General Millie, who was the chairman of the Joint Chiefs of Staff, understood that the Ukrainians by that point in time had reached the high water mark. Remember, the Ukrainians had launched two successful offensives against the Russians in 2022, one in Hark, one in Hersan. And Millie said, "This is wonderful, but it's time to cut a deal now because as time goes by, the balance of power will shift against Ukraine and in favor of the Russians." Because at that point, Putin was beginning to mobilize the Russian army in a serious way. I think he called up 300,000 troops in uh September of 2022.
+The reason it happened is that we thought that economic sanctions would bring the Russians to their knees and that the Ukrainians who we had armed and trained, we meaning the West had armed and trained between 2014 when the crisis first broke out and 2022 when the war broke out, the actual war. In that in that 8-year period, we had armed, we meaning the West, had armed and trained the Ukrainians, and they were a quite formidable fighting force, as the Russians found out over the course of 2022. We believed that the Ukrainian army on the battlefield coupled with economic sanctions would do the Russians in. And that's why we told uh Zelensky to walk away from the negotiations in Istanbul. And you want to also remember that late in the fall of that year, 2022, General Millie, who was the chairman of the Joint Chiefs of Staff, understood that the Ukrainians by that point in time had reached the high water mark. Remember, the Ukrainians had launched two successful offensives against the Russians in 2022, one in Hark, one in Hersan. And Millie said, "This is wonderful, but it's time to cut a deal now because as time goes by, the balance of power will shift against Ukraine and in favor of the Russians." Because at that point, Putin was beginning to mobilize the Russian army in a serious way. I think he called up 300,000 troops in uh September of 2022.
 But anyway, what happened was that Millie was told to cease and desist from making that argument. They put Millie in the back closet, said no more talk about cutting a deal now because we think we've got the Russians on the ropes. And you remember it's in early June. I think it was June 4th of 2023. Remember 2022 is when the war starts. In June of 2023, that's when the Ukrainians launch that massive offensive where they think they're going to affect the Blitzkrieg and bring the Russian military to its knees. This just shows you that we thought the success that the Ukrainians were having on the battlefield coupled with the sanctions would allow us to defeat Russia and knock Russia out of the ranks of the great powers and put an end to having to deal with Vladimir Putin who wouldn't dance to Artune.
 I mean, I kind of get it conceptually and I have no question that you're describing the thinking of the people who made these decisions, but I think if you just ponder like the potential consequences of their plan, so you knock Russia out of the ranks, the great powers, you displace Putin somehow.
 What happens then? This is the biggest country on Earth. It's diverse. It's got all kinds of ethnic groups that get along sort of, but like it could break apart and it's got a largest nuclear arsenal in the world. Destabilizing Russia could be really dangerous for everybody. Did that occur to them?
@@ -342,7 +343,7 @@ And I think if our policy had actually worked, if it looked like the Russians we
 **John Mearsheimer:** It's it just crazy. And and by the way, just to go back to Trump, I think Trump's instincts on both China and Russia, starting with his first term and even his second term, in the beginning, his instincts were correct in both cases. It was time to abandon engagement, contain China. And with regard to Russia, it was time to have good relations with Russia, to end the war in Ukraine. This is in his second term because the war didn't take place in his first term. So I think Trump's instincts were good. But again, Trump's problem is that when it comes to diplomacy, uh he he has the mightest touch in reverse and uh the end result is that he's made a hash of things with the Russians.
 
 
-**John Mearsheimer:** So what's the motive of of European leaders of Mcronone and Star and Mertz in Western Europe and then the various Eastern European leaders? Like why are they monomomaniacally focused on Putin?
+**John Mearsheimer:** So what's the motive of of European leaders of Macron and Star and Mertz in Western Europe and then the various Eastern European leaders? Like why are they monomomaniacally focused on Putin?
 
 
 **John Mearsheimer:** I don't know for sure. It just seems to me that they have convinced themselves uh that Putin is the second coming of Adolf Hitler. Uh you know, you make these arguments enough times you come to believe them yourselves sometimes.
@@ -634,7 +635,7 @@ And in the New York Times article, in the United States,
 **John Mearsheimer:** in the United States, yes.
 
 
-**John Mearsheimer:** And in the New York Times article, it was pointed out that the two people who have attract apparently have attracted the most attention or Steve Witco uh because they want to know what he's up to and Elbridge KBY. And since Elbridge KBY works mainly on China issues, the Times speculated on why uh Israel would be so interested in keeping a careful eye on Elbridge Colby. And the Times actually said at the end of the piece, it's probably because he's a restrainer, right? He's interested in a restrained foreign policy. Colby does not want to be fighting wars everywhere. Uh he once told me that he was opposed to the Iraq war back in 2003. He wants to concentrate on containing China, but he's not interested in fighting in Ukraine. He's a restrainer. And of course, the Israelis do not like restrainers. They do not like the Quincy Institute, right?
+**John Mearsheimer:** And in the New York Times article, it was pointed out that the two people who have attract apparently have attracted the most attention or Steve Witkoff uh because they want to know what he's up to and Elbridge KBY. And since Elbridge KBY works mainly on China issues, the Times speculated on why uh Israel would be so interested in keeping a careful eye on Elbridge Colby. And the Times actually said at the end of the piece, it's probably because he's a restrainer, right? He's interested in a restrained foreign policy. Colby does not want to be fighting wars everywhere. Uh he once told me that he was opposed to the Iraq war back in 2003. He wants to concentrate on containing China, but he's not interested in fighting in Ukraine. He's a restrainer. And of course, the Israelis do not like restrainers. They do not like the Quincy Institute, right?
 
 
 **John Mearsheimer:** So, they're allowed to just spy on American citizens, but then continue to receive our tax dollars in order to fund spying on us.

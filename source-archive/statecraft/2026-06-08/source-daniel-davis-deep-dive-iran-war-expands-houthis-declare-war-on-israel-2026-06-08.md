@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-08
 pub_date: 2026-06-08
-kind: transcript
+kind: cleaned-transcript
 source_form: solo
 host_people:
   - Daniel Davis
@@ -9,14 +9,12 @@ guest_people: []
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "Iran War Expands, Houthis Declare War on Israel"
 source_url: "https://www.youtube.com/watch?v=SRCgVFPIxwM"
 youtube_id: SRCgVFPIxwM
 channel_slug: daniel-davis-deep-dive
-source_note: Operator-pasted transcript; Davis self-dates Monday 8 June 2026 (101st day of war). verify:wire-supported Houthis missile Israel + total ban Israeli Red Sea navigation 8 Jun (Straits Times/Anadolu); Iran–Israel exchange same window (AJ/BBC); verify:wire-partial Houthi declare war framing — ban + missile attack supported formal war declaration wording not matched; MSN/Iran-official quotes — triangulate IRNA-class if escalated; NBC Trump interview cited in-voice not re-pulled this pass; verify:wire-out-of-scope Davis 101st-day war expansion thesis.
-editorial_note: Wire-verify batch 2026-06-08–09.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
+source_note: "Operator-pasted transcript; Davis self-dates Monday 8 June 2026 (101st day of war). verify:wire-supported Houthis missile Israel + total ban Israeli Red Sea navigation 8 Jun (Straits Times/Anadolu); Iran–Israel exchange same window (AJ/BBC); verify:wire-partial Houthi declare war framing — ban + missile attack supported formal war declaration wording not matched; MSN/Iran-official quotes — triangulate IRNA-class if escalated; NBC Trump interview cited in-voice not re-pulled this pass; verify:wire-out-of-scope Davis 101st-day war expansion thesis. · ASR pass 2026-06-15."
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
@@ -24,9 +22,10 @@ threads:
   - davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
-quality_note: Routine subscribe/gold close stripped at tail; upcoming-guest schedule block preserved through walk-away theory section.
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 16 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # Iran War Expands, Houthis Declare War on Israel
 
 **Show:** Daniel Davis Deep Dive  

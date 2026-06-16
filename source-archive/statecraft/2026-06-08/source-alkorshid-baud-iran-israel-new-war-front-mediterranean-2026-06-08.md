@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-08
 pub_date: 2026-06-08
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people: ""
 guest_people: ""
 show_title: Dialogue Works
@@ -19,13 +19,13 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=CEXkLl7pVzo"
 youtube_id: CEXkLl7pVzo
-source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported Dahiyeh red-line cycle + Iran axis-response equation (AJ 8 Jun); Israel Lebanon occupation south to Litani continues (AJ); UNIFIL mandate misuse claim — UNIFIL present south Lebanon wire-confirmed operations contested (UNIFIL/AJ); verify:wire-partial Mediterranean/NATO front escalation — no wire-matched new NATO Article 5 trigger 8 Jun; verify:wire-out-of-scope Baud trap/ego Netanyahu green-light interpretation State Dept Israel-requested intervention historical frame. Light paragraph reflow only; ASR names preserved where normalization confidence is low.
-editorial_note: Wire-verify batch 2026-06-08–09.
+source_note: "Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported Dahiyeh red-line cycle + Iran axis-response equation (AJ 8 Jun); Israel Lebanon occupation south to Litani continues (AJ); UNIFIL mandate misuse claim — UNIFIL present south Lebanon wire-confirmed operations contested (UNIFIL/AJ); verify:wire-partial Mediterranean/NATO front escalation — no wire-matched new NATO Article 5 trigger 8 Jun; verify:wire-out-of-scope Baud trap/ego Netanyahu green-light interpretation State Dept Israel-requested intervention historical frame. Light paragraph reflow only; ASR names preserved where normalization confidence is low. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
 opening_tier: host-tease
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 26 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Col. Jacques Baud: Iran & Israel Just Opened a NEW WAR FRONT in the Mediterranean
 
 **Channel:** Dialogue Works (Nima R. Alkhorshid)  

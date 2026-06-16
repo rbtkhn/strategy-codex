@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-07
 pub_date: 2026-06-07
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -15,12 +15,13 @@ title: IRAN LAUNCHES MISSILES TO ISRAEL, IRAN WAR OFFICIALLY RESTARTS – w/ Lt.
 source_url: "https://www.youtube.com/watch?v=QFKjJHKh07w"
 youtube_id: QFKjJHKh07w
 source_type: youtube
-transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript for June 7, 2026 Mario Nawfal / Lt. Col. Anthony Aguilar interview on Iran-Israel exchange and Trump-Netanyahu restraint failure. Separable closing lineup promo to General Randy Manor segment removed.
-editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+source_note: "Operator-pasted YouTube transcript for June 7, 2026 Mario Nawfal / Lt. Col. Anthony Aguilar interview on Iran-Israel exchange and Trump-Netanyahu restraint failure. Separable closing lineup promo to General Randy Manor segment removed. · ASR pass 2026-06-15."
 opening_tier: host-monologue
+normalization_state: ai_assisted_proper_noun_cleanup
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 28 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # IRAN LAUNCHES MISSILES TO ISRAEL, IRAN WAR OFFICIALLY RESTARTS – w/ Lt. Col. Anthony Aguilar
 
 **Show:** Mario Nawfal  
@@ -64,13 +65,13 @@ If you ask me, did we know that is that Israel was going to bomb Beirut? We knew
 
 just today as we talked about yesterday but then released today Pakistan's interior minister uh Moshin Naki met with the the the representative highest ranked s of Iran with a message from the the Pakistani military field marshal to say here's this delivered message. We still don't know what was >> tot directly to the Supreme >> directly directly.
 
->> Um Israi officials told Israel Hayam quote we will respond to Iran's attack even if even if it does not happen in the immediate time frame. That's a positive development. Um and Netanyah chairing a security cabinet meeting with Katz Zamir the chief of staff and the rest of the security establishment. Um and let's not forget Mario layer that with just days ago in a strike north of the Latani River um excuse me the the the strikes against the Beirut which is a suburb of Beirut were the strikes that happened just over the last 12 hours 24
+>> Um Israi officials told Israel Hayam quote we will respond to Iran's attack even if even if it does not happen in the immediate time frame. That's a positive development. Um and Netanyahu chairing a security cabinet meeting with Katz Zamir the chief of staff and the rest of the security establishment. Um and let's not forget Mario layer that with just days ago in a strike north of the Latani River um excuse me the the the strikes against the Beirut which is a suburb of Beirut were the strikes that happened just over the last 12 hours 24
 
 hours. The strike in Cafer Tebnit, which is north of the Latani River, that was the strike that Israel conducted against the Lebanese army, killing Brigadier General Samir Sabra and two other military officers that were with him. And simultaneous to that, when Donald Trump said, uh, I'm I'm talking with leaders at Hezbollah, um, the Hezbollah leadership for the Hezbollah Southern Command, Naimm Kasam comes back and says, there's no talks.
 
 That's fake and it's futile until this offensive stops. So the leader of KzPollah has spoken. There's no talks. Senior leadership in the Lebanese army has been assassinated. And now Israel has struck uh Dia Hezbollah headquarters in the southern suburbs of Beirut. All of this happening in the last 24 to 24, you know, essentially 24 hours.
 
-Um so where's the offramp? What discussions may bring this down when the tensions are so high and we still have, you know, there's there's still the US and Iran are still exchanging uh missiles and and and fire uh uh firing at each other in the straighter kmoose. So, so that's escalating. And here's another thing that a lot of people missed in today's morning news as they were having their coffee and and maybe watching uh Fox and Friends on Sunday was that the United States has now announced that they recently conducted a test off of the USS Rhode Island,
+Um so where's the offramp? What discussions may bring this down when the tensions are so high and we still have, you know, there's there's still the US and Iran are still exchanging uh missiles and and and fire uh uh firing at each other in the Strait of Hormuz. So, so that's escalating. And here's another thing that a lot of people missed in today's morning news as they were having their coffee and and maybe watching uh Fox and Friends on Sunday was that the United States has now announced that they recently conducted a test off of the USS Rhode Island,
 
 which is another Ohio class nuclear submarine. They conducted a test of a Trident 2 D5 missile, not armed with a nuclear warhead, but they tested it off the coast of Florida in this big exercise that's happening right now on the US East Coast called demonstration and shakedown operation 29. They do it every year. It's called Dasso, Dasso 29.
 

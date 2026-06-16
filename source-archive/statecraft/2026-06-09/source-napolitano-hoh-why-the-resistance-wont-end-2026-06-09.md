@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-09
 pub_date: 2026-06-09
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Judge Andrew Napolitano
 guest_people:
@@ -23,14 +23,14 @@ channel_slug: judging-freedom
 channel_url: "https://www.youtube.com/@judgingfreedom"
 source_url: "https://www.youtube.com/watch?v=ZsCmk-H7TiE"
 youtube_id: ZsCmk-H7TiE
-source_note: Operator-pasted transcript; host self-dates Tuesday 9 June 2026. verify:wire-supported Apache down + Trump Truth Social response 8 Jun (CENTCOM/Truth Social); DIA Israel critical threat (Barnes pass/NYT lane); Israel spying Colby/Witkoff (NYT/NBC); Iran–Israel pause 8–9 Jun (BBC); Houthis ban 8 Jun (Straits Times); verify:wire-partial Netanyahu Knesset no speech — JPost/TOI cycle supported exact no wording not re-pulled; Dropsite Congress denial DIA — partial; verify:wire-contested US non-intercept harmonized (NBC/CNN vs Al-Monitor self-defense fires); verify:wire-out-of-scope 150% reprisal doctrine Iran winning resistance Nakba root Trump 37x deal rhetoric Hoh in-voice.
-editorial_note: Wire-verify batch 2026-06-08–09.
+source_note: "Operator-pasted transcript; host self-dates Tuesday 9 June 2026. verify:wire-supported Apache down + Trump Truth Social response 8 Jun (CENTCOM/Truth Social); DIA Israel critical threat (Barnes pass/NYT lane); Israel spying Colby/Witkoff (NYT/NBC); Iran–Israel pause 8–9 Jun (BBC); Houthis ban 8 Jun (Straits Times); verify:wire-partial Netanyahu Knesset no speech — JPost/TOI cycle supported exact no wording not re-pulled; Dropsite Congress denial DIA — partial; verify:wire-contested US non-intercept harmonized (NBC/CNN vs Al-Monitor self-defense fires); verify:wire-out-of-scope 150% reprisal doctrine Iran winning resistance Nakba root Trump 37x deal rhetoric Hoh in-voice. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Ideological cold open and My Patriot Supply sponsor block trimmed; closing schedule promo stripped. ASR artifacts retained (Npalitano, Hammuz, agida, etc.).
 opening_tier: host-tease
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 12 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # CPT. Matt Hoh : Why the Resistance Won't End
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  

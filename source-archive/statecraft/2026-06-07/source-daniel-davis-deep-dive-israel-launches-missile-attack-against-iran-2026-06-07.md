@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-07
 pub_date: 2026-06-07
-kind: transcript
+kind: cleaned-transcript
 source_form: solo
 host_people:
   - Daniel Davis
@@ -9,19 +9,21 @@ guest_people: []
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "BREAKING: ISRAEL LAUNCHES MISSILE ATTACK AGAINST IRAN"
 source_url: "https://www.youtube.com/watch?v=dnwkC2sIMQA"
 youtube_id: dnwkC2sIMQA
 channel_slug: daniel-davis-deep-dive
-source_note: "Operator-pasted YouTube transcript. Davis self-dates Sunday breaking edition; archive date aligned to spoken event day (Iran-Israel exchange since April, Trump-Netanyahu restraint failure same night as June 7 bench). Pentagon Israel-spying bench names Witkoff, Colby, DiMino. verify:wire-supported Israel struck Iran after Trump no-retaliation public line (8 Jun cycle); spying on Witkoff/Colby/DiMino IV (NYT/NBC); verify:wire-contested Israel intercepted all Iranian missiles (low historical intercept rate — daylight TBD at air); Davis title drift on DiMino preserved in body."
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR Mike Demino normalized to Michael P. DiMino IV — Deputy Assistant Secretary of Defense (Middle East) per war.gov/DoD; NYT/NBC Jun 2026 espionage target alongside Colby and Witkoff. Davis in-voice "deputy secretary of war for Middle Eastern affairs" preserved (ASR/title drift). Wire-verify 2026-06-09. Other ASR artifacts retained (Steve Whit/Witkoff, Bridge KBY/Colby, etc.).
+source_note: "Operator-pasted YouTube transcript. Davis self-dates Sunday breaking edition; archive date aligned to spoken event day (Iran-Israel exchange since April, Trump-Netanyahu restraint failure same night as June 7 bench). Pentagon Israel-spying bench names Witkoff, Colby, DiMino. verify:wire-supported Israel struck Iran after Trump no-retaliation public line (8 Jun cycle); spying on Witkoff/Colby/DiMino IV (NYT/NBC); verify:wire-contested Israel intercepted all Iranian missiles (low historical intercept rate — daylight TBD at air); Davis title drift on DiMino preserved in body. · ASR pass 2026-06-15."
 proper_noun_normalize_applied: true
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
+normalization_state: ai_assisted_proper_noun_cleanup
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 26 substitutions; not human-verified verbatim; verify before quotation."
 ---
 # BREAKING: ISRAEL LAUNCHES MISSILE ATTACK AGAINST IRAN
 
@@ -60,7 +62,7 @@ States when even at our highest levels in our military national security apparat
 
 action subsequent to that action which was antithetical to American interests and helpful only to the personal desires of Benjamin Netanyahu and he did it. So, one wonders why are you bothering to conduct espionage when you already have the highest level official in your pocket.
 
-And then even with Steve Whit, that was an interesting that did take me a little bit by surprise that the Israeli side was spying on even him and one would imagine Kushner as well since they were on the phone during the negotiations with Iran, the ones that led to the start of the war when Witoff subsequently went on and lied on television about what was happening in those negotiations.
+And then even with Steve Whit, that was an interesting that did take me a little bit by surprise that the Israeli side was spying on even him and one would imagine Kushner as well since they were on the phone during the negotiations with Iran, the ones that led to the start of the war when Witkoff subsequently went on and lied on television about what was happening in those negotiations.
 
 We've covered in a previous episode. You can go back and look at that. But if that's the case, if he's on the phone with Netanyahu and and clearly doing Netanyahu's bidding afterwards, why are you bothering to do spying on him as well? But that just shows you the depth to which Israel has control of the government here.
 
@@ -82,7 +84,7 @@ I'm I'm just always hopeful that somehow it will there is some kind of a bottom 
 
 Uh the the likelihood I think is that Iran will strike back harder against Israel tomorrow sometime maybe even between now and sun up here in Washington. We'll we'll see how what happens when we wake up in the morning. But I fear that that's exactly what is is going to happen that Iran is going to do something more in this time that uh if it was before. We'll wait and see.
 
-But if if if they don't, Israel doesn't intercept all these missiles and they start hitting things of of pain for the Israeli side, then the likelihood is that they then go on another big barrage and strike back again even harder on targets in Thran. One can imagine that that would happen then. And then the question is going to be what will Trump do then? Will he say, "Okay, I told you guys not to. You did anyway.
+But if if if they don't, Israel doesn't intercept all these missiles and they start hitting things of of pain for the Israeli side, then the likelihood is that they then go on another big barrage and strike back again even harder on targets in Tehran. One can imagine that that would happen then. And then the question is going to be what will Trump do then? Will he say, "Okay, I told you guys not to. You did anyway.
 
 " Let me know how this works out. We're just going to be sit back here and watching how things go. We'll see if that's going to be working. I mean, he has a lot of work to do on his uh reflecting pool and some fountains in Washington DC. Surely things that'll keep him busy. So, he didn't have time to mess with that kind of nonsense, one hopes.
 
@@ -104,7 +106,7 @@ We, uh, have a show scheduled for 10:00 a.m. Washington time where we'll give yo
 
 So, it's not as though that Iran can is going to take these missiles in the teeth, do nothing, and Israel continue to uh attack issues, targets, especially in Beirut or continue to fight Hezbollah and then think that Iran's not going to do anything more. They're going to so we'll we'll see how that's going to happen. The interesting thing, the view first things out of Tehran tonight uh have not been that they're afraid or whatever.
 
-There's actually been pro not protest celebrations in the street of Thrron that they were out there proh celebrating what is happening and in support of their government saying yeah do more. So even though missiles had already come in by then they still were out there celebrating. So if anybody thinks that this is going to scare the population and and cause them to to waver and quake and turn against their government, it's the opposite is happening.
+There's actually been pro not protest celebrations in the street of Tehran that they were out there proh celebrating what is happening and in support of their government saying yeah do more. So even though missiles had already come in by then they still were out there celebrating. So if anybody thinks that this is going to scare the population and and cause them to to waver and quake and turn against their government, it's the opposite is happening.
 
 In fact, a lot of them apparently are saying why has this taken so long? So we'll we'll see where that goes as well. Um the Iranian regime, the Israeli side said the Iranian regime has made a grave error is the is one of the statements their military advisor said. Uh we will not allow it. They will continue on to fight etc.
 

@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-09
 pub_date: 2026-06-09
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Glenn Diesen
 guest_people:
@@ -24,14 +24,14 @@ title: "Douglas Macgregor: New World - Israel Dying, NATO Dead & U.S. Defeated b
 channel_slug: glenn-diesen
 source_url: "https://www.youtube.com/watch?v=wZ-lE4hSM80"
 youtube_id: wZ-lE4hSM80
-source_note: Operator-pasted transcript; Diesen hosts Macgregor 9 Jun 2026. verify:wire-supported Houthis Israeli-shipping ban 8 Jun (Straits Times); Lebanon+Gaza Iran gate (AJ); Trump not in control Netanyahu disobedience (Axios/BBC); Iran–Israel pause fragile (BBC); verify:wire-partial Section 244 citation — likely NDAA §224 family conflation check; Putin Ukraine offensive west — ISW northern ops partial not breakthrough; verify:wire-unclear NK troops Belarus 20–30k; NATO moribund Zelensky letter deferred; verify:wire-out-of-scope Iran won Persian Gulf multipolar-shift RMA mesh impeachment-donor trap bases-as-liability op-ed frame.
-editorial_note: Wire-verify batch 2026-06-08–09.
+source_note: "Operator-pasted transcript; Diesen hosts Macgregor 9 Jun 2026. verify:wire-supported Houthis Israeli-shipping ban 8 Jun (Straits Times); Lebanon+Gaza Iran gate (AJ); Trump not in control Netanyahu disobedience (Axios/BBC); Iran–Israel pause fragile (BBC); verify:wire-partial Section 244 citation — likely NDAA §224 family conflation check; Putin Ukraine offensive west — ISW northern ops partial not breakthrough; verify:wire-unclear NK troops Belarus 20–30k; NATO moribund Zelensky letter deferred; verify:wire-out-of-scope Iran won Persian Gulf multipolar-shift RMA mesh impeachment-donor trap bases-as-liability op-ed frame. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (McGregor, Hisbah/Isbelah, Zalinski, straight of Hormuz, etc.).
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 9 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Douglas Macgregor: New World - Israel Dying, NATO Dead & U.S. Defeated by Iran
 
 **Channel:** Glenn Diesen  
@@ -49,7 +49,7 @@ ready to retaliate So all is not well and uh I was wondering what do you see as 
 So I I think uh that your your assessment is accurate. It's profound change. It's not necessarily in the direction that we in the west would like particularly the United States but it's going to happen anyway. And the smart thing would be for the United States to accommodate it. You know in this sense Britain was very stupid in the first part of the 20th century.
  it could have accommodated the rise of German influence and power without any difficulty at all. Instead, uh Britain's refusal to accommodate Germany led to an inevitable war that destroyed almost everybody in Europe. So, there's not much evidence out there for common sense and uh let's put it this way, tolerance for anything. That's depressing.
  Now, is there any good news? Yes. The difference is that we are really financially extraordinarily leveraged and as a result very fragile. This almost never seems to come up for discussion, Glenn. You know, when someone like you says, "Well, it looks like we're going to go to war with Russia." Well, that's absurd.
- There's not going to be any war with Russia. The Europeans can't fight. They don't have anything. They're leveraged up to the hilt. They're in very fragile condition. They're dealing with an electricity bill that is beyond anybody's imagination. Uh the French are the only ones that are not suffering dearly under uh price hikes and electricity because they're so heavily dependent on nuclear power.
+ There's not going to be any war with Russia. The Europeans can't fight. They don't have anything. They're leveraged up to the hilt. They're in very fragile condition. They're dealing with an electricity bill that is beyond anybody's imagination. Uh the French are the only ones that are not suffering dearly under uh price hikes and electricity because they're so heavily dependent on nuclair power.
  But Germany and Italy and other countries are really suffering. German industry without uh reasonably priced energy, which is certainly not what we're charging the Germans when it comes to liqufied natural gas, uh has really hurt Germany tremendously. Germany is no longer competitive as a result of the loss of cheap energy.
  So you look at an enormous firm like VW, which is an institution in Germany. They're shutting down plants left and right. And surprise, surprise, there's tremendous unrest in Germany. Now, you add to all of those problems the the presence of millions and millions of unwanted non-Europeans. Uh most of them are Muslims, but not all of them.
  And the populations in Europe are are very very restless. They want a return to a better way of life. They want peace at home. They want a reduction in criminality. And they don't support war with Russia. So, how do you get there from here? Well, the last word in this sort of thing is revolution. And you're going to have to have something akin to a revolution.
@@ -104,7 +104,7 @@ Uh, President Putin ended his discussion on the problems with Ukraine with the p
 I I think what he did not say but which is under very serious discussion right now is what he will do offensively from eastern Ukraine into western Ukraine. He's not unaware of the problems in Ukraine. And I'm sure you've seen the film footage from Bohemia in in the very far west uh of Ukraine of people with uh shovels coming out to hit uh recruiters over the head and get rid of them who are trying to take their sons and fathers and put them in the front lines to die in eastern Ukraine.
 Now, Western Ukraine is very interesting because of the various parts of Ukraine, that is without a doubt the most westernized. They were under Austrian rule for almost 200 years and quite happy by the way under Austrian rule. That part of Ukraine uh is renowned for its resistance to things it doesn't like.
  In 1968 when the Warsaw Pact was mobilizing to go into Czechoslovakia, the western Ukrainian military district that include it was really called the Carpathian military district. the areas we're talking about. Practically no one showed up to mobilize. This is 1968. What did the Soviet government do about it? Not much.
-They didn't want to have a fight in Western Ukraine. These people are serious. They've had it. They're sick to death of Zalinski. And I think there's more of that in Western Ukraine than people in the West really understand and uh grasp. That's good news. The bad news is we're doing nothing to support these people and we need to and we can do that by stopping the support for this dictatorship in Kief.
+They didn't want to have a fight in Western Ukraine. These people are serious. They've had it. They're sick to death of Zelensky. And I think there's more of that in Western Ukraine than people in the West really understand and uh grasp. That's good news. The bad news is we're doing nothing to support these people and we need to and we can do that by stopping the support for this dictatorship in Kief.
  Now, in the meantime, I think there are serious discussions about offensive operations into Western Ukraine. If you look at the positioning of Russian forces right now, there are three major concentrations. There is one in the south near Zamarisha. There's another further north that is aimed generally speaking beyond Cheriggo from Sunumi and so forth towards Kief.
 There is a third in Bele Russia. The third one in Beler Russia, I'm told, includes somewhere between 20 and 30,000 North Korean troops. So there are three concentrations that could near simultaneously or in sequentially attack and I think it would be a gamecher if they did that. Now people are who think well the Europeans are going to act in response to this.
  My advice to the Europeans is don't even think about it because it won't work out well for you. I do not think President Trump will be involved. In fact, if anything, I think that would persuade him to withdraw whoever is on the ground in Western Ukraine right now that is working for the United States government or the intelligence departments.
@@ -144,5 +144,5 @@ That has proved impregnable for us. It's impregnable because they're also benefi
  The world is moving in that kind of a direction. I think that's a better solution than the one that we've had for the last 80 years. Because the last 80 years has been predicated on the assumption that if somebody attacks nation X that's allied with the United States that we will suddenly launch nuclear weapons and put our cities, our population at immediate risk of annihilation in order to protect a small state on the periphery of Eurasia.
 I don't think that was ever realistic, by the way. Neither did Dwight Eisenhower, which is why he said when he agreed to sign us on for NATO that if NATO lasts for more than 10 years, we have failed because he felt strongly that we should adopt a different approach. And incidentally his recommendation in the 50s was that Poland, Lithuania, Latvia, Estonia, the Czech and Slovak republics and Hungary and Romania and Bulgaria be neutral.
 Gosh, what an idea. That would have been a much better path than where we're now in terms of uh instead uh criminalizing neutrality. But uh as you said, I think the you know, we're ruled by people and people need time to adjust and uh you know, under the unipolar moment, hosting US troops gave you absolute security.
- Now with a declining hedgeimon, I think it invites problems uh and make a target of them. Um anyways, we we run out of time. I hope to ask you about the Sinsky letter and whether or not NATO is dead, but we'll we have to do that next time. I think I think it's pretty I think it's pretty morabund. You know, the Zalinski letter is not going to breathe new life into NATO.
+ Now with a declining hedgeimon, I think it invites problems uh and make a target of them. Um anyways, we we run out of time. I hope to ask you about the Sinsky letter and whether or not NATO is dead, but we'll we have to do that next time. I think I think it's pretty I think it's pretty morabund. You know, the Zelensky letter is not going to breathe new life into NATO.
 >> Oh, that's a one of the more ridiculous things I read. So, uh well, thank you very much for your time. >> Thank you. Bye-bye.

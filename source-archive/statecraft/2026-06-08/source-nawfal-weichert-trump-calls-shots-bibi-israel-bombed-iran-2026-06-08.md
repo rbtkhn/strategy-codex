@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-09
 pub_date: 2026-06-08
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Mario Nawfal
 guest_people:
@@ -21,15 +21,16 @@ guest: Brandon J. Weichert
 title: "TRUMP: \"I CALL ALL THE SHOTS, BIBI DOESN'T\" — THEN ISRAEL BOMBED IRAN – w/ Brandon Weichert"
 source_url: "https://www.youtube.com/watch?v=g8QReaWLXSk"
 youtube_id: g8QReaWLXSk
-source_note: "Operator-pasted transcript; Nawfal×Weichert command-fracture bench (Trump junior partner, Netanyahu rogue, Iranian escalation dominance, WWI analogy, NDAA attrition read). verify:wire-tier Channel 12 17-hour timeline — Hebrew media not independently pulled; verify:contested US tanker refueling/ISR for Israeli Iran strikes (Weichert vs Nawfal in-show); verify:unverified Netanyahu Hebrew speech clip translation; verify:Houthis total ban Israeli Red Sea navigation — reported in-show, confirm wire; verify:live Hamas spokesperson Iran–US ceasefire must include full Gaza ceasefire — needs primary; verify:CENTCOM disabled tanker Gulf of Oman — check wire; Gaza aid blocked — verify; analyst-tier NDAA/Substack industrial-base thesis not wire primary."
+source_note: "Operator-pasted transcript; Nawfal×Weichert command-fracture bench (Trump junior partner, Netanyahu rogue, Iranian escalation dominance, WWI analogy, NDAA attrition read). verify:wire-tier Channel 12 17-hour timeline — Hebrew media not independently pulled; verify:contested US tanker refueling/ISR for Israeli Iran strikes (Weichert vs Nawfal in-show); verify:unverified Netanyahu Hebrew speech clip translation; verify:Houthis total ban Israeli Red Sea navigation — reported in-show, confirm wire; verify:live Hamas spokesperson Iran–US ceasefire must include full Gaza ceasefire — needs primary; verify:CENTCOM disabled tanker Gulf of Oman — check wire; Gaza aid blocked — verify; analyst-tier NDAA/Substack industrial-base thesis not wire primary. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
 youtube_upload_reconciled: true
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained. Nawfal opening normalize pending post-land hook. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata).
 opening_tier: heavy-banter
 transcript_wrapper_tier: paste-prefix
 opening_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 76 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained. Nawfal opening normalize pending post-land hook. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata)."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # TRUMP: "I CALL ALL THE SHOTS, BIBI DOESN'T" — THEN ISRAEL BOMBED IRAN – w/ Brandon Weichert
 
 **Show:** Mario Nawfal  

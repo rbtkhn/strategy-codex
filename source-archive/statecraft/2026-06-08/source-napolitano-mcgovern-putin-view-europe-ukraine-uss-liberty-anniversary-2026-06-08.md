@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-08
 pub_date: 2026-06-08
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people: ""
 guest_people: ""
 show_title: Judging Freedom
@@ -18,14 +18,13 @@ title: "Ray McGovern: Putin's View of Europe and Ukraine; plus a Sad Anniversary
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=kiWqcTeLaIQ"
 youtube_id: kiWqcTeLaIQ
-source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported USS Liberty anniversary 8 Jun 1967 — historical date; Thomas Massie floor segment operator-transcript; Iran–Israel/Lebanon same-week seam (AJ/BBC); verify:wire-partial Putin view Europe Ukraine — attributed claims only where wire-cited in-body not re-scored; verify:wire-out-of-scope McGovern Putin/Europe interpretive frame third-party deterrence Lebanon recognition gate. Ideological cold open and routine live schedule tail stripped at close.
-editorial_note: Wire-verify batch 2026-06-08–09.
+source_note: "Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported USS Liberty anniversary 8 Jun 1967 — historical date; Thomas Massie floor segment operator-transcript; Iran–Israel/Lebanon same-week seam (AJ/BBC); verify:wire-partial Putin view Europe Ukraine — attributed claims only where wire-cited in-body not re-scored; verify:wire-out-of-scope McGovern Putin/Europe interpretive frame third-party deterrence Lebanon recognition gate. Ideological cold open and routine live schedule tail stripped at close. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
-quality_note: Light cleanup removed ad boundaries and transcript noise; minor ASR artifacts may remain.
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 opening_tier: host-tease
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 22 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # Ray McGovern: Putin's View of Europe and Ukraine; plus a Sad Anniversary
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  

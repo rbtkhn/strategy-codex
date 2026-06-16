@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-09
 pub_date: 2026-06-09
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Mario Nawfal
 guest_people:
@@ -21,14 +21,15 @@ guest: Robert Pape
 title: "BREAKING: HEZBOLLAH INFILTRATES ISRAEL, APACHE SHOT DOWN – w/ Prof. Robert Pape"
 source_url: "https://www.youtube.com/watch?v=4wfVXkp9eGs"
 youtube_id: 4wfVXkp9eGs
-source_note: Operator-pasted transcript; no spoken date in opening. Pub date aligned to operator intake + same-day breaking bench (NYT/Axios Apache near Hormuz; Misgav/Margalyot infiltration reports). Day-100 middle-game frame; Iran survival-to-ambition; escalation dominance; Houthis/Red Sea; non-intercept; Trump-Netanyahu control waning; fall nuclear-test red line. verify:wire-supported Apache down, 2 crew rescued; verify:wire-unclear SAM cause (Axios drone hit later); verify:wire-supported one infiltrator Ramim Ridge, IDF affiliation unconfirmed; verify:wire-contradicted multi-cell Hebrew media; verify:wire-supported Houthis Israel-shipping ban 8 Jun; verify:wire-contested US did not intercept (NBC/CNN/CBS vs Al-Monitor self-defense fires).
+source_note: "Operator-pasted transcript; no spoken date in opening. Pub date aligned to operator intake + same-day breaking bench (NYT/Axios Apache near Hormuz; Misgav/Margalyot infiltration reports). Day-100 middle-game frame; Iran survival-to-ambition; escalation dominance; Houthis/Red Sea; non-intercept; Trump-Netanyahu control waning; fall nuclear-test red line. verify:wire-supported Apache down, 2 crew rescued; verify:wire-unclear SAM cause (Axios drone hit later); verify:wire-supported one infiltrator Ramim Ridge, IDF affiliation unconfirmed; verify:wire-contradicted multi-cell Hebrew media; verify:wire-supported Houthis Israel-shipping ban 8 Jun; verify:wire-contested US did not intercept (NBC/CNN/CBS vs Al-Monitor self-defense fires). · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Nawfal opening-normalize reverted — substantive host-monologue (Apache/infiltration setup) preserved; caption wrapper only. Wire-verify batch 2026-06-08–09 harmonized — Apache crew safe supported; cause unclear (drone vs SAM); infiltration one gunman supported, multi-cell downgraded; Houthis Red Sea ban supported; US non-intercept contested (NBC/CNN vs Al-Monitor).
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 opening_trim_applied: false
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 60 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # BREAKING: HEZBOLLAH INFILTRATES ISRAEL, APACHE SHOT DOWN – w/ Prof. Robert Pape
 
 **Show:** Mario Nawfal  

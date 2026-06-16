@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-09
 pub_date: 2026-06-08
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Judge Andrew Napolitano
 guest_people:
@@ -22,14 +22,13 @@ title: "Prof. Jeffrey Sachs: Is Trump Losing It?"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=-vbRhB69TEY"
 youtube_id: -vbRhB69TEY
-source_note: Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported DIA Israel spying critical threat Colby/Witkoff/DiMino (NYT/NBC/TOI 6 Jun); Pew 59% wrong-decision 61% disapprove Trump Iran handling Apr survey (Pew May short-read) — not 67%; Axios Trump-Netanyahu call lane (Axios/Hindu 8 Jun); Iran–Israel exchange Lebanon fuse (AJ/BBC); verify:wire-partial Netanyahu Knesset no — national address halt-for-now not literal no-vote speech (ynet/Fox 8 Jun); Shin Bet political-violence warnings directional; Meet the Press Welker clip not re-pulled; verify:wire-out-of-scope Sachs Trump losing-it thesis.
-editorial_note: Wire-verify batch 2026-06-08–09.
+source_note: "Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported DIA Israel spying critical threat Colby/Witkoff/DiMino (NYT/NBC/TOI 6 Jun); Pew 59% wrong-decision 61% disapprove Trump Iran handling Apr survey (Pew May short-read) — not 67%; Axios Trump-Netanyahu call lane (Axios/Hindu 8 Jun); Iran–Israel exchange Lebanon fuse (AJ/BBC); verify:wire-partial Netanyahu Knesset no — national address halt-for-now not literal no-vote speech (ynet/Fox 8 Jun); Shin Bet political-violence warnings directional; Meet the Press Welker clip not re-pulled; verify:wire-out-of-scope Sachs Trump losing-it thesis. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim.
-quality_note: Ideological cold open and Judging Freedom schedule tail preserved; routine promo close at end.
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 opening_tier: host-tease
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 22 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # Prof. Jeffrey Sachs: Is Trump Losing It?
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  

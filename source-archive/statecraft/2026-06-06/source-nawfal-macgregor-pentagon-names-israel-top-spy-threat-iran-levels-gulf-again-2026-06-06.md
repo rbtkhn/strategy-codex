@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-07
 pub_date: 2026-06-06
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 host_people: ""
 guest_people: ""
@@ -14,12 +14,13 @@ guest: Douglas Macgregor
 title: PENTAGON NAMES ISRAEL TOP SPY THREAT, IRAN LEVELS GULF AGAIN– w/ Col. Douglas Macgregor
 source_url: "https://www.youtube.com/watch?v=di3VvTTJEYo"
 source_type: youtube
-transcript_type: operator_pasted_transcript
-source_note: Operator-pasted YouTube transcript for the June 6, 2026 Mario Nawfal / Col. Douglas Macgregor interview. Closing lineup promo to Malcolm Nance removed; substantive interview body preserved.
-editorial_note: Light cleanup only for routing-safe punctuation and obvious spacing.
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+source_note: "Operator-pasted YouTube transcript for the June 6, 2026 Mario Nawfal / Col. Douglas Macgregor interview. Closing lineup promo to Malcolm Nance removed; substantive interview body preserved. · ASR pass 2026-06-15."
 opening_tier: host-monologue
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # PENTAGON NAMES ISRAEL TOP SPY THREAT, IRAN LEVELS GULF AGAIN– w/ Col. Douglas Macgregor
 
 **Show:** Mario Nawfal  

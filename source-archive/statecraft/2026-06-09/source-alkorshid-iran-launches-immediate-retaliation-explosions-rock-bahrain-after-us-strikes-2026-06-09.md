@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-10
 pub_date: 2026-06-09
-kind: transcript
+kind: cleaned-transcript
 source_form: solo
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Nima R. Alkhorshid
 guest_people: []
@@ -20,13 +20,14 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=8-_HAsWoFws"
 youtube_id: 8-_HAsWoFws
-source_note: Operator-pasted transcript; Nima solo from Brazil, self-dates night of 9 June 2026 (~midnight local). Apache Strait of Hormuz hit — Trump Truth Social; CNN Shahed-136 drone report; no Iranian govt confirmation or wreckage footage in-voice; Larry Johnson RT skepticism on pilot rescue if drone hit. US three-wave strikes on Siri Island (telecom tower + two water tanks), Jask port, Bash Island — fighters + drones, IRGC claims two drones intercepted. IRGC retaliation — Bahrain US naval base (footage after delay), Jordan Muwaffaq Salti / F-35 hangers + C2 (four missiles + drone combo per IRGC), Kuwait targets developing; IRGC claims 21 targets / NYT US official denial cited in-voice. False early Israel-Beirut attack rumor. Trump/Vance deal rhetoric vs live strikes; helicopter-as-casus-belli skepticism (Israel proxy thesis). verify:wire-pending Bahrain base hit footage + local explosion count; verify:wire-pending Jordan Salti/F-35 damage; verify:wire-pending Kuwait targets; verify:wire-pending US island strike package (Siri/Jask/Bash); verify:wire-contested Apache cause and Iranian MFA silence (cross-ref matrix S2, Aguilar, Davis Qeshm); verify:wire-pending IRGC 21-target claim vs US denial; verify:wire-out-of-scope GCC domestic politics, Shia-Sunni unity thesis, Jared Kushner/Miller running show, fullscale-war preference menu.
+source_note: "Operator-pasted transcript; Nima solo from Brazil, self-dates night of 9 June 2026 (~midnight local). Apache Strait of Hormuz hit — Trump Truth Social; CNN Shahed-136 drone report; no Iranian govt confirmation or wreckage footage in-voice; Larry Johnson RT skepticism on pilot rescue if drone hit. US three-wave strikes on Siri Island (telecom tower + two water tanks), Jask port, Bash Island — fighters + drones, IRGC claims two drones intercepted. IRGC retaliation — Bahrain US naval base (footage after delay), Jordan Muwaffaq Salti / F-35 hangers + C2 (four missiles + drone combo per IRGC), Kuwait targets developing; IRGC claims 21 targets / NYT US official denial cited in-voice. False early Israel-Beirut attack rumor. Trump/Vance deal rhetoric vs live strikes; helicopter-as-casus-belli skepticism (Israel proxy thesis). verify:wire-pending Bahrain base hit footage + local explosion count; verify:wire-pending Jordan Salti/F-35 damage; verify:wire-pending Kuwait targets; verify:wire-pending US island strike package (Siri/Jask/Bash); verify:wire-contested Apache cause and Iranian MFA silence (cross-ref matrix S2, Aguilar, Davis Qeshm); verify:wire-pending IRGC 21-target claim vs US denial; verify:wire-out-of-scope GCC domestic politics, Shia-Sunni unity thesis, Jared Kushner/Miller running show, fullscale-war preference menu. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Formos, hormones, Shawhead, Siri/Syria island, Bengur, Netu, etc.). Solo-brief — preserve Brazil/timezone preamble. Developing-story seam — pair with wire-verify matrix S2, Davis Qeshm breaking, Aguilar Apache bench before daily synthesis floor.
 opening_tier: solo-brief
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Iran LAUNCHES Immediate Retaliation: Explosions Rock Bahrain After US Strikes
 
 **Channel:** Dialogue Works (Nima R. Alkhorshid)  
@@ -37,11 +38,11 @@ transcript_wrapper_tier: clean
 
 ## Transcript
 
-Hi everybody. Today I want to say today, but it's tonight. Tonight is June 9th, 2026. And I'm here to talk about what's going on between Iran and the United States. Today we've learned that an American helicopter, Apache helicopter was hit in the straight of foremost and it was reported by mainstream media in the United States.
+Hi everybody. Today I want to say today, but it's tonight. Tonight is June 9th, 2026. And I'm here to talk about what's going on between Iran and the United States. Today we've learned that an American helicopter, Apache helicopter was hit in the Strait of Hormuz and it was reported by mainstream media in the United States.
 
-Donald Trump posted on his truth social. He said that they attacked one of our helicopters in the straight of Formos. The helicopter, this Apache helicopter was there to patrol the region. The region means the straight of basically the straight of is part of the you know Iranian and Omani territory and the United States is there to patrol.
+Donald Trump posted on his truth social. He said that they attacked one of our helicopters in the Strait of Hormuz. The helicopter, this Apache helicopter was there to patrol the region. The region means the straight of basically the straight of is part of the you know Iranian and Omani territory and the United States is there to patrol.
 
-I don't know what is the main point of the United States being there. And here is looking at the straight of hormones. Here you see this is the straight of hormones. And then then we what we've learned from the from CNN, it was reported on CNN and then that the helicopter was hit by a drone shot 136 drone. So the whole story about the you know the helicopter was so suspicious and many what was the point and there is no footage of that helicopter and those he they Donald Trump argued that he said that two pilots are safe.
+I don't know what is the main point of the United States being there. And here is looking at the Strait of Hormuz. Here you see this is the Strait of Hormuz. And then then we what we've learned from the from CNN, it was reported on CNN and then that the helicopter was hit by a drone shot 136 drone. So the whole story about the you know the helicopter was so suspicious and many what was the point and there is no footage of that helicopter and those he they Donald Trump argued that he said that two pilots are safe.
 
 You know the helicopter was hit but two pilots are safe and they're not injured or they don't have any sort of problem. So everything's fine, but we're going to respond. This is the main point that we're going to respond. Later on, he said that no, it wasn't that that wasn't a big deal and we don't need to respond to Iranians.
 
@@ -85,9 +86,9 @@ He said two weeks. Then later on, he said in the next two days, we're going to h
 
 No, nobody was killed in that attack. And there is no footage. There is no photo. Nothing. just an argument that one of one of these helicopter Apache Apache helicopters were hit that's all and they started the war so the Iranian so far what we've learned Iran has hit the targets in Jordan in Bahrain and in Kuwait this is the retaliation from Iran and in the initial hours that the United States was attacking Iran there were some sort of news that Israel is attacking Beirut, which later on we've learned that that was false. That was
 
-that didn't happen. So, it seems that the whole case is getting out of the hand in the United States. I don't know who's running the show in the United States. And what is the main objective of these sort of teeth for tat? Because this is the problem. Iran is is defending itself. The United States is attacking Iran and they're using the straight of foremost.
+that didn't happen. So, it seems that the whole case is getting out of the hand in the United States. I don't know who's running the show in the United States. And what is the main objective of these sort of teeth for tat? Because this is the problem. Iran is is defending itself. The United States is attacking Iran and they're using the Strait of Hormuz.
 
-There is no there is no reason for the United States to be in the straight of foremost because the straight of foremost is a you know it's part of the Iranian territory is part of the Omani territory who's the United States to be there if they get hit close to the straight of foremost this is not international waters that's the main point based on international law they cannot claim anything.
+There is no there is no reason for the United States to be in the Strait of Hormuz because the Strait of Hormuz is a you know it's part of the Iranian territory is part of the Omani territory who's the United States to be there if they get hit close to the Strait of Hormuz this is not international waters that's the main point based on international law they cannot claim anything.
 
 So it seems in my opinion, my understanding is that Donald Trump is, you know, under tremendous pressure in the United States. He's part of this. He's part of this Israeli agenda. He cannot get out of this. And as time goes, you you may, you know, he can argue that he's more than I think in the last three months, he he literally argued more than more than 50 times that he's getting close.
 
@@ -141,9 +142,9 @@ The country is under tremendous pressure economically. But the difference betwee
 
 There is a disease called butterfly you know the disease that is the skin is getting so sensitive and they have some sort of problem with the skin and Sweden was part of that sanction. They said, "We're not going to give you, you know, the remedies or, you know, the medicine for, you know, for that disease." They didn't when they're talking about the sanctions, the medicine is not part of the sanctions.
 
-But since you have to pay, you have to have this sort of payment system and it's all dominated with the United by the United States. So, they're not going to get it from Sweden. And right now Sweden is under tremendous pressure and they're asking they're begging Iranian to let them to use this trade of foremost and Iran says you you remember what you did to us.
+But since you have to pay, you have to have this sort of payment system and it's all dominated with the United by the United States. So, they're not going to get it from Sweden. And right now Sweden is under tremendous pressure and they're asking they're begging Iranian to let them to use this Strait of Hormuz and Iran says you you remember what you did to us.
 
-Just imagine for decades these people were putting pressure on Iranian people with these sanctions. And right now they're begging to get back to what it was before this war started. But it's not going to get back. This rate is gone. It's going to be under the control of Iranian government forever. And the United States is not going to change anything in this trade of foremost.
+Just imagine for decades these people were putting pressure on Iranian people with these sanctions. And right now they're begging to get back to what it was before this war started. But it's not going to get back. the Strait is gone. It's going to be under the control of Iranian government forever. And the United States is not going to change anything in this Strait of Hormuz.
 
 It doesn't matter how many argument they're going to make with these helicopters and later on you may hear that the fighter jet would hit over this rad for most and doesn't matter. They're going to hit back. You you attacking Iran, they're going to hit back. Some people may argue that Iran doesn't need to to go along with the ceasefire that Donald Trump is announcing.
 
@@ -171,9 +172,9 @@ They have occupied the presidency of the United States. Basically occupied. I re
 
 It means how good is Donald Trump for Israel? And who's running the show? Steven Miller together with Jared Kushner. These are the people who are not hearing from basically but they're running the show in my opinion in Washington. JD Vance is nobody in Washington. JD Vance is nobody. Basically nobody. Tulsi Gabbard is out.
 
-Pete Hacket is just look at the guy. Nobody would believe that this guy would the opinion of this guy would matter to anybody in the administration when he talks. Donald Trump is just taking a nap or Marco Rubio and there is a footage. Marco Rubio is talking explaining everything and Donald Trump taking a nap.
+Pete Hegseth is just look at the guy. Nobody would believe that this guy would the opinion of this guy would matter to anybody in the administration when he talks. Donald Trump is just taking a nap or Marco Rubio and there is a footage. Marco Rubio is talking explaining everything and Donald Trump taking a nap.
 
-So this is the reality of the administration. It depends who's talking who's who's more influential in the Trump administration. I think nobody is more influential than Jared Kushner and Steven Miller. These two guys are running the administration. You may argue that you know Radcliffe CIA I don't know what this is these people at least we haven't seen any sort of move on their part to Gabbert the head of intelligence what she said the last report he it was Iran about Iranian nuclear program she said that there is no evidence no sign that Iran
+So this is the reality of the administration. It depends who's talking who's who's more influential in the Trump administration. I think nobody is more influential than Jared Kushner and Steven Miller. These two guys are running the administration. You may argue that you know Radcliffe CIA I don't know what this is these people at least we haven't seen any sort of move on their part to Gabbard the head of intelligence what she said the last report he it was Iran about Iranian nuclear program she said that there is no evidence no sign that Iran
 
 has decided to pursue nuclear bomb no sign since 2003 three. Then Donald Trump came out. I don't care what she's talking about. I decide based on based on my judgment, not what Tulsi Gabbard is talking about. This is the reality. Welcome to the reality. I think the problem for Iranians, they have to decide what they want to do.
 

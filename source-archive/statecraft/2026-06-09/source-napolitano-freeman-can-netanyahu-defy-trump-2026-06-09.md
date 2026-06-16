@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-09
 pub_date: 2026-06-09
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Judge Andrew Napolitano
 guest_people:
@@ -22,17 +22,16 @@ title: "AMB. Chas Freeman: Can Netanyahu Defy Trump?"
 channel_slug: judging-freedom
 source_url: "https://www.youtube.com/watch?v=KSbb4c2JxRE"
 youtube_id: KSbb4c2JxRE
-source_note: Operator-pasted transcript; host self-dates Tuesday 9 June 2026. verify:wire-supported Axios/ABC Trump-Netanyahu profanity call 1 Jun; Pakistan Naqvi mediation stall 7 Jun (Al Jazeera/Anadolu); IAF Iran reach via US tankers war-wide (Times of Israel); Iran disproportionate-reprisal after Beirut red line (AJ); Iran–Israel bilateral pause Lebanon continues (BBC/AJ); Hormuz blockade/contested strait (IEA/war reporting); verify:wire-partial 8 Jun strike required US refuel for reach — tanker-enabled campaign supported single-strike refuel proof unclear; Trump two-weeks Hezbollah contact — in-voice not matched; verify:wire-out-of-scope leak-as-charade Freeman thesis Epstein-file pressure USS Liberty Massie segment.
-editorial_note: Wire-verify batch 2026-06-08–09.
+source_note: "Operator-pasted transcript; host self-dates Tuesday 9 June 2026. verify:wire-supported Axios/ABC Trump-Netanyahu profanity call 1 Jun; Pakistan Naqvi mediation stall 7 Jun (Al Jazeera/Anadolu); IAF Iran reach via US tankers war-wide (Times of Israel); Iran disproportionate-reprisal after Beirut red line (AJ); Iran–Israel bilateral pause Lebanon continues (BBC/AJ); Hormuz blockade/contested strait (IEA/war reporting); verify:wire-partial 8 Jun strike required US refuel for reach — tanker-enabled campaign supported single-strike refuel proof unclear; Trump two-weeks Hezbollah contact — in-voice not matched; verify:wire-out-of-scope leak-as-charade Freeman thesis Epstein-file pressure USS Liberty Massie segment. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. Ideological cold open trimmed in place; SSOT body otherwise preserved. Wire-verify 2026-06-09 — Axios profanity call supported; US tanker enablement for Iran strikes supported (war-wide), specific 8 Jun wave contested; charade thesis = interpretation.
-quality_note: Ideological cold open trimmed; closing schedule promo preserved; residual ASR noise may remain.
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 opening_tier: host-tease
 transcript_wrapper_tier: clean
 napolitano_cold_open_trim_applied: true
 napolitano_leading_noise_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 22 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # AMB. Chas Freeman: Can Netanyahu Defy Trump?
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  

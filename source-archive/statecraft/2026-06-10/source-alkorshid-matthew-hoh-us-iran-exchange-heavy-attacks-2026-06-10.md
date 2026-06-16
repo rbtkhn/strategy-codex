@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-11
 pub_date: 2026-06-10
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Nima Alkhorshid
 guest_people:
@@ -24,13 +24,14 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=ojt4b8ivJ7o"
 youtube_id: ojt4b8ivJ7o
-source_note: Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Iran escalation control / hot-ceasefire rules; Apache shootdown skepticism (no Iranian video credit, mechanical/drone collision read); Jordan Fifth Fleet Bahrain retaliation ladder; Trump 100M-barrel Hormuz convoy claim vs Energy Secretary Chris Wright not aware; Lebanon defensive umbrella / Dahieh threshold; same-week seam with 2026-06-10 cluster (Diesen×Henningsen, Nawfal×Weichert, Kent).
+source_note: "Operator-pasted transcript; host self-dates Wednesday 10 June 2026. Iran escalation control / hot-ceasefire rules; Apache shootdown skepticism (no Iranian video credit, mechanical/drone collision read); Jordan Fifth Fleet Bahrain retaliation ladder; Trump 100M-barrel Hormuz convoy claim vs Energy Secretary Chris Wright not aware; Lebanon defensive umbrella / Dahieh threshold; same-week seam with 2026-06-10 cluster (Diesen×Henningsen, Nawfal×Weichert, Kent). · ASR pass 2026-06-15. · verify:wire-supported J10-4,J10-5 · verify:wire-contested J10-6 · matrix statecraft/daily/2026-06-10-wire-verify-matrix.md"
 evidence_grade: transcript-bearing
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Bonarabas Kasham, Harm's, Arachi, Resi, etc.).
 opening_tier: host-tease
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 6 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
-
 # Matthew Hoh: US & Iran Exchange Heavy Attacks
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  
@@ -57,7 +58,7 @@ They they bombed an empty building.
 Nothing. They achieved. They killed civilians. They killed, you know, four, five civilians. Five casualties. Two of them were killed. Three of them were wounded but none of them were commanders or forces of Hezbollah. Then then it started then yesterday we've learned about this Apache helicopter. There is no evidence you know when they you remember when they were talking about this that rescue mission in the southern part of Isan. They said that there is a pilot the colonel a pilot there and we have to rescue him. We're going to go there and it's between Hestan and the Kohily, two different provinces in the other part of Iran. Then they went to the southern part of Isan. And nobody has ever seen that guy that they rescued. And these two pilots that Donald Trump argued yesterday that they are alive, nothing has happened to them.
 Nothing. There is no footage, no photo, nothing of that Apache helicopter being destroyed or disappeared. somehow.
 What do we know about that? What is your understanding of that?
->> Yeah, I mean it's very similar to what you just said. We just don't know. Uh the uh I mean the biggest thing here is that you know Ne if the Iranians had shot down they would have shown us the video. They would have promoted it. They would have they would have celebrated it. I mean if there's one thing we can count on Iranians doing if they hit an American aircraft they are going to take credit for it. and if they've got evidence, they're gonna post it on Twitter, you know, and the Iranians didn't do that. In fact, the Iranians said, "No, we didn't do it." You know, the Americans should be more careful when they're flying their aircraft around essentially. You know, he said Arachi said something about human error.
+>> Yeah, I mean it's very similar to what you just said. We just don't know. Uh the uh I mean the biggest thing here is that you know Ne if the Iranians had shot down they would have shown us the video. They would have promoted it. They would have they would have celebrated it. I mean if there's one thing we can count on Iranians doing if they hit an American aircraft they are going to take credit for it. and if they've got evidence, they're gonna post it on Twitter, you know, and the Iranians didn't do that. In fact, the Iranians said, "No, we didn't do it." You know, the Americans should be more careful when they're flying their aircraft around essentially. You know, he said Araghchi said something about human error.
 Um, so it's it's possible it got shot down. It's more likely that something accidental happened. Force majour, an act of God occurred. Uh, the aircraft had a mechanical failure. Uh the aircraft uh ran into a drone in the sky.
 Uh what I saw was what I have heard is that it was a shahed uh drone. Uh that can't be used to take down a a a helicopter. It can't be used to take down a plane as far as I know unless they've got some type of new guidance system on it. But those drones essentially fly from point to point.
 These are not the firsterson view drones that we see where you have the camera and it can be steered and directed at something. And drones in that sense uh can be used to attack helicopters.

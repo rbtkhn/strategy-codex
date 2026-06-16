@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-07
 pub_date: 2026-06-07
-kind: transcript
+kind: cleaned-transcript
 source_form: solo
 host_people: ""
 guest_people: "[]"
@@ -15,11 +15,13 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=xj8ocoG-nDw"
 source_type: youtube
-transcript_type: operator_pasted_transcript
-source_note: "Operator-pasted YouTube transcript. Nima records from Brazil after 12:15 a.m. local June 8 but anchors the covered events to U.S. East Coast June 7, 2026 (11:15 p.m.); archive pub_date aligned to spoken U.S. event day."
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
+source_note: "Operator-pasted YouTube transcript. Nima records from Brazil after 12:15 a.m. local June 8 but anchors the covered events to U.S. East Coast June 7, 2026 (11:15 p.m.); archive pub_date aligned to spoken U.S. event day. · ASR pass 2026-06-15."
 opening_tier: solo-brief
+normalization_state: ai_assisted_proper_noun_cleanup
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 12 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # URGENT: Iran & Israel Trade Blows – Yemen Launches, Iran Hits Saudi
 
 **Channel:** Dialogue Works (Nima R. Alkhorshid)  
@@ -100,9 +102,9 @@ And this is little by little moving toward huge escalations. And this is the dis
 
 The reporter asked him after Iranian attack. He said, "No, he's not going to attack Iran because I am I am responsible. I'm running the show, not Benjamin Netanyahu. He has nothing to do. He has to follow what I'm asking him to do." But that's totally the opposite. Just just seeing how Israel attack shows that how useless and weak is the president of the United States.
 
-He's just bragging. The guy is a showman. He's just bragging. He wants to show himself as a big guy and everyone going to follow him and going to take his orders. Benjamin Nadia just humiliating him. Just what happened to tonight is showing how this guy Benjamin Nadia who nobody who's not popular by the way in Israel but has the leverage.
+He's just bragging. The guy is a showman. He's just bragging. He wants to show himself as a big guy and everyone going to follow him and going to take his orders. Benjamin Netanyahu just humiliating him. Just what happened to tonight is showing how this guy Benjamin Netanyahu who nobody who's not popular by the way in Israel but has the leverage.
 
-He has the leverage to put pressure on Trump. And the Zionists are just surrounding Donald Trump in Washington. There is there is nobody right now in his administration to go against these sort of policies. Who's there anymore? Are you hearing anything from JD Vance? The guy is not there anymore. Pete Hacket.
+He has the leverage to put pressure on Trump. And the Zionists are just surrounding Donald Trump in Washington. There is there is nobody right now in his administration to go against these sort of policies. Who's there anymore? Are you hearing anything from JD Vance? The guy is not there anymore. Pete Hegseth.
 
 Who? Who's Marco Rubio? Steven Miller, Jared Kushner, these are ultra Zionist. The administration is just done. They're not going to find any sort of solution for you know for what's going on in the West Asia and it's not the straight of going to be closed. I think sooner or later we're going to learn that bubble manap going to be closed and you see a huge huge repercussion on the global economy as we talk the price of oil is just going up and everything these are huge repercussions out of what's going on what Benjamin Net little attack as as Donald Trump calls it says
 
@@ -144,7 +146,7 @@ now and we don't we we still don't know what has happened it seems some four som
 
 the systems they have to hit to fire missiles at Iran. That's why Iran is responding this way. That's why Iran the assessment is that the United States is participating is part of the war. new round of the war just I don't know I don't know what I don't know what would be what would happen tomorrow because for the timing it seems that the the missiles are they're not going to back down they're not going to back down Iranian are not going to back down Israel is not going to back down as long as the United States is supporting
 
-them let's see who's going to be who's going to have the upper hand. Is it going to be the global economy? Is it going to be the economic pressure on Donald Trump or Benjamin Netanyahu? Because basically there are two force right now. We have to see what would be the sum of these two force. Who's going to be the winner? Is it going to be Israel and Benjamin Netna or the global economy and the pressure or the suffering from these huge repercussions of this war because of this trade of foremost or maybe um I I think bubble
+them let's see who's going to be who's going to have the upper hand. Is it going to be the global economy? Is it going to be the economic pressure on Donald Trump or Benjamin Netanyahu? Because basically there are two force right now. We have to see what would be the sum of these two force. Who's going to be the winner? Is it going to be Israel and Benjamin Netna or the global economy and the pressure or the suffering from these huge repercussions of this war because of this Strait of Hormuz or maybe um I I think bubble
 
 mandab going to be in the same you know they're going to close bubble man in the red sea and avoiding Saudi Arabia and let's see what would happen this is what's going on right now. And I in my opinion the escalation it's going to be Israel attacking Iran, Iran attacking Israel, maybe Yemen attacking Israel.
 

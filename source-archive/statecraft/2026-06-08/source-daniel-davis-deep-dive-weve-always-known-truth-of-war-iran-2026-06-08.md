@@ -1,7 +1,7 @@
 ---
 ingest_date: 2026-06-09
 pub_date: 2026-06-08
-kind: transcript
+kind: cleaned-transcript
 source_form: solo
 host_people:
   - Daniel Davis
@@ -9,13 +9,12 @@ guest_people: []
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
-transcript_type: operator_pasted_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "We've Always Known the Truth of War w/Iran"
 source_url: "https://www.youtube.com/watch?v=yu1H2bORJPM"
 youtube_id: yu1H2bORJPM
 channel_slug: daniel-davis-deep-dive
-source_note: Operator-pasted transcript; Davis retrospective on Feb 28 2026 war start citing April 15 2024 Michael P. DiMino IV clips and June 6 2026 Jack Keane clip; DiMino named deputy assistant secretary (Middle East) in-voice; NBC Trump/Welker casualties cited. verify:wire-supported DiMino DASD(Middle East) title; Israel spying target (NYT/NBC); Trump 13 KIA Meet Press 7 Jun; 20 US sites damaged (BBC Verify 1 Jun); wounded ~365+ Pentagon / higher est. unclear exact 400; verify:wire-supported retrospective clips attribution operator-transcript.
-editorial_note: Operator-pasted transcript body; not independently verified as verbatim. ASR Demino/DiMinno normalized to Michael P. DiMino IV — Deputy Assistant Secretary of Defense (Middle East); Defense Priorities colleague in Apr 2024 clips; NYT/NBC Jun 2026 espionage target alongside Colby. Davis in-voice "deputy assistant secretary of war for the Middle East" aligns with DoD title. Wire-verify batch 2026-06-08–09 harmonized. Other ASR artifacts retained (Keane, etc.).
+source_note: "Operator-pasted transcript; Davis retrospective on Feb 28 2026 war start citing April 15 2024 Michael P. DiMino IV clips and June 6 2026 Jack Keane clip; DiMino named deputy assistant secretary (Middle East) in-voice; NBC Trump/Welker casualties cited. verify:wire-supported DiMino DASD(Middle East) title; Israel spying target (NYT/NBC); Trump 13 KIA Meet Press 7 Jun; 20 US sites damaged (BBC Verify 1 Jun); wounded ~365+ Pentagon / higher est. unclear exact 400; verify:wire-supported retrospective clips attribution operator-transcript. · ASR pass 2026-06-15."
 proper_noun_normalize_applied: true
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -24,9 +23,10 @@ threads:
   - davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
-quality_note: Podcast subscribe close stripped at tail.
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation."
 ---
-
 # We've Always Known the Truth of War w/Iran
 
 **Show:** Daniel Davis Deep Dive  
@@ -109,7 +109,7 @@ They're giving good, sound, solid advice. And you might think, at least in a con
 think that the person that said that so confidently and mocked the previous administration for not following his advice might be a little less willing to say dumb things in the future. You would be wrong as as as because that's just it seems like that's what it would be, but it's not.
  As a matter of fact, that same very same Jack Keane earlier this day said this. We are here in negotiations trying to work something out. But what we're insisting on and we have the leverage to do it. We have five weeks of epic fury with two more to go to finish them. We have the naval blockade which is creating economic peril along with the very long list of things that Secretary Besson and his outstanding economic team is doing to impose economic pressure on Iran. So those are our leverage points.
 But what we are trying to achieve in the negotiations is pretty simple. We want our maximalist demands that we would achieve if we were using military force. That is what we want from the regime. >> Why why is everything simple to Jack Keane? That's why he's trying to sell to Trump even to this day.
- I said it was today. That was actually you saw the date on there. It was the 6th of June. So it was a couple of days ago. But in this current environment, he's still trying to sell to President Trump. Look, I know everything I said before proved wrong and I know everything these guys over here, especially the vice president, Tulsi Gabbert, Joe Kent that we know of.
+ I said it was today. That was actually you saw the date on there. It was the 6th of June. So it was a couple of days ago. But in this current environment, he's still trying to sell to President Trump. Look, I know everything I said before proved wrong and I know everything these guys over here, especially the vice president, Tulsi Gabbard, Joe Kent that we know of.
  They said this and they were right. But still, don't worry about it because this time it's going to be easy. It's going to be easy to do and they're going to just fall like a house of cards this time. They're weak as they've ever been. How many times can you keep saying such nonsense when all the things that were involved before are still in effect? used to have the IRGC has most definitely not been brought to its heel.
 The the the missile cities under the ground not only have not been destroyed, they have many of those that had been damaged have been replaced and rebuilt. Many of those that we tried like the Yaz facility, however many times we tried to hit it, we never knocked it out. There was another one and I can't remember which it was name was was hit apparently over 20 times in those 40 days.
  Not knocked out. Still still viable to this day. He knows all that and yet he's still trying to compel President Trump and coers him into going down a course that cannot and will not militarily succeed. And you know, if you would think that somebody who gave such hideously wrong advice would be shamed into keeping his mouth shut.
