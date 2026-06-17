@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Brandon J. Weichert
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: weichert
-threads:
-  - weichert
-  - nawfal
+threads: ""
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Brandon J. Weichert
@@ -27,9 +23,11 @@ youtube_upload_reconciled: true
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # ISRAEL TO MERGE WITH U.S. ARMY & CIA – w/ Brandon Weichert
 
 **Show:** Mario Nawfal  
@@ -209,5 +207,4 @@ So yes, several years ago they were light years behind us. Not anymore. And that
  I always enjoy I always learn a lot with you. Like I got 20 things typed up here to learn, including the guy uh Slater. Samuel >> Samuel Slater. It's also featured. He's featured in two of my books, Winning Space and Biohacked. >> I recommend people read your books. I get the privilege of speaking to you two or three times a week.
  So I'm going to I've got the book here. I could talk to you live [laughter] talking book. >> Yeah. But I'm not going to share everything because I want people to buy the book. So >> people have to [laughter] buy the book. Yeah. >> And please everybody real quick, please subscribe to my Substack. Wikert.substack.com. substack.
 com because you I do a lot of stuff like this in writing. >> Lisa, yeah, Lisa, tell tell the production team. Put it in the description. We don't even put anything in the description. We should have a better description, but Lisa, put it in the description if you don't mind. Thank you, sir. Like comment in the tweet.
->> Um, >> all right. Cool, man. >> Well, I really enjoy till we meet again. Have a good weekend. >> See you, man. >> All right, guys. I'll be live again. I'll be having quick bite and I'll be live again in 12 minutes with Lei, who we've had her once on the show. She's going to become a regular talking about China.
- Um, so I'll see you guys in 12 minutes.
+>> Um, >> all right. Cool, man. >> Well, I really enjoy till we meet again. Have a good weekend. >> See you, man.

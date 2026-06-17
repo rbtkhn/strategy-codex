@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Brandon J. Weichert
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: weichert
-threads:
-  - weichert
-  - nawfal
+threads: ""
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Brandon J. Weichert
@@ -28,9 +24,11 @@ opening_tier: heavy-banter
 transcript_wrapper_tier: paste-prefix
 opening_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 76 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained. Nawfal opening normalize pending post-land hook. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata)."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 76 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained. Nawfal opening normalize pending post-land hook. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. YouTube upload-date reconciliation (pub_date aligned to YouTube Published metadata). Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # TRUMP: "I CALL ALL THE SHOTS, BIBI DOESN'T" — THEN ISRAEL BOMBED IRAN – w/ Brandon Weichert
 
 **Show:** Mario Nawfal  
@@ -200,5 +198,4 @@ Let me go through it. >> Okay. >> At 3:00 p.m. Israel struck an alleged Hezbolla
 >> [laughter] >> I do have a life, but >> So I highly I highly recommend you check it out. Cuz I'm looking at your face >> around at all times. That that is my life. >> I'm pitching. Let me pitch. >> [laughter] >> So I highly recommend you do it. I always check out his pieces. They're full of information. >> And tell your audience to check out check out the the historical phrase Sitzkrieg.
 And that that is what I think also very similar to what we're going through right now. That was sort of that weird interlude between when Britain was was attacked by Hitler and when basically the British Expeditionary Forces were waiting around for World War to really begin and everybody thought was never going to happen because the Germans never came.
  You know, the meme nothing ever happens, but then suddenly the Germans did come and everybody was caught by surprise in Europe. So I think that's another thing to check out for your audiences to Google that the Sitzkrieg. >> We'll check it out. Brendan Thank you so much. >> Till we meet again. >> Till we meet again. >> Hasta la pasta. >> Hasta la pasta.
->> [laughter] >> All right guys, I'll be going live again in 50 minutes with Trita Parsi then we have Stephen Shock and then Larry Johnson. And we have Malcolm Nance, Anthony Aguilar. Incredible lineup as always to continue the coverage as this continues to evolve. I hope you enjoyed the conversation.
- Check out Brendan's uh Substack and I'll see you guys very soon. I'll go through the comments. I got an hour break, so I'll go through the comments now. Bye. >> [snorts]
+>> [laughter]

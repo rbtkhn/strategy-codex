@@ -15,14 +15,16 @@ title: "BREAKING: PAKISTAN \\\"OFFERED IRAN NUKES\\\" - w/ Col. Larry Wilkerson"
 source_url: "https://www.youtube.com/watch?v=X1BVrPUOu5Y"
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Wilkerson interview. · ASR pass 2026-06-15."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Wilkerson interview. · ASR pass 2026-06-15.
 youtube_id: X1BVrPUOu5Y
 opening_tier: heavy-banter
 opening_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 12 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 12 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # BREAKING: PAKISTAN "OFFERED IRAN NUKES" - w/ Col. Larry Wilkerson
 
 **Show:** Mario Nawfal  
@@ -126,5 +128,4 @@ And he was telling me, he's a regular on the show, he's telling me, Mario, I rea
 i think there's enough incentives for them to reach a deal and there would be some sort of middle ground that that putin does not need to strike nato but you know he made a very good argument and he's someone more knowledgeable than me that no i think that he's seriously considering it and it might even you know become inevitable soon so you remember how trump many many moons ago said i could stop it in a heartbeat he could he could that's the sad thing about it he could he could stop it in its material effect on russia and then
 therefore stop it in essence in what it's doing and promising to do even wider, just by simply saying to Zelensky, not a penny more, and saying to his NATO allies who would listen to him, which would probably be most of them ultimately, you don't give them anything else yourself. And it's over. It's over because Zelensky can't survive without that.
 And he's still getting major support from NATO and from Washington. yourself and it's over it's over because Zelensky can't survive without that and he's still getting major support from NATO and from Washington okay I know you have a call shortly so it's a pleasure to have you I'd love to do this again as soon as you're available again because there's a lot more to discuss a lot more to ask you about we haven't really done a deep dive on ukraine yet we never had that chance because of everything that's happening in west asia so i'd love to be able to do this soon good take care
-see you again sometime thank you colonel i hope don't say those words stay safe stay healthy bye kennel yeah um all right guys i'll be live again in exactly seven minutes with anthony aguilar or larry johnson these are i don't know who's first um will be larry johnson perfect timing because me and larry were having this discussion if you remember yesterday and he had a source he was the person i was referencing he had a source a pakistani source that told him that um iran may already have a nuclear weapon a nuclear warhead and they
-might do a test strike as a warning shot for the us and the rest of the world the us and israel and to stop striking them to stay away so it's the ultimate deterrent so i'll bring that up with him i'll tell him what larry wilkinson just said as well to get his thoughts so i'll see you live in seven minutes and let me know what you think of the conversation as well guys bye
+see you again sometime thank you colonel i hope don't say those words stay safe stay healthy bye kennel yeah

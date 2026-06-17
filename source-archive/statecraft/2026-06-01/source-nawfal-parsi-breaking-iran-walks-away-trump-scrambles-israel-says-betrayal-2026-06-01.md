@@ -15,13 +15,15 @@ title: "BREAKING: IRAN WALKS AWAY, TRUMP SCRAMBLES, ISRAEL SAYS BETRAYAL - w/ Tr
 source_url: "https://www.youtube.com/watch?v=jXYdJfaWaOg"
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 1, 2026 Mario Nawfal / Trita Parsi interview. · ASR pass 2026-06-15."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 1, 2026 Mario Nawfal / Trita Parsi interview. · ASR pass 2026-06-15.
 opening_tier: heavy-banter
 opening_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 9 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for routing-safe punctuation and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 9 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for routing-safe punctuation and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # BREAKING: IRAN WALKS AWAY, TRUMP SCRAMBLES, ISRAEL SAYS BETRAYAL - w/ Trita Parsi
 
 **Show:** Mario Nawfal  
@@ -106,5 +108,4 @@ But so far, I haven't been suspended, but I suspect that I'm living on borrowed 
  It's not clear which one they exactly would do. Perhaps they would do everything. Remember before the war there was a lot of speculation and I was part of that speculation. I did not think they were going to strike all of the GCC states within 24 hours. Most of the speculation was where they going to hit the UAE, where they going to hit uh Qatar, would they go as far as hitting Saudi Arabia, but very little uh about them actually hitting all of them.
  And and it turned out that they were operating a way that was completely counter to what a lot of that speculation was. And some of that speculation was based on the signals they had sent. And perhaps those signals were designed to be uh misdirecting people and underestimating them compared to what they were actually planning to do because it was very clear as soon as the war started they were implementing a plan that had already been well established.
  This was the big difference between the US and is and Iran. The American side had one plan, get rid of the supreme leader and then expect everything to collapse. And ever since when that plan A didn't work, they just been improvising the war. Whereas the Iranians were clearly following a structure that had been decided long time ago. Agree.
- Trita, always a pleasure to have you. Thank you so much. >> Thank you so much. Appreciate it. >> All right, guys. I'll be going live in a couple of minutes with Dimmitri Lascaris, um, who's been to Lebanon, been to Iran, covers everything very extensively and is very critical of, um, Israeli action in Lebanon. So, it'll be a good discussion.
- We'll be live at any minute.
+ Trita, always a pleasure to have you. Thank you so much. >> Thank you so much. Appreciate it.

@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_youtube_transcript
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Joe Kent
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: kent
-threads:
-  - kent
-  - nawfal
+threads: ""
 thread_expert: kent
 show: Mario Nawfal
 host: Mario Nawfal
@@ -28,9 +24,10 @@ evidence_grade: transcript-bearing
 opening_tier: heavy-banter
 transcript_wrapper_tier: paste-prefix
 normalization_state: raw_operator_paste
-editorial_note: Operator-pasted transcript; MTG tease close retained; ASR artifacts retained (Bonino/Bongino, Krooks/Crooks, Mersant/Merchant, Marjgerie/MTG, etc.). Not human-verified verbatim. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+editorial_note: Operator-pasted transcript; MTG tease close retained; ASR artifacts retained (Bonino/Bongino, Krooks/Crooks, Mersant/Merchant, Marjgerie/MTG, etc.). Not human-verified verbatim. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 quality_note: Initial land 2026-06-16 via land_statecraft_source_body.py. Host routing corrected Dialogue Works → Mario Nawfal (operator 2026-06-16).
 opening_trim_applied: true
+nawfal_close_promo_trim_applied: true
 ---
 
 # TUCKER: TRUMP STOPPED HIS OWN SHOOTING INVESTIGATION - w/ Joe Kent
@@ -114,4 +111,4 @@ the president deserves a lot of credit for that. My my only concern is that this
 then quietly I would say to the Iranians, look, we said this all very, very publicly. We're letting the Qataris unfreeze hundreds of billions from you. You guys need to kind of back off on how much you want to project power and pick a fight with Israel over what's taking place inside Lebanon.
  Um, but it's going to be it's going to be a give and take. And if if the president's not willing to actually take things away from the Israelis, I'm afraid, you know, Netanyahu's, you know, like you said, as we were coming on here, they just conducted three different strikes inside, you know, Beirut. You can tell the president's frustrated because he's even criticizing them saying like, hey, if you're going after one guy, you don't need to knock down an entire apartment complex. But that's our problem.
  Like, that's just how the Israelis roll. So that is that is the problem with us being so intertwined with the Israelis. That's how they'll conduct all their operations. So, we just have to recognize that and take away capabilities from them so they know we mean business. >> Yeah, I agree. Joe, always a pleasure. Thanks for jumping on.
->> Absolutely. Thank you. >> All right, guys. Um, I'll be going live any minute with Marjgerie Taylor Green. See you guys.
+>> Absolutely. Thank you.

@@ -24,9 +24,10 @@ evidence_grade: transcript-bearing
 opening_tier: heavy-banter
 transcript_wrapper_tier: paste-prefix
 normalization_state: raw_operator_paste
-editorial_note: Operator-pasted YouTube transcript; ASR artifacts retained (Formos/Hormuz, theou, Hexath/Hegseth, etc.). Not human-verified verbatim. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved.
+editorial_note: Operator-pasted YouTube transcript; ASR artifacts retained (Formos/Hormuz, theou, Hexath/Hegseth, etc.). Not human-verified verbatim. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
 quality_note: Initial land 2026-06-16 via land_statecraft_source_body.py; operator paste.
 opening_trim_applied: true
+nawfal_close_promo_trim_applied: true
 ---
 
 # CIA CHIEF WARNS: IRAN NOT SERIOUS ABOUT COMMITTING TO MoU - w/ Prof. Analyst Robert Pape
@@ -142,5 +143,3 @@ hand is doing and I'm looking at this and I'm going I I can't It's surprising to
 >> Okay. Well, we'll wait for the MOU to come out and then we can go through the clauses and see the political. >> I really obviously we need to do that, Mario. And but what I'm basing everything on is the statements that are coming out of Iran plus the realities of the oil inventory drawd down that I think are you people are are talking about this but I don't think they're bringing the two together.
  They're not seeing how the oil inventory drawdown can be used in the negotiations to structure the deal. Why is it 60 days? you know, the the the whole thing here just is this all just coincidence. Yeah. >> Yeah. I I'll also advocate for people to go check out the article you did on Substack on this for a deeper dive.
  But it's always a pleasure to have you, professor. Thank you so much for your time. >> Yeah. And thank you for all you're doing, Mario. I mean, I your interviews are just the absolute best. I mean, my goodness, you get everybody. >> Thank you, professor. Thank you so much. >> Thank you. Byebye. >> Thank you, professor.
- Um, all right, guys. I'll be live again in 13 minutes with Brendan Wert. Otherwise, um I'll go through the comments after the Brandon Wer interview to get your thoughts. What do you think of the MOU? Are you optimistic as well? Are you still pessimistic about what could happen next? Um more importantly, are you optimistic, pessimistic in the short term versus the long term? Because I'm optimistic short-term.
-Very pessimistic long term. Would love to get your thoughts. I'll see you guys in about 15 minutes. Bye.

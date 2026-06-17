@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_youtube_transcript
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Brandon J. Weichert
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: weichert
-threads:
-  - weichert
-  - nawfal
+threads: ""
 thread_expert: weichert
 show: Mario Nawfal
 host: Mario Nawfal
@@ -28,8 +24,9 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: raw_operator_paste
-editorial_note: Operator-pasted transcript body; live MOU clause read-through; not human-verified verbatim. ASR artifacts retained (Hamuz/hummus, theou, Biby, etc.).
-quality_note: "Initial land 2026-06-16; Nawfal opening normalize applied; frontmatter lists repaired."
+editorial_note: Operator-pasted transcript body; live MOU clause read-through; not human-verified verbatim. ASR artifacts retained (Hamuz/hummus, theou, Biby, etc.). Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+quality_note: Initial land 2026-06-16; Nawfal opening normalize applied; frontmatter lists repaired.
+nawfal_close_promo_trim_applied: true
 ---
 
 # BREAKING: FULL IRAN MoU JUST LEAKED TO AXIOS - w/ Brandon Weichert
@@ -171,6 +168,4 @@ They're going to get pulled into the next Democrat administration and day one of
  Uh and uh you know Dr. Art Meni uh is another guy that's been talking a lot about this. This is one of his thesis. Um and he's right. uh this is the new power center and that from there once that power those power centers are solidified. From there you will see Iran truly become I think the fourth or fifth power center globally because it is such an important geostrategic location that Iran sits in.
  They are going to become this regime is going to not only be integrated into the world, they're going to become a very rich and powerful country in the world. Whereas the US is on the outs of the Middle East and Israel is basically a contained micro state. Uh you know this is not this is not a good eventuality for the globalist sort of DC set.
  This is a this is a loss. >> Agree. U Brandon, always a pleasure. I like how the Axiosou leaked during the uh during our live when we have to go through it. That was pretty fun to do. >> Yes. Uh Israeli intelligence loves to launder their stuff when I'm talking. Uh so >> I'll see you next time. >> Talk to you soon. See you, Brandon.
->> Bye-bye. >> All right, guys. I hope you enjoyed the coverage and I'll see you in a couple hours, a bit longer in about three, three and a bit hours with Larry Johnson. If something happens in the meantime, we'll do another interview earlier. And we did the interview with General Manor.
- We'll do it another day when there is more breaking news and developments. Hopefully, we won't see any retaliation by Iran against Israel today. I highly doubt it. It's just a warning. Uh but obviously, if there is, you'll see me live. If you see me live between between now and Larry is uh [ __ ] is hitting the fan. See you guys soon.
-Bye.
+>> Bye-bye.

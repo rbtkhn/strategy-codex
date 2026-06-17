@@ -15,14 +15,16 @@ title: "BREAKING: IRAN ATTACKS KUWAIT - w/ Fmr. CIA Larry Johnson"
 source_url: "https://www.youtube.com/watch?v=uchIKTuLAUo"
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Johnson interview. · ASR pass 2026-06-15."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 2, 2026 Mario Nawfal / Larry Johnson interview. · ASR pass 2026-06-15.
 youtube_id: uchIKTuLAUo
 opening_tier: heavy-banter
 opening_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for wrapper removal, routing-safe punctuation, and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # BREAKING: IRAN ATTACKS KUWAIT - w/ Fmr. CIA Larry Johnson
 
 **Show:** Mario Nawfal  
@@ -87,4 +89,4 @@ Uh >> did he and also Libyans, but that failed there. >> Yeah. Yeah. >> Yeah. He
  So Iran had the technology to build a warhead. I think there's one technology they got from Russia I think is miniaturaturization which plays a role. They don't need it but that makes it easier to make it more compact to add it to a smaller warhead. But they have the technology whether for a small warhead or a larger warhead. They do have at least one nuclear bomb and they may use it as demonstration as a deterrent for the US for Israel to ensure no future aggression.
 >> Right. Yeah. Let's be even with 60% uranium they can create a a nuclear fision they can create a device that will it will be a nuclear bomb but the the that that amount of radiation that amount of enriched uranium does makes a big clunky and it's not really a very manageable bomb. So, yeah, it's something you could create on a platform and stick in the middle of the desert and detonate it and say, "Boom, look, we got one.
 " But it it's not not what you'd get with uh uh 90 uh 90% enrichment. So, anyway, all right, my friend. Well, we'll I presume we'll be talking tomorrow. This is going to keep going. >> It will. It will. No, no other explosions or anything. We're good here. just footage coming out of the interceptions, but I think the back and forth is done.
- So, no no no restart of the war, Larry. >> All right, we'll we'll talk soon. Bye-bye. >> All right, guys. We've got uh uh Lieutenant Colonel Anthony Aguilar joining any minute. So, I'll be stopping this one and going live again with Lieutenant Colonel Anthony Aguilar. Bye, guys.
+ So, no no no restart of the war, Larry. >> All right, we'll we'll talk soon. Bye-bye.

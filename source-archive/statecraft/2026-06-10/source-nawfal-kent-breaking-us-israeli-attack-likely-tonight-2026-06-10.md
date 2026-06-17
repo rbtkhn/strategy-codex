@@ -8,28 +8,26 @@ transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "BREAKING: U.S. AND ISRAELI ATTACK LIKELY TONIGHT – w/ Joe Kent"
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Joe Kent
+host_people: ""
+guest_people: ""
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Joe Kent
 thread: kent
-threads:
-  - kent
-  - nawfal
+threads: ""
 channel_slug: mario-nawfal
 source_url: "https://www.youtube.com/watch?v=_pQ2Ia-rBIA"
 youtube_id: _pQ2Ia-rBIA
-source_note: "Operator-pasted transcript; live Nawfal×Kent breaking bench (Apache unexploded-bomb pivot; Truth Social 100M-barrel Hormuz claim vs Energy Secretary Chris Wright hearing; Kishm radar tit-for-tat; Axios Trump-Netanyahu leak; Israel Beirut show-of-force; NBC/CNN US non-intercept of Iranian missiles to Israel; NDAA Israel R&D integration clause; DIA/NYT Israel counterintel tier with Witkoff/Colby/Demino targets; imminent-strike live track B-52 miscode Poseidon; Operation Freedom 2.0 clearing-operation read; Ken Silva/Tucker Butler autopsy thread). Same-week seam as 9–10 Jun Apache proportional-response cluster. · ASR pass 2026-06-15."
+source_note: Operator-pasted transcript; live Nawfal×Kent breaking bench (Apache unexploded-bomb pivot; Truth Social 100M-barrel Hormuz claim vs Energy Secretary Chris Wright hearing; Kishm radar tit-for-tat; Axios Trump-Netanyahu leak; Israel Beirut show-of-force; NBC/CNN US non-intercept of Iranian missiles to Israel; NDAA Israel R&D integration clause; DIA/NYT Israel counterintel tier with Witkoff/Colby/Demino targets; imminent-strike live track B-52 miscode Poseidon; Operation Freedom 2.0 clearing-operation read; Ken Silva/Tucker Butler autopsy thread). Same-week seam as 9–10 Jun Apache proportional-response cluster. · ASR pass 2026-06-15.
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 9 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 9 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # BREAKING: U.S. AND ISRAELI ATTACK LIKELY TONIGHT – w/ Joe Kent
 
 **Show:** Mario Nawfal  
@@ -165,4 +163,4 @@ Like they went out of the the Butler jurisdiction to a different location to go 
  Yeah, that's I didn't know about the interview until it just popped up on my phone. A quick short, you know, when you get the shorts. Okay. That's not a recent interview. You did that a while ago, I think. >> I think just just last week. >> Oh, there it is. No, two days ago. Yeah. No, there it is. Two days ago. Yeah, I just saw it now.
  I'm going to check it out. Have you watched that interview? >> I have. Yeah, it's really good. And I I followed Ken for for quite some time. I would say he's probably the journalist that's followed um the assassination attempts against President Trump the the the close the most closely. And he's also doing a lot of good FOYA work as well.
  He followed the court case of Marshant. So, he's he's definitely someone to watch. >> Interesting. Okay, I'll tell the team to get me to get him as a guest. Um, I didn't know about the cremation. Thanks for the clarity there. And as always, Joe, pleasure to speak to you. Thanks for jumping on. >> Absolutely, man. Thank you. >> Take care, man.
->> Take care. >> Um, all right, guys. I'll be going live again in 11 minutes. Hopefully, we won't have any bombing between now and then. Um, but as soon if the US decides to strike Iran um tonight with or without Israel, I can guarantee you I'll be live immediately when that happens. Otherwise, I'll be seeing you live again in 11 minutes. See you guys.
+>> Take care.

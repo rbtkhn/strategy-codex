@@ -5,20 +5,16 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Brandon J. Weichert
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: weichert
-threads:
-  - weichert
-  - nawfal
+threads: ""
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Brandon J. Weichert
-title: "TRUMP FED UP WITH ISRAEL, IRAN HOLDS POSITION, ISRAEL CONFUSED - w/ Geopolitics Expert Brandon Weichert"
+title: TRUMP FED UP WITH ISRAEL, IRAN HOLDS POSITION, ISRAEL CONFUSED - w/ Geopolitics Expert Brandon Weichert
 source_url: "https://www.youtube.com/watch?v=a2Lqc7m0SfE"
 youtube_id: a2Lqc7m0SfE
 source_note: "Operator-pasted transcript; Nawfal×Weichert Trump-Netanyahu rupture / hostilities-resume bench (Channel 12/13 Beirut evacuation bluff→strike; 1945 Iran war returning article; Trump pulse talks ongoing vs Katz rhetoric; Project Freedom Nav blocked; Axios leak as strategic leak / Rubio 2028 freelancing; Israel-Ukraine oligarch Mindel Tel Aviv; Massie out / Congress capture; Netanyahu peace impossible / legal jeopardy; Israeli brain-drain / Palantir panopticon; MSAD Barnea regime-change; Iranian officer inevitable hostilities; muted media vs Iraq; Russia Berlin drone factories / Article 5 dead; Sevastopol-Crimea stack; Cancian CSIS 50% depletion vs Weichert Tucker March 1; DIB mountains reconstituted; Sparta Syria resupply). verify:Channel 12 two-call Beirut bluff sequence; verify:Trump pulse Iran talks continuous; verify:Axios Trump-Netanyahu leak; verify:MSAD Barnea regime-change quote; verify:Iranian military officer Tuesday statement; verify:FT NATO nukes Poland report; verify:Sparta Khmeimim resupply; analyst-tier not wire primary. · ASR pass 2026-06-15."
@@ -27,9 +23,11 @@ youtube_upload_reconciled: true
 opening_tier: banter-open
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 64 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 64 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # TRUMP FED UP WITH ISRAEL, IRAN HOLDS POSITION, ISRAEL CONFUSED - w/ Geopolitics Expert Brandon Weichert
 
 **Show:** Mario Nawfal  
@@ -247,7 +245,3 @@ I'd enjoy it. Um all right, man. Well, I think we've covered everything. Always 
 So, I kind of happy I remembered anything at all. Uh, it's been Middle East the whole time. So, anyway, till we meet again.
 >> Talk to you soon, man. Thanks, Brandon.
 >> Bye.
->> All right, guys. Uh, I'll be live again.
-I think Azie's live right now. She just went live about 5 minutes ago. So go check out her episode with Matthew Ho.
-Great guest who's always on the show as a regular. I'll be going live again in So Azie's going to go live. She's live now. She'll be live again after that.
-And then I'll go live I think with Larry Johnson or Larry Wilkinson. And then she got Larry Wilkinson, Colonel Larry Wilkinson, Larry Johnson and Anthony Aguilar. That will be the three interviews that I do. But go check out Azie right now. Bye guys.

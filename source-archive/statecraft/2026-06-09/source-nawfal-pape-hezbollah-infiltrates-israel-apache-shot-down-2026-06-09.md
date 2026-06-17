@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Mario Nawfal
-guest_people:
-  - Robert Pape
+host_people: ""
+guest_people: ""
 show_title: Mario Nawfal
 channel_name: Mario Nawfal
 thread: pape
-threads:
-  - pape
-  - nawfal
+threads: ""
 show: Mario Nawfal
 host: Mario Nawfal
 guest: Robert Pape
@@ -27,9 +23,11 @@ opening_tier: host-monologue
 transcript_wrapper_tier: clean
 opening_trim_applied: false
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 60 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 60 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # BREAKING: HEZBOLLAH INFILTRATES ISRAEL, APACHE SHOT DOWN – w/ Prof. Robert Pape
 
 **Show:** Mario Nawfal  
@@ -187,9 +185,4 @@ I'm I know I'm supposed to be, you know, responding to events and updating and s
 no strategic way to do that. uh because there's no um the president is not in a position to think longer term. January is going to be a different story. And so this is why I've been on all our discussions, Mara, you'll recall you were much more optimistic. I've been telling you I wish that were true over and over, but this is exactly what uh that trajectory looks like.
  And I think it's important to prepare people for what's happening rather than to uh rather than to just simply because the, you know, 70% of the people want to hear something, you tell them what they want to hear. That's just never been what I do. Uh what I do is I just keep trying to explain what I'm seeing.
  And it's not a Democrat thing. It's not a Republican thing. It's a it's not a professor thing. It's a it's it's just what has been my uh my lane in my in my career. And um uh and if you if you follow that then you can start to build something on a more solid foundation. >> Professor, thank you for explaining this and it's always a pleasure to have you.
->> Oh, thank you Mara. You're just doing so much good here with your with your program and your audience. Thank you so much. Your platform is just amazing. >> Thank you so much, Professor. >> Okay. >> Um all right, guys. We do have Arthur Hayes joining in Thomas Hayes, sorry, joining in in less than five minutes.
-I'll be going live. And then we have Anthony Aguilar, Tita Parcy, Larry Johnson, Karen, and Malcolm Nance um to continue the conversation especially about the um helicopter that was shut down in the straight of Huz and the infiltration, the Hezbollah infiltration into Israel. So, just a quick update on that front.
- We do have um the latest update is that the uh lockdown is over. has been lifted. So, it seems the infiltration uh into Israel. All we know about is one member of Hezbollah that infiltrated shot at Israeli troops. Now, I'm not sure if there's more and the um the IDF has not disclosed it, which generally happens relatively often.
- Hebrew media, Israeli media was talking about um potentially being more infiltrations. There was an attempt of an infiltration last night which according to the media failed. There's also reports that there's even a cell hisbala cell inside northern Israel, but none of this has been confirmed. And this is just Hebrew media speculating.
- From what we know so far, it's been one infiltration of one Heisbala member that was shot down by Israeli forces. And on the Apache helicopter, it was shut down in the Shra Humuz. Uh no word from Sentcom yet. Nothing's been officially confirmed and we haven't been informed of any casualties either. Um, we don't know if it's a malfunction or whether it's a surfaceto-air missile that struck down the helicopter.
- My bet would be on the latter considering how Iran's been acting over the last few um uh few days and weeks. I'll see you guys in less than five minutes with Thomas Hayes.
+>> Oh, thank you Mara. You're just doing so much good here with your with your program and your audience. Thank you so much. Your platform is just amazing. >> Thank you so much, Professor. >> Okay.

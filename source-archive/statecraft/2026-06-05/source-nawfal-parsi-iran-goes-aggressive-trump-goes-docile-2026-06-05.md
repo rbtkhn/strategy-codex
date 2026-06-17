@@ -15,13 +15,15 @@ title: IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE - w/ Trita Parsi
 source_url: "https://www.youtube.com/watch?v=4p1phpcrjoQ"
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-source_note: "Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 5, 2026 Mario Nawfal / Trita Parsi interview. · ASR pass 2026-06-15."
+source_note: Operator-pasted YouTube transcript preserved as canonical raw-input capture for the June 5, 2026 Mario Nawfal / Trita Parsi interview. · ASR pass 2026-06-15.
 opening_tier: heavy-banter
 opening_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for routing-safe punctuation and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Light cleanup only for routing-safe punctuation and obvious spacing. Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # IRAN GOES AGGRESSIVE, TRUMP GOES DOCILE - w/ Trita Parsi
 
 **Show:** Mario Nawfal  
@@ -112,4 +114,4 @@ Of course other people have looked at this document and and and interpreted as i
  Kuwait is moving in the direction of the UAE. Um, and in that process, they're also destroying many of their own institutions. The Kuwaitis did have essentially what was uh a democratic parliament that has now been suspended. Kuwait has traditionally been very very pro Palestine. So, it was extremely surprising to see how far they have moved in the direction of potentially joining the Abram Accord.
  I personally think it would be a massive mistake for the Kuwaitis to do. I think was a mistake for the Amiradis. They are, you know, they become instruments in this larger Iranian Israeli rivalry and they will pay a very heavy price for it. Um, without having the ability to really have much agency once they have gone in that direction.
  I think frankly Emir Emirates if they could redo their decision would not go in that direction. But now they're so deep into it. They don't have much of an option or at least it's going to be very painful for them. Kuwait has not yet gone there and I think it would be a huge mistake if they did. Mario, I have to run because I'm my next.
->> Yeah, I was going to say bye. Exactly. Exactly. You were talk I I asked a quick question. You You talked full on. Don't blame me. >> Thank you. Appreciate it. Thank you. >> All right, guys. I'll be live. Sorry, in uh in a minute with Malcolm N. I'll be going live right now again. Bye.
+>> Yeah, I was going to say bye. Exactly. Exactly. You were talk I I asked a quick question. You You talked full on. Don't blame me. >> Thank you. Appreciate it. Thank you.

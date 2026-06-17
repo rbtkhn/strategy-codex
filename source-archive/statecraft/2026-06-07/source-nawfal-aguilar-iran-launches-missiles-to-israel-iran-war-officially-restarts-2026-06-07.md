@@ -16,12 +16,14 @@ source_url: "https://www.youtube.com/watch?v=QFKjJHKh07w"
 youtube_id: QFKjJHKh07w
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-source_note: "Operator-pasted YouTube transcript for June 7, 2026 Mario Nawfal / Lt. Col. Anthony Aguilar interview on Iran-Israel exchange and Trump-Netanyahu restraint failure. Separable closing lineup promo to General Randy Manor segment removed. · ASR pass 2026-06-15."
+source_note: Operator-pasted YouTube transcript for June 7, 2026 Mario Nawfal / Lt. Col. Anthony Aguilar interview on Iran-Israel exchange and Trump-Netanyahu restraint failure. Separable closing lineup promo to General Randy Manor segment removed. · ASR pass 2026-06-15.
 opening_tier: host-monologue
 normalization_state: ai_assisted_proper_noun_cleanup
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 28 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 28 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+nawfal_close_promo_trim_applied: true
 ---
+
 # IRAN LAUNCHES MISSILES TO ISRAEL, IRAN WAR OFFICIALLY RESTARTS – w/ Lt. Col. Anthony Aguilar
 
 **Show:** Mario Nawfal  
@@ -271,6 +273,4 @@ Let >> are they saying he won? I know a few hours ago >> he's saying he won oh h
 
 I don't know if they declared a winner yet. >> Yeah, Russia won't be happy. He's declaring himself a winner, but Russia won't be happy. Interesting. >> Uh he better he better not he better not drink anything in the next 12 hours. point. >> Um, well, >> someone else taste his food. >> Always a pleasure to have you.
 
-Thank you so much for jumping on and giving us the analysis. >> Of course, anytime. And I appreciate it. And thank you for continuing the discussion. >> Thank you, man. >> Talk to you soon. >> All right, guys. Trump did say, uh, Iran attacks have no effect on the deal. We're going to make a great deal. Guys, I've been saying it for months. I'll say it again. The war is over. We will not get a deal. We'll get an MOU at best or he'll just walk away. I think we'll get an MOU based on how things are going. And I think that one I'm not as sure about.
-
-I've been saying it for a while as well, but I'm not as confident as the other points. is that the um um you know, Israeli influence over the Trump administration is at a very very weak point now after this war and how this war went. We'll see. I could be wrong.
+Thank you so much for jumping on and giving us the analysis. >> Of course, anytime. And I appreciate it. And thank you for continuing the discussion. >> Thank you, man. >> Talk to you soon.

@@ -23,9 +23,11 @@ opening_tier: heavy-banter
 transcript_wrapper_tier: clean
 opening_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 3 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Opening rapport/production banter trimmed in place; SSOT body otherwise preserved."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 3 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Opening rapport/production banter trimmed in place; SSOT body otherwise preserved. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # BREAKING: IRAN DEAL LEAKED – w/ Trita Parsi
 
 **Show:** Mario Nawfal  
@@ -113,5 +115,4 @@ payments, noou, none of that at all, and that they would go towards real negotia
  And at the end of the day, all it does is just gets us to a situation in which there isn't a blockade and there isn't a closure of the straight of Hormuz, but not necessarily anything except for some principles on how to resolve the remaining issues. And those remaining issues are much much more complex and some of them quite more technical than the issues that they've dealt with so far.
  So the real work actually begins now after theou and that's where Israelis will have plenty of opportunities for sabotage. >> Exactly. A couple hours ago, I tweeted the same thing. The MOU is the beginning of of long-term peace or negotiations or whatever it is and not the end. So, we're now finally getting started. Um, Trita, your analysis is great as always.
 Thank you for your time. >> Thank you so much for having me. Really appreciate it. Thank you. >> See you. Uh, guys, um, Azie is going to go live in 30 minutes and she has three interviews one after the other with incredible guests. Let me see who they are. Um, so we got Admiral Mark Montgomery in now.
- She's going live right now with Admiral Mark Montgomery, Karen Kattovski right after, and then General Manor, Randy Manor right after that. Um, and then Matthew Ho after that. And then I'll be doing I'll be going live in three and a half hours with Robert Barnes. But between now and then, my co-host Azie will be doing incredible interviews and coverage.
- So, make sure you tune in in a couple of minutes with Azie.
+ She's going live right now with Admiral Mark Montgomery, Karen Kattovski right after, and then General Manor, Randy Manor right after that. Um, and then Matthew Ho after that. And then I'll be doing

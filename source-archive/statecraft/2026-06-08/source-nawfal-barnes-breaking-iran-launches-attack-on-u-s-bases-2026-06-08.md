@@ -20,9 +20,11 @@ proper_noun_normalize_applied: true
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+nawfal_close_promo_trim_applied: true
 ---
+
 # BREAKING: IRAN LAUNCHES ATTACK ON U.S. BASES – w/ Political Analyst Robert Barnes
 
 **Show:** Mario Nawfal  
@@ -131,5 +133,4 @@ violence. In the 1970s, we had terror groups shooting up the Capitol, blowing up
 So we're not at the same scale that we're at. I get where people's concerns are. There is a deep divide within the country, but it's nowhere near as expressive or as violent or as public protest as it's been in the past. as expressive or as violent or as public protest has been in the past social media just exasperated exasperates but uh yeah because you're gonna get into your own echo chamber and you just don't it just becomes very difficult to understand the other side when all you see is videos that
 reaffirm your confirmation bias time and time again and people are just you know kind of distance themselves from people that they disagree with so i think this is an area that rfk was talking a lot about the social media algorithms could lead to that to more divisiveness um but i agree with you it's uh the examples you've given are significantly worse yeah it's driving people out of community i think is our greater risk we have a whole we're at the verge of a lost generation especially of young men that they can't get married they can't date they can't
 have lives they can't have homes they can't get cars they don't see an economic future they're stuck with games and porn at home that that is not a recipe for a future for that generation so we're at the risk of a lost generation if we don't make major change agree robert always a pleasure thanks for making it pleasure thanks for making absolutely yeah go in have fun thank you thank you take care man um again as i always say robert knows too much about too many things um really enjoyed the conversation let me know what you think in the chat especially you know i go in so many different
-directions with robert because he knows so much i can literally ask him anything about anything um so i like going in those different directions. Let me know if you enjoyed it as well in the comments. I'll be going live again in exactly 10 minutes with Malcolm Nass to go back to focusing on the latest developments of the Iran war. I miss him.
-It's been a while. I haven't spoken to him. So we're going to be live with Malcolm in about 10 minutes.
+directions with robert because he knows so much i can literally ask him anything about anything um so i like going in those different directions. Let me know if you enjoyed it as well in the comments.
