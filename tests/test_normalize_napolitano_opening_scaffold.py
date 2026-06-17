@@ -153,6 +153,28 @@ def test_sponsor_and_guest_in_one_paragraph():
     assert "Why is Israel at war" in joined
 
 
+def test_fused_cold_open_with_hey_intro_and_asr_typo():
+    """Operator paste: cold open + host intro in one paragraph; Hey + Npalitano ASR."""
+    body = (
+        "Undeclared wars are commonplace. Tragically, our government engages in preemptive war, "
+        "otherwise known as aggression, with no complaints from the American people.\n\n"
+        "What if sometimes to love your country you had to alter or abolish the government? "
+        "What if freedom's greatest hour of danger is now? >> [music] >> "
+        "Hey everyone, Judge Andrew Npalitano here for Judging Freedom.\n"
+        " Today is Tuesday, June 16th, 2026. Matt Hoh joins us now.\n\n"
+        ">> You know, thanks for having me back on, Judge."
+    )
+    new_body, changed, change = trim_transcript_body(
+        body, "Matt Hoh", allow_cold_open=True, allow_sponsor=False, allow_close=False
+    )
+    assert changed
+    assert change.cold_open_trimmed
+    assert "Undeclared wars" not in new_body
+    assert "alter or abolish the government" not in new_body
+    assert "Hey everyone, Judge Andrew Npalitano here for Judging Freedom" in new_body
+    assert "Matt Hoh joins us now" in new_body
+
+
 def test_sponsor_paragraph_removed():
     paragraphs = [
         "Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Tuesday, December 2nd, 2025. "

@@ -27,7 +27,9 @@ TRANSCRIPT_SECTION_RE = re.compile(r"(^## Transcript\s*\n)(.*)$", re.DOTALL | re
 
 HOST_INTRO_RE = re.compile(
     r"(?:\[Music\]\s*)*(?:Heat\.\s*Heat\.\s*)?"
-    r"Hi everyone,?\s+Judge Andrew N(?:ap(?:olitano|alitaniano)|palitaniano) here for (?:a\s+)?[Jj]udging\s+[Ff]reedom",
+    r"(?:>>\s*)?(?:\[music\]\s*)*(?:>>\s*)?"
+    r"(?:Hi|Hey) everyone,?\s+"
+    r"Judge Andrew N(?:ap(?:olitano|alitaniano)|palitano|palitaniano) here for (?:a\s+)?[Jj]udging\s+[Ff]reedom",
     re.IGNORECASE,
 )
 COLD_OPEN_SIGNAL_RE = re.compile(
@@ -74,6 +76,19 @@ EDITORIAL_SPONSOR_NOTE = (
 )
 EDITORIAL_CLOSE_NOTE = (
     "Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
+)
+
+GUEST_TITLE_PREFIXES = (
+    "amb.",
+    "ambassador",
+    "colonel",
+    "col.",
+    "professor",
+    "prof.",
+    "judge",
+    "dr.",
+    "dr",
+    "lt.",
 )
 
 VALID_TRIM_LANES = frozenset({"cold_open", "sponsor", "close_promo", "noise"})
@@ -401,8 +416,8 @@ def trim_transcript_body(
 
     tier = classify_opening_tier(
         paragraphs,
-        cold_open_present=opening_has_cold_open(split_paragraphs(body)),
-        sponsor_present=opening_has_sponsor(split_paragraphs(body)),
+        cold_open_present=opening_has_cold_open(paragraphs),
+        sponsor_present=opening_has_sponsor(paragraphs),
     )
     if not changed:
         tier = classify_opening_tier(

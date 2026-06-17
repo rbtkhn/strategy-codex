@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_youtube_transcript
-host_people:
-  - Judge Andrew Napolitano
-guest_people:
-  - Matt Hoh
+host_people: ""
+guest_people: ""
 show_title: Judging Freedom
 channel_name: Judging Freedom
 thread: hoh
-threads:
-  - hoh
-  - napolitano
+threads: ""
 thread_expert: hoh
 show: Judging Freedom
 host: Judge Andrew Napolitano
@@ -26,13 +22,14 @@ source_url: "https://www.youtube.com/watch?v=3WQaITZvPno"
 youtube_id: 3WQaITZvPno
 source_note: "Operator-pasted transcript; host self-dates Tuesday 16 June 2026. Hoh MOU read: posturing/leaks on both sides; Amwaj Media first-paragraph sighting — ceasefire includes Lebanon; i24 Israel not shown MOU; venn-diagram synthesis = ceasefire extension + US acceptance of Iranian Strait of Hormuz control; Trump blinked April-like terms; July worldwide inventory cliff / SPR lowest ever; Netanyahu low-intensity occupation not September-scale Beirut carpet; false-flag / Ratcliffe–Axios MSAD intel lane; 2028 Rubio pro-Israel vs Vance America-first split; Huckabee ambassador insubordination; Trump leverage menu (refuel, spare parts, MOU pause, debt guarantees); frozen assets as theft / unilateral coercive measures; Trump Hezbollah/Syria apartment-house clip; Kushner/Witkoff deal support surprise; Gaza omitted — genocide/annexation continues; Iran leverage covers Lebanon not Palestine. Cross-ref same-day Freeman audit + Weichert Axios dual-leak + Johnson/Marandi Hormuz lanes. verify:wire-pending Amwaj MOU para-1 Lebanon; verify:wire-supported cross-ref Johnson J16-J2 i24/Channel 12 MOU denied; verify:wire-supported cross-ref Axios Ratcliffe skepticism (Freeman/Marandi J16-MA3); verify:wire-contested cross-ref Freeman J16-5 frozen assets; verify:wire-partial cross-ref Freeman J16-7 MOU unpublished."
 evidence_grade: transcript-bearing
-opening_tier: full-scaffold
+opening_tier: host-tease
 transcript_wrapper_tier: paste-prefix
 normalization_state: raw_operator_paste
-editorial_note: Operator-pasted transcript body; ideological cold open and closing lineup promo may be trimmed by Napolitano normalizer; ASR artifacts retained (Ammoage/Amwaj, Hamuz, Hoe, Npalitano, Hegap, etc.). Not human-verified verbatim. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
-quality_note: "Initial land 2026-06-16; Napolitano close promo trim applied; frontmatter lists repaired."
+editorial_note: Operator-pasted transcript body; ideological cold open and closing lineup promo may be trimmed by Napolitano normalizer; ASR artifacts retained (Ammoage/Amwaj, Hamuz, Hoe, Npalitano, Hegap, etc.). Not human-verified verbatim. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved. Ideological cold open trimmed in place; SSOT body otherwise preserved.
+quality_note: Initial land 2026-06-16; Napolitano close promo trim applied; frontmatter lists repaired.
 napolitano_close_promo_trim_applied: true
 napolitano_leading_noise_trim_applied: true
+napolitano_cold_open_trim_applied: true
 ---
 
 # CPT. Matt Hoh : A People Should Know When They're Conquered
@@ -46,8 +43,7 @@ napolitano_leading_noise_trim_applied: true
 
 ## Transcript
 
-Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints from the American people. Sadly, we have become accustomed to living with the illegitimate use of force by government. To develop a truly [music] free society, the issue of initiating force must be understood and rejected.
-What if sometimes to love your country you had to alter or abolish [music] the government? What if Jefferson was right? What if that government is best which governs least? What if it is dangerous to be right when the government is wrong? What if it is better to perish fighting [music] for freedom than to live as a slave? What if freedom's greatest hour of danger is now? >> [music] >> Hey everyone, Judge Andrew Npalitano here for Judging Freedom.
+>> >> Hey everyone, Judge Andrew Npalitano here for Judging Freedom.
  Today is Tuesday, June 16th, 2026. Matt Hoe joins us now. Matt, as always, no matter what we're talking about, it's a pleasure to chat with you. Thank you for sharing your time with us. Do we understand what was agreed to between the United States uh and Iran? Uh do we have any grasp of it? You got comments from Vice President Vance and from the president and comments from the Iranians and they seem to be all over the place.
 >> You know, thanks for having me back on, Judge. Yeah, exactly. We've seen a lot of posturing. We've seen a lot of commentary. We've seen a lot of leaks. We've seen um both sides uh putting forward uh their interpretations what it's going to be trying to prepare their domestic audience trying to ensure their constituencies that this is a win.
  I think you've seen coming out of the Iranian media uh possibly efforts by Iranian hardliners to set expectations up so high that when theou is actually released uh there'll be disappointment in it. Um, at the same time too on the American side, you see the opposite. You see a downplaying of it.
