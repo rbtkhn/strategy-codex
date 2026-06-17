@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T10:15:27+00:00",
+  "generated_at": "2026-06-17T10:26:07+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
