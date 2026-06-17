@@ -128,6 +128,11 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [transcript-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27](../../../source-archive/statecraft/2026-05-27/source-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md)
 - [transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28](../../../source-archive/statecraft/2026-05-28/source-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md)
 
+## 2026-06
+
+- [substack-ritter-the-revenge-tour-2026-2026-06-01](../../../source-archive/statecraft/2026-06-01/source-ritter-the-revenge-tour-2026-2026-06-01.md)
+- [substack-ritter-shoot-the-dog-2026-06-10](../../../source-archive/statecraft/2026-06-10/source-ritter-shoot-the-dog-2026-06-10.md)
+
 ## Discovery Surfaces
 
 - [dialogue-works-inventory](../../sheets/source-archive-control/dialogue-works-inventory.md)
