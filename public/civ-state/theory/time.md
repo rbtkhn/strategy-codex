@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: name the shared form-historical era spine used across volume bibliographies and governing-layer retrieval  
-Last updated: 2026-06-17
+Last updated: 2026-06-15
 
 **Motion and era law** — not a governing term peer to civilization or empire. Name the governing term first; use era law when periodization clarifies the read.
 
@@ -42,7 +42,7 @@ Ask first:
 
 ### Governing terms across eras
 
-Each era shifts the balance among [civilization](civilization.md), [empire](empire.md), [faith](faith.md), [science](science.md), [memory](memory.md), and [entropy](entropy.md) — e.g. Cybernetic empire is often [science](science.md)-heavy; Medieval continuity often [memory](memory.md)- and [faith](faith.md)-heavy.
+Each era shifts the balance among [civilization](civilization.md), [empire](empire.md), [faith](faith.md), [science](science.md), [memory](memory.md), and [entropy](entropy.md) — e.g. Cybernetic empire is often [science](science.md)-heavy; Medieval continuity often [memory](memory.md)- and [faith](faith.md)-heavy. **Industrial** shelves often carry revolution and industrial war as entropy manifestations; **Ancient** and **Medieval** shelves often carry plague, famine, and succession war.
 
 ### Rhythm
 

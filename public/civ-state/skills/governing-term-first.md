@@ -23,7 +23,7 @@ Six **governing terms** (whole-work SSOT: [theory/](../theory/README.md)):
 |------|--------------------------------|
 | [civilization](../theory/civilization.md) | inherited order, legitimacy substrate, continuity-bearing form |
 | [empire](../theory/empire.md) | outward instrument, amplification, coercion stack |
-| [entropy](../theory/entropy.md) | degradation when form and instrument diverge; behavioral overreach |
+| [entropy](../theory/entropy.md) | war, revolution, disease, famine, ecological disaster, or compound historical shock |
 | [faith](../theory/faith.md) | sacred, moral, covenantal truth-order |
 | [science](../theory/science.md) | procedural, evidentiary truth-order |
 | [memory](../theory/memory.md) | continuity, wound, retrieval entry |
@@ -40,7 +40,7 @@ Six **governing terms** (whole-work SSOT: [theory/](../theory/README.md)):
    - what faith-order authorizes it?
    - what science-order authorizes it?
    - what memory sustains or wounds it?
-   - what entropy degrades or accelerates it?
+   - what historical shock (war, revolution, famine, plague, ecological rupture) governs degradation?
 
 3. **Open that term page** in [theory/](../theory/README.md). Read its **Causal connections** section before widening.
 
@@ -64,4 +64,4 @@ Six **governing terms** (whole-work SSOT: [theory/](../theory/README.md)):
 - Recite all six terms in every pass — that flattens diagnosis into checklist theater
 - Open comparative essays before one case grammar is clear
 - Treat `god` / `lit` / `art` / `geo` / `war` / `peace` families as rival ontology — they are downstream retrieval surfaces
-- Use retired **desire** as a governing term — appetite and overreach → [entropy](../theory/entropy.md)
+- Use retired **desire** as a governing term — appetite and overreach → [empire](../theory/empire.md)

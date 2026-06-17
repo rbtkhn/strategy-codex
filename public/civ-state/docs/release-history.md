@@ -4,7 +4,7 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
-**v0.1.14** — docs shelf consolidation (reader apparatus + publish meta under `docs/`).
+**v0.1.15** — entropy theory rebuild (historical causes and manifestations; structural/behavioral framing removed).
 
 ## Timeline
 
@@ -34,9 +34,21 @@ Whole-work theory **SSOT:** `theory/`
 | `theory/truth.md` | `theory/faith.md` · `theory/science.md` |
 | `theory/continuity.md` | [Cross-case recurrence essay](../essays/cross-case-recurrence-and-sovereignty.md) |
 | `theory/patterns/*` | Same essay; operator archive in upstream workshop |
-| Governing term **desire** | **entropy** (behavioral overreach in `theory/entropy.md`) |
+| Governing term **desire** | **entropy** (behavioral overreach in `theory/entropy.md`) — **superseded v0.1.15** → [empire](../theory/empire.md) |
 
 Each term page carries a **Causal connections** section. Pattern library retired from the public shelf.
+
+### v0.1.15 — entropy theory rebuild
+
+Whole-work **entropy** SSOT: [`theory/entropy.md`](../theory/entropy.md)
+
+| Retired | Replacement |
+|---------|-------------|
+| structural / behavioral entropy | Removed |
+| entropy as divergence mechanics | civilization · empire · rhythm |
+| desire → entropy (behavioral) | desire → empire |
+
+Historical causes and manifestations: war, revolution, disease, famine, ecological disaster, compound shocks.
 
 ### v0.1.13 — sources shelf consolidation
 

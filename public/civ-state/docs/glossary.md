@@ -20,7 +20,7 @@ The recurrent three-beat rhythm — civilization beautifies, empire amplifies, e
 
 ### Civilizational Statecraft Framework
 
-The governing frame — **six terms** (civilization, empire, entropy, faith, science, memory) plus **two law pages** (Rhythm, Time) on the [theory shelf](../theory/README.md). Diagnostic retrieval grammar, not prescriptive command doctrine. **Desire** is retired; overreach → [entropy](../theory/entropy.md).
+The governing frame — **six terms** (civilization, empire, entropy, faith, science, memory) plus **two law pages** (Rhythm, Time) on the [theory shelf](../theory/README.md). Diagnostic retrieval grammar, not prescriptive command doctrine. **Desire** is retired; overreach → [empire](../theory/empire.md).
 
 ### Civilization (governing term)
 
@@ -32,7 +32,7 @@ Outward instrument and amplification stack. Canonical page: [theory/empire.md](.
 
 ### Entropy
 
-Degradation when form and instrument diverge; the degrades beat. Canonical page: [theory/entropy.md](../theory/entropy.md).
+Historical causes and manifestations of civilizational degradation — war, revolution, disease, famine, ecological disaster, and compound shocks; the degrades beat. Canonical page: [theory/entropy.md](../theory/entropy.md).
 
 ### Faith
 

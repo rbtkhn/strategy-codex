@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: govern reads where projection, procedural reach, sanctions, corridors, or platform leverage is load-bearing  
-Last updated: 2026-06-17
+Last updated: 2026-06-15
 
 Not to be confused with the whole-work opening essay [*Civilization and Empire*](../docs/introduction.md) — that essay introduces the book; this page names the **empire** governing term.
 
@@ -26,7 +26,8 @@ Ask first:
 Useful distinctions:
 
 - sanctions, corridors, command, platform leverage, procedural administration → usually **empire-heavy**
-- machinery runs while legitimacy thins → suspect **empire outrunning civilization** → [entropy](entropy.md)
+- machinery runs while legitimacy thins → suspect **empire outrunning civilization** → read [civilization](civilization.md) and [rhythm](rhythm.md)
+- spectacle, appetite, or compensatory overreach → usually **empire-heavy** (amplification without sufficient inheritance)
 
 ## Causal connections
 
@@ -36,7 +37,7 @@ Useful distinctions:
 
 ### Entropy
 
-When [empire](empire.md) amplifies faster than [civilization](civilization.md) can bear, [entropy](entropy.md) follows — the structural degrades beat. Machinery may still run while the civilizational layer thins.
+When imperial strain meets historical shock — war, revolution, famine, plague, ecological rupture — open [entropy](entropy.md). Empire outrunning civilization is read here and on [civilization](civilization.md); entropy names the **shock** that may exploit or compound that strain.
 
 ### Science
 

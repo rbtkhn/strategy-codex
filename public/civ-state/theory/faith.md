@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: govern reads where sacred, moral, covenantal, or civil-religious authorization is load-bearing  
-Last updated: 2026-06-17
+Last updated: 2026-06-15
 
 Volume **sacred-grammar** files name lane-local legitimacy grammar; this page names the **faith** governing term across the whole work.
 
@@ -35,7 +35,7 @@ Ask first:
 
 ### Entropy
 
-[Entropy](entropy.md) may leave faith as **rhetoric without carry** — sacred language surviving after practice hollows. Distinguish living authorization from performed legitimacy.
+[Entropy](entropy.md) may leave faith as **rhetoric without carry** after historical rupture — sacred language surviving war, revolution, or demographic collapse while practice fails. Distinguish living authorization from performed legitimacy.
 
 ## Failure modes
 

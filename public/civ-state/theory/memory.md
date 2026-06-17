@@ -5,9 +5,9 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: govern reads where inherited wound, humiliation, restoration, or succession memory is load-bearing  
-Last updated: 2026-06-17
+Last updated: 2026-06-15
 
-**Desire** is retired as a governing term. Appetite, spectacle, and compensatory overreach → [Entropy](entropy.md) (behavioral entropy).
+**Desire** is retired as a governing term. Appetite, spectacle, and compensatory overreach → [Empire](empire.md).
 
 ## Why this term
 
@@ -23,7 +23,7 @@ Ask first:
 
 > Is this object memory-heavy — about continuity, wound, restoration, succession, or inherited claim?
 
-If behavior feels excessive or theatrical while the civilizational read is clear, open [Entropy](entropy.md) (behavioral overreach acting on memory).
+If behavior feels excessive or theatrical while the civilizational read is clear, open [Empire](empire.md) (amplification or overreach acting on memory).
 
 ## Causal connections
 
@@ -33,7 +33,7 @@ If behavior feels excessive or theatrical while the civilizational read is clear
 
 ### Entropy
 
-[Memory](memory.md) without renewal → [entropy](entropy.md): sacredized wound, paralysis, or revenge cycle. Behavioral overreach on a memory-bearing object is read under **behavioral entropy**, not a separate governing term.
+Historical shocks — war, revolution, plague, famine — often **distort** [memory](memory.md): wound sacredized, succession frozen, revenge cycle without renewal. [Memory](memory.md) without renewal stays a **memory** read (grievance theater, paralysis), not a substitute for naming the shock on [Entropy](entropy.md).
 
 ### Rhythm — retrieval movement
 
@@ -56,7 +56,8 @@ Return to:
 
 - volume **Civilization** chapters and lane `state-memory` surfaces
 - [Civilization](civilization.md) when inheritance substrate governs
-- [Entropy](entropy.md) when overreach or hollowed carry distorts memory
+- [Entropy](entropy.md) when a historical shock governs post-rupture memory distortion
+- [Empire](empire.md) when overreach or spectacle distorts a memory-bearing object
 - [comparative recurrence essay](../essays/cross-case-recurrence-and-sovereignty.md) for bounded cross-case comparison
 
 ## Operational use
@@ -68,7 +69,7 @@ Use this page when:
 
 ## See also
 
-- [Civilization](civilization.md) · [Entropy](entropy.md) · [Rhythm](rhythm.md)
+- [Civilization](civilization.md) · [Empire](empire.md) · [Entropy](entropy.md) · [Rhythm](rhythm.md)
 - [Theory shelf](README.md)
 
 ## Bottom line

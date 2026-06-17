@@ -59,7 +59,7 @@ Choose civilization-first when the real question is:
 Choose governing-layer entry when the real question is:
 
 - whether civilization or empire is really governing
-- whether legitimacy, expertise, memory, or entropy (including behavioral overreach) is distorting the read
+- whether legitimacy, expertise, memory, or entropy (historical shock — war, revolution, famine, plague, ecological rupture) is distorting the read
 - whether the object still needs retrieval discipline before lane drafting
 
 When chronology or shelf choice matters within that mode, read [Time](../theory/time.md) (era law) before opening era files inside a volume.

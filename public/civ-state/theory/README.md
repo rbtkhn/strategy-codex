@@ -14,12 +14,12 @@ Each volume will eventually carry its own eight-file `theory/` subtree under `vo
 |------|------|----------------|
 | civilization | [civilization.md](civilization.md) | inherited order and legitimacy substrate |
 | empire | [empire.md](empire.md) | outward instrument and amplification |
-| entropy | [entropy.md](entropy.md) | degradation when form and instrument diverge |
+| entropy | [entropy.md](entropy.md) | historical causes and manifestations of civilizational degradation |
 | faith | [faith.md](faith.md) | sacred and moral truth-order |
 | science | [science.md](science.md) | procedural and evidentiary truth-order |
 | memory | [memory.md](memory.md) | continuity, wound, retrieval entry |
 
-**Desire** is retired as a governing term; appetite and overreach → [entropy.md](entropy.md) (behavioral entropy).
+**Desire** is retired as a governing term; appetite, spectacle, and compensatory overreach → [empire.md](empire.md).
 
 The older `power / truth / time` triad and `god / lit / art / geo / war / peace` families remain downstream retrieval surfaces — not rival ontology.
 

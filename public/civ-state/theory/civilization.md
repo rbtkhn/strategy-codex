@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: govern reads where legitimacy substrate, symbolic inheritance, or continuity-bearing form is load-bearing  
-Last updated: 2026-06-17
+Last updated: 2026-06-15
 
 Not to be confused with the whole-work opening essay [*Civilization and Empire*](../docs/introduction.md) — that essay introduces the book; this page names the **civilization** governing term.
 
@@ -26,17 +26,17 @@ Ask first:
 Useful distinctions:
 
 - legitimacy substrate, sacred civilizational form, or continuity claim → usually **civilization-heavy**
-- if outward machinery dominates while inheritance thins → suspect [empire](empire.md) or [entropy](entropy.md)
+- if outward machinery dominates while inheritance thins → suspect [empire](empire.md) outrunning civilization (read [rhythm](rhythm.md))
 
 ## Causal connections
 
 ### Empire
 
-[Civilization](civilization.md) stores; [empire](empire.md) scales outward. Civilization is not self-defending: without sufficient instrument, inheritance remains symbolically real but poorly carried. When empire outruns civilization, the degrading beat of [entropy](entropy.md) begins.
+[Civilization](civilization.md) stores; [empire](empire.md) scales outward. Civilization is not self-defending: without sufficient instrument, inheritance remains symbolically real but poorly carried. When empire outruns civilization, read [empire](empire.md) and [rhythm](rhythm.md) — the degrades beat may coincide with historical [entropy](entropy.md) when shocks rupture carry.
 
 ### Entropy
 
-[Entropy](entropy.md) names what happens when inherited form thins while machinery still runs — civilization hollowed but rhetorically preserved. The civilizational layer may lose carry even when sacred grammar survives as language.
+[Entropy](entropy.md) names historical shocks — war, revolution, disease, famine, ecological disaster — that test whether civilization can absorb or renew. It does not redefine hollow carry; that read stays on civilization and empire.
 
 ### Memory
 

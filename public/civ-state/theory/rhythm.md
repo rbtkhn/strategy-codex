@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: name the recurrent three-beat rhythm and retrieval movement that govern the five-volume comparative set  
-Last updated: 2026-06-17
+Last updated: 2026-06-15
 
 **Motion and era law** — not a governing term peer to civilization or empire. Name the beat first; open [Civilization](civilization.md), [Empire](empire.md), or [Entropy](entropy.md) for depth.
 
@@ -37,7 +37,7 @@ Ask first:
 
 ### Governing terms in the beat
 
-The three verbs map to three governing terms — full definitions live on those pages, not here. When empire outruns civilization, the braid **frays** → entropy beat.
+The three verbs map to three governing terms — full definitions live on those pages, not here. When empire outruns civilization, the braid **frays** on the **degrades** beat — often as historical [entropy](entropy.md) (war, revolution, famine, plague, ecological rupture). Open [entropy.md](entropy.md) for the shock typology.
 
 ### After the third beat
 
@@ -59,7 +59,7 @@ memory → legitimacy → carrier → pressure → settlement
 
 ## Failure modes
 
-- **beat misplacement** — degradation read as mere policy friction, or amplification read as civilizational renewal
+- **beat misplacement** — historical shock read as mere policy friction, or amplification read as civilizational renewal
 - **rhythm substituted for case depth** — beat named without opening volume or term pages
 
 ## Return paths

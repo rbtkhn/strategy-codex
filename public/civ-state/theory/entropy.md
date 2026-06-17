@@ -1,81 +1,84 @@
 # Entropy
 
-**Degradation** — when inherited form and outward instrument diverge; the degrades beat.
+**Historical degradation** — causes and manifestations that rupture or thin civilizational carry.
 
 Status: Active doctrine  
 Surface: `civ-state`  
-Purpose: govern reads where legitimacy thins while machinery still runs, or where overreach hollows inheritance  
-Last updated: 2026-06-17
-
-**Desire** is retired as a governing term. Appetite, spectacle, and compensatory overreach are read here as **behavioral entropy** when they accelerate without inheritance.
+Purpose: govern reads where war, revolution, disease, famine, ecological disaster, or compound shocks are load-bearing  
+Last updated: 2026-06-15
 
 ## Why this term
 
-Entropy is not generic disorder. It is degradation of the civilizational layer when amplification outruns what it was meant to serve — or when behavior accelerates without continuity-bearing inheritance. Sacred grammar may survive as rhetoric while practice hollows.
+Entropy is not thermodynamic disorder and not routine policy friction. It names **historical causes and manifestations of civilizational degradation** — the shocks that break mandate, succession, logistics, demography, or corridor carry. Sacred grammar may survive as rhetoric after rupture; the governing question is which shock is actually carrying the object.
 
 ## Definition
 
-Entropy degrades inherited form: legitimacy erodes, form and instrument diverge, and the civilizational layer thins while imperial machinery may still operate.
+Entropy is civilizational degradation in history: war, revolution, disease, famine, ecological disaster, and **compound or sequenced shocks** (for example war → famine → plague; revolution → civil war → epidemic).
 
 ## Governing question
 
 Ask first:
 
-> Is this object entropy-heavy — structural fraying, hollowed inheritance, or behavioral overreach without carry?
+> Which cause or manifestation of civilizational degradation is load-bearing — alone or in compound?
 
 ## Causal connections
 
-### Structural entropy
+### Manifestation typology
 
-**Structural entropy** names form/instrument divergence:
+| Manifestation | Often ruptures | Reader move |
+|---------------|----------------|-------------|
+| **War** | Legitimacy, succession, imperial reach | [Empire](empire.md) + geo-strategy; [sources](../sources/source-lattice.md) era shelf |
+| **Revolution** | Order claim, carrier, sacred grammar | [Faith](faith.md) · [Science](science.md) · [Memory](memory.md); volume introduction |
+| **Disease** | Demography, administration, succession | [Time](time.md) + primary sources |
+| **Famine** | Mandate, logistics, peasant compact | Volume door; [sources](../sources/source-lattice.md) |
+| **Ecological disaster** | Corridor, capital, food-energy chain | Geo-strategy + [Time](time.md) |
 
-- [Empire](empire.md) outruns [civilization](civilization.md)
-- machinery runs while legitimacy thins
-- the third beat of [Rhythm](rhythm.md): `beautifies → amplifies → **degrades**`
+Pick **one** load-bearing manifestation (or one named compound) per pass — not a catastrophe checklist.
 
-This is the civilizational motion degrades beat mapped to [civilization](civilization.md) → [empire](empire.md) → **entropy**.
+### Compound shocks
 
-### Behavioral entropy
+Shocks stack and sequence. War may trigger famine; revolution may invite civil war and epidemic; ecological rupture may expose imperial overextension. Name the **compound** when more than one manifestation governs settlement or restoration cost.
 
-**Behavioral entropy** names acceleration without inheritance (formerly read under **desire**):
+### Rhythm
 
-- prestige hunger, spectacle, compensatory overreach, novelty drive
-- behavior feels excessive or theatrical while the civilizational read is already clear
-- hand off to mutation and escalation diagnostics in operator sheets when appetite distorts a memory-bearing object
+The third beat of [Rhythm](rhythm.md): `beautifies → amplifies → **degrades**`. The **degrades** beat surfaces as historical entropy — open this page for the shock typology, not for form/instrument divergence (that read lives on [Civilization](civilization.md), [Empire](empire.md), and [Rhythm](rhythm.md)).
 
-Behavioral entropy often acts **on** [memory](memory.md) — wound sacredized, grievance theater, or revenge cycle without renewal.
+### Civilization and empire
 
-### Memory and faith/science
+[Civilization](civilization.md) and [Empire](empire.md) name inheritance and outward instrument — not entropy. They matter here as **vulnerability and recovery capacity**: which orders absorb shocks, which amplify them, and which fail renewal after rupture. When empire outruns civilization, read empire + civilization + rhythm first; then ask whether a historical shock is exploiting that strain.
 
-[Memory](memory.md) without renewal becomes entropy — continuity frozen as wound. [Faith](faith.md) and [science](science.md) may survive as rhetoric after carry fails — authorization language without governing practice.
+### Memory, faith, and science
+
+Post-shock carry often distorts [Memory](memory.md) — wound sacredized, succession frozen, revenge cycle without renewal. [Faith](faith.md) and [Science](science.md) may survive as authorization rhetoric after practice fails — distinguish living carry from performed legitimacy after rupture.
 
 ## Failure modes
 
-- **entropy mistaken for policy friction** — treat as routine dispute when the civilizational layer is actually thinning
-- **behavioral entropy severed from structural read** — overreach diagnosed as personality or tactics alone when inheritance–instrument divergence is load-bearing
+- **entropy mistaken for policy friction** — treat as routine dispute when war, revolution, famine, or plague is actually load-bearing
+- **empire-overreach mistaken for entropy** — amplification without inheritance → [Empire](empire.md) and [Civilization](civilization.md), not this page
+- **downstream retrieval mistaken for governing term** — `war`, `geo`, and `peace` families are expression lenses after entropy is named, not rivals to the typology
 
 ## Return paths
 
 Return to:
 
-- [Civilization](civilization.md) and [Empire](empire.md) to re-test the braid
-- [Rhythm](rhythm.md) for phase placement
-- [Memory](memory.md) when wound or succession memory governs
-- operator mutation / escalation sheets for behavioral overreach
+- [Rhythm](rhythm.md) for phase placement on the degrades beat
+- [Time](time.md) when era shelf choice follows the shock
+- [Memory](memory.md) when post-shock wound or succession memory governs
+- [Civilization](civilization.md) · [Empire](empire.md) when recovery capacity or imperial strain matters
 
 ## Operational use
 
 Use this page when:
 
-- empire outruns civilization, or form and instrument clearly diverge
-- legitimacy hollows while command continues
-- spectacle, overreach, or appetite distorts an otherwise clear read
+- the live object is war, revolution, demographic or plague collapse, famine, ecological rupture, or their compound
+- comparative judgment needs the **degrades** beat named as historical shock, not as divergence mechanics alone
 
 ## See also
 
-- [Civilization](civilization.md) · [Empire](empire.md) · [Memory](memory.md) · [Rhythm](rhythm.md)
+- [Rhythm](rhythm.md) · [Time](time.md) · [Memory](memory.md)
+- [Civilization](civilization.md) · [Empire](empire.md)
 - [Theory shelf](README.md)
 
 ## Bottom line
 
-> **Is inheritance thinning while machinery still runs — structurally, behaviorally, or both?**
+> **Which historical degradation shock governs — and can this order still absorb or renew?**
