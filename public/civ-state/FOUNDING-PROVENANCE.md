@@ -6,6 +6,10 @@
 **Reader title:** Civilizational Statecraft  
 **Release:** v0.1.11
 
+## Publisher
+
+**Statecraft Intelligence Desk** — publisher of *Civilizational Statecraft*.
+
 ## Lineage
 
 1. **Founding cut (helix-lane v1):** Exported from the upstream workshop as `rbtkhn/civ-emp` — a helix-first operator corpus (lanes, strands, transactions, orientation routers). Preserved under [`archive/helix-lane-v1/`](archive/helix-lane-v1/README.md).

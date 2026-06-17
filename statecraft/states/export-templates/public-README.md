@@ -2,6 +2,8 @@
 
 **Public home:** [rbtkhn/civ-state](https://github.com/rbtkhn/civ-state)
 
+**Publisher:** **Statecraft Intelligence Desk**
+
 A comparative book for the general statesman reader: five civilization-state volumes, a source-lattice for each case, and whole-work apparatus for continuity, legitimacy, and settlement judgment.
 
 ## What this book is
