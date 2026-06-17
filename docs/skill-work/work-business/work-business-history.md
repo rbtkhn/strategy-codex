@@ -10,6 +10,11 @@
 
 ## Log
 
+### 2026-06-17
+
+- **SID Desk offer spine + one-pager:** Added [sid-desk-offer-spine.md](sid-desk-offer-spine.md) (Statecraft Intelligence Desk — SKUs, archetypes, doc map) and [sid-desk-one-page-packet.md](sid-desk-one-page-packet.md) (sendable external draft). Karajan conductor A+C; child artifacts (comparison, cheat sheet, pipeline, pilot SOW) remain planned per spine.
+- **SID Situation Brief delta + validators:** [statecraft_situation_brief_delta.py](../../../scripts/statecraft_situation_brief_delta.py) (day-over-day fork grade diff for **Situation Brief** / SID Brief); [sid-transaction-memo.md](../../../statecraft/templates/sid-transaction-memo.md) + [validate_sid_transaction_memo.py](../../../scripts/validate_sid_transaction_memo.py); [validate_sid_embargo.py](../../../scripts/validate_sid_embargo.py). Offer spine + one-pager renamed **Intelligence Monitor** → **Situation Brief** / **Desk Synthesis**.
+
 ### 2026-05-16
 
 - **Strategy-Codex quality contract offer:** Added [strategy-codex-quality-contract-offer.md](strategy-codex-quality-contract-offer.md) as a WORK-only commercial sketch for turning transcript-purity and durability reporting into a service/product wedge.

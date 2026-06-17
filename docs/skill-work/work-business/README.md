@@ -80,6 +80,9 @@ When this lane is being used under `singularity-academy`, do not flatten busines
 | **[singularity-academy-sprint-case-study-template.md](singularity-academy-sprint-case-study-template.md)** | Narrow case-study scaffold for turning one sprint into the next sales proof artifact. |
 | **[singularity-academy-sprint-demo-receipt-cici-daily-brief.md](singularity-academy-sprint-demo-receipt-cici-daily-brief.md)** | Internal demo receipt showing how the sprint evidence shape looks on the `cici-ai` daily brief workflow. |
 | **[singularity-academy-sprint-demo-case-study-cici-daily-brief.md](singularity-academy-sprint-demo-case-study-cici-daily-brief.md)** | Internal demo case study for the `cici-ai` daily brief workflow, explicitly marked as non-client proof. |
+| **[sid-desk-offer-spine.md](sid-desk-offer-spine.md)** | **Statecraft Intelligence Desk (SID)** — offer spine: Situation Brief / Desk Synthesis SKUs, archetypes, doc map. |
+| **[sid-desk-one-page-packet.md](sid-desk-one-page-packet.md)** | Sendable one-pager for the SID managed retainer ($10k/mo / 30-day pilot). |
+| **[statecraft_situation_brief_delta.py](../../../scripts/statecraft_situation_brief_delta.py)** | SID Brief delta — diff wire-verify fork grades day-over-day. |
 | **[accounting/](accounting/)** | **Accounting surface** â€” ledger, chart of accounts, tax prep workflow. Entry: [accounting/README.md](accounting/README.md). |
 | **[marketing/](marketing/)** | **Marketing surface** â€” per-venture plans, shared principles. Entry: [marketing/README.md](marketing/README.md). |
 | **[grace-gems/](grace-gems/)** | **Grace Gems** (Etsy) â€” shop context, roadmap, agent-encoding, message-assist, market research, marketing plan, workflow reminders. Entry: [grace-gems/README.md](grace-gems/README.md). |
