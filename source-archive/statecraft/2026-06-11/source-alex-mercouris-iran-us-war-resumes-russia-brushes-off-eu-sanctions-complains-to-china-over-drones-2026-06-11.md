@@ -20,14 +20,14 @@ channel_slug: alex-mercouris
 channel_url: "https://www.youtube.com/@AlexMercouris/videos"
 source_url: "https://www.youtube.com/watch?v=ANxDdY9jFYg"
 youtube_id: ANxDdY9jFYg
-source_note: "Operator-pasted transcript; host self-dates Wednesday 11 June 2026 from Russia (Scorf conference; shorter programs). Conference-source claims on Chinese drone components, rare-earth throttle, Kremlin no-Trump-criticism guidance, and Readovka/Liman-Konstantinovka battlefield reads preserved as attributed; not independently verified. Tail truncated mid-sentence before standard close; re-ingest from YouTube captions recommended (ANxDdY9jFYg). · ASR pass 2026-06-15."
+source_note: "Operator-pasted transcript; host self-dates Wednesday 11 June 2026 from Russia (Scorf conference; shorter programs). Conference-source claims on Chinese drone components, rare-earth throttle, Kremlin no-Trump-criticism guidance, and Readovka/Liman-Konstantinovka battlefield reads preserved as attributed; not independently verified. Tail re-ingested 2026-06-17 from operator YouTube paste (ANxDdY9jFYg). · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-transcript_completeness: truncated_tail
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Capture tail truncated mid-sentence (colon assassination paragraph); re-ingest from YouTube before close-promo normalize."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT. Re-ingest pending: truncated_tail."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Tail re-ingested from operator YouTube paste 2026-06-17; close promo trimmed post-ingest. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved.
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT. Tail re-ingest 2026-06-17."
+mercouris_close_promo_trim_applied: true
 ---
 # Iran US War Resumes; Russia Brushes Off EU Sanctions, Complains To China Over Drones
 
@@ -120,4 +120,4 @@ Now that doesn't mean that things aren't happening in Russia which won't also ca
  Now a few weeks ago after the assassination of a senior general in Russia, reports say that there was a very very bitter meeting between the military led by General Gasimov and the FSB, Russia's counter terrorism and counterintelligence agency over the course of which the military severely criticized the FSB for its failure to get on top of the problem of the assassinations of Russian officers.
 and Bournikov, the head of the FSB, supposedly pushed back and there was a lot of heated words exchanged and eventually it fell to Putin to suggest a compromise which is the top Russian military officials, top generals receive protection from the FSO which is the presidential bodyguard service, America's equivalent, Russia's equivalent of the American Secret Service, and be taken and the the security of these top military officials be taken out of the hands of the FSB.
 Well, I wonder whether this might have happened and why I wonder whether that might explain why the Ukrainians this time have targeted a colonel, however important that colonel is, rather than a general. Just saying. But anyway, there will nonetheless still be, I suspect, a great deal of anger, probably still directed at the FSB that Russian officers are not being protected properly.
- What Putin will propose to protect these officers, that of course I don't know, but we will have to see. Whatever these murder attempts, these assassinations do not affect and will not change the course of the war. They will only make the Russian army more implacable and the political leadership that also.
+ What Putin will propose to protect these officers, that of course I don't know, but we will have to see. Whatever these murder attempts, these assassinations do not affect and will not change the course of the war. They will only make the Russian army more implacable and the political leadership that also. Well, here I'm going to finish today's program.
