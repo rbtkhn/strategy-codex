@@ -42,7 +42,15 @@ except ImportError:
 RUNTIME_NOISE_MARKERS = (
     "pipeline-events.jsonl",
     "harness-events.jsonl",
+    "cadence-learning-events.jsonl",
     "last-dream.json",
+    "self-memory.md",
+    "night-handoff.json",
+    "daily-handoff/",
+    "work-cadence-events.md",
+    "memory-observability",
+    ".capability-shift-cache.json",
+    ".capability-shift-last-check",
     "runtime-bundle/runtime/",
     "runtime-bundle/audit/",
 )
@@ -54,6 +62,7 @@ EXPORT_CHURN_MARKERS = (
     "fork-manifest.json",
     "/manifest.json",
     "/llms.txt",
+    "month-routing-metadata.json",
 )
 
 
