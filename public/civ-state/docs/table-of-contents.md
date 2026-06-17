@@ -107,23 +107,59 @@ Then descend only as needed into optional sub-lenses:
 
 ## Appendix. Whole-Work Apparatus
 
-Use this layer when the problem is retrieval, comparison, or vocabulary rather than one civilization volume alone.
+Use this layer when the problem is retrieval, comparison, or vocabulary rather than one civilization volume alone. After v0.1.14 the apparatus is shelved by role: **`docs/`** (reader + contracts), **`theory/`**, **`sources/`**, **`essays/`**.
 
-1. [Glossary](glossary.md)
-2. [Volume Map](../volumes/README.md)
-3. [Theory shelf](../theory/README.md)
-4. [Rhythm](../theory/rhythm.md)
-5. [Civilization](../theory/civilization.md)
-6. [Empire](../theory/empire.md)
-7. [Entropy](../theory/entropy.md)
-8. [Faith](../theory/faith.md)
-9. [Science](../theory/science.md)
-10. [Memory](../theory/memory.md)
-11. [Time](../theory/time.md)
-12. [Hybrid References](hybrid-references.md)
-13. [Cross-case recurrence essay](../essays/cross-case-recurrence-and-sovereignty.md)
-14. [Index](index.md)
-15. [Sources](../sources/README.md) · [Source-Lattice](../sources/source-lattice.md)
+### Docs shelf
+
+Whole-work reader apparatus and reference contracts — [Docs index](README.md).
+
+**Reading path**
+
+1. [Civilization and Empire](introduction.md) — opening essay (not the book title)
+2. [Reader Guide](reader-guide.md)
+3. [Table of Contents](table-of-contents.md) — this map
+
+**Reference**
+
+4. [Glossary](glossary.md)
+5. [Hybrid References](hybrid-references.md)
+6. [Index](index.md)
+7. [Book architecture](book-architecture.md)
+8. [Names and titles](names-and-titles.md)
+9. [Era spine](era-spine.md)
+10. [Release history](release-history.md)
+
+**Publish meta**
+
+11. [Founding provenance](FOUNDING-PROVENANCE.md)
+12. [Contributing](CONTRIBUTING.md)
+
+### Theory shelf
+
+[Governing terms and law](../theory/README.md) — open the load-bearing term first.
+
+13. [Rhythm](../theory/rhythm.md)
+14. [Civilization](../theory/civilization.md)
+15. [Empire](../theory/empire.md)
+16. [Entropy](../theory/entropy.md)
+17. [Faith](../theory/faith.md)
+18. [Science](../theory/science.md)
+19. [Memory](../theory/memory.md)
+20. [Time](../theory/time.md)
+
+### Sources shelf
+
+Evidence layer — [Sources index](../sources/README.md) · [Source-Lattice](../sources/source-lattice.md).
+
+### Essays
+
+21. [Cross-case recurrence and sovereignty](../essays/cross-case-recurrence-and-sovereignty.md)
+22. [High-skill labor compression](../essays/high-skill-labor-compression-and-civilizational-statecraft.md)
+23. [Hormuz recognition / transit restraint](../essays/hormuz-recognition-transit-restraint.md)
+
+### Volume map
+
+24. [Volume Map](../volumes/README.md) — constitutional order across all five cases
 
 ## Retrieval Order
 
@@ -134,14 +170,19 @@ Use the whole-work apparatus in this order when the operator does not yet know w
 3. [Table of Contents](table-of-contents.md) — choose the volume
 4. the relevant volume introduction and `README.md`
 5. the relevant `Civilization` → `Empire` sequence
-. the relevant volume [sacred-grammar.md](reader-guide.md#sacred-grammar-volume-local) when legitimacy governs
+6. the relevant volume [sacred-grammar.md](reader-guide.md#sacred-grammar-volume-local) when legitimacy governs
 7. [Source-Lattice](../sources/source-lattice.md) when the volume front door alone is too broad
+8. [Docs index](README.md) when the problem is shelf layout, title discipline, or release lineage
 
 ## Door Reminder
 
 Use [Glossary](glossary.md) when the problem is vocabulary.
 
 Use [Hybrid References](hybrid-references.md) when the problem is source basis, evidence spine, or intellectual ancestry.
+
+Use [Book architecture](book-architecture.md) when the problem is which shelf owns what (docs, theory, sources, volumes).
+
+Use [Names and titles](names-and-titles.md) when citation layers are collapsing.
 
 Use the volume-local bibliography when the problem is the primary-source and bounded-secondary field for one civilization-state case rather than for the whole work.
 

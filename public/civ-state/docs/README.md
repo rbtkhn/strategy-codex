@@ -6,7 +6,7 @@ Public documentation and whole-work reader apparatus for *Civilizational Statecr
 
 1. [Civilization and Empire](introduction.md) — whole-work opening essay (not the book title)
 2. [Reader Guide](reader-guide.md) — reading doctrine
-3. [Table of Contents](table-of-contents.md) — five-volume map and appendix apparatus
+3. [Table of Contents](table-of-contents.md) — five-volume map; [appendix apparatus](table-of-contents.md#appendix-whole-work-apparatus) lists every shelf
 
 ## Reference
 
