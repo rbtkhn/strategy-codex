@@ -20,7 +20,7 @@ youtube_id: a2Lqc7m0SfE
 source_note: "Operator-pasted transcript; Nawfal×Weichert Trump-Netanyahu rupture / hostilities-resume bench (Channel 12/13 Beirut evacuation bluff→strike; 1945 Iran war returning article; Trump pulse talks ongoing vs Katz rhetoric; Project Freedom Nav blocked; Axios leak as strategic leak / Rubio 2028 freelancing; Israel-Ukraine oligarch Mindel Tel Aviv; Massie out / Congress capture; Netanyahu peace impossible / legal jeopardy; Israeli brain-drain / Palantir panopticon; MSAD Barnea regime-change; Iranian officer inevitable hostilities; muted media vs Iraq; Russia Berlin drone factories / Article 5 dead; Sevastopol-Crimea stack; Cancian CSIS 50% depletion vs Weichert Tucker March 1; DIB mountains reconstituted; Sparta Syria resupply). verify:Channel 12 two-call Beirut bluff sequence; verify:Trump pulse Iran talks continuous; verify:Axios Trump-Netanyahu leak; verify:MSAD Barnea regime-change quote; verify:Iranian military officer Tuesday statement; verify:FT NATO nukes Poland report; verify:Sparta Khmeimim resupply; analyst-tier not wire primary. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
 youtube_upload_reconciled: true
-opening_tier: banter-open
+opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 64 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.

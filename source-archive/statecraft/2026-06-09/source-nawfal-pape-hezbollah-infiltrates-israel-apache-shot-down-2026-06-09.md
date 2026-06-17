@@ -19,11 +19,11 @@ source_url: "https://www.youtube.com/watch?v=4wfVXkp9eGs"
 youtube_id: 4wfVXkp9eGs
 source_note: "Operator-pasted transcript; no spoken date in opening. Pub date aligned to operator intake + same-day breaking bench (NYT/Axios Apache near Hormuz; Misgav/Margalyot infiltration reports). Day-100 middle-game frame; Iran survival-to-ambition; escalation dominance; Houthis/Red Sea; non-intercept; Trump-Netanyahu control waning; fall nuclear-test red line. verify:wire-supported Apache down, 2 crew rescued; verify:wire-unclear SAM cause (Axios drone hit later); verify:wire-supported one infiltrator Ramim Ridge, IDF affiliation unconfirmed; verify:wire-contradicted multi-cell Hebrew media; verify:wire-supported Houthis Israel-shipping ban 8 Jun; verify:wire-contested US did not intercept (NBC/CNN/CBS vs Al-Monitor self-defense fires). · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
-opening_tier: host-monologue
+opening_tier: clean
 transcript_wrapper_tier: clean
-opening_trim_applied: false
+opening_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 60 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 60 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved. Opening rapport banter trimmed in place (guest how-are-you only); Mario breaking-news setup preserved.
 quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 nawfal_close_promo_trim_applied: true
 ---
@@ -39,7 +39,7 @@ nawfal_close_promo_trim_applied: true
 
 ## Transcript
 
-Uh, professor, how are you? >> Uh, I am terrific. Thank you for having me again, Mario. >> Always always a pleasure. So, we have uh two pretty significant developments today. The first one is according to the New York Times, a US Army Apache helicopter went down near the straight of Hammuz and the two crew members were said to be safely rescued.
+So, we have uh two pretty significant developments today. The first one is according to the New York Times, a US Army Apache helicopter went down near the straight of Hammuz and the two crew members were said to be safely rescued.
  US officials say they are investigating the possibility of an Iranian surfaceto-air missile causing the American Apache helicopter to crash near the straight home according to Axios. So we know that Trump's red line for him not to strike Iran again is the death of American personnel. So we got pretty close to it in this helicopter uh being likely shut down.
  We don't know for sure. It's being investigated. And while this is happening, professor, we talk about the escalation travel. Well, today is ripe for escalations. Um, in Israel, we have the possibility of Hezbollah members having infiltrated Israel. A group of Isbala fighters infiltrated into the settlements of Misgav and Margalyot.
  And the IDF decided to to so the IDF did not announce this immediately. One Hezbollah fighter was killed at Amin Ridge and another after crossing into Israeli territory and fighting on firing on IDF troops and searches underway in three other towns for other groups of infiltrators. Another group of infiltrators allegedly and at least two Hezbollah elements are still inside Israeli territory according to Hebrew media. So we have an infiltration.
