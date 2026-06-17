@@ -3,7 +3,7 @@ name: statecraft-framework
 preferred_activation: statecraft-framework
 description: "Diagnose a live statecraft object through the Civilizational Statecraft Framework before drafting. Use when the operator needs the governing term named first (civilization, empire, entropy, faith, science, or memory), then rhythm/time placement, dominant layer, likely outsider misread, likely failure layer, and the right downstream retrieval surface. Do not use for volume-front-door hardening, lane synthesis artifacts, or direct transaction drafting."
 portable: true
-version: 0.2.0
+version: 0.2.1
 tags:
   - operator
   - statecraft
@@ -18,7 +18,7 @@ tags:
 
 Use this skill to diagnose a live object through the **Civilizational Statecraft Framework** before lane descent, clause drafting, or transaction design.
 
-Compatibility note: older references to **`civ-state-frame`** mean this skill. **`desire`** as a governing term is retired — read behavioral overreach under **entropy**.
+Compatibility note: older references to **`civ-state-frame`** mean this skill. **`desire`** as a governing term is retired — read appetite, spectacle, and compensatory overreach under **empire**.
 
 This is not a drafting skill. It is a pre-draft diagnosis and routing skill.
 
@@ -30,7 +30,7 @@ The framework reads live objects through **six governing terms** plus **two law 
 
 - **civilization** — inherited order, legitimacy substrate, continuity-bearing form
 - **empire** — outward instrument, amplification, coercion stack
-- **entropy** — structural and behavioral degradation when form and instrument diverge
+- **entropy** — historical causes and manifestations of civilizational degradation (war, revolution, disease, famine, ecological disaster, compound shocks)
 - **faith** — sacred, moral, covenantal truth-order
 - **science** — technical, procedural, evidentiary truth-order
 - **memory** — continuity, wound, retrieval entry
@@ -65,7 +65,7 @@ Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **seco
    - what faith-order authorizes it?
    - what science-order authorizes it?
    - what memory sustains it?
-   - what entropy (structural or behavioral) degrades or accelerates it?
+   - what historical shock (war, revolution, famine, plague, ecological rupture) governs degradation?
 
 3. **Name the governing term first.**  
    Pick one: civilization · empire · entropy · faith · science · memory.
@@ -83,9 +83,9 @@ Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **seco
 7. **Choose the return path.**
    - civilization or faith → Sacred Grammar · legitimacy surfaces
    - memory → `state-memory` · continuity notes
-   - empire → empire / helix / transaction / routing surfaces
+   - empire → empire / helix / transaction / routing surfaces (include overreach reads here)
    - science → procedural / verification / implementation
-   - entropy → escalation · overreach · [cross-case essay](../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md)
+   - entropy → shock typology · rhythm degrades beat · era/sources shelves · [cross-case essay](../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md)
 
 8. **Open the theory page for the governing term.**  
    Whole-work: `public/civ-state/theory/<term>.md`  
@@ -107,9 +107,9 @@ Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **seco
 
 **Faith / science:** coequal truth-orders — do not collapse one into the other.
 
-**Entropy:** distinguish structural divergence (form vs instrument) from behavioral overreach (prestige, novelty, resentment accelerating past inheritance).
+**Entropy:** name one load-bearing historical manifestation or compound (war, revolution, disease, famine, ecological disaster). Do not conflate empire-overreach or civilization/empire divergence with entropy — those reads stay on empire, civilization, and rhythm.
 
-**Rhythm:** names motion; civilization / empire / entropy are the actors in the beat.
+**Rhythm:** names motion; the **degrades** beat surfaces historical entropy — open `public/civ-state/theory/entropy.md` for the shock typology.
 
 ## Output
 

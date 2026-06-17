@@ -3,9 +3,11 @@
 Status: Active operator pass  
 Surface: WORK — strategy-codex workshop  
 Purpose: bounded six-term retrieval before lane translation or clause drafting  
-Last updated: 2026-06-17
+Last updated: 2026-06-15
 
 **Ship-bound theory SSOT:** [`public/civ-state/theory/`](../../public/civ-state/theory/README.md) — edit theory prose there, not in this workshop tree.
+
+**v0.1.15 alignment:** entropy = historical shocks only; retired **desire** / overreach → **empire**; form/instrument divergence → civilization · empire · rhythm.
 
 ## When to use
 
@@ -29,11 +31,11 @@ Do not use when the object is still unverified live news — route through `stat
 ## Pass order
 
 1. **Civilization** — inheritance, legitimacy substrate, continuity-bearing form  
-2. **Empire** — outward instrument, amplification, coercion stack  
+2. **Empire** — outward instrument, amplification, coercion stack; spectacle and overreach  
 3. **Faith** — sacred, moral, covenantal truth-order  
 4. **Science** — technical, procedural, evidentiary truth-order  
 5. **Memory** — continuity, wound, retrieval entry  
-6. **Entropy** — structural and behavioral degradation when form and instrument diverge (replaces retired **desire** term)  
+6. **Entropy** — historical causes and manifestations of civilizational degradation (war, revolution, disease, famine, ecological disaster, compound shocks)  
 7. **Integration** — name governing term + likely misread + failure layer  
 8. **Return path** — route to Sacred Grammar, lane surfaces, or comparative essay
 
@@ -60,7 +62,7 @@ Answer:
 | faith | [faith.md](../../public/civ-state/theory/faith.md) → Sacred grammar · god/lit |
 | science | [science.md](../../public/civ-state/theory/science.md) → procedural · verification · implementation |
 | memory | [memory.md](../../public/civ-state/theory/memory.md) → state-memory · continuity-sensitive notes |
-| entropy | [entropy.md](../../public/civ-state/theory/entropy.md) → escalation · overreach · [cross-case essay](../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md) |
+| entropy | [entropy.md](../../public/civ-state/theory/entropy.md) → shock typology · rhythm degrades beat · era/sources · [cross-case essay](../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md) |
 
 ## Quick version
 
@@ -69,7 +71,7 @@ Answer:
 3. What faith-order authorizes it?  
 4. What science-order authorizes it?  
 5. What memory sustains it?  
-6. What entropy (structural or behavioral) degrades or accelerates it?  
+6. What historical shock (war, revolution, famine, plague, ecological rupture) governs degradation?  
 7. Which term actually governs the object?
 
 ## Failure signs
@@ -77,7 +79,8 @@ Answer:
 - instrument without inheritance  
 - sacred legitimacy without procedural authority  
 - procedure without moral limit  
-- memory without entropy check  
+- memory without renewal check  
+- empire-overreach mistaken for entropy  
 - all six named but none governs  
 - summary too broad to improve routing
 
@@ -85,5 +88,6 @@ Answer:
 
 - civilization must be distinguished from empire  
 - faith must be distinguished from science  
-- memory must be distinguished from entropy (behavioral overreach)  
+- memory must be distinguished from empire overreach acting on memory  
+- entropy names historical shocks — not form/instrument divergence  
 - the **governing term** must be named before drafting begins
