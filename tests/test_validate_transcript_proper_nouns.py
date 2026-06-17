@@ -14,7 +14,7 @@ from validate_transcript_proper_nouns import (  # noqa: E402
 
 BLOCKLIST = (
     REPO_ROOT
-    / "statecraft/voices/jiang/ph-civ/data/asr-blocklist/volume-ii-pilot.json"
+    / "public/ph-civ/data/asr-blocklist/volume-ii-pilot.json"
 )
 
 
@@ -43,6 +43,6 @@ def test_allowed_residual_suppresses_hit() -> None:
 
 def test_blocklist_has_pilot_scope_metadata() -> None:
     payload = json.loads(BLOCKLIST.read_text(encoding="utf-8"))
-    assert payload["scope"] == "volume-ii civ-01..12"
+    assert payload["scope"] == "volume-ii civ-01..18"
     assert len(payload["entries"]) >= 100
     assert any(entry["literal"] == "hedgemon" for entry in payload["entries"])
