@@ -667,6 +667,8 @@ def run_auto_dream(
     strict_mode: bool = False,
     cursor_model: str | None = None,
     phase: str = "both",
+    apply_scaffold_catchup: bool = False,
+    scaffold_max_apply: int = 25,
 ) -> dict[str, Any]:
     if phase not in VALID_PHASES:
         raise ValueError(f"phase must be one of {VALID_PHASES}, got {phase!r}")
@@ -730,6 +732,23 @@ def run_auto_dream(
         governance_ok = True
 
     halted = strict_mode and (not integrity_ok or not governance_ok)
+
+    if (
+        apply
+        and not halted
+        and apply_scaffold_catchup
+        and dream_catchup.get("local_calendar_dates")
+    ):
+        try:
+            apply_dates = [date.fromisoformat(s) for s in dream_catchup["local_calendar_dates"]]
+            dream_catchup["statecraft_scaffold_catchup"] = run_scaffold_catchup(
+                local_dates=apply_dates,
+                repo_root=REPO_ROOT,
+                apply=True,
+                max_apply=max(1, scaffold_max_apply),
+            )
+        except Exception as exc:  # noqa: BLE001
+            dream_catchup["statecraft_scaffold_catchup_apply_error"] = str(exc)
 
     digest_path = default_digest_path(users_dir=users_dir, user_id=user_id) if apply and not halted else None
     artifact_drafts: list[dict[str, Any]] = []
@@ -1243,6 +1262,17 @@ def main() -> int:
         default="both",
         help="Run a specific phase: recent (memory+digest), structural (integrity+governance), or both (default)",
     )
+    parser.add_argument(
+        "--apply-scaffold-catchup",
+        action="store_true",
+        help="After report, apply bounded statecraft scaffold repair (skipped when --strict halts or --dry-run)",
+    )
+    parser.add_argument(
+        "--scaffold-max-apply",
+        type=int,
+        default=25,
+        help="Max archive files to repair when --apply-scaffold-catchup (default 25)",
+    )
     args = parser.parse_args()
 
     summary = run_auto_dream(
@@ -1254,6 +1284,8 @@ def main() -> int:
         strict_mode=args.strict,
         cursor_model=(args.cursor_model.strip() if args.cursor_model else None),
         phase=args.phase,
+        apply_scaffold_catchup=args.apply_scaffold_catchup,
+        scaffold_max_apply=args.scaffold_max_apply,
     )
     memory_observability_line = None
     if summary.get("ok") and not args.dry_run:

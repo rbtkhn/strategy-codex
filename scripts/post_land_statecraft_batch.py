@@ -20,38 +20,8 @@ _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from normalize_dialogue_works_opening_scaffold import is_dialogue_works_capture  # noqa: E402
-from normalize_mercouris_close_scaffold import is_mercouris_solo_capture  # noqa: E402
-from normalize_napolitano_opening_scaffold import (  # noqa: E402
-    is_napolitano_capture,
-    split_frontmatter as nap_split,
-)
-from normalize_nawfal_opening_banter import is_nawfal_hosted  # noqa: E402
-from post_land_caption_wrapper_normalize import (  # noqa: E402
-    _format_flags as format_caption,
-    post_land_caption_wrapper_normalize,
-)
-from post_land_dialogue_works_opening_normalize import (  # noqa: E402
-    _format_flags as format_dw,
-    post_land_dialogue_works_opening_normalize,
-)
-from post_land_mercouris_close_normalize import (  # noqa: E402
-    _format_flags as format_mercouris,
-    post_land_mercouris_close_normalize,
-)
-from post_land_napolitano_opening_normalize import (  # noqa: E402
-    _format_flags as format_nap,
-    post_land_napolitano_opening_normalize,
-)
-from post_land_nawfal_opening_normalize import (  # noqa: E402
-    _format_flags as format_nawfal,
-    post_land_nawfal_opening_normalize,
-)
+from post_land_statecraft_family import apply_statecraft_capture_scaffold  # noqa: E402
 from statecraft_day_archive import DEFAULT_ROOT  # noqa: E402
-
-def _split_frontmatter(text: str) -> tuple[dict, str]:
-    meta, body = nap_split(text)
-    return meta, body
 
 
 def _landed_files_for_day(day: str) -> list[Path]:
@@ -68,43 +38,24 @@ def _landed_files_for_day(day: str) -> list[Path]:
     return files
 
 
-def _family_opening_normalize(path: Path, *, dry_run: bool) -> str:
-    text = path.read_text(encoding="utf-8")
-    meta, _ = _split_frontmatter(text)
-    if is_napolitano_capture(meta, path):
-        result = post_land_napolitano_opening_normalize(path, dry_run=dry_run)
-        return format_nap(result)
-    if is_nawfal_hosted(meta, path):
-        result = post_land_nawfal_opening_normalize(path, dry_run=dry_run)
-        return format_nawfal(result)
-    if is_dialogue_works_capture(meta, path):
-        result = post_land_dialogue_works_opening_normalize(path, dry_run=dry_run)
-        return format_dw(result)
-    if is_mercouris_solo_capture(meta, path):
-        result = post_land_mercouris_close_normalize(path, dry_run=dry_run)
-        return format_mercouris(result)
-    rel = path.relative_to(REPO_ROOT).as_posix()
-    return f"skip-family {rel} (no napolitano/nawfal/dialogue-works/mercouris-solo match)"
-
-
 def post_land_batch(
     paths: list[Path],
     *,
     dry_run: bool = False,
     sync_daily: str | None = None,
     skip_index: bool = False,
+    force_mercouris_close: bool = False,
 ) -> int:
     exit_code = 0
     for path in paths:
         try:
-            caption = post_land_caption_wrapper_normalize(path, dry_run=dry_run)
-            print(format_caption(caption))
-        except (FileNotFoundError, ValueError) as exc:
-            print(exc, file=sys.stderr)
-            exit_code = 1
-            continue
-        try:
-            print(_family_opening_normalize(path, dry_run=dry_run))
+            result = apply_statecraft_capture_scaffold(
+                path,
+                dry_run=dry_run,
+                force_mercouris_close=force_mercouris_close,
+            )
+            for line in result.lines:
+                print(line)
         except (FileNotFoundError, ValueError) as exc:
             print(exc, file=sys.stderr)
             exit_code = 1
@@ -146,6 +97,11 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument(
+        "--force-mercouris-close",
+        action="store_true",
+        help="Re-run Mercouris close trim even when mercouris_close_promo_trim_applied is set.",
+    )
+    parser.add_argument(
         "--skip-index",
         action="store_true",
         help="Normalize only; do not refresh archive indices (mid-batch throughput mode).",
@@ -178,6 +134,7 @@ def main() -> int:
         dry_run=args.dry_run,
         sync_daily=sync_daily,
         skip_index=args.skip_index,
+        force_mercouris_close=args.force_mercouris_close,
     )
 
 
