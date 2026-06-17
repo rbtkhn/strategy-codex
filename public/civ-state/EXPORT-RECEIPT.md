@@ -1,8 +1,8 @@
 # Export Receipt
 
-- **Generated:** 2026-06-15T15:11:04Z
-- **Release tag:** v0.1.7
-- **Files written:** 29
+- **Generated:** 2026-06-17T12:44:35Z
+- **Release tag:** v0.1.11
+- **Files written:** 31
 - **Manifest:** `config/civilizational_statecraft_public_export.yaml`
 - **Script:** `scripts/export_civilizational_statecraft_public.py`
-- **Tree hash:** `50ae49c816448273`
+- **Tree hash:** `fb93ec5aad81b8d9`

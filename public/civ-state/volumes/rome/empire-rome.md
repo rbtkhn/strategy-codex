@@ -84,4 +84,4 @@ Open Rome imperially by asking what machinery is actually at issue: incorporatio
 - Rome source corpus
 - [Rome sacred grammar](../../volumes/rome/sacred-grammar.md)
 - [Rome source-memory volume](README.md)
-- [Civilizational Statecraft Framework](../../framework/doctrine.md)
+- [Form](../../framework/form.md) · [framework shelf](../../framework/README.md)
