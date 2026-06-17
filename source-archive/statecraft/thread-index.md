@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 ## Stats
 
 - Distinct threads: `66`
-- Thread-linked source files: `2679`
+- Thread-linked source files: `2681`
 - Covered days: `460`
 - Covered months: `22`
 
@@ -26,10 +26,10 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `mearsheimer` | 89 | 84 | 18 | `Judging Freedom` (23), `Daniel Davis Deep Dive` (19), `Diesen (Greater Eurasia)` (7) | `Andrew Napolitano` (30), `Daniel Davis` (26), `Glenn Diesen` (14) | `2025-01-17` | `2026-06-13` |
 | `macgregor` | 82 | 69 | 17 | `Daniel Davis Deep Dive` (33), `Judging Freedom` (20), `Glenn Diesen` (7) | `Daniel Davis` (33), `Andrew Napolitano` (25), `Glenn Diesen` (16) | `2025-01-06` | `2026-06-16` |
 | `marandi` | 66 | 50 | 10 | `Dialogue Works` (32), `Glenn Diesen` (13), `Daniel Davis Deep Dive` (11) | `Nima Alkhorshid` (30), `Glenn Diesen` (13), `Daniel Davis` (11) | `2025-01-05` | `2026-06-16` |
-| `pape` | 64 | 50 | 5 | `escalationtrap.substack.com` (40), `Mario Nawfal` (4), `Breaking Points` (3) | `Robert Pape` (41), `Mario Nawfal` (4), `Clayton Morris` (2) | `2026-02-25` | `2026-06-09` |
+| `pape` | 65 | 51 | 5 | `escalationtrap.substack.com` (40), `Mario Nawfal` (5), `Breaking Points` (3) | `Robert Pape` (41), `Mario Nawfal` (4), `Clayton Morris` (2) | `2026-02-25` | `2026-06-16` |
 | `simplicius` | 62 | 62 | 4 | `simplicius76.substack.com` (62) | (none) | `2026-01-02` | `2026-04-27` |
 | `crooke` | 58 | 56 | 13 | `Daniel Davis Deep Dive` (5), `Dialogue Works` (5), `Judging Freedom` (4) | `Nima Alkhorshid` (7), `Daniel Davis` (7), `Glenn Diesen` (5) | `2025-06-25` | `2026-06-11` |
-| `nawfal` | 40 | 24 | 2 | `Mario Nawfal` (40) | `Mario Nawfal` (28) | `2026-05-12` | `2026-06-16` |
+| `nawfal` | 41 | 24 | 2 | `Mario Nawfal` (41) | `Mario Nawfal` (28) | `2026-05-12` | `2026-06-16` |
 | `parsi` | 39 | 36 | 12 | `substack.com/@tritaparsi` (11), `Dialogue Works` (5), `tritaparsi.substack.com` (5) | `Trita Parsi` (18), `Nima Alkhorshid` (5), `Daniel Davis` (2) | `2025-05-09` | `2026-06-16` |
 | `martyanov` | 34 | 33 | 13 | `Dialogue Works` (27), `Daniel Davis Deep Dive` (3), `Deep Dive` (1) | `Nima Alkhorshid` (27), `Daniel Davis` (4), `Glenn Diesen` (3) | `2025-01-26` | `2026-06-11` |
 | `baud` | 31 | 30 | 12 | `Dialogue Works` (20), `Daniel Davis Deep Dive` (5), `Glenn Diesen` (4) | `Nima Alkhorshid` (18), `Daniel Davis` (5), `Glenn Diesen` (4) | `2025-01-24` | `2026-06-15` |
