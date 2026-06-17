@@ -160,7 +160,7 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 7. [Cross-case recurrence essay](essays/cross-case-recurrence-and-sovereignty.md)
 8. [Hybrid References](hybrid-references.md)
 9. [Index](index.md)
-10. [Source-Lattice](source-lattice.md)
+10. [Sources](sources/README.md) · [Source-Lattice](sources/source-lattice.md)
 
 """
 
@@ -193,7 +193,7 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
                 + "1. [Theory shelf](theory/README.md)\n"
                 + "2. [Hybrid References](hybrid-references.md)\n"
                 + "3. [Index](index.md)\n"
-                + "4. [Source-Lattice](source-lattice.md)\n"
+                + "4. [Sources](sources/README.md) · [Source-Lattice](sources/source-lattice.md)\n"
                 + "5. [Cross-case recurrence essay](essays/cross-case-recurrence-and-sovereignty.md)\n"
             )
             text = text[: block.start()] + replacement + text[block.end() :]
@@ -213,7 +213,7 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
         r"6\. the relevant volume `sacred-grammar\.md`[^\n]+\n"
         r"7\. \[Source Retrieval Matrix\][^\n]+\n",
         r"\1\2\3\4\5\6. the relevant volume [sacred-grammar.md](reader-guide.md#sacred-grammar-volume-local) when legitimacy governs\n"
-        r"7. [Source-Lattice](source-lattice.md) when the volume front door alone is too broad\n",
+        r"7. [Source-Lattice](sources/source-lattice.md) when the volume front door alone is too broad\n",
         text,
         count=1,
     )
@@ -400,22 +400,22 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         )
         text = re.sub(
             rf"volumes/{re.escape(slug)}/civ-state-{slug}-primary-sources-([a-z]+)\.md",
-            rf"volumes/{slug}/sources/primary/\1.md",
+            rf"sources/{slug}/primary/\1.md",
             text,
         )
         text = re.sub(
             rf"volumes/{re.escape(slug)}/civ-state-{slug}-secondary-sources-([a-z]+)\.md",
-            rf"volumes/{slug}/sources/secondary/\1.md",
+            rf"sources/{slug}/secondary/\1.md",
             text,
         )
         text = re.sub(
             rf"\.\./volumes/{re.escape(folder)}/civ-state-{slug}-primary-sources-([a-z]+)\.md",
-            rf"../volumes/{slug}/sources/primary/\1.md",
+            rf"../sources/{slug}/primary/\1.md",
             text,
         )
         text = re.sub(
             rf"\.\./volumes/{re.escape(folder)}/civ-state-{slug}-secondary-sources-([a-z]+)\.md",
-            rf"../volumes/{slug}/sources/secondary/\1.md",
+            rf"../sources/{slug}/secondary/\1.md",
             text,
         )
 

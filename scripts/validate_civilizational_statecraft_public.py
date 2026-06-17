@@ -46,7 +46,8 @@ REQUIRED_ROOT = [
     "README.md",
     "table-of-contents.md",
     "reader-guide.md",
-    "source-lattice.md",
+    "sources/README.md",
+    "sources/source-lattice.md",
     "glossary.md",
     "manifest.yaml",
     "LICENSE",
@@ -160,9 +161,12 @@ def check_volume(export: Path, slug: str, eras: list[str], stub: bool) -> list[s
         if not matches and not stub:
             errors.append(f"volumes/{slug}: missing {part} essay")
     for era in eras:
-        primary = base / "sources" / "primary" / f"{era}.md"
+        primary = export / "sources" / slug / "primary" / f"{era}.md"
         if not primary.is_file():
-            errors.append(f"volumes/{slug}: missing sources/primary/{era}.md")
+            errors.append(f"sources/{slug}: missing primary/{era}.md")
+    src_readme = export / "sources" / slug / "README.md"
+    if not src_readme.is_file():
+        errors.append(f"sources/{slug}: missing README.md")
     return errors
 
 

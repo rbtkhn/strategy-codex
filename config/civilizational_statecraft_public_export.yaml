@@ -1,9 +1,10 @@
 # Civilizational Statecraft public export manifest (WORK; not Record)
 # SSOT for scripts/export_civilizational_statecraft_public.py
 schema_version: "1.0.0"
-release_tag: "v0.1.12"
+release_tag: "v0.1.13"
 # Ship-bound theory SSOT: public/civ-state/theory/ — edit there for reader-facing theory prose.
-# source_root is workshop promotion residue only; not the daily theory edit surface.
+# Ship-bound sources SSOT: public/civ-state/sources/ — source-lattice + per-civ era shelves.
+# source_root is workshop promotion residue only; not the daily edit surface.
 canonical_public_repo: "https://github.com/rbtkhn/civ-state"
 legacy_public_repo: "https://github.com/rbtkhn/civ-emp"
 
@@ -84,7 +85,7 @@ directories:
     transform: strip_work_fence
 
 generated:
-  - dest: source-lattice.md
+  - dest: sources/source-lattice.md
     template: source-lattice.md
   - dest: README.md
     template: public-README.md

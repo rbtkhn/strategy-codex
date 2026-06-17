@@ -1,9 +1,7 @@
-# Sources
+# Sources (workshop pointer)
 
-Whole-work source registry and canonical captures for *Civilizational Statecraft*.
+WORK only; not Record.
 
-Each volume owns era-matched shelves under `volumes/{civ}/sources/primary/` and `sources/secondary/` (see [Source-Lattice](../source-lattice.md)). This folder holds cross-volume source material that does not belong to a single civilization case.
+**Ship-bound sources SSOT:** [`public/civ-state/sources/`](../../../public/civ-state/sources/README.md) — [Source-Lattice](../../../public/civ-state/sources/source-lattice.md) + per-civ era shelves under `sources/{civ}/`.
 
-## Start here
-
-- *(entries land here as the public sources shelf matures)*
+Do not edit public source shelves here for ship. Volume interpretive doors remain under `public/civ-state/volumes/{civ}/`.

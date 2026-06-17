@@ -24,6 +24,8 @@ Each volume now also carries era-matched `secondary-sources` files beneath the b
 Together, the `shelf-reader`, `primary-sources`, and `secondary-sources` layers
 form the CIV-STATE **source-lattice**.
 
+**Ship-bound sources SSOT:** [`public/civ-state/sources/`](../../../public/civ-state/sources/README.md) — era shelves live under `sources/{civ}/`; volumes link up from interpretive doors.
+
 **Source-lattice** means the layered retrieval structure through which a
 civilizational object is opened, stabilized, and only then widened into
 synthesis. Its governing law is: open the primary shelf first, use secondary

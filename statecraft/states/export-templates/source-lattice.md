@@ -19,9 +19,9 @@ doorway → primary floor → secondary support → widened interpretation
 | Layer | Where in this book | Reader question |
 |-------|-------------------|-----------------|
 | **Doorway** | Volume `README.md`, `shelf-reader.md` | What civilization-state is this? How do I traverse the shelf? |
-| **Primary floor** | `bibliography.md`, `sources/primary/{era}.md` | What are the direct source doors? |
-| **Secondary support** | `sources/secondary/{era}.md` | What clarifies chronology, provenance, translation, or counterweight trouble? |
-| **Widened interpretation** | `civilization-*.md`, `empire-*.md`, `statecraft-*.md` (+ sub-lenses) | What judgment does the chain bear now? |
+| **Primary floor** | Volume `bibliography.md`, `sources/{civ}/primary/{era}.md` | What are the direct source doors? |
+| **Secondary support** | `sources/{civ}/secondary/{era}.md` | What clarifies chronology, provenance, translation, or counterweight trouble? |
+| **Widened interpretation** | `civilization-*.md`, `empire-*.md`, `statecraft-*.md` (+ sub-lenses) under `volumes/{civ}/` | What judgment does the chain bear now? |
 
 Cross-volume comparison opens only after one volume grammar is clear: see [cross-case recurrence essay](../essays/cross-case-recurrence-and-sovereignty.md) and the [theory shelf](../theory/README.md).
 
@@ -41,6 +41,8 @@ Secondary support must not displace source primacy.
 After the whole-work doors (`table-of-contents.md`, `reader-guide.md`), read civilization-state cases:
 
 China → Persia → Rome → Russia → America
+
+Source shelves: [Sources index](README.md).
 
 ## Out of scope for this book
 
