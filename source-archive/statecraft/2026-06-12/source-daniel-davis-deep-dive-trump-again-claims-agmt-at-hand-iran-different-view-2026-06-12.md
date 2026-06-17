@@ -5,14 +5,12 @@ kind: cleaned-transcript
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 source_form: solo
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: davis
-threads:
-  - davis
+threads: ""
 thread_expert: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -21,15 +19,17 @@ channel_slug: daniel-davis-deep-dive
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 source_url: "https://www.youtube.com/watch?v=VjI4y1ZcYug"
 youtube_id: VjI4y1ZcYug
-source_note: "Operator-pasted transcript; inferred pub_date 12 Jun 2026 from live refs (Trump True Social today, Vance/Kayleigh 14min–1hr ago). Deal theater ~40th time; leaked 14-point MOU scaffold vs Trump denial; Rubio back-to-before-war Hormuz goal vs Feb 28 obliteration terms; Araghchi Islamabad MOU closer; Rezaei four demands (US withdrawal, reparations, Hormuz+Oman control, no-future-war guarantee); Iran unplayed ace — Indian Ocean/Bab el-Mandeb/Med/base expansion + GCC oil infra; Vance no cash upfront; Kayleigh 75% close; Netanyahu nuclear veto; zero trust/credit score frame; walk-away declare-victory exit as least-bad path vs re-escalation. Cross-ref Jun 12 Johnson/Freeman/Aguilar/Parsi batch. · ASR pass 2026-06-15."
+source_note: Operator-pasted transcript; inferred pub_date 12 Jun 2026 from live refs (Trump True Social today, Vance/Kayleigh 14min–1hr ago). Deal theater ~40th time; leaked 14-point MOU scaffold vs Trump denial; Rubio back-to-before-war Hormuz goal vs Feb 28 obliteration terms; Araghchi Islamabad MOU closer; Rezaei four demands (US withdrawal, reparations, Hormuz+Oman control, no-future-war guarantee); Iran unplayed ace — Indian Ocean/Bab el-Mandeb/Med/base expansion + GCC oil infra; Vance no cash upfront; Kayleigh 75% close; Netanyahu nuclear veto; zero trust/credit score frame; walk-away declare-victory exit as least-bad path vs re-escalation. Cross-ref Jun 12 Johnson/Freeman/Aguilar/Parsi batch. · ASR pass 2026-06-15.
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-asr
 opening_trim_applied: false
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 3 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Abbas Iraqi/Araghchi, Resay/Rezaei, horror moves/Hormuz, etc.). Gold subscribe promo retained at tail per paste."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 3 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Abbas Iraqi/Araghchi, Resay/Rezaei, horror moves/Hormuz, etc.). Gold subscribe promo retained at tail per paste. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Trump Again Claims an Agmt "At Hand" but Iran has MUCH Different View / Lt Col Daniel Davis
 
 **Channel:** Daniel Davis Deep Dive  
@@ -130,4 +130,4 @@ We're not going to relieve sanctions. We're not going to pay reparations. We're 
  there there's a there is still a very narrow path in here. But if he goes down the thing of saying I'm going to have a negotiated settlement that they agree to or that I'm going to go back to fighting which will blow up in our face, those are the worst two outcomes because they keep the the the blockade in place.
 We're going to have to do the walk away plan or we're really going to be in trouble. And unfortunately, that's an ugly, that's an unsatisfying uh condition and outcome for everybody on our side, both the United States and Israel. But it's the best that we can get because of our foolishness and our absurd decisions to have chosen to start this war.
  We got into a war and now there's no good way out of it. Understand that there is no good way out of it. There is no good outcome for us. There's only what is the least costly way to exit and that is it. Thank you very much, folks. We appreciate you. If there's any other breaking news, even though I'm not my studio here, I'm out traveling again.
- Uh if anything happens, you can count on us to bring it to you. And we'll see you then on the Daniel Davis team dive. >> You know, I don't try to talk you into buying gold or tell you how to run your stock portfolio, but there is a way you can help us. Subscribe, hit that like button, and share this with somebody you love. [music] >> [music]
+ Uh if anything happens, you can count on us to bring it to you. And

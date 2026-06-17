@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: operator_pasted_youtube_transcript
-host_people:
-  - Daniel Davis
-guest_people:
-  - Douglas Macgregor
+host_people: ""
+guest_people: ""
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: davis
-threads:
-  - davis
-  - macgregor
+threads: ""
 thread_expert: macgregor
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -29,9 +25,11 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: raw_operator_paste
-editorial_note: "Verbatim operator paste; promo close retained; caption wrapper no-op."
-quality_note: "Initial land 2026-06-16; wire-verify receipts 2026-06-16."
+editorial_note: Verbatim operator paste; promo close retained; caption wrapper no-op. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+quality_note: Initial land 2026-06-16; wire-verify receipts 2026-06-16.
+davis_close_promo_trim_applied: true
 ---
+
 # Col Douglas Macgregor: Trump Seeks 'Get out of Jail ' Card Since US Lost in Iran
 
 **Show:** Daniel Davis Deep Dive  
@@ -190,5 +188,4 @@ And it's it's astonishing that there could be that many because the Russians hav
 week and you know two months from now the Russians will have nothing left well Putin mobilized industry he he went short of total mobilization but he had partial mobilization we haven't done that could we do that sure we Do we need to? No, we don't. So, I I probably would not have said things the way he did, which is don't look here.
 There's no problem. We're golden. We're fine. We're the arsenal of freedom. Okay. Thanks. Thanks, coach. You know, we'll go on to the football team and do the best we can. But, you know, we we need less hyperbole in Washington, Dan. We need the facts, but we also need a balanced assessment. And the best balanced assessment I can give is are we at critical levels in some areas? Yes.
 Can we rectify that? Yes. Are we doing something to address it? Yes. Next question. That would be enough. We don't need the cheerleading speech. >> And apparently that's uh that's all we're going to get. But that's also all the time we have today. Thank you for going a little bit overtime with us, Doug. Always much appreciated.
->> Okay. Thank you. >> There people can see the more of Doug on his Substack. uh where where he publishes stuff at McGregor Warrior.substack.com. Thanks very much, Doug. >> Thank you. Byebye. >> And we appreciate you guys, too. Uh be sure and like and subscribe if you haven't done that on the way out and we will keep you informed of anything else that breaks whether it's in the Iran situation Ukraine war.
- And we'll see you next on the Daniel Ste. >> You know, I don't try to talk you into buying gold or tell you how to run your stock portfolio, but there is a way you can help us. Subscribe, hit that like button, and share this with somebody you love. [music] [music]
+>> Okay. Thank you. >> There people can see the more of Doug on his Substack. uh where where he publishes stuff at McGregor Warrior.substack.com. Thanks very much, Doug. >> Thank you. Byebye.

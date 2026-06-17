@@ -5,18 +5,16 @@ kind: cleaned-transcript
 source_form: solo
 source_type: youtube
 transcript_type: operator_pasted_youtube_transcript
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: davis
-threads:
-  - davis
+threads: ""
 thread_expert: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
-title: "IRAN DEAL DRAMA & DOUBT /Lt Col Daniel Davis"
+title: IRAN DEAL DRAMA & DOUBT /Lt Col Daniel Davis
 channel_slug: daniel-davis-deep-dive
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 source_url: "https://www.youtube.com/watch?v=t57WKaBn5GY"
@@ -26,8 +24,9 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: raw_operator_paste
-editorial_note: "Operator-pasted transcript body; promo close retained; ASR artifacts retained (Morandi/Mori, Hinrix, Levvin, Thiessen, horm, etc.). Not human-verified verbatim."
-quality_note: "Initial land 2026-06-16."
+editorial_note: Operator-pasted transcript body; promo close retained; ASR artifacts retained (Morandi/Mori, Hinrix, Levvin, Thiessen, horm, etc.). Not human-verified verbatim. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+quality_note: Initial land 2026-06-16.
+davis_close_promo_trim_applied: true
 ---
 
 # IRAN DEAL DRAMA & DOUBT /Lt Col Daniel Davis
@@ -150,4 +149,4 @@ Well, the cost to get that is it now then you got to pony up, man. You can't jus
 possible so he doesn't sign it on Friday. I think that's the most likely scenario there. Uh we've certainly seen a lot of that here in Washington DC in the last few years and especially since Trump has been back in in office here both with intelligence with military and now here in this diplomatic uh cable.
  So we'll see how it's going to work out. But uh listen there there's a whole lot more to talk about here. That's we're going to we're going to leave it off with you that. But we're going to have Doug McGregor back at noon today. Uh and we're going to look at a little bit more detail on the Israeli side of this.
  And if you think people's heads are blowing up in Washington, wait till you see what's coming out of the middle, out of Israel itself. Uh especially out of Benjamin Netanyahu and some of his supporters. Uh and then you're going to get Doug's take on all this. And I promise you, especially militarily and diplomatically as well as politically, he's going to have all the things to cover there.
- So, we'll see you then at noon on the Daniel Davis deep dive. You know, I don't try to talk you into buying gold or tell you how to run your stock portfolio, but there is a way you can help us. Subscribe, hit that like button, and share this with somebody you love. [music]
+ So,

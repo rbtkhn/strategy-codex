@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Daniel Davis
-guest_people:
-  - Seyed M. Marandi
+host_people: ""
+guest_people: ""
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: davis
-threads:
-  - davis
-  - marandi
+threads: ""
 thread_expert: marandi
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -29,9 +25,11 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 13 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Marandi/Marandi, Mir/Mehr, Formos/Hormus, Marandi, etc.). Subscribe/Heat close at tail."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 13 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Marandi/Marandi, Mir/Mehr, Formos/Hormus, Marandi, etc.). Subscribe/Heat close at tail. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Breaking: IRAN DEAL COMPLETE Trump Says / Lt Col Daniel Davis
 
 **Show:** Daniel Davis Deep Dive  
@@ -118,5 +116,4 @@ Okay, that's one thing. But nearly everything else they get. They get frozen ass
  I just I would be shocked beyond belief if he did it. I hope that he does for the people of Lebanon. Believe me, I hope that he does, but we'll have to wait and see. I mean, so to me, I am definitely not in in the camp of getting all excited about this because there are so many things that could still go wrong.
 Uh, and most of them are at home. I don't know how President Trump is going to sell this to anybody at home as a victory. But this is what I've been asking for, the walk away plan. If that's what this is, then terrific. I I will say good. Then congratulations. You ended the war. You walked away and you claimed victory. No one will believe it.
 But at least we'll be done with it and the blockage will come off and the Strait of Hormuz can open up and flow of oil, fertilizers, helium, all that stuff can start back again and we can start unwinding the damage already done. We'll have to wait and see what's going to happen with that. You see, I'm running out of sunlight here.
- I'm about out in the middle of Puerto Rico. Look forward to seeing you guys tomorrow. We'll update you on whatever we know in between now and then. Thank you for your your patience and this odd background that I have here. Look forward to seeing you morning. Thanks. See you then on the Daniel Davis deep dive.
- You know, we don't have sponsors because we hate to hit you over the head with ads. I don't like them. So, show a little love back. Subscribe, like, and send this to somebody you care about. Heat. Heat. [music] >> [music]
+ I'm about out in the middle of Puerto Rico. Look forward to seeing you guys tomorrow. We'll update you on whatever we know in between now and then. Thank you for your your patience and this odd background that I have here. Look forward to seeing you morning. Thanks.

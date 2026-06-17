@@ -3,14 +3,13 @@ ingest_date: 2026-06-08
 pub_date: 2026-06-08
 kind: cleaned-transcript
 source_form: solo
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-title: "Iran War Expands, Houthis Declare War on Israel"
+title: Iran War Expands, Houthis Declare War on Israel
 source_url: "https://www.youtube.com/watch?v=SRCgVFPIxwM"
 youtube_id: SRCgVFPIxwM
 channel_slug: daniel-davis-deep-dive
@@ -18,14 +17,15 @@ source_note: "Operator-pasted transcript; Davis self-dates Monday 8 June 2026 (1
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
-threads:
-  - davis
+threads: ""
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 16 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 16 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+davis_close_promo_trim_applied: true
 ---
+
 # Iran War Expands, Houthis Declare War on Israel
 
 **Show:** Daniel Davis Deep Dive  
@@ -108,4 +108,4 @@ continue to watch what this is going on. Uh listen, we got a couple of really gr
  And then in the afternoon, we're going to actually get into with Patrick Henderson what is going on with this whole Hezbollah uh fight in Lebanon with Israel anyway because I think it's really important to get to do kind of a deep dive so you can understand what is the core issue there because it seems like it should be an incidental or an ancillary issue but it's a lot more central than you may think and it's a lot bigger problem for Israel than many people realize and and that partially he's going to help you understand why
 they haven't stopped that war there. what's going to what the implications for Israel if they do. So you can understand the the ask that President Trump is having of Netanyahu and how the the internal pressures inside of Israel are mitigating against him listening to President Trump. All kinds of things going on.
  Uh we're going to give you some clarity on that. Uh, and then later on this afternoon, I think around 3:30, uh, I'm going to go back into this issue here, uh, on a couple things actually, what President Trump said elsewhere in that interview, which are very illustrative of just how difficult this is going to be from our side and from the internal issues plaguing President Trump on the inside.
- Uh, and got a couple of other surprises for you that 3:30 show. We'll see you then on the Daniel Davis deep dive.
+ Uh, and got a couple of other surprises for you that 3:30 show.

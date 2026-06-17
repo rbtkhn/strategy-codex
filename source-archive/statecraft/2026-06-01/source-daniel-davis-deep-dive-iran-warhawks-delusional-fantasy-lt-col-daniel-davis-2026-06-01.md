@@ -3,9 +3,8 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: cleaned-transcript
 source_form: solo
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
@@ -14,19 +13,24 @@ title: Iran Warhawks Delusional Fantasy /Lt Col Daniel Davis
 source_url: "https://www.youtube.com/watch?v=8ZKnRMc1m00"
 youtube_id: 8ZKnRMc1m00
 channel_slug: daniel-davis-deep-dive
-source_note: "Transcript pasted manually by operator for canonical June 1 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15."
+source_note: Transcript pasted manually by operator for canonical June 1 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15.
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. Light cleanup removed the routine closing promo."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. Light cleanup removed the routine closing promo. Transcript section wrapper normalized in place; SSOT body otherwise preserved. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_wrapper_trim_applied: true
+davis_close_promo_trim_applied: true
 ---
+
 # Iran Warhawks Delusional Fantasy /Lt Col Daniel Davis
 
-## Transcriptgive Trump credit for what he's doing here. They, you know, they shut down the straits. Eventually, we put a blockade in that shut down 100% of their exports. Now, he's taken another aggressive action to open up the straits. And I think it's more likely than not that we will return to combat operations to finish these guys once and for all.
+## Transcript
+
+give Trump credit for what he's doing here. They, you know, they shut down the straits. Eventually, we put a blockade in that shut down 100% of their exports. Now, he's taken another aggressive action to open up the straits. And I think it's more likely than not that we will return to combat operations to finish these guys once and for all.
 >> Finish these guys once and for all. I'm going to be tough. I'm going to be hard. and I'm gonna show them a thing or two. I am sick and tired of that kind of hubris and arrogance and pompacity. I'm tired of it. You can see I'm a little bit aggravated this morning early on a Monday morning.
  It's not supposed to be like this. Maybe I need to just get it off my chest. And so that's why we're here. But I see this so many times and so many people say that phrase, finish the job, trying to encourage President Trump to go back to war after we started this ceasefire after roughly 40 days of war.
  And they're saying, you know what, let's just go back and just take care of them, man. Just drop a bunch of bombs and that'll finish it. I'll tell you one of the reasons why I'm so aggravated. Not just because of the physical evidence that that's not going to work. That's enough. But what's more aggravating to me is that all the people who say this, they never do what is required logically and rationally explain how that's going to work.
@@ -84,6 +88,4 @@ for our country. And listen, all wars are ultimately about your economic capacit
 Iran from undercutting our economy that will crater us and won't even allow us to continue to defend ourselves adequately much less to win this war. And oh by the way there's this thing brewing in in Ukraine and Russia which could erupt at any moment. uh and we always have challenges in in in Asia in South China Seas and some other places where we have a lot of combat power but not a lot of missile power and that's the only thing that missile power and drone powers are the two things that really matter most in any of modern
 warfare and we're at a crisis level of the amount of all those things and you could undermine every single bit of that because if you gut our economy folks you're not going to be able to rebuild a lot of these things in any kind of time constraint whereas all of our major adversaries are. That's that's what we need to understand.
  So, every time from now on you hear one of these guys say, "Finish the job or go back to war," you put your ear back and say, "All right, now feed me, Mr. Mr. Pompeo. Feed me, Senator Graham, General Keane, General Kellogg. How is this going to work? How are you going to miticate what the Iranians are going to do?" Because if you can't do those two things and you advocate to go back to war one more time when we already have a physical re result that failed and all the reasons why it will fail again that I'm pointing out to you right now then you have just
-malfeasants and and you have someone who is by their words are sabotaging our country whether they intend it or not that will be the product of it. So, be afraid of these kinds of people or maybe be angry like I am this morning. Thanks very much, folks. We'll see you back in about 30 minutes uh with Patrick Kennson 11 a.m.
-We'll talk about what's going on in Iran today and uh you'll understand even heading into that why they're a little bit confident and maybe even cocky about what they're saying because they know they can back it up.
-
+malfeasants and and you have someone who is by their words are sabotaging our country whether they intend it or not that will be the product of it. So, be afraid of these kinds of people or maybe be angry like I am this morning.

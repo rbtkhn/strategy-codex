@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Daniel Davis
-guest_people:
-  - Douglas Macgregor
+host_people: ""
+guest_people: ""
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: davis
-threads:
-  - davis
-  - macgregor
+threads: ""
 thread_expert: macgregor
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -29,9 +25,11 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 14 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 14 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Col Douglas Macgregor THE WORLD BACKS IRAN in this War
 
 **Show:** Daniel Davis Deep Dive  
@@ -183,5 +181,4 @@ doing. If the cash stops and they can't pay them, then that sort of business wil
  And we see how money seems to be at the core of the both of these conflicts and necessary to get them over with and the infusion is a big problem. Uh so a lot of these aren't really tactical issues or even diplomatic issues as much as they are cash and uh cash rules as they say and and we see graphic evidence of that here. So thanks for bringing that to our to our light.
 Uh and also just as a reminder u man you guys I know a lot of people uh can't get enough of McGregor. So go to McGregor.substack.com substack.com and you can get all you need. And and by the way, Doug, I forgot to mention to you, but I was just in uh Tlisi, Georgia at a economic forum conference that uh a number of folks that were at uh and man, every time your name came up, everybody says, "Oh my god, we love Doug McGregor.
 " And people wanted to talk to me just because I knew you. So, uh your your fame is growing far and wide in Europe and and elsewhere. And uh people can understand why that is and they can go there to find out for themselves. So, thank you. Well, where were all these girls when I was at West Point? You know, it's so depressing. >> Yeah. >> All right. Thanks for that.
- I appreciate it. >> All right. And we will see you guys uh later on today at 1 o'clock. We're going to have Professor Marandi back with us today. And I promise you, do not miss this show 100 p.m. today with Professor Surid Muhammad Marandi who will give us the inside scoop of what is thinking in the Iranian side and what prospects do we have that any of these memorandums or anything else is going to bring an end to that war.
- Thank you very much and we'll see you then on the Daniel Davis deep.
+ I appreciate it. >>

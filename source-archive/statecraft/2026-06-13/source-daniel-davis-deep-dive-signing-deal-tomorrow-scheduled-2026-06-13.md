@@ -5,18 +5,16 @@ kind: cleaned-transcript
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 source_form: solo
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: davis
-threads:
-  - davis
+threads: ""
 thread_expert: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
-title: "Signing a Deal Tomorrow? It's Scheduled! / Lt Col Daniel Davis"
+title: Signing a Deal Tomorrow? It's Scheduled! / Lt Col Daniel Davis
 channel_slug: daniel-davis-deep-dive
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 source_url: "https://www.youtube.com/watch?v=OKpzUEn5U9A"
@@ -27,9 +25,11 @@ opening_tier: host-monologue
 transcript_wrapper_tier: paste-asr
 opening_trim_applied: false
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Abbas Iraqi/Araghchi, Marandi/Marandi, Resai/Rezaei, Hmani/Khomeini, etc.). Subscribe promo retained at tail per paste."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Abbas Iraqi/Araghchi, Marandi/Marandi, Resai/Rezaei, Hmani/Khomeini, etc.). Subscribe promo retained at tail per paste. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Signing a Deal Tomorrow? It's Scheduled! / Lt Col Daniel Davis
 
 **Channel:** Daniel Davis Deep Dive  
@@ -102,5 +102,4 @@ their Iran side would agree to. And Trump says no at the last minute every time.
  I I just don't think that's going to fly in Iran. But I don't know. Crazier things have happened. But that's where we are right now, folks. So, don't get too excited about all these claims that there's going to be a deal signed tomorrow. The war's going to be over. The market apparently has already substantially reacted to it.
  The price of oil is plunging very low. I think probably the stock market's going up. Haven't looked at that one. I just assume that's the case. Somebody's probably making a lot of money. And if, watch for this, if it turns out the way that I've suggested and there uh there is no deal and they, you know, Trump accuses Iran of, you know, no good faith and they backed out of it and you're going to see oils back back up.
  And lo and behold, I bet when you do an examination, somebody will have made a lot of money, hundreds of millions of dollars if history is any god. So, we'll see how that's going to work out here. But, uh, just be a little skeptical. I'd say be a lot skeptical. We'll see. We'll bring it to you as it happens.
- Uh so have hope you have a good Saturday and we'll look forward to seeing you whenever there's something else to report. See you then on the Daniel Davis deep dive. >> You know we don't have sponsors because we hate to hit you over the head with ads. I don't like them. So show a little love back. Subscribe, like, and send this to somebody you care about.
->> [music] [music]
+ Uh so have hope you have a good Saturday and we'll look forward to seeing you whenever there's something else to report.

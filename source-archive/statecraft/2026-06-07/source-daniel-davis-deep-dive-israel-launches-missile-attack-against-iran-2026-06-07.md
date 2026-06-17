@@ -3,9 +3,8 @@ ingest_date: 2026-06-07
 pub_date: 2026-06-07
 kind: cleaned-transcript
 source_form: solo
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
@@ -22,9 +21,11 @@ thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 normalization_state: ai_assisted_proper_noun_cleanup
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 26 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 26 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+davis_close_promo_trim_applied: true
 ---
+
 # BREAKING: ISRAEL LAUNCHES MISSILE ATTACK AGAINST IRAN
 
 **Show:** Daniel Davis Deep Dive  
@@ -128,6 +129,4 @@ One other thing, US official, American military not involved in Israel strike. S
 
 But folks, that ain't going to solve this problem. Just sitting back and saying, "Ain't my fault. I didn't do anything." That ain't going to cut it. We We need some decisive leadership right now in the absence of any leadership, in the absence of action is only going to spur the Israeli side on more. And this this is going to continue on and it's going to cause problems for everybody.
 
-Well, that's that's what we got for you tonight. That's that's the end of uh you know all we have up to this point here, but I'm very confident that by the time the sun comes up in Washington, there's going to be a lot more things that happen. Be sure and tune in at 10:00 a.m.
-
-tomorrow on the Daniel Davis Deep Dive, and we will bring you all the breaking news and everything that's happening with the best analysis you can find anywhere. See you then on the Daniel Davis deep dive. [music]
+Well, that's that's what we got for you tonight. That's that's the end of uh you know all we have up to this point here, but I'm very confident that by the time the sun comes up in Washington, there's going to be a lot more things that happen.

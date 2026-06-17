@@ -5,31 +5,31 @@ kind: cleaned-transcript
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 source_form: solo
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: davis
-threads:
-  - davis
+threads: ""
 thread_expert: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
-title: "IRAN WAR DEAL - I'm SKEPTICAL / Lt Col Daniel Davis"
+title: IRAN WAR DEAL - I'm SKEPTICAL / Lt Col Daniel Davis
 channel_slug: daniel-davis-deep-dive
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 source_url: "https://www.youtube.com/watch?v=R0-0SB0DATU"
 youtube_id: R0-0SB0DATU
-source_note: "Operator-pasted transcript; Saturday 13 Jun 2026 MOU skepticism lane. Sharif 24h + Trump/Araghchi/Pakistan closer-than-ever chorus vs incompatible public terms; IDF Lebanon restraint reports vs continued strikes/drone exchanges. Araghchi TV — Islamabad MOU; all-fronts ceasefire incl Lebanon/Hamas/Gaza/West Bank; phase-one 60-day LOI then nuclear phase-two; blocked assets + energy sanctions lift upfront non-negotiable. Trump — nothing upfront; assets/sanctions after behavior. Netanyahu — not party to MOU but demands enrichment removal, infrastructure dismantling, missile limits, proxy cessation (Iran categorical no). Cross-cites Marandi Dialogue Works same morning five must-haves. Yas underground scale graphic — bunker penetration physically impossible; Jack Keane finish-them clip vs open-source reality. Indonesia fuel riots spillover warning. Cross-ref 2026-06-12 Davis agmt-at-hand episode; Jun 13 Parsi/Marandi/Mercouris batch. · ASR pass 2026-06-15."
+source_note: Operator-pasted transcript; Saturday 13 Jun 2026 MOU skepticism lane. Sharif 24h + Trump/Araghchi/Pakistan closer-than-ever chorus vs incompatible public terms; IDF Lebanon restraint reports vs continued strikes/drone exchanges. Araghchi TV — Islamabad MOU; all-fronts ceasefire incl Lebanon/Hamas/Gaza/West Bank; phase-one 60-day LOI then nuclear phase-two; blocked assets + energy sanctions lift upfront non-negotiable. Trump — nothing upfront; assets/sanctions after behavior. Netanyahu — not party to MOU but demands enrichment removal, infrastructure dismantling, missile limits, proxy cessation (Iran categorical no). Cross-cites Marandi Dialogue Works same morning five must-haves. Yas underground scale graphic — bunker penetration physically impossible; Jack Keane finish-them clip vs open-source reality. Indonesia fuel riots spillover warning. Cross-ref 2026-06-12 Davis agmt-at-hand episode; Jun 13 Parsi/Marandi/Mercouris batch. · ASR pass 2026-06-15.
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-asr
 opening_trim_applied: false
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 7 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Abbas Iraqi/Araghchi, Sharif/Sharifi, Marandi/Marandi, Strait of Hormuz/Hormuz, Yas/Yaz, etc.). Subscribe promo retained at tail per paste."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 7 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Abbas Iraqi/Araghchi, Sharif/Sharifi, Marandi/Marandi, Strait of Hormuz/Hormuz, Yas/Yaz, etc.). Subscribe promo retained at tail per paste. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # IRAN WAR DEAL - I'm SKEPTICAL / Lt Col Daniel Davis
 
 **Channel:** Daniel Davis Deep Dive  
@@ -100,4 +100,4 @@ right now. And that's believe me and nobody's going to be more eager to see what
  I I just I I'll be shocked if it happens and I'll be happy if it does. And boy, this is one of those times I'd really love to be proven wrong. uh if if we can bring the Israeli side uh you know into into submission, if we can bring the Iranian side into an agreement, if the United States side will come to something and all the parties together will agree to one thing and the war can come to an end and the straight of Hormuz can open and all the oil, the gas, the helium, the uh the uh stuff that goes, fertilizers, all that stuff gets out. Big win for humanity.
 Don't care what it does to the political aspirations of any individual. do care about how it helps people, ends the killing in Israel, ends the killing in Iran, ends the killing of Americans, it ends the killing of everybody else in the region. Big win for limits the possibility for, you know, hunger starting to hit like Africa, Asia, some other places. Big times.
  By the way, this is some other news here uh I saw overnight, uh in the Indonesia, uh they're starting to have some real problems with uh with riots and things because there's insufficient fuel. They're having to ration it. That's causing big problems over there. That's already starting to manifest. And if it's starting narrow, folks, you can be sure it's going to spread elsewhere, especially in Asia.
- If we can get all that off the table and start to repair that, great deal. Just color me skeptical. You know, we don't have sponsors cuz we hate to hit you over the head with ads. I don't like them. So, show a little love back. Subscribe, like, and send this to somebody you care about. [music] >> [music] [music] >> Heat.
+ If we can get all that off the table and start to repair that, great deal. Just color me skeptical. You know, we don't have sponsors cuz we hate to hit you over the head with ads. I don't like them. So, show a little love back.

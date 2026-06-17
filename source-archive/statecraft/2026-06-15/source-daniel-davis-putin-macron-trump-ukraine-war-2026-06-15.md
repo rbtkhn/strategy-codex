@@ -5,18 +5,16 @@ kind: cleaned-transcript
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 source_form: solo
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: davis
-threads:
-  - davis
+threads: ""
 thread_expert: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
-title: "Putin & Macron Try to Persuade Trump to Their Side in RU/UKR War"
+title: Putin & Macron Try to Persuade Trump to Their Side in RU/UKR War
 channel_slug: daniel-davis-deep-dive
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 source_url: "https://www.youtube.com/watch?v=S9ROJmN0HQ4"
@@ -26,9 +24,11 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; ASR artifacts retained (Macron/Macron, Zelensky/Zelensky, Hegseth/Hegseth, etc.). Subscribe/podcast close retained."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; ASR artifacts retained (Macron/Macron, Zelensky/Zelensky, Hegseth/Hegseth, etc.). Subscribe/podcast close retained. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Putin & Macron Try to Persuade Trump to Their Side in RU/UKR War
 
 **Channel:** Daniel Davis Deep Dive  
@@ -119,5 +119,4 @@ Republicans, you've got to stand up for the Republican lies. Democrats, you have
  Until it until that happens, folks, ju just continue to be part of the mushroom farm because that's kind of where we are. That's where that's uh that's that's our word for the day, folks. And uh my advice to you is to uh tell these people to shut up and start telling the truth or vote your guys out. Red, vote your guys out if they're not telling the truth.
  Blue, vote your guys out if they're not telling the truth. It's time that we stand up because the people do still have power. That's why they keep telling the lies. You understand that they recognize that they still need your concurrence in order to do their nefarious and evil and and illegal things. They have to have that because they know that if they don't have the support of the people, they can't be empowered to do it.
  So, you have more power than you think. But we have to put it into effect. And that's why coming up, I'm not voting for anybody in any office that is an incumbent. At least, if nothing else, let's try to get some new people in there. But the biggest issue we have is that we've got to demand integrity from the leaders of our side. That's where it's at.
- Thanks, folks. Look forward to seeing you on the next episode of Daniel Ste. Don't forget to tell your friends, the ones that love to listen to podcasts, get them to add Daniel Davis Deep Dive to their podcast list. They need to know what you know. They can get it to where they already get their podcast.
- You just got to tell them.
+ Thanks, folks.

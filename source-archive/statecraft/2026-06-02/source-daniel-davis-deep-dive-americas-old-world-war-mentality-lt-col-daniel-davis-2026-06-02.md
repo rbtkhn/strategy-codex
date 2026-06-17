@@ -3,27 +3,28 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: cleaned-transcript
 source_form: solo
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-title: "America's OLD WORLD WAR MENTALITY /Lt Col Daniel Davis"
+title: America's OLD WORLD WAR MENTALITY /Lt Col Daniel Davis
 source_url: "https://www.youtube.com/watch?v=5dY4pJQGZ0k"
 youtube_id: 5dY4pJQGZ0k
 channel_slug: daniel-davis-deep-dive
-source_note: "Transcript pasted manually by operator for canonical June 2 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15."
+source_note: Transcript pasted manually by operator for canonical June 2 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15.
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # America's OLD WORLD WAR MENTALITY /Lt Col Daniel Davis
 
 ## Transcript
@@ -128,5 +129,4 @@ If we put as much effort into diplomacy as we have put into making war and prepa
  I'm still for a strong national security for the United States. But I am much more for a stronger diplomatic engagement. One that will preserve our freedom, one that will preserve our security and our economic vitality indefinitely. All of those things are possible even today with all of this if but only if we start changing course and we start doing some things differently other than what Steve Forbes and all these other folks that I've just shown you and many we've been talking about Mike Pompeo Jack Keane Lindsey Graham the current administration the
 last administration these guys are leading us into disaster and we the people are going to finally have to stand up and fire all these people at the ballot box and start bringing in some new people that can do something good or we're going to do it in the in the flaming wreckage of the country that they caused because hear me clearly this is not a neutral situation.
  If we keep going down this road hit human history being what it has for millennia will crash. our empire will come crashing down and especially because of how big we are right now and a lot of technology it will be ugly and it will probably be bloody and we will never recover to the level we are at even right now.
- So if we want to avoid that worst outcome it's going to require some changes and you can't even get these changes until people start recognizing and acknowledging what in the world is going on right before our eyes. You've seen it, you're now aware. Share it with people and do something about it. Thanks very much folks.
- Look forward to seeing you on the next episode of the Daniel Davis Deep Dive.
+ So if we want to avoid that worst outcome it's going to require some changes and you can't even get these changes until people start recognizing and acknowledging what in the world is going on right before our eyes. You've seen it, you're now aware. Share it with people and do something about it.

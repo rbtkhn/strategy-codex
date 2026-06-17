@@ -3,27 +3,28 @@ ingest_date: 2026-06-05
 pub_date: 2026-06-05
 kind: cleaned-transcript
 source_form: solo
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-title: "Zelensky's Letter to Putin /Lt Col Daniel Davis"
+title: Zelensky's Letter to Putin /Lt Col Daniel Davis
 source_url: "https://www.youtube.com/watch?v=MjGbYbqMJ1E"
 youtube_id: MjGbYbqMJ1E
 channel_slug: daniel-davis-deep-dive
-source_note: "Transcript pasted manually by operator for canonical June 5 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15."
+source_note: Transcript pasted manually by operator for canonical June 5 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15.
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Zelensky's Letter to Putin /Lt Col Daniel Davis
 
 ## Transcript
@@ -146,6 +147,4 @@ Another five years of no expansion and just continue on uh you know causing Russ
 
 It cannot work. And if if work is being defined as having an outcome beneficial to the United States and Europe, that's that doesn't exist. There's not a good one. If there is nothing even on the table, there is let's avoid disaster. This this avoid catastrophe. Let's avoid the potential for ramping this up to a nuclear strike and and and facing the then the existential decision.
 
-Do we go up to full mutually assured destruction and destroy everything that we have and nobody will or do we keep going like this and where they think, yeah, maybe we can succeed here. Let's hope that doesn't happen. Let's hope we don't go to that direction again because it cannot and will not work. Don't forget to tell your friends, the ones that love to listen to podcasts, get them to add Daniel Davis Deep Dive to their podcast list. They need to know what you know.
-
-They can get it to where they already get their podcast. You just got to tell them.
+Do we go up to full mutually assured destruction and destroy everything that we have and nobody will or do we keep going like this and where they think, yeah, maybe we can succeed here. Let's hope that doesn't happen. Let's hope we don't go to that direction again because it cannot and will not work.

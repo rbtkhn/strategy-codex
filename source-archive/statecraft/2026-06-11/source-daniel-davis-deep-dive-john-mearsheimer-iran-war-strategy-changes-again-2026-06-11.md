@@ -5,21 +5,17 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Daniel Davis
-guest_people:
-  - John Mearsheimer
+host_people: ""
+guest_people: ""
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: mearsheimer
-threads:
-  - mearsheimer
-  - davis
+threads: ""
 thread_expert: mearsheimer
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 guest: John Mearsheimer
-title: "Prof John Mearsheimer Iran War Strategy CHANGES AGAIN!"
+title: Prof John Mearsheimer Iran War Strategy CHANGES AGAIN!
 channel_slug: daniel-davis-deep-dive
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 source_url: "https://www.youtube.com/watch?v=eePlcgQTsDY"
@@ -29,9 +25,11 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body preserved verbatim from parent paste. ASR artifacts retained (Mirshimeber, Sitcom, Hegseth, Parse/Parsey, Zelensky, etc.). Subscribe/like close stripped at tail."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body preserved verbatim from parent paste. ASR artifacts retained (Mirshimeber, Sitcom, Hegseth, Parse/Parsey, Zelensky, etc.). Subscribe/like close stripped at tail. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Prof John Mearsheimer Iran War Strategy CHANGES AGAIN!
 
 **Show:** Daniel Davis Deep Dive  
@@ -203,7 +201,4 @@ I think that we never want to lose sight of the fact that what is really the mos
  And by the way, Danny, if we get the ceasefire, going back to our discussion of what the ceasefire looks like, we get the ceasefire, the straight is opened and Iranian oil comes flowing out, right? And we then go a long way towards moving towards fixing this problem, the economic problem. We're still going to pay a real price here.
 >> Yep. >> We can we can damage limit if we get a ceasefire tomorrow. And again, that that means getting that Iranian oil out into global markets. And I hope viewers remember that in the early part of this war during the >> oil, Iranian oil was flowing out of the Gulf because President Trump understood quite correctly he needed that Iranian oil in global markets.
  And of course he still does. But if you could really open the straight in a meaningful way and not straight, you know, shut down BMU Mandab straight, you know, out of the Red Sea. Keep that one open, too. You know, you go a long way towards uh stemming >> getting the damage. >> Yeah. Yeah. Yeah. Exactly. >> Well, well, we'll have to wait and see.
-Man, this is truly a roller coaster day. Who knows what it may be? By the time the evening comes around, it could be back to bombing for all we know. But, uh, that's where it is today. And as always, we're very, very grateful for you coming in to explain all of these crazy things. And as a reminder there, there's mirshber.substack.
-com to where you can keep up with John all the time and he always posts a lot of great stuff. Uh, look there sometimes even from the Daniel Davis Steve. That's pretty interesting. Yeah, go to see there. But look forward to seeing you John on the next episode. >> Thank you, Danny. Look forward to seeing you as well.
->> And we'll see you guys. Uh, I am back on some travels. Uh, and we've got a pretty busy travel schedule here the next month or so. I'm in and out. So, you'll see me with some different backdrops here the next time, I think. Uh, but, uh, we are, man, there's so many things going on. We definitely can't stop uh, bringing you stories.
- So, we will do that even while on vacation. Thanks very much, folks, and I'll see you next time on the Daniel Davis deep dive.
+Man, this is truly a roller coaster day. Who knows what it may be? By the time the evening comes around, it could be back to bombing for all we know. But, uh, that's where it is today.

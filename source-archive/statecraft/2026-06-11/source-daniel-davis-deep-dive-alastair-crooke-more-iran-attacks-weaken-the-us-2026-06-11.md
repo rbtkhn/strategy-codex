@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Daniel Davis
-guest_people:
-  - Alastair Crooke
+host_people: ""
+guest_people: ""
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: crooke
-threads:
-  - crooke
-  - davis
+threads: ""
 thread_expert: crooke
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -29,9 +25,11 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 38 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 38 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Alastair Crooke: More Iran Attacks WEAKEN the US
 
 **Show:** Daniel Davis Deep Dive  
@@ -151,9 +149,4 @@ from them. So they see all this and they see a weakened Israel and it goes it go
 No one everyone believes the uh fundamental aim of both Trump and Israel was to destroy Iran and destroy it as a state completely and that's affected others and that's why you have Russians too now started reconsidering they had thought too that their attrition with the United States was essentially aimed that they'd like to return to the 90s and see Mr.
  Putin gone and sort of some malleable oligarchs come into his place that they could do business with and take over uh Russian resources in the longer terms and now Russian opinion has swung around and they understand that the aim all along and has been for the last 200 years is the complete destruction of Russia as a state.
  Yeah, I don't think that's going to work out very well for us. Um, and and the attempt is probably going to end up causing uh real problems for us. Well, listen, uh, this has been a fascinating show here. It's, uh, uh, really revealed some things that you don't normally understand or than are discussed in this world.
- There's a lot bigger issues involved and I really really appreciate it. Thank you so much for coming on today. >> Thank you for having me. Thank you. >> And as you see, we've talked about conflicts forum here in this show here. Uh, lots of great stuff there. definitely need to go back and take a look at that conflict forum.substack.
-com uh to get more of Alistister and we'll look forward to seeing you on the next episode. Thank you. >> Thank you very much. >> And we appreciate you guys too. Be back in about an hour. We're going to have Larry Johnson come in and all of his great sources. He's got a bunch of new information here about, you know, what has been happening overnight, what may be coming next in this war.
- So, he'll be looking more at the at the tactical situation and he's got some great insights. You're not going to want to miss that. And then Robert Barnes, I think it's actually about 1:45 PM this afternoon. He's got some insight into what's going on inside the White House and how we're reaching some of these decisions.
- And then I think in the afternoon at 3:30, uh, we're going to have Art Burman back who's going to take a look at how the oil industry and the or the oil markets have done just heroic work to keep the the flow of oil moving around in such a constrained world. But what would happen if Trump makes good on his threat to go back to hitting energy? Definitely don't want to miss that.
-Every one of these shows is different and gives you a different aspect of this war today. That's what you get here on Daniel Davis Deep Dub. Look forward to seeing you then. See you in about an hour. You know, I don't try to talk you into buying gold or tell you how to run your stock portfolio, but there is a way you can help us.
- Subscribe, hit that like button, and share this with somebody you love. Heat. Heat.
+ There's a lot bigger issues involved and I really really appreciate it. Thank you so much for coming on today. >> Thank you for having me. Thank you.

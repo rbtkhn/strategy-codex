@@ -3,10 +3,8 @@ ingest_date: 2026-06-01
 pub_date: 2026-06-01
 kind: cleaned-transcript
 source_form: interview
-host_people:
-  - Daniel Davis
-guest_people:
-  - Matt Hoh
+host_people: ""
+guest_people: ""
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
@@ -15,7 +13,7 @@ title: "BREAKING: Iran Suspends Talks w/US over Israel's strikes on Lebanon Matt
 source_url: "https://www.youtube.com/watch?v=ACq6ZXOP314"
 youtube_id: ACq6ZXOP314
 channel_slug: daniel-davis-deep-dive
-source_note: "Transcript pasted manually by operator for canonical June 1 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15."
+source_note: Transcript pasted manually by operator for canonical June 1 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15.
 show: Daniel Davis Deep Dive
 host: Daniel Davis
 guest: Matt Hoh
@@ -23,12 +21,17 @@ thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 36 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. Light cleanup removed wrapper title lines and a routine closing promo."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 36 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. Light cleanup removed wrapper title lines and a routine closing promo. Transcript section wrapper normalized in place; SSOT body otherwise preserved. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_wrapper_trim_applied: true
+davis_close_promo_trim_applied: true
 ---
+
 # BREAKING: Iran Suspends Talks w/US over Israel's strikes on Lebanon Matt Hoh & Lt Col Daniel Davis
 
-## TranscriptPeace talks are off. Oil prices are up and President Trump is saying, "What's up?" He's trying to figure all this out. A lot of things have been flying around since even we were on our show earlier today. Uh the Iranian side has come out and said that they have suspended their peace talks with the United States.
+## Transcript
+
+Peace talks are off. Oil prices are up and President Trump is saying, "What's up?" He's trying to figure all this out. A lot of things have been flying around since even we were on our show earlier today. Uh the Iranian side has come out and said that they have suspended their peace talks with the United States.
 President Trump initially told CNBC, I think it was, that um I'm gonna I'm gonna call Netanyahu to find out what's going on with this Lebanon issue because that was the whole point that the Iranian side is saying because of strikes from the US and also from Israel onto uh specifically onto Lebanon and accelerating that their advance in there, Iran has said, "Therefore, you have violated the ceasefire, so we're not even going to talk anymore to try and try and see if it's even possible to put all this together and find out what
 in the world is going on. We have back with us today uh Matt Hoe, always a good friend, former US Marine Corps captain, State Department official, and currently associate director of the Eisenhower Media Network. And there's the address right on the screen. Matt, welcome back to the show.
  Uh really fortuitous time to have you on there. A lot of stuff happening. >> Yeah. Hey Danny, good to see you. Thanks for having me back on. >> Uh always a pleasure to have you. Listen, let's uh let's jump right into the hot stuff here. So, so Gary, put that the one from CNBC you had up there. This was a little bit ago. Um, that was the Wall Street or the W Washington Post that was had up there.
@@ -180,6 +183,4 @@ exercising patience You know, at the same time too, I would fear that now you ri
  I mean this is Yeah, certainly uh you know the Saudis claim that Pakistani uh nuclear umbrella covers them. Uh I don't think I've ever seen this the Pakistanis say that. Uh but yeah, there's all types of things here. I think the Turks are likely to get a nuclear weapon. I don't know how if you're Turkey, you don't get a nuclear weapon after the last few years witnessing all this, you know, witnessing all that you've happened.
 Like you can't stand up to Israel. Why can't you stand up to Israel? Because Israel has a nuclear weapon. That's what it comes down to. That and that and because of the problems the relationship with America brings. But yeah, so maybe you break from the Americans, you get a nuclear uh weapon, you join bricks, you know, and now you see Turkey uh performing and and behaving in a way that you wouldn't have seen if Turkey kept its relationship with the US, kept it stayed in NATO and didn't get a nuclear weapon. I mean, that's what I'd
 advise the Turks to do. >> So much so much stuff here. Yeah, we'll definitely need to get back into that because that is something I definitely want to get into here in the future. But for now, I appreciate you coming on today very much. And we appreciate you guys uh for coming on with us today. Thank you. >> Thanks, Danny.
->> And we appreciate you guys, too. Be sure to like and subscribe if you haven't done that on your way out. We'll look forward to seeing you on the Daniel Davis deep dive. You know, I don't try to talk you into buying gold or tell you how to run your stock portfolio, but there is a way you can help us. Subscribe, hit that like button, and share this with somebody you love.
-Heat.
-
+>> And we appreciate you guys, too.

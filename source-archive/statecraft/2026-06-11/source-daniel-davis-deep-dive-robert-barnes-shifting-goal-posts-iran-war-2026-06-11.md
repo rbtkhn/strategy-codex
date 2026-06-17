@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Daniel Davis
-guest_people:
-  - Robert Barnes
+host_people: ""
+guest_people: ""
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: barnes
-threads:
-  - barnes
-  - davis
+threads: ""
 thread_expert: barnes
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -29,9 +25,11 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 6 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 6 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Robert Barnes: Shifting Goal Posts w/Iran War
 
 **Show:** Daniel Davis Deep Dive  
@@ -125,5 +123,4 @@ You can go to there's limited tickets 1776locenter.com and you can get Davis in 
 >> Yeah. No, no, he he like I got a I got a shirt in honor of Larry. Still can't compare to Larry.
 >> He's the man. And you can meet him in person along with Robert Barnes. They're looking forward to that. Uh August 1st and 2nd, right? That's the actual date.
 >> Yes. August 1st and 2nd. And you can get all the tickets at 1776 lawcenter.com.
->> Do go there today. It's going to be great. Looking forward to it. And we appreciate you guys. We'll see you back at 3:30 p.m. today with Art Burman who is going to give us the No Kidding, here's what's really going on with the oil industry and what would happen if we go back to war. Do not miss that. 3:30 p.m. today. Thanks very much. We'll see you on the Daniel Davis deep dive. You know, we don't have sponsors cuz we hate to hit you over the head with ads. I don't like them. So, show a little love back. Subscribe, like, and send this to somebody you care about.
-[music] >> [music]
+>> Do go there today. It's going to be great. Looking forward to it. And we appreciate you guys. We'll see you back at 3:30 p.m. today with Art Burman who is going to give us the No Kidding, here's what's really going on with the oil industry and what would happen if we go back to war. Do not miss that. 3:30 p.m. today. Thanks very much. We'll see you on the Daniel Davis deep dive. You know, we don't have sponsors cuz we hate to hit you over the head with ads. I don't like them. So, show a little love back.

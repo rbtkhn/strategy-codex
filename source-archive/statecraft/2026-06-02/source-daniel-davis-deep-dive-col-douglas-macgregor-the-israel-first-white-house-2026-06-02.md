@@ -3,10 +3,8 @@ ingest_date: 2026-06-02
 pub_date: 2026-06-02
 kind: cleaned-transcript
 source_form: interview
-host_people:
-  - Daniel Davis
-guest_people:
-  - Douglas Macgregor
+host_people: ""
+guest_people: ""
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 source_type: youtube
@@ -15,7 +13,7 @@ title: "Col Douglas Macgregor: The Israel First White House"
 source_url: "https://www.youtube.com/watch?v=Styvw9Ovzvo"
 youtube_id: Styvw9Ovzvo
 channel_slug: daniel-davis-deep-dive
-source_note: "Transcript pasted manually by operator for canonical June 2 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15."
+source_note: Transcript pasted manually by operator for canonical June 2 2026 Daniel Davis Deep Dive capture. · ASR pass 2026-06-15.
 show: Daniel Davis Deep Dive
 host: Gary
 guest: Douglas Macgregor
@@ -23,9 +21,11 @@ thread: davis
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 evidence_grade: transcript-bearing
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 11 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 11 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Col Douglas Macgregor: The Israel First White House
 
 ## Transcript
@@ -137,4 +137,4 @@ We want to explore how large it can be, how many people we can bring in, and how
  It's all laid out for you here. >> Yeah, we'll have some new things on there very shortly. And I appreciate everybody's feedback. It's been enormously helpful. >> Yeah. Nothing like getting comments, right, Doug? People are not afraid to tell you what they think, especially when you when you avail yourself to them. >> And I I read them and I am really grateful because most of them are very substantive.
 >> You know, the very few that are just vulgar or nasty or obscene, you just sort of let those go >> and we don't worry about too much about the death threats. Uh those things are always there. Somebody's always threatening me at some supermarket or somewhere else. And okay, fine. I'm not going to live my life and fear of that nonsense.
 >> Hardly. No. Listen, you know you're doing something right when the death threats start rolling in because that that means you're a threat and that's what you are, Doug. >> Okay. >> All right, Doug. Thank you so much. So grateful for your help. Always love your insight and grateful. We'll see you again next time.
->> Thank you, Gary. >> Don't forget to tell your friends, the ones that love to listen to podcasts. Get them to add Daniel Davis Deep Dive to their podcast list. They need to know what you know. They can get it to where they already get their podcast. You just got to tell them. Heat. Heat.
+>> Thank you, Gary. >>

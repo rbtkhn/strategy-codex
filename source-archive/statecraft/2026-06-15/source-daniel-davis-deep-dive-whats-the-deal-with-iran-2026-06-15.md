@@ -5,30 +5,30 @@ kind: cleaned-transcript
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 source_form: solo
-host_people:
-  - Daniel Davis
-guest_people: []
+host_people: ""
+guest_people: "[]"
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: davis
-threads:
-  - davis
+threads: ""
 thread_expert: davis
 show: Daniel Davis Deep Dive
 host: Daniel Davis
-title: "What's the Deal with Iran / Lt Col Daniel Davis"
+title: What's the Deal with Iran / Lt Col Daniel Davis
 channel_slug: daniel-davis-deep-dive
 channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
 source_url: "https://www.youtube.com/watch?v=aaXKX3cPZSg"
 youtube_id: aaXKX3cPZSg
-source_note: "Operator-pasted transcript; Monday 15 Jun 2026 solo skepticism lane. Trump True Social oil-flow claims unverified; Jack Keane 60-day nuclear/proxy/missile phase skepticism; Sean Bell Sky — Iran leverage post-ceasefire, Netanyahu Hezbollah exclusion vs Iran inclusion; Vance waffles $24B frozen funds; no White House text (NYT); Hegseth Hormuz control / stockpile refill claims vs inventory math; Qalibaf Lebanon resistance pillar; Hezbollah Reuters hold-fire conditional; Smotrich/Gantz freedom-of-action rejection; $300B reparations Iranian media; Davis ~20% Friday sign / 0% survival; walk-away Titanic metaphor. Cross-ref 2026-06-15 Johnson IY1BU0bKEgM · Parsi BeScodaLjkg · Marandi 9G1MmiwmGx0 (14 Jun) · companion statecraft/daily/2026-06-15-davis-iran-ukraine-parallel-fork.md. · ASR pass 2026-06-15."
+source_note: Operator-pasted transcript; Monday 15 Jun 2026 solo skepticism lane. Trump True Social oil-flow claims unverified; Jack Keane 60-day nuclear/proxy/missile phase skepticism; Sean Bell Sky — Iran leverage post-ceasefire, Netanyahu Hezbollah exclusion vs Iran inclusion; Vance waffles $24B frozen funds; no White House text (NYT); Hegseth Hormuz control / stockpile refill claims vs inventory math; Qalibaf Lebanon resistance pillar; Hezbollah Reuters hold-fire conditional; Smotrich/Gantz freedom-of-action rejection; $300B reparations Iranian media; Davis ~20% Friday sign / 0% survival; walk-away Titanic metaphor. Cross-ref 2026-06-15 Johnson IY1BU0bKEgM · Parsi BeScodaLjkg · Marandi 9G1MmiwmGx0 (14 Jun) · companion statecraft/daily/2026-06-15-davis-iran-ukraine-parallel-fork.md. · ASR pass 2026-06-15.
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 3 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Hegseth/Hegseth, Marandi/Marandi, Strait of Hormuz/Hormuz, etc.). Subscribe close retained."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 3 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Hegseth/Hegseth, Marandi/Marandi, Strait of Hormuz/Hormuz, etc.). Subscribe close retained. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved."
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # What's the Deal with Iran / Lt Col Daniel Davis
 
 **Channel:** Daniel Davis Deep Dive  
@@ -160,5 +160,4 @@ open the straight etc then Iran does whatever it wants to do they there's no dea
  This is the boat we can get off of. As bad as it would be if that ship goes down, that ship's going to go down because of people continuing to foolish ignoring reality while there are lifeboats available. Get on the lifeboat. Get off the Titanic so that at least we live to fight another day. that right now is the absolute best chance that we've got to make this war not a success, but to keep it from dragging us down along with the Titanic.
 That's where we are, folks. That's what you need to understand. Uh we're going to come back later this afternoon and we're going to talk about some things going on in the Russia Ukraine war because I don't I don't want to ignore that one because some things are happening there too you need to know about there.
  So, we'll we'll come back with you that later and of course if anything breaks, especially if any terms are ever agreed to by the United States, we'll come back into that. Otherwise, we will see you very close very soon on the next episode of the Daniel Davis deep dive. You know, we don't have sponsors cuz we hate to hit you over the head with ads. I don't like them.
- So, show a little love back. Subscribe, like, and send this to somebody you care about. [music]
-
+ So, show a little love back.

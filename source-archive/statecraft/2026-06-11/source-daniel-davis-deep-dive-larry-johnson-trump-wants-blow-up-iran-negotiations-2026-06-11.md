@@ -5,16 +5,12 @@ kind: cleaned-transcript
 source_form: interview
 source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
-host_people:
-  - Daniel Davis
-guest_people:
-  - Larry Johnson
+host_people: ""
+guest_people: ""
 show_title: Daniel Davis Deep Dive
 channel_name: Daniel Davis Deep Dive
 thread: johnson
-threads:
-  - johnson
-  - davis
+threads: ""
 thread_expert: johnson
 show: Daniel Davis Deep Dive
 host: Daniel Davis
@@ -29,9 +25,11 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
+davis_close_promo_trim_applied: true
 ---
+
 # Larry Johnson: Trump Wants to Blow Up Iran Negotiations
 
 **Show:** Daniel Davis Deep Dive  
@@ -88,4 +86,4 @@ We'll see what happens. But we hit them hard yesterday and we're going to hit th
 >> Right. Right. That that's the whole point. It's like it's a clown show. it's amateur hour that there's nothing serious going on here. And if that's what's going on in that arena there, we've seen so many of these others that are detached from military fundamentals and just basic analysis. Uh it doesn't leave a lot of uh hope that something good is about to happen.
 >> Yeah. Yeah. And that's um you know there again there's no light at the end of the tunnel or but if there is that light at the end of the tunnel it's the onrushing train that's going to run us over.
 >> Yeah. And listen I think that I think it's just it's going to take that economic collapse that you're talking about. I think that's at this point I think that's the only thing that can shake of shake us out of this malaise. I think because then you don't have a choice. You have to do something. Uh and that's happened plenty of times in history. I think that's you could strike that back to the British, especially in the War of 1812. That was a financial problem that they had and they had to cut that war off no matter what. And we may be facing the exact same thing.
->> We'll have to wait and see. Listen, really appreciate you. Just as a reminder real quick, uh we're going to have Robert Barnes on about 1:45 p.m. this afternoon and we're going to have Art Burman on at 3:30 p.m. We're going to talk about all of these things here and where this may go next and what may be the consequences to your pocketbook. Thanks very much folks and we'll look forward to seeing you this afternoon on the Daniel Davis deep dive. You know, I don't try to talk you into buying gold or tell you how to run your stock portfolio, but there is a way you can help us. Subscribe, hit that like button, and share this with somebody you love.
+>> We'll have to wait and see. Listen, really appreciate you. Just as a reminder real quick, uh we're going to have Robert Barnes on about 1:45 p.m. this afternoon and we're going to have Art Burman on at 3:30 p.m. We're going to talk about all of these things here and where this may go next and what may be the consequences to your pocketbook.
