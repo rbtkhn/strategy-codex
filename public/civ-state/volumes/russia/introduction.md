@@ -1,0 +1,15 @@
+# The Third Rome
+
+Russia is **Volume IV** of *Civilizational Statecraft*: a medieval-to-modern sovereignty chain that begins with Rurik and survives recurrent fracture rather than uninterrupted calm. The claim persists through Kievan formation, Horde domination, Muscovite regathering, imperial expansion, Soviet mutation, and post-Soviet restoration. The civilization-state claim here is **regathering after rupture** — sovereign memory that outlives political destruction — not smooth institutional continuity from century to century.
+
+Civilization beautifies through restored center and sacralized order; empire amplifies through depth, corridor control, and continental reach; civilizational entropy when siege consciousness hardens into sterile coercion, or when memory survives without renewal and attractive order. Statesmen who ignore encirclement memory, humiliation, and regathering grammar will misread parity and restraint questions.
+
+**Sovereignty chain (narrative):** Rurik and Kievan Rus; Horde-licensed survival; Muscovite internalization; tsarist and Soviet mutation; Russian Federation as present restoration claimant.
+
+**Sacred / civilizational grammar:** Orthodoxy, suffering, gathering, endurance, anti-encirclement legitimacy. See [Russia sacred grammar](sacred-grammar.md).
+
+**Present carrier:** Russian Federation as claimant to restored continuity after Soviet and post-Soviet rupture.
+
+**Failure mode to avoid:** treating Russia as smooth institutional continuity, or as coercion without a regathering narrative that remains politically load-bearing.
+
+**Read path:** [Civilization Russia](civilization-russia.md) → [Empire Russia](empire-russia.md) → optional [geo-strategy](geo-strategy-russia.md), [secret-history](secret-history-russia.md), [game-theory](game-theory-russia.md). Source shelf: [shelf reader](shelf-reader.md).
