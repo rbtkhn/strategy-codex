@@ -3,7 +3,7 @@ name: youtube-raw-input-transcript
 preferred_activation: youtube transcript
 description: "Extract metadata and captions for a specific YouTube episode, then materialize a canonical transcript-bearing raw-input file with conservative provenance, speaker normalization, and date-safe frontmatter. Use when the operator already has a specific watch URL or exact episode in hand and wants transcript materialization or re-materialization. Do not use for archive family resolution, month-slice inventory work, or post-capture cleanup passes."
 portable: true
-version: 0.1.2
+version: 0.1.3
 tags:
   - operator
   - raw-input
@@ -67,6 +67,7 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - Verify exact correspondence between the extracted transcript source and the file body after `## Transcript`. Report `sourceChars`, `bodyChars`, and `exactMatch=True` before claiming capture.
    - Use `partial-chat-capture` only if the session source cannot be found, the operator clearly supplied an excerpt rather than a full transcript, or exact-match verification fails. Partial captures remain repair-queue items with `full-transcript-import-needed`.
    - Operator-paste fallback is not the same as auto subtitles or a human-cleaned transcript. It is a useful transcript-bearing capture with honest provenance unless separately cleaned or independently verified.
+   - When the operator's target is **`source-archive/statecraft/`** (hand off to **`statecraft source intake`**), use that skill's **chunked land** path for large pastes — `python scripts/land_statecraft_source_body.py` — rather than a single large write to the archive tree.
 
 ## Front-door completeness rule
 

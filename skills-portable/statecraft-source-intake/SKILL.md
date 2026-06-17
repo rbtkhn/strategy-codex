@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
-version: 0.4.4
+version: 0.4.5
 tags:
   - operator
   - statecraft
@@ -207,6 +207,7 @@ Structured-field law:
 4. **Place it in the canonical archive**
    - Use the published date as the archive date unless the operator explicitly gives a different authoritative date.
    - Write into the canonical statecraft archive day folder.
+   - For **large transcript bodies**, follow **§ Large transcript body land** below — do not use a single IDE `Write` or giant `apply_patch` for the full archive object.
    - Keep filenames and frontmatter aligned with neighboring family examples.
    - When publication date comes from a trustworthy secondary surface because the direct watch URL is still missing, use that date but say so plainly in `source_note`.
    - For Duran podcast-style Mercouris objects whose transcript body does not carry a spoken date, prefer a trustworthy external podcast mirror date over guesswork and preserve that dating seam explicitly in `source_note`.
@@ -252,7 +253,53 @@ Structured-field law:
 
 9. **Clean transient residue**
    - Remove obvious scratch residue created by intake work, such as temporary transcript body files, before final verification.
-   - Do not leave `.tmpbody` or similar helper artifacts in the canonical archive tree.
+   - Do not leave `.tmpbody`, `.codex-tmp/land/`, or similar helper artifacts in the canonical archive tree.
+
+## Large transcript body land (Windows-safe)
+
+On Windows Cursor harnesses, a **single tool write** of a full `source-archive/statecraft/` capture (~20 KB body or ~150+ transcript lines) can hang for minutes and look frozen. Treat that as an intake failure mode, not operator error.
+
+### When chunked land is mandatory
+
+Use chunked land when **any** of these is true:
+
+- operator-pasted transcript body is roughly **>20 KB** or **>150 lines**
+- prior `Write` / `apply_patch` to the target archive path **interrupted or stalled**
+- same-day batch intake is landing multiple long interview captures in one thread
+
+Small captures (short clips, partial stubs under threshold) may still use a single bounded write.
+
+### Never
+
+- one monolithic IDE `Write` or giant `apply_patch` for a large archive file under `source-archive/statecraft/`
+- leave `_oneoff_*` merge scripts or body sidecars in `scripts/` after land
+- retry the same hung write shape — fail over to shell merge (see [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc))
+
+### Always (chunked path)
+
+1. **Resolve family + frontmatter first** — match neighboring `source-*` pattern; build header through `## Transcript` (YAML + title block).
+2. **Split body** into 2+ sidecars under `.codex-tmp/land/<slug>/` (e.g. `p1.txt`, `p2.txt`). Split at paragraph or `>>` turn boundaries, not mid-word.
+3. **Merge via Python** (one shell intent):
+
+```powershell
+python scripts/land_statecraft_source_body.py --header .codex-tmp/land/<slug>/header.md --body .codex-tmp/land/<slug>/p1.txt --body .codex-tmp/land/<slug>/p2.txt --out source-archive/statecraft/YYYY-MM-DD/source-....md
+```
+
+Or `--body-dir .codex-tmp/land/<slug>` when sidecars are sorted `*.txt`.
+
+Preview: add `--dry-run`.
+
+4. **Post-land chain** in the **same** shell (PowerShell `;`): caption wrapper → family opening normalizer → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD`.
+5. **Verify** — output exists; `source_url` or `youtube_id` present; opening/closing transcript lines; reported byte size sane; not a shell stub.
+6. **Delete** `.codex-tmp/land/<slug>/` sidecars after verify.
+
+### Batch-throughput mode
+
+Chunked land applies **per file**. You may still defer day/month rollup rebuild to **archive-checkpoint**; do not defer merge for a file already being written.
+
+Short rule:
+
+`large paste -> header sidecar + body sidecars -> land_statecraft_source_body.py -> post-land chain -> delete temps`
 
 ## Verification and closeout
 
@@ -573,6 +620,7 @@ Do not add speculative speaker lanes for unresolved names. If a participant does
 - Never hide uncertainty about whether a transcript is verbatim, operator-pasted, or lightly normalized.
 - Never treat a highlight clip as the canonical full interview unless the operator explicitly wants the clip preserved as its own object.
 - Never write the daily synthesis report into `source-archive/statecraft/`; that belongs in `statecraft/`.
+- Never land a large operator-pasted transcript with a single IDE write to `source-archive/statecraft/` when chunked land applies (§ Large transcript body land).
 - For Napolitano captures, remove cold-open or promo scaffolding only when the ideological, sponsor, or schedule boundary is unambiguous; if it is entangled with noisy ASR or substantive exchange, leave it and flag the file for later manual review.
 - For Dialogue Works captures, remove mid-intro or closing Substack/link promo only when the boundary is unmistakable; preserve solo date/timezone preambles and in-body guest Substack references during analysis.
 - For caption/paste wrapper passes, normalize only when the wrapper boundary is unmistakable; never substitute speaker-label cleanup or family opening logic in the cross-family script.

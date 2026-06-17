@@ -30,7 +30,7 @@
 
 - `statecraft/` is downstream interpretation and control, not archive storage.
 - Daily synthesis belongs on the `statecraft/` side, not in `source-archive/statecraft/`.
-- For manual file creation or edits, use `apply_patch`.
+- For manual file creation or edits, use `apply_patch` for **small** captures; for large operator-pasted transcript bodies use **`python scripts/land_statecraft_source_body.py`** (§ Large transcript body land in the portable core).
 - Prefer the closest same-family recent file as the pattern authority.
 - When a transcript is already supplied in chat, this skill can proceed without YouTube fetching.
 - **Post-land optional:** [wire-verify](../wire-verify/SKILL.md) — **`wire verify`** on breaking wire hooks; land **`verify:`** tails in `source_note` / `editorial_note` when operator ships receipts.

@@ -1,16 +1,16 @@
 ---
-name: "youtube-raw-input-transcript"
-preferred_activation: "youtube transcript"
-description: "Extract metadata and captions for a specific YouTube episode, then materialize a canonical transcript-bearing raw-input file with conservative provenance, speaker normalization, and date-safe frontmatter. Use when the operator already has a specific watch URL or exact episode in hand and wants transcript materialization or re-materialization. Do not use for archive family resolution, month-slice inventory work, or post-capture cleanup passes."
+name: youtube-raw-input-transcript
+preferred_activation: youtube transcript
+description: Extract metadata and captions for a specific YouTube episode, then materialize a canonical transcript-bearing raw-input file with conservative provenance, speaker normalization, and date-safe frontmatter. Use when the operator already has a specific watch URL or exact episode in hand and wants transcript materialization or re-materialization. Do not use for archive family resolution, month-slice inventory work, or post-capture cleanup passes.
 portable: true
-version: "0.1.2"
+version: 0.1.3
 tags:
-  - "operator"
-  - "raw-input"
-  - "youtube"
-  - "transcript"
-portable_source: "skills-portable/youtube-raw-input-transcript/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- raw-input
+- youtube
+- transcript
+portable_source: skills-portable/youtube-raw-input-transcript/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # YouTube raw-input transcript
 
@@ -19,8 +19,6 @@ synced_by: "sync_portable_skills.py"
 Use this skill when a YouTube episode should become a canonical transcript artifact, especially when there is no human-cleaned transcript yet and the best available source is YouTube captions.
 
 In strategy-codex, this skill is also the shared **transcript + appearance materialization** layer for daily ingest, one-off captures, and bounded densification tranches. Prefer the one-shot capture path unless the operator explicitly asks for transcript-only output.
-
-**Essay / paste ingest:** Substack and non-YouTube **`strategy input`** → [`codex/raw-input/`](../../../codex/raw-input/README.md) per [strategy-input-raw-ingest.mdc](../../../.cursor/rules/strategy-input-raw-ingest.mdc) and [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md).
 
 ## Layering rule
 
@@ -70,6 +68,7 @@ In strategy-codex, this skill is also the shared **transcript + appearance mater
    - Verify exact correspondence between the extracted transcript source and the file body after `## Transcript`. Report `sourceChars`, `bodyChars`, and `exactMatch=True` before claiming capture.
    - Use `partial-chat-capture` only if the session source cannot be found, the operator clearly supplied an excerpt rather than a full transcript, or exact-match verification fails. Partial captures remain repair-queue items with `full-transcript-import-needed`.
    - Operator-paste fallback is not the same as auto subtitles or a human-cleaned transcript. It is a useful transcript-bearing capture with honest provenance unless separately cleaned or independently verified.
+   - When the operator's target is **`source-archive/statecraft/`** (hand off to **`statecraft source intake`**), use that skill's **chunked land** path for large pastes — `python scripts/land_statecraft_source_body.py` — rather than a single large write to the archive tree.
 
 ## Front-door completeness rule
 

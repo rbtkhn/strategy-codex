@@ -15,6 +15,7 @@ alwaysApply: true
 4. **Small ships:** `python3 scripts/operator_handoff_check.py --fast` — not full handoff every slice.
 5. **After any hang or "interrupted" in the thread:** `Read` + `Write` only; no `Grep`, `Glob`, `SemanticSearch`.
 6. **Never retry the same hung tool shape** on the same paths — fail over to `Read` or ask for a line range.
+7. **Large statecraft archive lands:** when `statecraft source intake` applies and the transcript body is large (~20 KB+), do **not** monolithic-`Write` the full `source-archive/statecraft/` file — use `python scripts/land_statecraft_source_body.py` with header + body sidecars under `.codex-tmp/land/` (see [statecraft-source-intake](../../.cursor/skills/statecraft-source-intake/SKILL.md) § Large transcript body land).
 
 ## Bounded paths (always `Read`)
 
