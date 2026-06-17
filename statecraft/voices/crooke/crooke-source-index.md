@@ -81,6 +81,15 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 - [transcript-napolitano-crooke-israels-war-unraveling-america-2026-05-18](../../../source-archive/statecraft/2026-05-18/source-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md)
 - [substack-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20](../../../source-archive/statecraft/2026-05-20/source-crooke-paradoxically-fear-is-the-foundation-of-stability-deterrence-works-2026-05-20.md)
 
+## 2026-06
+- [substack-crooke-iran-takes-its-chances-with-war-2026-06-04](../../../source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md)
+- [transcript-alkorshid-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05](../../../source-archive/statecraft/2026-06-05/source-alkorshid-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md)
+- [transcript-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08](../../../source-archive/statecraft/2026-06-08/source-napolitano-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md)
+- [transcript-hedges-crooke-is-ceasefire-dead-2026-06-08](../../../source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md)
+- [youtube-daniel-davis-deep-dive-alastair-crooke-more-iran-attacks-weaken-the-us-2026-06-11](../../../source-archive/statecraft/2026-06-11/source-daniel-davis-deep-dive-alastair-crooke-more-iran-attacks-weaken-the-us-2026-06-11.md)
+- [substack-crooke-post-iran-war-end-of-an-era-not-decline-2026-06-12](../../../source-archive/statecraft/2026-06-12/source-crooke-post-iran-war-end-of-an-era-not-decline-2026-06-12.md)
+- [transcript-napolitano-crooke-us-empire-is-crashing-2026-06-15](../../../source-archive/statecraft/2026-06-15/source-napolitano-crooke-us-empire-is-crashing-2026-06-15.md)
+
 ## Source-boundary reminders
 
 - Crooke-authored Substack captures belong here and feed the authored forecast ledger.

@@ -54,7 +54,7 @@ GUEST_ENTRY_RE = re.compile(
 )
 CLOSE_PROMO_START_RE = re.compile(
     r"(?:\s+And\s+)?(?:"
-    r"Coming up(?:,?\s+)(?:if you.re watching|on all of this|later today|tomorrow)|"
+    r"Coming up(?:,?\s+(?:\w+\s+)*)(?:if you.re watching|on all of this|later today|tomorrow)|"
     r"coming up on all of this|"
     r"on Monday we will have(?: our usual lineup)?|"
     r"And of course on Monday|"
