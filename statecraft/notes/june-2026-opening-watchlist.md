@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: preserve an honest early-month watchlist for `2026-06` while the month is still too young to treat as either a closure campaign or a benchmark month.
 
-This is a statement about local archive coverage in `2026-06-01` through `2026-06-01`, not a claim that any speaker was inactive in the real world.
+This is a statement about local archive coverage through mid-June 2026, not a claim that any speaker was inactive in the real world.
 
 Counts are approximate at the guest-label level where the archive still carries naming variants such as:
 
@@ -17,15 +17,27 @@ Method standard: [recent-speaker-underrepresentation-query-standard.md](./recent
 
 June is currently:
 
-- `1` captured day
-- `13` source files
-- a visibly thick opening batch rather than a sparse or incidental start
+- `16` captured days through `2026-06-16` ingest boundary
+- a thick opening batch that has **accrued mid-month lanes** (Iran MOU week, SPIEF/Russia travel, Napolitano intel cadence)
+- still **watchlist-first** — not yet a full-month benchmark or closure audit
 
-The main June 1 batch is already strong enough to justify an opening watchlist, but not yet strong enough to justify a full-month benchmark or any contradiction-audit style closure claim.
+The main June 1 batch remains the density anchor, but mid-month routing now includes MOU-week and SPIEF-travel seams.
 
 Best current reading:
 
 `June 2026 = watchlist first, benchmark later if coherence persists`
+
+## Mid-month routing (Jun 10–15)
+
+**MOU-week Napolitano bench** — same-day stack, four registers; do not flatten:
+
+- [2026-06-15 MOU-week seam — Crooke / McGovern / Sachs / Pape](./2026-06-15-mou-week-napolitano-bench-seam.md)
+- **Lebanon tripwire:** Pape indicator #1 + McGovern Adelson/retaliation loop (same object, different columns)
+- **Crooke trigger:** Beirut unlock for Sunday MOU (process); **Pape leverage:** SPR/August/Gulf-withdrawal (structure)
+
+**McGovern June shelf** — [mcgovern-source-index.md](../voices/mcgovern/mcgovern-source-index.md): six rows Jun 01–15; Fri intel roundtable watch **Jun 19** (not on disk yet).
+
+**Ritter June shelf** — [ritter-source-index.md](../voices/ritter/ritter-source-index.md): two authored Substack rows (Jun 01 Revenge Tour, Jun 10 Shoot the Dog); sparse **hosted** interviews plausibly explained by **SPIEF + Russia travel** (see MOU seam return path to Jun 08 McGovern Ritter cite).
 
 ## Healthy Early Coverage
 
@@ -54,10 +66,10 @@ These speakers are present in the June 1 opening, but one day is too little evid
   Strong single-day importance, but too early to decide whether this becomes a major June thread or just one opening anchor.
 
 - `Ritter`
-  Present through one authored June 1 object, but month-scale representation cannot be judged yet.
+  Two authored June captures (Jun 01 SPIEF departure frame; Jun 10 *Shoot the Dog* / Karaganov fence). **Zero** new hosted interviews mid-month — treat as **travel mode**, not capture failure, until post-tour reappearance.
 
 - `McGovern`
-  Present, but a one-day sample is not enough to call the June role either healthy or thin.
+  **Healthy Napolitano cadence** through Jun 15 (solo + Dialogue Works + two intel roundtables); MOU-week solo is load-bearing for Lebanon hinge — route via [MOU-week seam](./2026-06-15-mou-week-napolitano-bench-seam.md).
 
 - `Jiang`
   Present and analytically significant, but still a bounded one-day signal.
@@ -97,5 +109,6 @@ Use this note when the operator asks:
 - `how should June be routed`
 - `does June need a watchlist or a benchmark`
 - `is June already underrepresented anywhere`
+- `route the Jun 15 MOU bench` or `Lebanon tripwire`
 
-Do not use this note as a full June benchmark, a contradiction audit, or a final month watchlist. Its job is to preserve the month-opening routing judgment while June is still mostly one thick day.
+Do not use this note as a full June benchmark, a contradiction audit, or a final month watchlist. Its job is to preserve month-opening and **mid-month** routing judgment while June is still accruing captured days.
