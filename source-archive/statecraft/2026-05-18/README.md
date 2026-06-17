@@ -4,24 +4,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `13`
+- Source files: `14`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (12), `substack-post` (1)
-- Source form mix: `interview` (9), `solo` (3), `newsletter` (1)
-- Distinct channels/shows: `7`
-- Distinct hosts: `7`
+- Body kind mix: `transcript` (12), `cleaned-transcript` (1), `substack-post` (1)
+- Source form mix: `interview` (9), `solo` (4), `newsletter` (1)
+- Distinct channels/shows: `8`
+- Distinct hosts: `8`
 - Distinct guests: `7`
-- Distinct threads: `14`
+- Distinct threads: `15`
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (4), `Daniel Davis Deep Dive` (2), `Dialogue Works` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Consortium News` (1), `escalationtrap.substack.com` (1)
+- `Judging Freedom` (4), `Daniel Davis Deep Dive` (2), `Dialogue Works` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Consortium News` (1), `Reason to Resist` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (4), `Daniel Davis` (2), `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Joe Lauria` (1), `Robert Pape` (1)
+- Hosts: `Andrew Napolitano` (4), `Daniel Davis` (2), `Glenn Diesen` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Dimitri Lascaris` (1), `Joe Lauria` (1), `Robert Pape` (1)
 - Guests: `Larry Johnson` (2), `Ray McGovern` (2), `Scott Ritter` (2), `Alastair Crooke` (1), `Jacques Baud` (1), `John Mearsheimer` (1), `Trita Parsi` (1)
-- Threads: `napolitano` (4), `davis` (2), `diesen` (2), `johnson` (2), `mcgovern` (2), `nima` (2), `ritter` (2), `baud` (1), `crooke` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `parsi` (1), `ritter-mcgovern` (1)
+- Threads: `napolitano` (4), `davis` (2), `diesen` (2), `johnson` (2), `mcgovern` (2), `nima` (2), `ritter` (2), `baud` (1), `crooke` (1), `lascaris` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `parsi` (1), `ritter-mcgovern` (1)
 
 ## Ingest register
 
@@ -37,6 +37,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | Larry Johnson | Dialogue Works | `nima`, `johnson` | [kIlLKqPzY8Y](https://www.youtube.com/watch?v=kIlLKqPzY8Y) |
 | John Mearsheimer | Glenn Diesen | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Dx7osj5gCmo) |
 | Trita Parsi | Glenn Diesen | `diesen`, `parsi` | [watch](https://www.youtube.com/watch?v=7QUx7GjIOBo) |
+| Dimitri Lascaris | Reason to Resist | `lascaris` | [515Tm5Tmfd0](https://www.youtube.com/watch?v=515Tm5Tmfd0) |
 | Alastair Crooke | Judging Freedom | `crooke`, `napolitano` | [tOfZZaWHyHM](https://www.youtube.com/watch?v=tOfZZaWHyHM) |
 | Larry Johnson | Judging Freedom | `johnson`, `napolitano` | [zpX2t1KWNbo](https://www.youtube.com/watch?v=zpX2t1KWNbo) |
 | Ray McGovern | Judging Freedom | `mcgovern`, `napolitano` | [z968wCMjRec](https://www.youtube.com/watch?v=z968wCMjRec) |
@@ -53,6 +54,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 - `source-dialogue-works-larry-johnson-giant-mushroom-cloud-blasts-over-israeli-defense-company-what-we-know-2026-05-18.md`
 - `source-glenn-diesen-john-mearsheimer-toward-all-out-war-with-both-russia-and-iran-2026-05-18.md`
 - `source-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md`
+- `source-lascaris-russian-strikes-europe-nato-members-inevitable-2026-05-18.md`
 - `source-napolitano-crooke-israels-war-unraveling-america-2026-05-18.md`
 - `source-napolitano-johnson-us-getting-ready-for-more-war-2026-05-18.md`
 - `source-napolitano-mcgovern-trumps-trip-a-win-for-china-2026-05-18.md`

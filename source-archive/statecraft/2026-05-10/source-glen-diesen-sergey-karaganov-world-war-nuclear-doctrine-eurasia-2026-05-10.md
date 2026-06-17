@@ -13,7 +13,7 @@ title: "Sergey Karaganov on World War, Nuclear Doctrine, Europe, and Russia's Fu
 channel_url: "https://www.youtube.com/@GlennDiesen/videos"
 channel_slug: "glenn-diesen"
 source_url: "https://www.youtube.com/watch?v=2Gd5jdl36cg"
-source_note: "Cleaned transcript pasted by operator."
+source_note: "Cleaned transcript pasted by operator. Cross-ref embed: [Lascaris May 18 NATO prediction](../../../source-archive/statecraft/2026-05-18/source-lascaris-russian-strikes-europe-nato-members-inevitable-2026-05-18.md) (5-min clip from this file); continues to [Jun 13 Mearsheimer panel](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md)."
 normalization_state: proper-noun-pass
 quality_note: "Proper-noun normalization applied 2026-05-15; cleaned-transcript state reflects the operator capture note, not verbatim human verification."
 ---

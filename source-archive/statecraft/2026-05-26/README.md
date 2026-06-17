@@ -4,24 +4,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `18`
+- Source files: `19`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (17), `cleaned-transcript` (1)
-- Source form mix: `interview` (14), `solo` (4)
-- Distinct channels/shows: `7`
-- Distinct hosts: `7`
-- Distinct guests: `12`
-- Distinct threads: `17`
+- Body kind mix: `transcript` (17), `cleaned-transcript` (2)
+- Source form mix: `interview` (15), `solo` (4)
+- Distinct channels/shows: `8`
+- Distinct hosts: `8`
+- Distinct guests: `14`
+- Distinct threads: `18`
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (6), `Daniel Davis Deep Dive` (3), `Dialogue Works` (3), `Predictive History` (3), `Alexander Mercouris` (1), `Glenn Diesen` (1), `The Duran` (1)
+- `Judging Freedom` (6), `Daniel Davis Deep Dive` (3), `Dialogue Works` (3), `Predictive History` (3), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Reason to Resist` (1), `The Duran` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (6), `Daniel Davis` (3), `Jiang Xueqin` (3), `Nima Alkhorshid` (3), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1)
-- Guests: `Scott Ritter` (2), `Seyed M. Marandi` (2), `Alastair Crooke` (1), `Alexander Mercouris` (1), `Chas Freeman` (1), `Doug Macgregor` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Matt Hoh` (1), `Robert Barnes` (1)
-- Threads: `napolitano` (6), `davis` (3), `jiang` (3), `nima` (3), `marandi` (2), `mercouris` (2), `ritter` (2), `barnes` (1), `christoforou` (1), `crooke` (1), `diesen` (1), `freeman` (1), `hoh` (1), `johnson` (1), `macgregor` (1), `mearsheimer` (1), `wilkerson` (1)
+- Hosts: `Andrew Napolitano` (6), `Daniel Davis` (3), `Jiang Xueqin` (3), `Nima Alkhorshid` (3), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Dimitri Lascaris` (1), `Glenn Diesen` (1)
+- Guests: `Scott Ritter` (2), `Seyed M. Marandi` (2), `Alastair Crooke` (1), `Alexander Mercouris` (1), `Chas Freeman` (1), `Doug Macgregor` (1), `Ihab Layf` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Matilda Malle` (1), `Matt Hoh` (1), `Robert Barnes` (1)
+- Threads: `napolitano` (6), `davis` (3), `jiang` (3), `nima` (3), `marandi` (2), `mercouris` (2), `ritter` (2), `barnes` (1), `christoforou` (1), `crooke` (1), `diesen` (1), `freeman` (1), `hoh` (1), `johnson` (1), `lascaris` (1), `macgregor` (1), `mearsheimer` (1), `wilkerson` (1)
 
 ## Ingest register
 
@@ -41,6 +41,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | Jiang Xueqin | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=otyUpKhpTYM) |
 | Jiang Xueqin | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=FspDllFoiDE) |
 | Lawrence Wilkerson | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=WJhaFypj9f4) |
+| Matilda Malle, Ihab Layf | Reason to Resist | `lascaris` | [4IBLtJ8jLas](https://www.youtube.com/watch?v=4IBLtJ8jLas) |
 | Alastair Crooke | Judging Freedom | `crooke`, `napolitano` | [watch](https://www.youtube.com/watch?v=wPvk5SuQ8rw) |
 | Chas Freeman | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=5tmuUtDqh7g) |
 | Matt Hoh | Judging Freedom | `hoh`, `napolitano` | [watch](https://www.youtube.com/watch?v=_gFjPdbP5lY) |
@@ -62,6 +63,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 - `source-gb-11-dantes-revolution-2026-05-26.md`
 - `source-gb-12-dante-in-paradise-2026-05-26.md`
 - `source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md`
+- `source-lascaris-trump-sabotages-peace-talks-gaza-flotilla-2026-05-26.md`
 - `source-napolitano-crooke-fear-as-a-deterrent-to-war-2026-05-26.md`
 - `source-napolitano-freeman-israel-humiliates-itself-2026-05-26.md`
 - `source-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md`

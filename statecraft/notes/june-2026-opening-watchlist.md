@@ -39,6 +39,8 @@ Best current reading:
 
 **Ritter June shelf** — [ritter-source-index.md](../voices/ritter/ritter-source-index.md): two authored Substack rows (Jun 01 Revenge Tour, Jun 10 Shoot the Dog); sparse **hosted** interviews plausibly explained by **SPIEF + Russia travel**. Karaganov arc: [ritter-karaganov-doctrine-arc-2026.md](./ritter-karaganov-doctrine-arc-2026.md).
 
+**Helmer June shelf** — [helmer-source-index.md](../voices/helmer/helmer-source-index.md): four rows (Jun 02, 09, **13 Lascaris deterrence**, 16); Moscow faction / crisis-of-confidence contrarian; Jun 13 pairs same-day [Diesen Karaganov/Mearsheimer deterrence panel](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md); Jun 16 MOU cross-ref [MOU-week seam](./2026-06-15-mou-week-napolitano-bench-seam.md).
+
 ## Healthy Early Coverage
 
 These strands already look meaningfully present in the month-opening batch.

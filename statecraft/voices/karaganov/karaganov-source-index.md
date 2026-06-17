@@ -25,7 +25,7 @@ Rank these first when routing live statecraft work.
 | 1 | 2024-10-21 | [Diesen × Mercouris × Karaganov — doctrine change origin](../../../source-archive/statecraft/2024-10-21/source-glenn-diesen-mercouris-karaganov-russia-changes-nuclear-doctrine-2024-10-21.md) | https://www.youtube.com/watch?v=x_Bpa_Ysx3w |
 | 2 | 2025-05-14 | [Diesen × Karaganov solo — Eurasian future & spiritual revival](../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md) | https://www.youtube.com/watch?v=FH70b-9k4bQ |
 | 3 | 2025-12-25 | [Diesen × Karaganov solo — confronting Europe, pivot east, nuclear war](../../../source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) | https://www.youtube.com/watch?v=HnOB7nKv0AY |
-| 4 | 2026-05-10 | [Diesen × Karaganov solo — world war, nuclear doctrine, Eurasia](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) | https://www.youtube.com/watch?v=2Gd5jdl36cg |
+| 4 | 2026-05-10 | [Diesen × Karaganov solo — world war, nuclear doctrine, Eurasia](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) | https://www.youtube.com/watch?v=2Gd5jdl36cg — **clip SSOT** for [Lascaris May 18 embed](../../../source-archive/statecraft/2026-05-18/source-lascaris-russian-strikes-europe-nato-members-inevitable-2026-05-18.md) |
 | 5 | 2026-06-13 | [Diesen × Mearsheimer × Karaganov panel](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md) | https://www.youtube.com/watch?v=Q8PT0jiemKc |
 
 ## Legacy compatibility (redirect only)
@@ -40,6 +40,17 @@ Rank these first when routing live statecraft work.
 | Date | File | Use |
 |---|---|---|
 | 2026-01-03 | [Ritter — "dark sage" Karaganov](../../../source-archive/statecraft/2026-01-03/source-ritter-russia-dark-sage-karaganov-2026-01-03.md) | Why force-warning lanes treat Karaganov as escalation signal |
+| 2026-05-18 | [Lascaris — NATO strike prediction (embed)](../../../source-archive/statecraft/2026-05-18/source-lascaris-russian-strikes-europe-nato-members-inevitable-2026-05-18.md) | Host advocacy reel; **5-min clip SSOT = rank 4 May 10 Diesen solo** (`2Gd5jdl36cg`), not Jun 13 panel |
+
+## Escalation-ladder lattice (May–Jun 2026)
+
+| Step | Date | Surface | Role |
+|---|---|---|---|
+| 1 | 2026-05-10 | [Diesen × Karaganov solo](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) | Doctrine SSOT — conventional EU logistical/symbolic strikes → limited nuclear; “overwhelming majority” claim |
+| 2 | 2026-05-18 | [Lascaris embed](../../../source-archive/statecraft/2026-05-18/source-lascaris-russian-strikes-europe-nato-members-inevitable-2026-05-18.md) | Advocacy amplification + end-2026 NATO-MII strike prediction |
+| 3 | 2026-06-13 | [Diesen × Mearsheimer × Karaganov panel](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md) | Triangulation — Mearsheimer structural read on same ladder |
+
+**Tension pair:** Lascaris May 18 (predicts EU strikes inevitable) vs [Helmer May 24](../../../source-archive/statecraft/2026-05-24/source-lascaris-helmer-russia-retaliates-student-dormitory-strike-2026-05-24.md) (denies NATO-state attack).
 
 ## Host-arc entry
 

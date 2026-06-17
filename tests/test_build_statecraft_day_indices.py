@@ -74,7 +74,7 @@ def test_build_day_readme_uses_frontmatter_rollups_and_excludes_readme(tmp_path:
     assert "- `youtube-daniel-davis-deep-dive-us-must-stop-the-siege-of-iran-2026-05-26.md`" in text
 
 
-def test_build_day_readme_lists_metadata_thin_files_without_frontmatter(tmp_path: Path) -> None:
+def test_build_day_readme_uses_family_fallback_for_metadata_thin_files(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-01-12"
     _write(
         day / "transcript-napolitano-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md",
@@ -94,11 +94,11 @@ def test_build_day_readme_lists_metadata_thin_files_without_frontmatter(tmp_path
 
     text = idx.build_day_readme(day)
 
-    assert "## Ingest register" in text
+    assert "## Filename Family Fallbacks" in text
+    assert "`transcript-napolitano-*` (1)" in text
+    assert "`youtube-alex-mercouris-*` (1)" in text
     assert "Hosts: `Andrew Napolitano` (1)" in text
     assert "Threads: `johnson` (1)" in text
-    assert "- `transcript-napolitano-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md`" in text
-    assert "- `youtube-alex-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12.md`" in text
 
 
 def test_write_day_index_overwrites_existing_readme_deterministically(tmp_path: Path) -> None:
@@ -117,13 +117,12 @@ def test_write_day_index_overwrites_existing_readme_deterministically(tmp_path: 
     )
     _write(day / "README.md", "placeholder\n")
 
-    out_path, _ = idx.write_day_index(day)
+    out_path = idx.write_day_index(day)
     first = out_path.read_text(encoding="utf-8")
-    second_path, _ = idx.write_day_index(day)
+    second_path = idx.write_day_index(day)
     second = second_path.read_text(encoding="utf-8")
 
     assert out_path == day / "README.md"
-    assert second_path == out_path
     assert first == second
     assert "placeholder" not in first
     assert "# Statecraft Archive - 2026-03-16" in first

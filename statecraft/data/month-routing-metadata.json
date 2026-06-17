@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T23:57:30+00:00",
+  "generated_at": "2026-06-17T10:15:27+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -751,11 +751,11 @@
     },
     "2026-05": {
       "captured_days": 31,
-      "source_count": 240,
-      "thread_count": 39,
-      "channel_or_show_count": 25,
-      "host_count": 21,
-      "guest_count": 44,
+      "source_count": 243,
+      "thread_count": 41,
+      "channel_or_show_count": 26,
+      "host_count": 22,
+      "guest_count": 46,
       "guest_label_variants": [
         {
           "signature": "davis",
@@ -844,22 +844,22 @@
     },
     "2026-06": {
       "captured_days": 16,
-      "source_count": 172,
-      "thread_count": 42,
-      "channel_or_show_count": 20,
-      "host_count": 20,
-      "guest_count": 31,
+      "source_count": 190,
+      "thread_count": 43,
+      "channel_or_show_count": 22,
+      "host_count": 21,
+      "guest_count": 34,
       "guest_label_variants": [
         {
           "signature": "freeman",
           "labels": [
             {
               "label": "Charles Freeman",
-              "count": 3
+              "count": 4
             },
             {
               "label": "Chas Freeman",
-              "count": 1
+              "count": 4
             }
           ]
         },
@@ -868,7 +868,7 @@
           "labels": [
             {
               "label": "Matt Hoh",
-              "count": 2
+              "count": 4
             },
             {
               "label": "Matthew Hoh",
@@ -881,11 +881,11 @@
           "labels": [
             {
               "label": "Seyed M. Marandi",
-              "count": 10
+              "count": 12
             },
             {
               "label": "Mohammad Marandi",
-              "count": 2
+              "count": 3
             }
           ]
         }
