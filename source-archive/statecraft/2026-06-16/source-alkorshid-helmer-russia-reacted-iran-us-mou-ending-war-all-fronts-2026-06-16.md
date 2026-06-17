@@ -24,13 +24,13 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=zMb2r1TiViA"
 youtube_id: zMb2r1TiViA
-source_note: "Operator-pasted transcript; host self-dates Tuesday 16 June 2026. Helmer frame: MOU read through domestic politics (US/Iran/Israel/Russia); Moscow factions — Dmitriev/Anchorage appeasers vs Lavrov/military/GRU skeptics; Putin birthday call groveling; Nabiullina vs Hamati CBR meeting (payments/crypto/sanctions bypass); Vance vs Trump Jr succession — MOU as Vance peacemaker vs Trump Jewish-vote protector; Trump favors Latani occupation + secret Syria-cover Hezbollah war; Lebanon withdrawal ambiguity (60-day); $300B fund = BOP-style disguise for reparations+Hormuz toll + Kushner/Witkoff bribery; GCC buying Persian protection; Hamati Doha then Moscow; Trump resume Russian oil sanctions once Hormuz flows; Ukraine two-track permanent war vs Dmitriev peace line; Iran lesson unlearned in Kremlin. Cross-ref same-day Johnson $300B + Escobar relay + Freeman audit + Marandi lane. verify:wire-pending Nabiullina-Hamati meeting, Reuters $150B committed, Trump Russian sanctions waiver end, Israel MOU copy denial."
+source_note: "Operator-pasted transcript; host self-dates Tuesday 16 June 2026. Helmer frame: MOU read through domestic politics (US/Iran/Israel/Russia); Moscow factions — Dmitriev/Anchorage appeasers vs Lavrov/military/GRU skeptics; Putin birthday call groveling; Nabiullina vs Hamati CBR meeting (payments/crypto/sanctions bypass); Vance vs Trump Jr succession — MOU as Vance peacemaker vs Trump Jewish-vote protector; Trump favors Latani occupation + secret Syria-cover Hezbollah war; Lebanon withdrawal ambiguity (60-day); $300B fund = BOP-style disguise for reparations+Hormuz toll + Kushner/Witkoff bribery; GCC buying Persian protection; Hamati Doha then Moscow; Trump resume Russian oil sanctions once Hormuz flows; Ukraine two-track permanent war vs Dmitriev peace line; Iran lesson unlearned in Kremlin. Cross-ref same-day Johnson $300B + Escobar relay + Freeman audit + Marandi lane. verify:wire-supported J16-HM1,J16-HM2,J16-HM3,J16-HM4,J16-HM5; verify:wire-partial J16-HM6; matrix statecraft/daily/2026-06-16-wire-verify-matrix.md"
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: raw_operator_paste
 editorial_note: "Verbatim operator paste; promo close retained; caption wrapper no-op; Dialogue Works opening no-op."
-quality_note: "Initial land 2026-06-16; wire-verify hooks not yet scored on disk."
+quality_note: "Initial land 2026-06-16; wire-verify J16-HM1–HM6 scored 2026-06-17."
 ---
 # John Helmer: Russia Just REACTED to Iran-US MoU – Iran Insists on Ending War on All Fronts
 

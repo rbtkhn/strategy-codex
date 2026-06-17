@@ -10,14 +10,14 @@ WORK only; not Record.
 
 | # | Guest / voice | Host / show | Thread | YouTube | Hook prefix | Wire status |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Alexander Mercouris | Mercouris (solo) | `mercouris` | `Z34JsDvLx_M` | MOU architecture | partial receipts on ingest |
+| 1 | Alexander Mercouris | Mercouris (solo) | `mercouris` | `Z34JsDvLx_M` | **J16-ME1 – ME6** | scored (below) |
 | 2 | Chas Freeman | Napolitano / Judging Freedom | `freeman` | `ki_x_N3lsAY` | **J16-1 – J16-7** | scored |
 | 3 | Pepe Escobar | Napolitano / Judging Freedom | `escobar` | `hPaW0kHj7-0` | **J16-ES1 – ES8** | scored |
 | 4 | Matt Hoh | Napolitano / Judging Freedom | `hoh` | `3WQaITZvPno` | **J16-HO1 – HO6** | scored |
 | 5 | Larry Johnson | Nima / Dialogue Works | `johnson` | `7mPS8rP_Oxc` | **J16-J1 – J16-J6** | scored |
 | 6 | Seyed M. Marandi | Nima / Dialogue Works | `marandi` | `g9JLKwdg1Jc` | **J16-MA1 – MA4** | scored |
-| 7 | Patrick Henningsen | Nima / Dialogue Works | `henningsen` | `F_ngNnPGbTs` | **J16-HE*** | pending (separate sub-seam) |
-| 8 | John Helmer | Nima / Dialogue Works | `helmer` | `zMb2r1TiViA` | **J16-HM*** | pending (separate sub-seam) |
+| 7 | Patrick Henningsen | Nima / Dialogue Works | `henningsen` | `F_ngNnPGbTs` | **J16-HE1 – HE6** | scored (below) |
+| 8 | John Helmer | Nima / Dialogue Works | `helmer` | `zMb2r1TiViA` | **J16-HM1 – HM6** | scored (below) |
 | 9 | Daniel Davis | Davis Deep Dive (solo) | `davis` | `t57WKaBn5GY` | **J16-DV1 – DV5** | scored |
 | 10 | Douglas Macgregor | Davis Deep Dive | `macgregor` | `y8zhwctLKfI` | **J16-M1 – M7** | scored |
 | 11 | Trita Parsi | Breaking Points | `parsi` | `YJjkK-T6nnk` | **J16-P1 – P6** | scored |
@@ -28,7 +28,7 @@ WORK only; not Record.
 
 **Not merged:** … · **Weichert Nawfal (#13) ≠ Weichert Redacted (#14)** · **Kent Nawfal (#12) ≠ Kent Redacted (#15)** · Parsi (Breaking Points only).
 
-**Scored sub-seams in this file:** Freeman · Johnson · Marandi · Macgregor · Escobar · Hoh · Davis · Parsi · Kent (Nawfal + Redacted) · Weichert (Nawfal + Redacted) · Henningsen · Helmer · Mercouris still **partial** on ingest.
+**Scored sub-seams in this file:** Freeman · Johnson · Marandi · Macgregor · Escobar · Hoh · Davis · Parsi · Henningsen · Helmer · Mercouris · Kent (Nawfal + Redacted) · Weichert (Nawfal + Redacted).
 
 **CIV-STATE sweep:** 5/5 per sub-seam · **Confidence:** medium-high (MOU week) · **Developing:** yes (electronic sign 16 Jun; Geneva formal sign **19 Jun**)
 
@@ -217,6 +217,45 @@ WORK only; not Record.
 | **J16-P5** | **$300B reconstruction** regional fund | Persia/Adjacent | en | **Contested** | **J16-J1 supported** existence · US participation disputed |
 | **J16-P6** | **Obama 2015** won lobby fight in Congress | America | en | **Supported** | Historical · JCPOA vote record |
 
+## Sub-seam — Henningsen (`F_ngNnPGbTs`) · J16-HE1 – J16-HE6
+
+**Dominant object:** Axios Ratcliffe dishonesty leak · Israel Hayom dismissal rumor · invisible-Israel MOU frame · Lebanon fundamental vs nuclear straw man · GCC/LNG market pressure.
+
+| ID | Claim (Henningsen / desk) | Lane | Lang | Verdict | Cite |
+| --- | --- | --- | --- | --- | --- |
+| **J16-HE1** | **Axios:** Ratcliffe told Trump IC doubts Iran honesty; internal vs mediator terms diverge | America/Persia | en | **Supported** | [Axios via Iran Intl Jun 15–16](https://www.iranintl.com/en/202606154530) · [Washington Examiner](https://www.washingtonexaminer.com/news/white-house/4609849/cia-ratcliffe-trump-iran-nuclear-weapon/) · Rubio/Hegseth skeptical per same reporting |
+| **J16-HE2** | **Israel Hayom:** Trump may dismiss **Hegseth + Ratcliffe** over Iran-deal opposition; Rubio “immune” | America/Adjacent | en/he | **Partial** | [Israel Hayom via AzerNews Jun 16](https://www.azernews.az/region/259852.html) · [Daily Express WH pushback](https://www.the-express.com/news/politics/209747/white-house-claps-back-fake-news) · attributed single source; not confirmed dismissal |
+| **J16-HE3** | **Channel 12** Israel MOU copy **denied** | Adjacent | en/he | **Supported** | Cross-ref **J16-J2** · **J16-K3** |
+| **J16-HE4** | **Araghchi:** Lebanon withdrawal **inseparable** from war end; Iran+Hezbollah vs US+Israel two-side frame | Persia/Adjacent | en/fa | **Supported** | Cross-ref **J16-RK1** · **J16-MA1** |
+| **J16-HE5** | **Bloomberg:** LNG production back to pre-war levels in **~2 months** | America/Persia | en | **Unclear** | Host cited on ingest · Bloomberg line **not wire-triaged** this pass |
+| **J16-HE6** | **Hormuz 60d toll-free** then **Omani mechanism** | America/Persia | en | **Contested** | Cross-ref **J16-K5** · **J16-W5** · Vance CBS/GMA lane |
+
+## Sub-seam — Helmer (`zMb2r1TiViA`) · J16-HM1 – J16-HM6
+
+**Dominant object:** Moscow faction read · Hemmati Moscow banking visit · Trump Russian-sanctions reversal when Hormuz opens · $300B disguise · Vance vs Trump succession · Lebanon 60d ambiguity.
+
+| ID | Claim (Helmer / desk) | Lane | Lang | Verdict | Cite |
+| --- | --- | --- | --- | --- | --- |
+| **J16-HM1** | **Hemmati** in Moscow for **CBI–Mir/Shetab** banking integration talks | Russia/Persia | en/fa | **Supported** | [Press TV Jun 16](https://www.presstv.ir/Detail/2026/06/16/770577/Iran-Central-Bank-governer-Russia-integration-banking-systems) · [Nournews Jun 16](https://nournews.ir/en/news/324360/Governor-of-Central-Bank-of-Iran-departs-for-Moscow) · **not** a confirmed **Nabiullina–Hemmati** bilateral (Helmer overstates) |
+| **J16-HM2** | **Nabiullina** absent SPIEF / sick leave; faction pressure read | Russia | en/ru | **Supported** (absence) · **Partial** (faction) | [Meduza Jun 15](https://meduza.io/en/news/2026/06/15/russia-s-central-bank-chief-nabiullina-to-appear-at-press-conference-after-nearly-two-weeks-out-of-public-view-she-missed-the-st-petersburg-international-economic-forum-and-a-meeting-with-putin) · Peskov sick-leave line |
+| **J16-HM3** | **Trump G7:** can **reimpose Russian oil sanctions** once Hormuz/oil flows | America/Russia | en | **Supported** | [POLITICO Jun 16](https://www.politico.eu/article/g7-pressure-russia-ukraine-war-oil-sanctions-donald-trump/) · [TBS/Reuters carry](https://www.tbsnews.net/world/us-may-soon-reimpose-sanctions-russian-oil-once-hormuz-reopens-trump-1464926) · waiver expiry **Jun 17** still **developing** |
+| **J16-HM4** | **Reuters:** **~$150B** of **$300B** fund already **committed** | America/Persia | en | **Supported** | Cross-ref **J16-J1** |
+| **J16-HM5** | Israel **officially requested** MOU copy; **denied** (Israeli media) | Adjacent | en/he | **Supported** | Cross-ref **J16-J2** · Helmer/Nima host read |
+| **J16-HM6** | Iran **IRGC/military command:** Israel **84+** Lebanon ceasefire violations | Persia/Adjacent | en/fa | **Partial** | Host cited pre-live · cross-ref **J16-K1** kinetic · precise **84** count **not wire-triaged** |
+
+## Sub-seam — Mercouris solo (`Z34JsDvLx_M`) · J16-ME1 – J16-ME6
+
+**Dominant object:** MOU architecture from Moscow field trip · blockade lift · Hormuz/tolls/assets contested lane · Lebanon/Israel backlash · NYT Feb Israeli sell · Putin birthday call.
+
+| ID | Claim (Mercouris / desk) | Lane | Lang | Verdict | Cite |
+| --- | --- | --- | --- | --- | --- |
+| **J16-ME1** | **MOU signed** (electronic) · **Geneva 19 Jun** ceremony | America/Persia | en | **Supported** | Cross-ref **J16-M1** · **J16-ES1** · **J16-ES8** |
+| **J16-ME2** | **US naval blockade lifted**; **Hormuz reopening timing** unclear | America/Persia | en | **Partial** | Trump Truth Social blockade lift [Haaretz Jun 14 carry](https://www.haaretz.com/israel-news/israel-security/2026-06-14/ty-article-live/palestinian-red-crescent-several-wounded-in-israeli-strike-in-gaza-city/0000019e-c2f0-dd0a-a19f-d3fc9c290000) · phased reopen **developing** |
+| **J16-ME3** | **No Iranian tolls** + **~$24B** frozen assets release | America/Persia | en | **Contested** | Cross-ref **J16-K5** · **J16-K6** · Vance/CBS denial lane |
+| **J16-ME4** | MOU covers **Lebanon ceasefire**; **Netanyahu furious** / betrayal rhetoric | Adjacent | en/he | **Supported** | Cross-ref **J16-RK1** · **J16-MA1** · Katz non-withdrawal lane |
+| **J16-ME5** | **NYT Feb:** Israeli/Mossad **assurances** to Trump (quick collapse / house-of-cards read) | America/Adjacent | en | **Partial** | [NYT Feb 11 Oval / Sit Room reporting](https://archive.ph/iT1ya) · [ToI summary Mossad protest predictions](https://www.timesofisrael.com/top-trump-aides-told-him-pms-prewar-regime-change-forecast-was-farcical-report/) · “house of cards” = Mercouris gloss |
+| **J16-ME6** | **Putin–Trump** birthday call **14 Jun**; **Ushakov** front-line / Zelensky narrative warning | Russia/America | en/ru | **Supported** | [Kremlin Ushakov readout Jun 14](http://en.kremlin.ru/events/president/news/80030) · [TASS](https://tass.com/politics/2146261) · Witkoff/Kushner Moscow return agreed |
+
 ## Escalate
 
 - Hebrew-primary **Channel 12/13** clips for J16-W2 Gaza-halt vs Iran-op-cancel disambiguation.
@@ -237,3 +276,6 @@ WORK only; not Record.
 - [Hoh](../../source-archive/statecraft/2026-06-16/source-napolitano-hoh-people-should-know-when-theyre-conquered-2026-06-16.md): `verify:wire-supported J16-HO2,J16-HO6` · `verify:wire-partial J16-HO1,J16-HO4,J16-HO5` · `verify:wire-contested J16-HO3`
 - [Davis](../../source-archive/statecraft/2026-06-16/source-daniel-davis-deep-dive-iran-deal-drama-doubt-lt-col-daniel-davis-2026-06-16.md): `verify:wire-supported J16-DV3` · `verify:wire-partial J16-DV1,J16-DV2,J16-DV4` · `verify:wire-unclear J16-DV5`
 - [Parsi](../../source-archive/statecraft/2026-06-16/source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md): `verify:wire-supported J16-P1,J16-P6` · `verify:wire-partial J16-P2,J16-P3,J16-P4` · `verify:wire-contested J16-P5`
+- [Henningsen](../../source-archive/statecraft/2026-06-16/source-alkorshid-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md): `verify:wire-supported J16-HE1,J16-HE3,J16-HE4` · `verify:wire-partial J16-HE2` · `verify:wire-contested J16-HE6` · `verify:wire-unclear J16-HE5`
+- [Helmer](../../source-archive/statecraft/2026-06-16/source-alkorshid-helmer-russia-reacted-iran-us-mou-ending-war-all-fronts-2026-06-16.md): `verify:wire-supported J16-HM1,J16-HM2,J16-HM3,J16-HM4,J16-HM5` · `verify:wire-partial J16-HM6`
+- [Mercouris](../../source-archive/statecraft/2026-06-16/source-alex-mercouris-us-iran-agree-mou-sea-blockade-neocons-israel-furious-putin-trump-ignore-uk-eu-2026-06-16.md): `verify:wire-supported J16-ME1,J16-ME4,J16-ME6` · `verify:wire-partial J16-ME2,J16-ME5` · `verify:wire-contested J16-ME3`
