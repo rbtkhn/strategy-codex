@@ -17,9 +17,9 @@ Civ-state answers **why factions behave differently under the same map pressure*
 | Five volumes | Asymmetric faction packages (different rupture/recovery laws) | [Table of Contents](table-of-contents.md), [Volume map](volumes/README.md) |
 | Part law (`civilization / empire / statecraft`) | Three-layer faction anatomy (legitimacy / reach / live diplomacy) | `volumes/civ-state-*/civilization-*.md`, `empire-*.md`, `statecraft-*.md` |
 | Opener block (deep grammar · sovereign opening · current carrier) | Faction bootstrap: ideology · founding myth · government type | Volume `README.md`, [Sacred Grammar](reader-guide.md#sacred-grammar-volume-local) |
-| Framework pairs (civ/empire · faith/science · memory/desire) | AI misperception + offer rejection (wrong grammar = plausible non-deal) | [Framework shelf](framework/README.md) |
-| Pattern library | Reusable AI state machines and victory scripts | [Pattern library](framework/patterns/README.md) |
-| Continuity mechanism | Defeat / collapse / recovery arcs (same loss, different futures) | [Continuity mechanism](framework/continuity.md) |
+| Framework pairs (civ/empire · faith/science · memory/desire) | AI misperception + offer rejection (wrong grammar = plausible non-deal) | [Theory shelf](theory/README.md) |
+| Pattern library | Reusable AI state machines and victory scripts | [Pattern library](theory/patterns/README.md) |
+| Continuity mechanism | Defeat / collapse / recovery arcs (same loss, different futures) | [Continuity mechanism](theory/continuity.md) |
 | Sub-lenses (geo · secret-history · game-theory) | Advisor / intel specialties narrowing pressure geometry | `geo-strategy-*.md`, `secret-history-*.md`, `game-theory-*.md` |
 | Source-lattice | Cultural intel fog-of-war (primary before synthesis) | [Volume map — source-lattice](volumes/README.md#source-lattice-inside-every-volume) |
 | Object contract (arc · counterweight · transaction hooks) | Treaty clause weights, failure modes, settlement DSL | [CIV-STATE README — Object Contract](README.md#object-contract) |
@@ -59,7 +59,7 @@ Use as **defaults**, not stereotypes—counterweights in each volume exist to pr
 | Tier | What you ship | Fidelity | Start here |
 |------|---------------|----------|------------|
 | **A — Lore bible** | Events, advisor lines, scenario briefs grounded in volume parts | Low–medium | One volume + one pattern card |
-| **B — Behavior profiles** | JSON/YAML: governing pair, continuity type, red-line clauses, recovery script | Medium | [Continuity mechanism](framework/continuity.md) + framework pairs |
+| **B — Behavior profiles** | JSON/YAML: governing pair, continuity type, red-line clauses, recovery script | Medium | [Continuity mechanism](theory/continuity.md) + framework pairs |
 | **C — Legitimacy core** | Separate meters for civilization / empire / carrier; settlement DSL; asymmetric victories | High | Full part law + pattern library + sub-lenses |
 
 **Rule:** balance-critical paths (combat, economy) stay hard-coded; LLM/RAG only for dialogue and intel gloss.

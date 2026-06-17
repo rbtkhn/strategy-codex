@@ -1,4 +1,4 @@
-# Framework
+# Theory
 
 Whole-work governing shelf for *Civilizational Statecraft*. Read [Civilization and Empire](../introduction.md) first; use this index when the problem is rhythm, governing layer, era placement, cross-case continuity, or named recurrence types.
 
@@ -30,7 +30,7 @@ Terminology:
 
 ## Cross-case shelf
 
-6. [Continuity](../framework/continuity.md) — how continuity survives across civilizations
+6. [Continuity](../theory/continuity.md) — how continuity survives across civilizations
 7. [Patterns](patterns/README.md) — named recurrence types for comparison
 
 Bounded case essays live under [essays/](../essays/) — not mixed into this law shelf.

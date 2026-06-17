@@ -62,26 +62,26 @@ apparatus:
   - src: hybrid-references.md
     dest: hybrid-references.md
     transform: hybrid_references_public
-  - src: framework/form.md
-    dest: framework/form.md
+  - src: theory/form.md
+    dest: theory/form.md
     transform: strip_work_fence
-  - src: framework/truth.md
-    dest: framework/truth.md
+  - src: theory/truth.md
+    dest: theory/truth.md
     transform: strip_work_fence
-  - src: framework/memory.md
-    dest: framework/memory.md
+  - src: theory/memory.md
+    dest: theory/memory.md
     transform: strip_work_fence
-  - src: framework/time.md
-    dest: framework/time.md
+  - src: theory/time.md
+    dest: theory/time.md
     transform: strip_work_fence
-  - src: framework/rhythm.md
-    dest: framework/rhythm.md
+  - src: theory/rhythm.md
+    dest: theory/rhythm.md
     transform: strip_work_fence
-  - src: framework/continuity.md
-    dest: framework/continuity.md
+  - src: theory/continuity.md
+    dest: theory/continuity.md
     transform: strip_work_fence
-  - src: framework/README.md
-    dest: framework/README.md
+  - src: theory/README.md
+    dest: theory/README.md
     transform: strip_work_fence
   - src: essays/high-skill-labor-compression-and-civilizational-statecraft.md
     dest: essays/high-skill-labor-compression-and-civilizational-statecraft.md
@@ -91,8 +91,17 @@ apparatus:
     transform: hormuz_public
 
 directories:
-  - src: framework/patterns
-    dest: framework/patterns
+  - src: theory/patterns
+    dest: theory/patterns
+    transform: strip_work_fence
+  - src: docs
+    dest: docs
+    transform: strip_work_fence
+  - src: skills
+    dest: skills
+    transform: strip_work_fence
+  - src: sources
+    dest: sources
     transform: strip_work_fence
 
 generated:

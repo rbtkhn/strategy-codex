@@ -41,7 +41,7 @@ Memory preserves continuity; desire pushes for release, compensation, novelty, p
 
 This is where many objects sharpen. If the civilizational and instrumental read is clear but the behavior still feels excessive, theatrical, or compulsive, the missing mechanism is often desire acting on a memory-bearing object.
 
-The pair also names the **retrieval entry** used across the framework shelf:
+The pair also names the **retrieval entry** used across the theory shelf:
 
 ```text
 memory → legitimacy → carrier → pressure → settlement
@@ -63,7 +63,7 @@ Return to:
 - lane `state-memory`
 - continuity-sensitive sheets
 - rupture-tracking and successor-order surfaces
-- [Continuity](../framework/continuity.md) when cross-case continuity mechanism is the question
+- [Continuity](../theory/continuity.md) when cross-case continuity mechanism is the question
 
 ### If desire is governing
 

@@ -91,7 +91,7 @@ Best current carriers:
 - Rupture or mutation: after the 1991 industrial boundary, Rome's danger is false death on one side and theatrical revivalism on the other
 Best current carriers:
 - Roman collapse and strong-man return
-- [Framework shelf](../../framework/README.md) — Form · Truth · Memory
+- [Theory shelf](../../theory/README.md) — Form · Truth · Memory
 - Use legacy Rome sources only when a deeper successor-order chain is truly necessary
 
 ## Present Sovereign Capstone

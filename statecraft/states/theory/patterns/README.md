@@ -10,7 +10,7 @@ This is distinct from:
 
 - the [Glossary](../glossary.md), which defines terms more generally
 - the volume bibliographies, which remain the primary source-bearing shelves
-- [Continuity Mechanism](../framework/continuity.md), which remains a separate comparison sheet focused on one governing question
+- [Continuity Mechanism](../theory/continuity.md), which remains a separate comparison sheet focused on one governing question
 
 ## Pattern Cards
 

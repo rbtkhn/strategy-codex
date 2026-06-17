@@ -53,7 +53,7 @@ What this bench does not own:
 19. [Mearsheimer structural-realist scoreboard](mearsheimer-structural-realist-scoreboard.md) - Track structural power, balancing pressure, overextension risk, institutional carrier, and restraint.
 20. [Speaker credibility factors](speaker-credibility-factors.md) - Compare speakers by self-correction, falsifier discipline, mechanism clarity, evidence posture, scope honesty, and host consistency rather than by agreement or charisma.
     Live comparative scoring and claim-by-claim tracking now live in [../audits/README.md](../audits/README.md); this sheet remains conceptual doctrine only.
-21. [Civilizational framework](../states/framework/doctrine.md) - Run the six-part governing-layer doctrine before drafting when inheritance, instrument, legitimacy, procedure, continuity, or appetite are competing for control of the read.
+21. [Civilizational Statecraft Framework](../states/theory/README.md) - Run the six-part governing-layer doctrine before drafting when inheritance, instrument, legitimacy, procedure, continuity, or appetite are competing for control of the read.
 22. [Present-day arc extension matrix](present-day-arc-extension-matrix.md) - Extend deep America, Russia, China, and Iran arcs into cybernetic carriers for live-event, transaction, and recursive-candidate reads.
 23. [Mutation statecraft](mutation-statecraft.md) - Detect when a familiar object changes function under pressure: alliance to lattice, trade to dependency, deterrence to escalation platform, recognition to humiliation trap, or republic to emergency empire.
 24. [Russia depth arc](russia-depth-arc.md) - Test frontier-depth, symbolic-depth, imperial-depth, space-depth, system-depth, and dependency-depth when a Russia read invokes exposure, recognition, encirclement, or equilibrium.
@@ -145,7 +145,7 @@ For live speaker trust classes, correction taxonomy, and claim-by-claim scoring,
 
 ### Civilization, Empire, Faith, Science, Memory, Desire
 
-Open [civilizational framework](../states/framework/doctrine.md) when a crisis, transaction, clause, or live-event read needs a higher-order governing-layer diagnosis before the draft is trusted.
+Open [theory shelf](../states/theory/README.md) when a crisis, transaction, clause, or live-event read needs a higher-order governing-layer diagnosis before the draft is trusted.
 
 ### Present-Day Arc Extension Matrix
 

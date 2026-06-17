@@ -10,7 +10,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 ## B
 
-- bureaucratic restoration - [Bureaucratic Restoration](framework/patterns/bureaucratic-restoration.md)
+- bureaucratic restoration - [Bureaucratic Restoration](theory/patterns/bureaucratic-restoration.md)
 - Byzantium - [Glossary](glossary.md), [Volume III — Rome](volumes/rome/README.md)
 
 ## C
@@ -22,11 +22,11 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - civ-state — workshop/repo slug; not the book title — [Glossary](glossary.md#civ-state)
 - civilization-state - [Glossary](glossary.md)
 - civilizational entropy - [Civilization and Empire](introduction.md)
-- Civilizational Statecraft Framework - [framework/README.md](framework/README.md) ([Form](framework/form.md) · [Truth](framework/truth.md) · [Memory](framework/memory.md))
-- Civilizational Pattern Library - [Civilizational Pattern Library](framework/patterns/README.md)
-- corridor civilization - [Corridor Civilization](framework/patterns/corridor-civilization.md)
+- Civilizational Statecraft Framework - [theory/README.md](theory/README.md) ([Form](theory/form.md) · [Truth](theory/truth.md) · [Memory](theory/memory.md))
+- Civilizational Pattern Library - [Civilizational Pattern Library](theory/patterns/README.md)
+- corridor civilization - [Corridor Civilization](theory/patterns/corridor-civilization.md)
 - continuity - [Glossary](glossary.md)
-- continuity mechanism - [Continuity Mechanism](framework/continuity.md)
+- continuity mechanism - [Continuity Mechanism](theory/continuity.md)
 - current sovereign heads - current-sovereign-heads-of-the-civ-states.md
 - Cyrus - [Volume II — Persia](volumes/persia/README.md)
 
@@ -37,13 +37,13 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 ## E
 
-- empire - [Form](framework/form.md) · [framework shelf](framework/README.md)
+- empire - [Form](theory/form.md) · [theory shelf](theory/README.md)
 - equilibrium - [Glossary](glossary.md)
 
 ## F
 
 - five-volume frame - [Table of Contents](table-of-contents.md)
-- fractured sovereignty - [Fractured Sovereignty](framework/patterns/fractured-sovereignty.md)
+- fractured sovereignty - [Fractured Sovereignty](theory/patterns/fractured-sovereignty.md)
 - Franklin - [Hybrid References](hybrid-references.md)
 
 ## G
@@ -91,7 +91,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 
 ## P
 
-- parity rival - [Parity Rival](framework/patterns/parity-rival.md)
+- parity rival - [Parity Rival](theory/patterns/parity-rival.md)
 - Pax Romana - [Volume III introduction](volumes/rome/introduction.md)
 - Persia - [Volume II](volumes/persia/README.md)
 - provisional evidence law - [Hybrid References](hybrid-references.md)
@@ -111,7 +111,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 ## S
 
 - sacred grammar - [Reader Guide § Sacred grammar](reader-guide.md#sacred-grammar-volume-local); volume files e.g. [China](volumes/china/sacred-grammar.md)
-- sacred reconcentration - [Sacred Reconcentration](framework/patterns/sacred-reconcentration.md)
+- sacred reconcentration - [Sacred Reconcentration](theory/patterns/sacred-reconcentration.md)
 - Safavid Persia - [Glossary](glossary.md)
 - secret-history chapters - [Volume Map](volumes/README.md)
 - settlement - [Glossary](glossary.md)
@@ -120,7 +120,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - sovereign opening - [Glossary](glossary.md)
 - civilization chapters - [Volume Map](volumes/README.md)
 - empire chapters - [Volume Map](volumes/README.md)
-- survivable sovereignty - [Survivable Sovereignty](framework/patterns/survivable-sovereignty.md)
+- survivable sovereignty - [Survivable Sovereignty](theory/patterns/survivable-sovereignty.md)
 - transformed carrier - [Glossary](glossary.md)
 
 ## T
@@ -128,7 +128,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - table of contents - [Table of Contents](table-of-contents.md)
 - Talleyrand - [Hybrid References](hybrid-references.md)
 - The Third Rome - [Volume IV introduction](volumes/russia/introduction.md), [Glossary](glossary.md)
-- transformed continuity - [Transformed Continuity](framework/patterns/transformed-continuity.md)
+- transformed continuity - [Transformed Continuity](theory/patterns/transformed-continuity.md)
 
 ## U
 

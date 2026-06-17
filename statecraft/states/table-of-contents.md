@@ -113,10 +113,10 @@ Use this layer when the problem is retrieval, comparison, vocabulary, or upstrea
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Framework shelf](framework/README.md) — [Form](framework/form.md) · [Truth](framework/truth.md) · [Memory](framework/memory.md)
+3. [Theory shelf](theory/README.md) — [Form](theory/form.md) · [Truth](theory/truth.md) · [Memory](theory/memory.md)
 4. [Hybrid References](hybrid-references.md)
-5. [Continuity Mechanism](framework/continuity.md)
-6. [Civilizational Pattern Library](framework/patterns/README.md)
+5. [Continuity Mechanism](theory/continuity.md)
+6. [Civilizational Pattern Library](theory/patterns/README.md)
 7. [Index](index.md)
 8. [Source Retrieval Matrix](indexes/source-retrieval-matrix.md)
 9. [PH-CIV to CIV-STATE Bridge](ph-civ-to-civ-state-bridge.md)

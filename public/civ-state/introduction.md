@@ -18,7 +18,7 @@ civilization beautifies → empire amplifies → entropy degrades
 
 Statesmen must see this rhythm before they act. Degradation is not generic disorder. It is thinning of the civilizational layer — the slow or sudden divergence between inherited form and imperial instrument that makes settlement harder, humiliation sharper, and restoration costlier.
 
-Deep grammar: [Rhythm](framework/rhythm.md).
+Deep grammar: [Rhythm](theory/rhythm.md).
 
 ## Five volumes
 

@@ -7,7 +7,7 @@ Surface: `civ-state`
 Purpose: govern reads where legitimacy substrate, continuity-bearing form, or outward amplification stack is load-bearing  
 Last updated: 2026-06-15
 
-The six-term **Civilizational Statecraft Framework** spans three pair pages: **Form** (this page), [Truth](truth.md), and [Memory](memory.md). See the [framework shelf](../README.md) for the whole map.
+The six-term **Civilizational Statecraft Framework** spans three pair pages: **Form** (this page), [Truth](truth.md), and [Memory](memory.md). See the [theory shelf](../README.md) for the whole map.
 
 ## Why this pair exists
 

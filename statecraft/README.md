@@ -185,7 +185,7 @@ This is a retrieval aid, not a mandatory first-router. Use it when order collaps
 - `Industrial` = mass-state and industrial command
 - `Cybernetic` = post-1991 network, sanctions, platform, deterrence, and system-administration age
 
-Canonical framework lives on the [framework shelf](states/framework/README.md) ([Form](states/framework/form.md) · [Truth](states/framework/truth.md) · [Memory](states/framework/memory.md)) and the bounded operator pass lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md).
+Canonical theory lives on the [theory shelf](states/theory/README.md) ([Form](states/theory/form.md) · [Truth](states/theory/truth.md) · [Memory](states/theory/memory.md)) and the bounded operator pass lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](states/civilization-empire-faith-science-memory-desire-retrieval-checklist.md).
 
 Read the stack in this order:
 

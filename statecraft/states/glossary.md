@@ -18,27 +18,27 @@ The **whole-work opening essay** ([introduction.md](introduction.md)) — civili
 
 ### Civilizational motion
 
-The recurrent three-beat rhythm — civilization beautifies, empire amplifies, entropy degrades — plus the retrieval movement memory → legitimacy → carrier → pressure → settlement. Canonical framework page: [framework/rhythm.md](framework/rhythm.md) (shelf label **Rhythm**). Distinct from paired-civilization **double-helix** analysis in external memory corpora.
+The recurrent three-beat rhythm — civilization beautifies, empire amplifies, entropy degrades — plus the retrieval movement memory → legitimacy → carrier → pressure → settlement. Canonical framework page: [theory/rhythm.md](theory/rhythm.md) (shelf label **Rhythm**). Distinct from paired-civilization **double-helix** analysis in external memory corpora.
 
 ### Civilizational Statecraft Framework
 
-The governing six-term frame — civilization, empire, faith, science, memory, desire — organized as three structural pairs on the [framework shelf](framework/README.md): **Form** · **Truth** · **Memory**, plus **Rhythm** (motion law) and **Time** (era law). Diagnostic retrieval grammar, not prescriptive command doctrine.
+The governing six-term frame — civilization, empire, faith, science, memory, desire — organized as three structural pairs on the [theory shelf](theory/README.md): **Form** · **Truth** · **Memory**, plus **Rhythm** (motion law) and **Time** (era law). Diagnostic retrieval grammar, not prescriptive command doctrine.
 
 ### Form
 
-The **civilization ↔ empire** pair: inherited order versus outward instrument. Canonical page: [framework/form.md](framework/form.md). Use when legitimacy substrate and amplification stack must be separated before lane descent.
+The **civilization ↔ empire** pair: inherited order versus outward instrument. Canonical page: [theory/form.md](theory/form.md). Use when legitimacy substrate and amplification stack must be separated before lane descent.
 
 ### Truth
 
-The **faith ↔ science** pair: coequal truth-orders that authorize, hybridize, or compete. Canonical page: [framework/truth.md](framework/truth.md). Not reducible to religion versus laboratories.
+The **faith ↔ science** pair: coequal truth-orders that authorize, hybridize, or compete. Canonical page: [theory/truth.md](theory/truth.md). Not reducible to religion versus laboratories.
 
 ### Memory (framework pair)
 
-The **memory ↔ desire** pair: continuity-bearing inheritance under appetite, acceleration, and compensatory overreach. Canonical page: [framework/memory.md](framework/memory.md). Distinct from lane **`state-memory`** surfaces (downstream retrieval) and from the retrieval-sequence step also named memory.
+The **memory ↔ desire** pair: continuity-bearing inheritance under appetite, acceleration, and compensatory overreach. Canonical page: [theory/memory.md](theory/memory.md). Distinct from lane **`state-memory`** surfaces (downstream retrieval) and from the retrieval-sequence step also named memory.
 
 ### Era law
 
-The shared form-historical spine — Ancient → Medieval → Colonial → Industrial → Cybernetic — with the post-`1991` **Industrial / Cybernetic** boundary load-bearing for bibliography retrieval. Canonical page: [framework/time.md](framework/time.md) (shelf label **Time**).
+The shared form-historical spine — Ancient → Medieval → Colonial → Industrial → Cybernetic — with the post-`1991` **Industrial / Cybernetic** boundary load-bearing for bibliography retrieval. Canonical page: [theory/time.md](theory/time.md) (shelf label **Time**).
 
 ### civ-state
 

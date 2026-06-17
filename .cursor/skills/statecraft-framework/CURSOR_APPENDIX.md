@@ -1,6 +1,6 @@
 **strategy-codex instance notes**
 
-- Canonical framework shelf: [framework/README.md](/C:/dev/strategy-codex/statecraft/states/framework/README.md) · [Form](/C:/dev/strategy-codex/statecraft/states/framework/form.md)
+- Canonical theory shelf: [theory/README.md](/C:/dev/strategy-codex/statecraft/states/theory/README.md) · [Form](/C:/dev/strategy-codex/statecraft/states/theory/form.md)
 - Canonical retrieval matrix: [statecraft/states/indexes/source-retrieval-matrix.md](/C:/dev/strategy-codex/statecraft/states/indexes/source-retrieval-matrix.md)
 - Primary deep-grammar shelf: [statecraft/states/sacred-grammar/README.md](/C:/dev/strategy-codex/statecraft/states/sacred-grammar/README.md)
 - Use this skill before lane descent when the governing pair is unclear or when a live object is being flattened into one layer too quickly.

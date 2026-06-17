@@ -100,7 +100,7 @@ Use this note when:
 Best downstream partners:
 
 - [README.md](../README.md)
-- [framework/README.md](../framework/README.md) · [form.md](../framework/form.md) · [truth.md](../framework/truth.md) · [memory.md](../framework/memory.md)
+- [theory/README.md](../theory/README.md) · [form.md](../theory/form.md) · [truth.md](../theory/truth.md) · [memory.md](../theory/memory.md)
 - ../statecraft.md
 - [../README.md](../README.md)
 

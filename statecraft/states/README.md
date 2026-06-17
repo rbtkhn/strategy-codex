@@ -33,11 +33,11 @@ Civilizational Statecraft is a **five-volume** whole-work book with shared retri
 
 The first cross-civilizational comparison-sheet layer now begins with:
 
-- [Continuity Mechanism](framework/continuity.md)
+- [Continuity Mechanism](theory/continuity.md)
 
 The first comparative pattern shelf now begins with:
 
-- [Civilizational Pattern Library](framework/patterns/README.md)
+- [Civilizational Pattern Library](theory/patterns/README.md)
 
 Each civilization-state volume should also carry its own bibliography with a primary-source center of gravity.
 
@@ -264,7 +264,7 @@ Each CIV-STATE source object should be short and usable. It should include:
 
 ## Indexes
 
-- [Continuity Mechanism](framework/continuity.md) - first cross-civilizational comparison sheet for continuity survival.
+- [Continuity Mechanism](theory/continuity.md) - first cross-civilizational comparison sheet for continuity survival.
 - [CIV-STATE → Game Systems Mapping](civ-state-game-systems-mapping.md) - one-page bridge from civ-state layers to strategy-game mechanics; adjacent operator note, not public book unless exported.
 - [Game substrate](game-substrate/README.md) - machine companion (profile schema v0.1, Persia.pkg, pattern schemas, settlement clauses); workshop-only by default.
 - [Table of Contents](table-of-contents.md) - canonical five-volume reading order for Civilizational Statecraft, with whole-work apparatus in the appendix.
@@ -286,7 +286,7 @@ Each CIV-STATE source object should be short and usable. It should include:
 
 ## Orientation Doctrine
 
-- [Civilizational Statecraft Framework](framework/README.md) - the active higher-order orientation frame for CIV-STATE (Form · Truth · Memory).
+- [Civilizational Statecraft Framework](theory/README.md) - the active higher-order orientation frame for CIV-STATE (Form · Truth · Memory).
 - [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md) - bounded operator pass mapped to **Form · Truth · Memory** pair pages before lane translation or clause drafting.
 - [Power, Truth, Time](power-truth-time-annex.md) - superseded active shorthand retained only as historical residue and genealogy.
 - [Power, Truth, Time Retrieval Checklist](power-truth-time-retrieval-checklist.md) - superseded checklist retained only as historical residue.
@@ -312,7 +312,7 @@ Use the front door that matches the actual operator question:
 - `I need quick whole-work recall by name, route, or concept`
   - open [Index](index.md)
 - `which governing pair is really carrying this live object?`
-  - open the [framework shelf](framework/README.md)
+  - open the [theory shelf](theory/README.md)
 - `which deep legitimacy grammar is load-bearing here?`
   - open [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local)
 - `should this public Predictive History insight be promoted into CIV-STATE?`
@@ -326,7 +326,7 @@ Short rule:
 
 `whole-work apparatus = TOC, reader guide, glossary, hybrid references, and index`
 
-`framework = governing-pair diagnosis`
+`theory = governing-pair diagnosis`
 
 `bridge / promotion ledger = intake and translation, not the main front door`
 

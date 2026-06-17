@@ -56,9 +56,9 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 
 ## Whole-work apparatus
 
-- [Framework shelf](framework/README.md)
-- [Rhythm](framework/rhythm.md) · [Form](framework/form.md) · [Truth](framework/truth.md) · [Memory](framework/memory.md) · [Time](framework/time.md)
-- [Continuity mechanism](framework/continuity.md) · [Pattern library](framework/patterns/README.md)
+- [Theory shelf](theory/README.md)
+- [Rhythm](theory/rhythm.md) · [Form](theory/form.md) · [Truth](theory/truth.md) · [Memory](theory/memory.md) · [Time](theory/time.md)
+- [Continuity mechanism](theory/continuity.md) · [Pattern library](theory/patterns/README.md)
 
 ## Essays
 
@@ -66,6 +66,7 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 - [Hormuz recognition / transit restraint](essays/hormuz-recognition-transit-restraint.md)
 
 ## More apparatus
+- [Docs](docs/README.md) · [Skills](skills/README.md) · [Sources](sources/README.md)
 - [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local) · [Volume Map](volumes/README.md)
 - [Glossary](glossary.md) · [Hybrid references](hybrid-references.md) · [Index](index.md)
 

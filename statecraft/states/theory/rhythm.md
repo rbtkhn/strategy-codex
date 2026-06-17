@@ -2,6 +2,8 @@
 
 **Civilizational motion** — the whole-work three-beat law (beautifies → amplifies → degrades).
 
+WORK only; not Record.
+
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: name the recurrent three-beat rhythm and retrieval movement that govern the five-volume comparative set  
@@ -11,7 +13,7 @@ Last updated: 2026-06-15
 
 **Civilizational motion** is the whole-work rhythm law for *Civilizational Statecraft*. It names how inherited form and outward instrument move together across cases — not a flat rise-and-fall cycle, and not the **double-helix** relational metaphor used elsewhere for paired civilizations winding around a shared axis.
 
-Read [Civilization and Empire](../introduction.md) for the full opening essay. Use this page when you enter through the [framework shelf](../README.md) and need the motion law without rereading the entire essay.
+Read [Civilization and Empire](../introduction.md) for the full opening essay. Use this page when you enter through the [theory shelf](README.md) and need the motion law without rereading the entire essay.
 
 ## The three beats
 
@@ -40,7 +42,7 @@ The rhythm runs on a **pair**, not a single strand:
 
 When empire outruns civilization, the braid **frays** — that is the degrading beat. When civilization lacks sufficient instrument, inheritance remains symbolically real but poorly defended.
 
-This pair is the structural spine beneath the three verbs. The [framework shelf](../README.md) names the full six-term frame across [Form](form.md), [Truth](truth.md), and [Memory](memory.md); civilizational motion is the **historical rhythm** those terms ride through time.
+This pair is the structural spine beneath the three verbs. The [theory shelf](README.md) names the full six-term frame across [Form](form.md), [Truth](truth.md), and [Memory](memory.md); civilizational motion is the **historical rhythm** those terms ride through time.
 
 ## After the third beat
 
@@ -73,7 +75,7 @@ Use this doctrine when:
 
 Pair with:
 
-- [framework shelf](../README.md) — which governing term or pair is load-bearing now ([Form](form.md) · [Truth](truth.md) · [Memory](memory.md))
+- [theory shelf](README.md) — which governing term or pair is load-bearing now ([Form](form.md) · [Truth](truth.md) · [Memory](memory.md))
 - [Time](time.md) — which form-historical shelf matches the object's center of gravity
 - volume **Civilization** and **Empire** chapters — case depth after rhythm is named
 
@@ -86,7 +88,7 @@ Do **not** use civilizational motion when:
 
 | Term | Meaning |
 |------|---------|
-| **Civilizational motion** | This three-beat rhythm + retrieval movement (framework shelf) |
+| **Civilizational motion** | This three-beat rhythm + retrieval movement (theory shelf) |
 | **Civilization and Empire** | Whole-work opening essay — not the book title |
 | **Civilizational Statecraft** | Book title |
 | **Helix** | Deprecated on this public shelf for the three-beat law; retained in workshop only for legacy lane routing |

@@ -55,14 +55,14 @@ REQUIRED_ROOT = [
     "EXPORT-RECEIPT.md",
 ]
 
-REQUIRED_FRAMEWORK = [
-    "framework/form.md",
-    "framework/truth.md",
-    "framework/memory.md",
-    "framework/rhythm.md",
-    "framework/time.md",
-    "framework/continuity.md",
-    "framework/patterns/README.md",
+REQUIRED_THEORY = [
+    "theory/form.md",
+    "theory/truth.md",
+    "theory/memory.md",
+    "theory/rhythm.md",
+    "theory/time.md",
+    "theory/continuity.md",
+    "theory/patterns/README.md",
 ]
 
 REQUIRED_ESSAYS = [
@@ -196,7 +196,7 @@ def main() -> int:
 
     errors: list[str] = []
     errors.extend(check_required(export, REQUIRED_ROOT))
-    errors.extend(check_required(export, REQUIRED_FRAMEWORK))
+    errors.extend(check_required(export, REQUIRED_THEORY))
     errors.extend(check_required(export, REQUIRED_ESSAYS))
     errors.extend(check_forbidden(export, manifest.get("forbidden_patterns", []), exclude_prefixes))
 
