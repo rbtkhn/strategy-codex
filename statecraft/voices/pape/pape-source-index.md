@@ -42,6 +42,19 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 
 - [2026-05-27 The Price of Oil Is the Real Iran Deal](../../../source-archive/statecraft/2026-05-27/source-pape-the-price-of-oil-is-the-real-iran-2026-05-27.md)
 
+### Ceasefire Breakdown and Horizontal Escalation
+
+- [2026-06-01 The Trap Gets Worse](../../../source-archive/statecraft/2026-06-01/source-pape-the-trap-gets-worse-2026-06-01.md)
+- [2026-06-02 Bombing While Talking](../../../source-archive/statecraft/2026-06-02/source-pape-bombing-while-talking-2026-06-02.md)
+- [2026-06-03 Bombing While Talking II](../../../source-archive/statecraft/2026-06-03/source-pape-bombing-while-talking-ii-2026-06-03.md)
+- [2026-06-04 The Lebanon Fuse](../../../source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md)
+
+### Survival-to-Dominance and Day-100 Watch
+
+- [2026-06-06 The New Phase](../../../source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md)
+- [2026-06-08 Day 100: Why Iran's Strategy Is Expanding](../../../source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md)
+- [2026-06-15 Uncertain Deal—And Iran Enters Its Period of Maximum Leverage](../../../source-archive/statecraft/2026-06-15/source-pape-uncertain-deal-iran-maximum-leverage-2026-06-15.md)
+
 ## Interview-Pressure Anchors
 
 - [2026-03-10 Davis x Pape - The Escalation Trap](../../../source-archive/statecraft/2026-03-10/source-davis-pape-escalation-trap-2026-03-10.md)
@@ -51,6 +64,11 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 - [2026-05-20 Mario Nawfal x Pape - Iran Warns U.S. of 'Surprises'; Xi, Putin Meet in Beijing](../../../source-archive/statecraft/2026-05-20/source-pape-mario-nawfal-iran-warns-u-s-of-surprises-xi-putin-meet-in-beijing-2026-05-20.md)
 - [2026-05-27 Breaking Points x Pape - Prof Pape: Iran IN DRIVERS SEAT As SHOCKING Deal Emerges](../../../source-archive/statecraft/2026-05-27/source-pape-breaking-points-iran-drivers-seat-shocking-deal-emerges-2026-05-27.md)
 - [2026-05-28 Switzerland with Tom Switzer x Pape - The mirage of peace](../../../source-archive/statecraft/2026-05-28/source-pape-switzer-the-mirage-of-peace-2026-05-28.md)
+- [2026-06-03 Redacted x Pape - We Are in the End Game Now (Ukraine / Russia)](../../../source-archive/statecraft/2026-06-03/source-pape-redacted-we-are-in-the-end-game-now-ukraine-just-made-a-fatal-mistake-attacking-russia-2026-06-03.md)
+- [2026-06-04 Mario Nawfal x Pape - Iran Has Become Fourth World Superpower](../../../source-archive/statecraft/2026-06-04/source-pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04.md)
+- [2026-06-09 Breaking Points x Pape - Axis of Resistance Security Belt](../../../source-archive/statecraft/2026-06-09/source-pape-breaking-points-axis-of-resistance-security-belt-2026-06-09.md)
+- [2026-06-09 Mario Nawfal x Pape - Hezbollah Infiltrates Israel, Apache Shot Down](../../../source-archive/statecraft/2026-06-09/source-nawfal-pape-hezbollah-infiltrates-israel-apache-shot-down-2026-06-09.md)
+- [2026-06-16 Mario Nawfal x Pape - CIA Chief Warns Iran Not Serious About MoU](../../../source-archive/statecraft/2026-06-16/source-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md)
 
 ## Support-Tier Bench
 
