@@ -23,7 +23,7 @@ youtube_upload_reconciled: true
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Routine closing lineup promo trimmed in place; SSOT body otherwise preserved.
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 4 substitutions; not human-verified verbatim; verify before quotation. Nawfal/Weichert close promo (Substack pitch, tweet CTA) re-trimmed 2026-06-17; SSOT body otherwise preserved.
 quality_note: ASR normalization pass 2026-06-15; ph-civ replacement SSOT.
 nawfal_close_promo_trim_applied: true
 ---
@@ -205,6 +205,4 @@ So yes, several years ago they were light years behind us. Not anymore. And that
  So, [snorts] >> it's sad to see, man. >> Oh, it's Listen, I'm a patriot. I hate saying I don't enjoy saying this, but you got to know how deep the dudoo is if you have any hope of digging yourself out. And America's elite are happily engaged in mass delusion. And you're seeing this, by the way, in the markets, just to quickly get back to what we're talking about.
  The markets are completely divorced from the economic reality of what we're facing in Iran. But that's going to end very quickly and painfully once we re reach bottom barrel and then all these trends start hitting us. >> Yeah. All right, man. Well, appreciate the conversation. >> Yeah. >> Um, that was really good.
  I always enjoy I always learn a lot with you. Like I got 20 things typed up here to learn, including the guy uh Slater. Samuel >> Samuel Slater. It's also featured. He's featured in two of my books, Winning Space and Biohacked. >> I recommend people read your books. I get the privilege of speaking to you two or three times a week.
- So I'm going to I've got the book here. I could talk to you live [laughter] talking book. >> Yeah. But I'm not going to share everything because I want people to buy the book. So >> people have to [laughter] buy the book. Yeah. >> And please everybody real quick, please subscribe to my Substack. Wikert.substack.com. substack.
-com because you I do a lot of stuff like this in writing. >> Lisa, yeah, Lisa, tell tell the production team. Put it in the description. We don't even put anything in the description. We should have a better description, but Lisa, put it in the description if you don't mind. Thank you, sir. Like comment in the tweet.
->> Um, >> all right. Cool, man. >> Well, I really enjoy till we meet again. Have a good weekend. >> See you, man.
+ So I'm going to I've got the book here. I could talk to you live [laughter] talking book. >> Yeah. But I'm not going to share everything because I want people to buy the book. So >> people have to [laughter] buy the book. Yeah. >> Well, I really enjoy till we meet again. Have a good weekend. >> See you, man.

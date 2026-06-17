@@ -10,7 +10,8 @@ source_url: https://www.youtube.com/watch?v=6VaTuSpPisE
 source_note: "Operator paste; canonical watch URL preserved (YouTube). · ASR pass 2026-06-15."
 title_slug: pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation. Nawfal host close promo (Substack/subscribe/next-guest tease) trimmed 2026-06-17."
+nawfal_close_promo_trim_applied: true
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 ---
 # Robert Pape - fourth center of world power framing (operator transcript)
@@ -163,7 +164,4 @@ But notice that when the Cold War ended, there wasn't a whole lot of of military
 No, this may be down the road. But so what I'm doing is every two weeks I give a live briefing on each one that's different. So just so you know. So there's there's a lot of Bob tape kind of floating around out there now. And uh and I'm gonna and I'm going to do that because so many detailed questions on the Iran war.
  I'll stick with the escalation trap for the broader stuff like we just described. Where is the world heading? That's what I'm going to do on Professor Pave just because people uh there's different people in the world interested in the different balance. >> No doubt. So everyone should check out both of your substacks and your lives which you do.
  Sorry to make it complex, folks. I wish I was smarter. Understood the mechanics of [laughter] of this when I got started and I had no idea this thing was going to take off like that. So now it's too big. >> No, no, people love it. My audience is very knowledgeable. We have so many great guests like Larry, Pepe, various others.
- So they they they're very experienced in the details. >> I listen to them all the time. They're brilliant. >> Brilliant. Appreciate Thank you so much for coming, Professor Pepe. I appreciate you taking your time. I will definitely want you back on back again. >> Okay. Thank you. Thank you so much. >> That was Professor Pipe, guys.
- Make sure you do check out his Substack. Make sure you check out his Substack, which is called Escalation Trap, and his other one, which is called Professor Pape. Like this video, comment in the main section, subscribe to the channel, have your notifications on. Let me know your thoughts in the comments.
- Did you agree with what the professor had to say? Did you agree that essentially Iran is going to be the fourth center of power? Do you think that this war is going to escalate to kinetic? Let me know your thoughts in the comments. Next we got our favorite professor no not well a professor to us but former CIA Larry Johnson.
- So we're going to click on the tweet in the net that is pinned. Come across there. That's where we're going to have the interview with Larry Johnson. So click on it's pinned. Come across there and we've got Larry on immediately. So I'll see you guys there. I appreciate you guys joining in. I appreciate you guys listening and for sure we'll see you next time. What?
+ So they they they're very experienced in the details. >> I listen to them all the time. They're brilliant. >> Brilliant. Appreciate Thank you so much for coming, Professor Pepe. I appreciate you taking your time. I will definitely want you back on back again. >> Okay. Thank you. Thank you so much.

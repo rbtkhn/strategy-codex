@@ -66,6 +66,20 @@ CLOSE_PROMO_ANCHOR_RES: list[tuple[str, re.Pattern[str]]] = [
         ),
     ),
     (
+        "finish-today-have-to",
+        re.compile(
+            r"But this is where I have to finish today\.",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "finish-today-intend",
+        re.compile(
+            r"this is where I intend to finish today(?:'s|s) program",
+            re.IGNORECASE,
+        ),
+    ),
+    (
         "my-program-for-today",
         re.compile(
             r"That(?:'s| is) my program for today\.\s+Let me remind you",
@@ -82,7 +96,7 @@ CLOSE_PROMO_ANCHOR_RES: list[tuple[str, re.Pattern[str]]] = [
     (
         "find-our-programs",
         re.compile(
-            r"Let me remind you again(?:,| that) you can find all our programs on our various platforms",
+            r"Let me remind you again(?:,| that) (?:you|I you) can find all our programs on our various platforms",
             re.IGNORECASE,
         ),
     ),
