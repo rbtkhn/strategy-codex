@@ -1,16 +1,16 @@
 ---
-name: "arc-to-chapter-seeds"
-description: "Extract additive chapter-seed ideas from an upstream arc without letting the arc govern the destination work. Use when the operator wants chapter ideas harvested from a speaker arc, lane arc, cross-host arc, or historical arc, especially for statecraft volume buildout inside strategy-codex."
+name: arc-to-chapter-seeds
+description: Extract additive chapter-seed ideas from an upstream arc without letting the arc govern the destination work. Use when the operator wants chapter ideas harvested from a speaker arc, lane arc, cross-host arc, or historical arc, especially for statecraft volume buildout inside strategy-codex.
 portable: true
-version: "0.1.0"
+version: 0.1.0
 tags:
-  - "operator"
-  - "work-strategy"
-  - "statecraft"
-  - "chapter-seeds"
-  - "extraction"
-portable_source: "skills-portable/arc-to-chapter-seeds/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- work-strategy
+- statecraft
+- chapter-seeds
+- extraction
+portable_source: skills-portable/arc-to-chapter-seeds/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Arc To Chapter Seeds
 

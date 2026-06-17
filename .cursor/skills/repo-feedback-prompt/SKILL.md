@@ -1,15 +1,15 @@
 ---
-name: "repo-feedback-prompt"
-preferred_activation: "repo feedback prompt"
-description: "Compose short, constructive prompts (issues/DMs) for maintainers of external GitHub repos after verifying upstream docs—non-redundant, high-leverage asks, respectful tone, optional PR offer."
+name: repo-feedback-prompt
+preferred_activation: repo feedback prompt
+description: Compose short, constructive prompts (issues/DMs) for maintainers of external GitHub repos after verifying upstream docs—non-redundant, high-leverage asks, respectful tone, optional PR offer.
 portable: true
-version: "1.1.0"
+version: 1.1.0
 tags:
-  - "operator"
-  - "work-dev"
-  - "communication"
-portable_source: "skills-portable/repo-feedback-prompt/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- work-dev
+- communication
+portable_source: skills-portable/repo-feedback-prompt/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Repo Feedback Prompt
 

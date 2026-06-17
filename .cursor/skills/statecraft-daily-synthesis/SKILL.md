@@ -1,17 +1,17 @@
 ---
-name: "statecraft-daily-synthesis"
-preferred_activation: "statecraft daily synthesis"
-description: "Turn a landed statecraft archive day batch into a bounded daily synthesis note on the statecraft side. Use when the source captures for a day already exist and the next job is to identify the dominant crisis object, lane pressure, and speaker-by-function comparisons. Includes same-object mechanism comparison as a built-in subroutine."
+name: statecraft-daily-synthesis
+preferred_activation: statecraft daily synthesis
+description: Turn a landed statecraft archive day batch into a bounded daily synthesis note on the statecraft side. Use when the source captures for a day already exist and the next job is to identify the dominant crisis object, lane pressure, and speaker-by-function comparisons. Includes same-object mechanism comparison as a built-in subroutine.
 portable: true
-version: "0.2.0"
+version: 0.2.0
 tags:
-  - "operator"
-  - "statecraft"
-  - "synthesis"
-  - "daily"
-  - "monthly"
-portable_source: "skills-portable/statecraft-daily-synthesis/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- statecraft
+- synthesis
+- daily
+- monthly
+portable_source: skills-portable/statecraft-daily-synthesis/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Statecraft daily synthesis
 
@@ -20,8 +20,6 @@ synced_by: "sync_portable_skills.py"
 Use this skill when a day-batch or month-batch of statecraft source captures is already real and the next need is a bounded synthesis note on the `statecraft/` side.
 
 This skill is for **downstream synthesis**, not archive capture and not synthetic intelligence-essay writing. Its job is to read the landed archive batch, identify the governing object, and write a compact, durable interpretation surface without pretending to replace the underlying transcript authority.
-
-**Codex watch tags (optional cross-link):** When folding into `/codex`, use [FIVE-THREAD-WATCH-TAGS.md](../../../docs/skill-work/work-strategy/FIVE-THREAD-WATCH-TAGS.md) for §1d–§1h plane discipline — synthesis stays on **statecraft** side by default.
 
 ## Use this skill when
 

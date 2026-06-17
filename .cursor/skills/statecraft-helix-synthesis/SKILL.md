@@ -1,15 +1,15 @@
 ---
-name: "statecraft-helix-synthesis"
-description: "Build helix-first repo-root statecraft synthesis and retrieval surfaces above already-mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in statecraft/states. Do not use for first-wave lane construction, governing-pair diagnosis, or CIV-STATE front-door/volume hardening."
+name: statecraft-helix-synthesis
+description: Build helix-first repo-root statecraft synthesis and retrieval surfaces above already-mature lane objects. Use when the operator asks for canonical-family synthesis, problem-shape routing, meta-synthesis, settlement-room or escalation-governance comparison, or corpus-level orientation surfaces in statecraft/states. Do not use for first-wave lane construction, governing-pair diagnosis, or CIV-STATE front-door/volume hardening.
 portable: true
-version: "0.1.0"
+version: 0.1.0
 tags:
-  - "operator"
-  - "work-strategy"
-  - "statecraft"
-  - "synthesis"
-portable_source: "skills-portable/statecraft-helix-synthesis/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- work-strategy
+- statecraft
+- synthesis
+portable_source: skills-portable/statecraft-helix-synthesis/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Statecraft Helix Synthesis
 

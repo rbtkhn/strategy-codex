@@ -1,17 +1,17 @@
 ---
-name: "memory"
-preferred_activation: "memory"
-description: "Build, mirror, audit, or backfill repo-root statecraft state-memory, civilization arc-lens, and CIV-STATE book-apparatus surfaces from CIV-MEM. Use when the operator says memory or legacy state-memory, asks to convert CIV-MEM into civilization/objects/state-memory.md, mirror state-memory architecture, audit current state carriers, create or refine god.md, lit.md, art.md, geo.md, war.md, or peace.md, wants deep CIV-MEM search without biography drift, or wants CIV-MEM to evaluate or sharpen glossary, bibliography, references, or index surfaces."
+name: memory
+preferred_activation: memory
+description: Build, mirror, audit, or backfill repo-root statecraft state-memory, civilization arc-lens, and CIV-STATE book-apparatus surfaces from CIV-MEM. Use when the operator says memory or legacy state-memory, asks to convert CIV-MEM into civilization/objects/state-memory.md, mirror state-memory architecture, audit current state carriers, create or refine god.md, lit.md, art.md, geo.md, war.md, or peace.md, wants deep CIV-MEM search without biography drift, or wants CIV-MEM to evaluate or sharpen glossary, bibliography, references, or index surfaces.
 portable: true
-version: "0.1.1"
+version: 0.1.1
 tags:
-  - "operator"
-  - "statecraft"
-  - "civ-mem"
-  - "state-memory"
-  - "civilization"
-portable_source: "skills-portable/memory/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- statecraft
+- civ-mem
+- state-memory
+- civilization
+portable_source: skills-portable/memory/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Memory
 

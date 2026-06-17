@@ -1,16 +1,16 @@
 ---
-name: "singularity-note-promotion"
-description: "Promote one bounded argument from a singularity monthly synthesis into a reusable note without overpromoting it into a broad essay. Use when a month memo contains one route-worthy claim that should become a stand-alone singularity note with source anchors, action wedges, and return paths."
+name: singularity-note-promotion
+description: Promote one bounded argument from a singularity monthly synthesis into a reusable note without overpromoting it into a broad essay. Use when a month memo contains one route-worthy claim that should become a stand-alone singularity note with source anchors, action wedges, and return paths.
 portable: true
-version: "0.1.0"
+version: 0.1.0
 tags:
-  - "operator"
-  - "singularity"
-  - "synthesis"
-  - "notes"
-  - "promotion"
-portable_source: "skills-portable/singularity-note-promotion/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- singularity
+- synthesis
+- notes
+- promotion
+portable_source: skills-portable/singularity-note-promotion/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Singularity Note Promotion
 

@@ -1,16 +1,16 @@
 ---
-name: "civ-state-volume-harden"
-description: "Harden or create CIV-STATE front-door and volume architecture surfaces. Use when the operator wants civilization-state diagnostics, sovereignty-chain scaffolds, opener doctrine normalization, or retrieval-oriented volume doctrine in statecraft/states. Do not use for pre-draft governing-pair diagnosis, archive intake, or helix/meta-synthesis above mature lanes."
+name: civ-state-volume-harden
+description: Harden or create CIV-STATE front-door and volume architecture surfaces. Use when the operator wants civilization-state diagnostics, sovereignty-chain scaffolds, opener doctrine normalization, or retrieval-oriented volume doctrine in statecraft/states. Do not use for pre-draft governing-pair diagnosis, archive intake, or helix/meta-synthesis above mature lanes.
 portable: true
-version: "0.2.0"
+version: 0.2.0
 tags:
-  - "operator"
-  - "work-strategy"
-  - "statecraft"
-  - "civ-state"
-  - "doctrine"
-portable_source: "skills-portable/civ-state-volume-harden/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- work-strategy
+- statecraft
+- civ-state
+- doctrine
+portable_source: skills-portable/civ-state-volume-harden/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # CIV-STATE Volume Harden
 

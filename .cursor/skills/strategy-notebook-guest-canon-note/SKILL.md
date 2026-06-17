@@ -1,17 +1,17 @@
 ---
-name: "strategy-notebook-guest-canon-note"
-preferred_activation: "speaker arc"
-description: "Create a host-stream guest speaker arc from repeated host x guest raw inputs: rank the key episodes, explain the lane, place the note inside the host stream, and wire lattice or thread surfaces to cite it without inventing a new category."
+name: strategy-notebook-guest-canon-note
+preferred_activation: speaker arc
+description: 'Create a host-stream guest speaker arc from repeated host x guest raw inputs: rank the key episodes, explain the lane, place the note inside the host stream, and wire lattice or thread surfaces to cite it without inventing a new category.'
 portable: true
-version: "0.2.0"
+version: 0.2.0
 tags:
-  - "operator"
-  - "strategy-codex"
-  - "strategy-notebook-legacy"
-  - "speaker-arc"
-  - "guest-lane"
-portable_source: "skills-portable/strategy-notebook-guest-canon-note/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- strategy-codex
+- strategy-notebook-legacy
+- speaker-arc
+- guest-lane
+portable_source: skills-portable/strategy-notebook-guest-canon-note/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Strategy-codex guest speaker arc
 

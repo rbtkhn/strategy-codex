@@ -1,14 +1,14 @@
 ---
-name: "jurisdiction-campaign-history"
-preferred_activation: "jurisdiction history"
-description: "WORK-politics: derive campaign framing from jurisdictional history (House district, U.S. Senate, governor) using repo chronology markdown; modes house | senate | governor | stack; optional handoff to politics-massie (draft X only). Triggers: jurisdiction history, district history pass, senate history pass, governor history pass, political stack brief."
+name: jurisdiction-campaign-history
+preferred_activation: jurisdiction history
+description: 'WORK-politics: derive campaign framing from jurisdictional history (House district, U.S. Senate, governor) using repo chronology markdown; modes house | senate | governor | stack; optional handoff to politics-massie (draft X only). Triggers: jurisdiction history, district history pass, senate history pass, governor history pass, political stack brief.'
 portable: true
-version: "1.0.0"
+version: 1.0.0
 tags:
-  - "operator"
-  - "work-politics"
-portable_source: "skills-portable/jurisdiction-campaign-history/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- work-politics
+portable_source: skills-portable/jurisdiction-campaign-history/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Jurisdiction campaign history — framing pass
 

@@ -1,15 +1,15 @@
 ---
-name: "politics-massie"
-preferred_activation: "massie x"
-description: "Draft-only X copy for @usa_first_ky (unofficial KY-4 analysis): real-time web search, cited news briefs, suggested posts—operator must approve before any post; never auto-post or publish. Triggers: politics-massie, Massie X, tweet draft, KY-4 news today, breaking story hooks, usa_first_ky."
+name: politics-massie
+preferred_activation: massie x
+description: 'Draft-only X copy for @usa_first_ky (unofficial KY-4 analysis): real-time web search, cited news briefs, suggested posts—operator must approve before any post; never auto-post or publish. Triggers: politics-massie, Massie X, tweet draft, KY-4 news today, breaking story hooks, usa_first_ky.'
 portable: true
-version: "1.1.0"
+version: 1.1.0
 tags:
-  - "operator"
-  - "work-politics"
-  - "social"
-portable_source: "skills-portable/politics-massie/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- work-politics
+- social
+portable_source: skills-portable/politics-massie/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Massie X — real-time news search and draft posts
 

@@ -1,15 +1,15 @@
 ---
-name: "primary-overhearing-analysis"
-preferred_activation: "primary overhearing"
-description: "Analyzes high-symbolism speeches, visits, and rituals using primary vs overhearing audiences, speech-act function, and second-order spillover (soft power, who gains moral authority vs rivals who claim to solve the problem). Use when the operator asks for audience optics, primary/overhearing frame, papal or diplomatic visits, interfaith stops, migration messaging, or narrative competition over the solver role."
+name: primary-overhearing-analysis
+preferred_activation: primary overhearing
+description: Analyzes high-symbolism speeches, visits, and rituals using primary vs overhearing audiences, speech-act function, and second-order spillover (soft power, who gains moral authority vs rivals who claim to solve the problem). Use when the operator asks for audience optics, primary/overhearing frame, papal or diplomatic visits, interfaith stops, migration messaging, or narrative competition over the solver role.
 portable: true
-version: "1.0.0"
+version: 1.0.0
 tags:
-  - "operator"
-  - "analysis"
-  - "strategy"
-portable_source: "skills-portable/primary-overhearing-analysis/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- analysis
+- strategy
+portable_source: skills-portable/primary-overhearing-analysis/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Primary vs overhearing audience analysis
 
@@ -63,7 +63,7 @@ Use for **public symbolic events**: papal or other religious leaders’ trips, m
 ## Related (optional handoffs)
 
 - **fact-check** — When claims about what was said or signed need web verification.
-- **`strategy` / codex compose** — Stack with [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) when folding into `/codex` judgment; not a substitute for ROME primaries.
+- **skill-strategy** — When the operator wants the same insight folded into strategy-codex judgment with civ-mem grounding.
 
 
 ## Cursor / grace-mar instance

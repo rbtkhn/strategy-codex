@@ -1,16 +1,16 @@
 ---
-name: "tufte-data-viz"
-preferred_activation: "tufte viz"
-description: "Tufte-style chart and dashboard discipline for operator observability: high data-ink, direct labels, log scales when warranted, chart-review mode; inspection-only, not Record merge."
+name: tufte-data-viz
+preferred_activation: tufte viz
+description: 'Tufte-style chart and dashboard discipline for operator observability: high data-ink, direct labels, log scales when warranted, chart-review mode; inspection-only, not Record merge.'
 portable: true
-version: "0.1.0"
+version: 0.1.0
 tags:
-  - "operator"
-  - "work-dev"
-  - "observability"
-  - "visualization"
-portable_source: "skills-portable/tufte-data-viz/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- work-dev
+- observability
+- visualization
+portable_source: skills-portable/tufte-data-viz/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Tufte Data Visualization
 

@@ -1,17 +1,17 @@
 ---
-name: "statecraft-framework"
-preferred_activation: "statecraft-framework"
-description: "Diagnose a live statecraft object through the Civilizational Statecraft Framework before drafting. Use when the operator needs the governing pair named first: civilization/empire, faith/science, or memory/desire; then the dominant layer, likely outsider misread, likely failure layer, and the right downstream retrieval surface. Do not use for volume-front-door hardening, lane synthesis artifacts, or direct transaction drafting."
+name: statecraft-framework
+preferred_activation: statecraft-framework
+description: 'Diagnose a live statecraft object through the Civilizational Statecraft Framework before drafting. Use when the operator needs the governing pair named first: civilization/empire, faith/science, or memory/desire; then the dominant layer, likely outsider misread, likely failure layer, and the right downstream retrieval surface. Do not use for volume-front-door hardening, lane synthesis artifacts, or direct transaction drafting.'
 portable: true
-version: "0.1.0"
+version: 0.1.0
 tags:
-  - "operator"
-  - "statecraft"
-  - "civ-state"
-  - "doctrine"
-  - "routing"
-portable_source: "skills-portable/statecraft-framework/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- statecraft
+- civ-state
+- doctrine
+- routing
+portable_source: skills-portable/statecraft-framework/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Statecraft Framework
 

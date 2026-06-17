@@ -1,16 +1,16 @@
 ---
-name: "last30days"
-preferred_activation: "last30days"
-description: "Research a recent topic with last-30-days discipline, source-class routing, provenance, uncertainty labels, and stage-only governance boundaries."
+name: last30days
+preferred_activation: last30days
+description: Research a recent topic with last-30-days discipline, source-class routing, provenance, uncertainty labels, and stage-only governance boundaries.
 portable: true
-version: "1.0.0"
+version: 1.0.0
 tags:
-  - "research"
-  - "strategy"
-  - "provenance"
-  - "governance"
-portable_source: "skills-portable/last30days/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- research
+- strategy
+- provenance
+- governance
+portable_source: skills-portable/last30days/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Last 30 Days Research
 

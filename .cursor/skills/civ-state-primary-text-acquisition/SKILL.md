@@ -1,16 +1,16 @@
 ---
-name: "civ-state-primary-text-acquisition"
-description: "Acquire, classify, and stage CIV-STATE primary-source text through a rights-first, witness-first workflow. Use when the operator wants source records, excerpt collections, lawful full-text sidecars, or witness-locking discipline for civilization-state primary sources."
+name: civ-state-primary-text-acquisition
+description: Acquire, classify, and stage CIV-STATE primary-source text through a rights-first, witness-first workflow. Use when the operator wants source records, excerpt collections, lawful full-text sidecars, or witness-locking discipline for civilization-state primary sources.
 portable: true
-version: "0.1.0"
+version: 0.1.0
 tags:
-  - "operator"
-  - "statecraft"
-  - "civ-state"
-  - "primary-sources"
-  - "acquisition"
-portable_source: "skills-portable/civ-state-primary-text-acquisition/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- statecraft
+- civ-state
+- primary-sources
+- acquisition
+portable_source: skills-portable/civ-state-primary-text-acquisition/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # CIV-STATE Primary-Text Acquisition
 

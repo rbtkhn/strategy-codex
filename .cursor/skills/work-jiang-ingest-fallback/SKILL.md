@@ -1,15 +1,15 @@
 ---
-name: "work-jiang-ingest-fallback"
-preferred_activation: "jiang ingest fallback"
-description: "Recover lecture ingest when channel-wide transcript fetch hits rate limits by using a targeted local index row, then ingest and validate in a bounded pass."
+name: work-jiang-ingest-fallback
+preferred_activation: jiang ingest fallback
+description: Recover lecture ingest when channel-wide transcript fetch hits rate limits by using a targeted local index row, then ingest and validate in a bounded pass.
 portable: true
-version: "0.1.0"
+version: 0.1.0
 tags:
-  - "operator"
-  - "work-jiang"
-  - "ingest"
-portable_source: "skills-portable/work-jiang-ingest-fallback/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- work-jiang
+- ingest
+portable_source: skills-portable/work-jiang-ingest-fallback/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Work-jiang ingest fallback (rate limit path)
 

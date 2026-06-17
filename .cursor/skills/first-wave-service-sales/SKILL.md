@@ -1,18 +1,18 @@
 ---
-name: "first-wave-service-sales"
-preferred_activation: "first-wave sales"
-description: "Turn a bounded service offer into the first live sales wave: shape a close-fit shortlist, draft and personalize outreach, run a send checklist, log real contact, route first replies, capture objections, and hand off cleanly to call or proposal."
+name: first-wave-service-sales
+preferred_activation: first-wave sales
+description: 'Turn a bounded service offer into the first live sales wave: shape a close-fit shortlist, draft and personalize outreach, run a send checklist, log real contact, route first replies, capture objections, and hand off cleanly to call or proposal.'
 portable: true
-version: "0.1.0"
+version: 0.1.0
 tags:
-  - "operator"
-  - "sales"
-  - "outreach"
-  - "service"
-  - "pipeline"
-  - "proof-boundary"
-portable_source: "skills-portable/first-wave-service-sales/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- sales
+- outreach
+- service
+- pipeline
+- proof-boundary
+portable_source: skills-portable/first-wave-service-sales/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # first-wave service sales
 

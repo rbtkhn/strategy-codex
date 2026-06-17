@@ -1,15 +1,15 @@
 ---
-name: "abundance-native-ventures"
-description: "Generate abundance-native venture ideas, one-afternoon sprint plans, approval packets, and operator briefs from host-equivalent surfaces. Use when the user asks for abundance OS ideas, democratized entrepreneurship prompts, venture ideation, sprint packages, proposal skeletons, or recurring operator briefs."
+name: abundance-native-ventures
+description: Generate abundance-native venture ideas, one-afternoon sprint plans, approval packets, and operator briefs from host-equivalent surfaces. Use when the user asks for abundance OS ideas, democratized entrepreneurship prompts, venture ideation, sprint packages, proposal skeletons, or recurring operator briefs.
 portable: true
-version: "0.2.0"
+version: 0.2.0
 tags:
-  - "operator"
-  - "entrepreneurship"
-  - "abundance"
-  - "strategy"
-portable_source: "skills-portable/abundance-native-ventures/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- entrepreneurship
+- abundance
+- strategy
+portable_source: skills-portable/abundance-native-ventures/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Abundance-Native Ventures
 

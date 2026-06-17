@@ -1,16 +1,16 @@
 ---
-name: "wire-verify"
-preferred_activation: "wire verify"
-description: "Triage wire- and desk-reported facts in ingests and briefs before synthesis: extract media hooks, fence interpretation, score developing-story claims (supported/contradicted/unclear/contested), optional verify receipts. Triggers: wire verify, verify wires, verify tier, strategy + verify on breaking seams. Complements fact-check."
+name: wire-verify
+preferred_activation: wire verify
+description: 'Triage wire- and desk-reported facts in ingests and briefs before synthesis: extract media hooks, fence interpretation, score developing-story claims (supported/contradicted/unclear/contested), optional verify receipts. Triggers: wire verify, verify wires, verify tier, strategy + verify on breaking seams. Complements fact-check.'
 portable: true
-version: "1.5.1"
+version: 1.5.1
 tags:
-  - "verification"
-  - "statecraft"
-  - "strategy"
-  - "provenance"
-portable_source: "skills-portable/wire-verify/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- verification
+- statecraft
+- strategy
+- provenance
+portable_source: skills-portable/wire-verify/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Wire verify
 

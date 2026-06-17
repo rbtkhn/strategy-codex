@@ -1,17 +1,17 @@
 ---
-name: "check-streams"
-preferred_activation: "check streams"
-description: "Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris. Use for daily or bounded roster discovery, operator selection, clip filtering, and handoff of approved watch URLs to transcript materialization. Do not use for one-off YouTube URL capture, archive family filing, or month-slice deepening unless the operator explicitly wants the roster layer first."
+name: check-streams
+preferred_activation: check streams
+description: Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris. Use for daily or bounded roster discovery, operator selection, clip filtering, and handoff of approved watch URLs to transcript materialization. Do not use for one-off YouTube URL capture, archive family filing, or month-slice deepening unless the operator explicitly wants the roster layer first.
 portable: true
-version: "0.3.0"
+version: 0.3.0
 tags:
-  - "operator"
-  - "strategy"
-  - "raw-input"
-  - "youtube"
-  - "daily"
-portable_source: "skills-portable/check-streams/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- strategy
+- raw-input
+- youtube
+- daily
+portable_source: skills-portable/check-streams/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Check streams
 

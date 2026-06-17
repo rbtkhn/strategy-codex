@@ -1,17 +1,17 @@
 ---
-name: "statecraft-intelligence-essay"
-preferred_activation: "statecraft intelligence essay"
-description: "Write synthetic singularity-statecraft intelligence essays from archive-grounded statecraft material without visible speaker-shelf scaffolding in the prose. Use for paired essays, actor-perception essays, and strategic-historical interpretation surfaces where the archive remains substrate rather than the visible frame."
+name: statecraft-intelligence-essay
+preferred_activation: statecraft intelligence essay
+description: Write synthetic singularity-statecraft intelligence essays from archive-grounded statecraft material without visible speaker-shelf scaffolding in the prose. Use for paired essays, actor-perception essays, and strategic-historical interpretation surfaces where the archive remains substrate rather than the visible frame.
 portable: true
-version: "0.1.0"
+version: 0.1.0
 tags:
-  - "operator"
-  - "statecraft"
-  - "essay"
-  - "intelligence"
-  - "synthesis"
-portable_source: "skills-portable/statecraft-intelligence-essay/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- statecraft
+- essay
+- intelligence
+- synthesis
+portable_source: skills-portable/statecraft-intelligence-essay/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Statecraft intelligence essay
 

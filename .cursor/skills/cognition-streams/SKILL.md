@@ -1,18 +1,18 @@
 ---
-name: "cognition-streams"
-preferred_activation: "cognition streams"
-description: "Legacy alias for check-streams. Use when the operator says cognition streams, daily streams, main streams, or asks for the Davis, Diesen, Dialogue Works, and Mercouris daily YouTube roster with speaker-folder routing."
+name: cognition-streams
+preferred_activation: cognition streams
+description: Legacy alias for check-streams. Use when the operator says cognition streams, daily streams, main streams, or asks for the Davis, Diesen, Dialogue Works, and Mercouris daily YouTube roster with speaker-folder routing.
 portable: true
-version: "0.2.0"
+version: 0.2.0
 tags:
-  - "operator"
-  - "strategy"
-  - "raw-input"
-  - "youtube"
-  - "daily"
-  - "legacy-alias"
-portable_source: "skills-portable/cognition-streams/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- strategy
+- raw-input
+- youtube
+- daily
+- legacy-alias
+portable_source: skills-portable/cognition-streams/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Cognition streams
 

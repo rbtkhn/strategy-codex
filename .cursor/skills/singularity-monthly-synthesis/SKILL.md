@@ -1,16 +1,16 @@
 ---
-name: "singularity-monthly-synthesis"
-description: "Deepen a dated singularity month into a synthesis-first monthly memo with actionable ideas, route decisions, and minimal typed support notes. Use when the operator wants an Innermost Loop or similar month scaffold generated, deepened, reviewed, or extended without sliding back into issue-by-issue commentary."
+name: singularity-monthly-synthesis
+description: Deepen a dated singularity month into a synthesis-first monthly memo with actionable ideas, route decisions, and minimal typed support notes. Use when the operator wants an Innermost Loop or similar month scaffold generated, deepened, reviewed, or extended without sliding back into issue-by-issue commentary.
 portable: true
-version: "0.1.0"
+version: 0.1.0
 tags:
-  - "operator"
-  - "singularity"
-  - "synthesis"
-  - "monthly"
-  - "longitudinal"
-portable_source: "skills-portable/singularity-monthly-synthesis/SKILL.md"
-synced_by: "sync_portable_skills.py"
+- operator
+- singularity
+- synthesis
+- monthly
+- longitudinal
+portable_source: skills-portable/singularity-monthly-synthesis/SKILL.md
+synced_by: sync_portable_skills.py
 ---
 # Singularity Monthly Synthesis
 
