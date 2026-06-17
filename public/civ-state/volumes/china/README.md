@@ -4,6 +4,8 @@
 
 China is a live lane-backed volume. Use it when the civilizational problem is order, continuity, mandate, anti-humiliation recovery, industrial rhythm, or long-horizon leverage.
 
+**Source-lattice:** [China source shelf](../../sources/china/README.md) · [Source-Lattice](../../sources/source-lattice.md)
+
 Read [Mandate of Heaven](introduction.md) for the volume entry. Strong civilization-state case: dynastic continuity whose mandate grammar survives rupture and culminates in the PRC as present carrier.
 
 Primary live lane: China statecraft lane

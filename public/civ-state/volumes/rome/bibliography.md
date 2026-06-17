@@ -12,19 +12,19 @@ Use it to retrieve Rome as a transformed continuity case:
 
 ## Primary Sources by Era
 
-- [Ancient primary sources](sources/primary/ancient.md)
-- [Medieval primary sources](sources/primary/medieval.md)
-- [Colonial primary sources](sources/primary/colonial.md)
-- [Industrial primary sources](sources/primary/industrial.md)
-- [Cybernetic primary sources](sources/primary/cybernetic.md)
+- [Ancient primary sources](../../sources/rome/primary/ancient.md)
+- [Medieval primary sources](../../sources/rome/primary/medieval.md)
+- [Colonial primary sources](../../sources/rome/primary/colonial.md)
+- [Industrial primary sources](../../sources/rome/primary/industrial.md)
+- [Cybernetic primary sources](../../sources/rome/primary/cybernetic.md)
 
 ## Secondary Sources by Era
 
-- [Ancient secondary sources](sources/secondary/ancient.md)
-- [Medieval secondary sources](sources/secondary/medieval.md)
-- [Colonial secondary sources](sources/secondary/colonial.md)
-- [Industrial secondary sources](sources/secondary/industrial.md)
-- [Cybernetic secondary sources](sources/secondary/cybernetic.md)
+- [Ancient secondary sources](../../sources/rome/secondary/ancient.md)
+- [Medieval secondary sources](../../sources/rome/secondary/medieval.md)
+- [Colonial secondary sources](../../sources/rome/secondary/colonial.md)
+- [Industrial secondary sources](../../sources/rome/secondary/industrial.md)
+- [Cybernetic secondary sources](../../sources/rome/secondary/cybernetic.md)
 
 ## Secondary and Interpretive Supports
 

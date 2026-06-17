@@ -39,7 +39,7 @@ See [Reader Guide](reader-guide.md#names-and-titles) and [Glossary](glossary.md)
 1. [Civilization and Empire](introduction.md)
 2. [Table of Contents](table-of-contents.md)
 3. [Reader Guide](reader-guide.md)
-4. [Source-Lattice](source-lattice.md) — how to read shelves before synthesis
+4. [Sources](sources/README.md) — source-lattice and era shelves
 5. [Volume Map](volumes/README.md)
 
 ## Reading order

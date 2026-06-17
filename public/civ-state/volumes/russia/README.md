@@ -4,6 +4,8 @@
 
 Russia is a live lane-backed volume. Use it when the problem is strategic depth, recognition, sovereignty under encirclement pressure, imperial inheritance, or disruption without overbind.
 
+**Source-lattice:** [Russia source shelf](../../sources/russia/README.md) · [Source-Lattice](../../sources/source-lattice.md)
+
 Read [The Third Rome](introduction.md) for the volume entry. Sovereignty chain from Rurik through regathering after recurrent fracture — not uninterrupted institutional calm.
 
 Primary live lane: Russia statecraft lane

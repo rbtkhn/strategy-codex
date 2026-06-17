@@ -4,17 +4,17 @@ This is the working volume bibliography for the Russia book. Its center of gravi
 
 ## Primary Sources by Era
 
-- [Medieval primary sources](sources/primary/medieval.md)
-- [Colonial primary sources](sources/primary/colonial.md)
-- [Industrial primary sources](sources/primary/industrial.md)
-- [Cybernetic primary sources](sources/primary/cybernetic.md)
+- [Medieval primary sources](../../sources/russia/primary/medieval.md)
+- [Colonial primary sources](../../sources/russia/primary/colonial.md)
+- [Industrial primary sources](../../sources/russia/primary/industrial.md)
+- [Cybernetic primary sources](../../sources/russia/primary/cybernetic.md)
 
 ## Secondary Sources by Era
 
-- [Medieval secondary sources](sources/secondary/medieval.md)
-- [Colonial secondary sources](sources/secondary/colonial.md)
-- [Industrial secondary sources](sources/secondary/industrial.md)
-- [Cybernetic secondary sources](sources/secondary/cybernetic.md)
+- [Medieval secondary sources](../../sources/russia/secondary/medieval.md)
+- [Colonial secondary sources](../../sources/russia/secondary/colonial.md)
+- [Industrial secondary sources](../../sources/russia/secondary/industrial.md)
+- [Cybernetic secondary sources](../../sources/russia/secondary/cybernetic.md)
 
 ## Secondary and Interpretive Supports
 

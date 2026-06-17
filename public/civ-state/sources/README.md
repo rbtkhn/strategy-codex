@@ -1,9 +1,27 @@
 # Sources
 
-Whole-work source registry and canonical captures for *Civilizational Statecraft*.
+Whole-work **source-lattice** for *Civilizational Statecraft* — evidence layer SSOT.
 
-Each volume owns era-matched shelves under `volumes/{civ}/sources/primary/` and `sources/secondary/` (see [Source-Lattice](../source-lattice.md)). This folder holds cross-volume source material that does not belong to a single civilization case.
+Governing law: [Source-Lattice](source-lattice.md).
 
-## Start here
+Each civilization-state case owns era-matched shelves under `sources/{civ}/primary/` and `sources/{civ}/secondary/`. Volume folders (`volumes/{civ}/`) hold interpretive doors — README, shelf-reader, bibliography, essays — and **link here** for source retrieval.
 
-- *(entries land here as the public sources shelf matures)*
+## Civilization-state source shelves
+
+Read in sovereignty-chain order:
+
+1. [China](china/README.md) — Volume I
+2. [Persia](persia/README.md) — Volume II
+3. [Rome](rome/README.md) — Volume III (preview)
+4. [Russia](russia/README.md) — Volume IV
+5. [America](america/README.md) — Volume V
+
+## Cross-volume registry
+
+- *(additional whole-work captures land here when they do not belong to a single civ case)*
+
+## Return paths
+
+- [Volume map](../volumes/README.md)
+- [Reader Guide](../reader-guide.md)
+- [Theory shelf](../theory/README.md)

@@ -4,7 +4,7 @@
 
 **Repository:** [rbtkhn/civ-state](https://github.com/rbtkhn/civ-state)  
 **Reader title:** Civilizational Statecraft  
-**Release:** v0.1.12
+**Release:** v0.1.13
 
 ## Publisher
 
@@ -29,10 +29,21 @@ Whole-work theory SSOT: **`theory/`** in this repository.
 | `theory/patterns/*` | Same essay; operator archive in the upstream workshop |
 | governing term **desire** | **entropy** (behavioral overreach in `theory/entropy.md`) |
 
+## v0.1.13 — sources shelf consolidation
+
+Whole-work sources SSOT: **`sources/`** in this repository.
+
+| Retired path | Replacement |
+|--------------|-------------|
+| `source-lattice.md` (repo root) | `sources/source-lattice.md` |
+| `volumes/{civ}/sources/primary\|secondary/` | `sources/{civ}/primary\|secondary/` |
+| Volume-owned evidence paths | Volume doors link up to `sources/{civ}/` |
+
 ## Workshop rule
 
 - **Ship-bound theory prose:** edit **`public/civ-state/theory/`** only.
-- **Workshop** `statecraft/states/` — analysis, promotion residue, operator archive — not dual SSOT for public theory.
+- **Ship-bound source shelves:** edit **`public/civ-state/sources/`** only.
+- **Workshop** `statecraft/states/` — analysis, promotion residue, operator archive — not dual SSOT for public ship-bound prose.
 - **Publish** to [rbtkhn/civ-state](https://github.com/rbtkhn/civ-state) from workspace commits on `public/civ-state/`.
 
 ## Export

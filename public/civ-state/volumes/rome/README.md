@@ -4,6 +4,8 @@
 
 Rome is currently a source-memory volume rather than a full repo-root lane peer. Use it when the live object needs Roman republic/empire formation, late-imperial breakdown, Christian and Eastern Roman continuity, papal residue, or successor-order comparison.
 
+**Source-lattice:** [Rome source shelf](../../sources/rome/README.md) · [Source-Lattice](../../sources/source-lattice.md)
+
 Read [Pax Romana](introduction.md) for the volume entry. Transformed continuity case: sovereignty through republic, empire, Eastern Roman bridge, and Catholic residue — not one uninterrupted territorial state.
 
 Primary source base: Rome source corpus

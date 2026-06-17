@@ -123,7 +123,7 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 12. [Hybrid References](hybrid-references.md)
 13. [Cross-case recurrence essay](essays/cross-case-recurrence-and-sovereignty.md)
 14. [Index](index.md)
-15. [Source-Lattice](source-lattice.md)
+15. [Sources](sources/README.md) · [Source-Lattice](sources/source-lattice.md)
 
 ## Retrieval Order
 
@@ -135,7 +135,7 @@ Use the whole-work apparatus in this order when the operator does not yet know w
 4. the relevant volume introduction and `README.md`
 5. the relevant `Civilization` → `Empire` sequence
 . the relevant volume [sacred-grammar.md](reader-guide.md#sacred-grammar-volume-local) when legitimacy governs
-7. [Source-Lattice](source-lattice.md) when the volume front door alone is too broad
+7. [Source-Lattice](sources/source-lattice.md) when the volume front door alone is too broad
 
 ## Door Reminder
 

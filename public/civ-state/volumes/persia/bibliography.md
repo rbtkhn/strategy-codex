@@ -4,19 +4,19 @@ This is the working volume bibliography for the Persia book. Its center of gravi
 
 ## Primary Sources by Era
 
-- [Ancient primary sources](sources/primary/ancient.md)
-- [Medieval primary sources](sources/primary/medieval.md)
-- [Colonial primary sources](sources/primary/colonial.md)
-- [Industrial primary sources](sources/primary/industrial.md)
-- [Cybernetic primary sources](sources/primary/cybernetic.md)
+- [Ancient primary sources](../../sources/persia/primary/ancient.md)
+- [Medieval primary sources](../../sources/persia/primary/medieval.md)
+- [Colonial primary sources](../../sources/persia/primary/colonial.md)
+- [Industrial primary sources](../../sources/persia/primary/industrial.md)
+- [Cybernetic primary sources](../../sources/persia/primary/cybernetic.md)
 
 ## Secondary Sources by Era
 
-- [Ancient secondary sources](sources/secondary/ancient.md)
-- [Medieval secondary sources](sources/secondary/medieval.md)
-- [Colonial secondary sources](sources/secondary/colonial.md)
-- [Industrial secondary sources](sources/secondary/industrial.md)
-- [Cybernetic secondary sources](sources/secondary/cybernetic.md)
+- [Ancient secondary sources](../../sources/persia/secondary/ancient.md)
+- [Medieval secondary sources](../../sources/persia/secondary/medieval.md)
+- [Colonial secondary sources](../../sources/persia/secondary/colonial.md)
+- [Industrial secondary sources](../../sources/persia/secondary/industrial.md)
+- [Cybernetic secondary sources](../../sources/persia/secondary/cybernetic.md)
 
 ## Secondary and Interpretive Supports
 

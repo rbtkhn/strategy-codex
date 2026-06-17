@@ -9,9 +9,9 @@
 
 ## Source Support Block
 
-- `primary_anchor`: [Persia cybernetic primary sources](../volumes/persia/sources/primary/cybernetic.md)
+- `primary_anchor`: [Persia cybernetic primary sources](../sources/persia/primary/cybernetic.md)
 - `secondary_support_role`: `institutional_context`, `counterweight`, `misreading_correction`
-- `secondary_support_work`: [Persia cybernetic secondary sources](../volumes/persia/sources/secondary/cybernetic.md)
+- `secondary_support_work`: [Persia cybernetic secondary sources](../sources/persia/secondary/cybernetic.md)
 - `counterweight_used`: chokepoint leverage must remain recognizable as sovereign regulation and restraint rather than degrade into reusable disruption theater
 - `failure_mode_checked`: restoration-through-pressure consuming its own bargaining asset through overuse of Hormuz leverage
 - `current_carrier_relation`: Iranian state institutions bear the pattern through foreign ministry, security council, IRGC-maritime capacity, port administration, and sanctions-era bargaining channels

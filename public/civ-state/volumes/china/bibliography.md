@@ -4,19 +4,19 @@ This is the working volume bibliography for the China book. Its center of gravit
 
 ## Primary Sources by Era
 
-- [Ancient primary sources](sources/primary/ancient.md)
-- [Medieval primary sources](sources/primary/medieval.md)
-- [Colonial primary sources](sources/primary/colonial.md)
-- [Industrial primary sources](sources/primary/industrial.md)
-- [Cybernetic primary sources](sources/primary/cybernetic.md)
+- [Ancient primary sources](../../sources/china/primary/ancient.md)
+- [Medieval primary sources](../../sources/china/primary/medieval.md)
+- [Colonial primary sources](../../sources/china/primary/colonial.md)
+- [Industrial primary sources](../../sources/china/primary/industrial.md)
+- [Cybernetic primary sources](../../sources/china/primary/cybernetic.md)
 
 ## Secondary Sources by Era
 
-- [Ancient secondary sources](sources/secondary/ancient.md)
-- [Medieval secondary sources](sources/secondary/medieval.md)
-- [Colonial secondary sources](sources/secondary/colonial.md)
-- [Industrial secondary sources](sources/secondary/industrial.md)
-- [Cybernetic secondary sources](sources/secondary/cybernetic.md)
+- [Ancient secondary sources](../../sources/china/secondary/ancient.md)
+- [Medieval secondary sources](../../sources/china/secondary/medieval.md)
+- [Colonial secondary sources](../../sources/china/secondary/colonial.md)
+- [Industrial secondary sources](../../sources/china/secondary/industrial.md)
+- [Cybernetic secondary sources](../../sources/china/secondary/cybernetic.md)
 
 ## Secondary and Interpretive Supports
 

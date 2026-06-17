@@ -158,4 +158,4 @@ The Russian continuity claim that Moscow inherits the sacred and civilizational 
 
 This glossary is a book-native CIV-STATE surface.
 
-Its visible prose should stay compact and operator-legible. Its stronger upstream evidence belongs primarily in [Hybrid References](hybrid-references.md), with retrieval discipline reinforced by the index and source-lattice.md) and Source Retrieval Matrix.
+Its visible prose should stay compact and operator-legible. Its stronger upstream evidence belongs primarily in [Hybrid References](hybrid-references.md), with retrieval discipline reinforced by the index and [source-lattice](sources/source-lattice.md).

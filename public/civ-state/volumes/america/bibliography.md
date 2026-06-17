@@ -4,17 +4,17 @@ This is the working volume bibliography for the America book. Its center of grav
 
 ## Primary Sources by Era
 
-- [Medieval (50 total) primary sources](sources/primary/medieval.md)
-- [Colonial (50 total) primary sources](sources/primary/colonial.md)
-- [Industrial (50 total) primary sources](sources/primary/industrial.md)
-- [Cybernetic (25 total) primary sources](sources/primary/cybernetic.md)
+- [Medieval (50 total) primary sources](../../sources/america/primary/medieval.md)
+- [Colonial (50 total) primary sources](../../sources/america/primary/colonial.md)
+- [Industrial (50 total) primary sources](../../sources/america/primary/industrial.md)
+- [Cybernetic (25 total) primary sources](../../sources/america/primary/cybernetic.md)
 
 ## Secondary Sources by Era
 
-- [Medieval secondary sources](sources/secondary/medieval.md)
-- [Colonial secondary sources](sources/secondary/colonial.md)
-- [Industrial secondary sources](sources/secondary/industrial.md)
-- [Cybernetic secondary sources](sources/secondary/cybernetic.md)
+- [Medieval secondary sources](../../sources/america/secondary/medieval.md)
+- [Colonial secondary sources](../../sources/america/secondary/colonial.md)
+- [Industrial secondary sources](../../sources/america/secondary/industrial.md)
+- [Cybernetic secondary sources](../../sources/america/secondary/cybernetic.md)
 
 ## Secondary and Interpretive Supports
 
