@@ -136,16 +136,14 @@ Whole-work reader apparatus and reference contracts — [Docs index](README.md).
 
 ### Theory shelf
 
-[Governing terms and law](../theory/README.md) — open the load-bearing term first.
+[Governing terms](../theory/README.md) — six terms; rhythm and era law on [Memory](../theory/memory.md).
 
-13. [Rhythm](../theory/rhythm.md)
-14. [Civilization](../theory/civilization.md)
-15. [Empire](../theory/empire.md)
-16. [Entropy](../theory/entropy.md)
-17. [Faith](../theory/faith.md)
-18. [Science](../theory/science.md)
-19. [Memory](../theory/memory.md)
-20. [Time](../theory/time.md)
+13. [Civilization](../theory/civilization.md)
+14. [Empire](../theory/empire.md)
+15. [Entropy](../theory/entropy.md)
+16. [Faith](../theory/faith.md)
+17. [Science](../theory/science.md)
+18. [Memory](../theory/memory.md) — continuity, [civilizational rhythm](../theory/memory.md#civilizational-rhythm), [era law](../theory/memory.md#era-law)
 
 ### Sources shelf
 
@@ -153,13 +151,13 @@ Evidence layer — [Sources index](../sources/README.md) · [Source-Lattice](../
 
 ### Essays
 
-21. [Cross-case recurrence and sovereignty](../essays/cross-case-recurrence-and-sovereignty.md)
-22. [High-skill labor compression](../essays/high-skill-labor-compression-and-civilizational-statecraft.md)
-23. [Hormuz recognition / transit restraint](../essays/hormuz-recognition-transit-restraint.md)
+19. [Cross-case recurrence and sovereignty](../essays/cross-case-recurrence-and-sovereignty.md)
+20. [High-skill labor compression](../essays/high-skill-labor-compression-and-civilizational-statecraft.md)
+21. [Hormuz recognition / transit restraint](../essays/hormuz-recognition-transit-restraint.md)
 
 ### Volume map
 
-24. [Volume Map](../volumes/README.md) — constitutional order across all five cases
+22. [Volume Map](../volumes/README.md) — constitutional order across all five cases
 
 ## Retrieval Order
 

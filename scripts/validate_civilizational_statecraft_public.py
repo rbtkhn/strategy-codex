@@ -68,8 +68,6 @@ REQUIRED_THEORY = [
     "theory/faith.md",
     "theory/science.md",
     "theory/memory.md",
-    "theory/rhythm.md",
-    "theory/time.md",
 ]
 
 STRICT_THEORY_TERMS = [
@@ -79,8 +77,6 @@ STRICT_THEORY_TERMS = [
     "theory/faith.md",
     "theory/science.md",
     "theory/memory.md",
-    "theory/rhythm.md",
-    "theory/time.md",
 ]
 
 STRICT_THEORY_HEADING = "## Causal connections"

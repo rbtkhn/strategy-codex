@@ -2,7 +2,7 @@
 
 Shared chronology anchors for source shelves and era-matched reading in *Civilizational Statecraft*.
 
-Era **law** (how eras govern retrieval) lives on [Time](../theory/time.md). This page is the **spine table** and per-volume coverage notes.
+Era **law** (how eras govern retrieval) lives on [Memory — era law](../theory/memory.md#era-law). This page is the **spine table** and per-volume coverage notes.
 
 ## Shared era table
 
@@ -31,7 +31,7 @@ Anchors are **reading boundaries**, not claims that every civilization "begins" 
 ## How to use the spine
 
 1. **Inside one case:** Open `sources/{civ}/bibliography.md`, then the era file that matches the live object (`sources/{civ}/primary/{era}.md`).
-2. **Cross-era pressure:** When the object spans a boundary (e.g. Industrial → Cybernetic), read [Time](../theory/time.md) before stacking era files.
+2. **Cross-era pressure:** When the object spans a boundary (e.g. Industrial → Cybernetic), read [Memory — era law](../theory/memory.md#era-law) before stacking era files.
 3. **Cross-volume comparison:** Use the same era label across cases only after each case's shelf is open — analogies across eras still require case-specific legitimacy reads.
 
 ## File naming
@@ -53,4 +53,4 @@ Matching secondary files live under `sources/{civ}/secondary/` when present.
 - [Source-Lattice](../sources/source-lattice.md)
 - [Sources index](../sources/README.md)
 - [Volume Map](../volumes/README.md)
-- [Time](../theory/time.md)
+- [Memory — era law](../theory/memory.md#era-law)

@@ -7,7 +7,7 @@ Last updated: 2026-06-15
 
 **Ship-bound theory SSOT:** [`public/civ-state/theory/`](../../public/civ-state/theory/README.md) — edit theory prose there, not in this workshop tree.
 
-**v0.1.15 alignment:** entropy = historical shocks only; retired **desire** / overreach → **empire**; form/instrument divergence → civilization · empire · rhythm.
+**v0.1.16 alignment:** rhythm and era law on **memory** only; six-file theory shelf. **v0.1.15:** entropy = historical shocks; desire/overreach → empire.
 
 ## When to use
 
@@ -23,10 +23,8 @@ Do not use when the object is still unverified live news — route through `stat
 | empire | [empire.md](../../public/civ-state/theory/empire.md) |
 | faith | [faith.md](../../public/civ-state/theory/faith.md) |
 | science | [science.md](../../public/civ-state/theory/science.md) |
-| memory | [memory.md](../../public/civ-state/theory/memory.md) |
+| memory | [memory.md](../../public/civ-state/theory/memory.md) — includes [#civilizational-rhythm](../../public/civ-state/theory/memory.md#civilizational-rhythm) and [#era-law](../../public/civ-state/theory/memory.md#era-law) |
 | entropy | [entropy.md](../../public/civ-state/theory/entropy.md) |
-
-**Motion and era law** (placement, not governing-term peers): [rhythm.md](../../public/civ-state/theory/rhythm.md) · [time.md](../../public/civ-state/theory/time.md)
 
 ## Pass order
 
@@ -34,7 +32,7 @@ Do not use when the object is still unverified live news — route through `stat
 2. **Empire** — outward instrument, amplification, coercion stack; spectacle and overreach  
 3. **Faith** — sacred, moral, covenantal truth-order  
 4. **Science** — technical, procedural, evidentiary truth-order  
-5. **Memory** — continuity, wound, retrieval entry  
+5. **Memory** — continuity, wound, civilizational rhythm, era law, retrieval entry  
 6. **Entropy** — historical causes and manifestations of civilizational degradation (war, revolution, disease, famine, ecological disaster, compound shocks)  
 7. **Integration** — name governing term + likely misread + failure layer  
 8. **Return path** — route to Sacred Grammar, lane surfaces, or comparative essay
@@ -61,8 +59,8 @@ Answer:
 | empire | [empire.md](../../public/civ-state/theory/empire.md) → source-lattice · empire/state/helix · transaction router |
 | faith | [faith.md](../../public/civ-state/theory/faith.md) → Sacred grammar · god/lit |
 | science | [science.md](../../public/civ-state/theory/science.md) → procedural · verification · implementation |
-| memory | [memory.md](../../public/civ-state/theory/memory.md) → state-memory · continuity-sensitive notes |
-| entropy | [entropy.md](../../public/civ-state/theory/entropy.md) → shock typology · rhythm degrades beat · era/sources · [cross-case essay](../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md) |
+| memory | [memory.md](../../public/civ-state/theory/memory.md) → state-memory · `#civilizational-rhythm` · `#era-law` |
+| entropy | [entropy.md](../../public/civ-state/theory/entropy.md) → shock typology · memory rhythm section · era/sources · [cross-case essay](../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md) |
 
 ## Quick version
 

@@ -1,7 +1,7 @@
 # Civilizational Statecraft public export manifest (WORK; not Record)
 # SSOT for scripts/export_civilizational_statecraft_public.py
 schema_version: "1.0.0"
-release_tag: "v0.1.15"
+release_tag: "v0.1.16"
 # Ship-bound theory SSOT: public/civ-state/theory/ — edit there for reader-facing theory prose.
 # Ship-bound sources SSOT: public/civ-state/sources/ — source-lattice + per-civ era shelves.
 # source_root is workshop promotion residue only; not the daily edit surface.

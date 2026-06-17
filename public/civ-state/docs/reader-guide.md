@@ -22,7 +22,7 @@ Do not collapse these layers:
 | **Civilizational Statecraft** | Book title (public reader-facing name) |
 | **Civilization and Empire** | Whole-work opening essay ([introduction.md](introduction.md)) — not the book title |
 | **Volume introduction** | Each volume's thematic essay (e.g. Mandate of Heaven) — not the whole-work essay |
-| **Civilizational motion** | Recurrent three-beat rhythm ([theory/rhythm.md](../theory/rhythm.md)) — beautify, amplify, degrade; not the book title |
+| **Civilizational motion** | Recurrent three-beat rhythm ([memory — civilizational rhythm](../theory/memory.md#civilizational-rhythm)) — beautify, amplify, degrade; not the book title |
 | **civ-state** | Workshop folder and GitHub repo slug — source-memory substrate, not a reader title |
 
 Within each volume, read **volume introduction → Civilization chapter → Empire chapter**. The whole work begins with **Civilization and Empire**, then this Reader Guide, then the volume map.
@@ -48,7 +48,7 @@ Begin with [Civilization and Empire](introduction.md) for the whole-book thesis,
 Then choose between two entry modes:
 
 - civilization-first entry through [Volume Map](../volumes/README.md)
-- governing-layer entry through the [theory shelf](../theory/README.md) — [Civilization](../theory/civilization.md) · [Empire](../theory/empire.md) · [Entropy](../theory/entropy.md) · [Faith](../theory/faith.md) · [Science](../theory/science.md) · [Memory](../theory/memory.md); for rhythm placement, [Rhythm](../theory/rhythm.md)
+- governing-layer entry through the [theory shelf](../theory/README.md) — [Civilization](../theory/civilization.md) · [Empire](../theory/empire.md) · [Entropy](../theory/entropy.md) · [Faith](../theory/faith.md) · [Science](../theory/science.md) · [Memory](../theory/memory.md) (includes [civilizational rhythm](../theory/memory.md#civilizational-rhythm) and [era law](../theory/memory.md#era-law))
 
 Choose civilization-first when the real question is:
 
@@ -62,7 +62,7 @@ Choose governing-layer entry when the real question is:
 - whether legitimacy, expertise, memory, or entropy (historical shock — war, revolution, famine, plague, ecological rupture) is distorting the read
 - whether the object still needs retrieval discipline before lane drafting
 
-When chronology or shelf choice matters within that mode, read [Time](../theory/time.md) (era law) before opening era files inside a volume.
+When chronology or shelf choice matters within that mode, read [Memory — era law](../theory/memory.md#era-law) before opening era files inside a volume.
 
 ## How To Read One Civilization Volume
 
@@ -173,7 +173,7 @@ Use it to:
 Then return downstream to:
 
 - lane civilization / empire / state surfaces
-- [Rhythm](../theory/rhythm.md) when phase placement governs
+- [Memory — civilizational rhythm](../theory/memory.md#civilizational-rhythm) when phase placement governs
 - transactions
 
 Do not try to spend the whole work directly when a narrower lane object now governs.

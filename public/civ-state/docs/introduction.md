@@ -18,7 +18,7 @@ History repeats a recognizable rhythm. Civilization beautifies: inherited form c
 civilization beautifies → empire amplifies → entropy degrades
 ```
 
-Statesmen must see this rhythm before they act. Degradation is not generic disorder or routine policy friction. It names load-bearing **historical causes and manifestations** of civilizational breakdown. Deep grammar: [Rhythm](../theory/rhythm.md) · [Entropy](../theory/entropy.md).
+Statesmen must see this rhythm before they act. Degradation is not generic disorder or routine policy friction. It names load-bearing **historical causes and manifestations** of civilizational breakdown. Deep grammar: [Memory — civilizational rhythm](../theory/memory.md#civilizational-rhythm) · [Entropy](../theory/entropy.md).
 
 ## Five volumes
 

@@ -14,7 +14,7 @@ Name the **load-bearing governing term** before opening volume prose, era shelve
 Open **one** governing term page first — not all six.
 
 ```text
-governing term → (optional) rhythm or time → volume or sources
+governing term → (optional) memory rhythm or era section → volume or sources
 ```
 
 Six **governing terms** (whole-work SSOT: [theory/](../theory/README.md)):
@@ -26,9 +26,9 @@ Six **governing terms** (whole-work SSOT: [theory/](../theory/README.md)):
 | [entropy](../theory/entropy.md) | war, revolution, disease, famine, ecological disaster, or compound historical shock |
 | [faith](../theory/faith.md) | sacred, moral, covenantal truth-order |
 | [science](../theory/science.md) | procedural, evidentiary truth-order |
-| [memory](../theory/memory.md) | continuity, wound, retrieval entry |
+| [memory](../theory/memory.md) | continuity, wound, civilizational rhythm, era law, retrieval entry |
 
-**Law pages** (not governing-term peers): [Rhythm](../theory/rhythm.md) (motion) · [Time](../theory/time.md) (era placement).
+**Temporal grammar** (sections on [memory](../theory/memory.md), not separate pages): [Civilizational rhythm](../theory/memory.md#civilizational-rhythm) · [Era law](../theory/memory.md#era-law).
 
 ## Steps
 
@@ -44,9 +44,9 @@ Six **governing terms** (whole-work SSOT: [theory/](../theory/README.md)):
 
 3. **Open that term page** in [theory/](../theory/README.md). Read its **Causal connections** section before widening.
 
-4. **Place motion or era** when they govern the read:
-   - motion unclear → [Rhythm](../theory/rhythm.md)
-   - era boundary or shelf choice unclear → [Time](../theory/time.md)
+4. **Place motion or era** when they govern the read (open [memory](../theory/memory.md) sections — not a separate governing pick):
+   - motion unclear → [Civilizational rhythm](../theory/memory.md#civilizational-rhythm)
+   - era boundary or shelf choice unclear → [Era law](../theory/memory.md#era-law)
 
 5. **Name the likely misread** — which layer gets flattened (legitimacy treated as force, instrument treated as inheritance, etc.).
 
@@ -65,3 +65,4 @@ Six **governing terms** (whole-work SSOT: [theory/](../theory/README.md)):
 - Open comparative essays before one case grammar is clear
 - Treat `god` / `lit` / `art` / `geo` / `war` / `peace` families as rival ontology — they are downstream retrieval surfaces
 - Use retired **desire** as a governing term — appetite and overreach → [empire](../theory/empire.md)
+- Force **memory** as governing term when only phase or era shelf routing is needed — open memory **sections** after another term wins

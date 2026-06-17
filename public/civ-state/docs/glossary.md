@@ -16,11 +16,11 @@ The **whole-work opening essay** ([introduction.md](introduction.md)) — civili
 
 ### Civilizational motion
 
-The recurrent three-beat rhythm — civilization beautifies, empire amplifies, entropy degrades — plus the retrieval movement memory → legitimacy → carrier → pressure → settlement. Canonical framework page: [theory/rhythm.md](../theory/rhythm.md) (shelf label **Rhythm**). Distinct from paired-civilization **double-helix** analysis in external memory corpora.
+The recurrent three-beat rhythm — civilization beautifies, empire amplifies, entropy degrades — plus the retrieval movement memory → legitimacy → carrier → pressure → settlement. Canonical section: [theory/memory.md — Civilizational rhythm](../theory/memory.md#civilizational-rhythm). Distinct from paired-civilization **double-helix** analysis in external memory corpora.
 
 ### Civilizational Statecraft Framework
 
-The governing frame — **six terms** (civilization, empire, entropy, faith, science, memory) plus **two law pages** (Rhythm, Time) on the [theory shelf](../theory/README.md). Diagnostic retrieval grammar, not prescriptive command doctrine. **Desire** is retired; overreach → [empire](../theory/empire.md).
+The governing frame — **six terms** (civilization, empire, entropy, faith, science, memory) on the [theory shelf](../theory/README.md). Rhythm and era law live on [memory](../theory/memory.md). Diagnostic retrieval grammar, not prescriptive command doctrine. **Desire** is retired; overreach → [empire](../theory/empire.md).
 
 ### Civilization (governing term)
 
@@ -44,11 +44,11 @@ Procedural and evidentiary truth-order. Canonical page: [theory/science.md](../t
 
 ### Memory (governing term)
 
-Continuity-bearing inheritance and retrieval entry. Canonical page: [theory/memory.md](../theory/memory.md). Distinct from lane **`state-memory`** surfaces and from the retrieval-sequence step also named memory.
+Continuity-bearing inheritance, civilizational rhythm, era law, and retrieval entry. Canonical page: [theory/memory.md](../theory/memory.md). Distinct from lane **`state-memory`** surfaces and from the retrieval-sequence step also named memory.
 
 ### Era law
 
-The shared form-historical spine — Ancient → Medieval → Colonial → Industrial → Cybernetic — with the post-`1991` **Industrial / Cybernetic** boundary load-bearing for bibliography retrieval. Canonical page: [theory/time.md](../theory/time.md) (shelf label **Time**).
+The shared form-historical spine — Ancient → Medieval → Colonial → Industrial → Cybernetic — with the post-`1991` **Industrial / Cybernetic** boundary load-bearing for bibliography retrieval. Canonical section: [theory/memory.md — Era law](../theory/memory.md#era-law). Per-volume tables: [era-spine.md](era-spine.md).
 
 ### civ-state
 

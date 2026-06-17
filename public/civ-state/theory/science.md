@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: govern reads where technical, procedural, expert, managerial, or evidentiary authorization is load-bearing  
-Last updated: 2026-06-17
+Last updated: 2026-06-15
 
 ## Why this term
 
@@ -29,11 +29,11 @@ Ask first:
 
 ### Empire
 
-[Empire](empire.md) in the [Cybernetic era](time.md) often runs on science-order — sanctions architecture, deterrence geometry, platform authority, supply-chain command, identity rails.
+[Empire](empire.md) in the [Cybernetic era](memory.md#era-law) often runs on science-order — sanctions architecture, deterrence geometry, platform authority, supply-chain command, identity rails.
 
-### Time
+### Memory
 
-Post-`1991` **Cybernetic** era law ([Time](time.md)) is science-heavy in form: system-administered order rather than industrial mass mobilization alone.
+Post-`1991` **Cybernetic** [era law](memory.md#era-law) is science-heavy in form: system-administered order rather than industrial mass mobilization alone.
 
 ## Failure modes
 
@@ -46,7 +46,7 @@ Return to:
 
 - procedural, verification, and governance surfaces
 - [Empire](empire.md) when command form governs
-- [Time](time.md) when Cybernetic era placement matters
+- [Memory — era law](memory.md#era-law) when Cybernetic era placement matters
 - [Faith](faith.md) when hybrid authorization must be separated
 
 ## Operational use
@@ -58,7 +58,7 @@ Use this page when:
 
 ## See also
 
-- [Faith](faith.md) · [Empire](empire.md) · [Time](time.md)
+- [Faith](faith.md) · [Empire](empire.md) · [Memory](memory.md)
 - [Theory shelf](README.md)
 
 ## Bottom line

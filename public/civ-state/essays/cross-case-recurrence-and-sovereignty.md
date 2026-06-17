@@ -20,7 +20,7 @@ Name the load-bearing term on the theory shelf before comparing:
 - [Civilization](../theory/civilization.md) · [Empire](../theory/empire.md) · [Entropy](../theory/entropy.md)
 - [Faith](../theory/faith.md) · [Science](../theory/science.md) · [Memory](../theory/memory.md)
 
-Then [Rhythm](../theory/rhythm.md) for phase; [Time](../theory/time.md) for era.
+Then [Memory — civilizational rhythm](../theory/memory.md#civilizational-rhythm) for phase; [Memory — era law](../theory/memory.md#era-law) for era.
 
 ## Recurrence types (compressed)
 

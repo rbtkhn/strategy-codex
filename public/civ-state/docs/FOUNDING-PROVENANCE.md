@@ -4,7 +4,7 @@
 
 **Repository:** [rbtkhn/civ-state](https://github.com/rbtkhn/civ-state)  
 **Reader title:** Civilizational Statecraft  
-**Release:** v0.1.15
+**Release:** v0.1.16
 
 ## Publisher
 
@@ -36,10 +36,22 @@ Whole-work **entropy** governing term redefined as **historical causes and manif
 | Retired framing | Replacement |
 |-----------------|-------------|
 | structural entropy / behavioral entropy | Removed — not subordinate categories |
-| entropy as form/instrument divergence | [Civilization](../theory/civilization.md) · [Empire](../theory/empire.md) · [Rhythm](../theory/rhythm.md) |
+| entropy as form/instrument divergence | [Civilization](../theory/civilization.md) · [Empire](../theory/empire.md) · [Memory — civilizational rhythm](../theory/memory.md#civilizational-rhythm) |
 | desire → behavioral entropy | desire → [Empire](../theory/empire.md) |
 
 Ship-bound SSOT: [`theory/entropy.md`](../theory/entropy.md).
+
+## v0.1.16 — rhythm and time merged under memory
+
+Whole-work theory shelf reduced to **six files**. Rhythm and era law live on [`theory/memory.md`](../theory/memory.md).
+
+| Retired path | Replacement |
+|--------------|-------------|
+| `theory/rhythm.md` | [Memory — civilizational rhythm](../theory/memory.md#civilizational-rhythm) |
+| `theory/time.md` | [Memory — era law](../theory/memory.md#era-law) |
+| eight-file theory shelf (v0.1.12) | six governing term files only |
+
+Per-volume coverage tables remain on [Era spine](era-spine.md).
 
 ## v0.1.13 — sources shelf consolidation
 

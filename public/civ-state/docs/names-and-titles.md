@@ -11,7 +11,7 @@ Full reading doctrine lives in [Reader Guide](reader-guide.md). This page is a *
 | **Civilizational Statecraft** | Book title — the public reader-facing name for the whole work |
 | **Civilization and Empire** | Whole-work **opening essay** ([introduction.md](introduction.md)) — **not** the book title |
 | **Volume introduction** | Each volume's thematic essay (e.g. Mandate of Heaven, Order of Asha) — **not** the whole-work essay |
-| **Civilizational motion** | Recurrent three-beat rhythm ([theory/rhythm.md](../theory/rhythm.md)): beautify → amplify → degrade — **not** the book title |
+| **Civilizational motion** | Recurrent three-beat rhythm ([memory — civilizational rhythm](../theory/memory.md#civilizational-rhythm)): beautify → amplify → degrade — **not** the book title |
 | **civ-state** | GitHub repository slug and workshop folder name — source-memory substrate, **not** a reader title |
 
 ## Volume chapter families
@@ -32,8 +32,8 @@ Within each volume, chapter filenames follow a stable pattern:
 | Name | Role |
 |------|------|
 | **Governing term** | One of six: civilization, empire, entropy, faith, science, memory |
-| **Law page** | Rhythm (motion) or Time (era) — not governing-term peers |
-| **Desire** | **Retired** as a governing term (v0.1.12); appetite and overreach → [entropy](../theory/entropy.md) |
+| **Temporal grammar** | [Civilizational rhythm](../theory/memory.md#civilizational-rhythm) and [era law](../theory/memory.md#era-law) — sections on [Memory](../theory/memory.md), not separate pages |
+| **Desire** | **Retired** as a governing term; appetite and overreach → [empire](../theory/empire.md) |
 
 Do not treat the older `power / truth / time` triad or downstream retrieval families (`god`, `lit`, `art`, `geo`, `war`, `peace`) as rival ontology — they remain retrieval surfaces beneath the six-term shelf.
 
@@ -55,7 +55,7 @@ Volume stubs that redirect to `sources/{civ}/bibliography.md` are **not** a seco
 | Calling the book "Civilization and Empire" | That names only the opening essay |
 | Calling a volume introduction the "whole-work thesis" | Open [introduction.md](introduction.md) first for whole-book framing |
 | Using **civ-state** in reader-facing prose | Use **Civilizational Statecraft** or the volume/chapter name |
-| Treating **civilizational motion** as the book title | Motion is rhythm law — see [Rhythm](../theory/rhythm.md) |
+| Treating **civilizational motion** as the book title | Motion lives on [Memory — civilizational rhythm](../theory/memory.md#civilizational-rhythm) |
 
 ## Where to read next
 

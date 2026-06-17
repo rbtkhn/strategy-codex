@@ -1,9 +1,9 @@
 ---
 name: statecraft-framework
 preferred_activation: statecraft-framework
-description: Diagnose a live statecraft object through the Civilizational Statecraft Framework before drafting. Use when the operator needs the governing term named first (civilization, empire, entropy, faith, science, or memory), then rhythm/time placement, dominant layer, likely outsider misread, likely failure layer, and the right downstream retrieval surface. Do not use for volume-front-door hardening, lane synthesis artifacts, or direct transaction drafting.
+description: Diagnose a live statecraft object through the Civilizational Statecraft Framework before drafting. Use when the operator needs the governing term named first (civilization, empire, entropy, faith, science, or memory), then memory rhythm/era sections when motion or shelf choice governs, dominant layer, likely outsider misread, likely failure layer, and the right downstream retrieval surface. Do not use for volume-front-door hardening, lane synthesis artifacts, or direct transaction drafting.
 portable: true
-version: 0.2.1
+version: 0.2.2
 tags:
 - operator
 - statecraft
@@ -25,7 +25,7 @@ This is not a drafting skill. It is a pre-draft diagnosis and routing skill.
 
 ## Core law
 
-The framework reads live objects through **six governing terms** plus **two law pages** (not eight peers):
+The framework reads live objects through **six governing terms** — rhythm and era law live on **memory** (not separate pages):
 
 **Governing terms**
 
@@ -34,14 +34,14 @@ The framework reads live objects through **six governing terms** plus **two law 
 - **entropy** — historical causes and manifestations of civilizational degradation (war, revolution, disease, famine, ecological disaster, compound shocks)
 - **faith** — sacred, moral, covenantal truth-order
 - **science** — technical, procedural, evidentiary truth-order
-- **memory** — continuity, wound, retrieval entry
+- **memory** — continuity, wound, civilizational rhythm, era law, retrieval entry
 
-**Motion and era law**
+**Temporal grammar** (sections on `public/civ-state/theory/memory.md`):
 
-- **rhythm** — beautify → amplify → degrade (civilization → empire → entropy)
-- **time** — era placement (Ancient → Cybernetic)
+- **civilizational rhythm** — beautify → amplify → degrade (civilization → empire → entropy)
+- **era law** — Ancient → Cybernetic shelf placement
 
-The operator task is not to recite all eight files. It is to identify the **governing term first**, then rhythm/time placement when motion governs, then the likely misread and failure layers.
+The operator task is not to recite all six files. It is to identify the **governing term first**, then open memory **sections** when motion or era governs, then the likely misread and failure layers.
 
 **Ship-bound theory SSOT:** `public/civ-state/theory/<term>.md`  
 **Volume-local theory (when present):** `public/civ-state/volumes/<civ>/theory/<term>.md` — case history linking up to whole-work siblings.
@@ -71,9 +71,9 @@ Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **seco
 3. **Name the governing term first.**  
    Pick one: civilization · empire · entropy · faith · science · memory.
 
-4. **Place motion and era when relevant.**
-   - rhythm beat: beautify / amplify / degrade
-   - time era: which era shifts the balance of terms?
+4. **Place motion and era when relevant** (open [memory.md](../../public/civ-state/theory/memory.md) sections — not a separate governing pick):
+   - rhythm beat: beautify / amplify / degrade → `#civilizational-rhythm`
+   - era shelf: which era carries the object → `#era-law`
 
 5. **Name the likely outsider misread.**  
    What layer gets flattened or mistaken?
@@ -83,10 +83,10 @@ Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **seco
 
 7. **Choose the return path.**
    - civilization or faith → Sacred Grammar · legitimacy surfaces
-   - memory → `state-memory` · continuity notes
+   - memory → `state-memory` · continuity notes · `#civilizational-rhythm` · `#era-law`
    - empire → empire / helix / transaction / routing surfaces (include overreach reads here)
    - science → procedural / verification / implementation
-   - entropy → shock typology · rhythm degrades beat · era/sources shelves · [cross-case essay](../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md)
+   - entropy → shock typology · memory degrades-beat section · era/sources shelves · [cross-case essay](../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md)
 
 8. **Open the theory page for the governing term.**  
    Whole-work: `public/civ-state/theory/<term>.md`  
@@ -108,9 +108,9 @@ Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **seco
 
 **Faith / science:** coequal truth-orders — do not collapse one into the other.
 
-**Entropy:** name one load-bearing historical manifestation or compound (war, revolution, disease, famine, ecological disaster). Do not conflate empire-overreach or civilization/empire divergence with entropy — those reads stay on empire, civilization, and rhythm.
+**Entropy:** name one load-bearing historical manifestation or compound (war, revolution, disease, famine, ecological disaster). Do not conflate empire-overreach or civilization/empire divergence with entropy — those reads stay on empire, civilization, and memory `#civilizational-rhythm`.
 
-**Rhythm:** names motion; the **degrades** beat surfaces historical entropy — open `public/civ-state/theory/entropy.md` for the shock typology.
+**Memory:** without memory, phase and era are inert — open `#civilizational-rhythm` or `#era-law` when motion or shelf choice governs, even if another term won the governing read.
 
 ## Output
 
@@ -118,7 +118,7 @@ Older families such as `god`, `lit`, `art`, `geo`, `war`, and `peace` are **seco
 **Civilizational Statecraft Framework**
 - Live object:
 - Governing term:
-- Rhythm / time placement (if load-bearing):
+- Memory rhythm / era placement (if load-bearing):
 - Likely outsider misread:
 - Likely failure layer:
 - Best return path:

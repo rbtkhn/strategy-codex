@@ -26,13 +26,13 @@ Ask first:
 Useful distinctions:
 
 - legitimacy substrate, sacred civilizational form, or continuity claim → usually **civilization-heavy**
-- if outward machinery dominates while inheritance thins → suspect [empire](empire.md) outrunning civilization (read [rhythm](rhythm.md))
+- if outward machinery dominates while inheritance thins → suspect [empire](empire.md) outrunning civilization (read [memory — civilizational rhythm](memory.md#civilizational-rhythm))
 
 ## Causal connections
 
 ### Empire
 
-[Civilization](civilization.md) stores; [empire](empire.md) scales outward. Civilization is not self-defending: without sufficient instrument, inheritance remains symbolically real but poorly carried. When empire outruns civilization, read [empire](empire.md) and [rhythm](rhythm.md) — the degrades beat may coincide with historical [entropy](entropy.md) when shocks rupture carry.
+[Civilization](civilization.md) stores; [empire](empire.md) scales outward. Civilization is not self-defending: without sufficient instrument, inheritance remains symbolically real but poorly carried. When empire outruns civilization, read [empire](empire.md) and [memory — civilizational rhythm](memory.md#civilizational-rhythm) — the degrades beat may coincide with historical [entropy](entropy.md) when shocks rupture carry.
 
 ### Entropy
 
@@ -57,7 +57,7 @@ Return to:
 
 - [Sacred grammar (volume-local)](../docs/reader-guide.md#sacred-grammar-volume-local)
 - volume **Civilization** chapters
-- [Rhythm](rhythm.md) when phase is beautifying or consolidating form
+- [Memory — civilizational rhythm](memory.md#civilizational-rhythm) when phase is beautifying or consolidating form
 
 ## Operational use
 
@@ -67,7 +67,7 @@ Use this page when:
 - the load-bearing question is **what inheritance is at stake**
 - empire is mistaken for civilization, or vice versa
 
-Pair with [empire.md](empire.md), [entropy.md](entropy.md), [faith.md](faith.md), [memory.md](memory.md), [rhythm.md](rhythm.md), [time.md](time.md).
+Pair with [empire.md](empire.md), [entropy.md](entropy.md), [faith.md](faith.md), [memory.md](memory.md).
 
 ## See also
 

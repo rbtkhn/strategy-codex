@@ -154,9 +154,9 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
 3. [Theory shelf](theory/README.md)
-4. [Rhythm](theory/rhythm.md) · [Time](theory/time.md)
+4. [Memory](theory/memory.md) — [civilizational rhythm](theory/memory.md#civilizational-rhythm) · [era law](theory/memory.md#era-law)
 5. [Civilization](theory/civilization.md) · [Empire](theory/empire.md) · [Entropy](theory/entropy.md)
-6. [Faith](theory/faith.md) · [Science](theory/science.md) · [Memory](theory/memory.md)
+6. [Faith](theory/faith.md) · [Science](theory/science.md)
 7. [Cross-case recurrence essay](essays/cross-case-recurrence-and-sovereignty.md)
 8. [Hybrid References](hybrid-references.md)
 9. [Index](index.md)
@@ -425,8 +425,8 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
     entropy = f"{prefix}theory/entropy.md"
     science = f"{prefix}theory/science.md"
     memory = f"{prefix}theory/memory.md"
-    rhythm = f"{prefix}theory/rhythm.md"
-    time = f"{prefix}theory/time.md"
+    memory_rhythm = f"{prefix}theory/memory.md#civilizational-rhythm"
+    memory_era = f"{prefix}theory/memory.md#era-law"
     theory_readme = f"{prefix}theory/README.md"
     cross_case = f"{prefix}essays/cross-case-recurrence-and-sovereignty.md"
     text = re.sub(
@@ -481,32 +481,32 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
     )
     text = re.sub(
         r"\]\((?:\.\./)*(?:theory/)?rhythm\.md\)",
-        f"]({rhythm})",
+        f"]({memory_rhythm})",
         text,
     )
     text = re.sub(
         r"\]\((?:\.\./)*(?:theory/)?motion\.md\)",
-        f"]({rhythm})",
+        f"]({memory_rhythm})",
         text,
     )
     text = re.sub(
         r"\]\((?:\.\./)*(?:theory/)?time\.md\)",
-        f"]({time})",
+        f"]({memory_era})",
         text,
     )
     text = re.sub(
         r"\]\((?:\.\./)*(?:theory/)?era\.md\)",
-        f"]({time})",
+        f"]({memory_era})",
         text,
     )
     text = re.sub(
         r"\]\((?:\.\./)*(?:theory/)?era-law\.md\)",
-        f"]({time})",
+        f"]({memory_era})",
         text,
     )
     text = re.sub(
         r"\]\((?:\.\./)*(?:theory/)?civilizational-era\.md\)",
-        f"]({time})",
+        f"]({memory_era})",
         text,
     )
     text = re.sub(
@@ -608,22 +608,22 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/rhythm\.md\)",
-            "](../rhythm.md)",
+            "](../memory.md#civilizational-rhythm)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/motion\.md\)",
-            "](../rhythm.md)",
+            "](../memory.md#civilizational-rhythm)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/time\.md\)",
-            "](../time.md)",
+            "](../memory.md#era-law)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/era\.md\)",
-            "](../time.md)",
+            "](../memory.md#era-law)",
             text,
         )
         text = re.sub(
@@ -698,37 +698,37 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/time\.md\)",
-            "](time.md)",
+            "](memory.md#era-law)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/era\.md\)",
-            "](time.md)",
+            "](memory.md#era-law)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/civilizational-era\.md\)",
-            "](time.md)",
+            "](memory.md#era-law)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/era-law\.md\)",
-            "](time.md)",
+            "](memory.md#era-law)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/rhythm\.md\)",
-            "](rhythm.md)",
+            "](memory.md#civilizational-rhythm)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/motion\.md\)",
-            "](rhythm.md)",
+            "](memory.md#civilizational-rhythm)",
             text,
         )
         text = re.sub(
             r"\]\((?:\.\./)*theory/civilizational-motion\.md\)",
-            "](rhythm.md)",
+            "](memory.md#civilizational-rhythm)",
             text,
         )
         text = re.sub(

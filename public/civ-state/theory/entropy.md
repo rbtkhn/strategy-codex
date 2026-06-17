@@ -29,9 +29,9 @@ Ask first:
 |---------------|----------------|-------------|
 | **War** | Legitimacy, succession, imperial reach | [Empire](empire.md) + geo-strategy; [sources](../sources/source-lattice.md) era shelf |
 | **Revolution** | Order claim, carrier, sacred grammar | [Faith](faith.md) · [Science](science.md) · [Memory](memory.md); volume introduction |
-| **Disease** | Demography, administration, succession | [Time](time.md) + primary sources |
+| **Disease** | Demography, administration, succession | [Memory](memory.md#era-law) + primary sources |
 | **Famine** | Mandate, logistics, peasant compact | Volume door; [sources](../sources/source-lattice.md) |
-| **Ecological disaster** | Corridor, capital, food-energy chain | Geo-strategy + [Time](time.md) |
+| **Ecological disaster** | Corridor, capital, food-energy chain | Geo-strategy + [Memory](memory.md#era-law) |
 
 Pick **one** load-bearing manifestation (or one named compound) per pass — not a catastrophe checklist.
 
@@ -39,13 +39,13 @@ Pick **one** load-bearing manifestation (or one named compound) per pass — not
 
 Shocks stack and sequence. War may trigger famine; revolution may invite civil war and epidemic; ecological rupture may expose imperial overextension. Name the **compound** when more than one manifestation governs settlement or restoration cost.
 
-### Rhythm
+### Civilizational rhythm
 
-The third beat of [Rhythm](rhythm.md): `beautifies → amplifies → **degrades**`. The **degrades** beat surfaces as historical entropy — open this page for the shock typology, not for form/instrument divergence (that read lives on [Civilization](civilization.md), [Empire](empire.md), and [Rhythm](rhythm.md)).
+The third beat of [Memory — civilizational rhythm](memory.md#civilizational-rhythm): `beautifies → amplifies → **degrades**`. The **degrades** beat surfaces as historical entropy — open this page for the shock typology, not for form/instrument divergence (that read lives on [Civilization](civilization.md) and [Empire](empire.md)).
 
 ### Civilization and empire
 
-[Civilization](civilization.md) and [Empire](empire.md) name inheritance and outward instrument — not entropy. They matter here as **vulnerability and recovery capacity**: which orders absorb shocks, which amplify them, and which fail renewal after rupture. When empire outruns civilization, read empire + civilization + rhythm first; then ask whether a historical shock is exploiting that strain.
+[Civilization](civilization.md) and [Empire](empire.md) name inheritance and outward instrument — not entropy. They matter here as **vulnerability and recovery capacity**: which orders absorb shocks, which amplify them, and which fail renewal after rupture. When empire outruns civilization, read empire + civilization + [memory — civilizational rhythm](memory.md#civilizational-rhythm) first; then ask whether a historical shock is exploiting that strain.
 
 ### Memory, faith, and science
 
@@ -61,8 +61,8 @@ Post-shock carry often distorts [Memory](memory.md) — wound sacredized, succes
 
 Return to:
 
-- [Rhythm](rhythm.md) for phase placement on the degrades beat
-- [Time](time.md) when era shelf choice follows the shock
+- [Memory — civilizational rhythm](memory.md#civilizational-rhythm) for phase placement on the degrades beat
+- [Memory — era law](memory.md#era-law) when era shelf choice follows the shock
 - [Memory](memory.md) when post-shock wound or succession memory governs
 - [Civilization](civilization.md) · [Empire](empire.md) when recovery capacity or imperial strain matters
 
@@ -75,8 +75,7 @@ Use this page when:
 
 ## See also
 
-- [Rhythm](rhythm.md) · [Time](time.md) · [Memory](memory.md)
-- [Civilization](civilization.md) · [Empire](empire.md)
+- [Memory](memory.md) · [Civilization](civilization.md) · [Empire](empire.md)
 - [Theory shelf](README.md)
 
 ## Bottom line

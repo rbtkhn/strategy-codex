@@ -26,7 +26,7 @@ memory → legitimacy → carrier → pressure → settlement
 |-------|------|------|
 | **Front door** | repo root | Book title (`README.md`, `LICENSE`) |
 | **Docs** | `docs/` | Opening essay, reader guide, TOC, glossary, index, meta, contracts |
-| **Theory** | `theory/` | Six governing terms + rhythm and time law pages |
+| **Theory** | `theory/` | Six governing terms (rhythm and era law on [Memory](../theory/memory.md)) |
 | **Sources** | `sources/` | Source-lattice law and per-civilization evidence shelves |
 | **Volumes** | `volumes/{civ}/` | Interpretive doors: introduction, civilization and empire essays, sub-lenses, shelf-reader, sacred grammar |
 | **Essays** | `essays/` | Bounded cross-case or live-seam essays — not mixed into the theory term shelf |
@@ -50,16 +50,11 @@ Supporting reference in `docs/`: [Glossary](glossary.md), [Hybrid References](hy
 Six **governing terms** — open the term that is load-bearing first:
 
 - [Civilization](../theory/civilization.md) · [Empire](../theory/empire.md) · [Entropy](../theory/entropy.md)
-- [Faith](../theory/faith.md) · [Science](../theory/science.md) · [Memory](../theory/memory.md)
-
-Two **law pages** (not governing-term peers):
-
-- [Rhythm](../theory/rhythm.md) — civilizational motion
-- [Time](../theory/time.md) — era law
+- [Faith](../theory/faith.md) · [Science](../theory/science.md) · [Memory](../theory/memory.md) — includes [civilizational rhythm](../theory/memory.md#civilizational-rhythm) and [era law](../theory/memory.md#era-law)
 
 Cross-case pattern library is **retired from the public theory shelf** (v0.1.12). Reader-facing replacement: [Cross-case recurrence and sovereignty](../essays/cross-case-recurrence-and-sovereignty.md).
 
-**Volume-local theory** (`volumes/{civ}/theory/`) is forthcoming — case-specific causal history through the same eight filenames. Until those shelves ship, use whole-work [theory](../theory/README.md) for comparative grammar.
+**Volume-local theory** (`volumes/{civ}/theory/`) is forthcoming — case-specific causal history through the same six filenames. Until those shelves ship, use whole-work [theory](../theory/README.md) for comparative grammar.
 
 ## Sources shelf
 

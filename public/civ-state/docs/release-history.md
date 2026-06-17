@@ -4,7 +4,7 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
-**v0.1.15** — entropy theory rebuild (historical causes and manifestations; structural/behavioral framing removed).
+**v0.1.16** — rhythm and time merged under memory (six-file theory shelf).
 
 ## Timeline
 
@@ -49,6 +49,15 @@ Whole-work **entropy** SSOT: [`theory/entropy.md`](../theory/entropy.md)
 | desire → entropy (behavioral) | desire → empire |
 
 Historical causes and manifestations: war, revolution, disease, famine, ecological disaster, compound shocks.
+
+### v0.1.16 — rhythm and time under memory
+
+Whole-work theory **SSOT:** six files in `theory/` — rhythm and era law on [`memory.md`](../theory/memory.md).
+
+| Retired | Replacement |
+|---------|-------------|
+| `theory/rhythm.md` | [memory.md#civilizational-rhythm](../theory/memory.md#civilizational-rhythm) |
+| `theory/time.md` | [memory.md#era-law](../theory/memory.md#era-law) |
 
 ### v0.1.13 — sources shelf consolidation
 
