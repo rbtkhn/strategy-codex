@@ -2,13 +2,15 @@
 """
 Export Civilizational Statecraft public book from statecraft/states/.
 
+Primary edit surface is `public/civ-state/` (sync/publish scripts). Use this
+export to promote workshop residue into that tree when needed — not for daily ship.
+
 Usage:
   python scripts/export_civilizational_statecraft_public.py
   python scripts/export_civilizational_statecraft_public.py --dry-run
-  python scripts/export_civilizational_statecraft_public.py --output path/to/civ-state-clone
+  python scripts/export_civilizational_statecraft_public.py --output public/civ-state
   python scripts/export_civilizational_statecraft_public.py --volume china
-  python scripts/export_civilizational_statecraft_public.py --output path/to/civ-state-clone --legacy-archive-only
-  python scripts/validate_civilizational_statecraft_public.py [--exclude PREFIX ...] [--no-default-exclude] [export_dir]
+  python scripts/validate_civilizational_statecraft_public.py public/civ-state
 """
 
 from __future__ import annotations
@@ -30,6 +32,7 @@ except ImportError:  # pragma: no cover
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = REPO_ROOT / "config" / "civilizational_statecraft_public_export.yaml"
+WORKSPACE_RECEIPTS = ("MIRROR-RECEIPT.md",)
 SOURCE_ROOT = REPO_ROOT / "statecraft" / "states"
 TEMPLATE_ROOT = SOURCE_ROOT / "export-templates"
 
@@ -47,6 +50,20 @@ def load_manifest() -> dict:
 
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
+
+
+def preserve_workspace_receipts(output: Path) -> dict[str, str]:
+    preserved: dict[str, str] = {}
+    for name in WORKSPACE_RECEIPTS:
+        path = output / name
+        if path.is_file():
+            preserved[name] = read_text(path)
+    return preserved
+
+
+def restore_workspace_receipts(output: Path, preserved: dict[str, str], dry_run: bool) -> None:
+    for name, text in preserved.items():
+        write_text(output / name, text, dry_run)
 
 
 def write_text(path: Path, content: str, dry_run: bool) -> None:
@@ -1133,7 +1150,7 @@ def main() -> int:
     args = parser.parse_args()
 
     manifest = load_manifest()
-    output = args.output or REPO_ROOT / manifest.get("default_output", "artifacts/civilizational-statecraft-public")
+    output = args.output or REPO_ROOT / manifest.get("default_output", "public/civ-state")
     volume_slugs = manifest["volume_slugs"]
     legacy_cfg = manifest.get("legacy_archive") or {}
     should_sanitize = args.sanitize_legacy_archive or legacy_cfg.get("sanitize", False)
@@ -1158,9 +1175,14 @@ def main() -> int:
         return 0
 
     if not args.dry_run and output.exists() and args.volume is None:
+        preserved_receipts = preserve_workspace_receipts(output)
         shutil.rmtree(output)
+    else:
+        preserved_receipts = {}
     if not args.dry_run:
         output.mkdir(parents=True, exist_ok=True)
+        if preserved_receipts:
+            restore_workspace_receipts(output, preserved_receipts, False)
 
     written: list[str] = []
 

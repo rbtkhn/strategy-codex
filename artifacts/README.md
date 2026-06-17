@@ -38,7 +38,7 @@ When in doubt, commit the source doctrine, script, test, or receipt that proves 
 
 | Path | Produced by | Policy |
 |------|-------------|--------|
-| `artifacts/civilizational-statecraft-public/` | `scripts/export_civilizational_statecraft_public.py` | **Derived** public Civilizational Statecraft book staging for `rbtkhn/civ-state`; validate with `scripts/validate_civilizational_statecraft_public.py`; [boundary](../docs/civilizational-statecraft-external-boundary.md), [bucket README](civilizational-statecraft-public/README-STAGING.md). Commit on public release tags. |
+| `artifacts/civilizational-statecraft-public/` | *(retired)* | **Legacy** export residue only — SSOT staging is [`public/civ-state/`](../public/civ-state/). See [README-STAGING.md](civilizational-statecraft-public/README-STAGING.md). |
 | `artifacts/work-notes/` | `scripts/new_work_note.py` | **Scratch** work notes from `docs/templates/work-note-template.md`. **Default:** `*.md` **gitignored**; `.gitkeep` preserves the directory. Not Record. |
 | `artifacts/evidence-stubs/` | `scripts/new_evidence_stub.py`, **`scripts/research_to_evidence_stub.py`** | **Pre-canonical** evidence stubs ([README](evidence-stubs/README.md)); **`research_to_evidence_stub`** consumes [`schemas/research-evidence-input.v1.json`](../schemas/research-evidence-input.v1.json); **Default:** gitignored `*.md` like skill-cards. |
 | `artifacts/patch-intake/` | **`scripts/coding_agent_patch_intake.py`** | **Candidate-proposal** patch-review packets ([README](patch-intake/README.md)); consumes [`schemas/coding-agent-patch-intake.v1.json`](../schemas/coding-agent-patch-intake.v1.json); **Default:** gitignored `*.md` except README. |

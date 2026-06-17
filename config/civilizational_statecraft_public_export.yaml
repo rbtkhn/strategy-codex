@@ -6,7 +6,7 @@ canonical_public_repo: "https://github.com/rbtkhn/civ-state"
 legacy_public_repo: "https://github.com/rbtkhn/civ-emp"
 
 source_root: "statecraft/states"
-default_output: "artifacts/civilizational-statecraft-public"
+default_output: "public/civ-state"
 
 volume_slugs:
   civ-state-china: china

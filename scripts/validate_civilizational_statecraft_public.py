@@ -25,7 +25,22 @@ except ImportError:  # pragma: no cover
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = REPO_ROOT / "config" / "civilizational_statecraft_public_export.yaml"
-DEFAULT_EXPORT = REPO_ROOT / "artifacts" / "civilizational-statecraft-public"
+
+
+def load_manifest() -> dict:
+    if yaml is None:
+        raise SystemExit("PyYAML required: pip install pyyaml")
+    with MANIFEST_PATH.open(encoding="utf-8") as f:
+        return yaml.safe_load(f)
+
+
+def default_export_dir() -> Path:
+    manifest = load_manifest()
+    rel = manifest.get("default_output", "public/civ-state")
+    return (REPO_ROOT / rel).resolve()
+
+
+DEFAULT_EXPORT = default_export_dir()
 
 REQUIRED_ROOT = [
     "README.md",
@@ -56,13 +71,6 @@ REQUIRED_ESSAYS = [
 ]
 
 VOLUME_ESSAYS = ["civilization", "empire"]
-
-
-def load_manifest() -> dict:
-    if yaml is None:
-        raise SystemExit("PyYAML required")
-    with MANIFEST_PATH.open(encoding="utf-8") as f:
-        return yaml.safe_load(f)
 
 
 def normalize_exclude_prefixes(prefixes: list[str]) -> tuple[str, ...]:

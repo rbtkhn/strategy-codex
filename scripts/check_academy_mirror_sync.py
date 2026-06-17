@@ -13,9 +13,20 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_MIRROR = "public/ph-civ"
 RECEIPT_NAME = "MIRROR-RECEIPT.md"
 UPSTREAM_SHA_RE = re.compile(r"^\-\s\*\*Upstream commit:\*\*\s`([0-9a-f]{7,40})`", re.MULTILINE)
+
+PUBLIC_MIRRORS = {
+    "ph-civ": {
+        "path": "public/ph-civ",
+        "remote": "https://github.com/rbtkhn/ph-civ.git",
+    },
+    "civ-state": {
+        "path": "public/civ-state",
+        "remote": "https://github.com/rbtkhn/civ-state.git",
+    },
+}
+DEFAULT_MIRROR = PUBLIC_MIRRORS["ph-civ"]["path"]
 
 
 def run_git(args: list[str], cwd: Path) -> tuple[int, str, str]:
@@ -117,18 +128,31 @@ def emit_text(result: dict) -> None:
         print(f"error: {error}")
 
 
+def resolve_mirror(mirror: str, remote_url: str | None) -> tuple[str, str]:
+    if mirror in PUBLIC_MIRRORS:
+        spec = PUBLIC_MIRRORS[mirror]
+        return spec["path"], remote_url or spec["remote"]
+    return mirror, remote_url or PUBLIC_MIRRORS["ph-civ"]["remote"]
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--mirror", default=DEFAULT_MIRROR)
-    parser.add_argument("--remote-url", default="https://github.com/rbtkhn/ph-civ.git")
+    parser.add_argument(
+        "--mirror",
+        default="ph-civ",
+        help="Mirror slug (ph-civ, civ-state) or path (public/ph-civ)",
+    )
+    parser.add_argument("--remote-url", default=None)
     parser.add_argument("--branch", default="main")
     parser.add_argument("--no-fetch", action="store_true")
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args(argv)
 
+    mirror_rel, remote_url = resolve_mirror(args.mirror, args.remote_url)
+
     result = check_sync(
-        mirror_rel=args.mirror,
-        remote_url=args.remote_url,
+        mirror_rel=mirror_rel,
+        remote_url=remote_url,
         branch=args.branch,
         fetch=not args.no_fetch,
     )

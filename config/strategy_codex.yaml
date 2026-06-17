@@ -26,7 +26,7 @@ fork_revive_tokens:
 civilizational_statecraft_public:
   canonical_repo: "https://github.com/rbtkhn/civ-state"
   legacy_repo: "https://github.com/rbtkhn/civ-emp"
-  export_staging: "artifacts/civilizational-statecraft-public"
+  export_staging: "public/civ-state"
   export_manifest: "config/civilizational_statecraft_public_export.yaml"
   observe_only_workshop_paths_after_cutover: true
   release_tag: "v0.1.1"

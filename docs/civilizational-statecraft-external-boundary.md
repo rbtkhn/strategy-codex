@@ -6,22 +6,22 @@ It is the standalone comparative artifact: **Civilization and Empire** (whole-wo
 
 Title layers are locked in workshop [Names and titles](../statecraft/states/reader-guide.md#names-and-titles) and [Glossary](../statecraft/states/glossary.md).
 
-Inside `strategy-codex`, Civilizational Statecraft is an **external published book** after cutover:
+Inside `strategy-codex`, Civilizational Statecraft uses a **staging mirror → explicit publish** loop (same shape as Predictive History):
 
-- observation allowed
-- critique allowed
-- review packets allowed
-- citation of **civ-state** public chapter slugs allowed
-- mutation of the public book from local workshop residue **disallowed** without export
+- **edit** only under [`public/civ-state/`](../public/civ-state/)
+- **pull inbound** with `python scripts/sync_public_civ_state_mirror.py`
+- **publish outbound** with `python scripts/publish_public_civ_state.py -m "…" --push`
+
+Operator workshop under `statecraft/states/` continues for analysis, promotion, and review — **not** as the public book edit surface. Public canonical text lives in **`rbtkhn/civ-state`**; workspace edits live in **`public/civ-state/`** until publish.
 
 ## Canonical rule
 
-After cutover, `strategy-codex` must not treat `statecraft/states/` as the canonical public book. Public canonical text lives in **`rbtkhn/civ-state`** only.
+After cutover, strategy-codex must not treat `statecraft/states/` as silently updating the public book. Public canonical text lives in **`rbtkhn/civ-state`**; workspace edits live in **`public/civ-state/`** until publish.
 
-Workshop drafting in `statecraft/states/` continues. Publishing happens only through:
+Publishing happens only through:
 
 ```text
-local draft → export script → public repo PR → tagged release
+edit public/civ-state/ → commit workspace slice → publish script --push → tagged release on rbtkhn/civ-state
 ```
 
 ## ph-civ ⊥ civ-state (locked)
@@ -38,9 +38,11 @@ strategy-codex **observes** [`rbtkhn/ph-civ`](https://github.com/rbtkhn/ph-civ) 
 
 Allowed Civilizational Statecraft work inside `strategy-codex`:
 
-- draft and deepen `statecraft/states/` (volumes, lattice, framework, comparative)
-- run `scripts/export_civilizational_statecraft_public.py`
-- run `scripts/validate_civilizational_statecraft_public.py`
+- **corpus edits** under `public/civ-state/` only (staging mirror)
+- **publish** to [`rbtkhn/civ-state`](https://github.com/rbtkhn/civ-state) only via `scripts/publish_public_civ_state.py --push`
+- deepen operator workshop in `statecraft/states/` (analysis, promotion, game-substrate — non-ship until landed in `public/civ-state/`)
+- optional **workshop promotion:** `export_civilizational_statecraft_public.py` → `public/civ-state/` (bulk transform, not daily edit)
+- run `scripts/validate_civilizational_statecraft_public.py` on `public/civ-state/`
 - critique public `civ-state` PRs and issues
 - cite public civ-state slugs in review packets and operator copy
 
@@ -48,9 +50,11 @@ Allowed Civilizational Statecraft work inside `strategy-codex`:
 
 Disallowed after cutover:
 
+- editing ship-bound civ-state prose outside `public/civ-state/`
+- treating a normal strategy-codex commit as having updated the public repo (without `publish_public_civ_state.py --push`)
 - treating local `statecraft/states/` edits as silently updating the public book
-- patching `rbtkhn/civ-state` from local residue without export receipt
-- embedding ph-civ links in export output (export linter fails)
+- patching `rbtkhn/civ-state` from residue paths other than `public/civ-state/`
+- embedding ph-civ links in civ-state public output (export/publish linter)
 
 ## Export surfaces
 
@@ -59,17 +63,19 @@ Disallowed after cutover:
 | Export manifest | [`config/civilizational_statecraft_public_export.yaml`](../config/civilizational_statecraft_public_export.yaml) |
 | Export script | [`scripts/export_civilizational_statecraft_public.py`](../scripts/export_civilizational_statecraft_public.py) |
 | Validator | [`scripts/validate_civilizational_statecraft_public.py`](../scripts/validate_civilizational_statecraft_public.py) |
-| Staging output | [`artifacts/civilizational-statecraft-public/`](../artifacts/civilizational-statecraft-public/) |
+| Staging output | [`public/civ-state/`](../public/civ-state/) |
+| Legacy residue | [`artifacts/civilizational-statecraft-public/`](../artifacts/civilizational-statecraft-public/) — retired; do not refresh |
 
 ## Feedback loop
 
 ```text
-public issue / PR on rbtkhn/civ-state
-  → strategy-codex review packet
-  → local draft in statecraft/states/
-  → export + validate
-  → public PR + tag (e.g. v0.1.1)
+edit public/civ-state/ in strategy-codex
+  → commit workspace slice
+  → python scripts/publish_public_civ_state.py -m "…" --push
+  → tagged/public main on rbtkhn/civ-state
 ```
+
+Review-only or workshop promotion may still use `statecraft/states/` and review packets; ship requires landing prose in `public/civ-state/` first. Optional bulk promotion: `export_civilizational_statecraft_public.py` writes transformed workshop copy into `public/civ-state/` (preserves `MIRROR-RECEIPT.md`).
 
 ## Merge triggers (hold until explicit — v0.1.3+)
 
