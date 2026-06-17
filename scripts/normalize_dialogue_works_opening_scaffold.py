@@ -22,10 +22,56 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+_SCRIPTS = REPO_ROOT / "scripts"
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from normalize_nawfal_opening_banter import (  # noqa: E402
+    merge_body_sections,
+    split_body_sections,
+)
+
 ARCHIVE_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
-TRANSCRIPT_SECTION_RE = re.compile(r"(^## Transcript\s*\n)(.*)$", re.DOTALL | re.MULTILINE)
+FRONTMATTER_BLOCK_RE = re.compile(r"\A---\n.*?\n---\n", re.DOTALL)
+TAIL_SEARCH_CHARS = 8000
+
+META_PATCH_KEYS = frozenset(
+    {
+        "opening_tier",
+        "editorial_note",
+        "dialogue_works_substack_trim_applied",
+        "dialogue_works_book_interrupt_trim_applied",
+        "dialogue_works_close_substack_trim_applied",
+        "dialogue_works_leading_noise_trim_applied",
+    }
+)
+
+CLOSE_TAIL_ANCHOR_RES: list[tuple[str, re.Pattern[str]]] = [
+    (
+        "before-wrap-go",
+        re.compile(r"before wrapping up,?\s+please go", re.IGNORECASE),
+    ),
+    (
+        "please-go-right-below",
+        re.compile(r"please go to right below", re.IGNORECASE),
+    ),
+    (
+        "put-links-description",
+        re.compile(
+            r"I'm going to put (?:all )?the links",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "thank-you-being-with-us",
+        re.compile(
+            r"(?:>>\s*)?Thank you so much,?\s+[\w\s]+,?\s+for being with us(?: today)?",
+            re.IGNORECASE,
+        ),
+    ),
+]
 
 HOST_ANCHOR_RE = re.compile(r"Hi everybody\.?", re.I)
 QUESTION_START_RE = re.compile(
@@ -103,7 +149,10 @@ def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
         if not key:
             continue
         if value.startswith('"') and value.endswith('"'):
-            data[key] = json.loads(value)
+            try:
+                data[key] = json.loads(value)
+            except json.JSONDecodeError:
+                data[key] = value.strip('"')
         elif value.lower() in {"true", "false"}:
             data[key] = value.lower() == "true"
         else:
@@ -111,28 +160,69 @@ def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
     return data
 
 
-def dump_simple_frontmatter(data: dict[str, Any]) -> str:
-    lines: list[str] = []
-    for key, value in data.items():
-        if isinstance(value, bool):
-            rendered = "true" if value else "false"
-        else:
-            text = str(value)
-            if text == "" or any(ch in text for ch in ':"#[]{}') or text != text.strip():
-                rendered = json.dumps(text, ensure_ascii=False)
-            else:
-                rendered = text
-        lines.append(f"{key}: {rendered}")
-    return "\n".join(lines)
+def format_frontmatter_value(value: Any) -> str:
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    text = str(value)
+    if text == "" or any(ch in text for ch in ':"#[]{}') or text != text.strip():
+        return json.dumps(text, ensure_ascii=False)
+    return text
 
 
-def dump_frontmatter(data: dict[str, Any]) -> str:
-    return f"---\n{dump_simple_frontmatter(data).rstrip()}\n---\n\n"
+def patch_frontmatter_block(text: str, meta: dict[str, Any], keys: set[str]) -> str:
+    """Rewrite only selected top-level frontmatter keys; preserve YAML lists/blocks."""
+    match = FRONTMATTER_BLOCK_RE.match(text)
+    if not match:
+        return text
+    fm_raw = match.group(0)[4:-4]
+    lines = fm_raw.splitlines()
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if not line.strip() or line.lstrip().startswith("#"):
+            out.append(line)
+            i += 1
+            continue
+        if line.startswith(" ") or line.startswith("\t") or line.lstrip().startswith("- "):
+            out.append(line)
+            i += 1
+            continue
+        if ":" not in line:
+            out.append(line)
+            i += 1
+            continue
+        key = line.split(":", 1)[0].strip()
+        if key in keys and key in meta:
+            out.append(f"{key}: {format_frontmatter_value(meta[key])}")
+            i += 1
+            while i < len(lines) and (
+                lines[i].startswith(" ") or lines[i].startswith("\t") or lines[i].lstrip().startswith("- ")
+            ):
+                i += 1
+            continue
+        out.append(line)
+        i += 1
+    present = {line.split(":", 1)[0].strip() for line in out if ":" in line and not line.startswith(" ")}
+    for key in keys:
+        if key in meta and key not in present:
+            out.append(f"{key}: {format_frontmatter_value(meta[key])}")
+    return f"---\n" + "\n".join(out).rstrip() + "\n---\n\n"
+
+
+def build_output_text(original_text: str, meta: dict[str, Any], body: str) -> str:
+    patched = patch_frontmatter_block(original_text, meta, set(META_PATCH_KEYS))
+    fm_match = FRONTMATTER_BLOCK_RE.match(patched)
+    return (fm_match.group(0) if fm_match else "") + body
 
 
 def is_dialogue_works_capture(meta: dict[str, Any], path: Path) -> bool:
     name = path.name.lower()
-    if not (name.startswith("source-alkorshid-") or name.startswith("source-nima-alkorshid-")):
+    if not (
+        name.startswith("source-alkorshid-")
+        or name.startswith("source-nima-alkorshid-")
+        or name.startswith("source-dialogue-works-")
+    ):
         return False
     show = str(meta.get("show") or meta.get("show_title") or "").strip().lower()
     slug = str(meta.get("channel_slug") or "").strip().lower()
@@ -199,22 +289,50 @@ def trim_book_substack_interrupt(text: str, *, max_scan: int = 12000) -> tuple[s
     return trimmed, trimmed != text
 
 
+def find_dialogue_works_close_cut(full_text: str) -> tuple[int, str] | None:
+    search_window = full_text[-TAIL_SEARCH_CHARS:] if len(full_text) > TAIL_SEARCH_CHARS else full_text
+    window_offset = len(full_text) - len(search_window)
+    candidates: list[tuple[int, str]] = []
+    for name, pattern in CLOSE_TAIL_ANCHOR_RES:
+        for match in pattern.finditer(search_window):
+            candidates.append((window_offset + match.start(), name))
+    if not candidates:
+        return None
+    cut_at, anchor = min(candidates, key=lambda item: item[0])
+    tail_from_cut = full_text[cut_at:]
+    if anchor == "thank-you-being-with-us":
+        if not CLOSE_CTA_RE.search(tail_from_cut):
+            return None
+    elif anchor in {"before-wrap-go", "please-go-right-below", "put-links-description"}:
+        pass
+    elif not CTA_SIGNAL_RE.search(tail_from_cut[:800]):
+        return None
+    return cut_at, anchor
+
+
 def trim_close_substack_block(paragraphs: list[str]) -> tuple[list[str], bool]:
-    if len(paragraphs) < 2:
+    if not paragraphs:
         return paragraphs, False
-    tail = "\n\n".join(paragraphs[-3:])
-    close = CLOSE_START_RE.search(tail)
-    if not close:
+    full_text = "\n\n".join(paragraphs) if len(paragraphs) > 1 else paragraphs[0]
+
+    if len(paragraphs) >= 2:
+        tail = "\n\n".join(paragraphs[-3:])
+        close = CLOSE_START_RE.search(tail)
+        if close and CLOSE_CTA_RE.search(tail[close.start() :]):
+            cut_at = len("\n\n".join(paragraphs[:-3])) + (2 if len(paragraphs) > 3 else 0) + close.start()
+            trimmed = full_text[:cut_at].rstrip()
+            new_paragraphs = split_paragraphs(trimmed)
+            if new_paragraphs and new_paragraphs != paragraphs:
+                return new_paragraphs, True
+
+    found = find_dialogue_works_close_cut(full_text)
+    if not found:
         return paragraphs, False
-    if not CLOSE_CTA_RE.search(tail[close.start() :]):
-        return paragraphs, False
-    cut_at = len("\n\n".join(paragraphs[:-3])) + (2 if len(paragraphs) > 3 else 0) + close.start()
-    full_text = "\n\n".join(paragraphs)
+    cut_at, _ = found
     trimmed = full_text[:cut_at].rstrip()
-    new_paragraphs = split_paragraphs(trimmed)
-    if not new_paragraphs or new_paragraphs == paragraphs:
+    if not trimmed or trimmed == full_text.rstrip():
         return paragraphs, False
-    return new_paragraphs, True
+    return split_paragraphs(trimmed) or [trimmed], True
 
 
 def opening_has_cta(text: str, *, limit: int = 8000) -> bool:
@@ -281,7 +399,7 @@ def trim_transcript_body(
     if not solo and allow_interrupt:
         new_text, did = trim_book_substack_interrupt(text)
         if did:
-            text = interrupt_trimmed = True
+            interrupt_trimmed = True
             changed = True
             text = new_text
 
@@ -314,36 +432,6 @@ def trim_transcript_body(
             paragraphs_removed=removed,
         ),
     )
-
-
-def split_body_sections(body: str) -> tuple[str, str, str]:
-    match = TRANSCRIPT_SECTION_RE.search(body)
-    if match:
-        prefix = body[: match.start()]
-        transcript_header = match.group(1)
-        transcript_body = match.group(2)
-        return prefix, transcript_header, transcript_body
-
-    lines = body.splitlines(keepends=True)
-    idx = 0
-    while idx < len(lines):
-        stripped = lines[idx].strip()
-        if stripped == "" or stripped.startswith("#") or stripped.startswith("**"):
-            idx += 1
-            continue
-        break
-    while idx < len(lines) and lines[idx].strip() == "":
-        idx += 1
-    prefix = "".join(lines[:idx])
-    transcript_body = "".join(lines[idx:])
-    transcript_body = CLEANED_HEADER_RE.sub("", transcript_body, count=1)
-    return prefix, "", transcript_body
-
-
-def merge_body_sections(prefix: str, transcript_header: str, transcript_body: str) -> str:
-    if not transcript_header:
-        return prefix + transcript_body
-    return prefix + transcript_header + transcript_body
 
 
 def append_editorial_note(meta: dict[str, Any], note: str) -> None:
@@ -380,7 +468,7 @@ def normalize_text(
         tier = classify_opening_tier(original, meta=meta, cta_present=cta_present)
         if meta.get("opening_tier") != tier:
             meta["opening_tier"] = tier
-            return True, dump_frontmatter(meta) + body, FileChange(path, tier)
+            return True, build_output_text(text, meta, body), FileChange(path, tier)
         return False, text, None
 
     if mid_done and interrupt_done and close_done and noise_done:
@@ -401,7 +489,7 @@ def normalize_text(
             return False, text, FileChange(path, str(meta.get("opening_tier")))
         tier = classify_opening_tier(original, meta=meta, cta_present=cta_present)
         meta["opening_tier"] = tier
-        return True, dump_frontmatter(meta) + body, FileChange(path, tier)
+        return True, build_output_text(text, meta, body), FileChange(path, tier)
 
     if change.mid_substack_trimmed:
         meta["dialogue_works_substack_trim_applied"] = True
@@ -431,7 +519,7 @@ def normalize_text(
         paragraphs_removed=change.paragraphs_removed,
     )
     merged = merge_body_sections(prefix, transcript_header, new_body)
-    new_text = dump_frontmatter(meta) + merged
+    new_text = build_output_text(text, meta, merged)
     return (
         True,
         new_text,
@@ -451,7 +539,11 @@ def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path
     if explicit:
         return sorted({p.resolve() for p in explicit})
     paths: list[Path] = []
-    for pattern in ("source-alkorshid-*.md", "source-nima-alkorshid-*.md"):
+    for pattern in (
+        "source-alkorshid-*.md",
+        "source-nima-alkorshid-*.md",
+        "source-dialogue-works-*.md",
+    ):
         for path in root.rglob(pattern):
             if ".cleaned." in path.name:
                 continue

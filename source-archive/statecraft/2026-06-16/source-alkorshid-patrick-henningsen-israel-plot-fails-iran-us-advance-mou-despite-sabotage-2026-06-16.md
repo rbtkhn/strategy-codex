@@ -26,13 +26,13 @@ source_url: "https://www.youtube.com/watch?v=F_ngNnPGbTs"
 youtube_id: F_ngNnPGbTs
 source_note: "Operator-pasted transcript; host self-dates Tuesday 16 June 2026. Henningsen frame: Axios Ratcliffe Iran-dishonesty leak; Israel Haaretz Trump may dismiss Hegseth/Ratcliffe (Rubio safe); Channel 12 MOU copy denied; FM Araghchi Lebanon withdrawal inseparable; MOU not peace — 18–24mo phased negotiation; Israel invisible third party / Oslo sabotage pattern; nuclear straw man vs Lebanon fundamental; Iran+Hezbollah vs US+Israel two-side framing; Lebanon divided govt / Hezbollah isolation trap; normative-power regional superpower read; GCC Abraham-accords suicide pact vs regional pact; April ceasefire who begged / US accepted surrender terms; birthday+G7 timing; Israel Beirut strike exploiting Trump window; Kushner pay-not-to-strike-Israel rejected; Tulsi/Vance anti-war myth debunk; Vance Gulf Coast Coalition gaffe; Bloomberg LNG 2-month recovery; Hormuz 60d toll-free then Omani mechanism. Cross-ref same-day Marandi/Hoh/Johnson MOU batch. verify:wire-pending Axios Ratcliffe + Israel Haaretz dismissal report; verify:wire-supported cross-ref Johnson J16-J2 MOU denied; verify:wire-supported cross-ref Marandi J16-MA1 Araghchi Lebanon; verify:wire-contested Hormuz 60d fee lane."
 evidence_grade: transcript-bearing
-opening_tier: host-monologue
+opening_tier: host-tease
 transcript_wrapper_tier: paste-prefix
 normalization_state: raw_operator_paste
-editorial_note: "Operator-pasted transcript; Substack close promo retained; ASR artifacts retained (Nema/Nemo, Hacket/Hegseth, Lavine/Levin, Formos/Hormuz, etc.). Not human-verified verbatim."
+editorial_note: Operator-pasted transcript; Substack close promo retained; ASR artifacts retained (Nema/Nemo, Hacket/Hegseth, Lavine/Levin, Formos/Hormuz, etc.). Not human-verified verbatim. Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved.
 quality_note: "Initial land 2026-06-16."
+dialogue_works_close_substack_trim_applied: true
 ---
-
 # Patrick Henningsen: Israel's Plot FAILS – Iran and US Advance MoU Despite Sabotage Attempt
 
 **Show:** Dialogue Works  
@@ -175,6 +175,4 @@ football or the Eurovvision song contest for that matter. I mean what what what 
  So anyway, until that comes, until that external pressure builds, um, I don't see much change in the fundamentals of the situation. But likewise what I said earlier stands Nemo which is that Iran has to stand firm if they stand firm on principle don't move on principle and and and and also in accordance to international law which they are and international principles and UN charter and etc etc they stand firm they're going to ultimately they will be uh they will win uh and they'll more allies will come to support them.
 People who opposed them before will then support them, but only if they stand firm because Israel just wants to break that consensus up. They want to, you know, cause division within Iran, create problems in the media. Oh, these people, the hardliners are against them. You know, that's you hear all the stuff in the West. Peskin is going to resign.
 Those are all like PR info attacks to try to create infighting within Iran and to and not only that, but to make other countries uh less confident to engage with Iran, giving the impression that they're just in disarray and chaos. And that's not true. There's a tremendous cohesion and solidarity in Iran more than ever before.
- And I would say if you want to do business with Iran, now is probably the best time to do business with Iran. Uh because because you do have that at least very strong consensus at the moment. >> Yeah, exactly. Please go to right below Patrick's name, you see 21st century wire and you can go to the patrickhennisonson.substack here.
- Here here is the link patrickhennisonson.substack.com substack.com and I'm going to put all the links to Patrick's YouTube channel and Substack and all of the links are going to I'm going to put them in the description of this video. You can go there, you can access you can subscribe on to his Substack and you can subscribe on his YouTube channel.
-Thank you so much Patrick for being with us today. Great. >> Pleasure. Thank you for the invitation.
+ And I would say if you want to do business with Iran, now is probably the best time to do business with Iran. Uh because because you do have that at least very strong consensus at the moment. >> Yeah, exactly.

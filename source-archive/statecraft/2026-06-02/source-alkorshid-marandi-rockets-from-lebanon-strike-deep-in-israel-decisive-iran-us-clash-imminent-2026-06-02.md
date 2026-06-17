@@ -23,6 +23,7 @@ opening_tier: host-tease
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 38 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Preserve as raw cleaned transcript; verify Lebanon battlefield, sanctions, Gulf escalation, and intra-Zionist-faction claims before promotion beyond analyst tier."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+dialogue_works_leading_noise_trim_applied: true
 ---
 # Seyed M. Marandi: Rockets from Lebanon Strike Deep in Israel - Decisive Iran-US Clash Imminent
 
@@ -35,7 +36,7 @@ quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 
 ## Transcript
 
-[music] Hi everybody. Today's Tuesday, June 2nd, 2026 and our dear friend, our brother, Professor Marandi is here with us. Welcome back, Professor. >> Hi Nema. Thank you very much for inviting me. It's always a great pleasure being on your show. >> I want to start with what has happened yesterday. Everybody's talking about it.
+Hi everybody. Today's Tuesday, June 2nd, 2026 and our dear friend, our brother, Professor Marandi is here with us. Welcome back, Professor. >> Hi Nema. Thank you very much for inviting me. It's always a great pleasure being on your show. >> I want to start with what has happened yesterday. Everybody's talking about it.
 We had Israel announced that they're going to attack Dahi in southern part of Beirut and we've seen many people are getting out of their homes. They're evacuating people from their homes. And then Iran said if Israel attacks Dah the way because they wanted they literally wanted to destroy everything in D. That's why they announced that sort of warning to the people there and then we had Iranian reaction.
  What has happened yesterday? What is your understanding of what has happened? Well, [clears throat] you know, I lived in Dier. I I actually lived in an apartment on uh Seed Hadi Nasal Street for a while and then I moved to another uh apartment uh still in in the in the in the neighborhood. It's a very it's a very long large area and there are hundreds of thousands of people living there.
 I don't know the the the numbers exactly, but it's a huge neighborhood and it's a big part of the bigger Beirut and to flatten it means to flatten a huge city uh in in in Europe uh let's say uh so um that was the objective and of course they are they have been flattening other cities in the south and west the west doesn't care because the west has exposed itself.

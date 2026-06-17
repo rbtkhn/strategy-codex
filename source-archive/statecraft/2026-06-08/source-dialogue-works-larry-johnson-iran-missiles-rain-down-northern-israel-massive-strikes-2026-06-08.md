@@ -26,8 +26,9 @@ youtube_id: -jfbieXSiH0
 source_note: "Operator-pasted transcript; host self-dates Monday 8 June 2026. verify:wire-supported Iran missiles northern Israel after Beirut strike 7 Jun (Al Bawaba/Ch12 relay/AJ); Israel retaliatory strikes Iran 8 Jun (kore.co.il IDF/Israeli press); Pakistan Naqvi mediation 7 Jun (Al Jazeera); verify:wire-unclear Pepe Escobar Pakistan-source Islamabad Accords nuke-warning — single-source not wire-corroborated; verify:wire-partial missile-count volleys (20/11) — developing desk not independently tallied; verify:wire-out-of-scope Johnson Larijani third-party gate doctrine empty-building Yemen-response thesis. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 19 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 19 substitutions; not human-verified verbatim; verify before quotation.
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+opening_tier: host-tease
 ---
 # Larry Johnson: Iran Missiles Rain Down on Northern Israel – Massive Strikes!
 
