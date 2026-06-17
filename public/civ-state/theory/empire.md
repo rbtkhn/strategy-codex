@@ -7,7 +7,7 @@ Surface: `civ-state`
 Purpose: govern reads where projection, procedural reach, sanctions, corridors, or platform leverage is load-bearing  
 Last updated: 2026-06-17
 
-Not to be confused with the whole-work opening essay [*Civilization and Empire*](../introduction.md) — that essay introduces the book; this page names the **empire** governing term.
+Not to be confused with the whole-work opening essay [*Civilization and Empire*](../docs/introduction.md) — that essay introduces the book; this page names the **empire** governing term.
 
 ## Why this term
 

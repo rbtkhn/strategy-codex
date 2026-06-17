@@ -23,5 +23,5 @@ Read in sovereignty-chain order:
 ## Return paths
 
 - [Volume map](../volumes/README.md)
-- [Reader Guide](../reader-guide.md)
+- [Reader Guide](../docs/reader-guide.md)
 - [Theory shelf](../theory/README.md)

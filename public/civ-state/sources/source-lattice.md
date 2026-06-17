@@ -38,7 +38,7 @@ Secondary support must not displace source primacy.
 
 ## Horizontal book order
 
-After the whole-work doors (`table-of-contents.md`, `reader-guide.md`), read civilization-state cases:
+After the whole-work doors ([Table of Contents](../docs/table-of-contents.md), [Reader Guide](../docs/reader-guide.md)), read civilization-state cases:
 
 China → Persia → Rome → Russia → America
 

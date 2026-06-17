@@ -4,13 +4,13 @@ Front-door volume order for **Civilizational Statecraft**.
 
 For whole-work apparatus, open:
 
-- [Civilization and Empire](../introduction.md)
-- [Table of Contents](../table-of-contents.md)
-- [Reader Guide](../reader-guide.md)
+- [Civilization and Empire](../docs/introduction.md)
+- [Table of Contents](../docs/table-of-contents.md)
+- [Reader Guide](../docs/reader-guide.md)
 - [Source-Lattice](../sources/source-lattice.md)
-- [Glossary](../glossary.md)
-- [Hybrid References](../hybrid-references.md)
-- [Index](../index.md)
+- [Glossary](../docs/glossary.md)
+- [Hybrid References](../docs/hybrid-references.md)
+- [Index](../docs/index.md)
 
 ## Constitutional order
 
@@ -28,7 +28,7 @@ Each volume follows the same reader order:
 volume introduction → civilization chapter → empire chapter
 ```
 
-The whole work opens with [Civilization and Empire](../introduction.md) (opening essay — not the book title).
+The whole work opens with [Civilization and Empire](../docs/introduction.md) (opening essay — not the book title).
 
 Then optional sub-lenses: geo-strategy, secret-history, game-theory.
 

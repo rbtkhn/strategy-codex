@@ -2,7 +2,7 @@
 
 Opening essay for **Civilizational Statecraft** — this title names the essay and the whole-work **civilizational motion**, not the book title.
 
-**Disambiguation:** This essay is not the same as the theory term pages [Civilization](theory/civilization.md) or [Empire](theory/empire.md). Open those when you need governing-term definitions and causal connections; open this essay for the whole-work opening argument and five-volume map.
+**Disambiguation:** This essay is not the same as the theory term pages [Civilization](../theory/civilization.md) or [Empire](../theory/empire.md). Open those when you need governing-term definitions and causal connections; open this essay for the whole-work opening argument and five-volume map.
 
 A statesman lives inside necessity. The classical vocabulary of statecraft — reason of state, diplomatic craft, the pursuit of national interest with prudence rather than moral theater — names an art older than modern international relations: steering a sovereign people through power, alliance, timing, coercion, and negotiation so the state survives, secures its interests, and shapes the calculations of others short of catastrophe. Morgenthau's realism insisted that universal moral rules cannot be applied to states in the abstract; consequences matter. Diplomatic doctrine insists that statecraft is not kindness and not merely the prelude to force — it is the disciplined attempt to rearrange how adversaries and partners perceive their circumstances until policy moves in a tolerable direction.
 
@@ -20,7 +20,7 @@ civilization beautifies → empire amplifies → entropy degrades
 
 Statesmen must see this rhythm before they act. Degradation is not generic disorder. It is thinning of the civilizational layer — the slow or sudden divergence between inherited form and imperial instrument that makes settlement harder, humiliation sharper, and restoration costlier.
 
-Deep grammar: [Rhythm](theory/rhythm.md).
+Deep grammar: [Rhythm](../theory/rhythm.md).
 
 ## Five volumes
 

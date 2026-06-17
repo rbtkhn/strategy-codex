@@ -1,17 +1,17 @@
 ﻿# Rome
 
-**Civilizational Statecraft**, Volume III. Volume introduction: [Pax Romana](introduction.md). `civ-state-rome` is the workshop folder slug—not the book title.
+**Civilizational Statecraft**, Volume III. Volume introduction: [Pax Romana](../../docs/introduction.md). `civ-state-rome` is the workshop folder slug—not the book title.
 
 Rome is currently a source-memory volume rather than a full repo-root lane peer. Use it when the live object needs Roman republic/empire formation, late-imperial breakdown, Christian and Eastern Roman continuity, papal residue, or successor-order comparison.
 
 **Source-lattice:** [Rome source shelf](../../sources/rome/README.md) · [Source-Lattice](../../sources/source-lattice.md)
 
-Read [Pax Romana](introduction.md) for the volume entry. Transformed continuity case: sovereignty through republic, empire, Eastern Roman bridge, and Catholic residue — not one uninterrupted territorial state.
+Read [Pax Romana](../../docs/introduction.md) for the volume entry. Transformed continuity case: sovereignty through republic, empire, Eastern Roman bridge, and Catholic residue — not one uninterrupted territorial state.
 
 Primary source base: Rome source corpus
 
 **Opener Block**
-- Volume introduction: [Pax Romana](introduction.md)
+- Volume introduction: [Pax Romana](../../docs/introduction.md)
 - Deep grammar: Aeneas / Troy as mythic prehistory, with Roman law and civic order as civilizational grammar
 - Deep grammar retrieval: [Rome sacred grammar](sacred-grammar.md)
 - Sovereign opening: Romulus as the foundational sovereign

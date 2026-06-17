@@ -1,17 +1,17 @@
 ﻿# America
 
-**Civilizational Statecraft**, Volume V. Volume introduction: [Imperial Republic](introduction.md). `civ-state-america` is the workshop folder slug—not the book title.
+**Civilizational Statecraft**, Volume V. Volume introduction: [Imperial Republic](../../docs/introduction.md). `civ-state-america` is the workshop folder slug—not the book title.
 
 America is a live lane-backed volume. Use it when the problem is republic and empire together: maritime command, alliance management, sanctions, domestic legitimacy, bounded coercion, and successor-stable authority.
 
 **Source-lattice:** [America source shelf](../../sources/america/README.md) · [Source-Lattice](../../sources/source-lattice.md)
 
-Read [Imperial Republic](introduction.md) for the volume entry. Deliberately contested edge case: Anglo-American chain from Alfred through republic, maritime empire, and present strain.
+Read [Imperial Republic](../../docs/introduction.md) for the volume entry. Deliberately contested edge case: Anglo-American chain from Alfred through republic, maritime empire, and present strain.
 
 Primary live lane: America statecraft lane
 
 **Opener Block**
-- Volume introduction: [Imperial Republic](introduction.md)
+- Volume introduction: [Imperial Republic](../../docs/introduction.md)
 - Deep grammar: Anglo constitutional inheritance and Protestant / civil-religious legitimacy
 - Deep grammar retrieval: [America sacred grammar](sacred-grammar.md)
 - Sovereign opening: Alfred the Great as the foundational continuity sovereign

@@ -1,17 +1,17 @@
 ﻿# Persia
 
-**Civilizational Statecraft**, Volume II. Volume introduction: [Order of Asha](introduction.md). `civ-state-persia` is the workshop folder slug—not the book title.
+**Civilizational Statecraft**, Volume II. Volume introduction: [Order of Asha](../../docs/introduction.md). `civ-state-persia` is the workshop folder slug—not the book title.
 
 Persia is the civilizational title of the live Persia lane. Use this volume when the problem is dignity, sovereignty, sacred legitimacy, plateau endurance, chokepoint leverage, or recognition under pressure.
 
 **Source-lattice:** [Persia source shelf](../../sources/persia/README.md) · [Source-Lattice](../../sources/source-lattice.md)
 
-Read [Order of Asha](introduction.md) for the volume entry. Cyrus-founded chain with deeper Zoroastrian grammar; Islamic and Shi'a transformation without civilizational erasure.
+Read [Order of Asha](../../docs/introduction.md) for the volume entry. Cyrus-founded chain with deeper Zoroastrian grammar; Islamic and Shi'a transformation without civilizational erasure.
 
 Primary live lane: Persia statecraft lane
 
 **Opener Block**
-- Volume introduction: [Order of Asha](introduction.md)
+- Volume introduction: [Order of Asha](../../docs/introduction.md)
 - Deep grammar: Zoroaster as the deeper sacred grammar
 - Deep grammar retrieval: [Persia sacred grammar](sacred-grammar.md)
 - Sovereign opening: Cyrus as the foundational sovereign

@@ -2,7 +2,7 @@
 
 How *Civilizational Statecraft* is organized after the v0.1.12 theory reshape and v0.1.13 sources consolidation.
 
-This page is a **map of shelves**, not a file inventory. For the reader-facing table of contents, open [Table of Contents](../table-of-contents.md). For reading doctrine, open [Reader Guide](../reader-guide.md).
+This page is a **map of shelves**, not a file inventory. For the reader-facing table of contents, open [Table of Contents](table-of-contents.md). For reading doctrine, open [Reader Guide](reader-guide.md).
 
 ## What the book is
 
@@ -24,24 +24,24 @@ memory → legitimacy → carrier → pressure → settlement
 
 | Layer | Path | Role |
 |-------|------|------|
-| **Front door** | repo root | Book title, opening essay, reader guide, TOC, glossary, index |
+| **Front door** | repo root | Book title (`README.md`, `LICENSE`) |
+| **Docs** | `docs/` | Opening essay, reader guide, TOC, glossary, index, meta, contracts |
 | **Theory** | `theory/` | Six governing terms + rhythm and time law pages |
 | **Sources** | `sources/` | Source-lattice law and per-civilization evidence shelves |
 | **Volumes** | `volumes/{civ}/` | Interpretive doors: introduction, civilization and empire essays, sub-lenses, shelf-reader, sacred grammar |
 | **Essays** | `essays/` | Bounded cross-case or live-seam essays — not mixed into the theory term shelf |
-| **Docs** | `docs/` | Contracts, maps, and reference that is not volume prose, theory law, or source shelves |
 | **Skills** | `skills/` | Operator-facing retrieval recipes (optional for general readers) |
 | **Archive** | `archive/` | Legacy public cuts preserved for lineage — not the active reading path |
 
-## Front door (root)
+## Front door
 
-Start the whole work here:
+Start at [README.md](../README.md), then the docs shelf:
 
-1. [Civilization and Empire](../introduction.md) — opening essay; **not** the book title
-2. [Reader Guide](../reader-guide.md) — how to read correctly
-3. [Table of Contents](../table-of-contents.md) — five-volume map and appendix apparatus
+1. [Civilization and Empire](introduction.md) — opening essay; **not** the book title
+2. [Reader Guide](reader-guide.md) — how to read correctly
+3. [Table of Contents](table-of-contents.md) — five-volume map and appendix apparatus
 
-Supporting surfaces at root: [Glossary](../glossary.md), [Hybrid References](../hybrid-references.md), [Index](../index.md), [Founding Provenance](../FOUNDING-PROVENANCE.md).
+Supporting reference in `docs/`: [Glossary](glossary.md), [Hybrid References](hybrid-references.md), [Index](index.md), [Founding Provenance](FOUNDING-PROVENANCE.md).
 
 ## Theory shelf
 
@@ -98,11 +98,11 @@ Five volumes in sovereignty-chain order: [China](../volumes/china/README.md) →
 
 Whole-work essays that are comparative or live-seam but should not sit on the theory term shelf. Current set includes cross-case recurrence, high-skill labor compression, and Hormuz recognition / transit restraint.
 
-## Docs shelf
+## Docs shelf (detail)
 
-**SSOT:** `docs/`
+**SSOT:** `docs/` — see [Docs index](README.md) for the full list.
 
-Reference and contracts that help navigation and maintenance:
+Contract pages:
 
 - [Book architecture](book-architecture.md) (this page)
 - [Names and titles](names-and-titles.md)

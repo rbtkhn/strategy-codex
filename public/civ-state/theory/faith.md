@@ -46,7 +46,7 @@ Ask first:
 
 Return to:
 
-- [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local)
+- [Sacred grammar (volume-local)](../docs/reader-guide.md#sacred-grammar-volume-local)
 - volume **sacred-grammar.md** when one case governs
 - [Science](science.md) when hybrid or rival authorization must be named
 

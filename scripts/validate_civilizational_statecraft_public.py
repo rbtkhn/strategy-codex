@@ -44,16 +44,20 @@ DEFAULT_EXPORT = default_export_dir()
 
 REQUIRED_ROOT = [
     "README.md",
-    "table-of-contents.md",
-    "reader-guide.md",
+    "LICENSE",
+    "docs/README.md",
+    "docs/introduction.md",
+    "docs/table-of-contents.md",
+    "docs/reader-guide.md",
+    "docs/glossary.md",
+    "docs/hybrid-references.md",
+    "docs/index.md",
+    "docs/FOUNDING-PROVENANCE.md",
+    "docs/CONTRIBUTING.md",
+    "docs/manifest.yaml",
+    "docs/EXPORT-RECEIPT.md",
     "sources/README.md",
     "sources/source-lattice.md",
-    "glossary.md",
-    "manifest.yaml",
-    "LICENSE",
-    "CONTRIBUTING.md",
-    "FOUNDING-PROVENANCE.md",
-    "EXPORT-RECEIPT.md",
 ]
 
 REQUIRED_THEORY = [

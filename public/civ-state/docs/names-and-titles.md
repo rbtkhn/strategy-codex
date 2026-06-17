@@ -2,14 +2,14 @@
 
 Do not collapse these layers when reading or citing *Civilizational Statecraft*.
 
-Full reading doctrine lives in [Reader Guide](../reader-guide.md). This page is a **standalone reference** for title discipline.
+Full reading doctrine lives in [Reader Guide](reader-guide.md). This page is a **standalone reference** for title discipline.
 
 ## Core names
 
 | Name | Role |
 |------|------|
 | **Civilizational Statecraft** | Book title — the public reader-facing name for the whole work |
-| **Civilization and Empire** | Whole-work **opening essay** ([introduction.md](../introduction.md)) — **not** the book title |
+| **Civilization and Empire** | Whole-work **opening essay** ([introduction.md](introduction.md)) — **not** the book title |
 | **Volume introduction** | Each volume's thematic essay (e.g. Mandate of Heaven, Order of Asha) — **not** the whole-work essay |
 | **Civilizational motion** | Recurrent three-beat rhythm ([theory/rhythm.md](../theory/rhythm.md)): beautify → amplify → degrade — **not** the book title |
 | **civ-state** | GitHub repository slug and workshop folder name — source-memory substrate, **not** a reader title |
@@ -53,12 +53,12 @@ Volume stubs that redirect to `sources/{civ}/bibliography.md` are **not** a seco
 | Mistake | Correction |
 |---------|------------|
 | Calling the book "Civilization and Empire" | That names only the opening essay |
-| Calling a volume introduction the "whole-work thesis" | Open [introduction.md](../introduction.md) first for whole-book framing |
+| Calling a volume introduction the "whole-work thesis" | Open [introduction.md](introduction.md) first for whole-book framing |
 | Using **civ-state** in reader-facing prose | Use **Civilizational Statecraft** or the volume/chapter name |
 | Treating **civilizational motion** as the book title | Motion is rhythm law — see [Rhythm](../theory/rhythm.md) |
 
 ## Where to read next
 
-- [Reader Guide — Names and titles](../reader-guide.md#names-and-titles)
-- [Glossary](../glossary.md)
+- [Reader Guide — Names and titles](reader-guide.md#names-and-titles)
+- [Glossary](glossary.md)
 - [Book architecture](book-architecture.md)

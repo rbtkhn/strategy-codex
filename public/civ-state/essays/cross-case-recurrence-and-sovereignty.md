@@ -40,7 +40,7 @@ These names remain useful vocabulary; full sheets live in the operator archive.
 
 - [Theory shelf](../theory/README.md) — governing term and causal lens
 - [Volume Map](../volumes/README.md) — case depth
-- [Reader Guide](../reader-guide.md) — whole-work method
+- [Reader Guide](../docs/reader-guide.md) — whole-work method
 
 ## Bottom line
 

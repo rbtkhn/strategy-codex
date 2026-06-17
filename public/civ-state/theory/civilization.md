@@ -7,7 +7,7 @@ Surface: `civ-state`
 Purpose: govern reads where legitimacy substrate, symbolic inheritance, or continuity-bearing form is load-bearing  
 Last updated: 2026-06-17
 
-Not to be confused with the whole-work opening essay [*Civilization and Empire*](../introduction.md) — that essay introduces the book; this page names the **civilization** governing term.
+Not to be confused with the whole-work opening essay [*Civilization and Empire*](../docs/introduction.md) — that essay introduces the book; this page names the **civilization** governing term.
 
 ## Why this term
 
@@ -55,7 +55,7 @@ Useful distinctions:
 
 Return to:
 
-- [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local)
+- [Sacred grammar (volume-local)](../docs/reader-guide.md#sacred-grammar-volume-local)
 - volume **Civilization** chapters
 - [Rhythm](rhythm.md) when phase is beautifying or consolidating form
 

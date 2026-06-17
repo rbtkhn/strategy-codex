@@ -1,6 +1,6 @@
 # Theory
 
-Whole-work governing shelf for *Civilizational Statecraft*. Read [Civilization and Empire](../introduction.md) first — that title names the **opening essay**, not the book and not the term pages [civilization](civilization.md) / [empire](empire.md).
+Whole-work governing shelf for *Civilizational Statecraft*. Read [Civilization and Empire](../docs/introduction.md) first — that title names the **opening essay**, not the book and not the term pages [civilization](civilization.md) / [empire](empire.md).
 
 **Overlap is intentional.** Shared concepts appear in multiple term pages with different emphasis. Open the page whose **causal lens** matches the live object.
 
@@ -50,4 +50,4 @@ Open that term page before lane descent, era shelves, or transaction design. The
 
 ## SSOT
 
-Canonical ship-bound theory prose for the public book lives in this folder (`public/civ-state/theory/`). See [FOUNDING-PROVENANCE.md](../FOUNDING-PROVENANCE.md) for release history.
+Canonical ship-bound theory prose for the public book lives in this folder (`public/civ-state/theory/`). See [FOUNDING-PROVENANCE.md](../docs/FOUNDING-PROVENANCE.md) for release history.

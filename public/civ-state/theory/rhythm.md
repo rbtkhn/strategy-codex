@@ -11,7 +11,7 @@ Last updated: 2026-06-17
 
 ## Why this doctrine exists
 
-**Civilizational motion** names how inherited form and outward instrument move together across cases — not a flat rise-and-fall cycle. Read [Civilization and Empire](../introduction.md) for the opening essay; use this page for the motion law alone.
+**Civilizational motion** names how inherited form and outward instrument move together across cases — not a flat rise-and-fall cycle. Read [Civilization and Empire](../docs/introduction.md) for the opening essay; use this page for the motion law alone.
 
 ## Definition
 
@@ -78,7 +78,7 @@ Use this page when:
 - phase placement — consolidation, overreach, or degradation — governs
 - comparative judgment needs shared rhythm before volume grammar
 
-Do **not** use when the problem is vocabulary alone — use [Glossary](../glossary.md).
+Do **not** use when the problem is vocabulary alone — use [Glossary](../docs/glossary.md).
 
 ## See also
 

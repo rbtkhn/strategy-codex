@@ -22,7 +22,7 @@ Do not collapse these layers:
 | **Civilizational Statecraft** | Book title (public reader-facing name) |
 | **Civilization and Empire** | Whole-work opening essay ([introduction.md](introduction.md)) — not the book title |
 | **Volume introduction** | Each volume's thematic essay (e.g. Mandate of Heaven) — not the whole-work essay |
-| **Civilizational motion** | Recurrent three-beat rhythm ([theory/rhythm.md](theory/rhythm.md)) — beautify, amplify, degrade; not the book title |
+| **Civilizational motion** | Recurrent three-beat rhythm ([theory/rhythm.md](../theory/rhythm.md)) — beautify, amplify, degrade; not the book title |
 | **civ-state** | Workshop folder and GitHub repo slug — source-memory substrate, not a reader title |
 
 Within each volume, read **volume introduction → Civilization chapter → Empire chapter**. The whole work begins with **Civilization and Empire**, then this Reader Guide, then the volume map.
@@ -47,8 +47,8 @@ Begin with [Civilization and Empire](introduction.md) for the whole-book thesis,
 
 Then choose between two entry modes:
 
-- civilization-first entry through [Volume Map](volumes/README.md)
-- governing-layer entry through the [theory shelf](theory/README.md) — [Civilization](theory/civilization.md) · [Empire](theory/empire.md) · [Entropy](theory/entropy.md) · [Faith](theory/faith.md) · [Science](theory/science.md) · [Memory](theory/memory.md); for rhythm placement, [Rhythm](theory/rhythm.md)
+- civilization-first entry through [Volume Map](../volumes/README.md)
+- governing-layer entry through the [theory shelf](../theory/README.md) — [Civilization](../theory/civilization.md) · [Empire](../theory/empire.md) · [Entropy](../theory/entropy.md) · [Faith](../theory/faith.md) · [Science](../theory/science.md) · [Memory](../theory/memory.md); for rhythm placement, [Rhythm](../theory/rhythm.md)
 
 Choose civilization-first when the real question is:
 
@@ -62,7 +62,7 @@ Choose governing-layer entry when the real question is:
 - whether legitimacy, expertise, memory, or entropy (including behavioral overreach) is distorting the read
 - whether the object still needs retrieval discipline before lane drafting
 
-When chronology or shelf choice matters within that mode, read [Time](theory/time.md) (era law) before opening era files inside a volume.
+When chronology or shelf choice matters within that mode, read [Time](../theory/time.md) (era law) before opening era files inside a volume.
 
 ## How To Read One Civilization Volume
 
@@ -111,11 +111,11 @@ Each volume carries its own **`sacred-grammar.md`** beside introduction, Civiliz
 
 | Volume | File |
 |--------|------|
-| I — China | [volumes/china/sacred-grammar.md](volumes/china/sacred-grammar.md) |
-| II — Persia | [volumes/persia/sacred-grammar.md](volumes/persia/sacred-grammar.md) |
-| III — Rome | [volumes/rome/sacred-grammar.md](volumes/rome/sacred-grammar.md) |
-| IV — Russia | [volumes/russia/sacred-grammar.md](volumes/russia/sacred-grammar.md) |
-| V — America | [volumes/america/sacred-grammar.md](volumes/america/sacred-grammar.md) |
+| I — China | [volumes/china/sacred-grammar.md](../volumes/china/sacred-grammar.md) |
+| II — Persia | [volumes/persia/sacred-grammar.md](../volumes/persia/sacred-grammar.md) |
+| III — Rome | [volumes/rome/sacred-grammar.md](../volumes/rome/sacred-grammar.md) |
+| IV — Russia | [volumes/russia/sacred-grammar.md](../volumes/russia/sacred-grammar.md) |
+| V — America | [volumes/america/sacred-grammar.md](../volumes/america/sacred-grammar.md) |
 
 Sacred grammar is **not** sovereign opening, current carrier, official religion alone, or a policy memo. Build judgments from seed MEM → MEM CONNECTIONS → overview corroborators, then translate into book-native prose (workshop evidence rules apply).
 
@@ -173,7 +173,7 @@ Use it to:
 Then return downstream to:
 
 - lane civilization / empire / state surfaces
-- [Rhythm](theory/rhythm.md) when phase placement governs
+- [Rhythm](../theory/rhythm.md) when phase placement governs
 - transactions
 
 Do not try to spend the whole work directly when a narrower lane object now governs.
@@ -195,4 +195,4 @@ It must prevent five errors:
 - [Glossary](glossary.md)
 - [Hybrid References](hybrid-references.md)
 - [Index](index.md)
-- [Volume Map](volumes/README.md)
+- [Volume Map](../volumes/README.md)

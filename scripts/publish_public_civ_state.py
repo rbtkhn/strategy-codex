@@ -14,7 +14,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 MIRROR_REL = "public/civ-state"
 MIRROR_DIR = REPO_ROOT / MIRROR_REL
 REMOTE = "https://github.com/rbtkhn/civ-state.git"
-RECEIPT_NAME = "MIRROR-RECEIPT.md"
+RECEIPT_NAME = "docs/MIRROR-RECEIPT.md"
 DEFAULT_CLONE = Path(os.environ.get("CIV_STATE_PUBLISH_CLONE", r"C:\dev\civ-state"))
 EXCLUDE_DIRS = {".git", ".pytest_cache", "__pycache__"}
 WORKSPACE_ONLY_FILES = {RECEIPT_NAME}
@@ -70,7 +70,7 @@ def write_receipt(upstream_sha: str, branch: str) -> None:
         f"- **Inbound sync:** `scripts/sync_public_civ_state_mirror.py`\n"
         f"- **Outbound publish:** `scripts/publish_public_civ_state.py`\n\n"
         "Workspace staging copy of public Civilizational Statecraft. "
-        "Edit only under `public/civ-state/` in strategy-codex; "
+        "Edit only under `public/civ-state/` in the upstream workshop; "
         "push to GitHub only via the publish script.\n"
     )
     (MIRROR_DIR / RECEIPT_NAME).write_text(text, encoding="utf-8")
