@@ -20,8 +20,16 @@ Purpose: provide the current canonical route map for materialized Joe Kent appea
 - [youtube-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15](../../../source-archive/statecraft/2026-05-15/source-mario-nawfal-trump-stuck-in-a-war-he-doesnt-want-to-continue-w-ex-head-of-counter-terrorism-joe-kent-2026-05-15.md)
 - [transcript-nawfal-kent-trumps-life-is-under-threat-2026-05-28](../../../source-archive/statecraft/2026-05-28/source-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md)
 
+## 2026-06
+
+- [youtube-napolitano-kent-why-trump-is-stuck-2026-06-11](../../../source-archive/statecraft/2026-06-11/source-napolitano-kent-why-trump-is-stuck-2026-06-11.md)
+- [youtube-nawfal-kent-breaking-us-israeli-attack-likely-tonight-2026-06-10](../../../source-archive/statecraft/2026-06-10/source-nawfal-kent-breaking-us-israeli-attack-likely-tonight-2026-06-10.md)
+- [youtube-alkorshid-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01](../../../source-archive/statecraft/2026-06-01/source-alkorshid-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md)
+- [youtube-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16](../../../source-archive/statecraft/2026-06-16/source-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16.md)
+- [youtube-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16](../../../source-archive/statecraft/2026-06-16/source-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16.md)
+
 ## Boundary notes
 
 - The March through May 2026 cluster is the strongest current Kent entry point.
-- Tucker Carlson, Daniel Davis, Glenn Diesen, and Mario Nawfal are the main current host lanes on disk.
+- Tucker Carlson, Daniel Davis, Glenn Diesen, Mario Nawfal, Napolitano, Nima Alkhorshid, and Redacted are the main current host lanes on disk.
 - This index is a starter provenance bench, not evidence that the shelf already owns a full speaker chronology.

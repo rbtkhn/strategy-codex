@@ -4,10 +4,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `15`
+- Source files: `16`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (13), `transcript` (2)
-- Source form mix: `interview` (13), `solo` (2)
+- Body kind mix: `cleaned-transcript` (14), `transcript` (2)
+- Source form mix: `interview` (14), `solo` (2)
 - Distinct channels/shows: `7`
 - Distinct hosts: `6`
 - Distinct guests: `13`
@@ -15,13 +15,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (4), `Judging Freedom` (3), `Mario Nawfal` (3), `Daniel Davis Deep Dive` (2), `Alexander Mercouris` (1), `Breaking Points` (1), `Redacted News` (1)
+- `Dialogue Works` (4), `Judging Freedom` (3), `Mario Nawfal` (3), `Daniel Davis Deep Dive` (2), `Redacted News` (2), `Alexander Mercouris` (1), `Breaking Points` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (4), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Breaking Points` (1), `Clayton Morris` (1), `Natali Morris` (1)
-- Guests: `Brandon J. Weichert` (2), `Chas Freeman` (1), `Douglas Macgregor` (1), `Joe Kent` (1), `John Helmer` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Patrick Henningsen` (1), `Pepe Escobar` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1), `[]` (1)
-- Threads: `nima` (4), `napolitano` (3), `nawfal` (3), `davis` (2), `weichert` (2), `breaking-points` (1), `escobar` (1), `freeman` (1), `helmer` (1), `henningsen` (1), `hoh` (1), `johnson` (1), `kent` (1), `macgregor` (1), `marandi` (1), `mercouris` (1), `pape` (1), `parsi` (1), `redacted` (1)
+- Hosts: `Nima Alkhorshid` (4), `Clayton Morris` (2), `Natali Morris` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Breaking Points` (1)
+- Guests: `Brandon J. Weichert` (2), `Joe Kent` (2), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Helmer` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Patrick Henningsen` (1), `Pepe Escobar` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1), `[]` (1)
+- Threads: `nima` (4), `napolitano` (3), `nawfal` (3), `davis` (2), `kent` (2), `redacted` (2), `weichert` (2), `breaking-points` (1), `escobar` (1), `freeman` (1), `helmer` (1), `henningsen` (1), `hoh` (1), `johnson` (1), `macgregor` (1), `marandi` (1), `mercouris` (1), `pape` (1), `parsi` (1)
 
 ## Ingest register
 
@@ -44,6 +44,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | Robert Pape | Mario Nawfal | `pape`, `nawfal` | [QA0tz7yt7NI](https://www.youtube.com/watch?v=QA0tz7yt7NI) |
 | Brandon J. Weichert | Mario Nawfal | `weichert`, `nawfal` | [V7OY8cLGyjs](https://www.youtube.com/watch?v=V7OY8cLGyjs) |
 | Brandon J. Weichert | Redacted News | `weichert`, `redacted` | [LnwU2nk2byE](https://www.youtube.com/watch?v=LnwU2nk2byE) |
+| Joe Kent | Redacted News | `kent`, `redacted` | [NfJbbcVNJmo](https://www.youtube.com/watch?v=NfJbbcVNJmo) |
 
 ## Files
 
@@ -62,3 +63,4 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 - `source-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md`
 - `source-nawfal-weichert-breaking-full-iran-mou-leaked-axios-2026-06-16.md`
 - `source-redacted-brandon-weichert-collapse-96-hours-israel-bombs-lebanon-2026-06-16.md`
+- `source-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16.md`
