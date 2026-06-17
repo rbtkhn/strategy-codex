@@ -66,7 +66,8 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 - [Hormuz recognition / transit restraint](essays/hormuz-recognition-transit-restraint.md)
 
 ## More apparatus
-- [Docs](docs/README.md) · [Skills](skills/README.md) · [Sources](sources/README.md)
+- [Docs](docs/README.md) — [book architecture](docs/book-architecture.md) · [names and titles](docs/names-and-titles.md) · [era spine](docs/era-spine.md) · [release history](docs/release-history.md)
+- [Skills](skills/README.md) · [Sources](sources/README.md)
 - [Sacred grammar (volume-local)](reader-guide.md#sacred-grammar-volume-local) · [Volume Map](volumes/README.md)
 - [Glossary](glossary.md) · [Hybrid references](hybrid-references.md) · [Index](index.md)
 
