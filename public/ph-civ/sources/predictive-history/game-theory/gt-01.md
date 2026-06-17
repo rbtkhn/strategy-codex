@@ -174,7 +174,7 @@ So in Israel, fertility is status. Okay? If you are a woman and you give birth t
 
 Right? So what is valued in our world in the west? It's not patriotism or love of family or religious duty. It's just how many Instagram followers you have. It's how many YouTube subscribers you have. It's how many how much money you have. Okay? That's all that matters. So given the current state of state of events, it's very hard for the Western world and really for China to survive for the next 50 years. Okay.
 
-And I and I know like well China has a billion people. So even though um you know we're only giving birth to 10 million kids a year which will still be around for a long long time. Okay. So at the Strait by 2100 China will be will be at a population about 600 million. That's still a lot of people man. Um okay here's the problem though. Okay.
+And I and I know like well China has a billion people. So even though um you know we're only giving birth to 10 million kids a year which will still be around for a long long time. Okay. So at this rate by 2100 China will be will be at a population about 600 million. That's still a lot of people man. Um okay here's the problem though. Okay.
 
 This is South Korea. Okay. South Korea is like the worst case scenario and for South Korea this is actually the best case scenario where okay given current trends and let's let's just pretend that nothing bad happens to South Korea. Well, by the year 2100 you you have a situation like this where the vast majority of people are over 65 and you have no kids.
 

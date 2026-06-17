@@ -23,9 +23,9 @@ Treat this chapter folder as a small source-lattice:
 ## CIV-STATE Bridge
 
 - Primary civilization carrier: Russia
-- Shelf reader: [CIV-STATE Russia](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/states/volumes/civ-state-russia/civ-state-russia-shelf-reader.md)
-- Primary sources: [Russia industrial primary sources](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/states/volumes/civ-state-russia/civ-state-russia-primary-sources-industrial.md)
-- Secondary sources: [Russia industrial secondary sources](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/states/volumes/civ-state-russia/civ-state-russia-secondary-sources-industrial.md)
+- Shelf reader: [CIV-STATE Russia](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/civ-state/volumes/civ-state-russia/civ-state-russia-shelf-reader.md)
+- Primary sources: [Russia industrial primary sources](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/civ-state/volumes/civ-state-russia/civ-state-russia-primary-sources-industrial.md)
+- Secondary sources: [Russia industrial secondary sources](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/civ-state/volumes/civ-state-russia/civ-state-russia-secondary-sources-industrial.md)
 - Usage rule: start with this chapter packet. Open the CIV-STATE shelf-reader when you need the wider civilizational source floor behind the lecture, then descend into primary and secondary sources selectively.
 
 ## Staged Status

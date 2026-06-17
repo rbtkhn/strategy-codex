@@ -826,7 +826,7 @@ Whereas um countries like Iran that have
 been isolated, ostracized by the west
 are much more cohesive. Okay.
 All right.
-Can the Strait of Hormuz be avoided by
+Can the straight of moose be avoided by
 laying gaps pipe through Oman? No. No.
 That's not how these things work. Okay.
 What Iran is doing is using circle moves

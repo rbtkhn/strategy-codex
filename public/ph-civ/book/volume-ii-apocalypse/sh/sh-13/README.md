@@ -23,9 +23,9 @@ Treat this chapter folder as a small source-lattice:
 ## CIV-STATE Bridge
 
 - Primary civilization carrier: China
-- Shelf reader: [CIV-STATE China](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/states/volumes/civ-state-china/civ-state-china-shelf-reader.md)
-- Primary sources: [China ancient primary sources](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/states/volumes/civ-state-china/civ-state-china-primary-sources-ancient.md)
-- Secondary sources: [China ancient secondary sources](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/states/volumes/civ-state-china/civ-state-china-secondary-sources-ancient.md)
+- Shelf reader: [CIV-STATE China](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/civ-state/volumes/civ-state-china/civ-state-china-shelf-reader.md)
+- Primary sources: [China ancient primary sources](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/civ-state/volumes/civ-state-china/civ-state-china-primary-sources-ancient.md)
+- Secondary sources: [China ancient secondary sources](https://github.com/rbtkhn/strategy-codex/blob/main/statecraft/civ-state/volumes/civ-state-china/civ-state-china-secondary-sources-ancient.md)
 - Usage rule: start with this chapter packet. Open the CIV-STATE shelf-reader when you need the wider civilizational source floor behind the lecture, then descend into primary and secondary sources selectively.
 
 ## Staged Status

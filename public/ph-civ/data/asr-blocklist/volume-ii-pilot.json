@@ -21,7 +21,7 @@
     "civ-17",
     "civ-18"
   ],
-  "source_script": "public/ph-civ/scripts/_pilot_asr_normalize_civ01_civ07.py",
+  "source_script": "statecraft/civ-lens/jiang/ph-civ/scripts/_pilot_asr_normalize_civ01_civ07.py",
   "allowed_residuals": [
     {
       "literal": "effing",
