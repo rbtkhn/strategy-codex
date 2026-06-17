@@ -56,16 +56,32 @@ REQUIRED_ROOT = [
 ]
 
 REQUIRED_THEORY = [
-    "theory/form.md",
-    "theory/truth.md",
+    "theory/README.md",
+    "theory/civilization.md",
+    "theory/empire.md",
+    "theory/entropy.md",
+    "theory/faith.md",
+    "theory/science.md",
     "theory/memory.md",
     "theory/rhythm.md",
     "theory/time.md",
-    "theory/continuity.md",
-    "theory/patterns/README.md",
 ]
 
+STRICT_THEORY_TERMS = [
+    "theory/civilization.md",
+    "theory/empire.md",
+    "theory/entropy.md",
+    "theory/faith.md",
+    "theory/science.md",
+    "theory/memory.md",
+    "theory/rhythm.md",
+    "theory/time.md",
+]
+
+STRICT_THEORY_HEADING = "## Causal connections"
+
 REQUIRED_ESSAYS = [
+    "essays/cross-case-recurrence-and-sovereignty.md",
     "essays/high-skill-labor-compression-and-civilizational-statecraft.md",
     "essays/hormuz-recognition-transit-restraint.md",
 ]
@@ -117,6 +133,18 @@ def check_forbidden(
 
 def check_required(export: Path, paths: list[str]) -> list[str]:
     return [f"missing required file: {p}" for p in paths if not (export / p).is_file()]
+
+
+def check_strict_theory(export: Path) -> list[str]:
+    errors: list[str] = []
+    for rel in STRICT_THEORY_TERMS:
+        path = export / rel
+        if not path.is_file():
+            continue
+        text = path.read_text(encoding="utf-8")
+        if STRICT_THEORY_HEADING not in text:
+            errors.append(f"strict-theory: missing `{STRICT_THEORY_HEADING}` in {rel}")
+    return errors
 
 
 def check_volume(export: Path, slug: str, eras: list[str], stub: bool) -> list[str]:
@@ -177,6 +205,11 @@ def main() -> int:
         action="store_true",
         help="Validate every markdown file; ignore manifest validation_exclude_prefixes.",
     )
+    parser.add_argument(
+        "--strict-theory",
+        action="store_true",
+        help="Require ## Causal connections in each governing term and law page.",
+    )
     args = parser.parse_args()
 
     export = args.export_dir.resolve()
@@ -198,6 +231,8 @@ def main() -> int:
     errors.extend(check_required(export, REQUIRED_ROOT))
     errors.extend(check_required(export, REQUIRED_THEORY))
     errors.extend(check_required(export, REQUIRED_ESSAYS))
+    if args.strict_theory:
+        errors.extend(check_strict_theory(export))
     errors.extend(check_forbidden(export, manifest.get("forbidden_patterns", []), exclude_prefixes))
 
     era_spine = manifest.get("era_spine", {})

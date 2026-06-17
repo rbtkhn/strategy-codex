@@ -23,7 +23,7 @@ Whole-work doors:
 - [Index](../index.md)
 - [Volume map](../volumes/README.md)
 - [Civilizational Statecraft Framework](../theory/README.md) — Form · Truth · Memory
-- [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](../civilization-empire-faith-science-memory-desire-retrieval-checklist.md)
+- [Civilization, Empire, Faith, Science, Memory, Entropy Retrieval Checklist](../civilization-empire-faith-science-memory-entropy-retrieval-checklist.md)
 
 Retrieval maps and difficulty surfaces:
 

@@ -39,4 +39,4 @@ Switchboard rule:
 - Open [Russia civilization](civilization-russia.md) if the live question is continuity, legitimacy, or restoration claim.
 - Open [Russia empire](empire-russia.md) if the live question is depth, scale, or projection.
 - Open [Russia empire](empire-russia.md) if the live question is recognition, encirclement, coercive room, or settlement.
-- Return to [Source Retrieval Matrix](../../indexes/source-retrieval-matrix.md) or [Continuity Mechanism](../../theory/continuity.md) only after the Russia shelf has been read as a late-opening chain.
+- Return to the [cross-case recurrence essay](../../../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md) only after the Russia shelf has been read as a late-opening chain.

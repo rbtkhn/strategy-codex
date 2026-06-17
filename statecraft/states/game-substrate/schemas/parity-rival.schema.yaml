@@ -1,6 +1,6 @@
 # Parity Rival — pattern schema v0.1
 # WORK only; not Record.
-# Prose authority: theory/patterns/parity-rival.md
+# Prose authority: archive/theory-cross-case-v1/patterns/parity-rival.md
 
 schema_version: "0.1"
 pattern_id: parity_rival
@@ -75,8 +75,8 @@ strongest_volume: persia
 weaker_volumes: [china, rome_partial]
 
 book_anchors:
-  - theory/patterns/parity-rival.md
-  - theory/continuity.md
+  - archive/theory-cross-case-v1/patterns/parity-rival.md
+  - archive/theory-cross-case-v1/continuity.md
 
 counterweight:
   summary: >

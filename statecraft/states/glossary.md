@@ -26,11 +26,11 @@ The governing six-term frame — civilization, empire, faith, science, memory, d
 
 ### Form
 
-The **civilization ↔ empire** pair: inherited order versus outward instrument. Canonical page: [theory/form.md](theory/form.md). Use when legitimacy substrate and amplification stack must be separated before lane descent.
+The **civilization ↔ empire** distinction: inherited order versus outward instrument. Canonical pages: [civilization.md](../../public/civ-state/theory/civilization.md) · [empire.md](../../public/civ-state/theory/empire.md).
 
 ### Truth
 
-The **faith ↔ science** pair: coequal truth-orders that authorize, hybridize, or compete. Canonical page: [theory/truth.md](theory/truth.md). Not reducible to religion versus laboratories.
+The **faith ↔ science** distinction: coequal truth-orders that authorize, hybridize, or compete. Canonical pages: [faith.md](../../public/civ-state/theory/faith.md) · [science.md](../../public/civ-state/theory/science.md).
 
 ### Memory (framework pair)
 

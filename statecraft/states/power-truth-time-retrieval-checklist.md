@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Status: Superseded by `civilization-empire-faith-science-memory-desire-retrieval-checklist.md`
+Status: Superseded by `civilization-empire-faith-science-memory-entropy-retrieval-checklist.md`
 Surface: `civ-state`
 Purpose: turn the `power / truth / time` annex into a bounded retrieval discipline before lane translation or clause drafting
 Last updated: 2026-05-26
@@ -11,7 +11,7 @@ Last updated: 2026-05-26
 
 This note is retained as historical residue.
 
-The active bounded operator pass now lives in [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md). Use this older checklist only if you specifically need the prior triadic compression for comparison or migration archaeology.
+The active bounded operator pass now lives in [Civilization, Empire, Faith, Science, Memory, Entropy Retrieval Checklist](civilization-empire-faith-science-memory-entropy-retrieval-checklist.md). Use this older checklist only if you specifically need the prior triadic compression for comparison or migration archaeology.
 
 Use this checklist when a live object feels larger than route geometry, leverage, or continuity alone and you need a disciplined higher-order read before descending into:
 

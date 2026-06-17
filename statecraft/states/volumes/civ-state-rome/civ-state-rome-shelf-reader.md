@@ -40,4 +40,4 @@ Switchboard rule:
 - Open [Rome civilization](civilization-rome.md) if the live question is legitimacy, continuity, or category membership.
 - Open [Rome empire](empire-rome.md) if the live question is universality, projection, or imperial residue.
 - Open [Rome empire](empire-rome.md) if the live question is present-tense successor-order comparison.
-- Return to [Continuity Mechanism](../../theory/continuity.md) or the [Pattern Library](../../theory/patterns/README.md) only after the Roman shelf has been read as transformed continuity.
+- Return to the [cross-case recurrence essay](../../../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md) only after the Roman shelf has been read as transformed continuity.

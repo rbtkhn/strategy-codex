@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-Status: Superseded by `theory/form.md`
+Status: Superseded by [`public/civ-state/theory/`](../../public/civ-state/theory/README.md)
 Surface: `civ-state`
 Purpose: provide a higher-order orientation frame and academic genealogy for Civilization and Empire retrieval
 Last updated: 2026-05-26
@@ -11,7 +11,7 @@ Last updated: 2026-05-26
 
 This note is retained as genealogy and historical residue.
 
-The active CIV-STATE framework now lives on the [theory shelf](theory/README.md) — [Form](theory/form.md), [Truth](theory/truth.md), and [Memory](theory/memory.md). Use this older annex only when you specifically need the compressed triadic genealogy or the academic literature review that accompanied it.
+The active CIV-STATE framework now lives on the ship-bound [theory shelf](../../public/civ-state/theory/README.md) — six governing terms (civilization, empire, entropy, faith, science, memory) plus rhythm and time law. Use this older annex only when you specifically need the compressed triadic genealogy or the academic literature review that accompanied it.
 
 `civ-state` is named for **Civilization and Empire**, but repeated use quickly reveals that the pair sits inside a larger architecture.
 
@@ -294,7 +294,7 @@ Use this annex when:
 - a civilizational comparison needs more than routes, coercion, and institutions
 - the operator needs a higher-order orientation frame before descending back into helix, family, or lane work
 
-For the active bounded operator version of that move, use the [Civilization, Empire, Faith, Science, Memory, Desire Retrieval Checklist](civilization-empire-faith-science-memory-desire-retrieval-checklist.md). Use the older triadic checklist only for comparison or migration archaeology.
+For the active bounded operator version of that move, use the [Civilization, Empire, Faith, Science, Memory, Entropy Retrieval Checklist](civilization-empire-faith-science-memory-entropy-retrieval-checklist.md). Use the older triadic checklist only for comparison or migration archaeology.
 
 For post-1991 objects centered on deterrence, compute, identity rails, platform authority, signal management, or systems governance, treat `Cybernetic` as a likely retrieval overlay rather than as a mandatory first-router.
 

@@ -60,7 +60,7 @@ Do not use:
 
 Recommend exactly one path:
 
-- recommend `A. Frame` when the live pressure is `what layer or governing pair actually carries this object?`
+- recommend `A. Frame` when the live pressure is `what governing term or rhythm/time placement actually carries this object?`
 - recommend `B. Retrieve` when the live pressure is `which CIV-STATE surface should I open now?`
 - recommend `C. Promote` when the live pressure is `should this speaker-state or PH-CIV pattern cross the membrane into CIV-STATE?`
 - recommend `D. Review` when the live pressure is `what CIV-STATE residue is ready for tightening, correction, or hardening?`
@@ -76,10 +76,10 @@ Use when the object is still interpretively unstable.
 Route toward:
 
 - `statecraft-framework`
-- `statecraft/states/theory/form.md` · `truth.md` · `memory.md`
-- the retrieval checklist when pair diagnosis is the real bottleneck
+- `public/civ-state/theory/` — six governing terms + rhythm/time law
+- [Civilization, Empire, Faith, Science, Memory, Entropy Retrieval Checklist](../../statecraft/states/civilization-empire-faith-science-memory-entropy-retrieval-checklist.md) when term diagnosis is the bottleneck
 
-This is for governing-pair diagnosis and CIV-STATE interpretive orientation, not volume writing.
+This is for governing-term diagnosis and CIV-STATE interpretive orientation, not volume writing.
 
 ### B. Retrieve
 

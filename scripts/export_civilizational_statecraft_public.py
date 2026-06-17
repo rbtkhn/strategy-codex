@@ -153,17 +153,14 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
 
 1. [Glossary](glossary.md)
 2. [Volume Map](volumes/README.md)
-3. [Framework shelf](theory/README.md)
-4. [Rhythm](theory/rhythm.md)
-5. [Form](theory/form.md)
-6. [Truth](theory/truth.md)
-7. [Memory](theory/memory.md)
-8. [Time](theory/time.md)
-9. [Hybrid References](hybrid-references.md)
-10. [Continuity Mechanism](theory/continuity.md)
-11. [Pattern Library](theory/patterns/README.md)
-12. [Index](index.md)
-13. [Source-Lattice](source-lattice.md)
+3. [Theory shelf](theory/README.md)
+4. [Rhythm](theory/rhythm.md) · [Time](theory/time.md)
+5. [Civilization](theory/civilization.md) · [Empire](theory/empire.md) · [Entropy](theory/entropy.md)
+6. [Faith](theory/faith.md) · [Science](theory/science.md) · [Memory](theory/memory.md)
+7. [Cross-case recurrence essay](essays/cross-case-recurrence-and-sovereignty.md)
+8. [Hybrid References](hybrid-references.md)
+9. [Index](index.md)
+10. [Source-Lattice](source-lattice.md)
 
 """
 
@@ -193,12 +190,11 @@ Use this layer when the problem is retrieval, comparison, or vocabulary rather t
         if block:
             replacement = (
                 block.group(1)
-                + "1. [Framework shelf](theory/README.md)\n"
+                + "1. [Theory shelf](theory/README.md)\n"
                 + "2. [Hybrid References](hybrid-references.md)\n"
                 + "3. [Index](index.md)\n"
                 + "4. [Source-Lattice](source-lattice.md)\n"
-                + "5. [Continuity Mechanism](theory/continuity.md)\n"
-                + "6. [Pattern Library](theory/patterns/README.md)\n"
+                + "5. [Cross-case recurrence essay](essays/cross-case-recurrence-and-sovereignty.md)\n"
             )
             text = text[: block.start()] + replacement + text[block.end() :]
         text = re.sub(
@@ -423,12 +419,16 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
             text,
         )
 
-    form = f"{prefix}theory/form.md"
-    truth = f"{prefix}theory/truth.md"
+    form = f"{prefix}theory/civilization.md"
+    truth = f"{prefix}theory/faith.md"
+    empire = f"{prefix}theory/empire.md"
+    entropy = f"{prefix}theory/entropy.md"
+    science = f"{prefix}theory/science.md"
     memory = f"{prefix}theory/memory.md"
     rhythm = f"{prefix}theory/rhythm.md"
     time = f"{prefix}theory/time.md"
     theory_readme = f"{prefix}theory/README.md"
+    cross_case = f"{prefix}essays/cross-case-recurrence-and-sovereignty.md"
     text = re.sub(
         r"\]\((?:\.\./)*(?:theory/)?form\.md\)",
         f"]({form})",
@@ -442,6 +442,31 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
     text = re.sub(
         r"\]\((?:\.\./)*(?:theory/)?truth\.md\)",
         f"]({truth})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:theory/)?civilization\.md\)",
+        f"]({form})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:theory/)?empire\.md\)",
+        f"]({empire})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:theory/)?entropy\.md\)",
+        f"]({entropy})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:theory/)?faith\.md\)",
+        f"]({truth})",
+        text,
+    )
+    text = re.sub(
+        r"\]\((?:\.\./)*(?:theory/)?science\.md\)",
+        f"]({science})",
         text,
     )
     text = re.sub(
@@ -494,8 +519,8 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         f"]({form})",
         text,
     )
-    continuity = f"{prefix}theory/continuity.md"
-    patterns = f"{prefix}theory/patterns/"
+    continuity = cross_case
+    patterns = cross_case
     text = re.sub(
         r"\]\((?:\.\./)*continuity-mechanism\.md\)",
         f"]({continuity})",

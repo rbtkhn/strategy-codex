@@ -1,7 +1,9 @@
 # Civilizational Statecraft public export manifest (WORK; not Record)
 # SSOT for scripts/export_civilizational_statecraft_public.py
 schema_version: "1.0.0"
-release_tag: "v0.1.11"
+release_tag: "v0.1.12"
+# Ship-bound theory SSOT: public/civ-state/theory/ — edit there for reader-facing theory prose.
+# source_root is workshop promotion residue only; not the daily theory edit surface.
 canonical_public_repo: "https://github.com/rbtkhn/civ-state"
 legacy_public_repo: "https://github.com/rbtkhn/civ-emp"
 
@@ -62,27 +64,7 @@ apparatus:
   - src: hybrid-references.md
     dest: hybrid-references.md
     transform: hybrid_references_public
-  - src: theory/form.md
-    dest: theory/form.md
-    transform: strip_work_fence
-  - src: theory/truth.md
-    dest: theory/truth.md
-    transform: strip_work_fence
-  - src: theory/memory.md
-    dest: theory/memory.md
-    transform: strip_work_fence
-  - src: theory/time.md
-    dest: theory/time.md
-    transform: strip_work_fence
-  - src: theory/rhythm.md
-    dest: theory/rhythm.md
-    transform: strip_work_fence
-  - src: theory/continuity.md
-    dest: theory/continuity.md
-    transform: strip_work_fence
-  - src: theory/README.md
-    dest: theory/README.md
-    transform: strip_work_fence
+  # theory/* — v0.1.12+: ship-bound SSOT is public/civ-state/theory/ (not promoted from workshop)
   - src: essays/high-skill-labor-compression-and-civilizational-statecraft.md
     dest: essays/high-skill-labor-compression-and-civilizational-statecraft.md
     transform: high_skill_public
@@ -91,9 +73,6 @@ apparatus:
     transform: hormuz_public
 
 directories:
-  - src: theory/patterns
-    dest: theory/patterns
-    transform: strip_work_fence
   - src: docs
     dest: docs
     transform: strip_work_fence

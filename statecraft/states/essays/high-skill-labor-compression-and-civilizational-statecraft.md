@@ -103,7 +103,7 @@ Best downstream partners:
 
 - [README.md](README.md)
 - [ph-civ-to-civ-state-bridge.md](ph-civ-to-civ-state-bridge.md)
-- [theory/README.md](theory/README.md) · [form.md](theory/form.md) · [truth.md](theory/truth.md) · [memory.md](theory/memory.md)
+- [public/civ-state/theory/README.md](../../public/civ-state/theory/README.md) · [civilization.md](../../public/civ-state/theory/civilization.md) · [faith.md](../../public/civ-state/theory/faith.md) · [memory.md](../../public/civ-state/theory/memory.md)
 - [../statecraft.md](../statecraft.md)
 - [../README.md](../README.md)
 - [../../essays/sovereignty-under-acceleration.md](../../essays/sovereignty-under-acceleration.md)

@@ -50,7 +50,7 @@ Begin with [Civilization and Empire](introduction.md) for the whole-book thesis,
 Then choose between two entry modes:
 
 - civilization-first entry through [Volume Map](volumes/README.md)
-- governing-layer entry through the [theory shelf](theory/README.md) — [Form](theory/form.md) · [Truth](theory/truth.md) · [Memory](theory/memory.md); for rhythm placement, [Rhythm](theory/rhythm.md)
+- governing-layer entry through the ship-bound [theory shelf](../../public/civ-state/theory/README.md) — six governing terms + [Rhythm](../../public/civ-state/theory/rhythm.md) / [Time](../../public/civ-state/theory/time.md) law
 
 Choose civilization-first when the real question is:
 

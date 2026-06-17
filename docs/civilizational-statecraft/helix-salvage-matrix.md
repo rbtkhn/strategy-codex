@@ -20,7 +20,7 @@ Maps the legacy **`rbtkhn/civ-emp`** helix-lane public cut to the **`rbtkhn/civ-
 | `transactions/*` | **Do not publish** | strategy-codex operator layer |
 | Orientation routers (`migration/orientation-*.md`) | Archive | `reader-guide.md`, `source-lattice.md` |
 | `indexes/source-retrieval-matrix.md` | **Do not publish** | Public source-lattice + volume shelves |
-| `synthesis/*` helix memos | Audit → distill | `theory/continuity.md`, pattern-library |
+| `synthesis/*` helix memos | Audit → distill | `public/civ-state/theory/` + cross-case essay |
 | `iran/hormuz-recognition-transit-restraint.md` | Publish (transformed) | `essays/hormuz-recognition-transit-restraint.md` |
 | Hormuz proof logic in transactions | **Do not publish** | Mechanism already in comparative object |
 | `ARCHITECTURE.md` helix doctrine | Archive | `FOUNDING-PROVENANCE.md` + `archive/helix-lane-v1/` |
@@ -39,8 +39,8 @@ Maps the legacy **`rbtkhn/civ-emp`** helix-lane public cut to the **`rbtkhn/civ-
 ## High-value distillations (P0)
 
 1. **Hormuz** — already in `statecraft/states/essays/hormuz-recognition-transit-restraint.md` → export to comparative/
-2. **Continuity mechanism** — whole-work comparative door (`theory/continuity.md`)
-3. **Pattern library** — cross-case sheets under `theory/patterns/`
+2. **Continuity mechanism** — [cross-case recurrence essay](../../public/civ-state/essays/cross-case-recurrence-and-sovereignty.md); operator archive `statecraft/states/archive/theory-cross-case-v1/`
+3. **Pattern library** — retired from public shelf; archived under `statecraft/states/archive/theory-cross-case-v1/patterns/`
 4. **Sacred grammar** — legitimacy substrate per civ
 
 ## Archive location
