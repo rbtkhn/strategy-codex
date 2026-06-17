@@ -13,8 +13,9 @@ channel_slug: "alex-mercouris"
 source_url: "https://www.youtube.com/watch?v=-zPtc0lBKRo"
 source_note: "Operator-pasted YouTube transcript for Alex Mercouris hub capture. Transcript self-date conflicts with operator day framing and weekday/calendar, so archive date is normalized to 2026-06-05. · ASR pass 2026-06-15."
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved.
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+mercouris_close_promo_trim_applied: true
 ---
 # Putin Uncompromising Tells West MSM Oreshnik Will Strike Kiev Russia Winning; Zelensky Pleads Summit
 
@@ -121,4 +122,4 @@ That magical thinking never seems to go away. It remains there. Gordon Han of co
 But of course, that is what we continue to see. I don't think anything can change that. Putin may believe that at some point in the future he's going to get his deal with the Americans and the Europeans to secure Russia's western borders. I would say that on this Putin is engaging in my opinion in wishful thinking himself.
 you can perhaps see some more rational basis for it. But certainly when it comes to the UK Europeans, I think that Putin himself, like many rational people, continues to fail to understand the fundamental irrationality of the people that he is dealing with. And I'm going to say it, despite these votes in Congress, I think the same is true about the United States as well.
  So the war will go on. Um Donbass Zaparo will fall. The Russian economy will not collapse. The political situation in Russia will remain stable. All the problems will remain unresolved and at some point the Russians are going to have to face up to that reality too and decide what they do next and face the fact that even after the fall of Donbass and of Zaporozhye the special military operation in some form will have to continue and that an advance on Kiev itself is inevitable.
-Well, that this is the point where I end today's program. Let me remind you again, you can find all our programs on our various platforms, Locals, Rumble, X, and Substack. You can support our work via Patreon and Subscribe Star and by going to our shop links under this video. Last but not least, please remember if you've liked this video to tick the like button and to check your subscription to this channel.
+Well, that this is the point where I end today's program.

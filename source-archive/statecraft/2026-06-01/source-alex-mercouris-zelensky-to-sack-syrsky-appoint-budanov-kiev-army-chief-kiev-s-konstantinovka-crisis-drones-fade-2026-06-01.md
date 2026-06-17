@@ -17,8 +17,9 @@ source_type: youtube
 transcript_type: ai_assisted_operator_pasted_youtube_transcript
 source_note: "Operator-pasted YouTube transcript preserved as canonical June 1, 2026 Alexander Mercouris raw-input capture. · ASR pass 2026-06-15."
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved.
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+mercouris_close_promo_trim_applied: true
 ---
 # Zelensky To Sack Syrsky Appoint Budanov Kiev Army Chief; Kiev's Konstantinovka Crisis; Drones Fade
 
@@ -138,6 +139,3 @@ for ending the war is trying to provoke the Iranians into restarting the war all
  the insistent demands of the Israelis and of President Trump's near friends that the war against Iran be continued until a victorious conclusion is achieved. the total destruction of Iran's nuclear program on the most humiliating terms and ultimately regime change in Iran. Whereas Trump also has to confront the reality that the US military are telling him that they are in no condition to resume the war because of the depletion of their own arsenals and the strength of the Iranian ones.
 So Trump unable to make peace but also conscious of the economics of the economic crisis that might be just there over the horizon. Well, it does seem as if he's now experimenting with various attacks on um the Iranians instead. And it could be that we will indeed see a drift back to war. My guess, by the way, is that if we do see a drift back to war, if we start to see exchanges on the same scale that we saw in March, that will not last for very long.
 And Trump very quickly faced with pressure in the energy markets and further depletion of American inventories will be quickly forced to call it a day. But anyway, nothing is impossible. The one thing that does seem to me clear is that despite the endless assumptions of a breakthrough in the negotiations, as of today, that breakthrough is as far off as ever.
-Well, this is where I'm going to finish today's program. Let me remind you that you can find all our programs on our various platforms, Locals, Rumble, um, X and the others. You can support our work via Patreon and subri subscribe star and by going to our shop links under this video. Remember that there's a major promotion underway in our shop.
-Last but not least, if you've liked this video, please remember to tick the like button and to check your subscription to this channel. That's me for today. More from me soon. Have a very good day.
-

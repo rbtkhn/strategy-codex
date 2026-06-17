@@ -26,8 +26,9 @@ opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 opening_trim_applied: false
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Scoff/Scorf, Zelensky/Zelensky, Konstantinovka/Konstantinovka, Rasvet, straight kamuz/Hormuz, Arashnik, etc.). Duran subscribe/shop close retained at tail per paste."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Scoff/Scorf, Zelensky/Zelensky, Konstantinovka/Konstantinovka, Rasvet, straight kamuz/Hormuz, Arashnik, etc.). Duran subscribe/shop close retained at tail per paste. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+mercouris_close_promo_trim_applied: true
 ---
 # Putin Meets Military Warns West Says Russia Has Drone Dominance Seeks Victory; US Plans China Trap
 
@@ -108,5 +109,4 @@ Does it does it do otherwise? Does it support the Chinese currency which would i
  And the person who told me all this said that in either case, such an oil price shock putting the Iranians in that position where they had to make that kind of choice, putting the Chinese rather in that position where they had to make that kind of choice would severely unbalance the BRICS bloc and potentially throw the various plans to move forward with the various BRICS payment systems and financial architecture into confusion.
 the architects of this plan in the United States, which I have, by the way, of course, described very sketchy. The architects of this plan, know exactly what they're doing. They are prepared to accept a global recession, including a recession, that affects the United States itself. in order to derail the development of BRICS and protect the dollar system.
 Well, I don't know whether this is so, but it does seem to me that this is not inherently implausible. be very interested to know what people think and well um I'll be interested to see what all of you write about this on the threads of this video. But this is where I have to finish today.
- Let me remind you again that you can find all our programs on our various platforms. Locals Rumble X and Substack. You can support our work via Patreon and Subscribe Star and by going to our shop links under this video. Last but not least, if you've liked this video, please remember to tick the like button and to check your subscription to this channel.
- That's me for today. More from me soon. Have a very good day.
+ Let me remind you again that you can find all our programs on our various platforms. Locals Rumble X and Substack.

@@ -18,8 +18,9 @@ channel_slug: alex-mercouris
 source_url: "https://www.youtube.com/watch?v=ZkA_Wc6JJ-g"
 source_note: "Operator-pasted YouTube transcript for Alex Mercouris hub capture. · ASR pass 2026-06-15."
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved.
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+mercouris_close_promo_trim_applied: true
 ---
 # Russia Sanctions Crumble; St. Pete Hosts US German Business; Zelensky Sends Drones; US Iran Fighting
 
@@ -209,6 +210,4 @@ But to repeat again my main point in this program, the one I made earlier in thi
 
 The fire has gone out of this thing. There continues to be support from certain powerful institutions in the United States, the CIA, and a few business people who want to test out their new AI weapons in Ukraine. But the attention of the political class as a whole has moved to other things.
 
-Anyway, that's my view for today. It may be that I've underestimated the neocons again and their obsession with Russia, but time will tell whether or not I'm right. Anyway, that's my program for today. Be more from me soon. Let me remind you again to tick the like button and to check your subscription to this channel.
-
-Also to support our work via Patreon, Subscribe Star and by going to our shop links under this video. And of course remember that you can find all our programs on our various platforms, Locals, Rumble, X, and Substack. That's me for today. More from you soon. Have a very good day.
+Anyway, that's my view for today. It may be that I've underestimated the neocons again and their obsession with Russia, but time will tell whether or not I'm right. Anyway, that's my program for today. Be more from me soon.

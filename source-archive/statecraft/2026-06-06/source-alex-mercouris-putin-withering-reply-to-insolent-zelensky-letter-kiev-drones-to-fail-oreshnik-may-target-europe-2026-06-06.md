@@ -13,8 +13,9 @@ channel_slug: "alex-mercouris"
 source_url: "https://www.youtube.com/watch?v=Ah-ThpeGDu0"
 source_note: "Operator-pasted YouTube transcript for Alex Mercouris hub capture. Transcript self-dates Saturday 6 June 2026; archive date aligned to spoken date. · ASR pass 2026-06-15."
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved.
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+mercouris_close_promo_trim_applied: true
 ---
 # Putin Withering Reply To 'Insolent' Zelensky Letter; Kiev Drones To Fail Oreshnik May Target Europe
 
@@ -110,6 +111,4 @@ He has no interest in negotiating with the Ukrainians or with Zelensky. He clear
 Intelligence assistance continues. Limited military support continues. The sanctions overall remain in place. to repeat a point I made any number of times. There is no sign of compromise or retreat on Putin's part. He remains committed to seeing this war through and I have no doubt that in time he will. Now, a lot is going on in other places and there continues to be a lot of discussion about negotiations between Iran and the United States.
  The straight of Hormuz overall remains closed. They continue to be stories. I'm tempted to say fairy tales about lots of ships that the Americans are supposed to have escorted through the straight of Hormuz. I don't take those claims especially seriously, just to say. I think that they are being spread by the Pentagon once again to reassure Trump that the situation is more under control than it in fact is. Anyway, that's my guess.
  Um but well, that's perhaps a topic or that is a topic for another day. For the moment, we still have this standoff between the Americans and the Iranians. There is a lot of speculation that Iran speculation there's been reports claims perhaps perhaps weighty claims that Iran now is in possession of some sort of nuclear device apparently or purportedly provided to Iran by one of its allies North Korea.
- I discussed this some time ago. We shall see about that too. I still have some doubts about this myself. Just saying. But anyway, this is where I intend to finish today's program. Let me remind you again that I you can find all our programs on our various platforms, Locals, Rumble, X, and Substack. You can support our work via Patreon and Subscribe Star and by going to our shop links under this video.
- Um, last but not least, please remember to tick the like button and to support our channel. And well, that's me for today. Hopefully my voice will be better. Um, I in hope to make one further program, a short program tomorrow morning before I travel, before I go on my travels. Perhaps my voice will be better then.
- But in any event, I'll be back soon and stay well and be well until then.
+ I discussed this some time ago. We shall see about that too. I still have some doubts about this myself. Just saying. But anyway, this is where I intend to finish today's program. Let me remind you again that I you can find all our programs on our various platforms, Locals, Rumble, X, and Substack.

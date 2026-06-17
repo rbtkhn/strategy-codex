@@ -18,8 +18,9 @@ channel_slug: alex-mercouris
 source_url: "https://www.youtube.com/watch?v=A-49Jvk_VSk"
 source_note: "Operator-pasted YouTube transcript for Alex Mercouris hub capture. · ASR pass 2026-06-15."
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved.
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+mercouris_close_promo_trim_applied: true
 ---
 # Russian Massive Strike Shatters Kiev; Tsirkon Missile First Mass Use Kiev Troops Flee Konstantinovka
 
@@ -119,5 +120,4 @@ Secondly, I've already said that in my opinion, it makes little sense for the Un
 risk of an escalation is becoming much greater. And well to say it simply an escalation of the war is the very last thing that the global economy or at least the western economies need at this time. My sense is that the situation in global energy markets is indeed becoming fragile.
  My sense is that the situation in the Persian Gulf politically amongst the Persian Gulf states is becoming fragile as well. I think if we tip over into outright escalation now in the conflict in the Gulf, the crisis in the Middle East is going to suddenly get far worse than anything we have seen up to now. at exactly the moment when the war in Ukraine is intensifying with no sign of negotiations there taking place at all and at a moment when we look to be on the brink of an escalatory crisis.
 Well, there it is. That's my view of things today. Um, we will see what happens. We will see whether there's any reactions in um Ukraine and in the West to the latest events in Ukraine. And we'll see whether the Americans and the Iranians are able to patch things together. But things today look very fragile to me and I worry that before long they're going to be more become more fragile still.
- Well, that's me for today. There'll be more from me soon. Let me remind you again, you can find all our programs on our various platforms, locals, Rumble, X, Substack. You can support our work via Patreon and Subscribe Star and by going to our shop links under this video. Last but not least, if you've liked this video, please remember to tick the like button and to check your subscription to this channel. That's me for today.
- More from me soon. Have a very good day.
+ Well, that's me for today.
