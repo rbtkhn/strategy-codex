@@ -25,8 +25,9 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: clean
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 8 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Zelensky, Sunumi, Hikov, Karakov, oresnik, Pinian, etc.). Duran subscribe/shop close stripped at tail. Wire-verify batch 2026-06-08–09 harmonized — developing-story Iran–Israel pause vs Lebanon; Patriot inventory + UK SSN readiness second pass included."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 8 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Zelensky, Sunumi, Hikov, Karakov, oresnik, Pinian, etc.). Duran subscribe/shop close stripped at tail. Wire-verify batch 2026-06-08–09 harmonized — developing-story Iran–Israel pause vs Lebanon; Patriot inventory + UK SSN readiness second pass included. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved."
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+mercouris_close_promo_trim_applied: true
 ---
 # Zelensky Uselessly Begs UK/EU For AD; Russia Targets Sumy; Moscow Peaceful; Iran Israel Trade Blows
 
@@ -133,5 +134,4 @@ When a country is prospering, people tend to stick by the government of that cou
 If Pashinan is unwise enough, if he is reckless enough to really go ahead and try to break the links with Russia and to drift towards the European Union, which by the way is not going to admit Armenia anytime soon, then all of that will end and the Armenian economy will go into recession at which point I expect that his popularity will quickly collapse.
  Now whether Pashinan understands this I don't know. His actions after he was elected suggest to me that at some level he does. He carried out more arrests and he again insisted that Armenia will remain a member of the Eurasian Economic Union. We shall see. Um ultimately what happens in Armenia is a very very serious issue for Armenians and for people who worry about Armenia.
 And I am one such person by the way. I have a strong affinity for Armenians and for Armenia as I've discussed in many programs. But one should not assume that this is a massive question and a serious issue of concern for Russia. The Russians calculate that just just as Georgia has ultimately been obliged to rebuild its economic and trade links with Russia in order to achieve prosperity.
-So eventually Armenia will also do or to be more precise it will gradually begin to repair the economic the political links as well. They can wait out Pashin. Um and I am sure that they will. Anyway, this is what I'm going to say about the Armenian election. Um, and this is where I'm going to end today's program.
-That's me for today. As um I'm going to be involved in the conference from now on, I do expect future videos to be significantly shorter.
+So eventually Armenia will also do or to be more precise it will gradually begin to repair the economic the political links as well. They can wait out Pashin. Um and I am sure that they will. Anyway, this is what I'm going to say about the Armenian election. Um, and

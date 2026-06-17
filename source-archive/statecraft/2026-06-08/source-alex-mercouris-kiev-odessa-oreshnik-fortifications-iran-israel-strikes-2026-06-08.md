@@ -18,8 +18,9 @@ youtube_id: aXsYSfAc7ks
 source_note: "Operator-pasted transcript; host self-dates Monday 8 June 2026 from Istanbul airport en route to Moscow. verify:wire-supported Iran–Israel direct exchange 7–8 Jun Lebanon trigger (AJ/BBC/Independent); Oreshnik/Kiev strike pressure — Russian mass strikes Kiev early Jun wire-reported (Pravda/AP class); southern Beirut/Dahiyeh strike cycle (AJ); Trump ceasefire posts 8 Jun (BBC); verify:wire-partial Odessa fortifications push — not independently matched this pass; verify:wire-out-of-scope Mercouris field-impression Moscow route Istanbul en-route. Shorter-than-normal program. · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved.
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+mercouris_close_promo_trim_applied: true
 ---
 # Kiev Steps Up Work On Odessa Defences Fears Oreshnik Smashes Fortifications; Big Iran Israel Strikes
 
@@ -92,4 +93,3 @@ Well, it seems to me that that is going to have to melt away. And there has been
  Now the article by the way confirms the puzzlement of many people about the fact that oil prices have not reasoned even faster than many of us. I for example expected that they would. But this in this article at least is being attributed to a major draw down of oil reserves. Well, it could be. The industry executives feel that within the next few weeks that is going to become visibly dangerous and unsustainable.
 Now, if so, as I said in many previous programs, we are going to see turmoil in global energy markets coinciding with the crisis of the Ukrainian forces in Ukraine. possibly all taking place in the context of a return to war in the Persian Gulf at a time when American inventories are already heavily reduced. To me, all of this looks like the perfect storm.
 Whether people in Europe understand this, I don't know. But I think it is overdue for them finally to wake up from their complacency and to overcome this strange euphoria that has held them in its grip over the last few months and to start finally to address the problems that are now building up critically all around them.
- Well, this is where I finish this program today. Made in less than ideal conditions, obviously. Thank you for bearing me with me. More from me soon, probably next program in Moscow. Thank you again. Um um remember please to tick the like button and to check your subscription to this channel. As I said, more from me soon, most likely in Moscow.

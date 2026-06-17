@@ -20,13 +20,14 @@ channel_slug: alex-mercouris
 channel_url: "https://www.youtube.com/@AlexMercouris/videos"
 source_url: "https://www.youtube.com/watch?v=ANxDdY9jFYg"
 youtube_id: ANxDdY9jFYg
-source_note: "Operator-pasted transcript; host self-dates Wednesday 11 June 2026 from Russia (Scorf conference; shorter programs). Conference-source claims on Chinese drone components, rare-earth throttle, Kremlin no-Trump-criticism guidance, and Readovka/Liman-Konstantinovka battlefield reads preserved as attributed; not independently verified. · ASR pass 2026-06-15."
+source_note: "Operator-pasted transcript; host self-dates Wednesday 11 June 2026 from Russia (Scorf conference; shorter programs). Conference-source claims on Chinese drone components, rare-earth throttle, Kremlin no-Trump-criticism guidance, and Readovka/Liman-Konstantinovka battlefield reads preserved as attributed; not independently verified. Tail truncated mid-sentence before standard close; re-ingest from YouTube captions recommended (ANxDdY9jFYg). · ASR pass 2026-06-15."
 evidence_grade: transcript-bearing
+transcript_completeness: truncated_tail
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript body; not independently verified as verbatim. ASR artifacts retained (Pezeshkian, Gasimov, Konstantinovka, Scoff/Scorf, etc.). Duran subscribe/shop close stripped at tail."
-quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Capture tail truncated mid-sentence (colon assassination paragraph); re-ingest from YouTube before close-promo normalize."
+quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT. Re-ingest pending: truncated_tail."
 ---
 # Iran US War Resumes; Russia Brushes Off EU Sanctions, Complains To China Over Drones
 

@@ -34,12 +34,41 @@ from normalize_nawfal_opening_banter import (  # noqa: E402
 FRONTMATTER_BLOCK_RE = re.compile(r"\A---\n.*?\n---\n", re.DOTALL)
 
 TAIL_SEARCH_CHARS = 8000
+TAIL_ONLY_SEARCH_CHARS = 1500
 
 CLOSE_PROMO_ANCHOR_RES: list[tuple[str, re.Pattern[str]]] = [
     (
         "finish-today-program",
         re.compile(
             r"Well, this is where I(?:'m| am) going to finish today(?:'s|s) program",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "finish-program-travel-have-to",
+        re.compile(
+            r"this is of course also the point where I have to finish today(?:'s|s) program",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "finish-program-travel-where-i",
+        re.compile(
+            r"Well, this is where I finish this program today",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "end-today-program",
+        re.compile(
+            r"this is where I(?:'m| am) going to end today(?:'s|s) program",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "my-program-for-today",
+        re.compile(
+            r"That(?:'s| is) my program for today\.\s+Let me remind you",
             re.IGNORECASE,
         ),
     ),
@@ -53,14 +82,7 @@ CLOSE_PROMO_ANCHOR_RES: list[tuple[str, re.Pattern[str]]] = [
     (
         "find-our-programs",
         re.compile(
-            r"Let me remind you(?: again,)?(?: that)? you can find all our programs on our various platforms",
-            re.IGNORECASE,
-        ),
-    ),
-    (
-        "remind-tick-like",
-        re.compile(
-            r"Let me remind you again to tick the like button",
+            r"Let me remind you again(?:,| that) you can find all our programs on our various platforms",
             re.IGNORECASE,
         ),
     ),
@@ -68,6 +90,13 @@ CLOSE_PROMO_ANCHOR_RES: list[tuple[str, re.Pattern[str]]] = [
         "support-patreon",
         re.compile(
             r"(?:You can|Also to) support our work via Patreon",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "support-by-patreon",
+        re.compile(
+            r"(?:You can|Also to) support our work by Patreon",
             re.IGNORECASE,
         ),
     ),
@@ -82,6 +111,23 @@ CLOSE_PROMO_ANCHOR_RES: list[tuple[str, re.Pattern[str]]] = [
         "shop-promotion",
         re.compile(
             r"Remember that there(?:'s| is) a major promotion underway in our shop",
+            re.IGNORECASE,
+        ),
+    ),
+]
+
+TAIL_ONLY_CLOSE_ANCHOR_RES: list[tuple[str, re.Pattern[str]]] = [
+    (
+        "remember-tick-like",
+        re.compile(
+            r"(?:please remember|remember please) to tick the like button",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "remind-tick-like-close",
+        re.compile(
+            r"Let me remind you again to tick the like button",
             re.IGNORECASE,
         ),
     ),
@@ -180,12 +226,24 @@ def patch_frontmatter_block(text: str, meta: dict[str, Any], keys: set[str]) -> 
 
 
 def find_close_promo_cut(full_text: str) -> tuple[int, str] | None:
+    candidates: list[tuple[int, str]] = []
+
     search_window = full_text[-TAIL_SEARCH_CHARS:] if len(full_text) > TAIL_SEARCH_CHARS else full_text
     window_offset = len(full_text) - len(search_window)
-    candidates: list[tuple[int, str]] = []
     for name, pattern in CLOSE_PROMO_ANCHOR_RES:
         for match in pattern.finditer(search_window):
             candidates.append((window_offset + match.start(), name))
+
+    tail_only_window = (
+        full_text[-TAIL_ONLY_SEARCH_CHARS:]
+        if len(full_text) > TAIL_ONLY_SEARCH_CHARS
+        else full_text
+    )
+    tail_only_offset = len(full_text) - len(tail_only_window)
+    for name, pattern in TAIL_ONLY_CLOSE_ANCHOR_RES:
+        for match in pattern.finditer(tail_only_window):
+            candidates.append((tail_only_offset + match.start(), name))
+
     if not candidates:
         return None
     return min(candidates, key=lambda item: item[0])

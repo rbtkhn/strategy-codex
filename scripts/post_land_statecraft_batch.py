@@ -21,6 +21,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from normalize_dialogue_works_opening_scaffold import is_dialogue_works_capture  # noqa: E402
+from normalize_mercouris_close_scaffold import is_mercouris_solo_capture  # noqa: E402
 from normalize_napolitano_opening_scaffold import (  # noqa: E402
     is_napolitano_capture,
     split_frontmatter as nap_split,
@@ -33,6 +34,10 @@ from post_land_caption_wrapper_normalize import (  # noqa: E402
 from post_land_dialogue_works_opening_normalize import (  # noqa: E402
     _format_flags as format_dw,
     post_land_dialogue_works_opening_normalize,
+)
+from post_land_mercouris_close_normalize import (  # noqa: E402
+    _format_flags as format_mercouris,
+    post_land_mercouris_close_normalize,
 )
 from post_land_napolitano_opening_normalize import (  # noqa: E402
     _format_flags as format_nap,
@@ -75,8 +80,11 @@ def _family_opening_normalize(path: Path, *, dry_run: bool) -> str:
     if is_dialogue_works_capture(meta, path):
         result = post_land_dialogue_works_opening_normalize(path, dry_run=dry_run)
         return format_dw(result)
+    if is_mercouris_solo_capture(meta, path):
+        result = post_land_mercouris_close_normalize(path, dry_run=dry_run)
+        return format_mercouris(result)
     rel = path.relative_to(REPO_ROOT).as_posix()
-    return f"skip-family {rel} (no napolitano/nawfal/dialogue-works match)"
+    return f"skip-family {rel} (no napolitano/nawfal/dialogue-works/mercouris-solo match)"
 
 
 def post_land_batch(

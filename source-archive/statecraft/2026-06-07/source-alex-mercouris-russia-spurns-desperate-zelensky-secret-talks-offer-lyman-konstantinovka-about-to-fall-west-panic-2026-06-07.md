@@ -14,7 +14,8 @@ source_url: "https://www.youtube.com/watch?v=nXVR821uPJw"
 source_note: "Operator-pasted YouTube transcript for Alex Mercouris hub capture. Transcript self-dates Sunday 7 June 2026; archive date aligned to spoken date. · ASR pass 2026-06-15."
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved.
+mercouris_close_promo_trim_applied: true
 ---
 # Russia Spurns Desperate Zelensky's Secret Talks Offer; Lyman Konstantinovka About To Fall West Panic
 
@@ -59,5 +60,4 @@ But the fact that he has tried to get some kind of back channel with Putin going
  On the contrary, he even passed a decree in September October 2022 legally prohibiting negotiations with the Russians which to my knowledge he has never formally revoked. So the fact that he is now making approaches to the Russians via people like Abraovic shows that he behind the blaster behind the appearance of confidence is in fact seriously concerned about the situation.
 When Putin basically spurned the outreach, that is when we got the insulting and insolent public letter that Putin responded to and which I discussed in my program yesterday. Now, there is an awful lot else going on in the world. There's been problems on the NASDAQ, which I am far from competent to discuss.
  I'm not a person who knows much about stock market uh um um valuations, girrations. That's for someone else to talk about. Um there has also been a um well there continues to be a standoff in the Middle East and there is great uncertainty as to where that is going. My guess is that the situation in the Middle East and the Persian Gulf is going to remain frozen for the next few weeks and that the focus will therefore start to move back towards Ukraine and Russia, which of course makes this absolutely the right moment to going to to be going to one of those
-countries to Russia itself in order to engage the mood there. And that of course is what I am now in the process and about to do. And this is of course also the point where I have to finish today's program. Um I'll be back as I said as soon as I can. In the meantime, please remember to tick the like button and check your subscription to this channel.
- And more from me very soon perhaps from an airport. Otherwise definitely in Russia. Good day.
+countries to Russia itself in order to engage the mood there. And that of course is what I am now in the process and about to do. And
