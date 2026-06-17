@@ -41,8 +41,18 @@ DEFAULT_USER = DEFAULT_USER_ID
 
 try:
     from dream_catchup import catch_up_window_dict, missing_strategy_notebook_days
+    from dream_scaffold_catchup import (
+        format_scaffold_catchup_line,
+        run_scaffold_catchup,
+        scaffold_catchup_followups,
+    )
 except ImportError:
     from scripts.dream_catchup import catch_up_window_dict, missing_strategy_notebook_days  # type: ignore
+    from scripts.dream_scaffold_catchup import (  # type: ignore
+        format_scaffold_catchup_line,
+        run_scaffold_catchup,
+        scaffold_catchup_followups,
+    )
 
 LAST_DREAM_FILENAME = "last-dream.json"
 NIGHT_HANDOFF_FILENAME = "night-handoff.json"
@@ -674,6 +684,14 @@ def run_auto_dream(
         dream_catchup["strategy_notebook_missing_day_headers"] = missing_strategy_notebook_days(
             REPO_ROOT, want_dates
         )
+        try:
+            dream_catchup["statecraft_scaffold_catchup"] = run_scaffold_catchup(
+                local_dates=want_dates,
+                repo_root=REPO_ROOT,
+                apply=False,
+            )
+        except Exception as exc:  # noqa: BLE001 — surface in summary; do not fail dream
+            dream_catchup["statecraft_scaffold_catchup"] = {"error": str(exc)}
     except Exception as exc:  # noqa: BLE001 — surface in summary; do not fail dream
         dream_catchup = {
             "semantics": "since_previous_dream",
@@ -774,6 +792,9 @@ def run_auto_dream(
         "contradiction_digest": digest,
         "artifact_drafts": artifact_drafts,
         "dream_catchup": dream_catchup,
+        "scaffold_catchup_followups": scaffold_catchup_followups(
+            dream_catchup.get("statecraft_scaffold_catchup") or {}
+        ),
     }
     if digest_phases is not None:
         summary["digest_phases"] = digest_phases
@@ -823,6 +844,7 @@ def run_auto_dream(
 
         now_utc = datetime.now(timezone.utc)
         extra_followups: list[str] = []
+        extra_followups.extend(summary.get("scaffold_catchup_followups") or [])
         dream_budget = _load_dream_budget_dict()
         coffee_rollup_raw = rollup_coffee_24h(user_id=user_id, now_utc=now_utc)
         conductor_rollup = rollup_conductor_24h(user_id=user_id, now_utc=now_utc)
@@ -1108,6 +1130,9 @@ def format_auto_dream_summary(summary: dict[str, Any]) -> str:
             )
             if miss:
                 lines.append(f"  strategy-notebook missing ## headers: {', '.join(miss)}")
+            sc_line = format_scaffold_catchup_line(dc.get("statecraft_scaffold_catchup") or {})
+            if sc_line:
+                lines.append(f"  {sc_line}")
         return headline + "\n" + "\n".join(lines)
 
     lines = [
@@ -1192,6 +1217,9 @@ def format_auto_dream_summary(summary: dict[str, Any]) -> str:
         )
         if miss:
             lines.append(f"  strategy-notebook missing ## headers: {', '.join(miss)}")
+        sc_line = format_scaffold_catchup_line(dc.get("statecraft_scaffold_catchup") or {})
+        if sc_line:
+            lines.append(f"  {sc_line}")
     return headline + "\n" + "\n".join(lines)
 
 
