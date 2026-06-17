@@ -29,8 +29,9 @@ evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
 normalization_state: raw_operator_paste
-editorial_note: "Operator-pasted transcript; Breaking Points close promo retained at tail; ASR artifacts retained (Treatsy/Parsi, Bzero/B-roll, Sar/Saagar, Tissson/Thiessen, rate/Hormuz, etc.). Not human-verified verbatim."
+editorial_note: "Operator-pasted transcript; ASR artifacts retained (Treatsy/Parsi, Bzero/B-roll, Sar/Saagar, Tissson/Thiessen, rate/Hormuz, etc.). Not human-verified verbatim. Routine Breaking Points subscribe/like close trimmed in place; SSOT body otherwise preserved."
 quality_note: "Initial land 2026-06-16 via land_statecraft_source_body.py."
+breaking_points_close_promo_trim_applied: true
 ---
 
 # 'GIANT L': Ben Shapiro MELTS DOWN Over Iran Deal
@@ -95,5 +96,4 @@ But I think frankly more likely is that they will not have the capacity intellec
  I think I mentioned on Tucker's show yesterday that I sat down with Apac after the JCPOA and I thought that okay now it's going to be interesting to see how they're going to adjust to this reality and I walked away realizing they're not going to adjust at all. They don't care that the deal has been sealed that it is implemented. They're going to do everything they can to unravel it and I suspect that that is the path that the Israelis will go this time as well asceed but that means and they succeeded exactly not under Obama but they succeeded afterwards and that may
 be their calculation that they will succeed afterwards. Uh but it means that during this period they're going to be in uh uh in a direct confrontation with Trump in a manner that I don't think Trump potentially will be as restrained as Obama was. Remember one of the things that Obama did in order to kind of calm down the Israelis that he signed that 10 billion um what was it the 10-year deal 30 billion in which you know that was a way of trying to make sure that the Israelis calm down a little bit.
  We'll see if Trump does that. There are several bills in Congress right now that is going to try to integrate the US military with these Israeli military, the US intelligence with the US int with Israeli intelligence. Uh he may end up uh accepting some of those things as some sort of a goodie that he gives to the Israelis in order to calm them down.
->> Very good point. You know, even if they do go, they still won't go quietly. Almost certainly have to buy them off uh in some respect. >> Hey, if you like that video, hit the like button or leave a comment below. It really helps get the show to more people. And if you'd like to get the full show ad free and in your inbox every morning, you can sign up at breakingpoints.com.
->> That's right. Get the full show. Help support the future of independent media at breakingpoints.com.
+>> Very good point. You know, even if they do go, they still won't go quietly. Almost certainly have to buy them off uh in some respect.
