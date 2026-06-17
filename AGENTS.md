@@ -115,7 +115,7 @@ When asked to find a file, index, corpus, source map, analyst, speaker, **essay*
 
 **Search commands:** prefer `rg` for interactive local search when available; use portable `grep` (or `rg` with `grep -R` fallback) in committed scripts and CI examples. Full convention: [LLM-ROUTING.md — Search command convention](LLM-ROUTING.md#search-command-convention).
 
-**Find-then-read:** After locating a capture via a voices source-index, apply [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) (corpus tiers + reading layers) before synthesis. PH chapter objects additionally use [statecraft/voices/jiang/ph-civ/docs/source-lattice.md](statecraft/voices/jiang/ph-civ/docs/source-lattice.md). **Source-index** (where) and **source-lattice** (how) are different queries — see LLM-ROUTING.md.
+**Find-then-read:** After locating a capture via a voices source-index, apply [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) (corpus tiers + reading layers) before synthesis. PH chapter objects additionally use [public/ph-civ/docs/source-lattice.md](public/ph-civ/docs/source-lattice.md). **Source-index** (where) and **source-lattice** (how) are different queries — see LLM-ROUTING.md.
 
 **Prose routing:** After locating an essay or note candidate, confirm class and canonical home via [docs/prose-index.md](docs/prose-index.md) — repo-root [`essays/`](essays/README.md) for transportable theses; channel `notes/` for bounded seams; channel `*/essays/` only when following compatibility stubs.
 

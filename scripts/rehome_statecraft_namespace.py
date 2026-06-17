@@ -66,7 +66,7 @@ def iter_files(include_benchmarks: bool) -> list[Path]:
                 continue
             # Submodule corpus: parent repo path strings only; bridge URLs in phase 4.
             if rel.startswith("statecraft/civ-lens/jiang/ph-civ/") or rel.startswith(
-                "statecraft/voices/jiang/ph-civ/"
+                "public/ph-civ/"
             ):
                 continue
             fp = REPO_ROOT / rel

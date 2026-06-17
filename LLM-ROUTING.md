@@ -42,7 +42,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | generated dashboard / derived operator surface | [artifacts/](artifacts/) |
 | local semantic / vector index | [scripts/index_record.py](scripts/index_record.py), local `.chroma` paths |
 | **source-lattice** / corpus tiers / reading order | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) |
-| PH chapter lattice / civ-* reading order | [statecraft/voices/jiang/ph-civ/docs/source-lattice.md](statecraft/voices/jiang/ph-civ/docs/source-lattice.md) |
+| PH chapter lattice / civ-* reading order | [public/ph-civ/docs/source-lattice.md](public/ph-civ/docs/source-lattice.md) |
 | wire / official primary (live seam) | [docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md](docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md), `wire verify` skill |
 | legacy codex speaker shelf | [codex/speakers/](codex/speakers/) — **compatibility only**; prefer voices |
 | machine-readable route registry | [repo-map.yaml](repo-map.yaml) |
