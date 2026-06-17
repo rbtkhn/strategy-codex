@@ -9,7 +9,7 @@ Purpose: seal the namespace migration from `statecraft/speakers/` to `statecraft
 - Canonical live shelf namespace is `statecraft/voices/`.
 - Canonical migrated shelf shape is `statecraft/voices/<speaker>/`.
 - `statecraft/speakers/README.md` is a compatibility-only redirect surface, not a parallel authority path.
-- Jiang mirror gitlink is live at `statecraft/voices/jiang/ph-civ`.
+- Jiang mirror gitlink is live at `public/ph-civ`.
 - `diesen/` is promoted as a truthful first-pass canonical shelf rather than a forced month-ladder shelf.
 
 ## Checks run
@@ -17,7 +17,7 @@ Purpose: seal the namespace migration from `statecraft/speakers/` to `statecraft
 - Repo grep over live docs, skills, scripts, tests, and statecraft surfaces reduced old `statecraft/speakers` claims to the intentional compatibility stub.
 - [tests/test_rehome_path_hygiene_contract.py](../../tests/test_rehome_path_hygiene_contract.py) passed via `.venv\Scripts\python.exe`.
 - [tests/test_validate_speaker_state_sets.py](../../tests/test_validate_speaker_state_sets.py) passed via `.venv\Scripts\python.exe`.
-- `git ls-files --stage` shows the Jiang gitlink at `statecraft/voices/jiang/ph-civ` and `.gitmodules` points to the same path.
+- `git ls-files --stage` shows the Jiang gitlink at `public/ph-civ` and `.gitmodules` points to the same path.
 
 ## Intentional exclusions
 

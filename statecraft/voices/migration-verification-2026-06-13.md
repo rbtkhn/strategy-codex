@@ -10,7 +10,7 @@ Purpose: seal `statecraft/civ-lens` → `statecraft/voices` and `statecraft/civ-
 - Canonical source-memory path: `statecraft/states/`
 - Profile template: `statecraft/voices/voice-profile-template.md` (legacy `voices-profile-template.md` redirects)
 - `statecraft/speakers/README.md` is the **only** compatibility stub → `voices/`
-- Submodule gitlink: `statecraft/voices/jiang/ph-civ` (`.gitmodules` + `git ls-files --stage`)
+- Submodule gitlink: `public/ph-civ` (`.gitmodules` + `git ls-files --stage`)
 - ph-civ submodule: 48 chapter README bridge URLs updated to `statecraft/states/` (submodule commit `0e3cade`)
 
 ## Checks run (2026-06-13)
@@ -49,7 +49,7 @@ Parent gitlink: `ca7bf04d72ec781b7229ff3dfb9db36b583cf0da`
 
 ## Windows submodule note
 
-After path move: `git submodule sync --recursive` from repo root. If gitlink desyncs, re-init `statecraft/voices/jiang/ph-civ`.
+After path move: `git submodule sync --recursive` from repo root. If gitlink desyncs, re-init `public/ph-civ`.
 
 ## Intentional exclusions
 

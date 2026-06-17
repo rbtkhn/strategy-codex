@@ -143,4 +143,4 @@ Open this note when the task is:
 - [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no voices shelf)
 - [China statecraft lane](../china/README.md)
 - [Pape arc](../voices/pape/pape-arc.md)
-- [Jiang ph-civ shelf](../voices/jiang/ph-civ/README.md)
+- [public/ph-civ/README.md](../../public/ph-civ/README.md)

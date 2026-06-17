@@ -13,7 +13,7 @@ Scope:
 
 Explicit carveout:
 
-- the embedded Jiang mirror at [statecraft/voices/jiang/ph-civ/](/C:/dev/strategy-codex/statecraft/voices/jiang/ph-civ/README.md) was treated as a special mirror surface, not judged by ordinary shelf-link expectations
+- the embedded Jiang mirror at [public/ph-civ/](/C:/dev/strategy-codex/public/ph-civ/README.md) was treated as a special mirror surface, not judged by ordinary shelf-link expectations
 
 ## Executive View
 
