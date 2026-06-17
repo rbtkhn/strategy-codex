@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `cleaned-transcript` (4), `substack-post` (2)
 - Source form mix: `solo` (3), `newsletter` (2), `interview` (1)
 - Distinct channels/shows: `5`
-- Distinct hosts: `3`
+- Distinct hosts: `2`
 - Distinct guests: `2`
 - Distinct threads: `6`
 
@@ -19,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Trita Parsi` (2), `Alexander Mercouris` (1), `Daniel Davis` (1)
-- Guests: `Anthony Aguilar` (1), `[]` (1)
+- Hosts: `Trita Parsi` (2), `Alexander Mercouris` (1)
+- Guests: `[]` (2), `Anthony Aguilar` (1)
 - Threads: `parsi` (2), `aguilar` (1), `davis` (1), `mercouris` (1), `nawfal` (1), `nima` (1)
 
 ## Ingest register
@@ -31,7 +31,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | --- | --- | --- | --- |
 | Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nXVR821uPJw) |
 | [] | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=xj8ocoG-nDw) |
-| Daniel Davis | Daniel Davis Deep Dive | `davis` | [dnwkC2sIMQA](https://www.youtube.com/watch?v=dnwkC2sIMQA) |
+| [] | Daniel Davis Deep Dive | `davis` | [dnwkC2sIMQA](https://www.youtube.com/watch?v=dnwkC2sIMQA) |
 | Anthony Aguilar | Mario Nawfal | `aguilar`, `nawfal` | [QFKjJHKh07w](https://www.youtube.com/watch?v=QFKjJHKh07w) |
 | Trita Parsi | tritaparsi.substack.com | `parsi` | [watch](https://tritaparsi.substack.com/p/after-israel-strikes-beirut-iran) |
 | Trita Parsi | tritaparsi.substack.com | `parsi` | [watch](https://tritaparsi.substack.com/p/the-profound-geopolitical-implications) |

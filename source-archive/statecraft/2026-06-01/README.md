@@ -9,8 +9,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `cleaned-transcript` (12), `substack-post` (2), `article` (1)
 - Source form mix: `interview` (9), `newsletter` (3), `solo` (2), `article` (1)
 - Distinct channels/shows: `9`
-- Distinct hosts: `6`
-- Distinct guests: `10`
+- Distinct hosts: `5`
+- Distinct guests: `11`
 - Distinct threads: `15`
 
 ## Channel / Show Rollup
@@ -19,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (2), `Glenn Diesen` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Robert Pape` (1), `Trita Parsi` (1)
-- Guests: `Jeffrey Sachs` (2), `Alexander Mercouris` (1), `Jacques Baud` (1), `Jiang Xueqin` (1), `Joe Kent` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Ray McGovern` (1), `Scott Ritter` (1), `Trita Parsi` (1)
+- Hosts: `Glenn Diesen` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Robert Pape` (1), `Trita Parsi` (1)
+- Guests: `Jeffrey Sachs` (2), `Alexander Mercouris` (1), `Jacques Baud` (1), `Jiang Xueqin` (1), `Joe Kent` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Ray McGovern` (1), `Scott Ritter` (1), `Trita Parsi` (1), `[]` (1)
 - Threads: `nima` (3), `davis` (2), `diesen` (2), `mercouris` (2), `napolitano` (2), `parsi` (2), `sachs` (2), `baud` (1), `christoforou` (1), `johnson` (1), `kent` (1), `mcgovern` (1), `nawfal` (1), `pape` (1), `ritter` (1)
 
 ## Ingest register
@@ -34,7 +34,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | Larry Johnson | Dialogue Works | `nima`, `johnson` | [bgmx1Uz_QT0](https://www.youtube.com/watch?v=bgmx1Uz_QT0) |
 | Joe Kent | Dialogue Works | `nima`, `kent` | [watch](https://www.youtube.com/watch?v=hQCziFanWf8) |
 | Matt Hoh | Daniel Davis Deep Dive | `davis` | [ACq6ZXOP314](https://www.youtube.com/watch?v=ACq6ZXOP314) |
-| Daniel Davis | Daniel Davis Deep Dive | `davis` | [8ZKnRMc1m00](https://www.youtube.com/watch?v=8ZKnRMc1m00) |
+| [] | Daniel Davis Deep Dive | `davis` | [8ZKnRMc1m00](https://www.youtube.com/watch?v=8ZKnRMc1m00) |
 | Jiang Xueqin | Glenn Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=Pk15Ov0v98U) |
 | Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.jeffsachs.org/newspaper-articles/germany-is-leading-europe-toward-world-war-three) |
 | Alexander Mercouris | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=NPNNM3ehgvE) |

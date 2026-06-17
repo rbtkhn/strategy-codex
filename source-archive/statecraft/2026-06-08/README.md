@@ -9,8 +9,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `cleaned-transcript` (14), `substack-post` (1)
 - Source form mix: `interview` (11), `solo` (3), `newsletter` (1)
 - Distinct channels/shows: `8`
-- Distinct hosts: `6`
-- Distinct guests: `10`
+- Distinct hosts: `5`
+- Distinct guests: `11`
 - Distinct threads: `17`
 
 ## Channel / Show Rollup
@@ -19,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (2), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Mario Nawfal` (1), `Nima Alkhorshid` (1), `Robert Pape` (1)
-- Guests: `Alastair Crooke` (2), `Brandon J. Weichert` (1), `Jacques Baud` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Ray McGovern` (1), `Robert Barnes` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1)
+- Hosts: `Glenn Diesen` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Nima Alkhorshid` (1), `Robert Pape` (1)
+- Guests: `Alastair Crooke` (2), `Brandon J. Weichert` (1), `Jacques Baud` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Ray McGovern` (1), `Robert Barnes` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1), `[]` (1)
 - Threads: `napolitano` (3), `nawfal` (3), `crooke` (2), `davis` (2), `diesen` (2), `nima` (2), `barnes` (1), `baud` (1), `johnson` (1), `marandi` (1), `mcgovern` (1), `mercouris` (1), `pape` (1), `parsi` (1), `sachs` (1), `weichert` (1), `wilkerson` (1)
 
 ## Ingest register
@@ -31,7 +31,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | --- | --- | --- | --- |
 | Alexander Mercouris | Mercouris | `mercouris` | [aXsYSfAc7ks](https://www.youtube.com/watch?v=aXsYSfAc7ks) |
 | Jacques Baud | Dialogue Works | `nima`, `baud` | [CEXkLl7pVzo](https://www.youtube.com/watch?v=CEXkLl7pVzo) |
-| Daniel Davis | Daniel Davis Deep Dive | `davis` | [SRCgVFPIxwM](https://www.youtube.com/watch?v=SRCgVFPIxwM) |
+| [] | Daniel Davis Deep Dive | `davis` | [SRCgVFPIxwM](https://www.youtube.com/watch?v=SRCgVFPIxwM) |
 | Daniel Davis | Daniel Davis Deep Dive | `davis` | [yu1H2bORJPM](https://www.youtube.com/watch?v=yu1H2bORJPM) |
 | Larry Johnson | Dialogue Works | `johnson`, `nima` | [-jfbieXSiH0](https://www.youtube.com/watch?v=-jfbieXSiH0) |
 | Lawrence Wilkerson | Glenn Diesen | `wilkerson`, `diesen` | [a2nQnLcTNuo](https://www.youtube.com/watch?v=a2nQnLcTNuo) |

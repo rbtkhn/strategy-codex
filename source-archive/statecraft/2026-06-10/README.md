@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `cleaned-transcript` (9)
 - Source form mix: `interview` (7), `solo` (2)
 - Distinct channels/shows: `6`
-- Distinct hosts: `5`
+- Distinct hosts: `4`
 - Distinct guests: `5`
 - Distinct threads: `11`
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (4), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jiang Xueqin` (1), `Mario Nawfal` (1)
+- Hosts: `Nima Alkhorshid` (4), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jiang Xueqin` (1)
 - Guests: `Patrick Henningsen` (2), `Robert Barnes` (2), `Joe Kent` (1), `Larry Johnson` (1), `Matthew Hoh` (1)
 - Threads: `nima` (4), `barnes` (2), `henningsen` (2), `diesen` (1), `hoh` (1), `jiang` (1), `johnson` (1), `kent` (1), `mercouris` (1), `napolitano` (1), `nawfal` (1)
 

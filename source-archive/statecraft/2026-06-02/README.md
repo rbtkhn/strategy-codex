@@ -9,8 +9,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `cleaned-transcript` (14), `article` (1), `substack-post` (1)
 - Source form mix: `interview` (12), `solo` (2), `article` (1), `newsletter` (1)
 - Distinct channels/shows: `9`
-- Distinct hosts: `7`
-- Distinct guests: `12`
+- Distinct hosts: `5`
+- Distinct guests: `13`
 - Distinct threads: `17`
 
 ## Channel / Show Rollup
@@ -19,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Daniel Davis` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Mario Nawfal` (1), `Robert Pape` (1)
-- Guests: `Lawrence Wilkerson` (2), `Alexander Mercouris` (1), `Brandon J. Weichert` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Seyed M. Marandi` (1), `Stanislav Krapivnik` (1)
+- Hosts: `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Robert Pape` (1)
+- Guests: `Lawrence Wilkerson` (2), `Alexander Mercouris` (1), `Brandon J. Weichert` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Seyed M. Marandi` (1), `Stanislav Krapivnik` (1), `[]` (1)
 - Threads: `napolitano` (3), `nawfal` (3), `nima` (3), `davis` (2), `mercouris` (2), `wilkerson` (2), `christoforou` (1), `diesen` (1), `freeman` (1), `johnson` (1), `krapivnik` (1), `macgregor` (1), `marandi` (1), `mearsheimer` (1), `pape` (1), `sachs` (1), `weichert` (1)
 
 ## Ingest register
@@ -33,7 +33,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | John Helmer | Dialogue Works | `nima` | [OVcXeOl-LSw](https://www.youtube.com/watch?v=OVcXeOl-LSw) |
 | Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [gfUh61RczdQ](https://www.youtube.com/watch?v=gfUh61RczdQ) |
 | Lawrence Wilkerson | Dialogue Works | `nima`, `wilkerson` | [frZDd7KM3Fo](https://www.youtube.com/watch?v=frZDd7KM3Fo) |
-| Daniel Davis | Daniel Davis Deep Dive | `davis` | [5dY4pJQGZ0k](https://www.youtube.com/watch?v=5dY4pJQGZ0k) |
+| [] | Daniel Davis Deep Dive | `davis` | [5dY4pJQGZ0k](https://www.youtube.com/watch?v=5dY4pJQGZ0k) |
 | Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [Styvw9Ovzvo](https://www.youtube.com/watch?v=Styvw9Ovzvo) |
 | Stanislav Krapivnik | Diesen | `diesen`, `krapivnik` | [watch](https://www.youtube.com/watch?v=5xtnwhdIp_k) |
 | Alexander Mercouris | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=dClwePAEoRw) |

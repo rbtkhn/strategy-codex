@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `cleaned-transcript` (19)
 - Source form mix: `interview` (18), `solo` (1)
 - Distinct channels/shows: `8`
-- Distinct hosts: `8`
+- Distinct hosts: `7`
 - Distinct guests: `15`
 - Distinct threads: `23`
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (5), `Daniel Davis` (4), `Nima Alkhorshid` (4), `Breaking Points` (2), `Alexander Mercouris` (1), `Clayton Morris` (1), `Judish Raj` (1), `Natali Morris` (1)
+- Hosts: `Andrew Napolitano` (5), `Nima Alkhorshid` (4), `Breaking Points` (2), `Alexander Mercouris` (1), `Clayton Morris` (1), `Judish Raj` (1), `Natali Morris` (1)
 - Guests: `Douglas Macgregor` (2), `Larry Johnson` (2), `Mohammad Marandi` (2), `Alastair Crooke` (1), `Alex Krainer` (1), `Andrei Martyanov` (1), `Anthony Aguilar` (1), `Brandon J. Weichert` (1), `Chas Freeman` (1), `Joe Kent` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1), `Max Blumenthal` (1), `Pepe Escobar` (1), `Robert Barnes` (1)
 - Threads: `napolitano` (5), `davis` (4), `nima` (4), `breaking-points` (2), `johnson` (2), `macgregor` (2), `marandi` (2), `aguilar` (1), `barnes` (1), `blumenthal` (1), `crooke` (1), `escobar` (1), `freeman` (1), `india-and-global-left` (1), `kent` (1), `krainer` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1), `nawfal` (1), `redacted` (1), `weichert` (1), `wilkerson` (1)
 

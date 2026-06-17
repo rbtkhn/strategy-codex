@@ -9,8 +9,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `cleaned-transcript` (13), `transcript` (2)
 - Source form mix: `interview` (13), `solo` (2)
 - Distinct channels/shows: `7`
-- Distinct hosts: `8`
-- Distinct guests: `12`
+- Distinct hosts: `6`
+- Distinct guests: `13`
 - Distinct threads: `19`
 
 ## Channel / Show Rollup
@@ -19,8 +19,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (4), `Daniel Davis` (2), `Mario Nawfal` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Breaking Points` (1), `Clayton Morris` (1), `Natali Morris` (1)
-- Guests: `Brandon J. Weichert` (2), `Chas Freeman` (1), `Douglas Macgregor` (1), `Joe Kent` (1), `John Helmer` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Patrick Henningsen` (1), `Pepe Escobar` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1)
+- Hosts: `Nima Alkhorshid` (4), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Breaking Points` (1), `Clayton Morris` (1), `Natali Morris` (1)
+- Guests: `Brandon J. Weichert` (2), `Chas Freeman` (1), `Douglas Macgregor` (1), `Joe Kent` (1), `John Helmer` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Patrick Henningsen` (1), `Pepe Escobar` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1), `[]` (1)
 - Threads: `nima` (4), `napolitano` (3), `nawfal` (3), `davis` (2), `weichert` (2), `breaking-points` (1), `escobar` (1), `freeman` (1), `helmer` (1), `henningsen` (1), `hoh` (1), `johnson` (1), `kent` (1), `macgregor` (1), `marandi` (1), `mercouris` (1), `pape` (1), `parsi` (1), `redacted` (1)
 
 ## Ingest register
@@ -35,7 +35,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [g9JLKwdg1Jc](https://www.youtube.com/watch?v=g9JLKwdg1Jc) |
 | Patrick Henningsen | Dialogue Works | `henningsen`, `nima` | [F_ngNnPGbTs](https://www.youtube.com/watch?v=F_ngNnPGbTs) |
 | Trita Parsi | Breaking Points | `parsi`, `breaking-points` | [YJjkK-T6nnk](https://www.youtube.com/watch?v=YJjkK-T6nnk) |
-| Daniel Davis | Daniel Davis Deep Dive | `davis` | [t57WKaBn5GY](https://www.youtube.com/watch?v=t57WKaBn5GY) |
+| [] | Daniel Davis Deep Dive | `davis` | [t57WKaBn5GY](https://www.youtube.com/watch?v=t57WKaBn5GY) |
 | Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [y8zhwctLKfI](https://www.youtube.com/watch?v=y8zhwctLKfI) |
 | Pepe Escobar | Judging Freedom | `escobar`, `napolitano` | [hPaW0kHj7-0](https://www.youtube.com/watch?v=hPaW0kHj7-0) |
 | Chas Freeman | Judging Freedom | `freeman`, `napolitano` | [ki_x_N3lsAY](https://www.youtube.com/watch?v=ki_x_N3lsAY) |

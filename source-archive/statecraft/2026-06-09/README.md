@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `cleaned-transcript` (16)
 - Source form mix: `interview` (13), `solo` (3)
 - Distinct channels/shows: `8`
-- Distinct hosts: `8`
+- Distinct hosts: `7`
 - Distinct guests: `10`
 - Distinct threads: `17`
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (6), `Daniel Davis` (3), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Breaking Points` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Tucker Carlson` (1)
+- Hosts: `Nima Alkhorshid` (6), `Daniel Davis` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Breaking Points` (1), `Glenn Diesen` (1), `Tucker Carlson` (1)
 - Guests: `Douglas Macgregor` (2), `Robert Pape` (2), `Seyed M. Marandi` (2), `Anthony Aguilar` (1), `Chas Freeman` (1), `John Helmer` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1), `Matt Hoh` (1), `Stanislav Krapivnik` (1)
 - Threads: `nima` (6), `davis` (3), `macgregor` (2), `marandi` (2), `napolitano` (2), `pape` (2), `aguilar` (1), `carlson` (1), `diesen` (1), `freeman` (1), `helmer` (1), `hoh` (1), `krapivnik` (1), `mearsheimer` (1), `mercouris` (1), `nawfal` (1), `wilkerson` (1)
 
