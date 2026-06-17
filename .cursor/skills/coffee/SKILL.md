@@ -2,7 +2,7 @@
 name: coffee
 preferred_activation: coffee
 requires: [handoff-check]
-description: "Strategy-codex operator cadence and tempo. Primary trigger: coffee. Step 2 = hub A-D only (Confirm / Test / Deepen / Reframe). Standalone Conductor (master name or conductor skill) remains separate from the hub list. Before Step 1, Recent rhythm. Signing-off: same A-D menu; closeout in Step 1. Coffee also acts as the default checkpointed re-entry ritual."
+description: "Strategy-codex operator cadence and tempo. Primary trigger: coffee. Step 2 = hub A-D only (Confirm / Test / Deepen / Reframe), each line naming one specific repo-grounded suggested action (not bare labels). Standalone Conductor (master name or conductor skill) remains separate from the hub list. Before Step 1, Recent rhythm. Signing-off: same A-D action menu; closeout in Step 1. Coffee also acts as the default checkpointed re-entry ritual."
 ---
 
 # Coffee
@@ -19,7 +19,7 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 
 `coffee` is also the default checkpointed re-entry ritual. In a fresh chat, it should resume from the most recent authoritative checkpoint on disk, using cadence and handoff state to recover orientation. If more than one plausible checkpoint exists, prefer the latest on-disk authority and surface the ambiguity instead of guessing. This is a checkpoint, not a transfer seal: it restores continuity, but it does not commit, push, or generate a bridge packet.
 
-**Coffee Hub Menu (terminology):** **`coffee` Step 2** fixed **A-D** hub (**Confirm / Test / Deepen / Reframe**) is the **Coffee Hub Menu**. **Conductor** is separate and routes directly by conductor name: `toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`. Bare `conductor` is incomplete and should ask for one of those names. Once a conductor name resolves, emit the **Conductor Action Menu**: four movement-labeled **A-D** repo-grounded next moves; see [CONDUCTOR-PASS - Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq). Layer map: [CONDUCTOR-LAYER-MAP.md](../../../docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md).
+**Coffee Hub Menu (terminology):** **`coffee` Step 2** fixed **A–D** hub (**Confirm / Test / Deepen / Reframe**) is the **Coffee Hub Menu**. Each line is **`Letter. Label — specific suggested action`** grounded in Step 1 (paths, scripts, slices, falsifiers); seeds from `scripts/assess_session_load.py`. **Conductor** is separate and routes directly by conductor name: `toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`. Bare `conductor` is incomplete and should ask for one of those names. Once a conductor name resolves, emit the **Conductor Action Menu**: four movement-labeled **A–D** repo-grounded next moves; see [CONDUCTOR-PASS - Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq). Layer map: [CONDUCTOR-LAYER-MAP.md](../../../docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md).
 
 **Legacy label compatibility:** Older checks and notes may still refer to **Steward / Engineer / Statecraft / Singularity** as the coffee hub. Treat those as compatibility residue only. Live coffee now chooses a **learning action first**, then routes into the owning downstream territory only if that action needs a specific bench.
 
@@ -140,7 +140,8 @@ This prints a **Coffee Bootstrap Brief** first, then runs an **inline fast Step 
    python3 scripts/operator_handoff_check.py --fast
    ```
 4. Synthesize **Recent rhythm** prose from cadence output; paste handoff **Ship receipt** block.
-5. Emit the full **Coffee Hub Menu — Reply A–D** immediately. **Do not** end on “starting now.”
+5. Run `python3 scripts/assess_session_load.py -u strategy-codex` when feasible; use **Annotated menu** seeds plus Step 1 slices to build the **action hub menu** (see [Step 2 — Hub menu](#coffee-step-2-hub)).
+6. Emit the full **Coffee Hub Menu — Reply A–D** immediately — **four action lines**, not bare labels. **Do not** end on “starting now.”
 
 **Signing-off under hang:** skip heavy `operator_coffee.py --mode closeout`; use `--fast` handoff only unless the operator explicitly asks for full closeout.
 
@@ -216,29 +217,53 @@ The operator may say **`coffee`** **more than once per calendar day** for reorie
 
 <a id="coffee-step-2-hub"></a>
 
-### Step 2 — Hub menu (four lines only)
+### Step 2 — Hub menu (four action lines)
 
-Immediately **after** Step 1 content, output the **hub** menu - **four lines** (**A-D**).
+Immediately **after** Step 1 content, output the **hub** menu — **four lines** (**A–D**). Each line names the **learning action** **and** one **specific suggested action** for this session.
 
-**One option per line:** Each hub letter is **its own line** - **`A.`** through **`D.`** as **four separate lines**, not multiple letters on one line and not a single paragraph. If a chosen learning action later opens a bounded downstream menu, that second-layer menu is separate from this rule.
+**Required line shape:**
 
-**Letter-collision:** There is no conductor chooser. The only live conductor letters are the resolved **Conductor Action Menu** (**A-D**). When both a Coffee Hub Menu and a Conductor Action Menu could appear in one reply, **label** them explicitly; see [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md).
+```text
+**A. Confirm** — <one concrete repo-grounded action>
+```
+
+Same pattern for **B. Test**, **C. Deepen**, **D. Reframe**. Use an em dash (`—`) between label and action.
+
+**One option per line:** Each hub letter is **its own line** — not multiple letters on one line and not a single paragraph. If a chosen learning action later opens a bounded downstream menu, that second-layer menu is separate from this rule.
+
+**How to word the action (mandatory):**
+
+1. **Seed from scripts:** Run `python3 scripts/assess_session_load.py -u strategy-codex` (or read the **Session load** / **Annotated menu** block when `operator_coffee.py` already ran). Use `option_weights[A|B|C|D].note` as the **learning-action seed** for that letter.
+2. **Instantiate from Step 1:** Translate each seed into a **single executable move** using live context from Step 1 — handoff **Uncommitted slices**, recent commits, **Suggested push**, dream **Learning action**, **open loops**, **artifact anchors**, and thread-local work. Name **paths**, **scripts**, **commits/slices**, or **falsifiers** where honest.
+3. **Recommended letter:** When Step 1 prints `Recommended default: X`, mark that hub line with `*(recommended)*` after the label (e.g. `**D. Reframe** *(recommended)* — …`).
+
+**Good action clauses (session-specific):**
+
+- `Commit the ph-civ drift slice (~73 files) separately from the ahead-1 tooling commit, then push when slices are clean.`
+- `Run python3 scripts/check_academy_mirror_sync.py --mirror ph-civ to falsify whether ship-ready still matches live drift.`
+
+**Forbidden on the hub list:**
+
+- Bare labels with no action clause (`A. Confirm` alone).
+- Generic seeds copied verbatim with no repo anchor (`validate follow-through when prior judgment still looks right` with no path, slice, or script).
+- Extra hub lines, micro-hints rows, fork shorthand, or F/G/Xavier/Dev tags **under** the four lines.
+
+**Letter-collision:** There is no conductor chooser. The only live conductor letters are the resolved **Conductor Action Menu** (**A–D**). When both a Coffee Hub Menu and a Conductor Action Menu could appear in one reply, **label** them explicitly; see [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md).
 
 **Do not** append any lettered masters row under the four hub lines; conductor stance belongs to named Conductor turns ([Conductor session](#conductor-only-no-coffee), [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md)).
 
-**Do not** add micro-hints, fork shorthand, or F/G/Xavier/Dev tags **under** the hub list.
+**Hub menu (example shape — actions must match the live session, not this sample):**
 
-**Hub menu (example):**
+```text
+**Coffee Hub Menu — reply A–D**
 
+**A. Confirm** — Commit the wip-slice-commits stack: separate ph-civ drift from the ahead-1 tooling commit, then push when slices are clean.
+**B. Test** — Run `python3 scripts/check_academy_mirror_sync.py --mirror ph-civ` to falsify whether ship-ready still matches live drift.
+**C. Deepen** — Populate `public/civ-state/` via `sync_public_civ_state_mirror.py` and read `public/README.md` until the two-mirror workflow is clear enough to act.
+**D. Reframe** *(recommended)* — Pick one live object only: ph-civ drift commit, civ-state populate, or push-only the committed slice — not all three.
 ```
-A. Confirm
-B. Test
-C. Deepen
-D. Reframe - <one short line: replace stale framing, choose a better object, or repair inherited category>
-<!-- Conductor is standalone only and does not appear as a coffee hub letter. -->
-```
 
-**Hub lines end at D:** the coffee hub is four lines only. Conductor is standalone and does not appear as a coffee hub letter.
+**Hub lines end at D:** the coffee hub is four action lines only. Conductor is standalone and does not appear as a coffee hub letter.
 
 **Mission-control note:** the coffee hub now chooses a **learning action** first. Downstream territories such as steward, engineer, statecraft, or singularity are second-layer consequences after the operator picks Confirm, Test, Deepen, or Reframe.
 
@@ -276,7 +301,7 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
 
 **Step 1 context for standalone Conductor:** After lane hints, `operator_coffee.py` prints the four-line coffee hub only; Conductor is handled separately.
 
-**Default recommendation line:** Step 1 may print `Session load: … (recommended: X)` and `Recommended default: X — say "go" to accept, or pick another hub letter.` (**A** / **B** / **C**). When present, surface that recommended default once before or after the hub menu. The fixed hub menu still remains four lines only. For **Conductor** emphasis outside the hub, say **once** that **`conductor`** / master name works **without** opening **`coffee`** ([§ Conductor session](#conductor-only-no-coffee)). **Not** micro-hints under the hub list.
+**Default recommendation line:** Step 1 may print `Session load: … (recommended: X)` and `Recommended default: X — say "go" to accept, or pick another hub letter.` When present, surface that line once before or after the hub menu; the matching hub line also carries `*(recommended)*`. The hub menu still remains **four action lines** only — never bare labels. For **Conductor** emphasis outside the hub, say **once** that **`conductor`** / master name works **without** opening **`coffee`** ([§ Conductor session](#conductor-only-no-coffee)). **Not** micro-hints under the hub list.
 
 **Quick reference (modes):**
 

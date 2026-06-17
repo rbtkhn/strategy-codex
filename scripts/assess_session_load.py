@@ -375,6 +375,11 @@ def format_default_acceptance_line(result: dict[str, Any]) -> str:
 
 
 def format_annotated_menu(result: dict[str, Any]) -> str:
+    """Format learning-action seeds for coffee Step 2.
+
+    Agents must instantiate each note into a repo-grounded action line
+    (paths, scripts, slices) using Step 1 handoff context — not paste verbatim.
+    """
     weights = result.get("option_weights", {})
     rec = result.get("recommended", "")
     lines = []
