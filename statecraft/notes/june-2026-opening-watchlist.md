@@ -37,7 +37,7 @@ Best current reading:
 
 **McGovern June shelf** — [mcgovern-source-index.md](../voices/mcgovern/mcgovern-source-index.md): six rows Jun 01–15; Fri intel roundtable watch **Jun 19** (not on disk yet).
 
-**Ritter June shelf** — [ritter-source-index.md](../voices/ritter/ritter-source-index.md): two authored Substack rows (Jun 01 Revenge Tour, Jun 10 Shoot the Dog); sparse **hosted** interviews plausibly explained by **SPIEF + Russia travel** (see MOU seam return path to Jun 08 McGovern Ritter cite).
+**Ritter June shelf** — [ritter-source-index.md](../voices/ritter/ritter-source-index.md): two authored Substack rows (Jun 01 Revenge Tour, Jun 10 Shoot the Dog); sparse **hosted** interviews plausibly explained by **SPIEF + Russia travel**. Karaganov arc: [ritter-karaganov-doctrine-arc-2026.md](./ritter-karaganov-doctrine-arc-2026.md).
 
 ## Healthy Early Coverage
 

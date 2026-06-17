@@ -133,6 +133,8 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [substack-ritter-the-revenge-tour-2026-2026-06-01](../../../source-archive/statecraft/2026-06-01/source-ritter-the-revenge-tour-2026-2026-06-01.md)
 - [substack-ritter-shoot-the-dog-2026-06-10](../../../source-archive/statecraft/2026-06-10/source-ritter-shoot-the-dog-2026-06-10.md)
 
+**Doctrine arc:** [Ritter × Karaganov (2026 H1 → SPIEF fence)](../../notes/ritter-karaganov-doctrine-arc-2026.md)
+
 ## Discovery Surfaces
 
 - [dialogue-works-inventory](../../sheets/source-archive-control/dialogue-works-inventory.md)
