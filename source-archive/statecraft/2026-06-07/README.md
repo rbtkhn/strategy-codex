@@ -4,10 +4,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `6`
+- Source files: `7`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (4), `substack-post` (2)
-- Source form mix: `solo` (3), `newsletter` (2), `interview` (1)
+- Body kind mix: `cleaned-transcript` (4), `substack-post` (3)
+- Source form mix: `newsletter` (3), `solo` (3), `interview` (1)
 - Distinct channels/shows: `5`
 - Distinct hosts: `2`
 - Distinct guests: `2`
@@ -15,13 +15,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `tritaparsi.substack.com` (2), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Mario Nawfal` (1), `Mercouris` (1)
+- `tritaparsi.substack.com` (3), `Daniel Davis Deep Dive` (1), `Dialogue Works` (1), `Mario Nawfal` (1), `Mercouris` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Trita Parsi` (2), `Alexander Mercouris` (1)
+- Hosts: `Trita Parsi` (3), `Alexander Mercouris` (1)
 - Guests: `[]` (2), `Anthony Aguilar` (1)
-- Threads: `parsi` (2), `aguilar` (1), `davis` (1), `mercouris` (1), `nawfal` (1), `nima` (1)
+- Threads: `parsi` (3), `aguilar` (1), `davis` (1), `mercouris` (1), `nawfal` (1), `nima` (1)
 
 ## Ingest register
 
@@ -34,6 +34,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | [] | Daniel Davis Deep Dive | `davis` | [dnwkC2sIMQA](https://www.youtube.com/watch?v=dnwkC2sIMQA) |
 | Anthony Aguilar | Mario Nawfal | `aguilar`, `nawfal` | [QFKjJHKh07w](https://www.youtube.com/watch?v=QFKjJHKh07w) |
 | Trita Parsi | tritaparsi.substack.com | `parsi` | [watch](https://tritaparsi.substack.com/p/after-israel-strikes-beirut-iran) |
+| Trita Parsi | tritaparsi.substack.com | `parsi` | [watch](https://tritaparsi.substack.com/p/netanyahu-defies-trump-and-strikes) |
 | Trita Parsi | tritaparsi.substack.com | `parsi` | [watch](https://tritaparsi.substack.com/p/the-profound-geopolitical-implications) |
 
 ## Files
@@ -43,4 +44,5 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 - `source-daniel-davis-deep-dive-israel-launches-missile-attack-against-iran-2026-06-07.md`
 - `source-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md`
 - `source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md`
+- `source-parsi-netanyahu-defies-trump-and-strikes-back-at-iran-2026-06-07.md`
 - `source-parsi-the-profound-geopolitical-implications-of-irans-strikes-on-israel-2026-06-07.md`
