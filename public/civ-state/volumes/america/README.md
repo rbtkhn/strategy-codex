@@ -20,7 +20,7 @@ Primary live lane: America statecraft lane
 - Civilization chapter: [America civilization](civilization-america.md)
 - Empire chapter: [America empire](empire-america.md)
 - Shelf reader: [America shelf reader](shelf-reader.md)
-- Volume bibliography: [America bibliography](bibliography.md)
+- Volume bibliography: [America bibliography](../../sources/america/bibliography.md)
 - Sovereign continuity support note: America sovereign continuity
 - Geo-strategy chapter: [America geo-strategy](geo-strategy-america.md)
 - Secret-history chapter: [America secret-history](secret-history-america.md)

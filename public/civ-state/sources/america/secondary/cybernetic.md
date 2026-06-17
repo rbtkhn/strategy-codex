@@ -23,6 +23,6 @@ Stay with the primary shelf when the issue is official doctrine, sanctions langu
 ## Where To Go Next
 
 - Return to [Cybernetic primary sources](../primary/cybernetic.md) once the clarification or counterweight has been taken.
-- Return to the [America bibliography](../../../volumes/america/bibliography.md) for the rest of the America evidence stack.
+- Return to the [America bibliography](../bibliography.md) for the rest of the America evidence stack.
 - Open [America empire](../../../volumes/america/empire-america.md) when the live question is command burden, sanctions order, or settlement-bearing restraint.
 - Open [America empire](../../../volumes/america/empire-america.md) when the live question is outward instrument, alliance system, or platform-style command.

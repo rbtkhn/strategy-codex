@@ -23,6 +23,6 @@ Stay with the primary shelf when the issue is imperial inscription, sacred langu
 ## Where To Go Next
 
 - Return to [Ancient primary sources](../primary/ancient.md) once the clarification or counterweight has been taken.
-- Return to the [Persia bibliography](../../../volumes/persia/bibliography.md) for the rest of the Persia evidence stack.
+- Return to the [Persia bibliography](../bibliography.md) for the rest of the Persia evidence stack.
 - Open [Persia civilization](../../../volumes/persia/civilization-persia.md) when the live question is sacred residue, dignity, or category membership.
 - Open [Persia empire](../../../volumes/persia/empire-persia.md) when the live question is imperial form, parity, or outward bearing.

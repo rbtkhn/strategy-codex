@@ -23,6 +23,6 @@ Stay with the primary shelf when the problem is court language, law, or state se
 ## Where To Go Next
 
 - Return to [Medieval primary sources](../primary/medieval.md) once the clarification or counterweight has been taken.
-- Return to the [China bibliography](../../../volumes/china/bibliography.md) for the rest of the China evidence stack.
+- Return to the [China bibliography](../bibliography.md) for the rest of the China evidence stack.
 - Open [China civilization](../../../volumes/china/civilization-china.md) when the live question is continuity through restoration and conquest absorption.
 - Open [China empire](../../../volumes/china/empire-china.md) when the live question is scale, frontier, and outward instrument rather than court continuity alone.

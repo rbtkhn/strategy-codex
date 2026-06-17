@@ -1,6 +1,6 @@
 # China — source shelf
 
-Volume I source-lattice. Interpretive volume: [China](../../volumes/china/README.md) · [bibliography](../../volumes/china/bibliography.md) · [Source-Lattice](../source-lattice.md)
+Volume I source-lattice. Interpretive volume: [China](../../volumes/china/README.md) · [bibliography](bibliography.md) · [Source-Lattice](../source-lattice.md)
 
 ## Primary
 

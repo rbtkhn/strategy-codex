@@ -19,7 +19,7 @@ Primary live lane: Russia statecraft lane
 - Civilization chapter: [Russia civilization](civilization-russia.md)
 - Empire chapter: [Russia empire](empire-russia.md)
 - Shelf reader: [Russia shelf reader](shelf-reader.md)
-- Volume bibliography: [Russia bibliography](bibliography.md)
+- Volume bibliography: [Russia bibliography](../../sources/russia/bibliography.md)
 - Sovereign continuity support note: Russia sovereign continuity
 - Geo-strategy chapter: [Russia geo-strategy](geo-strategy-russia.md)
 - Secret-history chapter: [Russia secret-history](secret-history-russia.md)

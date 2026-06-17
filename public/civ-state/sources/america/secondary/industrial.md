@@ -23,6 +23,6 @@ Stay with the primary shelf when the issue is constitutional amendment, presiden
 ## Where To Go Next
 
 - Return to [Industrial primary sources](../primary/industrial.md) once the clarification or counterweight has been taken.
-- Return to the [America bibliography](../../../volumes/america/bibliography.md) for the rest of the America evidence stack.
+- Return to the [America bibliography](../bibliography.md) for the rest of the America evidence stack.
 - Open [America civilization](../../../volumes/america/civilization-america.md) when the live question is continuity through contradiction and preserved union.
 - Open [America empire](../../../volumes/america/empire-america.md) when the live question is maritime-financial rise, alliance stack, and industrial instrument.

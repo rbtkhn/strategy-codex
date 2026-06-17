@@ -4,7 +4,7 @@ Whole-work **source-lattice** for *Civilizational Statecraft* — evidence layer
 
 Governing law: [Source-Lattice](source-lattice.md).
 
-Each civilization-state case owns era-matched shelves under `sources/{civ}/primary/` and `sources/{civ}/secondary/`. Volume folders (`volumes/{civ}/`) hold interpretive doors — README, shelf-reader, bibliography, essays — and **link here** for source retrieval.
+Each civilization-state case owns era-matched shelves under `sources/{civ}/bibliography.md`, `primary/`, and `secondary/`. Volume folders hold interpretive doors and link here for source retrieval.
 
 ## Civilization-state source shelves
 

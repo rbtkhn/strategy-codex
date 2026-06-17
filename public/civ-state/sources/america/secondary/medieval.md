@@ -23,6 +23,6 @@ Stay with the primary shelf when the issue is charter language, royal law, or ea
 ## Where To Go Next
 
 - Return to [Medieval primary sources](../primary/medieval.md) once the clarification or counterweight has been taken.
-- Return to the [America bibliography](../../../volumes/america/bibliography.md) for the rest of the America evidence stack.
+- Return to the [America bibliography](../bibliography.md) for the rest of the America evidence stack.
 - Open [America civilization](../../../volumes/america/civilization-america.md) when the live question is Anglo transfer, legitimacy, or category strain.
 - Open [America empire](../../../volumes/america/empire-america.md) when the live question is how inherited law later supports outward instrument.

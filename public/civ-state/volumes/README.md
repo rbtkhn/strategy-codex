@@ -41,7 +41,7 @@ Each volume will carry the same eight theory filenames under `volumes/<civ>/theo
 Each volume carries:
 
 - **Doorway:** volume README + introduction + `shelf-reader.md`
-- **Primary floor:** volume `bibliography.md` + `sources/{civ}/primary/{era}.md`
+- **Primary floor:** `sources/{civ}/bibliography.md` + `sources/{civ}/primary/{era}.md`
 - **Secondary support:** `sources/{civ}/secondary/{era}.md` (when present)
 - **Widened interpretation:** civilization and empire essays
 

@@ -23,6 +23,6 @@ Stay with the primary shelf when the issue is legitimacy language, canonical wor
 ## Where To Go Next
 
 - Return to [Ancient primary sources](../primary/ancient.md) once the clarification or counterweight has been taken.
-- Return to the [China bibliography](../../../volumes/china/bibliography.md) for the rest of the China evidence stack.
+- Return to the [China bibliography](../bibliography.md) for the rest of the China evidence stack.
 - Open [China civilization](../../../volumes/china/civilization-china.md) when the live question is mandate, continuity, or category membership.
 - Open [China introduction](../../../volumes/china/introduction.md) only after the ancient continuity problem has been translated into a present carrier question.

@@ -23,6 +23,6 @@ Stay with the primary shelf when the issue is doctrinal language, epic self-read
 ## Where To Go Next
 
 - Return to [Medieval primary sources](../primary/medieval.md) once the clarification or counterweight has been taken.
-- Return to the [Persia bibliography](../../../volumes/persia/bibliography.md) for the rest of the Persia evidence stack.
+- Return to the [Persia bibliography](../bibliography.md) for the rest of the Persia evidence stack.
 - Open [Persia civilization](../../../volumes/persia/civilization-persia.md) when the live question is transformed continuity and sacred grammar.
 - Open [Persia empire](../../../volumes/persia/empire-persia.md) when the live question is Persianate spread, outward transmission, or reconcentration.

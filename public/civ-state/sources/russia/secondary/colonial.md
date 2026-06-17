@@ -23,6 +23,6 @@ Stay with the primary shelf when the issue is manifesto, ecclesial statement, la
 ## Where To Go Next
 
 - Return to [Colonial primary sources](../primary/colonial.md) once the clarification or counterweight has been taken.
-- Return to the [Russia bibliography](../../../volumes/russia/bibliography.md) for the rest of the Russia evidence stack.
+- Return to the [Russia bibliography](../bibliography.md) for the rest of the Russia evidence stack.
 - Open [Russia empire](../../../volumes/russia/empire-russia.md) when the live question is scale, strategic depth, or outward instrument.
 - Open [Russia civilization](../../../volumes/russia/civilization-russia.md) when the live question is regathering continuity under expansion.

@@ -19,7 +19,7 @@ doorway → primary floor → secondary support → widened interpretation
 | Layer | Where in this book | Reader question |
 |-------|-------------------|-----------------|
 | **Doorway** | Volume `README.md`, `shelf-reader.md` | What civilization-state is this? How do I traverse the shelf? |
-| **Primary floor** | Volume `bibliography.md`, `sources/{civ}/primary/{era}.md` | What are the direct source doors? |
+| **Primary floor** | `sources/{civ}/bibliography.md`, `sources/{civ}/primary/{era}.md` | What are the direct source doors? |
 | **Secondary support** | `sources/{civ}/secondary/{era}.md` | What clarifies chronology, provenance, translation, or counterweight trouble? |
 | **Widened interpretation** | `civilization-*.md`, `empire-*.md`, `statecraft-*.md` (+ sub-lenses) under `volumes/{civ}/` | What judgment does the chain bear now? |
 

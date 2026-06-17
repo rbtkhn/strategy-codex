@@ -23,6 +23,6 @@ Stay with the primary shelf when the issue is edicts, memorials, treaties, or of
 ## Where To Go Next
 
 - Return to [Colonial primary sources](../primary/colonial.md) once the clarification or counterweight has been taken.
-- Return to the [China bibliography](../../../volumes/china/bibliography.md) for the rest of the China evidence stack.
+- Return to the [China bibliography](../bibliography.md) for the rest of the China evidence stack.
 - Open [China civilization](../../../volumes/china/civilization-china.md) when the live question is anti-chaos legitimacy under humiliation pressure.
 - Open [China empire](../../../volumes/china/empire-china.md) when the live question is encroachment, maritime pressure, or inward/outward asymmetry.

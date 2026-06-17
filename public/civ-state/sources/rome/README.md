@@ -1,6 +1,6 @@
 # Rome — source shelf
 
-Volume III source-lattice (preview). Interpretive volume: [Rome](../../volumes/rome/README.md) · [bibliography](../../volumes/rome/bibliography.md) · [Source-Lattice](../source-lattice.md)
+Volume III source-lattice (preview). Interpretive volume: [Rome](../../volumes/rome/README.md) · [bibliography](bibliography.md) · [Source-Lattice](../source-lattice.md)
 
 ## Primary
 

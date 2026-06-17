@@ -1,6 +1,6 @@
 # America — source shelf
 
-Volume V source-lattice. Interpretive volume: [America](../../volumes/america/README.md) · [bibliography](../../volumes/america/bibliography.md) · [Source-Lattice](../source-lattice.md)
+Volume V source-lattice. Interpretive volume: [America](../../volumes/america/README.md) · [bibliography](bibliography.md) · [Source-Lattice](../source-lattice.md)
 
 ## Primary
 

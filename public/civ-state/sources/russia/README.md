@@ -1,6 +1,6 @@
 # Russia — source shelf
 
-Volume IV source-lattice. Interpretive volume: [Russia](../../volumes/russia/README.md) · [bibliography](../../volumes/russia/bibliography.md) · [Source-Lattice](../source-lattice.md)
+Volume IV source-lattice. Interpretive volume: [Russia](../../volumes/russia/README.md) · [bibliography](bibliography.md) · [Source-Lattice](../source-lattice.md)
 
 ## Primary
 

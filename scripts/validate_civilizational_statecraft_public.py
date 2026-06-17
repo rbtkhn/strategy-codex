@@ -167,6 +167,9 @@ def check_volume(export: Path, slug: str, eras: list[str], stub: bool) -> list[s
     src_readme = export / "sources" / slug / "README.md"
     if not src_readme.is_file():
         errors.append(f"sources/{slug}: missing README.md")
+    src_bib = export / "sources" / slug / "bibliography.md"
+    if not src_bib.is_file():
+        errors.append(f"sources/{slug}: missing bibliography.md")
     return errors
 
 

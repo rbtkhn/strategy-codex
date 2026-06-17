@@ -23,6 +23,6 @@ Stay with the primary shelf when the issue is concession text, court language, o
 ## Where To Go Next
 
 - Return to [Colonial primary sources](../primary/colonial.md) once the clarification or counterweight has been taken.
-- Return to the [Persia bibliography](../../../volumes/persia/bibliography.md) for the rest of the Persia evidence stack.
+- Return to the [Persia bibliography](../bibliography.md) for the rest of the Persia evidence stack.
 - Open [Persia civilization](../../../volumes/persia/civilization-persia.md) when the live question is anti-humiliation memory and continuity under fracture.
 - Open [Persia empire](../../../volumes/persia/empire-persia.md) when the live question is Gulf leverage, external pressure, or constrained outward room.

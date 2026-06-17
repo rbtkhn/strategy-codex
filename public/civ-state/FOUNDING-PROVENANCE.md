@@ -37,6 +37,7 @@ Whole-work sources SSOT: **`sources/`** in this repository.
 |--------------|-------------|
 | `source-lattice.md` (repo root) | `sources/source-lattice.md` |
 | `volumes/{civ}/sources/primary\|secondary/` | `sources/{civ}/primary\|secondary/` |
+| `volumes/{civ}/bibliography.md` (canonical) | `sources/{civ}/bibliography.md` (volume stub redirects) |
 | Volume-owned evidence paths | Volume doors link up to `sources/{civ}/` |
 
 ## Workshop rule

@@ -32,7 +32,7 @@ Switchboard rule:
 - return to the primary shelf once the difficulty has been clarified
 - move upward into civilization or empire once the shelf problem has become a present carrier or settlement-bearing judgment problem
 
-- Open the [Russia bibliography](bibliography.md) for era entry and source doors (shelves live under [../../sources/russia/](../../sources/russia/README.md)).
+- Open the [Russia bibliography](../../sources/russia/bibliography.md) for era entry and source doors (shelves live under [../../sources/russia/](../../sources/russia/README.md)).
 - Open the era-matched `secondary-sources` file from the bibliography when chronology, provenance, institutional-context, or counterweight is the real need rather than direct source descent alone.
 - Open [Russia civilization](civilization-russia.md) if the live question is continuity, legitimacy, or restoration claim.
 - Open [Russia empire](empire-russia.md) if the live question is depth, scale, or projection.

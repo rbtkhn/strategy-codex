@@ -1,6 +1,6 @@
 # Persia — source shelf
 
-Volume II source-lattice. Interpretive volume: [Persia](../../volumes/persia/README.md) · [bibliography](../../volumes/persia/bibliography.md) · [Source-Lattice](../source-lattice.md)
+Volume II source-lattice. Interpretive volume: [Persia](../../volumes/persia/README.md) · [bibliography](bibliography.md) · [Source-Lattice](../source-lattice.md)
 
 ## Primary
 

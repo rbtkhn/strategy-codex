@@ -23,6 +23,6 @@ Stay with the primary shelf when the issue is party doctrine, constitutional wor
 ## Where To Go Next
 
 - Return to [Industrial primary sources](../primary/industrial.md) once the clarification or counterweight has been taken.
-- Return to the [Russia bibliography](../../../volumes/russia/bibliography.md) for the rest of the Russia evidence stack.
+- Return to the [Russia bibliography](../bibliography.md) for the rest of the Russia evidence stack.
 - Open [Russia introduction](../../../volumes/russia/introduction.md) when the live question is what the industrial Soviet mutation still leaves in the current carrier.
 - Open [Russia empire](../../../volumes/russia/empire-russia.md) when the live question is superpower instrument rather than internal mutation alone.
