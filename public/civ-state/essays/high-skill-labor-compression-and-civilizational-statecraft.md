@@ -100,7 +100,7 @@ Use this note when:
 Best downstream partners:
 
 - [README.md](../README.md)
-- [theory/README.md](../theory/README.md) · [form.md](../theory/form.md) · [truth.md](../theory/truth.md) · [memory.md](../theory/memory.md)
+- [theory/README.md](../theory/README.md) · [civilization.md](../theory/civilization.md) · [entropy.md](../theory/entropy.md) · [memory.md](../theory/memory.md)
 - ../statecraft.md
 - [../README.md](../README.md)
 

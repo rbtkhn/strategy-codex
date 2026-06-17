@@ -1,99 +1,76 @@
 # Memory
 
-**Memory ↔ desire** — continuity-bearing inheritance under appetite, acceleration, and compensatory overreach.
+**Continuity-bearing inheritance** — wound, restoration, succession, and retrieval entry.
 
 Status: Active doctrine  
 Surface: `civ-state`  
-Purpose: govern reads where inherited wound, humiliation, restoration, or succession memory meets prestige hunger, novelty drive, or rupture-seeking appetite  
-Last updated: 2026-06-15
+Purpose: govern reads where inherited wound, humiliation, restoration, or succession memory is load-bearing  
+Last updated: 2026-06-17
 
-## Why this pair exists
+**Desire** is retired as a governing term. Appetite, spectacle, and compensatory overreach → [Entropy](entropy.md) (behavioral entropy).
 
-Many objects look civilizational or imperial on the surface but **misbehave** because continuity and appetite are both active. **Memory** names what must be preserved; **desire** names what pushes for release, compensation, novelty, prestige, or revenge.
+## Why this term
 
-This page holds the **memory ↔ desire** pair from the [Civilizational Statecraft Framework](../README.md). Read [Form](form.md) for civilization ↔ empire; [Truth](truth.md) for faith ↔ science.
+Memory names what a civilization **must preserve** across rupture: inheritance, humiliation, restoration, loss, sacrifice, and recurrence. It is also the **first step** in whole-work retrieval movement.
 
-## The two terms
+## Definition
 
-### Memory
+Memory is continuity-bearing recollection: inheritance, humiliation, restoration, loss, sacrifice, recurrence, and rupture-tracking that shape what must be preserved.
 
-Memory is continuity-bearing recollection: inheritance, humiliation, restoration, loss, sacrifice, recurrence, and rupture-tracking that shape what a civilization thinks it must preserve.
-
-### Desire
-
-Desire is appetite and acceleration: prestige hunger, novelty drive, expansion impulse, resentment, compensatory ambition, theatricality, overreach, and the urge to escape inherited limit.
-
-## Governing-layer question
+## Governing question
 
 Ask first:
 
-> Is this object memory-heavy, desire-heavy, or driven by desire acting on a memory-bearing object?
+> Is this object memory-heavy — about continuity, wound, restoration, succession, or inherited claim?
 
-Useful first distinctions:
+If behavior feels excessive or theatrical while the civilizational read is clear, open [Entropy](entropy.md) (behavioral overreach acting on memory).
 
-- if continuity, humiliation, restoration, succession, or inherited wound governs the read, it is usually **memory-heavy**
-- if acceleration, prestige, spectacle, grievance appetite, novelty, or compensatory overreach governs the read, it is usually **desire-heavy**
-- if behavior feels excessive, theatrical, or compulsive while the civilizational read is already clear, suspect **desire acting on memory**
+## Causal connections
 
-## The memory–desire pair
+### Civilization
 
-Memory preserves continuity; desire pushes for release, compensation, novelty, prestige, or revenge.
+[Memory](memory.md) stores what [civilization](civilization.md) must preserve. Civilization without memory-bearing continuity loses intelligibility; memory without civilizational form becomes grievance theater.
 
-This is where many objects sharpen. If the civilizational and instrumental read is clear but the behavior still feels excessive, theatrical, or compulsive, the missing mechanism is often desire acting on a memory-bearing object.
+### Entropy
 
-The pair also names the **retrieval entry** used across the theory shelf:
+[Memory](memory.md) without renewal → [entropy](entropy.md): sacredized wound, paralysis, or revenge cycle. Behavioral overreach on a memory-bearing object is read under **behavioral entropy**, not a separate governing term.
+
+### Rhythm — retrieval movement
+
+After motion law is in view, descend:
 
 ```text
 memory → legitimacy → carrier → pressure → settlement
 ```
 
-**Memory** in that sequence is the operator's first descent step — what inheritance, wound, or continuity claim the object carries before legitimacy and carrier are named.
+**Memory** here is the operator's first descent step — what inheritance or wound the object carries before legitimacy and carrier are named.
 
-## Main failure modes
+## Failure modes
 
-- **memory without renewal** — continuity becomes grievance theater, paralysis, or sacredized wound
-- **desire severed from inheritance** — acceleration, prestige, or appetite float free of continuity and become destabilizing overreach
+- **memory without renewal** — continuity becomes grievance theater or paralysis
+- **memory mistaken for mere history** — chronology without continuity claim or succession stake
 
 ## Return paths
 
-### If memory is governing
-
 Return to:
 
-- lane `state-memory`
-- continuity-sensitive sheets
-- rupture-tracking and successor-order surfaces
-- [Continuity](../theory/continuity.md) when cross-case continuity mechanism is the question
-
-### If desire is governing
-
-Return to:
-
-- mutation and escalation sheets
-- overreach, prestige, novelty, and appetite diagnostics
-- family notes where appetite or restoration drive distorts the inherited object
+- volume **Civilization** chapters and lane `state-memory` surfaces
+- [Civilization](civilization.md) when inheritance substrate governs
+- [Entropy](entropy.md) when overreach or hollowed carry distorts memory
+- [comparative recurrence essay](../essays/cross-case-recurrence-and-sovereignty.md) for bounded cross-case comparison
 
 ## Operational use
 
 Use this page when:
 
-- continuity and appetite are both clearly active
 - humiliation, restoration, or succession memory governs behavior
-- prestige, spectacle, or compensatory overreach distorts an otherwise clear civilizational read
+- retrieval should begin with what continuity claim the object carries
 
-Pair with:
+## See also
 
-- [Form](form.md) — when civilization ↔ empire is still the load-bearing pair
-- [Truth](truth.md) — when authorization grammar and appetite collide
-- [Rhythm](rhythm.md) — when phase placement in beautify → amplify → degrade matters
-- [Time](time.md) — when form-historical shelf choice follows the governing pair
-
-Do **not** use this page as a substitute for source objects or transaction design. Its job is to identify the memory–desire axis and return you to the right retrieval surface.
+- [Civilization](civilization.md) · [Entropy](entropy.md) · [Rhythm](rhythm.md)
+- [Theory shelf](README.md)
 
 ## Bottom line
 
-The memory–desire question is:
-
-> **What continuity must be preserved — and what appetite or acceleration is distorting or driving the object?**
-
-Name the pair first, then open continuity surfaces, lane memory, or escalation diagnostics as needed.
+> **What continuity must be preserved — and is renewal still possible?**

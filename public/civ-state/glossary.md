@@ -20,19 +20,31 @@ The recurrent three-beat rhythm — civilization beautifies, empire amplifies, e
 
 ### Civilizational Statecraft Framework
 
-The governing six-term frame — civilization, empire, faith, science, memory, desire — organized as three structural pairs on the [theory shelf](theory/README.md): **Form** · **Truth** · **Memory**, plus **Rhythm** (motion law) and **Time** (era law). Diagnostic retrieval grammar, not prescriptive command doctrine.
+The governing frame — **six terms** (civilization, empire, entropy, faith, science, memory) plus **two law pages** (Rhythm, Time) on the [theory shelf](theory/README.md). Diagnostic retrieval grammar, not prescriptive command doctrine. **Desire** is retired; overreach → [entropy](theory/entropy.md).
 
-### Form
+### Civilization (governing term)
 
-The **civilization ↔ empire** pair: inherited order versus outward instrument. Canonical page: [theory/form.md](theory/form.md). Use when legitimacy substrate and amplification stack must be separated before lane descent.
+Inherited order and legitimacy substrate. Canonical page: [theory/civilization.md](theory/civilization.md). Not the whole-work essay title *Civilization and Empire* ([introduction.md](introduction.md)).
 
-### Truth
+### Empire (governing term)
 
-The **faith ↔ science** pair: coequal truth-orders that authorize, hybridize, or compete. Canonical page: [theory/truth.md](theory/truth.md). Not reducible to religion versus laboratories.
+Outward instrument and amplification stack. Canonical page: [theory/empire.md](theory/empire.md).
 
-### Memory (framework pair)
+### Entropy
 
-The **memory ↔ desire** pair: continuity-bearing inheritance under appetite, acceleration, and compensatory overreach. Canonical page: [theory/memory.md](theory/memory.md). Distinct from lane **`state-memory`** surfaces (downstream retrieval) and from the retrieval-sequence step also named memory.
+Degradation when form and instrument diverge; the degrades beat. Canonical page: [theory/entropy.md](theory/entropy.md).
+
+### Faith
+
+Sacred and moral truth-order. Canonical page: [theory/faith.md](theory/faith.md).
+
+### Science
+
+Procedural and evidentiary truth-order. Canonical page: [theory/science.md](theory/science.md).
+
+### Memory (governing term)
+
+Continuity-bearing inheritance and retrieval entry. Canonical page: [theory/memory.md](theory/memory.md). Distinct from lane **`state-memory`** surfaces and from the retrieval-sequence step also named memory.
 
 ### Era law
 

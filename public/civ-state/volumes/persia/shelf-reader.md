@@ -38,4 +38,4 @@ Switchboard rule:
 - Open [Persia civilization](civilization-persia.md) if the live question is continuity, sacred grammar, or category membership.
 - Open [Persia empire](empire-persia.md) if the live question is leverage, deterrent reach, or outward pressure.
 - Open [Persia empire](empire-persia.md) if the live question is bargaining room, pressure rhythm, or settlement possibility.
-- Return to [Continuity Mechanism](../../theory/continuity.md) or the [Pattern Library](../../theory/patterns/README.md) only after the Persia shelf has been read on its own terms.
+- Return to [Cross-case recurrence and sovereignty](../../essays/cross-case-recurrence-and-sovereignty.md) or the [theory shelf](../../theory/README.md) only after the Persia shelf has been read on its own terms.

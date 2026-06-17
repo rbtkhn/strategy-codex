@@ -1,44 +1,53 @@
 # Theory
 
-Whole-work governing shelf for *Civilizational Statecraft*. Read [Civilization and Empire](../introduction.md) first; use this index when the problem is rhythm, governing layer, era placement, cross-case continuity, or named recurrence types.
+Whole-work governing shelf for *Civilizational Statecraft*. Read [Civilization and Empire](../introduction.md) first — that title names the **opening essay**, not the book and not the term pages [civilization](civilization.md) / [empire](empire.md).
+
+**Overlap is intentional.** Shared concepts appear in multiple term pages with different emphasis. Open the page whose **causal lens** matches the live object.
+
+Each volume will eventually carry its own eight-file `theory/` subtree under `volumes/<civ>/theory/` (case-specific history through the same lenses). Whole-work pages here remain the comparative grammar until those shelves mature.
 
 ## Civilizational Statecraft Framework
 
-Six governing terms in **three pairs**:
+**Six governing terms** — diagnose **which term is load-bearing first** (not all six at once):
 
-| Pair | Page | What it names |
+| Term | Page | What it names |
 |------|------|----------------|
-| civilization ↔ empire | [Form](form.md) | inherited order and outward instrument |
-| faith ↔ science | [Truth](truth.md) | coequal truth-orders |
-| memory ↔ desire | [Memory](memory.md) | continuity and appetite |
+| civilization | [civilization.md](civilization.md) | inherited order and legitimacy substrate |
+| empire | [empire.md](empire.md) | outward instrument and amplification |
+| entropy | [entropy.md](entropy.md) | degradation when form and instrument diverge |
+| faith | [faith.md](faith.md) | sacred and moral truth-order |
+| science | [science.md](science.md) | procedural and evidentiary truth-order |
+| memory | [memory.md](memory.md) | continuity, wound, retrieval entry |
 
-The older `power / truth / time` triad and `god / lit / art / geo / war / peace` object families remain useful as residue and downstream retrieval surfaces — not as rival ontology. The six terms name **what governs**; the older families name **where governance becomes visible**.
+**Desire** is retired as a governing term; appetite and overreach → [entropy.md](entropy.md) (behavioral entropy).
 
-Terminology:
+The older `power / truth / time` triad and `god / lit / art / geo / war / peace` families remain downstream retrieval surfaces — not rival ontology.
 
-- **Civilizational Statecraft Framework** — the six-term frame across Form, Truth, and Memory
-- `statecraft-framework` — operational skill that applies the frame
-- `statecraft` — downstream routing, drafting, and transaction design
+## Motion and era law
 
-## Law shelf
+These are **law pages**, not governing-term peers:
 
-1. [Rhythm](rhythm.md) — civilizational motion (beautifies → amplifies → degrades)
-2. [Form](form.md) — civilization ↔ empire
-3. [Truth](truth.md) — faith ↔ science
-4. [Memory](memory.md) — memory ↔ desire
-5. [Time](time.md) — era law (form-historical spine: Ancient → Cybernetic)
+1. [Rhythm](rhythm.md) — civilizational motion (`beautifies → amplifies → degrades`)
+2. [Time](time.md) — era law (Ancient → Cybernetic)
 
-## Cross-case shelf
+## Cross-case comparison
 
-6. [Continuity](../theory/continuity.md) — how continuity survives across civilizations
-7. [Patterns](patterns/README.md) — named recurrence types for comparison
+Named pattern library and continuity mechanism are **retired from this public shelf** (v0.1.12). Operator archive: `statecraft/states/archive/theory-cross-case-v1/` in the upstream workshop.
 
-Bounded case essays live under [essays/](../essays/) — not mixed into this law shelf.
+Reader-facing replacement:
+
+- [Cross-case recurrence and sovereignty](../essays/cross-case-recurrence-and-sovereignty.md) — bounded comparative essay
+
+Bounded case essays live under [essays/](../essays/) — not mixed into the term shelf.
 
 ## Governing-layer discipline
 
 Ask first:
 
-> Which of the six is actually governing this object?
+> Which governing term is actually carrying this object?
 
-Open the pair page that matches before lane descent, era shelves, or transaction design.
+Open that term page before lane descent, era shelves, or transaction design. Then [Rhythm](rhythm.md) or [Time](time.md) when motion or era placement governs.
+
+## SSOT
+
+Canonical ship-bound theory prose for the public book lives in this folder (`public/civ-state/theory/`). See [FOUNDING-PROVENANCE.md](../FOUNDING-PROVENANCE.md) for release history.

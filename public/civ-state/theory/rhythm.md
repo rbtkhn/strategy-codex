@@ -5,96 +5,86 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: name the recurrent three-beat rhythm and retrieval movement that govern the five-volume comparative set  
-Last updated: 2026-06-15
+Last updated: 2026-06-17
+
+**Motion and era law** — not a governing term peer to civilization or empire. Name the beat first; open [Civilization](civilization.md), [Empire](empire.md), or [Entropy](entropy.md) for depth.
 
 ## Why this doctrine exists
 
-**Civilizational motion** is the whole-work rhythm law for *Civilizational Statecraft*. It names how inherited form and outward instrument move together across cases — not a flat rise-and-fall cycle, and not the **double-helix** relational metaphor used elsewhere for paired civilizations winding around a shared axis.
+**Civilizational motion** names how inherited form and outward instrument move together across cases — not a flat rise-and-fall cycle. Read [Civilization and Empire](../introduction.md) for the opening essay; use this page for the motion law alone.
 
-Read [Civilization and Empire](../introduction.md) for the full opening essay. Use this page when you enter through the [theory shelf](../README.md) and need the motion law without rereading the entire essay.
+## Definition
 
-## The three beats
-
-History repeats a **recognizable rhythm**:
+History repeats a recognizable rhythm:
 
 ```text
 civilization beautifies → empire amplifies → entropy degrades
 ```
 
-| Beat | Verb | What it names |
-|------|------|----------------|
-| **Civilization** | beautifies | Inherited form consolidates — legitimating grammar rises, order feels older than any single ruler |
-| **Empire** | amplifies | Outward instrument grows — projection, finance, chokepoints, universal claim, coercive carriage |
-| **Entropy** | degrades | The civilizational layer thins — legitimacy erodes while machinery may still run; form and instrument diverge |
+| Beat | Verb | Term page |
+|------|------|-----------|
+| Civilization | beautifies | [civilization.md](civilization.md) |
+| Empire | amplifies | [empire.md](empire.md) |
+| Entropy | degrades | [entropy.md](entropy.md) |
 
-**Entropy is not generic disorder.** It is degradation of inheritance when amplification outruns what it was meant to serve. Sacred grammar may survive as rhetoric while practice hollows.
+## Governing question
 
-First-use gloss when the word stands alone: *entropy degrades the civilizational layer — not chaos alone.*
+Ask first:
 
-## The civilization–empire braid
+> Where is this case in the rhythm — beautifying, amplifying, or degrading?
 
-The rhythm runs on a **pair**, not a single strand:
+## Causal connections
 
-- **Civilization** stores inherited order, legitimacy substrate, and continuity-bearing form.
-- **Empire** scales that inheritance outward through reach, coercion, procedure, and command.
+### Governing terms in the beat
 
-When empire outruns civilization, the braid **frays** — that is the degrading beat. When civilization lacks sufficient instrument, inheritance remains symbolically real but poorly defended.
+The three verbs map to three governing terms — full definitions live on those pages, not here. When empire outruns civilization, the braid **frays** → entropy beat.
 
-This pair is the structural spine beneath the three verbs. The [theory shelf](../README.md) names the full six-term frame across [Form](form.md), [Truth](truth.md), and [Memory](memory.md); civilizational motion is the **historical rhythm** those terms ride through time.
+### After the third beat
 
-## After the third beat
+The rhythm is **recurrent**, not a closed loop. After degradation, cases may rupture, mutate into residue, or reconstitute under strain. Do not assume automatic return to beautifying on the same carrier.
 
-The rhythm is **recurrent**, not a closed loop. After entropy degrades, cases may:
+### Retrieval movement
 
-- **rupture** — continuity breaks; successor uncertainty rises
-- **mutate into residue** — carrier transforms (Rome's dispersed continuity)
-- **reconstitute under strain** — center restored with new grammar (China's dynastic cycles, Russia's regathering claims)
-
-Do not assume automatic return to the beautifying beat on the same axis or carrier.
-
-## Retrieval movement
-
-When walking a live object downward, use this sequence after the motion law is in view:
+Descent after motion is named:
 
 ```text
 memory → legitimacy → carrier → pressure → settlement
 ```
 
-**Motion** = what history tends to do (beautify → amplify → degrade).  
-**Retrieval** = how the operator descends the object (memory first, then who legitimates, who carries, where pressure sits, whether settlement remains possible).
+**Motion** = what history tends to do. **Retrieval** = how the operator descends the object — start with [Memory](memory.md).
 
-## How to use civilizational motion
+### Time
 
-Use this doctrine when:
+[Era law](time.md) places the object on the form-historical spine (Ancient → Cybernetic) after governing term and beat are named.
 
-- the question is phase placement — consolidation, overreach, or degradation
-- empire is mistaken for civilization, or entropy is mistaken for mere policy friction
-- comparative judgment needs the shared rhythm before volume-specific grammar
+## Failure modes
 
-Pair with:
+- **beat misplacement** — degradation read as mere policy friction, or amplification read as civilizational renewal
+- **rhythm substituted for case depth** — beat named without opening volume or term pages
 
-- [theory shelf](../README.md) — which governing term or pair is load-bearing now ([Form](form.md) · [Truth](truth.md) · [Memory](memory.md))
-- [Time](time.md) — which form-historical shelf matches the object's center of gravity
-- volume **Civilization** and **Empire** chapters — case depth after rhythm is named
+## Return paths
 
-Do **not** use civilizational motion when:
+Return to:
 
-- the problem is already a two-civilization relational encoding (paired grammars on a shared axis) — that is a different analytical object
-- the problem is vocabulary or evidence law — use [Glossary](../glossary.md) or [Hybrid References](../hybrid-references.md)
+- [Civilization](civilization.md) · [Empire](empire.md) · [Entropy](entropy.md)
+- [Memory](memory.md) for retrieval entry
+- [Time](time.md) for era placement
+- volume **Civilization** and **Empire** chapters
 
-## Terminology note
+## Operational use
 
-| Term | Meaning |
-|------|---------|
-| **Civilizational motion** | This three-beat rhythm + retrieval movement (theory shelf) |
-| **Civilization and Empire** | Whole-work opening essay — not the book title |
-| **Civilizational Statecraft** | Book title |
-| **Helix** | Deprecated on this public shelf for the three-beat law; retained in workshop only for legacy lane routing |
+Use this page when:
+
+- phase placement — consolidation, overreach, or degradation — governs
+- comparative judgment needs shared rhythm before volume grammar
+
+Do **not** use when the problem is vocabulary alone — use [Glossary](../glossary.md).
+
+## See also
+
+- [Theory shelf](README.md) · [Time](time.md)
+- [Civilization](civilization.md) · [Empire](empire.md) · [Entropy](entropy.md)
 
 ## Bottom line
 
-Civilizational motion answers:
-
-> **Where is this case in the rhythm — beautifying, amplifying, or degrading — and what happens to the civilization–empire braid if the read is wrong?**
-
-Name the beat first, then open the volume, then apply the governing framework or era shelf as needed.
+> **Where is this case in beautify → amplify → degrade — and what happens if the read is wrong?**

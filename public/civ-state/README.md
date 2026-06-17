@@ -57,8 +57,8 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 ## Whole-work apparatus
 
 - [Theory shelf](theory/README.md)
-- [Rhythm](theory/rhythm.md) · [Form](theory/form.md) · [Truth](theory/truth.md) · [Memory](theory/memory.md) · [Time](theory/time.md)
-- [Continuity mechanism](theory/continuity.md) · [Pattern library](theory/patterns/README.md)
+- [Rhythm](theory/rhythm.md) · [Civilization](theory/civilization.md) · [Empire](theory/empire.md) · [Entropy](theory/entropy.md) · [Faith](theory/faith.md) · [Science](theory/science.md) · [Memory](theory/memory.md) · [Time](theory/time.md)
+- [Cross-case recurrence](essays/cross-case-recurrence-and-sovereignty.md)
 
 ## Essays
 
