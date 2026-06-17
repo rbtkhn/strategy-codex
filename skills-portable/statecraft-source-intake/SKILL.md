@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
-version: 0.4.5
+version: 0.4.6
 tags:
   - operator
   - statecraft
@@ -471,6 +471,10 @@ Short rule:
   - `python scripts/post_land_napolitano_opening_normalize.py --path <landed-file>` (wraps scaffold normalizer; all default lanes)
   - Preview only: `python scripts/post_land_napolitano_opening_normalize.py --path <landed-file> --dry-run`
   - Non-Napolitano paths no-op with `skip … (not Judging Freedom / Napolitano)`; Napolitano no-change returns `no-op …`
+- **Batch verify / repair preview** (one process — streams one line per file; **do not** subprocess-loop the post-land CLI):
+  - One day: `python scripts/post_land_napolitano_opening_normalize.py --day 2026-06-16 --dry-run`
+  - One month: `python scripts/post_land_napolitano_opening_normalize.py --month 2026-06 --dry-run`
+  - Agents: import `post_land_napolitano_opening_normalize.run_batch` / `collect_batch_paths` in-process when scripting — never `subprocess.run` per file on Windows.
 - **Batch backfill / repair** (month sweep, ASR aftermath — not per-intake default):
   - Full default lanes: `python scripts/normalize_napolitano_opening_scaffold.py --apply`
   - Bounded lane: `python scripts/normalize_napolitano_opening_scaffold.py --apply --lanes cold_open` (or `sponsor`, `close_promo`, `noise`; comma-separated)

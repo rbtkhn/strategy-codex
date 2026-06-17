@@ -119,3 +119,41 @@ def test_dry_run_does_not_write(tmp_path: Path, monkeypatch: pytest.MonkeyPatch)
     assert result.status == "dry-run"
     assert not result.applied
     assert "Undeclared wars" in path.read_text(encoding="utf-8")
+
+
+def test_collect_batch_paths_by_day(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    archive = tmp_path / "source-archive" / "statecraft"
+    day = archive / "2026-06-16"
+    _write_capture(day / "source-napolitano-a.md", "Guest A", "Hi everyone, Judge Andrew Napolitano here.")
+    _write_capture(day / "source-napolitano-b.md", "Guest B", "Hi everyone, Judge Andrew Napolitano here.")
+    monkeypatch.chdir(tmp_path)
+    import scripts.post_land_napolitano_opening_normalize as hook
+
+    monkeypatch.setattr(hook, "REPO_ROOT", tmp_path)
+    monkeypatch.setattr(hook, "ARCHIVE_ROOT", archive)
+
+    paths = hook.collect_batch_paths(day="2026-06-16")
+    assert len(paths) == 2
+    assert all("source-napolitano-" in p.name for p in paths)
+
+
+def test_run_batch_streams_summary(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]) -> None:
+    archive = tmp_path / "source-archive" / "statecraft" / "2026-06-16"
+    path = archive / "source-napolitano-clean.md"
+    _write_capture(
+        path,
+        "Jeffrey Sachs",
+        "Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Friday. "
+        "Professor Jeffrey Sachs, good day to you.",
+    )
+    monkeypatch.chdir(tmp_path)
+    import scripts.post_land_napolitano_opening_normalize as hook
+
+    monkeypatch.setattr(hook, "REPO_ROOT", tmp_path)
+    monkeypatch.setattr(hook, "ARCHIVE_ROOT", archive.parent)
+
+    _, summary = hook.run_batch([path], dry_run=True, stream=True)
+    out = capsys.readouterr().out
+    assert "source-napolitano-clean.md" in out
+    assert summary.scanned == 1
+    assert summary.no_op + summary.would_change == 1
