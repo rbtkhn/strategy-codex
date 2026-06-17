@@ -1,15 +1,17 @@
 ﻿# Rome
 
-**Civilizational Statecraft**, Volume III. Volume introduction: [Pax Romana](introduction.md). `civ-state-rome` is the workshop folder slug—not the book title.
+**Civilizational Statecraft**, Volume III. Volume introduction: [Pax Romana](../../docs/introduction.md). `civ-state-rome` is the workshop folder slug—not the book title.
 
 Rome is currently a source-memory volume rather than a full repo-root lane peer. Use it when the live object needs Roman republic/empire formation, late-imperial breakdown, Christian and Eastern Roman continuity, papal residue, or successor-order comparison.
 
-Read [Pax Romana](introduction.md) for the volume entry. Transformed continuity case: sovereignty through republic, empire, Eastern Roman bridge, and Catholic residue — not one uninterrupted territorial state.
+**Source-lattice:** [Rome source shelf](../../sources/rome/README.md) · [Source-Lattice](../../sources/source-lattice.md)
+
+Read [Pax Romana](../../docs/introduction.md) for the volume entry. Transformed continuity case: sovereignty through republic, empire, Eastern Roman bridge, and Catholic residue — not one uninterrupted territorial state.
 
 Primary source base: Rome source corpus
 
 **Opener Block**
-- Volume introduction: [Pax Romana](introduction.md)
+- Volume introduction: [Pax Romana](../../docs/introduction.md)
 - Deep grammar: Aeneas / Troy as mythic prehistory, with Roman law and civic order as civilizational grammar
 - Deep grammar retrieval: [Rome sacred grammar](sacred-grammar.md)
 - Sovereign opening: Romulus as the foundational sovereign
@@ -17,7 +19,7 @@ Primary source base: Rome source corpus
 - Civilization chapter: [Rome civilization](civilization-rome.md)
 - Empire chapter: [Rome empire](empire-rome.md)
 - Shelf reader: [Rome shelf reader](shelf-reader.md)
-- Volume bibliography: [Rome bibliography](bibliography.md)
+- Volume bibliography: [Rome bibliography](../../sources/rome/bibliography.md)
 - Sovereign continuity support note: Rome sovereign continuity
 - Geo-strategy chapter: [Rome geo-strategy](geo-strategy-rome.md)
 - Secret-history chapter: [Rome secret-history](secret-history-rome.md)
@@ -91,7 +93,7 @@ Best current carriers:
 - Rupture or mutation: after the 1991 industrial boundary, Rome's danger is false death on one side and theatrical revivalism on the other
 Best current carriers:
 - Roman collapse and strong-man return
-- [Framework shelf](../../framework/README.md) — Form · Truth · Memory
+- [Theory shelf](../../theory/README.md) — Form · Truth · Memory
 - Use legacy Rome sources only when a deeper successor-order chain is truly necessary
 
 ## Present Sovereign Capstone

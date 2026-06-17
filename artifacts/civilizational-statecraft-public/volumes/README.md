@@ -4,13 +4,13 @@ Front-door volume order for **Civilizational Statecraft**.
 
 For whole-work apparatus, open:
 
-- [Civilization and Empire](../introduction.md)
-- [Table of Contents](../table-of-contents.md)
-- [Reader Guide](../reader-guide.md)
-- [Source-Lattice](../source-lattice.md)
-- [Glossary](../glossary.md)
-- [Hybrid References](../hybrid-references.md)
-- [Index](../index.md)
+- [Civilization and Empire](../docs/introduction.md)
+- [Table of Contents](../docs/table-of-contents.md)
+- [Reader Guide](../docs/reader-guide.md)
+- [Source-Lattice](../sources/source-lattice.md)
+- [Glossary](../docs/glossary.md)
+- [Hybrid References](../docs/hybrid-references.md)
+- [Index](../docs/index.md)
 
 ## Constitutional order
 
@@ -28,20 +28,24 @@ Each volume follows the same reader order:
 volume introduction → civilization chapter → empire chapter
 ```
 
-The whole work opens with [Civilization and Empire](../introduction.md) (opening essay — not the book title).
+The whole work opens with [Civilization and Empire](../docs/introduction.md) (opening essay — not the book title).
 
 Then optional sub-lenses: geo-strategy, secret-history, game-theory.
+
+## Volume-local theory (forthcoming)
+
+Each volume will carry the same eight theory filenames under `volumes/<civ>/theory/` — case-specific causal history linking up to the [whole-work theory shelf](../theory/README.md). Until those shelves ship, use whole-work [theory](../theory/README.md) for comparative grammar.
 
 ## Source-lattice inside every volume
 
 Each volume carries:
 
 - **Doorway:** volume README + introduction + `shelf-reader.md`
-- **Primary floor:** `bibliography.md` + `sources/primary/{era}.md`
-- **Secondary support:** `sources/secondary/{era}.md` (when present)
+- **Primary floor:** `sources/{civ}/bibliography.md` + `sources/{civ}/primary/{era}.md`
+- **Secondary support:** `sources/{civ}/secondary/{era}.md` (when present)
 - **Widened interpretation:** civilization and empire essays
 
-Governing law: open the primary shelf first; use secondary only when difficulty appears; ascend to essays after the shelf problem is clarified. See [Source-Lattice](../source-lattice.md).
+Governing law: open the primary shelf first; use secondary only when difficulty appears; ascend to essays after the shelf problem is clarified. See [Source-Lattice](../sources/source-lattice.md).
 
 ## Era spine
 

@@ -1,0 +1,99 @@
+# Founding Provenance
+
+## Public artifact
+
+**Repository:** [rbtkhn/civ-state](https://github.com/rbtkhn/civ-state)  
+**Reader title:** Civilizational Statecraft  
+**Release:** v0.1.16
+
+## Publisher
+
+**Statecraft Intelligence Desk** — publisher of *Civilizational Statecraft*.
+
+## Lineage
+
+1. **Founding cut (helix-lane v1):** Exported from the upstream workshop as `rbtkhn/civ-emp` — a helix-first operator corpus (lanes, strands, transactions, orientation routers). Preserved under [`archive/helix-lane-v1/`](../archive/helix-lane-v1/README.md).
+2. **Repo rename:** `civ-emp` → `civ-state` to align public slug with the civilization-**state** book architecture.
+3. **Reshape v0.2:** Replaced helix-first navigation with the book-first export — five-volume whole work (China, Persia, Rome, Russia, America), source-lattice per volume, comparative and sacred-grammar apparatus in the appendix.
+4. **Theory reshape v0.1.12:** Pair pages (`form`, `truth`) → eight term files (civilization, empire, entropy, faith, science, memory, rhythm, time); pattern library retired from public shelf.
+
+## v0.1.12 — theory shelf migration
+
+Whole-work theory SSOT: **`theory/`** in this repository.
+
+| Retired path | Replacement |
+|--------------|-------------|
+| `theory/form.md` | `theory/civilization.md` · `theory/empire.md` |
+| `theory/truth.md` | `theory/faith.md` · `theory/science.md` |
+| `theory/continuity.md` | [Cross-case recurrence essay](../essays/cross-case-recurrence-and-sovereignty.md) |
+| `theory/patterns/*` | Same essay; operator archive in the upstream workshop |
+| governing term **desire** | **empire** (amplification and overreach in `theory/empire.md`); v0.1.12 mapping to entropy **superseded** in v0.1.15 |
+
+## v0.1.15 — entropy theory rebuild
+
+Whole-work **entropy** governing term redefined as **historical causes and manifestations** of civilizational degradation (war, revolution, disease, famine, ecological disaster, compound shocks).
+
+| Retired framing | Replacement |
+|-----------------|-------------|
+| structural entropy / behavioral entropy | Removed — not subordinate categories |
+| entropy as form/instrument divergence | [Civilization](../theory/civilization.md) · [Empire](../theory/empire.md) · [Memory — civilizational rhythm](../theory/memory.md#civilizational-rhythm) |
+| desire → behavioral entropy | desire → [Empire](../theory/empire.md) |
+
+Ship-bound SSOT: [`theory/entropy.md`](../theory/entropy.md).
+
+## v0.1.16 — rhythm and time merged under memory
+
+Whole-work theory shelf reduced to **six files**. Rhythm and era law live on [`theory/memory.md`](../theory/memory.md).
+
+| Retired path | Replacement |
+|--------------|-------------|
+| `theory/rhythm.md` | [Memory — civilizational rhythm](../theory/memory.md#civilizational-rhythm) |
+| `theory/time.md` | [Memory — era law](../theory/memory.md#era-law) |
+| eight-file theory shelf (v0.1.12) | six governing term files only |
+
+Per-volume coverage tables remain on [Era spine](era-spine.md).
+
+## v0.1.13 — sources shelf consolidation
+
+Whole-work sources SSOT: **`sources/`** in this repository.
+
+| Retired path | Replacement |
+|--------------|-------------|
+| `source-lattice.md` (repo root) | `sources/source-lattice.md` |
+| `volumes/{civ}/sources/primary\|secondary/` | `sources/{civ}/primary\|secondary/` |
+| `volumes/{civ}/bibliography.md` (canonical) | `sources/{civ}/bibliography.md` (volume stub redirects) |
+| Volume-owned evidence paths | Volume doors link up to `sources/{civ}/` |
+
+## v0.1.14 — docs shelf consolidation
+
+Whole-work reader apparatus and publish meta **SSOT:** `docs/` in this repository.
+
+| Retired path (repo root) | Replacement |
+|--------------------------|-------------|
+| `introduction.md` | `docs/introduction.md` |
+| `reader-guide.md` | `docs/reader-guide.md` |
+| `table-of-contents.md` | `docs/table-of-contents.md` |
+| `glossary.md` | `docs/glossary.md` |
+| `hybrid-references.md` | `docs/hybrid-references.md` |
+| `index.md` | `docs/index.md` |
+| `CONTRIBUTING.md` | `docs/CONTRIBUTING.md` |
+| `FOUNDING-PROVENANCE.md` | `docs/FOUNDING-PROVENANCE.md` |
+| `EXPORT-RECEIPT.md` | `docs/EXPORT-RECEIPT.md` |
+| `manifest.yaml` | `docs/manifest.yaml` |
+| `VERSION` | `docs/VERSION` |
+| `MIRROR-RECEIPT.md` | `docs/MIRROR-RECEIPT.md` (workspace publish receipt) |
+
+Repo root retains **`README.md`** (book front door) and **`LICENSE`** only among reader-facing files.
+
+Retired root paths keep thin redirect stubs (e.g. `introduction.md` → `docs/introduction.md`) for legacy bookmarks.
+
+## Workshop rule
+
+- **Ship-bound theory prose:** edit **`public/civ-state/theory/`** only.
+- **Ship-bound source shelves:** edit **`public/civ-state/sources/`** only.
+- **Workshop** `statecraft/states/` — analysis, promotion residue, operator archive — not dual SSOT for public ship-bound prose.
+- **Publish** to [rbtkhn/civ-state](https://github.com/rbtkhn/civ-state) from workspace commits on `public/civ-state/`.
+
+## Export
+
+Generated by the public export pipeline. Receipt: [EXPORT-RECEIPT.md](EXPORT-RECEIPT.md).

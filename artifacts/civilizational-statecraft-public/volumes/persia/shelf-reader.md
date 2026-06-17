@@ -33,9 +33,9 @@ Switchboard rule:
 - return to the primary shelf once the difficulty has been clarified
 - move upward into civilization or empire once the shelf problem has become a present carrier or settlement-bearing judgment problem
 
-- Open the [Persia bibliography](bibliography.md) for era entry and source doors.
+- Open the [Persia bibliography](../../sources/persia/bibliography.md) for era entry and source doors (shelves live under [../../sources/persia/](../../sources/persia/README.md)).
 - Open the era-matched `secondary-sources` file from the bibliography when chronology, attribution, transmission, or counterweight is the real need rather than direct source descent alone.
 - Open [Persia civilization](civilization-persia.md) if the live question is continuity, sacred grammar, or category membership.
 - Open [Persia empire](empire-persia.md) if the live question is leverage, deterrent reach, or outward pressure.
 - Open [Persia empire](empire-persia.md) if the live question is bargaining room, pressure rhythm, or settlement possibility.
-- Return to [Continuity Mechanism](../../framework/continuity.md) or the [Pattern Library](../../framework/patterns/README.md) only after the Persia shelf has been read on its own terms.
+- Return to [Cross-case recurrence and sovereignty](../../essays/cross-case-recurrence-and-sovereignty.md) or the [theory shelf](../../theory/README.md) only after the Persia shelf has been read on its own terms.

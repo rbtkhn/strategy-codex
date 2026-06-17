@@ -1,15 +1,17 @@
 ﻿# China
 
-**Civilizational Statecraft**, Volume I. Volume introduction: [Mandate of Heaven](introduction.md). `civ-state-china` is the workshop folder slug—not the book title.
+**Civilizational Statecraft**, Volume I. Volume introduction: [Mandate of Heaven](../../docs/introduction.md). `civ-state-china` is the workshop folder slug—not the book title.
 
 China is a live lane-backed volume. Use it when the civilizational problem is order, continuity, mandate, anti-humiliation recovery, industrial rhythm, or long-horizon leverage.
 
-Read [Mandate of Heaven](introduction.md) for the volume entry. Strong civilization-state case: dynastic continuity whose mandate grammar survives rupture and culminates in the PRC as present carrier.
+**Source-lattice:** [China source shelf](../../sources/china/README.md) · [Source-Lattice](../../sources/source-lattice.md)
+
+Read [Mandate of Heaven](../../docs/introduction.md) for the volume entry. Strong civilization-state case: dynastic continuity whose mandate grammar survives rupture and culminates in the PRC as present carrier.
 
 Primary live lane: China statecraft lane
 
 **Opener Block**
-- Volume introduction: [Mandate of Heaven](introduction.md)
+- Volume introduction: [Mandate of Heaven](../../docs/introduction.md)
 - Deep grammar: mandate, ritual order, and anti-chaos civilization
 - Deep grammar retrieval: [China sacred grammar](sacred-grammar.md)
 - Sovereign opening: Yu the Great as the traditional foundational sovereign
@@ -17,7 +19,7 @@ Primary live lane: China statecraft lane
 - Civilization chapter: [China civilization](civilization-china.md)
 - Empire chapter: [China empire](empire-china.md)
 - Shelf reader: [China shelf reader](shelf-reader.md)
-- Volume bibliography: [China bibliography](bibliography.md)
+- Volume bibliography: [China bibliography](../../sources/china/bibliography.md)
 - Sovereign continuity support note: China sovereign continuity
 - Geo-strategy chapter: [China geo-strategy](geo-strategy-china.md)
 - Secret-history chapter: [China secret-history](secret-history-china.md)

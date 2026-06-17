@@ -5,7 +5,8 @@
 Canonical civ-state workspace mirror: [`public/civ-state/`](../../public/civ-state/)
 
 - **Edit / ship:** `public/civ-state/` + `publish_public_civ_state.py --push`
-- **Workshop promotion (optional):** `export_civilizational_statecraft_public.py` → `public/civ-state/`
 - **Validate:** `validate_civilizational_statecraft_public.py` (defaults to `public/civ-state/`)
 
-This `artifacts/civilizational-statecraft-public/` tree may remain as historical export residue until removed. Do not refresh it except for archaeology.
+**Snapshot refresh (2026-06-15):** Mirrored from `public/civ-state/` at **v0.1.16** (six-file theory shelf; rhythm and era law on `memory.md`). Replaces pre-v0.1.12 `framework/` export residue.
+
+This tree remains **non-canonical** — for diff/archaeology only. SSOT is always `public/civ-state/`.

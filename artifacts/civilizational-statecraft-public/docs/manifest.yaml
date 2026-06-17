@@ -1,0 +1,49 @@
+# Public export manifest snapshot
+
+```yaml
+schema_version: 1.0.0
+release_tag: v0.1.11
+canonical_public_repo: https://github.com/rbtkhn/civ-state
+volume_slugs:
+  civ-state-china: china
+  civ-state-persia: persia
+  civ-state-rome: rome
+  civ-state-russia: russia
+  civ-state-america: america
+era_spine:
+  china:
+  - ancient
+  - medieval
+  - colonial
+  - industrial
+  - cybernetic
+  persia:
+  - ancient
+  - medieval
+  - colonial
+  - industrial
+  - cybernetic
+  rome:
+  - ancient
+  - medieval
+  - colonial
+  - industrial
+  - cybernetic
+  russia:
+  - medieval
+  - colonial
+  - industrial
+  - cybernetic
+  america:
+  - medieval
+  - colonial
+  - industrial
+  - cybernetic
+volume_stubs:
+  rome:
+    preview: true
+    reader_caveat: 'Rome remains a source-memory and continuity hinge in the set.
+      Some lattice shelves and essays are still maturing relative to lane-backed volumes.
+
+      '
+```

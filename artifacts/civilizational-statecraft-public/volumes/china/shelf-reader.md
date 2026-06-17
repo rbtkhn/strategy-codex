@@ -33,9 +33,9 @@ Switchboard rule:
 - return to the primary shelf once the difficulty has been clarified
 - move upward into civilization or empire once the shelf problem has become a present carrier or settlement-bearing judgment problem
 
-- Open the [China bibliography](bibliography.md) for era entry and source doors.
+- Open the [China bibliography](../../sources/china/bibliography.md) for era entry and source doors (shelves live under [../../sources/china/](../../sources/china/README.md)).
 - Open the era-matched `secondary-sources` file from the bibliography when chronology, attribution, translation, or counterweight is the real need rather than direct source descent alone.
 - Open [China civilization](civilization-china.md) if the live question is legitimacy or continuity.
 - Open [China empire](empire-china.md) if the live question is outward instrument, maritime pressure, or scale.
 - Open [China empire](empire-china.md) if the live question is present-tense pressure, room, or settlement.
-- Return to [Continuity Mechanism](../../framework/continuity.md) or the [Pattern Library](../../framework/patterns/README.md) only after the China shelf has been read in its own grammar.
+- Return to [Cross-case recurrence and sovereignty](../../essays/cross-case-recurrence-and-sovereignty.md) or the [theory shelf](../../theory/README.md) only after the China shelf has been read in its own grammar.
