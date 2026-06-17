@@ -20,7 +20,7 @@ subtitle: "News from White House suggests Trump imposing limits on partner Netan
 access: public
 capture_note: Operator paste; public Substack body preserved verbatim. Extended-deterrence for Lebanon equation; US non-participation in Israel defense signal; $12B frozen-assets MOU fork; 72-hour sabotage window — pairs with Jun 07 same-week authored pair and Jun 08 Nawfal overnight lane. Originally published on Responsible Statecraft per in-body note on live Substack.
 evidence_grade: substack-bearing
-editorial_note: Operator-pasted body; not independently verified against live Substack HTML.
+editorial_note: "Closing clause corrected aware→unaware (2026-06-16): live Substack and Responsible Statecraft syndication both render 'But neither side should be aware' — grammatically incoherent for the warning; intended reading is unaware. Verify before quotation."
 ---
 # Did Iran establish a new equation in the Middle East through its attacks on Israel?
 
@@ -51,4 +51,4 @@ The Iranians believe that their action demonstrated to the US that the value of 
 
 Trump, on the other hand, may calculate that the exchange of fire demonstrated both the cost to Iran if full-scale war were to break out again, as well as Trump's ability to impose certain restraints on the Israelis. As a result, the Iranians should feel confident in Trump's ability to deliver on his end of the bargain and not insist on the release of the assets at the outset of the MOU.
 
-But neither side should be aware: If no movement is achieved in the next 72 hours, Netanyahu may once again feel emboldened to attempt another sabotage of the talks. How many flare-ups can this diplomatic process absorb before it collapses?
+But neither side should be unaware: If no movement is achieved in the next 72 hours, Netanyahu may once again feel emboldened to attempt another sabotage of the talks. How many flare-ups can this diplomatic process absorb before it collapses?
