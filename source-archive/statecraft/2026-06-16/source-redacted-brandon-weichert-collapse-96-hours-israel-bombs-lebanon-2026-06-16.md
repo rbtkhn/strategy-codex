@@ -30,10 +30,10 @@ evidence_grade: transcript-bearing
 opening_tier: news-lead
 transcript_wrapper_tier: paste-prefix
 normalization_state: raw_operator_paste
-editorial_note: Operator-pasted transcript; ASR artifacts retained (Wikert, Hormuse, demure, LRB, Hermoose, tyrron, etc.). Redacted closing subscribe promo retained. Not human-verified verbatim.
+editorial_note: "Operator-pasted transcript; ASR artifacts retained (Wikert, Hormuse, demure, LRB, Hermoose, tyrron, etc.). Not human-verified verbatim. Routine Redacted subscribe/share close trimmed in place; SSOT body otherwise preserved."
 quality_note: Initial land 2026-06-16 via land_statecraft_source_body.py; distinct from Nawfal Weichert same day.
+redacted_close_promo_trim_applied: true
 ---
-
 # "This whole thing will COLLAPSE in 96 hours" says Iran War Expert as Israel bombs Lebanon
 
 **Channel:** Redacted News (Clayton Morris, Natali Morris)  
@@ -95,5 +95,4 @@ that is a real a real dark spot on our record in a region where we have a very d
  Um, either way, it's a postamerican Middle East. We're not coming back in any way, shape, or form significant. I'm fine with that. What'll what that means though is a new order has to arise. And as you can see from the picture in that in that article, uh Dr. Arda Moeni is also one really the progeniator of this. And so I highly recommend everybody check him out too.
  But we both agree that uh Pakistan, Iran, Saudi Arabia, um Turkey and Egypt will form the nucleus of this new postamerican order in the Middle East. And I think by 2030, you're going to see those five powers really uh really taking shape and taking control, which means postamerican and also Israel is going to be contained and constrained as never before.
 >> It'll be interesting to see what currency they use going forward because >> probably the bricks uh the bricks note at this point. >> Yeah. I mean, just walk the streets of Egypt and they're like, you know, Russian ruble or um or American dollars, you know. So, it'll be interesting to see how they sh this shifts into a bricksbacked currency.
- Brandon, great to see you. I encourage people to go over to the wer brief and read that. Always great to have you here on the show and we'll be watching again until we meet again. If this falls apart in a few days, we'll be back. >> We'll be watching. >> All right. Thanks. >> See you later. >> Thank you so much for watching Redacted.
-We'd love for you to subscribe to the channel. It's totally free if you want to follow us or subscribe. And if we brought you any value at all, please consider sharing this video with a friend or a loved one on social media.
+ Brandon, great to see you. I encourage people to go over to the wer brief and read that. Always great to have you here on the show and we'll be watching again until we meet again. If this falls apart in a few days, we'll be back. >> We'll be watching. >> All right. Thanks. >> See you later.

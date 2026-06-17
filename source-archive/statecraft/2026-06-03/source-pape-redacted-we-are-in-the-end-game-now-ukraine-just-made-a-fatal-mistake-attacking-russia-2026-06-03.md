@@ -19,8 +19,9 @@ source_url: "https://www.youtube.com/watch?v=9cgeFOY5XEo"
 source_note: "Operator paste; canonical watch URL preserved (Redacted / YouTube). · ASR pass 2026-06-15."
 title_slug: pape-redacted-we-are-in-the-end-game-now-ukraine-just-made-a-fatal-mistake-attacking-russia-2026-06-03
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation."
+editorial_note: AI-assisted ASR repair (common + series tiers + statecraft entity pass); 0 substitutions; not human-verified verbatim; verify before quotation. Routine Redacted subscribe/share close trimmed in place; SSOT body otherwise preserved.
 quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
+redacted_close_promo_trim_applied: true
 ---
 # Redacted News x Robert Pape - Ukraine, Russia, escalation trap (operator transcript)
 
@@ -127,5 +128,3 @@ It doesn't we we still don't have an official uh peace treaty for the Korean War
 **Host:** No, that's a great point. Yeah, Zelensky. Yeah. Well, you had Representative Luna last week saying, "Make peace now, you fool." To Zelensky, you're the one holding up this peace program. So, there are some people who are pretty vocal about it, but
 
 **Professor Robert Pape:** and I'm telling you that I just like we didn't let the South Koreans dictate everything uh here. We need to decide what is in our own interest, what's in the European interest. And I I I look, we may agree, we may come to believe, you may persuade me that we want all of the territory back and it's worth fighting another, you know, half million dead to get. I I don't believe that, but I but I think we should be talking about that. Where exactly is uh are we going to settle? And I think for the West, and it's pretty clear that we want a new Iron Curtain. I said this back basically in foreign affairs in the fall of 2022. Sorry to keep, but I I actually laid out we should have a new ironed curtain and just freeze it there and we're just not willing to say these words. I I don't It's to me it's it's baffling.
-
-**Host:** Thank you so much for watching Redacted. We'd love for you to subscribe to the channel. It's totally free if you want to follow us or subscribe. And if we brought you any value at all, please consider sharing this video with a friend or a loved one on social media. Thanks so much and we'll see you next time.
