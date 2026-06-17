@@ -62,6 +62,8 @@ Whole-work reader apparatus and publish meta **SSOT:** `docs/`
 
 Root keeps **`README.md`** and **`LICENSE`**.
 
+Thin **redirect stubs** remain at retired repo-root paths (e.g. `introduction.md`, `glossary.md`) pointing into `docs/` for legacy bookmarks.
+
 ## Maintenance rule
 
 | Ship-bound surface | Edit here |

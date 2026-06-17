@@ -61,6 +61,8 @@ Whole-work reader apparatus and publish meta **SSOT:** `docs/` in this repositor
 
 Repo root retains **`README.md`** (book front door) and **`LICENSE`** only among reader-facing files.
 
+Retired root paths keep thin redirect stubs (e.g. `introduction.md` → `docs/introduction.md`) for legacy bookmarks.
+
 ## Workshop rule
 
 - **Ship-bound theory prose:** edit **`public/civ-state/theory/`** only.
