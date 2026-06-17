@@ -1,24 +1,26 @@
 #!/usr/bin/env python3
-"""Check that an academy mirror folder, its remote, and the parent gitlink agree."""
+"""Check that a vendored academy mirror matches its upstream receipt and remote."""
 
 from __future__ import annotations
 
 import argparse
 import json
+import re
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_MIRROR = "statecraft/voices/jiang/ph-civ"
+DEFAULT_MIRROR = "public/ph-civ"
+RECEIPT_NAME = "MIRROR-RECEIPT.md"
+UPSTREAM_SHA_RE = re.compile(r"^\-\s\*\*Upstream commit:\*\*\s`([0-9a-f]{7,40})`", re.MULTILINE)
 
 
 def run_git(args: list[str], cwd: Path) -> tuple[int, str, str]:
-    safe_cwd = cwd.resolve().as_posix()
-    safe_root = REPO_ROOT.resolve().as_posix()
     proc = subprocess.run(
-        ["git", "-c", f"safe.directory={safe_cwd}", "-c", f"safe.directory={safe_root}", *args],
+        ["git", *args],
         cwd=str(cwd),
         text=True,
         stdout=subprocess.PIPE,
@@ -36,71 +38,66 @@ def git_output(args: list[str], cwd: Path) -> str:
     return out
 
 
-def parent_gitlink_sha(mirror_rel: str) -> str | None:
-    output = git_output(["ls-files", "-s", mirror_rel], REPO_ROOT)
-    if not output:
+def read_receipt_sha(mirror_dir: Path) -> str | None:
+    receipt = mirror_dir / RECEIPT_NAME
+    if not receipt.is_file():
         return None
-    parts = output.split()
-    if len(parts) < 2:
-        return None
-    return parts[1]
+    match = UPSTREAM_SHA_RE.search(receipt.read_text(encoding="utf-8"))
+    return match.group(1) if match else None
 
 
-def status_dirty(status_short: str) -> bool:
-    return any(line and not line.startswith("## ") for line in status_short.splitlines())
+def remote_main_head(remote_url: str, branch: str, fetch: bool) -> tuple[str | None, list[str]]:
+    errors: list[str] = []
+    if not fetch:
+        return None, ["fetch skipped"]
+    with tempfile.TemporaryDirectory(prefix="ph-civ-check-") as tmp:
+        clone_root = Path(tmp) / "ph-civ"
+        code, _, err = run_git(
+            ["clone", "--depth", "1", "--branch", branch, remote_url, str(clone_root)],
+            REPO_ROOT,
+        )
+        if code != 0:
+            errors.append(err or "clone failed")
+            return None, errors
+        return git_output(["rev-parse", "HEAD"], clone_root), errors
 
 
-def check_sync(mirror_rel: str, remote: str, branch: str, fetch: bool) -> dict:
+def check_sync(mirror_rel: str, remote_url: str, branch: str, fetch: bool) -> dict:
     mirror_path = (REPO_ROOT / mirror_rel).resolve()
     result: dict = {
         "mirror_path": mirror_rel,
-        "remote": remote,
+        "remote": remote_url,
         "branch": branch,
+        "mode": "vendored",
         "fetch_attempted": fetch,
-        "fetch_ok": None,
         "checks": {},
         "errors": [],
     }
 
-    if not mirror_path.exists():
+    if not mirror_path.is_dir():
         result["errors"].append(f"mirror path missing: {mirror_rel}")
         result["status"] = "invalid"
         return result
 
-    status_short = git_output(["status", "--short", "--branch"], mirror_path)
-    nested_head = git_output(["rev-parse", "HEAD"], mirror_path)
-    result["nested_head"] = nested_head
-    result["nested_status"] = status_short
-    result["checks"]["nested_clean"] = not status_dirty(status_short)
-
-    if fetch:
-        code, out, err = run_git(["fetch", remote], mirror_path)
-        result["fetch_ok"] = code == 0
-        if code != 0:
-            result["errors"].append(f"fetch failed: {err or out}")
-    else:
-        result["fetch_ok"] = False
-
-    remote_ref = f"{remote}/{branch}"
-    try:
-        remote_head = git_output(["rev-parse", remote_ref], mirror_path)
-    except RuntimeError as exc:
-        remote_head = None
-        result["errors"].append(str(exc))
-    result["remote_head"] = remote_head
-    result["checks"]["nested_matches_remote"] = nested_head == remote_head
-
-    gitlink_sha = parent_gitlink_sha(mirror_rel)
-    result["parent_gitlink"] = gitlink_sha
-    result["checks"]["parent_gitlink_matches_nested"] = gitlink_sha == nested_head
+    receipt_sha = read_receipt_sha(mirror_path)
+    result["receipt_sha"] = receipt_sha
+    result["checks"]["receipt_present"] = receipt_sha is not None
 
     code, _, _ = run_git(["diff", "--quiet", "--", mirror_rel], REPO_ROOT)
     result["checks"]["parent_has_no_mirror_diff"] = code == 0
 
+    remote_head, remote_errors = remote_main_head(remote_url, branch, fetch)
+    result["remote_head"] = remote_head
+    result["errors"].extend(remote_errors)
+    if remote_head:
+        result["checks"]["receipt_matches_remote"] = receipt_sha == remote_head
+    else:
+        result["checks"]["receipt_matches_remote"] = False
+
     checks_ok = all(result["checks"].values())
-    if checks_ok and not result["errors"]:
+    if checks_ok and not remote_errors:
         result["status"] = "synced"
-    elif checks_ok and result["errors"]:
+    elif checks_ok and remote_errors:
         result["status"] = "remote_unverified"
     else:
         result["status"] = "out_of_sync"
@@ -108,16 +105,12 @@ def check_sync(mirror_rel: str, remote: str, branch: str, fetch: bool) -> dict:
 
 
 def emit_text(result: dict) -> None:
-    print(f"academy mirror: {result['mirror_path']}")
+    print(f"academy mirror: {result['mirror_path']} ({result.get('mode', 'unknown')})")
     print(f"status: {result['status']}")
-    if result.get("nested_head"):
-        print(f"nested_head: {result['nested_head']}")
+    if result.get("receipt_sha"):
+        print(f"receipt_sha: {result['receipt_sha']}")
     if result.get("remote_head"):
         print(f"remote_head: {result['remote_head']}")
-    if result.get("parent_gitlink"):
-        print(f"parent_gitlink: {result['parent_gitlink']}")
-    if result.get("fetch_attempted"):
-        print(f"fetch_ok: {'ok' if result.get('fetch_ok') else 'fail'}")
     for name, passed in result.get("checks", {}).items():
         print(f"{name}: {'ok' if passed else 'fail'}")
     for error in result.get("errors", []):
@@ -127,7 +120,7 @@ def emit_text(result: dict) -> None:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--mirror", default=DEFAULT_MIRROR)
-    parser.add_argument("--remote", default="origin")
+    parser.add_argument("--remote-url", default="https://github.com/rbtkhn/ph-civ.git")
     parser.add_argument("--branch", default="main")
     parser.add_argument("--no-fetch", action="store_true")
     parser.add_argument("--json", action="store_true")
@@ -135,7 +128,7 @@ def main(argv: list[str] | None = None) -> int:
 
     result = check_sync(
         mirror_rel=args.mirror,
-        remote=args.remote,
+        remote_url=args.remote_url,
         branch=args.branch,
         fetch=not args.no_fetch,
     )
@@ -143,7 +136,7 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(result, indent=2, sort_keys=True))
     else:
         emit_text(result)
-    return 0 if result["status"] == "synced" else 1
+    return 0 if result["status"] in {"synced", "remote_unverified"} else 1
 
 
 if __name__ == "__main__":

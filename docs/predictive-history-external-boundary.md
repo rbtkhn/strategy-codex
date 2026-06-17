@@ -4,13 +4,18 @@
 
 It is the two-volume public artifact containing the `ph-civ`, `ph-apo`, and `ph-mus` surfaces: public lecture transcripts, companion commentaries, cards, routes, patterns, and museum manifests. `rbtkhn/ph-workshop` is legacy workshop/import provenance unless the operator explicitly invokes that archive lane.
 
-Inside `strategy-codex`, Predictive History is now an **external observed public project**:
+Inside `strategy-codex`, Predictive History corpus work uses a **staging mirror → explicit publish** loop:
 
-- observation allowed
-- critique allowed
-- review packets allowed
-- citation of public `ph-civ` IDs allowed
-- mutation disallowed
+- **edit** only under [`public/ph-civ/`](../public/ph-civ/) (vendored workspace copy)
+- **pull inbound** with `python scripts/sync_public_ph_civ_mirror.py`
+- **publish outbound** with `python scripts/publish_public_ph_civ.py -m "…" --push` (no automatic push from strategy-codex commits)
+
+Legacy residue trees remain **frozen** (no canonical edits):
+
+- `codex/predictive-history/`
+- `research/external/youtube-channels/predictive-history/`
+
+Observation, critique, review packets, and citation of public `ph-civ` IDs elsewhere in strategy-codex remain allowed.
 
 ## Canonical rule
 
@@ -23,8 +28,10 @@ Those trees remain in this repo only as **frozen migration residue / historical 
 
 ## What belongs here
 
-Allowed Predictive History work inside `strategy-codex` is limited to:
+Allowed Predictive History work inside `strategy-codex`:
 
+- **corpus edits** under `public/ph-civ/` only (staging mirror)
+- **publish** to [`rbtkhn/ph-civ`](https://github.com/rbtkhn/ph-civ) only via `scripts/publish_public_ph_civ.py --push`
 - boundary doctrine and migration notices
 - review packet templates and analysis prompts
 - source-discipline critique
@@ -36,15 +43,23 @@ Allowed Predictive History work inside `strategy-codex` is limited to:
 
 Disallowed Predictive History work inside `strategy-codex` includes:
 
-- editing lecture bodies, book architecture, queues, registries, or corpus metadata as canonical work
-- regenerating PH renders or dashboards for canonical use
-- refreshing the local PH transcript snapshot as if this repo still owned the ingest lane
+- editing lecture bodies, book architecture, queues, registries, or corpus metadata **outside** `public/ph-civ/`
+- treating a normal strategy-codex commit as having updated the public repo (without `publish_public_ph_civ.py --push`)
+- regenerating PH renders or dashboards for canonical use outside the publish loop
+- refreshing legacy local PH trees as if this repo still owned the ingest lane
 - treating `codex/predictive-history/` as a live work surface
-- silently patching `ph-civ` from local residue paths
+- silently patching `ph-civ` from residue paths other than `public/ph-civ/`
 
 ## Feedback loop
 
-The standard interface from Predictive History into `strategy-codex` is a **review packet**:
+```text
+edit public/ph-civ/ in strategy-codex
+  → commit workspace slice
+  → python scripts/publish_public_ph_civ.py -m "…" --push
+  → tagged/public main on rbtkhn/ph-civ
+```
+
+Review-only feedback (no corpus edit) may still use a **review packet**:
 
 - pasted diff
 - pasted excerpt
@@ -59,6 +74,6 @@ The standard interface from Predictive History into `strategy-codex` is a **revi
 - source-discipline notes
 - strategy/notebook commentary
 
-It may not patch the external project from here.
+It may not patch the external project except through `public/ph-civ/` + `publish_public_ph_civ.py`.
 
 For a compact operator/public handoff summary of the boundary shift, see [predictive-history-boundary-handoff.md](predictive-history-boundary-handoff.md).

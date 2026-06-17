@@ -1,0 +1,1410 @@
+from __future__ import annotations
+
+import argparse
+import json
+import random
+import sys
+from collections import Counter
+
+from .data import (
+    DATA_ROOT,
+    card_markdown,
+    get_card,
+    get_pattern,
+    get_route,
+    load_bilingual_loop,
+    load_cards,
+    load_choreography,
+    load_course_architecture,
+    load_growth_goals,
+    load_first_tour,
+    load_llm_experience,
+    load_museum_index,
+    load_patterns,
+    load_route_seed,
+    load_spine,
+    load_surfaces,
+    pattern_markdown,
+    patterns_for_source,
+)
+from .volume_i_parts import validate_volume_i_parts
+
+EXPECTED_SOURCE_REPO = "rbtkhn/ph-workshop"
+GITHUB_TREE_BASE = "https://github.com/rbtkhn/ph-civ/tree/main"
+
+PROMPT_MODES = {
+    "study": "Create a study plan that helps me understand this ph-civ orientation card without treating it as a substitute for the source lecture.",
+    "seminar": "Write seminar questions that test the card's framing, pressure points, and limits.",
+    "creative": "Generate creative project prompts inspired by this card, preserving the card's limits and avoiding unsupported claims.",
+    "counter-reading": "Develop counter-readings and skeptical questions that keep the card grounded in its stated limits.",
+}
+
+SURFACES = load_surfaces()["surfaces"]
+
+VOLUME_ALIASES = {
+    "volume-i": "volume_i",
+    "volume-ii": "volume_ii",
+    "volume_i": "volume_i",
+    "volume_ii": "volume_ii",
+}
+
+COMMENTARY_CANVAS_FIELDS = {
+    "canvas_status": "open",
+    "analysis_depth": "seed",
+    "scaffold_version": "ph_civ_commentary_canvas_v1",
+}
+
+COMMENTARY_CANVAS_HEADINGS = [
+    "## Project Canvas",
+    "### Project Leverage",
+    "### Laws / Patterns Exposed",
+    "### Volume Role",
+    "### Museum Hooks",
+    "### Strategy / Present-Day Application",
+    "### Counter-Readings",
+    "### Open Questions",
+    "### Build Notes / Future Enhancements",
+]
+
+PUBLIC_BOUNDARY_SCAN_PATHS = [
+    "AGENTS.md",
+    "README.md",
+    "START-HERE.md",
+    "llms.txt",
+    "llms-full.txt",
+    "book",
+    "data",
+    "docs",
+    "ph-civ",
+    "ph-apo",
+    "ph-mus",
+    "prompts",
+    "schemas",
+]
+
+PUBLIC_BOUNDARY_SCAN_EXCLUDES = {
+    "docs/strategy-codex-bridge.md",
+}
+
+PUBLIC_BOUNDARY_FORBIDDEN_MARKERS = [
+    "strategy_codex",
+    "strategy-codex",
+    "Strategy-Codex",
+    "transfer_lecture_path",
+    "strategy_codex_lecture_path",
+    "strategy_codex_analysis_path",
+    "strategy_codex_evidence_pack_path",
+    "exported_from_strategy_codex_at",
+    "raw-input",
+    "recursion-gate",
+    "self-memory",
+    "session-log",
+    "C:\\",
+    "C:/",
+]
+
+ALLOWED_ROUTE_TYPES = {"spine", "paired_close_reading", "application", "coda"}
+
+
+def card_surface(card: dict) -> str:
+    return "ph-civ" if card["part"] == "civilization" else "ph-apo"
+
+
+def bridge_support_ids() -> set[str]:
+    return set(load_course_architecture()["bridge_support_nodes"])
+
+
+def conceptual_volume_ids(card: dict) -> list[str]:
+    volumes: list[str] = []
+    if card["part"] == "civilization" or card["source_id"] in bridge_support_ids():
+        volumes.append("volume_i")
+    if card["part"] == "world-war":
+        volumes.append("volume_ii")
+    return volumes
+
+
+def conceptual_bridge_role(card: dict) -> str | None:
+    if card["source_id"] in bridge_support_ids():
+        return "volume_i_bridge_support"
+    return None
+
+
+def cards_for_volume(volume_id: str) -> list[dict]:
+    canonical = VOLUME_ALIASES.get(volume_id)
+    if not canonical:
+        raise KeyError(volume_id)
+    return [card for card in load_cards() if canonical in conceptual_volume_ids(card)]
+
+
+def markdown_frontmatter(text: str) -> dict[str, str]:
+    if not text.startswith("---\n"):
+        return {}
+    end = text.find("\n---\n", 4)
+    if end == -1:
+        return {}
+    fields: dict[str, str] = {}
+    for line in text[4:end].splitlines():
+        if ":" not in line or line.startswith(" "):
+            continue
+        key, value = line.split(":", 1)
+        fields[key.strip()] = value.strip().strip('"')
+    return fields
+
+
+def validate_commentary_canvas(source_id: str, commentary_path) -> list[str]:
+    text = commentary_path.read_text(encoding="utf-8").replace("\r\n", "\n")
+    frontmatter = markdown_frontmatter(text)
+    errors: list[str] = []
+    if "commentary_status" not in frontmatter:
+        errors.append(f"{source_id} missing commentary_status")
+    for key, expected in COMMENTARY_CANVAS_FIELDS.items():
+        if frontmatter.get(key) != expected:
+            errors.append(f"{source_id} invalid {key}: {frontmatter.get(key)}")
+    for heading in COMMENTARY_CANVAS_HEADINGS:
+        if heading not in text:
+            errors.append(f"{source_id} missing commentary canvas heading: {heading}")
+    return errors
+
+
+def validate_public_boundary() -> list[str]:
+    root = DATA_ROOT.parent
+    errors: list[str] = []
+    for relative_root in PUBLIC_BOUNDARY_SCAN_PATHS:
+        scan_root = root / relative_root
+        if not scan_root.exists():
+            continue
+        paths = [scan_root] if scan_root.is_file() else scan_root.rglob("*")
+        for path in paths:
+            if not path.is_file():
+                continue
+            relative_path = path.relative_to(root).as_posix()
+            if relative_path in PUBLIC_BOUNDARY_SCAN_EXCLUDES:
+                continue
+            if path.suffix not in {".json", ".jsonl", ".md", ".py", ".txt", ".yaml", ".yml"}:
+                continue
+            text = path.read_text(encoding="utf-8")
+            for marker in PUBLIC_BOUNDARY_FORBIDDEN_MARKERS:
+                if marker in text:
+                    errors.append(
+                        f"public boundary leak: {relative_path} contains {marker}"
+                    )
+    return errors
+
+
+def visible_cards(surface_scope: str | None = None, include_all: bool = False) -> list[dict]:
+    cards = load_cards()
+    if include_all or surface_scope is None:
+        return cards
+    if surface_scope == "ph-civ":
+        return [card for card in cards if card["part"] == "civilization"]
+    if surface_scope == "ph-apo":
+        return [card for card in cards if card["part"] == "world-war"]
+    return cards
+
+
+def route_public_payload(route: dict) -> dict:
+    card = get_card(route["source_id"])
+    return {
+        "source_id": route["source_id"],
+        "title": card["title"],
+        "surface": route["surface"],
+        "part": card["part"],
+        "series": card["series"],
+        "conceptual_volumes": conceptual_volume_ids(card),
+        "bridge_role": conceptual_bridge_role(card),
+        "route_type": route["route_type"],
+        "caveat": route.get("caveat", ""),
+        "what_changes_here": route["what_changes_here"],
+        "card": {
+            "path": route["card_path"],
+            "transcript_path": route["transcript_path"],
+            "commentary_path": route["commentary_path"],
+        },
+        "museum": {
+            "status": route["museum_status"],
+            "exhibit_path": route.get("museum_exhibit_path"),
+        },
+        "pressure_echoes": route.get("pressure_echoes", []),
+        "civilization_roots": route.get("civilization_roots", []),
+    }
+
+
+def chapter_folder_link_payload(card: dict) -> dict:
+    paths = card.get("source_paths", {})
+    transcript_path = paths.get("source_chapter_path", "")
+    commentary_path = paths.get("commentary_path", "")
+    transcript_file = DATA_ROOT.parent / transcript_path
+    source_video_url = None
+    if transcript_file.exists():
+        source_video_url = markdown_frontmatter(
+            transcript_file.read_text(encoding="utf-8")
+        ).get("source_url")
+    folder_path = "/".join(transcript_path.split("/")[:-1])
+    folder_ready = bool(
+        folder_path
+        and folder_path.endswith(f"/{card['source_id']}")
+        and commentary_path.startswith(f"{folder_path}/")
+        and (DATA_ROOT.parent / folder_path / "README.md").exists()
+    )
+    github_folder_url = (
+        f"{GITHUB_TREE_BASE}/{folder_path}" if folder_ready else None
+    )
+    provisional = card.get("review_status") == "provisional"
+    review_note = (
+        " The packet is provisional, so use the review status and guardrails before quoting it."
+        if provisional
+        else ""
+    )
+    suggested_llm_prompt = (
+        f"Guide me through the {card['source_id']} chapter folder as a public study packet. "
+        "Start with the transcript, then use the commentary canvas and orientation/card "
+        "guardrails. Keep provisional claims bounded and separate lecture representation "
+        "from verification."
+    )
+    suggested_youtube_comment = (
+        f"{card['title']} is a useful place to study how this lecture turns historical "
+        "pattern into strategic pressure.\n\n"
+        "There is a public reader packet for following it without losing the thread:\n"
+        f"{github_folder_url or '[folder not ready]'}\n\n"
+        "Paste the folder link into ChatGPT, Claude, or Grok and ask it to guide you "
+        f"through the chapter using the transcript, commentary canvas, and guardrails.{review_note} "
+        "It is part of ph-civ, a public LLM-native Predictive History reader."
+    )
+    return {
+        "source_id": card["source_id"],
+        "title": card["title"],
+        "surface": card_surface(card),
+        "series": card["series"],
+        "part": card["part"],
+        "review_status": card.get("review_status"),
+        "folder_ready": folder_ready,
+        "chapter_folder_path": folder_path if folder_ready else None,
+        "github_folder_url": github_folder_url,
+        "source_video_url": source_video_url,
+        "transcript_path": transcript_path,
+        "commentary_path": commentary_path,
+        "card_path": f"data/cards/{card['source_id']}.md",
+        "suggested_llm_prompt": suggested_llm_prompt,
+        "suggested_youtube_comment": suggested_youtube_comment,
+    }
+
+
+def first_tour_payload() -> dict:
+    tour = load_first_tour()
+    routes_by_id = {route["source_id"]: route for route in load_choreography()}
+    stops = []
+    for stop in tour["stops"]:
+        source_id = stop["source_id"]
+        card = get_card(source_id)
+        route = routes_by_id[source_id]
+        stops.append(
+            {
+                **stop,
+                "title": card["title"],
+                "surface": route["surface"],
+                "route_type": route["route_type"],
+                "caveat": route.get("caveat", ""),
+                "what_changes_here": route["what_changes_here"],
+                "card_path": route["card_path"],
+                "transcript_path": route["transcript_path"],
+                "commentary_path": route["commentary_path"],
+                "museum_exhibit_path": route.get("museum_exhibit_path"),
+            }
+        )
+    return {**tour, "stops": stops}
+
+
+def emit_json(data) -> int:
+    print(json.dumps(data, indent=2, ensure_ascii=False, sort_keys=True))
+    return 0
+
+
+def cmd_list(args) -> int:
+    cards = visible_cards(getattr(args, "surface_scope", None), getattr(args, "all", False))
+    if args.series:
+        cards = [card for card in cards if card["series"] == args.series]
+    if args.part:
+        cards = [card for card in cards if card["part"] == args.part]
+    if args.spine:
+        ids = {sid for node in load_spine()["sequence"] for sid in node["source_ids"]}
+        cards = [card for card in cards if card["source_id"] in ids]
+    rows = [{"source_id": card["source_id"], "title": card["title"], "series": card["series"], "part": card["part"]} for card in cards]
+    if args.json:
+        return emit_json(rows)
+    for row in rows:
+        print(f"{row['source_id']}\t{row['series']}\t{row['part']}\t{row['title']}")
+    return 0
+
+
+def cmd_show(args) -> int:
+    try:
+        card = get_card(args.source_id)
+        scope = getattr(args, "surface_scope", None)
+        if scope in {"ph-civ", "ph-apo"} and card_surface(card) != scope:
+            print(f"{args.source_id} is not available through {scope}", file=sys.stderr)
+            return 2
+        if args.format == "json":
+            return emit_json(card)
+        print(card_markdown(args.source_id), end="")
+        return 0
+    except KeyError:
+        print(f"Unknown source_id: {args.source_id}", file=sys.stderr)
+        return 2
+
+
+def cmd_search(args) -> int:
+    q = args.query.casefold()
+    matches = []
+    for card in visible_cards(getattr(args, "surface_scope", None), getattr(args, "all", False)):
+        haystack = "\n".join([card["source_id"], card["title"], json.dumps(card["sections"], ensure_ascii=False)]).casefold()
+        if q in haystack and (not args.series or card["series"] == args.series):
+            matches.append({"source_id": card["source_id"], "title": card["title"], "series": card["series"], "part": card["part"]})
+    if args.json:
+        return emit_json(matches)
+    for match in matches:
+        print(f"{match['source_id']}\t{match['series']}\t{match['title']}")
+    return 0
+
+
+def cmd_route(args) -> int:
+    try:
+        route = get_route(args.source_id)
+    except KeyError:
+        print(f"No public route for source_id: {args.source_id}", file=sys.stderr)
+        return 2
+
+    scope = getattr(args, "surface_scope", None)
+    if (
+        scope in {"ph-civ", "ph-apo"}
+        and route["surface"] != scope
+        and not (scope == "ph-civ" and route["source_id"] in bridge_support_ids())
+    ):
+        print(f"{args.source_id} is routed through {route['surface']}, not {scope}", file=sys.stderr)
+        return 2
+    payload = route_public_payload(route)
+    if args.json:
+        return emit_json(payload)
+    print(f"{payload['source_id']}\t{payload['surface']}\t{payload['title']}")
+    print(f"route_type: {payload['route_type']}")
+    print(f"museum: {payload['museum']['status']}\t{payload['museum']['exhibit_path']}")
+    if payload.get("caveat"):
+        print(f"caveat: {payload['caveat']}")
+    print(f"what changes here: {payload['what_changes_here']}")
+    return 0
+
+
+def cmd_link(args) -> int:
+    try:
+        card = get_card(args.source_id)
+    except KeyError:
+        print(f"Unknown source_id: {args.source_id}", file=sys.stderr)
+        return 2
+    payload = chapter_folder_link_payload(card)
+    if args.json:
+        return emit_json(payload)
+    if not payload["folder_ready"]:
+        print(f"{args.source_id} does not have a dedicated chapter folder yet.", file=sys.stderr)
+        return 2
+    print(f"{payload['source_id']}\t{payload['title']}")
+    if payload.get("source_video_url"):
+        print(f"source_video: {payload['source_video_url']}")
+    print(f"folder: {payload['github_folder_url']}")
+    print(f"review_status: {payload['review_status']}")
+    print("")
+    print("LLM prompt:")
+    print(payload["suggested_llm_prompt"])
+    print("")
+    print("YouTube comment:")
+    print(payload["suggested_youtube_comment"])
+    return 0
+
+
+def cmd_patterns(args) -> int:
+    patterns = load_patterns()
+    rows = [
+        {
+            "pattern_id": pattern["pattern_id"],
+            "title": pattern["title"],
+            "source_ids": pattern["source_ids"],
+            "public_status": pattern["public_status"],
+        }
+        for pattern in patterns
+    ]
+    if args.json:
+        return emit_json(rows)
+    for row in rows:
+        print(
+            f"{row['pattern_id']}\t{row['public_status']}\t"
+            f"{','.join(row['source_ids'])}\t{row['title']}"
+        )
+    return 0
+
+
+def cmd_pattern(args) -> int:
+    try:
+        pattern = get_pattern(args.pattern_id)
+        if args.format == "json":
+            return emit_json(pattern)
+        print(pattern_markdown(args.pattern_id), end="")
+        return 0
+    except KeyError:
+        print(f"Unknown pattern_id: {args.pattern_id}", file=sys.stderr)
+        return 2
+
+
+def cmd_bridge(args) -> int:
+    try:
+        card = get_card(args.source_id)
+    except KeyError:
+        print(f"Unknown source_id: {args.source_id}", file=sys.stderr)
+        return 2
+    payload = {
+        "source_id": card["source_id"],
+        "title": card["title"],
+        "patterns": patterns_for_source(card["source_id"]),
+    }
+    output_format = "json" if args.json else args.format
+    if output_format == "json":
+        return emit_json(payload)
+    print(f"# {payload['source_id']} - {payload['title']}")
+    print()
+    print("Public bridge patterns:")
+    for pattern in payload["patterns"]:
+        print(f"- `{pattern['pattern_id']}` - {pattern['title']}")
+    if not payload["patterns"]:
+        print("- No public bridge patterns currently cite this source.")
+    return 0
+
+
+def cmd_museum_list(args) -> int:
+    exhibits = load_museum_index()
+    if args.json:
+        return emit_json(exhibits)
+    for exhibit in exhibits:
+        print(f"{exhibit['source_id']}\t{exhibit['surface']}\t{exhibit['museum_status']}\t{exhibit['title']}")
+    return 0
+
+
+def cmd_museum_show(args) -> int:
+    for exhibit in load_museum_index():
+        if exhibit["source_id"] == args.source_id:
+            if args.json:
+                return emit_json(exhibit)
+            print(f"{exhibit['source_id']}\t{exhibit['surface']}\t{exhibit['title']}")
+            print(f"status: {exhibit['museum_status']}")
+            print(f"exhibit: {exhibit['museum_exhibit_path']}")
+            return 0
+    print(f"No museum exhibit for source_id: {args.source_id}", file=sys.stderr)
+    return 2
+
+
+def cmd_prompt(args) -> int:
+    try:
+        card = get_card(args.source_id)
+    except KeyError:
+        print(f"Unknown source_id: {args.source_id}", file=sys.stderr)
+        return 2
+    print(
+        f"{PROMPT_MODES[args.mode]}\n\n"
+        f"Source ID: {card['source_id']}\n"
+        f"Title: {card['title']}\n"
+        f"Placement weight: {card['placement_weight']}\n\n"
+        f"Where this sits:\n{card['sections']['Where This Sits']}\n\n"
+        f"Limits:\n{card['sections']['Limits of the Frame']}"
+    )
+    return 0
+
+
+def cmd_spark(args) -> int:
+    try:
+        card = get_card(args.source_id)
+    except KeyError:
+        print(f"Unknown source_id: {args.source_id}", file=sys.stderr)
+        return 2
+    seeds = [
+        "What pattern becomes visible here?",
+        "What would change if the lecture's main analogy were weaker?",
+        "Which pressure point deserves a diagram?",
+        "What should a reader verify before quoting this?",
+        "What does this card make easier to return to later?",
+        "What object, map, or document would make this lecture legible at a glance?",
+    ]
+    random.seed(card["source_id"])
+    for index, prompt in enumerate(random.sample(seeds, k=min(args.count, len(seeds))), start=1):
+        print(f"{index}. {prompt}")
+    return 0
+
+
+def cmd_spine(args) -> int:
+    spine = load_spine(args.spine_id)
+    if args.json:
+        return emit_json(spine)
+    print(f"# {spine['title']}\n")
+    print(spine["description"])
+    if spine.get("guardrail"):
+        print("")
+        print(f"guardrail: {spine['guardrail']}")
+    if spine.get("launch_readiness"):
+        print(f"launch_readiness: {spine['launch_readiness']}")
+    if spine.get("first_reader_gap"):
+        print(f"first_reader_gap: {spine['first_reader_gap']}")
+    print("")
+    for index, node in enumerate(spine["sequence"], start=1):
+        print(f"{index}. {node['author']}: {', '.join(node['source_ids'])}")
+        if node.get("note"):
+            print(f"   {node['note']}")
+    return 0
+
+
+def cmd_path(args) -> int:
+    if args.path_id != "homer-to-tolstoy":
+        print(f"Unknown path: {args.path_id}", file=sys.stderr)
+        return 2
+    return cmd_spine(argparse.Namespace(spine_id=args.path_id, json=args.json))
+
+
+def cmd_validate(args) -> int:
+    cards = load_cards()
+    errors = []
+    ids = set()
+    required = ["Where This Sits", "Reading Posture", "Historical Pressure Points", "Limits of the Frame", "Return Path"]
+    for card in cards:
+        source_id = card.get("source_id")
+        if not source_id:
+            errors.append("card missing source_id")
+            continue
+        if source_id in ids:
+            errors.append(f"duplicate source_id: {source_id}")
+        ids.add(source_id)
+        for section in required:
+            if not card.get("sections", {}).get(section):
+                errors.append(f"{source_id} missing section: {section}")
+        if card.get("placement_weight") not in {"strong", "medium", "light"}:
+            errors.append(f"{source_id} invalid placement_weight: {card.get('placement_weight')}")
+        source_repo = card.get("source_snapshot", {}).get("repo")
+        if source_repo != EXPECTED_SOURCE_REPO:
+            errors.append(f"{source_id} invalid source repo: {source_repo}")
+        source_paths = card.get("source_paths", {})
+        transcript_path = source_paths.get("source_chapter_path")
+        commentary_path = source_paths.get("commentary_path")
+        for label, relative_path in [
+            ("transcript", transcript_path),
+            ("commentary", commentary_path),
+        ]:
+            if not relative_path:
+                errors.append(f"{source_id} missing {label} path")
+                continue
+            chapter_path = DATA_ROOT.parent / relative_path
+            if not chapter_path.exists():
+                errors.append(f"{source_id} missing {label} file: {relative_path}")
+            elif label == "commentary":
+                errors.extend(validate_commentary_canvas(source_id, chapter_path))
+        if transcript_path and commentary_path:
+            folder_path = "/".join(transcript_path.split("/")[:-1])
+            if folder_path.endswith(f"/{source_id}") and commentary_path.startswith(f"{folder_path}/"):
+                readme_path = DATA_ROOT.parent / folder_path / "README.md"
+                if not readme_path.exists():
+                    errors.append(f"{source_id} missing chapter folder README: {folder_path}/README.md")
+                else:
+                    readme_text = readme_path.read_text(encoding="utf-8")
+                    transcript_file = DATA_ROOT.parent / transcript_path
+                    source_url = ""
+                    if transcript_file.exists():
+                        source_url = markdown_frontmatter(
+                            transcript_file.read_text(encoding="utf-8")
+                        ).get("source_url", "")
+                    if source_url and ("## Source Video" not in readme_text or source_url not in readme_text):
+                        errors.append(f"{source_id} chapter folder README must surface source video URL")
+                    for marker in [
+                        "public study doorway",
+                        "Paste this folder link into ChatGPT, Claude, or Grok",
+                        "Commentary canvas",
+                    ]:
+                        if marker not in readme_text:
+                            errors.append(f"{source_id} chapter folder README missing marker: {marker}")
+    for metadata_path in [
+        DATA_ROOT / "index.json",
+        DATA_ROOT / "surfaces.json",
+        DATA_ROOT / "routes" / "choreography.json",
+    ]:
+        metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+        source_repo = metadata.get("source_snapshot", {}).get("repo")
+        if source_repo != EXPECTED_SOURCE_REPO:
+            errors.append(f"{metadata_path.relative_to(DATA_ROOT)} invalid source repo: {source_repo}")
+        if metadata_path.name == "index.json" and metadata.get("card_count") != len(cards):
+            errors.append("index.json card_count must match packaged cards")
+    choreography = load_choreography()
+    route_ids = [route.get("source_id") for route in choreography]
+    if len(choreography) != 10:
+        errors.append(f"choreography route count must be 10: {len(choreography)}")
+    if len(set(route_ids)) != len(route_ids):
+        errors.append("choreography route IDs must be unique")
+    for route in choreography:
+        source_id = route.get("source_id")
+        route_type = route.get("route_type")
+        if route_type not in ALLOWED_ROUTE_TYPES:
+            errors.append(f"{source_id} invalid route_type: {route_type}")
+        if not route.get("caveat"):
+            errors.append(f"{source_id} missing route caveat")
+    route_seed = load_route_seed()
+    seed_route_ids = route_seed.get("route_ids", [])
+    if route_seed.get("seed_id") != "ten_route_spine_seed":
+        errors.append("route seed must be ten_route_spine_seed")
+    if seed_route_ids != route_ids:
+        errors.append("route seed IDs must match choreography route IDs in order")
+    first_tour = load_first_tour()
+    if first_tour.get("tour_id") != "first_tour_ten_route_spine":
+        errors.append("first tour must use first_tour_ten_route_spine")
+    if first_tour.get("mode") != "first_tour":
+        errors.append("first tour must use first_tour mode")
+    if first_tour.get("seed_id") != route_seed.get("seed_id"):
+        errors.append("first tour seed_id must match route seed")
+    if first_tour.get("opening_route") != "civ-07":
+        errors.append("first tour must open at civ-07")
+    if first_tour.get("opening_path") != "homer-to-tolstoy":
+        errors.append("first tour must open Homer-to-Tolstoy")
+    tour_stop_ids = [stop.get("source_id") for stop in first_tour.get("stops", [])]
+    if tour_stop_ids != seed_route_ids:
+        errors.append("first tour stops must match route seed order")
+    phase_ids = [source_id for phase in first_tour.get("phases", []) for source_id in phase.get("route_ids", [])]
+    if phase_ids != seed_route_ids:
+        errors.append("first tour phases must cover route seed in order")
+    if "civ-07" not in first_tour.get("continue_prompt", ""):
+        errors.append("first tour continue prompt must open civ-07")
+    first_tour_doc = DATA_ROOT.parent / "docs" / "first-tour.md"
+    if not first_tour_doc.exists():
+        errors.append("docs/first-tour.md must exist")
+    else:
+        first_tour_text = first_tour_doc.read_text(encoding="utf-8")
+        for marker in [
+            "First-Tour Response Shape",
+            "First tour, stop 1: civ-07",
+            "Continue to civ-17",
+            "`ph-mus` is not a third volume",
+        ]:
+            if marker not in first_tour_text:
+                errors.append(f"docs/first-tour.md missing marker: {marker}")
+    llm_experience = load_llm_experience()
+    if not (DATA_ROOT.parent / "START-HERE.md").exists():
+        errors.append("START-HERE.md must exist as the LLM bootloader")
+    if llm_experience.get("start_here") != "START-HERE.md":
+        errors.append("llm-experience.json must point to START-HERE.md")
+    full_context = llm_experience.get("full_context", {})
+    if full_context.get("path") != "llms-full.txt":
+        errors.append("llm-experience.json must point to llms-full.txt")
+    full_context_path = DATA_ROOT.parent / "llms-full.txt"
+    if not full_context_path.exists():
+        errors.append("llms-full.txt must exist as the full LLM context packet")
+    else:
+        full_context_text = full_context_path.read_text(encoding="utf-8")
+        for marker in [
+            "full one-shot LLM context packet",
+            "First Response Contract",
+            "Do not stop at a generic repository summary",
+            "Default mode: `first_tour`",
+            "Homer to Tolstoy is the Volume I literary spine",
+            "ph-mus` is not a third volume",
+        ]:
+            if marker not in full_context_text:
+                errors.append(f"llms-full.txt missing marker: {marker}")
+    if llm_experience.get("primary_artifact") != "two_volume_ph_civ":
+        errors.append("llm-experience.json invalid primary_artifact")
+    first_response = llm_experience.get("first_response_contract", {})
+    if first_response.get("default_mode") != "first_tour":
+        errors.append("llm-experience first response must default to first_tour")
+    if "generic repository summary" not in first_response.get("anti_pattern", ""):
+        errors.append("llm-experience must forbid summary-only pasted-URL responses")
+    if first_response.get("required_opening_files") != [
+        "START-HERE.md",
+        "llms.txt",
+        "llms-full.txt",
+    ]:
+        errors.append("llm-experience first response must cite all opening files")
+    if first_response.get("opening_route") != "civ-07":
+        errors.append("llm-experience first response must open at civ-07")
+    if first_response.get("opening_path") != "homer-to-tolstoy":
+        errors.append("llm-experience first response must open Homer-to-Tolstoy")
+    if not any("Choose one:" in line for line in first_response.get("template", [])):
+        errors.append("llm-experience first response template must offer reader choices")
+    llm_first_tour = llm_experience.get("first_tour", {})
+    if llm_first_tour.get("path") != "data/routes/first-tour.json":
+        errors.append("llm-experience first_tour must point to data/routes/first-tour.json")
+    if llm_first_tour.get("reader_doc") != "docs/first-tour.md":
+        errors.append("llm-experience first_tour must point to docs/first-tour.md")
+    if llm_first_tour.get("opening_route") != "civ-07":
+        errors.append("llm-experience first_tour must open at civ-07")
+    chapter_folder_links = llm_experience.get("chapter_folder_links", {})
+    if chapter_folder_links.get("reader_doc") != "docs/chapter-folder-links.md":
+        errors.append("llm-experience chapter_folder_links must point to docs/chapter-folder-links.md")
+    if chapter_folder_links.get("default_mode") != "study":
+        errors.append("llm-experience chapter_folder_links must default to study")
+    if "ph-civ link" not in chapter_folder_links.get("cli", ""):
+        errors.append("llm-experience chapter_folder_links must expose ph-civ link")
+    chapter_folder_doc = DATA_ROOT.parent / "docs" / "chapter-folder-links.md"
+    if not chapter_folder_doc.exists():
+        errors.append("docs/chapter-folder-links.md must exist")
+    else:
+        chapter_folder_text = chapter_folder_doc.read_text(encoding="utf-8")
+        for marker in [
+            "chapter-folder URL",
+            "YouTube comment",
+            "paste the folder link into ChatGPT, Claude, or Grok",
+            "not a replacement for `first_tour`",
+        ]:
+            if marker not in chapter_folder_text:
+                errors.append(f"docs/chapter-folder-links.md missing marker: {marker}")
+    source_video_doc = DATA_ROOT.parent / "docs" / "source-video-index.md"
+    if not source_video_doc.exists():
+        errors.append("docs/source-video-index.md must exist")
+    else:
+        source_video_text = source_video_doc.read_text(encoding="utf-8")
+        for marker in [
+            "Source Video Index",
+            "Predictive History YouTube source URLs",
+            "https://www.youtube.com/watch?v=8nsxuB3Vsts",
+            "book/volume-iii/gt-24/gt-24-transcript.md",
+        ]:
+            if marker not in source_video_text:
+                errors.append(f"docs/source-video-index.md missing marker: {marker}")
+    bilingual = load_bilingual_loop()
+    if bilingual.get("loop_id") != "english_chinese_civilizational_bridge":
+        errors.append("bilingual-loop.json invalid loop_id")
+    if bilingual.get("bridge_id") != "trilingual_civilizational_bridge":
+        errors.append("bilingual-loop.json invalid bridge_id")
+    if bilingual.get("language_scope") != "trilingual":
+        errors.append("bilingual-loop.json must be trilingual")
+    if bilingual.get("posture") != "civilizational_bridge":
+        errors.append("bilingual-loop.json invalid posture")
+    if bilingual.get("status") != "ambition_metadata":
+        errors.append("bilingual-loop.json invalid status")
+    if bilingual.get("canonical_source") != "ph-civ":
+        errors.append("bilingual-loop.json must name ph-civ as canonical_source")
+    canonical_surface = bilingual.get("canonical_language_surface", {})
+    if canonical_surface.get("surface") != "ph-civ" or canonical_surface.get("locale") != "en":
+        errors.append("bilingual-loop.json must name English ph-civ as the canonical language surface")
+    if bilingual.get("downstream_mirrors") != ["ph-civ-zh", "ph-civ-ru"]:
+        errors.append("bilingual-loop.json downstream_mirrors must list ph-civ-zh then ph-civ-ru")
+    downstream_language_surfaces = bilingual.get("downstream_language_surfaces", [])
+    downstream_pairs = [(item.get("surface"), item.get("locale"), item.get("role")) for item in downstream_language_surfaces]
+    if downstream_pairs != [
+        ("ph-civ-zh", "zh", "downstream_localization_mirror"),
+        ("ph-civ-ru", "ru", "downstream_localization_mirror"),
+    ]:
+        errors.append("bilingual-loop.json downstream_language_surfaces must define zh and ru downstream mirrors")
+    authority_model = bilingual.get("authority_model", "")
+    if "downstream localization mirrors" not in authority_model or "source of truth" not in authority_model:
+        errors.append("bilingual-loop.json must state localization mirrors are downstream of ph-civ")
+    if bilingual.get("primary_wedge") != "homer_to_tolstoy_read_from_china":
+        errors.append("bilingual-loop.json invalid primary_wedge")
+    bilingual_guardrails = "\n".join(bilingual.get("guardrails", []))
+    for marker in ["not propaganda", "not anti-Western", "not a translation dump"]:
+        if marker not in bilingual_guardrails:
+            errors.append(f"bilingual-loop.json missing guardrail: {marker}")
+    future_zh = bilingual.get("future_zh_wedge", {})
+    if future_zh.get("upstream_source") != "ph-civ":
+        errors.append("bilingual-loop.json future_zh_wedge must be downstream of ph-civ")
+    if future_zh.get("dependency_role") != "downstream_localization_mirror":
+        errors.append("bilingual-loop.json future_zh_wedge must use downstream mirror dependency role")
+    future_steps = future_zh.get("first_steps", [])
+    if future_steps != ["canonical glossary", "Chinese bootloader", "Chinese first-tour metadata"]:
+        errors.append("bilingual-loop.json future_zh_wedge must start with glossary, bootloader, first-tour metadata")
+    if "149 source chapters" not in future_zh.get("defer", ""):
+        errors.append("bilingual-loop.json future_zh_wedge must defer transcript translation")
+    future_ru = bilingual.get("future_ru_wedge", {})
+    if future_ru.get("upstream_source") != "ph-civ":
+        errors.append("bilingual-loop.json future_ru_wedge must be downstream of ph-civ")
+    if future_ru.get("dependency_role") != "downstream_localization_mirror":
+        errors.append("bilingual-loop.json future_ru_wedge must use downstream mirror dependency role")
+    if future_ru.get("future_surface") != "ph-civ-ru":
+        errors.append("bilingual-loop.json future_ru_wedge must reserve ph-civ-ru")
+    if future_ru.get("status") != "roadmap_candidate":
+        errors.append("bilingual-loop.json future_ru_wedge must be a roadmap candidate")
+    if future_ru.get("first_steps", []) != ["Russian glossary", "Russian bootloader", "Russian first-tour metadata"]:
+        errors.append("bilingual-loop.json future_ru_wedge must start with Russian glossary, bootloader, first-tour metadata")
+    ru_guardrails = "\n".join(future_ru.get("guardrails", []))
+    for marker in ["not Russian-state apologetics", "not anti-Ukrainian", "not live war analysis", "not a translation dump"]:
+        if marker not in ru_guardrails:
+            errors.append(f"bilingual-loop.json future_ru_wedge missing guardrail: {marker}")
+    if "149 source chapters" not in future_ru.get("defer", "") or "ph-civ-ru commands" not in future_ru.get("defer", ""):
+        errors.append("bilingual-loop.json future_ru_wedge must defer transcript translation and commands")
+    roadmap = bilingual.get("localization_roadmap", [])
+    roadmap_surfaces = [item.get("future_surface") for item in roadmap]
+    if roadmap_surfaces != ["ph-civ-zh", "ph-civ-ru"]:
+        errors.append("bilingual-loop.json localization_roadmap must list ph-civ-zh then ph-civ-ru")
+    for item in roadmap:
+        if item.get("upstream_source") != "ph-civ" or item.get("dependency_role") != "downstream_localization_mirror":
+            errors.append("bilingual-loop.json localization_roadmap entries must be downstream of ph-civ")
+    llm_bilingual = llm_experience.get("bilingual_bridge", {})
+    if llm_bilingual.get("path") != "data/bilingual-loop.json":
+        errors.append("llm-experience bilingual_bridge must point to data/bilingual-loop.json")
+    if llm_bilingual.get("reader_doc") != "docs/bilingual-civilizational-bridge.md":
+        errors.append("llm-experience bilingual_bridge must point to docs/bilingual-civilizational-bridge.md")
+    if llm_bilingual.get("bridge_id") != "trilingual_civilizational_bridge":
+        errors.append("llm-experience bilingual_bridge must expose the trilingual bridge ID")
+    if llm_bilingual.get("language_scope") != "trilingual":
+        errors.append("llm-experience bilingual_bridge must expose trilingual scope")
+    if llm_bilingual.get("localization_roadmap") != ["ph-civ-zh", "ph-civ-ru"]:
+        errors.append("llm-experience bilingual_bridge must expose ph-civ-zh and ph-civ-ru roadmap")
+    if llm_bilingual.get("canonical_source") != "ph-civ":
+        errors.append("llm-experience bilingual_bridge must keep ph-civ as canonical source")
+    if "downstream mirrors" not in llm_bilingual.get("authority_model", ""):
+        errors.append("llm-experience bilingual_bridge must state localization mirrors are downstream")
+    bilingual_doc = DATA_ROOT.parent / "docs" / "bilingual-civilizational-bridge.md"
+    if not bilingual_doc.exists():
+        errors.append("docs/bilingual-civilizational-bridge.md must exist")
+    else:
+        bilingual_doc_text = bilingual_doc.read_text(encoding="utf-8")
+        for marker in [
+            "Homer to Tolstoy, read from China.",
+            "Trilingual Civilizational Bridge",
+            "`ph-civ` / English / canonical public artifact",
+            "paired mirrors",
+            "not propaganda",
+            "not a translation dump",
+            "not anti-Western",
+            "Volume I literary spine",
+            "ph-civ-ru",
+            "Russian glossary",
+            "not live war analysis",
+            "downstream of `ph-civ`",
+            "not become sibling authorities",
+        ]:
+            if marker not in bilingual_doc_text:
+                errors.append(f"docs/bilingual-civilizational-bridge.md missing marker: {marker}")
+    if llm_experience.get("first_seed", {}).get("route_ids") != seed_route_ids:
+        errors.append("llm-experience route IDs must match route seed")
+    llm_surfaces = llm_experience.get("public_surfaces", {})
+    if llm_surfaces.get("volume_i", {}).get("surface") != "ph-civ":
+        errors.append("llm-experience volume_i must use ph-civ")
+    if llm_surfaces.get("volume_ii", {}).get("surface") != "ph-apo":
+        errors.append("llm-experience volume_ii must use ph-apo")
+    if llm_surfaces.get("museum", {}).get("surface") != "ph-mus":
+        errors.append("llm-experience museum must use ph-mus")
+    if llm_surfaces.get("museum", {}).get("not_a_volume") is not True:
+        errors.append("llm-experience must mark ph-mus as not a volume")
+    guardrails = "\n".join(llm_experience.get("guardrails", []))
+    for marker in [
+        "Homer to Tolstoy",
+        "Anna Karenina coda",
+        "ph-mus is not a third volume",
+    ]:
+        if marker not in guardrails:
+            errors.append(f"llm-experience missing guardrail: {marker}")
+    museum_ids = [exhibit.get("source_id") for exhibit in load_museum_index()]
+    if set(museum_ids) != set(seed_route_ids):
+        errors.append("museum index must contain the same route IDs as the seed")
+    provisional_gt_ids = {f"gt-{index}" for index in range(23, 27)}
+    cards_by_id = {card["source_id"]: card for card in cards}
+    missing_provisional_gt = provisional_gt_ids - set(cards_by_id)
+    for source_id in sorted(missing_provisional_gt):
+        errors.append(f"{source_id} must exist as a provisional Game Theory chapter")
+    for source_id in sorted(provisional_gt_ids & set(cards_by_id)):
+        if cards_by_id[source_id].get("review_status") != "provisional":
+            errors.append(f"{source_id} must remain provisional")
+        if source_id in set(seed_route_ids) or source_id in set(museum_ids):
+            errors.append(f"{source_id} must not be promoted into routes or museum exhibits before review")
+    sh16_route = next((route for route in choreography if route.get("source_id") == "sh-16"), None)
+    if not sh16_route:
+        errors.append("choreography must include sh-16")
+    else:
+        if sh16_route.get("surface") != "ph-apo":
+            errors.append("sh-16 route must remain on ph-apo")
+        if sh16_route.get("route_type") != "coda":
+            errors.append("sh-16 route must use coda route_type")
+        caveat = sh16_route.get("caveat", "")
+        if "Anna Karenina coda" not in caveat or "not a dedicated Tolstoy lecture" not in caveat:
+            errors.append("sh-16 route must preserve the Tolstoy caveat")
+    architecture = load_course_architecture()
+    if architecture.get("repo_identity") != "ph-civ":
+        errors.append("surfaces.json invalid repo_identity")
+    if architecture.get("primary_artifact") != "two_volume_ph_civ":
+        errors.append("surfaces.json invalid primary_artifact")
+    if architecture.get("volumes", {}).get("volume_i", {}).get("surface") != "ph-civ":
+        errors.append("volume_i must route through ph-civ")
+    if architecture.get("volumes", {}).get("volume_i", {}).get("role") != "law_discovery":
+        errors.append("volume_i must use law_discovery role")
+    if architecture.get("volumes", {}).get("volume_ii", {}).get("surface") != "ph-apo":
+        errors.append("volume_ii must route through ph-apo")
+    if architecture.get("volumes", {}).get("volume_ii", {}).get("role") != "law_application":
+        errors.append("volume_ii must use law_application role")
+    if architecture.get("museum", {}).get("surface") != "ph-mus":
+        errors.append("museum layer must route through ph-mus")
+    if architecture.get("museum", {}).get("role") != "chapter_exhibit_layer":
+        errors.append("museum layer must use chapter_exhibit_layer role")
+    if architecture.get("bridge_support_nodes") != ["sh-11", "sh-16", "sh-17", "sh-18"]:
+        errors.append("bridge_support_nodes invariant changed")
+    literary_spine = load_spine("homer-to-tolstoy")
+    if literary_spine.get("launch_readiness") != "defined_not_launch_ready":
+        errors.append("homer-to-tolstoy spine must preserve launch readiness tension")
+    if "first public reader" not in literary_spine.get("first_reader_gap", ""):
+        errors.append("homer-to-tolstoy spine must name the first-reader gap")
+    growth_goals = load_growth_goals()
+    policy = growth_goals.get("agent_goal_policy", {})
+    if growth_goals.get("goal_system") != "ph_civ_public_growth":
+        errors.append("growth-goals.json invalid goal_system")
+    if policy.get("must_translate_outcome_to_machinery") is not True:
+        errors.append("growth goals must translate outcome goals into machinery")
+    required_outputs = {
+        "README and public contract explain the two-volume ph-civ artifact within one screen",
+        "analytics plan defines what counts as a view across GitHub, web, video, social, and document surfaces",
+        "distribution calendar converts the target into weekly and monthly milestones",
+    }
+    campaigns = growth_goals.get("campaigns", [])
+    if not campaigns:
+        errors.append("growth-goals.json must define at least one campaign")
+    for campaign in campaigns:
+        if "source-disciplined educational trust" not in campaign.get("unresolved_tension", ""):
+            errors.append(f"{campaign.get('campaign_id')} must preserve the growth-vs-trust tension")
+        if campaign.get("success_requires_external_audience_behavior") is not True:
+            errors.append(f"{campaign.get('campaign_id')} must mark external audience dependency")
+        wedge = campaign.get("first_live_wedge", {})
+        if wedge.get("wedge_id") != "launch_volume_i_spine":
+            errors.append(f"{campaign.get('campaign_id')} must name the first live publishing wedge")
+        if wedge.get("launch_readiness") != "defined_not_launch_ready":
+            errors.append(f"{campaign.get('campaign_id')} must distinguish defined wedge from launch readiness")
+        if "without claiming views have already been earned" not in wedge.get("done_when", ""):
+            errors.append(f"{campaign.get('campaign_id')} must forbid fake reach completion")
+        outputs = set(campaign.get("measurable_agent_outputs", []))
+        if not required_outputs <= outputs:
+            errors.append(f"{campaign.get('campaign_id')} missing measurable growth outputs")
+    errors.extend(validate_patterns(load_patterns(), cards))
+    errors.extend(validate_public_boundary())
+    errors.extend(validate_volume_i_parts(require_doorways=True, require_chapter_anchors=True))
+    series = Counter(card["series"] for card in cards)
+    result = {"status": "valid" if not errors else "invalid", "card_count": len(cards), "series_counts": dict(sorted(series.items())), "errors": errors}
+    if args.json:
+        emit_json(result)
+        return 1 if errors else 0
+    print(f"status: {result['status']}")
+    print(f"card_count: {len(cards)}")
+    for key, value in result["series_counts"].items():
+        print(f"{key}: {value}")
+    if errors:
+        for error in errors:
+            print(f"error: {error}", file=sys.stderr)
+        return 1
+    return 0
+
+
+def validate_patterns(patterns: list[dict], cards: list[dict]) -> list[str]:
+    errors: list[str] = []
+    pattern_ids: set[str] = set()
+    source_ids = {card["source_id"] for card in cards}
+    required = {
+        "pattern_id",
+        "title",
+        "summary",
+        "strategy_use",
+        "source_ids",
+        "tags",
+        "limits",
+        "public_status",
+    }
+    allowed_status = {"seed", "in_review", "stable"}
+    for pattern in patterns:
+        pattern_id = pattern.get("pattern_id")
+        if not pattern_id:
+            errors.append("pattern missing pattern_id")
+            continue
+        if pattern_id in pattern_ids:
+            errors.append(f"duplicate pattern_id: {pattern_id}")
+        pattern_ids.add(pattern_id)
+        for field in sorted(required):
+            if field not in pattern or pattern.get(field) in ("", [], None):
+                errors.append(f"{pattern_id} missing field: {field}")
+        status = pattern.get("public_status")
+        if status not in allowed_status:
+            errors.append(f"{pattern_id} invalid public_status: {status}")
+        for source_id in pattern.get("source_ids", []):
+            if source_id not in source_ids:
+                errors.append(f"{pattern_id} unknown source_id: {source_id}")
+    return errors
+
+
+def cmd_surface(args) -> int:
+    surface = SURFACES[args.surface]
+    if args.json:
+        return emit_json({"surface": args.surface, **surface})
+    print(f"{args.surface}: {surface['title']}")
+    print(f"status: {surface['status']}")
+    print(surface["description"])
+    return 0
+
+
+def cmd_status(args) -> int:
+    architecture = load_course_architecture()
+    if args.json:
+        return emit_json(
+            {
+                "repo_identity": architecture["repo_identity"],
+                "primary_artifact": architecture["primary_artifact"],
+                "volumes": architecture["volumes"],
+                "museum": architecture["museum"],
+                "surfaces": SURFACES,
+                "unique_card_count": len(load_cards()),
+            }
+        )
+    print("ph-civ: two-volume public Predictive History artifact")
+    print(f"primary_artifact: {architecture['primary_artifact']}")
+    print(
+        "Volume I / ph-civ / Civilization: "
+        f"{architecture['volumes']['volume_i']['role']}"
+    )
+    print(
+        "Volume II / ph-apo / Apocalypse: "
+        f"{architecture['volumes']['volume_ii']['role']}"
+    )
+    print("ph-mus: chapter_exhibit_layer for both volumes")
+    return 0
+
+
+def volume_payload(volume_id: str, include_cards: bool = False) -> dict:
+    canonical = VOLUME_ALIASES[volume_id]
+    architecture = load_course_architecture()
+    volume = architecture["volumes"][canonical]
+    cards = cards_for_volume(canonical)
+    payload = {
+        "volume_id": canonical,
+        "surface": volume["surface"],
+        "title": volume["title"],
+        "role": volume["role"],
+        "description": volume["description"],
+        "card_count": len(cards),
+        "bridge_support_nodes": architecture["bridge_support_nodes"]
+        if canonical == "volume_i"
+        else [],
+    }
+    if include_cards:
+        payload["cards"] = [
+            {
+                "source_id": card["source_id"],
+                "title": card["title"],
+                "series": card["series"],
+                "part": card["part"],
+                "bridge_role": conceptual_bridge_role(card),
+            }
+            for card in cards
+        ]
+    return payload
+
+
+def cmd_volumes(args) -> int:
+    architecture = load_course_architecture()
+    payload = {
+        "repo_identity": architecture["repo_identity"],
+        "primary_artifact": architecture["primary_artifact"],
+        "volumes": {
+            "volume_i": volume_payload("volume_i"),
+            "volume_ii": volume_payload("volume_ii"),
+        },
+        "museum": architecture["museum"],
+        "unique_card_count": len(load_cards()),
+    }
+    if args.json:
+        return emit_json(payload)
+    for volume in payload["volumes"].values():
+        print(f"{volume['volume_id']}\t{volume['surface']}\t{volume['role']}\t{volume['card_count']}")
+    print(f"ph-mus\t{payload['museum']['role']}\t{payload['museum']['description']}")
+    print(f"unique_card_count\t{payload['unique_card_count']}")
+    return 0
+
+
+def cmd_volume(args) -> int:
+    try:
+        payload = volume_payload(args.volume_id, include_cards=True)
+    except KeyError:
+        print(f"Unknown volume: {args.volume_id}", file=sys.stderr)
+        return 2
+    if args.json:
+        return emit_json(payload)
+    print(f"# {payload['title']} ({payload['volume_id']})")
+    print(f"surface: {payload['surface']}")
+    print(f"role: {payload['role']}")
+    print(f"card_count: {payload['card_count']}")
+    for card in payload["cards"]:
+        bridge = f"\t{card['bridge_role']}" if card["bridge_role"] else ""
+        print(f"{card['source_id']}\t{card['series']}\t{card['title']}{bridge}")
+    return 0
+
+
+def cmd_growth(args) -> int:
+    growth_goals = load_growth_goals()
+    if args.json:
+        return emit_json(growth_goals)
+    print("ph-civ public growth")
+    print(growth_goals["principle"])
+    print("")
+    print("Agent goal rule:")
+    print(f"- {growth_goals['agent_goal_policy']['forbidden_completion_claim']}")
+    print("- Translate reach ambitions into repo quality, assets, cadence, metrics, and human-approved distribution.")
+    print("")
+    for campaign in growth_goals["campaigns"]:
+        print(f"{campaign['campaign_id']}: {campaign['title']}")
+        print(f"status: {campaign['status']}")
+        print(f"target: {campaign['target_count']} {campaign['target_metric']} by {campaign['target_date']}")
+        print(f"tension: {campaign['unresolved_tension']}")
+        print(f"agent work: {campaign['agent_executable_translation']}")
+        wedge = campaign.get("first_live_wedge")
+        if wedge:
+            print(f"first wedge: {wedge['wedge_id']} - {wedge['title']}")
+            print(f"readiness: {wedge['launch_readiness']}")
+    return 0
+
+
+def cmd_bilingual(args) -> int:
+    bilingual = load_bilingual_loop()
+    if args.json:
+        return emit_json(bilingual)
+    print(f"{bilingual['bridge_id']}: {bilingual['posture']}")
+    print(f"legacy_loop_id: {bilingual['loop_id']}")
+    print(f"language_scope: {bilingual['language_scope']}")
+    print(f"status: {bilingual['status']}")
+    print(f"canonical_source: {bilingual['canonical_source']}")
+    print(f"primary_wedge: {bilingual['primary_wedge']}")
+    print(f"downstream_mirrors: {', '.join(bilingual['downstream_mirrors'])}")
+    print("")
+    print(f"English hook: {bilingual['english_hook']}")
+    print(f"Chinese hook: {bilingual['chinese_hook']}")
+    print("")
+    print("Guardrails:")
+    for guardrail in bilingual["guardrails"]:
+        print(f"- {guardrail}")
+    print("")
+    future = bilingual["future_zh_wedge"]
+    print("future_zh_wedge:")
+    print(f"- status: {future['status']}")
+    print(f"- first_steps: {', '.join(future['first_steps'])}")
+    print(f"- defer: {future['defer']}")
+    ru_future = bilingual.get("future_ru_wedge")
+    if ru_future:
+        print()
+        print("future_ru_wedge:")
+        print(f"- future_surface: {ru_future['future_surface']}")
+        print(f"- status: {ru_future['status']}")
+        print(f"- primary_wedge: {ru_future['primary_wedge']}")
+        print(f"- first_steps: {', '.join(ru_future['first_steps'])}")
+        print(f"- defer: {ru_future['defer']}")
+    return 0
+
+
+def cmd_trilingual(args) -> int:
+    return cmd_bilingual(args)
+
+
+def cmd_start(args) -> int:
+    experience = load_llm_experience()
+    if args.json:
+        return emit_json(experience)
+    print("ph-civ: LLM-native two-volume Predictive History bootloader")
+    print(f"github_url: {experience['github_url']}")
+    print(f"start_here: {experience['start_here']}")
+    if experience.get("full_context"):
+        print(f"full_context: {experience['full_context']['path']}")
+    if experience.get("first_response_contract"):
+        print(f"default_mode: {experience['first_response_contract']['default_mode']}")
+        print(f"opening_path: {experience['first_response_contract']['opening_path']}")
+    print(f"primary_artifact: {experience['primary_artifact']}")
+    print("surfaces:")
+    for key, surface in experience["public_surfaces"].items():
+        print(f"- {key}: {surface['surface']} - {surface['role']}")
+    print("first_seed:")
+    print(f"- {experience['first_seed']['seed_id']}: {', '.join(experience['first_seed']['route_ids'])}")
+    if experience.get("first_tour"):
+        print(f"first_tour: {experience['first_tour']['path']}")
+    if experience.get("bilingual_bridge"):
+        print(f"bilingual_bridge: {experience['bilingual_bridge']['path']}")
+    if experience.get("chapter_folder_links"):
+        print(f"chapter_folder_links: {experience['chapter_folder_links']['reader_doc']}")
+    print("modes:")
+    for mode in experience["modes"]:
+        print(f"- {mode['mode']}: {mode['instruction']}")
+    print("guardrails:")
+    for guardrail in experience["guardrails"]:
+        print(f"- {guardrail}")
+    return 0
+
+
+def cmd_tour(args) -> int:
+    payload = first_tour_payload()
+    if args.json:
+        return emit_json(payload)
+    print(f"# {payload['tour_id']}")
+    print(f"mode: {payload['mode']}")
+    print(f"opening_path: {payload['opening_path']}")
+    print(f"opening_route: {payload['opening_route']}")
+    print("")
+    print(payload["reader_promise"])
+    print("")
+    print("Phases:")
+    for phase in payload["phases"]:
+        print(f"- {phase['title']}: {', '.join(phase['route_ids'])}")
+        print(f"  {phase['function']}")
+    print("")
+    print("Stops:")
+    for index, stop in enumerate(payload["stops"], start=1):
+        print(f"{index}. {stop['source_id']} - {stop['title']} [{stop['route_type']}]")
+        print(f"   question: {stop['reader_question']}")
+        print(f"   next: {stop['next_action']}")
+    print("")
+    print("Opening move:")
+    print(payload["continue_prompt"])
+    return 0
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(prog="ph-civ", description="Provider-neutral Predictive History study cards and prompts.")
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    p = sub.add_parser("list", help="List cards.")
+    p.add_argument("--series", choices=["civilization", "great-books", "geo-strategy", "game-theory", "secret-history"])
+    p.add_argument("--part", choices=["civilization", "world-war"])
+    p.add_argument("--spine", action="store_true", help="Limit to Homer-to-Tolstoy spine cards.")
+    p.add_argument("--all", action="store_true", help="Include cards outside the current public surface.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_list)
+
+    p = sub.add_parser("show", help="Show one card.")
+    p.add_argument("source_id")
+    p.add_argument("--format", choices=["markdown", "json"], default="markdown")
+    p.set_defaults(func=cmd_show)
+
+    p = sub.add_parser("search", help="Search cards.")
+    p.add_argument("query")
+    p.add_argument("--series", choices=["civilization", "great-books", "geo-strategy", "game-theory", "secret-history"])
+    p.add_argument("--all", action="store_true", help="Include cards outside the current public surface.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_search)
+
+    p = sub.add_parser("route", help="Show the public choreography route for one source ID.")
+    p.add_argument("source_id")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_route)
+
+    p = sub.add_parser("link", help="Render a paste-ready public chapter-folder link packet.")
+    p.add_argument("source_id")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_link)
+
+    p = sub.add_parser("patterns", help="List downstream strategy-facing public pattern IDs.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_patterns)
+
+    p = sub.add_parser("pattern", help="Show one public pattern card.")
+    p.add_argument("pattern_id")
+    p.add_argument("--format", choices=["markdown", "json"], default="markdown")
+    p.set_defaults(func=cmd_pattern)
+
+    p = sub.add_parser("bridge", help="Show public patterns attached to one source ID.")
+    p.add_argument("source_id")
+    p.add_argument("--format", choices=["markdown", "json"], default="markdown")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_bridge)
+
+    p = sub.add_parser("prompt", help="Render a provider-neutral prompt template for one card.")
+    p.add_argument("source_id")
+    p.add_argument("--mode", choices=sorted(PROMPT_MODES), default="study")
+    p.set_defaults(func=cmd_prompt)
+
+    p = sub.add_parser("spark", help="Generate deterministic study sparks for one card.")
+    p.add_argument("source_id")
+    p.add_argument("--count", type=int, default=3)
+    p.set_defaults(func=cmd_spark)
+
+    p = sub.add_parser("spine", help="Show a spine.")
+    p.add_argument("spine_id", nargs="?", default="homer-to-tolstoy")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_spine)
+
+    p = sub.add_parser("path", help="Show a named path.")
+    p.add_argument("path_id")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_path)
+
+    p = sub.add_parser("validate", help="Validate packaged cards.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_validate)
+
+    p = sub.add_parser("status", help="Show the current public surface status.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_status)
+
+    p = sub.add_parser("start", help="Show the LLM-native start-here bootloader.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_start)
+
+    p = sub.add_parser("tour", help="Show the first-tour route experience.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_tour)
+
+    p = sub.add_parser("volumes", help="Show the two-volume ph-civ architecture.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_volumes)
+
+    p = sub.add_parser("volume", help="Show cards for one conceptual volume.")
+    p.add_argument("volume_id", choices=sorted(VOLUME_ALIASES))
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_volume)
+
+    p = sub.add_parser("growth", help="Show public-growth goals and agent-executable translation rules.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_growth)
+
+    p = sub.add_parser("trilingual", help="Show the trilingual civilizational bridge ambition.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_trilingual)
+
+    p = sub.add_parser("bilingual", help="Compatibility alias for the trilingual bridge roadmap.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_bilingual)
+
+    p = sub.add_parser("surface", help="Show public surface metadata.")
+    p.add_argument("surface", choices=sorted(SURFACES), nargs="?", default="ph-civ")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_surface)
+    return parser
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = build_parser().parse_args(argv)
+    args.surface_scope = "ph-civ"
+    return args.func(args)
+
+
+def apo_main(argv: list[str] | None = None) -> int:
+    args = build_parser().parse_args(argv or ["list"])
+    args.surface_scope = "ph-apo"
+    return args.func(args)
+
+
+def build_museum_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(prog="ph-mus", description="Predictive History Museum public manifest routes.")
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    p = sub.add_parser("status", help="Show ph-mus status.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=lambda args: cmd_surface(argparse.Namespace(surface="ph-mus", json=args.json)))
+
+    p = sub.add_parser("list", help="List published public museum exhibit manifests.")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_museum_list)
+
+    p = sub.add_parser("show", help="Show one museum exhibit manifest.")
+    p.add_argument("source_id")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_museum_show)
+
+    p = sub.add_parser("route", help="Show the public route for one museum exhibit.")
+    p.add_argument("source_id")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_route)
+    return parser
+
+
+def mus_main(argv: list[str] | None = None) -> int:
+    args = build_museum_parser().parse_args(argv or ["list"])
+    args.surface_scope = "ph-mus"
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

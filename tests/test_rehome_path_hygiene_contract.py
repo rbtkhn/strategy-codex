@@ -87,16 +87,15 @@ def _check_forbidden_roots(fixture: dict) -> list[str]:
     ]
 
 
-def _check_gitmodules(fixture: dict) -> list[str]:
-    text = (REPO_ROOT / ".gitmodules").read_text(encoding="utf-8")
-    contract = fixture["gitmodules"]
+def _check_mirror_receipt(fixture: dict) -> list[str]:
+    contract = fixture["mirror_receipt"]
     failures: list[str] = []
-    if contract["required_submodule"] not in text:
-        failures.append(f"missing {contract['required_submodule']}")
-    if contract["required_path"] not in text:
-        failures.append(f"missing {contract['required_path']}")
-    if contract["forbidden_path"] in text:
-        failures.append(f"forbidden {contract['forbidden_path']}")
+    receipt = REPO_ROOT / contract["path"]
+    if not receipt.is_file():
+        failures.append(f"missing {contract['path']}")
+    forbidden = contract.get("forbidden_file")
+    if forbidden and (REPO_ROOT / forbidden).exists():
+        failures.append(f"forbidden {forbidden} (vendored mirror, not submodule)")
     return failures
 
 
@@ -129,7 +128,7 @@ def _score_fixture(fixture: dict) -> tuple[int, list[str], list[str]]:
     checks = {
         "required_roots": _check_required_roots,
         "forbidden_roots_absent": _check_forbidden_roots,
-        "gitmodules": _check_gitmodules,
+        "mirror_receipt": _check_mirror_receipt,
         "tracked_content": _check_tracked_content,
         "exclusion_policy": lambda f: []
         if "artifacts/benchmarks/" in f["excluded_path_prefixes"]

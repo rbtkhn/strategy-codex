@@ -9,17 +9,16 @@
     "codex/years",
     "codex/years/2025",
     "codex/years/2026",
-    "statecraft/voices/jiang",
-    "statecraft/voices/jiang/ph-civ"
+    "public",
+    "public/ph-civ"
   ],
   "forbidden_roots": [
     "codex/2025",
     "codex/2026"
   ],
-  "gitmodules": {
-    "required_submodule": "[submodule \"statecraft/voices/jiang/ph-civ\"]",
-    "required_path": "path = statecraft/voices/jiang/ph-civ",
-    "forbidden_path": "path = codex/2026/academy/ph-civ"
+  "mirror_receipt": {
+    "path": "public/ph-civ/MIRROR-RECEIPT.md",
+    "forbidden_file": ".gitmodules"
   },
   "stale_content_patterns": [
     "codex[/\\\\]academy[/\\\\]ph-civ",
@@ -50,10 +49,10 @@
     },
     {
       "id": "RPH-G003",
-      "label": "submodule path is canonical",
+      "label": "vendored ph-civ mirror receipt is present",
       "points": 20,
       "critical": true,
-      "check": "gitmodules"
+      "check": "mirror_receipt"
     },
     {
       "id": "RPH-G004",

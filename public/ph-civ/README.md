@@ -1,0 +1,155 @@
+# Predictive History Public Repository
+
+For AI agents and new chats: start with `START-HERE.md`, then `AGENTS.md` and `llms.txt`. If a user pastes `https://github.com/rbtkhn/ph-civ` into an LLM chat, use `START-HERE.md`, `data/llm-experience.json`, and `llms-full.txt` as the unfolding map and one-shot context packet. Do not stop at a generic repository summary or "what would you like to do next?" response; begin the `first_tour` through the 10-route spine seed unless the reader chooses another mode. If a user pastes a direct chapter-folder URL, treat that folder as `study` mode: open its `README.md`, transcript, commentary canvas, and public card. This repo is the public Predictive History distribution layer, not the private editorial workshop.
+
+This repository is the public-facing home for the two-volume ph-civ artifact. It contains three related Predictive History surfaces:
+
+- `ph-civ`: **Volume I / Predictive History: Civilization** - discovers the laws of history.
+- `ph-apo`: **Volume II / Predictive History: Apocalypse** - applies the laws of history.
+- `ph-mus`: **Predictive History Museum** - chapter exhibit layer for both volumes.
+
+The repo name `ph-civ` names the public repository and the Volume I surface. The repo as a whole is the two-volume public artifact: `ph-civ`, `ph-apo`, and `ph-mus` together.
+
+It also contains the chapter body for each source item. In this repo, one chapter consists of the lecture transcript, companion commentary, and public orientation/navigation metadata. The package lets students and AI systems explore historical placement, reading posture, pressure points, limits, return paths, and guided prompts alongside the chapter text.
+
+This package is independent educational infrastructure. It is not official course material, not endorsement, and not a substitute for the source lectures, transcripts, commentary, or external verification.
+
+The repo also carries a trilingual civilizational bridge ambition: English, Chinese, and Russian readerships can reinforce each other by reading the Western canon, historical pattern, and modern crisis through the same source-bounded route system. This is ambition metadata, not a Chinese or Russian translation launch. Both `ph-civ-zh` and `ph-civ-ru` would be downstream mirrors of canonical `ph-civ`, not sibling sources of truth; see `docs/bilingual-civilizational-bridge.md`.
+
+## Repository Role
+
+This repo is the public distribution layer. It should contain public cards, public navigation, schemas, prompts, contribution instructions, generated manifests, and small text metadata.
+
+It should not become the large-media vault. Museum artifacts must be stored in a local museum vault and mirrored in a shared document cloud workspace. Git tracks manifests, exhibit metadata, derived thumbnails when appropriate, and validation rules, not the full artifact archive.
+
+## What Is Included
+
+- 150 public cards from Predictive History snapshot `56a4a08`, including the first `sub-*` essay lane, provisional `gt-23` through `gt-26` captures, and the direct `ph-apo` `gt-27` chapter.
+- 150 public source chapters staged through a canonical two-volume `book/` reader architecture, with legacy provenance folders and direct namespaces still preserved during recanonicalization.
+- 150 chapter commentaries attached to those staged canonical homes and preserved underlying packets, each seeded as an open commentary canvas.
+- Chapter-folder `README.md` doorways for folder-backed chapters, designed for direct GitHub links in YouTube comments and LLM chats.
+- Canonical public source captures under `sources/` so the repo can function independently of outside workshop storage.
+- A source video index at `docs/source-video-index.md` so Predictive History YouTube URLs are visible from one public file.
+- Two conceptual volumes: Volume I / Civilization / `ph-civ`, and Volume II / Apocalypse / `ph-apo`.
+- A canonical two-volume reader architecture under `book/volume-i-civilization/` and `book/volume-ii-apocalypse/`, with older multi-volume source provenance kept subordinate; see [From The Old Seven Volumes To The Current Two](book/seven-volume-to-two-volume.md).
+- Series coverage: Civilization, Great Books, Geo-Strategy, Game Theory, Secret History, and Essays.
+- The Homer-to-Tolstoy literary spine as the Volume I literary spine with cross-volume routing exposure.
+- The Plato-to-Hegel theological-philosophical spine as a secondary Volume I route through reality, sacred order, imagination, and philosophy of history.
+- The `ph-apo` pressure spine as the Volume II public application spine: geography, incentives, causation hinge, and infrastructure/sacred systems.
+- A compact externalization of the reader-facing restructuring at [Two Volumes, One Reader Map](docs/two-volumes-one-reader-map.md).
+- Provider-neutral prompt templates.
+- Eight public civilizational pattern IDs for downstream strategy-facing reference.
+- Public museum exhibit and artifact schemas.
+- Curator instructions for chapter-level exhibit assembly across both volumes.
+
+## What Is Excluded
+
+- Private notes or private workspace paths.
+- External-source bibliography claims beyond the orientation cards.
+- LLM provider integrations, API calls, or hidden model dependencies.
+- Large image, audio, video, document, or scan archives.
+- URL-only artifact submissions treated as complete museum work.
+
+## Install For Local Development
+
+```bash
+python -m pip install -e .
+```
+
+## CLI
+
+```bash
+ph-civ list
+ph-civ list --part civilization
+ph-civ list --series game-theory --json
+ph-civ show civ-41 --format json
+ph-civ search Dante
+ph-civ prompt gb-01 --mode creative
+ph-civ spark gt-16 --count 5
+ph-civ spine
+ph-civ path homer-to-tolstoy
+ph-civ validate
+ph-civ status
+ph-civ start
+ph-civ start --json
+ph-civ tour
+ph-civ tour --json
+ph-civ trilingual
+ph-civ trilingual --json
+ph-civ bilingual
+ph-civ bilingual --json
+ph-civ growth
+ph-civ volumes
+ph-civ volume volume-i --json
+ph-civ route civ-07 --json
+ph-civ link gt-24
+ph-civ link gt-24 --json
+ph-civ patterns
+ph-civ pattern civ-chokepoint-pressure --format json
+ph-civ bridge gt-16 --json
+ph-civ bridge civ-07 --format markdown
+ph-apo list
+ph-apo status
+ph-apo route gt-16 --json
+ph-mus list
+ph-mus status
+ph-mus route civ-07 --json
+```
+
+All prompt and spark commands are template-only. They do not call an AI provider. Pattern commands expose public civilizational frames for downstream strategy analysis; they do not import live strategy workspace material. Use **`ph-civ`** as the public CLI (`python -m civ_ph.cli â€¦` invokes the same code when running from source).
+
+## Commentary Canvas
+
+The chapter commentaries are the project canvas. They are seeded for all chapters, but they are not treated as complete analysis. Each commentary has a shared `Project Canvas` scaffold for later chapter-by-chapter development: project leverage, laws and patterns, volume role, museum hooks, strategy application, counter-readings, open questions, and build notes.
+
+See `docs/commentary-canvas.md`.
+
+## Public Growth
+
+Large reach targets, such as one million public views by the end of 2026, are strategic ambitions rather than directly executable agent tasks. Treat them as campaign pressure: convert the ambition into one live publishing wedge, then ship only human-approved assets with clear metrics.
+
+The first live wedge is the Volume I literary spine: make the Homer-to-Tolstoy route shareable, connect it to the two-volume ph-civ narrative, pair it with one publishable chapter/commentary/museum path sample, and define what counts as a view before public distribution.
+
+This wedge is defined, not automatically launch-ready. The unresolved tension is whether the route has enough source-disciplined educational trust to deserve audience growth, not only whether the CLI can render it.
+
+The canonical growth guardrail lives in `data/growth-goals.json` and is exposed with:
+
+```bash
+ph-civ growth --json
+```
+
+For a compact doorway into Jiang-facing interpretive notes on teaching, spread, rhetoric, platform fit, and cross-volume continuity, see [Jiang Analysis Index](docs/jiang-analysis-index.md).
+
+## Literary Spine
+
+```text
+Homer -> Virgil -> Dante -> Shakespeare -> Dostoevsky -> Tolstoy
+```
+
+Homer to Tolstoy is the Volume I literary spine, not a side corridor. It uses cross-volume routing exposure where needed. Tolstoy is routed through `sh-16`, where *Anna Karenina* appears as a source-backed coda rather than a dedicated Tolstoy lecture.
+
+The route now also has a public [support ring](data/corridors/homer-to-tolstoy-support-ring.md), which names the nearby Volume I materials that strengthen the spine without changing its canonical author sequence or first-tour order.
+
+Tolstoy also functions as the bridge into Volume II. The public handoff lives in [From Civilization To Apocalypse](book/parts/civilization-to-apocalypse.md), [Predictive History After Tolstoy](docs/predictive-history-after-tolstoy.md), and [The Tolstoy Question](corpus/cross-volume/tolstoy-question.md).
+
+If the question is not only "what is the route?" but "why did the old seven become two?", open [Two Volumes, One Reader Map](docs/two-volumes-one-reader-map.md).
+
+## Theological-Philosophical Spine
+
+Volume I now also has a secondary theological-philosophical route: [Plato to Hegel](data/corridors/plato-to-hegel.md). It is parallel to the literary spine rather than a replacement for it, and it gives readers a second stable entrance into Civilization through Plato, Genesis, Augustine, Dante, Kant, and Hegel.
+
+## Apocalypse Pressure Spine
+
+`ph-apo` now has a parallel organizing route to Volume I's literary spine, but it is a pressure spine rather than an author spine. Use [ph-apo Pressure Spine](data/corridors/ph-apo-pressure-spine.md) as the compact public application entry.
+
+## Predictive History Museum
+
+The museum is organized around chapter exhibits, not flat item rows. Each chapter in Predictive History: Civilization and Predictive History: Apocalypse should eventually have one corresponding `ph-mus` exhibit with stored artifacts, rights notes, room placement, and a clear visitor path.
+
+The current public route export lives in `data/routes/choreography.json`, with the public museum manifest index in `data/museum/index.json`.
+
+See `docs/public-repo-contract.md`, `docs/media-inventory-guide.md`, `schemas/museum-exhibit.schema.json`, and `schemas/museum-artifact.schema.json`.
+
+## License
+
+License is pending. See `LICENSE-PENDING.md`.

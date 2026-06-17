@@ -1,7 +1,7 @@
 ---
 name: academy-mirror-sync
 preferred_activation: academy-mirror-sync
-description: Verify academy mirror folders against their public remotes and the parent strategy-codex gitlink. Use when the user asks whether a mirrored repo folder such as statecraft/voices/jiang/ph-civ is in sync with its GitHub repo, origin/main, or parent submodule pointer.
+description: Verify academy mirror folders against their public remotes and the parent strategy-codex gitlink. Use when the user asks whether a mirrored repo folder such as public/ph-civ is in sync with its GitHub repo, origin/main, or parent submodule pointer.
 portable: true
 version: 0.1.0
 tags:
@@ -18,7 +18,7 @@ Use this skill to verify that an academy mirror folder, its remote repository, a
 
 ## Default target
 
-- Mirror folder: `statecraft/voices/jiang/ph-civ`
+- Mirror folder: `public/ph-civ`
 - Remote branch: `origin/main`
 - Parent pointer: the gitlink recorded by `strategy-codex`
 
@@ -70,5 +70,5 @@ python scripts/check_academy_mirror_sync.py --json
 
 - Run from the repository root: `C:\dev\strategy-codex`.
 - Preferred command: `python scripts/check_academy_mirror_sync.py`.
-- For the public Predictive History mirror, keep `statecraft/voices/jiang/ph-civ` as the default mirror path.
+- For the public Predictive History mirror, keep `public/ph-civ` as the default mirror path.
 - If the check reports only unrelated parent dirt, say the mirror is synced and list parent dirt as separate background noise.
