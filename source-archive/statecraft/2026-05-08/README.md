@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Joe Kent` (2), `Larry Johnson` (2), `Alex Krainer` (1), `Charles Freeman` (1), `Ted Postol` (1)
 - Threads: `nima` (3), `davis` (2), `diesen` (2), `johnson` (2), `kent` (2), `freeman` (1), `krainer` (1), `mercouris` (1), `postol` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Charles Freeman | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=_HTvSIymOg8) |
+| Larry Johnson | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=gFqQmy5DAuM) |
+| Ted Postol | Dialogue Works | `nima`, `postol` | [watch](https://www.youtube.com/watch?v=zUYhhZwU5R0) |
+| Joe Kent | Daniel Davis Deep Dive | `davis`, `kent` | [aaTDL0kXKjk](https://www.youtube.com/watch?v=aaTDL0kXKjk) |
+| Joe Kent | Daniel Davis Deep Dive | `davis`, `kent` | [watch](https://www.youtube.com/watch?v=YoD6i1L1Dak) |
+| Larry Johnson | Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=ZuVeSI4FnEA) |
+| Alex Krainer | Diesen | `diesen`, `krainer` | [watch](https://www.youtube.com/watch?v=E_wNsHwWYyk) |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Ao0O9HQnYJg) |
+
 ## Files
 
 - `source-alkorshid-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md`

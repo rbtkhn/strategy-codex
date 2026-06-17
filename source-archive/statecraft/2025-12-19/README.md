@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1), `Scott Ritter` (1), `Trita Parsi` (1)
 - Threads: `mercouris` (2), `nima` (2), `diesen` (1), `freeman` (1), `horizons` (1), `mearsheimer` (1), `parsi` (1), `ritter` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=3FjLLtnNANQ) |
+| Chas Freeman, Trita Parsi | Dialogue Works | `freeman`, `parsi`, `nima` | [watch](https://www.youtube.com/watch?v=R550ehVJYKw) |
+| Scott Ritter | — | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=zq9y5GpwChY) |
+| John Mearsheimer, Alexander Mercouris | — | `diesen`, `mearsheimer`, `mercouris` | [watch](https://www.youtube.com/watch?v=3onO7SRkWd0) |
+| Jeffrey Sachs | HORIZONS Discussion | `horizons`, `sachs` | [watch](https://www.youtube.com/watch?v=68MX32fXfsM) |
+
 ## Files
 
 - `source-alex-mercouris-eu-plan-unravels-merz-is-humiliated-aid-to-ukraine-cut-odessa-in-sight-o-2025-12-19.md`

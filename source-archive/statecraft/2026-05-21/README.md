@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (2), `Alex Krainer` (1), `Andrei Martyanov` (1), `Brandon J. Weichert` (1), `Lawrence Wilkerson` (1), `Pepe Escobar` (1)
 - Threads: `nima` (3), `macgregor` (2), `napolitano` (2), `diesen` (1), `escobar` (1), `jiang` (1), `krainer` (1), `martyanov` (1), `nawfal` (1), `weichert` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alex Krainer | Dialogue Works | `krainer`, `nima` | [watch](https://www.youtube.com/watch?v=qSA1nOWWR0U) |
+| Andrei Martyanov | Dialogue Works | `martyanov`, `nima` | [watch](https://www.youtube.com/watch?v=luKckIs53_w) |
+| Pepe Escobar | Dialogue Works | `escobar`, `nima` | [watch](https://www.youtube.com/watch?v=CyrrA-UkY8o) |
+| Jiang Xueqin | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=x83HcLWvHI8) |
+| Douglas Macgregor | Glenn Diesen | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=UPvsjgQ73YM) |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=OOaOHDcC1V4) |
+| Lawrence Wilkerson | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=sSm949RgJGs) |
+| Brandon J. Weichert | Mario Nawfal | `weichert`, `nawfal` | [Yao4_QgZSsg](https://www.youtube.com/watch?v=Yao4_QgZSsg) |
+
 ## Files
 
 - `source-dialogue-works-alex-krainer-the-middle-east-and-europe-just-shifted-overnight-2026-05-21.md`

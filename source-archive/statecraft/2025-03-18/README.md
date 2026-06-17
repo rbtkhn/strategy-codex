@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Charles Freeman` (1), `Douglas Macgregor` (1)
 - Threads: `davis` (1), `freeman` (1), `macgregor` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Douglas Macgregor | Daniel Davis Deep Dive | `macgregor`, `davis` | [watch](https://youtu.be/fUVYf3PMpY8) |
+| Charles Freeman | Judging Freedom | `freeman`, `napolitano` | — |
+
 ## Files
 
 - `source-davis-macgregor-putin-wants-all-arms-halted-to-ukraine-2025-03-18.md`

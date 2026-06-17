@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
 - Threads: `mercouris` (1), `napolitano` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=6T1scXDXQ1Y) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=ogRcUAU0j4o') |
+
 ## Files
 
 - `source-alex-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md`

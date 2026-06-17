@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Ray McGovern` (1)
 - Threads: `mcgovern` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Ray McGovern | Dialogue Works | `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=-6xGWBSWcnI) |
+
 ## Files
 
 - `source-dialogue-works-ray-mcgovern-graham-e-fuller-who-is-trump-2-0-2025-08-06.md`

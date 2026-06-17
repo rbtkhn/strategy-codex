@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1)
 - Threads: `freeman` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Chas Freeman | Dialogue Works | `freeman` | — |
+
 ## Files
 
 - `source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-2025-03-28.md`

@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alex Krainer` (1), `Andrei Martyanov` (1)
 - Threads: `krainer` (1), `martyanov` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Andrei Martyanov, Alex Krainer | Dialogue Works | `nima`, `martyanov`, `krainer` | [watch](https://www.youtube.com/watch?v=31Oig0FmVX4) |
+
 ## Files
 
 - `source-dialogue-works-andrei-martyanov-alex-krainer-its-over-global-arms-control-collapses-2025-11-09.md`

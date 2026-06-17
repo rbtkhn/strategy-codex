@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (2), `The Duran's Alexander Mercouris NATO Preparing for WAR w RUSSIA` (1)
 - Threads: `davis` (2), `macgregor` (2), `mercouris` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=bdEqtRgXt3s) |
+| Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=nLlUo_ltMPE) |
+| The Duran's Alexander Mercouris NATO Preparing for WAR w RUSSIA | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=pi3fvArYI8E) |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=W03spvkI0rY) |
+
 ## Files
 
 - `source-alex-mercouris-gaza-ceasefire-israel-crisis-hamas-claims-victory-lavrov-hails-trump-nat-2025-01-16.md`

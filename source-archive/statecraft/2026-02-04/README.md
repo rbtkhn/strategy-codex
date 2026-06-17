@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (1)
 - Threads: `mercouris` (1), `nima` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [PSEDW6dEf-s](https://www.youtube.com/watch?v=PSEDW6dEf-s) |
+| Scott Ritter | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=iuc_pPvcFC0) |
+| source-simplicius-damage-control-epstein-a-russian-2026-02-04.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/damage-control-epstein-a-russian) |
+
 ## Files
 
 - `source-alex-mercouris-one-step-closer-to-nuclear-war-nato-rutte-crazy-speech-as-ukraine-smashe-2026-02-04.md`

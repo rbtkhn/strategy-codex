@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Scott Ritter` (1), `Yanis Varoufakis` (1)
 - Threads: `diesen` (2), `davis` (1), `freeman` (1), `mercouris` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xLfY2QGWklM) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [TyKZyu8M2Bg](https://www.youtube.com/watch?v=TyKZyu8M2Bg) |
+| Chas Freeman | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=u5-E6huRJGM) |
+| Yanis Varoufakis | Glenn Diesen | `diesen` | [sxMrNecpBjM](https://www.youtube.com/watch?v=sxMrNecpBjM) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/the-backpack-girls) |
+| source-simplicius-as-grasp-on-power-and-narrative-slips-2026-03-14.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/as-grasp-on-power-and-narrative-slips) |
+
 ## Files
 
 - `source-alex-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md`

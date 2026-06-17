@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Lawrence Wilkerson` (1), `Martin Armstrong` (1), `Scott Ritter` (1)
 - Threads: `nima` (2), `armstrong` (1), `diesen` (1), `mercouris` (1), `ritter` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fFM7IXepD3A) |
+| Martin Armstrong | Dialogue Works | `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=F6I80aT36rs) |
+| Scott Ritter | — | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=SO05kKsi0w0) |
+| Lawrence Wilkerson | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=wSYcPidD5XY) |
+
 ## Files
 
 - `source-alex-mercouris-moscow-warns-kiev-west-sea-blockade-after-tanker-attacks-blames-macron-h-2025-12-03.md`

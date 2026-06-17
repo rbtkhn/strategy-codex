@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Lawrence Wilkerson` (1), `Matt Hoh` (1)
 - Threads: `davis` (1), `diesen` (1), `mercouris` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ijKk7UZjN6w) |
+| Matt Hoh | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=iLYX0O1iEoY) |
+| Lawrence Wilkerson | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=1E7pBHYby8w) |
+
 ## Files
 
 - `source-alex-mercouris-russias-strongest-strike-kiev-blackout-air-defence-fails-energy-collapse-moscow-pushes-to-dneiper-2025-10-10.md`

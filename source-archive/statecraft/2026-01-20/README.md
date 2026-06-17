@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Scott Ritter` (1)
 - Threads: `davis` (1), `freeman` (1), `mearsheimer` (1), `mercouris` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uoMt5q2mXzU) |
+| Chas Freeman | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=JXeWGaFIp3k) |
+| John J. Mearsheimer | — | `mearsheimer` | [watch](https://mearsheimer.substack.com/p/the-tag-team-fails-in-iran) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/getting-it-wrong-on-russia) |
+
 ## Files
 
 - `source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md`

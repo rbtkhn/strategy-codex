@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `davis` (2), `crooke` (1), `mercouris` (1), `pape` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9utwneVHO6s) |
+| Iran's Asymmetrical War /Alastair Crooke & Lt Col Daniel Davis | — | `davis`, `crooke` | — |
+| Iran War: Finishing the Job /Lt Col Daniel Davis | — | `davis` | — |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/strategic-briefings-iran-war-and) |
+
 ## Files
 
 - `source-alex-mercouris-russia-blamed-for-iran-missile-strikes-drones-smash-bases-ships-burn-in-2026-03-13.md`

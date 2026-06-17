@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `crooke` (1), `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Pa6nGPKXT_c) |
+| source-crooke-what-may-be-the-greenland-endgame-2026-01-21.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/what-may-be-the-greenland-endgame) |
+| source-simplicius-situation-goes-critical-as-kiev-begins-2026-01-21.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/situation-goes-critical-as-kiev-begins) |
+
 ## Files
 
 - `source-alex-mercouris-kiev-blackout-crisis-deepens-600k-kievans-leave-zelensky-cancels-davos-t-2026-01-21.md`

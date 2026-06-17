@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [GtqvH_zAFDw](https://www.youtube.com/watch?v=GtqvH_zAFDw) |
+| source-simplicius-disaster-operation-stone-age-begins-2026-04-04.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/disaster-operation-stone-age-begins) |
+
 ## Files
 
 - `source-alex-mercouris-iran-shoots-down-us-a10-hunts-f15-pilot-trump-sacks-more-generals-russia-2026-04-04.md`

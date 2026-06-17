@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1)
 - Threads: `diesen` (2), `crooke` (1), `freeman` (1), `mearsheimer` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=dcz8PeuTAps) |
+| source-crooke-irans-determination-to-breakout-from-2026-04-10.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/irans-determination-to-breakout-from) |
+| Chas Freeman | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=fFoKpqMTpq8) |
+| John Mearsheimer | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=H2K3qDshr70) |
+| Lawrence Wilkerson | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=jmXwmacMgi4) |
+
 ## Files
 
 - `source-alex-mercouris-russia-prepares-final-donbass-battle-uk-drops-plan-seize-russian-ships-h-2026-04-10.md`

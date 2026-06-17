@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jacques Baud` (1), `Jeffrey Sachs` (1)
 - Threads: `baud` (1), `mercouris` (1), `nima` (1), `sachs` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=pISn4n_CMZM) |
+| Jacques Baud | Dialogue Works | `baud`, `nima` | [3Q4PNfLiGv8](https://www.youtube.com/watch?v=3Q4PNfLiGv8) |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.jeffsachs.org/im-archive-by-date) |
+| source-simplicius-ukraine-suffers-unprecedented-nationwide-2026-02-02.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/ukraine-suffers-unprecedented-nationwide) |
+
 ## Files
 
 - `source-alex-mercouris-trump-backs-off-iran-attack-as-talks-begin-russia-seeks-kiev-regime-chan-2026-02-02.md`

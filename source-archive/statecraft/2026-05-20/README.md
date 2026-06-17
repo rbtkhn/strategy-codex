@@ -23,6 +23,23 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Dmitry Polyanskiy` (1), `Lawrence Wilkerson` (1), `Matthew Hoh` (1), `Max Blumenthal` (1), `Ray McGovern` (1), `Robert Pape` (1), `Scott Ritter` (1)
 - Threads: `nima` (3), `nawfal` (2), `blumenthal` (1), `crooke` (1), `diesen` (1), `freeman` (1), `hoh` (1), `mcgovern` (1), `mercouris` (1), `napolitano` (1), `pape` (1), `ritter` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Max Blumenthal | Judging Freedom | `blumenthal`, `napolitano` | [watch](https://www.youtube.com/watch?v=xJf5IWVpn_M) |
+| Alastair Crooke | — | `crooke` | [watch](https://conflictsforum.substack.com/p/paradoxically-fear-is-the-foundation) |
+| Dmitry Polyanskiy | Glenn Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=J5XTTBpVEds) |
+| Matthew Hoh | Dialogue Works | `hoh`, `nima` | [watch](https://www.youtube.com/watch?v=FeTkzRHdYBQ&t=657s) |
+| Chas Freeman | India and Global Left | `freeman` | [Thy3e6ququ8](https://www.youtube.com/watch?v=Thy3e6ququ8) |
+| Ray McGovern | Dialogue Works | `mcgovern`, `nima` | [watch](https://www.youtube.com/watch?v=X6ZR2lK6q2M) |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=vKfsWgXoMZk) |
+| Robert Pape | Mario Nawfal | `pape`, `nawfal` | [watch](https://www.youtube.com/watch?v=CzVzwODiEus) |
+| Scott Ritter | Dialogue Works | `ritter`, `nima` | [watch](https://www.youtube.com/watch?v=HB2XHtH5bok) |
+| Lawrence Wilkerson | Mario Nawfal | `wilkerson`, `nawfal` | [watch](https://www.youtube.com/watch?v=snTPsUfEiOg) |
+
 ## Files
 
 - `source-blumenthal-judging-freedom-us-consumers-paying-for-trump-s-war-2026-05-20.md`

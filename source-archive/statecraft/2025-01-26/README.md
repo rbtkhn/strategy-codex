@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1), `What Ukraine Lost in Battle CAN'T be Regained Negotiating w/Amb Chas Freeman` (1)
 - Threads: `davis` (1), `freeman` (1), `martyanov` (1), `mercouris` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1dXh4Y_OLyc) |
+| What Ukraine Lost in Battle CAN'T be Regained Negotiating w/Amb Chas Freeman | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=Bsk30tThKeU) |
+| Andrei Martyanov | Dialogue Works | `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=wx8APuZxMFc) |
+
 ## Files
 
 - `source-alex-mercouris-trump-kiev-wrong-to-reject-istanbul-agree-putin-terms-gaza-comment-shock-2025-01-26.md`

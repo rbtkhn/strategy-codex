@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1)
 - Threads: `mercouris` (2), `diesen` (1), `johnson` (1), `sachs` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=6kqD_urUtjA) |
+| Larry Johnson | Glenn Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=78osgairBb4) |
+| Alexander Mercouris | — | `mercouris` | [watch](https://www.youtube.com/watch?v=6kqD_urUtjA) |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.jeffsachs.org/im-archive-by-date) |
+| source-simplicius-anti-blockade-blockade-comes-into-2026-04-15.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/anti-blockade-blockade-comes-into) |
+
 ## Files
 
 - `source-alex-mercouris-russia-warns-us-will-intensify-iran-war-china-warns-navy-protect-china-o-2026-04-15.md`

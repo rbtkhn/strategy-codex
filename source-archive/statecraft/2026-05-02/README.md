@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (1)
 - Threads: `crooke` (1), `marandi` (1), `mercouris` (1), `nima` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uWJYIebZhOI) |
+| source-crooke-a-negotiated-settlement-for-a-sovereign-2026-05-02.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/a-negotiated-settlement-for-a-sovereign) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=2SO5aVzFUUE) |
+| Trita Parsi | — | `parsi` | [watch](https://www.msn.com/en-ie/news/other/trump-s-war-has-destroyed-the-illusion-of-us-military-supremacy/ar-AA22eCTo) |
+
 ## Files
 
 - `source-alex-mercouris-eu-kiev-crisis-us-stops-arms-deliveries-pulls-out-5000-troops-merz-floun-2026-05-02.md`

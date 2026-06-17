@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Larry C. Johnson` (1), `Lawrence Wilkerson` (1), `Trita Parsi` (1)
 - Threads: `nima` (2), `freeman` (1), `johnson` (1), `mercouris` (1), `parsi` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=UAZzPCgRHzM) |
+| Chas Freeman, Trita Parsi | Dialogue Works | `freeman`, `parsi`, `nima` | — |
+| Larry C. Johnson, Lawrence Wilkerson | Dialogue Works | `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=jPLIxYqR9kw) |
+
 ## Files
 
 - `source-alex-mercouris-kievs-pokrovsk-counterattacks-fail-huge-oreshnik-strike-damage-confirmed-putin-trump-go-to-alaska-2025-08-15.md`

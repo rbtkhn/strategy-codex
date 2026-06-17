@@ -23,6 +23,32 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (2), `Ritter` (2), `Alastair Crooke` (1), `Alex Krainer` (1), `Jacques Baud` (1), `Kyle Anzalone` (1), `Larry C. Johnson` (1), `Larry Johnson` (1), `Parsi` (1), `Paul Craig Roberts` (1), `Pepe Escobar` (1), `Ray McGovern` (1), `Scott Ritter` (1), `Trita Parsi` (1)
 - Threads: `napolitano` (6), `davis` (5), `dialogue-works` (3), `ritter` (3), `diesen` (2), `johnson` (2), `parsi` (2), `sachs` (2), `anzalone` (1), `baud` (1), `crooke` (1), `krainer` (1), `mcgovern` (1), `mercouris` (1), `pape` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=SpjDePIselg) |
+| Parsi | Daniel Davis Deep Dive | `davis`, `parsi` | [tiN37-mwA0A](https://www.youtube.com/watch?v=tiN37-mwA0A) |
+| Ritter | Daniel Davis Deep Dive | `davis`, `ritter` | [VNvP7Xp-bHo](https://www.youtube.com/watch?v=VNvP7Xp-bHo) |
+| Ritter | Daniel Davis Deep Dive | `davis`, `ritter` | [6TEMwwVwg8A](https://www.youtube.com/watch?v=6TEMwwVwg8A) |
+| Scott Ritter | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=SGX_sE7TkWw) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [54Y4DYRurwk](https://www.youtube.com/watch?v=54Y4DYRurwk) |
+| Jacques Baud | Dialogue Works | `dialogue-works`, `baud` | [LG53jJxWP_A](https://www.youtube.com/watch?v=LG53jJxWP_A) |
+| Paul Craig Roberts | — | `dialogue-works` | [1gy4eq8E1g8](https://www.youtube.com/watch?v=1gy4eq8E1g8) |
+| Pepe Escobar, Larry C. Johnson | Dialogue Works | `dialogue-works`, `johnson` | [7ROzzOkmHsY](https://www.youtube.com/watch?v=7ROzzOkmHsY) |
+| Alex Krainer | Glenn Diesen | `diesen`, `krainer` | [WzWBIS17aqY](https://www.youtube.com/watch?v=WzWBIS17aqY) |
+| Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [gmtJZvmOOes](https://www.youtube.com/watch?v=gmtJZvmOOes) |
+| Kyle Anzalone | — | `anzalone`, `napolitano` | [watch](https://www.youtube.com/watch?v=qwFatIERfpI) |
+| Alastair Crooke | Judging Freedom | `napolitano`, `crooke` | [MvGS6u-WcvM](https://www.youtube.com/watch?v=MvGS6u-WcvM) |
+| Larry Johnson | Judging Freedom | `napolitano`, `johnson` | [Ip-7CuiBIE0](https://www.youtube.com/watch?v=Ip-7CuiBIE0) |
+| Ray McGovern | Judging Freedom | `napolitano`, `mcgovern` | [PbiY9tyUZ2A](https://www.youtube.com/watch?v=PbiY9tyUZ2A) |
+| Trita Parsi | Judging Freedom | `napolitano`, `parsi` | [btfqR-LV7sk](https://www.youtube.com/watch?v=btfqR-LV7sk) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [1n0Lt1MExlw](https://www.youtube.com/watch?v=1n0Lt1MExlw) |
+| source-pape-irans-new-battlefield-the-global-2026-03-16.md | — | `pape` | [watch](https://escalationtrap.substack.com/p/irans-new-battlefield-the-global) |
+| source-simplicius-frustrated-by-failure-an-unhinged-2026-03-16.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/frustrated-by-failure-an-unhinged) |
+
 ## Files
 
 - `source-alex-mercouris-eu-won-t-join-iran-war-wants-moscow-talks-russia-says-no-throws-out-macr-2026-03-16.md`

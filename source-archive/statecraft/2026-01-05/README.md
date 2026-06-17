@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jiang Xueqin` (1), `Scott Ritter` (1)
 - Threads: `diesen` (1), `jiang` (1), `mercouris` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=woM2-TSxnoo) |
+| Jiang Xueqin | Glenn Diesen | `jiang`, `diesen` | [watch](https://www.youtube.com/watch?v=ORyCS0r2Tpg) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/the-sanctions-shield) |
+| source-simplicius-major-questions-finally-answered-2026-01-05.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/major-questions-finally-answered) |
+
 ## Files
 
 - `source-alex-mercouris-trump-threatens-rodriguez-says-venezuela-s-oil-ours-scorns-putin-drone-a-2026-01-05.md`

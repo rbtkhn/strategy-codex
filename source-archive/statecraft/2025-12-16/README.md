@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Lawrence Wilkerson` (1)
 - Threads: `freeman` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9-p8I4p07uE) |
+| Lawrence Wilkerson | — | `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=HgTMbRrchsM) |
+| Chas Freeman | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=n05ufH9BHjw) |
+
 ## Files
 
 - `source-alex-mercouris-russia-prepares-odessa-operation-eu-berlin-terms-rejected-mod-lifts-fog-2025-12-16.md`

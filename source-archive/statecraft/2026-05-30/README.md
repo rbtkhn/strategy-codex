@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Alex Krainer` (1), `Larry Johnson` (1), `Ray McGovern` (1), `Robert Barnes` (1), `Seyed M. Marandi` (1)
 - Threads: `diesen` (2), `nima` (2), `barnes` (1), `crooke` (1), `davis` (1), `johnson` (1), `krainer` (1), `marandi` (1), `mcgovern` (1), `mercouris` (1), `nawfal` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=eoJTnQ9vhT8) |
+| Robert Barnes | Daniel Davis Deep Dive | `davis`, `barnes` | [CHy-5UZLeXw](https://www.youtube.com/watch?v=CHy-5UZLeXw) |
+| Seyed M. Marandi | Dialogue Works | `marandi`, `nima` | [fku0svs5mgk](https://www.youtube.com/watch?v=fku0svs5mgk) |
+| Alastair Crooke | Glenn Diesen | `crooke`, `diesen` | [tOfXe6ry5UE](https://www.youtube.com/watch?v=tOfXe6ry5UE) |
+| Alex Krainer | Glenn Diesen | `krainer`, `diesen` | [Oo2hAdtEmso](https://www.youtube.com/watch?v=Oo2hAdtEmso) |
+| Ray McGovern | Dialogue Works | `mcgovern`, `nima` | [dYBIB3EH2sc](https://www.youtube.com/watch?v=dYBIB3EH2sc) |
+| Larry Johnson | Mario Nawfal | `johnson`, `nawfal` | [5jtUBd7QDR0](https://www.youtube.com/watch?v=5jtUBd7QDR0) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-fears-new-big-russian-kiev-strike-kiev-s-drone-offensive-against-russia-fails-crimea-fuel-2026-05-30.md`

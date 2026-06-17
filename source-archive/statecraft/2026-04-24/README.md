@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas W. Freeman` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Robert Barnes` (1), `Victor Gao` (1)
 - Threads: `mercouris` (2), `nima` (2), `barnes` (1), `carlson` (1), `davis` (1), `freeman` (1), `gao` (1), `johnson` (1), `pape` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=LmJWmgtsaps) |
+| Robert Barnes | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=Pcd4tM5ai6o) |
+| Larry Johnson | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=OOSWi1usPB4) |
+| Victor Gao | Danny Haiphong (YouTube) | `gao` | — |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=LmJWmgtsaps) |
+| Chas W. Freeman | Dialogue Works | `freeman`, `nima` | [watch](https://www.youtube.com/watch?v=fie-q0V82_E) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/2-blockades-2-clocks-why-neither) |
+| Jeffrey Sachs | Tucker Carlson | `carlson`, `sachs` | — |
+
 ## Files
 
 - `source-alex-mercouris-russian-mod-iran-hail-joint-alliance-iran-denies-leadership-split-zelens-2026-04-24.md`

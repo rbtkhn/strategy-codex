@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Jacques Baud` (1), `John Mearsheimer` (1)
 - Threads: `diesen` (2), `mercouris` (2), `baud` (1), `mearsheimer` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Ln8XdhPw3Co) |
+| John Mearsheimer, Alexander Mercouris | — | `diesen`, `mearsheimer`, `mercouris` | [watch](https://www.youtube.com/watch?v=AeV3EH8b6Wo) |
+| Jacques Baud | Glenn Diesen | `diesen`, `baud` | [watch](https://www.youtube.com/watch?v=Fp-h0EoT-QI) |
+
 ## Files
 
 - `source-alex-mercouris-moscow-forces-2nd-istanbul-round-makes-huge-demands-to-us-on-nato-taurus-strikes-on-moscow-coming-2025-05-29.md`

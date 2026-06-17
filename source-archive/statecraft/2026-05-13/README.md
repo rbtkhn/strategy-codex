@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (2), `Alastair Crooke` (1), `Laith Marouf` (1), `Scott Ritter` (1)
 - Threads: `nima` (3), `davis` (2), `mearsheimer` (2), `crooke` (1), `pape` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alastair Crooke | Dialogue Works | `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=IUeHkLFFpEI) |
+| Laith Marouf | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=k7tTpifRpNE) |
+| John Mearsheimer | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=QCUzMPfGuZY) |
+| John Mearsheimer | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=hxa3clYm65o) |
+| Scott Ritter | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=euTjsj7OonU) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/with-china-its-getting-late-early) |
+
 ## Files
 
 - `source-alkorshid-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md`

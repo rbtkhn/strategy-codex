@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1), `Jeffrey Sachs` (1), `Seyed Marandi` (1), `Stanislav Krapivnik` (1)
 - Threads: `mercouris` (2), `davis` (1), `diesen` (1), `krapivnik` (1), `marandi` (1), `martyanov` (1), `nima` (1), `pape` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Andrei Martyanov | Dialogue Works | `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=TzcZkm0curU) |
+| Stanislav Krapivnik | Diesen | `diesen`, `krapivnik` | [watch](https://www.youtube.com/watch?v=ir8ZaqdhAB8) |
+| Seyed Marandi | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=rUPQtvf4Z8E) |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Bukq0oTYlKY) |
+| Jeffrey Sachs | The Duran | `mercouris`, `sachs` | [0Ib4NPabrgE](https://www.youtube.com/watch?v=0Ib4NPabrgE) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-gulf-states-just-voted-on-american) |
+
 ## Files
 
 - `source-alkorshid-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07.md`

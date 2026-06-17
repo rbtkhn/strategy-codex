@@ -23,6 +23,28 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alex Krainer` (1), `Andrei Martyanov` (1), `Douglas Macgregor` (1), `Jacques Baud` (1), `Joe Kent` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1), `Max Blumenthal` (1), `Mohammad Marandi` (1), `Robert Barnes` (1), `Robert Pape` (1), `Scott Ritter` (1), `Trita Parsi` (1)
 - Threads: `napolitano` (4), `nawfal` (3), `davis` (2), `nima` (2), `barnes` (1), `baud` (1), `blumenthal` (1), `crooke` (1), `kent` (1), `krainer` (1), `macgregor` (1), `marandi` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `parsi` (1), `ritter` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=OvxXwYAqlu4&t=4843s) |
+| Robert Barnes | Mario Nawfal | `barnes`, `nawfal` | [watch](https://www.youtube.com/watch?v=NPSRkimwbIQ) |
+| Alastair Crooke | — | `crooke` | [watch](https://conflictsforum.substack.com/p/iran-war-effect-marks-the-resetting) |
+| Jacques Baud | Daniel Davis Deep Dive | `baud`, `davis` | — |
+| John Mearsheimer | Daniel Davis Deep Dive | `mearsheimer`, `davis` | — |
+| Alex Krainer | Dialogue Works | `krainer`, `nima` | [watch](https://www.youtube.com/watch?v=8ELGP4iroAg) |
+| Andrei Martyanov | Dialogue Works | `martyanov`, `nima` | [watch](https://www.youtube.com/watch?v=g_h7pvyO2Fs) |
+| Scott Ritter | Garland Nixon | `ritter` | [watch](https://www.youtube.com/watch?v=ouQIIqiLqOM) |
+| Max Blumenthal | Judging Freedom | `blumenthal`, `napolitano` | [watch](https://www.youtube.com/watch?v=oCMxJGVoT_M) |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=--BJXEtpXEQ) |
+| Mohammad Marandi | Judging Freedom | `marandi`, `napolitano` | [Cs9lmF9-Olc](https://www.youtube.com/watch?v=Cs9lmF9-Olc) |
+| Lawrence Wilkerson | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=cbAjV-mAZCU) |
+| Joe Kent | Mario Nawfal | `kent`, `nawfal` | [watch](https://www.youtube.com/watch?v=pwT2ipwrUJs) |
+| Trita Parsi | Mario Nawfal | `parsi`, `nawfal` | [watch](https://www.youtube.com/watch?v=aM0_O97UwrM) |
+| Robert Pape | Switzerland with Tom Switzer | `pape` | [watch](https://www.youtube.com/watch?v=cWmuMnJLPnM) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md`

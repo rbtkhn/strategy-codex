@@ -62,3 +62,21 @@ When they do:
 - state explicitly when the filename is compatibility residue rather than current doctrine
 
 The file path may stay old. The system's thinking should not.
+
+## Archive inventory vs voice source bench
+
+Use **different surface classes** on opposite sides of the archive ↔ synthesis membrane. Do not call both a **source index**.
+
+| Layer | Surface class | Surface name | Surface role | Interior grain |
+| --- | --- | --- | --- | --- |
+| Archive | Day inventory | `YYYY-MM-DD/README.md` | day archive inventory | stats, rollups, file list |
+| Archive | Ingest register | `## Ingest register` (day README section) | ingest register | one row per land; YouTube |
+| Archive | Month rollup | `YYYY-MM.md` | month archive rollup | one row per **day** |
+| Archive | Thread rollup | `thread-index.md` | thread rollup | one row per `thread` slug |
+| Synthesis | Source bench | `{speaker}-source-index.md` | voice source bench | curated archive anchors |
+
+Navigation chain in prose:
+
+`month rollup → day inventory → ingest register → source-*.md` → (promotion) → `voice source bench`
+
+Rebuild SSOT after lands: `python3 scripts/refresh_statecraft_archive_indices.py` (day + month + year + thread + stale audit).

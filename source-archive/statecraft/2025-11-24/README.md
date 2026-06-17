@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1), `Larry Johnson` (1)
 - Threads: `napolitano` (2), `johnson` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Larry Johnson | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=OJsrJhA0mTw) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=0nfBJGatAhM') |
+
 ## Files
 
 - `source-napolitano-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md`

@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Ray McGovern` (1), `Scott Ritter` (1)
 - Threads: `mercouris` (2), `davis` (1), `diesen` (1), `mcgovern` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [dL2NsBX8RCg](https://www.youtube.com/watch?v=dL2NsBX8RCg) |
+| Scott Ritter | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=1ieO54XH7a4) |
+| Alexander Mercouris | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-2026-04-05) |
+| Ray McGovern | — | `diesen`, `mcgovern` | [watch](https://www.youtube.com/watch?v=J7JDMRg_rJ4) |
+| source-simplicius-its-official-us-boots-on-ground-deep-2026-04-05.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/its-official-us-boots-on-ground-deep) |
+
 ## Files
 
 - `source-alex-mercouris-iran-destroys-multiple-us-aircraft-us-rescues-f15-pilot-us-readies-huge-2026-04-05.md`

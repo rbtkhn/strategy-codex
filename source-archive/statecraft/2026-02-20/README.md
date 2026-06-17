@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Russia Iran Fleets Conduct Hormuz Exercise Trump Delays Strike` (1), `Scott Ritter` (1)
 - Threads: `crooke` (1), `mearsheimer` (1), `mercouris` (1), `nima` (1), `parsi` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Russia Iran Fleets Conduct Hormuz Exercise Trump Delays Strike | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jjrtybAxnc4) |
+| Alastair Crooke | Dialogue Works | `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=rSvsMr-wnq0) |
+| John J. Mearsheimer | — | `mearsheimer` | [watch](https://www.antiwar.com/blog/2026/02/20/john-mearsheimer-asks-is-a-peace-deal-in-ukraine-possible/) |
+| Trita Parsi | — | `parsi` | [watch](https://substack.com/@tritaparsi/p-188632046) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/dead-at-27) |
+
 ## Files
 
 - `source-alex-mercouris-russia-iran-fleets-conduct-hormuz-exercise-trump-delays-strike-moscow-sa-2026-02-20.md`

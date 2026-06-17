@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1)
 - Threads: `diesen` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=0tqxM1yKn6s) |
+| John Mearsheimer | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=vx1KnspP1gM) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-smart-bomb-trap) |
+| source-simplicius-as-russias-smo-heads-into-its-fifth-2026-02-25.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/as-russias-smo-heads-into-its-fifth) |
+
 ## Files
 
 - `source-alex-mercouris-putin-says-kiev-plans-black-sea-pipeline-attack-gives-west-nuclear-warni-2026-02-25.md`

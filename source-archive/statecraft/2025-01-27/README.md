@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Ukraine Russia War MILITARY UPDATE / Lt. Col Daniel Davis` (1)
 - Threads: `davis` (2)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Ukraine Russia War MILITARY UPDATE / Lt. Col Daniel Davis | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=K2v-hTmxCCQ) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=QcUaqhi0W6E) |
+
 ## Files
 
 - `source-daniel-davis-deep-dive-ukraine-russia-war-military-update-lt-col-daniel-davis-2025-01-27.md`

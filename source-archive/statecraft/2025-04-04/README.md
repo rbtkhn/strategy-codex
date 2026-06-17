@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (2), `Lawrence Wilkerson` (1), `Mohammad Marandi` (1)
 - Threads: `freeman` (2), `diesen` (1), `marandi` (1), `mercouris` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=AYxWAZSY1Zc) |
+| Mohammad Marandi, Lawrence Wilkerson, Chas Freeman | Dialogue Works | `freeman`, `marandi`, `wilkerson` | [watch](https://www.youtube.com/watch?v=h0dO3SaM37s) |
+| Chas Freeman | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=dmxYhi5cxZ0) |
+
 ## Files
 
 - `source-alex-mercouris-kievs-toretsk-disaster-russias-advances-all-fronts-eu-panic-to-speak-to-putin-china-hits-back-2025-04-04.md`

@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Charles Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1)
 - Threads: `davis` (1), `freeman` (1), `macgregor` (1), `napolitano` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=xO7XmhssQ28) |
+| Charles Freeman | Judging Freedom | `freeman`, `napolitano` | — |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.jeffsachs.org/im-archive-by-date) |
+
 ## Files
 
 - `source-davis-macgregor-zelensky-obstructing-peace-2025-02-18.md`

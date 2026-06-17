@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1), `Charles Freeman` (1), `Jeffrey Sachs` (1)
 - Threads: `diesen` (1), `freeman` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=BxTvdJ0fECM) |
+| Andrei Martyanov | — | `diesen`, `martyanov` | [watch](https://www.youtube.com/watch?v=VT43w4T8wF4) |
+| Charles Freeman | Judging Freedom | `freeman`, `napolitano` | — |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.jeffsachs.org/rl-archive-by-date) |
+
 ## Files
 
 - `source-alex-mercouris-china-us-economic-war-beijing-defiant-kiev-troops-lose-retreat-all-fronts-us-pulls-out-of-key-base-2025-04-08.md`

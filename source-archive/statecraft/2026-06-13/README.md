@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1), `Sergey Karaganov` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1)
 - Threads: `davis` (2), `diesen` (2), `jiang` (1), `karaganov` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1), `nima` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [Lg5cWw3gvk8](https://www.youtube.com/watch?v=Lg5cWw3gvk8) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [_3iHaKgppTg](https://www.youtube.com/watch?v=_3iHaKgppTg) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [R0-0SB0DATU](https://www.youtube.com/watch?v=R0-0SB0DATU) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [OKpzUEn5U9A](https://www.youtube.com/watch?v=OKpzUEn5U9A) |
+| John Mearsheimer, Sergey Karaganov | Glenn Diesen | `karaganov`, `diesen`, `mearsheimer` | [Q8PT0jiemKc](https://www.youtube.com/watch?v=Q8PT0jiemKc) |
+| Trita Parsi | Glenn Diesen | `parsi`, `diesen` | [JuWnqnN3lpk](https://www.youtube.com/watch?v=JuWnqnN3lpk) |
+| Predictive History | — | `jiang` | [watch](https://predictivehistory.substack.com/p/welcome-to-boomer-hell) |
+
 ## Files
 
 - `source-alex-mercouris-putin-meets-military-warns-west-drone-dominance-victory-us-china-trap-2026-06-13.md`

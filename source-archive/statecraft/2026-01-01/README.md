@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (2)
 - Threads: `martyanov` (2), `nima` (2)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Andrei Martyanov | Dialogue Works | `martyanov`, `nima` | [9zqRNDWkiGU](https://www.youtube.com/watch?v=9zqRNDWkiGU) |
+| Andrei Martyanov | Dialogue Works | `martyanov`, `nima` | [9zqRNDWkiGU](https://www.youtube.com/watch?v=9zqRNDWkiGU) |
+
 ## Files
 
 - `source-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleaned-2026-01-01.md`

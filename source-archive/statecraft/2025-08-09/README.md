@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lRNoanm9DGE) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-excluded-trump-putin-talks-us-floats-donbass-surrender-kiev-uk-eu-rage-pokrovsk-collapse-2025-08-09.md`

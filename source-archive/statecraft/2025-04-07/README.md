@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1)
 - Threads: `diesen` (1), `mercouris` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=h8O2dRKBLEw) |
+| Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [CQ5FbkRVB38](https://www.youtube.com/watch?v=CQ5FbkRVB38) |
+
 ## Files
 
 - `source-alex-mercouris-eu-chaos-on-tariffs-scared-leaders-ukraine-mania-no-plan-afd-surges-big-russian-breakthroughs-2025-04-07.md`

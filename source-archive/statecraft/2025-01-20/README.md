@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Trump 2.0 Launches a Blizzard of ExecOrders` (1)
 - Threads: `davis` (2), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=FerlWCEP3AM) |
+| Trump 2.0 Launches a Blizzard of ExecOrders | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=cPwcothN9tI) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=-M4iMZGaMH4) |
+
 ## Files
 
 - `source-alex-mercouris-trump-president-biden-blinken-exit-russia-china-summits-zelensky-fumes-s-2025-01-20.md`

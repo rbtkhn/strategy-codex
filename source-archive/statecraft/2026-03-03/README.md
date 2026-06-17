@@ -23,6 +23,25 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Lawrence Wilkerson` (1), `Mohammad Marandi` (1), `Patrick Henningsen` (1), `Seyed M. Marandi` (1)
 - Threads: `davis` (3), `marandi` (2), `napolitano` (2), `crooke` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `mercouris` (1), `pape` (1), `sachs` (1), `simplicius` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=p2kBG8i_Knw) |
+| source-crooke-if-iran-survives-and-stays-steadfast-2026-03-03.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/if-iran-survives-and-stays-steadfast) |
+| Patrick Henningsen | Daniel Davis Deep Dive | `davis` | — |
+| Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | — |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | — |
+| Lawrence Wilkerson | Dialogue Works | `wilkerson` | [VSM5yjbYrbY](https://www.youtube.com/watch?v=VSM5yjbYrbY) |
+| Mohammad Marandi | Dialogue Works | `marandi` | [EhBb6F7tPps](https://www.youtube.com/watch?v=EhBb6F7tPps) |
+| Seyed M. Marandi | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=IZFVTfNQjnA) |
+| Chas Freeman | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=EbzgbnxtCzU) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom') |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-air-power-illusion) |
+| source-simplicius-us-suffers-worst-day-of-air-losses-2026-03-03.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/us-suffers-worst-day-of-air-losses) |
+
 ## Files
 
 - `source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md`

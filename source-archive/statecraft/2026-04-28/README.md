@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Lawrence Wilkerson` (2), `Chas Freeman` (1), `John Helmer` (1), `John Mearsheimer` (1), `Seyed Mohammad Marandi` (1)
 - Threads: `nima` (3), `napolitano` (2), `wilkerson` (2), `diesen` (1), `freeman` (1), `marandi` (1), `mearsheimer` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| John Helmer | — | `nima` | [watch](https://www.youtube.com/watch?v=HfIxqx3QAVE) |
+| Lawrence Wilkerson | Dialogue Works | `nima`, `wilkerson` | [786X0CXFctA](https://www.youtube.com/watch?v=786X0CXFctA) |
+| Lawrence Wilkerson | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=h19ssmpSIEE) |
+| Seyed Mohammad Marandi | Dialogue Works | `marandi`, `nima` | — |
+| Chas Freeman | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=7hRlKqCWRl8) |
+| John Mearsheimer | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=VHXJxEU7Ses) |
+
 ## Files
 
 - `source-alkorshid-helmer-middle-east-unthinkable-iran-play-2026-04-28.md`

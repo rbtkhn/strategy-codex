@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Charles Freeman` (1)
 - Threads: `freeman` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Charles Freeman | Judging Freedom | `freeman`, `napolitano` | — |
+
 ## Files
 
 - `source-napolitano-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md`

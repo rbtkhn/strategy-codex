@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Jeffrey Sachs` (1), `Lawrence Wilkerson` (1)
 - Threads: `diesen` (2), `crooke` (1), `nima` (1), `sachs` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alastair Crooke | — | `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=bYv-ZMKkGCo) |
+| Jeffrey Sachs | Glenn Diesen - Greater Eurasia Podcast | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=v4B3hEUjVMY) |
+| Lawrence Wilkerson | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=ux2POu7Q4rc) |
+
 ## Files
 
 - `source-dialogue-works-alastair-crooke-alastair-crooke-two-fronts-no-escape-collapse-is-spreading-fast-2025-07-30.md`

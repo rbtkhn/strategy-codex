@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (3)
 - Threads: `macgregor` (3), `davis` (1), `johnson` (1), `mercouris` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_xkR1oV-KfY) |
+| Douglas Macgregor | Daniel Davis Deep Dive | `macgregor`, `davis` | [watch](https://youtu.be/EtSKGuDtVh4) |
+| Douglas Macgregor | Counter Currents | `macgregor`, `johnson` | [watch](https://youtu.be/aF-DZREijN8) |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=Xw85_UYjHbU) |
+
 ## Files
 
 - `source-alex-mercouris-europe-leaders-furious-as-trump-backs-putin-rejects-sanctions-supports-istanbul-talks-starmer-out-2025-05-20.md`

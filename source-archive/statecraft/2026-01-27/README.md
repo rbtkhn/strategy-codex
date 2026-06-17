@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1), `Scott Ritter` (1)
 - Threads: `diesen` (1), `mercouris` (1), `napolitano` (1), `ritter` (1), `sachs` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=H86Rw10HLF4) |
+| Scott Ritter | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=rYpPsDXV0o4) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/category/Judging%2BFreedom') |
+| source-simplicius-mark-carneys-watershed-davos-speech-2026-01-27.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/mark-carneys-watershed-davos-speech) |
+
 ## Files
 
 - `source-alex-mercouris-eu-bans-all-russian-gas-imports-denies-hungary-veto-furious-orban-fico-s-2026-01-27.md`

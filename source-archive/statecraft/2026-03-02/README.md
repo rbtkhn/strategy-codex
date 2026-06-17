@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Douglas Macgregor` (1), `Jacques Baud` (1), `Larry C. Johnson` (1), `Pepe Escobar` (1)
 - Threads: `diesen` (2), `baud` (1), `crooke` (1), `davis` (1), `johnson` (1), `macgregor` (1), `mercouris` (1), `pape` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [U38TpH8cPek](https://www.youtube.com/watch?v=U38TpH8cPek) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | — |
+| Jacques Baud | Dialogue Works | `baud` | [0HZWfVt_Pjg](https://www.youtube.com/watch?v=0HZWfVt_Pjg) |
+| Pepe Escobar, Larry C. Johnson | Dialogue Works | `johnson` | [X-MhSSLDibM](https://www.youtube.com/watch?v=X-MhSSLDibM) |
+| Alastair Crooke | Glenn Diesen | `diesen`, `crooke` | [AknMi7th6Uo](https://www.youtube.com/watch?v=AknMi7th6Uo) |
+| Douglas Macgregor | Glenn Diesen | `diesen`, `macgregor` | [yd_uJiRcl0Q](https://www.youtube.com/watch?v=yd_uJiRcl0Q) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-escalation-ledger-iran-day-3) |
+
 ## Files
 
 - `source-alex-mercouris-iran-no-as-trump-begs-talks-plans-long-war-us-losses-mount-oil-gas-price-2026-03-02.md`

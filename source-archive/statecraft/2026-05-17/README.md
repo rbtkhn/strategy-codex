@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Brandon J. Weichert` (1)
 - Threads: `mercouris` (1), `nawfal` (1), `weichert` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [1hBvMSLYviA](https://www.youtube.com/watch?v=1hBvMSLYviA) |
+| Brandon J. Weichert | Mario Nawfal | `weichert`, `nawfal` | [ukcJlJ6cpNY](https://www.youtube.com/watch?v=ukcJlJ6cpNY) |
+
 ## Files
 
 - `source-alex-mercouris-russia-moldova-decree-stuns-eu-assembles-belarus-force-brushes-off-zelen-2026-05-17.md`

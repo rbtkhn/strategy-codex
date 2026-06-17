@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `George Beebe` (1), `Larry Johnson` (1)
 - Threads: `diesen` (2), `beebe` (1), `johnson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| George Beebe | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=Ag-THKz5SQQ) |
+| Larry Johnson | — | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=xboOK9hCypA) |
+
 ## Files
 
 - `source-glenn-diesen-george-beebe-ending-nato-expansion-is-required-for-peace-in-ukraine-2025-07-22.md`

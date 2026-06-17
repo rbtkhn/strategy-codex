@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry Johnson` (1), `Seyed M. Marandi` (1)
 - Threads: `davis` (2), `pape` (2), `johnson` (1), `marandi` (1), `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MLOfpI_5b_o) |
+| Larry Johnson | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=tLlaKzFZnvw) |
+| Seyed M. Marandi | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=md19Gqupdu4) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-first-move-has-begun) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/within-10-days-shortages-are-already) |
+| source-simplicius-left-with-nothing-but-gimmicks-trump-2026-04-22.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/left-with-nothing-but-gimmicks-trump) |
+
 ## Files
 
 - `source-alex-mercouris-iran-scents-victory-as-trump-backs-off-extends-ceasefire-putin-hard-line-2026-04-22.md`

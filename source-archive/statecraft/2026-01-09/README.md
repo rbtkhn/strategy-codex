@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Scott Ritter` (1)
 - Threads: `mercouris` (2), `davis` (1), `parsi` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Tn7BGPdzU9g) |
+| Alexander Mercouris | Daniel Davis Deep Dive | `davis`, `mercouris` | [watch](TBD) |
+| Trita Parsi | — | `parsi` | [watch](https://responsiblestatecraft.org/trump-iran-protests/) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/the-camels-bloody-nose) |
+| source-simplicius-swift-retaliation-putin-launches-2026-01-09.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/swift-retaliation-putin-launches) |
+
 ## Files
 
 - `source-alex-mercouris-oreshnik-strikes-giant-ukraine-gas-plant-mayor-urges-kiev-residents-go-b-2026-01-09.md`

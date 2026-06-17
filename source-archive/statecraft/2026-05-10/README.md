@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Patrick Henningsen` (1), `Scott Ritter` (1), `Sergey Karaganov` (1), `Seyed M. Marandi` (1), `Stanislav Krapivnik` (1)
 - Threads: `mercouris` (2), `christoforou` (1), `davis` (1), `diesen` (1), `karaganov` (1), `krapivnik` (1), `marandi` (1), `nima` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=4YnCu_xC4rQ) |
+| Stanislav Krapivnik | The Duran | `mercouris`, `christoforou`, `krapivnik` | [watch](https://www.youtube.com/watch?v=sNkFbQZnKG0) |
+| Seyed M. Marandi | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=2dBcaSFuPUg) |
+| Sergey Karaganov | Glenn Diesen | `diesen`, `karaganov` | [watch](https://www.youtube.com/watch?v=2Gd5jdl36cg) |
+| Patrick Henningsen | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=HcCJpGh9M54) |
+| Scott Ritter | Let's Talk Geopolitics | `ritter` | [watch](https://www.youtube.com/watch?v=-idI5zKO1M8) |
+
 ## Files
 
 - `source-alex-mercouris-putin-press-conference-britain-germany-ukraine-hormuz-2026-05-10.md`

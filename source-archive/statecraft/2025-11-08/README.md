@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1)
 - Threads: `diesen` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=73jqtNqjwcw) |
+
 ## Files
 
 - `source-glenn-diesen-jeffrey-sachs-venezuela-regime-change-oil-and-gangster-politics-2025-11-08.md`

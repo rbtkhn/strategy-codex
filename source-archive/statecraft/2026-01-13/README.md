@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2), `Jeffrey Sachs` (1), `Robert Barnes` (1)
 - Threads: `mercouris` (2), `ritter` (2), `barnes` (1), `diesen` (1), `sachs` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zfNRnlwcXYU) |
+| Scott Ritter | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=zH5xP8GSArg) |
+| Robert Barnes | The Duran | `mercouris`, `barnes` | [watch](https://www.youtube.com/watch?v=O3tOyjSUs0M) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/loosing-the-republic) |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.jeffsachs.org/im-archive-by-date) |
+| source-simplicius-ukraines-power-grid-woes-worsen-new-2026-01-13.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/ukraines-power-grid-woes-worsen-new) |
+
 ## Files
 
 - `source-alex-mercouris-russia-helps-iran-jam-starlink-ending-protests-trump-hits-brics-25-iran-2026-01-13.md`

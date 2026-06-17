@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Larry Johnson` (1)
 - Threads: `diesen` (2), `mercouris` (2), `johnson` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=gFQAA6kqG0Q) |
+| Alexander Mercouris | Glenn Diesen | `diesen`, `mercouris` | [watch](https://youtu.be/Pp3W7gDJh1Y) |
+| Larry Johnson | Glenn Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=ltx8vYwChvo) |
+| source-simplicius-whipsaw-effect-trump-again-signals-2026-03-21.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/whipsaw-effect-trump-again-signals) |
+
 ## Files
 
 - `source-alex-mercouris-iran-strikes-diego-garcia-putin-tells-iran-russia-loyal-ally-reports-ira-2026-03-21.md`

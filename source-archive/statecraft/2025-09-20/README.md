@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Anatol Lieven` (1), `Michael Hudson` (1)
 - Threads: `diesen` (2), `glenn-diesen` (2), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ASJAgbAfNwg) |
+| Anatol Lieven | Glenn Diesen | `glenn-diesen`, `diesen` | [watch](https://www.youtube.com/watch?v=GD76MKrFJF0) |
+| Michael Hudson | Glenn Diesen | `glenn-diesen`, `diesen` | [watch](https://www.youtube.com/watch?v=PCDcpc2UNTE) |
+
 ## Files
 
 - `source-alex-mercouris-russian-migs-scare-nato-us-again-halts-patriots-syrsky-told-pokrovsk-to-fall-iran-crisis-un-vote-2025-09-20.md`

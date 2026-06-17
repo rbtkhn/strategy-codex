@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1)
 - Threads: `mearsheimer` (1), `mercouris` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=aVt70aKH8KM) |
+| John Mearsheimer | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=k3ioQHvJrcs) |
+
 ## Files
 
 - `source-alex-mercouris-eu-rages-backs-zelensky-no-to-kellogg-plan-wants-crimea-in-ukraine-kiev-in-nato-trump-dithers-2025-04-24.md`

@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Anthony Aguilar` (1), `Chas Freeman` (1), `George Beebe` (1), `John Kiriakou` (1), `Martin Armstrong` (1)
 - Threads: `mercouris` (2), `nima` (2), `aguilar` (1), `armstrong` (1), `beebe` (1), `diesen` (1), `freeman` (1), `kiriakou` (1), `pape` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=HQyttm7M-oE) |
+| Chas Freeman | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=Vt84YYBocq0) |
+| Martin Armstrong | Dialogue Works | `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=1TUEY_XBD30) |
+| George Beebe | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=pGWNs7aNGHE) |
+| John Kiriakou, Anthony Aguilar | — | `kiriakou`, `aguilar` | [watch](https://www.youtube.com/watch?v=DuZALiYzcmA) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/from-kosovo-to-iran-the-smart-bomb) |
+| source-simplicius-iran-calls-trumps-bluff-as-deep-state-2026-02-27.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/iran-calls-trumps-bluff-as-deep-state) |
+| Alexander Mercouris | — | `mercouris` | [watch](https://www.youtube.com/watch?v=HQyttm7M-oE) |
+
 ## Files
 
 - `source-alex-mercouris-us-iran-talks-fail-embassies-evacuated-attack-imminent-konstaninovka-def-2026-02-27.md`

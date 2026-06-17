@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1)
 - Threads: `crooke` (1), `martyanov` (1), `mercouris` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=DuOP68rBeLc) |
+| source-crooke-gaza-reconstruction-ukraine-reconstruction-2026-01-28.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/gaza-reconstruction-ukraine-reconstruction) |
+| Andrei Martyanov | Dialogue Works | `martyanov`, `nima` | [PB6wU2l1wv8](https://www.youtube.com/watch?v=PB6wU2l1wv8) |
+
 ## Files
 
 - `source-alex-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md`

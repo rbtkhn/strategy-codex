@@ -17,9 +17,11 @@ Use this tree for source-bearing captures only. Route control, bridge, continuit
 
 **Intake queue (derived):** After land, run `python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD` to see which captures are not yet in daily synthesis. Sidecar metadata lives under `artifacts/statecraft-intake-queue/` — spec: [docs/statecraft-intake-queue.md](../../docs/statecraft-intake-queue.md).
 
-Dated day folders may also contain generated local `README.md` inventory indices. These are derived navigation aids, not source captures.
-Generated month indices now live at `source-archive/statecraft/YYYY-MM.md`. These are derived navigation aids, not source captures.
-Generated year indices now live at `source-archive/statecraft/YYYY.md`. Thread and staleness navigation also live at the archive root as derived indices.
+Dated day folders may also contain generated local `README.md` **day archive inventory** notes (including an **Ingest register** section — one row per land; not the synthesis-side speaker **source bench**). These are derived navigation aids, not source captures.
+Generated **month archive rollups** live at `source-archive/statecraft/YYYY-MM.md`. Drill down via each day's README ingest register. These are derived navigation aids, not source captures.
+Generated year indices now live at `source-archive/statecraft/YYYY.md`. **Thread rollup** and staleness navigation also live at the archive root as derived indices.
+
+After lands, rebuild all archive navigation indices with `python3 scripts/refresh_statecraft_archive_indices.py` (or `post_land_statecraft_batch.py --day YYYY-MM-DD --sync-daily YYYY-MM-DD`). Vocabulary: [Speaker-Shelf Vocabulary — Archive inventory vs voice source bench](../../statecraft/voices/speaker-shelf-vocabulary.md#archive-inventory-vs-voice-source-bench).
 
 Useful indices:
 

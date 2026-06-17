@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Austin v. Hegseth` (1), `Breaking` (1), `Gaza Ceasefire/Hostage Deal in the Works` (1), `Hegseth` (1)
 - Threads: `davis` (3), `mercouris` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=5rfL50lir0g) |
+| Austin v. Hegseth | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=3mueAlDch2U) |
+| Gaza Ceasefire/Hostage Deal in the Works | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=SaRwAF4XuZs) |
+| Hegseth | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=G9O4Ie_aaGM) |
+| Breaking | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=DM1Ju_xQhlI) |
+
 ## Files
 
 - `source-alex-mercouris-us-israel-rift-deepens-trump-gaza-pressure-shocks-bibi-patrushev-no-more-2025-01-15.md`

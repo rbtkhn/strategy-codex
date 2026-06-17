@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nC74aFEuxmc) |
+
 ## Files
 
 - `source-alex-mercouris-putin-no-to-us-ultimatum-on-ukraine-witkoff-us-must-accept-moscows-terms-kellogg-backs-starmer-2025-04-12.md`

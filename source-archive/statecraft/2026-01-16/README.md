@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2), `Putin New Demand As Kiev Collapses` (1)
 - Threads: `ritter` (2), `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Putin New Demand As Kiev Collapses | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=kW7bmXLmNp4) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/back-to-the-future) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/reflections-on-a-war) |
+| source-simplicius-sitrep-11526-winter-break-over-russian-2026-01-16.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/sitrep-11526-winter-break-over-russian) |
+
 ## Files
 
 - `source-alex-mercouris-putin-new-demand-as-kiev-collapses-nato-expansion-must-be-reversed-eu-in-2026-01-16.md`

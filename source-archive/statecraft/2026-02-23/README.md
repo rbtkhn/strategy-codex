@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jacques Baud` (1), `Larry Johnson` (1), `Scott Ritter` (1)
 - Threads: `napolitano` (2), `baud` (1), `johnson` (1), `mercouris` (1), `nima` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Y3rew0LRHU0) |
+| Jacques Baud | Dialogue Works | `baud`, `nima` | [A9NGwk5h7BI](https://www.youtube.com/watch?v=A9NGwk5h7BI) |
+| Larry Johnson | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=XryaNgJw0Jo) |
+| Scott Ritter | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=XzvbRHd57EU) |
+| source-simplicius-the-strategic-dilemma-at-the-heart-2026-02-23.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/the-strategic-dilemma-at-the-heart) |
+
 ## Files
 
 - `source-alex-mercouris-iran-debacle-us-military-intel-chiefs-doubt-success-russia-nato-naval-wa-2026-02-23.md`

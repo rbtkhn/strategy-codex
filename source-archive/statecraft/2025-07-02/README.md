@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry Johnson` (1)
 - Threads: `diesen` (1), `johnson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Larry Johnson | — | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=GUjckivz8S4) |
+
 ## Files
 
 - `source-glenn-diesen-larry-johnson-larry-johnson-extensive-damage-to-israel-s-defense-industry-economy-2025-07-02.md`

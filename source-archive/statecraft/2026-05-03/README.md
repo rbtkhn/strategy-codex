@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `pape` (1), `parsi` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/what-the-first-60-days-actually-changedand) |
+| Trita Parsi | — | `parsi` | [watch](https://substack.com/@tritaparsi/p-196342621) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/the-fifth-year) |
+
 ## Files
 
 - `source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md`

@@ -16,19 +16,6 @@ def _write(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8", newline="\n")
 
 
-def test_infer_family_label_prefers_known_series_prefixes() -> None:
-    assert (
-        idx.infer_family_label(
-            "youtube-daniel-davis-deep-dive-scott-ritter-ukraine-the-death-of-a-nation-2026-05-26.md"
-        )
-        == "youtube-daniel-davis-deep-dive-*"
-    )
-    assert (
-        idx.infer_family_label("transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md")
-        == "transcript-napolitano-*"
-    )
-
-
 def test_build_day_readme_uses_frontmatter_rollups_and_excludes_readme(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-05-26"
     _write(
@@ -41,6 +28,8 @@ def test_build_day_readme_uses_frontmatter_rollups_and_excludes_readme(tmp_path:
             "guest: Matt Hoh\n"
             "thread: hoh\n"
             "source_type: operator-pasted-youtube-transcript\n"
+            "youtube_id: abc123test\n"
+            "source_url: https://www.youtube.com/watch?v=abc123test\n"
             "---\n\n"
             "# Matt Hoh: Why the Pentagon Lies\n"
         ),
@@ -77,12 +66,15 @@ def test_build_day_readme_uses_frontmatter_rollups_and_excludes_readme(tmp_path:
         and "`Seyed M. Marandi` (1)" in text
     )
     assert "Threads:" in text and "`davis` (1)" in text and "`hoh` (1)" in text
+    assert "## Ingest register" in text
+    assert "Not the speaker source bench" in text
+    assert "Matt Hoh" in text and "[abc123test](https://www.youtube.com/watch?v=abc123test)" in text
     assert "- `README.md`" not in text
     assert "- `transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md`" in text
     assert "- `youtube-daniel-davis-deep-dive-us-must-stop-the-siege-of-iran-2026-05-26.md`" in text
 
 
-def test_build_day_readme_uses_family_fallback_for_metadata_thin_files(tmp_path: Path) -> None:
+def test_build_day_readme_lists_metadata_thin_files_without_frontmatter(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-01-12"
     _write(
         day / "transcript-napolitano-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md",
@@ -102,11 +94,11 @@ def test_build_day_readme_uses_family_fallback_for_metadata_thin_files(tmp_path:
 
     text = idx.build_day_readme(day)
 
-    assert "## Filename Family Fallbacks" in text
-    assert "`transcript-napolitano-*` (1)" in text
-    assert "`youtube-alex-mercouris-*` (1)" in text
+    assert "## Ingest register" in text
     assert "Hosts: `Andrew Napolitano` (1)" in text
     assert "Threads: `johnson` (1)" in text
+    assert "- `transcript-napolitano-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md`" in text
+    assert "- `youtube-alex-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12.md`" in text
 
 
 def test_write_day_index_overwrites_existing_readme_deterministically(tmp_path: Path) -> None:
@@ -125,12 +117,13 @@ def test_write_day_index_overwrites_existing_readme_deterministically(tmp_path: 
     )
     _write(day / "README.md", "placeholder\n")
 
-    out_path = idx.write_day_index(day)
+    out_path, _ = idx.write_day_index(day)
     first = out_path.read_text(encoding="utf-8")
-    second_path = idx.write_day_index(day)
+    second_path, _ = idx.write_day_index(day)
     second = second_path.read_text(encoding="utf-8")
 
     assert out_path == day / "README.md"
+    assert second_path == out_path
     assert first == second
     assert "placeholder" not in first
     assert "# Statecraft Archive - 2026-03-16" in first

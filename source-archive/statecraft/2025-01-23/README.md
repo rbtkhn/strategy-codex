@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1), `Israel` (1), `Ukraine Russia War SHOWDOWN w/Chas Freeman` (1)
 - Threads: `davis` (2), `freeman` (1), `macgregor` (1), `mercouris` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=OKNKbp7xl4U) |
+| Israel | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=NCfyWNZVkUI) |
+| Ukraine Russia War SHOWDOWN w/Chas Freeman | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=-YX2OUdts9k) |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=z8VAEiuv7Cw) |
+
 ## Files
 
 - `source-alex-mercouris-trump-blocks-ukraine-arms-threatens-russia-moscow-rejects-threats-zelens-2025-01-23.md`

@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Sergey Karaganov` (1)
 - Threads: `diesen` (1), `karaganov` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Sergey Karaganov | Glenn Diesen | `karaganov`, `diesen` | [HnOB7nKv0AY](https://www.youtube.com/watch?v=HnOB7nKv0AY) |
+
 ## Files
 
 - `source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md`

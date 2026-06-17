@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2), `Larry Johnson` (1)
 - Threads: `napolitano` (2), `ritter` (2), `johnson` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jUHRwX2843U) |
+| Larry Johnson | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=938lwWOtXhM) |
+| Scott Ritter | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=AVhJpCqNECg) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/iranian-resilience) |
+
 ## Files
 
 - `source-alex-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12.md`

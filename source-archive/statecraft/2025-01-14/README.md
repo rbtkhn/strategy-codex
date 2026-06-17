@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `CRIMEA` (1), `Chas Freeman` (1), `Israel Shaken` (1), `Jeffrey Sachs` (1), `UKRAINE` (1), `Why the DC Elite are Trying to Kill Tulsi's Nomination` (1)
 - Threads: `davis` (2), `napolitano` (2), `freeman` (1), `mercouris` (1), `nima` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=yFDDoQ5T33Q) |
+| UKRAINE, CRIMEA | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=blbNPtKe83Q) |
+| Why the DC Elite are Trying to Kill Tulsi's Nomination | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=X7m4MQ4FDYM) |
+| Israel Shaken | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=XxjbLg-dkFw) |
+| Chas Freeman | Judging Freedom | `freeman`, `napolitano` | — |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/tgxaxbwh5hc73h8h835af3ap6bhcyj') |
+
 ## Files
 
 - `source-alex-mercouris-trump-up-to-putin-how-war-ends-bryansk-atacms-strike-fails-gaza-ceasefir-2025-01-14.md`

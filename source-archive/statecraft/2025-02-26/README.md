@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1)
 - Threads: `macgregor` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/cC0PQQ4Yn-Y) |
+
 ## Files
 
 - `source-napolitano-macgregor-why-is-trump-arming-ukraine-2025-02-26.md`

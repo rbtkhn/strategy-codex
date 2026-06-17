@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2)
 - Threads: `davis` (2), `diesen` (2), `ritter` (2), `johnson` (1), `mercouris` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Y3DvxjIffaA) |
+| IRANIAN HATRED for THEIR GOV OVERBLOWN /Glenn Diesen & Lt Col Daniel Davis | — | `davis`, `diesen` | — |
+| IRAN WAR: Trump's LOST CONTROL /fmr CIA Analyst Larry Johnson | — | `davis`, `johnson` | — |
+| Scott Ritter | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=s3cNS4lyJ60) |
+| Scott Ritter | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=rQt351IzD54) |
+
 ## Files
 
 - `source-alex-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md`

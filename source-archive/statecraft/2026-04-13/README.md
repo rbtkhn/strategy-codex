@@ -23,6 +23,23 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2), `Seyed M. Marandi` (2), `Chas Freeman` (1), `Jacques Baud` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `US Iran Sea Blockade` (1)
 - Threads: `davis` (4), `nima` (3), `marandi` (2), `ritter` (2), `baud` (1), `freeman` (1), `johnson` (1), `mearsheimer` (1), `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| US Iran Sea Blockade | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=vFVNSSVaRgg) |
+| Chas Freeman | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=ywxTOWhdRxo) |
+| John Mearsheimer | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=fEAi0O4x7Hc) |
+| Seyed M. Marandi | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=VzRYsIdG7uk) |
+| Scott Ritter | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=Zi5nNHNiYuU) |
+| Jacques Baud | Dialogue Works | `baud`, `nima` | [3mtsBSkqW7M](https://www.youtube.com/watch?v=3mtsBSkqW7M) |
+| Larry Johnson | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=zGjabXPGUv4) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=-zLI8STtzB0) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/blasphemy-american-style) |
+| source-simplicius-masterful-5d-stroke-trumps-blockade-2026-04-13.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/masterful-5d-stroke-trumps-blockade) |
+
 ## Files
 
 - `source-alex-mercouris-us-iran-sea-blockade-talks-collapse-iran-calls-putin-lavrov-to-china-bud-2026-04-13.md`

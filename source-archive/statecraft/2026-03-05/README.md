@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1)
 - Threads: `pape` (3), `martyanov` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=tUbc17SsVS8) |
+| Andrei Martyanov | Dialogue Works | `martyanov`, `nima` | [watch](https://www.youtube.com/watch?v=V7W6hk-vyok) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/day-5-the-war-is-widening-from-gulf) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/parallel-strategic-attack-stage-ii) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-nation-building-trap) |
+| source-simplicius-us-set-to-escalate-war-into-ground-2026-03-05.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/us-set-to-escalate-war-into-ground) |
+
 ## Files
 
 - `source-alex-mercouris-iran-tightens-hormuz-blockade-us-strikes-intensify-kurds-in-ukraine-out-2026-03-05.md`

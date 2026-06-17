@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Jacques Baud` (1), `Trump Sanctions Won't Cow Putin` (1)
 - Threads: `davis` (2), `baud` (1), `freeman` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lnbVWU1QVvE) |
+| Jacques Baud | Daniel Davis Deep Dive | `davis`, `baud` | [watch](https://www.youtube.com/watch?v=TnSD3l5Bbfc) |
+| Trump Sanctions Won't Cow Putin | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=j4zysC8TRbs) |
+| Chas Freeman | Dialogue Works | `freeman` | — |
+
 ## Files
 
 - `source-alex-mercouris-trump-threats-backfire-moscow-trump-bluffing-hardens-stance-china-saudi-2025-01-24.md`

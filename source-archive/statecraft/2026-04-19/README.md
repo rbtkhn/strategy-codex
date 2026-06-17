@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jack Matlock` (1), `Seyed M. Marandi` (1)
 - Threads: `davis` (1), `diesen` (1), `marandi` (1), `matlock` (1), `mercouris` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=bxMBqOQmKcc) |
+| Seyed M. Marandi | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=jtQXkJWAY7o) |
+| Jack Matlock | Diesen - Greater Eurasia Podcast | `diesen`, `matlock` | [watch](https://www.youtube.com/watch?v=_7dgtdNXOGM) |
+| source-ritter-2026-04-19.md | — | `ritter` | [watch](https://scottritter.substack.com/p/the-consequences-of-incompetence) |
+| source-simplicius-hormuz-deal-collapses-amidst-us-lies-2026-04-19.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/hormuz-deal-collapses-amidst-us-lies) |
+
 ## Files
 
 - `source-alex-mercouris-lavrov-says-us-iran-war-about-oil-targets-china-warns-russia-will-enforc-2026-04-19.md`

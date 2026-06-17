@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `George Beebe` (1), `Jeffrey Sachs` (1), `Lawrence Wilkerson` (1), `Martin Armstrong` (1)
 - Threads: `diesen` (2), `armstrong` (1), `beebe` (1), `napolitano` (1), `nima` (1), `sachs` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Martin Armstrong | Dialogue Works | `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=5_-J3uyS1Rg) |
+| George Beebe | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=cF-QT8VMeTg) |
+| Lawrence Wilkerson | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=nwfprr7kV54) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=5LBUbzpbZsE') |
+
 ## Files
 
 - `source-dialogue-works-martin-armstrong-the-cold-reality-peace-with-russia-will-never-happen-2025-08-21.md`

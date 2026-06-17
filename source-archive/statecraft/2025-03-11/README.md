@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1)
 - Threads: `carlson` (1), `macgregor` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Douglas Macgregor | Tucker Carlson | `macgregor`, `carlson` | [watch](https://youtu.be/jvbd6HAziaE) |
+
 ## Files
 
 - `source-tucker-macgregor-mexican-cartels-advanced-weaponry-and-why-theyre-a-bigger-threat-than-russia-2025-03-11.md`

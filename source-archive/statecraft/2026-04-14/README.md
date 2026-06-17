@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1)
 - Threads: `freeman` (1), `jiang` (1), `mercouris` (1), `napolitano` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=0cYL9G9krlc) |
+| Sneako | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=n44OF1Y7zgo) |
+| Chas Freeman | — | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=ukac5hPECKE) |
+| Trita Parsi | — | `parsi` | [watch](https://substack.com/@tritaparsi/p-194219759) |
+
 ## Files
 
 - `source-alex-mercouris-russia-china-meet-plan-expel-us-mideast-trump-blockade-fails-eu-panics-a-2026-04-14.md`

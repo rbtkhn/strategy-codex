@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Martin Armstrong` (1)
 - Threads: `armstrong` (1), `macgregor` (1), `napolitano` (1), `nima` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Martin Armstrong | Dialogue Works | `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=hMHRe022ECM) |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/ftHf27aLPno) |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.jeffsachs.org/rl-archive-by-date) |
+
 ## Files
 
 - `source-dialogue-works-martin-armstrong-trump-vs-brics-is-he-leading-the-u-s-to-power-or-collapse-2025-02-19.md`

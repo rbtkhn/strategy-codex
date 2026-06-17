@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Ray McGovern` (1)
 - Threads: `mcgovern` (1), `mercouris` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=kOxyHL1IUJ0) |
+| Ray McGovern | Dialogue Works | `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=p08Yhtd_qZA) |
+
 ## Files
 
 - `source-alex-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15.md`

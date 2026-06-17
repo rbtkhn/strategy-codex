@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (2), `Alexander Mercouris` (1), `Douglas Macgregor` (1)
 - Threads: `diesen` (2), `mearsheimer` (2), `mercouris` (2), `davis` (1), `macgregor` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=QVURQCEMKUI) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=ksStl8ytXzk) |
+| Douglas Macgregor | Glenn Diesen - Greater Eurasia Podcast | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=wLWXoSI7IFM) |
+| John Mearsheimer, Alexander Mercouris | — | `diesen`, `mearsheimer`, `mercouris` | [watch](https://www.youtube.com/watch?v=dalbnR8vNvs) |
+| John Mearsheimer | Judging Freedom | `napolitano`, `mearsheimer` | — |
+
 ## Files
 
 - `source-alex-mercouris-china-deploys-spy-ships-us-says-pulling-back-iran-israel-continue-strikes-kiev-israel-run-short-2025-06-20.md`

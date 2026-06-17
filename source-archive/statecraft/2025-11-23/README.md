@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Ray McGovern` (1)
 - Threads: `diesen` (1), `mcgovern` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Ray McGovern | — | `diesen`, `mcgovern` | [watch](https://www.youtube.com/watch?v=8VIvT7cY0Uc) |
+
 ## Files
 
 - `source-glenn-diesen-ray-mcgovern-zelensky-s-dilemma-bad-peace-or-total-defeat-2025-11-23.md`

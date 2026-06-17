@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `George Beebe` (1)
 - Threads: `beebe` (1), `diesen` (1), `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=JTceAGK9oTE) |
+| George Beebe | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=JN1kJTcz59Q) |
+| source-simplicius-hoodwinks-and-hijinks-trump-nabs-2026-01-23.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/hoodwinks-and-hijinks-trump-nabs) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-fails-in-davos-turns-on-eu-says-cannot-resist-putin-trump-putin-2026-01-23.md`

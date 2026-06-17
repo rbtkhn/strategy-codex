@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Drones UPDATE` (1), `Jeffrey Sachs` (1)
 - Threads: `davis` (3), `daniel-davis-deep-dive` (2), `alex-mercouris` (1), `diesen` (1), `freeman` (1), `mercouris` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `alex-mercouris`, `mercouris` | [watch](https://www.youtube.com/watch?v=W6ovr7VbO2k) |
+| Drones UPDATE | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=K3dcHstbdrE) |
+| Daniel Davis | Daniel Davis Deep Dive | `daniel-davis-deep-dive`, `davis` | [watch](https://www.youtube.com/watch?v=XrYqSMN6icw) |
+| Chas Freeman | Daniel Davis Deep Dive | `daniel-davis-deep-dive`, `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=_AZiZJf5ZgQ) |
+| Jeffrey Sachs | Glenn Diesen - Greater Eurasia Podcast | `diesen`, `sachs` | [watch](https://podbay.fm/p/1822142909/e/1736515122) |
+
 ## Files
 
 - `source-alex-mercouris-putiin-trump-summit-coming-eu-frets-trump-will-cancel-sanctions-zelensky-2025-01-10.md`

@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (1)
 - Threads: `davis` (1), `diesen` (1), `mercouris` (1), `nima` (1), `pape` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TNeJaVeEC3U) |
+| Nima Alkhorshid | Dialogue Works | `davis`, `nima` | [watch](https://www.youtube.com/watch?v=_6_8JvP6Y9Y) |
+| Glenn Diesen | Glenn Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=OcqIEJEk4MY) |
+| source-pape-why-iran-prefers-vance-2026-03-25.md | — | `pape` | [watch](https://escalationtrap.substack.com/p/why-iran-prefers-vance) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/how-the-chechen-miracle-kick-started) |
+
 ## Files
 
 - `source-alex-mercouris-iran-no-to-us-talks-ceasefire-offers-moscow-backs-iran-1000-gerans-hamme-2026-03-25.md`

@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Larry Johnson` (1)
 - Threads: `diesen` (2), `freeman` (1), `johnson` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_G7cYQeuq3w) |
+| Chas Freeman | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=y5gXgD6qGzc) |
+| Larry Johnson | Glenn Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=rWJjZHIpXv4) |
+
 ## Files
 
 - `source-alex-mercouris-moscow-firm-on-terms-for-wars-end-trump-no-zelensky-rutte-in-alaska-russia-smashes-kievs-missiles-2025-08-14.md`

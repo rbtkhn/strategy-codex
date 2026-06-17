@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Aaron Maté` (1), `Alastair Crooke` (1), `Chas Freeman` (1), `Henningsen` (1), `Israel` (1), `Matt Hoh` (1), `Scott Ritter` (1), `US Mulls Iran Ground Invasion As Options Run Out` (1)
 - Threads: `napolitano` (4), `crooke` (1), `davis` (1), `freeman` (1), `mercouris` (1), `nima` (1), `parsi` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| US Mulls Iran Ground Invasion As Options Run Out, Israel | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=kcd_Y41tPFI) |
+| Alastair Crooke | Dialogue Works | `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=bfZMcqICySg) |
+| Henningsen | Daniel Davis Deep Dive | `davis` | [EV6WOiBj5HA](https://www.youtube.com/watch?v=EV6WOiBj5HA) |
+| Chas Freeman | Judging Freedom | `napolitano`, `freeman` | [cmRk47ySaps](https://www.youtube.com/watch?v=cmRk47ySaps) |
+| Matt Hoh | Judging Freedom | `napolitano` | [OtAj89I_yjw](https://www.youtube.com/watch?v=OtAj89I_yjw) |
+| Aaron Maté | Judging Freedom | `napolitano` | [Uwz0eR4THnc](https://www.youtube.com/watch?v=Uwz0eR4THnc) |
+| Scott Ritter | Judging Freedom | `napolitano`, `ritter` | [-49oaeHDMH4](https://www.youtube.com/watch?v=-49oaeHDMH4) |
+| Trita Parsi | — | `parsi` | [watch](https://substack.com/@tritaparsi/p-191256221) |
+
 ## Files
 
 - `source-alex-mercouris-us-mulls-iran-ground-invasion-as-options-run-out-israel-larijani-dead-la-2026-03-17.md`

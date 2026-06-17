@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Biden's Foreign Policy Legacy w/fmr CIA Analyst LARRY JOHNSON` (1), `Putin's Other Options in 2022` (1)
 - Threads: `davis` (2), `johnson` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=8qhhSUet9uQ) |
+| Biden's Foreign Policy Legacy w/fmr CIA Analyst LARRY JOHNSON | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=8vK1BR-MeV0) |
+| Putin's Other Options in 2022 | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=UmV4sq9j7Qg) |
+
 ## Files
 
 - `source-alex-mercouris-medvedev-no-freeze-russia-should-take-all-ukraine-us-russia-summit-looms-2025-01-13.md`

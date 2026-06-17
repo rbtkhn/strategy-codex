@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Doug Macgregor` (1), `Jeffrey Sachs` (1), `Scott Ritter` (1)
 - Threads: `davis` (1), `macgregor` (1), `nima` (1), `ritter` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Doug Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=weBSPW0_3K4) |
+| Scott Ritter | — | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=UMTrfuXVD4g) |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.youtube.com/watch?v=XwGXSKe3ZeY) |
+
 ## Files
 
 - `source-daniel-davis-deep-dive-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05.md`

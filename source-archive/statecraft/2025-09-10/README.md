@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1)
 - Threads: `mercouris` (2), `napolitano` (2), `christoforou` (1), `mearsheimer` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=2G52wFryBLU) |
+| Alexander Mercouris | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=93FyLG-5rrI) |
+| John Mearsheimer | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=uxaBNRuydgw) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=lGrooy41n1E') |
+
 ## Files
 
 - `source-alex-mercouris-israel-casts-off-restraints-hits-qatar-mideast-war-coming-huge-russian-strike-west-rages-drones-2025-09-10.md`

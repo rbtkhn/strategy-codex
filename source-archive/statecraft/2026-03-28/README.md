@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Lawrence Wilkerson` (1), `Seyed M. Marandi` (1)
 - Threads: `diesen` (1), `marandi` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=tsenhIVfkpM) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=8SF7zqg5lP8) |
+| Lawrence Wilkerson | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=XelyhraVOD8) |
+
 ## Files
 
 - `source-alex-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md`

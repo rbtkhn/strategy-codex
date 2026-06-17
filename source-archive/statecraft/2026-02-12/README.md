@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Lawrence Wilkerson` (1)
 - Threads: `crooke` (1), `mercouris` (1), `napolitano` (1), `simplicius` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=qB6KSQWNlNQ) |
+| source-crooke-trump-kabuki-theatre-in-ukraine-nothing-2026-02-12.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/trump-kabuki-theatre-in-ukraine-nothing) |
+| Lawrence Wilkerson | — | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=J7FskzDIeXI) |
+| source-simplicius-new-western-reports-reveal-vast-russian-2026-02-12.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/new-western-reports-reveal-vast-russian) |
+
 ## Files
 
 - `source-alex-mercouris-russia-china-rush-military-aid-to-iran-trump-backs-off-argues-with-netan-2026-02-12.md`

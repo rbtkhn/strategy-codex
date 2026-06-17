@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `'Maximum Pressure' on IRAN a Good Idea? John Mearsheimer` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Mearsheimer` (1), `Michael Hudson` (1), `Richard D. Wolff` (1), `Trump Pressures Netanyahu` (1)
 - Threads: `davis` (3), `mearsheimer` (2), `nima` (2), `freeman` (1), `macgregor` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ELoEkpXm4nc) |
+| Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=KJp2F8mFhuk) |
+| John Mearsheimer | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=9CFhQy-yUgw) |
+| 'Maximum Pressure' on IRAN a Good Idea? John Mearsheimer | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=KZH6IAoCg-k) |
+| Chas Freeman, Richard D. Wolff, Michael Hudson | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=hV6_6hkYpwM) |
+| Trump Pressures Netanyahu | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=B4hvxNVl714) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-starmer-discuss-ww3-west-russia-war-russia-advance-quickens-tru-2025-01-19.md`

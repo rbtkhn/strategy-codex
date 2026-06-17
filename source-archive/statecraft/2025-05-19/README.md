@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1)
 - Threads: `diesen` (1), `mercouris` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=vwm3ik9Izjw) |
+| Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [WF0umxJBY5c](https://www.youtube.com/watch?v=WF0umxJBY5c) |
+
 ## Files
 
 - `source-alex-mercouris-uk-eu-kiev-nervous-as-us-russia-leaders-prepare-call-moscow-warns-all-out-war-if-peace-talks-fail-2025-05-19.md`

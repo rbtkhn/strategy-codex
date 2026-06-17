@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Chas Freeman` (1), `Jacques Baud` (1), `Jeffrey Sachs` (1), `Larry C. Johnson` (1)
 - Threads: `nima` (2), `baud` (1), `crooke` (1), `davis` (1), `diesen` (1), `freeman` (1), `johnson` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alastair Crooke | — | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=9ueUYH_IHOE) |
+| Chas Freeman | Dialogue Works | `freeman`, `nima` | [watch](https://www.youtube.com/watch?v=Uh8gaC1gxlg) |
+| Larry C. Johnson | — | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=Z1dwapyc82Y) |
+| Jacques Baud | Glenn Diesen | `diesen`, `baud` | [watch](https://www.youtube.com/watch?v=AKWMvqSWM78) |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.youtube.com/watch?v=eOGLxxiNeBc) |
+
 ## Files
 
 - `source-daniel-davis-deep-dive-alastair-crooke-trump-s-ukraine-peace-plan-eu-zelensky-resisting-alastair-crooke-lt-col-daniel-davis-2025-11-21.md`

@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed Mohammad Marandi` (1)
 - Threads: `diesen` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=J37-kIE82LQ) |
+| Seyed Mohammad Marandi | — | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=VxZbxiv600I) |
+| John J. Mearsheimer | — | `mearsheimer` | [watch](https://mearsheimer.substack.com/p/will-trump-go-kamikaze) |
+| source-pape-vietnam-shows-exactly-when-air-wars-2026-03-29.md | — | `pape` | [watch](https://escalationtrap.substack.com/p/vietnam-shows-exactly-when-air-wars) |
+| source-simplicius-essential-us-awacs-plane-destroyed-2026-03-29.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/essential-us-awacs-plane-destroyed) |
+
 ## Files
 
 - `source-alex-mercouris-iran-strikes-us-base-destroys-us-awacs-defiant-over-us-ground-op-russian-2026-03-29.md`

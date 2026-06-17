@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1), `Mohammad Marandi` (1)
 - Threads: `diesen` (2), `mercouris` (2), `freeman` (1), `marandi` (1), `mearsheimer` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Sn4Z7Fi50-8) |
+| Mohammad Marandi, Chas Freeman | Dialogue Works | `freeman`, `marandi` | — |
+| John Mearsheimer, Alexander Mercouris | — | `diesen`, `mearsheimer`, `mercouris` | [watch](https://www.youtube.com/watch?v=Dy60zHLlNGU) |
+| Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [qcTLAX8hF7I](https://www.youtube.com/watch?v=qcTLAX8hF7I) |
+
 ## Files
 
 - `source-alex-mercouris-us-exits-ukraine-talks-starmer-crashes-in-polls-elensky-curse-strikes-russia-enters-pokrovsk-2025-05-02.md`

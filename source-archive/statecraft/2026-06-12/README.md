@@ -10,8 +10,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Source form mix: `interview` (7), `solo` (2)
 - Distinct channels/shows: `7`
 - Distinct hosts: `5`
-- Distinct guests: `4`
-- Distinct threads: `12`
+- Distinct guests: `6`
+- Distinct threads: `13`
 
 ## Channel / Show Rollup
 
@@ -20,8 +20,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Nima Alkhorshid` (3), `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Sulaiman Ahmed` (1)
-- Guests: `Anthony Aguilar` (2), `Larry Johnson` (2), `Charles Freeman` (1), `Lawrence Wilkerson` (1)
-- Threads: `nima` (3), `aguilar` (2), `johnson` (2), `davis` (1), `diesen` (1), `freeman` (1), `mercouris` (1), `moral-resistance` (1), `napolitano` (1), `nawfal` (1), `parsi` (1), `wilkerson` (1)
+- Guests: `Larry Johnson` (3), `Anthony Aguilar` (2), `Charles Freeman` (1), `Lawrence Wilkerson` (1), `Ray McGovern` (1), `Trita Parsi` (1)
+- Threads: `johnson` (3), `nima` (3), `aguilar` (2), `davis` (1), `diesen` (1), `freeman` (1), `mcgovern` (1), `mercouris` (1), `moral-resistance` (1), `napolitano` (1), `nawfal` (1), `parsi` (1), `wilkerson` (1)
+
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [OA94q8ZCkgY](https://www.youtube.com/watch?v=OA94q8ZCkgY) |
+| Anthony Aguilar | Dialogue Works | `nima`, `aguilar` | [DbJjR6YmGUY](https://www.youtube.com/watch?v=DbJjR6YmGUY) |
+| Charles Freeman | Dialogue Works | `nima`, `freeman` | [_gMBZwg4HGQ](https://www.youtube.com/watch?v=_gMBZwg4HGQ) |
+| Larry Johnson, Lawrence Wilkerson | Dialogue Works | `nima`, `johnson`, `wilkerson` | [Cry4rCIXiVM](https://www.youtube.com/watch?v=Cry4rCIXiVM) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [VjI4y1ZcYug](https://www.youtube.com/watch?v=VjI4y1ZcYug) |
+| Larry Johnson | Glenn Diesen | `diesen`, `johnson` | [v7tyJIc7U3A](https://www.youtube.com/watch?v=v7tyJIc7U3A) |
+| Anthony Aguilar | Moral Resistance | `aguilar`, `moral-resistance` | [7ilV1wVU05Q](https://www.youtube.com/watch?v=7ilV1wVU05Q) |
+| Larry Johnson, Ray McGovern | Judging Freedom | `napolitano`, `johnson`, `mcgovern` | [ILZhqQQf-UY](https://www.youtube.com/watch?v=ILZhqQQf-UY) |
+| Trita Parsi | Mario Nawfal | `parsi`, `nawfal` | [SpKrNyFMtVg](https://www.youtube.com/watch?v=SpKrNyFMtVg) |
 
 ## Files
 

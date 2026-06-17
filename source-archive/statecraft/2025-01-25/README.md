@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Looks like Ukraine Aid is Stopped` (1), `Pepe Escobar` (1), `The NEW Sec of Defense / What Hegseth is Up Against` (1)
 - Threads: `davis` (2), `mercouris` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-WAD3XfbawA) |
+| Looks like Ukraine Aid is Stopped | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=cpXyh04oSH4) |
+| The NEW Sec of Defense / What Hegseth is Up Against | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=ilmRB_W_KCY) |
+| Pepe Escobar | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=JqCBYf-eiXo) |
+
 ## Files
 
 - `source-alex-mercouris-trump-fiery-call-dane-pm-eu-shocked-rubio-stops-kiev-aid-putin-zelensky-2025-01-25.md`

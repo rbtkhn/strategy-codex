@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (2), `Larry Johnson` (2), `Jacques Baud` (1), `Trita Parsi` (1)
 - Threads: `davis` (2), `johnson` (2), `napolitano` (2), `nima` (2), `sachs` (2), `baud` (1), `carlson` (1), `diesen` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Jacques Baud | Dialogue Works | `baud`, `nima` | [h2TwG48Kib0](https://www.youtube.com/watch?v=h2TwG48Kib0) |
+| Larry Johnson | Dialogue Works | `johnson`, `nima` | [IY1BU0bKEgM](https://www.youtube.com/watch?v=IY1BU0bKEgM) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [aaXKX3cPZSg](https://www.youtube.com/watch?v=aaXKX3cPZSg) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [S9ROJmN0HQ4](https://www.youtube.com/watch?v=S9ROJmN0HQ4) |
+| Jeffrey Sachs | Glenn Diesen | `sachs`, `diesen` | [vkhJdxpbz_g](https://www.youtube.com/watch?v=vkhJdxpbz_g) |
+| Larry Johnson | Judging Freedom | `johnson`, `napolitano` | [5z21jBNP0xo](https://www.youtube.com/watch?v=5z21jBNP0xo) |
+| Jeffrey Sachs | Judging Freedom | `sachs`, `napolitano` | [NpUzgQmrCnc](https://www.youtube.com/watch?v=NpUzgQmrCnc) |
+| Trita Parsi | Tucker Carlson | `parsi`, `carlson` | [BeScodaLjkg](https://www.youtube.com/watch?v=BeScodaLjkg) |
+
 ## Files
 
 - `source-alkorshid-baud-us-iran-reach-mou-war-ends-immediately-2026-06-15.md`

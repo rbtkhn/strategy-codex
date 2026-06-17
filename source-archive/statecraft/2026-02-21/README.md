@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=wnPHmF8rpq8) |
+| source-simplicius-multipolarity-a-delusion-in-face-2026-02-21.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/multipolarity-a-delusion-in-face) |
+
 ## Files
 
 - `source-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21.md`

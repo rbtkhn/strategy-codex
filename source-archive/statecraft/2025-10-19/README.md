@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (1)
 - Threads: `mercouris` (1), `nima` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=2V_Reg8vQ6U) |
+| Scott Ritter | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=AupNaa-bj3M) |
+
 ## Files
 
 - `source-alex-mercouris-kiev-military-crisis-badly-worsens-big-russian-gains-pokrovsk-kherson-2025-10-19.md`

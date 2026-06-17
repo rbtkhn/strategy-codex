@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1)
 - Threads: `christoforou` (1), `diesen` (1), `mercouris` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=qwmaoa-uaDw) |
+| Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=FDac1qw4Zfs) |
+
 ## Files
 
 - `source-duran-mercouris-long-range-missiles-and-ukraines-last-defense-line-2025-09-27.md`

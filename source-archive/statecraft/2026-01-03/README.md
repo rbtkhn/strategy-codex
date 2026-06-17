@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1), `Scott Ritter` (1)
 - Threads: `mercouris` (1), `ritter` (1), `sachs` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=PTMHONppOHA) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/russias-dark-sage) |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.jeffsachs.org/im-archive-by-date) |
+| source-simplicius-sitrep-1226-odessa-pressure-peaks-2026-01-03.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/sitrep-1226-odessa-pressure-peaks) |
+
 ## Files
 
 - `source-alex-mercouris-us-raids-venezuela-seizes-maduro-no-resistance-government-retains-contro-2026-01-03.md`

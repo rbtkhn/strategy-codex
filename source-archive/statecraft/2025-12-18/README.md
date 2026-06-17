@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1)
 - Threads: `napolitano` (2), `diesen` (1), `freeman` (1), `mearsheimer` (1), `mercouris` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xZg1_YZDLbQ) |
+| Chas Freeman | — | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=h2lViEJkKVs) |
+| John Mearsheimer | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=c5cikB6G5y0) |
+| Lawrence Wilkerson | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=tmUHlOmTu2A) |
+
 ## Files
 
 - `source-alex-mercouris-eu-splits-over-asset-loan-kiev-out-of-money-russia-mod-says-victory-soon-2025-12-18.md`

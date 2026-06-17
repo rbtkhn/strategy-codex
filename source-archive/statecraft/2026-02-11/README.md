@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1), `Scott Ritter` (1), `Seyed M. Marandi` (1)
 - Threads: `davis` (1), `marandi` (1), `mercouris` (1), `nima` (1), `ritter` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=pHCWOPCq2hA) |
+| Seyed M. Marandi | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=pxg73Ck5e-A) |
+| Scott Ritter | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=DCZn8RZS9Zk) |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.jeffsachs.org/im-archive-by-date) |
+
 ## Files
 
 - `source-alex-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md`

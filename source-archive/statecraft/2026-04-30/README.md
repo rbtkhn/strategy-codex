@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `null` (1)
 - Threads: `mercouris` (2), `davis` (1), `diesen` (1), `johnson` (1), `mearsheimer` (1), `napolitano` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=YLjZXnUqkPg) |
+| John Mearsheimer | Daniel Davis Deep Dive | `davis`, `mearsheimer` | — |
+| Larry Johnson | Diesen | `johnson`, `diesen` | [watch](https://www.youtube.com/watch?v=ptmxmBOVgSI) |
+| null | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=YLjZXnUqkPg) |
+| Lawrence Wilkerson | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=0SRam9rvSug) |
+
 ## Files
 
 - `source-alex-mercouris-putin-harshly-warns-trump-against-further-iran-attacks-russia-warns-euro-2026-04-30.md`

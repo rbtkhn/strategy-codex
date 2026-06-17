@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry C. Johnson` (1), `Las Vegas Cybertruck Explosion` (1), `Lawrence Wilkerson` (1), `Zelensky is Expendable` (1)
 - Threads: `davis` (2), `johnson` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ZtyzLYvy770) |
+| Las Vegas Cybertruck Explosion | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=8Iqmr5HBuDo) |
+| Zelensky is Expendable | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=eUR4rafwlGw) |
+| Lawrence Wilkerson, Larry C. Johnson | Dialogue Works | `nima`, `wilkerson`, `johnson` | [watch](https://www.youtube.com/watch?v=xfYnEn5gIMU) |
+
 ## Files
 
 - `source-alex-mercouris-us-prepares-new-war-msm-biden-admin-debates-iran-strike-russia-takes-ukr-2025-01-04.md`

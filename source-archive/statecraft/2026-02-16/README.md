@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Robert Barnes` (2), `Jacques Baud` (1)
 - Threads: `barnes` (2), `davis` (2), `baud` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=r_N9YwOCJfM) |
+| Robert Barnes | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](UNRESOLVED_EXACT_YOUTUBE_WATCH_URL) |
+| Robert Barnes | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=E85kNWM9_04) |
+| Jacques Baud | Dialogue Works | `baud`, `nima` | [0ZGC4Uswerk](https://www.youtube.com/watch?v=0ZGC4Uswerk) |
+| source-simplicius-reports-claim-us-readying-long-term-2026-02-16.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/reports-claim-us-readying-long-term) |
+
 ## Files
 
 - `source-alex-mercouris-putin-sends-tough-team-geneva-as-russia-prepares-giant-missile-strike-br-2026-02-16.md`

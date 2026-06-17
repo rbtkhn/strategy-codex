@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
 - Threads: `diesen` (1), `freeman` (1), `napolitano` (1), `nima` (1), `ritter` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Lawrence Wilkerson | Dialogue Works | `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=vSsEGyyzwTM) |
+| Scott Ritter | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=mA1vsz5dq7s) |
+| Chas Freeman | Judging Freedom | `freeman`, `napolitano` | — |
+
 ## Files
 
 - `source-dialogue-works-col-larry-wilkerson-october-7th-aftermath-israels-worst-defeat-in-history-2025-10-07.md`

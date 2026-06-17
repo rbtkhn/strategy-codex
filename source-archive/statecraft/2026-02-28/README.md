@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1), `Larry Johnson` (1), `Scott Ritter` (1)
 - Threads: `diesen` (2), `pape` (2), `crooke` (1), `davis` (1), `johnson` (1), `mercouris` (1), `ritter` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [pWZ2ITIrpd8](https://www.youtube.com/watch?v=pWZ2ITIrpd8) |
+| source-crooke-the-end-to-deceptive-trumpian-diplomacy-2026-02-28.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/the-end-to-deceptive-trumpian-diplomacy) |
+| Larry Johnson | Daniel Davis Deep Dive | `davis`, `johnson` | — |
+| Jeffrey Sachs | Diesen | `diesen`, `sachs` | — |
+| Scott Ritter | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=2zjuZqUrCAo) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-day-1-mirage) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-illusion-of-control) |
+
 ## Files
 
 - `source-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md`

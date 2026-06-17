@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Deep Dive Intel Briefing` (1), `Lawrence Wilkerson` (1), `Russia Crushes Kursk Offensive` (1)
 - Threads: `nima` (2), `davis` (1), `mercouris` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=PfP_84pwguk) |
+| Deep Dive Intel Briefing | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=EAoLHgj2fVw) |
+| Russia Crushes Kursk Offensive | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=OrqkNyyh5ZQ) |
+| Lawrence Wilkerson | Dialogue Works | `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=yy3LN0Qlfh0) |
+
 ## Files
 
 - `source-alex-mercouris-us-big-sanctions-russian-oil-moscow-shrugs-biden-us-gas-prices-to-rise-t-2025-01-11.md`

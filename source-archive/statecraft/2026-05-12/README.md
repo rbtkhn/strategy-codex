@@ -23,6 +23,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Doug Macgregor` (1), `Jeffrey Sachs` (1), `Robert Barnes` (1), `Robert Pape` (1), `Seyed M. Marandi` (1)
 - Threads: `davis` (3), `diesen` (2), `barnes` (1), `freeman` (1), `jiang` (1), `macgregor` (1), `marandi` (1), `mercouris` (1), `nawfal` (1), `nima` (1), `pape` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ayN1VXz4QtM) |
+| Doug Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=tfgfSubAEJM) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=klvztvA37b8) |
+| Robert Barnes | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=22cOVLIatOw) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=Uhgd6vRsPxA) |
+| Jiang Xueqin | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=8nsxuB3Vsts) |
+| Chas Freeman | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=YKvzjkOfyWQ) |
+| Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=D8WeTG3rAFs) |
+| Robert Pape | Mario Nawfal | `pape`, `nawfal` | [watch](https://www.youtube.com/watch?v=-6orPmr4ldo) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-corruption-crisis-escalates-yermak-accused-baltics-fear-russia-2026-05-12.md`

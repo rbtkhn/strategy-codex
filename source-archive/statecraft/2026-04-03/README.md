@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (2), `Robert Barnes` (1), `Scott Ritter` (1), `Ted Postol` (1)
 - Threads: `freeman` (2), `nima` (2), `barnes` (1), `davis` (1), `diesen` (1), `mercouris` (1), `postol` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [jS42akaMR6Q](https://www.youtube.com/watch?v=jS42akaMR6Q) |
+| Robert Barnes | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=0lgCUTAjeRA) |
+| Chas Freeman | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=wJcTHrczIgA) |
+| Ted Postol | Dialogue Works | `postol`, `nima` | [ab1cfVNWF48](https://www.youtube.com/watch?v=ab1cfVNWF48) |
+| Chas Freeman | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=Rb0vegr3nf0) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/combat-search-and-rescue-the-prequel) |
+| source-simplicius-sanctity-lost-even-neocon-pantheon-2026-04-03.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/sanctity-lost-even-neocon-pantheon) |
+
 ## Files
 
 - `source-alex-mercouris-trump-threatens-wider-bombing-sacks-general-iran-defiant-f15-lost-medved-2026-04-03.md`

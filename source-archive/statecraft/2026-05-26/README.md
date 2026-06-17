@@ -23,6 +23,31 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2), `Seyed M. Marandi` (2), `Alastair Crooke` (1), `Alexander Mercouris` (1), `Chas Freeman` (1), `Doug Macgregor` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Matt Hoh` (1), `Robert Barnes` (1)
 - Threads: `napolitano` (6), `davis` (3), `jiang` (3), `nima` (3), `marandi` (2), `mercouris` (2), `ritter` (2), `barnes` (1), `christoforou` (1), `crooke` (1), `diesen` (1), `freeman` (1), `hoh` (1), `johnson` (1), `macgregor` (1), `mearsheimer` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zTxlWiwI29A) |
+| Robert Barnes | Dialogue Works | `nima`, `barnes` | [watch](https://www.youtube.com/watch?v=1eAZc0q6MPs) |
+| John Helmer | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=ZcgzWcvRHwU) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=suOa4WCxFGc) |
+| Doug Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [y1u4dBt_kg0](https://www.youtube.com/watch?v=y1u4dBt_kg0) |
+| Scott Ritter | Daniel Davis Deep Dive | `davis`, `ritter` | [MWdKz8O11iM](https://www.youtube.com/watch?v=MWdKz8O11iM) |
+| Seyed M. Marandi | Daniel Davis Deep Dive | `davis`, `marandi` | [XBySNPFepvQ](https://www.youtube.com/watch?v=XBySNPFepvQ) |
+| Alexander Mercouris | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=yJNkBK4tUtY) |
+| Jiang Xueqin | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=dja6dkCfngE) |
+| Jiang Xueqin | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=otyUpKhpTYM) |
+| Jiang Xueqin | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=FspDllFoiDE) |
+| Lawrence Wilkerson | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=WJhaFypj9f4) |
+| Alastair Crooke | Judging Freedom | `crooke`, `napolitano` | [watch](https://www.youtube.com/watch?v=wPvk5SuQ8rw) |
+| Chas Freeman | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=5tmuUtDqh7g) |
+| Matt Hoh | Judging Freedom | `hoh`, `napolitano` | [watch](https://www.youtube.com/watch?v=_gFjPdbP5lY) |
+| Larry Johnson | Judging Freedom | `johnson`, `napolitano` | [rqbdQDSFBxw](https://www.youtube.com/watch?v=rqbdQDSFBxw) |
+| John Mearsheimer | Judging Freedom | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=VS8qkhd-2Cw) |
+| Scott Ritter | Judging Freedom | `ritter`, `napolitano` | [7u8xEdmI_hQ](https://www.youtube.com/watch?v=7u8xEdmI_hQ) |
+
 ## Files
 
 - `source-alex-mercouris-russian-fiercest-warning-kiev-decision-centres-will-be-attacked-patience-exhausted-west-quit-kiev-2026-05-26.md`

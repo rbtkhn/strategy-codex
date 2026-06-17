@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1), `Lawrence Wilkerson` (1)
 - Threads: `napolitano` (2), `mearsheimer` (1), `mercouris` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=lDIA742ppIU) |
+| John Mearsheimer | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=xmQBMtpiRWk) |
+| Lawrence Wilkerson | Judging Freedom | `napolitano`, `wilkerson` | — |
+
 ## Files
 
 - `source-alex-mercouris-eu-uk-paris-summit-plans-kiev-victory-odessa-deployment-defies-us-russian-advance-on-all-fronts-2025-04-17.md`

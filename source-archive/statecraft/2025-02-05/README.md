@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Ray McGovern` (1)
 - Threads: `davis` (1), `diesen` (1), `freeman` (1), `mcgovern` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Chas Freeman | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=IlfeFnv2h4M) |
+| Ray McGovern | — | `diesen`, `mcgovern` | [watch](https://www.youtube.com/watch?v=AbDMF7GlxCQ) |
+
 ## Files
 
 - `source-daniel-davis-deep-dive-trump-and-the-takeover-of-gaza-w-ambassador-chas-freeman-2025-02-05.md`

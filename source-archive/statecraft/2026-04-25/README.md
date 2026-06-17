@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alex Christoforou` (1), `Alexander Mercouris` (1)
 - Threads: `mercouris` (2), `christoforou` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=AJP9FYH0Og8) |
+| Alex Christoforou, Alexander Mercouris | Mercouris | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=XZL0HiFch10) |
+| source-simplicius-ukraine-war-untangling-current-disinfo-2026-04-25.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/ukraine-war-untangling-the-current) |
+
 ## Files
 
 - `source-alex-mercouris-lavrov-warns-europe-declared-war-on-russia-aragchi-to-moscow-won-t-talk-2026-04-25.md`

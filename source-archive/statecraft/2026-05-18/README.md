@@ -23,6 +23,26 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry Johnson` (2), `Ray McGovern` (2), `Scott Ritter` (2), `Alastair Crooke` (1), `Jacques Baud` (1), `John Mearsheimer` (1), `Trita Parsi` (1)
 - Threads: `napolitano` (4), `davis` (2), `diesen` (2), `johnson` (2), `mcgovern` (2), `nima` (2), `ritter` (2), `baud` (1), `crooke` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `parsi` (1), `ritter-mcgovern` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [lOGxx0WvY74](https://www.youtube.com/watch?v=lOGxx0WvY74) |
+| Scott Ritter, Ray McGovern | Consortium News | `ritter-mcgovern`, `ritter`, `mcgovern` | — |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [XgIgxiJimaE](https://www.youtube.com/watch?v=XgIgxiJimaE) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [q5l_vCHU4xI](https://www.youtube.com/watch?v=q5l_vCHU4xI) |
+| Jacques Baud | Dialogue Works | `nima`, `baud` | [HF65E99SIsw](https://www.youtube.com/watch?v=HF65E99SIsw) |
+| Larry Johnson | Dialogue Works | `nima`, `johnson` | [kIlLKqPzY8Y](https://www.youtube.com/watch?v=kIlLKqPzY8Y) |
+| John Mearsheimer | Glenn Diesen | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Dx7osj5gCmo) |
+| Trita Parsi | Glenn Diesen | `diesen`, `parsi` | [watch](https://www.youtube.com/watch?v=7QUx7GjIOBo) |
+| Alastair Crooke | Judging Freedom | `crooke`, `napolitano` | [tOfZZaWHyHM](https://www.youtube.com/watch?v=tOfZZaWHyHM) |
+| Larry Johnson | Judging Freedom | `johnson`, `napolitano` | [zpX2t1KWNbo](https://www.youtube.com/watch?v=zpX2t1KWNbo) |
+| Ray McGovern | Judging Freedom | `mcgovern`, `napolitano` | [z968wCMjRec](https://www.youtube.com/watch?v=z968wCMjRec) |
+| Scott Ritter | Judging Freedom | `ritter`, `napolitano` | [Y0W2vpjIQoM](https://www.youtube.com/watch?v=Y0W2vpjIQoM) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/june-could-be-the-most-brutal-month) |
+
 ## Files
 
 - `source-alex-mercouris-eu-split-on-russia-talks-russia-conducts-huge-ukraine-strike-reports-new-weapon-hits-dnipro-iran-2026-05-18.md`

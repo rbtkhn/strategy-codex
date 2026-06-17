@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Trita Parsi` (1)
 - Threads: `freeman` (1), `nima` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Chas Freeman, Trita Parsi | Dialogue Works | `freeman`, `parsi`, `nima` | — |
+
 ## Files
 
 - `source-dialogue-works-amb-chas-freeman-and-trita-parsi-how-the-iran-israel-war-changed-everything-overnight-2025-07-26.md`

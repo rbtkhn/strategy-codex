@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry Johnson` (1), `Lawrence Wilkerson` (1)
 - Threads: `diesen` (2), `johnson` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Larry Johnson | — | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=trgXhtcrjio) |
+| Lawrence Wilkerson | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=UKYkTRtKOBY) |
+
 ## Files
 
 - `source-glenn-diesen-larry-johnson-larry-johnson-trump-negotiator-or-warmonger-2025-06-16.md`

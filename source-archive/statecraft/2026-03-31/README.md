@@ -23,6 +23,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (2), `Alexander Mercouris` (1), `John Mearsheimer` (1), `Lawrence Wilkerson` (1), `Seyed M. Marandi` (1)
 - Threads: `davis` (2), `mercouris` (2), `napolitano` (2), `nima` (2), `ritter` (2), `baud` (1), `johnson` (1), `marandi` (1), `mearsheimer` (1), `simplicius` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=NuR9xJWTLm8) |
+| Scott Ritter | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=1TIp2YhW8u0) |
+| IRAN WAR LATEST /Col Jacques Baud & Lt Col Daniel Davis | — | `davis`, `baud` | — |
+| Lawrence Wilkerson | Dialogue Works | `johnson`, `nima`, `wilkerson` | [dQCTCUR9WHs](https://www.youtube.com/watch?v=dQCTCUR9WHs) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=lo_khjFMcMM) |
+| John Mearsheimer | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=YKqf-3h0hM8) |
+| Scott Ritter | — | `ritter`, `napolitano` | [watch](https://www.youtube.com/watch?v=BbucEkIkLfs) |
+| source-simplicius-trump-signals-final-sadistic-punishment-2026-03-31.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/trump-signals-final-sadistic-punishment) |
+| Alexander Mercouris | — | `mercouris` | [watch](https://www.youtube.com/watch?v=NuR9xJWTLm8) |
+
 ## Files
 
 - `source-alex-mercouris-trump-begs-iran-talks-gives-up-on-hormuz-lavrov-crisis-becoming-world-wa-2026-03-31.md`

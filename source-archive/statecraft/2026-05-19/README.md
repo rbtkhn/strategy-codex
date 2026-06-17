@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (1)
 - Threads: `davis` (1), `diesen` (1), `jiang` (1), `mercouris` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [rRPwqWA0rAw](https://www.youtube.com/watch?v=rRPwqWA0rAw) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [lcyeEwExzXI](https://www.youtube.com/watch?v=lcyeEwExzXI) |
+| Jiang Xueqin | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=RG1clZlrfOo) |
+| Scott Ritter | Glenn Diesen | `diesen`, `ritter` | [tZQIeeR17Hk](https://www.youtube.com/watch?v=tZQIeeR17Hk) |
+
 ## Files
 
 - `source-alex-mercouris-russia-warns-nato-baltic-war-test-nuclear-forces-putin-to-china-trump-iran-retreat-konstantinovka-2026-05-19.md`

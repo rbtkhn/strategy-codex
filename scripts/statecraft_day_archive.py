@@ -56,6 +56,8 @@ class ArchiveFile:
     source_form: str
     kind_label: str
     has_frontmatter: bool
+    source_url: str
+    youtube_id: str
 
 
 @dataclass(frozen=True)
@@ -241,8 +243,9 @@ def guest_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
 
     if "guest_people" in meta:
         explicit = list(as_values(meta.get("guest_people")))
-        _append_person_values(out, tuple(explicit))
-        return tuple(out)
+        if explicit:
+            _append_person_values(out, tuple(explicit))
+            return tuple(out)
 
     explicit_guest_like = as_values(meta.get("guest")) + as_values(meta.get("guests")) + _pattern_person_values(meta, r"guest_\d+")
     if explicit_guest_like:
@@ -338,6 +341,10 @@ def collect_archive_file(path: Path) -> ArchiveFile:
     )
     channel_values = tuple(filter(None, (normalize_channel_label(v) for v in channel_values)))
     thread_values = derive_thread_values(meta, guest_values)
+    source_url = norm_scalar(meta.get("source_url"))
+    youtube_id = norm_scalar(meta.get("youtube_id"))
+    if not source_url and youtube_id:
+        source_url = f"https://www.youtube.com/watch?v={youtube_id}"
     return ArchiveFile(
         path=path,
         name=path.name,
@@ -351,6 +358,8 @@ def collect_archive_file(path: Path) -> ArchiveFile:
         source_form=infer_source_form(meta, host_values, guest_values),
         kind_label=norm_scalar(meta.get("kind")) or type_label(path.name),
         has_frontmatter=bool(meta),
+        source_url=source_url,
+        youtube_id=youtube_id,
     )
 
 
@@ -465,8 +474,30 @@ def counter_to_list(counter: Counter[str]) -> list[dict[str, int | str]]:
     ]
 
 
+def _source_index_voice_label(record: ArchiveFile) -> str:
+    if record.guest_values:
+        return ", ".join(record.guest_values)
+    if record.host_values:
+        return record.host_values[0]
+    return record.show or record.title or record.name
+
+
+def _source_index_thread_label(record: ArchiveFile) -> str:
+    if not record.thread_values:
+        return "—"
+    return ", ".join(f"`{value}`" for value in record.thread_values)
+
+
+def _source_index_youtube_cell(record: ArchiveFile) -> str:
+    if record.source_url:
+        label = record.youtube_id or "watch"
+        return f"[{label}]({record.source_url})"
+    return "—"
+
+
 def build_day_readme(day_dir: Path) -> str:
     summary = summarize_day_dir(day_dir)
+    records = [collect_archive_file(path) for path in iter_source_files(day_dir)]
     stats = [
         f"- Source files: `{summary.source_count}`",
         f"- Helper notes (excluded from source count): `{summary.helper_count}`",
@@ -497,9 +528,33 @@ def build_day_readme(day_dir: Path) -> str:
         f"- Guests: {fmt_counter(summary.guest_counter)}",
         f"- Threads: {fmt_counter(summary.thread_counter)}",
         "",
+        "## Ingest register",
+        "",
+        "_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._",
+        "",
+        "| Guest / voice | Show | Thread | YouTube |",
+        "| --- | --- | --- | --- |",
+    ]
+    for record in records:
+        lines.append(
+            "| "
+            + " | ".join(
+                [
+                    _source_index_voice_label(record).replace("|", "\\|"),
+                    (record.show or "—").replace("|", "\\|"),
+                    _source_index_thread_label(record),
+                    _source_index_youtube_cell(record),
+                ]
+            )
+            + " |"
+        )
+    lines.extend(
+        [
+        "",
         "## Files",
         "",
-    ]
+        ]
+    )
     lines.extend(f"- `{name}`" for name in summary.file_names)
     if summary.helper_file_names:
         lines.extend(

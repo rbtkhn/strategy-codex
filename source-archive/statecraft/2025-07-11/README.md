@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Chaz Freeman` (1)
 - Threads: `freeman` (2), `diesen` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Chaz Freeman | Dialogue Works | `freeman`, `nima` | — |
+| Chas Freeman | Glenn Diesen | `freeman`, `diesen` | — |
+
 ## Files
 
 - `source-dialogue-works-amb-chas-freeman-war-zones-can-china-ukraine-gaza-and-iran-ever-achieve-peace-2025-07-11.md`

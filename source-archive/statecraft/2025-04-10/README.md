@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1)
 - Threads: `daniel-davis-deep-dive` (2), `davis` (2), `mercouris` (2), `napolitano` (2), `johnson` (1), `mearsheimer` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fpgiaXmOko8) |
+| Larry Johnson | Daniel Davis Deep Dive | `daniel-davis-deep-dive`, `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=_Ury1HLURrA) |
+| Alexander Mercouris | Daniel Davis Deep Dive | `daniel-davis-deep-dive`, `davis`, `mercouris` | [watch](https://www.youtube.com/watch?v=Q5G-OyRHIUU) |
+| John Mearsheimer | Judging Freedom | `napolitano`, `mearsheimer` | — |
+| Lawrence Wilkerson | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=4LcjHxKHNfs) |
+
 ## Files
 
 - `source-alex-mercouris-trump-pauses-bond-crisis-forces-tariff-u-turn-china-stands-firm-shock-russian-toretsk-advance-2025-04-10.md`

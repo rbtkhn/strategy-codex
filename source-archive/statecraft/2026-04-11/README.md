@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jiang Xueqin` (1)
 - Threads: `diesen` (1), `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=sub1-K7SX2E) |
+| Jiang Xueqin | Diesen - Greater Eurasia Podcast | `diesen` | [watch](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
+| source-simplicius-stymied-by-new-ukrainian-drone-wall-2026-04-11.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/stymied-by-new-ukrainian-drone-wall) |
+
 ## Files
 
 - `source-alex-mercouris-iran-keeps-hormuz-russia-keeps-advancing-two-wars-at-a-crossroads-russia-2026-04-11.md`

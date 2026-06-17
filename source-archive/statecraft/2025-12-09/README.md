@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1), `Manuel Ramos` (1), `Yakov Rabkin` (1)
 - Threads: `napolitano` (2), `freeman` (1), `mearsheimer` (1), `mercouris` (1), `neutrality` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=VBsacbeWf2A) |
+| Chas Freeman | Judging Freedom | `freeman`, `napolitano` | [watch](https://www.youtube.com/watch?v=RQmrO_UfRTA) |
+| John Mearsheimer | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=cIkh_ZXs1Og) |
+| Jeffrey Sachs, Yakov Rabkin, Manuel Ramos | Neutrality Studies | `neutrality`, `sachs` | [watch](https://www.youtube.com/watch?v=BzU6frsoNoc) |
+
 ## Files
 
 - `source-alex-mercouris-us-ukraine-peace-plan-collapses-zelensky-defiant-eu-usurps-fund-raising-2025-12-09.md`

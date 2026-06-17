@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1), `Lawrence Wilkerson` (1)
 - Threads: `napolitano` (2), `mearsheimer` (1), `mercouris` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=TDvSNXAUwm8) |
+| John Mearsheimer | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Uj2zbuIBHQg) |
+| Lawrence Wilkerson | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=rMDvW8fDWFQ) |
+
 ## Files
 
 - `source-alex-mercouris-trump-tariffs-stun-world-cancel-globalisation-witkoff-dmitriev-us-russia-backchannel-eu-uk-fume-2025-04-03.md`

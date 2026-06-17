@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (2), `John Mearsheimer` (1)
 - Threads: `freeman` (2), `davis` (1), `diesen` (1), `mearsheimer` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Chas Freeman | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=XnwRxZ-JIXA) |
+| Chas Freeman | Dialogue Works | `freeman`, `nima` | — |
+| John Mearsheimer | — | `diesen`, `mearsheimer` | — |
+
 ## Files
 
 - `source-daniel-davis-deep-dive-western-diplomacy-destroying-itself-w-fmr-ambassador-chas-freeman-2025-08-01.md`

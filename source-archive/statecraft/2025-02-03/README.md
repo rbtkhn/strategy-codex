@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1)
 - Threads: `napolitano` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.jeffsachs.org/judge-napolitano/krat3xc328x5cbbr8zle49m62fgjx5') |
+
 ## Files
 
 - `source-napolitano-sachs-iran-wants-peace-israel-wants-more-war-2025-02-03.md`

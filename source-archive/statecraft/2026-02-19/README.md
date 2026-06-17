@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1), `Scott Ritter` (1)
 - Threads: `diesen` (1), `martyanov` (1), `mercouris` (1), `nima` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nvmCo7mLET8) |
+| Andrei Martyanov | Dialogue Works | `martyanov`, `nima` | [7gT4A9FO7KQ](https://www.youtube.com/watch?v=7gT4A9FO7KQ) |
+| Scott Ritter | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=BCRE6IDTTLI) |
+
 ## Files
 
 - `source-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19.md`

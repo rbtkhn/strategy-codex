@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry C. Johnson` (1), `Lawrence Wilkerson` (1)
 - Threads: `johnson` (1), `mercouris` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=cpxCZDBLBPI) |
+| Lawrence Wilkerson, Larry C. Johnson | Dialogue Works | `wilkerson`, `johnson` | [watch](https://www.youtube.com/watch?v=wksOI_KEaAU) |
+
 ## Files
 
 - `source-alex-mercouris-moscow-appoints-tough-general-as-prepares-big-offensive-zelensky-capitulates-agrees-to-direct-talks-2025-05-16.md`

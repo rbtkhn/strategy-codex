@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Crooke` (1), `Larry Johnson` (1), `Macgregor` (1), `Ray McGovern` (1), `Stanislav Krapivnik` (1)
 - Threads: `davis` (4), `dialogue-works` (2), `crooke` (1), `diesen` (1), `johnson` (1), `krapivnik` (1), `macgregor` (1), `mcgovern` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=oLZZaa8GN8M) |
+| Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [71u5rtj3hEA](https://www.youtube.com/watch?v=71u5rtj3hEA) |
+| Crooke | Daniel Davis Deep Dive | `davis`, `crooke` | [LGCjDWZthk0](https://www.youtube.com/watch?v=LGCjDWZthk0) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [WcOiSr-7vkE](https://www.youtube.com/watch?v=WcOiSr-7vkE) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [dJh590-l7V4](https://www.youtube.com/watch?v=dJh590-l7V4) |
+| Ray McGovern | Dialogue Works | `dialogue-works`, `mcgovern` | [ldPsthjx8r0](https://www.youtube.com/watch?v=ldPsthjx8r0) |
+| Stanislav Krapivnik | Dialogue Works | `dialogue-works`, `krapivnik` | [9GVD2vm0Z1A](https://www.youtube.com/watch?v=9GVD2vm0Z1A) |
+| Larry Johnson | Glenn Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=h-VYTKzDMZ0) |
+
 ## Files
 
 - `source-alex-mercouris-eu-despair-says-iran-war-disaster-for-kiev-iran-crushes-us-regime-change-2026-03-15.md`

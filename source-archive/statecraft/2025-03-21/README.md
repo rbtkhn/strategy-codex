@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1)
 - Threads: `freeman` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fv7VjlmohWY) |
+| Chas Freeman | Dialogue Works | `freeman` | — |
+
 ## Files
 
 - `source-alex-mercouris-starmer-humiliated-as-eu-allies-drift-away-eu-states-no-to-troops-in-ukraine-trump-downgrades-nato-2025-03-21.md`

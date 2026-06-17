@@ -244,7 +244,9 @@ def build_month_readme(root: Path, month: str, day_dirs: list[Path]) -> str:
     lines = [
         f"# Statecraft Archive - {month}",
         "",
-        "_Generated inventory note. Rebuild with `python scripts/build_statecraft_month_indices.py`._",
+        "_Generated inventory note. Rebuild with `python scripts/build_statecraft_month_indices.py` or `python scripts/refresh_statecraft_archive_indices.py`._",
+        "",
+        "_Month archive rollup — drill down via each day README **Ingest register**._",
         "",
         "## Stats",
         "",

@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1)
 - Threads: `macgregor` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/NkvaukA0438) |
+
 ## Files
 
 - `source-napolitano-macgregor-will-us-attack-iran-2025-03-19.md`

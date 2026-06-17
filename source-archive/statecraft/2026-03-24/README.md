@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (1)
 - Threads: `pape` (2), `marandi` (1), `mercouris` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hiz6KpkaSM8) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=b3h1gOSKR_E) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-gamblers-conceit-in-war) |
+| source-pape-trumps-words-dont-predict-war-his-2026-03-24.md | — | `pape` | [watch](https://escalationtrap.substack.com/p/trumps-words-dont-predict-war-his) |
+
 ## Files
 
 - `source-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md`

@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Chas Freeman` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1)
 - Threads: `diesen` (2), `nima` (2), `crooke` (1), `freeman` (1), `johnson` (1), `mercouris` (1), `sachs` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=7_8P3JHYXhk) |
+| Chas Freeman | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=gwobyOxdf08) |
+| Larry Johnson, Lawrence Wilkerson | Dialogue Works | `nima`, `johnson`, `wilkerson` | [O8nDFUPG0Hs](https://www.youtube.com/watch?v=O8nDFUPG0Hs) |
+| Alastair Crooke | Diesen | `diesen`, `crooke` | [watch](https://www.youtube.com/watch?v=UlELBkB1bQE) |
+| Jeffrey Sachs | Diesen | `diesen`, `sachs` | [gmtJZvmOOes](https://www.youtube.com/watch?v=gmtJZvmOOes) |
+
 ## Files
 
 - `source-alex-mercouris-russia-steps-up-iran-aid-iran-hits-f35-energy-crisis-causes-recession-fe-2026-03-20.md`

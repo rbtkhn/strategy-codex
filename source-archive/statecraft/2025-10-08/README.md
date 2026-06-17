@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1)
 - Threads: `diesen` (1), `mearsheimer` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| John Mearsheimer | Glenn Diesen | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=bfO9xfn3fdw) |
+
 ## Files
 
 - `source-glenn-diesen-john-mearsheimer-john-mearsheimer-west-destroying-itself-in-ukraine-gaza-2025-10-08.md`

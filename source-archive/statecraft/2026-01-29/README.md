@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1)
 - Threads: `davis` (1), `mearsheimer` (1), `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=CK2OxNRjIoI) |
+| John Mearsheimer | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=CBAHXNFh2mY) |
+| source-simplicius-covering-his-tracks-trump-hard-pivots-2026-01-29.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/covering-his-tracks-trump-hard-pivots) |
+
 ## Files
 
 - `source-alex-mercouris-iran-says-will-close-hormuz-straits-as-us-prepares-attack-rubio-admits-r-2026-01-29.md`

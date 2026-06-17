@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Sergey Karaganov` (1)
 - Threads: `diesen` (1), `karaganov` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=wnKvsvhEZbw) |
+| Sergey Karaganov | Glenn Diesen | `karaganov`, `diesen` | [FH70b-9k4bQ](https://www.youtube.com/watch?v=FH70b-9k4bQ) |
+
 ## Files
 
 - `source-alex-mercouris-istanbul-talks-chaos-trump-sends-witkoff-kellogg-zelensky-talking-only-to-putin-moscow-hardline-2025-05-14.md`

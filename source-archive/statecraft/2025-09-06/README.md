@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1), `Scott Ritter` (1)
 - Threads: `martyanov` (1), `nima` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Andrei Martyanov, Scott Ritter | Dialogue Works | `nima`, `martyanov`, `ritter` | [watch](https://www.youtube.com/watch?v=02fGQz-JB-Q) |
+
 ## Files
 
 - `source-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06.md`

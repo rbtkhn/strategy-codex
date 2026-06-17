@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1), `Lawrence Wilkerson` (1)
 - Threads: `davis` (1), `macgregor` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=nA8rVZE3Vjw) |
+| Douglas Macgregor | Daniel Davis Deep Dive | `macgregor`, `davis` | [watch](https://youtu.be/NOwKPqXUe1I) |
+| Lawrence Wilkerson | Dialogue Works | `wilkerson`, `nima` | [watch](https://www.youtube.com/watch?v=4WzWYQDRUU4) |
+
 ## Files
 
 - `source-alex-mercouris-panic-sweeps-west-merz-talks-deep-strikes-sanctions-calls-grow-as-fears-total-ukraine-defeat-rise-2025-05-27.md`

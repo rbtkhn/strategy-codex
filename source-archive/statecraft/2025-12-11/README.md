@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1), `Douglas Macgregor` (1)
 - Threads: `macgregor` (1), `martyanov` (1), `mercouris` (1), `napolitano` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Zjm6xQL1-P4) |
+| Andrei Martyanov | Dialogue Works | `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=CtMwRfJok38) |
+| Douglas Macgregor | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=YE0vke89ZAc) |
+
 ## Files
 
 - `source-alex-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md`

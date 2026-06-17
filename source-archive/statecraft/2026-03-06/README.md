@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (2), `Larry C. Johnson` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
 - Threads: `davis` (2), `freeman` (2), `nima` (2), `pape` (2), `johnson` (1), `mercouris` (1), `ritter` (1), `simplicius` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=5-KWpHfq5FQ) |
+| Chas Freeman | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=kS_9Jp0Htg4) |
+| Scott Ritter | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=y_jALjcNodU) |
+| Chas Freeman | Dialogue Works | `freeman`, `nima` | [watch](https://www.youtube.com/watch?v=FM1WOmbdzmA) |
+| Larry C. Johnson, Lawrence Wilkerson | Dialogue Works | `johnson`, `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=0eEFS75Z6pY) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/victory-narrative-vs-escalation-reality) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/victory-narratives-are-not-noise) |
+| source-simplicius-iran-blinds-us-with-unprecedented-2026-03-06.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/iran-blinds-us-with-unprecedented) |
+
 ## Files
 
 - `source-alex-mercouris-iran-destroyed-us-mideast-ad-radars-oil-crisis-aragchi-russia-china-help-2026-03-06.md`

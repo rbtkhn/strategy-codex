@@ -23,6 +23,23 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Davis` (3), `Seyed M. Marandi` (2), `Alexander Mercouris` (1), `Chas Freeman` (1), `Dmitry Polyanskiy` (1), `Larry Johnson` (1)
 - Threads: `davis` (4), `diesen` (2), `marandi` (2), `mercouris` (2), `nima` (2), `freeman` (1), `johnson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [8L21nezG_ZU](https://www.youtube.com/watch?v=8L21nezG_ZU) |
+| Davis | Daniel Davis Deep Dive | `davis` | [yFfSXup5nEw](https://www.youtube.com/watch?v=yFfSXup5nEw) |
+| Davis | Daniel Davis Deep Dive | `davis` | [JRNzCOQTTDo](https://www.youtube.com/watch?v=JRNzCOQTTDo) |
+| Davis | Daniel Davis Deep Dive | `davis` | [Uqt5ZW2MxFc](https://www.youtube.com/watch?v=Uqt5ZW2MxFc) |
+| Dmitry Polyanskiy | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=PYOxyv46-6k) |
+| Larry Johnson | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=XfTAxhCrWqQ) |
+| Seyed M. Marandi | Dialogue Works | `marandi`, `nima` | [watch](https://www.youtube.com/watch?v=cA1vwusUpfY) |
+| Alexander Mercouris | Glenn Diesen | `diesen`, `mercouris` | [watch](https://www.youtube.com/watch?v=Wjb4vFK37t0) |
+| Seyed M. Marandi | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=0yA6_tWLp2w) |
+| Chas Freeman | Neutrality Studies | `freeman` | [SkDd27yIkcI](https://www.youtube.com/watch?v=SkDd27yIkcI) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-panics-says-russia-will-attack-kiev-decision-centres-slaviansk-2026-05-16.md`

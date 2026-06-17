@@ -23,6 +23,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (3), `Chas Freeman` (1), `Lawrence Wilkerson` (1), `Trita Parsi` (1)
 - Threads: `ritter` (3), `davis` (2), `diesen` (2), `mercouris` (2), `freeman` (1), `jiang` (1), `nima` (1), `pape` (1), `parsi` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Scott Ritter | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=yHqOBrFyCqA) |
+| Scott Ritter | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=yeSOZPgNars) |
+| Scott Ritter | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=yeSOZPgNars) |
+| Chas Freeman | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=J1FnZp1N5po) |
+| Lawrence Wilkerson | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=YzCI7IDtzXg) |
+| Trita Parsi | Mercouris | `mercouris`, `parsi` | [watch](https://www.youtube.com/watch?v=Pv7003ksQQ4) |
+| Jiang Xueqin | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=6aNh6sBpqvQ) |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=x1xKkvi1wVQ) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/resending-what-really-changed-yesterday) |
+
 ## Files
 
 - `source-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md`

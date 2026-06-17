@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `John Mearsheimer` (1), `Larry Johnson` (1)
 - Threads: `davis` (3), `crooke` (1), `johnson` (1), `mearsheimer` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alastair Crooke | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=rgA1BVTw2us) |
+| Larry Johnson | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=S09xJI92NDc) |
+| John Mearsheimer | — | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=T1rrKDpySTI) |
+
 ## Files
 
 - `source-daniel-davis-deep-dive-alastair-crooke-trump-china-who-s-coming-out-on-top-lt-col-daniel-davis-alastair-crooke-2025-10-30.md`

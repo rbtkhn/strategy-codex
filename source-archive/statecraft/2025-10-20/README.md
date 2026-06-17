@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alex Krainer` (1), `Andrei Martyanov` (1), `Trita Parsi` (1)
 - Threads: `davis` (2), `diesen` (1), `glenn-diesen` (1), `krainer` (1), `martyanov` (1), `mercouris` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hGqf1_KeRXk) |
+| Trita Parsi | Deep Dive | `davis`, `parsi` | [watch](https://www.youtube.com/watch?v=CYcmm9KmMO4) |
+| Andrei Martyanov | Deep Dive | `davis`, `martyanov` | [watch](https://www.youtube.com/watch?v=Jc8t8SBhmCo) |
+| Alex Krainer | Glenn Diesen | `glenn-diesen`, `diesen`, `krainer` | [watch](https://www.youtube.com/watch?v=_HembJRfcFQ) |
+
 ## Files
 
 - `source-alex-mercouris-trump-zelensky-furious-row-us-tells-kiev-accept-moscows-terms-or-be-destroyed-pokrovsk-falls-fast-2025-10-20.md`

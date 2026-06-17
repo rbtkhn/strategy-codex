@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry Johnson` (2), `Alastair Crooke` (1), `Lawrence Wilkerson` (1), `Stanislav Krapivnik` (1)
 - Threads: `johnson` (2), `mercouris` (2), `crooke` (1), `davis` (1), `diesen` (1), `krapivnik` (1), `nima` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=27dyhU7YwvM) |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=cn-PxBNl-7o) |
+| Alastair Crooke | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=-rwVBXNiXSQ) |
+| Larry Johnson, Lawrence Wilkerson | Dialogue Works | `johnson`, `wilkerson` | [oWXaAN633c0](https://www.youtube.com/watch?v=oWXaAN633c0) |
+| Stanislav Krapivnik | Dialogue Works | `nima`, `krapivnik` | [oWXaAN633c0](https://www.youtube.com/watch?v=oWXaAN633c0) |
+| Larry Johnson | Glenn Diesen | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=b9gN6iguB1M) |
+
 ## Files
 
 - `source-alex-mercouris-eu-says-never-buy-russian-oil-gas-backs-kiev-drone-war-energy-shock-russia-breaks-orekhov-defence-2026-05-22.md`

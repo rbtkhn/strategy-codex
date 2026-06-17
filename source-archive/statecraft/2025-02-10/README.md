@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Jacques Baud` (1)
 - Threads: `mercouris` (2), `alex-mercouris` (1), `baud` (1), `christoforou` (1), `daniel-davis-deep-dive` (1), `davis` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `alex-mercouris`, `mercouris` | [watch](https://www.youtube.com/watch?v=mY3k77A4RKA) |
+| Jacques Baud | Daniel Davis Deep Dive | `daniel-davis-deep-dive`, `davis`, `baud` | [watch](https://www.youtube.com/watch?v=TBkvo7JDhWk) |
+| Alexander Mercouris | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=CnhrgU8iUZo) |
+
 ## Files
 
 - `source-alex-mercouris-trump-confirms-putin-call-putin-firm-4-regions-russian-ukraine-kursk-disaster-eu-gas-prices-surge-2025-02-10.md`

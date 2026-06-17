@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jiang Xueqin` (1)
 - Threads: `diesen` (1), `jiang` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=vJeRRZly-T4) |
+| Jiang Xueqin | Glenn Diesen | `jiang`, `diesen` | [watch](https://www.youtube.com/watch?v=80jUKe0blAQ) |
+
 ## Files
 
 - `source-alex-mercouris-moscow-says-no-progress-abu-dhabi-talks-zelensky-won-t-give-up-territory-2026-01-26.md`

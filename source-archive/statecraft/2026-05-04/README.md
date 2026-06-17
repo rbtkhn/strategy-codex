@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Anthony Aguilar` (1), `Jacques Baud` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Scott Ritter` (1)
 - Threads: `nima` (3), `diesen` (2), `aguilar` (1), `baud` (1), `johnson` (1), `mearsheimer` (1), `mercouris` (1), `pape` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Anthony Aguilar | Dialogue Works | `nima`, `aguilar` | [watch](https://www.youtube.com/watch?v=HUg0fyqLmGI) |
+| Larry Johnson | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=wGws3SN4HcE) |
+| Jacques Baud | Dialogue Works | `baud`, `nima` | [watch](https://www.youtube.com/watch?v=_GNFo2d4c2w) |
+| John Mearsheimer | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=dkXQW_ZRL3I) |
+| Scott Ritter | Diesen (Greater Eurasia) | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=NPr9-IynnPE) |
+| Alexander Mercouris | Mercouris | `mercouris` | — |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-united-states-just-made-a-bet) |
+
 ## Files
 
 - `source-alkorshid-anthony-aguilar-hormuz-canberra-blockade-2026-05-04.md`

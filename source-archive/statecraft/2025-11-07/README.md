@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Chas Freeman` (1)
 - Threads: `crooke` (1), `diesen` (1), `freeman` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Chas Freeman | Dialogue Works | `freeman`, `nima` | [WjFnv_rr6Lk](https://www.youtube.com/watch?v=WjFnv_rr6Lk) |
+| Alastair Crooke | — | `diesen`, `crooke` | [watch](https://www.youtube.com/watch?v=VtSyIXu9ZbU) |
+
 ## Files
 
 - `source-dialogue-works-amb-chas-freeman-mamdani-s-victory-development-in-the-levant-and-the-wol-2025-11-07.md`

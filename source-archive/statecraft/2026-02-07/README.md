@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Daniel Davis` (1)
 - Threads: `crooke` (1), `davis` (1), `diesen` (1), `mercouris` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=kOY9J1ZEic0) |
+| source-crooke-trapping-trump-into-an-iran-strike-2026-02-07.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/trapping-trump-into-an-iran-strike) |
+| Daniel Davis | Glenn Diesen (channel / program — pin canonical series title when pinned) | `diesen`, `davis` | [watch](https://www.youtube.com/watch?v=StIeZ7QY7Wk) |
+| Trita Parsi | — | `parsi` | [watch](https://substack.com/@tritaparsi/p-187255116) |
+
 ## Files
 
 - `source-alex-mercouris-russia-knocks-out-kiev-s-nuclear-power-zelensky-panics-blames-ukraine-ad-2026-02-07.md`

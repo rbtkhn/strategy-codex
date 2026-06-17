@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (1), `Matthew Ehret` (1), `Robert Barnes` (1), `Scott Ritter` (1)
 - Threads: `davis` (3), `mercouris` (2), `barnes` (1), `mearsheimer` (1), `pape` (1), `parsi` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xcSgdx6FBAY) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | — |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | — |
+| John Mearsheimer | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=K7dz4QE8VG8) |
+| Scott Ritter | Dialogue Works | `ritter` | [MWlCgZMYqk8](https://www.youtube.com/watch?v=MWlCgZMYqk8) |
+| Robert Barnes, Matthew Ehret | The Duran | `mercouris`, `barnes` | [watch](https://www.youtube.com/watch?v=HRu-Z7AsKIY) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-smart-bomb-trap-is-becoming-a) |
+| Trita Parsi | — | `parsi` | [watch](https://substack.com/@tritaparsi/p-189902536) |
+
 ## Files
 
 - `source-alex-mercouris-iran-hormuz-closure-causes-energy-supply-shock-us-mulls-invasion-fears-l-2026-03-04.md`

@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (2), `Alexander Mercouris` (1), `Douglas Macgregor` (1)
 - Threads: `davis` (2), `freeman` (2), `diesen` (1), `macgregor` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=d3UnDzMJLBY) |
+| Chas Freeman | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=5VdkxjJ2APs) |
+| Chas Freeman | Daniel Davis Deep Dive | `davis`, `freeman` | [watch](https://www.youtube.com/watch?v=KFLnORKKaUk) |
+| Douglas Macgregor | — | `diesen`, `macgregor` | [watch](https://www.youtube.com/watch?v=I-CT0dn6sDc) |
+
 ## Files
 
 - `source-alex-mercouris-moscow-says-nato-de-facto-at-war-with-russia-polish-fm-says-west-too-scared-to-fight-big-afd-gains-2025-09-15.md`

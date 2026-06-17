@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry Johnson` (1), `Scott Ritter` (1)
 - Threads: `crooke` (1), `davis` (1), `johnson` (1), `mercouris` (1), `nima` (1), `parsi` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=X2VilASEwF8) |
+| source-crooke-the-10-point-iranian-framework-and-2026-04-08.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/the-10-point-iranian-framework-and) |
+| Larry Johnson | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=cNNJwYXtChs) |
+| Scott Ritter | Dialogue Works | `nima`, `ritter` | [watch](https://www.youtube.com/watch?v=1lm98BHS0Pc) |
+| Trita Parsi | — | `parsi` | [watch](https://substack.com/@tritaparsi/p-193546518) |
+| source-simplicius-from-dire-straits-to-done-deal-triumphant-2026-04-08.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/from-dire-straits-to-done-deal-triumphant) |
+
 ## Files
 
 - `source-alex-mercouris-us-gives-iran-control-of-hormuz-for-2-week-truce-talks-iran-10-points-us-2026-04-08.md`

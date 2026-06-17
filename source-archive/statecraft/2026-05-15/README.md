@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Daniel Davis` (1), `Dmitry Polyanskiy` (1), `Joe Kent` (1), `Lawrence Wilkerson` (1), `Ted Postol` (1)
 - Threads: `davis` (3), `ai` (1), `diesen` (1), `kent` (1), `mercouris` (1), `nawfal` (1), `pope-leo` (1), `postol` (1), `vatican` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=RsMRz7UrbC8) |
+| Ted Postol | Daniel Davis Deep Dive | `davis`, `postol` | [watch](https://www.youtube.com/watch?v=-CBfkTMoCA0) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=Oy9lqRxquAk) |
+| Dmitry Polyanskiy | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=M0fQsI6L6Lo) |
+| Lawrence Wilkerson | Glenn Diesen | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=HO-Z7dmhHPM) |
+| Joe Kent | Mario Nawfal | `kent`, `nawfal` | [hJuCBS9jPn0](https://www.youtube.com/watch?v=hJuCBS9jPn0) |
+| Magnifica Humanitas — On Safeguarding the Human Person in the Time of Artificial Intelligence | — | `vatican`, `ai`, `pope-leo` | [watch](http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html) |
+
 ## Files
 
 - `source-alex-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md`

@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `davis` (2), `mercouris` (1), `pape` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=apJGoK1HqIU) |
+| COMPLETE DESTRUCTION AND CERTAIN DEATH': Trump's Newest Threat to Iran /Lt Col Daniel Davis | — | `davis` | — |
+| Deep Dive Intel Briefing: What We Learned This Week 3/7/2026 Lt Col Daniel Davis | — | `davis` | — |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-escalation-trap-widens-russias) |
+
 ## Files
 
 - `source-alex-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md`

@@ -23,6 +23,28 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Escalation Trap on Substack)` (1), `Jacques Baud` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Robert Pape (CPOST` (1), `Scott Ritter` (1), `University of Chicago` (1)
 - Threads: `baud` (2), `johnson` (2), `mercouris` (2), `napolitano` (2), `nima` (2), `ritter` (2), `mearsheimer` (1), `pape` (1), `parsi` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=_YFxPQ7bq1Y) |
+| source-araghchi-april-2026-posts-bundle-2026-04-20.md | — | — | — |
+| Daniel Davis | — | `baud` | [watch](https://www.youtube.com/watch?v=Vbmtt9LkJLo) |
+| Jacques Baud | Dialogue Works | `baud`, `nima` | [UrEuENJ13UA](https://www.youtube.com/watch?v=UrEuENJ13UA) |
+| Larry Johnson | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=aUIRaWUtgTA) |
+| source-drpezeshkian-april-2026-posts-bundle-2026-04-20.md | — | — | — |
+| source-ghalibaf-marandi-repost-siege-battlefield-2026-04-20.md | — | — | — |
+| John Mearsheimer | The Chris Hedges Report | `mearsheimer` | — |
+| Andrew Napolitano | — | `johnson` | [watch](https://www.youtube.com/watch?v=geWpX8w7BNU) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [OA1YCYflWeg]('https://www.youtube.com/watch?v=OA1YCYflWeg') |
+| Robert Pape (CPOST, University of Chicago, Escalation Trap on Substack) | — | `pape` | [watch](https://www.youtube.com/watch?v=WemB-vfoMaw) |
+| The Shorting of America | — | `ritter` | [watch](https://www.youtube.com/watch?v=7pXI52jKcOU) |
+| source-russia-blockade-40-ships-hormuz-2026-04-20.md | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-russia-blockade-hormuz-2026-04-20) |
+| Scott Ritter | Judging Freedom | `napolitano`, `ritter` | [watch](https://www.youtube.com/watch?v=QRkC8xniXkQ) |
+| source-x-bundle-2026-04-20.md | — | `parsi` | — |
+
 ## Files
 
 - `source-alex-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md`

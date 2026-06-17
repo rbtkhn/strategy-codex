@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1)
 - Threads: `fidias` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Jeffrey Sachs | Fidias Podcast | `fidias`, `sachs` | [watch](https://www.youtube.com/watch?v=TaFTgWgeKF4) |
+
 ## Files
 
 - `source-fidias-panayiotou-jeffrey-sachs-the-truth-about-who-really-controls-the-world-2025-11-01.md`

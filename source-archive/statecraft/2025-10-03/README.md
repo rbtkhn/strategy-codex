@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Larry C. Johnson` (1), `Lawrence Wilkerson` (1), `Martin Armstrong` (1)
 - Threads: `nima` (2), `armstrong` (1), `johnson` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Larry C. Johnson, Lawrence Wilkerson | Dialogue Works | `nima`, `johnson`, `wilkerson` | [watch](https://www.youtube.com/watch?v=8x0SXBeMxm8) |
+| Martin Armstrong | Dialogue Works | `nima`, `armstrong` | [watch](https://www.youtube.com/watch?v=M_fdBX9yM7M) |
+
 ## Files
 
 - `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-charlie-kirk-update-iran-war-fallout-putin-ignores-trump-2025-10-03.md`

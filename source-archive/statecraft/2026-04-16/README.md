@@ -23,6 +23,23 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Russia` (1), `Seyed M. Marandi` (1)
 - Threads: `davis` (2), `marandi` (2), `mercouris` (2), `pape` (2), `diesen` (1), `johnson` (1), `martyanov` (1), `napolitano` (1), `nima` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Russia | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=7k6Igz-l7rc) |
+| Larry Johnson | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=FAZdq7X98lA) |
+| source-davis-2026-04-16.md | — | `davis` | — |
+| Andrei Martyanov | Dialogue Works | `martyanov`, `nima` | [9QGnItz7CsU](https://www.youtube.com/watch?v=9QGnItz7CsU) |
+| Seyed M. Marandi | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=BwUL5ftAi38) |
+| source-marandi-2026-04-16.md | — | `marandi` | — |
+| source-mercouris-2026-04-16.md | — | `mercouris` | — |
+| Lawrence Wilkerson | Judging Freedom | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=ih7CYro5gGs) |
+| source-pape-2026-04-16.md | — | `pape` | — |
+| source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-iran-war-is-about-to-hit-a-supply) |
+
 ## Files
 
 - `source-alex-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md`

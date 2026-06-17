@@ -23,6 +23,23 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (2), `Douglas Macgregor` (1), `John Helmer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Mike Adams` (1), `Yanis Varoufakis` (1)
 - Threads: `davis` (3), `nima` (3), `diesen` (2), `marandi` (2), `johnson` (1), `macgregor` (1), `mercouris` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| John Helmer | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=WLQeC8gOp-k) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=TLKl_IOhQDQ) |
+| Lawrence Wilkerson | Dialogue Works | `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=3UPreelfuU4) |
+| source-codex-session-2026-05-05.md | — | — | [watch](codex://local-session/strategy-codex/2026-05-05) |
+| Mike Adams | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=S5qPBCuD8iY) |
+| Larry Johnson | Daniel Davis Deep Dive | `davis`, `johnson` | [watch](https://www.youtube.com/watch?v=1otls52eUFM) |
+| Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=pGjhvHh1Hu4) |
+| Seyed M. Marandi | Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=obDEtGXH7rY) |
+| Yanis Varoufakis | Diesen | `diesen` | [watch](https://www.youtube.com/watch?v=jW3RnY_7GYk) |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=MZkXR2swEd0) |
+
 ## Files
 
 - `source-alkorshid-helmer-hormuz-beijing-2026-05-05.md`

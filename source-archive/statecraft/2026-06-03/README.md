@@ -10,8 +10,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Source form mix: `interview` (5), `solo` (2), `article` (1), `newsletter` (1)
 - Distinct channels/shows: `7`
 - Distinct hosts: `6`
-- Distinct guests: `1`
-- Distinct threads: `8`
+- Distinct guests: `5`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
@@ -20,8 +20,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Alexander Mercouris` (1), `Clayton Morris` (1), `Glenn Diesen` (1), `Natali Morris` (1), `Nima Alkhorshid` (1), `Robert Pape` (1)
-- Guests: `Robert Pape` (1)
-- Threads: `napolitano` (2), `nima` (2), `pape` (2), `barnes` (1), `diesen` (1), `johnson` (1), `mercouris` (1), `nawfal` (1)
+- Guests: `Robert Barnes` (2), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Mohammad Marandi` (1), `Robert Pape` (1)
+- Threads: `barnes` (2), `napolitano` (2), `nima` (2), `pape` (2), `diesen` (1), `johnson` (1), `marandi` (1), `mercouris` (1), `nawfal` (1), `sachs` (1)
+
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=ZkA_Wc6JJ-g) |
+| Robert Barnes | Dialogue Works | `nima`, `barnes` | [watch](https://www.youtube.com/watch?v=c9xkvJjlAC0) |
+| Robert Barnes | Mario Nawfal | `barnes`, `nawfal` | [watch](https://www.youtube.com/watch?v=2DsnE3Gzk1s) |
+| Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [watch](https://thjodolfur.is/2026/06/03/leitogar-nothing-to-create-peace/) |
+| Larry Johnson | Judging Freedom | `johnson`, `napolitano` | [yLSrunuWrns](https://www.youtube.com/watch?v=yLSrunuWrns) |
+| Mohammad Marandi | Judging Freedom | `napolitano`, `marandi` | [watch](https://www.youtube.com/watch?v=rzLN4YbGnw4) |
+| Nima Alkhorshid | Dialogue Works | `nima` | [watch](https://www.youtube.com/watch?v=PQWhsrD4XhY) |
+| Robert Pape | escalationtrap.substack.com | `pape` | [watch](https://escalationtrap.substack.com/p/bombing-while-talking-ii) |
+| Robert Pape | Redacted News | `pape` | [watch](https://www.youtube.com/watch?v=9cgeFOY5XEo) |
 
 ## Files
 

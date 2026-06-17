@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Andrei Martyanov` (1), `Ray McGovern` (1)
 - Threads: `davis` (1), `martyanov` (1), `mcgovern` (1), `mercouris` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1jxZRCYYLhU) |
+| Andrei Martyanov | Daniel Davis Deep Dive | `davis`, `martyanov` | [watch](https://www.youtube.com/watch?v=u_SEVApCr9k) |
+| Ray McGovern | Dialogue Works | `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=w24parHs8_U) |
+
 ## Files
 
 - `source-alex-mercouris-ukraine-calamitous-month-mirnograd-huliaipole-rodinska-stepnogorsk-fall-2025-12-29.md`

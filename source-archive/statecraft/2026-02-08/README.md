@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fts0FNg3SjY) |
+| source-simplicius-oman-talks-just-a-fig-leaf-for-total-2026-02-08.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/oman-talks-just-a-fig-leaf-for-total) |
+
 ## Files
 
 - `source-alex-mercouris-russia-alexeyev-gunman-kiev-agent-energy-crisis-zelensky-rages-blames-of-2026-02-08.md`

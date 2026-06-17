@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (1), `Seyed Mohammad Marandi` (1)
 - Threads: `marandi` (2), `mercouris` (2), `crooke` (1), `davis` (1), `diesen` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Zv6xKMJp3xk) |
+| source-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/ways-of-war-are-in-metamorphosis) |
+| Daniel Davis | Daniel Davis / Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=MYL36jQgHGw) |
+| Key Excerpts - May 9, 2026 Streams | — | `mercouris` | [watch](codex://local-note/statecraft/2026-05-09/key-excerpts) |
+| Seyed M. Marandi | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=4gdDbX629bc) |
+| Seyed Mohammad Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=RDvZv4mZTlg) |
+
 ## Files
 
 - `source-alex-mercouris-victory-day-kiev-hormuz-britain-local-elections-2026-05-09.md`

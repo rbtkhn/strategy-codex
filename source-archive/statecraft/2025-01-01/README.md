@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `2025 War Strategies` (1), `Terror Attack in New Orleans` (1)
 - Threads: `davis` (2)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| 2025 War Strategies | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=oprWGbfiqpU) |
+| Terror Attack in New Orleans | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=oyNOn4OF3H4) |
+
 ## Files
 
 - `source-daniel-davis-deep-dive-2025-war-strategies-putin-v-zelensky-w-larry-johnson-2025-01-01.md`

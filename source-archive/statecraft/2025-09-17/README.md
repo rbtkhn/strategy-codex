@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
 - Threads: `diesen` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `ritter` (1), `sachs` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=GKtzMUGqJ5Y) |
+| Lawrence Wilkerson | Dialogue Works | `nima`, `wilkerson` | [watch](https://www.youtube.com/watch?v=ghNe58JJqfg) |
+| Scott Ritter | — | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=ShWxrWtCiKI) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=HK1bhJkSCg0') |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-sacks-generals-as-front-lines-collapse-huge-russian-strike-starmer-plots-mount-modi-trump-2025-09-17.md`

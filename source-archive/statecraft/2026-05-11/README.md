@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Jacques Baud` (1), `Jiang Xueqin` (1), `Larry Johnson` (1)
 - Threads: `nima` (2), `baud` (1), `crooke` (1), `davis` (1), `diesen` (1), `johnson` (1), `mercouris` (1), `pape` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=6aV9-8xxcEk) |
+| Jacques Baud | Dialogue Works | `nima`, `baud` | [watch](https://www.youtube.com/watch?v=5D-OD0iezZ8) |
+| Larry Johnson | Dialogue Works | `nima`, `johnson` | — |
+| Alastair Crooke | Daniel Davis Deep Dive | `davis`, `crooke` | [watch](https://www.youtube.com/watch?v=0cw2HmMpvDQ) |
+| Jiang Xueqin | Diesen - Greater Eurasia Podcast | `diesen` | [watch](https://www.youtube.com/watch?v=RWTvTzWYG0o) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-5-warning-signs-that-the-iran) |
+
 ## Files
 
 - `source-alex-mercouris-starmer-ukraine-donbass-russia-china-iran-2026-05-11.md`

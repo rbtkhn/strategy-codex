@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Jacques Baud` (1), `John Kiriakou` (1), `Larry Johnson` (1), `Scott Ritter` (1), `Tucker Carlson` (1)
 - Threads: `nima` (2), `baud` (1), `carlson` (1), `crooke` (1), `diesen` (1), `jiang` (1), `johnson` (1), `kiriakou` (1), `mercouris` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=rTNbtvE3z2M) |
+| Jacques Baud | Dialogue Works | `baud`, `nima` | [watch](https://www.youtube.com/watch?v=iZ5xSBYxxyQ) |
+| Larry Johnson | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=LbWGNOSYBbM) |
+| Alastair Crooke | — | `diesen`, `crooke` | [watch](https://www.youtube.com/watch?v=OW3_a-oUrVQ) |
+| Jiang Xueqin | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=Ts-AA6LQf6I) |
+| Tucker Carlson, John Kiriakou | — | `carlson`, `kiriakou` | — |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/a-new-middle-eastern-power-paradigm) |
+| source-simplicius-us-carrier-groups-trump-dissatisfied-iran-2026-04-27.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/us-carrier-groups-in-position-for) |
+
 ## Files
 
 - `source-alex-mercouris-iran-toughens-terms-as-aragchi-meets-putin-refuses-talks-on-enrichment-r-2026-04-27.md`

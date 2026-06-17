@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (2), `John Mearsheimer` (1), `Military Executive Orders` (1)
 - Threads: `davis` (3), `macgregor` (2), `mearsheimer` (1), `mercouris` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=J6XyKhmt9kk) |
+| Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=70i16VsAdGc) |
+| John Mearsheimer | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=35WbCScleKE) |
+| Military Executive Orders | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=tfumWjxYTV8) |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=Oowabedqnks) |
+
 ## Files
 
 - `source-alex-mercouris-putin-no-talks-with-zelensky-has-no-legal-status-cannot-be-trusted-us-ms-2025-01-29.md`

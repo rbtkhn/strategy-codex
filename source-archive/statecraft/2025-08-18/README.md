@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Daniel Davis` (1)
 - Threads: `davis` (1), `diesen` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Daniel Davis | Glenn Diesen | `diesen`, `davis` | [watch](https://www.youtube.com/watch?v=RzvynWcMfc0) |
+
 ## Files
 
 - `source-glenn-diesen-daniel-davis-trump-pushes-zelensky-europe-on-peace-deal-2025-08-18.md`

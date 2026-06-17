@@ -23,6 +23,22 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Anthony Aguilar` (1), `Chas Freeman` (1), `Daniel Davis` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Mohammad Marandi` (1), `Robert Pape` (1)
 - Threads: `nawfal` (3), `davis` (2), `nima` (2), `aguilar` (1), `freeman` (1), `johnson` (1), `macgregor` (1), `marandi` (1), `napolitano` (1), `pape` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [jcARR_UKX_A](https://www.youtube.com/watch?v=jcARR_UKX_A) |
+| Chas Freeman | Dialogue Works | `freeman`, `nima` | [J91TtI--ANQ](https://www.youtube.com/watch?v=J91TtI--ANQ) |
+| Daniel Davis | Dialogue Works | `davis`, `nima` | [4NqmfOYz55w](https://www.youtube.com/watch?v=4NqmfOYz55w) |
+| Mohammad Marandi | India and Global Left | `marandi` | [watch](https://www.youtube.com/watch?v=4yvbGF6vn0I) |
+| Jeffrey Sachs | Judging Freedom | `sachs`, `napolitano` | [Es4VF57_VAU](https://www.youtube.com/watch?v=Es4VF57_VAU) |
+| Anthony Aguilar | Mario Nawfal | `aguilar`, `nawfal` | [watch](https://www.youtube.com/watch?v=-B78m8F_2SQ) |
+| Larry Johnson | Mario Nawfal | `johnson`, `nawfal` | [watch](https://www.youtube.com/watch?v=mRgCzrreKu4) |
+| Robert Pape | Mario Nawfal | `pape`, `nawfal` | [watch](https://www.youtube.com/watch?v=49oYoBv-9pM) |
+| Douglas Macgregor | Neutrality Studies | `macgregor` | [xTO_QDVulkQ](https://www.youtube.com/watch?v=xTO_QDVulkQ) |
+
 ## Files
 
 - `source-daniel-davis-iran-trump-and-trust-2026-05-29.md`

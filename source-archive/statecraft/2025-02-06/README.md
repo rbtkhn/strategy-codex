@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1), `Lawrence Wilkerson` (1)
 - Threads: `lottaz` (1), `macgregor` (1), `napolitano` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://youtu.be/ndT3ZWvjmCY) |
+| Lawrence Wilkerson | Neutrality Studies | `lottaz`, `wilkerson` | [watch](https://www.youtube.com/watch?v=FUp3BaPdHIY) |
+
 ## Files
 
 - `source-napolitano-macgregor-can-the-us-own-gaza-2025-02-06.md`

@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Seyed M. Marandi` (1)
 - Threads: `diesen` (1), `freeman` (1), `marandi` (1), `mercouris` (1), `nima` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=eU6mhg4GKjs) |
+| Chas Freeman | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=xjRDqdqEl4Y) |
+| Seyed M. Marandi | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=g8h8IFWuNE8) |
+| Trita Parsi | — | `parsi` | [watch](https://tritaparsi.substack.com/p/trumps-blockade-snatches-defeat-from) |
+
 ## Files
 
 - `source-alex-mercouris-gulf-states-follow-uae-beg-us-aid-kiev-eu-row-russia-tells-kiev-troops-k-2026-05-01.md`

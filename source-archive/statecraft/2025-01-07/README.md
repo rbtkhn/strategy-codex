@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Devastating Failure in Ukraine's Kursk Offensive` (1), `Iran` (1), `Israel` (1), `Over 100k Ukraine Troops Charged With Desertion` (1), `Russia` (1), `Trump Tells Zelensky` (1), `Trump on Ukraine` (1), `Trump's Ukraine Dilemma` (1)
 - Threads: `davis` (5), `freeman` (1), `mercouris` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=t5Y8iaJPYEA) |
+| Devastating Failure in Ukraine's Kursk Offensive | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=2-yrlT91t28) |
+| Over 100k Ukraine Troops Charged With Desertion | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=zw2tTf_aB8Y) |
+| Trump on Ukraine, Russia, Iran, Israel | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=oxDI-Ralqy8) |
+| Trump's Ukraine Dilemma | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=9EH9P415wHk) |
+| Trump Tells Zelensky | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=fwgquSSc4NE) |
+| Chas Freeman | Judging Freedom | `freeman`, `napolitano` | — |
+
 ## Files
 
 - `source-alex-mercouris-kiev-s-disastrous-week-kurakhovo-lost-kursk-attack-defeated-kellogg-dela-2025-01-07.md`

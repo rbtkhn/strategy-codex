@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1)
 - Threads: `crooke` (1), `mercouris` (1), `nima` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=r1W2yUccMC8) |
+| Alastair Crooke | Dialogue Works | `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=IAKqyzQen04) |
+| source-simplicius-has-russia-finally-begun-disconnecting-2026-01-25.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/has-russia-finally-begun-disconnecting) |
+
 ## Files
 
 - `source-alex-mercouris-moscow-no-concessions-us-acting-as-conflict-party-abu-dhabi-talks-oreshn-2026-01-25.md`

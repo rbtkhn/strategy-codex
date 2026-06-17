@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alastair Crooke` (1), `Lawrence Wilkerson` (1)
 - Threads: `crooke` (1), `diesen` (1), `nima` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alastair Crooke | — | `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=TtZr_v4rWBo) |
+| Lawrence Wilkerson | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=MujCTLhegRk) |
+
 ## Files
 
 - `source-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md`

@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Andrei Martyanov` (1), `Douglas Macgregor` (1), `John Mearsheimer` (1)
 - Threads: `napolitano` (2), `macgregor` (1), `martyanov` (1), `mearsheimer` (1), `mercouris` (1), `nima` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=dpgWdd1leQc) |
+| Andrei Martyanov | Dialogue Works | `nima`, `martyanov` | [watch](https://www.youtube.com/watch?v=V0IIiN_Pz2o) |
+| Douglas Macgregor | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=tOPA0ZrK3Xo) |
+| John Mearsheimer | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=eZiezQfSt9Q) |
+
 ## Files
 
 - `source-alex-mercouris-ukraine-rocked-russia-smashes-through-zaporozhye-kupiansk-mirnograd-corruption-crisis-engulfs-kiev-2025-11-13.md`

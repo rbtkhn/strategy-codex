@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (1), `Joe Kent` (1), `Lawrence Wilkerson` (1)
 - Threads: `napolitano` (2), `crooke` (1), `davis` (1), `kent` (1), `macgregor` (1), `mercouris` (1), `simplicius` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=9KA_hbYSQ38) |
+| source-crooke-are-there-or-will-there-be-us-negotiations-2026-03-26.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/are-there-or-will-there-be-us-negotiations) |
+| Joe Kent | Daniel Davis Deep Dive | `davis`, `kent` | [qJRF7sd1Yvs](https://www.youtube.com/watch?v=qJRF7sd1Yvs) |
+| Douglas Macgregor | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=m_hL84kCcgA) |
+| Lawrence Wilkerson | — | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=aq32fmNwp9A) |
+| source-simplicius-russian-smo-enters-doldrums-under-2026-03-26.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/russian-smo-enters-doldrums-under) |
+
 ## Files
 
 - `source-alex-mercouris-us-faces-strategic-defeat-iran-won-t-talk-us-gambles-on-kharg-capture-ru-2026-03-26.md`

@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Lawrence Wilkerson` (1)
 - Threads: `napolitano` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Lawrence Wilkerson | Judging Freedom | `napolitano`, `wilkerson` | [watch](https://www.youtube.com/watch?v=fao5idZI928) |
+
 ## Files
 
 - `source-napolitano-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md`

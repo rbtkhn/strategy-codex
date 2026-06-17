@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (2)
 - Threads: `macgregor` (2), `davis` (1), `mercouris` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zYpQKccY_es) |
+| Douglas Macgregor | Daniel Davis Deep Dive | `macgregor`, `davis` | [watch](https://youtu.be/gyyciD6K31s) |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=qWanSWG3wDY) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-defies-us-refuses-talks-hates-putin-us-arms-supplies-about-to-end-eu-makes-more-threats-2025-04-15.md`

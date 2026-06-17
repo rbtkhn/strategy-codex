@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (2), `Jeffrey Sachs` (1)
 - Threads: `diesen` (2), `marandi` (2), `davis` (1), `jiang` (1), `mercouris` (1), `nima` (1), `pape` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=z5f8biIKc6M) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [E1hNNQvGPGs](https://www.youtube.com/watch?v=E1hNNQvGPGs) |
+| Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=3EfEitDQPj4) |
+| Seyed M. Marandi | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=igXSXxqMRfc) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=3CWFQOwYh0M) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/trump-may-be-approaching-the-biggest) |
+| Predictive History | — | `jiang` | [watch](https://substack.com/home/post/p-198940832) |
+
 ## Files
 
 - `source-alex-mercouris-russia-vows-starobelsk-retaliation-nato-says-russia-hijacking-kiev-s-drones-msm-us-losing-iran-war-2026-05-23.md`

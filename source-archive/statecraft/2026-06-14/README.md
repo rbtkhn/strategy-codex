@@ -23,6 +23,19 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (3), `Anthony Aguilar` (1), `Larry Johnson` (1)
 - Threads: `marandi` (3), `nima` (3), `aguilar` (1), `davis` (1), `diesen` (1), `johnson` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [4xSucEKL32Y](https://www.youtube.com/watch?v=4xSucEKL32Y) |
+| Anthony Aguilar | Dialogue Works | `nima`, `aguilar` | [bZxS4saKQAY](https://www.youtube.com/watch?v=bZxS4saKQAY) |
+| Larry Johnson, Seyed M. Marandi | Dialogue Works | `johnson`, `nima`, `marandi` | [t1MaItycdFc](https://www.youtube.com/watch?v=t1MaItycdFc) |
+| Nima Alkhorshid | Dialogue Works | `nima` | [BlK5ONxCrg8](https://www.youtube.com/watch?v=BlK5ONxCrg8) |
+| Seyed M. Marandi | Daniel Davis Deep Dive | `davis`, `marandi` | [9G1MmiwmGx0](https://www.youtube.com/watch?v=9G1MmiwmGx0) |
+| Seyed M. Marandi | Glenn Diesen | `diesen`, `marandi` | [dD-FxfqKIwA](https://www.youtube.com/watch?v=dD-FxfqKIwA) |
+
 ## Files
 
 - `source-alex-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md`

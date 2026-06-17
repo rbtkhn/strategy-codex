@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Jeffrey Sachs` (1), `Larry C. Johnson` (1)
 - Threads: `freeman` (1), `johnson` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=hs_Dl4fIRkE) |
+| Larry C. Johnson | — | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=-1Cpb5Nh7zc) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=WPcgkd-sC3s') |
+| Chas Freeman | Neutrality Studies | `freeman` | [watch](https://www.youtube.com/watch?v=mWVoUlmIL_I) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-wants-us-alliance-says-no-kiev-donbass-retreat-tense-talks-eu-b-2025-12-15.md`

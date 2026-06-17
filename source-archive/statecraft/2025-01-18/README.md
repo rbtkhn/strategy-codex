@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alex Krainer` (1), `Deep Dive Intel Briefing` (1), `Did Israel Just Admit DEFEAT to Hamas?` (1), `Lawrence Wilkerson` (1), `Prepared to say Israel Committed War Crimes?` (1)
 - Threads: `davis` (3), `krainer` (1), `mercouris` (1), `nima` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=41dKk_qYOvE) |
+| Deep Dive Intel Briefing | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=76W9pyG4Scs) |
+| Did Israel Just Admit DEFEAT to Hamas? | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=7cauctJTefA) |
+| Prepared to say Israel Committed War Crimes? | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=OpvenLHtSNY) |
+| Alex Krainer, Lawrence Wilkerson | Dialogue Works | `nima`, `krainer`, `wilkerson` | [watch](https://www.youtube.com/watch?v=y5om65Go7yk) |
+
 ## Files
 
 - `source-alex-mercouris-big-oreshnik-strikes-coming-starmer-zelensky-surreal-uk-promises-moscow-2025-01-18.md`

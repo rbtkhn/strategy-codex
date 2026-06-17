@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jeffrey Sachs` (1), `Las Vegas Cybertruck Explosion` (1), `Negotiating Bridge to Nowhere` (1), `Russia Advancing on All Fronts` (1)
 - Threads: `davis` (3), `mercouris` (1), `napolitano` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=FO6FQ9e80PQ) |
+| Las Vegas Cybertruck Explosion | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=-3K2avV1DTg) |
+| Negotiating Bridge to Nowhere | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=2lcgYDyzbNc) |
+| Russia Advancing on All Fronts | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=odn9UowksqM) |
+| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [uM0dZtQSk-8](https://www.youtube.com/watch?v=uM0dZtQSk-8) |
+
 ## Files
 
 - `source-alex-mercouris-trump-shock-fortress-america-greenland-no-ukraine-nato-europe-shock-iran-2025-01-08.md`

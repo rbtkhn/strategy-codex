@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Brian Berletic` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
 - Threads: `berletic` (1), `diesen` (1), `mercouris` (1), `nima` (1), `ritter` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=GawAwUwW6zU) |
+| Lawrence Wilkerson, Scott Ritter | Dialogue Works | `nima`, `wilkerson`, `ritter` | [watch](https://www.youtube.com/watch?v=vi0ATui62g0) |
+| Brian Berletic | Glenn Diesen | `diesen`, `berletic` | [watch](https://www.youtube.com/watch?v=1fwXBgu6Z5I) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-uk-eu-plot-to-gatecrash-alaska-summit-russia-breaks-through-pokrovsk-defences-brics-unite-2025-08-10.md`

@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Lawrence Wilkerson` (1)
 - Threads: `diesen` (1), `freeman` (1), `macgregor` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=gKq8NfSV8gw) |
+| Chas Freeman | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=AtJJohRHHV0) |
+| Douglas Macgregor | Glenn Diesen (channel / program — pin canonical series title when known) | `diesen`, `macgregor` | — |
+| Lawrence Wilkerson | — | `wilkerson`, `napolitano` | [watch](https://www.youtube.com/watch?v=p34m7DvSudw) |
+
 ## Files
 
 - `source-alex-mercouris-rutte-gives-trump-greenland-sovereign-bases-shocked-denmark-cut-out-zele-2026-01-22.md`

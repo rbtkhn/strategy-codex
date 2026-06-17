@@ -23,6 +23,21 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1), `Daniel Davis` (1), `Scott Ritter` (1)
 - Threads: `diesen` (2), `mercouris` (2), `pape` (2), `davis` (1), `freeman` (1), `ritter` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [kUy3soYsmKY](https://www.youtube.com/watch?v=kUy3soYsmKY) |
+| Daniel Davis | Glenn Diesen (channel / program — pin canonical series title when known) | `diesen`, `davis` | — |
+| Chas Freeman | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=Xt2e_79Rua4) |
+| Alexander Mercouris | — | `mercouris` | [watch](https://www.youtube.com/watch?v=TBD-mercouris-2026-03-01) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/smart-bomb-trap-confirmed-decapitation) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/what-vox-couldnt-publish) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/regime-change-the-double-edged-sword) |
+| source-simplicius-all-hell-set-to-break-loose-irgc-2026-03-01.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/all-hell-set-to-break-loose-irgc) |
+
 ## Files
 
 - `source-alex-mercouris-iran-defiant-after-khamenei-death-picks-new-leaders-closes-hormuz-contin-2026-03-01.md`

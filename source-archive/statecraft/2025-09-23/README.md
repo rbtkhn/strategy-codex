@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
 - Threads: `freeman` (1), `mercouris` (1), `napolitano` (1), `nima` (1), `ritter` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=F244qeivxcI) |
+| Scott Ritter, Lawrence Wilkerson | Dialogue Works | `nima`, `ritter`, `wilkerson` | [watch](https://www.youtube.com/watch?v=aBTVtOp3Xaw) |
+| Chas Freeman | Judging Freedom | `freeman`, `napolitano` | — |
+
 ## Files
 
 - `source-alex-mercouris-west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west-2025-09-23.md`

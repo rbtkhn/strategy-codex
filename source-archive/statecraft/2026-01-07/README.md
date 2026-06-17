@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1)
 - Threads: `diesen` (2), `freeman` (1), `macgregor` (1), `mearsheimer` (1), `mercouris` (1), `napolitano` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=zt_62WmFxOM) |
+| John Mearsheimer | Diesen (Greater Eurasia) | `diesen`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=-NQ3lnuYcXs) |
+| Chas Freeman | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=3aAQvsjGkKQ) |
+| Douglas Macgregor | — | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=2V9477IubQA) |
+| Jeffrey Sachs | Jeffrey Sachs | `sachs` | [watch](https://www.jeffsachs.org/im-archive-by-date) |
+
 ## Files
 
 - `source-alex-mercouris-us-russia-clash-us-seizes-tanker-moscow-sends-submarine-us-no-support-uk-2026-01-07.md`

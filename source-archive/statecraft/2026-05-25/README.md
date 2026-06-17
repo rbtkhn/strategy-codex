@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1), `Jacques Baud` (1), `Larry Johnson` (1)
 - Threads: `mercouris` (2), `nima` (2), `baud` (1), `christoforou` (1), `davis` (1), `diesen` (1), `freeman` (1), `johnson` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fb9862XYmF0) |
+| Jacques Baud | Dialogue Works | `nima`, `baud` | [watch](https://www.youtube.com/watch?v=_KmFdY8_2D4) |
+| Larry Johnson | Dialogue Works | `nima`, `johnson` | [watch](https://www.youtube.com/watch?v=qShS2y0N9Ys) |
+| Daniel Davis | Daniel Davis Deep Dive | `davis` | [4r37apQpSxQ](https://www.youtube.com/watch?v=4r37apQpSxQ) |
+| Alexander Mercouris | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=uzQP74jfkKI) |
+| Chas Freeman | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=RVbHiMHukCc) |
+| Trita Parsi | — | `parsi` | [watch](https://tritaparsi.substack.com/p/a-new-regional-logic-if-israel-strikes) |
+
 ## Files
 
 - `source-alex-mercouris-russia-plans-more-oreshnik-strikes-speeds-up-zaporozhzhye-offensive-europe-ukraine-funds-run-short-2026-05-25.md`

@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: (none)
 - Threads: `mercouris` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=03WEWGLrJL4) |
+| source-simplicius-munich-security-conference-evangelizes-2026-02-14.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/munich-security-conference-evangelizes) |
+
 ## Files
 
 - `source-alex-mercouris-kiev-trembles-ahead-oreshnik-strike-russia-china-together-back-iran-cuba-2026-02-14.md`

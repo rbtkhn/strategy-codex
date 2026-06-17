@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Charles Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1)
 - Threads: `napolitano` (2), `davis` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `mearsheimer` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| John Mearsheimer | — | `davis`, `mearsheimer` | — |
+| Jeffrey Sachs | Glenn Diesen - Greater Eurasia Podcast | `diesen`, `sachs` | [watch](https://podbay.fm/p/1822142909/e/1749039487) |
+| Charles Freeman | Judging Freedom | `freeman`, `napolitano` | — |
+| Douglas Macgregor | Judging Freedom | `macgregor`, `napolitano` | [watch](https://www.youtube.com/watch?v=1n2dVgTrbM8) |
+
 ## Files
 
 - `source-davis-mearsheimer-russia-is-angry-risk-of-them-using-nukes-harder-to-dismiss-2025-06-04.md`

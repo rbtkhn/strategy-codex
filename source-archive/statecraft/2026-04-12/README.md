@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Seyed M. Marandi` (1)
 - Threads: `diesen` (1), `marandi` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Seyed M. Marandi | Glenn Diesen | `diesen`, `marandi` | [watch](https://www.youtube.com/watch?v=nRYcvX1eX5k) |
+| Trita Parsi | — | `parsi` | [watch](https://substack.com/@tritaparsi/p-193975700) |
+
 ## Files
 
 - `source-glenn-diesen-seyed-m-marandi-negotiations-collapsed-return-to-war-2026-04-12.md`

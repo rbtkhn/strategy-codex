@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Douglas Macgregor` (2), `LIVE from RUSSIA` (1), `Ukraine Launches NEW KURSK OFFENSIVE` (1)
 - Threads: `davis` (4), `macgregor` (2), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=y0lZasZNflE) |
+| Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=O2QRgSVpLow) |
+| Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=uUAXxlonWFo) |
+| LIVE from RUSSIA | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=lxQzi1tmo68) |
+| Ukraine Launches NEW KURSK OFFENSIVE | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=0SqhyNoQISk) |
+
 ## Files
 
 - `source-alex-mercouris-ukraine-kursk-offensive-fails-russia-kurakhovo-captured-russia-qatar-gas-2025-01-06.md`

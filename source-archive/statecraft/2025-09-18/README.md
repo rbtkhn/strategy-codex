@@ -23,6 +23,16 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `Jeffrey Sachs` (1), `John Mearsheimer` (1)
 - Threads: `diesen` (1), `mearsheimer` (1), `mercouris` (1), `napolitano` (1), `sachs` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=qUoGDrtgA1A) |
+| Jeffrey Sachs | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=E2SsiG1jDLs) |
+| John Mearsheimer | Judging Freedom | `napolitano`, `mearsheimer` | [watch](https://www.youtube.com/live/5JGozKc9Obw) |
+
 ## Files
 
 - `source-alex-mercouris-zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains-2025-09-18.md`

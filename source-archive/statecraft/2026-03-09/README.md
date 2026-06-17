@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Jacques Baud` (1)
 - Threads: `davis` (3), `baud` (1), `henningsen` (1), `mercouris` (1), `nima` (1), `pape` (1), `parsi` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=4Mutk9asuxs) |
+| IRAN WAR: Where's the War Going? /Patrick Henningsen & Lt Col Daniel Davis | — | `davis`, `henningsen` | — |
+| IRAN Has a NEW LEADER /Lt Col Daniel Davis | — | `davis` | — |
+| TRUMP: IRAN WAR BASICALLY OVER & ENDING SOON /Generals Argue for Ground Forces | — | `davis` | — |
+| Jacques Baud | Dialogue Works | `baud`, `nima` | [iYcnztEdjq0](https://www.youtube.com/watch?v=iYcnztEdjq0) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/answers-to-questions-our-community) |
+| Trita Parsi | — | `parsi` | [watch](https://substack.com/@tritaparsi/p-190454210) |
+
 ## Files
 
 - `source-alex-mercouris-us-eu-panic-100-oil-price-khamenei-s-hardline-son-new-iran-leader-gets-p-2026-03-09.md`

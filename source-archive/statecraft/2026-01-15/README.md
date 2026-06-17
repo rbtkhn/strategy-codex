@@ -23,6 +23,18 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `John Mearsheimer` (2)
 - Threads: `mearsheimer` (2), `crooke` (1), `davis` (1), `mercouris` (1), `napolitano` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=g2n-3yALThM) |
+| source-crooke-deciphering-trumps-externalised-internal-2026-01-15.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/deciphering-trumps-externalised-internal) |
+| John Mearsheimer | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=vZe1ujSljbw) |
+| John Mearsheimer | — | `mearsheimer`, `napolitano` | [watch](https://www.youtube.com/watch?v=5xDiEaRUsUo) |
+| source-simplicius-fantasy-loan-for-ukraine-gets-adjusted-2026-01-15.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/fantasy-loan-for-ukraine-gets-adjusted) |
+
 ## Files
 
 - `source-alex-mercouris-moscow-steps-in-us-iran-conflict-trump-backs-off-kiev-admits-odessa-russ-2026-01-15.md`

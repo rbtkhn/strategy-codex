@@ -23,6 +23,20 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Jacques Baud` (1), `Ted Postol` (1)
 - Threads: `nima` (2), `baud` (1), `crooke` (1), `diesen` (1), `freeman` (1), `mercouris` (1), `pape` (1), `postol` (1), `simplicius` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=0ldFRXn_13c) |
+| source-crooke-irans-audacious-strategic-moves-declared-2026-03-23.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/irans-audacious-strategic-moves-declared) |
+| Jacques Baud | Dialogue Works | `nima`, `baud` | [w00jitzvnTM](https://www.youtube.com/watch?v=w00jitzvnTM) |
+| Ted Postol | Dialogue Works | `nima`, `postol` | [FOs4skvj5F8](https://www.youtube.com/watch?v=FOs4skvj5F8) |
+| Chas Freeman | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=CxwzzS5K2o0) |
+| Robert Pape | — | `pape` | [watch](https://escalationtrap.substack.com/p/the-questions-that-matter-now) |
+| source-simplicius-final-escalatory-act-awaits-as-iran-2026-03-23.md | — | `simplicius` | [watch](https://simplicius76.substack.com/p/final-escalatory-act-awaits-as-iran) |
+
 ## Files
 
 - `source-alex-mercouris-trump-backs-down-postpones-hormuz-ultimatum-claims-us-iran-talks-underwa-2026-03-23.md`

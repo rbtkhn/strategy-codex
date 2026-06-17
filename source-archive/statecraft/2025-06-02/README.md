@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Alexander Mercouris` (1), `George Beebe` (1)
 - Threads: `beebe` (1), `christoforou` (1), `diesen` (1), `mercouris` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=aoB8fUihexQ) |
+| George Beebe | — | `diesen`, `beebe` | [watch](https://www.youtube.com/watch?v=a8qG8O3Zl10) |
+
 ## Files
 
 - `source-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md`

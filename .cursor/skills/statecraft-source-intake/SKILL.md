@@ -246,11 +246,12 @@ Structured-field law:
    - Re-derive the closeout from live readback done in the current turn; do not reuse stale prior closeout phrasing.
    - If the landed object or checkpoint clearly creates a later interpretive seam, name it only as a `next route`; do not silently fold synthesis into the intake closeout.
 
-8. **Refresh the smallest still-live archive surfaces**
-   - In `single-source safe mode`, refresh the touched day-folder `README.md` immediately.
-   - In `single-source safe mode`, refresh the touched month index and archive navigation when the new source changes those rollups.
-   - In `batch-throughput mode`, defer these refreshes until the batch checkpoint.
-   - Keep the rebuild bounded to the touched day/month/navigation surfaces rather than drifting into downstream synthesis.
+8. **Refresh archive navigation (day + month + thread)**
+   - In `single-source safe mode`, run `python3 scripts/refresh_statecraft_archive_indices.py` after post-land hooks (refreshes day README **Ingest register**, month rollup, year/thread indices, stale audit).
+   - Alternative batch wrapper: `python3 scripts/post_land_statecraft_batch.py --day YYYY-MM-DD --sync-daily YYYY-MM-DD` (runs the same full refresh plus daily sync check).
+   - Do **not** use `build_statecraft_day_indices.py --day` alone — it rebuilds the day README but leaves month/thread rollups stale.
+   - In `batch-throughput mode`, defer refresh until the batch checkpoint; checkpoint should still use `refresh_statecraft_archive_indices.py`.
+   - Keep the rebuild bounded to archive navigation; do not drift into downstream synthesis in the same pass.
 
 9. **Clean transient residue**
    - Remove obvious scratch residue created by intake work, such as temporary transcript body files, before final verification.
@@ -290,7 +291,7 @@ Or `--body-dir .codex-tmp/land/<slug>` when sidecars are sorted `*.txt`.
 
 Preview: add `--dry-run`.
 
-4. **Post-land chain** in the **same** shell (PowerShell `;`): caption wrapper → family opening normalizer → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD`.
+4. **Post-land chain** in the **same** shell (PowerShell `;`): caption wrapper → family opening normalizer → `python3 scripts/refresh_statecraft_archive_indices.py` → `python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD`.
 5. **Verify** — output exists; `source_url` or `youtube_id` present; opening/closing transcript lines; reported byte size sane; not a shell stub.
 6. **Delete** `.codex-tmp/land/<slug>/` sidecars after verify.
 

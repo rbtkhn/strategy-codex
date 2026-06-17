@@ -23,6 +23,17 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `China` (1), `Israel AD Fails 80% Iran Missiles Hit Target` (1), `Jacques Baud` (1), `Larry C. Johnson` (1), `Larry Johnson` (1)
 - Threads: `johnson` (2), `nima` (2), `baud` (1), `mercouris` (1), `napolitano` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Israel AD Fails 80% Iran Missiles Hit Target, China | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1L-HI4zDBHs) |
+| Jacques Baud | Dialogue Works | `nima`, `baud` | [-e4HBuhGbrE](https://www.youtube.com/watch?v=-e4HBuhGbrE) |
+| Larry C. Johnson | Dialogue Works | `johnson`, `nima` | [EpnEi-bLyRQ](https://www.youtube.com/watch?v=EpnEi-bLyRQ) |
+| Larry Johnson | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=BSezLaNm8xY) |
+
 ## Files
 
 - `source-alex-mercouris-israel-ad-fails-80-iran-missiles-hit-target-china-us-bombing-must-stop-u-2026-03-30.md`

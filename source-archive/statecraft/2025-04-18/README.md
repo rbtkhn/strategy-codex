@@ -23,6 +23,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Chas Freeman` (1), `Lawrence Wilkerson` (1), `Mohammad Marandi` (1)
 - Threads: `freeman` (1), `marandi` (1), `wilkerson` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Mohammad Marandi, Lawrence Wilkerson, Chas Freeman | Dialogue Works | `freeman`, `marandi`, `wilkerson` | [watch](https://www.youtube.com/watch?v=YZBrlsNJM_k) |
+
 ## Files
 
 - `source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18.md`

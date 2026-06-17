@@ -10,8 +10,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Source form mix: `interview` (7), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `6`
 - Distinct hosts: `4`
-- Distinct guests: `2`
-- Distinct threads: `9`
+- Distinct guests: `6`
+- Distinct threads: `11`
 
 ## Channel / Show Rollup
 
@@ -20,8 +20,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Alex Christoforou` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Robert Pape` (1)
-- Guests: `Alexander Mercouris` (1), `Charles Freeman` (1)
-- Threads: `nima` (3), `mercouris` (2), `nawfal` (2), `christoforou` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `pape` (1), `polyanskiy` (1)
+- Guests: `Charles Freeman` (2), `Alexander Mercouris` (1), `Dmitry Polyanskiy` (1), `Douglas Macgregor` (1), `Ray McGovern` (1), `Seyed M. Marandi` (1)
+- Threads: `nima` (3), `freeman` (2), `mercouris` (2), `nawfal` (2), `christoforou` (1), `diesen` (1), `macgregor` (1), `marandi` (1), `mcgovern` (1), `pape` (1), `polyanskiy` (1)
+
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Ah-ThpeGDu0) |
+| Charles Freeman | Dialogue Works | `nima`, `freeman` | [watch](https://www.youtube.com/watch?v=HuhJinByAEg) |
+| Seyed M. Marandi | Dialogue Works | `nima`, `marandi` | [watch](https://www.youtube.com/watch?v=RDXTQO2JNhk) |
+| Ray McGovern | Dialogue Works | `nima`, `mcgovern` | [watch](https://www.youtube.com/watch?v=njK5kxdDNdE) |
+| Alexander Mercouris | The Duran | `mercouris`, `christoforou` | [watch](https://www.youtube.com/watch?v=1f5IhQk6lX0) |
+| Charles Freeman | Glenn Diesen | `diesen`, `freeman` | [HuhJinByAEg](https://www.youtube.com/watch?v=HuhJinByAEg) |
+| Douglas Macgregor | Mario Nawfal | `macgregor`, `nawfal` | [watch](https://www.youtube.com/watch?v=di3VvTTJEYo) |
+| Dmitry Polyanskiy | Mario Nawfal | `polyanskiy`, `nawfal` | [watch](https://www.youtube.com/watch?v=R5jhGeaW4DQ) |
+| Robert Pape | escalationtrap.substack.com | `pape` | [watch](https://escalationtrap.substack.com/p/the-new-phase) |
 
 ## Files
 

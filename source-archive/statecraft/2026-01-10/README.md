@@ -23,6 +23,15 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Guests: `Scott Ritter` (1)
 - Threads: `mercouris` (1), `ritter` (1)
 
+## Ingest register
+
+_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
+
+| Guest / voice | Show | Thread | YouTube |
+| --- | --- | --- | --- |
+| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=3FcqUnzr7zQ) |
+| Scott Ritter | — | `ritter` | [watch](https://scottritter.substack.com/p/the-end-of-a-dream) |
+
 ## Files
 
 - `source-alex-mercouris-medvedev-says-west-wants-war-russia-ready-oreshnik-hit-military-base-use-2026-01-10.md`
