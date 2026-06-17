@@ -1,7 +1,7 @@
 ---
 description: PH-CIV mirror — lecture transcript bodies are verbatim SSOT; edit commentary/apparatus only unless operator opens a transcript lane
 globs:
-  - statecraft/voices/jiang/ph-civ/**
+  - public/ph-civ/**
 alwaysApply: false
 ---
 
@@ -11,7 +11,7 @@ alwaysApply: false
 
 ## Default (mandatory)
 
-When working under `statecraft/voices/jiang/ph-civ/`:
+When working under `public/ph-civ/`:
 
 - **Do not edit** `**/*-transcript.md` bodies (including `## Part I: Full transcript` / `## Full transcript` sections).
 - **Do not** “fix typos,” normalize ASR, summarize, or fold synthesis into transcript files.
