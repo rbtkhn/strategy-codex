@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis.
 portable: true
-version: 0.4.6
+version: 0.4.7
 tags:
 - operator
 - statecraft
@@ -246,12 +246,11 @@ Structured-field law:
    - Re-derive the closeout from live readback done in the current turn; do not reuse stale prior closeout phrasing.
    - If the landed object or checkpoint clearly creates a later interpretive seam, name it only as a `next route`; do not silently fold synthesis into the intake closeout.
 
-8. **Refresh archive navigation (day + month + thread)**
-   - In `single-source safe mode`, run `python3 scripts/refresh_statecraft_archive_indices.py` after post-land hooks (refreshes day README **Ingest register**, month rollup, year/thread indices, stale audit).
-   - Alternative batch wrapper: `python3 scripts/post_land_statecraft_batch.py --day YYYY-MM-DD --sync-daily YYYY-MM-DD` (runs the same full refresh plus daily sync check).
-   - Do **not** use `build_statecraft_day_indices.py --day` alone — it rebuilds the day README but leaves month/thread rollups stale.
-   - In `batch-throughput mode`, defer refresh until the batch checkpoint; checkpoint should still use `refresh_statecraft_archive_indices.py`.
-   - Keep the rebuild bounded to archive navigation; do not drift into downstream synthesis in the same pass.
+8. **Refresh the smallest still-live archive surfaces**
+   - In `single-source safe mode`, refresh the touched day-folder `README.md` immediately.
+   - In `single-source safe mode`, refresh the touched month index and archive navigation when the new source changes those rollups.
+   - In `batch-throughput mode`, defer these refreshes until the batch checkpoint.
+   - Keep the rebuild bounded to the touched day/month/navigation surfaces rather than drifting into downstream synthesis.
 
 9. **Clean transient residue**
    - Remove obvious scratch residue created by intake work, such as temporary transcript body files, before final verification.
@@ -280,20 +279,26 @@ Small captures (short clips, partial stubs under threshold) may still use a sing
 ### Always (chunked path)
 
 1. **Resolve family + frontmatter first** — match neighboring `source-*` pattern; build header through `## Transcript` (YAML + title block).
-2. **Split body** into 2+ sidecars under `.codex-tmp/land/<slug>/` (e.g. `p1.txt`, `p2.txt`). Split at paragraph or `>>` turn boundaries, not mid-word.
-3. **Merge via Python** (one shell intent):
+2. **Split body** into sidecars under `source-archive/statecraft/YYYY-MM-DD/_land_<slug>/` (preferred) or `.codex-tmp/land/<slug>/` (e.g. `p1.txt`, `p2.txt`). Split at paragraph or `>>` turn boundaries, not mid-word.
+3. **Merge via Python** — preferred one-command wrapper:
 
 ```powershell
-python scripts/land_statecraft_source_body.py --header .codex-tmp/land/<slug>/header.md --body .codex-tmp/land/<slug>/p1.txt --body .codex-tmp/land/<slug>/p2.txt --out source-archive/statecraft/YYYY-MM-DD/source-....md
+python scripts/land_statecraft_intake.py --out source-archive/statecraft/YYYY-MM-DD/source-....md --body-file <paste.txt> --youtube-id <id> --title "<title>"
+```
+
+Manual merge when header is already built:
+
+```powershell
+python scripts/land_statecraft_source_body.py --header .../_land_<slug>/header.md --body .../p1.txt --body .../p2.txt --out source-archive/statecraft/YYYY-MM-DD/source-....md
 ```
 
 Or `--body-dir .codex-tmp/land/<slug>` when sidecars are sorted `*.txt`.
 
 Preview: add `--dry-run`.
 
-4. **Post-land chain** in the **same** shell (PowerShell `;`): caption wrapper → family opening normalizer → `python3 scripts/refresh_statecraft_archive_indices.py` → `python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD`.
+4. **Post-land chain** in the **same** shell (PowerShell `;`): caption wrapper → family opening normalizer → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD`.
 5. **Verify** — output exists; `source_url` or `youtube_id` present; opening/closing transcript lines; reported byte size sane; not a shell stub.
-6. **Delete** `.codex-tmp/land/<slug>/` sidecars after verify.
+6. **Delete** `_land_<slug>/` or `.codex-tmp/land/<slug>/` sidecars after verify (CLI removes by default; `--keep-sidecars` to retain).
 
 ### Batch-throughput mode
 
@@ -301,7 +306,7 @@ Chunked land applies **per file**. You may still defer day/month rollup rebuild 
 
 Short rule:
 
-`large paste -> header sidecar + body sidecars -> land_statecraft_source_body.py -> post-land chain -> delete temps`
+`large paste -> land_statecraft_intake.py (preferred) OR header sidecar + body sidecars -> land_statecraft_source_body.py -> post-land chain -> delete temps`
 
 ## Verification and closeout
 
@@ -450,6 +455,23 @@ Short rule:
   - use a trustworthy external episode listing such as Apple Podcasts, Podchaser, Goodpods, or another stable podcast mirror
   - preserve that provenance explicitly in `source_note`
   - do not imply the date came from the spoken transcript itself
+
+### Mercouris solo (Alex Mercouris channel)
+
+- Canonical filename prefix: `source-alex-mercouris-*` (legacy `youtube-alex-mercouris-*` is compatibility only).
+- **Always** land via chunked merge — even when the pasted body is small. Never monolithic IDE `Write` for this family on Windows.
+- **Preferred one-command path:**
+
+```powershell
+python scripts/land_statecraft_intake.py --out source-archive/statecraft/YYYY-MM-DD/source-alex-mercouris-<slug>-YYYY-MM-DD.md --body-file <paste.txt> --youtube-id <id> --title "<episode title>" --pub-date YYYY-MM-DD
+```
+
+- Sidecar dir order: `source-archive/statecraft/YYYY-MM-DD/_land_<slug>/` first; fall back to `.codex-tmp/land/<slug>/` when the primary path is not writable.
+- Body split: paragraph boundaries (~12 KB target per chunk); merge via `land_statecraft_source_body.py` inside the CLI.
+- Post-land (automatic unless `--skip-post-land`): caption wrapper → Mercouris close normalizer → index refresh → intake queue report.
+- Preview: add `--dry-run`. Keep temps: `--keep-sidecars`.
+- **Post-land hook (Mercouris close promo):** `python scripts/post_land_mercouris_close_normalize.py --path <landed-file>` (also run by batch scaffold).
+- Receipt: CLI prints `## intake receipt` with family, chunk count, bytes, queue counts.
 
 ### Napolitano / Judging Freedom
 
