@@ -61,6 +61,28 @@ WORK only; not Record.
 | **Venue/security narrative** | J17-17 | **Contested** — Bürgenstock pre-scheduled; Johnson **Bergentock** conflates planned venue with intel-driven move |
 | **China spoke Jun 17** | PRC lane | Wang Yi–Araghchi call + MOU welcome — **supported** · China **warning Israel** — **absent** on registry |
 
+### Ceremony / venue fork (J17-5 × J17-17) — **contested only** (Furtwangler hold)
+
+**Do not upgrade** either hook until **Fri 19 Jun** window closes or official **cancellation** of ceremonial track. Digital sign (**J17-1 supported**) is **not** dispositive for this fork.
+
+| Pole | Hook | Contested claim | Wire that **supports this pole** | Wire / carry that **pulls against** | Who is **not** bound | Held open |
+| --- | --- | --- | --- | --- | --- | --- |
+| **A — Ceremony still live** | **J17-5** | **Geneva Fri 19 Jun** (or Switzerland) **ceremonial** sign still scheduled; Vance travels for optics | [NBC Jun 17 — Vance travels Fri for ceremony](https://www.nbcnews.com/world/iran/strait-hormuz-reopen-us-lift-iran-sanctions-14-point-deal-seeking-end-rcna350513) · [Asharq Jun 18 — Switzerland talks planned Friday](https://english.aawsat.com/world/5285570-switzerland-says-talks-planned-friday-between-iran-and-us) | Baghaei: **no Friday Geneva ceremony needed** after digital sign ([Al Jazeera Jun 17](https://www.aljazeera.com/news/2026/6/17/iran-confirms-that-mou-has-been-signed-electronically-by-both-sides)) · **J17-1** already **in effect** | Iran FM framing treats ceremony as **optional theater** | Is Friday **binding** or **symbolic** only? |
+| **B — Digital-only closure** | **J17-5** (inverse) | Electronic sign **sufficient**; further ceremony **unnecessary** | Baghaei / IRNA digital-sign confirm (**J17-1** chain) · Al Jazeera Baghaei **no ceremony needed** | NBC **Vance still travels** · Swiss FDFA **Friday Bürgenstock** planning ([Anadolu Jun 16](https://www.aa.com.tr/en/world/switzerland-confirms-us-iran-memorandum-signing-set-for-friday-at-burgenstock/3968958)) | US may still run **optics track** Iran does not need | **Two closure grammars** coexist: legal vs theatrical |
+| **C — Security relocation narrative** | **J17-17** | Signing **moved** to Bürgenstock because assassination intel forced **venue shift** | Johnson solo carry: intel on **Ghalibaf/Araghchi** plot → ceremony moved ([`enmrP08J_Fo`](../../source-archive/statecraft/2026-06-17/source-alkorshid-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md)) · **J17-16 partial** hit-list mesh | Bürgenstock **already on calendar** Jun 16–18 before Johnson show ([Anadolu Jun 16](https://www.aa.com.tr/en/world/switzerland-confirms-us-iran-memorandum-signing-set-for-friday-at-burgenstock/3968958)) — **relocation** may be **narrative overlay** on **planned** venue | Johnson/Pepe = **tier 4** unless MFA confirms security move | **Planned venue** vs **forced move** |
+| **D — Assassination lane couples to ceremony** | **J17-16 × J17-17** | Hit-list pressure **explains** venue/security choreography | **J17-16 partial** — Pakistan→US→Israel chain ([AWSAT/Reuters mesh](https://english.aawsat.com/world/5255448-israel-reportedly-took-irans-araghchi-qalibaf-hit-list-after-pakistan-request-us)) | **J17-15** China leg **not wire-located** · hit-list **temporary** (WSJ 4–5d) · venue **pre-planned** | China **warning Israel** = Johnson carry only | Security story **may not** determine whether ceremony happens |
+
+**Fork compression (no verdict):** `digital sign done · ceremony maybe · Bürgenstock maybe · assassination mesh partial · same Friday window`
+
+**Watch triggers (72h):** Vance **appears** at Bürgenstock/Geneva without new sign · Iran **boycotts** ceremony while citing **J17-1** · **assassination attempt** on negotiators · official **cancellation** of Fri track · only **digital** closure statement from both MFAs
+
+**Falsifiers (fork collapse — not invoked today):**
+
+- **Ceremony held + new signatures** → Pole B weakens; treat as **second optics pass**, not first bind
+- **Both sides publish “digital-only, no ceremony”** → Pole A weakens; **J17-5** may downgrade to **supported** (closure grammar)
+- **Wire-primary confirms security-driven venue change** (not Johnson solo) → Pole C upgrades; **J17-17** partial→supported on relocation only
+- **Friday passes with no event and no statement** → fork **stalls**; carry **J17-5 contested** into Jun 20 matrix
+
 ### Lebanon enforcement fork (J17-4 × J17-8 × J17-9)
 
 | Layer | Hooks | Read |

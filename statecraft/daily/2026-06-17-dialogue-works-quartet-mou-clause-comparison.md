@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Dialogue Works Quartet — MOU Clause Comparison — 2026-06-17
 
-**Parent:** [2026-06-17 daily](./2026-06-17.md) · [wire matrix](./2026-06-17-wire-verify-matrix.md) · [Lebanon child](./2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) · [72h watch](./2026-06-17-72h-watch-run.md)
+**Parent:** [2026-06-17 daily](./2026-06-17.md) · [implementation tensions](./2026-06-17-mou-implementation-tensions.md) · [wire matrix](./2026-06-17-wire-verify-matrix.md) · [Lebanon child](./2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) · [72h watch](./2026-06-17-72h-watch-run.md)
 
 **Archive anchors (same host, same calendar day, same published text):**
 
