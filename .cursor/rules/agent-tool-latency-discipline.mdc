@@ -27,6 +27,22 @@ alwaysApply: true
 
 Use `Grep` / `SemanticSearch` only when the path is **unknown** or the search spans **many** files.
 
+## Search approval (Windows harness)
+
+Before `Grep`, `Glob`, `SemanticSearch`, or `Task` with explore/subagent:
+
+1. **Forbidden without operator approval** when:
+   - the target path is already named, open, or inferable;
+   - a bounded `Read` or repo CLI exists for the query;
+   - this thread already had a tool hang or "interrupted";
+   - the task is add/edit one file and search is only for "patterns."
+
+2. **Ask the operator** (one sentence: tool, scope, why `Read` is insufficient). Wait for yes or a narrower path.
+
+3. **Operator bypass phrases:** `search ok`, `grep ok`, `explore ok` (scoped to that turn); `fast tools` / `read only` / `no grep` (strict mode below).
+
+4. **Prefer:** `Read` → single bounded `Shell` (`Test-Path`, one `pytest` path) → repo CLI → search last.
+
 ## Conductor / WORK menus
 
 When a movement names **exact files**, `Read` those files first — never open with parallel `Grep`.
@@ -34,4 +50,5 @@ When a movement names **exact files**, `Read` those files first — never open w
 ## Operator override
 
 - **`fast tools`** or **`read only`** → strict Read/Write/single-shell for that turn.
-- **`no grep`** → force this rule.
+- **`no grep`** → force this rule (no `Grep` / `Glob` / `SemanticSearch` / explore `Task`).
+- **`search ok`**, **`grep ok`**, **`explore ok`** → allow one scoped search on this turn only; state tool and directory before running.
