@@ -28,6 +28,7 @@
 
 **Repo notes**
 
+- **Day source-index:** `source-archive/statecraft/YYYY-MM-DD/README.md` — for operator phrases like `june 17 source-index` or `2026-06-17 ingest register`, **Read that file only** or run `python scripts/statecraft_day_source_index.py --day YYYY-MM-DD [--queue]`. Do **not** broad-scan `thread-index.md`, month folders, or voices benches unless scope is analyst/corpus.
 - `statecraft/` is downstream interpretation and control, not archive storage.
 - Daily synthesis belongs on the `statecraft/` side, not in `source-archive/statecraft/`.
 - For manual file creation or edits, use `apply_patch` for **small** captures; for large operator-pasted transcript bodies and **Mercouris solo** lands, prefer **`python scripts/land_statecraft_intake.py`** (one-command header + chunked merge + post-land). Manual fallback when the header is already built: **`python scripts/land_statecraft_source_body.py`** (§ Large transcript body land in the portable core).

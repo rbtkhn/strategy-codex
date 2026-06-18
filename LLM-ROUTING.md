@@ -11,6 +11,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | User asks for… | Search these paths first |
 |---|---|
 | analyst / speaker / commentator **source index** | [statecraft/voices/INDEX.md](statecraft/voices/INDEX.md), `statecraft/voices/**/**-source-index.md` |
+| **archive day source-index** / ingest register for **YYYY-MM-DD** | **`source-archive/statecraft/YYYY-MM-DD/README.md` only** — or `python scripts/statecraft_day_source_index.py --day YYYY-MM-DD` — **do not** Glob/Grep month or thread-index for a dated day query |
 | Barnes / Robert Barnes | [statecraft/voices/barnes/](statecraft/voices/barnes/), `source-archive/statecraft/**/source-*barnes*` |
 | Weichert / Nawfal Weichert | [statecraft/voices/weichert/](statecraft/voices/weichert/), `source-archive/statecraft/**/source-*nawfal-weichert*` |
 | Daniel Davis / Davis host | [statecraft/hosts/davis/](statecraft/hosts/davis/) |
@@ -58,6 +59,7 @@ Several surfaces use the word **index**. They are not interchangeable.
 
 | Surface | Job | Authority |
 |---|---|---|
+| `source-archive/statecraft/YYYY-MM-DD/README.md` | **Day ingest register** — stats, YouTube rows, file list for one archive day | Derived / archive (rebuild via `build_statecraft_day_indices.py`) |
 | `statecraft/voices/**/**-source-index.md` | Per-analyst **route map** — which captures to open first | WORK only |
 | [statecraft/voices/INDEX.md](statecraft/voices/INDEX.md) | Front door listing all analyst source indexes | WORK routing aid |
 | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) | Generated capture **inventory** by thread | Derived / archive |
@@ -84,7 +86,7 @@ Several surfaces use the word **index**. They are not interchangeable.
 
 | Term | Question | Where |
 |---|---|---|
-| **source-index** | *Where* is the corpus? Which file opens first? | voices `*-source-index.md` |
+| **source-index** | *Where* is the corpus? Which file opens first? | voices `*-source-index.md` for **analyst** scope; **`source-archive/statecraft/YYYY-MM-DD/README.md`** for **one archive day** |
 | **source-lattice** | *How* should layers be read so summary does not replace source? | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) |
 
 **Find-then-read contract:**
@@ -105,6 +107,7 @@ Several surfaces use the word **index**. They are not interchangeable.
 
 For any request of the form "find X in this repo":
 
+0. If the query names **`source-index`**, **ingest register**, or **what landed** with a calendar date **`YYYY-MM-DD`**, open **`source-archive/statecraft/YYYY-MM-DD/README.md`** only (or `python scripts/statecraft_day_source_index.py --day YYYY-MM-DD`) — **do not** Glob/Grep `thread-index.md`, month rollups, or voices `*-source-index.md` unless the operator named an **analyst/voice** scope.
 1. If the user supplied an exact path or URL, fetch that path first.
 2. Search exact term, lowercase term, and likely titlecase term.
 3. Check this routing map and [repo-map.yaml](repo-map.yaml) before concluding absence.

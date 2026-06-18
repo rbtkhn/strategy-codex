@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: statecraft source intake
 description: "Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis."
 portable: true
-version: 0.4.7
+version: 0.4.8
 tags:
   - operator
   - statecraft
@@ -306,6 +306,28 @@ Chunked land applies **per file**. You may still defer day/month rollup rebuild 
 Short rule:
 
 `large paste -> land_statecraft_intake.py (preferred) OR header sidecar + body sidecars -> land_statecraft_source_body.py -> post-land chain -> delete temps`
+
+## Day source-index command (no repo scan)
+
+When the operator asks for **source-index**, **ingest register**, or **what landed on YYYY-MM-DD**, resolve **one bounded path** — not `thread-index.md`, not month Glob, not voices `*-source-index.md` unless they named an **analyst**.
+
+**Canonical day surface:** `source-archive/statecraft/YYYY-MM-DD/README.md` (stats + ingest register + file list).
+
+**Preferred agent command (one shell):**
+
+```bash
+python scripts/statecraft_day_source_index.py --day YYYY-MM-DD
+python scripts/statecraft_day_source_index.py --day YYYY-MM-DD --queue
+python scripts/statecraft_day_source_index.py --latest --queue
+```
+
+**Agent discipline:**
+
+- **Read** the day README directly when the path is known; or run the script above.
+- **Do not** `Glob`, `Grep`, or parallel-read `thread-index.md` / `YYYY-MM/` for a dated day query.
+- **Analyst source-index** (`statecraft/voices/<speaker>/*-source-index.md`) is a different object — use only when scope is voice/corpus, not archive-day inventory.
+
+Routing SSOT: [LLM-ROUTING.md](../../../LLM-ROUTING.md) · bounded-path rule: [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc).
 
 ## Verification and closeout
 

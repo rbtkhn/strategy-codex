@@ -189,6 +189,15 @@ routes:
     tags: [statecraft, archive, thread-index, generated]
     search_hints: [thread index, archive inventory]
 
+  - id: statecraft-day-source-index
+    title: Statecraft archive day source-index (ingest register)
+    path_pattern: source-archive/statecraft/YYYY-MM-DD/README.md
+    kind: generated_inventory
+    authority: derived
+    tags: [statecraft, archive, day-index, ingest-register, source-index]
+    search_hints: [day source index, june 17 source index, 2026-06-17 source index, ingest register, archive day README]
+    script: scripts/statecraft_day_source_index.py
+
   - id: barnes-source-index
     title: Barnes source index
     path: statecraft/voices/barnes/barnes-source-index.md
