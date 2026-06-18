@@ -3,7 +3,7 @@ name: wire-verify
 preferred_activation: wire verify
 description: 'Triage wire- and desk-reported facts in ingests and briefs before synthesis: extract media hooks, fence interpretation, score developing-story claims (supported/contradicted/unclear/contested), optional verify receipts. Triggers: wire verify, verify wires, verify tier, strategy + verify on breaking seams. Complements fact-check.'
 portable: true
-version: 1.5.1
+version: 1.5.3
 tags:
 - verification
 - statecraft
@@ -32,7 +32,40 @@ synced_by: sync_portable_skills.py
 - **Corpus tier 4** analyst **interpretation**, forecasting, or doctrine (escalation dominance, decoupling arcs, "what Iran wants").
 - Operator opinion, predictions, moral frames.
 - **Corpus tier 1–2** historical claims cited inside commentary.
-- **Deep 3a pull** (full MFA readout, court filing, official PDF) beyond triage — escalate to **`fact check deep`** or lane-specific primary skills.
+- **Deep 3a pull** (full MFA readout, court filing, official PDF) beyond triage — escalate to **[fact check deep](../fact-check/SKILL.md#fact-check-deep-pass)** or lane-specific primary skills.
+
+<a id="verification-routing-shared"></a>
+
+## Verification routing (shared — fact-check ↔ wire-verify)
+
+**SSOT:** identical block in [fact-check](../fact-check/SKILL.md#verification-routing-shared) and this file. Update **both** when routing law changes.
+
+Use this table **before** choosing a pass. Bare **`verify`** is ambiguous — ask once or infer from **input shape**.
+
+| Operator input | Route | Why |
+| --- | --- | --- |
+| **One claim** pasted or named (sentence, stat, quote, URL summary, draft line) | **`fact check`** | Discrete triage; operator supplies the claim |
+| **Full ingest**, day archive, daily brief, or **wire matrix** | **`wire verify`** (this skill) | Auto-extract tier-**3** hooks; five-lane sweep; optional `verify:` receipts; **[capture-gap pre-pass](#capture-gap-pre-pass)** when body may be partial |
+| **`fact check`** on a **wire-heavy capture** but job is "grade hooks before synthesis" | **`wire verify`** (prefer) | Batch hook inventory + developing-story handling |
+| **Single fork** from a matrix row ("is J17-7 supported?") | **`wire verify`** sub-hook **or** **`fact check`** | Sub-hook when lane-sweep context matters; fact-check when the claim is isolated |
+| **Analyst voice** (Mercouris, Diesen, Davis, landed commentary) stating mechanism, forecast, or doctrine | **Label tier 4 / interpretation** — **do not score as wire fact** | Corpus tier 4; synthesis may use; verification does not grade |
+| **Historical** primary/secondary cited inside commentary | **Out of scope** for wire-verify; **`fact check`** only if operator names the historical claim | Corpus tiers 1–2 |
+| **Primary doc** needed (full MFA readout, court filing, official PDF) beyond triage | **[fact check deep](../fact-check/SKILL.md#fact-check-deep-pass)** (or lane primary skill) | Escalate from wire-verify or thin fact-check triage |
+| **Campaign / Massie-shaped** copy from today's news | **[politics-massie](../politics-massie/SKILL.md)** | Not neutral verification |
+| **Before** `statecraft daily synthesis` or promoting into Judgment on a **same-week** seam | **`wire verify`** (batch mode) | Pre-synthesis gate on wire hooks |
+
+**Verdict vocabulary (align across skills):**
+
+| fact-check | wire-verify | Meaning |
+| --- | --- | --- |
+| Supported | supported | Corroborated within pass budget |
+| Contradicted | contradicted | Clear counter-evidence |
+| Unclear | unclear | Thin, noisy, or not locatable in triage time |
+| Out of scope | *(label only)* | Prediction, opinion, tier 4 — not a wire row |
+| — | contested | Credible sources conflict |
+| — | partial | Some elements supported; hook incomplete |
+
+**Ambiguity rule:** If both a **named claim** and a **full ingest path** appear, prefer **`wire verify`** when the ingest is the primary object; prefer **`fact check`** when only the claim matters and archive context is optional.
 
 ## Relationship to fact-check
 
@@ -41,7 +74,7 @@ synced_by: sync_portable_skills.py
 | **fact-check** (host skill) | General triage on **any** checkable claim the operator names. |
 | **wire-verify** (this skill) | **Scoped child:** auto-extract **wire hooks** from ingests/briefs, apply fact-check verdict discipline, add **developing-story** and **contested-wire** handling, optional **verify receipt** for archive/inbox. |
 
-When the operator says **`fact check`** on wire-only material, you may run **either** skill; prefer **wire-verify** when the input is a **full ingest** or **live-desk batch** and the job is "grade the hooks before synthesis."
+When the operator says **`fact check`** on wire-only material, you may run **either** skill; prefer **wire-verify** when the input is a **full ingest** or **live-desk batch** and the job is "grade the hooks before synthesis." See [Verification routing](#verification-routing-shared) for the full decision table.
 
 **Not a substitute for** campaign/newsletter lanes (**politics-massie**, **skill-write**). Stay **claim-neutral**.
 
@@ -67,6 +100,52 @@ When the operator says **`fact check`** on wire-only material, you may run **eit
 **Sub-hook law:** Do not skip the mesh line or **Confidence** / **Escalate** blocks because the question is narrow. Do not claim **full sweep** without the [execution checklist](#sweep-execution-checklist) below.
 
 **Operator shorthand:** `wire verify — full mesh` = batch sweep on named seam; `wire verify — intent only` (or similar) = sub-hook; default to **sub-hook** when the message is a single yes/no fork.
+
+<a id="capture-gap-pre-pass"></a>
+
+## Capture-gap pre-pass (before hook detection)
+
+Run this **before** [Wire hook detection](#wire-hook-detection) whenever the pass names a **landed capture path** (`source-archive/...`, ingest stub, or matrix row tied to one file). **Do not** extract or score wire hooks from metadata alone.
+
+### When to flag **capture-gap**
+
+Flag when **any** of these hold:
+
+| Signal | Example |
+| --- | --- |
+| **Title / YAML promises segments absent from body** | Title lists PoS2 + UK navy; body ends on unrelated G7 line |
+| **`source_note` / `capture_note` cross-refs not in transcript** | YAML names Konstantinovka, Mongolia route; `## Transcript` never reaches them |
+| **Abrupt mid-sentence end** | Body stops mid-thought with no closing sections |
+| **Operator or `editorial_note` marks partial paste** | "operator-pasted"; fatigue/travel; "not human-verified" + obvious truncation |
+| **Sub-hook names a seam the file does not contain** | "wire verify G7 energy sanctions" but sentence is cut off before completion |
+
+**Not capture-gap:** full body with ASR noise; tier-4 analyst interpretation with no missing title segments; day batch where **other** captures carry the hook.
+
+### Required output (first rows)
+
+Emit a **Capture status** block **before** the hook verdict table:
+
+```text
+**Capture status:** partial | complete
+**Gap:** <what title/YAML promised but body lacks — or "none">
+**Hooks in scope:** only claims **present in transcript body** (and attributed wires inside it)
+**Do not score:** <segments absent from disk>
+**Next archive move:** operator paste tail · `land_statecraft_intake.py` · fetch only if operator authorized
+```
+
+### Pass law
+
+1. **Never** invent hooks from **`title`**, **`source_note`**, or **`capture_note`** when the claim is not spoken or wire-attributed **in the body**.
+2. **Batch mode** on a **partial** solo capture: score hooks **in body**; list promised-but-missing segments under **Do not score**; do **not** mark the day matrix **complete** for those segments.
+3. **Sub-hook** on a missing segment: verdict **Unclear (capture-gap)** — not Supported/Contradicted — and point to archive completion.
+4. **Synthesis coupling:** if **`statecraft daily synthesis`** already flagged truncation, wire-verify **confirms**; do not upgrade child-note **capture-gap** claims without new body on disk.
+5. **Ship:** optional `editorial_note` / `source_note` tail `capture_gap: <short slug>` only when operator names **Ship**; default Think stays chat-only.
+
+### Mercouris-shaped example (Jun 17)
+
+- **In body:** MOU pause, Blair/Telegraph attribution, Moscow source, G7 Zelensky maneuver, Russia-energy line **starts** then **cuts off**
+- **Gap:** PoS2, UK navy/yacht, Konstantinovka — title/YAML only
+- **Wire-verify:** score **in-body** attributed wires (e.g. Sky News economy claim if desk-locatable); **Unclear (capture-gap)** for G7 sanctions **completion**; **do not score** PoS2/UK navy until tail lands
 
 ## Wire hook detection
 
