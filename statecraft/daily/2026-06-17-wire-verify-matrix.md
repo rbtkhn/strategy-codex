@@ -4,9 +4,9 @@ WORK only; not Record.
 
 **Parent daily:** [2026-06-17](./2026-06-17.md) · **Lebanon child:** [Art. 1 × Pape × Parsi](./2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md) · **Archive:** [2026-06-17 README](../../source-archive/statecraft/2026-06-17/README.md) · **Cross-ref:** [2026-06-16 matrix](./2026-06-16-wire-verify-matrix.md) · [2026-06-14 Lebanon fork](./2026-06-14-wire-verify-matrix.md)
 
-**Mode:** batch (8 ingests, shared MOU-release seam) · **Hooks:** 14 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes (digital sign 17 Jun; Geneva ceremonial **contested**)
+**Mode:** batch (9 ingests, shared MOU-release seam) · **Hooks:** 17 · **CIV-STATE sweep:** 5/5 · **Confidence:** medium-high · **Developing:** yes (digital sign 17 Jun; Geneva ceremonial **contested**; China/Pak assassination lane **partial**)
 
-## Independent source register (8)
+## Independent source register (9)
 
 | # | Guest / voice | Show | YouTube | Hook use |
 | --- | --- | --- | --- | --- |
@@ -18,6 +18,7 @@ WORK only; not Record.
 | 6 | Pape | Breaking Points | `s88aryNUMhE` | J17-3 · J17-4 (interpretation) |
 | 7 | Pape | Substack | — | J17-4 (interpretation) |
 | 8 | Mercouris | solo | `I9CnSQlcmU4` | mesh only |
+| 9 | Johnson solo | Dialogue Works | `enmrP08J_Fo` | J17-15 · J17-16 · J17-17 |
 
 ## Lane sweep receipts
 
@@ -25,7 +26,7 @@ WORK only; not Record.
 | --- | --- | --- | --- |
 | America | WH / NBC / CBS / ABC / Axios | Yes | `verify:america-lane` |
 | Persia | IRNA / MFA Baghaei / Mehr | Yes | `verify:persia-lane` |
-| PRC | fmprc.gov.cn / Xinhua | No dated Jun 17 MOU line | `verify:prc-lane-absent` |
+| PRC | fmprc.gov.cn / Xinhua | Yes — Wang Yi–Araghchi call; China role **thanked** (Jun 17) | `verify:prc-lane` · **no** China→Israel warning line |
 | Russia | TASS / mid.ru | No dated Jun 17 MOU line | `verify:russia-lane-absent` |
 | Rome | Vatican press | No dated Jun 17 MOU line | `verify:rome-lane-absent` |
 
@@ -47,6 +48,18 @@ WORK only; not Record.
 | **J17-12** | **Axios:** Ratcliffe rushed WH with intel Iran will **renege** on MOU after sign (Hoh carry) | America | en | **Contested** | Cross-ref **J16-HE1 supported** (Axios Ratcliffe leak Jun 16) · **Jun 17** post-sign relevance **unclear** · IC product **not published** |
 | **J17-13** | Trump: **~4 weeks** to SPR exhaustion / Hoover-depression frame (Hoh carry) | America | en | **Partial** | G7 press **reported** · DOE SPR level **disputed** across desks · economic-forcing thesis **mesh** with **J16-HO3 contested** |
 | **J17-14** | **Iran** has **not** released official published MOU PDF matching US readout | Persia | fa/en | **Partial** | [Al Jazeera — US account only](https://www.aljazeera.com/news/2026/6/17/read-the-us-account-of-unreleased-14-point-iran-ceasefire-memorandum) · [CBS — Iran not officially released](https://www.cbsnews.com/news/us-iran-deal-memorandum-of-understanding-text/) · Baghaei confirms sign, not full **fa** text drop |
+| **J17-15** | **China + Pakistan** delivered **private diplomatic warning to Israel** re assassination plot (Johnson/Pepe carry) | PRC/Adjacent | en | **Partial** | **Pakistan→US→Israel** chain **supported** via [Reuters/Asharq AWSAT](https://english.aawsat.com/world/5255448-israel-reportedly-took-irans-araghchi-qalibaf-hit-list-after-pakistan-request-us) · [NDTV Reuters carry](https://www.ndtv.com/world-news/iran-war-news-why-irans-foreign-minister-abbas-araghchi-speaker-mohammad-ghalibaf-have-been-struck-off-israels-kill-list-11273986) · **No wire-primary** for **China→Israel** back-channel warning · [Global Times / Xinhua](https://www.globaltimes.cn/page/202606/1363863.shtml) = facilitation thanks, not Israel demarche |
+| **J17-16** | **Araghchi + Ghalibaf** on Israeli **hit list**; temporarily removed during talks | America/Adjacent/Persia | en | **Partial** | [WSJ carry via NDTV/AWSAT](https://english.aawsat.com/world/5255448-israel-reportedly-took-irans-araghchi-qalibaf-hit-list-after-pakistan-request-us) — **4–5 day** suspension · [Iran UN letter](https://www.timesnownews.com/world/middle-east/iran-foreign-minister-abbas-araghchi-parliamentary-speaker-mohammad-bagher-ghalibaf-on-israel-hit-list-tehran-says-real-deliberate-threat-in-un-letter-article-153933098) cites **media reports** · operational plan **not published** |
+| **J17-17** | Signing **moved to Bürgenstock** because assassination intel forced venue shift (Johnson carry) | Adjacent | en | **Contested** | Bürgenstock **already planned** Jun 16–18 by Swiss FDFA + Pakistani/Qatari mediators — [Anadolu Jun 16](https://www.aa.com.tr/en/world/switzerland-confirms-us-iran-memorandum-signing-set-for-friday-at-burgenstock/3968958) · [Asharq Jun 18](https://english.aawsat.com/world/5285570-switzerland-says-talks-planned-friday-between-iran-and-us) · Baghaei **no Switzerland ceremony needed** post digital sign (**J17-5**) · security-driven **relocation** = **analyst inference**, not wire |
+
+### China/Pakistan assassination lane (J17-15 × J17-16 × J17-17)
+
+| Layer | Hooks | Read |
+| --- | --- | --- |
+| **Pakistan mediation pressure** | J17-15 · J17-16 | **Partial** — Reuters Pakistani source: Islamabad told **Washington** to press Israel off targets; **not** a joint China–Israel demarche |
+| **Hit-list desk story** | J17-16 | **Partial** — WSJ/Reuters mesh; **temporary** removal; Iran UN letter = media-report based |
+| **Venue/security narrative** | J17-17 | **Contested** — Bürgenstock pre-scheduled; Johnson **Bergentock** conflates planned venue with intel-driven move |
+| **China spoke Jun 17** | PRC lane | Wang Yi–Araghchi call + MOU welcome — **supported** · China **warning Israel** — **absent** on registry |
 
 ### Lebanon enforcement fork (J17-4 × J17-8 × J17-9)
 
@@ -73,9 +86,11 @@ J17-1 Supported (Wed sign)
 
 **Adjacent (Israel/Lebanon):** Khiam movement **partial**; Katz **no withdrawal supported** — **pseudo-gate fail persists** despite **J17-4** text.
 
-**PRC / Russia / Rome:** `verify:prc-lane-absent` · `verify:russia-lane-absent` · `verify:rome-lane-absent` (Jun 17 MOU window searched; no dated 3a line).
+**PRC:** Wang Yi–Araghchi Jun 17 ([Global Times / Xinhua mesh](https://www.globaltimes.cn/page/202606/1363863.shtml)) — MOU facilitation **supported**; **China→Israel assassination warning** **not located** (`verify:prc-lane` · warning sub-hook **absent**).
 
-**Mesh:** **Supported** on **sign + US text + Pt. 1 Lebanon language** · **Contested** on **Geneva theater + Khiam meaning + midnight sanctions headline** · **Partial** on **Iran published mirror text**.
+**Russia / Rome:** `verify:russia-lane-absent` · `verify:rome-lane-absent` (Jun 17 MOU window searched; no dated 3a line).
+
+**Mesh:** **Supported** on **sign + US text + Pt. 1 Lebanon language** · **Contested** on **Geneva theater + Bürgenstock relocation story + midnight sanctions headline** · **Partial** on **Iran published mirror text + hit-list lane + Pakistan-only pressure path**.
 
 ## Interpretation fence (tier 4 — not wire-scored)
 
@@ -85,6 +100,8 @@ Pape **Stage IV / belt** — tier 4 architecture atop same **J17-4** text.
 
 Escobar **mid-Aug oil crisis** — tier 4 unless primary Washington assessment surfaces.
 
+Johnson solo **China+Pak joint Israel warning** — tier 4 overlay atop **J17-15 partial** (Pakistan→US chain wire-supported; China leg not).
+
 ## Escalate
 
 - **fa** official MOU text drop (upgrade **J17-14**)
@@ -92,12 +109,15 @@ Escobar **mid-Aug oil crisis** — tier 4 unless primary Washington assessment s
 - IDF **official** statement on Khiam movement (upgrade **J17-8**)
 - Geneva **19 Jun** — ceremony held, slipped, or purely symbolic (resolve **J17-5**)
 - **72h Lebanon ops** post **J17-1** (extend **J14-16 / J16-K1** pseudo-gate)
+- **MFA/embassy readout** confirming or denying **China→Israel** demarche (resolve **J17-15** China leg)
+- **Israeli official** on hit-list suspension scope/duration (upgrade **J17-16**)
 
 ## Ingest verify tails (compact — optional Ship to `source_note`)
 
 | Capture | Suggested tail |
 | --- | --- |
 | Johnson×Marandi | `verify:wire-supported J17-1,J17-4,J17-6 · verify:wire-partial J17-14` |
+| Johnson solo | `verify:wire-partial J17-15,J17-16 · verify:wire-contested J17-17 · tier-4 China joint warning` |
 | Aguilar | `verify:wire-partial J17-7,J17-8 · verify:wire-supported J17-4,J17-9` |
 | Hoh | `verify:wire-supported J17-1,J17-11 · verify:wire-contested J17-12 · verify:wire-partial J17-13` |
 | Escobar | `verify:wire-supported J17-1 (mesh) · tier-4 SPR mid-Aug` |
