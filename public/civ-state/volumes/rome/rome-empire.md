@@ -137,6 +137,44 @@ Legions, logistics, garrison, incorporation-by-force. Campaign/command roster SS
 
 **Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Military history (essay)](essays/military-history-rome.md)
 
+## Faith history — empire lens {#faith-history-empire-lens}
+
+Institutional sacred carriers — pontificate, patriarchates, caliphal court, crusade machinery, inquisition. Sacred ethic → [Civilization — faith lens](rome-civilization.md#faith-history-civilization-lens).
+
+### Faith carrier types
+
+| Type | Meaning |
+|------|---------|
+| `imperial_cult_office` | Pontifex maximus · augurs · Vestals (admin) |
+| `patriarchate` | Five patriarchates — Rome · Constantinople · Alexandria (handoff) · Antioch · Jerusalem |
+| `pontificate_curia` | Papal administration · crusade bull machinery |
+| `inquisition_index` | Roman · Spanish · Portuguese tribunals · Index librorum |
+| `crusade_instrument` | Military orders (Templar/Hospitaller) — faith-licensed force |
+| `caliphal_sacred_political` | Rashidun · Umayyad · Abbasid court religion |
+| `monastic_mission` | Benedictine preservation · Jesuit/Franciscan mission instrument |
+
+### Institutional sacred roster
+
+| Figure / institution | Rome-facing | Load-bearing gift | Carrier type | Term affinity |
+|---------------------|-------------|-------------------|--------------|---------------|
+| **Constantine / Theodosius** | yes | Imperial faith synthesis 324–380 | `imperial_cult_office` | faith · empire |
+| **Five patriarchates** | yes | Ecumenical geography pre/post-1054 | `patriarchate` | faith · eastern |
+| **Charlemagne (800)** | yes | Sacral-imperial coronation hinge | `pontificate_curia` | faith · western |
+| **Fourth Crusade (1204)** | yes | Constantinople sack — dual encode | `crusade_instrument` | faith · entropy |
+| **Fourth Lateran** | yes | Crusade-era conciliar peak | `pontificate_curia` | faith · western |
+| **Council of Trent** | yes | Counter-Reformation institutional response | `pontificate_curia` | faith · western |
+| **Gratian / decretists** | yes | Canon law procedural home | `pontificate_curia` | faith · science |
+| **Inquisition / Index** | yes | Doctrinal enforcement instrument | `inquisition_index` | faith · entropy |
+| **al-Tabari** | cross-ref | Caliphal narrative chronicle | `caliphal_sacral_political` | faith · memory |
+| **Benedictine / Jesuit / Franciscan** | yes | Preservation + mission tail | `monastic_mission` | faith · empire |
+| **Iberian patronato** | yes | Colonial sacred authorization | `monastic_mission` | faith · empire · entropy |
+
+**Campaign-sacred peaks (ordered index):** Constantine/Theodosius synthesis · Charlemagne 800 · Fourth Crusade 1204 · Fourth Lateran · Trent · Iberian patronato.
+
+**Boundary (empire · faith):** Do not duplicate civic cult ethic — point to [civilization sacred ethic roster](rome-civilization.md#faith-history-civilization-lens).
+
+**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](essays/faith-history-rome.md)
+
 ## Whole-work term
 
 [Empire](../../theory/empire.md) — outward instrument and amplification.

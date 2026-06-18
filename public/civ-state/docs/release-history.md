@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.29** — Rome faith history: `#faith-spine`, split institutional/sacred-ethic rosters, six term faith segments; eastern sacred trilogy (Judaism · Eastern Christianity · Islam).
+
 **v0.1.28** — Rome military history: `#military-spine`, split rosters, six term military segments; Eastern Roman Empire terminology alignment.
 
 **v0.1.27** — Rome dual language heritage: `#language-spine`, Greek/Latin rosters, six term language segments; sacred dual-carrier doctrine.
@@ -51,6 +53,21 @@ Whole-work **entropy** SSOT: [`theory/entropy.md`](../theory/entropy.md)
 | desire → entropy (behavioral) | desire → empire |
 
 Historical causes and manifestations: war, revolution, disease, famine, ecological disaster, compound shocks.
+
+### v0.1.29 — Rome faith history (parallel spine)
+
+| Change | Detail |
+|--------|--------|
+| `rome-memory.md` | **Faith spine (cross-term index)** `#faith-spine` — mythology / formation / eastern / western sub-tables + tagged boundary rules |
+| `rome-empire.md` | **Institutional sacred roster** + faith carrier types SSOT |
+| `rome-civilization.md` | **Sacred ethic roster** SSOT (Philo → Augustine → Aquinas synthesis chain) |
+| `rome-{term}.md` | **Faith history — {term} lens** on all six theory files |
+| `essays/faith-history-rome.md` | Reader smoke-test essay (framework vs history, eastern trilogy, supersessionism boundary) |
+| `sources/rome/primary/ancient.md` | Patristic Latin/Greek, Jewish-in-Empire shelf (S1–S3) |
+| `sources/rome/primary/medieval.md` | al-Tabari, Gratian/Trent/Index canon shelf (S4–S5) |
+| `theory/{term}.md` | Volume depth (Rome) → `#faith-spine` + faith segment anchors |
+| `governing-term-first.md` | Faith placement fork → mythology / formation / eastern / western |
+| Doctrine | Fourth parallel dimension (chain · language · military · faith); eastern trilogy `civ-state-placement`; 1204 dual encode; no Protestant present rows |
 
 ### v0.1.28 — Rome military history (parallel spine)
 

@@ -16,14 +16,18 @@ Eastern Roman Empire and Constantinopolitan continuity:
 - Niketas Choniates, *Historia*, as the major 1204 witness
 - George Sphrantzes, *Chronicle*, as the major 1453 witness
 
-Roman-Christian universality and conciliar continuity:
+Roman-Christian universality and conciliar continuity *(faith-spine + legacy)*:
 
-- Augustine, *City of God*
+- Gratian, *Decretum* *(faith-spine — canon / Counter-Reformation shelf)*
+- Council of Trent decrees *(faith-spine — western hinge 1545–1563)*
+- Index librorum prohibitorum *(faith-spine — inquisition/index cross-ref)*
+- Justinian, *Codex* — cross-ref science shelf *(faith-spine — civil-sacred overlap)*
+- al-Tabari, *History of the Prophets and Kings* *(faith-spine — caliphal narrative)*
+- Qur'an — **boundary cross-ref only** *(sacred text ≠ civ-state placement row)*
 - Boethius, *Consolation of Philosophy*
 - *Acts of Nicaea*
 - *Acts of Chalcedon*
 - *Pseudo-Isidorean Decretals*
-- Gratian, *Decretum*
 - Gregory IX, *Decretales*
 - Boniface VIII, *Unam Sanctam*
 

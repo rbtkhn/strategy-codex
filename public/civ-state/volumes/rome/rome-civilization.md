@@ -132,6 +132,32 @@ Civic-military ethic — *virtus*, triumph, citizenship-as-service. **Not** camp
 
 **Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Military history (essay)](essays/military-history-rome.md)
 
+## Faith history — civilization lens {#faith-history-civilization-lens}
+
+Civic-sacred ethic — public cult, priesthoods, liturgical calendar, citizenship-sacral overlap. **Not** institutional chronicle; pontificate/caliphal machinery lives on [Empire — faith roster](rome-empire.md#faith-history-empire-lens).
+
+### Sacred ethic roster
+
+| Figure / carrier | Rome-facing | Load-bearing gift | Term affinity |
+|------------------|-------------|-------------------|---------------|
+| **Capitoline triad** | yes | Chief state pantheon — Jupiter · Juno · Minerva | civilization · faith |
+| **Vestals / Flamen** | yes | Priestly civic-sacral grammar | civilization · faith |
+| **Sibylline keepers** | yes | Prophetic state infrastructure | civilization · memory · faith |
+| **Stoic / Epicurean public ethics** | yes | Philosophical religion co-primary (A1) | civilization · faith · science |
+| **Virgil** | yes | *Aeneid* — mythic-sacred bridge (cross-ref mythology sub-table) | civilization · memory · faith |
+| **Saturnalia / triumph / ludi** | yes | Liturgical calendar ethic — pre- and post-Christian | civilization · faith · empire |
+| **Synagogue / mosque coexistence** | roster-only | Civic-sacred coexistence markers — **not** spine rival rows | civilization · faith · memory |
+| **Roman oaths / baptism-civic** | yes | Citizenship-sacral overlap post-Christianization | civilization · faith |
+| **Philo** | yes | Hellenistic-Jewish synthesis — **`operator-synthesis-chain`** opener | civilization · faith · science |
+| **Augustine** | yes | Latin patristic synthesis — **`operator-synthesis-chain`** | civilization · faith · memory |
+| **Aquinas** | yes | Scholastic faith-reason synthesis — **`operator-synthesis-chain`** | civilization · faith · science |
+
+**Analyst chain (roster-indexed):** Philo → Augustine → Aquinas — spine-tagged on Christianization cluster; Avicenna/Averroes on [Science faith lens](rome-science.md#faith-history-science-lens) (E6).
+
+**Boundary (civilization · faith):** Ethic roster ≠ institutional chronicle — cross-read [empire faith roster](rome-empire.md#faith-history-empire-lens).
+
+**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](essays/faith-history-rome.md)
+
 ## Whole-work term
 
 [Civilization](../../theory/civilization.md) — inherited order and legitimacy substrate.

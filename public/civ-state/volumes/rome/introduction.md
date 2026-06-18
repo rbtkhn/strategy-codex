@@ -12,6 +12,8 @@ Civilization beautifies through law, citizenship, and imperial universality; emp
 
 **Military history:** Force-structure parallel dimension; military placement: [rome-memory — military spine](rome-memory.md#military-spine). Essay: [Military history Rome](essays/military-history-rome.md).
 
+**Faith history:** Sacred-order parallel dimension; faith placement: [rome-memory — faith spine](rome-memory.md#faith-spine). Essay: [Faith history Rome](essays/faith-history-rome.md).
+
 **Sacred / civilizational grammar:** Roman law, citizenship, imperial universality, Christianity, papal residue. See [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md).
 
 **Present carrier:** Catholic Church as clearest residue; Eastern Roman Empire as indispensable bridge in the chain narrative.

@@ -12,6 +12,8 @@ Read Rome as a migration shelf. Start with founding law, empire, and universalit
 
 **Military note:** Campaign rosters and civic-military ethic live on [rome-empire](rome-empire.md#military-history-empire-lens) and [rome-civilization](rome-civilization.md#military-history-civilization-lens); placement index: [military spine](rome-memory.md#military-spine).
 
+**Faith note:** Institutional and sacred-ethic rosters live on [rome-empire](rome-empire.md#faith-history-empire-lens) and [rome-civilization](rome-civilization.md#faith-history-civilization-lens); placement index: [faith spine](rome-memory.md#faith-spine).
+
 ## What Each Era Is Doing
 
 - `Ancient` establishes republic, empire, law, universality, and the classical state form.

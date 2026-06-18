@@ -58,6 +58,24 @@ Defeats, frontier collapse, civil war, gunpowder terminus. Placement: [Military 
 
 **Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Military history (essay)](essays/military-history-rome.md)
 
+## Faith history — entropy lens {#faith-history-entropy-lens}
+
+Heresies, expulsions, dualist rivals, sacred ruptures. Placement: [Faith spine](rome-memory.md#faith-spine).
+
+| Node | Notes | Tag(s) |
+|------|-------|--------|
+| Suppressed pagan persistence | 4th–6th c. — entropy primary (A5) | `historical-grounded` |
+| Gnosticism / Arian / Donatist | Heresies — comparative only | `historical-grounded` |
+| Manichaeism | Imperial-era dualist pressure | `historical-grounded` |
+| **70 / 135** | Judaism-leg Temple rupture — cross-ref eastern leg | `historical-grounded` |
+| **1204** | Eastern sacral wound — dual encode | `historical-grounded` |
+| Reformation confessions | Lutheran · Calvinist · Anglican — **never** chain/faith heads | `historical-grounded` |
+| Iberian expulsion (1492) | Alhambra Decree — Jewry cross-ref | `historical-grounded` |
+| French Revolution (1789) | Sacred-order rupture on French branch | `historical-grounded` |
+| Colonial mission tail | Sacred authorization — **`contested-weight` mandatory** | **`contested-weight`** |
+
+**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](essays/faith-history-rome.md)
+
 ## Whole-work term
 
 [Entropy](../../theory/entropy.md) — historical causes and manifestations of civilizational degradation.

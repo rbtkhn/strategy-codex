@@ -57,6 +57,30 @@ Faith licenses force; does not replace political head (Papacy on `#chain-spine`)
 
 **Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Military history (essay)](essays/military-history-rome.md)
 
+## Faith history — faith lens {#faith-history-faith-lens}
+
+Full spine routing + council depth. Placement SSOT: [Faith spine](rome-memory.md#faith-spine); sovereignty and dual-language segments above **deepen** — do not duplicate spine tables.
+
+| Sub-anchor | Segment owns |
+|------------|--------------|
+| [#faith-spine-mythology](rome-memory.md#faith-spine-mythology) | Virgil bridge; euhemerism boundary |
+| [#faith-spine-formation](rome-memory.md#faith-spine-formation) | Polytheism → Christianization · Nicaea/Chalcedon cross-ref |
+| [#faith-spine-eastern](rome-memory.md#faith-spine-eastern) | Judaism · Eastern Christianity · Islam trilogy |
+| [#faith-spine-western](rome-memory.md#faith-spine-western) | Papacy · HRE · Reformation · Trent · missions |
+
+| Node | Notes | Tag(s) |
+|------|-------|--------|
+| **1054** | Primary schism — dual primary here + memory spine | `historical-grounded` |
+| Nicaea (325) · Chalcedon (451) | Eastern Christianity leg primary; formation cross-ref | `historical-grounded` |
+| Council of Trent | Western hinge 1545–1563 | `historical-grounded` |
+| Crusades | Faith primary — military instrument cross-ref | `historical-grounded` |
+| **1204** | Dual encode — eastern sacral wound ║ western instrument | `historical-grounded` |
+| Papacy present | `operator-dual-carrier` — chain + western faith | `operator-dual-carrier` |
+| Orthodox present | `operator-sacred-doctrine` — pairs language spine | `operator-sacred-doctrine` |
+| Christianization (324–380) | `operator-supersessionism-boundary` · `operator-synthesis-chain` | `historical-grounded` |
+
+**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Institutional roster](rome-empire.md#faith-history-empire-lens) · [Sacred ethic roster](rome-civilization.md#faith-history-civilization-lens) · [Faith history (essay)](essays/faith-history-rome.md)
+
 ## Whole-work term
 
 [Faith](../../theory/faith.md) — sacred and moral truth-order.

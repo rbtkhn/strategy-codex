@@ -66,13 +66,25 @@ Law, order, and imperial continuity:
 - Theodosian Code
 - Justinian, *Institutes*
 
-Christian and late-imperial hinge:
+Christian and late-imperial hinge *(faith-spine + legacy)*:
 
+- Augustine, *Confessions* *(faith-spine — synthesis-chain)*
+- Augustine, *City of God* *(faith-spine — patristic Latin)*
+- Jerome, *Vulgate* *(faith-spine — patristic Latin)*
+- Ambrose, selected works *(faith-spine — patristic Latin)*
+- Tertullian, selected apologetics *(faith-spine — patristic Latin)*
+- Cyprian, selected epistles *(faith-spine — patristic Latin)*
+- Eusebius, *Ecclesiastical History* *(faith-spine — patristic Greek)*
+- Athanasius, *On the Incarnation* *(faith-spine — patristic Greek)*
+- Cyril of Alexandria, selected Christological works *(faith-spine — patristic Greek)*
+- John Chrysostom, selected homilies *(faith-spine — patristic Greek)*
+- Basil of Caesarea, selected works *(faith-spine — patristic Greek)*
+- Philo of Alexandria, selected works *(faith-spine — operator-synthesis-chain opener)*
+- Josephus, *Antiquities* · *Jewish War* *(faith-spine — Jewish-in-Empire)*
+- Septuagint — cross-ref [language spine](../../../volumes/rome/rome-memory.md#language-spine) *(faith-spine — revelation-translation hinge)*
 - The New Testament
 - Lactantius, *On the Deaths of the Persecutors*
-- Athanasius, *On the Incarnation*
 - *Acts of Nicaea*
-- Augustine, *City of God*
 - Symmachus, *Relation 3*
 - Eusebius, *Life of Constantine*
 - Libanius, *Orations*

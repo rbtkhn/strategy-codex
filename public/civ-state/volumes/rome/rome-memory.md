@@ -3,7 +3,7 @@
 Volume-local lens — **Rome**, Volume III.
 
 Status: Active doctrine (Roman law mirror)  
-Last updated: 2026-06-18
+Last updated: 2026-06-19
 
 ## Whole-work term
 
@@ -15,7 +15,7 @@ Roman sacred grammar survives the republic-to-empire mutation, Christianization,
 
 *Transformed continuity under fractured sovereignty — grammar persists, sovereignty splits, residue carries.*
 
-**Chain doctrine:** [Republic](#chain-spine) opens the political chain; Romulus and Aeneas remain **substrate** only. Full spine: [Chain spine (cross-term index)](#chain-spine) below; **language placement:** [Language spine](#language-spine); **military placement:** [Military spine](#military-spine); term-filtered segments on each [rome-{term}.md](README.md).
+**Chain doctrine:** [Republic](#chain-spine) opens the political chain; Romulus and Aeneas remain **substrate** only. Full spine: [Chain spine (cross-term index)](#chain-spine) below; **language placement:** [Language spine](#language-spine); **military placement:** [Military spine](#military-spine); **faith placement:** [Faith spine](#faith-spine); term-filtered segments on each [rome-{term}.md](README.md).
 
 ## Sovereignty chain — memory lens {#sovereignty-chain-memory-lens}
 
@@ -78,6 +78,7 @@ Canonical placement index — when chain *placement* governs, open here first, t
 - **Present political carrier** = Papacy (Pope Leo XIV) only.
 - **Language placement** → [Language spine](#language-spine) (parallel dimension; not a second political chain).
 - **Military placement** → [Military spine](#military-spine) (parallel dimension; force structure, not political head).
+- **Faith placement** → [Faith spine](#faith-spine) (parallel dimension; sacred order, not political head).
 
 ## Dual language heritage — memory lens {#dual-language-heritage-memory-lens}
 
@@ -202,6 +203,124 @@ When **which force structure carries Roman military grammar** governs, open [Mil
 **Boundary rules (military-spine):**
 - Full rosters live on **empire + civilization** — do not duplicate here.
 - Papacy = political head only — no NATO present row on spine.
+
+## Faith history — memory lens {#faith-history-memory-lens}
+
+When **which sacred order carries Roman faith grammar** governs, open [Faith spine](#faith-spine) first, then this segment. Full rosters: [Empire — institutional](rome-empire.md#faith-history-empire-lens) · [Civilization — sacred ethic](rome-civilization.md#faith-history-civilization-lens).
+
+### Faith spine (cross-term index) {#faith-spine}
+
+| Sub-anchor | Scope |
+|------------|-------|
+| [#faith-spine-mythology](#faith-spine-mythology) | Virgil/*Aeneid* mythic-sacred bridge; euhemerism boundary |
+| [#faith-spine-formation](#faith-spine-formation) | Polytheism → imperial cult → Christianization → pre-70 Temple |
+| [#faith-spine-eastern](#faith-spine-eastern) | Judaism · Eastern Christianity · Islam (parallel sacred-order legs) |
+| [#faith-spine-western](#faith-spine-western) | Papacy · HRE · Reformation · Trent · Iberia · colonial mission tail |
+
+#### Mythology {#faith-spine-mythology}
+
+| Row | Sacred carrier | Key nodes | Term affinity | Tag(s) |
+|-----|----------------|-----------|---------------|--------|
+| Virgil / *Aeneid* | National epic as mythic-sacred bridge | Augustan canon | faith · memory · civilization | `historical-grounded` |
+
+*Mythic substrate ≠ historiographical claim* — Aeneas/Troy/Romulus on `#chain-spine` only.
+
+#### Formation {#faith-spine-formation}
+
+| Row | Sacred carrier | Key nodes | Term affinity | Tag(s) |
+|-----|----------------|-----------|---------------|--------|
+| State cult + *pax deorum* | Political theology of divine favor | Capitoline frame | faith · empire | `historical-grounded` |
+| Capitoline triad | Chief state pantheon | Jupiter · Juno · Minerva | faith · civilization | `historical-grounded` |
+| Sibylline books | Prophetic state infrastructure | Sibylline consultation | faith · memory | `historical-grounded` |
+| Vestals / Flamen | Priestly institutions | Vestal college; flaminical rites | faith · civilization | `historical-grounded` |
+| Stoic / Epicurean co-primary | Philosophical religion | Hellenistic-Roman ethics | faith · science | `historical-grounded` |
+| Interpretatio / syncretism | Greek-Roman god-mapping | Hellenic interface | faith · memory | `historical-grounded` |
+| Imperial cult hinge | Sacral emperor | Augustan → Constantine | faith · empire | `historical-grounded` |
+| Imperial mythography | Golden Age · triumph | Saturnalia; triumph | faith · empire | `historical-grounded` |
+| Mithraism footnote | Army mystery cult | Mithraic shrines | faith · empire | **`contested-weight`** footnote |
+| **Second Temple / pre-70 Judaism** | Temple-era sacred geography | pre-70 Israel-in-Empire | faith · memory | `historical-grounded` |
+| **Christianization compound** | Imperial faith synthesis | 324–380 | faith · empire · entropy | `historical-grounded` · **`operator-supersessionism-boundary`** · **`operator-synthesis-chain`** |
+| Nicaea (325) | Ecumenical hinge | Nicene creed | faith · eastern | `historical-grounded` — cross-ref eastern leg |
+| Chalcedon (451) | Christological hinge | Two-natures definition | faith · eastern | `historical-grounded` — cross-ref eastern leg |
+
+#### Eastern {#faith-spine-eastern}
+
+*civ-state parallel sacred-order legs — not unified historical actor.* **`civ-state-placement`** on **three** trilogy rows only.
+
+| Row | Sacred carrier | Key nodes | Term affinity | Tag(s) |
+|-----|----------------|-----------|---------------|--------|
+| **Judaism eastern leg** | Diaspora-in-Empire (post-70) | Septuagint hinge · sacred law coexistence · **70–135 compound** | faith · memory · science | `civ-state-placement` · `operator-judaism-rival-row` |
+| **Eastern Christianity leg** | Greek Orthodox sacred order | Nicaea · Chalcedon · 1054 prelude · **1054** · **1204 dual encode** · Orthodox present | faith · memory | `civ-state-placement` · `operator-eastern-christianity-row` |
+| 1054 prelude (Filioque/azymes) | Doctrinal/liturgical run-up | Filioque · azymes | faith · memory | `historical-grounded` |
+| **1054 Great Schism** | Primary rupture | East/West split | faith · entropy · memory | `historical-grounded` |
+| **1204 Fourth Crusade** | Dual encode: eastern sacral wound + western instrument | Constantinople sack | faith · entropy · memory | `historical-grounded` |
+| Orthodox present | Co-primary sacred carry | Greek liturgy present | faith · memory | **`operator-sacred-doctrine`** |
+| Russia / Church Slavonic handoff | Orthodox carry beyond Greek | Moscow · [Russia volume](../../volumes/russia/README.md) | faith · eastern | `historical-grounded` |
+| Non-Chalcedonian mini-leg | Coptic · Armenian · Nestorian | parallel ancient churches | faith · eastern | **`contested-weight`** |
+| **Islam — early conquest** | Rashidun → Abbasid | 632–c.750 · dhimmī · Shia/Sunni footnote | faith · empire | `civ-state-placement` · `operator-islam-rival-row` |
+| **Islam — Ottoman phase** | Seljuk → Ottoman | 1299+ · **1453** · Vienna (1683) | faith · empire · entropy | `operator-islam-ottoman-phase` |
+
+**711 note:** Umayyad opener on early-conquest Islam row **and** [western Iberia row](#faith-spine-western).
+
+#### Western {#faith-spine-western}
+
+| Row | Sacred carrier | Key nodes | Term affinity | Tag(s) |
+|-----|----------------|-----------|---------------|--------|
+| Papacy present | Latin sacral-universal carry | Pope Leo XIV | faith · memory · civilization | `historical-grounded` · **`operator-dual-carrier`** |
+| HRE sacral-imperial | Sacral-imperial title memory | 800–1806 | faith · empire | `historical-grounded` |
+| Gallicanism | French branch tension | vs papal supremacy | faith · entropy | `historical-grounded` |
+| Reformation fracture | Western sacred-order split | 1517+ arc | faith · entropy | **`contested-weight`** |
+| Faith-fracture genealogy | Crusade → Reformation → TYW | indexed arc | faith · empire · entropy | **`contested-weight`** · `operator-tyw-faith-fracture` |
+| **Council of Trent** | Catholic institutional response | 1545–1563 | faith · western | `historical-grounded` |
+| Crusades (faith primary) | Faith-authorized expedition | 1095–1291 · **1204 instrument node** | faith · empire | `historical-grounded` |
+| Iberia / al-Andalus (711+) | Sacred geography dual leg | Umayyad Andalus · Reconquista · Iberian Jewry · convivencia | faith · empire · memory | `historical-grounded`; convivencia **`contested-weight`** |
+| Iberian colonial mission tail | Sacred authorization overseas | mission · patronato · Jesuit/Franciscan | faith · empire · entropy | **`contested-weight`** |
+| Vatican / concordats | Papal residue instrument | Lateran (1870) · concordats | faith · industrial → cybernetic | `historical-grounded` |
+| French Revolution (1789) | Sacred-order rupture | cross-ref | faith · entropy | cross-ref entropy segment |
+
+**Protestant confessions:** entropy/comparative only — **no rows** on western faith spine.
+
+**Faith boundary rules (tagged):**
+
+| Rule | Tag | Text |
+|------|-----|------|
+| Euhemerism | `historical-grounded` | *Mythic substrate ≠ historiographical claim* — Aeneas/Troy/Romulus chain-only |
+| Eastern trilogy | `civ-state-placement` | Judaism · Eastern Christianity · Islam = parallel sacred-order legs |
+| Supersessionism | `operator-supersessionism-boundary` | Framework tracks Christian synthesis — **no theological verdict** |
+| Papacy dual-carrier | `operator-dual-carrier` | Present on `#chain-spine` + `#faith-spine-western` — not rival heads |
+| Sacred dual-medium | `operator-sacred-doctrine` | Papal Latin + Orthodox Greek co-primary — cross-ref `#language-spine` |
+| Reformation genealogy | `operator-tyw-faith-fracture` | Crusade → Reformation → TYW — **genealogy not causation** + `contested-weight` |
+| Protestant confessions | `historical-grounded` | **Never** chain/faith heads — entropy/comparative only |
+| Colonial mission tail | **`contested-weight`** | **Mandatory** — colonial history mainstream; Roman sacred framing operator |
+| Shia/Sunni fracture | `historical-grounded` | Footnote on Islam eastern leg — not rival sacred-order row |
+| Crusades | `historical-grounded` | Faith western primary; **1204 dual encode**; `#military-spine` instrument cross-ref |
+| No dual-year faith index | `historical-grounded` | No faith dual-year rows; 1453 cross-ref military `operator-dual-1453-span` |
+| Heresies / dualist rivals | `historical-grounded` | Gnosticism · Manichaeism → **entropy**; Mithraism formation footnote only |
+| Non-Chalcedonian churches | `contested-weight` | Mini-leg row — not fourth trilogy peer |
+| Philo–Augustine–Aquinas | `operator-synthesis-chain` | Intellectual lineage on Christianization cluster — [essay](essays/faith-history-rome.md) |
+| Parallel rupture index | `historical-grounded` | Fourth spine — volume architecture pilot |
+
+### Term-filtered nodes (faith)
+
+| Node | Notes |
+|------|-------|
+| **70** | Judaism-leg Temple rupture |
+| **135** | Bar Kokhba — compound with 70 |
+| **325 / 451** | Nicaea · Chalcedon — eastern Christianity leg |
+| **380** | Theodosius — Christianization compound tail |
+| **800** | Charlemagne sacral-imperial — western HRE opener |
+| **1054** | Primary schism — dual primary memory + faith term |
+| **1204** | Dual encode — eastern sacral wound ║ western crusade instrument |
+| **1517** | Reformation opener |
+| **1492** | Iberian expulsion / Atlantic cross-ref |
+| **1453** | Sacral East terminus — cross-ref military dual 1453 |
+| post-1815 | Comparative sacred memory |
+
+**Cross-reads:** [Empire roster](rome-empire.md#faith-history-empire-lens) · [Civilization ethic](rome-civilization.md#faith-history-civilization-lens) · [Faith](rome-faith.md#faith-history-faith-lens) · [Science](rome-science.md#faith-history-science-lens) · [Entropy](rome-entropy.md#faith-history-entropy-lens) · [Faith history (essay)](essays/faith-history-rome.md)
+
+**Boundary rules (faith-spine):**
+- Full rosters live on **empire + civilization** — do not duplicate here.
+- Papacy = `#chain-spine` + `#faith-spine-western` present (`operator-dual-carrier`).
 
 ## Roman law — memory lens
 

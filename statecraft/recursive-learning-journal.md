@@ -2063,6 +2063,48 @@ keep political and sacred-language carriers explicitly separated.
 
 Routing: civ-state **v0.1.27** · [language spine](../public/civ-state/volumes/rome/rome-memory.md#language-spine).
 
+## 2026-06-19 - Rome faith history (faith-spine parallel dimension)
+
+### Trigger
+
+Operator elicitation (Blocks A–G, ET1–ET5, shelf S1–S5) locked `#faith-spine` as fourth parallel row (chain · language · military · faith). v0.1.29 encode: mythology / formation / eastern / western sub-tables, split rosters (empire institutional + civilization sacred ethic), six term **Faith history** segments, essay smoke-test, primary shelf S1–S5.
+
+### Extracted law
+
+```text
+Fractured-sovereignty chains gain a parallel faith dimension:
+one cross-term faith-spine (rome-memory#faith-spine)
+plus per-lens filtered faith segments — same rupture nodes, fourth row tracks sacred order;
+political chain head unchanged; eastern trilogy (Judaism · Eastern Christianity · Islam) uses civ-state-placement;
+1204 dual encode (eastern sacral wound + western crusade instrument); Protestant confessions entropy-only.
+```
+
+Cross-read: [2026-06-18 Rome military history entry](#2026-06-18---rome-military-history-military-spine-parallel-dimension) — faith fork extends, does not replace, chain, language, or military spines.
+
+### Reapplication
+
+- **Next civ with long sacred continuity:** elicit eastern/western rival rows + roster split before term segments.
+- **Faith placement queries:** `governing-term-first` → `#faith-spine` + sub-anchor when sacred order governs.
+- **Do not** duplicate full institutional roster on memory — empire owns institutional carriers; civilization owns sacred ethic roster.
+
+### Structural changes
+
+- `rome-memory.md` — `#faith-spine` + four sub-tables + boundary rules
+- `rome-empire.md` — faith carrier types + institutional roster
+- `rome-civilization.md` — sacred ethic roster
+- Six `rome-{term}.md` — **Faith history — {term} lens**
+- `essays/faith-history-rome.md` — framework vs history essay
+- `sources/rome/primary/ancient.md` · `medieval.md` — S1–S5 shelf slots
+- `governing-term-first.md` — faith placement step 7
+- `theory/{term}.md` — Volume depth faith spine pointers
+- `docs/VERSION` — **v0.1.29**
+
+### Routing
+
+- civ-state **v0.1.29** · [faith spine](../public/civ-state/volumes/rome/rome-memory.md#faith-spine).
+
+---
+
 ## 2026-06-18 - Rome military history (military-spine parallel dimension)
 
 ### Trigger

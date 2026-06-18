@@ -56,6 +56,20 @@ Procedural military text + siege/engineering. Roster SSOT: [Empire — Vegetius 
 
 **Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Military history (essay)](essays/military-history-rome.md)
 
+## Faith history — science lens {#faith-history-science-lens}
+
+Canon law hybrid · patristic reason · Avicenna/Averroes cross-ref (E6 science-spine primary).
+
+| Node | Notes | Tag(s) |
+|------|-------|--------|
+| Gratian *Decretum* | Canon procedural home | `historical-grounded` |
+| Justinian *Codex* | Civil-sacred overlap — cross-ref science shelf | `historical-grounded` |
+| Philo → Augustine → Aquinas | **`operator-synthesis-chain`** — roster on civilization | `operator-synthesis-chain` |
+| Avicenna / Averroes | Islamic philosophy — **science-spine primary**; faith one-line cross-ref | `historical-grounded` |
+| Stoic / Epicurean | Philosophical religion — formation co-primary cross-ref | `historical-grounded` |
+
+**Cross-reads:** [Faith spine — formation](rome-memory.md#faith-spine-formation) · [Faith history (essay)](essays/faith-history-rome.md)
+
 ## Whole-work term
 
 [Science](../../theory/science.md) — procedural and evidentiary truth-order.
