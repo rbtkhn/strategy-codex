@@ -20,8 +20,8 @@ Primary source base: Rome source corpus
 - Empire chapter: [Rome empire](essays/empire-rome.md)
 - Shelf reader: [Rome shelf reader](shelf-reader.md)
 - Volume bibliography: [Rome bibliography](../../sources/rome/bibliography.md)
-- Sovereign continuity support note: [Rome chain spine](rome-memory.md#chain-spine)
-- Optional sub-lenses: [essays](essays/README.md) — geo-strategy, secret-history, game-theory
+- Sovereign continuity support note: [Rome chain spine](rome-memory.md#chain-spine) · [Rome military spine](rome-memory.md#military-spine)
+- Optional sub-lenses: [essays](essays/README.md) — dual language heritage, military history, geo-strategy, secret-history, game-theory
 - Volume-local theory: `rome-{term}.md` — orchestrated from [whole-work theory](../../theory/README.md) (Roman law mirror pilot)
   - [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
   - [rome-faith](rome-faith.md) · [rome-science](rome-science.md) · [rome-memory](rome-memory.md)

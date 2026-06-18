@@ -10,6 +10,8 @@ Read Rome as a migration shelf. Start with founding law, empire, and universalit
 
 **Language note:** **Classical Latin** and **Greek** inheritance (see [language spine](rome-memory.md#language-spine)) are not the same object as geographic **Latin-Catholic** or **Latin-American** residue labels.
 
+**Military note:** Campaign rosters and civic-military ethic live on [rome-empire](rome-empire.md#military-history-empire-lens) and [rome-civilization](rome-civilization.md#military-history-civilization-lens); placement index: [military spine](rome-memory.md#military-spine).
+
 ## What Each Era Is Doing
 
 - `Ancient` establishes republic, empire, law, universality, and the classical state form.

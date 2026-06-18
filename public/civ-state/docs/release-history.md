@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.28** — Rome military history: `#military-spine`, split rosters, six term military segments; Eastern Roman Empire terminology alignment.
+
 **v0.1.27** — Rome dual language heritage: `#language-spine`, Greek/Latin rosters, six term language segments; sacred dual-carrier doctrine.
 
 ## Timeline
@@ -49,6 +51,21 @@ Whole-work **entropy** SSOT: [`theory/entropy.md`](../theory/entropy.md)
 | desire → entropy (behavioral) | desire → empire |
 
 Historical causes and manifestations: war, revolution, disease, famine, ecological disaster, compound shocks.
+
+### v0.1.28 — Rome military history (parallel spine)
+
+| Change | Detail |
+|--------|--------|
+| `rome-memory.md` | **Military spine (cross-term index)** `#military-spine` — formation / eastern / western sub-tables + tagged boundary rules |
+| `rome-empire.md` | **Campaign roster** + military carrier types SSOT |
+| `rome-civilization.md` | **Civic-military ethic roster** SSOT |
+| `rome-{term}.md` | **Military history — {term} lens** on all six theory files |
+| `essays/military-history-rome.md` | Reader smoke-test essay (framework vs history, Herodotus synthesis) |
+| `sources/rome/primary/ancient.md` | Vegetius, Frontinus, Ammianus, Agathias, Procopius, Maurice, Nikephoros Phokas |
+| `theory/{term}.md` | Volume depth (Rome) → `#military-spine` + military segment anchors |
+| `governing-term-first.md` | Military placement fork → formation / eastern / western |
+| Terminology | **Romaion** → **Eastern Roman Empire** on operator surfaces (3 files) |
+| Doctrine | Third parallel dimension (chain · language · military); NATO boundary tag only; no present military row |
 
 ### v0.1.27 — Rome dual language heritage
 

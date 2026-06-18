@@ -49,6 +49,13 @@ Roman self-narration, republic, and empire formation:
 - Pliny the Elder, *Natural History*
 - Marcus Aurelius, *Meditations*
 - Cassius Dio, *Roman History*
+- Vegetius, *De Re Militari* *(military-spine — procedural branch)*
+- Frontinus, *Strategemata* *(military-spine — stratagem catalog)*
+- Ammianus Marcellinus, *Res Gestae* *(history — late empire field army)*
+- Agathias, *Histories* *(military-spine — East-bridge historian)*
+- Procopius, *Wars* *(military-spine — Justinian reconquest narrative)*
+- Maurice, *Strategikon* *(military-spine — operational doctrine)*
+- Nikephoros Phokas, *Praecepta Militaria* *(military-spine — pointer; fragmentary treatise)*
 
 Law, order, and imperial continuity:
 

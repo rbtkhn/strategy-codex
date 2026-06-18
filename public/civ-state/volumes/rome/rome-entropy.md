@@ -42,6 +42,22 @@ Last updated: 2026-06-18
 
 **Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Empire (Rome)](rome-empire.md#dual-language-heritage-empire-lens)
 
+## Military history — entropy lens {#military-history-entropy-lens}
+
+Defeats, frontier collapse, civil war, gunpowder terminus. Placement: [Military spine](rome-memory.md#military-spine).
+
+| Node | Notes | Tag(s) |
+|------|-------|--------|
+| **476** | Western field armies fragment | `contested-weight` |
+| Adrianople (378) | `rupture_defeat` carrier | `historical-grounded` |
+| Manzikert (1071) | Persia-row sequel — node contested | **`contested-weight`** |
+| **1204** | East command/admin shock | `historical-grounded` |
+| **1453** | Eastern Roman Empire military terminus; gunpowder co-equal | `operator-gunpowder-1453` |
+| Thirty Years' War | European confessional rupture | **`contested-weight`** |
+| NATO comparative footnote | `operator-present-residue-stretch` — frontier-maintenance analogy only; **not** present period row | `operator-present-residue-stretch` |
+
+**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Military history (essay)](essays/military-history-rome.md)
+
 ## Whole-work term
 
 [Entropy](../../theory/entropy.md) — historical causes and manifestations of civilizational degradation.

@@ -12,7 +12,7 @@ Rome carries one universal civilizational grammar through **two durable media** 
 
 From the **Republic** onward, Greek philosophical, tragic, and historical grammar stays **co-primary** with Latin civic-public law. Rome does not merely borrow Greek ornament; it **absorbs and contests** Greek inheritance through translation, rivalry, and synthesis — while Latin magistracy, codification, and public narrative carry the civic-public medium.
 
-After Christianization, **Koine** and scripture bridge East and West until **1054** hardens a sacred-language fork. The **476** western shock is co-equal **institutional** rupture: the West loses **Greek-administered Roman institutional continuity**, not simply a vernacular language. The East bridge (Romaion) continues in Greek medium until **1453**.
+After Christianization, **Koine** and scripture bridge East and West until **1054** hardens a sacred-language fork. The **476** western shock is co-equal **institutional** rupture: the West loses **Greek-administered Roman institutional continuity**, not simply a vernacular language. The East bridge (Eastern Roman Empire) continues in Greek medium until **1453**.
 
 ## Sacred Dual-Carrier (operator doctrine)
 

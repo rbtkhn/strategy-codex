@@ -15,7 +15,7 @@ Roman sacred grammar survives the republic-to-empire mutation, Christianization,
 
 *Transformed continuity under fractured sovereignty — grammar persists, sovereignty splits, residue carries.*
 
-**Chain doctrine:** [Republic](#chain-spine) opens the political chain; Romulus and Aeneas remain **substrate** only. Full spine: [Chain spine (cross-term index)](#chain-spine) below; **language placement:** [Language spine](#language-spine); term-filtered segments on each [rome-{term}.md](README.md).
+**Chain doctrine:** [Republic](#chain-spine) opens the political chain; Romulus and Aeneas remain **substrate** only. Full spine: [Chain spine (cross-term index)](#chain-spine) below; **language placement:** [Language spine](#language-spine); **military placement:** [Military spine](#military-spine); term-filtered segments on each [rome-{term}.md](README.md).
 
 ## Sovereignty chain — memory lens {#sovereignty-chain-memory-lens}
 
@@ -77,6 +77,7 @@ Canonical placement index — when chain *placement* governs, open here first, t
 - This spine is **placement index only** — term-filtered diagnosis lives on each `rome-{term}.md`.
 - **Present political carrier** = Papacy (Pope Leo XIV) only.
 - **Language placement** → [Language spine](#language-spine) (parallel dimension; not a second political chain).
+- **Military placement** → [Military spine](#military-spine) (parallel dimension; force structure, not political head).
 
 ## Dual language heritage — memory lens {#dual-language-heritage-memory-lens}
 
@@ -89,7 +90,7 @@ When **which linguistic medium carries Roman grammar** governs, open here first,
 | Pre-Republic | Hellenic formation (14-name roster) | Latin civic formation; Virgil/*Aeneid* substrate | Mythic + philosophical substrate |
 | Republic–Empire unified | **Co-primary Greek grammar** | **Co-primary Latin civic-public law** (10-name roster) | Two media, one sovereignty |
 | Constantine–Diocletian | Greek East admin thickens | Latin West law + public text | Language-admin hinge |
-| 476–1054 | East bridge (Greek Romaion) | West loses **Greek-administered Roman institutional continuity**; papal Latin rising | Institutional rupture — not “West loses Greek vernacular” |
+| 476–1054 | East bridge (Greek Eastern Roman Empire) | West loses **Greek-administered Roman institutional continuity**; papal Latin rising | Institutional rupture — not “West loses Greek vernacular” |
 | 1054–1453 | Orthodox Greek sacred carry | Latin Christendom + HRE/France | Sacred language fork |
 | **1204** | Constantinople codex shock | Crusader Latin interruption | Cross-ref [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) |
 | post-1453 | **co-primary sacred** (Orthodox Greek) | papal **co-primary sacred** (Latin); civil-law dispersion | Sacred dual-carrier (`operator-sacred-doctrine`); Latin dominates **civil-law** not sacred |
@@ -112,6 +113,95 @@ When **which linguistic medium carries Roman grammar** governs, open here first,
 **Boundary rules (language-spine):**
 - Full rosters live on **civilization only** — do not duplicate here.
 - Sacred dual-carrier ≠ second political sovereign — see essay for reader orientation.
+
+## Military history — memory lens {#military-history-memory-lens}
+
+When **which force structure carries Roman military grammar** governs, open [Military spine](#military-spine) first, then this segment. Full rosters: [Empire — campaign](rome-empire.md#military-history-empire-lens) · [Civilization — ethic](rome-civilization.md#military-history-civilization-lens).
+
+### Military spine (cross-term index) {#military-spine}
+
+| Sub-anchor | Scope |
+|------------|-------|
+| [#military-spine-formation](#military-spine-formation) | Pre-Republic → Marian–Caesar–Augustan → East-bridge → **476** · **1204** |
+| [#military-spine-eastern](#military-spine-eastern) | Persia · Arab · Turk parallel rival rows |
+| [#military-spine-western](#military-spine-western) | Carolingian → Verdun → France · HRE · Iberia → colonial tail |
+
+**Dual-year cross-links:** **1453** Castillon (France) ║ Constantinople (Turk) · **1815** Waterloo ║ Congress of Vienna (France)
+
+#### Formation {#military-spine-formation}
+
+| Row | Force carrier | Key nodes | Term affinity | Tag(s) |
+|-----|---------------|-----------|---------------|--------|
+| Pre-Republic substrate | Hellenic formation | Herodotus · Thucydides (roster) | empire · memory | `historical-grounded` |
+| Punic hinge | Naval–legion coherence | First · Second · Third Punic | empire | `historical-grounded` |
+| Marian reform | Professional legion | Marian reforms (107 BC) | empire · entropy | `historical-grounded` |
+| Caesarian hinge | Command personalization | *Bellum Gallicum* → *Bellum Civile* | empire · entropy | `historical-grounded` |
+| Augustan Principate | Field armies + limes | Actium; Augustan settlement | empire | `historical-grounded` |
+| Republic contest-synthesis | Greek analysis of Rome | Polybius | empire | `historical-grounded` |
+| High Empire frontier | Legion + auxiliaries | Trajan (116); limes | empire | `historical-grounded` |
+| Adrianople-class | `rupture_defeat` | Adrianople (378); Teutoburg (9) | entropy · memory | `historical-grounded` |
+| **476 Western rupture** | West field armies fragment | Odoacer | empire · entropy | `contested-weight` |
+| East-bridge (Heraclius) | Thematic + mobile armies | Heraclius reforms | empire | `historical-grounded` |
+| East-bridge (Procopius/Maurice) | Reconquest + doctrine | Justinian wars; *Strategikon* | empire · science | `historical-grounded` |
+| **1204** | East command shock | Fourth Crusade | entropy · faith | `historical-grounded` |
+| Crusades (instrument) | Faith-authorized force | 1095–1291 arc | faith · empire | `historical-grounded` |
+
+#### Eastern {#military-spine-eastern}
+
+*civ-state parallel carrier rows — not unified historical actor.* **`civ-state-placement`** on all rival rows.
+
+| Row | Force carrier | Key nodes | Term affinity | Tag(s) |
+|-----|---------------|-----------|---------------|--------|
+| **Persia eastern rival** | Parthian → Sassanian | Carrhae · Trajan (116) · Julian (363) · Heraclius (628) · **Manzikert (1071)** | empire · entropy | `civ-state-placement` · `operator-eastern-rival-row` · `operator-unified-east-persia` · `operator-synthesis-chain` · Manzikert **`contested-weight`** |
+| **Arab–Islamic rival** | Early conquest (634–c.750) | Yarmouk (636) · Egypt/Syria · **Poitiers (732)** · al-Andalus (711+) | empire · faith · entropy | `civ-state-placement` · `operator-arab-rival-row` · `operator-unified-east-arab` · `operator-heraclius-compound-mechanism` |
+| **Turk / Ottoman rival** | Seljuk → Ottoman siege | Ottoman rise · **1453** · **Vienna (1683)** | empire · entropy | `civ-state-placement` · `operator-turk-rival-row` · `operator-gunpowder-1453` |
+| *628 ║ 636 linked* | Heraclius compound | Persia peace ║ Yarmouk opener | empire · faith · entropy | `operator-two-linked-rows` · inline on Persia + Arab rows |
+
+#### Western {#military-spine-western}
+
+| Row | Force carrier | Key nodes | Term affinity | Tag(s) |
+|-----|---------------|-----------|---------------|--------|
+| Arab western block | Northern halt + frontier slice | Poitiers · al-Andalus (cross-ref Arab row) | empire · faith | `historical-grounded` |
+| Carolingian row | Frankish revival force | Saxon → Lombard → **800 title** | faith · empire | `historical-grounded`; 800 **`contested-weight`** |
+| Louis the Pious | Succession strain | 830s civil wars | entropy | `operator-louis-row` |
+| **843 Verdun fork** | Field army forks | Verdun partition | empire · entropy | `contested-weight` |
+| France branch (843→1815) | Royal → absolutist → flash | HYW · Channel · Louis XIV · SYW/1763 · Napoleonic · dual **1815** | empire · entropy · memory | `operator-france-branch-military` · `operator-dual-1815-nodes` |
+| HRE successor instrument | vs Ottoman | Westphalia · **1683 Vienna** · SYW cross-ref | empire · entropy | `historical-grounded` · TYW **`contested-weight`** |
+| Iberia / Hispania | Peninsula row | 711 · Reconquista · Granada **1492** · Lepanto **1571** | empire · faith · memory | `operator-iberia-military-row` · Reconquista **`contested-weight`** |
+| Oceanic-colonial (index) | Partial inheritance | 1492→present; Spain/Portugal split | empire · faith · entropy | **`contested-weight`** · `operator-oceanic-colonial-row` |
+
+**Military boundary rules (tagged):**
+
+| Rule | Tag | Text |
+|------|-----|------|
+| Political head | `historical-grounded` | Papacy only on `#chain-spine`; **no military present period row** |
+| NATO stretch | `operator-present-residue-stretch` | Frontier-maintenance analogy — [Entropy military lens](rome-entropy.md#military-history-entropy-lens) footnote only |
+| Eastern rivals | `civ-state-placement` | Persia · Arab · Turk = parallel placement rows |
+| Unified east field | `operator-unified-east-*` | East frontier grammar to 1453 — Constantinople-centric |
+| Herodotus synthesis | `operator-synthesis-chain` | Intellectual chain on Persia row — [essay](essays/military-history-rome.md) |
+| Dual-year 1453 | `operator-dual-1453-span` | Castillon ║ Constantinople — cross-link, not merged |
+| Dual-year 1815 | `operator-dual-1815-nodes` | Waterloo ║ Congress of Vienna |
+| Faith genealogy | `operator-tyw-faith-fracture` | Crusade → Reformation → TYW — **genealogy not causation** |
+| Reconquista | `contested-weight` | Iberia row OK; chain-spine retrieval-primary |
+| LatAm colonial | `contested-weight` | Colonial history mainstream; Roman framing operator; **Latin-America ≠ classical Latin** |
+| 476 / 843 military | `contested-weight` | Parallel rupture index — not single battle claim |
+| Parallel rupture index | `historical-grounded` | Same nodes as chain + language — volume architecture pilot |
+
+### Term-filtered nodes (memory)
+
+| Node | Notes |
+|------|-------|
+| Cannae · Teutoburg | Republic-era wounds in continuity memory |
+| Adrianople | Late empire rupture memory |
+| Manzikert | Eastern rival sequel — contested node on Persia row |
+| **1453** | East bridge military terminus — dual cross-link Castillon |
+| post-1815 | Comparative memory — France/HRE branch terminus |
+
+**Cross-reads:** [Empire roster](rome-empire.md#military-history-empire-lens) · [Civilization ethic](rome-civilization.md#military-history-civilization-lens) · [Faith](rome-faith.md#military-history-faith-lens) · [Science](rome-science.md#military-history-science-lens) · [Entropy](rome-entropy.md#military-history-entropy-lens) · [Military history (essay)](essays/military-history-rome.md)
+
+**Boundary rules (military-spine):**
+- Full rosters live on **empire + civilization** — do not duplicate here.
+- Papacy = political head only — no NATO present row on spine.
 
 ## Roman law — memory lens
 

@@ -101,6 +101,37 @@ Flat co-equal rank; **Rome-facing** tags volume salience only.
 
 **Cross-reads:** [Memory — language spine](rome-memory.md#language-spine) · [Faith (Rome)](rome-faith.md#dual-language-heritage-faith-lens) · [Dual language heritage (essay)](essays/dual-language-heritage-rome.md) · [Greek shelf](../../sources/rome/primary/ancient.md)
 
+## Military history — civilization lens {#military-history-civilization-lens}
+
+Civic-military ethic — *virtus*, triumph, citizenship-as-service. **Not** campaign chronicle; command narrative lives on [Empire — campaign roster](rome-empire.md#military-history-empire-lens). Carrier types: [Empire — military carrier types](rome-empire.md#military-history-empire-lens).
+
+**Pedagogical note (Caesar):** Caesar ranks as first-person commander apex on the military roster — **pedagogical canon, not historiographical rank.**
+
+### Civic-military ethic roster
+
+| Figure | Rome-facing | Load-bearing gift | Term affinity |
+|--------|-------------|-------------------|---------------|
+| **Cicero** | yes | Military service as civic duty rhetoric — republican *virtus* in prose | civilization · faith |
+| **Livy** | yes | Exemplum — martial virtue in national inheritance | civilization · memory |
+| **Plutarch** | yes | *Parallel Lives* — martial character as civilizational exemplum | civilization · memory · faith |
+| **Polybius** | yes | Mixed constitution + **citizen-soldier** ethic (not campaign chronicle) | civilization · empire |
+| **Cato the Elder** | — | Anti-Hellenizing military discipline polemic | civilization · entropy |
+| **Caesar** | yes | *Virtus* + republican service **corrupted** by command personalization | civilization · entropy |
+| **Virgil** | yes | *Aeneid* — lawful war/founding violence as public inheritance (cross-ref) | civilization · memory · faith |
+| **Augustus** | yes | *Res Gestae* — triumphal public accounting (cross-ref, not commander memoir) | civilization · memory · empire |
+
+### Term-filtered nodes
+
+| Node | Notes |
+|------|-------|
+| *Virtus* | Republican service ethic — Caesar corruption cross-ref |
+| Triumph | Public inheritance via Livy · Virgil · Res Gestae |
+| Citizenship-as-service | Cicero · Polybius citizen-soldier pole |
+
+**Boundary (civilization · military):** Ethic roster ≠ command chronicle — cross-read [empire military roster](rome-empire.md#military-history-empire-lens).
+
+**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Military history (essay)](essays/military-history-rome.md)
+
 ## Whole-work term
 
 [Civilization](../../theory/civilization.md) — inherited order and legitimacy substrate.

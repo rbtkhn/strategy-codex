@@ -10,6 +10,8 @@ Civilization beautifies through law, citizenship, and imperial universality; emp
 
 **Dual language heritage:** Greek and Latin as co-primary media from Republic onward; language placement: [rome-memory — language spine](rome-memory.md#language-spine). Essay: [Dual language heritage Rome](essays/dual-language-heritage-rome.md).
 
+**Military history:** Force-structure parallel dimension; military placement: [rome-memory — military spine](rome-memory.md#military-spine). Essay: [Military history Rome](essays/military-history-rome.md).
+
 **Sacred / civilizational grammar:** Roman law, citizenship, imperial universality, Christianity, papal residue. See [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md).
 
 **Present carrier:** Catholic Church as clearest residue; Eastern Roman Empire as indispensable bridge in the chain narrative.

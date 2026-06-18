@@ -59,7 +59,7 @@ Historical shocks — war, revolution, plague, famine — often **distort** memo
 
 ## Volume depth (Rome)
 
-When **Rome** is the live case and **memory** governs, open [rome-memory.md](../volumes/rome/rome-memory.md). Chain spine: [Chain spine (cross-term index)](../volumes/rome/rome-memory.md#chain-spine). Language spine: [Language spine (cross-term index)](../volumes/rome/rome-memory.md#language-spine). Chain segment: [Sovereignty chain — memory lens](../volumes/rome/rome-memory.md#sovereignty-chain-memory-lens). Language segment: [Dual language heritage — memory lens](../volumes/rome/rome-memory.md#dual-language-heritage-memory-lens). Rhythm and era law remain on this whole-work page — [Civilizational rhythm](#civilizational-rhythm) · [Era law](#era-law).
+When **Rome** is the live case and **memory** governs, open [rome-memory.md](../volumes/rome/rome-memory.md). Chain spine: [Chain spine (cross-term index)](../volumes/rome/rome-memory.md#chain-spine). Language spine: [Language spine (cross-term index)](../volumes/rome/rome-memory.md#language-spine). Military spine: [Military spine (cross-term index)](../volumes/rome/rome-memory.md#military-spine). Chain segment: [Sovereignty chain — memory lens](../volumes/rome/rome-memory.md#sovereignty-chain-memory-lens). Language segment: [Dual language heritage — memory lens](../volumes/rome/rome-memory.md#dual-language-heritage-memory-lens). Military segment: [Military history — memory lens](../volumes/rome/rome-memory.md#military-history-memory-lens). Rhythm and era law remain on this whole-work page — [Civilizational rhythm](#civilizational-rhythm) · [Era law](#era-law).
 
 ## Civilizational rhythm
 

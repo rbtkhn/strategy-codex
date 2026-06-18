@@ -58,7 +58,7 @@ Some objects legitimately touch **all six terms** in full depth — law, treaty,
 
 Generic cross-cutting families: **law · treaty · constitution · corridor regime · succession compact**. See [Governing term first](../skills/governing-term-first.md) for the operational pick-one-then-widen pass.
 
-**Orchestration:** do not open a volume-local theory door before the governing term. Descend from the term page's **Volume depth (Rome)** section or from the row above. **Chain placement** → [Rome chain spine](../volumes/rome/rome-memory.md#chain-spine); **language placement** → [Rome language spine](../volumes/rome/rome-memory.md#language-spine).
+**Orchestration:** do not open a volume-local theory door before the governing term. Descend from the term page's **Volume depth (Rome)** section or from the row above. **Chain placement** → [Rome chain spine](../volumes/rome/rome-memory.md#chain-spine); **language placement** → [Rome language spine](../volumes/rome/rome-memory.md#language-spine); **military placement** → [Rome military spine](../volumes/rome/rome-memory.md#military-spine).
 
 ## SSOT
 

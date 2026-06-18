@@ -43,6 +43,20 @@ Last updated: 2026-06-18
 
 **Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Civilization rosters](rome-civilization.md#dual-language-heritage-civilization-lens) · [Dual language heritage (essay)](essays/dual-language-heritage-rome.md)
 
+## Military history — faith lens {#military-history-faith-lens}
+
+Faith licenses force; does not replace political head (Papacy on `#chain-spine`). Placement: [Military spine](rome-memory.md#military-spine).
+
+| Node | Notes | Tag(s) |
+|------|-------|--------|
+| Crusades (instrument) | Faith-authorized expedition — not chain head | `historical-grounded` |
+| Joan of Arc / HYW | Sacred kingship as French military legitimacy | `operator-hyw-faith-joan` |
+| Faith-fracture genealogy | Crusade → Reformation → TYW — **genealogy not causation** | **`contested-weight`** |
+| Thirty Years' War | Post-crusade intra-Latin-Christian war | `operator-tyw-faith-fracture` · **`contested-weight`** |
+| Reconquista | Cross-ref — chain retrieval-primary | cross-ref Iberia row |
+
+**Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Military history (essay)](essays/military-history-rome.md)
+
 ## Whole-work term
 
 [Faith](../../theory/faith.md) — sacred and moral truth-order.

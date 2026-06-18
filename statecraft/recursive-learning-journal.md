@@ -2062,3 +2062,52 @@ keep political and sacred-language carriers explicitly separated.
 ```
 
 Routing: civ-state **v0.1.27** · [language spine](../public/civ-state/volumes/rome/rome-memory.md#language-spine).
+
+## 2026-06-18 - Rome military history (military-spine parallel dimension)
+
+### Trigger
+
+Operator elicitation + tagging MCQs locked `#military-spine` as third parallel row (chain · language · military). v0.1.28 encode: formation / eastern / western sub-tables, split rosters (empire campaign + civilization ethic), six term **Military history** segments, essay smoke-test, Eastern Roman Empire terminology alignment.
+
+### Extracted law
+
+```text
+Fractured-sovereignty chains gain a parallel military dimension:
+one cross-term military-spine (rome-memory#military-spine)
+plus per-lens filtered military segments — same rupture nodes, third row tracks force structure;
+political chain head unchanged; NATO and colonial tails use explicit operator stretch/contested tags.
+```
+
+Cross-read: [2026-06-18 Rome dual language heritage entry](#2026-06-18---rome-dual-language-heritage-language-spine-parallel-dimension) — military fork extends, does not replace, chain or language spines.
+
+### Reapplication
+
+- **Next civ with long military continuity** (Persia, China): elicit eastern/western rival rows + roster split before term segments.
+- **Military placement queries:** `governing-term-first` → `#military-spine` + sub-anchor when force structure governs.
+- **Do not** duplicate full campaign roster on memory — empire owns command roster; civilization owns ethic roster.
+
+### Structural changes
+
+- `rome-memory.md` — `#military-spine` + three sub-tables + boundary rules
+- `rome-empire.md` — carrier types + campaign roster
+- `rome-civilization.md` — civic-military ethic roster
+- Six `rome-{term}.md` — **Military history — {term} lens**
+- `essays/military-history-rome.md`, theory Volume depth links, `governing-term-first` military placement
+- `public/civ-state/docs/release-history.md` — **v0.1.28**
+
+### Guardrail
+
+```text
+Do not treat NATO stretch tag as present military period row;
+do not collapse Persia/Arab/Turk rival rows into one historical actor — civ-state-placement tags required;
+framework-vs-history prose belongs in essay, not every spine cell.
+```
+
+### Current lesson
+
+```text
+Military grammar mutates through institutions, not through one unbroken legion —
+encode force carriers once on memory, rosters on empire/civilization, diagnose six ways on the terms.
+```
+
+Routing: civ-state **v0.1.28** · [military spine](../public/civ-state/volumes/rome/rome-memory.md#military-spine).

@@ -26,6 +26,7 @@ Maturing interpretive chapters — open after Civilization and Empire:
 | Lens | File |
 |------|------|
 | Dual language heritage | [dual-language-heritage-rome.md](dual-language-heritage-rome.md) |
+| Military history | [military-history-rome.md](military-history-rome.md) |
 | Geo-strategy | [geo-strategy-rome.md](geo-strategy-rome.md) |
 | Secret-history | [secret-history-rome.md](secret-history-rome.md) |
 | Game-theory | [game-theory-rome.md](game-theory-rome.md) |

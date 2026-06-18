@@ -42,6 +42,20 @@ Last updated: 2026-06-18
 
 **Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Faith — canon overlap](rome-faith.md#dual-language-heritage-faith-lens)
 
+## Military history — science lens {#military-history-science-lens}
+
+Procedural military text + siege/engineering. Roster SSOT: [Empire — Vegetius · Maurice · Frontinus](rome-empire.md#military-history-empire-lens).
+
+| Node | Notes | Tag(s) |
+|------|-------|--------|
+| Frontinus | *Strategemata* — stratagem catalog | `historical-grounded` |
+| Vegetius | *De Re Militari* — procedural branch | `operator-vegetius-compound-gift` |
+| Maurice | *Strategikon* — thematic operational doctrine | `operator-procopius-maurice-pair` |
+| Siege / engineering | Roads, fortification — empire incorporation grammar | `historical-grounded` |
+| Gunpowder 1453 | Siege revolution co-equal with East terminus | `operator-gunpowder-1453` · `historical-grounded` |
+
+**Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Military history (essay)](essays/military-history-rome.md)
+
 ## Whole-work term
 
 [Science](../../theory/science.md) — procedural and evidentiary truth-order.

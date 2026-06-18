@@ -22,7 +22,7 @@ This chapter tracks recurring Roman game structure, but it does not reduce Rome 
 
 ## Return Path
 
-Return through [Rome](../README.md), [Rome geo-strategy](geo-strategy-rome.md), and [Rome sacred grammar](../rome-faith.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
+Return through [Rome](../README.md), [Rome geo-strategy](geo-strategy-rome.md), [Rome military spine](../rome-memory.md#military-spine), and [Rome sacred grammar](../rome-faith.md) when the problem needs either fuller continuity or deeper legitimacy grounding.
 
 ## Core Thesis
 

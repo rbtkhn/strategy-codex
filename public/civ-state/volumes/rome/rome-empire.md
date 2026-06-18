@@ -20,7 +20,7 @@ Last updated: 2026-06-18
 | Claudius | Ancient | hinge (secondary) | Provincial integration peak |
 | Marcus Aurelius | Ancient | hinge (secondary) | Stoic-imperial universal duty |
 | **Theodoric** | Medieval | instrument | Ostrogothic king — post-476 western **instrument** without restored empire totality |
-| **Heraclius** | Medieval | hinge (primary) | Eastern bridge — **medium shift** (Greek court/admin); Persian recovery |
+| **Heraclius** | Medieval | hinge (primary) | Eastern bridge — **medium shift** (Greek court/admin); Persian recovery; military-spine → [Persia row](rome-memory.md#military-spine-eastern) |
 | **Basil II** | Medieval | hinge (primary) | Eastern territorial peak before contraction |
 | **Alexios I Comnenus** | Medieval | hinge (primary) | Comnenian restoration; Crusade era begins |
 | **Manuel I Comnenus** | Medieval | hinge (primary) | Last Comnenian universal claim before 1204 shock |
@@ -75,12 +75,67 @@ Last updated: 2026-06-18
 | Unified empire | Ancient | co_primary_medium | One sovereignty, two media — Greek East admin + Latin West law (`historical-grounded`) |
 | Constantine / Diocletian | Ancient | co_primary_medium | East-West language-admin hinge — see [language spine](rome-memory.md#language-spine) |
 | **Heraclius** | Medieval | co_primary_medium | **Medium shift** — Greek court/admin; same Roman state (`historical-grounded`) |
-| Eastern Roman bridge | Medieval | co_primary_medium | Greek-speaking Romaion — imperial instrument in Greek medium |
+| Eastern Roman bridge | Medieval | co_primary_medium | Greek-speaking Eastern Roman Empire — imperial instrument in Greek medium |
 | Western post-476 | Medieval | co_primary_medium | Latin law-procedure without Greek-administered Roman continuity |
 | Colonial instruments | Colonial | codification_medium | Iberian export of **Latin legal text** — not Greek bridge |
 | Strabo / oikoumene | Ancient | co_primary_medium | Empire geography encoded in Greek — [civilization roster](rome-civilization.md#dual-language-heritage-civilization-lens) |
 
 **Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Civilization rosters](rome-civilization.md#dual-language-heritage-civilization-lens)
+
+## Military history — empire lens {#military-history-empire-lens}
+
+Legions, logistics, garrison, incorporation-by-force. Campaign/command roster SSOT; civic-military ethic → [Civilization — military lens](rome-civilization.md#military-history-civilization-lens).
+
+### Military carrier types
+
+| Type | Meaning |
+|------|---------|
+| `citizen_force` | Manipular / early republican levy |
+| `professional_legion` | Marian–Principate standing legion |
+| `imperial_field_army` | Comitatenses / Eastern Roman mobile thematic armies |
+| `frontier_limitanei` | Rhine/Danube/limes garrison grammar |
+| `naval_maritime` | Mediterranean fleet-coherence (cross-ref [geo-strategy](essays/geo-strategy-rome.md)) |
+| `procedural_doctrine` | Codified operational art (*Strategikon*, Vegetius, Frontinus) |
+| `successor_instrument` | Frankish, crusader, Habsburg carry — not chain head |
+| `rupture_defeat` | Adrianople-class shocks — entropy-primary |
+
+### Campaign / command roster
+
+**Narrative branch:** Herodotus · Thucydides → Polybius → **Caesar (apex)** → Tacitus → Procopius  
+**Procedural branch:** Gaius (cross-ref [civilization language roster](rome-civilization.md#dual-language-heritage-civilization-lens)) → Vegetius → Maurice
+
+| Figure | Rome-facing | Load-bearing gift | Carrier type | Term affinity |
+|--------|-------------|-------------------|--------------|---------------|
+| **Herodotus** | yes | (1) ethnography of military custom (2) Persia-wars → Rome–Parthia memory | — | empire · memory |
+| **Thucydides** | yes | (1) realist war grammar (2) campaign narrative craft | — | empire · entropy |
+| **Xenophon** | — | Expeditionary command; *Anabasis* | `citizen_force` | empire |
+| **Polybius** | yes | (1) mixed constitution / ascendancy (2) socii/maniples (3) moral comparison → Plutarch | `professional_legion` | empire · civilization · science |
+| **Caesar** | yes | (1) command personalization (2) procedural craft (3) self-legitimation | `professional_legion` | empire · entropy |
+| **Sallust** | yes | Moral pathology of command | `professional_legion` | entropy · empire |
+| **Frontinus** | yes | *Strategemata* — stratagem catalog | `procedural_doctrine` | science · empire |
+| **Vegetius** | yes | (1) *Epitoma* codification (2) recovery ideal (3) medieval reception | `procedural_doctrine` | science · empire |
+| **Livy** | yes | Select books — campaign exempla | `professional_legion` | empire · memory |
+| **Tacitus** | yes | Imperial command pathology | `imperial_field_army` | empire · entropy |
+| **Appian** | yes | Civil wars — republic-to-principate force transitions | `professional_legion` | empire · entropy |
+| **Cassius Dio** | yes | Severan–tetrarchic army politics | `imperial_field_army` | empire · entropy |
+| **Ammianus Marcellinus** | yes | Late empire field army — Adrianople era | `imperial_field_army` · `rupture_defeat` | empire · entropy |
+| **Procopius** | yes | (1) reconquest narrative (2) overstretch (3) bridge to Arab rupture | `imperial_field_army` | empire · entropy |
+| **Maurice** | yes | *Strategikon* — thematic ops, steppe adversaries | `procedural_doctrine` | science · empire |
+| **Agathias** | yes | East-bridge historian | `imperial_field_army` | empire · memory |
+| **Nikephoros Phokas** | yes | *Praecepta Militaria* (pointer if fragmentary) | `procedural_doctrine` | science · empire |
+
+### Term-filtered nodes
+
+| Node | Notes |
+|------|-------|
+| Marian–Augustan | Professional legion → imperial field system |
+| Punic hinge | Naval–legion Mediterranean coherence |
+| East-bridge | Heraclius · Procopius/Maurice — cross-ref [military spine](rome-memory.md#military-spine-formation) |
+| Colonial instrument | 1492 → SYW → [oceanic-colonial row](rome-memory.md#military-spine-western) |
+
+**Boundary (empire · military):** Do not duplicate civic *virtus* — point to [civilization ethic roster](rome-civilization.md#military-history-civilization-lens).
+
+**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Military history (essay)](essays/military-history-rome.md)
 
 ## Whole-work term
 
