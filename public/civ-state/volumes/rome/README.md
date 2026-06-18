@@ -24,7 +24,9 @@ Primary source base: Rome source corpus
 - Geo-strategy chapter: [Rome geo-strategy](geo-strategy-rome.md)
 - Secret-history chapter: [Rome secret-history](secret-history-rome.md)
 - Game-theory chapter: [Rome game-theory](game-theory-rome.md)
-- Volume theory: [Rome theory shelf](theory/README.md) — six-term case lenses (Roman law mirror pilot)
+- Volume theory: [Rome theory shelf](rome-theory.md) — `rome-{term}.md` lenses (Roman law mirror pilot)
+  - [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
+  - [rome-faith](rome-faith.md) · [rome-science](rome-science.md) · [rome-memory](rome-memory.md)
 - Continuity state: Eastern Roman Empire as the indispensable continuity state
 
 **Civilization-State Diagnostic**

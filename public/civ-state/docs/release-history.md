@@ -4,7 +4,7 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
-**v0.1.20** — Rome volume-local theory — Roman law mirror on six terms.
+**v0.1.21** — Rome volume-local theory flat layout (`rome-{term}.md`).
 
 ## Timeline
 
@@ -49,6 +49,13 @@ Whole-work **entropy** SSOT: [`theory/entropy.md`](../theory/entropy.md)
 | desire → entropy (behavioral) | desire → empire |
 
 Historical causes and manifestations: war, revolution, disease, famine, ecological disaster, compound shocks.
+
+### v0.1.21 — Rome theory flat layout
+
+| Change | Detail |
+|--------|--------|
+| `volumes/rome/rome-{term}.md` | Moved from `theory/` subdirectory; `rome-` prefix |
+| `volumes/rome/rome-theory.md` | Shelf door |
 
 ### v0.1.20 — Rome theory Roman law mirror
 

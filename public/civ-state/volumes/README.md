@@ -34,9 +34,9 @@ Then optional sub-lenses: geo-strategy, secret-history, game-theory.
 
 ## Volume-local theory
 
-Each volume will carry the same **six** theory filenames under `volumes/<civ>/theory/` — case-specific history linking up to the [whole-work theory shelf](../theory/README.md).
+Each volume will carry **six** volume-local theory files as `{civ}-{term}.md` in the volume directory — case-specific lenses linking up to the [whole-work theory shelf](../theory/README.md).
 
-**Pilot:** [Rome `theory/`](rome/theory/README.md) — Roman law mirror on all six terms.
+**Pilot:** [Rome theory shelf](rome/rome-theory.md) — `rome-civilization.md` … `rome-faith.md` (Roman law mirror).
 
 Other volumes: use whole-work [theory](../theory/README.md) until local shelves ship.
 

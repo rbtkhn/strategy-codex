@@ -59,7 +59,9 @@ The classical hinge and transformed-continuity case.
 - [Civilization](../volumes/rome/civilization-rome.md)
 - [Empire](../volumes/rome/empire-rome.md)
 - Sub-lenses: [geo-strategy](../volumes/rome/geo-strategy-rome.md) · [secret-history](../volumes/rome/secret-history-rome.md) · [game-theory](../volumes/rome/game-theory-rome.md)
-- Volume theory: [Rome theory shelf](../volumes/rome/theory/README.md) — Roman law mirror pilot
+- Volume theory: [Rome theory shelf](../volumes/rome/rome-theory.md) — `rome-{term}.md` Roman law mirror
+  - [rome-civilization](../volumes/rome/rome-civilization.md) · [rome-empire](../volumes/rome/rome-empire.md) · [rome-entropy](../volumes/rome/rome-entropy.md)
+  - [rome-faith](../volumes/rome/rome-faith.md) · [rome-science](../volumes/rome/rome-science.md) · [rome-memory](../volumes/rome/rome-memory.md)
 - Source-lattice: [shelf reader](../volumes/rome/shelf-reader.md) · [bibliography](../sources/rome/bibliography.md)
 - Deep grammar: [Rome sacred grammar](../volumes/rome/sacred-grammar.md)
 

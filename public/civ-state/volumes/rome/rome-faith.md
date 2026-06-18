@@ -7,7 +7,7 @@ Last updated: 2026-06-17
 
 ## Whole-work term
 
-[Faith](../../../theory/faith.md) — sacred and moral truth-order.
+[Faith](../../theory/faith.md) — sacred and moral truth-order.
 
 ## Roman law — faith lens
 
@@ -17,30 +17,30 @@ Roman law carries **sacred authorization**: natural law, Christian empire synthe
 - **Christian empire synthesis** — imperial law Christianized without ending Roman universal claim
 - **Canon overlap** — church law beside civil law; papal residue after territorial contraction
 
-When the seam is mandate, doctrinal universality, or forbidden humiliation, govern **faith** first; pair with [Science (Rome)](science.md) when procedure and sacred order hybridize.
+When the seam is mandate, doctrinal universality, or forbidden humiliation, govern **faith** first; pair with [Science (Rome)](rome-science.md) when procedure and sacred order hybridize.
 
 ## Causal connections
 
 ### Science (Rome)
 
-Canon law and civil codification — [Science (Rome)](science.md). Faith without procedural carry → rhetoric.
+Canon law and civil codification — [Science (Rome)](rome-science.md). Faith without procedural carry → rhetoric.
 
 ### Civilization (Rome)
 
-Sacred grammar bearing inheritance — [Civilization (Rome)](civilization.md) · [Sacred grammar](../sacred-grammar.md).
+Sacred grammar bearing inheritance — [Civilization (Rome)](rome-civilization.md) · [Sacred grammar](sacred-grammar.md).
 
 ### Memory (Rome)
 
-Covenant wound and forbidden restitution — [Memory (Rome)](memory.md).
+Covenant wound and forbidden restitution — [Memory (Rome)](rome-memory.md).
 
 ## Bridge
 
-- [Sacred grammar](../sacred-grammar.md)
-- [Rome sources — Medieval](../../../sources/rome/primary/medieval.md)
+- [Sacred grammar](sacred-grammar.md)
+- [Rome sources — Medieval](../../sources/rome/primary/medieval.md)
 
 ## Return paths
 
-- [Rome theory](README.md) · [Whole-work faith](../../../theory/faith.md)
+- [Rome theory](rome-theory.md) · [Whole-work faith](../../theory/faith.md)
 
 ## Bottom line
 

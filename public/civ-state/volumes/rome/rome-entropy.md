@@ -7,7 +7,7 @@ Last updated: 2026-06-17
 
 ## Whole-work term
 
-[Entropy](../../../theory/entropy.md) — historical causes and manifestations of civilizational degradation.
+[Entropy](../../theory/entropy.md) — historical causes and manifestations of civilizational degradation.
 
 ## Roman law — entropy lens
 
@@ -17,30 +17,34 @@ Roman law under **rupture**: western fall, schism, reformation fracture, plague,
 - **Schism and reformation** — fractured universal law-bearing
 - **Law after shock** — performed legitimacy vs living application
 
-When war, revolution, or demographic collapse governs, govern **entropy** first; distinguish from empire-overreach ([Empire (Rome)](empire.md)).
+When war, revolution, or demographic collapse governs, govern **entropy** first; distinguish from empire-overreach ([Empire (Rome)](rome-empire.md)).
 
 ## Causal connections
 
 ### Memory (Rome)
 
-Distorted continuity — [Memory (Rome)](memory.md).
+Distorted continuity — [Memory (Rome)](rome-memory.md).
 
 ### Faith (Rome)
 
-Sacred language without institution — [Faith (Rome)](faith.md).
+Sacred language without institution — [Faith (Rome)](rome-faith.md).
 
-### Science (Rome)
+### Entropy (Rome)
 
-Courts and jurists collapsed — [Science (Rome)](science.md).
+Courts and jurists collapsed — [Science (Rome)](rome-science.md).
+
+### Civilization (Rome)
+
+Inheritance rhetoric without carry — [Civilization (Rome)](rome-civilization.md).
 
 ## Bridge
 
-- [Secret-history Rome](../secret-history-rome.md)
-- [Empire Rome](../empire-rome.md) — maintenance exhaustion
+- [Secret-history Rome](secret-history-rome.md)
+- [Empire Rome](empire-rome.md) — maintenance exhaustion
 
 ## Return paths
 
-- [Rome theory](README.md) · [Whole-work entropy](../../../theory/entropy.md)
+- [Rome theory](rome-theory.md) · [Whole-work entropy](../../theory/entropy.md)
 
 ## Bottom line
 

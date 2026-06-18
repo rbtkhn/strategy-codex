@@ -54,9 +54,9 @@ Six **governing terms** — open the term that is load-bearing first:
 
 Cross-case pattern library is **retired from the public theory shelf** (v0.1.12). Reader-facing replacement: [Cross-case recurrence and sovereignty](../essays/cross-case-recurrence-and-sovereignty.md).
 
-**Volume-local theory** (`volumes/{civ}/theory/`) — case-specific lenses through the same six filenames; link up to whole-work [theory](../theory/README.md).
+**Volume-local theory** — `{civ}-{term}.md` in `volumes/{civ}/` (not a subdirectory); link up to whole-work [theory](../theory/README.md).
 
-**Pilot:** [Rome `theory/`](../volumes/rome/theory/README.md) — Roman law mirror on six terms.
+**Pilot:** [Rome theory shelf](../volumes/rome/rome-theory.md) — `rome-{term}.md` Roman law mirror.
 
 ## Sources shelf
 

@@ -7,7 +7,7 @@ Last updated: 2026-06-17
 
 ## Whole-work term
 
-[Memory](../../../theory/memory.md) — continuity, rhythm, era law, retrieval entry.
+[Memory](../../theory/memory.md) — continuity, rhythm, era law, retrieval entry.
 
 ## Roman law — memory lens
 
@@ -17,31 +17,31 @@ Roman law is **legal continuity**: succession of codes, East/West split, and res
 - **East/West split** — one grammar, fractured administration
 - **Restitution** — what humiliation or rupture must be reversed in law-memory
 
-When the seam is continuity claim, successor order, or forbidden loss, govern **memory** first; place era via [Era law](../../../theory/memory.md#era-law) (Ancient → Medieval hinge load-bearing for codification).
+When the seam is continuity claim, successor order, or forbidden loss, govern **memory** first; place era via [Era law](../../theory/memory.md#era-law) (Ancient → Medieval hinge load-bearing for codification).
 
 ## Causal connections
 
 ### Civilization (Rome)
 
-Inheritance stored — [Civilization (Rome)](civilization.md).
+Inheritance stored — [Civilization (Rome)](rome-civilization.md).
 
 ### Faith (Rome)
 
-Wound sacredized in canon — [Faith (Rome)](faith.md).
+Wound sacredized in canon — [Faith (Rome)](rome-faith.md).
 
 ### Entropy (Rome)
 
-Rupture distorting legal memory — [Entropy (Rome)](entropy.md).
+Rupture distorting legal memory — [Entropy (Rome)](rome-entropy.md).
 
 ## Bridge
 
-- [Pax Romana](../introduction.md)
-- [Whole-work — Civilizational rhythm](../../../theory/memory.md#civilizational-rhythm)
-- [Rome shelf reader](../shelf-reader.md)
+- [Pax Romana](introduction.md)
+- [Whole-work — Civilizational rhythm](../../theory/memory.md#civilizational-rhythm)
+- [Rome shelf reader](shelf-reader.md)
 
 ## Return paths
 
-- [Rome theory](README.md) · [Whole-work memory](../../../theory/memory.md)
+- [Rome theory](rome-theory.md) · [Whole-work memory](../../theory/memory.md)
 
 ## Bottom line
 

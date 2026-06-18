@@ -4,7 +4,7 @@ Whole-work governing shelf for *Civilizational Statecraft*. Read [Civilization a
 
 **Overlap is intentional.** Shared concepts appear in multiple term pages with different emphasis. Open the page whose **causal lens** matches the live object.
 
-Each volume will eventually carry its own **six-file** `theory/` subtree under `volumes/<civ>/theory/` (case-specific history through the same lenses). **Pilot:** [Rome `theory/`](../volumes/rome/theory/README.md) — Roman law mirror on six terms.
+Each volume will eventually carry **six** volume-local theory files as `{civ}-{term}.md` in `volumes/<civ>/`. **Pilot:** [Rome theory shelf](../volumes/rome/rome-theory.md) — Roman law mirror on six terms.
 
 ## Civilizational Statecraft Framework
 
@@ -49,12 +49,14 @@ Some objects legitimately touch **all six terms** in full depth — law, treaty,
 
 | Term | Roman law — what this lens names |
 |------|----------------------------------|
-| [civilization](civilization.md) | **Civilizational grammar** — citizenship, civic order, inherited Roman form ([Rome volume](../volumes/rome/README.md)) |
-| [empire](empire.md) | **Imperial jurisdiction** — universal claim, provincial administration, coercive reach |
-| [faith](faith.md) | **Sacred authorization** — natural law, Christian empire synthesis, canon overlap, moral limit |
-| [science](science.md) | **Codification and procedure** — *Twelve Tables* → praetorian edicts → *Corpus Juris Civilis*; jurists, institutes, governable text |
-| [memory](memory.md) | **Legal continuity** — succession of codes, East/West split, restitution of what must not be lost |
-| [entropy](entropy.md) | **Rupture** — western fall, reformation fracture, revolution; law as rhetoric without carry after shock |
+| [civilization](civilization.md) | **Civilizational grammar** — citizenship, civic order, inherited Roman form ([Rome — civilization](../volumes/rome/rome-civilization.md)) |
+| [empire](empire.md) | **Imperial jurisdiction** — universal claim, provincial administration, coercive reach ([Rome — empire](../volumes/rome/rome-empire.md)) |
+| [faith](faith.md) | **Sacred authorization** — natural law, Christian empire synthesis, canon overlap, moral limit ([Rome — faith](../volumes/rome/rome-faith.md)) |
+| [science](science.md) | **Codification and procedure** — *Twelve Tables* → praetorian edicts → *Corpus Juris Civilis*; jurists, institutes, governable text ([Rome — science](../volumes/rome/rome-science.md)) |
+| [memory](memory.md) | **Legal continuity** — succession of codes, East/West split, restitution of what must not be lost ([Rome — memory](../volumes/rome/rome-memory.md)) |
+| [entropy](entropy.md) | **Rupture** — western fall, reformation fracture, revolution; law as rhetoric without carry after shock ([Rome — entropy](../volumes/rome/rome-entropy.md)) |
+
+Rome shelf door: [rome-theory.md](../volumes/rome/rome-theory.md).
 
 Generic cross-cutting families: **law · treaty · constitution · corridor regime · succession compact**. See [Governing term first](../skills/governing-term-first.md) for the operational pick-one-then-widen pass.
 
