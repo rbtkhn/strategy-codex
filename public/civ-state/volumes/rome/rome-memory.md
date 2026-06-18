@@ -3,7 +3,7 @@
 Volume-local lens — **Rome**, Volume III.
 
 Status: Active doctrine (Roman law mirror)  
-Last updated: 2026-06-17
+Last updated: 2026-06-18
 
 ## Whole-work term
 
@@ -15,7 +15,7 @@ Roman sacred grammar survives the republic-to-empire mutation, Christianization,
 
 *Transformed continuity under fractured sovereignty — grammar persists, sovereignty splits, residue carries.*
 
-**Chain doctrine:** [Republic](#chain-spine) opens the political chain; Romulus and Aeneas remain **substrate** only. Full spine: [Chain spine (cross-term index)](#chain-spine) below; term-filtered segments on each [rome-{term}.md](README.md).
+**Chain doctrine:** [Republic](#chain-spine) opens the political chain; Romulus and Aeneas remain **substrate** only. Full spine: [Chain spine (cross-term index)](#chain-spine) below; **language placement:** [Language spine](#language-spine); term-filtered segments on each [rome-{term}.md](README.md).
 
 ## Sovereignty chain — memory lens {#sovereignty-chain-memory-lens}
 
@@ -75,7 +75,43 @@ Canonical placement index — when chain *placement* governs, open here first, t
 
 **Boundary rules (memory):**
 - This spine is **placement index only** — term-filtered diagnosis lives on each `rome-{term}.md`.
-- **Present carrier** = Papacy (Pope Leo XIV) only.
+- **Present political carrier** = Papacy (Pope Leo XIV) only.
+- **Language placement** → [Language spine](#language-spine) (parallel dimension; not a second political chain).
+
+## Dual language heritage — memory lens {#dual-language-heritage-memory-lens}
+
+### Language spine (cross-term index) {#language-spine}
+
+When **which linguistic medium carries Roman grammar** governs, open here first, then the governing term segment. Full rosters: [Civilization (Rome)](rome-civilization.md#dual-language-heritage-civilization-lens).
+
+| Period | Greek stream | Latin stream | Notes |
+|--------|--------------|--------------|-------|
+| Pre-Republic | Hellenic formation (14-name roster) | Latin civic formation; Virgil/*Aeneid* substrate | Mythic + philosophical substrate |
+| Republic–Empire unified | **Co-primary Greek grammar** | **Co-primary Latin civic-public law** (10-name roster) | Two media, one sovereignty |
+| Constantine–Diocletian | Greek East admin thickens | Latin West law + public text | Language-admin hinge |
+| 476–1054 | East bridge (Greek Romaion) | West loses **Greek-administered Roman institutional continuity**; papal Latin rising | Institutional rupture — not “West loses Greek vernacular” |
+| 1054–1453 | Orthodox Greek sacred carry | Latin Christendom + HRE/France | Sacred language fork |
+| **1204** | Constantinople codex shock | Crusader Latin interruption | Cross-ref [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) |
+| post-1453 | **co-primary sacred** (Orthodox Greek) | papal **co-primary sacred** (Latin); civil-law dispersion | Sacred dual-carrier (`operator-sacred-doctrine`); Latin dominates **civil-law** not sacred |
+| Medieval bridge | Procopius · Eusebius · Cassius Dio (Greek-medium historians) | Latin canon + scholastic reception | East-bridge historiography — not Hellenic roster |
+
+**Language boundary rules (tagged):**
+
+| Rule | Tag | Text |
+|------|-----|------|
+| Political head | `historical-grounded` | Papacy only (Pope Leo XIV) — sovereignty chain unchanged |
+| Sacred-language present | `operator-sacred-doctrine` | papal Latin **+** Orthodox Greek **co-primary sacred media** — not dual political heads |
+| 476 | `contested-weight` | West loses Greek-**administered** Roman continuity — co-equal **institutional** rupture with territory |
+| Heraclius | `historical-grounded` | Medium shift — Greek court/admin; same Roman state |
+| 1054 | `contested-weight` | Language + institution co-primary on [Faith (Rome)](rome-faith.md#dual-language-heritage-faith-lens) |
+| Renaissance | `historical-grounded` | Latin reception of Greek — [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) |
+| Latin-America | `historical-grounded` | partial inheritance / instrument — not classical Latin revival |
+
+**Cross-reads:** [Civilization (Rome)](rome-civilization.md#dual-language-heritage-civilization-lens) · [Faith (Rome)](rome-faith.md#dual-language-heritage-faith-lens) · [Empire (Rome)](rome-empire.md#dual-language-heritage-empire-lens) · [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) · [Entropy (Rome)](rome-entropy.md#dual-language-heritage-entropy-lens) · [Dual language heritage (essay)](essays/dual-language-heritage-rome.md)
+
+**Boundary rules (language-spine):**
+- Full rosters live on **civilization only** — do not duplicate here.
+- Sacred dual-carrier ≠ second political sovereign — see essay for reader orientation.
 
 ## Roman law — memory lens
 

@@ -8,7 +8,10 @@ Greek inheritance and upstream civilizational formation:
 - Homer, *Odyssey*
 - Herodotus, *Histories*
 - Thucydides, *History of the Peloponnesian War*
+- Polybius, *Histories* *(cross-ref Roman self-narration — Greek analyst of Rome)*
 - Sophocles, *Antigone*
+- Euripides, *Medea* · *Bacchae*
+- Aeschylus, *Oresteia*
 - Plato, *Republic*
 - Plato, *Laws*
 - Aristotle, *Politics*
@@ -16,6 +19,10 @@ Greek inheritance and upstream civilizational formation:
 - Xenophon, *Anabasis*
 - Xenophon, *Cyropaedia*
 - Strabo, *Geographica*
+- Plutarch, *Lives* *(cross-ref Roman self-narration — Greek moral biography of Romans)*
+- Appian, *Roman History* *(civil wars)*
+
+*Socrates* — moral inquiry indexed via Plato and Xenophon; no direct authored shelf row.
 
 Roman self-narration, republic, and empire formation:
 

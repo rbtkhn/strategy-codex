@@ -49,7 +49,7 @@ Administrative and technical orders **fail** under [entropy](entropy.md) — pla
 
 ## Volume depth (Rome)
 
-When **Rome** is the live case and **science** governs, open [rome-science.md](../volumes/rome/rome-science.md). Chain segment: [Sovereignty chain — science lens](../volumes/rome/rome-science.md#sovereignty-chain-science-lens). Codification overlap with civilization: [rome-civilization.md](../volumes/rome/rome-civilization.md).
+When **Rome** is the live case and **science** governs, open [rome-science.md](../volumes/rome/rome-science.md). Chain segment: [Sovereignty chain — science lens](../volumes/rome/rome-science.md#sovereignty-chain-science-lens). Language segment: [Dual language heritage — science lens](../volumes/rome/rome-science.md#dual-language-heritage-science-lens). Language spine: [Language spine](../volumes/rome/rome-memory.md#language-spine). Codification overlap with civilization: [rome-civilization.md](../volumes/rome/rome-civilization.md).
 
 ## Failure modes
 

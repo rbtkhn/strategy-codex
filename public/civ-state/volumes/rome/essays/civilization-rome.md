@@ -24,6 +24,7 @@ This chapter does not claim that Rome survives unchanged in a simple political s
 
 - Return to [Volume III — Rome](../README.md) for the full volume spine.
 - Return to [Rome chain spine](../rome-memory.md#chain-spine) for continuity placement and branch lifecycle.
+- Return to [Rome language spine](../rome-memory.md#language-spine) for Greek/Latin medium placement.
 - Return to [rome-faith](../rome-faith.md) · [rome-civilization](../rome-civilization.md) · [rome-memory](../rome-memory.md) for the deeper legitimacy substrate.
 - Return to the [statecraft root](../README.md) when the Rome case is being used comparatively rather than lane-locally.
 

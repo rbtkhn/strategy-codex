@@ -8,10 +8,12 @@ Civilization beautifies through law, citizenship, and imperial universality; emp
 
 **Sovereignty chain (narrative):** Republic and republican-imperial universalization; Eastern Roman continuation; fractured branches (France, HRE, Papacy, partial Spain/Italy); papal and legal residue as present carriers. Chain doctrine: [rome-memory — chain spine](rome-memory.md#chain-spine).
 
+**Dual language heritage:** Greek and Latin as co-primary media from Republic onward; language placement: [rome-memory — language spine](rome-memory.md#language-spine). Essay: [Dual language heritage Rome](essays/dual-language-heritage-rome.md).
+
 **Sacred / civilizational grammar:** Roman law, citizenship, imperial universality, Christianity, papal residue. See [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md).
 
 **Present carrier:** Catholic Church as clearest residue; Eastern Roman Empire as indispensable bridge in the chain narrative.
 
 **Failure mode to avoid:** reading Rome as dead antiquity, or as nostalgia detached from actual continuity carriers.
 
-**Read path:** [Civilization Rome](essays/civilization-rome.md) → [Empire Rome](essays/empire-rome.md) → optional [geo-strategy](essays/geo-strategy-rome.md), [secret-history](essays/secret-history-rome.md), [game-theory](essays/game-theory-rome.md). Source shelf: [shelf reader](shelf-reader.md).
+**Read path:** [Civilization Rome](essays/civilization-rome.md) → [Empire Rome](essays/empire-rome.md) → [Dual language heritage Rome](essays/dual-language-heritage-rome.md) → optional [geo-strategy](essays/geo-strategy-rome.md), [secret-history](essays/secret-history-rome.md), [game-theory](essays/game-theory-rome.md). Source shelf: [shelf reader](shelf-reader.md).

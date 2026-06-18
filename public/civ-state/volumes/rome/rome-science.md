@@ -3,7 +3,7 @@
 Volume-local lens — **Rome**, Volume III.
 
 Status: Active doctrine (Roman law mirror)  
-Last updated: 2026-06-17
+Last updated: 2026-06-18
 
 ## Sovereignty chain — science lens {#sovereignty-chain-science-lens}
 
@@ -26,6 +26,21 @@ Last updated: 2026-06-17
 **Boundary rules (science):**
 - Science encodes **what text survives which rupture** — rupture primary rows on entropy; cross-ref here.
 - Latin-American carry = **dispersion**, not a living codification head beside Papacy.
+
+## Dual language heritage — science lens {#dual-language-heritage-science-lens}
+
+| Node | Era | Medium | Notes |
+|------|-----|--------|-------|
+| *Twelve Tables* / Gaius | Ancient | codification_medium | Latin civic-public text before imperial synthesis |
+| **Justinian *Corpus Juris Civilis*** | Medieval | codification_medium | Greek-Latin synthesis — Digest absorbs Greek juristic tradition in Latin governable text (`historical-grounded`) |
+| Canon / civil duality | Medieval | codification_medium | **Ecclesiastical Latin** vs **civil Latin** — distinct procedural homes |
+| Code migration (476 / 1204 / 1453) | Medieval | codification_medium | Which language holds surviving text — cross-ref [language spine](rome-memory.md#language-spine) |
+| Boethius | Medieval | reception_medium | Latin bridge for Greek logic/philosophy |
+| Renaissance humanism | Medieval → Colonial | reception_medium | **Latin reception of Greek** texts — primary Western re-entry (`historical-grounded`) |
+| Code civil / Iberian export | Industrial → Colonial | codification_medium | Latin-medium civil-law dispersion — not classical Latin revival |
+| Aristotle (Latinized) | Ancient → Medieval | reception_medium | Greek politics naturalized in Latin scholasticism |
+
+**Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Faith — canon overlap](rome-faith.md#dual-language-heritage-faith-lens)
 
 ## Whole-work term
 

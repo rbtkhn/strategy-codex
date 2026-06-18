@@ -51,7 +51,7 @@ Ask first:
 
 ## Volume depth (Rome)
 
-When **Rome** is the live case and **faith** governs, open [rome-faith.md](../volumes/rome/rome-faith.md). Chain segment: [Sovereignty chain — faith lens](../volumes/rome/rome-faith.md#sovereignty-chain-faith-lens). Sacred grammar sections also on [rome-civilization.md](../volumes/rome/rome-civilization.md) · [rome-memory.md](../volumes/rome/rome-memory.md).
+When **Rome** is the live case and **faith** governs, open [rome-faith.md](../volumes/rome/rome-faith.md). Chain segment: [Sovereignty chain — faith lens](../volumes/rome/rome-faith.md#sovereignty-chain-faith-lens). Language segment: [Dual language heritage — faith lens](../volumes/rome/rome-faith.md#dual-language-heritage-faith-lens). Language spine: [Language spine](../volumes/rome/rome-memory.md#language-spine). Sacred grammar sections also on [rome-civilization.md](../volumes/rome/rome-civilization.md) · [rome-memory.md](../volumes/rome/rome-memory.md).
 
 ## Failure modes
 

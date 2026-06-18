@@ -3,7 +3,7 @@
 Bounded comparative essay — replaces the retired whole-work pattern library on the public theory shelf (v0.1.12).
 
 Status: Active essay  
-Last updated: 2026-06-17
+Last updated: 2026-06-18
 
 ## Why this essay exists
 
@@ -34,6 +34,7 @@ These names remain useful vocabulary; full sheets live in the operator archive.
 | **Corridor civilization** | Route, chokepoint, or transit grammar shapes state form |
 | **Bureaucratic restoration** | Administrative depth restores carry after rupture |
 | **Fractured sovereignty** | Legitimate authority split across competing carriers |
+| **Language fork** | Same grammar persists while Greek/Latin (or successor) media diverge — sub-mechanism of fractured sovereignty; Rome pilot: [language spine](../volumes/rome/rome-memory.md#language-spine) |
 | **Sacred reconcentration** | Legitimacy recentralized through faith-order renewal |
 
 ## Return paths

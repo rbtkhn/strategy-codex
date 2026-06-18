@@ -52,7 +52,7 @@ Useful distinctions:
 
 ## Volume depth (Rome)
 
-When **Rome** is the live case and **civilization** governs, open [rome-civilization.md](../volumes/rome/rome-civilization.md). Chain segment: [Sovereignty chain — civilization lens](../volumes/rome/rome-civilization.md#sovereignty-chain-civilization-lens). Roman law cross-cutting table: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects). Narrative: [Civilization Rome](../volumes/rome/essays/civilization-rome.md).
+When **Rome** is the live case and **civilization** governs, open [rome-civilization.md](../volumes/rome/rome-civilization.md). Chain segment: [Sovereignty chain — civilization lens](../volumes/rome/rome-civilization.md#sovereignty-chain-civilization-lens). Language segment: [Dual language heritage — civilization lens](../volumes/rome/rome-civilization.md#dual-language-heritage-civilization-lens) (Greek + Latin rosters). Language spine: [Language spine](../volumes/rome/rome-memory.md#language-spine). Roman law cross-cutting table: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects). Narrative: [Civilization Rome](../volumes/rome/essays/civilization-rome.md).
 
 ## Failure modes
 

@@ -4,7 +4,7 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
-**v0.1.26** — Rome sovereignty chain encoded across six `rome-{term}.md` lenses; memory spine index; Republic-as-opener doctrine.
+**v0.1.27** — Rome dual language heritage: `#language-spine`, Greek/Latin rosters, six term language segments; sacred dual-carrier doctrine.
 
 ## Timeline
 
@@ -49,6 +49,19 @@ Whole-work **entropy** SSOT: [`theory/entropy.md`](../theory/entropy.md)
 | desire → entropy (behavioral) | desire → empire |
 
 Historical causes and manifestations: war, revolution, disease, famine, ecological disaster, compound shocks.
+
+### v0.1.27 — Rome dual language heritage
+
+| Change | Detail |
+|--------|--------|
+| `rome-memory.md` | **Language spine (cross-term index)** `#language-spine` — parallel Greek/Latin carriers + tagged boundary rules |
+| `rome-civilization.md` | **Dual rosters** (14 Greek + 10 Latin) + **language carrier types** SSOT |
+| `rome-{term}.md` | **Dual language heritage — {term} lens** on all six theory files |
+| `essays/dual-language-heritage-rome.md` | Reader smoke-test essay (Q4 sacred dual-carrier, Q6 reframe) |
+| `sources/rome/primary/ancient.md` | Euripides, Aeschylus, Appian; Polybius/Plutarch cross-list under Greek inheritance |
+| `theory/{term}.md` | Volume depth (Rome) → `#language-spine` + language segment anchors |
+| `cross-case-recurrence-and-sovereignty.md` | **Language fork** sub-mechanism under fractured sovereignty |
+| Doctrine | Co-equal Greek/Latin from Republic; sacred dual-carrier (Orthodox Greek + papal Latin); 476 institutional reframe |
 
 ### v0.1.26 — Rome sovereignty chain encoding
 

@@ -1964,3 +1964,101 @@ or March quote-anchor repair, Karajan routing failed.
 `verdict=held` · `conductor=karajan` · slice 1 receipt on America primary-ownership lane.
 
 **Open:** slice 2 intake-readiness · slice 3 Kleiber validator · slice 4 Napolitano substrate.
+
+## 2026-06-17 - Rome fractured-sovereignty chain encoding (memory spine + term segments)
+
+### Trigger
+
+Operator elicitation locked **Republic** as political chain opener (Romulus/Aeneas substrate only), co-primary carriers (Papacy, France, HRE), colonial **`instrument`** tier, and shared rupture primaries (476, 1054, 1204, 1453). Plan executed across six `rome-{term}.md` lenses, `rome-memory#chain-spine` index, theory Volume depth links, and `validate_civilizational_statecraft_public.py --strict-theory` pass — shipped **v0.1.26**.
+
+### Extracted law
+
+```text
+Fractured-sovereignty chains need memory spine + term segments:
+one cross-term placement index (rome-memory#chain-spine)
+plus per-lens filtered segments on each rome-{term}.md;
+shared ruptures get one primary home + cross-refs elsewhere;
+colonial/overseas branches are instruments, not chain heads.
+```
+
+Cross-read: [spine-and-support-ring](patterns/spine-and-support-ring.md) — spine here is **sovereignty placement**, not navigation route; support ring = term-filtered diagnosis segments.
+
+### Reapplication
+
+- **Next civ chain encode** (Persia dual centers, China tributary layers): elicit co-primary vs instrument vs partial-inheritance tiers **before** writing segments; never promote colonial branches to chain-head without operator cash-out.
+- **Chain placement queries:** `governing-term-first` → open memory spine first, then governing term segment — not volume theory door or duplicate spine rows on every term file.
+- **Node vocabulary:** reuse types from [rome-civilization.md](../public/civ-state/volumes/rome/rome-civilization.md#sovereignty-chain-civilization-lens) only after elicitation adapts labels to the civ's fracture geometry.
+
+### Structural changes
+
+- Six `public/civ-state/volumes/rome/rome-{term}.md` — **Sovereignty chain — {term} lens** segments
+- `rome-memory.md` — **Chain spine (cross-term index)** + parallel carriers table + branch lifecycle column
+- `rome-civilization.md` — **Chain node types** SSOT (substrate, opener, hinge, rupture, bridge-carrier, branch, instrument, present-carrier)
+- `public/civ-state/docs/release-history.md` — **v0.1.26** milestone
+- Theory `Volume depth (Rome)` links → chain segment anchors; sovereign-continuity stubs → `rome-memory#chain-spine`
+
+### Guardrail
+
+```text
+Do not copy Rome tier labels to other civs without elicitation;
+instrument vs co-primary vs present-carrier is judgment, not template.
+Do not duplicate full spine rows on every rome-{term}.md — placement index lives on memory only.
+```
+
+### Current lesson
+
+```text
+Fractured sovereignty is legible when grammar persists but carriers split:
+encode the split once on memory, diagnose it six ways on the terms.
+```
+
+Routing: [recursive-learning skill v0.2](../.cursor/skills/recursive-learning/SKILL.md) · civ-state **v0.1.26** · [release-history](../public/civ-state/docs/release-history.md).
+
+## 2026-06-18 - Rome dual language heritage (language-spine parallel dimension)
+
+### Trigger
+
+Operator elicitation (10 MCQs) + fourteen-name Greek / ten-name Latin rosters locked co-equal from Republic; sacred dual-carrier doctrine (Orthodox Greek + papal Latin on sacred-language dimension only). v0.1.27 encode: `#language-spine`, dual rosters, six term **Dual language heritage** segments, essay smoke-test.
+
+### Extracted law
+
+```text
+Fractured-sovereignty chains gain a parallel language dimension:
+one cross-term language-spine (rome-memory#language-spine)
+plus per-lens filtered language segments — same ruptures, second row tracks medium;
+political chain head unchanged; sacred-language may carry dual present-media without dual sovereignty.
+```
+
+Cross-read: [2026-06-17 Rome fractured-sovereignty entry](#2026-06-17---rome-fractured-sovereignty-chain-encoding-memory-spine--term-segments) — language fork extends, does not replace, sovereignty spine.
+
+### Reapplication
+
+- **Next civ with split media** (Persia, China): elicit rosters + language-spine before term segments; tag `operator-sacred-doctrine` vs `historical-grounded` in boundary prose.
+- **Language placement queries:** `governing-term-first` → `#language-spine` first when medium governs; `#chain-spine` when succession placement governs.
+- **Do not** duplicate full language table on every term file — civilization owns rosters; memory owns spine.
+
+### Structural changes
+
+- `rome-memory.md` — `#language-spine` + tagged boundary rules
+- `rome-civilization.md` — dual rosters + language carrier types SSOT
+- Six `rome-{term}.md` — **Dual language heritage — {term} lens**
+- `essays/dual-language-heritage-rome.md`, theory Volume depth links, `governing-term-first` language placement
+- `public/civ-state/docs/release-history.md` — **v0.1.27**
+
+### Guardrail
+
+```text
+Do not treat geographic Latin-Catholic / Latin-American labels as classical Latin heritage;
+do not promote Orthodox sacred co-primary to second political chain head.
+Sacred dual-carrier prose must carry operator-sacred-doctrine tag when encoded.
+```
+
+### Current lesson
+
+```text
+Grammar can persist when the linguistic medium forks —
+encode the fork once on memory, diagnose it six ways on the terms,
+keep political and sacred-language carriers explicitly separated.
+```
+
+Routing: civ-state **v0.1.27** · [language spine](../public/civ-state/volumes/rome/rome-memory.md#language-spine).

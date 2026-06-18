@@ -3,7 +3,7 @@
 Volume-local lens — **Rome**, Volume III.
 
 Status: Active doctrine (Roman law mirror)  
-Last updated: 2026-06-17
+Last updated: 2026-06-18
 
 ## Sovereignty chain — civilization lens {#sovereignty-chain-civilization-lens}
 
@@ -41,6 +41,65 @@ Shared vocabulary for all six `rome-{term}.md` chain segments (civilization owns
 | **Latin-American civil-law + Catholic dispersion** | Industrial → Cybernetic | partial inheritance | Iberian colonial **instrument** carry (Hispano- + Lusophone; Brazil folded); not chain head |
 
 **Cross-reads:** [Empire (Rome)](rome-empire.md#sovereignty-chain-empire-lens) · [Faith (Rome)](rome-faith.md#sovereignty-chain-faith-lens) · [Science (Rome)](rome-science.md#sovereignty-chain-science-lens) · [Memory (Rome)](rome-memory.md#chain-spine) · [Entropy (Rome)](rome-entropy.md#sovereignty-chain-entropy-lens)
+
+## Dual language heritage — civilization lens {#dual-language-heritage-civilization-lens}
+
+Co-primary **Greek** and **Latin** inheritance from **Republic** onward — contest-synthesis, not dependence. Placement index: [Language spine](rome-memory.md#language-spine).
+
+### Language carrier types
+
+Shared vocabulary for language segments (civilization owns SSOT):
+
+| Type | Meaning |
+|------|---------|
+| **substrate_medium** | Pre-political or mythic layer (Homer, Virgil/*Aeneid*) |
+| **co_primary_medium** | Load-bearing grammar from Republic (both rosters) |
+| **sacred_medium** | Liturgy, scripture, patristic carry (Koine, Latin Vulgate, Orthodox Greek) |
+| **codification_medium** | Governable legal text (*Corpus*, *Digest*, canon) |
+| **reception_medium** | Later recovery through translation/humanism (Renaissance Latin reception) |
+
+### Greek inheritance roster (fourteen names)
+
+Flat co-equal rank; **Rome-facing** tags volume salience only.
+
+| Figure | Rome-facing | Load-bearing gift | Term affinity |
+|--------|-------------|-------------------|---------------|
+| **Homer** | substrate | Epic/mythic substrate — Troy, heroic order beneath Aeneas/Romulus | civilization · memory |
+| **Herodotus** | — | Ethnography and custom; universality vs plurality | civilization · empire |
+| **Thucydides** | — | Political realism — war, empire pathology | empire · entropy |
+| **Polybius** | yes | Greek analyst of Rome — mixed constitution, republican rise | civilization · empire · science |
+| **Xenophon** | — | Expeditionary command; *Cyropaedia* imperial mirror | empire · civilization |
+| **Plato** | — | Ideal order vs magistracy | civilization · faith |
+| **Aristotle** | — | Politics/ethics Rome Latinizes | civilization · science |
+| **Socrates** | — | Moral inquiry — via Plato + Xenophon only | civilization · faith |
+| **Sophocles** | — | Tragic law (*Antigone*) | faith · entropy |
+| **Euripides** | — | Tragic humanism | civilization · entropy |
+| **Aeschylus** | — | Tragic justice (*Oresteia* law-memory) | memory · faith |
+| **Plutarch** | yes | *Parallel Lives* — Roman character/exemplum in Greek | civilization · memory · faith |
+| **Strabo** | — | *Geographica* — oikoumene universality | empire · civilization |
+| **Appian** | yes | Civil wars — republic-to-principate in Greek medium | empire · entropy |
+
+### Latin co-primary roster (ten names)
+
+| Figure | Rome-facing | Load-bearing gift | Term affinity |
+|--------|-------------|-------------------|---------------|
+| **Cicero** | yes | Civic rhetoric, republican law-memory, Greek translation/contest | civilization · faith |
+| **Livy** | yes | Republican national narrative — history as moral inheritance | civilization · memory |
+| **Virgil** | yes | *Aeneid* — mythic-lawful foundation; Troy-Rome synthesis in Latin | civilization · memory · faith |
+| **Cato the Elder** | — | Anti-Hellenizing polemic — contest side of synthesis | civilization · entropy |
+| **Lucretius** | — | Latin philosophical poem — Greek Epicureanism naturalized | science · civilization |
+| **Gaius** | — | Classical jurisprudence before codification | science · civilization |
+| **Seneca** | — | Stoic ethics under empire — Greek philosophy in Latin prose | faith · empire |
+| **Augustine** | — | Latin patristic synthesis — *City of God* | faith · memory |
+| **Boethius** | — | Latin bridge translating Greek logic to medieval West | science · memory |
+| **Justinian** | yes | Imperial codification — Latin *Corpus* (Greek-Latin synthesis) | science · empire · memory |
+
+**Boundary rules (civilization · language):**
+- Co-equal inheritance ≠ dual sovereignty — one political chain, two media.
+- Geographic **Latin-Catholic** / **Latin-American** ≠ classical Latin heritage — see [Memory language spine](rome-memory.md#language-spine).
+- Full language-spine table lives on [memory](rome-memory.md#language-spine) only.
+
+**Cross-reads:** [Memory — language spine](rome-memory.md#language-spine) · [Faith (Rome)](rome-faith.md#dual-language-heritage-faith-lens) · [Dual language heritage (essay)](essays/dual-language-heritage-rome.md) · [Greek shelf](../../sources/rome/primary/ancient.md)
 
 ## Whole-work term
 

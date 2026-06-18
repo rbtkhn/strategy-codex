@@ -3,7 +3,7 @@
 Volume-local lens — **Rome**, Volume III.
 
 Status: Active doctrine (Roman law mirror)  
-Last updated: 2026-06-17
+Last updated: 2026-06-18
 
 ## Sovereignty chain — empire lens {#sovereignty-chain-empire-lens}
 
@@ -20,7 +20,7 @@ Last updated: 2026-06-17
 | Claudius | Ancient | hinge (secondary) | Provincial integration peak |
 | Marcus Aurelius | Ancient | hinge (secondary) | Stoic-imperial universal duty |
 | **Theodoric** | Medieval | instrument | Ostrogothic king — post-476 western **instrument** without restored empire totality |
-| **Heraclius** | Medieval | hinge (primary) | Eastern bridge — Greek identity, Persian recovery |
+| **Heraclius** | Medieval | hinge (primary) | Eastern bridge — **medium shift** (Greek court/admin); Persian recovery |
 | **Basil II** | Medieval | hinge (primary) | Eastern territorial peak before contraction |
 | **Alexios I Comnenus** | Medieval | hinge (primary) | Comnenian restoration; Crusade era begins |
 | **Manuel I Comnenus** | Medieval | hinge (primary) | Last Comnenian universal claim before 1204 shock |
@@ -67,6 +67,20 @@ Last updated: 2026-06-17
 - Colonial empires (Spanish, Portuguese) = **`instrument`** of Iberian branches — not co-primary chain heads.
 - Spain was **never** a Reich member; Charles V = **parallel-habsburg** personal union of crowns, not Spain joining the HRE.
 - **Present chain head** = Papacy only — no living territorial Roman empire.
+
+## Dual language heritage — empire lens {#dual-language-heritage-empire-lens}
+
+| Node | Era | Medium | Notes |
+|------|-----|--------|-------|
+| Unified empire | Ancient | co_primary_medium | One sovereignty, two media — Greek East admin + Latin West law (`historical-grounded`) |
+| Constantine / Diocletian | Ancient | co_primary_medium | East-West language-admin hinge — see [language spine](rome-memory.md#language-spine) |
+| **Heraclius** | Medieval | co_primary_medium | **Medium shift** — Greek court/admin; same Roman state (`historical-grounded`) |
+| Eastern Roman bridge | Medieval | co_primary_medium | Greek-speaking Romaion — imperial instrument in Greek medium |
+| Western post-476 | Medieval | co_primary_medium | Latin law-procedure without Greek-administered Roman continuity |
+| Colonial instruments | Colonial | codification_medium | Iberian export of **Latin legal text** — not Greek bridge |
+| Strabo / oikoumene | Ancient | co_primary_medium | Empire geography encoded in Greek — [civilization roster](rome-civilization.md#dual-language-heritage-civilization-lens) |
+
+**Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Civilization rosters](rome-civilization.md#dual-language-heritage-civilization-lens)
 
 ## Whole-work term
 

@@ -3,7 +3,7 @@
 Volume-local lens — **Rome**, Volume III.
 
 Status: Active doctrine (Roman law mirror)  
-Last updated: 2026-06-17
+Last updated: 2026-06-18
 
 ## Sovereignty chain — entropy lens {#sovereignty-chain-entropy-lens}
 
@@ -27,6 +27,20 @@ Last updated: 2026-06-17
 - **476, 1204, Reformation** primary rows live here; faith/science/memory cross-ref.
 - Distinguish **empire-overreach** ([Empire (Rome)](rome-empire.md)) from **historical shock** (this lens).
 - Rupture ≠ total extinction — grammar persists through fractured carriers.
+
+## Dual language heritage — entropy lens {#dual-language-heritage-entropy-lens}
+
+| Node | Era | Medium | Notes |
+|------|-----|--------|-------|
+| **476 — Western fall** | Medieval | rupture | West loses Greek-**administered** Roman institutional continuity — co-equal institutional rupture (`contested-weight`) |
+| Great Schism (1054) | Medieval | rupture cross-ref | Sacred-language split — primary on [Faith (Rome)](rome-faith.md#dual-language-heritage-faith-lens) |
+| **1204** | Medieval | rupture | Constantinople codex shock — Greek text survival threatened |
+| **1453** | Medieval | rupture | Greek bridge ends; expert-class and Greek-medium state continuity ruptures |
+| Reformation | Colonial | rupture | Latin universal law-bearing fragments |
+| Vulgar Latin / Romance decay | Medieval → Industrial | medium decay | Vernacularization — full treatment deferred; ecclesiastical vs civil Latin distinguished on [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) |
+| Law as rhetoric | Industrial → Cybernetic | rupture | Medium and institution decouple — sacred grammar without procedural carry |
+
+**Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Empire (Rome)](rome-empire.md#dual-language-heritage-empire-lens)
 
 ## Whole-work term
 
