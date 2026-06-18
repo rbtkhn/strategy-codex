@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Lebanon Forward Defense × MOU Art. 1 — Pape × Parsi — 2026-06-17
 
-**Archive batch:** [2026-06-17 README](../../source-archive/statecraft/2026-06-17/README.md) (3 captures)
+**Archive batch:** [2026-06-17 README](../../source-archive/statecraft/2026-06-17/README.md) (8 captures) · **Parent:** [2026-06-17 daily](./2026-06-17.md)
 
 **Prior spine:** [Pape Day 100 × New Phase × Lebanon Fuse](./2026-06-08-pape-day-100-new-phase-lebanon-fuse.md) · [Lebanon enforcement × Nima host arc](./2026-06-14-lebanon-enforcement-nima-host-arc.md) · [Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 
@@ -109,8 +109,8 @@ Do **not** merge layers: **declarative ceasefire ≠ forward-defense restored �
 - [Persia — Lebanon third-party recognition gate transaction](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md)
 - [Pape Jun 8 Lebanon fuse spine](./2026-06-08-pape-day-100-new-phase-lebanon-fuse.md)
 - [Jun 14 Lebanon enforcement × Nima arc](./2026-06-14-lebanon-enforcement-nima-host-arc.md)
-- Parent daily (when written): `statecraft/daily/2026-06-17.md`
-- Wire-verify fork: official MOU Lebanon clause vs IDF/Lebanon ops same week
+- [Parent daily — 2026-06-17 MOU text release](./2026-06-17.md)
+- Wire-verify: [2026-06-17 matrix](./2026-06-17-wire-verify-matrix.md) — **J17-4 supported** (Pt. 1 text) · **J17-8 partial** (Khiam) · **J17-9 supported** (Katz no withdrawal)
 
 ## Source anchors
 
