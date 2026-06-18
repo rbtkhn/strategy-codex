@@ -59,7 +59,7 @@ Historical shocks — war, revolution, plague, famine — often **distort** memo
 
 ## Volume depth (Rome)
 
-When **Rome** is the live case and **memory** governs, open [rome-memory.md](../volumes/rome/rome-memory.md). Rhythm and era law remain on this whole-work page — [Civilizational rhythm](#civilizational-rhythm) · [Era law](#era-law).
+When **Rome** is the live case and **memory** governs, open [rome-memory.md](../volumes/rome/rome-memory.md). Chain spine: [Chain spine (cross-term index)](../volumes/rome/rome-memory.md#chain-spine). Chain segment: [Sovereignty chain — memory lens](../volumes/rome/rome-memory.md#sovereignty-chain-memory-lens). Rhythm and era law remain on this whole-work page — [Civilizational rhythm](#civilizational-rhythm) · [Era law](#era-law).
 
 ## Civilizational rhythm
 

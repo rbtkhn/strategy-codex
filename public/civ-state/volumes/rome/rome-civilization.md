@@ -5,6 +5,43 @@ Volume-local lens — **Rome**, Volume III.
 Status: Active doctrine (Roman law mirror)  
 Last updated: 2026-06-17
 
+## Sovereignty chain — civilization lens {#sovereignty-chain-civilization-lens}
+
+### Chain node types
+
+Shared vocabulary for all six `rome-{term}.md` chain segments (civilization owns inheritance grammar):
+
+| Type | Meaning |
+|------|---------|
+| **substrate** | Pre-political or mythic grammar beneath the political chain (Aeneas/Troy, Romulus mythic) |
+| **opener** | First **political** sovereign form on the chain |
+| **hinge** | Mutation of form without total extinction of grammar |
+| **rupture** | Shock that splits sovereignty or breaks a branch's continuity claim |
+| **bridge-carrier** | Carrier that keeps grammar alive across a rupture (Eastern Rome 476–1453) |
+| **branch** | Parallel successor line after fracture (France, HRE, Papacy, partial Spain/Italy) |
+| **instrument** | Overseas or maritime projection — colonial empire, commune republic — **not** a chain head |
+| **present-carrier** | Living residue head today (Papacy — Pope Leo XIV) |
+
+**Boundary rules (civilization):**
+- **Republic** opens the **political** chain; **Romulus** and **Aeneas/Troy** are **substrate only** — mythic founding, not sovereign opener.
+- Partial branches (Spain, Italy) carry **legal/civic residue**, not full Roman state continuity.
+- **Present chain head** = Papacy only; Latin-American civil-law dispersion is **partial inheritance**, not a rival carrier.
+
+| Node | Era | Role | Notes |
+|------|-----|------|-------|
+| Aeneas / Troy | Ancient (substrate) | substrate | Mythic prehistory; civilizational grammar beneath political chain |
+| Romulus (mythic) | Ancient (substrate) | substrate | Founding figure; **not** political chain opener |
+| **Republic** | Ancient | opener | First political sovereign form — civic law, citizenship, magistracy |
+| Gaul (Roman provincial) | Ancient → Medieval | branch seed | Load-bearing Romanization — seeds **France** co-primary line |
+| **Hispania Romana** | Ancient → present | branch · partial-active | Deep Roman seed — municipal law; **active partial** carry today |
+| Florence (civic republic) | Medieval → Colonial | partial-inheritance | Republican civic form on Roman core — Renaissance retrieval |
+| Italian communes (aggregate) | Medieval → Colonial | partial-inheritance | Genoa · Milan — municipal Roman law on peninsula |
+| Risorgimento / Italy (1861+) | Industrial | partial hinge | Territorial nation-state; Roman rhetorical inheritance — not present chain head |
+| Code civil lineage | Industrial | comparative memory | French branch residue — post-Revolution civil-law carry |
+| **Latin-American civil-law + Catholic dispersion** | Industrial → Cybernetic | partial inheritance | Iberian colonial **instrument** carry (Hispano- + Lusophone; Brazil folded); not chain head |
+
+**Cross-reads:** [Empire (Rome)](rome-empire.md#sovereignty-chain-empire-lens) · [Faith (Rome)](rome-faith.md#sovereignty-chain-faith-lens) · [Science (Rome)](rome-science.md#sovereignty-chain-science-lens) · [Memory (Rome)](rome-memory.md#chain-spine) · [Entropy (Rome)](rome-entropy.md#sovereignty-chain-entropy-lens)
+
 ## Whole-work term
 
 [Civilization](../../theory/civilization.md) — inherited order and legitimacy substrate.

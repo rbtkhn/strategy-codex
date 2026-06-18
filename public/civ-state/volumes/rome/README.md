@@ -14,13 +14,13 @@ Primary source base: Rome source corpus
 - Volume introduction: [Pax Romana](../../docs/introduction.md)
 - Deep grammar: Aeneas / Troy as mythic prehistory, with Roman law and civic order as civilizational grammar
 - Deep grammar retrieval: [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md) — via [theory shelf](../../theory/README.md#cross-cutting-objects)
-- Sovereign opening: Romulus as the foundational sovereign
+- Sovereign opening: **Republic** as political chain opener; Romulus as mythic founding figure (substrate)
 - Current carrier: Catholic Church
 - Civilization chapter: [Rome civilization](essays/civilization-rome.md)
 - Empire chapter: [Rome empire](essays/empire-rome.md)
 - Shelf reader: [Rome shelf reader](shelf-reader.md)
 - Volume bibliography: [Rome bibliography](../../sources/rome/bibliography.md)
-- Sovereign continuity support note: Rome sovereign continuity
+- Sovereign continuity support note: [Rome chain spine](rome-memory.md#chain-spine)
 - Optional sub-lenses: [essays](essays/README.md) — geo-strategy, secret-history, game-theory
 - Volume-local theory: `rome-{term}.md` — orchestrated from [whole-work theory](../../theory/README.md) (Roman law mirror pilot)
   - [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
@@ -29,7 +29,7 @@ Primary source base: Rome source corpus
 
 **Civilization-State Diagnostic**
 - Civilization-state claim: strong but transformed civilization-state whose continuity survives through mutation rather than one unbroken territorial state
-- Sovereignty chain: `Romulus -> Pope Leo XIV`
+- Sovereignty chain: `Republic -> … -> Pope Leo XIV` — *continuity with fractured sovereignty*; spine: [rome-memory](rome-memory.md#chain-spine)
 - Sacred / civilizational grammar: Roman law, citizenship, imperial universality, Christianity, and later papal residue
 - Current carrier: Catholic Church as the clearest surviving residue, with the Eastern Roman Empire as the indispensable bridge
 - Failure mode: Rome is misread either as dead antiquity or as nostalgia detached from actual continuity carriers

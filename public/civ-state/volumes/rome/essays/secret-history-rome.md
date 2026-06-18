@@ -101,5 +101,5 @@ When drafting from the Rome volume, the governing question is:
 
 - [Rome sacred grammar](../rome-faith.md)
 - Rome source corpus
-- Rome sovereign continuity
+- [Rome chain spine](../rome-memory.md#chain-spine)
 - [Rome geo-strategy](geo-strategy-rome.md)

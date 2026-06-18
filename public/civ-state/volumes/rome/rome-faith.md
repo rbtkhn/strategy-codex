@@ -5,6 +5,28 @@ Volume-local lens — **Rome**, Volume III.
 Status: Active doctrine (Roman law mirror)  
 Last updated: 2026-06-17
 
+## Sovereignty chain — faith lens {#sovereignty-chain-faith-lens}
+
+| Node | Era | Role | Notes |
+|------|-----|------|-------|
+| Aeneas / Troy | Ancient (substrate) | substrate | Sacred prehistory beneath political chain |
+| Constantine / Theodosius | Ancient | hinge | Christian empire synthesis — imperial law Christianized |
+| **Great Schism (1054)** | Medieval | **rupture (primary)** | Faith-order fracture — East/West sacred succession split; memory + entropy cross-ref only |
+| Papacy | Medieval → Cybernetic | branch · present-carrier | Sacral-universal residue; **Pope Leo XIV** — present chain head |
+| HRE (Charlemagne line) | Medieval → Industrial | branch · co-primary | Sacral-imperial title memory — not rival ontology to papacy; comparative memory post-1806 |
+| Gallicanism | Colonial → Industrial | branch tension | French co-primary line vs papal supremacy |
+| French Revolution (1789) | Industrial | rupture cross-ref | Sacred-order rupture on French branch — primary on [Entropy (Rome)](rome-entropy.md#sovereignty-chain-entropy-lens) |
+| Catholic universal mission (Spain) | Colonial | branch · faith arm | Counter-Reformation — load-bearing on **faith + empire** equally |
+| Colonial mission (Iberian) | Colonial | instrument | Sacral authorization of overseas incorporation — Spanish + Portuguese instruments |
+| Vatican / concordats | Industrial → Cybernetic | present-carrier | Papal residue narrowed to sacral-universal carry without territorial Roman totality |
+
+**Cross-reads:** [Civilization (Rome)](rome-civilization.md#sovereignty-chain-civilization-lens) · [Empire (Rome)](rome-empire.md#sovereignty-chain-empire-lens) · [Science (Rome)](rome-science.md#sovereignty-chain-science-lens) · [Memory (Rome)](rome-memory.md#chain-spine) · [Entropy (Rome)](rome-entropy.md#sovereignty-chain-entropy-lens)
+
+**Boundary rules (faith):**
+- **1054** primary row lives here — other lenses cross-ref only.
+- Papacy = **present-carrier**; neither France, HRE, Spain, nor colonial empires are rival sacral chain heads today.
+- Charles V Catholic arm: co-equal with empire lens — not faith-only subsidiary.
+
 ## Whole-work term
 
 [Faith](../../theory/faith.md) — sacred and moral truth-order.

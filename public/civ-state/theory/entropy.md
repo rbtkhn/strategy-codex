@@ -53,7 +53,7 @@ Post-shock carry often distorts [Memory](memory.md) — wound sacredized, succes
 
 ## Volume depth (Rome)
 
-When **Rome** is the live case and **entropy** governs, open [rome-entropy.md](../volumes/rome/rome-entropy.md). Roman law cross-cutting table: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects).
+When **Rome** is the live case and **entropy** governs, open [rome-entropy.md](../volumes/rome/rome-entropy.md). Chain segment: [Sovereignty chain — entropy lens](../volumes/rome/rome-entropy.md#sovereignty-chain-entropy-lens). Roman law cross-cutting table: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects).
 
 ## Failure modes
 

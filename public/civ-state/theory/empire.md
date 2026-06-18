@@ -53,7 +53,7 @@ The **amplifies** beat of [Memory — civilizational rhythm](memory.md#civilizat
 
 ## Volume depth (Rome)
 
-When **Rome** is the live case and **empire** governs, open [rome-empire.md](../volumes/rome/rome-empire.md). Roman law cross-cutting table: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects). Narrative: [Empire Rome](../volumes/rome/essays/empire-rome.md).
+When **Rome** is the live case and **empire** governs, open [rome-empire.md](../volumes/rome/rome-empire.md). Chain segment: [Sovereignty chain — empire lens](../volumes/rome/rome-empire.md#sovereignty-chain-empire-lens). Roman law cross-cutting table: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects). Narrative: [Empire Rome](../volumes/rome/essays/empire-rome.md).
 
 ## Failure modes
 

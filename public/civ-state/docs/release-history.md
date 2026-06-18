@@ -4,7 +4,7 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
-**v0.1.25** — Whole-work theory orchestrates Rome `rome-{term}.md` lenses; retired `rome-theory` shelf door.
+**v0.1.26** — Rome sovereignty chain encoded across six `rome-{term}.md` lenses; memory spine index; Republic-as-opener doctrine.
 
 ## Timeline
 
@@ -49,6 +49,19 @@ Whole-work **entropy** SSOT: [`theory/entropy.md`](../theory/entropy.md)
 | desire → entropy (behavioral) | desire → empire |
 
 Historical causes and manifestations: war, revolution, disease, famine, ecological disaster, compound shocks.
+
+### v0.1.26 — Rome sovereignty chain encoding
+
+| Change | Detail |
+|--------|--------|
+| `rome-{term}.md` | **Sovereignty chain — {term} lens** segments on all six theory files |
+| `rome-memory.md` | **Chain spine (cross-term index)** — era spine + parallel carriers + branch lifecycle |
+| `rome-civilization.md` | **Chain node types** SSOT (opener, hinge, rupture, branch, instrument, …) |
+| Doctrine | **Republic** opens political chain; Romulus/Aeneas substrate; fractured sovereignty theme |
+| Branches | Carolingian fork (France + HRE co-primary); Spain partial-active + parallel-habsburg; Iberian colonial instruments; Italy partial |
+| `theory/{term}.md` | Volume depth (Rome) links to chain segment anchors |
+| `governing-term-first` | Chain placement → memory spine first |
+| Links | Rome sovereign-continuity stubs → `rome-memory#chain-spine` |
 
 ### v0.1.25 — Theory-orchestrated Rome lenses
 

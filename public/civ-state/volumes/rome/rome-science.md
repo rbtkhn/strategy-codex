@@ -5,6 +5,28 @@ Volume-local lens — **Rome**, Volume III.
 Status: Active doctrine (Roman law mirror)  
 Last updated: 2026-06-17
 
+## Sovereignty chain — science lens {#sovereignty-chain-science-lens}
+
+| Node | Era | Role | Notes |
+|------|-----|------|-------|
+| *Twelve Tables* | Ancient | opener | First codified Roman law — civilization grammar as text |
+| Praetorian / classical jurisprudence | Ancient | hinge | Living law before imperial codification |
+| **Justinian *Corpus Juris Civilis*** | Medieval | hinge | Code restitution after western rupture — survives East bridge |
+| Canon / civil procedural duality | Medieval | hinge | Post-Christianization — church law beside civil code |
+| Code migration (476) | Medieval | rupture cross-ref | Western codes fragment; East retains systematic text — primary on [Entropy (Rome)](rome-entropy.md#sovereignty-chain-entropy-lens) |
+| Code migration (1204) | Medieval | rupture cross-ref | Constantinople shock — partial text survival |
+| Code migration (1453) | Medieval | rupture cross-ref | East bridge ends; text migrates to Western reception |
+| **Code civil** (France) | Industrial | branch carry | French co-primary branch residue — post-Revolution codification |
+| Siete Partidas / Ordenações | Colonial | branch · instrument | Iberian codification — peninsular + colonial export |
+| Indies / colonial codification | Colonial | instrument | Civil-law transplantation overseas — Spanish instrument |
+| **Latin-American civil-law carry** | Industrial → Cybernetic | partial inheritance | Dispersed Iberian instrument residue (Hispano- + Lusophone; Brazil folded) — not chain head |
+
+**Cross-reads:** [Civilization (Rome)](rome-civilization.md#sovereignty-chain-civilization-lens) · [Empire (Rome)](rome-empire.md#sovereignty-chain-empire-lens) · [Faith (Rome)](rome-faith.md#sovereignty-chain-faith-lens) · [Memory (Rome)](rome-memory.md#chain-spine) · [Entropy (Rome)](rome-entropy.md#sovereignty-chain-entropy-lens)
+
+**Boundary rules (science):**
+- Science encodes **what text survives which rupture** — rupture primary rows on entropy; cross-ref here.
+- Latin-American carry = **dispersion**, not a living codification head beside Papacy.
+
 ## Whole-work term
 
 [Science](../../theory/science.md) — procedural and evidentiary truth-order.

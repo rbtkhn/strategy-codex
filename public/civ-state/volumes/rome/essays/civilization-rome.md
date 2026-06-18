@@ -23,7 +23,7 @@ This chapter does not claim that Rome survives unchanged in a simple political s
 ## Return Path
 
 - Return to [Volume III — Rome](../README.md) for the full volume spine.
-- Return to Rome sovereign continuity for the continuity-only drill-down.
+- Return to [Rome chain spine](../rome-memory.md#chain-spine) for continuity placement and branch lifecycle.
 - Return to [rome-faith](../rome-faith.md) · [rome-civilization](../rome-civilization.md) · [rome-memory](../rome-memory.md) for the deeper legitimacy substrate.
 - Return to the [statecraft root](../README.md) when the Rome case is being used comparatively rather than lane-locally.
 
@@ -37,11 +37,13 @@ Rome's civilizational logic is form-bearing universality. It insists that order 
 
 ## Sovereign Continuity
 
-The sovereign backbone opens with `Romulus` as foundational sovereign, with Trojan or Aeneas material beneath that as mythic prehistory rather than the tracked political opener.
+Chain doctrine lives on the volume theory files — this chapter stays narrative. See [rome-memory — chain spine](../rome-memory.md#chain-spine) and term segments on each `rome-{term}.md`.
+
+The sovereign backbone opens with **Republic** as political chain opener; Romulus and Aeneas/Troy remain **substrate** (mythic founding, not tracked political opener).
 
 The continuity then becomes legible through:
 
-`Romulus -> Republic -> Empire -> Eastern Roman Empire -> Catholic residue -> Pope Leo XIV`
+`Republic -> Empire -> Eastern Roman Empire -> fractured branches -> Catholic residue -> Pope Leo XIV`
 
 This is the set's clearest case of continuity through changed carriers. The chain remains Roman not because one territorial state persists unchanged, but because Roman form remains historically alive.
 
