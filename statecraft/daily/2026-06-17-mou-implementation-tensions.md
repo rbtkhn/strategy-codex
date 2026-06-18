@@ -38,6 +38,10 @@ WORK only; not Record.
 
 Same **14-point object**, three **incompatible victory musics**. Furtwangler rule: **do not merge** into one batch verdict.
 
+### Executive meaning (Bernstein)
+
+Listen to what is actually on the page: one fourteen-point object, **three harmonic functions** that cannot cadence together without lying to at least one voice. **Grammar 1** (Johnson solo) is the triumph motif — Iran **won the paper**, Trump **capitulated** under the SPR clock, Lebanon integrity language is Iran’s **enforcement right**. **Grammar 2** (Marandi × Johnson) is the **conditional modulation** — same score, but the music only advances when **US performs first**; Hormuz traffic and asset relief are **leverage on a clock**, not proof the war story is over. **Grammar 3** (Hoh) is the **defeat-exit cadence** — the only defensible American gain is **getting out of a war you are not winning**; Iran’s “win” is almost beside the point. The operator error is to hear **digital sign** (**J17-1**) as **resolution**. That was the **exposition closing** — text on the table. **Development** is implementation: Lebanon kinetic under Art. 1, waiver lag, ceremony theater, three incompatible stories about **who won**. Until one grammar wins in **deeds** (quiet Lebanon, performed waivers, or a clean American exit narrative that sticks), the MOU remains **polyphonic** — not ambiguous because we lack facts, but because **the batch is honestly playing counterpoint**.
+
 ### Grammar 1 — **Surrender / total Iranian victory** (Johnson solo + host)
 
 | Element | Load |
@@ -105,4 +109,4 @@ Same **14-point object**, three **incompatible victory musics**. Furtwangler rul
 
 ## Archival note
 
-Opened **2026-06-18** — Furtwangler **A** (tension table) + **B** (victory grammars). Companion to quartet **clause** comparison; this file holds **implementation + victory grammar** tension only.
+Opened **2026-06-18** — Furtwangler **A** (tension table) + **B** (victory grammars); Bernstein **A** (executive meaning). Companion to quartet **clause** comparison; this file holds **implementation + victory grammar** tension only.
