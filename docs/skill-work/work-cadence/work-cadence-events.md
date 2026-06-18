@@ -803,3 +803,4 @@ _(Append below this line.)_
 - **2026-06-18 00:41 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-18 07:35 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-18 10:50 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=kleiber notebook_ref=statecraft/daily/2026-06-17-72h-watch-run.md falsify=kleiber-ceremony-fork-j17-5-j17-17-fri19
+- **2026-06-18 10:55 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=promote conductor=karajan notebook_ref=statecraft/daily/2026-06-17.md falsify=karajan-jun17-stack-finish

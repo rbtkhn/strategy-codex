@@ -65,6 +65,8 @@ WORK only; not Record.
 
 **Do not upgrade** either hook until **Fri 19 Jun** window closes or official **cancellation** of ceremonial track. Digital sign (**J17-1 supported**) is **not** dispositive for this fork.
 
+**One-line score (SSOT — J17-5 × J17-17, contested through Fri 19 Jun):** **Pass** = branch **A** ceremony **19 Jun** with same text as **J17-1** **or** branch **B** both MFAs formally declare digital sign suffices and Geneva **cancelled** without walk-back · **Fail** = Geneva **slips past 19 Jun** with no clarification **or** **third sign** with **different text** leaks · **Verdict now:** **contested**.
+
 | Pole | Hook | Contested claim | Wire that **supports this pole** | Wire / carry that **pulls against** | Who is **not** bound | Held open |
 | --- | --- | --- | --- | --- | --- | --- |
 | **A — Ceremony still live** | **J17-5** | **Geneva Fri 19 Jun** (or Switzerland) **ceremonial** sign still scheduled; Vance travels for optics | [NBC Jun 17 — Vance travels Fri for ceremony](https://www.nbcnews.com/world/iran/strait-hormuz-reopen-us-lift-iran-sanctions-14-point-deal-seeking-end-rcna350513) · [Asharq Jun 18 — Switzerland talks planned Friday](https://english.aawsat.com/world/5285570-switzerland-says-talks-planned-friday-between-iran-and-us) | Baghaei: **no Friday Geneva ceremony needed** after digital sign ([Al Jazeera Jun 17](https://www.aljazeera.com/news/2026/6/17/iran-confirms-that-mou-has-been-signed-electronically-by-both-sides)) · **J17-1** already **in effect** | Iran FM framing treats ceremony as **optional theater** | Is Friday **binding** or **symbolic** only? |
