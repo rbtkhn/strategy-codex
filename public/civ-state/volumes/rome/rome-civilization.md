@@ -9,6 +9,10 @@ Last updated: 2026-06-17
 
 [Civilization](../../theory/civilization.md) — inherited order and legitimacy substrate.
 
+## Sacred grammar — core grammar (Rome)
+
+Civic-sacral order, law, citizenship, and universality. Rome makes rightful rule legible through public order, juridical form, imperial inclusion, and later Christianized universality. Open [Faith (Rome)](rome-faith.md) when sacred authorization governs; open this page when inheritance and civic form govern first.
+
 ## Roman law — civilization lens
 
 Roman law is **civilizational grammar** before it is procedure or empire: citizenship, civic order, public duty, and the claim that Romanness is an **inherited form** legible across rupture. The load-bearing question is what inheritance is at stake — not merely which court or code applies today.
@@ -36,7 +40,7 @@ Legal continuity across East/West split — see [Memory (Rome)](rome-memory.md).
 ## Bridge
 
 - [Civilization Rome](civilization-rome.md)
-- [Sacred grammar](sacred-grammar.md)
+- [Faith (Rome)](rome-faith.md) — legitimating image
 - [Cross-cutting objects — Roman law](../../theory/README.md#cross-cutting-objects)
 
 ## Return paths

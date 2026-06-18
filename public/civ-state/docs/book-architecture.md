@@ -56,7 +56,7 @@ Cross-case pattern library is **retired from the public theory shelf** (v0.1.12)
 
 **Volume-local theory** — `{civ}-{term}.md` in `volumes/{civ}/` (not a subdirectory); link up to whole-work [theory](../theory/README.md).
 
-**Pilot:** [Rome theory shelf](../volumes/rome/rome-theory.md) — `rome-{term}.md` Roman law mirror.
+**Pilot:** [Rome theory shelf](../volumes/rome/rome-theory.md) — `rome-{term}.md`; sacred grammar merged into faith · civilization · memory (v0.1.23).
 
 ## Sources shelf
 

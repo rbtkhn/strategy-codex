@@ -13,7 +13,7 @@ Primary source base: Rome source corpus
 **Opener Block**
 - Volume introduction: [Pax Romana](../../docs/introduction.md)
 - Deep grammar: Aeneas / Troy as mythic prehistory, with Roman law and civic order as civilizational grammar
-- Deep grammar retrieval: [Rome sacred grammar](sacred-grammar.md)
+- Deep grammar retrieval: [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md) ([rome-theory](rome-theory.md))
 - Sovereign opening: Romulus as the foundational sovereign
 - Current carrier: Catholic Church
 - Civilization chapter: [Rome civilization](civilization-rome.md)
@@ -21,9 +21,7 @@ Primary source base: Rome source corpus
 - Shelf reader: [Rome shelf reader](shelf-reader.md)
 - Volume bibliography: [Rome bibliography](../../sources/rome/bibliography.md)
 - Sovereign continuity support note: Rome sovereign continuity
-- Geo-strategy chapter: [Rome geo-strategy](geo-strategy-rome.md)
-- Secret-history chapter: [Rome secret-history](secret-history-rome.md)
-- Game-theory chapter: [Rome game-theory](game-theory-rome.md)
+- Optional sub-lenses: [archive](archive/README.md) — geo-strategy, secret-history, game-theory
 - Volume theory: [Rome theory shelf](rome-theory.md) — `rome-{term}.md` lenses (Roman law mirror pilot)
   - [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
   - [rome-faith](rome-faith.md) · [rome-science](rome-science.md) · [rome-memory](rome-memory.md)

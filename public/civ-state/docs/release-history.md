@@ -4,7 +4,7 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
-**v0.1.21** — Rome volume-local theory flat layout (`rome-{term}.md`).
+**v0.1.23** — Rome sacred grammar merged into `rome-{term}.md` theory lenses.
 
 ## Timeline
 
@@ -49,6 +49,21 @@ Whole-work **entropy** SSOT: [`theory/entropy.md`](../theory/entropy.md)
 | desire → entropy (behavioral) | desire → empire |
 
 Historical causes and manifestations: war, revolution, disease, famine, ecological disaster, compound shocks.
+
+### v0.1.23 — Rome sacred grammar merge
+
+| Change | Detail |
+|--------|--------|
+| `rome-faith` · `rome-civilization` · `rome-memory` | Sacred grammar prose merged |
+| `archive/sacred-grammar.md` | Full original preserved |
+| `sacred-grammar.md` | Root redirect stub (export validator) |
+
+### v0.1.22 — Rome volume archive
+
+| Change | Detail |
+|--------|--------|
+| `volumes/rome/archive/` | Optional sub-lenses + legacy `sources-redirect/` |
+| Root kept clean | Constitutional path + `rome-{term}.md` theory shelf |
 
 ### v0.1.21 — Rome theory flat layout
 

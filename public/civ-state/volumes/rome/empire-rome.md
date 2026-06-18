@@ -82,6 +82,6 @@ Open Rome imperially by asking what machinery is actually at issue: incorporatio
 ## Key evidence spine Anchors
 
 - Rome source corpus
-- [Rome sacred grammar](../../volumes/rome/sacred-grammar.md)
+- [rome-faith](rome-faith.md) · [rome-memory](rome-memory.md)
 - [Rome source-memory volume](README.md)
 - [Empire](../../theory/empire.md) · [theory shelf](../../theory/README.md)

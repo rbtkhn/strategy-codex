@@ -22,7 +22,7 @@ Geography is real here, but it is not self-explaining. Seas, frontiers, and chok
 
 ## Return Path
 
-Return through [Rome](README.md), [Rome sovereign continuity](README.md), [Rome sacred grammar](README.md), and the the volume bibliography and primary shelves when the problem needs either fuller continuity or deeper source-memory excavation.
+Return through [Rome](../README.md), [Rome sacred grammar](../rome-faith.md), and the [Rome sources](../../../sources/rome/README.md) when the problem needs either fuller continuity or deeper source-memory excavation.
 
 ## Core Thesis
 

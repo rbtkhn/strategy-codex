@@ -9,6 +9,12 @@ Last updated: 2026-06-17
 
 [Memory](../../theory/memory.md) — continuity, rhythm, era law, retrieval entry.
 
+## Sacred grammar — continuity and chain (Rome)
+
+Roman sacred grammar survives the republic-to-empire mutation, Christianization, western collapse, Eastern Roman continuation, schism, papal narrowing, and Vatican residue. The carrier changes repeatedly, but the grammar of universal order through law and sacred legitimacy remains legible.
+
+**Sovereignty chain:** Romulus opens the political chain. Aeneas and Troy remain mythic prehistory beneath it. The **Eastern Roman Empire** is the indispensable continuity state — it keeps Roman universality alive long enough for papal and Catholic residue to remain more than nostalgic symbolism.
+
 ## Roman law — memory lens
 
 Roman law is **legal continuity**: succession of codes, East/West split, and restitution of what must not be lost. Rome’s chain — `Romulus → … → Pope Leo XIV` — survives partly because **legal memory** migrates carriers: republic, empire, Eastern Rome, papal residue.

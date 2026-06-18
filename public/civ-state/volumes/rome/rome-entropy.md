@@ -39,7 +39,7 @@ Inheritance rhetoric without carry — [Civilization (Rome)](rome-civilization.m
 
 ## Bridge
 
-- [Secret-history Rome](secret-history-rome.md)
+- [Secret-history Rome](archive/secret-history-rome.md)
 - [Empire Rome](empire-rome.md) — maintenance exhaustion
 
 ## Return paths

@@ -9,6 +9,10 @@ Last updated: 2026-06-17
 
 [Faith](../../theory/faith.md) — sacred and moral truth-order.
 
+## Sacred grammar — legitimating image (Rome)
+
+Authority is rightful when it makes a world governable: law gives order, citizenship gives belonging, empire gives reach, and church continuity later preserves universality after territorial contraction.
+
 ## Roman law — faith lens
 
 Roman law carries **sacred authorization**: natural law, Christian empire synthesis, canon overlap, and moral limits on power. Ius becomes morally legible — not merely enforceable — when covenant, doctrine, or universal sacred order governs the read.
@@ -27,7 +31,7 @@ Canon law and civil codification — [Science (Rome)](rome-science.md). Faith wi
 
 ### Civilization (Rome)
 
-Sacred grammar bearing inheritance — [Civilization (Rome)](rome-civilization.md) · [Sacred grammar](sacred-grammar.md).
+Sacred grammar bearing inheritance — [Civilization (Rome)](rome-civilization.md).
 
 ### Memory (Rome)
 
@@ -35,7 +39,6 @@ Covenant wound and forbidden restitution — [Memory (Rome)](rome-memory.md).
 
 ## Bridge
 
-- [Sacred grammar](sacred-grammar.md)
 - [Rome sources — Medieval](../../sources/rome/primary/medieval.md)
 
 ## Return paths

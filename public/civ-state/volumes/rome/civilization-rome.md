@@ -24,7 +24,7 @@ This chapter does not claim that Rome survives unchanged in a simple political s
 
 - Return to [Volume III — Rome](README.md) for the full volume spine.
 - Return to Rome sovereign continuity for the continuity-only drill-down.
-- Return to [Rome sacred grammar](../../volumes/rome/sacred-grammar.md) for the deeper legitimacy substrate.
+- Return to [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md) for the deeper legitimacy substrate.
 - Return to the [statecraft root](README.md) when the Rome case is being used comparatively rather than lane-locally.
 
 ## Core Thesis
@@ -81,7 +81,7 @@ Open Rome correctly by asking whether the problem involves territorial power, or
 
 ## Key evidence spine Anchors
 
-- [Rome sacred grammar](../../volumes/rome/sacred-grammar.md)
+- [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md)
 - Rome volume writing brief
 - [Statecraft front door](README.md)
 - [Civilization](../../theory/civilization.md) · [Empire](../../theory/empire.md) · [theory shelf](../../theory/README.md)

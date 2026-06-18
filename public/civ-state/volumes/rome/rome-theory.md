@@ -9,7 +9,9 @@ Last updated: 2026-06-17
 
 ## When to open this shelf
 
-Open a whole-work term page first ([Governing term first](../../skills/governing-term-first.md)). Descend here when the **Rome case** must sharpen inheritance, carrier, or era placement — especially **Roman law** as a six-lens object.
+Open a whole-work term page first ([Governing term first](../../skills/governing-term-first.md)). Descend here when the **Rome case** must sharpen inheritance, carrier, or era placement — especially **Roman law** as a six-lens object, or **sacred grammar** (legitimacy substrate merged from the retired standalone file).
+
+**Statecraft relevance:** Rome teaches how law, universality, and sacred continuity can survive institutional mutation — most useful when the live question concerns successor-order legitimacy, transformed carriers, and residue that still organizes authority after territorial exhaustion.
 
 ## Six files — Roman law mirror
 
@@ -27,7 +29,7 @@ Rhythm and era law: whole-work [Memory — Civilizational rhythm](../../theory/m
 ## Volume prose bridge
 
 - [Pax Romana](introduction.md) · [Civilization Rome](civilization-rome.md) · [Empire Rome](empire-rome.md)
-- [Sacred grammar](sacred-grammar.md) · [Rome sources](../../sources/rome/README.md)
+- Sacred grammar (merged): [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md) · [Rome sources](../../sources/rome/README.md)
 
 ## Return paths
 

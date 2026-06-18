@@ -36,7 +36,7 @@ Fall and fracture of imperial carry — [Entropy (Rome)](rome-entropy.md).
 ## Bridge
 
 - [Empire Rome](empire-rome.md)
-- [Geo-strategy Rome](geo-strategy-rome.md)
+- [Geo-strategy Rome](archive/geo-strategy-rome.md)
 
 ## Return paths
 

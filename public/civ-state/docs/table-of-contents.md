@@ -58,12 +58,12 @@ The classical hinge and transformed-continuity case.
 - [Pax Romana](../volumes/rome/introduction.md)
 - [Civilization](../volumes/rome/civilization-rome.md)
 - [Empire](../volumes/rome/empire-rome.md)
-- Sub-lenses: [geo-strategy](../volumes/rome/geo-strategy-rome.md) · [secret-history](../volumes/rome/secret-history-rome.md) · [game-theory](../volumes/rome/game-theory-rome.md)
+- Optional sub-lenses ([archive](../volumes/rome/archive/README.md)): [geo-strategy](../volumes/rome/archive/geo-strategy-rome.md) · [secret-history](../volumes/rome/archive/secret-history-rome.md) · [game-theory](../volumes/rome/archive/game-theory-rome.md)
 - Volume theory: [Rome theory shelf](../volumes/rome/rome-theory.md) — `rome-{term}.md` Roman law mirror
   - [rome-civilization](../volumes/rome/rome-civilization.md) · [rome-empire](../volumes/rome/rome-empire.md) · [rome-entropy](../volumes/rome/rome-entropy.md)
   - [rome-faith](../volumes/rome/rome-faith.md) · [rome-science](../volumes/rome/rome-science.md) · [rome-memory](../volumes/rome/rome-memory.md)
 - Source-lattice: [shelf reader](../volumes/rome/shelf-reader.md) · [bibliography](../sources/rome/bibliography.md)
-- Deep grammar: [Rome sacred grammar](../volumes/rome/sacred-grammar.md)
+- Deep grammar: [Rome theory — faith](../volumes/rome/rome-faith.md) · [civilization](../volumes/rome/rome-civilization.md) · [memory](../volumes/rome/rome-memory.md) (merged from sacred-grammar)
 
 ### Volume IV. Russia
 
