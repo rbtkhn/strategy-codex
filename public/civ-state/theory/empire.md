@@ -51,6 +51,10 @@ When imperial strain meets historical shock — war, revolution, famine, plague,
 
 The **amplifies** beat of [Memory — civilizational rhythm](memory.md#civilizational-rhythm) maps to empire-heavy phases — projection grows, universal claims widen, coercive carriage expands.
 
+## Volume depth (Rome)
+
+When **Rome** is the live case and **empire** governs, open [rome-empire.md](../volumes/rome/rome-empire.md). Roman law cross-cutting table: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects). Narrative: [Empire Rome](../volumes/rome/essays/empire-rome.md).
+
 ## Failure modes
 
 - **empire outrunning civilization** — instrument expands faster than legitimacy can bear; control degrades inheritance

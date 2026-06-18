@@ -48,7 +48,11 @@ Useful distinctions:
 
 ### Science
 
-[Science](science.md) can **codify** civilization — law codes, examination orders, administrative grammar that outlive dynasties. When inherited order is stored as procedure (Roman law, Chinese examination bureaucracy), civilization and science-order overlap without collapsing into empire. Roman law at Rome depth: [rome-civilization.md](../volumes/rome/rome-civilization.md) · [rome-science.md](../volumes/rome/rome-science.md).
+[Science](science.md) can **codify** civilization — law codes, examination orders, administrative grammar that outlive dynasties. When inherited order is stored as procedure (Roman law, Chinese examination bureaucracy), civilization and science-order overlap without collapsing into empire.
+
+## Volume depth (Rome)
+
+When **Rome** is the live case and **civilization** governs, open [rome-civilization.md](../volumes/rome/rome-civilization.md). Roman law cross-cutting table: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects). Narrative: [Civilization Rome](../volumes/rome/essays/civilization-rome.md).
 
 ## Failure modes
 

@@ -43,7 +43,7 @@ Covenant wound and forbidden restitution — [Memory (Rome)](rome-memory.md).
 
 ## Return paths
 
-- [Rome theory](rome-theory.md) · [Whole-work faith](../../theory/faith.md)
+- [Whole-work faith](../../theory/faith.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

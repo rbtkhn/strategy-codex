@@ -1,38 +1,13 @@
-# Rome — Volume-local theory
+# Rome — Volume-local theory (redirect)
 
-**Volume III** case lenses on the six governing terms. Comparative grammar: [whole-work theory shelf](../../theory/README.md). These pages mirror the [Roman law — cross-cutting table](../../theory/README.md#cross-cutting-objects) at Rome depth.
+Volume-local theory lenses are **orchestrated from the whole-work theory shelf** (v0.1.25+).
 
-Status: Active doctrine (Roman law mirror pilot)  
-Last updated: 2026-06-17
+**Descent path:**
 
-**Naming:** `rome-{term}.md` — volume theory lenses. Interpretive essays remain `{term}-rome.md` (e.g. [Civilization Rome](civilization-rome.md)).
+1. Open the load-bearing term on [theory/](../../theory/README.md) ([Governing term first](../../skills/governing-term-first.md))
+2. Use **Volume depth (Rome)** on that term page — or the [Roman law cross-cutting table](../../theory/README.md#cross-cutting-objects)
+3. Open the matching `rome-{term}.md` at volume root
 
-## When to open this shelf
+**Six lenses:** [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md) · [rome-faith](rome-faith.md) · [rome-science](rome-science.md) · [rome-memory](rome-memory.md)
 
-Open a whole-work term page first ([Governing term first](../../skills/governing-term-first.md)). Descend here when the **Rome case** must sharpen inheritance, carrier, or era placement — especially **Roman law** as a six-lens object, or **sacred grammar** (legitimacy substrate merged from the retired standalone file).
-
-**Statecraft relevance:** Rome teaches how law, universality, and sacred continuity can survive institutional mutation — most useful when the live question concerns successor-order legitimacy, transformed carriers, and residue that still organizes authority after territorial exhaustion.
-
-## Six files — Roman law mirror
-
-| Term | Page | Roman law — Rome lens |
-|------|------|------------------------|
-| civilization | [rome-civilization.md](rome-civilization.md) | Civilizational grammar — citizenship, civic order |
-| empire | [rome-empire.md](rome-empire.md) | Imperial jurisdiction — universal claim, provinces |
-| faith | [rome-faith.md](rome-faith.md) | Sacred authorization — natural law, canon |
-| science | [rome-science.md](rome-science.md) | Codification — *Corpus Juris Civilis*, jurists |
-| memory | [rome-memory.md](rome-memory.md) | Legal continuity — East/West, restitution |
-| entropy | [rome-entropy.md](rome-entropy.md) | Rupture — fall, schism; law without carry |
-
-Rhythm and era law: whole-work [Memory — Civilizational rhythm](../../theory/memory.md#civilizational-rhythm) · [Era law](../../theory/memory.md#era-law).
-
-## Volume prose bridge
-
-- [Pax Romana](introduction.md) · [Civilization Rome](civilization-rome.md) · [Empire Rome](empire-rome.md)
-- Sacred grammar (merged): [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md) · [Rome sources](../../sources/rome/README.md)
-
-## Return paths
-
-- [Rome volume front door](README.md)
-- [Volume map](../README.md)
-- [Whole-work theory](../../theory/README.md)
+Narrative prose: [essays/](essays/README.md). Archive copy of retired door: [archive/rome-theory.md](archive/rome-theory.md).

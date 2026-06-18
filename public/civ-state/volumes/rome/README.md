@@ -13,16 +13,16 @@ Primary source base: Rome source corpus
 **Opener Block**
 - Volume introduction: [Pax Romana](../../docs/introduction.md)
 - Deep grammar: Aeneas / Troy as mythic prehistory, with Roman law and civic order as civilizational grammar
-- Deep grammar retrieval: [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md) ([rome-theory](rome-theory.md))
+- Deep grammar retrieval: [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md) — via [theory shelf](../../theory/README.md#cross-cutting-objects)
 - Sovereign opening: Romulus as the foundational sovereign
 - Current carrier: Catholic Church
-- Civilization chapter: [Rome civilization](civilization-rome.md)
-- Empire chapter: [Rome empire](empire-rome.md)
+- Civilization chapter: [Rome civilization](essays/civilization-rome.md)
+- Empire chapter: [Rome empire](essays/empire-rome.md)
 - Shelf reader: [Rome shelf reader](shelf-reader.md)
 - Volume bibliography: [Rome bibliography](../../sources/rome/bibliography.md)
 - Sovereign continuity support note: Rome sovereign continuity
-- Optional sub-lenses: [archive](archive/README.md) — geo-strategy, secret-history, game-theory
-- Volume theory: [Rome theory shelf](rome-theory.md) — `rome-{term}.md` lenses (Roman law mirror pilot)
+- Optional sub-lenses: [essays](essays/README.md) — geo-strategy, secret-history, game-theory
+- Volume-local theory: `rome-{term}.md` — orchestrated from [whole-work theory](../../theory/README.md) (Roman law mirror pilot)
   - [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
   - [rome-faith](rome-faith.md) · [rome-science](rome-science.md) · [rome-memory](rome-memory.md)
 - Continuity state: Eastern Roman Empire as the indispensable continuity state

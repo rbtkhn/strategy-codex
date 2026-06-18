@@ -54,9 +54,9 @@ Six **governing terms** — open the term that is load-bearing first:
 
 Cross-case pattern library is **retired from the public theory shelf** (v0.1.12). Reader-facing replacement: [Cross-case recurrence and sovereignty](../essays/cross-case-recurrence-and-sovereignty.md).
 
-**Volume-local theory** — `{civ}-{term}.md` in `volumes/{civ}/` (not a subdirectory); link up to whole-work [theory](../theory/README.md).
+**Volume-local theory** — `{civ}-{term}.md` in `volumes/{civ}/`; **orchestrated from** whole-work [theory](../theory/README.md) — open the governing term page first, then **Volume depth** for the live case (Rome pilot: `rome-{term}.md`).
 
-**Pilot:** [Rome theory shelf](../volumes/rome/rome-theory.md) — `rome-{term}.md`; sacred grammar merged into faith · civilization · memory (v0.1.23).
+**Pilot:** Rome — `rome-{term}.md` orchestrated from [whole-work theory](../theory/README.md) (Roman law mirror). Interpretive essays under [Rome essays](../volumes/rome/essays/README.md) (v0.1.24).
 
 ## Sources shelf
 
@@ -80,6 +80,8 @@ volume introduction → civilization chapter → empire chapter
 ```
 
 Optional sub-lenses: geo-strategy, secret-history, game-theory.
+
+**Rome pilot (v0.1.24):** interpretive essays live under `volumes/rome/essays/`; `rome-{term}.md` lenses at volume root, **descended from** `theory/{term}.md` (v0.1.25).
 
 Each volume also carries:
 

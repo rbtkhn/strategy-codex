@@ -40,7 +40,7 @@ Expert class destroyed, courts collapsed — [Entropy (Rome)](rome-entropy.md).
 
 ## Return paths
 
-- [Rome theory](rome-theory.md) · [Whole-work science](../../theory/science.md)
+- [Whole-work science](../../theory/science.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

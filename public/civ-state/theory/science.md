@@ -47,6 +47,10 @@ Administrative and technical orders **fail** under [entropy](entropy.md) — pla
 
 **Law**, treaty, and constitution often touch all six terms — govern science first only when procedure, verification, or admin competence is load-bearing; otherwise widen from the governing page. Worked example: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects) (Roman law).
 
+## Volume depth (Rome)
+
+When **Rome** is the live case and **science** governs, open [rome-science.md](../volumes/rome/rome-science.md). Codification overlap with civilization: [rome-civilization.md](../volumes/rome/rome-civilization.md).
+
 ## Failure modes
 
 - **science without faith** — procedural order loses moral depth or meaningful limit

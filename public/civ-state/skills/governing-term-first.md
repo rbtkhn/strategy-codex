@@ -50,7 +50,10 @@ Six **governing terms** (whole-work SSOT: [theory/](../theory/README.md)):
 
 5. **Name the likely misread** — which layer gets flattened (legitimacy treated as force, instrument treated as inheritance, etc.).
 
-6. **Descend** to [volume map](../volumes/README.md) or [source-lattice-read](source-lattice-read.md) only after the governing term is named.
+6. **Descend** after the governing term is named:
+   - **Rome case depth** — **Volume depth (Rome)** on the governing term page, or [Cross-cutting objects](../theory/README.md#cross-cutting-objects) → `rome-{term}.md`
+   - **Volume or sources** — [volume map](../volumes/README.md) or [source-lattice-read](source-lattice-read.md)
+   - **Narrative prose** — volume `essays/` when chapters govern, not term diagnosis
 
 ## Return paths
 

@@ -47,7 +47,7 @@ Rupture distorting legal memory — [Entropy (Rome)](rome-entropy.md).
 
 ## Return paths
 
-- [Rome theory](rome-theory.md) · [Whole-work memory](../../theory/memory.md)
+- [Whole-work memory](../../theory/memory.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

@@ -24,5 +24,5 @@ Stay with the primary shelf when the issue is law, annalistic memory, constituti
 
 - Return to [Ancient primary sources](../primary/ancient.md) once the clarification or counterweight has been taken.
 - Return to the [Rome bibliography](../bibliography.md) for the rest of the Rome evidence stack.
-- Open [Rome civilization](../../../volumes/rome/civilization-rome.md) when the live question is legitimacy, universality, or category membership.
-- Open [Rome empire](../../../volumes/rome/empire-rome.md) when the live question is outward instrument, legal-imperial scale, or overreach.
+- Open [Rome civilization](../../../volumes/rome/essays/civilization-rome.md) when the live question is legitimacy, universality, or category membership.
+- Open [Rome empire](../../../volumes/rome/essays/empire-rome.md) when the live question is outward instrument, legal-imperial scale, or overreach.

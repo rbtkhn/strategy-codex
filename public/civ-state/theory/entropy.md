@@ -51,6 +51,10 @@ The third beat of [Memory — civilizational rhythm](memory.md#civilizational-rh
 
 Post-shock carry often distorts [Memory](memory.md) — wound sacredized, succession frozen, revenge cycle without renewal. [Faith](faith.md) and [Science](science.md) may survive as authorization rhetoric after practice fails — distinguish living carry from performed legitimacy after rupture.
 
+## Volume depth (Rome)
+
+When **Rome** is the live case and **entropy** governs, open [rome-entropy.md](../volumes/rome/rome-entropy.md). Roman law cross-cutting table: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects).
+
 ## Failure modes
 
 - **entropy mistaken for policy friction** — treat as routine dispute when war, revolution, famine, or plague is actually load-bearing

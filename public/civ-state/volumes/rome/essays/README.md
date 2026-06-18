@@ -1,0 +1,45 @@
+# Rome — Essays
+
+Volume-local **interpretive prose** for Civilizational Statecraft, Volume III — Rome.
+
+**Constitutional read order:**
+
+```text
+../introduction.md → civilization-rome.md → empire-rome.md
+```
+
+Optional sub-lenses open **after** Civilization and Empire when the seam needs the lens.
+
+**Doors (volume root):** [Rome volume](../README.md) · [Pax Romana](../introduction.md) · [theory shelf](../../../theory/README.md) · [shelf reader](../shelf-reader.md)
+
+## Constitutional essays
+
+| Essay | File | Role |
+|-------|------|------|
+| Civilization Rome | [civilization-rome.md](civilization-rome.md) | Part 1 — transformed continuity, civilizational form |
+| Empire Rome | [empire-rome.md](empire-rome.md) | Part 2 — outward machinery, incorporation, maintenance |
+
+## Optional sub-lenses
+
+Maturing interpretive chapters — open after Civilization and Empire:
+
+| Lens | File |
+|------|------|
+| Geo-strategy | [geo-strategy-rome.md](geo-strategy-rome.md) |
+| Secret-history | [secret-history-rome.md](secret-history-rome.md) |
+| Game-theory | [game-theory-rome.md](game-theory-rome.md) |
+
+## Keep at volume root
+
+| File | Why |
+|------|-----|
+| `README.md` | Volume spine and era blocks |
+| `introduction.md` | Constitutional door (Pax Romana) |
+| `shelf-reader.md` | Source-navigation apparatus |
+| `bibliography.md` | Redirect to `sources/rome/` |
+| `sacred-grammar.md` | Export-validator redirect stub |
+| `rome-{term}.md` (six lenses) | Theory case depth — orchestrated from [theory/](../../../theory/README.md) |
+
+## Archive
+
+Legacy and merged surfaces: [../archive/README.md](../archive/README.md).

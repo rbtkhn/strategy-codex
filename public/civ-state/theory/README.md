@@ -4,7 +4,7 @@ Whole-work governing shelf for *Civilizational Statecraft*. Read [Civilization a
 
 **Overlap is intentional.** Shared concepts appear in multiple term pages with different emphasis. Open the page whose **causal lens** matches the live object.
 
-Each volume will eventually carry **six** volume-local theory files as `{civ}-{term}.md` in `volumes/<civ>/`. **Pilot:** [Rome theory shelf](../volumes/rome/rome-theory.md) — Roman law mirror on six terms.
+Each volume will eventually carry **six** volume-local theory files as `{civ}-{term}.md` in `volumes/<civ>/`. **Pilot:** Rome — `rome-{term}.md` orchestrated from this shelf (Roman law mirror); open a whole-work term page first, then **Volume depth (Rome)** on that page or the cross-cutting table below.
 
 ## Civilizational Statecraft Framework
 
@@ -56,9 +56,9 @@ Some objects legitimately touch **all six terms** in full depth — law, treaty,
 | [memory](memory.md) | **Legal continuity** — succession of codes, East/West split, restitution of what must not be lost ([Rome — memory](../volumes/rome/rome-memory.md)) |
 | [entropy](entropy.md) | **Rupture** — western fall, reformation fracture, revolution; law as rhetoric without carry after shock ([Rome — entropy](../volumes/rome/rome-entropy.md)) |
 
-Rome shelf door: [rome-theory.md](../volumes/rome/rome-theory.md).
-
 Generic cross-cutting families: **law · treaty · constitution · corridor regime · succession compact**. See [Governing term first](../skills/governing-term-first.md) for the operational pick-one-then-widen pass.
+
+**Orchestration:** do not open a volume-local theory door before the governing term. Descend from the term page's **Volume depth (Rome)** section or from the row above.
 
 ## SSOT
 

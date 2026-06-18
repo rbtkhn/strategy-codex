@@ -49,6 +49,10 @@ Ask first:
 
 **Law**, treaty, and constitution often touch all six terms — govern faith first only when sacred or moral authorization is load-bearing; otherwise widen from the governing page. Worked example: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects) (Roman law).
 
+## Volume depth (Rome)
+
+When **Rome** is the live case and **faith** governs, open [rome-faith.md](../volumes/rome/rome-faith.md). Sacred grammar sections also on [rome-civilization.md](../volumes/rome/rome-civilization.md) · [rome-memory.md](../volumes/rome/rome-memory.md).
+
 ## Failure modes
 
 - **faith without science** — sacred order loses procedural competence or governability

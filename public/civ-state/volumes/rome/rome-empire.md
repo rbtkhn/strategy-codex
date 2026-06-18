@@ -35,12 +35,12 @@ Fall and fracture of imperial carry — [Entropy (Rome)](rome-entropy.md).
 
 ## Bridge
 
-- [Empire Rome](empire-rome.md)
-- [Geo-strategy Rome](archive/geo-strategy-rome.md)
+- [Empire Rome](essays/empire-rome.md)
+- [Geo-strategy Rome](essays/geo-strategy-rome.md)
 
 ## Return paths
 
-- [Rome theory](rome-theory.md) · [Whole-work empire](../../theory/empire.md)
+- [Whole-work empire](../../theory/empire.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

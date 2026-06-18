@@ -14,4 +14,4 @@ Civilization beautifies through law, citizenship, and imperial universality; emp
 
 **Failure mode to avoid:** reading Rome as dead antiquity, or as nostalgia detached from actual continuity carriers.
 
-**Read path:** [Civilization Rome](civilization-rome.md) → [Empire Rome](empire-rome.md) → optional [geo-strategy](archive/geo-strategy-rome.md), [secret-history](archive/secret-history-rome.md), [game-theory](archive/game-theory-rome.md). Source shelf: [shelf reader](shelf-reader.md).
+**Read path:** [Civilization Rome](essays/civilization-rome.md) → [Empire Rome](essays/empire-rome.md) → optional [geo-strategy](essays/geo-strategy-rome.md), [secret-history](essays/secret-history-rome.md), [game-theory](essays/game-theory-rome.md). Source shelf: [shelf reader](shelf-reader.md).

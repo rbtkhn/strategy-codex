@@ -39,13 +39,13 @@ Legal continuity across East/West split — see [Memory (Rome)](rome-memory.md).
 
 ## Bridge
 
-- [Civilization Rome](civilization-rome.md)
+- [Civilization Rome](essays/civilization-rome.md)
 - [Faith (Rome)](rome-faith.md) — legitimating image
 - [Cross-cutting objects — Roman law](../../theory/README.md#cross-cutting-objects)
 
 ## Return paths
 
-- [Rome theory](rome-theory.md) · [Whole-work civilization](../../theory/civilization.md)
+- [Whole-work civilization](../../theory/civilization.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

@@ -57,6 +57,10 @@ Historical shocks — war, revolution, plague, famine — often **distort** memo
 
 [Science](science.md) can **administer** memory — archives, census, succession law, cybernetic identity rails. When continuity is stored procedurally rather than narratively, science-order may carry what looks like a memory read; distinguish living succession from database persistence.
 
+## Volume depth (Rome)
+
+When **Rome** is the live case and **memory** governs, open [rome-memory.md](../volumes/rome/rome-memory.md). Rhythm and era law remain on this whole-work page — [Civilizational rhythm](#civilizational-rhythm) · [Era law](#era-law).
+
 ## Civilizational rhythm
 
 **Civilizational motion** names how inherited form and outward instrument move together across cases — not a flat rise-and-fall cycle. Read [Civilization and Empire](../docs/introduction.md) for the opening essay.

@@ -39,12 +39,12 @@ Inheritance rhetoric without carry — [Civilization (Rome)](rome-civilization.m
 
 ## Bridge
 
-- [Secret-history Rome](archive/secret-history-rome.md)
-- [Empire Rome](empire-rome.md) — maintenance exhaustion
+- [Secret-history Rome](essays/secret-history-rome.md)
+- [Empire Rome](essays/empire-rome.md) — maintenance exhaustion
 
 ## Return paths
 
-- [Rome theory](rome-theory.md) · [Whole-work entropy](../../theory/entropy.md)
+- [Whole-work entropy](../../theory/entropy.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

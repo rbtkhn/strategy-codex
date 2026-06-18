@@ -1,6 +1,6 @@
 # Sacred Grammar (redirect)
 
-Volume-local legitimacy grammar for Rome is merged into **Rome theory** (v0.1.23+).
+Volume-local legitimacy grammar for Rome is merged into **rome-{term}** theory lenses (v0.1.23+).
 
 **Primary doors:**
 
@@ -8,4 +8,4 @@ Volume-local legitimacy grammar for Rome is merged into **Rome theory** (v0.1.23
 - [rome-civilization.md](rome-civilization.md) — core civic-sacral grammar
 - [rome-memory.md](rome-memory.md) — continuity through rupture, sovereignty chain
 
-Shelf index: [rome-theory.md](rome-theory.md). Archive copy: [archive/sacred-grammar.md](archive/sacred-grammar.md).
+Orchestration: [theory shelf](../../theory/README.md#cross-cutting-objects). Archive copy: [archive/sacred-grammar.md](archive/sacred-grammar.md).

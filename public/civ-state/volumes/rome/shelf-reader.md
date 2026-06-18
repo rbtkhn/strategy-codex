@@ -35,7 +35,7 @@ Switchboard rule:
 
 - Open the [Rome bibliography](../../sources/rome/bibliography.md) for era entry and source doors (shelves live under [../../sources/rome/](../../sources/rome/README.md)).
 - Open the era-matched `secondary-sources` file from the bibliography when chronology, transformed-continuity interpretation, or counterweight is the real need rather than direct source descent alone.
-- Open [Rome civilization](civilization-rome.md) if the live question is legitimacy, continuity, or category membership.
-- Open [Rome empire](empire-rome.md) if the live question is universality, projection, or imperial residue.
-- Open [Rome empire](empire-rome.md) if the live question is present-tense successor-order comparison.
+- Open [Rome civilization](essays/civilization-rome.md) if the live question is legitimacy, continuity, or category membership.
+- Open [Rome empire](essays/empire-rome.md) if the live question is universality, projection, or imperial residue.
+- Open [Rome empire](essays/empire-rome.md) if the live question is present-tense successor-order comparison.
 - Return to [Cross-case recurrence and sovereignty](../../essays/cross-case-recurrence-and-sovereignty.md) or the [theory shelf](../../theory/README.md) only after the Roman shelf has been read as transformed continuity.
