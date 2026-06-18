@@ -4,24 +4,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `6`
+- Source files: `7`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (4), `substack-post` (1), `transcript` (1)
-- Source form mix: `interview` (4), `newsletter` (1), `solo` (1)
+- Body kind mix: `cleaned-transcript` (5), `substack-post` (1), `transcript` (1)
+- Source form mix: `interview` (5), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `5`
 - Distinct hosts: `4`
-- Distinct guests: `5`
-- Distinct threads: `8`
+- Distinct guests: `6`
+- Distinct threads: `9`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (2), `Alexander Mercouris` (1), `Breaking Points` (1), `Mario Nawfal` (1), `escalationtrap.substack.com` (1)
+- `Dialogue Works` (3), `Alexander Mercouris` (1), `Breaking Points` (1), `Mario Nawfal` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Breaking Points` (1), `Robert Pape` (1)
-- Guests: `Larry Johnson` (1), `Pepe Escobar` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1)
-- Threads: `nima` (2), `pape` (2), `escobar` (1), `johnson` (1), `marandi` (1), `mercouris` (1), `nawfal` (1), `parsi` (1)
+- Hosts: `Nima Alkhorshid` (3), `Alexander Mercouris` (1), `Breaking Points` (1), `Robert Pape` (1)
+- Guests: `Anthony Aguilar` (1), `Larry Johnson` (1), `Pepe Escobar` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1)
+- Threads: `nima` (3), `pape` (2), `aguilar` (1), `escobar` (1), `johnson` (1), `marandi` (1), `mercouris` (1), `nawfal` (1), `parsi` (1)
 
 ## Ingest register
 
@@ -30,6 +30,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | Guest / voice | Show | Thread | YouTube |
 | --- | --- | --- | --- |
 | Alexander Mercouris | Mercouris | `mercouris` | [I9CnSQlcmU4](https://www.youtube.com/watch?v=I9CnSQlcmU4) |
+| Anthony Aguilar | Dialogue Works | `aguilar`, `nima` | [P1ZvwC2YWtI](https://www.youtube.com/watch?v=P1ZvwC2YWtI) |
 | Larry Johnson, Seyed M. Marandi | Dialogue Works | `johnson`, `marandi`, `nima` | [pDVwed9QDRk](https://www.youtube.com/watch?v=pDVwed9QDRk) |
 | Pepe Escobar | Dialogue Works | `escobar`, `nima` | [bhlKeCbwWOo](https://www.youtube.com/watch?v=bhlKeCbwWOo) |
 | Trita Parsi | Mario Nawfal | `parsi`, `nawfal` | [qlnq3I7QVr4](https://www.youtube.com/watch?v=qlnq3I7QVr4) |
@@ -39,6 +40,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 ## Files
 
 - `source-alex-mercouris-russia-china-energy-pos2-russian-navy-stuns-uk-eu-sanctions-2026-06-17.md`
+- `source-alkorshid-anthony-aguilar-idf-orders-massive-khiam-lebanon-withdrawal-2026-06-17.md`
 - `source-alkorshid-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md`
 - `source-alkorshid-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md`
 - `source-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md`
