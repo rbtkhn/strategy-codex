@@ -42,6 +42,13 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
+  - name: recursive-learning
+    source: recursive-learning/SKILL.md
+    appendix: .cursor/skills/recursive-learning/CURSOR_APPENDIX.md
+    target: .cursor/skills/recursive-learning/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
   - name: repo-feedback-prompt
     source: repo-feedback-prompt/SKILL.md
     appendix: .cursor/skills/repo-feedback-prompt/CURSOR_APPENDIX.md

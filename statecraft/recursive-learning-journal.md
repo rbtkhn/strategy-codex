@@ -6,6 +6,8 @@ Purpose: keep a durable log of moments when `statecraft/` does not merely classi
 
 This is not a source-memory substrate and not a speaker shelf. It is a downstream statecraft journal of governed learning events.
 
+**Skill:** [recursive-learning](../../.cursor/skills/recursive-learning/SKILL.md) — session review and append workflow.
+
 ## Entry Shape
 
 Each entry should answer:

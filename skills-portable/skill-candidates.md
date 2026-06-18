@@ -21,6 +21,7 @@
 
 | Date | Working name | Trigger | Pointer |
 |------|--------------|---------|---------|
+| 2026-06-17 | recursive-learning | *(promoted)* — use skill **`recursive-learning`** (`.cursor/skills/recursive-learning/SKILL.md`); triggers `recursive learning`, `RLJ`, `session review through recursive learning` | `skills-portable/recursive-learning/SKILL.md` + manifest |
 | 2026-06-13 | voice-profile-panel | *(promoted)* — use skill **`voice-profile-panel`** (`.cursor/skills/voice-profile-panel/SKILL.md`); triggers `voice profile panel`, `profile smoke test`, `triad roundtable demo` | `skills-portable/voice-profile-panel/SKILL.md` + manifest · triad §8 |
 | 2026-06-09 | wire-verify v1.5.1 corpus tiers | *(refinement)* — source-lattice **corpus tiers 1–4**; wire-verify = tier **3** only; sub-tiers **3a/3b/3c** (legacy T1/T2/T3); tier **4** = commentary fence | `docs/source-lattice-beyond-the-repo.md` · `WIRE-VERIFY-CIV-STATE-SOURCES.md` · `skills-portable/wire-verify/SKILL.md` v1.5.1 |
 | 2026-06-09 | wire-verify v1.5 sub-hook pass | *(refinement on promoted skill)* — `wire verify — full mesh` vs `intent only`; denial-duel rows (involvement / intent / executive vs investigative); sweep execution checklist; Araghchi X = 3c not Persia 3a | commit `7a6e2d8bd`; Apache S2 session; SSOT `skills-portable/wire-verify/SKILL.md` v1.5.0 |

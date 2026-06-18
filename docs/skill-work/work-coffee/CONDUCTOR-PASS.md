@@ -141,6 +141,8 @@ Cadence lines alone are **insufficient** to store *what* improved in the work. *
 
 **Preferred compact close:** For routine passes, favor the shorter shape `Object -> What moved / seam -> Falsify / next test -> Next wedge` over a longer reflective block. If a movement was satisfied in chat only, label it as **behavioral/non-durable** rather than implying that it left a notebook or cadence close. Only notebook anchors and `coffee_conductor_outcome` lines count as durable closes.
 
+**Machine law vs arc scoring:** Extracted **machine law** (routing, repair, stopping rules) → [recursive-learning skill](../../../.cursor/skills/recursive-learning/SKILL.md) + [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md). Conductor **arc scoring** and benchmark windows → [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-impact-journal.md).
+
 **SSOT (layer map, mermaid, gate boundary):** [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md). **Not** Record; **not** a substitute for full **EOD** `strategy page` when the day needs a real compose.
 
 ---

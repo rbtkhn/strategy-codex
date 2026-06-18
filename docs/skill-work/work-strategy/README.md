@@ -15,6 +15,7 @@ The **`skill-strategy` skill is dissolved** ([SKILL-STRATEGY-DEPRECATED.md](SKIL
 | Say this | Load |
 |----------|------|
 | **`strategy`** / **`strategy pass`** | DEFAULT-PATH.md |
+| **`recursive learning`** / **`RLJ`** / session review through RLJ | [recursive-learning skill](../../../.cursor/skills/recursive-learning/SKILL.md) → journal SSOT first |
 | **`strategy page` / compose** | STRATEGY-NOTEBOOK-ARCHITECTURE.md EOD section |
 | **`strategy + verify`** | wire-verify / fact-check |
 | **`strategy write`** | skill-write + codex substance |

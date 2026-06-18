@@ -1,6 +1,6 @@
 # Coffee — menu and protocol reference
 
-**Canonical Step 2 menu (strategy-codex):** **four** hub lines - **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. **C. Statecraft** activates the WORK-only repo-root [statecraft](../../../statecraft/README.md) router-first front door: `Deploy / Compact / Speaker-Bridge / Lane Direct`, with the transcript-grounded lane intake menu appearing only after `D. Lane Direct`. **D. Singularity** activates the WORK-only singularity-academy module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). **Conductor** is standalone only and opens by master name, `conductor`, or the conductor skill; it is not a coffee hub letter.
+**Canonical Step 2 menu (strategy-codex):** **four** hub lines - **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. **C. Statecraft** activates the WORK-only repo-root [statecraft](../../../statecraft/README.md) router-first front door: `Deploy / Compact / Speaker-Bridge / Lane Direct`, with the transcript-grounded lane intake menu appearing only after `D. Lane Direct`. **D. Singularity** activates the WORK-only singularity-academy module at [Singularity Workshop](../../../codex/academy/singularity/workshop/README.md). **Conductor** is standalone only and opens by master name, `conductor`, or the conductor skill; it is not a coffee hub letter. **Recursive learning** is standalone only: `recursive learning`, `RLJ`, or [recursive-learning skill](../../../.cursor/skills/recursive-learning/SKILL.md); not a coffee hub letter.
 
 **Deprecation guard:** `companion-self` template sync and Grace-Mar-vs-template reconciliation are legacy/archive lanes in strategy-codex. Do not invoke them from bare **A. Steward**, `coffee`, integrity, or boundary hygiene unless the operator explicitly asks for that obsolete migration context.
 
@@ -239,6 +239,7 @@ After **`A — Steward`** (legacy tables below may still say **`B`** or **`E —
 | **C** | Brief + strategy carryover only if **C** chosen; optional pointer to the next brief / strategy day. |
 | **D** | **Singularity** - singularity-academy module; use the workshop workflow and preserve WORK-only boundaries. |
 | **Conductor** | standalone only | direct activation | `conductor`, master name, or bare slug; not part of the coffee hub. |
+| **Recursive learning** | standalone only | direct activation | `recursive learning`, `RLJ`, or [recursive-learning skill](../../../.cursor/skills/recursive-learning/SKILL.md); not part of the coffee hub. |
 
 ---
 
