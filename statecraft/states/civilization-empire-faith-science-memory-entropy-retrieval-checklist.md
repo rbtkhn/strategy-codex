@@ -5,7 +5,7 @@ Surface: WORK — strategy-codex workshop
 Purpose: bounded six-term retrieval before lane translation or clause drafting  
 Last updated: 2026-06-15
 
-**Ship-bound theory SSOT:** [`public/civ-state/theory/`](../../public/civ-state/theory/README.md) — edit theory prose there, not in this workshop tree.
+**Ship-bound theory SSOT:** [`public/civ-state/theory/`](../../public/civ-state/theory/README.md) — edit theory prose there for the public book.
 
 **v0.1.16 alignment:** rhythm and era law on **memory** only; six-file theory shelf. **v0.1.15:** entropy = historical shocks; desire/overreach → empire.
 

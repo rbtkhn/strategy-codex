@@ -1,6 +1,6 @@
 ﻿# China
 
-**Civilizational Statecraft**, Volume I. Volume introduction: [Mandate of Heaven](../../docs/introduction.md). `civ-state-china` is the workshop folder slug—not the book title.
+**Civilizational Statecraft**, Volume I. Volume introduction: [Mandate of Heaven](../../docs/introduction.md). `civ-state-china` is the volume path slug—not the book title.
 
 China is a live lane-backed volume. Use it when the civilizational problem is order, continuity, mandate, anti-humiliation recovery, industrial rhythm, or long-horizon leverage.
 

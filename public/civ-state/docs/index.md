@@ -19,7 +19,7 @@ Use this as the whole-work index for Civilizational Statecraft. It is biased tow
 - China - [Volume I](../volumes/china/README.md)
 - [Civilization and Empire](introduction.md) — opening essay for Civilizational Statecraft (not the book title)
 - Civilizational Statecraft — book title; see [Names and titles](reader-guide.md#names-and-titles)
-- civ-state — workshop/repo slug; not the book title — [Glossary](glossary.md#civ-state)
+- civ-state — repo/volume path slug; not the book title — [Glossary](glossary.md#civ-state)
 - civilization-state - [Glossary](glossary.md)
 - civilizational entropy - [Civilization and Empire](introduction.md)
 - Civilizational Statecraft Framework - [theory/README.md](../theory/README.md) ([Civilization](../theory/civilization.md) · [Empire](../theory/empire.md) · [Entropy](../theory/entropy.md) · [Faith](../theory/faith.md) · [Science](../theory/science.md) · [Memory](../theory/memory.md))

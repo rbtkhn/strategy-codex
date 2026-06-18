@@ -70,7 +70,7 @@ def write_receipt(upstream_sha: str, branch: str) -> None:
         f"- **Inbound sync:** `scripts/sync_public_civ_state_mirror.py`\n"
         f"- **Outbound publish:** `scripts/publish_public_civ_state.py`\n\n"
         "Workspace staging copy of public Civilizational Statecraft. "
-        "Edit only under `public/civ-state/` in the upstream workshop; "
+        "Edit ship-bound prose only under `public/civ-state/`; "
         "push to GitHub only via the publish script.\n"
     )
     (MIRROR_DIR / RECEIPT_NAME).write_text(text, encoding="utf-8")

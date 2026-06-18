@@ -1,6 +1,6 @@
 ﻿# Russia
 
-**Civilizational Statecraft**, Volume IV. Volume introduction: [The Third Rome](../../docs/introduction.md). `civ-state-russia` is the workshop folder slug—not the book title.
+**Civilizational Statecraft**, Volume IV. Volume introduction: [The Third Rome](../../docs/introduction.md). `civ-state-russia` is the volume path slug—not the book title.
 
 Russia is a live lane-backed volume. Use it when the problem is strategic depth, recognition, sovereignty under encirclement pressure, imperial inheritance, or disruption without overbind.
 

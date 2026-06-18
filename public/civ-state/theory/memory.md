@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: govern reads where continuity, temporal carry, phase placement, or era shelf choice is load-bearing  
-Last updated: 2026-06-15
+Last updated: 2026-06-17
 
 **Desire** is retired as a governing term. Appetite, spectacle, and compensatory overreach → [Empire](empire.md).
 
@@ -49,7 +49,15 @@ If behavior feels excessive or theatrical while the civilizational read is clear
 
 Historical shocks — war, revolution, plague, famine — often **distort** memory: wound sacredized, succession frozen, revenge cycle without renewal. The **degrades** beat often surfaces as historical [entropy](entropy.md). [Memory](memory.md) without renewal stays a **memory** read (grievance theater, paralysis), not a substitute for naming the shock on [Entropy](entropy.md).
 
-### Civilizational rhythm
+### Faith
+
+[Faith](faith.md) often **sacralizes** memory — covenant, martyrdom, mandate lost and restored, forbidden humiliation. When wound becomes orthodoxy without renewal, read faith + memory together before widening to empire or entropy.
+
+### Science
+
+[Science](science.md) can **administer** memory — archives, census, succession law, cybernetic identity rails. When continuity is stored procedurally rather than narratively, science-order may carry what looks like a memory read; distinguish living succession from database persistence.
+
+## Civilizational rhythm
 
 **Civilizational motion** names how inherited form and outward instrument move together across cases — not a flat rise-and-fall cycle. Read [Civilization and Empire](../docs/introduction.md) for the opening essay.
 
@@ -69,7 +77,7 @@ The three verbs map to three governing terms — full definitions live on those 
 
 The rhythm is **recurrent**, not a closed loop. After degradation, cases may rupture, mutate into residue, or reconstitute under strain. Do not assume automatic return to beautifying on the same carrier.
 
-### Era law
+## Era law
 
 Era cuts are **form-historical**: they mark shifts in how inherited order, outward instrument, and present carrier are carried — not merely calendar dates.
 
@@ -101,7 +109,7 @@ Late opening ≠ weaker civilization-state seriousness. Per-volume coverage: [Er
 
 Name governing term and beat before era file descent.
 
-### Retrieval movement
+## Retrieval movement
 
 Descent after motion is named:
 

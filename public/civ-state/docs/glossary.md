@@ -52,7 +52,7 @@ The shared form-historical spine — Ancient → Medieval → Colonial → Indus
 
 ### civ-state
 
-The **workshop folder slug** and GitHub repository name for the source-memory substrate. Operators use it for paths and export; **readers** should say **Civilizational Statecraft** for the book.
+The **volume path prefix** and GitHub repository name for Civilizational Statecraft. Operators use it for paths; **readers** should say **Civilizational Statecraft** for the book.
 
 ### Volume introduction
 

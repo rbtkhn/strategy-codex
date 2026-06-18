@@ -30,7 +30,7 @@ Civilizational Statecraft comparative book (five volumes + appendix).
 
 **Ship:** `python scripts/publish_public_civ_state.py -m "…" --push`
 
-**Not the public edit surface:** `statecraft/states/` — operator workshop (draft analysis, promotion, game-substrate, review packets). Material there does not ship until it lands in `public/civ-state/` and passes publish.
+**Not the public edit surface:** anything outside `public/civ-state/` for ship-bound prose — including `statecraft/states/`, which is operator statecraft substrate, **not** an upstream or workshop layer for the public book.
 
 Full boundary: [civilizational-statecraft-external-boundary.md](civilizational-statecraft-external-boundary.md)
 
@@ -41,14 +41,8 @@ Full boundary: [civilizational-statecraft-external-boundary.md](civilizational-s
 | **Orthogonal artifacts** | Two public books, two remotes, two staging folders |
 | **Zero cross-reference (published)** | No URLs, PH IDs, bridge pages, or shared reader navigation in shipped civ-state copy |
 | **No folder bridge** | Nothing under `public/ph-civ/` links into `public/civ-state/` (or reverse) in reader-facing ship |
-| **Workshop-only promotion** | `ph-civ-to-civ-state-bridge.md`, promotion ledger — compress insight for operator use; **not** a public-tree pipe |
+| **Operator bridges stay internal** | `ph-civ-to-civ-state-bridge.md`, promotion ledger — operator routing only; **not** a public-tree pipe |
 | **Symmetric edit law** | Each corpus edited only in its own `public/<artifact>/` tree |
-
-One-way substance flow at the **workshop** layer (optional, not automatic):
-
-```text
-ph-civ exposes → operator promotes in statecraft/states/ → lands in public/civ-state/ → publish
-```
 
 ## strategy-codex role
 
@@ -56,7 +50,7 @@ ph-civ exposes → operator promotes in statecraft/states/ → lands in public/c
 |----------|---------------------|---------|
 | ph-civ | `public/ph-civ/` | `publish_public_ph_civ.py --push` |
 | civ-state | `public/civ-state/` | `publish_public_civ_state.py --push` |
-| statecraft workshop | `statecraft/states/` (non-ship) | — |
+| statecraft operator | `statecraft/states/` (non-ship; separate from public civ-state) | — |
 | statecraft ops | lanes, archive, synthesis | never wholesale |
 
 ## Commands
@@ -73,13 +67,12 @@ python scripts/check_academy_mirror_sync.py
 
 ```powershell
 python scripts/sync_public_civ_state_mirror.py
-python scripts/export_civilizational_statecraft_public.py
-python scripts/validate_civilizational_statecraft_public.py
+python scripts/validate_civilizational_statecraft_public.py public/civ-state
 python scripts/publish_public_civ_state.py -m "…" --push
 python scripts/check_academy_mirror_sync.py --mirror civ-state
 ```
 
-Optional `export_civilizational_statecraft_public.py` promotes workshop → `public/civ-state/`; daily edits belong in `public/civ-state/` directly. Legacy bucket `artifacts/civilizational-statecraft-public/` is retired — see [README-STAGING.md](../artifacts/civilizational-statecraft-public/README-STAGING.md).
+Legacy `export_civilizational_statecraft_public.py` is migration/reshape residue only — not daily edit. Legacy bucket `artifacts/civilizational-statecraft-public/` is retired — see [README-STAGING.md](../artifacts/civilizational-statecraft-public/README-STAGING.md).
 
 ## Related
 

@@ -74,7 +74,7 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 
 ## Provenance
 
-Exported from the governed upstream workshop via `export_civilizational_statecraft_public.py`. Canonical public edits land in this repository; the workshop drafts upstream and re-exports on tagged releases.
+Maintained in the strategy-codex staging mirror at `public/civ-state/` and published to this repository via explicit publish script. Canonical public edits land here directly — not via a separate upstream draft tree.
 
 See [FOUNDING-PROVENANCE.md](docs/FOUNDING-PROVENANCE.md) for the reshape from the legacy helix-lane public cut.
 

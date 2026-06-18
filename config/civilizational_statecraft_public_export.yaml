@@ -4,7 +4,7 @@ schema_version: "1.0.0"
 release_tag: "v0.1.16"
 # Ship-bound theory SSOT: public/civ-state/theory/ — edit there for reader-facing theory prose.
 # Ship-bound sources SSOT: public/civ-state/sources/ — source-lattice + per-civ era shelves.
-# source_root is workshop promotion residue only; not the daily edit surface.
+# source_root — legacy migration residue only; not the public book edit surface.
 canonical_public_repo: "https://github.com/rbtkhn/civ-state"
 legacy_public_repo: "https://github.com/rbtkhn/civ-emp"
 
@@ -65,7 +65,7 @@ apparatus:
   - src: hybrid-references.md
     dest: docs/hybrid-references.md
     transform: hybrid_references_public
-  # theory/* — v0.1.12+: ship-bound SSOT is public/civ-state/theory/ (not promoted from workshop)
+  # theory/* — v0.1.12+: ship-bound SSOT is public/civ-state/theory/ (edit there directly)
   - src: essays/high-skill-labor-compression-and-civilizational-statecraft.md
     dest: essays/high-skill-labor-compression-and-civilizational-statecraft.md
     transform: high_skill_public

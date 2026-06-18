@@ -18,7 +18,7 @@ Legacy public cut from **`rbtkhn/civ-emp`** (now **`rbtkhn/civ-state`**) before 
 
 ## Salvage matrix
 
-Helix-lane v1 content maps to book-first surfaces in the upstream workshop salvage matrix (operator doc, not published here).
+Helix-lane v1 content maps to book-first surfaces in the legacy salvage matrix (not published here).
 
 ## Redirect
 

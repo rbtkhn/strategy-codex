@@ -4,13 +4,13 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
-**v0.1.16** — rhythm and time merged under memory (six-file theory shelf).
+**v0.1.20** — Rome volume-local theory — Roman law mirror on six terms.
 
 ## Timeline
 
 ### Founding cut (helix-lane v1)
 
-- Exported from the upstream workshop as `rbtkhn/civ-emp` — helix-first operator corpus (lanes, strands, transactions, orientation routers).
+- Exported as `rbtkhn/civ-emp` — helix-first operator corpus (lanes, strands, transactions, orientation routers).
 - Preserved under [archive/helix-lane-v1](../archive/helix-lane-v1/README.md).
 
 ### Repo rename
@@ -33,7 +33,7 @@ Whole-work theory **SSOT:** `theory/`
 | `theory/form.md` | `theory/civilization.md` · `theory/empire.md` |
 | `theory/truth.md` | `theory/faith.md` · `theory/science.md` |
 | `theory/continuity.md` | [Cross-case recurrence essay](../essays/cross-case-recurrence-and-sovereignty.md) |
-| `theory/patterns/*` | Same essay; operator archive in upstream workshop |
+| `theory/patterns/*` | Same essay; pattern library retired from public shelf |
 | Governing term **desire** | **entropy** (behavioral overreach in `theory/entropy.md`) — **superseded v0.1.15** → [empire](../theory/empire.md) |
 
 Each term page carries a **Causal connections** section. Pattern library retired from the public shelf.
@@ -49,6 +49,42 @@ Whole-work **entropy** SSOT: [`theory/entropy.md`](../theory/entropy.md)
 | desire → entropy (behavioral) | desire → empire |
 
 Historical causes and manifestations: war, revolution, disease, famine, ecological disaster, compound shocks.
+
+### v0.1.20 — Rome theory Roman law mirror
+
+| Change | Detail |
+|--------|--------|
+| `volumes/rome/theory/*.md` | Each term page expanded from whole-work cross-cutting Roman law row |
+| `volumes/rome/theory/README.md` | Mirror table + navigation |
+
+### v0.1.19 — Rome volume-local theory (skeleton)
+
+| Change | Detail |
+|--------|--------|
+| `volumes/rome/theory/` | Six term stubs + README — thin bridge to whole-work theory and Rome essays |
+| Navigation | Volume README, volume map, book architecture, TOC wired |
+
+### v0.1.18 — cross-cutting objects
+
+Whole-work theory **SSOT:** [`theory/README.md`](../theory/README.md#cross-cutting-objects)
+
+| Change | Detail |
+|--------|--------|
+| Cross-cutting objects | Law, treaty, constitution, corridor regime — all six lenses; govern one first |
+| Worked example | Roman law — one row per governing term |
+| `faith.md` · `science.md` | Symmetric See also; cross-cutting pointer |
+| `civilization.md` | Pointer from science/codification link |
+
+### v0.1.17 — theory causal-connection mesh
+
+Whole-work theory **SSOT:** six files in `theory/` — cross-term links deepened; rhythm, era law, and retrieval movement promoted to `##` sections on [`memory.md`](../theory/memory.md).
+
+| Change | Detail |
+|--------|--------|
+| Boundary | `statecraft/states/` is **not** upstream/workshop for `public/civ-state/` — orthogonal operator substrate |
+| `memory.md` | `#civilizational-rhythm`, `#era-law`, `#retrieval-movement` as top-level sections |
+| `faith.md` · `science.md` | Causal connections to empire, memory, civilization, entropy |
+| `civilization.md` · `empire.md` | Missing cross-links added |
 
 ### v0.1.16 — rhythm and time under memory
 
@@ -94,7 +130,7 @@ Thin **redirect stubs** remain at retired repo-root paths (e.g. `introduction.md
 | Volume interpretive prose | `volumes/{civ}/` |
 | Docs contracts | `docs/` |
 
-Upstream workshop analysis and operator archive are **not** dual SSOT for public ship-bound prose. Publish to [rbtkhn/civ-state](https://github.com/rbtkhn/civ-state) from tagged releases on the public tree.
+Edit ship-bound prose in `public/civ-state/` only. Publish to [rbtkhn/civ-state](https://github.com/rbtkhn/civ-state) from tagged releases on the public tree.
 
 ## Export
 

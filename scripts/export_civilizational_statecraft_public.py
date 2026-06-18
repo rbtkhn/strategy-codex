@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Export Civilizational Statecraft public book from statecraft/states/.
+Export Civilizational Statecraft public book (legacy migration / bulk reshape only).
 
-Primary edit surface is `public/civ-state/` (sync/publish scripts). Use this
-export to promote workshop residue into that tree when needed — not for daily ship.
+Primary edit surface is `public/civ-state/` (sync/publish scripts). Do not use this
+export for daily ship-bound edits. Historical `source_root` paths are migration residue.
 
 Usage:
   python scripts/export_civilizational_statecraft_public.py

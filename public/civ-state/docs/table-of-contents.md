@@ -59,6 +59,7 @@ The classical hinge and transformed-continuity case.
 - [Civilization](../volumes/rome/civilization-rome.md)
 - [Empire](../volumes/rome/empire-rome.md)
 - Sub-lenses: [geo-strategy](../volumes/rome/geo-strategy-rome.md) · [secret-history](../volumes/rome/secret-history-rome.md) · [game-theory](../volumes/rome/game-theory-rome.md)
+- Volume theory: [Rome theory shelf](../volumes/rome/theory/README.md) — Roman law mirror pilot
 - Source-lattice: [shelf reader](../volumes/rome/shelf-reader.md) · [bibliography](../sources/rome/bibliography.md)
 - Deep grammar: [Rome sacred grammar](../volumes/rome/sacred-grammar.md)
 
@@ -136,14 +137,16 @@ Whole-work reader apparatus and reference contracts — [Docs index](README.md).
 
 ### Theory shelf
 
-[Governing terms](../theory/README.md) — six terms; rhythm and era law on [Memory](../theory/memory.md).
+[Six governing terms](../theory/README.md). Rhythm and era law are **sections on Memory**, not separate pages — listed below as explicit sub-entries for navigation.
 
 13. [Civilization](../theory/civilization.md)
 14. [Empire](../theory/empire.md)
 15. [Entropy](../theory/entropy.md)
 16. [Faith](../theory/faith.md)
 17. [Science](../theory/science.md)
-18. [Memory](../theory/memory.md) — continuity, [civilizational rhythm](../theory/memory.md#civilizational-rhythm), [era law](../theory/memory.md#era-law)
+18. [Memory](../theory/memory.md) — continuity, wound, retrieval entry
+19. [Memory — Civilizational rhythm](../theory/memory.md#civilizational-rhythm) — beautify → amplify → degrade
+20. [Memory — Era law](../theory/memory.md#era-law) — Ancient → Cybernetic; see also [Era spine](era-spine.md)
 
 ### Sources shelf
 
@@ -151,13 +154,13 @@ Evidence layer — [Sources index](../sources/README.md) · [Source-Lattice](../
 
 ### Essays
 
-19. [Cross-case recurrence and sovereignty](../essays/cross-case-recurrence-and-sovereignty.md)
-20. [High-skill labor compression](../essays/high-skill-labor-compression-and-civilizational-statecraft.md)
-21. [Hormuz recognition / transit restraint](../essays/hormuz-recognition-transit-restraint.md)
+21. [Cross-case recurrence and sovereignty](../essays/cross-case-recurrence-and-sovereignty.md)
+22. [High-skill labor compression](../essays/high-skill-labor-compression-and-civilizational-statecraft.md)
+23. [Hormuz recognition / transit restraint](../essays/hormuz-recognition-transit-restraint.md)
 
 ### Volume map
 
-22. [Volume Map](../volumes/README.md) — constitutional order across all five cases
+24. [Volume Map](../volumes/README.md) — constitutional order across all five cases
 
 ## Retrieval Order
 

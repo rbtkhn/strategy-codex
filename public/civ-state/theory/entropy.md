@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: govern reads where war, revolution, disease, famine, ecological disaster, or compound shocks are load-bearing  
-Last updated: 2026-06-15
+Last updated: 2026-06-17
 
 ## Why this term
 

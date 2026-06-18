@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: govern reads where technical, procedural, expert, managerial, or evidentiary authorization is load-bearing  
-Last updated: 2026-06-15
+Last updated: 2026-06-17
 
 ## Why this term
 
@@ -27,6 +27,10 @@ Ask first:
 
 [Science](science.md) and [faith](faith.md) hybridize in many modern orders — revolutionary doctrine + administration, constitutional creed + technocracy. Name whether they align, compete, or deform each other.
 
+### Civilization
+
+[Science](science.md) can **encode** [civilization](civilization.md) — legal codification, examination bureaucracy, administrative continuity that survives dynastic turnover. Distinguish civilization-bearing procedure from empire-heavy command.
+
 ### Empire
 
 [Empire](empire.md) in the [Cybernetic era](memory.md#era-law) often runs on science-order — sanctions architecture, deterrence geometry, platform authority, supply-chain command, identity rails.
@@ -34,6 +38,14 @@ Ask first:
 ### Memory
 
 Post-`1991` **Cybernetic** [era law](memory.md#era-law) is science-heavy in form: system-administered order rather than industrial mass mobilization alone.
+
+### Entropy
+
+Administrative and technical orders **fail** under [entropy](entropy.md) — plague collapses census capacity, revolution destroys expert class, war disrupts supply-chain command. When procedural authority survives only as rhetoric after shock, read entropy + science together.
+
+### Cross-cutting objects
+
+**Law**, treaty, and constitution often touch all six terms — govern science first only when procedure, verification, or admin competence is load-bearing; otherwise widen from the governing page. Worked example: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects) (Roman law).
 
 ## Failure modes
 
@@ -58,8 +70,8 @@ Use this page when:
 
 ## See also
 
-- [Faith](faith.md) · [Empire](empire.md) · [Memory](memory.md)
-- [Theory shelf](README.md)
+- [Faith](faith.md) · [Civilization](civilization.md) · [Empire](empire.md) · [Memory](memory.md) · [Entropy](entropy.md)
+- [Theory shelf](README.md) · [Cross-cutting objects](README.md#cross-cutting-objects)
 
 ## Bottom line
 

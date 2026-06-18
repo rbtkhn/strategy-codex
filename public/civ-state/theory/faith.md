@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: govern reads where sacred, moral, covenantal, or civil-religious authorization is load-bearing  
-Last updated: 2026-06-15
+Last updated: 2026-06-17
 
 Volume **sacred-grammar** files name lane-local legitimacy grammar; this page names the **faith** governing term across the whole work.
 
@@ -33,9 +33,21 @@ Ask first:
 
 [Faith](faith.md) often carries [civilization](civilization.md) — mandate of heaven, covenant, providence, orthodoxy as legitimacy substrate. When civilization is faith-heavy, sacred grammar usually governs before instrument.
 
+### Empire
+
+[Faith](faith.md) can **authorize** [empire](empire.md) — crusade, civil-religious universalism, mandate-backed expansion. When sacred mission justifies coercive reach, read empire + faith before treating the object as instrument alone.
+
+### Memory
+
+[Memory](memory.md) stores what faith must defend — covenant wound, martyrdom, humiliation forbidden by sacred grammar. When the fight is over what must never be forgotten or forgiven, faith and memory move together.
+
 ### Entropy
 
 [Entropy](entropy.md) may leave faith as **rhetoric without carry** after historical rupture — sacred language surviving war, revolution, or demographic collapse while practice fails. Distinguish living authorization from performed legitimacy.
+
+### Cross-cutting objects
+
+**Law**, treaty, and constitution often touch all six terms — govern faith first only when sacred or moral authorization is load-bearing; otherwise widen from the governing page. Worked example: [Theory shelf — Cross-cutting objects](README.md#cross-cutting-objects) (Roman law).
 
 ## Failure modes
 
@@ -59,8 +71,8 @@ Use this page when:
 
 ## See also
 
-- [Science](science.md) · [Civilization](civilization.md) · [Entropy](entropy.md)
-- [Theory shelf](README.md)
+- [Science](science.md) · [Civilization](civilization.md) · [Empire](empire.md) · [Memory](memory.md) · [Entropy](entropy.md)
+- [Theory shelf](README.md) · [Cross-cutting objects](README.md#cross-cutting-objects)
 
 ## Bottom line
 

@@ -7,7 +7,7 @@ Last updated: 2026-06-17
 
 ## Why this essay exists
 
-*Civilizational Statecraft* compares five civilization-state volumes. Cross-case reads once routed through a named **pattern library** and **continuity mechanism** on the theory shelf. Those surfaces are archived in the upstream workshop (`statecraft/states/archive/theory-cross-case-v1/`). This essay holds a **single reader-facing door** for comparative recurrence without restoring a full pattern subtree.
+*Civilizational Statecraft* compares five civilization-state volumes. Cross-case reads once routed through a named **pattern library** and **continuity mechanism** on the theory shelf. Those surfaces are **retired from the public shelf** (v0.1.12). This essay holds a **single reader-facing door** for comparative recurrence without restoring a full pattern subtree.
 
 ## When to open this essay
 

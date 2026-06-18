@@ -5,7 +5,7 @@
 Status: Active doctrine  
 Surface: `civ-state`  
 Purpose: govern reads where legitimacy substrate, symbolic inheritance, or continuity-bearing form is load-bearing  
-Last updated: 2026-06-15
+Last updated: 2026-06-17
 
 Not to be confused with the whole-work opening essay [*Civilization and Empire*](../docs/introduction.md) — that essay introduces the book; this page names the **civilization** governing term.
 
@@ -45,6 +45,10 @@ Useful distinctions:
 ### Faith
 
 [Faith](faith.md) often authorizes civilizational form — mandate, covenant, orthodoxy, forbidden bargains. When legitimacy is sacred or moral before it is procedural, faith and civilization tend to move together.
+
+### Science
+
+[Science](science.md) can **codify** civilization — law codes, examination orders, administrative grammar that outlive dynasties. When inherited order is stored as procedure (Roman law, Chinese examination bureaucracy), civilization and science-order overlap without collapsing into empire. For six-lens reads of law and similar objects, see [Cross-cutting objects](README.md#cross-cutting-objects).
 
 ## Failure modes
 

@@ -1,6 +1,6 @@
 ﻿# America
 
-**Civilizational Statecraft**, Volume V. Volume introduction: [Imperial Republic](../../docs/introduction.md). `civ-state-america` is the workshop folder slug—not the book title.
+**Civilizational Statecraft**, Volume V. Volume introduction: [Imperial Republic](../../docs/introduction.md). `civ-state-america` is the volume path slug—not the book title.
 
 America is a live lane-backed volume. Use it when the problem is republic and empire together: maritime command, alliance management, sanctions, domestic legitimacy, bounded coercion, and successor-stable authority.
 

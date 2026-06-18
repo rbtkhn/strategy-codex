@@ -1,12 +1,12 @@
 # CIV-STATE
 
-**Book title:** Civilizational Statecraft · **Opening essay:** [Civilization and Empire](introduction.md) · **This tree:** `civ-state` workshop substrate (not a reader title)
+**Book title:** Civilizational Statecraft · **Opening essay:** [Civilization and Empire](introduction.md) · **This tree:** operator statecraft substrate (not a reader title; not the public book edit surface)
 
 work only; not Record.
 
-**Path:** `statecraft/states/` — not national lane skills (`state-america`, `state-persia`, `state-deploy`); those route live objects. This tree holds upstream civilization-**state** pattern memory (`states/volumes/civ-state-america/`, etc.).
+**Path:** `statecraft/states/` — not national lane skills (`state-america`, `state-persia`, `state-deploy`); those route live objects. This tree holds civilization-**state** pattern memory for live drafting (`states/volumes/civ-state-america/`, etc.).
 
-**`civ-state` is the repo-root source-memory substrate for Civilizational Statecraft.**
+**Public book SSOT:** [`public/civ-state/`](../../public/civ-state/) — ship-bound Civilizational Statecraft prose edits there, not here.
 
 Under the shared [work membrane v2](../../docs/work-membrane-v2.md), most durable `civ-state` reading surfaces are **governed adjacent** rather than `runtime / derived`. The practical split is:
 

@@ -1,6 +1,6 @@
 ﻿# Rome
 
-**Civilizational Statecraft**, Volume III. Volume introduction: [Pax Romana](../../docs/introduction.md). `civ-state-rome` is the workshop folder slug—not the book title.
+**Civilizational Statecraft**, Volume III. Volume introduction: [Pax Romana](../../docs/introduction.md). `civ-state-rome` is the volume path slug—not the book title.
 
 Rome is currently a source-memory volume rather than a full repo-root lane peer. Use it when the live object needs Roman republic/empire formation, late-imperial breakdown, Christian and Eastern Roman continuity, papal residue, or successor-order comparison.
 
@@ -24,6 +24,7 @@ Primary source base: Rome source corpus
 - Geo-strategy chapter: [Rome geo-strategy](geo-strategy-rome.md)
 - Secret-history chapter: [Rome secret-history](secret-history-rome.md)
 - Game-theory chapter: [Rome game-theory](game-theory-rome.md)
+- Volume theory: [Rome theory shelf](theory/README.md) — six-term case lenses (Roman law mirror pilot)
 - Continuity state: Eastern Roman Empire as the indispensable continuity state
 
 **Civilization-State Diagnostic**

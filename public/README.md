@@ -15,7 +15,7 @@ Boundary law: [docs/public-artifacts-boundary.md](../docs/public-artifacts-bound
 
 - **Sibling folders only** — no cross-links, bridge pages, or shared navigation between `public/ph-civ/` and `public/civ-state/`.
 - **Published copy** on GitHub must stay orthogonal (civ-state ship path must not embed `ph-civ` URLs or IDs).
-- **Workshop promotion** (`statecraft/states/ph-civ-to-civ-state-bridge.md`) is one-way mechanism transfer into operator memory — not a substitute for editing either public tree.
+- **Workshop promotion** (`statecraft/states/ph-civ-to-civ-state-bridge.md`) is internal operator routing — not a substitute for editing either public tree.
 
 ## Shared discipline (both mirrors)
 

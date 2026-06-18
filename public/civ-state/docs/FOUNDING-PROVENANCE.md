@@ -12,7 +12,7 @@
 
 ## Lineage
 
-1. **Founding cut (helix-lane v1):** Exported from the upstream workshop as `rbtkhn/civ-emp` — a helix-first operator corpus (lanes, strands, transactions, orientation routers). Preserved under [`archive/helix-lane-v1/`](../archive/helix-lane-v1/README.md).
+1. **Founding cut (helix-lane v1):** Exported as `rbtkhn/civ-emp` — a helix-first operator corpus (lanes, strands, transactions, orientation routers). Preserved under [`archive/helix-lane-v1/`](../archive/helix-lane-v1/README.md).
 2. **Repo rename:** `civ-emp` → `civ-state` to align public slug with the civilization-**state** book architecture.
 3. **Reshape v0.2:** Replaced helix-first navigation with the book-first export — five-volume whole work (China, Persia, Rome, Russia, America), source-lattice per volume, comparative and sacred-grammar apparatus in the appendix.
 4. **Theory reshape v0.1.12:** Pair pages (`form`, `truth`) → eight term files (civilization, empire, entropy, faith, science, memory, rhythm, time); pattern library retired from public shelf.
@@ -26,7 +26,7 @@ Whole-work theory SSOT: **`theory/`** in this repository.
 | `theory/form.md` | `theory/civilization.md` · `theory/empire.md` |
 | `theory/truth.md` | `theory/faith.md` · `theory/science.md` |
 | `theory/continuity.md` | [Cross-case recurrence essay](../essays/cross-case-recurrence-and-sovereignty.md) |
-| `theory/patterns/*` | Same essay; operator archive in the upstream workshop |
+| `theory/patterns/*` | Same essay; pattern library retired from public shelf |
 | governing term **desire** | **empire** (amplification and overreach in `theory/empire.md`); v0.1.12 mapping to entropy **superseded** in v0.1.15 |
 
 ## v0.1.15 — entropy theory rebuild
@@ -87,12 +87,13 @@ Repo root retains **`README.md`** (book front door) and **`LICENSE`** only among
 
 Retired root paths keep thin redirect stubs (e.g. `introduction.md` → `docs/introduction.md`) for legacy bookmarks.
 
-## Workshop rule
+## SSOT rule
 
 - **Ship-bound theory prose:** edit **`public/civ-state/theory/`** only.
 - **Ship-bound source shelves:** edit **`public/civ-state/sources/`** only.
-- **Workshop** `statecraft/states/` — analysis, promotion residue, operator archive — not dual SSOT for public ship-bound prose.
 - **Publish** to [rbtkhn/civ-state](https://github.com/rbtkhn/civ-state) from workspace commits on `public/civ-state/`.
+
+`statecraft/states/` in the publish workspace is operator statecraft substrate — **not** an upstream or workshop layer for this public book.
 
 ## Export
 
