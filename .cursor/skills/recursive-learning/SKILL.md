@@ -3,7 +3,7 @@ name: recursive-learning
 preferred_activation: recursive learning
 description: 'Governed session review and journal entry for reusable machine laws. SSOT journal: statecraft/recursive-learning-journal.md.'
 portable: true
-version: 0.2.0
+version: 0.2.1
 tags:
 - operator
 - statecraft
@@ -210,6 +210,46 @@ RLJ is **post-encoding consolidation** (conductor is **mid-day pressure**). Stan
 **Structural changes:** Six `rome-*.md`, theory Volume depth links, `governing-term-first.md`, VERSION v0.1.26, validator strict-theory pass.
 
 **Guardrail:** Do not copy Rome tier labels to other civs without elicitation; `instrument` vs `co-primary` is judgment, not template.
+
+Journal entries for rungs 2–4: [language v0.1.27](../../statecraft/recursive-learning-journal.md#2026-06-18---rome-dual-language-heritage-language-spine-parallel-dimension) · [military v0.1.28](../../statecraft/recursive-learning-journal.md#2026-06-18---rome-military-history-military-spine-parallel-dimension) · [faith v0.1.29](../../statecraft/recursive-learning-journal.md#2026-06-19---rome-faith-history-faith-spine-parallel-dimension).
+
+## Rome parallel-spine ladder (civ-state)
+
+**Use when:** encoding or reviewing a **parallel dimension** on a fractured-sovereignty volume (Rome pilot; Persia/China candidates next). Open the matching RLJ entry before drafting — do not repo-grep the whole tree.
+
+**Core law:** One **political chain head** on `#chain-spine`. Each additional spine tracks a **different load-bearing dimension** on the **same rupture nodes** — fork **extends**, never replaces, prior spines.
+
+| Rung | Memory anchor | Governs | Sub-anchors (Rome) | Ship | RLJ |
+|------|---------------|---------|-------------------|------|-----|
+| 1 | `#chain-spine` | Political succession | Republic → … → present carrier | v0.1.26 | [fractured-sovereignty chain](../../statecraft/recursive-learning-journal.md#2026-06-17---rome-fractured-sovereignty-chain-encoding-memory-spine--term-segments) |
+| 2 | `#language-spine` | Greek/Latin **medium** | co-primary carriers · sacred dual-medium | v0.1.27 | [language-spine](../../statecraft/recursive-learning-journal.md#2026-06-18---rome-dual-language-heritage-language-spine-parallel-dimension) |
+| 3 | `#military-spine` | Force structure | formation · eastern · western | v0.1.28 | [military-spine](../../statecraft/recursive-learning-journal.md#2026-06-18---rome-military-history-military-spine-parallel-dimension) |
+| 4 | `#faith-spine` | Sacred / truth-order | mythology · formation · eastern · western | v0.1.29 | [faith-spine](../../statecraft/recursive-learning-journal.md#2026-06-19---rome-faith-history-faith-spine-parallel-dimension) |
+| 5 | `#science-spine` | Procedural / evidentiary truth-order | inheritance · formation · eastern · western *(planned)* | v0.1.30 | *(append after ship)* |
+
+**Routing:** [`governing-term-first.md`](../../public/civ-state/skills/governing-term-first.md) — chain · language · military · faith placement steps; science placement added at v0.1.30 ship.
+
+**Repeatable encode recipe** (each new rung):
+
+```text
+elicitation MCQs → master table + tension pass
+→ interpretive essay (optional sub-lens)
+→ rome-memory#*-spine (sub-tables + tagged boundary rules)
+→ split rosters (empire institutional · civilization ethic)
+→ six rome-{term} filtered segments
+→ theory Volume depth + volume README / shelf
+→ validate_civilizational_statecraft_public.py --strict-theory
+→ VERSION bump + release-history + RLJ entry
+```
+
+**Cross-spine guardrails (Rome):**
+
+- **Dual encode** when one node owns two dimensions (e.g. 1204 faith wound ║ crusade instrument; Frontinus aqueducts ║ military stratagem planned at science) — one primary row per spine + cross-ref.
+- **Eastern trilogy** rows use `civ-state-placement` — parallel legs, not one historical actor (military rivals · faith sacred rivals · science transmission legs).
+- **Roster SSOT:** memory = placement index only; empire + civilization own full rosters — do not duplicate on memory.
+- **Term files:** sovereignty / dual-language / prior-dimension segments **align, do not duplicate** new spine tables.
+- **Present period:** no military present row; faith/science follow same discipline unless operator MCQ locks a comparative footnote only.
+- **Next civ:** elicit sub-table count + roster split **before** term segments — do not copy Rome row labels without operator cash-out.
 
 ## Quality test
 
