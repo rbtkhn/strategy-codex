@@ -24,7 +24,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from repo_io import DEFAULT_USER_ID, profile_dir  # noqa: E402
+from repo_io import DEFAULT_USER_ID, resolve_profile_export_path  # noqa: E402
 
 HEADER = (
     "# SESSION TRANSCRIPT\n\n"
@@ -36,14 +36,14 @@ HEADER = (
 
 
 def append_work_choice(
-    user_dir: Path,
+    user_id: str,
     *,
     context: str,
     picked: str,
     tags: str,
     note: str,
 ) -> Path:
-    path = user_dir / "session-transcript.md"
+    path = resolve_profile_export_path(user_id, "session-transcript.md", prefer_existing=False)
     path.parent.mkdir(parents=True, exist_ok=True)
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     block_lines = [
@@ -84,9 +84,8 @@ def main() -> int:
     ap.add_argument("--note", default="", help="Optional single-line note")
     args = ap.parse_args()
     uid = args.user.strip()
-    user_dir = profile_dir(uid)
     out = append_work_choice(
-        user_dir,
+        uid,
         context=args.context,
         picked=args.picked.strip(),
         tags=args.tags,

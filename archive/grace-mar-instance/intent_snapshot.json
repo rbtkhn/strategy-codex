@@ -1,0 +1,10 @@
+{
+  "ok": false,
+  "user_id": "strategy-codex",
+  "generated_at": "2026-06-19T02:15:57.138488",
+  "error": "missing intent.md at C:\\dev\\strategy-codex\\platform\\users\\strategy-codex\\intent.md",
+  "goals": {},
+  "tradeoff_rules": [],
+  "escalation_rules": [],
+  "never_autonomous_actions": []
+}

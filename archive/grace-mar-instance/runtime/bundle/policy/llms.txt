@@ -1,8 +1,8 @@
 # Grace-Mar Record — Agent Manifest
 
 User: strategy-codex
-Checksum: f4a4ba13c365c9187b8c723cf9d959701eb16a6cad451cfff3e038a8092dda1a
-Generated: 2026-05-27T00:13:47.310345
+Checksum: c9cd72c0a4ea8d0c14fd58d97a3ab156f47d57a27583b8d0390d3b358ee38b43
+Generated: 2026-06-19T02:15:57.404540
 Runtime mode: adjunct_runtime
 
 ## Degraded Mode

@@ -75,7 +75,10 @@ def _assert_no_strategy_codex_user(root: Path) -> None:
 
 def test_analyze_rejection_feedback_uses_root_profile(work_root, monkeypatch):
     _write_root_profile(work_root)
+    art = work_root / "runtime" / "artifacts"
+    art.mkdir(parents=True)
     monkeypatch.setattr(arf, "REPO_ROOT", work_root)
+    monkeypatch.setattr(arf, "ARTIFACTS_DIR", art)
     monkeypatch.setattr(arf, "profile_dir", lambda user_id: work_root)
     monkeypatch.setattr(
         sys,
@@ -127,6 +130,11 @@ def test_generate_gate_dashboard_writes_root_dashboard(work_root, monkeypatch):
     _write_root_profile(work_root)
     monkeypatch.setattr(ggd, "REPO_ROOT", work_root)
     monkeypatch.setattr(ggd, "profile_dir", lambda user_id: work_root)
+    monkeypatch.setattr(
+        ggd,
+        "resolve_profile_export_path",
+        lambda user_id, basename, prefer_existing=False: work_root / basename,
+    )
     monkeypatch.setattr(ggd, "parse_review_candidates", lambda user_id: [])
     monkeypatch.setattr(sys, "argv", ["generate_gate_dashboard.py", "-u", USER])
 
@@ -137,12 +145,15 @@ def test_generate_gate_dashboard_writes_root_dashboard(work_root, monkeypatch):
 
 def test_import_working_identity_candidates_writes_root_gate_and_digest(work_root, monkeypatch):
     _write_root_profile(work_root)
+    art = work_root / "runtime" / "artifacts"
+    art.mkdir(parents=True)
     input_path = work_root / "extract.json"
     input_path.write_text(
         json.dumps({"behavioral_calibration": [{"claim": "Prefers root contract."}]}),
         encoding="utf-8",
     )
     monkeypatch.setattr(iwic, "REPO_ROOT", work_root)
+    monkeypatch.setattr(iwic, "ARTIFACTS_DIR", art)
     monkeypatch.setattr(iwic, "profile_dir", lambda user_id: work_root)
     monkeypatch.setattr(
         sys,

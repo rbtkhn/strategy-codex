@@ -27,3 +27,6 @@ jobs:
 
       - name: Repo path resolver adoption
         run: python scripts/check_repo_path_adoption.py --max-literals 0
+
+      - name: Root profile export nest
+        run: python scripts/assert_root_profile_exports.py

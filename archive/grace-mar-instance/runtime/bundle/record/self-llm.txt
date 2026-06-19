@@ -1,0 +1,3 @@
+# Portable Record Prompt — strategy-codex
+
+No self.md or self-knowledge.md found at C:\dev\strategy-codex\platform\users\strategy-codex\self.md.

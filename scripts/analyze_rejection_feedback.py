@@ -22,7 +22,7 @@ if str(_SCRIPTS) not in sys.path:
 
 from gate_block_parser import iter_candidate_yaml_blocks  # noqa: E402
 from rejection_feedback import REJECTION_CATEGORIES, infer_rejection_category  # noqa: E402
-from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402, ARTIFACTS_DIR
+from repo_io import ARTIFACTS_DIR, DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
 
 
 def _is_rejected(yaml_body: str) -> bool:

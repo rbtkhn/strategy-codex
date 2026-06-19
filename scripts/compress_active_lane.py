@@ -1,4 +1,3 @@
-from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Compress one WORK lane into a small markdown (or JSON) artifact with recovery paths.
@@ -23,6 +22,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SKILL_WORK = REPO_ROOT / "docs" / "skill-work"
 DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from repo_io import ARTIFACTS_DIR, resolve_profile_export_path  # noqa: E402
 
 
 def _normalize_lane(name: str) -> str:
@@ -101,8 +102,8 @@ def build_active_lane_payload(lane: str, user_id: str, repo_root: Path) -> dict:
     readme = _read(lane_path / "README.md")
     objective = _objective_from_readme(readme) if readme else "(no README)"
 
-    user_dir = repo_root / "platform/users" / user_id
-    sw = _read(user_dir / "self-work.md")
+    sw_path = resolve_profile_export_path(user_id, "self-work.md")
+    sw = _read(sw_path)
     sw_line = _self_work_bullet(sw, lane_n)
 
     ledger_candidates = [
@@ -116,7 +117,10 @@ def build_active_lane_payload(lane: str, user_id: str, repo_root: Path) -> dict:
             break
 
     readme_rel = f"docs/skill-work/{lane_n}/README.md"
-    self_rel = f"{user_id}/self-work.md"
+    try:
+        self_rel = sw_path.relative_to(repo_root).as_posix()
+    except ValueError:
+        self_rel = f"{user_id}/self-work.md"
     sources = [readme_rel, self_rel]
     if (lane_path / "WORK-LEDGER.md").exists():
         sources.insert(1, f"docs/skill-work/{lane_n}/WORK-LEDGER.md")

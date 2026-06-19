@@ -24,7 +24,7 @@ if str(_SCRIPTS) not in sys.path:
 
 from recursion_gate_territory import TERRITORY_WORK_POLITICS
 from recursion_gate_review import parse_review_candidates
-from repo_io import DEFAULT_PROFILE_ID, profile_dir
+from repo_io import DEFAULT_PROFILE_ID, profile_dir, resolve_profile_export_path
 
 DEFAULT_USER = DEFAULT_PROFILE_ID
 
@@ -230,7 +230,7 @@ def main() -> int:
         print(f"Missing {gate}", file=sys.stderr)
         return 1
     rows = [row for row in parse_review_candidates(args.user) if row.get("status") == "pending"]
-    out = Path(args.output) if args.output else user_dir / "gate-dashboard.html"
+    out = Path(args.output) if args.output else resolve_profile_export_path(args.user, "gate-dashboard.html", prefer_existing=False)
     gate_rel = gate.relative_to(REPO_ROOT).as_posix()
     out.write_text(build_html(args.user, rows, gate_rel), encoding="utf-8")
     print(out)

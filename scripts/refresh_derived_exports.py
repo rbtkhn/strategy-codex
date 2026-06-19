@@ -20,13 +20,11 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-from repo_io import profile_dir
+from repo_io import profile_dir, resolve_prp_export_path
 
 
 def _prp_output_path(user_id: str) -> Path:
-    if profile_dir(user_id) == REPO_ROOT:
-        return REPO_ROOT / "self-llm.txt"
-    return profile_dir(user_id) / f"{user_id}-llm.txt"
+    return resolve_prp_export_path(user_id, prefer_existing=False)
 
 
 def main() -> int:
@@ -50,7 +48,7 @@ def main() -> int:
             "-o",
             str(_prp_output_path(uid)),
         ],
-        [py, str(REPO_ROOT / "scripts" / "export.py"), "manifest", "--", "-u", uid, "-o", str(platform/profile)],
+        [py, str(REPO_ROOT / "scripts" / "export.py"), "manifest", "--", "-u", uid, "-o", str(profile)],
         [py, str(REPO_ROOT / "scripts" / "fork_checksum.py"), "-u", uid, "--manifest"],
         [
             py,

@@ -36,7 +36,7 @@ from stage_gate_candidate import (  # noqa: E402
     insert_before_processed,
     next_candidate_id,
 )
-from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402, ARTIFACTS_DIR
+from repo_io import ARTIFACTS_DIR, DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
 
 DEFAULT_USER = DEFAULT_PROFILE_ID
 

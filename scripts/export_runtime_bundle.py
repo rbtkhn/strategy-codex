@@ -35,7 +35,7 @@ try:
     from export_user_identity import export_user_identity, export_user_identity_json
     from harness_events import append_harness_event
     from recursion_gate_review import parse_review_candidates
-    from repo_io import profile_dir as canonical_profile_dir
+    from repo_io import BOT_DIR, profile_dir as canonical_profile_dir
     from repo_io import resolve_ledger_path, resolve_self_memory_path, resolve_surface_markdown_path
 except ImportError:
     from scripts.export_fork import export_fork
@@ -45,7 +45,7 @@ except ImportError:
     from scripts.export_user_identity import export_user_identity, export_user_identity_json
     from scripts.harness_events import append_harness_event
     from scripts.recursion_gate_review import parse_review_candidates
-    from scripts.repo_io import profile_dir as canonical_profile_dir
+    from scripts.repo_io import BOT_DIR, profile_dir as canonical_profile_dir
     from scripts.repo_io import resolve_ledger_path, resolve_self_memory_path, resolve_surface_markdown_path
 
 
@@ -396,7 +396,6 @@ def export_runtime_bundle(
         _sp = REPO_ROOT / "scripts"
         if str(_sp) not in sys.path:
             sys.path.insert(0, str(_sp))
-from repo_io import BOT_DIR
         from emit_compute_ledger import append_integration_ledger
 
         total_b = 0

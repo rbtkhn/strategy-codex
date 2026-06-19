@@ -2,8 +2,8 @@
   "version": "1.2",
   "grace_mar": true,
   "user_id": "strategy-codex",
-  "generated_at": "2026-05-27T00:13:47.310345",
-  "checksum": "f4a4ba13c365c9187b8c723cf9d959701eb16a6cad451cfff3e038a8092dda1a",
+  "generated_at": "2026-06-19T02:15:57.404540",
+  "checksum": "c9cd72c0a4ea8d0c14fd58d97a3ab156f47d57a27583b8d0390d3b358ee38b43",
   "runtime_mode": "adjunct_runtime",
   "runtime_modes": {
     "adjunct_runtime": "Assistive runtime alongside the canonical repo.",
@@ -123,8 +123,8 @@
   "intent_snapshot": {
     "ok": false,
     "user_id": "strategy-codex",
-    "generated_at": "2026-05-27T00:13:47.310345",
-    "error": "missing intent.md at C:\\dev\\strategy-codex\\users\\strategy-codex\\intent.md",
+    "generated_at": "2026-06-19T02:15:57.404540",
+    "error": "missing intent.md at C:\\dev\\strategy-codex\\platform\\users\\strategy-codex\\intent.md",
     "goals": {},
     "tradeoff_rules": [],
     "escalation_rules": [],

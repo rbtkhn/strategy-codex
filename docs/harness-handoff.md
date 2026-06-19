@@ -1,6 +1,6 @@
 ﻿# Harness handoff (hybrid workflows)
 
-**Inventory:** [harness-inventory.md](harness-inventory.md) (includes **two doors, one book**). **Fresh-context paste:** `python scripts/harness_warmup.py -u grace-mar --fresh-judge`. **Pending scan:** `python scripts/generate_gate_dashboard.py -u grace-mar` â†’ open `gate-dashboard.html`.
+**Inventory:** [harness-inventory.md](harness-inventory.md) (includes **two doors, one book**). **Fresh-context paste:** `python scripts/harness_warmup.py -u grace-mar --fresh-judge`. **Pending scan:** `python scripts/generate_gate_dashboard.py -u grace-mar` â†’ open `archive/grace-mar-instance/gate-dashboard.html`.
 
 Short guide for using **more than one AI harness** (e.g. **Cursor** + **Codex**, **Claude Code** + **ChatGPT**) on the same Grace-Mar work without losing state.
 

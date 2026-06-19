@@ -1,4 +1,3 @@
-from repo_io import BOT_DIR
 #!/usr/bin/env python3
 """
 Export Record to symbolic, cache-oriented JSON for Intersignal Familiar nodes.
@@ -23,7 +22,8 @@ from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-BOT_DIR = BOT_DIR
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from repo_io import BOT_DIR, profile_dir as record_profile_dir  # noqa: E402
 
 
 def _read(path: Path) -> str:
@@ -93,9 +93,9 @@ def _evidence_anchors(content: str) -> list[str]:
 
 def export_symbolic(user_id: str = "grace-mar") -> dict:
     """Build cache-oriented symbolic identity for Familiar nodes."""
-    profile_dir = REPO_ROOT / "platform/users" / user_id
-    self_content = _read(profile_dir / "self.md")
-    evidence_content = _read(profile_dir / "self-archive.md") or _read(profile_dir / "self-evidence.md")
+    profile_root = record_profile_dir(user_id)
+    self_content = _read(profile_root / "self.md")
+    evidence_content = _read(profile_root / "self-archive.md") or _read(profile_root / "self-evidence.md")
 
     identity_block = _extract_section(self_content, "I. IDENTITY") or ""
     pref_block = _extract_section(self_content, "II. PREFERENCES (Survey Seeded)") or ""
@@ -125,7 +125,7 @@ def export_symbolic(user_id: str = "grace-mar") -> dict:
 
     ix = _ix_summaries(self_content)
     evidence_anchors = _evidence_anchors(evidence_content)
-    checksum = _compute_checksum(profile_dir)
+    checksum = _compute_checksum(profile_root)
 
     return {
         "version": "1.0",
@@ -154,8 +154,7 @@ def main() -> None:
     args = parser.parse_args()
 
     data = export_symbolic(user_id=args.user)
-    profile_dir = REPO_ROOT / "platform/users" / args.user
-    out_dir = Path(args.output) if args.output else profile_dir
+    out_dir = Path(args.output) if args.output else record_profile_dir(args.user)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     out_path = out_dir / "symbolic_identity.json"

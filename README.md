@@ -248,46 +248,43 @@ See [PORTABLE-RECORD-PROMPT](docs/portable-record-prompt.md). Telegram / WeChat 
 
 ```
 strategy-codex/
-??? README.md
-??? AGENTS.md
-??? self-llm.txt
-??? instance-doctrine.md
-??? self.md
-??? self-archive.md
-??? self-skills.md
-??? self-library.md
-??? self-memory.md
-??? self-history.md
-??? self-moonshots.md
-??? self-work.md
-??? recursion-gate.md
-??? session-log.md
-??? intent.md
-??? manifest.json
-??? llms.txt
-??? archive/grace-mar-instance/bot/
-??? docs/
-??? scripts/
-??? codex/
-??? runtime/artifacts/
-??? archive/
-??? templates/
+├── README.md
+├── AGENTS.md
+├── LLM-ROUTING.md
+├── instance-doctrine.md
+├── skill-think.md
+├── skill-write.md
+├── skill-steward.md
+├── archive/grace-mar-instance/   # Record + profile-derived exports
+│   ├── self.md
+│   ├── recursion-gate.md
+│   ├── manifest.json
+│   ├── session-transcript.md
+│   └── bot/
+├── docs/
+├── scripts/
+├── codex/
+├── runtime/
+├── platform/
+└── … (20 top-level folders — see docs/root-directory-map.md)
 ```
 
 **Template scaffold (`platform/template/`):** Documents filenames for new instances (aligned with the [companion-self](https://github.com/rbtkhn/companion-self) template). Includes **`work-dev.md`** and **`work-business.md`** â€” blank work-layer modules filled only from seed survey, explicit input, or governed updates; distinct from **`self-skill-work`** and from operator **`docs/skill-work/work-dev/`** / **`work-business/`**. See [platform/template/README.md](platform/template/README.md).
 
-### Canonical filenames (root — frozen Record archaeology)
+### Canonical filenames (Grace-Mar instance bundle)
 
-Docs refer to **SELF**, **EVIDENCE**, and the **gate** as fork-era concepts. Paths below remain valid on disk for scripts and export; **editing them is fork-revive work**, not the interpretive-machine default. **On disk, only these names are valid** (lowercase, hyphenated):
+Docs refer to **SELF**, **EVIDENCE**, and the **gate** as fork-era concepts. Paths resolve via `profile_dir()` → **`archive/grace-mar-instance/`**; **editing them is fork-revive work**, not the interpretive-machine default. **On disk, only these names are valid** (lowercase, hyphenated):
 
-| Concept | Authoritative path |
-|---------|-------------------|
+| Concept | Authoritative path (under `archive/grace-mar-instance/`) |
+|---------|-----------------------------------------------------------|
 | SELF (identity + IX-A/B/C) | `self.md` |
 | SKILLS (capability index) | `self-skills.md` (legacy `skills.md` is still resolved until removed) |
 | Activity / evidence log (canonical body) | `self-archive.md` |
 | Optional EVIDENCE pointer (compat) | `self-evidence.md` |
 | Pipeline staging (pending candidates) | `recursion-gate.md` |
-| Gated archive (approved voice + activity) | `self-archive.md` Â§ VIII |
+| Gated archive (approved voice + activity) | `self-archive.md` § VIII |
+| WORK coordination | `self-work.md` |
+| Agent / policy exports | `manifest.json`, `llms.txt`, `intent_snapshot.json` |
 
 **Not used:** `SELF.md`, `EVIDENCE.md`, `ARCHIVE.md`, `PENDING-REVIEW.md` â€” those spellings break scripts. Full spec: [docs/canonical-paths.md](docs/canonical-paths.md). **Check:** `python scripts/assert_canonical_paths.py`. Legacy Voice apps (`platform/apps/miniapp_server.py`, bots) still expect `self.md`, `self-archive.md`, and `recursion-gate.md` at startup when you run them for archaeology (set `GRACE_MAR_SKIP_PATH_CHECK=1` only if you must).
 

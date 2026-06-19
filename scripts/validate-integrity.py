@@ -50,7 +50,14 @@ from validate_identity_library_boundary import (
     collect_self_library_file_warnings,
 )
 from validate_library_domain_registry import validate_library_domain_registry
-from repo_io import DEFAULT_PROFILE_ID, profile_dir, resolve_surface_markdown_path, self_skills_layout_warnings, BOT_DIR
+from repo_io import (
+    BOT_DIR,
+    DEFAULT_PROFILE_ID,
+    profile_dir,
+    resolve_prp_export_path,
+    resolve_surface_markdown_path,
+    self_skills_layout_warnings,
+)
 
 ALLOWED_PROPOSAL_CLASS = frozenset({
     "SELF_KNOWLEDGE_ADD",
@@ -404,23 +411,31 @@ def validate_skills_sections(user_dirs: list[Path]) -> list[str]:
         for marker in skills_markers:
             if marker not in content:
                 errors.append(f"{skills_path.relative_to(REPO_ROOT)} missing required section '{marker}'")
-        found = any((user_dir / f).exists() for f in skill_files)
+        found = any((user_dir / f).exists() for f in skill_files) or any(
+            (REPO_ROOT / f).exists() for f in skill_files
+        )
         if not found:
             errors.append(f"{user_dir.relative_to(REPO_ROOT)} missing at least one of {skill_files}")
     return errors
 
 
-def validate_derived_exports(user_dirs: list[Path]) -> list[str]:
+def validate_derived_exports(user_dirs: list[Path], user_id: str | None = None) -> list[str]:
     errors: list[str] = []
     prompt_path = BOT_DIR / "prompt.py"
+    uid = (user_id or DEFAULT_PROFILE_ID).strip()
     for user_dir in user_dirs:
         skills_path = resolve_surface_markdown_path(user_dir, "self_skills")
+
+        def _skill_path(name: str) -> Path:
+            p = user_dir / name
+            return p if p.is_file() else REPO_ROOT / name
+
         source_paths = [
             user_dir / "self.md",
             skills_path,
-            user_dir / "skill-think.md",
-            user_dir / "skill-write.md",
-            user_dir / "skill-steward.md",
+            _skill_path("skill-think.md"),
+            _skill_path("skill-write.md"),
+            _skill_path("skill-steward.md"),
             user_dir / "self-archive.md",
             user_dir / "self-library.md",
             user_dir / "intent.md",
@@ -429,11 +444,7 @@ def validate_derived_exports(user_dirs: list[Path]) -> list[str]:
         source_mtimes = [p.stat().st_mtime for p in source_paths if p.exists()]
         latest_source = max(source_mtimes, default=0)
 
-        prp_path = REPO_ROOT / "self-llm.txt" if user_dir == REPO_ROOT else user_dir / f"{user_dir.name}-llm.txt"
-        if not prp_path.exists() and user_dir == REPO_ROOT:
-            legacy_prp = REPO_ROOT / "grace-mar-llm.txt"
-            if legacy_prp.exists():
-                prp_path = legacy_prp
+        prp_path = resolve_prp_export_path(uid)
         derived_paths = [
             user_dir / "manifest.json",
             user_dir / "llms.txt",
@@ -649,7 +660,7 @@ def run_validation(
     all_errors.extend(validate_id_format(user_dirs))
     all_errors.extend(validate_self_sections(user_dirs))
     all_errors.extend(validate_skills_sections(user_dirs))
-    all_errors.extend(validate_derived_exports(user_dirs))
+    all_errors.extend(validate_derived_exports(user_dirs, user_id=user or None))
     identity_capability = validate_identity_capability_boundary(user_dirs)
     all_errors.extend(identity_capability)
     convenience_path = validate_convenience_path_audit(user_dirs)

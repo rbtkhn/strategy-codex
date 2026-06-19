@@ -2,7 +2,7 @@
 
 **Work only; not Record.**
 
-Companion to [root-directory-map.md](root-directory-map.md) and [operator-surface-registry.md](operator-surface-registry.md). Lists **root-adjacent** operator artifacts that are easy to mistake for Record truth.
+Companion to [root-directory-map.md](root-directory-map.md) and [operator-surface-registry.md](operator-surface-registry.md). Lists operator artifacts that are easy to mistake for Record truth.
 
 ---
 
@@ -10,11 +10,32 @@ Companion to [root-directory-map.md](root-directory-map.md) and [operator-surfac
 
 | Class | Authority |
 |-------|-----------|
-| Frozen Record markdown at root | Canonical **only** after gated merge (fork revive) |
+| Record markdown under `archive/grace-mar-instance/` | Canonical **only** after gated merge (fork revive) |
 | `runtime/operator-events/*.jsonl` | Append-only operator ledgers — **not** Record |
 | `runtime/daily-handoff/*.json` | Dream / coffee continuity — **not** Record |
 | Root `*.jsonl` (harness, compute) | Operator-local — **not** Record |
-| `drift-report.json`, `fork_state.json` | Derived posture — **not** Record |
+| Profile derived exports (see below) | Regenerated — **not** Record |
+| `platform/users/<id>/fork_state.json`, `drift-report.json` | Fork lifecycle posture — **not** Record |
+
+---
+
+## Profile-derived exports (`archive/grace-mar-instance/`)
+
+Resolved via `scripts/repo_io.py` → `resolve_profile_export_path(user_id, basename)`.
+
+| Basename | Class | Producer (typical) |
+|----------|-------|-------------------|
+| `manifest.json` | derived_non_authoritative | `export_manifest.py` |
+| `llms.txt` | derived_non_authoritative | `export_manifest.py` |
+| `intent_snapshot.json` | derived_non_authoritative | `export_manifest.py` / `export_runtime_bundle.py` |
+| `fork-manifest.json` | machine_feed | `fork_checksum.py --manifest` |
+| `session-transcript.md` | runtime continuity | bot, miniapp, `log_operator_choice.py` |
+| `self-work.md` | WORK coordination | operator |
+| `gate-dashboard.html` | review_support | `generate_gate_dashboard.py` |
+| `evidence-graph.json` | derived_non_authoritative | `build_evidence_graph.py` |
+| `symbolic_identity.json` | machine_feed | `export_symbolic.py` |
+
+**Guard:** `python3 scripts/assert_root_profile_exports.py` — these basenames must not return to repo root.
 
 ---
 
@@ -44,15 +65,21 @@ Companion to [root-directory-map.md](root-directory-map.md) and [operator-surfac
 
 ---
 
-## Root JSON / state (selected)
+## Fork lifecycle (`platform/users/<fork_id>/`)
+
+| Path | Class | Notes |
+|------|-------|-------|
+| `fork_state.json` | derived_non_authoritative | Phase, counters — `fork_lifecycle.py init` |
+| `drift-report.json` | derived_non_authoritative | Heuristic drift — `fork_lifecycle.py measure-drift` |
+
+---
+
+## Root JSONL (operator-local)
 
 | Path | Class | Notes |
 |------|-------|-------|
 | `harness-events.jsonl` | machine_feed | Audit lane; gitignored when local |
 | `compute-ledger.jsonl` | machine_feed | Token / compute accounting |
-| `fork_state.json` | derived_non_authoritative | Fork posture snapshot |
-| `drift-report.json` | derived_non_authoritative | Drift scoring |
-| `intent_snapshot.json` | derived_non_authoritative | Intent export mirror |
 
 ---
 

@@ -2,41 +2,72 @@
 
 **Work only; not Record.**
 
-**Purpose:** Legibility hub for what lives at the repository root vs under `runtime/`, `docs/`, and frozen Grace-Mar archaeology. Link SSOT below; this page does not duplicate full doctrine.
+**Purpose:** Legibility hub for what lives at the repository root vs under consolidated subtrees (`runtime/`, `platform/`, `archive/`, …). Link SSOT below; this page does not duplicate full doctrine.
 
-**Related:** [harness-architecture-map.md](harness-architecture-map.md) · [operator-root-artifacts.md](operator-root-artifacts.md) · [runtime-vs-record.md](runtime-vs-record.md)
-
----
-
-## Why the root looks busy
-
-GitHub shows ~40 top-level directories plus many root files. That mix is intentional but uneven:
-
-| Layer | Role |
-|-------|------|
-| **Frozen Record (Grace-Mar)** | `self.md`, `recursion-gate.md`, `archive/grace-mar-instance/bot/`, … — archaeology at root until Phase 5 relocation |
-| **Operator ledgers** | Append-only JSONL moved to `runtime/operator-events/` (compat read from root) |
-| **Dream handoff** | `runtime/daily-handoff/last-dream.json` (compat read from root `last-dream.json`) |
-| **Doctrine / routing** | `AGENTS.md`, `LLM-ROUTING.md`, `docs/` |
-| **Work channels** | `statecraft/`, `singularity/`, `codex/` |
-| **Runtime / derived** | `runtime/` (observations, workflow-depth, operator-events, …) |
-| **Apps / tooling** | `platform/apps/`, `scripts/`, `platform/src/` |
-
-Local workspaces may look far noisier than GitHub (pytest temp dirs, `.codex-tmp`) — see [contributing.md](../contributing.md) hygiene section.
+**Related:** [harness-architecture-map.md](harness-architecture-map.md) · [operator-root-artifacts.md](operator-root-artifacts.md) · [runtime-vs-record.md](runtime-vs-record.md) · [canonical-paths.md](canonical-paths.md)
 
 ---
 
-## Root file families (quick scan)
+## GitHub root layout (20 folders)
 
-### Frozen Record (fork revive only)
+**Committed `main`:** exactly **20** top-level directories. SSOT list: `scripts/repo_io.py` → `TARGET_ROOT_FOLDERS`. CI: `python3 scripts/assert_root_folder_layout.py`.
 
-Do not relocate without Phase 5 plan. Canonical names: [canonical-paths.md](canonical-paths.md).
+| Folder | Lane |
+|--------|------|
+| `.cursor` | Cursor rules, skills, agent overlays |
+| `.github` | CI workflows (includes layout cap + path-adoption check) |
+| `SELF-LIBRARY` | Symlink index into operator book corpus |
+| `archive` | Grace-Mar instance bundle, placeholders, review queues |
+| `codex` | Chronology and strategy-codex corpus |
+| `docs` | Doctrine, skill-work, workflows |
+| `essays` | Cross-channel theses (repo-root shelf) |
+| `examples` | Sample / reference material |
+| `platform` | Apps, `src/`, deployment, config, per-user profiles |
+| `public` | Public `ph-civ` publish tree |
+| `research` | Auto-research, bridges, external research lanes |
+| `runtime` | Derived runtime, operator-events, artifacts, handoff |
+| `schemas` | Schema registry (`schemas/registry/`) |
+| `scripts` | Operator automation |
+| `singularity` | Acceleration / agency operator surface |
+| `skills` | Portable skills corpus (formerly `skills-portable/`) |
+| `source-archive` | Verbatim statecraft source captures |
+| `statecraft` | Geopolitical / judgment operator surface |
+| `templates` | Template manifests and styles (formerly root `styles/`) |
+| `tests` | Pytest suite |
 
-- `self.md`, `self-archive.md`, `self-knowledge.md`, `recursion-gate.md`
-- `self-skills.md`, `self-library.md`, `session-log.md`, `intent.md`
-- `archive/grace-mar-instance/bot/`, `self-llm.txt`
+Plus **root files** (not counted in the cap): `AGENTS.md`, `LLM-ROUTING.md`, `pyproject.toml`, operator JSONL ledgers, skill split files (`skill-think.md`, …), etc.
 
-### Operator event ledgers (canonical: `runtime/operator-events/`)
+Full routing: [LLM-ROUTING.md](../LLM-ROUTING.md) · [repo-map.yaml](../repo-map.yaml).
+
+---
+
+## Local vs GitHub
+
+Local workspaces often look far noisier than GitHub: pytest temp dirs (`.tmp-pytest-*`, `.codex-pytest-*`), `.venv`, `.codex-tmp`, and other operator-local paths are **not** part of the 20-folder contract. See [contributing.md](../contributing.md) hygiene section.
+
+---
+
+## Grace-Mar Record bundle (fork revive only)
+
+**Physical home:** `archive/grace-mar-instance/` — see [archive/grace-mar-instance/README.md](../archive/grace-mar-instance/README.md).
+
+Record markdown and bot code **no longer live at the repository root**. Scripts resolve paths via `scripts/repo_io.py` → `profile_dir()` (returns `archive/grace-mar-instance/` when `self.md` is present there).
+
+| Path | Role |
+|------|------|
+| `archive/grace-mar-instance/self.md` | Identity shell + three-dimension mind overview |
+| `archive/grace-mar-instance/recursion-gate.md` | Pipeline staging |
+| `archive/grace-mar-instance/self-archive.md` | EVIDENCE / activity log |
+| `archive/grace-mar-instance/self-skills.md` | Capability index |
+| `archive/grace-mar-instance/bot/` | Telegram / WeChat emulation (deprecated runtime) |
+| `archive/grace-mar-instance/bootstrap/` | Legacy bootstrap docs |
+| `archive/grace-mar-instance/recursion-gate-staging/` | Gate staging aids |
+
+Basenames unchanged — see [canonical-paths.md](canonical-paths.md). **Default:** Record is frozen; fork growth is not a system objective ([grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)).
+
+---
+
+## Operator event ledgers (canonical: `runtime/operator-events/`)
 
 Append-only JSONL — **not** Record. Writers use `scripts/repo_io.py` resolvers; readers fall back to legacy root paths.
 
@@ -51,7 +82,9 @@ Append-only JSONL — **not** Record. Writers use `scripts/repo_io.py` resolvers
 
 See [runtime/operator-events/README.md](../runtime/operator-events/README.md).
 
-### Dream continuity
+---
+
+## Dream continuity
 
 | Path | Role |
 |------|------|
@@ -59,7 +92,9 @@ See [runtime/operator-events/README.md](../runtime/operator-events/README.md).
 | `runtime/daily-handoff/night-handoff.json` | Compact night-to-morning coffee handoff |
 | Root `last-dream.json` | Legacy compat (read fallback) |
 
-### Other root JSONL (stay at root or under `runtime/`)
+---
+
+## Other root JSONL (operator-local or compat)
 
 | Path | Policy |
 |------|--------|
@@ -69,22 +104,52 @@ See [runtime/operator-events/README.md](../runtime/operator-events/README.md).
 
 ---
 
-## Top-level directories (selected)
+## Nested relocations (legacy → canonical)
 
-| Directory | Lane |
-|-----------|------|
-| `statecraft/` | Geopolitical / judgment operator surface |
-| `singularity/` | Acceleration / agency operator surface |
-| `codex/` | Chronology and strategy-codex corpus |
-| `docs/` | Doctrine, skill-work, workflows |
-| `runtime/` | Derived runtime, operator-events, workflow-depth |
-| `scripts/` | Operator automation |
-| `runtime/artifacts/` | Derived operator dashboards (non-authoritative) |
-| `archive/` | Grace-Mar corpus quarantine |
-| `public/` | Public `ph-civ` publish tree |
-| `essays/` | Cross-channel theses |
+Scripts resolve consolidated paths through `resolve_repo_path(key)` with legacy fallback. Key moves:
 
-Full routing: [LLM-ROUTING.md](../LLM-ROUTING.md).
+| Logical key | Canonical path | Legacy fallback(s) |
+|-------------|----------------|---------------------|
+| `artifacts` | `runtime/artifacts/` | `artifacts/` |
+| `daily-handoff` | `runtime/daily-handoff/` | `daily-handoff/` |
+| `prepared-context` | `runtime/prepared-context/` | `prepared-context/` |
+| `runtime-bundle` | `runtime/bundle/` | `runtime-bundle/` |
+| `apps` | `platform/apps/` | `apps/` |
+| `src` | `platform/src/` | `src/` |
+| `users` | `platform/users/` | `users/` |
+| `skills` | `skills/` | `skills-portable/` |
+| `schema-registry` | `schemas/registry/` | `schema-registry/` |
+| `styles` | `templates/styles/` | `styles/` |
+| `auto-research` | `research/auto-research/` | `auto-research/` |
+| `bridges` | `research/bridges/` | `bridges/` |
+| `evidence` | `archive/placeholders/evidence/` | `evidence/` |
+| `review-queue` | `archive/queues/review-queue/` | `review-queue/` |
+| `bot` | `archive/grace-mar-instance/bot/` | `bot/` |
+
+Full registry: `REPO_PATH_MIGRATIONS` in `scripts/repo_io.py`.
+
+---
+
+## Root files policy (~31 tracked)
+
+GitHub `main` keeps **doctrine, build, deploy, and lane-governance** files at the repository root (not counted in the 20-folder cap). **Profile-derived exports** (`manifest.json`, `session-transcript.md`, `gate-dashboard.html`, …) live under **`archive/grace-mar-instance/`** via `profile_dir()` / `resolve_profile_export_path()`.
+
+| Stay at root | Examples |
+|--------------|----------|
+| Doctrine / routing | `AGENTS.md`, `LLM-ROUTING.md`, `instance-doctrine.md`, `README.md` |
+| Build / deploy | `pyproject.toml`, `Dockerfile`, `requirements*.txt`, `render.yaml` |
+| Lane / template governance | `lanes.yaml`, `template-manifest.json`, `template-source.json` |
+| Skill split surfaces | `skill-think.md`, `skill-write.md`, `skill-steward.md` |
+
+| Nest under profile bundle | Examples |
+|---------------------------|----------|
+| Policy / agent exports | `manifest.json`, `llms.txt`, `intent_snapshot.json`, `fork-manifest.json` |
+| Runtime continuity | `session-transcript.md`, `self-work.md` |
+| Derived views | `gate-dashboard.html`, `evidence-graph.json`, `symbolic_identity.json` |
+
+**Fork lifecycle** (`fork_state.json`, `drift-report.json`) → `platform/users/<fork_id>/` per `grace_mar.fork_state` — not repo root.
+
+**CI:** `python3 scripts/assert_root_profile_exports.py` fails if any `PROFILE_DERIVED_EXPORTS` basename reappears at root.
 
 ---
 
@@ -92,21 +157,27 @@ Full routing: [LLM-ROUTING.md](../LLM-ROUTING.md).
 
 **SSOT:** `scripts/repo_io.py`
 
-- `resolve_repo_path(key)` — consolidated dirs with legacy fallback
-- **Constants:** `ARTIFACTS_DIR`, `SRC_DIR`, `PREPARED_CONTEXT_DIR`, `SKILLS_DIR`, `APPS_DIR`, `BOT_DIR`, …
-- `profile_dir(user_id)` — Grace-Mar instance dir (`archive/grace-mar-instance/`)
-- `resolve_ledger_path(user_id, name)` — operator JSONL ledgers
-- `resolve_last_dream_path(user_id)` / `last_dream_write_path(user_id)` — dream handoff
+| Helper | Role |
+|--------|------|
+| `resolve_repo_path(key)` | Consolidated dir by logical key + legacy fallback |
+| `profile_dir(user_id)` | Grace-Mar Record root (`archive/grace-mar-instance/`) |
+| `user_profile_dir(user_id)` | Per-fork dir under `platform/users/<id>/` |
+| `artifacts_dir(base)` | Repo `runtime/artifacts/` or profile-scoped nested artifacts |
+| `src_dir(base)` | Repo `platform/src/` or profile-scoped nested src |
+| `resolve_ledger_path` / `operator_ledger_write_path` | Operator JSONL ledgers |
+| `resolve_profile_export_path(user_id, basename)` | Profile-derived export with optional legacy root read fallback |
+| `derived_export_dir(user_id)` | Alias for `profile_dir(user_id)` (export home) |
 
-**Adoption check:** `python3 scripts/check_repo_path_adoption.py` · **Batch adopt:** `python3 scripts/adopt_repo_path_constants.py --apply`
+**Module constants** (prefer over string paths): `ARTIFACTS_DIR`, `SRC_DIR`, `PREPARED_CONTEXT_DIR`, `SKILLS_DIR`, `APPS_DIR`, `BOT_DIR`, …
 
-**Migration:** `python3 scripts/migrate_root_layout.py --apply` · operator ledgers: `migrate_operator_event_paths.py`
+**Checks:**
 
----
+- Layout cap: `python3 scripts/assert_root_folder_layout.py`
+- Adoption: `python3 scripts/check_repo_path_adoption.py` (CI: `--max-literals 0`)
+- Profile exports: `python3 scripts/assert_root_profile_exports.py`
+- Batch adopt: `python3 scripts/adopt_repo_path_constants.py --apply`
 
-## Deferred (Phase 5)
-
-Relocating the frozen Grace-Mar Record bundle off the root (`self.md`, `recursion-gate.md`, `archive/grace-mar-instance/bot/`, …) is a separate high-risk project — `canonical-paths.md`, `assert_canonical_paths.py`, and many scripts assume `profile_dir()` → `REPO_ROOT`.
+**Migration tooling:** `python3 scripts/migrate_root_layout.py --apply` · path rewrites: `apply_root_path_rewrites.py` · operator ledgers: `migrate_operator_event_paths.py`
 
 ---
 

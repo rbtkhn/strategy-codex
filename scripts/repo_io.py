@@ -173,6 +173,64 @@ def src_dir(base: Path | None = None) -> Path:
     return nested
 
 
+PROFILE_DERIVED_EXPORTS: tuple[str, ...] = (
+    "manifest.json",
+    "llms.txt",
+    "intent_snapshot.json",
+    "fork-manifest.json",
+    "session-transcript.md",
+    "gate-dashboard.html",
+    "telegram_bot_username.txt",
+    "evidence-graph.json",
+    "symbolic_identity.json",
+    "self-work.md",
+)
+
+
+def derived_export_dir(user_id: str) -> Path:
+    """Directory for profile-scoped derived exports (Record bundle home)."""
+    return profile_dir(user_id)
+
+
+def resolve_profile_export_path(
+    user_id: str,
+    basename: str,
+    *,
+    prefer_existing: bool = True,
+) -> Path:
+    """
+    Resolve a profile-scoped derived export with optional legacy root fallback.
+
+    Canonical home: profile_dir(user_id) / basename (e.g. archive/grace-mar-instance/).
+    During soak, returns REPO_ROOT / basename when only the legacy root copy exists.
+    """
+    canonical = profile_dir(user_id) / basename
+    legacy_root = REPO_ROOT / basename
+    if prefer_existing and legacy_root.is_file() and not canonical.is_file():
+        return legacy_root
+    return canonical
+
+
+def resolve_prp_export_path(user_id: str, *, prefer_existing: bool = True) -> Path:
+    """Resolve PRP / self-llm export path for a profile id."""
+    profile = profile_dir(user_id)
+    uid = user_id.strip()
+    if profile.resolve() == REPO_ROOT.resolve():
+        for name in ("self-llm.txt", "grace-mar-llm.txt"):
+            candidate = REPO_ROOT / name
+            if prefer_existing and candidate.is_file():
+                return candidate
+        return REPO_ROOT / "self-llm.txt"
+    primary = profile / f"{uid}-llm.txt"
+    if prefer_existing:
+        if primary.is_file():
+            return primary
+        alt = profile / "self-llm.txt"
+        if alt.is_file():
+            return alt
+    return primary
+
+
 def read_path(path: Path) -> str:
     """Read path as utf-8; return '' if missing."""
     if not path.exists():
@@ -306,7 +364,7 @@ def resolve_surface_markdown_path(
 
     canon = user_dir / f"{surface.canonical_file_stem}.md"
 
-    if surface.canonical_key == "self_archive/placeholders/evidence":
+    if surface.canonical_key == "self_archive":
         if prefer_existing:
             if canon.is_file():
                 return canon

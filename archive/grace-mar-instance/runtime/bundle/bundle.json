@@ -1,0 +1,237 @@
+{
+  "format": "strategy-codex-runtime/bundle",
+  "version": "1.0",
+  "bundle_id": "cb45bb07771f",
+  "generated_at": "2026-06-19T08:15:57.360119+00:00",
+  "user_id": "strategy-codex",
+  "runtime_mode": "adjunct_runtime",
+  "runtime_mode_description": "Assistive runtime alongside the canonical repo.",
+  "degraded_mode": {
+    "enabled": true,
+    "reason": "intent.md missing or invalid; intent_snapshot exported with ok=false"
+  },
+  "lanes": {
+    "record": {
+      "canonical": true,
+      "paths": [
+        "record\\USER.md",
+        "record\\fork-export.json",
+        "record\\self-llm.txt"
+      ]
+    },
+    "policy": {
+      "canonical": false,
+      "note": "Canonical policy surfaces; not identity truth.",
+      "paths": [
+        "policy\\intent_snapshot.json",
+        "policy\\llms.txt",
+        "policy\\manifest.json"
+      ]
+    },
+    "runtime": {
+      "canonical": false,
+      "note": "Continuity aids only. Do not treat as Record truth.",
+      "paths": [
+        "runtime\\self-memory.md",
+        "runtime\\session-log-tail.md",
+        "runtime\\warmup.md"
+      ]
+    },
+    "audit": {
+      "canonical": false,
+      "note": "Append-only replay and provenance surfaces.",
+      "paths": [
+        "audit\\pipeline-events.jsonl",
+        "audit\\merge-receipts.jsonl",
+        "audit\\fork-manifest.json"
+      ]
+    },
+    "fork_history": {
+      "canonical": false,
+      "note": "Fork lifecycle state, lineage tail, recent sessions — not identity truth.",
+      "paths": [
+        "fork-history\\fork-lineage.jsonl"
+      ]
+    }
+  },
+  "canonical_instance_note": "The git-backed Grace-Mar repo remains canonical. This bundle is transport and runtime support, not a new memory authority.",
+  "freshness": {
+    "source_files": {
+      "self": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\self.md",
+        "size_bytes": 6991,
+        "mtime": "2026-05-21T17:00:37.882771+00:00",
+        "sha256": "0df859ce8d1581c0417213ed110d521c58ea6213224a268da426c9571321e662"
+      },
+      "skills": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\self-skills.md",
+        "size_bytes": 1712,
+        "mtime": "2026-05-07T00:40:47.920248+00:00",
+        "sha256": "d458222edc804f21d39ea4573b191756ee20e1f74403284e71036958ed25cd0e"
+      },
+      "self_skills": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\self-skills.md",
+        "size_bytes": 1712,
+        "mtime": "2026-05-07T00:40:47.920248+00:00",
+        "sha256": "d458222edc804f21d39ea4573b191756ee20e1f74403284e71036958ed25cd0e"
+      },
+      "skill_think": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\skill-think.md"
+      },
+      "skill_write": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\skill-write.md"
+      },
+      "skill_steward": {
+        "exists": false,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\skill-steward.md"
+      },
+      "archive/placeholders/evidence": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\self-archive.md",
+        "size_bytes": 55485,
+        "mtime": "2026-06-19T07:53:06.353573+00:00",
+        "sha256": "8b61221121949ad5946ce7c4f46686d829de85798dbaa927074a4ff9a5b77c1c"
+      },
+      "self_archive/placeholders/evidence": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\self-archive.md",
+        "size_bytes": 55485,
+        "mtime": "2026-06-19T07:53:06.353573+00:00",
+        "sha256": "8b61221121949ad5946ce7c4f46686d829de85798dbaa927074a4ff9a5b77c1c"
+      },
+      "library": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\self-library.md",
+        "size_bytes": 88842,
+        "mtime": "2026-06-19T07:46:40.070263+00:00",
+        "sha256": "1f4f7fc7dea7875c9ba64247a7167984364275618674e0ce9f40580124560a36"
+      },
+      "intent": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\intent.md",
+        "size_bytes": 2671,
+        "mtime": "2026-06-19T07:46:40.044388+00:00",
+        "sha256": "5adc51495f5a2d46e0a8fa7ece8b73b9dc57a37241f154f778033d4309628068"
+      },
+      "session_log": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\session-log.md",
+        "size_bytes": 3362,
+        "mtime": "2026-05-22T15:23:22.799516+00:00",
+        "sha256": "0761573523321b460ff02e5a37d25ccf99bbe03095b081c41ce86d01f1dbb3ab"
+      },
+      "memory": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\self-memory.md",
+        "size_bytes": 5233,
+        "mtime": "2026-06-19T07:53:06.363475+00:00",
+        "sha256": "9485e9a0fd8e770e6ce77301eeaf227dccba5fe22595fabcf2537bc9821ce5fb"
+      },
+      "prompt": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\bot\\prompt.py",
+        "size_bytes": 13797,
+        "mtime": "2026-06-19T07:46:40.642612+00:00",
+        "sha256": "70c32d18fb718b37f88f3daf24e6c37a3591e31c4fb814d17261806f0261f0cd"
+      }
+    },
+    "derived_files": {
+      "record\\USER.md": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\record\\USER.md",
+        "size_bytes": 116,
+        "mtime": "2026-06-19T08:15:57.360887+00:00",
+        "sha256": "b73cfe522902e6fcff6376675fefd29eafeddc605571d18cce0ac4c59b000601"
+      },
+      "record\\fork-export.json": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\record\\fork-export.json",
+        "size_bytes": 315652,
+        "mtime": "2026-06-19T08:15:57.401799+00:00",
+        "sha256": "61ac2d99926c77a4dfc9a4ace27f14b9e62f12048a206089ca21aa32093ae310"
+      },
+      "record\\self-llm.txt": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\record\\self-llm.txt",
+        "size_bytes": 150,
+        "mtime": "2026-06-19T08:15:57.403533+00:00",
+        "sha256": "aebc6256f84565b09d132c024ac75265cf35207b4588fc5f2910072efac0d622"
+      },
+      "policy\\manifest.json": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\policy\\manifest.json",
+        "size_bytes": 4167,
+        "mtime": "2026-06-19T08:15:57.404541+00:00",
+        "sha256": "07fcddf9be2bfebb96e4ea59f230fb15fa02be7c16d3ecb4e8f07ce51758d475"
+      },
+      "policy\\llms.txt": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\policy\\llms.txt",
+        "size_bytes": 1531,
+        "mtime": "2026-06-19T08:15:57.405540+00:00",
+        "sha256": "7409ca7a8ba8ec7e94e0babf119a21fd49d596ef560d79f4ce88f482b26a8d71"
+      },
+      "policy\\intent_snapshot.json": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\policy\\intent_snapshot.json",
+        "size_bytes": 309,
+        "mtime": "2026-06-19T08:15:57.406045+00:00",
+        "sha256": "f3a7d8981e32cf9393e7c77a213fb7e986f190dc7153c7d9b52aa18d2fc0734b"
+      },
+      "runtime\\warmup.md": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\runtime\\warmup.md",
+        "size_bytes": 1643,
+        "mtime": "2026-06-19T08:15:57.407555+00:00",
+        "sha256": "bbc475bd009874a5f1b3ee60eaff6d01801f9d99fc929ea2050973809eb4cdc3"
+      },
+      "runtime\\session-log-tail.md": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\runtime\\session-log-tail.md",
+        "size_bytes": 1720,
+        "mtime": "2026-06-19T08:15:57.407555+00:00",
+        "sha256": "f51080241d434e48282edcda21717e3b012f62d44abe76d9497ff7b95d7938ba"
+      },
+      "runtime\\self-memory.md": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\runtime\\self-memory.md",
+        "size_bytes": 5323,
+        "mtime": "2026-06-19T08:15:57.408561+00:00",
+        "sha256": "af569c5f0d41cfbb8985afe259bfc4ad50f5b1b56a3e66e9bda44302b4d82980"
+      },
+      "audit\\pipeline-events.jsonl": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\audit\\pipeline-events.jsonl",
+        "size_bytes": 56296,
+        "mtime": "2026-06-19T08:15:57.408561+00:00",
+        "sha256": "c3094750bf5b3dc2dbce6e34d7db6d43b55cb60a098a67c3c3a7550462c5c2ee"
+      },
+      "audit\\merge-receipts.jsonl": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\audit\\merge-receipts.jsonl",
+        "size_bytes": 10805,
+        "mtime": "2026-06-19T08:15:57.408561+00:00",
+        "sha256": "c63d50b212b301b699f75f8f5182731b1543d7ed29719fdcb59d186945798b94"
+      },
+      "audit\\fork-manifest.json": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\audit\\fork-manifest.json",
+        "size_bytes": 315,
+        "mtime": "2026-06-19T08:15:57.410153+00:00",
+        "sha256": "4ad22d3c2ba2edf6b28f0973e808382e28d325b5344f2367268e1ada4b1c1754"
+      },
+      "fork-history\\fork-lineage.jsonl": {
+        "exists": true,
+        "path": "C:\\dev\\strategy-codex\\archive\\grace-mar-instance\\runtime\\bundle\\fork-history\\fork-lineage.jsonl",
+        "size_bytes": 2360,
+        "mtime": "2026-06-19T08:15:57.410153+00:00",
+        "sha256": "e998df1da28d0149dca68f38881d78f6ec21d23595c1a038b67a98fd201aa731"
+      }
+    }
+  }
+}

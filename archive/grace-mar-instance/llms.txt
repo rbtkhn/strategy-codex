@@ -1,0 +1,54 @@
+# Grace-Mar Record — Agent Manifest
+
+User: strategy-codex
+Checksum: c9cd72c0a4ea8d0c14fd58d97a3ab156f47d57a27583b8d0390d3b358ee38b43
+Generated: 2026-06-19T02:15:57.138488
+Runtime mode: adjunct_runtime
+
+## Degraded Mode
+- enabled: true (intent.md missing or invalid; policy export remains advisory-only until intent is restored)
+
+## Readable
+Agents may read (for personalization, session continuity):
+
+  - SELF/identity
+  - SELF/preferences
+  - SELF/linguistic_style
+  - SELF/personality
+  - SELF/interests
+  - SELF/values
+  - SELF/reasoning
+  - SELF/narrative
+  - SELF/IX-A
+  - SELF/IX-B
+  - SELF/IX-C
+  - SKILLS/THINK
+  - SKILLS/WRITE
+  - SKILLS/STEWARD
+  - WORK/context
+  - EVIDENCE/activity_log
+  - EVIDENCE/writing_log
+  - EVIDENCE/creation_log
+  - LIBRARY/entries
+  - INTENT/goals
+  - INTENT/tradeoff_rules
+
+## Writable
+Agents may stage candidates only. Merge requires user approval.
+
+  - RECURSION-GATE/candidates
+
+## Lanes
+
+  - record: canonical
+  - runtime: non-canonical
+  - audit: non-canonical
+  - policy: non-canonical
+
+## Exports
+
+  strategy-codex/openclaw-user.md: python scripts/export_user_identity.py -u strategy-codex -o strategy-codex/openclaw-user.md
+  manifest: python scripts/export_manifest.py -u strategy-codex
+  fork_json: python scripts/export_fork.py -o fork-export.json
+  intent_snapshot: python scripts/export_intent_snapshot.py -u strategy-codex
+  runtime_bundle: python scripts/export_runtime_bundle.py -u strategy-codex --mode adjunct_runtime

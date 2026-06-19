@@ -27,10 +27,9 @@ from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-BOT_DIR = BOT_DIR
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-# Imported after REPO_ROOT so repo_io can load
-from repo_io import profile_dir as _profile_dir, BOT_DIR
+from repo_io import BOT_DIR, profile_dir as _profile_dir  # noqa: E402
 
 
 def _default_user_id() -> str:
