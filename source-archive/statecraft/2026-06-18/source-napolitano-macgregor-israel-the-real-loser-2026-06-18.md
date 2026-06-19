@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-18
 pub_date: 2026-06-18
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Judge Andrew Napolitano
 guest_people:
@@ -24,15 +24,16 @@ channel_slug: judging-freedom
 channel_url: "https://www.youtube.com/@judgingfreedom"
 source_url: "https://www.youtube.com/watch?v=1CJPok38hYA"
 youtube_id: 1CJPok38hYA
-source_note: Operator-pasted transcript; host self-dates Thursday 18 June 2026. Iran–US MOU not peace treaty; Israel as strategic loser; LNG/fertilizer/helium supply-chain shocks; SPR ~2.5–3 weeks left; Trump Beirut-strike criticism + Syria-for-Hezbollah seam; Turkey regional gorilla; Sykes-Picot unwind; Netanyahu Lebanon security-zone hold; Pence self-defense framing; Huckabee US-owes-existence-to-Israel clip; dual-citizen inner-circle seam.
+source_note: "Operator-pasted transcript; host self-dates Thursday 18 June 2026. Iran–US MOU not peace treaty; Israel as strategic loser; LNG/fertilizer/helium supply-chain shocks; SPR ~2.5–3 weeks left; Trump Beirut-strike criticism + Syria-for-Hezbollah seam; Turkey regional gorilla; Sykes-Picot unwind; Netanyahu Lebanon security-zone hold; Pence self-defense framing; Huckabee US-owes-existence-to-Israel clip; dual-citizen inner-circle seam. · ASR pass 2026-06-18."
 evidence_grade: transcript-bearing
 opening_tier: full-scaffold
 transcript_wrapper_tier: raw_paste
 napolitano_sponsor_trim_applied: true
-editorial_note: Canned sponsor read trimmed in place; SSOT body otherwise preserved.
 napolitano_leading_noise_trim_applied: true
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 12 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Canned sponsor read trimmed in place; SSOT body otherwise preserved."
+quality_note: "ASR normalization pass 2026-06-18; ph-civ replacement SSOT."
 ---
-
 # COL. Douglas Macgregor : Israel The Real Loser
 
 **Channel:** Judging Freedom (Judge Andrew Napolitano)  
