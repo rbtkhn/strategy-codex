@@ -28,7 +28,7 @@ Roman self-narration, republic, and empire formation:
 
 - Polybius, *Histories*
 - Livy, *Ab Urbe Condita*, especially the republic-and-founding books
-- Lucretius, *De Rerum Natura*
+- Lucretius, *De Rerum Natura* *(science-spine-formation — Latin natural philosophy)*
 - Cicero, *De Re Publica*
 - Cicero, *De Legibus*
 - Cicero, *De Officiis*
@@ -46,11 +46,11 @@ Roman self-narration, republic, and empire formation:
 - Tacitus, *Annals*
 - Tacitus, *Histories*
 - Plutarch, *Lives*
-- Pliny the Elder, *Natural History*
+- Pliny the Elder, *Natural History* *(science-spine-formation — encyclopedic observation)*
 - Marcus Aurelius, *Meditations*
 - Cassius Dio, *Roman History*
 - Vegetius, *De Re Militari* *(military-spine — procedural branch)*
-- Frontinus, *Strategemata* *(military-spine — stratagem catalog)*
+- Frontinus, *Strategemata* *(military-spine — stratagem catalog)* · *De Aquis Urbis Romae* *(science-spine-formation — aqueduct procedure; B2 dual encode)*
 - Ammianus Marcellinus, *Res Gestae* *(history — late empire field army)*
 - Agathias, *Histories* *(military-spine — East-bridge historian)*
 - Procopius, *Wars* *(military-spine — Justinian reconquest narrative)*
@@ -59,8 +59,8 @@ Roman self-narration, republic, and empire formation:
 
 Law, order, and imperial continuity:
 
-- The Twelve Tables, where recoverable
-- Gaius, *Institutes*
+- The Twelve Tables, where recoverable *(science-spine-formation — juridical opener)*
+- Gaius, *Institutes* *(science-spine-formation)*
 - *Digest* / *Digesta*
 - *Codex Justinianus*
 - Theodosian Code
@@ -89,6 +89,14 @@ Christian and late-imperial hinge *(faith-spine + legacy)*:
 - Eusebius, *Life of Constantine*
 - Libanius, *Orations*
 - Paulus Orosius, *Seven Books of History Against the Pagans*
+
+Science spine shelf *(S1 Greek inheritance · S2 Roman engineering)*:
+
+- Euclid, *Elements* *(science-spine-inheritance — S1)*
+- Archimedes, selected works *(science-spine-inheritance — S1)*
+- Hippocrates, selected corpus *(science-spine-inheritance — cross-ref Galen formation)*
+- Ptolemy, *Almagest* *(science-spine-inheritance — S1)*
+- Vitruvius, *De Architectura* *(science-spine-formation — S2)*
 
 Ancient retrieval priority:
 - founding and civic mythology

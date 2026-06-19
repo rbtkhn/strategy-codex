@@ -76,6 +76,20 @@ Heresies, expulsions, dualist rivals, sacred ruptures. Placement: [Faith spine](
 
 **Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](essays/faith-history-rome.md)
 
+## Science history — entropy lens {#science-history-entropy-lens}
+
+Shock and censorship degrading procedural carry. SSOT rupture rows on entropy; science cross-ref text survival.
+
+| Node | Notes | Tag(s) |
+|------|-------|--------|
+| **476 / 1204 / 1453** | Rupture primary — science migration cross-ref (M1) | cross-ref science |
+| **Galileo 1633 / Index** | Censorship / institutional shock (M2) | cross-ref faith |
+| **1789** | Sacred/political rupture — science 1804 terminus separate (M4) | cross-ref science |
+| Colonial decolonization | Wind-down — science export `contested-weight` parallel (M5) | **`contested-weight`** |
+| Law as rhetoric | Medium/institution decouple — courts collapsed → science | cross-ref science |
+
+**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science (Rome)](rome-science.md) · [Science history (essay)](essays/science-history-rome.md)
+
 ## Whole-work term
 
 [Entropy](../../theory/entropy.md) — historical causes and manifestations of civilizational degradation.

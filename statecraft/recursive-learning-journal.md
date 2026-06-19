@@ -2153,3 +2153,53 @@ encode force carriers once on memory, rosters on empire/civilization, diagnose s
 ```
 
 Routing: civ-state **v0.1.28** · [military spine](../public/civ-state/volumes/rome/rome-memory.md#military-spine).
+
+## 2026-06-18 — Rome science history: science-spine fifth parallel dimension
+
+### Trigger
+
+Operator elicitation (Blocks A–O) locked `#science-spine` as fifth parallel row (chain · language · military · faith · science). v0.1.30 encode: inheritance / formation / eastern / western sub-tables; Italy ║ France western branches; Faith/Entropy/Language choreography tables; shelf S1–S8; six term **Science history** segments.
+
+### Extracted law
+
+```text
+Evidentiary/procedural continuity gains a parallel science dimension:
+one cross-term science-spine (rome-memory#science-spine)
+plus per-lens filtered science segments — rupture primary stays on entropy;
+science owns observation/codification; Galileo triple-home (science · faith trial · entropy censorship);
+no present-period science spine rows (E2); colonial Rosetta tail uses contested-weight.
+```
+
+Cross-read: [2026-06-18 Rome faith history entry](#2026-06-18---rome-faith-history-faith-spine-fourth-parallel-dimension) — science fork extends prior parallel-spine ladder; Frontinus B2 dual encode (science De Aquis · military Strategemata).
+
+### Reapplication
+
+- **Next civ with codification + university formation** (China, Persia): elicit eastern reception row + western branch split before term segments.
+- **Science placement queries:** `governing-term-first` step 8 → `#science-spine` + sub-anchor when procedure/evidence governs.
+- **Choreography tables** in essay for faith/science/entropy/language delineation — not duplicated in every spine cell.
+
+### Structural changes
+
+- `rome-memory.md` — `#science-spine` + four sub-tables + boundary rules + choreography tags
+- `rome-empire.md` · `rome-civilization.md` — split science rosters
+- Six `rome-{term}.md` — **Science history — {term} lens**
+- `essays/science-history-rome.md`, primary shelf S1–S8 tags, `governing-term-first` step 8
+- `public/civ-state/docs/VERSION` — **v0.1.30**
+
+### Guardrail
+
+```text
+Do not assign science primary rows to Reformation/TYW/1789 ruptures — entropy owns rupture;
+Code civil (1804) is separate from 1789;
+do not collapse Italy and France western branches into one actor row.
+```
+
+### Current lesson
+
+```text
+Science grammar mutates through codification and evidentiary institutions —
+encode procedure carriers once on memory, rosters on empire/civilization, diagnose six ways on the terms;
+faith trial and entropy censorship cross-ref, not duplicate, on hot nodes (Galileo, Index).
+```
+
+Routing: civ-state **v0.1.30** · [science spine](../public/civ-state/volumes/rome/rome-memory.md#science-spine).

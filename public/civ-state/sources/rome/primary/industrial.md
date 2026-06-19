@@ -20,7 +20,7 @@ Italy as territorial shell and national Roman memory:
 
 France as secular-Catholic statecraft carrier:
 
-- *Code Napoleon*
+- *Code Napoleon* *(science-spine-western — Code civil terminus cross-ref · S5)*
 - *Organic Articles* (1802)
 - Alexis de Tocqueville, *The Old Regime and the Revolution*
 - Ernest Renan, *What Is a Nation?*
@@ -97,3 +97,8 @@ Industrial retrieval priority:
 - social doctrine as public speech after empire
 - secularization, nationalism, and mass politics as constitutive internal trial
 - 1991 as the terminal end of the industrial shelf before the post-1991 cybernetic residue field
+
+Science spine shelf *(S8 colonial evidentiary export)*:
+
+- Rosetta Stone inscription *(pointer — science-spine-western colonial tail · `contested-weight`)*
+- Champollion, *Lettre à M. Dacier* (1822 pointer — S8)

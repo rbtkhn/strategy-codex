@@ -74,6 +74,25 @@ Iberian kingdoms and frontier Christendom:
 - James I of Aragon, *Llibre dels Fets*
 - Alfonso X, *Fuero Real*
 
+Science spine shelf *(S3 Islamic · S4 scholastic/Renaissance · S5 codification · S6 Italy branch · S7 France branch)*:
+
+- Avicenna, *Canon of Medicine* *(science-spine-eastern — S3)*
+- Averroes, Aristotle commentaries *(science-spine-eastern — S3)*
+- al-Kindi, selected works *(science-spine-eastern — S3 pointer)*
+- Boethius, *Consolation of Philosophy* *(science-spine-western — logic bridge; cross-ref above)*
+- Aquinas, *Summa Theologica* *(science-spine cross-ref — faith sacred synthesis primary)*
+- Galileo, *Dialogue Concerning the Two Chief World Systems* *(science-spine-western — Italy branch · S4/S6)*
+- Galileo, *Two New Sciences* *(science-spine-western — Padua cross-ref · S6)*
+- Leonardo da Vinci, notebooks *(pointer — science-spine-western Italy branch)*
+- Vesalius, *De humani corporis fabrica* *(science-spine-western — Bologna cross-ref · S6)*
+- Accademia dei Lincei founding documents *(pointer — S6)*
+- Univ. Bologna · Siena · Padua · Naples statutes *(pointers — S6)*
+- Descartes, *Discourse on Method* · *Meditations* *(science-spine-western — France branch · S7)*
+- Pascal, *Pensées* · hydrostatics *(science-spine-western — S7)*
+- Lavoisier, *Traité élémentaire de chimie* *(science-spine-western — S7)*
+- Diderot, *Encyclopédie* *(selection — S7; language medium cross-ref)*
+- Academy of Sciences statutes *(pointer — S7)*
+
 Medieval retrieval priority:
 - Christianization without false civilizational death
 - the Eastern Roman Empire as continuity state rather than appendix

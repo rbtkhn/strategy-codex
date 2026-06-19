@@ -15,7 +15,7 @@ Roman sacred grammar survives the republic-to-empire mutation, Christianization,
 
 *Transformed continuity under fractured sovereignty — grammar persists, sovereignty splits, residue carries.*
 
-**Chain doctrine:** [Republic](#chain-spine) opens the political chain; Romulus and Aeneas remain **substrate** only. Full spine: [Chain spine (cross-term index)](#chain-spine) below; **language placement:** [Language spine](#language-spine); **military placement:** [Military spine](#military-spine); **faith placement:** [Faith spine](#faith-spine); term-filtered segments on each [rome-{term}.md](README.md).
+**Chain doctrine:** [Republic](#chain-spine) opens the political chain; Romulus and Aeneas remain **substrate** only. Full spine: [Chain spine (cross-term index)](#chain-spine) below; **language placement:** [Language spine](#language-spine); **military placement:** [Military spine](#military-spine); **faith placement:** [Faith spine](#faith-spine); **science placement:** [Science spine](#science-spine); term-filtered segments on each [rome-{term}.md](README.md).
 
 ## Sovereignty chain — memory lens {#sovereignty-chain-memory-lens}
 
@@ -79,6 +79,7 @@ Canonical placement index — when chain *placement* governs, open here first, t
 - **Language placement** → [Language spine](#language-spine) (parallel dimension; not a second political chain).
 - **Military placement** → [Military spine](#military-spine) (parallel dimension; force structure, not political head).
 - **Faith placement** → [Faith spine](#faith-spine) (parallel dimension; sacred order, not political head).
+- **Science placement** → [Science spine](#science-spine) (parallel dimension; procedural/evidentiary order, not political head).
 
 ## Dual language heritage — memory lens {#dual-language-heritage-memory-lens}
 
@@ -321,6 +322,127 @@ When **which sacred order carries Roman faith grammar** governs, open [Faith spi
 **Boundary rules (faith-spine):**
 - Full rosters live on **empire + civilization** — do not duplicate here.
 - Papacy = `#chain-spine` + `#faith-spine-western` present (`operator-dual-carrier`).
+
+## Science history — memory lens {#science-history-memory-lens}
+
+When **which procedural/evidentiary order carries Roman science grammar** governs, open [Science spine](#science-spine) first, then this segment. Full rosters: [Empire — institutional](rome-empire.md#science-history-empire-lens) · [Civilization — procedural ethic](rome-civilization.md#science-history-civilization-lens).
+
+### Science spine (cross-term index) {#science-spine}
+
+| Sub-anchor | Scope |
+|------------|-------|
+| [#science-spine-inheritance](#science-spine-inheritance) | Greek mathematical / natural / medical substrate |
+| [#science-spine-formation](#science-spine-formation) | Roman applied procedural grammar · engineering · juridical opener |
+| [#science-spine-eastern](#science-spine-eastern) | Byzantine preservation · Islamic transmission · Greek handoff |
+| [#science-spine-western](#science-spine-western) | Scholastic → Italy ║ France branches · codification · colonial export tail |
+
+#### Inheritance {#science-spine-inheritance}
+
+| Row | Procedural carrier | Key nodes | Term affinity | Tag(s) |
+|-----|-------------------|-----------|---------------|--------|
+| Euclid / *Elements* | Mathematical inheritance | geometry · proof grammar | science · civilization | `historical-grounded` |
+| Archimedes | Mathematical / mechanical inheritance | levers · buoyancy | science · civilization | `historical-grounded` |
+| Aristotle natural phil | *Physics* · *De Anima* | natural philosophy substrate | science · civilization | `historical-grounded` |
+| Ptolemy / *Almagest* | Astronomical inheritance | geocentric model | science · civilization | `historical-grounded` |
+| Hippocrates | Medical inheritance cross-ref | corpus tradition | science · civilization | cross-ref formation Galen |
+
+*Greek inheritance ≠ chain mythic substrate* — Aeneas/Troy/Romulus on `#chain-spine` only.
+
+#### Formation {#science-spine-formation}
+
+| Row | Procedural carrier | Key nodes | Term affinity | Tag(s) |
+|-----|-------------------|-----------|---------------|--------|
+| Vitruvius / *De Architectura* | Engineering codification | architecture · machines | science · empire | `historical-grounded` |
+| Frontinus / *De Aquis* | Aqueduct procedural grammar | Rome water supply | science · empire | `historical-grounded` · cross-ref military *Strategemata* (B2) |
+| Roman roads / *cursus publicus* | Infrastructure procedure | logistics · survey | science · empire | `historical-grounded` |
+| Pliny / *Natural History* | Encyclopedic formation | natural observation catalog | science · civilization | `historical-grounded` |
+| Galen | Medical formation | anatomy · humoral theory | science · empire | `historical-grounded` |
+| Lucretius / *De Rerum Natura* | Latin natural philosophy | Epicurean atomism | science · faith | `historical-grounded` · cross-ref faith Stoic/Epicurean |
+| Twelve Tables / Gaius | Juridical procedural opener | codification birth | science · civilization | `historical-grounded` · cross-ref sovereignty segment |
+
+#### Eastern {#science-spine-eastern}
+
+*civ-state parallel transmission legs — not unified historical actor.* **`civ-state-placement`** on trilogy rows.
+
+| Row | Procedural carrier | Key nodes | Term affinity | Tag(s) |
+|-----|-------------------|-----------|---------------|--------|
+| Byzantine preservation | Greek text survival | scriptoria · encyclopedism | science · memory | `civ-state-placement` |
+| Photius / encyclopedism | Eastern leg row | Bibliotheca | science · eastern | `historical-grounded` |
+| **Avicenna / *Canon*** | Islamic medical transmission | science-spine **primary** | science · eastern | `historical-grounded` · faith one-line cross-ref |
+| **Averroes** | Commentaries · Aristotle | science-spine **primary** | science · eastern | `historical-grounded` · faith one-line cross-ref |
+| al-Kindi / House of Wisdom | Translation bureau | Arabic Greek bridge | science · eastern | `historical-grounded` |
+| Justinian *Corpus* East-bridge | Codification hinge | 529 restitution | science · empire · eastern | `historical-grounded` · cross-ref sovereignty |
+
+#### Western {#science-spine-western}
+
+| Row | Procedural carrier | Key nodes | Term affinity | Tag(s) |
+|-----|-------------------|-----------|---------------|--------|
+| Boethius | Logic / scholastic bridge | Latin Greek logic | science · western | `historical-grounded` · `operator-synthesis-chain` |
+| Scholastic procedure | Aquinas cross-ref | faith sacred synthesis separate (K2) | science · western · faith | cross-ref only |
+| Renaissance humanism | Evidentiary content recovery | Greek text return | science · western · language | `historical-grounded` · language medium cross-ref |
+| **Italy branch index** | Observation / anatomy residue | see sub-rows below | science · western | `operator-italy-branch-science` |
+| Galileo | Natural-philosophy rupture | observation · heliocentrism | science · western | `historical-grounded` · Padua cross-ref · trial → faith/entropy |
+| da Vinci | Engineering / observation | notebooks | science · western | `historical-grounded` |
+| Torricelli · Vesalius · Cassini | Named stack | barometer · anatomy · astronomy | science · western | `historical-grounded` · Vesalius ← Bologna |
+| Accademia dei Lincei (1603) | Institutional observation | first academy | science · western | `historical-grounded` |
+| Univ. Bologna (1088) | Medical / anatomy institution | law → sovereignty cross-ref | science · western | `operator-bologna-siena-universities-science` |
+| Univ. Siena (1240) | Medical institution | medieval term | science · western | `operator-bologna-siena-universities-science` |
+| Univ. Padua | Medicine / observation | Galileo tenure cross-ref | science · western | `operator-padua-naples-universities-science` |
+| Univ. Naples (1224) | Medical institution | Federico II | science · western | `operator-padua-naples-universities-science` |
+| **France branch index** | Rationalist / institutional residue | see sub-rows | science · western | `operator-france-branch-science` |
+| Descartes · Pascal · Lavoisier | Named stack | rationalism · hydrostatics · chemistry | science · western | `historical-grounded` |
+| Academy of Sciences (1666) | Institutional Enlightenment | Paris academy | science · western | `historical-grounded` |
+| Encyclopédie | Institutional content | Diderot · d'Alembert | science · western | `historical-grounded` · language medium cross-ref |
+| **Code civil (1804)** | Juridical procedural terminus | post-Revolution codification | science · industrial | `historical-grounded` · cross-ref France branch (F4) |
+| Iberian codification tail | Siete Partidas export | colonial procedural | science · colonial | **`contested-weight`** (E4) |
+| Rosetta / Champollion | Colonial evidentiary export | 1799 · 1822 | science · colonial | `operator-rosetta-stone-science` · **`contested-weight`** |
+
+**Science boundary rules (tagged):**
+
+| Rule | Tag | Text |
+|------|-----|------|
+| Greek inheritance | `historical-grounded` | ≠ chain mythic substrate |
+| Eastern trilogy | `civ-state-placement` | Byzantine · Islamic · Greek handoff — not one actor |
+| Frontinus dual encode | `historical-grounded` | Science *De Aquis* primary · military *Strategemata* cross-ref (B2) |
+| Avicenna/Averroes | `historical-grounded` | Science-primary · faith one-line (E6) |
+| Italy branch | `operator-italy-branch-science` | Roman-continuity residue — not rival chain head |
+| France branch | `operator-france-branch-science` | Parallel to Italy · cross-ref military France branch |
+| Code civil vs France | `historical-grounded` | Separate rows — juridical terminus vs natural phil (F4) |
+| Colonial tail | `contested-weight` | Mandatory on Iberian + Rosetta export (E4 · J4) |
+| Synthesis chain | `operator-synthesis-chain` | Greek→Islamic→scholastic→Galileo→Descartes→Lavoisier (E5) |
+| Galileo trial | `historical-grounded` | Science observation · faith/entropy trial/Index (E3) |
+| No present science row | `historical-grounded` | Mirror military NATO discipline (E2) |
+| Faith↔Science | `operator-faith-science-choreography` | Nine-node table — [essay](essays/science-history-rome.md) |
+| Science↔Entropy | `operator-science-entropy-choreography` | Shock primary / carry cross-ref (M1) |
+| Science↔Language | `operator-science-language-choreography` | Medium vs content split (O1–O4) |
+| 1204 four-way | `historical-grounded` | Military crusade · faith wound · entropy rupture · science codex cross-ref (N1) |
+| 1453 triple | `operator-gunpowder-1453` | Entropy terminus · science reception · military gunpowder (N2) |
+| Reformation/TYW/1789 | `historical-grounded` | Faith+entropy primary · **no science rupture rows** (L1–L4) |
+| Parallel spine index | `historical-grounded` | Fifth spine — volume architecture pilot |
+
+### Term-filtered nodes (science)
+
+| Node | Notes |
+|------|-------|
+| **529** | Justinian *Corpus* — eastern hinge |
+| **1088** | Bologna founding |
+| **1222** | Padua studium |
+| **1224** | Naples · Siena |
+| **1453** | Greek→Latin reception cross-ref — entropy/military primary |
+| **1603** | Accademia dei Lincei |
+| **1633** | Galileo trial — faith/entropy |
+| **1666** | French Academy |
+| **1751+** | Encyclopédie |
+| **1799** | Rosetta |
+| **1804** | Code civil terminus |
+| **1822** | Champollion |
+
+**Cross-reads:** [Empire roster](rome-empire.md#science-history-empire-lens) · [Civilization ethic](rome-civilization.md#science-history-civilization-lens) · [Science](rome-science.md#science-history-science-lens) · [Faith](rome-faith.md#science-history-faith-lens) · [Entropy](rome-entropy.md#science-history-entropy-lens) · [Science history (essay)](essays/science-history-rome.md)
+
+**Boundary rules (science-spine):**
+- Full rosters live on **empire + civilization** — do not duplicate here.
+- Rupture primary rows on **entropy** — science encodes **what text/procedure survives** (M1).
+- Papacy = political head only on `#chain-spine` — not science present row.
 
 ## Roman law — memory lens
 

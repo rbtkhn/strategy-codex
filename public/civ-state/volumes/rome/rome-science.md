@@ -70,6 +70,19 @@ Canon law hybrid · patristic reason · Avicenna/Averroes cross-ref (E6 science-
 
 **Cross-reads:** [Faith spine — formation](rome-memory.md#faith-spine-formation) · [Faith history (essay)](essays/faith-history-rome.md)
 
+## Science history — science lens {#science-history-science-lens}
+
+Full spine routing + codification/engineering depth. Placement SSOT: [Science spine](rome-memory.md#science-spine); sovereignty and dual-language segments above **deepen** — do not duplicate spine tables.
+
+| Sub-anchor | Segment owns |
+|------------|--------------|
+| [#science-spine-inheritance](rome-memory.md#science-spine-inheritance) | Greek mathematical / natural substrate |
+| [#science-spine-formation](rome-memory.md#science-spine-formation) | Roman engineering · juridical opener |
+| [#science-spine-eastern](rome-memory.md#science-spine-eastern) | Transmission trilogy |
+| [#science-spine-western](rome-memory.md#science-spine-western) | Italy ║ France branches · codification tail |
+
+**Cross-reads:** [Science spine (SSOT)](rome-memory.md#science-spine) · [Institutional roster](rome-empire.md#science-history-empire-lens) · [Procedural ethic roster](rome-civilization.md#science-history-civilization-lens) · [Science history (essay)](essays/science-history-rome.md)
+
 ## Whole-work term
 
 [Science](../../theory/science.md) — procedural and evidentiary truth-order.

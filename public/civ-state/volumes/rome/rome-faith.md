@@ -81,6 +81,19 @@ Full spine routing + council depth. Placement SSOT: [Faith spine](rome-memory.md
 
 **Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Institutional roster](rome-empire.md#faith-history-empire-lens) · [Sacred ethic roster](rome-civilization.md#faith-history-civilization-lens) · [Faith history (essay)](essays/faith-history-rome.md)
 
+## Science history — faith lens {#science-history-faith-lens}
+
+Cross-ref when procedural truth-order hybridizes with sacred order. SSOT on [Science spine](rome-memory.md#science-spine) — deepen only.
+
+| Node | Notes | Tag(s) |
+|------|-------|--------|
+| Gratian / Aquinas | Scholastic cross-ref — sacred synthesis on faith spine (K2) | cross-ref |
+| Avicenna / Averroes | Faith one-line · science-primary (E6) | cross-ref |
+| Galileo trial / Index | Sacred boundary — science owns observation (E3) | cross-ref entropy |
+| Trent | Faith western primary — science scholastic cross-ref only (K1) | cross-ref |
+
+**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science — faith lens](rome-science.md#faith-history-science-lens) · [Science history (essay)](essays/science-history-rome.md)
+
 ## Whole-work term
 
 [Faith](../../theory/faith.md) — sacred and moral truth-order.

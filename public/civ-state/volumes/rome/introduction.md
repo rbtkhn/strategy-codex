@@ -14,10 +14,12 @@ Civilization beautifies through law, citizenship, and imperial universality; emp
 
 **Faith history:** Sacred-order parallel dimension; faith placement: [rome-memory — faith spine](rome-memory.md#faith-spine). Essay: [Faith history Rome](essays/faith-history-rome.md).
 
+**Science history:** Evidentiary/procedural parallel dimension; science placement: [rome-memory — science spine](rome-memory.md#science-spine). Essay: [Science history Rome](essays/science-history-rome.md).
+
 **Sacred / civilizational grammar:** Roman law, citizenship, imperial universality, Christianity, papal residue. See [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md).
 
 **Present carrier:** Catholic Church as clearest residue; Eastern Roman Empire as indispensable bridge in the chain narrative.
 
 **Failure mode to avoid:** reading Rome as dead antiquity, or as nostalgia detached from actual continuity carriers.
 
-**Read path:** [Civilization Rome](essays/civilization-rome.md) → [Empire Rome](essays/empire-rome.md) → [Dual language heritage Rome](essays/dual-language-heritage-rome.md) → optional [geo-strategy](essays/geo-strategy-rome.md), [secret-history](essays/secret-history-rome.md), [game-theory](essays/game-theory-rome.md). Source shelf: [shelf reader](shelf-reader.md).
+**Read path:** [Civilization Rome](essays/civilization-rome.md) → [Empire Rome](essays/empire-rome.md) → [Dual language heritage Rome](essays/dual-language-heritage-rome.md) → [Military history Rome](essays/military-history-rome.md) → [Faith history Rome](essays/faith-history-rome.md) → [Science history Rome](essays/science-history-rome.md) → optional [geo-strategy](essays/geo-strategy-rome.md), [secret-history](essays/secret-history-rome.md), [game-theory](essays/game-theory-rome.md). Source shelf: [shelf reader](shelf-reader.md).

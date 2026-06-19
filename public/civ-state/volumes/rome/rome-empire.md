@@ -175,6 +175,38 @@ Institutional sacred carriers — pontificate, patriarchates, caliphal court, cr
 
 **Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](essays/faith-history-rome.md)
 
+## Science history — empire lens {#science-history-empire-lens}
+
+Institutional procedural carriers — codification commissions, translation bureaus, academies, colonial export instruments. Procedural ethic → [Civilization — science lens](rome-civilization.md#science-history-civilization-lens).
+
+### Science carrier types
+
+| Type | Meaning |
+|------|---------|
+| `imperial_engineering` | Vitruvius · Frontinus · public works administration |
+| `juridical_codification` | Twelve Tables · Justinian commission · Code civil export |
+| `translation_bureau` | House of Wisdom cross-ref · scholastic scriptoria |
+| `observatory_instrument` | Lincei · Academy of Sciences · Jesuit mission instrument |
+| `colonial_procedural_export` | Iberian codification · Rosetta evidentiary export |
+
+### Institutional science roster
+
+| Figure / institution | Rome-facing | Load-bearing gift | Carrier type | Term affinity |
+|---------------------|-------------|-------------------|--------------|---------------|
+| **Justinian commission** | yes | *Corpus Juris Civilis* 529 | `juridical_codification` | science · empire |
+| **Vitruvius · Frontinus** | yes | Engineering procedure | `imperial_engineering` | science · empire |
+| **House of Wisdom cross-ref** | yes | Arabic Greek translation | `translation_bureau` | science · eastern |
+| **Accademia dei Lincei** | yes | First observational academy 1603 | `observatory_instrument` | science · western |
+| **Academy of Sciences (1666)** | yes | French institutional Enlightenment | `observatory_instrument` | science · western |
+| **Encyclopédie** | yes | Institutional content project | `observatory_instrument` | science · western |
+| **Jesuit mission instrument** | yes | Colonial observation / transmission | `observatory_instrument` | science · empire · **`contested-weight`** |
+| **Iberian patronato export** | yes | Colonial codification tail | `colonial_procedural_export` | science · colonial · **`contested-weight`** |
+| **Univ. Bologna · Padua · Naples · Siena** | yes | Medical / anatomy institutions | `translation_bureau` | science · western |
+
+**Boundary (empire · science):** Do not duplicate civic procedural ethic — point to [civilization science roster](rome-civilization.md#science-history-civilization-lens).
+
+**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science history (essay)](essays/science-history-rome.md)
+
 ## Whole-work term
 
 [Empire](../../theory/empire.md) — outward instrument and amplification.

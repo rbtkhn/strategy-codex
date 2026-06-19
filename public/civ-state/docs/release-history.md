@@ -4,11 +4,25 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.30** — Rome science history: `#science-spine`, split institutional/procedural-ethic rosters, six term science segments; Italy ║ France western branches; Faith/Entropy/Language choreography tables.
+
 **v0.1.29** — Rome faith history: `#faith-spine`, split institutional/sacred-ethic rosters, six term faith segments; eastern sacred trilogy (Judaism · Eastern Christianity · Islam).
 
 **v0.1.28** — Rome military history: `#military-spine`, split rosters, six term military segments; Eastern Roman Empire terminology alignment.
 
 **v0.1.27** — Rome dual language heritage: `#language-spine`, Greek/Latin rosters, six term language segments; sacred dual-carrier doctrine.
+
+### v0.1.30 — Rome science history encoding
+
+| Change | Detail |
+|--------|--------|
+| `rome-memory.md` | **`#science-spine`** four sub-tables (inheritance · formation · eastern · western) + boundary rules + choreography tags |
+| `rome-empire.md` · `rome-civilization.md` | Split science rosters (institutional · procedural ethic) |
+| `rome-{term}.md` | **`#science-history-{term}-lens`** segments on all six term files |
+| `essays/science-history-rome.md` | Interpretive essay + Faith/Entropy/Language delineation tables |
+| `sources/rome/primary/*.md` | Shelf **S1–S8** science-spine tags |
+| `governing-term-first.md` | Step 8 science placement |
+| Doctrine | Fifth parallel spine; Italy ║ France branches; Rosetta colonial tail; no present science rows (E2) |
 
 ## Timeline
 

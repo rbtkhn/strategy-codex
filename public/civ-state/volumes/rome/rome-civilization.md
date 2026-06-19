@@ -158,6 +158,28 @@ Civic-sacred ethic — public cult, priesthoods, liturgical calendar, citizenshi
 
 **Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](essays/faith-history-rome.md)
 
+## Science history — civilization lens {#science-history-civilization-lens}
+
+Public works ethic, humanist recovery, artisan-observer procedural grammar. **Not** institutional chronicle; academy/codification machinery lives on [Empire — science roster](rome-empire.md#science-history-empire-lens).
+
+### Procedural ethic roster
+
+| Figure / carrier | Rome-facing | Load-bearing gift | Term affinity |
+|------------------|-------------|-------------------|---------------|
+| **Euclid · Archimedes · Ptolemy** | yes | Greek mathematical inheritance | civilization · science |
+| **Vitruvius · Pliny** | yes | Public works · encyclopedic observation | civilization · science · empire |
+| **Lucretius** | yes | Latin natural philosophy | civilization · science · faith |
+| **Galen** | yes | Medical formation ethic | civilization · science |
+| **Renaissance humanism** | yes | Evidentiary Greek recovery | civilization · science · language |
+| **Galileo · da Vinci · Torricelli · Vesalius · Cassini** | yes | Italy branch observation stack | civilization · science |
+| **Descartes · Pascal · Lavoisier** | yes | France branch rationalist stack | civilization · science |
+
+**Analyst chain (roster-indexed):** Euclid → Archimedes → Ptolemy · Vitruvius → Frontinus · Avicenna → Averroes → Boethius → Galileo → Descartes → Lavoisier — **`operator-synthesis-chain`** (E5).
+
+**Boundary (civilization · science):** Ethic roster ≠ institutional chronicle — cross-read [empire science roster](rome-empire.md#science-history-empire-lens).
+
+**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science history (essay)](essays/science-history-rome.md)
+
 ## Whole-work term
 
 [Civilization](../../theory/civilization.md) — inherited order and legitimacy substrate.
