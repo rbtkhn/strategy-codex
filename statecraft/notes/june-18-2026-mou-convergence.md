@@ -16,7 +16,7 @@ This note is the **convergence spine** for `2026-06-18`. It does not replace dai
 - [june-18-2026-mou-hormuz-governance-armistice-note.md](./june-18-2026-mou-hormuz-governance-armistice-note.md) — Pape Day 60 Pt. 5 governance fuse (~mid-Aug)
 - [june-18-2026-mou-dahhiya-backfire-mou-terms-note.md](./june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) — Crooke Dahhiya provocation → Trump improved MOU terms (tier 4 until wire)
 
-**Parent context:** eleven sources in `source-archive/statecraft/2026-06-18/`; [2026-06-18 daily](../daily/2026-06-18.md) published; **Crooke hubris** + **Aguilar Moral Resistance** patch 2026-06-19.
+**Parent context:** eleven sources in `source-archive/statecraft/2026-06-18/`; [2026-06-18 daily](../daily/2026-06-18.md) published; **Crooke hubris** + **Aguilar Moral Resistance** patch 2026-06-19; **Aguilar wire-verify** 2026-06-19 (`verify:` on capture).
 
 ## Core claim
 
@@ -113,7 +113,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 5. **Military vs legal:** Martyanov/Macgregor = cannot sustain fight; Henningsen = will cheat on language even if shooting stops.
 6. **Johnson same-day:** Iran **won’t travel** (Vance ep) vs **they’ll go** (Lebanon ep) — tag episode in child note; **Aguilar aligns skip-travel** (Iran + Vance) but not Johnson “they’ll go.”
 7. **Hubris vs material defeat:** Crooke (regime strengthened, heroic image, **irreversible blow to Israel?**) vs Martyanov/Macgregor (material memo, re-war ceiling) — same object, **different time horizon**.
-8. **Vance sincerity vs legislative bind:** Blumenthal/Martyanov/Johnson (rhetoric jobs) vs **Aguilar** (§224/§622 block = only dispositive US-break test — tier 4 until vote).
+8. **Vance sincerity vs legislative bind:** Blumenthal/Martyanov/Johnson (rhetoric jobs) vs **Aguilar** (§224/§622 block = dispositive US-break test — bills **partial**/advancing; Vance block **unclear**; retest floor vote).
 
 ## Seam 6 — Trump–Israel divergence (Crooke overlay)
 
@@ -135,7 +135,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | **Coupled track** | US and Israel **trains coupled** in negotiation — Israel ops **held against Iran** like Hezbollah held against Iran |
 | **Action spectrum** | Munitions/diplomatic cover cut → sanctions → **US military action vs Israel** (Aguilar **hope**, not wire baseline) |
 | **Facade fork** | Coordinated retreat Kabuki (host) vs genuine fissure — **Iran patience threshold** governs either |
-| **Legislative falsifier** | **§224 NDAA** + **§622 IAA** (Mossad–CIA) advancing while VP talks tough — **tier 4** until floor vote |
+| **Legislative falsifier** | **§224 NDAA** + **§622 IAA** advancing while VP talks tough — **partial** at 2026-06-19 wire pass (bills **supported**; Vance block **unclear**); retest floor vote |
 
 **Best paired with:** **Johnson** Lebanon ep (coupled derail) · **Davis** (Israel not party) · Seam 2 Vance reads.
 
@@ -195,11 +195,11 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 7. **Wire tier:** Katam al-Anbia 84 violations, Channel 14 yellow-line, GAO F-35 25%, SPR public data vs 2.5–4 week band.
 8. **Dahhiya backfire + MOU terms improvement** (Crooke) — upgrades hubris/Lebanon-linkage read if wire confirms; **Unclear** at 2026-06-19.
 9. **Netanyahu standing “plunged”** (Crooke) — requires Israeli polling wire; stays tier 4 until receipt.
-10. **NDAA §224 / IAA §622 advance while Vance talks tough** (Aguilar) — **tier 4** until NDAA/IAA floor markup receipts.
+10. **NDAA §224 / IAA §622 advance while Vance talks tough** (Aguilar) — **partial** at 2026-06-19: H.R.8800 §224 + S.4615 §622 **supported** in committee/mark; **not enacted**; no VP/WH strip move located — Aguilar words-vs-action test **holds**; retest House/Senate floor + enrollment.
 
 ## Post-wire tiers (2026-06-18)
 
-**Wire-verify batch + fact-check deep** (chat passes; not yet on archive YAML):
+**Wire-verify batch + fact-check deep** (chat passes; Aguilar capture **`verify:`** YAML 2026-06-19):
 
 | Hook | Tier | Notes |
 |------|------|-------|
@@ -221,8 +221,10 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 | **US standoff >2–4 weeks** without re-closure (falsifier #3) | **Unclear** (fuse **running**) | MOU 17–18 Jun; ~1–2 days at wire pass — **window not elapsed**; ceasefire holding; Hormuz partial transit ([AP 18 Jun](https://apnews.com/article/strait-of-hormuz-iran-us-shipping-war-01c1335e69e40f2ee921e25e59a18a71)); Trump restart threat = rhetoric ([BBC](https://www.bbc.com/news/articles/crr8z4z2er9o)); **retest ~Jul 2–9** — [falsifier #3 watch](./june-18-2026-mou-falsifier-3-standoff-watch.md); Pt. 5 governance fuse ~mid-Aug — [Hormuz armistice note](./june-18-2026-mou-hormuz-governance-armistice-note.md) |
 | **Dahhiya strike → improved MOU terms** (Crooke) | **Unclear** (tier 4) | Capture-only at wire pass; independent confirmation of **terms delta** post-Sunday Dahhiya **not located** |
 | **Berman “total victory illusions over”** (Crooke embed) | **Partial** | Times of Israel correspondent attribution in capture; full Berman piece **not wire-primary** in pass |
+| **NDAA §224 / IAA §622 advance while Vance talks tough** (falsifier #10; Aguilar) | **Partial** | **Supported** — H.R.8800 §224 US–Israel Defense Technology Cooperation Initiative ([Quincy](https://quincyinst.org/research/cooperation-without-oversight-the-united-states-israel-defense-technology-cooperation-initiative/) · [Military.com](https://www.military.com/israel-ndaa-provision-section-219-faces-bipartisan-blowback-from-house-lawmakers)); S.4615 §622 SSCI 20 May ([SSCI](https://www.intelligence.senate.gov/2026/05/20/intelligence-authorization-act-for-fiscal-year-2027-as-reported-on-may-20-2026/) · [Military.com](https://www.military.com/section-622-amendment-make-israel-intelligence-sharing-harder-to-reduce)); HASC kept §224 — **not enacted**. **Unclear** — VP/WH move to block either provision. Aguilar Mossad–CIA “permanent bind” = capture characterization (tier 4). Cross-ref [Aguilar Moral Resistance capture](../../source-archive/statecraft/2026-06-18/source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md) |
+| **Huckabee “no America without Israel” vs Vance same-cycle** (Aguilar seam 7) | **Supported** | [JPost 16–17 Jun](https://www.jpost.com/american-politics/article-899637) · [JNS](https://www.jns.org/news/u-s-news/us-envoy-ties-israels-heritage-to-americas-founding) · [MEM 18 Jun](https://www.middleeastmonitor.com/20260618-us-envoy-says-without-israel-there-would-be-no-america/) vs Vance 18 Jun ([AP](https://apnews.com/article/israel-vance-iran-us-trump-1e04959ec2dc43f367412d488b567e02)) |
 
-**Open falsifiers:** **#3 only** (time-gated — standoff fuse running); #1–2, #4–6 **not triggered** at 2026-06-19 wire pass.
+**Open falsifiers:** **#3 only** (time-gated — standoff fuse running); #1–2, #4–6 **not triggered** at 2026-06-19 wire pass. **#10 watch** — legislative bind **partial** (bills advancing; Vance block unclear); retest floor vote.
 
 **Child notes (2026-06-19):** [falsifier #3 standoff watch](./june-18-2026-mou-falsifier-3-standoff-watch.md) · [Hormuz governance armistice](./june-18-2026-mou-hormuz-governance-armistice-note.md) (Pape Day 60)
 
@@ -230,5 +232,5 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 
 - **`state-synthesis`** for `2026-06-18` — [daily published](../daily/2026-06-18.md); Crooke hubris in Theme 7; carry **Post-wire tiers** into verify column.
 - **Multi-lens register split** — [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) (promoted from chat pass).
-- Optional: **`verify:`** YAML tails on Davis capture if process-clock hooks need archive receipts beyond Henningsen + Johnson Vance (Lebanon #1 + weapons #4 wired 2026-06-19).
+- Optional: **`verify:`** YAML tails on remaining MOU-core captures — Aguilar **done** 2026-06-19; Davis if process-clock hooks need archive receipts beyond Henningsen + Johnson Vance (Lebanon #1 + weapons #4 wired 2026-06-19).
 

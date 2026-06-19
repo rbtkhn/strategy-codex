@@ -27,10 +27,36 @@ capture_note: Operator-pasted YouTube transcript; Moral Resistance × Aguilar br
 evidence_grade: transcript-bearing
 opening_tier: host-breaking
 transcript_wrapper_tier: paste-asr
-source_note: "Musk validates Vance Israel critique; Iran cancels Switzerland travel; Vance trip cancelled; Lebanon ferocious strikes; MOU pause not blown up; NDAA §224 + IAA §622 Mossad-CIA bind; Vance too little too late; US must constrain Israel or deal fails; Huckabee vs Vance split; facade/Kabuki theories; Iran patience threshold; Khamenei yields to Pezeshkian; Zionist influencer tantrum; B-52 crash Zionist posts; US action spectrum incl Aguilar hope for action vs Israel; cross-ref J18 Johnson×2 + J17 Aguilar MOU read. · ASR pass 2026-06-19."
+source_note: "Musk validates Vance Israel critique; Iran cancels Switzerland travel; Vance trip cancelled; Lebanon ferocious strikes; MOU pause not blown up; NDAA §224 + IAA §622 Mossad-CIA bind; Vance too little too late; US must constrain Israel or deal fails; Huckabee vs Vance split; facade/Kabuki theories; Iran patience threshold; Khamenei yields to Pezeshkian; Zionist influencer tantrum; B-52 crash Zionist posts; US action spectrum incl Aguilar hope for action vs Israel; cross-ref J18 Johnson×2 + J17 Aguilar MOU read. verify:wire-supported NDAA §224 H.R.8800 FY27 House mark; verify:wire-supported IAA §622 S.4615 SSCI 20 May; verify:wire-supported Vance twothirds/AP 18 Jun; verify:wire-supported Huckabee no-America-without-Israel JPost/JNS 16–18 Jun; verify:wire-partial Iran/Vance Switzerland deferral (cross-ref Johnson CkCnhwTp5Rw); verify:wire-partial Musk Valid points (host-reported; X primary not pulled); verify:wire-unclear Vance will block §224/§622 (Aguilar action test). · ASR pass 2026-06-19."
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 34 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript; ASR artifacts retained (offag, cander, traders, BB, etc.); promo close retained; not human-verified verbatim."
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 34 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript; ASR artifacts retained (offag, cander, traders, BB, etc.); promo close retained; not human-verified verbatim. Wire-verify header pass 2026-06-19."
 quality_note: "ASR normalization pass 2026-06-19; ph-civ replacement SSOT."
+verify_receipt: 2026-06-19
+verify:
+  - claim: NDAA §224 US-Israel Defense Technology Cooperation Initiative in legislative process
+    verdict: supported
+    note: H.R.8800 FY27 House NDAA §224 (mark also renumbered §219); Quincy Institute · Military.com · Newsweek · AIPAC memo; HASC kept provision — not enacted at wire pass
+  - claim: IAA §622 US-Israel intelligence sharing enhancement (Tom Cotton / SSCI)
+    verdict: supported
+    note: S.4615 Sec. 622 reported 20 May 2026 · SSCI · Military.com · congress.gov PDF; expands sharing + limits suspension — not enacted; Aguilar Mossad-CIA permanent bind = characterization (tier 4)
+  - claim: Vance twothirds defensive weapons / smell the reality (18 Jun White House briefing)
+    verdict: supported
+    note: AP 18 Jun · JTA 18 Jun · Washington Examiner 18 Jun; cross-ref source-alkorshid-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md
+  - claim: Iran and Vance skip Switzerland travel; MOU talks paused (same-day host seam)
+    verdict: partial
+    note: MOU digitally signed 17–18 Jun; Iran no Switzerland ceremony (CNN 17 Jun); Burgenstock delayed 19 Jun (SCMP); cross-ref Johnson CkCnhwTp5Rw — travel deferred not abandoned
+  - claim: Elon Musk posted Valid points on Vance Israel critique
+    verdict: partial
+    note: Host-reported Moral Resistance stream; desk synthesis cites X reply — primary Musk post not wire-pulled in pass (tier 3c pending)
+  - claim: Huckabee US would not exist without Israel (ambassador vs Vance lane)
+    verdict: supported
+    note: JPost 16–17 Jun · JNS · Middle East Monitor 18 Jun; Herodium/West Bank heritage conference; counters Trump G7 without-US-no-Israel line — same-cycle split with Vance 18 Jun
+  - claim: Vance will block §224/§622 as dispositive US-Israel break test (Aguilar)
+    verdict: unclear
+    note: No VP/WH move to strip either provision located; both advancing in committee — normative action test not wire fact
+  - claim: US military action against Israel if Lebanon ops continue (Aguilar aspiration)
+    verdict: out of scope
+    note: Officer register forecast — not wire-grade; contradicted as policy baseline (no DoD/State hold on Israel ops at pass)
 ---
 # BREAKING: ELON MUSK ATTACKS ISRAEL, JD VANCE SWITZERLAND TRIP CANCELLED w/ LT COL Anthony Aguilar
 
