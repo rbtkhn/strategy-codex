@@ -39,9 +39,12 @@ Shock → entropy first. Carry → science first. Rupture on entropy does not ca
 |---|------|---------|---------|------------------|
 | 1 | 476 / 1204 / 1453 | Rupture primary | Migration cross-ref | 1204 crusade · 1453 gunpowder · faith 1204 wound |
 | 2 | Galileo | Censorship shock | Observation | Faith trial/Index |
+| 3 | **1453 (detail)** | East terminus **primary** | Greek→Latin reception cross-ref | Gunpowder/siege co-equal · faith sacral cross-ref (N2/M3) |
 | 3b | Frontinus | Catastrophic siege only (1453) | *De Aquis* primary | *Strategemata* cross-ref |
 | 4 | 1789 vs 1804 | 1789 rupture | 1804 Code civil terminus | Faith 1789 |
 | 5 | Colonial tail | Decolonization wind-down | Export · Rosetta · `contested-weight` | Mission cross-ref |
+| 6 | Law as rhetoric | Medium/institution decouple | Codification peaks survive as procedure | — |
+| 7 | Present period | NATO footnote (military) | **No present science rows** (E2) | Mirror military NATO discipline |
 
 ### Science ↔ Language (five nodes)
 
