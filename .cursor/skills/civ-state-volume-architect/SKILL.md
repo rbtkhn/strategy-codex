@@ -114,6 +114,12 @@ Optional sub-lenses beneath **Empire**:
 - `secret-history-<civ>.md`
 - `game-theory-<civ>.md`
 
+### Multi-term essay membrane (six `{civ}-{term}.md` volumes)
+
+When a volume adds parallel term theory files (civilization · empire · faith · science · memory · entropy), essays split into **three tiers** — constitutional · history sub-lens · hexagonal demonstrator. Stand up **connectivity map → hexagonal template → registry → bodies → Bridge blocks** before demonstrator encode; essays **link term SSOT**, never extend rosters.
+
+Machine law: [essay-membrane-law.md](../../../statecraft/patterns/essay-membrane-law.md) · Rome proof: [connectivity-rome.md](../../../public/civ-state/volumes/rome/essays/connectivity-rome.md).
+
 Legacy (workshop merge target, not reader-facing):
 
 - `statecraft-<civ>.md`
@@ -170,6 +176,7 @@ This skill succeeds when a CIV-STATE volume reads like a stable constitutional b
 - Primary membrane notes:
   - [ph-civ-to-civ-state-bridge.md](../../../statecraft/states/ph-civ-to-civ-state-bridge.md)
   - [ph-civ-promotion-ledger.md](../../../statecraft/states/ph-civ-promotion-ledger.md)
+  - [essay-membrane-law.md](../../../statecraft/patterns/essay-membrane-law.md) — three-tier essay routing for multi-term volumes
 - Companion architecture-adjacent skills:
   - [civ-state-volume-harden](../civ-state-volume-harden/SKILL.md)
   - [statecraft-framework](../statecraft-framework/SKILL.md)

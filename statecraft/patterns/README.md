@@ -21,6 +21,7 @@ Open this folder when the question is:
 - [Bridge doctrine](bridge-doctrine.md) - explicit transition objects for layers that are often confused in practice
 - [Lane-hardening law](lane-hardening-law.md) - the compact operator rule for when a lane has earned bounded entry, route discipline, a bridge, and a native proof anchor
 - [Doctrine-hardening law](doctrine-hardening-law.md) - split architecture, routes, continuity hypotheses, and interpretation before promoting corpus-level doctrine
+- [Essay membrane law](essay-membrane-law.md) - three essay tiers (constitutional · history sub-lens · hexagonal demonstrator) for multi-term civ-state volumes; prep-before-encode routing sequence
 
 ## Journal Distinction
 

@@ -4,7 +4,7 @@
 
 ## Where This Sits
 
-**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](connectivity-rome.md). Do **not** duplicate term-file rosters; link segment anchors only.
+**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](connectivity-rome.md). Machine law: [essay-membrane-law](../../../../../statecraft/patterns/essay-membrane-law.md). Do **not** duplicate term-file rosters; link segment anchors only.
 
 **Not:** constitutional continuity ([Civilization Rome](civilization-rome.md) · [Empire Rome](empire-rome.md)) · single-dimension depth ([history essays](README.md#optional-sub-lenses)).
 

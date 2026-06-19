@@ -2314,3 +2314,5 @@ then wave-1 demonstrators prove the membrane without touching term rosters again
 ```
 
 Routing: [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md) · [hexagonal template](../public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md) · civ-state **v0.1.31** (encode) · commits `4e7a0b1f3` · `e9bd85aa2` · `5ddef0d64`.
+
+**Pattern promotion:** [essay-membrane-law.md](../patterns/essay-membrane-law.md) — Rome proof object; full ladder gate = second multi-term volume reuse.
