@@ -347,9 +347,9 @@ def sync_one(
     appendix_block = ""
     if apx and apx.is_file():
         apx_text = apx.read_text(encoding="utf-8").strip()
-        appendix_block = f"\n\n## Cursor / grace-mar instance\n\n{apx_text}\n"
+        appendix_block = f"\n\n## Cursor / strategy-codex instance\n\n{apx_text}\n"
     elif apx_rel:
-        appendix_block = f"\n\n## Cursor / grace-mar instance\n\n_(appendix missing: {apx_rel})_\n"
+        appendix_block = f"\n\n## Cursor / strategy-codex instance\n\n_(appendix missing: {apx_rel})_\n"
 
     out = _dump_frontmatter(meta_out) + body.lstrip("\n") + appendix_block
 
