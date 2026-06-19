@@ -22,10 +22,10 @@ source_note: Operator-pasted transcript; host self-dates Thu 18 Jun 2026. Moscow
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 capture_note: Operator paste; full solo program body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio.
+editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved.
 transcript_wrapper_tier: clean
+mercouris_close_promo_trim_applied: true
 ---
-
 # Russia Warns Iran Beware US Trap; US Signs MoU On Iran Terms; EU Offers Talks Russia 'Uninterested'
 
 **Channel:** Alexander Mercouris (solo)  
@@ -144,5 +144,3 @@ Obviously, this is a device to supply weapons to Ukraine, heavy weapons, missile
  There is, in other words, a loss of face. And that inevitably, even if everyone is too polite to speak about it, that inevitably is going to affect the overall dynamics of any discussions that take place between the Americans and the Russians. Now my own clear view is that the focus that the Russians from this point have will continue to be on the military developments.
 And I noticed that the first deputy speaker of the doomer, a very important official within the Russian parliamentary system, now says that the Russians need to take a more aggressive approach on the front lines. And he is now speaking clearly about the neeper being the next objective after the fall of Donbass.
 and he is the first senior Russian official that I am familiar with who has finally spoken about the need to capture Kiev as well. Perhaps he is speaking for himself, but I think what he is expressing is the general mood at this time in Moscow. Well, this is where I finish today's program.
- Let me remind you again that you can find all our programs on our various platforms, Locals, Rumble, X, and Substack. You can support our work via Patreon and Subscribe Star and by going to our shop links under this video. Last but not least, please remember to tick the like button and to check your subscription to this channel. That's me for today. More from me soon.
-Have a very good day.
