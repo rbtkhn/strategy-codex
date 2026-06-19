@@ -2570,3 +2570,68 @@ One path, one turn, one Shell call — verify the hunk, sync once at phase end.
 Routing: [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · [recursive-learn skill v0.2.4](../.cursor/skills/recursive-learn/SKILL.md) · [civ-state skill v0.2.0](../.cursor/skills/civ-state/SKILL.md)
 
 **Pattern promotion:** defer until second distinct plan EXECUTE proves the same law without rework.
+
+---
+
+## 2026-06-18 - One-way public corpus + asymmetric skill graph (civ-state wiring)
+
+**Tag:** `one-way-public-asymmetric-skill-graph-2026-06-18`  
+**Cross-link:** [Portable-sync skill rename](#2026-06-18---portable-sync-skill-rename-ladder-civ-state-proof) · [Parallel ban on file tools and Shell calls](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — EXECUTE discipline enabled this ship; this entry is **architecture law**, not harness law.
+
+### Trigger
+
+Operator elicited **CIV-STATE skill ↔ public book wiring (one-way)**: operator skill routes into [`public/civ-state/`](../public/civ-state/); public tree never receives operator automation. Neighbor skills (`state-synthesis`, `state-note`, `recursive-learn`) wired **asymmetrically** — close-offer one-liners and explicit handback guards, not symmetric auto-invoke or mid-menu RLJ. Plan shipped (`166d034a4`); `validate_civ_state_skill_links.py` guards appendix paths. Full handoff after push showed **portable sync drift** on other manifest skills (wire-verify, source-intake, multi-lens, intelligence-essay) while civ-state `sync --verify` was clean.
+
+### Extracted law
+
+**Public book is retrieval SSOT; operator skill is the membrane; neighbors get offers and guards — not a fully connected auto graph.**
+
+```text
+Operator skill ↔ public book:
+→ public/civ-state/ influences operator skill (theory, skills, volumes, source-lattice)
+→ never copy operator automation, manifest, or Cursor appendix into public/
+→ neighbor skills: close-offer ONE line after ship — no mid-menu auto-run
+→ handback guards (archive thin → state-synthesis) are explicit prose, not silent fallback
+→ link validator for appendix paths under public/civ-state/
+
+After multi-skill EXECUTE touching portable manifest:
+→ sync --verify on every skill name touched in the plan
+→ if drift remains on other manifest skills → commit sync-drift slice separately from runtime noise
+```
+
+### Reapplication
+
+- Next operator skill wired to a **public ship tree** (`ph-civ`, future civ-state volumes, external book mirrors).
+- Any **neighbor skill graph** design (close offers vs auto-invoke vs bidirectional embedding).
+- End of **portable sync ladder** sessions before calling ship “done.”
+
+### Structural changes
+
+| Ship | Path |
+|------|------|
+| civ-state v0.2.0 | `skills-portable/civ-state/SKILL.md`, `.cursor/skills/civ-state/CURSOR_APPENDIX.md`, sync |
+| One-way doctrine | `statecraft/README.md`, `statecraft/states/README.md` |
+| Neighbor offers | `state-synthesis`, `state-note`, `recursive-learn` (Related ops + close lines) |
+| Link validator | `scripts/validate_civ_state_skill_links.py` |
+| Pending | sync drift on wire-verify, source-intake, multi-lens, intelligence-essay |
+
+### Guardrail
+
+```text
+Symmetric auto-invoke (civ-state ↔ RLJ mid-menu) → violates operator intent;
+decorating public/ with .cursor paths → boundary violation;
+committing sync drift + runtime noise + editorial in one blob → handoff unreadable.
+```
+
+**Falsification:** If a public book skill must call operator scripts in-tree, split **public methodology card** from **operator execution appendix** — do not collapse the membrane.
+
+### Current lesson
+
+```text
+Public book remembers; operator skill routes; neighbors get one-line offers —
+not a fully connected auto graph.
+```
+
+Routing: [civ-state skill v0.2.0](../.cursor/skills/civ-state/SKILL.md) · [public/civ-state/README.md](../public/civ-state/README.md) · [recursive-learn skill v0.2.4](../.cursor/skills/recursive-learn/SKILL.md) · [portable-skills-sync](../.cursor/skills/portable-skills-sync/SKILL.md)
+
+**Pattern promotion:** defer until second public-wiring ship (e.g. ph-civ operator membrane) reuses the same graph without rework.
