@@ -145,7 +145,7 @@ python scripts/validate_skills.py
 ```
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 **strategy-codex instance notes**
 

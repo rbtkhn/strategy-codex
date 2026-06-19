@@ -160,7 +160,7 @@ When finishing a pass, summarize:
 - which seed now looks strongest for later chapter materialization
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 ## strategy-codex instance
 

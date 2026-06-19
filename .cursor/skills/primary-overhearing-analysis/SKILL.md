@@ -66,7 +66,7 @@ Use for **public symbolic events**: papal or other religious leaders’ trips, m
 - **skill-strategy** — When the operator wants the same insight folded into strategy-codex judgment with civ-mem grounding.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths (from `.cursor/skills/primary-overhearing-analysis/`).
 

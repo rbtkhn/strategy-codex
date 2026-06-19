@@ -136,7 +136,7 @@ Do not skip rungs in the language.
 - If the request asks for a long simulation, label it as scenario planning, not factual prediction.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 # Cici AI host appendix
 

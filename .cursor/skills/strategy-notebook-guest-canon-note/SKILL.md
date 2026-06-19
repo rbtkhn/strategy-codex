@@ -137,7 +137,7 @@ For this skill, stronger synthesis belongs only when the host-local arc can clea
 The result is a compact host-stream speaker arc that future routing can cite directly, plus any needed lattice or thread pointers, without creating taxonomic drift or false closure.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-notebook-guest-canon-note/`).
 

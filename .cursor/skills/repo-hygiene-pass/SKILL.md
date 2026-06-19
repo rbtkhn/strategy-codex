@@ -77,7 +77,7 @@ Use when a grouped commit needs correction without history rewrite:
 - If uncertain whether a file is scratch or real, ask before excluding.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths and command notes for this repository (from `.cursor/skills/repo-hygiene-pass/`).
 

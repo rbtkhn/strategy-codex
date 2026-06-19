@@ -81,7 +81,7 @@ Methodology inspired by Edward Tufte and the open-source `caylent/tufte-data-viz
 For *where* to land repeated observability patterns (Record vs WORK vs portable), see `observability-to-cadence-capture` — orthogonal to this skill's *how to draw* role.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 strategy-codex host wiring for **tufte-data-viz** (from portable core).
 

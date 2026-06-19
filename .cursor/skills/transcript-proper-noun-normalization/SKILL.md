@@ -102,7 +102,7 @@ Use as examples, not as an exhaustive script:
 - `Dujifka`, `Dujiffka` -> `Druzhkivka`
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository.
 

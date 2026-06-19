@@ -161,7 +161,7 @@ The operator ends with a trustworthy CIV-STATE text object:
 - the result improves retrieval rather than merely adding files
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 **strategy-codex instance notes**
 

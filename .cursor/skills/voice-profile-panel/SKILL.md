@@ -106,7 +106,7 @@ When operator names a file:
 - Chat-only demos are valid; disk write is optional unless Ship named.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Strategy-codex routing and SSOT paths for voice-profile-panel.
 

@@ -166,7 +166,7 @@ The month reads as a governed analytical machine:
 
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 **strategy-codex instance notes**
 

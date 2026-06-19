@@ -121,7 +121,7 @@ Suggested one-line shape:
 - **Brevity by default** — Start compact; deepen only when the operator asks.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-Mar paths and strategy-notebook routing for `last30days`.
 

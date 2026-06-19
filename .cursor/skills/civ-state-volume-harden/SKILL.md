@@ -161,7 +161,7 @@ Do not force false symmetry. Some founders are documentary. Some are traditional
 The CIV-STATE front door or volume surface reads as a stronger civilization-state instrument: opener doctrine is explicit, sovereignty-chain logic is clearer, legitimacy sequencing is visible where it matters, asymmetry is preserved honestly, and the operator can tell where to retrieve next.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 **strategy-codex instance notes**
 

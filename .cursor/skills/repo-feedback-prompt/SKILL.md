@@ -85,7 +85,7 @@ Subject: <repo or feature> — <one-line theme: doc suggestion / security framin
 | **Verification appendix** | For your own notes: files read, URLs — **omit** from the outbound message unless the maintainer likes receipts. |
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths and discovery ladder (from `.cursor/skills/repo-feedback-prompt/`).
 

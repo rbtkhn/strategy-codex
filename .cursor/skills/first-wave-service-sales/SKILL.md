@@ -166,7 +166,7 @@ The first wave produces real stage movement:
 and the operator can explain why each movement happened without inflating the evidence.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 # strategy-codex host appendix
 

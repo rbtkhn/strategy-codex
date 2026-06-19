@@ -323,7 +323,7 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 - Host appendix — repo paths for inbox tokens, statecraft `source_note`, `strategy + verify` gate (Cursor install only).
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 # Wire verify — strategy-codex appendix
 

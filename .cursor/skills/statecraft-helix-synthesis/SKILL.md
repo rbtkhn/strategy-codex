@@ -145,7 +145,7 @@ When you finish a pass, summarize:
 Keep the close-out compact. The point of this layer is to improve navigation and judgment, not to bury the operator in inventory.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 ## strategy-codex instance
 

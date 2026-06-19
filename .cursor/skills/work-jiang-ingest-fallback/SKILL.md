@@ -78,7 +78,7 @@ python3 scripts/work_jiang/validate_comparative_layer.py
 ```
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository (from `.cursor/skills/work-jiang-ingest-fallback/`).
 

@@ -64,7 +64,7 @@ python scripts/check_academy_mirror_sync.py --json
 - Do not repair drift unless the user asks. This skill verifies and explains; update/push is a separate action.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 ## strategy-codex instance
 

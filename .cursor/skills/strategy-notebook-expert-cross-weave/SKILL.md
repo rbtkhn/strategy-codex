@@ -97,7 +97,7 @@ Do not add a second top-level **`##`** for the same day if that heading already 
 - The host's stable **`expert_id`** roster and crossing rules.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths (from `.cursor/skills/strategy-notebook-expert-cross-weave/`).
 

@@ -487,7 +487,7 @@ This skill succeeds when:
 - preset breadth remains governable because weak presets can later be merged, demoted, rewritten, or retired
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 **strategy-codex instance notes**
 

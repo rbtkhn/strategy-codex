@@ -181,7 +181,7 @@ Future companion skills may include:
 Do not assume those skills exist unless the host provides them.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 ﻿Grace-Mar routing and source notes for this repository.
 

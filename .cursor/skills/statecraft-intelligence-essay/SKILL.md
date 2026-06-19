@@ -123,7 +123,7 @@ It should usually do five things:
 The result is a durable downstream essay that reads as singularity-statecraft intelligence, remains anchored to real archive substrate, and explains the live object without visible speaker-shelf scaffolding.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 **strategy-codex instance notes**
 

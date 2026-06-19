@@ -75,7 +75,7 @@ Map paths in the **Cursor appendix** for this repository (default Kentucky work-
 - **politics-massie** — Real-time web search + draft X for @usa_first_ky; use **after** this pass when the operator wants posts.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Use these paths **in this repository** when applying the portable skill. Override when working another state or district.
 

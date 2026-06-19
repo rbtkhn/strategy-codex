@@ -169,7 +169,7 @@ That is the feel of this skill: protect the seam from elegance before it earns i
 The seam is easier to reuse later, the evidence boundary is clearer, and future synthesis is less likely to flatten layered signals into false certainty.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository (from `.cursor/skills/packet-before-synthesis/`).
 

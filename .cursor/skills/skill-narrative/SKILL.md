@@ -114,7 +114,7 @@ Each entry should include:
 - If an item has no clear `next_test`, usually do not log it.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths and runbook links for this repository (from `.cursor/skills/skill-narrative/`).
 

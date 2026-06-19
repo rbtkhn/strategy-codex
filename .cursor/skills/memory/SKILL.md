@@ -458,7 +458,7 @@ When answering without file edits, provide a compact architecture recommendation
 - validation result.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 **strategy-codex instance notes**
 

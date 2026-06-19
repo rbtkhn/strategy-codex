@@ -371,7 +371,7 @@ Preferred sequence:
 `land or inspect -> rebuild if needed -> read back live surfaces -> summarize`
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository (from `.cursor/skills/monthly-deepening/`).
 

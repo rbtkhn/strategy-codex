@@ -98,6 +98,6 @@ Always report:
 - Never edit Record surfaces from this workflow.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 _(appendix missing: .cursor/skills/transcript-cleanup/CURSOR_APPENDIX.md)_

@@ -196,7 +196,7 @@ Do not offer publish unless operator said **ship**, **publish**, or **VERSION**.
 It is the upstream CIV-STATE command surface: frame, retrieve, promote, review — through the public book corpus first.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Cursor-only wiring for [civ-state/SKILL.md](../../../skills/civ-state/SKILL.md). Portable SSOT body stays in `skills/`.
 

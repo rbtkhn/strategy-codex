@@ -686,7 +686,7 @@ Use "candidate" when the target does not exist yet or would require a new speake
 The operator gets a clean daily upload list for the tracked main streams, with obvious clips filtered into a secondary bucket, only the approved subset materialized into provenance-safe canonical `raw-input` that passes non-stub body verification, and clear speaker-folder routing hints for any material that strengthens an existing or candidate speaker object.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository (from `.cursor/skills/check-streams/`).
 

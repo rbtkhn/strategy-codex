@@ -30,7 +30,7 @@ Use the canonical [check-streams](../check-streams/SKILL.md) workflow for the ac
 Do not maintain a separate ingest doctrine here. When this alias triggers, say that you are using **`check streams`** and follow that skill's instructions.
 
 
-## Cursor / grace-mar instance
+## Cursor / strategy-codex instance
 
 Legacy alias shim for this repository.
 
