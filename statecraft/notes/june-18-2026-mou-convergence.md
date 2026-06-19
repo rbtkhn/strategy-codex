@@ -16,7 +16,7 @@ This note is the **convergence spine** for `2026-06-18`. It does not replace dai
 - [june-18-2026-mou-hormuz-governance-armistice-note.md](./june-18-2026-mou-hormuz-governance-armistice-note.md) — Pape Day 60 Pt. 5 governance fuse (~mid-Aug)
 - [june-18-2026-mou-dahhiya-backfire-mou-terms-note.md](./june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) — Crooke Dahhiya provocation → Trump improved MOU terms (tier 4 until wire)
 
-**Parent context:** ten sources in `source-archive/statecraft/2026-06-18/`; [2026-06-18 daily](../daily/2026-06-18.md) published; **Crooke hubris** patch 2026-06-19.
+**Parent context:** eleven sources in `source-archive/statecraft/2026-06-18/`; [2026-06-18 daily](../daily/2026-06-18.md) published; **Crooke hubris** + **Aguilar Moral Resistance** patch 2026-06-19.
 
 ## Core claim
 
@@ -36,6 +36,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | **Davis** (adjunct) | Deal-mechanics / officer | Frozen-funds perform-first vs MOU text; $300B reparations/GCC trust gap; Israel not party; Versailles symbology; Lebanon derail risk |
 | **Mercouris** (adjunct) | Trap / sequencing | Minsk-2015-style trap warning; 14-point Iranian win read; Moscow counsel to Tehran — **skeptical of US good faith** |
 | **Crooke** (overlay) | Civilizational / hubris | Regime-change **dogma collapse**; Trump **crossed Rubicon** with Iran (Citrinowicz); **Dahhiya backfire** → Trump improved MOU terms; Israeli **MI blind spot** (Barnea); **total victory illusions** dead (Berman); Netanyahu standing **plunged**; Trump–Israel **divergence documented**; US polity age split + WSJ Middle America; Hormuz/Bab el Mandeb hedge if unravel |
+| **Aguilar** (overlay) | Legislative-action / ops officer | MOU **pause not destroyed**; Iran **no Switzerland until Lebanon stops**; Vance **too little too late** unless **§224 NDAA** + **§622 IAA** blocked; **Huckabee vs Vance** ambassador split; US–Israel **coupled negotiation track**; constraint spectrum to **US action vs Israel**; facade/Kabuki + **Iran patience threshold**; Khamenei yields foreign policy to Pezeshkian |
 
 **Peripheral same-day:** Diesen/Krapivnik (Ukraine focus; MOU US drawdown mentioned in passing) — not load-bearing for this convergence object.
 
@@ -49,6 +50,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | **Ground** | Henningsen/Lascaris: post-MOU strikes, FPV/IED toll, Katam al-Anbia **84 violations**; Blumenthal: ethnic cleansing south |
 | **Mechanism** | Israel tests MOU via Lebanon; Iran may enforce in Lebanon per text (Johnson Lebanon ep; Henningsen) |
 | **US response** | Vance/Trump words vs continued Israel support (all registers skeptical of real break) |
+| **Aguilar overlay** | Iran **starting-line** test — no shoes, no marathon; MOU **on hold** not void; US must **constrain ally** or America-first/Iran-first fork |
 | **Crooke overlay** | Netanyahu **Dahhiya** (Sunday) to sever MOU–Lebanon link → **backfire** — Trump **improved MOU terms for Iran** (tier 4 until wire on terms delta) |
 
 **Quad read:** Lebanon is where the MOU **lives or dies** — not Geneva rhetoric alone.
@@ -64,9 +66,10 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | **Johnson** | Anti-Netanyahu shift; bipartisan pro-Israel backlash still live |
 | **Macgregor** | Parallel: Trump **Beirut apartment** break |
 | **Henningsen** | Symptom of **tail-wags-dog** limits when US public/economy breaks |
+| **Aguilar** | **Action test** — words without blocking **§224/§622** = propaganda; Netanyahu **not** exempt; **Musk “Valid points”** (tier 4) |
 
 **Convergence:** Washington **publicly disciplines Israeli cabinet noise** while avoiding direct Netanyahu war.  
-**Divergence:** Blumenthal = ideological crack; Martyanov/Johnson = power under constraint.
+**Divergence:** Blumenthal = ideological crack; Martyanov/Johnson = power under constraint; **Aguilar = legislative bind** — only register naming **NDAA/IAA codification** as dispositive test of break.
 
 ## Seam 3 — SPR / Hormuz / economic forcing
 
@@ -108,8 +111,9 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 3. **Iran agency:** Blumenthal (Iran won, prepared) vs Martyanov (Iran orders US next steps) vs Henningsen (Iran manages Trump, not duped).
 4. **Democrats:** Blumenthal long lane; Martyanov “Satanists vs Zionists”; Johnson “bought and paid for.”
 5. **Military vs legal:** Martyanov/Macgregor = cannot sustain fight; Henningsen = will cheat on language even if shooting stops.
-6. **Johnson same-day:** Iran **won’t travel** (Vance ep) vs **they’ll go** (Lebanon ep) — tag episode in child note.
+6. **Johnson same-day:** Iran **won’t travel** (Vance ep) vs **they’ll go** (Lebanon ep) — tag episode in child note; **Aguilar aligns skip-travel** (Iran + Vance) but not Johnson “they’ll go.”
 7. **Hubris vs material defeat:** Crooke (regime strengthened, heroic image, **irreversible blow to Israel?**) vs Martyanov/Macgregor (material memo, re-war ceiling) — same object, **different time horizon**.
+8. **Vance sincerity vs legislative bind:** Blumenthal/Martyanov/Johnson (rhetoric jobs) vs **Aguilar** (§224/§622 block = only dispositive US-break test — tier 4 until vote).
 
 ## Seam 6 — Trump–Israel divergence (Crooke overlay)
 
@@ -123,12 +127,25 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 
 **Best paired with:** Blumenthal (Zionist logic vs reality) · Macgregor (Israel strategic loser) · [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) (fuse vs process clocks).
 
+## Seam 7 — Ambassador split / coupled track (Aguilar overlay)
+
+| Layer | Aguilar load |
+|---|---|
+| **Message split** | **Vance/Trump** discipline lane vs **Huckabee** (and **Pompeo** commentary) Israel-first lane — same country? |
+| **Coupled track** | US and Israel **trains coupled** in negotiation — Israel ops **held against Iran** like Hezbollah held against Iran |
+| **Action spectrum** | Munitions/diplomatic cover cut → sanctions → **US military action vs Israel** (Aguilar **hope**, not wire baseline) |
+| **Facade fork** | Coordinated retreat Kabuki (host) vs genuine fissure — **Iran patience threshold** governs either |
+| **Legislative falsifier** | **§224 NDAA** + **§622 IAA** (Mossad–CIA) advancing while VP talks tough — **tier 4** until floor vote |
+
+**Best paired with:** **Johnson** Lebanon ep (coupled derail) · **Davis** (Israel not party) · Seam 2 Vance reads.
+
 ## Continuity cross-refs (outside J18)
 
 | Guest | Prior anchor | Adds on J18 |
 |---|---|---|
 | **Martyanov** | `source-archive/statecraft/2026-06-11/source-alkorshid-andrei-martyanov-us-strikes-iran-iran-hits-back-critical-targets-2026-06-11.md` | MOU text triage, SPR four-week, GAO F-35, two-week re-war ceiling, Channel 14 |
 | **Henningsen** | `source-archive/statecraft/2026-06-16/source-alkorshid-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md` | J18 Lascaris Lebanon desk + legal/process sabotage depth |
+| **Aguilar** | `source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md` | J18 **§224/§622** action test; Huckabee split; Switzerland pause; coupled-track enforcement |
 
 ## Best use
 
@@ -145,6 +162,8 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | Hubris / Trump–Israel divergence / US polity fracture | **Crooke** J18 Substack |
 | Dahhiya backfire + MOU terms delta | **Crooke** (tier 4) + wire pass |
 | Hubris / Trump–Israel divergence (full register) | **Crooke** J18 · [Dahhiya note](./june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) for provocation seam only |
+| Vance words vs NDAA/IAA action; Huckabee split | **Aguilar** Moral Resistance J18 |
+| Coupled US–Israel track / constraint spectrum | **Aguilar** + **Johnson** Lebanon ep |
 
 ## Source anchors
 
@@ -161,6 +180,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | Mercouris | `source-alex-mercouris-russia-warns-iran-beware-us-trap-mou-iran-terms-2026-06-18.md` |
 | Diesen/Krapivnik | `source-glenn-diesen-stanislav-krapivnik-russia-offensive-gains-speed-anger-moscow-2026-06-18.md` |
 | Crooke | `source-crooke-israel-picking-up-pieces-deep-seated-hubris-2026-06-18.md` |
+| Aguilar | `source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md` |
 
 All paths under `source-archive/statecraft/2026-06-18/`.
 
@@ -175,6 +195,7 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 7. **Wire tier:** Katam al-Anbia 84 violations, Channel 14 yellow-line, GAO F-35 25%, SPR public data vs 2.5–4 week band.
 8. **Dahhiya backfire + MOU terms improvement** (Crooke) — upgrades hubris/Lebanon-linkage read if wire confirms; **Unclear** at 2026-06-19.
 9. **Netanyahu standing “plunged”** (Crooke) — requires Israeli polling wire; stays tier 4 until receipt.
+10. **NDAA §224 / IAA §622 advance while Vance talks tough** (Aguilar) — **tier 4** until NDAA/IAA floor markup receipts.
 
 ## Post-wire tiers (2026-06-18)
 

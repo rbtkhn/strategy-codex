@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 ## Stats
 
 - Distinct threads: `67`
-- Thread-linked source files: `2732`
+- Thread-linked source files: `2735`
 - Covered days: `462`
 - Covered months: `22`
 
@@ -25,11 +25,11 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `sachs` | 90 | 85 | 18 | `Judging Freedom` (36), `Jeffrey Sachs` (21), `Glenn Diesen` (20) | `Andrew Napolitano` (34), `Glenn Diesen` (24), `Jeffrey Sachs` (21) | `2025-01-08` | `2026-06-15` |
 | `mearsheimer` | 89 | 84 | 18 | `Judging Freedom` (23), `Daniel Davis Deep Dive` (19), `Diesen (Greater Eurasia)` (7) | `Andrew Napolitano` (30), `Daniel Davis` (25), `Glenn Diesen` (14) | `2025-01-17` | `2026-06-13` |
 | `macgregor` | 83 | 70 | 17 | `Daniel Davis Deep Dive` (33), `Judging Freedom` (21), `Glenn Diesen` (7) | `Daniel Davis` (30), `Andrew Napolitano` (26), `Glenn Diesen` (16) | `2025-01-06` | `2026-06-18` |
-| `pape` | 68 | 53 | 5 | `escalationtrap.substack.com` (42), `Mario Nawfal` (5), `Breaking Points` (4) | `Robert Pape` (43), `Mario Nawfal` (3), `Clayton Morris` (2) | `2026-02-25` | `2026-06-17` |
+| `pape` | 69 | 53 | 5 | `escalationtrap.substack.com` (43), `Mario Nawfal` (5), `Breaking Points` (4) | `Robert Pape` (44), `Mario Nawfal` (3), `Clayton Morris` (2) | `2026-02-25` | `2026-06-17` |
 | `marandi` | 67 | 51 | 10 | `Dialogue Works` (33), `Glenn Diesen` (13), `Daniel Davis Deep Dive` (11) | `Nima Alkhorshid` (31), `Glenn Diesen` (13), `Daniel Davis` (10) | `2025-01-05` | `2026-06-17` |
 | `simplicius` | 62 | 62 | 4 | `simplicius76.substack.com` (62) | (none) | `2026-01-02` | `2026-04-27` |
-| `crooke` | 60 | 58 | 13 | `Daniel Davis Deep Dive` (5), `Dialogue Works` (5), `Judging Freedom` (5) | `Nima Alkhorshid` (7), `Daniel Davis` (6), `Glenn Diesen` (5) | `2025-06-25` | `2026-06-15` |
-| `parsi` | 44 | 38 | 12 | `substack.com/@tritaparsi` (11), `tritaparsi.substack.com` (9), `Mario Nawfal` (6) | `Trita Parsi` (22), `Nima Alkhorshid` (5), `Daniel Davis` (2) | `2025-05-09` | `2026-06-17` |
+| `crooke` | 61 | 59 | 13 | `Daniel Davis Deep Dive` (5), `Dialogue Works` (5), `Judging Freedom` (5) | `Nima Alkhorshid` (7), `Daniel Davis` (6), `Alastair Crooke` (6) | `2025-06-25` | `2026-06-18` |
+| `parsi` | 45 | 38 | 12 | `substack.com/@tritaparsi` (11), `tritaparsi.substack.com` (10), `Mario Nawfal` (6) | `Trita Parsi` (23), `Nima Alkhorshid` (5), `Daniel Davis` (2) | `2025-05-09` | `2026-06-17` |
 | `nawfal` | 42 | 25 | 2 | `Mario Nawfal` (42) | `Mario Nawfal` (21) | `2026-05-12` | `2026-06-17` |
 | `martyanov` | 35 | 34 | 13 | `Dialogue Works` (28), `Daniel Davis Deep Dive` (3), `Deep Dive` (1) | `Nima Alkhorshid` (28), `Daniel Davis` (4), `Glenn Diesen` (3) | `2025-01-26` | `2026-06-18` |
 | `baud` | 31 | 30 | 12 | `Dialogue Works` (20), `Daniel Davis Deep Dive` (5), `Glenn Diesen` (4) | `Nima Alkhorshid` (18), `Daniel Davis` (5), `Glenn Diesen` (4) | `2025-01-24` | `2026-06-15` |
