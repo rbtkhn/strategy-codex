@@ -146,8 +146,30 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 6. **Netanyahu compliance rhetoric + ground quiet 7+ days** — stress-tests Macgregor Netanyahu clip.
 7. **Wire tier:** Katam al-Anbia 84 violations, Channel 14 yellow-line, GAO F-35 25%, SPR public data vs 2.5–4 week band.
 
+## Post-wire tiers (2026-06-18)
+
+**Wire-verify batch + fact-check deep** (chat passes; not yet on archive YAML):
+
+| Hook | Tier | Notes |
+|------|------|-------|
+| Vance twothirds / Axios Netanyahu fuming | **Supported** | America 3b; [The Hill](https://thehill.com/homenews/administration/5930696-vance-warns-israel-trump-iran/) · [Axios 14 Jun](https://www.axios.com/2026/06/14/trump-netanyahu-iran-deal-israel-beirut-strike) |
+| MOU Art. 1 Lebanon / territorial integrity | **Supported** | [BBC MOU text](https://www.bbc.com/news/articles/c4gy700j0eko) |
+| Katam al-Anbia **84** violations (2 days) | **Supported** (count **state-asserted**) | `verify:persia-lane` · `verify:fa-triangulation` via ISNA chain — [IranWire 17 Jun](https://iranwire.com/en/news/153813-khatam-al-anbiya-headquarters-threatens-israel-after-lebanon-attacks/); independent IDF/UNIFIL tally **Unclear** |
+| Horovitz “catastrophic capitulation” (TOI) | **Supported** | [Times of Israel 17 Jun](https://www.timesofisrael.com/trumps-deal-is-a-catastrophic-capitulation-to-irans-aggressors-leaves-israel-vulnerable-and-constrained/) — transcript ASR “Horowitz” |
+| Netanyahu won’t leave Lebanon / security zone | **Supported** | [Ynet 18 Jun](https://www.ynetnews.com/article/rj3r9obffl) · [Reuters via Haaretz live](https://www.haaretz.com/israel-news/israel-security/2026-06-18/ty-article-live/u-s-and-iran-sign-mou-to-end-war-pakistani-pm-deal-takes-immediate-effect/0000019e-d872-dae9-afdf-dafb8a150000) |
+| Trump **~4 weeks** SPR / below 1983 | **Supported** | [The Hill G7](https://thehill.com/policy/energy-environment/5928618-iran-deal-oil-reserves-g7/) · [Reuters SPR 15 Jun](https://www.marketscreener.com/news/stocks-of-oil-in-us-strategic-petroleum-reserve-falls-to-lowest-since-1983-ce7f5cdede8bf727) |
+| Macgregor **2.5–3 weeks** SPR | **Partial** | Tier 4 unless operator briefing; Trump says ~4 weeks |
+| GAO F-35 **25%** FMC (FY25) | **Supported** | [GAO gao-26-108113](https://www.gao.gov/products/gao-26-108113) |
+| WSJ Trump–Netanyahu call loop | **Supported** | [i24 / WSJ relay](https://www.i24news.tv/en/news/israel/diplomacy/artc-trump-netanyahu-rift-deepens-as-iran-deal-exposes-clashing-aims-report); Johnson “No BB” beat = satire |
+| Iran skip Switzerland / Geneva | **Partial** | Digital sign replaced **ceremony**; Burgenstock talks still scheduled — [Mehr/Baghaei 18 Jun](https://en.mehrnews.com/news/245421/Iran-US-presidents-sign-Islamabad-MoU-digitally) |
+| Channel 14 “yellow line” vs Trump ceasefire | **Partial** | Channel 14 anti-deal tone **Supported**; exact yellow-line ↔ Iran MOU coupling = Martyanov tier 4 |
+| **Material** weapons pause to Israel | **Unclear** | Rhetoric only in triage window |
+
+**Open falsifiers:** #1–4, #6 above still **live** — wire pass did not falsify convergence spine; it **tiered** hooks only.
+
 ## Next use
 
-- **`statecraft-daily-synthesis`** for `2026-06-18` — use this note as convergence spine; pair note for citation routing; Mercouris/Davis/Diesen as parallel lanes where MOU is not center of gravity.
-- **`wire-verify`** on falsifier hooks above.
+- **`statecraft-daily-synthesis`** for `2026-06-18` — use this note as convergence spine; pair note for citation routing; Mercouris/Davis/Diesen as parallel lanes where MOU is not center of gravity; carry **Post-wire tiers** into verify column.
 - **`statecraft-multi-lens`** presets when comparing subsets (e.g. Macgregor/Davis material ceiling; Blumenthal/Henningsen sabotage/process).
+- Optional: **`verify:`** YAML tails on Johnson/Henningsen captures if archive receipts needed beyond this note.
+
