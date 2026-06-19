@@ -10,7 +10,7 @@
 
 - **Continuity:** `dream_coffee_rollup.py` remembers what is still warm enough to matter next.
 - **Observability:** `build_conductor_ledger.py` shows the conductor pattern over a review window.
-- **Durable learning:** [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md) + [recursive-learning skill](../../../.cursor/skills/recursive-learning/SKILL.md) record machine law; [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-impact-journal.md) scores conductor arc generalization.
+- **Durable learning:** [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md) + [recursive-learn skill](../../../.cursor/skills/recursive-learn/SKILL.md) record machine law; [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-impact-journal.md) scores conductor arc generalization.
 
 Fast doorway:
 - overview and rationale: [README.md](/C:/dev/strategy-codex/docs/skill-work/work-coffee/README.md)
@@ -58,7 +58,7 @@ In repo terms:
 
 - `dream_coffee_rollup.py` is the warm handoff surface
 - `build_conductor_ledger.py` is the derived review surface
-- `recursive-learning-journal.md` + [recursive-learning skill](../../../.cursor/skills/recursive-learning/SKILL.md) is the machine-law surface
+- `recursive-learning-journal.md` + [recursive-learn skill](../../../.cursor/skills/recursive-learn/SKILL.md) is the machine-law surface
 - `conductor-arc-impact-journal.md` is the conductor arc scoring surface
 
 This matters because a system that mixes those jobs becomes hard to trust. It either overstates a warm impression as truth, or buries a useful human lesson inside raw counters.

@@ -6,7 +6,7 @@ Purpose: keep a durable log of moments when `statecraft/` does not merely classi
 
 This is not a source-memory substrate and not a speaker shelf. It is a downstream statecraft journal of governed learning events.
 
-**Skill:** [recursive-learning](../../.cursor/skills/recursive-learning/SKILL.md) — session review and append workflow.
+**Skill:** [recursive-learn skill](../../.cursor/skills/recursive-learn/SKILL.md) — session review and append workflow.
 
 ## Entry Shape
 
@@ -2012,7 +2012,7 @@ Fractured sovereignty is legible when grammar persists but carriers split:
 encode the split once on memory, diagnose it six ways on the terms.
 ```
 
-Routing: [recursive-learning skill v0.2](../.cursor/skills/recursive-learning/SKILL.md) · civ-state **v0.1.26** · [release-history](../public/civ-state/docs/release-history.md).
+Routing: [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md) · civ-state **v0.1.26** · [release-history](../public/civ-state/docs/release-history.md).
 
 ## 2026-06-18 - Rome dual language heritage (language-spine parallel dimension)
 

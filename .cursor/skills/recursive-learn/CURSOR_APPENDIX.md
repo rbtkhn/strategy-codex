@@ -1,4 +1,4 @@
-Cursor-only discipline for [recursive-learning/SKILL.md](../../../skills-portable/recursive-learning/SKILL.md). Portable SSOT body stays in `skills-portable/`.
+Cursor-only discipline for [recursive-learn/SKILL.md](../../../skills-portable/recursive-learn/SKILL.md). Portable SSOT body stays in `skills-portable/`.
 
 ## Preflight read
 
@@ -54,7 +54,7 @@ Use **AskQuestion** when append vs promote vs defer is ambiguous.
 **D. Reframe** — when Step 1 shows dense ship (multi-file doctrine, validator pass, plan executed):
 
 ```text
-**D. Reframe** — Run recursive-learning session review on today's {object} ship (machine law not yet in journal).
+**D. Reframe** — Run recursive-learn session review on today's {object} ship (machine law not yet in journal).
 ```
 
 **C. Deepen** (rare) — session ended with understanding but nothing logged:

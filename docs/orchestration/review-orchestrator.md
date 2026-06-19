@@ -21,7 +21,7 @@ When failures **repeat**, diagnose **routing / harness / skill protocol** — no
 
 **Checklist (advisory):** output correctness | system behavior | harness effectiveness | failure pattern | next system fix.
 
-**Related tooling:** [validator-first skill](../../.cursor/skills/validator-first/SKILL.md) · [recursive-learning skill](../../.cursor/skills/recursive-learning/SKILL.md) · [harness-architecture-map.md](../harness-architecture-map.md)
+**Related tooling:** [validator-first skill](../../.cursor/skills/validator-first/SKILL.md) · [recursive-learn skill](../../.cursor/skills/recursive-learn/SKILL.md) · [harness-architecture-map.md](../harness-architecture-map.md)
 
 ## Task anchor (required)
 

@@ -42,10 +42,10 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
-  - name: recursive-learning
-    source: recursive-learning/SKILL.md
-    appendix: .cursor/skills/recursive-learning/CURSOR_APPENDIX.md
-    target: .cursor/skills/recursive-learning/SKILL.md
+  - name: recursive-learn
+    source: recursive-learn/SKILL.md
+    appendix: .cursor/skills/recursive-learn/CURSOR_APPENDIX.md
+    target: .cursor/skills/recursive-learn/SKILL.md
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
