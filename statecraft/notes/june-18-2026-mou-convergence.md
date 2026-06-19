@@ -8,7 +8,10 @@ Preserve the **J18 MOU-day convergence map** across landed guest registers: wher
 
 This note is the **convergence spine** for `2026-06-18`. It does not replace daily synthesis or archive truth.
 
-**Child note (citation splits):** [june-18-2026-mou-guest-pair-citation-split.md](./june-18-2026-mou-guest-pair-citation-split.md) — Johnson ×2 and Blumenthal/Macgregor pair detail; cite that note when episode-level routing matters.
+**Child notes:**
+
+- [june-18-2026-mou-guest-pair-citation-split.md](./june-18-2026-mou-guest-pair-citation-split.md) — Johnson ×2 and Blumenthal/Macgregor episode routing
+- [june-18-2026-mou-material-vs-sabotage-lens.md](./june-18-2026-mou-material-vs-sabotage-lens.md) — Macgregor/Davis fuse clock vs Blumenthal/Henningsen process clock
 
 **Parent context:** intake-only day — nine sources in `source-archive/statecraft/2026-06-18/`; no `statecraft/daily/` yet.
 
@@ -114,8 +117,8 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | Which Johnson or Napolitano episode | [Pair citation split](./june-18-2026-mou-guest-pair-citation-split.md) |
 | Trap / good-faith skepticism | **Mercouris** J18 |
 | Deal text vs perform-first funding | **Davis** J18 |
-| Material / munitions ceiling | **Martyanov** + **Macgregor** |
-| Process / Oslo sabotage | **Henningsen** |
+| Material / munitions ceiling | **Martyanov** + **Macgregor**; dual-register law → [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) |
+| Process / Oslo sabotage | **Henningsen**; vs material ceiling → same child note |
 | Lobby / MAGA / Democratic lane | **Blumenthal** |
 | Ops / CENTCOM / signing travel | **Johnson** (split) |
 
@@ -170,6 +173,6 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 ## Next use
 
 - **`statecraft-daily-synthesis`** for `2026-06-18` — use this note as convergence spine; pair note for citation routing; Mercouris/Davis/Diesen as parallel lanes where MOU is not center of gravity; carry **Post-wire tiers** into verify column.
-- **`statecraft-multi-lens`** presets when comparing subsets (e.g. Macgregor/Davis material ceiling; Blumenthal/Henningsen sabotage/process).
+- **Multi-lens register split** — [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) (promoted from chat pass).
 - Optional: **`verify:`** YAML tails on Johnson/Henningsen captures if archive receipts needed beyond this note.
 

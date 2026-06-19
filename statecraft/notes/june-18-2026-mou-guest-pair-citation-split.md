@@ -182,7 +182,7 @@ Reach for this note when:
 
 - citing any J18 MOU guest without re-reading full transcripts
 - building **daily synthesis** for `2026-06-18` — pair splits prevent citation collapse
-- running **multi-lens** or quad weave — attach Johnson ×2 and Napolitano pair as appendix layers
+- running **multi-lens** or quad weave — attach Johnson ×2 and Napolitano pair as appendix layers; register split → [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md)
 - **wire verify** tiering hooks (SPR timing, Berri shift, skip-Switzerland, Netanyahu Lebanon clip)
 
 **Not in scope:** Henningsen/Lascaris, Martyanov, Mercouris, Davis, Diesen — see separate MOU convergence weave or future daily synthesis.
