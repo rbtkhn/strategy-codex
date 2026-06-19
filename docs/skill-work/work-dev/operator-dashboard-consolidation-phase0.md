@@ -184,6 +184,8 @@ Gate / review-dashboard sections: **optional** — `--include-gate` only (fork-r
 
 **Ship:** `scripts/statecraft_war_room.py`, tests
 
+**Status:** Phase 2 shipped — `scripts/statecraft_war_room.py` writes `runtime/artifacts/statecraft-war-room/latest.*`.
+
 **V0:** intake sidecars + daily headings + transaction router index; explicit / inferred / weak confidence labels
 
 **Defer:** full falsifier board, RLJ promotion, optional LLM hints

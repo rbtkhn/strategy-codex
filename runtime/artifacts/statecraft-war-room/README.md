@@ -23,7 +23,7 @@ runtime/artifacts/statecraft-war-room/YYYY-MM-DD.md   # optional snapshot
 
 **Does not replace:** [statecraft/README.md](../../../statecraft/README.md), [docs/statecraft-intake-queue.md](../../../docs/statecraft-intake-queue.md), daily synthesis files, or [statecraft/sheets/transaction-router.md](../../../statecraft/sheets/transaction-router.md).
 
-## Rebuild (Phase 2+)
+## Rebuild
 
 ```bash
 python3 scripts/statecraft_war_room.py \
@@ -33,7 +33,7 @@ python3 scripts/statecraft_war_room.py \
   --max-objects 12
 ```
 
-Producer script lands in Phase 2. Until then, this bucket holds policy only.
+Optional dated snapshot: add `--snapshot`.
 
 ## SSOT return paths
 
