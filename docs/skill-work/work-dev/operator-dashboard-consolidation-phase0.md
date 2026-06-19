@@ -194,6 +194,8 @@ Gate / review-dashboard sections: **optional** — `--include-gate` only (fork-r
 
 **Ship:** `scripts/operator_command_deck.py`, tests
 
+**Status:** Phase 3 shipped — `scripts/operator_command_deck.py` writes `runtime/artifacts/operator-command-deck/latest.*`.
+
 Aggregates Surgeon + War Room; optional git summary; Record-frozen heuristic priority above
 
 **Optional thin guides** only if needed (no duplicated heuristics)

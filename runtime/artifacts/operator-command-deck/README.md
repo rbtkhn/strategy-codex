@@ -23,7 +23,7 @@ runtime/artifacts/operator-command-deck/YYYY-MM-DD.md   # optional snapshot
 
 **Does not replace:** [`harness_warmup.py`](../../../scripts/harness_warmup.py), [`operator_reentry_stack.py`](../../../scripts/operator_reentry_stack.py), [`recursion-gate.md`](../../../recursion-gate.md), or lane-specific dashboards (`library-index`, `lane-dashboards`, `review-dashboard`).
 
-## Rebuild (Phase 3+)
+## Rebuild
 
 ```bash
 python3 scripts/operator_command_deck.py \
@@ -32,7 +32,12 @@ python3 scripts/operator_command_deck.py \
   --max-next-actions 5
 ```
 
-Producer script lands in Phase 3. Until then, this bucket holds policy only.
+**Flags:**
+
+- `--full-surgeon` — run layout/path/skill subprocess checks (slower structural triage)
+- `--include-gate` — fork-revive territory only; surfaces pending gate candidates without merge authority
+- `--no-git` — skip git working-tree snapshot
+- `--snapshot` — optional dated `.md` copy
 
 ## SSOT return paths
 
