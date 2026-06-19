@@ -37,7 +37,7 @@ Use when **all** of the following are true:
 **Do not use** when:
 
 - the job is still **source intake** only
-- the object is the **whole day** — use `statecraft-daily-synthesis` first, then promote one wedge
+- the object is the **whole day** — use `state-synthesis` first, then promote one wedge
 - multiple competing claims are unsettled — stay in synthesis or `statecraft-multi-lens` first
 - the object is a **stand-alone thesis** that no longer needs parent context — route toward repo-root essay via `docs/prose-index.md`
 
@@ -46,7 +46,7 @@ Use when **all** of the following are true:
 | Skill | Job |
 |---|---|
 | **state-note** (this) | One bounded note under `statecraft/notes/` |
-| **statecraft-daily-synthesis** | Operator daily surface for a full archive day |
+| **state-synthesis** | Operator daily surface for a full archive day |
 | **statecraft-multi-lens** | Live comparison across named lenses; may **hand off** here when method-bearing |
 | **statecraft-intelligence-essay** | Synthetic essay-class object, not a bounded note |
 | **singularity-note-promotion** | Same promotion shape; **singularity** shelf only |
@@ -154,7 +154,7 @@ Run host sync and validation (see appendix).
 - Notes shelf SSOT: [statecraft/notes/README.md](/C:/dev/strategy-codex/statecraft/notes/README.md)
 - Prose-class chooser: [docs/prose-index.md](/C:/dev/strategy-codex/docs/prose-index.md)
 - Multi-lens handoff source: [.cursor/skills/statecraft-multi-lens/SKILL.md](/C:/dev/strategy-codex/.cursor/skills/statecraft-multi-lens/SKILL.md) — bounded `statecraft/notes/` when comparison is method-bearing
-- Daily parent (when promoting from a full day): [statecraft-daily-synthesis](/C:/dev/strategy-codex/.cursor/skills/statecraft-daily-synthesis/SKILL.md)
+- Daily parent (when promoting from a full day): [state-synthesis](/C:/dev/strategy-codex/.cursor/skills/state-synthesis/SKILL.md)
 - Singularity sibling: [singularity-note-promotion](/C:/dev/strategy-codex/.cursor/skills/singularity-note-promotion/SKILL.md)
 
 **Examples (shelf-native)**

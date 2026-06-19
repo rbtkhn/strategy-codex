@@ -36,7 +36,7 @@ Use when **all** of the following are true:
 **Do not use** when:
 
 - the job is still **source intake** only
-- the object is the **whole day** — use `statecraft-daily-synthesis` first, then promote one wedge
+- the object is the **whole day** — use `state-synthesis` first, then promote one wedge
 - multiple competing claims are unsettled — stay in synthesis or `statecraft-multi-lens` first
 - the object is a **stand-alone thesis** that no longer needs parent context — route toward repo-root essay via `docs/prose-index.md`
 
@@ -45,7 +45,7 @@ Use when **all** of the following are true:
 | Skill | Job |
 |---|---|
 | **state-note** (this) | One bounded note under `statecraft/notes/` |
-| **statecraft-daily-synthesis** | Operator daily surface for a full archive day |
+| **state-synthesis** | Operator daily surface for a full archive day |
 | **statecraft-multi-lens** | Live comparison across named lenses; may **hand off** here when method-bearing |
 | **statecraft-intelligence-essay** | Synthetic essay-class object, not a bounded note |
 | **singularity-note-promotion** | Same promotion shape; **singularity** shelf only |

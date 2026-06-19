@@ -30,7 +30,7 @@ D. Russia - strategic depth, disruption, optionality
 
 After the lane-direct pick, route to [America](../../../statecraft/america/README.md), [China](../../../statecraft/china/README.md), [Persia](../../../statecraft/persia/README.md), or [Russia](../../../statecraft/russia/README.md), and let that lane decide the first transcript-bearing intake family. `Statecraft Archive -> Statecraft Synthesis -> host law -> bridge if needed -> lane drafting` is the live intake law. **Statecraft sources:** [statecraft.md](../../../statecraft/statecraft.md), [METHOD.md](../../../statecraft/METHOD.md), [treaty-framework.md](../../../statecraft/templates/treaty-framework.md), [policy-paper.md](../../../statecraft/templates/policy-paper.md), [negotiation-brief.md](../../../statecraft/templates/negotiation-brief.md), [richelieu.md](../../../statecraft/lenses/richelieu.md), [bismarck.md](../../../statecraft/lenses/bismarck.md), and [sheets/README.md](../../../statecraft/sheets/README.md) remain downstream drafting tools after intake and routing.
 
-Named follow-on: `statecraft civ-state` is also valid after **C. Statecraft** when the operator wants the upstream CIV-STATE bench rather than lane routing. That command keeps a fixed **A-D** menu:
+Named follow-on: **`civ-state`** is also valid after **C. Statecraft** when the operator wants the upstream CIV-STATE bench rather than lane routing (legacy alias: `statecraft civ-state`). That command keeps a fixed **A-D** menu:
 
 - `A. Frame`
 - `B. Retrieve`

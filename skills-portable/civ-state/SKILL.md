@@ -1,33 +1,43 @@
 ---
-name: statecraft-civ-state
-preferred_activation: statecraft civ-state
-description: "Open CIV-STATE as the upstream analysis bench for frame judgment, retrieval, membrane promotion, and review. Use when the operator says statecraft civ-state, civ-state command, or needs a fixed A-D CIV-STATE menu with a live recommendation rather than explicit book-writing."
+name: civ-state
+preferred_activation: civ-state
+description: "Open CIV-STATE as the upstream analysis bench for frame judgment, retrieval, membrane promotion, and review. Use when the operator says civ-state, statecraft civ-state, or needs a fixed A-D CIV-STATE menu with a live recommendation rather than explicit book-writing."
+portable: true
+version: 0.2.0
+tags:
+  - operator
+  - statecraft
+  - civ-state
+  - architecture
 ---
 
-# Statecraft CIV-STATE
+# CIV-STATE
 
-`statecraft civ-state` is the exact command door for CIV-STATE as an analysis-and-retrieval bench.
+**WORK only; not Record.**
+
+**Activation:** `civ-state` · `statecraft civ-state` *(legacy alias)*
+
+`civ-state` is the exact command door for CIV-STATE as an analysis-and-retrieval bench.
 
 It is not a generic bookshelf opener, not a coffee replacement, not a lane-drafting surface, and not default book-authoring mode.
 
 Short doctrine:
 
-- `statecraft civ-state` opens upstream judgment
+- `civ-state` opens upstream judgment
 - the menu stays fixed
 - only the recommendation moves
 - retrieval should follow the CIV-STATE switchboard, not jump straight into broad chapter prose
 
 ## Boundary
 
-- WORK only; not Record.
 - Use this command when the real question is upstream CIV-STATE orientation, not downstream statecraft drafting.
 - Keep explicit CIV-STATE book work out of the default path unless the operator asks for it directly.
-- Do not replace `state-deploy`, lane skills, `statecraft-framework`, or explicit volume-authoring skills.
+- Do not replace deploy routing, lane skills, framework diagnosis, or explicit volume-authoring skills.
 - Do not widen into a dynamic repo dashboard or unrelated worktree audit.
 
 ## What This Command Owns
 
-`statecraft civ-state` owns four action families:
+`civ-state` owns four action families:
 
 - `Frame`
 - `Retrieve`
@@ -40,14 +50,7 @@ What changes from turn to turn is the live recommendation and the explanation fo
 
 ## Allowed Dynamic Inputs
 
-Use only these surfaces to compute the recommendation:
-
-1. `statecraft/voices/`
-2. `statecraft/bridges/`
-3. `statecraft/states/ph-civ-to-civ-state-bridge.md`
-4. `statecraft/states/ph-civ-promotion-ledger.md`
-5. `statecraft/states/review-queue.md`
-6. the current CIV-STATE volume shelf or chapter-family surfaces when retrieval genuinely requires them
+Use only host-equivalent surfaces for speaker/bridge state, PH-CIV to CIV-STATE membrane docs, promotion ledger, review queue, and current CIV-STATE volume or chapter-family surfaces when retrieval genuinely requires them.
 
 Do not use:
 
@@ -55,6 +58,8 @@ Do not use:
 - broad worktree dirt
 - unrelated lane activity
 - generic repo heat outside speaker-state and CIV-STATE membrane/review residue
+
+*(Instance paths: host appendix.)*
 
 ## Recommendation Rules
 
@@ -73,11 +78,7 @@ If more than one path is plausible, still choose one recommendation and name the
 
 Use when the object is still interpretively unstable.
 
-Route toward:
-
-- `statecraft-framework`
-- `public/civ-state/theory/` — six governing terms + rhythm/time law
-- [Civilization, Empire, Faith, Science, Memory, Entropy Retrieval Checklist](../../statecraft/states/civilization-empire-faith-science-memory-entropy-retrieval-checklist.md) when term diagnosis is the bottleneck
+Route toward framework diagnosis, CIV-STATE theory (six governing terms + rhythm/time law), and the six-term retrieval checklist when term diagnosis is the bottleneck.
 
 This is for governing-term diagnosis and CIV-STATE interpretive orientation, not volume writing.
 
@@ -85,18 +86,7 @@ This is for governing-term diagnosis and CIV-STATE interpretive orientation, not
 
 Use when the object is stable enough that the next honest move is opening the right CIV-STATE surface.
 
-Possible retrieval targets include:
-
-- a `shelf-reader` when the real need is traversal guidance
-- an era `primary-sources` shelf when legitimacy wording, founding language, legal form, or self-description is decisive
-- an era `secondary-sources` shelf when chronology, provenance, translation, institutional context, counterweight, or misreading correction is decisive
-- a CIV-STATE volume
-- `civilization-<civ>.md`
-- `empire-<civ>.md`
-- `statecraft-<civ>.md`
-- sacred grammar
-- source-retrieval matrix
-- a narrower chapter-family surface
+Possible retrieval targets include shelf-reader guidance, era primary-sources shelves, era secondary-sources shelves, CIV-STATE volumes, civilization/empire/statecraft case files, sacred grammar, source-retrieval matrix, and narrower chapter-family surfaces.
 
 This is retrieval-first, not book-authoring.
 
@@ -111,11 +101,7 @@ Use the switchboard law explicitly:
 
 Use when a speaker-state or PH-CIV pattern may deserve promotion into CIV-STATE.
 
-Route toward:
-
-- `ph-civ-to-civ-state-bridge.md`
-- `ph-civ-promotion-ledger.md`
-- `ph-civ-to-civ-state-promoter`
+Route toward the PH-CIV to CIV-STATE bridge, promotion ledger, and promoter workflow.
 
 This is membrane judgment, not silent upstream mutation.
 
@@ -123,11 +109,7 @@ This is membrane judgment, not silent upstream mutation.
 
 Use when CIV-STATE already contains residue that is ready for bounded tightening.
 
-Route toward:
-
-- `review-queue.md`
-- active volume or chapter-family residue
-- architecture or part-writing skills only when the operator explicitly wants CIV-STATE book work
+Route toward the review queue, active volume or chapter-family residue, and architecture or part-writing skills only when the operator explicitly wants CIV-STATE book work.
 
 Default review means refinement, correction, or hardening. It does not assume the operator wants to keep authoring the CIV-STATE books.
 
@@ -135,18 +117,13 @@ Default review means refinement, correction, or hardening. It does not assume th
 
 Book-building is not part of the default four-family interpretation.
 
-If the operator explicitly asks to work on the CIV-STATE book, route out of this command into the relevant authoring surfaces, such as:
-
-- `civ-state-volume-architect`
-- `civilization-part-writer`
-- `empire-part-writer`
-- `statecraft-guidebook-writer`
+If the operator explicitly asks to work on the CIV-STATE book, route out of this command into the relevant authoring surfaces (volume architect, civilization/empire part writers, guidebook writer).
 
 Do not hide that shift inside `Retrieve` or `Review`.
 
 ## Default Output
 
-When the operator invokes `statecraft civ-state` without a narrower object, use exactly this output shape:
+When the operator invokes `civ-state` without a narrower object, use exactly this output shape:
 
 ```markdown
 **Statecraft CIV-STATE**
@@ -183,12 +160,6 @@ When the operator replies with a letter after this command, execute that path ra
 
 ## Non-Replacement Rule
 
-`statecraft civ-state` does not replace:
-
-- `state-deploy`
-- lane-local statecraft skills
-- `statecraft-framework`
-- transaction drafting
-- explicit CIV-STATE volume-authoring requests
+`civ-state` does not replace deploy routing, lane-local statecraft skills, framework diagnosis, transaction drafting, or explicit CIV-STATE volume-authoring requests.
 
 It is the upstream CIV-STATE command surface for analysis productivity: frame, retrieve, promote, review.
