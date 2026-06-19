@@ -23,13 +23,24 @@ Do **not** open a 300+ line script in full before the first run when the operato
 ## One bounded step per stall
 
 - Do **not** batch **Read (full file) + Grep + Shell** on the same script/path when a **single run** answers the question.
+- Do **not** launch **parallel `Shell` tool calls** in one agent turn on Windows — combine subcommands with `;` inside **one** Shell (see below).
 - Prefer **run → result** over **read → grep → run**.
+
+## No parallel Shell tool calls (Windows EXECUTE)
+
+When the operator picked a **run fork**, **commit**, or **EXECUTE** ship needs git / sync / validate:
+
+1. **One** `Shell` tool call per agent turn — batch inside it: `git status; git diff --stat; git log -3`.
+2. **Never** `git status` + `git diff` + `git log` (or any Shell×N) as **parallel** tool invocations — concurrent spawns often stall ~250s until interrupted.
+3. **Menu pick = same turn** still holds: the combined shell **is** the delivery; report exit code + summary when the batch finishes.
+
+File-path EXECUTE (one `StrReplace` per file per turn, no parallel edits on same path): [agent-tool-latency-discipline.mdc](agent-tool-latency-discipline.mdc) rules **#3** + **#10**. RLJ: [recursive-learning-journal § parallel ban on file tools and Shell calls](../../statecraft/recursive-learning-journal.md#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship). After a load-bearing plan ship, offer **`recursive learn`** per [recursive-learn skill § Execute ship discipline](../skills/recursive-learn/SKILL.md#execute-ship-discipline-windows-harness) — do not auto-run mid-EXECUTE.
 
 ## Stall recovery (mandatory)
 
 If **Read**, **Grep**, or **Shell** is **interrupted**, hangs ~30s+ with no useful output, or returns empty after a long wait:
 
-1. **Do not repeat** the same parallel batch.
+1. **Do not repeat** the same parallel batch (including parallel `Shell`×N or parallel `StrReplace` on one file).
 2. **Retry narrower:** run the script; or `python scripts/<name>.py --help`; or `Read` with `limit` ≤ 80; or **Grep** one symbol with `head_limit`.
 
 Report the stall briefly if the second attempt still fails; offer one concrete next step.
@@ -46,3 +57,4 @@ For validation menu slots and phrases like **routing pass**, **validate pin-cite
 
 - **Benefit clauses** on menu options: [operator-style.mdc](operator-style.mdc) § WORK modules.
 - **PLAN default** still applies when intent is unclear; this rule applies when the operator **picked a run fork** or clearly asked to **run** a named script.
+- **Post-ship RLJ:** when EXECUTE discipline was load-bearing, close may offer [recursive-learn](../skills/recursive-learn/SKILL.md) — journal append only on operator confirm (`append RLJ`, `log this`).

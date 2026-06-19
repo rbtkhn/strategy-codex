@@ -3,7 +3,7 @@ name: recursive-learn
 preferred_activation: recursive learn
 description: "Governed session review and journal entry for reusable machine laws. SSOT journal: statecraft/recursive-learning-journal.md."
 portable: true
-version: 0.2.3
+version: 0.2.4
 tags:
   - operator
   - statecraft
@@ -201,9 +201,10 @@ RLJ is **post-encoding consolidation** (conductor is **mid-day pressure**). Stan
 
 When a **plan EXECUTE** or multi-skill ship fails on tool timeout then succeeds after discipline change, run RLJ.
 
-**Law (SSOT detail):** [recursive-learning-journal § parallel ban on file tools](../../statecraft/recursive-learning-journal.md#2026-06-18---parallel-ban-on-file-tools-windows-execute-ship) · always-on [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc) rule **#10**.
+**Law (SSOT detail):** [recursive-learning-journal § parallel ban on file tools and Shell calls](../../statecraft/recursive-learning-journal.md#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · always-on [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc) rules **#3** + **#10** · menu-pick delivery [agent-execution-hygiene.mdc](../../.cursor/rules/agent-execution-hygiene.mdc) § No parallel Shell tool calls.
 
 ```text
+one Shell tool call per turn — combine git/sync subcommands with ;
 one path per turn → no parallel StrReplace/Write/Read+Shell on same file
 section hunks or in-process python sequential patch → verify Read limit≤40
 sync/validate once per phase

@@ -2507,30 +2507,32 @@ Routing: [skills-portable/README.md](../skills-portable/README.md) · [civ-state
 
 ---
 
-## 2026-06-18 - Parallel ban on file tools (Windows EXECUTE ship)
+## 2026-06-18 - Parallel ban on file tools and Shell calls (Windows EXECUTE ship)
 
 **Tag:** `parallel-ban-file-tools-execute-2026-06-18`  
-**Cross-link:** [Cold-thread lane entry](#2026-06-18---cold-thread-lane-entry-bounded-read-no-parallel-warmup) · [Portable-sync skill rename](#2026-06-18---portable-sync-skill-rename-ladder-civ-state-proof) — same harness family; this entry **narrows** to **multi-step EXECUTE / plan ship** on one file path.
+**Cross-link:** [Cold-thread lane entry](#2026-06-18---cold-thread-lane-entry-bounded-read-no-parallel-warmup) · [Portable-sync skill rename](#2026-06-18---portable-sync-skill-rename-ladder-civ-state-proof) — same harness family; this entry covers **multi-step EXECUTE / plan ship** on one file path **and** **parallel Shell tool calls** in one agent turn.
 
 ### Trigger
 
-`civ-state` wiring plan failed **four** tool attempts (parallel Read+Shell ~206s, unbounded Read ~237s, monolithic Write ~213s, parallel StrReplace×2 ~333s). Operator locked **harness stalls** as primary friction. Ship succeeded only after **parallel ban**: one mutation surface per turn; sequential in-process Python patches; single sync at phase end. Plan encoded **Agent execution discipline**; operator asked to make law durable via **recursive-learn**.
+`civ-state` wiring plan failed **four** tool attempts (parallel Read+Shell ~206s, unbounded Read ~237s, monolithic Write ~213s, parallel StrReplace×2 ~333s). Operator locked **harness stalls** as primary friction. Ship succeeded only after **parallel ban**: one mutation surface per turn; sequential in-process Python patches; single sync at phase end. Plan encoded **Agent execution discipline**; operator asked to make law durable via **recursive-learn**. **Amend (same day):** commit attempt launched **three parallel `Shell` calls** (`git status`, `git diff`, `git log`) — each interrupted ~249s; **one combined shell** (`git status; git diff --stat; git log -3`) completed ~20s.
 
 ### Extracted law
 
-**No parallel Cursor file tools on the same path — especially after a hang.**
+**No parallel Cursor file tools on the same path — and no parallel `Shell` tool calls in one agent turn — especially after a hang.**
 
 ```text
 EXECUTE / plan ship on Windows:
 → one StrReplace OR one in-process python patch pass per file per turn
 → never batch parallel Read+Shell, Write+Read, or StrReplace×N on same path
+→ one Shell tool call per agent turn — combine subcommands with ; inside it
+→ never parallel Shell×N (e.g. git status + git diff + git log as three tool calls)
 → no monolithic full-file Write on large SKILL.md — section hunks only
 → verify: bounded Read limit≤40 on patched hunk
 → shell batch (sync/validate) once per phase, not between every slice
 → after second consecutive hang: stop — fresh thread + re-entry block
 ```
 
-**In-process Python** (one Shell, sequential replaces in memory) is allowed — it avoids parallel **editor** tool contention, not an excuse to skip verify.
+**In-process Python** (one Shell, sequential replaces in memory) is allowed — it avoids parallel **editor** tool contention, not an excuse to skip verify. **Rule #3 + #10** in [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) are the always-on split: #3 = Shell batching; #10 = file-path EXECUTE ship.
 
 ### Reapplication
 
@@ -2551,7 +2553,8 @@ EXECUTE / plan ship on Windows:
 
 ```text
 Parallel ban ≠ never batch work — one Shell with python -c sequential replaces is OK;
-parallel StrReplace/Write tool calls on one file → repeat stall, not speed;
+one Shell with git status; git diff; git log is OK;
+parallel StrReplace/Write on one file OR parallel Shell tool calls in one turn → repeat stall, not speed;
 decorative RLJ without a failed-then-succeeded execute thread → skip append.
 ```
 
@@ -2561,9 +2564,9 @@ decorative RLJ without a failed-then-succeeded execute thread → skip append.
 
 ```text
 The parallel ban unlocked the civ-state plan ship — not a bigger Write.
-One path, one turn, verify the hunk, sync once at phase end.
+One path, one turn, one Shell call — verify the hunk, sync once at phase end.
 ```
 
-Routing: [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · [recursive-learn skill v0.2.3](../.cursor/skills/recursive-learn/SKILL.md) · [civ-state skill v0.2.0](../.cursor/skills/civ-state/SKILL.md)
+Routing: [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · [recursive-learn skill v0.2.4](../.cursor/skills/recursive-learn/SKILL.md) · [civ-state skill v0.2.0](../.cursor/skills/civ-state/SKILL.md)
 
 **Pattern promotion:** defer until second distinct plan EXECUTE proves the same law without rework.
