@@ -87,6 +87,8 @@ Read this shelf through a few live clusters rather than as one flat list.
 
 - [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) - America-side captured-command tracking note for the Section 224 / NDAA object
 - [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md) - speaker-function comparison note for the current Section 224 bench
+- [june-18-2026-mou-guest-pair-citation-split.md](./june-18-2026-mou-guest-pair-citation-split.md) - J18 MOU day: Johnson ×2 (Dialogue Works) and Blumenthal/Macgregor (Judging Freedom) citation splits so same-day guest pairs are not flattened in synthesis
+- [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) - J18 MOU-day convergence spine (register map, five enforcement seams, falsifiers); child pair note for episode-level citation splits
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - mechanism note on when command remains formal but discretion thins from inside the machinery
 - [recognition-threshold-vs-settlement-architecture.md](./recognition-threshold-vs-settlement-architecture.md) - threshold and sequencing distinction
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - route note for treating the open archive-truth seam as a governed machine object rather than a raw debt pile
@@ -199,6 +201,8 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - [recent-speaker-underrepresentation-query-standard.md](./recent-speaker-underrepresentation-query-standard.md) - shelf-native query-standard note
 - [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) - shelf-native tracking note
 - [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md) - shelf-native speaker-function note
+- [june-18-2026-mou-guest-pair-citation-split.md](./june-18-2026-mou-guest-pair-citation-split.md) - shelf-native speaker-pair citation-split note (J18 MOU day)
+- [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) - shelf-native MOU convergence note (J18 nine-source day; parent to pair citation split)
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - shelf-native America-side mechanism note
 - [barnes-on-ai.md](./barnes-on-ai.md) - shelf-native speaker-derived bounded thematic note
 - [china-ai-implementation-watch.md](./china-ai-implementation-watch.md) - shelf-native rolling watch / time-series tracker

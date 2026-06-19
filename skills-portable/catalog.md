@@ -183,6 +183,25 @@ Canonical method: [skills-portable/statecraft-multi-lens/SKILL.md](statecraft-mu
 
 ---
 
+## state-note
+
+- **What it is**
+  - Promote one bounded statecraft argument from chat, daily synthesis, or multi-lens comparison into a reusable `statecraft/notes/` object with archive anchors and citation splits (statecraft sibling of `singularity-note-promotion`).
+- **When to use it**
+  - Use when the operator says `state-note`, `promote to statecraft note`, or when a mechanism seam, speaker-function split, or comparison cite-map should survive outside chat without becoming a full daily or essay.
+- **Inputs you'll need**
+  - One promotable wedge, exact `source-archive/statecraft/` paths (or a parent daily/multi-lens surface), and the notes shelf README for wiring.
+- **What you get**
+  - A shelf-native bounded note (Purpose, owns-here blocks, citation hygiene, falsifiers) plus README index entry; bidirectional link when a parent day exists.
+- **Boundary**
+  - WORK only; one argument per note; no transcript mirrors; does not replace `statecraft-daily-synthesis` for whole-day work or `statecraft-intelligence-essay` for essay-class prose.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/state-note/SKILL.md](state-note/SKILL.md)
+
+---
+
 ## monthly-deepening
 
 - **What it is**
