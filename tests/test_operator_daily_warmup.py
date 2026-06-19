@@ -18,6 +18,7 @@ import operator_daily_warmup as odw  # noqa: E402
 def test_build_operator_daily_warmup_includes_depth_and_polling_reminder(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    monkeypatch.setattr(odw, "_record_frozen", lambda: False)
     monkeypatch.setattr(odw, "_read", lambda _: "stub")
     monkeypatch.setattr(odw, "_pending_candidates", lambda *_: [])
     monkeypatch.setattr(odw, "_last_activity_oneliner", lambda _: "ACT-9999 sample activity")
@@ -37,7 +38,7 @@ def test_build_operator_daily_warmup_includes_depth_and_polling_reminder(
         ],
     )
     monkeypatch.setattr(odw, "velocity_oneliner", lambda _: "Pipeline velocity (7d): 5 merge(s), 0 approval(s) — tier L1 active.")
-    monkeypatch.setattr(odw, "load_fork_platform/config", lambda: {"max_pending_candidates": 10})
+    monkeypatch.setattr(odw, "load_fork_config", lambda: {"max_pending_candidates": 10})
     monkeypatch.setattr(
         odw,
         "get_work_politics_snapshot",

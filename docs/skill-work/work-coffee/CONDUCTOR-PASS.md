@@ -1,5 +1,7 @@
 # Conductor pass (generic) - five masters, any territory
 
+> **Phase 3 archive stub:** Standalone conductor entry is **compressed**. Active operator path: [CONDUCTOR-COMPRESSION-SPEC.md](CONDUCTOR-COMPRESSION-SPEC.md) + [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md). Body below is **read-only compatibility**.
+
 **Status:** WORK (operator pattern). **Not** Record. **Not** a merge or gate substitute.
 
 **Purpose:** A **territory-agnostic** description of the **conductor** role in strategy-codex: the operator sets **emphasis, tempo, and depth**; tools and file trees do **not** replace judgment. The **five-master** map (Precision through Selectivity) is portable: it describes **modes of attention**, not one folder.

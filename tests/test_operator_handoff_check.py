@@ -102,3 +102,29 @@ def test_build_ship_receipt_ahead_and_mixed_slices(handoff_mod):
     assert "**singularity:**" in joined
     assert "git push origin main" in joined
     assert "3e3517e6" in joined
+
+
+def test_build_handoff_check_full_mode_does_not_raise(handoff_mod, monkeypatch: pytest.MonkeyPatch):
+    import strategy_codex_config as scc
+
+    monkeypatch.setattr(scc, "record_frozen", lambda: True)
+    monkeypatch.setattr(handoff_mod, "_read", lambda _p: "## VIII\n\n2026-06-01 ACT-0001 sample activity\n")
+    monkeypatch.setattr(handoff_mod, "_pending_candidates", lambda _g, _f: [])
+    monkeypatch.setattr(
+        handoff_mod,
+        "_last_activity_oneliner",
+        lambda evidence: "ACT-0001 sample" if evidence else "_none_",
+    )
+    monkeypatch.setattr(
+        handoff_mod,
+        "get_work_politics_snapshot",
+        lambda _u: {"territory_blockers": [], "next_actions": []},
+    )
+    monkeypatch.setattr(handoff_mod, "_run_git_status_bundle", lambda: ([], [], "main"))
+    monkeypatch.setattr(handoff_mod, "_run_git", lambda *_a, **_k: [])
+    if handoff_mod.build_night_pulse_lines is not None:
+        monkeypatch.setattr(handoff_mod, "build_night_pulse_lines", lambda _u: [])
+
+    result = handoff_mod.build_handoff_check("strategy-codex", fast=False)
+    assert "# Handoff check" in result
+    assert "ACT-0001" in result

@@ -202,7 +202,7 @@ def _normalize_conductor_slug(value: str | None) -> str:
     return slug
 
 
-def _conductor_shape_warnings(kind: str, kv: dict[str, str]) -> list[str]:
+def _conductor_shape_warnings(kind: str, kv: dict[str, str], user_id: str = "") -> list[str]:
     warnings: list[str] = []
     if kind == "coffee_pick":
         picked = str(kv.get("picked", "")).strip()
@@ -219,6 +219,11 @@ def _conductor_shape_warnings(kind: str, kv: dict[str, str]) -> list[str]:
                     "Expected one of: toscanini, furtwangler, karajan, kleiber, bernstein."
                 )
     if kind == "coffee_conductor_outcome":
+        if str(user_id).strip() == "strategy-codex":
+            warnings.append(
+                "cadence deprecation (Phase 3): coffee_conductor_outcome is read-only legacy for "
+                "strategy-codex. Use scripts/log_coffee_close.py with --object-ref and --falsify instead."
+            )
         conductor = _normalize_conductor_slug(kv.get("conductor"))
         verdict = str(kv.get("verdict", "")).strip()
         has_notebook_ref = bool(str(kv.get("notebook_ref", "")).strip())
@@ -287,7 +292,7 @@ def append_cadence_event(
             continue
         merged[k] = v
 
-    for warning in _conductor_shape_warnings(kind, merged):
+    for warning in _conductor_shape_warnings(kind, merged, user_id=user_id):
         print(warning, file=sys.stderr)
 
     if dedupe_seconds is not None and dedupe_seconds > 0:

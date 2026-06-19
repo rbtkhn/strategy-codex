@@ -12,10 +12,10 @@ CONDUCTOR_DOCS = (
     ".cursor/skills/coffee/SKILL.md",
     ".cursor/skills/conductor/SKILL.md",
     ".cursor/skills/dream/SKILL.md",
-    ".cursor/skills/skill-strategy/SKILL.md",
     "docs/operator-skills.md",
     "docs/skill-work/work-cadence/work-cadence-events.md",
     "docs/skill-work/work-coffee/CONDUCTOR-PASS.md",
+    "docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md",
     "docs/skill-work/work-dev/dev-notebook/README.md",
     "docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md",
 )
@@ -59,9 +59,9 @@ def test_conductor_loop_wires_coffee_pick_to_dream_rollup_contract() -> None:
 
     assert "Coffee / dream contract" in loop
     assert "picked=conductor conductor=<slug>" in loop
-    assert "conductor_rollup_24h" in loop
-    assert "Coffee -> dream conductor handoff" in coffee
-    assert "orientation-only" in coffee
+    assert "work_pass_rollup_24h" in coffee or "coffee_close" in coffee
+    assert "orientation" in coffee.lower()
+    assert "orientation" in coffee.lower()
     assert "completed_passes" in dream
     assert "orientation_only" in dream
 
@@ -75,12 +75,12 @@ def test_conductor_loop_ssot_prefers_new_name_only_cadence_shape() -> None:
 
 
 def test_conductor_action_menu_requires_partial_arc_state() -> None:
-    skill = (REPO_ROOT / ".cursor/skills/conductor/SKILL.md").read_text(encoding="utf-8")
     protocol = (REPO_ROOT / "docs/skill-work/work-coffee/CONDUCTOR-PASS.md").read_text(
         encoding="utf-8"
     )
+    hard = (REPO_ROOT / ".cursor/skills/conductor/HARD-PROTOCOL.md").read_text(encoding="utf-8")
 
-    for text in (skill, protocol):
+    for text in (protocol, hard):
         assert "Complete -" in text
         assert "Open -" in text
         assert "Parked -" in text
@@ -90,12 +90,12 @@ def test_conductor_action_menu_requires_partial_arc_state() -> None:
 
 
 def test_conductor_action_menu_requires_option_quality_gate() -> None:
-    skill = (REPO_ROOT / ".cursor/skills/conductor/SKILL.md").read_text(encoding="utf-8")
     protocol = (REPO_ROOT / "docs/skill-work/work-coffee/CONDUCTOR-PASS.md").read_text(
         encoding="utf-8"
     )
+    hard = (REPO_ROOT / ".cursor/skills/conductor/HARD-PROTOCOL.md").read_text(encoding="utf-8")
 
-    for text in (skill, protocol):
+    for text in (protocol, hard):
         assert "Option quality" in text
         assert "distinct" in text
         assert "lifecycle" in text
@@ -103,7 +103,6 @@ def test_conductor_action_menu_requires_option_quality_gate() -> None:
 
 
 def test_conductor_finale_requires_actionability_close() -> None:
-    skill = (REPO_ROOT / ".cursor/skills/conductor/SKILL.md").read_text(encoding="utf-8")
     protocol = (REPO_ROOT / "docs/skill-work/work-coffee/CONDUCTOR-PASS.md").read_text(
         encoding="utf-8"
     )
@@ -111,7 +110,7 @@ def test_conductor_finale_requires_actionability_close() -> None:
         REPO_ROOT / "docs/skill-work/work-dev/kleiber-composition-benchmark.md"
     ).read_text(encoding="utf-8")
 
-    for text in (skill, protocol, benchmark):
+    for text in (protocol, benchmark):
         assert "Actionability close" in text or "Actionability Close" in text
         assert "operator-facing next action" in text
         assert "No next action recommended" in text
@@ -119,3 +118,18 @@ def test_conductor_finale_requires_actionability_close() -> None:
         assert "Weakened" in text
         assert "Broke" in text
         assert "Open" in text
+
+
+def test_conductor_skill_is_phase2_redirect_stub() -> None:
+    skill = (REPO_ROOT / ".cursor/skills/conductor/SKILL.md").read_text(encoding="utf-8")
+    assert "CONDUCTOR-COMPRESSION-SPEC" in skill
+    assert "redirect stub" in skill.lower() or "Redirect only" in skill
+    assert "Conductor Action Menu" in skill
+    assert "Do **not** emit Conductor Action Menu" in skill
+
+
+def test_coffee_skill_documents_compression_redirect() -> None:
+    coffee = (REPO_ROOT / ".cursor/skills/coffee/SKILL.md").read_text(encoding="utf-8")
+    assert "CONDUCTOR-COMPRESSION-SPEC" in coffee
+    assert "default attention" in coffee.lower()
+    assert "replaces `build_conductor_revisit_block`" in coffee

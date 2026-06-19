@@ -24,6 +24,16 @@ PICKED_VALUES = frozenset({"A", "B", "C", "D", "conductor"})
 OUTCOMES = frozenset({"done", "partial", "blocked", "parked"})
 READINESS_VALUES = frozenset({"orientation", "execution_ready", "ship_ready", "blocked"})
 CONDUCTOR_STATES = frozenset({"open", "closed", "none"})
+VERDICT_VALUES = frozenset({"held", "shaped", "promote", "watch", "shelf", "no_action"})
+ATTENTION_PHRASES = frozenset(
+    {
+        "precision pass",
+        "hold tension",
+        "stakes pass",
+        "long arc pass",
+        "one object only",
+    }
+)
 
 
 def _join_tokens(values: list[str] | None, comma_values: str | None = None) -> str:
@@ -47,6 +57,10 @@ def build_coffee_close_kv(
     next_slug: str | None = None,
     conductor: str | None = None,
     conductor_state: str = "none",
+    object_ref: str | None = None,
+    falsify: str | None = None,
+    verdict: str | None = None,
+    attention: str | None = None,
 ) -> dict[str, str]:
     """Validate and normalize coffee_close key-values."""
     picked = str(picked).strip()
@@ -54,6 +68,10 @@ def build_coffee_close_kv(
     readiness = str(readiness).strip()
     conductor = (conductor or "").strip()
     conductor_state = str(conductor_state or "none").strip()
+    object_ref = (object_ref or "").strip()
+    falsify = (falsify or "").strip()
+    verdict = (verdict or "").strip()
+    attention = (attention or "").strip()
 
     if picked not in PICKED_VALUES:
         raise ValueError(f"picked must be one of {sorted(PICKED_VALUES)}, got {picked!r}")
@@ -77,6 +95,16 @@ def build_coffee_close_kv(
             + ", ".join(sorted(KNOWN_CONDUCTOR_SLUGS))
             + f", got {conductor!r}"
         )
+    if verdict and verdict not in VERDICT_VALUES:
+        raise ValueError(
+            f"verdict must be one of {sorted(VERDICT_VALUES)}, got {verdict!r}"
+        )
+    if attention and attention not in ATTENTION_PHRASES:
+        raise ValueError(
+            "attention must be one of "
+            + ", ".join(sorted(ATTENTION_PHRASES))
+            + f", got {attention!r}"
+        )
 
     kv: dict[str, str] = {
         "picked": picked,
@@ -85,7 +113,7 @@ def build_coffee_close_kv(
     }
     artifacts_value = _join_tokens(artifacts, artifacts_csv)
     if artifacts_value:
-        kv["runtime/artifacts"] = artifacts_value
+        kv["artifacts"] = artifacts_value
     loops_value = _join_tokens(loops, loops_csv)
     if loops_value:
         kv["loops"] = loops_value
@@ -95,6 +123,14 @@ def build_coffee_close_kv(
         kv["conductor"] = conductor
     if conductor_state != "none":
         kv["conductor_state"] = conductor_state
+    if object_ref:
+        kv["object_ref"] = object_ref
+    if falsify:
+        kv["falsify"] = falsify
+    if verdict:
+        kv["verdict"] = verdict
+    if attention:
+        kv["attention"] = attention
     return kv
 
 
@@ -105,12 +141,21 @@ def main() -> int:
     parser.add_argument("--outcome", required=True, choices=sorted(OUTCOMES))
     parser.add_argument("--readiness", required=True, choices=sorted(READINESS_VALUES))
     parser.add_argument("--artifact", action="append", default=[], help="Artifact path/ref; repeatable")
-    parser.add_argument("--runtime/artifacts", default=None, help="Comma-separated artifact paths/refs")
+    parser.add_argument(
+        "--artifacts",
+        dest="artifacts_csv",
+        default=None,
+        help="Comma-separated artifact paths/refs",
+    )
     parser.add_argument("--loop", action="append", default=[], help="Unresolved loop slug; repeatable")
     parser.add_argument("--loops", default=None, help="Comma-separated unresolved loop slugs")
     parser.add_argument("--next", dest="next_slug", default=None, help="Short next-move slug")
     parser.add_argument("--conductor", default=None, choices=sorted(KNOWN_CONDUCTOR_SLUGS))
     parser.add_argument("--conductor-state", default="none", choices=sorted(CONDUCTOR_STATES))
+    parser.add_argument("--object-ref", default=None, help="Primary object path or ref for this close")
+    parser.add_argument("--falsify", default=None, help="Falsifier slug or one-line test")
+    parser.add_argument("--verdict", default=None, choices=sorted(VERDICT_VALUES))
+    parser.add_argument("--attention", default=None, choices=sorted(ATTENTION_PHRASES))
     parser.add_argument("--cursor-model", default=None)
     parser.add_argument("--model-tier", default=None, choices=["frontier", "fast", "unknown"])
     args = parser.parse_args()
@@ -120,12 +165,16 @@ def main() -> int:
         outcome=args.outcome,
         readiness=args.readiness,
         artifacts=args.artifact,
-        artifacts_csv=args.artifacts,
+        artifacts_csv=args.artifacts_csv,
         loops=args.loop,
         loops_csv=args.loops,
         next_slug=args.next_slug,
         conductor=args.conductor,
         conductor_state=args.conductor_state,
+        object_ref=args.object_ref,
+        falsify=args.falsify,
+        verdict=args.verdict,
+        attention=args.attention,
     )
     path = append_cadence_event(
         "coffee_close",
@@ -137,8 +186,12 @@ def main() -> int:
     )
     try:
         artifact_tokens = list(args.artifact or [])
-        if args.artifacts:
-            artifact_tokens.extend(part.strip() for part in str(args.runtime/artifacts).split(",") if part.strip())
+        if args.artifacts_csv:
+            artifact_tokens.extend(
+                part.strip()
+                for part in str(args.artifacts_csv).split(",")
+                if part.strip()
+            )
         loop_tokens = list(args.loop or [])
         if args.loops:
             loop_tokens.extend(part.strip() for part in str(args.loops).split(",") if part.strip())
@@ -150,6 +203,10 @@ def main() -> int:
             artifacts=[item for item in artifact_tokens if str(item).strip()],
             loops=[item for item in loop_tokens if str(item).strip()],
             next_slug=args.next_slug,
+            object_ref=args.object_ref,
+            falsify=args.falsify,
+            verdict=args.verdict,
+            attention=args.attention,
         )
     except Exception:
         pass

@@ -1,4 +1,12 @@
-# Conductor Hard Protocol
+# Conductor Hard Protocol — archived (Phase 2)
+
+**Redirect:** New operator entry uses [CONDUCTOR-COMPRESSION-SPEC.md](../../../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md) + [coffee SKILL](../coffee/SKILL.md). Do **not** emit Conductor Action Menu on new sessions.
+
+The body below is **read-only compatibility** for archaeology and tests against [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md).
+
+---
+
+# Conductor Hard Protocol (legacy)
 
 Conductor is a protocol before it is a voice. Use this guard before any conductor persona text.
 
@@ -39,5 +47,13 @@ Conductor Action Menu - Reply A-D for this <slug> pass
 A. Allegro: <verb> <repo path / command / artifact / exact target>.
 B. Andante: <verb> <repo path / command / artifact / exact target>.
 C. Scherzo: <verb> <repo path / command / artifact / exact target>.
-D. Finale: <verb> <durable close / receipt / log / benchmark target>.
+D. Finale: <verb> <repo path / command / artifact / exact target>.
 ```
+
+## Option quality
+
+Every option must be **distinct**, **lifecycle**-aware, and **not interchangeable**. **D / Finale is not required for every useful arc** — Finale is a lifecycle close when evidence supports it.
+
+## Partial arc state
+
+Prefix follow-up menu lines with `Complete -`, `Open -`, or `Parked -` when preserving movement state across turns.

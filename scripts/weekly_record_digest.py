@@ -332,7 +332,7 @@ def format_digest(d: dict) -> str:
     if cg:
         lines.append("## Capture Health")
         level = cg.get("level", "unknown")
-        days_since = cg.get("days_since_archive/placeholders/evidence")
+        days_since = cg.get("days_since_evidence")
         eid = cg.get("last_evidence_id", "?")
         if days_since is not None:
             lines.append(f"- {level.upper()}: {days_since}d since {eid}")

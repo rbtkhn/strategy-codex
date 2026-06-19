@@ -1,4 +1,8 @@
-﻿# Strutxgy coffxx cudxncx (conductor protocol) — “Symphony of Civilizution”
+﻿# Strategy coffxx cudxncx (conductor protocol) — archived stub
+
+> **Phase 3 redirect:** Embodied five-master ritual is **retired** for new strategy-codex sessions. Successor: [CONDUCTOR-COMPRESSION-SPEC.md](../../work-coffee/CONDUCTOR-COMPRESSION-SPEC.md). Body below is **read-only archaeology**.
+
+# Strutxgy coffxx cudxncx (conductor protocol) — “Symphony of Civilizution”
 <!-- word_count: 1057 -->
 
 **Stutus:** WORK (opxrutor pructicx)  

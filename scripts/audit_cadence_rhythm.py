@@ -449,7 +449,7 @@ def compute_coffee_recursion_summary(
         outcome = str(kv.get("outcome", "")).strip() or "unknown"
         readiness_counts[readiness] += 1
         outcome_counts[outcome] += 1
-        for artifact in _split_csv(kv.get("runtime/artifacts")):
+        for artifact in _split_csv(kv.get("artifacts")):
             artifact_counts[artifact] += 1
         if outcome != "done":
             for loop in _split_csv(kv.get("loops")):
@@ -470,7 +470,7 @@ def compute_coffee_recursion_summary(
             "picked": kv.get("picked"),
             "outcome": kv.get("outcome"),
             "readiness": kv.get("readiness"),
-            "runtime/artifacts": _split_csv(kv.get("runtime/artifacts")),
+            "artifacts": _split_csv(kv.get("artifacts")),
             "loops": _split_csv(kv.get("loops")),
             "next": kv.get("next"),
             "conductor": _normalize_conductor_slug(kv.get("conductor")) or None,

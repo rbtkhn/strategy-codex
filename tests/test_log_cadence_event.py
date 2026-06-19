@@ -125,7 +125,7 @@ def test_append_coffee_close_event(events_file: Path) -> None:
             "picked": "B",
             "outcome": "partial",
             "readiness": "execution_ready",
-            "runtime/artifacts": "scripts/log_coffee_close.py,tests/test_log_cadence_event.py",
+            "artifacts": "scripts/log_coffee_close.py,tests/test_log_cadence_event.py",
             "loops": "coffee-close,artifact-aware-rhythm",
             "next": "run-tests",
         },
@@ -153,7 +153,7 @@ def test_build_coffee_close_kv_validates_required_shape() -> None:
         "picked": "conductor",
         "outcome": "done",
         "readiness": "ship_ready",
-        "runtime/artifacts": "commit:abc1234",
+        "artifacts": "commit:abc1234",
         "loops": "coffee-close",
         "next": "dream",
         "conductor": "kleiber",
@@ -402,4 +402,66 @@ def test_parse_cli_kv_groups_keeps_unquoted_falsify_prose() -> None:
     assert kv["verdict"] == "youtube-adapter-arc-held"
     assert kv["conductor"] == "karajan"
     assert kv["falsify"] == "If a future YouTube caller reintroduces direct yt-dlp execution"
+
+
+def test_build_coffee_close_kv_object_ref_falsify_verdict_attention() -> None:
+    kv = build_coffee_close_kv(
+        picked="D",
+        outcome="partial",
+        readiness="execution_ready",
+        object_ref="statecraft/daily/2026-06-17.md",
+        falsify="pseudo-gate-J16-K1-vs-J16-ME1",
+        verdict="shaped",
+        attention="one object only",
+    )
+    assert kv["object_ref"] == "statecraft/daily/2026-06-17.md"
+    assert kv["falsify"] == "pseudo-gate-J16-K1-vs-J16-ME1"
+    assert kv["verdict"] == "shaped"
+    assert kv["attention"] == "one object only"
+
+
+def test_build_coffee_close_kv_rejects_invalid_verdict_and_attention() -> None:
+    with pytest.raises(ValueError, match="verdict must be one of"):
+        build_coffee_close_kv(
+            picked="D",
+            outcome="partial",
+            readiness="execution_ready",
+            verdict="maybe",
+        )
+    with pytest.raises(ValueError, match="attention must be one of"):
+        build_coffee_close_kv(
+            picked="C",
+            outcome="done",
+            readiness="orientation",
+            attention="kleiber mode",
+        )
+
+
+def test_log_coffee_close_cli_main_with_artifact(
+    events_file: Path, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str],
+) -> None:
+    import log_coffee_close as lcc
+
+    monkeypatch.setattr(lcc, "append_cadence_event", lambda *a, **k: events_file)
+    monkeypatch.setattr(lcc, "log_coffee_resolution_from_close", lambda *a, **k: None)
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        [
+            "log_coffee_close.py",
+            "-u",
+            "strategy-codex",
+            "--picked",
+            "A",
+            "--outcome",
+            "done",
+            "--readiness",
+            "ship_ready",
+            "--artifact",
+            "7a79247e9",
+        ],
+    )
+    assert lcc.main() == 0
+    out = capsys.readouterr().out.strip()
+    assert out.endswith("work-cadence-events.md") or "cadence" in out
 

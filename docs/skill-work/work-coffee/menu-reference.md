@@ -168,7 +168,7 @@ refresh indices (if batch) → sync check → intake queue report → promote / 
 | Queue | `python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD` |
 | Optional digest | `--write-digest --digest-out runtime/artifacts/statecraft-intake-queue/digest-YYYY-MM-DD.md` |
 
-Full map: [start-here — Operator ship loop](../../start-here.md#operator-ship-loop) · [statecraft-intake-queue.md](../../statecraft-intake-queue.md). **Kleiber** compact conductor default: sync + queue in **A. Allegro** ([conductor SKILL](../../../.cursor/skills/conductor/SKILL.md)). **Coffee signing-off** after intake: prefer **A — Steward** **git/ship** when the tree carries landed captures.
+Full map: [start-here — Operator ship loop](../../start-here.md#operator-ship-loop) · [statecraft-intake-queue.md](../../statecraft-intake-queue.md). **Compressed path (Phase 2):** B→C→D→A hub sequence + [CONDUCTOR-COMPRESSION-SPEC §5.1](CONDUCTOR-COMPRESSION-SPEC.md#51-reference--statecraft-intake-closeout) — not standalone conductor / Allegro menu. **Coffee signing-off** after intake: prefer **A Confirm** / ship when the tree carries landed captures.
 
 <a id="build-b--detailed-scope"></a>
 

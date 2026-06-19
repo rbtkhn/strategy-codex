@@ -166,22 +166,29 @@ def _last_coffee_echo_bullets(dream: dict) -> list[str]:
     return [f"- Dream picked up yesterday's {label} coffee - {high}"]
 
 
-def _conductor_echo_bullets(dream: dict) -> list[str]:
-    """Compact dream-derived Conductor echo; 0 or 1 line."""
-    rollup = dream.get("conductor_rollup_24h")
+def _work_pass_echo_bullets(dream: dict) -> list[str]:
+    """Compact dream-derived work-pass echo; 0 or 1 line (Phase 3 primary)."""
+    rollup = dream.get("work_pass_rollup_24h") or dream.get("conductor_rollup_24h")
     if not isinstance(rollup, dict):
         return []
-    if not int(rollup.get("pick_count") or 0) and not int(rollup.get("outcome_count") or 0):
-        return []
+    if not int(rollup.get("close_count") or rollup.get("outcome_count") or 0):
+        if not int(rollup.get("pick_count") or 0):
+            return []
     echo = str(rollup.get("echo") or "").strip()
     if not echo:
-        master = str(rollup.get("last_master") or "Conductor").strip()
+        picked = str(rollup.get("last_picked") or rollup.get("last_master") or "work-pass").strip()
         closed = int(rollup.get("completed_passes") or 0)
         refused = int(rollup.get("off_menu_refusals") or 0)
-        echo = f"{master}: {closed} closed pass(es), {refused} parked/refused."
+        echo = f"{picked}: {closed} closed pass(es), {refused} parked/refused."
     if len(echo) > 180:
         echo = echo[:177] + "..."
-    return [f"- Conductor echo: {echo}"]
+    label = "Work-pass echo" if dream.get("work_pass_rollup_24h") else "Conductor echo"
+    return [f"- {label}: {echo}"]
+
+
+def _conductor_echo_bullets(dream: dict) -> list[str]:
+    """Backward-compatible alias for work-pass echo."""
+    return _work_pass_echo_bullets(dream)
 
 
 def _format_last_dream_block(
@@ -523,7 +530,7 @@ def build_operator_daily_warmup(
     pending_companion = _pending_candidates(recursion_gate, "companion")
     fork_cfg = load_fork_config()
     max_pending = fork_cfg.get("max_pending_candidates")
-    last_activity = _last_activity_oneliner(archive/placeholders/evidence) or "_none parsed_"
+    last_activity = _last_activity_oneliner(evidence) or "_none parsed_"
     coffee_budget = _coffee_context_budget()
     tail_n = get_int(coffee_budget, "max_session_tail_lines", 3)
     session_tail = _session_lines_tail(session, tail_n)

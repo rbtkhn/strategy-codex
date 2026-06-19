@@ -130,6 +130,11 @@ source_exchange:
 
 
 def test_auto_dream_maintains_self_memory_and_writes_digest(tmp_path, monkeypatch):
+    import repo_io
+
+    monkeypatch.setattr(repo_io, "REPO_ROOT", tmp_path)
+    monkeypatch.setattr(auto_dream, "REPO_ROOT", tmp_path)
+
     monkeypatch.delenv("CURSOR_MODEL", raising=False)
     users_dir = tmp_path / "platform/users"
     user_dir = users_dir / "demo"
@@ -198,7 +203,7 @@ Last rotated: 2026-01-01
     assert digest_path.is_file()
     assert events[0]["event_type"] == "maintenance"
     assert events[0]["merge"]["action"] == "auto_dream"
-    handoff_path = user_dir / "last-dream.json"
+    handoff_path = tmp_path / "runtime" / "daily-handoff" / "last-dream.json"
     assert handoff_path.is_file()
     handoff = json.loads(handoff_path.read_text(encoding="utf-8"))
     assert handoff.get("agent_surface", {}).get("cursor_model") == "unknown"

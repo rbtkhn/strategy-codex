@@ -311,8 +311,8 @@ def rollup_conductor_24h(
     window_hours: float = 24.0,
     max_events: int = 60,
 ) -> dict[str, Any]:
-    """Aggregate recent Conductor telemetry for dream -> coffee handoff."""
-    rollup = rollup_conductor_window(
+    """Compatibility shim: dream handoff reads work-pass rollup (Phase 3)."""
+    rollup = rollup_work_pass_24h(
         user_id=user_id,
         now_utc=now_utc,
         events_path=events_path,
@@ -334,6 +334,210 @@ def rollup_conductor_24h(
         "note",
     }
     return {key: value for key, value in rollup.items() if key in keep}
+
+
+def rollup_work_pass_24h(
+    *,
+    user_id: str,
+    now_utc: datetime | None = None,
+    events_path: Path = DEFAULT_EVENTS_PATH,
+    window_hours: float = 24.0,
+    max_events: int = 60,
+) -> dict[str, Any]:
+    """Aggregate extended coffee_close rows for dream / bootstrap handoff (Phase 3 SSOT)."""
+    if now_utc is None:
+        now_utc = datetime.now(timezone.utc)
+    if now_utc.tzinfo is None:
+        now_utc = now_utc.replace(tzinfo=timezone.utc)
+    window_end = now_utc
+    window_start = now_utc - timedelta(hours=window_hours)
+
+    result: dict[str, Any] = {
+        "window_start_utc": window_start.isoformat(),
+        "window_end_utc": window_end.isoformat(),
+        "window_hours": window_hours,
+        "close_count": 0,
+        "substantive_count": 0,
+        "object_ref_count": 0,
+        "falsify_count": 0,
+        "completed_passes": 0,
+        "orientation_only": 0,
+        "off_menu_refusals": 0,
+        "pick_count": 0,
+        "outcome_count": 0,
+        "last_object_ref": None,
+        "last_falsify": None,
+        "last_verdict": None,
+        "last_attention": None,
+        "last_picked": None,
+        "last_outcome": None,
+        "last_master": None,
+        "echo": None,
+        "source": "none",
+        "note": None,
+    }
+    if not events_path.is_file():
+        result["note"] = "no cadence file"
+        return result
+
+    try:
+        from audit_cadence_rhythm import parse_events
+    except ImportError:
+        from scripts.audit_cadence_rhythm import parse_events  # type: ignore
+
+    events = parse_events(user_id, events_path=events_path)
+    in_window = [e for e in events if window_start <= e["dt"] <= window_end]
+    closes = [e for e in in_window if e.get("kind") == "coffee_close"]
+    hub_picks = [
+        e
+        for e in in_window
+        if e.get("kind") == "coffee_pick"
+        and str((e.get("kv") or {}).get("picked", "")).strip() in {"A", "B", "C", "D"}
+    ]
+
+    if not closes and not hub_picks:
+        legacy = rollup_conductor_window(
+            user_id=user_id,
+            now_utc=now_utc,
+            events_path=events_path,
+            window_hours=window_hours,
+            max_events=max_events,
+        )
+        if int(legacy.get("pick_count") or 0) or int(legacy.get("outcome_count") or 0):
+            result.update(
+                {
+                    "pick_count": legacy.get("pick_count", 0),
+                    "outcome_count": legacy.get("outcome_count", 0),
+                    "completed_passes": legacy.get("completed_passes", 0),
+                    "orientation_only": legacy.get("orientation_only", 0),
+                    "off_menu_refusals": legacy.get("off_menu_refusals", 0),
+                    "last_master": legacy.get("last_master"),
+                    "last_outcome": legacy.get("last_outcome"),
+                    "echo": legacy.get("echo"),
+                    "source": "legacy_conductor",
+                    "note": "legacy conductor cadence only (read-only)",
+                }
+            )
+        else:
+            result["note"] = "no work-pass or legacy conductor activity in window"
+        return result
+
+    def _substantive(kv: dict[str, str]) -> bool:
+        return bool(
+            str(kv.get("object_ref") or "").strip()
+            or str(kv.get("falsify") or "").strip()
+            or str(kv.get("verdict") or "").strip()
+        )
+
+    object_ref_count = 0
+    falsify_count = 0
+    substantive_count = 0
+    completed_passes = 0
+    off_menu_refusals = 0
+    last_with_anchor: dict[str, Any] | None = None
+
+    for event in closes:
+        kv = event.get("kv") or {}
+        if kv.get("object_ref"):
+            object_ref_count += 1
+        if kv.get("falsify"):
+            falsify_count += 1
+        if _substantive(kv):
+            substantive_count += 1
+        outcome = str(kv.get("outcome") or "").strip().lower()
+        if outcome in {"blocked", "parked"}:
+            off_menu_refusals += 1
+        elif outcome in {"done", "partial"}:
+            completed_passes += 1
+        if kv.get("object_ref") or kv.get("falsify"):
+            last_with_anchor = event
+
+    last = last_with_anchor or (closes[-1] if closes else None)
+    last_kv = (last.get("kv") or {}) if last else {}
+    obj = str(last_kv.get("object_ref") or "").strip()
+    fals = str(last_kv.get("falsify") or "").strip()
+    echo_parts: list[str] = []
+    if obj:
+        echo_parts.append(f"object={obj}")
+    if fals:
+        echo_parts.append(f"falsify={fals}")
+    picked = str(last_kv.get("picked") or "").strip() or None
+    attention = str(last_kv.get("attention") or "").strip() or None
+    if picked and not echo_parts:
+        echo_parts.append(f"hub={picked}")
+    echo = _one_line_capped("; ".join(echo_parts), 180) if echo_parts else None
+
+    pick_count = len(hub_picks) or len(closes)
+    orientation_only = max(0, pick_count - len(closes))
+
+    last_outcome = None
+    if last:
+        last_outcome = {
+            "picked": picked,
+            "outcome": last_kv.get("outcome"),
+            "readiness": last_kv.get("readiness"),
+            "object_ref": obj or None,
+            "falsify": fals or None,
+            "verdict": last_kv.get("verdict"),
+            "attention": attention,
+        }
+
+    result.update(
+        {
+            "close_count": len(closes),
+            "substantive_count": substantive_count,
+            "object_ref_count": object_ref_count,
+            "falsify_count": falsify_count,
+            "completed_passes": completed_passes,
+            "off_menu_refusals": off_menu_refusals,
+            "orientation_only": orientation_only,
+            "pick_count": pick_count,
+            "outcome_count": len(closes),
+            "last_object_ref": obj or None,
+            "last_falsify": fals or None,
+            "last_verdict": last_kv.get("verdict") or None,
+            "last_attention": attention,
+            "last_picked": picked,
+            "last_outcome": last_outcome,
+            "last_master": attention or picked,
+            "echo": echo,
+            "source": "coffee_close",
+            "note": None,
+        }
+    )
+    return result
+
+
+def rollup_object_closes_24h(
+    *,
+    user_id: str,
+    now_utc: datetime | None = None,
+    events_path: Path = DEFAULT_EVENTS_PATH,
+    window_hours: float = 24.0,
+) -> dict[str, Any]:
+    """Scan recent coffee_close events for object_ref + falsify bootstrap echo."""
+    rollup = rollup_work_pass_24h(
+        user_id=user_id,
+        now_utc=now_utc,
+        events_path=events_path,
+        window_hours=window_hours,
+    )
+    keep = {
+        "window_start_utc",
+        "window_end_utc",
+        "window_hours",
+        "close_count",
+        "object_ref_count",
+        "falsify_count",
+        "last_object_ref",
+        "last_falsify",
+        "last_verdict",
+        "last_attention",
+        "last_picked",
+        "echo",
+        "note",
+    }
+    return {key: rollup.get(key) for key in keep}
 
 
 def rollup_conductor_window(

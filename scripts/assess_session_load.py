@@ -22,6 +22,12 @@ from repo_io import DEFAULT_PROFILE_ID, profile_dir
 DEFAULT_USER = DEFAULT_PROFILE_ID
 ACTION_BY_LETTER = {letter: action for action, (letter, _label) in ACTION_LABELS.items()}
 LABEL_BY_LETTER = {letter: label for _action, (letter, label) in ACTION_LABELS.items()}
+DEFAULT_ATTENTION_BY_LETTER: dict[str, str | None] = {
+    "A": None,
+    "B": "precision pass",
+    "C": "hold tension",
+    "D": "one object only",
+}
 
 
 def _collect_cadence_today(user_id: str) -> dict[str, Any] | None:
@@ -145,7 +151,7 @@ def _artifacts_overlap_current_changes(
     artifacts: list[str] | tuple[str, ...] | None, changed_paths: list[str] | None
 ) -> bool:
     if changed_paths is None:
-        return bool(runtime/artifacts)
+        return bool(artifacts)
     if not artifacts or not changed_paths:
         return False
     normalized_changes = tuple(path.replace("\\", "/") for path in changed_paths)
@@ -187,7 +193,7 @@ def _compute_load_level(
             signals.append(f"{pending} pending gate candidates")
     if gap:
         level = gap.get("level", "ok")
-        days = gap.get("days_since_archive/placeholders/evidence")
+        days = gap.get("days_since_evidence")
         if level == "alert":
             weight += 2
             signals.append(f"capture gap alert ({days}d)")
@@ -240,7 +246,7 @@ def _compute_option_weights(
 
     last_close = (coffee_recursion or {}).get("last_close") or {}
     readiness = str(last_close.get("readiness") or "").strip()
-    artifacts = last_close.get("runtime/artifacts") or []
+    artifacts = last_close.get("artifacts") or []
     artifacts_live = _artifacts_overlap_current_changes(artifacts, changed_paths)
     if readiness == "ship_ready":
         if artifacts_live:
@@ -275,7 +281,7 @@ def _pick_recommendation(
     last_close = (coffee_recursion or {}).get("last_close") or {}
     readiness = str(last_close.get("readiness") or "").strip()
     outcome = str(last_close.get("outcome") or "").strip()
-    artifacts = last_close.get("runtime/artifacts") or []
+    artifacts = last_close.get("artifacts") or []
     artifacts_live = _artifacts_overlap_current_changes(artifacts, changed_paths)
     repeated = (coffee_recursion or {}).get("repeated_unresolved_loops") or []
 
@@ -353,6 +359,8 @@ def assess_load(user_id: str) -> dict[str, Any]:
         "recommendation_reason": reason,
         "recommendation_source": "assess_session_load",
         "downstream_hint": weights.get(recommended, {}).get("note", ""),
+        "default_attention": DEFAULT_ATTENTION_BY_LETTER.get(recommended),
+        "default_attention_by_letter": dict(DEFAULT_ATTENTION_BY_LETTER),
         "pattern_watch": pattern_watch,
         "time_of_day": _time_of_day_energy(),
         "branch_count": branch_count,
@@ -390,8 +398,12 @@ def format_annotated_menu(result: dict[str, Any]) -> str:
     for letter in ("A", "B", "C", "D"):
         weight = weights.get(letter, {"cost": "?", "note": ""})
         label = LABEL_BY_LETTER[letter]
-        rec_tag = " recommended" if letter == rec else ""
-        lines.append(f"**{letter}. {label}** — ({weight['cost']}){rec_tag}: {weight['note']}")
+        rec_tag = " *(recommended)*" if letter == rec else ""
+        attention = DEFAULT_ATTENTION_BY_LETTER.get(letter)
+        attention_suffix = f" — {attention}" if letter == rec and attention else ""
+        lines.append(
+            f"**{letter}. {label}**{rec_tag}{attention_suffix} — ({weight['cost']}): {weight['note']}"
+        )
     pattern_watch = result.get("pattern_watch") or {}
     if pattern_watch.get("message"):
         lines.append(f"Pattern watch: {pattern_watch['message']} {pattern_watch['adjustment']}")

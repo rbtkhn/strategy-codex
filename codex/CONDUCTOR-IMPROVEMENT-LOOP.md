@@ -1,6 +1,8 @@
 # Conductor - operator improvement loop (SSOT)
 <!-- word_count: 650 -->
 
+**Successor operator path:** [CONDUCTOR-COMPRESSION-SPEC.md](../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md) — compress standalone conductor into coffee + object closes (Phase 2 redirect).
+
 **Status:** WORK (operator discipline). **Not** Record. **Not** a merge or gate substitute. **Not** a second strategy pipeline beside the strategy-notebook architecture.
 
 **Purpose:** Name the **closed loop** from a standalone **Conductor** stance (`coffee_pick` with **`picked=conductor` `conductor=<slug>`**; older `picked=D` / `picked=E` rows are read-only compatibility) to **durable, testable** notebook output and optional promotion. Append-only [cadence lines](../docs/skill-work/work-cadence/work-cadence-events.md) record *that* a pick happened; they do **not** by themselves store **what changed** in the work.

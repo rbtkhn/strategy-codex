@@ -485,7 +485,7 @@ def build_handoff_check(user_id: str = "strategy-codex", *, fast: bool = False) 
     recursion_gate = _read(user_dir / "recursion-gate.md")
     evidence = _read(user_dir / "self-archive.md") or _read(user_dir / "self-evidence.md")
     gate_pending = _pending_candidates(recursion_gate, "all")
-    last_activity = _last_activity_oneliner(archive/placeholders/evidence) or "_none parsed_"
+    last_activity = _last_activity_oneliner(evidence) or "_none parsed_"
     politics_snapshot = get_work_politics_snapshot(user_id)
 
     status_lines, status_sb_lines, branch_from_bundle = _run_git_status_bundle()

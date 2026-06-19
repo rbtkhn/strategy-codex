@@ -192,6 +192,10 @@ def log_coffee_resolution_from_close(
     artifacts: list[str] | None = None,
     loops: list[str] | None = None,
     next_slug: str | None = None,
+    object_ref: str | None = None,
+    falsify: str | None = None,
+    verdict: str | None = None,
+    attention: str | None = None,
     ledger_path: Path | None = None,
 ) -> Path | None:
     events = load_learning_events(user_id, ledger_path=ledger_path)
@@ -225,9 +229,13 @@ def log_coffee_resolution_from_close(
         "outcome": outcome,
         "readiness": readiness,
         "hindsight_class": hindsight,
-        "runtime/artifacts": ",".join(artifacts or []),
+        "artifacts": ",".join(artifacts or []),
         "loops": ",".join(loop_list),
         "next": next_slug or "",
+        "object_ref": (object_ref or "").strip(),
+        "falsify": (falsify or "").strip(),
+        "verdict": (verdict or "").strip(),
+        "attention": (attention or "").strip(),
         "lesson_candidate": _lesson_candidate(actual_action, hindsight, loop_list),
         "source_ref": "coffee_close",
     }

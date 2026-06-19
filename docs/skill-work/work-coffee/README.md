@@ -8,8 +8,9 @@
 
 ## Conductor Stack At A Glance
 
+- **Compression path (active):** [CONDUCTOR-COMPRESSION-SPEC.md](CONDUCTOR-COMPRESSION-SPEC.md) — coffee hub + attention phrases + extended `coffee_close`; compress standalone conductor ritual in phases.
 - **Continuity:** `dream_coffee_rollup.py` remembers what is still warm enough to matter next.
-- **Observability:** `build_conductor_ledger.py` shows the conductor pattern over a review window.
+- **Observability:** `build_work_pass_ledger.py` shows work-pass closes over a review window (`build_conductor_ledger.py` = deprecated shim).
 - **Durable learning:** [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md) + [recursive-learn skill](../../../.cursor/skills/recursive-learn/SKILL.md) record machine law; [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-impact-journal.md) scores conductor arc generalization.
 
 Fast doorway:
@@ -57,7 +58,7 @@ The conductor stack exists so the system can do three different human jobs witho
 In repo terms:
 
 - `dream_coffee_rollup.py` is the warm handoff surface
-- `build_conductor_ledger.py` is the derived review surface
+- `build_work_pass_ledger.py` is the derived review surface (`build_conductor_ledger.py` = deprecated shim)
 - `recursive-learning-journal.md` + [recursive-learn skill](../../../.cursor/skills/recursive-learn/SKILL.md) is the machine-law surface
 - `conductor-arc-impact-journal.md` is the conductor arc scoring surface
 

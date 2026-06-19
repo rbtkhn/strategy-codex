@@ -60,6 +60,42 @@ def test_dream_stage_and_coffee_resolution_round_trip(tmp_path: Path) -> None:
     assert resolution["hindsight_class"] == "validated"
 
 
+def test_coffee_resolution_carries_extended_close_fields(tmp_path: Path) -> None:
+    ledger = tmp_path / "cadence-learning-events.jsonl"
+    log_dream_stage(
+        "strategy-codex",
+        handoff={"generated_at": "2026-06-02T06:00:00Z", "learning_action_recommendation": "reframe"},
+        ledger_path=ledger,
+    )
+    log_coffee_choice_start(
+        "strategy-codex",
+        coffee_id="2026-06-02T08:00:00Z",
+        load_result={
+            "recommended_action": "reframe",
+            "recommendation_reason": "narrow object",
+            "recommendation_source": "assess_session_load",
+            "downstream_hint": "",
+        },
+        ledger_path=ledger,
+    )
+    log_coffee_resolution_from_close(
+        "strategy-codex",
+        picked="D",
+        outcome="partial",
+        readiness="execution_ready",
+        object_ref="statecraft/daily/2026-06-17.md",
+        falsify="pseudo-gate-J16",
+        verdict="shaped",
+        attention="one object only",
+        ledger_path=ledger,
+    )
+    resolution = load_learning_events("strategy-codex", ledger_path=ledger)[-1]
+    assert resolution["object_ref"] == "statecraft/daily/2026-06-17.md"
+    assert resolution["falsify"] == "pseudo-gate-J16"
+    assert resolution["verdict"] == "shaped"
+    assert resolution["attention"] == "one object only"
+
+
 def test_pattern_watch_detects_repeated_premature_confirm(tmp_path: Path) -> None:
     ledger = tmp_path / "cadence-learning-events.jsonl"
     for idx in range(2):

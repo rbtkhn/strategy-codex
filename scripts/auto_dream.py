@@ -23,7 +23,12 @@ for path in (REPO_ROOT / "scripts",):
 
 from contradiction_digest import default_digest_path, generate_contradiction_digest, write_artifact_drafts
 from dream_civmem_echoes import CIVMEM_DISCLAIMER, compute_civmem_echoes
-from dream_coffee_rollup import build_last_coffee_echo, rollup_coffee_24h, rollup_conductor_24h
+from dream_coffee_rollup import (
+    build_last_coffee_echo,
+    rollup_coffee_24h,
+    rollup_conductor_24h,
+    rollup_work_pass_24h,
+)
 from dream_execution_paths import (
     build_execution_paths,
     build_learning_stage,
@@ -225,6 +230,18 @@ def _ensure_rotated_line(text: str, *, changed: bool) -> str:
     return "\n".join(lines)
 
 
+def _memory_content_equal(left: str, right: str) -> bool:
+    """Compare MEMORY bodies ignoring BOM and trailing newline framing."""
+
+    def _core(text: str) -> str:
+        normalized = text.replace("\r\n", "\n")
+        if normalized.startswith("\ufeff"):
+            normalized = normalized[1:]
+        return normalized.rstrip("\n")
+
+    return _core(left) == _core(right)
+
+
 def normalize_self_memory_content(existing_text: str) -> tuple[str, list[str], int, int]:
     if not existing_text.strip():
         return _SKELETON.format(today=date.today().isoformat()).rstrip() + "\n", [
@@ -262,6 +279,8 @@ def normalize_self_memory_content(existing_text: str) -> tuple[str, list[str], i
     if len(matches) < 3:
         normalized_lines, collapsed = _collapse_blank_lines([line.rstrip() for line in text.splitlines()])
         normalized = "\n".join(normalized_lines).rstrip() + "\n"
+        if _memory_content_equal(normalized, existing_text):
+            return existing_text, added_sections, 0, collapsed
         normalized = _ensure_rotated_line(normalized, changed=bool(added_sections))
         return normalized, added_sections, 0, collapsed
 
@@ -279,9 +298,11 @@ def normalize_self_memory_content(existing_text: str) -> tuple[str, list[str], i
     normalized = prefix + "\n\n" + "\n\n".join(built_sections) + "\n"
     normalized_lines, collapsed = _collapse_blank_lines([line.rstrip() for line in normalized.splitlines()])
     normalized = "\n".join(normalized_lines).rstrip() + "\n"
+    if _memory_content_equal(normalized, existing_text):
+        return existing_text, added_sections, removed_duplicates, collapsed
     normalized = _ensure_rotated_line(
         normalized,
-        changed=bool(added_sections or removed_duplicates or collapsed or normalized != existing_text),
+        changed=bool(added_sections or removed_duplicates or collapsed),
     )
     return normalized, added_sections, removed_duplicates, collapsed
 
@@ -866,6 +887,7 @@ def run_auto_dream(
         extra_followups.extend(summary.get("scaffold_catchup_followups") or [])
         dream_budget = _load_dream_budget_dict()
         coffee_rollup_raw = rollup_coffee_24h(user_id=user_id, now_utc=now_utc)
+        work_pass_rollup = rollup_work_pass_24h(user_id=user_id, now_utc=now_utc)
         conductor_rollup = rollup_conductor_24h(user_id=user_id, now_utc=now_utc)
         last_coffee_echo = build_last_coffee_echo(coffee_rollup_raw)
         if last_coffee_echo:
@@ -922,6 +944,7 @@ def run_auto_dream(
             carry_forward_test=learning_stage["carry_forward_test"],
         )
         summary["coffee_rollup_24h"] = coffee_rollup
+        summary["work_pass_rollup_24h"] = work_pass_rollup
         summary["conductor_rollup_24h"] = conductor_rollup
         summary["execution_paths"] = paths
         summary["suggested_execution_path_index"] = sugg_idx
@@ -1198,7 +1221,7 @@ def format_auto_dream_summary(summary: dict[str, Any]) -> str:
     cg = summary.get("capture_gap") or {}
     if cg:
         cg_level = cg.get("level", "ok")
-        cg_days = cg.get("days_since_archive/placeholders/evidence")
+        cg_days = cg.get("days_since_evidence")
         cg_id = cg.get("last_evidence_id", "?")
         if cg_level != "ok" and cg_days is not None:
             lines.append(f"capture gap: {cg_level.upper()} — {cg_days}d since {cg_id}")

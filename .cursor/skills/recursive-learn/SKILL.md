@@ -164,7 +164,7 @@ RLJ is **post-encoding consolidation** (conductor is **mid-day pressure**). Stan
 | Job | Primary surface | RLJ role |
 |-----|-----------------|----------|
 | **Continuity** | `dream_coffee_rollup.py`, `last-dream.json` | Handoff only — note deferred law in prose hints |
-| **Observability** | `build_conductor_ledger.py`, cadence events | None — do not duplicate `coffee_pick` / `coffee_conductor_outcome` |
+| **Observability** | `build_work_pass_ledger.py` (shim: `build_conductor_ledger.py`), cadence events | None — do not duplicate `coffee_pick` / `coffee_conductor_outcome` |
 | **Durable learning** | `conductor-arc-impact-journal.md`, **`recursive-learning-journal.md`** | **Owns machine-law extraction and journal append** |
 
 | Surface | Owns | Does not own |

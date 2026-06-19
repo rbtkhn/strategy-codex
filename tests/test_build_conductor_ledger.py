@@ -11,6 +11,29 @@ from scripts.build_conductor_ledger import (
 )
 
 
+def test_collect_recent_conductor_closes_includes_extended_coffee_close(tmp_path: Path) -> None:
+    events = tmp_path / "cadence.md"
+    events.write_text(
+        """# Cadence events
+
+_(Append below this line.)_
+- **2026-05-01 10:05 UTC** — coffee_close (strategy-codex) ok=true picked=D outcome=partial readiness=execution_ready object_ref=docs/a.md falsify=stay-narrow verdict=shaped
+- **2026-05-01 11:10 UTC** — coffee_conductor_outcome (strategy-codex) ok=true verdict=watch conductor=karajan notebook_ref=docs/b.md falsify=legacy-line
+""",
+        encoding="utf-8",
+    )
+    rows = collect_recent_conductor_closes(
+        "strategy-codex",
+        days=7,
+        events_path=events,
+        now=datetime(2026, 5, 2, 0, 0, tzinfo=timezone.utc),
+    )
+    assert rows[0]["kind"] == "coffee_close"
+    assert rows[0]["object_ref"] == "docs/a.md"
+    assert rows[1]["kind"] == "coffee_conductor_outcome"
+    assert rows[1].get("legacy") is True
+
+
 def test_collect_recent_conductor_closes_includes_outcomes_and_closed_coffee_closes(
     tmp_path: Path,
 ) -> None:
@@ -84,8 +107,8 @@ _(Append below this line.)_
     assert payload["compiled_shortcut_offer"] == "karajan-review"
 
     markdown = render_conductor_ledger_markdown(payload)
-    assert "# Conductor Ledger" in markdown
+    assert "# Work-pass ledger" in markdown
     assert "Advisory compiled shortcut offer: `karajan-review`" in markdown
-    assert "Inferred active conductor arc: `karajan`" in markdown
+    assert "Inferred active conductor arc (legacy read): `karajan`" in markdown
     assert "Outcome receipts with `notebook_ref=` / `falsify=`: `2` / `2`" in markdown
     assert "| Conductor | Picks | Explicit outcomes | Inferred outcomes | Coffee closes |" in markdown

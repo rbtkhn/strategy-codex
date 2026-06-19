@@ -27,7 +27,7 @@ def test_coffee_hub_canonical_lines_are_a_through_d_only() -> None:
     assert "B. Test" in text
     assert "C. Deepen" in text
     assert "D. Reframe" in text
-    assert "Conductor is standalone" in text
+    assert "Conductor is compressed" in text or "CONDUCTOR-COMPRESSION-SPEC" in text
     assert "E. Conductor" not in text
 
 
@@ -42,3 +42,19 @@ def test_assess_load_annotations_do_not_reintroduce_hub_e() -> None:
     assert "**D. Reframe**" in menu
     assert "**E." not in menu
     assert "Conductor" not in menu
+
+
+def test_assess_load_includes_default_attention() -> None:
+    result = assess_load("strategy-codex")
+    assert result.get("default_attention_by_letter") == {
+        "A": None,
+        "B": "precision pass",
+        "C": "hold tension",
+        "D": "one object only",
+    }
+    menu = format_annotated_menu(result)
+    rec = result.get("recommended")
+    if rec == "D":
+        assert "one object only" in menu
+    elif rec == "B":
+        assert "precision pass" in menu

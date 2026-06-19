@@ -197,7 +197,7 @@ def test_recommendation_uses_coffee_close_readiness() -> None:
         "light",
         base_weights,
         [],
-        {"last_close": {"readiness": "ship_ready", "runtime/artifacts": ["commit:abc1234"]}},
+        {"last_close": {"readiness": "ship_ready", "artifacts": ["commit:abc1234"]}},
     )
     assert (rec, reason) == (
         "A",
@@ -208,7 +208,7 @@ def test_recommendation_uses_coffee_close_readiness() -> None:
         "light",
         base_weights,
         [],
-        {"last_close": {"readiness": "execution_ready", "runtime/artifacts": ["scripts/x.py"]}},
+        {"last_close": {"readiness": "execution_ready", "artifacts": ["scripts/x.py"]}},
     )
     assert rec == "A"
     assert "execution-ready" in reason
@@ -217,7 +217,7 @@ def test_recommendation_uses_coffee_close_readiness() -> None:
         "light",
         base_weights,
         [],
-        {"last_close": {"readiness": "orientation", "runtime/artifacts": ["docs/x.md"]}},
+        {"last_close": {"readiness": "orientation", "artifacts": ["docs/x.md"]}},
     )
     assert rec == "C"
     assert "orientation-only" in reason
@@ -226,7 +226,7 @@ def test_recommendation_uses_coffee_close_readiness() -> None:
         "light",
         base_weights,
         [],
-        {"last_close": {"readiness": "blocked", "runtime/artifacts": ["scripts/x.py"]}},
+        {"last_close": {"readiness": "blocked", "artifacts": ["scripts/x.py"]}},
     )
     assert rec == "B"
     assert "tested before another push" in reason

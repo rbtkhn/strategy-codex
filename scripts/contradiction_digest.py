@@ -14,7 +14,6 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USERS_DIR = REPO_ROOT / "platform/users"
 DEFAULT_USER = "grace-mar"
-RULES_PATH = BOT_DIR / "conflict_rules.yaml"
 SELF_PROPOSALS_DIR = REPO_ROOT / "research/auto-research" / "self-proposals"
 SWARM_ACCEPTED_DIR = REPO_ROOT / "research/auto-research" / "swarm" / "accepted"
 
@@ -27,6 +26,7 @@ from gate_block_parser import iter_candidate_yaml_blocks, split_gate_sections
 from proposal_io import validate_grounding, validate_payload
 from repo_io import DEFAULT_PROFILE_ID, profile_dir, BOT_DIR
 
+RULES_PATH = BOT_DIR / "conflict_rules.yaml"
 DEFAULT_USER = DEFAULT_PROFILE_ID
 
 _STOPWORDS = {

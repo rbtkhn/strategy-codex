@@ -27,10 +27,12 @@ if str(SCRIPTS) not in sys.path:
 try:
     from audit_cadence_rhythm import EVENTS_PATH, compute_coffee_recursion_summary
     from cadence_recent_rhythm import format_coffee_recent_rhythm
+    from dream_coffee_rollup import rollup_object_closes_24h
     from repo_io import DEFAULT_USER_ID
 except ImportError:
     from scripts.audit_cadence_rhythm import EVENTS_PATH, compute_coffee_recursion_summary
     from scripts.cadence_recent_rhythm import format_coffee_recent_rhythm
+    from scripts.dream_coffee_rollup import rollup_object_closes_24h
     from scripts.repo_io import DEFAULT_USER_ID
 
 
@@ -240,12 +242,15 @@ def build_coffee_bootstrap_brief(
     last_close = recursion.get("last_close")
     repeated = recursion.get("repeated_unresolved_loops") or []
     load_changed_paths = _as_list(load.get("changed_paths"))
-    artifacts = _as_list(last_close.get("runtime/artifacts") if last_close else None)
+    artifacts = _as_list(last_close.get("artifacts") if last_close else None)
     if not artifacts:
         artifact_counts = recursion.get("artifact_counts") or {}
         artifacts = list(artifact_counts)[:4]
 
     recommended = str(load.get("recommended") or "C")
+    object_close_rollup = rollup_object_closes_24h(
+        user_id=user_id, events_path=events_path, now_utc=now
+    )
     return {
         "user_id": user_id,
         "start_state": (
@@ -268,6 +273,7 @@ def build_coffee_bootstrap_brief(
             else []
         ),
         "conductor_continuity": recursion.get("latest_conductor_state"),
+        "object_close_24h": object_close_rollup,
         "lane_hints": _lane_hint_status(),
         "recommended_hub": recommended,
         "recommended_label": HUB_LABELS.get(recommended, recommended),
@@ -314,6 +320,12 @@ def format_coffee_bootstrap_brief(brief: dict[str, Any]) -> str:
             f"{conductor.get('conductor')} {conductor.get('state')} "
             f"({conductor.get('source')})."
         )
+
+    object_close = brief.get("object_close_24h") or {}
+    if isinstance(object_close, dict):
+        echo = str(object_close.get("echo") or "").strip()
+        if echo and "Object close echo:" not in recent_text:
+            lines.append(f"- Object close echo: {echo}")
 
     lane_hints = brief.get("lane_hints")
     if lane_hints and lane_hints != "unavailable":

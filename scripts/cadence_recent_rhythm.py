@@ -33,7 +33,7 @@ def _artifacts_overlap_changed_paths(
     changed_paths: list[str] | tuple[str, ...] | None,
 ) -> bool:
     if changed_paths is None:
-        return bool(runtime/artifacts)
+        return bool(artifacts)
     if not artifacts or not changed_paths:
         return False
     normalized_changes = tuple(_normalize_repo_path(path) for path in changed_paths if str(path).strip())
@@ -106,7 +106,7 @@ def format_coffee_recent_rhythm(
         outcome = last_close.get("outcome") or "unknown"
         readiness = last_close.get("readiness") or "unknown"
         next_step = last_close.get("next")
-        artifacts = _as_list(last_close.get("runtime/artifacts"))
+        artifacts = _as_list(last_close.get("artifacts"))
         artifacts_live = _artifacts_overlap_changed_paths(artifacts, changed_paths)
         first = f"- Last close picked {picked}: {outcome}, readiness {readiness}."
         if next_step and artifacts_live:

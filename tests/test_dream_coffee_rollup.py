@@ -13,6 +13,8 @@ from dream_coffee_rollup import (
     rollup_coffee_24h,
     rollup_conductor_24h,
     rollup_conductor_window,
+    rollup_object_closes_24h,
+    rollup_work_pass_24h,
 )
 from dream_civmem_echoes import (
     ANALOGY_CANDIDATE_LABEL,
@@ -106,29 +108,6 @@ def test_rollup_conductor_window_keeps_open_arcs_and_notebook_counts(tmp_path: P
     ]
 
 
-def test_rollup_conductor_24h_exposes_handoff_fields_only(tmp_path: Path) -> None:
-    md = """- **2026-04-02 14:00 UTC** Ã¢â‚¬â€ coffee_pick (grace-mar) ok=true picked=conductor conductor=kleiber
-- **2026-04-02 14:05 UTC** Ã¢â‚¬â€ coffee_conductor_outcome (grace-mar) ok=true conductor=kleiber verdict=watch notebook_ref=docs/x.md falsify=stay-narrow
-"""
-    p = tmp_path / "cadence.md"
-    p.write_text(md, encoding="utf-8")
-    now = datetime(2026, 4, 2, 16, 0, tzinfo=timezone.utc)
-    r = rollup_conductor_24h(user_id="grace-mar", now_utc=now, events_path=p)
-    assert sorted(r.keys()) == [
-        "completed_passes",
-        "echo",
-        "last_master",
-        "last_outcome",
-        "off_menu_refusals",
-        "orientation_only",
-        "outcome_count",
-        "pick_count",
-        "window_end_utc",
-        "window_hours",
-        "window_start_utc",
-    ]
-
-
 def test_malformed_line_skipped() -> None:
     md = """- **2026-04-02 10:00 UTC** — coffee (grace-mar) ok=true mode=work-start
 not a valid line
@@ -138,6 +117,45 @@ not a valid line
     we = datetime(2026, 4, 2, 15, 0, tzinfo=timezone.utc)
     runs = parse_coffee_cadence_lines(md, user_id="grace-mar", window_start=ws, window_end=we)
     assert len(runs) == 1
+
+
+def test_rollup_work_pass_24h_prefers_coffee_close(tmp_path: Path) -> None:
+    md = """- **2026-04-02 14:00 UTC** — coffee_pick (strategy-codex) ok=true picked=D
+- **2026-04-02 14:05 UTC** — coffee_close (strategy-codex) ok=true picked=D outcome=partial readiness=execution_ready object_ref=statecraft/daily/2026-06-17.md falsify=pseudo-gate-J16 verdict=shaped attention=one object only
+"""
+    p = tmp_path / "cadence.md"
+    p.write_text(md, encoding="utf-8")
+    now = datetime(2026, 4, 2, 16, 0, tzinfo=timezone.utc)
+    r = rollup_work_pass_24h(user_id="strategy-codex", now_utc=now, events_path=p)
+    assert r["source"] == "coffee_close"
+    assert r["close_count"] == 1
+    assert r["substantive_count"] == 1
+    assert r["last_object_ref"] == "statecraft/daily/2026-06-17.md"
+    assert r["last_attention"] == "one object only"
+
+
+def test_rollup_conductor_24h_exposes_handoff_fields_only(tmp_path: Path) -> None:
+    md = """- **2026-04-02 14:00 UTC** — coffee_pick (strategy-codex) ok=true picked=D
+- **2026-04-02 14:05 UTC** — coffee_close (strategy-codex) ok=true picked=D outcome=done readiness=ship_ready object_ref=docs/x.md falsify=stay-narrow
+"""
+    p = tmp_path / "cadence.md"
+    p.write_text(md, encoding="utf-8")
+    now = datetime(2026, 4, 2, 16, 0, tzinfo=timezone.utc)
+    r = rollup_conductor_24h(user_id="strategy-codex", now_utc=now, events_path=p)
+    assert sorted(r.keys()) == [
+        "completed_passes",
+        "echo",
+        "last_master",
+        "last_outcome",
+        "note",
+        "off_menu_refusals",
+        "orientation_only",
+        "outcome_count",
+        "pick_count",
+        "window_end_utc",
+        "window_hours",
+        "window_start_utc",
+    ]
 
 
 def test_excerpt_self_memory_short_term() -> None:
@@ -333,3 +351,20 @@ def test_compute_civmem_echoes_filters_min_overlap(monkeypatch: pytest.MonkeyPat
 
 def test_civmem_disclaimer_nonempty() -> None:
     assert "Record" in CIVMEM_DISCLAIMER
+
+
+def test_rollup_object_closes_24h_echoes_last_anchor(tmp_path: Path) -> None:
+    md = """- **2026-04-02 14:00 UTC** — coffee_close (strategy-codex) ok=true picked=D outcome=partial readiness=execution_ready object_ref=statecraft/daily/2026-06-17.md falsify=pseudo-gate-J16 verdict=shaped
+- **2026-04-02 15:00 UTC** — coffee_close (strategy-codex) ok=true picked=A outcome=done readiness=ship_ready
+"""
+    p = tmp_path / "cadence.md"
+    p.write_text(md, encoding="utf-8")
+    now = datetime(2026, 4, 2, 16, 0, tzinfo=timezone.utc)
+    r = rollup_object_closes_24h(user_id="strategy-codex", now_utc=now, events_path=p)
+    assert r["close_count"] == 2
+    assert r["object_ref_count"] == 1
+    assert r["falsify_count"] == 1
+    assert r["last_object_ref"] == "statecraft/daily/2026-06-17.md"
+    assert r["last_falsify"] == "pseudo-gate-J16"
+    assert "object=statecraft/daily/2026-06-17.md" in (r["echo"] or "")
+
