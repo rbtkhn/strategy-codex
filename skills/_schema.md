@@ -19,6 +19,18 @@ skills/<skill-name>/
 | `version` | yes | Semver string for export/changelog. |
 | `tags` | no | e.g. `[operator, work-politics]` for mirrors. |
 | `requires` | no | Skill dependencies, e.g. `[handoff-check]`. Validator checks that listed skills exist under `.cursor/skills/`. |
+| `scope_class` | recommended | Where the procedure belongs: `personal`, `project-local`, `repo-governed`, `public-portable`. Default implied: `repo-governed` for manifest-listed skills. Skill frontmatter is SSOT; optional manifest copy must match. |
+
+### `scope_class` definitions
+
+| Value | Meaning |
+|-------|---------|
+| `personal` | Operator private style, voice, habits, or preferences |
+| `project-local` | One app, product, codebase, or client project |
+| `repo-governed` | strategy-codex governed workflows (default for listed skills) |
+| `public-portable` | Generic procedure safe for reuse outside this repo |
+
+Drafts under `skills/_drafts/` may omit `scope_class` until promotion. Catalog **promoted** / **listed** labels in [catalog.md](catalog.md) are human discovery tags only — not validator input until an optional `status` frontmatter field exists.
 
 ## Body rules (portable core)
 
@@ -45,6 +57,42 @@ Suggested bullets (adapt per skill):
 Norms belong in the **portable core** when they are **host-agnostic**. Instance merge policy and paths stay in **`CURSOR_APPENDIX.md`**.
 
 Authoring guide: [docs/skills/skill-authoring-norms.md](../docs/skills/skill-authoring-norms.md).
+
+## Required or recommended body section: Verification / Proof Standard
+
+Every promoted portable skill should include a `## Verification / Proof Standard` section unless the skill is purely conversational and cannot reasonably verify output.
+
+The section should answer:
+
+1. What must be true before the skill can call the work complete?
+2. What evidence should be reported?
+3. What commands, files, links, tests, or receipts should be checked?
+4. What should the agent say if verification cannot be completed?
+5. What confidence downgrade or stop condition applies?
+
+Prefer **command/file bullets**, not prose alone. Optional later: validator lint for at least one `- ` bullet under the section.
+
+Suggested template:
+
+```markdown
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- ...
+
+Evidence to report:
+
+- ...
+
+If verification cannot be completed:
+
+- state what was not verified
+- downgrade confidence
+- ask for operator review or stop
+```
+
+Validator behavior: drafts → info; manifest-listed missing section → warn; `--strict-verification` → error on manifest-listed.
 
 ## Generated `.cursor/skills/.../SKILL.md`
 

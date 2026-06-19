@@ -14,7 +14,8 @@ Use these headings in wrapper pages when practical:
 4. **What happens**
 5. **What you get**
 6. **Boundary**
-7. **Related surfaces**
+7. **Verification**
+8. **Related surfaces**
 
 Compact pages may rename **Purpose** to **What this is** when the audience is beginner-heavy, but the meaning should stay the same.
 
@@ -26,6 +27,7 @@ Compact pages may rename **Purpose** to **What this is** when the audience is be
 - Wrappers must not imply silent merge, silent posting, or automatic authority.
 - If a workflow has a public layer and a private layer, the wrapper must preserve that distinction.
 - If the authoritative source changes, update the wrapper or remove it; do not let it drift into a parallel method.
+- **Verification:** Wrappers should summarize verification expectations without replacing the canonical skill's or runbook's proof standard. Point to `## Verification / Proof Standard` in the portable skill or runbook when present.
 
 ## Status language
 

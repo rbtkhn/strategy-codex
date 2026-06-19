@@ -57,6 +57,20 @@ python3 scripts/sync_portable_skills.py --verify
 
 **Spec:** [_schema.md](_schema.md) · **Manifest:** [manifest.yaml](manifest.yaml) · **Validate:** `python3 scripts/validate_skills.py` (default check after skill edits).
 
+**Runbooks:** [runbooks/](runbooks/) — composed multi-skill workflows (orchestration only; methodology stays in skills).
+
+**Scope metadata:** Optional `scope_class` on skills and runbooks (`personal`, `project-local`, `repo-governed`, `public-portable`) — see [_schema.md](_schema.md).
+
+**Verification:** Promoted skills should include `## Verification / Proof Standard` — see [_schema.md](_schema.md). Default validation **warns** when missing; use `--strict-verification` for migration gates.
+
+**Cross-host:** [docs/skills/cross-host-install.md](../docs/skills/cross-host-install.md)
+
+### Validator warning policy
+
+- Default: `python3 scripts/validate_skills.py` exits **0** with warnings (e.g. missing verification on legacy skills).
+- Migration / CI gate: `python3 scripts/validate_skills.py --strict-verification` fails manifest-listed skills without verification.
+- Repo Surgeon runs default validation; warn cap reduces alert fatigue on large backlogs.
+
 **Skill cards (derived):** Compact JSON/Markdown for faster session context — [docs/skills/skill-card-spec.md](../docs/skills/skill-card-spec.md). Build: `python3 scripts/build_skill_cards.py --markdown`.
 
 ---
@@ -70,5 +84,7 @@ Goal: **skills are discovered** from repeated success; the repo makes capture **
 | **1 — Pointer** | [skill-candidates.md](skill-candidates.md) | One table row: date, working name, trigger phrase, pointer (commit / “this thread”). |
 | **2 — Draft** | [_drafts/](_drafts/) | Full near-final portable `SKILL.md`; no manifest yet. |
 | **3 — Listed** | `skills/<skill>/` + `manifest.yaml` | Portable core + appendix path; run `sync_portable_skills.py`. |
+
+**Extract from session:** Use portable skill **`extract-skill-from-session`** (trigger **`save skill`**) — assessment + optional [skill-candidates.md](skill-candidates.md) row; full skill only on explicit operator ask. See `skills/extract-skill-from-session/SKILL.md` when listed in manifest.
 
 **Triggers (assistant):** After a substantive **EXECUTE** / **EXECUTE_LOCAL** / **DOCSYNC** ship (commit, push when requested), offer **one optional** skill-capture line unless a **fixed session menu** (e.g. **`coffee`** **A–G**; legacy **hey**) applies or the operator said **no menu**. **Skills / meta:** say **skills** or **meta** with **coffee B — Build** (or after **Build**), not an extra letter beyond **A–G**. See [.cursor/rules/operator-style.mdc](../../.cursor/rules/operator-style.mdc) and [docs/operator-agent-lanes.md](../docs/operator-agent-lanes.md).
