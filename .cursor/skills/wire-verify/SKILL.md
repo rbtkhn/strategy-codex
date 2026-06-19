@@ -32,27 +32,27 @@ synced_by: sync_portable_skills.py
 - **Corpus tier 4** analyst **interpretation**, forecasting, or doctrine (escalation dominance, decoupling arcs, "what Iran wants").
 - Operator opinion, predictions, moral frames.
 - **Corpus tier 1–2** historical claims cited inside commentary.
-- **Deep 3a pull** (full MFA readout, court filing, official PDF) beyond triage — escalate to **[fact check deep](../fact-check/SKILL.md#fact-check-deep-pass)** or lane-specific primary skills.
+- **Deep 3a pull** (full MFA readout, court filing, official PDF) beyond triage — escalate to **fact check deep** (fact-check skill `#fact-check-deep-pass`) or lane-specific primary skills.
 
 <a id="verification-routing-shared"></a>
 
 ## Verification routing (shared — fact-check ↔ wire-verify)
 
-**SSOT:** identical block in [fact-check](../fact-check/SKILL.md#verification-routing-shared) and this file. Update **both** when routing law changes.
+**SSOT:** identical block in fact-check and this file (sync via `sync_portable_skills.py`). Update **both** when routing law changes.
 
 Use this table **before** choosing a pass. Bare **`verify`** is ambiguous — ask once or infer from **input shape**.
 
 | Operator input | Route | Why |
 | --- | --- | --- |
 | **One claim** pasted or named (sentence, stat, quote, URL summary, draft line) | **`fact check`** | Discrete triage; operator supplies the claim |
-| **Full ingest**, day archive, daily brief, or **wire matrix** | **`wire verify`** (this skill) | Auto-extract tier-**3** hooks; five-lane sweep; optional `verify:` receipts; **[capture-gap pre-pass](#capture-gap-pre-pass)** when body may be partial |
+| **Full ingest**, day archive, daily brief, or **wire matrix** | **`wire verify`** (this skill) | Auto-extract tier-**3** hooks; five-lane sweep; optional `verify:` receipts; **capture-gap pre-pass** when body may be partial |
 | **`fact check`** on a **wire-heavy capture** but job is "grade hooks before synthesis" | **`wire verify`** (prefer) | Batch hook inventory + developing-story handling |
 | **Single fork** from a matrix row ("is J17-7 supported?") | **`wire verify`** sub-hook **or** **`fact check`** | Sub-hook when lane-sweep context matters; fact-check when the claim is isolated |
 | **Analyst voice** (Mercouris, Diesen, Davis, landed commentary) stating mechanism, forecast, or doctrine | **Label tier 4 / interpretation** — **do not score as wire fact** | Corpus tier 4; synthesis may use; verification does not grade |
 | **Historical** primary/secondary cited inside commentary | **Out of scope** for wire-verify; **`fact check`** only if operator names the historical claim | Corpus tiers 1–2 |
-| **Primary doc** needed (full MFA readout, court filing, official PDF) beyond triage | **[fact check deep](../fact-check/SKILL.md#fact-check-deep-pass)** (or lane primary skill) | Escalate from wire-verify or thin fact-check triage |
-| **Campaign / Massie-shaped** copy from today's news | **[politics-massie](../politics-massie/SKILL.md)** | Not neutral verification |
-| **Before** `statecraft daily synthesis` or promoting into Judgment on a **same-week** seam | **`wire verify`** (batch mode) | Pre-synthesis gate on wire hooks |
+| **Primary doc** needed (full MFA readout, court filing, official PDF) beyond triage | **fact check deep** ([deep pass anchor in fact-check skill]) | Escalate from wire-verify or thin fact-check triage |
+| **Campaign / Massie-shaped** copy from today's news | **politics-massie** | Not neutral verification |
+| **Before** `state synthesis` or promoting into Judgment on a **same-week** seam | **`wire verify`** (batch mode) | Pre-synthesis gate on wire hooks |
 
 **Verdict vocabulary (align across skills):**
 
@@ -86,7 +86,7 @@ When the operator says **`fact check`** on wire-only material, you may run **eit
 ## When to invoke
 
 - After **statecraft source intake** or **strategy ingest** on a **breaking** or **same-week** seam.
-- Before **`statecraft daily synthesis`**, **`strategy` EOD compose**, or promoting a claim into **`days.md` Judgment**.
+- Before **`state synthesis`**, **`strategy` EOD compose**, or promoting a claim into **`days.md` Judgment**.
 - When **`strategy + verify`** is named and the load-bearing rows are **wire-sourced**.
 - When the operator asks to **wire-verify** specific seams (Apache, infiltration, Houthi statement, non-intercept, roster, counts).
 
@@ -94,7 +94,7 @@ When the operator says **`fact check`** on wire-only material, you may run **eit
 
 | Mode | When | Hooks | Five-lane sweep |
 |------|------|-------|-----------------|
-| **Batch** (default) | Full ingest, day batch, matrix gate, pre-**`statecraft daily synthesis`** | Inventory all wire hooks in scope | **Full** — all five lanes; cite or **`-absent`** each |
+| **Batch** (default) | Full ingest, day batch, matrix gate, pre-**`state synthesis`** | Inventory all wire hooks in scope | **Full** — all five lanes; cite or **`-absent`** each |
 | **Sub-hook** | Operator names **one claim** or narrow fork (e.g. "Iran intentional credit?", "America refute denial?") | 1–5 rows only; merge near-duplicates | **Combatant lanes required** (America · Persia when hook is bilateral); **PRC · Russia · Rome** = mesh-if-spoke — still run registry search, honest **`-absent`** + "searched, silent" note |
 
 **Sub-hook law:** Do not skip the mesh line or **Confidence** / **Escalate** blocks because the question is narrow. Do not claim **full sweep** without the [execution checklist](#sweep-execution-checklist) below.
@@ -105,7 +105,7 @@ When the operator says **`fact check`** on wire-only material, you may run **eit
 
 ## Capture-gap pre-pass (before hook detection)
 
-Run this **before** [Wire hook detection](#wire-hook-detection) whenever the pass names a **landed capture path** (`source-archive/...`, ingest stub, or matrix row tied to one file). **Do not** extract or score wire hooks from metadata alone.
+Run this **before** Wire hook detection whenever the pass names a **landed capture path** (`source-archive/...`, ingest stub, or matrix row tied to one file). **Do not** extract or score wire hooks from metadata alone.
 
 ### When to flag **capture-gap**
 
@@ -138,7 +138,7 @@ Emit a **Capture status** block **before** the hook verdict table:
 1. **Never** invent hooks from **`title`**, **`source_note`**, or **`capture_note`** when the claim is not spoken or wire-attributed **in the body**.
 2. **Batch mode** on a **partial** solo capture: score hooks **in body**; list promised-but-missing segments under **Do not score**; do **not** mark the day matrix **complete** for those segments.
 3. **Sub-hook** on a missing segment: verdict **Unclear (capture-gap)** — not Supported/Contradicted — and point to archive completion.
-4. **Synthesis coupling:** if **`statecraft daily synthesis`** already flagged truncation, wire-verify **confirms**; do not upgrade child-note **capture-gap** claims without new body on disk.
+4. **Synthesis coupling:** if **`state synthesis`** already flagged truncation, wire-verify **confirms**; do not upgrade child-note **capture-gap** claims without new body on disk.
 5. **Ship:** optional `editorial_note` / `source_note` tail `capture_gap: <short slug>` only when operator names **Ship**; default Think stays chat-only.
 
 ### Mercouris-shaped example (Jun 17)
@@ -353,9 +353,9 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 ## Repo defaults
 
 - **Default lane:** Think (chat table). **Ship** only when the operator names files (`source_note`, `editorial_note`, inbox line, `days.md` **Links** — not **Judgment** without dated URLs).
-- Run **after** transcript lands, **before** `statecraft daily synthesis` or EOD compose when breaking seams load-bear.
+- Run **after** transcript lands, **before** `state synthesis` or EOD compose when breaking seams load-bear.
 - Pair with **`strategy + verify`** when folding wire hooks into codex / strategy-notebook layers.
-- **Every batch:** run the **five-lane CIV-STATE sweep** (America · Persia · PRC · Russia · Rome — cite or **`-absent`** per lane) per portable core § *CIV-STATE sweep (every pass)* — before `statecraft daily synthesis` or matrix promotion.
+- **Every batch:** run the **five-lane CIV-STATE sweep** (America · Persia · PRC · Russia · Rome — cite or **`-absent`** per lane) per portable core § *CIV-STATE sweep (every pass)* — before `state synthesis` or matrix promotion.
 - **Sub-hook passes** (v1.5.0+): single-fork operator questions — combatant lanes + mesh; still emit minimum chat block + [sweep execution checklist](../../../skills-portable/wire-verify/SKILL.md#sweep-execution-checklist); do not fake 5/5 without searching.
 - **Corpus tier law** (v1.5.1): grade **tier 3** only (**3a** official · **3b** wire · **3c** syndicated/social); **tier 4** commentary (archive transcripts, Mercouris/Diesen benches) = interpretation fence — not wire facts.
 
@@ -419,7 +419,7 @@ Existing thread weaves use **wire-verify** informally for roster/title checks (e
 | Any wire hook (batch) | **Five-lane CIV-STATE sweep** per portable core — America · Persia · PRC · Russia · Rome (`fa`/`zh`/`ru`/Romance when wording load-bearing) |
 | Narrow fork (sub-hook) | Portable core § *Pass modes* + *Attribution duel* — combatant lanes required; mesh lanes searched or **`-absent`** with registry note |
 | Iran/PRC/Russia wording | Native primary per **fact-check** + `daily-brief-*-watch.md` |
-| Full day batch | **`statecraft daily synthesis`** with verify column |
+| Full day batch | **`state synthesis`** with verify column |
 | Public copy | **`skill-write`** after verify — do not skip |
 
 ## Sync

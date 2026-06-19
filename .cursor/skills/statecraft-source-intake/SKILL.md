@@ -1,9 +1,9 @@
 ---
 name: statecraft-source-intake
-preferred_activation: statecraft source intake
-description: Capture an operator-supplied transcript-bearing source object into the canonical statecraft source archive with the correct family pattern, truthful provenance, and no summary-or-stub drift. Supports single-source intake and repeated same-day batch intake, including the operator phrases `statecraft daily intake` and `statecraft daily intake / source-archive first`. Do not use for direct YouTube metadata/caption fetch, month inventory work, or downstream synthesis.
+preferred_activation: source-intake
+description: 'Manual invoke: source-intake. Land operator transcripts via sidecar Write + land_statecraft_source_body.py (Windows-safe). Also: statecraft source intake, statecraft daily intake. Not for synthesis or YouTube fetch.'
 portable: true
-version: 0.4.8
+version: 0.4.10
 tags:
 - operator
 - statecraft
@@ -12,12 +12,13 @@ tags:
 portable_source: skills-portable/statecraft-source-intake/SKILL.md
 synced_by: sync_portable_skills.py
 ---
-# Statecraft source intake
+# Source intake (`source-intake`)
 
-**Preferred activation (operator):** say **`statecraft source intake`**.
+**Manual activation (operator):** say **`source-intake`** — one hyphenated token; runs § Default execution order first (sidecar land, no archive template reads).
 
-Also support the source-first batch phrases:
+**Legacy / batch activations** (same skill, same land recipe):
 
+- **`statecraft source intake`**
 - **`statecraft daily intake`**
 - **`statecraft daily intake / source-archive first`**
 
@@ -40,7 +41,7 @@ This skill is for **source-truth intake**, not for helix drafting, speaker synth
 - the task is to route, summarize, interpret, or synthesize the source in `statecraft/`
 - the source belongs to another source-archive namespace rather than the statecraft source archive
 
-If the operator wants a daily report after the archive batch is real, stop this skill and route to `statecraft daily synthesis`.
+If the operator wants a daily report after the archive batch is real, stop this skill and route to `state synthesis`.
 
 ## Core law
 
@@ -62,6 +63,38 @@ This skill is for source-truth intake only.
 - It does **not** collapse source intake into lane synthesis or civilization-state argument.
 
 If the operator's next move is interpretation, route from the landed source object into `/codex`, `civ-state`, or the relevant lane-local `statecraft/` surfaces rather than continuing to treat the source file as the working doctrine surface.
+
+## Default execution order (Windows-safe — first action)
+
+When this skill applies and the operator supplied a transcript body, **start here**. Do not explore the archive tree first.
+
+**Forbidden before land (intake thread):**
+
+- `Read` / `Grep` / `Glob` / `SemanticSearch` / `Task` explore on existing `source-archive/statecraft/**/source-*.md` for family calibration
+- monolithic IDE `Write` or giant `apply_patch` to the final `source-archive/statecraft/.../source-*.md` path
+- `Task` subagents or parallel tool storms to draft or land the body
+- retrying any tool shape that already hung or was **interrupted** in the same thread
+
+**Family calibration without archive reads:** use this skill's family table (Workflow §2), the operator paste (title, URL, host/guest cues, spoken date), and same-day filenames already named in the thread — not a full neighbor capture read.
+
+**Always-first land recipe (operator paste with body):**
+
+1. `mkdir` sidecar dir: `source-archive/statecraft/YYYY-MM-DD/_land_<slug>/` (shell or implicit on first `Write`).
+2. `Write` `header.md` — YAML + title block through `## Transcript` only (small file).
+3. `Write` verbatim body sidecar(s) — `body-01.txt`, `body-02.txt` if long; split at paragraph / `>>` turns.
+4. **One** shell chain (PowerShell `;`):
+   - `python scripts/land_statecraft_source_body.py --header .../_land_<slug>/header.md --body .../body-01.txt [--body .../body-02.txt] --out source-archive/statecraft/YYYY-MM-DD/source-....md`
+   - post-land: caption wrapper → family opening normalizer (when applicable) → `build_statecraft_day_indices.py --day YYYY-MM-DD` → `statecraft_intake_queue.py --day YYYY-MM-DD`
+   - delete `_land_<slug>/` after verify
+5. Report landed path, byte size, queue row — then offer synthesis or checkpoint; do not pre-synthesize in `source-archive/`.
+
+**After hang or interrupt in an intake thread:** resume at step 2 (sidecar `Write` + step 4 merge only). Never re-open template captures.
+
+**Default chunked land:** on Windows, treat operator-pasted intake as chunked unless the body is trivial (under ~80 lines and under ~12 KB). Mercouris solo: **always** chunked. See § Large transcript body land.
+
+Short rule:
+
+`sidecar header + body → one land_statecraft_source_body.py → post-land chain → delete _land_*`
 
 ## Batch law
 
@@ -148,7 +181,7 @@ In batch-throughput mode, rebuild when one of these becomes true:
    - In batch mode, keep the current day folder and already-landed sibling captures in mind before naming the new object.
 
 2. **Resolve the archive route truth before writing**
-   - Identify the host / show / guest / recurring thread ownership.
+   - Identify the host / show / guest / recurring thread ownership from the operator paste and this skill's family table — **not** by reading existing `source-*.md` neighbors (see § Default execution order).
    - Reuse the existing slug shape after the canonical `source-` prefix rather than inventing a fresh one.
    - Distinguish **full interview / parent episode** from **highlight clip / companion clip** before naming anything.
    - Keep **body kind** separate from **canonical filename prefix**:
@@ -207,7 +240,7 @@ Structured-field law:
 
 4. **Place it in the canonical archive**
    - Use the published date as the archive date unless the operator explicitly gives a different authoritative date.
-   - Write into the canonical statecraft archive day folder.
+   - Write into the canonical statecraft archive day folder via **§ Default execution order** (sidecar merge) — not a monolithic archive `Write`.
    - For **large transcript bodies**, follow **§ Large transcript body land** below — do not use a single IDE `Write` or giant `apply_patch` for the full archive object.
    - Keep filenames and frontmatter aligned with neighboring family examples.
    - When publication date comes from a trustworthy secondary surface because the direct watch URL is still missing, use that date but say so plainly in `source_note`.
@@ -262,13 +295,17 @@ On Windows Cursor harnesses, a **single tool write** of a full `source-archive/s
 
 ### When chunked land is mandatory
 
+**Windows default:** operator-pasted statecraft intake uses chunked land unless the body is trivial (under ~80 lines **and** under ~12 KB). **Mercouris solo: always chunked.**
+
 Use chunked land when **any** of these is true:
 
+- operator-pasted transcript body (default on Windows — see above)
 - operator-pasted transcript body is roughly **>20 KB** or **>150 lines**
 - prior `Write` / `apply_patch` to the target archive path **interrupted or stalled**
 - same-day batch intake is landing multiple long interview captures in one thread
+- any tool hang or **interrupted** in the current intake thread
 
-Small captures (short clips, partial stubs under threshold) may still use a single bounded write.
+Small captures (short clips, partial stubs under both thresholds) may still use a single bounded write to `_land_<slug>/` sidecars only — never monolithic write to the final archive path.
 
 ### Never
 
@@ -373,7 +410,7 @@ python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM
 Rules:
 
 - **`ok`** or **`no_daily`** — report sync briefly; run intake queue report and surface `new` / `queued` counts before closeout/menu.
-- **`DESYNC`** — report count mismatch and archive-only slugs **before** queue report or menu; recommend `statecraft daily synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/daily/`.
+- **`DESYNC`** — report count mismatch and archive-only slugs **before** queue report or menu; recommend `state synthesis` or a bounded wire-in (companion row, primary-capture link). Do **not** auto-rewrite `statecraft/daily/`.
 - **Queue report** — read-only by default; `--emit-sidecars` / `--write-digest` only when operator or conductor movement explicitly requests writes ([statecraft-intake-queue.md](../../../docs/statecraft-intake-queue.md)).
 - Anchor-trio links listed separately in the daily file are **not** auto-flagged as omissions when they appear only in the anchor block (checker encodes this).
 
@@ -410,7 +447,7 @@ If a single-source intake or batch checkpoint clearly creates a pattern that wan
 
 Valid next routes include:
 
-- `statecraft-daily-synthesis`
+- `state-synthesis`
 - `statecraft-multi-lens`
 - bounded note preservation under `statecraft/notes/`
 
@@ -685,7 +722,10 @@ The source ends as a **real full-source archive object** in the canonical statec
 **strategy-codex instance notes**
 
 - Canonical archive root for this skill: [source-archive/statecraft](/C:/dev/strategy-codex/source-archive/statecraft)
+- Primary manual activation: **`source-intake`**
 - Batch invocation phrases this host should recognize:
+  - `source-intake`
+  - `statecraft source intake`
   - `statecraft daily intake`
   - `statecraft daily intake / source-archive first`
 - Deprecated compatibility surfaces that must **not** receive new captures:
@@ -712,7 +752,6 @@ The source ends as a **real full-source archive object** in the canonical statec
 
 **Repo notes**
 
-- **Day source-index:** `source-archive/statecraft/YYYY-MM-DD/README.md` — for operator phrases like `june 17 source-index` or `2026-06-17 ingest register`, **Read that file only** or run `python scripts/statecraft_day_source_index.py --day YYYY-MM-DD [--queue]`. Do **not** broad-scan `thread-index.md`, month folders, or voices benches unless scope is analyst/corpus.
 - `statecraft/` is downstream interpretation and control, not archive storage.
 - Daily synthesis belongs on the `statecraft/` side, not in `source-archive/statecraft/`.
 - For manual file creation or edits, use `apply_patch` for **small** captures; for large operator-pasted transcript bodies and **Mercouris solo** lands, prefer **`python scripts/land_statecraft_intake.py`** (one-command header + chunked merge + post-land). Manual fallback when the header is already built: **`python scripts/land_statecraft_source_body.py`** (§ Large transcript body land in the portable core).

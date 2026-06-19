@@ -1,7 +1,10 @@
 **strategy-codex instance notes**
 
 - Canonical archive root for this skill: [source-archive/statecraft](/C:/dev/strategy-codex/source-archive/statecraft)
+- Primary manual activation: **`source-intake`**
 - Batch invocation phrases this host should recognize:
+  - `source-intake`
+  - `statecraft source intake`
   - `statecraft daily intake`
   - `statecraft daily intake / source-archive first`
 - Deprecated compatibility surfaces that must **not** receive new captures:

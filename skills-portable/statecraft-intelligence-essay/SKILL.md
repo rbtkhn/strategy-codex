@@ -34,7 +34,7 @@ This skill is for **authored intelligence prose**. It uses the archive as substr
 - the task is a monthly synthesis note
 - the operator explicitly wants speaker-by-speaker comparison, quote-bearing traceability, or a shelf-led report
 
-If the operator wants a bounded archive-grounded report with visible speakers and direct quote anchors, stop this skill and route to `statecraft daily synthesis`.
+If the operator wants a bounded archive-grounded report with visible speakers and direct quote anchors, stop this skill and route to `state synthesis`.
 
 ## Core law
 

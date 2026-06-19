@@ -59,7 +59,7 @@
 - Archive intake:
   - [skills-portable/statecraft-source-intake/SKILL.md](/C:/dev/strategy-codex/skills-portable/statecraft-source-intake/SKILL.md)
 - Day-batch synthesis:
-  - [skills-portable/statecraft-daily-synthesis/SKILL.md](/C:/dev/strategy-codex/skills-portable/statecraft-daily-synthesis/SKILL.md)
+  - [skills-portable/state-synthesis/SKILL.md](/C:/dev/strategy-codex/skills-portable/state-synthesis/SKILL.md)
 
 **Preferred maintenance commands after skill edits**
 

@@ -51,7 +51,7 @@ Use this table **before** choosing a pass. Bare **`verify`** is ambiguous — as
 | **Historical** primary/secondary cited inside commentary | **Out of scope** for wire-verify; **`fact check`** only if operator names the historical claim | Corpus tiers 1–2 |
 | **Primary doc** needed (full MFA readout, court filing, official PDF) beyond triage | **fact check deep** ([deep pass anchor in fact-check skill]) | Escalate from wire-verify or thin fact-check triage |
 | **Campaign / Massie-shaped** copy from today's news | **politics-massie** | Not neutral verification |
-| **Before** `statecraft daily synthesis` or promoting into Judgment on a **same-week** seam | **`wire verify`** (batch mode) | Pre-synthesis gate on wire hooks |
+| **Before** `state synthesis` or promoting into Judgment on a **same-week** seam | **`wire verify`** (batch mode) | Pre-synthesis gate on wire hooks |
 
 **Verdict vocabulary (align across skills):**
 
@@ -85,7 +85,7 @@ When the operator says **`fact check`** on wire-only material, you may run **eit
 ## When to invoke
 
 - After **statecraft source intake** or **strategy ingest** on a **breaking** or **same-week** seam.
-- Before **`statecraft daily synthesis`**, **`strategy` EOD compose**, or promoting a claim into **`days.md` Judgment**.
+- Before **`state synthesis`**, **`strategy` EOD compose**, or promoting a claim into **`days.md` Judgment**.
 - When **`strategy + verify`** is named and the load-bearing rows are **wire-sourced**.
 - When the operator asks to **wire-verify** specific seams (Apache, infiltration, Houthi statement, non-intercept, roster, counts).
 
@@ -93,7 +93,7 @@ When the operator says **`fact check`** on wire-only material, you may run **eit
 
 | Mode | When | Hooks | Five-lane sweep |
 |------|------|-------|-----------------|
-| **Batch** (default) | Full ingest, day batch, matrix gate, pre-**`statecraft daily synthesis`** | Inventory all wire hooks in scope | **Full** — all five lanes; cite or **`-absent`** each |
+| **Batch** (default) | Full ingest, day batch, matrix gate, pre-**`state synthesis`** | Inventory all wire hooks in scope | **Full** — all five lanes; cite or **`-absent`** each |
 | **Sub-hook** | Operator names **one claim** or narrow fork (e.g. "Iran intentional credit?", "America refute denial?") | 1–5 rows only; merge near-duplicates | **Combatant lanes required** (America · Persia when hook is bilateral); **PRC · Russia · Rome** = mesh-if-spoke — still run registry search, honest **`-absent`** + "searched, silent" note |
 
 **Sub-hook law:** Do not skip the mesh line or **Confidence** / **Escalate** blocks because the question is narrow. Do not claim **full sweep** without the [execution checklist](#sweep-execution-checklist) below.
@@ -137,7 +137,7 @@ Emit a **Capture status** block **before** the hook verdict table:
 1. **Never** invent hooks from **`title`**, **`source_note`**, or **`capture_note`** when the claim is not spoken or wire-attributed **in the body**.
 2. **Batch mode** on a **partial** solo capture: score hooks **in body**; list promised-but-missing segments under **Do not score**; do **not** mark the day matrix **complete** for those segments.
 3. **Sub-hook** on a missing segment: verdict **Unclear (capture-gap)** — not Supported/Contradicted — and point to archive completion.
-4. **Synthesis coupling:** if **`statecraft daily synthesis`** already flagged truncation, wire-verify **confirms**; do not upgrade child-note **capture-gap** claims without new body on disk.
+4. **Synthesis coupling:** if **`state synthesis`** already flagged truncation, wire-verify **confirms**; do not upgrade child-note **capture-gap** claims without new body on disk.
 5. **Ship:** optional `editorial_note` / `source_note` tail `capture_gap: <short slug>` only when operator names **Ship**; default Think stays chat-only.
 
 ### Mercouris-shaped example (Jun 17)

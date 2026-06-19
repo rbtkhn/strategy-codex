@@ -16,7 +16,7 @@ Normally there is only one `dream` session per day, near the end of the day. Ext
 
 ## Record frozen (strategy-codex default)
 
-When `config/strategy_codex.yaml` has **`record_frozen: true`** (or `STRATEGY_CODEX_RECORD_FROZEN=1`), dream **does not** nudge fork-growth work: no default gate-review or capture-gap coffee hints. **`tomorrow_inherits`** and execution-path hints should favor **interpretive-machine health** (archive indices, statecraft daily synthesis, integrity/exports, ship receipt). Gate merge obligations apply only on explicit **fork revive** — see [grace-mar-instance-boundary.md](../../../docs/grace-mar-instance-boundary.md).
+When `config/strategy_codex.yaml` has **`record_frozen: true`** (or `STRATEGY_CODEX_RECORD_FROZEN=1`), dream **does not** nudge fork-growth work: no default gate-review or capture-gap coffee hints. **`tomorrow_inherits`** and execution-path hints should favor **interpretive-machine health** (archive indices, state synthesis, integrity/exports, ship receipt). Gate merge obligations apply only on explicit **fork revive** — see [grace-mar-instance-boundary.md](../../../docs/grace-mar-instance-boundary.md).
 
 ## Design intent
 

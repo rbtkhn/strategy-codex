@@ -136,7 +136,7 @@ It sits here:
 - bounded `statecraft/notes/` objects when the comparison has become method-bearing rather than merely chat-specific
 - `bridges` for durable lens doctrine or comparison notes
 - owning lane surfaces for direct drafting
-- `statecraft-daily-synthesis` when the result belongs in the daily shelf
+- `state-synthesis` when the result belongs in the daily shelf
 
 ## Fast chooser
 
@@ -460,7 +460,7 @@ For **tri-lens** mode, the output should usually answer:
 
 - Use `statecraft-framework` for governing-pair diagnosis first.
 - Use `statecraft-source-intake` for archive capture.
-- Use `statecraft-daily-synthesis` for day-batch synthesis.
+- Use `state-synthesis` for day-batch synthesis.
 - Use this skill when the object is already named and the problem is multi-lens explanatory responsibility.
 
 This skill sits between diagnosis and synthesis. It should not replace either one.
@@ -550,7 +550,7 @@ This skill succeeds when:
 - Archive intake:
   - [skills-portable/statecraft-source-intake/SKILL.md](/C:/dev/strategy-codex/skills-portable/statecraft-source-intake/SKILL.md)
 - Day-batch synthesis:
-  - [skills-portable/statecraft-daily-synthesis/SKILL.md](/C:/dev/strategy-codex/skills-portable/statecraft-daily-synthesis/SKILL.md)
+  - [skills-portable/state-synthesis/SKILL.md](/C:/dev/strategy-codex/skills-portable/state-synthesis/SKILL.md)
 
 **Preferred maintenance commands after skill edits**
 

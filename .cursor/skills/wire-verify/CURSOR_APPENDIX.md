@@ -26,9 +26,9 @@
 ## Repo defaults
 
 - **Default lane:** Think (chat table). **Ship** only when the operator names files (`source_note`, `editorial_note`, inbox line, `days.md` **Links** — not **Judgment** without dated URLs).
-- Run **after** transcript lands, **before** `statecraft daily synthesis` or EOD compose when breaking seams load-bear.
+- Run **after** transcript lands, **before** `state synthesis` or EOD compose when breaking seams load-bear.
 - Pair with **`strategy + verify`** when folding wire hooks into codex / strategy-notebook layers.
-- **Every batch:** run the **five-lane CIV-STATE sweep** (America · Persia · PRC · Russia · Rome — cite or **`-absent`** per lane) per portable core § *CIV-STATE sweep (every pass)* — before `statecraft daily synthesis` or matrix promotion.
+- **Every batch:** run the **five-lane CIV-STATE sweep** (America · Persia · PRC · Russia · Rome — cite or **`-absent`** per lane) per portable core § *CIV-STATE sweep (every pass)* — before `state synthesis` or matrix promotion.
 - **Sub-hook passes** (v1.5.0+): single-fork operator questions — combatant lanes + mesh; still emit minimum chat block + [sweep execution checklist](../../../skills-portable/wire-verify/SKILL.md#sweep-execution-checklist); do not fake 5/5 without searching.
 - **Corpus tier law** (v1.5.1): grade **tier 3** only (**3a** official · **3b** wire · **3c** syndicated/social); **tier 4** commentary (archive transcripts, Mercouris/Diesen benches) = interpretation fence — not wire facts.
 
@@ -92,7 +92,7 @@ Existing thread weaves use **wire-verify** informally for roster/title checks (e
 | Any wire hook (batch) | **Five-lane CIV-STATE sweep** per portable core — America · Persia · PRC · Russia · Rome (`fa`/`zh`/`ru`/Romance when wording load-bearing) |
 | Narrow fork (sub-hook) | Portable core § *Pass modes* + *Attribution duel* — combatant lanes required; mesh lanes searched or **`-absent`** with registry note |
 | Iran/PRC/Russia wording | Native primary per **fact-check** + `daily-brief-*-watch.md` |
-| Full day batch | **`statecraft daily synthesis`** with verify column |
+| Full day batch | **`state synthesis`** with verify column |
 | Public copy | **`skill-write`** after verify — do not skip |
 
 ## Sync

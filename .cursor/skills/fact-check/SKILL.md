@@ -34,7 +34,7 @@ Use this table **before** choosing a pass. Bare **`verify`** is ambiguous — as
 | **Historical** primary/secondary cited inside commentary | **Out of scope** for wire-verify; **fact check** only if operator names the historical claim | Corpus tiers 1–2 |
 | **Primary doc** needed (full MFA readout, court filing, official PDF) beyond triage | **[fact check deep](#fact-check-deep-pass)** (or lane primary skill) | Escalate from wire-verify or thin fact-check triage |
 | **Campaign / Massie-shaped** copy from today's news | **[politics-massie](../politics-massie/SKILL.md)** | Not neutral verification |
-| **Before** `statecraft daily synthesis` or promoting into Judgment on a **same-week** seam | **wire-verify** (batch mode) | Pre-synthesis gate on wire hooks |
+| **Before** `state synthesis` or promoting into Judgment on a **same-week** seam | **wire-verify** (batch mode) | Pre-synthesis gate on wire hooks |
 
 **Verdict vocabulary (align across skills):**
 
