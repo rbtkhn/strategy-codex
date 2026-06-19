@@ -31,6 +31,25 @@ Canonical method: [skills/ideation-engine/SKILL.md](ideation-engine/SKILL.md)
 
 ---
 
+## mtp
+
+- **What it is**
+  - EXO/Salim orientation pass: one-sentence MTP, pivot test, stack diagnosis, delete-legacy, falsifiers.
+- **When to use it**
+  - Pre-ship, post-ideation filter, delete-legacy audit, or when coffee **D Reframe** needs purpose before one object.
+- **Inputs you'll need**
+  - Named object (or pick A/B/C submenu); host Layer 0 default in appendix for strategy-codex.
+- **What you get**
+  - MTP sentence (no product names), pivot verdict, EXO bottleneck, falsifier table, one next move.
+- **Boundary**
+  - Think default; not statecraft-framework or wire-verify; standalone — not a coffee hub letter.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills/mtp/SKILL.md](mtp/SKILL.md) · Runbook: [skills/runbooks/mtp-coffee-dream.md](runbooks/mtp-coffee-dream.md)
+
+---
+
 ## abundance-native-ventures
 
 - **What it is**

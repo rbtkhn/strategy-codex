@@ -27,9 +27,9 @@ WORK only; not Record. Salim operator test applied to this harness — not Space
 
 **Layer 0 — one sentence:** Keep human judgment sovereign over accelerating machine interpretation — by routing every serious claim through verbatim source truth, typed artifact authority, and falsifiable synthesis, so interpretation compounds into accountable judgment instead of disposable output.
 
-**PH-boundary clause:** Treat every public export (including Predictive History) as a downstream distribution class, never as merge authority or the reason the harness exists.
+**Pivot test:** If tooling hosts, publish paths, and legacy fork work all pivoted tomorrow, Layer 0 still explains why the harness exists.
 
-**Pivot test:** If Cursor, PH publish path, and Grace-Mar fork work all pivoted tomorrow, Layer 0 still explains why strategy-codex exists.
+**Orientation skill:** `.cursor/skills/mtp/SKILL.md` (`mtp`)
 
 ## Falsifiers (watch)
 
@@ -37,8 +37,6 @@ WORK only; not Record. Salim operator test applied to this harness — not Space
 |---|-----------|--------|
 | F1 | Accumulation without authority | More captures; canonical home / verify don't improve |
 | F6 | Falsifier theater | Tables never wired to `verify:` / wire-verify |
-| F9 | PH is the why | Goals stated as chapters/views without harness receipts |
-| F10 | Silent public ship | strategy-codex commits treated as ph-civ updates without publish script |
-| F11 | Commentary in transcript | ASR fixes in `*-transcript.md` |
-
-Boundary check (2026-06-19): `validate_predictive_history_boundary.py --diff HEAD` pass; ph-civ mirror local receipt ok (`--no-fetch`).
+| F9 | Export is the why | Goals stated as public views/chapters without harness receipts |
+| F10 | Silent public ship | Private commits treated as public repo updates without publish loop |
+| F11 | Commentary in transcript | ASR fixes in canonical transcript bodies |

@@ -59,6 +59,7 @@ MTP is the **governor** for these levers (acronyms from EXO literature; Salim us
 
 ## Links
 
+- Orientation skill: [.cursor/skills/mtp/SKILL.md](../../../.cursor/skills/mtp/SKILL.md) (`mtp`)
 - Archive: [moonshots-265-spacex-ipo-anthropic-export-control-2026-06-19.md](../../../source-archive/singularity/moonshots/moonshots-265-spacex-ipo-anthropic-export-control-2026-06-19.md)
 - Workshop sheet (stub): [moonshots-ep-265-spacex-export-control-rsi.md](../sheets/moonshots-ep-265-spacex-export-control-rsi.md)
 - Related sheet: [moonshots-ep-258-organizational-singularity.md](../sheets/moonshots-ep-258-organizational-singularity.md)

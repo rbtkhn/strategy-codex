@@ -78,6 +78,13 @@ skills:
     verify_forbidden_substrings:
       - platform/users/grace-mar/
       - process_approved_candidates
+  - name: mtp
+    source: mtp/SKILL.md
+    appendix: .cursor/skills/mtp/CURSOR_APPENDIX.md
+    target: .cursor/skills/mtp/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
   - name: abundance-native-ventures
     source: abundance-native-ventures/SKILL.md
     appendix: .cursor/skills/abundance-native-ventures/CURSOR_APPENDIX.md
