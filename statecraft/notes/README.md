@@ -94,6 +94,7 @@ Read this shelf through a few live clusters rather than as one flat list.
 - [june-18-2026-mou-hormuz-governance-armistice-note.md](./june-18-2026-mou-hormuz-governance-armistice-note.md) - J18 MOU: Pape Day 60 Hormuz armistice vs governance trap (Pt. 5 sixty-day fuse ~mid-Aug)
 - [june-18-2026-mou-dahhiya-backfire-mou-terms-note.md](./june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) - J18 MOU: Crooke Dahhiya provocation backfire × MOU terms improvement (tier 4 until wire)
 - [june-17-2026-mou-dem-co-ownership-torpedo-note.md](./june-17-2026-mou-dem-co-ownership-torpedo-note.md) - J17 MOU: Parsi Substack Dem co-ownership vs Hoh electoral geometry (MOU torpedo seam)
+- [june-19-2026-moonshots-export-control-sovereign-ai-crossover.md](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) - statecraft crossover cite for Moonshots ep. 265 export-control / sovereign-AI access seam (singularity-primary capture; geopolitical hooks only)
 - [formal-sovereignty-vs-internal-carriage.md](./formal-sovereignty-vs-internal-carriage.md) - mechanism note on when command remains formal but discretion thins from inside the machinery
 - [recognition-threshold-vs-settlement-architecture.md](./recognition-threshold-vs-settlement-architecture.md) - threshold and sequencing distinction
 - [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md) - route note for treating the open archive-truth seam as a governed machine object rather than a raw debt pile
