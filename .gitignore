@@ -108,6 +108,25 @@ artifacts/statecraft-intake-queue/*
 !artifacts/statecraft-intake-queue/.gitkeep
 !artifacts/statecraft-intake-queue/README.md
 !artifacts/statecraft-intake-queue/digest-*.md
+# Operator dashboard consolidation (Phase 0; see docs/skill-work/work-dev/operator-dashboard-consolidation-phase0.md)
+artifacts/repo-surgeon/*
+!artifacts/repo-surgeon/.gitkeep
+!artifacts/repo-surgeon/README.md
+artifacts/statecraft-war-room/*
+!artifacts/statecraft-war-room/.gitkeep
+!artifacts/statecraft-war-room/README.md
+artifacts/operator-command-deck/*
+!artifacts/operator-command-deck/.gitkeep
+!artifacts/operator-command-deck/README.md
+runtime/artifacts/repo-surgeon/*
+!runtime/artifacts/repo-surgeon/.gitkeep
+!runtime/artifacts/repo-surgeon/README.md
+runtime/artifacts/statecraft-war-room/*
+!runtime/artifacts/statecraft-war-room/.gitkeep
+!runtime/artifacts/statecraft-war-room/README.md
+runtime/artifacts/operator-command-deck/*
+!runtime/artifacts/operator-command-deck/.gitkeep
+!runtime/artifacts/operator-command-deck/README.md
 # Local transcript/intake scratch (rebuildable; see artifacts/README.md commit-worthiness)
 artifacts/intake/*
 !artifacts/intake/.gitkeep

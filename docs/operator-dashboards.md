@@ -6,6 +6,8 @@ Grace-Mar can emit **compact, regeneratable Markdown â€œdashboardsâ€** 
 
 Prefer **extending** an existing dashboard, **adding a registry entry**, or **adding a report, receipt, packet, or machine feed** before adding a **new** dashboard. Any new operator dashboard must be **registered** in [operator-surface-registry.md](operator-surface-registry.md) with **authority status**, **source inputs**, **operator use**, and **relationship** to existing surfaces (see Â§5â€“7 there). The full policy and preferred alternatives live in that fileâ€”not duplicated here.
 
+**Operator dashboard consolidation (Phase 0):** Three registered aggregator buckets — Repo Surgeon, Statecraft War Room, Operator Command Deck — are aligned in [operator-dashboard-consolidation-phase0.md](skill-work/work-dev/operator-dashboard-consolidation-phase0.md). Producer scripts land in Phases 1â€“3; Phase 0 is registry + policy only.
+
 Dashboards are a **stable scripted subclass** of the [Interface Artifact Protocol](skill-work/work-dev/interface-runtime/artifacts/README.md): generated operator-facing views that remain **derived** and **non-canonical** even when they become reliable enough to script and regenerate routinely.
 
 ## Dashboard staleness

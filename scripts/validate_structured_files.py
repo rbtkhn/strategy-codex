@@ -1,4 +1,3 @@
-from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Lightweight validation for governance-critical structured files.
@@ -24,7 +23,20 @@ from typing import Iterator
 
 from yaml_compat import has_yaml, safe_load_text
 
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR  # noqa: E402
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+_SKIP_DIR_NAMES = frozenset({".git", ".venv", "node_modules", "__pycache__", ".pytest_cache"})
+
+_DASHBOARD_BUCKET_READMES: tuple[str, ...] = (
+    "runtime/artifacts/repo-surgeon/README.md",
+    "runtime/artifacts/statecraft-war-room/README.md",
+    "runtime/artifacts/operator-command-deck/README.md",
+)
 
 # Skip very large JSON under runtime/artifacts/ (historical blobs, etc.); still counts toward summary.
 MAX_ARTIFACT_JSON_BYTES = 512 * 1024
@@ -266,6 +278,42 @@ def warn_long_lines(paths: list[Path], repo_root: Path = REPO_ROOT, limit: int =
 
 def critical_markdown_paths(repo_root: Path = REPO_ROOT) -> list[Path]:
     return sorted(repo_root / p for p in CRITICAL_MARKDOWN_PATHS)
+
+
+def _glob_markdown_under(root: Path) -> list[Path]:
+    if not root.is_dir():
+        return []
+    out: list[Path] = []
+    for path in sorted(root.rglob("*.md")):
+        if any(part in _SKIP_DIR_NAMES for part in path.parts):
+            continue
+        out.append(path)
+    return out
+
+
+def collect_markdown_paths(repo_root: Path, scope: str) -> list[Path]:
+    """Return sorted markdown paths for repo_surgeon link scans."""
+    scope_norm = scope.strip().lower()
+    paths: set[Path] = set()
+
+    if scope_norm in {"docs", "all"}:
+        paths.update(_glob_markdown_under(repo_root / "docs"))
+        for rel in _DASHBOARD_BUCKET_READMES:
+            p = repo_root / rel
+            if p.is_file():
+                paths.add(p)
+
+    if scope_norm in {"statecraft", "all"}:
+        paths.update(_glob_markdown_under(repo_root / "statecraft"))
+
+    if scope_norm in {"skills", "all"}:
+        paths.update(_glob_markdown_under(repo_root / "skills"))
+        paths.update(_glob_markdown_under(repo_root / ".cursor" / "skills"))
+
+    if scope_norm not in {"docs", "statecraft", "skills", "all"}:
+        raise ValueError(f"unknown markdown scope: {scope!r}")
+
+    return sorted(paths)
 
 
 def main() -> int:
