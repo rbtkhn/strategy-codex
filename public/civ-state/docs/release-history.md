@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
 **v0.1.32** — Rome hexagonal wave 1: three demonstrator essays (1453 · Italian Wars/Sack 1527 · Justinian 529) · registry active · template public-safe membrane link · three node archetypes (rupture · split · restitution).
 
 **v0.1.31** — Rome civ/empire polish: Medici/Michelangelo split rosters · Borgia institutional rows · Italian Wars/Sack 1527 entropy · Savonarola · French kings · Civ↔Empire↔Entropy delineation · Boethius/Frontinus ethic rows · Rosetta/Champollion empire roster.
