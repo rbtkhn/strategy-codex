@@ -6,7 +6,7 @@
 
 **Status:** Core operator theory — not optional narrative color. Strategic leverage and legitimacy are exercised through **several non-fungible authoritative channels**, not a single Western headline stack.
 
-**Activation:** Referenced from [DEFAULT-PATH.md](DEFAULT-PATH.md) move 2 (inbox tagging), [statecraft-daily-synthesis](../../.cursor/skills/statecraft-daily-synthesis/SKILL.md), and [skill-narrative](../../.cursor/skills/skill-narrative/SKILL.md). Voice/lens work → **statecraft** handoff ([VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md)), not the codex ledger menu.
+**Activation:** Referenced from [DEFAULT-PATH.md](DEFAULT-PATH.md) move 2 (inbox tagging), [state-synthesis](../../.cursor/skills/state-synthesis/SKILL.md), and [skill-narrative](../../.cursor/skills/skill-narrative/SKILL.md). Voice/lens work → **statecraft** handoff ([VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md)), not the codex ledger menu.
 
 ---
 

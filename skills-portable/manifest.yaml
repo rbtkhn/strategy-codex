@@ -170,10 +170,10 @@ skills:
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
-  - name: statecraft-daily-synthesis
-    source: statecraft-daily-synthesis/SKILL.md
-    appendix: .cursor/skills/statecraft-daily-synthesis/CURSOR_APPENDIX.md
-    target: .cursor/skills/statecraft-daily-synthesis/SKILL.md
+  - name: state-synthesis
+    source: state-synthesis/SKILL.md
+    appendix: .cursor/skills/state-synthesis/CURSOR_APPENDIX.md
+    target: .cursor/skills/state-synthesis/SKILL.md
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates
@@ -195,6 +195,13 @@ skills:
     source: memory/SKILL.md
     appendix: .cursor/skills/memory/CURSOR_APPENDIX.md
     target: .cursor/skills/memory/SKILL.md
+    verify_forbidden_substrings:
+      - users/grace-mar/
+      - process_approved_candidates
+  - name: civ-state
+    source: civ-state/SKILL.md
+    appendix: .cursor/skills/civ-state/CURSOR_APPENDIX.md
+    target: .cursor/skills/civ-state/SKILL.md
     verify_forbidden_substrings:
       - users/grace-mar/
       - process_approved_candidates

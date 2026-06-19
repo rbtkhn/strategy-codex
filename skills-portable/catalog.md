@@ -126,7 +126,7 @@ Canonical method: [skills-portable/statecraft-source-intake/SKILL.md](statecraft
 
 ---
 
-## statecraft-daily-synthesis
+## state-synthesis
 
 - **What it is**
   - A downstream statecraft synthesis skill for turning a landed archive day or month batch into a bounded report with visible speaker-shelf grounding.
@@ -141,7 +141,7 @@ Canonical method: [skills-portable/statecraft-source-intake/SKILL.md](statecraft
 - **Current status**
   - `promoted`
 
-Canonical method: [skills-portable/statecraft-daily-synthesis/SKILL.md](statecraft-daily-synthesis/SKILL.md)
+Canonical method: [skills-portable/state-synthesis/SKILL.md](state-synthesis/SKILL.md)
 
 ---
 
@@ -194,7 +194,7 @@ Canonical method: [skills-portable/statecraft-multi-lens/SKILL.md](statecraft-mu
 - **What you get**
   - A shelf-native bounded note (Purpose, owns-here blocks, citation hygiene, falsifiers) plus README index entry; bidirectional link when a parent day exists.
 - **Boundary**
-  - WORK only; one argument per note; no transcript mirrors; does not replace `statecraft-daily-synthesis` for whole-day work or `statecraft-intelligence-essay` for essay-class prose.
+  - WORK only; one argument per note; no transcript mirrors; does not replace `state-synthesis` for whole-day work or `statecraft-intelligence-essay` for essay-class prose.
 - **Current status**
   - `promoted`
 
@@ -256,6 +256,25 @@ Canonical method: [skills-portable/strategy-notebook-expert-cross-weave/SKILL.md
   - `promoted`
 
 Canonical method: [skills-portable/statecraft-helix-synthesis/SKILL.md](statecraft-helix-synthesis/SKILL.md)
+
+---
+
+## civ-state
+
+- **What it is**
+  - The upstream CIV-STATE analysis bench: fixed **A–D** menu (`Frame / Retrieve / Promote / Review`) with a live recommendation that moves turn to turn.
+- **When to use it**
+  - Use when the question is CIV-STATE frame judgment, retrieval, membrane promotion, or review — not lane drafting, not default book authoring.
+- **Inputs you'll need**
+  - Speaker/bridge residue, PH-CIV promotion ledger, CIV-STATE review queue, or a named CIV-STATE object when retrieval is honest.
+- **What you get**
+  - One recommended path, fixed menu, and letter handoff into frame/retrieve/promote/review work.
+- **Boundary**
+  - WORK only; not Record; does not replace deploy routing or lane skills.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills-portable/civ-state/SKILL.md](civ-state/SKILL.md)
 
 ---
 

@@ -4,10 +4,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `9`
+- Source files: `10`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (7), `substack-post` (1), `transcript` (1)
-- Source form mix: `interview` (7), `newsletter` (1), `solo` (1)
+- Body kind mix: `cleaned-transcript` (7), `substack-post` (2), `transcript` (1)
+- Source form mix: `interview` (7), `newsletter` (2), `solo` (1)
 - Distinct channels/shows: `5`
 - Distinct hosts: `3`
 - Distinct guests: `7`
@@ -15,13 +15,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (5), `Alexander Mercouris` (1), `Breaking Points` (1), `Mario Nawfal` (1), `escalationtrap.substack.com` (1)
+- `Dialogue Works` (5), `escalationtrap.substack.com` (2), `Alexander Mercouris` (1), `Breaking Points` (1), `Mario Nawfal` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (5), `Breaking Points` (1), `Robert Pape` (1)
+- Hosts: `Nima Alkhorshid` (5), `Robert Pape` (2), `Breaking Points` (1)
 - Guests: `Larry Johnson` (2), `Anthony Aguilar` (1), `Matthew Hoh` (1), `Pepe Escobar` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1)
-- Threads: `nima` (5), `johnson` (2), `pape` (2), `aguilar` (1), `escobar` (1), `hoh` (1), `marandi` (1), `mercouris` (1), `nawfal` (1), `parsi` (1)
+- Threads: `nima` (5), `pape` (3), `johnson` (2), `aguilar` (1), `escobar` (1), `hoh` (1), `marandi` (1), `mercouris` (1), `nawfal` (1), `parsi` (1)
 
 ## Ingest register
 
@@ -37,6 +37,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | Pepe Escobar | Dialogue Works | `escobar`, `nima` | [bhlKeCbwWOo](https://www.youtube.com/watch?v=bhlKeCbwWOo) |
 | Trita Parsi | Mario Nawfal | `parsi`, `nawfal` | [qlnq3I7QVr4](https://www.youtube.com/watch?v=qlnq3I7QVr4) |
 | Robert Pape | Breaking Points | `pape` | [s88aryNUMhE](https://www.youtube.com/watch?v=s88aryNUMhE) |
+| Robert Pape | escalationtrap.substack.com | `pape` | [watch](https://escalationtrap.substack.com/p/day-60) |
 | Robert Pape | escalationtrap.substack.com | `pape` | [watch](https://escalationtrap.substack.com/p/stage-iv-begins-inside-the-bloombergs) |
 
 ## Files
@@ -49,4 +50,5 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 - `source-alkorshid-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md`
 - `source-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md`
 - `source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md`
+- `source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md`
 - `source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md`

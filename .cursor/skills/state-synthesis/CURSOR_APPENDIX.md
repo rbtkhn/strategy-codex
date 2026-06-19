@@ -25,7 +25,7 @@
 **Preferred maintenance commands after skill edits**
 
 ```powershell
-python scripts/sync_portable_skills.py --skill statecraft-daily-synthesis
-python scripts/sync_portable_skills.py --verify --skill statecraft-daily-synthesis
+python scripts/sync_portable_skills.py --skill state-synthesis
+python scripts/sync_portable_skills.py --verify --skill state-synthesis
 python scripts/validate_skills.py
 ```

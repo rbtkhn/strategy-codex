@@ -11,7 +11,7 @@ subroutine content may live inside a required section
 before the contract gains a new top-level heading
 ```
 
-Mechanism comparison is **built into** `statecraft-daily-synthesis` skill law, but the **validator contract** only knows eight daily `##` headings. Kleiber demoted the subroutine to `###` under **Speaker Value From This Batch** rather than widening the validator in the same pass.
+Mechanism comparison is **built into** `state-synthesis` skill law, but the **validator contract** only knows eight daily `##` headings. Kleiber demoted the subroutine to `###` under **Speaker Value From This Batch** rather than widening the validator in the same pass.
 
 ## Shape
 

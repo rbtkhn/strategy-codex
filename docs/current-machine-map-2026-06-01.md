@@ -184,7 +184,7 @@ which parts of the machine are now stable enough to test?
 
 Examples:
 
-- statecraft daily synthesis validator
+- state synthesis validator
 - civ-state validators
 - transcript audit and repair scripts
 - speaker trust or accuracy audits

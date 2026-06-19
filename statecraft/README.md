@@ -110,7 +110,7 @@ When ownership is already clear, do not jump straight to `helix`, `state`, `tran
 
 That means the first honest lane menu should ask which transcript-bearing intake family governs now, not which downstream lane note looks most elegant.
 
-`statecraft civ-state` is the exact named fast path for the upstream CIV-STATE bench. Use it when the question is not yet lane ownership or drafting, but rather CIV-STATE frame judgment, retrieval, membrane promotion, or review. It is distinct from `state-deploy`, distinct from [compact](compact/README.md), and distinct from lane-direct statecraft work.
+**`civ-state`** is the exact named fast path for the upstream CIV-STATE bench ([civ-state skill](../.cursor/skills/civ-state/SKILL.md)). Legacy alias: `statecraft civ-state`. The skill **retrieves through [`public/civ-state/`](../public/civ-state/)** (canonical ship-bound book tree); [`statecraft/states/`](states/README.md) is operator substrate, not public SSOT ([boundary](../docs/civilizational-statecraft-external-boundary.md)). Use it when the question is not yet lane ownership or drafting, but rather CIV-STATE frame judgment, retrieval, membrane promotion, or review. It is distinct from `state-deploy`, distinct from [compact](compact/README.md), and distinct from lane-direct statecraft work.
 
 Speaker-state continuity that belongs to live statecraft now opens from [statecraft/voices/](voices/README.md), not from an external speaker shelf by default.
 
@@ -145,11 +145,11 @@ Named recent events no longer open a separate `current-event` function. Verify t
 - Need the fastest cold-open rule? `statecraft.md -> crisis object -> lane ownership -> output form`.
 - Need the next-week operator roadmap? Open [statecraft-v1-upgrade-plan-2026-05-25.md](statecraft-v1-upgrade-plan-2026-05-25.md).
 - Need lane ownership? Open `state-deploy`.
-- Need the upstream CIV-STATE bench itself? Open `statecraft civ-state`.
+- Need the upstream CIV-STATE bench itself? Say **`civ-state`** (skill: [civ-state](../.cursor/skills/civ-state/SKILL.md)).
 - Need to turn a named recent event into a statecraft object? Verify it, name the crisis object, then open `state-deploy`.
 - Need a cross-lane mechanism or objection-shaped object? Open [compact](compact/README.md).
 - Need a Persia retrieval profile after lane ownership is clear? Open `statecraft-bridge`.
-- Need CIV-STATE frame / retrieval / promotion / review without starting book work? Open `statecraft civ-state`.
+- Need CIV-STATE frame / retrieval / promotion / review without starting book work? Say **`civ-state`**.
 - Need the current default worked instrument? Open [Hormuz recognition transit transaction](persia/transactions/hormuz-recognition-transit-transaction.md).
 - Need the shared crisis-object fit check? Open [Transaction Router](sheets/transaction-router.md).
 - Need the shortest teaching path from a named recent event to a draftable instrument? Open [Verified live-event to instrument](sheets/verified-live-event-to-instrument.md).

@@ -1,6 +1,6 @@
 WORK only; not Record.
 
-# Statecraft Daily Synthesis Method
+# State Synthesis Method
 
 Purpose: define the active contract for the `statecraft/daily` shelf now that it contains daily notes, month notes, statecraft notes, and occasional linked intelligence essays.
 

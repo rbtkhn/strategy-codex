@@ -117,7 +117,7 @@ This statecraft note extends the June 6 America statecraft note and the command-
 - [America transaction — command firewall + successor carrier check](../america/transactions/foreign-client-mesh-separation-and-command-review.md)
 - [Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork](./2026-06-07-barnes-aguilar-sanctions-enforceability-vs-capture-fork.md) (unused executive levers on same June 7 night)
 
-Parent daily: [Statecraft Daily Synthesis - 2026-06-07](./2026-06-07.md). This note folds under primary America lane pressure on that day-batch.
+Parent daily: [State Synthesis - 2026-06-07](./2026-06-07.md). This note folds under primary America lane pressure on that day-batch.
 
 ## Source Anchors
 

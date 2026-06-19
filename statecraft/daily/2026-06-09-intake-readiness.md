@@ -110,7 +110,7 @@ Still live from [2026-06-08 daily](./2026-06-08.md):
 ## Invoke when ready
 
 1. Run **`fact-check`** triage on Pape wire rows (Apache, infiltration).
-2. Operator says **`statecraft daily synthesis`** or **`statecraft daily intake`** on landed batch.
+2. Operator says **`state synthesis`** or **`statecraft daily intake`** on landed batch.
 3. Promote Bernstein executive-read opening (chat draft) into `2026-06-09.md` only after verify table has receipts.
 4. Rebuild indices if sources added:
    ```powershell

@@ -1,6 +1,6 @@
 WORK only; not Record.
 
-# Statecraft Daily Synthesis Audit Rubric
+# State Synthesis Audit Rubric
 
 Purpose: make the `statecraft/daily` method auditable without reducing it to taste, vibes, or silent preference drift.
 

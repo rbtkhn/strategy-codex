@@ -63,6 +63,8 @@ Material ceiling **forces** the off-ramp; sabotage register **predicates** where
 
 **Post-wire tier:** Trump **~4 wk** SPR **Supported**; Macgregor **2.5–3 wk** **Partial** — cite **band**, not point estimate.
 
+**Hormuz governance (Pape Day 60):** Pt. 5 sixty-day toll-free → **governance** negotiation — [armistice note](./june-18-2026-mou-hormuz-governance-armistice-note.md); do not collapse with fuse clock alone.
+
 **Disproportion:** quantified shock (Macgregor) weighs heavier for **near-term re-war** than legal delay (Henningsen).
 
 ### MOU paper vs ground
@@ -142,7 +144,7 @@ Material ceiling **forces** the off-ramp; sabotage register **predicates** where
 
 ## Next use
 
-- **`statecraft-daily-synthesis`** for `2026-06-18` — use fuse vs process columns; parent convergence for seams; pair note for episode clips.
+- **`state-synthesis`** for `2026-06-18` — use fuse vs process columns; parent convergence for seams; pair note for episode clips.
 - **`wire-verify` / `verify:` YAML** on Henningsen + Davis when process-clock hooks need archive receipts.
 - **`statecraft-multi-lens`** — preset **Macgregor / Davis** for coercive-collapse objects; add **Blumenthal / Henningsen** when sabotage register is the contested axis.
 

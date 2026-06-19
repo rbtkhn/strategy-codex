@@ -146,7 +146,7 @@ This statecraft note extends the June 6–7 America capture chain; it does not r
 - [June 8 intake readiness](./2026-06-08-intake-readiness.md)
 - [Davis trust fork statecraft note](./2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) (same-day; deal-trust plane)
 
-Parent daily (when written): [Statecraft Daily Synthesis - 2026-06-08](./2026-06-08.md). Fold under **primary America lane** — legitimacy erosion / capture memory.
+Parent daily (when written): [State Synthesis - 2026-06-08](./2026-06-08.md). Fold under **primary America lane** — legitimacy erosion / capture memory.
 
 ## Source Anchors
 

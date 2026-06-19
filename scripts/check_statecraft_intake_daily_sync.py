@@ -159,7 +159,7 @@ def format_human(report: SyncReport) -> str:
         lines.append("ok: archive and daily source lists align")
     else:
         lines.append(
-            "action: run statecraft daily synthesis or wire missing captures into "
+            "action: run state synthesis or wire missing captures into "
             f"statecraft/daily/{report.day}.md before treating the day as current"
         )
     return "\n".join(lines)
@@ -252,7 +252,7 @@ def format_batch_human(reports: list[SyncReport], *, desync_only: bool = False) 
         lines.extend(
             [
                 "",
-                "action: wire missing captures or run statecraft daily synthesis per desync day",
+                "action: wire missing captures or run state synthesis per desync day",
             ]
         )
     else:

@@ -1,6 +1,6 @@
 WORK only; not Record.
 
-# Statecraft Daily Synthesis Shelf
+# State Synthesis Shelf
 
 This shelf holds bounded daily notes, month syntheses, and **statecraft notes** (mechanism/compare follow-ons) derived from the **Statecraft Archive** and written on the **Statecraft Synthesis / drafting** side of the membrane.
 
@@ -163,3 +163,11 @@ April hinge ladder: 08 → 12 → 17 → 20 → 22 → 30; use archive day READM
   - [Marandi × Sachs — outcome accounting fork](2026-06-15-marandi-sachs-outcome-accounting.md)
   - [Davis Iran × Davis Ukraine — parallel / Moscow fork](2026-06-15-davis-iran-ukraine-parallel-fork.md)
   - [2026-06-15 wire-verify matrix (Ukraine/G7)](2026-06-15-wire-verify-matrix.md)
+- [2026-06-17](2026-06-17.md) — official 14-pt MOU text published; Dialogue Works clause cluster; wire matrix J17-1–17; ceremony fork through Fri 19 Jun; Pape Day 60 Hormuz governance trap (10 captures)
+  - [2026-06-17 wire-verify matrix](./2026-06-17-wire-verify-matrix.md)
+  - [MOU implementation tensions](./2026-06-17-mou-implementation-tensions.md)
+  - [Lebanon forward defense × Art. 1 — Pape × Parsi](./2026-06-17-lebanon-forward-defense-mou-art1-pape-parsi.md)
+- [2026-06-18](2026-06-18.md) — MOU digitally signed; guest-register convergence; wire falsifiers tiered; Lebanon enforcement seam; Crooke hubris overlay (10 captures)
+  - [J18 MOU convergence spine](../notes/june-18-2026-mou-convergence.md)
+  - [Guest-pair citation split](../notes/june-18-2026-mou-guest-pair-citation-split.md)
+  - [Material vs sabotage lens](../notes/june-18-2026-mou-material-vs-sabotage-lens.md)

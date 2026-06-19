@@ -156,7 +156,7 @@ Short rule:
 
 ## Return Paths
 
-- Parent daily: [Statecraft Daily Synthesis - 2026-06-04](./2026-06-04.md)
+- Parent daily: [State Synthesis - 2026-06-04](./2026-06-04.md)
 - Forward proof: [Parsi × Nima × McGovern: Third-Party Deterrence](./2026-06-07-parsi-nima-mcgovern-third-party-deterrence-vs-recognition-gate.md)
 - Gate mechanics: [Persia: Lebanon-First Gate Vs Hormuz Mechanics - 2026-06-06](./2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)
 - Persia transaction: [Lebanon third-party recognition gate](../persia/transactions/lebanon-third-party-recognition-gate-transaction.md) (Clause A)

@@ -1,6 +1,6 @@
 WORK only; not Record.
 
-# Statecraft Daily Synthesis Benchmark Manifest
+# State Synthesis Benchmark Manifest
 
 Purpose: define the first stable proof set for `statecraft/daily` method changes, audits, and future lightweight validators.
 

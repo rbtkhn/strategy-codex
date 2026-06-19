@@ -4,7 +4,7 @@ WORK only; not Record.
 
 ## Purpose
 
-This statecraft note opens one bounded follow-on from [Statecraft Daily Synthesis - 2026-06-06](./2026-06-06.md):
+This statecraft note opens one bounded follow-on from [State Synthesis - 2026-06-06](./2026-06-06.md):
 
 **How close is the Ukraine war to a Russia–NATO direct-confrontation threshold, and who explains which part of that ladder?**
 
@@ -146,5 +146,5 @@ This statecraft note sharpens the parent note's tertiary Russia lane and `Mechan
 
 Related:
 
-- [Statecraft Daily Synthesis - 2026-06-06](./2026-06-06.md)
+- [State Synthesis - 2026-06-06](./2026-06-06.md)
 - [Persia: Lebanon-First Gate Vs Hormuz Mechanics](./2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md)

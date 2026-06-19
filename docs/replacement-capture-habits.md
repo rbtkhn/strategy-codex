@@ -10,7 +10,7 @@ When the operator would have used fork-growth habits, use these **instead** unle
 | Book completion → LEARN/READ gate candidate | `codex/` / bookshelf WORK, strategy inbox, or statecraft archive intake |
 | Wisdom questions → IX merge | Singularity or statecraft synthesis notes; **fork revive only** for IX-A/B/C gate |
 | Weekly gate review rhythm | `python3 scripts/operator_handoff_check.py`, integrity scripts, ship receipt |
-| Voice / Telegram as primary channel | WORK menus (`coffee`, conductor), statecraft daily synthesis |
+| Voice / Telegram as primary channel | WORK menus (`coffee`, conductor), state synthesis |
 | Pipeline will grow the Record | Explicit WORK artifacts with git audit trail |
 
 **Archaeology:** Legacy habits and doctrine live under [`archive/grace-mar-corpus/`](../archive/grace-mar-corpus/README.md). Redirect table: [legacy-operator-concepts.md](legacy-operator-concepts.md).

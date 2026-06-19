@@ -48,7 +48,7 @@ Diff: [source-archive/statecraft/2026-06-08/README.md](../../source-archive/stat
    python scripts/build_statecraft_month_indices.py --month 2026-06
    python scripts/build_statecraft_archive_navigation.py
    ```
-4. Run **`statecraft daily synthesis`** on the landed batch.
+4. Run **`state synthesis`** on the landed batch.
 5. Update [2026-06.md](./2026-06.md) partial month note if the week object shifts.
 
 Optional discovery: **`check streams`** for Nima, Mercouris, Davis, Napolitano, Diesen roster.

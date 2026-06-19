@@ -45,7 +45,7 @@ Primary sources are the constitutional evidence layer of CIV-STATE. They are the
 
 ## Command Door
 
-`statecraft civ-state` is the preferred exact command door for CIV-STATE as an analysis bench.
+**`civ-state`** is the preferred exact command door for CIV-STATE as an analysis bench ([skill](../../.cursor/skills/civ-state/SKILL.md)). Legacy alias: `statecraft civ-state`. The skill routes retrieval through [`public/civ-state/`](../../public/civ-state/) — not through this operator tree as ship target.
 
 Use it when the real question is:
 
@@ -302,7 +302,7 @@ Use the front door that matches the actual operator question:
 - `I want the operator's reading doctrine for the books`
   - open [Reader Guide](reader-guide.md)
 - `I want the CIV-STATE analysis bench itself`
-  - open `statecraft civ-state`
+  - say **`civ-state`**
 - `which part of a CIV-STATE volume should I open first?`
   - open [Volume map](volumes/README.md) and follow `Civilization -> Empire -> Statecraft`
 - `what does this term, dynasty, church, or transformed carrier mean here?`

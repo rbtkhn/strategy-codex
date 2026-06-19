@@ -162,9 +162,9 @@ Short rule:
 This statecraft note sharpens the June 6 Persia statecraft note's gate/mechanics split by adding June 7 **event proof** from Parsi and Nima. Parent references:
 
 - [Persia: Lebanon-First Gate Vs Hormuz Mechanics - 2026-06-06](./2026-06-06-persia-lebanon-first-gate-vs-hormuz-mechanics.md) (Marandi–McGovern division)
-- [Statecraft Daily Synthesis - 2026-06-06](./2026-06-06.md) (seven-source parent daily)
+- [State Synthesis - 2026-06-06](./2026-06-06.md) (seven-source parent daily)
 
-Parent daily: [Statecraft Daily Synthesis - 2026-06-07](./2026-06-07.md). This note owns the bounded Iran–Lebanon mechanism compare for that day-batch.
+Parent daily: [State Synthesis - 2026-06-07](./2026-06-07.md). This note owns the bounded Iran–Lebanon mechanism compare for that day-batch.
 
 ## Source Anchors
 

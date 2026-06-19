@@ -78,5 +78,5 @@ Paired essay: [America On The Hormuz-Lebanon Gate](./2026-06-01-america-hormuz-l
 
 Related notes:
 
-- [Statecraft Daily Synthesis - 2026-06-01](./2026-06-01.md)
+- [State Synthesis - 2026-06-01](./2026-06-01.md)
 - [Persia On Hormuz As Postwar Authority Floor](./2026-06-01-persia-hormuz-postwar-authority-floor.md)

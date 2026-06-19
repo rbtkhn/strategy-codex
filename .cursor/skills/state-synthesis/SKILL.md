@@ -1,20 +1,23 @@
 ---
-name: statecraft-daily-synthesis
-preferred_activation: statecraft daily synthesis
-description: "Turn a landed statecraft archive day batch into a bounded daily synthesis note on the statecraft side. Use when the source captures for a day already exist and the next job is to identify the dominant crisis object, lane pressure, and speaker-by-function comparisons. Includes same-object mechanism comparison as a built-in subroutine."
+name: state-synthesis
+preferred_activation: state synthesis
+description: Turn a landed statecraft archive day batch into a bounded daily synthesis note on the statecraft side. Use when the source captures for a day already exist and the next job is to identify the dominant crisis object, lane pressure, and speaker-by-function comparisons. Includes same-object mechanism comparison as a built-in subroutine.
 portable: true
-version: 0.2.0
+version: 0.3.0
 tags:
-  - operator
-  - statecraft
-  - synthesis
-  - daily
-  - monthly
+- operator
+- statecraft
+- synthesis
+- daily
+- monthly
+portable_source: skills-portable/state-synthesis/SKILL.md
+synced_by: sync_portable_skills.py
 ---
+# State synthesis
 
-# Statecraft daily synthesis
+**Preferred activation (operator):** say **`state synthesis`**.
 
-**Preferred activation (operator):** say **`statecraft daily synthesis`**.
+**Legacy activation (compatibility):** `state synthesis` — same skill; prefer **`state synthesis`**.
 
 Use this skill when a day-batch or month-batch of statecraft source captures is already real and the next need is a bounded synthesis note on the `statecraft/` side.
 
@@ -225,6 +228,57 @@ When companions or transaction rows add receipt IDs (e.g. `AMER-224-RCPT-03`), o
 
 Agent-filled when wire-ins land; no script required in v1.
 
+## Related operations
+
+| Operation | Relationship |
+|-----------|--------------|
+| **civ-state** | When civilizational layer unsettled after synthesis — offer wire-bridge handoff (see below) |
+| **state-note** | One promotable wedge after synthesis when method-bearing |
+| **statecraft-multi-lens** | Live comparison before synthesis when speakers unsettled |
+
+## After synthesis close
+
+When dominant crisis object is named but **governing term / case / primary shelf** is still unsettled, or mechanism comparison needs cross-case placement, offer **one line** (do not auto-run civ-state):
+
+```text
+Civilizational layer unsettled — say civ-state for wire-bridge (term → case → primary shelf).
+```
+
 ## Success condition
 
 The day or month ends with a bounded, reusable synthesis note under `statecraft/` that is grounded in the archive batch, clear about lane pressure, and explicit about which speakers explain which part of the object best.
+
+
+## Cursor / grace-mar instance
+
+**strategy-codex instance notes**
+
+- Canonical source day root for this skill: [source-archive/statecraft](/C:/dev/strategy-codex/source-archive/statecraft)
+- Canonical synthesis side for daily reports: [statecraft/daily](/C:/dev/strategy-codex/statecraft/daily/README.md)
+- Use the day archive inventory first, then write synthesis downstream.
+- Do not place synthesis notes in `source-archive/statecraft/`.
+
+**Current local model example**
+
+- Daily synthesis report:
+  - [statecraft/daily/2026-05-29.md](/C:/dev/strategy-codex/statecraft/daily/2026-05-29.md)
+- Statecraft mechanism note:
+  - [statecraft/daily/2026-05-29-pape-vs-freeman-sachs-marandi.md](/C:/dev/strategy-codex/statecraft/daily/2026-05-29-pape-vs-freeman-sachs-marandi.md)
+
+**Repo notes**
+
+- Archive truth stays upstream in `source-archive/statecraft/`.
+- This skill begins only after the archive batch is real.
+- The default statecraft mechanism comparison for this repo is:
+  - `Pape` = trap logic
+  - `Freeman` = strategic backfire
+  - `Sachs` = enabling carrier
+  - `Marandi` = adversary-side hardening
+
+**Preferred maintenance commands after skill edits**
+
+```powershell
+python scripts/sync_portable_skills.py --skill state-synthesis
+python scripts/sync_portable_skills.py --verify --skill state-synthesis
+python scripts/validate_skills.py
+```

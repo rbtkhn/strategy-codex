@@ -161,4 +161,4 @@ From [week1](./2026-06-week1-start-here.md) finalized unspent paths:
 
 Refresh this hinge when **2026-06-15+** dailies land or month-week 2 **finalizes**.
 
-Invoke: **`statecraft daily intake`** · **`week hinge`** · **`statecraft daily synthesis`**
+Invoke: **`statecraft daily intake`** · **`week hinge`** · **`state synthesis`**

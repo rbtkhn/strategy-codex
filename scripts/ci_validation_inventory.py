@@ -253,13 +253,13 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
     ),
     CheckSpec(
         id="validate_statecraft_daily_synthesis",
-        label="Statecraft daily synthesis structure",
+        label="State synthesis structure",
         script_relpath="scripts/validate_statecraft_daily_synthesis.py",
         argv_builder=_argv_validate_statecraft_daily_synthesis,
         user_scope="ignored",
         groups=frozenset({"ci", "experimental"}),
         timeout_sec=60.0,
-        ci_source=".github/workflows/test.yml (Validate statecraft daily synthesis — advisory)",
+        ci_source=".github/workflows/test.yml (Validate state synthesis — advisory)",
     ),
     CheckSpec(
         id="validate_statecraft_archive_indices",

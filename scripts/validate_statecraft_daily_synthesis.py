@@ -277,7 +277,7 @@ def main() -> int:
         daily_dir
     )
     print(
-        "ok: statecraft daily synthesis validated "
+        "ok: state synthesis validated "
         f"({migrated_daily_count} migrated daily note(s), "
         f"{legacy_daily_count} legacy daily note(s), "
         f"{monthly_count} month note(s))"
