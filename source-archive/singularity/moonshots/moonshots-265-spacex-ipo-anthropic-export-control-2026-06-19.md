@@ -27,7 +27,7 @@ WORK only; not Record.
 - URL: https://www.youtube.com/watch?v=BX9ofqxmeYw
 - Captured: 2026-06-19
 - Capture mode: operator-provided transcript paste; verbatim below.
-- Workshop sheet (stub): [moonshots-ep-265-spacex-export-control-rsi.md](../../../singularity/workshop/sheets/moonshots-ep-265-spacex-export-control-rsi.md)
+- Workshop sheet: [moonshots-ep-265-spacex-export-control-rsi.md](../../../singularity/workshop/sheets/moonshots-ep-265-spacex-export-control-rsi.md)
 - Glossary: [MTP — Massive Transformative Purpose](../../../singularity/workshop/glossary/mtp-massive-transformative-purpose.md)
 - Statecraft crossover (export-control / sovereign-AI seam only): [june-19-2026-moonshots-export-control-sovereign-ai-crossover.md](../../../statecraft/notes/june-19-2026-moonshots-export-control-sovereign-ai-crossover.md)
 
