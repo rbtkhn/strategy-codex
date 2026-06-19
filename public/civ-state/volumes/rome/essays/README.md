@@ -38,6 +38,20 @@ Maturing interpretive chapters — open after Civilization and Empire:
 | Essay | File | Role |
 |-------|------|------|
 | Connectivity Rome | [connectivity-rome.md](connectivity-rome.md) | Six-term membrane · cross-read matrix · segment anchor index |
+| Hexagonal template | [_template-hexagonal-rome.md](_template-hexagonal-rome.md) | Copy scaffold for demonstrator essays |
+
+## Hexagonal demonstrators
+
+One friction node × six lenses — membrane visible; link term SSOT, do not duplicate rosters. Template: [_template-hexagonal-rome.md](_template-hexagonal-rome.md). **Wave 1 (first ship):** 1453 · Italian Wars · Justinian 529.
+
+| Node | File | Status |
+|------|------|--------|
+| 1453 East terminus | `hexagonal-1453-rome.md` | planned |
+| Italian Wars / Sack 1527 | `hexagonal-italian-wars-rome.md` | planned |
+| Justinian codification (529) | `hexagonal-justinian-codification-rome.md` | planned |
+| 1054 Great Schism | `hexagonal-1054-schism-rome.md` | planned (wave 2) |
+| Republic → principate | `hexagonal-republic-principate-rome.md` | planned (wave 2) |
+| Colonial procedural tail | `hexagonal-colonial-tail-rome.md` | planned (wave 2) |
 
 ## Keep at volume root
 

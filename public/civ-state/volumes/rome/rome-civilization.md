@@ -222,6 +222,7 @@ Legal continuity across East/West split — see [Memory (Rome)](rome-memory.md).
 
 ## Bridge
 
+- [Connectivity Rome](essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](essays/README.md#hexagonal-demonstrators)
 - [Civilization Rome](essays/civilization-rome.md)
 - [Faith (Rome)](rome-faith.md) — legitimating image
 - [Memory (Rome)](rome-memory.md) — five spines SSOT

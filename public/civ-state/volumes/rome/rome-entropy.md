@@ -127,6 +127,7 @@ Inheritance rhetoric without carry — [Civilization (Rome)](rome-civilization.m
 
 ## Bridge
 
+- [Connectivity Rome](essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](essays/README.md#hexagonal-demonstrators)
 - [Secret-history Rome](essays/secret-history-rome.md)
 - [Empire Rome](essays/empire-rome.md) — maintenance exhaustion
 

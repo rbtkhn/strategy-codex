@@ -116,6 +116,7 @@ Expert class destroyed, courts collapsed — [Entropy (Rome)](rome-entropy.md).
 
 ## Bridge
 
+- [Connectivity Rome](essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](essays/README.md#hexagonal-demonstrators)
 - [Cross-cutting objects — Roman law row](../../theory/README.md#cross-cutting-objects)
 - [Rome sources — Medieval](../../sources/rome/primary/medieval.md) — *Corpus Juris Civilis*
 

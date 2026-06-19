@@ -130,6 +130,7 @@ Covenant wound and forbidden restitution — [Memory (Rome)](rome-memory.md).
 
 ## Bridge
 
+- [Connectivity Rome](essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](essays/README.md#hexagonal-demonstrators)
 - [Rome sources — Medieval](../../sources/rome/primary/medieval.md)
 
 ## Return paths

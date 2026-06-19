@@ -470,6 +470,7 @@ Rupture distorting legal memory — [Entropy (Rome)](rome-entropy.md).
 
 ## Bridge
 
+- [Connectivity Rome](essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](essays/README.md#hexagonal-demonstrators)
 - [Pax Romana](introduction.md)
 - [Whole-work — Civilizational rhythm](../../theory/memory.md#civilizational-rhythm)
 - [Rome shelf reader](shelf-reader.md)

@@ -248,6 +248,7 @@ Fall and fracture of imperial carry — [Entropy (Rome)](rome-entropy.md).
 
 ## Bridge
 
+- [Connectivity Rome](essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](essays/README.md#hexagonal-demonstrators)
 - [Empire Rome](essays/empire-rome.md)
 - [Geo-strategy Rome](essays/geo-strategy-rome.md)
 - [Memory (Rome)](rome-memory.md) — five spines SSOT

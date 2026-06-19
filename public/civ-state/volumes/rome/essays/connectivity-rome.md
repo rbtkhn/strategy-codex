@@ -88,6 +88,16 @@ Seven-node **Civilization ↔ Empire ↔ Entropy** choreography (prose SSOT): [C
 | `rome-faith` · `rome-science` | Thin — segment **`Cross-reads:`** + memory spine; extend on demand |
 | `rome-memory` · `rome-entropy` | Index + entropy essays pointer; rely on segment cross-reads |
 
+## Essay types (do not conflate)
+
+| Type | Examples | Job |
+|------|----------|-----|
+| **Constitutional** | [civilization-rome.md](civilization-rome.md) · [empire-rome.md](empire-rome.md) | Transformed continuity · outward machinery — volume Parts 1–2 |
+| **History sub-lenses** | [language](dual-language-heritage-rome.md) · [military](military-history-rome.md) · [faith](faith-history-rome.md) · [science](science-history-rome.md) | Single-dimension depth on one parallel spine |
+| **Hexagonal demonstrators** | [registry](README.md#hexagonal-demonstrators) · [_template](_template-hexagonal-rome.md) | **One friction node × six term lenses** — shows membrane in action; links rosters, never duplicates them |
+
+Open a demonstrator when the operator needs to see **the same node diagnosed six ways**; open a history essay when **one dimension** needs essay-length treatment.
+
 ## Return Path
 
 - [Rome volume README](../README.md) — era blocks and opener
@@ -95,4 +105,5 @@ Seven-node **Civilization ↔ Empire ↔ Entropy** choreography (prose SSOT): [C
 - Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)
 - Four history essays: [language](dual-language-heritage-rome.md) · [military](military-history-rome.md) · [faith](faith-history-rome.md) · [science](science-history-rome.md)
 - Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)
+- Hexagonal demonstrators: [registry](README.md#hexagonal-demonstrators) · [template](_template-hexagonal-rome.md)
 - [Theory shelf](../../../theory/README.md)
