@@ -3,7 +3,7 @@
 Volume-local lens — **Rome**, Volume III.
 
 Status: Active doctrine (Roman law mirror)  
-Last updated: 2026-06-18
+Last updated: 2026-06-19
 
 ## Sovereignty chain — entropy lens {#sovereignty-chain-entropy-lens}
 
@@ -73,6 +73,8 @@ Heresies, expulsions, dualist rivals, sacred ruptures. Placement: [Faith spine](
 | Iberian expulsion (1492) | Alhambra Decree — Jewry cross-ref | `historical-grounded` |
 | French Revolution (1789) | Sacred-order rupture on French branch | `historical-grounded` |
 | Colonial mission tail | Sacred authorization — **`contested-weight` mandatory** | **`contested-weight`** |
+| **Italian Wars (1494–1559)** | Peninsula comparative strain — **1494 Charles VIII hinge** (cross-ref [Empire — Italian Wars term node](rome-empire.md#military-history-empire-lens)) · **Florence theocracy (1494–1498)** · **`contested-weight`** · **Borgia–Medici rivalry** (cross-ref [civilization Medici ethic](rome-civilization.md#faith-history-civilization-lens) · [empire Borgia rows](rome-empire.md#faith-history-empire-lens)) · Lucrezia marriage-diplomacy cross-ref · **French Valois kings** comparative one-liner · Savonarola adjacency — **not** 476/1204/1453-class universal rupture | **`contested-weight`** · **`comparative`** |
+| **Sack of Rome (1527)** | **`rupture-primary`** — peninsula sacred-art / papal carry shock (Michelangelo adjacency); cross-ref [civilization Michelangelo ethic](rome-civilization.md#faith-history-civilization-lens) · [Faith — Michelangelo](rome-faith.md#faith-history-faith-lens) · Medici instrument cross-ref — **no duplicate Borgia co-primary** (H10-C) | **`rupture-primary`** |
 
 **Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](essays/faith-history-rome.md)
 
@@ -86,6 +88,7 @@ Shock and censorship degrading procedural carry. SSOT rupture rows on entropy; s
 | **Galileo 1633 / Index** | Censorship / institutional shock (M2) | cross-ref faith |
 | **1789** | Sacred/political rupture — science 1804 terminus separate (M4) | cross-ref science |
 | Colonial decolonization | Wind-down — science export `contested-weight` parallel (M5) | **`contested-weight`** |
+| **Sack of Rome (1527)** | Sacred-monument / workshop shock — cross-ref [civilization Michelangelo](rome-civilization.md#science-history-civilization-lens) · Medici patronage cross-ref; Italian Wars comparative parent row | cross-ref faith |
 | Law as rhetoric | Medium/institution decouple — courts collapsed → science | cross-ref science |
 
 **Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science — military lens](rome-science.md#military-history-science-lens) · [Science (Rome)](rome-science.md) · [Science history (essay)](essays/science-history-rome.md)

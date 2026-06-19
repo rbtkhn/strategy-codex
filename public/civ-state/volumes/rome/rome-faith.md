@@ -75,6 +75,8 @@ Full spine routing + council depth. Placement SSOT: [Faith spine](rome-memory.md
 | Council of Trent | Western hinge 1545–1563 | `historical-grounded` |
 | Crusades | Faith primary — military instrument cross-ref | `historical-grounded` |
 | **1204** | Dual encode — eastern sacral wound ║ western instrument | `historical-grounded` |
+| **Michelangelo / Sistine** | Papal commission institutional sacred context — civilization faith-ethic primary; cross-ref [civilization roster](rome-civilization.md#faith-history-civilization-lens) | cross-ref only |
+| **Alexander VI** | Renaissance papal instrument — institutional roster on [Empire — faith lens](rome-empire.md#faith-history-empire-lens) | cross-ref · **`contested-weight`** |
 | Papacy present | `operator-dual-carrier` — chain + western faith | `operator-dual-carrier` |
 | Orthodox present | `operator-sacred-doctrine` — pairs language spine | `operator-sacred-doctrine` |
 | Christianization (324–380) | `operator-supersessionism-boundary` · `operator-synthesis-chain` | `historical-grounded` |

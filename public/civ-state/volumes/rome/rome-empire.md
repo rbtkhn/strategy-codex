@@ -3,7 +3,7 @@
 Volume-local lens — **Rome**, Volume III.
 
 Status: Active doctrine (Roman law mirror)  
-Last updated: 2026-06-18
+Last updated: 2026-06-19
 
 ## Sovereignty chain — empire lens {#sovereignty-chain-empire-lens}
 
@@ -80,6 +80,8 @@ Last updated: 2026-06-18
 | Colonial instruments | Colonial | codification_medium | Iberian export of **Latin legal text** — not Greek bridge |
 | Strabo / oikoumene | Ancient | co_primary_medium | Empire geography encoded in Greek — [civilization roster](rome-civilization.md#dual-language-heritage-civilization-lens) |
 
+**Figure-index pointers (no roster duplication):** [Homer](rome-civilization.md#dual-language-heritage-civilization-lens) · [Cicero](rome-civilization.md#dual-language-heritage-civilization-lens) · [Justinian](rome-civilization.md#dual-language-heritage-civilization-lens) — full Greek/Latin rosters on civilization lens.
+
 **Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Civilization rosters](rome-civilization.md#dual-language-heritage-civilization-lens)
 
 ## Military history — empire lens {#military-history-empire-lens}
@@ -133,6 +135,7 @@ Legions, logistics, garrison, incorporation-by-force. Campaign/command roster SS
 | East-bridge | Heraclius · Procopius/Maurice — cross-ref [military spine](rome-memory.md#military-spine-formation) |
 | **1204** | Fourth Crusade — military primary; faith sacral wound · entropy rupture · science codex cross-ref (N1) |
 | **1453** | East terminus — gunpowder co-equal; entropy primary · science reception cross-ref (N2) |
+| **Italian Wars (1494–1559)** | Peninsula successor_instrument theater — **Cesare Borgia** condotte footnote · **Naples/Aragonese** kingdom · **French Valois index** (Charles VIII · Louis XII · Francis I) · **1494 hinge** cross-ref [Entropy (Rome)](rome-entropy.md#faith-history-entropy-lens) · **Charles V pivot** → [parallel carriers](#sovereignty-chain-empire-lens) (K3) — not campaign roster co-primary |
 | Colonial instrument | 1492 → SYW → [oceanic-colonial row](rome-memory.md#military-spine-western) |
 
 **Boundary (empire · military):** Do not duplicate civic *virtus* — point to [civilization ethic roster](rome-civilization.md#military-history-civilization-lens).
@@ -164,6 +167,8 @@ Institutional sacred carriers — pontificate, patriarchates, caliphal court, cr
 | **Charlemagne (800)** | yes | Sacral-imperial coronation hinge | `pontificate_curia` | faith · western |
 | **Fourth Crusade (1204)** | yes | Constantinople sack — dual encode | `crusade_instrument` | faith · entropy |
 | **Fourth Lateran** | yes | Crusade-era conciliar peak | `pontificate_curia` | faith · western |
+| **Alexander VI (1492–1503)** | yes | Renaissance papal-instrument peak · Italian Wars adjacency · sacred authorization / moral-corruption framing | `pontificate_curia` | faith · western · entropy · **`contested-weight`** |
+| **Cesare Borgia** | yes | Papal curial **condotte / Romagna instrument** · Lucrezia marriage-diplomacy cross-ref · cross-ref [Entropy — Italian Wars](rome-entropy.md#faith-history-entropy-lens) | `pontificate_curia` | faith · empire · entropy |
 | **Council of Trent** | yes | Counter-Reformation institutional response | `pontificate_curia` | faith · western |
 | **Gratian / decretists** | yes | Canon law procedural home | `pontificate_curia` | faith · science |
 | **Inquisition / Index** | yes | Doctrinal enforcement instrument | `inquisition_index` | faith · entropy |
@@ -171,7 +176,7 @@ Institutional sacred carriers — pontificate, patriarchates, caliphal court, cr
 | **Benedictine / Jesuit / Franciscan** | yes | Preservation + mission tail | `monastic_mission` | faith · empire |
 | **Iberian patronato** | yes | Colonial sacred authorization | `monastic_mission` | faith · empire · entropy |
 
-**Campaign-sacred peaks (ordered index):** Constantine/Theodosius synthesis · Charlemagne 800 · Fourth Crusade 1204 · Fourth Lateran · Trent · Iberian patronato.
+**Campaign-sacred peaks (ordered index):** Constantine/Theodosius synthesis · Charlemagne 800 · Fourth Crusade 1204 · Fourth Lateran · **Alexander VI** · Trent · Iberian patronato.
 
 **Boundary (empire · faith):** Do not duplicate civic cult ethic — point to [civilization sacred ethic roster](rome-civilization.md#faith-history-civilization-lens).
 
@@ -197,6 +202,9 @@ Institutional procedural carriers — codification commissions, translation bure
 |---------------------|-------------|-------------------|--------------|---------------|
 | **Justinian commission** | yes | *Corpus Juris Civilis* 529 | `juridical_codification` | science · empire |
 | **Vitruvius · Frontinus** | yes | Engineering procedure | `imperial_engineering` | science · empire |
+| **Medici court index** | yes | Institutional patronage precursor — pre-Lincei observation grammar; cross-ref [civilization Medici ethic](rome-civilization.md#faith-history-civilization-lens) | `observatory_instrument` | science · western · empire |
+| **Cosimo de' Medici** | yes | Founding court patron — Platonic Academy adjacency (sub-row under Medici court) | `observatory_instrument` | science · western |
+| **Lorenzo il Magnifico** | yes | Peak humanist patronage instrument (sub-row under Medici court) | `observatory_instrument` | science · western |
 | **House of Wisdom cross-ref** | yes | Arabic Greek translation | `translation_bureau` | science · eastern |
 | **Accademia dei Lincei** | yes | First observational academy 1603 | `observatory_instrument` | science · western |
 | **Academy of Sciences (1666)** | yes | French institutional Enlightenment | `observatory_instrument` | science · western |
@@ -204,6 +212,7 @@ Institutional procedural carriers — codification commissions, translation bure
 | **Jesuit mission instrument** | yes | Colonial observation / transmission | `observatory_instrument` | science · empire · **`contested-weight`** |
 | **Iberian patronato export** | yes | Colonial codification tail | `colonial_procedural_export` | science · colonial · **`contested-weight`** |
 | **Univ. Bologna · Padua · Naples · Siena** | yes | Medical / anatomy institutions | `translation_bureau` | science · western |
+| **Rosetta Stone / Champollion** | yes | Colonial evidentiary export — 1799 discovery · 1822 decipherment; cross-ref [memory S8](rome-memory.md#science-spine-western) | `colonial_procedural_export` | science · colonial · **`contested-weight`** |
 
 **Boundary (empire · science):** Do not duplicate civic procedural ethic — point to [civilization science roster](rome-civilization.md#science-history-civilization-lens).
 
@@ -241,6 +250,9 @@ Fall and fracture of imperial carry — [Entropy (Rome)](rome-entropy.md).
 
 - [Empire Rome](essays/empire-rome.md)
 - [Geo-strategy Rome](essays/geo-strategy-rome.md)
+- [Memory (Rome)](rome-memory.md) — five spines SSOT
+- History essays: [Dual language heritage](essays/dual-language-heritage-rome.md) · [Military history](essays/military-history-rome.md) · [Faith history](essays/faith-history-rome.md) · [Science history](essays/science-history-rome.md)
+- Spine cross-reads: [Chain](rome-memory.md#chain-spine) · [Language](rome-memory.md#language-spine) · [Military](rome-memory.md#military-spine) · [Faith](rome-memory.md#faith-spine) · [Science](rome-memory.md#science-spine)
 
 ## Return paths
 

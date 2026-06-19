@@ -4,9 +4,23 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.31** — Rome civ/empire polish: Medici/Michelangelo split rosters · Borgia institutional rows · Italian Wars/Sack 1527 entropy · Savonarola · French kings · Civ↔Empire↔Entropy delineation · Boethius/Frontinus ethic rows · Rosetta/Champollion empire roster.
+
 **v0.1.30** — Rome science history: `#science-spine`, split institutional/procedural-ethic rosters, six term science segments; Italy ║ France western branches; Faith/Entropy/Language choreography tables.
 
 **v0.1.29** — Rome faith history: `#faith-spine`, split institutional/sacred-ethic rosters, six term faith segments; eastern sacred trilogy (Judaism · Eastern Christianity · Islam).
+
+### v0.1.31 — Rome civ/empire polish + Italian Wars bundle
+
+| Change | Detail |
+|--------|--------|
+| `rome-civilization.md` | Medici court ethic (Cosimo · Lorenzo) · Savonarola · Michelangelo faith/science split · Boethius/Frontinus named rows · bridge expansion · Last updated 2026-06-19 |
+| `rome-empire.md` | Borgia rows (Alexander VI · Cesare) · Italian Wars military term node · Medici science precursor · Rosetta/Champollion · dual-language figure-index pointers |
+| `rome-entropy.md` | Italian Wars + Sack 1527 rows · Borgia–Medici rivalry · 1494/Florence theocracy · French kings comparative |
+| `rome-faith.md` | Michelangelo + Alexander VI cross-refs |
+| `rome-memory.md` | Italy branch Medici cross-ref |
+| `essays/civilization-rome.md` · `essays/empire-rome.md` | Five-spine Return Path · term-lens cross-links · Civ↔Empire↔Entropy delineation table |
+| Doctrine | Blocks A–K: peninsula Italian Wars encode cap; empire overreach ≠ entropy |
 
 **v0.1.28** — Rome military history: `#military-spine`, split rosters, six term military segments; Eastern Roman Empire terminology alignment.
 

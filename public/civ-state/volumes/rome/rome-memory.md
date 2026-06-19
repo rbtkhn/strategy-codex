@@ -380,7 +380,7 @@ When **which procedural/evidentiary order carries Roman science grammar** govern
 | Boethius | Logic / scholastic bridge | Latin Greek logic | science · western | `historical-grounded` · `operator-synthesis-chain` |
 | Scholastic procedure | Aquinas cross-ref | faith sacred synthesis separate (K2) | science · western · faith | cross-ref only |
 | Renaissance humanism | Evidentiary content recovery | Greek text return | science · western · language | `historical-grounded` · language medium cross-ref |
-| **Italy branch index** | Observation / anatomy residue | see sub-rows below | science · western | `operator-italy-branch-science` |
+| **Italy branch index** | Observation / anatomy residue | see sub-rows below · **Medici court cross-ref** [Empire — science roster](rome-empire.md#science-history-empire-lens) (F3) | science · western | `operator-italy-branch-science` |
 | Galileo | Natural-philosophy rupture | observation · heliocentrism | science · western | `historical-grounded` · Padua cross-ref · trial → faith/entropy |
 | da Vinci | Engineering / observation | notebooks | science · western | `historical-grounded` |
 | Torricelli · Vesalius · Cassini | Named stack | barometer · anatomy · astronomy | science · western | `historical-grounded` · Vesalius ← Bologna |

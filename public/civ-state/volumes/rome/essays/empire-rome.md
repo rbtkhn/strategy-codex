@@ -20,12 +20,22 @@ Read Rome here as the classical empire of incorporation, law, frontier maintenan
 
 This chapter does not flatten Rome into glorious conquest or late decline melodrama. Empire here means the machinery by which Roman order became world-ordering: force, law, roads, administration, provincial integration, and universal political form.
 
+**Tension pass (v0.1.31):** Colonial-tail **`contested-weight`** audit — Jesuit mission · Iberian patronato · Rosetta export — Tier **A/B/C** as on [Civilization Rome](civilization-rome.md#limits-of-the-frame); no mandatory inline retag.
+
 ## Return Path
 
 - Return to [Volume III — Rome](../README.md) for the full volume spine.
 - Return to [Civilization Rome](civilization-rome.md) for the inner logic of law, universality, and transformed continuity.
+- Five spines: [Chain](../rome-memory.md#chain-spine) · [Language](../rome-memory.md#language-spine) · [Military](../rome-memory.md#military-spine) · [Faith](../rome-memory.md#faith-spine) · [Science](../rome-memory.md#science-spine).
+- Four history essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](military-history-rome.md) · [Faith history](faith-history-rome.md) · [Science history](science-history-rome.md).
+- Term lenses: [Empire](../rome-empire.md) · [Civilization](../rome-civilization.md) · [Faith](../rome-faith.md) · [Science](../rome-science.md) · [Memory](../rome-memory.md) · [Entropy](../rome-entropy.md).
+- Parallel dimension cross-reads: [#military-history-empire-lens](../rome-empire.md#military-history-empire-lens) · [#faith-history-empire-lens](../rome-empire.md#faith-history-empire-lens) · [#science-history-empire-lens](../rome-empire.md#science-history-empire-lens) · [#dual-language-heritage-empire-lens](../rome-empire.md#dual-language-heritage-empire-lens).
 - Return to Rome source corpus for deeper source-memory surfaces.
 - Return to the [statecraft root](../README.md) when the Rome case is being used comparatively rather than lane-locally.
+
+## Delineation — Civilization ↔ Empire ↔ Entropy
+
+Same seven-node choreography as [Civilization Rome — Delineation](civilization-rome.md#delineation--civilization--empire--entropy). **Empire overreach ≠ entropy.** Italian Wars military term node: [Empire — military lens](../rome-empire.md#military-history-empire-lens). Sack 1527 rupture-primary: [Entropy — faith lens](../rome-entropy.md#faith-history-entropy-lens).
 
 ## Core Thesis
 

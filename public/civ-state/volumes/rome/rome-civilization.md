@@ -3,7 +3,7 @@
 Volume-local lens — **Rome**, Volume III.
 
 Status: Active doctrine (Roman law mirror)  
-Last updated: 2026-06-18
+Last updated: 2026-06-19
 
 ## Sovereignty chain — civilization lens {#sovereignty-chain-civilization-lens}
 
@@ -130,7 +130,7 @@ Civic-military ethic — *virtus*, triumph, citizenship-as-service. **Not** camp
 
 **Boundary (civilization · military):** Ethic roster ≠ command chronicle — cross-read [empire military roster](rome-empire.md#military-history-empire-lens).
 
-**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Military history (essay)](essays/military-history-rome.md)
+**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Science — civilization lens](#science-history-civilization-lens) · [Military history (essay)](essays/military-history-rome.md)
 
 ## Faith history — civilization lens {#faith-history-civilization-lens}
 
@@ -151,6 +151,11 @@ Civic-sacred ethic — public cult, priesthoods, liturgical calendar, citizenshi
 | **Philo** | yes | Hellenistic-Jewish synthesis — **`operator-synthesis-chain`** opener | civilization · faith · science |
 | **Augustine** | yes | Latin patristic synthesis — **`operator-synthesis-chain`** | civilization · faith · memory |
 | **Aquinas** | yes | Scholastic faith-reason synthesis — **`operator-synthesis-chain`** | civilization · faith · science |
+| **Medici court index** | yes | Civic-patronage ethic — classical retrieval under Florence partial-inheritance; exile/restoration (1494–1512) cross-ref · rivalry vs papal Borgia instrument (I2) | civilization · faith · empire |
+| **Cosimo de' Medici** | yes | Founding patron — humanist retrieval ethic (sub-row under Medici court) | civilization · faith |
+| **Lorenzo il Magnifico** | yes | Peak humanist patronage — Platonic Academy adjacency (sub-row under Medici court) | civilization · faith |
+| **Savonarola** | yes | Florence theocracy interval (1494–1498) · bonfire-of-vanities · prophetic civic-sacred shock — **partial-inheritance rupture-adjacent** · **`contested-weight`** | civilization · faith · entropy |
+| **Michelangelo** | yes | Sacral-classical art ethic — Sistine / monumental grammar; papal commission cross-ref [Faith (Rome)](rome-faith.md#faith-history-faith-lens) | civilization · faith · empire |
 
 **Analyst chain (roster-indexed):** Philo → Augustine → Aquinas — spine-tagged on Christianization cluster; Avicenna/Averroes on [Science faith lens](rome-science.md#faith-history-science-lens) (E6).
 
@@ -171,7 +176,10 @@ Public works ethic, humanist recovery, artisan-observer procedural grammar. **No
 | **Lucretius** | yes | Latin natural philosophy | civilization · science · faith |
 | **Galen** | yes | Medical formation ethic | civilization · science |
 | **Renaissance humanism** | yes | Evidentiary Greek recovery | civilization · science · language |
+| **Boethius** | yes | Latin bridge — Greek logic to medieval West; **`operator-synthesis-chain`** | civilization · science · memory |
+| **Frontinus** | yes | Public works / stratagem ethic — *De Aquis* procedural home; military *Strategemata* cross-ref [Empire — military roster](rome-empire.md#military-history-empire-lens) | civilization · science · empire |
 | **Galileo · da Vinci · Torricelli · Vesalius · Cassini** | yes | Italy branch observation stack | civilization · science |
+| **Michelangelo** | cross-ref | Anatomy / classical form recovery beside da Vinci — **not** `#science-spine` co-primary (F2) | civilization · science · faith |
 | **Descartes · Pascal · Lavoisier** | yes | France branch rationalist stack | civilization · science |
 
 **Analyst chain (roster-indexed):** Euclid → Archimedes → Ptolemy · Vitruvius → Frontinus · Avicenna → Averroes → Boethius → Galileo → Descartes → Lavoisier — **`operator-synthesis-chain`** (E5).
@@ -216,6 +224,9 @@ Legal continuity across East/West split — see [Memory (Rome)](rome-memory.md).
 
 - [Civilization Rome](essays/civilization-rome.md)
 - [Faith (Rome)](rome-faith.md) — legitimating image
+- [Memory (Rome)](rome-memory.md) — five spines SSOT
+- History essays: [Dual language heritage](essays/dual-language-heritage-rome.md) · [Military history](essays/military-history-rome.md) · [Faith history](essays/faith-history-rome.md) · [Science history](essays/science-history-rome.md)
+- Spine cross-reads: [Chain](rome-memory.md#chain-spine) · [Language](rome-memory.md#language-spine) · [Military](rome-memory.md#military-spine) · [Faith](rome-memory.md#faith-spine) · [Science](rome-memory.md#science-spine)
 - [Cross-cutting objects — Roman law](../../theory/README.md#cross-cutting-objects)
 
 ## Return paths

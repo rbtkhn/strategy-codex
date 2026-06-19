@@ -2203,3 +2203,44 @@ faith trial and entropy censorship cross-ref, not duplicate, on hot nodes (Galil
 ```
 
 Routing: civ-state **v0.1.30** · [science spine](../public/civ-state/volumes/rome/rome-memory.md#science-spine).
+
+---
+
+## RLJ — Rome civ/empire polish v0.1.31 (2026-06-19)
+
+**Tag:** `operator-civ-empire-polish-v0.1.31` · `operator-phase-1-civ-empire-closed-2026-06-19`
+
+### What shipped
+
+- **Civ/empire polish (Blocks A–E):** Last updated 2026-06-19 · bridge expansion (four history essays + five spines) · Boethius/Frontinus civilization science rows · Rosetta/Champollion empire science roster · military→science cross-read on civilization · dual-language figure-index on empire.
+- **Peninsula bundle (Blocks F–K):** Medici/Michelangelo split (civ ethic · empire science precursor · faith cross-ref) · Borgia institutional rows · Italian Wars military term node · entropy Italian Wars + Sack 1527 · Savonarola · 1494/Florence theocracy · French kings · Charles V pivot cross-ref.
+- **Essays:** Return Path (five spines + four history essays) · term-lens cross-links · **Civ↔Empire↔Entropy** seven-node delineation on `civilization-rome.md`.
+- **Tension pass:** Colonial-tail `contested-weight` documented in essay Limits — no inline retag.
+
+### Structural changes
+
+- `rome-civilization.md` · `rome-empire.md` — ethic/institutional roster expansion + bridges
+- `rome-entropy.md` — Italian Wars / Sack 1527 faith + science entropy rows
+- `rome-faith.md` · `rome-memory.md` — cross-refs
+- `essays/civilization-rome.md` · `essays/empire-rome.md` — Return Path + delineation
+- `public/civ-state/docs/VERSION` — **v0.1.31**
+
+### Guardrail
+
+```text
+Empire overreach ≠ entropy;
+Borgia on Italian Wars entropy row only — Sack stays Medici/Michelangelo-primary;
+French Valois = successor_instrument footnote — not chain head;
+Savonarola = civilization faith ethic — not papal empire instrument.
+```
+
+### Current lesson
+
+```text
+Civilization owns inheritance ethic (Medici patronage · Savonarola shock · Michelangelo monument grammar);
+empire owns institutional carriers (Borgia curia · Italian Wars term node · Medici court precursor);
+entropy owns comparative peninsula strain and Sack rupture-primary —
+encode once per lane, cross-ref the rivalry arc (I2) without duplicating sovereign chronicle.
+```
+
+Routing: civ-state **v0.1.31** · [civilization lens](../public/civ-state/volumes/rome/rome-civilization.md) · [empire lens](../public/civ-state/volumes/rome/rome-empire.md) · [entropy lens](../public/civ-state/volumes/rome/rome-entropy.md).

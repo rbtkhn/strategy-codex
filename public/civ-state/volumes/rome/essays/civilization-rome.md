@@ -20,13 +20,35 @@ Read Rome here as a civilization of enduring form whose continuity passes throug
 
 This chapter does not claim that Rome survives unchanged in a simple political sense. It argues that Roman civilization survives through transformed carriers. Do not reduce Rome to ancient imperial nostalgia, nor to church history alone, nor to archaeology detached from living form.
 
+**Tension pass (v0.1.31):** Colonial-tail rows (Jesuit mission instrument · Iberian patronato · Rosetta/Champollion export · Latin-America dispersion) carry mandatory **`contested-weight`** — Tier **A** = mainstream consensus · **B** = civ-state placement · **C** = operator stretch. No inline retag unless audit finds error (Block D).
+
 ## Return Path
 
 - Return to [Volume III — Rome](../README.md) for the full volume spine.
-- Return to [Rome chain spine](../rome-memory.md#chain-spine) for continuity placement and branch lifecycle.
-- Return to [Rome language spine](../rome-memory.md#language-spine) for Greek/Latin medium placement.
-- Return to [rome-faith](../rome-faith.md) · [rome-civilization](../rome-civilization.md) · [rome-memory](../rome-memory.md) for the deeper legitimacy substrate.
+- Five spines: [Chain](../rome-memory.md#chain-spine) · [Language](../rome-memory.md#language-spine) · [Military](../rome-memory.md#military-spine) · [Faith](../rome-memory.md#faith-spine) · [Science](../rome-memory.md#science-spine).
+- Four history essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](military-history-rome.md) · [Faith history](faith-history-rome.md) · [Science history](science-history-rome.md).
+- Term lenses: [Civilization](../rome-civilization.md) · [Empire](../rome-empire.md) · [Faith](../rome-faith.md) · [Science](../rome-science.md) · [Memory](../rome-memory.md) · [Entropy](../rome-entropy.md).
+- Parallel dimension cross-reads: [#military-history-civilization-lens](../rome-civilization.md#military-history-civilization-lens) · [#faith-history-civilization-lens](../rome-civilization.md#faith-history-civilization-lens) · [#science-history-civilization-lens](../rome-civilization.md#science-history-civilization-lens) · [#dual-language-heritage-civilization-lens](../rome-civilization.md#dual-language-heritage-civilization-lens).
+- Return to [Empire Rome](empire-rome.md) when outward instrument governs.
 - Return to the [statecraft root](../README.md) when the Rome case is being used comparatively rather than lane-locally.
+
+## Delineation — Civilization ↔ Empire ↔ Entropy
+
+**Reading rule:** Inheritance question → `#rome-civilization` first. Instrument/reach question → `#rome-empire` first. Shock/degradation question → `#rome-entropy` first. **Empire overreach ≠ entropy** — amplification without shock stays civ + empire.
+
+| # | Friction node | Civilization owns | Empire owns | Entropy owns | Cross-ref law |
+|---|---------------|-------------------|-------------|--------------|---------------|
+| 1 | Republic → principate | Opener grammar · civic inheritance | Caesar/Augustus **hinges** | — | Civ + empire; not entropy-primary |
+| 2 | **476** | Hispania/Gaul **partial-inheritance seeds** | Western emperors **end** | **Rupture primary** | Entropy primary · civ/empire cross-ref |
+| 3 | **1204 / 1453** | Peninsula **retrieval** partial-inheritance | Military **primary/cross-ref** | **Rupture primary** | Tri-spine elsewhere for military/faith/science |
+| 4 | **Empire overreach** | Inheritance **thins** | Machinery **expands** | — (**not** entropy) | Read empire + civilization rhythm |
+| 5 | **Reformation / 1789** | Grammar as **rhetoric** may persist | Branch **instruments fracture** | **Sacred/political rupture primary** | Faith co-primary on faith segments |
+| 6 | **Colonial tail** | Latin-America **partial inheritance** | Iberian **instrument** | **Decolonization wind-down** | Shared `contested-weight` with science tail |
+| 7 | **Italian Wars / Sack 1527** | Medici ethic · **Savonarola** · **exile/restoration** · Borgia–Medici rivalry | Medici + Borgia instrument · Naples · French kings index · Charles V pivot | **1494/Charles VIII hinge** · **Florence theocracy** · Wars comparative · **Sack rupture-primary** | Medici/Michelangelo on Sack · Borgia + rivalry on Italian Wars entropy note |
+
+**Term-file law:** Do not duplicate full sovereignty chronicle on civilization · do not duplicate ethic rosters on empire · do not assign rupture-primary rows to civilization/empire for node 7.
+
+See also [Empire Rome — delineation](empire-rome.md#delineation--civilization--empire--entropy) · [Entropy (Rome)](../rome-entropy.md).
 
 ## Core Thesis
 
