@@ -2244,3 +2244,73 @@ encode once per lane, cross-ref the rivalry arc (I2) without duplicating soverei
 ```
 
 Routing: civ-state **v0.1.31** · [civilization lens](../public/civ-state/volumes/rome/rome-civilization.md) · [empire lens](../public/civ-state/volumes/rome/rome-empire.md) · [entropy lens](../public/civ-state/volumes/rome/rome-entropy.md).
+
+---
+
+## 2026-06-19 - Rome six-term routing, hexagonal scaffold, recursive-learn rename
+
+**Tag:** `operator-connectivity-hexagonal-prep-2026-06-19` · `operator-recursive-learn-rename-2026-06-19`  
+**Cross-link:** [Rome civ/empire polish v0.1.31](#rlj--rome-civempire-polish-v031-2026-06-19) — encode law there; this entry owns **routing surface + next-session scaffold**.
+
+### Trigger
+
+1. After **v0.1.31** ship, operator asked for **six-term connectivity/membrane** read — parallel `Read` on Rome volume hung on Windows harness (~6 min interrupts).
+2. **Connectivity map** drafted in volume README, then **moved to dedicated essay** (`connectivity-rome.md`) to keep README short.
+3. Operator queued **hexagonal demonstrator essays** (one node × six lenses); **prep bundle** shipped before handoff: template, registry, essay-type law, Bridge pointers on all six term files.
+4. Skill slug renamed **`recursive-learning` → `recursive-learn`** (v0.2.2) to match operator activation phrase.
+
+### Extracted law
+
+**Three-tier Rome essay membrane** — do not conflate:
+
+| Tier | Job | Must not |
+|------|-----|----------|
+| **Constitutional** | civilization-rome · empire-rome | Replace term SSOT |
+| **History sub-lenses** | one parallel dimension, essay depth | Own rupture-primary or full six-lens read |
+| **Hexagonal demonstrators** | one friction node × six term lenses | Duplicate rosters; re-encode term files |
+
+**Routing SSOT sequence:** `connectivity-rome` (operator map) → `_template-hexagonal-rome` (copy scaffold) → `essays/README` registry (wave checklist) → essay bodies. Term files **Bridge back** to connectivity + registry so any lens is a valid entry point.
+
+**Prep-before-encode:** Multi-essay waves need **template + empty registry + essay-type prose + term Bridge links** *before* the writing session — otherwise each agent reinvents shape and misroutes into constitutional/history essays.
+
+**Harness (Windows):** Rome volume → **sequential bounded Read**, one file at a time; handoff includes `fast tools`. No parallel six-file Read batch.
+
+**Skill naming:** Activation phrase **`recursive-learn`** = skill slug; journal artifact stays **`recursive-learning-journal.md`** (different layer).
+
+### Reapplication
+
+- **Wave 1 demonstrators:** 1453 · Italian Wars · Justinian — copy template, fill six-lens table, link `#*-history-*-lens` only, registry `planned` → `active`.
+- **Next fractured-sovereignty volume** with six `{civ}-{term}.md` files: connectivity essay + hexagonal template before demonstrator encode.
+- **Agent handoffs:** `@connectivity-rome` + `@_template-hexagonal-rome` + `fast tools` + wave-1 slug list from README registry.
+
+### Structural changes
+
+| Ship | Path / commit |
+|------|----------------|
+| Connectivity essay | `essays/connectivity-rome.md` · `4e7a0b1f3` |
+| Hexagonal prep | `_template-hexagonal-rome.md`, README registry, essay-type section, Bridge on six term files · `e9bd85aa2` |
+| Volume pointer | `README.md` one-line → connectivity essay |
+| Skill rename | `.cursor/skills/recursive-learn/`, `skills-portable/recursive-learn/`, manifest, doc links · `5ddef0d64` |
+| RLJ append | this entry |
+
+*(No VERSION bump for connectivity/prep-only — defer to first demonstrator ship or v0.1.32 bundle.)*
+
+### Guardrail
+
+```text
+Hexagonal demonstrators LINK term SSOT — they do not extend rosters or duplicate rupture-primary rows;
+connectivity-rome is routing map, not a seventh term file;
+history essays ≠ hexagonal demonstrators (one dimension vs six lenses);
+parallel Read on Rome volume in one turn → harness stall on Windows;
+recursive-learn skill ≠ recursive-learning-journal.md rename — journal path is stable.
+```
+
+### Current lesson
+
+```text
+After parallel-spine encode ships, make the hexagon operable in prose:
+routing essay + copy template + registry + Bridge pointers first —
+then wave-1 demonstrators prove the membrane without touching term rosters again.
+```
+
+Routing: [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md) · [hexagonal template](../public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md) · civ-state **v0.1.31** (encode) · commits `4e7a0b1f3` · `e9bd85aa2` · `5ddef0d64`.
