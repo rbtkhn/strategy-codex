@@ -654,6 +654,57 @@ def build_json_payload(
     }
 
 
+def generate_report(
+    repo_root: Path,
+    *,
+    out: Path = DEFAULT_OUT,
+    json_out: Path = DEFAULT_JSON,
+    snapshot: bool = False,
+    max_next_actions: int = 5,
+    full_surgeon: bool = False,
+    surgeon_scope: str = "docs",
+    verify_portable: bool = False,
+    war_room_latest_days: int = 7,
+    war_room_max_objects: int = 12,
+    include_git: bool = True,
+    include_gate: bool = False,
+) -> tuple[int, dict[str, Any]]:
+    """Build and write Operator Command Deck report; return (exit_code, json_payload)."""
+    out_path = out if out.is_absolute() else (repo_root / out).resolve()
+    json_path = json_out if json_out.is_absolute() else (repo_root / json_out).resolve()
+
+    try:
+        ctx = build_deck_context(
+            repo_root,
+            full_surgeon=full_surgeon,
+            surgeon_scope=surgeon_scope,
+            verify_portable=verify_portable,
+            war_room_latest_days=war_room_latest_days,
+            war_room_max_objects=war_room_max_objects,
+            include_git=include_git,
+            include_gate=include_gate,
+        )
+    except Exception as exc:
+        print(str(exc), file=sys.stderr)
+        return 2, {}
+
+    actions = rank_next_actions(ctx, max_actions=max_next_actions)
+    generated_at = utc_now_iso()
+    md = build_markdown(ctx, actions, generated_at=generated_at)
+    payload = build_json_payload(ctx, actions, generated_at=generated_at)
+
+    write_report(out_path, md, snapshot=snapshot)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+    print(f"wrote {out_path}")
+    print(f"wrote {json_path}")
+    print(
+        f"actions: {len(actions)} surgeon: {ctx.surgeon_status} war_room: {ctx.war_room.sync_status}"
+    )
+    return 0, payload
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
@@ -673,41 +724,21 @@ def main() -> int:
     parser.add_argument("--include-gate", action="store_true")
     args = parser.parse_args()
 
-    out = args.out if args.out.is_absolute() else (REPO_ROOT / args.out).resolve()
-    json_out = (
-        args.json_out if args.json_out.is_absolute() else (REPO_ROOT / args.json_out).resolve()
+    code, _payload = generate_report(
+        REPO_ROOT,
+        out=args.out,
+        json_out=args.json_out,
+        snapshot=args.snapshot,
+        max_next_actions=args.max_next_actions,
+        full_surgeon=args.full_surgeon,
+        surgeon_scope=args.surgeon_scope,
+        verify_portable=args.verify_portable_skills,
+        war_room_latest_days=args.war_room_latest_days,
+        war_room_max_objects=args.war_room_max_objects,
+        include_git=not args.no_git,
+        include_gate=args.include_gate,
     )
-
-    try:
-        ctx = build_deck_context(
-            REPO_ROOT,
-            full_surgeon=args.full_surgeon,
-            surgeon_scope=args.surgeon_scope,
-            verify_portable=args.verify_portable_skills,
-            war_room_latest_days=args.war_room_latest_days,
-            war_room_max_objects=args.war_room_max_objects,
-            include_git=not args.no_git,
-            include_gate=args.include_gate,
-        )
-    except Exception as exc:
-        print(str(exc), file=sys.stderr)
-        return 2
-
-    actions = rank_next_actions(ctx, max_actions=args.max_next_actions)
-    generated_at = utc_now_iso()
-    md = build_markdown(ctx, actions, generated_at=generated_at)
-    payload = build_json_payload(ctx, actions, generated_at=generated_at)
-
-    write_report(out, md, snapshot=args.snapshot)
-    json_out.parent.mkdir(parents=True, exist_ok=True)
-    json_out.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-
-    print(f"wrote {out}")
-    print(f"wrote {json_out}")
-    print(
-        f"actions: {len(actions)} surgeon: {ctx.surgeon_status} war_room: {ctx.war_room.sync_status}"
-    )
-    return 0
+    return code
 
 
 if __name__ == "__main__":

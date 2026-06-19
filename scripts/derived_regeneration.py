@@ -179,6 +179,28 @@ TARGETS: tuple[RebuildTarget, ...] = (
         ),
     ),
     RebuildTarget(
+        target_id="operator-dashboard",
+        description="Umbrella index stitching Repo Surgeon, War Room, and Command Deck outputs",
+        producer_script="scripts/operator_dashboard.py",
+        policy_mode="Rebuild",
+        rationale="One-shot full regen of the three aggregators plus a stitched operator cockpit index without replacing individual bucket producers.",
+        watch_patterns=(
+            "runtime/artifacts/repo-surgeon/latest.json",
+            "runtime/artifacts/statecraft-war-room/latest.json",
+            "runtime/artifacts/operator-command-deck/latest.json",
+            "scripts/operator_dashboard.py",
+            "runtime/artifacts/operator-dashboard/README.md",
+        ),
+        command_templates=(
+            ("python3", "scripts/operator_dashboard.py"),
+        ),
+        outputs=(
+            "runtime/artifacts/operator-dashboard/latest.md",
+            "runtime/artifacts/operator-dashboard/latest.json",
+        ),
+        depends_on=("repo-surgeon", "statecraft-war-room", "operator-command-deck"),
+    ),
+    RebuildTarget(
         target_id="library-index",
         description="SELF-LIBRARY-derived operator dashboard",
         producer_script="scripts/build_library_index.py",

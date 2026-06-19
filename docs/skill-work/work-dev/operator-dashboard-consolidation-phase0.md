@@ -20,7 +20,7 @@ Three thin **runtime / derived** surfaces answer:
 | What strategic objects are live? | **Statecraft War Room** | 2 |
 | What should I do next? | **Operator Command Deck** | 3 |
 
-Optional Phase 4: **`operator_dashboard.py --all`** umbrella → `runtime/artifacts/operator-dashboard/latest.md`.
+Optional Phase 4: **`operator_dashboard.py`** umbrella → `runtime/artifacts/operator-dashboard/latest.md`.
 
 ---
 
@@ -103,7 +103,7 @@ Follow the **statecraft-intake-queue bucket pattern**: committed README + `.gitk
 | `runtime/artifacts/<bucket>/latest.*` | Gitignore |
 | `runtime/artifacts/<bucket>/20*.md` (dated snapshots) | Gitignore |
 
-Buckets: `repo-surgeon/`, `statecraft-war-room/`, `operator-command-deck/` (Phase 4: `operator-dashboard/`).
+Buckets: `repo-surgeon/`, `statecraft-war-room/`, `operator-command-deck/`, `operator-dashboard/`.
 
 **Rationale:** Rebuildable local snapshots per [runtime/artifacts/README.md](../../../runtime/artifacts/README.md) commit-worthiness table. Promote to CI-tracked committed surface (like `library-index.md`) only if the operator explicitly wants PR diff review.
 
@@ -202,7 +202,9 @@ Aggregates Surgeon + War Room; optional git summary; Record-frozen heuristic pri
 
 ### Phase 4 — Umbrella
 
-**Ship:** `scripts/operator_dashboard.py --all` → runs Surgeon → War Room → Deck; optional `operator-dashboard/latest.md`
+**Ship:** `scripts/operator_dashboard.py` → runs Surgeon → War Room → Deck in-process; writes `operator-dashboard/latest.md` + `latest.json`
+
+**Status:** Phase 4 shipped — `scripts/operator_dashboard.py` writes `runtime/artifacts/operator-dashboard/latest.*`.
 
 ---
 
@@ -215,10 +217,13 @@ Registered in [operator-surface-registry.md](../../operator-surface-registry.md)
 | `repo-surgeon` | report | work-dev / operator | advisory | `scripts/repo_surgeon.py` |
 | `statecraft-war-room` | dashboard | statecraft | derived_non_authoritative | `scripts/statecraft_war_room.py` |
 | `operator-command-deck` | dashboard | operator / multi | derived_non_authoritative | `scripts/operator_command_deck.py` |
+| `operator-dashboard` | dashboard | operator / multi | derived_non_authoritative | `scripts/operator_dashboard.py` |
 
 Rebuild commands (when scripts land):
 
 ```bash
+python3 scripts/operator_dashboard.py
+
 python3 scripts/repo_surgeon.py \
   --out runtime/artifacts/repo-surgeon/latest.md \
   --json-out runtime/artifacts/repo-surgeon/latest.json

@@ -118,6 +118,9 @@ artifacts/statecraft-war-room/*
 artifacts/operator-command-deck/*
 !artifacts/operator-command-deck/.gitkeep
 !artifacts/operator-command-deck/README.md
+artifacts/operator-dashboard/*
+!artifacts/operator-dashboard/.gitkeep
+!artifacts/operator-dashboard/README.md
 runtime/artifacts/repo-surgeon/*
 !runtime/artifacts/repo-surgeon/.gitkeep
 !runtime/artifacts/repo-surgeon/README.md
@@ -127,6 +130,9 @@ runtime/artifacts/statecraft-war-room/*
 runtime/artifacts/operator-command-deck/*
 !runtime/artifacts/operator-command-deck/.gitkeep
 !runtime/artifacts/operator-command-deck/README.md
+runtime/artifacts/operator-dashboard/*
+!runtime/artifacts/operator-dashboard/.gitkeep
+!runtime/artifacts/operator-dashboard/README.md
 # Local transcript/intake scratch (rebuildable; see artifacts/README.md commit-worthiness)
 artifacts/intake/*
 !artifacts/intake/.gitkeep

@@ -69,6 +69,19 @@ Suggest when **any** of:
 Fast: `python3 scripts/repo_surgeon.py --scope docs --no-existing-checks`  
 Deep: `python3 scripts/repo_surgeon.py --scope docs --run-existing-checks`
 
+### Full regen (all dashboards — umbrella)
+
+Suggest when **any** of:
+
+- Heavy multi-lane edits before ship hygiene (docs + statecraft + scripts touched)
+- Operator asks to refresh **all** dashboards or open the umbrella index
+- Pre-push cockpit sweep when individual nudges are insufficient
+
+Command: `python3 scripts/operator_dashboard.py`  
+Compose-only (child JSON already fresh): `python3 scripts/operator_dashboard.py --compose-only`
+
+**Not** the default `coffee` nudge — prefer Command Deck alone on work-start.
+
 ### Command Deck flag `--full-surgeon`
 
 Suggest when Surgeon **blocking** findings are likely and operator is doing maintenance, not statecraft reading.
@@ -93,6 +106,7 @@ Suggest when Surgeon **blocking** findings are likely and operator is doing main
 | `run deck` / `command deck` | Run `operator_command_deck.py`; summarize top 3 actions |
 | `run war room` | Run `statecraft_war_room.py`; summarize sync + top objects |
 | `run surgeon` | Run `repo_surgeon.py` with appropriate scope; summarize status + fix order |
+| `run all dashboards` / `full regen` | Run `operator_dashboard.py`; summarize umbrella posture + top actions |
 | `dashboards` | Nudge all three with when-to-use one-liners; run Deck first unless they pick |
 
 ---

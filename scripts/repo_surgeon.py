@@ -408,6 +408,74 @@ def build_json_payload(
     }
 
 
+def generate_report(
+    repo_root: Path,
+    *,
+    out: Path = DEFAULT_OUT,
+    json_out: Path = DEFAULT_JSON,
+    snapshot: bool = False,
+    run_checks: bool = True,
+    scope: str = "docs",
+    max_link_errors: int = 50,
+    verify_portable: bool = False,
+    fail_on_blocking: bool = False,
+) -> tuple[int, dict[str, Any]]:
+    """Build and write Repo Surgeon report; return (exit_code, json_payload)."""
+    out_path = out if out.is_absolute() else (repo_root / out).resolve()
+    json_path = json_out if json_out.is_absolute() else (repo_root / json_out).resolve()
+
+    try:
+        findings, check_outputs = build_findings(
+            repo_root,
+            run_checks=run_checks,
+            scope=scope,
+            verify_portable=verify_portable,
+            max_link_errors=None,
+        )
+    except ValueError as exc:
+        print(str(exc), file=sys.stderr)
+        return 2, {}
+
+    generated_at = utc_now_iso()
+    fix_order = build_fix_order(findings)
+    commands_run: list[str] = []
+    if run_checks:
+        commands_run.append(f"{python_executable()} scripts/assert_root_folder_layout.py")
+        commands_run.append(f"{python_executable()} scripts/check_repo_path_adoption.py")
+        commands_run.append(f"{python_executable()} scripts/validate_skills.py")
+        if verify_portable:
+            commands_run.append(f"{python_executable()} scripts/sync_portable_skills.py --verify")
+    commands_run.append(f"{python_executable()} scripts/repo_surgeon.py --scope {scope}")
+
+    md = build_markdown(
+        findings,
+        fix_order,
+        check_outputs,
+        generated_at=generated_at,
+        scope=scope,
+        commands_run=commands_run,
+        md_link_cap=max_link_errors,
+    )
+    payload = build_json_payload(
+        findings,
+        fix_order,
+        generated_at=generated_at,
+        commands_run=commands_run,
+    )
+
+    write_report(out_path, md, snapshot=snapshot)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+    print(f"wrote {out_path}")
+    print(f"wrote {json_path}")
+    print(f"status: {payload['status']} (blocking={payload['blocking_count']})")
+
+    if fail_on_blocking and payload["blocking_count"] > 0:
+        return 1, payload
+    return 0, payload
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -459,63 +527,18 @@ def main() -> int:
     args = parser.parse_args()
 
     run_checks = args.run_existing_checks and not args.no_existing_checks
-    out = args.out if args.out.is_absolute() else (REPO_ROOT / args.out).resolve()
-    json_out = (
-        args.json_out if args.json_out.is_absolute() else (REPO_ROOT / args.json_out).resolve()
-    )
-
-    try:
-        findings, check_outputs = build_findings(
-            REPO_ROOT,
-            run_checks=run_checks,
-            scope=args.scope,
-            verify_portable=args.verify_portable_skills,
-            max_link_errors=None,
-        )
-    except ValueError as exc:
-        print(str(exc), file=sys.stderr)
-        return 2
-
-    generated_at = utc_now_iso()
-    fix_order = build_fix_order(findings)
-    commands_run: list[str] = []
-    if run_checks:
-        commands_run.append(f"{python_executable()} scripts/assert_root_folder_layout.py")
-        commands_run.append(f"{python_executable()} scripts/check_repo_path_adoption.py")
-        commands_run.append(f"{python_executable()} scripts/validate_skills.py")
-        if args.verify_portable_skills:
-            commands_run.append(f"{python_executable()} scripts/sync_portable_skills.py --verify")
-    commands_run.append(
-        f"{python_executable()} scripts/repo_surgeon.py --scope {args.scope}"
-    )
-
-    md = build_markdown(
-        findings,
-        fix_order,
-        check_outputs,
-        generated_at=generated_at,
+    code, _payload = generate_report(
+        REPO_ROOT,
+        out=args.out,
+        json_out=args.json_out,
+        snapshot=args.snapshot,
+        run_checks=run_checks,
         scope=args.scope,
-        commands_run=commands_run,
-        md_link_cap=args.max_link_errors,
+        max_link_errors=args.max_link_errors,
+        verify_portable=args.verify_portable_skills,
+        fail_on_blocking=args.fail_on_blocking,
     )
-    payload = build_json_payload(
-        findings,
-        fix_order,
-        generated_at=generated_at,
-        commands_run=commands_run,
-    )
-
-    write_report(out, md, snapshot=args.snapshot)
-    json_out.parent.mkdir(parents=True, exist_ok=True)
-    json_out.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-
-    print(f"wrote {out}")
-    print(f"wrote {json_out}")
-    print(f"status: {payload['status']} (blocking={payload['blocking_count']})")
-
-    if args.fail_on_blocking and payload["blocking_count"] > 0:
-        return 1
-    return 0
+    return code
 
 
 if __name__ == "__main__":
