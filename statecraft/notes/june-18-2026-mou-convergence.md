@@ -16,7 +16,7 @@ This note is the **convergence spine** for `2026-06-18`. It does not replace dai
 - [june-18-2026-mou-hormuz-governance-armistice-note.md](./june-18-2026-mou-hormuz-governance-armistice-note.md) — Pape Day 60 Pt. 5 governance fuse (~mid-Aug)
 - [june-18-2026-mou-dahhiya-backfire-mou-terms-note.md](./june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) — Crooke Dahhiya provocation → Trump improved MOU terms (tier 4 until wire)
 
-**Parent context:** eleven sources in `source-archive/statecraft/2026-06-18/`; [2026-06-18 daily](../daily/2026-06-18.md) published; **Crooke hubris** + **Aguilar Moral Resistance** patch 2026-06-19; **Aguilar wire-verify** 2026-06-19 (`verify:` on capture).
+**Parent context:** twelve sources in `source-archive/statecraft/2026-06-18/`; [2026-06-18 daily](../daily/2026-06-18.md) published; **Crooke hubris** + **Aguilar Moral Resistance** + **Krainer Dialogue Works** patch 2026-06-19; **`verify:`** on MOU-core captures including Krainer.
 
 ## Core claim
 
@@ -37,6 +37,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | **Mercouris** (adjunct) | Trap / sequencing | Minsk-2015-style trap warning; 14-point Iranian win read; Moscow counsel to Tehran — **skeptical of US good faith** |
 | **Crooke** (overlay) | Civilizational / hubris | Regime-change **dogma collapse**; Trump **crossed Rubicon** with Iran (Citrinowicz); **Dahhiya backfire** → Trump improved MOU terms; Israeli **MI blind spot** (Barnea); **total victory illusions** dead (Berman); Netanyahu standing **plunged**; Trump–Israel **divergence documented**; US polity age split + WSJ Middle America; Hormuz/Bab el Mandeb hedge if unravel |
 | **Aguilar** (overlay) | Legislative-action / ops officer | MOU **pause not destroyed**; Iran **no Switzerland until Lebanon stops**; Vance **too little too late** unless **§224 NDAA** + **§622 IAA** blocked; **Huckabee vs Vance** ambassador split; US–Israel **coupled negotiation track**; constraint spectrum to **US action vs Israel**; facade/Kabuki + **Iran patience threshold**; Khamenei yields foreign policy to Pezeshkian |
+| **Krainer** (overlay) | Geopolitical-financial / capitulation | MOU = **path not deal**; US/Israel **capitulation** read (strongest victory grammar in batch); **midnight ET** oil/gas/petrochemical sanctions lift; $24B/$300B fund frames; Trump **SPR four-week** motive; **al-Mayadeen** Navy cmdr quote (partial); virtual **Versailles/Tehran** sign; **§224/622** Congress bind vs Trump climb-down; **Lebanon Pt.1 survival** seam; 60-day **trap suspicion**; Russia/China mediation — UK grooming/Ukraine drones **peripheral** |
 
 **Peripheral same-day:** Diesen/Krapivnik (Ukraine focus; MOU US drawdown mentioned in passing) — not load-bearing for this convergence object.
 
@@ -51,6 +52,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | **Mechanism** | Israel tests MOU via Lebanon; Iran may enforce in Lebanon per text (Johnson Lebanon ep; Henningsen) |
 | **US response** | Vance/Trump words vs continued Israel support (all registers skeptical of real break) |
 | **Aguilar overlay** | Iran **starting-line** test — no shoes, no marathon; MOU **on hold** not void; US must **constrain ally** or America-first/Iran-first fork |
+| **Krainer overlay** | Agreement **survival** = what **Netanyahu does in Lebanon** (Pt.1); Trump **pressure** on withdraw — Israeli agenda **hysterical** post-deal (tier 4 tone) |
 | **Crooke overlay** | Netanyahu **Dahhiya** (Sunday) to sever MOU–Lebanon link → **backfire** — Trump **improved MOU terms for Iran** (tier 4 until wire on terms delta) |
 
 **Quad read:** Lebanon is where the MOU **lives or dies** — not Geneva rhetoric alone.
@@ -67,6 +69,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | **Macgregor** | Parallel: Trump **Beirut apartment** break |
 | **Henningsen** | Symptom of **tail-wags-dog** limits when US public/economy breaks |
 | **Aguilar** | **Action test** — words without blocking **§224/§622** = propaganda; Netanyahu **not** exempt; **Musk “Valid points”** (tier 4) |
+| **Krainer** | **Congress vs Trump** — VP/White House **climbs down** (sanctions lift, blockade end) while **§224/622** still advance; **legislative bind** same falsifier #10 as Aguilar |
 
 **Convergence:** Washington **publicly disciplines Israeli cabinet noise** while avoiding direct Netanyahu war.  
 **Divergence:** Blumenthal = ideological crack; Martyanov/Johnson = power under constraint; **Aguilar = legislative bind** — only register naming **NDAA/IAA codification** as dispositive test of break.
@@ -146,6 +149,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | **Martyanov** | `source-archive/statecraft/2026-06-11/source-alkorshid-andrei-martyanov-us-strikes-iran-iran-hits-back-critical-targets-2026-06-11.md` | MOU text triage, SPR four-week, GAO F-35, two-week re-war ceiling, Channel 14 |
 | **Henningsen** | `source-archive/statecraft/2026-06-16/source-alkorshid-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md` | J18 Lascaris Lebanon desk + legal/process sabotage depth |
 | **Aguilar** | `source-archive/statecraft/2026-06-12/source-moral-resistance-anthony-aguilar-there-will-be-no-deal-with-iran-2026-06-12.md` | J18 **§224/§622** action test; Huckabee split; Switzerland pause; coupled-track enforcement |
+| **Krainer** | `source-archive/statecraft/2026-06-11/source-alkorshid-alex-krainer-us-strikes-iran-retaliates-kuwait-bahrain-jordan-2026-06-11.md` | J18 **capitulation register**; sanctions lift timing; al-Mayadeen quote; **§224/622** + Lebanon survival; 60-day suspicion |
 
 ## Best use
 
@@ -163,6 +167,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | Dahhiya backfire + MOU terms delta | **Crooke** (tier 4) + wire pass |
 | Hubris / Trump–Israel divergence (full register) | **Crooke** J18 · [Dahhiya note](./june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) for provocation seam only |
 | Vance words vs NDAA/IAA action; Huckabee split | **Aguilar** Moral Resistance J18 |
+| Capitulation register; midnight sanctions lift; §224/622 bind | **Krainer** Dialogue Works J18 |
 | Coupled US–Israel track / constraint spectrum | **Aguilar** + **Johnson** Lebanon ep |
 
 ## Source anchors
@@ -181,6 +186,7 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | Diesen/Krapivnik | `source-glenn-diesen-stanislav-krapivnik-russia-offensive-gains-speed-anger-moscow-2026-06-18.md` |
 | Crooke | `source-crooke-israel-picking-up-pieces-deep-seated-hubris-2026-06-18.md` |
 | Aguilar | `source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md` |
+| Krainer | `source-alkorshid-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md` |
 
 All paths under `source-archive/statecraft/2026-06-18/`.
 
@@ -223,6 +229,9 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 | **Berman “total victory illusions over”** (Crooke embed) | **Partial** | Times of Israel correspondent attribution in capture; full Berman piece **not wire-primary** in pass |
 | **NDAA §224 / IAA §622 advance while Vance talks tough** (falsifier #10; Aguilar) | **Partial** | **Supported** — H.R.8800 §224 US–Israel Defense Technology Cooperation Initiative ([Quincy](https://quincyinst.org/research/cooperation-without-oversight-the-united-states-israel-defense-technology-cooperation-initiative/) · [Military.com](https://www.military.com/israel-ndaa-provision-section-219-faces-bipartisan-blowback-from-house-lawmakers)); S.4615 §622 SSCI 20 May ([SSCI](https://www.intelligence.senate.gov/2026/05/20/intelligence-authorization-act-for-fiscal-year-2027-as-reported-on-may-20-2026/) · [Military.com](https://www.military.com/section-622-amendment-make-israel-intelligence-sharing-harder-to-reduce)); HASC kept §224 — **not enacted**. **Unclear** — VP/WH move to block either provision. Aguilar Mossad–CIA “permanent bind” = capture characterization (tier 4). Cross-ref [Aguilar Moral Resistance capture](../../source-archive/statecraft/2026-06-18/source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md) |
 | **Huckabee “no America without Israel” vs Vance same-cycle** (Aguilar seam 7) | **Supported** | [JPost 16–17 Jun](https://www.jpost.com/american-politics/article-899637) · [JNS](https://www.jns.org/news/u-s-news/us-envoy-ties-israels-heritage-to-americas-founding) · [MEM 18 Jun](https://www.middleeastmonitor.com/20260618-us-envoy-says-without-israel-there-would-be-no-america/) vs Vance 18 Jun ([AP](https://apnews.com/article/israel-vance-iran-us-trump-1e04959ec2dc43f367412d488b567e02)) |
+| **Midnight ET oil/gas/petrochemical sanctions lift** (Krainer/host) | **Partial** | Treasury/OFAC relief cycle 17–18 Jun in batch wire; exact **midnight ET** stamp not wire-primary; cross-ref [Krainer capture](../../source-archive/statecraft/2026-06-18/source-alkorshid-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md) |
+| **Al Mayadeen ex–Israeli Navy cmdr strike-damage quote** (Krainer read) | **Partial** | Secondary citation on stream; Al Mayadeen 18 Jun Israeli damage reporting **partial** align — exact attribution **not wire-pulled** |
+| **Trump–Netanyahu acrimony / Israeli hysteria** (Krainer) | **Partial** | Axios/WSJ/i24 rift relay **partial**; hysteria tone = guest register (tier 4) |
 
 **Open falsifiers:** **#3 only** (time-gated — standoff fuse running); #1–2, #4–6 **not triggered** at 2026-06-19 wire pass. **#10 watch** — legislative bind **partial** (bills advancing; Vance block unclear); retest floor vote.
 
