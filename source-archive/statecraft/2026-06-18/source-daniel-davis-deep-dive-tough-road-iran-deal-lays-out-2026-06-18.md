@@ -22,7 +22,8 @@ youtube_id: M987L0MkUu4
 source_note: Operator-pasted transcript; Davis solo monologue (Puerto Rico airport); pub_date ingest-day + MOU aftermath seams (Vance frozen-funds perform-first vs MOU text; $200B+ unfrozen dispute; $300B reparations/GCC trust gap; Versailles signing symbology; Hormuz 60-day toll holiday; Trump ballistic-missile reversal; Israel not party to MOU; Netanyahu small-partner frame; Lebanon/Hezbollah derail risk). Cross-ref Jun 18 Johnson/Vance/Marandi cluster.
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
-transcript_wrapper_tier: raw_paste
+transcript_wrapper_tier: clean
+caption_wrapper_normalize_applied: true
 davis_close_promo_trim_applied: true
 editorial_note: Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
 ---

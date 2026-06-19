@@ -27,7 +27,8 @@ youtube_id: DpVf1p9vbLM
 source_note: "Operator-pasted transcript; no spoken self-date — pub_date from ingest day + contextual seams (Konstantinovka >90%, Zaporizhia counteroffensives, Belarus school-bus drone strike, Iran MOU US drawdown, Starlink drone guidance, Kiev escalation mood, EU/Germany war rhetoric, Dutch POW camps). Krapivnik recurring Diesen guest; former US Army officer in Russia. · ASR pass 2026-06-18."
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
-transcript_wrapper_tier: raw_paste
+transcript_wrapper_tier: clean
+caption_wrapper_normalize_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 7 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-18; ph-civ replacement SSOT."

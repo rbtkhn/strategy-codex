@@ -27,7 +27,8 @@ youtube_id: CkCnhwTp5Rw
 source_note: "Operator-pasted transcript; no spoken self-date — pub_date ingest-day + seams (Iran may skip Switzerland signing over Lebanon strikes; JD Vance anti-Netanyahu shift; CENTCOM JOC teardown + aircraft redeploy; Khamenei MOU permission-with-reservations; Netanyahu lobby vs final deal; Hezbollah ceasefire position shift; US Fifth Fleet decommission/Oman relocation per MOU management; Versailles signing irony; oil demining 3–6 month lag). Cross-ref Jun 17 alkorshid Johnson MOU cluster. · ASR pass 2026-06-18."
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
-transcript_wrapper_tier: raw_paste
+transcript_wrapper_tier: clean
+caption_wrapper_normalize_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 19 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-18; ph-civ replacement SSOT."

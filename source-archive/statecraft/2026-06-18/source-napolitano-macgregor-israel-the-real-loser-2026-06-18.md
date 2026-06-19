@@ -27,7 +27,8 @@ youtube_id: 1CJPok38hYA
 source_note: "Operator-pasted transcript; host self-dates Thursday 18 June 2026. Iran–US MOU not peace treaty; Israel as strategic loser; LNG/fertilizer/helium supply-chain shocks; SPR ~2.5–3 weeks left; Trump Beirut-strike criticism + Syria-for-Hezbollah seam; Turkey regional gorilla; Sykes-Picot unwind; Netanyahu Lebanon security-zone hold; Pence self-defense framing; Huckabee US-owes-existence-to-Israel clip; dual-citizen inner-circle seam. · ASR pass 2026-06-18."
 evidence_grade: transcript-bearing
 opening_tier: full-scaffold
-transcript_wrapper_tier: raw_paste
+transcript_wrapper_tier: clean
+caption_wrapper_normalize_applied: true
 napolitano_sponsor_trim_applied: true
 napolitano_leading_noise_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup

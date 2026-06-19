@@ -27,7 +27,8 @@ youtube_id: sEoIzK51T3U
 source_note: "Operator-pasted transcript; host self-dates Thursday 18 Jun 2026. JD Vance presser on MOU/Axios Netanyahu-fuming seam; twothirds defensive-weapons line; Trump distancing from Israel + apartment-building critique; Hillary Clinton anti-BB anecdote; bipartisan pro-Israel backlash; oil-reserve 4-week / demining 6-month lag; hardball 12-hour Lebanon withdrawal advice; Vance 2028 / Barnes read; GCC invest-in-Iran + Saudi quiet-diplomacy seam; Fifth Fleet done; Iran may skip Geneva over Lebanon. Cross-ref same-day alkorshid Johnson Lebanon capture CkCnhwTp5Rw. · ASR pass 2026-06-18."
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
-transcript_wrapper_tier: raw_paste
+transcript_wrapper_tier: clean
+caption_wrapper_normalize_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-18; ph-civ replacement SSOT."
