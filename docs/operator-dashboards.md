@@ -6,7 +6,7 @@ Grace-Mar can emit **compact, regeneratable Markdown â€œdashboardsâ€** 
 
 Prefer **extending** an existing dashboard, **adding a registry entry**, or **adding a report, receipt, packet, or machine feed** before adding a **new** dashboard. Any new operator dashboard must be **registered** in [operator-surface-registry.md](operator-surface-registry.md) with **authority status**, **source inputs**, **operator use**, and **relationship** to existing surfaces (see Â§5â€“7 there). The full policy and preferred alternatives live in that fileâ€”not duplicated here.
 
-**Operator dashboard consolidation (Phase 0):** Three registered aggregator buckets — Repo Surgeon, Statecraft War Room, Operator Command Deck — are aligned in [operator-dashboard-consolidation-phase0.md](skill-work/work-dev/operator-dashboard-consolidation-phase0.md). Producer scripts land in Phases 1â€“3; Phase 0 is registry + policy only.
+**Operator dashboard consolidation (Phases 0–3):** Repo Surgeon, Statecraft War Room, and Operator Command Deck — [operator-dashboard-consolidation-phase0.md](skill-work/work-dev/operator-dashboard-consolidation-phase0.md). **When to use (agent nudge):** [operator-dashboard-when-to-use.md](operator-dashboard-when-to-use.md). **`coffee`** Step 1 includes a mandatory Dashboard nudge — [coffee SKILL](../.cursor/skills/coffee/SKILL.md).
 
 Dashboards are a **stable scripted subclass** of the [Interface Artifact Protocol](skill-work/work-dev/interface-runtime/artifacts/README.md): generated operator-facing views that remain **derived** and **non-canonical** even when they become reliable enough to script and regenerate routinely.
 
@@ -38,6 +38,11 @@ python3 scripts/build_library_index.py
 python3 scripts/build_lane_dashboards.py
 python3 scripts/build_review_dashboard.py
 python3 scripts/build_gate_board.py
+
+# Phase 1–3 aggregators (gitignored latest.* — regenerate locally)
+python3 scripts/operator_command_deck.py --max-next-actions 5
+python3 scripts/statecraft_war_room.py --latest-days 7 --max-objects 12
+python3 scripts/repo_surgeon.py --scope docs
 ```
 
 Use `-u grace-mar` where scripts support it (default user is usually `grace-mar`).

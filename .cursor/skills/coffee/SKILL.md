@@ -2,7 +2,7 @@
 name: coffee
 preferred_activation: coffee
 requires: [handoff-check]
-description: "Strategy-codex operator cadence and tempo. Primary trigger: coffee. Step 2 = hub A-D only (Confirm / Test / Deepen / Reframe), each line naming one specific repo-grounded suggested action (not bare labels). Standalone Conductor (master name or conductor skill) remains separate from the hub list. Before Step 1, Recent rhythm. Signing-off: same A-D action menu; closeout in Step 1. Coffee also acts as the default checkpointed re-entry ritual."
+description: "Strategy-codex operator cadence and tempo. Primary trigger: coffee. Step 2 = hub A-D only (Confirm / Test / Deepen / Reframe), each line naming one specific repo-grounded suggested action (not bare labels). Default attention inferred from hub letter (CONDUCTOR-COMPRESSION-SPEC §4). Legacy master slugs redirect to coffee. Before Step 1, Recent rhythm. Signing-off: same A-D action menu; closeout in Step 1. Coffee also acts as the default checkpointed re-entry ritual."
 ---
 
 # Coffee
@@ -19,7 +19,7 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 
 `coffee` is also the default checkpointed re-entry ritual. In a fresh chat, it should resume from the most recent authoritative checkpoint on disk, using cadence and handoff state to recover orientation. If more than one plausible checkpoint exists, prefer the latest on-disk authority and surface the ambiguity instead of guessing. This is a checkpoint, not a transfer seal: it restores continuity, but it does not commit, push, or generate a bridge packet.
 
-**Coffee Hub Menu (terminology):** **`coffee` Step 2** fixed **A–D** hub (**Confirm / Test / Deepen / Reframe**) is the **Coffee Hub Menu**. Each line is **`Letter. Label — specific suggested action`** grounded in Step 1 (paths, scripts, slices, falsifiers); seeds from `scripts/assess_session_load.py`. **Conductor** is separate and routes directly by conductor name: `toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`. Bare `conductor` is incomplete and should ask for one of those names. Once a conductor name resolves, emit the **Conductor Action Menu**: four movement-labeled **A–D** repo-grounded next moves; see [CONDUCTOR-PASS - Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq). Layer map: [CONDUCTOR-LAYER-MAP.md](../../../docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md).
+**Coffee Hub Menu (terminology):** **`coffee` Step 2** fixed **A–D** hub (**Confirm / Test / Deepen / Reframe**) is the **Coffee Hub Menu**. Each line is **`Letter. Label — specific suggested action`** grounded in Step 1 (paths, scripts, slices, falsifiers); seeds from `scripts/assess_session_load.py`. **Default attention from hub (Phase 2):** infer silently — **A** *(none)*, **B** `precision pass`, **C** `hold tension`, **D** `one object only`; override with plain phrase in same message (`C stakes pass`, `D long arc pass`). Full matrix: [CONDUCTOR-COMPRESSION-SPEC §4](../../../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md#4-attention-model--default-from-hub-primary). **Legacy conductor slugs** (`toscanini`, `karajan`, …) **redirect** to **`coffee`** + hub — [conductor SKILL redirect](../conductor/SKILL.md). Layer map: [CONDUCTOR-LAYER-MAP.md](../../../docs/skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md).
 
 **Legacy label compatibility:** Older checks and notes may still refer to **Steward / Engineer / Statecraft / Singularity** as the coffee hub. Treat those as compatibility residue only. Live coffee now chooses a **learning action first**, then routes into the owning downstream territory only if that action needs a specific bench.
 
@@ -45,54 +45,38 @@ Multiple `coffee` sessions per day are normal. That is not redundancy; it is the
 `coffee` and `dream` form a biological-cognitive pair:
 - **`coffee`** = repeated framing dose (many per day)
 - **`dream`** = end-of-day consolidation pass (usually once)
-- **Conductor** = named mid-day emphasis: `coffee_pick picked=conductor conductor=<slug>` creates the stance signal; a notebook close or `coffee_conductor_outcome` makes it durable enough for dream to compress.
-- **Active arc** = the latest explicit conductor pick still unresolved by cadence. Continuity may surface it; continuity does not silently reopen a closed arc.
-- **`coffee_close`** = optional post-branch receipt: what actually settled, what remains unresolved, which artifacts matter, readiness state, and conductor open/closed state. It is WORK telemetry only.
+- **Attention / work-pass (Phase 2):** Hub pick + default attention phrase replaces standalone conductor stance. Log optional `attention=` on `coffee_pick` only when overriding hub default.
+- **Active arc (legacy):** Historical `coffee_pick picked=conductor conductor=<slug>` rows remain read-only in cadence rollups.
+- **`coffee_close`** = post-branch receipt (extended Phase 1+): `picked`, `outcome`, `readiness`, optional `object_ref`, `falsify`, `verdict`, `attention`, `loops`, artifacts. WORK telemetry only.
 
 `coffee` should feel like a sip. `dream` should feel like sleep. See `.cursor/skills/dream/SKILL.md` § *Cadence choreography* for the day's sequence and data handoff.
 
-**Coffee -> dream conductor handoff:** Coffee may leave a conductor turn as **orientation-only** when no durable close exists; dream may report that as `orientation_only`, but must not treat it as completed work. A closed conductor turn needs either [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) in a notebook/page reflection or a `coffee_conductor_outcome` with `conductor=<slug>`, `verdict=`, and `notebook_ref=` or `falsify=`. Tomorrow's coffee may surface dream's **Conductor echo** as continuity, not as a hidden conductor action menu or auto-reactivated conductor state.
+**Coffee -> dream handoff (Phase 3):** Substantive passes need **extended `coffee_close`** with `object_ref` + `falsify` when honest. **`coffee_conductor_outcome` is deprecated** — do not log new outcome lines for strategy-codex; legacy rows remain read-only in rollups. Dream reads **`work_pass_rollup_24h`** from extended closes.
 
 <a id="conductor-only-no-coffee"></a>
 
-## Conductor session (outside `coffee` hub menu)
+## Legacy conductor triggers (redirect — Phase 2 compression)
 
-Use this path when the operator wants **Conductor** without going through the coffee hub.
+**Do not** open standalone Conductor or Conductor Action Menu on new sessions.
 
-The **five masters** (**Toscanini**, **Furtwängler**, **Karajan**, **Kleiber**, **Bernstein**) are **not** listed as separate lines on the **`coffee`** hub. Call masters **directly** (this section) when **`coffee`** was not opened or when the operator prefers **`conductor`** / master name instead of **`coffee`**.
+When the operator says **`toscanini`**, **`furtwangler`**, **`karajan`**, **`kleiber`**, **`bernstein`**, **`conductor`**, or **`conductor <name>`**:
 
-**Triggers (examples):** master name or prefix (**`toscanini`**, **`furtwangler`**, **`karajan`**, **`kleiber`**, **`bernstein`**), **`conductor`** with optional fragment, or plain language (**"Toscanini pass"**, **"run Kleiber on the notebook"**). If intent is unclear, ask once. **Legacy:** bare **`D`** + fragment still resolves like a conductor turn when the message is clearly conductor-only (no **`coffee`**).
+1. **Redirect once:** Conductor is compressed into **`coffee`** + hub letter + default attention — [CONDUCTOR-COMPRESSION-SPEC §10](../../../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md#10-operator-cheat-sheet).
+2. Run **`coffee`** Step 1 if not already done this turn.
+3. Offer **Coffee Hub Menu A–D** with default attention on recommended line (from `assess_session_load.py`).
+4. Run matching **object ritual** ([§5](../../../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md#5-migration-table-and-object-rituals)) — not Allegro/Andante/Scherzo/Finale.
 
-**First-turn activation note:** bare conductor slugs like **`toscanini`**, **`furtwangler`**, **`karajan`**, **`kleiber`**, and **`bernstein`** should route straight into Conductor on the first command, not be treated as ambiguity.
+**Open loops (replaces `build_conductor_revisit_block`):** Step 1 **Recent rhythm** prose; bootstrap **Open loops** when `coffee_close` carries `loops=`; live **72h watch** / daily sheets when statecraft is active — advisory, not a second menu.
 
-**Do not** run `operator_coffee.py`, **do not** paste work-start or closeout **Step 1** output, and **do not** lead with **Recent rhythm** — unless the same message also says **`coffee`** or **`hey`**.
+**Close:** [extended `log_coffee_close.py`](../../../scripts/log_coffee_close.py) + [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) when notebook paste helps. **`verdict=promote|shaped`** → mandatory RLJ append ([recursive-learn](../recursive-learn/SKILL.md)).
 
-**Standalone Conductor** (no **`coffee`** in this turn): if a conductor name or unambiguous prefix is present, resolve it by name. If only bare **`conductor`** is present, ask once for one of `toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`; do not show lettered master choices.
+**`bravo` / `weak`:** [§5.4 compression spec](../../../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md#54-bravo--weak-on-object-rituals) — not coffee-hub **B** unless operator picks Test.
 
-**After `conductor=<slug>` resolves** (standalone pick only): deliver the **short** orientation in [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) and [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md). **Then, always** deliver the **Conductor action MCQ** - **four** movement-labeled **A-D** repo-grounded next moves - per [CONDUCTOR-PASS - Conductor action MCQ](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md#conductor-action-mcq) and [conductor skill](../conductor/SKILL.md). **Skip** the action menu **only** if the operator said **"orientation only"** / **"no action menu"** in the same turn.
-
-**Logging:** `log_cadence_event.py --kind coffee_pick -u strategy-codex --ok --kv picked=conductor conductor=<slug>` (e.g. `karajan`, `toscanini`). **Legacy** lines may still use `picked=D`; both are fine for rollups. **Do not** append a separate **`coffee`** event unless they actually ran `coffee` Step 1.
-
-**Conductor close (optimal loop):** Same as before — [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) in **`days.md`** / page **Reflection**, or **`coffee_conductor_outcome`** — [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md). For auditability, every new outcome line should carry **`conductor=<slug>`** and **`verdict=`**, plus **`notebook_ref=`** or **`falsify=`** (both preferred). If a pass ended without that line, log a repair outcome on the next turn rather than leaving the close implicit.
-
-**`bravo` in conductor context:** If the operator replies **`bravo`** after a conductor pass, treat it as an **end-of-arc close token**: the whole **A-D** conductor cycle landed, no further conductor menu should be reopened by default, and the assistant should give a short close shape plus any durable receipt status. This is not coffee-hub **B** and not a `Test` pick.
-
-**`weak` in conductor context:** If the operator replies **`weak`** after a conductor pass, treat it as a lightweight dissatisfaction token rather than a request for analysis. Default response: one short acknowledgment such as `I'll try to do better next time.` Then move on by reopening a bounded menu or fresh choice surface. Do not treat `weak` as coffee-hub **B** or as a cue to defend the just-finished pass unless the operator explicitly asks.
-
-**Loop surfacing:** When the derived reader finds live pressure, show **Open loops due for revisit** before the Conductor action MCQ via `build_conductor_revisit_block('strategy-codex')`. Keep it advisory, prefer the active lane first, and include the shared **`Tension`** subsection when multiple streams disagree on the same horizon.
-
-**After the reply:** return to **normal workflow** unless the operator says **`stay in coffee`** or **`coffee`**.
+**Legacy read-only:** [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md), [conductor SKILL](../conductor/SKILL.md) redirect stub, cadence `picked=conductor` rows.
 
 <a id="hub-e-auto-continue"></a>
 
-**Standalone Conductor continuation:** When the operator chooses a master directly after **`coffee`** Step 1, **`last_logged_conductor`** from cadence (**`coffee_pick`** with **`conductor=`**) is the default resolved slug. After an active arc exists, a bare movement letter should continue that arc rather than re-showing the menu, unless the operator clearly restarts or switches conductors.
-
-- **If a slug exists:** **Continue that master immediately** → short orientation + **Conductor action MCQ** for that slug. Do not paste any lettered master-selection row; ask for a conductor name only when switching is requested without a name.
-- **If no slug exists:** prompt once for a conductor name (`toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`) → do **not** invent a default and do **not** show lettered master choices.
-
-Optional **one line** after auto-continue prose: *Say a conductor name to switch.*
-
-**Letter-collision:** If both the **coffee hub** and a **Conductor action MCQ** appear in one reply, **label** them explicitly. The coffee hub no longer has an E slot, so never use bare **`pick E`** at the coffee level. If Conductor is being invoked, say that directly and name the menu ([CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md)).
+**Removed:** Standalone Conductor continuation, auto-continue movement letters, and Conductor action MCQ — use hub pick + object ritual steps instead.
 
 ---
 
@@ -207,7 +191,30 @@ Add `--compact` for shorter harness output. Individual scripts (`operator_daily_
 
 **Step 1 guardrail:** Stay read-only — no merge/stage unless they switch lanes or use a pipeline phrase ("we …").
 
-**Done when:** Script output is Step 1 context only. The assistant-facing reply is not complete until Recent rhythm is at the top and the full **Coffee Hub Menu - Reply A-D** follows immediately. Do not end a `coffee` turn with only script output, a recommendation summary, or a smoke-check summary unless the operator explicitly asked for no menu.
+### Dashboard nudge (Phases 1–3 aggregators — mandatory after Step 1)
+
+The operator starts with **`coffee`** and cannot be expected to remember when to run Repo Surgeon, Statecraft War Room, or Operator Command Deck. After Step 1 script output and **before** the Coffee Hub Menu, emit a short **Dashboard nudge** block (3–5 lines).
+
+**SSOT:** [docs/operator-dashboard-when-to-use.md](../../../docs/operator-dashboard-when-to-use.md)
+
+**Rules:**
+
+1. **Always** suggest **Command Deck** on work-start / reorientation `coffee` — default companion to the hub menu (`python3 scripts/operator_command_deck.py --max-next-actions 5` → open `runtime/artifacts/operator-command-deck/latest.md`).
+2. Suggest **at most one** drill-down dashboard when Step 1 signals match (War Room for statecraft/intake/daily; Surgeon for docs ship / integrity / hub **B**).
+3. Each line: tool name + **because** + optional one-line command. **Do not** paste full `latest.md` unless the operator asks.
+4. When the operator picks a hub letter or says **`run deck`** / **`run war room`** / **`run surgeon`**, **run that script same turn** and summarize (exit code + top findings/actions).
+
+**Example shape (adapt to live Step 1 — not a fixed template):**
+
+```text
+**Dashboard nudge**
+- **Command Deck** — dirty tree + ranked next actions; run `python3 scripts/operator_command_deck.py --max-next-actions 5` and keep `latest.md` open beside this thread.
+- **War Room** — statecraft slice uncommitted; run if you pick **C — Deepen** (`python3 scripts/statecraft_war_room.py --latest-days 7`).
+```
+
+Signing-off `coffee`: nudge Deck regenerate after closeout for tomorrow's on-disk cockpit (optional one line).
+
+**Done when:** Script output is Step 1 context only. The assistant-facing reply is not complete until Recent rhythm is at the top, the **Dashboard nudge** block is present (unless operator said **`no menu`** / **`no options`**), and the full **Coffee Hub Menu - Reply A-D** follows immediately.
 
 For cadence tables and explicit phrase definitions (`coffee light`, `coffee minimal`, `coffee survey`): see [menu-reference.md](../../../docs/skill-work/work-coffee/menu-reference.md).
 
@@ -235,7 +242,7 @@ Same pattern for **B. Test**, **C. Deepen**, **D. Reframe**. Use an em dash (`�
 
 1. **Seed from scripts:** Run `python3 scripts/assess_session_load.py -u strategy-codex` (or read the **Session load** / **Annotated menu** block when `operator_coffee.py` already ran). Use `option_weights[A|B|C|D].note` as the **learning-action seed** for that letter.
 2. **Instantiate from Step 1:** Translate each seed into a **single executable move** using live context from Step 1 — handoff **Uncommitted slices**, recent commits, **Suggested push**, dream **Learning action**, **open loops**, **artifact anchors**, and thread-local work. Name **paths**, **scripts**, **commits/slices**, or **falsifiers** where honest.
-3. **Recommended letter:** When Step 1 prints `Recommended default: X`, mark that hub line with `*(recommended)*` after the label (e.g. `**D. Reframe** *(recommended)* — …`).
+3. **Recommended letter:** When Step 1 prints `Recommended default: X`, mark that hub line with `*(recommended)*` after the label. When `assess_session_load` supplies **default attention**, echo it on the recommended line only (e.g. `**D. Reframe** *(recommended)* — one object only — …`). Override only when operator named a phrase in the same message (`C stakes pass`).
 
 **Good action clauses (session-specific):**
 
@@ -248,9 +255,9 @@ Same pattern for **B. Test**, **C. Deepen**, **D. Reframe**. Use an em dash (`�
 - Generic seeds copied verbatim with no repo anchor (`validate follow-through when prior judgment still looks right` with no path, slice, or script).
 - Extra hub lines, micro-hints rows, fork shorthand, or F/G/Xavier/Dev tags **under** the four lines.
 
-**Letter-collision:** There is no conductor chooser. The only live conductor letters are the resolved **Conductor Action Menu** (**A–D**). When both a Coffee Hub Menu and a Conductor Action Menu could appear in one reply, **label** them explicitly; see [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md).
+**Letter-collision:** There is no Conductor Action Menu on new sessions. If a downstream bounded submenu uses A–D letters, **label** it explicitly (e.g. Statecraft router, Singularity menu).
 
-**Do not** append any lettered masters row under the four hub lines; conductor stance belongs to named Conductor turns ([Conductor session](#conductor-only-no-coffee), [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md)).
+**Do not** append master-slug rows under the four hub lines; legacy conductor triggers redirect to [compression spec §10](../../../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md#10-operator-cheat-sheet).
 
 **Hub menu (example shape — actions must match the live session, not this sample):**
 
@@ -263,7 +270,7 @@ Same pattern for **B. Test**, **C. Deepen**, **D. Reframe**. Use an em dash (`�
 **D. Reframe** *(recommended)* — Pick one live object only: ph-civ drift commit, civ-state populate, or push-only the committed slice — not all three.
 ```
 
-**Hub lines end at D:** the coffee hub is four action lines only. Conductor is standalone and does not appear as a coffee hub letter.
+**Hub lines end at D:** the coffee hub is four action lines only. Legacy conductor slugs redirect to hub + attention ([Legacy conductor triggers](#conductor-only-no-coffee)).
 
 **Mission-control note:** the coffee hub now chooses a **learning action** first. Downstream territories such as steward, engineer, statecraft, or singularity are second-layer consequences after the operator picks Confirm, Test, Deepen, or Reframe.
 
@@ -364,7 +371,7 @@ Each successful coffee run appends one line to `docs/skill-work/work-cadence/wor
 
 **After the operator states their menu letter** (and steward track if **A**), the assistant may append a **`coffee_pick`** cadence line (same file) for rollup:
 `python3 scripts/log_cadence_event.py --kind coffee_pick -u strategy-codex --ok --kv picked=A learning_action=confirm --cursor-model "<from Cursor UI>"`
-(`learning_action=` values: `confirm`, `test`, `deepen`, `reframe`.) For **hub** picks: **`picked=A`..`D`**. For **Conductor sessions** outside hub letter picks: **`picked=conductor`** with **`conductor=<single-slug>`**. Legacy files may still contain older stewardship-shaped fields; keep them read-only. **Optional closure after a conductor run:** `python3 scripts/log_cadence_event.py --kind coffee_conductor_outcome -u strategy-codex --ok --kv verdict=watch conductor=kleiber notebook_ref=docs/path.md` (see [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) section 3 for `notebook_ref` / `falsify` examples). Optional: `scripts/log_operator_choice.py --context COFFEE --picked A` for `session-transcript.md`.
+(`learning_action=` values: `confirm`, `test`, `deepen`, `reframe`.) For **hub** picks: **`picked=A`..`D`**. Legacy **`picked=conductor`** rows remain read-only. **Closure after a substantive pass (Phase 3):** `python3 scripts/log_coffee_close.py -u strategy-codex --picked D --outcome partial --readiness execution_ready --object-ref docs/path.md --falsify one-line-test` — do **not** append new `coffee_conductor_outcome` for strategy-codex. Optional: `scripts/log_operator_choice.py --context COFFEE --picked A` for `session-transcript.md`.
 
 **After a selected coffee branch materially settles**, append a **`coffee_close`** receipt when it would help the next coffee or dream understand the real outcome:
 `python3 scripts/log_coffee_close.py -u strategy-codex --picked B --outcome partial --readiness execution_ready --artifact scripts/example.py --loop recurring-loop-slug --next run-tests`

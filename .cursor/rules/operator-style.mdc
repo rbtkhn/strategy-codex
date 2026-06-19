@@ -95,6 +95,16 @@ Full lane prefixes: [docs/operator-agent-lanes.md](../../docs/operator-agent-lan
 
 ---
 
+## Operator dashboard nudges (Phases 1–3)
+
+The operator relies on **`coffee`** for session start and should not be expected to remember when to run Repo Surgeon, Statecraft War Room, or Operator Command Deck.
+
+- **`coffee` Step 1:** Follow [coffee SKILL](../skills/coffee/SKILL.md) **Dashboard nudge** — always suggest Command Deck; add War Room or Surgeon when Step 1 signals match. SSOT: [operator-dashboard-when-to-use.md](../../docs/operator-dashboard-when-to-use.md).
+- **Mid-session WORK turns:** When the operator asks what next, looks stuck, or picks a run fork that matches (statecraft → War Room; docs ship → Surgeon), **one line** nudge with **because** — offer to run same turn.
+- **Phrases:** `run deck`, `run war room`, `run surgeon`, `dashboards` → run the named script and summarize; do not paste full `latest.md` unless asked.
+
+---
+
 ## Skill discovery (optional close)
 
 **Goal:** Treat **new skills** as something the system *notices* — most skills are **discovered** from repeated success, then formalized.

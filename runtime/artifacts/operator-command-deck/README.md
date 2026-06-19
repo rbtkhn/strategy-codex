@@ -39,6 +39,8 @@ python3 scripts/operator_command_deck.py \
 - `--no-git` — skip git working-tree snapshot
 - `--snapshot` — optional dated `.md` copy
 
+**When to use:** [docs/operator-dashboard-when-to-use.md](../../../docs/operator-dashboard-when-to-use.md) — agent nudge card; **`coffee`** Step 1 includes a Dashboard nudge block.
+
 ## SSOT return paths
 
 - [docs/harness-architecture-map.md](../../../docs/harness-architecture-map.md)
