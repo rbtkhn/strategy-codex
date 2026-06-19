@@ -20,7 +20,7 @@ Italy as territorial shell and national Roman memory:
 
 France as secular-Catholic statecraft carrier:
 
-- *Code Napoleon* *(science-spine-western — Code civil terminus cross-ref · S5)*
+- *Code Napoleon* *(science-spine-western — S5 Code civil procedural terminus · cross-ref France branch S7)*
 - *Organic Articles* (1802)
 - Alexis de Tocqueville, *The Old Regime and the Revolution*
 - Ernest Renan, *What Is a Nation?*

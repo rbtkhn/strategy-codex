@@ -18,7 +18,7 @@ Eastern Roman Empire and Constantinopolitan continuity:
 
 Roman-Christian universality and conciliar continuity *(faith-spine + legacy)*:
 
-- Gratian, *Decretum* *(faith-spine — canon / Counter-Reformation shelf)*
+- Gratian, *Decretum* *(faith-spine — canon / Counter-Reformation shelf · science-spine S5 cross-ref — canon procedural)*
 - Council of Trent decrees *(faith-spine — western hinge 1545–1563)*
 - Index librorum prohibitorum *(faith-spine — inquisition/index cross-ref)*
 - Justinian, *Codex* — cross-ref science shelf *(faith-spine — civil-sacred overlap)*
@@ -68,13 +68,21 @@ Iberian kingdoms and frontier Christendom:
 
 - Visigothic legal residue, especially the *Liber Iudiciorum* / *Fuero Juzgo*
 - *Usatges de Barcelona*
-- Alfonso X, *Siete Partidas*
+- Alfonso X, *Siete Partidas* *(science-spine-western — S5 Iberian codification · `contested-weight` cross-ref)*
 - *Historia Roderici*
 - *Chronica Adefonsi Imperatoris*
 - James I of Aragon, *Llibre dels Fets*
 - Alfonso X, *Fuero Real*
 
 Science spine shelf *(S3 Islamic · S4 scholastic/Renaissance · S5 codification · S6 Italy branch · S7 France branch)*:
+
+**S5 — codification procedural** *(terminus cross-ref [industrial.md](industrial.md) Code civil)*:
+
+- The *Corpus Juris Civilis* *(science-spine-eastern/western hinge — S5; cross-ref Eastern Roman section above)*
+- Gratian, *Decretum* *(science-spine-western — S5 canon procedural; faith sacred primary cross-ref above)*
+- Alfonso X, *Siete Partidas* *(science-spine-western — S5 Iberian export; cross-ref Iberian section above)*
+
+**S3–S4 · S6–S7:**
 
 - Avicenna, *Canon of Medicine* *(science-spine-eastern — S3)*
 - Averroes, Aristotle commentaries *(science-spine-eastern — S3)*

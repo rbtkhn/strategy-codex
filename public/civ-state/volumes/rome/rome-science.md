@@ -3,7 +3,7 @@
 Volume-local lens — **Rome**, Volume III.
 
 Status: Active doctrine (Roman law mirror)  
-Last updated: 2026-06-18
+Last updated: 2026-06-19
 
 ## Sovereignty chain — science lens {#sovereignty-chain-science-lens}
 
@@ -52,9 +52,12 @@ Procedural military text + siege/engineering. Roster SSOT: [Empire — Vegetius 
 | Vegetius | *De Re Militari* — procedural branch | `operator-vegetius-compound-gift` |
 | Maurice | *Strategikon* — thematic operational doctrine | `operator-procopius-maurice-pair` |
 | Siege / engineering | Roads, fortification — empire incorporation grammar | `historical-grounded` |
-| Gunpowder 1453 | Siege revolution co-equal with East terminus | `operator-gunpowder-1453` · `historical-grounded` |
+| **1204** | Fourth Crusade — **military crusade instrument primary**; faith eastern sacral wound · entropy Constantinople rupture · **science codex/text survival cross-ref only** (N1) | cross-ref [Entropy](rome-entropy.md#science-history-entropy-lens) · [Faith](rome-faith.md#faith-history-faith-lens) |
+| **1453** | Gunpowder/siege co-equal with East terminus — **entropy primary**; science Greek→Latin reception cross-ref (N2/M3) | `operator-gunpowder-1453` · cross-ref [Entropy](rome-entropy.md#science-history-entropy-lens) |
 
-**Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Military history (essay)](essays/military-history-rome.md)
+**Tri-spine footnotes (N5):** 1204 four-way · 1453 triple-home — SSOT on [Science spine](rome-memory.md#science-spine); **no new `#science-spine` rupture rows**.
+
+**Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Empire — military roster](rome-empire.md#military-history-empire-lens) · [Military history (essay)](essays/military-history-rome.md) · [Science history (essay)](essays/science-history-rome.md)
 
 ## Faith history — science lens {#faith-history-science-lens}
 

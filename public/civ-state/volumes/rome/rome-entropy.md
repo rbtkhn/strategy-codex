@@ -88,7 +88,7 @@ Shock and censorship degrading procedural carry. SSOT rupture rows on entropy; s
 | Colonial decolonization | Wind-down — science export `contested-weight` parallel (M5) | **`contested-weight`** |
 | Law as rhetoric | Medium/institution decouple — courts collapsed → science | cross-ref science |
 
-**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science (Rome)](rome-science.md) · [Science history (essay)](essays/science-history-rome.md)
+**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science — military lens](rome-science.md#military-history-science-lens) · [Science (Rome)](rome-science.md) · [Science history (essay)](essays/science-history-rome.md)
 
 ## Whole-work term
 

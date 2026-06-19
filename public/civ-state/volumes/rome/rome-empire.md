@@ -131,11 +131,13 @@ Legions, logistics, garrison, incorporation-by-force. Campaign/command roster SS
 | Marian–Augustan | Professional legion → imperial field system |
 | Punic hinge | Naval–legion Mediterranean coherence |
 | East-bridge | Heraclius · Procopius/Maurice — cross-ref [military spine](rome-memory.md#military-spine-formation) |
+| **1204** | Fourth Crusade — military primary; faith sacral wound · entropy rupture · science codex cross-ref (N1) |
+| **1453** | East terminus — gunpowder co-equal; entropy primary · science reception cross-ref (N2) |
 | Colonial instrument | 1492 → SYW → [oceanic-colonial row](rome-memory.md#military-spine-western) |
 
 **Boundary (empire · military):** Do not duplicate civic *virtus* — point to [civilization ethic roster](rome-civilization.md#military-history-civilization-lens).
 
-**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Military history (essay)](essays/military-history-rome.md)
+**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Science — military lens](rome-science.md#military-history-science-lens) · [Military history (essay)](essays/military-history-rome.md)
 
 ## Faith history — empire lens {#faith-history-empire-lens}
 
