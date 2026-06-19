@@ -46,9 +46,9 @@ One friction node × six lenses — membrane visible; link term SSOT, do not dup
 
 | Node | File | Status |
 |------|------|--------|
-| 1453 East terminus | `hexagonal-1453-rome.md` | planned |
-| Italian Wars / Sack 1527 | `hexagonal-italian-wars-rome.md` | planned |
-| Justinian codification (529) | `hexagonal-justinian-codification-rome.md` | planned |
+| 1453 East terminus | [hexagonal-1453-rome.md](hexagonal-1453-rome.md) | active |
+| Italian Wars / Sack 1527 | [hexagonal-italian-wars-rome.md](hexagonal-italian-wars-rome.md) | active |
+| Justinian codification (529) | [hexagonal-justinian-codification-rome.md](hexagonal-justinian-codification-rome.md) | active |
 | 1054 Great Schism | `hexagonal-1054-schism-rome.md` | planned (wave 2) |
 | Republic → principate | `hexagonal-republic-principate-rome.md` | planned (wave 2) |
 | Colonial procedural tail | `hexagonal-colonial-tail-rome.md` | planned (wave 2) |

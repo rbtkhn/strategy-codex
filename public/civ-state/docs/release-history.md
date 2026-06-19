@@ -4,11 +4,24 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.32** — Rome hexagonal wave 1: three demonstrator essays (1453 · Italian Wars/Sack 1527 · Justinian 529) · registry active · template public-safe membrane link · three node archetypes (rupture · split · restitution).
+
 **v0.1.31** — Rome civ/empire polish: Medici/Michelangelo split rosters · Borgia institutional rows · Italian Wars/Sack 1527 entropy · Savonarola · French kings · Civ↔Empire↔Entropy delineation · Boethius/Frontinus ethic rows · Rosetta/Champollion empire roster.
 
 **v0.1.30** — Rome science history: `#science-spine`, split institutional/procedural-ethic rosters, six term science segments; Italy ║ France western branches; Faith/Entropy/Language choreography tables.
 
 **v0.1.29** — Rome faith history: `#faith-spine`, split institutional/sacred-ethic rosters, six term faith segments; eastern sacred trilogy (Judaism · Eastern Christianity · Islam).
+
+### v0.1.32 — Rome hexagonal wave 1 demonstrators
+
+| Change | Detail |
+|--------|--------|
+| `hexagonal-1453-rome.md` | Archetype A — East bridge terminus; entropy rupture-primary |
+| `hexagonal-italian-wars-rome.md` | Archetype B — Wars comparative + Sack 1527 rupture-primary |
+| `hexagonal-justinian-codification-rome.md` | Archetype C — 529 codification hinge; science-first |
+| `essays/README.md` | Wave 1 registry `planned` → `active` |
+| `_template-hexagonal-rome.md` | Public-safe essay-type membrane link |
+| RLJ | Wave-1 archetypes entry · recursive-learn § hexagonal wave ladder |
 
 ### v0.1.31 — Rome civ/empire polish + Italian Wars bundle
 

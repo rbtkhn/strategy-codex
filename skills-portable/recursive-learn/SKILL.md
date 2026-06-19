@@ -3,7 +3,7 @@ name: recursive-learn
 preferred_activation: recursive learn
 description: "Governed session review and journal entry for reusable machine laws. SSOT journal: statecraft/recursive-learning-journal.md."
 portable: true
-version: 0.2.4
+version: 0.2.5
 tags:
   - operator
   - statecraft
@@ -265,6 +265,38 @@ elicitation MCQs → master table + tension pass
 - **Term files:** sovereignty / dual-language / prior-dimension segments **align, do not duplicate** new spine tables.
 - **Present period:** no military present row; faith/science follow same discipline unless operator MCQ locks a comparative footnote only.
 - **Next civ:** elicit sub-table count + roster split **before** term segments — do not copy Rome row labels without operator cash-out.
+
+## Rome hexagonal wave ladder (civ-state)
+
+**Use when:** encoding or reviewing a **hexagonal demonstrator** (one friction node × six term lenses). Open [RLJ wave-1 archetypes](../../statecraft/recursive-learning-journal.md#2026-06-19---rome-hexagonal-wave-1-encode-three-node-archetypes) and [hexagonal scaffold RLJ](../../statecraft/recursive-learning-journal.md#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) before drafting.
+
+**Prep SSOT:** [connectivity-rome](../../public/civ-state/volumes/rome/essays/connectivity-rome.md) → [_template-hexagonal-rome](../../public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md) → [essays/README registry](../../public/civ-state/volumes/rome/essays/README.md#hexagonal-demonstrators).
+
+### Node archetypes (classify before entropy row)
+
+| Archetype | Example | Entropy | Primary owner |
+|-----------|---------|---------|---------------|
+| **A — Universal rupture** | 1453 East terminus | `rupture-primary` | Entropy |
+| **B — Split ownership** | Italian Wars + Sack 1527 | Wars `comparative`; Sack `rupture-primary` | Entropy (split tags) |
+| **C — Restitution hinge** | Justinian 529 | — (no new rupture) | Science (`codification_medium`) |
+| **D — Faith-primary schism** *(wave 2 candidate)* | 1054 | cross-ref only on entropy | Faith |
+
+### Wave checklist
+
+| Wave | Nodes | Registry |
+|------|-------|----------|
+| **1** | 1453 · Italian Wars/Sack · Justinian 529 | **active** |
+| **2** | 1054 · Republic→principate · colonial tail | planned |
+
+**Encode recipe:**
+
+```text
+rupture-ownership row (connectivity) → archetype A|B|C|D
+→ copy template → six-lens table + cross-ref law + synthesis
+→ registry active → validate public/civ-state
+```
+
+**Harness:** one essay per turn · bounded Read on term segments · no parallel six-file Read.
 
 ## Quality test
 
