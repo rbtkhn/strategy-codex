@@ -19,6 +19,8 @@ Ask six governing questions in order — **memory placement first**, then the le
 
 **Membrane laws:** Empire overreach ≠ entropy · ethic (civ) ≠ institution (emp) · rupture-primary on entropy except **1054** on faith.
 
+**Archetype:** **B — Split ownership** (wave 1 — Sack **rupture-primary**; Italian Wars **comparative** only).
+
 ## Friction node
 
 | Field | Value |

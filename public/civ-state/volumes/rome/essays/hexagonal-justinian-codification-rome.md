@@ -19,6 +19,8 @@ Ask six governing questions in order — **memory placement first**, then the le
 
 **Membrane laws:** Empire overreach ≠ entropy · ethic (civ) ≠ institution (emp) · rupture-primary on entropy except **1054** on faith.
 
+**Archetype:** **C — Restitution hinge** (wave 1 — science-first procedural encode; no new entropy rupture).
+
 ## Friction node
 
 | Field | Value |

@@ -31,37 +31,42 @@ Short doctrine:
 
 ## Public corpus influence (one-way)
 
-\\	ext
+```text
 public/civ-state/  ──influences──▶  civ-state skill
 public/civ-state/  ◀──never contains──  operator skill body
-\
+```
+
 - **Canonical retrieval SSOT** is the staged public book tree (host appendix paths).
-- Operator substrates inform **when** to open public surfaces — not **what** they say.
-- Publish only when operator says **ship**, **publish**, or **VERSION** — not on every Retrieve or Review close.
+- Operator substrates (review queue, promotion ledger, voices) inform **when** to open public surfaces — not **what** they say.
+- Ship-bound prose edits land in `public/civ-state/`; publish only when operator says **ship**, **publish**, or **VERSION** bump — not on every Retrieve or Review close.
 
 ## Operator workflow modes
 
+Detect entry mode from operator phrase or object shape:
+
 | Mode | Signals | Recommendation bias |
 |------|---------|---------------------|
-| **Pre-lane** | Before lane ownership | **A** if term unsettled; **B** if term clear, shelf not |
-| **Live wire** | Verified event, crisis object | Wire-bridge → **A** or **B** |
-| **Book maint** | Rome hex, theory/sources gaps | **D** if review-queue residue; else **B** |
-| **Post-synthesis** | After state-synthesis | **D** or **B**; public edit target |
+| **Pre-lane** | Before lane ownership; `before deploy` | **A** if term unsettled; **B** if term clear, shelf not |
+| **Live wire** | Verified event, crisis object, wire-shaped batch | **Wire-bridge** pass → **A** or **B** |
+| **Book maint** | Rome hex, theory/sources encode, retrieval gaps | **D** if review-queue residue; else **B** |
+| **Post-synthesis** | After state-synthesis; civilizational layer still thin | **D** or **B**; tie to public edit target |
 
-De-weight **C. Promote** unless operator names membrane explicitly.
+De-weight **C. Promote** in auto-recommendation unless operator names PH-CIV, promotion ledger, or membrane explicitly.
 
 ## Wire-bridge (contextual sequence)
 
-When entry is **live wire**, use object-shape router (no parallel reads):
+When entry is **live wire** or a verified recent event, run wire-bridge **before** or **inside** the recommendation (do not batch parallel reads):
 
-| Object shape | Sequence bias |
-|--------------|---------------|
-| **carrier-obvious** | Case → term → primary shelf |
-| **mechanism-abstract** | Term → case scan → shelf |
-| **comparative-unsettled** | Cross-case + one term winner → narrow |
-| **evidence-trouble** | Primary → secondary → widen |
+| Object shape | Signals | Sequence bias |
+|--------------|---------|---------------|
+| **carrier-obvious** | Named state, institution, corridor, actor legible | Case → term → primary shelf |
+| **mechanism-abstract** | Compression, legitimacy drift, judgment infrastructure | Term → case scan → shelf |
+| **comparative-unsettled** | Multi-case rhyme, analogy risk, ownership unclear | Cross-case + one term winner → narrow |
+| **evidence-trouble** | Attribution, era, translation dominates | Shelf-first: primary → secondary → widen |
 
-**Rome vs live wire:** one recommendation + runner-up — no fixed priority. **Archive thin:** hand back to state synthesis (appendix).
+**Rome vs live wire:** when both signals present, recommend **one** path and name the other as runner-up — no fixed priority.
+
+**Archive missing:** if wire-bridge needs archive but day batch is thin → hand off to **state synthesis** (see Related operations) — do not loop Frame without archive.
 
 ## Boundary
 
@@ -80,22 +85,19 @@ When entry is **live wire**, use object-shape router (no parallel reads):
 - `Promote`
 - `Review`
 
-These are stable. The operator should learn that the CIV-STATE command always opens the same four doors.
-
-What changes from turn to turn is the live recommendation and the explanation for why that recommendation is the most productive next move now.
+These are stable. What changes is the live recommendation and **one-line why**.
 
 ## Allowed Dynamic Inputs
 
-**Public corpus first:** theory, skills, sources, volumes, essays, docs under the staged public book tree.
+**Public corpus first** (when retrieval genuinely requires them):
 
-**Operator substrates second:** speaker/bridge state, PH-CIV membrane docs, promotion ledger, review queue.
+- public CIV-STATE theory, skills, sources, volumes, essays, docs shelves
 
-Do not use:
+**Operator substrates second:**
 
-- coffee cadence or dream cadence
-- broad worktree dirt
-- unrelated lane activity
-- generic repo heat outside speaker-state and CIV-STATE membrane/review residue
+- speaker/bridge state, PH-CIV membrane docs, promotion ledger, review queue
+
+Do not use: coffee/dream cadence, broad worktree dirt, unrelated lane activity, generic repo heat.
 
 *(Instance paths: host appendix.)*
 
@@ -103,72 +105,46 @@ Do not use:
 
 Recommend exactly one path:
 
-- recommend `A. Frame` when the live pressure is `what governing term or rhythm/time placement actually carries this object?`
-- recommend `B. Retrieve` when the live pressure is `which CIV-STATE surface should I open now?`
-- recommend `C. Promote` when the live pressure is `should this speaker-state or PH-CIV pattern cross the membrane into CIV-STATE?`
-- recommend `D. Review` when the live pressure is `what CIV-STATE residue is ready for tightening, correction, or hardening?`
-
-If more than one path is plausible, still choose one recommendation and name the runner-up briefly in the menu wording if helpful.
+- **A. Frame** — governing term or rhythm/time placement unsettled
+- **B. Retrieve** — which public CIV-STATE surface to open now
+- **C. Promote** — PH-CIV or speaker-state pattern may cross membrane *(operator-named only in auto-pick)*
+- **D. Review** — upstream residue ready for tightening; fix lands in public corpus
 
 Also:
 
 1. Detect entry mode (pre-lane, live wire, book maint, post-synthesis).
 2. If wire-shaped → object-shape router → map to A or B.
-3. **B. Retrieve** must name Retrieval posture + **public path** (host-relative).
-4. **Rome vs live wire:** when both plausible, one pick + runner-up — no fixed priority.
+3. Always one recommendation + runner-up in `Why this path now` when plausible.
+4. **B. Retrieve** must name `Retrieval posture` + **public path** (host-relative).
 
 ## Action Families
 
 ### A. Frame
 
-Use when the object is still interpretively unstable.
-
-Route toward public theory + reader entry cards first; operator framework/checklist only if blocked (appendix).
-
-This is for governing-term diagnosis and CIV-STATE interpretive orientation, not volume writing.
+Route toward public theory + reader entry cards; operator framework/checklist only if blocked (appendix).
 
 ### B. Retrieve
 
-Use when the object is stable enough that the next honest move is opening the right CIV-STATE surface.
-
-Possible retrieval targets include public shelf-reader, era primary/secondary-sources, volumes, civilization/empire/statecraft case files, sacred grammar, and chapter-family surfaces. De-prioritize operator-only retrieval matrix unless public shelf exhausted (appendix).
-
-This is retrieval-first, not book-authoring.
-
-Use the switchboard law explicitly:
+Switchboard law:
 
 - stay in `primary-sources` when the civilization's own wording is the live issue
-- open `secondary-sources` only when the primary shelf exposes a real interpretive difficulty
-- return to `primary-sources` once the clarification has been taken
-- move upward into `civilization`, `empire`, or `statecraft` only when the source problem has been resolved
+- open `secondary-sources` only when primary exposes real difficulty
+- return to primary after clarification
+- move to civilization/empire/statecraft only after shelf problem resolved
 
 ### C. Promote
 
-Use when a speaker-state or PH-CIV pattern may deserve promotion into CIV-STATE.
-
-Route toward the PH-CIV to CIV-STATE bridge, promotion ledger, and promoter workflow.
-
-This is membrane judgment, not silent upstream mutation. Escalated destinations must be expressible under the public book tree.
+Membrane judgment only — destination must be expressible under public/civ-state/ when escalated.
 
 ### D. Review
 
-Use when CIV-STATE already contains residue that is ready for bounded tightening.
-
-Route toward the review queue and a named public edit target; architecture/part-writing skills only when operator explicitly wants book work. Never mirror operator queue prose into the public book.
-
-Default review means refinement, correction, or hardening. It does not assume the operator wants to keep authoring the CIV-STATE books.
+Review queue + public edit target; never mirror operator queue into public book prose.
 
 ## Book-Authoring Escape Hatch
 
-Book-building is not part of the default four-family interpretation.
-
-If the operator explicitly asks to work on the CIV-STATE book, route out of this command into the relevant authoring surfaces (volume architect, civilization/empire part writers, guidebook writer).
-
-Do not hide that shift inside `Retrieve` or `Review`.
+Explicit operator ask only — volume architect, part writers, guidebook writer. Do not hide inside Retrieve or Review.
 
 ## Default Output
-
-When the operator invokes `civ-state` without a narrower object, use exactly this output shape:
 
 ```markdown
 **Statecraft CIV-STATE**
@@ -177,7 +153,7 @@ When the operator invokes `civ-state` without a narrower object, use exactly thi
 - Current signals used:
 - Retrieval posture:
 - Public retrieval anchor:
-- Object shape: *(wire-shaped or cross-case unsettled)*
+- Object shape: *(when wire-shaped or cross-case unsettled)*
 - Sequence chosen: *(when wire-bridge ran)*
 
 **CIV-STATE Menu - reply A-D**
@@ -187,33 +163,20 @@ C. Promote
 D. Review
 ```
 
-The menu labels stay fixed across runs.
-
-The `Current signals used` line should name only the relevant speaker / bridge / membrane / review surfaces actually informing the recommendation.
-The `Retrieval posture` line should appear when `B. Retrieve` is the live recommendation and should name the narrowest honest next move:
-
-- `shelf-reader`
-- `primary-sources`
-- `secondary-sources`
-- `chapter surface`
+When **B. Retrieve** is recommended, `Retrieval posture` is one of: `shelf-reader` · `primary-sources` · `secondary-sources` · `chapter surface`.
 
 ## Handoff Rule
 
-When the operator replies with a letter after this command, execute that path rather than reprinting the menu.
-
-- `A` = frame diagnosis
-- `B` = CIV-STATE retrieval
-- `C` = membrane promotion test
-- `D` = residue review / hardening orientation
+Letter pick executes that path — do not reprint menu.
 
 ## Close offers (not auto-run)
 
-Offer **one line** only when structural change actually shipped:
+Offer **one line** only when the branch actually shipped structural change:
 
 | After | Offer |
 |-------|-------|
-| Book encode / review-queue fix / wire-bridge law | *Machine law implicit — say `recursive learn` for session review.* |
-| One bounded mechanism seam ready | *One mechanism seam ready — say `state-note` to promote with archive anchors.* |
+| Book encode / review-queue fix / wire-bridge law landed | *Machine law implicit — say `recursive learn` for session review.* |
+| One bounded mechanism seam ready for notes shelf | *One mechanism seam ready — say `state-note` to promote with archive anchors.* |
 
 Do not offer publish unless operator said **ship**, **publish**, or **VERSION**.
 
@@ -221,9 +184,9 @@ Do not offer publish unless operator said **ship**, **publish**, or **VERSION**.
 
 | Operation | Relationship |
 |-----------|--------------|
-| **state-synthesis** | Archive batch upstream; hand off **to** civ-state when civilizational layer unsettled; civ-state hands **back** when archive thin |
-| **state-note** | Downstream when one mechanism seam ready; may return when public retrieval gap |
-| **recursive-learn** | Post-encode machine law; close offer only |
+| **state-synthesis** | Upstream archive batch; hand off **to** civ-state when civilizational layer unsettled; civ-state hands **back** when archive thin |
+| **state-note** | Downstream when one mechanism seam ready; note may return when public retrieval gap |
+| **recursive-learn** | Post-encode machine law; close offer only — not mid-menu |
 | **statecraft-framework** | Secondary frame supplement when public theory insufficient |
 
 ## Non-Replacement Rule

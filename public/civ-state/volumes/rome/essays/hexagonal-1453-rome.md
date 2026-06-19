@@ -19,6 +19,8 @@ Ask six governing questions in order — **memory placement first**, then the le
 
 **Membrane laws:** Empire overreach ≠ entropy · ethic (civ) ≠ institution (emp) · rupture-primary on entropy except **1054** on faith.
 
+**Archetype:** **A — Universal rupture** (wave 1 — entropy rupture-primary; East bridge terminus).
+
 ## Friction node
 
 | Field | Value |

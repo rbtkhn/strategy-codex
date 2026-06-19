@@ -2717,3 +2717,82 @@ wave 2 complete: all hexagonal demonstrators active on Rome volume.
 Routing: [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md) · [hexagonal registry](../public/civ-state/volumes/rome/essays/README.md#hexagonal-demonstrators) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md) · RLJ [hexagonal scaffold](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename)
 
 **Pattern promotion:** defer until second civ reuses A–F without new archetype.
+
+---
+
+## 2026-06-19 - Rome hexagonal verify — civ-state smoke, archetype headers, SSH publish
+
+**Cross-link:** [Rome hexagonal encode (six node archetypes A–F)](#2026-06-19---rome-hexagonal-encode-six-node-archetypes-a–f) — taxonomy + encode recipe there; this entry owns **post-ship verification** (retrieve drill, registry headers, publish path).
+
+### Trigger
+
+After hexagonal wave 2 shipped (v0.1.34) and pushed to `strategy-codex`, operator ran **civ-state B. Retrieve** smoke on the hexagonal registry, **publish** to `rbtkhn/civ-state` (HTTPS git:443 failed; SSH + one-off author env succeeded at `8b4305c`), **portable skill sync** for civ-state wiring, **retrieve drills** on 1453 (A), 1054 (D), and Justinian 529 (C), and **archetype headers** on all six demonstrators (wave-1 essays lacked headers until this session).
+
+### Extracted law
+
+**1. Hexagonal post-ship verify (civ-state B. Retrieve)**
+
+```text
+registry (#hexagonal-demonstrators)
+  → connectivity-rome (#essay-types-do-not-conflate + rupture-ownership row)
+  → hexagonal-{node}-rome.md
+  → rome-{term}.md#{segment}
+```
+
+One drill per **archetype class** before calling a wave verified — not one essay proves all six. Minimum falsifier pairs: **1054 + 1453** (D vs A) · **529 + 476/1453** (C restitution without new entropy row) · **Italian Wars/Sack** (B comparative vs rupture-primary split) — B not yet drilled this session.
+
+**2. Archetype header on demonstrator (registry self-describe)**
+
+After encode, each hexagonal essay carries under **Membrane laws** in **Reading Posture**:
+
+```markdown
+**Archetype:** **{A|B|C|D|E|F} — {label}** (wave N — one-line membrane test)
+```
+
+Registry readable without RLJ or skill ladder.
+
+**3. Publish SSH fallback (Windows harness)**
+
+When `git fetch` over HTTPS:443 fails but `gh api` and `git ls-remote git@github.com:…` succeed: set clone `origin` to SSH before `publish_public_civ_state.py`; use one-off `GIT_AUTHOR_*` / `GIT_COMMITTER_*` from operator repo if civ-state clone lacks identity; do not robocopy-only without fetch.
+
+### Reapplication
+
+- **Next hexagonal node:** encode → validate → archetype header → one B. Retrieve drill → VERSION/publish.
+- **Next civ-state smoke:** book-maint → recommend **B** · posture `chapter surface` · name public path.
+- **Next publish stall on 443:** SSH remote on `CIV_STATE_PUBLISH_CLONE` before retry.
+- **Remaining drill gap:** archetype **B** (Italian Wars/Sack).
+- **Pattern promotion:** defer until second civ reuses A–F without a seventh letter.
+
+### Structural changes
+
+| Change | Path / receipt |
+|--------|----------------|
+| Archetype headers A, B, C | `hexagonal-1453-rome.md`, `hexagonal-italian-wars-rome.md`, `hexagonal-justinian-codification-rome.md` |
+| civ-state skill sync | `skills-portable/civ-state/SKILL.md` · `.cursor/skills/civ-state/SKILL.md` |
+| Upstream publish | `rbtkhn/civ-state` @ `8b4305c` (SSH) |
+| Retrieve drills (chat) | 1453 (A) · 1054 (D) · Justinian 529 (C) |
+| Open gap | `connectivity-rome.md` rupture table → hexagonal links |
+
+### Guardrail
+
+```text
+Do not treat RLJ/skill ladder as registry SSOT — archetype headers on essays are operator-facing;
+Do not skip retrieve drill because validate passed — routing is separate proof;
+Do not declare wave verified until one drill per archetype class or explicit defer with falsifier named;
+Do not merge 1054/1453/529 because headers exist — pair-reads still required;
+Do not commit civ-state clone identity to global git config — one-off env vars only;
+Validator pass + failed term-anchor resolve → failed drill, not done.
+```
+
+**Falsification:** If a second civ needs archetype **G** before reuse, narrow A–F to Rome pilot and reopen elicitation.
+
+### Current lesson
+
+```text
+Encode proves structure; civ-state retrieve drill proves routing;
+archetype headers make the registry readable without opening RLJ.
+```
+
+Routing: [civ-state skill v0.2.0](../.cursor/skills/civ-state/SKILL.md) · [hexagonal registry](../public/civ-state/volumes/rome/essays/README.md#hexagonal-demonstrators) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md) · RLJ [hexagonal encode A–F](#2026-06-19---rome-hexagonal-encode-six-node-archetypes-a–f)
+
+**Pattern promotion:** defer until second civ reuses A–F without new archetype.
