@@ -26,7 +26,7 @@ June 8 intake landed **14** archive sources while `statecraft/daily/2026-06-08.m
 
 ### Extracted law
 
-**Archive truth and daily synthesis truth diverge by default** after intake. Treat `source-archive/statecraft/<pub_date>/` as ground truth; run `check_statecraft_intake_daily_sync.py` before closeout menus. Desync is a routing signal (wire-in or `statecraft daily synthesis`), not silent drift.
+**Archive truth and daily synthesis truth diverge by default** after intake. Treat `source-archive/statecraft/<pub_date>/` as ground truth; run `check_statecraft_intake_daily_sync.py` before closeout menus. Desync is a routing signal (wire-in or `state synthesis`), not silent drift.
 
 ### Reapplication
 
@@ -2417,7 +2417,7 @@ operator names lane (civ-state | recursive-learn | …)
 |------|--------|
 | Code / validators | None this session |
 | Doctrine | **Review-only** — reinforces [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) rules 1–6 |
-| Possible wire | Add one line to `statecraft-civ-state/SKILL.md` entry block: *cold thread → Read limit≤80 first; no parallel warmup* |
+| Possible wire | Wired in `civ-state/SKILL.md` § Cursor entry (cold thread) |
 
 ### Guardrail
 
@@ -2436,6 +2436,134 @@ civ-state on a cold thread: one skill slice, menu in chat, no warmup batch —
 after a hang, the next tool call must be smaller, not the same shape.
 ```
 
-Routing: [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · [statecraft-civ-state skill](../.cursor/skills/statecraft-civ-state/SKILL.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md)
+Routing: [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · [civ-state skill](../.cursor/skills/civ-state/SKILL.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md)
 
 **Pattern promotion:** defer — harness stall family already in journal; narrow reapplication only until second distinct cold-thread lane proves the law on another territory.
+
+---
+
+## 2026-06-18 - Portable-sync skill rename ladder (civ-state proof)
+
+**Tag:** `portable-sync-skill-rename-civ-state-2026-06-18`  
+**Cross-link:** [Cold-thread lane entry](#2026-06-18---cold-thread-lane-entry-bounded-read-no-parallel-warmup) — same session; this entry covers **rename + portable ladder**, not harness entry.
+
+### Trigger
+
+Operator renamed **`statecraft-civ-state` → `civ-state`**, then **A+D**: doctrine pointers (`coffee`, `statecraft/README.md`) + portable ladder (`skills-portable/civ-state/`, `manifest.yaml`, `CURSOR_APPENDIX`, `catalog.md`, `sync --verify`). Hand-edited `.cursor/skills/civ-state/SKILL.md` was correctly superseded by sync output.
+
+### Extracted law
+
+**Skill rename on the portable ladder = portable core + appendix + manifest + sync + doctrine — never orphan the Cursor file.**
+
+```text
+rename skill id (folder + frontmatter name)
+→ write skills-portable/<name>/SKILL.md (portable core; minimal instance paths)
+→ write .cursor/skills/<name>/CURSOR_APPENDIX.md (repo paths, cold-thread, commands)
+→ add skills-portable/manifest.yaml entry
+→ python3 scripts/sync_portable_skills.py --skill <name> && --verify --skill <name>
+→ update doctrine activation lines (README, coffee, menu-reference) — primary name + legacy alias if any
+→ optional skills-portable/catalog.md card
+→ remove old skill folder; grep old slug for stale links
+→ do not treat .cursor/skills/<name>/SKILL.md as hand-editable after manifest listing
+```
+
+### Reapplication
+
+- Any **Cursor-only skill** promoted to portable sync (`wire-verify`, lane commands, …).
+- **Slug shortenings** (`statecraft-*` → shorter activation) where operator-facing name diverges from folder history.
+- **Post-rename hygiene:** `validate_skills.py` + targeted grep for old path in RLJ routing lines only (historical trigger prose may stay verbatim).
+
+### Structural changes
+
+| Ship | Path |
+|------|------|
+| Portable core | `skills-portable/civ-state/SKILL.md` v0.1.0 |
+| Appendix | `.cursor/skills/civ-state/CURSOR_APPENDIX.md` |
+| Manifest + catalog | `skills-portable/manifest.yaml`, `catalog.md` |
+| Generated skill | `.cursor/skills/civ-state/SKILL.md` (sync) |
+| Doctrine | `statecraft/README.md`, `states/README.md`, coffee + work-coffee docs |
+| Removed | `.cursor/skills/statecraft-civ-state/` |
+
+### Guardrail
+
+```text
+Renaming only .cursor/skills/*/SKILL.md without portable + manifest → next sync overwrites or drift;
+doctrine-only rename without manifest → portable hosts never see the skill;
+grep "old-slug" after rename — RLJ historical paths OK; live routing links must move.
+```
+
+**Falsification:** If skill stays Cursor-only (no `portable: true`), skip manifest — rename is folder + references only; do not force portable ladder on one-host skills.
+
+### Current lesson
+
+```text
+civ-state rename: portable core owns methodology, appendix owns paths, sync owns Cursor SKILL.md —
+doctrine says civ-state first, statecraft civ-state second.
+```
+
+Routing: [skills-portable/README.md](../skills-portable/README.md) · [civ-state skill](../.cursor/skills/civ-state/SKILL.md) · [portable-skills-sync skill](../.cursor/skills/portable-skills-sync/SKILL.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md)
+
+**Pattern promotion:** defer until a second skill rename follows the same ladder without rework.
+
+---
+
+## 2026-06-18 - Parallel ban on file tools (Windows EXECUTE ship)
+
+**Tag:** `parallel-ban-file-tools-execute-2026-06-18`  
+**Cross-link:** [Cold-thread lane entry](#2026-06-18---cold-thread-lane-entry-bounded-read-no-parallel-warmup) · [Portable-sync skill rename](#2026-06-18---portable-sync-skill-rename-ladder-civ-state-proof) — same harness family; this entry **narrows** to **multi-step EXECUTE / plan ship** on one file path.
+
+### Trigger
+
+`civ-state` wiring plan failed **four** tool attempts (parallel Read+Shell ~206s, unbounded Read ~237s, monolithic Write ~213s, parallel StrReplace×2 ~333s). Operator locked **harness stalls** as primary friction. Ship succeeded only after **parallel ban**: one mutation surface per turn; sequential in-process Python patches; single sync at phase end. Plan encoded **Agent execution discipline**; operator asked to make law durable via **recursive-learn**.
+
+### Extracted law
+
+**No parallel Cursor file tools on the same path — especially after a hang.**
+
+```text
+EXECUTE / plan ship on Windows:
+→ one StrReplace OR one in-process python patch pass per file per turn
+→ never batch parallel Read+Shell, Write+Read, or StrReplace×N on same path
+→ no monolithic full-file Write on large SKILL.md — section hunks only
+→ verify: bounded Read limit≤40 on patched hunk
+→ shell batch (sync/validate) once per phase, not between every slice
+→ after second consecutive hang: stop — fresh thread + re-entry block
+```
+
+**In-process Python** (one Shell, sequential replaces in memory) is allowed — it avoids parallel **editor** tool contention, not an excuse to skip verify.
+
+### Reapplication
+
+- Any **multi-file plan EXECUTE** on Windows (`civ-state`, portable sync ladder, skill neighbor wiring).
+- **Post-hang threads:** strict one-tool-one-path until a patch lands.
+- **RLJ append** after successful plan ship when discipline was load-bearing (this entry).
+
+### Structural changes
+
+| Ship | Path |
+|------|------|
+| civ-state wiring v0.2.0 | `skills-portable/civ-state/SKILL.md`, appendix, sync |
+| Execute discipline (plan) | `civ-state_skill_wiring_1a224a05.plan.md` § Agent execution discipline |
+| RLJ pointer | `recursive-learn` appendix + portable § Execute ship discipline |
+| Always-on cross-link | `.cursor/rules/agent-tool-latency-discipline.mdc` rule **#10** |
+
+### Guardrail
+
+```text
+Parallel ban ≠ never batch work — one Shell with python -c sequential replaces is OK;
+parallel StrReplace/Write tool calls on one file → repeat stall, not speed;
+decorative RLJ without a failed-then-succeeded execute thread → skip append.
+```
+
+**Falsification:** If Cursor tool latency fixes make parallel StrReplace reliable, narrow to **post-hang threads only** — do not delete cold-thread entry law.
+
+### Current lesson
+
+```text
+The parallel ban unlocked the civ-state plan ship — not a bigger Write.
+One path, one turn, verify the hunk, sync once at phase end.
+```
+
+Routing: [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · [recursive-learn skill v0.2.3](../.cursor/skills/recursive-learn/SKILL.md) · [civ-state skill v0.2.0](../.cursor/skills/civ-state/SKILL.md)
+
+**Pattern promotion:** defer until second distinct plan EXECUTE proves the same law without rework.

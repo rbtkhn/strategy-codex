@@ -3,7 +3,7 @@ name: recursive-learn
 preferred_activation: recursive learn
 description: "Governed session review and journal entry for reusable machine laws. SSOT journal: statecraft/recursive-learning-journal.md."
 portable: true
-version: 0.2.1
+version: 0.2.3
 tags:
   - operator
   - statecraft
@@ -195,6 +195,21 @@ RLJ is **post-encoding consolidation** (conductor is **mid-day pressure**). Stan
 | recursive-learn | Locks machine law **after** encoding |
 | repo-hygiene-pass | Structural changes section after bucketed ship |
 | statecraft-source-intake | Closeout / sync-check laws after intake fix |
+| civ-state | Upstream CIV-STATE bench; wire-bridge + public retrieval; close may offer RLJ — not mid-menu |
+
+## Execute ship discipline (Windows harness)
+
+When a **plan EXECUTE** or multi-skill ship fails on tool timeout then succeeds after discipline change, run RLJ.
+
+**Law (SSOT detail):** [recursive-learning-journal § parallel ban on file tools](../../statecraft/recursive-learning-journal.md#2026-06-18---parallel-ban-on-file-tools-windows-execute-ship) · always-on [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc) rule **#10**.
+
+```text
+one path per turn → no parallel StrReplace/Write/Read+Shell on same file
+section hunks or in-process python sequential patch → verify Read limit≤40
+sync/validate once per phase
+```
+
+Offer session review when operator says **`recursive learn`** after a plan ship — do not auto-run mid-EXECUTE.
 
 ## Worked example (illustration only — not yet appended)
 

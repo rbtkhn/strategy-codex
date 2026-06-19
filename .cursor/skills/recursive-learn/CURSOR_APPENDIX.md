@@ -44,6 +44,11 @@ Use **AskQuestion** when append vs promote vs defer is ambiguous.
 | Deferred append pickup | Review drafted; append not yet confirmed |
 | Agent misroute twice | Same wrong path twice → skill/validator wire candidate |
 | Law extraction checkpoint | Mid-session; full review deferred to close |
+| Plan EXECUTE parallel ban | Multi-file ship stalled then succeeded after one-path-per-turn discipline |
+
+## Execute ship discipline
+
+After **plan EXECUTE** on Windows when harness stalls were load-bearing: read journal entry [§ parallel ban on file tools](../../../statecraft/recursive-learning-journal.md#2026-06-18---parallel-ban-on-file-tools-windows-execute-ship) before next multi-skill ship. Always-on rule: [agent-tool-latency-discipline.mdc](../../rules/agent-tool-latency-discipline.mdc) **#10**.
 
 ## Coffee / dream wiring
 
@@ -119,6 +124,15 @@ flowchart TB
 ### Cadence logging (deferred)
 
 Optional future: `log_cadence_event.py --kind rlj_review`. Not required for v0.2.
+
+## civ-state promotion review
+
+When a journal entry encodes **civ-state** routing, wire-bridge, public-first, or harness-entry law:
+
+1. Promotion review outcome `wire skill/validator` → edit [skills-portable/civ-state/SKILL.md](../../../skills-portable/civ-state/SKILL.md) or [CURSOR_APPENDIX](../civ-state/CURSOR_APPENDIX.md).
+2. Run `python3 scripts/sync_portable_skills.py --skill civ-state --verify`.
+3. Cross-link existing journal tags (`cold-thread-lane-entry`, `portable-sync-skill-rename`, Rome ladder) — no silent duplicate.
+4. **Do not** re-open civ-state menu on append — wire only.
 
 ## Portable plumbing
 
