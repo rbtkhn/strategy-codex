@@ -281,18 +281,20 @@ elicitation MCQs → master table + tension pass
 | **B — Split ownership** | Italian Wars + Sack 1527 | Wars `comparative`; Sack `rupture-primary` | Entropy (split tags) |
 | **C — Restitution hinge** | Justinian 529 | — (no new rupture) | Science (`codification_medium`) |
 | **D — Faith-primary schism** | 1054 | cross-ref only on entropy | Faith |
+| **E — Transformation hinge** | Republic → principate | — (not entropy-primary) | Memory + empire (+ civ ethic) |
+| **F — Instrument tail / wind-down** | Colonial procedural tail | wind-down · `contested-weight` | Empire instrument + civ/science dispersion |
 
 ### Wave checklist
 
 | Wave | Nodes | Registry |
 |------|-------|----------|
 | **1** | 1453 · Italian Wars/Sack · Justinian 529 | **active** |
-| **2** | 1054 *(active)* · Republic→principate · colonial tail | 1054 **active** |
+| **2** | 1054 · Republic→principate · colonial tail | **complete** |
 
 **Encode recipe:**
 
 ```text
-rupture-ownership row (connectivity) → archetype A|B|C|D
+rupture-ownership row (connectivity) → archetype A|B|C|D|E|F
 → copy template → six-lens table + cross-ref law + synthesis
 → registry active → validate public/civ-state
 ```

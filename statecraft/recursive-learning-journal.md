@@ -2638,14 +2638,14 @@ Routing: [civ-state skill v0.2.0](../.cursor/skills/civ-state/SKILL.md) · [publ
 
 ---
 
-## 2026-06-19 - Rome hexagonal wave 1 encode (three node archetypes)
+## 2026-06-19 - Rome hexagonal encode (six node archetypes A–F)
 
-**Tag:** `rome-hexagonal-wave1-archetypes-2026-06-19`  
-**Cross-link:** [Rome six-term routing / hexagonal scaffold](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) — prep bundle there; this entry owns **wave-1 encode proof** and **node archetypes**.
+**Tag:** `rome-hexagonal-wave1-archetypes-2026-06-19` · `rome-hexagonal-archetypes-amend-2026-06-19`  
+**Cross-link:** [Rome six-term routing / hexagonal scaffold](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) — prep bundle there; this entry owns **hexagonal encode proof** and **node archetypes** (A–F).
 
 ### Trigger
 
-Operator completed **wave 1** hexagonal demonstrators after Jun 19 prep (template, registry, [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md)). Three nodes encoded: **1453** · **Italian Wars / Sack 1527** · **Justinian 529** — registry `planned` → `active`. Public validator caught export-root escape on `essay-membrane-law` link → fixed to `connectivity-rome.md#essay-types-do-not-conflate` (template + essays). `recursive learn` session review extracted archetype law.
+Operator completed **wave 1** hexagonal demonstrators after Jun 19 prep (template, registry, [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md)). Three nodes encoded: **1453** · **Italian Wars / Sack 1527** · **Justinian 529** — registry `planned` → `active`. Public validator caught export-root escape on `essay-membrane-law` link → fixed to `connectivity-rome.md#essay-types-do-not-conflate` (template + essays). `recursive learn` session review extracted archetype law. **Amend (same arc):** wave 2 complete — **1054** (`908fbd647`, v0.1.33) · **Republic→principate** · **colonial tail** (v0.1.34) — archetypes **D–F** proven; full registry **active**.
 
 ### Extracted law
 
@@ -2656,11 +2656,14 @@ Operator completed **wave 1** hexagonal demonstrators after Jun 19 prep (templat
 | **A — Universal rupture** | 1453 | **`rupture-primary`** | Entropy | Empire loses bridge column; civ = partial-inheritance residue |
 | **B — Split ownership** | Italian Wars + Sack 1527 | Wars = **`comparative`**; Sack = **`rupture-primary`** | Entropy (split) | Empire = instrument theater; **not** 1453-class universal rupture |
 | **C — Restitution hinge** | Justinian 529 | **— (no new rupture)** | **Science** (`codification_medium`) | Restitution **after** 476; codification ≠ shock |
+| **D — Faith-primary schism** | 1054 | **`rupture cross-ref` only** | **Faith** | Entropy **not** primary; East bridge continues to 1453 |
+| **E — Transformation hinge** | Republic → principate | **— (not entropy-primary)** | Memory + empire (+ civ ethic) | Chain continues; form mutates |
+| **F — Instrument tail / wind-down** | Colonial procedural tail | wind-down · **`contested-weight`** | Empire instrument + civ/science dispersion | Not chain head; Papacy present carrier |
 
 ```text
 Hexagonal encode recipe (repeatable):
 connectivity rupture-ownership row → copy _template-hexagonal-rome
-→ classify archetype A | B | C before filling entropy row
+→ classify archetype A | B | C | D | E | F before filling entropy row
 → six-lens table (link ../rome-{term}.md#{segment} only)
 → Cross-ref law (primary-home + do-not-duplicate roster list)
 → short synthesis (six answers compose — preserve tension)
@@ -2669,22 +2672,24 @@ connectivity rupture-ownership row → copy _template-hexagonal-rome
 → public links only (no statecraft/ paths in public tree)
 ```
 
-**Disproportion:** Hexagonal ≠ always entropy-primary — Italian Wars bundle is hardest (one node, two entropy tags); Justinian proves science-first nodes exist.
+**Disproportion:** Hexagonal ≠ always entropy-primary — B splits tags; C science-first; D faith-first; E transformation without shock; F instrument wind-down with mandatory `contested-weight`.
 
 ### Reapplication
 
-- **Wave 2** (1054, Republic→principate, colonial tail): classify archetype before entropy row; **1054** may require **archetype D (faith-primary schism)** — falsify A/B/C only.
-- **Next fractured-sovereignty civ:** prove taxonomy on second volume before `statecraft/patterns/` promotion.
+- **Wave 2 complete** — all six demonstrators **active**; use delineation nodes 1–7 as choreography cross-reads.
+- **Next fractured-sovereignty civ:** six-archetype taxonomy ready; defer `statecraft/patterns/` until second civ reuses A–F without new letter.
 - **Agent encode:** one demonstrator essay per turn; bounded Read on term segments; no parallel six-file Read batch.
+- **Pair reads:** 1054 + 1453 (sacred split vs bridge terminus) · Republic→principate + 476 delineation (transformation vs rupture) · colonial tail + empire-overreach node 4 (wind-down vs expansion).
 
 ### Structural changes
 
 | Ship | Path |
 |------|------|
 | Wave 1 essays | `hexagonal-1453-rome.md`, `hexagonal-italian-wars-rome.md`, `hexagonal-justinian-codification-rome.md` |
-| Registry | `essays/README.md` — wave 1 **active** |
+| Wave 2 complete | `hexagonal-1054-schism-rome.md` (v0.1.33) · `hexagonal-republic-principate-rome.md` · `hexagonal-colonial-tail-rome.md` (v0.1.34) |
+| Registry | `essays/README.md` — waves 1–2 **all active** |
 | Template fix | `_template-hexagonal-rome.md` — public-safe membrane link |
-| VERSION | **v0.1.32** · `docs/release-history.md` |
+| VERSION | **v0.1.32** (wave 1) · **v0.1.33** (1054) · **v0.1.34** (wave 2 complete) · `docs/release-history.md` |
 | Skill wire | `recursive-learn` § Rome hexagonal wave ladder |
 
 ### Guardrail
@@ -2692,19 +2697,23 @@ connectivity rupture-ownership row → copy _template-hexagonal-rome
 ```text
 Do not give every node a rupture-primary entropy row — archetype C exists;
 Do not merge Italian Wars and Sack into one entropy tag — archetype B requires split;
+Do not assign entropy-primary on 1054 — archetype D proven;
+Do not merge 1054 with 1453 — sacred split ≠ bridge terminus;
+Do not treat Republic→principate as 476-class rupture — archetype E;
+Do not promote colonial branches to chain head — archetype F; `contested-weight` mandatory on colonial rows;
 Hexagonal LINKS term SSOT — never re-encode rosters or duplicate spine tables;
 Synthesis that flattens six lenses into one voice → failed demonstrator.
 ```
 
-**Falsification:** If wave 2 **1054** requires faith `rupture-primary` **and** entropy cross-ref with equal weight, add **archetype D** — do not collapse into A.
+**Falsification (closed for D–F):** **1054** → D; **Republic→principate** → E (transformation ≠ rupture); **colonial tail** → F (wind-down ≠ 476). *Open:* second civ must reuse A–F without new archetype before pattern promotion.
 
 ### Current lesson
 
 ```text
-Wave 1 proves the membrane in three shapes: rupture, split rupture, restitution —
-same table, different primary-home declarations.
+Six shapes on one table — classify before the entropy row;
+wave 2 complete: all hexagonal demonstrators active on Rome volume.
 ```
 
-Routing: [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md) · [hexagonal registry](../public/civ-state/volumes/rome/essays/README.md#hexagonal-demonstrators) · [recursive-learn skill](../.cursor/skills/recursive-learn/SKILL.md) · RLJ [hexagonal scaffold](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename)
+Routing: [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md) · [hexagonal registry](../public/civ-state/volumes/rome/essays/README.md#hexagonal-demonstrators) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md) · RLJ [hexagonal scaffold](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename)
 
-**Pattern promotion:** defer until wave 2 (1054) or second civ reuses archetypes without rework.
+**Pattern promotion:** defer until second civ reuses A–F without new archetype.

@@ -4,7 +4,20 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
+
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+**v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.34 — Rome hexagonal wave 2 complete
+
+| Change | Detail |
+|--------|--------|
+| `hexagonal-republic-principate-rome.md` | Archetype E — transformation hinge |
+| `hexagonal-colonial-tail-rome.md` | Archetype F — instrument tail / wind-down |
+| `essays/README.md` | Wave 2 registry **complete** |
+| RLJ + recursive-learn | Six archetypes A–F · hexagonal wave ladder |
 
 **v0.1.32** — Rome hexagonal wave 1: three demonstrator essays (1453 · Italian Wars/Sack 1527 · Justinian 529) · registry active · template public-safe membrane link · three node archetypes (rupture · split · restitution).
 
