@@ -126,13 +126,14 @@ Material ceiling **forces** the off-ramp; sabotage register **predicates** where
 
 **Material (fuse clock):**
 
-1. **US standoff campaign >2–4 weeks** without re-closure — weakens material-ceiling read.
-2. **Material weapons pause** to Israel (not rhetoric) — complicates Kabuki-only read.
+1. **US standoff campaign >2–4 weeks** without re-closure — **unclear / fuse running** at 2026-06-19 wire pass; retest ~Jul 2–9.
+2. **Material weapons pause** to Israel (not rhetoric) — **contradicted** at 2026-06-19 wire pass; operational Lebanon pressure **partial** only.
 3. **SPR/public stock data** sustained above crisis band — tiers Macgregor 2.5–3 wk vs Trump ~4 wk dispute.
 
 **Sabotage (process clock):**
 
-4. **Israel partial withdrawal** from south Lebanon sustained — weakens Lebanon-only-real thesis but not text-sabotage read.
+4. **Israel partial withdrawal** from south Lebanon sustained — **contradicted** at 2026-06-19 wire pass; falsifier **not triggered**.
+5. **Upfront frozen-asset release** before Hormuz/banking — **contradicted** at 2026-06-19 wire pass; falsifier **not triggered** (Davis perform-first holds).
 5. **Shia return** to south Lebanon at scale — stress-tests Blumenthal cleansing frame.
 6. **Congress aid restriction** despite lobby — tests Macgregor/Johnson pessimism on restraining Netanyahu.
 7. **Vance/Bengvir-Smotrich discipline** 30+ days without Lebanon escalation — tests Blumenthal inflection vs instrumental discipline.

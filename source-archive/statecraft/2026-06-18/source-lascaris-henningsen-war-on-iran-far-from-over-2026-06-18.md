@@ -31,6 +31,14 @@ editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-ve
 transcripts_prefix_stripped: true
 caption_wrapper_normalize_applied: true
 transcript_wrapper_tier: paste-prefix
+verify_receipt: 2026-06-19
+verify:
+  - claim: Israel sustained partial withdrawal from south Lebanon post-MOU (convergence falsifier #1)
+    verdict: contradicted
+    note: IDF 18 Jun X post + map — 6–10 km security zone maintained; Katz/Reuters 18 Jun stubborn US talks, no Litani pullback; Al-Awsat — no real withdrawal indications; Khiam vehicle moves tactical only (Libnanews 18 Jun)
+  - claim: MOU Art. 1 Lebanon ceasefire / territorial integrity binding on ground
+    verdict: partial
+    note: BBC/CNN MOU text supported; Israel not party; strikes decreased post-MOU not stopped (Washington Times 18 Jun); Baghaei annulment threat if occupation continues
 ---
 
 # The War On Iran Is Far From Over w/ Patrick Henningsen

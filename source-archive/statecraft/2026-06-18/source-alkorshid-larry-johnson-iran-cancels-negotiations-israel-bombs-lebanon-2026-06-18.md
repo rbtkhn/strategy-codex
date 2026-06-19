@@ -32,6 +32,14 @@ caption_wrapper_normalize_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 19 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-18; ph-civ replacement SSOT."
+verify_receipt: 2026-06-19
+verify:
+  - claim: Iran skips Geneva/Switzerland signing over Lebanon (convergence falsifier #5; Johnson Vance ep tension)
+    verdict: partial
+    note: MOU signed digitally 18 Jun; Geneva ceremony canceled (WANA/Fox 18 Jun); Burgenstock talks delayed 19 Jun (SCMP); Al Mayadeen Lebanon-strikes link to delegation delay = tier 4 relay; Johnson Lebanon ep "they'll go" not falsified — travel deferred not abandoned
+  - claim: Iran will not travel to Switzerland for MOU-related talks
+    verdict: partial
+    note: White House 19 Jun — Vance delegation prepared, talks not finalized; Swiss FM 18 Jun Burgenstock plan still cited (Al Jazeera)
 ---
 # BREAKING: IRAN CANCELS NEGOTIATIONS AS ISRAEL BOMBS LEBANON — w/ Fmr. CIA Larry Johnson
 

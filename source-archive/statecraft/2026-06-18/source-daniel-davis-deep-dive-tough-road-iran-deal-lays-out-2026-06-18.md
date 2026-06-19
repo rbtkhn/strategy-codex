@@ -26,6 +26,14 @@ transcript_wrapper_tier: clean
 caption_wrapper_normalize_applied: true
 davis_close_promo_trim_applied: true
 editorial_note: Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved.
+verify_receipt: 2026-06-19
+verify:
+  - claim: Upfront frozen-asset release before durable Hormuz/open banking (convergence falsifier #2)
+    verdict: contradicted
+    note: Falsifier not triggered — sequencing skepticism holds; US officials deny upfront release — pay-for-performance (Iran International 17 Jun · Axios relay 15 Jun); Art 11 MOU text ties release to implementation/negotiation (CNN/BBC); Iranian $12–24B upfront claims = contested spin (Mehr/Economic Times vs US denial)
+  - claim: MOU releases frozen funds automatically upon signing
+    verdict: contradicted
+    note: Same pass; gradual release during 60-day talks if compliance only (BBC US official Wed)
 ---
 
 # Tough Road Iran Deal Lays Out / Lt Col Daniel Davis

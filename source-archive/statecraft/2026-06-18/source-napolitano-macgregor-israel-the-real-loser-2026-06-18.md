@@ -34,6 +34,14 @@ napolitano_leading_noise_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 12 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Canned sponsor read trimmed in place; SSOT body otherwise preserved."
 quality_note: "ASR normalization pass 2026-06-18; ph-civ replacement SSOT."
+verify_receipt: 2026-06-19
+verify:
+  - claim: Netanyahu won't leave Lebanon / security zone (Macgregor clip)
+    verdict: supported
+    note: AP 18 Jun security zone indefinitely; Katz/Reuters 18 Jun; IDF map 6–10 km — post-wire tier already on convergence note
+  - claim: Netanyahu compliance rhetoric + ground quiet 7+ days (convergence falsifier #6)
+    verdict: contradicted
+    note: Falsifier not triggered — spine holds; AP/NST/Malay Mail 16–18 Jun fighting eased not stopped; Yedioth 18 Jun strike decline = absent political instructions not policy shift; 7-day window not elapsed at wire pass
 ---
 # COL. Douglas Macgregor : Israel The Real Loser
 

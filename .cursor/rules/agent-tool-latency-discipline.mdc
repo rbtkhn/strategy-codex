@@ -9,20 +9,21 @@ alwaysApply: true
 
 ## Hard rules
 
-1. **Known path → `Read`, not `Grep`.** If the file is already named, use `Read` with `limit`/`offset`.
+1. **Known path → `Read`, not `Grep`.** If the file is already named, use `Read` with `limit`/`offset`. **Exception — statecraft source intake land:** do **not** `Read` existing `source-archive/statecraft/**/source-*.md` for family calibration; use [statecraft-source-intake](../../.cursor/skills/statecraft-source-intake/SKILL.md) § Default execution order (sidecar `Write` + one merge) instead.
 2. **No parallel search storms.** One `Read` (≤120 lines) beats multiple `Grep`s on the same target.
 3. **One shell per intent.** Combine commands with `;` — each `Shell` call pays ~8–10s harness tax on Windows.
 4. **Small ships:** `python3 scripts/operator_handoff_check.py --fast` — not full handoff every slice.
-5. **After any hang or "interrupted" in the thread:** `Read` + `Write` only; no `Grep`, `Glob`, `SemanticSearch`.
-6. **Never retry the same hung tool shape** on the same paths — fail over to `Read` or ask for a line range.
-7. **Large statecraft archive lands:** when `statecraft source intake` applies, do **not** monolithic-`Write` large `source-archive/statecraft/` captures — use `python scripts/land_statecraft_intake.py` (Mercouris solo and bodies ≥12 KB / ≥80 lines; always chunks Mercouris). Fallback: `land_statecraft_source_body.py` with header + body sidecars under `source-archive/statecraft/YYYY-MM-DD/_land_<slug>/` or `.codex-tmp/land/` (see [statecraft-source-intake](../../.cursor/skills/statecraft-source-intake/SKILL.md)).
+5. **After any hang or "interrupted" in the thread:** default `Read` + `Write` only; no `Grep`, `Glob`, `SemanticSearch`. **Exception — statecraft source intake:** sidecar `Write` under `_land_<slug>/` + **one** `land_statecraft_source_body.py` merge + post-land chain only — no archive `Read`, no template-neighbor `Read`, no `Task` subagents, no monolithic archive `Write`.
+6. **Never retry the same hung tool shape** on the same paths — fail over per lane: intake → sidecar merge (above); otherwise bounded `Read` or ask for a line range.
+7. **Large statecraft archive lands:** when **`source-intake`** or **`statecraft source intake`** applies, **default** chunked sidecar land on Windows (Mercouris solo: always). Do **not** monolithic-`Write` the final `source-archive/statecraft/` capture. Use `land_statecraft_source_body.py` with `header.md` + `body-*.txt` under `source-archive/statecraft/YYYY-MM-DD/_land_<slug>/` (preferred) or `.codex-tmp/land/`; optional wrapper `land_statecraft_intake.py` when flags suffice. Full recipe: [statecraft-source-intake](../../.cursor/skills/statecraft-source-intake/SKILL.md) § Default execution order.
 8. **No subprocess-per-file loops** for repo scripts under `scripts/`. Do **not** wrap `python scripts/<name>.py` in a Python `subprocess` loop over known paths (especially on Windows — each spawn pays harness startup tax and may show no progress for minutes). **Import and call in-process**, or use the script's **batch flags** (`--day`, `--month`, `--root`, repeatable `--path`) in **one** shell invocation. After a hang or interrupt on a batch check, **fail over** to in-process import or a single batch CLI — never retry the subprocess loop.
+9. **Wire-verify / falsifier `verify:` on landed captures:** patch **YAML frontmatter only** — `Read` with `limit` ≤40, or shell `Get-Content -TotalCount 40` / `Select-String` on `^verify:` — then `StrReplace` before `---`. Tier falsifiers in the **convergence note** (or daily/brief) first; archive `verify:` is optional receipt. Do **not** `Read`/`Grep` transcript bodies for hook grading. **One capture header per turn** after a hang; never parallel `Read`/`Grep` on multiple `source-*.md` files. Skill: [wire-verify](../../.cursor/skills/wire-verify/SKILL.md). RLJ: [recursive-learning-journal § 2026-06-19 wire-verify header-only](../../statecraft/recursive-learning-journal.md#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts).
 
 ## Bounded paths (always `Read`)
 
 - `source-archive/statecraft/YYYY-MM-DD/README.md` — **day source-index** (ingest register); never Glob/Grep for a dated `source-index` query
 - `statecraft/daily/*.md`, watch sheets, wire matrices
-- Single `source-archive/statecraft/<day>/source-*.md`
+- Single `source-archive/statecraft/<day>/source-*.md` — **read for synthesis/verify after land**, not for pre-land family calibration during intake; **wire-verify / falsifier `verify:`** → frontmatter only (hard rule 9), not full transcript `Read`/`Grep`
 - Files the operator has open — `Read` them; don't repo-wide `Grep`
 
 Use `Grep` / `SemanticSearch` only when the path is **unknown** or the search spans **many** files.
@@ -36,6 +37,7 @@ Before `Grep`, `Glob`, `SemanticSearch`, or `Task` with explore/subagent:
    - a bounded `Read` or repo CLI exists for the query;
    - this thread already had a tool hang or "interrupted";
    - the task is add/edit one file and search is only for "patterns."
+   - the task is **statecraft source intake** with operator paste in hand (use sidecar land recipe instead)
 
 2. **Ask the operator** (one sentence: tool, scope, why `Read` is insufficient). Wait for yes or a narrower path.
 

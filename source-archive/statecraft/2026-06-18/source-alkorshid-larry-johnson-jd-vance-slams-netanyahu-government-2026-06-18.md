@@ -32,6 +32,17 @@ caption_wrapper_normalize_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-18; ph-civ replacement SSOT."
+verify_receipt: 2026-06-19
+verify:
+  - claim: Vance twothirds defensive weapons / smell the reality (MOU-day hinge)
+    verdict: supported
+    note: The Hill 18 Jun; Ynet 18 Jun reads twothirds as implied weapons leverage not formal pause
+  - claim: Material US weapons pause or embargo on Israel (convergence falsifier #4)
+    verdict: contradicted
+    note: No DoD/State hold; Breaking Defense Jun $8.6B emergency FMS includes Israel; Trump dismisses embargo (Yeshiva World/CNN 18–19 Jun); Maariv Israeli-official fear ≠ enacted policy
+  - claim: US operational pressure on Israel to scale back Lebanon offensive
+    verdict: partial
+    note: CNN Jun 1 heated Trump-Netanyahu call; Maariv five-position withdrawal demand not implemented; IDF 18 Jun entrenchment map
 ---
 # Larry Johnson: "ENOUGH!" - Vice President JD Vance SLAMS Netanyahu's Government in Heated Rant
 

@@ -2316,3 +2316,126 @@ then wave-1 demonstrators prove the membrane without touching term rosters again
 Routing: [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md) · [hexagonal template](../public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md) · civ-state **v0.1.31** (encode) · commits `4e7a0b1f3` · `e9bd85aa2` · `5ddef0d64`.
 
 **Pattern promotion:** [essay-membrane-law.md](../patterns/essay-membrane-law.md) — Rome proof object; full ladder gate = second multi-term volume reuse.
+
+---
+
+## 2026-06-19 - Wire-verify header-only path (archive YAML receipts)
+
+**Tag:** `j18-mou-wire-verify-harness-2026-06-19`  
+**Cross-link:** [Rome six-term routing / harness stall](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) — same Windows parallel-read failure mode; this entry **narrows** to **landed statecraft archive wire-verify**, not civ-state volume reads.
+
+### Trigger
+
+J18 MOU falsifier wiring (**#1, #4–6**) stalled **three times** (~224–342s): parallel `Read`/`Grep` on large `source-archive/statecraft/2026-06-18/source-*.md` transcript captures + batched `WebSearch`. Recovery succeeded only via **`Get-Content -TotalCount 38`** + `StrReplace` on YAML frontmatter — no transcript body read.
+
+### Extracted law
+
+**Wire-verify on landed captures = header-only edit path.**
+
+```text
+tier falsifiers in convergence note / daily (primary SSOT)
+→ optional verify: + verify_receipt in capture frontmatter (receipt)
+→ never Read/Grep transcript body for hook grading
+→ after hang: one header slice per turn (Read limit≤40 or shell -TotalCount 40)
+```
+
+**Falsifier disambiguation (J18 proof):** “Iran skips Geneva” = **ceremony/travel deferral**, not “MOU unsigned”; Johnson same-day split stays **partial** until delegation travel resolves.
+
+### Reapplication
+
+- **`wire-verify`** / **`fact check`** sub-hooks on ingested `source-*.md` — frontmatter patch only; cite external wire in note table first.
+- **Post-hang threads** on `source-archive/statecraft/**` — rule 9 in [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc); operator `fast tools` when thread already interrupted.
+- **Daily synthesis** — carry post-wire tier table from parent note; archive YAML optional unless operator wants disk receipts.
+
+### Structural changes
+
+| Ship | Path |
+|------|------|
+| Post-wire tiers #1, #4–6 | `statecraft/notes/june-18-2026-mou-convergence.md` |
+| `verify:` receipts | Henningsen, Johnson Vance, Johnson Lebanon, Macgregor captures under `2026-06-18/` |
+| Anti-hang rule **#9** | `.cursor/rules/agent-tool-latency-discipline.mdc` |
+| RLJ append | this entry |
+
+*(Wire slice uncommitted at append — commit separately.)*
+
+### Guardrail
+
+```text
+verify: YAML lives in frontmatter — transcript body is tier-4 commentary, not wire grade;
+parallel Read/Grep on multiple source-*.md after a hang → repeat stall, not diligence;
+convergence-note post-wire table is falsifier SSOT — archive verify: is receipt, not gate to tier.
+```
+
+**Falsification:** If a hook exists only inside body with no frontmatter anchor, escalate **one** named sub-hook to fact-check — do not “recover” by reading the full capture.
+
+### Current lesson
+
+```text
+When wire-verify stalls on archive paths, ship tiers in the note first;
+patch verify: YAML via shell header slice — one file per turn — never re-open the transcript.
+```
+
+Routing: [june-18-2026-mou-convergence.md](./notes/june-18-2026-mou-convergence.md) · [wire-verify skill](../.cursor/skills/wire-verify/SKILL.md) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md)
+
+**Pattern promotion:** defer — second distinct wire-verify batch on another day before `statecraft/patterns/` promotion.
+
+---
+
+## 2026-06-18 - Cold-thread lane entry (bounded Read, no parallel warmup)
+
+**Tag:** `cold-thread-lane-entry-harness-2026-06-18`  
+**Cross-link:** [Rome six-term routing / harness stall](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) · [Wire-verify header-only path](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts) — same Windows parallel-tool failure family; this entry **narrows** to **cold-thread territory activation** (`civ-state`, `recursive-learn`), not civ-state volume reads or archive wire-verify.
+
+### Trigger
+
+Operator **`civ-state`** on a cold thread. Agent opened with **parallel** `Read` (full skill) + `Shell` (`harness_warmup.py`) → both interrupted ~206s, no output. Operator asked why; picked **A** (bounded skill read, no shell) → `Read` on `statecraft-civ-state/SKILL.md` interrupted again ~237s. Operator then **`recursive-learn`**. Recovery: **`Read` with `limit: 80`** on `recursive-learn/SKILL.md` succeeded; journal tail preflight succeeded.
+
+### Extracted law
+
+**Cold-thread territory entry = one bounded Read slice first; never batch skill + shell.**
+
+```text
+operator names lane (civ-state | recursive-learn | …)
+→ Read skill SSOT limit≤80 (first slice only)
+→ deliver lane menu in chat
+→ harness_warmup / shell only if operator picks ship/integrity fork
+→ after any hang: no parallel tools; no full-file Read retry
+→ operator fast tools | read only → strict Read/Write, zero Shell
+```
+
+**Proof in-thread:** limit-80 `recursive-learn/SKILL.md` returned; unbounded / parallel paths did not.
+
+### Reapplication
+
+- **Any lane keyword on thread open** (`civ-state`, `wire-verify`, `conductor`, …) — skill first slice + menu; defer warmup unless operator picks ship/integrity fork.
+- **Post-hang recovery** — next turn is one `Read` with `limit≤80` or operator-named path range; not the same parallel batch.
+- **RLJ preflight** — journal tail via `Read offset:-80`; skip duplicate full-journal grep until append confirm.
+
+### Structural changes
+
+| Item | Status |
+|------|--------|
+| Code / validators | None this session |
+| Doctrine | **Review-only** — reinforces [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) rules 1–6 |
+| Possible wire | Add one line to `statecraft-civ-state/SKILL.md` entry block: *cold thread → Read limit≤80 first; no parallel warmup* |
+
+### Guardrail
+
+```text
+Bounded Read success ≠ license to parallel Shell on the same turn;
+civ-state menu can ship from skill slice + known paths — warmup is optional, not entry gate;
+do not append near-duplicate harness law without cross-link/narrow (journal already has Rome + wire-verify stalls).
+```
+
+**Falsification:** If limit-80 reads also stall reliably, law shifts to **operator paste line range** or **CLI head slice** — not “try Read again harder.”
+
+### Current lesson
+
+```text
+civ-state on a cold thread: one skill slice, menu in chat, no warmup batch —
+after a hang, the next tool call must be smaller, not the same shape.
+```
+
+Routing: [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · [statecraft-civ-state skill](../.cursor/skills/statecraft-civ-state/SKILL.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md)
+
+**Pattern promotion:** defer — harness stall family already in journal; narrow reapplication only until second distinct cold-thread lane proves the law on another territory.

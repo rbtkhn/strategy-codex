@@ -30,6 +30,14 @@ opening_tier: host-tease
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
 editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio.
 transcript_wrapper_tier: clean
+verify_receipt: 2026-06-19
+verify:
+  - claim: US standoff campaign >2–4 weeks without re-closure post-MOU (convergence falsifier #3)
+    verdict: unclear
+    note: Fuse clock running — MOU signed 17–18 Jun; only ~1–2 days elapsed at wire pass; no US strike resumption located; Hormuz partial reopen (AP/Lloyd's List 18 Jun); Trump walk-away rhetoric only (BBC/Time); falsifier live until ~Jul 2–9 window
+  - claim: ~2-week US munitions / re-war ceiling (Martyanov tier-4 forecast)
+    verdict: unclear
+    note: Not wire-grade; GAO F-35 25% FMC supported separately; standoff duration test pending
 ---
 
 # Andrei Martyanov: Israel Just Dealt a Defeat to the US
