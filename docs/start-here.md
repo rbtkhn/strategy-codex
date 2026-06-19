@@ -34,7 +34,7 @@ Pick **one letter** (same A–F as [README § Choose your path](../README.md#cho
 |------|----------|------------|
 | **A** | Companion (fork revive / seed) | [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md) |
 | **B** | Parent or guardian | [seed-phase-survey.md](seed-phase-survey.md) |
-| **C** | **Operator (default)** | Promotion ladder below · [statecraft/README.md](../statecraft/README.md) · [Architecture map](harness-architecture-map.md) |
+| **C** | **Operator (default)** | Promotion ladder below · [statecraft/README.md](../statecraft/README.md) · [Architecture map](harness-architecture-map.md) · [Root directory map](root-directory-map.md) |
 | **D** | Technical contributor | [skill-work/work-dev/](skill-work/work-dev/) |
 | **E** | Curious visitor | [harness-architecture-map.md](harness-architecture-map.md) · [intelligence-harness.md](intelligence-harness.md) · [product-identity.md](product-identity.md) · [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md) |
 | **F** | Journalist / blogger | [Door F](#door-f) |

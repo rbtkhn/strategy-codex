@@ -28,7 +28,12 @@ LAST_DREAM_FILENAME = "last-dream.json"
 
 def read_previous_dream_generated_at(users_dir: Path, user_id: str) -> datetime | None:
     """Parse ``generated_at`` from existing last-dream.json, or None."""
-    path = users_dir / user_id / LAST_DREAM_FILENAME
+    try:
+        from repo_io import resolve_last_dream_path
+
+        path = resolve_last_dream_path(user_id, users_dir)
+    except ImportError:
+        path = users_dir / user_id / LAST_DREAM_FILENAME
     if not path.is_file():
         return None
     try:

@@ -36,7 +36,7 @@ try:
     from harness_events import append_harness_event
     from recursion_gate_review import parse_review_candidates
     from repo_io import profile_dir as canonical_profile_dir
-    from repo_io import resolve_self_memory_path, resolve_surface_markdown_path
+    from repo_io import resolve_ledger_path, resolve_self_memory_path, resolve_surface_markdown_path
 except ImportError:
     from scripts.export_fork import export_fork
     from scripts.export_intent_snapshot import export_intent_snapshot
@@ -46,7 +46,7 @@ except ImportError:
     from scripts.harness_events import append_harness_event
     from scripts.recursion_gate_review import parse_review_candidates
     from scripts.repo_io import profile_dir as canonical_profile_dir
-    from scripts.repo_io import resolve_self_memory_path, resolve_surface_markdown_path
+    from scripts.repo_io import resolve_ledger_path, resolve_self_memory_path, resolve_surface_markdown_path
 
 
 RUNTIME_MODES = {
@@ -228,7 +228,10 @@ def export_runtime_bundle(
     copied_audit_paths: list[str] = []
     if RUNTIME_MODES[runtime_mode]["include_audit"]:
         for name in audit_sources:
-            src = profile_dir / name
+            if name.endswith(".jsonl"):
+                src = resolve_ledger_path(user_id, name)
+            else:
+                src = profile_dir / name
             if not src.exists():
                 continue
             dst = audit_dir / name
@@ -273,13 +276,19 @@ def export_runtime_bundle(
     fork_history_paths: list[str] = []
     fh_dir = out_dir / "fork-history"
     fh_dir.mkdir(parents=True, exist_ok=True)
-    for src_name in ("fork_state.json", "drift-report.json", "fork-lineage.jsonl"):
+    for src_name in ("fork_state.json", "drift-report.json"):
         src = profile_dir / src_name
         if src.is_file():
             dst = fh_dir / src_name
             dst.write_bytes(src.read_bytes())
             fork_history_paths.append(str(dst.relative_to(out_dir)))
             derived_paths.append(dst)
+    fork_lineage = resolve_ledger_path(user_id, "fork-lineage.jsonl")
+    if fork_lineage.is_file():
+        dst = fh_dir / "fork-lineage.jsonl"
+        dst.write_bytes(fork_lineage.read_bytes())
+        fork_history_paths.append(str(dst.relative_to(out_dir)))
+        derived_paths.append(dst)
     snap_dir = profile_dir / "snapshots"
     if snap_dir.is_dir():
         snaps = sorted(snap_dir.glob("*.json"), key=lambda p: p.stat().st_mtime, reverse=True)

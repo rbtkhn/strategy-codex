@@ -259,6 +259,8 @@ prepared-context/working/
 # Misc
 *.pem
 .vercel
+pytest-cache-files-*/
+.codex-bin
 
 # Domain migration backups (migrate-to-domain-surface.py; local only)
 backups/

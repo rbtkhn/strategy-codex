@@ -194,10 +194,10 @@ def build_conductor_mcq_for_user(user_id: str) -> str:
     dream: dict[str, Any] | None = None
     try:
         try:
-            from repo_io import profile_dir
+            from repo_io import resolve_last_dream_path
         except ImportError:
-            from scripts.repo_io import profile_dir
-        p = profile_dir(user_id) / "last-dream.json"
+            from scripts.repo_io import resolve_last_dream_path
+        p = resolve_last_dream_path(user_id)
         if p.is_file():
             dream = json.loads(p.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError, TypeError):

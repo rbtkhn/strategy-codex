@@ -40,6 +40,7 @@ except ImportError:
     build_night_pulse_lines = None  # type: ignore[misc, assignment]
 
 RUNTIME_NOISE_MARKERS = (
+    "runtime/operator-events/",
     "pipeline-events.jsonl",
     "harness-events.jsonl",
     "cadence-learning-events.jsonl",

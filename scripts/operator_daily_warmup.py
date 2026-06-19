@@ -86,7 +86,17 @@ def _coffee_context_budget() -> dict:
 
 
 def _read_last_dream(user_dir: Path) -> dict | None:
-    path = user_dir / LAST_DREAM_FILENAME
+    try:
+        from repo_io import profile_dir, resolve_last_dream_path
+
+        if user_dir.resolve() == profile_dir("").resolve():
+            path = resolve_last_dream_path("")
+        else:
+            path = user_dir / "daily-handoff" / LAST_DREAM_FILENAME
+            if not path.is_file():
+                path = user_dir / LAST_DREAM_FILENAME
+    except ImportError:
+        path = user_dir / LAST_DREAM_FILENAME
     if not path.exists():
         return None
     try:
@@ -132,7 +142,7 @@ def should_collapse_dream_handoff(dream: dict, *, verbose_dream: bool = False) -
 def _short_tomorrow_inherits(dream: dict, *, max_len: int = 110) -> str:
     raw = str(dream.get("tomorrow_inherits") or "").strip()
     if not raw:
-        return "see `last-dream.json` or `--verbose-dream`"
+        return "see `daily-handoff/last-dream.json` or `--verbose-dream`"
     t = raw.replace("**", "").replace("`", "")
     t = " ".join(t.split())
     if len(t) > max_len:
@@ -345,7 +355,7 @@ def _format_last_dream_block(
             body.append(format_tomorrow_inherits_line(paths, idx, reason))
         else:
             body.append(
-                "- Tomorrow inherits: see `last-dream.json` or run warmup with `--verbose-dream`."
+                "- Tomorrow inherits: see `daily-handoff/last-dream.json` or run warmup with `--verbose-dream`."
             )
     learning_action = str(dream.get("learning_action_recommendation") or "").strip()
     if learning_action:

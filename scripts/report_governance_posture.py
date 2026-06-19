@@ -22,7 +22,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from repo_io import profile_dir  # noqa: E402
+from repo_io import profile_dir, resolve_ledger_path  # noqa: E402
 
 
 def _git_short_hash(cwd: Path) -> str:
@@ -64,17 +64,29 @@ def build_governance_posture_markdown(
     instead of ``<user_id>/`` under the real repo.
     """
     uid = user_id.strip() or "grace-mar"
-    base = f"{uid}"
     prof = profile_override if profile_override is not None else profile_dir(uid)
+    base = f"{uid}"
     ts = generated_at_utc or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     gref = git_ref if git_ref is not None else _git_short_hash(repo_root)
+
+    def _ledger_display_rel(name: str) -> str:
+        if profile_override is not None:
+            return f"{base}/{name}"
+        p = resolve_ledger_path(uid, name)
+        try:
+            return str(p.relative_to(repo_root)).replace("\\", "/")
+        except ValueError:
+            return f"{base}/{name}"
+
+    merge_rel = _ledger_display_rel("merge-receipts.jsonl")
+    pipeline_rel = _ledger_display_rel("pipeline-events.jsonl")
 
     audit_files: list[tuple[str, str]] = [
         (f"{base}/recursion-gate.md", "Gate queue and candidate YAML"),
         (f"{base}/self.md", "Record profile (canonical identity)"),
         (f"{base}/self-archive.md", "EVIDENCE (dated spine)"),
-        (f"{base}/merge-receipts.jsonl", "Merge batch receipts (append-only)"),
-        (f"{base}/pipeline-events.jsonl", "Pipeline staged vs applied"),
+        (merge_rel, "Merge batch receipts (append-only)"),
+        (pipeline_rel, "Pipeline staged vs applied"),
         (f"{base}/harness-events.jsonl", "Harness / audit-lane events"),
         (f"{base}/session-log.md", "Session and merge footnotes"),
         (f"{base}/self-evidence.md", "Optional ACT pointer / alternate evidence entry"),
@@ -109,9 +121,9 @@ def build_governance_posture_markdown(
         "| **Staged vs merged** | Staged only, or written to the Record? | Staging → gate; merge → "
         "`process_approved_candidates.py` ([AGENTS.md](../AGENTS.md)) |\n",
         "| **Receipts** | What batch landed? | "
-        f"`{base}/merge-receipts.jsonl` |\n",
+        f"`{merge_rel}` |\n",
         "| **Pipeline events** | Staged vs applied linked? | "
-        f"`{base}/pipeline-events.jsonl` |\n",
+        f"`{pipeline_rel}` |\n",
         "| **Last merge footprint** | Evidence / session line? | "
         f"`{base}/self-evidence.md` (if used), `{base}/session-log.md` |\n",
         "| **Harness / replay** | Explain a candidate or event? | "

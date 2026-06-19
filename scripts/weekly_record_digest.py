@@ -28,7 +28,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from repo_io import DEFAULT_PROFILE_ID, profile_dir
+from repo_io import DEFAULT_PROFILE_ID, profile_dir, resolve_ledger_path
 
 DEFAULT_USER = DEFAULT_PROFILE_ID
 DEFAULT_DAYS = 7
@@ -82,7 +82,7 @@ def _git_log_record_commits(user_id: str, days: int) -> list[dict]:
 
 def _parse_pipeline_events(user_id: str, days: int) -> dict:
     """Count pipeline events by type in the window."""
-    events_path = profile_dir(user_id) / "pipeline-events.jsonl"
+    events_path = resolve_ledger_path(user_id, "pipeline-events.jsonl")
     if not events_path.is_file():
         return {"staged": 0, "applied": 0, "rejected": 0, "total": 0}
 

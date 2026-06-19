@@ -92,7 +92,7 @@ Routing law: *what system is emerging* (singularity) vs *what object must be jud
 
 **Authority vs weather:** [runtime-vs-record.md](runtime-vs-record.md) — Record is gated; runtime is derived or disposable.
 
-**Runtime surfaces:** [docs/runtime/](runtime/) (worker, observations, tacit, complements, chunks, context budgeting).
+**Runtime surfaces:** [docs/runtime/](runtime/) (worker, observations, tacit, complements, chunks, context budgeting). **Root layout:** [root-directory-map.md](root-directory-map.md).
 
 **AFK vs operator:** [runtime/afk-operator-boundary.md](runtime/afk-operator-boundary.md) — scoped automation produces artifacts; operator owns promotion, ship, and merge.
 
@@ -150,6 +150,7 @@ For **structural architecture** questions (harness vs model, membrane, queue, AF
 
 ## Return path
 
+- [root-directory-map.md](root-directory-map.md)
 - [intelligence-harness.md](intelligence-harness.md)
 - [start-here.md](start-here.md)
 - [LLM-ROUTING.md](../LLM-ROUTING.md)

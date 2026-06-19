@@ -35,7 +35,7 @@ from emit_pipeline_event import append_pipeline_event
 from log_cadence_event import append_cadence_event, resolve_cursor_model
 from cadence_learning import log_dream_stage
 from harness_warmup import _pending_candidates
-from repo_io import DEFAULT_USER_ID, profile_dir, resolve_self_memory_path
+from repo_io import DEFAULT_USER_ID, profile_dir, resolve_self_memory_path, last_dream_write_path
 
 DEFAULT_USER = DEFAULT_USER_ID
 
@@ -572,7 +572,7 @@ def _write_last_dream_handoff(
     handoff["worktreeState"] = wt_state
     handoff["worktreeAdvice"] = wt_adv
 
-    path = _user_root(users_dir, user_id) / LAST_DREAM_FILENAME
+    path = last_dream_write_path(user_id, users_dir)
     path.write_text(json.dumps(handoff, indent=2) + "\n", encoding="utf-8")
     return path
 
@@ -620,7 +620,7 @@ def _write_night_handoff(
     elif tomorrow:
         payload["topActionReason"] = "Carry-forward from dream execution-path / tomorrow_inherits."
     else:
-        payload["topActionReason"] = "Dream digest and followups shaped priorities; see last-dream.json."
+        payload["topActionReason"] = "Dream digest and followups shaped priorities; see daily-handoff/last-dream.json."
 
     if summary.get("execution_paths") is not None:
         payload["execution_paths"] = summary["execution_paths"]

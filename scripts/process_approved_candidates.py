@@ -56,7 +56,7 @@ from pipeline_correlation import find_staged_event_id_for_candidate
 from recursion_gate_review import split_gate_sections
 from recursion_gate_territory import TERRITORY_WORK_POLITICS, normalize_territory_cli, territory_from_yaml_block
 from identity_library_boundary_rules import collect_ix_a_violations_from_self_md
-from repo_io import CANONICAL_EVIDENCE_BASENAME
+from repo_io import CANONICAL_EVIDENCE_BASENAME, operator_ledger_write_path
 from stage_gate_candidate import PROPOSAL_CLASS_RUNTIME_OBSERVATION
 
 USER_ID = os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex"
@@ -68,7 +68,7 @@ EVIDENCE_PATH = PROFILE_DIR / CANONICAL_EVIDENCE_BASENAME
 INTENT_PATH = PROFILE_DIR / "intent.md"
 PROMPT_PATH = REPO_ROOT / "bot" / "prompt.py"
 PRP_PATH = REPO_ROOT / "self-llm.txt"
-MERGE_RECEIPTS_PATH = PROFILE_DIR / "merge-receipts.jsonl"
+MERGE_RECEIPTS_PATH = operator_ledger_write_path(USER_ID, "merge-receipts.jsonl")
 MIN_EVIDENCE_TIER = 3
 
 ALLOWED_ORIGIN = frozenset(
@@ -123,7 +123,7 @@ def _set_user(user_id: str) -> None:
     SELF_KNOWLEDGE_PATH = PROFILE_DIR / "self-knowledge.md"
     EVIDENCE_PATH = PROFILE_DIR / CANONICAL_EVIDENCE_BASENAME
     INTENT_PATH = PROFILE_DIR / "intent.md"
-    MERGE_RECEIPTS_PATH = PROFILE_DIR / "merge-receipts.jsonl"
+    MERGE_RECEIPTS_PATH = operator_ledger_write_path(USER_ID, "merge-receipts.jsonl")
 
 
 def _prp_output_path() -> Path:

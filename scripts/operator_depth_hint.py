@@ -26,7 +26,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from harness_events import append_harness_event  # noqa: E402
-from repo_io import profile_dir  # noqa: E402
+from repo_io import profile_dir, resolve_ledger_path  # noqa: E402
 
 UTC = timezone.utc
 
@@ -95,7 +95,7 @@ def analyze_velocity(
     now: datetime | None = None,
 ) -> VelocitySnapshot:
     """Count approved / applied events in pipeline-events.jsonl within the rolling window."""
-    path = profile_dir(user_id) / "pipeline-events.jsonl"
+    path = resolve_ledger_path(user_id, "pipeline-events.jsonl")
     if not path.is_file():
         return VelocitySnapshot(window_days=window_days, applied=0, approved=0, tier=0)
     now = now or datetime.now(UTC)

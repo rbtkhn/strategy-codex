@@ -27,6 +27,19 @@ CANONICAL_RECORD_FILES_REQUIRED: tuple[str, ...] = (
     "recursion-gate.md",
 )
 
+# Operator append-only ledgers (moved from repo root — see docs/root-directory-map.md).
+OPERATOR_EVENTS_DIR = REPO_ROOT / "runtime" / "operator-events"
+OPERATOR_LEDGER_FILES: tuple[str, ...] = (
+    "pipeline-events.jsonl",
+    "merge-receipts.jsonl",
+    "cadence-learning-events.jsonl",
+    "business-ledger.jsonl",
+    "fork-lineage.jsonl",
+    "strategy-fold-events.jsonl",
+)
+LAST_DREAM_BASENAME = "last-dream.json"
+DEFAULT_USERS_DIR = REPO_ROOT / "users"
+
 
 def read_path(path: Path) -> str:
     """Read path as utf-8; return '' if missing."""
@@ -38,6 +51,57 @@ def read_path(path: Path) -> str:
 def profile_dir(user_id: str) -> Path:
     """Return the canonical repository-root profile directory."""
     return REPO_ROOT
+
+
+def dream_handoff_root(users_dir: Path, user_id: str) -> Path:
+    """Filesystem root for dream handoff JSON (sole-operator root vs users/<id>)."""
+    if users_dir.resolve() == DEFAULT_USERS_DIR.resolve():
+        return profile_dir(user_id)
+    candidate = users_dir / user_id
+    if candidate.is_dir() or (candidate / "self.md").is_file():
+        return candidate
+    return profile_dir(user_id)
+
+
+def operator_ledger_write_path(user_id: str, name: str) -> Path:
+    """Canonical append/write path for operator event ledgers."""
+    OPERATOR_EVENTS_DIR.mkdir(parents=True, exist_ok=True)
+    return OPERATOR_EVENTS_DIR / name
+
+
+def resolve_ledger_path(user_id: str, name: str) -> Path:
+    """
+    Resolve operator ledger path for read or open-for-append.
+
+    Prefers runtime/operator-events/; falls back to repository root for compat.
+    """
+    new = OPERATOR_EVENTS_DIR / name
+    old = profile_dir(user_id) / name
+    if new.is_file():
+        return new
+    if old.is_file():
+        return old
+    return operator_ledger_write_path(user_id, name)
+
+
+def resolve_last_dream_path(user_id: str, users_dir: Path | None = None) -> Path:
+    """Read path for last-dream.json (daily-handoff/ preferred; root compat)."""
+    root = dream_handoff_root(users_dir or DEFAULT_USERS_DIR, user_id)
+    new = root / "daily-handoff" / LAST_DREAM_BASENAME
+    old = root / LAST_DREAM_BASENAME
+    if new.is_file():
+        return new
+    if old.is_file():
+        return old
+    return new
+
+
+def last_dream_write_path(user_id: str, users_dir: Path | None = None) -> Path:
+    """Canonical write path for last-dream.json."""
+    root = dream_handoff_root(users_dir or DEFAULT_USERS_DIR, user_id)
+    path = root / "daily-handoff" / LAST_DREAM_BASENAME
+    path.parent.mkdir(parents=True, exist_ok=True)
+    return path
 
 
 def fork_root(fork_id: str) -> Path:

@@ -33,6 +33,7 @@ from repo_io import (  # noqa: E402
     CANONICAL_EVIDENCE_BASENAME,
     assert_canonical_record_layout,
     profile_dir,
+    resolve_ledger_path,
 )
 
 UTC = timezone.utc
@@ -61,8 +62,8 @@ def _files_to_backup(user_id: str) -> list[Path]:
         root / "recursion-gate.md",
         BOT_PROMPT,
         root / CANONICAL_EVIDENCE_BASENAME,
-        root / "merge-receipts.jsonl",
-        root / "pipeline-events.jsonl",
+        resolve_ledger_path(user_id, "merge-receipts.jsonl"),
+        resolve_ledger_path(user_id, "pipeline-events.jsonl"),
         root / "session-log.md",
         _prp_path(user_id),
     ]

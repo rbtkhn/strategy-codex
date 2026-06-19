@@ -31,7 +31,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from repo_io import DEFAULT_USER_ID, profile_dir  # noqa: E402
+from repo_io import DEFAULT_USER_ID, profile_dir, resolve_ledger_path
 
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 FOLD_KINDS = frozenset({"manual", "dream", "explicit"})
@@ -40,7 +40,7 @@ NOTE_MAX = 200
 
 
 def default_jsonl_path(user_id: str) -> Path:
-    return profile_dir(user_id) / LEDGER_NAME
+    return resolve_ledger_path(user_id, LEDGER_NAME)
 
 
 def parse_ratings(s: str) -> dict[str, int]:

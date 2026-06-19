@@ -24,6 +24,16 @@ The embedded Grace-Mar **Record** at repo root is **frozen archaeology**; merges
 - Flask apps: [apps/](apps/) (`miniapp_server.py`, `gate-review-app.py`, `metrics-dashboard.py`).
 - Run from repository root so `REPO_ROOT` resolves to the checkout.
 - Optional: [deployment/README.md](deployment/README.md) for Docker / Render / Procfile notes.
+- **Root layout:** [docs/root-directory-map.md](docs/root-directory-map.md) — operator ledgers live under `runtime/operator-events/`; dream handoff under `daily-handoff/`.
+
+## Local dev hygiene
+
+Pytest and Codex may leave temp dirs at the repository root (`pytest-cache-files-*`, `.tmp-pytest-*`, `.codex-tmp`, `.codex-bin`). They are gitignored. Optional cleanup:
+
+```bash
+python3 scripts/cleanup_dev_temp_dirs.py --dry-run
+python3 scripts/cleanup_dev_temp_dirs.py --apply
+```
 
 ## Python package (optional)
 

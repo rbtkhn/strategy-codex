@@ -371,7 +371,9 @@ def collect_data() -> ProfileData:
     ix_total = self_data["ix_a_count"] + self_data["ix_b_count"] + self_data["ix_c_count"]
     tokens_per_ix = str(total_tokens // ix_total) if ix_total and total_tokens else "â€”"
 
-    events_path = PROFILE_DIR / "pipeline-events.jsonl"
+    events_path = REPO_ROOT / "runtime" / "operator-events" / "pipeline-events.jsonl"
+    if not events_path.is_file():
+        events_path = PROFILE_DIR / "pipeline-events.jsonl"
     pipeline_applied = pipeline_rejected = 0
     dyad_consultations_7d = dyad_integrations_7d = dyad_activity_reports_7d = 0
     cutoff_7d = datetime.now() - timedelta(days=7)

@@ -29,6 +29,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | **prose forge** (essay slop lint / staged rewrite) | [docs/prose-forge.md](docs/prose-forge.md) · `scripts/prose_slop_lint.py` · `scripts/prose_forge.py` |
 | product identity / governed interpretive machine essay | [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md) |
 | architecture / harness topology / model vs harness map | [docs/harness-architecture-map.md](docs/harness-architecture-map.md) |
+| repository root layout / root crowding / operator ledgers at root | [docs/root-directory-map.md](docs/root-directory-map.md) · [docs/operator-root-artifacts.md](docs/operator-root-artifacts.md) |
 | intelligence harness (external bridge name) | [docs/intelligence-harness.md](docs/intelligence-harness.md) |
 | archive / synthesis layer law | [essays/archive-synthesis-law.md](essays/archive-synthesis-law.md) |
 | recursive learning three-layer model | [essays/three-layers-of-recursive-learning-in-statecraft.md](essays/three-layers-of-recursive-learning-in-statecraft.md) |

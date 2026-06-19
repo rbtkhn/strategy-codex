@@ -110,7 +110,15 @@ def _last_act_oneliner(evidence_content: str) -> str:
 
 
 def _load_pipeline_events(user_dir: Path) -> list[dict]:
-    path = user_dir / "pipeline-events.jsonl"
+    try:
+        from repo_io import profile_dir, resolve_ledger_path
+
+        if user_dir.resolve() == profile_dir("").resolve():
+            path = resolve_ledger_path("", "pipeline-events.jsonl")
+        else:
+            path = user_dir / "pipeline-events.jsonl"
+    except ImportError:
+        path = user_dir / "pipeline-events.jsonl"
     if not path.exists():
         return []
     rows: list[dict] = []

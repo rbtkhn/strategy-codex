@@ -156,7 +156,12 @@ def _stale_candidates(pr_content: str) -> list[tuple[str, int]]:
 
 def _last_merge_receipt_line(user_dir: Path) -> str:
     """Last JSON line from merge-receipts.jsonl, one-line summary for fresh-judge."""
-    p = user_dir / "merge-receipts.jsonl"
+    try:
+        from repo_io import resolve_ledger_path
+
+        p = resolve_ledger_path("", "merge-receipts.jsonl")
+    except ImportError:
+        p = user_dir / "merge-receipts.jsonl"
     if not p.exists():
         return ""
     lines = [ln for ln in p.read_text(encoding="utf-8").splitlines() if ln.strip()]

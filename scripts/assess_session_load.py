@@ -70,7 +70,11 @@ def _collect_capture_gap(user_id: str) -> dict[str, Any] | None:
 
 
 def _collect_dream_quality(user_id: str) -> dict[str, Any] | None:
-    dream_path = profile_dir(user_id) / "last-dream.json"
+    try:
+        from repo_io import resolve_last_dream_path
+    except ImportError:
+        from scripts.repo_io import resolve_last_dream_path  # type: ignore
+    dream_path = resolve_last_dream_path(user_id)
     if not dream_path.is_file():
         return None
     try:

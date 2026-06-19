@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from repo_io import profile_dir
+from repo_io import profile_dir, resolve_ledger_path
 
 LEDGER_NAME = "cadence-learning-events.jsonl"
 ACTION_ORDER = ("confirm", "test", "deepen", "reframe")
@@ -22,7 +22,7 @@ LETTER_TO_ACTION = {letter: action for action, (letter, _label) in ACTION_LABELS
 
 
 def default_ledger_path(user_id: str) -> Path:
-    return profile_dir(user_id) / LEDGER_NAME
+    return resolve_ledger_path(user_id, LEDGER_NAME)
 
 
 def utc_now_iso() -> str:

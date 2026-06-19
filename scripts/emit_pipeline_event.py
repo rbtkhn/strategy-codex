@@ -33,7 +33,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT / "scripts") not in sys.path:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-from repo_io import DEFAULT_PROFILE_ID, profile_dir
+from repo_io import DEFAULT_PROFILE_ID, profile_dir, resolve_ledger_path
 
 try:
     from pipeline_event_envelope import ENVELOPE_VERSION, new_pipeline_event_id
@@ -69,7 +69,7 @@ def append_pipeline_event(
     event.setdefault("event_id", new_pipeline_event_id(fork))
     event.setdefault("fork_id", fork)
     event.setdefault("envelope_version", ENVELOPE_VERSION)
-    events_path = profile_dir(user_id) / "pipeline-events.jsonl"
+    events_path = resolve_ledger_path(fork, "pipeline-events.jsonl")
     events_path.parent.mkdir(parents=True, exist_ok=True)
     with open(events_path, "a", encoding="utf-8") as f:
         f.write(json.dumps(event, ensure_ascii=False) + "\n")

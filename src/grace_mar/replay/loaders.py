@@ -34,6 +34,17 @@ def _nonempty_file(path: Path) -> bool:
     return path.is_file() and path.stat().st_size > 0
 
 
+def _operator_jsonl_primary(user_dir: Path, basename: str) -> Path:
+    """Prefer runtime/operator-events/; fallback to profile root."""
+    new = user_dir / "runtime" / "operator-events" / basename
+    old = user_dir / basename
+    if _nonempty_file(new):
+        return new
+    if _nonempty_file(old):
+        return old
+    return new
+
+
 def resolve_jsonl_path(primary: Path, bundle_fallback: Path) -> Path:
     """Prefer profile root; use runtime-bundle audit mirror when root missing or empty."""
     if _nonempty_file(primary):
@@ -72,7 +83,7 @@ class AuditPaths:
         return cls(
             user_dir=user_dir,
             pipeline_events=resolve_jsonl_path(
-                user_dir / "pipeline-events.jsonl",
+                _operator_jsonl_primary(user_dir, "pipeline-events.jsonl"),
                 audit_b / "pipeline-events.jsonl",
             ),
             harness_events=resolve_jsonl_path(
@@ -80,7 +91,7 @@ class AuditPaths:
                 audit_b / "harness-events.jsonl",
             ),
             merge_receipts=resolve_jsonl_path(
-                user_dir / "merge-receipts.jsonl",
+                _operator_jsonl_primary(user_dir, "merge-receipts.jsonl"),
                 audit_b / "merge-receipts.jsonl",
             ),
             compute_ledger=resolve_jsonl_path(
@@ -88,7 +99,7 @@ class AuditPaths:
                 audit_b / "compute-ledger.jsonl",
             ),
             fork_lineage=resolve_jsonl_path(
-                user_dir / "fork-lineage.jsonl",
+                _operator_jsonl_primary(user_dir, "fork-lineage.jsonl"),
                 fh / "fork-lineage.jsonl",
             ),
             fork_manifest=resolve_path(
