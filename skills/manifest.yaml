@@ -282,3 +282,10 @@ skills:
     verify_forbidden_substrings:
       - platform/users/grace-mar/
       - process_approved_candidates
+  - name: extract-skill-from-session
+    source: extract-skill-from-session/SKILL.md
+    appendix: .cursor/skills/extract-skill-from-session/CURSOR_APPENDIX.md
+    target: .cursor/skills/extract-skill-from-session/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates

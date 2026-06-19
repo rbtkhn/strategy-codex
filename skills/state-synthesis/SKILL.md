@@ -3,7 +3,8 @@ name: state-synthesis
 preferred_activation: state synthesis
 description: "Turn a landed statecraft archive day batch into a bounded daily synthesis note on the statecraft side. Use when the source captures for a day already exist and the next job is to identify the dominant crisis object, lane pressure, and speaker-by-function comparisons. Includes same-object mechanism comparison as a built-in subroutine."
 portable: true
-version: 0.3.0
+version: 0.3.1
+scope_class: repo-governed
 tags:
   - operator
   - statecraft
@@ -246,3 +247,24 @@ Civilizational layer unsettled — say civ-state for wire-bridge (term → case 
 ## Success condition
 
 The day or month ends with a bounded, reusable synthesis note under `statecraft/` that is grounded in the archive batch, clear about lane pressure, and explicit about which speakers explain which part of the object best.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- day batch exists under `source-archive/statecraft/<day>/` with at least one landed source
+- synthesis output path under `statecraft/daily/` (or explicit month surface) is named
+- crisis object is stated in one line in the synthesis
+- synthesis does not mirror verbatim archive bodies
+
+Evidence to report:
+
+- archive day path and source count
+- synthesis file path
+- one-line crisis object
+- optional receipt ledger rows when wire-ins applied
+
+If verification cannot be completed:
+
+- state whether archive batch or synthesis file is missing
+- downgrade to candidate-only language; do not claim daily promotion

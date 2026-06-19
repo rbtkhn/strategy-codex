@@ -1,17 +1,16 @@
 ---
 name: extract-skill-from-session
 preferred_activation: save skill
-description: 'After a successful multi-step task, assess whether the workflow should become a skill candidate or portable skill. Triggers: save skill, skill from session, add a skill from this, turn this into a skill.'
+description: "After a successful multi-step task, assess whether the workflow should become a skill candidate or portable skill. Triggers: save skill, skill from session, add a skill from this, turn this into a skill."
 portable: true
 version: 1.0.0
 scope_class: repo-governed
 tags:
-- operator
-- work-dev
-- skills
-portable_source: skills/extract-skill-from-session/SKILL.md
-synced_by: sync_portable_skills.py
+  - operator
+  - work-dev
+  - skills
 ---
+
 # Extract Skill From Session
 
 **Preferred activation (operator):** say **`save skill`**. **Alias:** **`skill from session`**.
@@ -95,35 +94,3 @@ If verification cannot be completed:
 
 - state missing context
 - offer **maybe** with pointer-only row instead of full skill
-
-
-## Cursor / strategy-codex instance
-
-# strategy-codex host appendix — extract-skill-from-session
-
-## Portable ladder (this repo)
-
-| Step | Path |
-|------|------|
-| Pointer | [skills/skill-candidates.md](../../skills/skill-candidates.md) |
-| Draft | [skills/_drafts/](../../skills/_drafts/) |
-| Listed | [skills/\<name\>/SKILL.md](../../skills/) + [skills/manifest.yaml](../../skills/manifest.yaml) |
-| Sync | `python3 scripts/sync_portable_skills.py --verify` then sync |
-| Validate | `python3 scripts/validate_skills.py` |
-
-## Commands
-
-```bash
-python3 scripts/sync_portable_skills.py --skill extract-skill-from-session
-python3 scripts/validate_skills.py
-```
-
-## Cursor-only fallback
-
-When not using the portable pipeline, a project-local skill may live under `.cursor/skills/<skill-name>/SKILL.md` — still prefer portable core for strategy-codex.
-
-## Reference
-
-- [skills/README.md](../../skills/README.md) — discovery ladder
-- [skills/_schema.md](../../skills/_schema.md) — portable schema
-- Host create-skill guide: `~/.cursor/skills-cursor/create-skill/SKILL.md` when refining Cursor-native format

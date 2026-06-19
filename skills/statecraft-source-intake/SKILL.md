@@ -3,7 +3,8 @@ name: statecraft-source-intake
 preferred_activation: source-intake
 description: "Manual invoke: source-intake. Land operator transcripts via sidecar Write + land_statecraft_source_body.py (Windows-safe). Also: statecraft source intake, statecraft daily intake. Not for synthesis or YouTube fetch."
 portable: true
-version: 0.4.10
+version: 0.4.11
+scope_class: repo-governed
 tags:
   - operator
   - statecraft
@@ -714,3 +715,25 @@ Do not add speculative speaker lanes for unresolved names. If a participant does
 ## Success condition
 
 The source ends as a **real full-source archive object** in the canonical statecraft source archive, filed under the right family, with honest provenance and no archive/control-plane drift.
+
+## Verification / Proof Standard
+
+Do not call this complete unless:
+
+- `source-archive/statecraft/<day>/source-*.md` exists with non-empty body (not stub-only)
+- YAML frontmatter includes honest `kind`, provenance, and source URL or explicit unknown
+- family/filename pattern matches the intake family decision
+- sidecar merge completed when chunked land applied (`land_statecraft_source_body.py` receipt or equivalent)
+
+Evidence to report:
+
+- final archive path
+- frontmatter keys present
+- index/README refresh run or explicit deferral stated
+- land command exit code when script path used
+
+If verification cannot be completed:
+
+- state which check failed (missing file, incomplete body, missing provenance)
+- do not claim intake complete
+- ask operator to supply missing source or approve deferral
