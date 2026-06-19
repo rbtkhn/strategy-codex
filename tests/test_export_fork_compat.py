@@ -17,13 +17,13 @@ def test_export_fork_has_new_keys_and_compat() -> None:
     assert "_compat" in data
     dep = data["_compat"]["deprecated_keys"]
     assert dep["skills"] == "self_skills"
-    assert dep["evidence"] == "self_evidence"
+    assert dep["archive/placeholders/evidence"] == "self_archive/placeholders/evidence"
     assert dep["library"] == "self_library"
     assert "self_skills" in data
-    assert "self_evidence" in data
+    assert "self_archive/placeholders/evidence" in data
     sk = data["self_skills"].get("raw")
     assert sk is not None
     assert data["skills"]["raw"] == sk
-    ev = data["self_evidence"].get("raw")
+    ev = data["self_archive/placeholders/evidence"].get("raw")
     assert ev is not None
-    assert data["evidence"]["raw"] == ev
+    assert data["archive/placeholders/evidence"]["raw"] == ev

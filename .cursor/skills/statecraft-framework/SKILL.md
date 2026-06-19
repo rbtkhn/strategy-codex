@@ -10,7 +10,7 @@ tags:
 - civ-state
 - doctrine
 - routing
-portable_source: skills-portable/statecraft-framework/SKILL.md
+portable_source: skills/statecraft-framework/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Statecraft Framework

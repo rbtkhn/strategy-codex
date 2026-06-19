@@ -187,7 +187,7 @@ def test_score_below_80_stays_cleaned_draft() -> None:
 def test_main_writes_batch_receipts(tmp_path: Path, capsys) -> None:
     source = tmp_path / "raw.md"
     source.write_text(_raw_input("Kind: captions\nLanguage: en\n" + _body(95)), encoding="utf-8")
-    receipt_root = tmp_path / "artifacts"
+    receipt_root = tmp_path / "runtime/artifacts"
 
     rc = clean.main(
         [

@@ -12,9 +12,13 @@ import sys
 from pathlib import Path
 from typing import Any
 
-_GRACE_SRC = Path(__file__).resolve().parents[1] / "src"
-if _GRACE_SRC.is_dir() and str(_GRACE_SRC) not in sys.path:
-    sys.path.insert(0, str(_GRACE_SRC))
+_GRACE_SRC = Path(__file__).resolve().parents[1]
+if str(_GRACE_SRC / "scripts") not in sys.path:
+    sys.path.insert(0, str(_GRACE_SRC / "scripts"))
+from repo_io import SRC_DIR  # noqa: E402
+
+if SRC_DIR.is_dir() and str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 
 from grace_mar.merge.boundary_classifier import (  # noqa: E402
     review_surface_token_to_classifier_tuple,

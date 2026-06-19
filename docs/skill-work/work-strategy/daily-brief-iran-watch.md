@@ -32,7 +32,7 @@
 ## Guardrails
 
 - **Cite URLs** for each bullet used in client-facing or posted material.
-- **Do not** merge into SELF, EVIDENCE, or `bot/prompt.py` without the gated pipeline.
+- **Do not** merge into SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` without the gated pipeline.
 - **RSS section 2** of the daily brief may surface Iran-adjacent headlines; it **does not** replace this pass (timing, full quotes, Persian check).
 - **Do not** treat Western "Iran" analysis or exile narratives as Tehran's position without **MFA / IRNA-class** alignment.
 

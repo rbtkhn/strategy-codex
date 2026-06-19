@@ -33,7 +33,7 @@
       "required": [
         "surface_confusion",
         "stale_context",
-        "missing_evidence",
+        "missing_archive/placeholders/evidence",
         "compression_loss",
         "lane_misrouting",
         "authority_drift",
@@ -51,7 +51,7 @@
           "minimum": 0,
           "maximum": 10
         },
-        "missing_evidence": {
+        "missing_archive/placeholders/evidence": {
           "type": "integer",
           "minimum": 0,
           "maximum": 10
@@ -117,7 +117,7 @@
           "enum": [
             "surface_confusion",
             "stale_context",
-            "missing_evidence",
+            "missing_archive/placeholders/evidence",
             "compression_loss",
             "lane_misrouting",
             "authority_drift",
@@ -156,7 +156,7 @@
           "enum": [
             "surface_confusion",
             "stale_context",
-            "missing_evidence",
+            "missing_archive/placeholders/evidence",
             "compression_loss",
             "lane_misrouting",
             "authority_drift",

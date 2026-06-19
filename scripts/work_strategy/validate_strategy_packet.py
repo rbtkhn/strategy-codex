@@ -90,7 +90,7 @@ def load_task_shape_context_from_inputs(
             "notes": cls.get("notes", ""),
         }
     if task_shape_cli:
-        cfg_path = root / "config" / "work_strategy_task_shapes.yaml"
+        cfg_path = root / "platform/config" / "work_strategy_task_shapes.yaml"
         if not cfg_path.is_file():
             return None
         cfg = yaml.safe_load(cfg_path.read_text(encoding="utf-8")) or {}
@@ -177,7 +177,7 @@ def validate_packet(
                 "id": "required_artifacts_present",
                 "label": "Expected artifact paths exist",
                 "status": "fail",
-                "details": "Missing: " + ", ".join(missing_artifacts),
+                "details": "Missing: " + ", ".join(missing_runtime/artifacts),
                 "subject_paths": missing_artifacts,
             }
         )
@@ -312,7 +312,7 @@ def validate_packet(
         validators_out.append(
             {
                 "id": "unresolved_marker_scan",
-                "label": "Unresolved / placeholder markers in artifacts",
+                "label": "Unresolved / placeholder markers in runtime/artifacts",
                 "status": "needs_review",
                 "details": json.dumps(unr["by_marker"], ensure_ascii=False),
                 "subject_paths": [safe_rel(p, root) for p, _ in existing_text_paths],
@@ -322,7 +322,7 @@ def validate_packet(
         validators_out.append(
             {
                 "id": "unresolved_marker_scan",
-                "label": "Unresolved / placeholder markers in artifacts",
+                "label": "Unresolved / placeholder markers in runtime/artifacts",
                 "status": "pass",
                 "details": "No TODO/TBD/UNRESOLVED/NEEDS REVIEW/??? hits in scanned artifact text.",
                 "subject_paths": [],
@@ -393,12 +393,12 @@ def validate_packet(
             "notes": task_shape_context.get("notes") or "",
         }
         exp_out = task_shape_context.get("expected_outputs") or []
-        art_declared = len(artifacts) > 0
+        art_declared = len(runtime/artifacts) > 0
         if exp_out and not art_declared:
             validators_out.append(
                 {
                     "id": "task_shape_expectations",
-                    "label": "Task-shape implied outputs vs declared artifacts",
+                    "label": "Task-shape implied outputs vs declared runtime/artifacts",
                     "status": "needs_review",
                     "details": "Shape expects outputs but no --artifact paths declared: "
                     + ", ".join(exp_out[:8])
@@ -410,7 +410,7 @@ def validate_packet(
             validators_out.append(
                 {
                     "id": "task_shape_expectations",
-                    "label": "Task-shape implied outputs vs declared artifacts",
+                    "label": "Task-shape implied outputs vs declared runtime/artifacts",
                     "status": "pass",
                     "details": "Task-shape context present; artifact declarations compatible or shape has no expected_outputs.",
                     "subject_paths": [],
@@ -420,7 +420,7 @@ def validate_packet(
         validators_out.append(
             {
                 "id": "task_shape_expectations",
-                "label": "Task-shape implied outputs vs declared artifacts",
+                "label": "Task-shape implied outputs vs declared runtime/artifacts",
                 "status": "pass",
                 "details": "No task-shape context provided.",
                 "subject_paths": [],
@@ -439,7 +439,7 @@ def validate_packet(
     target_obj: dict[str, Any] = {
         "task": task_arg,
         "sources": list(sources),
-        "artifacts": list(artifacts),
+        "runtime/artifacts": list(runtime/artifacts),
         "gate_snippet": gate_snippet_arg,
         "validation_out": safe_rel(validation_out_path, root) if validation_out_path else None,
     }
@@ -593,7 +593,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         type=str,
         default=None,
         dest="task_shape",
-        help="Override primary shape key (loads expected_outputs from config).",
+        help="Override primary shape key (loads expected_outputs from platform/config).",
     )
     args = p.parse_args(argv)
     root = args.repo_root or Path(__file__).resolve().parent.parent.parent

@@ -7,7 +7,7 @@ docs/mcp/coding-agent-patch-intake.md.
 
   python3 scripts/coding_agent_patch_intake.py \\
     --input examples/coding-agent-patch-intake.example.json \\
-    --output artifacts/patch-intake/example-packet.md
+    --output runtime/artifacts/patch-intake/example-packet.md
 """
 
 from __future__ import annotations
@@ -24,6 +24,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from mcp_capability_audit import _git_short_hash  # noqa: E402
 from mcp_receipt_lib import (  # noqa: E402
@@ -40,12 +41,12 @@ from mcp_receipt_lib import (  # noqa: E402
 
 INTAKE_SCHEMA_PATH = REPO_ROOT / "schemas" / "coding-agent-patch-intake.v1.json"
 DEFAULT_CAPABILITY_ID = "coding_agent_patch_intake"
-DEFAULT_RECEIPT_DIR = REPO_ROOT / "artifacts" / "mcp-receipts"
+DEFAULT_RECEIPT_DIR = ARTIFACTS_DIR / "mcp-receipts"
 
 # Phrases suggesting canonical approval / merge authority (subset aligned with research stub adapter).
 CANONICAL_APPROVAL_DENYLIST = (
     "canonical record approval",
-    "merged into evidence",
+    "merged into archive/placeholders/evidence",
     "approved as canonical record",
     "approved record update",
     "quick path to self-archive",
@@ -75,9 +76,9 @@ RECORD_CRITICAL_PATHS = frozenset(
 
 HIGH_EXACT_PATHS = frozenset(
     {
-        "config/authority-map.json",
-        "config/mcp-capabilities.yaml",
-        "config/mcp-authority-bindings.yaml",
+        "platform/config/authority-map.json",
+        "platform/config/mcp-capabilities.yaml",
+        "platform/config/mcp-authority-bindings.yaml",
         "scripts/process_approved_candidates.py",
         "scripts/check_record_write_policy.py",
     }
@@ -159,7 +160,7 @@ def classify_risk(norm: str) -> str:
     if (
         n.startswith("scripts/")
         or n.startswith("docs/mcp/")
-        or n.startswith("artifacts/evidence-stubs/")
+        or n.startswith("runtime/artifacts/evidence-stubs/")
         or n.startswith("tests/")
         or n.startswith("examples/")
     ):
@@ -168,7 +169,7 @@ def classify_risk(norm: str) -> str:
     if (
         n == "readme.md"
         or n.startswith("docs/")
-        or n.startswith("artifacts/patch-intake/")
+        or n.startswith("runtime/artifacts/patch-intake/")
     ):
         return "LOW"
 
@@ -286,7 +287,7 @@ def render_markdown(
         "",
         "> **CANDIDATE PROPOSAL Â· WORK ARTIFACT Â· NOT MERGED Â· NOT APPROVED RECORD**",
         "",
-        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_repo_rel}`",
+        f"MCP receipt JSON (repo-relative): `runtime/artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_repo_rel}`",
         "",
         "## Agent",
         "",
@@ -389,7 +390,7 @@ def render_markdown(
 
 
 def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
-    bucket = (repo_root / "artifacts" / "patch-intake").resolve()
+    bucket = (ARTIFACTS_DIR / "patch-intake").resolve()
     bucket.mkdir(parents=True, exist_ok=True)
     if output is None:
         slug = "patch-intake-packet"
@@ -405,7 +406,7 @@ def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
     except ValueError as e:
         raise ValueError(f"output must be under {bucket} (got {resolved})") from e
     rp = rel_to_repo.parts
-    if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
+    if len(rp) >= 2 and rp[0].lower() == "platform/users" and rp[1].lower() == "grace-mar":
         raise ValueError("refusing output path under ")
     for p in resolved.parts:
         if "self-archive" in p.lower():
@@ -526,7 +527,7 @@ def main() -> int:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     artifacts = [
         {"path": packet_rel, "kind": "markdown_candidate_patch_packet"},
-        {"path": f"artifacts/mcp-receipts/{receipt_filename}", "kind": "mcp_execution_receipt_json"},
+        {"path": f"runtime/artifacts/mcp-receipts/{receipt_filename}", "kind": "mcp_execution_receipt_json"},
     ]
 
     decl = raw["task"]["operator_intent"]

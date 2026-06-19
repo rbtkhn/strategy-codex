@@ -15,7 +15,7 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
-_DEFAULT_REGISTRY = Path("config/runtime_workers/worker-trust-registry.v1.json")
+_DEFAULT_REGISTRY = Path("platform/config/runtime_workers/worker-trust-registry.v1.json")
 _DEFAULT_SCHEMA = Path("schemas/worker-trust-registry.v1.schema.json")
 
 # Actions that must never appear in allowed_actions (documentation + enforcement).
@@ -171,7 +171,7 @@ def main() -> int:
     ap.add_argument(
         "--skip-yaml-parity",
         action="store_true",
-        help="Skip parity check against config/runtime_workers/registry.yaml (tests only)",
+        help="Skip parity check against platform/config/runtime_workers/registry.yaml (tests only)",
     )
     args = ap.parse_args()
 

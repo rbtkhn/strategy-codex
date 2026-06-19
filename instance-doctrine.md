@@ -8,7 +8,7 @@
 
 Distinct modes govern what the agent may do. Avoid mixing them.
 
-**Active identity:** Default all operator work to `strategy-codex` as a **governed interpretive machine** ([`docs/product-identity.md`](docs/product-identity.md)). **Grace-Mar cognitive fork is frozen** — not a growth objective ([`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md), `config/strategy_codex.yaml`). Fork/gate/pipeline modes apply only on explicit **`fork revive`**. Mentions of `grace-mar` or `companion-self` in older docs are legacy unless the operator names that archive lane.
+**Active identity:** Default all operator work to `strategy-codex` as a **governed interpretive machine** ([`docs/product-identity.md`](docs/product-identity.md)). **Grace-Mar cognitive fork is frozen** — not a growth objective ([`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md), `platform/platform/config/strategy_codex.yaml`). Fork/gate/pipeline modes apply only on explicit **`fork revive`**. Mentions of `grace-mar` or `companion-self` in older docs are legacy unless the operator names that archive lane.
 
 **Shared membrane:** For the typed `Record` / `governed adjacent` / `instrumental work` / `runtime / derived` / `external complements` model, see [docs/work-membrane-v2.md](docs/work-membrane-v2.md). Use [statecraft/work-membrane.md](statecraft/work-membrane.md) and [singularity/work-membrane.md](singularity/work-membrane.md) when the session is lane-specific.
 
@@ -56,7 +56,7 @@ Fork-era Voice/pipeline metrics below apply only on **`fork revive`**. Active st
 
 ## File Update Protocol
 
-When pipeline candidates are approved, **merge** into all of these together. **Merge only via script:** The agent must **not** edit `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, or `bot/prompt.py` directly. It must instruct the operator to run `python scripts/process_approved_candidates.py --apply` (or the receipt flow: `--generate-receipt` then `--apply --receipt`). This prevents five-file drift and preserves the audit trail. Only the script performs the atomic update across all files.
+When pipeline candidates are approved, **merge** into all of these together. **Merge only via script:** The agent must **not** edit `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, or `archive/grace-mar-instance/archive/grace-mar-instance/bot/prompt.py` directly. It must instruct the operator to run `python scripts/process_approved_candidates.py --apply` (or the receipt flow: `--generate-receipt` then `--apply --receipt`). This prevents five-file drift and preserves the audit trail. Only the script performs the atomic update across all files.
 
 **Optional orchestration:** `scripts/atomic_integrate.py` runs the same merge (`--quick` / receipt-based semantics) with extra disk backups and a JSON receipt; it does not replace `process_approved_candidates.py`.
 
@@ -68,7 +68,7 @@ When pipeline candidates are approved, **merge** into all of these together. **M
 | `self-archive.md` | Canonical **EVIDENCE**: new activity log entry (ACT-XXXX) **and** append **Ã‚§ VIII. GATED APPROVED LOG** per merged candidate (gated; only `scripts/process_approved_candidates.py` writes Ã‚§ VIII) |
 | `recursion-gate.md` | Move candidates from Candidates to Processed |
 | `session-log.md` | New session record; pipeline merges append lines under `## Pipeline merge (automated)` |
-| `bot/prompt.py` | Update relevant prompt sections + analyst dedup list |
+| `archive/grace-mar-instance/archive/grace-mar-instance/bot/prompt.py` | Update relevant prompt sections + analyst dedup list |
 | `pipeline-events.jsonl` | Append `applied` event per candidate: `python scripts/emit_pipeline_event.py applied CANDIDATE-XXXX evidence_id=ACT-YYYY` |
 | **PRP** | Regenerate: `python scripts/export_prp.py -o self-llm.txt` (or repo default). Commit if changed. Keeps anchor in sync with Record. |
 
@@ -78,13 +78,13 @@ The bot emits `staged` events automatically. Emit `applied` (or `rejected`) when
 
 **Post-merge PRP refresh:** After merging into SELF, EVIDENCE, or prompt, run the export script. If the output differs from the committed PRP file, commit the update.
 
-**Gated commit hook (optional):** If pre-commit is installed with `pre-commit install --hook-type commit-msg`, commits that stage `self.md`, `self-skills.md`, `skills.md`, `self-evidence.md`, `self-archive.md`, `merge-receipts.jsonl`, `bot/prompt.py`, or PRP `*-llm.txt` must include **`[gated-merge]`** in the commit message (or mention `process_approved_candidates`). Emergency bypass: `ALLOW_GATED_RECORD_EDIT=1`. See `scripts/check_gated_record_commit_msg.py`.
+**Gated commit hook (optional):** If pre-commit is installed with `pre-commit install --hook-type commit-msg`, commits that stage `self.md`, `self-skills.md`, `skills.md`, `self-evidence.md`, `self-archive.md`, `merge-receipts.jsonl`, `archive/grace-mar-instance/archive/grace-mar-instance/bot/prompt.py`, or PRP `*-llm.txt` must include **`[gated-merge]`** in the commit message (or mention `process_approved_candidates`). Emergency bypass: `ALLOW_GATED_RECORD_EDIT=1`. See `scripts/check_gated_record_commit_msg.py`.
 
 **Provenance on IX entries:** When merging new entries into IX-A, IX-B, or IX-C, include `provenance: human_approved` (content passed the gated pipeline). Existing entries may use `curated_by: companion` as equivalent. Optionally record `source:` (e.g. `bot lookup`, `bot conversation`, `operator`) to indicate origin. Optionally add `scope:` or `constraint:` when the candidate implies a boundary. Optionally add `warrant:` Ã¢â‚¬” the unstated assumption that, if changed, would mean this entry should be revisited (e.g. "holds while limited self-regulation strategies are in use"). Omit for straightforward facts or stable preferences with no expiration condition. Do not backfill old entries unless the companion requests it.
 
 ---
 
-## Prompt Architecture (bot/prompt.py)
+## Prompt Architecture (archive/grace-mar-instance/bot/prompt.py)
 
 Four prompts, each with a distinct role:
 
@@ -111,7 +111,7 @@ The `SYSTEM_PROMPT` contains the self's knowledge, curiosity, and personality in
 repo-root/
 Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ AGENTS.md                    # Core doctrine (Layer 1)
 Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ README.md                    # Project overview
-Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ bootstrap/grace-mar-bootstrap.md  # Session bootstrap for Cursor
+Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md  # Session bootstrap for Cursor
 Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ docs/
 Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ grace-mar-instance-boundary.md  # Live freeze SSOT
 Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ legacy-operator-concepts.md   # Redirect table
@@ -124,7 +124,7 @@ repo-root/
 Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ evidence-template.md    # EVIDENCE module template
 Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ wisdom-questions.md     # Child-tier wisdom elicitation questions (Save Wisdom inspired)
 Ã¢”â€š   Ã¢””Ã¢”â‚¬Ã¢”â‚¬ ...                     # Supporting docs
-Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ bot/
+Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ archive/grace-mar-instance/bot/
 Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ core.py                 # Shared emulation logic (used by Telegram + WeChat)
 Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ bot.py                  # Telegram bot
 Ã¢”â€š   Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ wechat_bot.py           # WeChat Official Account bot (webhook server)
@@ -147,13 +147,13 @@ repo-root/
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-history.md     # Derived dual log: work aggregate + gate-approved companion thread (optional; not Record)
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ session-log.md      # Interaction history
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ recursion-gate.md   # Pipeline staging
-        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ reflection-proposals/  # Operator reflection cycle outputs (REFLECT-*.md); not canonical Record
+        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ archive/queues/reflection-proposals/  # Operator reflection cycle outputs (REFLECT-*.md); not canonical Record
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ pipeline-events.jsonl  # Append-only pipeline audit log
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ harness-events.jsonl    # Optional harness audit (merge/export); see docs/harness-inventory.md
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ compute-ledger.jsonl   # Token usage (energy ledger)
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ journal.md                # Daily highlights Ã¢â‚¬” public-suitable, shareable
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ archives/             # Rotated chunks (SELF-ARCHIVE-YYYY-MM.md)
-        Ã¢””Ã¢”â‚¬Ã¢”â‚¬ artifacts/          # Raw files (writing, artwork)
+        Ã¢””Ã¢”â‚¬Ã¢”â‚¬ runtime/artifacts/          # Raw files (writing, artwork)
 ```
 
 ---

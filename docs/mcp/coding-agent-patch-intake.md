@@ -8,8 +8,8 @@
 
 Coding assistants routinely emit summaries of edits (â€œfiles touchedâ€, â€œtests runâ€). Those summaries are **not** governance artifacts by themselves. This adapter turns **structured intake JSON** into:
 
-1. A **Markdown patch-review packet** under [`artifacts/patch-intake/`](../../artifacts/patch-intake/) â€” labeled **candidate proposal**, **not merged**, **not approved Record**.
-2. An **MCP execution receipt** under [`artifacts/mcp-receipts/`](../../artifacts/mcp-receipts/) with capability **`coding_agent_patch_intake`** â€” receipts are audit metadata only ([`mcp-execution-receipts.md`](mcp-execution-receipts.md)).
+1. A **Markdown patch-review packet** under [`runtime/artifacts/patch-intake/`](../../runtime/artifacts/patch-intake/) â€” labeled **candidate proposal**, **not merged**, **not approved Record**.
+2. An **MCP execution receipt** under [`runtime/artifacts/mcp-receipts/`](../../runtime/artifacts/mcp-receipts/) with capability **`coding_agent_patch_intake`** â€” receipts are audit metadata only ([`mcp-execution-receipts.md`](mcp-execution-receipts.md)).
 
 That preserves visibility without handing agents implicit merge authority.
 
@@ -41,9 +41,9 @@ When **`files_touched`** lists any **`CRITICAL`** path (including canonical Reco
 | Tier | Illustrative signals |
 |------|----------------------|
 | CRITICAL | Listed canonical Record paths, `.env`, `secrets/`, private key filenames |
-| HIGH | `config/authority-map.json`, MCP YAML configs, `process_approved_candidates.py`, `schemas/` |
-| MEDIUM | `scripts/`, `docs/mcp/`, `artifacts/evidence-stubs/`, `tests/`, `examples/` |
-| LOW | `README.md`, general `docs/`, `artifacts/patch-intake/` |
+| HIGH | `platform/config/authority-map.json`, MCP YAML configs, `process_approved_candidates.py`, `schemas/` |
+| MEDIUM | `scripts/`, `docs/mcp/`, `runtime/artifacts/evidence-stubs/`, `tests/`, `examples/` |
+| LOW | `README.md`, general `docs/`, `runtime/artifacts/patch-intake/` |
 
 ---
 
@@ -68,5 +68,5 @@ Each successful write emits a validated receipt with **`capability.id`** **`codi
 
 ## Related registry row
 
-[`coding_agent_patch_intake`](../../config/mcp-capabilities.yaml) â€” proposes **diff-shaped work** in worktrees only in governed MCP narratives; this repo implements the **offline intake packet + receipt** subset without calling remote helpers.
+[`coding_agent_patch_intake`](../../platform/config/mcp-capabilities.yaml) â€” proposes **diff-shaped work** in worktrees only in governed MCP narratives; this repo implements the **offline intake packet + receipt** subset without calling remote helpers.
 

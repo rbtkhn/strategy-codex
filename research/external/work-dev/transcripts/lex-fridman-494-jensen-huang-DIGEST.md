@@ -58,7 +58,7 @@ Huang’s frame is **platform vendor + planetary AI factory + CUDA moat**. Grace
 
 | Huang idea | Grace-Mar translation |
 |------------|------------------------|
-| Extreme co-design | Co-optimize **gate → merge script → self / archive / session-log / prompt / PRP / exports** together; avoid “fix only `bot/prompt.py`.” |
+| Extreme co-design | Co-optimize **gate → merge script → self / archive / session-log / prompt / PRP / exports** together; avoid “fix only `archive/grace-mar-instance/bot/prompt.py`.” |
 | Org mirrors product | Cursor **rules + skills + lanes** should trace to **artifacts** (handoff, warmup, gate review), not a generic chat box. |
 | Collective problem attack | **Design reviews** when changing **agent boundaries**, OpenClaw-adjacent exports, or **gated file** touch lists — multiple lenses (security, Record, ops). |
 | Install base / habit | Prefer **one canonical path** (e.g. `scripts/process_approved_candidates.py`, harness entrypoints) that people **actually run** over elegant one-offs. |

@@ -1,8 +1,8 @@
 ﻿# Local read-only directory index adapter
 
-**Status:** Narrow **metadata-plane** step â€” **`scripts/mcp_local_index.py`** walks repo directories under **[`config/mcp-local-read-allowlist.yaml`](../../config/mcp-local-read-allowlist.yaml)** only. It emits **paths, kinds, sizes**, and optional **line counts / SHA256** with **`max_file_bytes`** caps â€” **never file contents or excerpts**. **No MCP servers**, **no credentials**, **no network**, **no shell**.
+**Status:** Narrow **metadata-plane** step â€” **`scripts/mcp_local_index.py`** walks repo directories under **[`platform/config/mcp-local-read-allowlist.yaml`](../../platform/config/mcp-local-read-allowlist.yaml)** only. It emits **paths, kinds, sizes**, and optional **line counts / SHA256** with **`max_file_bytes`** caps â€” **never file contents or excerpts**. **No MCP servers**, **no credentials**, **no network**, **no shell**.
 
-**Related:** [`schemas/mcp-local-index-request.v1.json`](../../schemas/mcp-local-index-request.v1.json), [`docs/mcp/governed-mcp-layer.md`](governed-mcp-layer.md), capability **`filesystem_readonly`** in [`config/mcp-capabilities.yaml`](../../config/mcp-capabilities.yaml).
+**Related:** [`schemas/mcp-local-index-request.v1.json`](../../schemas/mcp-local-index-request.v1.json), [`docs/mcp/governed-mcp-layer.md`](governed-mcp-layer.md), capability **`filesystem_readonly`** in [`platform/config/mcp-capabilities.yaml`](../../platform/config/mcp-capabilities.yaml).
 
 ---
 
@@ -38,9 +38,9 @@ Both scripts share the **same allowlist**, **`filesystem_readonly`** receipts wi
 
 ## Allowlist model
 
-[`config/mcp-local-read-allowlist.yaml`](../../config/mcp-local-read-allowlist.yaml) defines:
+[`platform/config/mcp-local-read-allowlist.yaml`](../../platform/config/mcp-local-read-allowlist.yaml) defines:
 
-- **`allowed_roots`** â€” repo-relative prefixes permitted for indexing (e.g. **`docs/`**, **`schemas/`**, named **`artifacts/â€¦`** buckets).
+- **`allowed_roots`** â€” repo-relative prefixes permitted for indexing (e.g. **`docs/`**, **`schemas/`**, named **`runtime/artifacts/â€¦`** buckets).
 - **`blocked_roots`** â€” hard deny prefixes (**``**, **`venv/`**, **`.git/`**, â€¦).
 - **`blocked_files`** / **`blocked_name_patterns`** â€” basename skips during traversal (**skipped**, increment skip count; root path failure still fails closed before indexing).
 - **`max_file_bytes`** â€” caps optional line-count and hash reads per file (oversize shows placeholder in table; entries still listed).
@@ -64,7 +64,7 @@ Rejected **request root** paths fail closed (**exit 1**) **before** receipt emis
 - Registry **`writes: []`** â‡’ **`access.resources_written`** must be **empty** for validated receipts â€” packet paths appear under **`result.artifacts`** only.
 - **`access.resources_read`** lists **request JSON path** and **indexed directory path** (not every file visited).
 
-See packet **`## Receipt note`** under **`artifacts/mcp-local-index/`**.
+See packet **`## Receipt note`** under **`runtime/artifacts/mcp-local-index/`**.
 
 ---
 

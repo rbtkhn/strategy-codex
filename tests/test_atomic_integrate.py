@@ -20,10 +20,10 @@ import atomic_integrate as ai  # noqa: E402
 @pytest.fixture
 def fake_repo(tmp_path: Path) -> tuple[Path, str]:
     r = tmp_path / "repo"
-    (r / "bot").mkdir(parents=True)
-    (r / "bot" / "prompt.py").write_text("# prompt\n", encoding="utf-8")
+    (r / "archive/grace-mar-instance/bot").mkdir(parents=True)
+    (r / "archive/grace-mar-instance/bot" / "prompt.py").write_text("# prompt\n", encoding="utf-8")
     uid = "testuser"
-    ur = r / "users" / uid
+    ur = r / "platform/users" / uid
     ur.mkdir(parents=True)
     for name in ("self.md", "self-archive.md", "recursion-gate.md", "session-log.md"):
         (ur / name).write_text(f"# {name}\n", encoding="utf-8")
@@ -34,8 +34,8 @@ def fake_repo(tmp_path: Path) -> tuple[Path, str]:
 def test_dry_run_writes_receipt(monkeypatch: pytest.MonkeyPatch, fake_repo: tuple[Path, str]) -> None:
     r, uid = fake_repo
     monkeypatch.setattr(ai, "REPO_ROOT", r)
-    monkeypatch.setattr(ai, "BOT_PROMPT", r / "bot" / "prompt.py")
-    monkeypatch.setattr(ai, "profile_dir", lambda u: r / "users" / u)
+    monkeypatch.setattr(ai, "BOT_PROMPT", r / "archive/grace-mar-instance/bot" / "prompt.py")
+    monkeypatch.setattr(ai, "profile_dir", lambda u: r / "platform/users" / u)
 
     def _prp(u: str) -> Path:
         return r / f"{u}-llm.txt"
@@ -45,7 +45,7 @@ def test_dry_run_writes_receipt(monkeypatch: pytest.MonkeyPatch, fake_repo: tupl
 
     code = ai.run(uid, "CANDIDATE-0001", "tester", apply=False, territory="all", skip_integrity=True)
     assert code == 0
-    receipts = list((r / "users" / uid / "integration-receipts").glob("integration-receipt-*.json"))
+    receipts = list((r / "platform/users" / uid / "integration-receipts").glob("integration-receipt-*.json"))
     assert len(receipts) == 1
     data = json.loads(receipts[0].read_text(encoding="utf-8"))
     assert data["dry_run"] is True
@@ -59,8 +59,8 @@ def test_apply_success_backup_and_receipt(
     r, uid = fake_repo
 
     monkeypatch.setattr(ai, "REPO_ROOT", r)
-    monkeypatch.setattr(ai, "BOT_PROMPT", r / "bot" / "prompt.py")
-    monkeypatch.setattr(ai, "profile_dir", lambda u: r / "users" / u)
+    monkeypatch.setattr(ai, "BOT_PROMPT", r / "archive/grace-mar-instance/bot" / "prompt.py")
+    monkeypatch.setattr(ai, "profile_dir", lambda u: r / "platform/users" / u)
 
     def _prp(u: str) -> Path:
         return r / f"{u}-llm.txt"
@@ -81,10 +81,10 @@ def test_apply_success_backup_and_receipt(
         merge_runner=runner,
     )
     assert code == 0
-    backups = list((r / "users" / uid / ".integration-backups").glob("*"))
+    backups = list((r / "platform/users" / uid / ".integration-backups").glob("*"))
     assert len(backups) == 1
-    assert (backups[0] / "users" / uid / "self.md").is_file()
-    receipts = list((r / "users" / uid / "integration-receipts").glob("*.json"))
+    assert (backups[0] / "platform/users" / uid / "self.md").is_file()
+    receipts = list((r / "platform/users" / uid / "integration-receipts").glob("*.json"))
     assert len(receipts) == 1
     data = json.loads(receipts[0].read_text(encoding="utf-8"))
     assert data["success"] is True
@@ -95,8 +95,8 @@ def test_apply_success_backup_and_receipt(
 def test_apply_merge_failure(monkeypatch: pytest.MonkeyPatch, fake_repo: tuple[Path, str]) -> None:
     r, uid = fake_repo
     monkeypatch.setattr(ai, "REPO_ROOT", r)
-    monkeypatch.setattr(ai, "BOT_PROMPT", r / "bot" / "prompt.py")
-    monkeypatch.setattr(ai, "profile_dir", lambda u: r / "users" / u)
+    monkeypatch.setattr(ai, "BOT_PROMPT", r / "archive/grace-mar-instance/bot" / "prompt.py")
+    monkeypatch.setattr(ai, "profile_dir", lambda u: r / "platform/users" / u)
 
     def _prp(u: str) -> Path:
         return r / f"{u}-llm.txt"
@@ -117,7 +117,7 @@ def test_apply_merge_failure(monkeypatch: pytest.MonkeyPatch, fake_repo: tuple[P
         merge_runner=runner,
     )
     assert code == 1
-    receipts = list((r / "users" / uid / "integration-receipts").glob("*.json"))
+    receipts = list((r / "platform/users" / uid / "integration-receipts").glob("*.json"))
     assert len(receipts) == 1
     data = json.loads(receipts[0].read_text(encoding="utf-8"))
     assert data["success"] is False

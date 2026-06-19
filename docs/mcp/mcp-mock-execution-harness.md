@@ -2,7 +2,7 @@
 
 **Status:** WORK-layer fixture runner only. **`scripts/mcp_mock_harness.py`** does **not** execute MCP servers, load credentials, open network connections, run shell commands, or enable integrations.
 
-**See also:** [`governed-mcp-layer.md`](governed-mcp-layer.md), [`config/mcp-capabilities.yaml`](../../config/mcp-capabilities.yaml), [`schemas/mcp-mock-run.v1.json`](../../schemas/mcp-mock-run.v1.json).
+**See also:** [`governed-mcp-layer.md`](governed-mcp-layer.md), [`platform/config/mcp-capabilities.yaml`](../../platform/config/mcp-capabilities.yaml), [`schemas/mcp-mock-run.v1.json`](../../schemas/mcp-mock-run.v1.json).
 
 ---
 
@@ -22,7 +22,7 @@ Mock execution answers: **Given a declared capability id and mock access posture
 | Classification | Infers best-matching capability id from heuristics | **`run.capability_id`** must match a registry id exactly |
 | Receipt **`capability.id`** | **`mcp_manifest_admission`** | **`mcp_mock_harness`** |
 
-Both emit **`work_artifact`** Markdown under **`artifacts/`** plus validated receipts under **`artifacts/mcp-receipts/`**. Neither approves live MCP.
+Both emit **`work_artifact`** Markdown under **`runtime/artifacts/`** plus validated receipts under **`runtime/artifacts/mcp-receipts/`**. Neither approves live MCP.
 
 ---
 
@@ -53,7 +53,7 @@ Validated against **[`schemas/mcp-mock-run.v1.json`](../../schemas/mcp-mock-run.
 
 ## Output format
 
-1. **Markdown packet** under **`artifacts/mcp-mock-runs/`** with YAML front matter (`receipt_id`, `mock_run_id`, `simulated_capability_id`) and banner line:
+1. **Markdown packet** under **`runtime/artifacts/mcp-mock-runs/`** with YAML front matter (`receipt_id`, `mock_run_id`, `simulated_capability_id`) and banner line:
    `MOCK MCP RUN Â· WORK ARTIFACT Â· NO LIVE SERVER Â· NOT APPROVED INTEGRATION`
 2. **MCP execution receipt** JSON (`capability.id` = **`mcp_mock_harness`**, **`output_lane`:** **`work_artifact`**) â€” receipt **`access`** fields follow the **adapter** registry row (network/credential **`none`**), not the simulated GitHub read posture.
 
@@ -61,9 +61,9 @@ Validated against **[`schemas/mcp-mock-run.v1.json`](../../schemas/mcp-mock-run.
 
 ## Capability / authority / risk / receipt chain
 
-1. Resolve **`run.capability_id`** from **[`config/mcp-capabilities.yaml`](../../config/mcp-capabilities.yaml)** (simulated capability).
+1. Resolve **`run.capability_id`** from **[`platform/config/mcp-capabilities.yaml`](../../platform/config/mcp-capabilities.yaml)** (simulated capability).
 2. Enforce mock request versus simulated registry limits (writes empty when registry writes empty; network and credential ranks; prohibited lane cannot claim **`success`**; shell-shaped **`tool_name`** cannot pair with **`success`**).
-3. Overlay mock request onto a copy of the simulated capability row and run **`evaluate_capability`** against **[`config/mcp-risk-policy.yaml`](../../config/mcp-risk-policy.yaml)** for the Markdown risk section.
+3. Overlay mock request onto a copy of the simulated capability row and run **`evaluate_capability`** against **[`platform/config/mcp-risk-policy.yaml`](../../platform/config/mcp-risk-policy.yaml)** for the Markdown risk section.
 4. Summarize authority binding for the **simulated** **`output_lane`** via **[`bindings_lane_map`](../../scripts/mcp_receipt_lib.py)**.
 5. Emit receipt via **`build_receipt`** + **`validate_mcp_receipt`** using adapter capability **`mcp_mock_harness`**.
 
@@ -88,8 +88,8 @@ The harness validates **fixture discipline** and **registry consistency** agains
 ```bash
 python3 scripts/mcp_mock_harness.py \
   --input examples/mcp-mock-run.github-readonly.example.json \
-  --output artifacts/mcp-mock-runs/demo.md
+  --output runtime/artifacts/mcp-mock-runs/demo.md
 ```
 
-See **[`artifacts/mcp-mock-runs/README.md`](../../artifacts/mcp-mock-runs/README.md)** for bucket policy.
+See **[`runtime/artifacts/mcp-mock-runs/README.md`](../../runtime/artifacts/mcp-mock-runs/README.md)** for bucket policy.
 

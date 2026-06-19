@@ -56,7 +56,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("-u", "--user", default="grace-mar")
     args = ap.parse_args()
-    ud = REPO / "users" / args.user
+    ud = REPO / "platform/users" / args.user
     viol = collect_identity_library_violations(ud)
     if not viol:
         print("Identity/library boundary scan: OK (no IX-A corpus-style violations).")

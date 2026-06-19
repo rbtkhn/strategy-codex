@@ -74,7 +74,7 @@ See also:
 - [`../../portability.md`](../../portability.md) — defines the existing emulation-ready bundle at the portability level
 - [`../../portable-working-identity.md`](../../portable-working-identity.md) — explains how portable working identity can travel inside an emulation-ready bundle without granting merge authority
 - [`../../identity-fork-protocol.md`](../../identity-fork-protocol.md) — source-repo sovereignty, staging, and merge rules still govern durable change
-- [`../../state-proposals.md`](../../state-proposals.md) and [`../../../schema-registry/change-proposal.v1.json`](../../../schema-registry/change-proposal.v1.json) — durable change returns through the existing governed proposal path
+- [`../../state-proposals.md`](../../state-proposals.md) and [`../../../schemas/registry/change-proposal.v1.json`](../../../schemas/registry/change-proposal.v1.json) — durable change returns through the existing governed proposal path
 
 ---
 
@@ -83,14 +83,14 @@ See also:
 Grace-Mar already emits a **current narrow envelope** through:
 
 - [`../../../scripts/export_emulation_bundle.py`](../../../scripts/export_emulation_bundle.py)
-- [`../../../schema-registry/emulation-bundle-envelope.v1.json`](../../../schema-registry/emulation-bundle-envelope.v1.json)
+- [`../../../schemas/registry/emulation-bundle-envelope.v1.json`](../../../schemas/registry/emulation-bundle-envelope.v1.json)
 
 This PR adds a **formal portable-emulation contract schema** at:
 
 - [`emulation-bundle-schema.v1.json`](emulation-bundle-schema.v1.json)
 
 That contract schema is richer than the current emitted envelope. It documents the intended authority model and behavior-spec slots without changing the exporter in this PR.
-In short: [`../../../schema-registry/emulation-bundle-envelope.v1.json`](../../../schema-registry/emulation-bundle-envelope.v1.json) validates what the exporter ships today, while [`emulation-bundle-schema.v1.json`](emulation-bundle-schema.v1.json) describes the fuller downstream contract Grace-Mar intends to converge toward.
+In short: [`../../../schemas/registry/emulation-bundle-envelope.v1.json`](../../../schemas/registry/emulation-bundle-envelope.v1.json) validates what the exporter ships today, while [`emulation-bundle-schema.v1.json`](emulation-bundle-schema.v1.json) describes the fuller downstream contract Grace-Mar intends to converge toward.
 
 ---
 

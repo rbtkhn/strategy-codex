@@ -62,7 +62,7 @@ def _run_main(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, doc: dict, argv_t
     inp = tmp_path / "input.json"
     inp.write_text(json.dumps(doc), encoding="utf-8")
 
-    stub_parent = tmp_path / "artifacts" / "evidence-stubs"
+    stub_parent = tmp_path / "runtime/artifacts" / "evidence-stubs"
     stub_parent.mkdir(parents=True)
     out_stub = stub_parent / "test-out.md"
 
@@ -109,7 +109,7 @@ def test_output_outside_evidence_stubs_fails(monkeypatch: pytest.MonkeyPatch, tm
     rec_dir.mkdir(parents=True)
     monkeypatch.setattr(rtes, "DEFAULT_RECEIPT_DIR", rec_dir)
 
-    bad_out = tmp_path / "artifacts" / "elsewhere.md"
+    bad_out = tmp_path / "runtime/artifacts" / "elsewhere.md"
     bad_out.parent.mkdir(parents=True)
     inp = tmp_path / "input.json"
     inp.write_text(json.dumps(_minimal_valid_doc()), encoding="utf-8")
@@ -172,7 +172,7 @@ def test_output_path_touching_self_md_segment_fails(monkeypatch: pytest.MonkeyPa
     rec_dir.mkdir(parents=True)
     monkeypatch.setattr(rtes, "DEFAULT_RECEIPT_DIR", rec_dir)
 
-    stub_bad = tmp_path / "artifacts" / "evidence-stubs" / "self.md"
+    stub_bad = tmp_path / "runtime/artifacts" / "evidence-stubs" / "self.md"
     stub_bad.parent.mkdir(parents=True)
     inp = tmp_path / "input.json"
     inp.write_text(json.dumps(_minimal_valid_doc()), encoding="utf-8")
@@ -224,7 +224,7 @@ def test_subprocess_smoke_matches_example() -> None:
     """Integration-style: real repo root and paths (example JSON + repo configs)."""
     example = REPO_ROOT / "examples" / "research-evidence-input.example.json"
     assert example.is_file()
-    out = REPO_ROOT / "artifacts" / "evidence-stubs" / "_pytest-research-stub-smoke.md"
+    out = REPO_ROOT / "runtime/artifacts" / "evidence-stubs" / "_pytest-research-stub-smoke.md"
     import subprocess
 
     r = subprocess.run(

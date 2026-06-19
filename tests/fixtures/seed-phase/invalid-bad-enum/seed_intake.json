@@ -13,7 +13,7 @@
     "coverage_score": 0.92,
     "contradictions": []
   },
-  "cursor_operator_profile": {
+  "cursor_operator_platform/profile": {
     "ide_primary": "cursor",
     "rules_pack_preset": "instance_light",
     "work_surface_hints": ["work-dev"],

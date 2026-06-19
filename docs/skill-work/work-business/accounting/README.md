@@ -55,7 +55,7 @@ python3 scripts/import_bank_csv.py -u grace-mar --audit-etsy --venture grace-gem
 
 | File | Purpose |
 |------|---------|
-| `schema-registry/business-transaction.v1.json` | Transaction schema (instance-specific) |
+| `schemas/registry/business-transaction.v1.json` | Transaction schema (instance-specific) |
 | `scripts/emit_business_transaction.py` | Append one transaction row |
 | `scripts/import_bank_csv.py` | Import bank CSV; Etsy descriptor rules; `--audit-etsy` |
 | `scripts/business_ledger_summary.py` | P&L, grouping, tax summaries |

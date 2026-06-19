@@ -37,7 +37,7 @@ def test_resolve_cross_lane_requires_justification(rpl) -> None:
     out = rpl.resolve(pr)
     assert out[0] == "work-dev"
     assert out[1] is True
-    assert "wire bot" in out[2]
+    assert "wire archive/grace-mar-instance/bot" in out[2]
 
 
 def test_resolve_missing_label_errors(rpl) -> None:

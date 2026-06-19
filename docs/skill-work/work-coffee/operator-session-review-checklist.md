@@ -23,7 +23,7 @@
 | **Plan mode handoff** | Manual: Plan â†’ approve â†’ **`EXECUTE`** in a follow-up (or same message if product allows). | No surprise edits while still in Plan-only intent. |
 | **RECURSION-GATE / Record** | Contract test: `recursion-gate.md` parseable; `git log` shows no gated files without merge discipline. | No ad-hoc SELF/EVIDENCE/prompt edits without gate + script. |
 | **Harness vs coffee** | [harness-warmup.mdc](../../../.cursor/rules/harness-warmup.mdc) â€œskip when warmup pastedâ€ + `operator_coffee.py` runs `harness_warmup.py` in work-start modes. | Contract tests green; cold thread either pastes harness or runs `coffee`. |
-| **Skill capture optional close** | Grep or skim `skills-portable/skill-candidates.md` after you said yes. | Row exists when you opted in. |
+| **Skill capture optional close** | Grep or skim `skills/skill-candidates.md` after you said yes. | Row exists when you opted in. |
 | **Compass exit rule** | Coffee SKILL + menu-reference: **C** exits unless **`stay in coffee`**. | Contract test on SKILL.md strings. |
 | **Todos / UI duplication** | Cursor product; watch for duplicate todo rows. | N/A in repo tests. |
 

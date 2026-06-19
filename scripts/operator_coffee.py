@@ -194,7 +194,7 @@ def main() -> int:
     p.add_argument(
         "--first-command",
         action="store_true",
-        help="Alias for --mode first-command (new-chat bootstrap).",
+        help="Alias for --mode first-command (new-chat archive/grace-mar-instance/bootstrap).",
     )
     p.add_argument(
         "--verbose",

@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "work_layer": true,
+  "generated_date": "2026-05-20",
+  "host": "alkorshid",
+  "year": 2025,
+  "month": "2025-11",
+  "input_scope": "full-host-month",
+  "raw_input_count": 8,
+  "routeable_artifact_count": 8,
+  "total_word_mass": 73686,
+  "counts": {
+    "transcript-grade": 2,
+    "cleaned-transcript": 0,
+    "transcript-bearing": 0,
+    "summary-grade": 0,
+    "legacy-appearance-only": 6
+  },
+  "transcript-grade": 2,
+  "cleaned-transcript": 0,
+  "transcript-bearing": 0,
+  "summary-grade": 0,
+  "legacy-only": 6,
+  "legacy-appearance-only": 6,
+  "transcript_valid_count": 2,
+  "transcript_valid_percent": 25.0,
+  "residual_noise_artifact_count": 5,
+  "unresolved_speaker_count": 0,
+  "unresolved_speakers": [],
+  "runtime/artifacts": [
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2025-11-04/transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-no-way-out-for-israel-iran-russia-nato-s-worst-fear-2025-11-04.md",
+      "pub_date": "2025-11-04",
+      "title": "Col. Larry Wilkerson: No Way Out for Israel - Iran & Russia \u2014 NATO\u2019s Worst Fear",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "",
+      "residual_noise_terms": [
+        "Zalinski",
+        "Zilinski"
+      ],
+      "residual_noise": true,
+      "word_count": 11847,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2025-11-05/transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md",
+      "pub_date": "2025-11-05",
+      "title": "Scott Ritter: Russia & Iran Just Triggered It All!",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "",
+      "residual_noise_terms": [
+        "Thrron"
+      ],
+      "residual_noise": true,
+      "word_count": 9626,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2025-11-07/transcript-dialogue-works-amb-chas-freeman-mamdani-s-victory-development-in-the-levant-and-the-wol-2025-11-07.md",
+      "pub_date": "2025-11-07",
+      "title": "Amb. Chas Freeman: Mamdani's VICTORY, Development in the LEVANT, and the WOLFOWITZ Doctrine",
+      "evidence_grade": "transcript-grade",
+      "normalization_state": "",
+      "quality_note": "Atomic materialization verified a non-stub subtitle body before success was reported.",
+      "residual_noise_terms": [
+        "Mandi",
+        "Manny",
+        "zero someum"
+      ],
+      "residual_noise": true,
+      "word_count": 8392,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2025-11-13/transcript-dialogue-works-andrei-martyanov-frontline-falling-apart-russia-moves-to-crush-ukraine-s-2025-11-13.md",
+      "pub_date": "2025-11-13",
+      "title": "Andrei Martyanov: Frontline FALLING APART: Russia Moves to CRUSH Ukraine's Entire Army",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "Automated YouTube transcript fetch for Dialogue Works.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 8609,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2025-11-14/transcript-dialogue-works-amb-chas-freeman-global-power-shift-ukraine-central-asia-middle-east-ven-2025-11-14.md",
+      "pub_date": "2025-11-14",
+      "title": "Amb. Chas Freeman: Global Power Shift: Ukraine, Central Asia, Middle East & Venezuela",
+      "evidence_grade": "transcript-grade",
+      "normalization_state": "",
+      "quality_note": "Atomic materialization verified a non-stub subtitle body before success was reported.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 7788,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2025-11-20/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-and-china-move-in-together-2025-11-20.md",
+      "pub_date": "2025-11-20",
+      "title": "Andrei Martyanov: It's ALL OVER: Iran, Russia and China Move In Together",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "Automated YouTube transcript fetch for Dialogue Works.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 7246,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2025-11-21/transcript-dialogue-works-larry-johnson-larry-c-johnson-col-larry-wilkerson-the-warning-signs-are-clear-war-is-coming-2025-11-21.md",
+      "pub_date": "2025-11-21",
+      "title": "Larry C. Johnson & Col. Larry Wilkerson: The WARNING Signs Are Clear: WAR Is Coming",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "",
+      "residual_noise_terms": [
+        "Zalinski"
+      ],
+      "residual_noise": true,
+      "word_count": 11196,
+      "routeable": true,
+      "unresolved": false
+    },
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2025-11-28/transcript-dialogue-works-ray-mcgovern-graham-e-fuller-ukraine-running-out-of-options-forced-peace-or-total-breakdown-2025-11-28.md",
+      "pub_date": "2025-11-28",
+      "title": "Ray McGovern & Graham E. Fuller: Ukraine Running Out of Options, Forced Peace or Total Breakdown?",
+      "evidence_grade": "legacy-appearance-only",
+      "normalization_state": "",
+      "quality_note": "Automated YouTube transcript fetch for Dialogue Works.",
+      "residual_noise_terms": [
+        "Zalinski",
+        "Zilinski"
+      ],
+      "residual_noise": true,
+      "word_count": 8982,
+      "routeable": true,
+      "unresolved": false
+    }
+  ],
+  "deltas": {
+    "routeable_artifact_count": 1,
+    "total_word_mass": 8389,
+    "transcript_valid_count": 1,
+    "transcript_valid_percent_points": 10.7,
+    "counts": {
+      "transcript-grade": 1,
+      "cleaned-transcript": 0,
+      "transcript-bearing": 0,
+      "summary-grade": 0,
+      "legacy-appearance-only": 0
+    }
+  },
+  "warnings": [],
+  "git_state": {
+    "scoped_paths": [
+      "codex/years/2026/raw-input/2025-11-04/transcript-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-no-way-out-for-israel-iran-russia-nato-s-worst-fear-2025-11-04.md",
+      "codex/years/2026/raw-input/2025-11-05/transcript-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md",
+      "codex/years/2026/raw-input/2025-11-07/transcript-dialogue-works-amb-chas-freeman-mamdani-s-victory-development-in-the-levant-and-the-wol-2025-11-07.md",
+      "codex/years/2026/raw-input/2025-11-13/transcript-dialogue-works-andrei-martyanov-frontline-falling-apart-russia-moves-to-crush-ukraine-s-2025-11-13.md",
+      "codex/years/2026/raw-input/2025-11-14/transcript-dialogue-works-amb-chas-freeman-global-power-shift-ukraine-central-asia-middle-east-ven-2025-11-14.md",
+      "codex/years/2026/raw-input/2025-11-20/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-and-china-move-in-together-2025-11-20.md",
+      "codex/years/2026/raw-input/2025-11-21/transcript-dialogue-works-larry-johnson-larry-c-johnson-col-larry-wilkerson-the-warning-signs-are-clear-war-is-coming-2025-11-21.md",
+      "codex/years/2026/raw-input/2025-11-28/transcript-dialogue-works-ray-mcgovern-graham-e-fuller-ukraine-running-out-of-options-forced-peace-or-total-breakdown-2025-11-28.md",
+      "runtime/artifacts/host-shelf-quality/2025/alkorshid/2025-11/quality-summary.json",
+      "runtime/artifacts/host-shelf-quality/2025/alkorshid/2025-11/quality-summary.md"
+    ],
+    "on_disk": true,
+    "verified": true,
+    "committed": false,
+    "pushed": false,
+    "dirty_paths": [
+      "?? runtime/artifacts/host-shelf-quality/2025/alkorshid/2025-11/quality-summary.json",
+      "?? runtime/artifacts/host-shelf-quality/2025/alkorshid/2025-11/quality-summary.md",
+      "?? codex/years/2026/raw-input/2025-11-07/transcript-dialogue-works-amb-chas-freeman-mamdani-s-victory-development-in-the-levant-and-the-wol-2025-11-07.md",
+      "?? codex/years/2026/raw-input/2025-11-14/transcript-dialogue-works-amb-chas-freeman-global-power-shift-ukraine-central-asia-middle-east-ven-2025-11-14.md"
+    ],
+    "dirty_path_count": 4,
+    "upstream": "origin/main",
+    "ahead_count": 8,
+    "label": "on-disk/verified/not-committed/not-pushed"
+  },
+  "closeout_line": "Structure: +1 routeable | Purity: +1 transcript-valid / 25.0% (+10.7pp) | Unresolved: 0 | Git: on-disk/verified/not-committed/not-pushed"
+}

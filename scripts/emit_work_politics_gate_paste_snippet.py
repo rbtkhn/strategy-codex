@@ -2,7 +2,7 @@
 """
 Emit a canonical ### CANDIDATE-* markdown snippet for work-politics (RECURSION-GATE paste).
 
-Writes <user>/recursion-gate-staging/work-politics-<date>.paste-snippet.md.
+Writes <user>/archive/grace-mar-instance/recursion-gate-staging/work-politics-<date>.paste-snippet.md.
 Does not modify recursion-gate.md. See docs/skill-work/work-politics/LANE-CI.md.
 """
 
@@ -79,7 +79,7 @@ def main() -> int:
         "--staging-dir",
         type=Path,
         default=None,
-        help="Override output directory (default: <user>/recursion-gate-staging)",
+        help="Override output directory (default: <user>/archive/grace-mar-instance/recursion-gate-staging)",
     )
     args = ap.parse_args()
     uid = args.user.strip() or DEFAULT_USER
@@ -88,7 +88,7 @@ def main() -> int:
     ts_full = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     out_dir = args.staging_dir
     if out_dir is None:
-        out_dir = profile_dir(uid) / "recursion-gate-staging"
+        out_dir = profile_dir(uid) / "archive/grace-mar-instance/recursion-gate-staging"
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"work-politics-{ts_date}.paste-snippet.md"
     text = build_snippet(

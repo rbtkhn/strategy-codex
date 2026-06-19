@@ -8,7 +8,7 @@
 |------|------|
 | `exports/` | Generated **context bundles** (JSON) for external runtimes - produced by the export script |
 | `inbox/` | **Imported** observations from runtimes (JSON) - produced by the import script |
-| `receipts/` | **Receipts** proving each import (JSON) - [schema](../../schema-registry/runtime-complement-receipt.v1.json) |
+| `receipts/` | **Receipts** proving each import (JSON) - [schema](../../schemas/registry/runtime-complement-receipt.v1.json) |
 | `examples/` | **Sample** payloads; not live secrets - safe to commit |
 
 **Guardrails:** Files here are **not** canonical truth. Inbox files are **candidate** material.
@@ -45,7 +45,7 @@ Both **inbox** and **receipts** paths are printed. **`canonical_surfaces_touched
 ## What not to do
 
 - Do not treat `inbox/` as merged evidence.
-- Do not point vendor SDKs at `users/` for direct write.
+- Do not point vendor SDKs at `platform/users/` for direct write.
 - Do not add Docker or required cloud services here - this folder is a **file-based membrane** only in v1.
 
 ## See also

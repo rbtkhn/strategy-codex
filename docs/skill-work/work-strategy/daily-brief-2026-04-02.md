@@ -109,7 +109,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:2 S:0 G:1]** [Trump administration lifts sanctions on acting Venezuela president](https://thehill.com/policy/international/5812863-rodriguez-sanctions-trump-venezuela/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-04-02 15:23 UTC_
 - **[W:2 S:0 G:1]** [Thune: Republicans to keep GOP-only bill to fund border security Ã¢â‚¬Ëœas narrow as possible’](https://thehill.com/homenews/senate/5812737-thune-republicans-border-security-bill/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-04-02 14:24 UTC_

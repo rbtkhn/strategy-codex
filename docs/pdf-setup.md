@@ -57,7 +57,7 @@ The script falls back to Pandoc's default template if Eisvogel is not installed.
 
 ## Bundled vs System
 
-The script prefers system-installed `pandoc` and `xelatex` when available. If not found, it uses `tools/pandoc-*/bin/pandoc` and `tools/tectonic` (installed by `setup_pdf_tools.sh`). Tectonic is a self-contained LaTeX engine that fetches packages on demand — no MacTeX/BasicTeX required.
+The script prefers system-installed `pandoc` and `xelatex` when available. If not found, it uses `tools/pandoc-*/platform/bin/pandoc` and `tools/tectonic` (installed by `setup_pdf_tools.sh`). Tectonic is a self-contained LaTeX engine that fetches packages on demand — no MacTeX/BasicTeX required.
 
 ---
 

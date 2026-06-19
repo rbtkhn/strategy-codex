@@ -133,7 +133,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:2 S:0 G:1]** [Trump's Iran threats renew debate over war crimes, illegal orders](https://www.defenseone.com/policy/2026/04/trump-iran-threats-crimes-military/412759/) Ã¢â‚¬” _Defense One Ã¢â‚¬” All_ Ã‚· _2026-04-11 08:00 UTC_
 - **[W:2 S:0 G:1]** [Sen. Tim Sheehy makes emergency landing in Montana field after engine failure](https://www.nbcnews.com/politics/congress/senator-tim-sheehy-emergency-landing-montana-field-engine-failure-rcna278756) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _2026-04-11 03:13 UTC_

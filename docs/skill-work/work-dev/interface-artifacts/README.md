@@ -82,8 +82,8 @@ access**, and **typical next step** using the same vocabulary as the
 
 Use one clear default:
 
-- **New cross-lane prototypes** default to `artifacts/work-dev/interface-artifacts/`
-- **Established lane-specific derived artifacts** stay in their existing lane bucket, such as `artifacts/work-strategy/strategy-notebook/`
+- **New cross-lane prototypes** default to `runtime/artifacts/work-dev/interface-runtime/artifacts/`
+- **Established lane-specific derived artifacts** stay in their existing lane bucket, such as `runtime/artifacts/work-strategy/strategy-notebook/`
 
 ## Script support
 

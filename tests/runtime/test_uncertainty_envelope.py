@@ -48,10 +48,10 @@ def test_conflicted_overrides_sufficient_signals():
         _base(
             "obs_20260101T120000Z_aaaaaaaa",
             "A",
-            refs=["evidence/x"],
+            refs=["archive/placeholders/evidence/x"],
             contra=["IX-A-1"],
         ),
-        _base("obs_20260101T130000Z_bbbbbbbb", "B", refs=["evidence/y"]),
+        _base("obs_20260101T130000Z_bbbbbbbb", "B", refs=["archive/placeholders/evidence/y"]),
     ]
     env = compute_envelope(rows)
     assert env["evidence_state"] == "conflicted"

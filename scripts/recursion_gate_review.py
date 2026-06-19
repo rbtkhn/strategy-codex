@@ -37,9 +37,9 @@ except ImportError:
     from scripts.identity_library_boundary_rules import gate_suggested_reference_surface
 
 try:
-    from repo_io import read_path, REPO_ROOT, profile_dir, DEFAULT_USER_ID
+    from repo_io import read_path, REPO_ROOT, profile_dir, DEFAULT_USER_ID, src_dir
 except ImportError:
-    from scripts.repo_io import read_path, REPO_ROOT, profile_dir, DEFAULT_USER_ID
+    from scripts.repo_io import read_path, REPO_ROOT, profile_dir, DEFAULT_USER_ID, src_dir
 
 try:
     from gate_block_parser import (
@@ -203,7 +203,7 @@ def _parse_candidates_dashboard_shape(section: str) -> list[dict]:
 
 def parse_gate_pending_for_dashboard(content: str) -> tuple[int, list[dict]]:
     """
-    Parse recursion-gate content into (pending_count, pending_candidates) for profile/dashboard.
+    Parse recursion-gate content into (pending_count, pending_candidates) for platform/profile/dashboard.
     Each candidate has id, summary, mind_category, priority_score. Use from generate_profile.py.
     """
     pending_section = pending_candidates_region(content)
@@ -406,9 +406,9 @@ def _compute_boundary_review(row: dict) -> dict:
 
 
 def _try_persist_boundary_classification(user_id: str, row: dict) -> None:
-    """Write review-queue/boundary-classifications/<id>.json when grace_mar is importable."""
+    """Write archive/queues/review-queue/boundary-classifications/<id>.json when grace_mar is importable."""
     root = Path(__file__).resolve().parents[1]
-    src = root / "src"
+    src = src_dir(root)
     if src.is_dir() and str(src) not in sys.path:
         sys.path.insert(0, str(src))
     try:

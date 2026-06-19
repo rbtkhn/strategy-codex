@@ -1,9 +1,10 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Create interface artifact metadata JSON (Interface Artifact Spec v1).
 
 Default output:
-  artifacts/work-dev/interface-artifacts/iface-YYYYMMDD-XXXXXXXX.json
+  runtime/artifacts/work-dev/interface-runtime/artifacts/iface-YYYYMMDD-XXXXXXXX.json
 
 Does not stage to recursion-gate or touch Record surfaces.
 
@@ -11,7 +12,7 @@ Usage (from repo root):
   python3 scripts/work_dev/new_interface_artifact.py \
     --title "Example Interface Artifact" \
     --artifact-kind html-visualizer \
-    --generated-path artifacts/work-dev/interface-artifacts/example.html \
+    --generated-path runtime/artifacts/work-dev/interface-runtime/artifacts/example.html \
     --source-input docs/skill-work/work-strategy/strategy-notebook \
     --intended-use "Example protocol smoke test"
 """
@@ -28,7 +29,7 @@ from pathlib import Path
 from validate_interface_artifact import ALLOWED_ARTIFACT_KIND, validate_interface_artifact
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-DEFAULT_OUTPUT_DIR = REPO_ROOT / "artifacts" / "work-dev" / "interface-artifacts"
+DEFAULT_OUTPUT_DIR = ARTIFACTS_DIR / "work-dev" / "interface-runtime/artifacts"
 
 _FORBIDDEN_NAMES = frozenset(
     {
@@ -58,7 +59,7 @@ def _forbidden_write_path(path: Path) -> bool:
         rel = resolved.relative_to(REPO_ROOT)
     except ValueError:
         return False
-    return len(rel.parts) >= 2 and rel.parts[0] == "users" and rel.name in _FORBIDDEN_NAMES
+    return len(rel.parts) >= 2 and rel.parts[0] == "platform/users" and rel.name in _FORBIDDEN_NAMES
 
 
 def build_parser() -> argparse.ArgumentParser:

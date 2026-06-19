@@ -1,3 +1,4 @@
+from repo_io import SKILLS_DIR
 #!/usr/bin/env python3
 """Migrate canonical statecraft day-folder source files to the `source-` prefix."""
 
@@ -136,7 +137,7 @@ def iter_text_files() -> list[Path]:
         REPO_ROOT / "codex",
         REPO_ROOT / "docs",
         REPO_ROOT / "scripts",
-        REPO_ROOT / "skills-portable",
+        SKILLS_DIR,
         REPO_ROOT / "source-archive" / "statecraft",
         REPO_ROOT / "statecraft",
     ]

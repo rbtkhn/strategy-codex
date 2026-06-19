@@ -25,7 +25,7 @@ DOC_ANCHOR = "docs/essay-voice.md#template-slop-comparative-voice-ledes"
 
 DENYLIST_PREFIXES = (
     "source-archive/",
-    "review-queue/",
+    "archive/queues/review-queue/",
     "statecraft/daily/",
 )
 

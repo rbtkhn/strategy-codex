@@ -77,7 +77,7 @@ Concepts alone are ambiguous ("history of Pokemon"). Route only when **2+ weak t
 
 ## Work-strategy lookup flow
 
-In addition to the bot/Voice lookup path above, CMC may be queried during **operator work-strategy sessions** — current-events analysis, case-index checks, analogy audits, and strategy-notebook weaves.
+In addition to the archive/grace-mar-instance/bot/Voice lookup path above, CMC may be queried during **operator work-strategy sessions** — current-events analysis, case-index checks, analogy audits, and strategy-notebook weaves.
 
 ```
 work-strategy pass

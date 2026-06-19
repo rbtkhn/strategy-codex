@@ -27,7 +27,7 @@
 ## Guardrails
 
 - **Cite URLs** for each bullet used in client-facing or posted material.
-- **Do not** merge into SELF, EVIDENCE, or `bot/prompt.py` without the gated pipeline.
+- **Do not** merge into SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` without the gated pipeline.
 - **RSS section 2** of the daily brief may surface Vance-adjacent headlines; it **does not** replace this pass (timing, full quotes, official wording).
 
 ---

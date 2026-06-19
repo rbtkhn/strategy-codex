@@ -1,6 +1,6 @@
 # Skill Modularity â€” Formal Model
 
-**Purpose:** Canonical specification of the Recordâ€™s modules (including self-knowledge, self-personality, self-curiosity, self-library, and the Record-bound skill modules THINK/WRITE), their boundaries, their relationship to the Voice, and the rule that outputs (bots, profile) are functions of the Record with WRITE as the linguistic shaper. It also defines the boundary between the Record and the separate work / execution layer.
+**Purpose:** Canonical specification of the Recordâ€™s modules (including self-knowledge, self-personality, self-curiosity, self-library, and the Record-bound skill modules THINK/WRITE), their boundaries, their relationship to the Voice, and the rule that outputs (bots, platform/profile) are functions of the Record with WRITE as the linguistic shaper. It also defines the boundary between the Record and the separate work / execution layer.
 
 **Governed by:** [GRACE-MAR-CORE v2.0](grace-mar-core.md), [SKILLS-TEMPLATE](skills-template.md), [ARCHITECTURE](architecture.md)
 
@@ -74,13 +74,13 @@ Each Record skill module updates **only** its capability container in SKILLS. Mo
 
 ## 4. Outputs as functions of the Record
 
-### 4.1 Voice (Telegram bot, WeChat bot)
+### 4.1 Voice (Telegram bot, WeChat archive/grace-mar-instance/bot)
 
 The **Voice** is the emulation layer that speaks when queried. Its output is a **function of the Record** (SELF, SKILLS, EVIDENCE, prompt). Within that:
 
 - **Skill-write is the primary shaper of the linguistic layer.** The system prompt embeds WRITE-derived content: Lexile ceiling, â€œhow you talkâ€ rules, and literal writing samples that define voice. So the Telegram bot and WeChat bot outputs are **a function of skill-write** (and SELF, MEMORY, retrieval). WRITE does not *equal* the Voice; the Voice is a function of the whole Record, with WRITE supplying the style and level.
 
-**Operator-facing WRITE doctrine** (calibrating **system outputs** to **Locals / X / YouTube comments** â€” preferences, craft rules â€” separate from instance `skill-write.md` evidence): [skill-write/README.md](skill-write/README.md) â†’ [write-operator-preferences.md](skill-write/write-operator-preferences.md).
+**Operator-facing WRITE doctrine** (calibrating **system outputs** to **Locals / X / YouTube comments** â€” preferences, craft rules â€” separate from instance `skill-write.md` archive/placeholders/evidence): [skill-write/README.md](skill-write/README.md) â†’ [write-operator-preferences.md](skill-write/write-operator-preferences.md).
 
 **Identity vs capability qualification:** `SELF` remains authoritative for **identity-facing truth** (personality, values, expressive feel, how Grace-Mar comes across). `SKILLS`, especially WRITE, remains authoritative for **capability-facing truth** (what she can reliably produce, at what level, under what constraints). So the linguistic layer may be primarily shaped by `skill-write` without turning WRITE into the owner of identity.
 

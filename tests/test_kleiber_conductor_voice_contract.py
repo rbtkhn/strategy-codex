@@ -124,7 +124,7 @@ def test_kleiber_examples_pin_three_contexts_and_four_movement_options() -> None
 def test_concise_non_voice_rows_remain_unchanged() -> None:
     text = _conductor_text()
 
-    assert "| **toscanini** | Verify the seam, pin the receipt, and force the claim back to the evidence" in text
+    assert "| **toscanini** | Verify the seam, pin the receipt, and force the claim back to the archive/placeholders/evidence" in text
     assert "| **furtwangler** | Hold the tension open, resist false closure" in text
     assert "| **kleiber** | Pick one hotspot, falsify it fast" in text
     assert "| **karajan** | Shape the long arc so the whole line lands cleanly" in text

@@ -121,7 +121,7 @@ def _collapse_phrase_failures(fixture: dict) -> list[str]:
         path
         for case in fixture["cases"]
         for path in case["paths"]
-        if path.startswith("statecraft/voices/") or path.startswith("skills-portable/_drafts/")
+        if path.startswith("statecraft/voices/") or path.startswith("skills/_drafts/")
     }
     failures: list[str] = []
     patterns = [_normalize(phrase) for phrase in fixture["forbidden_collapse_phrases"]]

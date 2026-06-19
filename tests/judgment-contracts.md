@@ -67,6 +67,6 @@ Prefer fixing the doctrine or artifact when a failure exposes real drift. Fix th
 
 The current gauntlets deliberately duplicate small helper logic. That keeps each contract readable while the family is still young. Extract shared scoring or Markdown-table helpers only after more contracts reveal a stable pattern.
 
-The rehome path hygiene contract scans tracked files with `git ls-files` and excludes `artifacts/benchmarks/**` as historical provenance. It intentionally ignores untracked local churn.
+The rehome path hygiene contract scans tracked files with `git ls-files` and excludes `runtime/artifacts/benchmarks/**` as historical provenance. It intentionally ignores untracked local churn.
 
 There is no `tests/README.md` in this repo at the time of writing, so this file is the local discovery surface for judgment contracts.

@@ -19,7 +19,7 @@ CORPUS_HINT = re.compile(
 )
 # CIV-MEM / library paths must not appear in IX-A topics (belongs in self-library.md).
 PATH_LEAK = re.compile(
-    r"docs/civilization-memory[/\"'\s]|artifacts/civ-mem|lib-stubs\.yaml|/civ-mem-encyclopedia|"
+    r"docs/civilization-memory[/\"'\s]|runtime/artifacts/civ-mem|lib-stubs\.yaml|/civ-mem-encyclopedia|"
     r"\bcivilization-memory[/\"'\s#?]|github\.com/[^/\s]+/[^/\s]+/blob/[^\s]*civilization-memory",
     re.I,
 )

@@ -1,4 +1,4 @@
-"""Tests for bot/chat_store.py — persistent conversation store."""
+"""Tests for archive/grace-mar-instance/bot/chat_store.py — persistent conversation store."""
 
 import os
 import sys

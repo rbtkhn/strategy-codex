@@ -33,7 +33,7 @@ The first session is a short survey to get to know the user. Four questions:
 
 ## How We Capture Responses
 
-- **Typing:** Parent types while the user answers (recommended for young users)
+- **Typing:** Parent types while the user answers (recommended for young platform/users)
 - **Voice:** If using voice, responses are transcribed afterward
 - **Relaxed:** No wrong answers. Partial or silly answers are fine — they all inform the profile.
 

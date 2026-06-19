@@ -130,7 +130,7 @@ Perform the task with minimal or no operator structure.
 
 ## Recording results
 
-Add the following optional fields to the claim in [`think-claims.json`](../../artifacts/skill-think/think-claims.json):
+Add the following optional fields to the claim in [`think-claims.json`](../../runtime/artifacts/skill-think/think-claims.json):
 
 | Field | Type | Purpose |
 |-------|------|---------|

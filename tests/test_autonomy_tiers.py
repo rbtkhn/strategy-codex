@@ -31,7 +31,7 @@ def test_evaluate_unknown_profile_raises(tmp_path: Path) -> None:
     p = tmp_path / "x.jsonl"
     lines = [json.dumps({"agent_action": "a", "human_action": "a", "risk_level": "low"}) for _ in range(10)]
     p.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    with pytest.raises(KeyError, match="unknown tier profile"):
+    with pytest.raises(KeyError, match="unknown tier platform/profile"):
         evaluate(p, profile="nope", thresholds_path=TIER_YAML)
 
 

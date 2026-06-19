@@ -28,7 +28,7 @@ def _repo_root() -> Path:
 
 def _load_self(repo_root: Path, user_id: str) -> str:
     """Load self.md for the user (read-only)."""
-    path = repo_root / "users" / user_id / "self.md"
+    path = repo_root / "platform/users" / user_id / "self.md"
     if not path.exists():
         return f"(self.md not found: {path})"
     return path.read_text(encoding="utf-8", errors="replace")
@@ -36,7 +36,7 @@ def _load_self(repo_root: Path, user_id: str) -> str:
 
 def _load_gate_snippet(repo_root: Path, user_id: str, max_chars: int = 8000) -> str:
     """Load a snippet of recursion-gate.md (read-only)."""
-    path = repo_root / "users" / user_id / "recursion-gate.md"
+    path = repo_root / "platform/users" / user_id / "recursion-gate.md"
     if not path.exists():
         return "(recursion-gate.md not found)"
     text = path.read_text(encoding="utf-8", errors="replace")

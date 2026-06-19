@@ -1,5 +1,5 @@
 """
-Load and validate config/runtime_workers/registry.yaml (WORK only).
+Load and validate platform/config/runtime_workers/registry.yaml (WORK only).
 
 Does not execute entrypoints — validates repo-relative paths exist.
 """
@@ -17,7 +17,7 @@ if str(_SCRIPTS) not in sys.path:
 from yaml_compat import safe_load_path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-_REGISTRY_REL = Path("config/runtime_workers/registry.yaml")
+_REGISTRY_REL = Path("platform/config/runtime_workers/registry.yaml")
 
 
 def registry_path(repo_root: Path | None = None) -> Path:

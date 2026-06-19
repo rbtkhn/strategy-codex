@@ -165,7 +165,7 @@ VII. STRUCTURAL FAILURE MODES
 Republican institutions strain under success.
 
 Failure pressures:
-• Prolonged commands (imperium extension)
+• Prolonged commands (imperium platform/extension)
 • Wealth concentration
 • Client armies
 • Breakdown of elite restraint

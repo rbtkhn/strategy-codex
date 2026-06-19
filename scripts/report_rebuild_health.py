@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Summarize repo-owned derived rebuild health from receipts."""
 
@@ -10,9 +11,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_RECEIPTS_DIR = REPO_ROOT / "artifacts" / "work-dev" / "rebuild-receipts"
-DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "work-dev" / "rebuild-health" / "summary.json"
-DEFAULT_MANIFEST = REPO_ROOT / "artifacts" / "work-dev" / "derived-regeneration-manifest.json"
+DEFAULT_RECEIPTS_DIR = ARTIFACTS_DIR / "work-dev" / "rebuild-receipts"
+DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-dev" / "rebuild-health" / "summary.json"
+DEFAULT_MANIFEST = ARTIFACTS_DIR / "work-dev" / "derived-regeneration-manifest.json"
 
 
 def _load_receipts(directory: Path) -> list[dict]:

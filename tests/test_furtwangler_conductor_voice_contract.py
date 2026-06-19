@@ -101,7 +101,7 @@ def test_furtwangler_is_distinct_from_other_prototypes() -> None:
     assert "Bernstein = musical meaning, syntax, drama, transformation, felt stakes" in section
     assert "Karajan = total form, continuity, sonority, hierarchy, finish" in section
     assert "Kleiber = kinetic character, spring, danger, theatrical timing, local aliveness" in section
-    assert "score as evidence" in toscanini
+    assert "score as archive/placeholders/evidence" in toscanini
     assert "3-5 sentence orientation" in bernstein
     assert "2-4 sentence orientation" in karajan
     assert "1-3 sentence orientation" in kleiber
@@ -151,7 +151,7 @@ def test_all_five_voice_prototypes_are_present_with_stable_rows() -> None:
     ):
         assert heading in text
 
-    assert "| **toscanini** | Verify the seam, pin the receipt, and force the claim back to the evidence" in text
+    assert "| **toscanini** | Verify the seam, pin the receipt, and force the claim back to the archive/placeholders/evidence" in text
     assert "| **furtwangler** | Hold the tension open, resist false closure" in text
     assert "| **karajan** | Shape the long arc so the whole line lands cleanly" in text
     assert "| **kleiber** | Pick one hotspot, falsify it fast" in text

@@ -74,7 +74,7 @@ Several generated options exceed 10 words:
 
 ### 4.1 WRITE mode: no response-length rule for option selection
 
-**Location:** `tools/cmc-console/app/api/scholar/chat/route.ts` — WRITE mode OGE block (lines 771–786)
+**Location:** `tools/cmc-console/platform/app/api/scholar/chat/route.ts` — WRITE mode OGE block (lines 771–786)
 
 IMAGINE and LEARN both specify: "When user selects option (a-f): response 100-200 words."  
 WRITE mode omits this. Per cmc-oge-enforcement, all modes should use 100–200 words for option selection.
@@ -86,7 +86,7 @@ WRITE mode omits this. Per cmc-oge-enforcement, all modes should use 100–200 w
 
 ### 4.2 LEARN and WRITE: no concrete-anchor requirement in prompts
 
-**Location:** `tools/cmc-console/app/api/scholar/chat/route.ts` — LEARN and WRITE OGE blocks
+**Location:** `tools/cmc-console/platform/app/api/scholar/chat/route.ts` — LEARN and WRITE OGE blocks
 
 IMAGINE includes: "Each option MUST include at least one specific person, place, or event (concrete anchor)."  
 LEARN and WRITE do not. OGE_ARCHITECTURE and cmc-oge-enforcement require concrete anchors for all modes.
@@ -98,7 +98,7 @@ LEARN and WRITE do not. OGE_ARCHITECTURE and cmc-oge-enforcement require concret
 
 ### 4.3 POST-BARNES not specified in mode prompts
 
-**Location:** `tools/cmc-console/app/api/scholar/chat/route.ts` — IMAGINE, LEARN, WRITE OGE blocks
+**Location:** `tools/cmc-console/platform/app/api/scholar/chat/route.ts` — IMAGINE, LEARN, WRITE OGE blocks
 
 POST-BARNES behavior (A and B shift to "Mercouris responds to Barnes" / "Mearsheimer responds to Barnes") appears in governance but not in the mode-specific prompts. The model may rely on CIV–SCHOLAR–PROTOCOL or scholar files, which may not be prominent or loaded.
 

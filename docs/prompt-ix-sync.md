@@ -1,6 +1,6 @@
 ﻿# Prompt parity for IX-A / IX-B / IX-C (Voice and analyst)
 
-**Purpose:** Operator-facing truth about how **Section IX** entries in [`self-knowledge.md`](../self-knowledge.md) and [`self.md`](../self.md) relate to **[`bot/prompt.py`](../bot/prompt.py)** (`SYSTEM_PROMPT`, `ANALYST_PROMPT`), merge tooling, and harnessesâ€”especially **drift** when the knowledge split changes without matching prompt edits.
+**Purpose:** Operator-facing truth about how **Section IX** entries in [`self-knowledge.md`](../self-knowledge.md) and [`self.md`](../self.md) relate to **[`archive/grace-mar-instance/bot/prompt.py`](../archive/grace-mar-instance/bot/prompt.py)** (`SYSTEM_PROMPT`, `ANALYST_PROMPT`), merge tooling, and harnessesâ€”especially **drift** when the knowledge split changes without matching prompt edits.
 
 **Scope:** Documentation only. Does not change merge behavior or prompts.
 
@@ -13,8 +13,8 @@
 | Layer | Role |
 |-------|------|
 | **`self-knowledge.md`** | **Canonical Record** for merged IX-A (Knowledge) YAML list; `self.md` keeps the overview shell while IX-B/IX-C remain in `self.md` during the transition. |
-| **`scripts/process_approved_candidates.py`** | On approved merge, updates `self-knowledge.md`, evidence, and optionally **`bot/prompt.py`** (see below). `self.md` keeps the compact overview shell. |
-| **`bot/prompt.py`** | **`SYSTEM_PROMPT`** â€” Voice emulation inline text; **`ANALYST_PROMPT`** â€” signal detection and **deduplication** against embedded IX snapshots. |
+| **`scripts/process_approved_candidates.py`** | On approved merge, updates `self-knowledge.md`, evidence, and optionally **`archive/grace-mar-instance/bot/prompt.py`** (see below). `self.md` keeps the compact overview shell. |
+| **`archive/grace-mar-instance/bot/prompt.py`** | **`SYSTEM_PROMPT`** â€” Voice emulation inline text; **`ANALYST_PROMPT`** â€” signal detection and **deduplication** against embedded IX snapshots. |
 | **`python scripts/export_prp.py -o self-llm.txt`** | Compact PRP export; [instance doctrine](../instance-doctrine.md) expects refresh after SELF/prompt merges when output changes. |
 
 Nothing in the Voice runtime reads `self.md` directly at inference time; the **prompt strings** are what the model sees unless RAG / lookup paths add context.
@@ -35,7 +35,7 @@ These are **separate copies** of IX-shaped text. Updating **`self-knowledge.md`*
 
 ## `rebuild_ix` and `rebuild_observation_sections_from_self`
 
-Merge logic in [`scripts/process_approved_candidates.py`](../scripts/process_approved_candidates.py): if a candidate carries **`prompt_merge_mode: rebuild_ix`**, the script calls **`rebuild_observation_sections_from_self`** from [`src/grace_mar/merge/prompt_sync.py`](../src/grace_mar/merge/prompt_sync.py).
+Merge logic in [`scripts/process_approved_candidates.py`](../scripts/process_approved_candidates.py): if a candidate carries **`prompt_merge_mode: rebuild_ix`**, the script calls **`rebuild_observation_sections_from_self`** from [`platform/src/grace_mar/merge/prompt_sync.py`](../platform/src/grace_mar/merge/prompt_sync.py).
 
 That function **only replaces** spans bounded by these **exact** headers in **`SYSTEM_PROMPT`**:
 
@@ -45,11 +45,11 @@ That function **only replaces** spans bounded by these **exact** headers in **`S
 
 It rebuilds bullets from **`self-knowledge.md`** YAML for IX-A `topic:` lines and from **`self.md`** YAML for IX-B `topic:` / IX-C `observation:` lines. If a header is **missing**, that span is **skipped** (no error).
 
-**Current layout today:** [`bot/prompt.py`](../bot/prompt.py) uses **`## RECORD STATE`** with narrative **Curiosity** / **Personality** lists, **not** the `YOUR KNOWLEDGE` / `YOUR CURIOSITY` / `YOUR PERSONALITY` header triple above. So **`rebuild_ix` does not rewrite the current default `SYSTEM_PROMPT` layout** unless the prompt file is refactored to include those headers.
+**Current layout today:** [`archive/grace-mar-instance/bot/prompt.py`](../archive/grace-mar-instance/bot/prompt.py) uses **`## RECORD STATE`** with narrative **Curiosity** / **Personality** lists, **not** the `YOUR KNOWLEDGE` / `YOUR CURIOSITY` / `YOUR PERSONALITY` header triple above. So **`rebuild_ix` does not rewrite the current default `SYSTEM_PROMPT` layout** unless the prompt file is refactored to include those headers.
 
-**Implication:** Do **not** assume a merge with `rebuild_ix` updated the visible Voice narrative unless youâ€™ve confirmed the header layout matches [`prompt_sync.py`](../src/grace_mar/merge/prompt_sync.py).
+**Implication:** Do **not** assume a merge with `rebuild_ix` updated the visible Voice narrative unless youâ€™ve confirmed the header layout matches [`prompt_sync.py`](../platform/src/grace_mar/merge/prompt_sync.py).
 
-**Legacy append path:** Candidates may use **`prompt_addition`** + **`prompt_section`** (`YOUR KNOWLEDGE` / `YOUR CURIOSITY` / `YOUR PERSONALITY`). [`insert_prompt_addition`](../src/grace_mar/merge/prompt_sync.py) maps those to specific headers **or** falls back to older placeholder anchors (`## WHAT YOU LOVE`, `## HOW YOU HANDLE THINGS`). If neither matches, the addition may not applyâ€”another reason to **verify `prompt.py` by hand** after merges.
+**Legacy append path:** Candidates may use **`prompt_addition`** + **`prompt_section`** (`YOUR KNOWLEDGE` / `YOUR CURIOSITY` / `YOUR PERSONALITY`). [`insert_prompt_addition`](../platform/src/grace_mar/merge/prompt_sync.py) maps those to specific headers **or** falls back to older placeholder anchors (`## WHAT YOU LOVE`, `## HOW YOU HANDLE THINGS`). If neither matches, the addition may not applyâ€”another reason to **verify `prompt.py` by hand** after merges.
 
 ---
 
@@ -59,7 +59,7 @@ Use this when you need **prompt parity** with the Record:
 
 1. **`self-knowledge.md`** â€” IX-A entries merged as intended (YAML ids, `topic:`, provenance).
 2. **`self.md`** â€” compact overview shell remains in sync with the split; IX-B / IX-C entries stay aligned where present.
-3. **`bot/prompt.py` â€” `SYSTEM_PROMPT`** â€” Narrative under **`## RECORD STATE`** (or your future section layout) reflects new curiosity/personality lines **if** the Voice should speak them.
+3. **`archive/grace-mar-instance/bot/prompt.py` â€” `SYSTEM_PROMPT`** â€” Narrative under **`## RECORD STATE`** (or your future section layout) reflects new curiosity/personality lines **if** the Voice should speak them.
 4. **PRP** â€” Run `python scripts/export_prp.py -o self-llm.txt` (or repo default); commit if diff (per [instance doctrine](../instance-doctrine.md)).
 5. **Harnesses (optional but relevant)** â€” Counterfactual / voice / **judgment probes** import prompt text from **`prompt.py`**; rerun when you care about regression signal after prompt edits.
 
@@ -76,7 +76,7 @@ Use this when you need **prompt parity** with the Record:
 
 ## Probes and harnesses
 
-[`scripts/run_judgment_probes.py`](../scripts/run_judgment_probes.py) imports **`SYSTEM_PROMPT`** from [`bot/prompt.py`](../bot/prompt.py). Scores reflect **embedded prompt text**, not a live read of the Record. If **`SYSTEM_PROMPT`** lags the relevant Record surfaces, probes measure **prompt**, not the Record aloneâ€”fix parity before inferring â€œRecord regression.â€
+[`scripts/run_judgment_probes.py`](../scripts/run_judgment_probes.py) imports **`SYSTEM_PROMPT`** from [`archive/grace-mar-instance/bot/prompt.py`](../archive/grace-mar-instance/bot/prompt.py). Scores reflect **embedded prompt text**, not a live read of the Record. If **`SYSTEM_PROMPT`** lags the relevant Record surfaces, probes measure **prompt**, not the Record aloneâ€”fix parity before inferring â€œRecord regression.â€
 
 ---
 
@@ -93,7 +93,7 @@ When IX lists grow, [instance doctrine](../instance-doctrine.md) calls for **sum
 
 - [instance-doctrine.md â€” Prompt Architecture](../instance-doctrine.md#prompt-architecture-botpromptpy)
 - [AGENTS.md â€” Three-Dimension Mind Model](../AGENTS.md) (repository structure section)
-- [src/grace_mar/merge/prompt_sync.py](../src/grace_mar/merge/prompt_sync.py) â€” rebuild and append helpers
+- [platform/src/grace_mar/merge/prompt_sync.py](../platform/src/grace_mar/merge/prompt_sync.py) â€” rebuild and append helpers
 
 
 

@@ -1,9 +1,10 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Compress one WORK lane into a small markdown (or JSON) artifact with recovery paths.
 
 This is a Context Efficiency Layer (CEL) helper — not a second Record and not the
-JSON paste caps in config/context_budgets/ (see docs/skill-work/active-lane-compression.md).
+JSON paste caps in platform/config/context_budgets/ (see docs/skill-work/active-lane-compression.md).
 
 Usage:
   python3 scripts/compress_active_lane.py --lane work-strategy
@@ -100,7 +101,7 @@ def build_active_lane_payload(lane: str, user_id: str, repo_root: Path) -> dict:
     readme = _read(lane_path / "README.md")
     objective = _objective_from_readme(readme) if readme else "(no README)"
 
-    user_dir = repo_root / "users" / user_id
+    user_dir = repo_root / "platform/users" / user_id
     sw = _read(user_dir / "self-work.md")
     sw_line = _self_work_bullet(sw, lane_n)
 
@@ -204,7 +205,7 @@ def main() -> int:
     out_path = args.out
     if out_path is None:
         lane_safe = payload["lane"]
-        default_dir = args.repo_root / "artifacts" / "context"
+        default_dir = args.ARTIFACTS_DIR / "context"
         default_dir.mkdir(parents=True, exist_ok=True)
         suffix = ".json" if args.json else ".md"
         out_path = default_dir / f"active-lane-{lane_safe}{suffix}"

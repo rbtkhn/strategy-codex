@@ -126,7 +126,7 @@ def test_unresolved_speaker_rows_are_counted_but_not_routeable(tmp_path: Path) -
 
 def test_prior_artifact_comparison_produces_structure_and_purity_deltas(tmp_path: Path) -> None:
     notebook_root = _notebook(tmp_path)
-    output_root = tmp_path / "artifacts" / "host-shelf-quality"
+    output_root = tmp_path / "runtime/artifacts" / "host-shelf-quality"
     first = [_write_raw(notebook_root, "first")]
 
     quality.write_quality_summary(
@@ -171,7 +171,7 @@ def test_residual_noise_and_normalization_state_are_reported(tmp_path: Path) -> 
         raw_paths=paths,
         notebook_root=notebook_root,
     )
-    artifact = summary["artifacts"][0]
+    artifact = summary["runtime/artifacts"][0]
     markdown = quality.render_markdown(summary)
 
     assert summary["residual_noise_artifact_count"] == 1
@@ -203,7 +203,7 @@ def test_residual_noise_detects_operator_paste_artifacts_seen_in_live_runs(tmp_p
         raw_paths=paths,
         notebook_root=notebook_root,
     )
-    artifact = summary["artifacts"][0]
+    artifact = summary["runtime/artifacts"][0]
 
     assert artifact["residual_noise_terms"] == [
         "Kaggon of doctrine",
@@ -218,7 +218,7 @@ def test_write_reports_for_paths_can_expand_to_full_host_month(tmp_path: Path) -
     notebook_root = _notebook(tmp_path)
     selected = _write_raw(notebook_root, "selected", pub_date="2026-04-12")
     _write_raw(notebook_root, "sibling", pub_date="2026-04-13")
-    output_root = tmp_path / "artifacts" / "host-shelf-quality"
+    output_root = tmp_path / "runtime/artifacts" / "host-shelf-quality"
 
     summaries = quality.write_quality_reports_for_paths(
         [selected],
@@ -237,7 +237,7 @@ def test_cli_apply_writes_json_and_markdown_with_naming_warning(tmp_path: Path, 
     _write_raw(notebook_root, "cli")
     (notebook_root / "davis" / "davis-shelf-core.md").write_text("# Shelf\n", encoding="utf-8")
     (notebook_root / "davis" / "davis-book-legacy.md").write_text("# Book\n", encoding="utf-8")
-    output_root = tmp_path / "artifacts" / "host-shelf-quality"
+    output_root = tmp_path / "runtime/artifacts" / "host-shelf-quality"
 
     rc = quality.main(
         [

@@ -252,7 +252,7 @@ def main() -> int:
     parser.add_argument("--sensitivity", choices=SENSITIVITIES, default="standard")
     parser.add_argument("--observe", action="store_true",
                         help="Increment observation_count on existing claim")
-    parser.add_argument("--contradiction-ref", help="Ref to a conflicting claim or evidence")
+    parser.add_argument("--contradiction-ref", help="Ref to a conflicting claim or archive/placeholders/evidence")
     parser.add_argument("--expiry-review-date", help="YYYY-MM-DD review date")
     parser.add_argument("--notes", help="Optional notes")
     parser.add_argument("--json", action="store_true", help="Print emitted row as JSON")

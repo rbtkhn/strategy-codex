@@ -13,7 +13,7 @@
 | Outcome-agent dimension | Risk if weak | Companion-self answer |
 |-------------------------|--------------|------------------------|
 | **Persistent memory** | Re-explaining; drift | **Record** persists only via gate + merge. **Exports** (`export_user_identity.py`, OpenClaw hooks, PRP) are the **context payload** for tools that forget. **self-memory.md** holds operator continuity — not SELF. |
-| **Inspectable surfaces** | Black-box “done” | **Git + markdown**: gate blocks, `artifacts/`, WORK docs. Prefer **file handback** over chat-only deliverables for anything that might feed the Record. |
+| **Inspectable surfaces** | Black-box “done” | **Git + markdown**: gate blocks, `runtime/artifacts/`, WORK docs. Prefer **file handback** over chat-only deliverables for anything that might feed the Record. |
 | **Compounding context** | Day 30 feels like day 1 | **Loop 1** compounds through **approved** merges. Vendor thread “learning” is **not** Record compounding until staged and merged ([three-compounding-loops.md](three-compounding-loops.md)). |
 
 ---
@@ -35,7 +35,7 @@ Reuse this skeleton **every time** you delegate a **new task type** to an extern
 ### 3. Context payload
 
 - If the tool **forgets:** attach **export + read-order pointers** from [INTEGRATION-PROGRAM.md](INTEGRATION-PROGRAM.md) § 1–2.
-- **Strategy-codex reference commands (default):** `python scripts/harness_warmup.py -u strategy-codex` (paste digest), `python scripts/continuity_read_log.py -u strategy-codex`, `python integrations/openclaw_hook.py --user strategy-codex --format md+manifest --emit-event`. Use `-u grace-mar` only on explicit **fork revive** ([`grace-mar-instance-boundary.md`](../../grace-mar-instance-boundary.md)).
+- **Strategy-codex reference commands (default):** `python scripts/harness_warmup.py -u strategy-codex` (paste digest), `python scripts/continuity_read_log.py -u strategy-codex`, `python platform/integrations/openclaw_hook.py --user strategy-codex --format md+manifest --emit-event`. Use `-u grace-mar` only on explicit **fork revive** ([`grace-mar-instance-boundary.md`](../../grace-mar-instance-boundary.md)).
 
 ### 4. Verification checkpoints
 

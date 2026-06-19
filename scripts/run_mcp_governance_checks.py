@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Run governed MCP tooling against committed examples; write aggregated Markdown report.
@@ -17,7 +18,7 @@ from pathlib import Path
 from typing import Literal
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-REPORT_PATH = REPO_ROOT / "artifacts" / "mcp-governance-demo-report.md"
+REPORT_PATH = ARTIFACTS_DIR / "mcp-governance-demo-report.md"
 
 
 def _posix(base: Path, path: Path) -> str:
@@ -42,7 +43,7 @@ def _parse_artifact_paths(stdout: str, stderr: str) -> list[str]:
     for block in (stdout, stderr):
         for line in block.splitlines():
             s = line.strip()
-            if s.startswith("artifacts/"):
+            if s.startswith("runtime/artifacts/"):
                 found.append(s)
     # De-dupe preserving order
     seen: set[str] = set()
@@ -85,8 +86,8 @@ def main() -> int:
 
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    demo = root / "artifacts" / "mcp-governance-demo"
-    report_out = root / "artifacts" / "mcp-governance-demo-report.md"
+    demo = ARTIFACTS_DIR / "mcp-governance-demo"
+    report_out = ARTIFACTS_DIR / "mcp-governance-demo-report.md"
     demo.mkdir(parents=True, exist_ok=True)
 
     py = sys.executable
@@ -157,12 +158,12 @@ def main() -> int:
     auth_md = demo / "authority-report.md"
     risk_md = demo / "risk-report.md"
     risk_js = demo / "risk-report.json"
-    man_md = root / "artifacts/mcp-admission/governance-demo-manifest.md"
-    mock_md = root / "artifacts/mcp-mock-runs/governance-demo-mock.md"
-    lr_md = root / "artifacts/mcp-local-read/governance-demo-read.md"
-    li_md = root / "artifacts/mcp-local-index/governance-demo-index.md"
-    ev_md = root / "artifacts/evidence-stubs/governance-demo-stub.md"
-    pi_md = root / "artifacts/patch-intake/governance-demo-intake.md"
+    man_md = root / "runtime/artifacts/mcp-admission/governance-demo-manifest.md"
+    mock_md = root / "runtime/artifacts/mcp-mock-runs/governance-demo-mock.md"
+    lr_md = root / "runtime/artifacts/mcp-local-read/governance-demo-read.md"
+    li_md = root / "runtime/artifacts/mcp-local-index/governance-demo-index.md"
+    ev_md = root / "runtime/artifacts/evidence-stubs/governance-demo-stub.md"
+    pi_md = root / "runtime/artifacts/patch-intake/governance-demo-intake.md"
 
     run_required(
         "mcp_capability_audit",
@@ -325,7 +326,7 @@ def main() -> int:
         for p in receipt_paths:
             lines.append(f"- `{p}`")
     else:
-        lines.append("_None detected in captured output (receipts may still exist under `artifacts/mcp-receipts/`)._")
+        lines.append("_None detected in captured output (receipts may still exist under `runtime/artifacts/mcp-receipts/`)._")
     lines.append("")
 
     lines.extend(
@@ -337,7 +338,7 @@ def main() -> int:
             "- **Network:** none — subprocesses run repo tooling on local files.",
             "- **Shell:** `subprocess.run(..., shell=False)` only; no shell DSL.",
             "- **Canonical Record mutation:** none — orchestrator does not write companion identity files or gate surfaces.",
-            "- **Companion  tree write:** none (orchestrator emits only `artifacts/` outputs).",
+            "- **Companion  tree write:** none (orchestrator emits only `runtime/artifacts/` outputs).",
             "",
             "## Summary",
             "",

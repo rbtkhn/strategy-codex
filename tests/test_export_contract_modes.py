@@ -29,11 +29,11 @@ def test_export_contract_defines_all_classes():
     """Export classes should be named in the contract."""
     contract = _read(EXPORT_CONTRACT)
     for cls in (
-        "Full governed profile",
-        "Task-limited profile",
-        "Tool bootstrap profile",
-        "Demonstrated capability profile",
-        "Emulation-ready profile",
+        "Full governed platform/profile",
+        "Task-limited platform/profile",
+        "Tool bootstrap platform/profile",
+        "Demonstrated capability platform/profile",
+        "Emulation-ready platform/profile",
         "Internal-only",
     ):
         assert cls in contract, f"export-contract.md should define class '{cls}'"

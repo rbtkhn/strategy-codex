@@ -8,7 +8,7 @@ tags:
 - work-strategy
 - statecraft
 - synthesis
-portable_source: skills-portable/statecraft-helix-synthesis/SKILL.md
+portable_source: skills/statecraft-helix-synthesis/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Statecraft Helix Synthesis

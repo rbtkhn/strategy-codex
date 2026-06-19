@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Build a small audit artifact for read-time statecraft metadata normalization."""
 
@@ -23,7 +24,7 @@ from statecraft_day_archive import (
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-OUT_DIR = REPO_ROOT / "artifacts" / "statecraft" / "metadata"
+OUT_DIR = ARTIFACTS_DIR / "statecraft" / "metadata"
 OUT_JSON = OUT_DIR / "normalization-audit.json"
 OUT_MD = OUT_DIR / "normalization-audit.md"
 SCHEMA_VERSION = "1.0.0-statecraft-metadata-normalization-audit"

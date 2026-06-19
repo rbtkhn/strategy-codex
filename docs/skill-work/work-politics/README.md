@@ -85,8 +85,8 @@ At least **weekly** (e.g. before weekly brief): either **one work-politics candi
 
 WORK-lane state **beside** the gate (not a replacement): clients, engagements, an operator review queue (`WPR-*` ids), and funnel events. Stored at **`work-politics/work-politics.db`** (local; gitignored). Implementation: [`scripts/work_politics_engine.py`](../../../scripts/work_politics_engine.py). **RECURSION-GATE** remains canonical for `CANDIDATE-*` and merges via `process_approved_candidates.py`; optional `approved_candidate_id` on a review row can reference a gate id after companion merge.
 
-- **HTTP:** [`apps/gate-review-app.py`](../../../apps/gate-review-app.py) exposes JSON under `/api/work-politics/*` when the app runs with `OPERATOR_SECRET` (same auth as gate review).
-- **Metrics:** [apps/metrics-dashboard.py](../../../apps/metrics-dashboard.py) shows 30d funnel revenue and pending WPR items when Streamlit is available.
+- **HTTP:** [`platform/apps/gate-review-app.py`](../../../platform/apps/gate-review-app.py) exposes JSON under `/api/work-politics/*` when the app runs with `OPERATOR_SECRET` (same auth as gate review).
+- **Metrics:** [platform/apps/metrics-dashboard.py](../../../platform/apps/metrics-dashboard.py) shows 30d funnel revenue and pending WPR items when Streamlit is available.
 - **Seed:** `python scripts/bootstrap_work_politics.py` â€” dev convenience for KY-4 client + sample engagement (operator must set compliance cleared; not legal advice).
 
 ---

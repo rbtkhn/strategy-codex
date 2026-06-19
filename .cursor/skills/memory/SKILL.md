@@ -10,7 +10,7 @@ tags:
 - civ-mem
 - state-memory
 - civilization
-portable_source: skills-portable/memory/SKILL.md
+portable_source: skills/memory/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Memory

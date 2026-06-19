@@ -26,7 +26,7 @@ def main() -> int:
     )
     p.add_argument("--id", action="append", dest="ids", metavar="OBS_ID", help="Runtime observation id (repeatable)")
     p.add_argument(
-        "--prepared-context",
+        "--runtime/prepared-context",
         type=Path,
         default=None,
         help="Prepared-context markdown; extracts obs_* ids and scores those observations",
@@ -40,7 +40,7 @@ def main() -> int:
         ids = list(dict.fromkeys(ids))
 
     if not ids:
-        print("error: provide --id and/or --prepared-context", file=sys.stderr)
+        print("error: provide --id and/or --runtime/prepared-context", file=sys.stderr)
         return 2
 
     rows: list[dict] = []

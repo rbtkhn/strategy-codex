@@ -47,7 +47,7 @@ def test_validate_work_lane_contracts() -> None:
 def test_work_lanes_dashboard_shape() -> None:
     cp = _run_script("build_work_lanes_dashboard.py")
     assert cp.returncode == 0, cp.stderr
-    path = REPO_ROOT / "artifacts/work-lanes-dashboard.json"
+    path = REPO_ROOT / "runtime/artifacts/work-lanes-dashboard.json"
     data = json.loads(path.read_text(encoding="utf-8"))
     assert data.get("schemaVersion")
     assert "recordMergeAuthority" in data

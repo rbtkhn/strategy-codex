@@ -6,7 +6,7 @@
 
 ### Model (chapter-first)
 
-Book identity and chapter IDs remain **SSOT** in [book-architecture.yaml](book-architecture.yaml) and PH wiring in [cross-book-map.yaml](cross-book-map.yaml). History notebook uses a **traditional chapter model** with deliberate variation: **problem-led Volume I** (comparative ancient evidence), five temporal volumes, [STYLE-GUIDE.md](STYLE-GUIDE.md) prose targets, and optional **civilization threads** as longitudinal scratchpads ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **not** a separate legacy history-page file layer. (Strategy-notebook **daily judgment** pages, LIB-0153, are unrelated.)
+Book identity and chapter IDs remain **SSOT** in [book-architecture.yaml](book-architecture.yaml) and PH wiring in [cross-book-map.yaml](cross-book-map.yaml). History notebook uses a **traditional chapter model** with deliberate variation: **problem-led Volume I** (comparative ancient archive/placeholders/evidence), five temporal volumes, [STYLE-GUIDE.md](STYLE-GUIDE.md) prose targets, and optional **civilization threads** as longitudinal scratchpads ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **not** a separate legacy history-page file layer. (Strategy-notebook **daily judgment** pages, LIB-0153, are unrelated.)
 
 | Piece | Location | Role |
 |-------|----------|------|
@@ -42,7 +42,7 @@ Flow: **SELF-LIBRARY (curated fact base) + CIV-MEM (MEM reservoir) ÃƒÂ¢Ã¢�
 
 | Volume | Era | Chapters |
 |--------|-----|----------|
-| **I ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Ancient Empires** (to 476 AD) | Twenty **problem-led** chapters (comparative ancient evidence); see [research/VOL-I-PROBLEM-CHAPTERS.md](research/VOL-I-PROBLEM-CHAPTERS.md) | `hn-i-v1-01` ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ `hn-i-v1-20` (legacy civ draft: [chapters/vol-i/persia.md](chapters/vol-i/persia.md)) |
+| **I ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Ancient Empires** (to 476 AD) | Twenty **problem-led** chapters (comparative ancient archive/placeholders/evidence); see [research/VOL-I-PROBLEM-CHAPTERS.md](research/VOL-I-PROBLEM-CHAPTERS.md) | `hn-i-v1-01` ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ `hn-i-v1-20` (legacy civ draft: [chapters/vol-i/persia.md](chapters/vol-i/persia.md)) |
 | **II ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Medieval** (476 ADÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“1453 AD) | Post-Roman reconfigurations: Islam, Byzantium, Mongol disruption | islam, rome-byzantine, persia-islamic, mongol, china-medieval |
 | **III ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Colonial** (1453ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“1815) | Ottoman peak, maritime expansion, continental consolidation through the Napoleonic settlement | ottoman, anglia, france, russia |
 | **IV ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Industrial** (1815ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“1945) | Post-Vienna order, total war, imperial collapse | america, germany, russia-imperial, anglia-imperial |

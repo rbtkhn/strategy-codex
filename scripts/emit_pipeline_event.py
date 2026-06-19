@@ -10,7 +10,7 @@ Usage:
     python scripts/emit_pipeline_event.py applied CANDIDATE-0040 evidence_id=ACT-0014
     python scripts/emit_pipeline_event.py approved CANDIDATE-0039
     python scripts/emit_pipeline_event.py rejected CANDIDATE-0002 rejection_reason="too trivial"
-    python scripts/emit_pipeline_event.py validation_failed CANDIDATE-0046 reason="missing evidence"
+    python scripts/emit_pipeline_event.py validation_failed CANDIDATE-0046 reason="missing archive/placeholders/evidence"
     python scripts/emit_pipeline_event.py maintenance none action=rotate_context rotated=true
     python scripts/emit_pipeline_event.py --user grace-mar applied CANDIDATE-0040
 

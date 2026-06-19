@@ -101,10 +101,10 @@ Typical fits:
 
 Recipient-owned destination:
 
-- `<recipient>/review-queue/proposals/`
+- `<recipient>/archive/queues/review-queue/proposals/`
 - plus queue / event-log updates inside the recipient review queue
 
-This path must reuse [schema-registry/change-proposal.v1.json](../schema-registry/change-proposal.v1.json), not invent a second proposal format.
+This path must reuse [schemas/registry/change-proposal.v1.json](../schemas/registry/change-proposal.v1.json), not invent a second proposal format.
 
 ---
 
@@ -172,9 +172,9 @@ flowchart TD
 
 See:
 
-- [`../bridges/inter-fork/README.md`](../bridges/inter-fork/README.md)
-- [`../bridges/inter-fork/evidence-share.example.json`](../bridges/inter-fork/evidence-share.example.json)
-- [`../bridges/inter-fork/change-proposal-review.example.json`](../bridges/inter-fork/change-proposal-review.example.json)
+- [`../research/bridges/inter-fork/README.md`](../research/bridges/inter-fork/README.md)
+- [`../research/bridges/inter-fork/evidence-share.example.json`](../research/bridges/inter-fork/evidence-share.example.json)
+- [`../research/bridges/inter-fork/change-proposal-review.example.json`](../research/bridges/inter-fork/change-proposal-review.example.json)
 
 ---
 

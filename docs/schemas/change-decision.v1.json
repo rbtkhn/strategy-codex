@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "schema-registry/change-decision.v1.json",
+  "$id": "schemas/registry/change-decision.v1.json",
   "title": "Companion-Self Change Decision v1",
   "description": "Decision record for a governed change proposal.",
   "type": "object",
@@ -54,11 +54,11 @@
     },
     "previousSurface": {
       "type": "string",
-      "enum": ["self", "self_library", "civ_mem", "skills", "evidence", "work_layer"]
+      "enum": ["self", "self_library", "civ_mem", "skills", "archive/placeholders/evidence", "work_layer"]
     },
     "newSurface": {
       "type": "string",
-      "enum": ["self", "self_library", "civ_mem", "skills", "evidence", "work_layer"]
+      "enum": ["self", "self_library", "civ_mem", "skills", "archive/placeholders/evidence", "work_layer"]
     },
     "materialityAtDecision": {
       "type": "string",

@@ -9,7 +9,7 @@ tags:
 - statecraft
 - source-archive
 - transcript
-portable_source: skills-portable/statecraft-source-intake/SKILL.md
+portable_source: skills/statecraft-source-intake/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Source intake (`source-intake`)

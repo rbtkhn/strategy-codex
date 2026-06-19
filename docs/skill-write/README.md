@@ -8,7 +8,7 @@
 
 | Layer | Location | Role |
 |-------|----------|------|
-| **Companion WRITE (Record)** | `skill-write.md` (and related evidence) | What the fork **demonstrates** — samples, YAML, capability trajectory; feeds **Voice** / linguistic layer per skills-modularity §4. |
+| **Companion WRITE (Record)** | `skill-write.md` (and related archive/placeholders/evidence) | What the fork **demonstrates** — samples, YAML, capability trajectory; feeds **Voice** / linguistic layer per skills-modularity §4. |
 | **skill-write doctrine (this hub)** | `docs/skill-write/*.md` | **Operator preferences** and **drafting craft** — how agent-assisted drafts are shaped for **Locals / X / YouTube comments** (above), plus ledes, closers, density; update when your taste changes. |
 | **CIV-MIND-BARNES / tri-mind Barnes** | `docs/skill-work/work-strategy/strategy-notebook/experts/barnes/mind.md` (via [minds/README.md](../skill-work/work-strategy/minds/README.md)) | **WORK/strategy** analysis voice — **orthogonal** to **VivaBarnesLaw Locals** paste-up defaults; see [write-operator-preferences.md](write-operator-preferences.md) (*Not the same as*). |
 
@@ -39,7 +39,7 @@
 
 | Artifact | Role |
 |----------|------|
-| [`artifacts/skill-write/write-claims.json`](../../artifacts/skill-write/write-claims.json) | Operator WRITE capability claims (not companion Record) |
+| [`runtime/artifacts/skill-write/write-claims.json`](../../runtime/artifacts/skill-write/write-claims.json) | Operator WRITE capability claims (not companion Record) |
 | [`schemas/skill_write/write_claims.schema.json`](../../schemas/skill_write/write_claims.schema.json) | JSON Schema for write claims |
 | [`scripts/validate_write_claims.py`](../../scripts/validate_write_claims.py) | Validator with advisory warnings |
 | [`scripts/build_write_observability.py`](../../scripts/build_write_observability.py) | Observability builder (surface-aware metrics) |

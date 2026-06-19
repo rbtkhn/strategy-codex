@@ -607,7 +607,7 @@ PATTERN: Mandate Under External Pressure — Vacillation and Irreversible Conver
 
 Doctrine audit & session outputs:
 • 2026-02-13 — Doctrine audit (CIV–DOCTRINE–CHINA vs current foreign
-  policy, 7-day evidence). Result: 01 Neutral, 02 Aligned, 03
+  policy, 7-day archive/placeholders/evidence). Result: 01 Neutral, 02 Aligned, 03
   Consistent. File: docs/governance/STATE–CHINA–DOCTRINE–AUDIT–
   2026–02–13.md. Sources: FMPRC, China.org.cn (ARC–CHINA–T-INSTITUTIONAL/
   OFFICIAL); Reuters, NBC, Focus Taiwan, Taipei Times.

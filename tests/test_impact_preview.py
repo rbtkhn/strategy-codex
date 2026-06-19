@@ -1,4 +1,4 @@
-"""Tests for src/grace_mar/merge/impact_preview.py — candidate impact prediction."""
+"""Tests for platform/src/grace_mar/merge/impact_preview.py — candidate impact prediction."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(REPO_ROOT / "src"))
+sys.path.insert(0, str(REPO_ROOT / "platform/src"))
 
 from grace_mar.merge.impact_preview import format_impact_summary, preview_candidate_impact
 
@@ -48,7 +48,7 @@ class TestKnowledgeCandidate:
     def test_prompt_none_by_default(self):
         r = preview_candidate_impact(_candidate(), user_id=USER)
         assert r["prompt_effect"] == "none"
-        assert "bot/prompt.py" not in r["files_touched"]
+        assert "archive/grace-mar-instance/bot/prompt.py" not in r["files_touched"]
 
     def test_always_touches_gate_and_session_log(self):
         r = preview_candidate_impact(_candidate(), user_id=USER)
@@ -104,7 +104,7 @@ class TestPromptModes:
             user_id=USER,
         )
         assert r["prompt_effect"] == "append"
-        assert "bot/prompt.py" in r["files_touched"]
+        assert "archive/grace-mar-instance/bot/prompt.py" in r["files_touched"]
 
     def test_prompt_rebuild(self):
         r = preview_candidate_impact(
@@ -112,7 +112,7 @@ class TestPromptModes:
             user_id=USER,
         )
         assert r["prompt_effect"] == "rebuild"
-        assert "bot/prompt.py" in r["files_touched"]
+        assert "archive/grace-mar-instance/bot/prompt.py" in r["files_touched"]
         assert "prompt_rebuild" in r["risk_factors"]
 
     def test_prompt_section_label_knowledge(self):

@@ -18,7 +18,7 @@ from import_inter_fork_package import import_inter_fork_package  # noqa: E402
 
 
 def _profile_lookup(repo_root: Path):
-    return lambda user: repo_root / "users" / user
+    return lambda user: repo_root / "platform/users" / user
 
 
 def _seed_gate(path: Path) -> None:
@@ -27,7 +27,7 @@ def _seed_gate(path: Path) -> None:
 
 
 def _seed_review_queue(root: Path) -> None:
-    review = root / "review-queue"
+    review = root / "archive/queues/review-queue"
     (review / "proposals").mkdir(parents=True, exist_ok=True)
     (review / "decisions").mkdir(parents=True, exist_ok=True)
     (review / "diffs").mkdir(parents=True, exist_ok=True)
@@ -36,7 +36,7 @@ def _seed_review_queue(root: Path) -> None:
 
 
 def test_export_inter_fork_package_writes_under_sender_namespace(tmp_path: Path) -> None:
-    sender_root = tmp_path / "users" / "sender-a"
+    sender_root = tmp_path / "platform/users" / "sender-a"
     sender_root.mkdir(parents=True, exist_ok=True)
     out_path = export_inter_fork_package(
         sender_fork_id="sender-a",
@@ -54,7 +54,7 @@ def test_export_inter_fork_package_writes_under_sender_namespace(tmp_path: Path)
         validate_schema=False,
     )
 
-    assert out_path == sender_root / "artifacts" / "inter-fork" / "packages" / f"{json.loads(out_path.read_text(encoding='utf-8'))['packageId']}.json"
+    assert out_path == sender_root / "runtime/artifacts" / "inter-fork" / "packages" / f"{json.loads(out_path.read_text(encoding='utf-8'))['packageId']}.json"
     payload = json.loads(out_path.read_text(encoding="utf-8"))
     assert payload["senderForkId"] == "sender-a"
     assert payload["intendedRecipientForkId"] == "recipient-b"
@@ -62,8 +62,8 @@ def test_export_inter_fork_package_writes_under_sender_namespace(tmp_path: Path)
 
 
 def test_import_candidate_package_only_mutates_recipient_namespace(tmp_path: Path) -> None:
-    sender_root = tmp_path / "users" / "sender-a"
-    recipient_root = tmp_path / "users" / "recipient-b"
+    sender_root = tmp_path / "platform/users" / "sender-a"
+    recipient_root = tmp_path / "platform/users" / "recipient-b"
     sender_root.mkdir(parents=True, exist_ok=True)
     _seed_gate(sender_root / "recursion-gate.md")
     _seed_gate(recipient_root / "recursion-gate.md")
@@ -101,14 +101,14 @@ def test_import_candidate_package_only_mutates_recipient_namespace(tmp_path: Pat
     assert "INTER_FORK_PACKAGE" in recipient_gate
     assert "sender-a" in recipient_gate
     assert result["importMode"] == "candidate_import"
-    copied = recipient_root / "artifacts" / "inter-fork" / "imports"
+    copied = recipient_root / "runtime/artifacts" / "inter-fork" / "imports"
     assert any(path.name.endswith(".receipt.json") for path in copied.iterdir())
     assert any(path.name.endswith(".json") and not path.name.endswith(".receipt.json") for path in copied.iterdir())
 
 
 def test_import_change_proposal_package_updates_review_queue(tmp_path: Path) -> None:
-    sender_root = tmp_path / "users" / "sender-a"
-    recipient_root = tmp_path / "users" / "recipient-b"
+    sender_root = tmp_path / "platform/users" / "sender-a"
+    recipient_root = tmp_path / "platform/users" / "recipient-b"
     sender_root.mkdir(parents=True, exist_ok=True)
     _seed_gate(recipient_root / "recursion-gate.md")
     _seed_review_queue(recipient_root)
@@ -145,21 +145,21 @@ def test_import_change_proposal_package_updates_review_queue(tmp_path: Path) -> 
         validate_schema=False,
     )
 
-    proposals = list((recipient_root / "review-queue" / "proposals").glob("proposal-*.json"))
+    proposals = list((recipient_root / "archive/queues/review-queue" / "proposals").glob("proposal-*.json"))
     assert len(proposals) == 1
     proposal = json.loads(proposals[0].read_text(encoding="utf-8"))
     assert proposal["userSlug"] == "recipient-b"
     assert proposal["targetSurface"] == "skills"
-    queue = json.loads((recipient_root / "review-queue" / "change_review_queue.json").read_text(encoding="utf-8"))
+    queue = json.loads((recipient_root / "archive/queues/review-queue" / "change_review_queue.json").read_text(encoding="utf-8"))
     assert queue["schemaVersion"] == "1.0.0"
     assert queue["items"][0]["proposalId"] == proposal["proposalId"]
-    event_log = json.loads((recipient_root / "review-queue" / "change_event_log.json").read_text(encoding="utf-8"))
+    event_log = json.loads((recipient_root / "archive/queues/review-queue" / "change_event_log.json").read_text(encoding="utf-8"))
     assert event_log["events"][0]["eventType"] == "proposal_created"
     assert result["importMode"] == "change_proposal_review"
 
 
 def test_import_rejects_recipient_mismatch(tmp_path: Path) -> None:
-    sender_root = tmp_path / "users" / "sender-a"
+    sender_root = tmp_path / "platform/users" / "sender-a"
     sender_root.mkdir(parents=True, exist_ok=True)
     package_path = export_inter_fork_package(
         sender_fork_id="sender-a",

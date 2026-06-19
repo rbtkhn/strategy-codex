@@ -57,7 +57,7 @@
 | Spec precision | [templates/specification-precision.md](../../../../docs/skill-work/work-dev/templates/specification-precision.md), OpenClaw skills, handback specs |
 | Eval / quality | [quality-gates-narrative.md](../../../../docs/skill-work/work-dev/quality-gates-narrative.md), [variation-types.md](../../../../docs/skill-work/work-dev/variation-types.md), `validate-change-review.py` (template) |
 | Multi-agent / harness | [PARALLEL-MACRO-ACTIONS.md](../../../../docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md), [agentic-environment-principles.md](../../../../docs/skill-work/work-dev/agentic-environment-principles.md) |
-| Failure modes | [agent-reliability-playbook.md](../../../../docs/skill-work/work-dev/agent-reliability-playbook.md), [failure-pattern-checklist.md](../../../../recursion-gate-staging/failure-pattern-checklist.md) |
+| Failure modes | [agent-reliability-playbook.md](../../../../docs/skill-work/work-dev/agent-reliability-playbook.md), [failure-pattern-checklist.md](../../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md) |
 | Trust / guardrails | [AGENTS.md](../../../../AGENTS.md) stage-only merge, [safety-story-ux.md](../../../../docs/skill-work/work-dev/safety-story-ux.md) |
 | Context architecture | Canonical paths, export bundles, SESSION-LOG / RECURSION-GATE read order ([session-continuity-contract.md](../../../../docs/skill-work/work-dev/session-continuity-contract.md)) |
 | Token economics | [economic-benchmarks.md](../../../../docs/skill-work/work-dev/economic-benchmarks.md), `scripts/token_economics.py`, [emit_compute_ledger.py](../../../../scripts/emit_compute_ledger.py) |
@@ -68,6 +68,6 @@
 
 - Digest (this file).
 - Template: [specification-precision.md](../../../../docs/skill-work/work-dev/templates/specification-precision.md).
-- Checklist: [failure-pattern-checklist.md](../../../../recursion-gate-staging/failure-pattern-checklist.md).
+- Checklist: [failure-pattern-checklist.md](../../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md).
 - Estimator CLI: [token_economics.py](../../../../scripts/token_economics.py).
 

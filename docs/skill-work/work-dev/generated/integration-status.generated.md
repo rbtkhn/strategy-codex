@@ -25,19 +25,19 @@ Status vocabulary: `implemented`, `partial`, `documented_only`, `needs_verificat
 ### `compute_ledger_export_handback`
 
 - **Status:** `partial`
-- **Source of truth:** `docs/skill-work/work-dev/economic-benchmarks.md`, `scripts/emit_compute_ledger.py`, `integrations/openclaw_hook.py`, `integrations/openclaw_stage.py`, `scripts/export_runtime_bundle.py`, `scripts/handback_server.py`
+- **Source of truth:** `docs/skill-work/work-dev/economic-benchmarks.md`, `scripts/emit_compute_ledger.py`, `platform/integrations/openclaw_hook.py`, `platform/integrations/openclaw_stage.py`, `scripts/export_runtime_bundle.py`, `scripts/handback_server.py`
 - Integration paths append ledger rows (operation, runtime, wall_ms, bytes_processed). Optional token fields via GRACE_MAR_INTEGRATION_PROMPT_TOKENS, GRACE_MAR_INTEGRATION_COMPLETION_TOKENS, GRACE_MAR_INTEGRATION_TOTAL_TOKENS, GRACE_MAR_INTEGRATION_MODEL.
 
 ### `constitution_advisory_events`
 
 - **Status:** `implemented`
-- **Source of truth:** `integrations/openclaw_stage.py`
+- **Source of truth:** `platform/integrations/openclaw_stage.py`
 - intent_constitutional_critique events before staging.
 
 ### `identity_export_openclaw_hook`
 
 - **Status:** `implemented`
-- **Source of truth:** `integrations/openclaw_hook.py`, `docs/openclaw-integration.md`
+- **Source of truth:** `platform/integrations/openclaw_hook.py`, `docs/openclaw-integration.md`
 - Export path exists and emits runtime compatibility audit events.
 
 ### `local_local_topology`
@@ -55,19 +55,19 @@ Status vocabulary: `implemented`, `partial`, `documented_only`, `needs_verificat
 ### `openclaw_provenance_metadata`
 
 - **Status:** `implemented`
-- **Source of truth:** `integrations/openclaw_stage.py`, `scripts/handback_server.py`, `bot/core.py`
+- **Source of truth:** `platform/integrations/openclaw_stage.py`, `scripts/handback_server.py`, `archive/grace-mar-instance/bot/core.py`
 - candidate_source, artifact_*, constitution_* in gate YAML.
 
 ### `pipeline_export_audit`
 
 - **Status:** `implemented`
-- **Source of truth:** `integrations/openclaw_hook.py`
+- **Source of truth:** `platform/integrations/openclaw_hook.py`
 - Aligns with portable runtime contract naming.
 
 ### `runtime_bundle_export`
 
 - **Status:** `implemented`
-- **Source of truth:** `integrations/openclaw_hook.py`, `scripts/export_runtime_bundle.py`
+- **Source of truth:** `platform/integrations/openclaw_hook.py`, `scripts/export_runtime_bundle.py`
 - OpenClaw consumes the generic runtime bundle contract.
 
 ### `session_continuity_checklist`
@@ -79,7 +79,7 @@ Status vocabulary: `implemented`, `partial`, `documented_only`, `needs_verificat
 ### `session_continuity_event_logging`
 
 - **Status:** `partial`
-- **Source of truth:** `runtime/observability/continuity_blocks.jsonl`, `scripts/require_continuity_for_handback.py`, `scripts/work_dev/export_continuity_blocks.py`, `artifacts/work-dev/continuity-observability/continuity-blocks.md`, `tests/test_handback_requires_continuity.py`, `tests/test_export_continuity_blocks.py`
+- **Source of truth:** `runtime/observability/continuity_blocks.jsonl`, `scripts/require_continuity_for_handback.py`, `scripts/work_dev/export_continuity_blocks.py`, `runtime/artifacts/work-dev/continuity-observability/continuity-blocks.md`, `tests/test_handback_requires_continuity.py`, `tests/test_export_continuity_blocks.py`
 - Structured block events append when handback denies /stage; export_continuity_blocks.py can render a WORK-derived review artifact.
 - Durable retention remains deferred, so the local feed is still observability residue rather than an operational guarantee.
 
@@ -98,7 +98,7 @@ Status vocabulary: `implemented`, `partial`, `documented_only`, `needs_verificat
 ### `stage_only_handback`
 
 - **Status:** `implemented`
-- **Source of truth:** `integrations/openclaw_stage.py`, `scripts/handback_server.py`
+- **Source of truth:** `platform/integrations/openclaw_stage.py`, `scripts/handback_server.py`
 - Merge authority stays human-gated.
 
 ### `vps_caveat`

@@ -106,7 +106,7 @@
     {
       "id": "steward",
       "title": "Steward / membrane (gate + template parity)",
-      "first_move": "Read users/grace-mar/recursion-gate.md; optional: python3 scripts/operator_gate_review_pass.py -u grace-mar",
+      "first_move": "Read platform/users/grace-mar/recursion-gate.md; optional: python3 scripts/operator_gate_review_pass.py -u grace-mar",
       "stop_rule": "Top 1\u20133 candidates reviewed or explicitly deferred.",
       "signals_used": []
     }
@@ -120,7 +120,7 @@
   "capture_gap": {
     "last_evidence_date": "2026-05-02",
     "last_evidence_id": "ACT-0021",
-    "days_since_evidence": 1,
+    "days_since_archive/placeholders/evidence": 1,
     "last_merge_date": "2026-05-02",
     "days_since_merge": 1,
     "pending_count": 3,

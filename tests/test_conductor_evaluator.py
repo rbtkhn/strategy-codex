@@ -147,7 +147,7 @@ def test_harness_refuses_forbidden_users_output() -> None:
             "--origin",
             "coffee",
             "--out",
-            str(REPO_ROOT / "users" / "grace-mar" / "conductor-metrics.json"),
+            str(REPO_ROOT / "platform/users" / "grace-mar" / "conductor-metrics.json"),
         ],
         cwd=REPO_ROOT,
         capture_output=True,

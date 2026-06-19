@@ -28,7 +28,7 @@ def test_capture_git_worktree_snapshot_parses_porcelain() -> None:
                 "stdout": (
                     "## main...origin/main [ahead 1]\n"
                     " M statecraft/daily/2026-06-08.md\n"
-                    "?? artifacts/tmp/\n"
+                    "?? runtime/artifacts/tmp/\n"
                 ),
                 "stderr": "",
             },

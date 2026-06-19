@@ -60,7 +60,7 @@ def test_new_status_without_daily_or_sidecar(queue_mod, tmp_path: Path, monkeypa
     daily_dir.mkdir(parents=True)
     (daily_dir / f"{day}.md").write_text("Archive checkpoint: **0**\n", encoding="utf-8")
 
-    queue_root = tmp_path / "artifacts" / "statecraft-intake-queue"
+    queue_root = tmp_path / "runtime/artifacts" / "statecraft-intake-queue"
     monkeypatch.setattr(queue_mod, "QUEUE_ROOT", queue_root)
 
     rows, _ = queue_mod.build_queue_report(
@@ -92,7 +92,7 @@ def test_daily_status_when_linked(queue_mod, tmp_path: Path, monkeypatch):
         encoding="utf-8",
     )
 
-    monkeypatch.setattr(queue_mod, "QUEUE_ROOT", tmp_path / "artifacts" / "statecraft-intake-queue")
+    monkeypatch.setattr(queue_mod, "QUEUE_ROOT", tmp_path / "runtime/artifacts" / "statecraft-intake-queue")
 
     rows, _ = queue_mod.build_queue_report(
         day, root=archive_root, daily_dir=daily_dir, allow_desync=True
@@ -109,7 +109,7 @@ def test_emit_sidecars_writes_valid_json(queue_mod, tmp_path: Path, monkeypatch)
     slug = f"source-gamma-test-{day}.md"
     _write_archive(day_dir / slug)
 
-    queue_root = tmp_path / "artifacts" / "statecraft-intake-queue"
+    queue_root = tmp_path / "runtime/artifacts" / "statecraft-intake-queue"
     monkeypatch.setattr(queue_mod, "QUEUE_ROOT", queue_root)
 
     row = queue_mod.SourceQueueRow(
@@ -163,7 +163,7 @@ def test_emit_sidecars_does_not_modify_archive(queue_mod, tmp_path: Path, monkey
     original = "---\nkind: transcript\n---\n# Body\n"
     source.write_text(original, encoding="utf-8")
 
-    monkeypatch.setattr(queue_mod, "QUEUE_ROOT", tmp_path / "artifacts" / "statecraft-intake-queue")
+    monkeypatch.setattr(queue_mod, "QUEUE_ROOT", tmp_path / "runtime/artifacts" / "statecraft-intake-queue")
     row = queue_mod.SourceQueueRow(
         source_stem=source.stem,
         source_path=str(source),

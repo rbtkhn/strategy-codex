@@ -24,7 +24,7 @@ This spec defines a small JSON metadata shape for interface artifacts so the ope
     "docs/skill-work/work-strategy/strategy-notebook/"
   ],
   "generatedPaths": [
-    "artifacts/work-strategy/strategy-notebook/strategy-notebook-visualizer.html"
+    "runtime/artifacts/work-strategy/strategy-notebook/strategy-notebook-visualizer.html"
   ],
   "intendedUse": "Help the operator inspect strategy-notebook structure before deciding whether to revise docs or scripts.",
   "mutationScope": "runtime-only",
@@ -100,8 +100,8 @@ This spec defines a small JSON metadata shape for interface artifacts so the ope
 
 `generatedPaths` may use either storage pattern:
 
-- `artifacts/work-dev/interface-artifacts/` for new cross-lane prototypes
-- an established lane-specific derived bucket when that lane already has one, such as `artifacts/work-strategy/strategy-notebook/`
+- `runtime/artifacts/work-dev/interface-runtime/artifacts/` for new cross-lane prototypes
+- an established lane-specific derived bucket when that lane already has one, such as `runtime/artifacts/work-strategy/strategy-notebook/`
 
 Use the storage pattern that matches the artifact's real home. The path does not change authority; both remain WORK-only and derived.
 

@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Normalize operator `routing:` one-liners to JSONL (append-only).
 
@@ -7,7 +8,7 @@ Usage:
   echo 'routing:wrong_profile:latin:mediterranean' | python3 scripts/ingest_routing_feedback.py
   python3 scripts/ingest_routing_feedback.py feedback.txt
 
-Output: appends to artifacts/skill-work/work-civ-mem/routing-feedback.jsonl
+Output: appends to runtime/artifacts/skill-work/work-civ-mem/routing-feedback.jsonl
 """
 
 from __future__ import annotations
@@ -19,7 +20,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-OUT = REPO_ROOT / "artifacts" / "skill-work" / "work-civ-mem" / "routing-feedback.jsonl"
+OUT = ARTIFACTS_DIR / "skill-work" / "work-civ-mem" / "routing-feedback.jsonl"
 
 ROUTING_LINE = re.compile(
     r"^routing:(wrong_profile|missing_keyword|seed_bad|seed_good|civ_order|upstream):(.+)$"

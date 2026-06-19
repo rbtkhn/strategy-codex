@@ -117,7 +117,7 @@ class TestLogRetrievalMiss:
             "--surface", "artifact_lookup",
             "--query", "skill card for work-strategy",
             "--failure-class", "missing_content",
-            "--related-path", "artifacts/skill-cards/",
+            "--related-path", "runtime/artifacts/skill-cards/",
             "--related-path", "docs/skill-work/work-strategy/",
         )
         assert result.returncode == 0

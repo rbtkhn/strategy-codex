@@ -91,7 +91,7 @@ def test_check_authority_legacy_stdout_unchanged() -> None:
             sys.executable,
             str(_SCRIPTS / "check-authority.py"),
             "--surface",
-            "evidence",
+            "archive/placeholders/evidence",
         ],
         cwd=str(REPO_ROOT),
         capture_output=True,

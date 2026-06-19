@@ -224,11 +224,11 @@ source_exchange:
     assert "LEARN-0001" in knowledge_out
 
 
-@pytest.mark.skipif(not (REPO_ROOT / "bot" / "prompt.py").exists(), reason="prompt fixture missing")
+@pytest.mark.skipif(not (REPO_ROOT / "archive/grace-mar-instance/bot" / "prompt.py").exists(), reason="prompt fixture missing")
 def test_rebuild_ix_on_real_prompt_smoke() -> None:
     from grace_mar.merge.prompt_sync import rebuild_observation_sections_from_self
 
-    prompt = (REPO_ROOT / "bot" / "prompt.py").read_text(encoding="utf-8")
+    prompt = (REPO_ROOT / "archive/grace-mar-instance/bot" / "prompt.py").read_text(encoding="utf-8")
     self_md = (REPO_ROOT / "self.md").read_text(encoding="utf-8")
     self_knowledge_path = REPO_ROOT / "self-knowledge.md"
     self_knowledge_md = self_knowledge_path.read_text(encoding="utf-8") if self_knowledge_path.exists() else self_md

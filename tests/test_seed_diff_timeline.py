@@ -71,7 +71,7 @@ class TestSeedDiff:
     def test_write_diff(self, tmp_path, monkeypatch):
         from emit_seed_diff import build_seed_diff, write_diff
         monkeypatch.setattr("emit_seed_diff.REPO_ROOT", tmp_path)
-        user_dir = tmp_path / "users" / "test"
+        user_dir = tmp_path / "platform/users" / "test"
         user_dir.mkdir(parents=True)
         claim = _make_claim()
         diff = build_seed_diff(claim, "observed", "recurring")
@@ -84,14 +84,14 @@ class TestSeedDiff:
 class TestSchemaExtension:
     def test_seed_transition_in_category(self):
         schema = json.loads(
-            (ROOT / "schema-registry" / "identity-diff.v1.json").read_text()
+            (ROOT / "schemas/registry" / "identity-diff.v1.json").read_text()
         )
         cats = schema["properties"]["category"]["enum"]
         assert "seed_transition" in cats
 
     def test_source_type_field(self):
         schema = json.loads(
-            (ROOT / "schema-registry" / "identity-diff.v1.json").read_text()
+            (ROOT / "schemas/registry" / "identity-diff.v1.json").read_text()
         )
         assert "sourceType" in schema["properties"]
         assert "seed" in schema["properties"]["sourceType"]["enum"]
@@ -101,7 +101,7 @@ class TestTimeline:
     @pytest.fixture
     def registry_with_history(self, tmp_path, monkeypatch):
         monkeypatch.setattr("seed_timeline.REPO_ROOT", tmp_path)
-        user_dir = tmp_path / "users" / "test"
+        user_dir = tmp_path / "platform/users" / "test"
         user_dir.mkdir(parents=True)
         reg = user_dir / "seed-registry.jsonl"
         snapshots = [

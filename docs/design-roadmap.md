@@ -110,7 +110,7 @@
 
 **Export:**
 ```bash
-python integrations/export_hook.py --target intersignal -u grace-mar -o ../intersignal-mesh/
+python platform/integrations/export_hook.py --target intersignal -u grace-mar -o ../intersignal-mesh/
 ```
 
 **See:** [INTERSIGNAL-INTEGRATION](intersignal-integration.md) for full guide.

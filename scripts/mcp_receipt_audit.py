@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Validate MCP execution receipts under artifacts/mcp-receipts/*.json against
+Validate MCP execution receipts under runtime/artifacts/mcp-receipts/*.json against
 schemas/mcp-execution-receipt.v1.json and current MCP configs.
 
   python3 scripts/mcp_receipt_audit.py
@@ -19,6 +19,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from mcp_receipt_lib import (  # noqa: E402
     BINDINGS_PATH,
@@ -27,8 +28,8 @@ from mcp_receipt_lib import (  # noqa: E402
     validate_mcp_receipt,
 )
 
-DEFAULT_RECEIPTS_DIR = REPO_ROOT / "artifacts" / "mcp-receipts"
-DEFAULT_REPORT = REPO_ROOT / "artifacts" / "mcp-receipt-report.md"
+DEFAULT_RECEIPTS_DIR = ARTIFACTS_DIR / "mcp-receipts"
+DEFAULT_REPORT = ARTIFACTS_DIR / "mcp-receipt-report.md"
 
 
 def _git_short_hash(cwd: Path) -> str:

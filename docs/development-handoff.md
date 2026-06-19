@@ -2,7 +2,7 @@
 
 Use this file to resume development quickly in a new agent conversation.
 
-**Bootstrap:** `bootstrap/grace-mar-bootstrap.md` is the current bootstrap entrypoint, but it now serves the `strategy-codex` repo and its embedded Grace-Mar instance. It defaults to **work-dev** (OpenClaw + companion gate); read `docs/skill-work/work-dev/README.md` then `docs/openclaw-integration.md`. **work-jiang (Jiang book/site lane):** `bootstrap/work-jiang-bootstrap.md` â€” read order, membrane, verify block, skill link.
+**Bootstrap:** `archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md` is the current bootstrap entrypoint, but it now serves the `strategy-codex` repo and its embedded Grace-Mar instance. It defaults to **work-dev** (OpenClaw + companion gate); read `docs/skill-work/work-dev/README.md` then `docs/openclaw-integration.md`. **work-jiang (Jiang book/site lane):** `archive/grace-mar-instance/bootstrap/work-jiang-bootstrap.md` â€” read order, membrane, verify block, skill link.
 
 Last updated: 2026-03-28
 
@@ -26,7 +26,7 @@ Last updated: 2026-03-28
 - **Work-politics / strategy:** `daily-brief-2026-03-28.md`; `polling-and-markets.md` **Last checked** refreshed.
 - **Gate:** 0 pending (confirm in `recursion-gate.md`).
 - **Jiang lane:** `OUTLINE_ACTIVE` â€” suggested next lever: ch01 chapter outline (`codex/predictive-history/STATUS.md`).
-- **Re-entry:** `python3 scripts/operator_reentry_stack.py` (handoff + `operator_daily_warmup` + harness; optional `--compact`) or run scripts individually; one-line snapshot: `python3 scripts/harness_warmup.py --receipt`. Work-politics pulse: `python3 scripts/operator_work_politics_pulse.py`. Index: `bootstrap/grace-mar-bootstrap.md` Â§ Re-entry stack.
+- **Re-entry:** `python3 scripts/operator_reentry_stack.py` (handoff + `operator_daily_warmup` + harness; optional `--compact`) or run scripts individually; one-line snapshot: `python3 scripts/harness_warmup.py --receipt`. Work-politics pulse: `python3 scripts/operator_work_politics_pulse.py`. Index: `archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md` Â§ Re-entry stack.
 
 ---
 
@@ -118,7 +118,7 @@ Last updated: 2026-03-28
 - **`.pre-commit-config.yaml`** â€” Added `validate-integrity.py --json` to local hooks so developers catch canonical Record / gate shape regressions before push, not only in CI.
 
 ### Artifact taxonomy + naming convention (2026-03-13)
-- **`docs/pipeline-map.md`** â€” Added a canonical artifact taxonomy for the most common retained visual evidence classes plus naming rules for files saved under `artifacts/`.
+- **`docs/pipeline-map.md`** â€” Added a canonical artifact taxonomy for the most common retained visual evidence classes plus naming rules for files saved under `runtime/artifacts/`.
 - **`docs/friction-audit.md`** â€” Added the short save rule that points new artifact capture toward evidence-aware lowercase filenames instead of generic root-level screenshots.
 
 ### Work layer taxonomy rewrite (2026-03-13)
@@ -138,13 +138,13 @@ Last updated: 2026-03-28
 ### Approval inbox specification (2026-03-13)
 - **`docs/approval-inbox-spec.md`** â€” New implementation-ready product spec for a browser-first `RECURSION-GATE` approval inbox.
 - **Core decision:** the inbox is a review surface over the existing queue, not a second memory system; it reuses current quick-merge rules, receipt flow, and pipeline audit events.
-- **Defined surfaces:** candidate card shape, derived risk tiers, filters, batch actions, dedupe hints, post-action states, audit behavior, and first implementation path through authenticated miniapp/web endpoints.
+- **Defined surfaces:** candidate card shape, derived risk tiers, filters, batch actions, dedupe hints, post-action states, audit behavior, and first implementation path through authenticated platform/miniapp/web endpoints.
 
 ### Approval inbox v1 + shared gate parser (2026-03-14)
 - **New shared parser:** `scripts/recursion_gate_review.py` now builds the canonical derived review model from `recursion-gate.md` for browser/API/dashboard surfaces.
 - **Derived review fields implemented:** `risk_tier`, `territory_label`, `age_days`, `has_prompt_change`, `ready_for_quick_merge`, `duplicate_hints`, audit snippet, and artifact/conflict flags.
-- **Real surfaces now reuse it:** `bot/core.py` low-risk lookup helpers, `scripts/generate_gate_dashboard.py`, and `apps/miniapp_server.py` all read the same candidate model instead of maintaining separate regex logic.
-- **New operator surface:** `miniapp/operator-inbox.html` plus authenticated `/operator/gate-candidates` and `/operator/gate-candidates/<id>/action` endpoints provide browser review with approve, reject, defer, and quick-merge actions. **Operator Console** (`/operator/console`, see [operator-console.md](operator-console.md)) adds submit observations, upload artifacts, gate review, and fork timeline without editing markdown.
+- **Real surfaces now reuse it:** `archive/grace-mar-instance/bot/core.py` low-risk lookup helpers, `scripts/generate_gate_dashboard.py`, and `platform/apps/miniapp_server.py` all read the same candidate model instead of maintaining separate regex logic.
+- **New operator surface:** `platform/miniapp/operator-inbox.html` plus authenticated `/operator/gate-candidates` and `/operator/gate-candidates/<id>/action` endpoints provide browser review with approve, reject, defer, and quick-merge actions. **Operator Console** (`/operator/console`, see [operator-console.md](operator-console.md)) adds submit observations, upload artifacts, gate review, and fork timeline without editing markdown.
 - **Important parser correctness fix:** queue consumers now split on the actual `## Processed` section heading rather than header prose mentioning that string; this hardens dashboard, inbox, merge, heartbeat, and validation paths.
 
 ### Companion Self doctrine memo (2026-03-13)
@@ -155,7 +155,7 @@ Last updated: 2026-03-28
 ### Self-library taxonomy refactor (2026-03-14)
 - **`docs/library-schema.md`** â€” Reframed LIBRARY as a three-lane store: `reference`, `canon`, and `influence`; replaced the narrow `read_status` model with `engagement_status` plus `lookup_priority`.
 - **`self-library.md`** â€” Migrated entries to the new lane taxonomy while preserving IDs, order, and existing source notes.
-- **Runtime compatibility:** `bot/core.py`, `scripts/generate_profile.py`, and `scripts/proposal_brief.py` now understand the new fields and keep fallback support for older `read_status`-style library data if encountered.
+- **Runtime compatibility:** `archive/grace-mar-instance/bot/core.py`, `scripts/generate_profile.py`, and `scripts/proposal_brief.py` now understand the new fields and keep fallback support for older `read_status`-style library data if encountered.
 
 ### Self-personality canonical alignment (2026-03-13)
 - **Aligned docs:** `docs/self-template.md`, `docs/skills-template.md`, `docs/identity-fork-protocol.md`, `docs/id-taxonomy.md`, and `docs/architecture.md`.
@@ -191,7 +191,7 @@ Last updated: 2026-03-28
 - **recursion-gate.md** header, **operator-brief**, **architecture** â€” explicit: one gate per user, all channels; `channel_key`.
 
 ### Recursion-gate staging fix (2026-03-12)
-- **`bot/core.py` `_stage_candidate`** â€” Inserts new candidates **before** `## Processed` (was appending to EOF; those never merged).
+- **`archive/grace-mar-instance/bot/core.py` `_stage_candidate`** â€” Inserts new candidates **before** `## Processed` (was appending to EOF; those never merged).
 - **`recursion-gate.md`** â€” Pending test rows relocated + renumbered **0083/0084**; duplicate **0071** id removed; invariant note in header.
 - **`scripts/validate-integrity.py`** â€” Fails if any pending/approved CANDIDATE block appears **below** `## Processed`.
 
@@ -277,8 +277,8 @@ Last updated: 2026-03-28
 - **Runtime modes added:** `adjunct_runtime`, `primary_runtime`, and `portable_bundle_only` are now declared as packaging/runtime modes rather than autonomy modes; the Sovereign Merge Rule is unchanged in every mode.
 - **New export surface:** `scripts/export_runtime_bundle.py` creates a runtime-neutral bundle with `record/`, `runtime/`, `audit/`, `policy/`, and top-level `bundle.json`.
 - **Manifest/export contract refreshed:** `scripts/export_manifest.py` now exports runtime mode + lane metadata and adds `runtime_bundle` to the machine-readable export map.
-- **Compatibility path preserved:** `integrations/export_hook.py` now routes the OpenClaw export through the generic runtime bundle and then emits flat compatibility files (`USER.md`, `manifest.json`, etc.).
-- **Audit/freshness upgrade:** `validate-integrity.py` now checks derived export freshness and stale doctrine drift (`SKILLS/READ`, `SKILLS/BUILD`). `process_approved_candidates.py` refreshes manifest, fork manifest, and runtime bundle after merge. `integrations/openclaw_hook.py` and `integrations/openclaw_stage.py` now emit more generic harness audit actions (`runtime_compat_export`, `runtime_handback_stage`).
+- **Compatibility path preserved:** `platform/integrations/export_hook.py` now routes the OpenClaw export through the generic runtime bundle and then emits flat compatibility files (`USER.md`, `manifest.json`, etc.).
+- **Audit/freshness upgrade:** `validate-integrity.py` now checks derived export freshness and stale doctrine drift (`SKILLS/READ`, `SKILLS/BUILD`). `process_approved_candidates.py` refreshes manifest, fork manifest, and runtime bundle after merge. `platform/integrations/openclaw_hook.py` and `platform/integrations/openclaw_stage.py` now emit more generic harness audit actions (`runtime_compat_export`, `runtime_handback_stage`).
 
 ### Hindsight-style runtime memory boundary (2026-03-14)
 - **New canonical memo:** `docs/hindsight-adoption.md`.
@@ -289,15 +289,15 @@ Last updated: 2026-03-28
 
 ### Portability hardening pass (2026-03-14)
 - **Explicit degraded mode:** `scripts/export_manifest.py` and `scripts/export_runtime_bundle.py` now declare degraded-mode metadata when `intent.md` is missing or invalid, rather than leaving downstream runtimes to infer policy-health implicitly.
-- **Validation tightened:** `scripts/validate-integrity.py` now checks for the degraded-mode contract in both `manifest.json` and `runtime-bundle/bundle.json`.
-- **Vocabulary cleanup:** `integrations/openclaw_hook.py` now emits `runtime_compat_export` for pipeline-level export audit instead of the older OpenClaw-specific name.
-- **Second consumer path:** `integrations/export_hook.py --target cursor` now exports the canonical runtime bundle directly for Cursor/Codex/Claude-style runtime consumers, proving the bundle is not OpenClaw-only.
+- **Validation tightened:** `scripts/validate-integrity.py` now checks for the degraded-mode contract in both `manifest.json` and `runtime/bundle/bundle.json`.
+- **Vocabulary cleanup:** `platform/integrations/openclaw_hook.py` now emits `runtime_compat_export` for pipeline-level export audit instead of the older OpenClaw-specific name.
+- **Second consumer path:** `platform/integrations/export_hook.py --target cursor` now exports the canonical runtime bundle directly for Cursor/Codex/Claude-style runtime consumers, proving the bundle is not OpenClaw-only.
 
 ### work-politics operator surface (2026-03-14)
 - **New work-politics entrypoint:** `docs/skill-work/work-politics/workspace.md` now defines the operator schema and canonical file map for the territory.
 - **Structured work-politics workflow docs:** `brief-source-registry.md` tracks weekly-brief source readiness, and `content-queue.md` tracks `@usa_first_ky` content state (`idea` â†’ `posted`).
 - **New ops module:** `scripts/work_politics_ops.py` derives campaign status, document freshness, work-politics gate state, blockers, revenue summary, and next actions from existing work-politics docs plus the canonical gate.
-- **New browser surface:** `miniapp/operator-pol.html` plus `/operator/pol-status` and `/operator/pol-brief` (legacy `/operator/wap*`) in `apps/miniapp_server.py` provide an authenticated work-politics console without creating a second queue.
+- **New browser surface:** `platform/miniapp/operator-pol.html` plus `/operator/pol-status` and `/operator/pol-brief` (legacy `/operator/wap*`) in `platform/apps/miniapp_server.py` provide an authenticated work-politics console without creating a second queue.
 - **New brief loop:** `scripts/generate_wap_weekly_brief.py` produces a first-pass weekly brief scaffold from the work-politics registry, principal profile, opposition brief, calendar, and content queue.
 - **Canonical workflow docs refreshed:** `README.md`, `metrics.md`, `account-x.md`, and `smm-workspace.md` now point operators toward the workspace, content queue, and brief-generation path rather than prose-only operation.
 

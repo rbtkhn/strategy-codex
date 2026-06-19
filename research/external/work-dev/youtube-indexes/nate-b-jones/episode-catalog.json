@@ -13,7 +13,7 @@
       "upload_date": "",
       "duration_seconds": "1775.0",
       "ingested": true,
-      "ingestion_artifacts": [
+      "ingestion_runtime/artifacts": [
         "research/external/work-dev/transcripts/nate-b-jones-google-stitch-design-markdown-meeting-transcript-2026.txt"
       ],
       "ingested_at_utc": null
@@ -25,7 +25,7 @@
       "upload_date": "",
       "duration_seconds": "1539.0",
       "ingested": true,
-      "ingestion_artifacts": [
+      "ingestion_runtime/artifacts": [
         "research/external/work-dev/transcripts/nate-b-jones-ai-job-market-seven-skills-2026.md"
       ],
       "ingested_at_utc": null
@@ -37,7 +37,7 @@
       "upload_date": "",
       "duration_seconds": "1775.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -47,7 +47,7 @@
       "upload_date": "",
       "duration_seconds": "1587.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -57,7 +57,7 @@
       "upload_date": "",
       "duration_seconds": "1512.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -67,7 +67,7 @@
       "upload_date": "",
       "duration_seconds": "1667.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -77,7 +77,7 @@
       "upload_date": "",
       "duration_seconds": "1767.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -87,7 +87,7 @@
       "upload_date": "",
       "duration_seconds": "2010.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -97,7 +97,7 @@
       "upload_date": "",
       "duration_seconds": "1805.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -107,7 +107,7 @@
       "upload_date": "",
       "duration_seconds": "1413.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -117,7 +117,7 @@
       "upload_date": "",
       "duration_seconds": "1334.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -127,7 +127,7 @@
       "upload_date": "",
       "duration_seconds": "1290.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -137,7 +137,7 @@
       "upload_date": "",
       "duration_seconds": "2259.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -147,7 +147,7 @@
       "upload_date": "",
       "duration_seconds": "1193.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -157,7 +157,7 @@
       "upload_date": "",
       "duration_seconds": "1615.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -167,7 +167,7 @@
       "upload_date": "",
       "duration_seconds": "1352.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -177,7 +177,7 @@
       "upload_date": "",
       "duration_seconds": "1635.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -187,7 +187,7 @@
       "upload_date": "",
       "duration_seconds": "1255.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -197,7 +197,7 @@
       "upload_date": "",
       "duration_seconds": "1945.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -207,7 +207,7 @@
       "upload_date": "",
       "duration_seconds": "1545.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -217,7 +217,7 @@
       "upload_date": "",
       "duration_seconds": "2258.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -227,7 +227,7 @@
       "upload_date": "",
       "duration_seconds": "1795.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -237,7 +237,7 @@
       "upload_date": "",
       "duration_seconds": "1774.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -247,7 +247,7 @@
       "upload_date": "",
       "duration_seconds": "1256.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -257,7 +257,7 @@
       "upload_date": "",
       "duration_seconds": "1580.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -267,7 +267,7 @@
       "upload_date": "",
       "duration_seconds": "1816.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -277,7 +277,7 @@
       "upload_date": "",
       "duration_seconds": "1724.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -287,7 +287,7 @@
       "upload_date": "",
       "duration_seconds": "1781.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -297,7 +297,7 @@
       "upload_date": "",
       "duration_seconds": "2472.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -307,7 +307,7 @@
       "upload_date": "",
       "duration_seconds": "1952.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     }
   ]

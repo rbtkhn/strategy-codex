@@ -1,7 +1,7 @@
 """Tests for personality conflict detection (demo / regression)."""
 
 # Import via package path only. Do not prepend REPO/bot to sys.path — that makes
-# `import bot` load bot/bot.py as a top-level module and breaks `from .core` in bot/bot.py
+# `import bot` load archive/grace-mar-instance/bot/bot.py as a top-level module and breaks `from .core` in archive/grace-mar-instance/bot/bot.py
 # for later tests (e.g. test_voice importing bot.prompt).
 
 import pytest

@@ -20,10 +20,10 @@ jobs:
       - name: Regenerate library index
         run: python3 scripts/build_library_index.py -u strategy-codex
 
-      - name: Assert artifacts/library-index.md matches generator
+      - name: Assert runtime/artifacts/library-index.md matches generator
         run: |
-          if ! git diff --exit-code -- artifacts/library-index.md; then
-            echo "::error::artifacts/library-index.md is out of date. Run: python3 scripts/build_library_index.py -u strategy-codex"
-            git diff -- artifacts/library-index.md | head -200
+          if ! git diff --exit-code -- runtime/artifacts/library-index.md; then
+            echo "::error::runtime/artifacts/library-index.md is out of date. Run: python3 scripts/build_library_index.py -u strategy-codex"
+            git diff -- runtime/artifacts/library-index.md | head -200
             exit 1
           fi

@@ -16,6 +16,7 @@ from typing import Any
 _SCRIPT_DIR = Path(__file__).resolve().parent
 if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))
+from repo_io import ARTIFACTS_DIR
 
 from work_dev.compound_notes import (  # noqa: E402
     NOTES_DIR,
@@ -26,7 +27,7 @@ from work_dev.compound_notes import (  # noqa: E402
     parse_note_for_export,
 )
 
-DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "work-dev-compound-gate-candidates.md"
+DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-dev-compound-gate-candidates.md"
 
 DEFAULT_GATE_DISCLAIMER = (
     "No explicit gate action is stated in the note body. This remains a **work-only** "
@@ -219,7 +220,7 @@ def main() -> int:
         "--output",
         type=Path,
         default=DEFAULT_OUTPUT,
-        help="Output markdown (default: artifacts/work-dev-compound-gate-candidates.md)",
+        help="Output markdown (default: runtime/artifacts/work-dev-compound-gate-candidates.md)",
     )
     ap.add_argument(
         "--include-all",

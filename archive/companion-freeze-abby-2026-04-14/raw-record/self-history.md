@@ -1,6 +1,6 @@
 # SELF-HISTORY — grace-mar
 
-> **Derived dual log** — **not** part of the **Record**; **not** a merge surface for new identity facts. **Canonical truth** remains **`self.md`**, **`self-archive.md`** (EVIDENCE + § VIII), and **`bot/prompt.py`** after **RECURSION-GATE** approval. This file **aggregates and narrates**; it does **not** override **SELF**, **EVIDENCE**, **`self-memory`**, or **`session-log`**.
+> **Derived dual log** — **not** part of the **Record**; **not** a merge surface for new identity facts. **Canonical truth** remains **`self.md`**, **`self-archive.md`** (EVIDENCE + § VIII), and **`archive/grace-mar-instance/bot/prompt.py`** after **RECURSION-GATE** approval. This file **aggregates and narrates**; it does **not** override **SELF**, **EVIDENCE**, **`self-memory`**, or **`session-log`**.
 
 ---
 
@@ -39,7 +39,7 @@ Choose one rhythm and stick to it (document changes here if you switch):
 
 ### Initial population (2026-03-30)
 
-- **COMPANION strategy:** **3a — monthly rollup** from merged **`users/grace-mar/self-archive.md` § V. ACTIVITY LOG** (YAML `activities`); not § VIII transcript; not pending gate.
+- **COMPANION strategy:** **3a — monthly rollup** from merged **`platform/users/grace-mar/self-archive.md` § V. ACTIVITY LOG** (YAML `activities`); not § VIII transcript; not pending gate.
 - **WORK strategy:** Copy from **`docs/skill-work/work-*/*-history.md`** logs as of same date; note empty lanes explicitly.
 
 ---

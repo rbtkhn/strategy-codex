@@ -166,7 +166,7 @@ routes:
 
   - id: library-index
     title: Library index dashboard
-    path: artifacts/library-index.md
+    path: runtime/artifacts/library-index.md
     kind: generated_dashboard
     authority: derived
     canonical_source: self-library.md

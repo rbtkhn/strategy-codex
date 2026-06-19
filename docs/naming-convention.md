@@ -25,9 +25,9 @@
 
 ---
 
-## Python packages (`src/`)
+## Python packages (`platform/src/`)
 
-- Use valid Python identifiers: **`snake_case`** for packages and modules (e.g. [`src/grace_mar/`](../src/grace_mar)).
+- Use valid Python identifiers: **`snake_case`** for packages and modules (e.g. [`platform/src/grace_mar/`](../platform/src/grace_mar)).
 - **Do not** use hyphens in import paths; `grace-mar` is not a legal module name.
 
 ---

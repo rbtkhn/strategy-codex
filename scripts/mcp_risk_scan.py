@@ -26,15 +26,16 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from yaml_compat import safe_load_path
 
-DEFAULT_CAPABILITIES = REPO_ROOT / "config" / "mcp-capabilities.yaml"
+DEFAULT_CAPABILITIES = REPO_ROOT / "platform/config" / "mcp-capabilities.yaml"
 DEFAULT_CAPABILITY_SCHEMA = REPO_ROOT / "schemas" / "mcp-capability.v1.json"
-DEFAULT_POLICY = REPO_ROOT / "config" / "mcp-risk-policy.yaml"
+DEFAULT_POLICY = REPO_ROOT / "platform/config" / "mcp-risk-policy.yaml"
 DEFAULT_POLICY_SCHEMA = REPO_ROOT / "schemas" / "mcp-risk-scan-policy.v1.json"
-DEFAULT_MARKDOWN = REPO_ROOT / "artifacts" / "mcp-risk-report.md"
-DEFAULT_JSON = REPO_ROOT / "artifacts" / "mcp-risk-report.json"
+DEFAULT_MARKDOWN = ARTIFACTS_DIR / "mcp-risk-report.md"
+DEFAULT_JSON = ARTIFACTS_DIR / "mcp-risk-report.json"
 
 # --- Pattern needles (lowercase matching on joined capability strings) ---
 _SHELL_ALLOWED = (
@@ -44,8 +45,8 @@ _SHELL_ALLOWED = (
     "subprocess",
     "subprocess_spawn",
     "interactive_terminal",
-    "/bin/sh",
-    "/bin/bash",
+    "/platform/bin/sh",
+    "/platform/bin/bash",
     "powershell",
     "cmd.exe",
     "terminal",
@@ -74,7 +75,7 @@ _MEMORY_WRITE_FRAGMENTS = (
     "vector",
     "embedding",
     "thoughts_row",
-    "silent_profile",
+    "silent_platform/profile",
 )
 _GITHUB_REQUIRED_PROHIBITIONS = ("merge_to_main", "force_push", "bypass_review")
 
@@ -152,9 +153,9 @@ def canonical_record_in_writes(cap: dict[str, Any]) -> bool:
 
 def direct_canonical_append_in_allowed(hay: str) -> bool:
     return (
-        "append_canonical_evidence" in hay
+        "append_canonical_archive/placeholders/evidence" in hay
         or "silent_profile_merge" in hay
-        or "direct canonical evidence" in hay
+        or "direct canonical archive/placeholders/evidence" in hay
     )
 
 

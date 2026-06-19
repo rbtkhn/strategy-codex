@@ -12,12 +12,12 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "runtime" / "grace_mar_runtime_worker.py"
-TRACE_SCHEMA = REPO_ROOT / "schema-registry" / "runtime-worker-trace.v1.json"
+TRACE_SCHEMA = REPO_ROOT / "schemas/registry" / "runtime-worker-trace.v1.json"
 
 CANONICAL_TOUCH_PATHS = (
-    REPO_ROOT / "users" / "grace-mar" / "self.md",
-    REPO_ROOT / "users" / "grace-mar" / "recursion-gate.md",
-    REPO_ROOT / "bot" / "prompt.py",
+    REPO_ROOT / "platform/users" / "grace-mar" / "self.md",
+    REPO_ROOT / "platform/users" / "grace-mar" / "recursion-gate.md",
+    REPO_ROOT / "archive/grace-mar-instance/bot" / "prompt.py",
 )
 
 

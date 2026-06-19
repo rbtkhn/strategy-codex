@@ -1,3 +1,4 @@
+from repo_io import SCHEMA_REGISTRY_DIR
 #!/usr/bin/env python3
 """Ingest pasted external research into a lane-scoped artifact with optional derived outputs.
 
@@ -22,7 +23,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "external-research-artifact.v1.json"
+SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "external-research-artifact.v1.json"
 
 try:
     import jsonschema
@@ -447,7 +448,7 @@ def default_output_paths(args: argparse.Namespace, artifact: dict[str, Any]) -> 
         else None
     )
     self_proposal_path = (
-        REPO_ROOT / "auto-research" / "self-proposals" / "derived" / f"{date_prefix}-{topic_slug}.json"
+        REPO_ROOT / "research/auto-research" / "self-proposals" / "derived" / f"{date_prefix}-{topic_slug}.json"
         if args.emit_self_proposal
         else None
     )

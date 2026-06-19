@@ -63,7 +63,7 @@ Suggested user-facing copy when the instance becomes eligible later:
 
 ## work-dev seed survey
 
-Answers feed **`work_dev_seed.json`** (validated by **`schema-registry/work-dev-seed.v1.json`**). Map free-text lists into JSON arrays; use the schema enums for single-choice fields.
+Answers feed **`work_dev_seed.json`** (validated by **`schemas/registry/work-dev-seed.v1.json`**). Map free-text lists into JSON arrays; use the schema enums for single-choice fields.
 
 **Mapping hints**
 
@@ -116,7 +116,7 @@ After capture, set `evidence_basis` to `seed_survey` when answers are survey-dri
 
 ## work-business seed survey
 
-Answers feed **`work_business_seed.json`** (validated by **`schema-registry/work-business-seed.v1.json`**). Map free-text lists into JSON arrays; use the schema enums for single-choice and multi-select fields.
+Answers feed **`work_business_seed.json`** (validated by **`schemas/registry/work-business-seed.v1.json`**). Map free-text lists into JSON arrays; use the schema enums for single-choice and multi-select fields.
 
 **Mapping hints**
 

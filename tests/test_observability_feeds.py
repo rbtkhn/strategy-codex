@@ -79,8 +79,8 @@ def tmp_lane_repo(tmp_path: Path) -> Path:
     init = subprocess.run(["git", "init"], cwd=repo, capture_output=True, text=True)
     if init.returncode != 0:
         pytest.skip(f"git init failed: {init.stderr}")
-    subprocess.run(["git", "config", "user.email", "t@test"], cwd=repo, check=True, capture_output=True)
-    subprocess.run(["git", "config", "user.name", "t"], cwd=repo, check=True, capture_output=True)
+    subprocess.run(["git", "platform/config", "user.email", "t@test"], cwd=repo, check=True, capture_output=True)
+    subprocess.run(["git", "platform/config", "user.name", "t"], cwd=repo, check=True, capture_output=True)
     subprocess.run(["git", "add", "-A"], cwd=repo, check=True, capture_output=True)
     subprocess.run(["git", "commit", "-m", "init"], cwd=repo, check=True, capture_output=True)
     return repo

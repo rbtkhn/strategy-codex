@@ -49,7 +49,7 @@ class Colors:
 
 
 def user_profile_dir(repo_root: Path, user_id: str) -> Path:
-    return repo_root / "users" / user_id
+    return repo_root / "platform/users" / user_id
 
 
 def load_minimal_core(profile: Path) -> dict:
@@ -64,7 +64,7 @@ def load_minimal_core(profile: Path) -> dict:
 
 
 def founding_intent_rel_path(user_id: str) -> str | None:
-    rel = f"users/{user_id}/reflection-proposals/SEED-founding-intent.md"
+    rel = f"platform/users/{user_id}/archive/queues/reflection-proposals/SEED-founding-intent.md"
     if (REPO_ROOT / rel).is_file():
         return rel
     return None
@@ -149,7 +149,7 @@ def append_daily_intention_compression(
     repo_root: Path, user_id: str, title: str, one_sentence: str
 ) -> None:
     profile = user_profile_dir(repo_root, user_id)
-    rp = profile / "reflection-proposals"
+    rp = profile / "archive/queues/reflection-proposals"
     rp.mkdir(parents=True, exist_ok=True)
     today = datetime.now(timezone.utc).date().isoformat()
     path = rp / f"DAILY-INTENTION-{today}.md"
@@ -194,7 +194,7 @@ prompt_addition: none
 compression_artifact: {output_rel}
 ```
 
-_Paste above into users/{user_id}/recursion-gate.md only if Record merge is intended; otherwise keep compression in work-jiang only._
+_Paste above into platform/users/{user_id}/recursion-gate.md only if Record merge is intended; otherwise keep compression in work-jiang only._
 """
 
 
@@ -254,7 +254,7 @@ def run_interactive(
     print(f"{Colors.HEADER}{Colors.BOLD}Jiang Compression Engine v1{Colors.ENDC}\n")
 
     profile = user_profile_dir(repo_root, user_id)
-    minimal_core = load_minimal_core(profile)
+    minimal_core = load_minimal_core(platform/profile)
     instance_name = str(minimal_core.get("instanceName") or user_id)
     print(f"Instance: {instance_name} (user id: {user_id})")
 
@@ -319,7 +319,7 @@ def run_interactive(
             f"{Colors.WARNING}  JSON exceeds ~800 char target; trim summary/actions for density.{Colors.ENDC}"
         )
 
-    if confirm("\nAppend summary to today's daily intention (reflection-proposals)?"):
+    if confirm("\nAppend summary to today's daily intention (archive/queues/reflection-proposals)?"):
         append_daily_intention_compression(repo_root, user_id, title, one_sentence)
 
     out_rel = str(rel_out).replace("\\", "/")
@@ -342,7 +342,7 @@ def main() -> None:
         "-u",
         "--user",
         default=os.getenv("GRACE_MAR_USER_ID", DEFAULT_USER_ID).strip() or DEFAULT_USER_ID,
-        help="Fork id (users/<id>/)",
+        help="Fork id (platform/users/<id>/)",
     )
     ap.add_argument(
         "--input",

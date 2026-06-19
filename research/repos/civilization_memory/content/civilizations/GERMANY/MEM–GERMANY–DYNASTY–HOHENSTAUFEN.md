@@ -345,7 +345,7 @@ SAME-CIVILIZATION CONNECTIONS (GERMANY):
   Breaks if removed: Conflict dynamic missing
 
 • MEM–GERMANY–BISMARCK
-  Dependency: Contrast (consolidation vs. overextension)
+  Dependency: Contrast (consolidation vs. overplatform/extension)
   Breaks if removed: Alternative pattern unexplored
 
 • MEM–GERMANY–PRUSSIA

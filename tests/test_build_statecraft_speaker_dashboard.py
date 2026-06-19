@@ -138,7 +138,7 @@ def test_build_saved_speaker_slices_writes_guest_filtered_day_dashboard(tmp_path
     original_out_dir = spk.OUT_DIR
     original_slices_dir = spk.SLICES_DIR
     try:
-        spk.OUT_DIR = tmp_path / "artifacts" / "statecraft" / "speakers"
+        spk.OUT_DIR = tmp_path / "runtime/artifacts" / "statecraft" / "speakers"
         spk.SLICES_DIR = spk.OUT_DIR / "slices"
         built = spk.build_saved_speaker_slices(root, [day], ["Seyed M. Marandi"])
         out_md = spk.SLICES_DIR / "seyed-m-marandi.md"

@@ -42,9 +42,9 @@ def _run_authority_check(
 def test_authority_check_smoke_repo_defaults(tmp_path: Path) -> None:
     out = tmp_path / "report.md"
     proc = _run_authority_check(
-        capabilities=REPO_ROOT / "config" / "mcp-capabilities.yaml",
-        bindings=REPO_ROOT / "config" / "mcp-authority-bindings.yaml",
-        authority_map=REPO_ROOT / "config" / "authority-map.json",
+        capabilities=REPO_ROOT / "platform/config" / "mcp-capabilities.yaml",
+        bindings=REPO_ROOT / "platform/config" / "mcp-authority-bindings.yaml",
+        authority_map=REPO_ROOT / "platform/config" / "authority-map.json",
         output=out,
         strict=True,
     )
@@ -79,7 +79,7 @@ bindings:
     )
     out = tmp_path / "out.md"
     proc = _run_authority_check(
-        capabilities=REPO_ROOT / "config" / "mcp-capabilities.yaml",
+        capabilities=REPO_ROOT / "platform/config" / "mcp-capabilities.yaml",
         bindings=bindings,
         output=out,
     )
@@ -133,7 +133,7 @@ bindings:
     )
     out = tmp_path / "out.md"
     proc = _run_authority_check(
-        capabilities=REPO_ROOT / "config" / "mcp-capabilities.yaml",
+        capabilities=REPO_ROOT / "platform/config" / "mcp-capabilities.yaml",
         bindings=bindings,
         output=out,
     )
@@ -188,7 +188,7 @@ bindings:
     )
     out = tmp_path / "out.md"
     proc = _run_authority_check(
-        capabilities=REPO_ROOT / "config" / "mcp-capabilities.yaml",
+        capabilities=REPO_ROOT / "platform/config" / "mcp-capabilities.yaml",
         bindings=bindings,
         output=out,
     )
@@ -236,7 +236,7 @@ bindings:
     )
     out = tmp_path / "out.md"
     proc = _run_authority_check(
-        capabilities=REPO_ROOT / "config" / "mcp-capabilities.yaml",
+        capabilities=REPO_ROOT / "platform/config" / "mcp-capabilities.yaml",
         bindings=bindings,
         output=out,
     )
@@ -272,7 +272,7 @@ capabilities:
     out = tmp_path / "out.md"
     proc = _run_authority_check(
         capabilities=caps,
-        bindings=REPO_ROOT / "config" / "mcp-authority-bindings.yaml",
+        bindings=REPO_ROOT / "platform/config" / "mcp-authority-bindings.yaml",
         output=out,
     )
     assert proc.returncode == 1
@@ -307,7 +307,7 @@ capabilities:
     out = tmp_path / "out.md"
     proc = _run_authority_check(
         capabilities=caps,
-        bindings=REPO_ROOT / "config" / "mcp-authority-bindings.yaml",
+        bindings=REPO_ROOT / "platform/config" / "mcp-authority-bindings.yaml",
         output=out,
     )
     assert proc.returncode == 1

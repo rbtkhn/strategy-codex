@@ -136,7 +136,7 @@ def detect_gap(
         return {
             "last_evidence_date": None,
             "last_evidence_id": None,
-            "days_since_evidence": None,
+            "days_since_archive/placeholders/evidence": None,
             "last_merge_date": None,
             "days_since_merge": None,
             "pending_count": _pending_count(user_id),
@@ -186,7 +186,7 @@ def detect_gap(
     return {
         "last_evidence_date": last_date_str,
         "last_evidence_id": last_id,
-        "days_since_evidence": days_since_evidence,
+        "days_since_archive/placeholders/evidence": days_since_evidence,
         "last_merge_date": last_merge_str,
         "days_since_merge": days_since_merge,
         "pending_count": _pending_count(user_id),
@@ -198,7 +198,7 @@ def detect_gap(
 def format_gap_one_liner(result: dict) -> str:
     """One-line summary for warmup/dream integration."""
     level = result.get("level", "unknown")
-    days = result.get("days_since_evidence")
+    days = result.get("days_since_archive/placeholders/evidence")
     eid = result.get("last_evidence_id", "?")
     pending = result.get("pending_count", 0)
 

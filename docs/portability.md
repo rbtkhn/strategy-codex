@@ -117,7 +117,7 @@ Exports include a generation timestamp. The Record schema (SELF, SKILLS, EVIDENC
 | `skills.md` | THINK and WRITE Record skill status |
 | `self-evidence.md` | Activity log (full fork export only) |
 | `self-memory.md` | Runtime continuity only; not canonical identity |
-| `runtime-bundle/` | Portable package for downstream runtimes; includes record/runtime/audit/policy lanes |
+| `runtime/bundle/` | Portable package for downstream runtimes; includes record/runtime/audit/policy lanes |
 | `emulation-bundle/` | Emulation-oriented wrapper over the existing runtime bundle plus proposal/membrane return references |
 | `pipeline-events.jsonl` | Audit trail for staging, merge, validation, export |
 | `merge-receipts.jsonl` | Merge provenance and approval replay |

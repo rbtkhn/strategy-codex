@@ -21,7 +21,7 @@ Grace-Mar treats each cognitive fork under `<fork_id>/` as a **versioned, eviden
 
 ## Phases
 
-Valid phases: `seed`, `interact`, `diverge`, `merge_pending`, `snapshotted`. Transitions are enforced in `src/grace_mar/fork_lifecycle.py`.
+Valid phases: `seed`, `interact`, `diverge`, `merge_pending`, `snapshotted`. Transitions are enforced in `platform/src/grace_mar/fork_lifecycle.py`.
 
 ## CLI
 

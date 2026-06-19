@@ -22,7 +22,7 @@ def test_report_path_under_artifacts() -> None:
     import run_mcp_governance_checks as r
 
     assert str(r.REPORT_PATH).replace("\\", "/").startswith(
-        str(REPO_ROOT / "artifacts").replace("\\", "/")
+        str(REPO_ROOT / "runtime/artifacts").replace("\\", "/")
     )
     assert r.REPORT_PATH.name == "mcp-governance-demo-report.md"
 
@@ -61,7 +61,7 @@ def test_main_with_stubbed_subprocess(monkeypatch: pytest.MonkeyPatch) -> None:
         return subprocess.CompletedProcess(
             cmd,
             0,
-            stdout="artifacts/mcp-receipts/fake-receipt.json\n",
+            stdout="runtime/artifacts/mcp-receipts/fake-receipt.json\n",
             stderr="",
         )
 

@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This slice scores **Conductor action MCQ** text blocks with deterministic **heuristics** so you can compare drafts, fixtures, or logged excerpts **offline**. Outputs are rebuildable JSON artifacts aligned with [`schema-registry/conductor-session-metrics.v1.json`](../../../schema-registry/conductor-session-metrics.v1.json).
+This slice scores **Conductor action MCQ** text blocks with deterministic **heuristics** so you can compare drafts, fixtures, or logged excerpts **offline**. Outputs are rebuildable JSON artifacts aligned with [`schemas/registry/conductor-session-metrics.v1.json`](../../../schemas/registry/conductor-session-metrics.v1.json).
 
 ## Non-authority
 
@@ -22,10 +22,10 @@ python scripts/run_conductor_eval_harness.py \
   --slug toscanini \
   --user grace-mar \
   --origin coffee \
-  --out artifacts/observability/work-coffee/conductor-eval/latest.json
+  --out runtime/artifacts/observability/work-coffee/conductor-eval/latest.json
 ```
 
-Generated JSON under [`artifacts/observability/work-coffee/conductor-eval/`](../../../artifacts/observability/work-coffee/conductor-eval/) is **gitignored** by default (see directory README).
+Generated JSON under [`runtime/artifacts/observability/work-coffee/conductor-eval/`](../../../runtime/artifacts/observability/work-coffee/conductor-eval/) is **gitignored** by default (see directory README).
 
 ## Signals (v1)
 

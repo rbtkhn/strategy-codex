@@ -19,7 +19,7 @@ from verify_continuity_receipt import verify_receipt_file  # noqa: E402
 
 
 def test_build_receipt_hashes_user_files(tmp_path: Path) -> None:
-    ud = tmp_path / "users" / "u1"
+    ud = tmp_path / "platform/users" / "u1"
     ud.mkdir(parents=True)
     for name in ("session-log.md", "recursion-gate.md", "self-archive.md"):
         (ud / name).write_text(f"content-{name}\n", encoding="utf-8")
@@ -37,7 +37,7 @@ def test_build_receipt_hashes_user_files(tmp_path: Path) -> None:
 def test_verify_receipt_ttl_expired(tmp_path: Path) -> None:
     import hashlib
 
-    ud = tmp_path / "users" / "u"
+    ud = tmp_path / "platform/users" / "u"
     ud.mkdir(parents=True)
     (ud / "a.md").write_text("stable", encoding="utf-8")
     h = hashlib.sha256((ud / "a.md").read_bytes()).hexdigest()
@@ -65,7 +65,7 @@ def test_verify_receipt_ttl_expired(tmp_path: Path) -> None:
 
 
 def test_verify_receipt_hash_mismatch(tmp_path: Path) -> None:
-    ud = tmp_path / "users" / "u1"
+    ud = tmp_path / "platform/users" / "u1"
     ud.mkdir(parents=True)
     (ud / "session-log.md").write_text("hello", encoding="utf-8")
     receipt, _ = build_receipt(
@@ -83,7 +83,7 @@ def test_verify_receipt_hash_mismatch(tmp_path: Path) -> None:
 
 
 def test_verify_receipt_ok(tmp_path: Path) -> None:
-    ud = tmp_path / "users" / "u1"
+    ud = tmp_path / "platform/users" / "u1"
     ud.mkdir(parents=True)
     for name in ("session-log.md", "recursion-gate.md", "self-archive.md"):
         (ud / name).write_text(f"x-{name}", encoding="utf-8")

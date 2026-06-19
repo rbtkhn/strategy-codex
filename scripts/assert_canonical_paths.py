@@ -25,7 +25,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
-from repo_io import CANONICAL_RECORD_FILES_REQUIRED, self_skills_layout_warnings  # noqa: E402
+from repo_io import CANONICAL_RECORD_FILES_REQUIRED, profile_dir, self_skills_layout_warnings  # noqa: E402
 
 REQUIRED = CANONICAL_RECORD_FILES_REQUIRED
 OPTIONAL_STRICT = ("self-evidence.md",)
@@ -48,17 +48,18 @@ def main() -> int:
     )
     args = parser.parse_args()
     missing = []
+    root = profile_dir(args.user or "strategy-codex")
     for name in REQUIRED:
-        if not (REPO_ROOT / name).is_file():
+        if not (root / name).is_file():
             missing.append(name)
     if args.strict:
         for name in OPTIONAL_STRICT:
-            if not (REPO_ROOT / name).is_file():
+            if not (root / name).is_file():
                 missing.append(name)
     if missing:
-        print(f"assert_canonical_paths: missing under repository root: {', '.join(missing)}", file=sys.stderr)
+        print(f"assert_canonical_paths: missing under {root}: {', '.join(missing)}", file=sys.stderr)
         return 1
-    for w in self_skills_layout_warnings(REPO_ROOT):
+    for w in self_skills_layout_warnings(root):
         print(f"assert_canonical_paths: WARN â€” {w}", file=sys.stderr)
     return 0
 

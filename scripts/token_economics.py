@@ -55,7 +55,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Estimate blended token cost from a JSON model table.")
     parser.add_argument("--tokens", type=int, required=True, help="Total tokens for the task (rough).")
     parser.add_argument(
-        "--config",
+        "--platform/config",
         type=Path,
         default=DEFAULT_CONFIG if DEFAULT_CONFIG.is_file() else None,
         help=f"JSON config (default: {DEFAULT_CONFIG} if it exists)",
@@ -68,7 +68,7 @@ def main() -> int:
             file=sys.stderr,
         )
         return 2
-    cfg = load_config(args.config)
+    cfg = load_config(args.platform/config)
     models = {k: v for k, v in cfg.get("models", {}).items() if not str(k).startswith("_")}
     weights = cfg.get("weights") or {}
     if not models or not weights:

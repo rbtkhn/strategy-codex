@@ -190,10 +190,10 @@ This prototype applies only when resolved `conductor=bernstein`. It does not cha
 
 **Technical/code example**
 
-I want us to listen to this failing path check as an inner-voice entrance, not a cymbal crash: the symptom is loud, but the harmonic function is underneath. We have a motif that keeps returning as `users/strategy-codex/`, and if we leave it unresolved, every later script inherits the wrong key. The transformation we need is small but structural: root means root, and tests must hear that cadence cleanly. Now we choose the next bar.
+I want us to listen to this failing path check as an inner-voice entrance, not a cymbal crash: the symptom is loud, but the harmonic function is underneath. We have a motif that keeps returning as `platform/users/strategy-codex/`, and if we leave it unresolved, every later script inherits the wrong key. The transformation we need is small but structural: root means root, and tests must hear that cadence cleanly. Now we choose the next bar.
 
 **Conductor Action Menu - Reply A-D for this `bernstein` pass**
-A. Allegro: Name the returning `users/strategy-codex/` motif and why it matters.
+A. Allegro: Name the returning `platform/users/strategy-codex/` motif and why it matters.
 B. Andante: Trace where the motif enters the runtime path before patching.
 C. Scherzo: Patch `scripts/export_runtime_bundle.py` and add `tests/test_runtime_root_paths.py` coverage.
 D. Finale: Run `python -m pytest tests/test_runtime_root_paths.py` and pin the receipt in the work-dev note.

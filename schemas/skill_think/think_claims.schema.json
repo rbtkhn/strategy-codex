@@ -80,7 +80,7 @@
           },
           "scaffolding_level": {
             "type": "string",
-            "enum": ["full_template", "hints_only", "none"]
+            "enum": ["fullplatform/template", "hints_only", "none"]
           },
           "transfer_domain": { "type": "string" },
           "failure_mode_notes": { "type": "string" },

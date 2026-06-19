@@ -24,7 +24,7 @@ if str(_WJ_SCRIPTS) not in sys.path:
 STATE_PATH = WORK_DIR / "metadata" / "comparative_sweep_state.yaml"
 ANALYSIS_DIR = WORK_DIR / "analysis"
 CLAIMS_PATH = WORK_DIR / "claims" / "registry" / "claims.jsonl"
-GATE_STAGING = ROOT / "recursion-gate-staging"
+GATE_STAGING = ROOT / "archive/grace-mar-instance/recursion-gate-staging"
 
 
 def _require_yaml() -> None:

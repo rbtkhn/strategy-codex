@@ -183,7 +183,7 @@ This design doc is a Think-lane artifact. Before it becomes a portable skill or 
 1. **Single-companion case proven** — at least one real managed agent running under this lifecycle for >1 week, with receipts, ledger rows, and operator review.
 2. **Boundary stress-test** — confirm that `agent_autonomous` authority class + existing observability feeds are sufficient for overnight/unattended operation.
 3. **Operator feedback** — runbook tested in practice; gaps identified and patched.
-4. **Discovery ladder entry** — when prerequisites 1–3 are met, add a row to `skills-portable/skill-candidates.md` pointing here.
+4. **Discovery ladder entry** — when prerequisites 1–3 are met, add a row to `skills/skill-candidates.md` pointing here.
 5. **Eventual portable skill** — if the lifecycle proves repeatable, extract a `SKILL.md` via the standard discovery ladder.
 
 ---

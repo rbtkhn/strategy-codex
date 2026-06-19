@@ -185,7 +185,7 @@ XII. CROSS-REFERENCED MEM FILES
   (Oceanic access and strategic depth)
 
 • MEM–ANGLIA–UNITED–STATES–AMERICA  
-  (System carrier and procedural extension)
+  (System carrier and procedural platform/extension)
 
 Functional continuity specified; no implied hierarchy.
 

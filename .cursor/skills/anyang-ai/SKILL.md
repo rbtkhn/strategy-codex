@@ -88,14 +88,14 @@ When reporting to donor or deciding pause/renew:
 2. Compile **anonymized** skills summary + **2+** honest family case studies (include setbacks).
 3. Apply pause triggers: &lt;3 Emerging+ by month 3; &lt;2 Solid + no institutional path by month 6; &gt;50% families one active + passive tag-alongs.
 
-Evidence pointers live under `singularity/work-anyang/evidence/` when created — WORK only.
+Evidence pointers live under `singularity/work-anyang/archive/placeholders/evidence/` when created — WORK only.
 
 ### 5. Replicate (Henan / next cell)
 
 When operator asks to copy the model beyond Anyang:
 
 1. **Depth before breadth** — one cell proven first.
-2. Clone **playbook structure** (mission, lanes, stack law, rubric, pitch artifacts) — not verbatim sponsor promises.
+2. Clone **playbook structure** (mission, lanes, stack law, rubric, pitch runtime/artifacts) — not verbatim sponsor promises.
 3. Re-run **philanthropist calibration** for the new locale; do not assume Anyang legal/funding choices transfer.
 
 ---

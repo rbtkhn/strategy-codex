@@ -24,7 +24,7 @@ def _resolve_receipt_path(repo_root: Path, rel: str) -> Path:
     path = repo_root / rel
     if path.is_file():
         return path
-    legacy = repo_root / "users" / rel
+    legacy = repo_root / "platform/users" / rel
     if legacy.is_file():
         return legacy
     return path

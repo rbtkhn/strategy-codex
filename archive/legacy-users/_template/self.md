@@ -67,4 +67,4 @@ Optionally, keep a one-line summary here for at-a-glance; canonical content is i
 
 ---
 
-*Do not use this file as a live Record. Copy to `users/<new_id>/self.md` in an instance and replace placeholders with real data.*
+*Do not use this file as a live Record. Copy to `platform/users/<new_id>/self.md` in an instance and replace placeholders with real data.*

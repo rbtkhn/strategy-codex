@@ -15,7 +15,7 @@
 | Role | Description |
 |------|-------------|
 | **Cadence architecture** | Defines the shape of daily rhythm: coffee (orientation, repeated), conductor (mid-day depth; optional), dream (consolidation, once), bridge (session carry-forward), harvest (cross-agent packet; midstream import). **`thanks`** deprecated as primary beat. |
-| **Night-to-morning handoff** | Documents the `daily-handoff/night-handoff.json` data contract that bridges dream output to coffee Step 1. |
+| **Night-to-morning handoff** | Documents the `runtime/daily-handoff/night-handoff.json` data contract that bridges dream output to coffee Step 1. |
 | **Cadence event audit** | Append-only telemetry via `work-cadence-events.md` and `scripts/log_cadence_event.py` (optional **`harvest`** kind for consistency). |
 | **Boundary surface** | Explains what belongs in operational/ephemeral surfaces versus what must escalate to the gate. |
 | **Script topology** | Maps how consolidated runners delegate to underlying brief generators. |
@@ -24,9 +24,9 @@
 
 ## When integrity reports stale derived exports
 
-Commits that change profile surfaces, `bot/prompt.py`, or related inputs can leave **derived** files older than sources: `manifest.json`, `llms.txt`, `intent_snapshot.json`, `fork-manifest.json`, repo-root `self-llm.txt`, and `runtime-bundle/bundle.json`. `validate-integrity.py` and `auto_dream.py` then report **integrity** failure until exports are refreshed.
+Commits that change profile surfaces, `archive/grace-mar-instance/bot/prompt.py`, or related inputs can leave **derived** files older than sources: `manifest.json`, `llms.txt`, `intent_snapshot.json`, `fork-manifest.json`, repo-root `self-llm.txt`, and `runtime/bundle/bundle.json`. `validate-integrity.py` and `auto_dream.py` then report **integrity** failure until exports are refreshed.
 
-**Recovery (root profile),** from repo root:
+**Recovery (root platform/profile),** from repo root:
 
 ```bash
 bash scripts/regen_grace_mar_derived.sh
@@ -37,7 +37,7 @@ The script runs, in order: `export.py manifest`, `fork_checksum.py --manifest`, 
 
 ---
 
-## Reading the audit file (demo vs root profile)
+## Reading the audit file (demo vs root platform/profile)
 
 [`work-cadence-events.md`](work-cadence-events.md) is **append-all**: lines may include **`(demo)`** (fixtures, harness, or CLI defaults) alongside **root-profile** operator cadence.
 
@@ -118,7 +118,7 @@ Signing-off **`coffee`** (closeout mode) is a **lighter** alternative to `bridge
 
 ### Data flow between beats (what crosses the boundary)
 
-1. **Dream â†’ morning coffee:** `daily-handoff/night-handoff.json` and, in root-profile style instances, `last-dream.json` â€” collapsed â€œLast dreamâ€ in warmup unless verbose flags are used.
+1. **Dream â†’ morning coffee:** `runtime/daily-handoff/night-handoff.json` and, in root-profile style instances, `last-dream.json` â€” collapsed â€œLast dreamâ€ in warmup unless verbose flags are used.
 2. **Bridge â†’ next thread:** Transfer prompt (packet contract) â€” ends with a lone **`coffee`** line for cold start when that contract applies.
 3. **All beats â†’ audit trail:** [work-cadence-events.md](work-cadence-events.md) â€” one append-only line per successful leaf run (`scripts/log_cadence_event.py`). `coffee_close` receipts may add a second coffee line after a selected branch materially settles, recording outcome, readiness, artifacts, unresolved loops, and conductor state. This file is **operator ephemera**: rhythm telemetry, not Record.
 
@@ -126,7 +126,7 @@ Signing-off **`coffee`** (closeout mode) is a **lighter** alternative to `bridge
 
 Skills may ask the agent to **read** `work-cadence-events.md` **before** running scripts that **append** a new line at the end of the run, then **synthesize** recent events into the reply so the companion sees **recent rhythm** without opening the log.
 
-**Companion-facing UX (new users):** In chat, label this block **Recent rhythm** (or lead with prose only). **Do not** use internal jargon **cadence tail** in replies. **Do not** put **dates, UTC, or clock times** in the synthesized proseâ€”use sequence and plain language (â€œafter bridge,â€ â€œthen a conductor pass,â€ â€œearlier todayâ€). The log file still stores machine-readable timestamps; the synthesis is for humans.
+**Companion-facing UX (new platform/users):** In chat, label this block **Recent rhythm** (or lead with prose only). **Do not** use internal jargon **cadence tail** in replies. **Do not** put **dates, UTC, or clock times** in the synthesized proseâ€”use sequence and plain language (â€œafter bridge,â€ â€œthen a conductor pass,â€ â€œearlier todayâ€). The log file still stores machine-readable timestamps; the synthesis is for humans.
 
 | Ritual | Prior events synthesized | Rationale |
 |--------|----------------------------|-----------|
@@ -221,8 +221,8 @@ Each clock needs its own ritual because the failure modes are different. Reorien
 
 ```
 cadence-coffee.py
-  â”œâ”€ reads/writes daily-handoff/last-coffee-state.json   (delta since last coffee; operational)
-  â”œâ”€ writes daily-handoff/.coffee-run-context.json         (runner â†’ brief; operational; gitignored in instance policy if desired)
+  â”œâ”€ reads/writes runtime/daily-handoff/last-coffee-state.json   (delta since last coffee; operational)
+  â”œâ”€ writes runtime/daily-handoff/.coffee-run-context.json         (runner â†’ brief; operational; gitignored in instance policy if desired)
   â””â”€ good-morning-brief.py        context, bridges, session options, handoff pickup, coffeeOrientationHints
        â””â”€ write_style_bridge.py   optional WRITE synthesis
 
@@ -232,7 +232,7 @@ cadence-dream.py
   â””â”€ merge worktree triage        writes worktreeState / worktreeAdvice into night-handoff.json
 
 bridge_last_state.py              (after successful bridge push; agent-run ritual)
-  â””â”€ daily-handoff/last-bridge-state.json   session-to-session delta for bridge packet; operational; gitignored
+  â””â”€ runtime/daily-handoff/last-bridge-state.json   session-to-session delta for bridge packet; operational; gitignored
 ```
 
 **Runners** are lightweight dispatch wrappers. **Briefs** hold all the parsing, bridge-building, and output logic. Instances may extend or replace the runners while keeping the briefs stable.
@@ -241,7 +241,7 @@ bridge_last_state.py              (after successful bridge push; agent-run ritua
 
 ## Handoff contract
 
-`dream` (via `good-night-brief.py --write-closeout`) writes `daily-handoff/night-handoff.json`.
+`dream` (via `good-night-brief.py --write-closeout`) writes `runtime/daily-handoff/night-handoff.json`.
 
 `coffee` (via `good-morning-brief.py`) reads that file the next morning.
 
@@ -269,9 +269,9 @@ bridge_last_state.py              (after successful bridge push; agent-run ritua
 | `gateSuggestions` | array | Strings or `{item, reason, urgency}` objects â€” advisory only |
 | `warnings` | string[] | Parse/fallback warnings |
 
-**Morning checkback (optional):** `good-morning-brief.py --write-checkback --checkback-helpful yes|no|partial` writes `morning-checkback-<YYYY-MM-DD>.json` under `daily-handoff/` (operational telemetry; not Record).
+**Morning checkback (optional):** `good-morning-brief.py --write-checkback --checkback-helpful yes|no|partial` writes `morning-checkback-<YYYY-MM-DD>.json` under `runtime/daily-handoff/` (operational telemetry; not Record).
 
-**Weekly reflection:** `weekly-reflection.json` in `daily-handoff/` is updated when dream runs in **reflective** mode.
+**Weekly reflection:** `weekly-reflection.json` in `runtime/daily-handoff/` is updated when dream runs in **reflective** mode.
 
 The handoff artifact is an operational file, not identity truth. It should not be committed to the Record or treated as evidence.
 
@@ -288,7 +288,7 @@ Keep changes in territory docs when they are about:
 - runner mode definitions and dispatch logic
 - coffee/dream choreography and timing
 
-Stage to the instance's gate (`recursion-gate.md` or `review-queue/`) only when a cadence insight would change governed behavior, such as:
+Stage to the instance's gate (`recursion-gate.md` or `archive/queues/review-queue/`) only when a cadence insight would change governed behavior, such as:
 
 - durable prompt or policy behavior
 - changes to how identity-relevant signals are captured
@@ -429,9 +429,9 @@ If the **same** troubleshooting bullet applies **twice in a short window**, add 
 
 - **Spec docs:** `docs/good-morning-brief-spec.md`, `docs/good-night-brief-spec.md`, `docs/good-night-template.md`
 - **Sync pack:** `docs/skill-work/self-work/sync-pack/` (optional territory sync module)
-- **Operational handoff:** `daily-handoff/night-handoff.json`
+- **Operational handoff:** `runtime/daily-handoff/night-handoff.json`
 - **Ephemeral memory:** `self-memory.md`
-- **Governed changes:** Instance-specific gate (`recursion-gate.md` or `review-queue/`)
+- **Governed changes:** Instance-specific gate (`recursion-gate.md` or `archive/queues/review-queue/`)
 
 ---
 

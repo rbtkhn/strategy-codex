@@ -240,7 +240,7 @@ def build_coffee_bootstrap_brief(
     last_close = recursion.get("last_close")
     repeated = recursion.get("repeated_unresolved_loops") or []
     load_changed_paths = _as_list(load.get("changed_paths"))
-    artifacts = _as_list(last_close.get("artifacts") if last_close else None)
+    artifacts = _as_list(last_close.get("runtime/artifacts") if last_close else None)
     if not artifacts:
         artifact_counts = recursion.get("artifact_counts") or {}
         artifacts = list(artifact_counts)[:4]

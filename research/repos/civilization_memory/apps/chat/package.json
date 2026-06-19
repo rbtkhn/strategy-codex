@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "description": "Chat backend and adapters (Telegram, WeChat) for CIV–MEM",
-  "main": "src/index.js",
+  "main": "platform/src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js",
-    "telegram": "node src/index.js",
+    "start": "node platform/src/index.js",
+    "dev": "node --watch platform/src/index.js",
+    "telegram": "node platform/src/index.js",
     "eval": "node scripts/eval-engine.js",
     "eval:rotate": "EVAL_ROTATE=1 node scripts/eval-engine.js"
   },

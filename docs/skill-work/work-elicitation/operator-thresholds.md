@@ -68,7 +68,7 @@ It is not legal policy and not Record truth.
 
 ### Record / SELF boundary
 
-- Trigger: any proposed edit to `self.md`, `self-archive.md`, or `bot/prompt.py`
+- Trigger: any proposed edit to `self.md`, `self-archive.md`, or `archive/grace-mar-instance/bot/prompt.py`
 - Why escalate: these are Record truth surfaces; only companion-approved merges via `process_approved_candidates.py` are authorized
 - When not to escalate: WORK-only edits that never touch Record surfaces
 - Preferred escalation surface: echo CANDIDATE-XXXX + one-line summary before any merge action

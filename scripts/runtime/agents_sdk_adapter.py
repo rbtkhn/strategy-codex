@@ -4,7 +4,7 @@ Optional LLM summary for runtime worker — not Record, not continuity.
 Prefer OpenAI Chat Completions when OPENAI_API_KEY is set. A future revision may
 swap internals for the OpenAI Agents SDK without changing the worker CLI.
 
-Does not import bot/ or write canonical surfaces.
+Does not import archive/grace-mar-instance/bot/ or write canonical surfaces.
 """
 
 from __future__ import annotations
@@ -49,7 +49,7 @@ def summarize_inspection(
         from openai import OpenAI
     except ImportError:
         return (
-            "_`openai` package not installed: pip install openai (see bot/requirements or miniapp stack)._\n",
+            "_`openai` package not installed: pip install openai (see archive/grace-mar-instance/bot/requirements or miniapp stack)._\n",
             ["openai_missing"],
         )
 

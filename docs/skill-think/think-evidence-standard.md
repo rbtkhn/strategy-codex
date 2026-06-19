@@ -3,7 +3,7 @@
 ## Pipeline order (unchanged)
 
 1. **EVIDENCE** — READ/ACT rows in `self-archive.md` (or instance EVIDENCE path).
-2. **THINK** — Capability intake in `skill-think.md` (prose) **and/or** structured [think-claims.json](../../artifacts/skill-think/think-claims.json).
+2. **THINK** — Capability intake in `skill-think.md` (prose) **and/or** structured [think-claims.json](../../runtime/artifacts/skill-think/think-claims.json).
 3. **IX (optional)** — Gate-approved promotion to `self.md` when identity-facing.
 
 ## SSOT: prose vs JSON (Phase A)
@@ -19,7 +19,7 @@
 
 ## Validator
 
-`python3 scripts/validate_think_claims.py` — schema validation + advisory warnings (stale dates, high confidence with single evidence). Optional `--skill-think-md` to warn if `THINK-XXX` id is absent from prose.
+`python3 scripts/validate_think_claims.py` — schema validation + advisory warnings (stale dates, high confidence with single archive/placeholders/evidence). Optional `--skill-think-md` to warn if `THINK-XXX` id is absent from prose.
 
 ## Anchors in prose (optional)
 

@@ -57,7 +57,7 @@ What to do before answering:
    - review/gate
    - canonical Record
    - notebook/workflow surfaces
-   - evidence/provenance surfaces
+   - archive/placeholders/evidence/provenance surfaces
    - observability/audit surfaces
 
 Hard constraints:

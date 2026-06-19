@@ -6,7 +6,7 @@
 
 ## Why receipts exist
 
-**Capability is not authority.** The capability registry ([`config/mcp-capabilities.yaml`](../../config/mcp-capabilities.yaml)) describes posture classes; **authority surfaces** come from bindings ([`config/mcp-authority-bindings.yaml`](../../config/mcp-authority-bindings.yaml)). **Tool success is not governance approval.**
+**Capability is not authority.** The capability registry ([`platform/config/mcp-capabilities.yaml`](../../platform/config/mcp-capabilities.yaml)) describes posture classes; **authority surfaces** come from bindings ([`platform/config/mcp-authority-bindings.yaml`](../../platform/config/mcp-authority-bindings.yaml)). **Tool success is not governance approval.**
 
 An MCP execution receipt records **what happened**, **under which capability lane**, and **which authority class governed** the action, so assistants and operators can audit tool-shaped work **without** conflating it with companion-approved merges.
 
@@ -17,7 +17,7 @@ An MCP execution receipt records **what happened**, **under which capability lan
 | Artifact | Role |
 |----------|------|
 | **`schemas/mcp-execution-receipt.v1.json`** (this PR) | MCP **policy/governance** receipt â€” derives authority from bindings + capability registry. |
-| **`schema-registry/execution-receipt.v1.json`** | Runtime **worker** receipt (`grace_mar_runtime_worker.py`) â€” different schema and semantics â€” **do not interchange.** |
+| **`schemas/registry/execution-receipt.v1.json`** | Runtime **worker** receipt (`grace_mar_runtime_worker.py`) â€” different schema and semantics â€” **do not interchange.** |
 
 ---
 
@@ -25,7 +25,7 @@ An MCP execution receipt records **what happened**, **under which capability lan
 
 1. Tool-shaped action completes (or is blocked).
 2. Emit receipt JSON via **`scripts/mcp_receipt.py`** (validated against schema + rules).
-3. Optionally **`scripts/mcp_receipt_audit.py`** over **`artifacts/mcp-receipts/*.json`** for drift checks against current YAML configs.
+3. Optionally **`scripts/mcp_receipt_audit.py`** over **`runtime/artifacts/mcp-receipts/*.json`** for drift checks against current YAML configs.
 
 Promotion paths ([imports](../imports-and-capture.md)): receipts may inform **evidence stubs** or **gate staging**, always behind explicit human review â€” receipts alone never merge Record truth.
 
@@ -36,7 +36,7 @@ Promotion paths ([imports](../imports-and-capture.md)): receipts may inform **ev
 | Stage | Meaning |
 |-------|---------|
 | **Receipt** | Audit envelope; declares posture and declared reads/writes; **not** canonical IX/Evid facts. |
-| **Evidence stub** | Pre-canonical draft artifact (`artifacts/evidence-stubs/` conventions); still gated for merge into [`self-archive.md`](../../self-archive.md). |
+| **Evidence stub** | Pre-canonical draft artifact (`runtime/artifacts/evidence-stubs/` conventions); still gated for merge into [`self-archive.md`](../../self-archive.md). |
 | **Candidate proposal** | Structured YAML/text destined for [`recursion-gate.md`](../../recursion-gate.md) staging â€” companion/process-approved merge applies separately. |
 | **Canonical approval** | Companion approval via **`scripts/process_approved_candidates.py`** â€” receipts never bypass this. |
 
@@ -58,7 +58,7 @@ Computation hashes **`sha256(canonical_json(receipt_without_integrity_hash_field
 
 ## Representative capability narratives
 
-These match seeded IDs in **`config/mcp-capabilities.yaml`**.
+These match seeded IDs in **`platform/config/mcp-capabilities.yaml`**.
 
 ### `github_readonly`
 
@@ -70,7 +70,7 @@ Fetch/summarize with citations (**`work_artifact`** / **`prepared_context`**, **
 
 ### `evidence_stub_operator_template`
 
-Emits evidence-shaped stubs under governed paths (**`evidence_stub`** â†’ **`evidence`** surface). **`governance.requires_gate_review`** must be **`true`** on receipts (`mcp_receipt.py` defaults this when lane is **`evidence_stub`**).
+Emits evidence-shaped stubs under governed paths (**`evidence_stub`** â†’ **`archive/placeholders/evidence`** surface). **`governance.requires_gate_review`** must be **`true`** on receipts (`mcp_receipt.py` defaults this when lane is **`evidence_stub`**).
 
 ### `github_patch_proposal`
 
@@ -94,12 +94,12 @@ python3 scripts/mcp_receipt.py \
   --actor-kind assistant \
   --actor-name chatgpt \
   --intent "Inspect repo MCP policy files" \
-  --resources-read config/mcp-capabilities.yaml config/mcp-authority-bindings.yaml \
+  --resources-read platform/config/mcp-capabilities.yaml platform/config/mcp-authority-bindings.yaml \
   --status success \
   --summary "Confirmed MCP registry and authority bindings exist."
 
 python3 scripts/mcp_receipt_audit.py
 ```
 
-Output directories: **[`artifacts/mcp-receipts/`](../../artifacts/mcp-receipts/)**, report **[`artifacts/mcp-receipt-report.md`](../../artifacts/mcp-receipt-report.md)**.
+Output directories: **[`runtime/artifacts/mcp-receipts/`](../../runtime/artifacts/mcp-receipts/)**, report **[`runtime/artifacts/mcp-receipt-report.md`](../../runtime/artifacts/mcp-receipt-report.md)**.
 

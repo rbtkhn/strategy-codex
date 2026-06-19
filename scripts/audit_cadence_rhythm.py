@@ -449,7 +449,7 @@ def compute_coffee_recursion_summary(
         outcome = str(kv.get("outcome", "")).strip() or "unknown"
         readiness_counts[readiness] += 1
         outcome_counts[outcome] += 1
-        for artifact in _split_csv(kv.get("artifacts")):
+        for artifact in _split_csv(kv.get("runtime/artifacts")):
             artifact_counts[artifact] += 1
         if outcome != "done":
             for loop in _split_csv(kv.get("loops")):
@@ -470,7 +470,7 @@ def compute_coffee_recursion_summary(
             "picked": kv.get("picked"),
             "outcome": kv.get("outcome"),
             "readiness": kv.get("readiness"),
-            "artifacts": _split_csv(kv.get("artifacts")),
+            "runtime/artifacts": _split_csv(kv.get("runtime/artifacts")),
             "loops": _split_csv(kv.get("loops")),
             "next": kv.get("next"),
             "conductor": _normalize_conductor_slug(kv.get("conductor")) or None,
@@ -716,9 +716,9 @@ def main() -> int:
         "--pressure-report",
         type=Path,
         nargs="?",
-        const=REPO_ROOT / "artifacts/work-cadence/cadence-pressure-report.json",
+        const=REPO_ROOT / "runtime/artifacts/work-cadence/cadence-pressure-report.json",
         metavar="OUT",
-        help="Write cadence pressure JSON (default: artifacts/work-cadence/cadence-pressure-report.json)",
+        help="Write cadence pressure JSON (default: runtime/artifacts/work-cadence/cadence-pressure-report.json)",
     )
     ap.add_argument(
         "--gate-path",

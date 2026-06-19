@@ -3,8 +3,8 @@
 ## What was added
 
 - **Doctrine:** [workflow-depth-contract.md](workflow-depth-contract.md) — shared inputs/outputs, governance boundaries.
-- **Library:** [`src/grace_mar/runtime/workflow_depth.py`](../../src/grace_mar/runtime/workflow_depth.py) — depth→budget mapping, decision helpers, append-only receipt builder.
-- **Schema:** [`schema-registry/workflow-depth-decision.v1.json`](../../schema-registry/workflow-depth-decision.v1.json); enriched [`schema-registry/workflow-depth-receipt.v1.json`](../../schema-registry/workflow-depth-receipt.v1.json).
+- **Library:** [`platform/src/grace_mar/runtime/workflow_depth.py`](../../platform/src/grace_mar/runtime/workflow_depth.py) — depth→budget mapping, decision helpers, append-only receipt builder.
+- **Schema:** [`schemas/registry/workflow-depth-decision.v1.json`](../../schemas/registry/workflow-depth-decision.v1.json); enriched [`schemas/registry/workflow-depth-receipt.v1.json`](../../schemas/registry/workflow-depth-receipt.v1.json).
 - **Scripts:** [`scripts/build_workflow_depth_report.py`](../../scripts/build_workflow_depth_report.py), [`scripts/build_workflow_depth_hints.py`](../../scripts/build_workflow_depth_hints.py).
 - **Docs:** [workflow-depth-audit.md](workflow-depth-audit.md), [worker-candidates.md](worker-candidates.md).
 
@@ -19,8 +19,8 @@
 | Artifact | Location |
 |----------|----------|
 | Workflow depth receipts | `runtime/workflow-depth/index.jsonl` or `GRACE_MAR_WORKFLOW_DEPTH_HOME` |
-| Budget build sidecar | `prepared-context/last-budget-builds.json` |
-| Audit JSON / hints | `artifacts/workflow-depth/` (default for report script) |
+| Budget build sidecar | `runtime/prepared-context/last-budget-builds.json` |
+| Audit JSON / hints | `runtime/artifacts/workflow-depth/` (default for report script) |
 
 ## Intentionally narrow
 

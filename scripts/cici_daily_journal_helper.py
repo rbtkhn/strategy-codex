@@ -32,17 +32,17 @@ SECTION_ALIASES = {
     "next": "next",
     "plan": "next",
     "plan next": "next",
-    "evidence": "evidence",
-    "notes": "evidence",
+    "archive/placeholders/evidence": "archive/placeholders/evidence",
+    "notes": "archive/placeholders/evidence",
 }
 
-SECTION_ORDER = ["worked_on", "changed", "blocked", "next", "evidence"]
+SECTION_ORDER = ["worked_on", "changed", "blocked", "next", "archive/placeholders/evidence"]
 SECTION_TITLES = {
     "worked_on": "What I worked on",
     "changed": "What changed",
     "blocked": "What is blocked",
     "next": "What I plan to do next",
-    "evidence": "Evidence or notes",
+    "archive/placeholders/evidence": "Evidence or notes",
 }
 
 
@@ -118,14 +118,14 @@ def build_draft(draft_date: str, raw_lines: list[str]) -> JournalDraft:
         if not draft.sections["worked_on"]:
             draft.sections["worked_on"].extend(draft.leftovers)
         else:
-            draft.sections["evidence"].extend(draft.leftovers)
+            draft.sections["archive/placeholders/evidence"].extend(draft.leftovers)
 
     if not draft.sections["blocked"]:
         draft.sections["blocked"].append("None noted")
     if not draft.sections["next"]:
         draft.sections["next"].append("Needs follow-up")
-    if not draft.sections["evidence"]:
-        draft.sections["evidence"].append("Needs follow-up")
+    if not draft.sections["archive/placeholders/evidence"]:
+        draft.sections["archive/placeholders/evidence"].append("Needs follow-up")
     return draft
 
 

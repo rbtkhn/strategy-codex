@@ -6,7 +6,7 @@ End-of-day consolidation in one command.  Runs good-night-brief.py with
 appropriate flags, then reports git status so the operator sees uncommitted
 work before closing the day.
 
-The night brief writes daily-handoff/night-handoff.json — the artifact
+The night brief writes runtime/daily-handoff/night-handoff.json — the artifact
 that cadence-coffee.py (via good-morning-brief.py) picks up tomorrow.
 
 After the brief, this runner merges worktree triage (worktreeState,
@@ -80,7 +80,7 @@ def _classify_worktree(status_out: str, diff_out: str) -> tuple[str, str]:
 
 
 def _merge_worktree_into_handoff(user_id: str) -> None:
-    handoff_path = profile_dir(user_id) / "daily-handoff" / "night-handoff.json"
+    handoff_path = profile_dir(user_id) / "runtime/daily-handoff" / "night-handoff.json"
     if not handoff_path.is_file():
         return
     try:

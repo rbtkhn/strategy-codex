@@ -5,7 +5,7 @@ Each subdirectory is one **cognitive fork**: an isolated namespace for that fork
 ## Structure
 
 ```
-users/
+platform/users/
 ├── fork-config.json.example   # Example per-fork config (copy to <fork_id>/fork-config.json to override quotas/retention)
 ├── grace-mar/                  # Active pilot fork
 │   ├── self.md
@@ -14,19 +14,19 @@ users/
 │   ├── session-log.md
 │   ├── recursion-gate.md
 │   ├── self-archive.md
-│   ├── artifacts/
+│   ├── runtime/artifacts/
 │   ├── fork-config.json       # optional: quotas, retention (see example)
 │   └── ...
 └── <future-fork-id>/           # Each new fork gets its own directory; no shared writable space
 ```
 
-- **Namespace:** All fork-owned data lives under `users/<fork_id>/`. No cross-fork paths.
+- **Namespace:** All fork-owned data lives under `platform/users/<fork_id>/`. No cross-fork paths.
 - **Discovery:** Scripts use `list_forks()` ([repo_io](scripts/repo_io.py)) to enumerate fork IDs (directories that contain `self.md` or `recursion-gate.md`).
 - **Default fork:** Runtime default is `GRACE_MAR_USER_ID` (default `grace-mar`). Export, merge, and operator scripts take `-u <fork_id>`.
 
 ## Quotas and retention (per-fork)
 
-Quotas and retention are defined per fork so one fork cannot exhaust shared resources and each can have different rules. Optional `users/<fork_id>/fork-config.json` can set:
+Quotas and retention are defined per fork so one fork cannot exhaust shared resources and each can have different rules. Optional `platform/users/<fork_id>/fork-config.json` can set:
 
 - **Quotas:** e.g. `artifact_storage_mb`, `pipeline_events_max`, `pending_candidates_max`
 - **Retention:** e.g. `memory_ttl_days`, `archive_rotate_entries`, `session_transcript_max_mb`
@@ -36,7 +36,7 @@ See `fork-config.json.example` and [Fork isolation §7](../docs/fork-isolation-a
 ## Export and import (per-fork)
 
 - **Export:** All export commands are scoped to one fork: `export_fork.py -u <id>`, `export_prp.py -u <id>`, `export_runtime_bundle.py -u <id>`, etc. Output is a snapshot of that fork only.
-- **Import:** Future import/restore must write only under `users/<target_fork_id>/` and must not touch other forks.
+- **Import:** Future import/restore must write only under `platform/users/<target_fork_id>/` and must not touch other forks.
 
 ## Storage and privacy
 

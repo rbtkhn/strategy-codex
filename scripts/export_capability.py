@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Export a demonstrated-capability profile from Grace-Mar.
@@ -28,7 +29,7 @@ try:
 except ImportError:
     from scripts.repo_io import read_path, REPO_ROOT, profile_dir, resolve_surface_markdown_path
 
-RATIONALE_DIR = REPO_ROOT / "artifacts" / "rationales"
+RATIONALE_DIR = ARTIFACTS_DIR / "rationales"
 RATIONALE_REQUIRED_FIELDS = {"artifact_name", "task_type", "why_good", "transferable_pattern"}
 
 CAPABILITY_ENTRY_PREFIXES = ("WRITE-", "CREATE-", "ACT-")
@@ -147,7 +148,7 @@ def _extract_evidence(evidence_content: str) -> dict[str, list[dict]]:
 # ── rationale loading ───────────────────────────────────────────────────
 
 def _load_rationales(rationale_dir: Path | None = None) -> list[dict]:
-    """Load artifact-rationale JSON files from artifacts/rationales/."""
+    """Load artifact-rationale JSON files from runtime/artifacts/rationales/."""
     d = rationale_dir or RATIONALE_DIR
     if not d.is_dir():
         return []
@@ -174,7 +175,7 @@ def export_capability(user_id: str = "grace-mar") -> dict:
     user_dir = profile_dir(user_id)
     self_path = user_dir / "self.md"
     skills_path = resolve_surface_markdown_path(user_dir, "self_skills")
-    evidence_path = resolve_surface_markdown_path(user_dir, "self_evidence")
+    evidence_path = resolve_surface_markdown_path(user_dir, "self_archive/placeholders/evidence")
 
     self_content = read_path(self_path) or ""
     skills_content = read_path(skills_path) or ""
@@ -195,7 +196,7 @@ def export_capability(user_id: str = "grace-mar") -> dict:
         "user_id": user_id,
         "identity_context": identity,
         "skills": skills,
-        "evidence": evidence,
+        "archive/placeholders/evidence": evidence,
         "rationales": rationales,
         "counts": {
             "evidence_total": evidence_total,
@@ -208,7 +209,7 @@ def export_capability(user_id: str = "grace-mar") -> dict:
 # ── CLI ─────────────────────────────────────────────────────────────────
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Export demonstrated-capability profile")
+    parser = argparse.ArgumentParser(description="Export demonstrated-capability platform/profile")
     parser.add_argument("-u", "--user", default="grace-mar", help="User id")
     parser.add_argument("-o", "--output", default=None, help="Output JSON file (default: stdout)")
     args = parser.parse_args()

@@ -256,7 +256,7 @@ def _build_doc(
         "pub_date": pub_date.isoformat(),
         "kind": "rss-item",
         "account_author": author,
-        "source_url_profile": author_url,
+        "source_url_platform/profile": author_url,
         "source_url": article_url,
         "publication": publication,
         "slug": slug,

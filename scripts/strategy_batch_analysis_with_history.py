@@ -4,7 +4,7 @@ Build prompt-ready batch-analysis context with optional historical expert contex
 
 WORK-only; additive. Does not modify thread, transcript, days.md, or knot files.
 
-Reads: artifacts/skill-work/work-strategy/batch-analysis-snapshot.json (batch_analysis_refs).
+Reads: runtime/artifacts/skill-work/work-strategy/batch-analysis-snapshot.json (batch_analysis_refs).
 
 Optional: per-month ``historical-expert-context/<expert_id>/<YYYY-MM>.md`` (preferred when the full
 window exists), else rollup ``historical-expert-context/<expert_id>-<start>-to-<end>.md``
@@ -21,7 +21,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-ARTIFACTS_DIR = REPO_ROOT / "artifacts/skill-work/work-strategy"
+ARTIFACTS_DIR = REPO_ROOT / "runtime/artifacts/skill-work/work-strategy"
 SNAPSHOT_PATH = ARTIFACTS_DIR / "batch-analysis-snapshot.json"
 HISTORY_DIR = ARTIFACTS_DIR / "historical-expert-context"
 OUT_DIR = ARTIFACTS_DIR / "batch-analysis-with-history"
@@ -281,7 +281,7 @@ def main() -> int:
 
     if not args.dry_run and not args.apply:
         print(
-            "Specify --dry-run (print bundle to stdout) or --apply (write under artifacts).",
+            "Specify --dry-run (print bundle to stdout) or --apply (write under runtime/artifacts).",
             file=sys.stderr,
         )
         return 2

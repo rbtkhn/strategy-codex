@@ -7,7 +7,7 @@ to the template-portable Record Diff Queue renderer.
 
 Usage:
   python3 scripts/gate_to_diff_adapter.py -u grace-mar
-  python3 scripts/gate_to_diff_adapter.py -u grace-mar --output-dir review-queue/diffs/
+  python3 scripts/gate_to_diff_adapter.py -u grace-mar --output-dir archive/queues/review-queue/diffs/
   python3 scripts/gate_to_diff_adapter.py -u grace-mar --stdout
 """
 

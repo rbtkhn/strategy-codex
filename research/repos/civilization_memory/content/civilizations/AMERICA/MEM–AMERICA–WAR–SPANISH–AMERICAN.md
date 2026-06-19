@@ -159,7 +159,7 @@ AMERICA:
 
 Cross-Civilizational:
 • MEM–ANGLIA–WAR–SPANISH–AMERICAN — Anglian encoding (maritime
-  reassertion through American extension); same war, same
+  reassertion through American platform/extension); same war, same
   strategic grammar.
 
 Cross-references denote lineage, not equivalence.

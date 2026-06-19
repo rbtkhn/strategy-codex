@@ -7,7 +7,7 @@ WORK only; not Record.
 **When to use** — Promoting model output or draft essays/notes toward durable prose surfaces; before shipping new `essays/` files.  
 **Inputs** — Markdown path(s), optional `--diff base...head`, optional `--mode essay|skill-write|note`.  
 **Outputs** — lint findings (`prose-forge.report.json`), staged `candidate.md`, `review-note.md`, diff via `compare`.  
-**Mutation scope** — runtime-only; may stage under `artifacts/prose-forge/`; **never** silent canonical edits.  
+**Mutation scope** — runtime-only; may stage under `runtime/artifacts/prose-forge/`; **never** silent canonical edits.  
 **Canonical Record access** — none.  
 **Typical next step** — operator review, manual merge.  
 **Do not use for** — source archives, review-queue Record paths, detector evasion, laundering unsupported claims.
@@ -34,8 +34,8 @@ python3 scripts/prose_forge.py lint --strict essays/leo-barnes-jiang-on-ai.md
 
 # Phase 3 — stage candidate (no LLM call in-repo)
 python3 scripts/prose_forge.py rewrite essays/draft.md --mode essay
-python3 scripts/prose_forge.py compare essays/draft.md artifacts/prose-forge/draft/candidate.md
-python3 scripts/prose_forge.py gate artifacts/prose-forge/draft/candidate.md
+python3 scripts/prose_forge.py compare essays/draft.md runtime/artifacts/prose-forge/draft/candidate.md
+python3 scripts/prose_forge.py gate runtime/artifacts/prose-forge/draft/candidate.md
 ```
 
 ## Class router
@@ -46,7 +46,7 @@ python3 scripts/prose_forge.py gate artifacts/prose-forge/draft/candidate.md
 | `docs/skill-write/` | skill-write | extended optional | SkillWriteResidue, AITexture |
 | `*/notes/` | note | minimal | AITexture |
 | `docs/` | doctrine | lint only | AITexture |
-| `source-archive/`, `review-queue/`, `statecraft/daily/` | **denied** | — | — |
+| `source-archive/`, `archive/queues/review-queue/`, `statecraft/daily/` | **denied** | — | — |
 
 ## Legacy shelf
 
@@ -58,18 +58,18 @@ New essays may set frontmatter `voice_profile: tri-blend-band-a` (future strict 
 
 Install [Vale](https://vale.sh/) locally for generic AI-texture checks. CI and scripts skip Vale gracefully if not installed.
 
-Config: [`.vale.ini`](../.vale.ini), [`styles/StrategyCodex/`](../styles/StrategyCodex/).
+Config: [`.vale.ini`](../.vale.ini), [`templates/styles/StrategyCodex/`](../templates/styles/StrategyCodex/).
 
 ## Staging layout
 
 ```
-artifacts/prose-forge/<slug>/
+runtime/artifacts/prose-forge/<slug>/
   candidate.md
   prose-forge.report.json
   review-note.md
 ```
 
-Not `review-queue/` — that path is Grace-Mar material change-review.
+Not `archive/queues/review-queue/` — that path is Grace-Mar material change-review.
 
 ## Related
 

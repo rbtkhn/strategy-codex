@@ -29,7 +29,7 @@
                                       â–¼
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚                           INTEGRATION                                            â”‚
-â”‚  self.md  â”‚  self-evidence.md (ACT-*)  â”‚  session-log.md  â”‚  bot/prompt.py              â”‚
+â”‚  self.md  â”‚  self-evidence.md (ACT-*)  â”‚  session-log.md  â”‚  archive/grace-mar-instance/bot/prompt.py              â”‚
 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
                                       â”‚
                                       â–¼
@@ -72,7 +72,7 @@ The edgeâ†’quest loop (Record proposes activities at the container boundary
 
 ### Cybernetic Framing
 
-The pipeline is a **cybernetic loop** (Wiener): feedback corrects drift. Entropy (forgotten details, LLM leak, stale profile) is countered by sustained input and approval. Session continuity (read SESSION-LOG, RECURSION-GATE before starting) closes the loop across sessions.
+The pipeline is a **cybernetic loop** (Wiener): feedback corrects drift. Entropy (forgotten details, LLM leak, stale platform/profile) is countered by sustained input and approval. Session continuity (read SESSION-LOG, RECURSION-GATE before starting) closes the loop across sessions.
 
 ---
 
@@ -136,7 +136,7 @@ Physical artifact (handwritten)
         â”‚
         â–¼
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  User captures    â”‚  Photograph â†’ save to artifacts/
+â”‚  User captures    â”‚  Photograph â†’ save to runtime/artifacts/
 â”‚  (manual)         â”‚  Add entry to self-evidence.md Writing Log
 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
           â”‚
@@ -181,7 +181,7 @@ Physical artifact (artwork, collage, etc.)
         â”‚
         â–¼
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  User captures    â”‚  Photograph â†’ save to artifacts/
+â”‚  User captures    â”‚  Photograph â†’ save to runtime/artifacts/
 â”‚  (manual)         â”‚  Add entry to self-evidence.md Creation Log
 â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
           â”‚
@@ -195,7 +195,7 @@ Physical artifact (artwork, collage, etc.)
 
 ## Canonical Artifact Taxonomy
 
-When saving retained visual evidence under `artifacts/`, default to these high-frequency classes:
+When saving retained visual evidence under `runtime/artifacts/`, default to these high-frequency classes:
 
 | Class | Typical examples | Usual evidence surface |
 |------|-------------------|------------------------|
@@ -212,7 +212,7 @@ When saving retained visual evidence under `artifacts/`, default to these high-f
 
 ### Naming convention
 
-- Save files in lowercase under `artifacts/`.
+- Save files in lowercase under `runtime/artifacts/`.
 - Prefer existing evidence IDs in filenames when known:
   - `write-0007-title-slug.png`
   - `create-0011-title-slug.jpg`
@@ -246,7 +246,7 @@ The approval step is the **integration moment** â€” the conscious gate wher
 | `self-evidence.md` | New ACT-* in Activity Log |
 | `recursion-gate.md` | Move candidate to Processed |
 | `session-log.md` | Session record |
-| `bot/prompt.py` | YOUR KNOWLEDGE, YOUR CURIOSITY, YOUR PERSONALITY + analyst dedup list |
+| `archive/grace-mar-instance/bot/prompt.py` | YOUR KNOWLEDGE, YOUR CURIOSITY, YOUR PERSONALITY + analyst dedup list |
 
 ---
 

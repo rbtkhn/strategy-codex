@@ -187,7 +187,7 @@ def main() -> int:
     ap.add_argument("--ledger", type=Path, default=None, help="Path to ledger file (auto-detected if omitted)")
     args = ap.parse_args()
 
-    ledger = args.ledger or (REPO_ROOT / "users" / args.user / "compute-ledger.jsonl")
+    ledger = args.ledger or (REPO_ROOT / "platform/users" / args.user / "compute-ledger.jsonl")
     if not ledger.is_file():
         print(f"no ledger found at {ledger}", file=sys.stderr)
         return 2

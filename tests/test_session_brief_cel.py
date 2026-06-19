@@ -11,7 +11,7 @@ REPO = Path(__file__).resolve().parent.parent
 
 
 def test_context_surfaces_json_schema() -> None:
-    path = REPO / "config" / "context_surfaces.json"
+    path = REPO / "platform/config" / "context_surfaces.json"
     assert path.is_file()
     raw = json.loads(path.read_text(encoding="utf-8"))
     assert raw.get("schemaVersion")
@@ -20,7 +20,7 @@ def test_context_surfaces_json_schema() -> None:
 
 
 def test_session_brief_json_loads() -> None:
-    path = REPO / "config" / "context_budgets" / "session_brief.json"
+    path = REPO / "platform/config" / "context_budgets" / "session_brief.json"
     assert path.is_file()
     raw = json.loads(path.read_text(encoding="utf-8"))
     assert "max_pending_ids_listed" in raw

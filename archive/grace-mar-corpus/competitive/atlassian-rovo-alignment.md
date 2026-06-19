@@ -27,7 +27,7 @@ Grace-Mar maps the issue-tracker substrate pattern onto cognitive-fork governanc
 | Atlassian / Rovo pattern | Grace-Mar local governance analogue |
 |---|---|
 | Jira work items | `recursion-gate.md` candidates, WORK tasks, lane notebooks, and candidate lifecycle. |
-| Confluence pages | Architecture docs, strategy notebook, evidence/work docs, and substrate framing. |
+| Confluence pages | Architecture docs, strategy notebook, archive/placeholders/evidence/work docs, and substrate framing. |
 | Status / ownership | Candidate states, authority map, companion approval, and operator lane responsibility. |
 | Comments / history | Merge receipts, cadence logs, bridge/dream handoffs, runtime receipts, and git history. |
 | Rovo agents | Skill-work agents, operator assistants, conductor/coffee/dream workflows. |

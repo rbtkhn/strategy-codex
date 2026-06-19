@@ -25,7 +25,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_USERS_DIR = REPO_ROOT / "users"
+DEFAULT_USERS_DIR = REPO_ROOT / "platform/users"
 DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar")
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from repo_io import DEFAULT_PROFILE_ID, profile_dir

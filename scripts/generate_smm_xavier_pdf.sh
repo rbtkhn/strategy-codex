@@ -21,8 +21,8 @@ python3 "$REPO_ROOT/scripts/handbook_md_to_print_html.py" "$MD" -o "$HTML"
 
 CHROME=""
 for c in \
-  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
-  "/Applications/Chromium.app/Contents/MacOS/Chromium"; do
+  "/Applications/Google Chrome.platform/app/Contents/MacOS/Google Chrome" \
+  "/Applications/Chromium.platform/app/Contents/MacOS/Chromium"; do
   if [[ -x "$c" ]]; then CHROME="$c"; break; fi
 done
 

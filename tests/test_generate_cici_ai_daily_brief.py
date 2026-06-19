@@ -44,7 +44,7 @@ class GenerateCiciAIDailyBriefTests(unittest.TestCase):
             profiles_dir = docs / "member-profiles"
             progress_dir = docs / "cici-ai-progress"
             telegram_dir = docs / "cici-ai-telegram"
-            evidence_dir = docs / "evidence"
+            evidence_dir = docs / "archive/placeholders/evidence"
             profiles_dir.mkdir(parents=True)
             progress_dir.mkdir()
             telegram_dir.mkdir()

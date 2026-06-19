@@ -21,7 +21,7 @@
     "evidence_state": "adequate",
     "notes": "Synthetic benchmark: tier C with requires_human_review — gate-adjacent draft path."
   },
-  "artifacts": {
+  "runtime/artifacts": {
     "trace_path": "runtime/runtime-worker/traces/index.jsonl",
     "proposal_path": "runtime/runtime-worker/proposals/gov_eval_tier_c.md"
   },

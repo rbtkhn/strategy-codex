@@ -147,7 +147,7 @@ def generate_memo(source_id: str, *, dry_run: bool = False) -> bool:
         from dotenv import load_dotenv
 
         load_dotenv(ROOT / ".env")
-        load_dotenv(ROOT / "bot" / ".env")
+        load_dotenv(ROOT / "archive/grace-mar-instance/bot" / ".env")
         from openai import OpenAI
 
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))

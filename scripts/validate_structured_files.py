@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Lightweight validation for governance-critical structured files.
@@ -25,14 +26,14 @@ from yaml_compat import has_yaml, safe_load_text
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-# Skip very large JSON under artifacts/ (historical blobs, etc.); still counts toward summary.
+# Skip very large JSON under runtime/artifacts/ (historical blobs, etc.); still counts toward summary.
 MAX_ARTIFACT_JSON_BYTES = 512 * 1024
 
 LONG_LINE_WARN_CHARS = 550
 
 # Sorted relative paths from repo root (deterministic).
 CRITICAL_MARKDOWN_PATHS: tuple[str, ...] = (
-    "artifacts/README.md",
+    "runtime/artifacts/README.md",
     "docs/operator-dashboards.md",
     "docs/operator-surface-registry.md",
     "docs/operator-surface-staleness.md",
@@ -62,7 +63,7 @@ def validate_json_file(path: Path) -> str | None:
 
 def validate_schema_registry_json(repo_root: Path = REPO_ROOT) -> list[str]:
     errors: list[str] = []
-    reg = repo_root / "schema-registry"
+    reg = repo_root / "schemas/registry"
     if not reg.is_dir():
         return [f"{reg}: missing schema-registry directory"]
     for path in sorted(reg.glob("*.json")):
@@ -85,10 +86,10 @@ def validate_example_workflow_json(repo_root: Path = REPO_ROOT) -> list[str]:
 
 
 def validate_artifacts_json(repo_root: Path = REPO_ROOT) -> tuple[list[str], int]:
-    """Validate *.json under artifacts/ under size cap. Returns (errors, skipped_oversized_count)."""
+    """Validate *.json under runtime/artifacts/ under size cap. Returns (errors, skipped_oversized_count)."""
     errors: list[str] = []
     skipped = 0
-    root = repo_root / "artifacts"
+    root = ARTIFACTS_DIR
     if not root.is_dir():
         return [], 0
     paths = sorted(root.rglob("*.json"))

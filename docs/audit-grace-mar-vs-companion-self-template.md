@@ -1,6 +1,6 @@
 ﻿# Audit: Grace-Mar vs Companion-Self Template
 
-**Purpose:** Assess how well the grace-mar **instance** aligns with the companion-self **template** specification. Companion-self is the template repo ([github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self)) â€” concept, protocol, seed, structure â€” and the origin for Grace-Mar and future instances. The template is defined in [COMPANION-SELF-BOOTSTRAP](../bootstrap/companion-self-bootstrap.md), [COMPANION-SELF-DEVELOPER-PLAN](companion-self-developer-plan.md), and [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md). Grace-mar is the reference implementation and the source from which the template was extracted; this audit checks that the instance has the structure, docs, and behavior the template expects. **See also:** [grace-mar vs companion-self](grace-mar-vs-companion-self.md) for a side-by-side instance vs template comparison.
+**Purpose:** Assess how well the grace-mar **instance** aligns with the companion-self **template** specification. Companion-self is the template repo ([github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self)) â€” concept, protocol, seed, structure â€” and the origin for Grace-Mar and future instances. The template is defined in [COMPANION-SELF-BOOTSTRAP](../archive/grace-mar-instance/bootstrap/companion-self-bootstrap.md), [COMPANION-SELF-DEVELOPER-PLAN](companion-self-developer-plan.md), and [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md). Grace-mar is the reference implementation and the source from which the template was extracted; this audit checks that the instance has the structure, docs, and behavior the template expects. **See also:** [grace-mar vs companion-self](grace-mar-vs-companion-self.md) for a side-by-side instance vs template comparison.
 
 **Scope:** Structure, concept compliance, protocol compliance, schema alignment, governance, and sync readiness. Not a full security or UX audit.
 
@@ -31,12 +31,12 @@ From the bootstrap and merge doc, an **instance** (e.g. grace-mar) is expected t
 | self-archive.md | Present â€” canonical **EVIDENCE** (activity spine + Â§ VIII gated approved log per [canonical-paths.md](canonical-paths.md)) | âœ… |
 | self-evidence.md | Optional compatibility pointer only; tooling prefers `self-archive.md` ([AGENTS.md](../AGENTS.md)) | âœ… (if present) |
 | recursion-gate.md | Present | âœ… |
-| self-memory.md (template: `_template/self-memory.md`) | Optional; present | âœ… |
+| self-memory.md (template: `platform/template/self-memory.md`) | Optional; present | âœ… |
 | session-transcript.md / SESSION-LOG | Present | âœ… |
 | pipeline-events.jsonl | Present | âœ… |
 | self-library.md | Present | âœ… |
-| Artifacts (CREATE-*, WRITE-* evidence) | `artifacts/` | âœ… |
-| Bot code | `bot/` (Telegram, WeChat, core, prompt) | âœ… |
+| Artifacts (CREATE-*, WRITE-* archive/placeholders/evidence) | `runtime/artifacts/` | âœ… |
+| Bot code | `archive/grace-mar-instance/bot/` (Telegram, WeChat, core, prompt) | âœ… |
 | Merge script | `scripts/process_approved_candidates.py` | âœ… |
 | PRP export | `scripts/export_prp.py`; output e.g. `grace-mar-llm.txt` | âœ… |
 | Validation | `scripts/validate-integrity.py` | âœ… |
@@ -93,7 +93,7 @@ Grace-mar remains strongly aligned on the first layer. The second layer is now *
 | `docs/long-term-objective.md` | âŒ | Template-only path; not yet mirrored or explicitly mapped in grace-mar |
 | `docs/two-hour-screentime-target.md` | âŒ | Template-only path; not yet mirrored or explicitly mapped in grace-mar |
 | `docs/instance-patterns.md` | âŒ | Template-only path; not yet mirrored or explicitly mapped in grace-mar |
-| `_template/` | Reference only | Correctly absent as a live instance path; should remain template-side |
+| `platform/template/` | Reference only | Correctly absent as a live instance path; should remain template-side |
 | `template-manifest.json` / `template-version.json` | âš ï¸ | Not tracked locally as sync anchors; no recorded baseline yet |
 | Grace-mar schema mirrors (`docs/self-template.md`, `docs/skills-template.md`, `docs/evidence-template.md`, `docs/memory-template.md`, `AGENTS.md`) | âœ… | Present and still valid instance-side mirrors / elaborations |
 
@@ -124,12 +124,12 @@ Grace-mar remains strongly aligned on the first layer. The second layer is now *
 - **Local audit verdict is too strong:** Earlier wording said all template paths exist in grace-mar. That is no longer accurate against the live template manifest.
 - **Template sync log / manifest diff:** [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md) Â§3 now records governance merges and manifest-diff refreshes; [work-companion-self/audit-report-manifest.md](skill-work/work-companion-self/audit-report-manifest.md) is regenerated with `template_diff.py --use-manifest`. Governance baseline remains pinned in [TEMPLATE-BASELINE.md](skill-work/work-companion-self/TEMPLATE-BASELINE.md) (`288b438`) while `main` may move â€” re-run the diff after pulls.
 - **Manifest-first sync contract not yet fully internalized:** Grace-mar now acknowledges manifest-driven sync, but operator habit should treat `template-manifest.json` + diff report as the first stop on each sync.
-- **_template/ in template repo:** Correctly absent in grace-mar as a live instance path. This is not a defect, but the audit should distinguish template-only scaffolds from missing instance mirrors.
+- **platform/template/ in template repo:** Correctly absent in grace-mar as a live instance path. This is not a defect, but the audit should distinguish template-only scaffolds from missing instance mirrors.
 
 ### 7.2 Instance-only vs template
 
 - Grace-mar contains **instance-only** docs (PROFILE-DEPLOY, NAMECHEAP-GUIDE, OPERATOR-WEEKLY-REVIEW, instance/operator workflows, etc.). This is correct: they stay in the instance and are not overwritten by template sync. No change needed.
-- **`bootstrap/companion-self-bootstrap.md`** in grace-mar is the reference copy for the companion-self template. Thatâ€™s intentional per Â§6: â€œThis file can live in grace-mar; the companion-self repo now exists at https://github.com/rbtkhn/companion-self.â€ No change needed.
+- **`archive/grace-mar-instance/bootstrap/companion-self-bootstrap.md`** in grace-mar is the reference copy for the companion-self template. Thatâ€™s intentional per Â§6: â€œThis file can live in grace-mar; the companion-self repo now exists at https://github.com/rbtkhn/companion-self.â€ No change needed.
 
 ### 7.3 Naming and consistency
 

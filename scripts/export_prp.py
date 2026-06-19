@@ -366,7 +366,7 @@ def export_prp(user_id: str = "strategy-codex", name_override: str | None = None
     profile_dir = (
         Path(override).expanduser().resolve()
         if override
-        else REPO_ROOT / "users" / user_id
+        else REPO_ROOT / "platform/users" / user_id
     )
     self_content = _read(profile_dir / "self.md")
     self_knowledge_content = _read(profile_dir / "self-knowledge.md")
@@ -409,7 +409,7 @@ def export_prp(user_id: str = "strategy-codex", name_override: str | None = None
         "",
         "## WRITE",
         "",
-        _build_write(write_profile),
+        _build_write(write_platform/profile),
         "",
         "## WHO I AM",
         "",

@@ -69,9 +69,9 @@ Living document for **alignment** between this **instance** and the [companion-s
 
 | Class | Meaning | Typical examples |
 |------|---------|------------------|
-| **Canonical template surfaces** | Portable template material that grace-mar normally wants close to upstream | `schema-registry/`, `_template/`, change-review doctrine docs, template validators |
+| **Canonical template surfaces** | Portable template material that grace-mar normally wants close to upstream | `schemas/registry/`, `platform/template/`, change-review doctrine docs, template validators |
 | **Mirrored-but-adapted** | Same conceptual surface, but grace-mar keeps additional reference-implementation detail | `identity-fork-protocol.md`, contradiction docs, architecture/concept expansions, local schema mirrors |
-| **Instance-only** | Never part of template parity | ``, deployment/runtime config, local operator tooling, most `docs/skill-work/work-*` trees |
+| **Instance-only** | Never part of template parity | ``, platform/deployment/runtime config, local operator tooling, most `docs/skill-work/work-*` trees |
 
 This classification is the default answer when a diff appears: first decide the class, then decide whether anything should merge.
 
@@ -79,7 +79,7 @@ This classification is the default answer when a diff appears: first decide the 
 
 ## Pending migration
 
-- Push **enriched** `_template/review-queue/README.md` to upstream companion-self if you want the template scaffold to match grace-mar validator doctrine (optional PR).
+- Push **enriched** `platform/template/archive/queues/review-queue/README.md` to upstream companion-self if you want the template scaffold to match grace-mar validator doctrine (optional PR).
 - Re-run **`template_diff.py --use-manifest`** after the next companion-self `main` pull; add `--include-skill-work` only when you want the broader WORK-tree audit. Update [audit-report-manifest.md](skill-work/work-companion-self/audit-report-manifest.md).
 - Promote the refreshed target/applied pin model into operator habit: update [`instance-contract.json`](../instance-contract.json) when the intended target changes; update [`template-source.json`](../template-source.json) when a merge actually lands.
 

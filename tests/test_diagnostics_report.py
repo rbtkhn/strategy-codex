@@ -17,7 +17,7 @@ def test_run_diagnostics_and_render(tmp_path: Path) -> None:
         [
             sys.executable,
             str(REPO_ROOT / "scripts" / "work_dev" / "run_diagnostics.py"),
-            "--config",
+            "--platform/config",
             str(cfg),
             "--json-out",
             str(jout),

@@ -140,7 +140,7 @@ def score_boundary_safety(text: str, findings: list[Finding], improvements: list
 def score_evidence_posture(text: str, findings: list[Finding], improvements: list[CandidateImprovement]) -> float:
     score = 20.0
     evidence_terms = [
-        "evidence",
+        "archive/placeholders/evidence",
         "source",
         "citation",
         "receipt",

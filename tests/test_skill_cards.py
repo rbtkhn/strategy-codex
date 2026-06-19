@@ -8,7 +8,7 @@ from pathlib import Path
 import pytest
 
 REPO = Path(__file__).resolve().parents[1]
-SCHEMA_PATH = REPO / "schema-registry" / "skill-card.v1.json"
+SCHEMA_PATH = REPO / "schemas/registry" / "skill-card.v1.json"
 
 
 @pytest.fixture(scope="module")
@@ -80,7 +80,7 @@ def test_completeness_score():
         "purpose": "(no description in frontmatter)",
         "runtime_snippet": "snippet",
         "operator_view": "",
-        "source_path": "skills-portable/test/SKILL.md",
+        "source_path": "skills/test/SKILL.md",
         "last_updated": "2026-01-01T00:00:00Z",
     }
     score = build_skill_cards._completeness_score(card)

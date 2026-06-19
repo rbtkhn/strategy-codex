@@ -43,8 +43,8 @@ This workflow proposes only. It does not spawn lanes, spend money, publish, or b
 
 ### Related surfaces
 
-- [skills-portable/ideation-engine/SKILL.md](../../../skills-portable/ideation-engine/SKILL.md)
-- [skills-portable/abundance-native-ventures/SKILL.md](../../../skills-portable/abundance-native-ventures/SKILL.md)
+- [skills/ideation-engine/SKILL.md](../../../skills/ideation-engine/SKILL.md)
+- [skills/abundance-native-ventures/SKILL.md](../../../skills/abundance-native-ventures/SKILL.md)
 - [WORK-LEDGER.md](WORK-LEDGER.md)
 
 ## 2. Offer or business blueprint
@@ -82,7 +82,7 @@ This is a planning surface, not a claim that demand already exists. Thin evidenc
 
 ### Related surfaces
 
-- [skills-portable/abundance-native-ventures/SKILL.md](../../../skills-portable/abundance-native-ventures/SKILL.md)
+- [skills/abundance-native-ventures/SKILL.md](../../../skills/abundance-native-ventures/SKILL.md)
 - [grace-gems/market-research-and-automation-ideas.md](grace-gems/market-research-and-automation-ideas.md)
 - [grace-gems/roadmap.md](grace-gems/roadmap.md)
 

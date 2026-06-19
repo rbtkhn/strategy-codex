@@ -173,7 +173,7 @@ def test_requested_output_lane_widening_blocked(monkeypatch: pytest.MonkeyPatch,
     doc["operator"]["requested_output_lane"] = "candidate_proposal"
     inp.write_text(yaml.safe_dump(doc, sort_keys=False, allow_unicode=True), encoding="utf-8")
 
-    out = tmp_path / "artifacts" / "mcp-admission" / "lane-block.md"
+    out = tmp_path / "runtime/artifacts" / "mcp-admission" / "lane-block.md"
     monkeypatch.setattr(
         sys,
         "argv",
@@ -186,11 +186,11 @@ def test_requested_output_lane_widening_blocked(monkeypatch: pytest.MonkeyPatch,
             "--repo-root",
             str(tmp_path),
             "--capabilities",
-            str(REPO_ROOT / "config" / "mcp-capabilities.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-capabilities.yaml"),
             "--bindings",
-            str(REPO_ROOT / "config" / "mcp-authority-bindings.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-authority-bindings.yaml"),
             "--policy",
-            str(REPO_ROOT / "config" / "mcp-risk-policy.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-risk-policy.yaml"),
         ],
     )
     code = mma.main()
@@ -216,7 +216,7 @@ def test_github_readonly_example_packet_success(monkeypatch: pytest.MonkeyPatch,
         (REPO_ROOT / "examples" / "mcp-server-manifest.example.yaml").read_text(encoding="utf-8"),
         encoding="utf-8",
     )
-    out = tmp_path / "artifacts" / "mcp-admission" / "from-example.md"
+    out = tmp_path / "runtime/artifacts" / "mcp-admission" / "from-example.md"
 
     monkeypatch.setattr(
         sys,
@@ -230,11 +230,11 @@ def test_github_readonly_example_packet_success(monkeypatch: pytest.MonkeyPatch,
             "--repo-root",
             str(tmp_path),
             "--capabilities",
-            str(REPO_ROOT / "config" / "mcp-capabilities.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-capabilities.yaml"),
             "--bindings",
-            str(REPO_ROOT / "config" / "mcp-authority-bindings.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-authority-bindings.yaml"),
             "--policy",
-            str(REPO_ROOT / "config" / "mcp-risk-policy.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-risk-policy.yaml"),
         ],
     )
 
@@ -253,7 +253,7 @@ def test_example_yaml_optional_cli_smoke() -> None:
     """Runs admission against repo example manifest into repo artifacts bucket."""
     import subprocess
 
-    out_md = REPO_ROOT / "artifacts" / "mcp-admission" / "_pytest_smoke.md"
+    out_md = REPO_ROOT / "runtime/artifacts" / "mcp-admission" / "_pytest_smoke.md"
     proc = subprocess.run(
         [
             sys.executable,

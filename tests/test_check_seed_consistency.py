@@ -9,7 +9,7 @@ from tests.conftest import REPO_ROOT, copy_fixture, repo_python, run_cmd
 
 def test_check_consistency_passes_for_demo_copy(tmp_path) -> None:
     target = tmp_path / "seed-phase"
-    shutil.copytree(REPO_ROOT / "users" / "demo" / "seed-phase", target)
+    shutil.copytree(REPO_ROOT / "platform/users" / "demo" / "seed-phase", target)
     result = run_cmd(
         [repo_python(), "scripts/check-seed-consistency.py", str(target)],
         cwd=REPO_ROOT,

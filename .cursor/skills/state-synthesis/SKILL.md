@@ -10,7 +10,7 @@ tags:
 - synthesis
 - daily
 - monthly
-portable_source: skills-portable/state-synthesis/SKILL.md
+portable_source: skills/state-synthesis/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # State synthesis

@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Create a pre-gate candidate draft from docs/templates/candidate-draft-template.md.
@@ -33,8 +34,8 @@ def main() -> int:
     ap.add_argument(
         "--output",
         type=Path,
-        default=REPO_ROOT / "artifacts" / "candidate-drafts",
-        help="Output directory (default: artifacts/candidate-drafts/)",
+        default=ARTIFACTS_DIR / "candidate-drafts",
+        help="Output directory (default: runtime/artifacts/candidate-drafts/)",
     )
     ap.add_argument("--date", default=None, help="YYYY-MM-DD (default: today)")
     ap.add_argument("--repo-root", type=Path, default=None)

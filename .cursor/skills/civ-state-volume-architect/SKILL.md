@@ -133,11 +133,11 @@ Workshop-only support notes (not exported):
 When reader volume law changes or a public release is tagged, run this pass — do **not** use `--validate` on the export script (that flag does not exist).
 
 1. **Workshop links** — shelf-readers and `secondary-sources` route upward to `introduction.md`, `civilization-*.md`, or `empire-*.md`; never `statecraft-*.md` on reader paths.
-2. **Export** — `python3 scripts/export_civilizational_statecraft_public.py` (optional `--output artifacts/civilizational-statecraft-public`).
-3. **Validate** — `python3 scripts/validate_civilizational_statecraft_public.py artifacts/civilizational-statecraft-public`.
+2. **Export** — `python3 scripts/export_civilizational_statecraft_public.py` (optional `--output runtime/artifacts/civilizational-statecraft-public`).
+3. **Validate** — `python3 scripts/validate_civilizational_statecraft_public.py runtime/artifacts/civilizational-statecraft-public`.
 4. **Confirm** — no `volumes/*/statecraft-*.md` in staging; each volume has `introduction.md`; tree hash recorded in `EXPORT-RECEIPT.md`.
 
-Manifest SSOT: [`config/civilizational_statecraft_public_export.yaml`](../../../config/civilizational_statecraft_public_export.yaml) — `volume_essay_globs` gates what ships; export script excludes workshop-only files and prunes legacy volume artifacts after write.
+Manifest SSOT: [`platform/config/civilizational_statecraft_public_export.yaml`](../../../platform/config/civilizational_statecraft_public_export.yaml) — `volume_essay_globs` gates what ships; export script excludes workshop-only files and prunes legacy volume artifacts after write.
 
 Boundary: [`docs/civilizational-statecraft-external-boundary.md`](../../../docs/civilizational-statecraft-external-boundary.md).
 
@@ -185,6 +185,6 @@ This skill succeeds when a CIV-STATE volume reads like a stable constitutional b
 
 ```powershell
 python3 scripts/export_civilizational_statecraft_public.py --dry-run
-python3 scripts/validate_civilizational_statecraft_public.py artifacts/civilizational-statecraft-public
+python3 scripts/validate_civilizational_statecraft_public.py runtime/artifacts/civilizational-statecraft-public
 python scripts/validate_skills.py
 ```

@@ -21,7 +21,7 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
-SRC = REPO_ROOT / "src"
+SRC = REPO_ROOT / "platform/src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
@@ -50,6 +50,6 @@ def tmp_seed_dir(tmp_path: Path) -> Path:
 def copy_fixture(name: str, target: Path) -> Path:
     src = FIXTURES_DIR / name
     if not src.is_dir():
-        raise FileNotFoundError(src)
+        raise FileNotFoundError(platform/src)
     shutil.copytree(src, target, dirs_exist_ok=True)
     return target

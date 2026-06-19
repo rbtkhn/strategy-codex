@@ -6,7 +6,7 @@
   "target": {
     "task": "examples/work-strategy/carry-harness/sample-task.md",
     "sources": [],
-    "artifacts": [
+    "runtime/artifacts": [
       "examples/work-strategy/carry-harness/sample-artifact.md"
     ],
     "gate_snippet": null,

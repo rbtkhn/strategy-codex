@@ -26,7 +26,7 @@ from export_capability import (  # noqa: E402
 def test_export_returns_required_keys():
     result = export_capability(user_id="grace-mar")
     for key in ("version", "format", "generated_at", "user_id",
-                "identity_context", "skills", "evidence", "rationales", "counts"):
+                "identity_context", "skills", "archive/placeholders/evidence", "rationales", "counts"):
         assert key in result, f"missing top-level key {key!r}"
     assert result["format"] == "grace-mar-capability-export"
     assert result["user_id"] == "grace-mar"
@@ -35,7 +35,7 @@ def test_export_returns_required_keys():
 def test_counts_are_consistent():
     result = export_capability(user_id="grace-mar")
     counts = result["counts"]
-    evidence = result["evidence"]
+    evidence = result["archive/placeholders/evidence"]
     total = sum(len(v) for v in evidence.values())
     assert counts["evidence_total"] == total
     assert counts["rationale_total"] == len(result["rationales"])
@@ -61,7 +61,7 @@ def test_identity_context_no_full_self():
 
 def test_evidence_has_production_categories():
     result = export_capability(user_id="grace-mar")
-    ev = result["evidence"]
+    ev = result["archive/placeholders/evidence"]
     assert "write" in ev
     assert "create" in ev
     assert "act" in ev
@@ -69,7 +69,7 @@ def test_evidence_has_production_categories():
 
 def test_evidence_excludes_read_and_media():
     result = export_capability(user_id="grace-mar")
-    ev = result["evidence"]
+    ev = result["archive/placeholders/evidence"]
     assert "read" not in ev
     assert "media" not in ev
 
@@ -77,7 +77,7 @@ def test_evidence_excludes_read_and_media():
 def test_evidence_entries_have_ids():
     result = export_capability(user_id="grace-mar")
     for category in ("write", "create", "act"):
-        for entry in result["evidence"][category]:
+        for entry in result["archive/placeholders/evidence"][category]:
             assert "id" in entry
             assert entry["id"].startswith(category.upper() + "-")
 

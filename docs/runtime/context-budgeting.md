@@ -5,7 +5,7 @@
 ## Doctrine
 
 - **Legibility, not judgment:** Budget caps are **operator-efficiency** and **repeatability** tools. They do **not** decide what is true, what may enter the Record, or what passes abstention checks.
-- **Lane-aware defaults:** Default character targets per lane and mode live in [`config/context_budgets/lane-defaults.json`](../../config/context_budgets/lane-defaults.json). Tune numbers as needed; the important part is **reproducible** behavior for the same lane + mode.
+- **Lane-aware defaults:** Default character targets per lane and mode live in [`platform/config/context_budgets/lane-defaults.json`](../../platform/config/context_budgets/lane-defaults.json). Tune numbers as needed; the important part is **reproducible** behavior for the same lane + mode.
 - **Compact default:** **Compact** mode is appropriate for routine work, quick review, and short sessions. **Deep** mode is **explicit** — use for long analysis, difficult contradictions, or handoff preparation — not as a silent default.
 - **Visible exclusion:** When items are dropped for budget pressure, the output lists them under **Excluded** so operators can rerun in **medium** or **deep** or narrow inputs.
 - **Governance unchanged:** Budgeting does **not** bypass [abstention policy](../abstention-policy.md), [memory retrieval](memory-retrieval.md) doctrine, or **RECURSION-GATE** review.
@@ -22,16 +22,16 @@ python3 scripts/prepared_context/build_budgeted_context.py \
   --mode compact \
   --policy-mode operator_only \
   --query "iran negotiation framing" \
-  -o prepared-context/budgeted-work-strategy.md
+  -o runtime/prepared-context/budgeted-work-strategy.md
 ```
 
 Optional file inputs (ranked with observations):
 
-- `--include-memory-brief prepared-context/memory-brief.md`
-- `--include-checkpoint artifacts/handoffs/checkpoints/YYYY-MM-DD-lane-title.md`
+- `--include-memory-brief runtime/prepared-context/memory-brief.md`
+- `--include-checkpoint runtime/artifacts/handoffs/checkpoints/YYYY-MM-DD-lane-title.md`
 - `--include-handoff` for handoff packets
 
-Each successful run updates `prepared-context/last-budget-builds.json` (per-lane receipt for dashboards).
+Each successful run updates `runtime/prepared-context/last-budget-builds.json` (per-lane receipt for dashboards).
 
 ## Workflow depth (adaptive halting)
 
@@ -49,7 +49,7 @@ Optional **`--workflow-depth`** (alias **`--depth`**) on [`build_budgeted_contex
 
 **Requires** `--task-anchor` (operator problem statement). **`--mode` is ignored** when `--workflow-depth` or `--depth` is set.
 
-**Work-strategy calibration:** Heuristics for `auto` are tuned first against [`lane-defaults.json`](../../config/context_budgets/lane-defaults.json) **work-strategy** budgets.
+**Work-strategy calibration:** Heuristics for `auto` are tuned first against [`lane-defaults.json`](../../platform/config/context_budgets/lane-defaults.json) **work-strategy** budgets.
 
 Example (work-strategy, auto depth):
 
@@ -62,7 +62,7 @@ python3 scripts/prepared_context/build_budgeted_context.py \
   -o /tmp/demo-budgeted.md
 ```
 
-Receipt schema: [`schema-registry/workflow-depth-receipt.v1.json`](../../schema-registry/workflow-depth-receipt.v1.json).
+Receipt schema: [`schemas/registry/workflow-depth-receipt.v1.json`](../../schemas/registry/workflow-depth-receipt.v1.json).
 
 ## Modes
 
@@ -78,7 +78,7 @@ Skills and rules loaded into the session are **context budget units**, not free 
 
 - **Always-on** surfaces (Layer 1–2: `AGENTS.md`, instance doctrine, `.cursor/rules/*.mdc`) cost more than **invocation-bound** skills (`.cursor/skills/*` only when triggered). See [layer-architecture.md](../layer-architecture.md).
 - **Prefer one mode + one lane** per heavy turn — stacking multiple skill overlays degrades reasoning quality.
-- **Procedure vs ability** taxonomy: [skills-portable/README.md](../../skills-portable/README.md). Derived skill cards: [skill-card-spec.md](../skills/skill-card-spec.md). Topology hub: [harness-architecture-map.md](../harness-architecture-map.md).
+- **Procedure vs ability** taxonomy: [skills/README.md](../../skills/README.md). Derived skill cards: [skill-card-spec.md](../skills/skill-card-spec.md). Topology hub: [harness-architecture-map.md](../harness-architecture-map.md).
 
 Budget caps size material; they do **not** decide truth or gate authority.
 
@@ -89,5 +89,5 @@ Budget caps size material; they do **not** decide truth or gate authority.
 - Memory brief: [read-hints.md](read-hints.md), `scripts/runtime/memory_brief.py` (optional `--budgeted-follow-on`)
 - Review orchestrator: [../orchestration/review-orchestrator.md](../orchestration/review-orchestrator.md) (`--context-mode`)
 - Long-horizon checkpoints: [long-horizon-work.md](long-horizon-work.md)
-- Config folder overview: [`config/context_budgets/README.md`](../../config/context_budgets/README.md)
-- Policy modes: [policy-modes.md](../policy-modes.md), [`config/policy_modes/defaults.json`](../../config/policy_modes/defaults.json)
+- Config folder overview: [`platform/config/context_budgets/README.md`](../../platform/config/context_budgets/README.md)
+- Policy modes: [policy-modes.md](../policy-modes.md), [`platform/config/policy_modes/defaults.json`](../../platform/config/policy_modes/defaults.json)

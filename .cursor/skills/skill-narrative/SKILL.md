@@ -9,7 +9,7 @@ tags:
 - work-strategy
 - narrative
 - feedback
-portable_source: skills-portable/skill-narrative/SKILL.md
+portable_source: skills/skill-narrative/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Skill-Narrative (Convergence Ledger v2)
@@ -125,7 +125,7 @@ Grace-mar paths and runbook links for this repository (from `.cursor/skills/skil
 | Ops protocol | [docs/skill-work/work-strategy/narrative-feedback-loop-ops.md](../../../docs/skill-work/work-strategy/narrative-feedback-loop-ops.md) |
 | Daily briefs directory | [docs/skill-work/work-strategy/](../../../docs/skill-work/work-strategy/) |
 | Work-domain histories | [work-strategy-history](../../../docs/skill-work/work-strategy/work-strategy-history.md), [work-politics-history](../../../docs/skill-work/work-politics/work-politics-history.md), [work-dev-history](../../../docs/skill-work/work-dev/work-dev-history.md) |
-| Portable manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Portable manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Sync implementation | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 
 **Run reminder:** keep ledger entries sparse (1-3 high-value items per run) and enforce `review_by` on all `defer` decisions.

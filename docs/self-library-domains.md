@@ -14,7 +14,7 @@
 - **authority** — canonical, advisory, experimental, or deprecated
 - **mutation_policy** — retrieval only, stage-only, or eligible for gated merge
 
-Add a new auto-routed domain → add JSON entry + routing doc + `docs/cmc-routing.md` or `bot/core.py` changes as appropriate; extend `scripts/validate_library_domain_registry.py` **required domain ids** if the code gains new routable domains.
+Add a new auto-routed domain → add JSON entry + routing doc + `docs/cmc-routing.md` or `archive/grace-mar-instance/bot/core.py` changes as appropriate; extend `scripts/validate_library_domain_registry.py` **required domain ids** if the code gains new routable domains.
 
 ---
 

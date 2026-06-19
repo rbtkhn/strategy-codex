@@ -22,11 +22,12 @@ from typing import Any
 _RUNTIME_DIR = Path(__file__).resolve().parent
 if str(_RUNTIME_DIR) not in sys.path:
     sys.path.insert(0, str(_RUNTIME_DIR))
+from repo_io import ARTIFACTS_DIR
 
 import ledger_paths  # noqa: E402
 
 REPO_ROOT = ledger_paths.REPO_ROOT
-ARTIFACTS_DIR = REPO_ROOT / "artifacts"
+ARTIFACTS_DIR = ARTIFACTS_DIR
 NOTEBOOK_CHAPTERS = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "strategy-notebook" / "chapters"
 
 SURFACE_ROOTS: dict[str, Path] = {

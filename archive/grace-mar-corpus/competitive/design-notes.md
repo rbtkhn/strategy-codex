@@ -397,7 +397,7 @@ Merge not replace; thin pipe (language); avatar as extended memory; liberation �
 | [IDENTITY-FORK-PROTOCOL](identity-fork-protocol.md) | Process over prompt (§2.1); review checklist (§4.2) |
 | [CONCEPTUAL-FRAMEWORK](conceptual-framework.md) | Kurzweil invariants; thin pipe; avatar memory |
 | [PARENT-BRIEF](parent-brief.md) | Co-learner; research-informed role |
-| `bot/prompt.py` | Analyst facts-first; REPHRASE triangulation; SYSTEM reflection / pre-lookup / question reinforcement |
+| `archive/grace-mar-instance/bot/prompt.py` | Analyst facts-first; REPHRASE triangulation; SYSTEM reflection / pre-lookup / question reinforcement |
 
 ### 11.6 Landscape: Capital Allocation & Agent Scale (Wissner-Gross–style)
 

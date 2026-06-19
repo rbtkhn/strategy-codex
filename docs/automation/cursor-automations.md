@@ -23,8 +23,8 @@ Define how [Cursor Automations](https://cursor.com/docs/cloud-agent/automations)
 
 ## What Cursor Automations may not do
 
-- **Direct edits** to Record, **EVIDENCE**, `recursion-gate.md` (as gate content), `session-log.md`, or `bot/prompt.py` â€” same prohibition as in [cursor-safe-automation-contract.md](cursor-safe-automation-contract.md).
-- **Unattended** `process_approved_candidates.py --apply`, or any merge into profile/Record.
+- **Direct edits** to Record, **EVIDENCE**, `recursion-gate.md` (as gate content), `session-log.md`, or `archive/grace-mar-instance/bot/prompt.py` â€” same prohibition as in [cursor-safe-automation-contract.md](cursor-safe-automation-contract.md).
+- **Unattended** `process_approved_candidates.py --apply`, or any merge into platform/profile/Record.
 - **Approve, reject,** or **re-stage** `CANDIDATE-*` lines from **untrusted** text (e.g. PR body only).
 - **Substitute** for **coffee**, **dream**, **bridge**, **Steward**, or **companion** gate approval.
 - **Redefine** CI: deterministic pass/fail remains **Actions**; Automations are not a second test runner.

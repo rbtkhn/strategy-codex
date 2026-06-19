@@ -95,7 +95,7 @@ SOURCE_SUPPORT_BLOCK_FILES = [
     REPO_ROOT / "statecraft" / "states" / "volumes" / "civ-state-america" / "statecraft-america.md",
     REPO_ROOT / "statecraft" / "states" / "volumes" / "civ-state-rome" / "statecraft-rome.md",
     REPO_ROOT / "statecraft" / "states" / "persia" / "hormuz-recognition-transit-restraint.md",
-    REPO_ROOT / "statecraft" / "bridges" / "marandi-civ-state-retrieval-adapter.md",
+    REPO_ROOT / "statecraft" / "research/bridges" / "marandi-civ-state-retrieval-adapter.md",
 ]
 
 SOURCE_SUPPORT_FIELDS = [
@@ -331,7 +331,7 @@ def validate() -> list[dict[str, str]]:
 
     wedge_template = INDEX_FILES["paired-reading-wedge-template"]
     if wedge_template.exists():
-        wedge_template_text = read_text(wedge_template)
+        wedge_template_text = read_text(wedgeplatform/template)
         for heading in REQUIRED_WEDGE_HEADINGS:
             if heading not in wedge_template_text:
                 issues.append({"path": str(wedge_template.relative_to(REPO_ROOT)), "level": "error", "message": f"Wedge template missing heading: {heading}"})

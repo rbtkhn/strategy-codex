@@ -283,7 +283,7 @@ Purpose: Define a series of analytical tests that **probe different behavior** b
 **Expected differentiation:**
 
 - **Germania:** Should reference **anomaly protocol** (Section II.C), **NCZ-GER-001**, or **RLL–0004**. Handling = flag as anomaly, conflict with pattern, resolution options (PATTERN_REVISED, MEM_CONFIRMED, SCL_CREATED). Not “we add this as new belief.”
-- **Francia:** Should reference **NCZ-001** as CONTESTED and resolution by **ingestion** (more evidence). May say “this would address the gap” or “would need to be synthesized with existing beliefs.” No anomaly flag protocol; no “this contradicts a bound constraint.”
+- **Francia:** Should reference **NCZ-001** as CONTESTED and resolution by **ingestion** (more archive/placeholders/evidence). May say “this would address the gap” or “would need to be synthesized with existing beliefs.” No anomaly flag protocol; no “this contradicts a bound constraint.”
 
 **Pass criteria:**
 

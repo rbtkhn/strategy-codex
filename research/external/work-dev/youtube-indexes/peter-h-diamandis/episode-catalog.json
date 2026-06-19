@@ -13,7 +13,7 @@
       "upload_date": "",
       "duration_seconds": "7798.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -23,7 +23,7 @@
       "upload_date": "",
       "duration_seconds": "2630.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -33,7 +33,7 @@
       "upload_date": "",
       "duration_seconds": "8223.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -43,7 +43,7 @@
       "upload_date": "",
       "duration_seconds": "1445.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -53,7 +53,7 @@
       "upload_date": "",
       "duration_seconds": "60.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -63,7 +63,7 @@
       "upload_date": "",
       "duration_seconds": "5367.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -73,7 +73,7 @@
       "upload_date": "",
       "duration_seconds": "6076.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -83,7 +83,7 @@
       "upload_date": "",
       "duration_seconds": "8186.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -93,7 +93,7 @@
       "upload_date": "",
       "duration_seconds": "7743.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -103,7 +103,7 @@
       "upload_date": "",
       "duration_seconds": "5685.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -113,7 +113,7 @@
       "upload_date": "",
       "duration_seconds": "6691.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -123,7 +123,7 @@
       "upload_date": "",
       "duration_seconds": "7805.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -133,7 +133,7 @@
       "upload_date": "",
       "duration_seconds": "6228.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -143,7 +143,7 @@
       "upload_date": "",
       "duration_seconds": "7253.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -153,7 +153,7 @@
       "upload_date": "",
       "duration_seconds": "8010.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -163,7 +163,7 @@
       "upload_date": "",
       "duration_seconds": "7074.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -173,7 +173,7 @@
       "upload_date": "",
       "duration_seconds": "6037.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -183,7 +183,7 @@
       "upload_date": "",
       "duration_seconds": "6583.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -193,7 +193,7 @@
       "upload_date": "",
       "duration_seconds": "5971.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -203,7 +203,7 @@
       "upload_date": "",
       "duration_seconds": "6477.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -213,7 +213,7 @@
       "upload_date": "",
       "duration_seconds": "7259.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -223,7 +223,7 @@
       "upload_date": "",
       "duration_seconds": "10330.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -233,7 +233,7 @@
       "upload_date": "",
       "duration_seconds": "1925.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -243,7 +243,7 @@
       "upload_date": "",
       "duration_seconds": "4853.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -253,7 +253,7 @@
       "upload_date": "",
       "duration_seconds": "4151.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -263,7 +263,7 @@
       "upload_date": "",
       "duration_seconds": "5099.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -273,7 +273,7 @@
       "upload_date": "",
       "duration_seconds": "7327.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -283,7 +283,7 @@
       "upload_date": "",
       "duration_seconds": "7184.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -293,7 +293,7 @@
       "upload_date": "",
       "duration_seconds": "1866.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     },
     {
@@ -303,7 +303,7 @@
       "upload_date": "",
       "duration_seconds": "7367.0",
       "ingested": false,
-      "ingestion_artifacts": [],
+      "ingestion_runtime/artifacts": [],
       "ingested_at_utc": null
     }
   ]

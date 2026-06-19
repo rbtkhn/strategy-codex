@@ -25,7 +25,7 @@ Classifies every object that crosses the bridge by the reliability of its conten
 | **Export to OB1** | Eligible by default. These are the highest-value chunks for OB1 retrieval. |
 | **Import from OB1** | If OB1 holds Tier A content that originated from companion-self, it is likely a re-import. Dedup by fingerprint. If OB1 holds original Tier A content (e.g. companion typed directly into an OB1 client), treat as a new evidence candidate — stage to gate. |
 | **Auto-reject** | Never. Tier A content always receives human review. |
-| **Target surfaces** | `IX-A`, `IX-B`, `IX-C`, `evidence`. All Record surfaces are eligible. |
+| **Target surfaces** | `IX-A`, `IX-B`, `IX-C`, `archive/placeholders/evidence`. All Record surfaces are eligible. |
 | **Review priority** | High. Tier A proposals should surface at the top of review queues. |
 
 ### Tier B — Structured summary
@@ -83,7 +83,7 @@ OB1 thought
 Is the content directly attributable
 to a companion action or statement?
     │
-    ├─ Yes ──> Tier A (raw evidence)
+    ├─ Yes ──> Tier A (raw archive/placeholders/evidence)
     │
     ▼
 Is the content derived from identifiable
@@ -118,7 +118,7 @@ Trust tiers are a **bridge-specific** classification. They do not replace or mod
 
 | Bridge concept | Pipeline equivalent |
 |----------------|-------------------|
-| Tier A proposal | High-confidence candidate (knowledge, personality, evidence) |
+| Tier A proposal | High-confidence candidate (knowledge, personality, archive/placeholders/evidence) |
 | Tier B proposal | Candidate that may need additional evidence before merge |
 | Tier C proposal (staged) | Low-confidence candidate; reviewer may reject or defer |
 | Auto-rejected Tier C | Never becomes a candidate; filtered before gate |

@@ -1,9 +1,10 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Build a conservative WORK-layer memory observability dashboard.
 
 This script reads existing cadence and handoff continuity surfaces and writes
-derived reports under artifacts/memory/. It does not edit self-memory, Record,
+derived reports under runtime/artifacts/memory/. It does not edit self-memory, Record,
 gate, coffee, dream, or runtime behavior.
 
 V1 thresholds:
@@ -24,8 +25,8 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER = "grace-mar"
-DEFAULT_MD = REPO_ROOT / "artifacts" / "memory" / "memory-observability.md"
-DEFAULT_JSON = REPO_ROOT / "artifacts" / "memory" / "memory-observability.json"
+DEFAULT_MD = ARTIFACTS_DIR / "memory" / "memory-observability.md"
+DEFAULT_JSON = ARTIFACTS_DIR / "memory" / "memory-observability.json"
 
 try:
     from repo_io import profile_dir
@@ -144,7 +145,7 @@ def build_report(user_id: str = DEFAULT_USER, *, now: datetime | None = None) ->
     dream_age = _age_hours(last_dream_dt, now)
     dream_status = "missing" if dream_err else _classify_age(dream_age, ok_h=36, watch_h=96)
 
-    handoff_dir = user_root / "daily-handoff"
+    handoff_dir = user_root / "runtime/daily-handoff"
     night_path = handoff_dir / "night-handoff.json"
     night_handoff, night_err = _read_json(night_path)
     night_dt = None

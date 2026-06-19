@@ -4,8 +4,8 @@
 
 ## Artifact
 
-- **Generated:** `artifacts/skill-think/think-observability.json` via [build_think_observability.py](../../scripts/build_think_observability.py).
-- **Source:** [think-claims.json](../../artifacts/skill-think/think-claims.json).
+- **Generated:** `runtime/artifacts/skill-think/think-observability.json` via [build_think_observability.py](../../scripts/build_think_observability.py).
+- **Source:** [think-claims.json](../../runtime/artifacts/skill-think/think-claims.json).
 
 ## Relationship to other observability
 

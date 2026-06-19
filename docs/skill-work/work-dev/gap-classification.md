@@ -1,6 +1,6 @@
 # work-dev — gap classification
 
-**Purpose:** Shared vocabulary for [known-gaps.md](known-gaps.md) and `artifacts/work-dev/known-gaps.json`.
+**Purpose:** Shared vocabulary for [known-gaps.md](known-gaps.md) and `runtime/artifacts/work-dev/known-gaps.json`.
 
 ## Severity (operator)
 

@@ -2,7 +2,7 @@
 
 The embedded **Grace-Mar** cognitive fork in this repo is **operator-archived**. Growing a personal cognitive fork is **not** an objective of `strategy-codex`.
 
-**SSOT config:** [`config/strategy_codex.yaml`](../config/strategy_codex.yaml) (`record_frozen: true`)
+**SSOT config:** [`platform/config/strategy_codex.yaml`](../platform/config/strategy_codex.yaml) (`record_frozen: true`)
 
 **Product identity:** [`product-identity.md`](product-identity.md) · [`start-here.md`](start-here.md)
 
@@ -28,7 +28,7 @@ Durable work normally ends at **governed adjacent** surfaces. See [`work-membran
 | Surface | Status |
 |---------|--------|
 | `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `self-skills.md` | **Frozen** — operator backup; no default growth |
-| `bot/`, Telegram/WeChat, `apps/miniapp_server.py` | **Deprecated** — legacy only |
+| `archive/grace-mar-instance/bot/`, Telegram/WeChat, `platform/apps/miniapp_server.py` | **Deprecated** — legacy only |
 | `self-library.md`, CIV-MEM routing | **Active reference** — statecraft retrieval; not IX-A identity growth |
 | `self-memory.md` | **Active WORK continuity** — not Record; dream may normalize |
 
@@ -89,7 +89,7 @@ python3 scripts/audit_fork_language.py
 python3 scripts/audit_fork_language.py --strict   # fail on warns too (CI optional)
 ```
 
-Rules: [`config/fork-language-audit.v1.json`](../config/fork-language-audit.v1.json). Tune `skip_paths_exact` for intentional historical corpora.
+Rules: [`platform/config/fork-language-audit.v1.json`](../platform/config/fork-language-audit.v1.json). Tune `skip_paths_exact` for intentional historical corpora.
 
 ---
 
@@ -97,7 +97,7 @@ Rules: [`config/fork-language-audit.v1.json`](../config/fork-language-audit.v1.j
 
 After doctrine changes land here, run portable skill sync if you use Codex host copies:
 
-`python3 scripts/sync_portable_skills.py` (see [`skills-portable/README.md`](../skills-portable/README.md)).
+`python3 scripts/sync_portable_skills.py` (see [`skills/README.md`](../skills/README.md)).
 
 ---
 

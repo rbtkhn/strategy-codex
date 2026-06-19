@@ -47,7 +47,7 @@ The clinic may not:
 
 Reports should be written under:
 
-`artifacts/skill-evals/`
+`runtime/artifacts/skill-evals/`
 
 These reports are **derived artifacts**. They are not canonical Record updates.
 
@@ -58,8 +58,8 @@ Run from the repository root (paths are resolved relative to the current working
 ```bash
 python3 scripts/runtime/skill_eval_clinic.py \
   --skill docs/skill-work/work-strategy/STRATEGY.md \
-  --out artifacts/skill-evals/strategy-skill-eval.json \
-  --markdown artifacts/skill-evals/strategy-skill-eval.md
+  --out runtime/artifacts/skill-evals/strategy-skill-eval.json \
+  --markdown runtime/artifacts/skill-evals/strategy-skill-eval.md
 ```
 
 ## Design principle

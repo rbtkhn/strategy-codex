@@ -1,6 +1,6 @@
 # Cadence pressure signals
 
-**Machine artifact:** `artifacts/work-cadence/cadence-pressure-report.json` (via `audit_cadence_rhythm.py --pressure-report`).
+**Machine artifact:** `runtime/artifacts/work-cadence/cadence-pressure-report.json` (via `audit_cadence_rhythm.py --pressure-report`).
 
 ## Signals (v1)
 

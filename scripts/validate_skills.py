@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Validate skill metadata across .cursor/skills/ and skills-portable/.
+Validate skill metadata across .cursor/skills/ and skills/.
 
 Template-portable (companion-self + grace-mar). Read-only unless --fix is used.
 
@@ -25,8 +25,8 @@ REQUIRED_FRONTMATTER = {"name", "description"}
 PORTABLE_REQUIRED = {"portable", "version"}
 
 CURSOR_SKILLS_DIR = ".cursor/skills"
-PORTABLE_SKILLS_DIR = "skills-portable"
-MANIFEST_FILE = "skills-portable/manifest.yaml"
+PORTABLE_SKILLS_DIR = "skills"
+MANIFEST_FILE = "skills/manifest.yaml"
 
 
 def _parse_frontmatter(path: Path) -> dict[str, Any] | None:
@@ -87,7 +87,7 @@ def _cursor_skill_dirs() -> list[Path]:
 
 
 def _portable_skill_dirs() -> list[Path]:
-    """List all skill directories under skills-portable/ (excluding _ prefixed)."""
+    """List all skill directories under skills/ (excluding _ prefixed)."""
     base = REPO_ROOT / PORTABLE_SKILLS_DIR
     if not base.exists():
         return []
@@ -153,7 +153,7 @@ def validate(*, verbose: bool = False) -> list[dict[str, str]]:
                 errors.append({"path": rel, "level": "error", "message": f"Missing required portable field: {field}"})
 
         if fm.get("portable") is not True:
-            errors.append({"path": rel, "level": "error", "message": "portable: must be true for skills in skills-portable/"})
+            errors.append({"path": rel, "level": "error", "message": "portable: must be true for skills in skills/"})
 
         if skill_dir.name not in manifest_names:
             errors.append({"path": rel, "level": "warn", "message": f"'{skill_dir.name}' not listed in {MANIFEST_FILE}"})

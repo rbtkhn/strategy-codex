@@ -8,7 +8,7 @@
 
 **Compatibility only:** **`strategy-expert-*-mind.md`** / **`CIV-MIND-*.md`** — extended quote bank + frozen role/contrast until rows migrate into profiles. **Do not** add new structured register tables here.
 
-| Lens | Role | Voice profile (SSOT) | Mind file (redirect → profile) |
+| Lens | Role | Voice profile (SSOT) | Mind file (redirect → platform/profile) |
 |------|------|----------------------|--------------------------------|
 | Mercouris | Legitimacy, narrative, doctrine, symbolic continuity | [mercouris-profile.md](../../../statecraft/voices/mercouris/mercouris-profile.md) § detailed (Tier A) | [`strategy-expert-mercouris-mind.md`](../../../codex/strategy-expert-mercouris-mind.md) |
 | Mearsheimer | Power, alliances, security dilemmas, great-power geometry | [mearsheimer-profile.md](../../../statecraft/voices/mearsheimer/mearsheimer-profile.md) § detailed (Tier A) | [`strategy-expert-mearsheimer-mind.md`](../../../codex/strategy-expert-mearsheimer-mind.md) |

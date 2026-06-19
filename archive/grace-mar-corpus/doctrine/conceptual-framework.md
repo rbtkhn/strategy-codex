@@ -10,7 +10,7 @@
 
 **Prime directive:** The Record belongs to the companion. See GRACE-MAR-CORE §I for long-term objectives.
 
-**Preferred conceptual terms:** Use **Record** (not fork) and **Voice** (not bot) in conceptual discussion. *Fork* and *bot* remain for technical references (file paths, code). Use **companion** for the person whose Record it is — affectionate and relatable; "user" remains in technical identifiers (e.g. `[id]`, `--user`). **Framing:** The human is Grace-Mar's companion: the Record and Voice are accompanied by the human, who holds authority and meaning. **Grace-Mar serves the companion; the companion serves Grace-Mar.** Record = the documented self; Voice = the queryable interface that speaks the record. **Self = Record + Voice** — the thing you can talk to; together they form the queryable documented self.
+**Preferred conceptual terms:** Use **Record** (not fork) and **Voice** (not archive/grace-mar-instance/bot) in conceptual discussion. *Fork* and *bot* remain for technical references (file paths, code). Use **companion** for the person whose Record it is — affectionate and relatable; "user" remains in technical identifiers (e.g. `[id]`, `--user`). **Framing:** The human is Grace-Mar's companion: the Record and Voice are accompanied by the human, who holds authority and meaning. **Grace-Mar serves the companion; the companion serves Grace-Mar.** Record = the documented self; Voice = the queryable interface that speaks the record. **Self = Record + Voice** — the thing you can talk to; together they form the queryable documented self.
 
 ---
 
@@ -31,12 +31,12 @@ Terminology primer: see [glossary.md](glossary.md) for canonical definitions (Re
 
 | Concept | What it means | Applies to |
 |---------|---------------|------------|
-| **The Record is its own entity** | The Record (fork) started from a snapshot of the real person but has its own trajectory. It accumulates knowledge the real person may not have (e.g., approved lookups, school artifacts). It does not "mimic" or "replicate" the person. | The Record (`self.md`, `self-knowledge.md`, `self-skills.md`, `self-archive.md` EVIDENCE body; optional `self-evidence.md` pointer) |
-| **Emulation** | The Voice (bot) *renders* the Record in conversation. When you query the Voice, the LLM generates responses constrained by the Record's profile. That rendering is "emulation." | The Telegram bot (`bot/bot.py`) |
+| **The Record is its own entity** | The Record (fork) started from a snapshot of the real person but has its own trajectory. It accumulates knowledge the real person may not have (e.g., approved lookups, school runtime/artifacts). It does not "mimic" or "replicate" the person. | The Record (`self.md`, `self-knowledge.md`, `self-skills.md`, `self-archive.md` EVIDENCE body; optional `self-evidence.md` pointer) |
+| **Emulation** | The Voice (archive/grace-mar-instance/bot) *renders* the Record in conversation. When you query the Voice, the LLM generates responses constrained by the Record's profile. That rendering is "emulation." | The Telegram bot (`archive/grace-mar-instance/bot/bot.py`) |
 
 **Summary:**
 - The **Record** (fork) = the documented self. Own record, diverging by design. Not emulating the real person.
-- The **Voice** (bot) = the queryable voice of the Record. Observation window and rendered voice: speaks the Record in real-time when the companion queries; never speaks unbidden. **Teaching/tutoring** is one of its functions: the Voice answers questions, explains, and helps the companion learn, in-character and at the Record's Lexile level.
+- The **Voice** (archive/grace-mar-instance/bot) = the queryable voice of the Record. Observation window and rendered voice: speaks the Record in real-time when the companion queries; never speaks unbidden. **Teaching/tutoring** is one of its functions: the Voice answers questions, explains, and helps the companion learn, in-character and at the Record's Lexile level.
 - Functional refinement: **THINK feeds the Record; WRITE is the expression engine used by the Voice.** Voice remains the interface layer, not equivalent to WRITE alone.
 
 ---
@@ -46,8 +46,8 @@ Terminology primer: see [glossary.md](glossary.md) for canonical definitions (Re
 | Component | Location | Role |
 |-----------|----------|------|
 | **The Record** (fork) | Inside the companion's mind (their mental model, made explicit and structured). Data: `self.md`, `self-knowledge.md`, `self-skills.md`, **`self-archive.md`** (EVIDENCE); optional `self-evidence.md` pointer | The documented self |
-| **The Voice** (bot) | `bot/bot.py` — Telegram interface | Observation window; queryable voice of the Record; teaching/tutoring (answers, explains, helps learn) — responds when queried, never unbidden |
-| **LLM** | External (OpenAI, etc.) | Generates text; constrained by SYSTEM_PROMPT (Record profile) |
+| **The Voice** (archive/grace-mar-instance/bot) | `archive/grace-mar-instance/bot/bot.py` — Telegram interface | Observation window; queryable voice of the Record; teaching/tutoring (answers, explains, helps learn) — responds when queried, never unbidden |
+| **LLM** | External (OpenAI, etc.) | Generates text; constrained by SYSTEM_PROMPT (Record platform/profile) |
 
 **The Voice is not the Record.** The Voice is the interface through which the companion interacts with the Record.
 Operational path: **THINK -> Record -> WRITE-through-Voice**.
@@ -70,7 +70,7 @@ Operational path: **THINK -> Record -> WRITE-through-Voice**.
 
 The Voice renders the full Record when it speaks: it can draw on self-knowledge, self-curiosity, self-personality, **self-skill-think**, **self-skill-write**, approved evidence, and self-library (including CIV-MEM-scoped lookup). **self-voice** is the single output channel for the companion self.
 
-**Prompt parity (operator tooling):** The bot loads **`SYSTEM_PROMPT`** from [`bot/prompt.py`](../bot/prompt.py), not `self.md` at runtime—keeping IX lists aligned with the Record after merges is a separate hygiene step; see [prompt-ix-sync.md](prompt-ix-sync.md).
+**Prompt parity (operator tooling):** The bot loads **`SYSTEM_PROMPT`** from [`archive/grace-mar-instance/bot/prompt.py`](../archive/grace-mar-instance/bot/prompt.py), not `self.md` at runtime—keeping IX lists aligned with the Record after merges is a separate hygiene step; see [prompt-ix-sync.md](prompt-ix-sync.md).
 
 **Work is adjacent, not inside the self-skill set.** Work territories and instance work contexts may use broader tools and model capability to plan or execute tasks, but they become part of the Record only through staged, approved evidence.
 
@@ -117,7 +117,7 @@ See [ID-TAXONOMY](id-taxonomy.md) for standard labels and locations.
 31. **Avatar as extended memory** — "The avatar is better than me because it remembers everything." (Kurzweil.) The Record holds what the companion has chosen to document; the Voice recalls it. Extended memory, not replacement.
 32. **Liberation creates identity gap** — When employment no longer defines worth, identity needs a new anchor. The fork records who you are when work doesn't. (Kurzweil / abundance.)
 33. **Avatars of ourselves** — We create avatars of ourselves—queryable, evidence-grounded, gated. The fork is that: a documented self that can speak when queried.
-34. **Canonical instance; no other instance as independent agent** — The Record and Voice have one **canonical instance**: the one the companion controls (data, pipeline, deployment). Exports are snapshots for consumption (e.g., by schools or agents that read the Record). No *other* instance of the Record or Voice may be deployed or used as an **independent economic or social agent** (posting bounties, contracting, chatting as the identity with third parties, or otherwise acting in the world) without **explicit companion consent** and, where feasible, a **revocation path**. The system is designed so the companion retains sovereignty over who speaks and acts in the name of the Record. See [INSTANCES-AND-RELEASE](instances-and-release.md).
+34. **Canonical instance; no other instance as independent agent** — The Record and Voice have one **canonical instance**: the one the companion controls (data, pipeline, platform/deployment). Exports are snapshots for consumption (e.g., by schools or agents that read the Record). No *other* instance of the Record or Voice may be deployed or used as an **independent economic or social agent** (posting bounties, contracting, chatting as the identity with third parties, or otherwise acting in the world) without **explicit companion consent** and, where feasible, a **revocation path**. The system is designed so the companion retains sovereignty over who speaks and acts in the name of the Record. See [INSTANCES-AND-RELEASE](instances-and-release.md).
 35. **Triadic cognition** — **Triadic cognition** names the design: **MIND** (human, conscious, sovereign), **RECORD** (Grace-Mar), **VOICE** (Grace-Mar). Mind holds authority; the Record holds the documented self; the Voice speaks it when queried. **WORK territories and skill-work** (operator, assistant, scripts) run **instrumentally**, not as a fourth part of the triad; they stage and serve Mind. Design should reinforce the triad **and** keep this execution below the merge boundary. The older phrase **tricameral mind** is an accepted synonym (e.g. prompts, Jaynes contrast). See §8. See invariant 39 (habits, gate, agreeability).
 36. **Interregnum chaos; hero's fortification** — Gramsci: "the old is dying and the new cannot be born." The transitional epoch (5–10 years) will see AI-driven abundance clash with entrenched systems — protests, conspiracies, mental health crises, currency collapse, authoritarian drift, robot scapegoating. Chaos breeds control; Faraday Cage communities embody voluntary opt-out. The fork is identity infrastructure amid upheaval. Fortify with guilds, wisdom-saving, foresight audits; ride the waves, not fight them. (5000 Days Part 14.)
 37. **Centaur alignment** — The "centaur phase" (human + AI as the **unit of execution**) complements **triadic cognition**: the **triad** is **Mind, Record, Voice** (the architecture of selfhood); **centaur** names **Mind + WORK execution** (human and tooling in work territories) getting things done. Mind stays sovereign; the **WORK execution layer** stages and proposes; merge into the Record remains gated. The human holds the reins; the Voice speaks only when queried. Design reinforces operator-in-the-loop and gate intact — execution as instrument, not a fourth part of the triad.
@@ -177,7 +177,7 @@ Use the tetrad to anticipate second-order effects and avoid unintended reversals
 | Part | Role | In Grace-Mar |
 |------|------|----------------|
 | **MIND** | Conscious, sovereign, gates what enters the Record | The companion (the human) |
-| **RECORD** | The documented self (knowledge, curiosity, personality, evidence) | `self.md`, `self-knowledge.md`, `self-skills.md`, **`self-archive.md`** (EVIDENCE body) |
+| **RECORD** | The documented self (knowledge, curiosity, personality, archive/placeholders/evidence) | `self.md`, `self-knowledge.md`, `self-skills.md`, **`self-archive.md`** (EVIDENCE body) |
 | **VOICE** | Speaks the Record when queried; observation window | bot (Telegram, WeChat, etc.) |
 
 **Instrumental layer (outside the triad):**
@@ -264,7 +264,7 @@ docs/conceptual-framework.md → This file — core distinctions
 docs/grace-mar-core.md     → Canonical governance (absolute authority)
 docs/architecture.md       → Full system design
 docs/knowledge-boundary-framework.md → Quantifying and describing the knowledge boundary; treatment of information
-bootstrap/grace-mar-bootstrap.md → Session bootstrap, quick start
+archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md → Session bootstrap, quick start
 .cursor/rules/grace-mar.mdc → Cursor-specific rule (**)
 ```
 

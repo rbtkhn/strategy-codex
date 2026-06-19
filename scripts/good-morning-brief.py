@@ -72,12 +72,12 @@ def _detect_tone_from_memory(content: str) -> str:
 
 
 def user_profile_dir(repo_root: Path, user_id: str) -> Path:
-    return repo_root / "users" / user_id
+    return repo_root / "platform/users" / user_id
 
 
 def _yesterday_intention(profile: Path, today: date) -> str | None:
     y = today - timedelta(days=1)
-    rp = profile / "reflection-proposals" / f"DAILY-INTENTION-{y.isoformat()}.md"
+    rp = profile / "archive/queues/reflection-proposals" / f"DAILY-INTENTION-{y.isoformat()}.md"
     if not rp.is_file():
         return None
     try:
@@ -109,7 +109,7 @@ def ask(question: str, default: str = "") -> str:
 
 def save_daily_intention(profile: Path, today: date, text: str) -> Path:
     profile.mkdir(parents=True, exist_ok=True)
-    rp_dir = profile / "reflection-proposals"
+    rp_dir = profile / "archive/queues/reflection-proposals"
     rp_dir.mkdir(parents=True, exist_ok=True)
     path = rp_dir / f"DAILY-INTENTION-{today.isoformat()}.md"
     body = (
@@ -149,7 +149,7 @@ def run_brief(*, repo_root: Path, user_id: str, skip_warmup_prompt: bool) -> Non
         instance_name = str(minimal_core.get("instanceName") or user_id)
 
     tone = "analytical-crisp"
-    mem_path = resolve_self_memory_path(profile)
+    mem_path = resolve_self_memory_path(platform/profile)
     if mem_path.is_file():
         try:
             mem_text = mem_path.read_text(encoding="utf-8", errors="replace")
@@ -169,7 +169,7 @@ def run_brief(*, repo_root: Path, user_id: str, skip_warmup_prompt: bool) -> Non
     y_intent = _yesterday_intention(profile, today)
     if y_intent:
         print(f"  Yesterday's intention (reflection): {y_intent}")
-    sig = _recent_signal_line(profile)
+    sig = _recent_signal_line(platform/profile)
     if sig:
         print(f"  Recent evidence tail: {sig}")
     if minimal_core and isinstance(minimal_core.get("coreFacts"), list) and minimal_core["coreFacts"]:
@@ -207,8 +207,8 @@ def run_brief(*, repo_root: Path, user_id: str, skip_warmup_prompt: bool) -> Non
     print(f"\n{Colors.BOLD}Suggested session shapes{Colors.ENDC}")
     options = [
         "Deep work — one skill domain",
-        "Analyst — review gate + recent evidence",
-        "Curiosity — one question from reflection-proposals/",
+        "Analyst — review gate + recent archive/placeholders/evidence",
+        "Curiosity — one question from archive/queues/reflection-proposals/",
         "Light capture — stage candidates, short reflection",
     ]
     for i, opt in enumerate(options, 1):

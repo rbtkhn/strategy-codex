@@ -6,7 +6,7 @@
 **Primary purpose:** expand explicit observation IDs to bounded payloads and optionally assemble a lane-scoped prepared-context Markdown file  
 **When to use:** after search/timeline have narrowed a small set of observations worth full detail or a shareable bundle  
 **Inputs:** repeated `--id` (observation ids), optional `--markdown` / `--json`; for prepared context: `--lane`, `--id`, `--output` path  
-**Outputs:** JSON or Markdown expansion (stdout or file); optional prepared-context artifact under `prepared-context/` (or path you choose)  
+**Outputs:** JSON or Markdown expansion (stdout or file); optional prepared-context artifact under `runtime/prepared-context/` (or path you choose)  
 **Mutation scope:** runtime-only  
 **Canonical Record access:** none  
 **Typical next step:** optional `stage_candidate_from_observations.py` if proposing a durable change; otherwise re-open normative retrieval flow  
@@ -38,7 +38,7 @@ python3 scripts/prepared_context/build_context_from_observations.py \
   --lane work-strategy \
   --id obs_20260413T184210Z_a1b2c3d4 \
   --id obs_20260413T191455Z_e5f6g7h8 \
-  -o prepared-context/runtime-observation-context.md
+  -o runtime/prepared-context/runtime-observation-context.md
 ```
 
 ## Governance
@@ -49,5 +49,5 @@ python3 scripts/prepared_context/build_context_from_observations.py \
 
 ## See also
 
-- [prepared-context/README.md](../../prepared-context/README.md)
-- [progressive-disclosure.md](../prepared-context/progressive-disclosure.md)
+- [runtime/prepared-context/README.md](../../runtime/prepared-context/README.md)
+- [progressive-disclosure.md](../runtime/prepared-context/progressive-disclosure.md)

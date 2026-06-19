@@ -58,12 +58,12 @@ def test_missing_strategy_notebook_days(tmp_path: Path) -> None:
 
 
 def test_read_previous_dream_generated_at(tmp_path: Path) -> None:
-    users = tmp_path / "users" / "u1"
+    users = tmp_path / "platform/users" / "u1"
     users.mkdir(parents=True)
     (users / "last-dream.json").write_text(
         '{"generated_at": "2026-04-10T12:00:00+00:00"}\n', encoding="utf-8"
     )
-    got = read_previous_dream_generated_at(tmp_path / "users", "u1")
+    got = read_previous_dream_generated_at(tmp_path / "platform/users", "u1")
     assert got is not None
     assert got.isoformat().startswith("2026-04-10T12:00:00")
 

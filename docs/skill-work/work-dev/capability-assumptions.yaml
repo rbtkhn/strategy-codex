@@ -80,7 +80,7 @@ assumptions:
   - id: ASSUME-001
     assumption: "LLM context windows cap at ~200k tokens for production use"
     keywords: ["context window", "context length", "token limit", "long context", "million token"]
-    affects: ["bot/prompt.py", "docs/architecture.md"]
+    affects: ["archive/grace-mar-instance/bot/prompt.py", "docs/architecture.md"]
     gap_ids: []
     last_validated: 2026-04-07
     notes: "Prompt summarization tiers exist because of this constraint. If production windows reach 1M+ reliably, the tier system may be unnecessary overhead."
@@ -96,7 +96,7 @@ assumptions:
   - id: ASSUME-003
     assumption: "Models cannot reliably maintain a consistent persona across sessions without explicit prompting"
     keywords: ["persona", "character", "consistent personality", "identity", "voice", "role-play"]
-    affects: ["bot/prompt.py", "bot/core.py"]
+    affects: ["archive/grace-mar-instance/bot/prompt.py", "archive/grace-mar-instance/bot/core.py"]
     gap_ids: []
     last_validated: 2026-04-07
     notes: "SYSTEM_PROMPT inlines identity, knowledge, and personality every call. If models gain durable persona slots, the prompt architecture could simplify."
@@ -120,7 +120,7 @@ assumptions:
   - id: ASSUME-006
     assumption: "Lexile-level output control requires explicit prompting; models default to adult register"
     keywords: ["reading level", "vocabulary control", "simplify", "age-appropriate", "grade level", "lexile"]
-    affects: ["bot/prompt.py"]
+    affects: ["archive/grace-mar-instance/bot/prompt.py"]
     gap_ids: []
     last_validated: 2026-04-07
     notes: "REPHRASE_PROMPT enforces Lexile ceiling. If models add native reading-level sliders, the rephrase step could be simplified."
@@ -138,7 +138,7 @@ assumptions:
       - "session persistence"
       - "memory across sessions"
       - "remember across conversations"
-    affects: ["docs/architecture.md", "integrations/"]
+    affects: ["docs/architecture.md", "platform/integrations/"]
     gap_ids: []
     last_validated: 2026-04-07
     notes: "Current architecture treats agents as disposable single-session executors. If models gain persistent multi-session agentic capability with memory, the handoff/bridge model may need rethinking. Keywords deliberately omit generic agent/tool terms; use ASSUME-002 for vendor 'memory' product copy."
@@ -146,7 +146,7 @@ assumptions:
   - id: ASSUME-008
     assumption: "Bilingual (English/Mandarin) output requires explicit prompt handling per language"
     keywords: ["multilingual", "bilingual", "chinese", "mandarin", "translation", "language switch"]
-    affects: ["bot/prompt.py", "bot/core.py"]
+    affects: ["archive/grace-mar-instance/bot/prompt.py", "archive/grace-mar-instance/bot/core.py"]
     gap_ids: []
     last_validated: 2026-04-07
     notes: "Prompt includes language detection and response-language matching. If models improve native code-switching, some prompt scaffolding may be removable."
@@ -154,7 +154,7 @@ assumptions:
   - id: ASSUME-009
     assumption: "Signal detection (analyst) requires a separate LLM call with a dedicated prompt"
     keywords: ["signal detection", "analysis", "structured output", "extraction", "classification"]
-    affects: ["bot/prompt.py", "bot/core.py"]
+    affects: ["archive/grace-mar-instance/bot/prompt.py", "archive/grace-mar-instance/bot/core.py"]
     gap_ids: []
     last_validated: 2026-04-07
     notes: "ANALYST_PROMPT runs as a separate call after conversation. If models support inline structured extraction (conversation + analysis in one pass), the two-call pattern could merge."
@@ -186,7 +186,7 @@ assumptions:
   - id: ASSUME-013
     assumption: "Multi-agent orchestration requires heavyweight framework dependencies incompatible with stdlib-only codebases"
     keywords: ["multi-agent", "lightweight", "zero-dependency", "orchestration", "groupchat", "crew", "autogen", "agent framework", "single-file", "agent team", "agent collaboration"]
-    affects: ["docs/architecture.md", "bridges/"]
+    affects: ["docs/architecture.md", "research/bridges/"]
     gap_ids: []
     last_validated: 2026-04-07
     notes: "GroupChat-as-auditable-tool is deferred because AutoGen/CrewAI pull heavy transitive dependencies. If a framework ships stdlib-only multi-agent, or a model provider builds agent teams into the API itself, revisit the deferral. Scion (GoogleCloudPlatform/scion) takes a container-isolation approach (Go binary, git worktrees, no Python deps) â€” different axis than framework deps but relevant if container-based agent isolation becomes standard."
@@ -194,7 +194,7 @@ assumptions:
   - id: ASSUME-014
     assumption: "Model abstention behavior on out-of-scope queries is stable across versions"
     keywords: ["safety tuning", "refusal", "alignment", "fine-tune", "RLHF", "DPO", "ORPO", "safety degradation", "abstention", "guardrails"]
-    affects: ["bot/prompt.py", "docs/abstention-policy.md", "docs/knowledge-boundary-framework.md"]
+    affects: ["archive/grace-mar-instance/bot/prompt.py", "docs/abstention-policy.md", "docs/knowledge-boundary-framework.md"]
     gap_ids: []
     last_validated: 2026-04-15
     notes: "Knowledge-boundary enforcement relies on SYSTEM_PROMPT instructions; no runtime verification that the model still refuses correctly after updates. ORPO/DPO fine-tuning asymmetry research (April 2026) shows benign data can degrade safety. If a provider changes alignment tuning, run boundary_regression.py."
@@ -211,7 +211,7 @@ assumptions:
       - "enterprise variant"
       - "education model"
       - "safety-tuned"
-    affects: ["bot/core.py", "docs/abstention-policy.md"]
+    affects: ["archive/grace-mar-instance/bot/core.py", "docs/abstention-policy.md"]
     gap_ids: []
     last_validated: 2026-04-15
     notes: "Labs now ship vertical variants (e.g. GPT-5.4-Cyber, Anthropic Mythos) with different safety profiles. Grace-mar uses the general API model; if the provider routes traffic to a variant or changes the default, boundary behavior may shift. Track variant announcements via the detector; run boundary regression when a variant matches the provider grace-mar depends on."

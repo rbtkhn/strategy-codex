@@ -108,7 +108,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:2 S:0 G:2]** [The U.S. fighter jet was downed in Iran by a shoulder-fired missile](https://www.nbcnews.com/politics/white-house/us-fighter-jet-was-downed-iran-shoulder-fired-missile-rcna266907) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _2026-04-07 01:15 UTC_
 - **[W:3 S:0 G:1]** [WHO suspends Gaza medical evacuations after contractor killed by Israeli troops](https://www.bbc.com/news/articles/c4g8pzpw2g2o?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-04-07 13:55 UTC_

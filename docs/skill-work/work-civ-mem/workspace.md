@@ -63,7 +63,7 @@ python3 tools/cmc-index-search.py build
 python3 tools/cmc-index-search.py query "your terms"
 ```
 
-For app/dev workflow:
+For platform/app/dev workflow:
 
 ```bash
 cd tools/cmc-console

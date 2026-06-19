@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_USERS_DIR = REPO_ROOT / "users"
+DEFAULT_USERS_DIR = REPO_ROOT / "platform/users"
 
 for path in (REPO_ROOT / "scripts",):
     path_str = str(path)
@@ -593,7 +593,7 @@ def _write_night_handoff(
     from datetime import datetime, timezone
 
     user_root = _user_root(users_dir, user_id)
-    handoff_dir = user_root / "daily-handoff"
+    handoff_dir = user_root / "runtime/daily-handoff"
     handoff_dir.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc).isoformat()
     generated_date = generated_at[:10]
@@ -620,7 +620,7 @@ def _write_night_handoff(
     elif tomorrow:
         payload["topActionReason"] = "Carry-forward from dream execution-path / tomorrow_inherits."
     else:
-        payload["topActionReason"] = "Dream digest and followups shaped priorities; see daily-handoff/last-dream.json."
+        payload["topActionReason"] = "Dream digest and followups shaped priorities; see runtime/daily-handoff/last-dream.json."
 
     if summary.get("execution_paths") is not None:
         payload["execution_paths"] = summary["execution_paths"]
@@ -1198,7 +1198,7 @@ def format_auto_dream_summary(summary: dict[str, Any]) -> str:
     cg = summary.get("capture_gap") or {}
     if cg:
         cg_level = cg.get("level", "ok")
-        cg_days = cg.get("days_since_evidence")
+        cg_days = cg.get("days_since_archive/placeholders/evidence")
         cg_id = cg.get("last_evidence_id", "?")
         if cg_level != "ok" and cg_days is not None:
             lines.append(f"capture gap: {cg_level.upper()} — {cg_days}d since {cg_id}")
@@ -1249,7 +1249,7 @@ def main() -> int:
     parser.add_argument("--json", action="store_true", help="Emit JSON summary")
     parser.add_argument("--dry-run", action="store_true", help="Do not write self-memory, derived digest, or events")
     parser.add_argument("--no-event", action="store_true", help="Skip pipeline-events emission")
-    parser.add_argument("--no-artifacts", action="store_true", help="Skip contradiction artifact draft writes")
+    parser.add_argument("--no-runtime/artifacts", action="store_true", help="Skip contradiction artifact draft writes")
     parser.add_argument("--strict", action="store_true", help="Use strict maintenance semantics and fail fast on checks")
     parser.add_argument(
         "--cursor-model",

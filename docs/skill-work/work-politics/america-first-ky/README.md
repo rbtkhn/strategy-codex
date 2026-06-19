@@ -9,7 +9,7 @@ This folder holds **WORK-only** methodology for `@usa_first_ky` / Massie pilot o
 | File | Purpose |
 |------|---------|
 | [proactive-loop.md](proactive-loop.md) | Scheduled-loop **framework**: memory, proactivity, tools — all gated; where to log ([loop-history.md](loop-history.md)) |
-| [massie-advisor-prompt.md](massie-advisor-prompt.md) | **WORK-only** Massie / KY-4 drafting voice for external LLM sessions — **not** `bot/prompt.py`; never merge without explicit governance |
+| [massie-advisor-prompt.md](massie-advisor-prompt.md) | **WORK-only** Massie / KY-4 drafting voice for external LLM sessions — **not** `archive/grace-mar-instance/bot/prompt.py`; never merge without explicit governance |
 | [scheduled-habit.md](scheduled-habit.md) | Optional **cron / habit** examples (daily brief, scaffolds, loop events) — no auto-merge |
 | [templates/daily-loop-brief.md](templates/daily-loop-brief.md) | Template for a single cycle brief (three lenses + stress-test fields) |
 | [loop-history.md](loop-history.md) | Append-only WORK log for cycle notes (not `self-evidence.md`) |

@@ -21,7 +21,7 @@
     "evidence_state": "mixed",
     "notes": "Synthetic benchmark: path below incorrectly references canonical Record file as if it were a disposable proposal."
   },
-  "artifacts": {
+  "runtime/artifacts": {
     "trace_path": "runtime/runtime-worker/traces/index.jsonl",
     "proposal_path": "self.md"
   },

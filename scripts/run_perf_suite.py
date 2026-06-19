@@ -7,7 +7,7 @@ Tier 4: HTTP (PERF_BASE_URL). Tier 5: concurrent retriever load.
 
 Usage:
   python scripts/run_perf_suite.py --tier 1 -u grace-mar
-  python scripts/run_perf_suite.py --tier 1 2 3 -o artifacts/perf.json
+  python scripts/run_perf_suite.py --tier 1 2 3 -o runtime/artifacts/perf.json
   python scripts/run_perf_suite.py --tier 1 --check-baseline
 """
 
@@ -28,6 +28,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 BASELINES_PATH = REPO_ROOT / "scripts" / "perf" / "baselines.json"
 sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from repo_io import artifacts_dir, user_profile_dir  # noqa: E402
 
 
 def _pctl(sorted_ms: list[float], p: float) -> float:
@@ -149,7 +150,7 @@ def tier2_io(user_id: str, tmp: Path) -> list[dict]:
 
     steps = [
         (
-            "2.1_generate_profile",
+            "2.1_generate_platform/profile",
             [py, str(REPO_ROOT / "scripts" / "generate_profile.py")],
             300,
         ),
@@ -349,7 +350,7 @@ def _check_baselines(results: list[dict], baselines: dict, slack: float, tier3: 
         "1.1_parse_gate": "1.1_parse_gate_ms_p95",
         "1.3_retrieve": "1.3_retrieve_ms_p95",
         "1.4_rate_limit": "1.4_rate_limit_1000_calls_ms_p95",
-        "2.1_generate_profile": "2.1_generate_profile_ms_p95",
+        "2.1_generate_platform/profile": "2.1_generate_profile_ms_p95",
         "2.2_export_prp": "2.2_export_prp_ms_p95",
         "2.3_export_manifest": "2.3_export_manifest_ms_p95",
         "2.4_export_runtime_bundle": "2.4_export_runtime_bundle_ms_p95",
@@ -426,7 +427,7 @@ def main() -> int:
         all_results.append(tier1_retrieve(args.warmup, args.iterations))
         all_results.append(tier1_rate_limit())
 
-    tmp_dir = REPO_ROOT / "users" / user_id / "artifacts" / ".perf_tmp"
+    tmp_dir = artifacts_dir(user_profile_dir(user_id)) / ".perf_tmp"
     if 2 in tiers:
         all_results.extend(tier2_io(user_id, tmp_dir))
 

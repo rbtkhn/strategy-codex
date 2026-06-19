@@ -65,12 +65,12 @@ def _run_git(cwd: Path, *args: str) -> str:
 def _checklist(user_id: str) -> list[tuple[str, bool]]:
     uid = user_id.strip()
     rows: list[tuple[str, bool]] = []
-    base = REPO_ROOT / "users" / uid
+    base = REPO_ROOT / "platform/users" / uid
     for rel in (
         "self-memory.md",
         "recursion-gate.md",
         "recursion-gate.json",
-        "daily-handoff/night-handoff.json",
+        "runtime/daily-handoff/night-handoff.json",
         "last-dream.json",
         "session-transcript.md",
     ):

@@ -37,7 +37,7 @@ The core distinction is:
 - **Question:** Would a proposed future change introduce drift,
   contradiction, or follow-up work?
 - **Authority:** advisory / scratch-only
-- **Writes:** `artifacts/counterfactual-simulations/` only
+- **Writes:** `runtime/artifacts/counterfactual-simulations/` only
 - **Typical command/path:**
   [`counterfactual-fork-simulator.md`](counterfactual-fork-simulator.md),
   `python3 scripts/simulate_counterfactual_fork.py --proposal <file>`
@@ -78,7 +78,7 @@ The core distinction is:
 - **Authority:** WORK-only / derived artifact
 - **Writes:** metadata / artifacts only
 - **Typical command/path:**
-  [`skill-work/work-dev/interface-artifacts/README.md`](skill-work/work-dev/interface-artifacts/README.md)
+  [`skill-work/work-dev/interface-runtime/artifacts/README.md`](skill-work/work-dev/interface-runtime/artifacts/README.md)
 - **Use when:** creating dashboards, visualizers, review cockpits, or
   prototype views
 

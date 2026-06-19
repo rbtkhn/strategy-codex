@@ -1,0 +1,3558 @@
+{
+  "schemaVersion": "1.0.0-statecraft-day-dashboard",
+  "generatedAt": "2026-06-05T05:25:34.618485+00:00",
+  "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
+  "query": {
+    "channels": [],
+    "threads": [],
+    "hosts": [],
+    "guests": [
+      "Scott Ritter"
+    ],
+    "slug": "ritter",
+    "speakerSlug": "ritter",
+    "speakerAliases": [
+      "Scott Ritter",
+      "Ritter"
+    ]
+  },
+  "coverage": {
+    "dayCount": 72,
+    "sourceFileCount": 85,
+    "firstDay": "2025-01-05",
+    "lastDay": "2026-05-28"
+  },
+  "aggregates": {
+    "topDays": [
+      {
+        "date": "2026-03-16",
+        "sourceCount": 3
+      },
+      {
+        "date": "2026-05-06",
+        "sourceCount": 3
+      },
+      {
+        "date": "2025-12-01",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-01-12",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-01-13",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-01-16",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-03-11",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-03-31",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-04-13",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-05-18",
+        "sourceCount": 2
+      }
+    ],
+    "quietDays": [
+      {
+        "date": "2025-01-05",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-12",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-02",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-05-24",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-06-10",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-08-10",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-09-06",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-09-17",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-09-23",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-10-07",
+        "sourceCount": 1
+      }
+    ],
+    "channels": [
+      {
+        "name": "Dialogue Works",
+        "count": 19
+      },
+      {
+        "name": "Daniel Davis Deep Dive",
+        "count": 11
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 9
+      },
+      {
+        "name": "Judging Freedom",
+        "count": 4
+      },
+      {
+        "name": "Diesen (Greater Eurasia)",
+        "count": 2
+      },
+      {
+        "name": "Consortium News",
+        "count": 1
+      },
+      {
+        "name": "Garland Nixon",
+        "count": 1
+      },
+      {
+        "name": "Let's Talk Geopolitics",
+        "count": 1
+      }
+    ],
+    "hosts": [
+      {
+        "name": "Nima Alkhorshid",
+        "count": 24
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 14
+      },
+      {
+        "name": "Daniel Davis",
+        "count": 11
+      },
+      {
+        "name": "Andrew Napolitano",
+        "count": 9
+      },
+      {
+        "name": "Diesen",
+        "count": 2
+      },
+      {
+        "name": "Cyrus Janssen",
+        "count": 1
+      },
+      {
+        "name": "Garland Nixon",
+        "count": 1
+      },
+      {
+        "name": "Joe Lauria",
+        "count": 1
+      }
+    ],
+    "guests": [
+      {
+        "name": "Scott Ritter",
+        "count": 85
+      },
+      {
+        "name": "Lawrence Wilkerson",
+        "count": 3
+      },
+      {
+        "name": "Andrei Martyanov",
+        "count": 2
+      },
+      {
+        "name": "Larry C. Johnson",
+        "count": 1
+      },
+      {
+        "name": "Mohammad Marandi",
+        "count": 1
+      },
+      {
+        "name": "Ray McGovern",
+        "count": 1
+      }
+    ],
+    "threads": [
+      {
+        "name": "ritter",
+        "count": 85
+      },
+      {
+        "name": "nima",
+        "count": 23
+      },
+      {
+        "name": "diesen",
+        "count": 16
+      },
+      {
+        "name": "davis",
+        "count": 11
+      },
+      {
+        "name": "napolitano",
+        "count": 9
+      },
+      {
+        "name": "wilkerson",
+        "count": 3
+      },
+      {
+        "name": "martyanov",
+        "count": 2
+      },
+      {
+        "name": "johnson",
+        "count": 1
+      },
+      {
+        "name": "marandi",
+        "count": 1
+      },
+      {
+        "name": "mcgovern",
+        "count": 1
+      },
+      {
+        "name": "ritter-mcgovern",
+        "count": 1
+      }
+    ],
+    "sourceForms": [
+      {
+        "name": "interview",
+        "count": 59
+      },
+      {
+        "name": "newsletter",
+        "count": 22
+      },
+      {
+        "name": "article",
+        "count": 3
+      },
+      {
+        "name": "solo",
+        "count": 1
+      }
+    ]
+  },
+  "anomalies": {
+    "missingHostOrGuestDays": [
+      {
+        "date": "2026-01-03",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-01-05",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-01-06",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-01-09",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-01-10",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-01-16",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-01-18",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-01-20",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-02-05",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-02-20",
+        "hasHosts": false,
+        "hasGuests": true
+      }
+    ],
+    "missingReadmes": [
+      "2025-01-05",
+      "2025-01-12",
+      "2025-02-02",
+      "2025-05-24",
+      "2025-06-10",
+      "2025-08-10",
+      "2025-09-06",
+      "2025-09-17",
+      "2025-09-23",
+      "2025-10-07"
+    ]
+  },
+  "days": [
+    {
+      "date": "2025-01-05",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Mohammad Marandi",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-01-12",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "solo",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-israel-is-blind-its-strategic-defeat-becomes-clearer-with-time-larry-c-j-2025-01-12.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-02-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-24",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-10",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-scott-ritter-dangerous-endgame-in-ukraine-collapse-or-escalation-2025-06-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-08-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-trumps-plan-to-threaten-putin-with-sanctions-submarines-col-larry-wilkerson-scott-ritter-2025-08-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-06",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-17",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-scott-ritter-nato-prepares-for-war-with-russia-2025-09-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-23",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-07",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-scott-ritter-tomahawks-end-of-nato-coming-nuclear-war-2025-10-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-19",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-israel-s-attack-ignites-iran-s-oreshnik-moment-idf-in-ruins-l-scott-ritter-2025-10-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-24",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-scott-ritter-russia-fed-up-with-nato-escalations-retaliation-is-coming-2025-10-24.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-04",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "article",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-ritter-natos-ukraine-strategy-is-collapsing-2025-11-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-05",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-01",
+      "fileCount": 2,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 2
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "napolitano",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "article",
+          "count": 1
+        },
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-scott-ritter-war-has-been-won-russia-faces-a-dilemma-2025-12-01.md",
+        "source-napolitano-ritter-did-hegseth-order-murders-2025-12-01.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-03",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-scott-ritter-putin-warns-europe-we-re-ready-right-now-2025-12-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-06",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-putin-defies-trump-eu-cornered-as-ukraine-troops-collapse-scott-ritter-2025-12-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-10",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-scott-ritter-the-u-s-now-considers-the-eu-an-enemy-2025-12-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-19",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-scott-ritter-russia-just-made-a-move-that-could-collapse-everything-2025-12-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-24",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-scott-ritter-this-is-how-it-all-collapses-russia-s-role-explained-2025-12-24.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-03",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-russia-dark-sage-karaganov-2026-01-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-05",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-the-sanctions-shield-2026-01-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-06",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-the-battle-of-new-york-2026-01-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-09",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-the-camels-bloody-nose-2026-01-09.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-10",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-the-end-of-a-dream-2026-01-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-12",
+      "fileCount": 2,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 2
+        },
+        {
+          "name": "napolitano",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "article",
+          "count": 1
+        },
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-ritter-how-close-is-putin-to-escalation-2026-01-12.md",
+        "source-ritter-iranian-resilience-2026-01-12.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-13",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 2
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        },
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-trump-set-up-putin-escalates-war-with-russia-2026-01-13.md",
+        "source-ritter-losing-the-republic-2026-01-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-16",
+      "fileCount": 2,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 2
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-ritter-back-to-the-future-2026-01-16.md",
+        "source-ritter-reflections-on-a-war-2026-01-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-18",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-dont-drink-the-water-2026-01-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-20",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-getting-it-wrong-on-russia-2026-01-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-27",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-us-iran-war-imminent-as-military-buildup-peaks-2026-01-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-game-over-trump-s-iran-strategy-might-blow-up-and-start-a-r-2026-02-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-05",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-alas-babylon-2026-02-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-11",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-19",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-20",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-dead-at-27-2026-02-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-22",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-the-flamingo-effect-2026-02-22.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-23",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-28",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-01",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-regime-change-double-edged-sword-2026-03-01.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-06",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-11",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 2
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md",
+        "source-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-14",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-the-backpack-girls-2026-03-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-16",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 3
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 3
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 3
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 3
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 3
+        },
+        {
+          "name": "ritter",
+          "count": 3
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 3
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-scott-ritter-danny-davis-combat-vets-can-the-us-force-hormuz-open-2026-03-16.md",
+        "source-daniel-davis-deep-dive-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md",
+        "source-daniel-davis-deep-dive-scott-ritter-trump-is-dead-wrong-about-u-s-missiles-stockpiles-2026-03-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-17",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-18",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-zionism-human-parasitoid-revisited-2026-03-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-25",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-chechen-miracle-path-redemption-2026-03-25.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-31",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 2
+        },
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "napolitano",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md",
+        "source-napolitano-ritter-why-iran-is-winning-2026-03-31.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-01",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-why-i-no-longer-stand-with-israel-redux-2026-04-01.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-will-iran-force-the-us-out-of-the-middle-east-2026-04-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-03",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-combat-search-and-rescue-prequel-2026-04-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-05",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-scott-ritter-we-don-t-control-the-skies-over-iran-2026-04-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-07",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-war-goes-horribly-wrong-u-s-could-use-nuclear-weapons-2026-04-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-08",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-13",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 2
+        },
+        {
+          "name": "davis",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        },
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md",
+        "source-ritter-blasphemy-american-style-2026-04-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-17",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Diesen (Greater Eurasia)",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Diesen (Greater Eurasia)",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-20",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-trump-hegseth-2026-04-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-27",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "newsletter",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-new-middle-eastern-power-paradigm-2026-04-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Diesen (Greater Eurasia)",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Diesen (Greater Eurasia)",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-ritter-hormuz-return-to-war-2026-05-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-06",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 2
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 3
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 3
+        },
+        {
+          "name": "davis",
+          "count": 2
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 3
+        }
+      ],
+      "fileNames": [
+        "source-alkorshid-ritter-operation-freedom-hormuz-iran-2026-05-06.md",
+        "source-daniel-davis-deep-dive-scott-ritter-we-ve-not-impacted-iran-as-we-re-being-told-2026-05-06.md",
+        "source-davis-ritter-skirmish-persian-gulf-iran-2026-05-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Let's Talk Geopolitics",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Let's Talk Geopolitics",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Cyrus Janssen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-cyrus-janssen-iran-hormuz-energy-shock-2026-05-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-13",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-iran-didn-t-break-it-adapted-now-stronger-than-ever-2026-05-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-18",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Consortium News",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Consortium News",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Joe Lauria",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 2
+        },
+        {
+          "name": "Ray McGovern",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 2
+        },
+        {
+          "name": "mcgovern",
+          "count": 1
+        },
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "ritter-mcgovern",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-consortium-news-russia-debate-scott-ritter-vs-ray-mcgovern-2026-05-18.md",
+        "source-napolitano-ritter-the-us-will-never-learn-2026-05-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-19",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-scott-ritter-europe-attacked-russia-retaliation-is-now-unavoidable-2026-05-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-20",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-ritter-dialogue-works-trump-s-iran-attack-is-a-trap-that-leads-to-huge-humiliation-2026-05-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-26",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 2
+        },
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "napolitano",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-scott-ritter-ukraine-the-death-of-a-nation-2026-05-26.md",
+        "source-napolitano-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-27",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-iran-hit-an-mq-9-russia-escalates-with-oreshnik-2026-05-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-28",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    }
+  ],
+  "runtime/artifacts": {
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\ritter.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\ritter.json"
+  }
+}

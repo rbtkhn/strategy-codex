@@ -6,8 +6,8 @@
 
 | Concept | Role |
 |--------|------|
-| **Overlay** | Optional defaults and emphasis hints (this doc); lives in [`config/runtime_workers/overlays.yaml`](../../config/runtime_workers/overlays.yaml). |
-| **Routed worker** | Which **existing script** corresponds to a `--task-type` — see [worker-routing.md](worker-routing.md) and [`registry.yaml`](../../config/runtime_workers/registry.yaml). |
+| **Overlay** | Optional defaults and emphasis hints (this doc); lives in [`platform/config/runtime_workers/overlays.yaml`](../../platform/config/runtime_workers/overlays.yaml). |
+| **Routed worker** | Which **existing script** corresponds to a `--task-type` — see [worker-routing.md](worker-routing.md) and [`registry.yaml`](../../platform/config/runtime_workers/registry.yaml). |
 
 Overlays **do not** replace the router. Resolved routing still comes from `task_type` → [`worker_router.py`](../../scripts/runtime/worker_router.py). Overlays may supply a **default** `task_type` when you omit `--task-type`.
 

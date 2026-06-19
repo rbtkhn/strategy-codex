@@ -66,7 +66,7 @@
 - **Watch:** Tax prep deadline awareness
 - **First noticed:** 2026-04-06
 - **Current status:** watch
-- **Latest evidence:** Schedule C due with personal return (April 15 or extension).
+- **Latest evidence:** Schedule C due with personal return (April 15 or platform/extension).
 - **Framing note:** Run `--by tax_category` summary at year-end and before filing.
 - **Primary implication:** Missing tax categories on transactions makes prep harder.
 - **Contradiction / caution:** Tax strategy is accountant territory; ledger provides data, not advice.

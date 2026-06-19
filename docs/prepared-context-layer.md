@@ -8,7 +8,7 @@ The **Prepared Context Layer** holds **cleaned or transformed** representations 
 - Extracted fields  
 - Summaries **with** provenance pointers  
 - Retrieval chunks  
-- Context bundles (e.g. for IDE or bot)  
+- Context bundles (e.g. for IDE or archive/grace-mar-instance/bot)  
 
 ---
 

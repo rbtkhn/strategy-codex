@@ -52,7 +52,7 @@ What "good" looks like for Grace-Mar:
 
 ## File Update Protocol
 
-When pipeline candidates are approved, **merge** into all of these together. **Merge only via script:** The agent must **not** edit `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, or `bot/prompt.py` directly. It must instruct the operator to run `python scripts/process_approved_candidates.py --apply` (or the receipt flow: `--generate-receipt` then `--apply --receipt`). This prevents five-file drift and preserves the audit trail. Only the script performs the atomic update across all files.
+When pipeline candidates are approved, **merge** into all of these together. **Merge only via script:** The agent must **not** edit `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, or `archive/grace-mar-instance/bot/prompt.py` directly. It must instruct the operator to run `python scripts/process_approved_candidates.py --apply` (or the receipt flow: `--generate-receipt` then `--apply --receipt`). This prevents five-file drift and preserves the audit trail. Only the script performs the atomic update across all files.
 
 **Optional orchestration:** `scripts/atomic_integrate.py` runs the same merge (`--quick` / receipt-based semantics) with extra disk backups and a JSON receipt; it does not replace `process_approved_candidates.py`.
 
@@ -60,27 +60,27 @@ When pipeline candidates are approved, **merge** into all of these together. **M
 
 | File | What to update |
 |------|---------------|
-| `users/grace-mar/self.md` | New entries merged into IX-A (Knowledge), IX-B (Curiosity), and/or IX-C (Personality) |
-| `users/grace-mar/self-archive.md` | Canonical **EVIDENCE**: new activity log entry (ACT-XXXX) **and** append **§ VIII. GATED APPROVED LOG** per merged candidate (gated; only `scripts/process_approved_candidates.py` writes § VIII) |
-| `users/grace-mar/recursion-gate.md` | Move candidates from Candidates to Processed |
-| `users/grace-mar/session-log.md` | New session record; pipeline merges append lines under `## Pipeline merge (automated)` |
-| `bot/prompt.py` | Update relevant prompt sections + analyst dedup list |
-| `users/grace-mar/pipeline-events.jsonl` | Append `applied` event per candidate: `python scripts/emit_pipeline_event.py applied CANDIDATE-XXXX evidence_id=ACT-YYYY` |
+| `platform/users/grace-mar/self.md` | New entries merged into IX-A (Knowledge), IX-B (Curiosity), and/or IX-C (Personality) |
+| `platform/users/grace-mar/self-archive.md` | Canonical **EVIDENCE**: new activity log entry (ACT-XXXX) **and** append **§ VIII. GATED APPROVED LOG** per merged candidate (gated; only `scripts/process_approved_candidates.py` writes § VIII) |
+| `platform/users/grace-mar/recursion-gate.md` | Move candidates from Candidates to Processed |
+| `platform/users/grace-mar/session-log.md` | New session record; pipeline merges append lines under `## Pipeline merge (automated)` |
+| `archive/grace-mar-instance/bot/prompt.py` | Update relevant prompt sections + analyst dedup list |
+| `platform/users/grace-mar/pipeline-events.jsonl` | Append `applied` event per candidate: `python scripts/emit_pipeline_event.py applied CANDIDATE-XXXX evidence_id=ACT-YYYY` |
 | **PRP** | Regenerate: `python scripts/export_prp.py -u grace-mar -o grace-mar-llm.txt` (or repo default). Commit if changed. Keeps anchor in sync with Record. |
 
-**Real-time log vs gated approved log:** The bot and Mini App append to `users/grace-mar/session-transcript.md` (raw conversation log for operator continuity). The **gated approved log** is **not** written in real time; it is appended only when candidates are merged — as **`self-archive.md` § VIII** (same gate as SELF/EVIDENCE). It holds voice-related approved summaries and other merge-line activity. Optional **`self-evidence.md`** is a **compatibility pointer** only; see [canonical-paths.md](../../docs/canonical-paths.md).
+**Real-time log vs gated approved log:** The bot and Mini App append to `platform/users/grace-mar/session-transcript.md` (raw conversation log for operator continuity). The **gated approved log** is **not** written in real time; it is appended only when candidates are merged — as **`self-archive.md` § VIII** (same gate as SELF/EVIDENCE). It holds voice-related approved summaries and other merge-line activity. Optional **`self-evidence.md`** is a **compatibility pointer** only; see [canonical-paths.md](../../docs/canonical-paths.md).
 
 The bot emits `staged` events automatically. Emit `applied` (or `rejected`) when processing the queue.
 
 **Post-merge PRP refresh:** After merging into SELF, EVIDENCE, or prompt, run the export script. If the output differs from the committed PRP file, commit the update.
 
-**Gated commit hook (optional):** If pre-commit is installed with `pre-commit install --hook-type commit-msg`, commits that stage `users/*/self.md`, `self-skills.md`, `skills.md`, `self-evidence.md`, `self-archive.md`, `merge-receipts.jsonl`, `bot/prompt.py`, or PRP `*-llm.txt` must include **`[gated-merge]`** in the commit message (or mention `process_approved_candidates`). Emergency bypass: `ALLOW_GATED_RECORD_EDIT=1`. See `scripts/check_gated_record_commit_msg.py`.
+**Gated commit hook (optional):** If pre-commit is installed with `pre-commit install --hook-type commit-msg`, commits that stage `platform/users/*/self.md`, `self-skills.md`, `skills.md`, `self-evidence.md`, `self-archive.md`, `merge-receipts.jsonl`, `archive/grace-mar-instance/bot/prompt.py`, or PRP `*-llm.txt` must include **`[gated-merge]`** in the commit message (or mention `process_approved_candidates`). Emergency bypass: `ALLOW_GATED_RECORD_EDIT=1`. See `scripts/check_gated_record_commit_msg.py`.
 
 **Provenance on IX entries:** When merging new entries into IX-A, IX-B, or IX-C, include `provenance: human_approved` (content passed the gated pipeline). Existing entries may use `curated_by: companion` as equivalent. Optionally record `source:` (e.g. `bot lookup`, `bot conversation`, `operator`) to indicate origin. Optionally add `scope:` or `constraint:` when the candidate implies a boundary. Optionally add `warrant:` — the unstated assumption that, if changed, would mean this entry should be revisited (e.g. "holds while limited self-regulation strategies are in use"). Omit for straightforward facts or stable preferences with no expiration condition. Do not backfill old entries unless the companion requests it.
 
 ---
 
-## Prompt Architecture (bot/prompt.py)
+## Prompt Architecture (archive/grace-mar-instance/bot/prompt.py)
 
 Four prompts, each with a distinct role:
 
@@ -107,7 +107,7 @@ The `SYSTEM_PROMPT` contains the self's knowledge, curiosity, and personality in
 grace-mar/
 ├── AGENTS.md                    # Core doctrine (Layer 1)
 ├── README.md                    # Project overview
-├── bootstrap/grace-mar-bootstrap.md  # Session bootstrap for Cursor
+├── archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md  # Session bootstrap for Cursor
 ├── docs/
 │   ├── grace-mar-core.md       # Canonical governance (v2.0)
 │   ├── conceptual-framework.md # Fork vs. twin, emulation, terminology (AI parsing)
@@ -118,14 +118,14 @@ grace-mar/
 │   ├── evidence-template.md    # EVIDENCE module template
 │   ├── wisdom-questions.md     # Child-tier wisdom elicitation questions (Save Wisdom inspired)
 │   └── ...                     # Supporting docs
-├── bot/
+├── archive/grace-mar-instance/bot/
 │   ├── core.py                 # Shared emulation logic (used by Telegram + WeChat)
 │   ├── bot.py                  # Telegram bot
 │   ├── wechat_bot.py           # WeChat Official Account bot (webhook server)
 │   ├── prompt.py               # All LLM prompts (SYSTEM, ANALYST, LOOKUP, REPHRASE)
 │   ├── wechat-setup.md         # WeChat integration setup guide
 │   └── requirements.txt        # Python dependencies
-└── users/
+└── platform/users/
     └── grace-mar/              # Active instance (first companion)
         ├── instance-doctrine.md  # Instance-specific operating rules (Layer 2)
         ├── self.md             # Identity + three-dimension mind
@@ -142,13 +142,13 @@ grace-mar/
         ├── self-history.md     # Derived dual log: WORK aggregate + gate-approved companion thread (optional; not Record)
         ├── session-log.md      # Interaction history
         ├── recursion-gate.md   # Pipeline staging
-        ├── reflection-proposals/  # Operator reflection cycle outputs (REFLECT-*.md); not canonical Record
+        ├── archive/queues/reflection-proposals/  # Operator reflection cycle outputs (REFLECT-*.md); not canonical Record
         ├── pipeline-events.jsonl  # Append-only pipeline audit log
         ├── harness-events.jsonl    # Optional harness audit (merge/export); see docs/harness-inventory.md
         ├── compute-ledger.jsonl   # Token usage (energy ledger)
         ├── journal.md                # Daily highlights — public-suitable, shareable
         ├── archives/             # Rotated chunks (SELF-ARCHIVE-YYYY-MM.md)
-        └── artifacts/          # Raw files (writing, artwork)
+        └── runtime/artifacts/          # Raw files (writing, artwork)
 ```
 
 ---

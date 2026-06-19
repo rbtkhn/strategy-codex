@@ -21,7 +21,7 @@ Do **not** rename these to `queue.json` or `event-log.jsonl` — `scripts/valida
 `proposals/`, `decisions/`, and `diffs/` may be empty until the instance adds governed-change artifacts.
 
 ```bash
-python3 scripts/validate-change-review.py users/_template/review-queue --allow-empty
+python3 scripts/validate-change-review.py platform/users/platform/template/review-queue --allow-empty
 ```
 
 ## Docs

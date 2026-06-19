@@ -32,6 +32,6 @@ def test_log_observation_never_writes_claude_md(tmp_path: Path) -> None:
     )
     claude = tmp_path / "CLAUDE.md"
     assert not claude.exists()
-    nested = tmp_path / "src" / "foo"
+    nested = tmp_path / "platform/src" / "foo"
     nested.mkdir(parents=True)
     assert not (nested / "CLAUDE.md").exists()

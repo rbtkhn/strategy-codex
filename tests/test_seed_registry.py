@@ -16,7 +16,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 class TestSchema:
     @pytest.fixture
     def schema(self):
-        return json.loads((ROOT / "schema-registry" / "seed-claim.v1.json").read_text())
+        return json.loads((ROOT / "schemas/registry" / "seed-claim.v1.json").read_text())
 
     def test_required_fields(self, schema):
         expected = {
@@ -49,7 +49,7 @@ class TestEmit:
     @pytest.fixture
     def registry(self, tmp_path, monkeypatch):
         monkeypatch.setattr("emit_seed_claim.REPO_ROOT", tmp_path)
-        user_dir = tmp_path / "users" / "test"
+        user_dir = tmp_path / "platform/users" / "test"
         user_dir.mkdir(parents=True)
         return user_dir / "seed-registry.jsonl"
 
@@ -145,7 +145,7 @@ class TestSummary:
     @pytest.fixture
     def populated(self, tmp_path, monkeypatch):
         monkeypatch.setattr("seed_registry_summary.REPO_ROOT", tmp_path)
-        user_dir = tmp_path / "users" / "test"
+        user_dir = tmp_path / "platform/users" / "test"
         user_dir.mkdir(parents=True)
         reg = user_dir / "seed-registry.jsonl"
         claims = [

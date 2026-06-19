@@ -12,7 +12,7 @@ def is_gated_record_path(rel: str) -> bool:
     rel = rel.replace("\\", "/").strip()
     if not rel:
         return False
-    if rel == "bot/prompt.py" or rel in ("self-llm.txt", "grace-mar-llm.txt"):
+    if rel == "archive/grace-mar-instance/bot/prompt.py" or rel in ("self-llm.txt", "grace-mar-llm.txt"):
         return True
     if "/" not in rel and rel in (
         "self.md",
@@ -25,7 +25,7 @@ def is_gated_record_path(rel: str) -> bool:
     ):
         return True
     parts = rel.split("/")
-    if len(parts) < 3 or parts[0] != "users":
+    if len(parts) < 3 or parts[0] != "platform/users":
         return False
     name = parts[-1]
     if name in (

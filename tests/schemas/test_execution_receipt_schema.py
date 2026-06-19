@@ -11,7 +11,7 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-RECEIPT_SCHEMA = REPO_ROOT / "schema-registry" / "execution-receipt.v1.json"
+RECEIPT_SCHEMA = REPO_ROOT / "schemas/registry" / "execution-receipt.v1.json"
 WORKER_SCRIPT = REPO_ROOT / "scripts" / "runtime" / "grace_mar_runtime_worker.py"
 
 
@@ -46,7 +46,7 @@ def _minimal_valid_receipt() -> dict:
             "evidence_state": None,
             "notes": None,
         },
-        "artifacts": {
+        "runtime/artifacts": {
             "trace_path": "runtime/runtime-worker/traces/index.jsonl",
             "proposal_path": "runtime/runtime-worker/proposals/rw_fixture.md",
         },
@@ -114,7 +114,7 @@ def test_dry_run_writes_receipt(tmp_path: Path, worker_env: dict[str, str]) -> N
     assert receipt_path.is_file()
     receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
     v.validate(receipt)
-    assert receipt["artifacts"]["proposal_path"].endswith(f"{run_id}.md")
+    assert receipt["runtime/artifacts"]["proposal_path"].endswith(f"{run_id}.md")
     sv = receipt.get("scope_verification")
     assert isinstance(sv, dict)
     assert sv["traversal"]["files_seen"] >= 1

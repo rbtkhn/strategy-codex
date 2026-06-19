@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Build a speaker-centric statecraft dashboard and saved guest slices."""
 
@@ -24,7 +25,7 @@ from statecraft_day_archive import (
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-OUT_DIR = REPO_ROOT / "artifacts" / "statecraft" / "speakers"
+OUT_DIR = ARTIFACTS_DIR / "statecraft" / "speakers"
 SLICES_DIR = OUT_DIR / "slices"
 OUT_MD = OUT_DIR / "speaker-dashboard.md"
 OUT_JSON = OUT_DIR / "speaker-dashboard.json"
@@ -296,7 +297,7 @@ def build_saved_speaker_slices(root: Path, day_dirs: list[Path], speakers: list[
         out_md = SLICES_DIR / f"{slug}.md"
         out_json = SLICES_DIR / f"{slug}.json"
         out_md.parent.mkdir(parents=True, exist_ok=True)
-        payload["artifacts"] = {"markdown": str(out_md), "json": str(out_json)}
+        payload["runtime/artifacts"] = {"markdown": str(out_md), "json": str(out_json)}
         payload["query"]["speakerSlug"] = slug
         payload["query"]["speakerAliases"] = _clean_alias_labels(speaker.label_counter)
         out_json.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8", newline="\n")
@@ -316,7 +317,7 @@ def main() -> int:
     slice_names = build_saved_speaker_slices(args.root, day_dirs, slice_targets)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    payload["artifacts"] = {"markdown": str(OUT_MD), "json": str(OUT_JSON)}
+    payload["runtime/artifacts"] = {"markdown": str(OUT_MD), "json": str(OUT_JSON)}
     payload["savedSlices"] = slice_names
     OUT_JSON.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8", newline="\n")
     OUT_MD.write_text(render_speaker_dashboard_markdown(payload, slice_names), encoding="utf-8", newline="\n")

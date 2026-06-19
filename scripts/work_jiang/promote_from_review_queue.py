@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Promote approved content from review-queue/ to canonical locations.
+Promote approved content from archive/queues/review-queue/ to canonical locations.
 
 Usage:
     python3 scripts/work_jiang/promote_from_review_queue.py ch07 --dry-run
@@ -17,7 +17,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 WORK_JIANG = REPO_ROOT / "codex" / "predictive-history"
-REVIEW_QUEUE = WORK_JIANG / "review-queue"
+REVIEW_QUEUE = WORK_JIANG / "archive/queues/review-queue"
 ARCHIVE = REVIEW_QUEUE / "archive"
 
 PROMOTION_MAP = {
@@ -55,7 +55,7 @@ def promote(scope: str, dry_run: bool = False) -> None:
 
     files = [f for f in scope_dir.iterdir() if f.is_file()]
     if not files:
-        print(f"No files in review-queue/{scope}/")
+        print(f"No files in archive/queues/review-queue/{scope}/")
         return
 
     promoted = 0
@@ -86,13 +86,13 @@ def promote(scope: str, dry_run: bool = False) -> None:
             for task_prefix in ("draft", "analysis", "predictions"):
                 task_id = f"{task_prefix}-{scope}"
                 try:
-                    append_task_event(task_id, "merged", note="promoted from review-queue")
+                    append_task_event(task_id, "merged", note="promoted from archive/queues/review-queue")
                 except Exception:
                     pass
         except ImportError:
             pass
 
-        print(f"\n{promoted} file(s) promoted; originals archived to review-queue/archive/{scope}/")
+        print(f"\n{promoted} file(s) promoted; originals archived to archive/queues/review-queue/archive/{scope}/")
     else:
         print(f"\n{promoted} file(s) would be promoted (dry-run).")
 

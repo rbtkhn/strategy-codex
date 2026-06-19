@@ -12,7 +12,7 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RUNTIME = REPO_ROOT / "scripts" / "runtime"
 VERIFY_SCRIPT = RUNTIME / "verify_worker_trust_registry.py"
-REGISTRY_PATH = REPO_ROOT / "config" / "runtime_workers" / "worker-trust-registry.v1.json"
+REGISTRY_PATH = REPO_ROOT / "platform/config" / "runtime_workers" / "worker-trust-registry.v1.json"
 SCHEMA_PATH = REPO_ROOT / "schemas" / "worker-trust-registry.v1.schema.json"
 
 

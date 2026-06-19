@@ -1,6 +1,6 @@
 # SKILLS — template (capability index)
 
-**Template only.** Copy to `users/<new_id>/self-skills.md` for a new instance.
+**Template only.** Copy to `platform/users/<new_id>/self-skills.md` for a new instance.
 
 | Module | Example filename | Notes |
 |--------|------------------|--------|

@@ -94,7 +94,7 @@ records:
 > “Let there be raised without delay the aid required for the king’s
 > journey and ransom, for the needs of the realm are subordinate to the
 > necessities of the king.”
-> — Royal financial writ, 1193 (Pipe Roll evidence)
+> — Royal financial writ, 1193 (Pipe Roll archive/placeholders/evidence)
 
 Anglia tolerates absence not because of loyalty to Richard, but because
 procedural administration already exists beneath him.

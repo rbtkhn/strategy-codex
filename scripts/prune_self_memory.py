@@ -2,7 +2,7 @@
 """
 Prune self-memory.md when it exceeds a character budget (larger than
 strategy / Xavier inbox buffers). Removed text is written to
-artifacts/memory-prune/ and optionally appended to self-archive.md
+runtime/artifacts/memory-prune/ and optionally appended to self-archive.md
 § IX (continuity housekeeping), not merged via the gate.
 
 Operator-run; does not replace process_approved_candidates for Record merges.
@@ -21,7 +21,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-from repo_io import resolve_self_memory_path  # noqa: E402
+from repo_io import resolve_self_memory_path, artifacts_dir  # noqa: E402
 
 HORIZON_HEADER = re.compile(r"^##\s*(Short|Medium|Long)-term\s*$", re.IGNORECASE)
 DEFAULT_MAX_CHARS = 16000
@@ -33,7 +33,7 @@ MAX_APPEND_CHARS = 50000
 
 def _user_dir(args: argparse.Namespace) -> Path:
     uid = args.user.strip()
-    return REPO_ROOT / "users" / uid
+    return REPO_ROOT / "platform/users" / uid
 
 
 def _split_horizons(text: str) -> tuple[str, list[tuple[str, str]]] | None:
@@ -180,7 +180,7 @@ def run_prune(
 
     stub = (
         f"\n- _(Buffer pruned {datetime.now(timezone.utc).date().isoformat()} — "
-        f"excerpt in `artifacts/memory-prune/`; if you used `--archive`, also `self-archive.md` § IX.)_\n"
+        f"excerpt in `runtime/artifacts/memory-prune/`; if you used `--archive`, also `self-archive.md` § IX.)_\n"
     )
     short_body = dict(new_sections).get("short", "")
     if "short" in dict(new_sections) and len(short_body.strip()) < 20:
@@ -193,7 +193,7 @@ def run_prune(
 
 
 def _write_artifact(user_dir: Path, pruned: str, stamp: str) -> Path:
-    out_dir = user_dir / "artifacts" / "memory-prune"
+    out_dir = artifacts_dir(user_dir) / "memory-prune"
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"{stamp}-prune.md"
     header = (
@@ -262,7 +262,7 @@ def main() -> int:
     p.add_argument(
         "--apply",
         action="store_true",
-        help="Rewrite self-memory.md and write artifact under artifacts/memory-prune/",
+        help="Rewrite self-memory.md and write artifact under runtime/artifacts/memory-prune/",
     )
     p.add_argument(
         "--archive",

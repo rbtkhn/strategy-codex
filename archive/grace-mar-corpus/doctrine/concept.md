@@ -47,7 +47,7 @@ The Record records; the Voice speaks the Record. The Record does not command; th
 
 ## 4. Education structure
 
-**Identity and instrument.** The Record (including self-knowledge, self-identity, self-curiosity, self-personality, and evidence) is the **identity** — the unique personal representation of the companion-self; the knowledge boundary protects it. The skill containers **THINK**, **WRITE**, and **WORK** are **instruments** for learning, expressing, and making; **self-skill-steward (STEWARD)** tracks **governance literacy** — how the companion participates in the gate and boundary vocabulary — also evidence-linked and human-gated, without replacing **Mind** as merge authority. Instruments can use any tools (including heavy AI); only human-gated results from their use update the identity.
+**Identity and instrument.** The Record (including self-knowledge, self-identity, self-curiosity, self-personality, and archive/placeholders/evidence) is the **identity** — the unique personal representation of the companion-self; the knowledge boundary protects it. The skill containers **THINK**, **WRITE**, and **WORK** are **instruments** for learning, expressing, and making; **self-skill-steward (STEWARD)** tracks **governance literacy** — how the companion participates in the gate and boundary vocabulary — also evidence-linked and human-gated, without replacing **Mind** as merge authority. Instruments can use any tools (including heavy AI); only human-gated results from their use update the identity.
 
 Companion-Self education is **structured** around **THINK**, **WRITE**, and **WORK**; **STEWARD** is an additional **split-template** capability surface for membrane participation:
 
@@ -68,7 +68,7 @@ In schema, APIs, and export we use the tags **THINK**, **WRITE**, **WORK**, and 
 | **self-curiosity** | IX-B | What they are curious about, interests, questions. |
 | **self-personality** | IX-C | Voice, preferences, values, narrative—how they see themselves and express. |
 
-The pipeline stages THINK activity and suggests merges into IX-A, IX-B, or IX-C; the companion gates what actually enters. **Post-seed growth lives in the three dimension files:** **self-knowledge.md** (IX-A), **self-curiosity.md** (IX-B), **self-personality.md** (IX-C). self.md holds identity and baseline (I–VIII); it may optionally point to or summarize the three files, but the **source of truth** for IX-A/B/C is the three files. Merge and Voice read from them. So THINK feeds **who they are** (self.md baseline + these three) as well as **what they can do** (self-skill-think, evidence).
+The pipeline stages THINK activity and suggests merges into IX-A, IX-B, or IX-C; the companion gates what actually enters. **Post-seed growth lives in the three dimension files:** **self-knowledge.md** (IX-A), **self-curiosity.md** (IX-B), **self-personality.md** (IX-C). self.md holds identity and baseline (I–VIII); it may optionally point to or summarize the three files, but the **source of truth** for IX-A/B/C is the three files. Merge and Voice read from them. So THINK feeds **who they are** (self.md baseline + these three) as well as **what they can do** (self-skill-think, archive/placeholders/evidence).
 
 **Skill flow and the three dimensions:**
 
@@ -89,7 +89,7 @@ This pattern is architectural: WORK is an instrument that uses the identity (inc
 
 **APIs and integrations skill-work can connect to:**
 
-- **Instance APIs (inbound):** POST activity with `skill_tag: WORK` to stage “we did X” (project, build, creation); merge writes to self-evidence, self-skill-work, and optionally the dimension files. GET /api/record and GET /api/edge expose WORK edge for “what to build next.” GET /api/export (curriculum_profile) includes WORK edge and evidence so external systems can suggest or adapt to projects.
+- **Instance APIs (inbound):** POST activity with `skill_tag: WORK` to stage “we did X” (project, build, creation); merge writes to self-evidence, self-skill-work, and optionally the dimension files. GET /api/record and GET /api/edge expose WORK edge for “what to build next.” GET /api/export (curriculum_platform/profile) includes WORK edge and evidence so external systems can suggest or adapt to projects.
 - **Export consumers (outbound):** Curriculum, tutor, or project-suggestion services that **read** the Record (knowledge, curiosity, personality, WORK edge) and return suggested projects, workshops, or “next best action” for making/doing. Companion-Self does not mandate specific vendors; the export schema is the contract.
 - **Evidence ingestion (inbound):** Optional webhook or callback for “activity completed” so an external tool (e.g. project app, workshop platform, maker portfolio) can **push** WORK completion into the instance pipeline as a candidate; the companion still gates merge. No direct write to the Record by third parties—stage only.
 - **Life skills / project templates:** Instance or ecosystem can provide WORK templates, workshop-in-a-box prompts, or links to project libraries; these consume the Record (e.g. edge, interests) to propose work. Integration pattern: pull export → suggest project → user does it → capture via “we did X” or callback → pipeline stages → gate.
@@ -153,7 +153,7 @@ Instances may implement distinct modes that govern what the agent or system may 
 | **Session** | Interactive conversation with companion | Respond as Voice; propose activities. Do not merge. Stage only when pipeline signals fire. |
 | **Pipeline** | Process staged candidates | Detect signals, stage to gate, or on approval merge into Record via governed process. |
 | **Query** | Browse or answer questions about the Record | Read-only. Report what is documented. Do not edit. |
-| **Maintenance** | End-of-day consolidation (`dream`) | Run bounded maintenance: normalize ephemeral memory, check integrity, refresh derived artifacts. Read-only with respect to the Record; may write to ephemeral surfaces (self-memory, handoff artifacts). No merge authority. |
+| **Maintenance** | End-of-day consolidation (`dream`) | Run bounded maintenance: normalize ephemeral memory, check integrity, refresh derived artifacts. Read-only with respect to the Record; may write to ephemeral surfaces (self-memory, handoff runtime/artifacts). No merge authority. |
 
 When in doubt, default to Session (conversational, no merges). Instances may add modes (e.g. grace-mar adds work-specific operator modes); the four above are the structural baseline.
 

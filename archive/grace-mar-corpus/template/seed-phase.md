@@ -37,7 +37,7 @@ Canonical stages **0–7** are defined in **[seed-phase-stages.md](seed-phase-st
 
 ## Required outputs
 
-The artifact set (file names, roles, layout) is specified in **[seed-phase-artifacts.md](seed-phase-artifacts.md)**. Every artifact has a **JSON Schema** under `schema-registry/` (see [schema-record-api.md](schema-record-api.md)).
+The artifact set (file names, roles, layout) is specified in **[seed-phase-artifacts.md](seed-phase-artifacts.md)**. Every artifact has a **JSON Schema** under `schemas/registry/` (see [schema-record-api.md](schema-record-api.md)).
 
 ---
 
@@ -45,7 +45,7 @@ The artifact set (file names, roles, layout) is specified in **[seed-phase-artif
 
 Seed Phase includes **`seed_intent.json`**: explicit purpose, boundaries, supported and unsupported workflows, and review-sensitive zones for the future instance. It complements intake and identity artifacts; it does not replace them.
 
-See **[seed-phase-intent.md](seed-phase-intent.md)** and **`schema-registry/seed-intent.v1.json`**.
+See **[seed-phase-intent.md](seed-phase-intent.md)** and **`schemas/registry/seed-intent.v1.json`**.
 
 ---
 
@@ -133,7 +133,7 @@ Why this matters: the repo already treats seed phase as a defined artifact pipel
 
 | Location | Role |
 |----------|------|
-| **This template repo** | Defines protocol, schemas, `_template` scaffold, `demo` example, validation scripts. |
+| **This template repo** | Defines protocol, schemas, `platform/template` scaffold, `demo` example, validation scripts. |
 | **Instance repo** (e.g. Grace-Mar) | Holds real ``; may run operator wizards; must align with template schema versions when syncing upgrades. |
 
 ---
@@ -148,11 +148,11 @@ Why this matters: the repo already treats seed phase as a defined artifact pipel
 | Artifacts | [seed-phase-artifacts.md](seed-phase-artifacts.md) |
 | Survey prompts | [seed-phase-survey.md](seed-phase-survey.md) |
 | Validation | [seed-phase-validation.md](seed-phase-validation.md) |
-| Schemas | `schema-registry/seed-*.v1.json` |
+| Schemas | `schemas/registry/seed-*.v1.json` |
 | Validator | `scripts/validate-seed-phase.py` |
 | Dossier generator | `scripts/generate-seed-dossier.py` |
 | Cursor pack from intake | Optional `cursor_operator_profile` on `seed_intake.json` — [cursor-pack-from-seed.md](cursor-pack-from-seed.md) |
-| Template scaffold | `_template/seed-phase/` |
+| Template scaffold | `platform/template/seed-phase/` |
 | Demo example | `demo/seed-phase/` |
 
 ---

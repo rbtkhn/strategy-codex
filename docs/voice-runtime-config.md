@@ -22,7 +22,7 @@ Repo-root **`runtime_config.json`** (copy from **`runtime_config.example.json`**
 
 ---
 
-## Avatar active (grace-mar `bot/avatar_controller.py`)
+## Avatar active (grace-mar `archive/grace-mar-instance/bot/avatar_controller.py`)
 
 The avatar layer is **active** only when:
 

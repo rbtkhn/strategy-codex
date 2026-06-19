@@ -37,7 +37,7 @@ DEFAULT_INBOX = (
     / "docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md"
 )
 DEFAULT_OUT = (
-    REPO_ROOT / "artifacts/skill-work/work-strategy/batch-analysis-snapshot.json"
+    REPO_ROOT / "runtime/artifacts/skill-work/work-strategy/batch-analysis-snapshot.json"
 )
 
 SCHEMA_VERSION = 1

@@ -12,7 +12,7 @@
 
 Tag legend: `must_fix` | `should_fix` | `defer` | `reject` | `already_solved`
 
-Boundary legend: `runtime` | `gate` | `review-queue` | `Record` | `notebook` | `observability` | `docs_only`
+Boundary legend: `runtime` | `gate` | `archive/queues/review-queue` | `Record` | `notebook` | `observability` | `docs_only`
 
 | # | Insight | Tag | Boundary | Depends on | Blocks |
 |---|---------|-----|----------|------------|--------|
@@ -46,7 +46,7 @@ After merge, **high-impact gate candidates** can carry a **short, structured Com
 | Choice | Primary for PR1 | Rationale |
 |--------|------------------|-----------|
 | **Markdown** — `### Comprehension Envelope` under each `### CANDIDATE-XXXX` block in `recursion-gate.md` | **Yes** | Companion-facing, matches current staging; no schema migration. |
-| **JSON** — optional fields on `review-queue/proposals/*.json` | **Defer** | Add in a follow-on PR once heading shape is stable; avoid double validation. |
+| **JSON** — optional fields on `archive/queues/review-queue/proposals/*.json` | **Defer** | Add in a follow-on PR once heading shape is stable; avoid double validation. |
 
 **Source of truth for PR1:** the **gate markdown file**. Proposals may later mirror envelope text; until then, escalations exported to change-review carry gate context in the export flow as today.
 
@@ -90,10 +90,10 @@ Authoring rules: 1–2 sentences per bullet; concrete surfaces; `unknown` allowe
 | Area | Files |
 |------|--------|
 | Doctrine | This file; [comprehension-envelope-gate.md](comprehension-envelope-gate.md) (vocabulary + mapping); link from [recursion-gate-three-tier.md](../recursion-gate-three-tier.md) |
-| Template | [_template/recursion-gate.md](../../_template/recursion-gate.md); optional instance README under `` |
+| Template | [platform/template/recursion-gate.md](../../platform/template/recursion-gate.md); optional instance README under `` |
 | Validation | [validate_gate_comprehension_envelope.py](../../scripts/validate_gate_comprehension_envelope.py) (presence for `envelope_class: required`; `--strict` optional) |
-| UI | [apps/gate-review-app.py](../../apps/gate-review-app.py) (follow-on PR) |
-| Schema | [schema-registry/change-proposal.v1.json](../../schema-registry/change-proposal.v1.json) (defer) |
+| UI | [platform/apps/gate-review-app.py](../../platform/apps/gate-review-app.py) (follow-on PR) |
+| Schema | [schemas/registry/change-proposal.v1.json](../../schemas/registry/change-proposal.v1.json) (defer) |
 
 ### Acceptance criteria (design phase complete)
 
@@ -115,9 +115,9 @@ Authoring rules: 1–2 sentences per bullet; concrete surfaces; `unknown` allowe
 - **Acceptance:** Doc merged; See also link; no contradictions with IFP / gate-vs-change-review.
 - **Anti-goals:** No template edits; no validator.
 
-### PR2 — Template: stub + `_template` + guidance
+### PR2 — Template: stub + `platform/template` + guidance
 
-- **Purpose:** Add Comprehension Envelope stub and `envelope_class` guidance to [_template/recursion-gate.md](../../_template/recursion-gate.md) and short operator blurb in docs.
+- **Purpose:** Add Comprehension Envelope stub and `envelope_class` guidance to [platform/template/recursion-gate.md](../../platform/template/recursion-gate.md) and short operator blurb in docs.
 - **Why second:** New instances get correct shape.
 - **Capability:** Copy-paste correctness.
 - **Acceptance:** Template renders; examples for `none` vs `required` classes.
@@ -133,7 +133,7 @@ Authoring rules: 1–2 sentences per bullet; concrete surfaces; `unknown` allowe
 
 ### PR4 — Gate-review UI: scan order + prominence
 
-- **Purpose:** [apps/gate-review-app.py](../../apps/gate-review-app.py) (or doc-only if UI minimal): show envelope block first for `required` class; flag missing.
+- **Purpose:** [platform/apps/gate-review-app.py](../../platform/apps/gate-review-app.py) (or doc-only if UI minimal): show envelope block first for `required` class; flag missing.
 - **Why fourth:** Human scan path after automation exists.
 - **Capability:** Reviewer UX.
 - **Acceptance:** Screenshot or behavior note in PR; missing envelope visible for required class.
@@ -141,7 +141,7 @@ Authoring rules: 1–2 sentences per bullet; concrete surfaces; `unknown` allowe
 
 ### PR5 — Change-proposal optional fields (mirror)
 
-- **Purpose:** Optional `envelope` object or parallel fields in [schema-registry/change-proposal.v1.json](../../schema-registry/change-proposal.v1.json) for review-queue proposals; validation in `validate-change-review.py` path.
+- **Purpose:** Optional `envelope` object or parallel fields in [schemas/registry/change-proposal.v1.json](../../schemas/registry/change-proposal.v1.json) for review-queue proposals; validation in `validate-change-review.py` path.
 - **Why fifth:** JSON path catches material escalations.
 - **Capability:** Single envelope when proposal is SSOT for that change.
 - **Acceptance:** Schema validates; one fixture example.
@@ -165,7 +165,7 @@ Authoring rules: 1–2 sentences per bullet; concrete surfaces; `unknown` allowe
 |--------------------|------------------------|
 | Tier name collision with gate traffic tiers | PR1 + `envelope_class` vocabulary doc |
 | Duplicate `riskLevel` / `queueSummary` | Authoring rule: envelope complements summary; one line in template |
-| “Strategy-significant” vague | Tie `required` to explicit triggers: e.g. `targetSurface` in `SELF`, `bot/prompt.py`, `schema-registry/*`, `STRATEGY.md`, `export` / handoff paths — list in [comprehension-envelope-gate.md](comprehension-envelope-gate.md) |
+| “Strategy-significant” vague | Tie `required` to explicit triggers: e.g. `targetSurface` in `SELF`, `archive/grace-mar-instance/bot/prompt.py`, `schemas/registry/*`, `STRATEGY.md`, `export` / handoff paths — list in [comprehension-envelope-gate.md](comprehension-envelope-gate.md) |
 | Markdown vs JSON both | PR1 markdown primary; PR5 JSON mirror |
 | Validation failure mode undefined | Phase 2: soft human + optional script; `--strict` documented; merge script unchanged until companion asks |
 | Tier 1 “recommended” fuzzy | v1: only `none` vs `optional` vs `required`; drop “recommended” or map `optional` to soft lint only |

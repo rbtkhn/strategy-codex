@@ -58,7 +58,7 @@ def canonical_transcript_header(expert_id: str) -> str:
         f"**Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.\n"
         f"**Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs "
         f"(append-only, not overwrite).\n"
-        f"**Companion files:** [`strategy-expert-{expert_id}.md`](strategy-expert-{expert_id}.md) (profile) "
+        f"**Companion files:** [`strategy-expert-{expert_id}.md`](strategy-expert-{expert_id}.md) (platform/profile) "
         f"and [`strategy-expert-{expert_id}-thread.md`](strategy-expert-{expert_id}-thread.md) (distilled thread).\n"
         f"\n"
         f"---\n"

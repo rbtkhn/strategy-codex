@@ -13,7 +13,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 def tmp_user_profile(tmp_path, monkeypatch):
     """Minimal  tree with gate + pipeline-events.jsonl."""
     uid = "perf-test-user"
-    ud = tmp_path / "users" / uid
+    ud = tmp_path / "platform/users" / uid
     ud.mkdir(parents=True)
     gate = ud / "recursion-gate.md"
     gate.write_text(
@@ -75,14 +75,14 @@ profile_target: IX-B.1
     def _pd(u: str):
         if u == uid:
             return ud
-        return REPO_ROOT / "users" / u
+        return REPO_ROOT / "platform/users" / u
 
     monkeypatch.setattr(rgr, "_profile_dir", _pd)
     monkeypatch.setattr(rgr, "DEFAULT_USER", uid)
     return uid, rgr, ud
 
 
-def test_pipeline_events_index_last_eight_per_candidate(tmp_user_profile):
+def test_pipeline_events_index_last_eight_per_candidate(tmp_user_platform/profile):
     uid, rgr, _ud = tmp_user_profile
     idx = rgr._pipeline_events_index(uid)
     assert len(idx["CANDIDATE-0001"]) == 8
@@ -91,7 +91,7 @@ def test_pipeline_events_index_last_eight_per_candidate(tmp_user_profile):
     assert idx["CANDIDATE-0002"][-1]["ts"] == "2025-01-02T00:00:14Z"
 
 
-def test_parse_review_candidates_reads_pipeline_file_once(tmp_user_profile):
+def test_parse_review_candidates_reads_pipeline_file_once(tmp_user_platform/profile):
     uid, rgr, ud = tmp_user_profile
     pe = ud / "pipeline-events.jsonl"
     real_read = Path.read_text
@@ -110,7 +110,7 @@ def test_parse_review_candidates_reads_pipeline_file_once(tmp_user_profile):
     assert len(rows[0]["audit_trail"]) <= 8
 
 
-def test_pipeline_events_for_candidate_matches_index(tmp_user_profile):
+def test_pipeline_events_for_candidate_matches_index(tmp_user_platform/profile):
     uid, rgr, _ud = tmp_user_profile
     idx = rgr._pipeline_events_index(uid)
     assert rgr._pipeline_events_for_candidate(uid, "CANDIDATE-0001") == idx["CANDIDATE-0001"]

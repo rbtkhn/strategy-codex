@@ -21,8 +21,8 @@ Each source needs a stable **`source_id`**, **`title`**, and **either `url` or `
 
 ## Output format
 
-- **Markdown stub** under [`artifacts/evidence-stubs/`](../../artifacts/evidence-stubs/) with YAML front matter and prominent lines: **PRE-CANONICAL Â· WORK ARTIFACT Â· NOT APPROVED RECORD**.
-- **MCP execution receipt** under [`artifacts/mcp-receipts/`](../../artifacts/mcp-receipts/) using capability **`evidence_stub_operator_template`** by default â€” see [`docs/mcp/mcp-execution-receipts.md`](mcp-execution-receipts.md).
+- **Markdown stub** under [`runtime/artifacts/evidence-stubs/`](../../runtime/artifacts/evidence-stubs/) with YAML front matter and prominent lines: **PRE-CANONICAL Â· WORK ARTIFACT Â· NOT APPROVED RECORD**.
+- **MCP execution receipt** under [`runtime/artifacts/mcp-receipts/`](../../runtime/artifacts/mcp-receipts/) using capability **`evidence_stub_operator_template`** by default â€” see [`docs/mcp/mcp-execution-receipts.md`](mcp-execution-receipts.md).
 
 ---
 
@@ -37,7 +37,7 @@ Every run emits a **validated** receipt (`schema_version` 1) tying **`resources_
 | Stage | Role |
 |-------|------|
 | Research JSON | Operator-structured capture; no Record truth. |
-| Evidence stub (this adapter) | Pre-canonical markdown under `artifacts/`; labeled non-canonical. |
+| Evidence stub (this adapter) | Pre-canonical markdown under `runtime/artifacts/`; labeled non-canonical. |
 | Candidate proposal | Structured YAML/text for [`recursion-gate.md`](../../recursion-gate.md) â€” separate step. |
 | Approved Record evidence | After companion approval / merge scripts â€” **not** automatic from this tool. |
 
@@ -56,6 +56,6 @@ This adapter **does not** edit [`strategy-notebook/`](../skill-work/work-strateg
 ```bash
 python3 scripts/research_to_evidence_stub.py \
   --input examples/research-evidence-input.example.json \
-  --output artifacts/evidence-stubs/my-topic.md
+  --output runtime/artifacts/evidence-stubs/my-topic.md
 ```
 

@@ -91,7 +91,7 @@ II.E. MARITIME GATEWAY FUNCTION
 The North Sea connects Germanic river systems to global trade:
 • Elbe → Hamburg → North Sea
 • Weser → Bremen → North Sea
-• Rhine → Rotterdam (Dutch, but Germanic commercial extension)
+• Rhine → Rotterdam (Dutch, but Germanic commercial platform/extension)
 
 This gateway function makes the North Sea economically essential while
 remaining strategically contested.

@@ -8,7 +8,7 @@ tags:
 - operator
 - work-politics
 - social
-portable_source: skills-portable/politics-massie/SKILL.md
+portable_source: skills/politics-massie/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Massie X — real-time news search and draft posts

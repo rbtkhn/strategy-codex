@@ -73,7 +73,7 @@ Document policy in the file header / **Long-term** block. Optional: `expires: YY
 
 `python3 scripts/prune_self_memory.py -u <id> --dry-run` then `--apply`
 
-Removed text is written to **`artifacts/memory-prune/`**. With **`--archive`**, the same excerpt is also appended under **`self-archive.md` § IX** (continuity housekeeping — not a substitute for gated merges). This does **not** bypass RECURSION-GATE for identity or knowledge claims; it preserves **continuity buffer** text that would otherwise be discarded.
+Removed text is written to **`runtime/artifacts/memory-prune/`**. With **`--archive`**, the same excerpt is also appended under **`self-archive.md` § IX** (continuity housekeeping — not a substitute for gated merges). This does **not** bypass RECURSION-GATE for identity or knowledge claims; it preserves **continuity buffer** text that would otherwise be discarded.
 
 The Voice loads horizons in order (**short → medium → long**) with **per-section line caps** in code to limit prompt size.
 

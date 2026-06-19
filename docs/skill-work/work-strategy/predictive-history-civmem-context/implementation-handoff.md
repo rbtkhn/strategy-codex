@@ -32,7 +32,7 @@ That transformation should improve:
 Before implementing, identify in the actual Predictive History repo:
 
 - the existing authoring surface that already functions as the canonical
-  **evidence/media pack**
+  **archive/placeholders/evidence/media pack**
 - the canonical **lecture/chapter entry** surface
 - the lightest suitable authority surface for the active voice profile
 
@@ -86,7 +86,7 @@ Anti-failure rule:
 
 ## Pack contract
 
-Extend the canonical evidence/media pack with a stable CIV-MEM orientation
+Extend the canonical archive/placeholders/evidence/media pack with a stable CIV-MEM orientation
 section.
 
 Required behavior:

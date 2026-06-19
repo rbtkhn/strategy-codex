@@ -125,7 +125,7 @@ review_notes: null
 
 ## Processed
 """
-    user = tmp_path / "users" / "grace-mar"
+    user = tmp_path / "platform/users" / "grace-mar"
     user.mkdir(parents=True)
     (user / "self.md").write_text("# s\n", encoding="utf-8")
     (user / "recursion-gate.md").write_text(gate, encoding="utf-8")

@@ -50,7 +50,7 @@ def _git_log_record_commits(user_id: str, days: int) -> list[dict]:
     """Get commits touching Record files in the window."""
     since = (date.today() - timedelta(days=days)).isoformat()
     profile_root = profile_dir(user_id)
-    paths = [str((profile_root / f).relative_to(REPO_ROOT)) for f in RECORD_FILES] + ["bot/prompt.py"]
+    paths = [str((profile_root / f).relative_to(REPO_ROOT)) for f in RECORD_FILES] + ["archive/grace-mar-instance/bot/prompt.py"]
 
     try:
         r = subprocess.run(
@@ -270,7 +270,7 @@ def compute_digest(user_id: str, days: int = DEFAULT_DAYS) -> dict:
             "recent": commits[:5],
         },
         "pipeline": pipeline,
-        "evidence": {
+        "archive/placeholders/evidence": {
             "new_in_window": recent_evidence,
             "total": total_evidence,
         },
@@ -298,13 +298,13 @@ def format_digest(d: dict) -> str:
     lines.append("")
 
     lines.append("## Evidence Growth")
-    new_ev = d["evidence"]["new_in_window"]
+    new_ev = d["archive/placeholders/evidence"]["new_in_window"]
     if new_ev:
         parts = [f"{t}: +{c}" for t, c in sorted(new_ev.items())]
         lines.append(f"- New in window: {', '.join(parts)}")
     else:
         lines.append("- New in window: none")
-    total_ev = d["evidence"]["total"]
+    total_ev = d["archive/placeholders/evidence"]["total"]
     if total_ev:
         parts = [f"{t}: {c}" for t, c in sorted(total_ev.items())]
         lines.append(f"- Total: {', '.join(parts)}")
@@ -332,7 +332,7 @@ def format_digest(d: dict) -> str:
     if cg:
         lines.append("## Capture Health")
         level = cg.get("level", "unknown")
-        days_since = cg.get("days_since_evidence")
+        days_since = cg.get("days_since_archive/placeholders/evidence")
         eid = cg.get("last_evidence_id", "?")
         if days_since is not None:
             lines.append(f"- {level.upper()}: {days_since}d since {eid}")

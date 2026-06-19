@@ -21,9 +21,10 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import SRC_DIR
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
 

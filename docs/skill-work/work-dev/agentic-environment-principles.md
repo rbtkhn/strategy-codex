@@ -67,7 +67,7 @@ Products that advertise **100% local** models, **Docker** sandboxes, or **chat v
 ### (a) Explicit data residency and role split
 
 - **Data residency:** Decide per workload: **repo-only / export bundle** vs **cloud chat**. Sensitive or identity-adjacent work belongs in **files and bounded flows**, not pasted into arbitrary UIs. Use **[agent-surface-template.yaml](agent-surface-template.yaml)** — `runtime.placement` and related fields — when evaluating a new tool.
-- **Role split:** Do not collapse **reasoning**, **cheap background work**, and **retrieval** into one undifferentiated “the AI.” In this repo, the bot already separates concerns ([`bot/prompt.py`](../../../bot/prompt.py) — SYSTEM vs ANALYST vs LOOKUP / rephrase). External stacks that expose **chat / utility / embedding** models are the same *idea*: match surface to job so you can **measure** and **audit** each path.
+- **Role split:** Do not collapse **reasoning**, **cheap background work**, and **retrieval** into one undifferentiated “the AI.” In this repo, the bot already separates concerns ([`archive/grace-mar-instance/bot/prompt.py`](../../../archive/grace-mar-instance/bot/prompt.py) — SYSTEM vs ANALYST vs LOOKUP / rephrase). External stacks that expose **chat / utility / embedding** models are the same *idea*: match surface to job so you can **measure** and **audit** each path.
 
 ### (b) Bounded execution for anything that can touch the repo or staging
 

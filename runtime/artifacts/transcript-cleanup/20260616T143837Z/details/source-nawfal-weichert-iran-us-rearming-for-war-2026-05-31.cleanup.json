@@ -1,0 +1,62 @@
+{
+  "source_path": "source-archive/statecraft/2026-05-31/source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.md",
+  "output_path": "source-archive/statecraft/2026-05-31/source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleaned.md",
+  "status": "cleaned",
+  "cleanup_score": 92,
+  "cleanup_grade": "cleaned-transcript-80",
+  "source_word_count": 11337,
+  "cleaned_word_count": 11337,
+  "corrections": {},
+  "residual_noise_terms": [],
+  "components": {
+    "frontmatter_integrity": {
+      "score": 10,
+      "max": 10,
+      "passed": true
+    },
+    "provenance_integrity": {
+      "score": 5,
+      "max": 5,
+      "passed": true,
+      "issues": []
+    },
+    "caption_artifact_removal": {
+      "score": 15,
+      "max": 15,
+      "passed": true,
+      "removed": 0
+    },
+    "repeated_fragment_collapse": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "removed": 0
+    },
+    "paragraph_reflow": {
+      "score": 12,
+      "max": 20,
+      "passed": false,
+      "source_lines": 171,
+      "cleaned_paragraphs": 81
+    },
+    "proper_noun_normalization": {
+      "score": 20,
+      "max": 20,
+      "passed": true,
+      "corrections": {}
+    },
+    "speaker_turns_where_clear": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "required": true
+    },
+    "residual_noise_scan": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "terms": []
+    }
+  },
+  "cleanup_receipt": "runtime/artifacts/transcript-cleanup/20260616T143837Z/details/source-nawfal-weichert-iran-us-rearming-for-war-2026-05-31.cleanup.json"
+}

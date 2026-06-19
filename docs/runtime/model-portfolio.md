@@ -1,6 +1,6 @@
 # Model Portfolio
 
-**Status:** Human guide for runtime routing. Does not change `config/model_routing/*.yaml`.
+**Status:** Human guide for runtime routing. Does not change `platform/config/model_routing/*.yaml`.
 
 Grace-Mar should use a portfolio of model capabilities rather than treating one model as the whole stack. The existing routing YAML remains the machine-readable policy surface; this document explains the operating shape in human terms.
 
@@ -18,8 +18,8 @@ Grace-Mar should use a portfolio of model capabilities rather than treating one 
 
 Use these as the current source for executable routing policy:
 
-- `config/model_routing/model_tiers.yaml`
-- `config/model_routing/task_policy.yaml`
+- `platform/config/model_routing/model_tiers.yaml`
+- `platform/config/model_routing/task_policy.yaml`
 - `docs/runtime/model-tier-routing.md`
 - `scripts/runtime/model_policy.py`
 

@@ -14,11 +14,11 @@
 
 | Asset | Location | Role |
 |-------|----------|------|
-| Profile pages | `profile/` → static HTML | Identity, interests, curiosity, skills summary |
-| LLM flow | `profile/llm/` | Paste PRP; chat with fork in external LLM |
-| Telegram redirect | `profile/telegram/` | Link to bot |
-| WeChat redirect | `profile/wechat/` | Link to bot |
-| Playlist placeholder | `profile/playlist/` | Reserved |
+| Profile pages | `platform/profile/` → static HTML | Identity, interests, curiosity, skills summary |
+| LLM flow | `platform/profile/llm/` | Paste PRP; chat with fork in external LLM |
+| Telegram redirect | `platform/profile/telegram/` | Link to bot |
+| WeChat redirect | `platform/profile/wechat/` | Link to bot |
+| Playlist placeholder | `platform/profile/playlist/` | Reserved |
 
 **Gap:** No hosted chat at grace-mar.com. Chat lives in Telegram/WeChat only. Admissions use case and families without messaging apps have no web chat.
 
@@ -47,11 +47,11 @@ Grace-mar.com becomes the **primary front door** for Grace-Mar:
 | **Chat page** | `/chat` or `/me/<user-id>` — ask, get response. Reuse bot core (`run_grounded_response`, retriever, prompt). |
 | **Admissions mode** | Time-limited token; reviewer sees applicant's fork; read-only. See [ADMISSIONS-LINK-USE-CASE](admissions-link-use-case.md). |
 | **API** | `/api/ask` (or equivalent) — accepts question + user_id/token; returns Voice response. Stateless. |
-| **Landing** | Improve profile/index.html — clear entry points: Chat, Profile, LLM, Telegram, WeChat. |
+| **Landing** | Improve platform/profile/index.html — clear entry points: Chat, Profile, LLM, Telegram, WeChat. |
 
 **Tech:** Static HTML/CSS/JS for front-end; backend API (Python, FastAPI or Flask) wrapping bot core. Host on existing infra.
 
-**Dependencies:** bot/core.py, bot/retriever.py, bot/prompt.py; PRP export.
+**Dependencies:** archive/grace-mar-instance/bot/core.py, archive/grace-mar-instance/bot/retriever.py, archive/grace-mar-instance/bot/prompt.py; PRP export.
 
 ---
 
@@ -68,7 +68,7 @@ Grace-mar.com becomes the **primary front door** for Grace-Mar:
 | **Export** | Trigger export (PRP, curriculum_profile, etc.) from web; download. |
 | **Auth** | **Partial:** Shared family token + operator secret for review; not full login/OAuth. |
 
-**Tech:** `miniapp/family-hub.html`, `apps/miniapp_server.py` family routes.
+**Tech:** `platform/miniapp/family-hub.html`, `platform/apps/miniapp_server.py` family routes.
 
 **Dependencies:** Pipeline scripts; user dir structure.
 
@@ -113,9 +113,9 @@ grace-mar.com
 
 | Component | Reuse |
 |-----------|-------|
-| Voice logic | bot/core.py — `run_grounded_response`, prompt assembly |
-| Retrieval | bot/retriever.py — load_record_chunks |
-| Prompt | bot/prompt.py — SYSTEM_PROMPT, etc. |
+| Voice logic | archive/grace-mar-instance/bot/core.py — `run_grounded_response`, prompt assembly |
+| Retrieval | archive/grace-mar-instance/bot/retriever.py — load_record_chunks |
+| Prompt | archive/grace-mar-instance/bot/prompt.py — SYSTEM_PROMPT, etc. |
 | Export | scripts/export_prp.py, export_curriculum.py |
 | Pipeline | scripts/process_approved_candidates.py |
 

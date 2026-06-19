@@ -12,7 +12,7 @@ Companion to [root-directory-map.md](root-directory-map.md) and [operator-surfac
 |-------|-----------|
 | Frozen Record markdown at root | Canonical **only** after gated merge (fork revive) |
 | `runtime/operator-events/*.jsonl` | Append-only operator ledgers — **not** Record |
-| `daily-handoff/*.json` | Dream / coffee continuity — **not** Record |
+| `runtime/daily-handoff/*.json` | Dream / coffee continuity — **not** Record |
 | Root `*.jsonl` (harness, compute) | Operator-local — **not** Record |
 | `drift-report.json`, `fork_state.json` | Derived posture — **not** Record |
 
@@ -33,7 +33,7 @@ Companion to [root-directory-map.md](root-directory-map.md) and [operator-surfac
 
 ---
 
-## Dream handoff (`daily-handoff/`)
+## Dream handoff (`runtime/daily-handoff/`)
 
 | File | Producer | Operator use |
 |------|----------|--------------|
@@ -60,4 +60,4 @@ Companion to [root-directory-map.md](root-directory-map.md) and [operator-surfac
 
 - [runtime/operator-events/README.md](../runtime/operator-events/README.md)
 - [runtime-vs-record.md](runtime-vs-record.md)
-- [artifacts/README.md](../artifacts/README.md)
+- [runtime/artifacts/README.md](../runtime/artifacts/README.md)

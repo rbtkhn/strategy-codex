@@ -24,7 +24,7 @@
 - [STRATEGY-NOTEBOOK-ARCHITECTURE (SSOT path)](../../../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md)  
 - [strategy-notebook README](../../../work-strategy/strategy-notebook/README.md)  
 - [skill-strategy](../../../../../.cursor/skills/skill-strategy/SKILL.md) (Cursor)  
-- [OB1 / stack map](../../../../../docs/integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar) (optional)  
+- [OB1 / stack map](../../../../../docs/platform/integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar) (optional)  
 
 ## Hooks and policy (tight list)
 

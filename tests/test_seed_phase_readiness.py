@@ -13,7 +13,7 @@ def load_json(path: Path) -> dict:
 
 
 def test_demo_readiness_is_activation_eligible() -> None:
-    readiness = load_json(REPO_ROOT / "users" / "demo" / "seed-phase" / "seed_readiness.json")
+    readiness = load_json(REPO_ROOT / "platform/users" / "demo" / "seed-phase" / "seed_readiness.json")
     decision = readiness["readiness"]["decision"]
     assert decision in {"pass", "conditional_pass"}
 

@@ -42,7 +42,7 @@ _Numbered or bulleted steps. No vague â€œanalyze the repo.â€ Each step 
 
 ## 3. Inputs
 
-_List paths, inboxes, scripts, or runtime surfaces read. Link to docs or `config/` as needed._
+_List paths, inboxes, scripts, or runtime surfaces read. Link to docs or `platform/config/` as needed._
 
 ## 4. Output
 
@@ -59,7 +59,7 @@ _Name or role, expected review time, escalation if unavailable._
 
 ## 7. Non-authority statement
 
-This workflow may draft, summarize, route, or prepare reviewable material only within its declared **authority class**. It does **not** bypass [recursion-gate](../../../recursion-gate.md), does **not** write directly to durable Record surfaces (`self.md`, `self-archive.md`, `self-skills.md`, `bot/prompt.py`, or other canonical paths except through the governed merge path), and does **not** promote candidates without **human approval**.
+This workflow may draft, summarize, route, or prepare reviewable material only within its declared **authority class**. It does **not** bypass [recursion-gate](../../../recursion-gate.md), does **not** write directly to durable Record surfaces (`self.md`, `self-archive.md`, `self-skills.md`, `archive/grace-mar-instance/bot/prompt.py`, or other canonical paths except through the governed merge path), and does **not** promote candidates without **human approval**.
 
 ## 8. Load-lift evaluation
 
@@ -76,11 +76,11 @@ _What can go wrong; how the operator detects it; what to do (stop, revert draft,
 
 ## 10. Receipts / audit trail
 
-_Optional receipt types, paths under `artifacts/` or logs, pointers to [action receipts](../../action-receipts.md)._
+_Optional receipt types, paths under `runtime/artifacts/` or logs, pointers to [action receipts](../../action-receipts.md)._
 
 ### Load-Lift Receipt (optional)
 
-After **trial runs** or when moving toward `status: active`, consider emitting a [Load-Lift Receipt](load-lift-receipts.md) (schema: [`schema-registry/load-lift-receipt.v1.json`](../../../schema-registry/load-lift-receipt.v1.json)). Fields to fill (see spec for full semantics):
+After **trial runs** or when moving toward `status: active`, consider emitting a [Load-Lift Receipt](load-lift-receipts.md) (schema: [`schemas/registry/load-lift-receipt.v1.json`](../../../schemas/registry/load-lift-receipt.v1.json)). Fields to fill (see spec for full semantics):
 
 - `manual_baseline_minutes`
 - `workflow_run_minutes`
@@ -104,5 +104,5 @@ _One short fictional or redacted walkthrough._
 
 ---
 
-**Schema:** When this frontmatter is expressed as JSON for tooling, validate against [`schema-registry/known-path-workflow.v1.json`](../../../schema-registry/known-path-workflow.v1.json) (Draft 2020-12; optional keys `related_existing_surfaces`, `load_lift_metrics`, `promotion_path`).
+**Schema:** When this frontmatter is expressed as JSON for tooling, validate against [`schemas/registry/known-path-workflow.v1.json`](../../../schemas/registry/known-path-workflow.v1.json) (Draft 2020-12; optional keys `related_existing_surfaces`, `load_lift_metrics`, `promotion_path`).
 

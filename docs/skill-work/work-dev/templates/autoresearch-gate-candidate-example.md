@@ -17,7 +17,7 @@ provenance:
     - "[source URL or repo path]"
 target_surfaces:
   - "IX-B curiosity"
-  - "SKILLS evidence"
+  - "SKILLS archive/placeholders/evidence"
   - "SELF-LIBRARY reference"
 status: "pending human review"
 ```

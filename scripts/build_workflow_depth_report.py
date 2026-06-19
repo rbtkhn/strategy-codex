@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Batch workflow-depth audit: read append-only receipts JSONL, emit aggregate JSON (+ optional MD).
@@ -147,7 +148,7 @@ def main() -> int:
         "-o",
         type=Path,
         default=None,
-        help="JSON report path (default: artifacts/workflow-depth/workflow-depth-report.json)",
+        help="JSON report path (default: runtime/artifacts/workflow-depth/workflow-depth-report.json)",
     )
     ap.add_argument("--markdown", type=Path, default=None, help="Optional Markdown summary path")
     args = ap.parse_args()
@@ -157,7 +158,7 @@ def main() -> int:
     report = build_report(rows)
     out = args.output
     if out is None:
-        out = root / "artifacts" / "workflow-depth" / "workflow-depth-report.json"
+        out = ARTIFACTS_DIR / "workflow-depth" / "workflow-depth-report.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {out}", file=sys.stderr)

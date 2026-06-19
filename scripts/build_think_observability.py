@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emit artifacts/skill-think/think-observability.json from think-claims.json.
+"""Emit runtime/artifacts/skill-think/think-observability.json from think-claims.json.
 
 Does NOT merge into schema-registry observability-report.v1 (change-proposal shape).
 
@@ -16,13 +16,14 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
+from repo_io import SRC_DIR
 
 from grace_mar.observability.metric_contract import WORKFLOW_METRIC_KEY, fill_contract  # noqa: E402
-CLAIMS_PATH = REPO_ROOT / "artifacts/skill-think/think-claims.json"
-OUT_PATH = REPO_ROOT / "artifacts/skill-think/think-observability.json"
+CLAIMS_PATH = REPO_ROOT / "runtime/artifacts/skill-think/think-claims.json"
+OUT_PATH = REPO_ROOT / "runtime/artifacts/skill-think/think-observability.json"
 
 
 def _load_json_file(path: Path):

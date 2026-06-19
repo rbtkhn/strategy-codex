@@ -19,7 +19,7 @@
 >
 > **Intent (before approve — long agents / optimization framing):** Models optimize toward task completion; constraints must be explicit. Ask: (1) **What would I not want** even if this candidate "succeeds"? (2) **When should we stop and ask** the companion? (3) **If this conflicts with INTENT**, companion + INTENT win — reject or revise. See **design-notes §11.9** (Misalignment at the interface).
 >
-> Machine-written by **`bot/core.py`** (Telegram, WeChat, activity reports) and by **operator scripts** that stage here — only edit the `status` field (and optional rejection notes).
+> Machine-written by **`archive/grace-mar-instance/bot/core.py`** (Telegram, WeChat, activity reports) and by **operator scripts** that stage here — only edit the `status` field (and optional rejection notes).
 >
 > **Territory (work-politics vs companion):** For **work-politics** candidates, set **`territory: work-politics`** or **`channel_key: operator:wap`** (optionally `operator:wap:brief-name`). Operator tools then filter: `python scripts/operator_blocker_report.py -u grace-mar --territory wap` (work-politics territory only) or `--territory companion` (Record only). Same file, different lens.
 >
@@ -930,9 +930,9 @@ profile_target: IX-C. PERSONALITY
 priority_score: 4
 summary: "IX-C: delete PERS-004 — work rhythm / cadence belongs in skill-work + work-dev, not Record"
 target_surface: SELF_IX_C
-target_path: users/grace-mar/self.md
+target_path: platform/users/grace-mar/self.md
 proposed_change: |
-  In users/grace-mar/self.md IX-C `entries`, remove the entire list item with id PERS-004
+  In platform/users/grace-mar/self.md IX-C `entries`, remove the entire list item with id PERS-004
   ("Work rhythm — punctuated resets" / coffee / thanks / dream wording).
   Do not replace it with another IX-C row for cadence — ritual choices, frequencies, and
   work-cadence-events.md telemetry stay under docs/skill-work/work-cadence/, work-coffee/,
@@ -1039,7 +1039,7 @@ prompt_addition: none
 
 ```yaml
 status: rejected
-reason: "superseded by CANDIDATE-0025 (concrete U.S. constitutional facts + evidence)"
+reason: "superseded by CANDIDATE-0025 (concrete U.S. constitutional facts + archive/placeholders/evidence)"
 timestamp: 2026-04-26 02:50:01
 channel_key: operator:cursor:stage-paste
 source: operator — scripts/stage_gate_candidate.py
@@ -1348,7 +1348,7 @@ signal_type: lane_engagement
 profile_target: IX-B. CURIOSITY
 status: approved
 channel_key: operator:cursor
-source: users/grace-mar/work-jiang.md, LIB-0149
+source: platform/users/grace-mar/work-jiang.md, LIB-0149
 summary: "Jiang philosophy and Predictive History"
 merged_as: CUR-0002
 ```
@@ -1400,7 +1400,7 @@ signal_type: library_shelf
 profile_target: IX-B. CURIOSITY
 status: approved
 channel_key: operator:cursor
-source: users/grace-mar/self-library.md
+source: platform/users/grace-mar/self-library.md
 summary: "Theology"
 merged_as: CUR-0006
 ```

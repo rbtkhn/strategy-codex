@@ -13,7 +13,7 @@ Control the transition from a **reviewed** proposal to an update of **governed s
 ## Requirements
 
 - **Explicit decision** — decision record and/or proposal `status` aligned with instance rules.
-- **Preserved prior state or diff** — history remains inspectable ([`schema-registry/identity-diff.v1.json`](../../schema-registry/identity-diff.v1.json) when used; `scripts/generate-identity-diff.py` for Markdown views).
+- **Preserved prior state or diff** — history remains inspectable ([`schemas/registry/identity-diff.v1.json`](../../schemas/registry/identity-diff.v1.json) when used; `scripts/generate-identity-diff.py` for Markdown views).
 - **Durable trace** — why the change happened (queue summary, notes, event log).
 - **Merge path limited to authorized surfaces** — no cross-surface silent edits outside policy.
 

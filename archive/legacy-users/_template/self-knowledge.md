@@ -28,4 +28,4 @@ Observation-based facts that have entered the Record. Link to self-evidence (act
 
 ---
 
-*Do not use this file as a live Record. Copy to `users/<new_id>/self-knowledge.md` in an instance and replace placeholders with real data.*
+*Do not use this file as a live Record. Copy to `platform/users/<new_id>/self-knowledge.md` in an instance and replace placeholders with real data.*

@@ -97,7 +97,7 @@ V. IMPLEMENTATION ORDER (RECOMMENDED)
 11. **MEM–ANGLIA–WAR–NAPOLEON** — Add Kissinger SOURCE (*A World Restored* on post-Napoleonic order, Congress of Vienna).
 12. **MEM–ANGLIA–DYNASTY–HANOVER** — Add Kissinger SOURCE (*A World Restored* on Vienna settlement, British restraint).
 13. **MEM–ANGLIA–PALMERSTON** — Add Kissinger SOURCE (*Diplomacy* on Palmerston, liberal intervention, balance of power).
-14. **MEM–ANGLIA–WAR–SEVEN–YEARS** — Add Kissinger SOURCE (*Diplomacy* on victory and overextension).
+14. **MEM–ANGLIA–WAR–SEVEN–YEARS** — Add Kissinger SOURCE (*Diplomacy* on victory and overplatform/extension).
 15. **MEM–ANGLIA–WAR–NAPOLEON–WATERLOO** — Add Kissinger SOURCE (*A World Restored* on Waterloo and Vienna).
 
 **Phase 4 — New MEM (optional):**

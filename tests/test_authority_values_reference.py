@@ -8,7 +8,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def _load_reference() -> dict:
-    path = REPO_ROOT / "schema-registry" / "authority-values.v1.json"
+    path = REPO_ROOT / "schemas/registry" / "authority-values.v1.json"
     return json.loads(path.read_text(encoding="utf-8"))
 
 

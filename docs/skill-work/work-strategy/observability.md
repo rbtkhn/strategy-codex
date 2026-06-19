@@ -10,7 +10,7 @@ See [runtime-vs-record.md](../../runtime-vs-record.md) and [AGENTS.md](../../../
 
 | Surface | Script | Output | What it measures |
 |--------|--------|--------|------------------|
-| **Notebook / doctrine hygiene** | [`scripts/build_strategy_observability.py`](../../../scripts/build_strategy_observability.py) | `artifacts/work-strategy/strategy-observability.json` | Decision points, inbox depth, `days.md` structure, STRATEGY promotion proxies — judgment **notebook** health. |
+| **Notebook / doctrine hygiene** | [`scripts/build_strategy_observability.py`](../../../scripts/build_strategy_observability.py) | `runtime/artifacts/work-strategy/strategy-observability.json` | Decision points, inbox depth, `days.md` structure, STRATEGY promotion proxies — judgment **notebook** health. |
 | **Carry-stack / runtime JSON** | [`scripts/work_strategy/summarize_carry_receipts.py`](../../../scripts/work_strategy/summarize_carry_receipts.py) | e.g. `runtime/work-strategy/observability/summary.json` + optional `.md` | Carry receipts, validation reports, task-shape reports, review packets — optional **task-run** tooling usage and outcomes. |
 
 They are intentionally separate: the first reflects **long-form strategy notebook** posture; the second reflects **bounded harness / validator / classifier / review-packet** runs under `runtime/work-strategy/`. Neither replaces the other; neither is canonical Record.
@@ -72,17 +72,17 @@ python3 scripts/work_strategy/summarize_carry_receipts.py \
   --markdown-out runtime/work-strategy/observability/summary.md
 ```
 
-Optional: `--last N` (per artifact class, most recent by timestamp), `--since YYYY-MM-DD`, `--json` (stdout). Outputs must not target forbidden roots (`**`, blocked `bot/` files); the script refuses those paths.
+Optional: `--last N` (per artifact class, most recent by timestamp), `--since YYYY-MM-DD`, `--json` (stdout). Outputs must not target forbidden roots (`**`, blocked `archive/grace-mar-instance/bot/` files); the script refuses those paths.
 
 ### Runtime vs Record reminder
 
-These artifacts are **derived** and **rebuildable**. They do **not** authorize merges into `self.md`, `self-archive.md`, or `bot/prompt.py`. The companion gate remains the only merge path for durable Record changes.
+These artifacts are **derived** and **rebuildable**. They do **not** authorize merges into `self.md`, `self-archive.md`, or `archive/grace-mar-instance/bot/prompt.py`. The companion gate remains the only merge path for durable Record changes.
 
 ---
 
 ## Notebook-centric observability (legacy section)
 
-**Artifact:** `artifacts/work-strategy/strategy-observability.json` via [`build_strategy_observability.py`](../../../scripts/build_strategy_observability.py).
+**Artifact:** `runtime/artifacts/work-strategy/strategy-observability.json` via [`build_strategy_observability.py`](../../../scripts/build_strategy_observability.py).
 
 ### Metrics — structure (v1)
 
@@ -111,6 +111,6 @@ These artifacts are **derived** and **rebuildable**. They do **not** authorize m
 
 ### Alignment
 
-Optional alignment with [schema-registry/observability-report.v1.json](../../../schema-registry/observability-report.v1.json) for top-level dashboards is a future mapping; `strategy-observability.json` uses `schemaVersion` `2.0.0-work-strategy`.
+Optional alignment with [schemas/registry/observability-report.v1.json](../../../schemas/registry/observability-report.v1.json) for top-level dashboards is a future mapping; `strategy-observability.json` uses `schemaVersion` `2.0.0-work-strategy`.
 
 **Authority:** Observability does **not** trigger Record merges. See [promotion-ladder.md](promotion-ladder.md).

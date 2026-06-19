@@ -2,7 +2,7 @@
 
 A lightweight format for recording not just *that* an artifact exists, but *why* it was judged good and *what transferable pattern* it demonstrates.
 
-This format is **separate** from `/artifacts/` directory policy. Here, `artifact` means a **demonstrated capability artifact** linked to EVIDENCE, not every rebuildable file under `artifacts/`.
+This format is **separate** from `/runtime/artifacts/` directory policy. Here, `artifact` means a **demonstrated capability artifact** linked to EVIDENCE, not every rebuildable file under `runtime/artifacts/`.
 
 ---
 
@@ -34,7 +34,7 @@ The rationale is not a replacement for the artifact — it is a portable lens ov
 ## How to use it
 
 1. When adding an EVIDENCE entry that represents demonstrated capability, optionally create a rationale using the [template](../templates/artifact-rationale-template.md)
-2. The rationale follows the [JSON Schema](../../schema-registry/artifact-rationale.v1.json) for machine-readable use
+2. The rationale follows the [JSON Schema](../../schemas/registry/artifact-rationale.v1.json) for machine-readable use
 3. Rationales are particularly useful for the **demonstrated capability** export class (see [export-contract.md](export-contract.md))
 
 Rationales are not mandatory for every EVIDENCE entry. Use them when the *why* and *transferable pattern* matter for portability — typically for substantial artifacts, not minor log entries.
@@ -52,5 +52,5 @@ The `export_class` field in the schema aligns with the five export classes defin
 - [export-contract.md](export-contract.md) — export classes and the portability surface
 - [promotion-rules.md](promotion-rules.md) — where approved candidates land (EVIDENCE section)
 - [working-identity-candidates.md](working-identity-candidates.md) — candidate lifecycle
-- [`schema-registry/artifact-rationale.v1.json`](../../schema-registry/artifact-rationale.v1.json) — JSON Schema
+- [`schemas/registry/artifact-rationale.v1.json`](../../schemas/registry/artifact-rationale.v1.json) — JSON Schema
 - [`docs/templates/artifact-rationale-template.md`](../templates/artifact-rationale-template.md) — fill-in template

@@ -174,8 +174,8 @@ def build_receipt(
             "artifact_paths": list(artifact_paths),
             "gate_snippet_path": gate_rel,
         },
-        "expected_artifacts": [{"path": p} for p in artifact_paths],
-        "observed_artifacts": observed,
+        "expected_runtime/artifacts": [{"path": p} for p in artifact_paths],
+        "observed_runtime/artifacts": observed,
         "checks": checks,
         "summary": {
             "status": result,
@@ -194,7 +194,7 @@ def build_receipt(
         "record_boundary": {
             "canonical_paths_written": [],
             "canonical_write_violation": output_forbidden,
-            "notes": "Harness does not write , bot/prompt.py, bot/bot.py, bot/wechat_bot.py."
+            "notes": "Harness does not write , archive/grace-mar-instance/bot/prompt.py, archive/grace-mar-instance/bot/bot.py, archive/grace-mar-instance/bot/wechat_bot.py."
             + (" Attempted forbidden receipt path." if output_forbidden else ""),
         },
         "result": result,
@@ -279,7 +279,7 @@ def run_harness(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
 
     if getattr(args, "classify_task_shape", False):
         cmod = _load_classifier_module()
-        cfg_path = repo_root / "config" / "work_strategy_task_shapes.yaml"
+        cfg_path = repo_root / "platform/config" / "work_strategy_task_shapes.yaml"
         config = cmod.load_task_shape_config(cfg_path)
         ts_out_resolved: Path | None = None
         ts_arg = getattr(args, "task_shape_report", None)
@@ -471,7 +471,7 @@ def run_harness(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
                 thin.append(f"{o['path']} ({wc} words)")
     if missing_art:
         artifact_weight_status = "pass"
-        artifact_weight_detail = "Skipped (missing artifacts)."
+        artifact_weight_detail = "Skipped (missing runtime/artifacts)."
     elif not artifacts_resolved:
         artifact_weight_status = "pass"
         artifact_weight_detail = "No artifacts declared."
@@ -555,8 +555,8 @@ def run_harness(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
     arc_tags_val = [str(tag).strip() for tag in (getattr(args, "arc_tag", None) or []) if str(tag).strip()]
     arc_movement_type = str(getattr(args, "arc_movement_type", "") or "").strip()
     arc_summary = str(getattr(args, "arc_summary", "") or "").strip()
-    arc_evidence = str(getattr(args, "arc_evidence", "") or "").strip()
-    arc_fields_present = [bool(arc_movement_type), bool(arc_summary), bool(arc_evidence)]
+    arc_evidence = str(getattr(args, "arc_archive/placeholders/evidence", "") or "").strip()
+    arc_fields_present = [bool(arc_movement_type), bool(arc_summary), bool(arc_archive/placeholders/evidence)]
     arc_movement_val: dict[str, str] | None = None
 
     if any(arc_fields_present):
@@ -564,7 +564,7 @@ def run_harness(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
             arc_movement_val = {
                 "movement_type": arc_movement_type,
                 "summary": arc_summary,
-                "evidence": arc_evidence,
+                "archive/placeholders/evidence": arc_evidence,
             }
             checks.append(
                 {
@@ -703,10 +703,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="Optional one-line statement of how the declared arc moved.",
     )
     p.add_argument(
-        "--arc-evidence",
+        "--arc-archive/placeholders/evidence",
         type=str,
         default=None,
-        dest="arc_evidence",
+        dest="arc_archive/placeholders/evidence",
         help="Optional evidence line for the declared arc movement.",
     )
     p.add_argument("--run-id", type=str, default=None, dest="run_id")

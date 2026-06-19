@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "work_layer": true,
+  "generated_date": "2026-05-17",
+  "host": "mercouris",
+  "year": 2026,
+  "month": "2026-02",
+  "input_scope": "full-host-month",
+  "raw_input_count": 2,
+  "routeable_artifact_count": 0,
+  "total_word_mass": 16237,
+  "counts": {
+    "transcript-grade": 0,
+    "cleaned-transcript": 0,
+    "transcript-bearing": 2,
+    "summary-grade": 0,
+    "legacy-appearance-only": 0
+  },
+  "transcript-grade": 0,
+  "cleaned-transcript": 0,
+  "transcript-bearing": 2,
+  "summary-grade": 0,
+  "legacy-only": 0,
+  "legacy-appearance-only": 0,
+  "transcript_valid_count": 2,
+  "transcript_valid_percent": 100.0,
+  "residual_noise_artifact_count": 1,
+  "unresolved_speaker_count": 2,
+  "unresolved_speakers": [
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2026-02-04/youtube-alex-mercouris-one-step-closer-to-nuclear-war-nato-rutte-crazy-speech-as-ukraine-smashe-2026-02-04.md",
+      "pub_date": "2026-02-04",
+      "title": "One step closer to Nuclear War. NATO Rutte Crazy Speech as Ukraine Smashed. US hits Iran Drones",
+      "source_url": "https://www.youtube.com/watch?v=PSEDW6dEf-s",
+      "host": "Alexander Mercouris",
+      "show": "Alexander Mercouris",
+      "guest": "",
+      "thread": "mercouris",
+      "appearance": {
+        "appearance_id": "ap-fa07b771c964",
+        "speaker": "",
+        "speaker_slug": "",
+        "guest": "",
+        "host": "Alexander Mercouris",
+        "host_slug": "mercouris",
+        "show": "Alexander Mercouris",
+        "thread": "mercouris",
+        "pub_date": "2026-02-04",
+        "title": "One step closer to Nuclear War. NATO Rutte Crazy Speech as Ukraine Smashed. US hits Iran Drones",
+        "source_url": "https://www.youtube.com/watch?v=PSEDW6dEf-s",
+        "youtube_id": "PSEDW6dEf-s",
+        "raw_input_path": "codex/years/2026/raw-input/2026-02-04/youtube-alex-mercouris-one-step-closer-to-nuclear-war-nato-rutte-crazy-speech-as-ukraine-smashe-2026-02-04.md",
+        "speaker_resolution": "",
+        "guest_inference": ""
+      },
+      "evidence_grade": "transcript-bearing",
+      "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted."
+    },
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2026-02-28/youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md",
+      "pub_date": "2026-02-28",
+      "title": "Iran Strikes Back; Hits US Bases Across MidEast After US Israel Strikes; Trump Seeks Regime Change",
+      "source_url": "https://www.youtube.com/watch?v=pWZ2ITIrpd8",
+      "host": "Alexander Mercouris",
+      "show": "Alexander Mercouris",
+      "guest": "",
+      "thread": "mercouris",
+      "appearance": {
+        "appearance_id": "ap-d8b17f39e0fe",
+        "speaker": "",
+        "speaker_slug": "",
+        "guest": "",
+        "host": "Alexander Mercouris",
+        "host_slug": "mercouris",
+        "show": "Alexander Mercouris",
+        "thread": "mercouris",
+        "pub_date": "2026-02-28",
+        "title": "Iran Strikes Back; Hits US Bases Across MidEast After US Israel Strikes; Trump Seeks Regime Change",
+        "source_url": "https://www.youtube.com/watch?v=pWZ2ITIrpd8",
+        "youtube_id": "pWZ2ITIrpd8",
+        "raw_input_path": "codex/years/2026/raw-input/2026-02-28/youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md",
+        "speaker_resolution": "",
+        "guest_inference": ""
+      },
+      "evidence_grade": "transcript-bearing",
+      "reason": "Guest metadata is absent or ambiguous, so no speaker appearance was emitted."
+    }
+  ],
+  "runtime/artifacts": [
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2026-02-04/youtube-alex-mercouris-one-step-closer-to-nuclear-war-nato-rutte-crazy-speech-as-ukraine-smashe-2026-02-04.md",
+      "pub_date": "2026-02-04",
+      "title": "One step closer to Nuclear War. NATO Rutte Crazy Speech as Ukraine Smashed. US hits Iran Drones",
+      "evidence_grade": "transcript-bearing",
+      "normalization_state": "",
+      "quality_note": "Operator-pasted transcript body; not independently verified as verbatim.",
+      "residual_noise_terms": [
+        "Sining",
+        "Zalinski",
+        "Zilinski"
+      ],
+      "residual_noise": true,
+      "word_count": 9294,
+      "routeable": false,
+      "unresolved": true
+    },
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2026-02-28/youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md",
+      "pub_date": "2026-02-28",
+      "title": "Iran Strikes Back; Hits US Bases Across MidEast After US Israel Strikes; Trump Seeks Regime Change",
+      "evidence_grade": "transcript-bearing",
+      "normalization_state": "",
+      "quality_note": "Operator-pasted transcript body; not independently verified as verbatim.",
+      "residual_noise_terms": [],
+      "residual_noise": false,
+      "word_count": 6943,
+      "routeable": false,
+      "unresolved": true
+    }
+  ],
+  "deltas": {
+    "routeable_artifact_count": 0,
+    "total_word_mass": 0,
+    "transcript_valid_count": 0,
+    "transcript_valid_percent_points": 0.0,
+    "counts": {
+      "transcript-grade": 0,
+      "cleaned-transcript": 0,
+      "transcript-bearing": 0,
+      "summary-grade": 0,
+      "legacy-appearance-only": 0
+    }
+  },
+  "warnings": [],
+  "git_state": {
+    "scoped_paths": [
+      "codex/years/2026/raw-input/2026-02-04/youtube-alex-mercouris-one-step-closer-to-nuclear-war-nato-rutte-crazy-speech-as-ukraine-smashe-2026-02-04.md",
+      "codex/years/2026/raw-input/2026-02-28/youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md",
+      "runtime/artifacts/host-shelf-quality/2026/mercouris/2026-02/quality-summary.json",
+      "runtime/artifacts/host-shelf-quality/2026/mercouris/2026-02/quality-summary.md"
+    ],
+    "on_disk": true,
+    "verified": true,
+    "committed": false,
+    "pushed": false,
+    "dirty_paths": [
+      " M codex/years/2026/raw-input/2026-02-04/youtube-alex-mercouris-one-step-closer-to-nuclear-war-nato-rutte-crazy-speech-as-ukraine-smashe-2026-02-04.md",
+      " M codex/years/2026/raw-input/2026-02-28/youtube-alex-mercouris-iran-strikes-back-hits-us-bases-across-mideast-after-us-israel-strikes-t-2026-02-28.md",
+      "?? runtime/artifacts/host-shelf-quality/2026/mercouris/2026-02/quality-summary.json",
+      "?? runtime/artifacts/host-shelf-quality/2026/mercouris/2026-02/quality-summary.md"
+    ],
+    "dirty_path_count": 4,
+    "upstream": "origin/main",
+    "ahead_count": 0,
+    "label": "on-disk/verified/not-committed/not-pushed"
+  },
+  "closeout_line": "Structure: +0 routeable | Purity: +0 transcript-valid / 100.0% (+0.0pp) | Unresolved: 2 | Git: on-disk/verified/not-committed/not-pushed"
+}

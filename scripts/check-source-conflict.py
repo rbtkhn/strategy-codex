@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Compare two layer tokens against optional config/source-of-truth.json precedence.
+Compare two layer tokens against optional platform/config/source-of-truth.json precedence.
 
 Layer tokens must appear in config precedence (default file at repo root).
 Valid tokens: governed_state, accepted_change_objects, prepared_context, evidence
 
-If config is missing, prints embedded default precedence (same as template config).
+If config is missing, prints embedded default precedence (same as template platform/config).
 
-Optionally validates config against schema-registry/source-of-truth.v1.json when
+Optionally validates config against schemas/registry/source-of-truth.v1.json when
 jsonschema is installed.
 """
 
@@ -25,8 +25,8 @@ except ImportError:
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_CONFIG = ROOT / "config" / "source-of-truth.json"
-SCHEMA_PATH = ROOT / "schema-registry" / "source-of-truth.v1.json"
+DEFAULT_CONFIG = ROOT / "platform/config" / "source-of-truth.json"
+SCHEMA_PATH = ROOT / "schemas/registry" / "source-of-truth.v1.json"
 
 EMBEDDED_DEFAULT = {
     "schemaVersion": "1.0.0",
@@ -34,9 +34,9 @@ EMBEDDED_DEFAULT = {
         "governed_state",
         "accepted_change_objects",
         "prepared_context",
-        "evidence",
+        "archive/placeholders/evidence",
     ],
-    "notes": ["Embedded default; add config/source-of-truth.json to customize."],
+    "notes": ["Embedded default; add platform/config/source-of-truth.json to customize."],
 }
 
 
@@ -52,17 +52,17 @@ def main() -> int:
     parser.add_argument(
         "--left-layer",
         required=True,
-        help="governed_state | accepted_change_objects | prepared_context | evidence",
+        help="governed_state | accepted_change_objects | prepared_context | archive/placeholders/evidence",
     )
     parser.add_argument(
         "--right-layer",
         required=True,
-        help="governed_state | accepted_change_objects | prepared_context | evidence",
+        help="governed_state | accepted_change_objects | prepared_context | archive/placeholders/evidence",
     )
     parser.add_argument(
-        "--config",
+        "--platform/config",
         default="",
-        help="Path to source-of-truth.json (default: config/source-of-truth.json if present)",
+        help="Path to source-of-truth.json (default: platform/config/source-of-truth.json if present)",
     )
     parser.add_argument(
         "--no-schema-check",
@@ -71,7 +71,7 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    cfg_path = Path(args.config) if args.config else None
+    cfg_path = Path(args.platform/config) if args.config else None
     config = load_config(cfg_path)
 
     if not args.no_schema_check and jsonschema is not None and SCHEMA_PATH.is_file():

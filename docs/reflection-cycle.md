@@ -1,6 +1,6 @@
 ﻿# Reflection & Proposal Cycle
 
-Operator tool: [`scripts/reflection_cycle.py`](../scripts/reflection_cycle.py) (also `grace-mar reflect â€¦`). It **reads** existing fork files (session transcript, pipeline events, merge receipts, gate processed section, self-evidence, etc.), optionally calls an LLM to propose **evidence-grounded** `CANDIDATE-####` blocks, writes artifacts under `reflection-proposals/`, and **optionally** appends pending candidates to [`recursion-gate.md`](../recursion-gate.md).
+Operator tool: [`scripts/reflection_cycle.py`](../scripts/reflection_cycle.py) (also `grace-mar reflect â€¦`). It **reads** existing fork files (session transcript, pipeline events, merge receipts, gate processed section, self-evidence, etc.), optionally calls an LLM to propose **evidence-grounded** `CANDIDATE-####` blocks, writes artifacts under `archive/queues/reflection-proposals/`, and **optionally** appends pending candidates to [`recursion-gate.md`](../recursion-gate.md).
 
 ## Setup
 
@@ -42,7 +42,7 @@ Use `--append-all` for up to five proposals (default append count is three). Use
 ## Review surfaces
 
 - **Static HTML:** `python scripts/generate_gate_dashboard.py -u grace-mar` â€” use the **Reflection** filter for `signal_type: reflection-cycle`.
-- **Flask:** [`apps/gate-review-app.py`](../apps/gate-review-app.py) â€” `/?signal=reflection` shows reflection candidates only.
+- **Flask:** [`platform/apps/gate-review-app.py`](../platform/apps/gate-review-app.py) â€” `/?signal=reflection` shows reflection candidates only.
 
 ## Pipeline events
 
@@ -50,6 +50,6 @@ Nonâ€“dry-run with `--append` emits `reflection_cycle_run` in `pipeline-eve
 
 ## Safety
 
-- `--dry-run` writes `reflection-proposals/REFLECT-*.md` and updates `index.md` only; no gate append, no events.
-- High-risk proposals are rate-limited (see [`src/grace_mar/reflection/rate_limit.py`](../src/grace_mar/reflection/rate_limit.py)); use `--force` only when you accept bypassing caps.
+- `--dry-run` writes `archive/queues/reflection-proposals/REFLECT-*.md` and updates `index.md` only; no gate append, no events.
+- High-risk proposals are rate-limited (see [`platform/src/grace_mar/reflection/rate_limit.py`](../platform/src/grace_mar/reflection/rate_limit.py)); use `--force` only when you accept bypassing caps.
 

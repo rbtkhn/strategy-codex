@@ -9,7 +9,7 @@ tags:
 - synthesis
 - monthly
 - longitudinal
-portable_source: skills-portable/singularity-monthly-synthesis/SKILL.md
+portable_source: skills/singularity-monthly-synthesis/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Singularity Monthly Synthesis

@@ -46,7 +46,7 @@ def test_is_forbidden_record_path_users(rel: str) -> None:
 
 
 def test_is_forbidden_record_path_bot_prompt() -> None:
-    p = REPO_ROOT / "bot" / "prompt.py"
+    p = REPO_ROOT / "archive/grace-mar-instance/bot" / "prompt.py"
     assert carry.is_forbidden_record_path(p, REPO_ROOT) is True
 
 
@@ -134,7 +134,7 @@ def test_thin_artifact_needs_review(tmp_path: Path) -> None:
 
 
 def test_forbidden_out_no_write(tmp_path: Path) -> None:
-    bad_out = REPO_ROOT / "users" / "grace-mar" / "_carry_harness_forbidden_test.json"
+    bad_out = REPO_ROOT / "platform/users" / "grace-mar" / "_carry_harness_forbidden_test.json"
     cmd = [
         sys.executable,
         str(REPO_ROOT / "scripts/work_strategy/run_carry_harness.py"),
@@ -193,7 +193,7 @@ def test_arc_movement_annotation_round_trips(tmp_path: Path) -> None:
         "updates",
         "--arc-summary",
         "New evidence narrowed the strategic bottleneck.",
-        "--arc-evidence",
+        "--arc-archive/placeholders/evidence",
         "Validator and artifact outputs both emphasized the same changed constraint.",
         "--out",
         str(out),

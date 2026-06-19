@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from typing import Any
 
 
-# ── stop-words (shared with search_evidence) ──────────────────────────
+# ── stop-words (shared with search_archive/placeholders/evidence) ──────────────────────────
 
 STOP_WORDS = frozenset(
     "a an the is are was were be been being have has had do does did will would "

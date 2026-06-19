@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Emit a Change Proposal v1 JSON file under review-queue/proposals/.
+Emit a Change Proposal v1 JSON file under archive/queues/review-queue/proposals/.
 
-Uses camelCase fields per schema-registry/change-proposal.v1.json.
+Uses camelCase fields per schemas/registry/change-proposal.v1.json.
 Replace placeholder priorStateRef / proposedStateRef (and refine other fields)
 before treating the proposal as merge-ready.
 
@@ -120,7 +120,7 @@ def main() -> int:
     parser.add_argument(
         "--target-surface",
         default="self",
-        choices=["self", "self_library", "civ_mem", "skills", "evidence", "work_layer"],
+        choices=["self", "self_library", "civ_mem", "skills", "archive/placeholders/evidence", "work_layer"],
     )
     parser.add_argument(
         "--materiality",
@@ -140,7 +140,7 @@ def main() -> int:
     parser.add_argument(
         "--output-dir",
         default="",
-        help="Directory for the JSON file (default: <user-slug>/review-queue/proposals)",
+        help="Directory for the JSON file (default: <user-slug>/archive/queues/review-queue/proposals)",
     )
     args = parser.parse_args()
 
@@ -149,7 +149,7 @@ def main() -> int:
         print("ERROR: proposalId must match ^proposal-[a-zA-Z0-9._-]+$", flush=True)
         return 1
 
-    out_dir = Path(args.output_dir) if args.output_dir else profile_dir(args.user_slug) / "review-queue" / "proposals"
+    out_dir = Path(args.output_dir) if args.output_dir else profile_dir(args.user_slug) / "archive/queues/review-queue" / "proposals"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     supporting: list[dict[str, str]] = []

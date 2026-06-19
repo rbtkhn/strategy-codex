@@ -1,4 +1,4 @@
-"""Tests for integrations/mcp_adapter.py — core retrieval functions (layer 1).
+"""Tests for platform/integrations/mcp_adapter.py — core retrieval functions (layer 1).
 
 These tests exercise the plain-Python retrieval API directly.
 The ``mcp`` package is NOT required.
@@ -12,7 +12,7 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(REPO_ROOT / "integrations"))
+sys.path.insert(0, str(REPO_ROOT / "platform/integrations"))
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from mcp_adapter import (  # noqa: E402
@@ -43,7 +43,7 @@ def test_health_lists_supported_classes():
 
 def test_list_classes_includes_supported():
     result = list_export_classes()
-    for cls in ("tool_bootstrap", "full", "task_limited", "emulation"):
+    for cls in ("tool_archive/grace-mar-instance/bootstrap", "full", "task_limited", "emulation"):
         assert cls in result["supported"]
         assert result["supported"][cls]["operational"] is True
 
@@ -64,9 +64,9 @@ def test_list_classes_includes_unsupported():
 # ── retrieve_export — successful paths ──────────────────────────────────
 
 def test_retrieve_tool_bootstrap():
-    result = retrieve_export(user_id="grace-mar", export_class="tool_bootstrap")
+    result = retrieve_export(user_id="grace-mar", export_class="tool_archive/grace-mar-instance/bootstrap")
     assert "error" not in result
-    assert result["export_class"] == "tool_bootstrap"
+    assert result["export_class"] == "tool_archive/grace-mar-instance/bootstrap"
     assert result["content_type"] == "text/plain"
     assert isinstance(result["content"], str)
     assert len(result["content"]) > 0

@@ -21,7 +21,7 @@
     "evidence_state": "adequate",
     "notes": "Synthetic benchmark: bounded work-area scan with no Record-adjacent paths."
   },
-  "artifacts": {
+  "runtime/artifacts": {
     "trace_path": "runtime/runtime-worker/traces/index.jsonl",
     "proposal_path": "runtime/runtime-worker/proposals/gov_eval_safe_synthesis.md"
   },

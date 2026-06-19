@@ -34,7 +34,7 @@ flowchart LR
 - **Durable Record** — merged only after companion approval through the gate.
 - **work lanes** — analysis, strategy, dev plans; they **stage** proposals, they do not silently become Record.
 - **Governed adjacent** — durable non-Record notes, doctrine, synthesis, and comparison surfaces.
-- **Derived artifacts** — skill cards, active-lane markdown under `artifacts/` — **rebuildable**; always cite source paths ([runtime-vs-record.md](runtime-vs-record.md)).
+- **Derived artifacts** — skill cards, active-lane markdown under `runtime/artifacts/` — **rebuildable**; always cite source paths ([runtime-vs-record.md](runtime-vs-record.md)).
 - **Shared membrane model** — [work-membrane-v2.md](work-membrane-v2.md) gives the lane-neutral class and route grammar.
 
 ---
@@ -47,7 +47,7 @@ flowchart LR
 | Shrink one work lane for a session | [active-lane-compression.md](skill-work/active-lane-compression.md) |
 | Understand the shared work membrane and lane overlays | [work-membrane-v2.md](work-membrane-v2.md) |
 | Shrink portable skills for context | [skill-card-spec.md](skills/skill-card-spec.md) |
-| Understand paste caps vs semantic compression | [context-efficiency-layer.md](skill-work/context-efficiency-layer.md) + [config/context_budgets/README.md](../config/context_budgets/README.md) |
+| Understand paste caps vs semantic compression | [context-efficiency-layer.md](skill-work/context-efficiency-layer.md) + [platform/config/context_budgets/README.md](../platform/config/context_budgets/README.md) |
 
 ---
 
@@ -73,7 +73,7 @@ The operator goal is not full awareness. It is enough orientation to avoid accid
 | **Gate** (`recursion-gate.md`) | Pending proposed Record changes | Approval, rejection, or merge by itself |
 | **work docs** (`docs/skill-work/work-*`) | Operator planning, execution, strategy, lane doctrine | Companion identity truth |
 | **Runtime / MEMORY** | Continuity, handoff, session weather | Durable Record authority |
-| **Artifacts** (`artifacts/`) | Rebuildable summaries, receipts, dashboards, derived views | Source of truth without source links |
+| **Artifacts** (`runtime/artifacts/`) | Rebuildable summaries, receipts, dashboards, derived views | Source of truth without source links |
 | **Old or broad docs** | Background and lineage | Mandatory reading before every session |
 
 When surfaces disagree: follow Record for identity, gate rules for promotion, current lane docs for execution, and recent receipts for what actually ran.

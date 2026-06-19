@@ -12,7 +12,7 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "runtime" / "log_observation.py"
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "runtime-observation.v1.json"
+SCHEMA_PATH = REPO_ROOT / "schemas/registry" / "runtime-observation.v1.json"
 
 
 @pytest.fixture

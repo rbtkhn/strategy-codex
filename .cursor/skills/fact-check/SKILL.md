@@ -142,9 +142,9 @@ Deep pass **does not** replace wire-verify's **five-lane sweep** on a full day b
 
 ## Guardrails (Grace-Mar)
 
-- **Knowledge boundary:** Assistant + web output is **not** [Record](../../../self.md) truth. Nothing here **enters** SELF, EVIDENCE, or `bot/prompt.py` without companion approval through **RECURSION-GATE** and `process_approved_candidates.py`. See [AGENTS.md](../../../AGENTS.md) and [knowledge-boundary-framework.md](../../../docs/knowledge-boundary-framework.md).
+- **Knowledge boundary:** Assistant + web output is **not** [Record](../../../self.md) truth. Nothing here **enters** SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` without companion approval through **RECURSION-GATE** and `process_approved_candidates.py`. See [AGENTS.md](../../../AGENTS.md) and [knowledge-boundary-framework.md](../../../docs/knowledge-boundary-framework.md).
 - **No leakage:** Do not present training-data "facts" as checks. Cite **what you found** and **where**.
-- **Lexile / Voice:** If output is **for the Voice** or **child-facing**, stay within instance **Lexile** (grace-mar: **600L** unless raised with evidence) and **no** undocumented biographical claims.
+- **Lexile / Voice:** If output is **for the Voice** or **child-facing**, stay within instance **Lexile** (grace-mar: **600L** unless raised with archive/placeholders/evidence) and **no** undocumented biographical claims.
 - **Election / legal / medical / financial:** Default **Unclear** or **Escalate** unless a **strong** primary or two clear independents surfaced quickly — say when a **human professional** is the right next step.
 
 ## WORK lane

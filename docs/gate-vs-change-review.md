@@ -19,7 +19,7 @@ The gate answers: *“Should this observation become part of the governed Record
 
 ## Change-review queue (material escalation)
 
-**`review-queue/`** holds **material** post-seed changes that need more than a single approve line:
+**`archive/queues/review-queue/`** holds **material** post-seed changes that need more than a single approve line:
 
 - contradictions or revisions to durable commitments, safety, or memory governance
 - cross-surface moves (identity vs SELF-LIBRARY vs CIV-MEM) that deserve an audit trail

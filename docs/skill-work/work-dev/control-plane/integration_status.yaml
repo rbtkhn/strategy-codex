@@ -7,7 +7,7 @@ items:
     surface: export
     status: implemented
     source_of_truth:
-      - integrations/openclaw_hook.py
+      - platform/integrations/openclaw_hook.py
       - docs/openclaw-integration.md
     notes:
       - Export path exists and emits runtime compatibility audit events.
@@ -17,7 +17,7 @@ items:
     surface: export
     status: implemented
     source_of_truth:
-      - integrations/openclaw_hook.py
+      - platform/integrations/openclaw_hook.py
       - scripts/export_runtime_bundle.py
     notes:
       - OpenClaw consumes the generic runtime bundle contract.
@@ -27,7 +27,7 @@ items:
     surface: export
     status: implemented
     source_of_truth:
-      - integrations/openclaw_hook.py
+      - platform/integrations/openclaw_hook.py
     notes:
       - Aligns with portable runtime contract naming.
 
@@ -36,7 +36,7 @@ items:
     surface: handback
     status: implemented
     source_of_truth:
-      - integrations/openclaw_stage.py
+      - platform/integrations/openclaw_stage.py
       - scripts/handback_server.py
     notes:
       - Merge authority stays human-gated.
@@ -46,7 +46,7 @@ items:
     surface: handback
     status: implemented
     source_of_truth:
-      - integrations/openclaw_stage.py
+      - platform/integrations/openclaw_stage.py
     notes:
       - intent_constitutional_critique events before staging.
 
@@ -55,9 +55,9 @@ items:
     surface: gate
     status: implemented
     source_of_truth:
-      - integrations/openclaw_stage.py
+      - platform/integrations/openclaw_stage.py
       - scripts/handback_server.py
-      - bot/core.py
+      - archive/grace-mar-instance/bot/core.py
     notes:
       - candidate_source, artifact_*, constitution_* in gate YAML.
 
@@ -102,7 +102,7 @@ items:
       - runtime/observability/continuity_blocks.jsonl
       - scripts/require_continuity_for_handback.py
       - scripts/work_dev/export_continuity_blocks.py
-      - artifacts/work-dev/continuity-observability/continuity-blocks.md
+      - runtime/artifacts/work-dev/continuity-observability/continuity-blocks.md
       - tests/test_handback_requires_continuity.py
       - tests/test_export_continuity_blocks.py
     notes:
@@ -127,8 +127,8 @@ items:
     source_of_truth:
       - docs/skill-work/work-dev/economic-benchmarks.md
       - scripts/emit_compute_ledger.py
-      - integrations/openclaw_hook.py
-      - integrations/openclaw_stage.py
+      - platform/integrations/openclaw_hook.py
+      - platform/integrations/openclaw_stage.py
       - scripts/export_runtime_bundle.py
       - scripts/handback_server.py
     notes:

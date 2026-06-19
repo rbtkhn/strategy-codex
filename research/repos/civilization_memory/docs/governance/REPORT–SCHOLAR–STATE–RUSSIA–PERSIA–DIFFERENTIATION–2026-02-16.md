@@ -161,7 +161,7 @@ Both: CIVILIZATION-STATE. Both: three perspectives (legitimacy, power, liability
 
 **Russia:** 4 options. A (Endurance Through Attrition), B (Negotiated Settlement With Minimum Viable Gains — accommodation), C (Strategic Diversification and Reorientation), D (Escalation to Force a Decision). Multiple evidence updates (e.g. Option A: Updates 1–6; Option D: evidence update on escalation/counter-escalation). Binding constraints reframed (e.g. relative degradation); discriminating evidence and sources documented.
 
-**Persia:** 3 options. A (Denial and Endurance), B (Exit-Building and Negotiated Settlement — accommodation), C (Escalation and Cost-Imposition). No evidence updates yet. Structure matches template (grounding, assumptions, confidence, risks, conditions, discriminating evidence).
+**Persia:** 3 options. A (Denial and Endurance), B (Exit-Building and Negotiated Settlement — accommodation), C (Escalation and Cost-Imposition). No evidence updates yet. Structure matches template (grounding, assumptions, confidence, risks, conditions, discriminating archive/placeholders/evidence).
 
 **Contrast:** Same template; Russia has more options and sustained evidence updates; Persia is initial derivation with no session-driven updates yet.
 

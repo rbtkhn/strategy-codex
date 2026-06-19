@@ -225,7 +225,7 @@ def log_coffee_resolution_from_close(
         "outcome": outcome,
         "readiness": readiness,
         "hindsight_class": hindsight,
-        "artifacts": ",".join(artifacts or []),
+        "runtime/artifacts": ",".join(artifacts or []),
         "loops": ",".join(loop_list),
         "next": next_slug or "",
         "lesson_candidate": _lesson_candidate(actual_action, hindsight, loop_list),

@@ -18,13 +18,13 @@ End-to-end ordering for **material** changes (complements the numbered lifecycle
 
 1. **Evidence** — raw or staged source material ([Evidence Layer](evidence-layer.md))
 2. **Prepared context** — normalized or structured inputs for reasoning ([Prepared Context Layer](prepared-context-layer.md))
-3. **Proposal artifact** — the first **formal persisted review object** is typically a Change Proposal v1 JSON file in `review-queue/proposals/` (see [state-proposals.md](state-proposals.md))
+3. **Proposal artifact** — the first **formal persisted review object** is typically a Change Proposal v1 JSON file in `archive/queues/review-queue/proposals/` (see [state-proposals.md](state-proposals.md))
 4. **Review** — classification, diff, human or policy gate
 5. **Merge or reject** — governed state updates only after an explicit decision; no silent overwrite
 
 Narrative stage docs: [pipeline/evidence-to-proposal.md](pipeline/evidence-to-proposal.md), [pipeline/proposal-to-review.md](pipeline/proposal-to-review.md), [pipeline/review-to-merge.md](pipeline/review-to-merge.md). Reference flow across layers: [evidence-to-context-pipeline.md](evidence-to-context-pipeline.md).
 
-**Observability:** Operators should be able to see **where each proposal sits** in this lifecycle (e.g. via `review-queue/` artifacts and optional [observability reports](observability.md)).
+**Observability:** Operators should be able to see **where each proposal sits** in this lifecycle (e.g. via `archive/queues/review-queue/` artifacts and optional [observability reports](observability.md)).
 
 **Authority:** Transition into governed state should respect the [authority map](authority-map.md). **Action receipts** may be used to make lifecycle transitions inspectable without substituting for the Record ([action-receipts.md](action-receipts.md)).
 

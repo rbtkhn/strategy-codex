@@ -20,8 +20,8 @@ Use this file when you want one place to understand:
 
 | Area | Current state |
 |------|---------------|
-| **Identity export** | Implemented through `integrations/openclaw_hook.py` and the runtime bundle export path |
-| **Stage-only handback** | Implemented through `integrations/openclaw_stage.py` â†’ `/stage` |
+| **Identity export** | Implemented through `platform/integrations/openclaw_hook.py` and the runtime bundle export path |
+| **Stage-only handback** | Implemented through `platform/integrations/openclaw_stage.py` â†’ `/stage` |
 | **Pipeline-level export audit** | Implemented via `runtime_compat_export` events and harness events |
 | **Constitution advisory event** | Implemented via `intent_constitutional_critique` event emission |
 | **End-to-end provenance** | Implemented: OpenClaw payload (source=openclaw_stage) flows as staging_meta into gate; candidate blocks carry candidate_source, artifact_*, constitution_*; recursion_gate_review parses them for review/benchmarks |
@@ -61,7 +61,7 @@ Use this file when you want one place to understand:
 | `external-signals.md` | Transcript/keynote-class discourse â†’ work-dev lens (OpenClaw, trust, inference); pairs with work-strategy `external-tech-scan.md` |
 | `work-dev-sources.md` | Authorized sources list for work-dev framing (not integration truth); see [work-modules-sources-principle.md](../work-modules-sources-principle.md); parallel: [../work-politics/work-politics-sources.md](../work-politics/work-politics-sources.md) |
 | `../work-career/README.md` | **AI career prep (operator lane):** manual job JSON/CSV, skill worksheet, opportunity-review template; `scripts/work_career/` â€” not Record truth |
-| `creative-pipeline.md` | **Agent-augmented creative workflow:** brief template, `DESIGN.md`, `scripts/validate-design-md.py`, artifacts under `artifacts/creative/` â€” not Record truth until gated |
+| `creative-pipeline.md` | **Agent-augmented creative workflow:** brief template, `DESIGN.md`, `scripts/validate-design-md.py`, artifacts under `runtime/artifacts/creative/` â€” not Record truth until gated |
 | `agentic-environment-principles.md` | Environment-first debugging; Â§5 **a/b/c** (residency + roles, bounded runtime, pipeline vs local memory) |
 | `agent-surface-template.yaml` | Structured checklist: runtime / orchestration / interface + Grace-Mar trust; optional `agent_species`; `scripts/work_dev/agent_surface_checklist.py` |
 | `managed-agent-design.md` | Think-lane design: persistent-agent lifecycle using existing primitives (sandbox adapter, agent-surface-template, gate); operator runbook; steward boundary review |
@@ -123,7 +123,7 @@ Crypto belongs adjacent to these lanes as a future **authority / settlement / ac
 4. ~~Refresh stale derived exports (`manifest.json`, `llms.txt`, `intent_snapshot.json`, `fork-manifest.json`, PRP, runtime bundle). Validator flags these; run `refresh_derived_exports.py` after confirming no Record changes are pending.~~ Done (2026-04-12: `refresh_derived_exports.py -u grace-mar`; commit `3a17caf`).
 5. ~~Pick only between BUILD-AI-GAP-005 and BUILD-AI-GAP-006 as the next blocker~~ â€” Incremental slice landed: matrix `--check` + pytest drift on `handback_tail_stress.matrix.md`, optional `staged_risk_tier` narrative guard in `validate_handback_analysis.py` (commit `aa1417c`). Both gaps remain `partial` (client tail YAMLs; full semantic alignment; wiring `staged_risk_tier` from `/stage` when ready). **GAP-007:** dashboard + harness + **Tests workflow smoke** (`evaluate_autonomy_tiers.py` â†’ `insufficient_data` cold path) â€” see `autonomy/tier_policy.md`; gap stays **`partial`** until operator habit / optional UI. **Choose next wedge:** deeper tail scenarios (**GAP-005/006**) or **OB1 chunking** (#6) when bridge exporter / PR4 is queued.
 6. **Derived regeneration roadmap:** keep [derived-regeneration.md](derived-regeneration.md) as the repo-owned phase map. Next wedges, in order: deepen the rebuild foundation (manifest breadth + stronger incremental ordering), then **GAP-005**, **GAP-006**, **GAP-007**, then richer rebuild-health summaries, then any runtime rebuild-request channel.
-7. OB1 chunking spike â€” when demand materializes: export one real `self.md` under each strategy, measure retrieval precision, pick the winner. Blocking prerequisite for the bridge exporter (PR 4). See `docs/integrations/ob1/architecture.md` Â§ Known technical risks.
+7. OB1 chunking spike â€” when demand materializes: export one real `self.md` under each strategy, measure retrieval precision, pick the winner. Blocking prerequisite for the bridge exporter (PR 4). See `docs/platform/integrations/ob1/architecture.md` Â§ Known technical risks.
 8. Apply risk-mitigation template (success criteria, sustainment, deprecation, scope creep) to remaining uncovered territories: ~~`work-politics`~~ (**done 2026-04-18** â€” see `docs/skill-work/work-politics/README.md` Â§ *Risk mitigation (template â€” Tier 1+)*), ~~`work-civ-mem`~~ (**done 2026-04-18** â€” see `docs/skill-work/work-civ-mem/README.md` Â§ *Risk mitigation (template â€” Tier 1+)*), ~~`work-cici`~~ (**done 2026-04-15** â€” see `docs/skill-work/work-cici/README.md` Â§ *Risk mitigation (template â€” Tier 1+)*). Template: `docs/skill-work/work-template/README.md` Â§ Risk-mitigation checklist. **Lane sweep complete** â€” use template when adding new long-lived WORK territories.
 
 ---

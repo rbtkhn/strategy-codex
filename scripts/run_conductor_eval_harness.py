@@ -9,12 +9,13 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 _WS = REPO_ROOT / "scripts" / "work_strategy"
 
 for p in (_SRC, _WS):
     if str(p) not in sys.path:
         sys.path.insert(0, str(p))
+from repo_io import SRC_DIR
 
 from packet_common import is_forbidden_record_path  # noqa: E402
 

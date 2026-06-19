@@ -29,7 +29,7 @@ def isolated_root(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
 
     monkeypatch.setattr(repo_io, "REPO_ROOT", tmp_path)
     monkeypatch.setattr(repo_io, "OPERATOR_EVENTS_DIR", tmp_path / "runtime" / "operator-events")
-    monkeypatch.setattr(repo_io, "DEFAULT_USERS_DIR", tmp_path / "users")
+    monkeypatch.setattr(repo_io, "DEFAULT_USERS_DIR", tmp_path / "platform/users")
     return tmp_path
 
 
@@ -59,7 +59,7 @@ def test_operator_ledger_write_path_creates_dir(isolated_root: Path) -> None:
 
 def test_last_dream_prefers_daily_handoff(isolated_root: Path) -> None:
     root = profile_dir("strategy-codex")
-    handoff = root / "daily-handoff" / LAST_DREAM_BASENAME
+    handoff = root / "runtime/daily-handoff" / LAST_DREAM_BASENAME
     handoff.parent.mkdir(parents=True)
     handoff.write_text(json.dumps({"ok": True}), encoding="utf-8")
     root_legacy = root / LAST_DREAM_BASENAME
@@ -69,5 +69,5 @@ def test_last_dream_prefers_daily_handoff(isolated_root: Path) -> None:
 
 def test_last_dream_write_path(isolated_root: Path) -> None:
     p = last_dream_write_path("strategy-codex")
-    assert p == isolated_root / "daily-handoff" / LAST_DREAM_BASENAME
+    assert p == isolated_root / "runtime/daily-handoff" / LAST_DREAM_BASENAME
     assert p.parent.is_dir()

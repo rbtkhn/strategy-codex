@@ -100,7 +100,7 @@ def test_write_without_receipt_blocks(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability, scan_passes
 
     cap = _base_capability("no_rcpt")
-    cap["writes"] = ["artifacts/foo"]
+    cap["writes"] = ["runtime/artifacts/foo"]
     cap["requires_receipt"] = False
     f = evaluate_capability(cap, policy_doc)
     assert "write_without_receipt" in f["hard_blockers"]
@@ -177,8 +177,8 @@ def test_build_json_report_shape(policy_doc: dict) -> None:
     js = build_json_report(
         findings=[f],
         passes=True,
-        caps_path=REPO_ROOT / "config" / "mcp-capabilities.yaml",
-        policy_path=REPO_ROOT / "config" / "mcp-risk-policy.yaml",
+        caps_path=REPO_ROOT / "platform/config" / "mcp-capabilities.yaml",
+        policy_path=REPO_ROOT / "platform/config" / "mcp-risk-policy.yaml",
         generated_at_utc="2026-04-28T12:00:00Z",
         git_ref="abc1234",
     )
@@ -199,7 +199,7 @@ def test_live_registry_scan_passes() -> None:
         text=True,
     )
     assert r.returncode == 0, r.stderr + r.stdout
-    jp = REPO_ROOT / "artifacts" / "mcp-risk-report.json"
+    jp = REPO_ROOT / "runtime/artifacts" / "mcp-risk-report.json"
     assert jp.is_file()
     data = json.loads(jp.read_text(encoding="utf-8"))
     assert data["pass"] is True

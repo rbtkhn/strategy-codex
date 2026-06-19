@@ -285,7 +285,7 @@ Good near-term follow-ons from this memo:
 
 1. a `receipt-crosswalk.md` operator table that indexes all active receipt surfaces
 2. a small schema-alignment pass on one family, such as sandbox or carry receipts
-3. a derived `receipt-summary` report under `artifacts/`
+3. a derived `receipt-summary` report under `runtime/artifacts/`
 4. capability-contract additions that require `review_surface` and `rollback_surface`
 
 ## Recommended next move

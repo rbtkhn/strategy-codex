@@ -10,7 +10,7 @@ tags:
 - essay
 - intelligence
 - synthesis
-portable_source: skills-portable/statecraft-intelligence-essay/SKILL.md
+portable_source: skills/statecraft-intelligence-essay/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Statecraft intelligence essay

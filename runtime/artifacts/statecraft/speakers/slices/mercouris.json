@@ -1,0 +1,2665 @@
+{
+  "schemaVersion": "1.0.0-statecraft-day-dashboard",
+  "generatedAt": "2026-06-05T05:25:38.629674+00:00",
+  "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
+  "query": {
+    "channels": [],
+    "threads": [],
+    "hosts": [],
+    "guests": [
+      "Alexander Mercouris"
+    ],
+    "slug": "mercouris",
+    "speakerSlug": "mercouris",
+    "speakerAliases": [
+      "Alexander Mercouris",
+      "mercouris"
+    ]
+  },
+  "coverage": {
+    "dayCount": 51,
+    "sourceFileCount": 52,
+    "firstDay": "2025-02-07",
+    "lastDay": "2026-06-02"
+  },
+  "aggregates": {
+    "topDays": [
+      {
+        "date": "2025-09-22",
+        "sourceCount": 2
+      },
+      {
+        "date": "2025-02-07",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-10",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-15",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-21",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-25",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-03-01",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-03-08",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-10",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-05-02",
+        "sourceCount": 1
+      }
+    ],
+    "quietDays": [
+      {
+        "date": "2025-02-07",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-10",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-15",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-21",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-25",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-03-01",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-03-08",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-10",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-05-02",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-05-29",
+        "sourceCount": 1
+      }
+    ],
+    "channels": [
+      {
+        "name": "The Duran",
+        "count": 19
+      },
+      {
+        "name": "Alexander Mercouris",
+        "count": 12
+      },
+      {
+        "name": "Daniel Davis Deep Dive",
+        "count": 4
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 3
+      },
+      {
+        "name": "Mercouris",
+        "count": 1
+      }
+    ],
+    "hosts": [
+      {
+        "name": "Alex Christoforou",
+        "count": 18
+      },
+      {
+        "name": "Alexander Mercouris",
+        "count": 12
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 10
+      },
+      {
+        "name": "Daniel Davis",
+        "count": 4
+      }
+    ],
+    "guests": [
+      {
+        "name": "Alexander Mercouris",
+        "count": 52
+      },
+      {
+        "name": "John Mearsheimer",
+        "count": 8
+      },
+      {
+        "name": "Alex Christoforou",
+        "count": 1
+      },
+      {
+        "name": "Brian Berletic",
+        "count": 1
+      },
+      {
+        "name": "Stanislav Krapivnik",
+        "count": 1
+      },
+      {
+        "name": "barnes",
+        "count": 1
+      },
+      {
+        "name": "christoforou",
+        "count": 1
+      }
+    ],
+    "threads": [
+      {
+        "name": "mercouris",
+        "count": 52
+      },
+      {
+        "name": "christoforou",
+        "count": 20
+      },
+      {
+        "name": "diesen",
+        "count": 10
+      },
+      {
+        "name": "mearsheimer",
+        "count": 8
+      },
+      {
+        "name": "davis",
+        "count": 4
+      },
+      {
+        "name": "barnes",
+        "count": 1
+      },
+      {
+        "name": "berletic",
+        "count": 1
+      },
+      {
+        "name": "daniel-davis-deep-dive",
+        "count": 1
+      },
+      {
+        "name": "krapivnik",
+        "count": 1
+      }
+    ],
+    "sourceForms": [
+      {
+        "name": "interview",
+        "count": 41
+      },
+      {
+        "name": "panel",
+        "count": 11
+      }
+    ]
+  },
+  "anomalies": {
+    "missingHostOrGuestDays": [
+      {
+        "date": "2026-02-27",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-03-01",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-03-31",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-04-05",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-04-07",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-04-15",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-04-23",
+        "hasHosts": false,
+        "hasGuests": true
+      },
+      {
+        "date": "2026-04-25",
+        "hasHosts": false,
+        "hasGuests": true
+      }
+    ],
+    "missingReadmes": [
+      "2025-02-07",
+      "2025-02-10",
+      "2025-02-15",
+      "2025-02-21",
+      "2025-02-25",
+      "2025-03-01",
+      "2025-03-08",
+      "2025-04-10",
+      "2025-05-02",
+      "2025-05-29"
+    ]
+  },
+  "days": [
+    {
+      "date": "2025-02-07",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-trumps-ukraine-dilemma-escalate-or-walk-away-2025-02-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-02-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-us-carrot-and-stick-offer-to-russia-2025-02-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-02-15",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-mearsheimer-mercouris-trump-to-force-ukraine-peace-on-europe-2025-02-15.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-02-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-uk-eu-take-ownership-of-project-ukraine-preemptive-coup-2025-02-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-02-25",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Stanislav Krapivnik",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "krapivnik",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-ukraine-frontline-update-and-peace-deal-stanislav-krapivnik-live-2025-02-25.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-03-01",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-lets-talk-about-zelensky-live-2025-03-01.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-03-08",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-mearsheimer-mercouris-the-us-push-for-peace-and-europe-panics-2025-03-08.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "daniel-davis-deep-dive",
+          "count": 1
+        },
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-02",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-mearsheimer-mercouris-ukraine-is-now-trumps-war-2025-05-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-29",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-mearsheimer-mercouris-russia-won-the-war-2025-05-29.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-drone-attacks-and-russia-red-lines-2025-06-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-17",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Brian Berletic",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "berletic",
+          "count": 1
+        },
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-berletic-trump-on-the-brink-of-iran-war-live-2025-06-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-20",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-mearsheimer-mercouris-israel-has-walked-off-a-cliff-2025-06-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-putin-iran-air-defense-and-ukraine-military-outcome-2025-06-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-07-25",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-mearsheimer-mercouris-ukraine-war-will-now-be-resolved-on-battlefield-2025-07-25.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-ukraine-negotiation-cynicism-2025-09-09.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-us-decapitation-plan-for-venezuela-2025-09-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-13",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-qatar-strike-trump-diplomacy-and-trickery-2025-09-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-15",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-moscow-says-nato-de-facto-at-war-with-russia-polish-fm-says-west-too-scared-to-fight-big-afd-gains-2025-09-15.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-17",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-zelensky-sacks-generals-as-front-lines-collapse-huge-russian-strike-starmer-plots-mount-modi-trump-2025-09-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-zelensky-admits-military-crisis-warns-of-critical-decisions-demands-60-bn-moscow-confirms-gains-2025-09-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-19",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-zelensky-rushes-to-pokrovsk-as-defences-crumble-russian-strikes-end-kievs-mic-dream-saudi-pakistan-2025-09-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-zelensky-wants-urgent-trump-talks-fronts-collapse-stubb-west-must-fight-russia-germany-tailspin-2025-09-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-22",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 2
+        },
+        {
+          "name": "christoforou",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-eu-neocons-seek-us-russia-baltic-clash-russia-ready-for-war-zelensky-mulls-lower-conscription-age-2025-09-22.md",
+        "source-duran-mercouris-eu-uk-want-unlimited-us-money-and-weapons-for-ukraine-2025-09-22.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-23",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-west-spurns-putin-nuclear-offer-russia-begins-main-pokrovsk-assault-china-crimea-trade-defies-west-2025-09-23.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-26",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-trump-signals-ukraine-is-losing-and-he-wants-to-blame-eu-2025-09-26.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-27",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-long-range-missiles-and-ukraines-last-defense-line-2025-09-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-22",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-mearsheimer-mercouris-window-of-opportunity-for-peace-is-closing-2025-10-22.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-11",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-12",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-kiev-crisis-zelensky-corruption-probe-target-pokrovsk-troops-surrender-zaporozhye-panic-kupiansk-2025-11-12.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-13",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-ukraine-rocked-russia-smashes-through-zaporozhye-kupiansk-mirnograd-corruption-crisis-engulfs-kiev-2025-11-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-the-european-gamble-backing-ukraine-alexander-mercouris-lt-col-daniel-davis-2025-12-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-19",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-mearsheimer-mercouris-fake-diplomacy-and-permanent-conflict-2025-12-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-russia-attacks-using-new-oreshnik-missile-alexander-mercouris-2026-01-09.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-27",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-us-iran-geneva-embassies-konstantinovka-uk-2026-02-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-01",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-khamenei-strike-hormuz-russia-2026-03-01.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-alexander-mercouris-iran-war-transforms-ukraine-war-2026-03-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-31",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-trump-iran-talks-lavrov-chechens-2026-03-31.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-05",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-f15-rescue-hormuz-nato-kiev-2026-04-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-07",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-hormuz-deadline-satellites-oreshnik-2026-04-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-15",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-russia-intensify-china-tankers-putin-xi-2026-04-15.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-23",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "barnes",
+          "count": 1
+        },
+        {
+          "name": "christoforou",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "barnes",
+          "count": 1
+        },
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-mercouris-barnes-fractured-iran-trump-2026-04-23.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-25",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alex-mercouris-china-tough-stance-in-trump-visit-russia-biggest-strike-kiev-shredded-ad-collapses-zelensky-panic-2026-05-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-16",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-25",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-russia-unleashes-oreshnik-more-strikes-planned-2026-05-25.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-26",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-27",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-ukraine-russia-war-expansion-the-duran-s-alexander-mercouris-lt-col-daniel-davis-2026-05-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-06-01",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-seeking-war-with-russia-2026-06-01.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-06-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Duran",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alex Christoforou",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "christoforou",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    }
+  ],
+  "runtime/artifacts": {
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\mercouris.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\mercouris.json"
+  }
+}

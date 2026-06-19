@@ -50,7 +50,7 @@ If you are used to “everything searchable is fair game for the model,” **pau
 - Do **not** **bulk-import** notes or chat exports straight into **`self.md` / IX** as if **searchability** or **embedding** meant **approval**.
 - Do **not** treat **embedding similarity** or **RAG** hits as **consent** to merge **facts** or **personality** into the Record.
 - Do **not** **replace** the **recursion gate** with “the AI **remembered** it from a vector database.”
-- Do **not** connect **MCP**, **Cursor**, or other tools to **silent writes** into **SELF**, **EVIDENCE**, or **`bot/prompt.py`** — use staging + companion-approved merge per [AGENTS.md](../../../AGENTS.md).
+- Do **not** connect **MCP**, **Cursor**, or other tools to **silent writes** into **SELF**, **EVIDENCE**, or **`archive/grace-mar-instance/bot/prompt.py`** — use staging + companion-approved merge per [AGENTS.md](../../../AGENTS.md).
 - Do **not** **copy** another instance’s **``** tree into yours (e.g. grace-mar into a new companion). See [LEAKAGE-CHECKLIST.md](../work-cici/LEAKAGE-CHECKLIST.md) for advisor-side wording.
 
 ---

@@ -33,7 +33,7 @@ def test_notebook_receipt_round_trip_json() -> None:
         page_operation=PageOperation.APPEND.value,
         status="ok",
         sources_read=["docs/a.md"],
-        outputs_touched=["artifacts/x.jsonl"],
+        outputs_touched=["runtime/artifacts/x.jsonl"],
         decision="test run",
         details={"k": "v"},
     )
@@ -63,7 +63,7 @@ def test_append_receipt_creates_line(tmp_path: Path) -> None:
 
 def test_default_receipt_log_path_under_artifacts() -> None:
     p = default_receipt_log_path(REPO_ROOT)
-    assert "artifacts/work-strategy/strategy-notebook/receipts" in p.as_posix()
+    assert "runtime/artifacts/work-strategy/strategy-notebook/receipts" in p.as_posix()
 
 
 def test_rel_posix_inside_repo(tmp_path: Path) -> None:

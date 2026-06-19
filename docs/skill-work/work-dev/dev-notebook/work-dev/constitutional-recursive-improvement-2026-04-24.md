@@ -90,7 +90,7 @@ These loops are still important, but their value comes less from originality and
    Backing claims with tests, scripts, receipts, or demos is ordinary software-quality discipline. Grace-Mar adapts it to a companion-governance context, where capability claims must not outrun actual proof.
 
 7. **Derived regeneration loop**  
-   Rebuild manifests, health summaries, and per-artifact rationale sidecars are not unprecedented, but Grace-Mar now uses them to make derived outputs inspectable without blurring them into canonical surfaces. See [`artifacts/README.md`](../../../../../artifacts/README.md) and [`docs/skill-work/work-dev/derived-regeneration.md`](../../derived-regeneration.md).
+   Rebuild manifests, health summaries, and per-artifact rationale sidecars are not unprecedented, but Grace-Mar now uses them to make derived outputs inspectable without blurring them into canonical surfaces. See [`runtime/artifacts/README.md`](../../../../../runtime/artifacts/README.md) and [`docs/skill-work/work-dev/derived-regeneration.md`](../../derived-regeneration.md).
 
 8. **Dashboards and review surfaces**  
    Boards, dashboards, and derived summaries are common support layers. Grace-Mar's contribution is that these surfaces remain explicitly subordinate to canonical files and governed review paths rather than being quietly promoted into authority.

@@ -22,12 +22,12 @@ cd "$TOOLS_DIR"
 
 # Pandoc 3.9
 PANDOC_DIR="pandoc-3.9-${PANDOC_ARCH}"
-if [[ ! -x "$TOOLS_DIR/$PANDOC_DIR/bin/pandoc" ]]; then
+if [[ ! -x "$TOOLS_DIR/$PANDOC_DIR/platform/bin/pandoc" ]]; then
   echo "Downloading Pandoc for $PANDOC_ARCH..."
   curl -sL -o pandoc.zip "https://github.com/jgm/pandoc/releases/download/3.9/pandoc-3.9-${PANDOC_ARCH}-macOS.zip"
   unzip -o pandoc.zip
   rm pandoc.zip
-  echo "  → $TOOLS_DIR/$PANDOC_DIR/bin/pandoc"
+  echo "  → $TOOLS_DIR/$PANDOC_DIR/platform/bin/pandoc"
 else
   echo "Pandoc already present: $PANDOC_DIR"
 fi

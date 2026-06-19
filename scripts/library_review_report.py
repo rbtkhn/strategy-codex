@@ -1,10 +1,11 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Review report for self-library.md — surfaces stale, under-scoped,
 and operator-book entries to support freshness and retrieval hygiene.
 
 Modes:
   (default)   structured text to stdout
-  --write     also writes artifacts/self-library/runtime-summary.md
+  --write     also writes runtime/artifacts/self-library/runtime-summary.md
 """
 
 from __future__ import annotations
@@ -16,8 +17,8 @@ from datetime import date, timedelta
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_LIB = REPO_ROOT / "users" / "grace-mar" / "self-library.md"
-ARTIFACT_DIR = REPO_ROOT / "artifacts" / "self-library"
+DEFAULT_LIB = REPO_ROOT / "platform/users" / "grace-mar" / "self-library.md"
+ARTIFACT_DIR = ARTIFACTS_DIR / "self-library"
 ARTIFACT_PATH = ARTIFACT_DIR / "runtime-summary.md"
 
 STALE_DAYS = 30
@@ -250,7 +251,7 @@ def main() -> int:
     parser.add_argument(
         "--write",
         action="store_true",
-        help="Write runtime-summary.md to artifacts/self-library/",
+        help="Write runtime-summary.md to runtime/artifacts/self-library/",
     )
     args = parser.parse_args()
 

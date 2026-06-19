@@ -3,7 +3,7 @@
 
 Wraps prose_slop_lint (Phase 0) and optional Vale (Phase 1).
 Class router (Phase 2) selects rule packs by artifact path.
-Rewrite/compare/gate (Phase 3) stage candidates under artifacts/prose-forge/.
+Rewrite/compare/gate (Phase 3) stage candidates under runtime/artifacts/prose-forge/.
 
 SSOT voice: docs/essay-voice.md, docs/skill-write/write-operator-preferences.md
 Surface contract: docs/prose-forge.md
@@ -12,8 +12,8 @@ Usage:
   python3 scripts/prose_forge.py lint essays/draft.md
   python3 scripts/prose_forge.py lint --diff origin/main...HEAD essays/
   python3 scripts/prose_forge.py rewrite essays/draft.md --mode essay
-  python3 scripts/prose_forge.py compare essays/draft.md artifacts/prose-forge/draft/candidate.md
-  python3 scripts/prose_forge.py gate artifacts/prose-forge/draft/candidate.md
+  python3 scripts/prose_forge.py compare essays/draft.md runtime/artifacts/prose-forge/draft/candidate.md
+  python3 scripts/prose_forge.py gate runtime/artifacts/prose-forge/draft/candidate.md
 """
 
 from __future__ import annotations
@@ -30,11 +30,12 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from repo_io import ARTIFACTS_DIR
 
 import prose_slop_lint  # noqa: E402
 
 DENYLIST_PREFIXES = prose_slop_lint.DENYLIST_PREFIXES
-ARTIFACTS_ROOT = REPO_ROOT / "artifacts" / "prose-forge"
+ARTIFACTS_ROOT = ARTIFACTS_DIR / "prose-forge"
 TEMPLATES_ROOT = REPO_ROOT / "templates" / "prose-forge"
 
 

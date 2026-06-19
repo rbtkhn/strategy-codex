@@ -1,4 +1,4 @@
-"""Load policy mode envelopes from config/policy_modes/defaults.json (operator governance, not Record truth)."""
+"""Load policy mode envelopes from platform/config/policy_modes/defaults.json (operator governance, not Record truth)."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-POLICY_DEFAULTS_PATH = REPO_ROOT / "config" / "policy_modes" / "defaults.json"
+POLICY_DEFAULTS_PATH = REPO_ROOT / "platform/config" / "policy_modes" / "defaults.json"
 ENV_POLICY_MODE = "GRACE_MAR_POLICY_MODE"
 DEFAULT_MODE = "operator_only"
 

@@ -39,7 +39,7 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_USERS_DIR = REPO_ROOT / "users"
+DEFAULT_USERS_DIR = REPO_ROOT / "platform/users"
 MIN_EVIDENCE_TIER = 3
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
@@ -50,7 +50,7 @@ from validate_identity_library_boundary import (
     collect_self_library_file_warnings,
 )
 from validate_library_domain_registry import validate_library_domain_registry
-from repo_io import DEFAULT_PROFILE_ID, profile_dir, resolve_surface_markdown_path, self_skills_layout_warnings
+from repo_io import DEFAULT_PROFILE_ID, profile_dir, resolve_surface_markdown_path, self_skills_layout_warnings, BOT_DIR
 
 ALLOWED_PROPOSAL_CLASS = frozenset({
     "SELF_KNOWLEDGE_ADD",
@@ -412,7 +412,7 @@ def validate_skills_sections(user_dirs: list[Path]) -> list[str]:
 
 def validate_derived_exports(user_dirs: list[Path]) -> list[str]:
     errors: list[str] = []
-    prompt_path = REPO_ROOT / "bot" / "prompt.py"
+    prompt_path = BOT_DIR / "prompt.py"
     for user_dir in user_dirs:
         skills_path = resolve_surface_markdown_path(user_dir, "self_skills")
         source_paths = [
@@ -473,7 +473,7 @@ def validate_derived_exports(user_dirs: list[Path]) -> list[str]:
                 if not isinstance(degraded, dict) or "enabled" not in degraded:
                     errors.append(f"{manifest_path.relative_to(REPO_ROOT)} missing degraded_mode contract")
 
-        bundle_dir = user_dir / "runtime-bundle"
+        bundle_dir = user_dir / "runtime/bundle"
         bundle_path = bundle_dir / "bundle.json"
         if bundle_path.exists():
             if bundle_path.stat().st_mtime < latest_source:

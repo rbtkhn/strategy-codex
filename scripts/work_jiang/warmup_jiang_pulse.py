@@ -2,7 +2,7 @@
 """
 Read-only 'momentum' snippets for operator hey (work-start and closeout) — Predictive History lane.
 
-Pulls `users/<id>/work-jiang.md` **Instance work context (YAML)** (see skills-modularity §2a) plus
+Pulls `platform/users/<id>/work-jiang.md` **Instance work context (YAML)** (see skills-modularity §2a) plus
 STATUS / CHAPTER-QUEUE hints and rotates optional sparks from
 codex/predictive-history/metadata/warmup-sparks.yaml (operator-editable).
 
@@ -137,7 +137,7 @@ def _corpus_oneliner(status_md: str) -> str:
 
 
 def build_morning_pulse_lines(user_id: str) -> list[str]:
-    profile = ROOT / "users" / user_id / "work-jiang.md"
+    profile = ROOT / "platform/users" / user_id / "work-jiang.md"
     wj = profile.read_text(encoding="utf-8") if profile.is_file() else ""
     ctx = _parse_instance_work_context_yaml(wj)
     status = STATUS_PATH.read_text(encoding="utf-8") if STATUS_PATH.is_file() else ""
@@ -165,7 +165,7 @@ def build_morning_pulse_lines(user_id: str) -> list[str]:
         lines.append(
             "- **Instance context:** (add `## Instance work context (YAML)` with "
             "`work_jiang.context.yaml` / `WORK_JIANG_CONTEXT_V1` markers in "
-            "`users/{0}/work-jiang.md`)".format(user_id)
+            "`platform/users/{0}/work-jiang.md`)".format(user_id)
         )
     if ctx.get("notes"):
         lines.append(f"- **Notes:** {ctx['notes']}")
@@ -189,7 +189,7 @@ def build_morning_pulse_lines(user_id: str) -> list[str]:
 
 
 def build_night_pulse_lines(user_id: str) -> list[str]:
-    profile = ROOT / "users" / user_id / "work-jiang.md"
+    profile = ROOT / "platform/users" / user_id / "work-jiang.md"
     wj = profile.read_text(encoding="utf-8") if profile.is_file() else ""
     ctx = _parse_instance_work_context_yaml(wj)
     status = STATUS_PATH.read_text(encoding="utf-8") if STATUS_PATH.is_file() else ""
@@ -226,7 +226,7 @@ def build_night_pulse_lines(user_id: str) -> list[str]:
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("-u", "--user", default="grace-mar", help="Fork id under users/")
+    p.add_argument("-u", "--user", default="grace-mar", help="Fork id under platform/users/")
     p.add_argument("--morning", action="store_true", help="Print morning block only")
     p.add_argument("--night", action="store_true", help="Print night block only")
     args = p.parse_args()

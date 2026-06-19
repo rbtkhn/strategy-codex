@@ -6,7 +6,7 @@ Read-only with respect to Record: only writes the output file. See
 docs/skill-work/work-dev/safety-story-ux.md and AGENTS.md.
 
   python3 scripts/report_governance_posture.py -u grace-mar
-  python3 scripts/report_governance_posture.py -u grace-mar -o artifacts/governance-posture.md
+  python3 scripts/report_governance_posture.py -u grace-mar -o runtime/artifacts/governance-posture.md
 """
 
 from __future__ import annotations
@@ -22,7 +22,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from repo_io import profile_dir, resolve_ledger_path  # noqa: E402
+from repo_io import profile_dir, resolve_ledger_path  # noqa: E402, ARTIFACTS_DIR
 
 
 def _git_short_hash(cwd: Path) -> str:
@@ -103,13 +103,13 @@ def build_governance_posture_markdown(
         "- **Mind (human):** holds merge authority and meaning.\n",
         "- **Record:** documented self in `self.md`, evidence in `self-archive.md` — updated **only** through the "
         "gated pipeline after companion approval.\n",
-        "- **Voice:** `bot/` renders the Record when queried; it does **not** replace the pipeline. "
+        "- **Voice:** `archive/grace-mar-instance/bot/` renders the Record when queried; it does **not** replace the pipeline. "
         "See [docs/conceptual-framework.md](../docs/conceptual-framework.md) for the full distinction.\n\n",
         "## No silent merge\n\n",
         "1. Proposals land as **`### CANDIDATE-…`** blocks in `recursion-gate.md` (staging).\n",
         "2. The **companion** approves; the operator runs "
         "`python3 scripts/process_approved_candidates.py --apply` (see [AGENTS.md](../AGENTS.md)).\n",
-        "3. **OpenClaw and assistants stage only** — they do not write SELF, EVIDENCE, or `bot/prompt.py` without "
+        "3. **OpenClaw and assistants stage only** — they do not write SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` without "
         "that merge. Chat is not proof of Record truth.\n\n",
         "## Inspectability (what “safe” means here)\n\n",
         "Same dimensions as [safety-story-ux.md](../docs/skill-work/work-dev/safety-story-ux.md), with paths "
@@ -147,7 +147,7 @@ def build_governance_posture_markdown(
             "Replace the user id if needed.\n\n",
             "```bash\n",
             f"python3 scripts/validate-integrity.py --user {uid}\n",
-            f"python3 scripts/run_voice_benchmark.py -o {uid}/artifacts/voice_benchmark_results.json\n",
+            f"python3 scripts/run_voice_benchmark.py -o {uid}/runtime/artifacts/voice_benchmark_results.json\n",
             f"python3 scripts/replay_harness_event.py -u {uid} --candidate CANDIDATE-0000   # example; use a real id\n",
             f"python3 scripts/report_governance_posture.py -u {uid}\n",
             "```\n\n",
@@ -168,8 +168,8 @@ def main() -> int:
         "-o",
         "--output",
         type=Path,
-        default=REPO_ROOT / "artifacts" / "governance-posture.md",
-        help="Output Markdown path (default: artifacts/governance-posture.md)",
+        default=ARTIFACTS_DIR / "governance-posture.md",
+        help="Output Markdown path (default: runtime/artifacts/governance-posture.md)",
     )
     ap.add_argument(
         "--repo-root",

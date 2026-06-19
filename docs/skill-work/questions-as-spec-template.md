@@ -2,7 +2,7 @@
 
 **Purpose:** Default PLAN success shape for **heavy** multi-file or long-document work — meaningful questions that encode standards, not a single eval rubric.
 
-**Use with:** [operator-agent-lanes.md](../operator-agent-lanes.md) (PLAN lane), [context-folder-assembly](../../skills-portable/_drafts/context-folder-assembly/SKILL.md) (`questions.md` in working folders), [context-folder-operator-cheatsheet.md](./context-folder-operator-cheatsheet.md) (one-page flow), optional `inspection.questionsSpec` on [workbench receipts](../skill-work/work-dev/workbench/WORKBENCH-RECEIPT-SPEC.md).
+**Use with:** [operator-agent-lanes.md](../operator-agent-lanes.md) (PLAN lane), [context-folder-assembly](../../skills/_drafts/context-folder-assembly/SKILL.md) (`questions.md` in working folders), [context-folder-operator-cheatsheet.md](./context-folder-operator-cheatsheet.md) (one-page flow), optional `inspection.questionsSpec` on [workbench receipts](../skill-work/work-dev/workbench/WORKBENCH-RECEIPT-SPEC.md).
 
 **WORK only** — not Record truth.
 

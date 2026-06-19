@@ -140,7 +140,7 @@ def build_seed_diff(
 
 def write_diff(user_id: str, diff: dict[str, Any]) -> Path:
     """Write the diff JSON to the review-queue diffs directory."""
-    diffs_dir = profile_dir(user_id) / "review-queue" / "diffs"
+    diffs_dir = profile_dir(user_id) / "archive/queues/review-queue" / "diffs"
     diffs_dir.mkdir(parents=True, exist_ok=True)
     filename = f"{diff['diffId']}.json"
     path = diffs_dir / filename

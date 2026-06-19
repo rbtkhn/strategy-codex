@@ -45,7 +45,7 @@ def main() -> int:
         print("jsonschema required: pip install jsonschema", file=sys.stderr)
         return 1
 
-    schema = load_schema("schema-registry/seed-constitution.v1.json")
+    schema = load_schema("schemas/registry/seed-constitution.v1.json")
     if not isinstance(schema, dict):
         print(f"Expected JSON object schema, got {type(schema).__name__}", file=sys.stderr)
         return 1

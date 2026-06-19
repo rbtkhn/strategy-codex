@@ -1,0 +1,291 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/registry/external-research-artifact.v1.json",
+  "title": "External research artifact",
+  "description": "Validated lane-scoped external research artifact for WORK research ingest, prepared-context derivation, and optional self-proposal draft export.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_schema_version",
+    "source",
+    "lane",
+    "topic_slug",
+    "captured_at",
+    "ingest_mode",
+    "record_impact",
+    "query",
+    "raw_capture",
+    "summary",
+    "key_claims",
+    "citations",
+    "tensions",
+    "open_questions",
+    "proposed_ix_updates",
+    "proposed_skill_updates",
+    "prepared_context_tags"
+  ],
+  "properties": {
+    "artifact_schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lane": {
+      "type": "string",
+      "enum": [
+        "singularity-academy",
+        "work-dev",
+        "work-strategy",
+        "work-business"
+      ]
+    },
+    "topic_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "captured_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ingest_mode": {
+      "type": "string",
+      "enum": [
+        "paste"
+      ]
+    },
+    "record_impact": {
+      "type": "string",
+      "enum": [
+        "none",
+        "possible",
+        "proposed"
+      ]
+    },
+    "query": {
+      "type": "string",
+      "minLength": 1
+    },
+    "raw_capture": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "key_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim",
+          "citations"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "citations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "evidence_strength": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "mixed",
+              null
+            ]
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "raw_text",
+          "resolution_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^cit-[0-9]{3}$"
+          },
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "authors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "year": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "doi": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "pdf_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "relevance": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              null
+            ]
+          },
+          "snippet": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "raw_text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "resolution_status": {
+            "type": "string",
+            "enum": [
+              "resolved",
+              "partial",
+              "unresolved"
+            ]
+          }
+        }
+      }
+    },
+    "tensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "proposed_ix_updates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "proposed_skill_updates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prepared_context_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "academy_surface": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "acceleration_vector": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "agent_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alignment_risk": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "substrate_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "displacement_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "commercial_relevance": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reuse_output": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

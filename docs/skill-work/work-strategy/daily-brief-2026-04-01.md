@@ -106,7 +106,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:1 S:0 G:2]** [Last 24 hours saw Ã¢â‚¬Ëœlowest number’ of Iranian missile and drone attacks, Hegseth says](https://www.defenseone.com/policy/2026/03/last-24-hours-saw-lowest-number-iranian-missile-and-drone-attacks-hegseth-says/412521/) Ã¢â‚¬” _Defense One Ã¢â‚¬” All_ Ã‚· _2026-03-31 13:57 UTC_
 - **[W:3 S:0 G:1]** [What do Trump's latest comments on leaving Nato mean for the alliance?](https://www.bbc.com/news/articles/c79je4vldq5o?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-04-01 16:31 UTC_

@@ -106,7 +106,7 @@
     }
   },
   "exports": {
-    "users/grace-mar/openclaw-user.md": "python scripts/export_user_identity.py -u grace-mar -o users/grace-mar/openclaw-user.md",
+    "platform/users/grace-mar/openclaw-user.md": "python scripts/export_user_identity.py -u grace-mar -o platform/users/grace-mar/openclaw-user.md",
     "manifest": "python scripts/export_manifest.py -u grace-mar",
     "fork_json": "python scripts/export_fork.py -o fork-export.json",
     "intent_snapshot": "python scripts/export_intent_snapshot.py -u grace-mar",
@@ -175,7 +175,7 @@
       "Escalate when evidence linkage for a durable claim is missing or weak"
     ],
     "never_autonomous_actions": [
-      "Merge into self.md, self-evidence.md, or bot/prompt.py without companion-approved pipeline processing",
+      "Merge into self.md, self-evidence.md, or archive/grace-mar-instance/bot/prompt.py without companion-approved pipeline processing",
       "Alter language register policy without companion approval",
       "Publish campaign, X, or external copy without explicit human approval in scope"
     ],

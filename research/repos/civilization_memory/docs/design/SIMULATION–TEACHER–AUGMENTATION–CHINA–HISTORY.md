@@ -18,7 +18,7 @@
 
 ## Scenario 1: Teacher Asks Ordinary LLM for an Answer
 
-**Teacher’s prompt (to generic chatbot):**  
+**Teacher’s prompt (to generic chatarchive/grace-mar-instance/bot):**  
 “I’m a Chinese history teacher. A student asked: Why did the Ming stop the treasure voyages and turn inward? Weren’t they way ahead of Europe in naval technology? Give me a clear, classroom-ready answer.”
 
 **Simulated ordinary LLM response:**

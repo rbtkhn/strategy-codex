@@ -24,7 +24,7 @@ from gated_record_rules import allowed_gated_commit_message, is_gated_record_pat
         ("self-archive.md", True),
         ("merge-receipts.jsonl", True),
         ("grace-mar-llm.txt", True),
-        ("bot/prompt.py", True),
+        ("archive/grace-mar-instance/bot/prompt.py", True),
         ("grace-mar-llm.txt", True),
         ("docs/foo.md", False),
         ("self-memory.md", False),
@@ -52,12 +52,12 @@ def test_allowed_gated_commit_message(msg: str, ok: bool) -> None:
 def test_check_gated_record_pr_passes_clean_range(tmp_path: Path) -> None:
     subprocess.run(["git", "init"], cwd=tmp_path, check=True, capture_output=True)
     subprocess.run(
-        ["git", "config", "user.email", "t@e.st"],
+        ["git", "platform/config", "user.email", "t@e.st"],
         cwd=tmp_path,
         check=True,
     )
     subprocess.run(
-        ["git", "config", "user.name", "Test"],
+        ["git", "platform/config", "user.name", "Test"],
         cwd=tmp_path,
         check=True,
     )
@@ -115,12 +115,12 @@ def test_check_gated_record_pr_passes_clean_range(tmp_path: Path) -> None:
 def test_check_gated_record_pr_fails_without_token(tmp_path: Path) -> None:
     subprocess.run(["git", "init"], cwd=tmp_path, check=True, capture_output=True)
     subprocess.run(
-        ["git", "config", "user.email", "t@e.st"],
+        ["git", "platform/config", "user.email", "t@e.st"],
         cwd=tmp_path,
         check=True,
     )
     subprocess.run(
-        ["git", "config", "user.name", "Test"],
+        ["git", "platform/config", "user.name", "Test"],
         cwd=tmp_path,
         check=True,
     )
@@ -139,7 +139,7 @@ def test_check_gated_record_pr_fails_without_token(tmp_path: Path) -> None:
         text=True,
         check=True,
     ).stdout.strip()
-    u = tmp_path / "users" / "x"
+    u = tmp_path / "platform/users" / "x"
     u.mkdir(parents=True)
     (u / "self.md").write_text("# x\n")
     subprocess.run(["git", "add", "-A"], cwd=tmp_path, check=True)

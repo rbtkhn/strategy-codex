@@ -2,7 +2,7 @@
 """
 Cross-check MCP capability registry against authority bindings + authority-map.json.
 
-Read-only with respect to Record. Writes artifacts/mcp-authority-report.md by default.
+Read-only with respect to Record. Writes runtime/artifacts/mcp-authority-report.md by default.
 
   python3 scripts/mcp_authority_check.py
   python3 scripts/mcp_authority_check.py --strict   # warnings also fail exit code
@@ -22,6 +22,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from yaml_compat import safe_load_path  # noqa: E402
 from mcp_capability_audit import (  # noqa: E402
@@ -30,12 +31,12 @@ from mcp_capability_audit import (  # noqa: E402
     validate_document as validate_jsonschema_document,
 )
 
-CAPABILITIES_PATH = REPO_ROOT / "config" / "mcp-capabilities.yaml"
+CAPABILITIES_PATH = REPO_ROOT / "platform/config" / "mcp-capabilities.yaml"
 CAPABILITY_SCHEMA = REPO_ROOT / "schemas" / "mcp-capability.v1.json"
-BINDINGS_PATH = REPO_ROOT / "config" / "mcp-authority-bindings.yaml"
+BINDINGS_PATH = REPO_ROOT / "platform/config" / "mcp-authority-bindings.yaml"
 BINDINGS_SCHEMA = REPO_ROOT / "schemas" / "mcp-authority-bindings.v1.json"
-AUTHORITY_MAP_PATH = REPO_ROOT / "config" / "authority-map.json"
-DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "mcp-authority-report.md"
+AUTHORITY_MAP_PATH = REPO_ROOT / "platform/config" / "authority-map.json"
+DEFAULT_OUTPUT = ARTIFACTS_DIR / "mcp-authority-report.md"
 
 GITHUB_REQUIRED_PROHIBITED = ("merge_to_main", "force_push", "bypass_review")
 

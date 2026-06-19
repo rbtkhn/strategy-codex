@@ -207,7 +207,7 @@ def test_contradiction_markers_needs_review(tmp_path: Path) -> None:
 
 
 def test_forbidden_out_under_users(tmp_path: Path) -> None:
-    bad_out = REPO_ROOT / "users" / "grace-mar" / "_validator_forbidden_test.json"
+    bad_out = REPO_ROOT / "platform/users" / "grace-mar" / "_validator_forbidden_test.json"
     cmd = [
         sys.executable,
         str(_scripts_ws() / "validate_strategy_packet.py"),
@@ -305,7 +305,7 @@ def test_carry_harness_run_validators_embeds_summary(tmp_path: Path) -> None:
 def test_validate_packet_forbidden_output(tmp_path: Path) -> None:
     from packet_common import is_forbidden_record_path
 
-    bad = REPO_ROOT / "users" / "grace-mar" / "x.json"
+    bad = REPO_ROOT / "platform/users" / "grace-mar" / "x.json"
     rep = vsp.validate_packet(
         repo_root=REPO_ROOT,
         task_arg=None,

@@ -1,7 +1,7 @@
 [
   {
     "skill": "ritter-warning-extraction",
-    "path": "skills-portable/_drafts/ritter-warning-extraction/SKILL.md",
+    "path": "skills/_drafts/ritter-warning-extraction/SKILL.md",
     "minimum_score": 90,
     "critical_must_cover": [
       "deep topic search rule",
@@ -57,7 +57,7 @@
   },
   {
     "skill": "marandi-state-extraction",
-    "path": "skills-portable/_drafts/marandi-state-extraction/SKILL.md",
+    "path": "skills/_drafts/marandi-state-extraction/SKILL.md",
     "minimum_score": 90,
     "critical_must_cover": [
       "inside-state filter",
@@ -69,8 +69,8 @@
       {
         "id": "MARANDI-G001",
         "prompt": "What does Marandi say Iran's position is?",
-        "must_cover": ["inside-state account", "authority carrier", "source evidence"],
-        "must_not": ["do not treat marandi as neutral wire evidence"],
+        "must_cover": ["inside-state account", "authority carrier", "source archive/placeholders/evidence"],
+        "must_not": ["do not treat marandi as neutral wire archive/placeholders/evidence"],
         "expected_behavior": ["marandi interpretation", "iranian policy"]
       },
       {
@@ -105,7 +105,7 @@
   },
   {
     "skill": "parsi-diplomacy-extraction",
-    "path": "skills-portable/_drafts/parsi-diplomacy-extraction/SKILL.md",
+    "path": "skills/_drafts/parsi-diplomacy-extraction/SKILL.md",
     "minimum_score": 90,
     "critical_must_cover": [
       "diplomacy architecture filter",
@@ -153,7 +153,7 @@
   },
   {
     "skill": "academy-statecraft-drafting",
-    "path": "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+    "path": "skills/_drafts/academy-statecraft-drafting/SKILL.md",
     "id_prefix": "STATECRAFT",
     "minimum_score": 90,
     "critical_must_cover": [
@@ -210,7 +210,7 @@
   },
   {
     "skill": "expert-forecast-ledger",
-    "path": "skills-portable/_drafts/expert-forecast-ledger/SKILL.md",
+    "path": "skills/_drafts/expert-forecast-ledger/SKILL.md",
     "id_prefix": "LEDGER",
     "minimum_score": 90,
     "critical_must_cover": [

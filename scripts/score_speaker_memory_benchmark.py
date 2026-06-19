@@ -24,7 +24,7 @@ CORE_FAILURES = {
     "weak_open_first",
     "wrong_arc_rank",
     "missing_paired_read",
-    "generic_guest_profile",
+    "generic_guest_platform/profile",
     "lattice_overload",
     "premature_helix",
     "missing_metric_vector",
@@ -39,7 +39,7 @@ REPAIR_ROUTING = {
     "missing_boundaries": ("source_note", "Add boundaries that state what not to overclaim."),
     "wrong_arc_rank": ("fixture", "Tighten expected rank order or repair the arc ranking."),
     "missing_paired_read": ("source_note", "Add a paired-read recommendation and reason."),
-    "generic_guest_profile": ("template", "Strengthen host-conditioned arc language."),
+    "generic_guest_platform/profile": ("template", "Strengthen host-conditioned arc language."),
     "lattice_overload": ("template", "Reinforce lattice-as-pointer doctrine."),
     "unsupported_claim_risk": ("prompt", "Tighten source-pack restraint and unsupported-claim penalties."),
     "premature_helix": ("source_note", "Remove or qualify premature helix claims."),
@@ -56,15 +56,15 @@ REPAIR_ROUTING = {
 DEFAULT_TARGETS = {
     "sm-1-speaker-object-repair": "codex/speakers/sachs/sachs-speaker-object.md",
     "sm-2-speaker-arc-ranking": "codex/speakers/diesen/stream/diesen-freeman-arc.md",
-    "sm-3-speaker-structure-metrics": "artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
-    "sm-4-speaker-maturity-ranking": "artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
+    "sm-3-speaker-structure-metrics": "runtime/artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
+    "sm-4-speaker-maturity-ranking": "runtime/artifacts/benchmarks/speaker-memory/speaker-structure-benchmark.md",
 }
 
 TARGET_BY_TYPE = {
     "template": "codex/speakers/_templates/speaker-arc-template.md",
-    "fixture": "artifacts/benchmarks/speaker-memory/fixtures",
-    "rubric": "artifacts/benchmarks/speaker-memory/fixtures",
-    "prompt": "artifacts/benchmarks/speaker-memory/fixtures",
+    "fixture": "runtime/artifacts/benchmarks/speaker-memory/fixtures",
+    "rubric": "runtime/artifacts/benchmarks/speaker-memory/fixtures",
+    "prompt": "runtime/artifacts/benchmarks/speaker-memory/fixtures",
 }
 
 
@@ -363,7 +363,7 @@ def score_sm2(text: str) -> tuple[list[Check], list[str]]:
 
     host_terms = ["diesen brings out", "host-local", "host frame", "inside the diesen stream", "conversational form"]
     host_ok = contains_any(text, host_terms)
-    generic_terms = ["generic freeman profile", "generic guest profile"]
+    generic_terms = ["generic freeman platform/profile", "generic guest platform/profile"]
     generic_guest = any(
         term.casefold() in text.casefold() and not phrase_is_negated(text, term)
         for term in generic_terms
@@ -376,7 +376,7 @@ def score_sm2(text: str) -> tuple[list[Check], list[str]]:
         max_score=14,
         passed=host_ok and not generic_guest,
         message="Host-conditioned form is explicit." if host_ok and not generic_guest else "Arc reads as a generic guest profile.",
-        failure_code="generic_guest_profile",
+        failure_code="generic_guest_platform/profile",
     )
 
     lattice_mentions = re.findall(r"lattice", text, flags=re.IGNORECASE)
@@ -507,7 +507,7 @@ def score_sm3(text: str) -> tuple[list[Check], list[str]]:
         failure_code="weak_gap_awareness",
     )
 
-    evidence_table_ok = contains_any(text, ["| evidence", "host_lanes", "watch_url_coverage", "materialized_transcripts"])
+    evidence_table_ok = contains_any(text, ["| archive/placeholders/evidence", "host_lanes", "watch_url_coverage", "materialized_transcripts"])
     add_check(
         checks,
         failures,
@@ -649,9 +649,9 @@ def repair_actions_for(benchmark_id: str, failures: list[str]) -> list[RepairAct
             failure, ("rubric", "Review scorer rule and benchmark fixture.")
         )
         target = (
-            DEFAULT_TARGETS.get(benchmark_id, "artifacts/benchmarks/speaker-memory")
+            DEFAULT_TARGETS.get(benchmark_id, "runtime/artifacts/benchmarks/speaker-memory")
             if target_type == "source_note"
-            else TARGET_BY_TYPE.get(target_type, "artifacts/benchmarks/speaker-memory")
+            else TARGET_BY_TYPE.get(target_type, "runtime/artifacts/benchmarks/speaker-memory")
         )
         severity = "high" if failure in CORE_FAILURES else "medium"
         actions.append(

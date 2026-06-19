@@ -99,7 +99,7 @@ prompt_addition: none
 
 
 def _write_fork(tmp_path: Path, gate_body: str) -> Path:
-    user_dir = tmp_path / "users" / "grace-mar"
+    user_dir = tmp_path / "platform/users" / "grace-mar"
     user_dir.mkdir(parents=True)
     (user_dir / "self.md").write_text("# self\n\n### IX-A\n\n(knowledge)\n", encoding="utf-8")
     gate_path = user_dir / "recursion-gate.md"
@@ -140,7 +140,7 @@ def test_skills_candidate_surface_preview(tmp_path: Path) -> None:
 
 def test_simulator_does_not_mutate_canonical_files(tmp_path: Path) -> None:
     gate_path = _write_fork(tmp_path, _gate_skills_fixture())
-    self_path = tmp_path / "users" / "grace-mar" / "self.md"
+    self_path = tmp_path / "platform/users" / "grace-mar" / "self.md"
     before_gate = gate_path.read_bytes()
     before_self = self_path.read_bytes()
     out = tmp_path / "report.md"
@@ -235,7 +235,7 @@ def test_observation_envelope_appears_when_ledger_present(tmp_path: Path) -> Non
     (obs_dir / "index.jsonl").write_text(json.dumps(obs) + "\n", encoding="utf-8")
 
     # Add source_observation_ids to gate candidate YAML (same file rewrite)
-    gate_path = tmp_path / "users" / "grace-mar" / "recursion-gate.md"
+    gate_path = tmp_path / "platform/users" / "grace-mar" / "recursion-gate.md"
     body = gate_path.read_text(encoding="utf-8")
     body = body.replace(
         "review_notes: null\n```",

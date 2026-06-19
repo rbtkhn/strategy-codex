@@ -2,7 +2,7 @@
 
 This folder documents **required filenames** for a Grace-Mar instance. It is **not** a runtime template copied by automation today; the live instance is [`../grace-mar/`](../grace-mar/).
 
-**Canonical paths** (flat under `users/<id>/`): see [docs/canonical-paths.md](../../docs/canonical-paths.md).
+**Canonical paths** (flat under `platform/users/<id>/`): see [docs/canonical-paths.md](../../docs/canonical-paths.md).
 
 | File | Role |
 |------|------|
@@ -20,6 +20,6 @@ This folder documents **required filenames** for a Grace-Mar instance. It is **n
 
 A future subdirectory layout is discussed in [docs/adr/0001-users-directory-layout-future.md](../../docs/adr/0001-users-directory-layout-future.md); until then, keep the flat layout.
 
-**Large binaries:** prefer [Git LFS](https://git-lfs.com/) for committed media under `users/<id>/artifacts/`; see `.gitignore` notes for local-only patterns.
+**Large binaries:** prefer [Git LFS](https://git-lfs.com/) for committed media under `platform/users/<id>/runtime/artifacts/`; see `.gitignore` notes for local-only patterns.
 
-**THINK machine artifacts (optional):** Repo-level pattern lives under `artifacts/skill-think/` in grace-mar; new instances can start empty and populate [think-claims.json](../../artifacts/skill-think/think-claims.json) after evidence exists — see [docs/skill-think/think-evidence-standard.md](../../docs/skill-think/think-evidence-standard.md).
+**THINK machine artifacts (optional):** Repo-level pattern lives under `runtime/artifacts/skill-think/` in grace-mar; new instances can start empty and populate [think-claims.json](../../runtime/artifacts/skill-think/think-claims.json) after evidence exists — see [docs/skill-think/think-evidence-standard.md](../../docs/skill-think/think-evidence-standard.md).

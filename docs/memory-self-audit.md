@@ -61,7 +61,7 @@ Use **one row per dimension** in the summary table. Each dimension is a separate
 
 - **Dream normalization:** `python3 scripts/auto_dream.py -u <id> --dry-run` â€” note `self_memory.changed` vs `blank_lines_collapsed` (see *Telemetry note* below).
 - **Markdown hygiene:** broken fences, orphan bullets, duplicate top-level `##` headers, huge pasted blocks.
-- **Voice caps:** [bot/core.py](../bot/core.py) loads horizons with per-section line caps (`_MEMORY_MAX_LINES`: short 45, medium 28, long 18 after filtering). Count filtered lines per bucket if the file grows.
+- **Voice caps:** [archive/grace-mar-instance/bot/core.py](../archive/grace-mar-instance/bot/core.py) loads horizons with per-section line caps (`_MEMORY_MAX_LINES`: short 45, medium 28, long 18 after filtering). Count filtered lines per bucket if the file grows.
 
 **Pass signal:** Structure matches loader expectations; substantive lines stay under caps.
 
@@ -94,7 +94,7 @@ Use **one row per dimension** in the summary table. Each dimension is a separate
 
 **Target file:** [self-memory.md](../self-memory.md)  
 **Cross-checks:** Overlap spot-check vs [self.md](../self.md) and EVIDENCE for **Bach Goldberg Variations** / **Tchaikovsky Andante cantabile** (merged LEARN/CUR; ACT-0038/0039).  
-**Voice load (filtered lines):** short 7 / cap 45, medium 1 / cap 28, long 2 / cap 18 â€” all **under cap** (`bot/core.py` semantics).  
+**Voice load (filtered lines):** short 7 / cap 45, medium 1 / cap 28, long 2 / cap 18 â€” all **under cap** (`archive/grace-mar-instance/bot/core.py` semantics).  
 **Dream dry-run:** `integrity ok`, `governance ok`; `self-memory changed: False`, `blank_lines_collapsed: 3`, `deduped lines: 0` (idempotent normalize; see Telemetry note).
 
 | Dimension | Result | Notes |

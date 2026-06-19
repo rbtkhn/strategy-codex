@@ -30,7 +30,7 @@ def test_rotate_embedded_viii_compress_writes_gz(tmp_path, monkeypatch):
 
     monkeypatch.setattr(ra, "REPO_ROOT", tmp_path)
     uid = "rot-test"
-    ud = tmp_path / "users" / uid
+    ud = tmp_path / "platform/users" / uid
     ud.mkdir(parents=True)
     (ud / "self-archive.md").write_text(_evidence_with_viii(6), encoding="utf-8")
 
@@ -56,7 +56,7 @@ def test_rotate_legacy_standalone_plain_md(tmp_path, monkeypatch):
 
     monkeypatch.setattr(ra, "REPO_ROOT", tmp_path)
     uid = "rot-test"
-    ud = tmp_path / "users" / uid
+    ud = tmp_path / "platform/users" / uid
     ud.mkdir(parents=True)
     (ud / "self-evidence.md").write_text("# EVIDENCE\n\nno section viii\n", encoding="utf-8")
     (ud / "self-archive.md").write_text(_archive_body(6), encoding="utf-8")

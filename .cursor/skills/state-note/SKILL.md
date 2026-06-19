@@ -9,7 +9,7 @@ tags:
 - notes
 - promotion
 - synthesis
-portable_source: skills-portable/state-note/SKILL.md
+portable_source: skills/state-note/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # State Note
@@ -171,7 +171,7 @@ Run host sync and validation (see appendix).
 
 **Repo notes**
 
-- Hand-edit **only** `skills-portable/state-note/SKILL.md`; run sync before commit.
+- Hand-edit **only** `skills/state-note/SKILL.md`; run sync before commit.
 - Promotion is forward-only on the notes shelf unless operator requests cleanup migration.
 - Kiev/Kharkov operator spelling applies in synthesis framing around archive quotes; preserve load-bearing verbatim in quotes per workspace rules.
 

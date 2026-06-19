@@ -1,8 +1,8 @@
 # self-skill-work (Template)
 
-**Template only. No real data.** Copy to `users/<new_id>/self-skill-work.md` in an instance. Schema tag: **WORK**. Making and doing; populated from activity.
+**Template only. No real data.** Copy to `platform/users/<new_id>/self-skill-work.md` in an instance. Schema tag: **WORK**. Making and doing; populated from activity.
 
-**Objectives and intentions** for the user and companion are encoded in skill-work (this file and linked evidence). Evidence-linked; planning, execution, collaboration, originality per instance schema.
+**Objectives and intentions** for the user and companion are encoded in skill-work (this file and linked archive/placeholders/evidence). Evidence-linked; planning, execution, collaboration, originality per instance schema.
 
 **Module intent:** WORK serves as tutor for the companion in making, planning, execution, and creation — proposing activities at the container edge, answering questions, scaffolding next steps, aligned with work goals and life mission. Captures capability from evidence; human-gated.
 

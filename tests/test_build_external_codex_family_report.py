@@ -134,7 +134,7 @@ def test_passes_selector_rejects_unknown_type() -> None:
 
 def test_example_fixture_matches_schema(tmp_path: Path) -> None:
     repo_root = Path(__file__).resolve().parent.parent
-    example = repo_root / "artifacts" / "external-codex" / "examples" / "family-fixture.v1.json"
+    example = repo_root / "runtime/artifacts" / "external-codex" / "examples" / "family-fixture.v1.json"
     if not example.is_file():
         pytest.skip("family-fixture.v1.json not committed")
     data = json.loads(example.read_text(encoding="utf-8"))

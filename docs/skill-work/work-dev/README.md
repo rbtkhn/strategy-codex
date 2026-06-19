@@ -58,7 +58,7 @@ Use this order when actively working on the territory:
 7. For **how evals are packaged as product** (operator + partner narrative), read [quality-gates-narrative.md](quality-gates-narrative.md).
 8. For **session continuity as explicit steps** (files / scripts / CI vs implicit memory), read [session-continuity-contract.md](session-continuity-contract.md).
 9. For **audit continuity as the safety story** (visible pipeline state vs â€œtrust the chatâ€), read [safety-story-ux.md](safety-story-ux.md).
-10. For **long-form tech media** (podcasts, keynotes) translated into integration + offers vocabulary â€” not as specs â€” read [external-signals.md](external-signals.md) and the shared table in [../work-strategy/external-tech-scan.md](../work-strategy/external-tech-scan.md). Example ingest: [research-no-priors-karpathy-end-of-coding.md](research-no-priors-karpathy-end-of-coding.md) (No Priors / Karpathy â€” agents, claws, auto-research).
+10. For **long-form tech media** (podcasts, keynotes) translated into integration + offers vocabulary â€” not as specs â€” read [external-signals.md](external-signals.md) and the shared table in [../work-strategy/external-tech-scan.md](../work-strategy/external-tech-scan.md). Example ingest: [research-no-priors-karpathy-end-of-coding.md](research-no-priors-karpathy-end-of-coding.md) (No Priors / Karpathy â€” agents, claws, research/auto-research).
 11. For **focus intervals** inside the 2-hour design constraint (Pomodoro-style timeboxing, optional lesson prompt line), see [pomodoro-and-timeboxing.md](pomodoro-and-timeboxing.md).
 
 ---
@@ -178,11 +178,11 @@ Use [postmortem-to-skill-feedback-loop.md](postmortem-to-skill-feedback-loop.md)
 | **[templates/job-brief.md](templates/job-brief.md)** | **WORK job brief** â€” advisory pre-execution contract for non-trivial agent tasks, public-facing outputs, strategy synthesis, writing work, and drift-prone delegation. |
 | **[ubiquitous-language-and-tracer-bullets.md](ubiquitous-language-and-tracer-bullets.md)** | **Ubiquitous Language + Tracer-Bullet Plans** â€” WORK-only primitive for shared vocabulary, forbidden claims, and the smallest end-to-end proof path before broader implementation. Template: [templates/language-and-tracer-bullet-plan.md](templates/language-and-tracer-bullet-plan.md). |
 | **[compound-loop.md](compound-loop.md)** | **Compound work loop** â€” Plan â†’ Execute â†’ Review â†’ Compound â†’ Gate for coding-agent work; compound notes are WORK-only; gate is the only path toward Record candidates. |
-| **[compound-gate-export.md](compound-gate-export.md)** | **Gate candidate export** â€” read-only `artifacts/work-dev-compound-gate-candidates.md` from `gate_candidate` notes; not approval; `python3 scripts/export_work_dev_compound_gate_candidates.py`. |
-| **[compound-dashboard.md](compound-dashboard.md)** | **Compound dashboard** â€” generated operator view of compound notes, refresh/export status, stale/duplicate hints, and related paths; `python3 scripts/build_work_dev_compound_dashboard.py` â†’ `artifacts/work-dev-compound-dashboard.md`. |
-| **[work-dev-derived-markdown-authority.md](work-dev-derived-markdown-authority.md)** | **YAML `recordAuthority` / `gateEffect` on compound derived markdown** under `artifacts/work-dev-compound-*.md` (not the JSON interface-artifact schema). |
+| **[compound-gate-export.md](compound-gate-export.md)** | **Gate candidate export** â€” read-only `runtime/artifacts/work-dev-compound-gate-candidates.md` from `gate_candidate` notes; not approval; `python3 scripts/export_work_dev_compound_gate_candidates.py`. |
+| **[compound-dashboard.md](compound-dashboard.md)** | **Compound dashboard** â€” generated operator view of compound notes, refresh/export status, stale/duplicate hints, and related paths; `python3 scripts/build_work_dev_compound_dashboard.py` â†’ `runtime/artifacts/work-dev-compound-dashboard.md`. |
+| **[work-dev-derived-markdown-authority.md](work-dev-derived-markdown-authority.md)** | **YAML `recordAuthority` / `gateEffect` on compound derived markdown** under `runtime/artifacts/work-dev-compound-*.md` (not the JSON interface-artifact schema). |
 | **[provenance-checklist.md](provenance-checklist.md)** | Repeatable verification path for export, handback, and audit integrity. |
-| **[record-diff-queue.md](../../record-diff-queue.md)** | **Record Diff Queue** (GAP-011): unified review surface for pending governed-state changes; standardized diff cards (old/new/evidence/confidence/conflict/recommended action); template-portable renderer + instance gate adapter. |
+| **[record-diff-queue.md](../../record-diff-queue.md)** | **Record Diff Queue** (GAP-011): unified review surface for pending governed-state changes; standardized diff cards (old/new/archive/placeholders/evidence/confidence/conflict/recommended action); template-portable renderer + instance gate adapter. |
 
 ### Portability / runtime / external agents
 
@@ -214,24 +214,24 @@ Use [postmortem-to-skill-feedback-loop.md](postmortem-to-skill-feedback-loop.md)
 | Doc / file | Purpose |
 |------------|---------|
 | **[workbench/README.md](workbench/README.md)** | **Workbench Harness** â€” run / inspect / revise / **workbench receipt** for generated UIs, CLIs, and scripts; `recordAuthority` and `gateEffect` are **none**; not action receipts or merge receipts. |
-| **[interface-artifacts/README.md](interface-artifacts/README.md)** | **Interface Artifact Protocol** â€” generated operator-facing views and prototypes as a first-class derived layer; defines what these artifacts are and what authority they do not have. |
+| **[interface-runtime/artifacts/README.md](interface-runtime/artifacts/README.md)** | **Interface Artifact Protocol** â€” generated operator-facing views and prototypes as a first-class derived layer; defines what these artifacts are and what authority they do not have. |
 | **[derived-regeneration.md](derived-regeneration.md)** | Repo-owned derived regeneration roadmap and phase-1 foundation: change detector, regeneration entrypoint, rebuild receipts, and ranked next phases. |
 | **[workbench/SCRIPT-USAGE.md](workbench/SCRIPT-USAGE.md)** | **Workbench** CLIs: `new_workbench_receipt.py`, `validate_workbench_receipt.py` (create/validate JSON; no gate). |
-| **[creative-pipeline.md](creative-pipeline.md)** | Governed UI / motion / 3D workflow: creative brief, `DESIGN.md`, `scripts/validate-design-md.py`, artifacts under `artifacts/creative/`. |
+| **[creative-pipeline.md](creative-pipeline.md)** | Governed UI / motion / 3D workflow: creative brief, `DESIGN.md`, `scripts/validate-design-md.py`, artifacts under `runtime/artifacts/creative/`. |
 
 ### Build / automation / scripts / CI
 
 | Doc / file | Purpose |
 |------------|---------|
-| **[implementation-ledger.md](implementation-ledger.md)** | Narrative spine for capability/gap machine artifacts (`artifacts/work-dev/*.json`). |
+| **[implementation-ledger.md](implementation-ledger.md)** | Narrative spine for capability/gap machine artifacts (`runtime/artifacts/work-dev/*.json`). |
 | **[capability-registry.md](capability-registry.md)** | Integration ids â†” surfaces (aligns with gap `related_integration_ids`). |
 | **[verification-runs/](verification-runs/README.md)** | Manual/script verification receipts. |
 | **[PARALLEL-MACRO-ACTIONS.md](PARALLEL-MACRO-ACTIONS.md)** | Non-interfering parallel agent branches; `scripts/integration_macro_actions.py`. |
 | **[operator_depth_hint.py](../../../scripts/operator_depth_hint.py)** | When pipeline velocity (approvals / merges in a rolling window) crosses tiers, emit a harness hint toward depth docs; `operator_daily_warmup` prints a one-liner summary. Operator-only; not part of the Record. |
 | **[git-branch-hygiene.md](git-branch-hygiene.md)** | **Local git** branch snapshot: merge vs delete vs no action; wired into [coffee](../../../.cursor/skills/coffee/SKILL.md) Step 1 â€” **not** the same as menu **A** (template/boundary). |
 | **[cursor-vscode-grace-mar-tasks.json](cursor-vscode-grace-mar-tasks.json)** | Snippet to merge into local `.vscode/tasks.json` â€” re-entry stack + `--receipt` tasks. |
-| **[skills-portable/](../../../skills-portable/README.md)** | **Portable Cursor skills** (manifest + cores); sync into `.cursor/skills/` via `python3 scripts/sync_portable_skills.py` (`--verify`, `--dry-run`). Full procedure: `.cursor/skills/portable-skills-sync/SKILL.md`. |
-| **[skill-candidates.md](../../../skills-portable/skill-candidates.md)** | **Skill discovery** backlog (one-line pointers); ladder continues in `_drafts/` then manifest ([README Â§ Discovery ladder](../../../skills-portable/README.md)). |
+| **[skills/](../../../skills/README.md)** | **Portable Cursor skills** (manifest + cores); sync into `.cursor/skills/` via `python3 scripts/sync_portable_skills.py` (`--verify`, `--dry-run`). Full procedure: `.cursor/skills/portable-skills-sync/SKILL.md`. |
+| **[skill-candidates.md](../../../skills/skill-candidates.md)** | **Skill discovery** backlog (one-line pointers); ladder continues in `_drafts/` then manifest ([README Â§ Discovery ladder](../../../skills/README.md)). |
 | **[harness-replay-work-politics-demo.md](harness-replay-work-politics-demo.md)** | Harness replay walkthrough for a **work-politics** gate merge (audit tooling; territory doc links to [work-politics](../work-politics/README.md)). |
 
 ### Research notes / technical exploration
@@ -246,7 +246,7 @@ Use [postmortem-to-skill-feedback-loop.md](postmortem-to-skill-feedback-loop.md)
 | **[research-agent-readable-writable-commerce.md](research-agent-readable-writable-commerce.md)** | McKinsey / agent commerce / â€œagent readable & writableâ€ stack; transcript in [work-dev research](../../../research/external/work-dev/transcripts/); positioning + guardrails. |
 | **[semantic-work-primitives.md](semantic-work-primitives.md)** | Doctrine note for **semantic work primitives**: access / meaning / authority, browser/computer use as bridge, and why non-code legibility matters beyond tool reach. |
 | **[research-semantic-work-primitives-nate-b-jones.md](research-semantic-work-primitives-nate-b-jones.md)** | Nate B. Jones â€” model-vs-moat framing, coding-as-wedge claim, interface hierarchy, and platform-fight lens; transcript in [work-dev transcripts](../../../research/external/work-dev/transcripts/nate-b-jones-semantic-work-primitives-transcript-2026.txt). |
-| **[../../integrations/ob1/structured-memory-mcp.md](../../integrations/ob1/structured-memory-mcp.md)** | Structured Supabase memory bridge: session lifecycle hooks, surface routing, compatibility views, and MCP tool contract. |
+| **[../../platform/integrations/ob1/structured-memory-mcp.md](../../platform/integrations/ob1/structured-memory-mcp.md)** | Structured Supabase memory bridge: session lifecycle hooks, surface routing, compatibility views, and MCP tool contract. |
 | **[lessons-openclaw-skills-video.md](lessons-openclaw-skills-video.md)** | Notes from OpenClaw skills / output-quality video. |
 | **[lessons-perplexity-computer-video.md](lessons-perplexity-computer-video.md)** | Notes from Perplexity Comet/agent-skills video. |
 | **[lessons-deepseek-insider-self-improving-agents.md](lessons-deepseek-insider-self-improving-agents.md)** | Notes from DeepSeek Insider (self-improving agents, bounded session). |
@@ -329,13 +329,13 @@ not evidence truth. **External runtimes** do not gain merge authority.
 
 **Export identity:**
 ```bash
-python integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event
+python platform/integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event
 ```
 
 **Handback (stage only):**
 ```bash
-python integrations/openclaw_stage.py --user grace-mar --text "we explored X in OpenClaw"
-python integrations/openclaw_stage.py --user grace-mar --artifact ./outputs/session-note.md
+python platform/integrations/openclaw_stage.py --user grace-mar --text "we explored X in OpenClaw"
+python platform/integrations/openclaw_stage.py --user grace-mar --artifact ./outputs/session-note.md
 ```
 
 ---

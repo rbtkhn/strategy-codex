@@ -7,9 +7,9 @@ YAML block. Infers next ID from existing id: WRITE-N / id: CREATE-N in that file
 Follows docs/pipeline-map.md artifact naming and docs/evidence-template.md structure.
 
 Usage:
-  python scripts/scaffold_evidence_entry.py --artifact artifacts/write-0007-my-story.png --kind write --title "My story"
-  python scripts/scaffold_evidence_entry.py --artifact artifacts/create-0011-something.jpg --kind create --title "Something" --evidence-tier 4
-  python scripts/scaffold_evidence_entry.py -a artifacts/write-0008.png -k write -t "Journal" --output /tmp/new_entry.yaml
+  python scripts/scaffold_evidence_entry.py --artifact runtime/artifacts/write-0007-my-story.png --kind write --title "My story"
+  python scripts/scaffold_evidence_entry.py --artifact runtime/artifacts/create-0011-something.jpg --kind create --title "Something" --evidence-tier 4
+  python scripts/scaffold_evidence_entry.py -a runtime/artifacts/write-0008.png -k write -t "Journal" --output /tmp/new_entry.yaml
 
 Output: printed to stdout, or appended to --output file.
 """
@@ -30,14 +30,14 @@ def _next_id(content: str, prefix: str) -> str:
 
 
 def _normalize_image_file(artifact_path: str, user_id: str) -> str:
-    """Return path as stored in evidence: artifacts/<basename> or artifacts/write-N-slug.ext."""
+    """Return path as stored in evidence: runtime/artifacts/<basename> or runtime/artifacts/write-N-slug.ext."""
     p = Path(artifact_path)
     if not p.suffix:
         p = p.with_suffix(".png")
     base = p.name
     if not base.startswith(("write-", "create-")):
-        return f"artifacts/{base}"
-    return f"artifacts/{base}"
+        return f"runtime/artifacts/{base}"
+    return f"runtime/artifacts/{base}"
 
 
 def scaffold_write(
@@ -107,7 +107,7 @@ def main() -> None:
     ap.add_argument(
         "-a", "--artifact",
         required=True,
-        help="Path to artifact file (e.g. artifacts/write-0007-title.png or artifacts/create-0011.jpg)",
+        help="Path to artifact file (e.g. runtime/artifacts/write-0007-title.png or runtime/artifacts/create-0011.jpg)",
     )
     ap.add_argument(
         "-k", "--kind",
@@ -139,7 +139,7 @@ def main() -> None:
     args = ap.parse_args()
 
     user_id = args.user.strip()
-    root = REPO_ROOT / "users" / user_id
+    root = REPO_ROOT / "platform/users" / user_id
     evidence_path = root / "self-archive.md"
     if not evidence_path.exists():
         evidence_path = root / "self-evidence.md"

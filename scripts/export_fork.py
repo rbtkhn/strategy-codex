@@ -141,7 +141,7 @@ def export_fork(user_id: str = "grace-mar", include_raw: bool = True) -> dict:
     user_dir = profile_dir(user_id)
     self_path = user_dir / "self.md"
     skills_path = resolve_surface_markdown_path(user_dir, "self_skills")
-    evidence_path = resolve_surface_markdown_path(user_dir, "self_evidence")
+    evidence_path = resolve_surface_markdown_path(user_dir, "self_archive/placeholders/evidence")
     library_path = user_dir / "self-library.md"
     fork_manifest_path = user_dir / "fork-manifest.json"
     agent_manifest_path = user_dir / "manifest.json"
@@ -162,22 +162,22 @@ def export_fork(user_id: str = "grace-mar", include_raw: bool = True) -> dict:
             "self_knowledge": "IX-A slice only — SELF-KNOWLEDGE; identity-facing",
             "self_library": "reference-facing; civ_mem nested object = CIV-MEM subdomain of SELF-LIBRARY",
             "self_skills": "capability index (`self-skills.md`; legacy `skills.md`)",
-            "self_evidence": "activity / provenance logs (`self-archive.md`; optional `self-evidence.md` pointer)",
+            "self_archive/placeholders/evidence": "activity / provenance logs (`self-archive.md`; optional `self-evidence.md` pointer)",
             "skills": "deprecated mirror of self_skills",
-            "evidence": "deprecated mirror of self_evidence",
+            "archive/placeholders/evidence": "deprecated mirror of self_archive/placeholders/evidence",
         },
         "surface_labels": library_export_labels(),
         "_compat": {
             "deprecated_keys": {
                 "skills": "self_skills",
-                "evidence": "self_evidence",
+                "archive/placeholders/evidence": "self_archive/placeholders/evidence",
                 "library": "self_library",
             },
             "surface_registry": "scripts/surface_aliases.py",
         },
         "summary": {
             "self": _parse_self_summary(self_raw) if self_raw else {},
-            "evidence": _parse_evidence_summary(evidence_raw) if evidence_raw else {},
+            "archive/placeholders/evidence": _parse_evidence_summary(evidence_raw) if evidence_raw else {},
             "skills_present": bool(skills_raw),
         },
         "self_knowledge": {
@@ -197,9 +197,9 @@ def export_fork(user_id: str = "grace-mar", include_raw: bool = True) -> dict:
     if include_raw:
         out["self"] = {"raw": self_raw}
         out["self_skills"] = {"raw": skills_raw}
-        out["self_evidence"] = {"raw": evidence_raw}
+        out["self_archive/placeholders/evidence"] = {"raw": evidence_raw}
         out["skills"] = {"raw": skills_raw}
-        out["evidence"] = {"raw": evidence_raw}
+        out["archive/placeholders/evidence"] = {"raw": evidence_raw}
         out["library"] = {"raw": library_raw}
         out["self_library"]["raw"] = library_raw
     if fork_manifest_path.exists():
@@ -220,7 +220,7 @@ def export_obsidian(data: dict, out_path: Path) -> None:
     out_path.mkdir(parents=True, exist_ok=True)
     summary = data.get("summary", {})
     self_sum = summary.get("self", {})
-    ev_sum = summary.get("evidence", {})
+    ev_sum = summary.get("archive/placeholders/evidence", {})
 
     def write_md(name: str, frontmatter: dict, body: str) -> None:
         lines = ["---"] + [f"{k}: {v}" for k, v in frontmatter.items()] + ["---", "", body]
@@ -237,12 +237,12 @@ def export_obsidian(data: dict, out_path: Path) -> None:
         {"type": "skills", "user_id": data.get("user_id", "")},
         skills_raw,
     )
-    evidence_raw_obs = (data.get("self_evidence") or data.get("evidence") or {}).get(
-        "raw", "(no evidence)"
+    evidence_raw_obs = (data.get("self_archive/placeholders/evidence") or data.get("archive/placeholders/evidence") or {}).get(
+        "raw", "(no archive/placeholders/evidence)"
     )
     write_md(
         "Evidence",
-        {"type": "evidence", "read_count": ev_sum.get("read_count", 0), "write_count": ev_sum.get("write_count", 0), "create_count": ev_sum.get("create_count", 0)},
+        {"type": "archive/placeholders/evidence", "read_count": ev_sum.get("read_count", 0), "write_count": ev_sum.get("write_count", 0), "create_count": ev_sum.get("create_count", 0)},
         evidence_raw_obs,
     )
     write_md(
@@ -310,7 +310,7 @@ def export_coach_handoff(data: dict) -> dict:
     self_raw = data.get("self", {}).get("raw", "")
     summary = data.get("summary", {})
     self_sum = summary.get("self", {})
-    ev_sum = summary.get("evidence", {})
+    ev_sum = summary.get("archive/placeholders/evidence", {})
     return {
         "version": "1.0",
         "format": "coach-handoff",
@@ -346,7 +346,7 @@ def export_jsonld(data: dict) -> dict:
             "ix_a_count": self_sum.get("ix_a_count", 0),
             "ix_b_count": self_sum.get("ix_b_count", 0),
             "ix_c_count": self_sum.get("ix_c_count", 0),
-            **summary.get("evidence", {}),
+            **summary.get("archive/placeholders/evidence", {}),
         },
     }
 

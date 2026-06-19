@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Operator-facing hints from workflow-depth audit JSON (human review only — no automation).
@@ -89,7 +90,7 @@ def main() -> int:
     args = ap.parse_args()
     report_path = args.report
     if report_path is None:
-        report_path = REPO_ROOT / "artifacts" / "workflow-depth" / "workflow-depth-report.json"
+        report_path = ARTIFACTS_DIR / "workflow-depth" / "workflow-depth-report.json"
     if not report_path.is_file():
         print(f"error: report not found: {report_path}", file=sys.stderr)
         return 2

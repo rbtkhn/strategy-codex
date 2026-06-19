@@ -20,7 +20,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from gate_block_parser import mean_pending_provenance_from_path  # noqa: E402
-from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
+from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402, ARTIFACTS_DIR
 from yaml_compat import safe_load_path  # noqa: E402
 
 from work_dev.dashboard_models import DashboardSummary  # noqa: E402
@@ -147,7 +147,7 @@ def build_dashboard(*, user_id: str, repo_root: Path) -> DashboardSummary:
             return {
                 "line_count": 0,
                 "tier_status": "dependency_missing",
-                "profile": "low_risk_staging_suggestions",
+                "platform/profile": "low_risk_staging_suggestions",
             }
 
     cp = repo_root / "docs" / "skill-work" / "work-dev" / "control-plane"
@@ -188,7 +188,7 @@ def build_dashboard(*, user_id: str, repo_root: Path) -> DashboardSummary:
         notes=notes,
         autonomy_shadow_line_count=int(snap["line_count"]),
         autonomy_tier_status=str(snap["tier_status"]),
-        autonomy_tier_profile=str(snap["profile"]),
+        autonomy_tier_profile=str(snap["platform/profile"]),
     )
 
 
@@ -235,7 +235,7 @@ def main() -> int:
     except RuntimeError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2
-    art = root / "artifacts"
+    art = ARTIFACTS_DIR
     art.mkdir(parents=True, exist_ok=True)
     (art / "work_dev_dashboard.json").write_text(
         json.dumps(d.to_json_dict(), indent=2) + "\n",
@@ -245,7 +245,7 @@ def main() -> int:
     gen = root / "docs" / "skill-work" / "work-dev" / "generated"
     gen.mkdir(parents=True, exist_ok=True)
     (gen / "dashboard.md").write_text(render_markdown(d), encoding="utf-8")
-    print("build_dashboard: OK -> artifacts/work_dev_dashboard.{json,md}")
+    print("build_dashboard: OK -> runtime/artifacts/work_dev_dashboard.{json,md}")
     return 0
 
 

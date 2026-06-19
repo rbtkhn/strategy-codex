@@ -136,8 +136,8 @@ Relevant specs:
 
 Use the dual-path rule:
 
-- store **new cross-lane prototypes** under `artifacts/work-dev/interface-artifacts/`
-- keep **established lane-specific derived artifacts** in their existing bucket, such as `artifacts/work-strategy/strategy-notebook/`
+- store **new cross-lane prototypes** under `runtime/artifacts/work-dev/interface-runtime/artifacts/`
+- keep **established lane-specific derived artifacts** in their existing bucket, such as `runtime/artifacts/work-strategy/strategy-notebook/`
 
 The storage path does **not** change the artifact's authority. Both paths remain WORK-only and derived.
 

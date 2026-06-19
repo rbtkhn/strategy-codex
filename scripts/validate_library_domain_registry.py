@@ -17,7 +17,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # Every id listed here must appear in registry with full metadata. Extend when
-# new auto-routed library domains are added to bot/lookup_* or core lookup order.
+# new auto-routed library domains are added to archive/grace-mar-instance/bot/lookup_* or core lookup order.
 REQUIRED_ROUTABLE_DOMAIN_IDS = frozenset({"civ_mem"})
 
 REQUIRED_KEYS = (

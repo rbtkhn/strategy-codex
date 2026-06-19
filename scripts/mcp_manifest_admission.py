@@ -7,7 +7,7 @@ docs/mcp/mcp-manifest-admission.md.
 
   python3 scripts/mcp_manifest_admission.py \\
     --input examples/mcp-server-manifest.example.yaml \\
-    --output artifacts/mcp-admission/github-readonly-candidate.md
+    --output runtime/artifacts/mcp-admission/github-readonly-candidate.md
 """
 
 from __future__ import annotations
@@ -25,6 +25,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from mcp_capability_audit import _git_short_hash  # noqa: E402
 from mcp_receipt_lib import (  # noqa: E402
@@ -41,10 +42,10 @@ from mcp_receipt_lib import (  # noqa: E402
 from mcp_risk_scan import evaluate_capability  # noqa: E402
 from yaml_compat import safe_dump, safe_load_text  # noqa: E402
 
-DEFAULT_POLICY = REPO_ROOT / "config" / "mcp-risk-policy.yaml"
+DEFAULT_POLICY = REPO_ROOT / "platform/config" / "mcp-risk-policy.yaml"
 MANIFEST_SCHEMA_PATH = REPO_ROOT / "schemas" / "mcp-server-manifest.v1.json"
 DEFAULT_CAPABILITY_ID = "mcp_manifest_admission"
-DEFAULT_RECEIPT_DIR = REPO_ROOT / "artifacts" / "mcp-receipts"
+DEFAULT_RECEIPT_DIR = ARTIFACTS_DIR / "mcp-receipts"
 
 NEEDS_MANUAL = "needs_manual_classification"
 
@@ -60,8 +61,8 @@ _SHELL_NEEDLES = (
     "shell_execute",
     "shell ",
     "subprocess",
-    "/bin/bash",
-    "/bin/sh",
+    "/platform/bin/bash",
+    "/platform/bin/sh",
     "powershell",
     "cmd.exe",
     "interactive_terminal",
@@ -77,7 +78,7 @@ _CANONICAL_RECORD_PATHS = {
     "self-skills.md",
     "recursion-gate.md",
     "session-log.md",
-    "bot/prompt.py",
+    "archive/grace-mar-instance/bot/prompt.py",
 }
 
 
@@ -154,7 +155,7 @@ def _hay(xs: list[str] | None) -> str:
 def _mentions_canonical_record_path(xs: list[str] | None) -> bool:
     for x in xs or []:
         norm = str(x).replace("\\", "/").strip().lower().lstrip("./")
-        if norm.startswith("users/grace-mar/") or norm in _CANONICAL_RECORD_PATHS:
+        if norm.startswith("platform/users/grace-mar/") or norm in _CANONICAL_RECORD_PATHS:
             return True
     return False
 
@@ -303,7 +304,7 @@ def overlay_manifest_on_capability(
 
 
 def resolve_admission_destination(repo_root: Path, output: Path | None) -> Path:
-    bucket = (repo_root / "artifacts" / "mcp-admission").resolve()
+    bucket = (ARTIFACTS_DIR / "mcp-admission").resolve()
     bucket.mkdir(parents=True, exist_ok=True)
     if output is None:
         return bucket / "manifest-admission.md"
@@ -318,7 +319,7 @@ def resolve_admission_destination(repo_root: Path, output: Path | None) -> Path:
     except ValueError as e:
         raise ValueError(f"output must be under {bucket} (got {resolved})") from e
     rp = rel_to_repo.parts
-    if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
+    if len(rp) >= 2 and rp[0].lower() == "platform/users" and rp[1].lower() == "grace-mar":
         raise ValueError("refusing output path under ")
     return resolved
 
@@ -360,7 +361,7 @@ def render_markdown(
         "",
         "> **MCP ADMISSION REVIEW Â· WORK ARTIFACT Â· NOT ENABLED Â· NOT APPROVED INTEGRATION**",
         "",
-        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_rel}`",
+        f"MCP receipt JSON (repo-relative): `runtime/artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_rel}`",
         "",
         "## Server",
         "",
@@ -558,7 +559,7 @@ def main() -> int:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     artifacts_list = [
         {"path": packet_rel, "kind": "markdown_mcp_manifest_admission"},
-        {"path": f"artifacts/mcp-receipts/{receipt_filename}", "kind": "mcp_execution_receipt_json"},
+        {"path": f"runtime/artifacts/mcp-receipts/{receipt_filename}", "kind": "mcp_execution_receipt_json"},
     ]
 
     decl = manifest["operator"]["intended_use"].strip()

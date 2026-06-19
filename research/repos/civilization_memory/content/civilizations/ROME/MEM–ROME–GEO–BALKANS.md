@@ -140,7 +140,7 @@ NORTH-SOUTH AXES:
 
 EAST-WEST AXES:
 • Via Egnatia: Adriatic → Constantinople (imperial road)
-• Thracian plain: Bosphorus → Danube (military deployment)
+• Thracian plain: Bosphorus → Danube (military platform/deployment)
 
 CHOKEPOINTS:
 • Danube crossings (Singidunum, Viminacium)

@@ -102,7 +102,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:2 S:0 G:2]** [Houthis threaten to join Iran war if these 3 red lines crossed](https://thehill.com/policy/international/5805195-houthi-threat-us-israel-iran/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-03-27 22:35 UTC_
 - **[W:2 S:0 G:2]** [Iran is adopting Russian drone tactics, Ukrainian troops say](https://www.defenseone.com/threats/2026/03/iran-adopting-russian-drone-tactics-ukrainian-troops-say/412434/) Ã¢â‚¬” _Defense One Ã¢â‚¬” All_ Ã‚· _2026-03-27 06:27 UTC_

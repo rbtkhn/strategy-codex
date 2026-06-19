@@ -12,7 +12,7 @@
 
 | Surface | What persists | Who writes | Inspectable (files / git)? | Compounds as Record? |
 |--------|---------------|------------|----------------------------|----------------------|
-| **Merged SELF, EVIDENCE (`self-archive.md`), `bot/prompt.py`** | Canonical identity, activity log, Voice prompt | **Only** via `scripts/process_approved_candidates.py` (or receipt flow) after companion approval | Yes — markdown + git history | **Yes** — Loop 1 |
+| **Merged SELF, EVIDENCE (`self-archive.md`), `archive/grace-mar-instance/bot/prompt.py`** | Canonical identity, activity log, Voice prompt | **Only** via `scripts/process_approved_candidates.py` (or receipt flow) after companion approval | Yes — markdown + git history | **Yes** — Loop 1 |
 | **`recursion-gate.md`** | Staged candidates (not yet Record) | Analyst, operators, `openclaw_stage`, integrations — **stage only** | Yes | **No** until approved and merged |
 | **`self-memory.md`** | Short/medium/long **continuity** (tone, loops, pointers) | Operator/companion per [memory-template.md](../../memory-template.md); not pipeline output | Yes | **No** — MEMORY is explicitly non-authoritative vs SELF ([AGENTS.md](../../../AGENTS.md)) |
 | **Session transcript / chat UI** | Raw conversation (instance-dependent) | Bot/Mini App append | Often yes as a file | **No** — not gated Record |
@@ -41,7 +41,7 @@ These are **hypotheses** for operator time saved — not measured defaults. Vali
 | Mechanism | What improves | How to quantify (assumption-labeled) |
 |-----------|---------------|--------------------------------------|
 | **Clear persistence map** | Less time re-explaining context; fewer mistakes from “the AI remembers” | *If* operators lose ~15–30 min/session to context re-wiring, reducing that **2–4 sessions/month** saves ~**30–120 min/month** (hypothesis). |
-| **Binary gate checks** ([`_template/recursion-gate.md`](../../../_template/recursion-gate.md)) | Fewer bad merges and post-merge repair | *If* one bad merge/month costs ~45–90 min to unwind, cutting incidence **50%** saves ~**22–45 min/month** (hypothesis). |
+| **Binary gate checks** ([`platform/template/recursion-gate.md`](../../../platform/template/recursion-gate.md)) | Fewer bad merges and post-merge repair | *If* one bad merge/month costs ~45–90 min to unwind, cutting incidence **50%** saves ~**22–45 min/month** (hypothesis). |
 | **Delegation spec + checkpoints** ([delegation-spec-external-agents.md](delegation-spec-external-agents.md)) | Less black-box delegation rework | *If* a high-stakes task **fully redoes** ~20% of the time at ~1–2 hr each, structured checkpoints target that tail — track **redo rate** before/after. |
 | **Loop clarity** ([three-compounding-loops.md](three-compounding-loops.md)) | Less “WORK draft mistaken for Record” cleanup | Qualitative + **incident count** (drafts that reached SELF without gate). |
 

@@ -39,7 +39,7 @@ DESIGN DIFFERENCES FROM LIVING STATE FILES:
   surface material options; completeness = inheritance and pattern reference.
 • Section IV (Material options): N/A + reference-use text only; no Option
   A/B/C structure, no grounding lines, no binding constraints per option.
-  Living states: ≥3 options with full format (assumptions, risks, evidence).
+  Living states: ≥3 options with full format (assumptions, risks, archive/placeholders/evidence).
 • Section VI (Stability indicators): N/A. Living states: track legitimacy
   stress, thresholds, indicator status.
 • Section VI-B (Opponent constraint): N/A. Living states: required when

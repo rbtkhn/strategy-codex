@@ -9,7 +9,7 @@ from integrations.presentations.civ_emp_adapter import CIV_EMP_ROOT, build_civ_e
 from integrations.presentations.ph_civ_adapter import build_ph_civ_bundle, build_ph_mus_packet_bundle
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-EXAMPLES_ROOT = REPO_ROOT / "artifacts" / "presentations" / "examples"
+EXAMPLES_ROOT = REPO_ROOT / "runtime/artifacts" / "presentations" / "examples"
 
 
 def test_civ_emp_adapter_marks_work_safe_bundle() -> None:
@@ -247,7 +247,7 @@ def test_ph_mus_packet_bundle_rejects_private_markers(tmp_path: Path) -> None:
                 "source_id": "gt-16",
                 "museum_exhibit_path": "corpus/media-packs/gt-16.md",
                 "visitor_path": ["entrance_artifact"],
-                "artifacts": [{"local_vault_path": "C:/private/file.png"}],
+                "runtime/artifacts": [{"local_vault_path": "C:/private/file.png"}],
             }
         ),
         encoding="utf-8",
@@ -277,7 +277,7 @@ def test_ph_mus_packet_bundle_accepts_public_packet(tmp_path: Path) -> None:
                 "caveat": "Public orientation only.",
                 "conceptual_volumes": ["volume_ii"],
                 "visitor_path": ["entrance_artifact", "pressure_systems"],
-                "artifacts": [
+                "runtime/artifacts": [
                     {
                         "artifact_id": "gt16-map-1",
                         "title": "Map",
@@ -336,7 +336,7 @@ def test_ph_mus_packet_bundle_accepts_artifact_set_comparison(tmp_path: Path) ->
                 "subsurface": "ph-mus",
                 "artifact_class": "museum_artifact_set",
                 "source_id": "gt-16",
-                "title": "GT-16 artifacts",
+                "title": "GT-16 runtime/artifacts",
                 "surface": "ph-apo",
                 "museum_status": "curated_draft",
                 "museum_exhibit_path": "corpus/media-packs/gt-16.md",
@@ -345,7 +345,7 @@ def test_ph_mus_packet_bundle_accepts_artifact_set_comparison(tmp_path: Path) ->
                 "caveat": "Public orientation only.",
                 "conceptual_volumes": ["volume_ii"],
                 "visitor_path": ["entrance_artifact", "pressure_systems"],
-                "artifacts": [
+                "runtime/artifacts": [
                     {
                         "artifact_id": "gt16-map-1",
                         "title": "Map",

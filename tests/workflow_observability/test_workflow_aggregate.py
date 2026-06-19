@@ -9,7 +9,7 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-SRC = REPO_ROOT / "src"
+SRC = REPO_ROOT / "platform/src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
@@ -39,13 +39,13 @@ def test_aggregate_events_counts_by_workflow_type() -> None:
                 "targetSurface": "SELF",
                 "supportingEvidence": [],
             },
-            source_path="demo/review-queue/proposals/p1.json",
+            source_path="demo/archive/queues/review-queue/proposals/p1.json",
             batch_id="t1",
         ),
         event_from_observability_report_aggregate(
             {
                 "generatedAt": "2026-01-02T00:00:00Z",
-                "reviewRoot": "demo/review-queue",
+                "reviewRoot": "demo/archive/queues/review-queue",
                 "staleReviewCount": 0,
             },
             source_path="demo/observability/observability-report.json",
@@ -63,7 +63,7 @@ def test_aggregate_validates_report_schema_when_jsonschema() -> None:
     pytest.importorskip("jsonschema")
     import jsonschema  # type: ignore
 
-    schema_path = REPO_ROOT / "schema-registry" / "workflow-observability-report.v1.json"
+    schema_path = REPO_ROOT / "schemas/registry" / "workflow-observability-report.v1.json"
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     ev = [
         event_from_change_proposal(

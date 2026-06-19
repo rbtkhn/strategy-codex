@@ -1,7 +1,7 @@
 MEM–ANGLIA–DYNASTY–LANCASTER — v1.1
 Status: ACTIVE
 Version: 1.1
-Upgrade Type: ADDITIVE (Shakespeare *Richard II*, *Henry IV* — legitimacy-fracture, literary evidence)
+Upgrade Type: ADDITIVE (Shakespeare *Richard II*, *Henry IV* — legitimacy-fracture, literary archive/placeholders/evidence)
 Civilization: ANGLIA
 Dynasty: House of Lancaster
 Dates: 1399–1461 AD

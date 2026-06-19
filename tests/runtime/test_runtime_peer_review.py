@@ -12,7 +12,7 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 PEER_SCRIPT = REPO_ROOT / "scripts" / "runtime" / "run_runtime_peer_review.py"
-PEER_SCHEMA = REPO_ROOT / "schema-registry" / "runtime-peer-review.v1.json"
+PEER_SCHEMA = REPO_ROOT / "schemas/registry" / "runtime-peer-review.v1.json"
 
 _MINI_RECEIPT_BASE = {
     "run_id": "draft_x",
@@ -37,7 +37,7 @@ _MINI_RECEIPT_BASE = {
         "evidence_state": None,
         "notes": None,
     },
-    "artifacts": {
+    "runtime/artifacts": {
         "trace_path": "runtime/runtime-worker/traces/index.jsonl",
         "proposal_path": "runtime/runtime-worker/proposals/draft_x.md",
     },

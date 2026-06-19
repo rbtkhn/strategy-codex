@@ -105,7 +105,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:3 S:0 G:1]** [Le pÃƒÂ©trolier russe Ã‚Â«Ã‚ Anatoly-KolodkinÃ‚ Ã‚Â» est arrivÃƒÂ© Ãƒ  Cuba aprÃƒÂ¨s l’approbation de Donald Trump, malgrÃƒÂ© le blocus imposÃƒÂ© par les Etats-Unis](https://www.lemonde.fr/international/article/2026/03/31/le-petrolier-russe-anatoly-kolodkin-est-arrive-a-cuba-apres-l-approbation-de-donald-trump-malgre-le-blocus-impose-par-les-etats-unis_6675644_3210.html) Ã¢â‚¬” _Le Monde Ã¢â‚¬” franÃƒ§ais (France / monde)_ Ã‚· _fr_ Ã‚· _2026-03-31 15:05 UTC_
 - **[W:2 S:0 G:1]** [Former Trump advisor joins board of Ukraine-focused drone tech company](https://www.defenseone.com/business/2026/03/former-trump-advisor-joins-board-ukraine-focused-drone-tech-company/412510/) Ã¢â‚¬” _Defense One Ã¢â‚¬” All_ Ã‚· _2026-03-31 09:30 UTC_

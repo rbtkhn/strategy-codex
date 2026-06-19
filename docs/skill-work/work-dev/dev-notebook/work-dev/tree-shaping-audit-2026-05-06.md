@@ -9,14 +9,14 @@ Pause the YAML-compat and root-layout cleanup long enough to describe the curren
 Top dirty buckets from `git status --short` on 2026-05-06:
 
 - `docs`: about 407 paths
-- `users`: about 160 paths
+- `platform/users`: about 160 paths
 - `codex`: about 136 paths
 - `scripts`: about 129 paths
 - `tests`: about 54 paths
 - `.cursor`: about 25 paths
-- `artifacts`: about 20 paths
+- `runtime/artifacts`: about 20 paths
 - `research`: about 13 paths
-- `src`: about 12 paths
+- `platform/src`: about 12 paths
 
 The important read is that the tree is **not** one big blob. It is several overlapping migrations:
 

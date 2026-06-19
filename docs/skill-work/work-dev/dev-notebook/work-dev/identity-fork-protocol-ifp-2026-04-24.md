@@ -15,9 +15,9 @@ Extensive web and GitHub research (as of April 24, 2026) confirms no prior or id
 ## Core Components of Grace-Mar IFP
 
 - **Sovereign Merge Rule**: Agents/runtimes **stage only** (inbox, recursion-gate proposals). Human/companion alone performs the merge into canonical surfaces (`SELF`, `SELF-LIBRARY`, `SKILLS`, `EVIDENCE`).
-- **Runtime vs Record Membrane (Membrane v1)**: External runtimes (e.g., Letta bridges) operate via defined export/import paths with mandatory receipts. No direct canonical mutation.
+- **Runtime vs Record Membrane (Membrane v1)**: External runtimes (e.g., Letta research/bridges) operate via defined export/import paths with mandatory receipts. No direct canonical mutation.
 - **Git/Markdown-First Durable Record**: Identity lives in plain, version-controlled Markdown files â€” fully forkable, human-readable, and portable without blockchain.
-- **Artifact Interface Protocol**: All derived outputs (`/artifacts/`) are explicitly non-canonical, rebuildable, and accompanied by standardized receipts/schemas (e.g., `artifact-rationale.v1.json`, `runtime-complement-receipt.v1.json`). Policy modes (Scratch / Pre-gate / Rebuild / Derived) govern behavior.
+- **Artifact Interface Protocol**: All derived outputs (`/runtime/artifacts/`) are explicitly non-canonical, rebuildable, and accompanied by standardized receipts/schemas (e.g., `artifact-rationale.v1.json`, `runtime-complement-receipt.v1.json`). Policy modes (Scratch / Pre-gate / Rebuild / Derived) govern behavior.
 - **Recursion Gate + Observability**: Structured review workflow plus dashboards ensure legibility and evidence-grounded decisions.
 
 ## Key Innovations
@@ -69,7 +69,7 @@ If you would like expansions (e.g., deeper technical comparison, proposed cross-
 - [AGENTS.md (operating modes, governance)](../../../../../AGENTS.md)
 - [Recursion gate (staging; merge is human/companion-governed)](../../../../../recursion-gate.md)
 - [Workbench harness (receipts; no merge authority)](../../workbench/README.md)
-- [Interface artifacts and derived-output policy](../../interface-artifacts/README.md)
+- [Interface artifacts and derived-output policy](../../interface-runtime/artifacts/README.md)
 - [work-dev territory README](../../README.md)
 - [known-gaps / control plane](../../known-gaps.md)
 

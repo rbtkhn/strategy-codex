@@ -11,12 +11,12 @@ The repo-local implementation keeps two boundaries clear:
 
 1. **Grace-Mar session lifecycle stays authoritative locally.** The thin
    `start_session` / `wrap_up` wrappers in
-   `src/grace_mar/structured_memory.py` delegate to the existing
+   `platform/src/grace_mar/structured_memory.py` delegate to the existing
    `grace_mar.fork_lifecycle` helpers.
 2. **OB1 remains a mixed-trust runtime.** The live Supabase bridge may store
    structured memory, but it does not replace the Record or the repo gate.
 
-The runtime-only helper in `src/grace_mar/runtime/runtime_memory.py` is
+The runtime-only helper in `platform/src/grace_mar/runtime/runtime_memory.py` is
 adjacent to this bridge contract. It shapes session briefs, runtime
 observations, and retrieval feedback for Strategy Codex workflows, but it does
 not define a separate OB1 integration path or a second memory ontology.
@@ -50,7 +50,7 @@ used by earlier bridge callers.
 | `decisions` | `governed_state` |
 | `brags` | `prepared_context` |
 | `thinking` | `prepared_context` |
-| `session_events` | `evidence` |
+| `session_events` | `archive/placeholders/evidence` |
 
 This is a compatibility label, not a semantic claim that the older layers are
 identical to the new ones.
@@ -103,7 +103,7 @@ This keeps old untyped callers working without inventing a second ontology.
 
 ## Live bridge shape
 
-The live bridge scaffold lives under `bridges/supabase/`:
+The live bridge scaffold lives under `research/bridges/supabase/`:
 
 - `sql/agent_memory_v2_structured.sql`
 - `functions/structured-memory-mcp/index.ts`

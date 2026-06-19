@@ -176,7 +176,7 @@ def main() -> int:
         help="Replace Current entries tables in self-library.md",
     )
     args = p.parse_args()
-    lib_path = REPO_ROOT / "users" / args.user / "self-library.md"
+    lib_path = REPO_ROOT / "platform/users" / args.user / "self-library.md"
     entries = _load_entries(lib_path)
     theology_table = build_theology_table(entries)
     physics_table = build_physics_table(entries)

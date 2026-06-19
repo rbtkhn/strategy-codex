@@ -73,7 +73,7 @@ def _ix_b_topics(content: str) -> list[str]:
     if not topics:
         for m in re.finditer(r"-\s+([^\n—]+?)(?:\s+—|\n|$)", block):
             line = m.group(1).strip()
-            if line and len(line) > 2 and "provenance" not in line and "evidence" not in line:
+            if line and len(line) > 2 and "provenance" not in line and "archive/placeholders/evidence" not in line:
                 topics.append(line[:80])
     return topics[:30]
 
@@ -95,7 +95,7 @@ def _ix_c_snippets(content: str) -> list[str]:
 
 def export_engagement_profile(user_id: str = "grace-mar") -> dict:
     """Build engagement profile dict: interests, curiosity, personality, talent_stack."""
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     self_path = profile_dir / "self.md"
     self_raw = _read(self_path)
     if not self_raw:
@@ -126,7 +126,7 @@ def export_engagement_profile(user_id: str = "grace-mar") -> dict:
 
     return {
         "ok": True,
-        "format": "grace-mar-engagement-profile",
+        "format": "grace-mar-engagement-platform/profile",
         "user_id": user_id,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "interests": {
@@ -188,7 +188,7 @@ def main() -> int:
 
     profile = export_engagement_profile(user_id=args.user)
     if args.md:
-        content = export_engagement_profile_md(profile)
+        content = export_engagement_profile_md(platform/profile)
     else:
         content = json.dumps(profile, indent=2, ensure_ascii=False) + "\n"
 

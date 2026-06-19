@@ -45,7 +45,7 @@ def test_existing_merge_candidate_ids(script_module):
 
 def test_run_apply_inserts_section_before_footer(tmp_path, script_module):
     user = "test-fork"
-    root = tmp_path / "users" / user
+    root = tmp_path / "platform/users" / user
     root.mkdir(parents=True)
     session = root / "session-log.md"
     session.write_text(
@@ -91,7 +91,7 @@ def test_run_apply_inserts_section_before_footer(tmp_path, script_module):
 
 def test_run_skips_when_already_logged(tmp_path, script_module):
     user = "test-fork2"
-    root = tmp_path / "users" / user
+    root = tmp_path / "platform/users" / user
     root.mkdir(parents=True)
     session = root / "session-log.md"
     session.write_text(

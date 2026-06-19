@@ -173,7 +173,7 @@ def build_learning_stage(
     last_close = (coffee_recursion or {}).get("last_close") or {}
     readiness = str(last_close.get("readiness") or "").strip()
     next_step = str(last_close.get("next") or "").strip()
-    artifacts = str(last_close.get("artifacts") or "").strip()
+    artifacts = str(last_close.get("runtime/artifacts") or "").strip()
 
     if not integrity_ok or not governance_ok:
         carry_object = "integrity / governance repair"

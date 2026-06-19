@@ -39,10 +39,10 @@ They may not:
 - edit **SELF** (`self.md`, SELF-knowledge, identity tables)
 - edit **SELF-LIBRARY** / CIV-MEM in canonical form
 - edit **SKILLS** (capability evidence files)
-- edit **EVIDENCE** (`self-archive.md` and gated evidence) directly
+- edit **EVIDENCE** (`self-archive.md` and gated archive/placeholders/evidence) directly
 - edit **`recursion-gate.md`** except through normal operator + companion **approve** + `process_approved_candidates` (or equivalent) workflows
 - **merge** or auto-process candidates without companion approval
-- rewrite **`bot/prompt.py`** or Voice runtime policy
+- rewrite **`archive/grace-mar-instance/bot/prompt.py`** or Voice runtime policy
 - create **canonical facts** by silent update
 - treat **runtime** or **vendor** memory as Grace-Mar memory
 - **delete** or **prune** raw sources, Record files, or strategy notebook primary surfaces
@@ -65,11 +65,11 @@ Direct reads of **Record** files by an external process should be avoided; prefe
 Runtime complements (and the import script in this repo) may write **only** to:
 
 - `runtime/runtime-complements/inbox/` â€” imported observations (JSON)
-- `runtime/runtime-complements/receipts/` â€” import receipts (JSON, schema: [`runtime-complement-receipt.v1.json`](../../schema-registry/runtime-complement-receipt.v1.json))
+- `runtime/runtime-complements/receipts/` â€” import receipts (JSON, schema: [`runtime-complement-receipt.v1.json`](../../schemas/registry/runtime-complement-receipt.v1.json))
 - `runtime/runtime-complements/exports/` â€” **export** bundles (JSON) from the export script
 - `runtime/runtime-complements/examples/` â€” committed **examples** only (not live vendor secrets)
 
-They may **not** write into **canonical Record** paths (`self.md`, `self-archive.md`, `self-skills.md`, `self-library.md` contents, `recursion-gate.md` except by normal human-driven edits, `bot/prompt.py`, etc.).
+They may **not** write into **canonical Record** paths (`self.md`, `self-archive.md`, `self-skills.md`, `self-library.md` contents, `recursion-gate.md` except by normal human-driven edits, `archive/grace-mar-instance/bot/prompt.py`, etc.).
 
 ## Export path
 
@@ -109,7 +109,7 @@ Every imported runtime observation should have a **receipt** (see schema) with a
 These are **illustrations**, not dependencies or endorsements. Future adapters may call
 the same import/export CLIs with JSON payloads.
 
-**Letta adapter example:** [bridges/runtime-complements/letta/](../../bridges/runtime-complements/letta/)
+**Letta adapter example:** [research/bridges/runtime-complements/letta/](../../research/bridges/runtime-complements/letta/)
 prepares Letta seed files and imports Letta summaries through the runtime
 complement membrane.
 

@@ -1,3 +1,4 @@
+from repo_io import BOT_DIR
 #!/usr/bin/env python3
 """
 Generate agent-consumable manifest (llms.txt-style) for the single-operator Record.
@@ -22,7 +23,7 @@ from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-BOT_DIR = REPO_ROOT / "bot"
+BOT_DIR = BOT_DIR
 try:
     from export_intent_snapshot import export_intent_snapshot
 except ImportError:
@@ -71,7 +72,7 @@ def generate_manifest(user_id: str = "strategy-codex", runtime_mode: str = "adju
     """
     if runtime_mode not in RUNTIME_MODES:
         raise ValueError(f"Unknown runtime_mode: {runtime_mode}")
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     checksum = _compute_checksum(profile_dir)
     intent_snapshot = export_intent_snapshot(user_id)
 
@@ -276,7 +277,7 @@ def main() -> None:
     args = parser.parse_args()
 
     manifest = generate_manifest(user_id=args.user, runtime_mode=args.runtime_mode)
-    profile_dir = REPO_ROOT / "users" / args.user
+    profile_dir = REPO_ROOT / "platform/users" / args.user
     out_dir = Path(args.output) if args.output else profile_dir
     out_dir.mkdir(parents=True, exist_ok=True)
 

@@ -1,5 +1,5 @@
 """
-Load config/runtime_workers/overlays.yaml — small mode defaults for the runtime worker.
+Load platform/config/runtime_workers/overlays.yaml — small mode defaults for the runtime worker.
 
 Overlays are not a second router; task_type still resolves via worker_router.resolve_routing.
 """
@@ -21,7 +21,7 @@ except ModuleNotFoundError:  # pragma: no cover - package-style import path
     from runtime.worker_router import TASK_TYPE_TO_ROUTED
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-_OVERLAYS_REL = Path("config/runtime_workers/overlays.yaml")
+_OVERLAYS_REL = Path("platform/config/runtime_workers/overlays.yaml")
 
 # v1 overlay families (must match YAML top-level keys)
 OVERLAY_NAMES = frozenset({"strategy", "moonshot", "research", "tacit"})

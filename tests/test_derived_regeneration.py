@@ -55,7 +55,7 @@ def test_select_targets_for_recursion_gate_change() -> None:
 
 def test_select_targets_for_rebuild_receipt_change() -> None:
     selected = select_targets_for_paths(
-        ["artifacts/work-dev/rebuild-receipts/derived-rebuild-20260424-120000.json"]
+        ["runtime/artifacts/work-dev/rebuild-receipts/derived-rebuild-20260424-120000.json"]
     )
     ids = {target.target_id for target in selected}
     assert "rebuild-health-summary" in ids
@@ -125,7 +125,7 @@ def test_regenerate_all_derived_dry_run_writes_receipt(tmp_path: Path) -> None:
     assert payload["gateEffect"] == "none"
     assert payload["targets"][0]["targetId"] == "library-index"
     assert payload["targets"][0]["rationaleSidecars"] == [
-        "artifacts/library-index.md.derived-rationale.json"
+        "runtime/artifacts/library-index.md.derived-rationale.json"
     ]
 
 
@@ -134,14 +134,14 @@ def test_build_rationale_payload_uses_sidecar_contract() -> None:
     payload = build_rationale_payload(
         target=target,
         user="grace-mar",
-        artifact_path="artifacts/library-index.md",
+        artifact_path="runtime/artifacts/library-index.md",
         generated_at="2026-04-24T12:00:00Z",
         matched_paths=["self-library.md"],
     )
     assert payload["producer_script"] == "scripts/build_library_index.py"
     assert payload["policy_mode"] == "Surface"
     assert payload["canonical_surfaces_touched"] is False
-    assert payload["artifact_path"] == "artifacts/library-index.md"
+    assert payload["artifact_path"] == "runtime/artifacts/library-index.md"
     assert payload["rebuild_command"] == "python3 scripts/build_library_index.py"
     assert payload["inputs"] == ["self-library.md"]
     assert payload["human_review_required"] is False
@@ -159,7 +159,7 @@ def test_build_manifest_payload_has_dependency_data() -> None:
     ]
     assert targets["library-index"]["policyMode"] == "Surface"
     assert targets["library-index"]["rationaleSidecars"] == [
-        "artifacts/library-index.md.derived-rationale.json"
+        "runtime/artifacts/library-index.md.derived-rationale.json"
     ]
 
 
@@ -183,7 +183,7 @@ def test_report_rebuild_health_summarizes_receipts(tmp_path: Path) -> None:
             {
                 "targetId": "library-index",
                 "elapsedMs": 12,
-                "writtenRationaleSidecars": ["artifacts/library-index.md.derived-rationale.json"],
+                "writtenRationaleSidecars": ["runtime/artifacts/library-index.md.derived-rationale.json"],
             }
         ],
         "resultStatus": "ok",
@@ -232,8 +232,8 @@ def test_target_registry_contains_expected_foundation_targets() -> None:
 
 
 def test_sidecar_path_suffix() -> None:
-    assert sidecar_path_for_artifact("artifacts/review-dashboard.md") == (
-        "artifacts/review-dashboard.md.derived-rationale.json"
+    assert sidecar_path_for_artifact("runtime/artifacts/review-dashboard.md") == (
+        "runtime/artifacts/review-dashboard.md.derived-rationale.json"
     )
 
 

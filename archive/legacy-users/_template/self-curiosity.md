@@ -26,4 +26,4 @@ Questions they ask or want to explore. Add as they emerge from sessions.
 
 ---
 
-*Do not use this file as a live Record. Copy to `users/<new_id>/self-curiosity.md` in an instance and replace placeholders with real data.*
+*Do not use this file as a live Record. Copy to `platform/users/<new_id>/self-curiosity.md` in an instance and replace placeholders with real data.*

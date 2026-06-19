@@ -1,6 +1,6 @@
 ﻿# Job opportunity review â€” DRAFT (operator)
 
-**Status:** Draft â€” not submitted. Do **not** treat as Voice or Record truth. When ready, paste a tightened block into [recursion-gate.md](../../../recursion-gate.md) **Candidates** only if the companion uses the gate for career decisions; otherwise keep this file in [reflection-proposals](../../../reflection-proposals/) or [recursion-gate-staging](../../../recursion-gate-staging/).
+**Status:** Draft â€” not submitted. Do **not** treat as Voice or Record truth. When ready, paste a tightened block into [recursion-gate.md](../../../recursion-gate.md) **Candidates** only if the companion uses the gate for career decisions; otherwise keep this file in [reflection-proposals](../../../archive/queues/reflection-proposals/) or [recursion-gate-staging](../../../archive/grace-mar-instance/recursion-gate-staging/).
 
 ---
 
@@ -43,7 +43,7 @@
 
 ## Failure pattern check (see checklist)
 
-Review [failure-pattern-checklist.md](../../../recursion-gate-staging/failure-pattern-checklist.md) and note any mitigations:
+Review [failure-pattern-checklist.md](../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md) and note any mitigations:
 
 - Context degradation / spec drift / sycophantic confirmation / tool misuse / cascade / silent failure / blast radius / reversibility / frequency / verifiability
 

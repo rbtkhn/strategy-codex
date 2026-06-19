@@ -7,7 +7,7 @@ See docs/mcp/mcp-mock-execution-harness.md.
 
   python3 scripts/mcp_mock_harness.py \\
     --input examples/mcp-mock-run.github-readonly.example.json \\
-    --output artifacts/mcp-mock-runs/github-readonly-demo.md
+    --output runtime/artifacts/mcp-mock-runs/github-readonly-demo.md
 """
 
 from __future__ import annotations
@@ -25,6 +25,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from mcp_capability_audit import _git_short_hash  # noqa: E402
 from mcp_receipt_lib import (  # noqa: E402
@@ -41,9 +42,9 @@ from mcp_receipt_lib import (  # noqa: E402
 from mcp_risk_scan import evaluate_capability  # noqa: E402
 
 MOCK_RUN_SCHEMA_PATH = REPO_ROOT / "schemas" / "mcp-mock-run.v1.json"
-DEFAULT_POLICY = REPO_ROOT / "config" / "mcp-risk-policy.yaml"
+DEFAULT_POLICY = REPO_ROOT / "platform/config" / "mcp-risk-policy.yaml"
 DEFAULT_CAPABILITY_ID = "mcp_mock_harness"
-DEFAULT_RECEIPT_DIR = REPO_ROOT / "artifacts" / "mcp-receipts"
+DEFAULT_RECEIPT_DIR = ARTIFACTS_DIR / "mcp-receipts"
 
 _NETWORK_RANK: dict[str, int] = {"none": 0, "read": 1, "full": 2}
 _CRED_RANK: dict[str, int] = {"none": 0, "optional": 1, "required": 2}
@@ -52,8 +53,8 @@ _SHELL_NEEDLES = (
     "shell_execute",
     "shell ",
     "subprocess",
-    "/bin/bash",
-    "/bin/sh",
+    "/platform/bin/bash",
+    "/platform/bin/sh",
     "powershell",
     "cmd.exe",
     "interactive_terminal",
@@ -66,7 +67,7 @@ _CANONICAL_RECORD_PATHS = {
     "self-skills.md",
     "recursion-gate.md",
     "session-log.md",
-    "bot/prompt.py",
+    "archive/grace-mar-instance/bot/prompt.py",
 }
 
 BANNER = "MOCK MCP RUN Â· WORK ARTIFACT Â· NO LIVE SERVER Â· NOT APPROVED INTEGRATION"
@@ -93,7 +94,7 @@ def load_mock_run(path: Path) -> dict[str, Any]:
 
 def _is_canonical_record_path(token: str) -> bool:
     norm = token.replace("\\", "/").strip().lower().lstrip("./")
-    if norm.startswith("users/strategy-codex/") or norm.startswith("users/grace-mar/"):
+    if norm.startswith("platform/users/strategy-codex/") or norm.startswith("platform/users/grace-mar/"):
         return True
     return norm in _CANONICAL_RECORD_PATHS
 
@@ -196,7 +197,7 @@ def prohibited_action_attempted_for_receipt(mock_status: str, shell_hit: bool) -
 
 
 def resolve_mock_run_destination(repo_root: Path, output: Path | None) -> Path:
-    bucket = (repo_root / "artifacts" / "mcp-mock-runs").resolve()
+    bucket = (ARTIFACTS_DIR / "mcp-mock-runs").resolve()
     bucket.mkdir(parents=True, exist_ok=True)
     if output is None:
         return bucket / "mock-mcp-run-packet.md"
@@ -211,8 +212,8 @@ def resolve_mock_run_destination(repo_root: Path, output: Path | None) -> Path:
     except ValueError as e:
         raise ValueError(f"output must be under {bucket} (got {resolved})") from e
     rp = rel_to_repo.parts
-    if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() in ("grace-mar", "strategy-codex"):
-        raise ValueError("refusing output path under users/grace-mar or users/strategy-codex")
+    if len(rp) >= 2 and rp[0].lower() == "platform/users" and rp[1].lower() in ("grace-mar", "strategy-codex"):
+        raise ValueError("refusing output path under platform/users/grace-mar or platform/users/strategy-codex")
     return resolved
 
 
@@ -249,7 +250,7 @@ def render_markdown(
         "",
         f"> {BANNER}",
         "",
-        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_rel}`",
+        f"MCP receipt JSON (repo-relative): `runtime/artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_rel}`",
         "",
         "## Run",
         "",
@@ -466,7 +467,7 @@ def main() -> int:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     artifacts_list = [
         {"path": packet_rel, "kind": "markdown_mcp_mock_harness"},
-        {"path": f"artifacts/mcp-receipts/{receipt_filename}", "kind": "mcp_execution_receipt_json"},
+        {"path": f"runtime/artifacts/mcp-receipts/{receipt_filename}", "kind": "mcp_execution_receipt_json"},
     ]
 
     receipt = build_receipt(

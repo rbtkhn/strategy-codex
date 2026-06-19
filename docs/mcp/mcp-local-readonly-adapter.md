@@ -1,8 +1,8 @@
 ﻿# Local read-only MCP-shaped adapter
 
-**Status:** Narrow **live data-plane** step â€” **`scripts/mcp_local_readonly.py`** reads repo files as UTF-8 under **[`config/mcp-local-read-allowlist.yaml`](../../config/mcp-local-read-allowlist.yaml)** only. **No MCP servers**, **no credentials**, **no network**, **no shell**.
+**Status:** Narrow **live data-plane** step â€” **`scripts/mcp_local_readonly.py`** reads repo files as UTF-8 under **[`platform/config/mcp-local-read-allowlist.yaml`](../../platform/config/mcp-local-read-allowlist.yaml)** only. **No MCP servers**, **no credentials**, **no network**, **no shell**.
 
-**Related:** [`schemas/mcp-local-read-request.v1.json`](../../schemas/mcp-local-read-request.v1.json), [`docs/mcp/governed-mcp-layer.md`](governed-mcp-layer.md), capability **`filesystem_readonly`** in [`config/mcp-capabilities.yaml`](../../config/mcp-capabilities.yaml).
+**Related:** [`schemas/mcp-local-read-request.v1.json`](../../schemas/mcp-local-read-request.v1.json), [`docs/mcp/governed-mcp-layer.md`](governed-mcp-layer.md), capability **`filesystem_readonly`** in [`platform/config/mcp-capabilities.yaml`](../../platform/config/mcp-capabilities.yaml).
 
 ---
 
@@ -31,9 +31,9 @@ Earlier MCP tooling here was planning-first ([**manifest admission**](mcp-manife
 
 ## Allowlist model
 
-[`config/mcp-local-read-allowlist.yaml`](../../config/mcp-local-read-allowlist.yaml) defines:
+[`platform/config/mcp-local-read-allowlist.yaml`](../../platform/config/mcp-local-read-allowlist.yaml) defines:
 
-- **`allowed_roots`** â€” repo-relative prefixes permitted for reads (e.g. **`docs/`**, **`schemas/`**, named **`artifacts/â€¦`** buckets).
+- **`allowed_roots`** â€” repo-relative prefixes permitted for reads (e.g. **`docs/`**, **`schemas/`**, named **`runtime/artifacts/â€¦`** buckets).
 - **`blocked_roots`** â€” hard deny prefixes (**``**, **`venv/`**, **`.git/`**, â€¦).
 - **`blocked_files`** â€” basename denylist (**`.env`**, **`id_rsa`**, â€¦).
 - **`blocked_name_patterns`** â€” **`fnmatch`** on basename (**`*secret*`**, **`*.pem`**, â€¦).
@@ -48,7 +48,7 @@ Rejected paths fail closed (**exit 1**) **before** any receipt emission.
 - Receipt **`capability.id`** = **`filesystem_readonly`** (registry **`output_lane`:** **`runtime_only`**).
 - Registry **`writes: []`** implies **`access.resources_written`** must be **empty** for validated receipts â€” packet paths appear under **`result.artifacts`** only; **`access.resources_read`** lists request JSON path + resolved target path.
 
-See packet footer note under **`artifacts/mcp-local-read/`**.
+See packet footer note under **`runtime/artifacts/mcp-local-read/`**.
 
 ---
 
@@ -77,6 +77,6 @@ Promotion of insight into canonical Record remains **`recursion-gate.md`** + com
 ```bash
 python3 scripts/mcp_local_readonly.py \
   --input examples/mcp-local-read-request.example.json \
-  --output artifacts/mcp-local-read/read-example.md
+  --output runtime/artifacts/mcp-local-read/read-example.md
 ```
 

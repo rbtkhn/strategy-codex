@@ -13,18 +13,18 @@
 python3 scripts/build_workflow_depth_report.py --repo-root .
 ```
 
-Default JSON output: `artifacts/workflow-depth/workflow-depth-report.json`
+Default JSON output: `runtime/artifacts/workflow-depth/workflow-depth-report.json`
 
 Optional Markdown summary:
 
 ```bash
-python3 scripts/build_workflow_depth_report.py --repo-root . --markdown artifacts/workflow-depth/workflow-depth-audit-summary.md
+python3 scripts/build_workflow_depth_report.py --repo-root . --markdown runtime/artifacts/workflow-depth/workflow-depth-audit-summary.md
 ```
 
 Operator hints (from the JSON report):
 
 ```bash
-python3 scripts/build_workflow_depth_hints.py --report artifacts/workflow-depth/workflow-depth-report.json -o artifacts/workflow-depth/workflow-depth-hints.md
+python3 scripts/build_workflow_depth_hints.py --report runtime/artifacts/workflow-depth/workflow-depth-report.json -o runtime/artifacts/workflow-depth/workflow-depth-hints.md
 ```
 
 ## Missing or partial data

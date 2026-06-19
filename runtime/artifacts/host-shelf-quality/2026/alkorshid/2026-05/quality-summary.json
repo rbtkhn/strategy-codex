@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "work_layer": true,
+  "generated_date": "2026-05-15",
+  "host": "alkorshid",
+  "year": 2026,
+  "month": "2026-05",
+  "raw_input_count": 1,
+  "routeable_artifact_count": 1,
+  "total_word_mass": 8137,
+  "counts": {
+    "transcript-grade": 0,
+    "cleaned-transcript": 1,
+    "transcript-bearing": 0,
+    "summary-grade": 0,
+    "legacy-appearance-only": 0
+  },
+  "transcript-grade": 0,
+  "cleaned-transcript": 1,
+  "transcript-bearing": 0,
+  "summary-grade": 0,
+  "legacy-only": 0,
+  "legacy-appearance-only": 0,
+  "transcript_valid_count": 1,
+  "transcript_valid_percent": 100.0,
+  "unresolved_speaker_count": 0,
+  "unresolved_speakers": [],
+  "runtime/artifacts": [
+    {
+      "raw_input_path": "codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
+      "pub_date": "2026-05-04",
+      "title": "Col. Jacques Baud: Project Freedom, Hormuz blockade, and Chinese sanctions",
+      "evidence_grade": "cleaned-transcript",
+      "word_count": 8137,
+      "routeable": true,
+      "unresolved": false
+    }
+  ],
+  "deltas": {
+    "routeable_artifact_count": 0,
+    "total_word_mass": -704,
+    "transcript_valid_count": 0,
+    "transcript_valid_percent_points": 0.0,
+    "counts": {
+      "transcript-grade": 0,
+      "cleaned-transcript": 0,
+      "transcript-bearing": 0,
+      "summary-grade": 0,
+      "legacy-appearance-only": 0
+    }
+  },
+  "warnings": [],
+  "git_state": {
+    "scoped_paths": [
+      "codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
+      "runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.json",
+      "runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.md"
+    ],
+    "on_disk": true,
+    "verified": true,
+    "committed": false,
+    "pushed": false,
+    "dirty_paths": [
+      " M codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
+      "?? runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.json",
+      "?? runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.md"
+    ],
+    "dirty_path_count": 3,
+    "upstream": "origin/main",
+    "ahead_count": 0,
+    "label": "on-disk/verified/not-committed/not-pushed"
+  },
+  "closeout_line": "Structure: +0 routeable | Purity: +0 transcript-valid / 100.0% (+0.0pp) | Unresolved: 0 | Git: on-disk/verified/not-committed/not-pushed"
+}

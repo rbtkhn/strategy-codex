@@ -30,7 +30,7 @@ def is_forbidden_record_path(path: Path, repo_root: Path) -> bool:
     except OSError:
         return True
     try:
-        resolved.relative_to(root / "users")
+        resolved.relative_to(root / "platform/users")
         return True
     except ValueError:
         pass
@@ -45,7 +45,7 @@ def is_forbidden_record_path(path: Path, repo_root: Path) -> bool:
         return False
     if rel_s.startswith("_pytest_basetemp/"):
         return False
-    forbidden_exact = {"bot/prompt.py", "bot/bot.py", "bot/wechat_bot.py"}
+    forbidden_exact = {"archive/grace-mar-instance/bot/prompt.py", "archive/grace-mar-instance/bot/bot.py", "archive/grace-mar-instance/bot/wechat_bot.py"}
     if rel_s in forbidden_exact:
         return True
     return True

@@ -53,7 +53,7 @@ python3 scripts/work_jiang/forward_chain_blind_bundle.py reveal --episode $((R+1
   --require-prediction-path codex/predictive-history/prediction-tracking/scratch/gt-predict-$(($R+1)).md
 ```
 
-Retrospective narrative (not a substitute for blind evidence): [`lecture-forward-chain-gt-01-18.md`](../../codex/predictive-history/prediction-tracking/lecture-forward-chain-gt-01-18.md).
+Retrospective narrative (not a substitute for blind archive/placeholders/evidence): [`lecture-forward-chain-gt-01-18.md`](../../codex/predictive-history/prediction-tracking/lecture-forward-chain-gt-01-18.md).
 
 ---
 

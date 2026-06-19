@@ -38,7 +38,139 @@ OPERATOR_LEDGER_FILES: tuple[str, ...] = (
     "strategy-fold-events.jsonl",
 )
 LAST_DREAM_BASENAME = "last-dream.json"
-DEFAULT_USERS_DIR = REPO_ROOT / "users"
+
+TARGET_ROOT_FOLDERS: frozenset[str] = frozenset(
+    {
+        ".cursor",
+        ".github",
+        "SELF-LIBRARY",
+        "archive",
+        "codex",
+        "docs",
+        "essays",
+        "examples",
+        "platform",
+        "public",
+        "research",
+        "runtime",
+        "schemas",
+        "scripts",
+        "singularity",
+        "skills",
+        "source-archive",
+        "statecraft",
+        "templates",
+        "tests",
+    }
+)
+
+REPO_PATH_MIGRATIONS: dict[str, tuple[str, ...]] = {
+    "artifacts": ("runtime/artifacts", "artifacts"),
+    "daily-handoff": ("runtime/daily-handoff", "daily-handoff"),
+    "prepared-context": ("runtime/prepared-context", "prepared-context"),
+    "runtime-bundle": ("runtime/bundle", "runtime-bundle"),
+    "evidence": ("archive/placeholders/evidence", "evidence"),
+    "reflection-proposals": ("archive/queues/reflection-proposals", "reflection-proposals"),
+    "review-queue": ("archive/queues/review-queue", "review-queue"),
+    "apps": ("platform/apps", "apps"),
+    "app": ("platform/app", "app"),
+    "src": ("platform/src", "src"),
+    "bin": ("platform/bin", "bin"),
+    "deployment": ("platform/deployment", "deployment"),
+    "config": ("platform/config", "config"),
+    "extension": ("platform/extension", "extension"),
+    "integrations": ("platform/integrations", "integrations"),
+    "miniapp": ("platform/miniapp", "miniapp"),
+    "users": ("platform/users", "users"),
+    "template": ("platform/template", "_template"),
+    "profile": ("platform/profile", "profile"),
+    "auto-research": ("research/auto-research", "auto-research"),
+    "bridges": ("research/bridges", "bridges"),
+    "skills-portable": ("skills", "skills-portable"),
+    "skills": ("skills", "skills-portable"),
+    "schema-registry": ("schemas/registry", "schema-registry"),
+    "styles": ("templates/styles", "styles"),
+    "bot": ("archive/grace-mar-instance/bot", "bot"),
+    "recursion-gate-staging": (
+        "archive/grace-mar-instance/recursion-gate-staging",
+        "recursion-gate-staging",
+    ),
+    "bootstrap": ("archive/grace-mar-instance/bootstrap", "bootstrap"),
+    "grace-mar-instance": ("archive/grace-mar-instance",),
+}
+
+GRACE_MAR_INSTANCE_DIR = REPO_ROOT / "archive" / "grace-mar-instance"
+
+
+def resolve_repo_path(logical_key: str, *, prefer_existing: bool = True) -> Path:
+    """Resolve consolidated repo path by logical key (canonical + legacy fallback)."""
+    entry = REPO_PATH_MIGRATIONS.get(logical_key)
+    if entry is None:
+        raise ValueError(f"unknown repo path key: {logical_key!r}")
+    canonical = REPO_ROOT / entry[0]
+    if not prefer_existing:
+        return canonical
+    if canonical.exists():
+        return canonical
+    for legacy_rel in entry[1:]:
+        legacy = REPO_ROOT / legacy_rel
+        if legacy.exists():
+            return legacy
+    return canonical
+
+
+DEFAULT_USERS_DIR = resolve_repo_path("users")
+
+# Canonical consolidated directories (prefer imports over string paths in scripts).
+ARTIFACTS_DIR = resolve_repo_path("artifacts")
+PREPARED_CONTEXT_DIR = resolve_repo_path("prepared-context")
+RUNTIME_BUNDLE_DIR = resolve_repo_path("runtime-bundle")
+SRC_DIR = resolve_repo_path("src")
+SKILLS_DIR = resolve_repo_path("skills")
+APPS_DIR = resolve_repo_path("apps")
+BOT_DIR = resolve_repo_path("bot")
+SCHEMA_REGISTRY_DIR = resolve_repo_path("schema-registry")
+AUTO_RESEARCH_DIR = resolve_repo_path("auto-research")
+REVIEW_QUEUE_DIR = resolve_repo_path("review-queue")
+
+
+def user_profile_dir(user_id: str) -> Path:
+    """Per-fork profile directory under platform/users/."""
+    return resolve_repo_path("users") / user_id.strip()
+
+
+def artifacts_dir(base: Path | None = None) -> Path:
+    """
+    Return artifacts directory for repo root, Grace-Mar profile root, or users/<id>.
+
+    Sole-operator profile (archive/grace-mar-instance) maps to repo-level ARTIFACTS_DIR.
+    """
+    if base is None:
+        return ARTIFACTS_DIR
+    root = base.resolve()
+    if root == REPO_ROOT.resolve():
+        return ARTIFACTS_DIR
+    if (GRACE_MAR_INSTANCE_DIR / "self.md").is_file() and root == GRACE_MAR_INSTANCE_DIR.resolve():
+        return ARTIFACTS_DIR
+    nested = root / "runtime" / "artifacts"
+    legacy = root / "artifacts"
+    if legacy.is_dir() and not nested.is_dir():
+        return legacy
+    return nested
+
+
+def src_dir(base: Path | None = None) -> Path:
+    """Return platform/src for repo root or a nested checkout base."""
+    if base is None:
+        return SRC_DIR
+    root = base.resolve()
+    if root == REPO_ROOT.resolve():
+        return SRC_DIR
+    nested = root / "platform" / "src"
+    legacy = root / "src"
+    if legacy.is_dir() and not nested.is_dir():
+        return legacy
+    return nested
 
 
 def read_path(path: Path) -> str:
@@ -49,12 +181,18 @@ def read_path(path: Path) -> str:
 
 
 def profile_dir(user_id: str) -> Path:
-    """Return the canonical repository-root profile directory."""
+    """Return canonical profile directory (Grace-Mar instance bundle when relocated)."""
+    if (GRACE_MAR_INSTANCE_DIR / "self.md").is_file():
+        return GRACE_MAR_INSTANCE_DIR
+    if (REPO_ROOT / "self.md").is_file():
+        return REPO_ROOT
+    if GRACE_MAR_INSTANCE_DIR.is_dir():
+        return GRACE_MAR_INSTANCE_DIR
     return REPO_ROOT
 
 
 def dream_handoff_root(users_dir: Path, user_id: str) -> Path:
-    """Filesystem root for dream handoff JSON (sole-operator root vs users/<id>)."""
+    """Filesystem root for dream handoff JSON (sole-operator root vs platform/users/<id>)."""
     if users_dir.resolve() == DEFAULT_USERS_DIR.resolve():
         return profile_dir(user_id)
     candidate = users_dir / user_id
@@ -85,21 +223,25 @@ def resolve_ledger_path(user_id: str, name: str) -> Path:
 
 
 def resolve_last_dream_path(user_id: str, users_dir: Path | None = None) -> Path:
-    """Read path for last-dream.json (daily-handoff/ preferred; root compat)."""
+    """Read path for last-dream.json (runtime/daily-handoff/ preferred; legacy compat)."""
+    handoff_dir = resolve_repo_path("daily-handoff")
+    new = handoff_dir / LAST_DREAM_BASENAME
     root = dream_handoff_root(users_dir or DEFAULT_USERS_DIR, user_id)
-    new = root / "daily-handoff" / LAST_DREAM_BASENAME
-    old = root / LAST_DREAM_BASENAME
+    old = root / "runtime/daily-handoff" / LAST_DREAM_BASENAME
+    legacy_root = root / LAST_DREAM_BASENAME
     if new.is_file():
         return new
     if old.is_file():
         return old
+    if legacy_root.is_file():
+        return legacy_root
     return new
 
 
 def last_dream_write_path(user_id: str, users_dir: Path | None = None) -> Path:
     """Canonical write path for last-dream.json."""
-    root = dream_handoff_root(users_dir or DEFAULT_USERS_DIR, user_id)
-    path = root / "daily-handoff" / LAST_DREAM_BASENAME
+    handoff_dir = resolve_repo_path("daily-handoff")
+    path = handoff_dir / LAST_DREAM_BASENAME
     path.parent.mkdir(parents=True, exist_ok=True)
     return path
 
@@ -113,7 +255,8 @@ def list_forks() -> list[str]:
     """
     Return the sole operator profile identifier when the canonical root files exist.
     """
-    if (REPO_ROOT / "self.md").exists() or (REPO_ROOT / "recursion-gate.md").exists():
+    root = profile_dir(DEFAULT_PROFILE_ID)
+    if (root / "self.md").exists() or (root / "recursion-gate.md").exists():
         return [DEFAULT_PROFILE_ID]
     return []
 
@@ -163,7 +306,7 @@ def resolve_surface_markdown_path(
 
     canon = user_dir / f"{surface.canonical_file_stem}.md"
 
-    if surface.canonical_key == "self_evidence":
+    if surface.canonical_key == "self_archive/placeholders/evidence":
         if prefer_existing:
             if canon.is_file():
                 return canon

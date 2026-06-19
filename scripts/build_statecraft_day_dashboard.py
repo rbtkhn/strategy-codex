@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Build an aggregate statecraft day dashboard from day indices."""
 
@@ -22,7 +23,7 @@ from statecraft_day_archive import (
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-OUT_DIR = REPO_ROOT / "artifacts" / "statecraft"
+OUT_DIR = ARTIFACTS_DIR / "statecraft"
 SLICES_DIR = OUT_DIR / "slices"
 OUT_MD = OUT_DIR / "day-dashboard.md"
 OUT_JSON = OUT_DIR / "day-dashboard.json"
@@ -52,7 +53,7 @@ def parse_args() -> DashboardArgs:
     ap.add_argument("--thread", dest="threads", action="append", default=[], help="Only include days matching this thread label. Repeatable.")
     ap.add_argument("--host", dest="hosts", action="append", default=[], help="Only include days matching this host label. Repeatable.")
     ap.add_argument("--guest", dest="guests", action="append", default=[], help="Only include days matching this guest label. Repeatable.")
-    ap.add_argument("--slug", type=str, default=None, help="Write this filtered view to artifacts/statecraft/slices/<slug>.md and .json instead of the default dashboard paths.")
+    ap.add_argument("--slug", type=str, default=None, help="Write this filtered view to runtime/artifacts/statecraft/slices/<slug>.md and .json instead of the default dashboard paths.")
     args = ap.parse_args()
     return DashboardArgs(
         root=args.root.resolve(),
@@ -349,7 +350,7 @@ def main() -> int:
     out_md, out_json = resolve_output_paths(args.slug)
     out_md.parent.mkdir(parents=True, exist_ok=True)
     out_json.parent.mkdir(parents=True, exist_ok=True)
-    payload["artifacts"] = {
+    payload["runtime/artifacts"] = {
         "markdown": str(out_md),
         "json": str(out_json),
     }

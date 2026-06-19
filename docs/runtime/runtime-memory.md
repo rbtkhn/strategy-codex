@@ -25,7 +25,7 @@ not to create another Record.
 
 ## Repo-local implementation
 
-The runtime helpers live in `src/grace_mar/runtime/runtime_memory.py`.
+The runtime helpers live in `platform/src/grace_mar/runtime/runtime_memory.py`.
 
 ### Helper map
 

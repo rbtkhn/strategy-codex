@@ -3,7 +3,7 @@
 Read-only audit for fork-default language in operator-facing docs.
 
 Flags phrases that imply Grace-Mar fork growth or Voice as the default
-strategy-codex objective. SSOT rules: config/fork-language-audit.v1.json
+strategy-codex objective. SSOT rules: platform/config/fork-language-audit.v1.json
 
 See docs/grace-mar-instance-boundary.md (maintenance).
 """
@@ -18,7 +18,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_CONFIG = REPO_ROOT / "config" / "fork-language-audit.v1.json"
+DEFAULT_CONFIG = REPO_ROOT / "platform/config" / "fork-language-audit.v1.json"
 
 
 def _configure_stdout() -> None:
@@ -161,7 +161,7 @@ def main() -> int:
         description="Audit operator docs for fork-default language (read-only)."
     )
     parser.add_argument("--repo-root", type=Path, default=REPO_ROOT)
-    parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
+    parser.add_argument("--platform/config", type=Path, default=DEFAULT_CONFIG)
     parser.add_argument("--json", action="store_true", help="Emit JSON report")
     parser.add_argument(
         "--errors-only",

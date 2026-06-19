@@ -32,7 +32,7 @@ SCRIPTS_DIR = REPO_ROOT / "scripts"
 
 
 def _metrics_dir(user_id: str) -> Path:
-    d = REPO_ROOT / "users" / user_id / "metrics"
+    d = REPO_ROOT / "platform/users" / user_id / "metrics"
     d.mkdir(parents=True, exist_ok=True)
     return d
 

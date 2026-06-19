@@ -9,14 +9,14 @@ OpenClaw may export and stage, but it must remain stage-only and auditable.
 ## Export check
 
 1. Run:
-   `python integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event`
+   `python platform/integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event`
 2. Confirm a `runtime_compat_export` event appears in `pipeline-events.jsonl`.
 3. Confirm harness audit also records the export if harness events are enabled.
 
 ## Handback check
 
 1. Run:
-   `python integrations/openclaw_stage.py --user grace-mar --text "we explored X in OpenClaw"`
+   `python platform/integrations/openclaw_stage.py --user grace-mar --text "we explored X in OpenClaw"`
 2. Confirm the request succeeds and stages a candidate.
 3. Confirm an `intent_constitutional_critique` event appears with `advisory_clear` or `advisory_flagged`.
 

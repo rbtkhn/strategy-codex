@@ -21,7 +21,7 @@
     "evidence_state": "contradictory",
     "notes": "Synthetic benchmark: two primary sources conflict; human review before any gate-adjacent action."
   },
-  "artifacts": {
+  "runtime/artifacts": {
     "trace_path": "runtime/runtime-worker/traces/index.jsonl",
     "proposal_path": "runtime/runtime-worker/proposals/gov_eval_contradiction_rich.md"
   },

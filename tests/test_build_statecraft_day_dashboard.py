@@ -292,7 +292,7 @@ def test_slugged_write_does_not_touch_default_dashboard(tmp_path: Path) -> None:
     original_out_md = dash.OUT_MD
     original_out_json = dash.OUT_JSON
     try:
-        dash.OUT_DIR = tmp_path / "artifacts" / "statecraft"
+        dash.OUT_DIR = tmp_path / "runtime/artifacts" / "statecraft"
         dash.SLICES_DIR = dash.OUT_DIR / "slices"
         dash.OUT_MD = dash.OUT_DIR / "day-dashboard.md"
         dash.OUT_JSON = dash.OUT_DIR / "day-dashboard.json"
@@ -306,8 +306,8 @@ def test_slugged_write_does_not_touch_default_dashboard(tmp_path: Path) -> None:
         slice_payload = dash.build_dashboard_payload(root, [dash.load_day_summary(day)], channels=("Daniel Davis Deep Dive",), slug="davis")
         slice_md, slice_json = dash.resolve_output_paths("davis")
         slice_md.parent.mkdir(parents=True, exist_ok=True)
-        slice_json.write_text(json.dumps({**slice_payload, "artifacts": {"markdown": str(slice_md), "json": str(slice_json)}}, indent=2) + "\n", encoding="utf-8", newline="\n")
-        slice_md.write_text(dash.render_dashboard_markdown(root, {**slice_payload, "artifacts": {"markdown": str(slice_md), "json": str(slice_json)}}), encoding="utf-8", newline="\n")
+        slice_json.write_text(json.dumps({**slice_payload, "runtime/artifacts": {"markdown": str(slice_md), "json": str(slice_json)}}, indent=2) + "\n", encoding="utf-8", newline="\n")
+        slice_md.write_text(dash.render_dashboard_markdown(root, {**slice_payload, "runtime/artifacts": {"markdown": str(slice_md), "json": str(slice_json)}}), encoding="utf-8", newline="\n")
 
         assert dash.OUT_MD.read_text(encoding="utf-8") == default_before
         assert slice_md.is_file()

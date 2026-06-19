@@ -3,7 +3,7 @@
 Export the grace-mar Record with privacy redaction for sharing.
 
 Produces view_school (school-safe: no addresses, family details) or view_public
-(portfolio-only: interests, skills summary, no raw evidence).
+(portfolio-only: interests, skills summary, no raw archive/placeholders/evidence).
 
 Usage:
     python scripts/export_view.py --view school -u grace-mar -o school-export.md
@@ -57,7 +57,7 @@ def export_view(user_id: str, view: str) -> str:
     """
     Export Record with redaction. view in (school, public).
     """
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     self_path = profile_dir / "self.md"
     skills_content = "\n".join(
         _read(profile_dir / p)

@@ -1,7 +1,7 @@
 MEM–ANGLIA–DYNASTY–YORK — v1.1
 Status: ACTIVE
 Version: 1.1
-Upgrade Type: ADDITIVE (Shakespeare *Richard III* — terminal fracture, literary evidence)
+Upgrade Type: ADDITIVE (Shakespeare *Richard III* — terminal fracture, literary archive/placeholders/evidence)
 Civilization: ANGLIA
 Dynasty: House of York
 Dates: 1461–1485 AD

@@ -25,7 +25,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 class TestSchema:
     @pytest.fixture
     def schema(self):
-        return json.loads((ROOT / "schema-registry" / "business-transaction.v1.json").read_text())
+        return json.loads((ROOT / "schemas/registry" / "business-transaction.v1.json").read_text())
 
     def test_required_fields(self, schema):
         expected = {"ts", "date", "description", "amount_usd", "type", "category", "venture"}
@@ -50,7 +50,7 @@ class TestEmit:
     @pytest.fixture
     def ledger_file(self, tmp_path, monkeypatch):
         monkeypatch.setattr("emit_business_transaction.REPO_ROOT", tmp_path)
-        user_dir = tmp_path / "users" / "test-user"
+        user_dir = tmp_path / "platform/users" / "test-user"
         user_dir.mkdir(parents=True)
         return user_dir / "business-ledger.jsonl"
 
@@ -168,7 +168,7 @@ class TestSummary:
     @pytest.fixture
     def populated_ledger(self, tmp_path, monkeypatch):
         monkeypatch.setattr("business_ledger_summary.REPO_ROOT", tmp_path)
-        user_dir = tmp_path / "users" / "test-user"
+        user_dir = tmp_path / "platform/users" / "test-user"
         user_dir.mkdir(parents=True)
         ledger = user_dir / "business-ledger.jsonl"
 

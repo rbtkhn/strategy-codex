@@ -46,7 +46,7 @@ def test_self_evidence_archive_then_pointer(tmp_path: Path) -> None:
 
     (tmp_path / "self-archive.md").write_text("log\n", encoding="utf-8")
     (tmp_path / "self-evidence.md").write_text("pointer\n", encoding="utf-8")
-    p = resolve_surface_markdown_path(tmp_path, "self_evidence")
+    p = resolve_surface_markdown_path(tmp_path, "self_archive/placeholders/evidence")
     assert p.name == "self-archive.md"
 
 
@@ -54,7 +54,7 @@ def test_self_evidence_pointer_only(tmp_path: Path) -> None:
     from repo_io import resolve_surface_markdown_path
 
     (tmp_path / "self-evidence.md").write_text("pointer\n", encoding="utf-8")
-    p = resolve_surface_markdown_path(tmp_path, "self_evidence")
+    p = resolve_surface_markdown_path(tmp_path, "self_archive/placeholders/evidence")
     assert p.name == "self-evidence.md"
 
 

@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SWARM = ROOT / "auto-research" / "swarm"
+SWARM = ROOT / "research/auto-research" / "swarm"
 
 if str(SWARM) not in sys.path:
     sys.path.insert(0, str(SWARM))
@@ -32,7 +32,7 @@ def _sample_payload() -> dict:
         "candidate_bundle": {
             "title": "Auto-research grounded proposal",
             "summary": "Create a grounded SELF-facing candidate with explicit source exchange.",
-            "source": "operator - auto-research/self-proposals",
+            "source": "operator - research/auto-research/self-proposals",
             "source_exchange": {
                 "operator": "We observed a repeatable preference in a bounded session with enough detail to ground review."
             },
@@ -68,7 +68,7 @@ def _accepted_artifact() -> dict:
 def test_debate_review_writes_derived_artifact(tmp_path, monkeypatch):
     review = importlib.import_module("debate.review")
     tmp_repo = tmp_path / "repo"
-    artifact_path = tmp_repo / "auto-research" / "self-proposals" / "accepted" / "accepted-test.json"
+    artifact_path = tmp_repo / "research/auto-research" / "self-proposals" / "accepted" / "accepted-test.json"
     artifact_path.parent.mkdir(parents=True)
     artifact_path.write_text(json.dumps(_accepted_artifact(), indent=2) + "\n", encoding="utf-8")
     monkeypatch.setattr(review, "REPO_ROOT", tmp_repo)
@@ -84,7 +84,7 @@ def test_debate_review_writes_derived_artifact(tmp_path, monkeypatch):
 def test_debate_review_requests_more_grounding_for_missing_source_exchange(tmp_path, monkeypatch):
     review = importlib.import_module("debate.review")
     tmp_repo = tmp_path / "repo"
-    artifact_path = tmp_repo / "auto-research" / "self-proposals" / "accepted" / "accepted-missing-grounding.json"
+    artifact_path = tmp_repo / "research/auto-research" / "self-proposals" / "accepted" / "accepted-missing-grounding.json"
     artifact_path.parent.mkdir(parents=True)
     artifact = _accepted_artifact()
     artifact["raw_source_exchange"] = {}
@@ -102,9 +102,9 @@ def test_swarm_orchestrator_runs_debate_without_touching_gate(tmp_path, monkeypa
     orchestrator = _load("swarm_orchestrator_debate_test", SWARM / "orchestrator.py")
     review = importlib.import_module("debate.review")
     tmp_repo = tmp_path / "repo"
-    accepted_dir = tmp_repo / "auto-research" / "self-proposals" / "accepted"
-    swarm_dir = tmp_repo / "auto-research" / "swarm"
-    gate_path = tmp_repo / "users" / "demo" / "recursion-gate.md"
+    accepted_dir = tmp_repo / "research/auto-research" / "self-proposals" / "accepted"
+    swarm_dir = tmp_repo / "research/auto-research" / "swarm"
+    gate_path = tmp_repo / "platform/users" / "demo" / "recursion-gate.md"
     accepted_dir.mkdir(parents=True)
     swarm_dir.mkdir(parents=True)
     gate_path.parent.mkdir(parents=True)
@@ -114,7 +114,7 @@ def test_swarm_orchestrator_runs_debate_without_touching_gate(tmp_path, monkeypa
     artifact_path.write_text(json.dumps(_accepted_artifact(), indent=2) + "\n", encoding="utf-8")
 
     monkeypatch.setattr(orchestrator, "REPO_ROOT", tmp_repo)
-    monkeypatch.setattr(orchestrator, "AUTO_RESEARCH_DIR", tmp_repo / "auto-research")
+    monkeypatch.setattr(orchestrator, "AUTO_RESEARCH_DIR", tmp_repo / "research/auto-research")
     monkeypatch.setattr(orchestrator, "SWARM_DIR", swarm_dir)
     monkeypatch.setattr(
         orchestrator,
@@ -122,7 +122,7 @@ def test_swarm_orchestrator_runs_debate_without_touching_gate(tmp_path, monkeypa
         (
             {
                 "lane": "self-proposals",
-                "candidate_source": "auto-research/swarm",
+                "candidate_source": "research/auto-research/swarm",
                 "accepted_dir": accepted_dir,
             },
         ),

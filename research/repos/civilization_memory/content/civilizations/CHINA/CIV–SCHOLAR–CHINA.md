@@ -339,7 +339,7 @@ Source:
 Ingest Type:
 • LEARN Session / River-cluster contemplation + Pearl delta + cross-civ cession–return
 OGE Chain (options selected):
-• F (Grand Canal, Yellow River under PRC) → D (multi-mind) → E (Yuan Kublai Canal extension) → H (synthesis) → c (bigger change: Pearl delta) → G (Alsace–Lorraine) → H (synthesis)
+• F (Grand Canal, Yellow River under PRC) → D (multi-mind) → E (Yuan Kublai Canal platform/extension) → H (synthesis) → c (bigger change: Pearl delta) → G (Alsace–Lorraine) → H (synthesis)
 Learning Recorded:
 • Heartland axis (Yellow–Yangtze–Grand Canal) plus Pearl as cession delta; PRC continuity (flood, capital supply) and Yuan precedent (conquest-as-connectivity). Pearl: Hong Kong ceded 1842, Shenzhen SEZ 1980 (opening by choice), handover 1997 (reconstitution); one delta, humiliation then return. Cross-civ: Alsace–Lorraine—Francia (loss 1871, delegitimation, recovery 1918 as conditional redemption), Germania (gain then legitimacy gap, return to France). Pattern: cession and return (or failed retention) as legitimacy test; one geography, multiple encodings; same grammar across civilisations.
 Belief Status:

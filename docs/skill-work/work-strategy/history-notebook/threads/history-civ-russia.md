@@ -6,7 +6,7 @@ Civilization: Russia
 Arc ID: `history-civ-russia`  
 Phase: 1 (pilot)  
 Folds: (none)  
-Last sovereign merge: 2026-04-16 (pilot bootstrap)
+Last sovereign merge: 2026-04-16 (pilot archive/grace-mar-instance/bootstrap)
 
 ## Civilizational Continuity (core longitudinal spine)
 

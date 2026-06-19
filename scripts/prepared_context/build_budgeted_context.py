@@ -18,12 +18,13 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 _RUNTIME = REPO_ROOT / "scripts" / "runtime"
 _PREP = Path(__file__).resolve().parent
 for _p in (_SRC, _RUNTIME, _PREP):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
+from repo_io import PREPARED_CONTEXT_DIR, SRC_DIR
 
 from grace_mar.runtime.workflow_depth import (  # noqa: E402
     WorkflowDepthDecision,
@@ -49,7 +50,7 @@ from workflow_depth_control import (  # noqa: E402
 
 DEPTH_CHOICES = ("shallow", "normal", "deep", "exhaustive", "auto")
 
-LANE_DEFAULTS = REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"
+LANE_DEFAULTS = REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"
 MODES = ("compact", "medium", "deep")
 
 
@@ -246,7 +247,7 @@ def _write_receipt(
     built: str,
     scores: dict[str, float] | None = None,
 ) -> None:
-    receipt = repo_root / "prepared-context" / "last-budget-builds.json"
+    receipt = PREPARED_CONTEXT_DIR / "last-budget-builds.json"
     data: dict[str, Any] = {"schemaVersion": "1.0-budget-receipt", "lanes": {}}
     if receipt.is_file():
         try:
@@ -466,7 +467,7 @@ def main() -> int:
         "--policy-defaults",
         type=Path,
         default=None,
-        help="Optional path to policy_modes defaults.json (default: config/policy_modes/defaults.json)",
+        help="Optional path to policy_modes defaults.json (default: platform/config/policy_modes/defaults.json)",
     )
     ap.add_argument(
         "--score",
@@ -731,7 +732,7 @@ def main() -> int:
         scores=scores,
     )
     print(f"wrote {out}", file=sys.stderr)
-    print(f"wrote {root / 'prepared-context' / 'last-budget-builds.json'}", file=sys.stderr)
+    print(f"wrote {root / 'runtime/prepared-context' / 'last-budget-builds.json'}", file=sys.stderr)
     if wf_depth and receipt_extra and depth_decision is not None:
         out_rel = str(out.resolve().relative_to(root)) if out.resolve().is_relative_to(root) else str(out)
         gr_extras: dict[str, Any] | None = None

@@ -31,7 +31,7 @@ Compact pages may rename **Purpose** to **What this is** when the audience is be
 
 When a wrapper describes a skill, use one of these status tags:
 
-- **draft** - lives under `skills-portable/_drafts/`
+- **draft** - lives under `skills/_drafts/`
 - **listed** - manifest-listed portable skill
 - **promoted** - actively used, manifest-listed skill with a stable generated runtime copy
 

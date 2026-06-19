@@ -1,6 +1,6 @@
 # Exploration: AutoGen-style internal deliberation (Path 1)
 
-**Status:** Experimental. Not part of the core pipeline. Do not integrate into `bot/` or `scripts/process_approved_candidates.py` without explicit design approval.
+**Status:** Experimental. Not part of the core pipeline. Do not integrate into `archive/grace-mar-instance/bot/` or `scripts/process_approved_candidates.py` without explicit design approval.
 
 **Purpose:** Minimal prototype for an internal deliberation loop: read-only ingest of Record + recent recursion-gate candidates; output is **draft only** for operator review. No merge path. No writes to Record or gate.
 
@@ -11,7 +11,7 @@
 
 ## Invariants (must preserve)
 
-- **No write to Record.** This script never writes to `self.md`, `self-evidence.md`, `bot/prompt.py`, or calls `process_approved_candidates.py`. Output goes only to `output/` (non-canonical).
+- **No write to Record.** This script never writes to `self.md`, `self-evidence.md`, `archive/grace-mar-instance/bot/prompt.py`, or calls `process_approved_candidates.py`. Output goes only to `output/` (non-canonical).
 - **Staging only after human review.** Deliberation output is a draft. If the operator wants to stage any of it, they do so manually (or via existing pipeline tooling); this script does not append to `recursion-gate.md`.
 - **Optional dependency.** AutoGen is optional. If not installed, the script runs a dry run (loads context, writes a placeholder draft) so the repo does not depend on AutoGen.
 

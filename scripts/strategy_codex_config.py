@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent
-_CONFIG_PATH = _REPO_ROOT / "config" / "strategy_codex.yaml"
+_CONFIG_PATH = _REPO_ROOT / "platform/config" / "strategy_codex.yaml"
 
 
 def _load_yaml(path: Path) -> dict[str, Any]:
@@ -19,7 +19,7 @@ def _load_yaml(path: Path) -> dict[str, Any]:
         from yaml_compat import safe_load_path
     except ImportError:
         from scripts.yaml_compat import safe_load_path  # type: ignore
-    data = safe_load_path(path, feature="strategy_codex_config")
+    data = safe_load_path(path, feature="strategy_codex_platform/config")
     return data if isinstance(data, dict) else {}
 
 

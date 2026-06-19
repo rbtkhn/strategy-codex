@@ -30,7 +30,7 @@ Use:
 ```bash
 pip install -r scripts/requirements-seed-phase.txt
 python3 scripts/validate-change-review.py demo/review-queue
-python3 scripts/validate-change-review.py _template/review-queue --allow-empty
+python3 scripts/validate-change-review.py platform/template/review-queue --allow-empty
 python3 scripts/validate-change-review.py <fork_id>/review-queue --allow-missing-decisions
 ```
 
@@ -50,11 +50,11 @@ The validator expects:
 
 The validator checks:
 
-- `change_review_queue.json` against `schema-registry/change-review-queue.v1.json`
-- `change_event_log.json` against `schema-registry/change-event-log.v1.json`
-- proposal files against `schema-registry/change-proposal.v1.json`
-- decision files against `schema-registry/change-decision.v1.json`
-- diff files against `schema-registry/identity-diff.v1.json`
+- `change_review_queue.json` against `schemas/registry/change-review-queue.v1.json`
+- `change_event_log.json` against `schemas/registry/change-event-log.v1.json`
+- proposal files against `schemas/registry/change-proposal.v1.json`
+- decision files against `schemas/registry/change-decision.v1.json`
+- diff files against `schemas/registry/identity-diff.v1.json`
 
 **Queue items** must include `proposalClass`, `targetSurface`, `materiality`, `reviewType`, `riskLevel`, and `requiresReclassification` when present (non-empty queue). **Proposals** must include `targetSurface`, `materiality`, `reviewType`, and `queueSummary` among required fields. Surface tokens use snake_case values such as `self`, `self_library`, `civ_mem`, `work_layer` (see schemas).
 
@@ -83,7 +83,7 @@ These are allowed for demo or runtime-generated evidence handles.
 
 ### Empty template mode
 
-The `_template` scaffold is intentionally minimal.
+The `platform/template` scaffold is intentionally minimal.
 
 Use `--allow-empty` when validating the template review queue so that empty proposal, decision, and diff directories are treated as valid placeholders.
 
@@ -98,7 +98,7 @@ Strict mode without flags requires at least one file in all three directories. `
 
 ### Demo mode
 
-The `demo/review-queue/` directory should validate in strict mode without `--allow-empty`.
+The `demo/archive/queues/review-queue/` directory should validate in strict mode without `--allow-empty`.
 
 The demo is intended to remain a living worked example of:
 
@@ -115,15 +115,15 @@ The demo is intended to remain a living worked example of:
 Use:
 
 ```bash
-python3 scripts/generate-identity-diff.py demo/review-queue/diffs/diff-001.json
+python3 scripts/generate-identity-diff.py demo/archive/queues/review-queue/diffs/diff-001.json
 ```
 
 To write a Markdown file:
 
 ```bash
 python3 scripts/generate-identity-diff.py \
-  demo/review-queue/diffs/diff-001.json \
-  --output demo/review-queue/identity_diff.md
+  demo/archive/queues/review-queue/diffs/diff-001.json \
+  --output demo/archive/queues/review-queue/identity_diff.md
 ```
 
 This generator creates a readable before/after review surface from the structured diff artifact.

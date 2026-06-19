@@ -8,8 +8,8 @@
 
 | Artifact | Role |
 |----------|------|
-| **`artifacts/civ-mem-encyclopedia/ENCYCLOPEDIA.md`** | **Fat file** â€” concatenation of **grace-marâ€“owned** `docs/civilization-memory/` markdown with anchors (`## CM:essays/â€¦`). Regen overwrites. |
-| **`artifacts/civ-mem-encyclopedia/lib-stubs.yaml`** | **Skinny rows** â€” generator output; **merge into** `self-library.md` **after** companion/operator gate if Voice perimeter should change. |
+| **`runtime/artifacts/civ-mem-encyclopedia/ENCYCLOPEDIA.md`** | **Fat file** â€” concatenation of **grace-marâ€“owned** `docs/civilization-memory/` markdown with anchors (`## CM:essays/â€¦`). Regen overwrites. |
+| **`runtime/artifacts/civ-mem-encyclopedia/lib-stubs.yaml`** | **Skinny rows** â€” generator output; **merge into** `self-library.md` **after** companion/operator gate if Voice perimeter should change. |
 | **LIB rows (merged)** | Each row: **title** (short), **scope** (facets), **url** (GitHub canonical path), **notes** (anchor + one-line blurb). **lookup_priority** `medium` or `high` only for rows you want library-first to favor. |
 
 ---
@@ -31,7 +31,7 @@ Writes `ENCYCLOPEDIA.md` + `lib-stubs.yaml`. Does **not** edit `self-library.md`
 
 ## Lookup reality (today)
 
-`bot/core.py` builds lookup summary from **title + scope** (and lane/priority). It does **not** load full markdown per row. So:
+`archive/grace-mar-instance/bot/core.py` builds lookup summary from **title + scope** (and lane/priority). It does **not** load full markdown per row. So:
 
 - **Skinny rows** improve **routing** (which door matches the question).
 - **Answers** still depend on analyst + summary; for **faithful** quotes, use **CMC path** after hit or extend core later (e.g. include truncated **notes** in summary).

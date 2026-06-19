@@ -26,7 +26,7 @@ REPLACEMENTS = (
 )
 
 DEFAULT_EXCLUDE_PREFIXES = (
-    "artifacts/benchmarks/",
+    "runtime/artifacts/benchmarks/",
 )
 
 SPECIAL_FILES = (
@@ -188,7 +188,7 @@ def main() -> int:
     ap.add_argument(
         "--include-benchmarks",
         action="store_true",
-        help="Include artifacts/benchmarks/ in scan/replace/check",
+        help="Include runtime/artifacts/benchmarks/ in scan/replace/check",
     )
     args = ap.parse_args()
 

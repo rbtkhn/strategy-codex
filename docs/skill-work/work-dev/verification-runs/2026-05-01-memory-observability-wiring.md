@@ -8,7 +8,7 @@
 
 ## Result
 
-- The memory observability report rebuilt under `artifacts/memory/`.
+- The memory observability report rebuilt under `runtime/artifacts/memory/`.
 - The focused tests cover cadence parsing, status classification, markdown rendering, JSON shape, compact one-line formatting, and static coffee/dream one-line wiring.
 - Coffee and dream remain non-blocking surfaces: they may print one `Memory observability:` line when the derived report is not `ok`; they do not paste the full dashboard and do not edit MEMORY, Record, or gate files.
 
@@ -28,4 +28,4 @@ Memory observability matters because continuity risk should be felt at the momen
 - `tests/test_memory_observability.py`
 - `.cursor/skills/coffee/SKILL.md`
 - `.cursor/skills/dream/SKILL.md`
-- `artifacts/memory/memory-observability.md`
+- `runtime/artifacts/memory/memory-observability.md`

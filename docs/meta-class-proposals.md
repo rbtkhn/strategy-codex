@@ -27,7 +27,7 @@
 | `meta_targets` | yes | Multiline block (` \| `) listing **repo-relative** paths (one per line) that the diff touches. |
 | `meta_rationale` | recommended | Why this change is needed. |
 | `meta_test_plan` | recommended | What to run (e.g. perf tiers, manual checks). |
-| **Diff** | one of | `meta_diff:` (block scalar containing a **unified diff** text) **or** `meta_artifact_path:` pointing to a file under `artifacts/meta-diffs/` (e.g. `artifacts/meta-diffs/CANDIDATE-0090.patch`). |
+| **Diff** | one of | `meta_diff:` (block scalar containing a **unified diff** text) **or** `meta_artifact_path:` pointing to a file under `runtime/artifacts/meta-diffs/` (e.g. `runtime/artifacts/meta-diffs/CANDIDATE-0090.patch`). |
 
 Omit or set `profile_target` / IX-oriented fields to `none` where possible so META is not confused with SELF merges.
 
@@ -40,12 +40,12 @@ summary: "Tighten retriever cache invalidation"
 channel_key: operator:cursor
 meta_risk: MEDIUM
 meta_targets: |
-  bot/retriever.py
+  archive/grace-mar-instance/bot/retriever.py
 meta_rationale: |
   Align disk cache invalidation with fingerprint changes.
 meta_test_plan: |
   python3 scripts/run_perf_suite.py --tier 1 2 -u grace-mar --check-baseline
-meta_artifact_path: artifacts/meta-diffs/CANDIDATE-0090.patch
+meta_artifact_path: runtime/artifacts/meta-diffs/CANDIDATE-0090.patch
 ```
 
 ---
@@ -55,12 +55,12 @@ meta_artifact_path: artifacts/meta-diffs/CANDIDATE-0090.patch
 `process_meta_candidates.py` only accepts targets (and paths inside the diff) under these **prefixes** (repo-relative):
 
 - `scripts/`
-- `config/`
-- `bot/`
-- `integrations/`
-- `apps/` (optional app servers)
+- `platform/config/`
+- `archive/grace-mar-instance/bot/`
+- `platform/integrations/`
+- `platform/apps/` (optional app servers)
 
-**Denied:** `` (except optional `artifacts/meta-diffs/*` as **artifact** paths), `docs/` (use operator PRs for doc-only if needed), root PRP `*.txt`, `.env`, etc.
+**Denied:** `` (except optional `runtime/artifacts/meta-diffs/*` as **artifact** paths), `docs/` (use operator PRs for doc-only if needed), root PRP `*.txt`, `.env`, etc.
 
 ---
 
@@ -76,7 +76,7 @@ meta_artifact_path: artifacts/meta-diffs/CANDIDATE-0090.patch
    (Slow; requires a clean diff and local resources.)
 5. **Review** in gate-review-app / Telegram; approve when satisfied.
 6. **Merge approval** via `process_approved_candidates.py --apply` â€” moves META block to Processed, logs pipeline/session; **does not** apply the patch.
-7. **Apply patch manually:** `git apply artifacts/meta-patches/CANDIDATE-XXXX.patch` (or from artifact), then commit with a normal message (e.g. mention `[meta-infra]` for searchability).
+7. **Apply patch manually:** `git apply runtime/artifacts/meta-patches/CANDIDATE-XXXX.patch` (or from artifact), then commit with a normal message (e.g. mention `[meta-infra]` for searchability).
 
 ---
 
@@ -88,5 +88,5 @@ On **`META_INFRA` + `approved`**, the merge script **skips** SELF/EVIDENCE/promp
 
 ## Rollback
 
-Revert the git commit that applied the patch, or restore from git history. META reports under `artifacts/meta-reports/` are diagnostic only.
+Revert the git commit that applied the patch, or restore from git history. META reports under `runtime/artifacts/meta-reports/` are diagnostic only.
 

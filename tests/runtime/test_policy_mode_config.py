@@ -15,7 +15,7 @@ MOD = REPO_ROOT / "scripts" / "runtime" / "policy_mode_config.py"
 def policy_mod():
     import importlib.util
 
-    spec = importlib.util.spec_from_file_location("policy_mode_config", MOD)
+    spec = importlib.util.spec_from_file_location("policy_mode_platform/config", MOD)
     m = importlib.util.module_from_spec(spec)
     assert spec.loader
     spec.loader.exec_module(m)

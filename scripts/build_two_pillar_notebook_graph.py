@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Build a polyphonic cognition-stream graph for strategy-codex.
 
@@ -48,7 +49,7 @@ DEFAULT_DAVIS_INDEX = REPO_ROOT / ".codex-tmp" / "davis-january" / "index.json"
 DEFAULT_RAW_INPUT_ROOT = (
     REPO_ROOT / "codex" / "2026" / "raw-input"
 )
-DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "skill-work" / "work-strategy" / "interview-graph"
+DEFAULT_OUT_DIR = ARTIFACTS_DIR / "skill-work" / "work-strategy" / "interview-graph"
 DEFAULT_OUT_JSON = DEFAULT_OUT_DIR / "cognition-streams-graph.json"
 DEFAULT_OUT_MD = DEFAULT_OUT_DIR / "cognition-streams-graph.md"
 

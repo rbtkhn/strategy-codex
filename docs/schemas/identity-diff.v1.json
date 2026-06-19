@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "schema-registry/identity-diff.v1.json",
+  "$id": "schemas/registry/identity-diff.v1.json",
   "title": "Companion-Self Identity Diff v1",
   "description": "Visible before/after comparison for a governed change proposal.",
   "type": "object",

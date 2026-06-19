@@ -23,12 +23,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
+from repo_io import ARTIFACTS_DIR
 
 import build_speaker_routing_queue as routing  # noqa: E402
 
 
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / "years" / str(date.today().year)
-DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "speaker-memory-actions"
+DEFAULT_OUT_DIR = ARTIFACTS_DIR / "speaker-memory-actions"
 ACTION_TYPES = {
     "update-existing-arc",
     "review-existing-object",

@@ -27,6 +27,7 @@ REPO_ROOT = _RUNTIME_DIR.parent.parent
 for _p in (_RUNTIME_DIR, _SCRIPTS_DIR):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
+from repo_io import ARTIFACTS_DIR
 
 import chunk_store  # noqa: E402
 import hybrid_scoring as hs  # noqa: E402
@@ -40,8 +41,8 @@ SURFACES = frozenset({
 })
 
 DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar")
-USERS_DIR = REPO_ROOT / "users"
-ARTIFACTS_DIR = REPO_ROOT / "artifacts"
+USERS_DIR = REPO_ROOT / "platform/users"
+ARTIFACTS_DIR = ARTIFACTS_DIR
 NOTEBOOK_CHAPTERS = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "strategy-notebook" / "chapters"
 
 

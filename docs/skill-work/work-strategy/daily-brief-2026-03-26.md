@@ -76,7 +76,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging — **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging — **verify** claims against primary sources._
 
 - **[W:0 S:0 G:3]** [The Army wants to use bullets, mortars, and artillery to take out small drones](https://www.defenseone.com/technology/2026/03/army-wants-use-bullets-mortars-and-artillery-rounds-take-out-small-drones/412392/) — _Defense One — All_ · _2026-03-26 03:41 UTC_
 - **[W:1 S:1 G:2]** [Lessons from Ukraine are shaping US Army's drones, training, comms](https://www.defenseone.com/defense-systems/2026/03/army-needs-more-realistic-drone-training-more-versatile-drones/412389/) — _Defense One — All_ · _2026-03-25 19:33 UTC_

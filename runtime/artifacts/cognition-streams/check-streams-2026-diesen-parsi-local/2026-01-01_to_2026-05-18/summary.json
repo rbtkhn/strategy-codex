@@ -1,0 +1,64 @@
+{
+  "check": "diesen-parsi-2026",
+  "status": "local-evidence-complete",
+  "window": {
+    "start": "2026-01-01",
+    "end": "2026-05-18"
+  },
+  "stream": {
+    "channel_key": "glenn-diesen",
+    "thread": "diesen",
+    "host": "Glenn Diesen"
+  },
+  "query": "Parsi",
+  "discovery_scope": [
+    "local raw-input search under codex/years/2026/raw-input/2026-*",
+    "existing cognition-stream artifact search",
+    "2026-05-18 Glenn Diesen RSS fallback receipt"
+  ],
+  "discovery_limitations": [
+    "The normal YouTube metadata audit path hit YouTube bot-wall errors during the 2026-05-18 check.",
+    "RSS confirms the recent May 18 item but is not a full historical archive proof.",
+    "This receipt therefore falsifies against local raw captures and existing ledgers, not against a complete live YouTube archive crawl."
+  ],
+  "captured_diesen_parsi_main": 1,
+  "open_diesen_parsi_items": 0,
+  "captured_items": [
+    {
+      "date": "2026-05-18",
+      "youtube_id": "7QUx7GjIOBo",
+      "title": "Trita Parsi: Iran War Marks the End of American Primacy",
+      "url": "https://www.youtube.com/watch?v=7QUx7GjIOBo",
+      "raw_capture_path": "codex/years/2026/raw-input/2026-05-18/youtube-glenn-diesen-trita-parsi-iran-war-marks-the-end-of-american-primacy-2026-05-18.md",
+      "receipt_path": "runtime/artifacts/cognition-streams/check-streams-2026-05-18-diesen-rss/2026-05-18_to_2026-05-18/summary.json",
+      "capture_status": "captured-main"
+    }
+  ],
+  "adjacent_non_diesen_parsi_open_items_seen": [
+    {
+      "channel_key": "daniel-davis-deep-dive",
+      "youtube_id": "kR37V7PkhYo",
+      "title": "Trita Parsi: IRAN WILL CONTINUE TO ESCALATE",
+      "status": "uncaptured-main",
+      "priority": "probably-capture"
+    },
+    {
+      "channel_key": "daniel-davis-deep-dive",
+      "youtube_id": "tiN37-mwA0A",
+      "title": "IRAN MAKING IT PAINFUL FOR U.S. /Trita Parsi & Lt Col Daniel Davis",
+      "status": "uncaptured-main",
+      "priority": "probably-capture"
+    },
+    {
+      "channel_key": "dialogue-works",
+      "youtube_id": "R550ehVJYKw",
+      "title": "Amb. Chas Freeman & Trita Parsi: The Middle East You Knew Is Disappearing",
+      "status": "uncaptured-main",
+      "priority": "probably-capture"
+    }
+  ],
+  "notes": [
+    "Local evidence shows the Diesen-Parsi 2026 target as complete after the May 18 raw capture.",
+    "Adjacent Parsi items remain outside this Diesen-specific check."
+  ]
+}

@@ -15,7 +15,7 @@ def _read(path: Path) -> str:
 (or `if not path.exists(): return ""` then `return path.read_text(...)`)
 
 **Files (sample):**  
-`process_approved_candidates.py`, `harness_warmup.py`, `export_prp.py`, `export_view.py`, `export_fork.py`, `export_symbolic.py`, `export_curriculum.py`, `export_manifest.py`, `export_intent_snapshot.py`, `export_engagement_profile.py`, `export_user_identity.py`, `recursion_gate_review.py`, `metrics.py`, `generate_profile.py`, `session_brief.py`, `operator_blocker_report.py`, `parse_we_did.py`, `openclaw_heartbeat.py`, `pending_dedup_hint.py`, `fork_checksum.py`, `measure_growth_and_density.py`, `generate_wap_weekly_brief.py`, `proposal_brief.py`, `load_mastery_learning_benchmarks.py`, `export_runtime_bundle.py`, `work_politics_ops.py`, `generate_lesson_prompt.py`, `bot/retriever.py`, and others.
+`process_approved_candidates.py`, `harness_warmup.py`, `export_prp.py`, `export_view.py`, `export_fork.py`, `export_symbolic.py`, `export_curriculum.py`, `export_manifest.py`, `export_intent_snapshot.py`, `export_engagement_profile.py`, `export_user_identity.py`, `recursion_gate_review.py`, `metrics.py`, `generate_profile.py`, `session_brief.py`, `operator_blocker_report.py`, `parse_we_did.py`, `openclaw_heartbeat.py`, `pending_dedup_hint.py`, `fork_checksum.py`, `measure_growth_and_density.py`, `generate_wap_weekly_brief.py`, `proposal_brief.py`, `load_mastery_learning_benchmarks.py`, `export_runtime_bundle.py`, `work_politics_ops.py`, `generate_lesson_prompt.py`, `archive/grace-mar-instance/bot/retriever.py`, and others.
 
 **Reuse already present:**  
 `operator_handoff_check.py` and `operator_daily_warmup.py` import `_read` from `harness_warmup`; `export_manifest` imports from `export_intent_snapshot`.
@@ -30,10 +30,10 @@ def _read(path: Path) -> str:
 
 ```python
 REPO_ROOT = Path(__file__).resolve().parent.parent
-PROFILE_DIR = REPO_ROOT / "users" / user_id   # or REPO_ROOT / "users" / "grace-mar"
+PROFILE_DIR = REPO_ROOT / "platform/users" / user_id   # or REPO_ROOT / "platform/users" / "grace-mar"
 ```
 
-**Recommendation:** Same shared module can expose `REPO_ROOT` and `profile_dir(user_id: str) -> Path`. Optional; some scripts need REPO_ROOT for non-user paths (e.g. `bot/`, `docs/`).
+**Recommendation:** Same shared module can expose `REPO_ROOT` and `profile_dir(user_id: str) -> Path`. Optional; some scripts need REPO_ROOT for non-user paths (e.g. `archive/grace-mar-instance/bot/`, `docs/`).
 
 ---
 
@@ -45,9 +45,9 @@ PROFILE_DIR = REPO_ROOT / "users" / user_id   # or REPO_ROOT / "users" / "grace-
 os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
 ```
 
-(or `default="grace-mar"` in argparse) appears in **40+** places: bot (core, retriever, bot.py), `apps/miniapp_server.py`, and most scripts that take `-u` / `--user`.
+(or `default="grace-mar"` in argparse) appears in **40+** places: bot (core, retriever, bot.py), `platform/apps/miniapp_server.py`, and most scripts that take `-u` / `--user`.
 
-**Recommendation:** Centralize in one place, e.g. `scripts/_common.py` or `bot/conf.py`:  
+**Recommendation:** Centralize in one place, e.g. `scripts/_common.py` or `archive/grace-mar-instance/bot/conf.py`:  
 `DEFAULT_USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"`.  
 Scripts and bot import it; argparse uses `default=DEFAULT_USER_ID`. Reduces drift if env or default ever changes.
 

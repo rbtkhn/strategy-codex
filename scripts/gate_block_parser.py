@@ -62,7 +62,7 @@ def iter_pending_yaml_blobs(full_md: str) -> list[str]:
 
 
 def yaml_blob_provenance_fraction(yaml_body: str) -> float:
-    """0..1 fraction of OpenClaw/handback provenance fields present (aligned with bot/core staging keys)."""
+    """0..1 fraction of OpenClaw/handback provenance fields present (aligned with archive/grace-mar-instance/bot/core staging keys)."""
     has_source = bool(re.search(r"^candidate_source:\s*\S", yaml_body, re.MULTILINE))
     has_path = bool(re.search(r"^artifact_path:\s*\S", yaml_body, re.MULTILINE))
     has_sha = bool(re.search(r"^artifact_sha256:\s*\S", yaml_body, re.MULTILINE))

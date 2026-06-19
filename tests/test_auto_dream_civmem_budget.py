@@ -30,7 +30,7 @@ def _no_frontier_network(monkeypatch: pytest.MonkeyPatch) -> None:
 
 
 def _minimal_user(tmp_path: Path) -> Path:
-    users_dir = tmp_path / "users"
+    users_dir = tmp_path / "platform/users"
     ud = users_dir / "demo"
     ud.mkdir(parents=True)
     (ud / "self.md").write_text("# SELF\n", encoding="utf-8")

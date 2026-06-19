@@ -1,6 +1,6 @@
 # Chat-mode contract
 
-This document defines the **chat-optimized mode** for Telegram (and other chat apps). It is a separate code path from the current Cursor-parity behaviour. When chat mode is enabled, the engine and prompts follow this contract.
+This document defines the **chat-optimized mode** for Telegram (and other chat platform/apps). It is a separate code path from the current Cursor-parity behaviour. When chat mode is enabled, the engine and prompts follow this contract.
 
 **Design basis:** DESIGN–CHAT–MODE–OPTIONS.md §7 (Direction 1 — Short and simple), §8 (three-perspective discussion), §9 (concrete recommendations).
 

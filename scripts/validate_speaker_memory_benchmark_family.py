@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Bundle-first validator for the speaker-memory benchmark family."""
 
@@ -16,9 +17,9 @@ from typing import Any, Callable
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = Path(__file__).resolve().parent
-FIXTURES_DIR = REPO_ROOT / "artifacts" / "benchmarks" / "speaker-memory" / "fixtures"
-SAMPLES_PATH = REPO_ROOT / "artifacts" / "benchmarks" / "speaker-memory" / "benchmark_samples.py"
-README_PATH = REPO_ROOT / "artifacts" / "benchmarks" / "speaker-memory" / "README.md"
+FIXTURES_DIR = ARTIFACTS_DIR / "benchmarks" / "speaker-memory" / "fixtures"
+SAMPLES_PATH = ARTIFACTS_DIR / "benchmarks" / "speaker-memory" / "benchmark_samples.py"
+README_PATH = ARTIFACTS_DIR / "benchmarks" / "speaker-memory" / "README.md"
 SCORE_SCRIPT_PATH = REPO_ROOT / "scripts" / "score_speaker_memory_benchmark.py"
 SCORE_TEST_PATH = REPO_ROOT / "tests" / "test_score_speaker_memory_benchmark.py"
 SYNC_SCRIPT_PATH = REPO_ROOT / "scripts" / "sync_portable_skills.py"
@@ -33,7 +34,7 @@ EXPECTED_FIXTURE_FILES = {
 }
 
 WIRING_EXPECTATIONS = {
-    "artifacts": [README_PATH],
+    "runtime/artifacts": [README_PATH],
     "scripts": [SCORE_SCRIPT_PATH],
     "tests": [SCORE_TEST_PATH],
 }

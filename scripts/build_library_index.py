@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Emit artifacts/library-index.md — derived operator dashboard from SELF-LIBRARY entries in self-library.md.
+Emit runtime/artifacts/library-index.md — derived operator dashboard from SELF-LIBRARY entries in self-library.md.
 
 Does not modify self-library.md or any Record file.
 """
@@ -19,6 +19,7 @@ import sys
 
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from operator_dashboard_common import REPO_ROOT, load_self_library_entries  # noqa: E402
 
@@ -293,7 +294,7 @@ def main() -> int:
     entries = load_self_library_entries(root, uid)
     ts = _generated_at_stamp(root, uid)
     md = render_markdown(entries, user_id=uid, repo_root=root, generated_at=ts)
-    out = root / "artifacts" / "library-index.md"
+    out = ARTIFACTS_DIR / "library-index.md"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(md, encoding="utf-8")
     print(f"wrote {out} ({len(entries)} entries)")

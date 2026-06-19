@@ -14,7 +14,7 @@ Operator procedure for the public repository rename (Phase A).
 python scripts/export_civilizational_statecraft_public.py
 python scripts/validate_civilizational_statecraft_public.py
 
-# Clone or use existing civ-state worktree, copy artifacts/civilizational-statecraft-public/* 
+# Clone or use existing civ-state worktree, copy runtime/artifacts/civilizational-statecraft-public/* 
 # Commit reshape v0.2 + tag v0.1.0
 ```
 

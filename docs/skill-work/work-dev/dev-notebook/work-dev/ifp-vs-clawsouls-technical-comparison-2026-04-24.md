@@ -58,7 +58,7 @@ This is IFP's strongest innovation: mechanical enforcement of human sovereignty 
 ## 6. Runtime Separation & Artifacts
 
 - **ClawSouls**: No dedicated runtime/record membrane. SoulClaw uses contained runtime (`OPENCLAW_STATE_DIR`) and tiered loading, but the agent operates directly on its workspace files.
-- **IFP**: Explicit export/import paths only (in this repo, e.g. [`scripts/runtime/export_runtime_context.py`](../../../../../scripts/runtime/export_runtime_context.py) and [`scripts/runtime/import_runtime_observation.py`](../../../../../scripts/runtime/import_runtime_observation.py)). Mandatory `runtime-complement-receipt.v1.json` with `canonical_surfaces_touched: false`. All derived outputs live in `/artifacts/` under policy modes (Derived, Rebuild, etc.).
+- **IFP**: Explicit export/import paths only (in this repo, e.g. [`scripts/runtime/export_runtime_context.py`](../../../../../scripts/runtime/export_runtime_context.py) and [`scripts/runtime/import_runtime_observation.py`](../../../../../scripts/runtime/import_runtime_observation.py)). Mandatory `runtime-complement-receipt.v1.json` with `canonical_surfaces_touched: false`. All derived outputs live in `/runtime/artifacts/` under policy modes (Derived, Rebuild, etc.).
 
 ## 7. Provenance, Receipts, Schemas & Observability
 
@@ -98,7 +98,7 @@ Would you like a side-by-side code/schema example, a proposed integration path, 
 - [AGENTS.md](../../../../../AGENTS.md)
 - [Recursion gate](../../../../../recursion-gate.md)
 - [Workbench](../../workbench/README.md)
-- [Interface artifacts / derived-output policy](../../interface-artifacts/README.md)
+- [Interface artifacts / derived-output policy](../../interface-runtime/artifacts/README.md)
 - [work-dev README (territory)](../../README.md)
 - [known-gaps / control plane](../../known-gaps.md)
 

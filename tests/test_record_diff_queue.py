@@ -30,7 +30,7 @@ class TestIdentityDiffSchema:
 
     @pytest.fixture
     def schema(self):
-        return json.loads((ROOT / "schema-registry" / "identity-diff.v1.json").read_text())
+        return json.loads((ROOT / "schemas/registry" / "identity-diff.v1.json").read_text())
 
     def test_schema_has_recommended_action(self, schema):
         assert "recommendedAction" in schema["properties"]
@@ -63,11 +63,11 @@ class TestDemoData:
 
     @pytest.fixture
     def diff_001(self):
-        return json.loads((ROOT / "users" / "demo" / "review-queue" / "diffs" / "diff-001.json").read_text())
+        return json.loads((ROOT / "platform/users" / "demo" / "archive/queues/review-queue" / "diffs" / "diff-001.json").read_text())
 
     @pytest.fixture
     def diff_002(self):
-        return json.loads((ROOT / "users" / "demo" / "review-queue" / "diffs" / "diff-002.json").read_text())
+        return json.loads((ROOT / "platform/users" / "demo" / "archive/queues/review-queue" / "diffs" / "diff-002.json").read_text())
 
     def test_diff_001_has_new_fields(self, diff_001):
         assert diff_001["recommendedAction"] == "accept"
@@ -183,7 +183,7 @@ class TestRenderer:
     def test_collect_diffs_from_demo_dir(self):
         from render_record_diff_queue import collect_diffs
 
-        diffs = collect_diffs(["demo/review-queue/diffs/"])
+        diffs = collect_diffs(["demo/archive/queues/review-queue/diffs/"])
         assert len(diffs) >= 2
         ids = {d["diffId"] for d in diffs}
         assert "diff-001" in ids
@@ -265,7 +265,7 @@ class TestCLI:
     def test_renderer_on_demo_data(self):
         result = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "render_record_diff_queue.py"),
-             "demo/review-queue/diffs/"],
+             "demo/archive/queues/review-queue/diffs/"],
             capture_output=True, text=True, cwd=str(ROOT),
         )
         assert result.returncode == 0
@@ -276,7 +276,7 @@ class TestCLI:
     def test_renderer_json_mode(self):
         result = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "render_record_diff_queue.py"),
-             "--json", "demo/review-queue/diffs/"],
+             "--json", "demo/archive/queues/review-queue/diffs/"],
             capture_output=True, text=True, cwd=str(ROOT),
         )
         assert result.returncode == 0
@@ -288,7 +288,7 @@ class TestCLI:
         out = tmp_path / "queue.md"
         result = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "render_record_diff_queue.py"),
-             "--output", str(out), "demo/review-queue/diffs/"],
+             "--output", str(out), "demo/archive/queues/review-queue/diffs/"],
             capture_output=True, text=True, cwd=str(ROOT),
         )
         assert result.returncode == 0

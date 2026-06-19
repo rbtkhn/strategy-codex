@@ -76,14 +76,14 @@ def test_start_creates_state_and_receipt_and_validates_schema(tmp_path: Path) ->
     run_id = r.stdout.splitlines()[0].strip()
     sp = (
         tmp_path
-        / "artifacts"
+        / "runtime/artifacts"
         / "strategy-runs"
         / run_id
         / "state.json"
     )
     assert sp.is_file()
     st = json.loads(sp.read_text(encoding="utf-8"))
-    with (REPO_ROOT / "schema-registry" / "strategy-run-state.v1.json").open(
+    with (REPO_ROOT / "schemas/registry" / "strategy-run-state.v1.json").open(
         encoding="utf-8"
     ) as f:
         schema = json.load(f)
@@ -91,13 +91,13 @@ def test_start_creates_state_and_receipt_and_validates_schema(tmp_path: Path) ->
     assert st["status"] == "inputs_resolved"
     rec_path = (
         tmp_path
-        / "artifacts"
+        / "runtime/artifacts"
         / "run-receipts"
         / f"{run_id}-start.json"
     )
     assert rec_path.is_file()
     rec = json.loads(rec_path.read_text(encoding="utf-8"))
-    with (REPO_ROOT / "schema-registry" / "run-receipt.v1.json").open(
+    with (REPO_ROOT / "schemas/registry" / "run-receipt.v1.json").open(
         encoding="utf-8"
     ) as f:
         rs = json.load(f)
@@ -127,12 +127,12 @@ def test_start_missing_inbox_is_started_status(tmp_path: Path) -> None:
     assert r.returncode == 0, r.stderr
     run_id = r.stdout.splitlines()[0].strip()
     st = json.loads(
-        (tmp_path / "artifacts" / "strategy-runs" / run_id / "state.json").read_text(
+        (tmp_path / "runtime/artifacts" / "strategy-runs" / run_id / "state.json").read_text(
             encoding="utf-8"
         )
     )
     assert st["status"] == "started"
-    with (REPO_ROOT / "schema-registry" / "strategy-run-state.v1.json").open(
+    with (REPO_ROOT / "schemas/registry" / "strategy-run-state.v1.json").open(
         encoding="utf-8"
     ) as f:
         jsonschema.validate(st, schema=json.load(f))
@@ -157,14 +157,14 @@ def test_inspect_resume_complete(tmp_path: Path) -> None:
     com = _run(["complete", "--run-id", run_id], root=tmp_path)
     assert com.returncode == 0, com.stderr
     st = json.loads(
-        (tmp_path / "artifacts" / "strategy-runs" / run_id / "state.json").read_text(
+        (tmp_path / "runtime/artifacts" / "strategy-runs" / run_id / "state.json").read_text(
             encoding="utf-8"
         )
     )
     assert st["status"] == "completed"
     comp = (
         tmp_path
-        / "artifacts"
+        / "runtime/artifacts"
         / "run-receipts"
         / f"{run_id}-complete.json"
     )
@@ -182,7 +182,7 @@ def test_complete_refuses_failed_without_force(tmp_path: Path) -> None:
     )
     s = _run(["start", "--date", "2026-04-16", "--notebook-dir", p], root=tmp_path)
     run_id = s.stdout.splitlines()[0].strip()
-    sp = tmp_path / "artifacts" / "strategy-runs" / run_id / "state.json"
+    sp = tmp_path / "runtime/artifacts" / "strategy-runs" / run_id / "state.json"
     st = json.loads(sp.read_text(encoding="utf-8"))
     st["status"] = "failed"
     sp.write_text(json.dumps(st), encoding="utf-8")
@@ -215,7 +215,7 @@ def test_proposal_schemas(tmp_path: Path) -> None:
         "references": ["inbox:line1"],
         "approval_required": True,
     }
-    with (REPO_ROOT / "schema-registry" / "strategy-day-proposal.v1.json").open(
+    with (REPO_ROOT / "schemas/registry" / "strategy-day-proposal.v1.json").open(
         encoding="utf-8"
     ) as f:
         jsonschema.validate(day, schema=json.load(f))
@@ -230,7 +230,7 @@ def test_proposal_schemas(tmp_path: Path) -> None:
         "references": [],
         "approval_required": True,
     }
-    with (REPO_ROOT / "schema-registry" / "strategy-page-proposal.v1.json").open(
+    with (REPO_ROOT / "schemas/registry" / "strategy-page-proposal.v1.json").open(
         encoding="utf-8"
     ) as f:
         jsonschema.validate(page, schema=json.load(f))

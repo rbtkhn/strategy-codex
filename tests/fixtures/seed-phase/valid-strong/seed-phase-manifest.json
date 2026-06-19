@@ -38,7 +38,7 @@
       "status": "complete"
     }
   ],
-  "artifacts": {
+  "runtime/artifacts": {
     "seed_intake": "seed_intake.json",
     "seed_intent": "seed_intent.json",
     "seed_identity": "seed_identity.json",

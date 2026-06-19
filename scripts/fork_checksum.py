@@ -27,10 +27,10 @@ from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-BOT_DIR = REPO_ROOT / "bot"
+BOT_DIR = BOT_DIR
 
 # Imported after REPO_ROOT so repo_io can load
-from repo_io import profile_dir as _profile_dir
+from repo_io import profile_dir as _profile_dir, BOT_DIR
 
 
 def _default_user_id() -> str:

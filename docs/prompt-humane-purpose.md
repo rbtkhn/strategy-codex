@@ -2,7 +2,7 @@
 
 **Authority:** Implements the spirit of [AGENTS.md](../AGENTS.md) §8 (*Humane Purpose in Prompts*). Subordinate to [GRACE-MAR-CORE](grace-mar-core.md) and [conceptual-framework.md](conceptual-framework.md).
 
-**Scope:** Instructions given to models that reason **about** the companion or their words — especially **ANALYST**, **SYSTEM**, **LOOKUP**, and **REPHRASE** in `bot/prompt.py`, and any future operator-facing prompt templates that profile or stage pipeline work.
+**Scope:** Instructions given to models that reason **about** the companion or their words — especially **ANALYST**, **SYSTEM**, **LOOKUP**, and **REPHRASE** in `archive/grace-mar-instance/bot/prompt.py`, and any future operator-facing prompt templates that profile or stage pipeline work.
 
 ---
 

@@ -28,7 +28,7 @@ Run all **three** on the **same neutral fact summary** when using this framework
    - **WORK docs** (this folder, brief markdown, content queue notes), and/or
    - **`session-transcript.md`** / operator logs for session continuity, and/or
    - **Optional ACT- milestone** via RECURSION-GATE when the companion wants an audit line (“we published triangulated brief vN”) — merge only after approval and `process_approved_candidates.py`.
-6. **Knowledge boundary** — Lenses do not expand what the Voice “knows.” Do not compile lens personas into `bot/prompt.py` unless the companion gates that explicitly ([knowledge-boundary-framework.md](../../../knowledge-boundary-framework.md)).
+6. **Knowledge boundary** — Lenses do not expand what the Voice “knows.” Do not compile lens personas into `archive/grace-mar-instance/bot/prompt.py` unless the companion gates that explicitly ([knowledge-boundary-framework.md](../../../knowledge-boundary-framework.md)).
 7. **CIV-MEM** — Final synthesis may cite governed library / CMC lookups like any other work-politics draft; citations do not auto-enter the Record.
 
 ---

@@ -31,7 +31,7 @@ class TestDoctrine:
 class TestManifestSchema:
     @pytest.fixture
     def manifest_schema(self):
-        path = ROOT / "schema-registry" / "seed-phase-manifest.v1.json"
+        path = ROOT / "schemas/registry" / "seed-phase-manifest.v1.json"
         return json.loads(path.read_text())
 
     def test_doctrine_version_field(self, manifest_schema):
@@ -76,7 +76,7 @@ class TestAllDocsExist:
         "seed-claim.v1.json",
     ])
     def test_schema_exists(self, schema):
-        assert (ROOT / "schema-registry" / schema).exists(), f"Missing schema: {schema}"
+        assert (ROOT / "schemas/registry" / schema).exists(), f"Missing schema: {schema}"
 
     @pytest.mark.parametrize("script", [
         "emit_seed_claim.py",

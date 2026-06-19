@@ -2,7 +2,7 @@
 """
 Operational snapshot for bridge \"Since last bridge\" deltas.
 
-Writes daily-handoff/last-bridge-state.json after a successful
+Writes runtime/daily-handoff/last-bridge-state.json after a successful
 bridge (post-push). Not Record truth. Optional --print-delta emits markdown
 bullets comparing previous state to current on-disk/git snapshot.
 
@@ -154,7 +154,7 @@ def _resolve_companion_self(repo_root: Path) -> Path | None:
 
 def capture_state(repo_root: Path, user_id: str) -> dict[str, Any]:
     user_root = profile_dir(user_id)
-    handoff_dir = user_root / "daily-handoff"
+    handoff_dir = user_root / "runtime/daily-handoff"
     gate_path = user_root / "recursion-gate.md"
     gate_text = _read_text(gate_path)
     companion = _resolve_companion_self(repo_root)
@@ -239,7 +239,7 @@ def main() -> int:
     args = ap.parse_args()
     user = args.user.strip()
     repo_root = args.repo_root.resolve()
-    handoff_dir = profile_dir(user) / "daily-handoff"
+    handoff_dir = profile_dir(user) / "runtime/daily-handoff"
     state_path = handoff_dir / STATE_NAME
 
     cur = capture_state(repo_root, user)

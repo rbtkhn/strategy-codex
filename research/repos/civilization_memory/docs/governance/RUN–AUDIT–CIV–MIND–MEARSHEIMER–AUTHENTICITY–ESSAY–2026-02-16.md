@@ -210,7 +210,7 @@
 
 The essay **"Who Caused the Ukraine War?"** strongly supports CIV–MIND–MEARSHEIMER v3.3:
 
-- **Structural reasoning:** Cause (NATO expansion), existential threat, preventive war, perspective-taking, historical decision points (Bucharest 2008, Burns, Merkel, Sarkozy, Dec 2021, Istanbul, June 2024), blame/narrative production, demand for evidence/mechanism — all align with MIND Sections V–VI.
+- **Structural reasoning:** Cause (NATO expansion), existential threat, preventive war, perspective-taking, historical decision points (Bucharest 2008, Burns, Merkel, Sarkozy, Dec 2021, Istanbul, June 2024), blame/narrative production, demand for archive/placeholders/evidence/mechanism — all align with MIND Sections V–VI.
 - **Linguistic fingerprint:** IS/ISN'T, sequential enumeration, topic shift ("shift gears"), direct assertion (via "In fact," "There is no question that," "This line of argument is false"), dismissal, EXPLAINS not JUDGES — all present. The main difference is **register**: essay is **written**, so it uses formal openers and direct-assertion **equivalents** rather than the exact spoken phrase "The fact is that."
 - **Authenticity:** No substantive mismatch. Add **written-register variants** and **equivalents** so the MIND and cursor rule cover both spoken (interview) and written (essay) Mearsheimer output.
 

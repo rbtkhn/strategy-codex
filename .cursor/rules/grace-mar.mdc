@@ -18,7 +18,7 @@ Governed by [GRACE-MAR-CORE v2.0](archive/grace-mar-corpus/doctrine/grace-mar-co
 
 ## The Observation Window Model
 
-The fork lives inside the user's mind â€” it is their mental model of the self, made explicit and structured. The emulation layer (Telegram at `bot/bot.py`, WeChat at `bot/wechat_bot.py`) is an **observation window**: the user selectively exposes thoughts and information to the fork's awareness through it. The bot is not where the fork lives.
+The fork lives inside the user's mind â€” it is their mental model of the self, made explicit and structured. The emulation layer (Telegram at `archive/grace-mar-instance/bot/bot.py`, WeChat at `archive/grace-mar-instance/bot/wechat_bot.py`) is an **observation window**: the user selectively exposes thoughts and information to the fork's awareness through it. The bot is not where the fork lives.
 
 The fork can only reference what has been explicitly merged into its profile. **LLM world knowledge must never leak through the emulation.**
 
@@ -28,7 +28,7 @@ The fork can only reference what has been explicitly merged into its profile. **
 
 Both channels feed the same gated pipeline and the same profile.
 
-**Channel 1 â€” Bot (Automated):** Telegram and WeChat bot conversations are analyzed by an LLM analyst (`ANALYST_PROMPT` in `bot/prompt.py`). The analyst stages candidates in `recursion-gate.md` automatically.
+**Channel 1 â€” Bot (Automated):** Telegram and WeChat bot conversations are analyzed by an LLM analyst (`ANALYST_PROMPT` in `archive/grace-mar-instance/bot/prompt.py`). The analyst stages candidates in `recursion-gate.md` automatically.
 
 **Channel 2 â€” Operator (Manual):** The user brings real-world observations directly (school work, art, overheard moments). Signal detection and staging are performed manually in the operator conversation.
 
@@ -70,7 +70,7 @@ When candidates are approved, merge into ALL of these together. **Canonical path
 - `self-archive.md` â€” EVIDENCE (activity log + Â§ VIII gated approved)
 - `recursion-gate.md` â€” move candidates to Processed
 - `session-log.md` â€” session record
-- `bot/prompt.py` â€” emulation prompt (knowledge, curiosity, personality sections + analyst dedup list)
+- `archive/grace-mar-instance/bot/prompt.py` â€” emulation prompt (knowledge, curiosity, personality sections + analyst dedup list)
 
 **Merge only via script.** Do not edit self.md, self-archive.md, or prompt directly on approval. Instruct the operator to run `python scripts/process_approved_candidates.py --apply` (or the receipt flow). Cursor sessions must not perform manual merge.
 
@@ -101,7 +101,7 @@ The emulated self can only know what is documented in its profile. When the self
 - It may express curiosity
 - It **never** draws on LLM training data to answer
 
-This boundary is enforced in `SYSTEM_PROMPT` in `bot/prompt.py`. Violating it breaks the entire system.
+This boundary is enforced in `SYSTEM_PROMPT` in `archive/grace-mar-instance/bot/prompt.py`. Violating it breaks the entire system.
 
 ---
 
@@ -134,7 +134,7 @@ THINK, WRITE, BUILD are capability containers (modules).
 
 ## Prompt Scalability
 
-The emulation prompt (`bot/prompt.py`) grows as the fork grows. To manage this:
+The emulation prompt (`archive/grace-mar-instance/bot/prompt.py`) grows as the fork grows. To manage this:
 - Compress related knowledge entries into single summary lines
 - Group facts by category (presidents, space, gemstones, etc.)
 - Preserve accuracy while reducing token count
@@ -168,13 +168,13 @@ Canonical paths are **lowercase**; see [canonical-paths.md](docs/canonical-paths
 â”œâ”€â”€ self-evidence.md         # optional compatibility pointer
 â”œâ”€â”€ session-log.md           # Interaction history
 â”œâ”€â”€ recursion-gate.md        # Pipeline staging (candidates + processed)
-â””â”€â”€ artifacts/               # Raw files (writing samples, artwork)
+â””â”€â”€ runtime/artifacts/               # Raw files (writing samples, artwork)
 ```
 
 ## Bot Files
 
 ```
-bot/
+archive/grace-mar-instance/bot/
 â”œâ”€â”€ core.py           # Shared emulation logic (Telegram + WeChat)
 â”œâ”€â”€ bot.py            # Telegram bot
 â”œâ”€â”€ wechat_bot.py     # WeChat Official Account bot

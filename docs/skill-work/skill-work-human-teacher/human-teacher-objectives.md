@@ -44,7 +44,7 @@ The human does **not** need to deliver curriculum; the system (and Record-derive
 
 ---
 
-## Default human-teacher objectives (for all new users)
+## Default human-teacher objectives (for all new platform/users)
 
 When a human teacher is present, the following **generic academic objectives** are suitable as defaults for all new users. Instances may adopt, replace, or extend them (e.g. after seed or by age/context).
 

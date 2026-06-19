@@ -13,6 +13,7 @@ from typing import Any
 
 _SCRIPTS = Path(__file__).resolve().parent
 sys.path.insert(0, str(_SCRIPTS / "work_strategy"))
+from repo_io import ARTIFACTS_DIR
 from packet_common import is_forbidden_record_path  # noqa: E402
 
 SHAPES_ORDER = (
@@ -121,7 +122,7 @@ def infer_recommendation(
         and not any(len(w) > 14 for w in words)
     ) or any(vp in text.lower() for vp in vague_phrases):
         uc = shapes_cfg["unclear"]
-        return _build_unclear(uc, lane_hint, text, config)
+        return _build_unclear(uc, lane_hint, text, platform/config)
 
     scores = score_shapes(text, config, lane_hint)
     ranked = sorted(scores.items(), key=lambda kv: (-kv[1], kv[0]))
@@ -131,11 +132,11 @@ def infer_recommendation(
     # Tie on top score → prefer abstention (unclear) when both are weak
     if len(ranked) > 1 and ranked[0][1] == ranked[1][1] and top < 3.0:
         uc = shapes_cfg["unclear"]
-        return _build_unclear(uc, lane_hint, text, config)
+        return _build_unclear(uc, lane_hint, text, platform/config)
 
     if top <= 0.0:
         uc = shapes_cfg["unclear"]
-        return _build_unclear(uc, lane_hint, text, config)
+        return _build_unclear(uc, lane_hint, text, platform/config)
 
     conf = _confidence_for(primary, top, second)
     if top < 2.0 and second > 0 and top - second < 0.01:
@@ -171,7 +172,7 @@ def infer_recommendation(
     )
     if requires_gate:
         gov_note += (
-            "Any change to SELF, EVIDENCE, or `bot/prompt.py` requires "
+            "Any change to SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` requires "
             "`recursion-gate.md` staging and companion-approved merge per `AGENTS.md`."
         )
     else:
@@ -278,7 +279,7 @@ def parse_args(repo_root_default: Path, argv: list[str] | None = None) -> argpar
     p.add_argument("--text-file", type=str, default=None, help="Read task description from UTF-8 file.")
     p.add_argument("--stdin", action="store_true", help="Read task description from stdin.")
     p.add_argument("--lane-hint", type=str, default=None, help="Optional lane hint (e.g. work-strategy, work-dev).")
-    p.add_argument("--config", type=str, default=None, help="Path to route_recommendation.json.")
+    p.add_argument("--platform/config", type=str, default=None, help="Path to route_recommendation.json.")
     p.add_argument("--repo-root", type=str, default=str(repo_root_default), dest="repo_root")
     p.add_argument("--out", type=str, default=None, help="Explicit output path (default: dated artifact).")
     p.add_argument(
@@ -315,7 +316,7 @@ def main(argv: list[str] | None = None) -> int:
         print("No task text: use --text, --text-file, or --stdin.", file=sys.stderr)
         return 2
 
-    cfg_path = Path(args.config) if args.config else root / "config" / "route_recommendation.json"
+    cfg_path = Path(args.platform/config) if args.config else root / "platform/config" / "route_recommendation.json"
     if not cfg_path.is_absolute():
         cfg_path = (root / cfg_path).resolve()
     config = load_config(cfg_path)
@@ -334,7 +335,7 @@ def main(argv: list[str] | None = None) -> int:
             day = datetime.now(timezone.utc).strftime("%Y-%m-%d")
             ts = datetime.now(timezone.utc).strftime("%H%M%S")
             slug = _slug_from_text(description)
-            out_path = root / "artifacts" / "route-recommendations" / day / f"{ts}-{slug}.md"
+            out_path = ARTIFACTS_DIR / "route-recommendations" / day / f"{ts}-{slug}.md"
 
         if is_forbidden_record_path(out_path, root):
             print("Refused: output path is forbidden (, bot escapes, …).", file=sys.stderr)

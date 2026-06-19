@@ -21,8 +21,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
-if str(REPO_ROOT / "src") not in sys.path:
-    sys.path.insert(0, str(REPO_ROOT / "src"))
+from repo_io import SRC_DIR
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 
 try:
     from repo_io import profile_dir
@@ -42,7 +43,7 @@ def main() -> int:
         default="",
         help="Single pipeline event_id (evt_…); optional candidate follow-on from row",
     )
-    ap.add_argument("--evidence", default="", metavar="ACT-nnnn", help="Optional: show hint line from self-archive.md")
+    ap.add_argument("--archive/placeholders/evidence", default="", metavar="ACT-nnnn", help="Optional: show hint line from self-archive.md")
     ap.add_argument(
         "--transcript-snippet",
         action="store_true",

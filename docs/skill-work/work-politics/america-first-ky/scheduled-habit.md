@@ -1,6 +1,6 @@
 # Scheduled habit (cron) — America-First-KY
 
-**Purpose:** Copy-paste examples for **operator** automation. Nothing here merges the Record or edits `bot/prompt.py` automatically.
+**Purpose:** Copy-paste examples for **operator** automation. Nothing here merges the Record or edits `archive/grace-mar-instance/bot/prompt.py` automatically.
 
 **Rules:** Use `python3` (or activate your venv), `cd` to the repo root first. Cron on macOS/Linux — use `crontab -e`; test commands manually before relying on cron.
 

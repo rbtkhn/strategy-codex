@@ -1,6 +1,7 @@
+from repo_io import PREPARED_CONTEXT_DIR
 #!/usr/bin/env python3
 """
-Starter staging: copy a text file into a JSON stub under prepared-context/.
+Starter staging: copy a text file into a JSON stub under runtime/prepared-context/.
 
 Prepared context is not governed state. See docs/prepared-context-doctrine.md.
 """
@@ -13,7 +14,7 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-PREPARED_DIR = REPO_ROOT / "prepared-context"
+PREPARED_DIR = PREPARED_CONTEXT_DIR
 
 
 def stage_text_file(source: Path) -> Path:
@@ -38,8 +39,8 @@ def stage_text_file(source: Path) -> Path:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Stage a text file into prepared-context/*.prepared.json")
-    parser.add_argument("source", type=Path, help="Path to evidence file (often under evidence/)")
+    parser = argparse.ArgumentParser(description="Stage a text file into runtime/prepared-context/*.prepared.json")
+    parser.add_argument("source", type=Path, help="Path to evidence file (often under archive/placeholders/evidence/)")
     args = parser.parse_args()
 
     source = args.source.resolve()

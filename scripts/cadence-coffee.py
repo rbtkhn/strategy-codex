@@ -266,7 +266,7 @@ def main() -> int:
     user = args.user
     py = sys.executable
     user_dir = profile_dir(user)
-    handoff_dir = user_dir / "daily-handoff"
+    handoff_dir = user_dir / "runtime/daily-handoff"
     state_path = handoff_dir / STATE_NAME
     context_path = handoff_dir / CONTEXT_NAME
 

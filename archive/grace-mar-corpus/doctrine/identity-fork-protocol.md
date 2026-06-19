@@ -68,7 +68,7 @@ This mirrors contextual engineering in AI-assisted coding: the model writes only
 
 **Continual learning** is implemented as human-gated writes to SELF and EVIDENCE; the model does not self-edit memory or weights. The only way new knowledge or personality enters the Record is via staging and companion-approved merge.
 
-**Companion review as test suite.** In knowledge work there is no compiler: the human at the gate is the **test suite** for whether a candidate is safe to merge. Implementations benefit from **explicit binary checks** at approve time (scope, contradiction, evidence linkage, correct target surface) — see template guidance in `_template/recursion-gate.md` — so approval is **faster and more reliable** than vague “looks good,” without relaxing the Sovereign Merge Rule.
+**Companion review as test suite.** In knowledge work there is no compiler: the human at the gate is the **test suite** for whether a candidate is safe to merge. Implementations benefit from **explicit binary checks** at approve time (scope, contradiction, evidence linkage, correct target surface) — see template guidance in `platform/template/recursion-gate.md` — so approval is **faster and more reliable** than vague “looks good,” without relaxing the Sovereign Merge Rule.
 
 ---
 
@@ -166,10 +166,10 @@ Implementations may warn when `mind_category: knowledge` candidates look like do
 
 ### 4.1.1 Canonical Change Review Object
 
-Every materially important governed change can be represented as **one normalized review object** (operator UIs such as `apps/gate-review-app.py`, JSON under `schema-registry/change-*.v1.json`, and `review-queue/`). That object ties together:
+Every materially important governed change can be represented as **one normalized review object** (operator UIs such as `platform/apps/gate-review-app.py`, JSON under `schemas/registry/change-*.v1.json`, and `archive/queues/review-queue/`). That object ties together:
 
 - **Scope** — what kind of change it is (`primaryScope`, `changeType`, and gate `proposal_class` / mind semantics)
-- **Target surface** — where it should land (`self`, `self_library`, `civ_mem`, `skills`, `evidence`, `work_layer`)
+- **Target surface** — where it should land (`self`, `self_library`, `civ_mem`, `skills`, `archive/placeholders/evidence`, `work_layer`)
 - **Materiality** — how much reviewer attention it deserves (`low` through `critical`)
 - **Review type** — which workflow applies (`routine`, `extended`, `boundary`, `policy`, `collision`)
 - **Evidence** — supporting references and counts
@@ -179,7 +179,7 @@ Every materially important governed change can be represented as **one normalize
 
 **RECURSION-GATE** stays the default staging source of truth for candidates. Normalization maps gate rows + boundary hints onto this object without replacing companion sovereignty or the merge script.
 
-**Boundary classification artifacts:** Pending candidates may have a versioned JSON snapshot under `review-queue/boundary-classifications/` (schema `schema-registry/boundary-classification.v1.json`), refreshed when review parsers run. This complements ephemeral `boundary_review` on API rows and supports audit (`gate_reclassified` events reference the relative path).
+**Boundary classification artifacts:** Pending candidates may have a versioned JSON snapshot under `archive/queues/review-queue/boundary-classifications/` (schema `schemas/registry/boundary-classification.v1.json`), refreshed when review parsers run. This complements ephemeral `boundary_review` on API rows and supports audit (`gate_reclassified` events reference the relative path).
 
 ### 4.2 Review Checklist (before approving)
 

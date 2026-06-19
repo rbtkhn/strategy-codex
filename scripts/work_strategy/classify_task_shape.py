@@ -282,7 +282,7 @@ def build_task_shape_report(
 
 def run_classify_cli(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
     repo_root = Path(args.repo_root).resolve()
-    cfg_arg = args.config or str(repo_root / "config" / "work_strategy_task_shapes.yaml")
+    cfg_arg = args.config or str(repo_root / "platform/config" / "work_strategy_task_shapes.yaml")
     config_path = Path(cfg_arg)
     if not config_path.is_absolute():
         config_path = (repo_root / config_path).resolve()
@@ -331,7 +331,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--task", type=str, default=None, help="Path to task markdown (repo-relative or absolute).")
     p.add_argument("--text", type=str, default=None, help="Optional inline text appended to task body.")
     p.add_argument("--source", action="append", default=[], help="Source path (recorded in report input only).")
-    p.add_argument("--config", type=str, default=None, help="Task shapes YAML (default: config/work_strategy_task_shapes.yaml).")
+    p.add_argument("--platform/config", type=str, default=None, help="Task shapes YAML (default: platform/config/work_strategy_task_shapes.yaml).")
     p.add_argument("--out", type=str, default=None, help="Classification JSON output path.")
     p.add_argument("--run-id", type=str, default=None, dest="run_id")
     p.add_argument("--repo-root", type=str, default=None, dest="repo_root")

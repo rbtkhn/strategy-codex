@@ -26,13 +26,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
-if str(REPO_ROOT / "src") not in sys.path:
-    sys.path.insert(0, str(REPO_ROOT / "src"))
+from repo_io import SRC_DIR
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 from recursion_gate_territory import normalize_territory_cli, pending_by_territory
 
 from context_budget import get_bool, get_int, load_context_budget
 STALE_PENDING_DAYS = 3
-DEFAULT_USERS_DIR = REPO_ROOT / "users"
+DEFAULT_USERS_DIR = REPO_ROOT / "platform/users"
 WISDOM_PATH = REPO_ROOT / "docs" / "WISDOM-QUESTIONS.md"
 LIBRARY_PATH_REL = "self-library.md"  # relative to user_dir
 LAST_N_ACTIVITIES = 5
@@ -226,11 +227,11 @@ def _ix_b_topics(self_content: str) -> list[str]:
         t = m.group(1).strip()[:60]
         if t and t not in topics:
             topics.append(t)
-    # Fallback: lines that look like content (not id:, provenance, evidence)
+    # Fallback: lines that look like content (not id:, provenance, archive/placeholders/evidence)
     if not topics:
         for m in re.finditer(r"-\s+([^\n]+)", block):
             line = m.group(1).strip()
-            if line.startswith("id:") or "provenance" in line or "evidence" in line:
+            if line.startswith("id:") or "provenance" in line or "archive/placeholders/evidence" in line:
                 continue
             if len(line) > 5 and not line.startswith("curated"):
                 topics.append(line.split("—")[0].strip()[:40])
@@ -307,8 +308,8 @@ def _session_brief_budget() -> dict:
 
 
 def _load_context_surfaces(repo_root: Path) -> dict[str, str]:
-    """CEL tier hints from config/context_surfaces.json (operator-runtime only)."""
-    path = repo_root / "config" / "context_surfaces.json"
+    """CEL tier hints from platform/config/context_surfaces.json (operator-runtime only)."""
+    path = repo_root / "platform/config" / "context_surfaces.json"
     if not path.is_file():
         return {}
     try:
@@ -506,17 +507,17 @@ def main() -> int:
     parser.add_argument(
         "--minimal",
         action="store_true",
-        help="One screen: pending count + IDs + last ACT + next action (see config/context_budgets/session_brief.json)",
+        help="One screen: pending count + IDs + last ACT + next action (see platform/config/context_budgets/session_brief.json)",
     )
     parser.add_argument(
         "--compact",
         action="store_true",
-        help="Like --minimal plus recovery links; also prints CEL tier hints from config/context_surfaces.json",
+        help="Like --minimal plus recovery links; also prints CEL tier hints from platform/config/context_surfaces.json",
     )
     parser.add_argument(
-        "--write-replay-artifacts",
+        "--write-replay-runtime/artifacts",
         action="store_true",
-        dest="write_replay_artifacts",
+        dest="write_replay_runtime/artifacts",
         help="Write replay synthesis artifacts to disk and exit",
     )
     parser.add_argument(

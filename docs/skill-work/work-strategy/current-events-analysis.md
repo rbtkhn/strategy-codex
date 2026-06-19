@@ -1,7 +1,7 @@
 # Current-Events Analysis (WORK-STRATEGY)
 
 **Status:** WORK only
-**Scope:** Staged prototype or bot/session workflow
+**Scope:** Staged prototype or archive/grace-mar-instance/bot/session workflow
 **Outputs:** WORK docs, notebook entries, watch support, decision-point support, optional recursion-gate staging
 **No direct Record writes**
 Last updated: 2026-04-14

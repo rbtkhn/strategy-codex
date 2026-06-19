@@ -20,8 +20,8 @@ Governed by the instance's Evidence template. Tiers: e.g. OBSERVED, ATTESTED, VE
 
 ## Writing / Creation Log
 
-(Placeholder: WRITE/WORK artifacts — references only; files in artifacts/.)
+(Placeholder: WRITE/WORK artifacts — references only; files in runtime/artifacts/.)
 
 ---
 
-*Do not use this file as a live Record. Copy to `users/<new_id>/self-evidence.md` in an instance and replace placeholders with real data.*
+*Do not use this file as a live Record. Copy to `platform/users/<new_id>/self-evidence.md` in an instance and replace placeholders with real data.*

@@ -24,7 +24,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "prepared_context" / "build_budgeted_context.py"
-LANE_DEFAULTS = REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"
+LANE_DEFAULTS = REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"
 MODES = ("compact", "medium", "deep")
 
 
@@ -105,7 +105,7 @@ def main() -> int:
                     src.read_text(encoding="utf-8"), encoding="utf-8"
                 )
 
-        (tmp / "prepared-context").mkdir(parents=True, exist_ok=True)
+        (tmp / "runtime/prepared-context").mkdir(parents=True, exist_ok=True)
         env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp)}
 
         for lane in lanes:
@@ -120,7 +120,7 @@ def main() -> int:
         print("| Lane | Mode | Budget | Util | Coverage | Mean Rank | Incl | Excl |")
         print("|------|------|--------|------|----------|-----------|------|------|")
         for r in results:
-            receipt_path = tmp / "prepared-context" / "last-budget-builds.json"
+            receipt_path = tmp / "runtime/prepared-context" / "last-budget-builds.json"
             print(
                 f"| {r.get('lane', '?')} "
                 f"| {r.get('mode', '?')} "

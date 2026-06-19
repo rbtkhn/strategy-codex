@@ -17,14 +17,14 @@ from export import EXPORT_CLASS_ROUTES, EXPORT_CLASS_UNSUPPORTED, ALL_EXPORT_CLA
 
 
 def test_supported_classes_present():
-    assert "tool_bootstrap" in EXPORT_CLASS_ROUTES
+    assert "tool_archive/grace-mar-instance/bootstrap" in EXPORT_CLASS_ROUTES
     assert "full" in EXPORT_CLASS_ROUTES
     assert "task_limited" in EXPORT_CLASS_ROUTES
     assert "emulation" in EXPORT_CLASS_ROUTES
 
 
 def test_tool_bootstrap_routes_to_prp():
-    script, _args = EXPORT_CLASS_ROUTES["tool_bootstrap"]
+    script, _args = EXPORT_CLASS_ROUTES["tool_archive/grace-mar-instance/bootstrap"]
     assert script == "export_prp.py"
 
 
@@ -65,7 +65,7 @@ def test_unsupported_classes_not_in_routes():
 
 def test_all_classes_enumerated():
     assert set(ALL_EXPORT_CLASSES) == {
-        "tool_bootstrap",
+        "tool_archive/grace-mar-instance/bootstrap",
         "full",
         "task_limited",
         "capability",
@@ -86,7 +86,7 @@ def _run(args: list[str]) -> subprocess.CompletedProcess[str]:
 
 def test_tool_bootstrap_smoke():
     """tool_bootstrap should run successfully (PRP export to stdout)."""
-    r = _run(["--export-class", "tool_bootstrap"])
+    r = _run(["--export-class", "tool_archive/grace-mar-instance/bootstrap"])
     assert r.returncode == 0, f"stderr: {r.stderr}"
     assert len(r.stdout) > 100, "PRP output should be non-trivial"
 

@@ -41,11 +41,11 @@ It extends the narrative in [workflow-depth.md](workflow-depth.md) and the budge
 - **escalation** — whether `auto` (or similar) increased depth vs a compact-only stop.
 - **rationale / halt reason** — human-legible stop or veto strings (heuristic; not approval).
 
-Machine-readable shape: [workflow-depth-decision.v1.json](../../schema-registry/workflow-depth-decision.v1.json).
+Machine-readable shape: [workflow-depth-decision.v1.json](../../schemas/registry/workflow-depth-decision.v1.json).
 
 ## Implementations
 
-- Library: [`src/grace_mar/runtime/workflow_depth.py`](../../src/grace_mar/runtime/workflow_depth.py)
+- Library: [`platform/src/grace_mar/runtime/workflow_depth.py`](../../platform/src/grace_mar/runtime/workflow_depth.py)
 - Prepared context: [`scripts/prepared_context/build_budgeted_context.py`](../../scripts/prepared_context/build_budgeted_context.py)
 - Memory brief (optional follow-on): [`scripts/runtime/memory_brief.py`](../../scripts/runtime/memory_brief.py)
 - Review orchestrator (suggested commands only): [`scripts/runtime/review_orchestrator.py`](../../scripts/runtime/review_orchestrator.py)

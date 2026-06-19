@@ -9,7 +9,7 @@ falls back to ``### YYYY-MM`` in the same layer (after stripping the backfill HT
 Strips ``<!-- backfill:<expert_id>:start/end -->`` before segment parsing so the last
 month segment does not swallow the reconstructed arc block.
 
-Outputs markdown + JSON under ``artifacts/skill-work/work-strategy/historical-expert-context/``:
+Outputs markdown + JSON under ``runtime/artifacts/skill-work/work-strategy/historical-expert-context/``:
 
 - **Rollup (range):** ``<expert_id>-<start>-to-<end>.md`` / ``.json`` — merged window (default on).
 - **Per month:** ``<expert_id>/<YYYY-MM>.md`` / ``.json`` — one segment per file (default on).
@@ -48,7 +48,7 @@ from typing import List
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
-OUT_DIR = REPO_ROOT / "artifacts/skill-work/work-strategy/historical-expert-context"
+OUT_DIR = REPO_ROOT / "runtime/artifacts/skill-work/work-strategy/historical-expert-context"
 
 THREAD_MARKER_START = "<!-- strategy-expert-thread:start -->"
 
@@ -362,7 +362,7 @@ def main() -> int:
 
     if not args.dry_run and not args.apply:
         print(
-            "Specify --dry-run (print markdown to stdout) or --apply (write artifacts).",
+            "Specify --dry-run (print markdown to stdout) or --apply (write runtime/artifacts).",
             file=sys.stderr,
         )
         return 2

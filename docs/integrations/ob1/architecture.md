@@ -12,7 +12,7 @@
 
 1. **Asymmetric by design.** companion-self is the authority for durable identity. OB1 is a runtime memory surface with mixed-trust content. The bridge reflects this asymmetry in every data flow.
 2. **Export-first.** Phase 1 (companion-self → OB1) ships before Phase 2 (OB1 → companion-self). Export is safe (read-only, downstream consumer); import requires governance.
-3. **Stage-only return.** OB1 content entering companion-self is staged as proposals to RECURSION-GATE. It never writes directly to `self.md`, `self-archive.md`, or `bot/prompt.py`.
+3. **Stage-only return.** OB1 content entering companion-self is staged as proposals to RECURSION-GATE. It never writes directly to `self.md`, `self-archive.md`, or `archive/grace-mar-instance/bot/prompt.py`.
 4. **No unattended sync.** No background polling, no cron, no automatic bidirectional loop. Every transfer is operator-initiated and observable.
 5. **Provenance is mandatory.** Every exported chunk and every imported proposal carries source metadata, fingerprint, trust tier, and timestamp. No anonymous data crosses the bridge.
 6. **State-governance alignment.** Staging, approval, and integrity boundaries are not optional polish—they keep the bridge **inspectable**. See [Architecture — State governance](../../architecture.md#state-governance-proposed-interface-and-canonical) and [ADR: Asymmetric bridge](adr-asymmetric-bridge.md) § Doctrine alignment.
@@ -76,7 +76,7 @@ OB1                         Bridge (import-stage)        companion-self repo
                                                     └──────────────────┘
 ```
 
-**Safety model:** The import script reads OB1 thoughts and writes proposal objects (not gate YAML directly). Proposals are staged for human review. Low-grounded or duplicate thoughts are filtered before staging. The companion approves or rejects each proposal through the existing RECURSION-GATE pipeline. The import script **never** writes to `self.md`, `self-archive.md`, or `bot/prompt.py`.
+**Safety model:** The import script reads OB1 thoughts and writes proposal objects (not gate YAML directly). Proposals are staged for human review. Low-grounded or duplicate thoughts are filtered before staging. The companion approves or rejects each proposal through the existing RECURSION-GATE pipeline. The import script **never** writes to `self.md`, `self-archive.md`, or `archive/grace-mar-instance/bot/prompt.py`.
 
 **Tier 1 (target):** Stage proposal objects from local OB1 export JSON.
 **Tier 2 (optional):** Fetch via OB1 API/client with transport adapter.

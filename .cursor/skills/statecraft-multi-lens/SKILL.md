@@ -10,7 +10,7 @@ tags:
 - comparison
 - lenses
 - doctrine
-portable_source: skills-portable/statecraft-multi-lens/SKILL.md
+portable_source: skills/statecraft-multi-lens/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Statecraft multi-lens
@@ -134,7 +134,7 @@ It sits here:
 
 - `compact` for cross-lane mechanism notes
 - bounded `statecraft/notes/` objects when the comparison has become method-bearing rather than merely chat-specific
-- `bridges` for durable lens doctrine or comparison notes
+- `research/bridges` for durable lens doctrine or comparison notes
 - owning lane surfaces for direct drafting
 - `state-synthesis` when the result belongs in the daily shelf
 
@@ -502,13 +502,13 @@ This skill succeeds when:
 **Current canonical doctrine surfaces**
 
 - Dual-lens / tri-lens method:
-  - [statecraft/bridges/recognition-threshold-vs-settlement-architecture.md](/C:/dev/strategy-codex/statecraft/bridges/recognition-threshold-vs-settlement-architecture.md)
+  - [statecraft/research/bridges/recognition-threshold-vs-settlement-architecture.md](/C:/dev/strategy-codex/statecraft/research/bridges/recognition-threshold-vs-settlement-architecture.md)
 - Tri-lens novelty and refinements:
-  - [statecraft/bridges/pape-marandi-parsi-novelty-audit.md](/C:/dev/strategy-codex/statecraft/bridges/pape-marandi-parsi-novelty-audit.md)
+  - [statecraft/research/bridges/pape-marandi-parsi-novelty-audit.md](/C:/dev/strategy-codex/statecraft/research/bridges/pape-marandi-parsi-novelty-audit.md)
 - Proof runs:
-  - [statecraft/bridges/pape-marandi-parsi-backtest-march-2026.md](/C:/dev/strategy-codex/statecraft/bridges/pape-marandi-parsi-backtest-march-2026.md)
-  - [statecraft/bridges/pape-marandi-parsi-backtest-april-2026.md](/C:/dev/strategy-codex/statecraft/bridges/pape-marandi-parsi-backtest-april-2026.md)
-  - [statecraft/bridges/pape-marandi-parsi-backtest-may-2026.md](/C:/dev/strategy-codex/statecraft/bridges/pape-marandi-parsi-backtest-may-2026.md)
+  - [statecraft/research/bridges/pape-marandi-parsi-backtest-march-2026.md](/C:/dev/strategy-codex/statecraft/research/bridges/pape-marandi-parsi-backtest-march-2026.md)
+  - [statecraft/research/bridges/pape-marandi-parsi-backtest-april-2026.md](/C:/dev/strategy-codex/statecraft/research/bridges/pape-marandi-parsi-backtest-april-2026.md)
+  - [statecraft/research/bridges/pape-marandi-parsi-backtest-may-2026.md](/C:/dev/strategy-codex/statecraft/research/bridges/pape-marandi-parsi-backtest-may-2026.md)
 
 **Broader bench grounding surfaces**
 
@@ -539,18 +539,18 @@ This skill succeeds when:
 **Historical-example hard gate**
 
 - Policy:
-  - [statecraft/bridges/anchored-historical-citation-policy.md](/C:/dev/strategy-codex/statecraft/bridges/anchored-historical-citation-policy.md)
+  - [statecraft/research/bridges/anchored-historical-citation-policy.md](/C:/dev/strategy-codex/statecraft/research/bridges/anchored-historical-citation-policy.md)
 - Operational matrix:
   - [statecraft/states/indexes/historical-example-retrieval-matrix.md](/C:/dev/strategy-codex/statecraft/states/indexes/historical-example-retrieval-matrix.md)
 
 **Neighbor skills**
 
 - Governing-pair diagnosis:
-  - [skills-portable/statecraft-framework/SKILL.md](/C:/dev/strategy-codex/skills-portable/statecraft-framework/SKILL.md)
+  - [skills/statecraft-framework/SKILL.md](/C:/dev/strategy-codex/skills/statecraft-framework/SKILL.md)
 - Archive intake:
-  - [skills-portable/statecraft-source-intake/SKILL.md](/C:/dev/strategy-codex/skills-portable/statecraft-source-intake/SKILL.md)
+  - [skills/statecraft-source-intake/SKILL.md](/C:/dev/strategy-codex/skills/statecraft-source-intake/SKILL.md)
 - Day-batch synthesis:
-  - [skills-portable/state-synthesis/SKILL.md](/C:/dev/strategy-codex/skills-portable/state-synthesis/SKILL.md)
+  - [skills/state-synthesis/SKILL.md](/C:/dev/strategy-codex/skills/state-synthesis/SKILL.md)
 
 **Preferred maintenance commands after skill edits**
 

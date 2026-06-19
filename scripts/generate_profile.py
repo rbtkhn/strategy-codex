@@ -11,7 +11,7 @@ Reads the repository-root profile files and produces a single HTML profile view 
 
 Usage:
     python scripts/generate_profile.py
-    open profile/index.html
+    open platform/profile/index.html
 
 The profile works as a Telegram Mini App when served over HTTPS. Configure the URL
 in @BotFather (Bot Settings â†’ Menu Button) and set PROFILE_MINIAPP_URL in .env.
@@ -30,7 +30,7 @@ except ImportError:
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PROFILE_DIR = REPO_ROOT
-PROFILE_PAGE_DIR = REPO_ROOT / "profile"
+PROFILE_PAGE_DIR = REPO_ROOT / "platform/profile"
 
 
 @dataclass
@@ -799,7 +799,7 @@ def main() -> None:
     html = render_html(data)
     PROFILE_PAGE_DIR.mkdir(exist_ok=True)
     # grace-mar.com/profile â€” full profile view (identity, pipeline, SKILLS, benchmarks)
-    profile_view_dir = PROFILE_PAGE_DIR / "profile"
+    profile_view_dir = PROFILE_PAGE_DIR / "platform/profile"
     profile_view_dir.mkdir(exist_ok=True)
     (profile_view_dir / "index.html").write_text(html, encoding="utf-8")
     print(f"Profile view written to {profile_view_dir / 'index.html'}")
@@ -808,13 +808,13 @@ def main() -> None:
     dashboard_dir = PROFILE_PAGE_DIR / "dashboard"
     dashboard_dir.mkdir(exist_ok=True)
     (dashboard_dir / "index.html").write_text(_render_dashboard(data), encoding="utf-8")
-    print("Dashboard written to profile/dashboard/index.html")
+    print("Dashboard written to platform/profile/dashboard/index.html")
 
     # grace-mar.com (root) â€” landing page with buttons to Profile, Telegram, WeChat, LLM (LLM copies PRP to clipboard)
     prp_text = _read_full_prp()
     landing_html = _render_landing_page(prp_text)
     (PROFILE_PAGE_DIR / "index.html").write_text(landing_html, encoding="utf-8")
-    print("Landing page written to profile/index.html")
+    print("Landing page written to platform/profile/index.html")
 
     # grace-mar.com/telegram â†’ open Telegram chat with bot
     telegram_bot_username = _read_telegram_bot_username()
@@ -830,7 +830,7 @@ def main() -> None:
     (llm_dir / "index.html").write_text(
         _render_llm_page(prp_text), encoding="utf-8"
     )
-    print("LLM page written to profile/llm/index.html")
+    print("LLM page written to platform/profile/llm/index.html")
 
     # grace-mar.com/wechat â†’ open WeChat Official Account (redirect to configured URL)
     wechat_url = _read_wechat_account_url()
@@ -839,13 +839,13 @@ def main() -> None:
     (wechat_dir / "index.html").write_text(
         _render_wechat_redirect(wechat_url), encoding="utf-8"
     )
-    print("WeChat page written to profile/wechat/index.html")
+    print("WeChat page written to platform/profile/wechat/index.html")
 
     # grace-mar.com/playlist â€” placeholder for future playlist feature
     playlist_dir = PROFILE_PAGE_DIR / "playlist"
     playlist_dir.mkdir(exist_ok=True)
     (playlist_dir / "index.html").write_text(_render_playlist_placeholder(), encoding="utf-8")
-    print("Playlist placeholder written to profile/playlist/index.html")
+    print("Playlist placeholder written to platform/profile/playlist/index.html")
 
 
 def _read_telegram_bot_username() -> str | None:
@@ -857,7 +857,7 @@ def _read_telegram_bot_username() -> str | None:
     if not line:
         return None
     username = line[0].strip()
-    # Telegram usernames are [a-zA-Z0-9_], often ending with 'bot'
+    # Telegram usernames are [a-zA-Z0-9_], often ending with 'archive/grace-mar-instance/bot'
     if not username or any(c in username for c in " \t/\\"):
         return None
     return username
@@ -899,7 +899,7 @@ def _render_telegram_redirect(bot_username: str | None) -> str:
 </head>
 <body>
     <h1>Telegram bot not configured</h1>
-    <p>To make <strong>grace-mar.com/telegram</strong> open your Grace-Mar bot, add your bot's username (from @BotFather) in one line to:</p>
+    <p>To make <strong>grace-mar.com/telegram</strong> open your Grace-Mar bot, add your archive/grace-mar-instance/bot's username (from @BotFather) in one line to:</p>
     <p><code>telegram_bot_username.txt</code></p>
     <p>Example: if your bot is <strong>@MyGraceMarBot</strong>, the file should contain only <code>MyGraceMarBot</code> (no @). Then regenerate the profile and redeploy.</p>
 </body>
@@ -957,7 +957,7 @@ def _render_wechat_redirect(account_url: str | None) -> str:
     <h1>WeChat not configured</h1>
     <p>To make <strong>grace-mar.com/wechat</strong> open your Grace-Mar WeChat Official Account, add the account URL (e.g. from mp.weixin.qq.com) in one line to:</p>
     <p><code>wechat_account_url.txt</code></p>
-    <p>Use a link that opens or promotes your Official Account (å…¬ä¼—å·). Then regenerate the profile and redeploy. See <code>bot/WECHAT-SETUP.md</code>.</p>
+    <p>Use a link that opens or promotes your Official Account (å…¬ä¼—å·). Then regenerate the profile and redeploy. See <code>archive/grace-mar-instance/bot/WECHAT-SETUP.md</code>.</p>
 </body>
 </html>"""
 
@@ -1149,7 +1149,7 @@ def _render_landing_page(prp_text: str = "") -> str:
             border: 2px solid rgba(0,0,0,0.15);
             position: relative;
         }}
-        .nav-profile {{ background: var(--nav-profile); color: #fff; }}
+        .nav-profile {{ background: var(--nav-platform/profile); color: #fff; }}
         .nav-dashboard {{ background: var(--nav-dashboard); color: #fff; }}
         .nav-telegram {{ background: var(--nav-telegram); color: #fff; }}
         .nav-wechat {{ background: var(--nav-wechat); color: #fff; }}
@@ -1179,7 +1179,7 @@ def _render_landing_page(prp_text: str = "") -> str:
             <h1>Grace-Mar</h1>
             <p class="tagline">Record Â· Voice Â· You</p>
             <nav class="nav">
-                <a href="/profile" class="nav-link nav-profile">Profile</a>
+                <a href="/platform/profile" class="nav-link nav-platform/profile">Profile</a>
                 <a href="/dashboard" class="nav-link nav-dashboard">Dashboard</a>
                 <a href="/coaches" class="nav-link nav-coaches">Coaches</a>
                 <a href="/telegram" class="nav-link nav-telegram">Telegram</a>

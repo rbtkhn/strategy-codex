@@ -30,7 +30,7 @@ The war MEMs supply **numbers**. Trafalgar: 33 vs 27 (ships); outcome 22 lost vs
 
 ### Overextension
 
-NAPOLEON: "Collapse follows overextension"; "Napoleon unifies Europe **against** Francia." CONTINENTAL–SYSTEM: "The system transforms naval defeat into systemic overstretch"; "Enforcement costs grow faster than compliance." LEIPZIG: extraction system under stress; Russia 1812 made costs visible. WATERLOO: "Exhaustion made visible"; no allies, no margin. The cluster consistently encodes **overextension** as the mechanism linking maximum extent to collapse. That aligns with doctrine 02 and with RLL–0016 (extent–stability). From a Mearsheimer perspective, overextension is the consequence of **pushing the balance of power beyond sustainable enforcement**—the MEMs support that reading.
+NAPOLEON: "Collapse follows overplatform/extension"; "Napoleon unifies Europe **against** Francia." CONTINENTAL–SYSTEM: "The system transforms naval defeat into systemic overstretch"; "Enforcement costs grow faster than compliance." LEIPZIG: extraction system under stress; Russia 1812 made costs visible. WATERLOO: "Exhaustion made visible"; no allies, no margin. The cluster consistently encodes **overextension** as the mechanism linking maximum extent to collapse. That aligns with doctrine 02 and with RLL–0016 (extent–stability). From a Mearsheimer perspective, overextension is the consequence of **pushing the balance of power beyond sustainable enforcement**—the MEMs support that reading.
 
 ---
 

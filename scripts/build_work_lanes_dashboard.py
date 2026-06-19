@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aggregate work-layer JSON artifacts into artifacts/work-lanes-dashboard.json.
+"""Aggregate work-layer JSON artifacts into runtime/artifacts/work-lanes-dashboard.json.
 
 WORK-only dashboard. Does not read or modify Record files.
 
@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-OUT = REPO_ROOT / "artifacts/work-lanes-dashboard.json"
+OUT = REPO_ROOT / "runtime/artifacts/work-lanes-dashboard.json"
 
 
 def _read_json(path: Path) -> dict | None:
@@ -30,16 +30,16 @@ def main() -> int:
         "recordMergeAuthority": "RECURSION-GATE and companion approval only — never implied by lane metrics.",
         "lanes": {
             "work_strategy": _read_json(
-                REPO_ROOT / "artifacts/work-strategy/strategy-observability.json"
+                REPO_ROOT / "runtime/artifacts/work-strategy/strategy-observability.json"
             ),
             "work_dev": _read_json(
-                REPO_ROOT / "artifacts/work-dev/work-dev-status-summary.json"
+                REPO_ROOT / "runtime/artifacts/work-dev/work-dev-status-summary.json"
             ),
             "cadence": _read_json(
-                REPO_ROOT / "artifacts/work-cadence/cadence-pressure-report.json"
+                REPO_ROOT / "runtime/artifacts/work-cadence/cadence-pressure-report.json"
             ),
             "work_dev_dashboard_legacy": _read_json(
-                REPO_ROOT / "artifacts/work_dev_dashboard.json"
+                REPO_ROOT / "runtime/artifacts/work_dev_dashboard.json"
             ),
         },
     }

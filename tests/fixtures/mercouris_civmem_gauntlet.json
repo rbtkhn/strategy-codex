@@ -5,7 +5,7 @@
     "mode": "attribution_discipline",
     "must_cover": [
       "current continuity read",
-      "source evidence",
+      "source archive/placeholders/evidence",
       "confidence tier"
     ],
     "must_not": [
@@ -34,7 +34,7 @@
       "authority, restraint, and settlement"
     ],
     "must_not": [
-      "do not treat mercouris's institutional inference as wire evidence",
+      "do not treat mercouris's institutional inference as wire archive/placeholders/evidence",
       "civ-mem is not proof"
     ],
     "expected_routing": [
@@ -60,7 +60,7 @@
     ],
     "must_not": [
       "if no strong civ-mem pattern fits, skip it silently",
-      "must not override current-source evidence"
+      "must not override current-source archive/placeholders/evidence"
     ],
     "expected_routing": [
       "persia",
@@ -227,7 +227,7 @@
       "do not launder tier d"
     ],
     "must_not": [
-      "do not treat mercouris's institutional inference as wire evidence",
+      "do not treat mercouris's institutional inference as wire archive/placeholders/evidence",
       "civ-mem is not proof"
     ],
     "expected_routing": [

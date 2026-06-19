@@ -114,7 +114,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:2 S:0 G:2]** [Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon](https://www.bbc.com/news/articles/c5yv1nvd4gjo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-04-26 00:34 UTC_
 - **[W:1 S:0 G:1]** [Sen. Thom Tillis drops blockade of Kevin Warsh's nomination to be the next Fed chair](https://www.nbcnews.com/politics/congress/thom-tillis-drops-blockade-fed-chair-nominee-kevin-warsh-jerome-powell-rcna342163) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _2026-04-26 13:52 UTC_
@@ -181,7 +181,7 @@ Thread **Context Efficiency Layer** when assembling follow-up context: prefer ho
 - **Doctrine:** [context-efficiency-layer.md](../context-efficiency-layer.md)
 - **Compaction shapes:** [context-compaction-protocol.md](../context-compaction-protocol.md)
 - **Session brief (hot):** `python3 scripts/session_brief.py -u grace-mar --compact`
-- **Budgets:** `config/context_budgets/session_brief.json`, `config/context_surfaces.json`
+- **Budgets:** `platform/config/context_budgets/session_brief.json`, `platform/config/context_surfaces.json`
 
 
 ---

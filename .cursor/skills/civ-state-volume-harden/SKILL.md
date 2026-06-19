@@ -9,7 +9,7 @@ tags:
 - statecraft
 - civ-state
 - doctrine
-portable_source: skills-portable/civ-state-volume-harden/SKILL.md
+portable_source: skills/civ-state-volume-harden/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # CIV-STATE Volume Harden

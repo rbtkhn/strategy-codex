@@ -1,3 +1,4 @@
+from repo_io import SCHEMA_REGISTRY_DIR
 #!/usr/bin/env python3
 """
 Generate review-only tacit candidate JSON files (non-canonical, deterministic heuristics).
@@ -15,7 +16,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "tacit-candidate.v1.json"
+SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "tacit-candidate.v1.json"
 GENERATOR_VERSION = "1.0"
 
 DEST_MAP = {
@@ -29,7 +30,7 @@ def _surface(ctype: str, lane: str) -> str:
     lane = lane or "work-*"
     m = {
         "moonshot_insight_candidate": "docs/skill-work/work-moonshots/missions/ (pick or create slug)",
-        "skill_candidate": "skills-portable/ or .cursor/skills/ (operator choice)",
+        "skill_candidate": "skills/ or .cursor/skills/ (operator choice)",
         "library_candidate": "SELF-LIBRARY/ (gate if promoted)",
         "work_doctrine_candidate": f"docs/skill-work/{lane}/ (WORK)",
     }

@@ -24,7 +24,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 def _last_act_date(user_id: str) -> str | None:
     """Return the most recent ACT-* date from EVIDENCE Activity Log, or None."""
-    root = REPO_ROOT / "users" / user_id
+    root = REPO_ROOT / "platform/users" / user_id
     evidence_path = root / "self-archive.md"
     if not evidence_path.exists():
         evidence_path = root / "self-evidence.md"

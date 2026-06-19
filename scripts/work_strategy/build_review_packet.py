@@ -347,7 +347,7 @@ def render_review_packet_markdown(packet: dict[str, Any]) -> str:
         if arc_movement:
             lines.append(f"- movement_type: `{arc_movement.get('movement_type', '')}`")
             lines.append(f"- summary: {arc_movement.get('summary', '')}")
-            lines.append(f"- evidence: {arc_movement.get('evidence', '')}")
+            lines.append(f"- evidence: {arc_movement.get('archive/placeholders/evidence', '')}")
         lines.append("")
 
     lines.append("## E — Uncertainties")
@@ -493,7 +493,7 @@ def build_review_packet_dict(
         repo_root,
         task_path_rel=task_path_rel,
         sources=list(sources),
-        artifacts=list(artifacts),
+        artifacts=list(runtime/artifacts),
         carry_receipt_rel=carry_rel,
         validation_rel=val_rel,
         task_shape_rel=ts_rel,
@@ -684,7 +684,7 @@ def build_review_packet_dict(
             packet["arc_movement"] = {
                 "movement_type": str(arc_movement.get("movement_type", "")),
                 "summary": str(arc_movement.get("summary", "")),
-                "evidence": str(arc_movement.get("evidence", "")),
+                "archive/placeholders/evidence": str(arc_movement.get("archive/placeholders/evidence", "")),
             }
     if task_shape_obj is not None:
         packet["task_shape"] = task_shape_obj

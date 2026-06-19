@@ -8,19 +8,19 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-OUT = REPO_ROOT / "artifacts/work-dev/work-dev-status-summary.json"
+OUT = REPO_ROOT / "runtime/artifacts/work-dev/work-dev-status-summary.json"
 
 
 def main() -> int:
     summary: dict = {
         "schemaVersion": "1.0.0-work-dev",
         "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "artifacts": {},
+        "runtime/artifacts": {},
     }
     for name in ("known-gaps.json", "capability-status.json", "proof_ledger.json"):
-        p = REPO_ROOT / "artifacts/work-dev" / name
+        p = REPO_ROOT / "runtime/artifacts/work-dev" / name
         if p.is_file():
-            summary["artifacts"][name] = json.loads(p.read_text(encoding="utf-8"))
+            summary["runtime/artifacts"][name] = json.loads(p.read_text(encoding="utf-8"))
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUT}")

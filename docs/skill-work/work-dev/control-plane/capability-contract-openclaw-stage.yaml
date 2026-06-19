@@ -1,13 +1,13 @@
 # Capability contract — OpenClaw stage-only handback
 #
-# Retrofitted from integrations/openclaw_stage.py.
+# Retrofitted from platform/integrations/openclaw_stage.py.
 
 version: 1
 contract_id: "openclaw-stage-v1"
 integration_name: "OpenClaw stage-only handback"
 evaluated_at: "2026-04-06"
 source_of_truth:
-  - integrations/openclaw_stage.py
+  - platform/integrations/openclaw_stage.py
   - scripts/handback_server.py
   - docs/openclaw-integration.md
 

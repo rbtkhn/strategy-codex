@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Build a derived summary from the work-dev decision ledger."""
 
@@ -9,7 +10,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_LEDGER = REPO_ROOT / "docs" / "skill-work" / "work-dev" / "decision-ledger.md"
-DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "work-dev" / "decision-ledger-summary.md"
+DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-dev" / "decision-ledger-summary.md"
 
 
 @dataclass(frozen=True)

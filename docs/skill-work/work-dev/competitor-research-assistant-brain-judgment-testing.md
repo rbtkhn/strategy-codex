@@ -56,7 +56,7 @@
 - **Controversy:** Data/GDPR, prioritization of which messages count.
 - **Differentiation vs us:** Input aggregation and synthesis for government; we're decision-orientation (options through fixed perspectives, principal decides). No "testing judgment" or polyphonic cognition.
 
-### Meridian (meridian-gov.polsia.app)
+### Meridian (meridian-gov.polsia.platform/app)
 
 - **What:** Autonomous AI advisory for governments. AI readiness assessment, national AI strategy drafting, peer benchmarking, implementation roadmaps, regulation monitoring.
 - **Positioning:** Replaces $500K+ consulting; 15 years TBI/Dalberg-style experience. **Strategy and readiness**, not day-to-day decision support.

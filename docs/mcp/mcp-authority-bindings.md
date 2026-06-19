@@ -1,8 +1,8 @@
 # MCP authority bindings
 
-**Status:** Planning and policy only. This document describes how MCP **`output_lane`** values join **`config/authority-map.json`** — not live MCP wiring.
+**Status:** Planning and policy only. This document describes how MCP **`output_lane`** values join **`platform/config/authority-map.json`** — not live MCP wiring.
 
-**Related:** [Governed MCP layer](governed-mcp-layer.md), [`config/mcp-authority-bindings.yaml`](../../config/mcp-authority-bindings.yaml), schema [`schemas/mcp-authority-bindings.v1.json`](../../schemas/mcp-authority-bindings.v1.json), checker [`scripts/mcp_authority_check.py`](../../scripts/mcp_authority_check.py).
+**Related:** [Governed MCP layer](governed-mcp-layer.md), [`platform/config/mcp-authority-bindings.yaml`](../../platform/config/mcp-authority-bindings.yaml), schema [`schemas/mcp-authority-bindings.v1.json`](../../schemas/mcp-authority-bindings.v1.json), checker [`scripts/mcp_authority_check.py`](../../scripts/mcp_authority_check.py).
 
 ---
 
@@ -20,7 +20,7 @@ The checker **`mcp_authority_check.py`** validates YAML against the bindings sch
 |-------------|-----------------------------|-----------------|------|
 | `runtime_only` | `bridge_packets` | `ephemeral_only` | Session-scoped transit; not canonical Record. |
 | `work_artifact` | `prepared_context` | `draftable` | WORK Markdown / operator-visible drafts. |
-| `evidence_stub` | `evidence` | `draftable` | Pre-canonical evidence-shaped stubs under governed paths. |
+| `evidence_stub` | `archive/placeholders/evidence` | `draftable` | Pre-canonical evidence-shaped stubs under governed paths. |
 | `candidate_proposal` | `governed_state` | `review_required` | Staged proposals for companion review / gate. |
 | `prohibited` | `safety` | `human_only` | Policy-decline lane (e.g. shell or external memory denied). |
 
@@ -40,12 +40,12 @@ The checker **`mcp_authority_check.py`** validates YAML against the bindings sch
 - **`memory_external_prohibited_by_default`** must keep **`writes`** empty.
 - **`github_readonly`** / **`github_patch_proposal`** must list **`merge_to_main`**, **`force_push`**, and **`bypass_review`** in **`prohibited_actions`** (substring match, case-insensitive).
 
-Report output: **`artifacts/mcp-authority-report.md`**. Exit **1** on violations; **`--strict`** also fails on warnings (e.g. bindings unused by any capability).
+Report output: **`runtime/artifacts/mcp-authority-report.md`**. Exit **1** on violations; **`--strict`** also fails on warnings (e.g. bindings unused by any capability).
 
 ---
 
 ## Edits
 
-1. Update **`config/mcp-authority-bindings.yaml`** (and **`authority-map.json`** if adding surfaces).
+1. Update **`platform/config/mcp-authority-bindings.yaml`** (and **`authority-map.json`** if adding surfaces).
 2. Run **`python3 scripts/mcp_authority_check.py`** (and **`mcp_capability_audit.py`** after capability edits).
-3. Commit regenerated **`artifacts/mcp-authority-report.md`** when checks pass.
+3. Commit regenerated **`runtime/artifacts/mcp-authority-report.md`** when checks pass.

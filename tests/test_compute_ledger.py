@@ -46,7 +46,7 @@ def test_append_integration_ledger_writes_line(work_root: Path) -> None:
     )
     p = _ledger_path(work_root)
     assert p.is_file()
-    assert not (work_root / "users" / "u1").exists()
+    assert not (work_root / "platform/users" / "u1").exists()
     line = p.read_text(encoding="utf-8").strip().splitlines()[-1]
     o = json.loads(line)
     assert o["operation"] == "test_op"

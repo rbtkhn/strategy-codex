@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0-conductor-delegation-types",
+  "default_output_dir": "runtime/artifacts/work-dev/conductor-delegations",
+  "work_only": true,
+  "record_authority": "none",
+  "gate_effect": "none",
+  "types": {
+    "explore": {
+      "label": "Explore",
+      "purpose": "Discover patterns, gaps, source anchors, and plausible next moves without resolving the work.",
+      "authority_boundary": "WORK-only research and synthesis. May identify candidate signals for operator review; may not stage, approve, reject, or merge Record changes.",
+      "suggested_scope": [
+        "strategy notebook slices",
+        "work-dev/work-strategy docs",
+        "evidence-adjacent links when explicitly provided"
+      ],
+      "output_expectations": [
+        "summary",
+        "key findings",
+        "source/provenance list",
+        "open questions",
+        "suggested next actions",
+        "learning signal"
+      ],
+      "recommended_conductors": ["furtwangler", "toscanini", "bernstein"]
+    },
+    "plan": {
+      "label": "Plan",
+      "purpose": "Turn a live problem into a decision-complete implementation or workflow plan.",
+      "authority_boundary": "WORK-only planning. May define implementation steps and acceptance checks; may not execute, stage, approve, reject, or merge Record changes.",
+      "suggested_scope": [
+        "work-dev specs",
+        "strategy notebook operating docs",
+        "runtime and derived-artifact docs"
+      ],
+      "output_expectations": [
+        "summary",
+        "key changes",
+        "interfaces or artifact shapes",
+        "test plan",
+        "assumptions",
+        "learning signal"
+      ],
+      "recommended_conductors": ["karajan", "kleiber", "toscanini"]
+    },
+    "review": {
+      "label": "Review",
+      "purpose": "Audit a bounded surface for risks, contradictions, authority drift, or missing tests.",
+      "authority_boundary": "WORK-only review. May report risks and candidate signals for operator review; may not approve, reject, stage, or merge gate candidates.",
+      "suggested_scope": [
+        "recursion-gate candidates as read-only input",
+        "governance and boundary docs",
+        "changed files or explicit review packet"
+      ],
+      "output_expectations": [
+        "findings ordered by severity",
+        "boundary risks",
+        "test or verification gaps",
+        "open questions",
+        "candidate signals for operator review",
+        "learning signal"
+      ],
+      "recommended_conductors": ["toscanini", "furtwangler", "kleiber"]
+    },
+    "reflection": {
+      "label": "Reflection",
+      "purpose": "Capture the leftover learning signal from a conductor pass, bridge, dream, or work session.",
+      "authority_boundary": "WORK-only reflection. Captures residue for future orientation; does not create Record truth, MEMORY, or gate authority.",
+      "suggested_scope": [
+        "recent conductor choices and closes",
+        "bridge or dream handoff residue",
+        "work-cadence events",
+        "current dirty-tree split"
+      ],
+      "output_expectations": [
+        "what happened",
+        "what was learned",
+        "what got parked",
+        "what should change in future menus",
+        "close-loop note",
+        "learning signal"
+      ],
+      "recommended_conductors": ["karajan", "furtwangler", "bernstein"]
+    }
+  }
+}

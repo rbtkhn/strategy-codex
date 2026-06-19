@@ -70,7 +70,7 @@ The two strands wind around a **common axis**. The axis has three
 elements:
 
 1. **Shared and contested space**  
-   The Mediterranean (and its Atlantic extension) as the space where
+   The Mediterranean (and its Atlantic platform/extension) as the space where
    both traditions claimed, lost, and reordered territory. Roman *mare
    nostrum* → Islamic absorption of southern and eastern shores
    (MEM–ROME–ISLAM) → permanent partition → Ottoman vs. Latin

@@ -72,7 +72,7 @@ from typing import Iterable, Optional
 REPO_ROOT = Path(__file__).resolve().parent.parent
 NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 CHAPTERS_DIR = NOTEBOOK_DIR / "chapters"
-ARTIFACT_DIR = REPO_ROOT / "artifacts/skill-work/work-strategy/backfills"
+ARTIFACT_DIR = REPO_ROOT / "runtime/artifacts/skill-work/work-strategy/backfills"
 
 THREAD_MARKER_START = "<!-- strategy-expert-thread:start -->"
 THREAD_MARKER_END = "<!-- strategy-expert-thread:end -->"
@@ -516,11 +516,11 @@ def format_bullet(item: Evidence) -> str:
 
 
 def render_backfill_block(expert_id: str, start: date, end: date, evidence: list[Evidence]) -> str:
-    groups = grouped_by_month(evidence)
+    groups = grouped_by_month(archive/placeholders/evidence)
     month_keys = months_spanning_range(start, end)
     lines: list[str] = []
     lines.append(marker_block_start(expert_id))
-    lines.append("## Backfilled historical arc (reconstructed from notebook artifacts)")
+    lines.append("## Backfilled historical arc (reconstructed from notebook runtime/artifacts)")
     lines.append("")
     lines.append(
         f"**Scope:** `{expert_id}` from **{start.isoformat()}** through **{end.isoformat()}**."
@@ -609,7 +609,7 @@ def build_report(
     evidence.extend(git_mentions_for_expert(expert_id, aliases, start, end))
     if supplement:
         evidence.extend(supplement)
-    evidence = dedupe_evidence(evidence)
+    evidence = dedupe_evidence(archive/placeholders/evidence)
 
     script_path = Path(__file__).resolve()
     script_sha = hashlib.sha256(script_path.read_bytes()).hexdigest()[:12]
@@ -622,8 +622,8 @@ def build_report(
         "start": start.isoformat(),
         "end": end.isoformat(),
         "aliases": aliases,
-        "evidence_count": len(evidence),
-        "evidence": [asdict(e) for e in evidence],
+        "evidence_count": len(archive/placeholders/evidence),
+        "archive/placeholders/evidence": [asdict(e) for e in evidence],
         "supplement_merged": len(supplement) if supplement else 0,
     }
 
@@ -709,13 +709,13 @@ def main() -> int:
     report = build_report(expert_id, start, end, aliases, supplement=supplement or None)
     if args.supplement_json:
         report["supplement_json"] = str(args.supplement_json.resolve().relative_to(REPO_ROOT))
-    evidence = [Evidence(**item) for item in report["evidence"]]
-    block = render_backfill_block(expert_id, start, end, evidence)
+    evidence = [Evidence(**item) for item in report["archive/placeholders/evidence"]]
+    block = render_backfill_block(expert_id, start, end, archive/placeholders/evidence)
 
     print(f"expert_id: {expert_id}")
     print(f"window:    {start.isoformat()} → {end.isoformat()}")
     print(f"aliases:   {', '.join(aliases)}")
-    print(f"evidence:  {len(evidence)}")
+    print(f"evidence:  {len(archive/placeholders/evidence)}")
     if supplement:
         print(
             f"supplement: {len(supplement)} row(s) merged from "

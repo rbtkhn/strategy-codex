@@ -46,13 +46,13 @@ Use this mapping unless the evidence clearly says otherwise:
 Store benchmark outputs under:
 
 ```text
-artifacts/benchmarks/composition/
+runtime/artifacts/benchmarks/composition/
 ```
 
 Suggested run folder:
 
 ```text
-artifacts/benchmarks/composition/YYYY-MM-DD/<model-or-provider>/
+runtime/artifacts/benchmarks/composition/YYYY-MM-DD/<model-or-provider>/
 ```
 
 Each run should include the prompt, model output, scoring notes, and closeout result. Keep this tree non-canonical and work-layer only.
@@ -293,7 +293,7 @@ Dream may carry forward only `Open`, `Broke`, or `Weakened` twice on the same di
 After implementation or benchmark runs, verify governed Record surfaces were not changed for this work:
 
 ```bash
-git diff -- self.md self-archive.md recursion-gate.md session-log.md bot/prompt.py
+git diff -- self.md self-archive.md recursion-gate.md session-log.md archive/grace-mar-instance/bot/prompt.py
 ```
 
 Any output in that diff must be explained as pre-existing residue or reverted if introduced by the benchmark work.

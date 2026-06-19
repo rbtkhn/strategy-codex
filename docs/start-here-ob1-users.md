@@ -11,7 +11,7 @@ Plain-language bridge for people who know **Open Brain (OB1)**-style systems. Pr
 | If you think inâ€¦ | In Grace-Mar |
 |------------------|--------------|
 | **Library** | **SELF-LIBRARY** â€” display label **Library** ([scripts/surface_aliases.py](../scripts/surface_aliases.py)) |
-| **Skills** (executable packs) | Two layers: **SKILLS** (Record capability in `self-skills.md`) vs **portable skills** (`skills-portable/`). See [skills-explained.md](skills-explained.md). |
+| **Skills** (executable packs) | Two layers: **SKILLS** (Record capability in `self-skills.md`) vs **portable skills** (`skills/`). See [skills-explained.md](skills-explained.md). |
 | **Evidence / activity log** | **EVIDENCE** â€” canonical body on `self-archive.md` |
 | **Pending approvals / review queue** | **Approval Inbox** â€” user-facing name for pending candidates in [`recursion-gate.md`](../recursion-gate.md) (canonical file name: **recursion-gate**). **Boundary Review** (classification hints) is related but not the whole inbox; see [boundary-review-queue.md](boundary-review-queue.md). |
 | **Workflows / recipes** | `docs/skill-work/**`, scripts, bridges â€” [workflow-catalog.md](workflow-catalog.md) |

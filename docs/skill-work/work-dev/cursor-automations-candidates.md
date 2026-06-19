@@ -44,7 +44,7 @@
 | [harness.yml](../../../.github/workflows/harness.yml) | `push`/`PR` | Counterfactual Pack (needs `OPENAI_API_KEY`) | Same Ã¢â‚¬â€ triage / owner routing only if harness flakes |
 | [naming-check.yml](../../../.github/workflows/naming-check.yml) | `push`/`PR` | Deprecated naming, work-cici drift | Rarely needs LLM; deterministic is enough |
 | [library-index.yml](../../../.github/workflows/library-index.yml) | `push`/`PR` | `build_library_index.py` must match artifact | Suggest Ã¢â‚¬Å“run this commandÃ¢â‚¬Â in a PR comment (could be static template) |
-| [prp-refresh.yml](../../../.github/workflows/prp-refresh.yml) | `push` to `main` (paths: `self.md`, `bot/prompt.py`, Ã¢â‚¬Â¦) | Auto-commit `grace-mar-llm.txt` | **Do not** layer automations on top for same paths Ã¢â‚¬â€ already auto |
+| [prp-refresh.yml](../../../.github/workflows/prp-refresh.yml) | `push` to `main` (paths: `self.md`, `archive/grace-mar-instance/bot/prompt.py`, Ã¢â‚¬Â¦) | Auto-commit `grace-mar-llm.txt` | **Do not** layer automations on top for same paths Ã¢â‚¬â€ already auto |
 | [lane-pr-hint.yml](../../../.github/workflows/lane-pr-hint.yml) | PR opened/sync | Infers `lane/*` if missing, comments | [lane-scope.yml](../../../.github/workflows/lane-scope.yml) already enforces; LLM only if you want *richer* lane rationale |
 | [lane-scope.yml](../../../.github/workflows/lane-scope.yml) | PR | `check_lane_scope.py` Ã¢â‚¬â€ blocks cross-lane drift | N/A (deterministic) |
 | [work-jiang.yml](../../../.github/workflows/work-jiang.yml) | `push`/`PR` (paths) | Predictive History boundary validation | Triage only if the frozen-boundary guardrail fails |
@@ -63,7 +63,7 @@
 
 | # | Friction | Why it bites | Routine / contextual |
 |---|----------|--------------|------------------------|
-| 1 | **Stale derived + integrity red** after profile/PRP-adjacent work | [work-cadence](../../work-cadence/README.md) calls out manifest/PRP/bundle drift; easy to forget `regen_grace_mar_derived.sh` | Routine check; human chooses when to regen |
+| 1 | **Stale derived + integrity red** after platform/profile/PRP-adjacent work | [work-cadence](../../work-cadence/README.md) calls out manifest/PRP/bundle drift; easy to forget `regen_grace_mar_derived.sh` | Routine check; human chooses when to regen |
 | 2 | **PR cognitive load** (lane label, scope, gated `[gated-merge]`, many jobs) | Multiple workflows fire; [lane-pr-hint](../../../.github/workflows/lane-pr-hint.yml) helps label only | Mix Ã¢â‚¬â€ mechanics routine, *intent* contextual |
 | 3 | **Gate queue** (`recursion-gate.md`) visibility between sessions | [instance-doctrine](../../../instance-doctrine.md) wants queue processed; [operator-weekly-review](../../../docs/operator-weekly-review.md) rhythm | Reminder = routine; **merge** = always human |
 | 4 | **Cold re-entry** (what to run, whatÃ¢â‚¬â„¢s safe to ignore) | `operator_reentry_stack.py` / handoff exist but require **you** in Cursor or shell | Contextual; optional **scheduled nudge** is weak substitute for `coffee` |
@@ -77,7 +77,7 @@
 
 | Friction | Candidate A | Candidate B |
 |----------|-------------|-------------|
-| **1 Integrity / derived** | **Scheduled** (e.g. weekly): clone or use repo in cloud agent, run `validate-integrity.py --json` + summarize failures + paste **exact** `regen` command from work-cadence README Ã¢â‚¬â€ **Slack** or **issue** only, no auto-commit | **Push to `main` webhook / CI completed** on branches that include `` or `bot/prompt.py`: **comment** on workflow run (if exposed) or open **draft** Ã¢â‚¬Å“integrity checklistÃ¢â‚¬Â **issue** Ã¢â‚¬â€ still no commit |
+| **1 Integrity / derived** | **Scheduled** (e.g. weekly): clone or use repo in cloud agent, run `validate-integrity.py --json` + summarize failures + paste **exact** `regen` command from work-cadence README Ã¢â‚¬â€ **Slack** or **issue** only, no auto-commit | **Push to `main` webhook / CI completed** on branches that include `` or `archive/grace-mar-instance/bot/prompt.py`: **comment** on workflow run (if exposed) or open **draft** Ã¢â‚¬Å“integrity checklistÃ¢â‚¬Â **issue** Ã¢â‚¬â€ still no commit |
 | **2 PR load** | **PR opened** / **synchronized**: after Actions, **comment** with *human-readable* map: which workflows ran, what `lane/*` is for, link to [lane-scope](../../../.github/workflows/lane-scope.yml) and gated-record hint Ã¢â‚¬â€ template-heavy, **LLM optional** | **CI completed** + failure: one comment with **failing job** + *first* file to look at (from log excerpt) Ã¢â‚¬â€ **judgment-light** triage |
 | **3 Gate queue** | **Scheduled** (e.g. Monday): read-only `recursion-gate` **count** + list **CANDIDATE-** ids (cap at N) + Ã¢â‚¬Å“run `process_approved_candidates` only after approveÃ¢â‚¬Â **boilerplate** | **Not** `process_approved_candidates` in automation Ã¢â‚¬â€ violates doctrine |
 | **4 Re-entry** | **Low fit** for full cloud replacement of `coffee` | If you insist: **scheduled** Ã¢â‚¬Å“integrity + handoff_check stdout summaryÃ¢â‚¬Â to **Slack** as *telemetry*, not a ritual substitute |
@@ -89,7 +89,7 @@
 
 ## 5. Safe automation contract (Phase 4) Ã¢â‚¬â€ paste into automation prompt header
 
-1. **No merge** into `self.md`, `self-archive.md`, `recursion-gate.md` (except moving to Processed *via human-approved* script you run), `bot/prompt.py`, or EVIDENCE from this automation. **No** running `process_approved_candidates.py --apply` unattended.
+1. **No merge** into `self.md`, `self-archive.md`, `recursion-gate.md` (except moving to Processed *via human-approved* script you run), `archive/grace-mar-instance/bot/prompt.py`, or EVIDENCE from this automation. **No** running `process_approved_candidates.py --apply` unattended.
 2. **No** staging gate candidates or approving **`CANDIDATE-`**. Suggest and link only.
 3. **Open PR** / **comment**: propose diffs in comments or a **draft** branch you review; do not push **direct** Record edits.
 4. **Memories** tool: **off** for untrusted/PR-sourced input; if on, **non-sensitive** ops only and short TTL policy.

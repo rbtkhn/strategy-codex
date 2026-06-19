@@ -15,7 +15,7 @@ Word Count: ~1,900
 
 Governed by: CIV–MEM–CORE v2.2+, CIV–MEM–TEMPLATE v2.8
 
-Proportional blend: Mercouris primary (civilizational narrative, evidence); Mearsheimer secondary (structural constraint, intermediary dependency); Barnes dimension satisfied below.
+Proportional blend: Mercouris primary (civilizational narrative, archive/placeholders/evidence); Mearsheimer secondary (structural constraint, intermediary dependency); Barnes dimension satisfied below.
 
 ────────────────────────────────────────────────────────────
 SKELETON — CONTENT CLEARED FOR CORPUS-SWAP

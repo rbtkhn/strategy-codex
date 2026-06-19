@@ -86,7 +86,7 @@ class WorkPoliticsEngine:
     def __init__(self, user_id: str = "grace-mar", repo_root: Optional[Path] = None) -> None:
         self.user_id = (user_id or "grace-mar").strip() or "grace-mar"
         self.repo_root = Path(repo_root or Path(__file__).resolve().parents[1])
-        self.base_dir = self.repo_root / "users" / self.user_id / "work-politics"
+        self.base_dir = self.repo_root / "platform/users" / self.user_id / "work-politics"
         self.base_dir.mkdir(parents=True, exist_ok=True)
         self.db_path = self.base_dir / "work-politics.db"
 

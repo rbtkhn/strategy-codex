@@ -14,10 +14,10 @@ ARCH=$(uname -m)
 # Prefer system pandoc; fall back to bundled
 if command -v pandoc &>/dev/null; then
   PANDOC_CMD=pandoc
-elif [[ -x "$REPO_ROOT/tools/pandoc-3.9-x86_64/bin/pandoc" ]] && [[ "$ARCH" == "x86_64" ]]; then
-  PANDOC_CMD="$REPO_ROOT/tools/pandoc-3.9-x86_64/bin/pandoc"
-elif [[ -x "$REPO_ROOT/tools/pandoc-3.9-arm64/bin/pandoc" ]] && [[ "$ARCH" == "arm64" ]]; then
-  PANDOC_CMD="$REPO_ROOT/tools/pandoc-3.9-arm64/bin/pandoc"
+elif [[ -x "$REPO_ROOT/tools/pandoc-3.9-x86_64/platform/bin/pandoc" ]] && [[ "$ARCH" == "x86_64" ]]; then
+  PANDOC_CMD="$REPO_ROOT/tools/pandoc-3.9-x86_64/platform/bin/pandoc"
+elif [[ -x "$REPO_ROOT/tools/pandoc-3.9-arm64/platform/bin/pandoc" ]] && [[ "$ARCH" == "arm64" ]]; then
+  PANDOC_CMD="$REPO_ROOT/tools/pandoc-3.9-arm64/platform/bin/pandoc"
 else
   PANDOC_CMD=""
 fi

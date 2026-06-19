@@ -57,7 +57,7 @@ Research notes from Moonshots episode #237. Use for work-build-ai alignment, int
 | Factor | Local | VPS |
 |--------|-------|-----|
 | Speed | Better | Slower |
-| Customization | Any app/tool on device | Limited |
+| Customization | Any platform/app/tool on device | Limited |
 | Scalability | 4 OpenClaws 24/7 feasible | Cost explodes |
 | Security | "Secure by default" | Keys exposed in breaches |
 

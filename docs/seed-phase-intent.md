@@ -22,7 +22,7 @@ A companion should not be activated from vague personalization alone. **`seed_in
 
 **File:** `seed_intent.json` in the seed-phase bundle (alongside `seed-phase-manifest.json`, `seed_intake.json`, …).
 
-**Schema:** [schema-registry/seed-intent.v1.json](../schema-registry/seed-intent.v1.json)
+**Schema:** [schemas/registry/seed-intent.v1.json](../schemas/registry/seed-intent.v1.json)
 
 ---
 

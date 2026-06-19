@@ -74,11 +74,11 @@ Disallowed after cutover:
 
 | Asset | Path |
 |-------|------|
-| Export manifest | [`config/civilizational_statecraft_public_export.yaml`](../config/civilizational_statecraft_public_export.yaml) |
+| Export manifest | [`platform/config/civilizational_statecraft_public_export.yaml`](../platform/config/civilizational_statecraft_public_export.yaml) |
 | Export script | [`scripts/export_civilizational_statecraft_public.py`](../scripts/export_civilizational_statecraft_public.py) |
 | Validator | [`scripts/validate_civilizational_statecraft_public.py`](../scripts/validate_civilizational_statecraft_public.py) |
 | Staging output | [`public/civ-state/`](../public/civ-state/) |
-| Legacy residue | [`artifacts/civilizational-statecraft-public/`](../artifacts/civilizational-statecraft-public/) — retired; do not refresh |
+| Legacy residue | [`runtime/artifacts/civilizational-statecraft-public/`](../runtime/artifacts/civilizational-statecraft-public/) — retired; do not refresh |
 
 ## Feedback loop
 

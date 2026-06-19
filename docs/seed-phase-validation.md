@@ -31,10 +31,10 @@ Optional (not required for `validate-seed-phase.py`):
 python3 scripts/validate-seed-phase.py demo/seed-phase
 ```
 
-**Placeholder mode** (`_template/seed-phase`): validates file presence, JSON parse, and manifest consistency; **skips** full schema validation so `TODO` strings and incomplete enums are allowed.
+**Placeholder mode** (`platform/template/seed-phase`): validates file presence, JSON parse, and manifest consistency; **skips** full schema validation so `TODO` strings and incomplete enums are allowed.
 
 ```bash
-python3 scripts/validate-seed-phase.py _template/seed-phase --allow-placeholders
+python3 scripts/validate-seed-phase.py platform/template/seed-phase --allow-placeholders
 ```
 
 ---
@@ -43,7 +43,7 @@ python3 scripts/validate-seed-phase.py _template/seed-phase --allow-placeholders
 
 1. Expected files exist (see script `REQUIRED_FILES`).
 2. Each file parses as JSON (where applicable).
-3. Unless `--allow-placeholders`: each JSON instance validates against its schema in `schema-registry/`.
+3. Unless `--allow-placeholders`: each JSON instance validates against its schema in `schemas/registry/`.
 4. `seed-phase-manifest.json` lists artifact keys matching the standard set (including `seed_intent`, `memory_ops_contract`, `seed_constitution`, `work_business_seed`, `work_dev_seed` → matching `.json` filenames).
 5. `seed_dossier.md` exists (non-empty).
 
@@ -86,7 +86,7 @@ python3 scripts/generate-birth-certificate.py demo/seed-phase --private-key /sec
 
 ## Companion factory CLI (optional)
 
-Creates **`output-dir/<instance_name>/`** by copying a **template** checkout, then seeds **`<instance_name>/seed-phase/`** from **`_template/seed-phase/`**. Use a clean **companion-self** template tree as `--template`; avoid pointing at a private instance repo if it contains live Record data you do not want duplicated.
+Creates **`output-dir/<instance_name>/`** by copying a **template** checkout, then seeds **`<instance_name>/seed-phase/`** from **`platform/template/seed-phase/`**. Use a clean **companion-self** template tree as `--template`; avoid pointing at a private instance repo if it contains live Record data you do not want duplicated.
 
 ```bash
 python3 scripts/companion_factory.py new my-instance \
@@ -115,7 +115,7 @@ python3 scripts/validate-constitution.py demo/seed-phase
 
 ## Reuse in instance repos
 
-Copy `scripts/validate-seed-phase.py`, `schema-registry/seed-*.v1.json`, and point the script at your instance’s seed directory (same filenames). Keep **seed artifacts outside** merged Record paths until activation policy is met.
+Copy `scripts/validate-seed-phase.py`, `schemas/registry/seed-*.v1.json`, and point the script at your instance’s seed directory (same filenames). Keep **seed artifacts outside** merged Record paths until activation policy is met.
 
 ---
 

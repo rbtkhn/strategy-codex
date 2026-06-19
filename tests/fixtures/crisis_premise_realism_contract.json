@@ -23,7 +23,7 @@
       "points": 18,
       "critical": true,
       "paths": [
-        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+        "skills/_drafts/academy-statecraft-drafting/SKILL.md",
         "statecraft/sheets/crisis-test-casebook.md"
       ],
       "must_cover": [
@@ -51,7 +51,7 @@
       "points": 16,
       "critical": true,
       "paths": [
-        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+        "skills/_drafts/academy-statecraft-drafting/SKILL.md",
         "statecraft/sheets/crisis-test-casebook.md"
       ],
       "must_cover": [
@@ -76,7 +76,7 @@
       "points": 16,
       "critical": true,
       "paths": [
-        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+        "skills/_drafts/academy-statecraft-drafting/SKILL.md",
         "statecraft/sheets/crisis-test-casebook.md"
       ],
       "must_cover": [
@@ -102,11 +102,11 @@
       "points": 16,
       "critical": true,
       "paths": [
-        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md"
+        "skills/_drafts/academy-statecraft-drafting/SKILL.md"
       ],
       "must_cover": [
         "Minab-type targeting claim",
-        "targeting-chain evidence",
+        "targeting-chain archive/placeholders/evidence",
         "political effect",
         "statecraft response",
         "narrative exploitation"
@@ -125,7 +125,7 @@
       "points": 17,
       "critical": true,
       "paths": [
-        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+        "skills/_drafts/academy-statecraft-drafting/SKILL.md",
         "statecraft/sheets/crisis-test-casebook.md"
       ],
       "must_cover": [
@@ -151,7 +151,7 @@
       "points": 17,
       "critical": true,
       "paths": [
-        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md",
+        "skills/_drafts/academy-statecraft-drafting/SKILL.md",
         "statecraft/sheets/crisis-test-casebook.md"
       ],
       "must_cover": [

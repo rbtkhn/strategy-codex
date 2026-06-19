@@ -72,7 +72,7 @@ python scripts/publish_public_civ_state.py -m "…" --push
 python scripts/check_academy_mirror_sync.py --mirror civ-state
 ```
 
-Legacy `export_civilizational_statecraft_public.py` is migration/reshape residue only — not daily edit. Legacy bucket `artifacts/civilizational-statecraft-public/` is retired — see [README-STAGING.md](../artifacts/civilizational-statecraft-public/README-STAGING.md).
+Legacy `export_civilizational_statecraft_public.py` is migration/reshape residue only — not daily edit. Legacy bucket `runtime/artifacts/civilizational-statecraft-public/` is retired — see [README-STAGING.md](../runtime/artifacts/civilizational-statecraft-public/README-STAGING.md).
 
 ## Related
 

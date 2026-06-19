@@ -30,9 +30,9 @@ Each `.cursor/skills/*/SKILL.md` declares YAML **`preferred_activation`** (one o
 | `weekly-brief-run` | **weekly brief** | |
 | **`strategy` (doc-first)** | **strategy** | Alt: **strategy pass**, **work-strategy**. **No skill file** — [DEFAULT-PATH.md](skill-work/work-strategy/DEFAULT-PATH.md) + [strategy-codex-pass.mdc](../.cursor/rules/strategy-codex-pass.mdc). Dissolved: [SKILL-STRATEGY-DEPRECATED.md](skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md). |
 | `tri-mind` | **tri-mind** | **Deprecated (2026-06).** Do not use in new workflow. Prefer **`statecraft-multi-lens`** or a **named single mind**. Legacy: [tri-mind SKILL.md](../../.cursor/skills/tri-mind/SKILL.md) · [TRI-MIND-DEPRECATED.md](skill-work/work-strategy/TRI-MIND-DEPRECATED.md). |
-| `politics-massie` | **massie x** | Portable core: `skills-portable/politics-massie/` ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ run `sync_portable_skills.py` after edits. |
+| `politics-massie` | **massie x** | Portable core: `skills/politics-massie/` ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ run `sync_portable_skills.py` after edits. |
 | `work-jiang-feature-checklist` | **jiang check** | |
-| `portable-skills-sync` | **sync skills** | Portable core: `skills-portable/portable-skills-sync/`. |
+| `portable-skills-sync` | **sync skills** | Portable core: `skills/portable-skills-sync/`. |
 | `extract-skill-from-session` | **save skill** | Alt: **skill from session**. |
 | `pros-and-cons` | **unpack** | Alt: **pros cons**. |
 | `fact-check` | **fact check** | Alt: **verify this**, **check this claim**. |
@@ -56,13 +56,13 @@ Each `.cursor/skills/*/SKILL.md` declares YAML **`preferred_activation`** (one o
 | `tri-mind` | **Deprecated (2026-06).** Legacy tri-lens A/B/C pass — use **`statecraft-multi-lens`** or a **named single mind**. [TRI-MIND-DEPRECATED.md](skill-work/work-strategy/TRI-MIND-DEPRECATED.md) · legacy [tri-mind/SKILL.md](../../.cursor/skills/tri-mind/SKILL.md) | Agent (legacy only): `.cursor/skills/tri-mind/SKILL.md` |
 | `work-jiang-feature-checklist` | Branch hygiene, scope, canonical verify block, and commit granularity for `codex/predictive-history` + `scripts/work_jiang/` | Agent: follow `.cursor/skills/work-jiang-feature-checklist/SKILL.md` |
 | `politics-massie` | Real-time news search + suggested @usa_first_ky X drafts (human approves; no auto-post) | Agent: follow `.cursor/skills/politics-massie/SKILL.md` |
-| `portable-skills-sync` | Regenerate Cursor `SKILL.md` from `skills-portable/` + `manifest.yaml` + `CURSOR_APPENDIX.md`; run `--verify` before commit | `python3 scripts/sync_portable_skills.py --verify` then sync; agent: `.cursor/skills/portable-skills-sync/SKILL.md` |
+| `portable-skills-sync` | Regenerate Cursor `SKILL.md` from `skills/` + `manifest.yaml` + `CURSOR_APPENDIX.md`; run `--verify` before commit | `python3 scripts/sync_portable_skills.py --verify` then sync; agent: `.cursor/skills/portable-skills-sync/SKILL.md` |
 | `extract-skill-from-session` | Codify a finished multi-step workflow as a new `SKILL.md` | Agent: `.cursor/skills/extract-skill-from-session/SKILL.md` |
 | `pol-dashboard` | Internal miniapp UI at `/pol` (legacy `/wap`) ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â work-politics job tracker (token: `POL_DASHBOARD_TOKEN` or legacy `WAP_DASHBOARD_TOKEN`) | [pol-dashboard.md](pol-dashboard.md) |
 
 **Stale derived exports** (manifest, PRP, fork-manifest, runtime bundle): audit under **coffee A ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â integrity/exports** (`validate-integrity.py`); **`refresh_derived_exports.py` writes** ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ship per operator lane after proposal. Quick commands: [development-handoff.md ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ Quick Resume](development-handoff.md#quick-resume-commands).
 
-**Skill discovery:** Pointer backlog [skills-portable/skill-candidates.md](../skills-portable/skill-candidates.md), draft lane `skills-portable/_drafts/`, ladder in [skills-portable/README.md](../skills-portable/README.md). After substantive **EXECUTE** / **DOCSYNC** ships, optional one-line prompt per [.cursor/rules/operator-style.mdc](../.cursor/rules/operator-style.mdc) (Skill discovery). **Skills / meta:** **coffee B ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Engineer** + say **skills** or **meta**; **handoff-check** summary may mention the same.
+**Skill discovery:** Pointer backlog [skills/skill-candidates.md](../skills/skill-candidates.md), draft lane `skills/_drafts/`, ladder in [skills/README.md](../skills/README.md). After substantive **EXECUTE** / **DOCSYNC** ships, optional one-line prompt per [.cursor/rules/operator-style.mdc](../.cursor/rules/operator-style.mdc) (Skill discovery). **Skills / meta:** **coffee B ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Engineer** + say **skills** or **meta**; **handoff-check** summary may mention the same.
 
 ### Gate review ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â pattern notes (doc-only)
 

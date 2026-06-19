@@ -10,7 +10,7 @@ This surface tracks continuity-block events from OpenClaw handback enforcement w
 |-------|-------|
 | Source feed | `runtime/observability/continuity_blocks.jsonl` |
 | Export command | `python scripts/work_dev/export_continuity_blocks.py` |
-| Derived output | `artifacts/work-dev/continuity-observability/continuity-blocks.md` |
+| Derived output | `runtime/artifacts/work-dev/continuity-observability/continuity-blocks.md` |
 | Authority | WORK-derived operator review only |
 | Gate effect | none |
 
@@ -26,7 +26,7 @@ The export path does not touch:
 - `self-archive.md`
 - `recursion-gate.md`
 - `session-log.md`
-- `bot/prompt.py`
+- `archive/grace-mar-instance/bot/prompt.py`
 
 ## Retention
 

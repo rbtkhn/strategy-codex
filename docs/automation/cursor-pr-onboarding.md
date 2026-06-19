@@ -43,7 +43,7 @@ This automation **narrates** and **orients** the operator. It is **not** a secon
 - **Infer** a **likely** lane or category from **labels**, **branch**, and **paths** â€” mark **uncertain** when mixed.
 - **Flag** if **Record**- / **gate**- / **prompt**-sensitive files appear in the **diff**.
 - **Name** which **workflows** or **check** names are **likely** to run (from path â†’ workflow heuristics; do **not** re-run CI).
-- Note whether **gated Record** [commit message](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/governance.yml) **discipline** may **apply** (for **human** commits â€” not this bot).
+- Note whether **gated Record** [commit message](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/governance.yml) **discipline** may **apply** (for **human** commits â€” not this archive/grace-mar-instance/bot).
 - **Suggest** a **single** **operator** next step (e.g. *wait for CI*, *confirm `lane/*` label*, *re-read `recursion-gate` if touched*).
 - **State** when classification is **uncertain**.
 
@@ -52,7 +52,7 @@ This automation **narrates** and **orients** the operator. It is **not** a secon
 - No `git` **commits** or **pushes**; no **edits** to the repo, **PR** branch, or **protected** paths.
 - No **adding**, **removing**, or **changing** **issue** or **PR** **labels** in this v1 (unless a **later** explicit policy allows a narrow exception).
 - No **approvals**, **request changes**, or other **review** **state** changes.
-- No edits to `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, or `bot/prompt.py` â€” the automation does **not** write those files.
+- No edits to `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, or `archive/grace-mar-instance/bot/prompt.py` â€” the automation does **not** write those files.
 - No `process_approved_candidates.py` â€” any mode.
 - No **staging**, **approving**, **rejecting**, or **editing** **`CANDIDATE-*`**.
 - No **memory** (product feature) for **PR** text, **logs**, **diffs**, or **untrusted** **issue** content (see [contract](cursor-safe-automation-contract.md) Â§ 10).
@@ -69,10 +69,10 @@ This automation **narrates** and **orients** the operator. It is **not** a secon
 | `docs/skill-work/work-cici/**` | work-cici | Cici-related **WORK** |
 | `codex/predictive-history/**` or `codex/predictive-history/**` | work-jiang | Jiang / Predictive History lane; [work-jiang](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/work-jiang.yml) may path-filter |
 | `**` | **Record-sensitive** | Treat as **protected**; **companion** / gate **governance** applies to merges |
-| `bot/prompt.py` | **prompt-sensitive** | High caution; often **gated** commit expectations |
+| `archive/grace-mar-instance/bot/prompt.py` | **prompt-sensitive** | High caution; often **gated** commit expectations |
 | `scripts/**` | tooling / runtime | [test.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/test.yml) and **governance** / **harness** may apply |
 | `.github/workflows/**` | **CI** / **governance** **infrastructure** | **Meta**; watch **governance** + **lane** + **all** default checks |
-| `artifacts/**` | **derived** **artifact** | Confirm whether **intentional** check-in or **generated**; **library-index** and others may care |
+| `runtime/artifacts/**` | **derived** **artifact** | Confirm whether **intentional** check-in or **generated**; **library-index** and others may care |
 
 **Explicit** `lane/*` **label** on the PR, when present, **outranks** path inference â€” still **narrate**; do **not** **re-label**.
 
@@ -86,7 +86,7 @@ This automation **narrates** and **orients** the operator. It is **not** a secon
 - `self-archive.md` â€” **EVIDENCE** surface
 - `recursion-gate.md` â€” **gate** queue
 - `session-log.md` â€” **session** log
-- `bot/prompt.py` â€” **Voice** / prompt
+- `archive/grace-mar-instance/bot/prompt.py` â€” **Voice** / prompt
 
 **More broadly:** any path under `` is an **instance** **Record** or **operational** **surface** â€” treat as **companion-** and **merge-** **sensitive**. For **gated** **merge** and **[gated-merge]** **commit** rules, see [instance-doctrine.md](../../instance-doctrine.md) and the **Gated Record** **job** in [governance.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/governance.yml) on **PRs**.
 

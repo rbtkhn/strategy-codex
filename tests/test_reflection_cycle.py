@@ -67,7 +67,7 @@ def test_build_reflection_candidate_block_shape():
         timestamp="2099-01-01 12:00:00",
         title_summary="Test",
         proposal=prop,
-        full_analysis_rel="reflection-proposals/REFLECT-20990101-001.md",
+        full_analysis_rel="archive/queues/reflection-proposals/REFLECT-20990101-001.md",
     )
     assert "CANDIDATE-0999" in block
     assert "reflection_cycle_id: REFLECT-20990101-001" in block

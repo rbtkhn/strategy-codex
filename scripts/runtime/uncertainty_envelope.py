@@ -159,7 +159,7 @@ def promotion_recommendation(evidence_state: str, fabricated_history_risk: str) 
 def compute_envelope(observations: list[dict]) -> dict[str, Any]:
     """
     Build a full uncertainty envelope dict from runtime observation rows.
-    Observations should match schema-registry/runtime-observation.v1.json shape.
+    Observations should match schemas/registry/runtime-observation.v1.json shape.
     """
     ev_state, ev_reasons, missing, conflicting = compute_evidence_state(observations)
     fh_risk, fh_reasons = compute_fabricated_history_risk(observations)

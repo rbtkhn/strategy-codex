@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Move root operator JSONL ledgers into runtime/operator-events/ and last-dream into daily-handoff/.
+"""Move root operator JSONL ledgers into runtime/operator-events/ and last-dream into runtime/daily-handoff/.
 
 Usage:
   python3 scripts/migrate_operator_event_paths.py --dry-run
@@ -22,6 +22,7 @@ from repo_io import (  # noqa: E402
     LAST_DREAM_BASENAME,
     OPERATOR_LEDGER_FILES,
     OPERATOR_EVENTS_DIR,
+    last_dream_write_path,
     profile_dir,
 )
 
@@ -36,7 +37,7 @@ def _plan_moves() -> list[tuple[Path, Path]]:
         if src.is_file() and not dst.exists():
             moves.append((src, dst))
     dream_src = root / LAST_DREAM_BASENAME
-    dream_dst = root / "daily-handoff" / LAST_DREAM_BASENAME
+    dream_dst = last_dream_write_path("")
     if dream_src.is_file() and not dream_dst.exists():
         moves.append((dream_src, dream_dst))
     return moves

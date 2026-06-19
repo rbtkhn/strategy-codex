@@ -178,7 +178,7 @@ def _content_summary() -> dict[str, object]:
 
 def _doc_statuses() -> list[dict[str, object]]:
     files = [
-        ("Principal profile", WORK_POLITICS_DIR / "principal-profile.md"),
+        ("Principal platform/profile", WORK_POLITICS_DIR / "principal-profile.md"),
         ("Opposition brief", WORK_POLITICS_DIR / "opposition-brief.md"),
         ("Calendar", WORK_POLITICS_DIR / "calendar-2026.md"),
         ("Revenue log", WORK_POLITICS_DIR / "revenue-log.md"),
@@ -215,7 +215,7 @@ def _territory_blockers(user_id: str) -> list[dict[str, str]]:
                     "action": "Refresh Gallrein, Trump/MAGA, and spending lines before relying on the brief heavily.",
                 }
             )
-        if doc["age_days"] is not None and doc["age_days"] >= 14 and doc["label"] in {"Principal profile", "Revenue log"}:
+        if doc["age_days"] is not None and doc["age_days"] >= 14 and doc["label"] in {"Principal platform/profile", "Revenue log"}:
             blockers.append(
                 {
                     "kind": "freshness",

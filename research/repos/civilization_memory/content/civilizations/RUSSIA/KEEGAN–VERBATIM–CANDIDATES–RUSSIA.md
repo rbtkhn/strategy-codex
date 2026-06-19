@@ -34,7 +34,7 @@
 
 ---
 
-### K3 — Stalingrad: kernel and shell (German deployment)
+### K3 — Stalingrad: kernel and shell (German platform/deployment)
 
 > "The kernel of his Stalingrad concentration, in short, was German; the
 > shell was not."

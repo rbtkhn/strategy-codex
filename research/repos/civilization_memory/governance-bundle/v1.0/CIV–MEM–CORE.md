@@ -1131,7 +1131,7 @@ GEO–MEM Files (Mearsheimer primary, Mercouris secondary):
 • Primary content: Strategic terrain logic, power distribution, structural
   constraints (MEARSHEIMER). Leads strategic-context and structural sections.
 • Secondary content: ARC verbatim quotes and civilizational evidence
-  demonstrating permanent patterns (MERCOURIS evidence).
+  demonstrating permanent patterns (MERCOURIS archive/placeholders/evidence).
 • Question answered: "What does this terrain DO to actors within it?"
 • Quotes serve as evidence that patterns are permanent across all periods.
 

@@ -14,7 +14,7 @@
     "docs/skill-work/work-strategy/strategy-notebook/demo-runs/workbench-visualizer/strategy-notebook-visualizer.html",
     "docs/skill-work/work-strategy/strategy-notebook/demo-runs/workbench-visualizer/strategy-notebook-visualizer.fixture.json",
     "scripts/work_strategy/generate_strategy_notebook_visualizer_fixture.py",
-    "artifacts/work-dev/workbench-screenshots/README.md"
+    "runtime/artifacts/work-dev/workbench-screenshots/README.md"
   ],
   "commandsRun": [
     "python3 scripts/work_strategy/generate_strategy_notebook_visualizer_fixture.py",
@@ -25,7 +25,7 @@
   "inspection": {
     "method": "manual-browser",
     "screenshots": [
-      "artifacts/work-dev/workbench-screenshots/strategy-notebook-visualizer-pilot.png"
+      "runtime/artifacts/work-dev/workbench-screenshots/strategy-notebook-visualizer-pilot.png"
     ],
     "observedFailures": [
       "Hypothetical: zoom at 200% on small laptop — edge table wrapped as expected; no app bug."

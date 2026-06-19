@@ -11,7 +11,7 @@ from tests.conftest import REPO_ROOT, repo_python, run_cmd
 
 def test_companion_factory_new_minimal_template(tmp_path) -> None:
     tpl = tmp_path / "template-root"
-    seed = tpl / "users" / "_template" / "seed-phase"
+    seed = tpl / "platform/users" / "platform/template" / "seed-phase"
     seed.mkdir(parents=True)
     for name in (
         "seed-phase-manifest.json",
@@ -30,9 +30,9 @@ def test_companion_factory_new_minimal_template(tmp_path) -> None:
         "work_dev_seed.json",
         "seed_constitution.json",
     ):
-        shutil.copy2(REPO_ROOT / "users" / "_template" / "seed-phase" / name, seed / name)
-    shutil.copy2(REPO_ROOT / "users" / "_template" / "seed-phase" / "README.md", seed / "README.md")
-    shutil.copy2(REPO_ROOT / "users" / "_template" / "seed-phase" / "seed_dossier.md", seed / "seed_dossier.md")
+        shutil.copy2(REPO_ROOT / "platform/users" / "platform/template" / "seed-phase" / name, seed / name)
+    shutil.copy2(REPO_ROOT / "platform/users" / "platform/template" / "seed-phase" / "README.md", seed / "README.md")
+    shutil.copy2(REPO_ROOT / "platform/users" / "platform/template" / "seed-phase" / "seed_dossier.md", seed / "seed_dossier.md")
     (tpl / "template-manifest.json").write_text(
         json.dumps({"templateVersion": "9.9.9-test"}) + "\n", encoding="utf-8"
     )
@@ -57,7 +57,7 @@ def test_companion_factory_new_minimal_template(tmp_path) -> None:
 
     dest = out_parent / "demo-factory-user"
     assert dest.is_dir()
-    inst_seed = dest / "users" / "demo-factory-user" / "seed-phase"
+    inst_seed = dest / "platform/users" / "demo-factory-user" / "seed-phase"
     assert (inst_seed / "seed_intake.json").is_file()
     man = json.loads((inst_seed / "seed-phase-manifest.json").read_text(encoding="utf-8"))
     assert man["user_slug"] == "demo-factory-user"

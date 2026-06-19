@@ -9,7 +9,7 @@
 
 ## One-pager (decision-maker)
 
-**Problem:** Learner identity lives in silos (LMS, tutors, apps). Platforms own the graph. Families and schools cannot carry a **portable, evidence-grounded** profile across tools or years.
+**Problem:** Learner identity lives in silos (LMS, tutors, platform/apps). Platforms own the graph. Families and schools cannot carry a **portable, evidence-grounded** profile across tools or years.
 
 **Solution:** One **Record** per student — knowledge, curiosity, personality, skills, evidence — updated only when a **human approves** (parent and/or educator). A **Voice** answers from that Record only. **Exports** feed tutors, IEP teams, and next year’s teacher.
 

@@ -4,7 +4,7 @@ Validate seed-phase artifact directories against schema-registry JSON Schemas.
 
 Usage:
   python3 scripts/validate-seed-phase.py demo/seed-phase
-  python3 scripts/validate-seed-phase.py _template/seed-phase --allow-placeholders
+  python3 scripts/validate-seed-phase.py platform/template/seed-phase --allow-placeholders
 """
 
 from __future__ import annotations
@@ -32,7 +32,7 @@ def resolve_seed_dir(path: Path) -> Path:
         return target
     norm = path.as_posix().strip("/")
     if norm == "demo/seed-phase":
-        return (REPO_ROOT / "users" / "demo" / "seed-phase").resolve()
+        return (REPO_ROOT / "platform/users" / "demo" / "seed-phase").resolve()
     return target
 
 
@@ -84,7 +84,7 @@ def main() -> None:
         instances[jname] = raw
 
     manifest = instances["seed-phase-manifest.json"]
-    arts = manifest.get("artifacts") or {}
+    arts = manifest.get("runtime/artifacts") or {}
     if set(arts.keys()) != EXPECTED_ARTIFACT_KEYS:
         print(
             "seed-phase-manifest.json artifacts keys mismatch.\n"

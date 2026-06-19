@@ -50,7 +50,7 @@ def main() -> int:
             "-o",
             str(_prp_output_path(uid)),
         ],
-        [py, str(REPO_ROOT / "scripts" / "export.py"), "manifest", "--", "-u", uid, "-o", str(profile)],
+        [py, str(REPO_ROOT / "scripts" / "export.py"), "manifest", "--", "-u", uid, "-o", str(platform/profile)],
         [py, str(REPO_ROOT / "scripts" / "fork_checksum.py"), "-u", uid, "--manifest"],
         [
             py,
@@ -60,7 +60,7 @@ def main() -> int:
             "-u",
             uid,
             "-o",
-            str(profile / "runtime-bundle"),
+            str(profile / "runtime/bundle"),
         ],
     ]
 

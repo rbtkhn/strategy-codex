@@ -1,7 +1,8 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Topic-aware civ-mem routing (ROME-first profiles, MEM CONNECTIONS expansion).
 
-Reads config/civ_mem_topic_routes.yaml, scores the query against profiles, then
+Reads platform/config/civ_mem_topic_routes.yaml, scores the query against profiles, then
 emits suggested civilization order, MEM–RELEVANCE suggestions where present, ROME
 seeds otherwise, and optional MEM CONNECTIONS neighbors.
 
@@ -16,7 +17,7 @@ Usage:
   python3 scripts/route_civ_mem_topic.py "Pope Leo XIV visit France"
   python3 scripts/route_civ_mem_topic.py --profile latin_catholic_sphere "test"
   python3 scripts/route_civ_mem_topic.py "Algiers mosque dialogue" --expand-connections --log-decision
-  python3 scripts/route_civ_mem_topic.py "hormuz shipping" --focus-config config/civ_mem_routing_focus.yaml
+  python3 scripts/route_civ_mem_topic.py "hormuz shipping" --focus-config platform/config/civ_mem_routing_focus.yaml
   python3 scripts/route_civ_mem_topic.py "test" --no-focus
   python3 scripts/route_civ_mem_topic.py --profile theology_ra_trace "Law of One" --bfs-mem-target 50 --no-focus
 """
@@ -38,10 +39,10 @@ except ImportError:
     yaml = None  # type: ignore
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-CONFIG_PATH = REPO_ROOT / "config" / "civ_mem_topic_routes.yaml"
-FOCUS_CONFIG_PATH = REPO_ROOT / "config" / "civ_mem_routing_focus.yaml"
+CONFIG_PATH = REPO_ROOT / "platform/config" / "civ_mem_topic_routes.yaml"
+FOCUS_CONFIG_PATH = REPO_ROOT / "platform/config" / "civ_mem_routing_focus.yaml"
 CIV_BASE = REPO_ROOT / "research" / "repos" / "civilization_memory" / "content" / "civilizations"
-DEFAULT_LOG = REPO_ROOT / "artifacts" / "skill-work" / "work-civ-mem" / "routing-decisions.jsonl"
+DEFAULT_LOG = ARTIFACTS_DIR / "skill-work" / "work-civ-mem" / "routing-decisions.jsonl"
 
 # Permissive: MEM–ROME–CONSTANTINOPLE — style ids
 MEM_ID_PATTERN = re.compile(r"MEM[–\-][A-Za-z0-9–\-]+")
@@ -110,7 +111,7 @@ def _sticky_bonuses(focus: dict, query_lower: str) -> dict[str, int]:
         if not isinstance(item, dict):
             continue
         kw = (item.get("keyword") or "").strip().lower()
-        pid = item.get("profile")
+        pid = item.get("platform/profile")
         if not kw or not pid:
             continue
         bonus = int(item.get("bonus", 1))
@@ -135,7 +136,7 @@ def _pick_profile(
         "focus_version": (focus or {}).get("focus_version"),
         "valid_from": (focus or {}).get("valid_from"),
         "valid_until": (focus or {}).get("valid_until"),
-        "per_profile": {},
+        "per_platform/profile": {},
         "nonzero_focus_adjustment": False,
     }
 
@@ -166,7 +167,7 @@ def _pick_profile(
         per: dict = {"base_overlap": base, "priority": pri}
         if base < 0:
             per["disqualified"] = True
-            audit["per_profile"][pid] = per
+            audit["per_platform/profile"][pid] = per
             continue
 
         pb = profile_bonuses.get(pid, 0) if focus_active else 0
@@ -175,7 +176,7 @@ def _pick_profile(
         per["profile_overlap_bonus"] = pb
         per["sticky_bonus"] = sb
         per["effective_overlap"] = effective
-        audit["per_profile"][pid] = per
+        audit["per_platform/profile"][pid] = per
 
         cand = (effective, pri)
         if cand > best_score:
@@ -183,7 +184,7 @@ def _pick_profile(
             best_id, best_prof = pid, p
 
     nonzero_focus = False
-    for row in audit["per_profile"].values():
+    for row in audit["per_platform/profile"].values():
         if row.get("disqualified"):
             continue
         if int(row.get("profile_overlap_bonus", 0)) > 0 or int(row.get("sticky_bonus", 0)) > 0:
@@ -192,15 +193,15 @@ def _pick_profile(
     audit["nonzero_focus_adjustment"] = nonzero_focus
 
     if best_id is None or best_score[0] == 0:
-        default_id = cfg.get("default_profile")
+        default_id = cfg.get("default_platform/profile")
         if default_id and default_id in profiles:
-            audit["fallback"] = "default_profile"
+            audit["fallback"] = "default_platform/profile"
             return default_id, profiles[default_id], audit
         first = next(iter(profiles.items()), None)
         if first:
             audit["fallback"] = "first_profile_key"
             return first[0], first[1], audit
-        print("error: no profiles in config", file=sys.stderr)
+        print("error: no profiles in platform/config", file=sys.stderr)
         sys.exit(1)
 
     audit["fallback"] = None
@@ -250,7 +251,7 @@ def _format_focus_block(
         f"- **nonzero_focus_adjustment:** {'yes' if audit.get('nonzero_focus_adjustment') else 'no'}"
     )
 
-    per = audit.get("per_profile") or {}
+    per = audit.get("per_platform/profile") or {}
     if per:
         lines.append("- **per-profile scores:**")
         for pid in sorted(per.keys()):
@@ -481,8 +482,8 @@ def _git_sha() -> str:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("topic", nargs="*", help="Free-text topic / query")
-    ap.add_argument("--profile", help="Override matched profile id")
-    ap.add_argument("--config", type=Path, default=CONFIG_PATH, help="Path to civ_mem_topic_routes.yaml")
+    ap.add_argument("--platform/profile", help="Override matched profile id")
+    ap.add_argument("--platform/config", type=Path, default=CONFIG_PATH, help="Path to civ_mem_topic_routes.yaml")
     ap.add_argument("--budget", type=int, default=12, help="Global MEM open budget (informative cap)")
     ap.add_argument("--max-per-section", type=int, default=2, help="Passed to suggest_civ_mem_from_relevance")
     ap.add_argument("--expand-connections", action="store_true", help="List MEM ids from first ROME seed § connections")
@@ -490,7 +491,7 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="Skip subprocess suggest calls")
     ap.add_argument("--log-decision", action="store_true", help=f"Append JSON line to {DEFAULT_LOG.relative_to(REPO_ROOT)}")
     ap.add_argument(
-        "--focus-config",
+        "--focus-platform/config",
         type=Path,
         default=FOCUS_CONFIG_PATH,
         help="Optional civ_mem_routing_focus.yaml (ignored with --no-focus)",
@@ -547,11 +548,11 @@ def main() -> int:
         return 1
     cfg = yaml.safe_load(cfg_path.read_text(encoding="utf-8"))
 
-    query = " ".join(args.topic).strip() or "(empty query — using default profile)"
+    query = " ".join(args.topic).strip() or "(empty query — using default platform/profile)"
 
     focus_raw: dict | None = None
     if not args.no_focus:
-        focus_raw = _load_focus_config(args.focus_config)
+        focus_raw = _load_focus_config(args.focus_platform/config)
     focus_active = bool(focus_raw and _focus_is_valid(focus_raw))
 
     profile_id, prof, route_audit = _pick_profile(
@@ -572,7 +573,7 @@ def main() -> int:
         f"- **matched_profile:** `{profile_id}`",
         f"- **query:** {query}",
         f"- **civ_order:** {' → '.join(civ_order)}",
-        f"- **attention_pct (profile):** {prof.get('attention_pct', {})}",
+        f"- **attention_pct (platform/profile):** {prof.get('attention_pct', {})}",
         f"- **mem_budget (informative):** {args.budget}",
         "",
     ]
@@ -686,11 +687,11 @@ def main() -> int:
 
     if args.log_decision:
         DEFAULT_LOG.parent.mkdir(parents=True, exist_ok=True)
-        winner_detail = (route_audit.get("per_profile") or {}).get(profile_id, {})
+        winner_detail = (route_audit.get("per_platform/profile") or {}).get(profile_id, {})
         row = {
             "ts": datetime.now(timezone.utc).isoformat(),
             "query": query,
-            "profile": profile_id,
+            "platform/profile": profile_id,
             "civ_order": civ_order,
             "mem_ids": mem_ids_collected[:24],
             "repo_sha": _git_sha(),
@@ -703,7 +704,7 @@ def main() -> int:
             "routing_fallback": route_audit.get("fallback"),
         }
         if not args.no_focus:
-            row["routing_focus_config"] = str(
+            row["routing_focus_platform/config"] = str(
                 args.focus_config.resolve().relative_to(REPO_ROOT)
             )
         with DEFAULT_LOG.open("a", encoding="utf-8") as f:

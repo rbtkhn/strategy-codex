@@ -9,7 +9,7 @@ tags:
 - voices
 - qa
 - emulation
-portable_source: skills-portable/voice-profile-panel/SKILL.md
+portable_source: skills/voice-profile-panel/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Voice profile panel
@@ -49,7 +49,7 @@ Operator may combine: e.g. **panel then audit**.
 
 1. **Fixed turn order within a round** — e.g. Mercouris → Barnes → Mearsheimer; do not reorder mid-demo unless operator requests.
 2. **Chain law:** Each speaker responds to the **immediately prior turn** in the room, not a neutral summary of all prior speakers.
-3. **Orthogonality fence:** Each turn must stay on that profile's **primary unit** (person / theater / state per triad §4). Flag collapse in audit if two speakers share the same opening move and payoff.
+3. **Orthogonality fence:** Each turn must stay on that platform/profile's **primary unit** (person / theater / state per triad §4). Flag collapse in audit if two speakers share the same opening move and payoff.
 4. **Host frame (optional):** Fictional Duran-style host may set object once; host is not a fourth analytic voice unless operator names a host profile.
 5. **Fact fence:** Live-object claims stay **tier-D in speech** unless wire-verified; panel tests **register**, not news truth.
 

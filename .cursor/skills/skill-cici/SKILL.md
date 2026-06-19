@@ -82,10 +82,10 @@ If **L1 (commits)** and **L2 (notes)** disagree, do not force resolution: add a 
 
 **Steps**
 
-1. **Pick calendar day** and create or edit a markdown file where she keeps learning notes (Cici is config/docs–centric; there is no built-in `cici-notebook/` mirror unless she adds one — e.g. `docs/journal/YYYY-MM-DD.md` or personal paths under `docs/personal/` per her README).
+1. **Pick calendar day** and create or edit a markdown file where she keeps learning notes (Cici is platform/config/docs–centric; there is no built-in `cici-notebook/` mirror unless she adds one — e.g. `docs/journal/YYYY-MM-DD.md` or personal paths under `docs/personal/` per her README).
 2. **L1:** List that day’s commits on **`main`** (GitHub UI or `git log --since --until`).
 3. **L2:** Short notes: what she tried (Supabase, MCP, BrewMind site), what blocked.
-4. If she changed **`proposals/`**, **`cici/`**, or **`config/`**, run Cici’s validator when present:
+4. If she changed **`proposals/`**, **`cici/`**, or **`platform/config/`**, run Cici’s validator when present:
    ```bash
    python3 scripts/validate-governed-state.py
    ```

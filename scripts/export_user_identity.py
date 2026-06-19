@@ -54,7 +54,7 @@ def export_user_identity(user_id: str = "grace-mar") -> str:
 
     Returns a single string suitable for writing to a file.
     """
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     self_path = profile_dir / "self.md"
     self_raw = _read(self_path)
     if not self_raw:
@@ -98,7 +98,7 @@ def export_user_identity(user_id: str = "grace-mar") -> str:
 
 def export_user_identity_json(user_id: str = "grace-mar") -> dict:
     """Build structured identity export for agent consumers."""
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     self_path = profile_dir / "self.md"
     self_raw = _read(self_path)
     if not self_raw:

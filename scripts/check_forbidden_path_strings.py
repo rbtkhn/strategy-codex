@@ -41,7 +41,7 @@ SCAN_SUFFIXES = {
 }
 
 PRESETS: dict[str, list[str]] = {
-    "isolate-external-instance": ["users/grace-mar/"],
+    "isolate-external-instance": ["platform/users/grace-mar/"],
 }
 
 
@@ -164,12 +164,12 @@ def main() -> int:
     if args.under_dirs:
         under = [root / d for d in args.under_dirs]
     else:
-        default_users = root / "users"
+        default_users = root / "platform/users"
         if default_users.is_dir():
             under = [default_users]
         else:
             print(
-                "check_forbidden_path_strings: no --under given and users/ missing; specify --under",
+                "check_forbidden_path_strings: no --under given and platform/users/ missing; specify --under",
                 file=sys.stderr,
             )
             return 2

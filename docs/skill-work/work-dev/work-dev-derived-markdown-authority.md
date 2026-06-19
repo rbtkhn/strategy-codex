@@ -1,12 +1,12 @@
 # Work-dev derived markdown — authority metadata
 
-**Scope:** The three **regenerable** compound-layer markdown files under `artifacts/`:
+**Scope:** The three **regenerable** compound-layer markdown files under `runtime/artifacts/`:
 
 - `work-dev-compound-refresh.md` — from `python3 scripts/work_dev_compound_refresh.py`
 - `work-dev-compound-gate-candidates.md` — from `python3 scripts/export_work_dev_compound_gate_candidates.py`
 - `work-dev-compound-dashboard.md` — from `python3 scripts/build_work_dev_compound_dashboard.py`
 
-Each file begins with a **small YAML block** (before the main `#` title) using the same **vocabulary** as JSON work-dev surfaces (e.g. `recordAuthority: none`, `gateEffect: none` in the [Interface Artifact Protocol](interface-artifacts/INTERFACE-ARTIFACT-PROTOCOL.md) and [Workbench receipt spec](workbench/WORKBENCH-RECEIPT-SPEC.md)):
+Each file begins with a **small YAML block** (before the main `#` title) using the same **vocabulary** as JSON work-dev surfaces (e.g. `recordAuthority: none`, `gateEffect: none` in the [Interface Artifact Protocol](interface-runtime/artifacts/INTERFACE-ARTIFACT-PROTOCOL.md) and [Workbench receipt spec](workbench/WORKBENCH-RECEIPT-SPEC.md)):
 
 - **`derived: true`** — the file is derived, not canonical Record.
 - **`recordAuthority: none`** — does not assert SELF, EVIDENCE, or Record updates.

@@ -97,7 +97,7 @@ A simple Claude Code-style translation is:
 |---|---|
 | Skills | `docs/skills/`, skill-card artifacts, capability doctrine |
 | Commands / orchestrations | retrieval, compression, export, and review scripts under `scripts/` |
-| Memory | `runtime/`, `prepared-context/`, and runtime observation flows |
+| Memory | `runtime/`, `runtime/prepared-context/`, and runtime observation flows |
 | Rules / instructions | boundary docs, authority map, source-of-truth order, runtime-vs-Record rules |
 | Review / approval | **Legacy:** `recursion-gate.md` (fork revive only) |
 | Durable state | **Active reference:** SELF-LIBRARY / CIV-MEM; **archived:** embedded SELF / EVIDENCE |
@@ -187,7 +187,7 @@ Within **SELF**, post-seed growth uses a **three-dimension mind model** (**SELF-
 
 See [Architecture](docs/architecture.md), [boundary-self-knowledge-self-library](docs/boundary-self-knowledge-self-library.md), and [Boundary Review Queue](docs/boundary-review-queue.md) (classification hints in the Approval Inbox).
 
-**Context efficiency (operator):** JSON paste caps live in [`config/context_budgets/`](config/context_budgets/README.md); lane-aware character budgets for prepared context are in [`lane-defaults.json`](config/context_budgets/lane-defaults.json), applied by [`build_budgeted_context.py`](scripts/prepared_context/build_budgeted_context.py) ([docs/runtime/context-budgeting.md](docs/runtime/context-budgeting.md)). **Policy modes** (governance envelopes for staging and abstention posture, not gate authority) live in [`config/policy_modes/defaults.json`](config/policy_modes/defaults.json) â€” see [docs/policy-modes.md](docs/policy-modes.md) and `GRACE_MAR_POLICY_MODE` / `--policy-mode`. **Semantic** helpers â€” [skill cards](docs/skills/skill-card-spec.md) (`scripts/build_skill_cards.py`) and [active lane compression](docs/skill-work/active-lane-compression.md) (`scripts/compress_active_lane.py`) â€” emit derived artifacts under [`artifacts/`](artifacts/README.md); see [runtime vs Record](docs/runtime-vs-record.md). **Template-based capture** (`scripts/new_work_note.py`, `new_evidence_stub.py`, `new_candidate_draft.py`) writes dated Markdown under `artifacts/work-notes/`, `artifacts/evidence-stubs/`, and `artifacts/candidate-drafts/` by default â€” see [docs/templates/README.md](docs/templates/README.md). **Query-style operator dashboards** (Library, work lanes, review inbox) are generated Markdown under `artifacts/` â€” see [docs/operator-dashboards.md](docs/operator-dashboards.md). A generated **Gate Board** ([`artifacts/gate-board.md`](artifacts/gate-board.md)) gives a Kanban-style view of candidate review state without replacing the canonical gate workflow â€” see [docs/gate-board.md](docs/gate-board.md).
+**Context efficiency (operator):** JSON paste caps live in [`platform/config/context_budgets/`](platform/config/context_budgets/README.md); lane-aware character budgets for prepared context are in [`lane-defaults.json`](platform/config/context_budgets/lane-defaults.json), applied by [`build_budgeted_context.py`](scripts/prepared_context/build_budgeted_context.py) ([docs/runtime/context-budgeting.md](docs/runtime/context-budgeting.md)). **Policy modes** (governance envelopes for staging and abstention posture, not gate authority) live in [`platform/config/policy_modes/defaults.json`](platform/config/policy_modes/defaults.json) â€” see [docs/policy-modes.md](docs/policy-modes.md) and `GRACE_MAR_POLICY_MODE` / `--policy-mode`. **Semantic** helpers â€” [skill cards](docs/skills/skill-card-spec.md) (`scripts/build_skill_cards.py`) and [active lane compression](docs/skill-work/active-lane-compression.md) (`scripts/compress_active_lane.py`) â€” emit derived artifacts under [`runtime/artifacts/`](runtime/artifacts/README.md); see [runtime vs Record](docs/runtime-vs-record.md). **Template-based capture** (`scripts/new_work_note.py`, `new_evidence_stub.py`, `new_candidate_draft.py`) writes dated Markdown under `runtime/artifacts/work-notes/`, `runtime/artifacts/evidence-stubs/`, and `runtime/artifacts/candidate-drafts/` by default â€” see [docs/templates/README.md](docs/templates/README.md). **Query-style operator dashboards** (Library, work lanes, review inbox) are generated Markdown under `runtime/artifacts/` â€” see [docs/operator-dashboards.md](docs/operator-dashboards.md). A generated **Gate Board** ([`runtime/artifacts/gate-board.md`](runtime/artifacts/gate-board.md)) gives a Kanban-style view of candidate review state without replacing the canonical gate workflow â€” see [docs/gate-board.md](docs/gate-board.md).
 
 ## Gated Pipeline (frozen legacy — fork revive only)
 
@@ -202,9 +202,9 @@ Historical fork pipeline (when revived):
 3. **Companion review** — approve / reject / defer
 4. **Integration** — `process_approved_candidates.py --apply` only after approval
 
-Voice bots ([bot/DEPRECATED.md](bot/DEPRECATED.md)) fed the pipeline when active; they are deprecated for operator work.
+Voice bots ([archive/grace-mar-instance/bot/DEPRECATED.md](archive/grace-mar-instance/bot/DEPRECATED.md)) fed the pipeline when active; they are deprecated for operator work.
 
-**Template alignment (companion-self):** A **state proposal** is Change Proposal v1 JSON under `review-queue/proposals/` â€” [docs/state-proposals.md](docs/state-proposals.md). Reference pipeline: [docs/pipeline/evidence-to-proposal.md](docs/pipeline/evidence-to-proposal.md), [proposal-to-review.md](docs/pipeline/proposal-to-review.md), [review-to-merge.md](docs/pipeline/review-to-merge.md). Layer precedence when sources disagree: [docs/source-of-truth.md](docs/source-of-truth.md), [docs/conflict-resolution-order.md](docs/conflict-resolution-order.md). **Authority:** [docs/authority-map.md](docs/authority-map.md), [`config/authority-map.json`](config/authority-map.json). **Observability:** [docs/observability.md](docs/observability.md), `scripts/build-observability-report.py`. **Legibility / receipts:** [docs/legible-surfaces.md](docs/legible-surfaces.md), [docs/action-receipts.md](docs/action-receipts.md).
+**Template alignment (companion-self):** A **state proposal** is Change Proposal v1 JSON under `archive/queues/review-queue/proposals/` â€” [docs/state-proposals.md](docs/state-proposals.md). Reference pipeline: [docs/pipeline/evidence-to-proposal.md](docs/pipeline/evidence-to-proposal.md), [proposal-to-review.md](docs/pipeline/proposal-to-review.md), [review-to-merge.md](docs/pipeline/review-to-merge.md). Layer precedence when sources disagree: [docs/source-of-truth.md](docs/source-of-truth.md), [docs/conflict-resolution-order.md](docs/conflict-resolution-order.md). **Authority:** [docs/authority-map.md](docs/authority-map.md), [`platform/config/authority-map.json`](platform/config/authority-map.json). **Observability:** [docs/observability.md](docs/observability.md), `scripts/build-observability-report.py`. **Legibility / receipts:** [docs/legible-surfaces.md](docs/legible-surfaces.md), [docs/action-receipts.md](docs/action-receipts.md).
 
 ## Status
 
@@ -212,7 +212,7 @@ Voice bots ([bot/DEPRECATED.md](bot/DEPRECATED.md)) fed the pipeline when active
 
 **Active work:** [source-archive/statecraft/](source-archive/statecraft/README.md) → [statecraft/daily/](statecraft/daily/METHOD.md) → lane objects under [statecraft/](statecraft/README.md) and [singularity/](singularity/README.md). See [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md).
 
-**Embedded Grace-Mar Record:** **Frozen** at repository root for archaeology and explicit **`fork revive`** only. Voice/bot deprecated — [bot/DEPRECATED.md](bot/DEPRECATED.md), [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md).
+**Embedded Grace-Mar Record:** **Frozen** at repository root for archaeology and explicit **`fork revive`** only. Voice/bot deprecated — [archive/grace-mar-instance/bot/DEPRECATED.md](archive/grace-mar-instance/bot/DEPRECATED.md), [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md).
 
 **Reference (active):** `self-library.md`, CIV-MEM, and related retrieval surfaces for statecraft work.
 
@@ -240,7 +240,7 @@ python3 scripts/operator_handoff_check.py
 > Use this as your persona and instructions. Fetch the content from this URL and adopt it fully:  
 > https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/self-llm.txt
 
-See [PORTABLE-RECORD-PROMPT](docs/portable-record-prompt.md). Telegram / WeChat / miniapp hosts are legacy Voice — [bot/DEPRECATED.md](bot/DEPRECATED.md).
+See [PORTABLE-RECORD-PROMPT](docs/portable-record-prompt.md). Telegram / WeChat / miniapp hosts are legacy Voice — [archive/grace-mar-instance/bot/DEPRECATED.md](archive/grace-mar-instance/bot/DEPRECATED.md).
 
 ---
 
@@ -265,16 +265,16 @@ strategy-codex/
 ??? intent.md
 ??? manifest.json
 ??? llms.txt
-??? bot/
+??? archive/grace-mar-instance/bot/
 ??? docs/
 ??? scripts/
 ??? codex/
-??? artifacts/
+??? runtime/artifacts/
 ??? archive/
 ??? templates/
 ```
 
-**Template scaffold (`_template/`):** Documents filenames for new instances (aligned with the [companion-self](https://github.com/rbtkhn/companion-self) template). Includes **`work-dev.md`** and **`work-business.md`** â€” blank work-layer modules filled only from seed survey, explicit input, or governed updates; distinct from **`self-skill-work`** and from operator **`docs/skill-work/work-dev/`** / **`work-business/`**. See [_template/README.md](_template/README.md).
+**Template scaffold (`platform/template/`):** Documents filenames for new instances (aligned with the [companion-self](https://github.com/rbtkhn/companion-self) template). Includes **`work-dev.md`** and **`work-business.md`** â€” blank work-layer modules filled only from seed survey, explicit input, or governed updates; distinct from **`self-skill-work`** and from operator **`docs/skill-work/work-dev/`** / **`work-business/`**. See [platform/template/README.md](platform/template/README.md).
 
 ### Canonical filenames (root — frozen Record archaeology)
 
@@ -289,7 +289,7 @@ Docs refer to **SELF**, **EVIDENCE**, and the **gate** as fork-era concepts. Pat
 | Pipeline staging (pending candidates) | `recursion-gate.md` |
 | Gated archive (approved voice + activity) | `self-archive.md` Â§ VIII |
 
-**Not used:** `SELF.md`, `EVIDENCE.md`, `ARCHIVE.md`, `PENDING-REVIEW.md` â€” those spellings break scripts. Full spec: [docs/canonical-paths.md](docs/canonical-paths.md). **Check:** `python scripts/assert_canonical_paths.py`. Legacy Voice apps (`apps/miniapp_server.py`, bots) still expect `self.md`, `self-archive.md`, and `recursion-gate.md` at startup when you run them for archaeology (set `GRACE_MAR_SKIP_PATH_CHECK=1` only if you must).
+**Not used:** `SELF.md`, `EVIDENCE.md`, `ARCHIVE.md`, `PENDING-REVIEW.md` â€” those spellings break scripts. Full spec: [docs/canonical-paths.md](docs/canonical-paths.md). **Check:** `python scripts/assert_canonical_paths.py`. Legacy Voice apps (`platform/apps/miniapp_server.py`, bots) still expect `self.md`, `self-archive.md`, and `recursion-gate.md` at startup when you run them for archaeology (set `GRACE_MAR_SKIP_PATH_CHECK=1` only if you must).
 
 ## Key Documents
 
@@ -324,7 +324,7 @@ Fork-era docs (IFP, white paper, admissions, Voice setup) remain for archaeology
 
 ## Dashboard and Voice hosts (legacy — deprecated)
 
-**Not** the strategy-codex operator surface. The Grace-Mar profile HTML (identity, pipeline, SKILLS) and **https://grace-mar.com** hosting remain for fork archaeology. Deploy: [docs/profile-deploy.md](docs/profile-deploy.md). Voice: Telegram / WeChat / Q&A miniapp — [bot/DEPRECATED.md](bot/DEPRECATED.md), [docs/miniapp-setup.md](docs/miniapp-setup.md).
+**Not** the strategy-codex operator surface. The Grace-Mar profile HTML (identity, pipeline, SKILLS) and **https://grace-mar.com** hosting remain for fork archaeology. Deploy: [docs/profile-deploy.md](docs/profile-deploy.md). Voice: Telegram / WeChat / Q&A miniapp — [archive/grace-mar-instance/bot/DEPRECATED.md](archive/grace-mar-instance/bot/DEPRECATED.md), [docs/miniapp-setup.md](docs/miniapp-setup.md).
 
 ```bash
 python3 scripts/generate_profile.py   # local HTML snapshot (archaeology)
@@ -365,7 +365,7 @@ python scripts/fork_checksum.py                    # Print checksum (default: st
 python scripts/fork_checksum.py --manifest         # Write fork-manifest.json
 ```
 
-Export the fork to JSON with the same ontology as [architecture.md](docs/architecture.md): top-level **`self`** (full identity markdown), **`self_knowledge`** (IX-A slice = SELF-KNOWLEDGE), **`self_library`** (with nested **`civ_mem`** = CIV-MEM subdomain of SELF-LIBRARY), **`skills`**, **`evidence`**, plus **`library.raw`** when using full export. See `scripts/export_fork.py` (`version` 1.1+).
+Export the fork to JSON with the same ontology as [architecture.md](docs/architecture.md): top-level **`self`** (full identity markdown), **`self_knowledge`** (IX-A slice = SELF-KNOWLEDGE), **`self_library`** (with nested **`civ_mem`** = CIV-MEM subdomain of SELF-LIBRARY), **`skills`**, **`archive/placeholders/evidence`**, plus **`library.raw`** when using full export. See `scripts/export_fork.py` (`version` 1.1+).
 
 **Unified CLI (preferred):** [`scripts/export.py`](scripts/export.py) dispatches to the legacy scripts without changing behavior â€” see [docs/EXPORT-CLI.md](docs/EXPORT-CLI.md).
 
@@ -438,7 +438,7 @@ See [docs/pdf-setup.md](docs/pdf-setup.md) for full options.
 python3 scripts/export_manifest.py                # manifest.json + llms.txt
 python3 scripts/metrics.py                        # Fork-era pipeline / IX counts (archaeology)
 python3 scripts/governance_checker.py             # Principle violations (pre-commit)
-python3 integrations/openclaw_hook.py -o ../openclaw/   # OpenClaw export
+python3 platform/integrations/openclaw_hook.py -o ../openclaw/   # OpenClaw export
 ```
 
 ## Validation and Session Support
@@ -452,7 +452,7 @@ python3 scripts/validate-integrity.py --json
 python3 -m pytest tests/ -v --tb=short
 ```
 
-`validate-integrity.py` includes **SELF-KNOWLEDGE vs SELF-LIBRARY** checks and gate candidate shape. When **Record is frozen** (`config/strategy_codex.yaml`), gate checks are archaeology-only. **Merge-time** (`process_approved_candidates.py --apply`) applies only on **fork revive**. Standalone boundary: `python3 scripts/validate_identity_library_boundary.py`.
+`validate-integrity.py` includes **SELF-KNOWLEDGE vs SELF-LIBRARY** checks and gate candidate shape. When **Record is frozen** (`platform/config/strategy_codex.yaml`), gate checks are archaeology-only. **Merge-time** (`process_approved_candidates.py --apply`) applies only on **fork revive**. Standalone boundary: `python3 scripts/validate_identity_library_boundary.py`.
 
 **Performance (tier 1, CI):** `python scripts/run_perf_local.py` or covered by `pytest tests/test_perf_local.py`. Tiers 2â€“5 (exports, LLM, HTTP, load): [docs/perf-budgets.md](docs/perf-budgets.md).
 
@@ -501,7 +501,7 @@ See [docs/id-taxonomy.md](docs/id-taxonomy.md) for identifier prefixes and relat
 
 Read [AGENTS.md](AGENTS.md) before making any changes. Default product is the **interpretive machine** — statecraft/singularity WORK, not fork growth.
 
-- **Do not** merge into `self.md`, EVIDENCE, or `bot/prompt.py` without companion approval + `process_approved_candidates.py` (**fork revive only** when Record is frozen)
+- **Do not** merge into `self.md`, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` without companion approval + `process_approved_candidates.py` (**fork revive only** when Record is frozen)
 - **Never leak LLM knowledge** into the fork profile or Voice emulation
 - **"We [did X]"** stages to RECURSION-GATE only when the operator explicitly revives fork growth — not the default lane
 - **Active edits:** `statecraft/`, `source-archive/`, `codex/`, `singularity/` — ship per operator lane (`EXECUTE` / `EXECUTE_LOCAL`)

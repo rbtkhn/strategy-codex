@@ -4,7 +4,7 @@
 
 **Script:** [`scripts/compress_active_lane.py`](../../scripts/compress_active_lane.py)
 
-**Default output:** `artifacts/context/active-lane-<lane>.md` (or `.json` with `--json`)
+**Default output:** `runtime/artifacts/context/active-lane-<lane>.md` (or `.json` with `--json`)
 
 ---
 
@@ -12,7 +12,7 @@
 
 | Mechanism | Role |
 |-----------|------|
-| **[`config/context_budgets/`](../../config/context_budgets/)** | Caps **paste size** for rituals (`session_brief.json`, `coffee.json`, …) — machine-readable limits. |
+| **[`platform/config/context_budgets/`](../../platform/config/context_budgets/)** | Caps **paste size** for rituals (`session_brief.json`, `coffee.json`, …) — machine-readable limits. |
 | **`compress_active_lane.py`** | One **semantic** squeeze of **one lane** (objective, next step, risks, paths) — operator memo, not a cap table. |
 
 Do not merge the two stories: budgets **truncate**; lane compression **selects and points**. Both live under CEL as “load less, recover fast.”

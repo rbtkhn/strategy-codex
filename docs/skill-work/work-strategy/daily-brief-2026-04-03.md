@@ -110,7 +110,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:3 S:0 G:1]** [Live updates: Iran shoots down US F-15; White House’s 2027 budget seeks $1.5T for Pentagon](https://thehill.com/homenews/administration/5813088-live-updates-trump-iran-doj-2027-budget/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-04-03 15:15 UTC_
 - **[W:3 S:0 G:1]** [As Trump rails against NATO, secretary general heads to Washington](https://www.nbcnews.com/politics/white-house/trump-rails-nato-secretary-general-heads-dc-rcna266423) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _2026-04-02 21:37 UTC_

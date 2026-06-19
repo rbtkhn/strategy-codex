@@ -19,9 +19,9 @@ def test_load_json_file_caches_until_cleared(tmp_path) -> None:
 
 def test_load_schema_relative(tmp_path, monkeypatch) -> None:
     cache.clear_cache()
-    schema_dir = tmp_path / "schema-registry"
+    schema_dir = tmp_path / "schemas/registry"
     schema_dir.mkdir()
-    rel = "schema-registry/test-schema.v1.json"
+    rel = "schemas/registry/test-schema.v1.json"
     f = tmp_path / rel
     f.parent.mkdir(parents=True, exist_ok=True)
     f.write_text('{"$schema": "https://json-schema.org/draft/2020-12/schema"}', encoding="utf-8")

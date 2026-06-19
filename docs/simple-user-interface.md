@@ -18,7 +18,7 @@
 
 If your operator gives you a link like **https://…/app** with a **family code**, you can:
 
-- **Chat** — talk with Grace-Mar in the browser (same idea as the bot).
+- **Chat** — talk with Grace-Mar in the browser (same idea as the archive/grace-mar-instance/bot).
 - **Log** — type what you did (e.g. *We read The Wild Robot*) so it goes to the review queue.
 - **Review** — a grown-up enters a separate **operator** code to approve items and update the permanent record.
 

@@ -467,7 +467,7 @@ Source:
   ROMAN–EMPERORS–PARALLELS; MEM–AMERICA–PRESIDENT–ADAMS, MEM–AMERICA–PRESIDENT–MADISON,
   MEM–AMERICA–PRESIDENT–JACKSON, MEM–AMERICA–PRESIDENT–NIXON, MEM–ROME–AUGUSTUS, MEM–
   ROME–EMPIRE–TIBERIUS (February 2026). Traversals: E (Roman first
-  succession), G (Adams 1801), A (empire of laws; Madison extension),
+  succession), G (Adams 1801), A (empire of laws; Madison platform/extension),
   F (stress moments), B (1937 structural incentive), H (synthesis).
 Ingest Type:
 • America-specific / cross-civ — legitimacy encoding and first succession

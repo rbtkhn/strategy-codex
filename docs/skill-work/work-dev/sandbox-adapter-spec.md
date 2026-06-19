@@ -196,7 +196,7 @@ Initial backends (stubs only until needed):
 
 - **Building a container runtime.** We use existing runtimes.
 - **Agent-to-agent communication.** The adapter serves one caller per invocation; multi-agent orchestration is a separate concern (layer 6).
-- **Billing/provisioning policy.** The compute ledger records cost; budget enforcement and approval thresholds are future work (adjacent to GAP-009 extension).
+- **Billing/provisioning policy.** The compute ledger records cost; budget enforcement and approval thresholds are future work (adjacent to GAP-009 platform/extension).
 - **Persistent sandbox state.** Each invocation is stateless. If persistent environments are needed, that is a backend feature, not an adapter concern.
 - **File content inspection.** The adapter hashes files for provenance but does not inspect or filter content. Content governance is the caller's responsibility.
 

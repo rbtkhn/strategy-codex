@@ -1735,66 +1735,66 @@ export class ImagineSessionService {
 ## 4. API Routes
 
 ```typescript
-// app/api/pipeline/ingest/route.ts
+// platform/app/api/pipeline/ingest/route.ts
 POST /api/pipeline/ingest
   Body: { memFilePaths: string[], mode: IngestionMode, scholarFileId: number }
   Response: LearningEventRecord
 
-// app/api/pipeline/ingest/[lerId]/confirm/route.ts
+// platform/app/api/pipeline/ingest/[lerId]/confirm/route.ts
 POST /api/pipeline/ingest/[lerId]/confirm
   Response: LearningEventRecord
 
-// app/api/pipeline/ingest/[lerId]/reject/route.ts  
+// platform/app/api/pipeline/ingest/[lerId]/reject/route.ts  
 POST /api/pipeline/ingest/[lerId]/reject
   Body: { reason: string }
   Response: void
 
-// app/api/pipeline/promote/route.ts
+// platform/app/api/pipeline/promote/route.ts
 POST /api/pipeline/promote
   Body: { rllId: string }
   Response: RecursiveLearningLaw
 
-// app/api/pipeline/bind/route.ts
+// platform/app/api/pipeline/bind/route.ts
 POST /api/pipeline/bind
   Body: { rllId: string, targetCoreFileId: number }
   Response: BindingEventRecord
 
-// app/api/pipeline/conflicts/route.ts
+// platform/app/api/pipeline/conflicts/route.ts
 GET /api/pipeline/conflicts?civilization=RUSSIA&status=OPEN
   Response: CrossLayerConflict[]
 
-// app/api/pipeline/conflicts/[conflictId]/resolve/route.ts
+// platform/app/api/pipeline/conflicts/[conflictId]/resolve/route.ts
 POST /api/pipeline/conflicts/[conflictId]/resolve
   Body: ResolutionAction
   Response: CrossLayerConflict
 
-// app/api/pipeline/audit/route.ts
+// platform/app/api/pipeline/audit/route.ts
 GET /api/pipeline/audit?eventType=INGESTION&limit=50
   Response: PipelineAuditEntry[]
 
-// app/api/pipeline/audit/trace/[rllId]/route.ts
+// platform/app/api/pipeline/audit/trace/[rllId]/route.ts
 GET /api/pipeline/audit/trace/[rllId]
   Response: TraceabilityChain
 
-// app/api/rll/route.ts
+// platform/app/api/rll/route.ts
 GET /api/rll?civilization=RUSSIA&state=BOUND
   Response: RecursiveLearningLaw[]
 
-// app/api/rll/[rllId]/route.ts
+// platform/app/api/rll/[rllId]/route.ts
 GET /api/rll/[rllId]
   Response: RecursiveLearningLaw
 
-// app/api/rll/[rllId]/review/route.ts
+// platform/app/api/rll/[rllId]/review/route.ts
 POST /api/rll/[rllId]/review
   Body: { contradictingMemFiles: string[] }
   Response: void
 
-// app/api/rll/[rllId]/reaffirm/route.ts
+// platform/app/api/rll/[rllId]/reaffirm/route.ts
 POST /api/rll/[rllId]/reaffirm
   Body: { rationale: string }
   Response: RecursiveLearningLaw
 
-// app/api/rll/[rllId]/supersede/route.ts
+// platform/app/api/rll/[rllId]/supersede/route.ts
 POST /api/rll/[rllId]/supersede
   Body: { replacementRllId: string, rationale: string }
   Response: RecursiveLearningLaw
@@ -1803,25 +1803,25 @@ POST /api/rll/[rllId]/supersede
 // SCHOLAR → WRITE MODE INTERFACE ROUTES
 // ============================================
 
-// app/api/write-context/route.ts
+// platform/app/api/write-context/route.ts
 POST /api/write-context
   Body: { civilization: string, targetMemPath?: string, sessionId: string }
   Response: WriteContextPackage
 
-// app/api/write-context/[wcpId]/route.ts
+// platform/app/api/write-context/[wcpId]/route.ts
 GET /api/write-context/[wcpId]
   Response: WriteContextPackage
 
-// app/api/write-context/[wcpId]/advisory-check/route.ts
+// platform/app/api/write-context/[wcpId]/advisory-check/route.ts
 POST /api/write-context/[wcpId]/advisory-check
   Body: { draftContent: string, memConnections: string[] }
   Response: AdvisoryFlag[]
 
-// app/api/write-context/[wcpId]/flags/route.ts
+// platform/app/api/write-context/[wcpId]/flags/route.ts
 GET /api/write-context/[wcpId]/flags
   Response: AdvisoryFlag[]
 
-// app/api/write-context/[wcpId]/flags/[flagId]/dismiss/route.ts
+// platform/app/api/write-context/[wcpId]/flags/[flagId]/dismiss/route.ts
 POST /api/write-context/[wcpId]/flags/[flagId]/dismiss
   Response: void
 
@@ -1829,37 +1829,37 @@ POST /api/write-context/[wcpId]/flags/[flagId]/dismiss
 // POST-WRITE QUEUE ROUTES
 // ============================================
 
-// app/api/post-write-queue/route.ts
+// platform/app/api/post-write-queue/route.ts
 POST /api/post-write-queue
   Body: QueueRequest
   Response: PostWriteQueueRecord
 
-// app/api/post-write-queue/route.ts
+// platform/app/api/post-write-queue/route.ts
 GET /api/post-write-queue?civilization=RUSSIA&status=PENDING
   Response: PostWriteQueueRecord[]
 
-// app/api/post-write-queue/[pwqrId]/route.ts
+// platform/app/api/post-write-queue/[pwqrId]/route.ts
 GET /api/post-write-queue/[pwqrId]
   Response: PostWriteQueueRecord
 
-// app/api/post-write-queue/[pwqrId]/process/route.ts
+// platform/app/api/post-write-queue/[pwqrId]/process/route.ts
 POST /api/post-write-queue/[pwqrId]/process
   Response: ProcessingResult
 
-// app/api/post-write-queue/[pwqrId]/priority/route.ts
+// platform/app/api/post-write-queue/[pwqrId]/priority/route.ts
 PATCH /api/post-write-queue/[pwqrId]/priority
   Body: { priority: number }
   Response: PostWriteQueueRecord
 
-// app/api/post-write-queue/[pwqrId]/retry/route.ts
+// platform/app/api/post-write-queue/[pwqrId]/retry/route.ts
 POST /api/post-write-queue/[pwqrId]/retry
   Response: PostWriteQueueRecord
 
-// app/api/post-write-queue/stats/route.ts
+// platform/app/api/post-write-queue/stats/route.ts
 GET /api/post-write-queue/stats?civilization=RUSSIA
   Response: { pending, inProgress, complete, failed, oldestPending }
 
-// app/api/post-write-queue/process-next/route.ts
+// platform/app/api/post-write-queue/process-next/route.ts
 POST /api/post-write-queue/process-next
   Body: { civilization: string }
   Response: ProcessingResult | null
@@ -1868,42 +1868,42 @@ POST /api/post-write-queue/process-next
 // PEDAGOGICAL OBSERVATION ROUTES
 // ============================================
 
-// app/api/por/route.ts
+// platform/app/api/por/route.ts
 POST /api/por
   Body: PORGenerationContext
   Response: PedagogicalObservationRecord
 
-// app/api/por/route.ts
+// platform/app/api/por/route.ts
 GET /api/por?civilization=RUSSIA&status=RECORDED
   Response: PedagogicalObservationRecord[]
 
-// app/api/por/[porId]/route.ts
+// platform/app/api/por/[porId]/route.ts
 GET /api/por/[porId]
   Response: PedagogicalObservationRecord
 
-// app/api/por/[porId]/review/route.ts
+// platform/app/api/por/[porId]/review/route.ts
 POST /api/por/[porId]/review
   Body: PORReviewAction
   Response: PedagogicalObservationRecord
 
-// app/api/por/[porId]/dismiss/route.ts
+// platform/app/api/por/[porId]/dismiss/route.ts
 POST /api/por/[porId]/dismiss
   Body: { rationale?: string }
   Response: PedagogicalObservationRecord
 
-// app/api/por/[porId]/defer/route.ts
+// platform/app/api/por/[porId]/defer/route.ts
 POST /api/por/[porId]/defer
   Response: PedagogicalObservationRecord
 
-// app/api/por/[porId]/investigate/route.ts
+// platform/app/api/por/[porId]/investigate/route.ts
 POST /api/por/[porId]/investigate
   Response: InvestigationResult
 
-// app/api/por/[porId]/convert-to-task/route.ts
+// platform/app/api/por/[porId]/convert-to-task/route.ts
 POST /api/por/[porId]/convert-to-task
   Response: PedagogicalObservationRecord
 
-// app/api/por/stats/route.ts
+// platform/app/api/por/stats/route.ts
 GET /api/por/stats?civilization=RUSSIA
   Response: { recorded, reviewed, dismissed, deferred, actedUpon, byType }
 
@@ -1911,37 +1911,37 @@ GET /api/por/stats?civilization=RUSSIA
 // IMAGINE SESSION ROUTES
 // ============================================
 
-// app/api/imagine-session/route.ts
+// platform/app/api/imagine-session/route.ts
 POST /api/imagine-session
   Body: StartSessionRequest
   Response: ImagineSessionSummary
 
-// app/api/imagine-session/route.ts
+// platform/app/api/imagine-session/route.ts
 GET /api/imagine-session?civilization=RUSSIA&limit=10
   Response: ImagineSessionSummary[]
 
-// app/api/imagine-session/[sessionId]/route.ts
+// platform/app/api/imagine-session/[sessionId]/route.ts
 GET /api/imagine-session/[sessionId]
   Response: ImagineSessionSummary
 
-// app/api/imagine-session/[sessionId]/end/route.ts
+// platform/app/api/imagine-session/[sessionId]/end/route.ts
 POST /api/imagine-session/[sessionId]/end
   Response: ImagineSessionSummary
 
-// app/api/imagine-session/[sessionId]/interaction/route.ts
+// platform/app/api/imagine-session/[sessionId]/interaction/route.ts
 POST /api/imagine-session/[sessionId]/interaction
   Body: SessionInteraction
   Response: void
 
-// app/api/imagine-session/[sessionId]/pors/route.ts
+// platform/app/api/imagine-session/[sessionId]/pors/route.ts
 GET /api/imagine-session/[sessionId]/pors
   Response: PedagogicalObservationRecord[]
 
-// app/api/imagine-session/context/route.ts
+// platform/app/api/imagine-session/context/route.ts
 GET /api/imagine-session/context?civilization=RUSSIA&topics=reform,succession
   Response: ImagineContext
 
-// app/api/imagine-session/stats/route.ts
+// platform/app/api/imagine-session/stats/route.ts
 GET /api/imagine-session/stats?civilization=RUSSIA
   Response: { totalSessions, totalDuration, avgSessionDuration, ... }
 ```

@@ -106,7 +106,7 @@
     }
   },
   "exports": {
-    "users/grace-mar/openclaw-user.md": "python scripts/export_user_identity.py -u grace-mar -o users/grace-mar/openclaw-user.md",
+    "platform/users/grace-mar/openclaw-user.md": "python scripts/export_user_identity.py -u grace-mar -o platform/users/grace-mar/openclaw-user.md",
     "manifest": "python scripts/export_manifest.py -u grace-mar",
     "fork_json": "python scripts/export_fork.py -o fork-export.json",
     "intent_snapshot": "python scripts/export_intent_snapshot.py -u grace-mar",
@@ -123,7 +123,7 @@
     "ok": true,
     "user_id": "grace-mar",
     "generated_at": "2026-04-17T09:57:41.559827",
-    "source": "users/grace-mar/intent.md",
+    "source": "platform/users/grace-mar/intent.md",
     "goals": {
       "primary": "Protect companion authority over the Record and Voice; keep identity changes gated and evidence-linked",
       "secondary": "Prefer clarity, safety, and calibrated abstention over guessing when facts are not in the Record",
@@ -175,8 +175,8 @@
       "Escalate when evidence linkage for a durable claim is missing or weak"
     ],
     "never_autonomous_actions": [
-      "Merge into self.md, self-evidence.md, or bot/prompt.py without companion-approved pipeline processing",
-      "Raise Lexile ceiling without documented writing-sample evidence",
+      "Merge into self.md, self-evidence.md, or archive/grace-mar-instance/bot/prompt.py without companion-approved pipeline processing",
+      "Raise Lexile ceiling without documented writing-sample archive/placeholders/evidence",
       "Publish campaign, X, or external copy without explicit human approval in scope"
     ],
     "review_cadence": "weekly"

@@ -74,7 +74,7 @@ python3 scripts/prepared_context/build_context_from_observations.py \
   --id <obs_id_1> \
   --id <obs_id_2> \
   --id <obs_id_3> \
-  --output prepared-context/runtime-observation-context.md
+  --output runtime/prepared-context/runtime-observation-context.md
 ```
 
 **Expected result:**
@@ -94,7 +94,7 @@ python3 scripts/runtime/stage_candidate_from_observations.py \
   --lane work-strategy \
   --candidate-type skill_update \
   --target-surface SKILLS \
-  --target-path skills-portable/skill-strategy.md \
+  --target-path skills/skill-strategy.md \
   --id <obs_id_1> \
   --id <obs_id_2> \
   --id <obs_id_3> \
@@ -141,7 +141,7 @@ In Grace-Mar terms, the important distinction is that **runtime assistance does 
 | [scripts/runtime/expand_observations.py](../../scripts/runtime/expand_observations.py) | Bounded field expansion |
 | [scripts/prepared_context/build_context_from_observations.py](../../scripts/prepared_context/build_context_from_observations.py) | Prepared-context Markdown |
 | [scripts/runtime/stage_candidate_from_observations.py](../../scripts/runtime/stage_candidate_from_observations.py) | Provenance-backed gate staging |
-| `prepared-context/runtime-observation-context.md` | Example output path (operator-local unless committed) |
+| `runtime/prepared-context/runtime-observation-context.md` | Example output path (operator-local unless committed) |
 | `recursion-gate.md` | Approval Inbox target when staging |
 
 ## Boundary reminder

@@ -8,7 +8,7 @@
 
 ## Checklist (before starting)
 
-1. **Split paths** â€” Assign non-overlapping path prefixes (e.g. `bot/` vs `docs/skill-work/work-dev/` vs `skills.md` only).
+1. **Split paths** â€” Assign non-overlapping path prefixes (e.g. `archive/grace-mar-instance/bot/` vs `docs/skill-work/work-dev/` vs `skills.md` only).
 2. **Name branches** â€” Use a shared prefix so reviews are obvious, e.g. `macro/<session>-agent-1`, `macro/<session>-agent-2`.
 3. **Merge order** â€” If agent-2 depends on agent-1â€™s work, merge **1 â†’ 2 â†’ main** (or rebase 2 onto 1 before final merge).
 4. **Gate** â€” Staging to RECURSION-GATE can happen on any branch; **apply** merges only after companion approval, from a clean operator run (usually `main`).
@@ -32,7 +32,7 @@ Copy the printed branch names into your git workflow. Adjust `--prefix` if `macr
 ## When *not* to parallelize
 
 - Same file edited by two agents without coordination.
-- Anything that touches **gated files** (`self.md`, `self-evidence.md`, `recursion-gate.md`, `bot/prompt.py`) â€” **one** actor or sequential edits; merges still **only** via the approved pipeline script.
+- Anything that touches **gated files** (`self.md`, `self-evidence.md`, `recursion-gate.md`, `archive/grace-mar-instance/bot/prompt.py`) â€” **one** actor or sequential edits; merges still **only** via the approved pipeline script.
 
 ---
 

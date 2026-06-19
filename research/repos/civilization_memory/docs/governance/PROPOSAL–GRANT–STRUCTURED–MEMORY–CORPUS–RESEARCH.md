@@ -67,7 +67,7 @@ II. PRODUCT AND TECHNOLOGY
 • Governance schema (templates, content-composition rules, perspective/attribution).  
 • Working prototype (200+ nodes, multiple civilizations, connector pairs, double-helix concept).  
 • Documented methodology (skeleton extraction, corpus interface, regeneration pipeline design).  
-• Cursor/IDE integration and chat app stub (apps/chat) showing graph-aware, option-driven interaction.
+• Cursor/IDE integration and chat app stub (platform/apps/chat) showing graph-aware, option-driven interaction.
 
 ────────────────────────────────────────────────────────────
 III. USE CASES AND COMMERCIALIZATION

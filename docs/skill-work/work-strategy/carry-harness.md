@@ -22,8 +22,8 @@ Canonical doctrine for Record vs runtime: [runtime-vs-record.md](../../runtime-v
 
 | Tool | Role |
 |------|------|
-| [`scripts/build_strategy_observability.py`](../../../scripts/build_strategy_observability.py) | Lane-wide notebook health metrics to `artifacts/work-strategy/strategy-observability.json`. |
-| [`scripts/build_strategy_run_report.py`](../../../scripts/build_strategy_run_report.py) | Summarizes recent `artifacts/strategy-runs/*/state.json` runs. |
+| [`scripts/build_strategy_observability.py`](../../../scripts/build_strategy_observability.py) | Lane-wide notebook health metrics to `runtime/artifacts/work-strategy/strategy-observability.json`. |
+| [`scripts/build_strategy_run_report.py`](../../../scripts/build_strategy_run_report.py) | Summarizes recent `runtime/artifacts/strategy-runs/*/state.json` runs. |
 | **`run_carry_harness.py`** | **Task-scoped**: explicit `--task`, `--source`, `--artifact` paths and a carry receipt under `runtime/work-strategy/`. Optional `--build-review-packet` writes a consolidated review packet. |
 | **`validate_strategy_packet.py`** | Optional `--run-validators` companion: writes [`work_strategy_validation_report.schema.json`](../../../schemas/work_strategy_validation_report.schema.json) JSON and embeds `validation_summary` plus `validation_report_path` when allowed. See [validator-contract.md](validator-contract.md). |
 | **`classify_task_shape.py`** | Optional `--classify-task-shape` companion: writes [`work_strategy_task_shape_report.schema.json`](../../../schemas/work_strategy_task_shape_report.schema.json) JSON and embeds task-shape fields when a `--task-shape-report` path is allowed. See [task-shape-routing.md](task-shape-routing.md). |
@@ -39,7 +39,7 @@ These are different slices. The carry harness does not replace observability or 
 - Expected artifact paths exist?
 - For Markdown/text artifacts: word count >= 50 as a heuristic for non-trivial output?
 - If `--gate-snippet` was passed: snippet non-empty?
-- Output receipt path not under forbidden canonical roots or protected `bot/` files?
+- Output receipt path not under forbidden canonical roots or protected `archive/grace-mar-instance/bot/` files?
 - This script never writes to Record surfaces or `recursion-gate.md`; it may include gate-ready paste text inside the receipt only as captured from your snippet file.
 
 ---
@@ -76,7 +76,7 @@ Those sit alongside the carry-specific `checks`, `summary`, `gate_snippet`, `rec
 
 `checks` remain the authoritative per-condition outcomes. `summary` rolls up counts. `status` and `result` intentionally expose the same overall outcome so the receipt is readable both as a carry-specific artifact and as a normalized execution receipt. When `--run-validators` is used, optional `validation_summary` and `validation_report_path` are included. When `--build-review-packet` is used, optional `review_packet_path`, `review_packet_markdown_path`, and `review_readiness` are included after the review packet step.
 
-When a run materially changes a standing arc-lens question, the harness can carry that bridge explicitly instead of leaving it implicit in prose. Use optional `arc_tags` plus a complete `arc_movement` triplet (`movement_type`, `summary`, `evidence`) to say which arc moved and why.
+When a run materially changes a standing arc-lens question, the harness can carry that bridge explicitly instead of leaving it implicit in prose. Use optional `arc_tags` plus a complete `arc_movement` triplet (`movement_type`, `summary`, `archive/placeholders/evidence`) to say which arc moved and why.
 
 ---
 

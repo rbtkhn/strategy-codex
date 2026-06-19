@@ -13,7 +13,7 @@ if str(SCRIPTS) not in sys.path:
 
 
 def _write_manifest(root: Path, content: str) -> None:
-    cfg = root / "config"
+    cfg = root / "platform/config"
     cfg.mkdir(parents=True, exist_ok=True)
     (cfg / "operator_shell_manifest.yaml").write_text(content, encoding="utf-8")
 
@@ -21,8 +21,8 @@ def _write_manifest(root: Path, content: str) -> None:
 def test_validate_ok_minimal(tmp_path: Path) -> None:
     from validate_operator_shell_manifest import validate_operator_shell_manifest
 
-    (tmp_path / "artifacts").mkdir(parents=True)
-    (tmp_path / "artifacts" / "x.md").write_text("# x\n", encoding="utf-8")
+    (tmp_path / "runtime/artifacts").mkdir(parents=True)
+    (tmp_path / "runtime/artifacts" / "x.md").write_text("# x\n", encoding="utf-8")
     _write_manifest(
         tmp_path,
         textwrap.dedent(
@@ -31,7 +31,7 @@ def test_validate_ok_minimal(tmp_path: Path) -> None:
             entries:
               - id: one
                 title: One
-                path: artifacts/x.md
+                path: runtime/artifacts/x.md
             """
         ),
     )
@@ -43,8 +43,8 @@ def test_validate_ok_minimal(tmp_path: Path) -> None:
 def test_validate_rejects_dotdot(tmp_path: Path) -> None:
     from validate_operator_shell_manifest import validate_operator_shell_manifest
 
-    (tmp_path / "artifacts").mkdir(parents=True)
-    (tmp_path / "artifacts" / "secret.md").write_text("x", encoding="utf-8")
+    (tmp_path / "runtime/artifacts").mkdir(parents=True)
+    (tmp_path / "runtime/artifacts" / "secret.md").write_text("x", encoding="utf-8")
     _write_manifest(
         tmp_path,
         textwrap.dedent(
@@ -53,7 +53,7 @@ def test_validate_rejects_dotdot(tmp_path: Path) -> None:
             entries:
               - id: bad
                 title: Bad
-                path: artifacts/../artifacts/secret.md
+                path: runtime/artifacts/../runtime/artifacts/secret.md
             """
         ),
     )
@@ -77,4 +77,4 @@ def test_validate_rejects_users_prefix(tmp_path: Path) -> None:
         ),
     )
     errs, _ = validate_operator_shell_manifest(tmp_path, require_files=False)
-    assert any("artifacts/" in e or "docs/" in e for e in errs)
+    assert any("runtime/artifacts/" in e or "docs/" in e for e in errs)

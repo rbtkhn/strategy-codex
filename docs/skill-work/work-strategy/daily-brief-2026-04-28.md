@@ -172,7 +172,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:5 S:0 G:1]** [EN DIRECT, guerre en UkraineÃ‚ : l’Ukraine a dÃƒÂ©truit plus de 33Ã‚ 000Ã‚ drones russes Ãƒ  l’aide de drones intercepteurs en mars, un record selon Kiev](https://www.lemonde.fr/international/live/2026/04/28/en-direct-guerre-en-ukraine-l-ukraine-a-detruit-plus-de-33-000-drones-russes-a-l-aide-de-drones-intercepteurs-en-mars-un-record-selon-kiev_6683420_3210.html) Ã¢â‚¬” _Le Monde Ã¢â‚¬” franÃƒ§ais (France / monde)_ Ã‚· _fr_ Ã‚· _2026-04-28 15:37 UTC_
 - **[W:4 S:0 G:1]** ["No fue un llamado al asesinato": Jimmy Kimmel responde a las crÃƒÂ­ticas de Melania Trump por una broma sobre ella](https://www.bbc.com/mundo/articles/c4gxgnvy05wo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-04-28 12:42 UTC_
@@ -245,7 +245,7 @@ Thread **Context Efficiency Layer** when assembling follow-up context: prefer ho
 - **Doctrine:** [context-efficiency-layer.md](../context-efficiency-layer.md)
 - **Compaction shapes:** [context-compaction-protocol.md](../context-compaction-protocol.md)
 - **Session brief (hot):** `python3 scripts/session_brief.py -u grace-mar --compact`
-- **Budgets:** `config/context_budgets/session_brief.json`, `config/context_surfaces.json`
+- **Budgets:** `platform/config/context_budgets/session_brief.json`, `platform/config/context_surfaces.json`
 
 
 ---

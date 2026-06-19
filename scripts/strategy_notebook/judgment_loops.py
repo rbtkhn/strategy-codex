@@ -88,7 +88,7 @@ TOPIC_STOPWORDS = {
     "after",
     "before",
     "bearing",
-    "bridges",
+    "research/bridges",
     "capture",
     "carries",
     "chapter",

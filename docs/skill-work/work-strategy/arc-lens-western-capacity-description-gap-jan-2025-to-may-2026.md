@@ -74,4 +74,4 @@ Repo-current 2026 continuity anchors:
 - `source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md` - European legitimacy crisis, rearmament focus, negotiation/capitulation framing, and ceasefire as regrouping/rearming language
 - `source-archive/statecraft/2026-05-16/source-daniel-davis-deep-dive-deep-dive-intel-briefing-5-16-2026-lt-col-daniel-davis-2026-05-16.md` - local capacity-language handle around industrial, offensive, defensive, and production limits
 
-Primary 2025 receipts live under `artifacts/cognition-streams/check-streams-2025-01-10-local/` through `check-streams-2025-05-10-local/`. The 2026 extension uses repo-current local captures only and should not be read as fresh external verification.
+Primary 2025 receipts live under `runtime/artifacts/cognition-streams/check-streams-2025-01-10-local/` through `check-streams-2025-05-10-local/`. The 2026 extension uses repo-current local captures only and should not be read as fresh external verification.

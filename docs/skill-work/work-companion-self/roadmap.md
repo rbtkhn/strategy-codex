@@ -37,7 +37,7 @@
 
 | Deliverable | Description |
 |-------------|-------------|
-| **Suggestion schema** | Structured proposal: path, change type (fix, enhancement, doc update), rationale (from Record or instance evidence), diff or patch. |
+| **Suggestion schema** | Structured proposal: path, change type (fix, enhancement, doc update), rationale (from Record or instance archive/placeholders/evidence), diff or patch. |
 | **Staging location** | `companion-self-proposals.md` or recursion-gate extension â€” proposals for companion review. |
 | **Rationale from Record** | "Instance X shows drift in Y; template could add Z." Evidence-linked. Knowledge boundary: no LLM facts; only documented instance experience. |
 | **Companion gate** | Companion approves or rejects. Approved â†’ operator opens PR or patch to companion-self manually. |

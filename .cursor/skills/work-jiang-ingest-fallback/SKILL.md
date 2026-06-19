@@ -8,7 +8,7 @@ tags:
 - operator
 - work-jiang
 - ingest
-portable_source: skills-portable/work-jiang-ingest-fallback/SKILL.md
+portable_source: skills/work-jiang-ingest-fallback/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Work-jiang ingest fallback (rate limit path)
@@ -91,7 +91,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/work-jian
 | Canonical checklists | [work-jiang-feature-checklist](../work-jiang-feature-checklist/SKILL.md) |
 | Ingest command script | [scripts/work_jiang/ingest_lecture.py](../../../scripts/work_jiang/ingest_lecture.py) |
 | Validation scripts | [scripts/work_jiang/validate_work_jiang.py](../../../scripts/work_jiang/validate_work_jiang.py), [validate_argument_layer.py](../../../scripts/work_jiang/validate_argument_layer.py), [validate_comparative_layer.py](../../../scripts/work_jiang/validate_comparative_layer.py) |
-| Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 
 **Operator note:** For the fallback path, keep one-row local index files scoped to a single ingest turn; decide before commit whether to keep them as audit artifacts or remove them as temporary scaffolding.

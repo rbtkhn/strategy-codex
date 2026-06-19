@@ -79,7 +79,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging — **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging — **verify** claims against primary sources._
 
 - **[W:0 S:0 G:3]** [The Army wants to use bullets, mortars, and artillery to take out small drones](https://www.defenseone.com/technology/2026/03/army-wants-use-bullets-mortars-and-artillery-rounds-take-out-small-drones/412392/) — _Defense One — All_ · _2026-03-26 03:41 UTC_
 - **[W:2 S:0 G:2]** [Iran is adopting Russian drone tactics, Ukrainian troops say](https://www.defenseone.com/threats/2026/03/iran-adopting-russian-drone-tactics-ukrainian-troops-say/412434/) — _Defense One — All_ · _2026-03-27 06:27 UTC_

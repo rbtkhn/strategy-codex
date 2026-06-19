@@ -55,7 +55,7 @@ The fork should record the user as they actually are.
 
 The SELF module is working when:
 - The record accurately reflects the user's documented behavior
-- Data is grounded in evidence (activities, surveys, artifacts)
+- Data is grounded in evidence (activities, surveys, runtime/artifacts)
 - Changes over time are preserved, not overwritten
 
 ---

@@ -18,7 +18,7 @@ B.1 REDUNDANCY CHECK
 |-------------|----------------|
 | Khosrow II = historical confirming case (maximal reach → Heraclius → Kavadh defection → Sasanian non-recovery). | Same case, but presented as *four-frame tension table*: Keegan (belief/mask), Mearsheimer (structure), Barnes (liability), Mercouris (legitimacy). |
 | Liability layer: who on hook, who defects, what irreversible. | Each frame gives a *different emphasis* on the same outcome; "synthesis forbidden—tension preserved." |
-| No requirement to *apply* multiple frames when analyzing overextension. | Implicit: Khosrow (and by extension overextension) is *multi-frame*—no single reading suffices. |
+| No requirement to *apply* multiple frames when analyzing overextension. | Implicit: Khosrow (and by extension overplatform/extension) is *multi-frame*—no single reading suffices. |
 
 **Decision:** 0003 adds a **procedural constraint**, not new substantive content. The substantive content (overextension, defection, exhaustion, liability) is already in DOCTRINE 01. What 0003 adds is: *when analyzing Persian overextension (or analogous cases), all four frames must be considered; no single-frame closure.* That is a constraint on *how* analysis is done (multi-frame required), not *what* the pattern is. So: **constraint** (light, procedural).
 
@@ -42,7 +42,7 @@ B.3 COUNTER-CASE
 
 **MEMs consulted:**
 - **MEM–PERSIA–SASANIAN–KHOSROW–II:** All four frames apply (structure: conquest without closure; liability: Kavadh defection; legitimacy: khvarenah strain; belief: court defection when demands exceeded tolerance).
-- **MEM–PERSIA–ACHAEMENID–DARIUS–III:** Parallel overextension/court betrayal (per MEM connections). MEM explicitly invokes Keegan ("belief collapse"; "When the Guard retreated, the army knew the battle was lost"); structure (tempo vs depth, Alexander); liability (Darius on hook, Bessus defected); legitimacy (flight = legitimacy collapse). All four frames present.
+- **MEM–PERSIA–ACHAEMENID–DARIUS–III:** Parallel overplatform/extension/court betrayal (per MEM connections). MEM explicitly invokes Keegan ("belief collapse"; "When the Guard retreated, the army knew the battle was lost"); structure (tempo vs depth, Alexander); liability (Darius on hook, Bessus defected); legitimacy (flight = legitimacy collapse). All four frames present.
 - **MEM–PERSIA–SASANIAN–SHAPUR–I:** Contrast case—*not* overextension; limited gains, held. Used in 0003 as contrast (Shapur: mask held; Khosrow: mask failed). Supports that overextension is the domain where multi-frame applies; Shapur's success doesn't require the same four-frame treatment for *failure*.
 
 **Result:** No counter-case found where one frame clearly suffices alone. In both Khosrow II and Darius III, structure, liability, legitimacy, and belief/mask all contribute. A single-frame reading (e.g. "only structure" or "only liability") would be incomplete. **Counter-case scan supports** the procedural constraint rather than undermining it.
@@ -55,7 +55,7 @@ RECOMMENDATION
 
 **Rationale:**
 1. **Redundancy:** The *substantive* content of 0003 is already in DOCTRINE 01 (Khosrow as confirming case; liability layer; overextension → defection → exhaustion). Binding 0003 would duplicate the case and add only a *method* rule.
-2. **Overlap with existing practice:** Three-perspective analysis (Mercouris, Mearsheimer, Barnes) is already required in LEARN/STATE. Adding "and Keegan/belief-mask for overextension" is a small increment; making it doctrine may be unnecessary if SCHOLAR/STATE already apply multiple frames.
+2. **Overlap with existing practice:** Three-perspective analysis (Mercouris, Mearsheimer, Barnes) is already required in LEARN/STATE. Adding "and Keegan/belief-mask for overplatform/extension" is a small increment; making it doctrine may be unnecessary if SCHOLAR/STATE already apply multiple frames.
 3. **Light constraint:** The proposed constraint is procedural ("consider all four frames"). It does not add a new strategic or causal claim. Doctrine bloat risk: too many procedural doctrines dilute focus.
 4. **Tension preserved:** Keeping 0003 UNBINDING preserves the tension record as a *learning artifact* without elevating it to binding authority. The table remains available for pedagogy and for optional invocation in analysis.
 

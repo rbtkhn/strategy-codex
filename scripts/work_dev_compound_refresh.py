@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Aggregate work-dev compound notes into a regenerable markdown report.
-Read-only on notes. Writes only artifacts/work-dev-compound-refresh.md. Stdlib only.
+Read-only on notes. Writes only runtime/artifacts/work-dev-compound-refresh.md. Stdlib only.
 """
 
 from __future__ import annotations
@@ -16,6 +16,7 @@ from typing import Any
 _SCRIPT_DIR = Path(__file__).resolve().parent
 if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))
+from repo_io import ARTIFACTS_DIR
 
 from work_dev.compound_notes import (
     NOTES_DIR,
@@ -29,7 +30,7 @@ from work_dev.compound_notes import (
     stale_non_gate_records,
 )
 
-OUTPUT = REPO_ROOT / "artifacts" / "work-dev-compound-refresh.md"
+OUTPUT = ARTIFACTS_DIR / "work-dev-compound-refresh.md"
 
 
 def run_report() -> str:
@@ -160,7 +161,7 @@ def main() -> int:
         "--output",
         type=Path,
         default=OUTPUT,
-        help="Output markdown path (default: artifacts/work-dev-compound-refresh.md)",
+        help="Output markdown path (default: runtime/artifacts/work-dev-compound-refresh.md)",
     )
     args = ap.parse_args()
     out = args.output

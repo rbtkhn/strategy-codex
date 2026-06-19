@@ -66,7 +66,7 @@ All of the above belong to the `runtime` and `audit` lanes.
 These uses are **not** compatible with Grace-Mar:
 
 - treating runtime-retained summaries as canonical Record truth
-- auto-writing extracted facts into `self.md`, `self-evidence.md`, or `bot/prompt.py`
+- auto-writing extracted facts into `self.md`, `self-evidence.md`, or `archive/grace-mar-instance/bot/prompt.py`
 - letting recalled runtime memory silently bypass the knowledge boundary
 - using runtime memory as evidence for SELF claims without staging and approval
 - shared or remote runtime memory becoming the de facto owner of companion identity

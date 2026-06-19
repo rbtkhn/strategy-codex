@@ -30,7 +30,7 @@ python3 scripts/work_dev/new_workbench_receipt.py \
 
 With no `--output`, the file is written to:
 
-`artifacts/work-dev/workbench-receipts/workbench-YYYYMMDD-HHMMSS.json`
+`runtime/artifacts/work-dev/workbench-receipts/workbench-YYYYMMDD-HHMMSS.json`
 
 (UTC clock in the filename; `receiptId` defaults to `wb-YYYYMMDD-HHMMSS` in the same second.)
 
@@ -46,7 +46,7 @@ On success, stdout prints `ok: workbench receipt is valid` and the process exits
 ## What these scripts are not
 
 - **Not** gate automation — no YAML candidates, no `process_approved_candidates`.
-- **Not** EVIDENCE or SELF — receipts stay in `artifacts/…` or a path you choose with `--output` (the generator refuses to write to `self.md`, `self-archive.md`, `self-library.md`, or `recursion-gate.md` by basename).
+- **Not** EVIDENCE or SELF — receipts stay in `runtime/artifacts/…` or a path you choose with `--output` (the generator refuses to write to `self.md`, `self-archive.md`, `self-library.md`, or `recursion-gate.md` by basename).
 
 ## Also see
 

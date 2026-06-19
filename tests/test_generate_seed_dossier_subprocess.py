@@ -9,7 +9,7 @@ from tests.conftest import REPO_ROOT, copy_fixture, repo_python, run_cmd
 
 def test_generate_seed_dossier_demo_copy_has_expected_sections(tmp_path) -> None:
     target = tmp_path / "seed-phase"
-    shutil.copytree(REPO_ROOT / "users" / "demo" / "seed-phase", target)
+    shutil.copytree(REPO_ROOT / "platform/users" / "demo" / "seed-phase", target)
     result = run_cmd(
         [repo_python(), "scripts/generate-seed-dossier.py", str(target)],
         cwd=REPO_ROOT,

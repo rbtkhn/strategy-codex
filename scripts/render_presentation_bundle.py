@@ -8,7 +8,8 @@ from pathlib import Path
 from urllib import request
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(REPO_ROOT / "src"))
+sys.path.insert(0, str(SRC_DIR))
+from repo_io import SRC_DIR
 
 
 def main() -> int:

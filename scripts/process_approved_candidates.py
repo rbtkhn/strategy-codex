@@ -41,7 +41,7 @@ def _emit_governance_unbundling_banner() -> None:
         "accountability=this merge via companion approval only — see docs/governance-unbundling.md",
         file=sys.stderr,
     )
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 if str(_SRC) not in sys.path:
@@ -56,7 +56,7 @@ from pipeline_correlation import find_staged_event_id_for_candidate
 from recursion_gate_review import split_gate_sections
 from recursion_gate_territory import TERRITORY_WORK_POLITICS, normalize_territory_cli, territory_from_yaml_block
 from identity_library_boundary_rules import collect_ix_a_violations_from_self_md
-from repo_io import CANONICAL_EVIDENCE_BASENAME, operator_ledger_write_path
+from repo_io import CANONICAL_EVIDENCE_BASENAME, operator_ledger_write_path, BOT_DIR, SRC_DIR
 from stage_gate_candidate import PROPOSAL_CLASS_RUNTIME_OBSERVATION
 
 USER_ID = os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex"
@@ -66,7 +66,7 @@ SELF_PATH = PROFILE_DIR / "self.md"
 SELF_KNOWLEDGE_PATH = PROFILE_DIR / "self-knowledge.md"
 EVIDENCE_PATH = PROFILE_DIR / CANONICAL_EVIDENCE_BASENAME
 INTENT_PATH = PROFILE_DIR / "intent.md"
-PROMPT_PATH = REPO_ROOT / "bot" / "prompt.py"
+PROMPT_PATH = BOT_DIR / "prompt.py"
 PRP_PATH = REPO_ROOT / "self-llm.txt"
 MERGE_RECEIPTS_PATH = operator_ledger_write_path(USER_ID, "merge-receipts.jsonl")
 MIN_EVIDENCE_TIER = 3
@@ -347,7 +347,7 @@ def _candidate_agent_source(candidate: dict) -> str:
     mapping = {
         "telegram": "voice",
         "wechat": "voice",
-        "extension": "browser_extension",
+        "platform/extension": "browser_platform/extension",
         "handback": "handback",
         "operator": "operator_cli",
         "openclaw": "openclaw",
@@ -682,7 +682,7 @@ def _gated_log_section_prologue() -> str:
 def _ensure_gated_log_section(evidence: str) -> str:
     if GATED_LOG_SECTION in evidence:
         return evidence
-    m = _END_FILE_LINE.search(evidence)
+    m = _END_FILE_LINE.search(archive/placeholders/evidence)
     if m:
         return evidence[: m.start()].rstrip() + _gated_log_section_prologue() + evidence[m.start() :]
     return evidence.rstrip() + _gated_log_section_prologue()
@@ -971,7 +971,7 @@ def _run_openclaw_export(
 ) -> tuple[bool, str]:
     cmd = [
         sys.executable,
-        "integrations/openclaw_hook.py",
+        "platform/integrations/openclaw_hook.py",
         "--user",
         user_id,
         "--format",
@@ -1004,7 +1004,7 @@ def _refresh_derived_exports() -> None:
     commands = [
         [sys.executable, "scripts/export_manifest.py", "-u", USER_ID, "-o", str(PROFILE_DIR)],
         [sys.executable, "scripts/fork_checksum.py", "-u", USER_ID, "--manifest"],
-        [sys.executable, "scripts/export_runtime_bundle.py", "-u", USER_ID, "-o", str(PROFILE_DIR / "runtime-bundle")],
+        [sys.executable, "scripts/export_runtime_bundle.py", "-u", USER_ID, "-o", str(PROFILE_DIR / "runtime/bundle")],
     ]
     for cmd in commands:
         subprocess.run(
@@ -1397,7 +1397,7 @@ def main() -> None:
             print(
                 "strategy-codex: merge complete — PRP updated in-repo. If you use OpenClaw or any external copy of "
                 "OpenClaw USER.md / identity export, refresh or it is stale: "
-                f"python3 integrations/openclaw_hook.py --user {USER_ID} --format md+manifest --emit-event",
+                f"python3 platform/integrations/openclaw_hook.py --user {USER_ID} --format md+manifest --emit-event",
                 file=sys.stderr,
             )
             print(

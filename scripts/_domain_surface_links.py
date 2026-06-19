@@ -1,5 +1,5 @@
 ﻿"""
-Rebase markdown links in DOMAIN wisdom surfaces from _template/DOMAIN.md placeholders
+Rebase markdown links in DOMAIN wisdom surfaces from platform/template/DOMAIN.md placeholders
 to paths relative to the output file. Shared by create-domain.py and migrate-to-domain-surface.py.
 """
 
@@ -15,7 +15,7 @@ if str(ROOT / "scripts") not in sys.path:
 
 from repo_io import profile_dir
 
-# Template literals (must match _template/DOMAIN.md)
+# Template literals (must match platform/template/DOMAIN.md)
 _TEMPLATE_HREF_AGENTS = "../AGENTS.md"
 
 

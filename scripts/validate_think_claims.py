@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate artifacts/skill-think/think-claims.json against schemas/skill_think/think_claims.schema.json.
+"""Validate runtime/artifacts/skill-think/think-claims.json against schemas/skill_think/think_claims.schema.json.
 
 Advisory warnings: stale last_updated, high confidence with single evidence ref,
 optional prose anchor check for THINK- ids.
@@ -18,7 +18,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_CLAIMS = REPO_ROOT / "artifacts/skill-think/think-claims.json"
+DEFAULT_CLAIMS = REPO_ROOT / "runtime/artifacts/skill-think/think-claims.json"
 SCHEMA_PATH = REPO_ROOT / "schemas/skill_think/think_claims.schema.json"
 
 

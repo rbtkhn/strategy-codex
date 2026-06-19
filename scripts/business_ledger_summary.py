@@ -27,7 +27,7 @@ DEFAULT_USER_ID = "grace-mar"
 
 
 def _load_rows(user_id: str) -> list[dict[str, Any]]:
-    path = REPO_ROOT / "users" / user_id / "business-ledger.jsonl"
+    path = REPO_ROOT / "platform/users" / user_id / "business-ledger.jsonl"
     if not path.exists():
         return []
     rows: list[dict[str, Any]] = []

@@ -30,7 +30,7 @@ def query(
         from chromadb.utils import embedding_functions
     except ImportError:
         return []
-    persist_path = persist_path or REPO_ROOT / "users" / user_id / ".chroma"
+    persist_path = persist_path or REPO_ROOT / "platform/users" / user_id / ".chroma"
     if not persist_path.exists():
         return []
     api_key = os.getenv("OPENAI_API_KEY", "").strip()

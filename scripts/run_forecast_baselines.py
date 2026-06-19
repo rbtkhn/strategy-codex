@@ -254,7 +254,7 @@ def build_artifact(
         "method": {
             "name": selected_forecast.name,
             "version": "v1",
-            "config": {
+            "platform/config": {
                 "available_methods": list(all_forecasts.keys()),
             },
         },
@@ -281,7 +281,7 @@ def build_artifact(
             "Not a Record fact."
         ),
         "receipt_id": "",
-        "source_artifacts": [source_path],
+        "source_runtime/artifacts": [source_path],
         "candidate_methods": {
             name: [round(v, 4) for v in result.values]
             for name, result in all_forecasts.items()
@@ -377,7 +377,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--receipt-dir",
-        default="artifacts/receipts/forecast",
+        default="runtime/artifacts/receipts/forecast",
         help="Directory for forecast receipt JSON files.",
     )
     return parser.parse_args()

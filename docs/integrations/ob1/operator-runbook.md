@@ -41,7 +41,7 @@ All workflows are **manual and operator-initiated**. No background process, no w
 | `recursion-gate.md` (pending candidates) | Unapproved content is not Record |
 | `session-log.md` | Operational log, not identity |
 | `self-memory.md` | Ephemeral continuity, not durable knowledge |
-| `bot/prompt.py` | Derivative of SELF; not a primary source |
+| `archive/grace-mar-instance/bot/prompt.py` | Derivative of SELF; not a primary source |
 | `.git/`, `scripts/`, `tests/` | Infrastructure, not Record |
 
 Override with `--include <surface>` if specific surfaces are needed for a use case.
@@ -83,7 +83,7 @@ Override with `--include <surface>` if specific surfaces are needed for a use ca
 
 ### What the import script never does
 
-- Write to `self.md`, `self-archive.md`, or `bot/prompt.py`
+- Write to `self.md`, `self-archive.md`, or `archive/grace-mar-instance/bot/prompt.py`
 - Auto-approve proposals
 - Create a sync loop or schedule
 - Skip grounding filters or trust-tier assignment
@@ -145,7 +145,7 @@ If OB1 evolves unfavorably (breaking schema changes, project abandonment, trust 
 
 1. **Stop importing.** No new proposals from OB1. Pending OB1-sourced proposals in the gate can be reviewed and cleared normally.
 2. **Stop exporting.** The Record continues in companion-self unaffected. OB1 retains its last export but receives no updates.
-3. **Archive the bridge docs.** Move `docs/integrations/ob1/` to `docs/integrations/ob1-archived/` with a README note explaining when and why.
+3. **Archive the bridge docs.** Move `docs/platform/integrations/ob1/` to `docs/platform/integrations/ob1-archived/` with a README note explaining when and why.
 4. **Remove scripts.** Delete export/import scripts from companion-self. No Record data is lost — the bridge only read from and staged to the existing pipeline.
 
 The Record's integrity is never dependent on OB1. Retirement is a cleanup task, not a migration.

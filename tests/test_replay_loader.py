@@ -42,8 +42,8 @@ def test_resolve_jsonl_fallback_when_primary_missing(tmp_path: Path):
 
 def test_audit_paths_for_profile_resolves_bundle(tmp_path: Path):
     uid = tmp_path / "u1"
-    (uid / "runtime-bundle" / "audit").mkdir(parents=True)
-    pe = uid / "runtime-bundle" / "audit" / "pipeline-events.jsonl"
+    (uid / "runtime/bundle" / "audit").mkdir(parents=True)
+    pe = uid / "runtime/bundle" / "audit" / "pipeline-events.jsonl"
     pe.write_text('{"event": "applied", "candidate_id": "CANDIDATE-0001"}\n', encoding="utf-8")
     paths = AuditPaths.for_profile(uid)
     assert paths.pipeline_events == pe

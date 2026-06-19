@@ -10,22 +10,22 @@
 python3 scripts/route_civ_mem_topic.py "Pope Leo Vatican France"
 python3 scripts/route_civ_mem_topic.py "mosque Algiers dialogue" --expand-connections
 python3 scripts/route_civ_mem_topic.py --profile latin_catholic_sphere "custom"
-python3 scripts/route_civ_mem_topic.py "hormuz" --focus-config config/civ_mem_routing_focus.yaml
+python3 scripts/route_civ_mem_topic.py "hormuz" --focus-config platform/config/civ_mem_routing_focus.yaml
 python3 scripts/route_civ_mem_topic.py "test" --no-focus
 # MEM-only BFS (theology / lineage traces): connection-first walk to N distinct MEM files
 python3 scripts/route_civ_mem_topic.py --profile theology_ra_trace "Law of One" --bfs-mem-target 50 --no-focus
-python3 scripts/route_civ_mem_topic.py --profile theology_ra_trace "…" --bfs-mem-target 50 --bfs-max-depth 12 --bfs-neighbors-per-hop 32 --bfs-output artifacts/skill-work/work-civ-mem/bfs-log.json --no-focus
+python3 scripts/route_civ_mem_topic.py --profile theology_ra_trace "…" --bfs-mem-target 50 --bfs-max-depth 12 --bfs-neighbors-per-hop 32 --bfs-output runtime/artifacts/skill-work/work-civ-mem/bfs-log.json --no-focus
 ```
 
-**Config:** [`config/civ_mem_topic_routes.yaml`](../../../config/civ_mem_topic_routes.yaml) — profiles, keywords, `rome_seed_files`, **`theology_seed_mems`** (multi-civ MEM rel paths for BFS), `routing_rules_version`.
+**Config:** [`platform/config/civ_mem_topic_routes.yaml`](../../../platform/config/civ_mem_topic_routes.yaml) — profiles, keywords, `rome_seed_files`, **`theology_seed_mems`** (multi-civ MEM rel paths for BFS), `routing_rules_version`.
 
-**Optional routing focus:** [`config/civ_mem_routing_focus.yaml`](../../../config/civ_mem_routing_focus.yaml) — time-bounded `profile_overlap_bonus` and `sticky_keywords` (see **Routing focus** below).
+**Optional routing focus:** [`platform/config/civ_mem_routing_focus.yaml`](../../../platform/config/civ_mem_routing_focus.yaml) — time-bounded `profile_overlap_bonus` and `sticky_keywords` (see **Routing focus** below).
 
 **Trace contract:** [`topic-trace-contract.md`](topic-trace-contract.md) — topic traces are **WORK · DERIVED · NOT RECORD**, upstream is read-only, and structural analogy is not truth validation.
 
 ## Behavior
 
-1. **Profile match** — Keyword substring overlap against each profile’s `keywords` list; tie-break by `priority`. If overlap is zero, use `default_profile`. If a **routing focus** file is loaded, in date range, and not disabled with `--no-focus`, add **integer bonuses**: per-profile `profile_overlap_bonus` plus per-entry `sticky_keywords` (substring match → bonus to named profile). Effective score = base overlap + those bonuses (disqualified profiles stay excluded).
+1. **Profile match** — Keyword substring overlap against each profile’s `keywords` list; tie-break by `priority`. If overlap is zero, use `default_profile`. If a **routing focus** file is loaded, in date range, and not disabled with `--no-focus`, add **integer bonuses**: per-profile `profile_overlap_bonus` plus per-entry `sticky_keywords` (substring match → bonus to named platform/profile). Effective score = base overlap + those bonuses (disqualified profiles stay excluded).
 2. **Civ order** — `primary_civ` then `secondary_civs` (e.g. ROME → FRANCE → AMERICA for `latin_catholic_sphere`).
 3. **Per civ:**
    - If `MEM–RELEVANCE–<CIV>.md` exists under `research/repos/civilization_memory/content/civilizations/<CIV>/`, run `suggest_civ_mem_from_relevance.py <CIV>` (unless `--dry-run`).
@@ -48,8 +48,8 @@ Re-check **`tier_a_relevance_entities`** and filesystem inventory when bumping t
 
 **Purpose:** Encode a **fortnight-scale prior** (e.g. “last 14 days’ strategy lanes stay hot next 14 days”) without editing the main routes file every day. Same **additive, integer** discipline as base overlap—easy to audit in git.
 
-- **File:** [`config/civ_mem_routing_focus.yaml`](../../../config/civ_mem_routing_focus.yaml) — `focus_version`, `valid_from` / `valid_until` (UTC, inclusive; date-only means start/end of that calendar day in UTC), `profile_overlap_bonus`, `sticky_keywords`.
-- **CLI:** `--focus-config PATH` (default: `config/civ_mem_routing_focus.yaml`), `--no-focus` to ignore the file (tests, A/B).
+- **File:** [`platform/config/civ_mem_routing_focus.yaml`](../../../platform/config/civ_mem_routing_focus.yaml) — `focus_version`, `valid_from` / `valid_until` (UTC, inclusive; date-only means start/end of that calendar day in UTC), `profile_overlap_bonus`, `sticky_keywords`.
+- **CLI:** `--focus-config PATH` (default: `platform/config/civ_mem_routing_focus.yaml`), `--no-focus` to ignore the file (tests, A/B).
 - **Stdout:** **Routing focus** section lists `focus_version`, validity window, whether any **non-zero** adjustment applied, and per-profile breakdown (`base` + `profile_bonus` + `sticky` → `effective`).
 - **`--log-decision`:** JSONL rows gain `focus_version`, `focus_active`, `focus_applied` (true only if a non-zero bonus changed scores), `score_components` for the winning profile, `routing_fallback` when `default_profile` was used.
 
@@ -71,7 +71,7 @@ Industry tools use the same **building blocks** with different names: **search**
 
 **Loop:** run router → open MEMs → weave Judgment / Links → record feedback → **human** edits YAML → bump `routing_rules_version`.
 
-**Optional log:** `--log-decision` appends JSON lines to `artifacts/skill-work/work-civ-mem/routing-decisions.jsonl` (rebuildable).
+**Optional log:** `--log-decision` appends JSON lines to `runtime/artifacts/skill-work/work-civ-mem/routing-decisions.jsonl` (rebuildable).
 
 ### Operator one-liner feedback (grep-friendly)
 
@@ -86,7 +86,7 @@ Industry tools use the same **building blocks** with different names: **search**
 
 Agents **do not** auto-edit YAML from these lines without explicit operator / EXECUTE review.
 
-**Optional ingest:** `python3 scripts/ingest_routing_feedback.py` (stdin or file args) appends normalized rows to `artifacts/skill-work/work-civ-mem/routing-feedback.jsonl`.
+**Optional ingest:** `python3 scripts/ingest_routing_feedback.py` (stdin or file args) appends normalized rows to `runtime/artifacts/skill-work/work-civ-mem/routing-feedback.jsonl`.
 
 ### Cadence
 

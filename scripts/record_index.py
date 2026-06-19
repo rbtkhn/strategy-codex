@@ -2,9 +2,9 @@
 Deterministic indexes for canonical EVIDENCE (self-archive.md) and self-memory (self-memory.md; legacy memory.md).
 
 - Evidence: Roman section spans (I–VIII) + entry id → character span for fast slice / lookup.
-- Memory: horizon line ranges (short / medium / long) + preamble; same semantics as bot/core.py.
+- Memory: horizon line ranges (short / medium / long) + preamble; same semantics as archive/grace-mar-instance/bot/core.py.
 
-Used by bot/retriever.py (section-tagged chunks, routing hints) and bot/core.py (memory + recency).
+Used by archive/grace-mar-instance/bot/retriever.py (section-tagged chunks, routing hints) and archive/grace-mar-instance/bot/core.py (memory + recency).
 """
 
 from __future__ import annotations
@@ -93,7 +93,7 @@ def slice_evidence_entry(content: str, index: EvidenceIndex, entry_id: str) -> s
     return content[span[0] : span[1]]
 
 
-# --- Memory (aligned with bot/core.py horizon headers) ---
+# --- Memory (aligned with archive/grace-mar-instance/bot/core.py horizon headers) ---
 
 _MEMORY_HEADER_NAMES = {
     "short-term": "short",
@@ -123,7 +123,7 @@ class MemoryHorizonIndex:
 
 
 def build_memory_horizon_index(content: str) -> MemoryHorizonIndex:
-    """Line ranges match bot/core.py _parse_memory_horizons (preamble vs short/medium/long bodies)."""
+    """Line ranges match archive/grace-mar-instance/bot/core.py _parse_memory_horizons (preamble vs short/medium/long bodies)."""
     lines = content.splitlines()
     n = len(lines)
     horizon_ranges: dict[str, tuple[int, int]] = {

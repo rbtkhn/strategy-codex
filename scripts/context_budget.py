@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Operator scaffolding only; not Record truth — load JSON context budgets from config/."""
+"""Operator scaffolding only; not Record truth — load JSON context budgets from platform/config/."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-BUDGETS_DIR = REPO_ROOT / "config" / "context_budgets"
+BUDGETS_DIR = REPO_ROOT / "platform/config" / "context_budgets"
 
 
 def load_context_budget(name: str) -> dict[str, Any]:

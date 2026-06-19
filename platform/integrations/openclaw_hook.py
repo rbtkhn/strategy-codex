@@ -1,0 +1,256 @@
+#!/usr/bin/env python3
+"""
+OpenClaw integration hook: export Record for session continuity.
+
+Usage:
+    python platform/integrations/openclaw_hook.py --user grace-mar
+    python platform/integrations/openclaw_hook.py -u grace-mar -o ../openclaw/
+    python platform/integrations/openclaw_hook.py -u grace-mar --format json+md --emit-event
+"""
+
+import argparse
+import base64
+import hashlib
+import json
+import subprocess
+import sys
+import time
+from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
+
+# Delegate to unified export hook
+from export_hook import run_export
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+_SCRIPTS = REPO_ROOT / "scripts"
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+try:
+    from harness_events import append_harness_event
+except ImportError:
+    append_harness_event = None  # type: ignore
+
+
+def _sha256(path: Path) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        while True:
+            chunk = f.read(65536)
+            if not chunk:
+                break
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def _collect_export_files(out_dir: Path, fmt: str) -> list[Path]:
+    candidates = {
+        "USER.md",
+        "USER.json",
+        "manifest.json",
+        "llms.txt",
+        "intent_snapshot.json",
+        "OPENCLAW-PRP.txt",
+        "fork-export.json",
+        "runtime/bundle/bundle.json",
+    }
+    files = []
+    for name in sorted(candidates):
+        p = out_dir / name
+        if p.exists() and p.is_file():
+            files.append(p)
+    return files
+
+
+def _bundle_id(out_dir: Path) -> str:
+    bundle_path = out_dir / "runtime/bundle" / "bundle.json"
+    if not bundle_path.exists():
+        return ""
+    try:
+        payload = json.loads(bundle_path.read_text(encoding="utf-8"))
+        return str(payload.get("bundle_id") or "")
+    except Exception:
+        return ""
+
+
+def _emit_openclaw_event(user_id: str, out_dir: Path, fmt: str, files: list[Path], status: str, error: str = "") -> None:
+    hashes = ",".join(f"{p.name}:{_sha256(p)}" for p in files)
+    extras = [
+        f"target=openclaw",
+        f"status={status}",
+        f"format={fmt}",
+        f"output_dir={str(out_dir)}",
+        f"file_count={len(files)}",
+    ]
+    if hashes:
+        extras.append(f"file_hashes={hashes}")
+    intent_path = out_dir / "intent_snapshot.json"
+    if intent_path.exists():
+        extras.append(f"constitution_sha256={_sha256(intent_path)}")
+        try:
+            intent = json.loads(intent_path.read_text(encoding="utf-8"))
+            if isinstance(intent, dict):
+                extras.append(f"constitution_ok={str(bool(intent.get('ok'))).lower()}")
+                rules = intent.get("tradeoff_rules") or []
+                extras.append(f"constitution_rule_count={len(rules) if isinstance(rules, list) else 0}")
+        except Exception:
+            extras.append("constitution_ok=false")
+    if error:
+        extras.append(f"error={error[:240]}")
+    subprocess.run(
+        [
+            sys.executable,
+            "scripts/emit_pipeline_event.py",
+            "--user",
+            user_id,
+            "runtime_compat_export",
+            "none",
+            *extras,
+        ],
+        cwd=REPO_ROOT,
+        check=False,
+        capture_output=True,
+    )
+
+
+def _post_export(post_url: str, user_id: str, files: list[Path], api_key: str = "") -> None:
+    payload_files = []
+    for path in files:
+        raw = path.read_bytes()
+        payload_files.append(
+            {
+                "name": path.name,
+                "sha256": _sha256(path),
+                "content_base64": base64.b64encode(raw).decode("ascii"),
+            }
+        )
+    payload = json.dumps({"user_id": user_id, "files": payload_files}).encode("utf-8")
+    req = Request(post_url, data=payload, method="POST")
+    req.add_header("Content-Type", "application/json")
+    if api_key:
+        req.add_header("X-Api-Key", api_key)
+    urlopen(req, timeout=30)
+
+
+def _append_openclaw_export_ledger(
+    user_id: str,
+    files: list[Path],
+    *,
+    success: bool,
+    t0: float,
+) -> None:
+    wall_ms = int((time.monotonic() - t0) * 1000)
+    total_bytes = 0
+    for f in files:
+        try:
+            total_bytes += f.stat().st_size
+        except OSError:
+            continue
+    try:
+        if str(_SCRIPTS) not in sys.path:
+            sys.path.insert(0, str(_SCRIPTS))
+        from emit_compute_ledger import append_integration_ledger
+
+        append_integration_ledger(
+            user_id,
+            operation="openclaw_export",
+            runtime="openclaw",
+            success=success,
+            wall_ms=wall_ms,
+            bytes_processed=total_bytes,
+            source_artifact_count=len(files),
+            task_type="export",
+            repo_root=REPO_ROOT,
+        )
+    except Exception:
+        pass
+
+
+def run_openclaw_export(
+    user_id: str,
+    output: Path | None,
+    fmt: str,
+    destination: str,
+    post_url: str,
+    api_key: str,
+    emit_event: bool,
+) -> int:
+    t0 = time.monotonic()
+    out_dir = output or (REPO_ROOT / "platform/users" / user_id)
+    rc = run_export("openclaw", out_dir, user_id, openclaw_format=fmt)
+    files = _collect_export_files(out_dir, fmt)
+    if rc != 0:
+        if emit_event:
+            _emit_openclaw_event(user_id, out_dir, fmt, files, status="failed", error=f"export_exit={rc}")
+        _append_openclaw_export_ledger(user_id, files, success=False, t0=t0)
+        return rc
+    if destination == "post":
+        if not post_url.strip():
+            err = "post destination requires --post-url"
+            if emit_event:
+                _emit_openclaw_event(user_id, out_dir, fmt, files, status="failed", error=err)
+            print(err, file=sys.stderr)
+            _append_openclaw_export_ledger(user_id, files, success=False, t0=t0)
+            return 2
+        try:
+            _post_export(post_url, user_id, files, api_key=api_key.strip())
+        except (HTTPError, URLError, TimeoutError, OSError) as e:
+            err = f"post_export_error: {e}"
+            if emit_event:
+                _emit_openclaw_event(user_id, out_dir, fmt, files, status="failed", error=err)
+            print(err, file=sys.stderr)
+            _append_openclaw_export_ledger(user_id, files, success=False, t0=t0)
+            return 3
+    if emit_event:
+        _emit_openclaw_event(user_id, out_dir, fmt, files, status="ok")
+    if append_harness_event and files:
+        append_harness_event(
+            user_id,
+            "openclaw_hook",
+            "runtime_compat_export",
+            path=str(out_dir.resolve()),
+            format=fmt,
+            file_count=len(files),
+            status="ok",
+            target="openclaw",
+            bundle_id=_bundle_id(out_dir),
+            pipeline_event=bool(emit_event),
+        )
+    _append_openclaw_export_ledger(user_id, files, success=True, t0=t0)
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Export Grace-Mar Record for OpenClaw")
+    parser.add_argument("--user", "-u", default="grace-mar", help="User id")
+    parser.add_argument("--output", "-o", default=None, help="Output directory (default: repo root)")
+    parser.add_argument(
+        "--format",
+        choices=["md", "md+manifest", "json+md", "full-prp", "fork-json"],
+        default="md+manifest",
+        help="Export shape",
+    )
+    parser.add_argument(
+        "--destination",
+        choices=["local", "post"],
+        default="local",
+        help="Write locally or POST exported payload",
+    )
+    parser.add_argument("--post-url", default="", help="POST destination URL when --destination post")
+    parser.add_argument("--api-key", default="", help="Optional API key for post destination (X-Api-Key)")
+    parser.add_argument("--emit-event", action="store_true", help="Emit runtime_compat_export event to pipeline log")
+    args = parser.parse_args()
+    out = Path(args.output) if args.output else None
+    return run_openclaw_export(
+        user_id=args.user,
+        output=out,
+        fmt=args.format,
+        destination=args.destination,
+        post_url=args.post_url,
+        api_key=args.api_key,
+        emit_event=args.emit_event,
+    )
+
+
+if __name__ == "__main__":
+    sys.exit(main())

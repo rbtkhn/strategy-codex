@@ -27,7 +27,7 @@ python scripts/run_perf_suite.py --tier 5
 python scripts/run_perf_suite.py --tier 1 --check-baseline
 
 # Write JSON artifact
-python scripts/run_perf_suite.py --tier 1 2 -o artifacts/perf-results.json
+python scripts/run_perf_suite.py --tier 1 2 -o runtime/artifacts/perf-results.json
 ```
 
 **Nightly / manual:** Run tiers 1â€“3 weekly or before releases; store `-o` JSON for trending. CI runs tier 1 only.

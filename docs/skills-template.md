@@ -41,7 +41,7 @@ Grace-Mar observes, records, and infers capability from accumulated evidence.
 
 SKILLS now organizes under **two Record-bound modules: THINK and WRITE**. These are the capability containers that describe what the companion can do **inside the Record**. They are evidence-linked, gated, and constrained by the Record's knowledge boundary.
 
-**Split-template extensions:** The companion-self **`_template/`** scaffold may also ship **self-skill-work.md** (making/doing — not the same as operator **`docs/skill-work/`** territories) and **self-skill-steward.md** (**STEWARD** — governance literacy at the gate; not merge authority). See [skills-modularity.md](skills-modularity.md) §1–2 and [concept.md](concept.md) §4.
+**Split-template extensions:** The companion-self **`platform/template/`** scaffold may also ship **self-skill-work.md** (making/doing — not the same as operator **`docs/skill-work/`** territories) and **self-skill-steward.md** (**STEWARD** — governance literacy at the gate; not merge authority). See [skills-modularity.md](skills-modularity.md) §1–2 and [concept.md](concept.md) §4.
 
 ### II-A. Separate work / execution layer
 

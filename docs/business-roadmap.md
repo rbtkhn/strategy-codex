@@ -106,7 +106,7 @@ Not essential to system operation; required for go-to-market in child/minor segm
 |----------|-----------|
 | [White Paper](white-paper.md) | Full narrative, differentiation, trust primitive |
 | [Business Prospectus](business-prospectus.md) | Investor/partner summary |
-| [Design Roadmap](design-roadmap.md) | Product/feature design (email, newsletters, X, integrations) |
+| [Design Roadmap](design-roadmap.md) | Product/feature design (email, newsletters, X, platform/integrations) |
 | [Design Notes](design-notes.md) | White paper input, positioning, agent-web insights |
 | [Competitive Analysis](competitive-analysis.md) | Market landscape |
 | [Differentiation](differentiation.md) | Competitive moats |

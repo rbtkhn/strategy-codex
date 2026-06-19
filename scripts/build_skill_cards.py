@@ -6,7 +6,7 @@ Does not read generated .cursor/skills/*/SKILL.md — canonical source is portab
 
 Usage:
   python3 scripts/build_skill_cards.py
-  python3 scripts/build_skill_cards.py --out-dir artifacts/skill-cards
+  python3 scripts/build_skill_cards.py --out-dir runtime/artifacts/skill-cards
 """
 
 from __future__ import annotations
@@ -22,11 +22,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS = Path(__file__).resolve().parent
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
+from repo_io import ARTIFACTS_DIR, SCHEMA_REGISTRY_DIR, SKILLS_DIR
 
 from yaml_compat import safe_load_path, safe_load_text
 
-MANIFEST = REPO_ROOT / "skills-portable" / "manifest.yaml"
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "skill-card.v1.json"
+MANIFEST = SKILLS_DIR / "manifest.yaml"
+SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "skill-card.v1.json"
 RUNTIME_SNIPPET_MAX = 800
 OPERATOR_VIEW_MAX = 1200
 
@@ -70,10 +71,10 @@ def _normalize_snippet(s: str) -> str:
 
 def _operator_view(appendix_rel: str | None, skill_id: str) -> str:
     if not appendix_rel:
-        return f"See skills-portable/{skill_id}/SKILL.md (no appendix in manifest)."
+        return f"See skills/{skill_id}/SKILL.md (no appendix in manifest)."
     ap = REPO_ROOT / appendix_rel
     if not ap.exists():
-        return f"Appendix missing at {appendix_rel}; see skills-portable/{skill_id}/SKILL.md."
+        return f"Appendix missing at {appendix_rel}; see skills/{skill_id}/SKILL.md."
     text = ap.read_text(encoding="utf-8").strip()
     if len(text) > OPERATOR_VIEW_MAX:
         return text[: OPERATOR_VIEW_MAX - 1] + "…"
@@ -87,10 +88,10 @@ def build_card_for_skill(row: dict) -> dict:
     if not name or not source_rel:
         raise ValueError(f"Invalid manifest row: {row!r}")
 
-    if source_rel.startswith("skills-portable/"):
+    if source_rel.startswith("skills/"):
         portable = REPO_ROOT / source_rel
     else:
-        portable = REPO_ROOT / "skills-portable" / source_rel
+        portable = SKILLS_DIR / source_rel
     if not portable.exists():
         raise FileNotFoundError(f"Portable skill not found: {portable}")
 
@@ -102,7 +103,7 @@ def build_card_for_skill(row: dict) -> dict:
     mtime = datetime.fromtimestamp(portable.stat().st_mtime, tz=timezone.utc)
     last_updated = mtime.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    source_path = f"skills-portable/{name}/SKILL.md"
+    source_path = f"skills/{name}/SKILL.md"
 
     return {
         "skill_id": name,
@@ -260,7 +261,7 @@ def main() -> int:
     parser.add_argument(
         "--out-dir",
         type=Path,
-        default=REPO_ROOT / "artifacts" / "skill-cards",
+        default=ARTIFACTS_DIR / "skill-cards",
         help="Output directory for *.json and *.md",
     )
     parser.add_argument("--markdown", action="store_true", help="Also write .md alongside .json")

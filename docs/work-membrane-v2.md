@@ -110,12 +110,12 @@ Practical rule:
 |---------|-------|
 | `self.md`, `self-archive.md`, `self-skills.md`, `self-library.md` | `Record` |
 | `statecraft/daily/*.md` | `governed adjacent` |
-| `statecraft/bridges/*.md` | `governed adjacent` |
+| `statecraft/research/bridges/*.md` | `governed adjacent` |
 | `statecraft/daily/METHOD.md`, audit rubric, benchmark manifest | `governed adjacent` |
 | `singularity/notes/*.md`, `singularity/essays/*.md`, architecture/protocol doctrine | `governed adjacent` |
 | `docs/skill-work/work-*` | `instrumental work` |
 | `work-*.md` instance work contexts | `instrumental work` |
-| `artifacts/*`, runtime payloads, generated indexes, skill cards | `runtime / derived` |
+| `runtime/artifacts/*`, runtime payloads, generated indexes, skill cards | `runtime / derived` |
 | `runtime/runtime-complements/*` | `external complements` |
 | normalized external import inboxes and receipts | `external complements` until staged otherwise |
 

@@ -64,18 +64,18 @@ def save_file(path: Path, content: str, *, repo_root: Path) -> None:
 
 
 def user_profile_dir(repo_root: Path, user_id: str) -> Path:
-    return repo_root / "users" / user_id
+    return repo_root / "platform/users" / user_id
 
 
 def canonical_record_ready(repo_root: Path, user_id: str) -> bool:
-    root = repo_root / "users" / user_id
+    root = repo_root / "platform/users" / user_id
     if not root.is_dir():
         return False
     return all((root / name).is_file() for name in CANONICAL_RECORD_FILES_REQUIRED)
 
 
 def append_good_morning_tone_memory(profile: Path, tone: str, *, when: str, repo_root: Path) -> None:
-    mem = resolve_self_memory_path(profile)
+    mem = resolve_self_memory_path(platform/profile)
     block = (
         f"\n\n### Seed wizard (operator)\n"
         f"*Written by seed-phase-wizard at {when} — ephemeral; not Record. "
@@ -167,7 +167,7 @@ def run_wizard(
     instance = ask("Companion instance id (directory under )", user_id).strip() or user_id
     profile = user_profile_dir(repo_root, instance)
     profile.mkdir(parents=True, exist_ok=True)
-    (profile / "reflection-proposals").mkdir(parents=True, exist_ok=True)
+    (profile / "archive/queues/reflection-proposals").mkdir(parents=True, exist_ok=True)
     (profile / "seed").mkdir(parents=True, exist_ok=True)
 
     when = _now_utc_iso()
@@ -182,7 +182,7 @@ def run_wizard(
         lines.append(line)
     founding = "\n".join(lines).strip() or "(not provided)"
     save_file(
-        profile / "reflection-proposals" / "SEED-founding-intent.md",
+        profile / "archive/queues/reflection-proposals" / "SEED-founding-intent.md",
         f"# Founding intention\n\n{founding}\n\nSeeded (UTC): {when}\n",
         repo_root=repo_root,
     )
@@ -220,7 +220,7 @@ def run_wizard(
     print(f"\n{Colors.BOLD}Step 4: Initial curiosity{Colors.ENDC}")
     curiosity = ask("One open question or skill edge to explore recursively?")
     save_file(
-        profile / "reflection-proposals" / "SEED-initial-sparks.md",
+        profile / "archive/queues/reflection-proposals" / "SEED-initial-sparks.md",
         f"# Initial curiosity sparks\n\n- {curiosity}\n\nSeeded (UTC): {when}\n",
         repo_root=repo_root,
     )
@@ -229,7 +229,7 @@ def run_wizard(
     annotation = ask("Notes on tensions / mysteries (optional):", "")
     if annotation.strip():
         save_file(
-            profile / "reflection-proposals" / "SEED-tensions-note.md",
+            profile / "archive/queues/reflection-proposals" / "SEED-tensions-note.md",
             f"# Seed — tensions note\n\n{annotation.strip()}\n\nSeeded (UTC): {when}\n",
             repo_root=repo_root,
         )

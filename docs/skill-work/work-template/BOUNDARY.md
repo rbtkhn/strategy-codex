@@ -17,7 +17,7 @@
 
 ## What this lane may not write
 
-- **No direct edits** to `self.md`, `self-archive.md`, `bot/prompt.py`, or merge from gate without companion approval and `process_approved_candidates.py`.  
+- **No direct edits** to `self.md`, `self-archive.md`, `archive/grace-mar-instance/bot/prompt.py`, or merge from gate without companion approval and `process_approved_candidates.py`.  
 - **No** treating WORK drafts as Record truth or Voice knowledge until gated and merged.  
 
 ## Promotion paths

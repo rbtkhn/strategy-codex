@@ -137,7 +137,7 @@ def export_curriculum(
     audience: str | None = None,
 ) -> dict:
     """Build curriculum-oriented export for adaptive curriculum engines."""
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     self_content = _read(profile_dir / "self.md")
     skills_primary = resolve_surface_markdown_path(profile_dir, "self_skills")
     skills_content = "\n".join(
@@ -211,7 +211,7 @@ def main() -> None:
     args = parser.parse_args()
 
     data = export_curriculum(user_id=args.user, audience=args.audience)
-    profile_dir = REPO_ROOT / "users" / args.user
+    profile_dir = REPO_ROOT / "platform/users" / args.user
     out_dir = Path(args.output) if args.output else profile_dir
     out_dir.mkdir(parents=True, exist_ok=True)
 

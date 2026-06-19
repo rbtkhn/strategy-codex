@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate artifacts/work-dev/*.json against schemas/work_dev schemas."""
+"""Validate runtime/artifacts/work-dev/*.json against schemas/work_dev schemas."""
 
 from __future__ import annotations
 
@@ -21,15 +21,15 @@ def _validate(path: Path, schema_path: Path) -> None:
 def main() -> int:
     pairs = [
         (
-            REPO_ROOT / "artifacts/work-dev/known-gaps.json",
+            REPO_ROOT / "runtime/artifacts/work-dev/known-gaps.json",
             REPO_ROOT / "schemas/work_dev/known_gaps.schema.json",
         ),
         (
-            REPO_ROOT / "artifacts/work-dev/capability-status.json",
+            REPO_ROOT / "runtime/artifacts/work-dev/capability-status.json",
             REPO_ROOT / "schemas/work_dev/integration_status.schema.json",
         ),
         (
-            REPO_ROOT / "artifacts/work-dev/proof_ledger.json",
+            REPO_ROOT / "runtime/artifacts/work-dev/proof_ledger.json",
             REPO_ROOT / "schemas/work_dev/proof_ledger.schema.json",
         ),
     ]

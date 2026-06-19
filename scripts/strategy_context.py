@@ -35,7 +35,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from repo_io import DEFAULT_USER_ID, profile_dir, read_path  # noqa: E402
+from repo_io import DEFAULT_USER_ID, profile_dir, read_path  # noqa: E402, ARTIFACTS_DIR
 
 STRATEGY_DIR = REPO_ROOT / "docs" / "skill-work" / "work-strategy"
 STRATEGY_CODEX_DIR = REPO_ROOT / "codex"
@@ -255,7 +255,7 @@ def _meta_path(d: str) -> Path:
 MINDS_DIR = STRATEGY_DIR / "minds"
 MINDS_README = MINDS_DIR / "README.md"
 MINDS_OUTPUTS = MINDS_DIR / "outputs"
-OBSERVABILITY_JSON = REPO_ROOT / "artifacts" / "work-strategy" / "strategy-observability.json"
+OBSERVABILITY_JSON = ARTIFACTS_DIR / "work-strategy" / "strategy-observability.json"
 
 
 def extract_day_block(text: str, day: str) -> str | None:

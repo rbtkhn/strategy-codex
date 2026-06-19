@@ -86,7 +86,7 @@ These outputs do **not** replace companion or operator approval of `seed_dossier
 
 ## Activation rule (normative)
 
-**Activation** = creating or promoting a live `` tree with bot/pipeline attached. It is **forbidden** until:
+**Activation** = creating or promoting a live `` tree with archive/grace-mar-instance/bot/pipeline attached. It is **forbidden** until:
 
 1. `seed_readiness.json` exists with `decision` ∈ {`pass`, `conditional_pass`} per policy above, and  
 2. `seed_dossier.md` is reviewed and signed off by operator (and guardian when applicable), and  

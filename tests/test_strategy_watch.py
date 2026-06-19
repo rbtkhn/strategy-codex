@@ -100,7 +100,7 @@ class TestExpertPaths:
     def test_returns_correct_structure(self, notebook: Path):
         from strategy_expert_corpus import expert_paths
         paths = expert_paths("pape", notebook)
-        assert paths["profile"] == notebook / "experts" / "pape" / "profile.md"
+        assert paths["platform/profile"] == notebook / "experts" / "pape" / "profile.md"
         assert paths["transcript"] == notebook / "experts" / "pape" / "transcript.md"
         assert paths["thread"] == notebook / "experts" / "pape" / "thread.md"
         assert paths["mind"] == notebook / "experts" / "pape" / "mind.md"

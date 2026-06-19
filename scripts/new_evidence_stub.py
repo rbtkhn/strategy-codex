@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Create an evidence stub from docs/templates/evidence-stub-template.md.
@@ -28,8 +29,8 @@ def main() -> int:
     ap.add_argument(
         "--output",
         type=Path,
-        default=REPO_ROOT / "artifacts" / "evidence-stubs",
-        help="Output directory (default: artifacts/evidence-stubs/)",
+        default=ARTIFACTS_DIR / "evidence-stubs",
+        help="Output directory (default: runtime/artifacts/evidence-stubs/)",
     )
     ap.add_argument("--date", default=None, help="YYYY-MM-DD (default: today)")
     ap.add_argument("--status", default="unreviewed", help="Stub status line (default: unreviewed)")

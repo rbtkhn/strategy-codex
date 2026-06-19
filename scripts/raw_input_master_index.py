@@ -548,7 +548,7 @@ def render_markdown(
         "",
         *_counter_table(kind_counts),
         "",
-        "## Canonical transcript body profile",
+        "## Canonical transcript body platform/profile",
         "",
         *_counter_table(transcript_profiles),
         "",

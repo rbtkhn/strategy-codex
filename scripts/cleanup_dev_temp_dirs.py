@@ -14,12 +14,12 @@ PATTERNS = (
     ".tmp-pytest-*",
     "pytest-cache-files-*",
     ".codex-tmp",
-    ".codex-bin",
+    ".codex-platform/bin",
 )
 
 
 def _matches(name: str) -> bool:
-    if name == ".codex-tmp" or name == ".codex-bin":
+    if name == ".codex-tmp" or name == ".codex-platform/bin":
         return True
     if name.startswith(".tmp-pytest-"):
         return True

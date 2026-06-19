@@ -78,7 +78,7 @@ def test_runner_exists_and_can_be_invoked(tmp_path: Path) -> None:
     assert "Counterfactual Fork Simulator" in result.stdout
     smoke_output = (
         tmp_path
-        / "artifacts"
+        / "runtime/artifacts"
         / "counterfactual-simulations"
         / "deterministic-diagnostics-smoke.json"
     )
@@ -94,7 +94,7 @@ def test_runner_returns_zero_and_prints_sections_on_success(
     calls: list[list[str]] = []
     smoke_output = (
         tmp_path
-        / "artifacts"
+        / "runtime/artifacts"
         / "counterfactual-simulations"
         / "deterministic-diagnostics-smoke.json"
     )

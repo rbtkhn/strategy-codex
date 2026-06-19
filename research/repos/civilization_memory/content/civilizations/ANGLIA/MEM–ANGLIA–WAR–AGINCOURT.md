@@ -3,7 +3,7 @@ Civilizational Memory Codex · Memory File
 ACTIVE · CANONICAL
 Status: ACTIVE
 Version: 1.5
-Upgrade Type: ADDITIVE (Shakespeare *Henry V* — St Crispin’s Day, literary evidence)
+Upgrade Type: ADDITIVE (Shakespeare *Henry V* — St Crispin’s Day, literary archive/placeholders/evidence)
 Civilization: ANGLIA
 Subject: Battle of Agincourt (Asymmetric Victory & Strategic Restraint)
 Dates: 1415 AD

@@ -8,7 +8,7 @@
 
 **Override home:** `GRACE_MAR_WORKFLOW_DEPTH_HOME` (default: `runtime/workflow-depth/` under repo root).
 
-**Schema:** [`schema-registry/workflow-depth-receipt.v1.json`](../../schema-registry/workflow-depth-receipt.v1.json)
+**Schema:** [`schemas/registry/workflow-depth-receipt.v1.json`](../../schemas/registry/workflow-depth-receipt.v1.json)
 
 **Doctrine:** [docs/runtime/context-budgeting.md](../../docs/runtime/context-budgeting.md)
 

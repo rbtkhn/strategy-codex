@@ -119,7 +119,7 @@ def test_johnson_guest_dropout_trim():
     assert "lisa" not in joined.lower()
     assert "internet just cut out" not in joined.lower()
     assert "Larry. Did you hear" in joined
-    assert "circumstantial evidence" in joined
+    assert "circumstantial archive/placeholders/evidence" in joined
 
 
 def test_kent_opening_no_guest_dropout_trim():

@@ -9,7 +9,7 @@ tags:
 - raw-input
 - youtube
 - transcript
-portable_source: skills-portable/youtube-raw-input-transcript/SKILL.md
+portable_source: skills/youtube-raw-input-transcript/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # YouTube raw-input transcript
@@ -138,7 +138,7 @@ Short rule:
      - `appearance-ledger.jsonl`
      - `speaker-routing-queue.md/jsonl`
      - `memory-action-queue.md/jsonl`
-     - `artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json`
+     - `runtime/artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json`
      - `codex/years/2026/raw-input/raw-input-master-index.md/json`
      - `codex/years/2026/raw-input/raw-input-index-audit.md/json`
      - `.codex-tmp/youtube-raw-input/<run-id>/capture-summary.md`
@@ -234,7 +234,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/youtube-r
 | Date-bucket target pattern | `codex/YYYY/raw-input/YYYY-MM-DD/` |
 | Existing Diesen examples | [codex/years/2026/raw-input/2026-04-19/](../../codex/years/2026/raw-input/2026-04-19/) · [codex/years/2026/raw-input/2026-05-11/](../../codex/years/2026/raw-input/2026-05-11/) |
 | Temp subtitle cache | [\.codex-tmp/yt-dlp/](../../.codex-tmp/yt-dlp/) |
-| Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 | Skill validator | [scripts/validate_skills.py](../../../scripts/validate_skills.py) |
 

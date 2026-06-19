@@ -17,7 +17,7 @@ from grace_mar.merge.boundary_classifier import (
 )
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "boundary-classification.v1.json"
+SCHEMA_PATH = REPO_ROOT / "schemas/registry" / "boundary-classification.v1.json"
 
 
 @pytest.fixture
@@ -56,7 +56,7 @@ def test_build_boundary_classification_validates(schema):
 
 
 def test_write_boundary_classification_creates_file(tmp_path: Path, schema):
-    (tmp_path / "users" / "test-user" / "review-queue").mkdir(parents=True)
+    (tmp_path / "platform/users" / "test-user" / "archive/queues/review-queue").mkdir(parents=True)
     row = {
         "id": "CANDIDATE-0888",
         "status": "pending",

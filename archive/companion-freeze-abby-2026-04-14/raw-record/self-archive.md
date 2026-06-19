@@ -4,7 +4,7 @@ Version: 0.2
 Created: February 2026
 Status: ACTIVE
 
-Canonical evidence surface — not identity (SELF), not reference routing (SELF-LIBRARY), not runtime transcript storage. Normalized, provenance-linked entries with artifact references. Long raw transcripts belong under `artifacts/` and are referenced here, not inlined. Evidence may inform SELF or SKILLS only through explicit reviewed synthesis via the gated pipeline.
+Canonical evidence surface — not identity (SELF), not reference routing (SELF-LIBRARY), not runtime transcript storage. Normalized, provenance-linked entries with artifact references. Long raw transcripts belong under `runtime/artifacts/` and are referenced here, not inlined. Evidence may inform SELF or SKILLS only through explicit reviewed synthesis via the gated pipeline.
 
 ---
 
@@ -12,7 +12,7 @@ Canonical evidence surface — not identity (SELF), not reference routing (SELF-
 
 Do not inline long raw transcripts in the canonical archive. § VIII (Gated Approved Log) is the primary area where this applies.
 
-- Store the raw transcript or long conversation extract under `artifacts/` (e.g. `artifacts/act-XXXX-telegram-thread.md`)
+- Store the raw transcript or long conversation extract under `runtime/artifacts/` (e.g. `runtime/artifacts/act-XXXX-telegram-thread.md`)
 - Create a normalized archive entry here with: date, modality, activity type, topic, `artifact_ref`, normalized summary, evidence tier
 - Inline transcript excerpts only when the exact wording is itself the evidence (e.g. a specific phrasing that reveals a knowledge boundary or personality signal)
 
@@ -24,9 +24,9 @@ Forward-facing standard for new entries. Existing entries are not retroactively 
 
 Every durable archive entry should aim to separate four layers:
 
-1. **artifact_ref** — where the raw thing lives (path under `artifacts/`)
+1. **artifact_ref** — where the raw thing lives (path under `runtime/artifacts/`)
 2. **normalized** — structured facts about the thing
-3. **analysis_ref** — optional interpretation stored separately (e.g. `artifacts/analyses/`)
+3. **analysis_ref** — optional interpretation stored separately (e.g. `runtime/artifacts/analyses/`)
 4. **candidate_for** — optional downstream synthesis targets (THINK, WRITE, SELF)
 
 ### Evidence subtypes
@@ -56,7 +56,7 @@ Subtype describes the evidence class, not the topic.
     modality: text (Telegram)
     activity_type: correction / boundary stress
     topic: example topic
-    artifact_ref: artifacts/act-XXXX-telegram-thread.md
+    artifact_ref: runtime/artifacts/act-XXXX-telegram-thread.md
     normalized:
       summary: >
         Short factual summary of what happened.
@@ -116,7 +116,7 @@ entries:
     title: "Madeline retelling — from memory"
     created_at: 2026-02-15
     word_count: 40
-    image_file: artifacts/write-0001-madeline-retell.png
+    image_file: runtime/artifacts/write-0001-madeline-retell.png
     evidence_tier: 4  # OBSERVED — actual handwritten artifact
 
     full_text: "In an old house in paris that was caverd with vins lived tuelv little grils the smallest won was Maedlin and us because shes not afraid of mice and to the tigere in the s madlin gust side boo hoo."
@@ -177,7 +177,7 @@ entries:
     title: "Earth's layers — what I learned at school"
     created_at: 2026-02-19
     word_count: 48
-    image_file: artifacts/write-0002-earth-layers-science.png
+    image_file: runtime/artifacts/write-0002-earth-layers-science.png
     evidence_tier: 4  # OBSERVED — actual handwritten artifact
 
     full_text: "today I lernd about the Earth and the lay ers of the Earth the names of them are crust, mantle and outer core, Inner core and cove. at scool my favrit subjet is saience because I like it I like lerning about space and I like lisning to storece"
@@ -245,7 +245,7 @@ entries:
     title: "Swimming, food, movie — personal facts"
     created_at: 2026-02-19
     word_count: 43
-    image_file: artifacts/write-0003-personal-journal.png
+    image_file: runtime/artifacts/write-0003-personal-journal.png
     evidence_tier: 4  # OBSERVED — actual handwritten artifact
 
     full_text: "I used to be afraid of swimming because the water was deep. my faverit food is spaghetti and pissa. The next movie I want to wach is K pop demon huters because the costumes are cool."
@@ -312,7 +312,7 @@ entries:
     title: "Sleepover, movies — yesterday's activities"
     created_at: 2026-02-21
     word_count: 58
-    image_file: artifacts/write-0004-sleepover-journal.png
+    image_file: runtime/artifacts/write-0004-sleepover-journal.png
     evidence_tier: 4  # OBSERVED — actual handwritten artifact
 
     full_text: "Yesterday I had a sleep over in my mommy's room. and I wacht a Movie in mommys room and went to bed. and I wacht Barby. and I went to bed and at shcool I wacht magic scoohl bus. for are movie"
@@ -360,7 +360,7 @@ entries:
     title: "Casa Bonita — today's visit"
     created_at: 2026-02-23
     word_count: 44
-    image_file: artifacts/write-0005-casa-bonita.png
+    image_file: runtime/artifacts/write-0005-casa-bonita.png
     evidence_tier: 4  # OBSERVED — actual handwritten artifact
 
     full_text: "today I went to casa bonita and I had Slideres for lunch and ther I went to play at Casa bonita and I got a face pating at casa bonita then I saw a perpet show"
@@ -405,7 +405,7 @@ entries:
     title: "Dinosaurs not extinct — sentence and picture"
     created_at: 2026-02-24
     word_count: 15
-    image_file: artifacts/write-0006-dinosaur-extinction.jpg
+    image_file: runtime/artifacts/write-0006-dinosaur-extinction.jpg
     evidence_tier: 4  # OBSERVED — school worksheet
 
     full_text: "My life would be different because I would be scard to go outside."
@@ -516,7 +516,7 @@ entries:
     title: "Nine-Colored Deer (九色鹿)"
     description: "The Nine-Colored Deer from a Chinese folk tale, standing strong and proud on a mountaintop. Deer wears a rainbow scarf (her interpretation of 'nine colors'), has hearts on its body (the deer's kindness), a halo behind its head (the deer is special/sacred), antlers, eyelashes. Mountains below with clouds. Blue sky, yellow sun."
     source_story: "九色鹿 (jiǔ sè lù) — Chinese folk tale, text-only book ('a word book, not a picture book, so we have to imagine it ourselves')"
-    image_file: artifacts/create-0001-nine-colored-deer.png
+    image_file: runtime/artifacts/create-0001-nine-colored-deer.png
     created_at: 2026-02-15
     evidence_tier: 4  # OBSERVED — actual artifact
 
@@ -557,7 +557,7 @@ entries:
     title: "Stitch at Lilo's House"
     description: "Stitch from Lilo & Stitch sitting contentedly on a rainbow rug inside Lilo's house. Decorated with colorful bunting/flags along walls and roofline. Stitch has his stuffie nearby and a food bowl. Sun outside. Labeled 'Stitch' in her handwriting."
     source: "Lilo & Stitch (Disney) — known character placed in her own domestic scene"
-    image_file: artifacts/create-0002-stitch-at-lilos-house.png
+    image_file: runtime/artifacts/create-0002-stitch-at-lilos-house.png
     created_at: 2026-02-15
     evidence_tier: 4  # OBSERVED
 
@@ -594,7 +594,7 @@ entries:
     title: "Nu-Nu in the Mountains"
     description: "Grace-Mar's favorite stuffed animal, Nu-Nu ('my baby — I take care of her'), personified as a girl figure in the Rocky Mountains. Nu-Nu wears a rainbow dress with a flower on the top, has eyelashes, a bow, and brown hair. She has a pacifier. Scene includes gray mountains with clouds, green trees, a sun, and a bird flying."
     source: "Original — portrait of her favorite stuffed animal personified in her favorite landscape"
-    image_file: artifacts/create-0003-nu-nu-in-mountains.png
+    image_file: runtime/artifacts/create-0003-nu-nu-in-mountains.png
     created_at: 2026-02-15
     evidence_tier: 4  # OBSERVED
 
@@ -636,7 +636,7 @@ entries:
     title: "Abby's Ocean"
     description: "Original underwater scene — Abby's own invented ocean. A smiling blue octopus swimming and playing with a school of orange fish, a crab at the bottom in a shell, seaweed, sand, bubbles. Signed 'Abby' three times in different colors at top left. Labeled 'Sea'. A scribbled-out mistake on the left — she covered it and kept going."
     source: "Fully original — 'I made it up, it's my own ocean'"
-    image_file: artifacts/create-0004-abbys-ocean.png
+    image_file: runtime/artifacts/create-0004-abbys-ocean.png
     created_at: 2026-02-15
     evidence_tier: 4  # OBSERVED
 
@@ -677,7 +677,7 @@ entries:
     title: "Tomb of Pakal"
     description: "Mayan stepped pyramid rendered in cut paper collage on purple construction paper. Gray/white paper pieces arranged as stone steps leading to a temple structure at top with three dark windows. Labeled with arrows: 'Tomb of Pakal' and 'Temple'. Educational/diagrammatic labeling style."
     source: "School project — learned about Pakal in first grade"
-    image_file: artifacts/create-0005-tomb-of-pakal.png
+    image_file: runtime/artifacts/create-0005-tomb-of-pakal.png
     created_at: 2026-02-15
     evidence_tier: 4  # OBSERVED
     context: school
@@ -711,7 +711,7 @@ entries:
     title: "Abby on the Moon"
     description: "Abby as an astronaut on the lunar surface, planting a flag that reads 'Abby'. Large detailed moon with craters and surface geography. Astronaut in red-and-blue spacesuit with round helmet (face visible). Silver stars on black space background. Made with crayon/pencil on black construction paper."
     source: "School project — space/astronomy unit"
-    image_file: artifacts/create-0006-abby-on-the-moon.png
+    image_file: runtime/artifacts/create-0006-abby-on-the-moon.png
     created_at: 2026-02-15
     evidence_tier: 4  # OBSERVED
     context: school
@@ -744,7 +744,7 @@ entries:
     title: "Egyptian Pharaohs"
     description: "Two Egyptian pharaohs wearing blue-and-yellow striped nemes headdresses. Brown skin, outstretched hands, dot eyes with red detail. Paired figures — first time she drew two people together."
     source: "School project — ancient civilizations unit (Egypt)"
-    image_file: artifacts/create-0007-egyptian-pharaohs.png
+    image_file: runtime/artifacts/create-0007-egyptian-pharaohs.png
     created_at: 2026-02-15
     evidence_tier: 4  # OBSERVED
     context: school
@@ -774,7 +774,7 @@ entries:
     title: "Snowman"
     description: "Paper collage snowman on black construction paper. White body, button eyes, carrot nose, eyelashes, smile. Wearing a striped hat (green, blue, purple bands), striped scarf (purple, blue, pink), pink earmuffs. Striped stick arms. Silver snowflakes on black background."
     source: "School project"
-    image_file: artifacts/create-0008-snowman-collage.png
+    image_file: runtime/artifacts/create-0008-snowman-collage.png
     created_at: 2026-02-15
     evidence_tier: 4  # OBSERVED
     context: school
@@ -808,7 +808,7 @@ entries:
     title: "Earth — Americas View"
     description: "Hand-drawn Earth cutout showing Americas, Greenland, Europe, Africa. Continents green, oceans blue. Crayon/colored pencil on paper, cut into circular shape. Geography homework."
     source: "School — geography/earth science"
-    image_file: artifacts/create-0009-earth-cutout.png
+    image_file: runtime/artifacts/create-0009-earth-cutout.png
     created_at: 2026-02-26
     evidence_tier: 4
     context: school
@@ -825,7 +825,7 @@ entries:
     title: "Desert Scene"
     description: "Desert landscape with mountains, sun with rays, sandy terrain, cacti/desert plants, two black silhouette camels. Markers on paper. Desert ecosystem homework."
     source: "School — desert/earth science"
-    image_file: artifacts/create-0010-desert-scene.png
+    image_file: runtime/artifacts/create-0010-desert-scene.png
     created_at: 2026-02-26
     evidence_tier: 4
     context: school
@@ -951,7 +951,7 @@ Raw activity records.
 activities:
   - id: ACT-0001
     date: 2026-02-19
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: lookup — curated knowledge acquisition
     source: bot interaction (user asked, Grace-Mar looked it up, user approved for permanent knowledge)
     question: "Who was the first president?"
@@ -965,7 +965,7 @@ activities:
 
   - id: ACT-0002
     date: 2026-02-19
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: lookup — curated knowledge acquisition
     source: bot lookup
     question: "What is Jupiter's red spot?"
@@ -976,7 +976,7 @@ activities:
 
   - id: ACT-0003
     date: 2026-02-19
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: conversation — knowledge expressed
     source: bot conversation (user asked about favorite planet)
     topic: "Mars and Olympus Mons"
@@ -986,7 +986,7 @@ activities:
 
   - id: ACT-0004
     date: 2026-02-19
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: lookup — curated knowledge acquisition
     source: bot lookup
     question: "What are gemstones?"
@@ -997,7 +997,7 @@ activities:
 
   - id: ACT-0005
     date: 2026-02-19
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: conversation — knowledge expressed
     source: bot conversation (follow-up to gemstone lookup)
     topic: "How gemstones differ from normal stones"
@@ -1007,7 +1007,7 @@ activities:
 
   - id: ACT-0006
     date: 2026-02-19
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: lookup — curated knowledge acquisition
     source: bot lookup
     question: "Did Abraham Lincoln wear a black hat and put notes in it?"
@@ -1018,7 +1018,7 @@ activities:
 
   - id: ACT-0007
     date: 2026-02-19
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: lookup — curated knowledge acquisition
     source: bot lookup
     question: "Why was Lincoln a really important guy?"
@@ -1029,7 +1029,7 @@ activities:
 
   - id: ACT-0008
     date: 2026-02-19
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: lookup + interest correction
     source: bot lookup + user noted seed gap (classical music interest not captured in seed phases)
     question: "Do you know about the Nutcracker ballet?"
@@ -1041,7 +1041,7 @@ activities:
 
   - id: ACT-0009
     date: 2026-02-19
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: lookup — curated knowledge acquisition
     source: bot lookup
     question: "What is Schubert piano sonata D845?"
@@ -1052,7 +1052,7 @@ activities:
 
   - id: ACT-0010
     date: 2026-02-19
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: lookup — curated knowledge acquisition
     source: bot lookup
     question: "What is The Wild Robot?"
@@ -1063,7 +1063,7 @@ activities:
 
   - id: ACT-0011
     date: 2026-02-20
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: knowledge — curated observation
     mind_category: knowledge
     source: bot lookup
@@ -1075,7 +1075,7 @@ activities:
 
   - id: ACT-0012
     date: 2026-02-20
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: knowledge — curated observation
     mind_category: knowledge
     source: bot lookup
@@ -1141,7 +1141,7 @@ activities:
 
   - id: ACT-0016
     date: 2026-02-21
-    modality: text (Telegram bot)
+    modality: text (Telegram archive/grace-mar-instance/bot)
     activity_type: conversation — knowledge expressed before lookup
     mind_category: knowledge
     source: bot conversation
@@ -1976,7 +1976,7 @@ update_source: IX-C survey candidates (ACT-0055 via CANDIDATE-0097)
 > Let's watch the wild robot together
 
 **[2026-02-19 18:21:31]** `GRACE-MAR` (Telegram)
-> I haven't heard of "The Wild Robot"! But robots sound cool because they can sometimes do things like people do, and I like stories with fun adventures. I like watching movies with robots too, like E.T. because he's a different kind of robot alien! What's "The Wild Robot" about? I haven't learned that yet! do you want me to look it up?
+> I haven't heard of "The Wild Roarchive/grace-mar-instance/bot"! But robots sound cool because they can sometimes do things like people do, and I like stories with fun adventures. I like watching movies with robots too, like E.T. because he's a different kind of robot alien! What's "The Wild Roarchive/grace-mar-instance/bot" about? I haven't learned that yet! do you want me to look it up?
 
 **[2026-02-19 18:21:43]** `LOOKUP REQUEST` (Telegram)
 > Let's watch the wild robot together
@@ -1985,7 +1985,7 @@ update_source: IX-C survey candidates (ACT-0055 via CANDIDATE-0097)
 > Yes
 
 **[2026-02-19 18:21:47]** `GRACE-MAR (lookup)` (Telegram)
-> I found out about this cool book called "The Wild Robot"! It's about a robot named Roz who ends up on a wild island. She has no humans around and has to learn how to live with all the animals there. It's like magic because she makes friends with them and it's super exciting, kinda like when we watch shows with robots and animals on TV!
+> I found out about this cool book called "The Wild Roarchive/grace-mar-instance/bot"! It's about a robot named Roz who ends up on a wild island. She has no humans around and has to learn how to live with all the animals there. It's like magic because she makes friends with them and it's super exciting, kinda like when we watch shows with robots and animals on TV!
 
 **[2026-02-20 08:01:11]** `USER` (Telegram)
 > I am curious about reptiles
@@ -2335,7 +2335,7 @@ update_source: IX-C survey candidates (ACT-0055 via CANDIDATE-0097)
 
 **[2026-03-16]** `APPROVED` (operator)
 > CANDIDATE-0086 → ACT-0046
-> Voice authenticity test — Earth as favorite planet; appreciation for Earth as home and the uniqueness of life. PER-0008 added to IX-C; bot/prompt.py YOUR PERSONALITY updated.
+> Voice authenticity test — Earth as favorite planet; appreciation for Earth as home and the uniqueness of life. PER-0008 added to IX-C; archive/grace-mar-instance/bot/prompt.py YOUR PERSONALITY updated.
 > user: "What's your favorite planet?" grace_mar: "I think Earth is my favorite planet because it's where we live, and it's the only planet with life. It's so full of animals and people and cool places. But I also think Mars is interesting because scientists say there used to be oceans and trees there. What about you? Do you have a favorite planet?"
 
 **[2026-03-20 07:58:51]** `APPROVED` (Operator)

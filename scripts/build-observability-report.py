@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build observability-report.json from Change Proposal v1 files under review-queue/proposals/
+Build observability-report.json from Change Proposal v1 files under archive/queues/review-queue/proposals/
 and subprocess validation results.
 
 Reads proposal fields: status, primaryScope, secondaryScopes, targetSurface, changeType,
@@ -9,7 +9,7 @@ supportingEvidence[].type, createdAt.
 Default review root: demo/review-queue
 Default output: demo/observability/observability-report.json
 
-Validates output against schema-registry/observability-report.v1.json when present and jsonschema is installed.
+Validates output against schemas/registry/observability-report.v1.json when present and jsonschema is installed.
 """
 
 from __future__ import annotations
@@ -30,7 +30,7 @@ except ImportError:
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_PATH = ROOT / "schema-registry" / "observability-report.v1.json"
+SCHEMA_PATH = ROOT / "schemas/registry" / "observability-report.v1.json"
 
 STATUS_KEYS = [
     "proposed",
@@ -87,8 +87,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Build observability-report.json for a review-queue tree.")
     parser.add_argument(
         "--review-root",
-        default="demo/review-queue",
-        help="Path to review-queue directory (default: demo/review-queue)",
+        default="demo/archive/queues/review-queue",
+        help="Path to review-queue directory (default: demo/archive/queues/review-queue)",
     )
     parser.add_argument(
         "--output",
@@ -187,7 +187,7 @@ def main() -> int:
     # validate-change-review on this review root
     rel_review = str(review_root.relative_to(ROOT))
     cr_args = [rel_review]
-    if "/_template/" in f"/{rel_review}/":
+    if "/platform/template/" in f"/{rel_review}/":
         cr_args.append("--allow-empty")
     cr_code, cr_err = run_validator("validate-change-review.py", cr_args)
 

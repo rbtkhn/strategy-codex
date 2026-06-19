@@ -8,7 +8,7 @@ The **Workbench Harness** is a narrow **artifact execution and inspection** laye
 
 Workbench answers: *â€œDid this artifact run, render, and behave as intended in this environment?â€* It does **not** answer *â€œIs this claim about the world true?â€*
 
-Use the [../interface-artifacts/README.md](../interface-artifacts/README.md) family when you need to define **what kind of generated operator-facing artifact** you are making and what authority it does or does not have. Workbench remains the **inspection layer** for those artifacts, not a replacement doctrine for them.
+Use the [../interface-runtime/artifacts/README.md](../interface-runtime/artifacts/README.md) family when you need to define **what kind of generated operator-facing artifact** you are making and what authority it does or does not have. Workbench remains the **inspection layer** for those artifacts, not a replacement doctrine for them.
 
 ## What it is not
 
@@ -54,14 +54,14 @@ Runtime vs Record: treat Workbench as **work-dev / runtime lab** work. Nothing h
 
 ## Where to store receipts
 
-- **Default suggested path for real runs:** [artifacts/work-dev/workbench-receipts/](../../../../artifacts/work-dev/workbench-receipts/README.md) (create JSON files there; add to `.gitignore` locally if some runs must not be committed).
+- **Default suggested path for real runs:** [runtime/artifacts/work-dev/workbench-receipts/](../../../../runtime/artifacts/work-dev/workbench-receipts/README.md) (create JSON files there; add to `.gitignore` locally if some runs must not be committed).
 - **Examples and fixtures:** [examples/](examples/) under this folder.
 
 v1 does **not** require placing receipts under `` canonical files.
 
 ## Script support
 
-- **`scripts/work_dev/new_workbench_receipt.py`** â€” create a new receipt JSON (defaults: `receiptKind` `workbench`, `status` `draft`, `recordAuthority` / `gateEffect` `none`; default file under `artifacts/work-dev/workbench-receipts/`).
+- **`scripts/work_dev/new_workbench_receipt.py`** â€” create a new receipt JSON (defaults: `receiptKind` `workbench`, `status` `draft`, `recordAuthority` / `gateEffect` `none`; default file under `runtime/artifacts/work-dev/workbench-receipts/`).
 - **`scripts/work_dev/validate_workbench_receipt.py`** â€” validate one receipt; exits non-zero on errors.
 - **`scripts/work_dev/preflight_workbench.py`** â€” read-only **pilot chain** check: docs, visualizer files, static HTML smoke, committed fixture, example `workbench` receipts, and (by default) `generate_strategy_notebook_visualizer_fixture.py --check` (`--skip-smoke` / `--skip-freshness` to omit steps). See [PREFLIGHT.md](PREFLIGHT.md).
 
@@ -78,7 +78,7 @@ Before a demo or commit that touches the strategy visualizer or Workbench exampl
 
 ## Pilot artifacts
 
-- **Strategy notebook (static):** [demo-runs/workbench-visualizer/README.md](../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md) â€” fixture + HTML over `http.server`; `recordAuthority: none` / `gateEffect: none`; example receipt: [examples/strategy-notebook-visualizer-workbench-receipt.example.json](examples/strategy-notebook-visualizer-workbench-receipt.example.json). Optional screenshot staging: [artifacts/work-dev/workbench-screenshots/](../../../../artifacts/work-dev/workbench-screenshots/README.md).
+- **Strategy notebook (static):** [demo-runs/workbench-visualizer/README.md](../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md) â€” fixture + HTML over `http.server`; `recordAuthority: none` / `gateEffect: none`; example receipt: [examples/strategy-notebook-visualizer-workbench-receipt.example.json](examples/strategy-notebook-visualizer-workbench-receipt.example.json). Optional screenshot staging: [runtime/artifacts/work-dev/workbench-screenshots/](../../../../runtime/artifacts/work-dev/workbench-screenshots/README.md).
 
 ## Specs and protocols
 
@@ -88,7 +88,7 @@ Before a demo or commit that touches the strategy visualizer or Workbench exampl
 | [SCRIPT-USAGE.md](SCRIPT-USAGE.md) | `new_workbench_receipt.py` and `validate_workbench_receipt.py` (examples, non-staging). |
 | [VISUAL-INSPECTION-PROTOCOL.md](VISUAL-INSPECTION-PROTOCOL.md) | Required steps for **visual** artifacts. |
 | [CANDIDATE-COMPARISON-PROTOCOL.md](CANDIDATE-COMPARISON-PROTOCOL.md) | Compare multiple generated **candidates** (A/B) before choosing a path. |
-| [../interface-artifacts/README.md](../interface-artifacts/README.md) | Defines interface artifacts as a derived class of operator-facing views and prototypes; Workbench then runs and inspects them. |
+| [../interface-runtime/artifacts/README.md](../interface-runtime/artifacts/README.md) | Defines interface artifacts as a derived class of operator-facing views and prototypes; Workbench then runs and inspects them. |
 
 ## Related (optional)
 

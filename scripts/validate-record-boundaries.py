@@ -6,7 +6,7 @@ import re
 import sys
 from pathlib import Path
 
-ALLOWED = frozenset({"core-truth", "operational", "transient", "evidence"})
+ALLOWED = frozenset({"core-truth", "operational", "transient", "archive/placeholders/evidence"})
 REQUIRED = frozenset({"category", "intent", "last-reviewed"})
 ROOT = Path(__file__).resolve().parent.parent
 FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL | re.MULTILINE)

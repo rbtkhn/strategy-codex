@@ -22,14 +22,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
-if str(REPO_ROOT / "src") not in sys.path:
-    sys.path.insert(0, str(REPO_ROOT / "src"))
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 
 from stage_gate_candidate import (  # noqa: E402
     insert_before_processed,
     next_candidate_id,
 )
-from repo_io import read_path  # noqa: E402
+from repo_io import read_path  # noqa: E402, SRC_DIR
 
 
 def _emit_event(user_id: str, event_type: str, candidate_id: str, merge: dict) -> None:
@@ -163,7 +163,7 @@ def main() -> int:
     from grace_mar.reflection.format_gate import build_reflection_candidate_block
 
     days = DEEP_LOOKBACK_DAYS if args.deep else (args.days if args.days is not None else DEFAULT_LOOKBACK_DAYS)
-    profile_dir = REPO_ROOT / "users" / args.user
+    profile_dir = REPO_ROOT / "platform/users" / args.user
     gate_path = profile_dir / "recursion-gate.md"
     if not gate_path.exists():
         print(f"Missing {gate_path}", file=sys.stderr)
@@ -193,7 +193,7 @@ def main() -> int:
     )
     result.critique_notes.extend(extra_notes)
 
-    rp_dir = profile_dir / "reflection-proposals"
+    rp_dir = profile_dir / "archive/queues/reflection-proposals"
     cycle_id = _next_cycle_id(rp_dir)
     artifact = _write_reflect_artifact(
         rp_dir=rp_dir,
@@ -220,7 +220,7 @@ def main() -> int:
     )[:top_n]
 
     if args.append and to_append:
-        full_analysis_rel = f"reflection-proposals/{cycle_id}.md"
+        full_analysis_rel = f"archive/queues/reflection-proposals/{cycle_id}.md"
         ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
         full = read_path(gate_path)
         high_risk_n = sum(1 for p in to_append if str(p.get("risk_level") or "").lower() == "high")

@@ -1,7 +1,7 @@
-# PROPOSAL — Cognitive Structure Upgrades (Clawdbot/Moltbot–Derived Insights)
+# PROPOSAL — Cognitive Structure Upgrades (Clawdarchive/grace-mar-instance/bot/Moltbot–Derived Insights)
 
 **Status:** DRAFT — For critique by Claude 4.5 and Gemini  
-**Scope:** Six architectural upgrades to CIV–MEM cognitive structure, derived from OpenClaw/Clawdbot/Moltbot design patterns  
+**Scope:** Six architectural upgrades to CIV–MEM cognitive structure, derived from OpenClaw/Clawdarchive/grace-mar-instance/bot/Moltbot design patterns  
 **Governance:** CMC–BOOTSTRAP · CIV–SCHOLAR–PROTOCOL · LAYER–INTERACTION–PROTOCOL · OGE_ARCHITECTURE  
 **Last Updated:** January 2026  
 **Purpose:** Formalize and implement cognitive-structure improvements so that modes, MINDs, and MEM graph behave as one coherent system with explicit interfaces, skills, state, and maintenance triggers.
@@ -17,7 +17,7 @@ This proposal specifies six upgrades to the Civilizational Memory Codex (CIV–M
 **Source of insight**
 
 - **Clawdbot / OpenClaw:** [clawdbot.com](https://clawdbot.com/), [docs.clawdbot.com](https://docs.clawdbot.com/). One persistent memory across WhatsApp, Telegram, Discord; MCP for Gmail, Calendar, Notion, etc.; skills/plugins; persona onboarding; background/cron tasks; CLI for agents, skills, plugins, memory.
-- **Moltbot:** [molt.bot](https://www.molt.bot/), [docs.molt.bot](https://docs.molt.bot/). Same or closely related project; emphasis on local execution, privacy, unified memory across Telegram, WhatsApp, Discord, Slack, Signal, iMessage; install via `npx moltbot@latest`.
+- **Moltbot:** [molt.bot](https://www.molt.archive/grace-mar-instance/bot/), [docs.molt.bot](https://docs.molt.archive/grace-mar-instance/bot/). Same or closely related project; emphasis on local execution, privacy, unified memory across Telegram, WhatsApp, Discord, Slack, Signal, iMessage; install via `npx moltbot@latest`.
 
 **Transfer principle**
 
@@ -346,7 +346,7 @@ Please critique this proposal with the following in mind:
 
 5. **Order:** Is the proposed implementation order (Phases 1–5) correct, or would you reorder or merge phases? Are there dependencies that are missing?
 
-6. **Clawdbot/Moltbot transfer:** Is the transfer from “unified memory + composable skills + persona + MCP + cron + one assistant many channels” to CIV–MEM appropriate, or are there better mappings or missing mappings?
+6. **Clawdarchive/grace-mar-instance/bot/Moltbot transfer:** Is the transfer from “unified memory + composable skills + persona + MCP + cron + one assistant many channels” to CIV–MEM appropriate, or are there better mappings or missing mappings?
 
 7. **Open questions:** What should be decided before implementation (e.g. where exactly to put the interface table, whether state is optional or mandatory, whether maintenance triggers are advisory or mandatory)?
 
@@ -362,5 +362,5 @@ XII. OPEN QUESTIONS & AREAS FOR CRITIQUE
 - **Versioning:** Should COGNITIVE_SKILLS_REGISTRY and READ_REASON_PROTOCOL be versioned (e.g. v1.0) and referenced by version from CMC–BOOTSTRAP?
 
 ────────────────────────────────────────────────────────────
-END OF PROPOSAL — Cognitive Structure Upgrades (Clawdbot/Moltbot–Derived)
+END OF PROPOSAL — Cognitive Structure Upgrades (Clawdarchive/grace-mar-instance/bot/Moltbot–Derived)
 ────────────────────────────────────────────────────────────

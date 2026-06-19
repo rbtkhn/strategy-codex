@@ -111,7 +111,7 @@ When assessing this feedback, the next agent should:
 | Triadic cognition, Record, companion | `docs/conceptual-framework.md` |
 | Contradiction engine constraints | `docs/CONTRADICTION-ENGINE-SPEC.md` Â§2 |
 | OpenClaw, export, handback | `docs/openclaw-integration.md`, `docs/skill-work/work-dev/README.md` |
-| Pipeline events, staging | `docs/pipeline-events-schema.md`, `bot/core.py` (emit_pipeline_event, _stage_candidate) |
+| Pipeline events, staging | `docs/pipeline-events-schema.md`, `archive/grace-mar-instance/bot/core.py` (emit_pipeline_event, _stage_candidate) |
 | Phase 7 / emergent cognition | `self.md` or evidence; bootstrap or handoff |
 | Export manifest, PRP | `scripts/export_*.py`, manifest/PRP outputs |
 | Design non-goals (agentic) | `docs/architecture.md` (â€œAny future agentic or orchestration layer â€¦ must keep merge authority human-onlyâ€) |

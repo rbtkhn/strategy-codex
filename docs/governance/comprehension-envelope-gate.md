@@ -22,7 +22,7 @@
 
 ## Authority map integration
 
-Surface keys in [`config/authority-map.json`](../../config/authority-map.json) resolve to an **authority class** (write policy). Recommended **`impact_tier`**, **`envelope_class`**, and Reflection Gate label for staging are **derived** from that class in one place: [`scripts/authority_comprehension_defaults.py`](../../scripts/authority_comprehension_defaults.py). Run `python3 scripts/check-authority.py --surface <key> --json` to see recommendations for a named surface. Full table: [docs/authority-map.md](../authority-map.md) Â§ Relationship to Comprehension Envelope and Reflection Gates.
+Surface keys in [`platform/config/authority-map.json`](../../platform/config/authority-map.json) resolve to an **authority class** (write policy). Recommended **`impact_tier`**, **`envelope_class`**, and Reflection Gate label for staging are **derived** from that class in one place: [`scripts/authority_comprehension_defaults.py`](../../scripts/authority_comprehension_defaults.py). Run `python3 scripts/check-authority.py --surface <key> --json` to see recommendations for a named surface. Full table: [docs/authority-map.md](../authority-map.md) Â§ Relationship to Comprehension Envelope and Reflection Gates.
 
 ---
 
@@ -66,8 +66,8 @@ The first place these fields appear in day-to-day use is **`recursion-gate.md`**
 
 Use **`required`** when the change is high-impact, including examples such as:
 
-- Targets **canonical** surfaces: `self.md`, `self-archive.md`, `bot/prompt.py`, or gated profile dimensions.
-- Touches **schemas** or repo validation rules (`schema-registry/`, CI validators).
+- Targets **canonical** surfaces: `self.md`, `self-archive.md`, `archive/grace-mar-instance/bot/prompt.py`, or gated profile dimensions.
+- Touches **schemas** or repo validation rules (`schemas/registry/`, CI validators).
 - Alters **governance or boundary** behavior (authority map, abstention, gate protocol).
 - **Promotes** strategy-notebook material to durable promoted arcs (e.g. [STRATEGY.md](../skill-work/work-strategy/STRATEGY.md)) â€” tie to explicit operator tags or paths in the candidate.
 - Produces **export / handoff** artifacts intended for downstream operators or forks.
@@ -84,7 +84,7 @@ See [comprehension-envelope-insights-to-implementation.md](comprehension-envelop
 
 ## Relation to change proposals
 
-[change-proposal.v1.json](../../schema-registry/change-proposal.v1.json) already includes `riskLevel`, `queueSummary`, `materiality`. The Comprehension Envelope is **operator proof of understanding**, not a duplicate summary. If mirrored into JSON in a later PR, fields must **complement** `queueSummary`, not replace it.
+[change-proposal.v1.json](../../schemas/registry/change-proposal.v1.json) already includes `riskLevel`, `queueSummary`, `materiality`. The Comprehension Envelope is **operator proof of understanding**, not a duplicate summary. If mirrored into JSON in a later PR, fields must **complement** `queueSummary`, not replace it.
 
 ---
 

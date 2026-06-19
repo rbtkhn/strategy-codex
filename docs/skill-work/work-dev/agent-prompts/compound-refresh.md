@@ -8,7 +8,7 @@
 
 1. **Read** (do not delete) `docs/skill-work/work-dev/compound-notes/*.md` and parse front matter.
 2. **Classify:** stale notes, duplicate themes, `problem_type` clusters, notes that might deserve `gate_candidate: true` (recommendation only).
-3. **Optional:** run or mirror `python3 scripts/work_dev_compound_refresh.py` and use `artifacts/work-dev-compound-refresh.md` as the canonical aggregate.
+3. **Optional:** run or mirror `python3 scripts/work_dev_compound_refresh.py` and use `runtime/artifacts/work-dev-compound-refresh.md` as the canonical aggregate.
 4. **Output:** a short markdown report: summary counts, top recurring types, “consider archiving” list, and **governance** reminder that nothing here merges automatically.
 
 ## References

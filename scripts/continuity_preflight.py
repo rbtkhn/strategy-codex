@@ -25,11 +25,11 @@ def sha256_file_text(path: Path) -> str:
 
 
 def _record_path(repo_root: Path, user_id: str, name: str) -> tuple[Path, str]:
-    """Resolve canonical root layout with users/<id> compatibility."""
+    """Resolve canonical root layout with platform/users/<id> compatibility."""
     candidates: list[Path] = []
     if user_id == "grace-mar":
         candidates.append(repo_root / name)
-    candidates.append(repo_root / "users" / user_id / name)
+    candidates.append(repo_root / "platform/users" / user_id / name)
     candidates.append(repo_root / user_id / name)
     for p in candidates:
         if p.is_file():

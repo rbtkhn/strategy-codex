@@ -113,7 +113,7 @@ System prompt for LEARNING mode:
 
 ## 10. Reference
 
-- Chat engine: `apps/chat/`
+- Chat engine: `platform/apps/chat/`
 - MEM–RELEVANCE, CIV–INDEX
 - cmc-oge-enforcement (option structure)
 - Charlemagne/HRE presentation (example output style)

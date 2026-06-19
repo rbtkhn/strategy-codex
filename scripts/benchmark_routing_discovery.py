@@ -32,7 +32,7 @@ def wrong_surface_search() -> list[str]:
     """Barnes failure path: library/dashboard surfaces agents opened first."""
     hits: list[str] = []
     for rel in (
-        "artifacts/library-index.md",
+        "runtime/artifacts/library-index.md",
         "self-library.md",
         "self-library",
     ):

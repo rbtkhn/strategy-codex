@@ -1,6 +1,6 @@
 # Example LIB corpus (grace-mar-derived) — optional reference
 
-**Not** the default for new instances. The canonical template **`_template/self-library.md`** ships **governance + empty `entries:`** only.
+**Not** the default for new instances. The canonical template **`platform/template/self-library.md`** ships **governance + empty `entries:`** only.
 
 This file preserves the previous large seed (books/stories LIB rows) from an early grace-mar-aligned export, for operators who want a **starting shelf** to trim and gate. Prefer adding rows via the pipeline when possible.
 

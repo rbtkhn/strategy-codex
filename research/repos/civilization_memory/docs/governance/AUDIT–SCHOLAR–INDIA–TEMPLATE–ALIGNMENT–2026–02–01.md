@@ -162,7 +162,7 @@ India § XIII: "CIV–ARC–INDIA v1.2: Load when writing GEO–MEM or content r
    When moving toward Phase II or when first principles stabilize, add a short "AXIOM INDIA-001" style section derived from SYNTHESIS 0001 / 0002 (e.g. origin vs permanence; two modes of limit).
 
 3. **Negative Capability Zone (Template IV.B)**  
-   Optional: add a small "Negative Capability Zone" with 1–2 entries (e.g. contested encoding of 1857 as rebellion vs mutiny; boundary at pre-Mauryan evidence) to align with Template RECOMMENDED practice.
+   Optional: add a small "Negative Capability Zone" with 1–2 entries (e.g. contested encoding of 1857 as rebellion vs mutiny; boundary at pre-Mauryan archive/placeholders/evidence) to align with Template RECOMMENDED practice.
 
 ---
 

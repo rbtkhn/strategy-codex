@@ -41,5 +41,5 @@ self-library is **gated**: entries enter through the pipeline (staging → compa
 
 - [Architecture](../../architecture.md) — LIBRARY in the Record
 - [ID taxonomy](../../id-taxonomy.md) — self-library container
-- [Bot core](../../../bot/core.py) — `_library_lookup`, `_load_library`, LIBRARY_LOOKUP_PROMPT
+- [Bot core](../../../archive/grace-mar-instance/bot/core.py) — `_library_lookup`, `_load_library`, LIBRARY_LOOKUP_PROMPT
 - [Export curriculum](../../../scripts/export_curriculum.py) — includes library titles in curriculum_profile.json

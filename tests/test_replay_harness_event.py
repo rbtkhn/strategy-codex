@@ -47,15 +47,15 @@ def test_harness_rows_for_event_id_lists() -> None:
 
 def test_build_report_unknown_event_id() -> None:
     text = build_report(
-        ROOT / "users" / "grace-mar",
+        ROOT / "platform/users" / "grace-mar",
         event_id="evt_does_not_exist_00000000_deadbeef",
     )
     assert "No pipeline row" in text or "no pipeline row" in text.lower()
 
 
-@pytest.mark.skipif(not (ROOT / "recursion-gate.md").is_file(), reason="no grace-mar profile")
+@pytest.mark.skipif(not (ROOT / "recursion-gate.md").is_file(), reason="no grace-mar platform/profile")
 def test_build_report_grace_mar_known_candidate() -> None:
-    text = build_report(ROOT / "users" / "grace-mar", candidate_id="CANDIDATE-0089")
+    text = build_report(ROOT / "platform/users" / "grace-mar", candidate_id="CANDIDATE-0089")
     assert "CANDIDATE-0089" in text
     assert "pipeline-events.jsonl" in text
     assert "harness-events.jsonl" in text or "merge-receipts" in text

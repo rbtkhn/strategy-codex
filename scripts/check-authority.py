@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Look up authority class for a surface key in config/authority-map.json.
+Look up authority class for a surface key in platform/config/authority-map.json.
 
-Optional: validate config against schema-registry/authority-map.v1.json when jsonschema is installed.
+Optional: validate config against schemas/registry/authority-map.v1.json when jsonschema is installed.
 
 With --json: print one JSON object including recommended Comprehension Envelope + Reflection Gate
 fields derived from authority class (see scripts/authority_comprehension_defaults.py).
@@ -29,17 +29,17 @@ except ImportError:
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_CONFIG = ROOT / "config" / "authority-map.json"
-SCHEMA_PATH = ROOT / "schema-registry" / "authority-map.v1.json"
+DEFAULT_CONFIG = ROOT / "platform/config" / "authority-map.json"
+SCHEMA_PATH = ROOT / "schemas/registry" / "authority-map.v1.json"
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Authority class lookup for a named surface key.")
     parser.add_argument("--surface", required=True, help="Surface key from config authority-map.json")
     parser.add_argument(
-        "--config",
+        "--platform/config",
         default="",
-        help="Path to authority-map.json (default: config/authority-map.json)",
+        help="Path to authority-map.json (default: platform/config/authority-map.json)",
     )
     parser.add_argument(
         "--no-schema-check",
@@ -53,7 +53,7 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    cfg_path = Path(args.config) if args.config else DEFAULT_CONFIG
+    cfg_path = Path(args.platform/config) if args.config else DEFAULT_CONFIG
     if not cfg_path.is_file():
         print(f"ERROR: config not found: {cfg_path}", file=sys.stderr)
         return 1

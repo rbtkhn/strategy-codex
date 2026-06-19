@@ -23,7 +23,7 @@ for p in (_SCRIPTS, _RUNTIME):
         sys.path.insert(0, str(p))
 
 from observation_store import by_id  # noqa: E402
-from repo_io import profile_dir, read_path  # noqa: E402
+from repo_io import profile_dir, read_path  # noqa: E402, SCHEMA_REGISTRY_DIR
 from search_scoring import parse_obs_timestamp  # noqa: E402
 from policy_mode_config import (  # noqa: E402
     UnknownPolicyModeError,
@@ -57,7 +57,7 @@ CANDIDATE_TYPES = (
 )
 TARGET_SURFACES = ("SELF", "SELF-LIBRARY", "SKILLS", "EVIDENCE", "OTHER")
 
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "recursion-gate-candidate.schema.json"
+SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "recursion-gate-candidate.schema.json"
 
 DEFAULT_REVIEW_NOTES = (
     "Runtime observations support this candidate, but no approval has occurred."

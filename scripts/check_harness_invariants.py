@@ -1,3 +1,4 @@
+from repo_io import BOT_DIR
 #!/usr/bin/env python3
 """
 Check harness invariants (run before model upgrades or when auditing the stack).
@@ -14,8 +15,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # Optional: warn if core files exceed these lines (auditable surface)
 LINE_LIMITS = {
-    REPO_ROOT / "bot" / "core.py": 2000,
-    REPO_ROOT / "bot" / "prompt.py": 800,
+    BOT_DIR / "core.py": 2000,
+    BOT_DIR / "prompt.py": 800,
 }
 
 

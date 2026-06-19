@@ -32,7 +32,7 @@ Then work-politics is a **place** that sentience can **inhabit** when doing poli
 ## Why it matters
 
 - **Accountability:** If we ever reason about the campaign system as an agent in the world, the politics **territory** is a clean region to point at. “This is what it does in politics; here are its borders.”
-- **Persistence:** The territory can outlive any single conversation. It’s documented; it has state (revenue log, allocations, principal profile). A sentient system can “return” to this territory and find the same self-contained geography.
+- **Persistence:** The territory can outlive any single conversation. It’s documented; it has state (revenue log, allocations, principal platform/profile). A sentient system can “return” to this territory and find the same self-contained geography.
 - **No leakage:** The territory doesn’t need to import strategy from the rest of the Record to do its job. It imports what the companion approves (e.g. principal profile updates); the rest is internal. That’s what “self-contained” buys—and “territory” makes it geospatially clear.
 
 ---

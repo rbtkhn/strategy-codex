@@ -39,7 +39,7 @@ def _collect_cadence_today(user_id: str) -> dict[str, Any] | None:
     return {
         "total": len(today_events),
         "coffees": by_kind.get("coffee", 0),
-        "bridges": by_kind.get("bridge", 0),
+        "research/bridges": by_kind.get("bridge", 0),
         "dreams": by_kind.get("dream", 0),
         "by_kind": by_kind,
     }
@@ -145,7 +145,7 @@ def _artifacts_overlap_current_changes(
     artifacts: list[str] | tuple[str, ...] | None, changed_paths: list[str] | None
 ) -> bool:
     if changed_paths is None:
-        return bool(artifacts)
+        return bool(runtime/artifacts)
     if not artifacts or not changed_paths:
         return False
     normalized_changes = tuple(path.replace("\\", "/") for path in changed_paths)
@@ -187,7 +187,7 @@ def _compute_load_level(
             signals.append(f"{pending} pending gate candidates")
     if gap:
         level = gap.get("level", "ok")
-        days = gap.get("days_since_evidence")
+        days = gap.get("days_since_archive/placeholders/evidence")
         if level == "alert":
             weight += 2
             signals.append(f"capture gap alert ({days}d)")
@@ -240,7 +240,7 @@ def _compute_option_weights(
 
     last_close = (coffee_recursion or {}).get("last_close") or {}
     readiness = str(last_close.get("readiness") or "").strip()
-    artifacts = last_close.get("artifacts") or []
+    artifacts = last_close.get("runtime/artifacts") or []
     artifacts_live = _artifacts_overlap_current_changes(artifacts, changed_paths)
     if readiness == "ship_ready":
         if artifacts_live:
@@ -275,7 +275,7 @@ def _pick_recommendation(
     last_close = (coffee_recursion or {}).get("last_close") or {}
     readiness = str(last_close.get("readiness") or "").strip()
     outcome = str(last_close.get("outcome") or "").strip()
-    artifacts = last_close.get("artifacts") or []
+    artifacts = last_close.get("runtime/artifacts") or []
     artifacts_live = _artifacts_overlap_current_changes(artifacts, changed_paths)
     repeated = (coffee_recursion or {}).get("repeated_unresolved_loops") or []
 

@@ -373,7 +373,7 @@ def main() -> int:
     )
     parser.add_argument("--day", action="append", default=[], metavar="YYYY-MM-DD")
     parser.add_argument("-u", "--user", default="strategy-codex")
-    parser.add_argument("--users-dir", type=Path, default=REPO_ROOT / "users")
+    parser.add_argument("--users-dir", type=Path, default=REPO_ROOT / "platform/users")
     parser.add_argument("--json", action="store_true")
     parser.add_argument(
         "--apply",

@@ -222,7 +222,7 @@ def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
     )
     rows = srq.build_rows([raw], inventory, notebook)
 
-    written = srq.write_outputs(rows, tmp_path / "artifacts", date(2026, 5, 12), date(2026, 5, 12))
+    written = srq.write_outputs(rows, tmp_path / "runtime/artifacts", date(2026, 5, 12), date(2026, 5, 12))
 
     jsonl_path = Path(written["jsonl"])
     md_path = Path(written["markdown"])
@@ -331,7 +331,7 @@ def test_cli_raw_input_mode_excludes_other_same_date_files(tmp_path: Path, capsy
         show="Glenn Diesen",
         thread="diesen",
     )
-    output_dir = tmp_path / "artifacts"
+    output_dir = tmp_path / "runtime/artifacts"
 
     rc = srq.main(
         [

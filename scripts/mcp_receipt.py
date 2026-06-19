@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Emit a validated MCP governance execution receipt JSON under artifacts/mcp-receipts/.
+Emit a validated MCP governance execution receipt JSON under runtime/artifacts/mcp-receipts/.
 
 Does not execute MCP or mutate Record. See docs/mcp/mcp-execution-receipts.md.
 
   python3 scripts/mcp_receipt.py --capability-id github_readonly \\
     --actor-kind assistant --actor-name chatgpt \\
     --intent "Inspect repo MCP policy files" \\
-    --resources-read config/mcp-capabilities.yaml \\
+    --resources-read platform/config/mcp-capabilities.yaml \\
     --status success --summary "Confirmed MCP registry exists."
 """
 
@@ -25,6 +25,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from mcp_capability_audit import _git_short_hash  # noqa: E402
 from mcp_receipt_lib import (  # noqa: E402
@@ -39,7 +40,7 @@ from mcp_receipt_lib import (  # noqa: E402
     validate_mcp_receipt,
 )
 
-DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "mcp-receipts"
+DEFAULT_OUT_DIR = ARTIFACTS_DIR / "mcp-receipts"
 
 
 def _parse_artifacts(items: list[str] | None) -> list[dict[str, str]]:

@@ -47,7 +47,7 @@ Mirror [strategy-notebook](../../strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTUR
 
 For each bullet in **Integrated takeaway** below, mentally tag **S / O / I** (or **A / B / C**). **Bleed check:** if one sentence mixes planes (e.g. a **shipping count** plus a **victory slogan** without a seam), **split** or **label** so operational facts do not smuggle narrative authority.
 
-**Optional margin legend** (Iran / Gulf WORK artifacts): **(W)** wire-sourced · **(A)** analyst synthesis · **(R)** rhetorical frame — three characters, not full [knowledge-boundary](../../../knowledge-boundary-framework.md) taxonomy.
+**Optional margin legend** (Iran / Gulf WORK runtime/artifacts): **(W)** wire-sourced · **(A)** analyst synthesis · **(R)** rhetorical frame — three characters, not full [knowledge-boundary](../../../knowledge-boundary-framework.md) taxonomy.
 
 ---
 

@@ -42,7 +42,7 @@ Use this heading order unless a section is empty (omit empty sections; do not pr
 | `## Agent surface` | — | **Always include** (Cursor). One line: **Cursor model:** plus the **model name from the Cursor chat UI** (model picker). Not Record. Use `unknown` only if unavailable. |
 | *(final line)* | — | See **Required closing line** above (must be last). |
 
-**Episodic / semantic rationale:** The episodic cluster captures *what happened* (timeline, purpose, developments); the semantic cluster captures *what was figured out* (outcomes, insights, decisions, artifacts). This mirrors Tulving's (1972) episodic–semantic memory distinction and LoreSpec's session-level extraction layers. The separation helps receiving agents distinguish chronological context from reusable knowledge.
+**Episodic / semantic rationale:** The episodic cluster captures *what happened* (timeline, purpose, developments); the semantic cluster captures *what was figured out* (outcomes, insights, decisions, runtime/artifacts). This mirrors Tulving's (1972) episodic–semantic memory distinction and LoreSpec's session-level extraction layers. The separation helps receiving agents distinguish chronological context from reusable knowledge.
 
 ---
 

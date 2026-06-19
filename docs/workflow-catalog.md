@@ -41,7 +41,7 @@
 ## Approval review (Approval Inbox)
 
 - Pending queue: [`recursion-gate.md`](../recursion-gate.md)
-- App: [apps/gate-review-app.py](../apps/gate-review-app.py)
+- App: [platform/apps/gate-review-app.py](../platform/apps/gate-review-app.py)
 - Operator habits: [operator-brief.md](operator-brief.md)
 - Tiered traffic: [recursion-gate-three-tier.md](recursion-gate-three-tier.md)
 

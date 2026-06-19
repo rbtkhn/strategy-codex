@@ -4,7 +4,7 @@ One-page map of two **separate** WORK territories: **integration / OpenClaw** vs
 
 | Territory | Entrypoint | Primary scripts / docs |
 |-----------|------------|-------------------------|
-| **work-dev** | [work-dev/workspace.md](work-dev/workspace.md) | [INTEGRATION-PROGRAM.md](work-dev/INTEGRATION-PROGRAM.md); repo root [`integrations/openclaw_hook.py`](../../integrations/openclaw_hook.py), [`integrations/openclaw_stage.py`](../../integrations/openclaw_stage.py) |
+| **work-dev** | [work-dev/workspace.md](work-dev/workspace.md) | [INTEGRATION-PROGRAM.md](work-dev/INTEGRATION-PROGRAM.md); repo root [`platform/integrations/openclaw_hook.py`](../../platform/integrations/openclaw_hook.py), [`platform/integrations/openclaw_stage.py`](../../platform/integrations/openclaw_stage.py) |
 | **work-companion-self** | [work-companion-self/README.md](work-companion-self/README.md) | [MERGING-FROM-COMPANION-SELF](../merging-from-companion-self.md); [`scripts/template_diff.py`](../../scripts/template_diff.py) |
 
 ```mermaid

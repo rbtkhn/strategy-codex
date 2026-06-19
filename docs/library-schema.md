@@ -196,7 +196,7 @@ Most useful on `preferred` and `high` priority entries, where stale metadata has
 
 ## Lookup Order
 
-When Grace-Mar receives a "look it up" request (Telegram bot):
+When Grace-Mar receives a "look it up" request (Telegram archive/grace-mar-instance/bot):
 
 1. Query active LIBRARY entries with `lane: reference` first
 2. Then use active `canon` entries when relevant by scope

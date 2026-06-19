@@ -11,7 +11,7 @@
       "surface_detail": "Subdomain of SELF-LIBRARY; CIV-MEM LIB rows + civilization-memory paths",
       "authority": "canonical",
       "invocation": "query_triggered",
-      "invocation_detail": "should_route_to_cmc() in bot/lookup_cmc.py; orchestration in bot/core.py; rules in docs/cmc-routing.md",
+      "invocation_detail": "should_route_to_cmc() in archive/grace-mar-instance/bot/lookup_cmc.py; orchestration in archive/grace-mar-instance/bot/core.py; rules in docs/cmc-routing.md",
       "mutation_policy": "retrieval_only",
       "mutation_detail": "Hits are reference retrieval; identity updates only via separate gated IX-A merge if ever",
       "freshness": {
@@ -21,7 +21,7 @@
       },
       "owner": "record",
       "routing_docs": ["docs/cmc-routing.md", "docs/library-integration.md"],
-      "code_refs": ["bot/lookup_cmc.py", "bot/core.py"]
+      "code_refs": ["archive/grace-mar-instance/bot/lookup_cmc.py", "archive/grace-mar-instance/bot/core.py"]
     },
     {
       "id": "lib_entries",
@@ -41,7 +41,7 @@
       },
       "owner": "record",
       "routing_docs": ["docs/library-integration.md", "docs/library-schema.md"],
-      "code_refs": ["bot/core.py"]
+      "code_refs": ["archive/grace-mar-instance/bot/core.py"]
     },
     {
       "id": "books",

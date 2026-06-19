@@ -1,4 +1,4 @@
-"""Refresh `status` in users/grace-mar/work-jiang.md Instance work context (YAML) from metadata."""
+"""Refresh `status` in platform/users/grace-mar/work-jiang.md Instance work context (YAML) from metadata."""
 from __future__ import annotations
 
 import argparse
@@ -9,7 +9,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 WORK_DIR = ROOT / "codex" / "predictive-history"
-LANE = ROOT / "users" / "grace-mar" / "work-jiang.md"
+LANE = ROOT / "platform/users" / "grace-mar" / "work-jiang.md"
 
 
 def lane_status(arch: dict, queue: list) -> str:

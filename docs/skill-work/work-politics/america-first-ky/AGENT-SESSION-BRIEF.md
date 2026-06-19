@@ -12,7 +12,7 @@ A terminal one-liner has been shared that:
 - Creates `work-politics/america-first-ky` at **repo root** â€” **wrong**. Canonical path is `docs/skill-work/work-politics/america-first-ky/` (this folder).
 - **Appends** fake functions to `scripts/governance_checker.py` â€” **reject**. That file is a **regex scanner** for merge/SELF violations, not a reasoning engine. Undefined helpers would **break CI**.
 - **Appends** to `skills.md` â€” **reject**. Record file; use **RECURSION-GATE** + `process_approved_candidates.py` only after companion approval.
-- Logs traces to `self-evidence/guardrail-flywheel.md` â€” **reject** for routine runs. Use WORK docs + optional ACT- via gate only.
+- Logs traces to `self-archive/placeholders/evidence/guardrail-flywheel.md` â€” **reject** for routine runs. Use WORK docs + optional ACT- via gate only.
 - Introduces automated **â€œreasoning-output alignment scoreâ€** in checker â€” **reject** unless separately designed as WORK-only metrics (analytical lenses manifest: discipline is **operator/process**, not automated drift scoring in checker).
 
 **Status:** Compliant docs are **already added** in this folder. Remaining work is **integration and optional tooling**, not the shell script.
@@ -26,7 +26,7 @@ A terminal one-liner has been shared that:
 | Proactive loop | [proactive-loop.md](proactive-loop.md) â€” scheduled-loop discipline, gated primitives, loop logging |
 | Daily loop template | [templates/daily-loop-brief.md](templates/daily-loop-brief.md) |
 | Loop history (WORK) | [loop-history.md](loop-history.md) â€” append-only; not `self-evidence.md` |
-| Massie WORK voice | [massie-advisor-prompt.md](massie-advisor-prompt.md) â€” not `bot/prompt.py` |
+| Massie WORK voice | [massie-advisor-prompt.md](massie-advisor-prompt.md) â€” not `archive/grace-mar-instance/bot/prompt.py` |
 | Cron / habit examples | [scheduled-habit.md](scheduled-habit.md) |
 | Loop event helper | [emit_loop_event.py](../../../scripts/emit_loop_event.py) â€” subprocess wrapper for `loop_cycle_*` |
 | Framework | [guardrail-stress-test.md](guardrail-stress-test.md) |

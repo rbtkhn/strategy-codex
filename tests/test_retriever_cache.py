@@ -6,7 +6,7 @@ import pytest
 @pytest.fixture
 def minimal_user_dir(tmp_path, monkeypatch):
     uid = "retriever-test-user"
-    ud = tmp_path / "users" / uid
+    ud = tmp_path / "platform/users" / uid
     ud.mkdir(parents=True)
     (ud / "self.md").write_text(
         'id: LEARN-0001\ndate: 2020-01-01\ntopic: "Jupiter"\n'

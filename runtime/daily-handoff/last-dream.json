@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-06-18T16:05:28.842363+00:00",
+  "user_id": "strategy-codex",
+  "agent_surface": {
+    "cursor_model": "composer-2.5-fast"
+  },
+  "strict_mode": false,
+  "phase": "both",
+  "ok": true,
+  "integrity_ok": true,
+  "governance_ok": true,
+  "self_memory_changed": true,
+  "reviewable_count": 0,
+  "contradiction_count": 0,
+  "artifact_draft_count": 0,
+  "promotable_draft_count": 0,
+  "followups": [
+    "Capture gap: Record hasn't grown in 28 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence"
+  ],
+  "phases": {
+    "recent": {
+      "self_memory_changed": true,
+      "entry_count": 0,
+      "relation_counts": {}
+    },
+    "structural": {
+      "integrity": "pass",
+      "governance": "pass",
+      "entry_count": 0,
+      "relation_counts": {}
+    }
+  },
+  "coffee_rollup_24h": {
+    "window_start_utc": "2026-06-17T16:04:45.084992+00:00",
+    "window_end_utc": "2026-06-18T16:04:45.084992+00:00",
+    "window_hours": 24.0,
+    "count": 4,
+    "first_ts": "2026-06-17T21:46:00+00:00",
+    "last_ts": "2026-06-18T07:35:00+00:00",
+    "span_hours": 9.82,
+    "by_mode": {
+      "work-start": 2,
+      "first-command": 2
+    },
+    "runs": [
+      {
+        "ts_iso": "2026-06-17T21:46:00+00:00",
+        "ok": true,
+        "mode": "work-start",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-06-17T23:44:00+00:00",
+        "ok": true,
+        "mode": "first-command",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-06-18T00:41:00+00:00",
+        "ok": true,
+        "mode": "first-command",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-06-18T07:35:00+00:00",
+        "ok": true,
+        "mode": "work-start",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      }
+    ],
+    "picks": [],
+    "by_picked": {}
+  },
+  "conductor_rollup_24h": {
+    "window_start_utc": "2026-06-17T16:04:45.084992+00:00",
+    "window_end_utc": "2026-06-18T16:04:45.084992+00:00",
+    "window_hours": 24.0,
+    "pick_count": 0,
+    "outcome_count": 3,
+    "completed_passes": 3,
+    "orientation_only": 0,
+    "off_menu_refusals": 0,
+    "last_master": "bernstein",
+    "last_outcome": {
+      "ts_iso": "2026-06-18T11:21:00+00:00",
+      "kind": "outcome",
+      "conductor": "bernstein",
+      "verdict": "promote",
+      "falsify": "bernstein-mou-meaning-held",
+      "notebook_ref": "statecraft/daily/2026-06-17.md"
+    },
+    "echo": "bernstein carried the latest conductor line; last close: bernstein-mou-meaning-held; 3 closed pass(es)"
+  },
+  "execution_paths": [
+    {
+      "id": "confirm",
+      "title": "Confirm the current line and follow through",
+      "first_move": "Use recent receipts to validate and execute the next move.",
+      "stop_rule": "Stop once the prior judgment is either validated or clearly no longer live.",
+      "signals_used": [
+        "outcome_receipts",
+        "artifact_overlap",
+        "dream_confidence"
+      ]
+    },
+    {
+      "id": "test",
+      "title": "Test the current frame before deepening it",
+      "first_move": "Probe the strongest uncertainty or blocker first.",
+      "stop_rule": "Stop once one bounded falsifier materially sharpens the field.",
+      "signals_used": [
+        "blocked_outcomes",
+        "repeated_loops",
+        "dream_mismatch"
+      ]
+    },
+    {
+      "id": "deepen",
+      "title": "Deepen the object until the model is good enough to act",
+      "first_move": "Clarify mechanism, object shape, or missing context.",
+      "stop_rule": "Stop when the object is clear enough for a later confirm or test.",
+      "signals_used": [
+        "reviewable_digest",
+        "low_readiness",
+        "object_formation"
+      ]
+    },
+    {
+      "id": "reframe",
+      "title": "Reframe when the inherited category is wrong",
+      "first_move": "Question the object, menu, or carry-forward assumption itself.",
+      "stop_rule": "Stop once a better object or better frame replaces the stale one.",
+      "signals_used": [
+        "category_drift",
+        "stale_inheritance",
+        "pattern_watch"
+      ]
+    }
+  ],
+  "suggested_execution_path_index": 0,
+  "execution_path_suggestion_reason": "validated_follow_through",
+  "tomorrow_inherits": "Tomorrow inherits (hint): **Confirm** - object: wip-slice-commits; next test: Is the prior judgment still live enough to follow through cleanly?; recent receipts suggest clean follow-through; not policy or Record.",
+  "learning_action_recommendation": "confirm",
+  "learning_action_reason": "recent receipts suggest clean follow-through",
+  "carry_forward_object": "wip-slice-commits",
+  "carry_forward_test": "Is the prior judgment still live enough to follow through cleanly?",
+  "confidence_class": "medium",
+  "bias_strength": "soft",
+  "civmem_echoes": [
+    {
+      "path": "book\\APPLIED-THEOLOGY-INSIGHTS-MERCOURIS-LENS.md",
+      "overlap": 4,
+      "snippet_preview": "**Purpose:** Identify structural and procedural insights from CIV\u2013MIND\u2013MERCOURIS (legitimacy, delegation/format, faction persistence, time horizon, asymmetric information) that the book does not yet s",
+      "analogy_label": "Analogy candidate only \u2014 not evidence, not recommendation, not Record.",
+      "specificity_pass": true,
+      "score": 6.0
+    }
+  ],
+  "civmem_disclaimer": "Analogical / historical depth from in-repo civ-mem (token overlap); not current truth, not Voice knowledge, not part of the Record.",
+  "civmem_index_missing": false,
+  "capture_gap": {
+    "last_evidence_date": "2026-05-21",
+    "last_evidence_id": "ACT-0038",
+    "days_since_archive/placeholders/evidence": 28,
+    "last_merge_date": "2026-05-21",
+    "days_since_merge": 28,
+    "pending_count": 1,
+    "level": "warning",
+    "message": "Record hasn't grown in 28 days (last: ACT-0038, 2026-05-21)"
+  },
+  "capability_shift": {
+    "category": "model",
+    "sources_checked": 3,
+    "sources_total": 6,
+    "alert_count": 3,
+    "review_count": 0,
+    "monitor_count": 0,
+    "variant_count": 0,
+    "fetch_errors": [
+      {
+        "name": "OpenAI",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "xAI",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "name": "Google",
+        "error": "<urlopen error timed out>"
+      }
+    ]
+  },
+  "frontier_source_hint": {
+    "source_id": "the-innermost-loop",
+    "source_name": "The Innermost Loop",
+    "feed_url": "https://theinnermostloop.substack.com/feed",
+    "source_mode": "live_lookup",
+    "fetched_at": "2026-06-18T16:05:23.785347+00:00",
+    "status": "unavailable",
+    "error": "URLError: "
+  },
+  "dream_catchup": {
+    "semantics": "since_previous_dream",
+    "timezone": "UTC",
+    "previous_dream_generated_at": null,
+    "local_calendar_dates": [
+      "2026-06-18"
+    ],
+    "strategy_notebook_missing_day_headers": [
+      "2026-06-18"
+    ],
+    "statecraft_scaffold_catchup": {
+      "semantics": "since_previous_dream",
+      "mode": "report",
+      "max_apply": null,
+      "days_scanned": 0,
+      "files_scanned": 0,
+      "skipped_no_folder": 1,
+      "summary": {
+        "would_trim": 0,
+        "applied": 0,
+        "blocked_truncated": 0,
+        "stale_flags": 0,
+        "needs_caption_wrapper": 0,
+        "needs_manual_review": 0,
+        "read_error": 0,
+        "deferred_over_cap": 0
+      },
+      "by_day": {},
+      "exit_code": 0
+    }
+  },
+  "last_coffee_echo": {
+    "timestamp": "2026-06-18T07:35:00+00:00",
+    "conductor": null,
+    "mode": "work-start",
+    "menu_letter": null,
+    "highlight": "Yesterday\u2019s work-start coffee is still the thread.",
+    "source": "coffee_rollup_24h"
+  },
+  "handoffSchemaVersion": 3,
+  "topActionReason": "validated_follow_through",
+  "quietRun": false,
+  "residueLedger": {
+    "must_resume": "Capture gap: Record hasn't grown in 28 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
+    "safe_to_drop": "",
+    "blocked": "",
+    "watch_later": ""
+  },
+  "worktreeState": "risky residue",
+  "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session."
+}

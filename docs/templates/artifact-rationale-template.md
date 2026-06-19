@@ -1,6 +1,6 @@
 # Artifact rationale
 
-> Fill in the fields below to record why an artifact was judged good and what transferable pattern it demonstrates. This template matches `schema-registry/artifact-rationale.v1.json`.
+> Fill in the fields below to record why an artifact was judged good and what transferable pattern it demonstrates. This template matches `schemas/registry/artifact-rationale.v1.json`.
 
 ---
 

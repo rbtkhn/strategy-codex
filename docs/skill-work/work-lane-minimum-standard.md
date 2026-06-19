@@ -6,7 +6,7 @@
 
 | Pattern | Where it shows up |
 |---------|-------------------|
-| Machine-readable lane JSON | `artifacts/work-strategy/`, `artifacts/work-dev/` |
+| Machine-readable lane JSON | `runtime/artifacts/work-strategy/`, `runtime/artifacts/work-dev/` |
 | Validators | `scripts/validate_*` + pytest |
 | Operator roadmap | [WORK-LAYER-HARDENING-ROADMAP.md](WORK-LAYER-HARDENING-ROADMAP.md) |
 | Sources discipline | `authorized-sources.yaml` + markdown mirror |

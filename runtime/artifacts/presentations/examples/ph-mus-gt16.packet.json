@@ -1,0 +1,51 @@
+{
+  "packet_type": "ph_mus_packet",
+  "subsurface": "ph-mus",
+  "artifact_class": "museum_route",
+  "source_id": "gt-16",
+  "title": "Game Theory #16: Pax Judaica Rising",
+  "surface": "ph-apo",
+  "museum_status": "curated_draft",
+  "museum_exhibit_path": "corpus/media-packs/gt-16.md",
+  "route_type": "application",
+  "what_changes_here": "The exhibit route makes regional pressure visible through ordered objects rather than a single lecture summary.",
+  "caveat": "Public orientation only; use the exhibit as a return path into the chapter, not as quotation-grade geopolitical proof.",
+  "conceptual_volumes": [
+    "volume_ii"
+  ],
+  "pressure_echoes": [
+    "regional alliance stress",
+    "escalation through chokepoints"
+  ],
+  "civilization_roots": [
+    "imperial legitimacy",
+    "trade-route coercion"
+  ],
+  "visitor_path": [
+    "entrance_artifact",
+    "pressure_systems",
+    "caution_room"
+  ],
+  "runtime/artifacts": [
+    {
+      "artifact_id": "gt16-map-1",
+      "title": "Eastern Mediterranean pressure map",
+      "room": "pressure_systems",
+      "artifact_type": "map",
+      "what_to_notice": "Regional pressure nodes become legible as a system rather than isolated incidents.",
+      "lecture_connection": "Supports the chapter's crisis framing and alliance-pressure logic.",
+      "limit_or_caution": "Illustrative orientation map, not a complete operational picture.",
+      "curator_note": "Best used after the opening route frame is established."
+    },
+    {
+      "artifact_id": "gt16-text-2",
+      "title": "Curator label on escalation sequencing",
+      "room": "caution_room",
+      "artifact_type": "text",
+      "what_to_notice": "The museum route slows readers down at the point where the lecture could otherwise feel too linear or deterministic.",
+      "lecture_connection": "Reinforces the chapter caveat that route logic is interpretive, not automatic prediction.",
+      "limit_or_caution": "Do not quote as if it were a primary source.",
+      "curator_note": "Keep this near the end of the deck to preserve the caution rhythm."
+    }
+  ]
+}

@@ -9,7 +9,7 @@ tags:
 - raw-input
 - quality
 - cleanup
-portable_source: skills-portable/transcript-proper-noun-normalization/SKILL.md
+portable_source: skills/transcript-proper-noun-normalization/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Transcript proper-noun normalization
@@ -109,10 +109,10 @@ Grace-mar paths and commands for this repository.
 | Topic | Path |
 |--------|------|
 | Canonical raw-input tree | [codex/](../../codex/) |
-| Host quality reports | [artifacts/host-shelf-quality/](../../../artifacts/host-shelf-quality/) |
+| Host quality reports | [runtime/artifacts/host-shelf-quality/](../../../runtime/artifacts/host-shelf-quality/) |
 | Materializer / validator | [scripts/materialize_youtube_raw_input.py](../../../scripts/materialize_youtube_raw_input.py) |
 | Quality reporter | [scripts/host_shelf_quality.py](../../../scripts/host_shelf_quality.py) |
-| Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 
 **Local validation pattern**

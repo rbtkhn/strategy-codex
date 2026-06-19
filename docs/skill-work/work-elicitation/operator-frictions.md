@@ -49,7 +49,7 @@ This file is for operational friction, not general complaint logging.
 - Why it matters: the agent must re-read rules, warm up, and reconstruct state before productive work can start
 - What it costs: 30–120 seconds of warmup per thread + risk of doctrinal drift if warmup is skipped
 - Current workaround: `harness_warmup.py`, `bridge` transfer prompt, `coffee` Recent rhythm synthesis
-- Better fix idea: already mitigated by cadence architecture; further reduction possible with compressed context artifacts (`artifacts/context/`)
+- Better fix idea: already mitigated by cadence architecture; further reduction possible with compressed context artifacts (`runtime/artifacts/context/`)
 
 ### False positive parsing
 

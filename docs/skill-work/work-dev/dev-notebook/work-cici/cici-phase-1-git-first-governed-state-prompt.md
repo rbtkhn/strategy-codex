@@ -101,13 +101,13 @@ Do this audit **before** making major changes.
 
 Add a minimal **file-based** governed-state structure. Use existing naming conventions where sensible, but aim for a conceptually clear scaffold **like**:
 
-- `evidence/`
-- `prepared-context/`
-- `_template/`
+- `archive/placeholders/evidence/`
+- `runtime/prepared-context/`
+- `platform/template/`
 - `demo/` or another minimal example instance if appropriate
 - `<instance>/...` for governed state surfaces
-- `config/` or another suitable place for authority / runtime doctrine
-- `bridges/supabase/` if that fits naturally
+- `platform/config/` or another suitable place for authority / runtime doctrine
+- `research/bridges/supabase/` if that fits naturally
 - `.github/workflows/` additions if validation is added
 
 Do **not** force these exact names if the repo already has a better convention. But you must create a clear file-based home for the **three-layer** state model.
@@ -172,7 +172,7 @@ At minimum:
 - Create one or more seed artifacts, such as: `seed_intent.json`, readiness check placeholder(s), validation script(s)
 - Make clear that new instances should be initialized through **Seed Phase**, not by copying real user data
 
-If it fits the repo naturally, create: `_template/`, a minimal demo or sample instance scaffold, a simple validation or readiness script.
+If it fits the repo naturally, create: `platform/template/`, a minimal demo or sample instance scaffold, a simple validation or readiness script.
 
 ### G. A minimal authority-map stub
 
@@ -228,7 +228,7 @@ Instead, reposition Supabase conceptually and structurally as:
 - A useful operational layer for search / index / auth / sync / UI
 - **Not** the canonical source of governed truth
 
-If suitable, create a surface like `bridges/supabase/` or document the bridge concept cleanly without excessive code movement.
+If suitable, create a surface like `research/bridges/supabase/` or document the bridge concept cleanly without excessive code movement.
 
 If Cici does not use Supabase centrally, adapt this guidance to whatever hosted or database layer it actually uses.
 

@@ -46,7 +46,7 @@ record_status: not-gated
 | _TBD_ | _entry / hinge / contrast_ | _routing rationale_ |
 | | | |
 
-_Add rows as needed. Tie seeds to `profile` and `route_config` in frontmatter._
+_Add rows as needed. Tie seeds to `platform/profile` and `route_config` in frontmatter._
 
 ---
 

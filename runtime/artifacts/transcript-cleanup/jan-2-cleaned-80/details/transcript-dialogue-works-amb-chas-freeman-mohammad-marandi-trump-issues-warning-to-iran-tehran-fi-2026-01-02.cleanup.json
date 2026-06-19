@@ -1,0 +1,68 @@
+{
+  "source_path": "codex/years/2026/raw-input/2026-01-02/transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.md",
+  "output_path": "codex/years/2026/raw-input/2026-01-02/transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned.md",
+  "status": "cleaned",
+  "cleanup_score": 100,
+  "cleanup_grade": "cleaned-transcript-80",
+  "source_word_count": 7729,
+  "cleaned_word_count": 7724,
+  "corrections": {
+    "Ali Larij Jani -> Ali Larijani": 1,
+    "Chaz Freeman -> Chas Freeman": 2,
+    "Mirandi -> Marandi": 5,
+    "Mandi -> Marandi": 6,
+    "Nema -> Nima": 4
+  },
+  "residual_noise_terms": [],
+  "components": {
+    "frontmatter_integrity": {
+      "score": 15,
+      "max": 15,
+      "passed": true
+    },
+    "caption_artifact_removal": {
+      "score": 15,
+      "max": 15,
+      "passed": true,
+      "removed": 2
+    },
+    "repeated_fragment_collapse": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "removed": 0
+    },
+    "paragraph_reflow": {
+      "score": 20,
+      "max": 20,
+      "passed": true,
+      "source_lines": 1135,
+      "cleaned_paragraphs": 52
+    },
+    "proper_noun_normalization": {
+      "score": 20,
+      "max": 20,
+      "passed": true,
+      "corrections": {
+        "Ali Larij Jani -> Ali Larijani": 1,
+        "Chaz Freeman -> Chas Freeman": 2,
+        "Mirandi -> Marandi": 5,
+        "Mandi -> Marandi": 6,
+        "Nema -> Nima": 4
+      }
+    },
+    "speaker_turns_where_clear": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "required": true
+    },
+    "residual_noise_scan": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "terms": []
+    }
+  },
+  "cleanup_receipt": "runtime/artifacts/transcript-cleanup/jan-2-cleaned-80/details/transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleanup.json"
+}

@@ -33,7 +33,7 @@ python3 scripts/runtime/stage_candidate_from_observations.py \
   --lane work-strategy \
   --candidate-type skill_update \
   --target-surface SKILLS \
-  --target-path skills-portable/skill-strategy.md \
+  --target-path skills/skill-strategy.md \
   --id obs_20260413T184210Z_a1b2c3d4 \
   --id obs_20260413T191455Z_e5f6g7h8 \
   --proposal-summary "Refine skill-strategy notebook writing boundary" \
@@ -47,7 +47,7 @@ python3 scripts/runtime/stage_candidate_from_observations.py \
 - **`--timeline-anchor`** — optional; defaults to the **earliest** selected observation by timestamp.
 - **`--confidence`** — optional override; otherwise the mean of numeric `confidence` values on the selected rows.
 
-The script validates a structured payload against [`schema-registry/recursion-gate-candidate.schema.json`](../../schema-registry/recursion-gate-candidate.schema.json) when `jsonschema` is installed (see `requirements-dev.txt`).
+The script validates a structured payload against [`schemas/registry/recursion-gate-candidate.schema.json`](../../schemas/registry/recursion-gate-candidate.schema.json) when `jsonschema` is installed (see `requirements-dev.txt`).
 
 ## On-disk shape
 
@@ -57,11 +57,11 @@ Staging inserts a standard gate block: **`### CANDIDATE-NNNN`** with fenced **`y
 
 ## Merge behavior
 
-Candidates with **`proposal_class: RUNTIME_OBSERVATION_PROPOSAL`** are **not** auto-merged into SELF, EVIDENCE, or `bot/prompt.py`. When approved, `process_approved_candidates.py` moves the block to **Processed** and prints a reminder to **apply the change manually** to the intended surface (SKILLS, SELF-LIBRARY, etc.). See [`process_approved_candidates.py`](../../scripts/process_approved_candidates.py) (same pattern as `META_INFRA` for non-Record infra proposals).
+Candidates with **`proposal_class: RUNTIME_OBSERVATION_PROPOSAL`** are **not** auto-merged into SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py`. When approved, `process_approved_candidates.py` moves the block to **Processed** and prints a reminder to **apply the change manually** to the intended surface (SKILLS, SELF-LIBRARY, etc.). See [`process_approved_candidates.py`](../../scripts/process_approved_candidates.py) (same pattern as `META_INFRA` for non-Record infra proposals).
 
 ## Non-goals
 
-- Does **not** edit `self.md`, `self-skills.md`, `self-archive.md`, SELF-LIBRARY paths, or `bot/prompt.py`.
+- Does **not** edit `self.md`, `self-skills.md`, `self-archive.md`, SELF-LIBRARY paths, or `archive/grace-mar-instance/bot/prompt.py`.
 - Does **not** approve or merge; companion review and merge tooling still apply.
 - Does **not** infer proposals from a search query alone — you pass explicit **`--id`** values.
 

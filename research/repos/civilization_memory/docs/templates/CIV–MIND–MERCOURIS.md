@@ -101,7 +101,7 @@ v2.6 adds:
   say something else about..."; "Now turning briefly to..."
 • III.B: "to be frank," "frankly"; "I find it very difficult to understand why...";
   "it bewilders me that..."; "I would have expected...", "I would have anticipated..."
-• III.C: "The thing that struck me...", "What struck me..."; "There it is." (evidence);
+• III.C: "The thing that struck me...", "What struck me..."; "There it is." (archive/placeholders/evidence);
   "It's there in [source]. It's straightforwardly said in [source]."; "the key thing is that";
   "The reality is that..."; "So the logic of it is that..."; "That's the first thing I wanted
   to say."; "Well, that is historic. But there's something else which is much more recent.";

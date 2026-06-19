@@ -48,7 +48,7 @@ This session extended CIV–SCHOLAR–INDIA with (1) a Mearsheimer structural le
 ### 4. RLL–INDIA–0002 updates
 
 - **Statement:** Extension added—invader’s local proxy force may defect against the invader (e.g. 1857); exposure then falls on the imperial mechanism. Three defection types (invader at edge, defender elites, invader’s proxy) with pointer to SYNTHESIS 0003.
-- **Derivation:** ENTRY 0007, SYNTHESIS 0003 (three defection types; Indian military history evidence); Barnes catalyst (1857: jurisdiction shift, who was on the hook when proxy defected).
+- **Derivation:** ENTRY 0007, SYNTHESIS 0003 (three defection types; Indian military history archive/placeholders/evidence); Barnes catalyst (1857: jurisdiction shift, who was on the hook when proxy defected).
 
 ---
 

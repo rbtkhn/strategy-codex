@@ -24,7 +24,7 @@ Grace-Mar runtime observations support a **progressive disclosure** workflow ove
 6. **Read hints + memory brief** — `read_hint.py` (soft pre-read hints) and `memory_brief.py` (one bounded Markdown brief: search → timeline → expansion); see [read-hints.md](read-hints.md).
 7. **Uncertainty envelope** — `score_evidence_sufficiency.py`, `flag_fabricated_history_risk.py`, `precheck_gate_staging.py` (advisory); doctrine: [abstention-policy.md](../abstention-policy.md).
 8. **Review orchestrator** — `review_orchestrator.py` (multi-pass Markdown packet, pre-gate or candidate); [review-orchestrator.md](../orchestration/review-orchestrator.md).
-9. **Long-horizon checkpoints / handoffs** — `checkpoint_session.py` and `build_handoff_packet.py` emit **runtime-only** Markdown under `artifacts/handoffs/` so long runs stay resumable and inspectable without conflating working memory with the Record; [long-horizon-work.md](long-horizon-work.md).
+9. **Long-horizon checkpoints / handoffs** — `checkpoint_session.py` and `build_handoff_packet.py` emit **runtime-only** Markdown under `runtime/artifacts/handoffs/` so long runs stay resumable and inspectable without conflating working memory with the Record; [long-horizon-work.md](long-horizon-work.md).
 10. **Budgeted prepared context** — `build_budgeted_context.py` assembles lane-scoped context with explicit **budget mode** and inclusion/exclusion reporting; [context-budgeting.md](context-budgeting.md).
 11. **Policy modes** — named governance envelopes (`GRACE_MAR_POLICY_MODE` / `--policy-mode`) tune staging and abstention posture without replacing gate review; [policy-modes.md](../policy-modes.md).
 
@@ -45,7 +45,7 @@ This is **operator / WORK scaffolding**, not Record truth. See [runtime/observat
 
 ## Gate candidate and schema identifiers
 
-Staged runtime proposals use **`gate_candidate_id`** values matching `^CANDIDATE-[0-9]{4}$` and YAML **`status: pending`**, per [`schema-registry/recursion-gate-candidate.schema.json`](../../schema-registry/recursion-gate-candidate.schema.json). Sequential four-digit IDs align with the existing gate merge pipeline and human scanning of `recursion-gate.md`.
+Staged runtime proposals use **`gate_candidate_id`** values matching `^CANDIDATE-[0-9]{4}$` and YAML **`status: pending`**, per [`schemas/registry/recursion-gate-candidate.schema.json`](../../schemas/registry/recursion-gate-candidate.schema.json). Sequential four-digit IDs align with the existing gate merge pipeline and human scanning of `recursion-gate.md`.
 
 **Alternatives considered:** Timestamp- or ULID-based IDs sort naturally in raw logs but require coordinated updates to the schema, staging emitters, and merge tooling. Adopt them only through an explicit change to the schema and related scripts—not by mixing formats in one gate file.
 
@@ -53,7 +53,7 @@ Staged runtime proposals use **`gate_candidate_id`** values matching `^CANDIDATE
 
 ## Code layout and packaging
 
-Runtime retrieval and staging logic live as **importable modules** next to CLIs under [`scripts/runtime/`](../../scripts/runtime/) (for example `observation_store.py`, `ledger_paths.py`). A dedicated installable package (for example `src/grace_mar/runtime/`) is **deferred** until import churn, duplicated test harnesses, or install boundaries justify the migration; until then, `scripts/runtime/` is the subsystem boundary.
+Runtime retrieval and staging logic live as **importable modules** next to CLIs under [`scripts/runtime/`](../../scripts/runtime/) (for example `observation_store.py`, `ledger_paths.py`). A dedicated installable package (for example `platform/src/grace_mar/runtime/`) is **deferred** until import churn, duplicated test harnesses, or install boundaries justify the migration; until then, `scripts/runtime/` is the subsystem boundary.
 
 ## Commands
 
@@ -96,7 +96,7 @@ Optional: set `GRACE_MAR_RUNTIME_LEDGER_ROOT` so the ledger path is isolated (te
 ```bash
 python3 scripts/runtime/read_hint.py --lane work-strategy --path docs/strategy-notebook.md
 python3 scripts/runtime/memory_brief.py --lane work-strategy --query "iran negotiation framing" \
-  --output prepared-context/memory-brief.md
+  --output runtime/prepared-context/memory-brief.md
 ```
 
 Details: [read-hints.md](read-hints.md).

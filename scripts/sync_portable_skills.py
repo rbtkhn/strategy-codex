@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Assemble .cursor/skills/*/SKILL.md from skills-portable/*/SKILL.md + optional CURSOR_APPENDIX.md.
+Assemble .cursor/skills/*/SKILL.md from skills/*/SKILL.md + optional CURSOR_APPENDIX.md.
 
 Usage:
     python3 scripts/sync_portable_skills.py
@@ -23,7 +23,7 @@ if str(_SCRIPTS) not in sys.path:
 
 from yaml_compat import safe_dump, safe_load_path, safe_load_text
 
-_MANIFEST = _REPO / "skills-portable" / "manifest.yaml"
+_MANIFEST = _REPO / "skills" / "manifest.yaml"
 _GENERATOR = "sync_portable_skills.py"
 
 
@@ -320,7 +320,7 @@ def sync_one(
     if not name or not src_rel or not tgt_rel:
         return "skip", [f"bad manifest entry: {entry!r}"]
 
-    src = _REPO / "skills-portable" / src_rel
+    src = _REPO / "skills" / src_rel
     tgt = _REPO / tgt_rel
     apx = _REPO / apx_rel if apx_rel else None
 
@@ -341,7 +341,7 @@ def sync_one(
         return "error", errs
 
     meta_out = dict(meta)
-    meta_out["portable_source"] = f"skills-portable/{src_rel}"
+    meta_out["portable_source"] = f"skills/{src_rel}"
     meta_out["synced_by"] = _GENERATOR
 
     appendix_block = ""
@@ -364,7 +364,7 @@ def sync_one(
 
 
 def main() -> int:
-    p = argparse.ArgumentParser(description="Assemble Cursor skills from skills-portable/.")
+    p = argparse.ArgumentParser(description="Assemble Cursor skills from skills/.")
     p.add_argument("--dry-run", action="store_true", help="Print actions only")
     p.add_argument("--verify", action="store_true", help="Validate only; no writes")
     p.add_argument("--skill", metavar="NAME", help="Sync a single manifest name")

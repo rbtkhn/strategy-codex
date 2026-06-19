@@ -22,8 +22,8 @@ Boundary notes:
 
 Canonical machine-readable seed shape:
 
-- `users/_template/seed-phase/work_dev_seed.json`
-- validated by `schema-registry/work-dev-seed.v1.json`
+- `platform/users/platform/template/seed-phase/work_dev_seed.json`
+- validated by `schemas/registry/work-dev-seed.v1.json`
 
 Promotion rule:
 On seed activation, approved survey outputs are copied into this module and status changes from `uninitialized` to `initialized`.

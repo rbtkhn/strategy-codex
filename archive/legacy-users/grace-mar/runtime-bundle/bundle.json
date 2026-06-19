@@ -1,5 +1,5 @@
 {
-  "format": "grace-mar-runtime-bundle",
+  "format": "grace-mar-runtime/bundle",
   "version": "1.0",
   "bundle_id": "66a429e913d4",
   "generated_at": "2026-05-04T05:26:14.246231+00:00",
@@ -102,14 +102,14 @@
         "mtime": "2026-04-29T23:57:56.651959+00:00",
         "sha256": "986866d4f7e764f8e8fff5915b6927d25fcff3228f9e5079a3ab6c3f4d2228e1"
       },
-      "evidence": {
+      "archive/placeholders/evidence": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\self-archive.md",
         "size_bytes": 41465,
         "mtime": "2026-05-04T00:36:47.853586+00:00",
         "sha256": "ef01620483b2e96b7075fea61e8ed9e45af6bf35ce32f63de0337aaccf7b2447"
       },
-      "self_evidence": {
+      "self_archive/placeholders/evidence": {
         "exists": true,
         "path": "C:\\dev\\strategy-codex\\users\\grace-mar\\self-archive.md",
         "size_bytes": 41465,

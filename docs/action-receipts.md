@@ -26,13 +26,13 @@ Action receipts are **not** the Record. They are **not** a second merge path. Th
 
 ### Specialized evaluation receipts
 
-**Load-Lift Receipts** are a **specialized** evaluation artifact for [known-path workflow](workflows/known-path-workflows/README.md) **runs** — they record whether a workflow **reduced operator burden** (baseline vs run vs review time) while flagging **missed signals**, **false promotion risk**, and **authority** concerns. They **do not** replace general action-receipt use cases, **do not** merge or approve the Record, and **do not** subsume a future `schema-registry/action-receipt.v1.json` (see *Shape* below). Schema: [schema-registry/load-lift-receipt.v1.json](../schema-registry/load-lift-receipt.v1.json); spec: [load-lift-receipts.md](workflows/known-path-workflows/load-lift-receipts.md).
+**Load-Lift Receipts** are a **specialized** evaluation artifact for [known-path workflow](workflows/known-path-workflows/README.md) **runs** — they record whether a workflow **reduced operator burden** (baseline vs run vs review time) while flagging **missed signals**, **false promotion risk**, and **authority** concerns. They **do not** replace general action-receipt use cases, **do not** merge or approve the Record, and **do not** subsume a future `schemas/registry/action-receipt.v1.json` (see *Shape* below). Schema: [schemas/registry/load-lift-receipt.v1.json](../schemas/registry/load-lift-receipt.v1.json); spec: [load-lift-receipts.md](workflows/known-path-workflows/load-lift-receipts.md).
 
 ---
 
 ## Shape (future)
 
-When an instance or tool needs a machine schema, prefer **`schema-registry/action-receipt.v1.json`** with **camelCase** fields (`receiptId`, `createdAt`, `appliedStatus`, …), aligned with other v1 artifacts. Until then, use this doc as doctrine only.
+When an instance or tool needs a machine schema, prefer **`schemas/registry/action-receipt.v1.json`** with **camelCase** fields (`receiptId`, `createdAt`, `appliedStatus`, …), aligned with other v1 artifacts. Until then, use this doc as doctrine only.
 
 ---
 

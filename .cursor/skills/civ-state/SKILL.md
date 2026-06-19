@@ -9,7 +9,7 @@ tags:
 - statecraft
 - civ-state
 - architecture
-portable_source: skills-portable/civ-state/SKILL.md
+portable_source: skills/civ-state/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # CIV-STATE
@@ -198,7 +198,7 @@ It is the upstream CIV-STATE command surface: frame, retrieve, promote, review â
 
 ## Cursor / grace-mar instance
 
-Cursor-only wiring for [civ-state/SKILL.md](../../../skills-portable/civ-state/SKILL.md). Portable SSOT body stays in `skills-portable/`.
+Cursor-only wiring for [civ-state/SKILL.md](../../../skills/civ-state/SKILL.md). Portable SSOT body stays in `skills/`.
 
 ## Cursor entry (cold thread)
 
@@ -262,7 +262,7 @@ Hand off to [state-synthesis](../state-synthesis/SKILL.md).
 **Operator second:**
 
 6. [statecraft/voices/](../../../statecraft/voices/)
-7. [statecraft/bridges/](../../../statecraft/bridges/)
+7. [statecraft/research/bridges/](../../../statecraft/research/bridges/)
 8. [ph-civ-to-civ-state-bridge.md](../../../statecraft/states/ph-civ-to-civ-state-bridge.md)
 9. [ph-civ-promotion-ledger.md](../../../statecraft/states/ph-civ-promotion-ledger.md)
 10. [review-queue.md](../../../statecraft/states/review-queue.md)

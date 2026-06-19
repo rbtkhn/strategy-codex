@@ -17,7 +17,7 @@
 5. [Script placement](#5-script-placement)
 6. [Implementation deliverables](#6-implementation-deliverables)
 7. [Technical feasibility study](#7-technical-feasibility-study)
-8. [Supporting artifacts](#8-supporting-artifacts)
+8. [Supporting artifacts](#8-supporting-runtime/artifacts)
 9. [Document bundle](#9-document-bundle)
 10. [Open questions](#10-open-questions)
 11. [Implementation checklist (from plan)](#11-implementation-checklist-from-plan)
@@ -37,7 +37,7 @@
 
 ### Governing doctrine for OB1 evolution
 
-Evolving an OB1 deployment toward companion-self–grade governance is **incremental**: add **staging** first so drafts and retrieved content do not masquerade as canonical; then **approval** so incorporation requires the merge contract; then **integrity** checks (exports, provenance, drift); then **interface** discipline so the Voice answers inside scope and abstains outside it. Deeper identity capabilities belong after those membranes exist—otherwise convenience habits harden and later safeguards feel like friction. This subsection is **operator/template doctrine** for planning (including named instances such as companion-xavier), not companion Record truth. Normative reference: [Architecture — State governance](../../architecture.md#state-governance-proposed-interface-and-canonical); bridge decision record: [ADR: Asymmetric bridge](../../integrations/ob1/adr-asymmetric-bridge.md) § Doctrine alignment.
+Evolving an OB1 deployment toward companion-self–grade governance is **incremental**: add **staging** first so drafts and retrieved content do not masquerade as canonical; then **approval** so incorporation requires the merge contract; then **integrity** checks (exports, provenance, drift); then **interface** discipline so the Voice answers inside scope and abstains outside it. Deeper identity capabilities belong after those membranes exist—otherwise convenience habits harden and later safeguards feel like friction. This subsection is **operator/template doctrine** for planning (including named instances such as companion-xavier), not companion Record truth. Normative reference: [Architecture — State governance](../../architecture.md#state-governance-proposed-interface-and-canonical); bridge decision record: [ADR: Asymmetric bridge](../../platform/integrations/ob1/adr-asymmetric-bridge.md) § Doctrine alignment.
 
 ---
 
@@ -45,7 +45,7 @@ Evolving an OB1 deployment toward companion-self–grade governance is **increme
 
 | System | Canonical shape (relevant here) |
 |--------|----------------------------------|
-| **companion-self** | Git repo: `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `bot/prompt.py`, optional `self-memory.md` — **human-gated Record** in markdown. |
+| **companion-self** | Git repo: `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `archive/grace-mar-instance/bot/prompt.py`, optional `self-memory.md` — **human-gated Record** in markdown. |
 | **OB1** | **Supabase + thoughts** (and related), vector search, MCP — exports/recipes produce **portable dumps** (JSON, markdown) depending on upstream tooling. |
 
 Grace-mar already has **read-only exports** for other runtimes (`docs/openclaw-integration.md`); there is **no** current bidirectional OB1 script in this repo.
@@ -129,7 +129,7 @@ flowchart LR
 1. **Extract** from OB1: official export path (backup, recipe output, or Supabase `select` with service role — **operator-local**, secrets not committed).
 2. **Transform** into **`CANDIDATE-XXXX` YAML blocks** matching `recursion-gate.md`: `summary`, `profile_target`, `source_exchange` (OB1 id + text), `channel_key: operator:ob1-import`.
 3. **Append** under `## Candidates` with `status: pending` → companion approves → `process_approved_candidates.py`.
-4. **Never** write `self.md` / `self-archive.md` / `bot/prompt.py` directly from this script.
+4. **Never** write `self.md` / `self-archive.md` / `archive/grace-mar-instance/bot/prompt.py` directly from this script.
 
 **Optional — MEMORY / WORK (non-Record)**
 
@@ -219,7 +219,7 @@ flowchart LR
 
 **Nice-to-have:** Pilot report template; glossary; minimal companion-facing FAQ if ever needed.
 
-**Where:** Authoritative copy in **companion-self** (e.g. `docs/integrations/open-brain/` or `docs/ob1-bridge/`). **Grace-mar:** this file is a **consolidated mirror**; prefer linking to companion-self when the bundle lands there.
+**Where:** Authoritative copy in **companion-self** (e.g. `docs/platform/integrations/open-brain/` or `docs/ob1-bridge/`). **Grace-mar:** this file is a **consolidated mirror**; prefer linking to companion-self when the bundle lands there.
 
 ---
 

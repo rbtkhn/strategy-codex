@@ -109,7 +109,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:1 S:0 G:2]** [Israel and Hezbollah Trade Strikes Further Threatening Ceasefire](https://www.today.com/video/israel-and-hezbollah-trade-strikes-further-threatening-ceasefire-261081157667) Ã¢â‚¬” _NBC News Ã¢â‚¬” politics_ Ã‚· _2026-04-10 11:25 UTC_
 - **[W:3 S:0 G:1]** [Russia and Ukraine agree to Orthodox Easter truce](https://www.bbc.com/news/articles/cn0wkkwev2vo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-04-10 11:56 UTC_

@@ -68,7 +68,7 @@ Only where there is a **single structured consumer** and clear **active implemen
 | Mechanism | Role |
 |-----------|------|
 | **coffee** menu **A-D**, **Steward** | Session navigation, gate/template/integrity/git tracks; **Implement now vs Later** after steward. |
-| **Impact preview** (`scripts/preview_candidate_impact.py`, gate-review app) | Inspects **candidate merge surface** for staged itemsâ€”tooling, not a full execution wedge. |
+| **Impact preview** (`scripts/preview_candidate_impact.py`, gate-review platform/app) | Inspects **candidate merge surface** for staged itemsâ€”tooling, not a full execution wedge. |
 | **Strategy menu** then optional **named mind** or **`statecraft-multi-lens`** | Lens choice after intel (**tri-frame deprecated** — [TRI-MIND-DEPRECATED.md](work-strategy/TRI-MIND-DEPRECATED.md)); not the same as compressing a finished plan into one action path. |
 | **Reality Sprint Block** | Applied **after** there is a substantive plan: **one** primary path, **one** reality step, prune, failure check, evidence cadence. |
 
@@ -81,7 +81,7 @@ Use both where useful: e.g. **statecraft-multi-lens** or a **single named mind**
 When the wedge is **merge / governance / staged candidates**, â€œfirst contact with realityâ€ may be:
 
 - Run **candidate impact preview:** `python3 scripts/preview_candidate_impact.py` (see work-dev tooling).
-- Open the **gate-review** dashboard (`apps/gate-review-app.py` pattern in-repo) for the relevant queue.
+- Open the **gate-review** dashboard (`platform/apps/gate-review-app.py` pattern in-repo) for the relevant queue.
 
 Cross-link only; no change to merge authority or gate schema.
 
@@ -117,4 +117,4 @@ This file lives at **`docs/skill-work/`** root as **cross-cutting doctrine** (no
 
 ## Deferred (post-v1)
 
-Not required for the first merge: bridge/harvest â€œpending reality contactâ€ line, strategy-notebook promote habit, optional `log_operator_choice` / cadence notes, CI guard on template headings, `skills-portable` / `.cursor/skills` extraction, and automated `session_brief.py` append. Promote after manual RSB use shows reduced â€œelegant delay.â€
+Not required for the first merge: bridge/harvest â€œpending reality contactâ€ line, strategy-notebook promote habit, optional `log_operator_choice` / cadence notes, CI guard on template headings, `skills` / `.cursor/skills` extraction, and automated `session_brief.py` append. Promote after manual RSB use shows reduced â€œelegant delay.â€

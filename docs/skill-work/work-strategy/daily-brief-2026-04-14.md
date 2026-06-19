@@ -155,7 +155,7 @@ Thread **Context Efficiency Layer** when assembling follow-up context: prefer ho
 - **Doctrine:** [context-efficiency-layer.md](../context-efficiency-layer.md)
 - **Compaction shapes:** [context-compaction-protocol.md](../context-compaction-protocol.md)
 - **Session brief (hot):** `python3 scripts/session_brief.py -u grace-mar --compact`
-- **Budgets:** `config/context_budgets/session_brief.json`, `config/context_surfaces.json`
+- **Budgets:** `platform/config/context_budgets/session_brief.json`, `platform/config/context_surfaces.json`
 
 
 ---

@@ -122,7 +122,7 @@ The Workspace Panel is Grace-Mar’s dedicated, resizable structured output area
 **Action Bar (fixed at bottom of panel)**
 
 - Dismiss → Close current artifact
-- Save as Draft → Store in `users/grace-mar/artifacts/drafts/`
+- Save as Draft → Store in `platform/users/grace-mar/runtime/artifacts/drafts/`
 - Preview Changes → Show diff against current DESIGN.md
 - **Apply to Record** → Submit formal change proposal to recursion-gate (Primary Accent button; disabled until validation passes)
 
@@ -143,8 +143,8 @@ The Workspace Panel is Grace-Mar’s dedicated, resizable structured output area
 
 **State Management**
 
-- Draft artifacts saved locally in `users/grace-mar/artifacts/drafts/` (non-canonical working copies; see [artifacts/drafts/README.md](artifacts/drafts/README.md))
-- After recursion-gate approval: promote durable creative outputs under `users/grace-mar/artifacts/creative/` per [artifacts/creative/README.md](artifacts/creative/README.md). **Record** integration is only through the gated pipeline into [`self-archive.md`](self-archive.md) — do not use `self-evidence/` as a parallel evidence tree ([canonical-paths.md](../../docs/canonical-paths.md))
+- Draft artifacts saved locally in `platform/users/grace-mar/runtime/artifacts/drafts/` (non-canonical working copies; see [runtime/artifacts/drafts/README.md](runtime/artifacts/drafts/README.md))
+- After recursion-gate approval: promote durable creative outputs under `platform/users/grace-mar/runtime/artifacts/creative/` per [runtime/artifacts/creative/README.md](runtime/artifacts/creative/README.md). **Record** integration is only through the gated pipeline into [`self-archive.md`](self-archive.md) — do not use `self-archive/placeholders/evidence/` as a parallel evidence tree ([canonical-paths.md](../../docs/canonical-paths.md))
 - Panel remembers last open artifact across sessions (non-Record state)
 
 ### Purpose

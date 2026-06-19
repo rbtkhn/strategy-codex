@@ -25,7 +25,7 @@ CANDIDATE-XXXX â€” <one-line summary from gate YAML> â€” `recursion-ga
 Use with **candidate impact preview** when merge risk matters:
 
 - CLI: `python3 scripts/preview_candidate_impact.py` (see work-dev tooling)
-- Dashboard: `apps/gate-review-app.py` (compact â€œwhy this mattersâ€ + impact box)
+- Dashboard: `platform/apps/gate-review-app.py` (compact â€œwhy this mattersâ€ + impact box)
 
 **Compact review bundle:** summary line + source path + optional impact preview outputâ€”not full surrounding markdown.
 
@@ -62,7 +62,7 @@ From [work-dev/workspace.md](work-dev/workspace.md) mindset:
 ## Session brief output
 
 - **Minimal / compact:** pending IDs + last ACT one-liner + **recovery links** (see `session_brief.py --compact`)
-- Budgets: [`config/context_budgets/session_brief.json`](../../config/context_budgets/session_brief.json)
+- Budgets: [`platform/config/context_budgets/session_brief.json`](../../platform/config/context_budgets/session_brief.json)
 
 ---
 

@@ -9,7 +9,7 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SIMULATOR = REPO_ROOT / "scripts" / "simulate_counterfactual_fork.py"
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "counterfactual-simulation-report.v1.json"
+SCHEMA_PATH = REPO_ROOT / "schemas/registry" / "counterfactual-simulation-report.v1.json"
 
 
 def _write_json(path: Path, payload: dict) -> None:
@@ -18,7 +18,7 @@ def _write_json(path: Path, payload: dict) -> None:
 
 
 def _build_repo(root: Path) -> None:
-    user_dir = root / "users" / "grace-mar"
+    user_dir = root / "platform/users" / "grace-mar"
     user_dir.mkdir(parents=True, exist_ok=True)
     (root / "docs").mkdir(parents=True, exist_ok=True)
     (root / "docs" / "example.md").write_text("# Example\n", encoding="utf-8")
@@ -74,7 +74,7 @@ def test_clean_narrow_docs_proposal_produces_non_authoritative_report(tmp_path: 
     result = _run(tmp_path, proposal_path)
     assert result.returncode == 0, result.stderr
 
-    out = tmp_path / "artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
+    out = tmp_path / "runtime/artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
     assert out.is_file()
     report = json.loads(out.read_text(encoding="utf-8"))
     assert report["authority"]["recordAuthority"] == "none"
@@ -97,7 +97,7 @@ def test_merge_authority_language_produces_reject_risk(tmp_path: Path) -> None:
 
     result = _run(tmp_path, proposal_path)
     assert result.returncode == 0, result.stderr
-    out = tmp_path / "artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
+    out = tmp_path / "runtime/artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
     report = json.loads(out.read_text(encoding="utf-8"))
     assert report["recommendation"]["decision"] == "reject"
     assert any("mergeAuthority" in item for item in report["doctrine_drift_risks"])
@@ -117,7 +117,7 @@ def test_interface_artifact_non_none_record_authority_creates_drift_risk(tmp_pat
 
     result = _run(tmp_path, proposal_path)
     assert result.returncode == 0, result.stderr
-    out = tmp_path / "artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
+    out = tmp_path / "runtime/artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
     report = json.loads(out.read_text(encoding="utf-8"))
     assert report["doctrine_drift_risks"]
     assert any(
@@ -133,7 +133,7 @@ def test_empty_target_surfaces_produces_needs_review(tmp_path: Path) -> None:
 
     result = _run(tmp_path, proposal_path)
     assert result.returncode == 0, result.stderr
-    out = tmp_path / "artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
+    out = tmp_path / "runtime/artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
     report = json.loads(out.read_text(encoding="utf-8"))
     assert report["recommendation"]["decision"] == "needs_review"
 
@@ -146,7 +146,7 @@ def test_refuses_output_outside_counterfactual_artifacts_dir(tmp_path: Path) -> 
 
     result = _run(tmp_path, proposal_path, "--output", str(forbidden))
     assert result.returncode == 1
-    assert "artifacts/counterfactual-simulations" in result.stderr
+    assert "runtime/artifacts/counterfactual-simulations" in result.stderr
     assert not forbidden.exists()
 
 
@@ -158,7 +158,7 @@ def test_report_validates_against_schema_when_jsonschema_available(tmp_path: Pat
 
     result = _run(tmp_path, proposal_path)
     assert result.returncode == 0, result.stderr
-    out = tmp_path / "artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
+    out = tmp_path / "runtime/artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
     report = json.loads(out.read_text(encoding="utf-8"))
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     jsonschema.validate(instance=report, schema=schema)
@@ -171,7 +171,7 @@ def test_json_pretty_output_is_stable_and_matches_written_report(tmp_path: Path)
 
     result = _run(tmp_path, proposal_path, "--json")
     assert result.returncode == 0, result.stderr
-    out = tmp_path / "artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
+    out = tmp_path / "runtime/artifacts" / "counterfactual-simulations" / "example-proposal-simulation.json"
     expected = out.read_text(encoding="utf-8")
     assert result.stdout == expected
     payload = json.loads(result.stdout)
@@ -184,7 +184,7 @@ def test_script_does_not_modify_gate_or_canonical_record_files(tmp_path: Path) -
     proposal_path = tmp_path / "proposal.json"
     _write_json(proposal_path, _proposal())
 
-    user_dir = tmp_path / "users" / "grace-mar"
+    user_dir = tmp_path / "platform/users" / "grace-mar"
     self_path = user_dir / "self.md"
     library_path = user_dir / "self-library.md"
     gate_path = user_dir / "recursion-gate.md"

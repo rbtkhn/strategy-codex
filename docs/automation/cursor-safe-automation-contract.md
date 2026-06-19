@@ -8,7 +8,7 @@
 
 ## Rules
 
-1. **No direct edits** to the **Record**, **gate** queue, **`bot/prompt.py`**, **`session-log.md`**, or **EVIDENCE**-canonical files as part of the automation. Do not edit `self.md`, `self-archive.md`, or `recursion-gate.md` to approve, move, or delete candidates.
+1. **No direct edits** to the **Record**, **gate** queue, **`archive/grace-mar-instance/bot/prompt.py`**, **`session-log.md`**, or **EVIDENCE**-canonical files as part of the automation. Do not edit `self.md`, `self-archive.md`, or `recursion-gate.md` to approve, move, or delete candidates.
 2. **No unattended** `process_approved_candidates.py --apply` (or any other merge) â€” **ever**.
 3. **No approving, rejecting, renumbering, or editing** `CANDIDATE-*` entries. Listing **ids** and **one-line text already in the file** (read-only) is allowed only where a dedicated prompt says so.
 4. **No staging** new gate candidates from **PR text**, **issues**, or **untrusted** external text.

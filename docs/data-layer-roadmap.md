@@ -14,7 +14,7 @@ System state lives in **markdown files** under ``:
 - **self-evidence.md** — activity log (ACT-*, READ-*, WRITE-*, CREATE-*); structured blocks.
 - **recursion-gate.md** — pipeline staging: candidates above `## Processed`, processed below.
 
-**Consumers:** `bot/core.py`, `scripts/process_approved_candidates.py`, `scripts/recursion_gate_review.py`, `scripts/validate-integrity.py`, and others parse these files with regex/YAML-style extraction. That is transparent and git-friendly but brittle at scale: multiple parsers, regex drift, no single schema. Multi-user and automation would benefit from a single source of truth and typed schemas.
+**Consumers:** `archive/grace-mar-instance/bot/core.py`, `scripts/process_approved_candidates.py`, `scripts/recursion_gate_review.py`, `scripts/validate-integrity.py`, and others parse these files with regex/YAML-style extraction. That is transparent and git-friendly but brittle at scale: multiple parsers, regex drift, no single schema. Multi-user and automation would benefit from a single source of truth and typed schemas.
 
 ---
 
@@ -66,9 +66,9 @@ Do not advance to the next phase without meeting the prior phase's criteria. If 
 
 | Phase | Metric | Target | How to measure |
 |-------|--------|--------|----------------|
-| **A** | Parser consolidation | 1 canonical parser per surface (gate, self, evidence) | Grep for regex/YAML extraction calls; count distinct parsers |
+| **A** | Parser consolidation | 1 canonical parser per surface (gate, self, archive/placeholders/evidence) | Grep for regex/YAML extraction calls; count distinct parsers |
 | **A** | Read-path correctness | 100% — store output matches markdown parse output for all existing files | Diff test: parse markdown → write to store → read from store → compare |
-| **A** | Zero regressions | All existing consumers (`bot/core.py`, `process_approved_candidates.py`, `validate-integrity.py`) pass their test suites | Run existing tests against read-through layer |
+| **A** | Zero regressions | All existing consumers (`archive/grace-mar-instance/bot/core.py`, `process_approved_candidates.py`, `validate-integrity.py`) pass their test suites | Run existing tests against read-through layer |
 | **B** | Write-path idempotency | Regenerated `recursion-gate.md` is byte-identical on repeated runs with no intervening changes | Run regeneration twice, diff output |
 | **B** | Operator-invisible | Operator workflow unchanged — no new commands, no manual migration steps | Operator confirms during pilot |
 | **C** | Full-surface parity | SELF and EVIDENCE regenerated markdown passes `validate-integrity.py` | Automated test |
@@ -94,7 +94,7 @@ This roadmap may be abandoned if the minimal option (centralized parsing, no sto
 
 This roadmap authorizes **schema definition and read/write path consolidation**. It does not authorize:
 
-- **New data surfaces** (e.g. adding analytics tables, search indexes, or caches beyond the three core surfaces: gate, self, evidence)
+- **New data surfaces** (e.g. adding analytics tables, search indexes, or caches beyond the three core surfaces: gate, self, archive/placeholders/evidence)
 - **External database dependencies** (e.g. Postgres, cloud-hosted stores) — the store is local-only (JSON or SQLite)
 - **API layers** (e.g. REST/GraphQL endpoints for external consumers) — exports are handled by existing export scripts, not by a live API
 - **Multi-user architecture** — this roadmap is for a single companion instance; multi-user is a different problem

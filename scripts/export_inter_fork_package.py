@@ -21,12 +21,12 @@ except ImportError:  # pragma: no cover - optional dependency
     jsonschema = None  # type: ignore[assignment]
 
 try:
-    from repo_io import DEFAULT_USER_ID, profile_dir
+    from repo_io import DEFAULT_USER_ID, SCHEMA_REGISTRY_DIR, artifacts_dir, profile_dir
 except ImportError:
-    from scripts.repo_io import DEFAULT_USER_ID, profile_dir
+    from scripts.repo_io import DEFAULT_USER_ID, SCHEMA_REGISTRY_DIR, artifacts_dir, profile_dir
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "inter-fork-package-envelope.v1.json"
+SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "inter-fork-package-envelope.v1.json"
 BOUNDARY_NOTICE = (
     "This package is bounded inter-fork transport only. The recipient fork must import "
     "and review it locally; the sender has no recipient-side merge authority."
@@ -42,7 +42,7 @@ def _default_output_dir(
     *,
     profile_lookup: Callable[[str], Path] = profile_dir,
 ) -> Path:
-    return profile_lookup(sender_fork_id) / "artifacts" / "inter-fork" / "packages"
+    return artifacts_dir(profile_lookup(sender_fork_id)) / "inter-fork" / "packages"
 
 
 def _default_routing_hint(package_kind: str) -> str:
@@ -55,13 +55,13 @@ def _default_proposal_class(target_surface: str) -> str:
         "self_library": "library",
         "civ_mem": "library",
         "skills": "skills",
-        "evidence": "evidence",
+        "archive/placeholders/evidence": "archive/placeholders/evidence",
         "work_layer": "policy",
     }.get(target_surface, "policy")
 
 
 def _load_schema(repo_root: Path) -> dict:
-    return json.loads((repo_root / "schema-registry" / "inter-fork-package-envelope.v1.json").read_text(encoding="utf-8"))
+    return json.loads((repo_root / "schemas/registry" / "inter-fork-package-envelope.v1.json").read_text(encoding="utf-8"))
 
 
 def build_inter_fork_package(
@@ -77,7 +77,7 @@ def build_inter_fork_package(
 ) -> dict:
     package_id = f"ifpkg-{uuid.uuid4()}"
     return {
-        "$schema": "schema-registry/inter-fork-package-envelope.v1.json",
+        "$schema": "schemas/registry/inter-fork-package-envelope.v1.json",
         "schemaVersion": "1.0.0",
         "format": "grace-mar-inter-fork-package",
         "packageId": package_id,
@@ -201,7 +201,7 @@ def main() -> int:
     parser.add_argument(
         "--suggested-target-surface",
         default="work_layer",
-        choices=("self", "self_library", "civ_mem", "skills", "evidence", "work_layer"),
+        choices=("self", "self_library", "civ_mem", "skills", "archive/placeholders/evidence", "work_layer"),
         help="Suggested target surface for candidate import packages",
     )
     parser.add_argument("--claim", default="", help="Optional candidate-import claim")
@@ -225,7 +225,7 @@ def main() -> int:
     )
     parser.add_argument(
         "--target-surface",
-        choices=("self", "self_library", "civ_mem", "skills", "evidence", "work_layer"),
+        choices=("self", "self_library", "civ_mem", "skills", "archive/placeholders/evidence", "work_layer"),
         default="self",
     )
     parser.add_argument("--materiality", choices=("low", "medium", "high", "critical"), default="medium")
@@ -235,7 +235,7 @@ def main() -> int:
     parser.add_argument("--proposed-state-ref", default="REPLACE_WITH_PROPOSED_STATE_REF")
     parser.add_argument(
         "--proposal-class",
-        choices=("identity", "library", "skills", "evidence", "policy", "work_politics"),
+        choices=("identity", "library", "skills", "archive/placeholders/evidence", "policy", "work_politics"),
         default=None,
     )
     parser.add_argument("--notes", default="", help="Optional change-proposal notes")

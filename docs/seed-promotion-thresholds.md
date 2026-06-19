@@ -12,7 +12,7 @@ Promotion thresholds define when a seed claim has earned enough evidence to beco
 
 ## Configuration
 
-Rules live in `config/seed-promotion-rules.json`. Operators may tighten thresholds; loosening below defaults should be documented.
+Rules live in `platform/config/seed-promotion-rules.json`. Operators may tighten thresholds; loosening below defaults should be documented.
 
 ---
 

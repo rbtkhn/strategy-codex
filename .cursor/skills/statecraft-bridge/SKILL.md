@@ -47,11 +47,11 @@ The bridge is being misused when it is asked to:
 
 Open sources in this order unless the request is already narrower:
 
-1. `statecraft/bridges/README.md`
+1. `statecraft/research/bridges/README.md`
 2. the relevant adapter:
-   - `statecraft/bridges/marandi-civ-state-retrieval-adapter.md`
-   - `statecraft/bridges/parsi-civ-state-retrieval-adapter.md`
-3. `statecraft/bridges/worked-examples.md` when the object is mixed, unfamiliar, or disputed
+   - `statecraft/research/bridges/marandi-civ-state-retrieval-adapter.md`
+   - `statecraft/research/bridges/parsi-civ-state-retrieval-adapter.md`
+3. `statecraft/research/bridges/worked-examples.md` when the object is mixed, unfamiliar, or disputed
 4. the narrowest relevant `civ-state` object
 5. the named Iran-lane follow-on surfaces
 
@@ -151,7 +151,7 @@ If repeated bridge usage exposes a durable retrieval pattern, confusion class, o
 
 Do not directly rewrite:
 
-- `statecraft/bridges/`
+- `statecraft/research/bridges/`
 - `statecraft/iran/helix.md`
 - `statecraft/iran/civilization/`
 - `statecraft/iran/transactions/`

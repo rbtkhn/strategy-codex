@@ -17,13 +17,13 @@ This directory stores **non-canonical** runtime observations for Grace-Mar work 
 ## Non-goals
 
 - This is **not** a canonical Record surface (not SELF, SELF-LIBRARY, SKILLS, or EVIDENCE).
-- This does **not** update `self.md`, `self-archive.md`, `self-skills.md`, or `bot/prompt.py`.
+- This does **not** update `self.md`, `self-archive.md`, `self-skills.md`, or `archive/grace-mar-instance/bot/prompt.py`.
 - This does **not** auto-stage changes into `recursion-gate.md`.
 - This must **not** write instruction files (e.g. `CLAUDE.md`) outside this tree.
 
 ## Storage
 
-- `index.jsonl` — append-only ledger; **one JSON object per line**, validated against `schema-registry/runtime-observation.v1.json`. **Gitignored** by default (operator-local); created on first log.
+- `index.jsonl` — append-only ledger; **one JSON object per line**, validated against `schemas/registry/runtime-observation.v1.json`. **Gitignored** by default (operator-local); created on first log.
 - Log entries with: `python scripts/runtime/log_observation.py --help`
 - Tests may set **`GRACE_MAR_RUNTIME_LEDGER_ROOT`** so the ledger path is isolated; schema still loads from the repo.
 

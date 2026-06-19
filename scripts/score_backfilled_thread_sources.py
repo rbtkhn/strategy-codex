@@ -248,7 +248,7 @@ def render_month_refined(
         if arc_raw.strip():
             lines.append(arc_raw.rstrip())
             lines.append("")
-    lines.append("#### Dated evidence")
+    lines.append("#### Dated archive/placeholders/evidence")
     lines.append("")
     lines.append(
         f"_Strength mix:_ high={counts.get('high', 0)}, "

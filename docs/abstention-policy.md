@@ -1,6 +1,6 @@
 # Abstention and fabricated-history policy (runtime and pre-gate)
 
-This document is **normative** for Grace-Mar’s **uncertainty envelope** ([`schema-registry/uncertainty-envelope.v1.json`](../schema-registry/uncertainty-envelope.v1.json)) and the scripts under [`scripts/runtime/`](../scripts/runtime/) that derive it. It **does not** change companion merge authority over the Record ([`AGENTS.md`](../AGENTS.md)).
+This document is **normative** for Grace-Mar’s **uncertainty envelope** ([`schemas/registry/uncertainty-envelope.v1.json`](../schemas/registry/uncertainty-envelope.v1.json)) and the scripts under [`scripts/runtime/`](../scripts/runtime/) that derive it. It **does not** change companion merge authority over the Record ([`AGENTS.md`](../AGENTS.md)).
 
 ## Principles
 
@@ -10,7 +10,7 @@ This document is **normative** for Grace-Mar’s **uncertainty envelope** ([`sch
 
 3. **Contradicted material** must not be promoted to the Record **without explicit review**, even when phrasing sounds confident.
 
-4. **Candidate staging** may be **downgraded or blocked** when the envelope says so; any **block** from tooling is **advisory** unless the operator enables a strict hook. **Companion approval** remains the only path to merge into `self.md` / EVIDENCE / `bot/prompt.py`.
+4. **Candidate staging** may be **downgraded or blocked** when the envelope says so; any **block** from tooling is **advisory** unless the operator enables a strict hook. **Companion approval** remains the only path to merge into `self.md` / EVIDENCE / `archive/grace-mar-instance/bot/prompt.py`.
 
 5. **Fabricated-history risk** is **screening language**, not an accusation of malice. It flags patterns where text looks like **durable biographical or historical narrative** without evidence references—especially when combined with **record mutation** intent.
 
@@ -22,7 +22,7 @@ This document is **normative** for Grace-Mar’s **uncertainty envelope** ([`sch
 
 ## Distinction from seed-phase confidence
 
-- **[`schema-registry/seed-confidence-map.v1.json`](../schema-registry/seed-confidence-map.v1.json)** applies to **seed-phase** / survey-style maps. **Do not** conflate those numeric bands with **runtime `evidence_state`** or **`fabricated_history_risk`**.
+- **[`schemas/registry/seed-confidence-map.v1.json`](../schemas/registry/seed-confidence-map.v1.json)** applies to **seed-phase** / survey-style maps. **Do not** conflate those numeric bands with **runtime `evidence_state`** or **`fabricated_history_risk`**.
 
 ## Envelope fields (summary)
 
@@ -32,7 +32,7 @@ This document is **normative** for Grace-Mar’s **uncertainty envelope** ([`sch
 | `fabricated_history_risk` | `low` \| `medium` \| `high` (orthogonal to evidence_state) |
 | `promotion_recommendation` | `allow` \| `allow_with_review` \| `hold` \| `block` |
 
-**Derivation:** Values are computed **only** from [`schema-registry/runtime-observation.v1.json`](../schema-registry/runtime-observation.v1.json) fields on selected observations (and optional synthetic precheck text)—see [`scripts/runtime/uncertainty_envelope.py`](../scripts/runtime/uncertainty_envelope.py). There is **one pipeline**; scores are not hand-edited in parallel.
+**Derivation:** Values are computed **only** from [`schemas/registry/runtime-observation.v1.json`](../schemas/registry/runtime-observation.v1.json) fields on selected observations (and optional synthetic precheck text)—see [`scripts/runtime/uncertainty_envelope.py`](../scripts/runtime/uncertainty_envelope.py). There is **one pipeline**; scores are not hand-edited in parallel.
 
 ## First-pass promotion rules
 
@@ -47,7 +47,7 @@ This document is **normative** for Grace-Mar’s **uncertainty envelope** ([`sch
 
 - [`scripts/runtime/precheck_gate_staging.py`](../scripts/runtime/precheck_gate_staging.py) prints the envelope and **stderr** guidance when `block` is recommended.
 - **Default:** exit **0** (advisory). **`--strict`** exits **1** on `block` for CI or local gates; **`--force-override`** exits **0** when the operator acknowledges override.
-- [`integrations/openclaw_stage.py`](../integrations/openclaw_stage.py) may append an **ABSTENTION_PRECHECK** line when `--precheck` is set; staging **still proceeds** unless the operator configures otherwise.
+- [`platform/integrations/openclaw_stage.py`](../platform/integrations/openclaw_stage.py) may append an **ABSTENTION_PRECHECK** line when `--precheck` is set; staging **still proceeds** unless the operator configures otherwise.
 
 ## What this policy does *not* do
 

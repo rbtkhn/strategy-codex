@@ -5,7 +5,7 @@ This document complements [workflow-observability.md](workflow-observability.md)
 ## Role
 
 - Describes **how to interpret** token and retrieval-miss metrics emitted by batch scripts.
-- **Does not** set policy or override context budgets in `config/context_budgets/`.
+- **Does not** set policy or override context budgets in `platform/config/context_budgets/`.
 
 ## Honest labeling
 
@@ -22,7 +22,7 @@ When `partialMetrics` or `inferredPartial` is true, treat numbers as **direction
 python3 scripts/build_context_efficiency_report.py --repo-root .
 ```
 
-Output: `artifacts/workflow-observability/context-efficiency-report.json` (+ `.md`).
+Output: `runtime/artifacts/workflow-observability/context-efficiency-report.json` (+ `.md`).
 
 ## Governance
 

@@ -132,4 +132,4 @@ Task-shape reports also carry normalized receipt fields so they can be read alon
 
 These fields do not change classification behavior. They make the report legible as an **inspection** surface with no Record authority and no direct gate mutation effect.
 
-Configuration (human-editable): [`config/work_strategy_task_shapes.yaml`](../../../config/work_strategy_task_shapes.yaml). Classifier CLI: [`scripts/work_strategy/classify_task_shape.py`](../../../scripts/work_strategy/classify_task_shape.py). Report schema: [`schemas/work_strategy_task_shape_report.schema.json`](../../../schemas/work_strategy_task_shape_report.schema.json).
+Configuration (human-editable): [`platform/config/work_strategy_task_shapes.yaml`](../../../platform/config/work_strategy_task_shapes.yaml). Classifier CLI: [`scripts/work_strategy/classify_task_shape.py`](../../../scripts/work_strategy/classify_task_shape.py). Report schema: [`schemas/work_strategy_task_shape_report.schema.json`](../../../schemas/work_strategy_task_shape_report.schema.json).

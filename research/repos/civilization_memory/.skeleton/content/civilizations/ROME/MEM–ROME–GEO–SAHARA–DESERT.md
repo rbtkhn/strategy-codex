@@ -18,7 +18,7 @@ Governed by: CIV–MEM–CORE v2.2+, CIV–MEM–TEMPLATE v2.8 (GEO–MEM)
 ────────────────────────────────────────────────────────────
 GEO–MEM COGNITIVE DECLARATION
 ────────────────────────────────────────────────────────────
-This GEO–MEM expresses MEARSHEIMER STRATEGIC COGNITION. Proportional blend: 2/3 Mearsheimer (terrain logic) + 1/3 Mercouris (ARC evidence). The Sahara is analyzed as **absolute stopping power**: a barrier Rome never crosses, governing by exclusion at the desert edge.
+This GEO–MEM expresses MEARSHEIMER STRATEGIC COGNITION. Proportional blend: 2/3 Mearsheimer (terrain logic) + 1/3 Mercouris (ARC archive/placeholders/evidence). The Sahara is analyzed as **absolute stopping power**: a barrier Rome never crosses, governing by exclusion at the desert edge.
 
 ────────────────────────────────────────────────────────────
 SKELETON — CONTENT CLEARED FOR CORPUS-SWAP

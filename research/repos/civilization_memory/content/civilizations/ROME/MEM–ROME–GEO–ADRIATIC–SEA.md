@@ -136,7 +136,7 @@ NORTH-SOUTH AXIS:
 
 EAST-WEST CROSSINGS:
 • Brundisium → Dyrrachium (main crossing)
-• Italy → Illyricum (rapid deployment)
+• Italy → Illyricum (rapid platform/deployment)
 • Ancona → Dalmatian coast (secondary route)
 
 CHOKEPOINTS:

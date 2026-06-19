@@ -31,7 +31,7 @@
 - **Chokepoint significance** (RLL–0024); **projection corridors**; **outlet control** (RLL–0032)  
 - **Incentive structure** explicit: what does the balance of power tell states to do?  
 - **Direct thesis** ("The fact is that..."); structural logic; geographic constraints  
-- **GEO–MEM blend:** ~2/3 strategic analysis, ~1/3 ARC (or civilizational evidence)
+- **GEO–MEM blend:** ~2/3 strategic analysis, ~1/3 ARC (or civilizational archive/placeholders/evidence)
 
 ---
 

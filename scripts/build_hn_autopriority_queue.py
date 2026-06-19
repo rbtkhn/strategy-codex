@@ -181,12 +181,12 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--architecture", type=Path, default=ARCH_PATH)
     ap.add_argument("--catalog", type=Path, default=CATALOG_PATH)
-    ap.add_argument("--config", type=Path, default=CONFIG_PATH)
+    ap.add_argument("--platform/config", type=Path, default=CONFIG_PATH)
     ap.add_argument("--out", type=Path, default=OUT_PATH)
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args()
 
-    for p in (args.architecture, args.catalog, args.config):
+    for p in (args.architecture, args.catalog, args.platform/config):
         if not p.is_file():
             print(f"ERROR: missing {p}", file=sys.stderr)
             return 1
@@ -194,7 +194,7 @@ def main() -> int:
     try:
         arch = load_yaml(args.architecture)
         catalog = load_yaml(args.catalog)
-        config = load_yaml(args.config)
+        config = load_yaml(args.platform/config)
     except RuntimeError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2

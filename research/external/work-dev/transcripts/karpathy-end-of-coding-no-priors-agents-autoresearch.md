@@ -1,6 +1,6 @@
 # The End of Coding: Andrej Karpathy on Agents, AutoResearch, and the Loopy Era of AI
 
-**Kind:** Adjacent corpus (not Jiang Xueqin). Useful for **method contrast** (how elite practitioners frame agents, claws, auto-research) or book/site methodology notes.
+**Kind:** Adjacent corpus (not Jiang Xueqin). Useful for **method contrast** (how elite practitioners frame agents, claws, research/auto-research) or book/site methodology notes.
 
 **work-dev ingestion:** [research-no-priors-karpathy-end-of-coding.md](../../../../docs/skill-work/work-dev/research-no-priors-karpathy-end-of-coding.md) — Grace-Mar ⟷ OpenClaw alignment table + guardrails (canonical operator lens).  
 **Show:** No Priors (`no priors` / “No Briars” in ASR)  
@@ -37,7 +37,7 @@
 
 ## Tags
 
-`agents` · `coding-agents` · `openclaw` · `claw` · `auto-research` · `nanogpt` · `program-md` · `token-throughput` · `rl-verifiable-vs-soft` · `jaggedness` · `model-speciation` · `open-source-lag` · `jevons-paradox` · `frontier-labs` · `robotics` · `micro-gpt` · `education-via-agents`
+`agents` · `coding-agents` · `openclaw` · `claw` · `research/auto-research` · `nanogpt` · `program-md` · `token-throughput` · `rl-verifiable-vs-soft` · `jaggedness` · `model-speciation` · `open-source-lag` · `jevons-paradox` · `frontier-labs` · `robotics` · `micro-gpt` · `education-via-agents`
 
 ---
 

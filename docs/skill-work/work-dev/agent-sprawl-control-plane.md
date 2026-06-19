@@ -217,7 +217,7 @@ and checked with:
 python3 scripts/work_dev/render_agent_surfaces_table.py --check
 
 The generated table lives at:
-artifacts/work-dev/agent-surfaces/agent-surfaces-table.md
+runtime/artifacts/work-dev/agent-surfaces/agent-surfaces-table.md
 
 ## Phase 1 posture
 

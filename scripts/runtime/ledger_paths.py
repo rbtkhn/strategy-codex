@@ -1,3 +1,4 @@
+from repo_io import SCHEMA_REGISTRY_DIR
 """Shared paths for runtime observation tooling."""
 
 from __future__ import annotations
@@ -23,7 +24,7 @@ def observations_jsonl() -> Path:
 
 
 def runtime_observation_schema() -> Path:
-    return REPO_ROOT / "schema-registry" / "runtime-observation.v1.json"
+    return SCHEMA_REGISTRY_DIR / "runtime-observation.v1.json"
 
 
 def retrieval_misses_dir() -> Path:
@@ -35,7 +36,7 @@ def retrieval_misses_jsonl() -> Path:
 
 
 def retrieval_miss_schema() -> Path:
-    return REPO_ROOT / "schema-registry" / "retrieval-miss.v1.json"
+    return SCHEMA_REGISTRY_DIR / "retrieval-miss.v1.json"
 
 
 def chunks_dir_root() -> Path:

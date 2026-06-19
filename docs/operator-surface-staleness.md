@@ -2,11 +2,11 @@
 
 ## 1. Purpose
 
-Grace-Mar uses **derived** operator-facing surfaces (under `artifacts/`, in `docs/workflows/`, and similar) to make **review, navigation, workflow observation, and lane work** easier to scan. Many of these outputs are **generated or semi-generated**. Each **major** surface should make its **freshness expectations** easy to reason about: what built it, what source inputs it reflects, whether it is plausibly **current**, and how to **rebuild** or re-check it.
+Grace-Mar uses **derived** operator-facing surfaces (under `runtime/artifacts/`, in `docs/workflows/`, and similar) to make **review, navigation, workflow observation, and lane work** easier to scan. Many of these outputs are **generated or semi-generated**. Each **major** surface should make its **freshness expectations** easy to reason about: what built it, what source inputs it reflects, whether it is plausibly **current**, and how to **rebuild** or re-check it.
 
 **Staleness** is about **operator legibility**, not a second authority layer. Staleness notes do **not** change who may merge, gate, or write the Record. See [Â§6 Anti-authority rule](#6-anti-authority-rule).
 
-**Related:** [operator surface registry](operator-surface-registry.md) (taxonomy), [runtime vs Record](runtime-vs-record.md) (canonical vs derived), [artifacts README](../artifacts/README.md) (producer table).
+**Related:** [operator surface registry](operator-surface-registry.md) (taxonomy), [runtime vs Record](runtime-vs-record.md) (canonical vs derived), [artifacts README](../runtime/artifacts/README.md) (producer table).
 
 **Constraint rule:** Read alongside [GRACEFUL-CONSTRAINT-DOCTRINE](graceful-constraint-doctrine.md). Under degraded conditions, operator-facing surfaces should degrade visibly and route back to authority rather than preserving a polished tone that outruns what is currently known.
 
@@ -46,7 +46,7 @@ Use a **blockquote** so the note is visually distinct. Full template (shorten fo
 
 > **Staleness note:** Derived, non-canonical. Confirm against declared **source inputs** and **rebuild** if you need a current view.
 
-**JSON / machine feeds:** Do not rely on `//` comments in JSON. Put staleness in **sibling** README or the **enclosing** doc (e.g. [operator surface registry](operator-surface-registry.md) row, [artifacts README](../artifacts/README.md) policy), or in **metadata** fields the schema allows.
+**JSON / machine feeds:** Do not rely on `//` comments in JSON. Put staleness in **sibling** README or the **enclosing** doc (e.g. [operator surface registry](operator-surface-registry.md) row, [artifacts README](../runtime/artifacts/README.md) policy), or in **metadata** fields the schema allows.
 
 **Script-generated files:** If a file is normally **overwritten** by a script, **do not** hand-edit a staleness block into it for longâ€”prefer the convention in this document plus the registry, or (future) extend the **generator** to emit a standard line. Hand edits will be clobbered on the next regen.
 
@@ -79,7 +79,7 @@ These levels should be read through four broader failure modes:
 
 ### Dashboards
 
-- Should **declare** source inputs and regen path (script name, link to [artifacts README](../artifacts/README.md), or sidecar). Often **`stale_possible`** after any edit to a listed source. Confirm against **source** (e.g. `recursion-gate.md` for gate dashboards) for decisions that must match the live file.
+- Should **declare** source inputs and regen path (script name, link to [artifacts README](../runtime/artifacts/README.md), or sidecar). Often **`stale_possible`** after any edit to a listed source. Confirm against **source** (e.g. `recursion-gate.md` for gate dashboards) for decisions that must match the live file.
 
 ### Reports
 
@@ -129,7 +129,7 @@ before it ever prefers a smooth but weakly grounded operator experience.
 
 ## 7. Minimal adoption policy (this repo)
 
-- Prefer **convention in this file** + **pointers** from the [operator surface registry](operator-surface-registry.md) and [artifacts README](../artifacts/README.md) over **adding long blockquotes to every** generated `artifacts/*.md` (many are **overwritten** by scripts).
+- Prefer **convention in this file** + **pointers** from the [operator surface registry](operator-surface-registry.md) and [artifacts README](../runtime/artifacts/README.md) over **adding long blockquotes to every** generated `runtime/artifacts/*.md` (many are **overwritten** by scripts).
 - Add hand-written staleness text only to **durable, hand-edited** docs (e.g. a lane README) where a short line **helps** and will **not** be clobbered.
 - **Do not** mechanically edit every generated artifact in one PR; focus on high-signal **documentation** first.
 

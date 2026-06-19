@@ -103,7 +103,7 @@ When this lane is being used under `singularity-academy`, do not flatten busines
 | File | Purpose |
 |------|---------|
 | `business-ledger.jsonl` | Append-only transaction log |
-| `schema-registry/business-transaction.v1.json` | Transaction schema (instance-specific) |
+| `schemas/registry/business-transaction.v1.json` | Transaction schema (instance-specific) |
 
 ---
 

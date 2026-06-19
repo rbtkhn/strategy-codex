@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Build a typed Conductor delegation brief and receipt skeleton.
 
@@ -16,7 +17,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-REGISTRY_PATH = REPO_ROOT / "config" / "conductor-delegation-types.json"
+REGISTRY_PATH = REPO_ROOT / "platform/config" / "conductor-delegation-types.json"
 TEMPLATE_PATH = (
     REPO_ROOT
     / "docs"
@@ -26,7 +27,7 @@ TEMPLATE_PATH = (
     / "conductor-delegation"
     / "base-brief.md"
 )
-DEFAULT_OUTPUT_DIR = REPO_ROOT / "artifacts" / "work-dev" / "conductor-delegations"
+DEFAULT_OUTPUT_DIR = ARTIFACTS_DIR / "work-dev" / "conductor-delegations"
 CONDUCTORS = ("toscanini", "furtwangler", "karajan", "kleiber", "bernstein")
 
 

@@ -67,13 +67,13 @@
 
 **Export identity:**
 ```bash
-python integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event
+python platform/integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event
 ```
 
 **Handback (stage only):**
 ```bash
-python integrations/openclaw_stage.py --user grace-mar --text "we explored X in OpenClaw"
-python integrations/openclaw_stage.py --user grace-mar --artifact ./outputs/session-note.md
+python platform/integrations/openclaw_stage.py --user grace-mar --text "we explored X in OpenClaw"
+python platform/integrations/openclaw_stage.py --user grace-mar --artifact ./outputs/session-note.md
 ```
 
 ---

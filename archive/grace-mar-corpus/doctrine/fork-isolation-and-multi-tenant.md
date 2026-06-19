@@ -24,7 +24,7 @@ Each fork has a **stable identifier** (e.g. `grace-mar`, `pilot-002`). All fork-
 ├── self-archive.md
 ├── self-memory.md
 ├── pipeline-events.jsonl
-├── artifacts/
+├── runtime/artifacts/
 ├── fork-config.json   # optional: quotas, retention, overrides (see §7)
 └── ...
 ```
@@ -51,7 +51,7 @@ Quotas are defined per fork so that one busy or abusive fork cannot exhaust shar
 
 | Quota | Scope | Default (pilot) | Enforcement |
 |-------|--------|------------------|-------------|
-| **Artifact storage** | Total size under `artifacts/` | None (or e.g. 500 MB) | Reject uploads when over; optional background check |
+| **Artifact storage** | Total size under `runtime/artifacts/` | None (or e.g. 500 MB) | Reject uploads when over; optional background check |
 | **Pipeline events** | Lines in `pipeline-events.jsonl` | None (or e.g. 50k) | Rotate or trim oldest when over |
 | **Pending candidates** | Count in `recursion-gate.md` | None (or e.g. 200) | Warn operator; optional hard cap on staging |
 | **Session transcript** | Size or lines of `session-transcript.md` | None | Rotate or trim when over |
@@ -89,7 +89,7 @@ Retention is expressed in **fork config** (e.g. `memory_ttl_days`, `archive_rota
 ## 6. Deployment
 
 - **Single process, single fork (pilot):** One server process with `GRACE_MAR_USER_ID=grace-mar`. All requests are for that fork. No routing; paths and permissions are as today.
-- **Single process, multi-fork:** One server (e.g. `apps/miniapp_server.py`, `apps/gate-review-app.py`) with tenant resolution: fork ID from URL path (e.g. `/operator/grace-mar/console`), subdomain (e.g. `grace-mar.grace-mar.com`), or header (e.g. `X-Fork-Id`). Each request resolves `profile_dir(fork_id)` and uses that fork’s config and permissions. No cross-fork access.
+- **Single process, multi-fork:** One server (e.g. `platform/apps/miniapp_server.py`, `platform/apps/gate-review-app.py`) with tenant resolution: fork ID from URL path (e.g. `/operator/grace-mar/console`), subdomain (e.g. `grace-mar.grace-mar.com`), or header (e.g. `X-Fork-Id`). Each request resolves `profile_dir(fork_id)` and uses that fork’s config and permissions. No cross-fork access.
 - **One process per fork:** Each fork runs in its own process (or container) with its own `GRACE_MAR_USER_ID`. Simple isolation; operational cost scales with fork count. Good for strict isolation or when quotas/retention are enforced at the process boundary.
 
 The filesystem and permissions model support all three; deployment chooses one.

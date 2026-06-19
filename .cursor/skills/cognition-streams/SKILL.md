@@ -11,7 +11,7 @@ tags:
 - youtube
 - daily
 - legacy-alias
-portable_source: skills-portable/cognition-streams/SKILL.md
+portable_source: skills/cognition-streams/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Cognition streams
@@ -35,7 +35,7 @@ Do not maintain a separate ingest doctrine here. When this alias triggers, say t
 Legacy alias shim for this repository.
 
 - Canonical skill: [.cursor/skills/check-streams/SKILL.md](../check-streams/SKILL.md)
-- Canonical portable source: [skills-portable/check-streams/SKILL.md](../../../skills-portable/check-streams/SKILL.md)
+- Canonical portable source: [skills/check-streams/SKILL.md](../../../skills/check-streams/SKILL.md)
 - Legacy operator phrase: `cognition streams`
 - Canonical operator phrase: `check streams`
 

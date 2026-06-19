@@ -17,18 +17,18 @@ This section is **not** part of the bridge object schemas. It orients operators 
 | Repo | Primary role |
 |------|----------------|
 | **[OB1](https://github.com/NateBJones-Projects/OB1)** (upstream) | Public **memory substrate** â€” Supabase + pgvector + MCP, extensions/recipes/skills/dashboards as a **contribution ecosystem**. Not a cognitive-fork Record system. |
-| **[Cici](https://github.com/Xavier-x01/Cici)** (external instance) | **Personal OB1 instance layer** â€” config/docs in git; durable captured memory in private Supabase. Phase 1 adds **git-first governed state** (evidence / prepared context / `<instance>/governed-state`, proposals). |
+| **[Cici](https://github.com/Xavier-x01/Cici)** (external instance) | **Personal OB1 instance layer** â€” platform/config/docs in git; durable captured memory in private Supabase. Phase 1 adds **git-first governed state** (evidence / prepared context / `<instance>/governed-state`, proposals). |
 | **grace-mar** (this repo) | **Governed cognitive-architecture instance** â€” four Record surfaces (SELF, SELF-LIBRARY, SKILLS, EVIDENCE), RECURSION-GATE, Voice, work territories; [state model](../../state-model.md) three layers **in doctrine**, not necessarily the same paths as Cici. |
 
 **Where â€œgoverned truthâ€ is supposed to live**
 
 | Repo | Canonical durable truth | Operational / derivative |
 |------|-------------------------|---------------------------|
-| **OB1** (platform) | Userâ€™s **thoughts** in **their** Postgres (typical deployment); repo holds **contributions**, not personal memory. | Edge functions, dashboards, recipes â€” deployment-specific. |
+| **OB1** (platform) | Userâ€™s **thoughts** in **their** Postgres (typical platform/deployment); repo holds **contributions**, not personal memory. | Edge functions, dashboards, recipes â€” deployment-specific. |
 | **Cici** | **Git-managed governed state** per [Cici doctrine](https://github.com/Xavier-x01/Cici/blob/main/docs/governed-state-doctrine.md) (if git and Supabase diverge, **governed files win**). | Supabase as **operational bridge** (search, MCP, etc.). |
 | **grace-mar** | **Record** under `` (and gated merge path) â€” **companion-self** authority model. | MEMORY, WORK drafts, exports; OB1 downstream of export is **not** canonical for identity. |
 
-**Structural caution:** Ciciâ€™s Phase 1 **folder names** resemble grace-marâ€™s **state-model vocabulary** (evidence, prepared context, governed state). In grace-mar, **root** [`evidence/`](../../../evidence/) and [`prepared-context/`](../../../prepared-context/) are **reserved placeholders** only â€” see [state model Â§ Repo layout](../../state-model.md#repo-layout-grace-mar). Territory-scoped evidence (e.g. work-cici) lives under `docs/skill-work/.../evidence/`. **Do not** assume Cici-style routing exists at the repo root without reading those docs.
+**Structural caution:** Ciciâ€™s Phase 1 **folder names** resemble grace-marâ€™s **state-model vocabulary** (evidence, prepared context, governed state). In grace-mar, **root** [`archive/placeholders/evidence/`](../../../archive/placeholders/evidence/) and [`runtime/prepared-context/`](../../../runtime/prepared-context/) are **reserved placeholders** only â€” see [state model Â§ Repo layout](../../state-model.md#repo-layout-grace-mar). Territory-scoped evidence (e.g. work-cici) lives under `docs/skill-work/.../archive/placeholders/evidence/`. **Do not** assume Cici-style routing exists at the repo root without reading those docs.
 
 ---
 
@@ -43,14 +43,14 @@ Each exported chunk produces one **export object** â€” a content file plus 
 | `source_system` | string | yes | Always `"companion-self"`. Identifies the origin system. |
 | `user_id` | string | yes | The companion-self user directory name (e.g. `"grace-mar"`). |
 | `source_path` | string | yes | Repo-relative path of the source file (e.g. `"self.md"`). |
-| `surface_class` | string | yes | Semantic classification of the source surface. One of: `identity`, `evidence`, `skills`, `memory`, `work`, `archive`. See surface class table below. |
+| `surface_class` | string | yes | Semantic classification of the source surface. One of: `identity`, `archive/placeholders/evidence`, `skills`, `memory`, `work`, `archive`. See surface class table below. |
 | `content_type` | string | yes | MIME-like type of the exported content. Typically `"text/markdown"` or `"application/json"`. |
 | `git_commit` | string | yes | The git commit SHA at export time. Ties the export to an auditable repo state. |
 | `exported_at` | string (ISO 8601) | yes | UTC timestamp of the export run. |
 | `stable_id` | string | yes | Deterministic identifier derived from `source_path` + `surface_class`. Remains constant across exports of the same source. Used for dedup and update detection in OB1. |
 | `fingerprint_sha256` | string | yes | SHA-256 hash of the exported content. Changes when content changes; stable when content is unchanged. Enables dedup and change detection. |
 | `chunk_strategy` | string | yes | How the source was chunked for export. One of: `full_file`, `per_entry`, `per_section`. Determines granularity of OB1 thoughts. |
-| `trust_tier` | string | yes | Trust classification of the exported content. One of: `A` (raw evidence), `B` (structured summary), `C` (synthesized output). See [trust-tiers.md](trust-tiers.md). |
+| `trust_tier` | string | yes | Trust classification of the exported content. One of: `A` (raw archive/placeholders/evidence), `B` (structured summary), `C` (synthesized output). See [trust-tiers.md](trust-tiers.md). |
 | `transform_level` | string | yes | Degree of transformation from source. One of: `verbatim` (exact copy), `extracted` (subset of source), `reformatted` (structure changed, content preserved). |
 
 ### Surface class table
@@ -58,11 +58,11 @@ Each exported chunk produces one **export object** â€” a content file plus 
 | `surface_class` | Source paths | Trust tier | Notes |
 |-----------------|-------------|------------|-------|
 | `identity` | `self.md` (Â§I-IX) | A | Core Record â€” companion-approved identity |
-| `evidence` | `self-archive.md` (EVIDENCE) | A | Immutable dated entries (ACT, READ, WRITE, CREATE, MEDIA) |
+| `archive/placeholders/evidence` | `self-archive.md` (EVIDENCE) | A | Immutable dated entries (ACT, READ, WRITE, CREATE, MEDIA) |
 | `skills` | `self-skills.md` | A | Capability claims â€” upgrade only, never downgrade |
 | `memory` | `self-memory.md` | B | Ephemeral continuity, not durable Record; excluded by default |
 | `work` | `work-*.md`, `docs/skill-work/` | C | Operator work product; mixed trust; excluded by default |
-| `archive` | Artifacts under `artifacts/` | A | Companion-produced artifacts (drawings, writing samples) |
+| `archive` | Artifacts under `runtime/artifacts/` | A | Companion-produced artifacts (drawings, writing samples) |
 
 ### Manifest schema
 
@@ -95,7 +95,7 @@ Each OB1 thought that passes grounding filters produces one **proposal object** 
 | `source_metadata` | object | yes | Preserved OB1 metadata: `{ created_at, updated_at, tags, embedding_model, ... }`. Structure mirrors OB1's thought schema. |
 | `captured_at` | string (ISO 8601) | yes | When the thought was originally created in OB1. |
 | `imported_at` | string (ISO 8601) | yes | When this proposal was generated by the import script. |
-| `target_surface` | string | yes | Recommended companion-self destination. One of: `IX-A` (knowledge), `IX-B` (curiosity), `IX-C` (personality), `evidence` (ACT/READ/WRITE/CREATE), `memory` (self-memory, non-Record), `reject`. |
+| `target_surface` | string | yes | Recommended companion-self destination. One of: `IX-A` (knowledge), `IX-B` (curiosity), `IX-C` (personality), `archive/placeholders/evidence` (ACT/READ/WRITE/CREATE), `memory` (self-memory, non-Record), `reject`. |
 | `proposal_type` | string | yes | Classification of what the thought contributes. One of: `knowledge_claim`, `curiosity_signal`, `personality_observation`, `activity_record`, `memory_pointer`, `unclassified`. |
 | `summary` | string | yes | One-line human-readable summary of the thought's content. |
 | `full_content` | string | yes | Complete thought text from OB1. Preserved verbatim for review. |
@@ -112,7 +112,7 @@ Each OB1 thought that passes grounding filters produces one **proposal object** 
 | Thought contains a factual claim about the companion's knowledge or learning | `IX-A` | Knowledge dimension |
 | Thought describes a topic the companion showed interest in | `IX-B` | Curiosity dimension |
 | Thought describes a behavioral pattern, preference, or personality trait | `IX-C` | Personality dimension |
-| Thought records a specific activity with date and context | `evidence` | Activity log entry |
+| Thought records a specific activity with date and context | `archive/placeholders/evidence` | Activity log entry |
 | Thought is contextual/operational but not identity-bearing | `memory` | Ephemeral, non-Record |
 | Thought is speculative, ungrounded, or model-generated without companion input | `reject` | Does not meet Record threshold |
 

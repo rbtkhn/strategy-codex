@@ -1,8 +1,9 @@
+from repo_io import ARTIFACTS_DIR, PREPARED_CONTEXT_DIR
 #!/usr/bin/env python3
 """
-Emit artifacts/lane-dashboards/README.md — compose runtime observations + lane JSON artifacts.
+Emit runtime/artifacts/lane-dashboards/README.md — compose runtime observations + lane JSON artifacts.
 
-Optional: artifacts/work-lanes-dashboard.json from scripts/build_work_lanes_dashboard.py.
+Optional: runtime/artifacts/work-lanes-dashboard.json from scripts/build_work_lanes_dashboard.py.
 Does not mutate Record or runtime ledger.
 """
 
@@ -50,7 +51,7 @@ def _scan_handoffs_markdown(
     work_lanes_doc: dict | None,
 ) -> str:
     """Long-horizon checkpoints + handoff packets (runtime-only)."""
-    handoffs_root = root / "artifacts" / "handoffs"
+    handoffs_root = ARTIFACTS_DIR / "handoffs"
     ck_dir = handoffs_root / "checkpoints"
     lanes: set[str] = set(by_lane.keys())
     if work_lanes_doc and isinstance(work_lanes_doc.get("lanes"), dict):
@@ -177,7 +178,7 @@ def _scan_handoffs_markdown(
 
 
 def _scan_budget_builds(root: Path) -> str:
-    path = root / "prepared-context" / "last-budget-builds.json"
+    path = PREPARED_CONTEXT_DIR / "last-budget-builds.json"
     lines: list[str] = [
         "## Context efficiency (budgeted builds)\n\n",
         "Per-lane receipts from `build_budgeted_context.py`. Not Record truth — see "
@@ -241,7 +242,7 @@ def render_markdown(
     ]
     if work_lanes_doc:
         lines.append("## work-lanes-dashboard.json snapshot\n\n")
-        lines.append("From `artifacts/work-lanes-dashboard.json` (run `build_work_lanes_dashboard.py` first). \n\n")
+        lines.append("From `runtime/artifacts/work-lanes-dashboard.json` (run `build_work_lanes_dashboard.py` first). \n\n")
         lines.append("```json\n")
         lines.append(json.dumps(work_lanes_doc, indent=2)[:8000])
         if len(json.dumps(work_lanes_doc)) > 8000:
@@ -251,7 +252,7 @@ def render_markdown(
         lines.append(
             "## work-lanes-dashboard.json\n\n"
             "_Missing — run `python3 scripts/build_work_lanes_dashboard.py` to populate "
-            "`artifacts/work-lanes-dashboard.json`._\n\n"
+            "`runtime/artifacts/work-lanes-dashboard.json`._\n\n"
         )
 
     lines.append(
@@ -283,18 +284,18 @@ def render_markdown(
 
     lines.append(
         "## Active lane compression / context memos\n\n"
-        "_`artifacts/context/` is gitignored by default — regenerate with "
+        "_`runtime/artifacts/context/` is gitignored by default — regenerate with "
         "`scripts/compress_active_lane.py`. Listing skipped here._\n\n"
     )
     lines.append(
         "## Per-lane split (future)\n\n"
-        "Optional follow-up: `artifacts/lane-dashboards/work-strategy.md` from the same inputs.\n"
+        "Optional follow-up: `runtime/artifacts/lane-dashboards/work-strategy.md` from the same inputs.\n"
     )
     return "".join(lines)
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Build lane-dashboards README under artifacts/.")
+    ap = argparse.ArgumentParser(description="Build lane-dashboards README under runtime/artifacts/.")
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
     args = ap.parse_args()
     root = args.repo_root.resolve()
@@ -305,7 +306,7 @@ def main() -> int:
         lane = str(r.get("lane") or "unknown")
         by_lane[lane].append(r)
 
-    wl_path = root / "artifacts" / "work-lanes-dashboard.json"
+    wl_path = ARTIFACTS_DIR / "work-lanes-dashboard.json"
     work_lanes: dict | None = None
     if wl_path.is_file():
         try:
@@ -321,7 +322,7 @@ def main() -> int:
         ledger_path=ledger,
         root=root,
     )
-    out_dir = root / "artifacts" / "lane-dashboards"
+    out_dir = ARTIFACTS_DIR / "lane-dashboards"
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "README.md"
     out.write_text(md, encoding="utf-8")

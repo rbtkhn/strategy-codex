@@ -3,7 +3,7 @@
 Demonstrate personality contradiction detection (staging layer).
 
 Full governed workflow: docs/CONTRADICTION-ENGINE-SPEC.md (sidecars, UI, merge).
-This script shows what runs today: bot/conflict_check.py + conflict_rules.yaml.
+This script shows what runs today: archive/grace-mar-instance/bot/conflict_check.py + conflict_rules.yaml.
 
 Usage (from repo root):
   python3 scripts/demo_conflict_check.py
@@ -13,7 +13,7 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(REPO / "bot"))
+sys.path.insert(0, str(REPO / "archive/grace-mar-instance/bot"))
 
 from conflict_check import (  # noqa: E402
     check_conflicts,
@@ -63,7 +63,7 @@ suggested_entry: "Independent self-starter on long projects"
     print(f"   â†’ {len(safe)} conflict(s) (expected 0)\n")
 
     print("=" * 60)
-    print("Done. Staging path: bot/core.py uses this before recursion-gate append.")
+    print("Done. Staging path: archive/grace-mar-instance/bot/core.py uses this before recursion-gate append.")
     print("=" * 60)
 
 

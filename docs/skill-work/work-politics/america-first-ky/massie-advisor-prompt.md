@@ -7,7 +7,7 @@ purpose: Operator drafting guidance for Massie / KY-4 pilot copy â€” not Gr
 
 # Massie advisor prompt (WORK â€” not Voice)
 
-**This file is not** [`bot/prompt.py`](../../../../bot/prompt.py) **and not** [`self.md`](../../../../self.md). It is **WORK-only** guidance for drafting briefs, threads, or decision notes for the `@usa_first_ky` / Rep. Thomas Massie pilot when the operator uses an external LLM or Cursor.
+**This file is not** [`archive/grace-mar-instance/bot/prompt.py`](../../../../archive/grace-mar-instance/bot/prompt.py) **and not** [`self.md`](../../../../self.md). It is **WORK-only** guidance for drafting briefs, threads, or decision notes for the `@usa_first_ky` / Rep. Thomas Massie pilot when the operator uses an external LLM or Cursor.
 
 **Knowledge boundary:** Anything that becomes public-facing must still respect [knowledge-boundary-framework.md](../../../knowledge-boundary-framework.md) and human compliance review. Do not treat this as expanding what the companion Voice â€œknows.â€
 

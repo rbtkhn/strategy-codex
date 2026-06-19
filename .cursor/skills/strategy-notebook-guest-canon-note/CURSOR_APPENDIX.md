@@ -5,7 +5,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-
 | Existing stream-local speaker arcs | [codex/speakers/diesen/stream/](../../codex/speakers/diesen/stream/) |
 | Lattice speakers roster | [codex/speaker-lattice.md](../../codex/speaker-lattice.md) |
 | Thread handle roster | [codex/strategy-commentator-threads.md](../../codex/strategy-commentator-threads.md) |
-| Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 | Skill validator | [scripts/validate_skills.py](../../../scripts/validate_skills.py) |
 

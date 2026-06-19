@@ -31,7 +31,7 @@ CANONICAL_RECORD_PATHS = {
     "self-skills.md",
     "recursion-gate.md",
     "session-log.md",
-    "bot/prompt.py",
+    "archive/grace-mar-instance/bot/prompt.py",
 }
 
 
@@ -45,7 +45,7 @@ def test_budgeted_context_contains_boundary_disclaimer(tmp_path: Path) -> None:
     (obs_dir / "index.jsonl").write_text(
         seed.read_text(encoding="utf-8"), encoding="utf-8"
     )
-    out = tmp_path / "prepared-context" / "out.md"
+    out = tmp_path / "runtime/prepared-context" / "out.md"
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
     r = subprocess.run(
         [
@@ -56,7 +56,7 @@ def test_budgeted_context_contains_boundary_disclaimer(tmp_path: Path) -> None:
             "--mode", "compact",
             "-o", str(out),
             "--budgets-file",
-            str(REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"),
+            str(REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"),
         ],
         env=env, capture_output=True, text=True,
     )
@@ -103,16 +103,16 @@ def test_retrieval_excludes_canonical_record_paths(tmp_path: Path) -> None:
             )
 
 
-# â”€â”€ PR 3.3: active-lane compression output goes to artifacts/ â”€â”€â”€â”€â”€â”€â”€â”€
+# â”€â”€ PR 3.3: active-lane compression output goes to runtime/artifacts/ â”€â”€â”€â”€â”€â”€â”€â”€
 
 def test_compress_active_lane_writes_to_artifacts(tmp_path: Path) -> None:
-    """compress_active_lane.py default output must be under artifacts/."""
+    """compress_active_lane.py default output must be under runtime/artifacts/."""
     lane_dir = tmp_path / "docs" / "skill-work" / "work-strategy"
     lane_dir.mkdir(parents=True)
     (lane_dir / "README.md").write_text(
         "# work-strategy\n\n**Objective:** Test objective\n", encoding="utf-8"
     )
-    user_dir = tmp_path / "users" / "grace-mar"
+    user_dir = tmp_path / "platform/users" / "grace-mar"
     user_dir.mkdir(parents=True)
     (user_dir / "self-work.md").write_text("# self-work\n", encoding="utf-8")
 
@@ -126,7 +126,7 @@ def test_compress_active_lane_writes_to_artifacts(tmp_path: Path) -> None:
         capture_output=True, text=True,
     )
     assert r.returncode == 0, r.stderr
-    out_path = tmp_path / "artifacts" / "context" / "active-lane-work-strategy.md"
+    out_path = tmp_path / "runtime/artifacts" / "context" / "active-lane-work-strategy.md"
     assert out_path.exists(), f"expected output at {out_path}"
     for cp in CANONICAL_RECORD_PATHS:
         full = tmp_path / cp
@@ -146,7 +146,7 @@ def test_compress_active_lane_no_record_content(tmp_path: Path) -> None:
     (lane_dir / "README.md").write_text(
         "# work-strategy\n\n**Objective:** Test objective\n", encoding="utf-8"
     )
-    user_dir = tmp_path / "users" / "grace-mar"
+    user_dir = tmp_path / "platform/users" / "grace-mar"
     user_dir.mkdir(parents=True)
     secret_content = "UNIQUE_SECRET_SELF_MD_MARKER_XYZ789"
     (user_dir / "self.md").write_text(
@@ -164,7 +164,7 @@ def test_compress_active_lane_no_record_content(tmp_path: Path) -> None:
         capture_output=True, text=True,
     )
     assert r.returncode == 0, r.stderr
-    out_path = tmp_path / "artifacts" / "context" / "active-lane-work-strategy.md"
+    out_path = tmp_path / "runtime/artifacts" / "context" / "active-lane-work-strategy.md"
     if out_path.exists():
         text = out_path.read_text(encoding="utf-8")
         assert secret_content not in text, (
@@ -172,11 +172,11 @@ def test_compress_active_lane_no_record_content(tmp_path: Path) -> None:
         )
 
 
-# â”€â”€ PR 3.5: skill-card output stays under artifacts/ â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# â”€â”€ PR 3.5: skill-card output stays under runtime/artifacts/ â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def test_skill_cards_output_under_artifacts(tmp_path: Path) -> None:
-    """build_skill_cards writes only to artifacts/skill-cards, not Record."""
-    out_dir = tmp_path / "artifacts" / "skill-cards"
+    """build_skill_cards writes only to runtime/artifacts/skill-cards, not Record."""
+    out_dir = tmp_path / "runtime/artifacts" / "skill-cards"
     r = subprocess.run(
         [
             sys.executable,
@@ -199,14 +199,14 @@ def test_skill_cards_output_under_artifacts(tmp_path: Path) -> None:
 # â”€â”€ PR 3.6: receipt file is non-canonical â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def test_budget_receipt_not_canonical(tmp_path: Path) -> None:
-    """Budget receipt must write to prepared-context/, not a Record surface."""
+    """Budget receipt must write to runtime/prepared-context/, not a Record surface."""
     seed = REPO_ROOT / "tests" / "fixtures" / "observations-seed.jsonl"
     obs_dir = tmp_path / "runtime" / "observations"
     obs_dir.mkdir(parents=True)
     (obs_dir / "index.jsonl").write_text(
         seed.read_text(encoding="utf-8"), encoding="utf-8"
     )
-    out = tmp_path / "prepared-context" / "out.md"
+    out = tmp_path / "runtime/prepared-context" / "out.md"
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
     subprocess.run(
         [
@@ -217,15 +217,15 @@ def test_budget_receipt_not_canonical(tmp_path: Path) -> None:
             "--mode", "compact",
             "-o", str(out),
             "--budgets-file",
-            str(REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"),
+            str(REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"),
         ],
         env=env, capture_output=True, text=True,
     )
-    receipt = tmp_path / "prepared-context" / "last-budget-builds.json"
+    receipt = tmp_path / "runtime/prepared-context" / "last-budget-builds.json"
     assert receipt.exists()
     receipt_path_str = str(receipt.relative_to(tmp_path))
-    assert receipt_path_str.startswith("prepared-context"), (
-        f"receipt written outside prepared-context/: {receipt_path_str}"
+    assert receipt_path_str.startswith("runtime/prepared-context"), (
+        f"receipt written outside runtime/prepared-context/: {receipt_path_str}"
     )
     for cp in CANONICAL_RECORD_PATHS:
         assert not (tmp_path / cp).exists(), (

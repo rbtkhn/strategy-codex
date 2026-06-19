@@ -248,7 +248,7 @@ stabilisation); Cuban Missile Crisis 1962 (escalation management
 between nuclear powers); Srebrenica / UNPROFOR (intervention
 failure); Catherine's fiscal restraint conversion (MEM–RUSSIA–
 CATHERINE–GREAT, MEM–RUSSIA–PANIN); Kharkov 1942 / Kyiv 2022
-(overextension).
+(overplatform/extension).
 
 Session finding: The trigger (front-line collapse from manpower
 exhaustion) produces frozen conflict as an overdetermined outcome

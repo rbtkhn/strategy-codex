@@ -3,11 +3,11 @@
 Parse and validate META_INFRA candidates in recursion-gate.md; optional sandbox apply + perf.
 
 Phase A (default): list META blocks, validate allowlist + diff presence, optionally write JSON reports
-under artifacts/meta-reports/.
+under runtime/artifacts/meta-reports/.
 
 Phase B (--sandbox): copy repo to a temp directory, git apply --check / apply, run
 run_perf_suite tier 1-2 with --check-baseline and validate-integrity; write reports and
-copy unified diff to artifacts/meta-patches/ for manual git apply on the real tree.
+copy unified diff to runtime/artifacts/meta-patches/ for manual git apply on the real tree.
 
 Does NOT modify recursion-gate.md. Does NOT commit. See docs/meta-class-proposals.md.
 
@@ -37,18 +37,18 @@ if str(_SCRIPTS) not in sys.path:
 
 try:
     from recursion_gate_review import split_gate_sections
-    from repo_io import fork_root
+    from repo_io import fork_root, artifacts_dir
 except ImportError:
     from scripts.recursion_gate_review import split_gate_sections
-    from scripts.repo_io import fork_root
+    from scripts.repo_io import fork_root, artifacts_dir
 
 # Repo-relative path prefixes allowed for META diffs and meta_targets
 ALLOWLIST_PREFIXES: tuple[str, ...] = (
     "scripts/",
-    "config/",
-    "bot/",
-    "integrations/",
-    "apps/",
+    "platform/config/",
+    "archive/grace-mar-instance/bot/",
+    "platform/integrations/",
+    "platform/apps/",
 )
 
 _CANDIDATE_RE = re.compile(
@@ -62,11 +62,11 @@ def _norm_rel(p: str) -> str:
 
 
 def is_allowlisted_path(rel: str) -> bool:
-    """True if rel is under allowed infra dirs (or meta-diff artifact under .../artifacts/meta-diffs/)."""
+    """True if rel is under allowed infra dirs (or meta-diff artifact under .../runtime/artifacts/meta-diffs/)."""
     r = _norm_rel(rel)
     if ".." in r or r.startswith("/"):
         return False
-    if r.startswith("artifacts/meta-diffs/"):
+    if r.startswith("runtime/artifacts/meta-diffs/"):
         return True
     return any(r.startswith(prefix) for prefix in ALLOWLIST_PREFIXES)
 
@@ -182,7 +182,7 @@ def validate_meta_candidate(c: dict[str, Any], user_id: str) -> tuple[bool, list
 
 
 def _write_report(user_id: str, c: dict[str, Any], ok: bool, errors: list[str], extra: dict[str, Any]) -> Path:
-    out_dir = fork_root(user_id) / "artifacts" / "meta-reports"
+    out_dir = artifacts_dir(fork_root(user_id)) / "meta-reports"
     out_dir.mkdir(parents=True, exist_ok=True)
     payload = {
         "candidate_id": c["id"],
@@ -288,7 +288,7 @@ def _run_sandbox(
 
 
 def _write_patch_artifact(user_id: str, cid: str, diff_text: str) -> Path:
-    out_dir = fork_root(user_id) / "artifacts" / "meta-patches"
+    out_dir = artifacts_dir(fork_root(user_id)) / "meta-patches"
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"{cid}.patch"
     path.write_text(diff_text, encoding="utf-8")

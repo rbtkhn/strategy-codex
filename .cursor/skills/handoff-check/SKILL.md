@@ -44,7 +44,7 @@ Summarize:
 - runtime-only noise that should stay uncommitted
 - work-politics continuity if relevant
 - the best next re-entry prompt
-- **Skill discovery (one line, optional):** If the thread had a repeatable multi-step workflow, mention [skills-portable/skill-candidates.md](../../../skills-portable/skill-candidates.md) and route through **B Test** (Engineer) or explicit **`write`** / **`skill-write`** — do not block the handoff on it.
+- **Skill discovery (one line, optional):** If the thread had a repeatable multi-step workflow, mention [skills/skill-candidates.md](../../../skills/skill-candidates.md) and route through **B Test** (Engineer) or explicit **`write`** / **`skill-write`** — do not block the handoff on it.
 
 ## Guardrails
 

@@ -40,7 +40,7 @@ OLLAMA_ANALYST_MODEL=gemma3:4b
 
 ### Model resolution
 
-When `LLM_PROVIDER=ollama`, `_resolve_model()` in `bot/core.py` maps OpenAI model names to Ollama equivalents:
+When `LLM_PROVIDER=ollama`, `_resolve_model()` in `archive/grace-mar-instance/bot/core.py` maps OpenAI model names to Ollama equivalents:
 - Main chat uses `OLLAMA_MODEL` (falls back to `OPENAI_MODEL` if unset)
 - Analyst pipeline uses `OLLAMA_ANALYST_MODEL` (falls back to `OLLAMA_MODEL`, then `OPENAI_ANALYST_MODEL`)
 
@@ -65,7 +65,7 @@ When `LLM_PROVIDER=ollama`, `_resolve_model()` in `bot/core.py` maps OpenAI mode
 
 ## Edge (Google AI Edge SDK)
 
-Reserved for Phase 4 — on-device inference via Gemini Nano on Android (ML Kit GenAI / AICore) or iOS equivalent. Not yet wired in `bot/core.py`.
+Reserved for Phase 4 — on-device inference via Gemini Nano on Android (ML Kit GenAI / AICore) or iOS equivalent. Not yet wired in `archive/grace-mar-instance/bot/core.py`.
 
 For desktop local-first testing, use `LLM_PROVIDER=ollama` with a Gemma model instead. See `scripts/inference_providers/edge_provider.py` for the provider stub and contract.
 
@@ -77,7 +77,7 @@ EDGE_MODEL=gemini-nano-4b
 ## Provider architecture
 
 ```
-bot/core.py
+archive/grace-mar-instance/bot/core.py
   _get_client()         → OpenAI-compatible client (openai or ollama)
   _resolve_model(name)  → maps model names per provider
 
@@ -88,7 +88,7 @@ scripts/inference_providers/
   edge_provider.py      → Stub (NotImplementedError)
 ```
 
-The `scripts/inference_providers/` module defines a clean provider interface (`InferenceProvider`) that future versions of `bot/core.py` may adopt for unified routing. Currently, `core.py` uses the OpenAI SDK directly with `_get_client()` branching on `LLM_PROVIDER`.
+The `scripts/inference_providers/` module defines a clean provider interface (`InferenceProvider`) that future versions of `archive/grace-mar-instance/bot/core.py` may adopt for unified routing. Currently, `core.py` uses the OpenAI SDK directly with `_get_client()` branching on `LLM_PROVIDER`.
 
 ## Boundary regression
 

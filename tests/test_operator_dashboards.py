@@ -1,4 +1,4 @@
-"""Tests for operator dashboard generators (derived artifacts)."""
+"""Tests for operator dashboard generators (derived runtime/artifacts)."""
 
 from __future__ import annotations
 
@@ -55,8 +55,8 @@ def test_processed_structs() -> None:
 
 def test_load_self_library_entries_minimal(tmp_path: Path) -> None:
     user = "u1"
-    (tmp_path / "users" / user).mkdir(parents=True)
-    (tmp_path / "users" / user / "self-library.md").write_text(
+    (tmp_path / "platform/users" / user).mkdir(parents=True)
+    (tmp_path / "platform/users" / user / "self-library.md").write_text(
         textwrap.dedent(
             """
             # L

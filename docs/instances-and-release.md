@@ -26,12 +26,12 @@ An instance of Grace-Mar "released into cyberspace" is therefore: **a Voice inst
 
 ### 2.1 Authorized, Bounded
 
-- **Export to school** — Identity or full-fork export for admission, tutoring, or curriculum. Consumer is a known institution; use is read-only or limited (e.g., "tailor lessons to this profile"). No Voice instance; no autonomous action.
+- **Export to school** — Identity or full-fork export for admission, tutoring, or curriculum. Consumer is a known institution; use is read-only or limited (e.g., "tailor lessons to this platform/profile"). No Voice instance; no autonomous action.
 - **Export to trusted agent** — e.g., OpenClaw or AI school reads the Record to "know who it serves." The agent uses the data; the canonical Record and gate remain with the user. Export is input, not an acting instance.
 
 ### 2.2 Unauthorized or Uncontrolled
 
-- **Leak or scrape** — Record (or a dump of prompt + profile) is copied without consent. A third party could instantiate a Voice from it and run it elsewhere.
+- **Leak or scrape** — Record (or a dump of prompt + platform/profile) is copied without consent. A third party could instantiate a Voice from it and run it elsewhere.
 - **Fork-and-release** — Someone takes the open-source codebase + a Record export (or a synthetic Record), deploys a bot, and runs it as "a Grace-Mar" or "an identity fork" on a platform (Telegram, Discord, Moltbook, RentAHuman). No user gate; updates and behavior are outside the user's control.
 
 ### 2.3 Intentional Release as Actor
@@ -80,7 +80,7 @@ So: we have not spent much time on **instances as independent actors**. We have 
 
 The following is added to [CONCEPTUAL-FRAMEWORK](conceptual-framework.md) §4 Key Invariants:
 
-**34. Canonical instance; no other instance as independent agent** — The Record and Voice have one **canonical instance**: the one the user controls (data, pipeline, and deployment). Exports are snapshots for consumption (e.g., by schools or agents that "read" the Record). No *other* instance of the Record or Voice may be deployed or used as an **independent economic or social agent** (posting bounties, contracting, chatting as the identity with third parties, or otherwise acting in the world) without **explicit user consent** and, where feasible, a **revocation path**. The system is designed so the user retains sovereignty over who speaks and acts in the name of the Record.
+**34. Canonical instance; no other instance as independent agent** — The Record and Voice have one **canonical instance**: the one the user controls (data, pipeline, and platform/deployment). Exports are snapshots for consumption (e.g., by schools or agents that "read" the Record). No *other* instance of the Record or Voice may be deployed or used as an **independent economic or social agent** (posting bounties, contracting, chatting as the identity with third parties, or otherwise acting in the world) without **explicit user consent** and, where feasible, a **revocation path**. The system is designed so the user retains sovereignty over who speaks and acts in the name of the Record.
 
 This invariant is **architectural and normative**. It does not by itself prevent bad actors from instantiating and misusing exports; it states the design intent and the standard we hold when we build or recommend deployments.
 

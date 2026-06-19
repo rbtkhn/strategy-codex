@@ -19,7 +19,7 @@ Before **EXECUTE** on multi-file, long-document, or ambiguous tasks, PLAN should
 
 - Questions must be **falsifiable or decidable** (e.g. “What would make us wrong?”, “What must not change?”, “Compared to what?”).
 - The agent helps **define task shape** from questions plus candidate files; the operator approves shape → then **EXECUTE**.
-- **Stack:** PLAN (questions) → optional [**context-folder-assembly**](../skills-portable/_drafts/context-folder-assembly/SKILL.md) → EXECUTE. Compatible with Think/Ship and proposal-first.
+- **Stack:** PLAN (questions) → optional [**context-folder-assembly**](../skills/_drafts/context-folder-assembly/SKILL.md) → EXECUTE. Compatible with Think/Ship and proposal-first.
 - Template: [questions-as-spec-template.md](skill-work/questions-as-spec-template.md). Cheat sheet: [context-folder-operator-cheatsheet.md](skill-work/context-folder-operator-cheatsheet.md).
 
 ### `EXECUTE`
@@ -28,7 +28,7 @@ Before **EXECUTE** on multi-file, long-document, or ambiguous tasks, PLAN should
 - **`git commit`** when there are changes; **`git push`** when the message includes shipping to remote (name the branch or say â€œpushâ€).
 - **Dual worktree before push:** When pushing, also check **companion-self** if present (see [Git workflow â€” grace-mar + companion-self](#git-workflow--grace-mar--companion-self)); do not assume only the open workspace changed.
 - **Tags** (e.g. `template-v0.x.x`) only if the operator states them in the message.
-- **Skill discovery (optional):** After a **substantive** completed ship (not trivial one-line fixes), the agent may add **one** optional closing line inviting a pointer in [`skills-portable/skill-candidates.md`](../skills-portable/skill-candidates.md) or a draft under `skills-portable/_drafts/` â€” see [operator-style â€” Skill discovery](../.cursor/rules/operator-style.mdc). Skip when **coffee** menus apply â€” full **Aâ€“G** or the **steward** **Implement now / Later** fork (legacy **hey** still works) â€” or when the operator said **no menu** on a **non-coffee** WORK turn.
+- **Skill discovery (optional):** After a **substantive** completed ship (not trivial one-line fixes), the agent may add **one** optional closing line inviting a pointer in [`skills/skill-candidates.md`](../skills/skill-candidates.md) or a draft under `skills/_drafts/` â€” see [operator-style â€” Skill discovery](../.cursor/rules/operator-style.mdc). Skip when **coffee** menus apply â€” full **Aâ€“G** or the **steward** **Implement now / Later** fork (legacy **hey** still works) â€” or when the operator said **no menu** on a **non-coffee** WORK turn.
 
 ### `DOCSYNC`
 
@@ -58,7 +58,7 @@ If there is **no** prefix and intent is **unclear**, the agent should default to
 Scope rules for this repo (instance + operator lanes), complementary to [AGENTS.md](../AGENTS.md) merge authority.
 
 - **Feature branch per theme** â€” For non-trivial or multi-file work, use a dedicated branch so `main` stays easy to fast-forward and PRs stay reviewable. Trivial one-file fixes on `main` remain fine when the operator prefers.
-- **Scoped staging** â€” When the task is narrow, stage by path or `git add -p`. Mixing `*`, `codex/predictive-history/*`, `bot/`, and broad `docs/*` in one commit without operator intent is a **review hazard**; split or call it out in the commit message.
+- **Scoped staging** â€” When the task is narrow, stage by path or `git add -p`. Mixing `*`, `codex/predictive-history/*`, `archive/grace-mar-instance/bot/`, and broad `docs/*` in one commit without operator intent is a **review hazard**; split or call it out in the commit message.
 - **Before push (collaborative remotes)** â€” If others may have pushed, run `git fetch` and reconcile (`git pull --rebase` or merge) before `git push` to avoid a surprise â€œfetch firstâ€ rejection.
 - **After `git push` of a branch other than `main`** â€” Emit a **GitHub compare URL** so the operator can open a PR without the `gh` CLI:
   - `https://github.com/<owner>/<repo>/compare/<base>...<head>`
@@ -120,4 +120,4 @@ They **stack**: you can be in **Think** cognitively and still send **`PLAN`** so
 - [WORK menu conventions](skill-work/work-menu-conventions.md) â€” evidence links, heuristic tags, choice logging (`session-transcript`), optional multi-agent note.
 - [Operator style](../.cursor/rules/operator-style.mdc) (always-on; links here) â€” includes **WORK modules â€” multiple choice**: labeled next-step options on most turns when working in work-strategy / work-politics / work-jiang / work-dev unless the operator opts out or a fixed menu (e.g. `coffee`) already applies. **Rationale** (in-rule): lower operator cognitive load (selection vs path enumeration) and use assistant **parallel cognition** to prefetch plausible branches. **No faux â€œdoneâ€** in those menus â€” work **switches**, it does not end; options are pivots to other real work.
 - [Operator cognition â€” North star](lanes/operator-cognition.md)
-- [Bootstrap â€” Working trees and authority](../bootstrap/grace-mar-bootstrap.md#working-trees-and-authority)
+- [Bootstrap â€” Working trees and authority](../archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md#working-trees-and-authority)

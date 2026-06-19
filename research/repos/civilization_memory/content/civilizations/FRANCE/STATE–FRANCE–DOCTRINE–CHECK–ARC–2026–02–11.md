@@ -30,7 +30,7 @@ Definition: Authority through articulated universal claims, law, symbolism; enfo
 Evidence (30 days):
 • VERIFICATION: Executive continues to lead by declaration — Paris Declaration (Élysée, 6 Jan 2026) commits France to “robust security guarantees” for Ukraine, European-led force, binding commitments. Macron stated France provides “two-thirds of the intelligence” Ukraine receives (RFI, 16 Jan). Declaration precedes detailed capacity delivery; symbolism (Paris as peace/security guarantor) is front-loaded.
 • VERIFICATION: Budget forced through without full parliamentary vote (Le Monde, 20 Jan 2026). Government used constitutional procedure to pass part of 2026 budget “without a vote,” then survived no-confidence motions (Le Monde, 23 Jan). Law and executive intent precede broad parliamentary consent — consistent with declarative primacy.
-• CONTRADICTION: None. Pattern holds: declaration and symbolism lead; capacity (defence spending, intelligence, future troop deployment) is being ramped but follows the stated commitments.
+• CONTRADICTION: None. Pattern holds: declaration and symbolism lead; capacity (defence spending, intelligence, future troop platform/deployment) is being ramped but follows the stated commitments.
 
 Hard constraint check: “Declarative legitimacy collapses if enforcement lags symbolism.” Not yet triggered in 30-day window — defence budget was adopted (Feb 2026), so funding trajectory aligns with rearmament rhetoric. If delivery (ammunition stocks, readiness, European force) lags timeline, constraint would activate.
 

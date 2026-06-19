@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "schema-registry/answer-provenance.v1.json",
+  "$id": "schemas/registry/answer-provenance.v1.json",
   "title": "Answer Provenance v1",
   "description": "Heuristic interpretation of recent audit activity by lane; not token-level model attribution.",
   "type": "object",

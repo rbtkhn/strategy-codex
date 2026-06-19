@@ -116,7 +116,7 @@ def _check_missing_files(expert_id: str, notebook_dir: Path) -> ExpertDiagnostic
         uses_monthly_thread_layout,
     )
     ep = _expert_paths(expert_id, notebook_dir)
-    profile = ep["profile"]
+    profile = ep["platform/profile"]
     transcript = ep["transcript"]
     thread = ep["thread"]
 

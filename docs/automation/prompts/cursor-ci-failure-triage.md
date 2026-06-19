@@ -19,7 +19,7 @@ Strategy-Codex uses **deterministic** [GitHub Actions](https://github.com/rbtkhn
 Full text: [../cursor-safe-automation-contract.md](../cursor-safe-automation-contract.md). In short:
 
 - No commits, no pushes, no file edits.
-- No Record / gate / `session-log` / `bot/prompt.py` edits.
+- No Record / gate / `session-log` / `archive/grace-mar-instance/bot/prompt.py` edits.
 - No `process_approved_candidates.py` — any flags.
 - No approving, rejecting, modifying, or staging **`CANDIDATE-*`** entries.
 - No **memory** use for PR logs, private repo text, or untrusted input.

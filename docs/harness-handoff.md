@@ -12,7 +12,7 @@ Short guide for using **more than one AI harness** (e.g. **Cursor** + **Codex**,
 
 ## Handoff checklist
 
-1. **Land work in the repo** â€” commit or save edits under ``, `bot/`, `docs/`, etc., so the next harness sees files on disk.
+1. **Land work in the repo** â€” commit or save edits under ``, `archive/grace-mar-instance/bot/`, `docs/`, etc., so the next harness sees files on disk.
 2. **If the gate changed** â€” ensure `recursion-gate.md` edits are saved; companion still approves before merge.
 3. **Start the next session** â€” run  
    `python3 scripts/harness_warmup.py -u grace-mar`  

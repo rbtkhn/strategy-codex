@@ -2,7 +2,7 @@
 
 **WORK only** — not Record. One page for heavy multi-file EXECUTE.
 
-**Full skill (draft):** [context-folder-assembly](../../skills-portable/_drafts/context-folder-assembly/SKILL.md) · **PLAN lane:** [operator-agent-lanes.md](../operator-agent-lanes.md) · **Template:** [questions-as-spec-template.md](./questions-as-spec-template.md)
+**Full skill (draft):** [context-folder-assembly](../../skills/_drafts/context-folder-assembly/SKILL.md) · **PLAN lane:** [operator-agent-lanes.md](../operator-agent-lanes.md) · **Template:** [questions-as-spec-template.md](./questions-as-spec-template.md)
 
 ---
 
@@ -28,7 +28,7 @@ coffee / conductor → PLAN (questions) → [optional] context folder → fresh 
 |--------|--------|
 | **bridge** | Session continuity packet |
 | **harvest** | Midstream paste packet |
-| **context folder** | On-disk `prepared-context/working/<slug>/` |
+| **context folder** | On-disk `runtime/prepared-context/working/<slug>/` |
 | **compress_active_lane** | Optional `lane-orientation.md` in folder |
 
 ---
@@ -43,7 +43,7 @@ coffee / conductor → PLAN (questions) → [optional] context folder → fresh 
 | 4 | **Seal** | Approve `Ready to EXECUTE: yes` | Write `task-shape.md` (deliverable, in/out) |
 | 5 | **Hand off** | Open **new thread** | EXECUTE reads folder only |
 
-**Working root:** `prepared-context/working/<slug>/` (gitignored)
+**Working root:** `runtime/prepared-context/working/<slug>/` (gitignored)
 
 ---
 
@@ -64,7 +64,7 @@ coffee / conductor → PLAN (questions) → [optional] context folder → fresh 
 ## Fresh-thread opener (paste)
 
 ```text
-EXECUTE — Read only prepared-context/working/<slug>/ (all files there).
+EXECUTE — Read only runtime/prepared-context/working/<slug>/ (all files there).
 Do not search the wider repo unless task-shape.md explicitly allows it.
 Execute task-shape.md. questions.md defines success standards.
 ```
@@ -103,6 +103,6 @@ Post-run (optional): workbench receipt `inspection.questionsSpec` mirrors the sa
 
 **Discover:** `source-archive/statecraft/2026-03.md`, day READMEs, `statecraft/daily/METHOD.md`, `2026-06.md` as baseline; ~30 P1 transcripts (not all 200).
 
-**Deliverable:** `statecraft/daily/2026-03.md` — ship commits there, not under `prepared-context/working/`.
+**Deliverable:** `statecraft/daily/2026-03.md` — ship commits there, not under `runtime/prepared-context/working/`.
 
 **Decision rule:** One chat, one path → skip folder. “New chat, but first gather everything about X” → use folder.

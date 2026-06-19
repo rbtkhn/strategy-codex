@@ -154,7 +154,7 @@ def main() -> int:
     territory = normalize_territory_cli(args.territory)
 
     user_id = args.user
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     docs_dir = REPO_ROOT / "docs"
 
     recursion_gate = _read(profile_dir / "recursion-gate.md")

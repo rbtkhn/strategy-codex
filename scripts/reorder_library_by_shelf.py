@@ -121,7 +121,7 @@ def main() -> int:
     p.add_argument("-o", "--out", help="Write result to file (default: stdout)")
     p.add_argument("-i", "--in-place", action="store_true", help="Replace Entries section in self-library.md")
     args = p.parse_args()
-    lib_path = REPO_ROOT / "users" / args.user / "self-library.md"
+    lib_path = REPO_ROOT / "platform/users" / args.user / "self-library.md"
     content = lib_path.read_text(encoding="utf-8")
     entries_body = extract_entries_block(content)
     if not entries_body:

@@ -16,7 +16,7 @@ from export_continuity_blocks import export_continuity_blocks, load_events, rend
 
 def test_missing_feed_exports_empty_report(tmp_path: Path) -> None:
     source = tmp_path / "runtime" / "observability" / "continuity_blocks.jsonl"
-    output = tmp_path / "artifacts" / "work-dev" / "continuity-observability" / "continuity-blocks.md"
+    output = tmp_path / "runtime/artifacts" / "work-dev" / "continuity-observability" / "continuity-blocks.md"
 
     markdown = export_continuity_blocks(source, output, repo_root=tmp_path)
 

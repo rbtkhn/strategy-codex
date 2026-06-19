@@ -12,11 +12,11 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_USERS_DIR = REPO_ROOT / "users"
+DEFAULT_USERS_DIR = REPO_ROOT / "platform/users"
 DEFAULT_USER = "grace-mar"
-RULES_PATH = REPO_ROOT / "bot" / "conflict_rules.yaml"
-SELF_PROPOSALS_DIR = REPO_ROOT / "auto-research" / "self-proposals"
-SWARM_ACCEPTED_DIR = REPO_ROOT / "auto-research" / "swarm" / "accepted"
+RULES_PATH = BOT_DIR / "conflict_rules.yaml"
+SELF_PROPOSALS_DIR = REPO_ROOT / "research/auto-research" / "self-proposals"
+SWARM_ACCEPTED_DIR = REPO_ROOT / "research/auto-research" / "swarm" / "accepted"
 
 for path in (REPO_ROOT / "scripts", SELF_PROPOSALS_DIR):
     path_str = str(path)
@@ -25,7 +25,7 @@ for path in (REPO_ROOT / "scripts", SELF_PROPOSALS_DIR):
 
 from gate_block_parser import iter_candidate_yaml_blocks, split_gate_sections
 from proposal_io import validate_grounding, validate_payload
-from repo_io import DEFAULT_PROFILE_ID, profile_dir
+from repo_io import DEFAULT_PROFILE_ID, profile_dir, BOT_DIR
 
 DEFAULT_USER = DEFAULT_PROFILE_ID
 
@@ -526,7 +526,7 @@ def main() -> int:
     parser.add_argument(
         "--write-artifact-drafts",
         action="store_true",
-        help="Write promotable contradiction artifact drafts under auto-research/swarm/accepted",
+        help="Write promotable contradiction artifact drafts under research/auto-research/swarm/accepted",
     )
     args = parser.parse_args()
 

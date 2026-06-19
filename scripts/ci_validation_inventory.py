@@ -71,7 +71,7 @@ def _argv_validate_skills(_user: str) -> list[str]:
 
 
 def _argv_seed_phase_template(_user: str) -> list[str]:
-    return ["_template/seed-phase", "--allow-placeholders"]
+    return ["platform/template/seed-phase", "--allow-placeholders"]
 
 
 def _argv_validate_speaker_objects(_user: str) -> list[str]:
@@ -212,7 +212,7 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
         ci_source="",
     ),
     CheckSpec(
-        id="validate_seed_phase_template",
+        id="validate_seed_phaseplatform/template",
         label="Seed phase (_template fixture)",
         script_relpath="scripts/validate-seed-phase.py",
         argv_builder=_argv_seed_phase_template,
@@ -330,7 +330,7 @@ def checks_for_group(group: str) -> list[CheckSpec]:
     if g == "experimental":
         order = [
             "validate_skills",
-            "validate_seed_phase_template",
+            "validate_seed_phaseplatform/template",
             "validate_speaker_objects",
             "validate_speaker_state_sets",
             "judgment_contract_gauntlets",
@@ -351,6 +351,6 @@ def default_user() -> str:
     from pathlib import Path
 
     root = Path(__file__).resolve().parent.parent
-    if (root / "users" / "grace-mar").is_dir():
+    if (root / "platform/users" / "grace-mar").is_dir():
         return "grace-mar"
-    return "_template"
+    return "platform/template"

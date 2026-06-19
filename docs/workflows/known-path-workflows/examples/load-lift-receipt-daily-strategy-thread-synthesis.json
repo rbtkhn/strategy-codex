@@ -18,7 +18,7 @@
   "operator_would_miss_if_disabled": true,
   "decision": "continue",
   "reviewer_notes": "Draft synthesis required minor revisions but reduced manual scanning burden and preserved review control.",
-  "related_artifacts": [
+  "related_runtime/artifacts": [
     "docs/workflows/known-path-workflows/examples/daily-strategy-thread-synthesis.md"
   ]
 }

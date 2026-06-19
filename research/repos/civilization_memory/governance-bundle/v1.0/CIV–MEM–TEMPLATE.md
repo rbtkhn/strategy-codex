@@ -850,7 +850,7 @@ GEO–MEM files: 2/3 MEARSHEIMER + 1/3 MERCOURIS
   - Structural patterns across all periods
   - "What does this terrain DO to actors?"
 
-• 1/3 ARC Verbatim Quotes (Mercouris evidence):
+• 1/3 ARC Verbatim Quotes (Mercouris archive/placeholders/evidence):
   - Ancient sources demonstrating pattern permanence
   - Medieval sources confirming continuity
   - Early modern historiography

@@ -11,7 +11,7 @@
 | Who | Pain | Why us |
 |-----|------|--------|
 | **Coaches** (executive, life, career) | Client context scattered across notes, tools, sessions; handoffs and continuity break; no single "this is what we've documented about this person" that travels. | One Record per client (or per coachee): interests, style, growth signals — all **approved by the person**. Export for handoffs, supervision, or downstream tools. |
-| **Creator-educators** (course creators, cohort leads, community builders) | Audience or participant "profile" is inferred from behavior or one-off forms; no durable, updatable identity that the *person* controls and can share. | Record = participant-owned profile; creator gets export (with consent) for personalization, or person brings their Record to the next cohort. |
+| **Creator-educators** (course creators, cohort leads, community builders) | Audience or participant "platform/profile" is inferred from behavior or one-off forms; no durable, updatable identity that the *person* controls and can share. | Record = participant-owned profile; creator gets export (with consent) for personalization, or person brings their Record to the next cohort. |
 | **Small teams** (pods, studios, advisory) | Shared context about a person (client, partner, member) lives in Slack/Notion/heads; no canonical "who they are" with provenance. | Single evidence-grounded profile; team reads (or person shares) Record; nothing enters without the person's approval. |
 
 **Not:** A replacement for coaching software, LMS, or CRM. We are the **profile substrate** — the identity layer that other tools can consume.

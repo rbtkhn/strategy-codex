@@ -29,15 +29,15 @@ If the run is in status `failed`, `complete` refuses unless you pass **`--force`
 
 | Path | Content |
 |------|---------|
-| `artifacts/strategy-runs/<run_id>/state.json` | Lane, intent, `target_date`, `status`, resolved **inputs** (paths + exists flags), `proposed_outputs` (null until you add sidecars), `receipt_refs`, `warnings` |
-| `artifacts/run-receipts/<run_id>-start.json` | Receipt for `start` |
-| `artifacts/run-receipts/<run_id>-complete.json` | Receipt for `complete` |
+| `runtime/artifacts/strategy-runs/<run_id>/state.json` | Lane, intent, `target_date`, `status`, resolved **inputs** (paths + exists flags), `proposed_outputs` (null until you add sidecars), `receipt_refs`, `warnings` |
+| `runtime/artifacts/run-receipts/<run_id>-start.json` | Receipt for `start` |
+| `runtime/artifacts/run-receipts/<run_id>-complete.json` | Receipt for `complete` |
 
 ## Report (optional)
 
 ```bash
 python3 scripts/build_strategy_run_report.py
-python3 scripts/build_strategy_run_report.py --limit 20 --output artifacts/strategy-run-report.md
+python3 scripts/build_strategy_run_report.py --limit 20 --output runtime/artifacts/strategy-run-report.md
 ```
 
 ## Applying judgment (not automated here)
@@ -58,4 +58,4 @@ python3 scripts/build_strategy_run_report.py --limit 20 --output artifacts/strat
 - [docs/run-contract.md](../../run-contract.md)
 - [STRATEGY-RUN-ARCHITECTURE.md](STRATEGY-RUN-ARCHITECTURE.md)
 
-**Tests / isolated runs:** Set environment variable `STRATEGY_RUN_ARTIFACT_ROOT` to a temporary directory that mirrors repo layout (`artifacts/`, optional `docs/.../strategy-notebook/`) so scripts do not write under the real repo — used by `tests/test_strategy_run.py`.
+**Tests / isolated runs:** Set environment variable `STRATEGY_RUN_ARTIFACT_ROOT` to a temporary directory that mirrors repo layout (`runtime/artifacts/`, optional `docs/.../strategy-notebook/`) so scripts do not write under the real repo — used by `tests/test_strategy_run.py`.

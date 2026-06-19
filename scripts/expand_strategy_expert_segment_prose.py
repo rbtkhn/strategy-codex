@@ -84,7 +84,7 @@ def load_profile(expert_id: str) -> dict[str, str]:
         return {
             "name": expert_id,
             "role": "see roster profile for lane description",
-            "pairings": "see Typical pairings on the expert profile",
+            "pairings": "see Typical pairings on the expert platform/profile",
         }
     text = path.read_text(encoding="utf-8")
     name_m = PROFILE_NAME.search(text)
@@ -93,7 +93,7 @@ def load_profile(expert_id: str) -> dict[str, str]:
     return {
         "name": clean_cell(name_m.group(1)) if name_m else expert_id,
         "role": clean_cell(role_m.group(1)) if role_m else "see roster profile for lane description",
-        "pairings": clean_cell(pair_m.group(1)) if pair_m else "see Typical pairings on the expert profile",
+        "pairings": clean_cell(pair_m.group(1)) if pair_m else "see Typical pairings on the expert platform/profile",
     }
 
 
@@ -161,7 +161,7 @@ def template_pool(ctx: dict[str, str]) -> list[str]:
         ),
         (
             f"When historical expert context artifacts exist for `{eid}` (per-month files or rollups "
-            f"under `artifacts/skill-work/work-strategy/historical-expert-context/`), this {mid} "
+            f"under `runtime/artifacts/skill-work/work-strategy/historical-expert-context/`), this {mid} "
             f"narrative should be read as **adjacent** to those summaries: the artifact compresses "
             f"stance for handoff; the thread segment preserves operator-facing **arc and intent**. "
             f"If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter "

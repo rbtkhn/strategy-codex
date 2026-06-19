@@ -11,8 +11,8 @@ This is **architecture clarification**, not a second governance layer. Routing m
 
 | Artifact | Role |
 |----------|------|
-| [`config/runtime_workers/registry.yaml`](../../config/runtime_workers/registry.yaml) | Declares shared + routed workers and **entrypoint** paths (existing scripts). |
-| [`config/runtime_workers/worker-trust-registry.v1.json`](../../config/runtime_workers/worker-trust-registry.v1.json) | **Trust bounds** (allowed/forbidden actions, evidence/receipt expectations, gate flags)—documentation only; see [worker-trust-registry.md](worker-trust-registry.md). |
+| [`platform/config/runtime_workers/registry.yaml`](../../platform/config/runtime_workers/registry.yaml) | Declares shared + routed workers and **entrypoint** paths (existing scripts). |
+| [`platform/config/runtime_workers/worker-trust-registry.v1.json`](../../platform/config/runtime_workers/worker-trust-registry.v1.json) | **Trust bounds** (allowed/forbidden actions, archive/placeholders/evidence/receipt expectations, gate flags)—documentation only; see [worker-trust-registry.md](worker-trust-registry.md). |
 | [`scripts/runtime/worker_registry.py`](../../scripts/runtime/worker_registry.py) | Loads YAML and validates entrypoint files exist. |
 | [`scripts/runtime/worker_router.py`](../../scripts/runtime/worker_router.py) | Maps `task_type` → routed worker + lists shared workers. |
 
@@ -21,7 +21,7 @@ This is **architecture clarification**, not a second governance layer. Routing m
 - **No** automatic execution of routed scripts from the registry.
 - The **[runtime worker](runtime-worker.md)** [`grace_mar_runtime_worker.py`](../../scripts/runtime/grace_mar_runtime_worker.py) can take optional **`--task-type`**; it resolves routing and writes **`provenance.worker_routing`** on the trace line in `runtime/runtime-worker/traces/index.jsonl` (non-canonical).
 
-**Pass overlays (optional):** **`--overlay`** supplies default scope/caps/task-type emphasis from [`overlays.yaml`](../../config/runtime_workers/overlays.yaml) — see [worker-overlays.md](worker-overlays.md). Routing still follows **`--task-type`** (overlay default or explicit).
+**Pass overlays (optional):** **`--overlay`** supplies default scope/caps/task-type emphasis from [`overlays.yaml`](../../platform/config/runtime_workers/overlays.yaml) — see [worker-overlays.md](worker-overlays.md). Routing still follows **`--task-type`** (overlay default or explicit).
 
 ## Task type mapping
 

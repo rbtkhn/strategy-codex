@@ -109,7 +109,7 @@ Same as today: **only what is in the Record**. Knowledge boundary applies. The f
 ## Implementation Plan (Phased)
 
 ### Phase 1 — Foundation âœ“
-- [x] Extend miniapp/server to accept interview mode via URL: `/i/<token>`, `/me/<user_id>`, `?mode=interview`, or `?t=<token>`.
+- [x] Extend platform/miniapp/server to accept interview mode via URL: `/i/<token>`, `/me/<user_id>`, `?mode=interview`, or `?t=<token>`.
 - [x] Interview sessions use `channel_key: interview`; exchanges are **not** archived (read-only for reviewer).
 - [x] Interview landing shows different intro: "This is Grace-Mar's cognitive fork... Ask anything to get to know her. Your questions are not saved."
 
@@ -141,9 +141,9 @@ Same as today: **only what is in the Record**. Knowledge boundary applies. The f
 
 | File | Role |
 |------|------|
-| `miniapp/index.html` | Q&A UI; would add interview variant or query param |
-| `apps/miniapp_server.py` | Serves UI + `/api/ask`; would add token resolution, interview channel |
-| `bot/core.py` | `get_response`, `run_lookup`; channel_key drives archive behavior |
+| `platform/miniapp/index.html` | Q&A UI; would add interview variant or query param |
+| `platform/apps/miniapp_server.py` | Serves UI + `/api/ask`; would add token resolution, interview channel |
+| `archive/grace-mar-instance/bot/core.py` | `get_response`, `run_lookup`; channel_key drives archive behavior |
 | `self.md` | Identity source for fork |
 
 ---

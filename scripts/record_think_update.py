@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_OUT = REPO_ROOT / "artifacts/skill-think/update-receipts/think-updates.jsonl"
+DEFAULT_OUT = REPO_ROOT / "runtime/artifacts/skill-think/update-receipts/think-updates.jsonl"
 
 
 def main() -> int:

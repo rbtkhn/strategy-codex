@@ -39,7 +39,7 @@ All paths are **lowercase** with hyphens where used (e.g. `self-archive.md`, `re
 
 ## Startup and tooling
 
-Scripts and the bot resolve paths at the repository root using these names. If the expected files are missing, tooling should fail loudly. See `scripts/assert_canonical_paths.py` and env `GRACE_MAR_SKIP_PATH_CHECK` for optional skip.
+Scripts resolve Record files via `scripts/repo_io.py` → `profile_dir()` (physical home: **`archive/grace-mar-instance/`** after root consolidation). Basenames in the table above are unchanged.
 
 **Legacy (do not create new):** `SELF.md`, `EVIDENCE.md`, `ARCHIVE.md`, `PENDING-REVIEW.md`, `SKILLS.md` (uppercase), **`skills.md`** (old capability index name), and **`memory.md`** (old self-memory filename) are **not** canonical for new work â€” use **`self-skills.md`** and **`self-memory.md`**. The migration script renames `skills.md` â†’ `self-skills.md` and **`memory.md` â†’ `self-memory.md`** when the canonical file is absent.
 
@@ -47,4 +47,4 @@ Scripts and the bot resolve paths at the repository root using these names. If t
 
 **Migration:** `python scripts/migrate_legacy_user_filenames.py --dry-run` then `--apply`. If both `PENDING-REVIEW.md` and `recursion-gate.md` exist, use `--merge-pending-review` to append or resolve manually.
 
-**Startup:** Telegram bot, WeChat bot, `apps/miniapp_server.py`, and `apps/gate-review-app.py` call `assert_canonical_record_layout()` and **exit with an error** if any required file is missing. Override only for special environments: `GRACE_MAR_SKIP_PATH_CHECK=1`.
+**Startup:** Telegram bot, WeChat bot, `platform/apps/miniapp_server.py`, and `platform/apps/gate-review-app.py` call `assert_canonical_record_layout()` and **exit with an error** if any required file is missing. Override only for special environments: `GRACE_MAR_SKIP_PATH_CHECK=1`.

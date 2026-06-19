@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-04-05T20:05:34Z",
-  "reviewRoot": "users/demo/review-queue",
+  "reviewRoot": "platform/users/demo/archive/queues/review-queue",
   "proposalCounts": {
     "proposed": 1,
     "underReview": 0,
@@ -29,7 +29,7 @@
       "ran": true,
       "exitCode": 0,
       "passed": true,
-      "detail": "VALIDATION PASSED: /Users/robertkuhne/Documents/grace-mar/users/demo/review-queue"
+      "detail": "VALIDATION PASSED: /Users/robertkuhne/Documents/grace-mar/platform/users/demo/archive/queues/review-queue"
     },
     "seedPhaseDemo": {
       "ran": true,

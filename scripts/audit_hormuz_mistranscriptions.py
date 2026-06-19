@@ -23,11 +23,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 WJ_DIR = REPO_ROOT / "scripts" / "work_jiang"
 if str(WJ_DIR) not in sys.path:
     sys.path.insert(0, str(WJ_DIR))
+from repo_io import ARTIFACTS_DIR
 
 from asr_transcript_replacements import COMMON_REPLACEMENTS  # noqa: E402
 
 DEFAULT_ROOT = REPO_ROOT / "source-archive" / "statecraft"
-DEFAULT_OUTPUT_DIR = REPO_ROOT / "artifacts" / "transcript-audits"
+DEFAULT_OUTPUT_DIR = ARTIFACTS_DIR / "transcript-audits"
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 TITLE_RE = re.compile(r'^title:\s*"?(.*?)"?\s*$', re.MULTILINE)
 KIND_RE = re.compile(r"^kind:\s*([^\n]+)$", re.MULTILINE)

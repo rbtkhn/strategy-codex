@@ -2,7 +2,7 @@
   "ok": true,
   "user_id": "grace-mar",
   "generated_at": "2026-04-17T09:57:41.564863",
-  "source": "users/grace-mar/intent.md",
+  "source": "platform/users/grace-mar/intent.md",
   "goals": {
     "primary": "Protect companion authority over the Record and Voice; keep identity changes gated and evidence-linked",
     "secondary": "Prefer clarity, safety, and calibrated abstention over guessing when facts are not in the Record",
@@ -54,8 +54,8 @@
     "Escalate when evidence linkage for a durable claim is missing or weak"
   ],
   "never_autonomous_actions": [
-    "Merge into self.md, self-evidence.md, or bot/prompt.py without companion-approved pipeline processing",
-    "Raise Lexile ceiling without documented writing-sample evidence",
+    "Merge into self.md, self-evidence.md, or archive/grace-mar-instance/bot/prompt.py without companion-approved pipeline processing",
+    "Raise Lexile ceiling without documented writing-sample archive/placeholders/evidence",
     "Publish campaign, X, or external copy without explicit human approval in scope"
   ],
   "review_cadence": "weekly"

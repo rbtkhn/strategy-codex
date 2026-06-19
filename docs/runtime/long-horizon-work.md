@@ -4,7 +4,7 @@ Grace-Mar can support **long work runs** without treating long-lived **runtime**
 
 ## Doctrine
 
-- **Runtime vs Record:** Checkpoints live under `artifacts/handoffs/` and are **not** SELF, SKILLS, EVIDENCE, or gate staging. See [runtime-vs-record.md](runtime-vs-record.md).
+- **Runtime vs Record:** Checkpoints live under `runtime/artifacts/handoffs/` and are **not** SELF, SKILLS, EVIDENCE, or gate staging. See [runtime-vs-record.md](runtime-vs-record.md).
 - **Checkpoint first, delegate later:** Prefer emitting a small checkpoint and a bounded next step over speculative autonomy or silent promotion of working notes into durable state.
 - **Gate relevance visibility:** Every checkpoint includes a **Gate relevance** field (`none`, `maybe later`, `candidate likely`). This makes **drift toward durable proposals** visible; it does **not** stage candidates or merge into the Record.
 - **Complements, not substitutes:** Checkpoints do **not** replace `log_observation.py` rows, `memory_brief.py` output, `build_context_from_observations.py`, or `review_orchestrator.py` packets—they **anchor continuity** across time.
@@ -12,7 +12,7 @@ Grace-Mar can support **long work runs** without treating long-lived **runtime**
 
 ## Heuristics (lane dashboard)
 
-The generated [artifacts/lane-dashboards/README.md](../../artifacts/lane-dashboards/README.md) lists, per lane:
+The generated [runtime/artifacts/lane-dashboards/README.md](../../runtime/artifacts/lane-dashboards/README.md) lists, per lane:
 
 - **Latest checkpoint** and **last handoff packet** (if any).
 - **Stale (idle):** checkpoint file **mtime** older than **7 days**.
@@ -43,10 +43,10 @@ python3 scripts/runtime/checkpoint_session.py \
 python3 scripts/runtime/build_handoff_packet.py \
   --lane work-strategy \
   --latest 3 \
-  --output artifacts/handoffs/work-strategy-handoff.md
+  --output runtime/artifacts/handoffs/work-strategy-handoff.md
 ```
 
-See [artifacts/handoffs/README.md](../../artifacts/handoffs/README.md) for layout and policy.
+See [runtime/artifacts/handoffs/README.md](../../runtime/artifacts/handoffs/README.md) for layout and policy.
 
 ## Related
 

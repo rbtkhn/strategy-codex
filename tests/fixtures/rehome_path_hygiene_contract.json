@@ -28,7 +28,7 @@
     "codex[/\\\\]2025"
   ],
   "excluded_path_prefixes": [
-    "artifacts/benchmarks/",
+    "runtime/artifacts/benchmarks/",
     "tests/fixtures/rehome_path_hygiene_contract.json",
     "tests/test_rehome_path_hygiene_contract.py"
   ],

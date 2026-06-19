@@ -12,8 +12,8 @@ Align mental models between the **template** ([companion-self](https://github.co
 
 | Surface | Repo | Role |
 |---------|------|------|
-| Seed Phase v2 JSON artifacts | companion-self `_template/seed-phase/`, `demo/seed-phase/` | Pre-activation **formation** package; schemas in `schema-registry/seed-*.v1.json`. |
-| `seed-phase-wizard.py` | grace-mar | Interactive **instance** bootstrap: `reflection-proposals/`, `seed/minimal-core.json`, `self-memory.md` tone â€” **does not** replace template seed JSON set. |
+| Seed Phase v2 JSON artifacts | companion-self `platform/template/seed-phase/`, `demo/seed-phase/` | Pre-activation **formation** package; schemas in `schemas/registry/seed-*.v1.json`. |
+| `seed-phase-wizard.py` | grace-mar | Interactive **instance** bootstrap: `archive/queues/reflection-proposals/`, `seed/minimal-core.json`, `self-memory.md` tone â€” **does not** replace template seed JSON set. |
 
 Neither replaces the other: the template defines **portable, validatable** artifacts; Grace-Mar defines **live operator workflow** under canonical instance paths.
 
@@ -60,7 +60,7 @@ Rough correspondence (instance today â€” not a one-to-one file rename):
 
 ## What remains instance-specific
 
-- **Paths:** `â€¦`, `reflection-proposals/`, `SEED-PHASE-COMPLETED.json`, validators (`validate-integrity.py`, `governance_checker.py`).
+- **Paths:** `â€¦`, `archive/queues/reflection-proposals/`, `SEED-PHASE-COMPLETED.json`, validators (`validate-integrity.py`, `governance_checker.py`).
 - **Wizard behavior:** Interactive prompts; optional `--require-proposal-class` for CI parity.
 - **Historical milestones:** Bifurcation date and six-phase language live in **narrative**; they do not override template stage numbering for **compatibility** work.
 
@@ -70,7 +70,7 @@ Rough correspondence (instance today â€” not a one-to-one file rename):
 
 When merging from companion-self ([MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md)):
 
-1. Pull `docs/seed-phase*.md`, `schema-registry/seed-*.v1.json`, and validation scripts if instances should reuse them.
+1. Pull `docs/seed-phase*.md`, `schemas/registry/seed-*.v1.json`, and validation scripts if instances should reuse them.
 2. Do **not** overwrite `` with template seed-phase **demo** data.
 3. Optionally add a `seed-phase/` (or repo-local) directory for a **real** run, validated with `validate-seed-phase.py` copied from template.
 

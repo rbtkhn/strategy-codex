@@ -56,8 +56,8 @@ Therefore the new conclusion must be adopted.
         encoding="utf-8",
     )
     report = module.evaluate_context(artifact)
-    assert report.category_scores["missing_evidence"] >= 6
-    assert any(finding.category == "missing_evidence" for finding in report.findings)
+    assert report.category_scores["missing_archive/placeholders/evidence"] >= 6
+    assert any(finding.category == "missing_archive/placeholders/evidence" for finding in report.findings)
 
 
 def test_compression_loss_detected_without_anchor_receipt(tmp_path: Path) -> None:

@@ -111,9 +111,9 @@ Start with a **single event page** (or markdown report):
 
 Implemented artifacts (compact interpretation over raw JSONL; does **not** replace append-only logs):
 
-- **Schemas:** `schema-registry/harness-replay-event.v1.json`, `schema-registry/answer-provenance.v1.json` (mirrors under `docs/schemas/`).
-- **Code:** `src/grace_mar/replay/` â€” loaders prefer `` audit files and fall back to `runtime-bundle/audit/` when root files are missing or empty; `build_report` powers `scripts/replay_harness_event.py`; `build_replay_events` / `infer_answer_provenance` / `replay_provenance_summary` feed **Streamlit** (`apps/metrics-dashboard.py` â€” â€œReplay and Provenanceâ€) and **`scripts/session_brief.py`** summaries.
-- **Derived JSON (optional):** `python scripts/session_brief.py -u <id> --write-replay-artifacts` writes timestamped files under `artifacts/replay/` (not Record truth).
+- **Schemas:** `schemas/registry/harness-replay-event.v1.json`, `schemas/registry/answer-provenance.v1.json` (mirrors under `docs/schemas/`).
+- **Code:** `platform/src/grace_mar/replay/` â€” loaders prefer `` audit files and fall back to `runtime/bundle/audit/` when root files are missing or empty; `build_report` powers `scripts/replay_harness_event.py`; `build_replay_events` / `infer_answer_provenance` / `replay_provenance_summary` feed **Streamlit** (`platform/apps/metrics-dashboard.py` â€” â€œReplay and Provenanceâ€) and **`scripts/session_brief.py`** summaries.
+- **Derived JSON (optional):** `python scripts/session_brief.py -u <id> --write-replay-artifacts` writes timestamped files under `runtime/artifacts/replay/` (not Record truth).
 
 **Answer-level replay** remains limited until prompt assembly and message correlation IDs are logged; v1 emphasizes **proposal / merge / pipeline** visibility and **heuristic** lane mix (see `weights_are_heuristic` on answer-provenance).
 
@@ -130,7 +130,7 @@ Implemented artifacts (compact interpretation over raw JSONL; does **not** repla
 | Record surfaces (applied) | **`record_refs`**: repo-relative paths (`self.md#IX-â€¦`, `self-evidence.md`, optional `self-library.md` / `skills.md` from `proposal_class`) | Boundary / â€œwhere did this write?â€ debugging |
 | CLI | **`replay_harness_event.py --event-id evt_â€¦`** â€” resolves one pipeline row, harness rows that reference it, then candidate follow-on if `candidate_id` is present | Paste id from JSONL without knowing candidate id |
 
-Emitted by: `scripts/emit_pipeline_event.py`, `bot/core.emit_pipeline_event`, `scripts/harness_events.append_harness_event`, `scripts/process_approved_candidates.py` (`append_pipeline_event`). Older JSONL lines omit these fields; readers should treat them as optional.
+Emitted by: `scripts/emit_pipeline_event.py`, `archive/grace-mar-instance/bot/core.emit_pipeline_event`, `scripts/harness_events.append_harness_event`, `scripts/process_approved_candidates.py` (`append_pipeline_event`). Older JSONL lines omit these fields; readers should treat them as optional.
 
 Operational doc: [harness-replay.md](harness-replay.md).
 

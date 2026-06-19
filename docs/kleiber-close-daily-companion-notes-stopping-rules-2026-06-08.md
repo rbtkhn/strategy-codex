@@ -26,10 +26,10 @@ stop when proved -> zero `Statecraft Notes` grep + zero tail validator errors
 
 ## What Made Closure Possible
 
-- one bounded audit family ([before](../artifacts/daily-synthesis-audits/statecraft-companion-notes-tail-audit-before.md))
+- one bounded audit family ([before](../runtime/artifacts/daily-synthesis-audits/statecraft-companion-notes-tail-audit-before.md))
 - one bounded direct repair (heading rename)
 - zero reviewed exceptions
-- one post-repair artifact proving tail remainder is zero ([after](../artifacts/daily-synthesis-audits/statecraft-companion-notes-tail-audit-after.md))
+- one post-repair artifact proving tail remainder is zero ([after](../runtime/artifacts/daily-synthesis-audits/statecraft-companion-notes-tail-audit-after.md))
 
 ## Anti-Patterns Avoided
 

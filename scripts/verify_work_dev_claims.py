@@ -19,8 +19,8 @@ def main() -> int:
     ap.add_argument("--strict", action="store_true")
     args = ap.parse_args()
 
-    cap_path = REPO_ROOT / "artifacts/work-dev/capability-status.json"
-    proof_path = REPO_ROOT / "artifacts/work-dev/proof_ledger.json"
+    cap_path = REPO_ROOT / "runtime/artifacts/work-dev/capability-status.json"
+    proof_path = REPO_ROOT / "runtime/artifacts/work-dev/proof_ledger.json"
     caps = json.loads(cap_path.read_text(encoding="utf-8"))
     proof = json.loads(proof_path.read_text(encoding="utf-8"))
     contexts = {e.get("context") for e in proof.get("entries", [])}

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Emit artifacts/review-dashboard.md — derived operator view of recursion-gate.md.
+Emit runtime/artifacts/review-dashboard.md — derived operator view of recursion-gate.md.
 
 Does not mutate the gate or Record. Uses gate_block_parser for consistent slicing.
 """
@@ -21,7 +21,7 @@ if str(_SCRIPTS) not in sys.path:
 
 from gate_block_parser import iter_candidate_yaml_blocks  # noqa: E402
 from operator_dashboard_common import extract_yaml_scalar  # noqa: E402
-from repo_io import profile_dir  # noqa: E402
+from repo_io import profile_dir  # noqa: E402, ARTIFACTS_DIR
 
 
 def _pending_structs(gate_text: str) -> list[dict[str, str | None]]:
@@ -152,7 +152,7 @@ def main() -> int:
 
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     md = render_markdown(user_id=uid, pending=pending, processed=processed, generated_at=ts)
-    out = root / "artifacts" / "review-dashboard.md"
+    out = ARTIFACTS_DIR / "review-dashboard.md"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(md, encoding="utf-8")
     print(f"wrote {out}")

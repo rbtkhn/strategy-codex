@@ -16,7 +16,7 @@ The same repository may be used in different contexts (internal operator work, i
 ## Default and discovery
 
 - **Default mode:** `operator_only` (normal internal operator use).
-- **Environment:** `GRACE_MAR_POLICY_MODE` may be set to one of the keys in [`config/policy_modes/defaults.json`](../config/policy_modes/defaults.json).
+- **Environment:** `GRACE_MAR_POLICY_MODE` may be set to one of the keys in [`platform/config/policy_modes/defaults.json`](../platform/config/policy_modes/defaults.json).
 - **CLI:** Scripts that support policy accept `--policy-mode NAME`; CLI overrides env for that invocation.
 
 ## First-wave modes (summary)
@@ -46,5 +46,5 @@ Exact string values per mode live in `defaults.json` (`retrieval_scope`, `candid
 
 ## See also
 
-- [`config/policy_modes/defaults.json`](../config/policy_modes/defaults.json)
+- [`platform/config/policy_modes/defaults.json`](../platform/config/policy_modes/defaults.json)
 - [`scripts/runtime/policy_mode_config.py`](../scripts/runtime/policy_mode_config.py)

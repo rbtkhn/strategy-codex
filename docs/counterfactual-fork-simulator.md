@@ -38,7 +38,7 @@ proposal / proposed change
 | recommend next action | allowed |
 
 The simulator may write only advisory output under
-`artifacts/counterfactual-simulations/`. A simulation report is
+`runtime/artifacts/counterfactual-simulations/`. A simulation report is
 WORK/audit-only and must not be mistaken for evidence, Record,
 approval, or a merge receipt.
 
@@ -113,7 +113,7 @@ This tool exists to make consequence review cheaper and more legible before a hu
 
 These JSON files are **inputs** for the simulator, not approved changes, not
 merge candidates, and not Record. The simulator still writes only scratch
-reports under `artifacts/counterfactual-simulations/`. Recommendations in a
+reports under `runtime/artifacts/counterfactual-simulations/`. Recommendations in a
 report are **advisory**; **human review** remains required before any durable
 change to the repo.
 

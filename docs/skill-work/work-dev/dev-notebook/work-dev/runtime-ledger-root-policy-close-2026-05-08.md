@@ -8,7 +8,7 @@ This is not Record truth and does not change merge authority.
 ## What changed
 
 - `5d009e74 Normalize root layout holdout scripts` normalized the six high-risk root-layout holdout scripts from the 2026-05-05 audit to the repo-root profile contract.
-- `9c4b4e27 Normalize runtime audit writers to root` moved the runtime/export audit writers off `users/<id>/` assumptions:
+- `9c4b4e27 Normalize runtime audit writers to root` moved the runtime/export audit writers off `platform/users/<id>/` assumptions:
   - `scripts/export_runtime_bundle.py`
   - `scripts/harness_events.py`
   - `scripts/emit_compute_ledger.py`
@@ -36,13 +36,13 @@ without an explicit policy for the other.
 - Runtime audit regression: `python -m pytest tests/test_compute_ledger.py tests/test_runtime_audit_root_paths.py tests/test_root_layout_holdouts.py` -> 13 passed.
 - Live smoke: `python --% scripts/export_runtime_bundle.py -u strategy-codex -o .smoke-runtime-bundle`.
   - Export succeeded with bundle id `d4ddb8753571`.
-  - `users/strategy-codex/` was not recreated.
+  - `platform/users/strategy-codex/` was not recreated.
   - New export receipts appended at repo root.
-  - `.smoke-runtime-bundle/` was removed after verification.
+  - `.smoke-runtime/bundle/` was removed after verification.
 
 ## Remaining tension
 
 Locked pytest temp directories still emit permission warnings in local status
 scans (`.tmp-pytest-root-layout/` and related paths). That is environment
-cleanup, not evidence of a continuing `users/strategy-codex/` compatibility
+cleanup, not evidence of a continuing `platform/users/strategy-codex/` compatibility
 path.

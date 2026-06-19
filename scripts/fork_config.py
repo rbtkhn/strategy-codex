@@ -1,4 +1,4 @@
-"""Load optional operator thresholds from config/fork-config.json (not part of the Record)."""
+"""Load optional operator thresholds from platform/config/fork-config.json (not part of the Record)."""
 
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-FORK_CONFIG_PATH = REPO_ROOT / "config" / "fork-config.json"
+FORK_CONFIG_PATH = REPO_ROOT / "platform/config" / "fork-config.json"
 
 
 def load_fork_config() -> dict:

@@ -21,7 +21,7 @@ I. TEMPLATE COMPLIANCE (STANDARD-STATE, ACTIVE)
 Template requires for living STATE files:
 • Header: file name, version, status, entity, classification, active, duty of competence, last updated
 • Sections I–X in order; VI-B when material option success depends on opponent degradation
-• Minimum 3 material options (each with grounding, reasoning, assumptions, confidence, risks, conditions, discriminating evidence)
+• Minimum 3 material options (each with grounding, reasoning, assumptions, confidence, risks, conditions, discriminating archive/placeholders/evidence)
 • Three-source compositional principle (MEM + STATE structure + general knowledge) applied in sessions
 • No system-internal vocabulary in analytical prose (Section XI Register Rules)
 
@@ -43,7 +43,7 @@ II. CIV–STATE–FRANCE — VERIFICATION
 I (Entity Identification), II (Succession and Inheritance), III (Strategic Position — three perspectives), IV (Material Options — placeholders), V (Completeness Audit), VI (Stability Indicators — proposed, to be assessed), VII (Decision-Relevant History — no session output yet), VIII (Cross-Entity Links), VIII-A (Influence from Concluded Entities — Rome, Islam), IX (Source Versions), X (State Log). **All present and ordered.**
 
 **2.3 Section IV**
-Three placeholder options (A, B, C) with required fields (Grounded in, Reasoning, Key Assumptions, Confidence, Grounding, Risks, Conditions, Discriminating evidence). Content "to be developed" in first STATE session. **Compliant** for new file.
+Three placeholder options (A, B, C) with required fields (Grounded in, Reasoning, Key Assumptions, Confidence, Grounding, Risks, Conditions, Discriminating archive/placeholders/evidence). Content "to be developed" in first STATE session. **Compliant** for new file.
 
 **2.4 Section VI-B**
 Absent. Template: "when applicable" — when any material option's success depends on opponent/partner capacity degrading. **Recommendation:** Add VI-B when material options are defined and one or more depend on opponent or partner constraint (e.g. Germany, EU, Russia). Optional until then.

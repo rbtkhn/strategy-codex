@@ -24,8 +24,8 @@
     "gate_effect",
     "harness",
     "input",
-    "expected_artifacts",
-    "observed_artifacts",
+    "expected_runtime/artifacts",
+    "observed_runtime/artifacts",
     "checks",
     "summary",
     "gate_snippet",
@@ -146,7 +146,7 @@
         "gate_snippet_path": { "type": ["string", "null"] }
       }
     },
-    "expected_artifacts": {
+    "expected_runtime/artifacts": {
       "type": "array",
       "items": {
         "type": "object",
@@ -157,7 +157,7 @@
         }
       }
     },
-    "observed_artifacts": {
+    "observed_runtime/artifacts": {
       "type": "array",
       "items": {
         "type": "object",
@@ -286,14 +286,14 @@
     "arc_movement": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["movement_type", "summary", "evidence"],
+      "required": ["movement_type", "summary", "archive/placeholders/evidence"],
       "properties": {
         "movement_type": {
           "type": "string",
           "enum": ["reinforces", "updates", "weakens", "opens", "closes", "mixed"]
         },
         "summary": { "type": "string", "minLength": 1 },
-        "evidence": { "type": "string", "minLength": 1 }
+        "archive/placeholders/evidence": { "type": "string", "minLength": 1 }
       }
     }
   }

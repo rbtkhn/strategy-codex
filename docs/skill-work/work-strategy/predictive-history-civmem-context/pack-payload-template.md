@@ -1,7 +1,7 @@
 # CIV-MEM pack payload template
 
 Use this as the **canonical structured payload** inside a future Predictive
-History evidence/media pack.
+History archive/placeholders/evidence/media pack.
 
 The payload should be stable, compact, and independent from the exact voice used
 for the visible context block.

@@ -25,12 +25,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS = Path(__file__).resolve().parent
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from fetch_strategy_raw_input import _slugify  # noqa: E402
 from youtube_transcripts.hashing import compute_content_hash  # noqa: E402
 
 PIPELINE_VERSION = "printing-press-scrape-creators-v1"
-DEFAULT_ARTIFACT_ROOT = REPO_ROOT / "artifacts" / "printing-press" / "scrape-creators"
+DEFAULT_ARTIFACT_ROOT = ARTIFACTS_DIR / "printing-press" / "scrape-creators"
 DEFAULT_CHANNEL_ROOT = REPO_ROOT / "research" / "external" / "youtube-channels"
 INSTALL_HINT = (
     "Printing Press scrape-creators CLI not found. Install/review first, for example: "

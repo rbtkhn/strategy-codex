@@ -54,7 +54,7 @@
     "Escalate when evidence linkage for a durable claim is missing or weak"
   ],
   "never_autonomous_actions": [
-    "Merge into self.md, self-evidence.md, or bot/prompt.py without companion-approved pipeline processing",
+    "Merge into self.md, self-evidence.md, or archive/grace-mar-instance/bot/prompt.py without companion-approved pipeline processing",
     "Alter language register policy without companion approval",
     "Publish campaign, X, or external copy without explicit human approval in scope"
   ],

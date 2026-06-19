@@ -39,13 +39,13 @@ Work lanes are for planning, judgment, notebooks, and execution support. They ar
 |------|------------|------|
 | **Session / harness paste** | Warmup output, operator menus, chat context | Weather, not policy; do not treat as SELF |
 | **MEMORY** | `self-memory.md` | Continuity; **not** a substitute for gated facts |
-| **Skill cards** | `artifacts/skill-cards/*.json` from [`build_skill_cards.py`](../scripts/build_skill_cards.py) | Derived from portable skills; [spec](skills/skill-card-spec.md) |
-| **Active lane compression** | `artifacts/context/active-lane-*.md` from [`compress_active_lane.py`](../scripts/compress_active_lane.py) | Points back to lane README and `self-work.md`; [doc](skill-work/active-lane-compression.md) |
+| **Skill cards** | `runtime/artifacts/skill-cards/*.json` from [`build_skill_cards.py`](../scripts/build_skill_cards.py) | Derived from portable skills; [spec](skills/skill-card-spec.md) |
+| **Active lane compression** | `runtime/artifacts/context/active-lane-*.md` from [`compress_active_lane.py`](../scripts/compress_active_lane.py) | Points back to lane README and `self-work.md`; [doc](skill-work/active-lane-compression.md) |
 | **Vector index** | `.chroma` | Retrieval aid; rebuild from Record |
 | **Runtime observations ledger** | `runtime/observations/index.jsonl` | Append-only work-lane notes; [README](../runtime/observations/README.md); not Record |
 | **Tacit capture** | `runtime/tacit/` (`inbox/`, `normalized/`, `candidates/`, optional `index.jsonl`) | Markdown intake → JSON → review-only candidates; [README](../runtime/tacit/README.md), [doc](tacit-capture/README.md); not Record |
 | **Retrieval-miss ledger** | `runtime/retrieval-misses/index.jsonl` | Append-only retrieval-miss log for debugging; [doc](retrieval-miss-ledger.md); not Record |
-| **Runtime memory payloads** | `src/grace_mar/runtime/runtime_memory.py` | Strategy Codex runtime-only payload builders for continuity, retrieval, and briefing; adjunct to the OB1 bridge; [doc](runtime/runtime-memory.md); not Record |
+| **Runtime memory payloads** | `platform/src/grace_mar/runtime/runtime_memory.py` | Strategy Codex runtime-only payload builders for continuity, retrieval, and briefing; adjunct to the OB1 bridge; [doc](runtime/runtime-memory.md); not Record |
 | **Hybrid retrieval** | `scripts/runtime/hybrid_retrieve.py` | Non-canonical ranked search across surfaces; [doc](hybrid-retrieval.md); not Record |
 | **Chunk indexes** | `runtime/chunks/**/*.chunks.jsonl` | Generated retrieval-aid chunks; rebuildable; [doc](chunked-retrieval.md); not Record |
 | **Runtime worker** | `runtime/runtime-worker/` (`proposals/`, `traces/index.jsonl`, `receipts/`) | Disposable inspect / optional LLM summary; [doc](runtime-worker.md), [execution receipts](runtime/execution-receipts.md); not Record |
@@ -73,9 +73,9 @@ If a runtime-only or derived surface cannot currently prove freshness, treat it 
 
 ## Must never bypass approval
 
-- No “helpful” merges into `self.md`, `self-archive.md`, or `bot/prompt.py` without **RECURSION-GATE** + documented merge path.
+- No “helpful” merges into `self.md`, `self-archive.md`, or `archive/grace-mar-instance/bot/prompt.py` without **RECURSION-GATE** + documented merge path.
 - No treating **derived** summaries as new facts in the Voice or Record.
-- No collapsing portable-record rationale schemas, rebuild receipts, and `/artifacts/` directory policy into one undifferentiated “artifact” concept.
+- No collapsing portable-record rationale schemas, rebuild receipts, and `/runtime/artifacts/` directory policy into one undifferentiated “artifact” concept.
 
 ---
 
@@ -108,5 +108,5 @@ Record changes still require separate staging and approval.
 
 - [conceptual-framework.md](conceptual-framework.md) — triad and knowledge boundary  
 - [docs/skill-work/context-efficiency-layer.md](skill-work/context-efficiency-layer.md) — CEL  
-- [artifacts/README.md](../artifacts/README.md) — derived artifact policy
+- [runtime/artifacts/README.md](../runtime/artifacts/README.md) — derived artifact policy
 - [portable-record/promotion-rules.md](portable-record/promotion-rules.md) — how approved external candidates enter canonical surfaces  

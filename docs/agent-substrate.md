@@ -42,7 +42,7 @@ External agents may:
 External agents may not:
 
 - approve, reject, or merge `recursion-gate.md` candidates on their own;
-- write directly to SELF, EVIDENCE, `bot/prompt.py`, or other protected Record surfaces;
+- write directly to SELF, EVIDENCE, `archive/grace-mar-instance/bot/prompt.py`, or other protected Record surfaces;
 - treat session memory, MCP output, web fetches, or successful tool calls as canonical truth;
 - substitute autonomous sensemaking for companion review.
 

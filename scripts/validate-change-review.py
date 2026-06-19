@@ -3,9 +3,9 @@
 Validate Companion-Self change-review artifacts.
 
 Usage:
-  python3 scripts/validate-change-review.py users/demo/review-queue
-  python3 scripts/validate-change-review.py users/_template/review-queue --allow-empty
-  python3 scripts/validate-change-review.py users/<id>/review-queue --allow-missing-decisions
+  python3 scripts/validate-change-review.py platform/users/demo/review-queue
+  python3 scripts/validate-change-review.py platform/users/platform/template/review-queue --allow-empty
+  python3 scripts/validate-change-review.py platform/users/<id>/review-queue --allow-missing-decisions
 """
 
 from __future__ import annotations
@@ -24,7 +24,7 @@ except ImportError:
 from cache import load_json_file
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_DIR = ROOT / "schema-registry"
+SCHEMA_DIR = ROOT / "schemas/registry"
 
 QUEUE_SCHEMA = SCHEMA_DIR / "change-review-queue.v1.json"
 EVENT_LOG_SCHEMA = SCHEMA_DIR / "change-event-log.v1.json"
@@ -58,7 +58,7 @@ def resolve_ref(base_dir: Path, ref: str) -> Path:
     ref_path = Path(ref)
     if ref_path.is_absolute():
         return ref_path
-    if ref.startswith("users/") or ref.startswith("schema-registry/") or ref.startswith("docs/") or ref.startswith("scripts/"):
+    if ref.startswith("platform/users/") or ref.startswith("schemas/registry/") or ref.startswith("docs/") or ref.startswith("scripts/"):
         return ROOT / ref_path
     return (base_dir / ref_path).resolve()
 

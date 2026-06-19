@@ -301,7 +301,7 @@ EQS (Evidence Quality Standards) validation with objective criteria:
 
 ```
 tools/cmc-console/
-├── app/                          # Next.js App Router
+├── platform/app/                          # Next.js App Router
 │   ├── api/                      # API route handlers
 │   ├── (dashboard)/              # Dashboard routes
 │   ├── file/                     # File viewer/editor

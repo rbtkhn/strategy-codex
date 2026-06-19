@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Render a human-readable Markdown table from the Agent Surfaces Control Plane JSON registry.
@@ -13,9 +14,9 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_REGISTRY = REPO_ROOT / "config" / "agent-surfaces.v1.json"
+DEFAULT_REGISTRY = REPO_ROOT / "platform/config" / "agent-surfaces.v1.json"
 DEFAULT_OUTPUT = (
-    REPO_ROOT / "artifacts" / "work-dev" / "agent-surfaces" / "agent-surfaces-table.md"
+    ARTIFACTS_DIR / "work-dev" / "agent-surfaces" / "agent-surfaces-table.md"
 )
 
 EM_DASH = "\u2014"
@@ -108,7 +109,7 @@ def build_markdown(registry: dict[str, Any]) -> str:
     lines: list[str] = [
         "# Agent Surfaces Table",
         "",
-        "Generated from `config/agent-surfaces.v1.json`.",
+        "Generated from `platform/config/agent-surfaces.v1.json`.",
         "",
         "This table is derived from the machine-readable Agent Sprawl Control Plane registry.",
         "The JSON registry remains authoritative.",

@@ -58,7 +58,7 @@ def main() -> int:
     parser.add_argument("--compact", action="store_true", help="Single-line output")
     args = parser.parse_args()
 
-    user_dir = REPO_ROOT / "users" / args.user
+    user_dir = REPO_ROOT / "platform/users" / args.user
     if not user_dir.exists():
         print(f"User dir not found: {user_dir}", file=sys.stderr)
         return 1
@@ -68,7 +68,7 @@ def main() -> int:
     session = _read(user_dir / "session-log.md")
 
     pending = _pending_count(pr)
-    last_act = _last_activity_date(evidence)
+    last_act = _last_activity_date(archive/placeholders/evidence)
     last_session = _last_session_line(session)
 
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")

@@ -163,7 +163,7 @@ Result: Consistent MERCOURIS fingerprint, reset pivots, structural
 
 **Optimization:**
 - Profile content is cached (similar to CIV–MEM–CORE)
-- Only key sections extracted (not full 2,300-word profile)
+- Only key sections extracted (not full 2,300-word platform/profile)
 - Mode-specific guidance is concise and targeted
 
 ---

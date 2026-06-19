@@ -53,7 +53,7 @@ python scripts/export_runtime_bundle.py --user grace-mar --mode adjunct_runtime 
 Or use the integration hook (supports format + event emission):
 
 ```bash
-python integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event
+python platform/integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event
 ```
 
 Output: Markdown suitable for OpenClaw `user.md` or `SOUL.md` (identity files), containing:
@@ -283,12 +283,12 @@ Artifacts do **not** auto-ingest. The companion must explicitly invoke the pipel
 
 ### Stage-only inbound hook (OpenClaw -> Grace-Mar)
 
-Use `integrations/openclaw_stage.py` to send OpenClaw output to `/stage` with provenance metadata. **Run `continuity_preflight.py` first** (see above) so the handback server accepts the request.
+Use `platform/integrations/openclaw_stage.py` to send OpenClaw output to `/stage` with provenance metadata. **Run `continuity_preflight.py` first** (see above) so the handback server accepts the request.
 
 ```bash
 python scripts/continuity_preflight.py -u grace-mar -r openclaw --fail-on-missing
-python integrations/openclaw_stage.py --user grace-mar --artifact ./outputs/session-note.md
-python integrations/openclaw_stage.py --user grace-mar --text "we explored fractions in OpenClaw"
+python platform/integrations/openclaw_stage.py --user grace-mar --artifact ./outputs/session-note.md
+python platform/integrations/openclaw_stage.py --user grace-mar --text "we explored fractions in OpenClaw"
 ```
 
 This path only stages to `RECURSION-GATE`; it never merges into the Record.
@@ -350,7 +350,7 @@ Agents append to the **Candidates** section. The companion reviews and changes `
 
 ### Analyst Logic
 
-Signal detection follows the same logic as `bot/prompt.py` ANALYST_PROMPT:
+Signal detection follows the same logic as `archive/grace-mar-instance/bot/prompt.py` ANALYST_PROMPT:
 
 | Signal | mind_category | Profile target |
 |--------|---------------|----------------|
@@ -385,7 +385,7 @@ Signal detection follows the same logic as `bot/prompt.py` ANALYST_PROMPT:
 ```bash
 python scripts/export_user_identity.py --user grace-mar -o openclaw-user.md
 python scripts/export_user_identity.py --user grace-mar -o openclaw/user.md
-python integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event
+python platform/integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event
 python scripts/export_runtime_bundle.py --user grace-mar --mode adjunct_runtime -o openclaw/runtime-bundle
 ```
 

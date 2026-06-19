@@ -26,7 +26,7 @@ A governed companion system should not rely on **agent self-reporting alone**. O
 
 | Surface | Typical source |
 |---------|----------------|
-| Proposal queue summary | `review-queue/proposals/*.json` (Change Proposal v1) |
+| Proposal queue summary | `archive/queues/review-queue/proposals/*.json` (Change Proposal v1) |
 | Validation status | Subprocess runs of `validate-change-review.py` (and optionally `validate-seed-phase.py`) |
 | Change-type summary | `changeType` field on proposals |
 | Touched surfaces | `targetSurface`, `primaryScope`, `secondaryScopes` |
@@ -40,7 +40,7 @@ A governed companion system should not rely on **agent self-reporting alone**. O
 The observability layer should help answer:
 
 1. **What changed recently?** — Inspect proposal `createdAt`, event logs, and instance merge history (outside this doc).
-2. **What is waiting for review?** — Count proposals by `status`; list open items under `review-queue/`.
+2. **What is waiting for review?** — Count proposals by `status`; list open items under `archive/queues/review-queue/`.
 3. **What failed validation?** — `validationSummary` in the generated report reflects **exit codes** from `scripts/validate-change-review.py` (and optional seed-phase validator), not guessed values.
 4. **What contradictions are still open?** — Use proposal `changeType` (e.g. `contradiction`) and [contradiction-policy.md](contradiction-policy.md); fine-grained contradiction taxonomies may land in future proposal fields.
 5. **What surfaces see the most proposal activity?** — `targetSurfaceCounts` and `scopeCounts` in the report.
@@ -58,14 +58,14 @@ The observability layer should help answer:
 
 ```bash
 python3 scripts/build-observability-report.py
-python3 scripts/build-observability-report.py --review-root _template/review-queue --skip-seed-validation
+python3 scripts/build-observability-report.py --review-root platform/template/review-queue --skip-seed-validation
 ```
 
 Default **`--review-root`** is **`demo/review-queue`**. Output: **`demo/observability/observability-report.json`** (directory created if missing).
 
 **Policy (template):** The demo report is **intended to be committed** when regenerated after meaningful demo or script changes so operators and CI can diff it. Regenerate with the script; do not hand-edit as source of truth. If an instance prefers not to commit reports, gitignore `**/observability-report.json` locally and document that choice.
 
-After the report shape is stable, it is validated against **`schema-registry/observability-report.v1.json`** by the same script (requires `jsonschema`).
+After the report shape is stable, it is validated against **`schemas/registry/observability-report.v1.json`** by the same script (requires `jsonschema`).
 
 ---
 

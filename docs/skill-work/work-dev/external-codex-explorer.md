@@ -21,9 +21,9 @@ Detail schemas:
 
 **Human-readable derivative:** Markdown **summarizes** deterministic facts (`*.neighborhood.md`, `*.family.md`). Safe as WORK exploration, not doctrine.
 
-**SSOT artifact schemas:** [`external-codex-neighborhood-report.v1.json`](../../../schema-registry/external-codex-neighborhood-report.v1.json), [`external-codex-family-report.v1.json`](../../../schema-registry/external-codex-family-report.v1.json)
+**SSOT artifact schemas:** [`external-codex-neighborhood-report.v1.json`](../../../schemas/registry/external-codex-neighborhood-report.v1.json), [`external-codex-family-report.v1.json`](../../../schemas/registry/external-codex-family-report.v1.json)
 
-**Outputs:** [`artifacts/external-codex/`](../../../artifacts/external-codex/README.md) (rebuildable; default generated artifacts may be gitignored â€” see bucket README).
+**Outputs:** [`runtime/artifacts/external-codex/`](../../../runtime/artifacts/external-codex/README.md) (rebuildable; default generated artifacts may be gitignored â€” see bucket README).
 
 ---
 
@@ -60,9 +60,9 @@ Where **neighborhood** answers â€œwhat sits beside **this one** path?â€
 
 **Firewall (same as neighborhood):** receipts are **derived**, **non-authoritative**, **no upstream edits**. Do **not** merge JSON/Markdown into Record or substitute structural graphs for MEM grounding / verify tier.
 
-**SSOT schema:** [`schema-registry/external-codex-family-report.v1.json`](../../../schema-registry/external-codex-family-report.v1.json)
+**SSOT schema:** [`schemas/registry/external-codex-family-report.v1.json`](../../../schemas/registry/external-codex-family-report.v1.json)
 
-**Builder:** [`scripts/build_external_codex_family_report.py`](../../../scripts/build_external_codex_family_report.py). Default JSON (`--output-json` omitted) lives under **`artifacts/external-codex/families/`** (gitignored).
+**Builder:** [`scripts/build_external_codex_family_report.py`](../../../scripts/build_external_codex_family_report.py). Default JSON (`--output-json` omitted) lives under **`runtime/artifacts/external-codex/families/`** (gitignored).
 
 JSON highlights: **`members[].connection_count`**, **`dominant_file_classes`**, **`dominant_civilizations`**, **`suggested_entry_points`** (top paths by `(-connection_count, path)`).
 
@@ -94,7 +94,7 @@ No embeddings; no semantic â€œfamilyâ€ beyond path/filename tokens.
 ## Non-authority reminder
 
 - Outputs stay **WORK receipts**.
-- **Do not** merge JSON/Markdown into **SELF**, **`bot/prompt.py`**, or **upstream**.
+- **Do not** merge JSON/Markdown into **SELF**, **`archive/grace-mar-instance/bot/prompt.py`**, or **upstream**.
 - **Do not** treat **`suggested_next_inspection`** as rankings of doctrinal importance â€” only deterministic exploration order.
 
 ---
@@ -124,7 +124,7 @@ Merge discipline matches [`instance-doctrine.md`](../../../instance-doctrine.md)
 - **IX-A:** Do **not** merge **substantive** claims mined from neighborhood graphs. **Rare exception:** companion-approved **meta** one-liner about **how** they work with civ paths (**human prose**, not schema dumps).
 - **IX-B:** Only if the companion **initiates** curiosity about tooling â€” **not** assistant-inferred from artifacts.
 - **IX-C:** Possible home for **working-style** lines **if** approved â€” **one sentence**, no file dumps.
-- **`bot/prompt.py`:** No explorer-derived injection unless the companion **explicitly** requests a minimal boundary line â€” **default: omit.**
+- **`archive/grace-mar-instance/bot/prompt.py`:** No explorer-derived injection unless the companion **explicitly** requests a minimal boundary line â€” **default: omit.**
 
 ---
 
@@ -136,7 +136,7 @@ JSON only:
 python3 scripts/build_external_codex_neighborhood.py \
   --checkout research/repos/civilization_memory \
   --subject content/civilizations/ROME/CIV--STATE--ROME.md \
-  --out-dir artifacts/external-codex
+  --out-dir runtime/artifacts/external-codex
 ```
 
 JSON + Markdown companion:
@@ -145,7 +145,7 @@ JSON + Markdown companion:
 python3 scripts/build_external_codex_neighborhood.py \
   --checkout research/repos/civilization_memory \
   --subject content/civilizations/ROME/CIV--STATE--ROME.md \
-  --out-dir artifacts/external-codex \
+  --out-dir runtime/artifacts/external-codex \
   --write-md
 ```
 
@@ -153,7 +153,7 @@ python3 scripts/build_external_codex_neighborhood.py \
 |------|---------|
 | `--checkout` | Directory relative to repo root (must exist). Default: `research/repos/civilization_memory`. |
 | `--subject` | Path relative to **checkout** (required). Use forward slashes. |
-| `--out-dir` | Directory for default `{stem}.json` (default: `artifacts/external-codex`). Created if missing. |
+| `--out-dir` | Directory for default `{stem}.json` (default: `runtime/artifacts/external-codex`). Created if missing. |
 | `--output-json` | Explicit JSON output path (optional). Relative paths resolve against **repo root**. |
 | `--write-md` | Write **`{stem}.neighborhood.md`** human-readable companion. |
 | `--output-md` | Explicit Markdown path (requires **`--write-md`**). Relative paths resolve against **repo root**. |
@@ -171,10 +171,10 @@ python3 scripts/build_external_codex_family_report.py \
   --repo-path research/repos/civilization_memory \
   --selector-type civilization \
   --selector-value ROME \
-  --output-json artifacts/external-codex/families/civilization__ROME.json
+  --output-json runtime/artifacts/external-codex/families/civilization__ROME.json
 ```
 
-JSON + Markdown companion (default output dir **`artifacts/external-codex/families/`** when `--output-json` is omitted):
+JSON + Markdown companion (default output dir **`runtime/artifacts/external-codex/families/`** when `--output-json` is omitted):
 
 ```bash
 python3 scripts/build_external_codex_family_report.py \
@@ -189,7 +189,7 @@ python3 scripts/build_external_codex_family_report.py \
 | `--repo-path` | Checkout directory (required). Relative to **`--repo-root`** or absolute. |
 | `--selector-type` | `civilization` or `file_class`. |
 | `--selector-value` | Civilization folder id or inferred file-class label. |
-| `--output-json` | Explicit JSON path (optional; default under **`artifacts/external-codex/families/`**). |
+| `--output-json` | Explicit JSON path (optional; default under **`runtime/artifacts/external-codex/families/`**). |
 | `--write-md` | Write **`{stem}.family.md`** companion. |
 | `--output-md` | Explicit Markdown path (requires **`--write-md`**). |
 | `--member-limit` | Cap members enumerated (default 5000); sets **`truncated`** when hit. |
@@ -247,6 +247,6 @@ Fixed integer score from edge weight + civ/class/section bonuses; top **5** uniq
 
 ## See also
 
-- [`artifacts/external-codex/README.md`](../../../artifacts/external-codex/README.md)
+- [`runtime/artifacts/external-codex/README.md`](../../../runtime/artifacts/external-codex/README.md)
 - CI checkout helper: [`scripts/ci/clone_civilization_memory.sh`](../../../scripts/ci/clone_civilization_memory.sh)
 

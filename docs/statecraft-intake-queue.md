@@ -55,7 +55,7 @@ The intake queue **extends** this ladder; it does not replace archive truth or d
 **Path:**
 
 ```text
-artifacts/statecraft-intake-queue/<pub_date>/<source-stem>.v1.json
+runtime/artifacts/statecraft-intake-queue/<pub_date>/<source-stem>.v1.json
 ```
 
 - `<source-stem>` = archive filename without `.md`
@@ -63,7 +63,7 @@ artifacts/statecraft-intake-queue/<pub_date>/<source-stem>.v1.json
 - Sidecars are **`runtime / derived`** ([work-membrane-v2.md](work-membrane-v2.md)) — rebuildable, not canonical truth
 - v0 scripts **never** edit archive body markdown
 
-**Schema:** [schema-registry/statecraft-intake-sidecar.v1.json](../schema-registry/statecraft-intake-sidecar.v1.json)
+**Schema:** [schemas/registry/statecraft-intake-sidecar.v1.json](../schemas/registry/statecraft-intake-sidecar.v1.json)
 
 ### `synthesis_status`
 
@@ -128,7 +128,7 @@ python3 scripts/statecraft_intake_queue.py --day 2026-06-14 --emit-sidecars
 
 # Intake digest (stdout or file)
 python3 scripts/statecraft_intake_queue.py --day 2026-06-14 --write-digest
-python3 scripts/statecraft_intake_queue.py --day 2026-06-14 --write-digest --digest-out artifacts/statecraft-intake-queue/digest-2026-06-14.md
+python3 scripts/statecraft_intake_queue.py --day 2026-06-14 --write-digest --digest-out runtime/artifacts/statecraft-intake-queue/digest-2026-06-14.md
 ```
 
 **Recommended post-land sequence:**
@@ -149,4 +149,4 @@ Digest template: [statecraft/daily/intake-digest-TEMPLATE.md](../statecraft/dail
 - [conductor SKILL — Kleiber compact menu](../.cursor/skills/conductor/SKILL.md) (default post-intake **A. Allegro**: sync + queue report)
 - [coffee / menu-reference — Statecraft intake closeout](skill-work/work-coffee/menu-reference.md#statecraft-intake-closeout)
 - [statecraft-source-intake skill](../.cursor/skills/statecraft-source-intake/SKILL.md)
-- [artifacts/statecraft-intake-queue/README.md](../artifacts/statecraft-intake-queue/README.md)
+- [runtime/artifacts/statecraft-intake-queue/README.md](../runtime/artifacts/statecraft-intake-queue/README.md)

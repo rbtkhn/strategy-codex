@@ -5,7 +5,7 @@ No numerical proportions. Source: CIV–MEM–CORE VP-1.g; cmc-blend-law.
 
 ## File types
 
-- **GEO–MEM:** Primary = Mearsheimer (structural/power, terrain). Secondary = Mercouris (ARC quotes, civilizational evidence). Barnes dimension required.
+- **GEO–MEM:** Primary = Mearsheimer (structural/power, terrain). Secondary = Mercouris (ARC quotes, civilizational archive/placeholders/evidence). Barnes dimension required.
 - **Subject MEM:** Primary = Mercouris (narrative, legitimacy). Secondary = Mearsheimer (constraints). Barnes dimension required.
 
 ## Section role (who leads)

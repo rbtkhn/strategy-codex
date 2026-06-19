@@ -3,8 +3,8 @@
 Generate a human-readable Markdown diff from a structured identity-diff JSON artifact.
 
 Usage:
-  python3 scripts/generate-identity-diff.py demo/review-queue/diffs/diff-001.json
-  python3 scripts/generate-identity-diff.py demo/review-queue/diffs/diff-001.json --output demo/review-queue/identity_diff.md
+  python3 scripts/generate-identity-diff.py demo/archive/queues/review-queue/diffs/diff-001.json
+  python3 scripts/generate-identity-diff.py demo/archive/queues/review-queue/diffs/diff-001.json --output demo/archive/queues/review-queue/identity_diff.md
 """
 
 from __future__ import annotations

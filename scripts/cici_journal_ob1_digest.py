@@ -52,7 +52,7 @@ DEFAULT_BRANCH = "main"
 SESSION_TRANSCRIPT_MAX_LINES = 80
 SESSION_TRANSCRIPT_MAX_CHARS = 12000
 DEFAULT_STRATEGY_NOTEBOOK_MAX_CHARS = 10000
-DEFAULT_SESSION_TRANSCRIPT = REPO_ROOT / "users" / "grace-mar" / "session-transcript.md"
+DEFAULT_SESSION_TRANSCRIPT = REPO_ROOT / "platform/users" / "grace-mar" / "session-transcript.md"
 
 
 def _env_truthy(*keys: str) -> bool:
@@ -78,7 +78,7 @@ class CommitLine:
 
 @dataclass
 class DayContext:
-    """L2/L3 inputs merged into the journal (inbox, transcript, strategy notebook, artifacts)."""
+    """L2/L3 inputs merged into the journal (inbox, transcript, strategy notebook, runtime/artifacts)."""
 
     inbox_markdown: str | None = None
     inbox_provenance: list[str] = field(default_factory=list)
@@ -262,7 +262,7 @@ def _artifacts_from_yaml_block(fm: str) -> list[str]:
         try:
             data = yaml.safe_load(fm)
             if isinstance(data, dict):
-                a = data.get("artifacts")
+                a = data.get("runtime/artifacts")
                 if isinstance(a, list):
                     return [str(x).strip() for x in a if str(x).strip()]
                 if isinstance(a, str) and a.strip():
@@ -632,7 +632,7 @@ def main() -> None:
     ap.add_argument(
         "--users-dir",
         type=Path,
-        default=REPO_ROOT / "users",
+        default=REPO_ROOT / "platform/users",
         help="Users directory (for last-dream.json when using --catch-up-from-last-dream)",
     )
     ap.add_argument(

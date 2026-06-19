@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Create a dated work note from docs/templates/work-note-template.md.
@@ -28,8 +29,8 @@ def main() -> int:
     ap.add_argument(
         "--output",
         type=Path,
-        default=REPO_ROOT / "artifacts" / "work-notes",
-        help="Output directory (default: artifacts/work-notes/)",
+        default=ARTIFACTS_DIR / "work-notes",
+        help="Output directory (default: runtime/artifacts/work-notes/)",
     )
     ap.add_argument("--date", default=None, help="YYYY-MM-DD (default: today local)")
     ap.add_argument("--repo-root", type=Path, default=None, help="Repo root (default: inferred)")

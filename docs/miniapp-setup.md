@@ -30,21 +30,21 @@ Generate and deploy:
 python3 scripts/generate_profile.py
 ```
 
-Push to `main` or run the workflow manually. `.github/workflows/pages.yml` generates the profile and deploys `profile/` to the `gh-pages` branch. Enable GitHub Pages in the repo (Settings → Pages → Source: Deploy from branch → branch: `gh-pages`, folder: `/ (root)`). Point **grace-mar.com** at the Pages site (Settings → Pages → Custom domain) so the profile lives at https://grace-mar.com.
+Push to `main` or run the workflow manually. `.github/workflows/pages.yml` generates the profile and deploys `platform/profile/` to the `gh-pages` branch. Enable GitHub Pages in the repo (Settings → Pages → Source: Deploy from branch → branch: `gh-pages`, folder: `/ (root)`). Point **grace-mar.com** at the Pages site (Settings → Pages → Custom domain) so the profile lives at https://grace-mar.com.
 
 ## 2. Q&A Mini App (Mini App + API)
 
 The Q&A app consists of:
 
-- Static UI: `miniapp/index.html`
+- Static UI: `platform/miniapp/index.html`
 - API: `POST /api/ask` with `{ "message": "..." }` → `{ "response": "..." }`
-- Server: `apps/miniapp_server.py` serves both
+- Server: `platform/apps/miniapp_server.py` serves both
 
 ### Run locally
 
 ```bash
 pip install -r requirements.txt
-OPENAI_API_KEY=sk-... python apps/miniapp_server.py
+OPENAI_API_KEY=sk-... python platform/apps/miniapp_server.py
 ```
 
 Open http://localhost:5000 for the Q&A Mini App. For the **family hub**, set `FAMILY_APP_TOKEN` in `.env`, restart, then open http://localhost:5000/app and paste the token (or use `/app?t=<token>` once).
@@ -67,7 +67,7 @@ Practical rule: treat them as two local islands that happen to share the same ma
 
 **Cookie caveat:** cookies are less cleanly separated because they are host-based rather than port-based. Current local-dev auth in these surfaces mostly uses browser storage and explicit headers/tokens, so cross-port confusion should be low unless you add cookie-based auth later.
 
-**Sync policy note:** this local-dev split is also the architecture split. Grace-Mar’s `miniapp/` and family/operator surfaces are instance deployment code, not a default file-for-file mirror of `companion-self/app/`. Template app code is an optional parity surface; docs/specs remain the normal upstream sync vehicle unless you intentionally choose implementation parity.
+**Sync policy note:** this local-dev split is also the architecture split. Grace-Mar’s `platform/miniapp/` and family/operator surfaces are instance deployment code, not a default file-for-file mirror of `companion-self/platform/app/`. Template app code is an optional parity surface; docs/specs remain the normal upstream sync vehicle unless you intentionally choose implementation parity.
 
 For Telegram testing, expose with ngrok:
 
@@ -87,7 +87,7 @@ ngrok http 5000
 **Render**
 
 - **Option A — Blueprint:** Add `render.yaml` to your repo. In Render Dashboard → New → Blueprint, connect the repo. Both the Mini App (web) and the bot (worker) will be created. Set env vars in each service’s Environment tab.
-- **Option B — Manual:** New Web Service, connect repo. Build: `pip install -r requirements.txt`. Start: `python apps/miniapp_server.py`. Set `OPENAI_API_KEY`, and optionally `GITHUB_TOKEN`, `GRACE_MAR_REPO`.
+- **Option B — Manual:** New Web Service, connect repo. Build: `pip install -r requirements.txt`. Start: `python platform/apps/miniapp_server.py`. Set `OPENAI_API_KEY`, and optionally `GITHUB_TOKEN`, `GRACE_MAR_REPO`.
 
 ### Archive (session transcript)
 
@@ -99,7 +99,7 @@ On Render, the filesystem is ephemeral, so SESSION-TRANSCRIPT written by the Min
 
 ### Family hub (`/app`)
 
-**Env:** Set **`FAMILY_APP_TOKEN`** to a long random string (same host as `apps/miniapp_server.py`). Optional bookmark: `https://<host>/app?t=<FAMILY_APP_TOKEN>` — the app stores the token in the browser after the first load.
+**Env:** Set **`FAMILY_APP_TOKEN`** to a long random string (same host as `platform/apps/miniapp_server.py`). Optional bookmark: `https://<host>/app?t=<FAMILY_APP_TOKEN>` — the app stores the token in the browser after the first load.
 
 **APIs (require header `X-Family-Token: <FAMILY_APP_TOKEN>`):**
 
@@ -125,14 +125,14 @@ The `render.yaml` blueprint runs the Telegram bot via **webhook** on the miniapp
 
 - `TELEGRAM_BOT_TOKEN` — from @BotFather (when set, webhook is enabled)
 - `OPENAI_API_KEY`
-- `PROFILE_MINIAPP_URL` — URL opened by the Telegram menu button (e.g. **https://grace-mar.com** for the profile); `DASHBOARD_MINIAPP_URL` still supported
+- `PROFILE_MINIAPP_URL` — URL opened by the Telegram menu button (e.g. **https://grace-mar.com** for the platform/profile); `DASHBOARD_MINIAPP_URL` still supported
 - Session transcript is written locally; SELF-ARCHIVE is updated only on merge (no GITHUB_TOKEN needed for archiving).
 
 See [TELEGRAM-WEBHOOK-SETUP](telegram-webhook-setup.md) for details and migration from polling.
 
 ## 4. Bot env (local)
 
-When running the bot locally, set in `bot/.env`:
+When running the bot locally, set in `archive/grace-mar-instance/bot/.env`:
 
 ```env
 PROFILE_MINIAPP_URL=https://grace-mar.com

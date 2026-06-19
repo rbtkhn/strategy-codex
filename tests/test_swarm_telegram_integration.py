@@ -11,8 +11,8 @@ from pathlib import Path
 import pytest
 
 ROOT = Path(__file__).resolve().parent.parent
-SHARED = ROOT / "auto-research" / "_shared"
-SWARM = ROOT / "auto-research" / "swarm"
+SHARED = ROOT / "research/auto-research" / "_shared"
+SWARM = ROOT / "research/auto-research" / "swarm"
 
 
 def _load(name: str, path: Path):
@@ -34,7 +34,7 @@ def _sample_payload() -> dict:
         "candidate_bundle": {
             "title": "Auto-research grounded proposal",
             "summary": "Create a grounded SELF-facing candidate with explicit source exchange.",
-            "source": "operator — auto-research/self-proposals",
+            "source": "operator — research/auto-research/self-proposals",
             "source_exchange": {
                 "operator": "We observed a repeatable preference in a bounded session with enough detail to ground review."
             },
@@ -64,15 +64,15 @@ def _accepted_artifact() -> dict:
 def test_shared_promote_artifact_writes_staged_event(tmp_path, monkeypatch):
     helper = _load("artifact_promotion_shared_test", SHARED / "artifact_promotion.py")
     tmp_repo = tmp_path / "repo"
-    artifact_path = tmp_repo / "auto-research" / "self-proposals" / "accepted" / "accepted-test.json"
-    gate_path = tmp_repo / "users" / "demo" / "recursion-gate.md"
+    artifact_path = tmp_repo / "research/auto-research" / "self-proposals" / "accepted" / "accepted-test.json"
+    gate_path = tmp_repo / "platform/users" / "demo" / "recursion-gate.md"
     artifact_path.parent.mkdir(parents=True)
     gate_path.parent.mkdir(parents=True)
     artifact_path.write_text(json.dumps(_accepted_artifact(), indent=2) + "\n", encoding="utf-8")
     gate_path.write_text("# Gate\n\n## Candidates\n\n## Processed\n", encoding="utf-8")
 
     monkeypatch.setattr(helper, "REPO_ROOT", tmp_repo)
-    monkeypatch.setattr(helper, "profile_dir", lambda user_id: tmp_repo / "users" / user_id)
+    monkeypatch.setattr(helper, "profile_dir", lambda user_id: tmp_repo / "platform/users" / user_id)
     monkeypatch.setattr(helper, "read_path", lambda path: path.read_text(encoding="utf-8"))
     events: list[dict] = []
 
@@ -95,7 +95,7 @@ def test_shared_promote_artifact_writes_staged_event(tmp_path, monkeypatch):
         user_id="demo",
         review_note="Operator reviewed grounding and wants gate visibility.",
         lane_name="swarm",
-        candidate_source="auto-research/swarm",
+        candidate_source="research/auto-research/swarm",
         extra_auto_research_metadata={"swarm_origin_lane": "self-proposals"},
     )
 
@@ -104,10 +104,10 @@ def test_shared_promote_artifact_writes_staged_event(tmp_path, monkeypatch):
 
     assert result["candidate_id"] == "CANDIDATE-0001"
     assert 'lane: "swarm"' in updated_gate
-    assert 'candidate_source: "auto-research/swarm"' in updated_gate
+    assert 'candidate_source: "research/auto-research/swarm"' in updated_gate
     assert 'swarm_origin_lane: "self-proposals"' in updated_gate
     assert events[0]["event_type"] == "staged"
-    assert events[0]["merge"]["candidate_source"] == "auto-research/swarm"
+    assert events[0]["merge"]["candidate_source"] == "research/auto-research/swarm"
     assert artifact["staged_candidate_id"] == "CANDIDATE-0001"
     assert artifact["promotion_lane"] == "swarm"
 
@@ -115,8 +115,8 @@ def test_shared_promote_artifact_writes_staged_event(tmp_path, monkeypatch):
 def test_swarm_orchestrator_refreshes_state(tmp_path, monkeypatch):
     orchestrator = _load("swarm_orchestrator_state_test", SWARM / "orchestrator.py")
     tmp_repo = tmp_path / "repo"
-    accepted_dir = tmp_repo / "auto-research" / "self-proposals" / "accepted"
-    swarm_dir = tmp_repo / "auto-research" / "swarm"
+    accepted_dir = tmp_repo / "research/auto-research" / "self-proposals" / "accepted"
+    swarm_dir = tmp_repo / "research/auto-research" / "swarm"
     accepted_dir.mkdir(parents=True)
     swarm_dir.mkdir(parents=True)
 
@@ -131,7 +131,7 @@ def test_swarm_orchestrator_refreshes_state(tmp_path, monkeypatch):
     older.write_text(json.dumps(second, indent=2) + "\n", encoding="utf-8")
 
     monkeypatch.setattr(orchestrator, "REPO_ROOT", tmp_repo)
-    monkeypatch.setattr(orchestrator, "AUTO_RESEARCH_DIR", tmp_repo / "auto-research")
+    monkeypatch.setattr(orchestrator, "AUTO_RESEARCH_DIR", tmp_repo / "research/auto-research")
     monkeypatch.setattr(orchestrator, "SWARM_DIR", swarm_dir)
     monkeypatch.setattr(orchestrator, "STATE_PATH", swarm_dir / "swarm-state.json")
     monkeypatch.setattr(
@@ -140,7 +140,7 @@ def test_swarm_orchestrator_refreshes_state(tmp_path, monkeypatch):
         (
             {
                 "lane": "self-proposals",
-                "candidate_source": "auto-research/swarm",
+                "candidate_source": "research/auto-research/swarm",
                 "accepted_dir": accepted_dir,
             },
         ),
@@ -165,7 +165,7 @@ def test_swarm_orchestrator_runs_auto_dream(monkeypatch):
                 "user_id": user_id,
                 "apply": apply,
                 "emit_event": emit_event,
-                "write_artifacts": write_artifacts,
+                "write_runtime/artifacts": write_artifacts,
                 "strict_mode": strict_mode,
             }
         )
@@ -180,7 +180,7 @@ def test_swarm_orchestrator_runs_auto_dream(monkeypatch):
             "user_id": "demo",
             "apply": False,
             "emit_event": False,
-            "write_artifacts": False,
+            "write_runtime/artifacts": False,
             "strict_mode": True,
         }
     ]
@@ -209,7 +209,7 @@ class _DummyContext:
 def _load_bot_module():
     try:
         import telegram  # noqa: F401
-        return importlib.import_module("bot.bot")
+        return importlib.import_module("bot.archive/grace-mar-instance/bot")
     except Exception as exc:  # pragma: no cover - environment-dependent skip
         pytest.skip(f"bot module unavailable in test environment: {exc}")
 
@@ -246,7 +246,7 @@ def test_swarm_promote_command_stages_candidate(monkeypatch):
         assert kwargs["user_id"] == bot_mod.USER_ID
         return {
             "candidate_id": "CANDIDATE-0101",
-            "artifact_relpath": "auto-research/self-proposals/accepted/example.json",
+            "artifact_relpath": "research/auto-research/self-proposals/accepted/example.json",
         }
 
     monkeypatch.setattr(bot_mod, "_run_blocking", _fake_run_blocking)

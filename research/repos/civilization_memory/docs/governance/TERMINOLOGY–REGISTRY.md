@@ -39,7 +39,7 @@ the system's terms of art.
 | CIV–CORE | Civilization core engine | Houses axioms, diagnostics, constraint gates. "Civilization file" doesn't capture that it's an engine, not a description. |
 | CIV–SCHOLAR | SCHOLAR file | Learning ledger with structured entries, syntheses, RLL proposals, and confidence levels. "Learning file" undershoots the governance. |
 | CIV–DOCTRINE | Doctrine registry | Registry of accepted doctrines (permanent except when user explicitly modifies). Doctrines derive from syntheses accepted by DIB; evidence gating applies. Synthesis is by definition evolving; axiom and doctrine are permanent. **Deprecated:** "frozen"/"unfrozen" — use "accepted as doctrine" and "permanent" / "evolving" instead. |
-| CIV–STATE | STATE file | Decision-support file that serves as cognitive exoskeleton for the head of state: extends the principal's cognitive reach (options, precedent, disconfirming evidence) without substituting for judgment. Distinct temporal orientation (present), register, and audience from SCHOLAR. Renamed from CIV–COUNSEL (2026-02-11). |
+| CIV–STATE | STATE file | Decision-support file that serves as cognitive exoskeleton for the head of state: extends the principal's cognitive reach (options, precedent, disconfirming archive/placeholders/evidence) without substituting for judgment. Distinct temporal orientation (present), register, and audience from SCHOLAR. Renamed from CIV–COUNSEL (2026-02-11). |
 | CIV–INDEX | Index file | Registration file. Self-explanatory as file-type name. |
 | CIV–ARC | ARC file | Per-civilization academic reference canon. Self-explanatory as file-type name. |
 

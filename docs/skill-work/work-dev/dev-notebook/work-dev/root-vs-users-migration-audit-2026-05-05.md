@@ -15,9 +15,9 @@ This is a `work-dev` audit note, not a Record change and not a gate artifact.
 This pass looked only at the migration family:
 
 - repo-root governed surfaces
-- `users/grace-mar/` removals and residual mirrors
-- `users/_template/` removals
-- scripts/docs that still assume `users/<id>/...`
+- `platform/users/grace-mar/` removals and residual mirrors
+- `platform/users/platform/template/` removals
+- scripts/docs that still assume `platform/users/<id>/...`
 
 It explicitly does **not** judge the large `codex/`, `docs/`, or strategy-content edits except where they interact with the migration.
 
@@ -25,7 +25,7 @@ It explicitly does **not** judge the large `codex/`, `docs/`, or strategy-conten
 
 ### 1. Root governed surfaces now exist
 
-The expected repo-root counterparts are present for the major deleted `users/grace-mar` files:
+The expected repo-root counterparts are present for the major deleted `platform/users/grace-mar` files:
 
 - `self.md`
 - `self-library.md`
@@ -54,9 +54,9 @@ Active modified root governed surfaces include:
 
 These are the surfaces the scripts should now treat as canonical.
 
-### 3. `users/_template/` looks intentionally retired
+### 3. `platform/users/platform/template/` looks intentionally retired
 
-The broad deletion of `users/_template/` is internally consistent with the root-layout direction:
+The broad deletion of `platform/users/platform/template/` is internally consistent with the root-layout direction:
 
 - root-level record/state files are being established
 - the old user-template tree is being removed rather than maintained in parallel
@@ -67,7 +67,7 @@ This is large, but it reads as one migration move, not random churn.
 
 ### 1. Script path assumptions still lag the migration
 
-Several scripts still hardcode `REPO_ROOT / "users" / user_id / ...` for gate or continuity surfaces.
+Several scripts still hardcode `REPO_ROOT / "platform/users" / user_id / ...` for gate or continuity surfaces.
 
 Highest-risk hotlist from this audit:
 
@@ -87,9 +87,9 @@ These are dangerous because they operate near:
 
 They can silently recreate the same class of root-layout failure already seen in the John Adams bookshelf path.
 
-### 2. `users/grace-mar/` still contains live-looking mirrors
+### 2. `platform/users/grace-mar/` still contains live-looking mirrors
 
-Even though many files were deleted there, some still remain modified under `users/grace-mar/`, including:
+Even though many files were deleted there, some still remain modified under `platform/users/grace-mar/`, including:
 
 - `compute-ledger.jsonl`
 - `fork-lineage.jsonl`
@@ -99,22 +99,22 @@ Even though many files were deleted there, some still remain modified under `use
 - `llms.txt`
 - `manifest.json`
 - `pipeline-events.jsonl`
-- `runtime-bundle/*`
+- `runtime/bundle/*`
 
 This creates an ambiguous state:
 
 - some truth appears to have moved to root
-- some generated/runtime mirrors still live under `users/grace-mar/`
+- some generated/runtime mirrors still live under `platform/users/grace-mar/`
 
 That is not necessarily wrong, but it is risky until the contract is explicit:
 
 - root-only
-- root canonical plus `users/grace-mar` mirror
+- root canonical plus `platform/users/grace-mar` mirror
 - or transitional dual-surface
 
 ### 3. Accidental compatibility residue reappeared
 
-An unwanted `users/strategy-codex/` subtree was present again during this audit.
+An unwanted `platform/users/strategy-codex/` subtree was present again during this audit.
 
 It contained:
 
@@ -123,14 +123,14 @@ It contained:
 - `fork_state.json`
 - `harness-events.jsonl`
 - `pipeline-events.jsonl`
-- `review-queue/boundary-classifications/CANDIDATE-0058.json`
-- `review-queue/boundary-classifications/CANDIDATE-0059.json`
+- `archive/queues/review-queue/boundary-classifications/CANDIDATE-0058.json`
+- `archive/queues/review-queue/boundary-classifications/CANDIDATE-0059.json`
 
 This subtree was removed during this pass.
 
 Why it matters:
 
-- it directly conflicts with the operator’s stated rule that this workspace should not grow a fake `users/strategy-codex/` compatibility layer
+- it directly conflicts with the operator’s stated rule that this workspace should not grow a fake `platform/users/strategy-codex/` compatibility layer
 - it can mask script bugs by making the wrong path appear to work
 
 ## Working interpretation
@@ -140,7 +140,7 @@ The migration appears to be:
 - **conceptually intentional**
 - **operationally incomplete**
 
-The repo is no longer in a clean `users/grace-mar` world, but it is also not yet fully normalized to repo-root assumptions across tooling and derived mirrors.
+The repo is no longer in a clean `platform/users/grace-mar` world, but it is also not yet fully normalized to repo-root assumptions across tooling and derived mirrors.
 
 So the right reading is:
 
@@ -153,8 +153,8 @@ So the right reading is:
 Treat the next migration-only code slice as:
 
 1. normalize the six high-risk scripts above to `profile_dir(...)`
-2. verify they no longer create or expect `users/strategy-codex/`
-3. document whether `users/grace-mar/` remaining runtime files are:
+2. verify they no longer create or expect `platform/users/strategy-codex/`
+3. document whether `platform/users/grace-mar/` remaining runtime files are:
    - canonical mirrors
    - temporary compatibility artifacts
    - or stale residue to retire later

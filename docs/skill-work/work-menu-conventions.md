@@ -212,5 +212,5 @@ Dated WORK outputs (daily brief, weekly scaffold, newsletter digest, optional `m
 - [Operatorâ€“agent lanes](../../operator-agent-lanes.md)
 - [Coffee skill](../../../.cursor/skills/coffee/SKILL.md)
 - [Work territory history logs](work-modules-history-principle.md) (`docs/skill-work/work-*/*-history.md`)
-- [Bootstrap â€” coffee](../../../bootstrap/grace-mar-bootstrap.md)
+- [Bootstrap â€” coffee](../../../archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md)
 - [Date and time formats](../date-time-conventions.md)

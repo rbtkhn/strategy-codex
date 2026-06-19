@@ -18,14 +18,14 @@ Lockfile: 180 paths pinned (last sync: 2026-04-06T22:22:09)
   - docs/state-model.md — ⬆ instance moved
   - docs/voice-runtime-config.md — ⬇ upstream moved
   - runtime_config.example.json — ⬇ upstream moved
-  - schema-registry/identity-diff.v1.json — ⬇ upstream moved
+  - schemas/registry/identity-diff.v1.json — ⬇ upstream moved
   - scripts/build-observability-report.py — ⬇ upstream moved
   - scripts/cadence-coffee.py — ⬇ upstream moved
   - scripts/log_cadence_event.py — ⬆⬇ both moved
   - scripts/stage-evidence.py — ⬇ upstream moved
-  - _template/recursion-gate.md — ⬆ instance moved
-  - _template/self-skill-think.md — ⬆ instance moved
-  - _template/work-dev.md — ⬇ upstream moved
+  - platform/template/recursion-gate.md — ⬆ instance moved
+  - platform/template/self-skill-think.md — ⬆ instance moved
+  - platform/template/work-dev.md — ⬇ upstream moved
 
 ### Expected drift (policy-documented; not a parity defect)
   - **docs/identity-fork-protocol.md** — Grace-mar holds IFP v1.0 full reference spec; companion-self ships the short form with a link to the full spec. Do not overwrite the instance file with the template short form on bulk sync.
@@ -35,11 +35,11 @@ Lockfile: 180 paths pinned (last sync: 2026-04-06T22:22:09)
 Machine list: `docs/skill-work/work-companion-self/expected-template-drift.json`
 
 ### Same (no action)
-  - app/observability/.gitkeep
-  - bridges/bridge-schema.json
-  - config/authority-map.json
-  - config/seed-promotion-rules.json
-  - config/source-of-truth.json
+  - platform/app/observability/.gitkeep
+  - research/bridges/bridge-schema.json
+  - platform/config/authority-map.json
+  - platform/config/seed-promotion-rules.json
+  - platform/config/source-of-truth.json
   - docs/CONTRADICTION-ENGINE-SPEC.md
   - docs/action-receipts.md
   - docs/authority-map.md

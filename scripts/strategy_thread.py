@@ -4,7 +4,7 @@
 After **``thread:<expert_id>``** paste-ready lines are in
 ``codex/daily-strategy-inbox.md``, run (from repo root)::
 
-    bin/thread
+    platform/bin/thread
 
 or::
 

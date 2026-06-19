@@ -8,7 +8,7 @@
 
 ## Portable skills (execution / operator)
 
-- **Location:** [skills-portable/README.md](../skills-portable/README.md), `.cursor/skills/`, discovery ladder in portable README.
+- **Location:** [skills/README.md](../skills/README.md), `.cursor/skills/`, discovery ladder in portable README.
 - **Role:** Reusable **workflows** for Cursor/agents â€” drafts, staging, scripts â€” **not** automatic Record truth.
 - **Governance:** Does not replace the gate; may **stage** candidates only.
 

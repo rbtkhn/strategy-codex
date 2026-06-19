@@ -24,7 +24,7 @@ Brief scan for at least 2% efficiency gains. Focus: I/O reduction, duplicate wor
 
 ---
 
-## 3. **bot/retriever.py — Optional in-process cache for load_record_chunks() (implemented)**
+## 3. **archive/grace-mar-instance/bot/retriever.py — Optional in-process cache for load_record_chunks() (implemented)**
 
 **Issue:** `load_record_chunks()` reads SELF, SKILLS, EVIDENCE, WORK on every call. In a single bot session with multiple lookups, the same files are read repeatedly.
 

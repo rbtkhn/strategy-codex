@@ -35,7 +35,7 @@ if str(REPO_ROOT) not in sys.path:
 
 from dotenv import load_dotenv
 
-from repo_io import fork_root, load_fork_config
+from repo_io import fork_root, load_fork_config, BOT_DIR, artifacts_dir
 
 MODES = ("conservative", "exploratory", "value-aligned")
 
@@ -274,7 +274,7 @@ def _build_report(
 
 def main() -> int:
     load_dotenv(REPO_ROOT / ".env")
-    load_dotenv(REPO_ROOT / "bot" / ".env")
+    load_dotenv(BOT_DIR / ".env")
 
     ap = argparse.ArgumentParser(description="Simulate fork decision for a scenario (grounded)")
     ap.add_argument("-u", "--user", default=os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar")
@@ -285,12 +285,12 @@ def main() -> int:
     ap.add_argument("--parallel", type=int, default=3, help="Max concurrent LLM calls")
     ap.add_argument("--max-wall-seconds", type=float, default=180.0)
     ap.add_argument("--max-tokens", type=int, default=350)
-    ap.add_argument("--git-ref", default=None, help="Git ref (tag/commit) to materialize <user>/ into a temp profile")
+    ap.add_argument("--git-ref", default=None, help="Git ref (tag/commit) to materialize <user>/ into a temp platform/profile")
     ap.add_argument(
         "--output",
         "-o",
         default=None,
-        help="Report markdown path (default: <user>/artifacts/simulation-reports/YYYY-MM-DD_sim.md)",
+        help="Report markdown path (default: <user>/runtime/artifacts/simulation-reports/YYYY-MM-DD_sim.md)",
     )
     ap.add_argument("--use-chroma", action="store_true", help="Merge Chroma snippets when index + OPENAI_API_KEY exist")
     ap.add_argument("--auto-stage", action="store_true", help="Stage full report to recursion-gate as SIMULATION_RESULT")
@@ -304,7 +304,7 @@ def main() -> int:
 
     os.environ["GRACE_MAR_USER_ID"] = args.user
 
-    artifact_dir = fork_root(args.user) / "artifacts" / "simulation-reports"
+    artifact_dir = artifacts_dir(fork_root(args.user)) / "simulation-reports"
     artifact_dir.mkdir(parents=True, exist_ok=True)
 
     profile_tmp: str | None = None

@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**SSOT** for [wire-verify](../../../skills-portable/wire-verify/SKILL.md) lane routing: which **official**, **native-language**, and **wire** surfaces to search per **statecraft civ-state lane** before synthesis or daily promotion.
+**SSOT** for [wire-verify](../../../skills/wire-verify/SKILL.md) lane routing: which **official**, **native-language**, and **wire** surfaces to search per **statecraft civ-state lane** before synthesis or daily promotion.
 
 **Procedure owner:** `.cursor/skills/wire-verify/SKILL.md` § *CIV-STATE sweep (every pass)*.
 

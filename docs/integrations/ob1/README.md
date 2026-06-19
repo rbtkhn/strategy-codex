@@ -11,7 +11,7 @@ This directory defines the **asymmetric bridge** between a companion-self instan
 
 ## Related: Cici instance (external)
 
-Xavier’s OB1 **instance** repo **[Xavier-x01/Cici](https://github.com/Xavier-x01/Cici)** (config and docs; not grace-mar) implements **Phase 1 Git-first governed state**: a three-layer scaffold (**evidence** → **prepared context** → **governed state** under `<instance>/`), **proposal artifacts** and a lightweight review queue, **`config/authority-map.json`**, and CI validation. Its doctrine matches the pattern at a high level: **Git-managed governed state is canonical**; **Supabase** remains a supported **operational bridge** (vector search, MCP, dashboards)—**not** the sole durable source of truth if it diverges from governed files. See Cici [Governed State Model (Phase 1)](https://github.com/Xavier-x01/Cici#governed-state-model-phase-1) and [`docs/governed-state-doctrine.md`](https://github.com/Xavier-x01/Cici/blob/main/docs/governed-state-doctrine.md).
+Xavier’s OB1 **instance** repo **[Xavier-x01/Cici](https://github.com/Xavier-x01/Cici)** (config and docs; not grace-mar) implements **Phase 1 Git-first governed state**: a three-layer scaffold (**evidence** → **prepared context** → **governed state** under `<instance>/`), **proposal artifacts** and a lightweight review queue, **`platform/config/authority-map.json`**, and CI validation. Its doctrine matches the pattern at a high level: **Git-managed governed state is canonical**; **Supabase** remains a supported **operational bridge** (vector search, MCP, dashboards)—**not** the sole durable source of truth if it diverges from governed files. See Cici [Governed State Model (Phase 1)](https://github.com/Xavier-x01/Cici#governed-state-model-phase-1) and [`docs/governed-state-doctrine.md`](https://github.com/Xavier-x01/Cici/blob/main/docs/governed-state-doctrine.md).
 
 **Scope:** That wording describes **Cici’s** repo. **This** integration still treats **companion-self** as the authority for the **Record** in grace-mar; the bridge ADR and [architecture.md](architecture.md) are unchanged. The pointer is for **alignment** (inspectable, review-gated durable state vs mixed-trust runtime DB)—not a merge of Cici’s files into grace-mar.
 
@@ -26,7 +26,7 @@ Xavier’s OB1 **instance** repo **[Xavier-x01/Cici](https://github.com/Xavier-x
 This constraint is non-negotiable. Every document, script, and test in this integration must preserve it.
 
 The local repo now carries a reference scaffold for a structured-memory MCP
-bridge under `bridges/supabase/` and the contract doc
+bridge under `research/bridges/supabase/` and the contract doc
 [structured-memory-mcp.md](structured-memory-mcp.md). Those files define the
 live-memory extension point without turning OB1 into the Record.
 
@@ -47,7 +47,7 @@ live-memory extension point without turning OB1 into the Record.
 
 Read-only summary from **[NateBJones-Projects/OB1](https://github.com/NateBJones-Projects/OB1)** public docs (as of repository `main`, captured for grace-mar orientation — re-verify before citing externally):
 
-- **Positioning:** README describes Open Brain as persistent memory infrastructure (Supabase + vector + MCP): “One database, one AI gateway, one chat channel,” with a **curated extension learning path**, **community contributions** (recipes, skills, dashboards, integrations), Discord and Substack.
+- **Positioning:** README describes Open Brain as persistent memory infrastructure (Supabase + vector + MCP): “One database, one AI gateway, one chat channel,” with a **curated extension learning path**, **community contributions** (recipes, skills, dashboards, platform/integrations), Discord and Substack.
 - **Contributing:** [CONTRIBUTING.md](https://github.com/NateBJones-Projects/OB1/blob/main/CONTRIBUTING.md) — **extensions** and **primitives** are **curated** (maintainer discussion / multi-extension justification); **recipes, schemas, dashboards, integrations, skills** are **open** for community PRs; **automated PR review** (structure, secrets, SQL safety, metadata) plus **human admin** review; **core `thoughts` / core MCP** changes are out of scope for contributors.
 - **Implication for grace-mar:** OB1 is a strong **public platform and contribution hub** for the memory substrate; it is **not** a substitute for this repo’s Record governance. Use [mapping.md § Conceptual map](mapping.md#conceptual-map-ob1-cici-grace-mar) when comparing to Cici or grace-mar.
 

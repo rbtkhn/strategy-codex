@@ -29,8 +29,8 @@ Who consumes this (long-session operator, portfolio reviewer, job application, p
 
 - [ ] High-fidelity mock or asset (tool of choice)
 - [ ] `DESIGN.md` update or explicit â€œno changeâ€ note
-- [ ] Code or project files (if applicable) under `artifacts/creative/` or linked path
-- [ ] [Creative output checklist](../creative-pipeline.md#creative-output-review-checklist) and/or [failure-pattern checklist](../../../../recursion-gate-staging/failure-pattern-checklist.md) addressed
+- [ ] Code or project files (if applicable) under `runtime/artifacts/creative/` or linked path
+- [ ] [Creative output checklist](../creative-pipeline.md#creative-output-review-checklist) and/or [failure-pattern checklist](../../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md) addressed
 
 ---
 

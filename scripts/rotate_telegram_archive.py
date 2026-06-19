@@ -11,7 +11,7 @@ Rotated chunks go to `archives/SELF-ARCHIVE-YYYY-MM.md` (or `.md.gz` with ``--co
 **Gzip:** Tools that read monthly archives must open ``.md.gz`` (e.g. ``gzip.open``)
 or decompress first.
 
-Threshold defaults: ``config/fork-config.json`` (``archive_*`` keys).
+Threshold defaults: ``platform/config/fork-config.json`` (``archive_*`` keys).
 
 Usage:
     python scripts/rotate_telegram_archive.py          # Dry run (report only)
@@ -226,7 +226,7 @@ def rotate_archive(
     keep_recent: int = KEEP_RECENT,
     compress: bool = False,
 ) -> dict:
-    ud = REPO_ROOT / "users" / user_id
+    ud = REPO_ROOT / "platform/users" / user_id
     archive_path = ud / "self-archive.md"
     evidence_compat = ud / "self-evidence.md"
     archives_dir = ud / "archives"

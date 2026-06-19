@@ -7,7 +7,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
-sys.path.insert(0, str(REPO_ROOT / "src"))
+from repo_io import SRC_DIR
+sys.path.insert(0, str(SRC_DIR))
 
 from integrations.presentations.common import write_bundle
 from integrations.presentations.ph_civ_adapter import build_ph_civ_bundle, build_ph_mus_packet_bundle

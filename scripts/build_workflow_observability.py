@@ -3,7 +3,7 @@
 Aggregate workflow-observability-report.json from normalized events JSONL.
 
 Reads: runtime/observability/workflow-events/events_<batch>.jsonl or --events-file
-Output: artifacts/workflow-observability/workflow-observability-report.json
+Output: runtime/artifacts/workflow-observability/workflow-observability-report.json
 """
 
 from __future__ import annotations
@@ -14,9 +14,10 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
+from repo_io import SCHEMA_REGISTRY_DIR, SRC_DIR, ARTIFACTS_DIR
 
 from grace_mar.observability.workflow_aggregate import (  # noqa: E402
     aggregate_events,
@@ -28,7 +29,7 @@ try:
 except ImportError:
     jsonschema = None  # type: ignore
 
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "workflow-observability-report.v1.json"
+SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "workflow-observability-report.v1.json"
 
 
 def load_events(path: Path) -> list[dict]:
@@ -52,7 +53,7 @@ def main() -> int:
         "--output",
         type=Path,
         default=None,
-        help="Default: artifacts/workflow-observability/workflow-observability-report.json",
+        help="Default: runtime/artifacts/workflow-observability/workflow-observability-report.json",
     )
     ap.add_argument("--batch-id", default="", help="Override batch id (default: from events filename)")
     ap.add_argument("--no-schema-validate", action="store_true")
@@ -73,7 +74,7 @@ def main() -> int:
     events = load_events(ev_path)
     report = aggregate_events(events, batch_id=batch_id, sources_used=[str(ev_path.relative_to(root))])
 
-    out = args.output or (root / "artifacts" / "workflow-observability" / "workflow-observability-report.json")
+    out = args.output or (ARTIFACTS_DIR / "workflow-observability" / "workflow-observability-report.json")
     out = out.resolve()
     out.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(report, indent=2, ensure_ascii=False) + "\n"

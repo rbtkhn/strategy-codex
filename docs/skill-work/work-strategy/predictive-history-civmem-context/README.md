@@ -34,7 +34,7 @@ file-specific implementation patch against unseen PH paths.
 |------|------|
 | [implementation-handoff.md](implementation-handoff.md) | Consolidated direct-transfer implementation spec for the future PH repo. |
 | [civmem-context-doctrine.md](civmem-context-doctrine.md) | Core doctrine: what the layer is for, payload vs rendering, substantial-by-default rule, and low-fit honesty. |
-| [pack-payload-template.md](pack-payload-template.md) | Canonical structured payload template for PH evidence/media packs. |
+| [pack-payload-template.md](pack-payload-template.md) | Canonical structured payload template for PH archive/placeholders/evidence/media packs. |
 | [reader-context-block-template.md](reader-context-block-template.md) | Reader-facing `## CIV-MEM Context` template for lectures/chapters. |
 | [house-default-voice.md](house-default-voice.md) | Initial contextual voice doctrine (`house-default`) plus modulation rules. |
 | [calibration-examples.md](calibration-examples.md) | Golden example bundle: strong-fit, medium-fit, lower-fit, and alternate cooler render. |
@@ -43,7 +43,7 @@ file-specific implementation patch against unseen PH paths.
 
 The package assumes one stable split:
 
-- **context payload** lives in the PH **evidence/media pack**
+- **context payload** lives in the PH **archive/placeholders/evidence/media pack**
 - **rendered context block** lives in the PH **lecture/chapter presentation**
 
 That split keeps the conceptual content stable while making the prose easy to
@@ -53,7 +53,7 @@ modulate later.
 
 1. Start from [implementation-handoff.md](implementation-handoff.md) as the
    direct-transfer spec.
-2. Add the **pack payload** section to the evidence/media pack format.
+2. Add the **pack payload** section to the archive/placeholders/evidence/media pack format.
 3. Add the reader-facing **`## CIV-MEM Context`** block to lecture/chapter
    templates.
 4. Adopt **`house-default`** as the active initial voice profile.

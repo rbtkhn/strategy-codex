@@ -45,7 +45,7 @@ Run the curriculum-oriented export:
 
 ```bash
 python scripts/export_curriculum.py -u grace-mar
-python integrations/export_hook.py --target curriculum -u grace-mar -o ../curriculum-stack/
+python platform/integrations/export_hook.py --target curriculum -u grace-mar -o ../curriculum-stack/
 ```
 
 Output: `curriculum_profile.json` â€” Lexile, knowledge/curiosity/personality, skills edge, interests, evidence anchors, library. Does not expose full Record content.

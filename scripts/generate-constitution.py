@@ -111,11 +111,11 @@ def synthesize_constitution(seed_dir: Path) -> dict:
             "helpfulness",
         ],
         "self_critique_protocol": {
-            "critique_prompt_template": (
+            "critique_promptplatform/template": (
                 "Critique the assistant reply against the constitution hierarchy (memory_contract first). "
                 'Return JSON only: {"violations":[],"score":0.0-1.0,"suggestion":"","early_exit":false}'
             ),
-            "revision_prompt_template": (
+            "revision_promptplatform/template": (
                 "Revise the reply to fix violations; keep simple vocabulary and respect abstention when uncertain."
             ),
             "max_revision_steps": 1,

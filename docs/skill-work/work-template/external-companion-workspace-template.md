@@ -80,7 +80,7 @@ Names are indicative; adapt per lane without inventing a new framework:
 | `work-profile.md` (or lane-named variant) | Employee / operator WORK profile if usedâ€”**not** their SELF |
 | `sources.md` | Authorized feeds and pointers |
 | `history.md` | Dated milestones in WORK |
-| `evidence/` | Operator evidence artifacts |
+| `archive/placeholders/evidence/` | Operator evidence artifacts |
 | `handoffs/` | Paste-ready payloads for **their** repo |
 | `mirrors/` | Synced **non-Record** workflow docs only, per contract |
 

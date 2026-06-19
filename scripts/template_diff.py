@@ -92,7 +92,7 @@ def _compare_file(template_path: Path, instance_path: Path) -> str:
     if not t_exists:
         return "only_instance"
     if not i_exists:
-        return "only_template"
+        return "onlyplatform/template"
     t_content = template_path.read_bytes()
     i_content = instance_path.read_bytes()
     return "same" if t_content == i_content else "differ"
@@ -222,7 +222,7 @@ def run_diff(
     result: dict[str, list[str]] = {
         "same": [],
         "differ": [],
-        "only_template": [],
+        "onlyplatform/template": [],
         "only_instance": [],
     }
 
@@ -303,7 +303,7 @@ def main() -> None:
     )
 
     all_paths = sorted(set(
-        result["same"] + result["differ"] + result["only_template"] + result["only_instance"]
+        result["same"] + result["differ"] + result["onlyplatform/template"] + result["only_instance"]
     ))
 
     if args.lock:
@@ -339,7 +339,7 @@ def main() -> None:
         emit("same: " + str(len(result["same"])))
         emit("differ: " + str(len(result["differ"])))
         emit("expected_drift: " + str(len(expected_paths)))
-        emit("only_template (pull needed): " + str(len(result["only_template"])))
+        emit("only_template (pull needed): " + str(len(result["onlyplatform/template"])))
         emit("only_instance (instance additions): " + str(len(result["only_instance"])))
         out = "\n".join(out_lines)
         if args.output:
@@ -361,9 +361,9 @@ def main() -> None:
         emit(f"Lockfile: {len(lock_data)} paths pinned (last sync: {synced_at})")
     emit()
 
-    if result["only_template"]:
+    if result["onlyplatform/template"]:
         emit("### Pull needed (in template, not in instance)")
-        for p in result["only_template"]:
+        for p in result["onlyplatform/template"]:
             emit("  - " + p)
         emit()
 
@@ -411,7 +411,7 @@ def main() -> None:
             len(result["same"]),
             len(result["differ"]),
             len(expected_paths),
-            len(result["only_template"]),
+            len(result["onlyplatform/template"]),
             len(result["only_instance"]),
         )
     )

@@ -30,7 +30,7 @@ Applied to CIV–MEM sub-domains. Labels are approximate and for discussion.
 
 | Domain | Maturity | Notes |
 |--------|----------|--------|
-| **STATE session (material options, decision points)** | L1–L2 | Goals measurable (options, constraints, evidence); procedures in template; human-led, graded by doctrine and MEM grounding. Not yet automated execution. |
+| **STATE session (material options, decision points)** | L1–L2 | Goals measurable (options, constraints, archive/placeholders/evidence); procedures in template; human-led, graded by doctrine and MEM grounding. Not yet automated execution. |
 | **SCHOLAR synthesis (LEARN, patterns, RLLs)** | L1–L2 | Measurable (syntheses, ENTRY, RLLs); playbooks in SCHOLAR template and MIND profiles. Human-led; AI assists. |
 | **MEM grounding** | L1–L2 | MEM–RELEVANCE + CONNECTIONS; MEM SCAN procedure. Measurable (did we read the file?); repeatable (slim/full context). |
 | **Relay / transfer** | L2 | Explicit procedure; user gate; transfer log. Repeatable, auditable. |
@@ -130,4 +130,4 @@ Ch. 8–9 describe the transition from "The Muddle" to "The Machine": new metric
 ## 7. Reference
 
 - Essay: Ch. 3 (Mechanics), Ch. 6 (Engine), Ch. 7 (Moonshots), Ch. 8 (Muddle vs Machine), Ch. 9 (Build the Rails), Epilogue; Industrial Intelligence Stack, L0–L5, targeting, flywheel, failure modes, bulk-solve logic, Ten Gears.
-- CIV–MEM: CIV–STATE–TEMPLATE, CMC–BOOTSTRAP, cmc-state-mem-grounding, cmc-gated-spiral-awareness, TRANSFER-LOG.md, apps/chat (engine, eval, activity log).
+- CIV–MEM: CIV–STATE–TEMPLATE, CMC–BOOTSTRAP, cmc-state-mem-grounding, cmc-gated-spiral-awareness, TRANSFER-LOG.md, platform/apps/chat (engine, eval, activity log).

@@ -119,7 +119,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:3 S:0 G:2]** [Ukraine's drone commander has Russian oil, troops and morale in his sights](https://www.bbc.com/news/articles/c1d9wvd2e4ro?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC News Ã¢â‚¬” World_ Ã‚· _2026-04-27 10:04 UTC_
 - **[W:5 S:0 G:1]** [EN DIRECT, guerre en UkraineÃ‚ : la NorvÃƒÂ¨ge va livrer Ã‚Â«Ã‚ plusieurs milliers de dronesÃ‚ Ã‚Â» Ãƒ  Kiev Ã‚Â«Ã‚ d’ici Ãƒ  l’ÃƒÂ©tÃƒÂ©Ã‚ Ã‚Â»](https://www.lemonde.fr/international/live/2026/04/27/en-direct-guerre-en-ukraine-la-norvege-va-livrer-plusieurs-milliers-de-drones-a-kiev-d-ici-a-l-ete_6683420_3210.html) Ã¢â‚¬” _Le Monde Ã¢â‚¬” franÃƒ§ais (France / monde)_ Ã‚· _fr_ Ã‚· _2026-04-27 15:22 UTC_
@@ -178,7 +178,7 @@ Thread **Context Efficiency Layer** when assembling follow-up context: prefer ho
 - **Doctrine:** [context-efficiency-layer.md](../context-efficiency-layer.md)
 - **Compaction shapes:** [context-compaction-protocol.md](../context-compaction-protocol.md)
 - **Session brief (hot):** `python3 scripts/session_brief.py -u grace-mar --compact`
-- **Budgets:** `config/context_budgets/session_brief.json`, `config/context_surfaces.json`
+- **Budgets:** `platform/config/context_budgets/session_brief.json`, `platform/config/context_surfaces.json`
 
 
 ---

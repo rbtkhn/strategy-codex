@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/rbtkhn/companion-self/schema-registry/seed-phase-manifest.v1.json",
+  "$id": "https://github.com/rbtkhn/companion-self/schemas/registry/seed-phase-manifest.v1.json",
   "title": "seed_phase_manifest",
   "description": "Top-level index of seed phase artifacts and status.",
   "type": "object",
@@ -11,7 +11,7 @@
     "user_slug",
     "status",
     "stages",
-    "artifacts",
+    "runtime/artifacts",
     "confidence_summary",
     "generated_at"
   ],
@@ -51,7 +51,7 @@
         "additionalProperties": true
       }
     },
-    "artifacts": {
+    "runtime/artifacts": {
       "type": "object",
       "additionalProperties": { "type": "string" }
     },

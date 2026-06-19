@@ -34,7 +34,7 @@ def test_tier_from_counts():
 
 def test_analyze_velocity_window(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     uid = "u1"
-    ud = tmp_path / "users" / uid
+    ud = tmp_path / "platform/users" / uid
     ud.mkdir(parents=True)
     now = datetime(2026, 3, 1, 12, 0, 0, tzinfo=UTC)
     old = now - timedelta(days=10)
@@ -47,7 +47,7 @@ def test_analyze_velocity_window(monkeypatch: pytest.MonkeyPatch, tmp_path: Path
     ]
     (ud / "pipeline-events.jsonl").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-    monkeypatch.setattr(odh, "profile_dir", lambda u: tmp_path / "users" / u)
+    monkeypatch.setattr(odh, "profile_dir", lambda u: tmp_path / "platform/users" / u)
     snap = odh.analyze_velocity(uid, window_days=7, now=now)
     assert snap.applied == 3
     assert snap.approved == 1
@@ -55,7 +55,7 @@ def test_analyze_velocity_window(monkeypatch: pytest.MonkeyPatch, tmp_path: Path
 
 
 def test_maybe_emit_only_on_tier_increase(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
-    monkeypatch.setattr(odh, "profile_dir", lambda u: tmp_path / "users" / u)
+    monkeypatch.setattr(odh, "profile_dir", lambda u: tmp_path / "platform/users" / u)
     emitted: list[bool] = []
 
     def fake_append(*a, **k):

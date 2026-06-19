@@ -55,7 +55,7 @@ python3 scripts/runtime/memory_brief.py \
   --expand 3 \
   --timeline-before 2 \
   --timeline-after 2 \
-  --output prepared-context/memory-brief.md
+  --output runtime/prepared-context/memory-brief.md
 ```
 
 Backward-compatible positional form (same flags otherwise; do not mix with `--lane`):
@@ -74,4 +74,4 @@ Output sections: **Best Matches**, **Timeline Context**, **Expanded Takeaways**,
 
 Optional: set `GRACE_MAR_RUNTIME_LEDGER_ROOT` to isolate the ledger in tests or sandboxes.
 
-Generated `prepared-context/memory-brief.md` is **gitignored** by default so operator output is not committed accidentally.
+Generated `runtime/prepared-context/memory-brief.md` is **gitignored** by default so operator output is not committed accidentally.

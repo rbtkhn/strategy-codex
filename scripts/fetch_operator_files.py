@@ -38,7 +38,7 @@ def main() -> None:
 
     base = args.url.rstrip("/")
     headers = {"Authorization": f"Bearer {args.secret}"}
-    out_dir = REPO_ROOT / "users" / args.user
+    out_dir = REPO_ROOT / "platform/users" / args.user
     out_dir.mkdir(parents=True, exist_ok=True)
 
     try:

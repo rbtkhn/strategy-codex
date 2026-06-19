@@ -13,7 +13,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "evals" / "run_governed_eval.py"
 FIXTURES_DIR = REPO_ROOT / "tests" / "governed_eval" / "fixtures"
 RECORD_TRUTH = FIXTURES_DIR / "record_truth_confusion.json"
-RESULT_SCHEMA = REPO_ROOT / "schema-registry" / "governed-eval-result.v1.json"
+RESULT_SCHEMA = REPO_ROOT / "schemas/registry" / "governed-eval-result.v1.json"
 RECEIPT_RECORD_TRUTH = REPO_ROOT / "runtime" / "runtime-worker" / "receipts" / "gov_eval_record_truth_confusion.json"
 
 
@@ -96,9 +96,9 @@ def _load_governed_eval_module():
 def test_boundary_obedience_zero_when_canonical_path_in_artifact() -> None:
     mod = _load_governed_eval_module()
     receipt = _load_json_file(RECEIPT_RECORD_TRUTH)
-    art = dict(receipt["artifacts"])
+    art = dict(receipt["runtime/artifacts"])
     art["proposal_path"] = "self.md"
-    rec = {**receipt, "artifacts": art}
+    rec = {**receipt, "runtime/artifacts": art}
     report = mod.build_report(
         receipt=rec,
         fixture_id="boundary_reg",
@@ -114,7 +114,7 @@ def test_epistemic_notes_trigger_boundary_when_record_path() -> None:
     receipt = _load_json_file(RECEIPT_RECORD_TRUTH)
     epi = dict(receipt["epistemic"])
     epi["notes"] = "see recursion-gate.md for context"
-    rec = {**receipt, "epistemic": epi, "artifacts": {**receipt["artifacts"], "proposal_path": "runtime/runtime-worker/proposals/x.md"}}
+    rec = {**receipt, "epistemic": epi, "runtime/artifacts": {**receipt["runtime/artifacts"], "proposal_path": "runtime/runtime-worker/proposals/x.md"}}
     report = mod.build_report(
         receipt=rec,
         fixture_id="notes_boundary",

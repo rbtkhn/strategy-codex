@@ -16,7 +16,7 @@ Normally there is only one `dream` session per day, near the end of the day. Ext
 
 ## Record frozen (strategy-codex default)
 
-When `config/strategy_codex.yaml` has **`record_frozen: true`** (or `STRATEGY_CODEX_RECORD_FROZEN=1`), dream **does not** nudge fork-growth work: no default gate-review or capture-gap coffee hints. **`tomorrow_inherits`** and execution-path hints should favor **interpretive-machine health** (archive indices, state synthesis, integrity/exports, ship receipt). Gate merge obligations apply only on explicit **fork revive** — see [grace-mar-instance-boundary.md](../../../docs/grace-mar-instance-boundary.md).
+When `platform/config/strategy_codex.yaml` has **`record_frozen: true`** (or `STRATEGY_CODEX_RECORD_FROZEN=1`), dream **does not** nudge fork-growth work: no default gate-review or capture-gap coffee hints. **`tomorrow_inherits`** and execution-path hints should favor **interpretive-machine health** (archive indices, state synthesis, integrity/exports, ship receipt). Gate merge obligations apply only on explicit **fork revive** — see [grace-mar-instance-boundary.md](../../../docs/grace-mar-instance-boundary.md).
 
 ## Design intent
 
@@ -94,7 +94,7 @@ python3 scripts/auto_dream.py --phase both          # default: full pass
 Alternative via swarm bridge (same underlying logic):
 
 ```bash
-python3 auto-research/swarm/orchestrator.py dream
+python3 research/auto-research/swarm/orchestrator.py dream
 ```
 
 **End-of-day bundle (optional):** To run dream + handoff-check in one pass (night-side equivalent of `operator_reentry_stack.py`):
@@ -120,7 +120,7 @@ This is a maintenance pass, not a merge pass.
 
 **Done when:** `auto_dream.py` exits successfully (or `--strict` halts with a clear reason), and script output is captured for the return brief.
 
-**Memory observability:** After a successful non-dry-run dream, `auto_dream.py` may rebuild `artifacts/memory/memory-observability.md` and `.json`. If the resulting dashboard is `watch`, `stale`, or `missing`, return exactly one **`Memory observability:`** line after the dream summary. Do not block dream if the rebuild fails; treat any rebuild failure as a non-blocking `watch` line. Do not paste the full dashboard into dream.
+**Memory observability:** After a successful non-dry-run dream, `auto_dream.py` may rebuild `runtime/artifacts/memory/memory-observability.md` and `.json`. If the resulting dashboard is `watch`, `stale`, or `missing`, return exactly one **`Memory observability:`** line after the dream summary. Do not block dream if the rebuild fails; treat any rebuild failure as a non-blocking `watch` line. Do not paste the full dashboard into dream.
 
 **Morning handoff:** When `apply=True` (the default), dream writes `last-dream.json` — a compact summary that tomorrow's `coffee` Step 1 (`operator_daily_warmup.py`) automatically picks up and displays as **"Last dream (night handoff)"** (or a **one-line quiet handoff** when there is nothing to surface). This closes the choreography gap: coffee knows what dream found without the operator carrying it across threads. The JSON may include optional **`last_coffee_echo`** (derived from the same 24h coffee rollup as `coffee_rollup_24h`—a short narrative hint about the last session, not canonical memory or Record). The JSON includes **`agent_surface.cursor_model`** (same meaning as bridge/harvest **Agent surface** / cadence **`cursor_model=`**): pass **`--cursor-model`** to `auto_dream.py` or set **`CURSOR_MODEL`** in the environment when running from a context that knows the Cursor UI label; otherwise **`unknown`**.
 
@@ -218,7 +218,7 @@ When **`auto_dream.py --strict`** halts because integrity or governance failed, 
 
 ## Strict halt repeats — doc-only loop
 
-If **strict** dream halts for the **same** integrity or governance **reason** more than once, the fix is usually **operational** (refresh exports, resolve parity, adjust config) — not a gate merge.
+If **strict** dream halts for the **same** integrity or governance **reason** more than once, the fix is usually **operational** (refresh exports, resolve parity, adjust platform/config) — not a gate merge.
 
 **Recursive tightening:** Add **one** bullet to **this skill** (e.g. under *Step 1* or this section) or to `docs/skill-work/work-dream/README.md` describing the recurring cause and the **first** recovery step. Do not use this loop to bypass companion merge authority.
 
@@ -277,7 +277,7 @@ If **strict** dream halts for the **same** integrity or governance **reason** mo
 TZ=America/New_York python3 scripts/cici_journal_ob1_digest.py --catch-up-from-last-dream --full-day-synthesis --write
 ```
 
-This reads **`last-dream.json` before overwrite**, computes the same local dates as `dream_catchup`, and writes **one file per day** (skips existing files unless **`--force`**). **`--full-day-synthesis`** embeds **strategy-notebook** + **session-transcript** for each date (omit it for git+inbox only). Dry-run: omit `--write` to print the date list only. Each day picks up matching **`inbox/YYYY-MM-DD.md`** (and folder / artifacts) if present.
+This reads **`last-dream.json` before overwrite**, computes the same local dates as `dream_catchup`, and writes **one file per day** (skips existing files unless **`--force`**). **`--full-day-synthesis`** embeds **strategy-notebook** + **session-transcript** for each date (omit it for git+inbox only). Dry-run: omit `--write` to print the date list only. Each day picks up matching **`inbox/YYYY-MM-DD.md`** (and folder / runtime/artifacts) if present.
 
 **Agent behavior when `dream` is invoked**
 

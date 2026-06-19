@@ -28,9 +28,9 @@
 
 ## Machine artifacts (repo-level)
 
-- `artifacts/skill-think/think-claims.json` — structured claims index (Phase A: companion to prose)
-- `artifacts/skill-think/think-observability.json` — generated metrics (sibling to other lane observability JSON; **not** merged into change-proposal `observability-report.v1` without schema extension)
-- `artifacts/skill-think/update-receipts/` — optional JSONL receipts from [record_think_update.py](../../scripts/record_think_update.py)
+- `runtime/artifacts/skill-think/think-claims.json` — structured claims index (Phase A: companion to prose)
+- `runtime/artifacts/skill-think/think-observability.json` — generated metrics (sibling to other lane observability JSON; **not** merged into change-proposal `observability-report.v1` without schema platform/extension)
+- `runtime/artifacts/skill-think/update-receipts/` — optional JSONL receipts from [record_think_update.py](../../scripts/record_think_update.py)
 
 ## Scripts
 

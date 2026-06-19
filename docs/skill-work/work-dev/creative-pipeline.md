@@ -5,7 +5,7 @@
 
 **Purpose:** A repeatable, governed, agent-augmented creative workflow for high-clarity visual, UI, video, and 3D artifacts while preserving intention and reducing drift.
 
-**Related:** [Specification precision template](templates/specification-precision.md); [failure pattern checklist](../../../recursion-gate-staging/failure-pattern-checklist.md); [external signals](external-signals.md); Nate B. Jones / Stitch framing â€” [transcript (ASR)](../../../research/external/work-dev/transcripts/nate-b-jones-google-stitch-design-markdown-meeting-transcript-2026.md).
+**Related:** [Specification precision template](templates/specification-precision.md); [failure pattern checklist](../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md); [external signals](external-signals.md); Nate B. Jones / Stitch framing â€” [transcript (ASR)](../../../research/external/work-dev/transcripts/nate-b-jones-google-stitch-design-markdown-meeting-transcript-2026.md).
 
 ---
 
@@ -71,7 +71,7 @@ Before accepting an artifact:
 
    `python3 scripts/validate-design-md.py`
 
-3. For large proposals, also run [failure-pattern-checklist.md](../../../recursion-gate-staging/failure-pattern-checklist.md).
+3. For large proposals, also run [failure-pattern-checklist.md](../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md).
 
 ### Creative output review checklist
 
@@ -92,9 +92,9 @@ If any item fails â†’ reject, narrow the brief, or add mitigations before t
 - **Record-facing changes** (SELF, EVIDENCE, prompt): stage candidates; companion approves; merge only via `process_approved_candidates.py`.
 - **Do not** append standing sections to `recursion-gate.md` without approval. Paste filled review blocks into Candidates when ready (same idea as [work-career opportunity review](../work-career/job-opportunity-review-template.md)).
 - **Commit hygiene:** When updating the design system, commit `DESIGN.md` changes with the artifact or a clear operator note.
-- **Artifact storage (operator):** Final exports and working files live under [`artifacts/creative/`](../../../artifacts/creative/) (see folder README). Optional subfolder `portfolio/` for job- or partner-facing bundles.
+- **Artifact storage (operator):** Final exports and working files live under [`runtime/artifacts/creative/`](../../../runtime/artifacts/creative/) (see folder README). Optional subfolder `portfolio/` for job- or partner-facing bundles.
 
-**Not** under `self-evidence/` as a fake evidence tree â€” canonical EVIDENCE remains [`self-archive.md`](../../../self-archive.md) per [canonical-paths.md](../../canonical-paths.md).
+**Not** under `self-archive/placeholders/evidence/` as a fake evidence tree â€” canonical EVIDENCE remains [`self-archive.md`](../../../self-archive.md) per [canonical-paths.md](../../canonical-paths.md).
 
 ---
 
@@ -118,7 +118,7 @@ When `DESIGN.md` is in play:
 - [ ] No errors (warnings reviewed if any)
 - [ ] New colors / components reflected in `DESIGN.md`
 
-`validate-change-review.py` remains for **JSON change-review queues** under `demo` / `_template` only; it does not replace the DESIGN validator.
+`validate-change-review.py` remains for **JSON change-review queues** under `demo` / `platform/template` only; it does not replace the DESIGN validator.
 
 ---
 
@@ -142,5 +142,5 @@ Creative iteration runs at the speed of **clear language** and **tight specs**, 
 
 ## Approval and version control
 
-Material changes to this pipeline doc are operator edits in **work-dev**; anything that should alter the Record still goes through the gate. **Next review:** after a full end-to-end run (e.g. brief â†’ generated artifact â†’ checklist â†’ `validate-design-md.py` â†’ committed outputs under `artifacts/creative/`).
+Material changes to this pipeline doc are operator edits in **work-dev**; anything that should alter the Record still goes through the gate. **Next review:** after a full end-to-end run (e.g. brief â†’ generated artifact â†’ checklist â†’ `validate-design-md.py` â†’ committed outputs under `runtime/artifacts/creative/`).
 

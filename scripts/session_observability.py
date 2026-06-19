@@ -40,7 +40,7 @@ DURABLE_PATTERNS = [
     "self-archive.md",
     "self-skills.md",
     "recursion-gate.md",
-    "bot/prompt.py",
+    "archive/grace-mar-instance/bot/prompt.py",
 ]
 
 EXPLORATORY_PATTERNS = [
@@ -155,7 +155,7 @@ def _count_gate_pending(user_id: str) -> int:
 
 
 def _load_authority_map() -> dict[str, str]:
-    path = REPO_ROOT / "config" / "authority-map.json"
+    path = REPO_ROOT / "platform/config" / "authority-map.json"
     if not path.exists():
         return {}
     try:

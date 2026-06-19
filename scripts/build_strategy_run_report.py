@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Summarize recent strategy runs into a markdown report (WORK only)."""
 
@@ -11,8 +12,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 ARTIFACT_ROOT = Path(os.environ.get("STRATEGY_RUN_ARTIFACT_ROOT", str(REPO_ROOT))).resolve()
-RUNS = ARTIFACT_ROOT / "artifacts" / "strategy-runs"
-REPORT = ARTIFACT_ROOT / "artifacts" / "strategy-run-report.md"
+RUNS = ARTIFACTS_DIR / "strategy-runs"
+REPORT = ARTIFACTS_DIR / "strategy-run-report.md"
 
 
 def _has_file(path: str | None) -> bool:
@@ -77,7 +78,7 @@ def main() -> int:
         "",
         "# Strategy run report (derived)",
         "",
-        f"Generated: `{now}` (UTC). Source: `artifacts/strategy-runs/*/state.json`.",
+        f"Generated: `{now}` (UTC). Source: `runtime/artifacts/strategy-runs/*/state.json`.",
         "",
         "| run_id | target_date | intent | status | day proposal | page proposal | blocked? |",
         "|--------|-------------|--------|--------|--------------|---------------|----------|",

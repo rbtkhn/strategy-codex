@@ -103,7 +103,7 @@ Template XXII.B.3 requires four labeled ARC quote sections:
 - **ARC-T-EARLY-MOD** — Early modern historiography
 - **ARC-T-MODERN** — Modern scholarship
 
-**Result:** No Francia GEO MEM has any ARC-T-* section. Some files (Seine, Loire, Rhône, Atlantic) embed short verbatim quotes in narrative but without ARC-T labeling or four-era coverage. GEO–MEMs must satisfy the Proportional Blend Law (2/3 Mearsheimer strategic analysis, 1/3 Mercouris ARC evidence); current structure does not.
+**Result:** No Francia GEO MEM has any ARC-T-* section. Some files (Seine, Loire, Rhône, Atlantic) embed short verbatim quotes in narrative but without ARC-T labeling or four-era coverage. GEO–MEMs must satisfy the Proportional Blend Law (2/3 Mearsheimer strategic analysis, 1/3 Mercouris ARC archive/placeholders/evidence); current structure does not.
 
 ---
 

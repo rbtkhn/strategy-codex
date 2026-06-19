@@ -15,7 +15,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_INPUT = (
-    REPO_ROOT / "bridges" / "runtime-complements" / "letta" / "letta-session-summary.example.json"
+    REPO_ROOT / "research/bridges" / "runtime-complements" / "letta" / "letta-session-summary.example.json"
 )
 IMPORT_SCRIPT = REPO_ROOT / "scripts" / "runtime" / "import_runtime_observation.py"
 

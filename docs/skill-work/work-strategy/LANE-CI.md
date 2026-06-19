@@ -25,7 +25,7 @@ Full WAP field patterns: [work-politics wap-candidate-template.md](../work-polit
 python scripts/emit_work_strategy_gate_paste_snippet.py --help
 ```
 
-Writes `<user>/recursion-gate-staging/work-strategy-<date>.paste-snippet.md` with the next `CANDIDATE-*` id, default **`territory: work-politics`** + **`channel_key: operator:work-strategy`**. Override with `--territory` / `--channel-key` if your merge plan differs.
+Writes `<user>/archive/grace-mar-instance/recursion-gate-staging/work-strategy-<date>.paste-snippet.md` with the next `CANDIDATE-*` id, default **`territory: work-politics`** + **`channel_key: operator:work-strategy`**. Override with `--territory` / `--channel-key` if your merge plan differs.
 
 ## Prototype
 

@@ -38,7 +38,7 @@ except ImportError:
     from scripts.repo_io import DEFAULT_USER_ID, profile_dir
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-USERS_DIR = REPO_ROOT / "users"
+USERS_DIR = REPO_ROOT / "platform/users"
 _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
@@ -92,7 +92,7 @@ def _read_last_dream(user_dir: Path) -> dict | None:
         if user_dir.resolve() == profile_dir("").resolve():
             path = resolve_last_dream_path("")
         else:
-            path = user_dir / "daily-handoff" / LAST_DREAM_FILENAME
+            path = user_dir / "runtime/daily-handoff" / LAST_DREAM_FILENAME
             if not path.is_file():
                 path = user_dir / LAST_DREAM_FILENAME
     except ImportError:
@@ -142,7 +142,7 @@ def should_collapse_dream_handoff(dream: dict, *, verbose_dream: bool = False) -
 def _short_tomorrow_inherits(dream: dict, *, max_len: int = 110) -> str:
     raw = str(dream.get("tomorrow_inherits") or "").strip()
     if not raw:
-        return "see `daily-handoff/last-dream.json` or `--verbose-dream`"
+        return "see `runtime/daily-handoff/last-dream.json` or `--verbose-dream`"
     t = raw.replace("**", "").replace("`", "")
     t = " ".join(t.split())
     if len(t) > max_len:
@@ -355,7 +355,7 @@ def _format_last_dream_block(
             body.append(format_tomorrow_inherits_line(paths, idx, reason))
         else:
             body.append(
-                "- Tomorrow inherits: see `daily-handoff/last-dream.json` or run warmup with `--verbose-dream`."
+                "- Tomorrow inherits: see `runtime/daily-handoff/last-dream.json` or run warmup with `--verbose-dream`."
             )
     learning_action = str(dream.get("learning_action_recommendation") or "").strip()
     if learning_action:
@@ -523,7 +523,7 @@ def build_operator_daily_warmup(
     pending_companion = _pending_candidates(recursion_gate, "companion")
     fork_cfg = load_fork_config()
     max_pending = fork_cfg.get("max_pending_candidates")
-    last_activity = _last_activity_oneliner(evidence) or "_none parsed_"
+    last_activity = _last_activity_oneliner(archive/placeholders/evidence) or "_none parsed_"
     coffee_budget = _coffee_context_budget()
     tail_n = get_int(coffee_budget, "max_session_tail_lines", 3)
     session_tail = _session_lines_tail(session, tail_n)
@@ -550,7 +550,7 @@ def build_operator_daily_warmup(
         )
     if not frozen and max_pending is not None and len(pending_all) > int(max_pending):
         lines.append(
-            f"- **Gate backlog:** {len(pending_all)} pending exceeds `max_pending_candidates` ({max_pending}) in `config/fork-config.json` - review or merge soon."
+            f"- **Gate backlog:** {len(pending_all)} pending exceeds `max_pending_candidates` ({max_pending}) in `platform/config/fork-config.json` - review or merge soon."
         )
     lines.extend(
         [

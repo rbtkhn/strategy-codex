@@ -1,9 +1,10 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Create a new Workbench Harness receipt JSON (WORKBENCH-RECEIPT-SPEC v0.1).
 
 Default output:
-  artifacts/work-dev/workbench-receipts/workbench-YYYYMMDD-HHMMSS.json
+  runtime/artifacts/work-dev/workbench-receipts/workbench-YYYYMMDD-HHMMSS.json
 
 Does not stage to recursion-gate or touch Record surfaces.
 
@@ -23,7 +24,7 @@ from pathlib import Path
 from validate_workbench_receipt import ALLOWED_STATUS
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-DEFAULT_RECEIPT_DIR = REPO_ROOT / "artifacts" / "work-dev" / "workbench-receipts"
+DEFAULT_RECEIPT_DIR = ARTIFACTS_DIR / "work-dev" / "workbench-receipts"
 
 _FORBIDDEN_NAMES = frozenset(
     {
@@ -53,7 +54,7 @@ def _forbidden_write_path(path: Path) -> bool:
         rel = resolved.relative_to(REPO_ROOT)
     except ValueError:
         return False
-    if len(rel.parts) >= 2 and rel.parts[0] == "users" and rel.name in _FORBIDDEN_NAMES:
+    if len(rel.parts) >= 2 and rel.parts[0] == "platform/users" and rel.name in _FORBIDDEN_NAMES:
         return True
     return False
 
@@ -152,7 +153,7 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         default=None,
         help="output JSON; relative paths resolve to repo root; "
-        "default: artifacts/work-dev/workbench-receipts/workbench-YYYYMMDD-HHMMSS.json",
+        "default: runtime/artifacts/work-dev/workbench-receipts/workbench-YYYYMMDD-HHMMSS.json",
     )
     p.add_argument(
         "--meta-note",

@@ -153,7 +153,7 @@ def test_pre_gate_subprocess(tmp_path: Path) -> None:
 
 def test_candidate_review_subprocess(tmp_path: Path) -> None:
     user = "testuser"
-    udir = tmp_path / "users" / user
+    udir = tmp_path / "platform/users" / user
     udir.mkdir(parents=True)
     gate = udir / "recursion-gate.md"
     gate.write_text(

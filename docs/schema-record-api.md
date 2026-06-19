@@ -50,7 +50,7 @@ Planning and execution items (projects, next steps, deliverables). Each task:
 | **id** | string (optional) | Stable id for linking (e.g. `task-1`, `T-001`). |
 | **summary** | string | Short description of the task. |
 | **status** | string | One of: `pending`, `in_progress`, `done`. |
-| **evidence_id** | string (optional) | Evidence id when task is completed and recorded (links to self-evidence). |
+| **evidence_id** | string (optional) | Evidence id when task is completed and recorded (links to self-archive/placeholders/evidence). |
 | **updated** | string (optional) | ISO date or timestamp of last change. |
 
 **Markdown representation:** Use a table or a consistent list form. Example table:
@@ -165,9 +165,9 @@ Instances may extend the template (e.g. add skills, evidence count, or screen_ti
 
 ## Seed-phase artifact schemas
 
-**Seed phase** artifacts are **pre-activation** formation outputs. They are **distinct** from instance Record schemas (`self.md`, `self-evidence`, IX files). They live under `_template/seed-phase/` (scaffold), `demo/seed-phase/` (synthetic example), or an instance-managed directory **before** `` is activated.
+**Seed phase** artifacts are **pre-activation** formation outputs. They are **distinct** from instance Record schemas (`self.md`, `self-evidence`, IX files). They live under `platform/template/seed-phase/` (scaffold), `demo/seed-phase/` (synthetic example), or an instance-managed directory **before** `` is activated.
 
-JSON Schemas (Draft 2020-12) in `schema-registry/`:
+JSON Schemas (Draft 2020-12) in `schemas/registry/`:
 
 | Schema file | Validates on-disk file |
 |-------------|-------------------------|
@@ -189,7 +189,7 @@ JSON Schemas (Draft 2020-12) in `schema-registry/`:
 
 Protocol and validation: [seed-phase.md](seed-phase.md), [seed-phase-validation.md](seed-phase-validation.md). `template-manifest.json` exposes paths under `seed_phase.schemas`.
 
-**Constitution (optional Voice self-critique):** `seed_constitution.json` is generated offline (`scripts/generate-constitution.py`) after strict seed validation. It does not add SELF facts; enabling critique in production uses repo-root **`runtime_config.json`** (see `runtime_config.example.json`). Material changes to critique policy belong in **change review** or operator governance, not silent edits to `bot/prompt.py` — see [change-review.md](change-review.md) and [gate-vs-change-review.md](gate-vs-change-review.md).
+**Constitution (optional Voice self-critique):** `seed_constitution.json` is generated offline (`scripts/generate-constitution.py`) after strict seed validation. It does not add SELF facts; enabling critique in production uses repo-root **`runtime_config.json`** (see `runtime_config.example.json`). Material changes to critique policy belong in **change review** or operator governance, not silent edits to `archive/grace-mar-instance/bot/prompt.py` — see [change-review.md](change-review.md) and [gate-vs-change-review.md](gate-vs-change-review.md).
 
 ---
 

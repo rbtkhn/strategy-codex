@@ -2,7 +2,7 @@
 """Build a derived speaker-routing queue from source-archive frontmatter.
 
 WORK-layer advisory automation only. This script reads source-archive files and the
-current speaker/arc inventory, then writes queue artifacts under artifacts/.
+current speaker/arc inventory, then writes queue artifacts under runtime/artifacts/.
 It does not edit speaker folders, lattice rows, or source-archive files.
 """
 
@@ -23,13 +23,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
+from repo_io import ARTIFACTS_DIR
 
 from yaml_compat import safe_load_text  # noqa: E402
 
 
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 DEFAULT_SPEAKERS_DIR = REPO_ROOT / "codex" / "speakers"
-DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "speaker-routing"
+DEFAULT_OUT_DIR = ARTIFACTS_DIR / "speaker-routing"
 EVIDENCE_GRADES = {
     "transcript-grade",
     "cleaned-transcript",
@@ -125,7 +126,7 @@ def _rel(path: Path) -> str:
         return _rewrite(path.resolve().relative_to(REPO_ROOT).as_posix())
     except ValueError:
         parts = list(path.resolve().parts)
-        for anchor in ("codex", "source-archive", "artifacts"):
+        for anchor in ("codex", "source-archive", "runtime/artifacts"):
             if anchor in parts:
                 return _rewrite(Path(*parts[parts.index(anchor) :]).as_posix())
         return _rewrite(path.as_posix())

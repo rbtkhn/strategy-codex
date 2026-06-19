@@ -7,9 +7,9 @@ It is a **contract layer over the existing emulation-ready export**, not a secon
 Primary implementation surfaces:
 
 - [`../../../scripts/export_emulation_bundle.py`](../../../scripts/export_emulation_bundle.py)
-- [`../../../schema-registry/emulation-bundle-envelope.v1.json`](../../../schema-registry/emulation-bundle-envelope.v1.json)
-- [`../../../schema-registry/change-proposal.v1.json`](../../../schema-registry/change-proposal.v1.json)
-- [`../../../config/authority-map.json`](../../../config/authority-map.json)
+- [`../../../schemas/registry/emulation-bundle-envelope.v1.json`](../../../schemas/registry/emulation-bundle-envelope.v1.json)
+- [`../../../schemas/registry/change-proposal.v1.json`](../../../schemas/registry/change-proposal.v1.json)
+- [`../../../platform/config/authority-map.json`](../../../platform/config/authority-map.json)
 
 ---
 
@@ -122,7 +122,7 @@ Operationally:
 
 Portable emulation must return durable change through the existing governed path:
 
-- [`../../../schema-registry/change-proposal.v1.json`](../../../schema-registry/change-proposal.v1.json)
+- [`../../../schemas/registry/change-proposal.v1.json`](../../../schemas/registry/change-proposal.v1.json)
 - [`../../state-proposals.md`](../../state-proposals.md)
 - [`../../identity-fork-protocol.md`](../../identity-fork-protocol.md)
 

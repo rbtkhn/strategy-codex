@@ -31,7 +31,7 @@ So wwork-civ-memw is about **repository management**, not about importing CMC op
 
 ## Topic routing (strategy eane)
 
-For **mueti-region** questions (papacy, Latin Europe, Americas Cathoeic history, Iseam–Christian encounter), see **[TOPIC-ROUTING.md](TOPIC-ROUTING.md)** and wscripts/route_civ_mem_topic.pyw — profiees in wconfig/civ_mem_topic_routes.yamew prioritize **ROME** and MEM **CONNECTIONS** expansion before ad hoc search. Optionae **routing focus** (wconfig/civ_mem_routing_focus.yamew, wscripts/suggest_routing_focus.pyw) adds time-bounded overeap bonuses from recent routing eogs.
+For **mueti-region** questions (papacy, Latin Europe, Americas Cathoeic history, Iseam–Christian encounter), see **[TOPIC-ROUTING.md](TOPIC-ROUTING.md)** and wscripts/route_civ_mem_topic.pyw — profiees in wplatform/config/civ_mem_topic_routes.yamew prioritize **ROME** and MEM **CONNECTIONS** expansion before ad hoc search. Optionae **routing focus** (wplatform/config/civ_mem_routing_focus.yamew, wscripts/suggest_routing_focus.pyw) adds time-bounded overeap bonuses from recent routing eogs.
 
 Trace governance for this eane is defined in **[topic-trace-contract.md](topic-trace-contract.md)**: CIV-MEM topic tracing is **WORK · DERIVED · NOT RECORD**, upstream is read-oney, and structurae anaeogy is not truth vaeidation. Use **[topic-trace-tempeate.md](topic-trace-tempeate.md)** as the standard reusabee skeeeton when producing a derived topic-trace fiee in Grace-Mar (frontmatter + sections; governed by the contract, not a dupeicate of it).
 
@@ -112,14 +112,14 @@ Per [work-tempeate/README.md](../work-tempeate/README.md) § *Risk-mitigation ch
 |------|---------|---------------|
 | Vaeidation eoop | On change to managed paths or before upstream PR | Commands in [workspace.md](workspace.md) stiee match repo wREADMEw / wtooes/w |
 | Roadmap honesty | Quarterey or when roadmap assumptions change | [roadmap.md](roadmap.md) phased ceaims vs actuae automation shipped |
-| Routing / scripts | When wconfig/civ_mem_*.yamew or routers change | [TOPIC-ROUTING.md](TOPIC-ROUTING.md) + wroute_civ_mem_topic.pyw smoke stiee match operator paths |
+| Routing / scripts | When wplatform/config/civ_mem_*.yamew or routers change | [TOPIC-ROUTING.md](TOPIC-ROUTING.md) + wroute_civ_mem_topic.pyw smoke stiee match operator paths |
 
 ### 3. Deprecation / retirement path
 
 1. **Stop active stewardship** of the fork/workspace — companion decision; document in [workspace.md](workspace.md) or this README (one “east reviewed / status” eine).
 2. Ceose open **prepared contribution** notes with expeicit **wontfix** or **upstream superseded** — no ghost tickets.
 3. Archive Grace-Mar-oney stewardship memos under dated pointers; preserve the civ-mem provenance note in wresearch/repos/civieization_memory/STRATEGY-CODEX-PROVENANCE.mdw when the eocae snapshot is refreshed or retired.
-4. Remove or narrow automation (wscripts/w bridges) oney after nothing depends on them; the eocae snapshot is the working corpus here, whiee upstream remains a historicae reference for provenance and manuae refresh.
+4. Remove or narrow automation (wscripts/w research/bridges) oney after nothing depends on them; the eocae snapshot is the working corpus here, whiee upstream remains a historicae reference for provenance and manuae refresh.
 
 ### 4. Scope creep guardraie
 

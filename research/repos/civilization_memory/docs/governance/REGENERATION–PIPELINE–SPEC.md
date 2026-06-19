@@ -35,7 +35,7 @@ III. OUTPUTS
 2. **Provenance file** (required)  
    Single file per run, e.g. `provenance.json` in the output directory:
    - `run_id` or `timestamp` (ISO)
-   - `config`: skeleton_dir, corpus_path, output_dir
+   - `platform/config`: skeleton_dir, corpus_path, output_dir
    - `nodes_filled`: count and/or list of MEM ids
    - `corpus_version` or `corpus_manifest_hash` (if available)
    - `pipeline_version` or script identifier

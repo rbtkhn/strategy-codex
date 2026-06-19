@@ -1,0 +1,44 @@
+﻿{
+  "$comment": "Declares which settings are user-adjustable, operator-only, or immutable. Instance values for strategy-codex.",
+  "schemaVersion": "1.0.0",
+  "user_adjustable": [
+    {
+      "path": "platform/config/seed-promotion-rules.json",
+      "description": "Promotion thresholds for seed claims"
+    },
+    {
+      "path": "platform/config/context_budgets/",
+      "description": "Token budget allocations for prepared context"
+    }
+  ],
+  "operator_only": [
+    {
+      "path": "platform/config/authority-map.json",
+      "description": "Surface authority classes (human_only, review_required, draftable, ephemeral_only)"
+    },
+    {
+      "path": "platform/config/source-of-truth.json",
+      "description": "Canonical location for each concept"
+    },
+    {
+      "path": "instance-doctrine.md",
+      "description": "Instance-specific operating rules (Layer 2)"
+    }
+  ],
+  "immutable": [
+    {
+      "path": "schemas/registry/*.json",
+      "description": "JSON schemas - versioned, never silently modified"
+    },
+    {
+      "path": "AGENTS.md",
+      "scope": "core doctrine sections",
+      "description": "Core doctrine (Layer 1) - knowledge boundary, gated pipeline, authority classes"
+    },
+    {
+      "path": "docs/seed-phase-doctrine.md",
+      "description": "Constitutional principles for identity formation"
+    }
+  ]
+}
+

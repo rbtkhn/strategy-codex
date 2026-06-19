@@ -21,7 +21,7 @@ def _load_gmb():
 def test_user_profile_dir():
     mod = _load_gmb()
     r = Path("/tmp/r")
-    assert mod.user_profile_dir(r, "x") == r / "users" / "x"
+    assert mod.user_profile_dir(r, "x") == r / "platform/users" / "x"
 
 
 def test_detect_tone_from_memory():
@@ -47,10 +47,10 @@ def test_yesterday_intention_found(tmp_path):
     mod = _load_gmb()
     repo = tmp_path / "repo"
     prof = mod.user_profile_dir(repo, "u1")
-    (prof / "reflection-proposals").mkdir(parents=True)
+    (prof / "archive/queues/reflection-proposals").mkdir(parents=True)
     today = date(2026, 3, 15)
     y = today - timedelta(days=1)
-    (prof / "reflection-proposals" / f"DAILY-INTENTION-{y.isoformat()}.md").write_text(
+    (prof / "archive/queues/reflection-proposals" / f"DAILY-INTENTION-{y.isoformat()}.md").write_text(
         "# Daily\n\nYesterday focus text here.",
         encoding="utf-8",
     )
@@ -60,7 +60,7 @@ def test_yesterday_intention_found(tmp_path):
 
 def test_yesterday_intention_missing(tmp_path):
     mod = _load_gmb()
-    prof = tmp_path / "repo" / "users" / "u1"
+    prof = tmp_path / "repo" / "platform/users" / "u1"
     prof.mkdir(parents=True)
     assert mod._yesterday_intention(prof, date(2026, 1, 5)) is None
 

@@ -11,7 +11,7 @@ SCRIPT = REPO_ROOT / "scripts" / "runtime" / "checkpoint_session.py"
 
 
 def test_checkpoint_session_subprocess(tmp_path: Path) -> None:
-    out = tmp_path / "artifacts" / "handoffs" / "checkpoints"
+    out = tmp_path / "runtime/artifacts" / "handoffs" / "checkpoints"
     r = subprocess.run(
         [
             sys.executable,
@@ -78,7 +78,7 @@ def test_checkpoint_from_memory_brief(tmp_path: Path) -> None:
         text=True,
     )
     assert r.returncode == 0, r.stderr
-    cp = next((tmp_path / "artifacts" / "handoffs" / "checkpoints").glob("*.md"))
+    cp = next((tmp_path / "runtime/artifacts" / "handoffs" / "checkpoints").glob("*.md"))
     body = cp.read_text(encoding="utf-8")
     assert "iran test" in body
     assert "title one" in body or "takeaway a" in body

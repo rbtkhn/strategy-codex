@@ -18,7 +18,7 @@ Run on **major** proposals, large OpenClaw handbacks, or multi-step agent runs b
 - [ ] **Reversibility** — Can we undo (draft vs committed / irreversible action)?
 - [ ] **Frequency** — How often does this path run? Scale of exposure?
 - [ ] **Verifiability** — **Functional** correctness provable, not only “sounds right”?
-- [ ] **`DESIGN.md` changes** — If [`users/grace-mar/DESIGN.md`](../DESIGN.md) changed, run `python3 scripts/validate-design-md.py` (see creative pipeline).
+- [ ] **`DESIGN.md` changes** — If [`platform/users/grace-mar/DESIGN.md`](../DESIGN.md) changed, run `python3 scripts/validate-design-md.py` (see creative pipeline).
 
 ---
 

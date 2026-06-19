@@ -1,3 +1,4 @@
+from repo_io import SCHEMA_REGISTRY_DIR
 #!/usr/bin/env python3
 """
 Runtime worker peer review â€” heuristic pass on a draft proposal + execution receipt.
@@ -23,14 +24,14 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-PEER_SCHEMA_PATH = REPO_ROOT / "schema-registry" / "runtime-peer-review.v1.json"
-EXECUTION_RECEIPT_SCHEMA_PATH = REPO_ROOT / "schema-registry" / "execution-receipt.v1.json"
+PEER_SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "runtime-peer-review.v1.json"
+EXECUTION_RECEIPT_SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "execution-receipt.v1.json"
 
 _FORBIDDEN_HINTS = (
     "self.md",
     "recursion-gate.md",
     "self-archive.md",
-    "bot/prompt.py",
+    "archive/grace-mar-instance/bot/prompt.py",
 )
 
 

@@ -9,9 +9,10 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
+from repo_io import ARTIFACTS_DIR, SRC_DIR
 
 from grace_mar.observability.metric_contract import WORKFLOW_METRIC_KEY, fill_contract  # noqa: E402
 
@@ -44,7 +45,7 @@ def summarize_receipts(receipts: List[dict[str, Any]]) -> Dict[str, Any]:
 
 
 def summarize_artifacts(artifacts: List[dict[str, Any]]) -> Dict[str, Any]:
-    total = len(artifacts)
+    total = len(runtime/artifacts)
     with_quantiles = 0
     with_covariates = 0
     with_benchmarks = 0
@@ -67,7 +68,7 @@ def summarize_artifacts(artifacts: List[dict[str, Any]]) -> Dict[str, Any]:
             with_benchmarks += 1
 
     return {
-        "total_artifacts": total,
+        "total_runtime/artifacts": total,
         "with_quantiles": with_quantiles,
         "with_covariates": with_covariates,
         "with_benchmarks": with_benchmarks,
@@ -119,7 +120,7 @@ def write_markdown_report(
             "",
             "## Artifacts",
             "",
-            f"- Total artifacts: {artifact_summary['total_artifacts']}",
+            f"- Total artifacts: {artifact_summary['total_runtime/artifacts']}",
             f"- Artifacts with quantiles: {artifact_summary['with_quantiles']}",
             f"- Artifacts with covariates: {artifact_summary['with_covariates']}",
             f"- Artifacts with benchmarks: {artifact_summary['with_benchmarks']}",
@@ -152,17 +153,17 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--receipts-dir",
-        default="artifacts/receipts/forecast",
+        default="runtime/artifacts/receipts/forecast",
         help="Directory containing forecast receipt JSON files.",
     )
     parser.add_argument(
         "--artifacts-dir",
-        default="artifacts/forecast",
+        default="runtime/artifacts/forecast",
         help="Directory containing forecast artifact JSON files.",
     )
     parser.add_argument(
         "--out",
-        default="artifacts/forecast/observability-report.md",
+        default="runtime/artifacts/forecast/observability-report.md",
         help="Output markdown report path.",
     )
     return parser.parse_args()
@@ -179,14 +180,14 @@ def main() -> None:
     ]
 
     receipt_summary = summarize_receipts(receipts)
-    artifact_summary = summarize_artifacts(artifacts)
+    artifact_summary = summarize_artifacts(runtime/artifacts)
 
     out_path = Path(args.out)
     write_markdown_report(out_path, receipt_summary, artifact_summary)
 
-    metrics_path = REPO_ROOT / "artifacts" / "forecast" / "workflow-metric-contract.json"
+    metrics_path = ARTIFACTS_DIR / "forecast" / "workflow-metric-contract.json"
     metrics_path.parent.mkdir(parents=True, exist_ok=True)
-    wf_total = receipt_summary["total_receipts"] + artifact_summary["total_artifacts"]
+    wf_total = receipt_summary["total_receipts"] + artifact_summary["total_runtime/artifacts"]
     metrics_path.write_text(
         json.dumps(
             {

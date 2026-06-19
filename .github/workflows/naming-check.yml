@@ -21,3 +21,9 @@ jobs:
 
       - name: Check work-cici active-prose drift
         run: python scripts/check_work_cici_drift.py
+
+      - name: Root folder layout (20 cap)
+        run: python scripts/assert_root_folder_layout.py
+
+      - name: Repo path resolver adoption
+        run: python scripts/check_repo_path_adoption.py --max-literals 0

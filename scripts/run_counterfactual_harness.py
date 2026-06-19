@@ -22,9 +22,10 @@ from openai import OpenAI
 # Add repo root for bot imports
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
+from repo_io import BOT_DIR
 
 load_dotenv(REPO_ROOT / ".env")
-load_dotenv(REPO_ROOT / "bot" / ".env")  # bot/.env if no repo-root .env
+load_dotenv(BOT_DIR / ".env")  # archive/grace-mar-instance/bot/.env if no repo-root .env
 
 from bot.prompt import SYSTEM_PROMPT
 

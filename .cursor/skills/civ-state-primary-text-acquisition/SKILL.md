@@ -9,7 +9,7 @@ tags:
 - civ-state
 - primary-sources
 - acquisition
-portable_source: skills-portable/civ-state-primary-text-acquisition/SKILL.md
+portable_source: skills/civ-state-primary-text-acquisition/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # CIV-STATE Primary-Text Acquisition

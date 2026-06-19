@@ -141,12 +141,12 @@ class TestChunkStore:
 
         out_dir = ledger_paths.chunks_dir("artifact_lookup")
         out_dir.mkdir(parents=True, exist_ok=True)
-        record = {"chunk_id": "chk_test_0000", "source_path": "artifacts/test.md",
+        record = {"chunk_id": "chk_test_0000", "source_path": "runtime/artifacts/test.md",
                    "chunk_index": 0, "content": "test"}
         (out_dir / "test.md.chunks.jsonl").write_text(json.dumps(record) + "\n")
 
         paths = chunk_store.chunked_source_paths("artifact_lookup")
-        assert "artifacts/test.md" in paths
+        assert "runtime/artifacts/test.md" in paths
 
 
 # ── CLI integration tests ─────────────────────────────────────────────

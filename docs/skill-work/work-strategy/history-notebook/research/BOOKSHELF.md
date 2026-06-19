@@ -41,5 +41,5 @@ Bookshelf rows **inform** [History Notebook](../README.md) chapter drafting (whi
 ## See also
 
 - [History Notebook â€” STYLE-GUIDE Â§ Bookshelf era buckets](../STYLE-GUIDE.md#bookshelf-era-buckets) â€” era vocabulary in prose.
-- [artifacts/library-index.md](../../../../../artifacts/library-index.md) â€” operator dashboard; includes **LIB-0158** in entry summaries, not the Shelf title list.
+- [runtime/artifacts/library-index.md](../../../../../runtime/artifacts/library-index.md) â€” operator dashboard; includes **LIB-0158** in entry summaries, not the Shelf title list.
 

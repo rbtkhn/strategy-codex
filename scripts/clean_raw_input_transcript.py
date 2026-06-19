@@ -21,10 +21,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
+from repo_io import ARTIFACTS_DIR
 
 from yaml_compat import safe_dump, safe_load_text  # noqa: E402
 
-DEFAULT_RECEIPT_ROOT = REPO_ROOT / "artifacts" / "transcript-cleanup"
+DEFAULT_RECEIPT_ROOT = ARTIFACTS_DIR / "transcript-cleanup"
 WORD_RE = re.compile(r"\b[\w'-]+\b")
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 

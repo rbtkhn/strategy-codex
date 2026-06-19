@@ -8,7 +8,7 @@ from __future__ import annotations
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-users = ROOT / "users"
+users = ROOT / "platform/users"
 must_persist = 0
 total = 0
 if users.is_dir():

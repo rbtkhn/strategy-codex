@@ -182,7 +182,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:1 S:0 G:3]** [Born in south Lebanon, displaced to Beirut, two grandmothers reflect on Israeli invasions](https://www.npr.org/2026/04/18/nx-s1-5761904/lebanon-war-israel-hezbollah-displacement-ceasefire) Ã¢â‚¬” _NPR Ã¢â‚¬” national news_ Ã‚· _2026-04-18 06:02 UTC_
 - **[W:5 S:0 G:1]** [EN DIRECT, guerre en UkraineÃ‚ : plus de 200Ã‚ attaques de drones russes signalÃƒÂ©es par KievÃ‚ ; des installations portuaires endommagÃƒÂ©es dans l’oblast d’Odessa](https://www.lemonde.fr/international/live/2026/04/18/en-direct-guerre-en-ukraine-plus-de-200-attaques-de-drones-russes-signalees-par-kiev-des-installations-portuaires-endommagees-dans-l-oblast-d-odessa_6679492_3210.html) Ã¢â‚¬” _Le Monde Ã¢â‚¬” franÃƒ§ais (France / monde)_ Ã‚· _fr_ Ã‚· _2026-04-18 11:08 UTC_
@@ -257,7 +257,7 @@ Thread **Context Efficiency Layer** when assembling follow-up context: prefer ho
 - **Doctrine:** [context-efficiency-layer.md](../context-efficiency-layer.md)
 - **Compaction shapes:** [context-compaction-protocol.md](../context-compaction-protocol.md)
 - **Session brief (hot):** `python3 scripts/session_brief.py -u grace-mar --compact`
-- **Budgets:** `config/context_budgets/session_brief.json`, `config/context_surfaces.json`
+- **Budgets:** `platform/config/context_budgets/session_brief.json`, `platform/config/context_surfaces.json`
 
 
 ---

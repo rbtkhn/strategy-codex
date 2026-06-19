@@ -6,7 +6,7 @@
 
 ## Why this scanner exists
 
-[`config/mcp-capabilities.yaml`](../../config/mcp-capabilities.yaml) lists **hypothetical** MCP integration classes. Admitting a capability into that registry is **not neutral**: each row implies permission posture (network, credentials, writes). Before treating a row as acceptable policy text, Grace-Mar needs **numeric risk scoring**, **tier classification**, **hard blocker** detection, and **recommendations** aligned with [`config/mcp-risk-policy.yaml`](../../config/mcp-risk-policy.yaml).
+[`platform/config/mcp-capabilities.yaml`](../../platform/config/mcp-capabilities.yaml) lists **hypothetical** MCP integration classes. Admitting a capability into that registry is **not neutral**: each row implies permission posture (network, credentials, writes). Before treating a row as acceptable policy text, Grace-Mar needs **numeric risk scoring**, **tier classification**, **hard blocker** detection, and **recommendations** aligned with [`platform/config/mcp-risk-policy.yaml`](../../platform/config/mcp-risk-policy.yaml).
 
 ---
 
@@ -15,14 +15,14 @@
 | Tool | Purpose |
 |------|---------|
 | [`scripts/mcp_capability_audit.py`](../../scripts/mcp_capability_audit.py) | Validates registry YAML against [`schemas/mcp-capability.v1.json`](../../schemas/mcp-capability.v1.json); emits heuristic **danger flags** (R1–R4). |
-| [`scripts/mcp_authority_check.py`](../../scripts/mcp_authority_check.py) | Cross-checks [`config/mcp-authority-bindings.yaml`](../../config/mcp-authority-bindings.yaml) ↔ capability **output_lane** ↔ [`config/authority-map.json`](../../config/authority-map.json). |
+| [`scripts/mcp_authority_check.py`](../../scripts/mcp_authority_check.py) | Cross-checks [`platform/config/mcp-authority-bindings.yaml`](../../platform/config/mcp-authority-bindings.yaml) ↔ capability **output_lane** ↔ [`platform/config/authority-map.json`](../../platform/config/authority-map.json). |
 | **`scripts/mcp_risk_scan.py`** (this PR) | Computes **risk scores**, **LOW/MEDIUM/HIGH/CRITICAL** tiers, **recommendations**, and **hard blocker tokens** from explicit policy weights — admission posture, not schema shape alone. |
 
 ---
 
 ## Risk scoring model
 
-Weights and thresholds live in [`config/mcp-risk-policy.yaml`](../../config/mcp-risk-policy.yaml). Signals include credential requirement, full network access, non-empty writes, durable state writes, cloud/hybrid posture, shell/merge patterns in **allowed** surfaces, canonical-path fragments in **writes**, missing receipts/gates, and incomplete GitHub prohibitions on SCM rows.
+Weights and thresholds live in [`platform/config/mcp-risk-policy.yaml`](../../platform/config/mcp-risk-policy.yaml). Signals include credential requirement, full network access, non-empty writes, durable state writes, cloud/hybrid posture, shell/merge patterns in **allowed** surfaces, canonical-path fragments in **writes**, missing receipts/gates, and incomplete GitHub prohibitions on SCM rows.
 
 Scores map to tiers (**LOW** 0–3, **MEDIUM** 4–7, **HIGH** 8–12, **CRITICAL** 13+) and to recommendation strings (`allow_with_receipt`, …).
 
@@ -44,8 +44,8 @@ Registry rows such as **`shell_execution_prohibited`** and **`memory_external_pr
 
 ## Outputs
 
-- **Markdown:** [`artifacts/mcp-risk-report.md`](../../artifacts/mcp-risk-report.md) — timestamp, summary, per-capability findings.
-- **JSON (optional):** `python scripts/mcp_risk_scan.py --json` writes [`artifacts/mcp-risk-report.json`](../../artifacts/mcp-risk-report.json).
+- **Markdown:** [`runtime/artifacts/mcp-risk-report.md`](../../runtime/artifacts/mcp-risk-report.md) — timestamp, summary, per-capability findings.
+- **JSON (optional):** `python scripts/mcp_risk_scan.py --json` writes [`runtime/artifacts/mcp-risk-report.json`](../../runtime/artifacts/mcp-risk-report.json).
 
 ---
 

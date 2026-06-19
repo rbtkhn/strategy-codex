@@ -23,7 +23,7 @@ For each modified MEM, verify:
 ---
 
 ### 2. Content Composition Rule (no numerical proportions)
-- [ ] **GEO–MEM:** Mearsheimer primary (strategic/terrain sections), Mercouris secondary (ARC quotes, evidence)
+- [ ] **GEO–MEM:** Mearsheimer primary (strategic/terrain sections), Mercouris secondary (ARC quotes, archive/placeholders/evidence)
 - [ ] **Subject MEM:** Mercouris primary (narrative/legitimacy), Mearsheimer secondary (structural frame)
 - [ ] **Barnes:** Barnes dimension satisfied (framework applied or N/A stated)
 - [ ] GEO–MEM: 4 ARC sections present (ARC-T-ANCIENT, ARC-T-MEDIEVAL, ARC-T-EARLY-MOD, ARC-T-MODERN)

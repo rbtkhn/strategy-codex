@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Derived operator dashboard for the work-dev compound layer.
-Read-only; writes a single markdown file under artifacts/. Stdlib only.
+Read-only; writes a single markdown file under runtime/artifacts/. Stdlib only.
 Does not touch Record surfaces, recursion-gate.md, or stage_gate_candidate.
 """
 
@@ -17,6 +17,7 @@ from typing import Any
 _SCRIPT_DIR = Path(__file__).resolve().parent
 if str(_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPT_DIR))
+from repo_io import ARTIFACTS_DIR, artifacts_dir
 
 from work_dev.compound_notes import (  # noqa: E402
     NOTES_DIR,
@@ -31,7 +32,7 @@ from work_dev.compound_notes import (  # noqa: E402
     stale_non_gate_records,
 )
 
-DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "work-dev-compound-dashboard.md"
+DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-dev-compound-dashboard.md"
 
 SECTION_IDS = (
     "boundary",
@@ -96,7 +97,7 @@ def _include(section: str, want: set[str] | None) -> bool:
 
 
 def _artifact_status(repo: Path, name: str) -> tuple[str, str, str]:
-    p = repo / "artifacts" / name
+    p = artifacts_dir(repo) / name
     rel = str(p.relative_to(repo))
     if not p.is_file():
         return ("absent", rel, "—")
@@ -335,7 +336,7 @@ def build_dashboard(
         lines.append("")
 
     if _include("reports", want):
-        lines.append("## 6. Generated reports (artifacts)")
+        lines.append("## 6. Generated reports (runtime/artifacts)")
         lines.append("")
         for name in ARTIFACTS_CHECK:
             st, rel, mts = _artifact_status(repo_root, name)
@@ -413,7 +414,7 @@ def main() -> int:
         "--output",
         type=Path,
         default=DEFAULT_OUTPUT,
-        help="Output markdown (default: artifacts/work-dev-compound-dashboard.md)",
+        help="Output markdown (default: runtime/artifacts/work-dev-compound-dashboard.md)",
     )
     ap.add_argument(
         "--include-sections",

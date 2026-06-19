@@ -9,7 +9,7 @@ Export classes: [docs/portable-record/export-contract.md](../docs/portable-recor
   python scripts/export.py [-u USER] --export-class {tool_bootstrap|full|task_limited|capability|emulation} [-- EXTRA...]
 
 When EXTRA omits -u/--user, this CLI prepends -u <resolved> (env GRACE_MAR_USER_ID, else
-repo default: strategy-codex when the root profile exists, else _template).
+repo default: strategy-codex when the root profile exists, else platform/template).
 
 G1: ``all`` forwards to export_runtime_bundle.py only (same as bundle).
 
@@ -36,7 +36,7 @@ SUBCOMMAND_SCRIPTS: dict[str, str] = {
 }
 
 EXPORT_CLASS_ROUTES: dict[str, tuple[str, list[str]]] = {
-    "tool_bootstrap": ("export_prp.py", []),
+    "tool_archive/grace-mar-instance/bootstrap": ("export_prp.py", []),
     "full": ("export_runtime_bundle.py", ["--mode", "portable_bundle_only"]),
     "task_limited": ("export_fork.py", ["--format", "coach-handoff"]),
     "capability": ("export_capability.py", []),
@@ -56,7 +56,7 @@ def _default_user_id() -> str:
         return env
     if (REPO_ROOT / "self.md").is_file():
         return "strategy-codex"
-    return "_template"
+    return "platform/template"
 
 
 def _argv_has_user_flag(argv: list[str]) -> bool:
@@ -146,7 +146,7 @@ Subcommands:
 
 Export classes (--export-class):
   tool_bootstrap  -> export_prp.py (compact prompt for bootstrapping a new tool)
-  full            -> export_runtime_bundle.py --mode portable_bundle_only (broad governed profile)
+  full            -> export_runtime_bundle.py --mode portable_bundle_only (broad governed platform/profile)
   task_limited    -> export_fork.py --format coach-handoff (filtered for a specific role)
   capability      -> export_capability.py (SKILLS + EVIDENCE portfolio with rationale companions)
   emulation       -> export_emulation_bundle.py --mode portable_bundle_only (runtime-ready composition over existing exports)

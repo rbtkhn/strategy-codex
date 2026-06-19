@@ -1,6 +1,6 @@
 # THINK claim — template (markdown)
 
-Copy into `skill-think.md` or companion notes; mirror in [think-claims.json](../../artifacts/skill-think/think-claims.json).
+Copy into `skill-think.md` or companion notes; mirror in [think-claims.json](../../runtime/artifacts/skill-think/think-claims.json).
 
 ```markdown
 ### THINK-XXX — short label

@@ -186,7 +186,7 @@ See `pilot-one-sheet.md` for partner-facing summary.
 
 | Risk | Mitigation |
 |------|------------|
-| Scope dilution | enforce sequencing (family proof first, then integrations) |
+| Scope dilution | enforce sequencing (family proof first, then platform/integrations) |
 | Approval burden fatigue | triage, batching, and operator workflow UX improvements |
 | Competitor feature copying | compete on governance operations and longitudinal evidence quality |
 | Compliance drag | build trust artifacts and role boundaries in parallel with GTM |

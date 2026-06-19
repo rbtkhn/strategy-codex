@@ -31,7 +31,7 @@ def test_build_dashboard_empty_pipeline(tmp_path: Path) -> None:
 
     root = tmp_path / "r"
     _copy_control_plane(root)
-    (root / "users" / "u1").mkdir(parents=True)
+    (root / "platform/users" / "u1").mkdir(parents=True)
     d = build_dashboard(user_id="u1", repo_root=root)
     assert d.pipeline_event_counts == {}
     assert "implemented" in d.integration_status_counts
@@ -49,7 +49,7 @@ def test_build_dashboard_counts_lane_violations(tmp_path: Path) -> None:
 
     root = tmp_path / "r"
     _copy_control_plane(root)
-    (root / "users" / "u1").mkdir(parents=True)
+    (root / "platform/users" / "u1").mkdir(parents=True)
     obs = root / "runtime" / "observability"
     obs.mkdir(parents=True)
     (obs / "lane_scope.jsonl").write_text(
@@ -66,7 +66,7 @@ def test_build_dashboard_counts_continuity_blocks(tmp_path: Path) -> None:
 
     root = tmp_path / "r"
     _copy_control_plane(root)
-    (root / "users" / "u1").mkdir(parents=True)
+    (root / "platform/users" / "u1").mkdir(parents=True)
     obs = root / "runtime" / "observability"
     obs.mkdir(parents=True)
     (obs / "continuity_blocks.jsonl").write_text(
@@ -95,8 +95,8 @@ def test_build_dashboard_provenance_from_recursion_gate(tmp_path: Path) -> None:
 
     root = tmp_path / "r"
     _copy_control_plane(root)
-    (root / "users" / "u1").mkdir(parents=True)
-    gate = root / "users" / "u1" / "recursion-gate.md"
+    (root / "platform/users" / "u1").mkdir(parents=True)
+    gate = root / "platform/users" / "u1" / "recursion-gate.md"
     # Two pending blocks: full metadata vs minimal
     gate.write_text(
         """## Candidates\n\n### CANDIDATE-1\n```yaml\nstatus: pending\ncandidate_source: \"openclaw\"\nartifact_path: \"a\"\nartifact_sha256: \"x\"\ncontinuity_receipt_path: \"r.json\"\nconstitution_check_status: \"ok\"\n```\n\n### CANDIDATE-2\n```yaml\nstatus: pending\ncandidate_source: \"x\"\n```\n\n## Processed\n\n""",
@@ -114,7 +114,7 @@ def test_build_dashboard_autonomy_with_shadow_log(tmp_path: Path) -> None:
 
     root = tmp_path / "r"
     _copy_control_plane(root)
-    (root / "users" / "u1").mkdir(parents=True)
+    (root / "platform/users" / "u1").mkdir(parents=True)
     aut = root / "docs" / "skill-work" / "work-dev" / "autonomy"
     aut.mkdir(parents=True)
     (aut / "tier_thresholds.yaml").write_text(
@@ -143,7 +143,7 @@ def test_build_dashboard_markdown_reflects_feed_counts(tmp_path: Path) -> None:
 
     root = tmp_path / "r"
     _copy_control_plane(root)
-    (root / "users" / "u1").mkdir(parents=True)
+    (root / "platform/users" / "u1").mkdir(parents=True)
     obs = root / "runtime" / "observability"
     obs.mkdir(parents=True)
     (obs / "lane_scope.jsonl").write_text('{"event":"lane_violation"}\n', encoding="utf-8")
@@ -162,7 +162,7 @@ def test_build_dashboard_cli_writes_artifacts() -> None:
         timeout=120,
     )
     assert rc.returncode == 0, rc.stderr
-    j = REPO_ROOT / "artifacts" / "work_dev_dashboard.json"
+    j = REPO_ROOT / "runtime/artifacts" / "work_dev_dashboard.json"
     assert j.is_file()
     data = json.loads(j.read_text(encoding="utf-8"))
     assert "integration_status_counts" in data

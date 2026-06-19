@@ -198,7 +198,7 @@ Control direct quotation in an analysis-derived post.
 
 ## Recording results
 
-Add the following optional fields to a claim in [`write-claims.json`](../../artifacts/skill-write/write-claims.json):
+Add the following optional fields to a claim in [`write-claims.json`](../../runtime/artifacts/skill-write/write-claims.json):
 
 | Field | Type | Purpose |
 |-------|------|---------|

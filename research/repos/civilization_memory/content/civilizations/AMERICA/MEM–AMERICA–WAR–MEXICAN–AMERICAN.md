@@ -21,7 +21,7 @@ States annexed Texas (dispute), provoked and won a short war
 with Mexico, and acquired California and the Southwest (Treaty
 of Guadalupe Hidalgo, 1848)—expansion framed procedurally
 (congressional authorisation, treaty) while igniting sectional
-and moral conflict (slavery extension).
+and moral conflict (slavery platform/extension).
 
 For America, the war is **conquest absorbed by procedure**—
 territorial gain without regime collapse; legitimacy through

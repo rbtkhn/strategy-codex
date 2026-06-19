@@ -1,0 +1,3053 @@
+{
+  "schemaVersion": "1.0.0-statecraft-day-dashboard",
+  "generatedAt": "2026-05-29T22:40:10.623892+00:00",
+  "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
+  "query": {
+    "channels": [],
+    "threads": [],
+    "hosts": [],
+    "guests": [
+      "Andrei Martyanov"
+    ],
+    "slug": "andrei-martyanov"
+  },
+  "coverage": {
+    "dayCount": 26,
+    "sourceFileCount": 122,
+    "firstDay": "2025-01-26",
+    "lastDay": "2026-05-28"
+  },
+  "aggregates": {
+    "topDays": [
+      {
+        "date": "2026-05-28",
+        "sourceCount": 14
+      },
+      {
+        "date": "2026-04-23",
+        "sourceCount": 10
+      },
+      {
+        "date": "2026-05-14",
+        "sourceCount": 10
+      },
+      {
+        "date": "2026-04-16",
+        "sourceCount": 9
+      },
+      {
+        "date": "2026-04-02",
+        "sourceCount": 8
+      },
+      {
+        "date": "2026-03-05",
+        "sourceCount": 6
+      },
+      {
+        "date": "2026-05-07",
+        "sourceCount": 6
+      },
+      {
+        "date": "2026-05-21",
+        "sourceCount": 6
+      },
+      {
+        "date": "2025-10-20",
+        "sourceCount": 4
+      },
+      {
+        "date": "2025-11-20",
+        "sourceCount": 4
+      }
+    ],
+    "quietDays": [
+      {
+        "date": "2025-05-21",
+        "sourceCount": 2
+      },
+      {
+        "date": "2025-11-30",
+        "sourceCount": 2
+      },
+      {
+        "date": "2025-12-08",
+        "sourceCount": 2
+      },
+      {
+        "date": "2025-12-21",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-01-01",
+        "sourceCount": 2
+      }
+    ],
+    "channels": [
+      {
+        "name": "Dialogue Works",
+        "count": 26
+      },
+      {
+        "name": "Mercouris",
+        "count": 18
+      },
+      {
+        "name": "Daniel Davis Deep Dive",
+        "count": 10
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 9
+      },
+      {
+        "name": "Judging Freedom",
+        "count": 7
+      },
+      {
+        "name": "Alexander Mercouris",
+        "count": 6
+      },
+      {
+        "name": "escalationtrap.substack.com",
+        "count": 5
+      },
+      {
+        "name": "Mario Nawfal",
+        "count": 4
+      },
+      {
+        "name": "simplicius76.substack.com",
+        "count": 3
+      },
+      {
+        "name": "Deep Dive",
+        "count": 2
+      },
+      {
+        "name": "Predictive History",
+        "count": 2
+      },
+      {
+        "name": "The Duran",
+        "count": 2
+      },
+      {
+        "name": "Diesen",
+        "count": 1
+      },
+      {
+        "name": "Diesen (host) \u00d7 Pepe Escobar (guest \u2014 not strategy expert_id; named in copy)",
+        "count": 1
+      },
+      {
+        "name": "Garland Nixon",
+        "count": 1
+      },
+      {
+        "name": "Glenn Diesen (channel / program \u2014 pin canonical series title when pinned)",
+        "count": 1
+      },
+      {
+        "name": "Judging Freedom (Judge Napolitano)",
+        "count": 1
+      },
+      {
+        "name": "Switzerland with Tom Switzer",
+        "count": 1
+      },
+      {
+        "name": "YouTube (Deep Dive / Daniel Davis \u2014 confirm channel)",
+        "count": 1
+      }
+    ],
+    "hosts": [
+      {
+        "name": "Nima Alkhorshid",
+        "count": 26
+      },
+      {
+        "name": "Alexander Mercouris",
+        "count": 24
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 13
+      },
+      {
+        "name": "Andrew Napolitano",
+        "count": 12
+      },
+      {
+        "name": "Daniel Davis",
+        "count": 12
+      },
+      {
+        "name": "Mario Nawfal",
+        "count": 4
+      },
+      {
+        "name": "Jiang Xueqin",
+        "count": 2
+      },
+      {
+        "name": "Diesen",
+        "count": 1
+      },
+      {
+        "name": "Garland Nixon",
+        "count": 1
+      },
+      {
+        "name": "Tom Switzer",
+        "count": 1
+      }
+    ],
+    "guests": [
+      {
+        "name": "Andrei Martyanov",
+        "count": 27
+      },
+      {
+        "name": "Douglas Macgregor",
+        "count": 5
+      },
+      {
+        "name": "Scott Ritter",
+        "count": 4
+      },
+      {
+        "name": "Alex Krainer",
+        "count": 3
+      },
+      {
+        "name": "Chas Freeman",
+        "count": 3
+      },
+      {
+        "name": "Joe Kent",
+        "count": 3
+      },
+      {
+        "name": "John Mearsheimer",
+        "count": 3
+      },
+      {
+        "name": "Charles Freeman",
+        "count": 2
+      },
+      {
+        "name": "Larry Johnson",
+        "count": 2
+      },
+      {
+        "name": "Trita Parsi",
+        "count": 2
+      },
+      {
+        "name": "Alexander Mercouris",
+        "count": 1
+      },
+      {
+        "name": "Anthony Aguilar",
+        "count": 1
+      },
+      {
+        "name": "Daniel Davis",
+        "count": 1
+      },
+      {
+        "name": "George Beebe",
+        "count": 1
+      },
+      {
+        "name": "Jacques Baud",
+        "count": 1
+      },
+      {
+        "name": "Jeffrey Sachs",
+        "count": 1
+      },
+      {
+        "name": "Lawrence Wilkerson",
+        "count": 1
+      },
+      {
+        "name": "Martin Armstrong",
+        "count": 1
+      },
+      {
+        "name": "Max Blumenthal",
+        "count": 1
+      },
+      {
+        "name": "Medvedev Wants Kiev; Moscow",
+        "count": 1
+      },
+      {
+        "name": "Mohammad Marandi",
+        "count": 1
+      },
+      {
+        "name": "Pepe Escobar",
+        "count": 1
+      },
+      {
+        "name": "Ray McGovern",
+        "count": 1
+      },
+      {
+        "name": "Robert Barnes",
+        "count": 1
+      },
+      {
+        "name": "Robert Pape",
+        "count": 1
+      },
+      {
+        "name": "Russia",
+        "count": 1
+      },
+      {
+        "name": "Seyed M. Marandi",
+        "count": 1
+      },
+      {
+        "name": "Seyed Marandi",
+        "count": 1
+      },
+      {
+        "name": "Stanislav Krapivnik",
+        "count": 1
+      },
+      {
+        "name": "What Ukraine Lost in Battle CAN'T be Regained Negotiating w/Amb Chas Freeman",
+        "count": 1
+      },
+      {
+        "name": "[mercouris, barnes, christoforou]",
+        "count": 1
+      }
+    ],
+    "threads": [
+      {
+        "name": "mercouris",
+        "count": 26
+      },
+      {
+        "name": "davis",
+        "count": 12
+      },
+      {
+        "name": "diesen",
+        "count": 12
+      },
+      {
+        "name": "nima",
+        "count": 12
+      },
+      {
+        "name": "martyanov",
+        "count": 10
+      },
+      {
+        "name": "pape",
+        "count": 10
+      },
+      {
+        "name": "crooke",
+        "count": 5
+      },
+      {
+        "name": "macgregor",
+        "count": 5
+      },
+      {
+        "name": "freeman",
+        "count": 4
+      },
+      {
+        "name": "mearsheimer",
+        "count": 3
+      },
+      {
+        "name": "simplicius",
+        "count": 3
+      },
+      {
+        "name": "jiang",
+        "count": 2
+      },
+      {
+        "name": "krainer",
+        "count": 2
+      },
+      {
+        "name": "marandi",
+        "count": 2
+      },
+      {
+        "name": "ritter",
+        "count": 2
+      },
+      {
+        "name": "[davis, crooke]",
+        "count": 1
+      },
+      {
+        "name": "[mercouris, barnes]",
+        "count": 1
+      },
+      {
+        "name": "barnes",
+        "count": 1
+      },
+      {
+        "name": "baud",
+        "count": 1
+      },
+      {
+        "name": "blumenthal",
+        "count": 1
+      },
+      {
+        "name": "escobar",
+        "count": 1
+      },
+      {
+        "name": "glenn-diesen",
+        "count": 1
+      },
+      {
+        "name": "johnson",
+        "count": 1
+      },
+      {
+        "name": "kent",
+        "count": 1
+      },
+      {
+        "name": "parsi",
+        "count": 1
+      },
+      {
+        "name": "wilkerson",
+        "count": 1
+      }
+    ],
+    "fallbackFamilies": [
+      {
+        "name": "youtube-alex-mercouris-*",
+        "count": 19
+      },
+      {
+        "name": "substack-*",
+        "count": 16
+      },
+      {
+        "name": "transcript-*",
+        "count": 10
+      },
+      {
+        "name": "transcript-napolitano-*",
+        "count": 6
+      },
+      {
+        "name": "youtube-glenn-diesen-*",
+        "count": 3
+      },
+      {
+        "name": "predictive-history-*",
+        "count": 2
+      },
+      {
+        "name": "youtube-*",
+        "count": 1
+      }
+    ]
+  },
+  "anomalies": {
+    "fallbackHeavyDays": [
+      {
+        "date": "2026-04-23",
+        "fallbackCount": 9
+      },
+      {
+        "date": "2026-03-05",
+        "fallbackCount": 5
+      },
+      {
+        "date": "2026-04-16",
+        "fallbackCount": 5
+      },
+      {
+        "date": "2026-04-02",
+        "fallbackCount": 4
+      },
+      {
+        "date": "2026-05-14",
+        "fallbackCount": 4
+      },
+      {
+        "date": "2026-03-19",
+        "fallbackCount": 3
+      },
+      {
+        "date": "2025-04-08",
+        "fallbackCount": 2
+      },
+      {
+        "date": "2025-04-29",
+        "fallbackCount": 2
+      },
+      {
+        "date": "2025-05-21",
+        "fallbackCount": 2
+      },
+      {
+        "date": "2025-11-13",
+        "fallbackCount": 2
+      }
+    ],
+    "missingHostOrGuestDays": [],
+    "missingReadmes": []
+  },
+  "days": [
+    {
+      "date": "2025-01-26",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "What Ukraine Lost in Battle CAN'T be Regained Negotiating w/Amb Chas Freeman",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-dialogue-works-andrei-martyanov-nato-is-collapsing-right-before-our-eyes-2025-01-26.md",
+        "youtube-alex-mercouris-trump-kiev-wrong-to-reject-istanbul-agree-putin-terms-gaza-comment-shock-2025-01-26.md",
+        "youtube-daniel-davis-deep-dive-what-ukraine-lost-in-battle-can-t-be-regained-negotiating-w-amb-chas-fre-2025-01-26.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-04-08",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Charles Freeman",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        },
+        {
+          "name": "youtube-glenn-diesen-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-napolitano-amb-charles-freeman-donald-and-bibi-need-a-war-2025-04-08.md",
+        "youtube-alex-mercouris-china-us-economic-war-beijing-defiant-kiev-troops-lose-retreat-all-fronts-us-pulls-out-of-key-base-2025-04-08.md",
+        "youtube-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-04-29",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Charles Freeman",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        },
+        {
+          "name": "youtube-glenn-diesen-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-napolitano-amb-charles-freeman-will-zelenskyy-concede-crimea-2025-04-29.md",
+        "youtube-alex-mercouris-russia-wants-odessa-return-zelensky-gloats-at-russian-general-s-death-eu-fears-us-quitting-ukraine-2025-04-29.md",
+        "youtube-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-05-21",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        },
+        {
+          "name": "youtube-glenn-diesen-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "youtube-alex-mercouris-moscow-warns-talks-kiev-s-last-chance-total-defeat-if-talks-fail-rubio-warns-against-more-sanctions-2025-05-21.md",
+        "youtube-glenn-diesen-andrei-martyanov-russia-s-military-strategy-in-ukraine-2025-05-21.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-10-20",
+      "fileCount": 4,
+      "channels": [
+        {
+          "name": "Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Trita Parsi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 2
+        },
+        {
+          "name": "glenn-diesen",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "youtube-alex-mercouris-trump-zelensky-furious-row-us-tells-kiev-accept-moscows-terms-or-be-destroyed-pokrovsk-falls-fast-2025-10-20.md",
+        "youtube-daniel-davis-irans-nuclear-dilemma-trita-parsi-lt-col-daniel-davis-2025-10-20.md",
+        "youtube-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md",
+        "youtube-glenn-diesen-alex-krainer-europes-militarism-economic-decline-2025-10-20.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-11-13",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 2
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Douglas Macgregor",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "macgregor",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "transcript-napolitano-*",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "transcript-dialogue-works-andrei-martyanov-frontline-falling-apart-russia-moves-to-crush-ukraine-s-2025-11-13.md",
+        "transcript-napolitano-macgregor-war-is-coming-soon-2025-11-13.md",
+        "transcript-napolitano-mearsheimer-putins-calculus-why-russia-might-welcome-a-long-war-2025-11-13.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-11-20",
+      "fileCount": 4,
+      "channels": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "transcript-napolitano-*",
+          "count": 1
+        },
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-and-china-move-in-together-2025-11-20.md",
+        "transcript-napolitano-mearsheimer-ukraine-and-reality-2025-11-20.md",
+        "youtube-alex-mercouris-kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis-2025-11-20.md",
+        "youtube-glenn-diesen-chas-freeman-fake-peace-political-collapse-and-major-wars-2025-11-20.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-11-30",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-dialogue-works-andrei-martyanov-russia-s-final-moves-as-everything-collapsing-2025-11-30.md",
+        "youtube-alex-mercouris-moscow-demands-trials-kiev-leaders-kiev-envoys-meet-us-officials-russia-2025-11-30.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-12-04",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-dialogue-works-andrei-martyanov-russia-has-made-its-choice-wiping-out-every-threat-2025-12-04.md",
+        "transcript-diesen-freeman-thucydides-trap-us-reaction-china-rise-2025-12-04.md",
+        "youtube-alex-mercouris-kiev-troops-mirnograd-admit-trap-beg-food-help-eu-officials-say-ursula-s-2025-12-04.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-12-08",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "youtube-alex-mercouris-russia-strikes-kiev-ukraine-go-dark-mirnograd-collapse-zelensky-uk-eu-su-2025-12-08.md",
+        "youtube-daniel-davis-deep-dive-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-12-11",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Douglas Macgregor",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "macgregor",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "transcript-napolitano-*",
+          "count": 1
+        },
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md",
+        "transcript-napolitano-macgregor-why-threaten-venezuela-2025-12-11.md",
+        "youtube-alex-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-12-21",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-dialogue-works-andrei-martyanov-its-over-russia-just-unleashed-oreshnik-final-phase-has-begun-2025-12-21.md",
+        "youtube-alex-mercouris-russia-pounds-odessa-region-west-escalates-tanker-war-russian-fleet-inte-2025-12-21.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2025-12-29",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Ray McGovern",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-dialogue-works-ray-mcgovern-did-russia-have-a-choice-2025-12-29.md",
+        "youtube-alex-mercouris-ukraine-calamitous-month-mirnograd-huliaipole-rodinska-stepnogorsk-fall-2025-12-29.md",
+        "youtube-daniel-davis-deep-dive-russia-will-finish-off-ukraine-andrei-martyanov-and-lt-col-daniel-davis-2025-12-29.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-01-01",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 2
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 2
+        }
+      ],
+      "fallbackFamilies": [],
+      "fileNames": [
+        "transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleaned.md",
+        "transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-01-28",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "crooke",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "substack-*",
+          "count": 1
+        },
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "substack-crooke-gaza-reconstruction-ukraine-reconstruction-2026-01-28.md",
+        "transcript-dialogue-works-andrei-martyanov-us-iran-war-about-to-break-out-2026-01-28.md",
+        "youtube-alex-mercouris-russian-prepares-2026-offensive-lyman-falling-drones-spy-kiev-reserve-ar-2026-01-28.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-02-19",
+      "fileCount": 3,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-dialogue-works-andrei-martyanov-iran-bombshell-hypersonic-missile-could-sink-us-navy-carrier-trump-warned-2026-02-19.md",
+        "youtube-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19.md",
+        "youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-02-24",
+      "fileCount": 4,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Martin Armstrong",
+          "count": 1
+        },
+        {
+          "name": "Medvedev Wants Kiev; Moscow",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "transcript-napolitano-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-napolitano-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md",
+        "youtube-alex-mercouris-medvedev-wants-kiev-moscow-uk-france-plot-giving-kiev-nuke-slaviansk-tru-2026-02-24.md",
+        "youtube-daniel-davis-deep-dive-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md",
+        "youtube-glenn-diesen-martin-armstrong-martin-armstrong-how-europe-destroyed-itself-what-comes-next-2026-02-24.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-03-05",
+      "fileCount": 6,
+      "channels": [
+        {
+          "name": "escalationtrap.substack.com",
+          "count": 3
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        },
+        {
+          "name": "simplicius76.substack.com",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "escalationtrap.substack.com",
+          "count": 3
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        },
+        {
+          "name": "simplicius76.substack.com",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "pape",
+          "count": 3
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "simplicius",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "substack-*",
+          "count": 4
+        },
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "substack-pape-day-5-the-war-is-widening-from-gulf-2026-03-05.md",
+        "substack-pape-parallel-strategic-attack-stage-ii-2026-03-05.md",
+        "substack-pape-the-nation-building-trap-2026-03-05.md",
+        "substack-simplicius-us-set-to-escalate-war-into-ground-2026-03-05.md",
+        "transcript-dialogue-works-andrei-martyanov-its-over-for-the-bases-radar-destroyed-f-15-fighters-sh-2026-03-05.md",
+        "youtube-alex-mercouris-iran-tightens-hormuz-blockade-us-strikes-intensify-kurds-in-ukraine-out-2026-03-05.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-03-19",
+      "fileCount": 4,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        },
+        {
+          "name": "simplicius76.substack.com",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        },
+        {
+          "name": "simplicius76.substack.com",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "crooke",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "simplicius",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "substack-*",
+          "count": 2
+        },
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "substack-crooke-as-the-wheels-come-off-the-iran-conflict-2026-03-19.md",
+        "substack-simplicius-things-go-haywire-as-israeli-escalation-2026-03-19.md",
+        "transcript-dialogue-works-andrei-martyanov-iran-hits-us-f-35-massive-retaliation-after-isra-2026-03-19.md",
+        "youtube-alex-mercouris-iran-zero-restraint-after-israel-attacks-huge-gas-field-hits-mideast-ene-2026-03-19.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-04-02",
+      "fileCount": 8,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen (channel / program \u2014 pin canonical series title when pinned)",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen (channel / program \u2014 pin canonical series title when pinned)",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 2
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Joe Kent",
+          "count": 2
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "crooke",
+          "count": 1
+        },
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "pape",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "substack-*",
+          "count": 2
+        },
+        {
+          "name": "transcript-*",
+          "count": 1
+        },
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "substack-crooke-claiming-victory-whilst-admitting-2026-04-02.md",
+        "substack-pape-trump-accelerated-the-crisis-2026-04-02.md",
+        "transcript-davis-diesen-trump-war-speech-2026-04-02.md",
+        "transcript-dialogue-works-andrei-martyanov-it-s-over-the-u-s-just-lost-to-iran-here-s-why-2026-04-02.md",
+        "transcript-dialogue-works-scott-ritter-will-iran-force-the-us-out-of-the-middle-east-2026-04-02.md",
+        "youtube-alex-mercouris-russia-china-act-as-trump-iran-war-address-fails-russia-saudi-talks-chin-2026-04-02.md",
+        "youtube-daniel-davis-deep-dive-latest-goals-in-iran-war-lt-col-daniel-davis-joe-kent-2026-04-02.md",
+        "youtube-glenn-diesen-joe-kent-iran-war-israeli-influence-creating-isis-2026-04-02.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-04-16",
+      "fileCount": 9,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        },
+        {
+          "name": "escalationtrap.substack.com",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        },
+        {
+          "name": "escalationtrap.substack.com",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Larry Johnson",
+          "count": 1
+        },
+        {
+          "name": "Russia",
+          "count": 1
+        },
+        {
+          "name": "Seyed M. Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 2
+        },
+        {
+          "name": "mercouris",
+          "count": 2
+        },
+        {
+          "name": "pape",
+          "count": 2
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "transcript-*",
+          "count": 4
+        },
+        {
+          "name": "substack-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "substack-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md",
+        "transcript-davis.md",
+        "transcript-dialogue-works-andrei-martyanov-how-iran-exposed-trump-s-military-and-strategic-failure-full-breakdown-2026-04-16.md",
+        "transcript-marandi.md",
+        "transcript-mercouris.md",
+        "transcript-pape.md",
+        "youtube-alex-mercouris-russia-eu-makes-drones-for-kiev-medvedev-warns-iran-welcomes-pakistan-ch-2026-04-16.md",
+        "youtube-daniel-davis-deep-dive-fmr-cia-analyst-larry-johnson-iran-demands-not-changing-2026-04-16.md",
+        "youtube-glenn-diesen-seyed-m-marandi-u-s-naval-blockade-ground-invasion-of-iran-2026-04-16.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-04-23",
+      "fileCount": 10,
+      "channels": [
+        {
+          "name": "Mercouris",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Diesen (host) \u00d7 Pepe Escobar (guest \u2014 not strategy expert_id; named in copy)",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom (Judge Napolitano)",
+          "count": 1
+        },
+        {
+          "name": "The Duran",
+          "count": 1
+        },
+        {
+          "name": "YouTube (Deep Dive / Daniel Davis \u2014 confirm channel)",
+          "count": 1
+        },
+        {
+          "name": "simplicius76.substack.com",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Mercouris",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Diesen (host) \u00d7 Pepe Escobar (guest \u2014 not strategy expert_id; named in copy)",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom (Judge Napolitano)",
+          "count": 1
+        },
+        {
+          "name": "The Duran",
+          "count": 1
+        },
+        {
+          "name": "YouTube (Deep Dive / Daniel Davis \u2014 confirm channel)",
+          "count": 1
+        },
+        {
+          "name": "simplicius76.substack.com",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "[mercouris, barnes, christoforou]",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 2
+        },
+        {
+          "name": "[davis, crooke]",
+          "count": 1
+        },
+        {
+          "name": "[mercouris, barnes]",
+          "count": 1
+        },
+        {
+          "name": "crooke",
+          "count": 1
+        },
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "macgregor",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "simplicius",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "transcript-*",
+          "count": 5
+        },
+        {
+          "name": "substack-*",
+          "count": 2
+        },
+        {
+          "name": "transcript-napolitano-*",
+          "count": 1
+        },
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "substack-crooke-the-mechanistic-fallacy-why-the-west-2026-04-23.md",
+        "substack-simplicius-secretary-navy-third-carrier-iran-2026-04-23.md",
+        "transcript-davis-crooke-iranians-only-getting-tougher-2026-04-23.md",
+        "transcript-davis-trump-all-time-in-the-world-2026-04-23.md",
+        "transcript-dialogue-works-andrei-martyanov-iran-just-shot-down-trump-s-blockade-and-israel-s-strategy-is-in-tatters-2026-04-23.md",
+        "transcript-diesen-escobar-connectivity-wars-multipolarity-2026-04-23.md",
+        "transcript-mercouris-barnes-fractured-iran-trump-2026-04-23.md",
+        "transcript-mercouris-eu-shock-fuel-crisis-putin-iran-2026-04-23.md",
+        "transcript-napolitano-macgregor-pentagon-terrible-war-planning-2026-04-23.md",
+        "youtube-alex-mercouris-eu-shock-fuel-crisis-putin-blocks-kazakh-pipeline-russian-offensive-syrs-2026-04-23.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-05-07",
+      "fileCount": 6,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        },
+        {
+          "name": "The Duran",
+          "count": 1
+        },
+        {
+          "name": "escalationtrap.substack.com",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mercouris",
+          "count": 1
+        },
+        {
+          "name": "The Duran",
+          "count": 1
+        },
+        {
+          "name": "escalationtrap.substack.com",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 2
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        },
+        {
+          "name": "Diesen",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Jeffrey Sachs",
+          "count": 1
+        },
+        {
+          "name": "Seyed Marandi",
+          "count": 1
+        },
+        {
+          "name": "Stanislav Krapivnik",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "mercouris",
+          "count": 2
+        },
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "pape",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "substack-*",
+          "count": 1
+        },
+        {
+          "name": "youtube-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "davis-marandi-too-late-for-ground-attack-in-iran-2026-05-07.md",
+        "substack-pape-the-gulf-states-just-voted-on-american-power-2026-05-07.md",
+        "transcript-alkorshid-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07.md",
+        "transcript-diesen-krapivnik-nato-russia-escalation-nuclear-war-2026-05-07.md",
+        "transcript-mercouris-jeffrey-sachs-iran-miscalculation-could-trigger-a-decade-long-economic-crisis-2026-05-07.md",
+        "youtube-mercouris-iran-calls-us-bluff-rejects-talks-saudi-closes-airspace-russia-cracks-kiev-drones-2026-05-07.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-05-14",
+      "fileCount": 10,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 1
+        },
+        {
+          "name": "Predictive History",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 1
+        },
+        {
+          "name": "Predictive History",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Jiang Xueqin",
+          "count": 1
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Anthony Aguilar",
+          "count": 1
+        },
+        {
+          "name": "George Beebe",
+          "count": 1
+        },
+        {
+          "name": "Larry Johnson",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 2
+        },
+        {
+          "name": "pape",
+          "count": 2
+        },
+        {
+          "name": "crooke",
+          "count": 1
+        },
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "jiang",
+          "count": 1
+        },
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "substack-*",
+          "count": 3
+        },
+        {
+          "name": "predictive-history-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "predictive-history-game-theory-25-trump-visits-china-2026-05-14.md",
+        "substack-crooke-israels-war-to-the-root-may-unravel-america-2026-05-14.md",
+        "substack-pape-its-getting-late-early-for-trump-2026-05-14.md",
+        "substack-pape-the-damage-you-cant-hide-2026-05-14.md",
+        "transcript-dialogue-works-andrei-martyanov-iran-and-russia-just-changed-war-forever-here-s-how-2026-05-14.md",
+        "transcript-dialogue-works-lt-col-anthony-aguilar-israel-s-defeat-begins-hezbollah-and-yemen-just-h-2026-05-14.md",
+        "youtube-alex-mercouris-china-tough-stance-in-trump-visit-russia-biggest-strike-kiev-shredded-ad-collapses-zelensky-panic-2026-05-14.md",
+        "youtube-daniel-davis-deep-dive-scott-ritter-russia-retaliation-on-europe-no-longer-in-doubt-2026-05-14.md",
+        "youtube-glenn-diesen-george-beebe-europe-russia-war-as-the-u-s-pulls-back-2026-05-14.md",
+        "youtube-larry-johnson-mario-nawfal-trump-xi-offered-to-help-open-strait-of-hormuz-w-ex-cia-larry-johnson-2026-05-14.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-05-21",
+      "fileCount": 6,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 3
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        },
+        {
+          "name": "Predictive History",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 3
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        },
+        {
+          "name": "Predictive History",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 3
+        },
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        },
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        },
+        {
+          "name": "Jiang Xueqin",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Douglas Macgregor",
+          "count": 2
+        },
+        {
+          "name": "Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Pepe Escobar",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "escobar",
+          "count": 1
+        },
+        {
+          "name": "jiang",
+          "count": 1
+        },
+        {
+          "name": "krainer",
+          "count": 1
+        },
+        {
+          "name": "macgregor",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "predictive-history-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "predictive-history-game-theory-27-putin-enters-the-chat-2026-05-21.md",
+        "transcript-dialogue-works-alex-krainer-the-middle-east-and-europe-just-shifted-overnight-2026-05-21.md",
+        "transcript-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md",
+        "transcript-dialogue-works-pepe-escobar-iran-wipes-out-trumps-attack-russia-chinas-massive-move-2026-05-21.md",
+        "transcript-macgregor-diesen-nato-attacked-russia-us-being-pushed-out-of-the-middle-east-2026-05-21.md",
+        "transcript-napolitano-macgregor-the-pentagon-and-decapitation-strikes-2026-05-21.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    },
+    {
+      "date": "2026-05-28",
+      "fileCount": 14,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 4
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 3
+        },
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        },
+        {
+          "name": "Switzerland with Tom Switzer",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 4
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 3
+        },
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 2
+        },
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        },
+        {
+          "name": "Switzerland with Tom Switzer",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 4
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 3
+        },
+        {
+          "name": "Daniel Davis",
+          "count": 2
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 2
+        },
+        {
+          "name": "Alexander Mercouris",
+          "count": 1
+        },
+        {
+          "name": "Garland Nixon",
+          "count": 1
+        },
+        {
+          "name": "Tom Switzer",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Douglas Macgregor",
+          "count": 1
+        },
+        {
+          "name": "Jacques Baud",
+          "count": 1
+        },
+        {
+          "name": "Joe Kent",
+          "count": 1
+        },
+        {
+          "name": "John Mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Max Blumenthal",
+          "count": 1
+        },
+        {
+          "name": "Mohammad Marandi",
+          "count": 1
+        },
+        {
+          "name": "Robert Barnes",
+          "count": 1
+        },
+        {
+          "name": "Robert Pape",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        },
+        {
+          "name": "Trita Parsi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "barnes",
+          "count": 1
+        },
+        {
+          "name": "baud",
+          "count": 1
+        },
+        {
+          "name": "blumenthal",
+          "count": 1
+        },
+        {
+          "name": "kent",
+          "count": 1
+        },
+        {
+          "name": "krainer",
+          "count": 1
+        },
+        {
+          "name": "macgregor",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "mearsheimer",
+          "count": 1
+        },
+        {
+          "name": "mercouris",
+          "count": 1
+        },
+        {
+          "name": "pape",
+          "count": 1
+        },
+        {
+          "name": "parsi",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "fallbackFamilies": [
+        {
+          "name": "youtube-alex-mercouris-*",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "transcript-davis-baud-europe-provokes-war-russia-2026-05-28.md",
+        "transcript-davis-mearsheimer-iran-ceasefire-hangs-by-a-thread-2026-05-28.md",
+        "transcript-dialogue-works-alex-krainer-iran-avoided-us-tanker-then-did-this-in-the-strait-of-hormuz-2026-05-28.md",
+        "transcript-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md",
+        "transcript-garland-nixon-scott-ritter-us-negotiations-detached-from-reality-kiev-targeted-2026-05-28.md",
+        "transcript-napolitano-blumenthal-israel-will-sabotage-a-trump-iran-deal-2026-05-28.md",
+        "transcript-napolitano-macgregor-iran-stronger-now-putin-takes-off-the-gloves-2026-05-28.md",
+        "transcript-napolitano-marandi-from-tehran-should-iran-trust-trump-2026-05-28.md",
+        "transcript-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md",
+        "transcript-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md",
+        "transcript-nawfal-parsi-breaking-trump-iran-close-to-deal-2026-05-28.md",
+        "youtube-alex-mercouris-zelensky-panic-begs-trump-help-as-kiev-ad-runs-out-russia-confirms-oreshnik-to-destroy-kiev-bunkers-2026-05-28.md",
+        "youtube-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md",
+        "youtube-pape-switzer-the-mirage-of-peace-2026-05-28.md"
+      ],
+      "hasReadme": true,
+      "readmeParseOk": true
+    }
+  ],
+  "runtime/artifacts": {
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\andrei-martyanov.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\andrei-martyanov.json"
+  }
+}

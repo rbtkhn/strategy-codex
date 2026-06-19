@@ -35,5 +35,5 @@ def test_continuity_read_log_dry_run_grace_mar() -> None:
 @pytest.mark.parametrize("name", REQUIRED_FILES)
 def test_grace_mar_continuity_files_committed(name: str) -> None:
     """Guardrail if someone deletes or renames a continuity path."""
-    p = REPO_ROOT / "users" / "grace-mar" / name
+    p = REPO_ROOT / "platform/users" / "grace-mar" / name
     assert p.is_file(), f"missing continuity file: {p}"

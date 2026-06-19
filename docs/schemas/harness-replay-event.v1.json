@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "schema-registry/harness-replay-event.v1.json",
+  "$id": "schemas/registry/harness-replay-event.v1.json",
   "title": "Harness Replay Event v1",
   "description": "Compact interpretation of one replayable pipeline/gate step; does not replace raw JSONL.",
   "type": "object",

@@ -8,7 +8,7 @@
 
 ## Chapter list (problem → inventory questions)
 
-| ID | Title (public) | Primary Q# (bundle) | Registers (evidence) |
+| ID | Title (public) | Primary Q# (bundle) | Registers (archive/placeholders/evidence) |
 |----|------------------|---------------------|----------------------|
 | `hn-i-v1-01` | Legitimacy After Conquest | Q1 | A, C, D |
 | `hn-i-v1-02` | Civilizational Endurance Under Defeat | Q2 | A, D |

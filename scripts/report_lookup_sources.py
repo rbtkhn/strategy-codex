@@ -55,7 +55,7 @@ def main() -> None:
     parser.add_argument("--json", action="store_true", help="Output JSON")
     args = parser.parse_args()
 
-    profile_dir = REPO_ROOT / "users" / args.user
+    profile_dir = REPO_ROOT / "platform/users" / args.user
     events_path = profile_dir / "pipeline-events.jsonl"
     cutoff = datetime.now() - timedelta(days=args.days)
 

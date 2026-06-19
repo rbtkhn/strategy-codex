@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 """Shared helpers for repo-owned derived regeneration."""
 
 from __future__ import annotations
@@ -11,8 +12,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_RECEIPT_DIR = REPO_ROOT / "artifacts" / "work-dev" / "rebuild-receipts"
-RATIONALE_SCHEMA_ID = "schema-registry/derived-artifact-rationale.v1.json"
+DEFAULT_RECEIPT_DIR = ARTIFACTS_DIR / "work-dev" / "rebuild-receipts"
+RATIONALE_SCHEMA_ID = "schemas/registry/derived-artifact-rationale.v1.json"
 RATIONALE_SCHEMA_VERSION = "1.0.0-derived-artifact-rationale"
 RATIONALE_SIDECAR_SUFFIX = ".derived-rationale.json"
 
@@ -58,7 +59,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
             "docs/skill-work/work-dev/derived-regeneration.md",
         ),
         command_templates=(("python3", "scripts/build_derived_regeneration_manifest.py"),),
-        outputs=("artifacts/work-dev/derived-regeneration-manifest.json",),
+        outputs=("runtime/artifacts/work-dev/derived-regeneration-manifest.json",),
     ),
     RebuildTarget(
         target_id="rebuild-health-summary",
@@ -67,12 +68,12 @@ TARGETS: tuple[RebuildTarget, ...] = (
         policy_mode="Surface",
         rationale="Summarize receipt-backed derived rebuild activity so the health summary stays inspectable without touching canonical sources.",
         watch_patterns=(
-            "artifacts/work-dev/rebuild-receipts/**",
-            "artifacts/work-dev/derived-regeneration-manifest.json",
+            "runtime/artifacts/work-dev/rebuild-receipts/**",
+            "runtime/artifacts/work-dev/derived-regeneration-manifest.json",
             "scripts/report_rebuild_health.py",
         ),
         command_templates=(("python3", "scripts/report_rebuild_health.py"),),
-        outputs=("artifacts/work-dev/rebuild-health/summary.json",),
+        outputs=("runtime/artifacts/work-dev/rebuild-health/summary.json",),
         depends_on=("derived-regeneration-manifest",),
     ),
     RebuildTarget(
@@ -87,7 +88,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
             "docs/operator-dashboards.md",
         ),
         command_templates=(("python3", "scripts/build_library_index.py"),),
-        outputs=("artifacts/library-index.md",),
+        outputs=("runtime/artifacts/library-index.md",),
     ),
     RebuildTarget(
         target_id="work-lanes-dashboard-json",
@@ -96,13 +97,13 @@ TARGETS: tuple[RebuildTarget, ...] = (
         policy_mode="Rebuild",
         rationale="Aggregate lane telemetry into a machine-readable feed that downstream operator dashboards can rebuild from without touching Record files.",
         watch_patterns=(
-            "artifacts/work-dev/work-dev-status-summary.json",
-            "artifacts/work-strategy/strategy-observability.json",
-            "artifacts/work-cadence/cadence-pressure-report.json",
+            "runtime/artifacts/work-dev/work-dev-status-summary.json",
+            "runtime/artifacts/work-strategy/strategy-observability.json",
+            "runtime/artifacts/work-cadence/cadence-pressure-report.json",
             "scripts/build_work_lanes_dashboard.py",
         ),
         command_templates=(("python3", "scripts/build_work_lanes_dashboard.py"),),
-        outputs=("artifacts/work-lanes-dashboard.json",),
+        outputs=("runtime/artifacts/work-lanes-dashboard.json",),
     ),
     RebuildTarget(
         target_id="lane-dashboards",
@@ -112,9 +113,9 @@ TARGETS: tuple[RebuildTarget, ...] = (
         rationale="Compose runtime observations and work-lane telemetry into a derived operator dashboard for navigation across active lanes.",
         watch_patterns=(
             "runtime/observations/**",
-            "artifacts/work-lanes-dashboard.json",
-            "artifacts/handoffs/**",
-            "prepared-context/last-budget-builds.json",
+            "runtime/artifacts/work-lanes-dashboard.json",
+            "runtime/artifacts/handoffs/**",
+            "runtime/prepared-context/last-budget-builds.json",
             "scripts/build_lane_dashboards.py",
             "scripts/build_work_lanes_dashboard.py",
         ),
@@ -122,7 +123,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
             ("python3", "scripts/build_work_lanes_dashboard.py"),
             ("python3", "scripts/build_lane_dashboards.py"),
         ),
-        outputs=("artifacts/lane-dashboards/README.md",),
+        outputs=("runtime/artifacts/lane-dashboards/README.md",),
         depends_on=("work-lanes-dashboard-json",),
     ),
     RebuildTarget(
@@ -136,7 +137,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
             "scripts/build_review_dashboard.py",
         ),
         command_templates=(("python3", "scripts/build_review_dashboard.py"),),
-        outputs=("artifacts/review-dashboard.md",),
+        outputs=("runtime/artifacts/review-dashboard.md",),
     ),
     RebuildTarget(
         target_id="gate-board",
@@ -149,7 +150,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
             "scripts/build_gate_board.py",
         ),
         command_templates=(("python3", "scripts/build_gate_board.py"),),
-        outputs=("artifacts/gate-board.md",),
+        outputs=("runtime/artifacts/gate-board.md",),
     ),
     RebuildTarget(
         target_id="governance-posture",
@@ -173,7 +174,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
         command_templates=(
             ("python3", "scripts/report_governance_posture.py", "-u", "{user}"),
         ),
-        outputs=("artifacts/governance-posture.md",),
+        outputs=("runtime/artifacts/governance-posture.md",),
         human_review_required=True,
     ),
     RebuildTarget(
@@ -188,9 +189,9 @@ TARGETS: tuple[RebuildTarget, ...] = (
         ),
         command_templates=(("python3", "scripts/build_strategy_notebook_graph.py"),),
         outputs=(
-            "artifacts/work-strategy/strategy-notebook/graph.json",
-            "artifacts/work-strategy/strategy-notebook/views/watch-clusters.json",
-            "artifacts/work-strategy/strategy-notebook/views/expert-convergence.json",
+            "runtime/artifacts/work-strategy/strategy-notebook/graph.json",
+            "runtime/artifacts/work-strategy/strategy-notebook/views/watch-clusters.json",
+            "runtime/artifacts/work-strategy/strategy-notebook/views/expert-convergence.json",
         ),
     ),
     RebuildTarget(
@@ -213,9 +214,9 @@ TARGETS: tuple[RebuildTarget, ...] = (
             ("python3", "scripts/build_work_dev_compound_dashboard.py"),
         ),
         outputs=(
-            "artifacts/work-dev-compound-refresh.md",
-            "artifacts/work-dev-compound-gate-candidates.md",
-            "artifacts/work-dev-compound-dashboard.md",
+            "runtime/artifacts/work-dev-compound-refresh.md",
+            "runtime/artifacts/work-dev-compound-gate-candidates.md",
+            "runtime/artifacts/work-dev-compound-dashboard.md",
         ),
     ),
     RebuildTarget(
@@ -229,7 +230,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
             "scripts/build_decision_ledger_summary.py",
         ),
         command_templates=(("python3", "scripts/build_decision_ledger_summary.py"),),
-        outputs=("artifacts/work-dev/decision-ledger-summary.md",),
+        outputs=("runtime/artifacts/work-dev/decision-ledger-summary.md",),
     ),
 )
 

@@ -126,7 +126,7 @@ def test_fail_on_ambiguous_nonzero(tmp_path: Path) -> None:
 
 
 def test_forbidden_out_users(tmp_path: Path) -> None:
-    bad_out = REPO_ROOT / "users" / "grace-mar" / "_task_shape_forbidden_test.json"
+    bad_out = REPO_ROOT / "platform/users" / "grace-mar" / "_task_shape_forbidden_test.json"
     cmd = [
         sys.executable,
         str(_scripts_ws() / "classify_task_shape.py"),

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Record the failure pattern and the script-level audit from the John Adams bookshelf run so future agents do not improvise around an already-coded workflow or reintroduce `users/<id>/` assumptions into the root-layout repo.
+Record the failure pattern and the script-level audit from the John Adams bookshelf run so future agents do not improvise around an already-coded workflow or reintroduce `platform/users/<id>/` assumptions into the root-layout repo.
 
 ## Failure pattern
 
@@ -14,7 +14,7 @@ The immediate miss was **protocol displacement**:
 
 That error then widened into a second class of mistake:
 
-- root-governed surfaces (`self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`) were treated as if they lived under `users/<id>/`
+- root-governed surfaces (`self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`) were treated as if they lived under `platform/users/<id>/`
 - a compatibility directory was briefly created instead of fixing the path assumptions in scripts
 
 The correct repo rule is simpler:
@@ -67,7 +67,7 @@ Anything else is a fallback, not the default.
 
 ## Audit: remaining fragility in the bookshelf MCQ pipeline neighborhood
 
-These were found by searching for `REPO_ROOT / "users" / ... / "recursion-gate.md"` and related root-layout assumptions.
+These were found by searching for `REPO_ROOT / "platform/users" / ... / "recursion-gate.md"` and related root-layout assumptions.
 
 ### High relevance to gate / staging / operator review
 
@@ -107,7 +107,7 @@ When the operator asks for bookshelf knowledge:
 - if it does, run the source-bound MCQ path
 - if it does not, add the anchor first, then run the same path
 - stage only to root `recursion-gate.md`
-- never create a fake `users/strategy-codex/` compatibility tree to satisfy broken scripts
+- never create a fake `platform/users/strategy-codex/` compatibility tree to satisfy broken scripts
 
 ## Short verdict
 

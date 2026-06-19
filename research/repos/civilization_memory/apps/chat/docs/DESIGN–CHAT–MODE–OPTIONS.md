@@ -1,4 +1,4 @@
-# Design options: Chat-optimized mode (Telegram and other chat apps)
+# Design options: Chat-optimized mode (Telegram and other chat platform/apps)
 
 Goal: a **distinct mode** for chat that keeps CIV–MEM substance (STATE/SCHOLAR, entity, grounding) but is tuned for mobile/chat UX — response length, number of options, cognitive and computational load. Not a 1:1 replica of the Cursor control surface.
 

@@ -22,11 +22,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
+from repo_io import ARTIFACTS_DIR
 
 import build_speaker_routing_queue as speaker_routing  # noqa: E402
 
 
-DEFAULT_OUT_ROOT = REPO_ROOT / "artifacts" / "host-shelf-quality"
+DEFAULT_OUT_ROOT = ARTIFACTS_DIR / "host-shelf-quality"
 GRADE_ORDER = [
     "transcript-grade",
     "cleaned-transcript",
@@ -387,7 +388,7 @@ def build_quality_summary(
         "residual_noise_artifact_count": sum(1 for artifact in artifacts if artifact["residual_noise"]),
         "unresolved_speaker_count": len(unresolved_rows),
         "unresolved_speakers": unresolved_rows,
-        "artifacts": artifacts,
+        "runtime/artifacts": artifacts,
         "deltas": deltas,
         "warnings": _naming_warnings(notebook_root, host_slug),
         "git_state": scoped_git_state(raw_paths + (output_paths or [])),
@@ -428,14 +429,14 @@ def render_markdown(summary: dict[str, Any]) -> str:
         lines.extend(["", "## Unresolved Speakers", ""])
         for row in summary["unresolved_speakers"]:
             lines.append(f"- `{row['pub_date']}` {row['title']} - `{row['raw_input_path']}`")
-    noisy_artifacts = [artifact for artifact in summary["artifacts"] if artifact.get("residual_noise_terms")]
+    noisy_artifacts = [artifact for artifact in summary["runtime/artifacts"] if artifact.get("residual_noise_terms")]
     if noisy_artifacts:
         lines.extend(["", "## Residual Noise", ""])
         for artifact in noisy_artifacts:
             terms = ", ".join(f"`{term}`" for term in artifact["residual_noise_terms"])
             lines.append(f"- `{artifact['pub_date']}` {terms} - `{artifact['raw_input_path']}`")
     lines.extend(["", "## Raw Inputs", ""])
-    for artifact in summary["artifacts"]:
+    for artifact in summary["runtime/artifacts"]:
         flags = []
         if artifact["routeable"]:
             flags.append("routeable")

@@ -126,7 +126,7 @@ def test_does_not_write_canonical_record_paths(tmp_path: Path) -> None:
         str(out),
     )
     assert proc.returncode == 0
-    assert not (tmp_path / "users").exists()
+    assert not (tmp_path / "platform/users").exists()
 
 
 def test_max_ids(tmp_path: Path) -> None:

@@ -28,7 +28,7 @@ All exploration paths must preserve:
 - **Sovereign Merge Rule (AGENTS.md §2):** Agent may stage; it may not merge. Merge only via `process_approved_candidates.py --apply` after companion approval.
 - **Knowledge boundary (AGENTS.md §1):** No LLM knowledge leakage; only documented profile content; no merge of undocumented facts.
 - **CONTRADICTION-ENGINE-SPEC §2:** `recursion-gate.md` remains the canonical queue; no second source of truth; contradiction flow = staged candidate + derived analysis + operator resolution + deterministic merge.
-- **No write to Record from exploration:** No AutoGen (or any deliberation) code path may write to `self.md`, `self-evidence.md`, `bot/prompt.py`, or call the merge script. Output is **draft**; staging into `recursion-gate.md` is a separate, human-reviewed step.
+- **No write to Record from exploration:** No AutoGen (or any deliberation) code path may write to `self.md`, `self-evidence.md`, `archive/grace-mar-instance/bot/prompt.py`, or call the merge script. Output is **draft**; staging into `recursion-gate.md` is a separate, human-reviewed step.
 
 ---
 
@@ -60,7 +60,7 @@ All exploration paths must preserve:
 |------|------------|
 | **Identity bleed** | Label all deliberation output as "proposed" / "draft"; merge only via script; no exploration code in merge path; provenance (e.g. `source: autogen_deliberation`) on any staged content. |
 | **Dependency creep** | AutoGen optional; core pipeline has zero AutoGen imports; exploration lives in `exploration/` and is not required for operation. |
-| **Scope creep** | Exploration clearly labeled; no integration into `bot/` or `process_approved_candidates.py` without explicit design change and approval. |
+| **Scope creep** | Exploration clearly labeled; no integration into `archive/grace-mar-instance/bot/` or `process_approved_candidates.py` without explicit design change and approval. |
 
 ---
 

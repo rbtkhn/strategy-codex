@@ -8,7 +8,7 @@ Usage:
   python3 scripts/create-domain.py jiang
 
 Creates:
-  work-<lowercase>/<UPPERCASE>.md   (from _template/DOMAIN.md)
+  work-<lowercase>/<UPPERCASE>.md   (from platform/template/DOMAIN.md)
   work-<lowercase>/README.md       (minimal, if missing)
 """
 
@@ -29,7 +29,7 @@ from _domain_surface_links import (
 )
 
 REPO_ROOT = _SCRIPT_DIR.parent
-TEMPLATE_PATH = REPO_ROOT / "_template" / "DOMAIN.md"
+TEMPLATE_PATH = REPO_ROOT / "platform/template" / "DOMAIN.md"
 
 
 def _validate_token(domain_raw: str) -> tuple[str, str, str] | None:
@@ -94,7 +94,7 @@ def create_domain(domain_raw: str) -> bool:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Create work-<domain>/<DOMAIN>.md from _template/DOMAIN.md"
+        description="Create work-<domain>/<DOMAIN>.md from platform/template/DOMAIN.md"
     )
     parser.add_argument("domain", help="e.g. dev, politics, jiang, strategy")
     args = parser.parse_args()

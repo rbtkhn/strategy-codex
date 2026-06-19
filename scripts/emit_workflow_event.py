@@ -15,13 +15,13 @@ import uuid
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
 if str(REPO_ROOT / "scripts") not in sys.path:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
+from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402, SRC_DIR
 
 from grace_mar.observability.workflow_events import (  # noqa: E402
     event_from_change_proposal,
@@ -97,9 +97,9 @@ def main() -> int:
 
     # Lane observability JSON
     for pattern in (
-        "artifacts/work-strategy/strategy-observability.json",
-        "artifacts/skill-think/think-observability.json",
-        "artifacts/skill-write/write-observability.json",
+        "runtime/artifacts/work-strategy/strategy-observability.json",
+        "runtime/artifacts/skill-think/think-observability.json",
+        "runtime/artifacts/skill-write/write-observability.json",
     ):
         p = root / pattern
         if p.is_file():
@@ -114,7 +114,7 @@ def main() -> int:
                 sources_used.append(str(p.relative_to(root)))
 
     # Change proposals (per-file)
-    for prop in sorted((profile_dir(DEFAULT_PROFILE_ID) / "review-queue" / "proposals").glob("*.json")):
+    for prop in sorted((profile_dir(DEFAULT_PROFILE_ID) / "archive/queues/review-queue" / "proposals").glob("*.json")):
         doc = _read_json(prop)
         if doc:
             events.append(

@@ -28,8 +28,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
 
 INTEGRATION_SCRIPTS = (
-    REPO_ROOT / "integrations" / "openclaw_hook.py",
-    REPO_ROOT / "integrations" / "openclaw_stage.py",
+    REPO_ROOT / "platform/integrations" / "openclaw_hook.py",
+    REPO_ROOT / "platform/integrations" / "openclaw_stage.py",
 )
 CONTINUITY_SCRIPT = REPO_ROOT / "scripts" / "continuity_read_log.py"
 CONTINUITY_FILES = ("session-log.md", "recursion-gate.md", "self-archive.md")
@@ -59,7 +59,7 @@ def main() -> int:
         if verbose:
             print(f"ok: {msg}")
 
-    user_dir = REPO_ROOT / "users" / user
+    user_dir = REPO_ROOT / "platform/users" / user
     if not user_dir.is_dir():
         errors.append(f"User directory missing: {user_dir}")
     else:
@@ -98,7 +98,7 @@ def main() -> int:
     else:
         errors.append(f"continuity script missing: {CONTINUITY_SCRIPT}")
 
-    integrations_dir = str(REPO_ROOT / "integrations")
+    integrations_dir = str(REPO_ROOT / "platform/integrations")
     if integrations_dir not in sys.path:
         sys.path.insert(0, integrations_dir)
     for path, mod_name in (

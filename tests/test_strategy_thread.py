@@ -11,8 +11,8 @@ REPO = Path(__file__).resolve().parent.parent
 
 
 def test_bin_thread_help_matches_python_entrypoint() -> None:
-    """bin/thread forwards argv to scripts/strategy_thread.py."""
-    wrapper = REPO / "bin" / "thread"
+    """platform/bin/thread forwards argv to scripts/strategy_thread.py."""
+    wrapper = REPO / "platform/bin" / "thread"
     argv = (
         [sys.executable, str(REPO / "scripts" / "strategy_thread.py"), "--help"]
         if os.name == "nt"

@@ -85,7 +85,7 @@ def build_coffee_close_kv(
     }
     artifacts_value = _join_tokens(artifacts, artifacts_csv)
     if artifacts_value:
-        kv["artifacts"] = artifacts_value
+        kv["runtime/artifacts"] = artifacts_value
     loops_value = _join_tokens(loops, loops_csv)
     if loops_value:
         kv["loops"] = loops_value
@@ -105,7 +105,7 @@ def main() -> int:
     parser.add_argument("--outcome", required=True, choices=sorted(OUTCOMES))
     parser.add_argument("--readiness", required=True, choices=sorted(READINESS_VALUES))
     parser.add_argument("--artifact", action="append", default=[], help="Artifact path/ref; repeatable")
-    parser.add_argument("--artifacts", default=None, help="Comma-separated artifact paths/refs")
+    parser.add_argument("--runtime/artifacts", default=None, help="Comma-separated artifact paths/refs")
     parser.add_argument("--loop", action="append", default=[], help="Unresolved loop slug; repeatable")
     parser.add_argument("--loops", default=None, help="Comma-separated unresolved loop slugs")
     parser.add_argument("--next", dest="next_slug", default=None, help="Short next-move slug")
@@ -138,7 +138,7 @@ def main() -> int:
     try:
         artifact_tokens = list(args.artifact or [])
         if args.artifacts:
-            artifact_tokens.extend(part.strip() for part in str(args.artifacts).split(",") if part.strip())
+            artifact_tokens.extend(part.strip() for part in str(args.runtime/artifacts).split(",") if part.strip())
         loop_tokens = list(args.loop or [])
         if args.loops:
             loop_tokens.extend(part.strip() for part in str(args.loops).split(",") if part.strip())

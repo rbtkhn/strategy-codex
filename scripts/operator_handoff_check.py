@@ -29,7 +29,7 @@ except ImportError:
 _GATE_PENDING_DISPLAY_CAP = 12
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-USERS_DIR = REPO_ROOT / "users"
+USERS_DIR = REPO_ROOT / "platform/users"
 _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
@@ -47,13 +47,13 @@ RUNTIME_NOISE_MARKERS = (
     "last-dream.json",
     "self-memory.md",
     "night-handoff.json",
-    "daily-handoff/",
+    "runtime/daily-handoff/",
     "work-cadence-events.md",
     "memory-observability",
     ".capability-shift-cache.json",
     ".capability-shift-last-check",
-    "runtime-bundle/runtime/",
-    "runtime-bundle/audit/",
+    "runtime/bundle/runtime/",
+    "runtime/bundle/audit/",
 )
 
 # Regenerated exports / integrity-adjacent â€” batch-commit or refresh; not "lane editorial" work.
@@ -311,7 +311,7 @@ def _classify_change(path_line: str) -> tuple[str, str]:
         or "generate_wap_weekly_brief.py" in path
     ):
         return "work_politics_lane", path
-    if path.startswith("") or "recursion_gate" in path or path == "bot/prompt.py":
+    if path.startswith("") or "recursion_gate" in path or path == "archive/grace-mar-instance/bot/prompt.py":
         return "record_pipeline", path
     return "repo_misc", path
 
@@ -485,7 +485,7 @@ def build_handoff_check(user_id: str = "strategy-codex", *, fast: bool = False) 
     recursion_gate = _read(user_dir / "recursion-gate.md")
     evidence = _read(user_dir / "self-archive.md") or _read(user_dir / "self-evidence.md")
     gate_pending = _pending_candidates(recursion_gate, "all")
-    last_activity = _last_activity_oneliner(evidence) or "_none parsed_"
+    last_activity = _last_activity_oneliner(archive/placeholders/evidence) or "_none parsed_"
     politics_snapshot = get_work_politics_snapshot(user_id)
 
     status_lines, status_sb_lines, branch_from_bundle = _run_git_status_bundle()

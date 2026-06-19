@@ -7,7 +7,7 @@
 | SSOT | Path |
 |------|------|
 | Boundary law | [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md) |
-| Config | [`config/strategy_codex.yaml`](../../config/strategy_codex.yaml) (`record_frozen: true`) |
+| Config | [`platform/config/strategy_codex.yaml`](../../platform/config/strategy_codex.yaml) (`record_frozen: true`) |
 | Freeze pointer | [`archive/grace-mar-frozen.md`](../grace-mar-frozen.md) |
 | Legacy concepts index | [`docs/legacy-operator-concepts.md`](../../docs/legacy-operator-concepts.md) |
 | Active product | [`docs/product-identity.md`](../../docs/product-identity.md) · [`docs/start-here.md`](../../docs/start-here.md) |
@@ -31,10 +31,10 @@
 
 | Surface | Path |
 |---------|------|
-| Voice / bots | `bot/`, `apps/miniapp_server.py` — see [`bot/DEPRECATED.md`](../../bot/DEPRECATED.md) |
-| Browser extension | `extension/` |
-| Miniapp | `miniapp/` |
-| Profile deploy | `profile/`, `.github/workflows/deploy-profile.yml` |
+| Voice / bots | `archive/grace-mar-instance/bot/`, `platform/apps/miniapp_server.py` — see [`archive/grace-mar-instance/bot/DEPRECATED.md`](../../archive/grace-mar-instance/bot/DEPRECATED.md) |
+| Browser extension | `platform/extension/` |
+| Miniapp | `platform/miniapp/` |
+| Profile deploy | `platform/profile/`, `.github/workflows/deploy-profile.yml` |
 
 ## Root Record residue (byte-stable)
 

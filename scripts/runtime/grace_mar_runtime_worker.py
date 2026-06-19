@@ -109,7 +109,7 @@ COMPOSE_ALLOWLIST = frozenset(
 def _forbidden_repo_write(rel: str) -> bool:
     """True if repo-relative path must never receive worker writes (plan denylist)."""
     rel = rel.replace("\\", "/")
-    if rel in ("bot/prompt.py", "bot/bot.py", "bot/wechat_bot.py"):
+    if rel in ("archive/grace-mar-instance/bot/prompt.py", "archive/grace-mar-instance/bot/bot.py", "archive/grace-mar-instance/bot/wechat_bot.py"):
         return True
     if not rel.startswith(""):
         return False
@@ -294,7 +294,7 @@ def build_execution_receipt(
             "evidence_state": None,
             "notes": None,
         },
-        "artifacts": {
+        "runtime/artifacts": {
             "trace_path": trace_path,
             "proposal_path": proposal_path,
         },
@@ -620,7 +620,7 @@ def main() -> int:
         metavar="NAME",
         help=(
             "Optional task subtype for model-tier policy (e.g. quick_scan, contradiction_review); "
-            "see config/model_routing/task_policy.yaml"
+            "see platform/config/model_routing/task_policy.yaml"
         ),
     )
     ap.add_argument(
@@ -629,7 +629,7 @@ def main() -> int:
         choices=tuple(sorted(OVERLAY_NAMES)),
         metavar="NAME",
         help=(
-            "Optional pass overlay (config/runtime_workers/overlays.yaml): default scope/caps/task_type "
+            "Optional pass overlay (platform/config/runtime_workers/overlays.yaml): default scope/caps/task_type "
             "when not overridden by explicit CLI; with --lens, only default task_type may apply"
         ),
     )

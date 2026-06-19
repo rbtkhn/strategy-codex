@@ -1,6 +1,6 @@
 # Seed Phase Wizard & Good Morning Brief (grace-mar)
 
-**Purpose:** Operator-facing bootstrap and daily start ritual under canonical instance paths. **Governed by:** gated pipeline — these tools do **not** write `self.md`, `self-archive.md`, or `bot/prompt.py`; durable Record changes use [identity-fork-protocol.md](identity-fork-protocol.md).
+**Purpose:** Operator-facing bootstrap and daily start ritual under canonical instance paths. **Governed by:** gated pipeline — these tools do **not** write `self.md`, `self-archive.md`, or `archive/grace-mar-instance/bot/prompt.py`; durable Record changes use [identity-fork-protocol.md](identity-fork-protocol.md).
 
 **Orientation:** For companion vs operator, the triad, and why merges wait for approval, see [start-here.md](start-here.md)—use **[Choose your path](start-here.md#choose-your-path)** (A–F) before long reads. For structured seed questions that map to JSON artifacts, see [seed-phase-survey.md](seed-phase-survey.md), including **[Calibrate from your start-here path](seed-phase-survey.md#calibrate-from-your-start-here-path)** so question order matches who is in the room.
 
@@ -32,7 +32,7 @@ Companion-self defines **stages 0–7** as the portable formation pipeline ([com
 | Script | Role |
 |--------|------|
 | [`scripts/seed-phase-wizard.py`](../scripts/seed-phase-wizard.py) | Interactive wizard: reflection-proposals, `seed/minimal-core.json`, `self-memory.md` tone note, `SEED-PHASE-COMPLETED.json` |
-| [`scripts/good-morning-brief.py`](../scripts/good-morning-brief.py) | Short morning ritual; optional daily intention file under `reflection-proposals/` |
+| [`scripts/good-morning-brief.py`](../scripts/good-morning-brief.py) | Short morning ritual; optional daily intention file under `archive/queues/reflection-proposals/` |
 
 Run from repository root:
 
@@ -55,10 +55,10 @@ python3 scripts/good-morning-brief.py --skip-warmup-prompt      # non-interactiv
 
 | Path | Record? | Notes |
 |------|---------|--------|
-| `reflection-proposals/SEED-founding-intent.md` | No | Operator narrative; promote via gate if needed |
-| `reflection-proposals/SEED-initial-sparks.md` | No | Curiosity seed |
-| `reflection-proposals/SEED-tensions-note.md` | No | Optional tensions annotation |
-| `reflection-proposals/DAILY-INTENTION-YYYY-MM-DD.md` | No | Written by good-morning-brief |
+| `archive/queues/reflection-proposals/SEED-founding-intent.md` | No | Operator narrative; promote via gate if needed |
+| `archive/queues/reflection-proposals/SEED-initial-sparks.md` | No | Curiosity seed |
+| `archive/queues/reflection-proposals/SEED-tensions-note.md` | No | Optional tensions annotation |
+| `archive/queues/reflection-proposals/DAILY-INTENTION-YYYY-MM-DD.md` | No | Written by good-morning-brief |
 | `seed/minimal-core.json` | No | **Facts listed here are not merged into IX-A** — stage LEARN / candidates |
 | `self-memory.md` (append) | No (MEMORY) | Seed wizard appends good-morning tone; see [memory-template.md](memory-template.md) |
 | `SEED-PHASE-COMPLETED.json` | No | Marker + suggested next steps |
@@ -74,7 +74,7 @@ When `self.md`, `self-archive.md`, and `recursion-gate.md` all exist under ``, t
 - `python3 scripts/validate-integrity.py --user <id>` (optional `--require-proposal-class`)
 - `python3 scripts/governance_checker.py`
 
-If the instance directory is incomplete, validators are **skipped** with a message (typical during early bootstrap).
+If the instance directory is incomplete, validators are **skipped** with a message (typical during early archive/grace-mar-instance/bootstrap).
 
 ---
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Refresh grace-mar derived exports and runtime bundle (integrity: stale derived export).
-# Run from repo root after profile/prompt changes, or when validate-integrity reports stale mtimes.
+# Run from repo root after platform/profile/prompt changes, or when validate-integrity reports stale mtimes.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"

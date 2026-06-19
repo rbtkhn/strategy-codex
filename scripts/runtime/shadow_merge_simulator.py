@@ -4,7 +4,7 @@ Shadow Merge Simulator — non-mutating counterfactual preview for RECURSION-GAT
 
 Produces a Markdown "Shadow Merge Report" describing likely surface impact, propagation,
 and governance risks. Does **not** merge, approve, or edit self.md, self-archive.md,
-self-skills.md, SELF-LIBRARY files, recursion-gate.md, or bot/prompt.py — only writes
+self-skills.md, SELF-LIBRARY files, recursion-gate.md, or archive/grace-mar-instance/bot/prompt.py — only writes
 the path given by --output (and may print to stderr).
 
 See docs/orchestration/shadow-merge-simulator.md.
@@ -23,12 +23,13 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-DEFAULT_SHADOW_MERGE_DIR = REPO_ROOT / "artifacts" / "shadow-merges"
+DEFAULT_SHADOW_MERGE_DIR = ARTIFACTS_DIR / "shadow-merges"
 _SCRIPTS = REPO_ROOT / "scripts"
 _RUNTIME = Path(__file__).resolve().parent
 for _p in (_SCRIPTS, _RUNTIME):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
+from repo_io import ARTIFACTS_DIR
 
 from recursion_gate_review import (  # noqa: E402
     _extract_block,
@@ -103,7 +104,7 @@ SURFACE_KEYWORDS: dict[str, frozenset[str]] = {
     ),
     "EVIDENCE": frozenset(
         {
-            "evidence",
+            "archive/placeholders/evidence",
             "artifact",
             "receipt",
             "activity",
@@ -404,14 +405,14 @@ def _surface_diff_lines(
         if primary == "SELF-LIBRARY" or pc.startswith(("CIV_MEM", "SELF_LIBRARY")):
             lines.append("Expected: library index / CIV-MEM pointer rows or READ/LIB entries as per proposal.")
             if "LIB-" in (row.get("summary") or "") + proposed_change:
-                lines.append("- LIB-id references may need index sync (`scripts/build_library_index.py` → `artifacts/library-index.md`).")
+                lines.append("- LIB-id references may need index sync (`scripts/build_library_index.py` → `runtime/artifacts/library-index.md`).")
         else:
             lines.append("No direct SELF-LIBRARY file edit expected unless content is corpus-like (see Classification risk).")
 
     elif surface == "SKILLS":
         if primary == "SKILLS" or "SKILL" in pc.upper():
             lines.append("Expected: `self-skills.md` capability lines or skill-card sources.")
-            lines.append("- Regenerate skill cards after merge: `python scripts/build_skill_cards.py` → `artifacts/skill-cards/`.")
+            lines.append("- Regenerate skill cards after merge: `python scripts/build_skill_cards.py` → `runtime/artifacts/skill-cards/`.")
         else:
             lines.append("No SKILLS file change expected unless proposal explicitly targets capability index.")
 
@@ -422,7 +423,7 @@ def _surface_diff_lines(
             lines.append("EVIDENCE spine usually unchanged for pure IX edits; supporting refs may still need narration alignment.")
 
     if has_prompt and surface == "SELF" and (surface == primary or primary == "WORK-LAYER"):
-        lines.append("- **bot/prompt.py** may need a coordinated slice if `prompt_addition` ships with this merge.")
+        lines.append("- **archive/grace-mar-instance/bot/prompt.py** may need a coordinated slice if `prompt_addition` ships with this merge.")
 
     if not lines:
         lines.append("No strong direct signal for this surface in v1 heuristics — treat as low-touch unless content says otherwise.")
@@ -443,28 +444,28 @@ def _propagation_lines(
         out.append(f"- {hint}")
     if pk == "SKILLS":
         out.append(
-            "- **scripts/compress_active_lane.py** → **artifacts/context/** — active-lane compression may reflect revised capability language."
+            "- **scripts/compress_active_lane.py** → **runtime/artifacts/context/** — active-lane compression may reflect revised capability language."
         )
     if pk == "SELF-LIBRARY":
         out.append(
-            "- **scripts/build_library_index.py** → **artifacts/library-index.md** — library overview may shift after library edits."
+            "- **scripts/build_library_index.py** → **runtime/artifacts/library-index.md** — library overview may shift after library edits."
         )
     if pk == "SELF":
         out.append(
-            "- **Identity-facing prompt behavior** — `bot/prompt.py` slices tied to IX may shift with merge content."
+            "- **Identity-facing prompt behavior** — `archive/grace-mar-instance/bot/prompt.py` slices tied to IX may shift with merge content."
         )
     if pk == "EVIDENCE":
         out.append(
-            "- **Gate board / review dashboards** — **artifacts/gate-board.md**, **artifacts/review-dashboard.md** may reflect new evidence framing after merge."
+            "- **Gate board / review dashboards** — **runtime/artifacts/gate-board.md**, **runtime/artifacts/review-dashboard.md** may reflect new evidence framing after merge."
         )
     if row and row.get("has_prompt_change"):
-        out.append("- **bot/prompt.py** — prompt_addition or section mapping may require an edit in the same merge batch.")
+        out.append("- **archive/grace-mar-instance/bot/prompt.py** — prompt_addition or section mapping may require an edit in the same merge batch.")
     if primary in ("SKILLS",):
-        out.append("- **artifacts/skill-cards/** — rebuild after `self-skills.md` changes (`scripts/build_skill_cards.py`).")
+        out.append("- **runtime/artifacts/skill-cards/** — rebuild after `self-skills.md` changes (`scripts/build_skill_cards.py`).")
     if primary in ("SELF", "SELF-LIBRARY", "EVIDENCE"):
-        out.append("- **artifacts/review-dashboard.md**, **artifacts/gate-board.md** — derived gate views change after queue/processed state changes post-merge (not by this simulator).")
+        out.append("- **runtime/artifacts/review-dashboard.md**, **runtime/artifacts/gate-board.md** — derived gate views change after queue/processed state changes post-merge (not by this simulator).")
     out.append("- **scripts/runtime/memory_brief.py** — lane ranking / brief emphasis may shift if this merge reorders capability or identity themes.")
-    out.append("- **prepared-context/** — compression and quotes may pull revised boundary language on next budgeted build.")
+    out.append("- **runtime/prepared-context/** — compression and quotes may pull revised boundary language on next budgeted build.")
     if env:
         out.append("- **Uncertainty sidecars** — envelope-style signals may feed review packets and briefs; advisory only.")
     return out
@@ -759,7 +760,7 @@ def main() -> int:
         "--proposal-file",
         type=Path,
         default=None,
-        help="JSON file (schema-aligned gate candidate payload; see schema-registry/recursion-gate-candidate.schema.json)",
+        help="JSON file (schema-aligned gate candidate payload; see schemas/registry/recursion-gate-candidate.schema.json)",
     )
     ap.add_argument("--target-surface", default=None, help="Proposal mode: SELF | SELF-LIBRARY | SKILLS | EVIDENCE | OTHER")
     ap.add_argument("--proposal-summary", default=None, help="Proposal mode: one-line summary")

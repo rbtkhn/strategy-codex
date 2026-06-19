@@ -14,7 +14,7 @@
 
 ## Observability
 
-- Optional: `artifacts/work-<name>/` JSON + build script
+- Optional: `runtime/artifacts/work-<name>/` JSON + build script
 
 ## Escalation
 

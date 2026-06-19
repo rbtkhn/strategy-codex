@@ -12,8 +12,8 @@ from process_meta_candidates import (
 
 def test_allowlist_accepts_scripts_config_bot():
     assert is_allowlisted_path("scripts/foo.py")
-    assert is_allowlisted_path("config/fork-config.json")
-    assert is_allowlisted_path("artifacts/meta-diffs/x.patch")
+    assert is_allowlisted_path("platform/config/fork-config.json")
+    assert is_allowlisted_path("runtime/artifacts/meta-diffs/x.patch")
     assert not is_allowlisted_path("self.md")
     assert not is_allowlisted_path("../escape")
 

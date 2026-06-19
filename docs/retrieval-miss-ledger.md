@@ -33,12 +33,12 @@ Each miss is classified with a small failure taxonomy and stored for later debug
 |---|---|
 | `prepared_context` | Context-assembly scripts (e.g. `build_context_from_observations.py`, `strategy_context.py`) |
 | `evidence_lookup` | Searching or referencing EVIDENCE entries (`self-archive.md`, evidence indexes) |
-| `artifact_lookup` | Looking up derived artifacts (`artifacts/`, skill cards, compressed lane output) |
+| `artifact_lookup` | Looking up derived artifacts (`runtime/artifacts/`, skill cards, compressed lane output) |
 | `notebook_lookup` | Strategy-notebook, thread, or session retrieval (e.g. `lane_search.py`, timeline queries) |
 
 ## Schema
 
-`schema-registry/retrieval-miss.v1.json` — JSON Schema (Draft 2020-12) for miss records.
+`schemas/registry/retrieval-miss.v1.json` — JSON Schema (Draft 2020-12) for miss records.
 
 Required fields: `miss_id`, `timestamp`, `retrieval_surface`, `query`, `failure_class`.
 

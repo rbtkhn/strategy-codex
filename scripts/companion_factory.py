@@ -4,7 +4,7 @@ Create a new governed instance directory tree from a companion-self template che
 
 This is not a substitute for ``git clone`` + remote setup; it copies a local template
 root to a new folder and seeds ``<instance>/seed-phase/`` from
-``_template/seed-phase/``.
+``platform/template/seed-phase/``.
 
 **Warning:** Running with ``--template`` pointing at a private **instance** repo (e.g.
 grace-mar with live ````) may copy Record data. Prefer a clean **template**
@@ -61,7 +61,7 @@ def cmd_new(instance_name: str, template: Path, output_dir: Path) -> int:
         print(f"Not a directory: {tpl}", file=sys.stderr)
         return 1
 
-    tmpl_seed = tpl / "users" / "_template" / "seed-phase"
+    tmpl_seed = tpl / "platform/users" / "platform/template" / "seed-phase"
     if not tmpl_seed.is_dir():
         print(f"Missing template seed-phase scaffold: {tmpl_seed}", file=sys.stderr)
         return 1
@@ -69,7 +69,7 @@ def cmd_new(instance_name: str, template: Path, output_dir: Path) -> int:
     print(f"Copying template {tpl} -> {dest} (ignoring .git, venv, caches)...")
     shutil.copytree(tpl, dest, ignore=_default_copy_ignore)
 
-    inst_seed = dest / "users" / instance_name / "seed-phase"
+    inst_seed = dest / "platform/users" / instance_name / "seed-phase"
     inst_seed.mkdir(parents=True, exist_ok=True)
 
     for f in sorted(tmpl_seed.glob("*.json")):

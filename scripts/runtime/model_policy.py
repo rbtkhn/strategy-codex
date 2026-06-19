@@ -12,8 +12,8 @@ import sys
 from pathlib import Path
 from typing import Any
 
-_MODEL_TIERS_REL = Path("config/model_routing/model_tiers.yaml")
-_TASK_POLICY_REL = Path("config/model_routing/task_policy.yaml")
+_MODEL_TIERS_REL = Path("platform/config/model_routing/model_tiers.yaml")
+_TASK_POLICY_REL = Path("platform/config/model_routing/task_policy.yaml")
 _SCRIPTS = Path(__file__).resolve().parent.parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))

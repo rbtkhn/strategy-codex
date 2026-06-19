@@ -16,6 +16,7 @@ from pathlib import Path
 _RUNTIME = Path(__file__).resolve().parent
 if str(_RUNTIME) not in sys.path:
     sys.path.insert(0, str(_RUNTIME))
+from repo_io import ARTIFACTS_DIR
 
 from checkpoint_handoff_common import (  # noqa: E402
     extract_section,
@@ -126,7 +127,7 @@ def main() -> int:
 
     root = args.repo_root.resolve()
     lane = args.lane.strip()
-    checkpoints_dir = root / "artifacts" / "handoffs" / "checkpoints"
+    checkpoints_dir = ARTIFACTS_DIR / "handoffs" / "checkpoints"
 
     pool = _collect_checkpoints(checkpoints_dir, lane)
     extra_paths = [p.resolve() for p in args.include_checkpoint]

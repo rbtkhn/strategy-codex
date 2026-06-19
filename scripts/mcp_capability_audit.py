@@ -2,7 +2,7 @@
 """
 Audit MCP capability registry YAML against schemas/mcp-capability.v1.json and emit Markdown.
 
-Read-only with respect to Record: writes only the report path (default artifacts/mcp-capability-report.md).
+Read-only with respect to Record: writes only the report path (default runtime/artifacts/mcp-capability-report.md).
 
   python3 scripts/mcp_capability_audit.py
   python3 scripts/mcp_capability_audit.py --strict   # exit 1 if any danger flag
@@ -22,12 +22,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from yaml_compat import safe_load_path
 
-DEFAULT_CONFIG = REPO_ROOT / "config" / "mcp-capabilities.yaml"
+DEFAULT_CONFIG = REPO_ROOT / "platform/config" / "mcp-capabilities.yaml"
 DEFAULT_SCHEMA = REPO_ROOT / "schemas" / "mcp-capability.v1.json"
-DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "mcp-capability-report.md"
+DEFAULT_OUTPUT = ARTIFACTS_DIR / "mcp-capability-report.md"
 
 
 def _git_short_hash(cwd: Path) -> str:
@@ -86,8 +87,8 @@ def _implies_shell_execution_allowed(cap: dict[str, Any]) -> bool:
         "bash",
         "powershell",
         "cmd.exe",
-        "/bin/sh",
-        "/bin/bash",
+        "/platform/bin/sh",
+        "/platform/bin/bash",
     )
     return any(n in hay for n in needles)
 
@@ -184,7 +185,7 @@ def build_report_markdown(
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Audit MCP capability YAML registry.")
-    ap.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
+    ap.add_argument("--platform/config", type=Path, default=DEFAULT_CONFIG)
     ap.add_argument("--schema", type=Path, default=DEFAULT_SCHEMA)
     ap.add_argument("-o", "--output", type=Path, default=DEFAULT_OUTPUT)
     ap.add_argument(

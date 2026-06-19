@@ -21,7 +21,7 @@
     "evidence_state": "outside_boundary",
     "notes": "Synthetic benchmark: no in-Record basis for a factual claim; abstain per policy."
   },
-  "artifacts": {
+  "runtime/artifacts": {
     "trace_path": "runtime/runtime-worker/traces/index.jsonl",
     "proposal_path": "runtime/runtime-worker/proposals/gov_eval_abstention.md"
   },

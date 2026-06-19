@@ -4,7 +4,7 @@ Counterfactual Fork Simulator — Phase 1.
 
 Read-only/scratch-only governance foresight tool. Reads a proposal-like JSON input,
 estimates likely consequences of accepting the proposal, and writes an advisory report
-under artifacts/counterfactual-simulations/.
+under runtime/artifacts/counterfactual-simulations/.
 
 Standard library only. Never mutates canonical Record files or recursion-gate.md.
 """
@@ -29,7 +29,7 @@ ALLOWED_PROPOSAL_KINDS = {
     "other",
 }
 ALLOWED_DECISIONS = {"accept", "revise", "split", "defer", "reject", "needs_review"}
-SCRATCH_DIR = Path("artifacts") / "counterfactual-simulations"
+SCRATCH_DIR = Path("runtime/artifacts") / "counterfactual-simulations"
 CANONICAL_TERMS = [
     "SELF",
     "SELF-LIBRARY",
@@ -40,7 +40,7 @@ CANONICAL_TERMS = [
     "self-library.md",
     "self-skills.md",
     "skills.md",
-    "evidence",
+    "archive/placeholders/evidence",
 ]
 
 
@@ -159,7 +159,7 @@ def _mentions_protected_write_without_human_review(text: str) -> bool:
         "self",
         "self-library",
         "skills",
-        "evidence",
+        "archive/placeholders/evidence",
         "recursion-gate.md",
         "self.md",
         "self-library.md",
@@ -180,7 +180,7 @@ def _interface_artifact_authority_risk(text: str) -> bool:
             "record authority",
             "gate authority",
             "evidence truth",
-            "canonical evidence",
+            "canonical archive/placeholders/evidence",
         )
     )
 
@@ -310,7 +310,7 @@ def analyze_counterfactual(
             )
             tests_or_audits_to_run.append("python3 scripts/audit_doctrine_drift.py")
             tests_or_audits_to_run.append("pytest tests/test_counterfactual_fork_simulator.py")
-        if target_path.startswith("schema-registry/"):
+        if target_path.startswith("schemas/registry/"):
             follow_up_required.append(
                 f"Validate schema consumers and example payloads for {target_path}."
             )
@@ -476,7 +476,7 @@ def main() -> int:
     parser.add_argument(
         "--output",
         default="",
-        help="Optional report path under artifacts/counterfactual-simulations/",
+        help="Optional report path under runtime/artifacts/counterfactual-simulations/",
     )
     parser.add_argument(
         "--repo-root",

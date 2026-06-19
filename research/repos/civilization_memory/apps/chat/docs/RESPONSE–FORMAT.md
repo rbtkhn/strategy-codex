@@ -1,7 +1,7 @@
 # Chat response format (canonical)
 
 **Status:** Normative for all chat consumers.  
-**Governed by:** This doc; engine in `src/engine.js` is the single producer.
+**Governed by:** This doc; engine in `platform/src/engine.js` is the single producer.
 
 ---
 
@@ -56,4 +56,4 @@ Option labels must be **self-contained**: clear when read aloud or by a screen r
 
 ---
 
-**Reference:** `apps/chat/src/engine.js` (producer); `apps/chat/src/adapters/telegram.js` (consumer). Extend this doc if optional fields (e.g. `suggestedActions`) are added.
+**Reference:** `platform/apps/chat/platform/src/engine.js` (producer); `platform/apps/chat/platform/src/adapters/telegram.js` (consumer). Extend this doc if optional fields (e.g. `suggestedActions`) are added.

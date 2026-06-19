@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Render a derived HTML dashboard for the explicit Strategy return hint.
 
@@ -39,7 +40,7 @@ except ImportError:
         read_text,
     )
 
-DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "work-strategy" / "strategy-return-dashboard.html"
+DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-strategy" / "strategy-return-dashboard.html"
 ACCUMULATOR_RE = re.compile(r"\*\*Accumulator for:\*\*\s*(\d{4}-\d{2}-\d{2})")
 
 

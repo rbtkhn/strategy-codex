@@ -70,7 +70,7 @@ rejection_reason: duplicate sample
 
 
 def _assert_no_strategy_codex_user(root: Path) -> None:
-    assert not (root / "users" / USER).exists()
+    assert not (root / "platform/users" / USER).exists()
 
 
 def test_analyze_rejection_feedback_uses_root_profile(work_root, monkeypatch):
@@ -84,7 +84,7 @@ def test_analyze_rejection_feedback_uses_root_profile(work_root, monkeypatch):
     )
 
     assert arf.main() == 0
-    assert (work_root / "artifacts" / "rejection_analysis.json").is_file()
+    assert (work_root / "runtime/artifacts" / "rejection_analysis.json").is_file()
     _assert_no_strategy_codex_user(work_root)
 
 
@@ -152,5 +152,5 @@ def test_import_working_identity_candidates_writes_root_gate_and_digest(work_roo
 
     assert iwic.main() == 0
     assert "Prefers root contract." in (work_root / "recursion-gate.md").read_text(encoding="utf-8")
-    assert any((work_root / "artifacts" / "portable-record").glob("import-digest-*.md"))
+    assert any((work_root / "runtime/artifacts" / "portable-record").glob("import-digest-*.md"))
     _assert_no_strategy_codex_user(work_root)

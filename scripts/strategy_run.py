@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Strategy run wrapper — start / inspect / resume / complete (WORK only).
 
@@ -20,8 +21,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # Tests may set STRATEGY_RUN_ARTIFACT_ROOT to a temp tree (repo-shaped) for isolation.
 ARTIFACT_ROOT = Path(os.environ.get("STRATEGY_RUN_ARTIFACT_ROOT", str(REPO_ROOT))).resolve()
 DEFAULT_NOTEBOOK = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "strategy-notebook"
-ARTIFACTS_RUNS = ARTIFACT_ROOT / "artifacts" / "strategy-runs"
-ARTIFACTS_RECEIPTS = ARTIFACT_ROOT / "artifacts" / "run-receipts"
+ARTIFACTS_RUNS = ARTIFACTS_DIR / "strategy-runs"
+ARTIFACTS_RECEIPTS = ARTIFACTS_DIR / "run-receipts"
 
 
 @dataclass

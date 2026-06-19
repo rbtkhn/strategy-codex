@@ -2,7 +2,7 @@
 
 **Work only; not Record.** This page orients operators and assistants. Governance law remains in [AGENTS.md](../AGENTS.md).
 
-**Finding analyst source indexes:** [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/voices/INDEX.md](../statecraft/voices/INDEX.md) (not SELF-LIBRARY or `artifacts/library-index.md`).
+**Finding analyst source indexes:** [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/voices/INDEX.md](../statecraft/voices/INDEX.md) (not SELF-LIBRARY or `runtime/artifacts/library-index.md`).
 
 ---
 
@@ -141,7 +141,7 @@ python3 scripts/refresh_statecraft_archive_indices.py --check
 ### Gate review (fork revive only — Record frozen by default)
 
 ```bash
-grace-mar gate board [-u USER]          # Kanban view → artifacts/gate-board.md
+grace-mar gate board [-u USER]          # Kanban view → runtime/artifacts/gate-board.md
 grace-mar gate list [-u USER]
 grace-mar gate diff CANDIDATE-XXXX [-u USER]
 grace-mar gate merge [-u USER]          # process_approved_candidates.py --apply
@@ -182,7 +182,7 @@ python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD
 python3 scripts/statecraft_intake_queue.py --latest
 python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --json
 python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --emit-sidecars
-python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --write-digest --digest-out artifacts/statecraft-intake-queue/digest-YYYY-MM-DD.md
+python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --write-digest --digest-out runtime/artifacts/statecraft-intake-queue/digest-YYYY-MM-DD.md
 ```
 
 Spec: [statecraft-intake-queue.md](statecraft-intake-queue.md). Default Kleiber compact conductor pass runs sync + queue report in **A. Allegro** ([conductor SKILL](../.cursor/skills/conductor/SKILL.md)).

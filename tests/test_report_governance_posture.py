@@ -15,7 +15,7 @@ from report_governance_posture import build_governance_posture_markdown  # noqa:
 
 def test_build_governance_posture_contains_core_sections(tmp_path: Path) -> None:
     uid = "fixture-user"
-    prof = tmp_path / "users" / uid
+    prof = tmp_path / "platform/users" / uid
     prof.mkdir(parents=True)
     (prof / "recursion-gate.md").write_text("# gate\n", encoding="utf-8")
     (prof / "self.md").write_text("x", encoding="utf-8")

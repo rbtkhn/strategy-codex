@@ -1,0 +1,265 @@
+#!/usr/bin/env python3
+"""
+Stage OpenClaw session output into Grace-Mar's gated pipeline.
+
+This script is stage-only. It never merges into the Record.
+
+Usage:
+  python platform/integrations/openclaw_stage.py --user grace-mar --artifact ./session-note.md
+  python platform/integrations/openclaw_stage.py -u grace-mar --text "we explored fractions in OpenClaw"
+"""
+
+import argparse
+import hashlib
+import json
+import os
+import re
+import subprocess
+import sys
+import time
+from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+_SCRIPTS = REPO_ROOT / "scripts"
+_RUNTIME = REPO_ROOT / "scripts" / "runtime"
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+if str(_RUNTIME) not in sys.path:
+    sys.path.insert(0, str(_RUNTIME))
+try:
+    from harness_events import append_harness_event
+except ImportError:
+    append_harness_event = None  # type: ignore
+
+try:
+    from uncertainty_envelope import compute_envelope, synthetic_observation_from_text
+except ImportError:
+    compute_envelope = None  # type: ignore
+    synthetic_observation_from_text = None  # type: ignore
+
+
+def _sha256(path: Path) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        while True:
+            chunk = f.read(65536)
+            if not chunk:
+                break
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def _build_content(text: str, artifact: Path | None) -> tuple[str, dict]:
+    base = (text or "").strip()
+    meta: dict[str, str] = {"source": "openclaw_stage"}
+    if artifact and artifact.exists():
+        rel = str(artifact)
+        digest = _sha256(artifact)
+        preview = artifact.read_text(encoding="utf-8", errors="ignore").strip()[:1200]
+        if base:
+            base = base + "\n\n"
+        base += (
+            f'we did work in OpenClaw and captured an artifact at "{rel}". '
+            f'hash: {digest}. excerpt:\n{preview}'
+        )
+        meta["artifact_path"] = rel
+        meta["artifact_sha256"] = digest
+    return base.strip(), meta
+
+
+def _load_intent_profile(user_id: str) -> dict:
+    intent_path = REPO_ROOT / "platform/users" / user_id / "intent.md"
+    if not intent_path.exists():
+        return {"ok": False, "tradeoff_rules": []}
+    raw = intent_path.read_text(encoding="utf-8")
+    m = re.search(r"```(?:yaml|yml)\s*\n(.*?)```", raw, re.DOTALL)
+    if not m:
+        return {"ok": False, "tradeoff_rules": []}
+    block = m.group(1)
+    rules: list[dict] = []
+    rules_block = re.search(r"^tradeoff_rules:\s*\n((?:^[ \t]+.+\n?)*)", block, re.MULTILINE)
+    if rules_block:
+        chunks = re.findall(r"(?:^[ \t]*-\s+.+(?:\n(?![ \t]*-\s).+)*)", rules_block.group(1), re.MULTILINE)
+        for idx, chunk in enumerate(chunks, 1):
+            rid_m = re.search(r"\bid:\s*([^\n]+)", chunk)
+            prio_m = re.search(r"\bprioritize:\s*([^\n]+)", chunk)
+            de_m = re.search(r"\bdeprioritize:\s*([^\n]+)", chunk)
+            rules.append(
+                {
+                    "id": rid_m.group(1).strip().strip("\"'") if rid_m else f"INTENT-RULE-{idx:03d}",
+                    "prioritize": prio_m.group(1).strip().strip("\"'") if prio_m else "",
+                    "deprioritize": de_m.group(1).strip().strip("\"'") if de_m else "",
+                }
+            )
+    return {"ok": True, "tradeoff_rules": rules}
+
+
+def _keywords(text: str) -> set[str]:
+    return {w for w in re.findall(r"[a-zA-Z][a-zA-Z0-9_-]{2,}", (text or "").lower())}
+
+
+def _detect_constitution_conflicts(content: str, intent_profile: dict) -> list[str]:
+    if not intent_profile.get("ok"):
+        return []
+    observed = _keywords(content)
+    conflicts: list[str] = []
+    for rule in intent_profile.get("tradeoff_rules", []):
+        de = _keywords(rule.get("deprioritize", ""))
+        pr = _keywords(rule.get("prioritize", ""))
+        if not de:
+            continue
+        hits_de = observed & de
+        if not hits_de:
+            continue
+        hits_pr = observed & pr if pr else set()
+        if hits_pr:
+            continue
+        conflicts.append(str(rule.get("id") or "UNKNOWN"))
+    return conflicts
+
+
+def _emit_constitution_event(user_id: str, status: str, rule_ids: list[str]) -> None:
+    extras = [
+        f"status={status}",
+        "candidate_source=openclaw",
+        f"rule_ids={','.join(rule_ids) if rule_ids else 'none'}",
+        "source=openclaw_stage",
+        "channel_key=openclaw:stage",
+    ]
+    subprocess.run(
+        [
+            sys.executable,
+            "scripts/emit_pipeline_event.py",
+            "--user",
+            user_id,
+            "intent_constitutional_critique",
+            "none",
+            *extras,
+        ],
+        cwd=REPO_ROOT,
+        check=False,
+        capture_output=True,
+    )
+
+
+def stage_openclaw(
+    stage_url: str,
+    user_id: str,
+    text: str,
+    artifact: Path | None,
+    api_key: str,
+    *,
+    precheck: bool = False,
+) -> dict:
+    content, meta = _build_content(text, artifact)
+    if not content:
+        raise ValueError("Provide --text and/or --artifact")
+    if precheck and compute_envelope and synthetic_observation_from_text:
+        env = compute_envelope([synthetic_observation_from_text(content)])
+        promo = env.get("promotion_recommendation", "")
+        meta["abstention_precheck"] = env
+        line = (
+            f"\n\nABSTENTION_PRECHECK: evidence_state={env.get('evidence_state')} "
+            f"fabricated_history_risk={env.get('fabricated_history_risk')} "
+            f"promotion_recommendation={promo} (advisory — see docs/abstention-policy.md)"
+        )
+        if promo == "block":
+            line += "\nReview before relying on this handback for gate staging."
+        content = content + line
+    intent_profile = _load_intent_profile(user_id)
+    conflicts = _detect_constitution_conflicts(content, intent_platform/profile)
+    status = "advisory_flagged" if conflicts else "advisory_clear"
+    _emit_constitution_event(user_id, status=status, rule_ids=conflicts)
+    meta["constitution_check_status"] = status
+    if conflicts:
+        meta["constitution_rule_ids"] = ",".join(conflicts)
+        content = (
+            f"{content}\n\n"
+            f"CONSTITUTION_ADVISORY: status={status}; rule_ids={','.join(conflicts)}"
+        )
+    payload = {
+        "content": content,
+        "user_id": user_id,
+        "title": "OpenClaw session handback",
+        "selection_text": "",
+        **meta,
+    }
+    req = Request(stage_url, data=json.dumps(payload).encode("utf-8"), method="POST")
+    req.add_header("Content-Type", "application/json")
+    if api_key:
+        req.add_header("X-Api-Key", api_key)
+    t0 = time.monotonic()
+    with urlopen(req, timeout=30) as resp:
+        result = json.loads(resp.read().decode("utf-8"))
+    wall_ms = int((time.monotonic() - t0) * 1000)
+    try:
+        if str(_SCRIPTS) not in sys.path:
+            sys.path.insert(0, str(_SCRIPTS))
+        from emit_compute_ledger import append_integration_ledger
+
+        sz = artifact.stat().st_size if artifact and artifact.is_file() else 0
+        append_integration_ledger(
+            user_id,
+            operation="openclaw_stage_http",
+            runtime="openclaw",
+            success=bool(result.get("ok")),
+            wall_ms=wall_ms,
+            bytes_processed=sz + len(content.encode("utf-8")),
+            source_artifact_count=1 if artifact else 0,
+            task_type="stage",
+            repo_root=REPO_ROOT,
+        )
+    except Exception:
+        pass
+    if append_harness_event:
+        append_harness_event(
+            user_id,
+            "openclaw_stage",
+            "runtime_handback_stage",
+            path=str(artifact) if artifact else None,
+            status="ok" if result.get("ok") else "failed",
+            stage_url=stage_url,
+            artifact_present=bool(artifact),
+            constitution_status=meta.get("constitution_check_status"),
+        )
+    return result
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Stage OpenClaw output to Grace-Mar /stage endpoint.")
+    parser.add_argument("--user", "-u", default="grace-mar", help="User id")
+    parser.add_argument("--stage-url", default=os.getenv("OPENCLAW_STAGE_URL", "http://127.0.0.1:5050/stage"))
+    parser.add_argument("--text", default="", help='Natural language summary (e.g. "we did X in OpenClaw")')
+    parser.add_argument("--artifact", default="", help="Optional artifact file path")
+    parser.add_argument("--api-key", default=os.getenv("HANDBACK_API_KEY", "").strip(), help="Optional X-Api-Key")
+    parser.add_argument(
+        "--precheck",
+        action="store_true",
+        help="Append advisory abstention/uncertainty line from runtime heuristics (does not block staging)",
+    )
+    args = parser.parse_args()
+
+    artifact = Path(args.artifact) if args.artifact else None
+    try:
+        result = stage_openclaw(
+            stage_url=args.stage_url,
+            user_id=args.user,
+            text=args.text,
+            artifact=artifact,
+            api_key=args.api_key,
+            precheck=bool(getattr(args, "precheck", False)),
+        )
+        if not result.get("ok"):
+            print(f"Stage failed: {result}", flush=True)
+            return 1
+        print(json.dumps(result, ensure_ascii=True))
+        return 0
+    except (HTTPError, URLError, TimeoutError, OSError, ValueError) as e:
+        print(f"Stage error: {e}", flush=True)
+        return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

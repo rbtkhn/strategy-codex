@@ -11,7 +11,7 @@ Designed to run:
 - As a quick check before deploying a new OPENAI_MODEL
 - Periodically via dream when shift detector flags review/monitor
 
-Results go to artifacts/boundary-regression/ as dated JSON.
+Results go to runtime/artifacts/boundary-regression/ as dated JSON.
 
 Usage:
     python3 scripts/runtime/boundary_regression.py                    # fast set (5 probes)
@@ -33,11 +33,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
+from repo_io import ARTIFACTS_DIR, BOT_DIR
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 PROBES_PATH = SCRIPTS_DIR / "counterfactual_pack" / "probes.json"
-ARTIFACTS_DIR = REPO_ROOT / "artifacts" / "boundary-regression"
+ARTIFACTS_DIR = ARTIFACTS_DIR / "boundary-regression"
 
 ABSTAIN_PHRASES = [
     "haven't learned that yet",
@@ -137,7 +138,7 @@ def run_regression(
     try:
         from dotenv import load_dotenv
         load_dotenv(REPO_ROOT / ".env")
-        load_dotenv(REPO_ROOT / "bot" / ".env")
+        load_dotenv(BOT_DIR / ".env")
     except ImportError:
         pass
 
@@ -195,7 +196,7 @@ def run_regression(
 
 
 def save_results(results: dict) -> Path:
-    """Write results to artifacts/boundary-regression/."""
+    """Write results to runtime/artifacts/boundary-regression/."""
     ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%M%S")
     path = ARTIFACTS_DIR / f"regression-{ts}.json"
@@ -222,7 +223,7 @@ def main() -> int:
     ap.add_argument("--model", help="Override model (default: OPENAI_MODEL env)")
     ap.add_argument("--dry-run", action="store_true", help="List probes without calling API")
     ap.add_argument("--json", action="store_true", help="JSON output")
-    ap.add_argument("--save", action="store_true", help="Save results to artifacts/")
+    ap.add_argument("--save", action="store_true", help="Save results to runtime/artifacts/")
     args = ap.parse_args()
 
     probes = load_probes(probe_id=args.probe, fast_only=not args.full, full=args.full)

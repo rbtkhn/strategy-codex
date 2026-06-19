@@ -31,7 +31,7 @@ def test_validate_think_claims() -> None:
 def test_build_think_observability() -> None:
     cp = _run("build_think_observability.py")
     assert cp.returncode == 0, cp.stderr
-    out = REPO_ROOT / "artifacts/skill-think/think-observability.json"
+    out = REPO_ROOT / "runtime/artifacts/skill-think/think-observability.json"
     data = json.loads(out.read_text(encoding="utf-8"))
     sv = data.get("schemaVersion", "")
     assert sv.startswith("1.") and "skill-think" in sv

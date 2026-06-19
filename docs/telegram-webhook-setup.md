@@ -28,9 +28,9 @@ The `render.yaml` blueprint configures the miniapp with optional Telegram webhoo
 
 | Env var | Required | Description |
 |---------|----------|-------------|
-| `TELEGRAM_BOT_TOKEN` | Yes (for bot) | From @BotFather |
+| `TELEGRAM_BOT_TOKEN` | Yes (for archive/grace-mar-instance/bot) | From @BotFather |
 | `OPENAI_API_KEY` | Yes | For LLM responses |
-| `DASHBOARD_MINIAPP_URL` or `PROFILE_MINIAPP_URL` | No | URL for bot menu button (e.g. **https://grace-mar.com** — profile) |
+| `DASHBOARD_MINIAPP_URL` or `PROFILE_MINIAPP_URL` | No | URL for bot menu button (e.g. **https://grace-mar.com** — platform/profile) |
 | `GITHUB_TOKEN` | No | Session transcript is local; SELF-ARCHIVE is updated only on merge. |
 | `GRACE_MAR_REPO` | No | (Unused for archiving; SELF-ARCHIVE is gated.) |
 | `GRACE_MAR_OPERATOR_CONSOLE_URL` | No | Base URL of the Mini App host (no path). After Telegram approve, `/merge` hints link to `{URL}/operator/console`. |
@@ -56,8 +56,8 @@ The miniapp will register the webhook on startup. The bot will work immediately.
 
 ## Local Development
 
-- **With webhook locally:** Use ngrok to expose your machine, set `WEBHOOK_BASE_URL=https://your-ngrok-url.ngrok.io`, run `python apps/miniapp_server.py`
-- **With polling:** Run `python -m bot.bot` (or `python bot/bot.py`) — but **do not** run the bot on Render at the same time, or you'll get a conflict
+- **With webhook locally:** Use ngrok to expose your machine, set `WEBHOOK_BASE_URL=https://your-ngrok-url.ngrok.io`, run `python platform/apps/miniapp_server.py`
+- **With polling:** Run `python -m bot.bot` (or `python archive/grace-mar-instance/bot/bot.py`) — but **do not** run the bot on Render at the same time, or you'll get a conflict
 
 ---
 

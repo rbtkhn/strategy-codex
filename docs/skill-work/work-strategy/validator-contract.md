@@ -7,7 +7,7 @@
 - Declared paths resolve where expected (artifacts vs sources behaviour differs by validator — see script output).
 - Text/markdown artifacts have enough substance for review under a simple word-count heuristic (default threshold: 50 words per text artifact for “non-trivial”).
 - Optional gate snippet presence when requested.
-- Derived JSON output paths stay outside forbidden Record-adjacent locations (`**`, selected `bot/` files).
+- Derived JSON output paths stay outside forbidden Record-adjacent locations (`**`, selected `archive/grace-mar-instance/bot/` files).
 - Light scans for explicit placeholder / tension markers (surfaced as `needs_review`, not hidden).
 
 **What it does not validate**

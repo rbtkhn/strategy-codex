@@ -8,7 +8,7 @@ tags:
 - entrepreneurship
 - abundance
 - strategy
-portable_source: skills-portable/abundance-native-ventures/SKILL.md
+portable_source: skills/abundance-native-ventures/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Abundance-Native Ventures

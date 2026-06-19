@@ -244,5 +244,5 @@ Only level 7 updates canonical Record.
 ## See also
 
 - [`portability/emulation/emulation-bundle-schema.v1.json`](portability/emulation/emulation-bundle-schema.v1.json)
-- [`../schema-registry/counterfactual-simulation-report.v1.json`](../schema-registry/counterfactual-simulation-report.v1.json)
-- [`../config/agent-surfaces.v1.json`](../config/agent-surfaces.v1.json)
+- [`../schemas/registry/counterfactual-simulation-report.v1.json`](../schemas/registry/counterfactual-simulation-report.v1.json)
+- [`../platform/config/agent-surfaces.v1.json`](../platform/config/agent-surfaces.v1.json)

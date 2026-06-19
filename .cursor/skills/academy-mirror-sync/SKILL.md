@@ -9,7 +9,7 @@ tags:
 - work-strategy
 - git
 - academy
-portable_source: skills-portable/academy-mirror-sync/SKILL.md
+portable_source: skills/academy-mirror-sync/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Academy Mirror Sync

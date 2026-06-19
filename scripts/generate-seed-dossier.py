@@ -91,7 +91,7 @@ def main() -> None:
         ]
     )
     intake = data["seed_intake.json"]
-    cop = intake.get("cursor_operator_profile")
+    cop = intake.get("cursor_operator_platform/profile")
     lines.extend(["", "## Intake — Cursor / operator workspace", ""])
     if cop:
         lines.append(

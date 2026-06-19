@@ -4,7 +4,7 @@
 
 **work-politics–only** doc or script changes should use GitHub label **`lane/work-politics`**. Same mechanics as other lanes: [.github/pull_request_template.md](../../../.github/pull_request_template.md).
 
-If the PR touches **companion Record** paths (`**`, `bot/prompt.py`, …), **work-dev** integration paths, or another lane, add **`lane/cross`** and a non-empty **Cross-lane justification** in the PR body.
+If the PR touches **companion Record** paths (`**`, `archive/grace-mar-instance/bot/prompt.py`, …), **work-dev** integration paths, or another lane, add **`lane/cross`** and a non-empty **Cross-lane justification** in the PR body.
 
 ## Gate shape (canonical)
 
@@ -21,7 +21,7 @@ Full field reference: [wap-candidate-template.md](wap-candidate-template.md).
 
 ## Paste helpers
 
-- **CLI:** `python scripts/emit_work_politics_gate_paste_snippet.py --help` — writes `recursion-gate-staging/work-politics-<date>.paste-snippet.md` with the next `CANDIDATE-*` id and required territory fields.
+- **CLI:** `python scripts/emit_work_politics_gate_paste_snippet.py --help` — writes `archive/grace-mar-instance/recursion-gate-staging/work-politics-<date>.paste-snippet.md` with the next `CANDIDATE-*` id and required territory fields.
 - **Manual:** follow [wap-candidate-template.md](wap-candidate-template.md) if you prefer hand-authored YAML.
 
 ## Optional JSON sidecars

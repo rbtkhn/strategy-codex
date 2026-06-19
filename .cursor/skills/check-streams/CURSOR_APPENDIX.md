@@ -4,7 +4,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-str
 |--------|------|
 | Canonical raw-input tree | [codex/](../../codex/) |
 | Date-bucket target pattern | `codex/YYYY/raw-input/YYYY-MM-DD/` |
-| Existing lower-layer ingest skill | [skills-portable/youtube-raw-input-transcript/SKILL.md](../../../skills-portable/youtube-raw-input-transcript/SKILL.md) |
+| Existing lower-layer ingest skill | [skills/youtube-raw-input-transcript/SKILL.md](../../../skills/youtube-raw-input-transcript/SKILL.md) |
 | Generated lower-layer Cursor skill | [\.cursor/skills/youtube-raw-input-transcript/SKILL.md](../youtube-raw-input-transcript/SKILL.md) |
 | Speaker folder shelf | [codex/speakers/](../../../codex/speakers/) |
 | Speaker arc boundary | [docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md](../../../docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md) |
@@ -12,7 +12,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-str
 | Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
 | Temp daily discovery cache | [\.codex-tmp/](../../.codex-tmp/) |
 | Temp subtitle cache | [\.codex-tmp/yt-dlp/](../../.codex-tmp/yt-dlp/) |
-| Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 | Skill validator | [scripts/validate_skills.py](../../../scripts/validate_skills.py) |
 

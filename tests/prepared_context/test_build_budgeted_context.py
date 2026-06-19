@@ -41,7 +41,7 @@ def test_build_budgeted_context_subprocess(tmp_path: Path) -> None:
     (obs_dir / "index.jsonl").write_text(
         json.dumps(a) + "\n" + json.dumps(b) + "\n", encoding="utf-8"
     )
-    out = tmp_path / "prepared-context" / "out.md"
+    out = tmp_path / "runtime/prepared-context" / "out.md"
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
     r = subprocess.run(
         [
@@ -58,7 +58,7 @@ def test_build_budgeted_context_subprocess(tmp_path: Path) -> None:
             "-o",
             str(out),
             "--budgets-file",
-            str(REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"),
+            str(REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"),
         ],
         env=env,
         capture_output=True,
@@ -72,7 +72,7 @@ def test_build_budgeted_context_subprocess(tmp_path: Path) -> None:
     assert "## Excluded" in text
     assert "## Context Block" in text
     assert "Budget Notes" in text
-    receipt = tmp_path / "prepared-context" / "last-budget-builds.json"
+    receipt = tmp_path / "runtime/prepared-context" / "last-budget-builds.json"
     assert receipt.is_file()
     data = json.loads(receipt.read_text(encoding="utf-8"))
     assert data["lanes"]["lane-x"]["mode"] == "compact"
@@ -98,7 +98,7 @@ def _seed_obs_dir(tmp_path: Path) -> Path:
 def test_score_flag_prints_json(tmp_path: Path) -> None:
     """--score flag emits benchmark metrics to stdout."""
     _seed_obs_dir(tmp_path)
-    out = tmp_path / "prepared-context" / "out.md"
+    out = tmp_path / "runtime/prepared-context" / "out.md"
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
     r = subprocess.run(
         [
@@ -107,7 +107,7 @@ def test_score_flag_prints_json(tmp_path: Path) -> None:
             "--lane", "work-strategy",
             "--mode", "compact",
             "-o", str(out),
-            "--budgets-file", str(REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"),
+            "--budgets-file", str(REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"),
             "--score",
         ],
         env=env, capture_output=True, text=True,
@@ -129,7 +129,7 @@ def test_benchmark_scores_across_modes(tmp_path: Path) -> None:
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
     scores_by_mode: dict[str, dict] = {}
     for mode in ("compact", "medium", "deep"):
-        out = tmp_path / "prepared-context" / f"out-{mode}.md"
+        out = tmp_path / "runtime/prepared-context" / f"out-{mode}.md"
         r = subprocess.run(
             [
                 sys.executable, str(SCRIPT),
@@ -137,7 +137,7 @@ def test_benchmark_scores_across_modes(tmp_path: Path) -> None:
                 "--lane", "work-strategy",
                 "--mode", mode,
                 "-o", str(out),
-                "--budgets-file", str(REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"),
+                "--budgets-file", str(REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"),
                 "--score",
             ],
             env=env, capture_output=True, text=True,
@@ -154,7 +154,7 @@ def test_sweep_budgets_json(tmp_path: Path) -> None:
             sys.executable, str(SWEEP_SCRIPT),
             "--lanes", "work-strategy",
             "--observations", str(SEED_FIXTURE),
-            "--budgets-file", str(REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"),
+            "--budgets-file", str(REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"),
             "--json",
         ],
         capture_output=True, text=True,
@@ -174,7 +174,7 @@ def test_workflow_depth_shallow_writes_receipt(tmp_path: Path) -> None:
     obs_dir.mkdir(parents=True)
     a = _minimal_obs("obs_wd_001", "lane-x", "T1", "summary about iran")
     (obs_dir / "index.jsonl").write_text(json.dumps(a) + "\n", encoding="utf-8")
-    out = tmp_path / "prepared-context" / "out.md"
+    out = tmp_path / "runtime/prepared-context" / "out.md"
     wd_home = tmp_path / "workflow-depth"
     env = {
         **os.environ,
@@ -198,7 +198,7 @@ def test_workflow_depth_shallow_writes_receipt(tmp_path: Path) -> None:
             "-o",
             str(out),
             "--budgets-file",
-            str(REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"),
+            str(REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"),
         ],
         env=env,
         capture_output=True,
@@ -225,7 +225,7 @@ def test_workflow_depth_depth_alias_matches_long_flag(tmp_path: Path) -> None:
     obs_dir.mkdir(parents=True)
     a = _minimal_obs("obs_wd_002", "lane-x", "T1", "summary about iran")
     (obs_dir / "index.jsonl").write_text(json.dumps(a) + "\n", encoding="utf-8")
-    out = tmp_path / "prepared-context" / "out-depth.md"
+    out = tmp_path / "runtime/prepared-context" / "out-depth.md"
     wd_home = tmp_path / "workflow-depth-alias"
     env = {
         **os.environ,
@@ -249,7 +249,7 @@ def test_workflow_depth_depth_alias_matches_long_flag(tmp_path: Path) -> None:
             "-o",
             str(out),
             "--budgets-file",
-            str(REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"),
+            str(REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"),
         ],
         env=env,
         capture_output=True,
@@ -281,7 +281,7 @@ def test_depth_requires_task_anchor(tmp_path: Path) -> None:
             "-o",
             str(out),
             "--budgets-file",
-            str(REPO_ROOT / "config" / "context_budgets" / "lane-defaults.json"),
+            str(REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"),
         ],
         env=env,
         capture_output=True,

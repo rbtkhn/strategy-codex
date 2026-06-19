@@ -1,0 +1,66 @@
+{
+  "source_path": "codex/years/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md",
+  "output_path": "codex/years/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleaned.md",
+  "status": "cleaned",
+  "cleanup_score": 100,
+  "cleanup_grade": "cleaned-transcript-80",
+  "source_word_count": 7015,
+  "cleaned_word_count": 7011,
+  "corrections": {
+    "Andre Martiano -> Andrei Martyanov": 1,
+    "Zalinski -> Zelensky": 1,
+    "Adessa -> Odesa": 4,
+    "Andre -> Andrei": 16
+  },
+  "residual_noise_terms": [],
+  "components": {
+    "frontmatter_integrity": {
+      "score": 15,
+      "max": 15,
+      "passed": true
+    },
+    "caption_artifact_removal": {
+      "score": 15,
+      "max": 15,
+      "passed": true,
+      "removed": 2
+    },
+    "repeated_fragment_collapse": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "removed": 0
+    },
+    "paragraph_reflow": {
+      "score": 20,
+      "max": 20,
+      "passed": true,
+      "source_lines": 1038,
+      "cleaned_paragraphs": 51
+    },
+    "proper_noun_normalization": {
+      "score": 20,
+      "max": 20,
+      "passed": true,
+      "corrections": {
+        "Andre Martiano -> Andrei Martyanov": 1,
+        "Zalinski -> Zelensky": 1,
+        "Adessa -> Odesa": 4,
+        "Andre -> Andrei": 16
+      }
+    },
+    "speaker_turns_where_clear": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "required": true
+    },
+    "residual_noise_scan": {
+      "score": 10,
+      "max": 10,
+      "passed": true,
+      "terms": []
+    }
+  },
+  "cleanup_receipt": "runtime/artifacts/transcript-cleanup/jan-1-cleaned-80/details/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleanup.json"
+}

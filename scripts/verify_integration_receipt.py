@@ -42,7 +42,7 @@ def _worktree_path(repo_root: Path, rel: str) -> Path:
     path = repo_root / rel
     if path.is_file():
         return path
-    legacy = repo_root / "users" / rel
+    legacy = repo_root / "platform/users" / rel
     if legacy.is_file():
         return legacy
     return path
@@ -50,8 +50,8 @@ def _worktree_path(repo_root: Path, rel: str) -> Path:
 
 def _read_git_show(ref: str, rel_posix: str, repo_root: Path) -> str:
     candidates = [rel_posix]
-    if not rel_posix.startswith("users/"):
-        candidates.append(f"users/{rel_posix}")
+    if not rel_posix.startswith("platform/users/"):
+        candidates.append(f"platform/users/{rel_posix}")
     last_error = ""
     for rel in candidates:
         spec = f"{ref}:{rel}"

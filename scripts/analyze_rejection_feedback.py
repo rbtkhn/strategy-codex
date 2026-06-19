@@ -22,7 +22,7 @@ if str(_SCRIPTS) not in sys.path:
 
 from gate_block_parser import iter_candidate_yaml_blocks  # noqa: E402
 from rejection_feedback import REJECTION_CATEGORIES, infer_rejection_category  # noqa: E402
-from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
+from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402, ARTIFACTS_DIR
 
 
 def _is_rejected(yaml_body: str) -> bool:
@@ -89,7 +89,7 @@ def main() -> int:
         "--output-json",
         type=Path,
         default=None,
-        help="Write report JSON (default: artifacts/rejection_analysis.json)",
+        help="Write report JSON (default: runtime/artifacts/rejection_analysis.json)",
     )
     ap.add_argument("--quiet", action="store_true", help="Suppress stdout summary")
     args = ap.parse_args()
@@ -114,7 +114,7 @@ def main() -> int:
 
     out_path = args.output_json
     if out_path is None:
-        art = REPO_ROOT / "artifacts"
+        art = ARTIFACTS_DIR
         art.mkdir(parents=True, exist_ok=True)
         out_path = art / "rejection_analysis.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)

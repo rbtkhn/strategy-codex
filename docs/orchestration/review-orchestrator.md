@@ -72,7 +72,7 @@ python3 scripts/runtime/review_orchestrator.py \
   --candidate CANDIDATE-0042 \
   --user grace-mar \
   --task-anchor "Hygiene review before approve." \
-  --output artifacts/review-packets/CANDIDATE-0042.md
+  --output runtime/artifacts/review-packets/CANDIDATE-0042.md
 ```
 
 **Optional JSON receipt (non-canonical):**
@@ -83,8 +83,8 @@ python3 scripts/runtime/review_orchestrator.py \
   --lane work-strategy \
   --id obs_20260413T184210Z_a1b2c3d4 \
   --task-anchor "Assess ledger observations for promotion." \
-  --receipt-out artifacts/review-packets/example-anchor-receipt.json \
-  -o artifacts/review-packets/review-packet.md
+  --receipt-out runtime/artifacts/review-packets/example-anchor-receipt.json \
+  -o runtime/artifacts/review-packets/review-packet.md
 ```
 
 **Tests / alternate repo root:**

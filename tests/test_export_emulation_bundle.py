@@ -80,9 +80,9 @@ def test_export_emulation_bundle_writes_envelope_and_policy_refs(
     assert envelope["proposalReturn"]["canonicalSurfacesTouched"] is False
     assert envelope["runtimeObservationReturn"]["humanReviewRequired"] is True
     assert envelope["runtimeObservationReturn"]["canonicalSurfacesTouched"] is False
-    assert runtime_bundle["format"] == "grace-mar-runtime-bundle"
+    assert runtime_bundle["format"] == "grace-mar-runtime/bundle"
     assert authority_map["schemaVersion"] == "1.0.0"
-    assert proposal_schema["$id"] == "schema-registry/change-proposal.v1.json"
+    assert proposal_schema["$id"] == "schemas/registry/change-proposal.v1.json"
 
 
 def test_export_emulation_bundle_main_smoke(

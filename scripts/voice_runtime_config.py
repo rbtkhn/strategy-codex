@@ -1,7 +1,7 @@
 """
 Portable parse helpers for voice_avatar + latency_mode in runtime_config.json.
 
-Used by bot/avatar_controller.py (grace-mar) and future voice_pipeline. Keep this
+Used by archive/grace-mar-instance/bot/avatar_controller.py (grace-mar) and future voice_pipeline. Keep this
 file identical in companion-self and grace-mar template/instance pairs.
 
 Emotion precedence for avatar (see docs/voice-runtime-config.md):

@@ -9,7 +9,7 @@ tags:
 - synthesis
 - notes
 - promotion
-portable_source: skills-portable/singularity-note-promotion/SKILL.md
+portable_source: skills/singularity-note-promotion/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Singularity Note Promotion

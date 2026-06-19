@@ -56,9 +56,9 @@ From the repository root:
 
 ```bash
 python3 scripts/runtime/context_failure_clinic.py \
-  --input artifacts/example-context-output.md \
-  --out artifacts/context-failure-reports/example-context-failure.json \
-  --markdown artifacts/context-failure-reports/example-context-failure.md
+  --input runtime/artifacts/example-context-output.md \
+  --out runtime/artifacts/context-failure-reports/example-context-failure.json \
+  --markdown runtime/artifacts/context-failure-reports/example-context-failure.md
 ```
 
 JSON output conforms to [`schemas/context-failure-report.v1.schema.json`](../../schemas/context-failure-report.v1.schema.json).

@@ -16,8 +16,8 @@ Use this file when you want one place to understand:
 
 | Area | Current state |
 |------|---------------|
-| **Identity export** | Implemented through `integrations/openclaw_hook.py` and the runtime bundle export path |
-| **Stage-only handback** | Implemented through `integrations/openclaw_stage.py` → `/stage` |
+| **Identity export** | Implemented through `platform/integrations/openclaw_hook.py` and the runtime bundle export path |
+| **Stage-only handback** | Implemented through `platform/integrations/openclaw_stage.py` → `/stage` |
 | **Pipeline-level export audit** | Implemented via `runtime_compat_export` events and harness events |
 | **Constitution advisory event** | Implemented via `intent_constitutional_critique` event emission |
 | **End-to-end provenance** | Implemented: OpenClaw payload (source=openclaw_stage) flows as staging_meta into gate; candidate blocks carry candidate_source, artifact_*, constitution_*; recursion_gate_review parses them for review/benchmarks |

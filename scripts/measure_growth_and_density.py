@@ -34,9 +34,9 @@ def _default_user_id() -> str:
     env = os.environ.get("GRACE_MAR_USER_ID", "").strip()
     if env:
         return env
-    if (REPO_ROOT / "users" / "grace-mar").is_dir():
+    if (REPO_ROOT / "platform/users" / "grace-mar").is_dir():
         return "grace-mar"
-    return "_template"
+    return "platform/template"
 
 
 def _read(path: Path) -> str:
@@ -61,7 +61,7 @@ def parse_ix_entries(content: str) -> list[dict]:
             "channel": channel,
             "topic": text[:120],
             "word_count": max(words, 1),
-            "has_evidence": "evidence_id:" in block,
+            "has_archive/placeholders/evidence": "evidence_id:" in block,
             "curated": "curated_by:" in block,
         })
 
@@ -150,7 +150,7 @@ def main() -> None:
         "--user",
         "-u",
         default="",
-        help="User id under  (default: GRACE_MAR_USER_ID or grace-mar if present, else _template).",
+        help="User id under  (default: GRACE_MAR_USER_ID or grace-mar if present, else platform/template).",
     )
     parser.add_argument(
         "--min-avg-words",
@@ -162,7 +162,7 @@ def main() -> None:
     args = parser.parse_args()
 
     uid = (args.user or "").strip() or _default_user_id()
-    profile_dir = REPO_ROOT / "users" / uid
+    profile_dir = REPO_ROOT / "platform/users" / uid
     self_path = profile_dir / "self.md"
     evidence_path = profile_dir / "self-archive.md"
     events_path = profile_dir / "pipeline-events.jsonl"
@@ -196,7 +196,7 @@ def main() -> None:
     # Density
     total_words = sum(e["word_count"] for e in entries)
     avg_words = total_words / len(entries)
-    with_evidence = sum(1 for e in entries if e["has_evidence"] or e["curated"])
+    with_evidence = sum(1 for e in entries if e["has_archive/placeholders/evidence"] or e["curated"])
     evidence_pct = 100 * with_evidence / len(entries)
     topics = [e["topic"].lower() for e in entries]
     all_words = re.findall(r"\w+", " ".join(topics))

@@ -4,7 +4,7 @@
 
 ## When to run
 
-After **we read / we studied**, or after editing [think-claims.json](../../artifacts/skill-think/think-claims.json).
+After **we read / we studied**, or after editing [think-claims.json](../../runtime/artifacts/skill-think/think-claims.json).
 
 ## Steps
 
@@ -15,7 +15,7 @@ After **we read / we studied**, or after editing [think-claims.json](../../artif
 
 ## Receipts
 
-Append-only JSON lines under `artifacts/skill-think/update-receipts/` — see script help. **Not** Record truth.
+Append-only JSON lines under `runtime/artifacts/skill-think/update-receipts/` — see script help. **Not** Record truth.
 
 ## Weekly THINK test loop
 

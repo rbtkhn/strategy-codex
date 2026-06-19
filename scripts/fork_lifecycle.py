@@ -19,9 +19,10 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
+from repo_io import SRC_DIR
 
 from grace_mar.fork_lifecycle import (  # noqa: E402
     begin_session,

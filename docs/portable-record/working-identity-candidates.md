@@ -22,7 +22,7 @@ Candidates are the **input** to the review pipeline. They are not facts until re
 
 ## Schema
 
-The formal schema is at [`schema-registry/working-identity-candidate.v1.json`](../../schema-registry/working-identity-candidate.v1.json).
+The formal schema is at [`schemas/registry/working-identity-candidate.v1.json`](../../schemas/registry/working-identity-candidate.v1.json).
 
 ### Required fields
 
@@ -67,6 +67,6 @@ Candidates with `sensitivity_class: non_portable` or `portability_class: non_exp
 - [extraction-prompt-pack.md](extraction-prompt-pack.md) — how to extract candidates from external AI systems
 - [current-capability-map.md](current-capability-map.md) — portability capability inventory
 - [../portable-working-identity.md](../portable-working-identity.md) — portability doctrine and four-layer mapping
-- [`schema-registry/working-identity-candidate.v1.json`](../../schema-registry/working-identity-candidate.v1.json) — formal JSON Schema
+- [`schemas/registry/working-identity-candidate.v1.json`](../../schemas/registry/working-identity-candidate.v1.json) — formal JSON Schema
 - [promotion-rules.md](promotion-rules.md) — where approved candidates land in the Record
 - [import-external-working-identity.md](import-external-working-identity.md) — how to import extracted candidates

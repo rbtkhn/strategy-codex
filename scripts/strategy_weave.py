@@ -208,7 +208,7 @@ def _refresh_batch_snapshot(inbox_path: Path) -> int:
 
     batch_refs = parse_inbox(inbox_path)
     snapshot = build_snapshot(batch_refs)
-    out = REPO_ROOT / "artifacts/skill-work/work-strategy/batch-analysis-snapshot.json"
+    out = REPO_ROOT / "runtime/artifacts/skill-work/work-strategy/batch-analysis-snapshot.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(
         json.dumps(snapshot, indent=2, ensure_ascii=False) + "\n",

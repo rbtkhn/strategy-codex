@@ -31,7 +31,7 @@ def _openclaw_stage_payload(*, content: str, constitution_check_status: str, sta
         "title": "OpenClaw session handback",
         "selection_text": "",
         "source": "openclaw_stage",
-        "artifact_path": "artifacts/openclaw/session-note.md",
+        "artifact_path": "runtime/artifacts/openclaw/session-note.md",
         "artifact_sha256": "deadbeef" * 8,
         "constitution_check_status": constitution_check_status,
         "staged_risk_tier": staged_risk_tier,

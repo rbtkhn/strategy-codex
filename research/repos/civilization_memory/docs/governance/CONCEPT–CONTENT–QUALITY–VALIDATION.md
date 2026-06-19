@@ -4,7 +4,7 @@
 **Governed by:** CMC 3.5  
 **Last updated:** February 2026  
 
-**Purpose:** Define what "engaging" and "insightful" mean in CIV–MEM terms and provide a repeatable way to sample and evaluate outputs so you can **prove the system consistently generates content worth consuming** before investing in consumers (chat, API, integrations).
+**Purpose:** Define what "engaging" and "insightful" mean in CIV–MEM terms and provide a repeatable way to sample and evaluate outputs so you can **prove the system consistently generates content worth consuming** before investing in consumers (chat, API, platform/integrations).
 
 ---
 

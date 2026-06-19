@@ -1,4 +1,4 @@
-"""Tests for bot/constitutional_layer.py (mocked OpenAI; no network)."""
+"""Tests for archive/grace-mar-instance/bot/constitutional_layer.py (mocked OpenAI; no network)."""
 
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 @pytest.fixture()
 def constitutional_env(tmp_path: Path):
     """Repo root with runtime_config + profile with seed-phase constitution."""
-    profile = tmp_path / "users" / "u1"
+    profile = tmp_path / "platform/users" / "u1"
     seed = profile / "seed-phase"
     seed.mkdir(parents=True)
     shutil.copytree(REPO_ROOT / "tests/fixtures/seed-phase/valid-minimal", seed, dirs_exist_ok=True)
@@ -104,7 +104,7 @@ def test_constitutional_disabled_no_calls(tmp_path: Path, monkeypatch):
     (tmp_path / "runtime_config.json").write_text(
         '{"constitutional_critique":{"enabled":false}}', encoding="utf-8"
     )
-    profile = tmp_path / "users" / "x"
+    profile = tmp_path / "platform/users" / "x"
     seed = profile / "seed-phase"
     seed.mkdir(parents=True)
     shutil.copy2(

@@ -23,7 +23,7 @@ def test_split_horizons_roundtrip() -> None:
 
 
 def test_prune_over_max(tmp_path: Path) -> None:
-    user = tmp_path / "users" / "u1"
+    user = tmp_path / "platform/users" / "u1"
     user.mkdir(parents=True)
     big = "x" * 500 + "\n"
     mem = (
@@ -41,7 +41,7 @@ def test_prune_over_max(tmp_path: Path) -> None:
 
 
 def test_no_prune_under_max(tmp_path: Path) -> None:
-    user = tmp_path / "users" / "u2"
+    user = tmp_path / "platform/users" / "u2"
     user.mkdir(parents=True)
     (user / "self-memory.md").write_text(
         "# M\n\n## Short-term\n\nok\n",
@@ -53,7 +53,7 @@ def test_no_prune_under_max(tmp_path: Path) -> None:
 
 
 def test_legacy_prune(tmp_path: Path) -> None:
-    user = tmp_path / "users" / "u3"
+    user = tmp_path / "platform/users" / "u3"
     user.mkdir(parents=True)
     body = "y" * 600
     (user / "self-memory.md").write_text("# Title\n\n" + body, encoding="utf-8")

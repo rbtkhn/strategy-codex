@@ -57,7 +57,7 @@ def test_golden_validates_against_schema() -> None:
     import jsonschema
 
     schema = json.loads(
-        (REPO_ROOT / "schema-registry" / "tacit-capture-normalized.v1.json").read_text(
+        (REPO_ROOT / "schemas/registry" / "tacit-capture-normalized.v1.json").read_text(
             encoding="utf-8"
         )
     )

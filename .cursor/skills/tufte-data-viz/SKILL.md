@@ -9,7 +9,7 @@ tags:
 - work-dev
 - observability
 - visualization
-portable_source: skills-portable/tufte-data-viz/SKILL.md
+portable_source: skills/tufte-data-viz/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Tufte Data Visualization
@@ -87,11 +87,11 @@ strategy-codex host wiring for **tufte-data-viz** (from portable core).
 
 | Topic | Path |
 |--------|------|
-| Portable core | [skills-portable/tufte-data-viz/SKILL.md](../../../skills-portable/tufte-data-viz/SKILL.md) |
-| Cadence pressure JSON | `artifacts/work-cadence/cadence-pressure-report.json` |
-| Workflow observability | `artifacts/workflow-observability/` (regenerate via scripts below) |
-| Compute ledger | `users/<profile>/compute-ledger.jsonl` (token columns often zero) |
-| Gate board MD | `artifacts/gate-board.md` via `scripts/build_gate_board.py` |
+| Portable core | [skills/tufte-data-viz/SKILL.md](../../../skills/tufte-data-viz/SKILL.md) |
+| Cadence pressure JSON | `runtime/artifacts/work-cadence/cadence-pressure-report.json` |
+| Workflow observability | `runtime/artifacts/workflow-observability/` (regenerate via scripts below) |
+| Compute ledger | `platform/users/<profile>/compute-ledger.jsonl` (token columns often zero) |
+| Gate board MD | `runtime/artifacts/gate-board.md` via `scripts/build_gate_board.py` |
 
 ## Data preflight
 
@@ -108,7 +108,7 @@ python3 scripts/build_gate_board.py
 ## Canvas inline extract
 
 ```bash
-python3 -c "import json; print(json.dumps(json.load(open('artifacts/work-cadence/cadence-pressure-report.json')), indent=2))"
+python3 -c "import json; print(json.dumps(json.load(open('runtime/artifacts/work-cadence/cadence-pressure-report.json')), indent=2))"
 ```
 
 ## Token burn

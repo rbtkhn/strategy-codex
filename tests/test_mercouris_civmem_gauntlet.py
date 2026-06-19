@@ -11,7 +11,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 FIXTURE_PATH = REPO_ROOT / "tests" / "fixtures" / "mercouris_civmem_gauntlet.json"
 SKILL_PATH = (
     REPO_ROOT
-    / "skills-portable"
+    / "skills"
     / "_drafts"
     / "mercouris-daily-continuity-extraction"
     / "SKILL.md"
@@ -37,7 +37,7 @@ CRITICAL_GATES = {
     "civmem_cannot_prove_current_facts": [
         "civ-mem is not proof",
         "do not cite civ-mem as evidence for current facts",
-        "must not override current-source evidence",
+        "must not override current-source archive/placeholders/evidence",
     ],
     "iran_maps_to_persia": [
         "for iran questions",

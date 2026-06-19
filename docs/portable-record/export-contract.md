@@ -65,7 +65,7 @@ This contract governs the existing export layer. It does not create a second exp
 - Filtering logic lives in the child scripts, not in a separate portability stack
 - New export formats extend [`scripts/export.py`](../../scripts/export.py) as subcommands
 - Emulation packaging may compose existing exporters, but it must still return through existing review or membrane surfaces
-- New schemas go in `schema-registry/`
+- New schemas go in `schemas/registry/`
 
 ---
 
@@ -87,7 +87,7 @@ Five classes are operational: `tool_bootstrap`, `full`, `task_limited`, `capabil
 
 ## MCP adapter
 
-The same export classes are available programmatically via a read-only MCP server at [`integrations/mcp_adapter.py`](../../integrations/mcp_adapter.py). It wraps the existing export machinery over stdio transport — no second export stack, no write-back. Five operational classes (`tool_bootstrap`, `full`, `task_limited`, `capability`, `emulation`) are retrievable; `internal` rejects with explanation. See [mcp-adapter.md](../integrations/mcp-adapter.md) for configuration and response shapes.
+The same export classes are available programmatically via a read-only MCP server at [`platform/integrations/mcp_adapter.py`](../../platform/integrations/mcp_adapter.py). It wraps the existing export machinery over stdio transport — no second export stack, no write-back. Five operational classes (`tool_bootstrap`, `full`, `task_limited`, `capability`, `emulation`) are retrievable; `internal` rejects with explanation. See [mcp-adapter.md](../platform/integrations/mcp-adapter.md) for configuration and response shapes.
 
 ---
 

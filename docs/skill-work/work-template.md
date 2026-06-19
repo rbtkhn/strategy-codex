@@ -2,7 +2,7 @@
 
 **Purpose:** Checklist and README skeleton for adding a **new** WORK territory under `docs/skill-work/work-<name>/`. Reduces drift (missing history, unclear boundaries, wrong gate expectations).
 
-**Not:** A replacement for [companion-self](https://github.com/rbtkhn/companion-self) `_template/` (that scaffolds **instances**, not skill-work lanes). **Not** Record truth.
+**Not:** A replacement for [companion-self](https://github.com/rbtkhn/companion-self) `platform/template/` (that scaffolds **instances**, not skill-work lanes). **Not** Record truth.
 
 **Full WORK architecture (tiers, ledger, daily surface, emerging patterns, multi-frame review):** [work-template/README.md](work-template/README.md) — pattern library for lanes that want more than this minimum checklist.
 
@@ -44,7 +44,7 @@
 ## Optional
 
 - **Scripts** under `scripts/` or `scripts/work_<id>/` — document invocations in README; keep instance-specific paths explicit.
-- **Cursor skill** under `.cursor/skills/` — only when the lane has a stable, repeatable operator trigger; see portable skill ladder in [skills-portable/README.md](../../skills-portable/README.md).
+- **Cursor skill** under `.cursor/skills/` — only when the lane has a stable, repeatable operator trigger; see portable skill ladder in [skills/README.md](../../skills/README.md).
 - **Companion-self / manifest** — if the new tree should ship to **every** template consumer, plan a separate merge slice per [MERGING-FROM-COMPANION-SELF.md](../merging-from-companion-self.md); instance-only lanes often stay grace-mar-only.
 
 ---

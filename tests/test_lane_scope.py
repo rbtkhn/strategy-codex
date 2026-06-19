@@ -227,8 +227,8 @@ def test_cli_check_lane_scope(tmp_path: Path, tmp_lanes: Path) -> None:
     init = subprocess.run(["git", "init"], cwd=repo, capture_output=True, text=True)
     if init.returncode != 0:
         pytest.skip(f"git init failed: {init.stderr}")
-    subprocess.run(["git", "config", "user.email", "t@test"], cwd=repo, check=True, capture_output=True)
-    subprocess.run(["git", "config", "user.name", "t"], cwd=repo, check=True, capture_output=True)
+    subprocess.run(["git", "platform/config", "user.email", "t@test"], cwd=repo, check=True, capture_output=True)
+    subprocess.run(["git", "platform/config", "user.name", "t"], cwd=repo, check=True, capture_output=True)
     (repo / "lanes.yaml").write_text(tmp_lanes.read_text(encoding="utf-8"), encoding="utf-8")
     (repo / "scripts").mkdir()
     shutil.copy(SCRIPTS / "check_lane_scope.py", repo / "scripts" / "check_lane_scope.py")

@@ -87,12 +87,12 @@ def main() -> int:
         ingested_at = ""
         if isinstance(entry, dict):
             ingested = bool(entry.get("ingested"))
-            arts = entry.get("artifacts")
+            arts = entry.get("runtime/artifacts")
             if isinstance(arts, list):
                 artifacts = [str(a) for a in arts if str(a).strip()]
             ingested_at = str(entry.get("ingested_at_utc") or "").strip()
 
-        art_display = "; ".join(artifacts) if artifacts else ""
+        art_display = "; ".join(runtime/artifacts) if artifacts else ""
         md_lines.append(
             f"| {i} | `{_esc_cell(vid)}` | {'yes' if ingested else 'no'} | {_esc_cell(art_display)} | {_esc_cell(title)} | {url} |"
         )
@@ -104,7 +104,7 @@ def main() -> int:
             "upload_date": v.get("upload_date") or "",
             "duration_seconds": v.get("duration_seconds"),
             "ingested": ingested,
-            "ingestion_artifacts": artifacts,
+            "ingestion_runtime/artifacts": artifacts,
             "ingested_at_utc": ingested_at or None,
         }
         merged_rows.append(row)

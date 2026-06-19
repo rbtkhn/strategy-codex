@@ -117,7 +117,7 @@ def canonical_journal_intro(expert_id: str, *, month_ym: str | None = None) -> s
         "- **Historical expert context (optional rebuild)** — "
         f"`python3 scripts/strategy_historical_expert_context.py --expert-id {expert_id} "
         "--start-segment YYYY-MM --end-segment YYYY-MM --apply` emits batch-analysis handoff under "
-        "`artifacts/skill-work/work-strategy/historical-expert-context/`: a **range rollup** "
+        "`runtime/artifacts/skill-work/work-strategy/historical-expert-context/`: a **range rollup** "
         f"(`{expert_id}-<start>-to-<end>.md`) plus **per-month** files (`{expert_id}/<YYYY-MM>.md`). "
         "[`strategy_batch_analysis_with_history.py`](../../../../scripts/strategy_batch_analysis_"
         "with_history.py) loads **per-month** artifacts when every month in the requested window "
@@ -155,7 +155,7 @@ def default_source_line(expert_id: str) -> str:
 def companion_line(expert_id: str) -> str:
     return (
         f"**Companion files:** [`strategy-expert-{expert_id}.md`](strategy-expert-{expert_id}.md) "
-        f"(profile) and [`strategy-expert-{expert_id}-transcript.md`]"
+        f"(platform/profile) and [`strategy-expert-{expert_id}-transcript.md`]"
         f"(strategy-expert-{expert_id}-transcript.md) (7-day verbatim)."
     )
 

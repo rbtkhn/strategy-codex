@@ -20,7 +20,7 @@ def test_score_from_source_stub() -> None:
 
 
 def test_render_scored_block_plain_months() -> None:
-    inner = """## Backfilled historical arc (reconstructed from notebook artifacts)
+    inner = """## Backfilled historical arc (reconstructed from notebook runtime/artifacts)
 
 **Scope:** `x` from **2026-01-01** through **2026-01-31**.
 **Status:** Test.
@@ -50,7 +50,7 @@ _No eligible evidence._
 
 
 def test_render_preserves_month_level_arc_section() -> None:
-    inner = """## Backfilled historical arc (reconstructed from notebook artifacts)
+    inner = """## Backfilled historical arc (reconstructed from notebook runtime/artifacts)
 
 **Scope:** `x` from **2026-01-01** through **2026-01-31**.
 **Status:** Test.
@@ -75,7 +75,7 @@ def test_render_preserves_month_level_arc_section() -> None:
 
 
 def test_rescore_strips_prior_strength_tag() -> None:
-    inner = """## Backfilled historical arc (reconstructed from notebook artifacts)
+    inner = """## Backfilled historical arc (reconstructed from notebook runtime/artifacts)
 
 **Scope:** `x` from **2026-01-01** through **2026-01-31**.
 **Status:** Test.

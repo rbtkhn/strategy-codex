@@ -120,7 +120,7 @@ Design principles: **companion sovereignty**, **gated pipeline**, **Record as co
 | **P2** | Message assist (draft only; human sends) — **implemented** | Low | High — reduces load, keeps gate |
 | **P3** | Listing sync (read; optional staged “new listing” candidates) | Medium | Medium — optional Record growth |
 | **P4** | Custom/layaway tracker (internal; optional handback summary) | Medium | Medium — operational only |
-| **P5** | Voice answers from Record (curate business profile) | Low | High — already supported; add content |
+| **P5** | Voice answers from Record (curate business platform/profile) | Low | High — already supported; add content |
 
 ---
 

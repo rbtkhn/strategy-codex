@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Compact operator-facing Markdown summary from workflow observability JSON outputs.
@@ -29,7 +30,7 @@ def main() -> int:
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
     args = ap.parse_args()
     root = args.repo_root.resolve()
-    art = root / "artifacts" / "workflow-observability"
+    art = ARTIFACTS_DIR / "workflow-observability"
 
     agg = _load(art / "workflow-observability-report.json")
     fr = _load(art / "review-friction-report.json")

@@ -32,9 +32,9 @@
 
 ### 2. Upload artifact (WRITE / WORK creation)
 
-**What it is:** To log a writing sample or artwork, the user must: (1) photograph or scan, (2) save to `artifacts/`, (3) create or extend the self-evidence.md entry (YAML structure, analysis). No upload flow, no templates.
+**What it is:** To log a writing sample or artwork, the user must: (1) photograph or scan, (2) save to `runtime/artifacts/`, (3) create or extend the self-evidence.md entry (YAML structure, analysis). No upload flow, no templates.
 
-**Canonical save rule:** Store retained visuals in `artifacts/` with evidence-aware lowercase names (`write-0007-title-slug.png`, `create-0011-title-slug.jpg`, `act-0045-title-slug-page-1.png`). See `pipeline-map.md` for the current artifact taxonomy and class guidance.
+**Canonical save rule:** Store retained visuals in `runtime/artifacts/` with evidence-aware lowercase names (`write-0007-title-slug.png`, `create-0011-title-slug.jpg`, `act-0045-title-slug-page-1.png`). See `pipeline-map.md` for the current artifact taxonomy and class guidance.
 
 **Impact:** 5 â€” This is the main blocker for WRITE and WORK (creation) evidence. High cognitive load: user must know the schema and write YAML.
 
@@ -48,7 +48,7 @@
 
 ### 3. Integration (five-file sync on approval)
 
-**What it is:** When processing approved candidates, the assistant must update self.md, self-evidence.md (ACT-*), recursion-gate.md, session-log.md, and bot/prompt.py in one atomic pass. Any omission causes inconsistency.
+**What it is:** When processing approved candidates, the assistant must update self.md, self-evidence.md (ACT-*), recursion-gate.md, session-log.md, and archive/grace-mar-instance/bot/prompt.py in one atomic pass. Any omission causes inconsistency.
 
 **Impact:** 3 â€” Error-prone. One missed file = drift. Human must verify.
 

@@ -106,7 +106,7 @@ FRONTS = [
         "slug": "robotics-and-embodiment",
         "label": "Robotics and embodiment",
         "terms": [
-            "robot",
+            "roarchive/grace-mar-instance/bot",
             "robotics",
             "humanoid",
             "autonomous vehicle",

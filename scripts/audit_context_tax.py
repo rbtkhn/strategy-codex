@@ -34,7 +34,7 @@ except ImportError:
     from scripts.repo_io import DEFAULT_USER_ID, profile_dir
     from scripts.work_politics_ops import get_work_politics_snapshot
 
-USERS_DIR = REPO_ROOT / "users"
+USERS_DIR = REPO_ROOT / "platform/users"
 
 
 def _count_block(label: str, text: str) -> dict[str, object]:

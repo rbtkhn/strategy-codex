@@ -22,11 +22,12 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
+from repo_io import BOT_DIR
 
 # Load env before bot
 from dotenv import load_dotenv
 load_dotenv(REPO_ROOT / ".env")
-load_dotenv(REPO_ROOT / "bot" / ".env")
+load_dotenv(BOT_DIR / ".env")
 
 # Pilot prompts that should elicit in-character, simple, enthusiastic replies
 VOICE_PROMPTS = [

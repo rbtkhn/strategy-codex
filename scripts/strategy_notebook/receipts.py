@@ -47,10 +47,11 @@ class NotebookReceipt:
 
 
 def default_receipt_log_path(repo_root: Path) -> Path:
-    """Default gitignored JSONL path under artifacts/work-strategy/strategy-notebook/receipts/."""
+    """Default gitignored JSONL path under runtime/artifacts/work-strategy/strategy-notebook/receipts/."""
+    from repo_io import artifacts_dir
+
     return (
-        repo_root
-        / "artifacts"
+        artifacts_dir(repo_root)
         / "work-strategy"
         / "strategy-notebook"
         / "receipts"

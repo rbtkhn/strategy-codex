@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Migrate work-* domains: create <DOMAIN>.md from _template/DOMAIN.md (dry-run by default).
+Migrate work-* domains: create <DOMAIN>.md from platform/template/DOMAIN.md (dry-run by default).
 
 Usage:
   python3 scripts/migrate-to-domain-surface.py
@@ -27,7 +27,7 @@ from _domain_surface_links import (
 )
 
 REPO_ROOT = _SCRIPT_DIR.parent
-TEMPLATE_PATH = REPO_ROOT / '_template' / 'DOMAIN.md'
+TEMPLATE_PATH = REPO_ROOT / 'platform/template' / 'DOMAIN.md'
 SKILL_WORK = REPO_ROOT / 'docs' / 'skill-work'
 
 
@@ -143,7 +143,7 @@ def migrate_one(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description='Create <DOMAIN>.md from _template/DOMAIN.md for work-* dirs (dry-run default)'
+        description='Create <DOMAIN>.md from platform/template/DOMAIN.md for work-* dirs (dry-run default)'
     )
     parser.add_argument(
         '--execute',

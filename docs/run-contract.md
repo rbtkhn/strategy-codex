@@ -6,7 +6,7 @@
 
 - **Runs are derived.** Run state, receipts, and proposal sidecars are **operational metadata**. They are **rebuildable** or **deletable** without losing the lane’s **canonical** truth in Git.
 - **Runs do not replace** expert threads, `days.md`, inbox, or other notebook source files.
-- **Runs do not authorize mutation** of canonical surfaces on their own. Promotion into **Record** (SELF, EVIDENCE, `bot/prompt.py`) uses the **companion-gated** pipeline in [AGENTS.md](../AGENTS.md). Applying a proposed `days.md` or `strategy-page` change remains **human- or tool-explicit** (e.g. operator edit, or an approved script the operator invokes).
+- **Runs do not authorize mutation** of canonical surfaces on their own. Promotion into **Record** (SELF, EVIDENCE, `archive/grace-mar-instance/bot/prompt.py`) uses the **companion-gated** pipeline in [AGENTS.md](../AGENTS.md). Applying a proposed `days.md` or `strategy-page` change remains **human- or tool-explicit** (e.g. operator edit, or an approved script the operator invokes).
 
 See [runtime-vs-record.md](runtime-vs-record.md) for the runtime vs. Record split.
 
@@ -39,15 +39,15 @@ See [runtime-vs-record.md](runtime-vs-record.md) for the runtime vs. Record spli
 | `noop` | Intentional no-op (e.g. nothing to do). |
 | `failed` | Unrecoverable error; completion should be refused unless forced. |
 
-These are **guidance** for tools and UIs. Unknown future strings may exist; **schemas** in `schema-registry/` may enumerate a **stable subset** for validation.
+These are **guidance** for tools and UIs. Unknown future strings may exist; **schemas** in `schemas/registry/` may enumerate a **stable subset** for validation.
 
 ## Related artifacts (avoid mixing)
 
 | Artifact | Role |
 |----------|------|
-| **Strategy run state** (`artifacts/strategy-runs/…/state.json`) | One **session envelope**: resumable run, `proposed_outputs` pointers, lifecycle `status`. |
-| **Run receipt** (`schema-registry/run-receipt.v1.json`) | One **event** (e.g. `start`, `complete`): files read/touched, `result_status`, `run_id`. |
-| **Execution receipt** ([`execution-receipt.v1.json`](../schema-registry/execution-receipt.v1.json)) | **Runtime worker / task** domain — different shape; do not merge schemas blindly. |
+| **Strategy run state** (`runtime/artifacts/strategy-runs/…/state.json`) | One **session envelope**: resumable run, `proposed_outputs` pointers, lifecycle `status`. |
+| **Run receipt** (`schemas/registry/run-receipt.v1.json`) | One **event** (e.g. `start`, `complete`): files read/touched, `result_status`, `run_id`. |
+| **Execution receipt** ([`execution-receipt.v1.json`](../schemas/registry/execution-receipt.v1.json)) | **Runtime worker / task** domain — different shape; do not merge schemas blindly. |
 | **Notebook script JSONL** ([STRATEGY-NOTEBOOK-TRACE-CONTRACT](skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md)) | **Per-entrypoint** line audit (`strategy_page`, `compile_strategy_view`, …) — *which files a script read or wrote*. Complements session-scoped run state. |
 
 ## Links

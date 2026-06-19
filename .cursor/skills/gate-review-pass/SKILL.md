@@ -34,7 +34,7 @@ python3 scripts/operator_gate_review_pass.py -u grace-mar --territory work-polit
 For each candidate, show **only the review-essential fields**:
 
 - **id** and one-line **summary**
-- **source_exchange** or **source** (grounding evidence)
+- **source_exchange** or **source** (grounding archive/placeholders/evidence)
 - **suggested_entry** (what would be merged)
 - **age** (days since timestamp — flag if >14 days)
 - **staleness** (wall-clock + active-day age, superseded hints, warrant drift — run `score_gate_staleness.py` first for enriched data)

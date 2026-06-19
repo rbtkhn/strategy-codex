@@ -9,7 +9,7 @@ tags:
 - statecraft
 - chapter-seeds
 - extraction
-portable_source: skills-portable/arc-to-chapter-seeds/SKILL.md
+portable_source: skills/arc-to-chapter-seeds/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Arc To Chapter Seeds

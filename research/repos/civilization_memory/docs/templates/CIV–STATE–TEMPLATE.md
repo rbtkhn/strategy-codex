@@ -505,7 +505,7 @@ COGNITIVE EXOSKELETON: DESIGN OBJECTIVE AND CONSTRAINTS
 ────────────────────────────────────────────────────────────
 STATE and CIV–STATE files implement a **cognitive exoskeleton** for
 the head of state: they extend the decision-maker's cognitive reach
-(options, precedent, disconfirming evidence) without substituting
+(options, precedent, disconfirming archive/placeholders/evidence) without substituting
 for judgment or accountability. Augment, don't replace.
 
 BENEFICIARY: Serves the principal and/or the principal's designated
@@ -1405,7 +1405,7 @@ sessions, update prior entries:
   observable) or the situation changed to eliminate the choice
 • EXPIRED — the decision window closed without observable action
 When a decision point recurs across sessions (same structural
-choice, new evidence), note the recurrence. Recurring decision
+choice, new archive/placeholders/evidence), note the recurrence. Recurring decision
 points are analytically significant — they indicate the
 leadership is deferring the choice. Format in new entry:
 "(Recurs from SESSION [N], DP[X])"
@@ -2006,7 +2006,7 @@ PROCEDURE:
 
 2. RECOMMEND: Rank patterns by audit priority. Priority order:
    (a) STALE patterns with HIGH activation (most dangerous: high
-       confidence with old evidence)
+       confidence with old archive/placeholders/evidence)
    (b) Patterns with recent disconfirming evidence
    (c) Patterns that have never been tested against a real outcome
    The user may override and select any pattern.
@@ -2427,7 +2427,7 @@ equivalent):
 
 SESSION CLOSURE (optional):
 If the user requests closure, deliver: scope; best case (outcome +
-assumptions + one-line evidence); worst case (same); discriminating
+assumptions + one-line archive/placeholders/evidence); worst case (same); discriminating
 signals; proposed STATE update. Log in STATE Log (Section X) with
 tag "BEST/WORST CASE."
 
@@ -2575,7 +2575,7 @@ impact", or equivalent):
    evidence for Option B"; "Opponent's reserve draw-down
    supports relative degradation assessment in Section VI-B.")
 7. PROPOSE: Suggest updates to Section IV (Material Option
-   assumption or evidence), Section VI (Stability Indicator),
+   assumption or archive/placeholders/evidence), Section VI (Stability Indicator),
    Section VI-B (Opponent economic constraint), or Section VII
    (economic precedent). Apply only after user approval.
 
@@ -2654,7 +2654,7 @@ politics impact", "domestic constraint", "elite cohesion",
    tolerance (Section VI-B)"; "Succession uncertainty raises
    defection risk for Option C.")
 7. PROPOSE: Suggest updates to Section IV (Material Option
-   assumption or evidence), Section VI (Stability Indicator),
+   assumption or archive/placeholders/evidence), Section VI (Stability Indicator),
    Section VI-B (Opponent domestic constraint), or Section VII
    (domestic-political precedent). Apply only after user approval.
 
@@ -2699,7 +2699,7 @@ PERMITTED:
 • Explicit probability assessments: ordinal bands (LOW / MODERATE /
   HIGH) or cited numeric probabilities, with stated event, timeframe,
   conditioning assumptions, and evidence. The prohibition applies to
-  fabricated quantification of "evidence" (e.g. "85% of evidence
+  fabricated quantification of "archive/placeholders/evidence" (e.g. "85% of evidence
   suggests"); Probability Assessment (X-K) uses bands or
   user/source-provided numbers only.
 

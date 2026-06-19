@@ -6,7 +6,7 @@ from tests.conftest import REPO_ROOT, copy_fixture, repo_python, run_cmd
 
 
 def test_seed_phase_e2e_valid_fixture(tmp_path) -> None:
-    user_dir = tmp_path / "users" / "synthetic-user" / "seed-phase"
+    user_dir = tmp_path / "platform/users" / "synthetic-user" / "seed-phase"
     user_dir.mkdir(parents=True, exist_ok=True)
     copy_fixture("valid-minimal", user_dir)
 

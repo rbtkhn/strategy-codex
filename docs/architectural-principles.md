@@ -48,7 +48,7 @@ Lane overlays, mode overlays, configuration files, and presentation surfaces can
 
 **Already implemented as:**
 - `.cursor/skills/` — each skill is a reloadable mode overlay (coffee, dream, bridge, harvest, gate-review)
-- `config/*.json` — adjustable without core changes (seed-promotion-rules, authority-map, context-budgets, source-of-truth)
+- `platform/config/*.json` — adjustable without core changes (seed-promotion-rules, authority-map, context-budgets, source-of-truth)
 - `docs/skill-work/work-*/` — lane overlays load when the lane is active
 - **Context Efficiency Layer** — [docs/skill-work/context-efficiency-layer.md](skill-work/context-efficiency-layer.md): operator-runtime tiers, compaction protocol, and `session_brief` / context budgets; does not change Record authority
 
@@ -63,8 +63,8 @@ Lane overlays, mode overlays, configuration files, and presentation surfaces can
 The system favors visible, inspectable state over hidden abstraction. Governance works because stakeholders can see what happened, why, and who authorized it.
 
 **Already implemented as:**
-- `config/authority-map.json` — declares who can modify each surface
-- `config/source-of-truth.json` — declares canonical location for each concept
+- `platform/config/authority-map.json` — declares who can modify each surface
+- `platform/config/source-of-truth.json` — declares canonical location for each concept
 - Nursery "why still a seed" surface (`seed_nursery_report.py`) — explains why each claim hasn't promoted
 - Provenance on IX entries (`provenance: human_approved`, `source:`, `scope:`)
 - `pipeline-events.jsonl` — append-only audit trail for all pipeline transitions

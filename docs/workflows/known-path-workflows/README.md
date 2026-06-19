@@ -2,7 +2,7 @@
 
 **Purpose:** A first-class, **documentation-first** place to describe **known-path workflows**: repeatable Grace-Mar processes where inputs, output shape, reviewer, **authority class**, and pass/fail signals are explicit enough that **operators or tools may draft or coordinate** work **without** acquiring durable Record merge authority.
 
-**Not in scope for this registry:** autonomous agents, new merge paths, or changes to [`config/authority-map.json`](../../../config/authority-map.json). Registering a workflow here does **not** widen write policy.
+**Not in scope for this registry:** autonomous agents, new merge paths, or changes to [`platform/config/authority-map.json`](../../../platform/config/authority-map.json). Registering a workflow here does **not** widen write policy.
 
 ---
 
@@ -25,7 +25,7 @@ Grace-Mar separates **runtime / WORK** surfaces from the **durable Record** and 
 A process is a candidate for known-path treatment only when:
 
 1. It **recurs** on a recognizable cadence or trigger.
-2. **Input surfaces** are nameable (paths, inboxes, artifacts).
+2. **Input surfaces** are nameable (paths, inboxes, runtime/artifacts).
 3. **Output type** is predictable and a reviewer can tell good from bad.
 4. A **named reviewer** (human operator or explicit role) owns final judgment.
 5. **`authority_class`** is one of the normative classes in [authority map](../../authority-map.md) (`read_only`, `draftable`, `review_required`, `human_only`, `ephemeral_only`), and **`maximum_action`** is stated in plain language.
@@ -52,7 +52,7 @@ If review burden cannot be estimated, treat the process as **not yet known-path*
 Known-path workflows should be **evaluated** by whether they **lift operator load**: time saved vs review time, plus governance checks (missed signals, false confidence, authority drift). **Load-Lift Receipts** record those numbers and a **`continue` / `revise` / `narrow` / `retire` / `manual_only`** decision after a run. They **do not** approve durable Record changes or bypass the gate.
 
 - Spec: [load-lift-receipts.md](load-lift-receipts.md)
-- Schema: [`schema-registry/load-lift-receipt.v1.json`](../../../schema-registry/load-lift-receipt.v1.json)
+- Schema: [`schemas/registry/load-lift-receipt.v1.json`](../../../schemas/registry/load-lift-receipt.v1.json)
 - Example: [examples/load-lift-receipt-daily-strategy-thread-synthesis.json](examples/load-lift-receipt-daily-strategy-thread-synthesis.json)
 
 ---
@@ -65,7 +65,7 @@ Known-path workflows should be **evaluated** by whether they **lift operator loa
 | [Authority map](../../authority-map.md) | **`authority_class`** on a workflow aligns with these classes; it does **not** add new config keys. |
 | [Recursion-gate](../../../recursion-gate.md) | Staging and companion approval remain **unchanged**. |
 | [Action receipts](../../action-receipts.md) | General doctrine for meaningful-action audit stubs; **Load-Lift Receipts** are a **specialized** evaluation type for known-path runs ([load-lift-receipts.md](load-lift-receipts.md)). Neither substitutes for gate approval. |
-| [Operator surface registry](../../operator-surface-registry.md) + [operator dashboards](../../operator-dashboards.md) | This tree is the SSOT for **known-path workflow** eligibility and templates. **Operator surface** taxonomy, registry rows for major `artifacts/`, and **dashboard anti-sprawl** (workflows do **not** automatically get a standalone dashboard) live in the [operator surface registry](../../operator-surface-registry.md). Prefer [load-lift receipts](load-lift-receipts.md), [review packets](../../../artifacts/review-packets/README.md), or a **section** of an existing operator surface when adding visibility. [Operator dashboards](../../operator-dashboards.md) documents derived Markdown dashboards and regeneration. |
+| [Operator surface registry](../../operator-surface-registry.md) + [operator dashboards](../../operator-dashboards.md) | This tree is the SSOT for **known-path workflow** eligibility and templates. **Operator surface** taxonomy, registry rows for major `runtime/artifacts/`, and **dashboard anti-sprawl** (workflows do **not** automatically get a standalone dashboard) live in the [operator surface registry](../../operator-surface-registry.md). Prefer [load-lift receipts](load-lift-receipts.md), [review packets](../../../runtime/artifacts/review-packets/README.md), or a **section** of an existing operator surface when adding visibility. [Operator dashboards](../../operator-dashboards.md) documents derived Markdown dashboards and regeneration. |
 | [Strategy notebook](../../skill-work/work-strategy/strategy-notebook/README.md) | Example workflows may **read** notebook paths and **write** reviewable drafts only where authority allows. |
 
 **Workflow depth (different axis):** [Workflow depth contract](../../runtime/workflow-depth-contract.md) and related runtime docs describe **tier / observability** for execution depth. **Known-path** here means **eligibility and governance shape** for a *repeatable* process. The two ideas complement each other; do not merge the doc sets.
@@ -88,8 +88,8 @@ Known-path workflows should be **evaluated** by whether they **lift operator loa
 
 Machine shape for registry entries (optional for doc-only workflows; required if you emit JSON instances):
 
-- [`schema-registry/known-path-workflow.v1.json`](../../../schema-registry/known-path-workflow.v1.json)
-- **Load-lift (per run):** [`schema-registry/load-lift-receipt.v1.json`](../../../schema-registry/load-lift-receipt.v1.json) â€” see [load-lift-receipts.md](load-lift-receipts.md)
+- [`schemas/registry/known-path-workflow.v1.json`](../../../schemas/registry/known-path-workflow.v1.json)
+- **Load-lift (per run):** [`schemas/registry/load-lift-receipt.v1.json`](../../../schemas/registry/load-lift-receipt.v1.json) â€” see [load-lift-receipts.md](load-lift-receipts.md)
 
 Developers may validate a YAML/JSON instance with `jsonschema` Draft 2020-12 locally; this repo does not require a dedicated validator script for the registry in the initial drop.
 

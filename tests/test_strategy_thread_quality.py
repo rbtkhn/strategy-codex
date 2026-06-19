@@ -104,7 +104,7 @@ def test_missing_profile(notebook_dir: Path) -> None:
     assert not diag.profile_exists
     assert diag.transcript_exists
     assert diag.thread_exists
-    assert any("missing profile" in i for i in diag.issues)
+    assert any("missing platform/profile" in i for i in diag.issues)
 
 
 def test_all_files_present(notebook_dir: Path) -> None:

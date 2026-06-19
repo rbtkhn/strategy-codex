@@ -13,7 +13,7 @@ I. TARGETS
 | ID | Content | Type | Current status | Binding target (if passed) |
 |----|---------|------|----------------|----------------------------|
 | 0001 | Tri-frame tension: Carrhae (Keegan/Mearsheimer/Barnes/Mercouris) | Tension record | UNBINDING | Doctrine only if “encoding divergence” or “multi-frame non-synthesis” is operationalized |
-| 0003 | Tri-frame tension: Khosrow II (convergence on overextension) | Tension record | UNBINDING | Overlaps DOCTRINE 01; could become DOCTRINE 02 (Khosrow liability) or remain tension-only |
+| 0003 | Tri-frame tension: Khosrow II (convergence on overplatform/extension) | Tension record | UNBINDING | Overlaps DOCTRINE 01; could become DOCTRINE 02 (Khosrow liability) or remain tension-only |
 | 0004 | Persia–Islam structural transition (Mearsheimer) | Structural synthesis | UNBINDING | Strong candidate for DOCTRINE 02 (structural transition; doctrine failure when conflict type shifts) |
 | RLL | “In parity zones…” (already in DOCTRINE 01) | RLL candidate | In DOCTRINE 01 | Formal RLL–PERSIA–0001 only if Phase II activated |
 

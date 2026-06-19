@@ -4,7 +4,7 @@
 
 A governed retrieval substrate for reference-facing knowledge. Active entries shape runtime lookup order (SELF-LIBRARY → CIV-MEM → full web); `scope` and `lookup_priority` steer which questions match which sources. Also preserves return-to references, canon works, and influential media. Not SELF-KNOWLEDGE — see [boundary](../../docs/boundary-self-knowledge-self-library.md).
 
-**Cloned from companion-self** `users/_template/self-library.md` (2026-02-26). Grace-mar-specific entries (reference works, videos) appended. File renamed from library.md to self-library.md for consistency with self-* taxonomy.
+**Cloned from companion-self** `platform/users/platform/template/self-library.md` (2026-02-26). Grace-mar-specific entries (reference works, videos) appended. File renamed from library.md to self-library.md for consistency with self-* taxonomy.
 
 **Schema:** [docs/library-schema.md](../../docs/library-schema.md)
 
@@ -16,7 +16,7 @@ A governed retrieval substrate for reference-facing knowledge. Active entries sh
 
 ## Operator analytical books
 
-**Purpose:** A named shelf for **operator-authored “books”** in grace-mar — structured corpora built for **analysis, judgment, and synthesis** (not third-party canon). Each has a canonical README under `docs/skill-work/` or `research/external/work-jiang/`; **`users/grace-mar/SELF-LIBRARY/`** may symlink the same tree for discoverability.
+**Purpose:** A named shelf for **operator-authored “books”** in grace-mar — structured corpora built for **analysis, judgment, and synthesis** (not third-party canon). Each has a canonical README under `docs/skill-work/` or `research/external/work-jiang/`; **`platform/users/grace-mar/SELF-LIBRARY/`** may symlink the same tree for discoverability.
 
 **How it works:** Entries use normal **lanes** and **`type: book`** ([library-schema.md](../../docs/library-schema.md)). Tag **`scope`** with **`operator_analytical`** plus territory tags (`work_jiang`, `work_strategy`, `work_cici`, `work_dev`, …). Nothing here bypasses the **gated pipeline** for companion-facing Record claims.
 
@@ -91,7 +91,7 @@ entries:
     url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-strategy/strategy-notebook/README.md"
     reviewed_at: 2026-04-16
     added_at: 2026-04-09
-    notes: "Operator analytical book: one dated page per day in chapters/YYYY-MM/days.md (~1000 words consolidated analysis per STRATEGY-NOTEBOOK-ARCHITECTURE) + meta.md. Tricameral polyphony in meta.md § Polyphony — parallel research/external/work-jiang/operator-polyphony.md (LIB-0149); update both when month or PH arc moves. WORK; discoverability symlink users/grace-mar/SELF-LIBRARY/strategy-notebook. Not companion Record or Voice knowledge until gated."
+    notes: "Operator analytical book: one dated page per day in chapters/YYYY-MM/days.md (~1000 words consolidated analysis per STRATEGY-NOTEBOOK-ARCHITECTURE) + meta.md. Tricameral polyphony in meta.md § Polyphony — parallel research/external/work-jiang/operator-polyphony.md (LIB-0149); update both when month or PH arc moves. WORK; discoverability symlink platform/users/grace-mar/SELF-LIBRARY/strategy-notebook. Not companion Record or Voice knowledge until gated."
 
   - id: LIB-0154
     title: "Cici notebook"
@@ -108,7 +108,7 @@ entries:
     url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-cici/cici-notebook/README.md"
     reviewed_at: 2026-04-16
     added_at: 2026-04-09
-    notes: "Operator analytical book: Open Brain / work-cici learning day log in grace-mar. WORK coaching; symlink users/grace-mar/SELF-LIBRARY/cici-notebook. Not Xavier Record or Voice knowledge until gated."
+    notes: "Operator analytical book: Open Brain / work-cici learning day log in grace-mar. WORK coaching; symlink platform/users/grace-mar/SELF-LIBRARY/cici-notebook. Not Xavier Record or Voice knowledge until gated."
 
   - id: LIB-0155
     title: "Dev journal"
@@ -192,7 +192,7 @@ entries:
     url: "https://github.com/rbtkhn/grace-mar/blob/main/research/repos/civilization_memory/README.md"
     reviewed_at: 2026-04-16
     added_at: 2026-04-11
-    notes: "Full CMC checkout: MEM, CIV–CORE, CIV–STATE, CIV–SCHOLAR, ARC, templates, governance. WORK/reference retrieval only — not SELF; aligns with docs/cmc-routing.md. Symlink under users/grace-mar/SELF-LIBRARY/civilization_memory. Distinct from LIB-0132 (Grace-Mar satellite essays under docs/civilization-memory/). Tri-frame routing: docs/skill-work/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md."
+    notes: "Full CMC checkout: MEM, CIV–CORE, CIV–STATE, CIV–SCHOLAR, ARC, templates, governance. WORK/reference retrieval only — not SELF; aligns with docs/cmc-routing.md. Symlink under platform/users/grace-mar/SELF-LIBRARY/civilization_memory. Distinct from LIB-0132 (Grace-Mar satellite essays under docs/civilization-memory/). Tri-frame routing: docs/skill-work/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md."
 
   # --- Civilization-memory / theology (grace-mar) ---
 
@@ -2370,7 +2370,7 @@ entries:
 
 ```yaml
 total_entries: 151
-clone_source: "companion-self users/_template/self-library.md (2026-02-26)"
+clone_source: "companion-self platform/users/platform/template/self-library.md (2026-02-26)"
 grace_mar_additions: "… LIB-0135..0148 (Theology shelf: Simple Condition, Coordination Hypothesis, One Subject Many Tongues, face-category blade, See the Face exercise, AI Ethics, lens God's Debris, The Delusion of Separation, God is non-zero sum, Expand the light of consciousness, Polyphonic cognition, Universal Love and Mastery, Writing the Book and Death); LIB-0136 (essays index); Operator analytical books shelf: LIB-0149 (scope operator_analytical), LIB-0153 strategy-notebook, LIB-0154 cici-notebook, LIB-0155 dev-journal, LIB-0157 civilization_memory upstream"
 maturity_levels: "1=young/all ages, 2=middle grade, 3=older/teen+"
 last_updated: 2026-04-10

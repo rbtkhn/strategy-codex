@@ -8,15 +8,15 @@
 python3 scripts/run_mcp_governance_checks.py
 ```
 
-Writes an aggregated report to **`artifacts/mcp-governance-demo-report.md`**, audit outputs under **`artifacts/mcp-governance-demo/`**, and adapter packets under each scriptâ€™s required bucket using **`governance-demo-*`** filenames (see table below).
+Writes an aggregated report to **`runtime/artifacts/mcp-governance-demo-report.md`**, audit outputs under **`runtime/artifacts/mcp-governance-demo/`**, and adapter packets under each scriptâ€™s required bucket using **`governance-demo-*`** filenames (see table below).
 
 **Related:** **[`mcp-stack-overview.md`](mcp-stack-overview.md)**, **[`governed-mcp-layer.md`](governed-mcp-layer.md)**.
 
 ---
 
-## Why isolate outputs under `artifacts/mcp-governance-demo/`
+## Why isolate outputs under `runtime/artifacts/mcp-governance-demo/`
 
-Scripts such as [`scripts/mcp_capability_audit.py`](../../scripts/mcp_capability_audit.py) default to workspace paths like **`artifacts/mcp-capability-report.md`**. For exploratory or CI demo runs, direct **`--output` / `--markdown` / `--json`** overrides avoid overwriting long-lived derived reports. The orchestrator **`run_mcp_governance_checks.py`** uses the demo prefix consistently.
+Scripts such as [`scripts/mcp_capability_audit.py`](../../scripts/mcp_capability_audit.py) default to workspace paths like **`runtime/artifacts/mcp-capability-report.md`**. For exploratory or CI demo runs, direct **`--output` / `--markdown` / `--json`** overrides avoid overwriting long-lived derived reports. The orchestrator **`run_mcp_governance_checks.py`** uses the demo prefix consistently.
 
 ---
 
@@ -28,7 +28,7 @@ Use **`python3`** or **`python`** as appropriate on your OS. Commands assume rep
 
 ```bash
 python3 scripts/mcp_capability_audit.py \
-  -o artifacts/mcp-governance-demo/capability-report.md
+  -o runtime/artifacts/mcp-governance-demo/capability-report.md
 ```
 
 Optional **`--strict`** fails if heuristic danger flags fire after validation.
@@ -37,7 +37,7 @@ Optional **`--strict`** fails if heuristic danger flags fire after validation.
 
 ```bash
 python3 scripts/mcp_authority_check.py \
-  -o artifacts/mcp-governance-demo/authority-report.md
+  -o runtime/artifacts/mcp-governance-demo/authority-report.md
 ```
 
 Optional **`--strict`** treats warnings as failure (non-default).
@@ -46,27 +46,27 @@ Optional **`--strict`** treats warnings as failure (non-default).
 
 ```bash
 python3 scripts/mcp_risk_scan.py \
-  --markdown artifacts/mcp-governance-demo/risk-report.md \
-  --json artifacts/mcp-governance-demo/risk-report.json
+  --markdown runtime/artifacts/mcp-governance-demo/risk-report.md \
+  --json runtime/artifacts/mcp-governance-demo/risk-report.json
 ```
 
 Exit code **`1`** when the scan reports **`pass=false`** â€” treat as failure for governance gates.
 
 | Adapter / tool | Demo output path |
 |----------------|------------------|
-| Manifest admission | **`artifacts/mcp-admission/governance-demo-manifest.md`** |
-| Mock harness | **`artifacts/mcp-mock-runs/governance-demo-mock.md`** |
-| Local read | **`artifacts/mcp-local-read/governance-demo-read.md`** |
-| Local index | **`artifacts/mcp-local-index/governance-demo-index.md`** |
-| Research stub | **`artifacts/evidence-stubs/governance-demo-stub.md`** |
-| Patch intake | **`artifacts/patch-intake/governance-demo-intake.md`** |
+| Manifest admission | **`runtime/artifacts/mcp-admission/governance-demo-manifest.md`** |
+| Mock harness | **`runtime/artifacts/mcp-mock-runs/governance-demo-mock.md`** |
+| Local read | **`runtime/artifacts/mcp-local-read/governance-demo-read.md`** |
+| Local index | **`runtime/artifacts/mcp-local-index/governance-demo-index.md`** |
+| Research stub | **`runtime/artifacts/evidence-stubs/governance-demo-stub.md`** |
+| Patch intake | **`runtime/artifacts/patch-intake/governance-demo-intake.md`** |
 
 ### 4. Manifest admission (example)
 
 ```bash
 python3 scripts/mcp_manifest_admission.py \
   --input examples/mcp-server-manifest.example.yaml \
-  --output artifacts/mcp-admission/governance-demo-manifest.md
+  --output runtime/artifacts/mcp-admission/governance-demo-manifest.md
 ```
 
 ### 5. Mock execution harness (example)
@@ -76,7 +76,7 @@ Uses **shell-blocked** fixture (aligns with â€œno shell executionâ€ mes
 ```bash
 python3 scripts/mcp_mock_harness.py \
   --input examples/mcp-mock-run.shell-blocked.example.json \
-  --output artifacts/mcp-mock-runs/governance-demo-mock.md
+  --output runtime/artifacts/mcp-mock-runs/governance-demo-mock.md
 ```
 
 ### 6. Local read-only adapter (example)
@@ -84,7 +84,7 @@ python3 scripts/mcp_mock_harness.py \
 ```bash
 python3 scripts/mcp_local_readonly.py \
   --input examples/mcp-local-read-request.example.json \
-  --output artifacts/mcp-local-read/governance-demo-read.md
+  --output runtime/artifacts/mcp-local-read/governance-demo-read.md
 ```
 
 ### 7. Local directory index adapter (example)
@@ -92,7 +92,7 @@ python3 scripts/mcp_local_readonly.py \
 ```bash
 python3 scripts/mcp_local_index.py \
   --input examples/mcp-local-index-request.example.json \
-  --output artifacts/mcp-local-index/governance-demo-index.md
+  --output runtime/artifacts/mcp-local-index/governance-demo-index.md
 ```
 
 ### 8. Optional â€” research â†’ evidence stub (example)
@@ -102,7 +102,7 @@ If [`examples/research-evidence-input.example.json`](../../examples/research-evi
 ```bash
 python3 scripts/research_to_evidence_stub.py \
   --input examples/research-evidence-input.example.json \
-  --output artifacts/evidence-stubs/governance-demo-stub.md
+  --output runtime/artifacts/evidence-stubs/governance-demo-stub.md
 ```
 
 ### 9. Optional â€” coding-agent patch intake (example)
@@ -112,14 +112,14 @@ If [`examples/coding-agent-patch-intake.example.json`](../../examples/coding-age
 ```bash
 python3 scripts/coding_agent_patch_intake.py \
   --input examples/coding-agent-patch-intake.example.json \
-  --output artifacts/patch-intake/governance-demo-intake.md
+  --output runtime/artifacts/patch-intake/governance-demo-intake.md
 ```
 
 ---
 
 ## Receipts
 
-Adapters and harness steps emit JSON under **`artifacts/mcp-receipts/`**. The orchestrator aggregates paths into **`artifacts/mcp-governance-demo-report.md`**. Receipts **do not** approve Record merges or live MCP integration.
+Adapters and harness steps emit JSON under **`runtime/artifacts/mcp-receipts/`**. The orchestrator aggregates paths into **`runtime/artifacts/mcp-governance-demo-report.md`**. Receipts **do not** approve Record merges or live MCP integration.
 
 ---
 

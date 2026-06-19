@@ -20,8 +20,8 @@ def _sha(s: str) -> str:
 
 def test_verify_worktree_match(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
-    (repo / "users" / "u").mkdir(parents=True)
-    f = repo / "users" / "u" / "self.md"
+    (repo / "platform/users" / "u").mkdir(parents=True)
+    f = repo / "platform/users" / "u" / "self.md"
     content = "# hello\n"
     f.write_text(content, encoding="utf-8")
     rel = "u/self.md"
@@ -47,8 +47,8 @@ def test_verify_worktree_match(tmp_path: Path) -> None:
 
 def test_verify_mismatch(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
-    (repo / "users" / "u").mkdir(parents=True)
-    f = repo / "users" / "u" / "self.md"
+    (repo / "platform/users" / "u").mkdir(parents=True)
+    f = repo / "platform/users" / "u" / "self.md"
     f.write_text("# a\n", encoding="utf-8")
     receipt = {"after_hashes": {"u/self.md": _sha("# b\n")}}
     rpath = repo / "receipt.json"

@@ -1,13 +1,13 @@
 # Capability contract — OpenClaw export (identity + runtime bundle)
 #
-# Retrofitted from integrations/openclaw_hook.py.
+# Retrofitted from platform/integrations/openclaw_hook.py.
 
 version: 1
 contract_id: "openclaw-export-v1"
 integration_name: "OpenClaw identity export"
 evaluated_at: "2026-04-06"
 source_of_truth:
-  - integrations/openclaw_hook.py
+  - platform/integrations/openclaw_hook.py
   - scripts/export_runtime_bundle.py
   - docs/openclaw-integration.md
 
@@ -29,7 +29,7 @@ schema:
   outputs:
     - { name: USER.md, type: file, description: "Exported identity in markdown" }
     - { name: manifest.json, type: file, description: "Structured export manifest" }
-    - { name: runtime-bundle/bundle.json, type: file, description: "Runtime bundle with bundle_id" }
+    - { name: runtime/bundle/bundle.json, type: file, description: "Runtime bundle with bundle_id" }
     - { name: intent_snapshot.json, type: file, description: "INTENT constitution snapshot" }
   idempotent: true
 

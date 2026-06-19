@@ -1,0 +1,1788 @@
+{
+  "schemaVersion": "1.0.0-statecraft-day-dashboard",
+  "generatedAt": "2026-06-05T05:25:39.955907+00:00",
+  "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
+  "query": {
+    "channels": [],
+    "threads": [],
+    "hosts": [],
+    "guests": [
+      "Andrei Martyanov"
+    ],
+    "slug": "martyanov",
+    "speakerSlug": "martyanov",
+    "speakerAliases": [
+      "Andrei Martyanov"
+    ]
+  },
+  "coverage": {
+    "dayCount": 32,
+    "sourceFileCount": 33,
+    "firstDay": "2025-01-26",
+    "lastDay": "2026-06-04"
+  },
+  "aggregates": {
+    "topDays": [
+      {
+        "date": "2026-01-01",
+        "sourceCount": 2
+      },
+      {
+        "date": "2025-01-26",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-08",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-29",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-05-21",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-09-06",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-10-20",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-10-26",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-11-02",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-11-09",
+        "sourceCount": 1
+      }
+    ],
+    "quietDays": [
+      {
+        "date": "2025-01-26",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-08",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-29",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-05-21",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-09-06",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-10-20",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-10-26",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-11-02",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-11-09",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-11-13",
+        "sourceCount": 1
+      }
+    ],
+    "channels": [
+      {
+        "name": "Dialogue Works",
+        "count": 26
+      },
+      {
+        "name": "Daniel Davis Deep Dive",
+        "count": 3
+      },
+      {
+        "name": "Deep Dive",
+        "count": 1
+      }
+    ],
+    "hosts": [
+      {
+        "name": "Nima Alkhorshid",
+        "count": 26
+      },
+      {
+        "name": "Daniel Davis",
+        "count": 4
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 3
+      }
+    ],
+    "guests": [
+      {
+        "name": "Andrei Martyanov",
+        "count": 33
+      },
+      {
+        "name": "Alex Krainer",
+        "count": 2
+      },
+      {
+        "name": "Pepe Escobar",
+        "count": 2
+      },
+      {
+        "name": "Scott Ritter",
+        "count": 2
+      }
+    ],
+    "threads": [
+      {
+        "name": "martyanov",
+        "count": 33
+      },
+      {
+        "name": "nima",
+        "count": 26
+      },
+      {
+        "name": "davis",
+        "count": 4
+      },
+      {
+        "name": "diesen",
+        "count": 3
+      },
+      {
+        "name": "krainer",
+        "count": 2
+      },
+      {
+        "name": "ritter",
+        "count": 2
+      }
+    ],
+    "sourceForms": [
+      {
+        "name": "interview",
+        "count": 33
+      }
+    ]
+  },
+  "anomalies": {
+    "missingHostOrGuestDays": [],
+    "missingReadmes": [
+      "2025-01-26",
+      "2025-04-08",
+      "2025-04-29",
+      "2025-05-21",
+      "2025-09-06",
+      "2025-10-20",
+      "2025-10-26",
+      "2025-11-02",
+      "2025-11-09",
+      "2025-11-13"
+    ]
+  },
+  "days": [
+    {
+      "date": "2025-01-26",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-nato-is-collapsing-right-before-our-eyes-2025-01-26.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-08",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-andrei-martyanov-the-war-is-over-and-russia-may-seize-odessa-2025-04-08.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-29",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-andrei-martyanov-the-end-of-nato-2025-04-29.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-21",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-andrei-martyanov-russia-s-military-strategy-in-ukraine-2025-05-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-06",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-scott-ritter-the-us-is-committing-geopolitical-suicide-2025-09-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-20",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-russia-all-about-demilitarizing-nato-andrei-martynaov-lt-col-daniel-davis-2025-10-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-26",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Pepe Escobar",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-pepe-escobar-andrei-martyanov-putin-s-bold-plan-to-cripple-nato-the-west-stunned-2025-10-26.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "krainer",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-alex-krainer-its-over-global-arms-control-collapses-2025-11-09.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-13",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-frontline-falling-apart-russia-moves-to-crush-ukraine-s-2025-11-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-20",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-and-china-move-in-together-2025-11-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-30",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-russia-s-final-moves-as-everything-collapsing-2025-11-30.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-russia-has-made-its-choice-wiping-out-every-threat-2025-12-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-08",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-a-just-and-lasting-defeat-europe-meets-zelensky-lt-col-daniel-davis-and-2025-12-08.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-11",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        },
+        {
+          "name": "Pepe Escobar",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "krainer",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-pepe-escobar-andrei-martyanov-alex-krainer-russia-strikes-us-recalculates-eu-draws-the-line-2025-12-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-its-over-russia-just-unleashed-oreshnik-final-phase-has-begun-2025-12-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-29",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-russia-will-finish-off-ukraine-andrei-martyanov-and-lt-col-daniel-davis-2025-12-29.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-01",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 2
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 2
+        },
+        {
+          "name": "nima",
+          "count": 2
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.cleaned-2026-01-01.md",
+        "source-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-28",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-us-iran-war-about-to-break-out-2026-01-28.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-19",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-iran-bombshell-hypersonic-missile-could-sink-us-navy-carrier-trump-warned-2026-02-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-24",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Daniel Davis Deep Dive",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Daniel Davis",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "davis",
+          "count": 1
+        },
+        {
+          "name": "martyanov",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-daniel-davis-deep-dive-ukraine-russia-war-enters-the-fifth-year-andrei-martyanov-and-lt-col-dan-2026-02-24.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-05",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-its-over-for-the-bases-radar-destroyed-f-15-fighters-sh-2026-03-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-19",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-iran-hits-us-f-35-massive-retaliation-after-isra-2026-03-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-it-s-over-the-u-s-just-lost-to-iran-here-s-why-2026-04-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-16",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-how-iran-exposed-trump-s-military-and-strategic-failure-full-breakdown-2026-04-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-23",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-iran-just-shot-down-trump-s-blockade-and-israel-s-strategy-is-in-tatters-2026-04-23.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-07",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alkorshid-martyanov-iran-silent-weapon-that-frightens-the-pentagon-more-than-nukes-2026-05-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-iran-and-russia-just-changed-war-forever-here-s-how-2026-05-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-hezbollah-annihilates-air-defense-its-all-blowing-up-2026-05-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-28",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-andrei-martyanov-hezbollah-hits-idf-us-iran-fight-and-russia-picked-that-moment-to-strike-2026-05-28.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-06-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Andrei Martyanov",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "martyanov",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alkorshid-andrei-martyanov-israel-s-military-just-got-humiliated-on-every-front-2026-06-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    }
+  ],
+  "runtime/artifacts": {
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\martyanov.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\martyanov.json"
+  }
+}

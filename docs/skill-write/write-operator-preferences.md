@@ -94,7 +94,7 @@ Edit and extend this section as your taste evolves.
 
 ### Companion Lexile / Voice vs operator copy
 
-- **Operator public copy** is **not** bound by the companion **Lexile ceiling** or **Voice** emulation rules in `AGENTS.md` / `bot/prompt.py` — different job and audience. Those constraints apply to **Record / companion** outputs, not to your Locals / X / PH drafts unless **you** ask to align them.
+- **Operator public copy** is **not** bound by the companion **Lexile ceiling** or **Voice** emulation rules in `AGENTS.md` / `archive/grace-mar-instance/bot/prompt.py` — different job and audience. Those constraints apply to **Record / companion** outputs, not to your Locals / X / PH drafts unless **you** ask to align them.
 
 ### Short public copy (posts, threads, ledes)
 

@@ -21,14 +21,14 @@ THINK is **not**:
 | **Direct operator edit** | After shared reading / study per [we-read-think-self-pipeline.md](../we-read-think-self-pipeline.md) | No â€” operator edits `skill-think.md` (or instance file) directly per policy |
 | **Staged THINK candidate** | Analyst/human-teacher flows that stage YAML for approval | Yes â€” approved blocks merge into THINK surface per gate workflow |
 
-Both are valid; track **which path** applied when maintaining structured [think-claims.json](../../artifacts/skill-think/think-claims.json).
+Both are valid; track **which path** applied when maintaining structured [think-claims.json](../../runtime/artifacts/skill-think/think-claims.json).
 
 ## Instance naming map
 
 | Concept | grace-mar (example) | Template / split names |
 |---------|----------------------|-------------------------|
 | Capability index | `self-skills.md` | Same |
-| THINK prose | `skill-think.md` | `_template/self-skill-think.md` |
+| THINK prose | `skill-think.md` | `platform/template/self-skill-think.md` |
 
 See [canonical-paths.md](../canonical-paths.md) and [id-taxonomy.md](../id-taxonomy.md#standard-capability-labels-self-skill-). **Do not** rename instance files casually; update the index link in `self-skills.md` if you adopt a new on-disk name.
 

@@ -78,7 +78,7 @@ def main() -> int:
         print("OPENAI_API_KEY required", file=sys.stderr)
         return 1
     prompts = DEFAULT_PROMPTS[: args.num]
-    metrics_dir = REPO_ROOT / "users" / args.user / "metrics"
+    metrics_dir = REPO_ROOT / "platform/users" / args.user / "metrics"
     metrics_dir.mkdir(parents=True, exist_ok=True)
     out_path = Path(args.output) if args.output else metrics_dir / f"ab_voice_{datetime.now().strftime('%Y-%m-%d_%H%M')}.json"
     results = []

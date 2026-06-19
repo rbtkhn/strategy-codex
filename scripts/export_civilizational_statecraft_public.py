@@ -31,7 +31,7 @@ except ImportError:  # pragma: no cover
     yaml = None
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-MANIFEST_PATH = REPO_ROOT / "config" / "civilizational_statecraft_public_export.yaml"
+MANIFEST_PATH = REPO_ROOT / "platform/config" / "civilizational_statecraft_public_export.yaml"
 WORKSPACE_RECEIPTS = ("MIRROR-RECEIPT.md",)
 SOURCE_ROOT = REPO_ROOT / "statecraft" / "states"
 TEMPLATE_ROOT = SOURCE_ROOT / "export-templates"
@@ -226,7 +226,7 @@ def transform_index_public(text: str, manifest: dict, volume_slugs: dict[str, st
     drop_lines = [
         "ph-civ-promotion-ledger",
         "ph-civ-to-civ-state-bridge",
-        "review-queue",
+        "archive/queues/review-queue",
         "source-retrieval-matrix",
         "game-substrate",
         "civ-state-game-systems-mapping",
@@ -998,7 +998,7 @@ def export_generated(manifest: dict, output: Path, dry_run: bool, written: list[
                 f"- **Generated:** {datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}\n"
                 f"- **Release tag:** {manifest.get('release_tag')}\n"
                 f"- **Files written:** {len(written)}\n"
-                f"- **Manifest:** `config/civilizational_statecraft_public_export.yaml`\n"
+                f"- **Manifest:** `platform/config/civilizational_statecraft_public_export.yaml`\n"
                 f"- **Script:** `scripts/export_civilizational_statecraft_public.py`\n"
             )
         elif gen == "version_stamp":

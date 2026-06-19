@@ -26,6 +26,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
+from repo_io import ARTIFACTS_DIR
 
 from youtube_transcripts.ytdlp_adapter import (  # noqa: E402
     fetch_video_metadata_import,
@@ -43,7 +44,7 @@ WATCHLIST_PATH = (
     / "work-strategy"
     / "cognition-streams-watchlist.json"
 )
-DEFAULT_OUT_DIR = REPO_ROOT / "artifacts" / "cognition-streams"
+DEFAULT_OUT_DIR = ARTIFACTS_DIR / "cognition-streams"
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "cognition-streams"
 MAIN_CLASSES = {"captured-main", "uncaptured-main", "deferred"}

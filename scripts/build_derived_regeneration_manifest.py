@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Build the derived regeneration manifest for repo-owned rebuild targets."""
 
@@ -8,7 +9,7 @@ from pathlib import Path
 
 from derived_regeneration import REPO_ROOT, build_manifest_payload, write_receipt
 
-DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "work-dev" / "derived-regeneration-manifest.json"
+DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-dev" / "derived-regeneration-manifest.json"
 
 
 def main() -> int:
@@ -18,7 +19,7 @@ def main() -> int:
         "--output",
         type=Path,
         default=DEFAULT_OUTPUT,
-        help="output JSON path (default: artifacts/work-dev/derived-regeneration-manifest.json)",
+        help="output JSON path (default: runtime/artifacts/work-dev/derived-regeneration-manifest.json)",
     )
     args = parser.parse_args()
 

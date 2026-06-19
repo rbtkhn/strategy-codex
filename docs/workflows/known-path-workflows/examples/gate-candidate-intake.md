@@ -11,7 +11,7 @@ authority_class: review_required
 maximum_action: "Prepare candidate summaries and suggested YAML blocks for human paste into recursion-gate; never append to recursion-gate.md without operator action."
 input_surfaces:
   - docs/skill-work/work-*/**/*-history.md
-  - artifacts/
+  - runtime/artifacts/
   - docs/skill-work/work-strategy/strategy-notebook/
 output_surfaces:
   - operator clipboard or scratch markdown only
@@ -49,7 +49,7 @@ Scan **eligible WORK artifacts** (lane histories, derived summaries, notebook ca
 | Surface | Use |
 |---------|-----|
 | `docs/skill-work/work-*/*-history.md` | Recent WORK events |
-| `artifacts/` | Derived rebuildables that may motivate staging |
+| `runtime/artifacts/` | Derived rebuildables that may motivate staging |
 | Strategy notebook paths | Judgment / ingest signals (read-only) |
 
 ## Output

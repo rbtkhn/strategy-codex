@@ -10,7 +10,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SMOKE_OUTPUT_REL = (
-    Path("artifacts")
+    Path("runtime/artifacts")
     / "counterfactual-simulations"
     / "deterministic-diagnostics-smoke.json"
 )

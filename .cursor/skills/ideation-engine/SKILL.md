@@ -9,7 +9,7 @@ tags:
 - entrepreneurship
 - strategy
 - opportunity
-portable_source: skills-portable/ideation-engine/SKILL.md
+portable_source: skills/ideation-engine/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Ideation Engine

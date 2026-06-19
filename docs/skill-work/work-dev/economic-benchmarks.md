@@ -104,7 +104,7 @@ Analyst headlines and third-party TAM figures (e.g. McKinsey-style agent-commerc
 
 - **pipeline-events.jsonl** â€” Export and advisory events are emitted; candidate attribution uses recursion-gate.md `candidate_source` and provenance fields.
 - **recursion-gate.md** â€” OpenClaw-sourced candidates carry `candidate_source: openclaw` and optional artifact/constitution metadata for gate metrics.
-- **continuity-log.jsonl** â€” Written by `scripts/continuity_read_log.py` when invoked; one line per proof-of-read (session-log, recursion-gate, self-evidence). Gitignored. **CI:** `tests/test_continuity_read_log.py` does not append; it validates `--dry-run` output and that those paths exist under ``.
+- **continuity-log.jsonl** â€” Written by `scripts/continuity_read_log.py` when invoked; one line per proof-of-read (session-log, recursion-gate, self-archive/placeholders/evidence). Gitignored. **CI:** `tests/test_continuity_read_log.py` does not append; it validates `--dry-run` output and that those paths exist under ``.
 - **compute-ledger.jsonl** â€” Integration paths append rows (`bucket: integration`, `operation`, `wall_ms`, `bytes_processed`). Optional per-task fields: `task_id`, `task_type`, `outcome_confidence` (0.0â€“1.0). Populate `prompt_tokens` / `completion_tokens` / `model` via `GRACE_MAR_INTEGRATION_*` when the OpenClaw host reports usage; otherwise those fields stay zero.
 - **Aggregation script** â€” `scripts/compute_ledger_summary.py`: group by `bucket`, `operation`, `task_type`, `task_id`, `date`, or `model`; `--since` date filter; `--json` for machine-readable output. Planned: `scripts/openclaw_benchmarks.py` (not in repo yet) would summarize cross-source metrics.
 

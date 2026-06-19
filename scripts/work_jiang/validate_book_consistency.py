@@ -33,7 +33,7 @@ ARCH_PATH = WORK_JIANG / "metadata" / "book-architecture.yaml"
 PREDICTIONS_PATH = WORK_JIANG / "prediction-tracking" / "registry" / "predictions.jsonl"
 DIVERGENCES_PATH = WORK_JIANG / "divergence-tracking" / "registry" / "divergences.jsonl"
 TASKS_PATH = WORK_JIANG / "tasks.jsonl"
-REVIEW_QUEUE = WORK_JIANG / "review-queue"
+REVIEW_QUEUE = WORK_JIANG / "archive/queues/review-queue"
 
 
 class ValidationReport:
@@ -242,7 +242,7 @@ def check_task_health(report: ValidationReport) -> None:
             scope = st.get("scope", "")
             rq_dir = REVIEW_QUEUE / scope
             if not rq_dir.exists() or not any(rq_dir.iterdir()):
-                report.warn(f"Task '{tid}' is submitted but review-queue/{scope}/ is empty")
+                report.warn(f"Task '{tid}' is submitted but archive/queues/review-queue/{scope}/ is empty")
 
     status_counts: dict[str, int] = {}
     for st in states.values():

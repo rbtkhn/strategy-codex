@@ -42,7 +42,7 @@ def _surface(
         "status": status,
         "category": category,
         "reads": ["repo working tree"],
-        "writes": writes if writes is not None else ["artifacts/example/"],
+        "writes": writes if writes is not None else ["runtime/artifacts/example/"],
         "canonical_record_access": canonical_record_access,
         "merge_authority": merge_authority,
         "gate_effect": gate_effect,
@@ -62,7 +62,7 @@ def _build_registry(root: Path, surfaces: list[dict]) -> Path:
         "contract_id: test-v1\n",
         encoding="utf-8",
     )
-    config_path = root / "config" / "agent-surfaces.v1.json"
+    config_path = root / "platform/config" / "agent-surfaces.v1.json"
     _write_json(config_path, {"schemaVersion": "1.0.0", "surfaces": surfaces})
     return config_path
 
@@ -74,7 +74,7 @@ def _run_cli(repo_root: Path, config_path: Path, *args: str) -> subprocess.Compl
             str(SCRIPT),
             "--repo-root",
             str(repo_root),
-            "--config",
+            "--platform/config",
             str(config_path),
             *args,
         ],
@@ -115,7 +115,7 @@ def test_clean_registry_passes(tmp_path: Path) -> None:
 def test_duplicate_id_fails(tmp_path: Path) -> None:
     config_path = _build_registry(
         tmp_path,
-        [_surface("dup-surface"), _surface("dup-surface", writes=["artifacts/other/"])],
+        [_surface("dup-surface"), _surface("dup-surface", writes=["runtime/artifacts/other/"])],
     )
     mod = _load_module()
     report = mod.audit_registry(config_path, tmp_path)
@@ -189,13 +189,13 @@ def test_overlapping_write_categories_warn_but_exit_zero(tmp_path: Path) -> None
                 "workbench-a",
                 category="workbench_runner",
                 capability_contract="",
-                writes=["artifacts/work-dev/workbench-receipts/"],
+                writes=["runtime/artifacts/work-dev/workbench-receipts/"],
             ),
             _surface(
                 "workbench-b",
                 category="workbench_runner",
                 capability_contract="",
-                writes=["artifacts/work-dev/workbench-receipts/"],
+                writes=["runtime/artifacts/work-dev/workbench-receipts/"],
             ),
         ],
     )

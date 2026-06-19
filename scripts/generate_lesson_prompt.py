@@ -319,7 +319,7 @@ def generate_lesson_prompt(
     tier: str = "elementary",
 ) -> str:
     """Build one-prompt-per-day lesson from Record. Returns text for copy-paste."""
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     self_content = _read(profile_dir / "self.md")
     think_content = _read(profile_dir / "skill-think.md")
     work_content = _read(profile_dir / "work-human-teacher.md")

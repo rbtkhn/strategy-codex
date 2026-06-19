@@ -80,7 +80,7 @@ Secondary audience is future integration/spec work that needs a stable reference
 - Prior briefs or outputs:
   - [frontier-agent-control-plane-direction.md](../frontier-agent-control-plane-direction.md)
 - Data / links:
-  - live receipt paths under `artifacts/`, `pipeline-events.jsonl`, `merge-receipts.jsonl`, and related runtime folders
+  - live receipt paths under `runtime/artifacts/`, `pipeline-events.jsonl`, `merge-receipts.jsonl`, and related runtime folders
 
 ## Routing
 

@@ -57,7 +57,7 @@ def test_toscanini_contract_requires_fierce_receipt_orientation() -> None:
         "blunt urgency",
         "score-centered discipline",
         "professional uncompromising standards",
-        "Force the claim back to evidence",
+        "Force the claim back to archive/placeholders/evidence",
         "exact receipt",
         "one operator-facing next action",
         "without a decision",
@@ -104,9 +104,9 @@ def test_toscanini_is_distinct_from_other_prototypes() -> None:
     assert "3-5 sentence orientation" in bernstein
     assert "2-4 sentence orientation" in karajan
     assert "1-3 sentence orientation" in kleiber
-    assert "score as evidence" not in bernstein
-    assert "score as evidence" not in karajan
-    assert "score as evidence" not in kleiber
+    assert "score as archive/placeholders/evidence" not in bernstein
+    assert "score as archive/placeholders/evidence" not in karajan
+    assert "score as archive/placeholders/evidence" not in kleiber
 
 
 def test_toscanini_guardrails_reject_abusive_caricature() -> None:
@@ -149,4 +149,4 @@ def test_all_five_voice_prototypes_are_present_and_rows_remain() -> None:
     assert "## Karajan conductor voice prototype" in text
     assert "## Kleiber conductor voice prototype" in text
     assert "| **furtwangler** | Hold the tension open, resist false closure" in text
-    assert "| **toscanini** | Verify the seam, pin the receipt, and force the claim back to the evidence" in text
+    assert "| **toscanini** | Verify the seam, pin the receipt, and force the claim back to the archive/placeholders/evidence" in text

@@ -10,11 +10,11 @@ Use Cursor (and the repo) for all steps. Each session is ~30 minutes. Goal: bot 
 
 **Goal:** App starts; health check works; no missing deps.
 
-1. `cd apps/chat` (from repo root).
+1. `cd platform/apps/chat` (from repo root).
 2. Copy `.env.example` to `.env`. Set:
    - `OPENAI_API_KEY` (required for engine).
    - `TELEGRAM_BOT_TOKEN` (from [@BotFather](https://t.me/BotFather); can add in Session 2 if you prefer).
-   - `CIVMEM_CONTENT_ROOT` — set to **absolute path to this repo root** (so `content/civilizations/RUSSIA/` etc. exist). If you always run from repo root, you can leave blank (default is `apps/chat/../..` = repo root).
+   - `CIVMEM_CONTENT_ROOT` — set to **absolute path to this repo root** (so `content/civilizations/RUSSIA/` etc. exist). If you always run from repo root, you can leave blank (default is `platform/apps/chat/../..` = repo root).
 3. `npm install`.
 4. `npm start`. Confirm: "CIV–MEM Chat listening on port 3000" and either "Telegram bot started" or "TELEGRAM_BOT_TOKEN not set".
 5. In another terminal or browser: `curl http://localhost:3000/health` → `{"ok":true,"service":"civmem-chat"}`.
@@ -43,7 +43,7 @@ Use Cursor (and the repo) for all steps. Each session is ~30 minutes. Goal: bot 
 1. In Telegram, send: `Russia update`.
 2. If the reply is wrong or missing options: (a) Check that `content/civilizations/RUSSIA/CIV–STATE–RUSSIA.md` and `MEM–RELEVANCE–RUSSIA.md` exist. (b) Check `CIVMEM_CONTENT_ROOT` in `.env` (must point to repo root). (c) In Cursor, run the engine once via HTTP to see the raw response:  
    `curl -X POST http://localhost:3000/chat -H "Content-Type: application/json" -d '{"platform":"telegram","user_id":"test","message":"Russia update"}'`
-3. If options don’t appear: the LLM may not be emitting the `OPTIONS:` block. Check `src/prompts/system.js` and the regex in `src/engine.js` (OPTIONS_REGEX). Optionally add a fallback in the adapter (e.g. show A–H with generic labels if parsing fails).
+3. If options don’t appear: the LLM may not be emitting the `OPTIONS:` block. Check `platform/src/prompts/system.js` and the regex in `platform/src/engine.js` (OPTIONS_REGEX). Optionally add a fallback in the adapter (e.g. show A–H with generic labels if parsing fails).
 4. Repeat until you get one clean reply with text + 8 tappable options.
 
 **Done when:** "Russia update" → one coherent answer + A–H buttons that you can tap.
@@ -81,7 +81,7 @@ Use Cursor (and the repo) for all steps. Each session is ~30 minutes. Goal: bot 
 
 **Goal:** "Launched" is defined and repeatable.
 
-1. Run through the README setup once from a clean clone (or from another machine): clone, `cd apps/chat`, copy `.env.example` → `.env`, fill keys and `CIVMEM_CONTENT_ROOT`, `npm install`, `npm start`. Fix any missing steps in README.
+1. Run through the README setup once from a clean clone (or from another machine): clone, `cd platform/apps/chat`, copy `.env.example` → `.env`, fill keys and `CIVMEM_CONTENT_ROOT`, `npm install`, `npm start`. Fix any missing steps in README.
 2. Write down a **launch checklist** (e.g. in this file or README):  
    - [ ] OPENAI_API_KEY and TELEGRAM_BOT_TOKEN set  
    - [ ] CIVMEM_CONTENT_ROOT points to repo root (if needed)  

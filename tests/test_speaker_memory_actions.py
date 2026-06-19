@@ -152,7 +152,7 @@ def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
     written = sma.write_outputs(
         rows=rows,
         actions=actions,
-        output_dir=tmp_path / "artifacts",
+        output_dir=tmp_path / "runtime/artifacts",
         start=date(2026, 5, 12),
         end=date(2026, 5, 12),
     )

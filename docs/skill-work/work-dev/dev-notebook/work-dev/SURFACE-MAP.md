@@ -8,7 +8,7 @@
 | [work-dev-history.md](../../work-dev-history.md) | **Milestone** append-only log (shipped artifacts, GAPs). | Distinct from [dev journal](journal/README.md) narrative. |
 | [work-dev README](../../README.md) | **Territory** identity, OpenClaw integration, **Contents** table. | Template mirror: [companion-self work-dev](https://github.com/rbtkhn/companion-self/blob/main/docs/skill-work/work-dev/README.md) |
 | [known-gaps.md](../../known-gaps.md) | GAP / control-plane index. | â€” |
-| [implementation-ledger.md](../../implementation-ledger.md) | Narrative spine for `artifacts/work-dev`. | â€” |
+| [implementation-ledger.md](../../implementation-ledger.md) | Narrative spine for `runtime/artifacts/work-dev`. | â€” |
 | [workbench/](../../workbench/README.md) | Workbench harness (receipts, no merge authority). | â€” |
 | [control-plane/](../../control-plane/) (as indexed in README) | Contracts, checklists, tier policy. | See README Contents. |
 | [scripts/](../../../../../scripts/) (selected) | Cross-cutting scripts (`detect_capability_shift.py`, `emit_compute_ledger.py`, `journal_habit_snapshot.py`, â€¦) | Many paths are cited in work-dev-history. |

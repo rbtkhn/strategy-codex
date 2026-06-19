@@ -2,7 +2,7 @@
 
 # Companion-Self Developer Plan — Minimal Docs and Implementation Checklist
 
-**Audience:** Developer (or agent) working in the **companion-self** repo. Use this plan to implement the minimum viable template. Source: [COMPANION-SELF-BOOTSTRAP](../bootstrap/companion-self-bootstrap.md) §3; reference implementation: [grace-mar](https://github.com/rbtkhn/grace-mar).
+**Audience:** Developer (or agent) working in the **companion-self** repo. Use this plan to implement the minimum viable template. Source: [COMPANION-SELF-BOOTSTRAP](../archive/grace-mar-instance/bootstrap/companion-self-bootstrap.md) §3; reference implementation: [grace-mar](https://github.com/rbtkhn/grace-mar).
 
 ---
 
@@ -21,7 +21,7 @@
 
 | # | Deliverable | Purpose |
 |---|-------------|---------|
-| 5 | **_template/** | Minimal scaffold: self.md, skills.md, self-evidence.md, recursion-gate.md, self-memory.md (structure only, no real data). Used when creating a new user dir in an instance. |
+| 5 | **platform/template/** | Minimal scaffold: self.md, skills.md, self-evidence.md, recursion-gate.md, self-memory.md (structure only, no real data). Used when creating a new user dir in an instance. |
 | 6 | **HOW-INSTANCES-CONSUME-UPGRADES.md** | How an instance (e.g. grace-mar) pulls upgrades from this template; link to grace-mar's [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md). Optionally: list of template paths. |
 
 ### Optional later (not minimal)
@@ -42,7 +42,7 @@ All minimal docs can be **extracted and generalized** from grace-mar. Do not cop
 | Concept | `docs/conceptual-framework.md`, `docs/architecture.md` | Remove "Abby", age ("6-year-old"), grace-mar-specific examples. Keep: Record, Voice, fork, knowledge boundary, dyad. |
 | Protocol | `docs/identity-fork-protocol.md` | Summarize; keep stage → approve → merge, evidence linkage, agent may not merge. |
 | Seed phase | `docs/architecture.md` (Fork Lifecycle, Seeding), `docs/operator-brief.md` | Describe phases, surveys, artifacts, what creates initial SELF/SKILLS/EVIDENCE. No operator-specific workflow. |
-| _template/* | `docs/self-template.md`, `docs/skills-template.md`, `docs/evidence-template.md`, `docs/memory-template.md` | Render as minimal empty or scaffold files (structure only). |
+| platform/template/* | `docs/self-template.md`, `docs/skills-template.md`, `docs/evidence-template.md`, `docs/memory-template.md` | Render as minimal empty or scaffold files (structure only). |
 | HOW-INSTANCES-CONSUME-UPGRADES | This repo's `docs/merging-from-companion-self.md` | Invert perspective: "Instances pull from here. Safe paths: … Never overwrite: ." Link to grace-mar merge checklist. |
 
 ---
@@ -83,8 +83,8 @@ All minimal docs can be **extracted and generalized** from grace-mar. Do not cop
 
 ### Phase E: Optional scaffold and upgrade guide
 
-- [ ] **E1. _template/** (optional)
-  - Create `_template/` with minimal self.md, skills.md, self-evidence.md, recursion-gate.md, self-memory.md.
+- [ ] **E1. platform/template/** (optional)
+  - Create `platform/template/` with minimal self.md, skills.md, self-evidence.md, recursion-gate.md, self-memory.md.
   - Content: structure/headings only (or placeholders). No real data. Use companion-self's docs/*-template.md as the schema source.
   - **Done when:** Copying this directory gives a valid empty user scaffold.
 
@@ -100,7 +100,7 @@ All minimal docs can be **extracted and generalized** from grace-mar. Do not cop
   - **Done when:** Repo contains only template content.
 
 - [ ] **F2. Bootstrap and grace-mar**
-  - Ensure `bootstrap/companion-self-bootstrap.md` stays in sync and §8 (source material) still points to correct grace-mar paths.
+  - Ensure `archive/grace-mar-instance/bootstrap/companion-self-bootstrap.md` stays in sync and §8 (source material) still points to correct grace-mar paths.
   - **Done when:** Next agent or developer can open companion-self, read bootstrap + this plan, and continue.
 
 ---
@@ -109,7 +109,7 @@ All minimal docs can be **extracted and generalized** from grace-mar. Do not cop
 
 ```
 companion-self/
-├── bootstrap/companion-self-bootstrap.md   # Copy lives in grace-mar for reference
+├── archive/grace-mar-instance/bootstrap/companion-self-bootstrap.md   # Copy lives in grace-mar for reference
 ├── readme.md                     # A1
 ├── docs/
 │   ├── concept.md                # B1 (or conceptual-framework.md)
@@ -117,7 +117,7 @@ companion-self/
 │   ├── SEED-PHASE.md             # D1 (or section elsewhere)
 │   └── HOW-INSTANCES-CONSUME-UPGRADES.md  # E2 optional
 └── 
-    └── _template/               # E1 optional
+    └── platform/template/               # E1 optional
         ├── self.md
         ├── skills.md
         ├── self-evidence.md
@@ -137,8 +137,8 @@ Companion-self is **minimally viable** when:
 4. Seed phase is defined (how a new instance is created).
 5. Repo contains no bot code, no Record data, no instance config.
 
-Optional: `_template/` scaffold and HOW-INSTANCES-CONSUME-UPGRADES complete the picture for instance operators and new-user creation.
+Optional: `platform/template/` scaffold and HOW-INSTANCES-CONSUME-UPGRADES complete the picture for instance operators and new-user creation.
 
 ---
 
-**Reference:** [COMPANION-SELF-BOOTSTRAP](../bootstrap/companion-self-bootstrap.md) §3 (What to Create), §7 (First-Run Agent Instructions), §8 (Grace-Mar source material).
+**Reference:** [COMPANION-SELF-BOOTSTRAP](../archive/grace-mar-instance/bootstrap/companion-self-bootstrap.md) §3 (What to Create), §7 (First-Run Agent Instructions), §8 (Grace-Mar source material).

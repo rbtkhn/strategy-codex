@@ -37,7 +37,7 @@ def test_harness_event_appends_at_root(work_root: Path, monkeypatch: pytest.Monk
 
     path = work_root / "harness-events.jsonl"
     assert path.is_file()
-    assert not (work_root / "users" / "strategy-codex").exists()
+    assert not (work_root / "platform/users" / "strategy-codex").exists()
     row = json.loads(path.read_text(encoding="utf-8").strip())
     assert row["fork_id"] == "strategy-codex"
     assert row["harness_id"] == "unit"
@@ -47,5 +47,5 @@ def test_runtime_bundle_defaults_to_root_bundle_dir(work_root: Path, monkeypatch
     monkeypatch.setattr(erb, "REPO_ROOT", work_root)
 
     assert erb._profile_dir("strategy-codex") == work_root
-    assert erb._default_output_dir("strategy-codex") == work_root / "runtime-bundle"
-    assert not (work_root / "users" / "strategy-codex").exists()
+    assert erb._default_output_dir("strategy-codex") == work_root / "runtime/bundle"
+    assert not (work_root / "platform/users" / "strategy-codex").exists()

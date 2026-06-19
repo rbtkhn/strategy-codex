@@ -94,6 +94,6 @@ Do not treat **planned** or **blocked** metrics as observable until instrumentat
 
 - **pipeline-events.jsonl** — Export and advisory events are emitted; candidate attribution uses recursion-gate.md `candidate_source` and provenance fields.
 - **recursion-gate.md** — OpenClaw-sourced candidates carry `candidate_source: openclaw` and optional artifact/constitution metadata for gate metrics.
-- **continuity-log.jsonl** — Written by `scripts/continuity_read_log.py` at startup; one line per proof-of-read (session-log, recursion-gate, self-evidence).
+- **continuity-log.jsonl** — Written by `scripts/continuity_read_log.py` at startup; one line per proof-of-read (session-log, recursion-gate, self-archive/placeholders/evidence).
 - **compute-ledger.jsonl** — `openclaw_hook` and `openclaw_stage` do not currently emit cost rows (planned).
 - **Aggregation script** — Optional: `scripts/openclaw_benchmarks.py` to summarize metrics from the above sources.

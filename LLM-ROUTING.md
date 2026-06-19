@@ -39,11 +39,11 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | America sovereign command allied capture | [essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md](essays/america-and-the-problem-of-sovereign-command-under-allied-capture.md) |
 | AI as medium / expansion of human consciousness essay | [essays/ai-and-the-expansion-of-human-consciousness.md](essays/ai-and-the-expansion-of-human-consciousness.md) |
 | **`strategy` / `strategy pass` / codex ledger pass** | [docs/skill-work/work-strategy/DEFAULT-PATH.md](docs/skill-work/work-strategy/DEFAULT-PATH.md), [.cursor/rules/strategy-codex-pass.mdc](.cursor/rules/strategy-codex-pass.mdc) — **no** skill-strategy skill ([SKILL-STRATEGY-DEPRECATED.md](docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md)) |
-| library / reading / canon / books | [self-library.md](self-library.md), [artifacts/library-index.md](artifacts/library-index.md) |
+| library / reading / canon / books | [self-library.md](self-library.md), [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) |
 | SELF / SKILLS / EVIDENCE / Record | `self.md`, `self-skills.md`, `self-archive.md`, `recursion-gate.md` — **frozen archaeology** at repo root; default work is `statecraft/` / `singularity/` |
 | Grace-Mar fork doctrine / pipeline habits (archived) | [archive/grace-mar-corpus/README.md](archive/grace-mar-corpus/README.md) — stubs at former `docs/*.md` paths with `archived: true` |
 | legacy operator concepts (tri-mind, fork growth, Voice) | [docs/legacy-operator-concepts.md](docs/legacy-operator-concepts.md) |
-| generated dashboard / derived operator surface | [artifacts/](artifacts/) |
+| generated dashboard / derived operator surface | [runtime/artifacts/](runtime/artifacts/) |
 | local semantic / vector index | [scripts/index_record.py](scripts/index_record.py), local `.chroma` paths |
 | **source-lattice** / corpus tiers / reading order | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) |
 | PH chapter lattice / civ-* reading order | [public/ph-civ/docs/source-lattice.md](public/ph-civ/docs/source-lattice.md) |
@@ -67,7 +67,7 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [statecraft/voices/INDEX.md](statecraft/voices/INDEX.md) | Front door listing all analyst source indexes | WORK routing aid |
 | [source-archive/statecraft/thread-index.md](source-archive/statecraft/thread-index.md) | Generated capture **inventory** by thread | Derived / archive |
 | [self-library.md](self-library.md) | Canonical SELF-LIBRARY reference layer | Canonical reference |
-| [artifacts/library-index.md](artifacts/library-index.md) | Derived SELF-LIBRARY **dashboard** | Derived |
+| [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | Derived SELF-LIBRARY **dashboard** | Derived |
 | [scripts/index_record.py](scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
 | [codex/speakers/](codex/speakers/) | Legacy speaker storage during migration | Compatibility |
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |

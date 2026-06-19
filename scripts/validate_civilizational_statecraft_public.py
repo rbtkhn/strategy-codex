@@ -24,7 +24,7 @@ except ImportError:  # pragma: no cover
     yaml = None
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-MANIFEST_PATH = REPO_ROOT / "config" / "civilizational_statecraft_public_export.yaml"
+MANIFEST_PATH = REPO_ROOT / "platform/config" / "civilizational_statecraft_public_export.yaml"
 
 
 def load_manifest() -> dict:

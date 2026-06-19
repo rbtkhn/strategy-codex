@@ -11,7 +11,7 @@ tags:
 - service
 - pipeline
 - proof-boundary
-portable_source: skills-portable/first-wave-service-sales/SKILL.md
+portable_source: skills/first-wave-service-sales/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # first-wave service sales

@@ -14,7 +14,7 @@ Usage:
 
 Outputs:
   - CANDIDATE blocks staged in recursion-gate.md
-  - Human-review digest in artifacts/portable-record/import-digest-YYYY-MM-DD.md
+  - Human-review digest in runtime/artifacts/portable-record/import-digest-YYYY-MM-DD.md
 """
 
 from __future__ import annotations
@@ -36,7 +36,7 @@ from stage_gate_candidate import (  # noqa: E402
     insert_before_processed,
     next_candidate_id,
 )
-from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
+from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402, ARTIFACTS_DIR
 
 DEFAULT_USER = DEFAULT_PROFILE_ID
 
@@ -293,7 +293,7 @@ def main() -> int:
     gate_path.write_text(gate_content, encoding="utf-8")
     print(f"Staged {len(candidates)} candidate(s) in {gate_path.relative_to(REPO_ROOT)}")
 
-    digest_dir = REPO_ROOT / "artifacts" / "portable-record"
+    digest_dir = ARTIFACTS_DIR / "portable-record"
     digest_dir.mkdir(parents=True, exist_ok=True)
     digest_path = digest_dir / f"import-digest-{date_str}.md"
     digest = build_digest(candidates, candidate_ids, source_tool=args.source_tool, timestamp=timestamp)

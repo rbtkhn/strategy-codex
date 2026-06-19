@@ -179,7 +179,7 @@ def expert_paths(expert_id: str, notebook_dir: Path) -> dict[str, Path]:
         base = expert_dir_for_layout(expert_id, notebook_dir)
         codex_root = notebook_dir.parent.parent
         return {
-            "profile": codex_root / "profiles" / f"{expert_id}-profile.md",
+            "platform/profile": codex_root / "profiles" / f"{expert_id}-profile.md",
             "transcript": base / f"{expert_id}-transcript.md",
             "thread": base / f"{expert_id}-thread.md",
             "mind": codex_root / f"strategy-expert-{expert_id}-mind.md",
@@ -187,7 +187,7 @@ def expert_paths(expert_id: str, notebook_dir: Path) -> dict[str, Path]:
 
     base = expert_dir_for_layout(expert_id, notebook_dir)
     return {
-        "profile": base / "profile.md",
+        "platform/profile": base / "profile.md",
         "transcript": base / "transcript.md",
         "thread": base / "thread.md",
         "mind": base / "mind.md",

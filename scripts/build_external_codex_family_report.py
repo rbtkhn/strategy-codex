@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Build a cluster-level structural summary for files matching a selector inside an external codex checkout.
 
@@ -370,7 +371,7 @@ def main(argv: list[str] | None = None) -> int:
         "--output-json",
         type=Path,
         default=None,
-        help="JSON output path (default: artifacts/external-codex/families/<stem>.json)",
+        help="JSON output path (default: runtime/artifacts/external-codex/families/<stem>.json)",
     )
     parser.add_argument(
         "--output-md",
@@ -406,7 +407,7 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     stem = output_stem(args.selector_type, args.selector_value)
-    out_dir = repo_root / "artifacts" / "external-codex" / "families"
+    out_dir = ARTIFACTS_DIR / "external-codex" / "families"
     json_path = args.output_json
     if json_path is None:
         json_path = out_dir / f"{stem}.json"

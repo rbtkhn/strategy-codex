@@ -148,7 +148,7 @@ Below are concrete examples drawn from SELF + SKILLS + EVIDENCE for grace-mar. E
 
 | Option | Description |
 |--------|-------------|
-| **A. New prompt + command** | Add `BUILD_PROBE_PROMPT` in `bot/prompt.py` and `_load_build_probe_context()` in `bot/core.py` (SELF excerpts + SKILLS BUILD + recent CREATE/ACT). New command or button: `/buildprobe` or "Build quiz." Reuse homework-style flow: one question at a time, A/B/C/D, session state, optional BUILD_PROBE_LEDGER.jsonl. |
+| **A. New prompt + command** | Add `BUILD_PROBE_PROMPT` in `archive/grace-mar-instance/bot/prompt.py` and `_load_build_probe_context()` in `archive/grace-mar-instance/bot/core.py` (SELF excerpts + SKILLS BUILD + recent CREATE/ACT). New command or button: `/buildprobe` or "Build quiz." Reuse homework-style flow: one question at a time, A/B/C/D, session state, optional BUILD_PROBE_LEDGER.jsonl. |
 | **B. Mode in homework** | Extend homework: operator or companion chooses "Knowledge quiz" vs "Build quiz." Same UX, different prompt and context; questions tagged with `build_dimension` and logged separately for BUILD evidence. |
 | **C. Script-only** | Script (e.g. `scripts/generate_build_probe.py`) that reads SELF + SKILLS + EVIDENCE, outputs a JSON array of BUILD probe questions for operator to use in conversation or paste into a future bot flow. No bot changes. |
 

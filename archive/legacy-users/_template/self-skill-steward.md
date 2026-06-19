@@ -1,6 +1,6 @@
 # self-skill-steward (Template)
 
-**Template only. No real data.** Copy to `users/<new_id>/self-skill-steward.md` in an instance. Schema tag: **STEWARD**. Governance literacy and gate participation; populated from activity.
+**Template only. No real data.** Copy to `platform/users/<new_id>/self-skill-steward.md` in an instance. Schema tag: **STEWARD**. Governance literacy and gate participation; populated from activity.
 
 **Module intent:** STEWARD captures **evidenced capability** for participating in the companion-self **membrane**: reading what a candidate proposes, using boundary vocabulary (chat vs Record, retrieval vs approval), and practicing consent-aware review with a trusted adult. It does **not** grant merge authority or replace **Mind** (human) as the approval seat. Human-gated; evidence-linked.
 

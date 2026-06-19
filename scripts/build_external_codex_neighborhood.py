@@ -56,7 +56,7 @@ def mechanical_reason(edge: str, section: str, neighbor_civ: str | None, subject
         return f"same inferred filename class as subject; edge={edge}"
     if section == "index_core_scholar":
         return f"path/filename matches index-memory-state-minds heuristic; edge={edge}"
-    if section == "governance_template":
+    if section == "governanceplatform/template":
         return f"path/filename matches template-or-templates heuristic; edge={edge}"
     return f"filesystem structural neighbor; edge={edge}"
 
@@ -79,7 +79,7 @@ def assign_section(
     if is_index_core_scholar_path(neigh_path, nb):
         return "index_core_scholar"
     if is_governance_template_path(neigh_path, nb):
-        return "governance_template"
+        return "governanceplatform/template"
     return "other_structural"
 
 
@@ -142,7 +142,7 @@ def inspection_score(
     elif subject_class == "other" and row.get("file_class") == "other":
         sc += 1
     sec = str(row.get("section", ""))
-    if sec in ("index_core_scholar", "governance_template"):
+    if sec in ("index_core_scholar", "governanceplatform/template"):
         sc += 1
     return sc
 
@@ -232,7 +232,7 @@ def render_companion_markdown(report: dict[str, object]) -> str:
         ("same_civilization", "Same civilization"),
         ("same_file_class", "Same file class"),
         ("index_core_scholar", "Nearby index / core / scholar files"),
-        ("governance_template", "Governance / template neighbors"),
+        ("governanceplatform/template", "Governance / template neighbors"),
         ("other_structural", "Other structural neighbors"),
     ]
     nrows = report.get("neighbors")
@@ -365,7 +365,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--out-dir",
         type=Path,
-        default=Path("artifacts/external-codex"),
+        default=Path("runtime/artifacts/external-codex"),
         help="Output directory (relative to repo root unless absolute)",
     )
     parser.add_argument(

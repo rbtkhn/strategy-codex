@@ -504,7 +504,7 @@ def run(
 
 def _parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--config", type=Path, default=None, help="JSON config path")
+    p.add_argument("--platform/config", type=Path, default=None, help="JSON config path")
     p.add_argument(
         "--root",
         type=Path,

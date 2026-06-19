@@ -22,7 +22,7 @@ TRANSITION FOR NEW AGENT SESSION (STATE–PERSIA)
 When starting a **new conversation** for STATE–PERSIA (especially **today’s news**):
 
 1. **Open** `content/civilizations/PERSIA/STATE–SESSION–BOOTSTRAP.md` — session anchor date, copy-paste entry prompt, checklist.
-2. **Load** CIV–CORE–PERSIA, CIV–STATE–PERSIA, CIV–SCHOLAR–PERSIA, **CIV–ARC–PERSIA** (today’s evidence).
+2. **Load** CIV–CORE–PERSIA, CIV–STATE–PERSIA, CIV–SCHOLAR–PERSIA, **CIV–ARC–PERSIA** (today’s archive/placeholders/evidence).
 3. **MEM SCAN:** MEM–RELEVANCE–PERSIA if it exists; else CIV–INDEX–PERSIA + Section VII; **2+ primary MEMs** + CONNECTIONS.
 4. **Read** STATE Section VII (Pattern 12, Decision Tracker), Section IV, Section VI.
 5. **Present** 8 options (A–H) + activity menu; anchor to **what changed today** vs 9–10 Mar baseline.
@@ -66,7 +66,7 @@ engine. The upgrade to governance version 4.0 is gated on this integration
 being implemented (completed, documented, and usable).
 
 Scope:
-• apps/chat (engine, session, load-content, prompts)
+• platform/apps/chat (engine, session, load-content, prompts)
 • Telegram adapter: polling, A–H inline keyboard, group @mention/reply
 • Canonical response format (docs/RESPONSE–FORMAT.md)
 • Option labels readable alone (accessibility/voice)
@@ -81,7 +81,7 @@ integration implemented. Gate satisfied for CMC 4.0." Then version
 upgrade may proceed.
 
 NEXT CONVERSATION (user intent): Commence **Session 1** of the Telegram
-bot launch plan (apps/chat/docs/LAUNCH–6–SESSIONS.md): env, install,
+bot launch plan (platform/apps/chat/docs/LAUNCH–6–SESSIONS.md): env, install,
 first run. Goal: .env set, npm install, npm start, /health OK.
 
 ────────────────────────────────────────────────────────────

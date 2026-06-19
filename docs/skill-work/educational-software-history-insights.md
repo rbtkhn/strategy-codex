@@ -168,7 +168,7 @@ flowchart LR
 
 - **Cornell MOOC study:** No single intervention works for all learners. Target by circumstance.
 - **Tomlinson (differentiation):** Readiness, interest, learning profile.
-- **Grace-Mar:** IX-A (readiness), IX-B (interest), IX-C (profile). Edge = readiness.
+- **Grace-Mar:** IX-A (readiness), IX-B (interest), IX-C (platform/profile). Edge = readiness.
 
 **Insight for Grace-Mar:** Record-driven personalization (IX-A/B/C, edge) implements differentiation. Human-teacher modulates; agentic proposals (Phase 5) support, do not compel.
 

@@ -1,4 +1,4 @@
-"""Tests for bot/avatar_controller.py."""
+"""Tests for archive/grace-mar-instance/bot/avatar_controller.py."""
 
 from __future__ import annotations
 

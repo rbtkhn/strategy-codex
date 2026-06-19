@@ -10,7 +10,7 @@ tags:
 - monthly
 - transcript
 - inventory
-portable_source: skills-portable/monthly-deepening/SKILL.md
+portable_source: skills/monthly-deepening/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Monthly Deepening
@@ -378,13 +378,13 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/monthly-d
 | Topic | Path |
 |--------|------|
 | Canonical archive root | [source-archive/statecraft/](../../../source-archive/statecraft/) |
-| Local observability receipts | [artifacts/cognition-streams/](../../../artifacts/cognition-streams/) |
+| Local observability receipts | [runtime/artifacts/cognition-streams/](../../../runtime/artifacts/cognition-streams/) |
 | Legacy raw-input fallback | [codex/years/2026/raw-input/](../../../codex/years/2026/raw-input/) |
 | Mercouris local index cache | [\.codex-tmp/youtube-alex-mercouris-index/](../../.codex-tmp/youtube-alex-mercouris-index/) |
 | Day README generator | [scripts/build_statecraft_day_indices.py](../../../scripts/build_statecraft_day_indices.py) |
 | Day dashboard generator | [scripts/build_statecraft_day_dashboard.py](../../../scripts/build_statecraft_day_dashboard.py) |
 | Speaker dashboard generator | [scripts/build_statecraft_speaker_dashboard.py](../../../scripts/build_statecraft_speaker_dashboard.py) |
-| Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 | Skill validator | [scripts/validate_skills.py](../../../scripts/validate_skills.py) |
 
@@ -396,7 +396,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/monthly-d
 - The Mercouris month index commonly depends on:
   - canonical `source-archive/statecraft/YYYY-MM-DD/` files
   - local channel index caches in `.codex-tmp/`
-  - repair receipts in `artifacts/cognition-streams/`
+  - repair receipts in `runtime/artifacts/cognition-streams/`
 - Materialization is archive work, not shelf-building. Do not wait for an extra `please materialize` step after the operator has already pasted the transcript.
 
 **Common local command pattern**

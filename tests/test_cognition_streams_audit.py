@@ -48,7 +48,7 @@ def _write_raw(path: Path, *, source_url: str) -> None:
 
 def test_may_regression_classifications_and_queue(tmp_path: Path) -> None:
     receipts = tmp_path / "receipts" / "2026-05-11_to_2026-05-13"
-    out_dir = tmp_path / "artifacts"
+    out_dir = tmp_path / "runtime/artifacts"
     notebook = tmp_path / "codex" / "2026"
     raw_root = notebook / "raw-input"
 

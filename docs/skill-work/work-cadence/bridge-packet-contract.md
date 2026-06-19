@@ -48,7 +48,7 @@ Keep it short. One to three bullets is enough. Good content:
 
 Avoid generic filler. This section is for practical receiving guidance, not model marketing.
 
-**Working folders:** Bridge carries **session continuity** (what to resume next). [`prepared-context/working/<slug>/`](../../../prepared-context/README.md) carries **task-bound** context for a fresh EXECUTE thread — orthogonal rituals; an active slug may appear under Open loops.
+**Working folders:** Bridge carries **session continuity** (what to resume next). [`runtime/prepared-context/working/<slug>/`](../../../runtime/prepared-context/README.md) carries **task-bound** context for a fresh EXECUTE thread — orthogonal rituals; an active slug may appear under Open loops.
 
 ## Closing rule
 

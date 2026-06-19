@@ -12,7 +12,7 @@
 
 | Central | Meaning |
 |--------|---------|
-| **One codebase** | Same repo, same `bot/`, same prompts and pipeline. No fork of the app per person. |
+| **One codebase** | Same repo, same `archive/grace-mar-instance/bot/`, same prompts and pipeline. No fork of the app per person. |
 | **One LLM API** | Shared OpenAI (or other) key and model. Each bot uses the same API; prompts differ by user (SELF, SKILLS, EVIDENCE). |
 | **One pipeline** | Same analyst, lookup, rephrase, RECURSION-GATE, merge flow. Per-user data lives under ``. |
 | **Optional: one operator view** | Profile and operator tools can later support multiple users (e.g. grace-mar.com?user=abby vs ?user=dad). Today the profile is single-user (grace-mar). |
@@ -38,8 +38,8 @@ Run **N** instances of the same app, each with its own bot token and user ID.
 
 **Steps:**
 
-1. **Create N bots in BotFather** (e.g. @GraceMarAbby_bot, @GraceMarDad_bot). Get a token per bot.
-2. **Create N user profiles** under ``: e.g. `abby/`, `dad/` with self.md, self-skills.md, **self-archive.md** (EVIDENCE), etc. (Copy from companion-self's `_template/` or derive from companion-self schema.)
+1. **Create N bots in BotFather** (e.g. @GraceMarAbby_bot, @GraceMarDad_archive/grace-mar-instance/bot). Get a token per bot.
+2. **Create N user profiles** under ``: e.g. `abby/`, `dad/` with self.md, self-skills.md, **self-archive.md** (EVIDENCE), etc. (Copy from companion-self's `platform/template/` or derive from companion-self schema.)
 3. **Deploy N times**, each with its own env:
    - Instance 1: `TELEGRAM_BOT_TOKEN=<token_abby>`, `GRACE_MAR_USER_ID=abby`
    - Instance 2: `TELEGRAM_BOT_TOKEN=<token_dad>`, `GRACE_MAR_USER_ID=dad`
@@ -49,7 +49,7 @@ Run **N** instances of the same app, each with its own bot token and user ID.
 
 - **Render / Railway / Fly:** One service per bot; each service has its own env and webhook URL. Set each botâ€™s webhook in BotFather to its service URL (e.g. `https://grace-mar-abby.onrender.com/telegram/webhook`).
 - **Single machine:** Run N processes (e.g. N systemd units or Docker containers), each with its own env. Use a reverse proxy (nginx, Caddy) to route by hostname or path to the right process, and set each botâ€™s webhook to the corresponding URL.
-- **Local dev:** Run `python -m bot.bot` (or `apps/miniapp_server.py`) in two terminals with different `.env` files (or `GRACE_MAR_USER_ID=abby TELEGRAM_BOT_TOKEN=... python -m bot.bot`).
+- **Local dev:** Run `python -m bot.bot` (or `platform/apps/miniapp_server.py`) in two terminals with different `.env` files (or `GRACE_MAR_USER_ID=abby TELEGRAM_BOT_TOKEN=... python -m bot.bot`).
 
 **Pros:** No code changes. Same codebase, same â€œcentralâ€ logic; only config differs per bot.  
 **Cons:** N deployments to operate; profile today is single-user (youâ€™d open one profile per user or add multi-user later).
@@ -69,7 +69,7 @@ Each bot is registered in BotFather with its own webhook URL. The server would:
 2. Build or select a Telegram `Application` per bot (or reuse one and pass context).
 3. Call the same handlers, but with **request-scoped** user_id so that `core` and `prompt` load `<user_id>/` for that request.
 
-Today `bot/core.py` and `bot/prompt.py` use **module-level** `USER_ID` and `PROFILE_DIR`. To support Option B youâ€™d refactor so that:
+Today `archive/grace-mar-instance/bot/core.py` and `archive/grace-mar-instance/bot/prompt.py` use **module-level** `USER_ID` and `PROFILE_DIR`. To support Option B youâ€™d refactor so that:
 
 - Profile paths and prompt content are resolved from a **user_id** passed into the call chain (e.g. `get_response(..., user_id=...)`), not from a global.
 - The webhook handler determines `user_id` from the URL (or a tokenâ†’user_id map) and passes it through.

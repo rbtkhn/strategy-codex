@@ -212,7 +212,7 @@ AMERICA:
 
 Cross-Civilizational:
 • MEM–ANGLIA–WAR–AMERICAN–CIVIL — Anglian encoding (internal
-  stress test in American extension); same war, different
+  stress test in American platform/extension); same war, different
   civilizational frame.
 • MEM–ANGLIA–WAR–AMERICAN–CIVIL–APPOMATTOX — Procedural
   termination; Grant's terms; surrender as governance decision.

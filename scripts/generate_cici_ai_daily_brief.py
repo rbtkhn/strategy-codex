@@ -31,7 +31,7 @@ DASHBOARD_PATH = REPO_ROOT / "singularity" / "work-cici" / "cici-ai-community-da
 PROFILE_DIR = REPO_ROOT / "singularity" / "work-cici" / "member-profiles"
 PROGRESS_README_PATH = REPO_ROOT / "singularity" / "work-cici" / "cici-ai-progress" / "README.md"
 TELEGRAM_README_PATH = REPO_ROOT / "singularity" / "work-cici" / "cici-ai-telegram" / "README.md"
-EVIDENCE_DIR = REPO_ROOT / "singularity" / "work-cici" / "evidence"
+EVIDENCE_DIR = REPO_ROOT / "singularity" / "work-cici" / "archive/placeholders/evidence"
 
 
 @dataclass
@@ -499,7 +499,7 @@ def build_digest(repo_root: Path = REPO_ROOT, brief_date: date | None = None) ->
             "singularity/work-cici/cici-ai-community-dashboard.md",
             "singularity/work-cici/cici-ai-progress/README.md",
             "singularity/work-cici/cici-ai-telegram/README.md",
-            "singularity/work-cici/evidence/",
+            "singularity/work-cici/archive/placeholders/evidence/",
             "singularity/work-cici/member-profiles/",
         ],
     )

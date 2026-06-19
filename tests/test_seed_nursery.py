@@ -15,7 +15,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 @pytest.fixture
 def rules():
-    return json.loads((ROOT / "config" / "seed-promotion-rules.json").read_text())
+    return json.loads((ROOT / "platform/config" / "seed-promotion-rules.json").read_text())
 
 
 def _make_claim(**overrides):

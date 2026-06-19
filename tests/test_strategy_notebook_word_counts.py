@@ -56,7 +56,7 @@ def test_yaml_insert_word_count() -> None:
         "# Body\n\n"
         "One two three.\n"
     )
-    out = WC.build_updated_content(src)
+    out = WC.build_updated_content(platform/src)
     assert "word_count: 5" in out
     assert out.startswith("---\n")
     sp = WC._split_front_matter(out)
@@ -74,7 +74,7 @@ def test_yaml_update_stale() -> None:
         "word_count: 0\n"
         "---\n\n# H\n\nalpha beta gamma delta.\n"
     )
-    out = WC.build_updated_content(src)
+    out = WC.build_updated_content(platform/src)
     assert "word_count: 6" in out
     sp = WC._split_front_matter(out)
     assert sp is not None
@@ -85,7 +85,7 @@ def test_yaml_update_stale() -> None:
 
 def test_html_comment_after_h1() -> None:
     src = "# Title here\n\nParagraph one two.\n"
-    out = WC.build_updated_content(src)
+    out = WC.build_updated_content(platform/src)
     assert out.startswith("# Title here\n")
     assert "<!-- word_count:" in out
     assert "word_count: 6" in out
@@ -97,7 +97,7 @@ def test_html_update_managed_line() -> None:
         "<!-- word_count: 1 -->\n\n"
         "foo bar baz qux\n"
     )
-    out = WC.build_updated_content(src)
+    out = WC.build_updated_content(platform/src)
     m = WC.RE_MANAGED_WC.search(out)
     assert m
     assert m.group(1) == "6"
@@ -105,7 +105,7 @@ def test_html_update_managed_line() -> None:
 
 def test_idempotent_second_run() -> None:
     src = "# Only\n\ntext here.\n"
-    once = WC.build_updated_content(src)
+    once = WC.build_updated_content(platform/src)
     twice = WC.build_updated_content(once)
     assert once == twice
     assert "<!-- word_count:" in once

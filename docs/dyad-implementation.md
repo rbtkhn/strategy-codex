@@ -6,7 +6,7 @@ Specific implementations to track and encourage **triadic cognition** (MIND cons
 
 ## 1. Event Instrumentation
 
-### 1.1 Emit dyad events from `bot/core.py`
+### 1.1 Emit dyad events from `archive/grace-mar-instance/bot/core.py`
 
 **Lookup (consultation)** — When user affirms a lookup, emit an event. Add to `get_response` after the lookup path:
 
@@ -26,13 +26,13 @@ emit_pipeline_event("dyad:activity_report", None, channel_key=channel_key)
 
 ```python
 # In run_lookup, after _lookup_with_library_first returns
-emit_pipeline_event("dyad:lookup", None, channel_key=channel_key, source="miniapp", question=question[:100])
+emit_pipeline_event("dyad:lookup", None, channel_key=channel_key, source="platform/miniapp", question=question[:100])
 
 # In run_grounded_response, after response
-emit_pipeline_event("dyad:grounded_query", None, channel_key=channel_key, source="miniapp")
+emit_pipeline_event("dyad:grounded_query", None, channel_key=channel_key, source="platform/miniapp")
 ```
 
-**Schema** — Use `pipeline-events.jsonl` with new event types: `dyad:lookup`, `dyad:activity_report`, `dyad:grounded_query`. Optional fields: `source` (channel, e.g. miniapp), `question`, `lookup_source` (library|cmc|full — which source answered). See `scripts/report_lookup_sources.py`.
+**Schema** — Use `pipeline-events.jsonl` with new event types: `dyad:lookup`, `dyad:activity_report`, `dyad:grounded_query`. Optional fields: `source` (channel, e.g. platform/miniapp), `question`, `lookup_source` (library|cmc|full — which source answered). See `scripts/report_lookup_sources.py`.
 
 ---
 
@@ -110,7 +110,7 @@ Or a small "Dyad" subsection: "Consultations / Integrations / Reports" with 7-da
 
 ### 6.1 Mini App suggested prompts
 
-Add to `miniapp/index.html` (or equivalent) a row of suggested prompts:
+Add to `platform/miniapp/index.html` (or equivalent) a row of suggested prompts:
 - "What do I know about [X]?" (with X from IX-B sample, e.g. "dinosaurs", "space")
 - "What would I say about [Y]?"
 - "What's in my Record?"
@@ -119,7 +119,7 @@ These route to `run_grounded_response` or `run_lookup` — direct consultation.
 
 ### 6.2 System prompt hint
 
-In `bot/prompt.py` SYSTEM_PROMPT, add one line: "When the user asks 'what do I know about X?' or 'what's in my record?' — answer from your documented knowledge; that's the user consulting their Record."
+In `archive/grace-mar-instance/bot/prompt.py` SYSTEM_PROMPT, add one line: "When the user asks 'what do I know about X?' or 'what's in my record?' — answer from your documented knowledge; that's the user consulting their Record."
 
 (May already be implicit; retrieval handles it in grounded mode.)
 
@@ -143,9 +143,9 @@ In `bot/prompt.py` SYSTEM_PROMPT, add one line: "When the user asks 'what do I k
 
 | File | Changes |
 |------|---------|
-| `bot/core.py` | emit_pipeline_event for dyad:lookup, dyad:activity_report; run_lookup, run_grounded_response |
+| `archive/grace-mar-instance/bot/core.py` | emit_pipeline_event for dyad:lookup, dyad:activity_report; run_lookup, run_grounded_response |
 | `scripts/session_brief.py` | "From the Record" section; integration nudge |
 | `scripts/generate_profile.py` | Dyad panel / metrics in Benchmarks |
 | `scripts/dyad_metrics.py` | **New** — compute consultations, integrations, activity reports |
-| `miniapp/index.html` | Suggested "Ask the Record" prompts (optional) |
+| `platform/miniapp/index.html` | Suggested "Ask the Record" prompts (optional) |
 | `docs/dyad-implementation.md` | This spec |

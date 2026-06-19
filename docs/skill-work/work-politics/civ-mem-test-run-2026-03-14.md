@@ -55,7 +55,7 @@ Machine step: `python3 tools/cmc-index-search.py query "war powers congress" --l
 - Our founders knew what it looked like when a central body **couldn’t** compel or tax — that was the Continental Congress era. Today’s problem is the opposite: too much done **without** a vote you can hold anyone accountable for. `{CMC: MEM–AMERICA–REVOLUTION–CONTINENTAL–CONGRESS.md}` *(analogy — not equation)*  
 - If you want less dumb wars, **demand votes** — and representatives who show up for them. `{analyst}`
 
-**Principal-specific line (placeholder — replace from principal-profile):**  
+**Principal-specific line (placeholder — replace from principal-platform/profile):**  
 - *“[Massie line on AUMF / declarations / spending — operator insert].”* `{principal}`
 
 ---

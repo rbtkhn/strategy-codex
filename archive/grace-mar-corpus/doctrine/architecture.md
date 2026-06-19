@@ -57,7 +57,7 @@ Companion-selfâ€“style instances are **state-governance architectures** for
 |-------|------|----------|
 | **Proposed** | Drafts, harvested outputs, staged candidatesâ€”not yet canonical | `recursion-gate.md` pending blocks, operator drafts, imports staged for review |
 | **Interface-visible** | How the companion experiences the systemâ€”constrained by prompt, policy, and harness | Voice (Telegram), PRP / runtime surfaces, query-time rendering |
-| **Canonical durable** | Approved, auditable self and evidence | `self.md` (identity shell / overview), `self-knowledge.md` (IX-A), `self-skills.md`, `self-archive.md` (EVIDENCE), merged `bot/prompt.py` obligations |
+| **Canonical durable** | Approved, auditable self and evidence | `self.md` (identity shell / overview), `self-knowledge.md` (IX-A), `self-skills.md`, `self-archive.md` (EVIDENCE), merged `archive/grace-mar-instance/bot/prompt.py` obligations |
 
 **Merge contract.** Only the **companion** (or the governed pipeline acting on explicit companion approval) may satisfy the contract that moves content from proposed into canonical state. See [AGENTS.md](../AGENTS.md) Â§ Gated Pipeline â€” agents **stage**; they do not **merge** into SELF, EVIDENCE, or prompt without approval.
 
@@ -105,9 +105,9 @@ Grace-Mar's harness is portable because it separates **canonical truth** from **
 
 The runtime lane is portable, but it is **not** Record truth. A downstream runtime may consume `self-memory.md` (or legacy `memory.md`) or a warmup block for continuity, yet only the Record lane defines who Grace-Mar is. This keeps runtime swaps possible without making any one harness the owner of memory.
 
-**Context Efficiency Layer (operator).** How much context to assemble for sessions and scriptsâ€”tiers (hot / warm / cold), provenance-linked compaction, and tunable budgetsâ€”is documented under [skill-work/context-efficiency-layer.md](skill-work/context-efficiency-layer.md) with [skill-work/context-compaction-protocol.md](skill-work/context-compaction-protocol.md). **JSON budgets** live in [`config/context_budgets/`](../config/context_budgets/README.md). **Derived helpers** include [skill cards](skills/skill-card-spec.md) (`build_skill_cards.py`) and [active lane compression](skill-work/active-lane-compression.md) (`compress_active_lane.py`); see [runtime vs Record](runtime-vs-record.md). It complements the harness: `session_brief.py` supports `--minimal`, `--compact`, and optional `--active-lane` with recovery paths; it does **not** change what counts as canonical Record or bypass the gate.
+**Context Efficiency Layer (operator).** How much context to assemble for sessions and scriptsâ€”tiers (hot / warm / cold), provenance-linked compaction, and tunable budgetsâ€”is documented under [skill-work/context-efficiency-layer.md](skill-work/context-efficiency-layer.md) with [skill-work/context-compaction-protocol.md](skill-work/context-compaction-protocol.md). **JSON budgets** live in [`platform/config/context_budgets/`](../platform/config/context_budgets/README.md). **Derived helpers** include [skill cards](skills/skill-card-spec.md) (`build_skill_cards.py`) and [active lane compression](skill-work/active-lane-compression.md) (`compress_active_lane.py`); see [runtime vs Record](runtime-vs-record.md). It complements the harness: `session_brief.py` supports `--minimal`, `--compact`, and optional `--active-lane` with recovery paths; it does **not** change what counts as canonical Record or bypass the gate.
 
-**Profile root vs `runtime-bundle/`.** For a live instance, audit and runtime files under `` are canonical. A **`runtime-bundle/`** subtree may mirror the same names (e.g. `runtime-bundle/audit/pipeline-events.jsonl`) for portable export. Loaders that synthesize replay views should prefer the profile root and fall back to the bundle when a root file is missing or empty, so snapshots are not double-counted.
+**Profile root vs `runtime/bundle/`.** For a live instance, audit and runtime files under `` are canonical. A **`runtime/bundle/`** subtree may mirror the same names (e.g. `runtime/bundle/audit/pipeline-events.jsonl`) for portable export. Loaders that synthesize replay views should prefer the profile root and fall back to the bundle when a root file is missing or empty, so snapshots are not double-counted.
 
 ### Runtime modes
 
@@ -726,7 +726,7 @@ GitHub Repository (rbtkhn/strategy-codex)
 â”‚       â”œâ”€â”€ self-memory.md   # self-memory â€” short/medium/long continuity (optional; not part of Record)
 â”‚       â”œâ”€â”€ session-log.md   # Interaction history
 â”‚       â”œâ”€â”€ journal.md       # Daily highlights (public-suitable, shareable)
-â”‚       â””â”€â”€ artifacts/       # Raw files (writing, artwork)
+â”‚       â””â”€â”€ runtime/artifacts/       # Raw files (writing, artwork)
 â””â”€â”€ (future users...)
 ```
 
@@ -818,7 +818,7 @@ Grace-Mar shares conceptual DNA with other patterns: **multi-agent debate before
 
 ## Emulation Layer
 
-The cognitive fork can optionally power an **emulation** â€” a live conversational interface that behaves as the self would. The instance supports Telegram (`bot/bot.py`) and WeChat (`bot/wechat_bot.py`). Both share the same emulation core (`bot/core.py`) and use the SELF profile to generate responses constrained to the self's knowledge, vocabulary, and personality. **Teaching/tutoring** is one of the Voice's functions: it answers questions, explains concepts, and helps the user learn â€” in-character, at the Record's Lexile level, and within the knowledge boundary.
+The cognitive fork can optionally power an **emulation** â€” a live conversational interface that behaves as the self would. The instance supports Telegram (`archive/grace-mar-instance/bot/bot.py`) and WeChat (`archive/grace-mar-instance/bot/wechat_bot.py`). Both share the same emulation core (`archive/grace-mar-instance/bot/core.py`) and use the SELF profile to generate responses constrained to the self's knowledge, vocabulary, and personality. **Teaching/tutoring** is one of the Voice's functions: it answers questions, explains concepts, and helps the user learn â€” in-character, at the Record's Lexile level, and within the knowledge boundary.
 
 ### THINK/WRITE Refinement in Emulation
 
@@ -871,7 +871,7 @@ The fork's profile grows through two independent input channels. Both feed the s
 
 ### Channel 1: Bot (Automated)
 
-**Multi-channel staging:** Telegram, WeChat, operator activity reports, and other callers share **one** `recursion-gate.md` per user. An LLM analyst (`ANALYST_PROMPT` in `bot/prompt.py`) detects profile-relevant signals and stages candidates (with `channel_key`) after bot exchanges; operator scripts may stage without the bot. **One gate, one merge path** â€” not Telegram-only.
+**Multi-channel staging:** Telegram, WeChat, operator activity reports, and other callers share **one** `recursion-gate.md` per user. An LLM analyst (`ANALYST_PROMPT` in `archive/grace-mar-instance/bot/prompt.py`) detects profile-relevant signals and stages candidates (with `channel_key`) after bot exchanges; operator scripts may stage without the bot. **One gate, one merge path** â€” not Telegram-only.
 
 ```
 User â†” Bot conversation
@@ -943,7 +943,7 @@ The analyst (automated or manual) detects three categories of signal:
 1. **Signal detection** â€” Identify profile-relevant information in the input
 2. **Candidate staging** â€” Write structured candidates to `recursion-gate.md` with analysis and recommendations
 3. **User review** â€” User approves, rejects, or modifies each candidate
-4. **Relay to record** â€” Approved candidates are merged into `self.md` (profile shell), `self-knowledge.md` (IX-A), **`self-archive.md`** (canonical EVIDENCE / activity log + Â§ VIII), `bot/prompt.py` (emulation prompt), and `session-log.md` (history). This step is the **relay**: raw input has been gated and now crosses into the permanent Record.
+4. **Relay to record** â€” Approved candidates are merged into `self.md` (profile shell), `self-knowledge.md` (IX-A), **`self-archive.md`** (canonical EVIDENCE / activity log + Â§ VIII), `archive/grace-mar-instance/bot/prompt.py` (emulation prompt), and `session-log.md` (history). This step is the **relay**: raw input has been gated and now crosses into the permanent Record.
 
 ### Candidate Structure
 
@@ -1002,11 +1002,11 @@ This mirrors how real cognition works â€” a single experience produces know
 
 | Defense | Implementation | What it prevents |
 |---------|---------------|------------------|
-| Sovereign Merge Rule | `process_approved_candidates.py` is the only merge path; AGENTS.md Â§2 | Direct writes to self.md, self-archive.md, bot/prompt.py |
+| Sovereign Merge Rule | `process_approved_candidates.py` is the only merge path; AGENTS.md Â§2 | Direct writes to self.md, self-archive.md, archive/grace-mar-instance/bot/prompt.py |
 | Gated pipeline | `recursion-gate.md` staging â†’ companion approval â†’ merge script | State changes that bypass human review |
 | Integrity validator | `scripts/validate-integrity.py` â€” 12 check families including convenience-path audit | Untraceable candidates, orphan references, stale exports |
 | Governance checker | `scripts/governance_checker.py` â€” regex scan for unauthorized merge patterns | Scripts or agents that attempt direct Record writes |
-| Gate review app | `apps/gate-review-app.py` â€” Flask UI for inspecting pending candidates | Invisible or unreviewed queue state |
+| Gate review app | `platform/apps/gate-review-app.py` â€” Flask UI for inspecting pending candidates | Invisible or unreviewed queue state |
 | Derived export freshness | `validate-integrity.py` â†’ `validate_derived_exports` | Stale runtime bundles, PRP, or manifests diverging from Record |
 
 ### Convenience paths to watch for

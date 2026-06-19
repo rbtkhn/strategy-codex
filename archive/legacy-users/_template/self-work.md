@@ -1,6 +1,6 @@
 # self-work (Template)
 
-**Template only. No real data.** Copy to `users/<new_id>/self-work.md` in an instance.
+**Template only. No real data.** Copy to `platform/users/<new_id>/self-work.md` in an instance.
 
 Purpose: cross-lane orchestration surface that connects self-skills to today's execution plan.
 

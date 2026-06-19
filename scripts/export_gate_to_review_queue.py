@@ -3,8 +3,8 @@
 Bridge: copy a RECURSION-GATE candidate into the material change-review queue.
 
 Reads recursion-gate.md via gate_block_parser, writes:
-  - review-queue/proposals/proposal-gate-<id>.json
-  - review-queue/derived/gate-escalation-<id>.json  (proposedStateRef target)
+  - archive/queues/review-queue/proposals/proposal-gate-<id>.json
+  - archive/queues/review-queue/derived/gate-escalation-<id>.json  (proposedStateRef target)
   - updates change_review_queue.json and change_event_log.json
 
 Usage:
@@ -91,7 +91,7 @@ def main() -> int:
         print(f"ERROR: {e}", file=sys.stderr)
         return 2
 
-    review_root = profile_dir(user) / "review-queue"
+    review_root = profile_dir(user) / "archive/queues/review-queue"
     review_root.mkdir(parents=True, exist_ok=True)
     for sub in ("proposals", "decisions", "diffs", "derived"):
         (review_root / sub).mkdir(parents=True, exist_ok=True)

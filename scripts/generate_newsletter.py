@@ -74,7 +74,7 @@ def build_digest(
     include_curiosity: bool = True,
 ) -> dict:
     """Build digest data from journal and optional self (IX-B)."""
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     journal_path = profile_dir / "journal.md"
     self_path = profile_dir / "self.md"
     journal_raw = _read(journal_path)

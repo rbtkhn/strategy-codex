@@ -28,4 +28,4 @@
 
 ---
 
-*Do not use this file as a live self-memory in the template. Copy to `users/<new_id>/self-memory.md` in an instance if the instance uses ephemeral session context.*
+*Do not use this file as a live self-memory in the template. Copy to `platform/users/<new_id>/self-memory.md` in an instance if the instance uses ephemeral session context.*

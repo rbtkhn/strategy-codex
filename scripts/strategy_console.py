@@ -375,7 +375,7 @@ def marker_scan(ctx: BuildContext) -> list[dict[str, str]]:
         found.append(
             {
                 "tension": f"Escalation markers in `{path.relative_to(ctx.notebook_root)}`",
-                "evidence": cstr,
+                "archive/placeholders/evidence": cstr,
                 "handling": "Cross-check in EOD before promotion; use MCQ for threshold.",
             }
         )
@@ -383,7 +383,7 @@ def marker_scan(ctx: BuildContext) -> list[dict[str, str]]:
         return [
             {
                 "tension": "—",
-                "evidence": "No watch / decision / promote tokens in scanned tails (heuristic).",
+                "archive/placeholders/evidence": "No watch / decision / promote tokens in scanned tails (heuristic).",
                 "handling": "Add markers in source material if tension should surface.",
             }
         ]
@@ -502,7 +502,7 @@ def build_markdown(ctx: BuildContext) -> str:
             }
         )
     if any(
-        t.get("tension", "") != "—" and (MARKER_TOKENS[0] in t.get("evidence", "") or MARKER_TOKENS[1] in t.get("evidence", ""))
+        t.get("tension", "") != "—" and (MARKER_TOKENS[0] in t.get("archive/placeholders/evidence", "") or MARKER_TOKENS[1] in t.get("archive/placeholders/evidence", ""))
         for t in tens
     ):
         em.append(
@@ -615,7 +615,7 @@ def build_markdown(ctx: BuildContext) -> str:
     )
     for t in tens:
         lines.append(
-            f"| {t.get('tension', '—')} | {t.get('evidence', '—')} | {t.get('handling', '—')} |"
+            f"| {t.get('tension', '—')} | {t.get('archive/placeholders/evidence', '—')} | {t.get('handling', '—')} |"
         )
     lines.extend(
         [
@@ -628,7 +628,7 @@ def build_markdown(ctx: BuildContext) -> str:
     )
     for e in em:
         lines.append(
-            f"| {e.get('q', '—')} | {e.get('src', '—')} | {e.get('route', '—')} |"
+            f"| {e.get('q', '—')} | {e.get('platform/src', '—')} | {e.get('route', '—')} |"
         )
     lines.extend(
         [

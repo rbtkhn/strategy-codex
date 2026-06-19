@@ -21,7 +21,7 @@
     "evidence_state": "weak",
     "notes": "Synthetic benchmark: insufficient corroboration to act."
   },
-  "artifacts": {
+  "runtime/artifacts": {
     "trace_path": "runtime/runtime-worker/traces/index.jsonl",
     "proposal_path": "runtime/runtime-worker/proposals/gov_eval_weak_evidence_hold.md"
   },

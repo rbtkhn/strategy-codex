@@ -80,4 +80,4 @@ Repo-current 2026 continuity anchors:
 - `source-archive/statecraft/2026-05-16/source-daniel-davis-deep-dive-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md` - NATO involvement/escalation-risk frame and "save what can be saved" language
 - `source-archive/statecraft/2026-04-26/source-alex-mercouris-us-says-eu-has-no-ukraine-plan-ukraine-wants-more-eu-funds-russia-econom-2026-04-26.md` - raw-input file handle for EU plan/funding anxiety
 
-Primary 2025 receipts live under `artifacts/cognition-streams/check-streams-2025-01-10-local/` through `check-streams-2025-05-10-local/`. The 2026 extension uses repo-current local captures only and should not be read as fresh external verification.
+Primary 2025 receipts live under `runtime/artifacts/cognition-streams/check-streams-2025-01-10-local/` through `check-streams-2025-05-10-local/`. The 2026 extension uses repo-current local captures only and should not be read as fresh external verification.

@@ -17,7 +17,7 @@ def _load_module():
 
 
 def _config(mod, root):
-    return mod.load_config(root / "config" / "route_recommendation.json")
+    return mod.load_config(root / "platform/config" / "route_recommendation.json")
 
 
 def test_coding_vs_research_shapes():
@@ -72,7 +72,7 @@ def test_render_receipt_includes_yaml_and_sections():
 def test_forbidden_under_users_returns_true():
     """Staging derived receipts under ``*`` is forbidden."""
     mod, repo = _load_module()
-    under_users = repo / "users" / "grace-mar" / "hypothetical-route-receipt.md"
+    under_users = repo / "platform/users" / "grace-mar" / "hypothetical-route-receipt.md"
     assert mod.is_forbidden_record_path(under_users, repo) is True
 
 

@@ -114,7 +114,7 @@ def _profile_dir(user_id: str) -> Path:
 
 
 def _default_output_dir(user_id: str) -> Path:
-    return _profile_dir(user_id) / "runtime-bundle"
+    return _profile_dir(user_id) / "runtime/bundle"
 
 
 def _bundle_id(user_id: str, runtime_mode: str, generated_at: str) -> str:
@@ -239,7 +239,7 @@ def export_runtime_bundle(
             copied_audit_paths.append(str(dst.relative_to(out_dir)))
 
     skills_resolved = resolve_surface_markdown_path(profile_dir, "self_skills")
-    evidence_resolved = resolve_surface_markdown_path(profile_dir, "self_evidence")
+    evidence_resolved = resolve_surface_markdown_path(profile_dir, "self_archive/placeholders/evidence")
     source_paths = {
         "self": profile_dir / "self.md",
         "skills": skills_resolved,
@@ -247,13 +247,13 @@ def export_runtime_bundle(
         "skill_think": profile_dir / "skill-think.md",
         "skill_write": profile_dir / "skill-write.md",
         "skill_steward": profile_dir / "skill-steward.md",
-        "evidence": evidence_resolved,
-        "self_evidence": evidence_resolved,
+        "archive/placeholders/evidence": evidence_resolved,
+        "self_archive/placeholders/evidence": evidence_resolved,
         "library": profile_dir / "self-library.md",
         "intent": profile_dir / "intent.md",
         "session_log": profile_dir / "session-log.md",
         "memory": resolve_self_memory_path(profile_dir),
-        "prompt": REPO_ROOT / "bot" / "prompt.py",
+        "prompt": BOT_DIR / "prompt.py",
     }
 
     derived_paths = [
@@ -327,7 +327,7 @@ def export_runtime_bundle(
             pass
 
     bundle_payload = {
-        "format": "strategy-codex-runtime-bundle",
+        "format": "strategy-codex-runtime/bundle",
         "version": "1.0",
         "bundle_id": bundle_id,
         "generated_at": generated_at,
@@ -396,6 +396,7 @@ def export_runtime_bundle(
         _sp = REPO_ROOT / "scripts"
         if str(_sp) not in sys.path:
             sys.path.insert(0, str(_sp))
+from repo_io import BOT_DIR
         from emit_compute_ledger import append_integration_ledger
 
         total_b = 0
@@ -432,7 +433,7 @@ def main() -> None:
     )
     parser = argparse.ArgumentParser(description="Export a runtime-neutral Grace-Mar bundle")
     parser.add_argument("--user", "-u", default="strategy-codex", help="Profile id")
-    parser.add_argument("--output", "-o", default="", help="Output directory (default: runtime-bundle)")
+    parser.add_argument("--output", "-o", default="", help="Output directory (default: runtime/bundle)")
     parser.add_argument(
         "--mode",
         choices=sorted(RUNTIME_MODES.keys()),

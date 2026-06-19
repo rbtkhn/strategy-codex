@@ -236,7 +236,7 @@ def render_compact_warmup(
     comp_n = len(pending_by_territory(pr)[1])
     pending_list = [] if frozen else _pending_candidates(pr, territory)
     pending_n = len(pending_list)
-    last_act = "" if frozen else _last_activity_oneliner(evidence)
+    last_act = "" if frozen else _last_activity_oneliner(archive/placeholders/evidence)
     tail_lines = _session_lines_tail(session, max(1, tail))
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
     receipt_one = _last_merge_receipt_line(user_dir)
@@ -393,7 +393,7 @@ def main() -> int:
     comp_n = len(pending_by_territory(pr)[1])
     pending_list = [] if frozen else _pending_candidates(pr, territory)
     pending_n = len(pending_list)
-    last_act = "" if frozen else _last_activity_oneliner(evidence)
+    last_act = "" if frozen else _last_activity_oneliner(archive/placeholders/evidence)
     tail = _session_lines_tail(session, max(1, args.tail))
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
     receipt_one = _last_merge_receipt_line(user_dir)
@@ -562,7 +562,7 @@ def main() -> int:
             "### For the agent",
             "",
             f"- Canonical paths: `{args.user}/self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`.",
-            "- **Do not merge** without companion approval. Stage-only handback: `integrations/openclaw_stage.py`.",
+            "- **Do not merge** without companion approval. Stage-only handback: `platform/integrations/openclaw_stage.py`.",
             "- After approved merges: refresh PRP / OpenClaw export if this instance uses them.",
             "",
         ]

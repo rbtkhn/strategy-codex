@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Backfill X profile/status posts into strategy-notebook raw-input/.
+"""Backfill X platform/profile/status posts into strategy-notebook raw-input/.
 
 This is a best-effort public-profile importer:
 
@@ -42,7 +42,7 @@ DEFAULT_RAW_ROOT = (
 )
 DEFAULT_PROFILE_URL = "https://x.com/RealScottRitter"
 USER_AGENT = (
-    "grace-mar-backfill-x-profile/1.0 "
+    "grace-mar-backfill-x-platform/profile/1.0 "
     "(+local strategy notebook ingest)"
 )
 
@@ -203,7 +203,7 @@ def _build_doc(
         "pub_date": pub_date.isoformat(),
         "kind": "x-post-text",
         "account_author": f"@{handle}",
-        "source_url_profile": profile_url,
+        "source_url_platform/profile": profile_url,
         "source_url": status_url,
         "status_id": status_id,
     }

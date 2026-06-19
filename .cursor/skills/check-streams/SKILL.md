@@ -10,7 +10,7 @@ tags:
 - raw-input
 - youtube
 - daily
-portable_source: skills-portable/check-streams/SKILL.md
+portable_source: skills/check-streams/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Check streams
@@ -455,7 +455,7 @@ If a stream has no upload on the target day, say so explicitly.
      - write canonical date-folder raw-input
      - verify the written raw-input has a non-stub transcript body before reporting success
    - Review `.codex-tmp/youtube-raw-input/<run-id>/materialization-summary.md` and `capture-summary.md` before claiming capture.
-   - For apply-mode runs with `--with-appearances`, expect the materializer to refresh `artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json` unless `--no-quality-report` was explicitly used.
+   - For apply-mode runs with `--with-appearances`, expect the materializer to refresh `runtime/artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json` unless `--no-quality-report` was explicitly used.
    - For all apply-mode materialization runs, expect the materializer to refresh `codex/years/2026/raw-input/raw-input-master-index.md` and `raw-input-master-index.json`.
    - Close materialization/densification claims with the mandatory quality line from the capture summary: `Structure: <delta> | Purity: <delta/%> | Unresolved: <count> | Git: on-disk/verified/not-committed/not-pushed`.
    - Preserve the receipt scope: materializer host-quality closeouts are `full-host-month`, even when the capture run started from one transcript.
@@ -485,8 +485,8 @@ If a stream has no upload on the target day, say so explicitly.
    - The atomic materializer now emits the first durable appearance packet for approved items when run with `--with-appearances`: `appearance-ledger.jsonl`, speaker-routing queue, speaker-memory action queue, and capture summary.
    - Treat the host-shelf quality summary as the benchmark surface for structural gain, transcript-purity gain, unresolved speaker count, and scoped git state.
    - Suggest the route stack: primary route first, then any speaker object, stream-local speaker arc, helix, or cross-host note the same appearance also strengthens.
-   - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md` plus `appearance-ledger.jsonl`.
-   - When the operator wants concrete follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `artifacts/speaker-memory-actions/<start>_to_<end>/memory-action-queue.md`.
+   - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `runtime/artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md` plus `appearance-ledger.jsonl`.
+   - When the operator wants concrete follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `runtime/artifacts/speaker-memory-actions/<start>_to_<end>/memory-action-queue.md`.
    - Prefer existing host-local speaker arcs as the primary route when host + guest match; list matching speaker objects or helix/cross-host notes as additional strengthened surfaces.
    - Distinguish the surface type: use **host-local arc** for one host x guest braid, **thread atlas** for recurring strands across months or hosts, and **speaker helix** for cross-host comparison of multiple host-local arcs.
    - If no clear speaker route exists, say so and stop at raw-input.
@@ -694,7 +694,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-str
 |--------|------|
 | Canonical raw-input tree | [codex/](../../codex/) |
 | Date-bucket target pattern | `codex/YYYY/raw-input/YYYY-MM-DD/` |
-| Existing lower-layer ingest skill | [skills-portable/youtube-raw-input-transcript/SKILL.md](../../../skills-portable/youtube-raw-input-transcript/SKILL.md) |
+| Existing lower-layer ingest skill | [skills/youtube-raw-input-transcript/SKILL.md](../../../skills/youtube-raw-input-transcript/SKILL.md) |
 | Generated lower-layer Cursor skill | [\.cursor/skills/youtube-raw-input-transcript/SKILL.md](../youtube-raw-input-transcript/SKILL.md) |
 | Speaker folder shelf | [codex/speakers/](../../../codex/speakers/) |
 | Speaker arc boundary | [docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md](../../../docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md) |
@@ -702,7 +702,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-str
 | Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
 | Temp daily discovery cache | [\.codex-tmp/](../../.codex-tmp/) |
 | Temp subtitle cache | [\.codex-tmp/yt-dlp/](../../.codex-tmp/yt-dlp/) |
-| Portable skill manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 | Skill validator | [scripts/validate_skills.py](../../../scripts/validate_skills.py) |
 

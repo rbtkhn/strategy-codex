@@ -8,7 +8,7 @@ tags:
 - operator
 - work-dev
 - git
-portable_source: skills-portable/repo-hygiene-pass/SKILL.md
+portable_source: skills/repo-hygiene-pass/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Repo Hygiene Pass
@@ -83,8 +83,8 @@ Grace-mar paths and command notes for this repository (from `.cursor/skills/repo
 
 | Topic | Path |
 |--------|------|
-| Portable manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
-| Skill backlog | [skills-portable/skill-candidates.md](../../../skills-portable/skill-candidates.md) |
+| Portable manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
+| Skill backlog | [skills/skill-candidates.md](../../../skills/skill-candidates.md) |
 | Sync implementation | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 | Work-dev module | [docs/skill-work/work-dev/README.md](../../../docs/skill-work/work-dev/README.md) |
 | Git lane conventions | [docs/operator-agent-lanes.md](../../../docs/operator-agent-lanes.md) |

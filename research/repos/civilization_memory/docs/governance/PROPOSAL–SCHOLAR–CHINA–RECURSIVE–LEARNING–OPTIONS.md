@@ -92,7 +92,7 @@ Current thread: Ferguson ingested; Opium Wars (one MEM); treaty ports (Shanghai,
 **B** — Mearsheimer: Shanghai and Nanjing as chokepoints in MEM–CHINA–WAR–OPIUM force-ratio logic.  
 **C** — Barnes: Jurisdiction in treaty ports and Conventions (Nanjing 1842, Beijing 1860).  
 **D** — Trace Shanghai/Nanjing to MEM–CHINA–DYNASTY–QING (external pressures, treaty encoding).  
-**E** — Map Ferguson "killer apps" onto Qing institutional rigidity (Civilization frame).  
+**E** — Map Ferguson "killer platform/apps" onto Qing institutional rigidity (Civilization frame).  
 **F** — Synthesis: Ferguson ingested; Opium Wars one MEM; Canton–Nanjing–Beijing; GEO gap; next step WRITE or governance.
 
 ────────────────────────────────────────────────────────────

@@ -42,7 +42,7 @@ python3 scripts/prepared_context/build_budgeted_context.py \
   --lane work-strategy \
   --depth auto \
   --task-anchor "Assess whether deeper context expansion is justified." \
-  -o prepared-context/budgeted-review-context.md
+  -o runtime/prepared-context/budgeted-review-context.md
 ```
 
 **Deep fixed depth:**
@@ -52,7 +52,7 @@ python3 scripts/prepared_context/build_budgeted_context.py \
   --lane work-strategy \
   --depth deep \
   --task-anchor "Build a fuller contradiction-aware context for this strategy session." \
-  -o prepared-context/budgeted-deep.md
+  -o runtime/prepared-context/budgeted-deep.md
 ```
 
 **Long flag (same behavior):**
@@ -62,5 +62,5 @@ python3 scripts/prepared_context/build_budgeted_context.py \
   --lane work-strategy \
   --workflow-depth shallow \
   --task-anchor "Minimal context for a quick check." \
-  -o prepared-context/budgeted-shallow.md
+  -o runtime/prepared-context/budgeted-shallow.md
 ```

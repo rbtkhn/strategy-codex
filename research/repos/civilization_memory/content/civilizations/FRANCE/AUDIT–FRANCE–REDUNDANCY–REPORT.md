@@ -44,7 +44,7 @@
 
 ### 2. MEM–FRANCE–WAR–THIRD–COALITION (file exists without .md)
 
-**Status:** File exists as `MEM–FRANCE–WAR–THIRD–COALITION` (no extension). Content is valid MEM (v1.0, War of the Third Coalition, 1803–1806).
+**Status:** File exists as `MEM–FRANCE–WAR–THIRD–COALITION` (no platform/extension). Content is valid MEM (v1.0, War of the Third Coalition, 1803–1806).
 
 **Referenced in:**
 - MEM–FRANCE–NAPOLEON.md (MEM CONNECTIONS)

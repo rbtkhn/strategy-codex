@@ -28,7 +28,7 @@ The LLM fetches the PRP from the repo and responds as Abby. No copy-paste of the
 ```
 [RECIPIENT INSTRUCTION â€” include when sharing:]
 
-**Option A (URL bootstrap):** Paste: "Fetch and use as your persona: https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/self-llm.txt"
+**Option A (URL archive/grace-mar-instance/bootstrap):** Paste: "Fetch and use as your persona: https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/self-llm.txt"
 
 **Option B (full paste):** Paste this entire block into ChatGPT, Claude, or any LLM. Then say "hi" or pick an option. The persona will respond in character.
 
@@ -277,7 +277,7 @@ The teacher's "tutor prompt" is the same pattern as the PRP, but the Record is *
 | [INSTANCES-AND-RELEASE](instances-and-release.md) | Use cases; invariant 34; memorial consent |
 | [self.md](../self.md) | Source: identity, IX-A/B/C, linguistic style |
 | [self-evidence.md](../self-evidence.md) | Source: recent WRITE/ACT/CREATE |
-| [bot/prompt.py](../bot/prompt.py) | Source: HOW YOU TALK, YOUR PERSONALITY |
+| [archive/grace-mar-instance/bot/prompt.py](../archive/grace-mar-instance/bot/prompt.py) | Source: HOW YOU TALK, YOUR PERSONALITY |
 
 ---
 

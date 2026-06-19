@@ -19,10 +19,10 @@ Side-by-side comparison of the two repositories that form the companion-self vis
 | **Description** | System for creating and maintaining versioned, evidence-grounded cognitive forks of an individual, growing via curated interactions over time. | Template repo for instantiating new companion selves after seed phase completion. |
 | **Status** | Active instance â€” seeded, pipeline running, bots live, real user data. | Reference/template â€” clone or fork to bootstrap new instances. |
 | **Main reference** | Concrete example; linked from companion-self docs. | Points to grace-mar as the reference implementation ([grace-mar.com](https://grace-mar.com)). |
-| **Primary focus** | Running system: profile generation, gated updates, bot emulation (Telegram/WeChat), export, metrics, integrity, profile/miniapp UI. | Education and self-improvement protocol, student app, upgrade mechanics, library structure, bootstrap process. |
-| **Contains user data** | Yes â€” `` with self.md, skills, evidence logs, interaction history. | No â€” template only (`` is placeholder or _template). |
-| **Tech** | Python-heavy (bot, scripts, Flask, export); HTML/JS for profile and miniapp. | JavaScript-heavy (student web app); HTML/shell/CSS; docs and scripts. |
-| **Key directories** | `bot/`, `scripts/`, `docs/`, ``, `profile/`, `miniapp/` | `app/` (student interface), `library/`, `docs/`, `scripts/`, `_template/` |
+| **Primary focus** | Running system: profile generation, gated updates, bot emulation (Telegram/WeChat), export, metrics, integrity, platform/profile/miniapp UI. | Education and self-improvement protocol, student app, upgrade mechanics, library structure, bootstrap process. |
+| **Contains user data** | Yes â€” `` with self.md, skills, evidence logs, interaction history. | No â€” template only (`` is placeholder or platform/template). |
+| **Tech** | Python-heavy (bot, scripts, Flask, export); HTML/JS for profile and miniapp. | JavaScript-heavy (student web platform/app); HTML/shell/CSS; docs and scripts. |
+| **Key directories** | `archive/grace-mar-instance/bot/`, `scripts/`, `docs/`, ``, `platform/profile/`, `platform/miniapp/` | `platform/app/` (student interface), `library/`, `docs/`, `scripts/`, `platform/template/` |
 | **Notable features** | Gated pipeline (signal â†’ staging â†’ recursion-gate â†’ integration); Telegram/WeChat bots; growth dimensions (knowledge, curiosity, personality); export (JSON, PRP, PDF); integrity and uniqueness scoring. | Recursive self-learning objectives; 3-year roadmap and 6-week coding sprint; student app (e.g. localhost:3000); upgrade consumption (how instances pull improvements without losing records); bootstrap guide. |
 
 ---
@@ -33,7 +33,7 @@ Side-by-side comparison of the two repositories that form the companion-self vis
 - **grace-mar** = first **downstream instance** created from (or aligned with) that template.
 - Shared protocol, UI patterns, library, and upgrade mechanics are developed in companion-self; instances like grace-mar **consume** those improvements without overwriting their Record or history. See [how-instances-consume-upgrades](https://github.com/rbtkhn/companion-self/blob/main/how-instances-consume-upgrades.md) (in companion-self) and [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md) (in grace-mar).
 
-**App/UI sync rule:** companion-self docs/spec surfaces are the default upstream sync vehicle. Template app code (`companion-self/app/`) is an **optional implementation parity surface**, not a default file-for-file target for grace-marâ€™s `miniapp/` or profile stack.
+**App/UI sync rule:** companion-self docs/spec surfaces are the default upstream sync vehicle. Template app code (`companion-self/platform/app/`) is an **optional implementation parity surface**, not a default file-for-file target for grace-marâ€™s `platform/miniapp/` or profile stack.
 
 **Boundary (forking / separation):**
 

@@ -128,7 +128,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:7 S:0 G:2]** [EN DIRECT, guerre au Moyen-OrientÃ‚ : Donald Trump ordonne un blocus naval du dÃƒÂ©troit d’Ormuz par la marine amÃƒÂ©ricaine, en rÃƒÂ©action Ãƒ  l’ÃƒÂ©chec des nÃƒÂ©gociations avec l’Iran](https://www.lemonde.fr/international/live/2026/04/12/en-direct-guerre-au-moyen-orient-la-marine-americaine-entame-le-blocus-de-tous-les-navires-tentant-d-entrer-ou-de-sortir-du-detroit-d-ormuz-annonce-donald-trump_6676633_3210.html) Ã¢â‚¬” _Le Monde Ã¢â‚¬” franÃƒ§ais (France / monde)_ Ã‚· _fr_ Ã‚· _2026-04-12 15:13 UTC_
 - **[W:2 S:0 G:2]** [Trump announces Navy blockade in Strait of Hormuz after Iran talks fizzle](https://thehill.com/policy/defense/5827724-trump-iran-strait-hormuz-blockade/) Ã¢â‚¬” _The Hill Ã¢â‚¬” politics_ Ã‚· _2026-04-12 13:18 UTC_
@@ -206,7 +206,7 @@ Thread **Context Efficiency Layer** when assembling follow-up context: prefer ho
 - **Doctrine:** [context-efficiency-layer.md](../context-efficiency-layer.md)
 - **Compaction shapes:** [context-compaction-protocol.md](../context-compaction-protocol.md)
 - **Session brief (hot):** `python3 scripts/session_brief.py -u grace-mar --compact`
-- **Budgets:** `config/context_budgets/session_brief.json`, `config/context_surfaces.json`
+- **Budgets:** `platform/config/context_budgets/session_brief.json`, `platform/config/context_surfaces.json`
 
 
 ---

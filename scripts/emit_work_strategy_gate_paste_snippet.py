@@ -3,7 +3,7 @@
 Emit a canonical ### CANDIDATE-* snippet for work-strategy milestones (RECURSION-GATE paste).
 
 Default rows match existing gate convention: territory: work-politics, channel_key: operator:work-strategy.
-Writes <user>/recursion-gate-staging/work-strategy-<date>.paste-snippet.md.
+Writes <user>/archive/grace-mar-instance/recursion-gate-staging/work-strategy-<date>.paste-snippet.md.
 See docs/skill-work/work-strategy/LANE-CI.md.
 """
 
@@ -87,7 +87,7 @@ def main() -> int:
     now = datetime.now(timezone.utc)
     ts_date = now.strftime("%Y-%m-%d")
     ts_full = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-    out_dir = args.staging_dir or (profile_dir(uid) / "recursion-gate-staging")
+    out_dir = args.staging_dir or (profile_dir(uid) / "archive/grace-mar-instance/recursion-gate-staging")
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"work-strategy-{ts_date}.paste-snippet.md"
     path.write_text(

@@ -38,6 +38,6 @@ def test_main_pins_x_platform(monkeypatch, tmp_path: Path) -> None:
     assert module.main() == 0
     assert captured["source_platform"] == "x"
     assert captured["account_author"] == "@example"
-    assert captured["source_url_profile"] == "https://x.com/example"
+    assert captured["source_url_platform/profile"] == "https://x.com/example"
     assert captured["pub_date"].isoformat() == "2026-05-07"
 

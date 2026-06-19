@@ -9,7 +9,7 @@ tags:
 - raw-input
 - quality
 - cleanup
-portable_source: skills-portable/transcript-cleanup/SKILL.md
+portable_source: skills/transcript-cleanup/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Transcript cleanup

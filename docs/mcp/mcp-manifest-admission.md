@@ -2,7 +2,7 @@
 
 **Status:** Planning-only WORK artifact generator. **This adapter does not execute MCP servers**, enable integrations, read credential stores, or touch canonical Record surfaces.
 
-**See also:** [`governed-mcp-layer.md`](governed-mcp-layer.md) (context), [`config/mcp-capabilities.yaml`](../../config/mcp-capabilities.yaml) (capability classes), [`schemas/mcp-server-manifest.v1.json`](../../schemas/mcp-server-manifest.v1.json) (manifest schema).
+**See also:** [`governed-mcp-layer.md`](governed-mcp-layer.md) (context), [`platform/config/mcp-capabilities.yaml`](../../platform/config/mcp-capabilities.yaml) (capability classes), [`schemas/mcp-server-manifest.v1.json`](../../schemas/mcp-server-manifest.v1.json) (manifest schema).
 
 ---
 
@@ -10,8 +10,8 @@
 
 Before wiring a proposed MCP server into an IDE or assistant host, the operator can **declare** tools, permissions, and intent in a **manifest** (YAML or JSON). The admission script **`scripts/mcp_manifest_admission.py`** ingests that file **from disk only**, validates it against the manifest schema, and produces:
 
-1. A **Markdown packet** under **`artifacts/mcp-admission/`** (WORK-layer draft — inspectable, not canonical Record).
-2. An **MCP execution receipt** under **`artifacts/mcp-receipts/`**, stamped with registry capability **`mcp_manifest_admission`** (**`output_lane: work_artifact`**).
+1. A **Markdown packet** under **`runtime/artifacts/mcp-admission/`** (WORK-layer draft — inspectable, not canonical Record).
+2. An **MCP execution receipt** under **`runtime/artifacts/mcp-receipts/`**, stamped with registry capability **`mcp_manifest_admission`** (**`output_lane: work_artifact`**).
 
 Admission answers: **Which Grace-Mar capability class does this declaration resemble**, **what authority lane binds**, **whether structured risk rules trip**, and **whether declared posture violates hard gates**. It does **not** attest that the live server behaves as declared.
 
@@ -31,7 +31,7 @@ Admission answers: **Which Grace-Mar capability class does this declaration rese
 
 ## Matching table (informal)
 
-Heuristic classification maps common declaration shapes to **`config/mcp-capabilities.yaml`** ids (examples): **`github_readonly`**, **`github_patch_proposal`**, **`filesystem_readonly`**, **`web_research`**, **`database_readonly`**, **`coding_agent_patch_intake`**, prohibition templates such as **`shell_execution_prohibited`** / **`memory_external_prohibited_by_default`**, or **`needs_manual_classification`** when no fingerprint fits.
+Heuristic classification maps common declaration shapes to **`platform/config/mcp-capabilities.yaml`** ids (examples): **`github_readonly`**, **`github_patch_proposal`**, **`filesystem_readonly`**, **`web_research`**, **`database_readonly`**, **`coding_agent_patch_intake`**, prohibition templates such as **`shell_execution_prohibited`** / **`memory_external_prohibited_by_default`**, or **`needs_manual_classification`** when no fingerprint fits.
 
 Danger-first ordering applies (for example shell verbs or merge-to-main in **`allowed_actions`** before benign SCM reads).
 
@@ -39,8 +39,8 @@ Danger-first ordering applies (for example shell verbs or merge-to-main in **`al
 
 ## Authority and risk
 
-- **Authority:** The matched capability’s **`output_lane`** is summarized against **`config/mcp-authority-bindings.yaml`** (same join table as other MCP receipts).
-- **Risk:** The script builds a **registry-shaped overlay** from the matched capability row plus manifest **`permissions`** fields where safe, then runs **`evaluate_capability`** from **`scripts/mcp_risk_scan.py`** against **`config/mcp-risk-policy.yaml`**. Hard blockers from the risk scan contribute to **blocked** admission status.
+- **Authority:** The matched capability’s **`output_lane`** is summarized against **`platform/config/mcp-authority-bindings.yaml`** (same join table as other MCP receipts).
+- **Risk:** The script builds a **registry-shaped overlay** from the matched capability row plus manifest **`permissions`** fields where safe, then runs **`evaluate_capability`** from **`scripts/mcp_risk_scan.py`** against **`platform/config/mcp-risk-policy.yaml`**. Hard blockers from the risk scan contribute to **blocked** admission status.
 
 ---
 
@@ -65,15 +65,15 @@ Receipt **`capability.id`** defaults to **`mcp_manifest_admission`**. **`result.
 ```bash
 python3 scripts/mcp_manifest_admission.py \
   --input examples/mcp-server-manifest.example.yaml \
-  --output artifacts/mcp-admission/example.md
+  --output runtime/artifacts/mcp-admission/example.md
 ```
 
-Paths **`--capabilities`**, **`--bindings`**, **`--policy`** default to repo **`config/`** files. **`--repo-root`** defaults to the repository root. **`--output`** must resolve under **`artifacts/mcp-admission/`**.
+Paths **`--capabilities`**, **`--bindings`**, **`--policy`** default to repo **`platform/config/`** files. **`--repo-root`** defaults to the repository root. **`--output`** must resolve under **`runtime/artifacts/mcp-admission/`**.
 
 ---
 
 ## Definition of done (operator)
 
 - Admission Markdown and receipt emitted under the artifact buckets.
-- **`python3 scripts/mcp_receipt_audit.py`** still validates committed receipts when you add JSON under **`artifacts/mcp-receipts/`**.
+- **`python3 scripts/mcp_receipt_audit.py`** still validates committed receipts when you add JSON under **`runtime/artifacts/mcp-receipts/`**.
 - Registry edits remain consistent: **`python3 scripts/mcp_capability_audit.py`** and **`python3 scripts/mcp_authority_check.py`**.

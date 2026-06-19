@@ -7,7 +7,7 @@
 
 ## Problem
 
-`conversations` in `bot/core.py` is an in-memory `defaultdict(list)`. Every restart wipes conversation history. The bot returns with no context beyond `self-memory.md` (manually curated) and the inlined Record in the system prompt. Older conversation turns (beyond the 20-turn window) are permanently lost to the LLM — they exist only in the append-only `session-transcript.md` which is never read back for context.
+`conversations` in `archive/grace-mar-instance/bot/core.py` is an in-memory `defaultdict(list)`. Every restart wipes conversation history. The bot returns with no context beyond `self-memory.md` (manually curated) and the inlined Record in the system prompt. Older conversation turns (beyond the 20-turn window) are permanently lost to the LLM — they exist only in the append-only `session-transcript.md` which is never read back for context.
 
 ## Solution
 
@@ -85,9 +85,9 @@ Three commands that bypass the Voice LLM entirely (zero token cost, no hallucina
 
 | File | Change |
 |------|--------|
-| `bot/chat_store.py` | New — SQLite module |
-| `bot/core.py` | Wire store/load/compact/summary into get_response and reset |
-| `bot/bot.py` | Add /recent, /search, /recall handlers |
+| `archive/grace-mar-instance/bot/chat_store.py` | New — SQLite module |
+| `archive/grace-mar-instance/bot/core.py` | Wire store/load/compact/summary into get_response and reset |
+| `archive/grace-mar-instance/bot/bot.py` | Add /recent, /search, /recall handlers |
 | `.gitignore` | Add data/chat_store.db |
 | This file | Design spec |
 

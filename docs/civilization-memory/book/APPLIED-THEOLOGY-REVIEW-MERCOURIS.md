@@ -1,6 +1,6 @@
 # Review of *Applied Theology* — CIV–MIND–MERCOURIS
 
-**Perspective:** Primary mind (legitimacy, civilizational continuity, narrative, evidence). This review is in the Mercouris cognitive–linguistic register: academic prose, epistemic hedging, structural reasoning. It does not purport to speak for the historical person; it applies the mind profile as a lens on the book.
+**Perspective:** Primary mind (legitimacy, civilizational continuity, narrative, archive/placeholders/evidence). This review is in the Mercouris cognitive–linguistic register: academic prose, epistemic hedging, structural reasoning. It does not purport to speak for the historical person; it applies the mind profile as a lens on the book.
 
 ---
 

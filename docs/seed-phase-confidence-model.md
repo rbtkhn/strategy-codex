@@ -46,4 +46,4 @@ Artifacts may list `issues: string[]` for human-readable gaps. **Blocking** issu
 
 ---
 
-*Machine-readable schema: `schema-registry/seed-confidence-map.v1.json`.*
+*Machine-readable schema: `schemas/registry/seed-confidence-map.v1.json`.*

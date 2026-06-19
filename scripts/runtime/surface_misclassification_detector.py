@@ -21,13 +21,13 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-DEFAULT_CLASSIFICATION_DIR = REPO_ROOT / "artifacts" / "classification-reports"
+DEFAULT_CLASSIFICATION_DIR = ARTIFACTS_DIR / "classification-reports"
 _SCRIPTS = REPO_ROOT / "scripts"
 _RUNTIME = Path(__file__).resolve().parent
 for _p in (_SCRIPTS, _RUNTIME):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
-from repo_io import DEFAULT_PROFILE_ID, profile_dir
+from repo_io import DEFAULT_PROFILE_ID, profile_dir, ARTIFACTS_DIR
 
 from recursion_gate_review import (
     _extract_block,
@@ -53,7 +53,7 @@ SURFACE_SIGNALS = {
         "think", "procedure", "competence", "ability", "reliable",
     }),
     "EVIDENCE": frozenset({
-        "evidence", "artifact", "receipt", "activity", "event", "observation",
+        "archive/placeholders/evidence", "artifact", "receipt", "activity", "event", "observation",
         "log", "submission", "trace", "happened", "read-",
     }),
     "WORK_LAYER": frozenset({
@@ -235,7 +235,7 @@ def score_surface_signals(proposal: Proposal) -> dict[str, int]:
     ctype = (proposal.candidate_type or "").lower()
     if "skill" in ctype:
         scores["SKILLS"] += 2
-    if "evidence" in ctype or "read" in ctype:
+    if "archive/placeholders/evidence" in ctype or "read" in ctype:
         scores["EVIDENCE"] += 2
     if "identity" in ctype:
         scores["SELF"] += 2

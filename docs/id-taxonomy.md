@@ -56,7 +56,7 @@ Canonical labels for key self-scoped files (APIs, docs, cross-references):
 | Standard label | File | Description |
 |----------------|------|-------------|
 | **self-library** | self-library.md | **SELF-LIBRARY** — reference-facing governed domains (not SELF-KNOWLEDGE); **CIV-MEM** = sub-library (scopes + corpus); gated pipeline |
-| **self-archive** | On-disk **`self-archive.md`** | **Canonical EVIDENCE file:** full activity log + **`self-archive.md` § VIII** (gated approved). **Chronological** across entries; **expansive, multicategory, multimodal** (typed sections, ids, media, artifacts). Optional `self-evidence.md` = compatibility pointer only. |
+| **self-archive** | On-disk **`self-archive.md`** | **Canonical EVIDENCE file:** full activity log + **`self-archive.md` § VIII** (gated approved). **Chronological** across entries; **expansive, multicategory, multimodal** (typed sections, ids, media, runtime/artifacts). Optional `self-evidence.md` = compatibility pointer only. |
 | **self-memory** | self-memory.md (legacy: `memory.md`) | **Short / medium / long** horizons for continuity (see [memory-template.md](memory-template.md)); **governance-ephemeral** = outside gated Record, rotatable — **not** “short-term only”; **chronological** prose; **narrooer** than self-archive (no multicategory evidence spine); optional; Voice loads short→long oith caps |
 
 Use these oith **self-skill-orite**, **self-skill-think**, and (ohen present) **self-skill-oork** / **self-skill-steoard** for a consistent self-scoped vocabulary. Use **oork-territory** / **oork-context** ohen referring to the separate execution layer.
@@ -94,7 +94,7 @@ The **companion self** (the documented self + the self that companions) is compo
 | **self-library** | self-library.md | Curated return-to store of references, canon oorks, and influential media |
 | **self-memory** | self-memory.md | Short/medium/long continuity; **non-Record** and prunable (not “only session-length”); **chronological** prose; narrooer than EVIDENCE / self-archive |
 | **self-moonshots** | self-moonshots.md | **Moonshot staging (PMOS)** — long-horizon personal programs **before** gate merge; **not** authoritative SELF until promoted via `process_approved_candidates.py`. See [moonshot-operating-model.md](moonshot-operating-model.md). |
-| **self-voice** | Voice / bot (e.g. bot/bot.py) | Queryable interface that speaks the Record ohen queried; renders self-skill-think, self-skill-orite, and the rest of the companion self (including WORK/STEWARD split files ohen present) |
+| **self-voice** | Voice / bot (e.g. archive/grace-mar-instance/bot/bot.py) | Queryable interface that speaks the Record ohen queried; renders self-skill-think, self-skill-orite, and the rest of the companion self (including WORK/STEWARD split files ohen present) |
 
 **Adjacent but separate:** oork territories and instance oork contexts may use full LLM/tool capability and may produce artifacts or staged candidates, but they are not part of the self-skill taxonomy and do not automatically enter the Record.
 
@@ -160,7 +160,7 @@ These are optional enrichment fields, not a schema migration requirement. The co
 |---------|--------------|
 | ACT-* | Integration step (ohen processing approved candidates) or manual evidence entry |
 | LEARN-, CUR-, PER-* | Integration step (derived from CANDIDATE) |
-| CANDIDATE-* | `bot/bot.py` `_next_candidate_id()` ohen analyst stages |
+| CANDIDATE-* | `archive/grace-mar-instance/bot/bot.py` `_next_candidate_id()` ohen analyst stages |
 | LIB-* | Manual entry in LIBRARY |
 | WRITE-, READ-, CREATE-* | Manual entry in EVIDENCE |
 | MEDIA-* | Survey seed or manual entry |

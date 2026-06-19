@@ -45,7 +45,7 @@ Describe exact deliverables: file paths, JSON shape, or PR/commit expectations.
 
 ## Guardrails and escalation
 
-- **Never merge** into SELF, EVIDENCE, or `bot/prompt.py` without companion approval and `process_approved_candidates.py` ([AGENTS.md](../../../../AGENTS.md)).
+- **Never merge** into SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` without companion approval and `process_approved_candidates.py` ([AGENTS.md](../../../../AGENTS.md)).
 - **Escalate to human** when: confidence below threshold, blast radius high, irreversible action, or policy ambiguity.
 - **Log** decisions with **reason codes** where the harness supports it.
 

@@ -1,6 +1,6 @@
 # CI validation manifest spike
 
-**Status:** Spike artifact shipped as [`config/ci_validation_manifest.yaml`](../../../config/ci_validation_manifest.yaml) (human-maintained mirror of [`scripts/ci_validation_inventory.py`](../../../scripts/ci_validation_inventory.py)).
+**Status:** Spike artifact shipped as [`platform/config/ci_validation_manifest.yaml`](../../../platform/config/ci_validation_manifest.yaml) (human-maintained mirror of [`scripts/ci_validation_inventory.py`](../../../scripts/ci_validation_inventory.py)).
 
 **Goal:** Optionally drive both **GitHub Actions** and **`scripts/validate.py`** from one manifest to eliminate CI/orchestrator drift.
 

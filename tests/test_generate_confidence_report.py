@@ -14,7 +14,7 @@ plotly = pytest.importorskip("plotly")
 
 def test_confidence_report_writes_html(tmp_path) -> None:
     target = tmp_path / "seed-phase"
-    shutil.copytree(REPO_ROOT / "users" / "demo" / "seed-phase", target)
+    shutil.copytree(REPO_ROOT / "platform/users" / "demo" / "seed-phase", target)
     result = run_cmd(
         [repo_python(), "scripts/generate-confidence-report.py", str(target)],
         cwd=REPO_ROOT,

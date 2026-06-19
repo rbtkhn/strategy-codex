@@ -81,7 +81,7 @@ class ScenarioLabBridgeTests(unittest.TestCase):
         self.assertIn("Contained local-first loop", mermaid)
         markdown = build_visualization_markdown(report, packet)
         self.assertIn("Assumptions vs Evidence", markdown)
-        bundle = build_bundle(report, packet, Path("artifacts/simulations/agent-control/report.json"))
+        bundle = build_bundle(report, packet, Path("runtime/artifacts/simulations/agent-control/report.json"))
         self.assertEqual(bundle["family"], "civ-emp")
         self.assertEqual(bundle["subsurface"], "ce-emp")
         self.assertEqual(bundle["intent"], "briefing")

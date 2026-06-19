@@ -15,7 +15,7 @@ This doc aligns with the three-layer model in [state-model.md](state-model.md): 
 ## Default precedence (high to low)
 
 1. **Governed state** — durable Record commitments and approved governed files (instance-specific; see [governed-state-layer.md](governed-state-layer.md)).
-2. **Accepted change-review objects** — proposals that reached an explicit **approved** decision and any linked decision records / diffs in `review-queue/` that the instance treats as binding for a transition. This is **audit and transition** state, not a fifth parallel truth: it exists to move governed state under policy.
+2. **Accepted change-review objects** — proposals that reached an explicit **approved** decision and any linked decision records / diffs in `archive/queues/review-queue/` that the instance treats as binding for a transition. This is **audit and transition** state, not a fifth parallel truth: it exists to move governed state under policy.
 3. **Prepared context** — operationally useful structured inputs for tools and agents; **not** authoritative over governed state.
 4. **Evidence** — source material; may be incomplete, noisy, or mutually conflicting.
 
@@ -25,7 +25,7 @@ This doc aligns with the three-layer model in [state-model.md](state-model.md): 
 
 ## Machine-readable default
 
-Optional file: [`config/source-of-truth.json`](../config/source-of-truth.json) (schema [`schema-registry/source-of-truth.v1.json`](../schema-registry/source-of-truth.v1.json)). Starter check: `scripts/check-source-conflict.py`.
+Optional file: [`platform/config/source-of-truth.json`](../platform/config/source-of-truth.json) (schema [`schemas/registry/source-of-truth.v1.json`](../schemas/registry/source-of-truth.v1.json)). Starter check: `scripts/check-source-conflict.py`.
 
 ---
 

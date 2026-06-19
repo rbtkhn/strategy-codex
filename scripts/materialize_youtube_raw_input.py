@@ -21,6 +21,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
+from repo_io import ARTIFACTS_DIR
 
 from yaml_compat import safe_dump, safe_load_text  # noqa: E402
 import build_speaker_memory_actions as speaker_actions  # noqa: E402
@@ -48,9 +49,9 @@ WATCHLIST_PATH = (
 )
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "youtube-raw-input"
-DEFAULT_ROUTING_OUT = REPO_ROOT / "artifacts" / "speaker-routing"
-DEFAULT_ACTION_OUT = REPO_ROOT / "artifacts" / "speaker-memory-actions"
-DEFAULT_HOST_QUALITY_OUT = REPO_ROOT / "artifacts" / "host-shelf-quality"
+DEFAULT_ROUTING_OUT = ARTIFACTS_DIR / "speaker-routing"
+DEFAULT_ACTION_OUT = ARTIFACTS_DIR / "speaker-memory-actions"
+DEFAULT_HOST_QUALITY_OUT = ARTIFACTS_DIR / "host-shelf-quality"
 MIN_BODY_WORDS = 75
 MIN_BODY_CHARS = 400
 PRIMARY_LANGS = ["en.*"]

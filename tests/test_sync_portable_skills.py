@@ -13,14 +13,14 @@ class SyncPortableSkillsTests(unittest.TestCase):
     appendix: .cursor/skills/demo/CURSOR_APPENDIX.md
     target: .cursor/skills/demo/SKILL.md
     verify_forbidden_substrings:
-      - users/grace-mar/
+      - platform/users/grace-mar/
       - process_approved_candidates
 """
         data = sps._parse_yaml_subset(text)
         self.assertEqual(data["skills"][0]["name"], "demo-skill")
         self.assertEqual(
             data["skills"][0]["verify_forbidden_substrings"],
-            ["users/grace-mar/", "process_approved_candidates"],
+            ["platform/users/grace-mar/", "process_approved_candidates"],
         )
 
     def test_parse_yaml_subset_rejects_block_scalars(self) -> None:

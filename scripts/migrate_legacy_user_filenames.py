@@ -39,7 +39,7 @@ RENAMES: list[tuple[str, str]] = [
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Migrate legacy user filenames to canonical paths.")
-    parser.add_argument("--user", required=True, help="User id under users/")
+    parser.add_argument("--user", required=True, help="User id under platform/users/")
     parser.add_argument(
         "--apply",
         action="store_true",
@@ -52,7 +52,7 @@ def main() -> int:
     )
     args = parser.parse_args()
     dry = not args.apply
-    user_dir = REPO_ROOT / "users" / args.user
+    user_dir = REPO_ROOT / "platform/users" / args.user
     if not user_dir.is_dir():
         print(f"error: {user_dir} is not a directory", file=sys.stderr)
         return 1
@@ -98,7 +98,7 @@ def main() -> int:
         return 0
 
     mode = "dry-run" if dry else "APPLIED"
-    print(f"[{mode}] users/{args.user}/")
+    print(f"[{mode}] platform/users/{args.user}/")
     for a in actions:
         print(f"  {a}")
     return 0

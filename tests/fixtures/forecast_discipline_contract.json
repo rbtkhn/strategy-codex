@@ -10,7 +10,7 @@
     "contradiction"
   ],
   "skill_contract": {
-    "path": "skills-portable/_drafts/expert-forecast-ledger/SKILL.md",
+    "path": "skills/_drafts/expert-forecast-ledger/SKILL.md",
     "points": 25,
     "critical": true,
     "must_cover": [

@@ -9,7 +9,7 @@ on:
     paths:
       - '**'
       - 'scripts/generate_profile.py'
-      - 'profile/CNAME'
+      - 'platform/profile/CNAME'
       - '.github/workflows/deploy-profile.yml'
   workflow_dispatch:
 
@@ -32,7 +32,7 @@ jobs:
         run: python3 scripts/generate_profile.py
 
       - name: Ensure CNAME for custom domain
-        run: echo 'grace-mar.com' > profile/CNAME
+        run: echo 'grace-mar.com' > platform/profile/CNAME
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

@@ -106,7 +106,7 @@ def build_report(
 
     raw_rel = _rel(path)
     item = next(
-        (artifact for artifact in summary["artifacts"] if artifact["raw_input_path"] == raw_rel),
+        (artifact for artifact in summary["runtime/artifacts"] if artifact["raw_input_path"] == raw_rel),
         None,
     )
     if not item:
@@ -118,9 +118,9 @@ def build_report(
             notebook_root=root,
             input_scope="provided-paths",
         )
-        if not item_summary["artifacts"]:
+        if not item_summary["runtime/artifacts"]:
             raise ValueError(f"Could not build quality artifact for {path}")
-        item = item_summary["artifacts"][0]
+        item = item_summary["runtime/artifacts"][0]
 
     return {
         "schema_version": 1,

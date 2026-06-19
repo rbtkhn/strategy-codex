@@ -59,7 +59,7 @@ def _run_main(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, doc: dict, argv_e
     inp = tmp_path / "input.json"
     inp.write_text(json.dumps(doc), encoding="utf-8")
 
-    pkt_parent = tmp_path / "artifacts" / "patch-intake"
+    pkt_parent = tmp_path / "runtime/artifacts" / "patch-intake"
     pkt_parent.mkdir(parents=True)
     out_pkt = pkt_parent / "packet.md"
 
@@ -101,7 +101,7 @@ def test_output_outside_patch_intake_fails(monkeypatch: pytest.MonkeyPatch, tmp_
 
     inp = tmp_path / "input.json"
     inp.write_text(json.dumps(_minimal_doc()), encoding="utf-8")
-    bad = tmp_path / "artifacts" / "other.md"
+    bad = tmp_path / "runtime/artifacts" / "other.md"
     bad.parent.mkdir(parents=True)
 
     monkeypatch.setattr(
@@ -158,7 +158,7 @@ def test_secret_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> N
 def test_high_path_classifies_but_succeeds(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_doc()
     doc["files_touched"] = [
-        {"path": "config/mcp-capabilities.yaml", "change_type": "modified"}
+        {"path": "platform/config/mcp-capabilities.yaml", "change_type": "modified"}
     ]
     code, pkt_path, rec_dir = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 0
@@ -199,7 +199,7 @@ def test_wrong_capability_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path)
         tmp_path,
         monkeypatch,
         _minimal_doc(),
-        ["--capability-id", "evidence_stub_operator_template"],
+        ["--capability-id", "evidence_stub_operatorplatform/template"],
     )
     assert code == 1
 
@@ -207,6 +207,6 @@ def test_wrong_capability_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path)
 def test_classify_helpers() -> None:
     from coding_agent_patch_intake import classify_risk
 
-    assert classify_risk("config/mcp-capabilities.yaml") == "HIGH"
+    assert classify_risk("platform/config/mcp-capabilities.yaml") == "HIGH"
     assert classify_risk("scripts/coding_agent_patch_intake.py") == "MEDIUM"
     assert classify_risk("docs/README.md") == "LOW"

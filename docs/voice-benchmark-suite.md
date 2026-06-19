@@ -32,7 +32,7 @@ python scripts/run_voice_benchmark.py --category tone
 python scripts/run_voice_benchmark.py --probe VB-TONE-001
 
 # JSON output for CI or trending across runs
-python scripts/run_voice_benchmark.py -o artifacts/voice_benchmark_results.json
+python scripts/run_voice_benchmark.py -o runtime/artifacts/voice_benchmark_results.json
 ```
 
 Requires `OPENAI_API_KEY`; uses `OPENAI_MODEL` (default: gpt-4o).

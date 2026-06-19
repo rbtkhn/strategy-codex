@@ -27,5 +27,5 @@ Append-only audit log for relay/transfer actions. Inspired by the essay: "Publis
 ## How to append
 
 1. **From Cursor (AI)**: When applying a transfer, append one line to `logs/transfer.ndjson` in the format above.
-2. **Programmatic**: `require('./apps/chat/src/transfer-log').append({ action, entity, summary })`
-3. **CLI**: `node -e "require('./apps/chat/src/transfer-log').append({action:'relay_to_scholar',entity:'RUSSIA',summary:'...'})"`
+2. **Programmatic**: `require('./platform/apps/chat/platform/src/transfer-log').append({ action, entity, summary })`
+3. **CLI**: `node -e "require('./platform/apps/chat/platform/src/transfer-log').append({action:'relay_to_scholar',entity:'RUSSIA',summary:'...'})"`

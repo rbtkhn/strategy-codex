@@ -4,7 +4,7 @@ Chat backend and adapters so users can interact with the Civilizational Memory C
 
 ## Architecture
 
-- **Engine** (`src/engine.js`): Session state (entity, mode, conversation history). Load STATE or SCHOLAR + MEM–RELEVANCE by mode; send last **5 turns** (10 messages) of the thread to the LLM so it can refer to prior exchange; parse response into `{ text, options, entity, mode }`. History is kept across entity and mode switches. All channels consume only this shape; see [docs/RESPONSE–FORMAT.md](docs/RESPONSE–FORMAT.md).
+- **Engine** (`platform/src/engine.js`): Session state (entity, mode, conversation history). Load STATE or SCHOLAR + MEM–RELEVANCE by mode; send last **5 turns** (10 messages) of the thread to the LLM so it can refer to prior exchange; parse response into `{ text, options, entity, mode }`. History is kept across entity and mode switches. All channels consume only this shape; see [docs/RESPONSE–FORMAT.md](docs/RESPONSE–FORMAT.md).
 - **Adapters**: Telegram bot (polling). Receives messages → engine → reply + inline keyboard (A–H). WeChat or other channels can be added as further consumers of the same output (text, voice, etc.).
 - **HTTP** (`POST /chat`): For webhooks or other clients. Body: `{ "platform": "telegram", "user_id": "123", "message": "Russia update" }`. Returns the canonical response as JSON.
 
@@ -17,13 +17,13 @@ Chat backend and adapters so users can interact with the Civilizational Memory C
    Copy `.env.example` to `.env` and set:
    - `OPENAI_API_KEY` — required for the engine.
    - `TELEGRAM_BOT_TOKEN` — from [@BotFather](https://t.me/BotFather).
-   - `CIVMEM_CONTENT_ROOT` — optional; default is parent of `apps/chat` (repo root if run from `apps/chat`).
+   - `CIVMEM_CONTENT_ROOT` — optional; default is parent of `platform/apps/chat` (repo root if run from `platform/apps/chat`).
    - `CHAT_MODE=1` — optional; enables **chat-optimized mode**: short replies (40–60 words), 4 options (A–D: More / Other angle / Switch entity / Done), slim context, and a one-time framing line after the first substantive reply. Set to `0` or omit for Cursor-style (8 options, 60–100 words). See [docs/CHAT–MODE–CONTRACT.md](docs/CHAT–MODE–CONTRACT.md).
    - `WEBHOOK_BASE_URL` — optional; if set with `TELEGRAM_BOT_TOKEN`, use **webhook** instead of polling (e.g. `https://your-domain.com`). Telegram will POST updates to `{WEBHOOK_BASE_URL}/telegram-webhook`. Requires a public HTTPS URL.
 
 3. **Install and run**
    ```bash
-   cd apps/chat
+   cd platform/apps/chat
    npm install
    npm start
    ```
@@ -71,7 +71,7 @@ Telegram is a **read-only control surface**: same options and flow as Cursor, no
 
 ## Webhook (optional)
 
-Telegram can use a webhook instead of polling. Set `WEBHOOK_BASE_URL` and register the webhook URL with Telegram; add a route in `src/index.js` that receives `req.body` (Telegram update) and calls the Telegram adapter’s handler. Current code uses polling for simplicity.
+Telegram can use a webhook instead of polling. Set `WEBHOOK_BASE_URL` and register the webhook URL with Telegram; add a route in `platform/src/index.js` that receives `req.body` (Telegram update) and calls the Telegram adapter’s handler. Current code uses polling for simplicity.
 
 ## Next: Sessions 4–6
 
@@ -79,7 +79,7 @@ After Session 3, run **Session 4** (entity switch + errors), **Session 5** (grou
 
 ## Activity archive
 
-Each Telegram exchange (user message + bot response) is appended to an **activity log** (NDJSON: one JSON object per line). Default path: `apps/chat/logs/telegram-activity.ndjson`. Override with `TELEGRAM_ACTIVITY_LOG` in `.env`; set to empty to disable. The `logs/` directory is gitignored. Each record includes timestamp, sessionKey, chatId, userMessage, responseText, options, entity, mode.
+Each Telegram exchange (user message + bot response) is appended to an **activity log** (NDJSON: one JSON object per line). Default path: `platform/apps/chat/logs/telegram-activity.ndjson`. Override with `TELEGRAM_ACTIVITY_LOG` in `.env`; set to empty to disable. The `logs/` directory is gitignored. Each record includes timestamp, sessionKey, chatId, userMessage, responseText, options, entity, mode.
 
 ## License / repo
 

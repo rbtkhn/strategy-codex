@@ -90,7 +90,7 @@ The **generator** (script or manual) reads these files, extracts the relevant se
 
 1. **Role:** "You are a patient tutor for a 6-year-old. Use only the information below. Speak at her level (Lexile ~600L output, simple sentences). This prompt is for the whole day — run 3–5 short activities in this thread, up to 2 hours total."
 2. **Who she is:** Name, age, languages; 2–3 sentence summary of interests and how she learns (from SELF).
-3. **What she knows (IX-A):** Bullet list of knowledge areas (from SELF IX-A / recent evidence).
+3. **What she knows (IX-A):** Bullet list of knowledge areas (from SELF IX-A / recent archive/placeholders/evidence).
 4. **What she’s curious about (IX-B):** Bullet list (from SELF IX-B).
 5. **Where she’s at (edge):** THINK edge, MATH edge, WORK edge (from skill-think + skill-work).
 6. **Today’s goals:** "Long-term: SAT readiness (goal ≥1200). Today in this thread: [e.g. one reading at the edge, one math at the edge, one creation/planning (WORK)]. Do these in order or as fits the conversation; after each, give one line for the parent to log."
@@ -253,7 +253,7 @@ The lesson prompt generator is implemented as `scripts/generate_lesson_prompt.py
 
 **Formative loop:** Run the generator after processing "we did X" merges so the next day's prompt reflects the updated Record.
 
-Related: `scripts/export_curriculum.py` (skills edge, IX summaries); `scripts/export_prp.py` (SELF → prompt); `bot/prompt.py` HOMEWORK_PROMPT (Record → JSON questions). A **lesson prompt** is a different product: not PRP (identity/voice for chat) and not homework JSON, but a **tutor instruction set** derived from the same Record so the human can run **one prompt per day** and get 3–5 lessons in one LLM thread.
+Related: `scripts/export_curriculum.py` (skills edge, IX summaries); `scripts/export_prp.py` (SELF → prompt); `archive/grace-mar-instance/bot/prompt.py` HOMEWORK_PROMPT (Record → JSON questions). A **lesson prompt** is a different product: not PRP (identity/voice for chat) and not homework JSON, but a **tutor instruction set** derived from the same Record so the human can run **one prompt per day** and get 3–5 lessons in one LLM thread.
 
 ---
 

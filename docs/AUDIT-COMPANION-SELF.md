@@ -2,7 +2,7 @@
 
 > Audit timestamp note: this audit predates the work-layer refactor. Where it lists `self-skill-work`, read that as the older taxonomy snapshot rather than current canon.
 
-**Purpose:** Assess how well Grace-Mar (docs, prompts, code, profile) aligns with the **companion-self** concept: the dual meaning (companion's self + self that companions), the **self-\*** taxonomy (self-knowledge, self-curiosity, self-personality, self-skill-*, self-archive, self-library, self-memory, self-voice), and **triadic cognition** (Mind, Record, Voice; synonym tricameral mind). Companion-self is both the concept and the **template repository** ([github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self)), the origin for Grace-Mar and future instances.
+**Purpose:** Assess how well Grace-Mar (docs, prompts, code, platform/profile) aligns with the **companion-self** concept: the dual meaning (companion's self + self that companions), the **self-\*** taxonomy (self-knowledge, self-curiosity, self-personality, self-skill-*, self-archive, self-library, self-memory, self-voice), and **triadic cognition** (Mind, Record, Voice; synonym tricameral mind). Companion-self is both the concept and the **template repository** ([github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self)), the origin for Grace-Mar and future instances.
 
 **Scope:** Conceptual and terminology alignment. Structure/template compliance (instance vs repo) is in [AUDIT-GRACE-MAR-VS-COMPANION-SELF-TEMPLATE](audit-grace-mar-vs-companion-self-template.md).
 
@@ -41,9 +41,9 @@
 
 | Surface | Findings | Status |
 |---------|----------|--------|
-| **bot/prompt.py — SYSTEM_PROMPT** | "Record", "Voice", "triadic cognition (MIND, RECORD, VOICE)", "companion", "Knowledge boundary"; "the user documents" / "we recall" in one line (could use "companion" for consistency) | ✅ Aligned; minor wording |
-| **bot/prompt.py — ANALYST** | "companion gates", "Record (Grace-Mar)", "triadic cognition"; one explicit "self-personality / BUILD context" | ✅ Aligned |
-| **bot/prompt.py — LOOKUP/REPHRASE** | No companion-self phrasing required | ✅ N/A |
+| **archive/grace-mar-instance/bot/prompt.py — SYSTEM_PROMPT** | "Record", "Voice", "triadic cognition (MIND, RECORD, VOICE)", "companion", "Knowledge boundary"; "the user documents" / "we recall" in one line (could use "companion" for consistency) | ✅ Aligned; minor wording |
+| **archive/grace-mar-instance/bot/prompt.py — ANALYST** | "companion gates", "Record (Grace-Mar)", "triadic cognition"; one explicit "self-personality / BUILD context" | ✅ Aligned |
+| **archive/grace-mar-instance/bot/prompt.py — LOOKUP/REPHRASE** | No companion-self phrasing required | ✅ N/A |
 | **PRP / profile LLM snippet** | "Triadic cognition (when explaining Grace-Mar): Mind, Record, Voice" | ✅ Aligned |
 
 **Verdict:** Prompts reinforce Record, Voice, triadic cognition, and companion. They do not need to use the phrase "companion self" or every self-* label; the structure (Record = documented self, Voice = speaks when queried) is clear.
@@ -54,7 +54,7 @@
 
 | Surface | Findings | Status |
 |---------|----------|--------|
-| **profile/index.html** | Tagline "Record · Voice · You" (triadic: You = Mind). No "companion self" — acceptable for minimal public page | ✅ Aligned |
+| **platform/profile/index.html** | Tagline "Record · Voice · You" (triadic: You = Mind). No "companion self" — acceptable for minimal public page | ✅ Aligned |
 | **README** | grace-mar.com + companion-self.com; "companion self concept / product" | ✅ Present |
 
 **Verdict:** Public copy is consistent with triadic framing. "Companion self" is not required on the profile page.

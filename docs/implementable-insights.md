@@ -74,7 +74,7 @@ Concrete takeaways from external discourse (Claws, AGI/harness discussions) that
 **Insight:** Adding a capability (e.g. a new channel) should be a **skill**: a doc + template or small code pattern that an agent or human can apply, rather than another branch in a giant config.
 
 **Implementable actions:**
-- **Adding a channel:** Follow the pattern in [ADDING-A-CHANNEL](adding-a-channel.md): replicate Telegram/WeChat structure (entrypoint, core call, env), add one place in config/router. No "if channel X then …" sprawl.
+- **Adding a channel:** Follow the pattern in [ADDING-A-CHANNEL](adding-a-channel.md): replicate Telegram/WeChat structure (entrypoint, core call, env), add one place in platform/config/router. No "if channel X then …" sprawl.
 - New integrations: prefer "skill doc + code template" over expanding a single config schema.
 
 **Status:** adding-a-channel.md created; pattern applied to existing Telegram/WeChat.
@@ -88,8 +88,8 @@ Concrete takeaways from external discourse (Claws, AGI/harness discussions) that
 **Insight:** Keep core bot and pipeline small and readable so they remain auditable and forkable.
 
 **Implementable actions:**
-- Prefer adding a **documented skill or script** over expanding `bot/` or pipeline logic without bounds.
-- When refactoring, preserve or reduce line count in `bot/core.py`, `bot/prompt.py`, and pipeline scripts; extract only when it improves clarity.
+- Prefer adding a **documented skill or script** over expanding `archive/grace-mar-instance/bot/` or pipeline logic without bounds.
+- When refactoring, preserve or reduce line count in `archive/grace-mar-instance/bot/core.py`, `archive/grace-mar-instance/bot/prompt.py`, and pipeline scripts; extract only when it improves clarity.
 - Run `scripts/check_harness_invariants.py` before major model or harness changes (runs governance_checker + optional line-count warn). CI runs `scripts/governance_checker.py` on every push/PR (`.github/workflows/governance.yml`).
 
 **Status:** Implemented — check_harness_invariants.py, governance.yml; line limits in script are advisory (warn only).

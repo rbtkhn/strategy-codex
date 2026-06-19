@@ -47,8 +47,8 @@ def test_slugify_title():
 def test_write_compression_json_writes_expected_keys(tmp_path):
     mod = _load_jiang_compress()
     repo = tmp_path / "repo"
-    (repo / "users" / "u1" / "seed").mkdir(parents=True)
-    (repo / "users" / "u1" / "seed" / "minimal-core.json").write_text(
+    (repo / "platform/users" / "u1" / "seed").mkdir(parents=True)
+    (repo / "platform/users" / "u1" / "seed" / "minimal-core.json").write_text(
         '{"coreFacts": ["alpha beta gamma"]}', encoding="utf-8"
     )
     (repo / "research" / "external" / "work-jiang" / "compressions").mkdir(parents=True)
@@ -63,7 +63,7 @@ def test_write_compression_json_writes_expected_keys(tmp_path):
         one_sentence="Shipped the test.",
         actions=["Run validators"],
         linked=["codex/predictive-history/STATUS.md"],
-        minimal_core=json.loads((repo / "users" / "u1" / "seed" / "minimal-core.json").read_text()),
+        minimal_core=json.loads((repo / "platform/users" / "u1" / "seed" / "minimal-core.json").read_text()),
         intent_link=None,
     )
     assert out.is_file()
@@ -74,7 +74,7 @@ def test_write_compression_json_writes_expected_keys(tmp_path):
     assert data["category"] == "analytical"
     assert data["executableNextActions"] == ["Run validators"]
     assert data["linkedEvidence"] == ["codex/predictive-history/STATUS.md"]
-    assert not (repo / "users" / "u1" / "self.md").exists()
+    assert not (repo / "platform/users" / "u1" / "self.md").exists()
 
 
 def test_build_gate_stub_contains_compression_path():

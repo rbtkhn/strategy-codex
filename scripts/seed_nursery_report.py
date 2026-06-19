@@ -32,7 +32,7 @@ TERMINAL_STATUSES = {"promoted", "rejected", "expired"}
 
 
 def _load_rules(rules_path: Path | None = None) -> dict[str, Any]:
-    path = rules_path or (REPO_ROOT / "config" / "seed-promotion-rules.json")
+    path = rules_path or (REPO_ROOT / "platform/config" / "seed-promotion-rules.json")
     if not path.exists():
         return {"defaults": {"min_observations": 2, "min_sessions": 2,
                              "min_time_span_days": 7, "recurrence_score_threshold": 0.6,

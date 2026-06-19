@@ -43,7 +43,7 @@ def run_diagnostics(config_path: Path, repo_root: Path) -> dict:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--config", type=Path, required=True)
+    ap.add_argument("--platform/config", type=Path, required=True)
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
     ap.add_argument("--json-out", type=Path, default=None)
     args = ap.parse_args()

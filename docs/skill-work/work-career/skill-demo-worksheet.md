@@ -7,7 +7,7 @@
 | 1 | Specification precision | e.g. [work-dev template](../work-dev/templates/specification-precision.md) | |
 | 2 | Evaluation / quality judgment | e.g. [quality-gates-narrative](../work-dev/quality-gates-narrative.md) | |
 | 3 | Task decomposition / multi-agent | e.g. [PARALLEL-MACRO-ACTIONS](../work-dev/PARALLEL-MACRO-ACTIONS.md) | |
-| 4 | Failure pattern recognition | e.g. [failure checklist](../../../recursion-gate-staging/failure-pattern-checklist.md) | |
+| 4 | Failure pattern recognition | e.g. [failure checklist](../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md) | |
 | 5 | Trust / guardrails | e.g. [AGENTS.md](../../../AGENTS.md) stage-only rule | |
 | 6 | Context architecture | e.g. [session-continuity-contract](../work-dev/session-continuity-contract.md) | |
 | 7 | Token economics | e.g. [token_economics.py](../../../scripts/token_economics.py) | |

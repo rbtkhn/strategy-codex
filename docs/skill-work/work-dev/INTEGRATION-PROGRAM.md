@@ -54,7 +54,7 @@ python scripts/openclaw_heartbeat.py -u strategy-codex
 
 | Action | Command (examples) |
 |--------|---------------------|
-| Identity + manifest | `python integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event` |
+| Identity + manifest | `python platform/integrations/openclaw_hook.py --user grace-mar --format md+manifest --emit-event` |
 | Runtime bundle | `python scripts/export_runtime_bundle.py --user grace-mar --mode adjunct_runtime -o <dir>` |
 | User identity only | `python scripts/export_user_identity.py --user grace-mar` |
 
@@ -74,8 +74,8 @@ Do **not** treat raw EVIDENCE dumps or RECURSION-GATE as identity exports (see f
 
 | Action | Command |
 |--------|---------|
-| Text + optional artifact | `python integrations/openclaw_stage.py --user grace-mar --text "…"` |
-| Artifact | `python integrations/openclaw_stage.py --user grace-mar --artifact <path>` |
+| Text + optional artifact | `python platform/integrations/openclaw_stage.py --user grace-mar --text "…"` |
+| Artifact | `python platform/integrations/openclaw_stage.py --user grace-mar --artifact <path>` |
 
 Inbound payloads get **advisory** constitutional critique vs `intent.md` / INTENT (events only — not auto-block). Prefer **structured** artifact refs; avoid anchoring narrative risk in the same blob as facts ([agent-reliability-playbook.md](agent-reliability-playbook.md)).
 
@@ -112,8 +112,8 @@ Then refresh PRP/export as documented in AGENTS.md File Update Protocol.
 
 | Script | Role |
 |--------|------|
-| `integrations/openclaw_hook.py` | Export + optional events |
-| `integrations/openclaw_stage.py` | Stage-only handback |
+| `platform/integrations/openclaw_hook.py` | Export + optional events |
+| `platform/integrations/openclaw_stage.py` | Stage-only handback |
 | `scripts/continuity_read_log.py` | Log continuity read |
 | `scripts/harness_warmup.py` | New-session gate/evidence snapshot |
 | `scripts/openclaw_heartbeat.py` | Long-session pulse |
@@ -156,7 +156,7 @@ If OpenClaw is abandoned, evolves incompatibly, or the operator decides the inte
 
 1. **Stop staging from OpenClaw.** Pending OpenClaw-sourced candidates in the gate are reviewed and cleared normally through the existing pipeline.
 2. **Stop exporting.** The Record continues in companion-self unaffected. OpenClaw retains its last export but receives no updates.
-3. **Archive integration scripts.** Move `integrations/openclaw_hook.py` and `integrations/openclaw_stage.py` to `integrations/archived/` with a README note. Remove references from this program doc.
+3. **Archive integration scripts.** Move `platform/integrations/openclaw_hook.py` and `platform/integrations/openclaw_stage.py` to `platform/integrations/archived/` with a README note. Remove references from this program doc.
 4. **No Record data is lost.** The integration only read from and staged to the existing pipeline. Retirement is cleanup, not migration.
 
 ### Scope creep guardrail
@@ -165,7 +165,7 @@ This program covers **one loop**: read → export → stage → human-gate merge
 
 - **Bidirectional sync** (OpenClaw writing back to companion-self without staging)
 - **Autonomous merge** (any path that bypasses companion approval)
-- **New integration targets** (e.g. OB1, Telegram bots, third-party agents) without a separate integration plan per target — see [OB1 bridge](../../integrations/ob1/README.md) for the pattern
+- **New integration targets** (e.g. OB1, Telegram bots, third-party agents) without a separate integration plan per target — see [OB1 bridge](../../platform/integrations/ob1/README.md) for the pattern
 - **Scheduled or automated execution** (cron, GitHub Actions, webhooks) — every invocation is a conscious operator decision
 
 Adding any of these requires a new plan document with operator approval, not an incremental PR to this file.

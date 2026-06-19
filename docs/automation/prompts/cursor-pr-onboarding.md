@@ -20,7 +20,7 @@ Grace-Mar uses **deterministic** [GitHub Actions](https://github.com/rbtkhn/grac
 
 - No **commits**, **pushes**, or **file** **edits**.
 - **No** **label** **changes**; **no** **approvals** or **review**-**state** **changes** in v1.
-- **No** **Record** / **gate** / `session-log` / `bot/prompt.py` **edits**.
+- **No** **Record** / **gate** / `session-log` / `archive/grace-mar-instance/bot/prompt.py` **edits**.
 - **No** `process_approved_candidates.py` (any **flags**).
 - **No** **staging** / **approving** / **rejecting** / **creating** **`CANDIDATE-*`**.
 - **No** **memory** for **PR** text, **logs**, **diffs**, or **untrusted** **issues**.
@@ -59,11 +59,11 @@ This automation runs when a **GitHub** **PR** is **opened**, **synchronized**, o
 | `self-archive.md` | **EVIDENCE**-sensitive |
 | `recursion-gate.md` | **Gate**-sensitive |
 | `session-log.md` | Session-log-sensitive |
-| `bot/prompt.py` | **Prompt**-sensitive |
+| `archive/grace-mar-instance/bot/prompt.py` | **Prompt**-sensitive |
 | `**` generally | **Protected** **instance** **surface** |
 | `.github/workflows/**` | **CI** / **governance** **infrastructure** |
 | `scripts/**` | **Tooling** / **runtime** **surface** |
-| `artifacts/**` | **Derived** **artifact** **surface** |
+| `runtime/artifacts/**` | **Derived** **artifact** **surface** |
 
 **Output** **fields** and **order:** use the **exact** [canonical template in the operator guide](../cursor-pr-onboarding.md#output-comment-format) â€” **no** **alternate** **headings**.
 

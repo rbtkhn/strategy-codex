@@ -1,4 +1,4 @@
-"""Tests for capture scaffold scripts (non-canonical Markdown under artifacts/)."""
+"""Tests for capture scaffold scripts (non-canonical Markdown under runtime/artifacts/)."""
 
 from __future__ import annotations
 
@@ -35,7 +35,7 @@ def _run(script: str, *args: str, repo: Path) -> subprocess.CompletedProcess[str
 
 def test_new_work_note_writes_under_output(tmp_path: Path) -> None:
     mini = _mini_repo(tmp_path)
-    out = mini / "artifacts" / "work-notes"
+    out = mini / "runtime/artifacts" / "work-notes"
     r = _run(
         "new_work_note.py",
         "--repo-root",
@@ -62,7 +62,7 @@ def test_new_work_note_writes_under_output(tmp_path: Path) -> None:
 
 def test_new_evidence_stub_writes_under_output(tmp_path: Path) -> None:
     mini = _mini_repo(tmp_path)
-    out = mini / "artifacts" / "evidence-stubs"
+    out = mini / "runtime/artifacts" / "evidence-stubs"
     r = _run(
         "new_evidence_stub.py",
         "--repo-root",
@@ -88,7 +88,7 @@ def test_new_evidence_stub_writes_under_output(tmp_path: Path) -> None:
 
 def test_new_candidate_draft_writes_under_output(tmp_path: Path) -> None:
     mini = _mini_repo(tmp_path)
-    out = mini / "artifacts" / "candidate-drafts"
+    out = mini / "runtime/artifacts" / "candidate-drafts"
     r = _run(
         "new_candidate_draft.py",
         "--repo-root",

@@ -11,7 +11,7 @@
 | Surface | What it is | Holds a live companion Record? |
 |---------|------------|--------------------------------|
 | **grace-mar** | This **repository** â€” reference **instance** ``, full stack, operator tooling | **Yes** â€” the companionâ€™s fork hosted here |
-| **companion-self** | **Upstream template** repo â€” `_template/`, protocol docs, reusable scaffolds | **No** â€” no `<real-id>/` Record; template only |
+| **companion-self** | **Upstream template** repo â€” `platform/template/`, protocol docs, reusable scaffolds | **No** â€” no `<real-id>/` Record; template only |
 
 **Other instances** (e.g. a companion who clones the template into **their own** repo) are **outside** this repo. Their boundaries are the same **Identity Fork Protocol** and fork isolation rules in their workspace.
 
@@ -23,7 +23,7 @@
 
 | Boundary | grace-mar | companion-self |
 |----------|-----------|----------------|
-| **Fork namespace** | `` only | `_template/` only (scaffold, not a person) |
+| **Fork namespace** | `` only | `platform/template/` only (scaffold, not a person) |
 | **Template â†’ instance** | Merges via [MERGING-FROM-COMPANION-SELF](merging-from-companion-self.md); **never** overwrite live Record wholesale | Source of **structure** and **protocol** |
 | **Instance â†’ template** | Structural / instance-agnostic improvements may **propose** upstream PRs | Accepts PRs; remains **generic** |
 | **SELF-KNOWLEDGE vs SELF-LIBRARY** | IX vs `self-library.md` rows â€” [boundary doc](boundary-self-knowledge-self-library.md) | Template teaches the same rule |
@@ -48,7 +48,7 @@
 | Prohibited | Why |
 |------------|-----|
 | **Undocumented facts** into `` without pipeline | Sovereign merge rule; [AGENTS.md](../AGENTS.md). |
-| **Template treated as Record** | No approvals or IX in companion-self `_template/` as if it were a companion. |
+| **Template treated as Record** | No approvals or IX in companion-self `platform/template/` as if it were a companion. |
 | **LLM / training knowledge** into profile without pipeline | Knowledge boundary. |
 
 ---

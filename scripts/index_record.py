@@ -11,7 +11,7 @@ This is **not** the Tier 1.3 keyword retriever used in chat grounding — that i
 
 Operator context (optional): before a long indexing or review session, you may run
 ``python scripts/compress_active_lane.py --lane work-<id>`` to emit a small
-``artifacts/context/active-lane-*.md`` summary with recovery paths — that file is
+``runtime/artifacts/context/active-lane-*.md`` summary with recovery paths — that file is
 not indexed as Record; it is a Context Efficiency Layer aid (see
 ``docs/skill-work/active-lane-compression.md``).
 """
@@ -45,7 +45,7 @@ def build_index(user_id: str = "grace-mar", persist_path: Path | None = None) ->
         print("OPENAI_API_KEY not set; cannot embed.", file=sys.stderr)
         return 0
 
-    persist_path = persist_path or REPO_ROOT / "users" / user_id / ".chroma"
+    persist_path = persist_path or REPO_ROOT / "platform/users" / user_id / ".chroma"
     persist_path.mkdir(parents=True, exist_ok=True)
     client = chromadb.PersistentClient(path=str(persist_path))
     ef = embedding_functions.OpenAIEmbeddingFunction(api_key=api_key, model_name="text-embedding-3-small")

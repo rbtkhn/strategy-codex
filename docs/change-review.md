@@ -2,7 +2,7 @@
 
 Companion-Self template · Governed self-revision doctrine (v1 entrypoint)
 
-**Machine validation:** [change-review-validation.md](change-review-validation.md) — schema checks, reference integrity, and Markdown diff generation for `review-queue/`.
+**Machine validation:** [change-review-validation.md](change-review-validation.md) — schema checks, reference integrity, and Markdown diff generation for `archive/queues/review-queue/`.
 
 **Gate vs change-review:** [gate-vs-change-review.md](gate-vs-change-review.md) — when to use the recursion gate vs the review queue.
 
@@ -12,18 +12,18 @@ Companion-Self template · Governed self-revision doctrine (v1 entrypoint)
 
 ## State proposal object
 
-Meaningful post-seed revision should be represented as a **state proposal**: a JSON file that validates as **Change Proposal v1** under `review-queue/proposals/`, not as a vague “memory update” with no durable object.
+Meaningful post-seed revision should be represented as a **state proposal**: a JSON file that validates as **Change Proposal v1** under `archive/queues/review-queue/proposals/`, not as a vague “memory update” with no durable object.
 
 See:
 
 - [state-proposals.md](state-proposals.md) — definition, field mapping, gate vs queue
-- [schema-registry/change-proposal.v1.json](../schema-registry/change-proposal.v1.json) — machine schema
+- [schemas/registry/change-proposal.v1.json](../schemas/registry/change-proposal.v1.json) — machine schema
 
 Material **source** conflicts between evidence, prepared context, and governed state should become proposals and review objects, not silent updates to the Record. See [source-of-truth.md](source-of-truth.md) and [conflict-resolution-order.md](conflict-resolution-order.md).
 
 **Observability:** Change review should be observable through proposal counts, change-type and surface summaries, and validation-backed reports ([observability.md](observability.md), `scripts/build-observability-report.py`).
 
-**Authority:** Proposal generation and review routing should be **authority-aware** ([authority-map.md](authority-map.md), `config/authority-map.json`). Proposal generation, review decisions, and accepted merges should be capable of emitting **action receipts** for operator audit ([action-receipts.md](action-receipts.md)); receipts complement, not replace, governed state.
+**Authority:** Proposal generation and review routing should be **authority-aware** ([authority-map.md](authority-map.md), `platform/config/authority-map.json`). Proposal generation, review decisions, and accepted merges should be capable of emitting **action receipts** for operator audit ([action-receipts.md](action-receipts.md)); receipts complement, not replace, governed state.
 
 ---
 

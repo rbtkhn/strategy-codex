@@ -76,7 +76,7 @@ python3 scripts/tacit/render_tacit_candidates_md.py runtime/tacit/candidates/*.j
 python3 scripts/prepared_context/build_budgeted_context.py \
   --lane work-strategy --mode medium \
   -q "mission" \
-  -o prepared-context/tacit-mission-demo.md \
+  -o runtime/prepared-context/tacit-mission-demo.md \
   --include-mission docs/skill-work/work-moonshots/missions/demo-christianity-islam-bridge/mission-spec.md
 ```
 
@@ -86,8 +86,8 @@ Same budget, inclusion/exclusion reporting, and boundary footer as other prepare
 
 ## Schemas
 
-- [`schema-registry/tacit-capture-normalized.v1.json`](../../schema-registry/tacit-capture-normalized.v1.json)
-- [`schema-registry/tacit-candidate.v1.json`](../../schema-registry/tacit-candidate.v1.json)
+- [`schemas/registry/tacit-capture-normalized.v1.json`](../../schemas/registry/tacit-capture-normalized.v1.json)
+- [`schemas/registry/tacit-candidate.v1.json`](../../schemas/registry/tacit-candidate.v1.json)
 
 ## Candidate types (v1)
 
@@ -101,5 +101,5 @@ See [candidate-types.md](candidate-types.md).
 
 **Intentionally deferred:** LLM enrichment; automatic `recursion-gate.md` staging; optional exporter from tacit into `runtime/observations` for unified ranking.
 
-**Governance:** No writes to SELF, EVIDENCE, SKILLS, or `bot/prompt.py`; gate merge path unchanged.
+**Governance:** No writes to SELF, EVIDENCE, SKILLS, or `archive/grace-mar-instance/bot/prompt.py`; gate merge path unchanged.
 

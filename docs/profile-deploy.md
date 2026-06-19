@@ -63,8 +63,8 @@ Wait for DNS to propagate (minutes to a few hours). Back in **Settings** â†�
 
 Two workflows can deploy the profile:
 
-- **`.github/workflows/deploy-profile.yml`** (recommended) â€” Uses official GitHub Actions (`upload-pages-artifact` + `deploy-pages`). Ensures `profile/CNAME` contains `grace-mar.com` so the custom domain works. **Requires:** In repo **Settings â†’ Pages**, set **Source** to **GitHub Actions** (not "Deploy from a branch"). Triggers on push to `main` when `**`, `scripts/generate_profile.py`, `profile/CNAME`, or the workflow file change.
-- **`.github/workflows/pages.yml`** â€” Uses `peaceiris/actions-gh-pages` to push the `profile/` folder to the `gh-pages` branch. Use when Pages is set to **Deploy from a branch** (branch: `gh-pages`, folder: root). Also add `profile/CNAME` with `grace-mar.com` so the custom domain is set.
+- **`.github/workflows/deploy-profile.yml`** (recommended) â€” Uses official GitHub Actions (`upload-pages-artifact` + `deploy-pages`). Ensures `platform/profile/CNAME` contains `grace-mar.com` so the custom domain works. **Requires:** In repo **Settings â†’ Pages**, set **Source** to **GitHub Actions** (not "Deploy from a branch"). Triggers on push to `main` when `**`, `scripts/generate_profile.py`, `platform/profile/CNAME`, or the workflow file change.
+- **`.github/workflows/pages.yml`** â€” Uses `peaceiris/actions-gh-pages` to push the `platform/profile/` folder to the `gh-pages` branch. Use when Pages is set to **Deploy from a branch** (branch: `gh-pages`, folder: root). Also add `platform/profile/CNAME` with `grace-mar.com` so the custom domain is set.
 
 Pushes that only touch docs or other paths skip the deploy. You can also run either workflow manually.
 
@@ -74,7 +74,7 @@ See profile changes immediately without pushing:
 
 ```bash
 python3 scripts/generate_profile.py
-open profile/index.html   # macOS; on Linux: xdg-open profile/index.html
+open platform/profile/index.html   # macOS; on Linux: xdg-open platform/profile/index.html
 ```
 
 Or use the preview script (generates + opens):
@@ -89,11 +89,11 @@ When youâ€™re happy, push to `main`; the workflow will run and update grace
 
 ```bash
 git add -A
-git commit -m "Update profile"
+git commit -m "Update platform/profile"
 git push origin main
 ```
 
-The **Deploy profile to Pages** workflow runs `python3 scripts/generate_profile.py`, ensures `profile/CNAME` is set for grace-mar.com, and publishes the `profile/` folder (via `gh-pages` branch or GitHub Actions artifact). In a minute or two, https://grace-mar.com will show the new content.
+The **Deploy profile to Pages** workflow runs `python3 scripts/generate_profile.py`, ensures `platform/profile/CNAME` is set for grace-mar.com, and publishes the `platform/profile/` folder (via `gh-pages` branch or GitHub Actions artifact). In a minute or two, https://grace-mar.com will show the new content.
 
 ### Option B â€” Run the workflow manually
 
@@ -107,7 +107,7 @@ If you donâ€™t want to use the workflow:
 ```bash
 python3 scripts/generate_profile.py
 git checkout gh-pages   # or create branch: git checkout -b gh-pages
-git add profile/
+git add platform/profile/
 git commit -m "Profile update"
 git push origin gh-pages
 git checkout main
@@ -121,7 +121,7 @@ git checkout main
 - **https://grace-mar.com/profile** â€” Full profile view (identity, pipeline, SKILLS, benchmarks).
 - **https://grace-mar.com/telegram** â€” If configured, opens the Telegram chat with your Grace-Mar bot (instant redirect to `t.me/YourBotUsername`). To enable: create `telegram_bot_username.txt` with one line, your botâ€™s username from @BotFather (e.g. `MyGraceMarBot`, no `@`). Regenerate the profile and redeploy.
 - **https://grace-mar.com/llm** â€” Full PRP prompt text only, one-tap copy. Paste into any LLM (ChatGPT, Claude, etc.). Content is from `grace-mar-llm.txt`; regenerate with `export_prp.py` and redeploy to refresh.
-- **https://grace-mar.com/wechat** â€” If configured, redirects to your WeChat Official Account URL (e.g. mp.weixin.qq.com link). Add the URL in one line to `WECHAT_ACCOUNT_URL.txt`, regenerate the profile, and redeploy. See `bot/wechat-setup.md`.
+- **https://grace-mar.com/wechat** â€” If configured, redirects to your WeChat Official Account URL (e.g. mp.weixin.qq.com link). Add the URL in one line to `WECHAT_ACCOUNT_URL.txt`, regenerate the profile, and redeploy. See `archive/grace-mar-instance/bot/wechat-setup.md`.
 - **https://grace-mar.com/playlist** â€” Placeholder; playlist feature coming later.
 - In the Telegram bot, set `PROFILE_MINIAPP_URL=https://grace-mar.com` (or `DASHBOARD_MINIAPP_URL`) so the menu button opens this URL.
 
@@ -138,9 +138,9 @@ git checkout main
 
 ---
 
-**Documentation site (MkDocs):** The repo includes `mkdocs.yml` for a navigable docs site. Build with `mkdocs build` (output in `site/`). To deploy docs alongside the profile, add a step that runs `pip install mkdocs mkdocs-readthedocs-theme` and `mkdocs build`, then copy `site/` into `profile/docs/` before uploading the artifact so that https://grace-mar.com/docs/ serves the MkDocs site. See [MkDocs](https://www.mkdocs.org/) for local preview (`mkdocs serve`).
+**Documentation site (MkDocs):** The repo includes `mkdocs.yml` for a navigable docs site. Build with `mkdocs build` (output in `site/`). To deploy docs alongside the profile, add a step that runs `pip install mkdocs mkdocs-readthedocs-theme` and `mkdocs build`, then copy `site/` into `platform/profile/docs/` before uploading the artifact so that https://grace-mar.com/docs/ serves the MkDocs site. See [MkDocs](https://www.mkdocs.org/) for local preview (`mkdocs serve`).
 
-**See also:** [namecheap-guide.md](namecheap-guide.md) (simple Namecheap steps), [miniapp-setup.md](miniapp-setup.md) (profile vs Q&A app), [telegram-webhook-setup.md](telegram-webhook-setup.md) (bot menu button).
+**See also:** [namecheap-guide.md](namecheap-guide.md) (simple Namecheap steps), [miniapp-setup.md](miniapp-setup.md) (profile vs Q&A platform/app), [telegram-webhook-setup.md](telegram-webhook-setup.md) (bot menu button).
 
 ---
 
@@ -148,7 +148,7 @@ git checkout main
 
 | What you want | What to do |
 |---------------|------------|
-| **See profile changes in seconds** | Run `./scripts/preview_profile.sh` (or `python3 scripts/generate_profile.py` then `open profile/index.html`). No push required. |
+| **See profile changes in seconds** | Run `./scripts/preview_profile.sh` (or `python3 scripts/generate_profile.py` then `open platform/profile/index.html`). No push required. |
 | **Deploy only when profile changes** | The workflow runs only when `**`, `scripts/generate_profile.py`, or the workflow file change. Doc-only pushes skip the deploy. |
 | **Re-run deploy without a new commit** | **Actions** â†’ **Deploy profile to Pages** â†’ **Run workflow**. Uses current `main`. |
 | **Telegram â†’ Cursor** | If the bot runs **locally** (e.g. `python -m bot.bot`), SESSION-TRANSCRIPT, RECURSION-GATE, and archive updates land in your repo immediately. If it runs on a server (e.g. Render), you need a sync step (e.g. pull from server or run the bot locally for development) so Cursor and the profile see the latest. |

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Validate config/operator_shell_manifest.yaml: schema basics, allowlisted paths, optional on-disk checks.
+Validate platform/config/operator_shell_manifest.yaml: schema basics, allowlisted paths, optional on-disk checks.
 
   python3 scripts/validate_operator_shell_manifest.py
   python3 scripts/validate_operator_shell_manifest.py --allow-missing-files
@@ -20,8 +20,8 @@ if str(SCRIPTS) not in sys.path:
 
 from yaml_compat import safe_load_path
 
-MANIFEST_REL = Path("config/operator_shell_manifest.yaml")
-ALLOWED_TOP = frozenset({"artifacts", "docs"})
+MANIFEST_REL = Path("platform/config/operator_shell_manifest.yaml")
+ALLOWED_TOP = frozenset({"runtime/artifacts", "docs"})
 REQUIRED_ENTRY_KEYS = frozenset({"id", "title", "path"})
 
 
@@ -45,7 +45,7 @@ def _path_errors(repo_root: Path, rel: str, *, field: str) -> list[str]:
         return [f"{field}: resolves outside repo ({rel!r})"]
     if not rel_to_root.parts or rel_to_root.parts[0] not in ALLOWED_TOP:
         errs.append(
-            f"{field}: must be under artifacts/ or docs/ (got {rel!r})"
+            f"{field}: must be under runtime/artifacts/ or docs/ (got {rel!r})"
         )
     return errs
 

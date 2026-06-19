@@ -30,7 +30,7 @@ def _example_data() -> dict:
         "status": "draft",
         "sourceInputs": ["docs/skill-work/work-strategy/strategy-notebook/"],
         "generatedPaths": [
-            "artifacts/work-dev/interface-artifacts/strategy-notebook-map.html"
+            "runtime/artifacts/work-dev/interface-runtime/artifacts/strategy-notebook-map.html"
         ],
         "intendedUse": "Help the operator inspect strategy-notebook structure.",
         "mutationScope": "runtime-only",
@@ -57,7 +57,7 @@ def test_new_interface_artifact_creates_valid_json(tmp_path) -> None:
             "--artifact-kind",
             "html-visualizer",
             "--generated-path",
-            "artifacts/work-dev/interface-artifacts/example.html",
+            "runtime/artifacts/work-dev/interface-runtime/artifacts/example.html",
             "--source-input",
             "docs/skill-work/work-strategy/strategy-notebook",
             "--intended-use",
@@ -115,7 +115,7 @@ def test_validator_rejects_canonical_record_access_outside_allowed_values(
 
 def test_validator_rejects_unknown_artifact_kind(tmp_path) -> None:
     data = _example_data()
-    data["artifactKind"] = "electron-app"
+    data["artifactKind"] = "electron-platform/app"
     bad = tmp_path / "bad-kind.json"
     bad.write_text(json.dumps(data), encoding="utf-8")
     result = _run([VALIDATE, bad], check=False)

@@ -7,7 +7,7 @@
     "task_path": "examples/work-strategy/task-shapes/sample-decision-point.md",
     "inline_text_provided": false,
     "source_paths": [],
-    "config_path": "config/work_strategy_task_shapes.yaml"
+    "config_path": "platform/config/work_strategy_task_shapes.yaml"
   },
   "classification": {
     "primary_shape": "decision_point",

@@ -1,3 +1,4 @@
+from repo_io import SCHEMA_REGISTRY_DIR
 #!/usr/bin/env python3
 """
 Governed eval harness â€” receipt-driven advisory scores (runtime-only).
@@ -15,14 +16,14 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-RESULT_SCHEMA_PATH = REPO_ROOT / "schema-registry" / "governed-eval-result.v1.json"
-EXECUTION_RECEIPT_SCHEMA_PATH = REPO_ROOT / "schema-registry" / "execution-receipt.v1.json"
+RESULT_SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "governed-eval-result.v1.json"
+EXECUTION_RECEIPT_SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "execution-receipt.v1.json"
 
 _FORBIDDEN_SUBSTRINGS = (
     "self.md",
     "recursion-gate.md",
     "self-archive.md",
-    "bot/prompt.py",
+    "archive/grace-mar-instance/bot/prompt.py",
 )
 
 _TIER_USEFULNESS = {"A": 0.35, "B": 0.55, "C": 0.85, "D": 0.5, "X": 0.0}
@@ -33,7 +34,7 @@ def _load_json_file(path: Path) -> Any:
 
 
 def _artifact_paths(receipt: dict[str, Any]) -> str:
-    art = receipt.get("artifacts") or {}
+    art = receipt.get("runtime/artifacts") or {}
     p1 = str(art.get("trace_path") or "")
     p2 = str(art.get("proposal_path") or "")
     p3 = str((receipt.get("epistemic") or {}).get("notes") or "")

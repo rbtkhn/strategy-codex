@@ -75,7 +75,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--receipt-output",
         type=Path,
         default=None,
-        help="receipt path; default: artifacts/work-dev/rebuild-receipts/derived-rebuild-YYYYMMDD-HHMMSS.json",
+        help="receipt path; default: runtime/artifacts/work-dev/rebuild-receipts/derived-rebuild-YYYYMMDD-HHMMSS.json",
     )
     parser.add_argument(
         "--no-receipt",

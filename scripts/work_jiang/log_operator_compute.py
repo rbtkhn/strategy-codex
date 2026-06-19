@@ -42,7 +42,7 @@ def main() -> int:
     print(f"Appended to {LEDGER}")
 
     if args.mirror_grace_mar_ledger:
-        gm = ROOT / "users" / "grace-mar" / "compute-ledger.jsonl"
+        gm = ROOT / "platform/users" / "grace-mar" / "compute-ledger.jsonl"
         gm_row = {
             "ts": datetime.now(timezone.utc).isoformat(),
             "channel_key": "operator:work-jiang",

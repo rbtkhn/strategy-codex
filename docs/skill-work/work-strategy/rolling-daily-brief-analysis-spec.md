@@ -118,4 +118,4 @@ Each ledger entry must include:
 
 - Narrative log template target: `docs/skill-work/work-strategy/narrative-feedback-loop.md`
 - Ops rhythm target: `docs/skill-work/work-strategy/narrative-feedback-loop-ops.md`
-- Skill draft target: `skills-portable/_drafts/skill-narrative/SKILL.md`
+- Skill draft target: `skills/_drafts/skill-narrative/SKILL.md`

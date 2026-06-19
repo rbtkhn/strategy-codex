@@ -9,7 +9,7 @@ This document **extends** [observability.md](observability.md); it does not repl
 | Rule | Meaning |
 |------|---------|
 | **Inspection, not approval** | Metrics and reports do not merge the Record or approve gate candidates. |
-| **No silent mutation** | Batch scripts emit JSON/Markdown under `artifacts/` or gitignored `runtime/` paths only. |
+| **No silent mutation** | Batch scripts emit JSON/Markdown under `runtime/artifacts/` or gitignored `runtime/` paths only. |
 | **Additive** | Existing observability scripts and schemas remain; workflow events **compose** on top. |
 | **Honest uncertainty** | Partial or inferred metrics are labeled (`partialConfidence`, `partialMetrics` on reports). |
 
@@ -28,14 +28,14 @@ This document **extends** [observability.md](observability.md); it does not repl
 
 | Artifact | Role |
 |----------|------|
-| [`schema-registry/workflow-observability-event.v1.json`](../schema-registry/workflow-observability-event.v1.json) | Event JSON shape. |
-| [`schema-registry/workflow-observability-report.v1.json`](../schema-registry/workflow-observability-report.v1.json) | Aggregate report shape. |
+| [`schemas/registry/workflow-observability-event.v1.json`](../schemas/registry/workflow-observability-event.v1.json) | Event JSON shape. |
+| [`schemas/registry/workflow-observability-report.v1.json`](../schemas/registry/workflow-observability-report.v1.json) | Aggregate report shape. |
 | `scripts/emit_workflow_event.py` | Batch: scan sources → normalized events (JSONL). |
 | `scripts/build_workflow_observability.py` | Aggregate report from events. |
 | `scripts/build_review_friction_report.py` | Friction-focused JSON/MD. |
 | `scripts/build_context_efficiency_report.py` | Context-efficiency JSON/MD. |
 | `scripts/build_workflow_observability_summary.py` | Operator-facing compact MD. |
-| `artifacts/workflow-observability/` | Default committed-friendly report outputs (policy: regenerate via scripts). |
+| `runtime/artifacts/workflow-observability/` | Default committed-friendly report outputs (policy: regenerate via scripts). |
 | `runtime/observability/workflow-events/` | Local normalized events (gitignored); includes `batchId` for idempotent batch runs. |
 
 ## Commands (typical)

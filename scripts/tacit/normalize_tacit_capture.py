@@ -1,3 +1,4 @@
+from repo_io import SCHEMA_REGISTRY_DIR
 #!/usr/bin/env python3
 """
 Normalize a markdown tacit capture to deterministic JSON (non-canonical).
@@ -17,7 +18,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "tacit-capture-normalized.v1.json"
+SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "tacit-capture-normalized.v1.json"
 NORMALIZATION_VERSION = "1.0"
 
 

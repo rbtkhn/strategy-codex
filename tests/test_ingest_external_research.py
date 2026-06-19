@@ -85,9 +85,9 @@ def test_write_outputs_keeps_gate_untouched(tmp_path, monkeypatch):
             "work-business": tmp_path / "research" / "external" / "work-business" / "external-research",
         },
     )
-    schema_copy = tmp_path / "schema-registry" / "external-research-artifact.v1.json"
+    schema_copy = tmp_path / "schemas/registry" / "external-research-artifact.v1.json"
     schema_copy.parent.mkdir(parents=True)
-    schema_copy.write_text((ROOT / "schema-registry" / "external-research-artifact.v1.json").read_text(encoding="utf-8"), encoding="utf-8")
+    schema_copy.write_text((ROOT / "schemas/registry" / "external-research-artifact.v1.json").read_text(encoding="utf-8"), encoding="utf-8")
     monkeypatch.setattr(mod, "SCHEMA_PATH", schema_copy)
 
     input_path = tmp_path / "sample.txt"
@@ -129,7 +129,7 @@ def test_write_outputs_keeps_gate_untouched(tmp_path, monkeypatch):
     artifact_dir = tmp_path / "research" / "external" / "singularity-academy" / "queries"
     brief_dir = tmp_path / "research" / "external" / "singularity-academy" / "briefs"
     offer_dir = tmp_path / "docs" / "skill-work" / "work-business" / "singularity-academy-research-memos"
-    proposal_dir = tmp_path / "auto-research" / "self-proposals" / "derived"
+    proposal_dir = tmp_path / "research/auto-research" / "self-proposals" / "derived"
 
     artifact_paths = list(artifact_dir.glob("*.json"))
     assert len(artifact_paths) == 1
@@ -197,4 +197,4 @@ def test_validation_falls_back_without_jsonschema(monkeypatch):
     except ValueError as exc:
         assert "Unsupported lane" in str(exc)
     else:
-        raise AssertionError("fallback validation should still reject invalid artifacts")
+        raise AssertionError("fallback validation should still reject invalid runtime/artifacts")

@@ -33,7 +33,7 @@ Entries are written in an **observational, reportorial voice** for a reader who 
 - **Completeness:** Preserve unresolved tension where it existed. Do not resolve or summarize away what the session left open.
 
 **What to include:**
-- What was offered or surfaced (options, patterns, constraints, evidence).
+- What was offered or surfaced (options, patterns, constraints, archive/placeholders/evidence).
 - What was weighed or considered (by the session, the user, or the analysis).
 - What constrained or deferred an outcome, if relevant.
 - Why it mattered—stakes, contrast, or consequence—in one phrase or clause where possible.

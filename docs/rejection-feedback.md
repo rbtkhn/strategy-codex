@@ -47,5 +47,5 @@ Do not over-tighten â€” some rejections are subjective. Use feedback to red
 
 - AGENTS.md Â§ Gated Pipeline
 - pipeline-map.md
-- bot/prompt.py (ANALYST_PROMPT)
+- archive/grace-mar-instance/bot/prompt.py (ANALYST_PROMPT)
 

@@ -114,7 +114,7 @@ Per CIV–MEM–CORE and CIV–MEM–TEMPLATE:
    - **20% verbatim quote standard** — integrate verbatim quotes with ERC classification and EQS; add subject type declaration.
    - **ARC version pinning** — e.g. "ARC–FRANCE v1.7".
 
-2. **GEO–MEM v1.0 only:** Add GEO cognitive declaration and four ARC-T sections (ARC-T-ANCIENT, ARC-T-MEDIEVAL, ARC-T-EARLY-MOD, ARC-T-MODERN) with verbatim quotes meeting GEO blend (2/3 Mearsheimer analysis, 1/3 Mercouris evidence).
+2. **GEO–MEM v1.0 only:** Add GEO cognitive declaration and four ARC-T sections (ARC-T-ANCIENT, ARC-T-MEDIEVAL, ARC-T-EARLY-MOD, ARC-T-MODERN) with verbatim quotes meeting GEO blend (2/3 Mearsheimer analysis, 1/3 Mercouris archive/placeholders/evidence).
 
 3. **Section count:** Ensure ≥8 analytical sections per template IV (counting rules); add sections where current count is &lt;8.
 

@@ -14,7 +14,7 @@
       "reviewType": "routine",
       "riskLevel": "low",
       "requiresReclassification": false,
-      "canonicalPath": "users/demo/skill-think.md",
+      "canonicalPath": "platform/users/demo/skill-think.md",
       "evidenceCount": 1,
       "confidenceAfter": 0.81
     }

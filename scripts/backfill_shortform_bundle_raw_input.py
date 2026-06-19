@@ -63,7 +63,7 @@ def _build_doc(
         "account_author": account_author,
     }
     if source_url_profile:
-        front["source_url_profile"] = source_url_profile
+        front["source_url_platform/profile"] = source_url_profile
     if source_url or source_url_profile:
         front["source_url"] = source_url or source_url_profile or ""
     if thread:

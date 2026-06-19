@@ -9,7 +9,7 @@ tags:
 - work-strategy
 - strategy-codex
 - strategy-notebook-legacy
-portable_source: skills-portable/strategy-notebook-expert-cross-weave/SKILL.md
+portable_source: skills/strategy-notebook-expert-cross-weave/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Strategy-codex expert cross-weave
@@ -103,7 +103,7 @@ Grace-mar paths (from `.cursor/skills/strategy-notebook-expert-cross-weave/`).
 
 | Topic | Path |
 |--------|------|
-| Portable core | [skills-portable/strategy-notebook-expert-cross-weave/SKILL.md](../../../skills-portable/strategy-notebook-expert-cross-weave/SKILL.md) |
+| Portable core | [skills/strategy-notebook-expert-cross-weave/SKILL.md](../../../skills/strategy-notebook-expert-cross-weave/SKILL.md) |
 | Daily inbox (SSOT) | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md) |
 | Chapter days | [docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md](../../../docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md) (adjust `YYYY-MM`) |
 | Chapter meta | [docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/meta.md](../../../docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/meta.md) |
@@ -111,6 +111,6 @@ Grace-mar paths (from `.cursor/skills/strategy-notebook-expert-cross-weave/`).
 | Commentator roster | [docs/skill-work/work-strategy/strategy-notebook/strategy-commentator-threads.md](../../../docs/skill-work/work-strategy/strategy-notebook/strategy-commentator-threads.md) |
 | Notebook architecture | [docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
 | Parent lane contract | [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) |
-| Manifest / sync | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) · [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
+| Manifest / sync | [skills/manifest.yaml](../../../skills/manifest.yaml) · [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 
 **Worked example (2026-04):** Ritter × Davis weave — `crosses:ritter+davis`; commits `c09cedcc`, `ecac8c0e`, `4fff0860` on `main`.

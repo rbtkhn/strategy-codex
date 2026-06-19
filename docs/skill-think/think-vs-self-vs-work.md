@@ -21,7 +21,7 @@ flowchart TB
 
 | Layer | Answers |
 |-------|---------|
-| **EVIDENCE** | What happened? (dated READ/ACT, artifacts) |
+| **EVIDENCE** | What happened? (dated READ/ACT, runtime/artifacts) |
 | **THINK** | What can the fork evidence about learning and reasoning *as capability*? |
 | **SELF (IX)** | Who is she / what does she know *in character* after approval? |
 | **WORK** | What is the operator building, drafting, or executing this week? |

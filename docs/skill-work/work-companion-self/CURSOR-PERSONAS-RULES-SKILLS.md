@@ -12,7 +12,7 @@
 
 ## Phase 1 (ship first) â€” Persona: **Template contributor**
 
-**Who:** Maintainers and contributors working **in the upstream companion-self repo** â€” docs, `schema-registry/`, `_template/`, `demo/`, `scripts/`, student `app/`, manifests.
+**Who:** Maintainers and contributors working **in the upstream companion-self repo** â€” docs, `schemas/registry/`, `platform/template/`, `demo/`, `scripts/`, student `platform/app/`, manifests.
 
 **Job-to-be-done:** Change the template **safely** (no intention drift, no instance Record leakage, no accidental grace-mar writes when multi-root).
 
@@ -22,9 +22,9 @@
 |---|------|----------|---------|
 | 1 | *(existing)* `long-term-objective.mdc` | `alwaysApply: true` | Strategic alignment (unchanged). |
 | 2 | *(existing)* `workspace-boundary.mdc` | `alwaysApply: true` | No writes to grace-mar folder unless user overrides (unchanged). |
-| 3 | **`template-data-layers.mdc`** | `alwaysApply: true` | **Three layers:** (A) template product surface â€” no oneâ€™s Record; (B) **`_template/`** â€” scaffold only; (C) **`demo/`** â€” synthetic demos / validation only, **never** a real person. Forbid treating demo artifacts as canonical identity truth. Point at `README.md` â€œContentsâ€ and `docs/seed-phase.md`. |
-| 4 | **`users-tree-guard.mdc`** | `globs: ["**"]` | Under `` in **this** repo, only **`_template/`** and **`demo/`** are standard. Any **new** top-level user directory is **out of pattern** for the template repo unless the human explicitly wants an in-repo sample (rare); default response: **use a forked instance repo** for real ``. Link `how-instances-consume-upgrades.md`. |
-| 5 | **`generalize-from-reference.mdc`** | `globs: ["docs/**", "scripts/**", "bridges/**", "library/**"]` | When adapting material from **grace-mar** (read-only): **generalize** (no `grace-mar` user id, no private Record paths, no operator-only workflows). Prefer linking to grace-mar over pasting instance file trees. |
+| 3 | **`template-data-layers.mdc`** | `alwaysApply: true` | **Three layers:** (A) template product surface â€” no oneâ€™s Record; (B) **`platform/template/`** â€” scaffold only; (C) **`demo/`** â€” synthetic demos / validation only, **never** a real person. Forbid treating demo artifacts as canonical identity truth. Point at `README.md` â€œContentsâ€ and `docs/seed-phase.md`. |
+| 4 | **`users-tree-guard.mdc`** | `globs: ["**"]` | Under `` in **this** repo, only **`platform/template/`** and **`demo/`** are standard. Any **new** top-level user directory is **out of pattern** for the template repo unless the human explicitly wants an in-repo sample (rare); default response: **use a forked instance repo** for real ``. Link `how-instances-consume-upgrades.md`. |
+| 5 | **`generalize-from-reference.mdc`** | `globs: ["docs/**", "scripts/**", "research/bridges/**", "library/**"]` | When adapting material from **grace-mar** (read-only): **generalize** (no `grace-mar` user id, no private Record paths, no operator-only workflows). Prefer linking to grace-mar over pasting instance file trees. |
 
 **Notes**
 
@@ -52,7 +52,7 @@ These belong in **instance repos** once there is a **minimal instance scaffold**
 
 | # | File | Metadata | One job |
 |---|------|----------|---------|
-| 1 | **`instance-fork-boundary.mdc`** | `alwaysApply: true` | Your durable identity lives under **`<your-id>/`** after seed/readiness; create that tree from **`_template/`** on the template (or your forkâ€™s copy), not from another instanceâ€™s export. Link `docs/seed-phase.md`, `how-instances-consume-upgrades.md`. |
+| 1 | **`instance-fork-boundary.mdc`** | `alwaysApply: true` | Your durable identity lives under **`<your-id>/`** after seed/readiness; create that tree from **`platform/template/`** on the template (or your forkâ€™s copy), not from another instanceâ€™s export. Link `docs/seed-phase.md`, `how-instances-consume-upgrades.md`. |
 | 2 | **`no-cross-instance-record.mdc`** | `globs: ["**"]` | Never copy `<other>/` from grace-mar or another companion into your repo. Leakage checklist language. |
 | 3 | **`gate-before-merge.mdc`** | `alwaysApply: true` | If this instance uses a grace-mar-style pipeline: **stage** â†’ companion **approve** â†’ **merge script** only; no direct `self.md` / EVIDENCE edits by the agent. (Skip or soften if instance is docs-only until bot exists.) |
 
@@ -60,7 +60,7 @@ These belong in **instance repos** once there is a **minimal instance scaffold**
 
 | Skill folder | `description` | What it does |
 |--------------|---------------|--------------|
-| **`instance-userdir-from-template`** | Create my `` from `_template` in a fork. | Copy scaffold, rename placeholders, set `id`, list required seed-phase paths, remind: no secrets in git. |
+| **`instance-userdir-from-template`** | Create my `` from `platform/template` in a fork. | Copy scaffold, rename placeholders, set `id`, list required seed-phase paths, remind: no secrets in git. |
 | **`seed-phase-validate-local`** | Run seed validation for my artifact dir. | Parameterize path `seed-phase`; same commands as README; interpret PASS/FAIL tersely. |
 
 ---
@@ -83,5 +83,5 @@ These belong in **instance repos** once there is a **minimal instance scaffold**
 ## Related (grace-mar)
 
 - Template alignment and sync: [work-companion-self README](README.md), [MERGING-FROM-COMPANION-SELF](../../merging-from-companion-self.md).
-- Bootstrap copy in grace-mar: [bootstrap/companion-self-bootstrap.md](../../../bootstrap/companion-self-bootstrap.md).
+- Bootstrap copy in grace-mar: [archive/grace-mar-instance/bootstrap/companion-self-bootstrap.md](../../../archive/grace-mar-instance/bootstrap/companion-self-bootstrap.md).
 

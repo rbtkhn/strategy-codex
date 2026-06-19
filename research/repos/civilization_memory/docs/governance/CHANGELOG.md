@@ -195,7 +195,7 @@ CHANGES:
 • **New document:** docs/governance/CHECKLIST–PRE–OUTPUT–APPLICATION.md.
   Consolidated pre-output checklists for three trigger contexts:
   (I) STATE evidence / doctrine check — ARC source coverage (≥2 categories, entity source, attribution, contradictions);
-  (II) Absence claim — negative-claim corpus check (MEM search, reformulate if counter-evidence);
+  (II) Absence claim — negative-claim corpus check (MEM search, reformulate if counter-archive/placeholders/evidence);
   (III) Doctrine-change proposal — gated spiral note (which doctrines governed, frame-consistent vs frame-challenging).
 • **Cursor rules updated:** cmc-arc-source-coverage.mdc, cmc-negative-claim-check.mdc, cmc-gated-spiral-awareness.mdc — each Self-Check section now includes "Before delivering: run the applicable checklist in docs/governance/CHECKLIST–PRE–OUTPUT–APPLICATION.md" with section number.
 • **CMC–SYSTEM–MAP:** Section V (Where to go next) now references CHECKLIST–PRE–OUTPUT–APPLICATION.md.
@@ -755,7 +755,7 @@ CHANGES:
   across three perspectives, not exhaustive option list).
 • TERMINOLOGY–REGISTRY: CIV–STATE entry updated to state that the
   exoskeleton "extends the principal's cognitive reach (options,
-  precedent, disconfirming evidence) without substituting for
+  precedent, disconfirming archive/placeholders/evidence) without substituting for
   judgment."
 
 ORIGIN:

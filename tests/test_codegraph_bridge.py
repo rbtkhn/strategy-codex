@@ -17,7 +17,7 @@ class CodeGraphBridgeTests(unittest.TestCase):
     def test_resolve_codegraph_cmd_prefers_local_windows_binary(self) -> None:
         fake_binary = Path(
             "C:/dev/strategy-codex/.codex-tmp/npm-cache/_npx/demo/node_modules/"
-            "@colbymchenry/codegraph-win32-x64/bin/codegraph.cmd"
+            "@colbymchenry/codegraph-win32-x64/platform/bin/codegraph.cmd"
         )
         with mock.patch.object(common, "find_local_codegraph_cmd", return_value=[str(fake_binary)]), mock.patch.dict(
             common.os.environ,
@@ -56,19 +56,19 @@ class CodeGraphBridgeTests(unittest.TestCase):
                     {
                         "qualifiedName": "PresentationService",
                         "kind": "class",
-                        "filePath": "src/grace_mar/presentations/service.py",
+                        "filePath": "platform/src/grace_mar/presentations/service.py",
                     }
                 ],
                 "nodes": [{"id": "svc", "displayName": "PresentationService", "kind": "class"}],
                 "edges": [],
                 "codeBlocks": [
                     {
-                        "filePath": "src/grace_mar/presentations/service.py",
+                        "filePath": "platform/src/grace_mar/presentations/service.py",
                         "language": "python",
                         "content": "class X:\n    pass",
                     }
                 ],
-                "relatedFiles": ["src/grace_mar/presentations/service.py"],
+                "relatedFiles": ["platform/src/grace_mar/presentations/service.py"],
             },
             "symbol_queries": [{"symbol": "PresentationService", "payload": []}],
             "affected": [],
@@ -86,14 +86,14 @@ class CodeGraphBridgeTests(unittest.TestCase):
     def test_build_bundle_validates_contract(self) -> None:
         export_payload = {
             "task": "presentation service architecture",
-            "export_path": "artifacts/codegraph/service-architecture.json",
+            "export_path": "runtime/artifacts/codegraph/service-architecture.json",
             "export_sha256": "abc123",
             "markdown_report": "## Relationship Graph\n```mermaid\ngraph TD\n  A-->B\n```",
             "context": {
                 "summary": "The presentation service coordinates intents and rendering.",
                 "codeBlocks": [
                     {
-                        "filePath": "src/grace_mar/presentations/service.py",
+                        "filePath": "platform/src/grace_mar/presentations/service.py",
                         "language": "python",
                         "content": "class PresentationService:\n    pass",
                     }

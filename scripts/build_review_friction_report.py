@@ -2,7 +2,7 @@
 """
 Review friction analytics from workflow events (governance drag visibility, not policy).
 
-Reads workflow events JSONL; writes JSON + optional Markdown under artifacts/workflow-observability/.
+Reads workflow events JSONL; writes JSON + optional Markdown under runtime/artifacts/workflow-observability/.
 """
 
 from __future__ import annotations
@@ -14,9 +14,10 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
+from repo_io import SRC_DIR, ARTIFACTS_DIR
 
 from grace_mar.observability.workflow_aggregate import load_events_from_jsonl_lines  # noqa: E402
 
@@ -67,12 +68,12 @@ def main() -> int:
     }
 
     out_json = args.output_json or (
-        root / "artifacts" / "workflow-observability" / "review-friction-report.json"
+        ARTIFACTS_DIR / "workflow-observability" / "review-friction-report.json"
     )
     out_json.parent.mkdir(parents=True, exist_ok=True)
     out_json.write_text(json.dumps(doc, indent=2) + "\n", encoding="utf-8")
 
-    out_md = args.output_md or (root / "artifacts" / "workflow-observability" / "review-friction-report.md")
+    out_md = args.output_md or (ARTIFACTS_DIR / "workflow-observability" / "review-friction-report.md")
     lines = [
         "# Review friction report",
         "",

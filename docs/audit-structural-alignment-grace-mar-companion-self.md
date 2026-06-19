@@ -16,7 +16,7 @@
 
 | Surface | Repo / path | Role |
 |---------|-------------|------|
-| **companion-self** | [github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self) | **Template** â€” `_template/`, protocol docs, **upstream** for instances. **Always hyphenated** as a **system name** ([glossary.md](glossary.md)). |
+| **companion-self** | [github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self) | **Template** â€” `platform/template/`, protocol docs, **upstream** for instances. **Always hyphenated** as a **system name** ([glossary.md](glossary.md)). |
 | **grace-mar** | This repository; `` | **Reference instance** â€” live Record; operator tooling under `docs/skill-work/`. |
 
 **Other instances** (e.g. a companion who bootstraps from the template in **their own** repository) are **not** mirrored here; alignment is **concept + protocol**, not co-location in the grace-mar repo.
@@ -29,13 +29,13 @@ Canonical paths are **lowercase** ([canonical-paths.md](canonical-paths.md)). **
 
 | Path / concern | grace-mar (``) | companion-self (template) |
 |----------------|-------------------------------|---------------------------|
-| `self.md` | âœ… Live Record | `_template/` scaffold |
+| `self.md` | âœ… Live Record | `platform/template/` scaffold |
 | `self-evidence.md` | âœ… | Template scaffold |
 | `recursion-gate.md` | âœ… | Template scaffold |
 | `self-archive.md` | âœ… | Template scaffold |
-| `self-library.md` | âœ… Live LIB rows | âœ… **Governance + empty `entries:`** on `main` ([template file](https://github.com/rbtkhn/companion-self/blob/main/_template/self-library.md)) |
+| `self-library.md` | âœ… Live LIB rows | âœ… **Governance + empty `entries:`** on `main` ([template file](https://github.com/rbtkhn/companion-self/blob/main/platform/template/self-library.md)) |
 | `skills.md` / skill containers | âœ… | Template scaffold |
-| `self-work.md` | âœ… [self-work.md](../self-work.md) | Planned upstream (`_template/`) |
+| `self-work.md` | âœ… [self-work.md](../self-work.md) | Planned upstream (`platform/template/`) |
 
 **Verdict (structure):** **Paths** match canonical naming. **Content:** grace-mar holds a **full** Record and LIB corpus; **companion-self** template **`self-library.md`** is **governance-only** + optional [example corpus](https://github.com/rbtkhn/companion-self/blob/main/docs/self-library-example-corpus-grace-mar-derived.md) in `docs/`.
 
@@ -68,7 +68,7 @@ Canonical paths are **lowercase** ([canonical-paths.md](canonical-paths.md)). **
 
 | Check | Status |
 |-------|--------|
-| Template `_template/self-library.md` = governance + `entries: []` | âœ… companion-self `main` @ `288b438` |
+| Template `platform/template/self-library.md` = governance + `entries: []` | âœ… companion-self `main` @ `288b438` |
 | grace-mar `self-library.md` = live LIB rows + boundary docs | âœ… |
 | Optional example corpus only in template `docs/` | âœ… [self-library-example-corpus-grace-mar-derived.md](https://github.com/rbtkhn/companion-self/blob/main/docs/self-library-example-corpus-grace-mar-derived.md) on companion-self |
 

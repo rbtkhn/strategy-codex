@@ -2,11 +2,11 @@
 
 **Domains:** grace-mar.com, companion-self.com (registered with Namecheap)
 
-Use this when you need to point a domain at a host (e.g. GitHub Pages for the profile).
+Use this when you need to point a domain at a host (e.g. GitHub Pages for the platform/profile).
 
 ---
 
-## Point grace-mar.com at GitHub Pages (profile)
+## Point grace-mar.com at GitHub Pages (platform/profile)
 
 1. Log in at **namecheap.com** → **Domain List** → click **Manage** next to **grace-mar.com**.
 
@@ -33,7 +33,7 @@ Use this when you need to point a domain at a host (e.g. GitHub Pages for the pr
 
 6. In GitHub: repo → **Settings** → **Pages** → **Custom domain** → type `grace-mar.com` → **Save**. GitHub will check DNS and enable HTTPS.
 
-Done. The profile at grace-mar.com will serve from GitHub Pages once the **Deploy profile to Pages** workflow has run (it runs on push to `main`). The repo includes `profile/CNAME` with `grace-mar.com` so the custom domain is applied on deploy; the workflow also writes CNAME when using `.github/workflows/deploy-profile.yml`.
+Done. The profile at grace-mar.com will serve from GitHub Pages once the **Deploy profile to Pages** workflow has run (it runs on push to `main`). The repo includes `platform/profile/CNAME` with `grace-mar.com` so the custom domain is applied on deploy; the workflow also writes CNAME when using `.github/workflows/deploy-profile.yml`.
 
 ---
 

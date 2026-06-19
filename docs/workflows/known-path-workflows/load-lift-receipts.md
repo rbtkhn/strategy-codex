@@ -2,9 +2,9 @@
 
 **WORK only; not Record.** A Load-Lift Receipt is an **evaluation artifact** for a [known-path workflow](README.md) run. It does **not** approve durable changes, does **not** stage merge candidates, and does **not** change workflow or surface authority. See [Governance override](#6-governance-override) below.
 
-Machine schema: [`schema-registry/load-lift-receipt.v1.json`](../../../schema-registry/load-lift-receipt.v1.json) (JSON Schema Draft 2020-12).
+Machine schema: [`schemas/registry/load-lift-receipt.v1.json`](../../../schemas/registry/load-lift-receipt.v1.json) (JSON Schema Draft 2020-12).
 
-**Authority class spelling:** use **snake_case** values aligned with [authority map](../../authority-map.md) and [`known-path-workflow.v1.json`](../../../schema-registry/known-path-workflow.v1.json) (`read_only`, `draftable`, `review_required`, `human_only`, `ephemeral_only`).
+**Authority class spelling:** use **snake_case** values aligned with [authority map](../../authority-map.md) and [`known-path-workflow.v1.json`](../../../schemas/registry/known-path-workflow.v1.json) (`read_only`, `draftable`, `review_required`, `human_only`, `ephemeral_only`).
 
 ---
 
@@ -19,7 +19,7 @@ A **Load-Lift Receipt** is a **review artifact** that records whether a known-pa
 - **Load-Lift Receipts evaluate workflow usefulness** after (or in trial of) a run â€” time, quality flags, and a disposition decision.
 - They do **not** approve durable SELF, EVIDENCE, SKILLS, or prompt changes.
 - They do **not** promote [recursion-gate](../../../recursion-gate.md) candidates.
-- They do **not** change workflow **`authority_class`** or [`config/authority-map.json`](../../../config/authority-map.json).
+- They do **not** change workflow **`authority_class`** or [`platform/config/authority-map.json`](../../../platform/config/authority-map.json).
 - They **may** support later human decisions to **continue**, **revise**, **narrow**, or **retire** a workflow, or to keep it **manual_only**.
 
 ---

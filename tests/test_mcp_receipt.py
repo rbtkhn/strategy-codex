@@ -50,14 +50,14 @@ def test_valid_github_readonly_receipt_passes() -> None:
             "gate_required_for_record_change": False,
         },
         "declared_intent": "Read issues",
-        "inputs": {"operator_supplied_refs": ["config/foo.yaml"]},
+        "inputs": {"operator_supplied_refs": ["platform/config/foo.yaml"]},
         "access": {
             "network_access": "read",
             "credential_use": "optional",
-            "resources_read": ["config/foo.yaml"],
+            "resources_read": ["platform/config/foo.yaml"],
             "resources_written": [],
         },
-        "result": {"status": "success", "summary": "ok", "artifacts": []},
+        "result": {"status": "success", "summary": "ok", "runtime/artifacts": []},
         "governance": {
             "durable_state_write_attempted": False,
             "canonical_record_touched": False,
@@ -95,7 +95,7 @@ def test_unknown_capability_fails() -> None:
             "resources_read": [],
             "resources_written": [],
         },
-        "result": {"status": "failed", "summary": "x", "artifacts": []},
+        "result": {"status": "failed", "summary": "x", "runtime/artifacts": []},
         "governance": {
             "durable_state_write_attempted": False,
             "canonical_record_touched": False,
@@ -139,7 +139,7 @@ def test_readonly_writes_nonempty_fails() -> None:
             "resources_read": [],
             "resources_written": ["/tmp/oops"],
         },
-        "result": {"status": "success", "summary": "bad", "artifacts": []},
+        "result": {"status": "success", "summary": "bad", "runtime/artifacts": []},
         "governance": {
             "durable_state_write_attempted": False,
             "canonical_record_touched": False,
@@ -183,7 +183,7 @@ def test_candidate_proposal_without_human_review_fails() -> None:
             "resources_read": [],
             "resources_written": ["draft_branch_only"],
         },
-        "result": {"status": "partial", "summary": "draft", "artifacts": []},
+        "result": {"status": "partial", "summary": "draft", "runtime/artifacts": []},
         "governance": {
             "durable_state_write_attempted": False,
             "canonical_record_touched": False,
@@ -202,7 +202,7 @@ def test_evidence_stub_without_gate_review_fails() -> None:
     from mcp_receipt_lib import RECEIPT_SCHEMA_PATH, capability_by_id, validate_mcp_receipt
 
     caps, binds = _load_configs()
-    cap = capability_by_id(caps, "evidence_stub_operator_template")
+    cap = capability_by_id(caps, "evidence_stub_operatorplatform/template")
     assert cap is not None
     receipt = {
         "schema_version": 1,
@@ -210,12 +210,12 @@ def test_evidence_stub_without_gate_review_fails() -> None:
         "created_at_utc": "2026-04-28T12:00:00Z",
         "actor": {"kind": "assistant", "name": "t"},
         "capability": {
-            "id": "evidence_stub_operator_template",
+            "id": "evidence_stub_operatorplatform/template",
             "category": cap["category"],
             "output_lane": cap["output_lane"],
         },
         "authority": {
-            "authority_surface": "evidence",
+            "authority_surface": "archive/placeholders/evidence",
             "authority_class": "draftable",
             "gate_required_for_record_change": True,
         },
@@ -225,9 +225,9 @@ def test_evidence_stub_without_gate_review_fails() -> None:
             "network_access": "none",
             "credential_use": "none",
             "resources_read": [],
-            "resources_written": ["artifacts/evidence-stubs/x.md"],
+            "resources_written": ["runtime/artifacts/evidence-stubs/x.md"],
         },
-        "result": {"status": "success", "summary": "stubbed", "artifacts": []},
+        "result": {"status": "success", "summary": "stubbed", "runtime/artifacts": []},
         "governance": {
             "durable_state_write_attempted": False,
             "canonical_record_touched": False,
@@ -271,7 +271,7 @@ def test_durable_attempt_wrong_authority_class_fails() -> None:
             "resources_read": [],
             "resources_written": [],
         },
-        "result": {"status": "partial", "summary": "x", "artifacts": []},
+        "result": {"status": "partial", "summary": "x", "runtime/artifacts": []},
         "governance": {
             "durable_state_write_attempted": True,
             "canonical_record_touched": False,
@@ -315,7 +315,7 @@ def test_success_with_prohibited_action_attempted_fails() -> None:
             "resources_read": [],
             "resources_written": [],
         },
-        "result": {"status": "success", "summary": "nope", "artifacts": []},
+        "result": {"status": "success", "summary": "nope", "runtime/artifacts": []},
         "governance": {
             "durable_state_write_attempted": False,
             "canonical_record_touched": False,
@@ -359,7 +359,7 @@ def test_credential_use_exceeds_capability_none_fails() -> None:
             "resources_read": [],
             "resources_written": [],
         },
-        "result": {"status": "failed", "summary": "no", "artifacts": []},
+        "result": {"status": "failed", "summary": "no", "runtime/artifacts": []},
         "governance": {
             "durable_state_write_attempted": False,
             "canonical_record_touched": False,
@@ -388,7 +388,7 @@ def test_generated_receipt_resolves_authority_like_binding(tmp_path: Path) -> No
             "--intent",
             "fixture",
             "--resources-read",
-            "config/mcp-capabilities.yaml",
+            "platform/config/mcp-capabilities.yaml",
             "--status",
             "success",
             "--summary",
@@ -438,7 +438,7 @@ def test_receipt_hash_roundtrip() -> None:
             "resources_read": [],
             "resources_written": [],
         },
-        "result": {"status": "success", "summary": "ok", "artifacts": []},
+        "result": {"status": "success", "summary": "ok", "runtime/artifacts": []},
         "governance": {
             "durable_state_write_attempted": False,
             "canonical_record_touched": False,

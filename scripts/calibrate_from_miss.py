@@ -49,7 +49,7 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    user_dir = REPO_ROOT / "users" / args.user
+    user_dir = REPO_ROOT / "platform/users" / args.user
     gate_path = user_dir / "recursion-gate.md"
     if not user_dir.exists() or not gate_path.exists():
         print(f"User dir or recursion-gate not found: {user_dir}", file=sys.stderr)

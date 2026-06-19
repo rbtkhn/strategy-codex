@@ -137,7 +137,7 @@ def main() -> int:
     ap.add_argument("--window-sec", type=int, default=120, help="Pipeline event attach window")
     args = ap.parse_args()
 
-    user_dir = REPO_ROOT / "users" / args.user
+    user_dir = REPO_ROOT / "platform/users" / args.user
     transcript = user_dir / "session-transcript.md"
     events_path = user_dir / "pipeline-events.jsonl"
 

@@ -176,7 +176,7 @@ def test_writes_output_only(tmp_path: Path) -> None:
 
 
 def test_does_not_touch_self(tmp_path: Path) -> None:
-    user = tmp_path / "users" / "u1"
+    user = tmp_path / "platform/users" / "u1"
     user.mkdir(parents=True)
     self_p = user / "self.md"
     self_p.write_text("# SELF\n", encoding="utf-8")

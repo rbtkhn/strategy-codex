@@ -308,7 +308,7 @@ A quote from Tacitus:
 EXAMPLE:
 A modern scholar quoting an ancient inscription:
 • ARC-T: ARC-T-MODERN (contemporary author)
-• ERC: ERC-PRIMARY (the inscription is primary evidence)
+• ERC: ERC-PRIMARY (the inscription is primary archive/placeholders/evidence)
 
 See NAMESPACE–CLARIFICATION v1.0 for full disambiguation.
 

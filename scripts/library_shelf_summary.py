@@ -64,7 +64,7 @@ def main() -> int:
     p = argparse.ArgumentParser(description="Library shelf summary")
     p.add_argument("-u", "--user", default="grace-mar")
     args = p.parse_args()
-    lib_path = REPO_ROOT / "users" / args.user / "self-library.md"
+    lib_path = REPO_ROOT / "platform/users" / args.user / "self-library.md"
     entries = load_entries(lib_path)
     print(f"Active entries: {len(entries)}  ({lib_path.relative_to(REPO_ROOT)})")
     print()

@@ -61,8 +61,8 @@ Do **not** conflate **`manual_escalate`** with “must leave the gate.” Escala
 
 | Situation | Where it lives | Typical action |
 |-----------|----------------|----------------|
-| **Gate-heavy** — `manual_escalate`, contradictions, duplicate hints, advisory | Still **`recursion-gate.md`** | Resolve, reject, or defer; use gate review UI / dashboard filters ([apps/gate-review-app.py](../apps/gate-review-app.py)) as available. |
-| **Change-review** — cross-surface, policy/prompt shifts, proposal-scale, audit trail | **`review-queue/`** | Export via CLI (below); validate queue. |
+| **Gate-heavy** — `manual_escalate`, contradictions, duplicate hints, advisory | Still **`recursion-gate.md`** | Resolve, reject, or defer; use gate review UI / dashboard filters ([platform/apps/gate-review-app.py](../platform/apps/gate-review-app.py)) as available. |
+| **Change-review** — cross-surface, policy/prompt shifts, proposal-scale, audit trail | **`archive/queues/review-queue/`** | Export via CLI (below); validate queue. |
 
 **Open change-review (grace-mar CLI):**
 
@@ -128,9 +128,9 @@ flowchart LR
 
 ---
 
-## Optional runtime provenance (YAML extension)
+## Optional runtime provenance (YAML platform/extension)
 
-Candidates may include optional keys linking **runtime observations** (e.g. `source_observation_ids`, `timeline_anchor`, `lane_origin`) when staged via `scripts/runtime/stage_candidate_from_observations.py`. These keys **do not** change merge authority; they document lineage for review. Schema sketch: `schema-registry/recursion-gate-provenance.v1.json`.
+Candidates may include optional keys linking **runtime observations** (e.g. `source_observation_ids`, `timeline_anchor`, `lane_origin`) when staged via `scripts/runtime/stage_candidate_from_observations.py`. These keys **do not** change merge authority; they document lineage for review. Schema sketch: `schemas/registry/recursion-gate-provenance.v1.json`.
 
 ---
 

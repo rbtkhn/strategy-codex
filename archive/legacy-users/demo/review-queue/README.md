@@ -8,13 +8,13 @@ Post-seed governed-change demo for schema validation and CI. Layout:
 Validate:
 
 ```bash
-python3 scripts/validate-change-review.py users/demo/review-queue
+python3 scripts/validate-change-review.py platform/users/demo/review-queue
 ```
 
 Generate a readable Markdown diff:
 
 ```bash
-python3 scripts/generate-identity-diff.py users/demo/review-queue/diffs/diff-001.json --output users/demo/review-queue/identity_diff.md
+python3 scripts/generate-identity-diff.py platform/users/demo/archive/queues/review-queue/diffs/diff-001.json --output platform/users/demo/archive/queues/review-queue/identity_diff.md
 ```
 
 See [docs/change-review-validation.md](../../docs/change-review-validation.md).

@@ -33,7 +33,7 @@
 
 **Relevance to current foreign policy:** 01 is a historical (Yuan–Qing) pattern. It does not prescribe current policy; it implies that if the polity is at or near “peak reach,” durability is not guaranteed and the combination of external pressure and internal rigidity is the exhaustion signal.
 
-**Current behaviour (7-day evidence):** Diplomatic surge (multiple leaders to Beijing, Xi–Putin, Xi–Trump); reinforcement of Russia partnership; Europe framed as moving “beyond blocs”; Taiwan asserted as “most important” China–US issue; MFA warnings to Japan and Lithuania on Taiwan. No sign of retrenchment or public hedging on 01 grounds.
+**Current behaviour (7-day archive/placeholders/evidence):** Diplomatic surge (multiple leaders to Beijing, Xi–Putin, Xi–Trump); reinforcement of Russia partnership; Europe framed as moving “beyond blocs”; Taiwan asserted as “most important” China–US issue; MFA warnings to Japan and Lithuania on Taiwan. No sign of retrenchment or public hedging on 01 grounds.
 
 **Assessment:** **Neutral / Observational.** No violation. 01 is descriptive. Current policy extends diplomatic and strategic reach (Russia, Europe, Taiwan narrative). Doctrine would flag that external pressure (US, Taiwan, tech containment) and internal rigidity (party–state, narrative control) could converge; 7-day news does not show exhaustion signals, nor does it show leadership explicitly tempering expansion with 01-style risk. Option B (exit-building, axis diversification) in STATE–CHINA is consistent with hedging against 01-type exhaustion; recent Russia and Europe outreach is consistent with axis optionality.
 
@@ -45,7 +45,7 @@
 
 **Relevance to current foreign policy:** 02 governs the *mechanism* of authority (party–state, vertical penetration) and excludes legitimacy through liberal constitutionalism or procedural continuity. It does not forbid de-escalation or negotiation; it forbids regime-form change.
 
-**Current behaviour (7-day evidence):** All reported foreign policy is conducted through party–state institutions: Xi–Putin and Xi–Trump at leader level; MFA (Lin Jian, Wang Yi) for statements; Taiwan, Japan, Lithuania framed through one-China and “mistakes”/“erroneous remarks.” No move toward constitutional or procedural legitimacy in foreign policy; no delegation to non-party institutions for core strategic narrative.
+**Current behaviour (7-day archive/placeholders/evidence):** All reported foreign policy is conducted through party–state institutions: Xi–Putin and Xi–Trump at leader level; MFA (Lin Jian, Wang Yi) for statements; Taiwan, Japan, Lithuania framed through one-China and “mistakes”/“erroneous remarks.” No move toward constitutional or procedural legitimacy in foreign policy; no delegation to non-party institutions for core strategic narrative.
 
 **Assessment:** **Aligned.** Current Chinese foreign policy is consistent with Doctrine 02. Authority is monopolized; messaging is centralized; no procedural or constitutional alternative is on offer. Taiwan is framed as sovereignty and legitimacy issue, not as a question of liberal procedure. Option D (Negotiated Accommodation) in STATE–CHINA is de-escalation and face-saving within party–state frame—allowed by 02; regime-form change would not be.
 
@@ -57,7 +57,7 @@
 
 **Relevance to current foreign policy:** 03 is a historical (Mongol/Pax Mongolica) pattern. Applied analogically: corridor security, route control, and connectivity (BRI, maritime, partnerships) as rational responses to scale and dependency. No literal “conquest” in 7-day news.
 
-**Current behaviour (7-day evidence):** Russia partnership (“new blueprint,” strategic stability) supports corridor and sanctions-exit logic. Europe “beyond blocs” and issue-based cooperation fit connectivity and diversification. Taiwan Strait and maritime sovereignty remain central (MFA on Japan, Taiwan); no new corridor announcements in the 7-day window.
+**Current behaviour (7-day archive/placeholders/evidence):** Russia partnership (“new blueprint,” strategic stability) supports corridor and sanctions-exit logic. Europe “beyond blocs” and issue-based cooperation fit connectivity and diversification. Taiwan Strait and maritime sovereignty remain central (MFA on Japan, Taiwan); no new corridor announcements in the 7-day window.
 
 **Assessment:** **Consistent.** 03’s structural logic (corridor security, route control, connectivity as structural incentive) is consistent with continued emphasis on strategic partnerships, BRI, and maritime sovereignty. No contradiction. Option B (exit-building) and Option C (maritime/spatial consolidation) in STATE–CHINA are consistent with 03-type logic.
 

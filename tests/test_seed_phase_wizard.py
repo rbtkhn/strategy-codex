@@ -25,20 +25,20 @@ def _load_seed_wizard():
 def test_user_profile_dir():
     mod = _load_seed_wizard()
     r = Path("/tmp/fake-repo")
-    assert mod.user_profile_dir(r, "ab") == r / "users" / "ab"
+    assert mod.user_profile_dir(r, "ab") == r / "platform/users" / "ab"
 
 
 def test_canonical_record_ready_false_when_empty(tmp_path):
     mod = _load_seed_wizard()
     repo = tmp_path / "repo"
-    (repo / "users" / "u1").mkdir(parents=True)
+    (repo / "platform/users" / "u1").mkdir(parents=True)
     assert mod.canonical_record_ready(repo, "u1") is False
 
 
 def test_canonical_record_ready_true_when_all_present(tmp_path):
     mod = _load_seed_wizard()
     repo = tmp_path / "repo"
-    prof = repo / "users" / "u1"
+    prof = repo / "platform/users" / "u1"
     prof.mkdir(parents=True)
     for name in CANONICAL_RECORD_FILES_REQUIRED:
         (prof / name).write_text("# stub\n", encoding="utf-8")
@@ -75,8 +75,8 @@ def test_append_good_morning_appends_existing(tmp_path):
 def test_save_file_writes_relative_message(tmp_path, capsys):
     mod = _load_seed_wizard()
     repo = tmp_path / "repo"
-    target = repo / "users" / "u1" / "reflection-proposals" / "x.md"
+    target = repo / "platform/users" / "u1" / "archive/queues/reflection-proposals" / "x.md"
     mod.save_file(target, "body\n", repo_root=repo)
     assert target.read_text(encoding="utf-8") == "body\n"
     out = capsys.readouterr().out
-    assert "u1/reflection-proposals/x.md" in out.replace("\\", "/")
+    assert "u1/archive/queues/reflection-proposals/x.md" in out.replace("\\", "/")

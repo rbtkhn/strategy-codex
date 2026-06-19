@@ -1,4 +1,4 @@
-Cursor-only discipline for [recursive-learn/SKILL.md](../../../skills-portable/recursive-learn/SKILL.md). Portable SSOT body stays in `skills-portable/`.
+Cursor-only discipline for [recursive-learn/SKILL.md](../../../skills/recursive-learn/SKILL.md). Portable SSOT body stays in `skills/`.
 
 ## Preflight read
 
@@ -129,7 +129,7 @@ Optional future: `log_cadence_event.py --kind rlj_review`. Not required for v0.2
 
 When a journal entry encodes **civ-state** routing, wire-bridge, public-first, or harness-entry law:
 
-1. Promotion review outcome `wire skill/validator` → edit [skills-portable/civ-state/SKILL.md](../../../skills-portable/civ-state/SKILL.md) or [CURSOR_APPENDIX](../civ-state/CURSOR_APPENDIX.md).
+1. Promotion review outcome `wire skill/validator` → edit [skills/civ-state/SKILL.md](../../../skills/civ-state/SKILL.md) or [CURSOR_APPENDIX](../civ-state/CURSOR_APPENDIX.md).
 2. Run `python3 scripts/sync_portable_skills.py --skill civ-state --verify`.
 3. Cross-link existing journal tags (`cold-thread-lane-entry`, `portable-sync-skill-rename`, Rome ladder) — no silent duplicate.
 4. **Do not** re-open civ-state menu on append — wire only.
@@ -138,6 +138,6 @@ When a journal entry encodes **civ-state** routing, wire-bridge, public-first, o
 
 | Topic | Path |
 |--------|------|
-| Portable manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
-| Skill backlog | [skills-portable/skill-candidates.md](../../../skills-portable/skill-candidates.md) |
+| Portable manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
+| Skill backlog | [skills/skill-candidates.md](../../../skills/skill-candidates.md) |
 | Sync | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |

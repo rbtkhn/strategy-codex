@@ -38,7 +38,7 @@
 
 ## Voice / prompt / benchmarks (deferred)
 
-- **v0.1** does **not** change [bot/prompt.py](../bot/prompt.py).
+- **v0.1** does **not** change [archive/grace-mar-instance/bot/prompt.py](../archive/grace-mar-instance/bot/prompt.py).
 - After a gate merge touches profile text, use existing **identity delta** / voice checks per [instance-doctrine.md](../instance-doctrine.md) if applicable.
 
 ## Life portfolio / cross-moonshot synthesis (deferred)
@@ -71,7 +71,7 @@ suggested_entry: "(paste proposed IX line; companion edits before approve)"
 
 ## Related
 
-- **Partner / audit (optional):** `python3 scripts/report_governance_posture.py -u <id>` emits [artifacts/governance-posture.md](../artifacts/governance-posture.md) â€” a **generated** one-pager on triad, gated merge, inspectable audit files, and verification commands for external conversations. Operational narrative only, not legal or regulatory certification; see [safety-story-ux.md](skill-work/work-dev/safety-story-ux.md).
+- **Partner / audit (optional):** `python3 scripts/report_governance_posture.py -u <id>` emits [runtime/artifacts/governance-posture.md](../runtime/artifacts/governance-posture.md) â€” a **generated** one-pager on triad, gated merge, inspectable audit files, and verification commands for external conversations. Operational narrative only, not legal or regulatory certification; see [safety-story-ux.md](skill-work/work-dev/safety-story-ux.md).
 - [Canonical paths â€” self-moonshots](canonical-paths.md) (staging row)
 - [Id taxonomy â€” self-moonshots](id-taxonomy.md#standard-location-labels)
 - [Identity fork protocol](identity-fork-protocol.md)

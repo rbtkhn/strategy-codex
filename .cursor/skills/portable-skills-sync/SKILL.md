@@ -7,22 +7,22 @@ version: 1.0.1
 tags:
 - operator
 - work-dev
-portable_source: skills-portable/portable-skills-sync/SKILL.md
+portable_source: skills/portable-skills-sync/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Portable skills — sync to Cursor (host)
 
 **Preferred activation (operator):** say **`sync skills`**.
 
-Use this skill when **editing or adding** skills that follow the **portable core + host appendix** pattern: methodology lives under `skills-portable/<skill>/SKILL.md`; instance-specific paths and commands live in a separate appendix file; the editor-facing `SKILL.md` under `.cursor/skills/` is **generated** — do not hand-edit it.
+Use this skill when **editing or adding** skills that follow the **portable core + host appendix** pattern: methodology lives under `skills/<skill>/SKILL.md`; instance-specific paths and commands live in a separate appendix file; the editor-facing `SKILL.md` under `.cursor/skills/` is **generated** — do not hand-edit it.
 
 ## Layout (generic)
 
 | Piece | Role |
 |-------|--------|
-| `skills-portable/<skill>/SKILL.md` | **Portable core** — frontmatter (`portable: true`, `name`, one-line `description`, `version`, optional `tags`) + methodology. **No** instance user directories or gated merge script names in the body (your manifest may forbid substrings — see verify step). |
+| `skills/<skill>/SKILL.md` | **Portable core** — frontmatter (`portable: true`, `name`, one-line `description`, `version`, optional `tags`) + methodology. **No** instance user directories or gated merge script names in the body (your manifest may forbid substrings — see verify step). |
 | `.cursor/skills/<skill>/CURSOR_APPENDIX.md` | **Host-only** — real paths, doc links, commands for **this** clone. |
-| `skills-portable/manifest.yaml` | **Registry** — maps `source`, optional `appendix`, `target`, and optional `verify_forbidden_substrings` for the portable **body** only. |
+| `skills/manifest.yaml` | **Registry** — maps `source`, optional `appendix`, `target`, and optional `verify_forbidden_substrings` for the portable **body** only. |
 | `.cursor/skills/<skill>/SKILL.md` | **Output** — frontmatter gains `portable_source` and `synced_by`; body = core + `## Cursor / … instance` + appendix. |
 
 ## When to run
@@ -52,13 +52,13 @@ python3 scripts/sync_portable_skills.py --skill <skill-name>
 ## Guardrails
 
 - **Never** edit the generated `.cursor/skills/<skill>/SKILL.md` by hand — the next sync will overwrite it.
-- **Drift tax:** The **canonical** file for each listed skill is **`skills-portable/<skill>/SKILL.md`** (plus `CURSOR_APPENDIX.md`). Hand-fixing only the generated host `SKILL.md` **without** editing the portable core produces **silent divergence** until the next sync — treat that as a process bug, not a shortcut.
+- **Drift tax:** The **canonical** file for each listed skill is **`skills/<skill>/SKILL.md`** (plus `CURSOR_APPENDIX.md`). Hand-fixing only the generated host `SKILL.md` **without** editing the portable core produces **silent divergence** until the next sync — treat that as a process bug, not a shortcut.
 - Keep **policy and Record merge** details out of the portable core; they belong in host docs or the appendix.
 - If `--verify` fails on **description**, ensure the YAML `description` value is a **single line** (no literal newline inside the string).
 
 ## Related concepts
 
-- **Discovery ladder:** pointer backlog → `_drafts/` → portable core + manifest (see your repo’s `skills-portable/README.md` if present).
+- **Discovery ladder:** pointer backlog → `_drafts/` → portable core + manifest (see your repo’s `skills/README.md` if present).
 - **Extract from session:** turning a thread into a new skill often starts a draft under `_drafts/` before manifest registration.
 
 
@@ -68,16 +68,16 @@ python3 scripts/sync_portable_skills.py --skill <skill-name>
 
 | Topic | Path |
 |--------|------|
-| Portable layout + ladder | [skills-portable/README.md](../../../skills-portable/README.md) |
-| Schema | [skills-portable/_schema.md](../../../skills-portable/_schema.md) |
-| Manifest (edit to register skills) | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
-| Skill backlog (pointers) | [skills-portable/skill-candidates.md](../../../skills-portable/skill-candidates.md) |
-| Drafts (pre-manifest) | [skills-portable/_drafts/README.md](../../../skills-portable/_drafts/README.md) |
+| Portable layout + ladder | [skills/README.md](../../../skills/README.md) |
+| Schema | [skills/_schema.md](../../../skills/_schema.md) |
+| Manifest (edit to register skills) | [skills/manifest.yaml](../../../skills/manifest.yaml) |
+| Skill backlog (pointers) | [skills/skill-candidates.md](../../../skills/skill-candidates.md) |
+| Drafts (pre-manifest) | [skills/_drafts/README.md](../../../skills/_drafts/README.md) |
 | Sync implementation | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 | Operator skill index | [docs/operator-skills.md](../../../docs/operator-skills.md) |
 | Extract session â†’ skill | [extract-skill-from-session](../extract-skill-from-session/SKILL.md) |
 | work-dev module | [work-dev README](../../../docs/skill-work/work-dev/README.md) |
 
-**Verify defaults (this manifest):** portable bodies must not contain the substrings `` or `process_approved_candidates` â€” keep those in this appendix or other host docs, not in `skills-portable/*/SKILL.md` bodies.
+**Verify defaults (this manifest):** portable bodies must not contain the substrings `` or `process_approved_candidates` â€” keep those in this appendix or other host docs, not in `skills/*/SKILL.md` bodies.
 
-**Pilot reference:** [politics-massie](../politics-massie/SKILL.md) (generated) and `skills-portable/politics-massie/SKILL.md` (source).
+**Pilot reference:** [politics-massie](../politics-massie/SKILL.md) (generated) and `skills/politics-massie/SKILL.md` (source).

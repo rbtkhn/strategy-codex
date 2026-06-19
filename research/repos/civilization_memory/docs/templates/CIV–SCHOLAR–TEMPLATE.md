@@ -1522,7 +1522,7 @@ When revising a SYNTHESIS that was accepted as doctrine:
 
 1. CHANGE STATUS: ACCEPTED_AS_DOCTRINE → UNDER_REVIEW
 2. DOCUMENT TRIGGER: What caused revision
-3. RE-RUN ACH: Update with new evidence/hypotheses
+3. RE-RUN ACH: Update with new archive/placeholders/evidence/hypotheses
 4. UPDATE ASSUMPTIONS: Revise Assumptions Box
 5. RE-ACCEPT: Requires explicit user authorization (doctrine registry update)
 

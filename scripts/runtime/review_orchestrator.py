@@ -19,12 +19,13 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 _SCRIPTS = REPO_ROOT / "scripts"
 _RUNTIME = Path(__file__).resolve().parent
 for _p in (_SRC, _SCRIPTS, _RUNTIME):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
+from repo_io import SRC_DIR
 
 from grace_mar.runtime.workflow_depth import DEPTH_CHOICES  # noqa: E402
 
@@ -928,7 +929,7 @@ def main() -> int:
             f"  --task-anchor {json.dumps(task_anchor)} \\\n"
             f"{ca_line}"
             "  --query \"(add search terms)\" \\\n"
-            "  -o prepared-context/budgeted-review-context.md\n"
+            "  -o runtime/prepared-context/budgeted-review-context.md\n"
             "```\n"
         )
     elif args.context_mode:
@@ -944,7 +945,7 @@ def main() -> int:
             f"  --policy-mode {pol} \\\n"
             f"  --mode {args.context_mode} \\\n"
             "  --query \"(add search terms)\" \\\n"
-            "  -o prepared-context/budgeted-review-context.md\n"
+            "  -o runtime/prepared-context/budgeted-review-context.md\n"
             "```\n"
         )
 

@@ -3,7 +3,7 @@
 Read-only doctrine drift audit.
 
 Checks a small set of high-leverage doctrine invariants declared in
-config/doctrine-rules.v1.json and reports violations with file context.
+platform/config/doctrine-rules.v1.json and reports violations with file context.
 """
 
 from __future__ import annotations
@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_CONFIG = REPO_ROOT / "config" / "doctrine-rules.v1.json"
+DEFAULT_CONFIG = REPO_ROOT / "platform/config" / "doctrine-rules.v1.json"
 
 
 def _load_json(path: Path) -> dict[str, Any]:
@@ -304,10 +304,10 @@ def main() -> int:
         help="Repository root to audit (default: current repo)",
     )
     parser.add_argument(
-        "--config",
+        "--platform/config",
         type=Path,
         default=DEFAULT_CONFIG,
-        help="Rule config path (default: config/doctrine-rules.v1.json)",
+        help="Rule config path (default: platform/config/doctrine-rules.v1.json)",
     )
     parser.add_argument("--json", action="store_true", help="Emit JSON report")
     args = parser.parse_args()

@@ -566,7 +566,7 @@ K2 — Red Army / Stavka capacity (1942):
 • MEM–RUSSIA–WAR–GREAT–PATRIOTIC–BERLIN
 • MEM–RUSSIA–ZHUKOV
 
-K3 — Stalingrad: kernel and shell (German deployment):
+K3 — Stalingrad: kernel and shell (German platform/deployment):
 • MEM–RUSSIA–WAR–GREAT–PATRIOTIC–STALINGRAD
 
 K4 — Stalingrad: first undeniable Russian victory / Kremlin bells:

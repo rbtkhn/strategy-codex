@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Emit artifacts/gate-board.md — Kanban-style derived view of recursion-gate.md.
+Emit runtime/artifacts/gate-board.md — Kanban-style derived view of recursion-gate.md.
 
 Does not mutate the gate, review-queue, or Record. Classification is computed at
 generation time only; the gate file remains authoritative.
@@ -27,7 +27,7 @@ from gate_block_parser import (  # noqa: E402
 )
 from operator_dashboard_common import extract_yaml_scalar  # noqa: E402
 from recursion_gate_review import parse_review_candidates  # noqa: E402
-from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
+from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402, ARTIFACTS_DIR
 
 
 def _users_dir(user_id: str, repo_root: Path) -> Path:
@@ -73,7 +73,7 @@ def _pending_bucket(
     has_art = row.get("has_artifact_payload", _fallback_artifact(yaml_body)) if row else _fallback_artifact(yaml_body)
 
     if prov < _PROVENANCE_NEEDS_EVIDENCE or (not has_art and prov < 0.5):
-        return "needs_evidence"
+        return "needs_archive/placeholders/evidence"
 
     summary = (row.get("summary") if row else None) or extract_yaml_scalar(yaml_body, "summary") or ""
     summary = summary.strip()
@@ -155,7 +155,7 @@ def classify_gate(
 
     columns: dict[str, list[str]] = {
         "new": [],
-        "needs_evidence": [],
+        "needs_archive/placeholders/evidence": [],
         "needs_contradiction_check": [],
         "ready_for_review": [],
         "approved": [],
@@ -208,14 +208,14 @@ def render_board(
         "<!-- GENERATED — run: python3 scripts/build_gate_board.py -->\n\n",
         "# Gate Board\n\n",
         "**Boundary:** This is a **derived operator dashboard**. It does **not** replace "
-        f"`{user_id}/recursion-gate.md`, `{user_id}/review-queue/`, or canonical "
+        f"`{user_id}/recursion-gate.md`, `{user_id}/archive/queues/review-queue/`, or canonical "
         "change-review objects. **Editing this file does not change candidate status.** "
         "Status changes follow the normal gate and review flow.\n\n",
         f"- **Generated:** {generated_at}\n\n",
     ]
     section_order = [
         ("New", "new"),
-        ("Needs evidence", "needs_evidence"),
+        ("Needs archive/placeholders/evidence", "needs_archive/placeholders/evidence"),
         ("Needs contradiction check", "needs_contradiction_check"),
         ("Ready for review", "ready_for_review"),
         ("Approved", "approved"),
@@ -251,7 +251,7 @@ def main() -> int:
         "--output",
         type=Path,
         default=None,
-        help="Output path (default: <repo>/artifacts/gate-board.md)",
+        help="Output path (default: <repo>/runtime/artifacts/gate-board.md)",
     )
     args = ap.parse_args()
     root = args.repo_root.resolve()
@@ -268,7 +268,7 @@ def main() -> int:
     )
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     md = render_board(user_id=uid, generated_at=ts, columns=columns, duplicates=duplicates)
-    out = args.output if args.output is not None else root / "artifacts" / "gate-board.md"
+    out = args.output if args.output is not None else ARTIFACTS_DIR / "gate-board.md"
     out = out.resolve()
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(md, encoding="utf-8")

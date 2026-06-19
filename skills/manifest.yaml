@@ -1,0 +1,284 @@
+# Portable skills -> Cursor assembly (see scripts/sync_portable_skills.py)
+skills:
+  - name: politics-massie
+    source: politics-massie/SKILL.md
+    appendix: .cursor/skills/politics-massie/CURSOR_APPENDIX.md
+    target: .cursor/skills/politics-massie/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: jurisdiction-campaign-history
+    source: jurisdiction-campaign-history/SKILL.md
+    appendix: .cursor/skills/jurisdiction-campaign-history/CURSOR_APPENDIX.md
+    target: .cursor/skills/jurisdiction-campaign-history/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: portable-skills-sync
+    source: portable-skills-sync/SKILL.md
+    appendix: .cursor/skills/portable-skills-sync/CURSOR_APPENDIX.md
+    target: .cursor/skills/portable-skills-sync/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: work-jiang-ingest-fallback
+    source: work-jiang-ingest-fallback/SKILL.md
+    appendix: .cursor/skills/work-jiang-ingest-fallback/CURSOR_APPENDIX.md
+    target: .cursor/skills/work-jiang-ingest-fallback/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: skill-narrative
+    source: skill-narrative/SKILL.md
+    appendix: .cursor/skills/skill-narrative/CURSOR_APPENDIX.md
+    target: .cursor/skills/skill-narrative/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: repo-hygiene-pass
+    source: repo-hygiene-pass/SKILL.md
+    appendix: .cursor/skills/repo-hygiene-pass/CURSOR_APPENDIX.md
+    target: .cursor/skills/repo-hygiene-pass/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: recursive-learn
+    source: recursive-learn/SKILL.md
+    appendix: .cursor/skills/recursive-learn/CURSOR_APPENDIX.md
+    target: .cursor/skills/recursive-learn/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: repo-feedback-prompt
+    source: repo-feedback-prompt/SKILL.md
+    appendix: .cursor/skills/repo-feedback-prompt/CURSOR_APPENDIX.md
+    target: .cursor/skills/repo-feedback-prompt/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  # Legacy compatibility slug. Active concept: strategy-codex-expert-cross-weave.
+  - name: strategy-notebook-expert-cross-weave
+    source: strategy-notebook-expert-cross-weave/SKILL.md
+    appendix: .cursor/skills/strategy-notebook-expert-cross-weave/CURSOR_APPENDIX.md
+    target: .cursor/skills/strategy-notebook-expert-cross-weave/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: primary-overhearing-analysis
+    source: primary-overhearing-analysis/SKILL.md
+    appendix: .cursor/skills/primary-overhearing-analysis/CURSOR_APPENDIX.md
+    target: .cursor/skills/primary-overhearing-analysis/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: ideation-engine
+    source: ideation-engine/SKILL.md
+    appendix: .cursor/skills/ideation-engine/CURSOR_APPENDIX.md
+    target: .cursor/skills/ideation-engine/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: abundance-native-ventures
+    source: abundance-native-ventures/SKILL.md
+    appendix: .cursor/skills/abundance-native-ventures/CURSOR_APPENDIX.md
+    target: .cursor/skills/abundance-native-ventures/SKILL.md
+    verify_forbidden_substrings:
+      - process_approved_candidates
+  - name: last30days
+    source: last30days/SKILL.md
+    appendix: .cursor/skills/last30days/CURSOR_APPENDIX.md
+    target: .cursor/skills/last30days/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: youtube-raw-input-transcript
+    source: youtube-raw-input-transcript/SKILL.md
+    appendix: .cursor/skills/youtube-raw-input-transcript/CURSOR_APPENDIX.md
+    target: .cursor/skills/youtube-raw-input-transcript/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: transcript-proper-noun-normalization
+    source: transcript-proper-noun-normalization/SKILL.md
+    appendix: .cursor/skills/transcript-proper-noun-normalization/CURSOR_APPENDIX.md
+    target: .cursor/skills/transcript-proper-noun-normalization/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: transcript-cleanup
+    source: transcript-cleanup/SKILL.md
+    appendix: .cursor/skills/transcript-cleanup/CURSOR_APPENDIX.md
+    target: .cursor/skills/transcript-cleanup/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: check-streams
+    source: check-streams/SKILL.md
+    appendix: .cursor/skills/check-streams/CURSOR_APPENDIX.md
+    target: .cursor/skills/check-streams/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  # Legacy compatibility slug. Active concept: check-streams.
+  - name: cognition-streams
+    source: cognition-streams/SKILL.md
+    appendix: .cursor/skills/cognition-streams/CURSOR_APPENDIX.md
+    target: .cursor/skills/cognition-streams/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  # Legacy compatibility slug. Active concept: strategy-codex-guest-canon-note.
+  - name: strategy-notebook-guest-canon-note
+    source: strategy-notebook-guest-canon-note/SKILL.md
+    appendix: .cursor/skills/strategy-notebook-guest-canon-note/CURSOR_APPENDIX.md
+    target: .cursor/skills/strategy-notebook-guest-canon-note/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: packet-before-synthesis
+    source: packet-before-synthesis/SKILL.md
+    appendix: .cursor/skills/packet-before-synthesis/CURSOR_APPENDIX.md
+    target: .cursor/skills/packet-before-synthesis/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: academy-mirror-sync
+    source: academy-mirror-sync/SKILL.md
+    appendix: .cursor/skills/academy-mirror-sync/CURSOR_APPENDIX.md
+    target: .cursor/skills/academy-mirror-sync/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: statecraft-helix-synthesis
+    source: statecraft-helix-synthesis/SKILL.md
+    appendix: .cursor/skills/statecraft-helix-synthesis/CURSOR_APPENDIX.md
+    target: .cursor/skills/statecraft-helix-synthesis/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: statecraft-source-intake
+    source: statecraft-source-intake/SKILL.md
+    appendix: .cursor/skills/statecraft-source-intake/CURSOR_APPENDIX.md
+    target: .cursor/skills/statecraft-source-intake/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: state-note
+    source: state-note/SKILL.md
+    appendix: .cursor/skills/state-note/CURSOR_APPENDIX.md
+    target: .cursor/skills/state-note/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: state-synthesis
+    source: state-synthesis/SKILL.md
+    appendix: .cursor/skills/state-synthesis/CURSOR_APPENDIX.md
+    target: .cursor/skills/state-synthesis/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: statecraft-intelligence-essay
+    source: statecraft-intelligence-essay/SKILL.md
+    appendix: .cursor/skills/statecraft-intelligence-essay/CURSOR_APPENDIX.md
+    target: .cursor/skills/statecraft-intelligence-essay/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: statecraft-multi-lens
+    source: statecraft-multi-lens/SKILL.md
+    appendix: .cursor/skills/statecraft-multi-lens/CURSOR_APPENDIX.md
+    target: .cursor/skills/statecraft-multi-lens/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: memory
+    source: memory/SKILL.md
+    appendix: .cursor/skills/memory/CURSOR_APPENDIX.md
+    target: .cursor/skills/memory/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: civ-state
+    source: civ-state/SKILL.md
+    appendix: .cursor/skills/civ-state/CURSOR_APPENDIX.md
+    target: .cursor/skills/civ-state/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: civ-state-volume-harden
+    source: civ-state-volume-harden/SKILL.md
+    appendix: .cursor/skills/civ-state-volume-harden/CURSOR_APPENDIX.md
+    target: .cursor/skills/civ-state-volume-harden/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: civ-state-primary-text-acquisition
+    source: civ-state-primary-text-acquisition/SKILL.md
+    appendix: .cursor/skills/civ-state-primary-text-acquisition/CURSOR_APPENDIX.md
+    target: .cursor/skills/civ-state-primary-text-acquisition/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: statecraft-framework
+    source: statecraft-framework/SKILL.md
+    appendix: .cursor/skills/statecraft-framework/CURSOR_APPENDIX.md
+    target: .cursor/skills/statecraft-framework/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: arc-to-chapter-seeds
+    source: arc-to-chapter-seeds/SKILL.md
+    appendix: .cursor/skills/arc-to-chapter-seeds/CURSOR_APPENDIX.md
+    target: .cursor/skills/arc-to-chapter-seeds/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: first-wave-service-sales
+    source: first-wave-service-sales/SKILL.md
+    appendix: .cursor/skills/first-wave-service-sales/CURSOR_APPENDIX.md
+    target: .cursor/skills/first-wave-service-sales/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: monthly-deepening
+    source: monthly-deepening/SKILL.md
+    appendix: .cursor/skills/monthly-deepening/CURSOR_APPENDIX.md
+    target: .cursor/skills/monthly-deepening/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: singularity-monthly-synthesis
+    source: singularity-monthly-synthesis/SKILL.md
+    appendix: .cursor/skills/singularity-monthly-synthesis/CURSOR_APPENDIX.md
+    target: .cursor/skills/singularity-monthly-synthesis/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: singularity-note-promotion
+    source: singularity-note-promotion/SKILL.md
+    appendix: .cursor/skills/singularity-note-promotion/CURSOR_APPENDIX.md
+    target: .cursor/skills/singularity-note-promotion/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: tufte-data-viz
+    source: tufte-data-viz/SKILL.md
+    appendix: .cursor/skills/tufte-data-viz/CURSOR_APPENDIX.md
+    target: .cursor/skills/tufte-data-viz/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: wire-verify
+    source: wire-verify/SKILL.md
+    appendix: .cursor/skills/wire-verify/CURSOR_APPENDIX.md
+    target: .cursor/skills/wire-verify/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  - name: voice-profile-panel
+    source: voice-profile-panel/SKILL.md
+    appendix: .cursor/skills/voice-profile-panel/CURSOR_APPENDIX.md
+    target: .cursor/skills/voice-profile-panel/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates

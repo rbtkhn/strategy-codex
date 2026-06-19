@@ -19,7 +19,7 @@ The benchmark is intentionally small. It is not trying to prove that CodeGraph i
 Run exactly **three tasks** against the same local checkout:
 
 1. **Code exploration**
-   Compare ordinary repo exploration versus CodeGraph-assisted exploration for one architecture question on `src/` or `scripts/`.
+   Compare ordinary repo exploration versus CodeGraph-assisted exploration for one architecture question on `platform/src/` or `scripts/`.
 2. **Pre-edit impact review**
    Compare ordinary repo exploration versus CodeGraph-assisted review for one change-impact question.
 3. **Presentation prep**
@@ -39,19 +39,19 @@ Question:
 
 Default target files:
 
-- `src/grace_mar/presentations/service.py`
-- `src/grace_mar/presentations/presenton_client.py`
+- `platform/src/grace_mar/presentations/service.py`
+- `platform/src/grace_mar/presentations/presenton_client.py`
 - adjacent helpers revealed during the run
 
 ### Task B - Presentation service impact review
 
 Question:
 
-`If we change src/grace_mar/presentations/service.py, what other files and likely test surfaces should we inspect first?`
+`If we change platform/src/grace_mar/presentations/service.py, what other files and likely test surfaces should we inspect first?`
 
 Default changed file:
 
-- `src/grace_mar/presentations/service.py`
+- `platform/src/grace_mar/presentations/service.py`
 
 ### Task C - Architecture bundle prep
 
@@ -61,7 +61,7 @@ Question:
 
 Default output:
 
-- one bounded bundle JSON under `artifacts/presentations/`
+- one bounded bundle JSON under `runtime/artifacts/presentations/`
 
 ## Comparison Discipline
 
@@ -119,13 +119,13 @@ Every close must end with exactly one next action:
 Store benchmark runs under:
 
 ```text
-artifacts/benchmarks/code-intelligence/
+runtime/artifacts/benchmarks/code-intelligence/
 ```
 
 Suggested run folder:
 
 ```text
-artifacts/benchmarks/code-intelligence/YYYY-MM-DD/<runner>/codegraph-pilot-v1/
+runtime/artifacts/benchmarks/code-intelligence/YYYY-MM-DD/<runner>/codegraph-pilot-v1/
 ```
 
 Minimum run contents:

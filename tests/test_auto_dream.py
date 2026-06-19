@@ -21,7 +21,7 @@ def _gate_text(*blocks: str) -> str:
 
 
 def test_contradiction_digest_flags_duplicate_and_contradiction(tmp_path):
-    users_dir = tmp_path / "users"
+    users_dir = tmp_path / "platform/users"
     user_dir = users_dir / "demo"
     user_dir.mkdir(parents=True)
     (user_dir / "self.md").write_text(
@@ -82,7 +82,7 @@ source_exchange:
 
 
 def test_contradiction_digest_strict_mode_escalates_dense_overlap(tmp_path):
-    users_dir = tmp_path / "users"
+    users_dir = tmp_path / "platform/users"
     user_dir = users_dir / "demo"
     user_dir.mkdir(parents=True)
     (user_dir / "self.md").write_text(
@@ -131,7 +131,7 @@ source_exchange:
 
 def test_auto_dream_maintains_self_memory_and_writes_digest(tmp_path, monkeypatch):
     monkeypatch.delenv("CURSOR_MODEL", raising=False)
-    users_dir = tmp_path / "users"
+    users_dir = tmp_path / "platform/users"
     user_dir = users_dir / "demo"
     user_dir.mkdir(parents=True)
     (user_dir / "self.md").write_text("# SELF\n", encoding="utf-8")
@@ -210,7 +210,7 @@ Last rotated: 2026-01-01
 
 
 def test_auto_dream_strict_mode_halts_before_writes_on_failed_checks(tmp_path, monkeypatch):
-    users_dir = tmp_path / "users"
+    users_dir = tmp_path / "platform/users"
     user_dir = users_dir / "demo"
     user_dir.mkdir(parents=True)
     (user_dir / "self.md").write_text("# SELF\n", encoding="utf-8")
@@ -329,7 +329,7 @@ def test_format_auto_dream_summary_headline_prefix():
             "url": "https://theinnermostloop.substack.com/p/latest",
             "published_at": "2026-05-09T12:30:00+00:00",
         },
-        "handoff_path": str(ROOT / "users" / "grace-mar" / "last-dream.json"),
+        "handoff_path": str(ROOT / "platform/users" / "grace-mar" / "last-dream.json"),
     }
     out = auto_dream.format_auto_dream_summary(summary)
     first = out.split("\n", 1)[0]

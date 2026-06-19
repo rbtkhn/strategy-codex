@@ -122,7 +122,7 @@ def main() -> None:
     parser.add_argument("--json", action="store_true", help="Output JSON")
     args = parser.parse_args()
 
-    profile_dir = REPO_ROOT / "users" / args.user
+    profile_dir = REPO_ROOT / "platform/users" / args.user
     if not profile_dir.exists():
         print(f"Profile dir not found: {profile_dir}", file=__import__("sys").stderr)
         exit(1)

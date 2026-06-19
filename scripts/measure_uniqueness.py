@@ -26,9 +26,10 @@ from openai import OpenAI
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
+from repo_io import BOT_DIR
 
 load_dotenv(REPO_ROOT / ".env")
-load_dotenv(REPO_ROOT / "bot" / ".env")
+load_dotenv(BOT_DIR / ".env")
 
 from bot.prompt import SYSTEM_PROMPT
 

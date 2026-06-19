@@ -7,7 +7,7 @@ docs/mcp/research-to-evidence-stubs.md.
 
   python3 scripts/research_to_evidence_stub.py \\
     --input examples/research-evidence-input.example.json \\
-    --output artifacts/evidence-stubs/example-topic.md
+    --output runtime/artifacts/evidence-stubs/example-topic.md
 """
 
 from __future__ import annotations
@@ -24,6 +24,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from capture_scaffold_common import slugify, today_iso  # noqa: E402
 from mcp_capability_audit import _git_short_hash  # noqa: E402
@@ -40,12 +41,12 @@ from mcp_receipt_lib import (  # noqa: E402
 )
 
 RESEARCH_SCHEMA_PATH = REPO_ROOT / "schemas" / "research-evidence-input.v1.json"
-DEFAULT_CAPABILITY_ID = "evidence_stub_operator_template"
-DEFAULT_RECEIPT_DIR = REPO_ROOT / "artifacts" / "mcp-receipts"
+DEFAULT_CAPABILITY_ID = "evidence_stub_operatorplatform/template"
+DEFAULT_RECEIPT_DIR = ARTIFACTS_DIR / "mcp-receipts"
 
 CANONICAL_APPROVAL_DENYLIST = (
     "canonical record approval",
-    "merged into evidence",
+    "merged into archive/placeholders/evidence",
     "approved as canonical record",
     "quick path to self-archive",
     "written to self-archive without companion approval",
@@ -85,7 +86,7 @@ def resolve_stub_destination(
     topic: str,
     output: Path | None,
 ) -> Path:
-    bucket = (repo_root / "artifacts" / "evidence-stubs").resolve()
+    bucket = (ARTIFACTS_DIR / "evidence-stubs").resolve()
     bucket.mkdir(parents=True, exist_ok=True)
     if output is None:
         slug = slugify(topic)
@@ -103,7 +104,7 @@ def resolve_stub_destination(
             f"output must be under {bucket} (got {resolved})"
         ) from e
     rp = rel_to_repo.parts
-    if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
+    if len(rp) >= 2 and rp[0].lower() == "platform/users" and rp[1].lower() == "grace-mar":
         raise ValueError("refusing output path under ")
     for p in resolved.parts:
         if "self-archive" in p.lower():
@@ -158,7 +159,7 @@ def render_markdown(
         "",
         "> **PRE-CANONICAL Â· WORK ARTIFACT Â· NOT APPROVED RECORD**",
         "",
-        f"MCP receipt JSON (repo-relative path): `artifacts/mcp-receipts/{receipt_filename}` â€” stub path: `{stub_repo_rel}`",
+        f"MCP receipt JSON (repo-relative path): `runtime/artifacts/mcp-receipts/{receipt_filename}` â€” stub path: `{stub_repo_rel}`",
         "",
         "## Topic",
         "",
@@ -318,7 +319,7 @@ def main() -> int:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     artifacts = [
         {"path": stub_rel, "kind": "markdown_evidence_stub"},
-        {"path": f"artifacts/mcp-receipts/{receipt_filename}", "kind": "mcp_execution_receipt_json"},
+        {"path": f"runtime/artifacts/mcp-receipts/{receipt_filename}", "kind": "mcp_execution_receipt_json"},
     ]
 
     decl = raw["operator_intent"]

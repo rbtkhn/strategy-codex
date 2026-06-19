@@ -51,7 +51,7 @@ A pedagogy change that also alters expression should usually be filed as `pedago
 
 ## Encoding in proposal objects
 
-Change scopes and change kinds should be encoded in **Change Proposal v1** JSON (`primaryScope`, `secondaryScopes`, `changeType`, …) and validated with `scripts/validate-change-review.py`. See [state-proposals.md](state-proposals.md) and [schema-registry/change-proposal.v1.json](../schema-registry/change-proposal.v1.json).
+Change scopes and change kinds should be encoded in **Change Proposal v1** JSON (`primaryScope`, `secondaryScopes`, `changeType`, …) and validated with `scripts/validate-change-review.py`. See [state-proposals.md](state-proposals.md) and [schemas/registry/change-proposal.v1.json](../schemas/registry/change-proposal.v1.json).
 
 ---
 

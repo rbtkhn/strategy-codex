@@ -55,7 +55,7 @@ Add to your MCP configuration (`.cursor/mcp.json` or workspace settings):
   "mcpServers": {
     "grace-mar-export": {
       "command": "python",
-      "args": ["integrations/mcp_adapter.py"],
+      "args": ["platform/integrations/mcp_adapter.py"],
       "cwd": "/path/to/grace-mar"
     }
   }
@@ -71,7 +71,7 @@ Add to `claude_desktop_config.json`:
   "mcpServers": {
     "grace-mar-export": {
       "command": "python",
-      "args": ["/path/to/grace-mar/integrations/mcp_adapter.py"]
+      "args": ["/path/to/grace-mar/platform/integrations/mcp_adapter.py"]
     }
   }
 }
@@ -95,7 +95,7 @@ Retrieves a governed export view.
 
 Parameters:
 - `user_id` (string, default `"grace-mar"`) — user profile to export
-- `export_class` (string, default `"tool_bootstrap"`) — which export class to retrieve
+- `export_class` (string, default `"tool_archive/grace-mar-instance/bootstrap"`) — which export class to retrieve
 
 ---
 
@@ -106,7 +106,7 @@ Successful retrieval returns:
 ```json
 {
   "user": "grace-mar",
-  "export_class": "tool_bootstrap",
+  "export_class": "tool_archive/grace-mar-instance/bootstrap",
   "content_type": "text/plain",
   "content": "...",
   "generated_via": "export_prp",
@@ -121,7 +121,7 @@ Error responses return:
 ```json
 {
   "error": "export class 'capability' is not yet wired — ...",
-  "supported_classes": ["full", "task_limited", "tool_bootstrap"]
+  "supported_classes": ["full", "task_limited", "tool_archive/grace-mar-instance/bootstrap"]
 }
 ```
 

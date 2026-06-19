@@ -402,9 +402,9 @@ def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch
     arc.parent.mkdir(parents=True)
     arc.write_text("# Diesen x Ritter\n", encoding="utf-8")
 
-    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
-    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
-    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "runtime/artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "runtime/artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "runtime/artifacts" / "host-shelf-quality")
     monkeypatch.setattr(
         mat,
         "fetch_metadata_ytdlp",
@@ -449,11 +449,11 @@ def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch
     assert "quality scope: `full-host-month`" in summary.read_text(encoding="utf-8")
     assert "quality closeout: Structure:" in summary.read_text(encoding="utf-8")
     assert "host_quality_reports" in summary.read_text(encoding="utf-8")
-    routing_files = list((tmp_path / "artifacts" / "speaker-routing" / "dense-run").rglob("speaker-routing-queue.jsonl"))
-    action_files = list((tmp_path / "artifacts" / "speaker-memory-actions" / "dense-run").rglob("memory-action-queue.jsonl"))
+    routing_files = list((tmp_path / "runtime/artifacts" / "speaker-routing" / "dense-run").rglob("speaker-routing-queue.jsonl"))
+    action_files = list((tmp_path / "runtime/artifacts" / "speaker-memory-actions" / "dense-run").rglob("memory-action-queue.jsonl"))
     assert len(routing_files) == 1
     assert len(action_files) == 1
-    quality_files = list((tmp_path / "artifacts" / "host-shelf-quality").rglob("quality-summary.json"))
+    quality_files = list((tmp_path / "runtime/artifacts" / "host-shelf-quality").rglob("quality-summary.json"))
     assert len(quality_files) == 1
     route_payload = json.loads(routing_files[0].read_text(encoding="utf-8").splitlines()[0])
     assert route_payload["appearance"]["speaker_slug"] == "ritter"
@@ -539,8 +539,8 @@ def test_raw_input_list_with_appearances_does_not_fetch_or_write_transcripts(tmp
         raise AssertionError("metadata fetch should not run for raw-input-list")
 
     monkeypatch.setattr(mat, "fetch_metadata_ytdlp", fail_fetch)
-    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
-    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "runtime/artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "runtime/artifacts" / "speaker-memory-actions")
 
     rc = mat.main(
         [
@@ -560,7 +560,7 @@ def test_raw_input_list_with_appearances_does_not_fetch_or_write_transcripts(tmp
     assert rc == 0
     assert '"existing_raw_input": true' in captured.out
     assert '"status": "already-present-valid"' in captured.out
-    assert len(list((tmp_path / "artifacts" / "speaker-routing" / "existing-run").rglob("appearance-ledger.jsonl"))) == 1
+    assert len(list((tmp_path / "runtime/artifacts" / "speaker-routing" / "existing-run").rglob("appearance-ledger.jsonl"))) == 1
 
 
 def test_no_quality_report_suppresses_quality_artifacts(tmp_path: Path, monkeypatch, capsys) -> None:
@@ -589,9 +589,9 @@ def test_no_quality_report_suppresses_quality_artifacts(tmp_path: Path, monkeypa
         f"{_caption(90)}\n",
         encoding="utf-8",
     )
-    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
-    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
-    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "runtime/artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "runtime/artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "runtime/artifacts" / "host-shelf-quality")
 
     rc = mat.main(
         [
@@ -612,7 +612,7 @@ def test_no_quality_report_suppresses_quality_artifacts(tmp_path: Path, monkeypa
     captured = capsys.readouterr()
     assert rc == 0
     assert '"status": "already-present-valid"' in captured.out
-    assert not (tmp_path / "artifacts" / "host-shelf-quality").exists()
+    assert not (tmp_path / "runtime/artifacts" / "host-shelf-quality").exists()
     summary = (tmp_path / "receipts" / "no-quality-run" / "capture-summary.md").read_text(encoding="utf-8")
     assert "quality closeout: Structure:" not in summary
 
@@ -658,9 +658,9 @@ def test_quality_report_from_single_raw_input_expands_to_full_month(tmp_path: Pa
         encoding="utf-8",
     )
 
-    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
-    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
-    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "runtime/artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "runtime/artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "runtime/artifacts" / "host-shelf-quality")
 
     rc = mat.main(
         [
@@ -681,7 +681,7 @@ def test_quality_report_from_single_raw_input_expands_to_full_month(tmp_path: Pa
     assert rc == 0
     assert '"status": "already-present-valid"' in captured.out
     summary = (tmp_path / "receipts" / "single-run" / "capture-summary.md").read_text(encoding="utf-8")
-    quality_json = next((tmp_path / "artifacts" / "host-shelf-quality").rglob("quality-summary.json"))
+    quality_json = next((tmp_path / "runtime/artifacts" / "host-shelf-quality").rglob("quality-summary.json"))
     quality_payload = json.loads(quality_json.read_text(encoding="utf-8"))
     assert "quality scope: `full-host-month`" in summary
     assert quality_payload["input_scope"] == "full-host-month"
@@ -714,9 +714,9 @@ def test_existing_legacy_raw_input_can_route_for_appearance(tmp_path: Path) -> N
 def test_dry_run_with_appearances_does_not_route(tmp_path: Path, monkeypatch) -> None:
     video_id = "dryap123456"
     notebook_root = tmp_path / "codex" / "2026"
-    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
-    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
-    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "runtime/artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "runtime/artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "runtime/artifacts" / "host-shelf-quality")
     monkeypatch.setattr(
         mat,
         "fetch_metadata_ytdlp",
@@ -746,7 +746,7 @@ def test_dry_run_with_appearances_does_not_route(tmp_path: Path, monkeypatch) ->
     )
 
     assert rc == 0
-    assert not (tmp_path / "artifacts").exists()
+    assert not (tmp_path / "runtime/artifacts").exists()
     assert (tmp_path / "receipts" / "dry-appearance" / "successful-raw-inputs.txt").read_text(encoding="utf-8") == ""
 
 
@@ -893,9 +893,9 @@ def test_host_only_title_match_does_not_write_host_as_guest(tmp_path: Path, monk
 def test_with_appearances_skips_unresolved_guest_capture(tmp_path: Path, monkeypatch, capsys) -> None:
     video_id = "unknown12345"
     notebook_root = tmp_path / "codex" / "2026"
-    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
-    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
-    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "runtime/artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "runtime/artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "runtime/artifacts" / "host-shelf-quality")
     monkeypatch.setattr(
         mat,
         "fetch_metadata_ytdlp",
@@ -928,9 +928,9 @@ def test_with_appearances_skips_unresolved_guest_capture(tmp_path: Path, monkeyp
     captured = capsys.readouterr()
     assert rc == 0
     assert '"status": "materialized"' in captured.out
-    assert not (tmp_path / "artifacts" / "speaker-routing").exists()
-    assert not (tmp_path / "artifacts" / "speaker-memory-actions").exists()
-    assert len(list((tmp_path / "artifacts" / "host-shelf-quality").rglob("quality-summary.json"))) == 1
+    assert not (tmp_path / "runtime/artifacts" / "speaker-routing").exists()
+    assert not (tmp_path / "runtime/artifacts" / "speaker-memory-actions").exists()
+    assert len(list((tmp_path / "runtime/artifacts" / "host-shelf-quality").rglob("quality-summary.json"))) == 1
     summary = (tmp_path / "receipts" / "unresolved-run" / "capture-summary.md").read_text(encoding="utf-8")
     assert "unresolved speaker captures: `1`" in summary
     assert "quality closeout: Structure:" in summary
@@ -945,9 +945,9 @@ def test_with_appearances_skips_ambiguous_title_inference(tmp_path: Path, monkey
         folder.mkdir(parents=True)
         (folder / f"{slug}-speaker-object.md").write_text(f"# {slug}\n", encoding="utf-8")
 
-    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "artifacts" / "speaker-routing")
-    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "artifacts" / "speaker-memory-actions")
-    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "artifacts" / "host-shelf-quality")
+    monkeypatch.setattr(mat, "DEFAULT_ROUTING_OUT", tmp_path / "runtime/artifacts" / "speaker-routing")
+    monkeypatch.setattr(mat, "DEFAULT_ACTION_OUT", tmp_path / "runtime/artifacts" / "speaker-memory-actions")
+    monkeypatch.setattr(mat, "DEFAULT_HOST_QUALITY_OUT", tmp_path / "runtime/artifacts" / "host-shelf-quality")
     monkeypatch.setattr(
         mat,
         "fetch_metadata_ytdlp",
@@ -980,9 +980,9 @@ def test_with_appearances_skips_ambiguous_title_inference(tmp_path: Path, monkey
     captured = capsys.readouterr()
     assert rc == 0
     assert '"status": "materialized"' in captured.out
-    assert not (tmp_path / "artifacts" / "speaker-routing").exists()
-    assert not (tmp_path / "artifacts" / "speaker-memory-actions").exists()
-    assert len(list((tmp_path / "artifacts" / "host-shelf-quality").rglob("quality-summary.json"))) == 1
+    assert not (tmp_path / "runtime/artifacts" / "speaker-routing").exists()
+    assert not (tmp_path / "runtime/artifacts" / "speaker-memory-actions").exists()
+    assert len(list((tmp_path / "runtime/artifacts" / "host-shelf-quality").rglob("quality-summary.json"))) == 1
     summary = (tmp_path / "receipts" / "ambiguous-run" / "capture-summary.md").read_text(encoding="utf-8")
     assert "unresolved speaker captures: `1`" in summary
     assert "quality closeout: Structure:" in summary

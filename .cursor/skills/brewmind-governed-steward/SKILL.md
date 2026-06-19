@@ -10,7 +10,7 @@ description: "BrewMind × Cici: route business facts through evidence → prepar
 
 **Purpose:** Make **[Cici](https://github.com/Xavier-x01/Cici)** actually **manage** BrewMind **business** — not only chat or Supabase recall — by **closing the loop** from messy reality to **reviewable, durable files** Xavier owns.
 
-**Territory:** **WORK** (advisor + Xavier operator). **Not** grace-mar **Record** or **RECURSION-GATE** merges. **Canonical instance:** Xavier’s repo [Cici](https://github.com/Xavier-x01/Cici) — see [README](https://github.com/Xavier-x01/Cici#readme), [`docs/governed-state-doctrine.md`](https://github.com/Xavier-x01/Cici/blob/main/docs/governed-state-doctrine.md), `config/authority-map.json`.
+**Territory:** **WORK** (advisor + Xavier operator). **Not** grace-mar **Record** or **RECURSION-GATE** merges. **Canonical instance:** Xavier’s repo [Cici](https://github.com/Xavier-x01/Cici) — see [README](https://github.com/Xavier-x01/Cici#readme), [`docs/governed-state-doctrine.md`](https://github.com/Xavier-x01/Cici/blob/main/docs/governed-state-doctrine.md), `platform/config/authority-map.json`.
 
 **Pairs with:** [skill-cici](../skill-cici/SKILL.md) (daily rhythm / journal) · [work-cici](../../../docs/skill-work/work-cici/README.md) · optional Cici slash commands (`/draft-proposal`, `/review-governed-change`, `/promote-to-governed-state`, `/session-start`).
 
@@ -26,7 +26,7 @@ description: "BrewMind × Cici: route business facts through evidence → prepar
 
 | Kind of input | Default landing | Next step toward truth |
 |---------------|-----------------|-------------------------|
-| Raw note, screenshot, call log, “someone said …” | `evidence/` | Summarize in `prepared-context/` when decision-ready |
+| Raw note, screenshot, call log, “someone said …” | `archive/placeholders/evidence/` | Summarize in `runtime/prepared-context/` when decision-ready |
 | Pricing, hours, partner terms, public promise, membership rules | **Never** only chat | **`proposals/queue/`** JSON + schema — owner reviews |
 | Approved durable business fact | `cici/governed-state/` (per authority map) | Only **after** explicit approve + validate |
 
@@ -37,7 +37,7 @@ description: "BrewMind × Cici: route business facts through evidence → prepar
 ## Steps (operator or Xavier with Claude Code)
 
 1. **Name the fact** — One sentence: what would change if this were wrong?
-2. **Pick the surface** — Evidence only vs needs proposal vs already in governed state (read `config/authority-map.json`).
+2. **Pick the surface** — Evidence only vs needs proposal vs already in governed state (read `platform/config/authority-map.json`).
 3. **Draft or update** — Use `/draft-proposal` or hand-edit `proposals/queue/` per repo schema; link supporting evidence paths.
 4. **Review** — Self-review + `/review-governed-change` (or human checklist): authority, scope, no secrets in-repo.
 5. **Approve** — Owner (Xavier) decides; rejected/deferred go to `proposals/rejected/` with reason if your workflow uses it.
@@ -66,4 +66,4 @@ One week where **at least two** BrewMind-tagged facts moved **evidence → propo
 
 - [brewmind-philippines-onboarding-guide.md](../../../docs/skill-work/work-cici/brewmind-philippines-onboarding-guide.md) — business bundle
 - [cici-work-profile.md](../../../docs/skill-work/work-cici/cici-work-profile.md) — Cici matrix row
-- [evidence/cici-rtf-sessions-ingest-2026-04-14.md](../../../docs/skill-work/work-cici/evidence/cici-rtf-sessions-ingest-2026-04-14.md) — `.claude/` + companion contract context
+- [archive/placeholders/evidence/cici-rtf-sessions-ingest-2026-04-14.md](../../../docs/skill-work/work-cici/archive/placeholders/evidence/cici-rtf-sessions-ingest-2026-04-14.md) — `.claude/` + companion contract context

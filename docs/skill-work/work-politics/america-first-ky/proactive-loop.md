@@ -18,7 +18,7 @@ Use america-first-ky as a **sovereign co-pilot** pattern for Rep. Thomas Massie 
 
 This is â€œOpenClaw-likeâ€ **proactivity + memory + tools** only in the sense of **clear procedures and optional hooks** â€” **not** unsupervised posting or Record writes.
 
-**Massie drafting voice (WORK):** Use [massie-advisor-prompt.md](massie-advisor-prompt.md) for operator/LLM sessions on campaign copy. It is **not** the companion Telegram Voice; do **not** merge into `bot/prompt.py` without explicit governance. Optional schedules: [scheduled-habit.md](scheduled-habit.md).
+**Massie drafting voice (WORK):** Use [massie-advisor-prompt.md](massie-advisor-prompt.md) for operator/LLM sessions on campaign copy. It is **not** the companion Telegram Voice; do **not** merge into `archive/grace-mar-instance/bot/prompt.py` without explicit governance. Optional schedules: [scheduled-habit.md](scheduled-habit.md).
 
 ---
 

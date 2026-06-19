@@ -34,13 +34,13 @@ def _base_config() -> dict:
                 "kind": "python_canonical_writer_allowlist",
                 "targets": ["scripts/**/*.py"],
                 "protectedNames": ["recursion-gate.md", "self-archive.md"],
-                "protectedExactPaths": ["bot/prompt.py"],
+                "protectedExactPaths": ["archive/grace-mar-instance/bot/prompt.py"],
                 "approvedWriters": ["scripts/approved_writer.py"],
             },
             {
                 "id": "interface-artifact-non-authority",
                 "kind": "json_field_const",
-                "targets": ["artifacts/**/*.json"],
+                "targets": ["runtime/artifacts/**/*.json"],
                 "appliesWhen": {
                     "allKeys": ["artifactId", "artifactKind", "recordAuthority", "gateEffect"]
                 },
@@ -55,7 +55,7 @@ def _base_config() -> dict:
             {
                 "id": "workbench-receipts-no-evidence-truth",
                 "kind": "json_forbidden_text",
-                "targets": ["artifacts/**/*.json"],
+                "targets": ["runtime/artifacts/**/*.json"],
                 "appliesWhen": {"fieldEquals": {"receiptKind": "workbench"}},
                 "forbiddenSubstrings": ["proof of external facts", "evidence truth"],
             },
@@ -100,14 +100,14 @@ def _base_config() -> dict:
 
 def _build_repo(root: Path) -> Path:
     (root / "scripts").mkdir(parents=True, exist_ok=True)
-    (root / "artifacts" / "work-dev" / "interface-artifacts").mkdir(parents=True, exist_ok=True)
-    (root / "artifacts" / "work-dev" / "workbench-receipts").mkdir(parents=True, exist_ok=True)
+    (root / "runtime/artifacts" / "work-dev" / "interface-runtime/artifacts").mkdir(parents=True, exist_ok=True)
+    (root / "runtime/artifacts" / "work-dev" / "workbench-receipts").mkdir(parents=True, exist_ok=True)
     (root / "docs" / "portability" / "emulation" / "behavior-spec").mkdir(
         parents=True,
         exist_ok=True,
     )
     (root / "docs" / "skill-work" / "work-dev").mkdir(parents=True, exist_ok=True)
-    (root / "config").mkdir(parents=True, exist_ok=True)
+    (root / "platform/config").mkdir(parents=True, exist_ok=True)
 
     (root / "scripts" / "approved_writer.py").write_text(
         'gate_path = user_dir / "recursion-gate.md"\n'
@@ -116,7 +116,7 @@ def _build_repo(root: Path) -> Path:
     )
 
     _write_json(
-        root / "artifacts" / "work-dev" / "interface-artifacts" / "artifact.json",
+        root / "runtime/artifacts" / "work-dev" / "interface-runtime/artifacts" / "artifact.json",
         {
             "artifactId": "iface-1",
             "artifactKind": "html-visualizer",
@@ -125,7 +125,7 @@ def _build_repo(root: Path) -> Path:
         },
     )
     _write_json(
-        root / "artifacts" / "work-dev" / "workbench-receipts" / "receipt.json",
+        root / "runtime/artifacts" / "work-dev" / "workbench-receipts" / "receipt.json",
         {
             "receiptKind": "workbench",
             "revisionSummary": "pilot inspection only",
@@ -167,7 +167,7 @@ def _build_repo(root: Path) -> Path:
         "WORK docs do not have canonical merge authority.\n",
         encoding="utf-8",
     )
-    config_path = root / "config" / "doctrine-rules.v1.json"
+    config_path = root / "platform/config" / "doctrine-rules.v1.json"
     _write_json(config_path, _base_config())
     return config_path
 
@@ -199,7 +199,7 @@ def test_doctrine_drift_clean_repo(tmp_repo: tuple[Path, Path]) -> None:
         ),
         (
             lambda root: _write_json(
-                root / "artifacts" / "work-dev" / "interface-artifacts" / "artifact.json",
+                root / "runtime/artifacts" / "work-dev" / "interface-runtime/artifacts" / "artifact.json",
                 {
                     "artifactId": "iface-1",
                     "artifactKind": "html-visualizer",
@@ -228,7 +228,7 @@ def test_doctrine_drift_clean_repo(tmp_repo: tuple[Path, Path]) -> None:
         ),
         (
             lambda root: _write_json(
-                root / "artifacts" / "work-dev" / "workbench-receipts" / "receipt.json",
+                root / "runtime/artifacts" / "work-dev" / "workbench-receipts" / "receipt.json",
                 {
                     "receiptKind": "workbench",
                     "revisionSummary": "This is proof of external facts.",
@@ -305,7 +305,7 @@ def test_doctrine_drift_cli_json_reports_violations(tmp_repo: tuple[Path, Path])
             str(SCRIPT),
             "--repo-root",
             str(repo_root),
-            "--config",
+            "--platform/config",
             str(config_path),
             "--json",
         ],

@@ -8,7 +8,7 @@
 
 ## Relation to other artifacts
 
-- **`python3 scripts/work_dev_compound_refresh.py`** â€” inventory, staleness heuristics, and duplicate-title hints; output: `artifacts/work-dev-compound-refresh.md`. Summarized **metadata**, not the full text of every candidate section.
+- **`python3 scripts/work_dev_compound_refresh.py`** â€” inventory, staleness heuristics, and duplicate-title hints; output: `runtime/artifacts/work-dev-compound-refresh.md`. Summarized **metadata**, not the full text of every candidate section.
 - **`python3 scripts/export_work_dev_compound_gate_candidates.py`** â€” this documentâ€™s script â€” assembles **per-note blocks** (reusable pattern/lesson, gate recommendation) for **human review** of items flagged as gate candidates. Still **no merge**; use the normal companion / gate flow when you choose to **stage** something.
 
 If you need to **stage** a candidate into the existing gate pipeline, use the projectâ€™s **companion** and **stage** scripts (e.g. `scripts/stage_gate_candidate.py` where appropriate) **manually**; this export does **not** call those scripts for you.
@@ -17,7 +17,7 @@ If you need to **stage** a candidate into the existing gate pipeline, use the pr
 
 1. Author or update compound notes under `docs/skill-work/work-dev/compound-notes/`.
 2. Set `gate_candidate: true` (or `yes`) in front matter when a note is meant as a **recommendation** for gate review, not a silent promotion.
-3. Run `python3 scripts/export_work_dev_compound_gate_candidates.py` (default output: `artifacts/work-dev-compound-gate-candidates.md`).
+3. Run `python3 scripts/export_work_dev_compound_gate_candidates.py` (default output: `runtime/artifacts/work-dev-compound-gate-candidates.md`).
 4. Use `--include-all` to list every valid note, each with an explicit `gate_candidate: true|false` line.
 5. Open the generated markdown and review `### Reusable pattern`, `### Reusable lesson`, and `### Gate recommendation` in context.
 6. If promoting, follow the **normal** governed gate / companion process; treat `### Proposed staging disposition` in the export as a fixed reminder: **manual review, no auto-promote**.
@@ -31,6 +31,6 @@ A noteâ€™s appearance in the export (or a high count of `gate_candidate` fl
 | Flag | Meaning |
 |------|---------|
 | `--notes-dir` | Override the compound notes directory (default: `docs/skill-work/work-dev/compound-notes`). |
-| `--output` | Override output path (default: `artifacts/work-dev-compound-gate-candidates.md`). Paths are resolved relative to the repo root when not absolute. |
+| `--output` | Override output path (default: `runtime/artifacts/work-dev-compound-gate-candidates.md`). Paths are resolved relative to the repo root when not absolute. |
 | `--include-all` | Include every valid note, with a visible `gate_candidate` line in each block. |
 

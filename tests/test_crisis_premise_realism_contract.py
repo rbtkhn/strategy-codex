@@ -25,7 +25,7 @@ REQUIRED_CASE_FIELDS = {
     "must_not",
     "expected_routing",
 }
-SKILL_PATH = REPO_ROOT / "skills-portable" / "_drafts" / "academy-statecraft-drafting" / "SKILL.md"
+SKILL_PATH = REPO_ROOT / "skills" / "_drafts" / "academy-statecraft-drafting" / "SKILL.md"
 CASEBOOK_PATH = REPO_ROOT / "statecraft" / "sheets" / "crisis-test-casebook.md"
 
 

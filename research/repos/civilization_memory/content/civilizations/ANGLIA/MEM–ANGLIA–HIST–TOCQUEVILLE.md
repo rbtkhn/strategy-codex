@@ -86,7 +86,7 @@ despotism and tyranny will not suit. It is a new thing."
 
 America offered Tocqueville a working democracy with federalism,
 associations, and local liberty—the institutions and mores France
-lacked. Anglia (in its American extension) becomes the contrast case
+lacked. Anglia (in its American platform/extension) becomes the contrast case
 against which Francia measures its own centralization and equality
 without liberty.
 

@@ -49,7 +49,7 @@ superseded_entry:
 
 Before merge, an instance may run an **advisory** conflict check: compare staged content to existing Record (e.g. IX-A, IX-B, IX-C). Surface for resolution; **do not block staging** unless instance policy explicitly requires it. The companion still decides at the gate.
 
-Reference implementation: Grace-Mar `bot/conflict_check.py` + `bot/conflict_rules.yaml`.
+Reference implementation: Grace-Mar `archive/grace-mar-instance/bot/conflict_check.py` + `archive/grace-mar-instance/bot/conflict_rules.yaml`.
 
 ---
 

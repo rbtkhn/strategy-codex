@@ -4,7 +4,7 @@
 Reads: decision-points/*.md, authorized-sources.yaml, promotion-policy.json,
        strategy-notebook/chapters/*/days.md, daily-strategy-inbox.md,
        STRATEGY.md
-Output: artifacts/work-strategy/strategy-observability.json
+Output: runtime/artifacts/work-strategy/strategy-observability.json
 
 Usage:
   python3 scripts/build_strategy_observability.py
@@ -19,12 +19,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
+from repo_io import SRC_DIR
 
 from grace_mar.observability.metric_contract import WORKFLOW_METRIC_KEY, fill_contract  # noqa: E402
-OUT = REPO_ROOT / "artifacts/work-strategy/strategy-observability.json"
+OUT = REPO_ROOT / "runtime/artifacts/work-strategy/strategy-observability.json"
 
 STRATEGY_ROOT = REPO_ROOT / "docs/skill-work/work-strategy"
 NB_ROOT = REPO_ROOT / "codex"

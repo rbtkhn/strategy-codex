@@ -44,7 +44,7 @@ Agents may stage candidates only. Merge requires user approval.
 
 ## Exports
 
-  users/grace-mar/openclaw-user.md: python scripts/export_user_identity.py -u grace-mar -o users/grace-mar/openclaw-user.md
+  platform/users/grace-mar/openclaw-user.md: python scripts/export_user_identity.py -u grace-mar -o platform/users/grace-mar/openclaw-user.md
   manifest: python scripts/export_manifest.py -u grace-mar
   fork_json: python scripts/export_fork.py -o fork-export.json
   intent_snapshot: python scripts/export_intent_snapshot.py -u grace-mar

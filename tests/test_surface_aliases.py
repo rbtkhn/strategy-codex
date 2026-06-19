@@ -34,8 +34,8 @@ def test_get_surface_by_key_and_legacy() -> None:
 
     assert get_surface_by_key("self_skills") is SURFACES["self_skills"]
     assert get_surface_by_key("skills") is SURFACES["self_skills"]
-    assert get_surface_by_key("self-evidence") is SURFACES["self_evidence"]
-    assert get_surface_by_key("evidence") is SURFACES["self_evidence"]
+    assert get_surface_by_key("self-archive/placeholders/evidence") is SURFACES["self_archive/placeholders/evidence"]
+    assert get_surface_by_key("archive/placeholders/evidence") is SURFACES["self_archive/placeholders/evidence"]
     assert get_surface_by_key("knowledge") is SURFACES["self_knowledge"]
     assert get_surface_by_key("unknown_xyz") is None
 
@@ -45,7 +45,7 @@ def test_get_surface_by_file_stem() -> None:
     from surface_aliases import get_surface_by_file_stem
 
     assert get_surface_by_file_stem("self-archive") is not None
-    assert get_surface_by_file_stem("self-archive").canonical_key == "self_evidence"
+    assert get_surface_by_file_stem("self-archive").canonical_key == "self_archive/placeholders/evidence"
     assert get_surface_by_file_stem("skills") is not None
     assert get_surface_by_file_stem("skills").canonical_key == "self_skills"
     assert get_surface_by_file_stem("self-skills") is not None

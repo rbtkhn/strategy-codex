@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a derived JSON graph of strategy pages, experts, and watches (WORK only).
 
-Reads Markdown only. Writes artifacts/work-strategy/strategy-notebook/graph.json
+Reads Markdown only. Writes runtime/artifacts/work-strategy/strategy-notebook/graph.json
 and views under .../views/. See docs/.../GRAPH-SCHEMA.md
 """
 
@@ -9,24 +9,27 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from repo_io import ARTIFACTS_DIR  # noqa: E402
+
 DEFAULT_NOTEBOOK = (
     REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 )
 DEFAULT_GRAPH = (
-    REPO_ROOT
-    / "artifacts"
+    ARTIFACTS_DIR
     / "work-strategy"
     / "strategy-notebook"
     / "graph.json"
 )
 DEFAULT_VIEWS = (
-    REPO_ROOT
-    / "artifacts"
+    ARTIFACTS_DIR
     / "work-strategy"
     / "strategy-notebook"
     / "views"

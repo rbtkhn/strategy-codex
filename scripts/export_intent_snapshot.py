@@ -121,7 +121,7 @@ def _tradeoff_rules(block: str) -> list[dict]:
 
 
 def export_intent_snapshot(user_id: str = "grace-mar") -> dict:
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     intent_path = profile_dir / "intent.md"
     raw = _read(intent_path)
     if not raw:

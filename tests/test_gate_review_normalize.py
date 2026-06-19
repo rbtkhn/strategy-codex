@@ -108,7 +108,7 @@ def test_evidence_count_from_raw_block():
 
 def test_validate_change_review_demo_subprocess():
     script = REPO_ROOT / "scripts" / "validate-change-review.py"
-    demo = REPO_ROOT / "users" / "demo" / "review-queue"
+    demo = REPO_ROOT / "platform/users" / "demo" / "archive/queues/review-queue"
     r = subprocess.run(
         [sys.executable, str(script), str(demo)],
         cwd=str(REPO_ROOT),
@@ -204,7 +204,7 @@ def _write_pre_decision_review_queue_fixture(review_dir: Path) -> None:
 
 def test_validate_change_review_allow_missing_decisions_subprocess(tmp_path):
     script = REPO_ROOT / "scripts" / "validate-change-review.py"
-    rq = tmp_path / "review-queue"
+    rq = tmp_path / "archive/queues/review-queue"
     _write_pre_decision_review_queue_fixture(rq)
 
     strict = subprocess.run(

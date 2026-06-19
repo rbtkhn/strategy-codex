@@ -65,7 +65,7 @@ def _run(
 
     inp = tmp_path / "req.json"
     inp.write_text(json.dumps(doc), encoding="utf-8")
-    outp = tmp_path / "artifacts" / "mcp-local-read" / out_name
+    outp = tmp_path / "runtime/artifacts" / "mcp-local-read" / out_name
 
     allow_path = _dump_allow(tmp_path, allow_cfg or _minimal_allowlist_yaml())
 
@@ -83,11 +83,11 @@ def _run(
             "--allowlist",
             str(allow_path),
             "--capabilities",
-            str(REPO_ROOT / "config" / "mcp-capabilities.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-capabilities.yaml"),
             "--bindings",
-            str(REPO_ROOT / "config" / "mcp-authority-bindings.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-authority-bindings.yaml"),
             "--policy",
-            str(REPO_ROOT / "config" / "mcp-risk-policy.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-risk-policy.yaml"),
         ],
     )
     code = mlr.main()
@@ -223,14 +223,14 @@ def test_outside_allowed_roots_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: 
 def test_oversized_file_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     docs = tmp_path / "docs"
     docs.mkdir()
-    (docs / "big.bin").write_bytes(b"x" * 50)
+    (docs / "big.platform/bin").write_bytes(b"x" * 50)
 
     doc = {
         "schema_version": 1,
         "request": {
             "id": "big",
             "declared_intent": "x",
-            "path": "docs/big.bin",
+            "path": "docs/big.platform/bin",
             "include_excerpt": False,
             "max_excerpt_chars": 0,
         },
@@ -306,7 +306,7 @@ def test_repo_example_cli_smoke() -> None:
     """Runs adapter against committed example (writes ignored artifact paths)."""
     import subprocess
 
-    out_md = REPO_ROOT / "artifacts" / "mcp-local-read" / "_pytest_smoke_pr9.md"
+    out_md = REPO_ROOT / "runtime/artifacts" / "mcp-local-read" / "_pytest_smoke_pr9.md"
     proc = subprocess.run(
         [
             sys.executable,

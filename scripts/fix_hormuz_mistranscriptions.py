@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Apply high-confidence Strait of Hormuz transcript fixes from an audit artifact.
 
@@ -19,7 +20,7 @@ from pathlib import Path
 from typing import Iterable
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_AUDIT_JSON = REPO_ROOT / "artifacts" / "transcript-audits" / "statecraft-hormuz-mistranscriptions-2026-06-01.json"
+DEFAULT_AUDIT_JSON = ARTIFACTS_DIR / "transcript-audits" / "statecraft-hormuz-mistranscriptions-2026-06-01.json"
 
 
 @dataclass(frozen=True)

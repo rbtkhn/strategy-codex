@@ -306,7 +306,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:0 S:0 G:2]** [North Korea launches ballistic missiles toward sea](https://www.npr.org/2026/04/18/nx-s1-5789939/north-korea-ballistic-missiles) Ã¢â‚¬” _NPR Ã¢â‚¬” national news_ Ã‚· _2026-04-18 20:54 UTC_
 - **[W:5 S:0 G:1]** [EN DIRECT, guerre en UkraineÃ‚ : Volodymyr Zelensky estime qu’assouplir les sanctions contre le pÃƒÂ©trole russe fournira Ãƒ  Moscou Ã‚Â«Ã‚ de l’argent qui se transformera directement en nouvelles frappesÃ‚ Ã‚Â»](https://www.lemonde.fr/international/live/2026/04/19/en-direct-guerre-en-ukraine-volodymyr-zelensky-estime-qu-assouplir-les-sanctions-contre-le-petrole-russe-fournira-a-moscou-de-l-argent-qui-se-transformera-directement-en-nouvelles-frappes_6681322_3210.html) Ã¢â‚¬” _Le Monde Ã¢â‚¬” franÃƒ§ais (France / monde)_ Ã‚· _fr_ Ã‚· _2026-04-19 14:04 UTC_
@@ -381,7 +381,7 @@ Thread **Context Efficiency Layer** when assembling follow-up context: prefer ho
 - **Doctrine:** [context-efficiency-layer.md](../context-efficiency-layer.md)
 - **Compaction shapes:** [context-compaction-protocol.md](../context-compaction-protocol.md)
 - **Session brief (hot):** `python3 scripts/session_brief.py -u grace-mar --compact`
-- **Budgets:** `config/context_budgets/session_brief.json`, `config/context_surfaces.json`
+- **Budgets:** `platform/config/context_budgets/session_brief.json`, `platform/config/context_surfaces.json`
 
 
 ---

@@ -75,7 +75,7 @@ def estimate_subscores(text: str) -> dict[str, float]:
         "novel",
         "contradiction",
         "gap",
-        "new evidence",
+        "new archive/placeholders/evidence",
         "re-evaluate",
         "diverge",
         "abstain",

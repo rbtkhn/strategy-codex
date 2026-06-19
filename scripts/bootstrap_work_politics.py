@@ -21,7 +21,7 @@ if _SCRIPTS not in sys.path:
 from work_politics_engine import WorkPoliticsEngine  # noqa: E402
 
 USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
-OPERATOR = os.getenv("GRACE_MAR_OPERATOR_NAME", "operator-bootstrap")
+OPERATOR = os.getenv("GRACE_MAR_OPERATOR_NAME", "operator-archive/grace-mar-instance/bootstrap")
 
 
 def main() -> int:
@@ -56,7 +56,7 @@ def main() -> int:
         engagement_id=engagement_id,
         stage="brief_created",
         outcome="queued_for_review",
-        source="bootstrap",
+        source="archive/grace-mar-instance/bootstrap",
         notes={"policy_reason": decision.reason},
     )
 

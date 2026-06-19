@@ -13,6 +13,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
+from repo_io import ARTIFACTS_DIR
 
 from audit_cadence_rhythm import EVENTS_PATH, compute_conductor_audit, parse_events
 from cadence_conductor_resolution import (
@@ -20,7 +21,7 @@ from cadence_conductor_resolution import (
     compiled_shortcut_for_conductor,
     should_offer_compiled_shortcut,
 )
-DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "context" / "conductor-ledger.md"
+DEFAULT_OUTPUT = ARTIFACTS_DIR / "context" / "conductor-ledger.md"
 DEFAULT_FRICTION_ROOTS = (
     REPO_ROOT / "docs" / "skill-work" / "work-dev" / "dev-notebook" / "work-dev" / "journal",
     REPO_ROOT / "docs" / "skill-work" / "work-strategy",
@@ -75,7 +76,7 @@ def collect_recent_conductor_closes(
                         "ts": event["dt"].isoformat(),
                         "conductor": conductor,
                         "verdict": str(kv.get("outcome", "")).strip() or None,
-                        "artifacts": str(kv.get("artifacts", "")).strip() or None,
+                        "runtime/artifacts": str(kv.get("runtime/artifacts", "")).strip() or None,
                         "next": str(kv.get("next", "")).strip() or None,
                         "loops": str(kv.get("loops", "")).strip() or None,
                     }
@@ -270,8 +271,8 @@ def render_conductor_ledger_markdown(payload: dict[str, Any]) -> str:
                 if row.get("falsify"):
                     details.append(f"falsify=`{row['falsify']}`")
             elif row["kind"] == "coffee_close":
-                if row.get("artifacts"):
-                    details.append(f"artifacts=`{row['artifacts']}`")
+                if row.get("runtime/artifacts"):
+                    details.append(f"artifacts=`{row['runtime/artifacts']}`")
                 if row.get("next"):
                     details.append(f"next=`{row['next']}`")
                 if row.get("loops"):

@@ -8,7 +8,7 @@
     "expression"
   ],
   "changeType": "refinement",
-  "priorStateRef": "users/demo/seed-phase/seed_pedagogy.json#v1",
+  "priorStateRef": "platform/users/demo/seed-phase/seed_pedagogy.json#v1",
   "proposedStateRef": "derived/pedagogy-draft-v2.json",
   "supportingEvidence": [
     {
@@ -26,7 +26,7 @@
   "notes": "Demo only.",
   "targetSurface": "self",
   "suggestedSurface": "self",
-  "canonicalPath": "users/demo/skill-think.md",
+  "canonicalPath": "platform/users/demo/skill-think.md",
   "materiality": "low",
   "reviewType": "routine",
   "boundaryStatus": "clear",

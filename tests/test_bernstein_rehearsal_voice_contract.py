@@ -87,7 +87,7 @@ def test_other_conductor_shape_hints_remain_concise() -> None:
     text = _conductor_text()
 
     unchanged_rows = {
-        "toscanini": "Verify the seam, pin the receipt, and force the claim back to the evidence",
+        "toscanini": "Verify the seam, pin the receipt, and force the claim back to the archive/placeholders/evidence",
         "furtwangler": "Hold the tension open, resist false closure",
         "karajan": "Shape the long arc so the whole line lands cleanly",
         "kleiber": "Pick one hotspot, falsify it fast",

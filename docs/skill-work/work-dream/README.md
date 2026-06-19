@@ -67,7 +67,7 @@ auto_dream.py
   â”œâ”€ governance_checker.py         governance scan
   â”œâ”€ contradiction_digest.py       derived contradiction digest
   â”‚    â””â”€ write_artifact_drafts()  optional artifact drafts
-  â”œâ”€ config/context_budgets/dream.json   write-path caps (via context_budget.py)
+  â”œâ”€ platform/config/context_budgets/dream.json   write-path caps (via context_budget.py)
   â”œâ”€ emit_pipeline_event.py        maintenance event
   â””â”€ _write_last_dream_handoff()   writes last-dream.json (includes dream_catchup when ok)
 operator_daily_warmup.py           reads coffee.json for collapsed Last dream display
@@ -104,10 +104,10 @@ Cici notebook (work-cici) â€” `cici_journal_ob1_digest.py --catch-up-from-l
 | `coffee_rollup_24h` | object | Rolling 24h summary of `coffee` lines from [`work-cadence-events.md`](../work-cadence/work-cadence-events.md) (`count`, `by_mode`, `by_picked`, `picks`, `first_ts`, `last_ts`, `runs`, â€¦) |
 | `conductor_rollup_24h` | object | Rolling 24h summary of Conductor `coffee_pick conductor=...` and `coffee_conductor_outcome` lines. Includes `last_master`, `completed_passes`, `orientation_only`, `off_menu_refusals`, `notebook_ref_count`, `falsify_count`, `open_arcs`, recent closes / commits / falsifiers, and one compact `echo` for morning coffee. WORK telemetry only; not Record. |
 | `execution_paths` | object[] | Three deterministic morning paths (`today_field`, `build`, `steward`) with `first_move`, `stop_rule`, `signals_used` |
-| `suggested_execution_path_index` | int | 0â€“2; **Steward (2)** if integrity or governance failed this run, else **Steward** if gate pending > `max_pending_candidates` in `config/fork-config.json`, else **calendar** `(tomorrow_tm_yday - 1) % 3` |
+| `suggested_execution_path_index` | int | 0â€“2; **Steward (2)** if integrity or governance failed this run, else **Steward** if gate pending > `max_pending_candidates` in `platform/config/fork-config.json`, else **calendar** `(tomorrow_tm_yday - 1) % 3` |
 | `execution_path_suggestion_reason` | string | `integrity_or_governance_fail` \| `gate_backlog` \| `calendar_mod3` |
 | `tomorrow_inherits` | string | One-line operational hint for morning (not policy or Record) |
-| `civmem_echoes` | object[] | Token-overlap hits from in-repo [`docs/civilization-memory/`](../../civilization-memory/README.md) (count capped by `config/context_budgets/dream.json`); each echo includes `analogy_label`, optional `specificity_pass`, `score` |
+| `civmem_echoes` | object[] | Token-overlap hits from in-repo [`docs/civilization-memory/`](../../civilization-memory/README.md) (count capped by `platform/config/context_budgets/dream.json`); each echo includes `analogy_label`, optional `specificity_pass`, `score` |
 | `civmem_disclaimer` | string | States analogical / non-Record scope |
 | `civmem_index_missing` | boolean | True when the in-repo civ-mem index file is absent |
 | `civmem_suppressed_reason` | string | Present when echoes were cleared by budget or checks (e.g. `disabled_by_budget`, `suppressed_integrity_fail`, `suppressed_governance_alert`) |
@@ -115,7 +115,7 @@ Cici notebook (work-cici) â€” `cici_journal_ob1_digest.py --catch-up-from-l
 
 **Civ-mem query source:** Echoes are computed from the **pre-persist** self-memory snapshot used in the same `auto_dream` run (`memory_result.before`), which can differ from on-disk `self-memory.md` after normalization writes in that run.
 
-**Context budgets:** Write-path caps and suppress rules live in [`config/context_budgets/dream.json`](../../../config/context_budgets/dream.json); display defaults for the collapsed Last dream block live in [`config/context_budgets/coffee.json`](../../../config/context_budgets/coffee.json). See [`config/context_budgets/README.md`](../../../config/context_budgets/README.md).
+**Context budgets:** Write-path caps and suppress rules live in [`platform/config/context_budgets/dream.json`](../../../platform/config/context_budgets/dream.json); display defaults for the collapsed Last dream block live in [`platform/config/context_budgets/coffee.json`](../../../platform/config/context_budgets/coffee.json). See [`platform/config/context_budgets/README.md`](../../../platform/config/context_budgets/README.md).
 
 **Doctrine:** Dream suggestions (paths, civ-mem, rollup) are **operational hints only** â€” not truth, not priority, not a substitute for gate review, integrity, companion approval, or operator judgment. Cadence artifacts are not a shadow Record.
 

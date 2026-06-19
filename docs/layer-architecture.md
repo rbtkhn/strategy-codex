@@ -47,7 +47,7 @@ Core Doctrine (always)
 | Knowledge boundary rule | Core | "Never merge facts the companion didn't provide" |
 | Gated pipeline law | Core | "The agent may stage. It may not merge." |
 | Merge script paths | Instance | `python scripts/process_approved_candidates.py --apply` |
-| Repository tree | Instance | `self.md`, `bot/prompt.py` |
+| Repository tree | Instance | `self.md`, `archive/grace-mar-instance/bot/prompt.py` |
 | Success metric commands | Instance | `python scripts/run_voice_benchmark.py` |
 | Lane-specific strategy | Lane | `docs/skill-work/work-politics/STRATEGY.md` |
 | Lane history log | Lane | `docs/skill-work/work-dev/work-dev-history.md` |
@@ -60,7 +60,7 @@ Core Doctrine (always)
 
 companion-self provides:
 - `AGENTS.md` â€” core doctrine (template version, near-identical across instances)
-- `_template/instance-doctrine.md` â€” scaffold with placeholder sections
+- `platform/template/instance-doctrine.md` â€” scaffold with placeholder sections
 - `demo/instance-doctrine.md` â€” demo content
 - Lane overlay structure in `docs/skill-work/work-template/`
 - Mode overlay structure in `.cursor/skills/`

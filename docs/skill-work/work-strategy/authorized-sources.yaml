@@ -440,7 +440,7 @@ review_rules:
 maintenance:
   review_cadence: monthly
   prune_when:
-    - "source is no longer used in real work-strategy artifacts"
+    - "source is no longer used in real work-strategy runtime/artifacts"
     - "source repeatedly adds rhetoric without decision value"
     - "source registry becomes bloated or duplicative"
   healthy_when:

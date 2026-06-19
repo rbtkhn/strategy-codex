@@ -70,7 +70,7 @@ Evidence linkage is consistent: every LEARN entry has exactly one `evidence_id` 
 
 | Consumer | How IX-A is used |
 |----------|-------------------|
-| **SYSTEM_PROMPT (bot/prompt.py)** | Section â€œYOUR KNOWLEDGE (from observations)â€ â€” compressed bullet list. Not a 1:1 dump of all 36 LEARN entries; summarized by topic (e.g. â€œGeorge Washington as first president, John Adams as 2nd, Abraham Lincoln as 16thâ€). |
+| **SYSTEM_PROMPT (archive/grace-mar-instance/bot/prompt.py)** | Section â€œYOUR KNOWLEDGE (from observations)â€ â€” compressed bullet list. Not a 1:1 dump of all 36 LEARN entries; summarized by topic (e.g. â€œGeorge Washington as first president, John Adams as 2nd, Abraham Lincoln as 16thâ€). |
 | **ANALYST_PROMPT** | Dedup list and â€œKnown topicsâ€ plus â€œIX-A. Knowledge (post-seed)â€ bullets so analyst does not re-stage existing knowledge. |
 | **PRP (export_prp.py)** | PRP embeds a compressed knowledge section; source is self.md (IX-A/B/C). |
 | **scripts/metrics.py** | `RecordCompleteness.ix_a` = count of `id: LEARN-NNNN` in self.md (36). Reported in pipeline health. |
@@ -99,5 +99,5 @@ Evidence linkage is consistent: every LEARN entry has exactly one `evidence_id` 
 
 ---
 
-*Analysis based on self.md Â§ IX-A, self-evidence.md, bot/prompt.py, scripts/metrics.py, and AGENTS.md / ID-TAXONOMY.*
+*Analysis based on self.md Â§ IX-A, self-evidence.md, archive/grace-mar-instance/bot/prompt.py, scripts/metrics.py, and AGENTS.md / ID-TAXONOMY.*
 

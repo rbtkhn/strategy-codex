@@ -24,7 +24,7 @@ This system has two different objects:
 ### 1. Context payload
 
 The **context payload** is the stable conceptual content. It should be stored in
-the PH **evidence/media pack** and treated as the canonical source of truth for
+the PH **archive/placeholders/evidence/media pack** and treated as the canonical source of truth for
 context.
 
 The payload names:
@@ -47,7 +47,7 @@ It is the visible expression of the payload, written in the active house voice.
 It may be shortened, tuned, or rephrased later without changing the underlying
 payload.
 
-## Why the evidence/media pack should own the payload
+## Why the archive/placeholders/evidence/media pack should own the payload
 
 The pack is the best home for the payload because it already sits between:
 
@@ -118,7 +118,7 @@ Rule:
 When this package is applied in the real Predictive History repo, the
 implementer should:
 
-1. add the payload section to the evidence/media pack format
+1. add the payload section to the archive/placeholders/evidence/media pack format
 2. add the reader-facing `## CIV-MEM Context` block to lecture/chapter
    templates
 3. keep the pack as source of truth for payload

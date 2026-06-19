@@ -76,7 +76,7 @@ def _valid_docs_contract() -> dict:
 
 def _valid_emitted_envelope() -> dict:
     return {
-        "$schema": "schema-registry/emulation-bundle-envelope.v1.json",
+        "$schema": "schemas/registry/emulation-bundle-envelope.v1.json",
         "schemaVersion": "1.0.0",
         "format": "grace-mar-emulation-bundle",
         "generatedAt": "2026-04-24T16:00:00Z",
@@ -123,7 +123,7 @@ def test_emulation_contract_schema_enforces_authority_constants() -> None:
 
 
 def test_current_emitted_envelope_schema_still_parses() -> None:
-    schema = _load_json("schema-registry/emulation-bundle-envelope.v1.json")
+    schema = _load_json("schemas/registry/emulation-bundle-envelope.v1.json")
     assert schema["properties"]["format"]["const"] == "grace-mar-emulation-bundle"
     assert schema["properties"]["proposalReturn"]["properties"]["humanReviewRequired"]["const"] is True
     assert (
@@ -156,13 +156,13 @@ def test_docs_contract_rejects_authority_escalation(field: str, value: str) -> N
 
 
 def test_emitted_envelope_validator_accepts_valid_instance() -> None:
-    _validator("schema-registry/emulation-bundle-envelope.v1.json").validate(
+    _validator("schemas/registry/emulation-bundle-envelope.v1.json").validate(
         _valid_emitted_envelope()
     )
 
 
 def test_emitted_envelope_rejects_proposal_return_without_human_review() -> None:
-    validator = _validator("schema-registry/emulation-bundle-envelope.v1.json")
+    validator = _validator("schemas/registry/emulation-bundle-envelope.v1.json")
     jsonschema = pytest.importorskip("jsonschema")
     bad = copy.deepcopy(_valid_emitted_envelope())
     bad["proposalReturn"]["humanReviewRequired"] = False
@@ -171,7 +171,7 @@ def test_emitted_envelope_rejects_proposal_return_without_human_review() -> None
 
 
 def test_emitted_envelope_rejects_runtime_observation_touching_canonical_surfaces() -> None:
-    validator = _validator("schema-registry/emulation-bundle-envelope.v1.json")
+    validator = _validator("schemas/registry/emulation-bundle-envelope.v1.json")
     jsonschema = pytest.importorskip("jsonschema")
     bad = copy.deepcopy(_valid_emitted_envelope())
     bad["runtimeObservationReturn"]["canonicalSurfacesTouched"] = True

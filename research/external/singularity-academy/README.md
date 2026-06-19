@@ -59,4 +59,4 @@ Stable examples for this workflow live under `examples/singularity-academy/exter
 - Do not treat these files as workshop sheet replacements.
 - Do not write directly into `singularity/workshop/sheets/` from raw ingest.
 - Do not send these artifacts into `recursion-gate.md` by default.
-- If a self-facing claim matters, export a derived draft deliberately and route it through the existing `auto-research/self-proposals` review flow.
+- If a self-facing claim matters, export a derived draft deliberately and route it through the existing `research/auto-research/self-proposals` review flow.

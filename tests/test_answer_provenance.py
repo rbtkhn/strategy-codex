@@ -15,8 +15,8 @@ from grace_mar.replay.synthesis import (
 )
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-HRE_SCHEMA = REPO_ROOT / "schema-registry" / "harness-replay-event.v1.json"
-AP_SCHEMA = REPO_ROOT / "schema-registry" / "answer-provenance.v1.json"
+HRE_SCHEMA = REPO_ROOT / "schemas/registry" / "harness-replay-event.v1.json"
+AP_SCHEMA = REPO_ROOT / "schemas/registry" / "answer-provenance.v1.json"
 
 
 @pytest.fixture
@@ -55,7 +55,7 @@ def test_classify_truly_unresolved():
 def test_build_replay_events_validates(tmp_path: Path, hre_validator):
     repo = tmp_path / "repo"
     repo.mkdir()
-    uid = tmp_path / "repo" / "users" / "test-user"
+    uid = tmp_path / "repo" / "platform/users" / "test-user"
     (uid).mkdir(parents=True)
     pe = uid / "pipeline-events.jsonl"
     pe.write_text(
@@ -80,7 +80,7 @@ def test_build_replay_events_validates(tmp_path: Path, hre_validator):
 def test_infer_answer_provenance_validates(tmp_path: Path, ap_validator):
     repo = tmp_path / "repo"
     repo.mkdir()
-    uid = tmp_path / "repo" / "users" / "u2"
+    uid = tmp_path / "repo" / "platform/users" / "u2"
     uid.mkdir(parents=True)
     lines = [
         {"event": "applied", "ts": "2026-03-30T10:00:00", "record_refs": ["u2/self.md"]},

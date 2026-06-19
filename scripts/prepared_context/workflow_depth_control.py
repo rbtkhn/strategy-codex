@@ -7,15 +7,18 @@ no Record truth. See docs/runtime/context-budgeting.md.
 
 from __future__ import annotations
 
-import re
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Literal
 
-_REPO_SRC = Path(__file__).resolve().parent.parent.parent / "src"
-if str(_REPO_SRC) not in sys.path:
-    sys.path.insert(0, str(_REPO_SRC))
+_REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_REPO_ROOT / "scripts") not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT / "scripts"))
+from repo_io import SRC_DIR  # noqa: E402
+
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 
 from grace_mar.runtime.workflow_depth import (  # noqa: E402
     fixed_depth_to_budget_and_max_obs as depth_to_mode_and_max_obs,
@@ -196,7 +199,7 @@ def _quality_guard_phase_dict(
         "signal": signal_key or "none",
         "signal_value": round(float(signal_value), 4),
         "threshold": round(float(threshold), 4) if threshold else 0.0,
-        "evidence": dict(sig.evidence),
+        "archive/placeholders/evidence": dict(sig.archive/placeholders/evidence),
         "recommended_stop_reason": veto_reason if halt_escalation else "",
     }
 
@@ -213,7 +216,7 @@ def _guard_receipt_extras(
         "stop_signal": signal_key if halt_escalation else "",
         "stop_signal_value": round(float(signal_value), 4) if halt_escalation else 0.0,
         "stop_signal_threshold": round(float(threshold), 4) if halt_escalation else 0.0,
-        "guard_summary": dict(sig.evidence),
+        "guard_summary": dict(sig.archive/placeholders/evidence),
     }
     if halt_escalation:
         out["guard_veto"] = True
@@ -262,7 +265,7 @@ def auto_decide_format(
         "stop_signal": "",
         "stop_signal_value": 0.0,
         "stop_signal_threshold": 0.0,
-        "guard_summary": dict(sig.evidence),
+        "guard_summary": dict(sig.archive/placeholders/evidence),
     }
 
     # No matches but query set — need richer excerpts

@@ -18,7 +18,7 @@ def test_template_seed_phase_passes_placeholder_validation() -> None:
         [
             repo_python(),
             "scripts/validate-seed-phase.py",
-            "_template/seed-phase",
+            "platform/template/seed-phase",
             "--allow-placeholders",
         ],
         cwd=REPO_ROOT,

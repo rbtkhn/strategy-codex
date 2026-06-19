@@ -1,0 +1,4652 @@
+{
+  "schemaVersion": "1.0.0-statecraft-day-dashboard",
+  "generatedAt": "2026-06-05T05:25:33.756563+00:00",
+  "root": "C:\\dev\\strategy-codex\\source-archive\\statecraft",
+  "query": {
+    "channels": [],
+    "threads": [],
+    "hosts": [],
+    "guests": [
+      "Lawrence Wilkerson"
+    ],
+    "slug": "wilkerson",
+    "speakerSlug": "wilkerson",
+    "speakerAliases": [
+      "Lawrence Wilkerson"
+    ]
+  },
+  "coverage": {
+    "dayCount": 87,
+    "sourceFileCount": 90,
+    "firstDay": "2025-01-04",
+    "lastDay": "2026-06-02"
+  },
+  "aggregates": {
+    "topDays": [
+      {
+        "date": "2026-01-02",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-04-28",
+        "sourceCount": 2
+      },
+      {
+        "date": "2026-06-02",
+        "sourceCount": 2
+      },
+      {
+        "date": "2025-01-04",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-11",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-18",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-02",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-06",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-15",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-03",
+        "sourceCount": 1
+      }
+    ],
+    "quietDays": [
+      {
+        "date": "2025-01-04",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-11",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-01-18",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-02",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-06",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-02-15",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-03",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-04",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-05",
+        "sourceCount": 1
+      },
+      {
+        "date": "2025-04-10",
+        "sourceCount": 1
+      }
+    ],
+    "channels": [
+      {
+        "name": "Dialogue Works",
+        "count": 43
+      },
+      {
+        "name": "Judging Freedom",
+        "count": 17
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 4
+      },
+      {
+        "name": "Mario Nawfal",
+        "count": 2
+      },
+      {
+        "name": "Going Underground",
+        "count": 1
+      },
+      {
+        "name": "Neutrality Studies",
+        "count": 1
+      },
+      {
+        "name": "Shaun Attwood",
+        "count": 1
+      },
+      {
+        "name": "The Source",
+        "count": 1
+      },
+      {
+        "name": "youtube.com",
+        "count": 1
+      }
+    ],
+    "hosts": [
+      {
+        "name": "Nima Alkhorshid",
+        "count": 49
+      },
+      {
+        "name": "Andrew Napolitano",
+        "count": 20
+      },
+      {
+        "name": "Glenn Diesen",
+        "count": 12
+      },
+      {
+        "name": "Mario Nawfal",
+        "count": 2
+      },
+      {
+        "name": "Afshin Rattansi",
+        "count": 1
+      },
+      {
+        "name": "Diesen",
+        "count": 1
+      },
+      {
+        "name": "Pascal Lottaz",
+        "count": 1
+      },
+      {
+        "name": "Shaun Attwood",
+        "count": 1
+      },
+      {
+        "name": "Zain Raza",
+        "count": 1
+      }
+    ],
+    "guests": [
+      {
+        "name": "Lawrence Wilkerson",
+        "count": 90
+      },
+      {
+        "name": "Larry C. Johnson",
+        "count": 15
+      },
+      {
+        "name": "Chas Freeman",
+        "count": 6
+      },
+      {
+        "name": "Larry Johnson",
+        "count": 4
+      },
+      {
+        "name": "Scott Ritter",
+        "count": 3
+      },
+      {
+        "name": "Mohammad Marandi",
+        "count": 2
+      },
+      {
+        "name": "Alex Krainer",
+        "count": 1
+      },
+      {
+        "name": "Trita Parsi",
+        "count": 1
+      }
+    ],
+    "threads": [
+      {
+        "name": "wilkerson",
+        "count": 90
+      },
+      {
+        "name": "nima",
+        "count": 40
+      },
+      {
+        "name": "johnson",
+        "count": 20
+      },
+      {
+        "name": "napolitano",
+        "count": 20
+      },
+      {
+        "name": "diesen",
+        "count": 15
+      },
+      {
+        "name": "freeman",
+        "count": 6
+      },
+      {
+        "name": "ritter",
+        "count": 3
+      },
+      {
+        "name": "marandi",
+        "count": 2
+      },
+      {
+        "name": "nawfal",
+        "count": 2
+      },
+      {
+        "name": "dialogue-works",
+        "count": 1
+      },
+      {
+        "name": "going-underground",
+        "count": 1
+      },
+      {
+        "name": "krainer",
+        "count": 1
+      },
+      {
+        "name": "lottaz",
+        "count": 1
+      },
+      {
+        "name": "parsi",
+        "count": 1
+      },
+      {
+        "name": "shaun-attwood",
+        "count": 1
+      },
+      {
+        "name": "the-source",
+        "count": 1
+      }
+    ],
+    "sourceForms": [
+      {
+        "name": "interview",
+        "count": 79
+      },
+      {
+        "name": "panel",
+        "count": 9
+      },
+      {
+        "name": "article",
+        "count": 1
+      },
+      {
+        "name": "solo",
+        "count": 1
+      }
+    ]
+  },
+  "anomalies": {
+    "missingHostOrGuestDays": [
+      {
+        "date": "2026-04-10",
+        "hasHosts": false,
+        "hasGuests": true
+      }
+    ],
+    "missingReadmes": [
+      "2025-01-04",
+      "2025-01-11",
+      "2025-01-18",
+      "2025-02-02",
+      "2025-02-06",
+      "2025-02-15",
+      "2025-04-03",
+      "2025-04-04",
+      "2025-04-05",
+      "2025-04-10"
+    ]
+  },
+  "days": [
+    {
+      "date": "2025-01-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "solo",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-yemen-s-hypersonic-strike-stuns-israel-as-iran-regroups-col-larry-wilker-2025-01-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-01-11",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-the-us-strategy-that-s-failing-spectacularly-col-larry-wilkerson-2025-01-11.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-01-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Alex Krainer",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "krainer",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-02-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-trumps-weakness-spells-disaster-col-larry-wilkerson-scott-ritter-2025-02-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-02-06",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Neutrality Studies",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Neutrality Studies",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Pascal Lottaz",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "lottaz",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-neutrality-studies-ex-state-dept-chief-reveals-hidden-war-making-process-col-lawrence-wilkerson-2025-02-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-02-15",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-colonel-lawrence-wilkerson-trump-s-actions-could-ignite-a-regional-conflict-in-the-middle-east-2025-02-15.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-03",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-trump-delusional-over-tariffs-and-iran-2025-04-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-04",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Mohammad Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-05",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-yemeni-missiles-slam-us-navy-iran-us-tension-skyrockets-col-larry-wilkerson-larry-c-johnson-2025-04-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-will-trump-deport-americans-2025-04-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-17",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-are-neocons-ascendant-2025-04-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Mohammad Marandi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "marandi",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-04-27",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-washington-s-rivalries-coups-wars-cover-ups-2025-04-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-16",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-trumps-bold-middle-east-gambit-russia-ukraine-collapse-2025-05-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-27",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-russia-launches-massive-new-offensive-the-battle-to-win-it-all-2025-05-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-05-30",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-lawrence-wilkerson-larry-wilkerson-chas-freeman-why-america-s-missing-grand-strategy-could-be-a-global-disaster-2025-05-30.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-05",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-what-did-trump-know-of-drone-attacks-2025-06-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Going Underground",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Going Underground",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Afshin Rattansi",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "going-underground",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-going-underground-wilkerson-israels-mossad-is-everywhere-and-all-over-ukraine-russia-has-won-2025-06-09.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-13",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-foreign-policy-in-chaos-2025-06-13.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-and-chas-freeman-israel-s-attack-on-iran-and-its-devastating-consequences-2025-06-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-16",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-col-lawrence-wilkerson-from-perpetual-peace-to-world-war-2025-06-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-19",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "The Source",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "The Source",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Zain Raza",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "the-source",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-the-source-wilkerson-who-will-win-the-iran-israel-war-2025-06-19.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-06-22",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Trita Parsi",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "parsi",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-amb-chas-freeman-and-trita-parsi-the-us-could-face-a-war-it-can-t-win-2025-06-22.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-07-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-does-the-deep-state-control-trump-2025-07-09.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-07-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-and-chas-freeman-ww3-imminent-shocking-signs-we-re-on-the-brink-of-global-war-2025-07-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-07-20",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "dialogue-works",
+          "count": 1
+        },
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-israel-wont-survive-next-war-with-iran-yemen-proved-it-larry-c-johnson-col-larry-wilkerson-2025-07-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-07-30",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-how-we-encircled-russia-and-made-europe-a-vassal-divide-rule-2025-07-30.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-08-08",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-hezbollah-rejects-iran-and-russia-push-back-2025-08-08.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-08-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-trumps-plan-to-threaten-putin-with-sanctions-submarines-col-larry-wilkerson-scott-ritter-2025-08-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-08-12",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-trumps-power-play-ignites-chaos-and-its-only-the-start-2025-08-12.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-08-15",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-trump-and-putin-in-alaska-deals-drama-and-dangerous-moves-2025-08-15.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-08-21",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-defeated-and-divided-nato-s-existential-crisis-2025-08-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-08-26",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-warning-signs-everywhere-us-on-the-verge-of-disaster-2025-08-26.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-05",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-china-india-russia-unite-trump-left-out-and-fuming-2025-09-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-12",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-america-is-retrenching-and-alliances-fall-apart-2025-09-12.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-17",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-middle-east-warning-ignites-russia-vs-west-drags-everything-into-hell-2025-09-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-23",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        },
+        {
+          "name": "Scott Ritter",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "ritter",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-scott-ritter-col-larry-wilkerson-israels-dead-end-charlie-kirk-iran-russia-vs-nato-2025-09-23.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-09-26",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-larry-wilkerson-charlie-kirks-story-collapses-is-america-gearing-up-for-war-2025-09-26.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-01",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-warning-signs-is-the-united-states-on-the-path-to-disaster-2025-10-01.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-03",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-charlie-kirk-update-iran-war-fallout-putin-ignores-trump-2025-10-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-07",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-october-7th-aftermath-israels-worst-defeat-in-history-2025-10-07.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-us-war-on-iran-is-imminent-2025-10-09.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-10",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-the-path-from-forever-wars-to-nuclear-war-2025-10-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-17",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-and-iran-are-building-a-war-shield-2025-10-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-every-warning-sign-is-flashing-red-the-us-cant-escape-this-2025-10-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-23",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-what-ceasefire-2025-10-23.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-10-24",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-the-world-is-on-the-brink-of-world-war-iii-2025-10-24.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-04",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-no-way-out-for-israel-iran-russia-nato-s-worst-fear-2025-11-04.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-18",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-epstein-files-nato-s-moves-all-falling-apart-iran-closer-to-russia-2025-11-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-26",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-no-one-can-trust-netanyahu-2025-11-26.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-11-28",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-ready-to-go-all-the-way-iran-slams-israel-2025-11-28.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-02",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-red-alerts-everywhere-the-u-s-just-hit-a-point-of-no-return-2025-12-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-03",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-legitimacy-of-the-u-s-empire-collapses-2025-12-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-12",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Chas Freeman",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "freeman",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "panel",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-16",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-blazing-red-the-u-s-is-heading-straight-into-this-2025-12-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-18",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-a-disaster-to-invade-venezuela-2025-12-18.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-24",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-economic-collapse-will-end-the-u-s-empire-2025-12-24.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2025-12-30",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-screaming-and-america-is-ignoring-it-2025-12-30.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-02",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 2
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 2
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 2
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 2
+        },
+        {
+          "name": "nima",
+          "count": 2
+        },
+        {
+          "name": "wilkerson",
+          "count": 2
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.cleaned-2026-01-02.md",
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-01-22",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "article",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-the-rules-based-order-was-a-lie-2026-01-22.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-02-12",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-the-conflict-that-could-draw-everyone-in-2026-02-12.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-03",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-wilkerson-us-warplanes-downed-tel-aviv-us-bases-rocked-by-missiles-2026-03-03.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-06",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry C. Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-c-johnson-col-larry-wilkerson-iran-wipes-out-huge-targets-explosio-2026-03-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-20",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-johnson-col-wilkerson-second-f-35-down-iran-war-spirals-int-2026-03-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-26",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-why-trump-is-wedded-to-israel-2026-03-26.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-27",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-johnson-col-wilkerson-us-iran-ground-conflict-could-devastate-is-2026-03-27.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-28",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "youtube.com",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "youtube.com",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-wilkerson-israel-may-cease-to-exist-launch-nuclear-strike-2026-03-28.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-03-31",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-02",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-is-netanyahu-getting-desperate-2026-04-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-09",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-how-iran-brought-trump-to-his-knees-2026-04-09.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-10",
+      "fileCount": 1,
+      "channels": [],
+      "shows": [],
+      "hosts": [],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-wilkerson-ceasefire-fails-nato-died-us-risks-civil-war-2026-04-10.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-16",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-will-israel-go-nuclear-2026-04-16.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-17",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-28",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "wilkerson",
+          "count": 2
+        },
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28.md",
+        "source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-29",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Shaun Attwood",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Shaun Attwood",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Shaun Attwood",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "shaun-attwood",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-shaun-attwood-wilkerson-will-us-israel-v-iran-war-become-a-world-war-2026-04-29.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-04-30",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-05",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nima",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-alkorshid-wilkerson-hormuz-blockade-2026-05-05.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-06",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-diesen-wilkerson-hormuz-brics-2026-05-06.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-14",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-checkmate-in-iran-2026-05-14.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-15",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-trump-xi-meeting-after-u-s-defeat-in-iran-2026-05-15.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-20",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Mario Nawfal",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Mario Nawfal",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Mario Nawfal",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "nawfal",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-wilkerson-mario-nawfal-heated-arguments-in-white-house-2026-05-20.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-21",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-trump-trapped-in-a-corner-2026-05-21.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-22",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Larry Johnson",
+          "count": 1
+        },
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "johnson",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-dialogue-works-larry-johnson-col-wilkerson-irans-unseen-move-us-laser-destroyers-cant-stop-whats-coming-2026-05-22.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-26",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Glenn Diesen",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "diesen",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-glenn-diesen-lawrence-wilkerson-failing-to-adjust-to-a-multipolar-world-2026-05-26.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-05-28",
+      "fileCount": 1,
+      "channels": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Judging Freedom",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Andrew Napolitano",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 1
+        }
+      ],
+      "threads": [
+        {
+          "name": "napolitano",
+          "count": 1
+        },
+        {
+          "name": "wilkerson",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 1
+        }
+      ],
+      "fileNames": [
+        "source-napolitano-wilkerson-what-remains-of-international-law-2026-05-28.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    },
+    {
+      "date": "2026-06-02",
+      "fileCount": 2,
+      "channels": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 1
+        }
+      ],
+      "shows": [
+        {
+          "name": "Dialogue Works",
+          "count": 1
+        },
+        {
+          "name": "Mario Nawfal",
+          "count": 1
+        }
+      ],
+      "hosts": [
+        {
+          "name": "Mario Nawfal",
+          "count": 1
+        },
+        {
+          "name": "Nima Alkhorshid",
+          "count": 1
+        }
+      ],
+      "guests": [
+        {
+          "name": "Lawrence Wilkerson",
+          "count": 2
+        }
+      ],
+      "threads": [
+        {
+          "name": "wilkerson",
+          "count": 2
+        },
+        {
+          "name": "nawfal",
+          "count": 1
+        },
+        {
+          "name": "nima",
+          "count": 1
+        }
+      ],
+      "sourceForms": [
+        {
+          "name": "interview",
+          "count": 2
+        }
+      ],
+      "fileNames": [
+        "source-alkorshid-wilkerson-irans-quds-force-chief-red-sea-chokepoint-next-hormuz-2026-06-02.md",
+        "source-nawfal-wilkerson-breaking-pakistan-offered-iran-nukes-2026-06-02.md"
+      ],
+      "hasReadme": false,
+      "readmeParseOk": false
+    }
+  ],
+  "runtime/artifacts": {
+    "markdown": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\wilkerson.md",
+    "json": "C:\\dev\\strategy-codex\\artifacts\\statecraft\\speakers\\slices\\wilkerson.json"
+  }
+}

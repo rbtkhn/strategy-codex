@@ -15,7 +15,7 @@ invariants that are easy to regress and expensive to clean up later.
 
 ## Files
 
-- `config/doctrine-rules.v1.json` — initial rule set
+- `platform/config/doctrine-rules.v1.json` — initial rule set
 - `scripts/audit_doctrine_drift.py` — read-only auditor
 - `tests/test_doctrine_drift.py` — focused regression tests
 
@@ -38,7 +38,7 @@ python3 scripts/audit_doctrine_drift.py
 python3 scripts/audit_doctrine_drift.py --json
 ```
 
-By default the script reads `config/doctrine-rules.v1.json` from the
+By default the script reads `platform/config/doctrine-rules.v1.json` from the
 repo root and exits non-zero when it finds violations.
 
 ## Detection style

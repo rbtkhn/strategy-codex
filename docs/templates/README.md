@@ -17,7 +17,7 @@ These templates support faster, more consistent **operator capture** in Grace-Ma
 | [plan-for-plan.md](plan-for-plan.md) | Planning / pre-review aid; no scaffold command |
 | [plan-mission.md](plan-mission.md) | Expanded execution plan / pre-review aid; no scaffold command |
 
-Default output paths live under `artifacts/work-notes/`, `artifacts/evidence-stubs/`, and `artifacts/candidate-drafts/` (see each script’s `--help`). Use `--output` to place files elsewhere under the repo (for example `docs/skill-work/work-strategy/`).
+Default output paths live under `runtime/artifacts/work-notes/`, `runtime/artifacts/evidence-stubs/`, and `runtime/artifacts/candidate-drafts/` (see each script’s `--help`). Use `--output` to place files elsewhere under the repo (for example `docs/skill-work/work-strategy/`).
 
 `plan-for-plan.md` and `plan-mission.md` are planning aids, not Record surfaces, gate substitutes, or autonomous approval mechanisms. Use them to improve clarity before execution; any proposed Record change still follows `recursion-gate.md` and the governing doctrine.
 

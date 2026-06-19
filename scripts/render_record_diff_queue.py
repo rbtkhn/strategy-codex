@@ -8,10 +8,10 @@ Each diff card shows: Scope, Prior State, Proposed State, Evidence,
 Why It Matters, Confidence Delta, Conflict Note, Recommended Action.
 
 Usage:
-  python3 scripts/render_record_diff_queue.py demo/review-queue/diffs/
+  python3 scripts/render_record_diff_queue.py demo/archive/queues/review-queue/diffs/
   python3 scripts/render_record_diff_queue.py diff-a.json diff-b.json
-  python3 scripts/render_record_diff_queue.py --output queue.md demo/review-queue/diffs/
-  python3 scripts/render_record_diff_queue.py --json demo/review-queue/diffs/
+  python3 scripts/render_record_diff_queue.py --output queue.md demo/archive/queues/review-queue/diffs/
+  python3 scripts/render_record_diff_queue.py --json demo/archive/queues/review-queue/diffs/
   python3 scripts/render_record_diff_queue.py --from-gate -u grace-mar
 """
 
@@ -29,14 +29,14 @@ REQUIRED_FIELDS = {"schemaVersion", "diffId", "userSlug", "category", "before", 
 
 
 def resolve_input_path(path: str) -> Path:
-    """Resolve legacy demo paths through the active users/demo fixture tree."""
+    """Resolve legacy demo paths through the active platform/users/demo fixture tree."""
     raw = Path(path)
     target = raw if raw.is_absolute() else ROOT / raw
     if target.exists() or raw.is_absolute():
         return target
     norm = raw.as_posix().strip("/")
     if norm == "demo" or norm.startswith("demo/"):
-        return ROOT / "users" / norm
+        return ROOT / "platform/users" / norm
     return target
 
 

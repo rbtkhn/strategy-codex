@@ -33,7 +33,7 @@ def shadow_autonomy_snapshot(
     """
     log = repo_root / "runtime" / "autonomy" / "shadow_decisions.jsonl"
     yml = repo_root / "docs" / "skill-work" / "work-dev" / "autonomy" / "tier_thresholds.yaml"
-    out: dict[str, Any] = {"line_count": 0, "tier_status": "no_log", "profile": profile}
+    out: dict[str, Any] = {"line_count": 0, "tier_status": "no_log", "platform/profile": profile}
     if not log.is_file():
         return out
     raw = log.read_text(encoding="utf-8")
@@ -59,7 +59,7 @@ def format_autonomy_warmup_line(repo_root: Path | None = None) -> str | None:
         return None
     n = snap["line_count"]
     t = snap["tier_status"]
-    prof = snap["profile"]
+    prof = snap["platform/profile"]
     return f"Autonomy (GAP-007): {t} · {n} shadow lines · profile {prof}"
 
 
@@ -88,7 +88,7 @@ def evaluate(
     thresholds_path: Path | None = None,
 ) -> str:
     path = thresholds_path or DEFAULT_THRESHOLDS
-    cfg = load_tier_config(path, profile)
+    cfg = load_tier_config(path, platform/profile)
     effective_window = int(window if window is not None else cfg["window_cases"])
 
     if not log_path.is_file():
@@ -132,10 +132,10 @@ def main() -> int:
         "--window",
         type=int,
         default=None,
-        help="Last N lines (default: window_cases from tier profile)",
+        help="Last N lines (default: window_cases from tier platform/profile)",
     )
     ap.add_argument(
-        "--profile",
+        "--platform/profile",
         default="low_risk_staging_suggestions",
         help="Key under tiers: in tier_thresholds.yaml",
     )

@@ -299,7 +299,7 @@ def main() -> int:
     parser.add_argument("--year", type=int, help="Limit audit to YYYY (transaction date prefix)")
     args = parser.parse_args()
 
-    ledger_path = REPO_ROOT / "users" / args.user / "business-ledger.jsonl"
+    ledger_path = REPO_ROOT / "platform/users" / args.user / "business-ledger.jsonl"
 
     if args.audit_etsy:
         return run_etsy_audit(ledger_path, venture=args.venture, year=args.year)
@@ -360,7 +360,7 @@ def main() -> int:
         return 0
 
     # Write to ledger
-    ledger_path = REPO_ROOT / "users" / args.user / "business-ledger.jsonl"
+    ledger_path = REPO_ROOT / "platform/users" / args.user / "business-ledger.jsonl"
     ledger_path.parent.mkdir(parents=True, exist_ok=True)
     with open(ledger_path, "a", encoding="utf-8") as f:
         for r in rows:

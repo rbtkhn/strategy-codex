@@ -49,8 +49,8 @@ The following files are already line-broken and did not need the suspected
 raw-view rescue:
 
 - [`known-gaps.md`](known-gaps.md)
-- [`../../../config/agent-surfaces.v1.json`](../../../config/agent-surfaces.v1.json)
-- [`../../../config/doctrine-rules.v1.json`](../../../config/doctrine-rules.v1.json)
+- [`../../../platform/config/agent-surfaces.v1.json`](../../../platform/config/agent-surfaces.v1.json)
+- [`../../../platform/config/doctrine-rules.v1.json`](../../../platform/config/doctrine-rules.v1.json)
 
 The review-hostile surfaces actually confirmed in this checkout were the
 long markdown tables in:

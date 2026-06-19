@@ -9,7 +9,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = REPO_ROOT / "scripts" / "score_speaker_memory_benchmark.py"
-SAMPLES_PATH = REPO_ROOT / "artifacts" / "benchmarks" / "speaker-memory" / "benchmark_samples.py"
+SAMPLES_PATH = REPO_ROOT / "runtime/artifacts" / "benchmarks" / "speaker-memory" / "benchmark_samples.py"
 
 
 def load_sample_outputs() -> dict:

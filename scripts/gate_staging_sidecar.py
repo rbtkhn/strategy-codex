@@ -22,7 +22,7 @@ def write_gate_staging_sidecar(
     staging_meta: dict[str, Any] | None,
 ) -> Path:
     """Write or overwrite sidecar for one candidate. Returns path written."""
-    d = repo_root / "users" / user_id / "gate-staging"
+    d = repo_root / "platform/users" / user_id / "gate-staging"
     d.mkdir(parents=True, exist_ok=True)
     path = d / f"{candidate_id}.json"
     payload = {

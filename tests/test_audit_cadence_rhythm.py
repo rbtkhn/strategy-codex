@@ -146,7 +146,7 @@ _(Append below this line.)_
 
     assert summary["close_count"] == 3
     assert summary["last_close"]["readiness"] == "ship_ready"
-    assert summary["last_close"]["artifacts"] == ["commit:abc1234"]
+    assert summary["last_close"]["runtime/artifacts"] == ["commit:abc1234"]
     assert summary["artifact_counts"]["scripts/a.py"] == 1
     assert summary["artifact_counts"]["tests/test_a.py"] == 1
     assert summary["repeated_unresolved_loops"] == [

@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """
 Import a bounded inter-fork collaboration package into recipient-owned review surfaces.
@@ -39,7 +40,7 @@ def _utc_now_display() -> str:
 
 
 def _load_schema(repo_root: Path) -> dict:
-    return json.loads((repo_root / "schema-registry" / "inter-fork-package-envelope.v1.json").read_text(encoding="utf-8"))
+    return json.loads((repo_root / "schemas/registry" / "inter-fork-package-envelope.v1.json").read_text(encoding="utf-8"))
 
 
 def _rel(path: Path, repo_root: Path) -> str:
@@ -63,7 +64,7 @@ def _profile_target_label(target_surface: str) -> str:
         "self_library": "SELF-LIBRARY — recipient review",
         "civ_mem": "CIV-MEM — recipient review",
         "skills": "SKILLS — recipient review",
-        "evidence": "EVIDENCE — recipient review",
+        "archive/placeholders/evidence": "EVIDENCE — recipient review",
         "work_layer": "WORK — recipient review",
     }.get(target_surface, "RECIPIENT REVIEW")
 
@@ -78,7 +79,7 @@ def _proposal_class_for_surface(target_surface: str) -> str:
         "self_library": "library",
         "civ_mem": "library",
         "skills": "skills",
-        "evidence": "evidence",
+        "archive/placeholders/evidence": "archive/placeholders/evidence",
         "work_layer": "policy",
     }.get(target_surface, "policy")
 
@@ -95,7 +96,7 @@ def _copy_package_into_recipient_namespace(
     package_id: str,
     recipient_root: Path,
 ) -> Path:
-    import_dir = recipient_root / "artifacts" / "inter-fork" / "imports"
+    import_dir = recipient_ARTIFACTS_DIR / "inter-fork" / "imports"
     import_dir.mkdir(parents=True, exist_ok=True)
     copied_path = import_dir / f"{package_id}.json"
     _assert_recipient_owned(copied_path, recipient_root)
@@ -104,7 +105,7 @@ def _copy_package_into_recipient_namespace(
 
 
 def _receipt_path(*, package_id: str, recipient_root: Path) -> Path:
-    receipt = recipient_root / "artifacts" / "inter-fork" / "imports" / f"{package_id}.receipt.json"
+    receipt = recipient_ARTIFACTS_DIR / "inter-fork" / "imports" / f"{package_id}.receipt.json"
     _assert_recipient_owned(receipt, recipient_root)
     return receipt
 
@@ -281,7 +282,7 @@ def import_inter_fork_package(
     recipient_root = profile_lookup(recipient_fork_id)
     receipt_path = _receipt_path(package_id=str(package["packageId"]), recipient_root=recipient_root)
     written_paths: list[str] = []
-    copied_package_path = recipient_root / "artifacts" / "inter-fork" / "imports" / f"{package['packageId']}.json"
+    copied_package_path = recipient_ARTIFACTS_DIR / "inter-fork" / "imports" / f"{package['packageId']}.json"
     copied_package_ref = _rel(copied_package_path, repo_root)
 
     if dry_run:
@@ -290,9 +291,9 @@ def import_inter_fork_package(
         else:
             written_paths.extend(
                 [
-                    _rel(recipient_root / "review-queue" / "proposals" / f"proposal-{package['packageId']}.json", repo_root),
-                    _rel(recipient_root / "review-queue" / "change_review_queue.json", repo_root),
-                    _rel(recipient_root / "review-queue" / "change_event_log.json", repo_root),
+                    _rel(recipient_root / "archive/queues/review-queue" / "proposals" / f"proposal-{package['packageId']}.json", repo_root),
+                    _rel(recipient_root / "archive/queues/review-queue" / "change_review_queue.json", repo_root),
+                    _rel(recipient_root / "archive/queues/review-queue" / "change_event_log.json", repo_root),
                 ]
             )
         written_paths.extend([copied_package_ref, _rel(receipt_path, repo_root)])
@@ -312,7 +313,7 @@ def import_inter_fork_package(
         gate_path.write_text(insert_before_processed(gate_content, block), encoding="utf-8")
         written_paths.append(_rel(gate_path, repo_root))
     else:
-        review_dir = recipient_root / "review-queue"
+        review_dir = recipient_root / "archive/queues/review-queue"
         proposals_dir = review_dir / "proposals"
         proposals_dir.mkdir(parents=True, exist_ok=True)
         proposal = _build_change_proposal(

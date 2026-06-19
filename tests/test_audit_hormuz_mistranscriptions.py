@@ -186,7 +186,7 @@ def test_main_writes_json_and_markdown_outputs(tmp_path: Path) -> None:
         "Iran discussed the straight of hormones and oil traffic.\n",
         encoding="utf-8",
     )
-    output_dir = tmp_path / "artifacts"
+    output_dir = tmp_path / "runtime/artifacts"
 
     rc = audit.main(
         [
@@ -234,7 +234,7 @@ def test_main_accepts_relative_output_dir(tmp_path: Path, monkeypatch) -> None:
                 "--root",
                 str(tmp_path / "source-archive" / "statecraft"),
                 "--output-dir",
-                "artifacts",
+                "runtime/artifacts",
                 "--prefix",
                 "unit-hormuz-relative",
             ]
@@ -243,7 +243,7 @@ def test_main_accepts_relative_output_dir(tmp_path: Path, monkeypatch) -> None:
         audit.REPO_ROOT = original_root
 
     assert rc == 0
-    json_path = tmp_path / "artifacts" / "unit-hormuz-relative.json"
-    md_path = tmp_path / "artifacts" / "unit-hormuz-relative.md"
+    json_path = tmp_path / "runtime/artifacts" / "unit-hormuz-relative.json"
+    md_path = tmp_path / "runtime/artifacts" / "unit-hormuz-relative.md"
     assert json_path.is_file()
     assert md_path.is_file()

@@ -9,8 +9,8 @@
 | **Surface type** | Workflow / operator tooling (read-only) |
 | **Primary purpose** | Preview likely consequences of approving a proposed canonical change **without** mutating the Record |
 | **When to use** | A candidate, draft, or proposal is plausible enough to merit **consequence review** before approval |
-| **Inputs** | `--candidate CANDIDATE-NNNN`, or `--proposal-file` (JSON aligned with [`schema-registry/recursion-gate-candidate.schema.json`](../../schema-registry/recursion-gate-candidate.schema.json)), or direct proposal (`--target-surface` + `--proposal-summary` + `--proposed-change`) |
-| **Outputs** | A Markdown **Shadow Merge Report** under `artifacts/shadow-merges/` (default) or `--output` |
+| **Inputs** | `--candidate CANDIDATE-NNNN`, or `--proposal-file` (JSON aligned with [`schemas/registry/recursion-gate-candidate.schema.json`](../../schemas/registry/recursion-gate-candidate.schema.json)), or direct proposal (`--target-surface` + `--proposal-summary` + `--proposed-change`) |
+| **Outputs** | A Markdown **Shadow Merge Report** under `runtime/artifacts/shadow-merges/` (default) or `--output` |
 | **Mutation scope** | Writes **only** the report file (and stderr log line). No gate merge, no Record writes. |
 | **Canonical Record access** | Read-only (`recursion-gate.md`, optional runtime observation ledger for envelope signals) |
 | **Typical next step** | Operator review, then gate decision or surface reclassification |
@@ -22,7 +22,7 @@ The simulator writes a **Shadow Merge Report** (Markdown) that previews **likely
 
 ## Non-goals
 
-- **Not** a merge tool. It does not run `process_approved_candidates.py`, edit `self.md`, `self-archive.md`, `self-skills.md`, SELF-LIBRARY files, `recursion-gate.md`, or `bot/prompt.py`.
+- **Not** a merge tool. It does not run `process_approved_candidates.py`, edit `self.md`, `self-archive.md`, `self-skills.md`, SELF-LIBRARY files, `recursion-gate.md`, or `archive/grace-mar-instance/bot/prompt.py`.
 - **Not** an approval mechanism. Output is **operator-readable simulation** only.
 - **Not** line-perfect diffs across the repo (v1 uses heuristics).
 
@@ -40,17 +40,17 @@ A plausible proposal can still be risky if it touches the **wrong surface**, har
 python scripts/runtime/shadow_merge_simulator.py \
   -u grace-mar \
   --candidate CANDIDATE-0042 \
-  -o artifacts/shadow-merges/CANDIDATE-0042.md
+  -o runtime/artifacts/shadow-merges/CANDIDATE-0042.md
 ```
 
-Default output when `-o` is omitted: `artifacts/shadow-merges/<candidate-id>.md` (under the repo root).
+Default output when `-o` is omitted: `runtime/artifacts/shadow-merges/<candidate-id>.md` (under the repo root).
 
 **Proposal JSON file** (no gate lookup; schema-aligned payload):
 
 ```bash
 python scripts/runtime/shadow_merge_simulator.py \
   --proposal-file path/to/candidate-payload.json \
-  -o artifacts/shadow-merges/preview.md
+  -o runtime/artifacts/shadow-merges/preview.md
 ```
 
 **Direct proposal mode** (no gate lookup — for drafts or hypotheticals):
@@ -60,7 +60,7 @@ python scripts/runtime/shadow_merge_simulator.py \
   --target-surface SKILLS \
   --proposal-summary "Refine skill-strategy notebook writing boundary" \
   --proposed-change "Skill-strategy should write compact notebook-linked summaries and avoid raw prose dumps into strategy-notebook." \
-  -o artifacts/shadow-merges/skill-strategy-preview.md
+  -o runtime/artifacts/shadow-merges/skill-strategy-preview.md
 ```
 
 Optional **`--repo-root`** is intended for tests; default resolution follows the live repo layout.
@@ -69,7 +69,7 @@ When a staged candidate or JSON payload includes **`source_observation_ids`**, t
 
 ## Output location
 
-Reports are usually written under [`artifacts/shadow-merges/`](../../artifacts/shadow-merges/README.md). Default policy: gitignore `*.md` there; only the folder README (and `.gitkeep`) need to track in git.
+Reports are usually written under [`runtime/artifacts/shadow-merges/`](../../runtime/artifacts/shadow-merges/README.md). Default policy: gitignore `*.md` there; only the folder README (and `.gitkeep`) need to track in git.
 
 ## Related
 

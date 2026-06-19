@@ -2,7 +2,7 @@
 
 **Work only; not Record.** Index of lanes that are legacy, frozen, or explicit-revive-only.
 
-**Config SSOT:** [`config/strategy_codex.yaml`](../config/strategy_codex.yaml)
+**Config SSOT:** [`platform/config/strategy_codex.yaml`](../platform/config/strategy_codex.yaml)
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Surface | Path | Replacement |
 |---------|------|-------------|
-| Voice / bots | `bot/`, `apps/miniapp_server.py` | Cursor operator + channels |
+| Voice / bots | `archive/grace-mar-instance/bot/`, `platform/apps/miniapp_server.py` | Cursor operator + channels |
 | `thanks` beat | `.cursor/skills/thanks/SKILL.md` | `coffee` / `conductor` |
 | Gate review pass | `.cursor/skills/gate-review-pass/SKILL.md` | Explicit `fork revive` only |
 | Elicit-knowledge → IX-A | `.cursor/skills/elicit-knowledge/SKILL.md` | Statecraft / bookshelf as WORK |

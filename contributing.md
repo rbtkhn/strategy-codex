@@ -2,7 +2,7 @@
 
 This repository is **strategy-codex** — a **governed interpretive machine** for statecraft and singularity operator work. External contributions are welcome for **code and docs**.
 
-The embedded Grace-Mar **Record** at repo root is **frozen archaeology**; merges into identity/evidence/prompt run only on explicit **`fork revive`** via the gated pipeline ([grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md)).
+The embedded Grace-Mar **Record** at repo root is **frozen archaeology**; merges into identity/archive/placeholders/evidence/prompt run only on explicit **`fork revive`** via the gated pipeline ([grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md)).
 
 **Filename conventions:** [docs/naming-convention.md](docs/naming-convention.md) (lowercase docs, reserved `AGENTS.md`, OpenClaw export path).
 
@@ -16,15 +16,15 @@ The embedded Grace-Mar **Record** at repo root is **frozen archaeology**; merges
 ## Record and pipeline (fork revive only)
 
 - **Default:** capture via WORK lanes — see [docs/replacement-capture-habits.md](docs/replacement-capture-habits.md).
-- **Do not** edit `self.md`, `self-evidence.md`, `recursion-gate.md`, `bot/prompt.py`, or PRP outputs by hand for merges. Stage candidates; companion approves; merge via `python scripts/process_approved_candidates.py --apply`.
+- **Do not** edit `self.md`, `self-evidence.md`, `recursion-gate.md`, `archive/grace-mar-instance/bot/prompt.py`, or PRP outputs by hand for merges. Stage candidates; companion approves; merge via `python scripts/process_approved_candidates.py --apply`.
 - Gated-path commits should include **`[gated-merge]`** when the commit-msg hook is installed.
 
 ## Code layout (after repo refactor)
 
-- Flask apps: [apps/](apps/) (`miniapp_server.py`, `gate-review-app.py`, `metrics-dashboard.py`).
+- Flask apps: [platform/apps/](platform/apps/) (`miniapp_server.py`, `gate-review-app.py`, `metrics-dashboard.py`).
 - Run from repository root so `REPO_ROOT` resolves to the checkout.
-- Optional: [deployment/README.md](deployment/README.md) for Docker / Render / Procfile notes.
-- **Root layout:** [docs/root-directory-map.md](docs/root-directory-map.md) — operator ledgers live under `runtime/operator-events/`; dream handoff under `daily-handoff/`.
+- Optional: [platform/deployment/README.md](platform/deployment/README.md) for Docker / Render / Procfile notes.
+- **Root layout:** [docs/root-directory-map.md](docs/root-directory-map.md) — operator ledgers live under `runtime/operator-events/`; dream handoff under `runtime/daily-handoff/`.
 
 ## Local dev hygiene
 
@@ -37,7 +37,7 @@ python3 scripts/cleanup_dev_temp_dirs.py --apply
 
 ## Python package (optional)
 
-The repo includes a minimal installable package under [src/grace_mar/](src/grace_mar/) ([pyproject.toml](pyproject.toml)):
+The repo includes a minimal installable package under [platform/src/grace_mar/](platform/src/grace_mar/) ([pyproject.toml](pyproject.toml)):
 
 ```bash
 pip install -e .

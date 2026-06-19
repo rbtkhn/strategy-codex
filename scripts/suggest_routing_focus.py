@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Print-only suggestions for civ_mem_routing_focus.yaml from routing-decisions.jsonl.
 
@@ -6,7 +7,7 @@ operator review (does not write files).
 
 Usage:
   python3 scripts/suggest_routing_focus.py
-  python3 scripts/suggest_routing_focus.py --days 14 --jsonl artifacts/skill-work/work-civ-mem/routing-decisions.jsonl
+  python3 scripts/suggest_routing_focus.py --days 14 --jsonl runtime/artifacts/skill-work/work-civ-mem/routing-decisions.jsonl
 """
 
 from __future__ import annotations
@@ -20,7 +21,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_JSONL = (
-    REPO_ROOT / "artifacts" / "skill-work" / "work-civ-mem" / "routing-decisions.jsonl"
+    ARTIFACTS_DIR / "skill-work" / "work-civ-mem" / "routing-decisions.jsonl"
 )
 
 
@@ -82,7 +83,7 @@ def main() -> int:
             if ts is None or ts < cutoff:
                 continue
             n += 1
-            p = row.get("profile")
+            p = row.get("platform/profile")
             if p:
                 profiles[str(p)] += 1
 
@@ -92,7 +93,7 @@ def main() -> int:
     since = datetime.now(timezone.utc).date().isoformat()
 
     lines = [
-        "# --- suggested routing focus (paste into config/civ_mem_routing_focus.yaml after review) ---",
+        "# --- suggested routing focus (paste into platform/config/civ_mem_routing_focus.yaml after review) ---",
         f"# generated_from: {_rel_repo(path)}",
         f"# days: {args.days}",
         f"# rows_in_window: {n}",

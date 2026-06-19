@@ -104,7 +104,7 @@ A quotation from Thucydides:
 
 • ARC-T: ARC-T-ANCIENT (5th century BCE author)
 • ERC: ERC-PRIMARY (direct evidence from period)
-• PSCRC-TIER: TIER-A (direct primary evidence)
+• PSCRC-TIER: TIER-A (direct primary archive/placeholders/evidence)
 
 ────────────────────────────────────────────────────────────
 V. DEPRECATED USAGE

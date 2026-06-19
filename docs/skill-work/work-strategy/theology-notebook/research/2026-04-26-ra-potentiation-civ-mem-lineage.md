@@ -4,7 +4,7 @@
 **CIV-MEM checkout `HEAD`:** `ce8ac249cdf5a3d6a840926863ce59d9d3ecbe2e` (pin: [`docs/ci/civilization_memory_upstream.env`](../../../../../docs/ci/civilization_memory_upstream.env))  
 **50+ file rule:** **MEM shards only** (`MEM–*.md` under `content/civilizations/**/`).  
 **Count:** `n = 50` distinct MEM files visited (BFS hit target).  
-**Machine log:** [`artifacts/skill-work/work-civ-mem/ra-theology-bfs-ce8ac24.json`](../../../../../artifacts/skill-work/work-civ-mem/ra-theology-bfs-ce8ac24.json)
+**Machine log:** [`runtime/artifacts/skill-work/work-civ-mem/ra-theology-bfs-ce8ac24.json`](../../../../../runtime/artifacts/skill-work/work-civ-mem/ra-theology-bfs-ce8ac24.json)
 
 **Scope (non-goal):** This does **not** validate channeled cosmology. CIV-MEM “validates structure, not truth claims” at the corpus level ([`research/repos/civilization_memory/README.md`](../../../../../research/repos/civilization_memory/README.md)). The pass maps **receipt-backed** historical and institutional material that **rhymes with** or **stresses** themes you are drawing from the Law of One — not a proof of metaphysics.
 
@@ -19,7 +19,7 @@
 | “Work” → structured manifestation | Law, empire, lit transmission (`MEM–ROME–LAW–CITIZENSHIP`, `MEM–ANGLIA–COMMON–LAW`, `MEM–RUSSIA–ORTHODOX–CHRISTIANITY`, `MEM–ISLAM–GEO–ARABIA`). |
 | Cross-civilization stress (not synthesis) | Anglo–French papal mirror, Russia “Third Rome,” America founding law, Islam/Persia/India geo-historical anchors — **parallel encodings**, not a single philosophy. |
 
-**Seed protocol:** 16 explicit rel paths in [`config/civ_mem_topic_routes.yaml`](../../../../../../config/civ_mem_topic_routes.yaml) (`theology_seed_mems`) plus merged `rome_seed_files` for this profile (`merge_rome_bfs_seeds: true`), then **BFS** over **MEM CONNECTIONS** only (`python3 scripts/route_civ_mem_topic.py --profile theology_ra_trace "…" --bfs-mem-target 50 --no-focus`).
+**Seed protocol:** 16 explicit rel paths in [`platform/config/civ_mem_topic_routes.yaml`](../../../../../../platform/config/civ_mem_topic_routes.yaml) (`theology_seed_mems`) plus merged `rome_seed_files` for this profile (`merge_rome_bfs_seeds: true`), then **BFS** over **MEM CONNECTIONS** only (`python3 scripts/route_civ_mem_topic.py --profile theology_ra_trace "…" --bfs-mem-target 50 --no-focus`).
 
 **Index check (Phase-1 lemma pass):** `build_civmem_upstream_index.py query` for several classical terms (e.g. Plotinus, Neoplaton, Vedanta) returned **no MEM–* hits** at this pin — the corpus is thin for *abstract* philosophy-of-religion keywords. Substantive hits concentrated on **papacy, covenant, natural law, church, sacred, theology (e.g. Orthodox MEM)**. That gap is expected (see plan risk note).
 

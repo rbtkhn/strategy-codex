@@ -18,7 +18,7 @@ A unified script that computes companion-self-native metrics in one pass. Answer
 | Contradictions introduced | Same file | New contradiction_refs |
 | Claims approaching promotion | `evaluate_seed_promotion.py` | Verdict = `approaching` |
 | Gate candidates pending | `recursion-gate.md` | Count `status: pending` blocks |
-| Authority level active | `config/authority-map.json` | Report current surface policy summary |
+| Authority level active | `platform/config/authority-map.json` | Report current surface policy summary |
 | Surfaces touched | git diff --name-only | Classify: durable vs exploratory vs other |
 
 ## CLI
@@ -46,7 +46,7 @@ python3 scripts/session_observability.py -u grace-mar --oneline
 ## Surface classification
 
 Files are classified as:
-- **Durable:** `self.md`, `self-archive.md`, `self-skills.md`, `recursion-gate.md`, `bot/prompt.py`
+- **Durable:** `self.md`, `self-archive.md`, `self-skills.md`, `recursion-gate.md`, `archive/grace-mar-instance/bot/prompt.py`
 - **Exploratory:** `self-memory.md`, `session-log.md`, `session-transcript.md`, `docs/skill-work/`, `.cursor/`
 - **Other:** Everything else
 

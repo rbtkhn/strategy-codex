@@ -29,7 +29,7 @@ def test_parse_bullets_matches_backfill_format_bullet() -> None:
 
 
 def test_render_refined_block_none_when_no_month_headings() -> None:
-    inner = """## Backfilled historical arc (reconstructed from notebook artifacts)
+    inner = """## Backfilled historical arc (reconstructed from notebook runtime/artifacts)
 
 **Scope:** `x` from **2026-01-01** through **2026-03-31**.
 
@@ -44,7 +44,7 @@ _No eligible evidence found in the requested window._
 
 
 def test_render_refined_block_roundtrip_has_months() -> None:
-    inner = """## Backfilled historical arc (reconstructed from notebook artifacts)
+    inner = """## Backfilled historical arc (reconstructed from notebook runtime/artifacts)
 
 **Scope:** `ritter` from **2026-01-01** through **2026-01-31**.
 
@@ -61,7 +61,7 @@ def test_render_refined_block_roundtrip_has_months() -> None:
     assert out is not None
     assert "<!-- backfill:ritter:start -->" in out
     assert "#### Month-level arc" in out
-    assert "#### Dated evidence" in out
+    assert "#### Dated archive/placeholders/evidence" in out
     assert "**2026-01-10** — Alpha." in out
 
 

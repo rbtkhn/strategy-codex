@@ -245,7 +245,7 @@ def main() -> None:
     args = parser.parse_args()
 
     global PROFILE_DIR
-    PROFILE_DIR = REPO_ROOT / "users" / args.user
+    PROFILE_DIR = REPO_ROOT / "platform/users" / args.user
 
     health = compute_pipeline_health()
     completeness = compute_record_completeness()

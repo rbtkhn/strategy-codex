@@ -25,7 +25,7 @@ _SCHEMA_REL = Path("schemas/context-failure-report.v1.schema.json")
 CATEGORIES = [
     "surface_confusion",
     "stale_context",
-    "missing_evidence",
+    "missing_archive/placeholders/evidence",
     "compression_loss",
     "lane_misrouting",
     "authority_drift",
@@ -263,11 +263,11 @@ def diagnose_missing_evidence(
         ],
     )
     if claim_terms and not evidence_terms:
-        add_score(scores, "missing_evidence", 6)
+        add_score(scores, "missing_archive/placeholders/evidence", 6)
         findings.append(
             Finding(
                 "risk",
-                "missing_evidence",
+                "missing_archive/placeholders/evidence",
                 "Input makes strong interpretive claims without visible source, receipt, input path, warrant, or provenance marker.",
                 claim_terms,
             )
@@ -275,17 +275,17 @@ def diagnose_missing_evidence(
         actions.append(
             RecommendedAction(
                 "high",
-                "missing_evidence",
+                "missing_archive/placeholders/evidence",
                 "Add evidence anchors before routing this into a candidate, notebook synthesis, or durable review process.",
             )
         )
     if not evidence_terms:
-        add_score(scores, "missing_evidence", 2)
+        add_score(scores, "missing_archive/placeholders/evidence", 2)
         findings.append(
             Finding(
                 "info",
-                "missing_evidence",
-                "No explicit evidence/provenance marker was found.",
+                "missing_archive/placeholders/evidence",
+                "No explicit archive/placeholders/evidence/provenance marker was found.",
                 [],
             )
         )
@@ -553,7 +553,7 @@ def evaluate_context(path: Path) -> ContextFailureReport:
         findings.append(
             Finding(
                 "info",
-                "missing_evidence",
+                "missing_archive/placeholders/evidence",
                 "No obvious context-failure signatures were detected by local heuristics.",
                 [],
             )
@@ -563,7 +563,7 @@ def evaluate_context(path: Path) -> ContextFailureReport:
         actions.append(
             RecommendedAction(
                 "medium",
-                "missing_evidence",
+                "missing_archive/placeholders/evidence",
                 "Review the item manually before using it in durable or candidate-generating workflows.",
             )
         )

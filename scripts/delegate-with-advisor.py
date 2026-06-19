@@ -27,7 +27,7 @@ from record_slice_loader import format_minimal_lesson_prompt, load_record_slices
 
 def _load_delegation_spec(user_slug: str, spec_id: str) -> tuple[dict | None, str | None]:
     """Return (spec_dict, error_message)."""
-    prop = profile_dir(user_slug) / "review-queue" / "proposals" / f"{spec_id}.json"
+    prop = profile_dir(user_slug) / "archive/queues/review-queue" / "proposals" / f"{spec_id}.json"
     if not prop.is_file():
         return None, f"proposal not found: {prop.relative_to(REPO_ROOT)}"
     try:
@@ -51,7 +51,7 @@ def main() -> int:
     ap.add_argument(
         "--spec-id",
         default="",
-        help="proposalId stem; loads <slug>/review-queue/proposals/<id>.json if present",
+        help="proposalId stem; loads <slug>/archive/queues/review-queue/proposals/<id>.json if present",
     )
     ap.add_argument(
         "--max-chars",

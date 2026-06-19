@@ -11,7 +11,7 @@
 | Nate B Jones | [nate-b-jones/CHANNEL-VIDEO-INDEX.md](nate-b-jones/CHANNEL-VIDEO-INDEX.md), [index.json](nate-b-jones/index.json) | [nate-b-jones/ingestion.json](nate-b-jones/ingestion.json) | [nate-b-jones/CHANNEL-CATALOG.md](nate-b-jones/CHANNEL-CATALOG.md), [episode-catalog.json](nate-b-jones/episode-catalog.json) |
 | Peter H. Diamandis | [peter-h-diamandis/CHANNEL-VIDEO-INDEX.md](peter-h-diamandis/CHANNEL-VIDEO-INDEX.md), [index.json](peter-h-diamandis/index.json) | [peter-h-diamandis/ingestion.json](peter-h-diamandis/ingestion.json) | [peter-h-diamandis/CHANNEL-CATALOG.md](peter-h-diamandis/CHANNEL-CATALOG.md), [episode-catalog.json](peter-h-diamandis/episode-catalog.json) |
 
-**Ingestion schema:** [ingestion.schema.json](ingestion.schema.json) — `by_video_id` maps YouTube `video_id` to `{ "ingested": bool, "artifacts": [repo-relative paths], "ingested_at_utc": optional }`. The fetch script **never** overwrites `ingestion.json`; only operators edit it after manually adding a digest or transcript.
+**Ingestion schema:** [ingestion.schema.json](ingestion.schema.json) — `by_video_id` maps YouTube `video_id` to `{ "ingested": bool, "runtime/artifacts": [repo-relative paths], "ingested_at_utc": optional }`. The fetch script **never** overwrites `ingestion.json`; only operators edit it after manually adding a digest or transcript.
 
 **Merged catalog:** [scripts/render_youtube_work_dev_catalog.py](../../../scripts/render_youtube_work_dev_catalog.py) joins `index.json` + `ingestion.json` into `CHANNEL-CATALOG.md` (table with an **ingested** column) and `episode-catalog.json` (one object per video including `ingested` and `ingestion_artifacts` for downstream tooling).
 

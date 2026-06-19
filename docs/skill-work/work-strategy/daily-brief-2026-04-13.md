@@ -123,7 +123,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:6 S:0 G:1]** [Por quÃƒÂ© el bloqueo naval a IrÃƒÂ¡n es una jugada arriesgada de Trump (y quÃƒÂ© rol puede jugar China para que funcione)](https://www.bbc.com/mundo/articles/cz90qzpjxwxo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-04-14 03:31 UTC_
 - **[W:4 S:0 G:1]** [En quÃƒÂ© consiste el bloqueo naval impuesto por Trump a IrÃƒÂ¡n en el estrecho de Ormuz que entrÃƒÂ³ en vigor este lunes](https://www.bbc.com/mundo/articles/c87w5lzyxgdo?at_medium=RSS&at_campaign=rss) Ã¢â‚¬” _BBC Mundo Ã¢â‚¬” espaÃƒÂ±ol (AmÃƒÂ©ricas / global)_ Ã‚· _es_ Ã‚· _2026-04-13 18:34 UTC_
@@ -199,7 +199,7 @@ Thread **Context Efficiency Layer** when assembling follow-up context: prefer ho
 - **Doctrine:** [context-efficiency-layer.md](../context-efficiency-layer.md)
 - **Compaction shapes:** [context-compaction-protocol.md](../context-compaction-protocol.md)
 - **Session brief (hot):** `python3 scripts/session_brief.py -u grace-mar --compact`
-- **Budgets:** `config/context_budgets/session_brief.json`, `config/context_surfaces.json`
+- **Budgets:** `platform/config/context_budgets/session_brief.json`, `platform/config/context_surfaces.json`
 
 
 ---

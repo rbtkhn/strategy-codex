@@ -23,7 +23,7 @@ from route_civ_mem_topic import (  # noqa: E402
 
 MINIMAL_CFG = {
     "routing_rules_version": 1,
-    "default_profile": "latin_catholic_sphere",
+    "default_platform/profile": "latin_catholic_sphere",
     "profiles": {
         "latin_catholic_sphere": {
             "priority": 20,
@@ -90,7 +90,7 @@ def test_focus_expired_no_bonus() -> None:
         MINIMAL_CFG, "quantum computing", None, focus, focus_active=_focus_is_valid(focus)
     )
     assert pid == "latin_catholic_sphere"
-    assert audit["per_profile"]["latin_catholic_sphere"]["effective_overlap"] == 0
+    assert audit["per_platform/profile"]["latin_catholic_sphere"]["effective_overlap"] == 0
 
 
 def test_focus_bonus_flips_to_mediterranean() -> None:
@@ -108,7 +108,7 @@ def test_focus_bonus_flips_to_mediterranean() -> None:
     assert active is True
     assert pid == "mediterranean_islam_christian_encounter"
     assert prof["primary_civ"] == "ISLAM"
-    assert audit["per_profile"]["mediterranean_islam_christian_encounter"][
+    assert audit["per_platform/profile"]["mediterranean_islam_christian_encounter"][
         "effective_overlap"
     ] == 3
 
@@ -120,7 +120,7 @@ def test_sticky_keyword_bonus() -> None:
         "valid_until": "2099-12-31",
         "profile_overlap_bonus": {},
         "sticky_keywords": [
-            {"keyword": "hormuz", "profile": "latin_catholic_sphere", "bonus": 2}
+            {"keyword": "hormuz", "platform/profile": "latin_catholic_sphere", "bonus": 2}
         ],
     }
     active = _focus_is_valid(focus)
@@ -128,8 +128,8 @@ def test_sticky_keyword_bonus() -> None:
         MINIMAL_CFG, "Strait of Hormuz traffic", None, focus, focus_active=active
     )
     assert pid == "latin_catholic_sphere"
-    assert audit["per_profile"]["latin_catholic_sphere"]["sticky_bonus"] == 2
-    assert audit["per_profile"]["latin_catholic_sphere"]["effective_overlap"] == 2
+    assert audit["per_platform/profile"]["latin_catholic_sphere"]["sticky_bonus"] == 2
+    assert audit["per_platform/profile"]["latin_catholic_sphere"]["effective_overlap"] == 2
 
 
 def test_extract_mem_connections_ordering() -> None:
@@ -185,13 +185,13 @@ def test_score_profile_required_tokens_disqualifies() -> None:
 
 
 @pytest.mark.skipif(
-    not (REPO_ROOT / "config" / "civ_mem_topic_routes.yaml").is_file(),
+    not (REPO_ROOT / "platform/config" / "civ_mem_topic_routes.yaml").is_file(),
     reason="config missing",
 )
 def test_yaml_loads() -> None:
     import yaml
 
-    p = REPO_ROOT / "config" / "civ_mem_topic_routes.yaml"
+    p = REPO_ROOT / "platform/config" / "civ_mem_topic_routes.yaml"
     data = yaml.safe_load(p.read_text(encoding="utf-8"))
     assert "profiles" in data
     assert "latin_catholic_sphere" in data["profiles"]

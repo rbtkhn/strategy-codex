@@ -70,7 +70,7 @@ def test_stages_candidate_from_valid_ids(
     jsonschema_mod,
 ) -> None:
     uid = "test-stage-user"
-    user_root = tmp_path / "users" / uid
+    user_root = tmp_path / "platform/users" / uid
     _minimal_gate(user_root)
     rows = [
         _minimal_obs(
@@ -96,7 +96,7 @@ def test_stages_candidate_from_valid_ids(
 
     import stage_candidate_from_observations as sc
 
-    monkeypatch.setattr(sc, "profile_dir", lambda u: tmp_path / "users" / u)
+    monkeypatch.setattr(sc, "profile_dir", lambda u: tmp_path / "platform/users" / u)
 
     monkeypatch.setattr(
         sys,
@@ -116,7 +116,7 @@ def test_stages_candidate_from_valid_ids(
             "--target-surface",
             "SKILLS",
             "--target-path",
-            "skills-portable/x.md",
+            "skills/x.md",
             "--proposal-summary",
             "Summary line for gate",
             "--proposed-change",
@@ -144,14 +144,14 @@ def test_stages_candidate_from_valid_ids(
 
 def test_rejects_missing_observation(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     uid = "u2"
-    _minimal_gate(tmp_path / "users" / uid)
+    _minimal_gate(tmp_path / "platform/users" / uid)
     _write_ledger(tmp_path, [])
 
     monkeypatch.setenv("GRACE_MAR_RUNTIME_LEDGER_ROOT", str(tmp_path))
 
     import stage_candidate_from_observations as sc
 
-    monkeypatch.setattr(sc, "profile_dir", lambda u: tmp_path / "users" / u)
+    monkeypatch.setattr(sc, "profile_dir", lambda u: tmp_path / "platform/users" / u)
 
     monkeypatch.setattr(
         sys,
@@ -180,7 +180,7 @@ def test_rejects_missing_observation(tmp_path: Path, monkeypatch: pytest.MonkeyP
 
 def test_rejects_mixed_lane_without_flag(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     uid = "u3"
-    _minimal_gate(tmp_path / "users" / uid)
+    _minimal_gate(tmp_path / "platform/users" / uid)
     rows = [
         _minimal_obs("obs_20200101T100000Z_aaaaaaaa", lane="work-strategy"),
         _minimal_obs("obs_20200101T110000Z_bbbbbbbb", lane="other-lane"),
@@ -191,7 +191,7 @@ def test_rejects_mixed_lane_without_flag(tmp_path: Path, monkeypatch: pytest.Mon
 
     import stage_candidate_from_observations as sc
 
-    monkeypatch.setattr(sc, "profile_dir", lambda u: tmp_path / "users" / u)
+    monkeypatch.setattr(sc, "profile_dir", lambda u: tmp_path / "platform/users" / u)
 
     monkeypatch.setattr(
         sys,
@@ -232,7 +232,7 @@ def test_merge_skip_predicate() -> None:
 
 def test_does_not_touch_self(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, jsonschema_mod) -> None:
     uid = "u4"
-    user_root = tmp_path / "users" / uid
+    user_root = tmp_path / "platform/users" / uid
     _minimal_gate(user_root)
     self_path = user_root / "self.md"
     self_path.write_text("# Self\n", encoding="utf-8")
@@ -243,7 +243,7 @@ def test_does_not_touch_self(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, js
 
     import stage_candidate_from_observations as sc
 
-    monkeypatch.setattr(sc, "profile_dir", lambda u: tmp_path / "users" / u)
+    monkeypatch.setattr(sc, "profile_dir", lambda u: tmp_path / "platform/users" / u)
 
     monkeypatch.setattr(
         sys,

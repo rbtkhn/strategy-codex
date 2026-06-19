@@ -11,7 +11,7 @@ A single browser page (served by the Mini App server) with four tabs:
 | Tab | Purpose |
 |-----|--------|
 | **Observe** | Submit an observation (same pipeline as saying "we did X" in Telegram). Text is sent to the analyst; any staged candidate appears in the Gate tab. No need to open or edit `recursion-gate.md`. |
-| **Upload** | Upload a file to `artifacts/` and optionally add a note. The note is submitted as an observation so the analyst can stage a candidate linking the artifact. |
+| **Upload** | Upload a file to `runtime/artifacts/` and optionally add a note. The note is submitted as an observation so the analyst can stage a candidate linking the artifact. |
 | **Gate** | View pending candidates; Approve / Reject / Quick merge. After approval, **Merge approved (companion)** / **(all)** / **(work-politics territory only)** runs `process_approved_candidates` on the server — same as the CLI receipt flow, without pasting commands. |
 | **Timeline** | Read-only view of recent pipeline events (staged, applied, etc.) from `pipeline-events.jsonl`. Fork history at a glance without opening markdown. |
 
@@ -19,12 +19,12 @@ A single browser page (served by the Mini App server) with four tabs:
 
 ## How to use
 
-1. **Run the server** (e.g. `python apps/miniapp_server.py` or your deployed Mini App URL).
+1. **Run the server** (e.g. `python platform/apps/miniapp_server.py` or your deployed Mini App URL).
 2. **Open the console:** `/operator/console` (e.g. `https://your-host/operator/console`).
 3. **Enter the operator secret** (same as `OPERATOR_FETCH_SECRET`). You can bookmark with `?token=...` or use Save to store it in the browser.
 4. Use **Observe** to add observations, **Upload** for artifacts, **Gate** to review and approve/reject, **Timeline** to see recent activity.
 
-Gate actions and **Merge approved** go through the same APIs as the CLI. Merges write `self.md`, `self-evidence.md`, `recursion-gate.md`, prompt, PRP export, etc. **Hosting:** merge-from-browser only works if `apps/miniapp_server.py` runs with a **writable git checkout** of the repo (many PaaS disks are ephemeral or read-only — use a persistent volume or run merge from a machine with the repo). Approve/reject alone only edit `recursion-gate.md`.
+Gate actions and **Merge approved** go through the same APIs as the CLI. Merges write `self.md`, `self-evidence.md`, `recursion-gate.md`, prompt, PRP export, etc. **Hosting:** merge-from-browser only works if `platform/apps/miniapp_server.py` runs with a **writable git checkout** of the repo (many PaaS disks are ephemeral or read-only — use a persistent volume or run merge from a machine with the repo). Approve/reject alone only edit `recursion-gate.md`.
 
 ---
 

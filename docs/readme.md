@@ -16,11 +16,11 @@
 | **Implementation** | [AGENTS](../AGENTS.md), [ARCHITECTURE](architecture.md) | Guardrails for AI and developers; system design. **Conductors (WORK stance routing):** full layer table [skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md](skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md); short pointer also in [AGENTS](../AGENTS.md) (after the `coffee` / Conductor paragraph). |
 | **Graceful constraint** | [GRACEFUL-CONSTRAINT-DOCTRINE](graceful-constraint-doctrine.md) | System-wide rule: a governed layer must preserve discipline under degraded conditions, not only under ideal dependency comfort. |
 | **Trust layers (tools)** | [TRUST-LAYERS](trust-layers.md) | Reliability vs adversarial surfaces; complements knowledge boundary. |
-| **MCP capability registry (planned integrations)** | [mcp/governed-mcp-layer.md](mcp/governed-mcp-layer.md) | Policy classes + audit report for hypothetical MCP tools; not live wiring; Record merge stays gated. |
+| **MCP capability registry (planned platform/integrations)** | [mcp/governed-mcp-layer.md](mcp/governed-mcp-layer.md) | Policy classes + audit report for hypothetical MCP tools; not live wiring; Record merge stays gated. |
 | **MCP stack overview** | [mcp/mcp-stack-overview.md](mcp/mcp-stack-overview.md) | Layer table: registry, bindings, receipts, risk, adapters; SSOT pointers; no live MCP implied. |
-| **MCP governance runbook** | [mcp/mcp-governance-runbook.md](mcp/mcp-governance-runbook.md) | Operator sequence + [`scripts/run_mcp_governance_checks.py`](../../scripts/run_mcp_governance_checks.py) demo; isolated demo artifacts under `artifacts/mcp-governance-demo/`. |
+| **MCP governance runbook** | [mcp/mcp-governance-runbook.md](mcp/mcp-governance-runbook.md) | Operator sequence + [`scripts/run_mcp_governance_checks.py`](../../scripts/run_mcp_governance_checks.py) demo; isolated demo artifacts under `runtime/artifacts/mcp-governance-demo/`. |
 | **MCP authority bindings** | [mcp/mcp-authority-bindings.md](mcp/mcp-authority-bindings.md) | Join table: `output_lane` → `authority-map.json` surfaces + `mcp_authority_check.py` report. |
-| **MCP execution receipts** | [mcp/mcp-execution-receipts.md](mcp/mcp-execution-receipts.md) | Governance receipt schema + generator (`mcp_receipt.py`) / audit (`mcp_receipt_audit.py`); WORK/runtime artifacts; distinct from runtime-worker receipts in `schema-registry/execution-receipt.v1.json`. |
+| **MCP execution receipts** | [mcp/mcp-execution-receipts.md](mcp/mcp-execution-receipts.md) | Governance receipt schema + generator (`mcp_receipt.py`) / audit (`mcp_receipt_audit.py`); WORK/runtime artifacts; distinct from runtime-worker receipts in `schemas/registry/execution-receipt.v1.json`. |
 | **Research-to-evidence stubs** | [mcp/research-to-evidence-stubs.md](mcp/research-to-evidence-stubs.md) | Structured research JSON → pre-canonical stub + MCP receipt (`research_to_evidence_stub.py`); no Record writes. |
 | **Coding-agent patch intake** | [mcp/coding-agent-patch-intake.md](mcp/coding-agent-patch-intake.md) | Coding-agent intake JSON → governed patch-review packet + MCP receipt (`coding_agent_patch_intake.py`); no merges or Record edits. |
 | **MCP manifest admission** | [mcp/mcp-manifest-admission.md](mcp/mcp-manifest-admission.md) | Declared MCP manifest YAML/JSON → admission Markdown + receipt (`mcp_manifest_admission.py`); planning-only; no live MCP or Record writes. |
@@ -32,7 +32,7 @@
 | **Web app** | [WEB-APP-PLAN](web-app-plan.md) | Grace-mar.com development plan; phases, tech, dependencies. See [DESIGN-ROADMAP](design-roadmap.md) for related features. |
 | **Intent schema** | [INTENT-TEMPLATE](intent-template.md) | Machine-readable goal hierarchy, trade-offs, and escalation rules. |
 | **Session/development handoff** | [DEVELOPMENT-HANDOFF](development-handoff.md) | Latest engineering state and restart checklist for new agent conversations. |
-| **work-jiang session bootstrap** | [WORK-JIANG-BOOTSTRAP](../bootstrap/work-jiang-bootstrap.md) | New agent thread on Jiang research lane: read order, membrane, verify block, warmup when Record/gate touched. |
+| **work-jiang session bootstrap** | [WORK-JIANG-BOOTSTRAP](../archive/grace-mar-instance/bootstrap/work-jiang-bootstrap.md) | New agent thread on Jiang research lane: read order, membrane, verify block, warmup when Record/gate touched. |
 | **Lanes (north stars + weekly rhythm)** | [lanes/README](lanes/README.md), [WEEKLY-RHYTHM](lanes/WEEKLY-RHYTHM.md) | One screen per lane (Record, WPC, civ-mem, operator); single weekly checklist. |
 | **Library ↔ system** | [LIBRARY-INTEGRATION](library-integration.md) | Lookup order (library → CMC → full), scope/priority, shelves, operator script. |
 | **Civ-mem encyclopedia (hybrid)** | [civ-mem-encyclopedia-hybrid](civ-mem-encyclopedia-hybrid.md) | Fat `ENCYCLOPEDIA.md` + regen; **owned essays** [civilization-memory/README](civilization-memory/README.md). |
@@ -43,7 +43,7 @@
 | **Audits** | [audit-companion-self](audit-companion-self.md), [AUDIT-GRACE-MAR-VS-COMPANION-SELF-TEMPLATE](audit-grace-mar-vs-companion-self-template.md), [audit-structural-alignment-grace-mar-companion-self](audit-structural-alignment-grace-mar-companion-self.md), [audit-boundary-grace-mar-companion-self](audit-boundary-grace-mar-companion-self.md) | Companion-self concept alignment; instance vs template; structure + formatting; **normative boundaries** (Record · template; what may cross). |
 | **work-cici (advisor module)** | [work-cici/README](skill-work/work-cici/README.md) | Operator project lane for advising Xavier; **not** her instance repo. Her Record is **companion-xavier** (separate GitHub repo). |
 | **Conductor layer map (WORK)** | [skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md](skill-work/work-coffee/CONDUCTOR-LAYER-MAP.md) | Five conductors as attention modes (not agents); theory vs ritual vs skills vs compiled views vs coding lenses; menu naming; slugs vs letters. |
-| **Conductor proposal lenses (coding prompts)** | [skill-work/work-dev/conductor-proposal-lenses.md](skill-work/work-dev/conductor-proposal-lenses.md) | PR proposal shapes per conductor; Beethoven and Brahms test appendices (distinct proposal styles); WORK prompt convention only. |
+| **Conductor proposal lenses (coding prompts)** | [skill-work/work-dev/conductor-proposal-lenses.md](skill-work/work-dev/conductor-proposal-lenses.md) | PR proposal shapes per conductor; Beethoven and Brahms test appendices (distinct proposal templates/styles); WORK prompt convention only. |
 | **Cross-instance boundary** | [cross-instance-boundary.md](cross-instance-boundary.md) | Two-repo contract; optional `check_forbidden_path_strings.py` for **peer** repos only. |
 | **Inter-fork collaboration** | [inter-fork-collaboration.md](inter-fork-collaboration.md) | Recipient-gated package exchange between sovereign forks; no shared writable state, no merge shortcut. |
 | **Feedback loops** | [feedback-loops](feedback-loops.md) | Proposal brief, calibrate-on-miss, low-friction approval, closed-loop verification, oversight cadence. |
@@ -53,7 +53,7 @@
 | **Gate traffic (tiers)** | [RECURSION-GATE-THREE-TIER](recursion-gate-three-tier.md) | Tier 1–3 lanes, Bronze vs future Silver/Gold, `ready_for_quick_merge`, escalation CLI, metrics. |
 | **OB1 / Open Brain bridge** | [START-HERE-OB1-USERS](start-here-ob1-users.md) | Translation table, Approval Inbox alias, imports — familiar entry without changing ontology. |
 | **Workflow catalog** | [WORKFLOW-CATALOG](workflow-catalog.md) | Link index for daily brief, journal, bridge, Xavier, work-dev, gate, observability. |
-| **Imports and capture** | [IMPORTS-AND-CAPTURE](imports-and-capture.md) | Safety boundary: evidence/prepared context vs gated Record. |
+| **Imports and capture** | [IMPORTS-AND-CAPTURE](imports-and-capture.md) | Safety boundary: archive/placeholders/evidence/prepared context vs gated Record. |
 | **Skills (two layers)** | [SKILLS-EXPLAINED](skills-explained.md) | Portable skills vs SKILLS Record surface. |
 
 **Hierarchy:** The protocol (IDENTITY-FORK-PROTOCOL) is the thing to implement. CORE is governance. CONCEPTUAL-FRAMEWORK and DESIGN-NOTES interpret and explain intent. WHITE-PAPER and prospectus are narrative and business.

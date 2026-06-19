@@ -45,9 +45,9 @@ grace-mar = "grace_mar.cli:main"
 predictive-history = "grace_mar.predictive_history:main"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["platform/src"]
 
 [tool.pytest.ini_options]
-pythonpath = ["src", "."]
+pythonpath = ["platform/src", "."]
 testpaths = ["tests"]
 python_files = ["test_*.py"]

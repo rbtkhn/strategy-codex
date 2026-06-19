@@ -9,7 +9,7 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SRC = REPO_ROOT / "src"
+SRC = REPO_ROOT / "platform/src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
@@ -46,7 +46,7 @@ def test_ensure_fork_state_roundtrip(tmp_path, monkeypatch):
 def test_lineage_append(tmp_path):
     root = tmp_path
     uid = "lf-test"
-    (root / "users" / uid).mkdir(parents=True)
+    (root / "platform/users" / uid).mkdir(parents=True)
     append_lineage_event(root, uid, {"event": "test", "x": 1})
     tail = read_lineage_tail(root, uid, max_lines=5)
     assert tail and tail[-1]["event"] == "test"
@@ -64,7 +64,7 @@ def test_transition_updates_phase(tmp_path):
 def test_drift_report_writes(tmp_path):
     root = tmp_path
     uid = "dr-test"
-    ud = root / "users" / uid
+    ud = root / "platform/users" / uid
     ud.mkdir(parents=True)
     (ud / "recursion-gate.md").write_text("## Candidates\n\n## Processed\n", encoding="utf-8")
     p = compute_drift_report(root, uid)

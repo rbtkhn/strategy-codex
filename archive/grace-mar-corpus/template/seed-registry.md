@@ -32,7 +32,7 @@ A companion should earn its identity slowly, under review, from evidence, before
 
 ## Schema
 
-`schema-registry/seed-claim.v1.json` -- required fields:
+`schemas/registry/seed-claim.v1.json` -- required fields:
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -40,7 +40,7 @@ A companion should earn its identity slowly, under review, from evidence, before
 | `user_slug` | string | Companion slug |
 | `claim_text` | string | The observation in natural language |
 | `category` | enum | identity, curiosity, pedagogy, expression, memory_governance, safety, preference |
-| `source_events` | array | Evidence refs (session IDs, transcript lines, artifacts) |
+| `source_events` | array | Evidence refs (session IDs, transcript lines, runtime/artifacts) |
 | `first_seen` | datetime | When this claim first appeared |
 | `last_seen` | datetime | Most recent observation |
 | `observation_count` | integer | How many times observed |

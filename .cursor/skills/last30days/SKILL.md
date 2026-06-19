@@ -9,7 +9,7 @@ tags:
 - strategy
 - provenance
 - governance
-portable_source: skills-portable/last30days/SKILL.md
+portable_source: skills/last30days/SKILL.md
 synced_by: sync_portable_skills.py
 ---
 # Last 30 Days Research
@@ -127,9 +127,9 @@ Grace-Mar paths and strategy-notebook routing for `last30days`.
 
 | Topic | Path |
 |-------|------|
-| Portable core | [skills-portable/last30days/SKILL.md](../../../skills-portable/last30days/SKILL.md) |
-| Portable skills schema | [skills-portable/_schema.md](../../../skills-portable/_schema.md) |
-| Portable skills manifest | [skills-portable/manifest.yaml](../../../skills-portable/manifest.yaml) |
+| Portable core | [skills/last30days/SKILL.md](../../../skills/last30days/SKILL.md) |
+| Portable skills schema | [skills/_schema.md](../../../skills/_schema.md) |
+| Portable skills manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Governance contract | [AGENTS.md](../../../AGENTS.md) |
 | Knowledge boundary | [docs/knowledge-boundary-framework.md](../../../docs/knowledge-boundary-framework.md) |
 | Runtime vs Record | [docs/runtime-vs-record.md](../../../docs/runtime-vs-record.md) |
@@ -157,8 +157,8 @@ Use the relationship map in [docs/skills/research/last30days.md](../../../docs/s
 When the operator asks for an artifact, prefer:
 
 ```text
-artifacts/research/last30days/<slug>.md
-artifacts/research/last30days/<slug>.json
+runtime/artifacts/research/last30days/<slug>.md
+runtime/artifacts/research/last30days/<slug>.json
 ```
 
 When the operator asks for stage-only material, prepare an inspectable review artifact or stub and state that it is **not** canonical truth. Use existing Grace-Mar staging/evidence-stub scripts only in a separate explicit execution step, after confirming the target surface.

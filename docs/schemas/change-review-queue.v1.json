@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "schema-registry/change-review-queue.v1.json",
+  "$id": "schemas/registry/change-review-queue.v1.json",
   "title": "Companion-Self Change Review Queue v1",
   "description": "Canonical queue surface for governed change proposals.",
   "type": "object",
@@ -66,11 +66,11 @@
           },
           "proposalClass": {
             "type": "string",
-            "enum": ["identity", "library", "skills", "evidence", "policy", "work_politics"]
+            "enum": ["identity", "library", "skills", "archive/placeholders/evidence", "policy", "work_politics"]
           },
           "targetSurface": {
             "type": "string",
-            "enum": ["self", "self_library", "civ_mem", "skills", "evidence", "work_layer"]
+            "enum": ["self", "self_library", "civ_mem", "skills", "archive/placeholders/evidence", "work_layer"]
           },
           "materiality": {
             "type": "string",

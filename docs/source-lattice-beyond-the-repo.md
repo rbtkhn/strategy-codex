@@ -76,7 +76,7 @@ Corpus tier (what)     ×     Reading layer (when)
 
 **Blocking rules:** tier 4 cannot substantiate tier 3 without receipt; tier 3 cannot substantiate tier 1–2; tier 2 cannot replace tier 1 on wording; tier 4 may interpret 1–3 after receipts.
 
-Wire-verify scope = **corpus tier 3 only** ([wire-verify SKILL](../skills-portable/wire-verify/SKILL.md)).
+Wire-verify scope = **corpus tier 3 only** ([wire-verify SKILL](../skills/wire-verify/SKILL.md)).
 
 ## Operational Forms
 

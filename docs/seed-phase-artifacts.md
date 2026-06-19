@@ -12,7 +12,7 @@ Two reference trees in this repo:
 
 | Tree | Purpose |
 |------|---------|
-| `_template/seed-phase/` | Scaffold: placeholders for new runs. |
+| `platform/template/seed-phase/` | Scaffold: placeholders for new runs. |
 | `demo/seed-phase/` | Synthetic completed example for docs, validation, and UI demos. |
 
 ---
@@ -38,7 +38,7 @@ Two reference trees in this repo:
 | `seed_constitution.json` | (derived) | Offline-synthesized constitution from other seed JSON (`scripts/generate-constitution.py`); optional input to Voice self-critique via `runtime_config.json` — not merged into SELF without the gated pipeline. |
 | `seed_dossier.md` | 7 | Human-readable summary for sign-off. |
 
-**Naming:** JSON files use **snake_case** on disk. JSON Schemas in `schema-registry/` use **kebab-case** with `.v1.json` suffix (e.g. `seed-intake.v1.json` validates `seed_intake.json`; `seed-intent.v1.json` validates `seed_intent.json`; `work-dev-seed.v1.json` validates `work_dev_seed.json`; `work-business-seed.v1.json` validates `work_business_seed.json`).
+**Naming:** JSON files use **snake_case** on disk. JSON Schemas in `schemas/registry/` use **kebab-case** with `.v1.json` suffix (e.g. `seed-intake.v1.json` validates `seed_intake.json`; `seed-intent.v1.json` validates `seed_intent.json`; `work-dev-seed.v1.json` validates `work_dev_seed.json`; `work-business-seed.v1.json` validates `work_business_seed.json`).
 
 ---
 
@@ -63,7 +63,7 @@ It begins **blank** in the template and is populated only when seed-survey evide
 **Promotion path**
 
 1. Collect seed survey responses into `seed-phase/work_dev_seed.json`.
-2. Validate against `schema-registry/work-dev-seed.v1.json`.
+2. Validate against `schemas/registry/work-dev-seed.v1.json`.
 3. Approve during seed readiness / activation workflow.
 4. Promote approved content into `work-dev.md`.
 5. Set `status` to `initialized` in the seed artifact and reflect the same in the markdown module.
@@ -99,7 +99,7 @@ It begins **blank** in the template and is populated only when seed-survey evide
 **Promotion path**
 
 1. Collect seed survey responses into `seed-phase/work_business_seed.json`.
-2. Validate against `schema-registry/work-business-seed.v1.json`.
+2. Validate against `schemas/registry/work-business-seed.v1.json`.
 3. Approve during seed readiness / activation workflow.
 4. Promote approved content into `work-business.md`.
 5. Set `status` to `initialized` in the seed artifact and reflect the same in the markdown module.
@@ -116,7 +116,7 @@ It begins **blank** in the template and is populated only when seed-survey evide
 
 ## JSON Schemas
 
-Each artifact has a schema under [schema-registry/](https://github.com/rbtkhn/companion-self/tree/main/schema-registry). See [schema-record-api.md](schema-record-api.md) § Seed-phase artifact schemas.
+Each artifact has a schema under [schemas/registry/](https://github.com/rbtkhn/companion-self/tree/main/schemas/registry). See [schema-record-api.md](schema-record-api.md) § Seed-phase artifact schemas.
 
 ---
 
@@ -124,7 +124,7 @@ Each artifact has a schema under [schema-registry/](https://github.com/rbtkhn/co
 
 ```bash
 python3 scripts/validate-seed-phase.py demo/seed-phase
-python3 scripts/validate-seed-phase.py _template/seed-phase --allow-placeholders
+python3 scripts/validate-seed-phase.py platform/template/seed-phase --allow-placeholders
 ```
 
 See [seed-phase-validation.md](seed-phase-validation.md).

@@ -56,7 +56,7 @@ def _ix_a_sample(self_content: str, limit: int = 15) -> list[str]:
 
 def build_curriculum(user_id: str = "grace-mar", output_dir: Path | None = None) -> list[Path]:
     """Generate HTML modules and return list of written paths."""
-    profile_dir = REPO_ROOT / "users" / user_id
+    profile_dir = REPO_ROOT / "platform/users" / user_id
     self_path = profile_dir / "self.md"
     self_content = _read(self_path)
     topics = _ix_b_topics(self_content)

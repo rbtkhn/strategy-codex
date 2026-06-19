@@ -10,14 +10,18 @@ from __future__ import annotations
 import argparse
 import os
 import re
+import sys
 from datetime import date
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from repo_io import artifacts_dir, user_profile_dir  # noqa: E402
+
 # Grace-mar–owned essays + optional content/ (not the submodule)
 DEFAULT_CMC = REPO_ROOT / "docs" / "civilization-memory"
-OUT_DIR_DEFAULT = REPO_ROOT / "users" / "grace-mar" / "artifacts" / "civ-mem-encyclopedia"
-SKIP_DIRS = {".git", "node_modules", ".cache", ".skeleton", "apps"}
+OUT_DIR_DEFAULT = artifacts_dir(user_profile_dir("grace-mar")) / "civ-mem-encyclopedia"
+SKIP_DIRS = {".git", "node_modules", ".cache", ".skeleton", "platform/apps"}
 GITHUB_REPO = os.environ.get("GRACE_MAR_GITHUB_REPO", "rbtkhn/strategy-codex").strip()
 GITHUB_PREFIX = f"https://github.com/{GITHUB_REPO}/blob/main/docs/civilization-memory/"
 
@@ -77,7 +81,7 @@ def main() -> int:
     )
     args = ap.parse_args()
     cmc: Path = args.cmc
-    out_dir = args.out or (REPO_ROOT / "users" / args.user / "artifacts" / "civ-mem-encyclopedia")
+    out_dir = args.out or (artifacts_dir(user_profile_dir(args.user)) / "civ-mem-encyclopedia")
     out_dir.mkdir(parents=True, exist_ok=True)
     if args.essays_only:
         enc_path = out_dir / "ENCYCLOPEDIA.md"

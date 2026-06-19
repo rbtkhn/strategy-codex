@@ -63,4 +63,4 @@ Process labels at **promotion** time only (orthogonal to traffic **`risk_tier`**
 
 ---
 
-*Copy to `users/<new_id>/recursion-gate.md` in an instance. Do not use this template file as a live staging area.*
+*Copy to `platform/users/<new_id>/recursion-gate.md` in an instance. Do not use this template file as a live staging area.*

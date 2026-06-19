@@ -74,7 +74,7 @@ def test_dashboard_contains_warning_provenance_and_counts(tmp_path: Path) -> Non
 
 def test_write_dashboard_writes_only_requested_output(tmp_path: Path) -> None:
     repo = _fixture_repo(tmp_path)
-    output = tmp_path / "artifacts" / "work-strategy" / "strategy-return-dashboard.html"
+    output = tmp_path / "runtime/artifacts" / "work-strategy" / "strategy-return-dashboard.html"
 
     written = dash.write_dashboard(repo, output)
 

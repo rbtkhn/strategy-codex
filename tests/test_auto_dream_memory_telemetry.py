@@ -47,7 +47,7 @@ def test_normalize_fixture_round_trip_collapsed_count_telemetry_note():
 
 
 def test_maintain_self_memory_exposes_telemetry_fields(tmp_path):
-    user_dir = tmp_path / "users" / "demo"
+    user_dir = tmp_path / "platform/users" / "demo"
     user_dir.mkdir(parents=True)
     (user_dir / "self-memory.md").write_text(
         FIXTURE.read_text(encoding="utf-8"),
@@ -56,14 +56,14 @@ def test_maintain_self_memory_exposes_telemetry_fields(tmp_path):
     with patch("auto_dream.date") as mock_date:
         mock_date.today.return_value = _fixture_date()
         mock_date.side_effect = lambda *a, **kw: date(*a, **kw)
-        r = auto_dream.maintain_self_memory(user_id="demo", users_dir=tmp_path / "users", apply=False)
+        r = auto_dream.maintain_self_memory(user_id="demo", users_dir=tmp_path / "platform/users", apply=False)
     assert r.blank_lines_collapsed == 3
     assert r.changed is False
     assert r.deduped_lines == 0
 
 
 def test_run_auto_dream_summary_self_memory_json_keys(tmp_path):
-    user_dir = tmp_path / "users" / "demo"
+    user_dir = tmp_path / "platform/users" / "demo"
     user_dir.mkdir(parents=True)
     (user_dir / "self-memory.md").write_text(
         FIXTURE.read_text(encoding="utf-8"),
@@ -79,7 +79,7 @@ def test_run_auto_dream_summary_self_memory_json_keys(tmp_path):
         mock_date.side_effect = lambda *a, **kw: date(*a, **kw)
         summary = auto_dream.run_auto_dream(
             user_id="demo",
-            users_dir=tmp_path / "users",
+            users_dir=tmp_path / "platform/users",
             apply=False,
             emit_event=False,
             write_artifacts=False,

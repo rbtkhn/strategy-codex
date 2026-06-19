@@ -66,7 +66,7 @@ Typical flow:
 
 ### 4.1 External Codex Explorer (optional structural receipts)
 
-When work-strategy touches **specific paths** inside the pinned [`civilization_memory`](../../../research/repos/civilization_memory) checkout, you **may** generate a **grace-mar derived** neighborhood report — filesystem adjacency only — via [`docs/skill-work/work-dev/external-codex-explorer.md`](../work-dev/external-codex-explorer.md) and outputs under [`artifacts/external-codex/`](../../../artifacts/external-codex/README.md). Treat this as a **thin structural receipt** next to MEM cite paths in **`days.md` Links** or **`### References`** — **not** a substitute for MEM grounding, verify tier, or upstream doctrine. Same **WORK-only** firewall as the rest of this surface.
+When work-strategy touches **specific paths** inside the pinned [`civilization_memory`](../../../research/repos/civilization_memory) checkout, you **may** generate a **grace-mar derived** neighborhood report — filesystem adjacency only — via [`docs/skill-work/work-dev/external-codex-explorer.md`](../work-dev/external-codex-explorer.md) and outputs under [`runtime/artifacts/external-codex/`](../../../runtime/artifacts/external-codex/README.md). Treat this as a **thin structural receipt** next to MEM cite paths in **`days.md` Links** or **`### References`** — **not** a substitute for MEM grounding, verify tier, or upstream doctrine. Same **WORK-only** firewall as the rest of this surface.
 
 ## 5. Allowed imports from civilization_memory
 

@@ -65,8 +65,8 @@ def _fixture_failures(fixture: dict) -> list[str]:
     if total != EXPECTED_SCORE:
         failures.append(f"case points must total {EXPECTED_SCORE}, got {total}")
 
-    if "artifacts/benchmarks/" not in fixture.get("excluded_path_prefixes", []):
-        failures.append("artifacts/benchmarks/ must remain an explicit provenance exclusion")
+    if "runtime/artifacts/benchmarks/" not in fixture.get("excluded_path_prefixes", []):
+        failures.append("runtime/artifacts/benchmarks/ must remain an explicit provenance exclusion")
 
     return failures
 
@@ -131,8 +131,8 @@ def _score_fixture(fixture: dict) -> tuple[int, list[str], list[str]]:
         "mirror_receipt": _check_mirror_receipt,
         "tracked_content": _check_tracked_content,
         "exclusion_policy": lambda f: []
-        if "artifacts/benchmarks/" in f["excluded_path_prefixes"]
-        else ["artifacts/benchmarks/ not excluded"],
+        if "runtime/artifacts/benchmarks/" in f["excluded_path_prefixes"]
+        else ["runtime/artifacts/benchmarks/ not excluded"],
     }
 
     for case in fixture["cases"]:

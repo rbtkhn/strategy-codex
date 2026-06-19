@@ -7,4 +7,4 @@
 
 | [workflow-wrapper-schema.md](workflow-wrapper-schema.md) | Standard short wrapper contract for discovery and onboarding pages that explain a workflow without replacing its canonical method. |
 
-Portable skill bodies live under [`skills-portable/`](../skills-portable/); generated Cursor assemblies under [`.cursor/skills/`](../.cursor/skills/). Schema: [skills-portable/_schema.md](../../skills-portable/_schema.md).
+Portable skill bodies live under [`skills/`](../skills/); generated Cursor assemblies under [`.cursor/skills/`](../.cursor/skills/). Schema: [skills/_schema.md](../../skills/_schema.md).

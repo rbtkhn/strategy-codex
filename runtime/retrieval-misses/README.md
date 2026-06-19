@@ -17,7 +17,7 @@ This directory stores **non-canonical** retrieval-miss records for debugging and
 
 ## Storage
 
-- `index.jsonl` — append-only ledger; **one JSON object per line**, validated against `schema-registry/retrieval-miss.v1.json`. **Gitignored** by default (operator-local); created on first log.
+- `index.jsonl` — append-only ledger; **one JSON object per line**, validated against `schemas/registry/retrieval-miss.v1.json`. **Gitignored** by default (operator-local); created on first log.
 - Log entries with: `python scripts/runtime/log_retrieval_miss.py --help`
 - Summarize with: `python scripts/runtime/summarize_retrieval_misses.py`
 - Tests may set **`GRACE_MAR_RUNTIME_LEDGER_ROOT`** so the ledger path is isolated; schema still loads from the repo.

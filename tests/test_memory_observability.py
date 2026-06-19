@@ -60,7 +60,7 @@ def test_render_markdown_has_exactly_one_recommended_next_action():
             },
             "night_handoff": {
                 "name": "night handoff",
-                "path": "daily-handoff/night-handoff.json",
+                "path": "runtime/daily-handoff/night-handoff.json",
                 "status": "missing",
                 "observed_at": None,
                 "age_hours": None,
@@ -68,7 +68,7 @@ def test_render_markdown_has_exactly_one_recommended_next_action():
             },
             "bridge_state": {
                 "name": "bridge state",
-                "path": "daily-handoff/last-bridge-state.json",
+                "path": "runtime/daily-handoff/last-bridge-state.json",
                 "status": "watch",
                 "observed_at": None,
                 "age_hours": None,

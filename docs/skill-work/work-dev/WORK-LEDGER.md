@@ -161,7 +161,7 @@
 
 ### Write rules
 
-- WORK-local only. No merge into `self.md`, `self-archive.md`, or `bot/prompt.py` from this file.  
+- WORK-local only. No merge into `self.md`, `self-archive.md`, or `archive/grace-mar-instance/bot/prompt.py` from this file.  
 - Align with [README.md](README.md) invariant: stage-only OpenClaw; companion merges Record.
 
 ### Review cadence

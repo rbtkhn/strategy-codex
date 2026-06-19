@@ -83,7 +83,7 @@ Grace-mar and companion-self are **not** chasing full file parity. Use these thr
 
 **Goal:** Either promote instance-proven UI spec to the template **once**, or keep it **instance-local** without implied parity.
 
-- **Upstream port:** If new instances should share the same agent-readable UI tokens and checks, open a single companion-self change set: template-appropriate `DESIGN.md` (e.g. under `_template/` or `docs/`) + optional validator under `scripts/`, wired in template CI if desired.
+- **Upstream port:** If new instances should share the same agent-readable UI tokens and checks, open a single companion-self change set: template-appropriate `DESIGN.md` (e.g. under `platform/template/` or `docs/`) + optional validator under `scripts/`, wired in template CI if desired.
 - **Instance-local:** Keep [`DESIGN.md`](../../../DESIGN.md) and [`scripts/validate-design-md.py`](../../../scripts/validate-design-md.py) only in grace-mar; do not block template sync on DESIGN parity.
 
 This track is **discretionary** â€” unlike Track 1 and 2, it is not a recurring merge obligation.
@@ -142,5 +142,5 @@ Implied meaning:
 - [MERGING-FROM-COMPANION-SELF](../../merging-from-companion-self.md) â€” Template â†’ instance flow
 - [AUDIT-COMPANION-SELF](../../AUDIT-COMPANION-SELF.md) â€” Concept alignment
 - [audit-grace-mar-vs-companion-self-template](../../audit-grace-mar-vs-companion-self-template.md) â€” Instance vs template
-- [COMPANION-SELF-BOOTSTRAP](../../../bootstrap/companion-self-bootstrap.md) â€” Workspace boundary, sync contract
+- [COMPANION-SELF-BOOTSTRAP](../../../archive/grace-mar-instance/bootstrap/companion-self-bootstrap.md) â€” Workspace boundary, sync contract
 

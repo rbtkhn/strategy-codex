@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_CONFIG = REPO_ROOT / "config" / "agent-surfaces.v1.json"
+DEFAULT_CONFIG = REPO_ROOT / "platform/config" / "agent-surfaces.v1.json"
 
 ALLOWED_STATUS = {
     "implemented",
@@ -398,7 +398,7 @@ def main(argv: list[str] | None = None) -> int:
         description="Audit the Phase 1 agent-surface registry."
     )
     parser.add_argument(
-        "--config",
+        "--platform/config",
         type=Path,
         default=DEFAULT_CONFIG,
         help="Path to agent-surfaces registry JSON",

@@ -8,7 +8,7 @@ Companion-Self template Â· Who may change what
 
 Not every surface should be writable by the same runtime. The template distinguishes **read-only**, **draftable**, **review-required**, **human-only**, and **ephemeral-only** behavior so operators and agents do not silently widen write authority â€œbecause it was faster.â€
 
-Machine-readable defaults: [`config/authority-map.json`](../config/authority-map.json) (schema [`schema-registry/authority-map.v1.json`](../schema-registry/authority-map.v1.json)). Lookup helper: `scripts/check-authority.py --surface <key>` (authority class only). Structured recommendations: `python3 scripts/check-authority.py --surface <key> --json` (includes Comprehension Envelope + Reflection Gate hints; see below).
+Machine-readable defaults: [`platform/config/authority-map.json`](../platform/config/authority-map.json) (schema [`schemas/registry/authority-map.v1.json`](../schemas/registry/authority-map.v1.json)). Lookup helper: `scripts/check-authority.py --surface <key>` (authority class only). Structured recommendations: `python3 scripts/check-authority.py --surface <key> --json` (includes Comprehension Envelope + Reflection Gate hints; see below).
 
 ---
 
@@ -24,13 +24,13 @@ Machine-readable defaults: [`config/authority-map.json`](../config/authority-map
 
 ---
 
-## Surface keys in `config/authority-map.json`
+## Surface keys in `platform/config/authority-map.json`
 
 The config file uses a **single flat map** for simplicity. Keys mix **different dimensions** on purpose; interpret each key with the dimension below.
 
 ### State layers (evidence â†’ governed)
 
-- **`evidence`** â€” Evidence layer inputs (see [evidence-layer.md](evidence-layer.md)).
+- **`archive/placeholders/evidence`** â€” Evidence layer inputs (see [evidence-layer.md](evidence-layer.md)).
 - **`prepared_context`** â€” Prepared context layer (see [prepared-context-layer.md](prepared-context-layer.md)).
 - **`governed_state`** â€” Durable Record and governed files (see [governed-state-layer.md](governed-state-layer.md)).
 

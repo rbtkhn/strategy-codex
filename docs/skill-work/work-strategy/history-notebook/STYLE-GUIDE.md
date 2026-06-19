@@ -8,7 +8,7 @@ Chapter format and conventions for the History Notebook. This file is the refere
 
 Chapter markdown files are **public-facing output**. They must never reference:
 - CIV-MEM file names (`CIV-CORE-PERSIA`, `MEM-PERSIA-*`, etc.)
-- Internal skill paths (`skills-portable/_drafts/...`)
+- Internal skill paths (`skills/_drafts/...`)
 - Doctrine IDs (`CIV-DOCTRINE-PERSIA`)
 - Any operator infrastructure
 

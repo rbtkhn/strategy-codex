@@ -1,3 +1,4 @@
+from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Export local continuity-block events into a derived WORK artifact."""
 
@@ -12,7 +13,7 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_INPUT = REPO_ROOT / "runtime" / "observability" / "continuity_blocks.jsonl"
-DEFAULT_OUTPUT = REPO_ROOT / "artifacts" / "work-dev" / "continuity-observability" / "continuity-blocks.md"
+DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-dev" / "continuity-observability" / "continuity-blocks.md"
 
 
 def _repo_rel(path: Path, repo_root: Path) -> str:

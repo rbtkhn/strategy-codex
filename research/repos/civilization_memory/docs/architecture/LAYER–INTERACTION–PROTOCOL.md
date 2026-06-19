@@ -612,7 +612,7 @@ IMAGINE MODE HAS READ ACCESS TO:
 
 5. CONFIDENCE TOPOLOGY
    • High-confidence areas (well-supported by MEMs)
-   • Low-confidence areas (sparse evidence)
+   • Low-confidence areas (sparse archive/placeholders/evidence)
    • Uncertainty markers
 
 SURFACING RULES:

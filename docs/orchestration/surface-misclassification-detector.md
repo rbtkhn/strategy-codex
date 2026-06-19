@@ -10,7 +10,7 @@
 | **Primary purpose** | Assess whether a proposal appears to target the wrong Grace-Mar **canonical surface** |
 | **When to use** | Before approving or heavily editing a candidate whose surface placement feels uncertain |
 | **Inputs** | `--candidate CANDIDATE-NNNN` (pending block in `recursion-gate.md`), `--proposal-file` (schema-aligned JSON), or direct proposal (`--target-surface` + `--proposal-summary` + `--proposed-change`) |
-| **Outputs** | A Markdown **Classification Risk Report** under `artifacts/classification-reports/` (default) or `--output` |
+| **Outputs** | A Markdown **Classification Risk Report** under `runtime/artifacts/classification-reports/` (default) or `--output` |
 | **Mutation scope** | Writes **only** the report file. No gate merge, no Record writes. |
 | **Canonical Record access** | Read-only gate + optional JSON; no gate-state mutation |
 | **Typical next step** | Operator review, surface reclassification, or [Shadow Merge Simulator](shadow-merge-simulator.md) for consequence preview |
@@ -55,10 +55,10 @@ The detector emits a report with:
 python scripts/runtime/surface_misclassification_detector.py \
   -u grace-mar \
   --candidate CANDIDATE-0042 \
-  -o artifacts/classification-reports/CANDIDATE-0042.md
+  -o runtime/artifacts/classification-reports/CANDIDATE-0042.md
 ```
 
-Default output when `-o` is omitted: `artifacts/classification-reports/<proposal-id>.md`.
+Default output when `-o` is omitted: `runtime/artifacts/classification-reports/<proposal-id>.md`.
 
 **Direct text (no gate):**
 
@@ -67,7 +67,7 @@ python scripts/runtime/surface_misclassification_detector.py \
   --target-surface SELF \
   --proposal-summary "Add Roman continuity preference" \
   --proposed-change "Treat Roman imperial continuity as a governed reference tradition for future synthesis." \
-  -o artifacts/classification-reports/roman-preview.md
+  -o runtime/artifacts/classification-reports/roman-preview.md
 ```
 
 ## Pairing with Shadow Merge

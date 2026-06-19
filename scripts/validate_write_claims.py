@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Validate artifacts/skill-write/write-claims.json against schemas/skill_write/write_claims.schema.json.
+"""Validate runtime/artifacts/skill-write/write-claims.json against schemas/skill_write/write_claims.schema.json.
 
 Advisory warnings: missing target_surface on surface-adaptation claims,
-missing evidence/sample on strong claims, consistent without failure_mode_notes,
+missing archive/placeholders/evidence/sample on strong claims, consistent without failure_mode_notes,
 independent with scaffolding != none, test_result without test_type.
 
 Usage:
@@ -18,7 +18,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_CLAIMS = REPO_ROOT / "artifacts/skill-write/write-claims.json"
+DEFAULT_CLAIMS = REPO_ROOT / "runtime/artifacts/skill-write/write-claims.json"
 SCHEMA_PATH = REPO_ROOT / "schemas/skill_write/write_claims.schema.json"
 
 

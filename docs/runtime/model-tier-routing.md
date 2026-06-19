@@ -16,8 +16,8 @@
 
 | File | Role |
 |------|------|
-| [`config/model_routing/model_tiers.yaml`](../../config/model_routing/model_tiers.yaml) | Tier labels, provider rows, `model_env` names |
-| [`config/model_routing/task_policy.yaml`](../../config/model_routing/task_policy.yaml) | Per-task default tier, subtypes, `forbidden_actions`, default `fallback_chain` |
+| [`platform/config/model_routing/model_tiers.yaml`](../../platform/config/model_routing/model_tiers.yaml) | Tier labels, provider rows, `model_env` names |
+| [`platform/config/model_routing/task_policy.yaml`](../../platform/config/model_routing/task_policy.yaml) | Per-task default tier, subtypes, `forbidden_actions`, default `fallback_chain` |
 
 **Resolver:** [`scripts/runtime/model_policy.py`](../../scripts/runtime/model_policy.py) — `resolve_model_policy(repo_root=..., task_type=..., task_subtype=..., action=...)`.
 

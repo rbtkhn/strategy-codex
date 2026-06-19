@@ -30,7 +30,7 @@ DEFAULT_USER_ID = "grace-mar"
 
 
 def ledger_path(user_id: str = DEFAULT_USER_ID) -> Path:
-    return REPO_ROOT / "users" / user_id / "business-ledger.jsonl"
+    return REPO_ROOT / "platform/users" / user_id / "business-ledger.jsonl"
 
 
 def append_transaction(

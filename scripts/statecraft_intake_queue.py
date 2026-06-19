@@ -10,7 +10,7 @@ Usage:
     python3 scripts/statecraft_intake_queue.py --day 2026-06-14 --emit-sidecars
     python3 scripts/statecraft_intake_queue.py --day 2026-06-14 --write-digest
     python3 scripts/statecraft_intake_queue.py --day 2026-06-14 --write-digest \\
-        --digest-out artifacts/statecraft-intake-queue/digest-2026-06-14.md
+        --digest-out runtime/artifacts/statecraft-intake-queue/digest-2026-06-14.md
 """
 
 from __future__ import annotations
@@ -28,6 +28,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from check_statecraft_intake_daily_sync import (  # noqa: E402
     build_sync_report,
@@ -41,7 +42,7 @@ from statecraft_day_archive import (  # noqa: E402
 )
 
 SCHEMA_VERSION = "statecraft-intake-sidecar.v1"
-QUEUE_ROOT = REPO_ROOT / "artifacts" / "statecraft-intake-queue"
+QUEUE_ROOT = ARTIFACTS_DIR / "statecraft-intake-queue"
 SIDECAR_SUFFIX = ".v1.json"
 WIRE_VERIFY_RE = re.compile(r"verify:wire-", re.IGNORECASE)
 VALID_STATUSES = frozenset({"new", "queued", "daily", "discarded"})

@@ -46,7 +46,7 @@ permissions:
 # Grace-Mar — identity and governance (companion sovereign Record; stage-only automation)
 grace_mar:
   record_authority: companion # companion | not_applicable
-  staging_surface: "" # e.g. integrations/openclaw_stage.py / HTTP /stage
+  staging_surface: "" # e.g. platform/integrations/openclaw_stage.py / HTTP /stage
   merge_requires_companion_gate: true
   continuity_contract: "" # e.g. session-continuity-contract.md paths or not_applicable
   observability: "" # e.g. runtime/observability/*.jsonl or unknown

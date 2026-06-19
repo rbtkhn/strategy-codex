@@ -42,7 +42,7 @@ def _run_harness(
 
     inp = tmp_path / "run.json"
     inp.write_text(json.dumps(doc), encoding="utf-8")
-    outp = tmp_path / "artifacts" / "mcp-mock-runs" / out_name
+    outp = tmp_path / "runtime/artifacts" / "mcp-mock-runs" / out_name
 
     monkeypatch.setattr(
         sys,
@@ -56,11 +56,11 @@ def _run_harness(
             "--repo-root",
             str(tmp_path),
             "--capabilities",
-            str(REPO_ROOT / "config" / "mcp-capabilities.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-capabilities.yaml"),
             "--bindings",
-            str(REPO_ROOT / "config" / "mcp-authority-bindings.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-authority-bindings.yaml"),
             "--policy",
-            str(REPO_ROOT / "config" / "mcp-risk-policy.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-risk-policy.yaml"),
         ],
     )
     code = mmh.main()
@@ -104,11 +104,11 @@ def test_output_outside_mock_runs_bucket_fails(monkeypatch: pytest.MonkeyPatch, 
             "--repo-root",
             str(tmp_path),
             "--capabilities",
-            str(REPO_ROOT / "config" / "mcp-capabilities.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-capabilities.yaml"),
             "--bindings",
-            str(REPO_ROOT / "config" / "mcp-authority-bindings.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-authority-bindings.yaml"),
             "--policy",
-            str(REPO_ROOT / "config" / "mcp-risk-policy.yaml"),
+            str(REPO_ROOT / "platform/config" / "mcp-risk-policy.yaml"),
         ],
     )
     assert mmh.main() == 1
@@ -226,7 +226,7 @@ def test_enforce_mock_vs_registry_unit() -> None:
 
     from mcp_receipt_lib import capability_by_id, load_yaml
 
-    caps_doc = load_yaml(REPO_ROOT / "config" / "mcp-capabilities.yaml")
+    caps_doc = load_yaml(REPO_ROOT / "platform/config" / "mcp-capabilities.yaml")
     sim = capability_by_id(caps_doc, "github_readonly")
     assert sim is not None
     doc = _base_github_good()

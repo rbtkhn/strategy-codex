@@ -13,7 +13,7 @@ method: process these (approve pending)
 activity_type: pipeline — merge approved candidate
 evidence_tier: 5
 ```
-**Processed:** CANDIDATE-0086 (voice authenticity — favorite planet). PER-0008 added to IX-C; ACT-0046 added to EVIDENCE; bot/prompt.py YOUR PERSONALITY updated. Earth as home and uniqueness of life.
+**Processed:** CANDIDATE-0086 (voice authenticity — favorite planet). PER-0008 added to IX-C; ACT-0046 added to EVIDENCE; archive/grace-mar-instance/bot/prompt.py YOUR PERSONALITY updated. Earth as home and uniqueness of life.
 ---
 END OF FILE — SESSION LOG grace-mar
 ## Pipeline merge (automated)

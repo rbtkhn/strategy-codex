@@ -34,12 +34,12 @@ Canonical bodies live in [work-cici/handoffs/](../../../work-cici/handoffs/) (pa
 - [first-good-morning-runbook.md](../../../work-cici/first-good-morning-runbook.md) · [SYNC-DAILY.md](../../../work-cici/SYNC-DAILY.md) — cadence.  
 - [POST-RENAME-AUDIT.md](../../../work-cici/POST-RENAME-AUDIT.md) — drift after `work-xavier` → `work-cici`.  
 - [skill-cici](../../../../../.cursor/skills/skill-cici/SKILL.md) — Cursor ritual (grace-mar vs Cici **Mode B**).  
-- [OB1 conceptual map — Cici instance](../../../../integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar) — stack roles.
+- [OB1 conceptual map — Cici instance](../../../../platform/integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar) — stack roles.
 
-## Evidence (high-signal; full set under [work-cici/evidence/](../../../work-cici/evidence/))
+## Evidence (high-signal; full set under [work-cici/archive/placeholders/evidence/](../../../work-cici/archive/placeholders/evidence/))
 
-- [Architect / end-user prompts vs `docs/prompts/`](../../../work-cici/evidence/cici-rtf-architect-enduser-prompts-session-ingest-2026-04-24.md)  
-- [Source-priority / productive-feature session](../../../work-cici/evidence/cici-rtf-session-ingest-2026-04-26-productive-feature-source-priority.md)  
-- [Cici GitHub sync (memory-policy, `b02b5da`)](../../../work-cici/evidence/cici-github-sync-2026-04-20.md)  
-- [Cici repo ingest (README, `CLAUDE.md`)](../../../work-cici/evidence/cici-repo-ingest-2026-04-13.md)  
-- [Implement session → `main` `5337b1c`](../../../work-cici/evidence/cici-implement-pdf-ingest-2026-04-13.md)  
+- [Architect / end-user prompts vs `docs/prompts/`](../../../work-cici/archive/placeholders/evidence/cici-rtf-architect-enduser-prompts-session-ingest-2026-04-24.md)  
+- [Source-priority / productive-feature session](../../../work-cici/archive/placeholders/evidence/cici-rtf-session-ingest-2026-04-26-productive-feature-source-priority.md)  
+- [Cici GitHub sync (memory-policy, `b02b5da`)](../../../work-cici/archive/placeholders/evidence/cici-github-sync-2026-04-20.md)  
+- [Cici repo ingest (README, `CLAUDE.md`)](../../../work-cici/archive/placeholders/evidence/cici-repo-ingest-2026-04-13.md)  
+- [Implement session → `main` `5337b1c`](../../../work-cici/archive/placeholders/evidence/cici-implement-pdf-ingest-2026-04-13.md)  

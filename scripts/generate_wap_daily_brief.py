@@ -26,7 +26,7 @@ Does not call paid news APIs. Output is operator WORK product — not Voice, not
 Optional **Tri-Frame mind overlays** (after the brief): see `docs/skill-work/work-strategy/daily-brief-minds-config.json`
 and `docs/skill-work/work-strategy/minds/DAILY-BRIEF-MINDS-WORKFLOW.md`. Scaffold-only — no LLM inside this script.
 
-Optional **§7 Context efficiency (CEL)** footer: `config/context_budgets/daily_brief.json` (`append_cel_footer`) — threads
+Optional **§7 Context efficiency (CEL)** footer: `platform/config/context_budgets/daily_brief.json` (`append_cel_footer`) — threads
 `docs/skill-work/context-efficiency-layer.md` into generated briefs; operator WORK only.
 """
 
@@ -183,7 +183,7 @@ DEFAULT_GEO_MILITARY_PHRASES: tuple[str, ...] = (
     "airstrike",
     "air strike",
     "troops",
-    "deployment",
+    "platform/deployment",
     "border",
     "front line",
     "war crime",
@@ -1242,7 +1242,7 @@ def build_daily_brief(
             [
                 "## 2a. Geopolitical & military (G-ranked)",
                 "",
-                "_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). "
+                "_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). "
                 "Supports triangulation and war-powers messaging — **verify** claims against primary sources._",
                 "",
             ]
@@ -1351,7 +1351,7 @@ def build_daily_brief(
                 f"- **Doctrine:** [context-efficiency-layer.md](../context-efficiency-layer.md)",
                 "- **Compaction shapes:** [context-compaction-protocol.md](../context-compaction-protocol.md)",
                 f"- **Session brief (hot):** `python3 scripts/session_brief.py -u {user_id} --compact`",
-                "- **Budgets:** `config/context_budgets/session_brief.json`, `config/context_surfaces.json`",
+                "- **Budgets:** `platform/config/context_budgets/session_brief.json`, `platform/config/context_surfaces.json`",
                 "",
             ]
         )
@@ -1509,7 +1509,7 @@ def main() -> int:
     parser.add_argument("-o", "--output", default="", help="Write markdown to this path")
     parser.add_argument("--no-fetch", action="store_true", help="Skip RSS")
     parser.add_argument(
-        "--config",
+        "--platform/config",
         default="",
         help=f"JSON config (default: {DEFAULT_CONFIG.relative_to(REPO_ROOT)} if present, else legacy work-politics feeds JSON)",
     )
@@ -1590,13 +1590,13 @@ def main() -> int:
         help="Write scaffolds for the first menu option (A) of each mind in menu_order",
     )
     parser.add_argument(
-        "--minds-config",
+        "--minds-platform/config",
         default="",
         help=f"Mind overlay JSON (default: {DEFAULT_MINDS_CONFIG.relative_to(REPO_ROOT)})",
     )
     args = parser.parse_args()
 
-    minds_config_path = Path(args.minds_config) if args.minds_config else DEFAULT_MINDS_CONFIG
+    minds_config_path = Path(args.minds_platform/config) if args.minds_config else DEFAULT_MINDS_CONFIG
     mind_flags = bool(args.offer_minds or args.mind or args.mind_all)
     brief_path: Path | None = None
 
@@ -1638,7 +1638,7 @@ def main() -> int:
         if args.feeds and not args.config:
             config_path = Path(args.feeds)
         elif args.config:
-            config_path = Path(args.config)
+            config_path = Path(args.platform/config)
         else:
             config_path = _default_config_path()
         text = build_daily_brief(

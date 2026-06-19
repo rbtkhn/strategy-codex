@@ -39,7 +39,7 @@ def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("-u", "--user", default="grace-mar", help="")
     args = p.parse_args()
-    base = REPO / "users" / args.user
+    base = REPO / "platform/users" / args.user
     self_path = base / "self.md"
     ev_path = base / "self-archive.md"
     ev_compat = base / "self-evidence.md"

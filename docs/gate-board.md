@@ -1,6 +1,6 @@
 ﻿# Gate Board
 
-The Gate Board is a **generated Kanban-style operator view** over Grace-Marâ€™s existing review system. It lives at [`artifacts/gate-board.md`](../artifacts/gate-board.md).
+The Gate Board is a **generated Kanban-style operator view** over Grace-Marâ€™s existing review system. It lives at [`runtime/artifacts/gate-board.md`](../runtime/artifacts/gate-board.md).
 
 ## Purpose
 
@@ -11,17 +11,17 @@ The Gate Board is a **generated Kanban-style operator view** over Grace-Marâ€
 ## Non-goals
 
 - This is **not** a source of truth.
-- **Editing** `artifacts/gate-board.md` does **not** change candidate status.
-- This does **not** replace [`recursion-gate.md`](../recursion-gate.md), [`review-queue/`](../review-queue/), or canonical change-review JSON.
+- **Editing** `runtime/artifacts/gate-board.md` does **not** change candidate status.
+- This does **not** replace [`recursion-gate.md`](../recursion-gate.md), [`archive/queues/review-queue/`](../archive/queues/review-queue/), or canonical change-review JSON.
 
 ## Authority
 
 Canonical review state remains in the **normal gate and review workflow**:
 
 - `recursion-gate.md`
-- `review-queue/` and canonical change-review objects (see [identity-fork-protocol.md](identity-fork-protocol.md) Â§4)
+- `archive/queues/review-queue/` and canonical change-review objects (see [identity-fork-protocol.md](identity-fork-protocol.md) Â§4)
 
-`artifacts/gate-board.md` is a **derived operator dashboard** only.
+`runtime/artifacts/gate-board.md` is a **derived operator dashboard** only.
 
 ## Column mapping (pending precedence)
 
@@ -52,5 +52,5 @@ Optional: `--output path/to/gate-board.md`, `-u <user-id>` (default `grace-mar`)
 
 - [Runtime vs Record](runtime-vs-record.md)
 - [Operator dashboards](operator-dashboards.md)
-- [Review dashboard artifact](../artifacts/review-dashboard.md) (tabular companion view)
+- [Review dashboard artifact](../runtime/artifacts/review-dashboard.md) (tabular companion view)
 

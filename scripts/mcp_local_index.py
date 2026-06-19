@@ -7,7 +7,7 @@ See docs/mcp/mcp-local-index-adapter.md.
 
   python3 scripts/mcp_local_index.py \\
     --input examples/mcp-local-index-request.example.json \\
-    --output artifacts/mcp-local-index/index-mcp-docs.md
+    --output runtime/artifacts/mcp-local-index/index-mcp-docs.md
 """
 
 from __future__ import annotations
@@ -26,6 +26,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR
 
 from mcp_capability_audit import _git_short_hash  # noqa: E402
 from mcp_local_path_policy import (  # noqa: E402
@@ -50,10 +51,10 @@ from mcp_receipt_lib import (  # noqa: E402
 from mcp_risk_scan import evaluate_capability  # noqa: E402
 
 REQUEST_SCHEMA_PATH = REPO_ROOT / "schemas" / "mcp-local-index-request.v1.json"
-DEFAULT_ALLOWLIST = REPO_ROOT / "config" / "mcp-local-read-allowlist.yaml"
-DEFAULT_POLICY = REPO_ROOT / "config" / "mcp-risk-policy.yaml"
+DEFAULT_ALLOWLIST = REPO_ROOT / "platform/config" / "mcp-local-read-allowlist.yaml"
+DEFAULT_POLICY = REPO_ROOT / "platform/config" / "mcp-risk-policy.yaml"
 DEFAULT_CAPABILITY_ID = "filesystem_readonly"
-DEFAULT_RECEIPT_DIR = REPO_ROOT / "artifacts" / "mcp-receipts"
+DEFAULT_RECEIPT_DIR = ARTIFACTS_DIR / "mcp-receipts"
 
 BANNER = (
     "LOCAL READ-ONLY DIRECTORY INDEX Â· WORK ARTIFACT Â· NO NETWORK Â· NO CREDENTIALS Â· NOT APPROVED INTEGRATION"
@@ -68,7 +69,7 @@ def load_request(path: Path) -> dict[str, Any]:
 
 
 def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
-    bucket = (repo_root / "artifacts" / "mcp-local-index").resolve()
+    bucket = (ARTIFACTS_DIR / "mcp-local-index").resolve()
     bucket.mkdir(parents=True, exist_ok=True)
     if output is None:
         return bucket / "local-index-packet.md"
@@ -83,7 +84,7 @@ def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
     except ValueError as e:
         raise ValueError(f"output must be under {bucket} (got {resolved})") from e
     rp = rel_to_repo.parts
-    if len(rp) >= 2 and rp[0].lower() == "users" and rp[1].lower() == "grace-mar":
+    if len(rp) >= 2 and rp[0].lower() == "platform/users" and rp[1].lower() == "grace-mar":
         raise ValueError("refusing output path under ")
     return resolved
 
@@ -290,7 +291,7 @@ def render_markdown(
         "",
         f"> {BANNER}",
         "",
-        f"MCP receipt JSON (repo-relative): `artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_rel}`",
+        f"MCP receipt JSON (repo-relative): `runtime/artifacts/mcp-receipts/{receipt_filename}` â€” packet path: `{packet_rel}`",
         "",
         "## Declared intent",
         "",
@@ -498,7 +499,7 @@ def main() -> int:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     artifacts_list = [
         {"path": packet_rel, "kind": "markdown_mcp_local_index"},
-        {"path": f"artifacts/mcp-receipts/{receipt_filename}", "kind": "mcp_execution_receipt_json"},
+        {"path": f"runtime/artifacts/mcp-receipts/{receipt_filename}", "kind": "mcp_execution_receipt_json"},
     ]
 
     receipt = build_receipt(

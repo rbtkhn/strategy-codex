@@ -40,7 +40,7 @@ python3 scripts/import_working_identity_candidates.py \
 ## What the script produces
 
 1. **CANDIDATE blocks** in `recursion-gate.md` — one block per normalized item, inserted before `## Processed` using the existing staging infrastructure
-2. **Import digest** at `artifacts/portable-record/import-digest-YYYY-MM-DD.md` — a read-only summary listing all staged candidates with their id, claim, target surface, and sensitivity class
+2. **Import digest** at `runtime/artifacts/portable-record/import-digest-YYYY-MM-DD.md` — a read-only summary listing all staged candidates with their id, claim, target surface, and sensitivity class
 
 ### Default field values
 
@@ -64,7 +64,7 @@ python3 scripts/import_working_identity_candidates.py \
 
 ## Governance
 
-All staged candidates are **non-canonical** until reviewed and approved through the gated pipeline. The import script writes to `recursion-gate.md` only — it does not touch SELF, SELF-LIBRARY, SKILLS, EVIDENCE, or `bot/prompt.py`.
+All staged candidates are **non-canonical** until reviewed and approved through the gated pipeline. The import script writes to `recursion-gate.md` only — it does not touch SELF, SELF-LIBRARY, SKILLS, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py`.
 
 After staging, use the standard review workflow: review each candidate, set `status: approved` or `status: rejected`, then tell the assistant to process. For portability-specific review criteria, see the [portability review checklist](portability-review-checklist.md).
 

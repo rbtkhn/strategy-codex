@@ -24,7 +24,7 @@ def extract_yaml_scalar(blob: str, key: str) -> str | None:
 
 
 def load_self_library_entries(repo_root: Path, user_id: str) -> list[dict[str, Any]]:
-    path = repo_root / "users" / user_id / "self-library.md"
+    path = repo_root / "platform/users" / user_id / "self-library.md"
     if not path.is_file():
         return []
     text = path.read_text(encoding="utf-8")

@@ -192,7 +192,7 @@ def render_refined_month(month: str, bullets: list[Bullet]) -> str:
             lines.append(f"- {point}")
         lines.append("")
 
-    lines.append("#### Dated evidence")
+    lines.append("#### Dated archive/placeholders/evidence")
     lines.append("")
     for b in bullets:
         lines.append(f"- **{b.date}** — {b.summary}  ")

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Emit a session checkpoint Markdown file under artifacts/handoffs/checkpoints/.
+Emit a session checkpoint Markdown file under runtime/artifacts/handoffs/checkpoints/.
 
 Runtime work artifact only — does not update SELF, SKILLS, EVIDENCE, or the gate.
 See docs/runtime/long-horizon-work.md.
@@ -16,6 +16,7 @@ from pathlib import Path
 _RUNTIME = Path(__file__).resolve().parent
 if str(_RUNTIME) not in sys.path:
     sys.path.insert(0, str(_RUNTIME))
+from repo_io import ARTIFACTS_DIR
 
 from checkpoint_handoff_common import seeds_from_memory_brief, slug  # noqa: E402
 from policy_mode_config import load_defaults, resolve_mode  # noqa: E402
@@ -80,7 +81,7 @@ It does not update SELF, SELF-LIBRARY, SKILLS, or EVIDENCE.
 
 def main() -> int:
     ap = argparse.ArgumentParser(
-        description="Write a session checkpoint under artifacts/handoffs/checkpoints/.",
+        description="Write a session checkpoint under runtime/artifacts/handoffs/checkpoints/.",
     )
     ap.add_argument("--lane", required=True, help="Work lane (e.g. work-strategy)")
     ap.add_argument("--title", required=True, help="Short title for this checkpoint")
@@ -122,7 +123,7 @@ def main() -> int:
     title_slug = slug(title)
     day = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     base = f"{day}_{lane_slug}_{title_slug}"
-    out_dir = root / "artifacts" / "handoffs" / "checkpoints"
+    out_dir = ARTIFACTS_DIR / "handoffs" / "checkpoints"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     candidate = out_dir / f"{base}.md"

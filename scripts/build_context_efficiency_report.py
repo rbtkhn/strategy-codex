@@ -13,9 +13,10 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-_SRC = REPO_ROOT / "src"
+_SRC = SRC_DIR
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
+from repo_io import SRC_DIR, ARTIFACTS_DIR
 
 from grace_mar.observability.workflow_aggregate import (  # noqa: E402
     load_events_from_jsonl_lines,
@@ -51,7 +52,7 @@ def main() -> int:
         "notes": "Token counts only where sources populated contextTokensLoaded; see docs/context-efficiency.md",
     }
 
-    out_dir = root / "artifacts" / "workflow-observability"
+    out_dir = ARTIFACTS_DIR / "workflow-observability"
     out_dir.mkdir(parents=True, exist_ok=True)
     p = out_dir / "context-efficiency-report.json"
     p.write_text(json.dumps(doc, indent=2) + "\n", encoding="utf-8")

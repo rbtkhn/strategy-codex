@@ -57,5 +57,5 @@ Identity direction over months/years (not daily goals).
 
 ---
 
-*Do not use this file as a live Record in the template. Copy to `users/<new_id>/self-identity.md` in an instance and replace placeholders with real data.*
+*Do not use this file as a live Record in the template. Copy to `platform/users/<new_id>/self-identity.md` in an instance and replace placeholders with real data.*
 

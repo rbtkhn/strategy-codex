@@ -105,9 +105,9 @@ Full lane prefixes: [docs/operator-agent-lanes.md](../../docs/operator-agent-lan
 - a **fixed session menu** already applies (**coffee** **A?D**; legacy **hey**), or
 - the turn was **PLAN**-only or **read-only**.
 
-**Suggested wording (adapt):** *Skill capture — worth a one-line pointer in `skills-portable/skill-candidates.md` or a draft under `skills-portable/_drafts/`? Say yes, not now, or ignore.*
+**Suggested wording (adapt):** *Skill capture — worth a one-line pointer in `skills/skill-candidates.md` or a draft under `skills/_drafts/`? Say yes, not now, or ignore.*
 
-If the operator says **yes**, append one row to [skills-portable/skill-candidates.md](../../skills-portable/skill-candidates.md) (or draft in `_drafts/` if they want the fuller step). Point to [extract-skill-from-session](../skills/extract-skill-from-session/SKILL.md) when they want a session-shaped **SKILL.md**. **Skills / meta:** **coffee B — Engineer** + say **skills** or **meta**; **A — Steward** (gate / template / integrity / git per coffee SKILL) may still mention backlog in one line. Full ladder: [skills-portable/README.md](../../skills-portable/README.md) (Discovery ladder).
+If the operator says **yes**, append one row to [skills/skill-candidates.md](../../skills/skill-candidates.md) (or draft in `_drafts/` if they want the fuller step). Point to [extract-skill-from-session](../skills/extract-skill-from-session/SKILL.md) when they want a session-shaped **SKILL.md**. **Skills / meta:** **coffee B — Engineer** + say **skills** or **meta**; **A — Steward** (gate / template / integrity / git per coffee SKILL) may still mention backlog in one line. Full ladder: [skills/README.md](../../skills/README.md) (Discovery ladder).
 
 ---
 

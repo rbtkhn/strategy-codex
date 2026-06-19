@@ -16,16 +16,16 @@
 | Skill proof worksheet | [skill-demo-worksheet.md](skill-demo-worksheet.md) |
 | Opportunity / application draft scaffold | [job-opportunity-review-template.md](job-opportunity-review-template.md) |
 | Scripts | `scripts/work_career/` |
-| Paste-ready gate drafts | [reflection-proposals/](../../../reflection-proposals/) or [recursion-gate-staging/](../../../recursion-gate-staging/) with `DRAFT-` prefix |
+| Paste-ready gate drafts | [archive/queues/reflection-proposals/](../../../archive/queues/reflection-proposals/) or [archive/grace-mar-instance/recursion-gate-staging/](../../../archive/grace-mar-instance/recursion-gate-staging/) with `DRAFT-` prefix |
 
-**Do not** create `review-queue/` for jobs â€” template JSON queues live under `demo/review-queue` and `_template/review-queue`.
+**Do not** create `archive/queues/review-queue/` for jobs â€” template JSON queues live under `demo/review-queue` and `platform/template/review-queue`.
 
 ---
 
 ## Related repo artifacts
 
 - [Specification precision (work-dev)](../work-dev/templates/specification-precision.md)
-- [Failure pattern checklist](../../../recursion-gate-staging/failure-pattern-checklist.md)
+- [Failure pattern checklist](../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md)
 - [Nate B. Jones digest â€” seven skills](../../../research/external/work-dev/transcripts/nate-b-jones-ai-job-market-seven-skills-2026.md)
 - [Token economics CLI](../../../scripts/token_economics.py) â€” copy `scripts/token_economics_models.example.json` â†’ `scripts/token_economics_models.json` for what-if cost blends; see [economic-benchmarks.md](../work-dev/economic-benchmarks.md)
 

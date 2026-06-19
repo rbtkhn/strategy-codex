@@ -33,7 +33,7 @@ channel_key: operator:cursor
 summary: approved not yet merged
 ```
 
-### CANDIDATE-9003 (needs evidence)
+### CANDIDATE-9003 (needs archive/placeholders/evidence)
 
 ```yaml
 status: pending
@@ -71,7 +71,7 @@ summary: rejected in processed
 def test_build_gate_board_subprocess(tmp_path: Path) -> None:
     uid = "fixture-gate-board"
     root = tmp_path / "repo"
-    udir = root / "users" / uid
+    udir = root / "platform/users" / uid
     udir.mkdir(parents=True)
     (udir / "recursion-gate.md").write_text(FIXTURE_GATE, encoding="utf-8")
     (udir / "self.md").write_text("# Self\n\n", encoding="utf-8")
@@ -111,7 +111,7 @@ def test_build_gate_board_subprocess(tmp_path: Path) -> None:
     assert idx_ap < idx_a
 
     idx_e = text.index("CANDIDATE-9003")
-    idx_ne = text.rindex("## Needs evidence", 0, idx_e)
+    idx_ne = text.rindex("## Needs archive/placeholders/evidence", 0, idx_e)
     assert idx_ne < idx_e
 
     idx_m = text.index("CANDIDATE-9004")

@@ -26,4 +26,4 @@ Values and preferences documented from behavior or explicit approval. Not inferr
 
 ---
 
-*Do not use this file as a live Record. Copy to `users/<new_id>/self-personality.md` in an instance and replace placeholders with real data.*
+*Do not use this file as a live Record. Copy to `platform/users/<new_id>/self-personality.md` in an instance and replace placeholders with real data.*

@@ -43,7 +43,7 @@
       "paths": [
         "statecraft/voices/authored-pressure-quartet.md",
         "statecraft/voices/speaker-cluster-map.md",
-        "skills-portable/_drafts/ritter-warning-extraction/SKILL.md"
+        "skills/_drafts/ritter-warning-extraction/SKILL.md"
       ],
       "must_cover": [
         "Ritter",
@@ -62,7 +62,7 @@
       "paths": [
         "statecraft/voices/authored-pressure-quartet.md",
         "statecraft/voices/speaker-cluster-map.md",
-        "skills-portable/_drafts/parsi-diplomacy-extraction/SKILL.md"
+        "skills/_drafts/parsi-diplomacy-extraction/SKILL.md"
       ],
       "must_cover": [
         "Parsi",
@@ -98,7 +98,7 @@
       "points": 10,
       "critical": true,
       "paths": [
-        "skills-portable/_drafts/marandi-state-extraction/SKILL.md",
+        "skills/_drafts/marandi-state-extraction/SKILL.md",
         "statecraft/voices/speaker-cluster-map.md",
         "statecraft/voices/marandi/marandi-routing.md"
       ],
@@ -117,7 +117,7 @@
       "points": 10,
       "critical": true,
       "paths": [
-        "skills-portable/_drafts/mercouris-daily-continuity-extraction/SKILL.md",
+        "skills/_drafts/mercouris-daily-continuity-extraction/SKILL.md",
         "statecraft/voices/mercouris/mercouris-speaker-object.md",
         "statecraft/voices/speaker-cluster-map.md"
       ],
@@ -152,10 +152,10 @@
       "points": 10,
       "critical": true,
       "paths": [
-        "skills-portable/_drafts/ritter-warning-extraction/SKILL.md",
-        "skills-portable/_drafts/parsi-diplomacy-extraction/SKILL.md",
-        "skills-portable/_drafts/marandi-state-extraction/SKILL.md",
-        "skills-portable/_drafts/mercouris-daily-continuity-extraction/SKILL.md"
+        "skills/_drafts/ritter-warning-extraction/SKILL.md",
+        "skills/_drafts/parsi-diplomacy-extraction/SKILL.md",
+        "skills/_drafts/marandi-state-extraction/SKILL.md",
+        "skills/_drafts/mercouris-daily-continuity-extraction/SKILL.md"
       ],
       "must_cover": [
         "Comparative speaker mode",
@@ -172,10 +172,10 @@
       "points": 10,
       "critical": true,
       "paths": [
-        "skills-portable/_drafts/ritter-warning-extraction/SKILL.md",
-        "skills-portable/_drafts/parsi-diplomacy-extraction/SKILL.md",
-        "skills-portable/_drafts/marandi-state-extraction/SKILL.md",
-        "skills-portable/_drafts/mercouris-daily-continuity-extraction/SKILL.md"
+        "skills/_drafts/ritter-warning-extraction/SKILL.md",
+        "skills/_drafts/parsi-diplomacy-extraction/SKILL.md",
+        "skills/_drafts/marandi-state-extraction/SKILL.md",
+        "skills/_drafts/mercouris-daily-continuity-extraction/SKILL.md"
       ],
       "must_cover": [
         "Do not let Mercouris carry another speaker's role",
@@ -193,7 +193,7 @@
       "paths": [
         "statecraft/voices/authored-pressure-quartet.md",
         "statecraft/voices/speaker-cluster-map.md",
-        "skills-portable/_drafts/academy-statecraft-drafting/SKILL.md"
+        "skills/_drafts/academy-statecraft-drafting/SKILL.md"
       ],
       "must_cover": [
         "Speaker-state intake",

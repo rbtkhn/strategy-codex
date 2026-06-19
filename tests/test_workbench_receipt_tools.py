@@ -99,7 +99,7 @@ def test_generator_produces_valid_receipt_at_custom_output(tmp_path) -> None:
 def test_generator_refuses_protected_path() -> None:
     target = (
         REPO
-        / "users"
+        / "platform/users"
         / "grace-mar"
         / "self.md"
     )

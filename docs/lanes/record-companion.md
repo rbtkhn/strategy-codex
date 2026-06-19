@@ -10,7 +10,7 @@
 
 ## Never without approval
 
-- Merge into `self.md`, `self-evidence.md`, `self-archive.md`, `bot/prompt.py`.
+- Merge into `self.md`, `self-evidence.md`, `self-archive.md`, `archive/grace-mar-instance/bot/prompt.py`.
 - New facts in SYSTEM prompt from LLM inference.
 
 ## Truth lives here

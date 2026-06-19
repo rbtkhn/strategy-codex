@@ -67,14 +67,14 @@ So: **X as read-only feed into the Record (gated), not as a Voice channel.**
 
 | Piece | Where it lives | Notes |
 |-------|----------------|-------|
-| X API client (read) | New: `integrations/x_feed.py` or `bot/x_client.py` | OAuth or app-only; read timeline/list/bookmarks only. |
+| X API client (read) | New: `platform/integrations/x_feed.py` or `archive/grace-mar-instance/bot/x_client.py` | OAuth or app-only; read timeline/list/bookmarks only. |
 | Match to Record | New script or extend newsletter matcher | Input: raw tweets/post objects; output: scored list → stage. |
-| Staging | Existing `/stage` or new `integrations/x_stage.py` | Same contract as OpenClaw: stage-only, never merge. `channel_key` e.g. `x:feed`. |
+| Staging | Existing `/stage` or new `platform/integrations/x_stage.py` | Same contract as OpenClaw: stage-only, never merge. `channel_key` e.g. `x:feed`. |
 | Pipeline events | Existing `emit_pipeline_event` | e.g. `x_feed:pull`, `staged` with `source=x_feed`. |
 | Archive | SELF-ARCHIVE | Single sink for approved activity (voice and non-voice). Today: Telegram, WeChat, Mini App. When X DM or email (or other channels) are added, they append to the same SELF-ARCHIVE with channel label (e.g. X, Email). Feed-only pulls may be logged with `x:feed` for audit. |
 | Config | `` or repo env | X credentials, follow list or list ID, poll interval. |
 
-No change to `bot/core.py` for feed-only: no X channel in `get_response`. Only if we add X DM as a conversation channel would we add an X entry point that calls `get_response` and archive.
+No change to `archive/grace-mar-instance/bot/core.py` for feed-only: no X channel in `get_response`. Only if we add X DM as a conversation channel would we add an X entry point that calls `get_response` and archive.
 
 ---
 

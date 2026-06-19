@@ -1,7 +1,7 @@
 """
 MCP execution receipt validation — shared by mcp_receipt.py and mcp_receipt_audit.py.
 
-Authority is derived from config/mcp-authority-bindings.yaml (same SSOT as PR2).
+Authority is derived from platform/config/mcp-authority-bindings.yaml (same SSOT as PR2).
 """
 
 from __future__ import annotations
@@ -20,8 +20,8 @@ if str(_SCRIPTS) not in sys.path:
 
 from yaml_compat import safe_load_path
 
-CAPABILITIES_PATH = REPO_ROOT / "config" / "mcp-capabilities.yaml"
-BINDINGS_PATH = REPO_ROOT / "config" / "mcp-authority-bindings.yaml"
+CAPABILITIES_PATH = REPO_ROOT / "platform/config" / "mcp-capabilities.yaml"
+BINDINGS_PATH = REPO_ROOT / "platform/config" / "mcp-authority-bindings.yaml"
 RECEIPT_SCHEMA_PATH = REPO_ROOT / "schemas" / "mcp-execution-receipt.v1.json"
 
 _NETWORK_RANK: dict[str, int] = {"none": 0, "read": 1, "full": 2}
@@ -126,7 +126,7 @@ def build_receipt(
             "resources_read": resources_read,
             "resources_written": resources_written,
         },
-        "result": {"status": status, "summary": summary, "artifacts": artifacts},
+        "result": {"status": status, "summary": summary, "runtime/artifacts": artifacts},
         "governance": governance,
         "integrity": integrity,
     }

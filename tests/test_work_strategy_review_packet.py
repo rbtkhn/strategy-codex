@@ -228,7 +228,7 @@ def test_review_packet_surfaces_arc_movement_from_carry_receipt(tmp_path: Path) 
         "reinforces",
         "--arc-summary",
         "The run reinforced the standing leverage frame.",
-        "--arc-evidence",
+        "--arc-archive/placeholders/evidence",
         "The artifact and checks both preserved the same directional conclusion.",
         "--out",
         str(rec),

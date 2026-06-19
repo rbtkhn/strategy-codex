@@ -112,7 +112,7 @@ _Same-story clusters use anchor overlap on titles (proper nouns / crisis terms);
 
 ## 2a. Geopolitical & military (G-ranked)
 
-_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
+_**G** = matches on `geo_military_keyword_phrases` (+ optional locale lists in platform/config). Supports triangulation and war-powers messaging Ã¢â‚¬” **verify** claims against primary sources._
 
 - **[W:3 S:0 G:2]** [Iran-U.S. ceasefire off to a shaky start. And, Bill Gates to testify in Epstein probe](https://www.npr.org/2026/04/09/g-s1-116863/up-first-newsletter-iran-us-israel-ceasefire-nato-teen-birth-rates-bill-gates) Ã¢â‚¬” _NPR Ã¢â‚¬” national news_ Ã‚· _2026-04-09 08:02 UTC_
 - **[W:6 S:0 G:1]** [EN DIRECT, guerre au Moyen-OrientÃ‚ : IsraÃƒÂ«l continuera de Ã‚Â«Ã‚ frapper le Hezbollah partout oÃƒÂ¹ il le faudraÃ‚ Ã‚Â», au lendemain d’un bombardement massif au Liban](https://www.lemonde.fr/international/live/2026/04/09/en-direct-guerre-au-moyen-orient-israel-continuera-de-frapper-le-hezbollah-partout-ou-il-le-faudra-au-lendemain-d-un-bombardement-massif-au-liban_6676633_3210.html) Ã¢â‚¬” _Le Monde Ã¢â‚¬” franÃƒ§ais (France / monde)_ Ã‚· _fr_ Ã‚· _2026-04-09 11:38 UTC_

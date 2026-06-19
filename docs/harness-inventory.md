@@ -8,7 +8,7 @@ Single place for **what each component owns**, **where state lives**, and **what
 
 ## Two doors, one book
 
-**Book** = canonical files in git: `recursion-gate.md` (queue), then after merge `self.md`, **`self-archive.md`** (EVIDENCE), `bot/prompt.py`, PRP. Chat threads are **not** the ledger â€” they are a **keyhole**. Anything that matters must land in a file the companion approves.
+**Book** = canonical files in git: `recursion-gate.md` (queue), then after merge `self.md`, **`self-archive.md`** (EVIDENCE), `archive/grace-mar-instance/bot/prompt.py`, PRP. Chat threads are **not** the ledger â€” they are a **keyhole**. Anything that matters must land in a file the companion approves.
 
 | Door | Who | How |
 |------|-----|-----|
@@ -58,7 +58,7 @@ open gate-dashboard.html   # or double-click in Finder
 
 Regenerate after any gate change. Does not write the gate; does not merge. Safe to host statically (no secrets in file â€” only gate excerpts you already have locally).
 
-**Interactive gate review (`apps/gate-review-app.py`):** A Flask app under `apps/` that serves a live list of pending candidates with Approve/Reject buttons. Actions update `recursion-gate.md` and, for low-risk approvals, run quick-merge via `process_approved_candidates`. Protect with `OPERATOR_SECRET` (or `OPERATOR_FETCH_SECRET`). Run from repo root: `python apps/gate-review-app.py` (port 5001). Can be deployed alongside `apps/miniapp_server.py` on Render. See [approval-inbox-spec.md](approval-inbox-spec.md).
+**Interactive gate review (`platform/apps/gate-review-app.py`):** A Flask app under `platform/apps/` that serves a live list of pending candidates with Approve/Reject buttons. Actions update `recursion-gate.md` and, for low-risk approvals, run quick-merge via `process_approved_candidates`. Protect with `OPERATOR_SECRET` (or `OPERATOR_FETCH_SECRET`). Run from repo root: `python platform/apps/gate-review-app.py` (port 5001). Can be deployed alongside `platform/apps/miniapp_server.py` on Render. See [approval-inbox-spec.md](approval-inbox-spec.md).
 
 ---
 
@@ -91,7 +91,7 @@ flowchart TB
 
 | Component | Trust boundary | Primary state (paths) | Allowed writes | Must NOT write |
 |-----------|----------------|------------------------|----------------|----------------|
-| **Telegram / WeChat bot** (`bot/core.py`) | Network + OpenAI API | Per-channel chat RAM | See **bot write audit** below | SELF, EVIDENCE, prompt.py |
+| **Telegram / WeChat bot** (`archive/grace-mar-instance/bot/core.py`) | Network + OpenAI API | Per-channel chat RAM | See **bot write audit** below | SELF, EVIDENCE, prompt.py |
 | **Analyst (async)** | OpenAI | â€” | RECURSION-GATE (insert before `## Processed`) | Approved blocks without human |
 | **Operator Cursor / agents** | Operator machine | Working tree | Any file per git | Should not bypass gate for Record |
 | **process_approved_candidates** | CLI + receipt | â€” | SELF, EVIDENCE, prompt, gate Processed, SELF-ARCHIVE, PRP, merge-receipts | Only after receipt / quick |
@@ -103,7 +103,7 @@ flowchart TB
 
 ---
 
-## bot/core.py write audit (Voice harness)
+## archive/grace-mar-instance/bot/core.py write audit (Voice harness)
 
 | Path | Operation | Purpose |
 |------|-----------|---------|
@@ -114,7 +114,7 @@ flowchart TB
 | `homework-ledger.jsonl` | append | Homework probe ledger |
 | Temp file | write + delete | Whisper transcription only |
 
-**Read-only from bot for Record context:** `self.md`, **`self-archive.md`** (EVIDENCE; optional `self-evidence.md` pointer), `self-library.md`, `self-memory.md` (lookup / library / conflict checks). **No direct write** to SELF, EVIDENCE, or `bot/prompt.py` from core.py.
+**Read-only from bot for Record context:** `self.md`, **`self-archive.md`** (EVIDENCE; optional `self-evidence.md` pointer), `self-library.md`, `self-memory.md` (lookup / library / conflict checks). **No direct write** to SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` from core.py.
 
 ---
 
@@ -161,8 +161,8 @@ Any Record-relevant lesson still has to be staged through RECURSION-GATE. See [h
 To keep the working tree readable, treat the following as **local operational artifacts**, not routine committed surfaces:
 
 - `harness-events.jsonl`
-- `runtime-bundle/runtime/*`
-- `runtime-bundle/audit/*.jsonl`
+- `runtime/bundle/runtime/*`
+- `runtime/bundle/audit/*.jsonl`
 - `openclaw-user.md` when generated as the OpenClaw identity export (grace-mar: `openclaw-user.md`)
 
 Canonical truth still lives in the source files those artifacts come from. Commit these generated runtime files only when you intentionally want to refresh an example or compatibility snapshot.

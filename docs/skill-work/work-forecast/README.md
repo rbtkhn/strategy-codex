@@ -75,14 +75,14 @@ python3 scripts/run_forecast_baselines.py \
   --time-col date \
   --value-col count \
   --horizon 7 \
-  --out artifacts/forecast/operator_daily_messages.2026-04-12.v1.json
+  --out runtime/artifacts/forecast/operator_daily_messages.2026-04-12.v1.json
 ```
 
 Run post-hoc evaluation:
 
 ```bash
 python3 scripts/backtest_forecast_artifact.py \
-  --artifact artifacts/forecast/operator_daily_messages.2026-04-12.v1.json \
+  --artifact runtime/artifacts/forecast/operator_daily_messages.2026-04-12.v1.json \
   --actuals-csv examples/diagnostics/sample-forecast-series.csv \
   --time-col date \
   --value-col count

@@ -11,7 +11,7 @@
 
 ## 1. Terminology: "Self-Evidence" vs EVIDENCE
 
-**"Self-evidence"** is not a canonical term in grace-mar. ID-TAXONOMY and CONCEPTUAL-FRAMEWORK define companion self as:
+**"Self-archive/placeholders/evidence"** is not a canonical term in grace-mar. ID-TAXONOMY and CONCEPTUAL-FRAMEWORK define companion self as:
 
 - self-knowledge, self-curiosity, self-personality  
 - self-skill-write, self-skill-think, self-skill-work  
@@ -118,7 +118,7 @@ Exports duplicate content by design; they are outputs for different consumers. N
 ## 4. Conclusion
 
 - **No problematic redundancy** â€” Canonical Record files (evidence, session-log, self-archive, journal) have distinct roles and grain.
-- **"Self-evidence"** â€” Not a standard term; use **EVIDENCE** for the Record's activity log.
+- **"Self-archive/placeholders/evidence"** â€” Not a standard term; use **EVIDENCE** for the Record's activity log.
 - **Exports** â€” Derived copies by design; not redundancy issues.
 - **One-off artifacts** â€” `analysis-homework-samples-2026-02-24.md`, `audit-grok-transcript-2026-02-24.md`, `notes/2026-02-25-telegram-log.md` are candidates for archival or pruning after use, not for deletion as redundant.
 

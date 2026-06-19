@@ -94,7 +94,7 @@
 - **IX-A:** Fire is hot; crushing a ball → pressure; Earth changes take a long time. General science from read-aloud.
 - **Personality/process:** **Associative** — prioritizes recalling and writing what she remembered over strict category matching. Could support an IX-C observation: "recalls and reports learned content; sometimes links to category loosely" (if desired).
 
-**Signals:** Effort to complete all three; spelling (bot); conceptual recall (fire, pressure, Earth time). Mismatch between section labels and sentences is a **reasoning/instruction-following** signal (flexible or loose association) rather than lack of knowledge.
+**Signals:** Effort to complete all three; spelling (archive/grace-mar-instance/bot); conceptual recall (fire, pressure, Earth time). Mismatch between section labels and sentences is a **reasoning/instruction-following** signal (flexible or loose association) rather than lack of knowledge.
 
 ---
 
@@ -106,13 +106,13 @@
 | 2 Solid/Mantle/Inner Core | Knowledge | Yes: inner core = solid metal ball; solids ≠ container shape | LEARN: inner core, solids (if approved) |
 | 3 History of the Earth | Identity (name), Curiosity, BUILD | Yes: Earth history/fossils/dinosaurs as school unit; Abigail name in hand | LEARN or CUR: History of Earth, fossils; optional ACT |
 | 4 Dinosaurs/extinction | Knowledge, WRITE, Personality/emotional | Yes: extinct; sentence + drawing; fear → wouldn’t go outside | LEARN: extinct; WRITE-0006 candidate; PER or value: emotional response to hypothetical threat |
-| 5 Time/Heat/Pressure | WRITE, Knowledge (recall), process | Yes: 3 sentences, spelling (bot); associative recall | WRITE sample; optional PER: loose category-sentence mapping |
+| 5 Time/Heat/Pressure | WRITE, Knowledge (recall), process | Yes: 3 sentences, spelling (archive/grace-mar-instance/bot); associative recall | WRITE sample; optional PER: loose category-sentence mapping |
 
 ---
 
 ## Recommended next steps (no merge without approval)
 
-1. **Store artifacts:** Save the five images under `users/grace-mar/artifacts/` with clear names (e.g. `SCHOOL-0001-layer-crust.png`, `SCHOOL-0002-solid-mantle-inner-core.png`, etc.) if you want them in the Evidence chain.
+1. **Store artifacts:** Save the five images under `platform/users/grace-mar/runtime/artifacts/` with clear names (e.g. `SCHOOL-0001-layer-crust.png`, `SCHOOL-0002-solid-mantle-inner-core.png`, etc.) if you want them in the Evidence chain.
 2. **Pipeline staging:** If you want these in the Record, stage candidates for:
    - **IX-A:** Extinct (definition); inner core = solid metal ball; History of the Earth / fossils (school unit).
    - **WRITE:** WRITE-0006 (dinosaurs sentence + picture); optional WRITE entry for read-aloud sentences (Time/Heat/Pressure).

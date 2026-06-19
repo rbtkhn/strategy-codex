@@ -28,13 +28,13 @@ except ImportError:
     from scripts.harness_events import append_harness_event
     from scripts.repo_io import profile_dir
 
-SCHEMA_PATH = REPO_ROOT / "schema-registry" / "emulation-bundle-envelope.v1.json"
-CHANGE_PROPOSAL_SCHEMA = REPO_ROOT / "schema-registry" / "change-proposal.v1.json"
-AUTHORITY_MAP = REPO_ROOT / "config" / "authority-map.json"
+SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "emulation-bundle-envelope.v1.json"
+CHANGE_PROPOSAL_SCHEMA = SCHEMA_REGISTRY_DIR / "change-proposal.v1.json"
+AUTHORITY_MAP = REPO_ROOT / "platform/config" / "authority-map.json"
 DEFAULT_ADAPTER_EXAMPLES = [
-    "bridges/runtime-complements/emulation/README.md",
-    "bridges/runtime-complements/emulation/simple_llm_emulation.example.py",
-    "bridges/runtime-complements/emulation/langgraph_emulation.example.py",
+    "research/bridges/runtime-complements/emulation/README.md",
+    "research/bridges/runtime-complements/emulation/simple_llm_emulation.example.py",
+    "research/bridges/runtime-complements/emulation/langgraph_emulation.example.py",
 ]
 BOUNDARY_NOTICE = (
     "This emulation bundle is a governed loading package over existing Grace-Mar exports. "
@@ -89,7 +89,7 @@ def build_emulation_envelope(
 ) -> dict:
     examples = adapter_examples if adapter_examples is not None else list(DEFAULT_ADAPTER_EXAMPLES)
     return {
-        "$schema": "schema-registry/emulation-bundle-envelope.v1.json",
+        "$schema": "schemas/registry/emulation-bundle-envelope.v1.json",
         "schemaVersion": "1.0.0",
         "format": "strategy-codex-emulation-bundle",
         "generatedAt": generated_at,
@@ -171,6 +171,7 @@ def export_emulation_bundle(
     try:
         if str(REPO_ROOT / "scripts") not in sys.path:
             sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from repo_io import SCHEMA_REGISTRY_DIR
         from emit_compute_ledger import append_integration_ledger
 
         total_bytes = 0

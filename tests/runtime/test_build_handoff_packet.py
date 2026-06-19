@@ -27,7 +27,7 @@ def test_build_handoff_packet_subprocess(tmp_path: Path) -> None:
         capture_output=True,
         text=True,
     )
-    out_path = tmp_path / "artifacts" / "handoffs" / "ws-handoff.md"
+    out_path = tmp_path / "runtime/artifacts" / "handoffs" / "ws-handoff.md"
     r = subprocess.run(
         [
             sys.executable,
