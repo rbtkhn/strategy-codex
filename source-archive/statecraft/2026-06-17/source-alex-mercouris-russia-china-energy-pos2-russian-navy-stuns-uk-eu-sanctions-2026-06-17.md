@@ -5,26 +5,25 @@ kind: transcript
 source_form: solo
 source_type: youtube
 transcript_type: operator_pasted_youtube_transcript
-host_people:
-  - Alexander Mercouris
+host_people: ""
 show_title: Mercouris
 channel_name: Alexander Mercouris
 thread: mercouris
-threads:
-  - mercouris
+threads: ""
 thread_expert: mercouris
 show: Mercouris
 host: Alexander Mercouris
-title: "Russia China Deepen Energy Ties Agree PoS2 Terms; Russian Navy Stuns UK; EU Wants More Oil Sanctions"
+title: Russia China Deepen Energy Ties Agree PoS2 Terms; Russian Navy Stuns UK; EU Wants More Oil Sanctions
 channel_slug: alex-mercouris
 channel_url: "https://www.youtube.com/@AlexMercouris/videos"
 source_url: "https://www.youtube.com/watch?v=I9CnSQlcmU4"
 youtube_id: I9CnSQlcmU4
-source_note: "Operator-pasted transcript; Mercouris solo 17 Jun 2026 (London, post-Russia/PASCO). Iran MOU 60-day pause; hardliner critique Iran/West (Blair Telegraph); Russian source Iran dizzy-with-success; Lebanon fuse; G7 Zelensky maneuver; vague Russia-energy-sanctions wording; PoS2 Mongolia route signing soon; China refiners backing; Konstantinovka/Lyman; Grigorovich yacht warning shots; UK tanker. Cross-ref Jun 16 Moscow MOU capture + Jun 17 Pape/Parsi MOU batch."
+source_note: Operator-pasted transcript; Mercouris solo 17 Jun 2026 (London, post-Russia/PASCO). Iran MOU 60-day pause; hardliner critique Iran/West (Blair Telegraph); Russian source Iran dizzy-with-success; Lebanon fuse; G7 Zelensky maneuver; vague Russia-energy-sanctions wording; PoS2 Mongolia route signing soon; China refiners backing; Konstantinovka/Lyman; Grigorovich yacht warning shots; UK tanker. Cross-ref Jun 16 Moscow MOU capture + Jun 17 Pape/Parsi MOU batch.
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 capture_note: Operator paste; full solo program body preserved from user-supplied YouTube transcript.
 editorial_note: Operator-pasted transcript; ASR artifacts retained; host notes fatigue/travel; not human-verified verbatim against audio.
+transcript_wrapper_tier: clean
 ---
 
 # Russia China Deepen Energy Ties Agree PoS2 Terms; Russian Navy Stuns UK; EU Wants More Oil Sanctions

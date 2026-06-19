@@ -4,7 +4,7 @@ pub_date: 2026-06-17
 kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Nima Alkhorshid
 guest_people:
@@ -27,14 +27,14 @@ channel_url: "https://www.youtube.com/@dialogueworks01"
 channel_slug: dialogue-works
 source_url: "https://www.youtube.com/watch?v=pDVwed9QDRk"
 youtube_id: pDVwed9QDRk
-source_note: "Operator-pasted transcript; host self-dates Wed 17 Jun 2026. White House + Iran release official 14-point MOU; Johnson×Nima clause-by-clause read before Marandi join. Pt.1 Lebanon integrity/sovereignty = Iran may retaliate vs Israel in Lebanon without US strike if Iran avoids US targets; Smotrich/Katz won't withdraw; Khiam redeploy report. Pt.2–11 SPR ~349M bbl / ~16-day math; Pepe Escobar 60-day oil-reserve crisis relay; Hormuz 60-day no-fee passage + Iran demining + Oman fee dialogue; sanctions timetable (UN/IAEA/primary/secondary); downblend on-site IAEA; status quo enrichment; immediate oil/banking waivers; frozen+restricted funds gradual; UN SCR endorsement. Marandi join: reciprocal obligations (US must perform before Iran moves); ships moving; Hormuz leverage; FM spokesman confirms digital sign on air. Cross-ref Jun 17 Pape/Parsi/Escobar MOU batch + Jun 16 Johnson reparations lane."
+source_note: "Operator-pasted transcript; host self-dates Wed 17 Jun 2026. White House + Iran release official 14-point MOU; Johnson×Nima clause-by-clause read before Marandi join. Pt.1 Lebanon integrity/sovereignty = Iran may retaliate vs Israel in Lebanon without US strike if Iran avoids US targets; Smotrich/Katz won't withdraw; Khiam redeploy report. Pt.2–11 SPR ~349M bbl / ~16-day math; Pepe Escobar 60-day oil-reserve crisis relay; Hormuz 60-day no-fee passage + Iran demining + Oman fee dialogue; sanctions timetable (UN/IAEA/primary/secondary); downblend on-site IAEA; status quo enrichment; immediate oil/banking waivers; frozen+restricted funds gradual; UN SCR endorsement. Marandi join: reciprocal obligations (US must perform before Iran moves); ships moving; Hormuz leverage; FM spokesman confirms digital sign on air. Cross-ref Jun 17 Pape/Parsi/Escobar MOU batch + Jun 16 Johnson reparations lane. · ASR pass 2026-06-18."
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 transcript_wrapper_tier: paste-prefix
-normalization_state: raw_operator_paste
-editorial_note: "Operator-pasted transcript; Marandi joins mid-show (~2am Tehran); promo/departure close retained; not human-verified verbatim."
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 2 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript; Marandi joins mid-show (~2am Tehran); promo/departure close retained; not human-verified verbatim."
+quality_note: "ASR normalization pass 2026-06-18; ph-civ replacement SSOT."
 ---
-
 # Larry Johnson & Mohammad Marandi: The White House has released the full text of the 14-point MoU
 
 **Channel:** Dialogue Works (Nima Alkhorshid)  
@@ -135,7 +135,7 @@ And if if the Department US the Pentagon is to be believed or last testimony uh 
 >> Yeah, the because the number of as you write the point out the number of ships that are going to pass be passing through are not going to be the normal numbers that pass through under ordinary circumstances. It will take time and probably much more than 2 months for the the number of ships to pass through in in the numbers that we saw before the war.
 And so the Iranian government >> Can I ask you [clears throat] a question? Uh Iranian tankers, who insures those? Are those insured by the government of Iran or are they without insurance? Because I'd say the insurance would be one of the limiting in the the London uh you know, City of London-based maritime insurance industry.
  They're not going to allow these ships to move until they got guaranteed that they're not going to blow it up. >> Yeah, Iranian ships don't have that problem. They since they are sanctioned and since they they cannot uh receive insurance, they are insured by the Iranians. >> Okay. Yeah, because I saw Saturday night those are the ships you saw immediately moving.
- Iranian tankers coming and going. >> Well, there's also another reason and that is that Iran has not yet uh opened this rate. The opening of this rate has has uh is in is in a couple of days. >> But Professor Marandi, here is what in the point number 10 it says the United States undertakes the immediate undertakes that immediately upon the signing of this MOU sanctions waivers will be issued for the export of Iranian crude oil, petroleum products and derivatives and all associated services including banking transactions, insurances, and transportation, and and
+ Iranian tankers coming and going. >> Well, there's also another reason and that is that Iran has not yet uh opened the Strait. The opening of the Strait has has uh is in is in a couple of days. >> But Professor Marandi, here is what in the point number 10 it says the United States undertakes the immediate undertakes that immediately upon the signing of this MOU sanctions waivers will be issued for the export of Iranian crude oil, petroleum products and derivatives and all associated services including banking transactions, insurances, and transportation, and and
 so on and so forth, etc. it says. So, this is somehow this is in this point they're addressing the issue that you've just raised with the case of the insurances and the transportation. >> That's right. The it's going to make Iranian oil easier to sell. It's going to make it easier for ships to move back and forth.
  And Trump actually needs this too because he wants to keep the price of oil low. So, as Larry alluded to this point Iranian because of the issue of of of insurance alongside of the problems, many of these ships are not going to be too eager to swiftly move through the Strait of Hormuz. But in the case of Iranian ships, they they're already traveling through.
  As I said, because um the the other ships still don't have the time for those ships to pass through has not yet arrived, but Iranian ships don't have the problems of insurance that those that those other ships have. Iranians during these years have been moving back and forth without being able to or without having to get insurance from major insurance international insurance companies.
