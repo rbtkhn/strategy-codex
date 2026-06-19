@@ -26,14 +26,14 @@ Pick **one letter**, then open the linked surface. **Default for strategy-codex 
 | **B** | Parent or guardian | [seed-phase-survey.md](docs/seed-phase-survey.md) — read guardrail rows before JSON capture |
 | **C** | **Operator (default)** | [docs/start-here.md](docs/start-here.md) · [statecraft/README.md](statecraft/README.md) · archive → daily → lane objects |
 | **D** | Technical contributor | [docs/skill-work/work-dev/](docs/skill-work/work-dev/) · [agent-control-plane essay](essays/agent-control-plane.md) |
-| **E** | Curious visitor | [intelligence-harness.md](docs/intelligence-harness.md) · [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md) |
+| **E** | Curious visitor | [harness-architecture-map.md](docs/harness-architecture-map.md) · [intelligence-harness.md](docs/intelligence-harness.md) · [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md) |
 | **F** | Journalist / blogger | [Door F — public-safe only](#door-f) |
 
 <a id="door-f"></a>
 
 ### Door F — public-safe orientation
 
-Do not quote repo internals or operator drafts as on-the-record without consent. Safe entry points: [intelligence-harness.md](docs/intelligence-harness.md), [product-identity.md](docs/product-identity.md), [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md), public Predictive History ([ph-civ](https://github.com/rbtkhn/ph-civ)). Seed intake and gate material are **not** for publication.
+Do not quote repo internals or operator drafts as on-the-record without consent. Safe entry points: [harness-architecture-map.md](docs/harness-architecture-map.md), [intelligence-harness.md](docs/intelligence-harness.md), [product-identity.md](docs/product-identity.md), [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md), public Predictive History ([ph-civ](https://github.com/rbtkhn/ph-civ)). Seed intake and gate material are **not** for publication.
 
 ### Essays index — cross-channel theses {#essays-index}
 

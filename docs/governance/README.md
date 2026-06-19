@@ -1,6 +1,6 @@
 # Governance docs (Grace-Mar)
 
-Additive notes that sit beside [identity-fork-protocol.md](../identity-fork-protocol.md), [AGENTS.md](../../AGENTS.md), and gate traffic docs.
+Additive notes that sit beside [identity-fork-protocol.md](../identity-fork-protocol.md), [AGENTS.md](../../AGENTS.md), and gate traffic docs. **Not** harness topology — for model/harness/membrane routing see [harness-architecture-map.md](../harness-architecture-map.md).
 
 | Doc | Role |
 |-----|------|

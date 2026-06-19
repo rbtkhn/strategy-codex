@@ -72,6 +72,16 @@ Receipt schema: [`schema-registry/workflow-depth-receipt.v1.json`](../../schema-
 | `medium` | Synthesis, review prep |
 | `deep` | Long analysis, contradiction-heavy work, handoff builds |
 
+## Skills and context load
+
+Skills and rules loaded into the session are **context budget units**, not free metadata.
+
+- **Always-on** surfaces (Layer 1–2: `AGENTS.md`, instance doctrine, `.cursor/rules/*.mdc`) cost more than **invocation-bound** skills (`.cursor/skills/*` only when triggered). See [layer-architecture.md](../layer-architecture.md).
+- **Prefer one mode + one lane** per heavy turn — stacking multiple skill overlays degrades reasoning quality.
+- **Procedure vs ability** taxonomy: [skills-portable/README.md](../../skills-portable/README.md). Derived skill cards: [skill-card-spec.md](../skills/skill-card-spec.md). Topology hub: [harness-architecture-map.md](../harness-architecture-map.md).
+
+Budget caps size material; they do **not** decide truth or gate authority.
+
 ## Related
 
 - Workflow depth modes: [workflow-depth.md](workflow-depth.md)

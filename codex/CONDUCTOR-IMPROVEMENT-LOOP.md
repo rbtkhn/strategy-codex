@@ -5,7 +5,7 @@
 
 **Purpose:** Name the **closed loop** from a standalone **Conductor** stance (`coffee_pick` with **`picked=conductor` `conductor=<slug>`**; older `picked=D` / `picked=E` rows are read-only compatibility) to **durable, testable** notebook output and optional promotion. Append-only [cadence lines](../docs/skill-work/work-cadence/work-cadence-events.md) record *that* a pick happened; they do **not** by themselves store **what changed** in the work.
 
-**Related:** [CONDUCTOR-CLOSE-TEMPLATE.md](CONDUCTOR-CLOSE-TEMPLATE.md) (paste block) | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) (ritual) | [CONDUCTOR-PASS.md](../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) (menu) | [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md#escalation-marker-preference) | [AGENTS.md](../AGENTS.md) (governance boundary) | [`.cursor/skills/coffee/SKILL.md`](../.cursor/skills/coffee/SKILL.md) (Cursor ritual).
+**Related:** [CONDUCTOR-CLOSE-TEMPLATE.md](CONDUCTOR-CLOSE-TEMPLATE.md) (paste block) | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) (ritual) | [CONDUCTOR-PASS.md](../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) (menu) | [NOTEBOOK-PREFERENCES.md](NOTEBOOK-PREFERENCES.md#escalation-marker-preference) | [AGENTS.md](../AGENTS.md) (governance boundary) | [review-orchestrator.md](../docs/orchestration/review-orchestrator.md) (meta-review packets) | [harness-architecture-map.md](../docs/harness-architecture-map.md) (topology hub) | [`.cursor/skills/coffee/SKILL.md`](../.cursor/skills/coffee/SKILL.md) (Cursor ritual).
 
 ---
 

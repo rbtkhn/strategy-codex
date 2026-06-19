@@ -15,6 +15,14 @@ Four passes plus synthesis (see script output):
 5. **Synthesis** â€” recommended action (`allow` | `allow_with_review` | `hold` | `block`) aligned with the envelope (advisory).
 6. **Operator questions** â€” concrete follow-ups.
 
+## Meta-review
+
+When failures **repeat**, diagnose **routing / harness / skill protocol** — not only the latest output. Precedent: protocol repair receipts in [CONDUCTOR-IMPROVEMENT-LOOP.md](../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) §1.
+
+**Checklist (advisory):** output correctness | system behavior | harness effectiveness | failure pattern | next system fix.
+
+**Related tooling:** [validator-first skill](../../.cursor/skills/validator-first/SKILL.md) · [recursive-learning skill](../../.cursor/skills/recursive-learning/SKILL.md) · [harness-architecture-map.md](../harness-architecture-map.md)
+
 ## Task anchor (required)
 
 Every invocation must include **`--task-anchor`** with a short description of the operatorâ€™s original question or constraint for this review. The packet includes a **`## Task Anchor`** section (task, optional constraint, and **active scope**) so long reviews do not silently drift from intent.

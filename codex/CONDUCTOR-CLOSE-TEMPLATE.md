@@ -30,6 +30,7 @@ Copy into **`chapters/YYYY-MM/days.md`** under the same `## YYYY-MM-DD` block yo
 - **What moved / seam:** <one sentence>
 - **Falsify / next test:** <one line>
 - **Authority / surface check (optional):** <what layer is this really, and is any coherent work landing on the wrong surface?>
+- **Harness / system check (optional):** <did the failure live in output, or in protocol / routing / skills?>
 - **Next wedge:** <the single next operator action, or `No next action recommended`>
 ```
 

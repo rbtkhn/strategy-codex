@@ -34,16 +34,16 @@ Pick **one letter** (same A–F as [README § Choose your path](../README.md#cho
 |------|----------|------------|
 | **A** | Companion (fork revive / seed) | [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md) |
 | **B** | Parent or guardian | [seed-phase-survey.md](seed-phase-survey.md) |
-| **C** | **Operator (default)** | Promotion ladder below · [statecraft/README.md](../statecraft/README.md) |
+| **C** | **Operator (default)** | Promotion ladder below · [statecraft/README.md](../statecraft/README.md) · [Architecture map](harness-architecture-map.md) |
 | **D** | Technical contributor | [skill-work/work-dev/](skill-work/work-dev/) |
-| **E** | Curious visitor | [intelligence-harness.md](intelligence-harness.md) · [product-identity.md](product-identity.md) · [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md) |
+| **E** | Curious visitor | [harness-architecture-map.md](harness-architecture-map.md) · [intelligence-harness.md](intelligence-harness.md) · [product-identity.md](product-identity.md) · [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md) |
 | **F** | Journalist / blogger | [Door F](#door-f) |
 
 <a id="door-f"></a>
 
 ### Door F — public-safe orientation
 
-Public-safe entry only — no seed intake, gate queues, or private operator material. Safe entry points: [intelligence-harness.md](intelligence-harness.md), [product-identity.md](product-identity.md), [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md), [README door F](../README.md#door-f).
+Public-safe entry only — no seed intake, gate queues, or private operator material. Safe entry points: [harness-architecture-map.md](harness-architecture-map.md), [intelligence-harness.md](intelligence-harness.md), [product-identity.md](product-identity.md), [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md), [README door F](../README.md#door-f).
 
 **Cross-channel essays:** full index at [README § Essays index](../README.md#essays-index) · shelf law at [essays/README.md](../essays/README.md) · note vs essay routing at [prose-index.md](prose-index.md).
 

@@ -72,6 +72,7 @@ When `companion_factory.py` creates a new instance, it copies the template scaff
 ## Cross-references
 
 - [AGENTS.md](../AGENTS.md) â€” Core Doctrine (Layer 1)
+- [harness-architecture-map.md](harness-architecture-map.md) â€” Work membrane + execution routing hub (orthogonal to this instruction-load model)
 - [architectural-principles.md](architectural-principles.md) â€” Named design principles including this layer model
 - [docs/skill-work/work-template/MAPPING.md](skill-work/work-template/MAPPING.md) â€” Lane overlay mapping
 

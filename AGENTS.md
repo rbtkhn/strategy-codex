@@ -105,13 +105,14 @@ This system uses a **four-layer instruction architecture**. Later layers may nar
 When asked to find a file, index, corpus, source map, analyst, speaker, **essay**, or **prose object**:
 
 1. Check [LLM-ROUTING.md](LLM-ROUTING.md).
-2. Check [repo-map.yaml](repo-map.yaml) if present.
-3. If the query involves an analyst, speaker, source corpus, transcript set, or geopolitical commentator, check [statecraft/voices/](statecraft/voices/) and [source-archive/statecraft/](source-archive/statecraft/).
-4. If the query involves a **stand-alone essay**, **cross-channel thesis**, or **prose-class** placement (essay vs note vs synthesis), check [essays/README.md](essays/README.md) first (primary essay shelf), then [docs/prose-index.md](docs/prose-index.md) (class chooser). Bounded seams live in `statecraft/notes/` or `singularity/notes/` only; `statecraft/essays/` and `singularity/essays/` are **compatibility stubs** — follow pointers to repo-root `essays/`.
-5. Do not rely only on GitHub code search.
-6. If `grep`, `rg`, or GitHub code search returns zero results, treat that as a possible search failure, not proof of absence.
-7. Only say "not found" after checking the routing map plus the likely path family.
-8. If the user provides a GitHub URL or exact path, fetch that path directly before doing broad search.
+2. If the query is **architecture / harness topology** (model vs harness, membrane, queue, AFK, channels), check [docs/harness-architecture-map.md](docs/harness-architecture-map.md).
+3. Check [repo-map.yaml](repo-map.yaml) if present.
+4. If the query involves an analyst, speaker, source corpus, transcript set, or geopolitical commentator, check [statecraft/voices/](statecraft/voices/) and [source-archive/statecraft/](source-archive/statecraft/).
+5. If the query involves a **stand-alone essay**, **cross-channel thesis**, or **prose-class** placement (essay vs note vs synthesis), check [essays/README.md](essays/README.md) first (primary essay shelf), then [docs/prose-index.md](docs/prose-index.md) (class chooser). Bounded seams live in `statecraft/notes/` or `singularity/notes/` only; `statecraft/essays/` and `singularity/essays/` are **compatibility stubs** — follow pointers to repo-root `essays/`.
+6. Do not rely only on GitHub code search.
+7. If `grep`, `rg`, or GitHub code search returns zero results, treat that as a possible search failure, not proof of absence.
+8. Only say "not found" after checking the routing map plus the likely path family.
+9. If the user provides a GitHub URL or exact path, fetch that path directly before doing broad search.
 
 **Search commands:** prefer `rg` for interactive local search when available; use portable `grep` (or `rg` with `grep -R` fallback) in committed scripts and CI examples. Full convention: [LLM-ROUTING.md — Search command convention](LLM-ROUTING.md#search-command-convention).
 

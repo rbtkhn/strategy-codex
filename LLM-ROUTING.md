@@ -28,6 +28,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | **essay voice** (how repo-root essays sound) | [docs/essay-voice.md](docs/essay-voice.md) — tri-blend transport synthesis, Band A apparatus, draft checklist |
 | **prose forge** (essay slop lint / staged rewrite) | [docs/prose-forge.md](docs/prose-forge.md) · `scripts/prose_slop_lint.py` · `scripts/prose_forge.py` |
 | product identity / governed interpretive machine essay | [essays/from-accumulation-to-governed-interpretive-machine.md](essays/from-accumulation-to-governed-interpretive-machine.md) |
+| architecture / harness topology / model vs harness map | [docs/harness-architecture-map.md](docs/harness-architecture-map.md) |
+| intelligence harness (external bridge name) | [docs/intelligence-harness.md](docs/intelligence-harness.md) |
 | archive / synthesis layer law | [essays/archive-synthesis-law.md](essays/archive-synthesis-law.md) |
 | recursive learning three-layer model | [essays/three-layers-of-recursive-learning-in-statecraft.md](essays/three-layers-of-recursive-learning-in-statecraft.md) |
 | how operator uses statecraft machine | [essays/how-the-operator-uses-the-statecraft-machine.md](essays/how-the-operator-uses-the-statecraft-machine.md) |

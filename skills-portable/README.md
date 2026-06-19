@@ -26,6 +26,17 @@ Portable skills should reflect the same core boundary rules that govern the repo
 - **Surface class must stay explicit.** Archive-grounded `daily` and `monthly` synthesis skills may stay visibly speaker-shelf based and quote-bearing; synthetic intelligence-essay skills should use the archive as substrate rather than visible scaffolding.
 - **Month route must stay explicit.** Month-scale work should choose whether the artifact is a `closure-audit`, `watchlist`, or `benchmark` before drafting; do not let one month surface silently perform all three jobs at once.
 
+## Procedure vs ability skills (taxonomy lens)
+
+Portable skills and host rules are not one uniform category:
+
+| Type | In this repo | Invocation | Trust posture |
+|------|--------------|------------|---------------|
+| **Procedure** | `coffee`, `conductor`, `statecraft-source-intake`, `EXECUTE` lane | Operator trigger | Higher trust when invoked; still no merge |
+| **Ability** | `AGENTS.md`, `.cursor/rules/*.mdc` | Host/session always-on | Bounded autonomy; **context cost** |
+
+**Mapping:** procedure ↔ invocation-bound `.cursor/skills/*/SKILL.md`; ability ↔ Layer 1–2 always-on doctrine; portable core ↔ copyable procedure body; Cursor appendix ↔ host-specific ability wiring. Context discipline: [docs/runtime/context-budgeting.md](../docs/runtime/context-budgeting.md). Architecture map: [docs/harness-architecture-map.md](../docs/harness-architecture-map.md).
+
 See [skills-portable-drift-audit-2026-05-22.md](skills-portable-drift-audit-2026-05-22.md) for the current inventory, drift analysis, and before/after examples.
 
 **In-repo examples:** `politics-massie` (content skill) · `jurisdiction-campaign-history` (work-politics framing) · `portable-skills-sync` (pipeline skill — use when changing this layout).

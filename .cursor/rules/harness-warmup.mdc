@@ -29,6 +29,8 @@ At the **start of a new chat** when work touches **operator state** (integrity, 
 
 **`dream` (end-of-day maintenance):** Follow `.cursor/skills/dream/SKILL.md`. **End-of-day bundle:** `python3 scripts/operator_end_of_day.py -u strategy-codex` runs dream + handoff-check in one pass.
 
+**Architecture questions** (harness vs model, membrane, queue, AFK): read [docs/harness-architecture-map.md](../../docs/harness-architecture-map.md) before parallel doctrine greps.
+
 ## When you may skip
 
 - Operator says they're only editing unrelated code/docs with no operator/integrity context.

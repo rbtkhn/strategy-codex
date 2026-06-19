@@ -49,3 +49,5 @@ python3 scripts/runtime/grace_mar_runtime_worker.py --lens inbox-day --dry-run
 ```
 
 See `runtime/runtime-worker/README.md` for directory layout.
+
+**Related:** [afk-operator-boundary.md](runtime/afk-operator-boundary.md) · [harness-architecture-map.md](harness-architecture-map.md)
