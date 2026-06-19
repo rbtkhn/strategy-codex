@@ -4,24 +4,24 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `10`
+- Source files: `11`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (7), `substack-post` (2), `transcript` (1)
-- Source form mix: `interview` (7), `newsletter` (2), `solo` (1)
-- Distinct channels/shows: `5`
-- Distinct hosts: `3`
+- Body kind mix: `cleaned-transcript` (7), `substack-post` (3), `transcript` (1)
+- Source form mix: `interview` (7), `newsletter` (3), `solo` (1)
+- Distinct channels/shows: `6`
+- Distinct hosts: `4`
 - Distinct guests: `7`
 - Distinct threads: `10`
 
 ## Channel / Show Rollup
 
-- `Dialogue Works` (5), `escalationtrap.substack.com` (2), `Alexander Mercouris` (1), `Breaking Points` (1), `Mario Nawfal` (1)
+- `Dialogue Works` (5), `escalationtrap.substack.com` (2), `Alexander Mercouris` (1), `Breaking Points` (1), `Mario Nawfal` (1), `tritaparsi.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (5), `Robert Pape` (2), `Breaking Points` (1)
+- Hosts: `Nima Alkhorshid` (5), `Robert Pape` (2), `Breaking Points` (1), `Trita Parsi` (1)
 - Guests: `Larry Johnson` (2), `Anthony Aguilar` (1), `Matthew Hoh` (1), `Pepe Escobar` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1)
-- Threads: `nima` (5), `pape` (3), `johnson` (2), `aguilar` (1), `escobar` (1), `hoh` (1), `marandi` (1), `mercouris` (1), `nawfal` (1), `parsi` (1)
+- Threads: `nima` (5), `pape` (3), `johnson` (2), `parsi` (2), `aguilar` (1), `escobar` (1), `hoh` (1), `marandi` (1), `mercouris` (1), `nawfal` (1)
 
 ## Ingest register
 
@@ -39,6 +39,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 | Robert Pape | Breaking Points | `pape` | [s88aryNUMhE](https://www.youtube.com/watch?v=s88aryNUMhE) |
 | Robert Pape | escalationtrap.substack.com | `pape` | [watch](https://escalationtrap.substack.com/p/day-60) |
 | Robert Pape | escalationtrap.substack.com | `pape` | [watch](https://escalationtrap.substack.com/p/stage-iv-begins-inside-the-bloombergs) |
+| Trita Parsi | tritaparsi.substack.com | `parsi` | [watch](https://tritaparsi.substack.com/p/trump-the-democrats-and-the-courage) |
 
 ## Files
 
@@ -52,3 +53,4 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 - `source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md`
 - `source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md`
 - `source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md`
+- `source-parsi-trump-democrats-courage-end-failed-war-2026-06-17.md`
