@@ -33,6 +33,12 @@ Maturing interpretive chapters — open after Civilization and Empire:
 | Secret-history | [secret-history-rome.md](secret-history-rome.md) |
 | Game-theory | [game-theory-rome.md](game-theory-rome.md) |
 
+## Routing essays
+
+| Essay | File | Role |
+|-------|------|------|
+| Connectivity Rome | [connectivity-rome.md](connectivity-rome.md) | Six-term membrane · cross-read matrix · segment anchor index |
+
 ## Keep at volume root
 
 | File | Why |

@@ -25,6 +25,7 @@ Primary source base: Rome source corpus
 - Volume-local theory: `rome-{term}.md` — orchestrated from [whole-work theory](../../theory/README.md) (Roman law mirror pilot)
   - [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
   - [rome-faith](rome-faith.md) · [rome-science](rome-science.md) · [rome-memory](rome-memory.md)
+- Term connectivity (six-term membrane): [Connectivity Rome](essays/connectivity-rome.md)
 - Continuity state: Eastern Roman Empire as the indispensable continuity state
 
 **Civilization-State Diagnostic**
