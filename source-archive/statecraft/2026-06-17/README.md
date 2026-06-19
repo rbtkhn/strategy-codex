@@ -9,7 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Body kind mix: `cleaned-transcript` (7), `substack-post` (1), `transcript` (1)
 - Source form mix: `interview` (7), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `5`
-- Distinct hosts: `4`
+- Distinct hosts: `3`
 - Distinct guests: `7`
 - Distinct threads: `10`
 
@@ -19,7 +19,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Nima Alkhorshid` (5), `Alexander Mercouris` (1), `Breaking Points` (1), `Robert Pape` (1)
+- Hosts: `Nima Alkhorshid` (5), `Breaking Points` (1), `Robert Pape` (1)
 - Guests: `Larry Johnson` (2), `Anthony Aguilar` (1), `Matthew Hoh` (1), `Pepe Escobar` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1)
 - Threads: `nima` (5), `johnson` (2), `pape` (2), `aguilar` (1), `escobar` (1), `hoh` (1), `marandi` (1), `mercouris` (1), `nawfal` (1), `parsi` (1)
 
@@ -29,7 +29,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 
 | Guest / voice | Show | Thread | YouTube |
 | --- | --- | --- | --- |
-| Alexander Mercouris | Mercouris | `mercouris` | [I9CnSQlcmU4](https://www.youtube.com/watch?v=I9CnSQlcmU4) |
+| Mercouris | Mercouris | `mercouris` | [I9CnSQlcmU4](https://www.youtube.com/watch?v=I9CnSQlcmU4) |
 | Anthony Aguilar | Dialogue Works | `aguilar`, `nima` | [P1ZvwC2YWtI](https://www.youtube.com/watch?v=P1ZvwC2YWtI) |
 | Larry Johnson, Seyed M. Marandi | Dialogue Works | `johnson`, `marandi`, `nima` | [pDVwed9QDRk](https://www.youtube.com/watch?v=pDVwed9QDRk) |
 | Larry Johnson | Dialogue Works | `johnson`, `nima` | [enmrP08J_Fo](https://www.youtube.com/watch?v=enmrP08J_Fo) |
