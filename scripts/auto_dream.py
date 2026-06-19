@@ -1272,7 +1272,7 @@ def main() -> int:
     parser.add_argument("--json", action="store_true", help="Emit JSON summary")
     parser.add_argument("--dry-run", action="store_true", help="Do not write self-memory, derived digest, or events")
     parser.add_argument("--no-event", action="store_true", help="Skip pipeline-events emission")
-    parser.add_argument("--no-runtime/artifacts", action="store_true", help="Skip contradiction artifact draft writes")
+    parser.add_argument("--no-artifacts", action="store_true", help="Skip contradiction artifact draft writes")
     parser.add_argument("--strict", action="store_true", help="Use strict maintenance semantics and fail fast on checks")
     parser.add_argument(
         "--cursor-model",
