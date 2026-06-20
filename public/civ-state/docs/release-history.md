@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.48** — Source-bearing expansion: Rome civic-chain four (genesis, republic, caesar, augustus) — ~2,500-word bodies with ~20% woven primary/pre-modern quotation; template + reader-guide + `civ-state-essay` v0.2.0 gates; `check_civ_state_essay_prose.py`.
+
 **v0.1.47** — Geo-strategic prose pass: Rome genesis, republic, caesar, augustus — place-as-power narration, causal constraints, de-schematic body language; template + reader-guide geo-strategic doctrine.
 
 **v0.1.46** — Civic-chain expansion: Rome genesis, republic, caesar, augustus expanded to ~1,850–2,150 words body each — new sections (Gaul; Peace/Religion; Gallic rebuild split), deeper Punic/province/Social War and settlement/succession narration; appended primary footnotes; template + reader-guide length guidance.
@@ -33,6 +35,14 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.48 — source-bearing expansion (civic-chain four)
+
+| Change | Detail |
+|--------|--------|
+| Civic-chain `.md` bodies | Genesis, republic, caesar, augustus — ~2,500 words body each; ~450–550 quoted words woven at section turns (Polybius, Livy, Suetonius, Res Gestae 34, Tacitus, etc.) |
+| `civ-state-essay-template.md` · `reader-guide.md` | 2,500 / 20% quotation gates; Gibbon/Mommsen allowed only inside `"…"`; central quotes in body, locators in Notes |
+| `civ-state-essay` skill v0.2.0 | Quoted-word band + quote-ratio QA; `check_civ_state_essay_prose.py` wired in CURSOR_APPENDIX |
 
 ### v0.1.47 — geo-strategic prose pass (civic-chain four)
 

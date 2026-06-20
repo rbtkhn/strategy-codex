@@ -15,30 +15,26 @@ Cursor-only wiring for [civ-state-essay/SKILL.md](../../../skills/civ-state-essa
 
 Other volumes: start at `public/civ-state/volumes/{vol}/essays/README.md` before editing.
 
-## QA recipe (until `check_civ_state_essay_prose.py` exists)
+## QA — civic-chain prose check
 
-**Civic-chain word band + schematic grep** — one essay path per invocation:
+**Primary gate:** `scripts/check_civ_state_essay_prose.py`
 
 ```powershell
-python -c "
-import re, sys
-path = sys.argv[1]
-text = open(path, encoding='utf-8').read()
-body = text.split('## Notes')[0] if '## Notes' in text else text
-words = len(re.findall(r'\b\w+\b', body))
-print(f'body_words={words}')
-ban = r'\b(grammar|hinge|apparatus|sequence|strain|proof|logic|stacks|substrate|nullification|machinery|shell)\b'
-hits = [(i+1, ln.strip()) for i, ln in enumerate(body.splitlines()) if re.search(ban, ln, re.I)]
-print('schematic_hits=', len(hits))
-for n, ln in hits[:12]: print(f'  L{n}: {ln[:100]}')
-" public/civ-state/volumes/rome/essays/essay-rome-genesis.md
+python scripts/check_civ_state_essay_prose.py --rome-civic-chain-four
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-genesis.md
 ```
 
-**Modern surnames (body):** grep body only for Gibbon, Mommsen, Syme, Goldsworthy, Everitt, Durant — must be Notes-only.
+Reports: `body_words`, `quoted_words`, `quote_pct`, `authorial_words`, schematic hits, modern-surname violations (Gibbon/Mommsen allowed only inside `"…"`), footnote resolution.
+
+**Bands (civic-chain-rome-v2):** body 2,400–2,600 · quoted 450–550 · ~18–22% quote ratio.
+
+**Inline fallback** (one path only, if script unavailable):
+
+```powershell
+python -c "import re,sys; p=sys.argv[1]; t=open(p,encoding='utf-8').read(); b=t.split('## Notes')[0]; q=sum(len(re.findall(r'\b\w+\b',s)) for s in re.findall(r'\"([^\"]+)\"',b)); w=len(re.findall(r'\b\w+\b',b)); print(f'body={w} quoted={q} pct={q/w*100:.1f}')" public/civ-state/volumes/rome/essays/essay-rome-genesis.md
+```
 
 **Footnotes:** every `[^n]` in body resolves in `## Notes`.
-
-**Future hook (v1 documents only):** `scripts/check_civ_state_essay_prose.py` — wire when Persia/China civic-chain pass reuses Rome QA.
 
 ## Validate and publish
 
