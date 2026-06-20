@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.41** — Volume README essay-template boilerplate: China, Persia, Russia, America (+ volume map, Rome) point at `civ-state-essay-template.md` before `essays/` folders exist.
+
 **v0.1.40** — Essay template SSOT: remove `_template-essay-rome.md`; all reader-facing essays use [civ-state-essay-template.md](../templates/civ-state-essay-template.md) only; Rome meta sidecar unchanged.
 
 **v0.1.39** — Rome civic-chain standalone prose pass: remove implicit metadata voice and internal body links from genesis, republic, caesar, augustus; historical argument only in essay bodies.
@@ -19,6 +21,13 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.41 — volume README essay-template boilerplate
+
+| Change | Detail |
+|--------|--------|
+| `volumes/{china,persia,russia,america}/README.md` | **New interpretive essays** → `civ-state-essay-template.md` |
+| `volumes/README.md` · `volumes/rome/README.md` | Cross-volume + Rome parity pointers |
 
 ### v0.1.40 — essay template SSOT consolidation
 

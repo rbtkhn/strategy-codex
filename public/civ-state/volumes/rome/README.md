@@ -6,6 +6,8 @@ Rome is currently a source-memory volume rather than a full repo-root lane peer.
 
 **Source-lattice:** [Rome source shelf](../../sources/rome/README.md) · [Source-Lattice](../../sources/source-lattice.md)
 
+**New interpretive essays:** [civ-state-essay-template.md](../../templates/civ-state-essay-template.md) — reader SSOT · meta sidecar [_template-essay-rome.meta.yaml](essays/_template-essay-rome.meta.yaml) · lattice [essays/README.md](essays/README.md).
+
 Read [Pax Romana](../../docs/introduction.md) for the volume entry. Transformed continuity case: sovereignty through republic, empire, Eastern Roman bridge, and Catholic residue — not one uninterrupted territorial state.
 
 Primary source base: Rome source corpus

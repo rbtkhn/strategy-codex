@@ -6,6 +6,8 @@ Persia is the civilizational title of the live Persia lane. Use this volume when
 
 **Source-lattice:** [Persia source shelf](../../sources/persia/README.md) · [Source-Lattice](../../sources/source-lattice.md)
 
+**New interpretive essays:** [civ-state-essay-template.md](../../templates/civ-state-essay-template.md) — single reader SSOT for all volumes (title · lede · body · Scholarship · Notes); standalone historical prose, no routing scaffold in reader files. Doctrine: [Reader Guide — Essay vs meta](../../docs/reader-guide.md#essay-vs-meta-sidecar-rome-essay-rome-pilot). Rome lattice pilot: [essays/README.md](../rome/essays/README.md).
+
 Read [Order of Asha](../../docs/introduction.md) for the volume entry. Cyrus-founded chain with deeper Zoroastrian grammar; Islamic and Shi'a transformation without civilizational erasure.
 
 Primary live lane: Persia statecraft lane

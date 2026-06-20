@@ -6,6 +6,8 @@ Russia is a live lane-backed volume. Use it when the problem is strategic depth,
 
 **Source-lattice:** [Russia source shelf](../../sources/russia/README.md) · [Source-Lattice](../../sources/source-lattice.md)
 
+**New interpretive essays:** [civ-state-essay-template.md](../../templates/civ-state-essay-template.md) — single reader SSOT for all volumes (title · lede · body · Scholarship · Notes); standalone historical prose, no routing scaffold in reader files. Doctrine: [Reader Guide — Essay vs meta](../../docs/reader-guide.md#essay-vs-meta-sidecar-rome-essay-rome-pilot). Rome lattice pilot: [essays/README.md](../rome/essays/README.md).
+
 Read [The Third Rome](../../docs/introduction.md) for the volume entry. Sovereignty chain from Rurik through regathering after recurrent fracture — not uninterrupted institutional calm.
 
 Primary live lane: Russia statecraft lane

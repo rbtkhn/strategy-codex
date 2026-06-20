@@ -32,6 +32,8 @@ The whole work opens with [Civilization and Empire](../docs/introduction.md) (op
 
 Then optional sub-lenses: geo-strategy, secret-history, game-theory.
 
+**New interpretive essays (all volumes):** [civ-state-essay-template.md](../templates/civ-state-essay-template.md) — reader SSOT; routing/deferrals in `.meta.yaml` sidecars when a volume grows an `essays/` lattice (Rome pilot: [rome/essays/README.md](rome/essays/README.md)).
+
 ## Volume-local theory
 
 Each volume will carry **six** volume-local theory files as `{civ}-{term}.md` in the volume directory — **orchestrated from** the [whole-work theory shelf](../theory/README.md).

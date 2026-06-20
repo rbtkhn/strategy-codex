@@ -6,6 +6,8 @@ China is a live lane-backed volume. Use it when the civilizational problem is or
 
 **Source-lattice:** [China source shelf](../../sources/china/README.md) · [Source-Lattice](../../sources/source-lattice.md)
 
+**New interpretive essays:** [civ-state-essay-template.md](../../templates/civ-state-essay-template.md) — single reader SSOT for all volumes (title · lede · body · Scholarship · Notes); standalone historical prose, no routing scaffold in reader files. Doctrine: [Reader Guide — Essay vs meta](../../docs/reader-guide.md#essay-vs-meta-sidecar-rome-essay-rome-pilot). Rome lattice pilot: [essays/README.md](../rome/essays/README.md).
+
 Read [Mandate of Heaven](../../docs/introduction.md) for the volume entry. Strong civilization-state case: dynastic continuity whose mandate grammar survives rupture and culminates in the PRC as present carrier.
 
 Primary live lane: China statecraft lane
