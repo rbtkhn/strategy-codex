@@ -38,13 +38,11 @@ Athens concentrates culture and participatory legitimacy in one maritime democra
 
 Alexander universalizes conquest and charisma—and **fragments** at death. The Diadochi inherit armies, not institutions. Rome's later choice, visible even in this formation period as foreshadow, is **institution over charisma**: forms that survive the founder.
 
-Scholarship clarifiers (Durant, Everitt, Goldsworthy) support this horizon in the table below—comparative framing, not chronicle.
-
 ## Romulus, kings, and the Etruscan layer
 
 Regal Rome is **synthesis at a seam**—Latin, Etruscan, Sabine—held by sacral city-boundary rather than modern nationality.
 
-Livy frames the regal past as **exempla**: history as conspicuous monument, teaching profit from every kind of experience.[^1] That method makes kings **instructive memory**, not contemporary politics. Gibbon, reading Livy across centuries, catches the same function: by recalling ancient virtues, the annalist teaches citizens to lament what they can no longer imitate—**moral archive**, not newspaper.[^2]
+Livy frames the regal past as **exempla**: history as conspicuous monument, teaching profit from every kind of experience.[^1] That method makes kings **instructive memory**, not contemporary politics. By recalling ancient virtues, the annalist teaches citizens to lament what they can no longer imitate—**moral archive**, not newspaper.[^2]
 
 Romulus and Remus belong to the Tiber's mythic geography: exposure, site choice at crossing, the **pomerium**—law as sacred enclosure of the city.[^3] Kingship follows as **Etruscan-layer** prestige: engineering, ritual, urban order. Rome is **learner** at the regal stage, not pure autochthon.
 
@@ -80,7 +78,7 @@ Consuls, tribunes, the Conflict of Orders **named**—not narrated at campaign l
 
 Aristotle's mixed constitution theory: the middle class and middle-ground regime endure because they stand between extremes.[^12] Polybius, writing after Rome's Mediterranean rise, supplies **later diagnosis** of the pattern early habits made possible—not evidence that Romans consciously designed a mixed constitution in 509–390 BC.[^13] He reads people, senate, magistrates balanced so that no part plainly dominates. Polybius's later Book VI diagnosis belongs to Rome after Mediterranean rise.
 
-Civic militarism seeds early: Romans fight for honor, liberty, safety—not mercenary pay alone.[^14] Scholarship (Goldsworthy, Everitt) supports the ethic without replacing Livy.
+Civic militarism seeds early: Romans fight for honor, liberty, safety—not mercenary pay alone.[^14]
 
 **c. 390** marks the close: Gauls sack the city; recovery is debated—relocate to Veii or rebuild? The people vote to **rebuild**.[^16] No king returns; the republic survives by choosing the harder urban continuity. Endurance is proof of form.
 

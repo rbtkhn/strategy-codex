@@ -4,6 +4,8 @@
 
 <!-- Standalone prose: body (before ## Scholarship) must not use essay-rome-* links, chain/defer voice ("what essay-X proved", "chain continues", "defer belongs to"), essay-self voice ("The essay stacks/closes"), or internal markdown links to peer essays/sub-lenses. State history directly; each essay readable alone. -->
 
+<!-- Citation doctrine: modern secondary sources (including Gibbon, Mommsen, Syme, Goldsworthy, etc.) must not appear as named authorities in body prose. They belong in footnotes and Scholarship table. Body = authorial synthesis + ancient/medieval/official voices; pattern: [authorial claim][^n]. -->
+
 <!-- Rome essay-rome nodes (volume-local only — same reader scaffold as all volumes):
      H1: {Topic} — one word; no volume suffix (volume is implicit from path)
      File: essay-rome-{slug}.md

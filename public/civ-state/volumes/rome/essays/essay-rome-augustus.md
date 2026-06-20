@@ -6,7 +6,7 @@ After the Ides, Octavian inherited Caesar's name and enemies, not Caesar's autho
 
 Augustus built a monarchy that refused the name of monarchy. Republican offices remained, senatorial honors continued, and the language of restoration endured; but sovereignty had migrated into tribunician power, proconsular command, military control, and the prestige of the *princeps*. The result was not a restored republic, but a durable settlement that taught Rome how to accept one-man rule without admitting it had done so.
 
-Syme's structural read leads: a **revolution disguised as restoration**.[^3] Mommsen names the shell: republican **form**, monarchic **substance**.[^4] Gibbon and Tacitus record the bargain—security preferred to participation; constitutional **forms** reconcile lost *libertas*.[^5][^6] Durant supplies one civilizational clause: competent administration built to outlast the man—not spectacle.[^7]
+The settlement announced restoration, but its machinery made one-man rule durable behind republican language.[^3] Republican **form** persisted; monarchic **substance** had already moved beneath it.[^4] Tacitus records the bargain: when the old constitution was gone, foremost men **accepted the new order**; the mass preferred **present security** to past peril.[^6] Romans learned to accept a monarch without resigning the **name and ensigns of freedom**; long tranquillity reconciled the loss of ancient liberty.[^5] Peace brought competent administration built to outlast the man—not spectacle.[^7]
 
 ## Vacancy — name without authority
 
@@ -20,21 +20,21 @@ The Second Triumvirate is **one sentence**: private pact, proscription, civil wa
 
 Philippi and Actium belong in **one paragraph**, not a chronicle. Dio closes the Brutus arc: after the second battle, Brutus **falls on his sword**—the stake was whether **liberty and popular government** could survive at all, not which faction held the better roster.[^13] At Actium, Cleopatra **raises the flight signal**; Antony follows; fire and pursuit decide what deliberation cannot—naval **decision**, not eastern romance.[^14] Suetonius compresses the sea-fight: Antony declared enemy, Octavian **won at Actium** and passed the night on board.[^15]
 
-Everitt's anti-Caesar lesson applies: force was **necessary to win the state**, but peace required force to **disappear from view** as quickly as possible—no visible master over Roman political life.[^1] Antony and Cleopatra receive **one line** here.
+Force was **necessary to win the state**, but peace required force to **disappear from view** as quickly as possible—no visible master over Roman political life.[^1] Antony and Cleopatra receive **one line** here.
 
 Rivals eliminated, **concealment** could begin.
 
 ## Settlement — restoration rhetoric
 
-In his own account, after extinguishing civil wars Augustus **transferred the republic** to the dominion of Senate and people—and received the name **Augustus** by senatorial decree.[^16] Mommsen reads beneath the rhetoric: the constitution was republican in **form**, monarchic in **substance**; the republic survived only as the **shell** within which a monarch ruled.[^4]
+In his own account, after extinguishing civil wars Augustus **transferred the republic** to the dominion of Senate and people—and received the name **Augustus** by senatorial decree.[^16] Beneath the rhetoric, the constitution remained republican in **form** and monarchic in **substance**; the republic survived only as the **shell** within which a monarch ruled.[^4]
 
 Suetonius records the psychology of disguise: Augustus **twice thought of restoring the republic**, yet kept power because retirement seemed unsafe and the state could not be trusted to the many; his edict promised foundations that would **remain unshaken**.[^17] Horace's *Carmen Saeculare* ratifies the same order in **public cult**—Faith and Peace **dare return**.[^18] Ovid's *Fasti* performs the same restoration in **sacred time**—August honored in the calendar as reordering civic ritual, pairing Horace's public cult.[^23] Restoration is **performed**, not merely argued.
 
 ## Principate — power without crown
 
-Syme's revolution **disguised as restoration** becomes machinery: tribunician power, proconsular *imperium*, *princeps* as **first citizen**—offices without a crown, sovereignty without a king's name. Tacitus names the bargain: when the old constitution was gone, foremost men **accepted the new order**; the mass preferred **present security** to past peril.[^6] Velleius Paterculus, the insider loyalist, names the settlement differently: Augustus restored dignity and universal peace; the state was **saved**, not merely deprived of liberty—a counterweight to critical memory.[^22] Gibbon generalizes: Romans received a **monarch** without resigning the **name and ensigns of freedom**; long tranquillity reconciled the loss of ancient liberty.[^5]
+Restoration rhetoric became **machinery**: tribunician power, proconsular *imperium*, *princeps* as **first citizen**—offices without a crown, sovereignty without a king's name.[^3] Tacitus names the bargain: when the old constitution was gone, foremost men **accepted the new order**; the mass preferred **present security** to past peril.[^6] Velleius Paterculus, the insider loyalist, names the settlement differently: Augustus restored dignity and universal peace; the state was **saved**, not merely deprived of liberty—a counterweight to critical memory.[^22] Romans received a **monarch** without resigning the **name and ensigns of freedom**; long tranquillity reconciled the loss of ancient liberty.[^5]
 
-Virgil sponsors the same order as **fated mission**—*imperium sine fine* on the shield of Roman rule, epic legitimation complementing constitutional disguise.[^19] Everitt's contrast holds: Caesar ruled **openly** and was destroyed; Augustus ruled **indirectly** and taught Rome how monarchy could survive by **never admitting its existence**.[^1] Durant's synthesis—competent statesmanship, Pax as governing achievement—clarifies without replacing the primary spine.[^7]
+Virgil sponsors the same order as **fated mission**—*imperium sine fine* on the shield of Roman rule, epic legitimation complementing constitutional disguise.[^19] Caesar had ruled **openly** and been destroyed; Augustus ruled **indirectly** and taught Rome how monarchy could survive by **never admitting its existence**.[^1] Durable peace rested on competent statesmanship and administration—not spectacle alone.[^7]
 
 This is **anti-Caesar** in form: not less power, but power **denied rhetorically**. Epic substrate was already laid in Rome's founding memory—Troy, duty, founding through loss; Augustus inherits that grammar without reopening the mythic archive here.
 

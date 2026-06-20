@@ -194,6 +194,8 @@ Some volume interpretive nodes split **reader-facing prose** from **editor/machi
 
 **Reader essay SSOT (all volumes):** [civ-state-essay-template.md](../templates/civ-state-essay-template.md) — no volume-specific reader template overlays.
 
+**Citation doctrine:** Modern secondary sources may shape interpretation but must not appear as named authorities in essay body prose (before `## Scholarship`). They belong in footnotes and the Scholarship table. Verbatim body quotation comes primarily from ancient, medieval, or official sources. Pattern: authorial claim in prose, modern support below the line — `[claim][^n]`.
+
 ## What This Work Must Prevent
 
 It must prevent five errors:

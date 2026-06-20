@@ -4,7 +4,7 @@ Around **390 BC** Gauls burned Rome; the city **rebuilt without kings**. Rome ha
 
 The republican arc stacks **alliance** (treaty federation), **constitution** (mixed government, public law), and **command** (Punic survival, provincial *imperium*, material order) into one proof—then **tests** it when armies, citizenship, and elite competition outrun collegial habit.
 
-Polybius supplies structure; Livy supplies moral memory; Gibbon names what happens when exempla fade. By the end of this period, republican form is visibly strained—rival generals, shifting legion loyalties—not yet autocracy.
+Polybius supplies structure; Livy supplies moral memory; when **exempla** fade, moral instruction thins into lament for virtues citizens can no longer imitate.[^3] By the end of this period, republican form is visibly strained—rival generals, shifting legion loyalties—not yet autocracy.
 
 ## Italian federation after 390
 
@@ -12,7 +12,7 @@ What survival proved at **c. 390**, federation must now prove at peninsula scale
 
 **Pyrrhus** brings Hellenistic kingship against the legion—brilliant, theatrical, **without transmission**. Plutarch catches the moral: one more such victory and the king is undone.[^1] Rome wins by **attrition and alliance**, institution over charisma again. Greek kingship mirrors Alexander's universalism without durable form; Rome keeps the legion and the treaty network.
 
-Livy's republican books train **exempla** under expansion—discipline, oath, shared sacrifice.[^2] Gibbon reads the same archive across centuries: the annalist recalls virtues citizens can no longer imitate—**moral memory**, not chronicle alone.[^3]
+Livy's republican books train **exempla** under expansion—discipline, oath, shared sacrifice.[^2] The annalist recalls virtues citizens can no longer imitate—**moral memory**, not chronicle alone.[^3]
 
 Roads bind the peninsula: censor Appius Claudius paves the Appian Way and brings the Aqua Appia—public utility as sovereignty argument.[^4] Federation is **material** as well as legal: allies linked by *viae* as well as oaths.
 
@@ -22,7 +22,7 @@ Much of this deepening **precedes and runs parallel with** outward federation—
 
 Cicero states the republican ideal: the state exists for the **common good**; office is trust.[^6] *De Officiis* sharpens the ethic: those who administer the republic must serve justice, not private advantage.[^7]
 
-Aristotle's middle-regime theory names why mixed forms endure—they stand between extremes.[^8] Here the theory **works under expansion**: consuls lead armies; senate allocates provinces; assemblies ratify war and law. Not Athens' democratic theater (Everitt, *The Rise of Athens*)—not Macedonian monarchy—**collegial endurance**.
+Aristotle's middle-regime theory names why mixed forms endure—they stand between extremes.[^8] Here the theory **works under expansion**: consuls lead armies; senate allocates provinces; assemblies ratify war and law. Not maritime democratic theater—not Macedonian monarchy—**collegial endurance**.
 
 ## Polybius VI — mixed constitution at work
 
