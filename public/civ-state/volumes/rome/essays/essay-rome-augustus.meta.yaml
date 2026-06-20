@@ -1,0 +1,80 @@
+title: Augustus (Rome)
+volume: rome
+essay_id: augustus
+status: active
+period: "44 BC–AD 14"
+tier: civic-chain
+hex_link: republic-principate
+standalone: true
+
+role:
+  type: standalone institutionalizer essay
+  function: post-Ides vacancy through civil-war elimination, 27 BC settlement, princeps disguise, succession without fixed law
+  chain_position: institutionalizer — personal command becomes durable constitutional disguise
+  opens_after: essay-rome-caesar.md
+  closes_before: rome-empire.md
+
+where_this_sits: |
+  Essay-rome · tier civic-chain · hex_link republic-principate. 44 BC–AD 14 — not Julio-Claudian roster or empire chronicle. Opens where caesar closes (Ides failed restoration; Octavian inherits name, not authority). Closes where rome-empire owns emperor roster and outward imperial chronicle.
+
+proves_here:
+  - post-Ides legitimacy vacuum
+  - Philippi + Actium (one merged paragraph)
+  - 27 BC settlement — Res Gestae anchor
+  - princeps disguise — offices without sovereignty
+  - peace bargain (Tacitus + Gibbon)
+  - succession fragility
+  - anti-Caesar concealment
+
+defers_to:
+  hexagonal-republic-principate-rome.md:
+    - six-pass blocks
+  rome-empire.md:
+    - AD reign administrative catalogue
+    - full emperor roster
+    - Julio-Claudian · Nero
+    - moral-legislation catalogue
+
+not_this_file:
+  - triumvirate annals
+  - empire roster SSOT
+  - hex six-pass reproduction
+  - Christian turn
+
+reading_posture_scope: |
+  Institutional settlement — when killing the dictator does not restore the republic, and the heir must empty collegial form of sovereignty while preserving its language. Standalone — complete without peer essays.
+
+membrane:
+  - transformation ≠ rupture
+  - defer rosters to term depth
+
+routing:
+  hub: connectivity-rome.md
+  registry: essay-rome.registry.yaml
+  peer_essays:
+    - essay-rome-caesar.md
+    - essay-rome-republic.md
+    - essay-rome-genesis.md
+  hex_frame: hexagonal-republic-principate-rome.md
+  term_depth:
+    - ../rome-memory.md#chain-spine
+    - ../rome-empire.md#sovereignty-chain-empire-lens
+    - ../rome-civilization.md#sovereignty-chain-civilization-lens
+  constitutional:
+    - civilization-rome.md
+    - empire-rome.md
+  sources:
+    - ../../../sources/rome/primary/ancient.md
+    - ../../../sources/rome/secondary/ancient.md
+    - ../shelf-reader.md
+  sub_lens: []
+  return_path:
+    - connectivity-rome.md
+    - hexagonal-republic-principate-rome.md
+    - essay-rome-caesar.md
+    - ../rome-empire.md
+    - ../rome-memory.md
+    - README.md
+    - ../README.md
+
+close_when: one-man rule is disguised as restoration — not when the empire roster begins
