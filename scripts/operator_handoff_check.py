@@ -461,11 +461,45 @@ def _active_thread(meaningful_changes: list[str], gate_pending: int, politics_bl
     )
 
 
-def build_fast_receipt(user_id: str = "strategy-codex") -> str:
+def build_agent_turn_discipline_lines(*, skip: bool = False, last_turns: int = 30) -> list[str]:
+    """Optional scan of latest Cursor agent transcript for parallel tool violations."""
+    if skip:
+        return []
+    try:
+        from check_agent_turn_discipline import find_latest_transcript, format_markdown_lines, scan_transcript
+    except ImportError:
+        try:
+            from scripts.check_agent_turn_discipline import (  # type: ignore
+                find_latest_transcript,
+                format_markdown_lines,
+                scan_transcript,
+            )
+        except ImportError:
+            return [
+                "## Agent turn discipline",
+                "",
+                "- **Scan:** skipped — `check_agent_turn_discipline` import failed",
+                "",
+            ]
+
+    path = find_latest_transcript(project_slug="strategy-codex")
+    if path is None:
+        return [
+            "## Agent turn discipline",
+            "",
+            "- **Scan:** no Cursor agent transcript found under `~/.cursor/projects/*strategy-codex*`",
+            "",
+        ]
+    report = scan_transcript(path, last_turns=last_turns)
+    return format_markdown_lines(report)
+
+
+def build_fast_receipt(user_id: str = "strategy-codex", *, skip_discipline: bool = False) -> str:
     """Ship receipt only — fewer git calls, no lane snapshots."""
     _ = user_id
     lines = ["# Handoff check (fast)", ""]
     lines.extend(build_ship_receipt(skip_origin_main=True))
+    lines.extend(build_agent_turn_discipline_lines(skip=skip_discipline))
     lines.extend(
         [
             "",
@@ -478,9 +512,11 @@ def build_fast_receipt(user_id: str = "strategy-codex") -> str:
     return "\n".join(lines)
 
 
-def build_handoff_check(user_id: str = "strategy-codex", *, fast: bool = False) -> str:
+def build_handoff_check(
+    user_id: str = "strategy-codex", *, fast: bool = False, skip_discipline: bool = False
+) -> str:
     if fast:
-        return build_fast_receipt(user_id=user_id)
+        return build_fast_receipt(user_id=user_id, skip_discipline=skip_discipline)
     user_dir = USERS_DIR / user_id
     recursion_gate = _read(user_dir / "recursion-gate.md")
     evidence = _read(user_dir / "self-archive.md") or _read(user_dir / "self-evidence.md")
@@ -542,6 +578,7 @@ def build_handoff_check(user_id: str = "strategy-codex", *, fast: bool = False) 
             recent_commits=recent_commits,
         )
     )
+    lines.extend(build_agent_turn_discipline_lines(skip=skip_discipline))
     lines.extend(build_singularity_intake_nudge(status_lines))
 
     lines.extend(["", "## Local work still in progress", ""])
@@ -608,8 +645,19 @@ def main() -> int:
         dest="fast",
         help="Alias for --fast.",
     )
+    parser.add_argument(
+        "--no-discipline",
+        action="store_true",
+        help="Skip agent turn discipline scan (Cursor transcript parallel-tool check).",
+    )
     args = parser.parse_args()
-    print(build_handoff_check(user_id=args.user, fast=args.fast))
+    print(
+        build_handoff_check(
+            user_id=args.user,
+            fast=args.fast,
+            skip_discipline=args.no_discipline,
+        )
+    )
     return 0
 
 

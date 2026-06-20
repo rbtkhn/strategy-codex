@@ -186,6 +186,10 @@ When the emulated self encounters a topic outside its documented knowledge, it m
 
 Nothing enters the Record without being written and approved. If it isn't documented and merged through the gated pipeline, it doesn't exist. See CONCEPTUAL-FRAMEWORK invariant 25.
 
+### 10a. Agent turn discipline (Windows harness)
+
+On the Windows Cursor harness, treat **parallel agent tools as forbidden by default** — they cause multi-minute stalls and failed writes, not speedups. **One agent turn:** at most **one** write path (`StrReplace` / `Write` / in-process sequential patch per file) and **one** `Shell` (chain subcommands with `;` inside it). Do **not** batch parallel `Shell` calls, parallel `StrReplace` on one file, or `Read`+write on the same path in the same turn. Operator bypass for that turn only: **`parallel ok`**. Observability: `python scripts/check_agent_turn_discipline.py --latest` and `python scripts/operator_handoff_check.py --fast` (§ Agent turn discipline). SSOT: [agent-tool-latency-discipline.mdc](.cursor/rules/agent-tool-latency-discipline.mdc) · RLJ [parallel ban](statecraft/recursive-learning-journal.md#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship).
+
 ### 11. MEMORY (Self-memory â€” continuity, not Record)
 
 MEMORY (**self-memory**, canonical path `self-memory.md`; legacy `memory.md` still read until migrated â€” see [canonical-paths.md](docs/canonical-paths.md)) holds **continuity context** at **short / medium / long** horizons (session â†’ weeks â†’ long-term **meta/pointers and process only** â€” see `docs/memory-template.md`). It is **mostly chronological** (time-ordered prose within those horizons). **EVIDENCE** (`self-archive.md`) is **also chronological** (dated spine across logs) but **more expansive** â€” **multicategory** (READ / WRITE / CREATE / ACT / media / Â§ VIII) and **multimodal** (structured entries, runtime/artifacts). MEMORY is **not part of the Record**; it is **narrower and mostly textual** than EVIDENCE.
