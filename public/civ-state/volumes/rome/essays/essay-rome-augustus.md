@@ -60,11 +60,11 @@ Transformation, not rupture: the **chain continues**; rivals are eliminated so *
 
 In his own account, after extinguishing civil wars Augustus **transferred the republic** to the dominion of Senate and people—and received the name **Augustus** by senatorial decree.[^16] Mommsen reads beneath the rhetoric: the constitution was republican in **form**, monarchic in **substance**; the republic survived only as the **shell** within which a monarch ruled.[^4]
 
-Suetonius records the psychology of disguise: Augustus **twice thought of restoring the republic**, yet kept power because retirement seemed unsafe and the state could not be trusted to the many; his edict promised foundations that would **remain unshaken**.[^17] Horace’s *Carmen Saeculare* ratifies the same order in **public cult**—Faith and Peace **dare return**.[^18] Restoration is **performed**, not merely argued.
+Suetonius records the psychology of disguise: Augustus **twice thought of restoring the republic**, yet kept power because retirement seemed unsafe and the state could not be trusted to the many; his edict promised foundations that would **remain unshaken**.[^17] Horace’s *Carmen Saeculare* ratifies the same order in **public cult**—Faith and Peace **dare return**.[^18] Ovid’s *Fasti* performs the same restoration in **sacred time**—August honored in the calendar as reordering civic ritual, pairing Horace’s public cult.[^23] Restoration is **performed**, not merely argued.
 
 ## Principate — power without crown
 
-Syme’s revolution **disguised as restoration** becomes machinery: tribunician power, proconsular *imperium*, *princeps* as **first citizen**—offices without a crown, sovereignty without a king’s name. Tacitus names the bargain: when the old constitution was gone, foremost men **accepted the new order**; the mass preferred **present security** to past peril.[^6] Gibbon generalizes: Romans received a **monarch** without resigning the **name and ensigns of freedom**; long tranquillity reconciled the loss of ancient liberty.[^5]
+Syme’s revolution **disguised as restoration** becomes machinery: tribunician power, proconsular *imperium*, *princeps* as **first citizen**—offices without a crown, sovereignty without a king’s name. Tacitus names the bargain: when the old constitution was gone, foremost men **accepted the new order**; the mass preferred **present security** to past peril.[^6] Velleius Paterculus, the insider loyalist, names the settlement differently: Augustus restored dignity and universal peace; the state was **saved**, not merely deprived of liberty—a counterweight to critical memory.[^22] Gibbon generalizes: Romans received a **monarch** without resigning the **name and ensigns of freedom**; long tranquillity reconciled the loss of ancient liberty.[^5]
 
 Virgil sponsors the same order as **fated mission**—*imperium sine fine* on the shield of Roman rule, epic legitimation complementing constitutional disguise.[^19] Everitt’s contrast holds: Caesar ruled **openly** and was destroyed; Augustus ruled **indirectly** and taught Rome how monarchy could survive by **never admitting its existence**.[^1] Durant’s synthesis—competent statesmanship, Pax as governing achievement—clarifies without replacing the primary spine.[^7]
 
@@ -72,7 +72,7 @@ This is **anti-Caesar** in form: not less power, but power **denied rhetorically
 
 ## Succession — inheritance without law
 
-The principate endured because Augustus **lived**; it lacked the legal machinery to endure because he **died**.[^20] Suetonius: at the height of confidence, **Fortune proved fickle**—Gaius and Lucius lost within eighteen months; adoption of Agrippa Postumus and Tiberius was **compulsion**, not a fixed design.[^21] Horace closes with a different monument: *Exegi monumentum aere perennius*—literary form claiming **durability beyond bronze**, tension with institutional fragility.[^22]
+The principate endured because Augustus **lived**; it lacked the legal machinery to endure because he **died**.[^20] Suetonius: at the height of confidence, **Fortune proved fickle**—Gaius and Lucius lost within eighteen months; adoption of Agrippa Postumus and Tiberius was **compulsion**, not a fixed design.[^21]
 
 The chain continues: **Tiberius** inherits a disguised monarchy, not a solved succession law. Hex-frame: [hexagonal-republic-principate](hexagonal-republic-principate-rome.md); empire roster: [rome-empire — sovereignty chain](../rome-empire.md#sovereignty-chain-empire-lens).
 
@@ -90,8 +90,10 @@ The chain continues: **Tiberius** inherits a disguised monarchy, not a solved su
 | Cicero, *Philippics* | Last republican thunder — Antony — see [^9] [^10] |
 | Cicero, *Ad Atticum* | Vacancy uncertainty — see [^11] |
 | Horace, *Carmen Saeculare* | Settlement sacral ratification — see [^18] |
+| Ovid, *Fasti* | Augustan sacred-time reordering — see [^23] |
 | Virgil, *Aeneid* VI | Principate legitimation — one clause — see [^19] |
-| Horace, *Odes* 3.30 | Succession — *exegi monumentum* — see [^22] |
+| Velleius Paterculus, *Roman History* | Loyalist counterweight to Tacitus — see [^22] |
+| Horace, *Odes* 3.30 | Succession — *exegi monumentum* — scholarship mention only |
 | Erich Gruen, *The Last Generation of the Roman Republic* | Counterweight — contested pre-49 memory |
 
 ## Notes
@@ -138,7 +140,9 @@ The chain continues: **Tiberius** inherits a disguised monarchy, not a solved su
 
 [^21]: Suetonius, *Divus Augustus* 65.1: at height of happiness Fortune proved fickle; Gaius and Lucius lost within eighteen months; compelled to leave the state not to fixed design but to chance and survivors’ discretion.
 
-[^22]: Horace, *Odes* 3.30.1–5: *Exegi monumentum aere perennius*—monument more lasting than bronze; literary durability beyond tomb.
+[^22]: Velleius Paterculus, *Roman History* II.89.3–6 (Augustus restores peace and dignity; *libertas* in name, *principatus* in fact; universal consent). *(Loyalist imperial voice—counterweight to Tacitus Ann. I.2.)*
+
+[^23]: Ovid, *Fasti* I.589–608 (August month; honors to Augustus). *(Augustan reordering of sacred time—pairs Carmen Saeculare.)*
 
 ## Links
 
