@@ -1,0 +1,80 @@
+title: Republic (Rome)
+volume: rome
+essay_id: republic
+status: active
+period: "Italian expansion through late Republic (~390–49 BC)"
+tier: civic-chain
+hex_link: republic-principate
+standalone: true
+
+role:
+  type: standalone republic essay
+  function: collegial office at Italian and Mediterranean scale through late republic strain
+  chain_position: runs political chain opener until institutional mutation foreshadowed, not settled
+  opens_after: essay-rome-genesis.md
+  closes_before: essay-rome-caesar.md
+
+where_this_sits: |
+  Essay-rome · tier civic-chain · hex_link republic-principate. After Gallic recovery through Rubicon threshold, not principate resolution. Optional peer genesis (formation through c. 390 BC). Republic is political chain opener (rome-memory chain spine).
+
+proves_here:
+  - Samnite · Pyrrhic · Punic arcs; Scipio answer
+  - full Conflict of Orders · Twelve Tables grammar
+  - Polybius VI exegesis · Hellenic assimilation at scale
+  - provinces · citizenship · roads/aqueducts habit
+  - Gracchi · Marius · Sulla · Pompey strain types
+
+defers_to:
+  hexagonal-republic-principate-rome.md:
+    - full six-pass transformation read
+  essay-rome-caesar.md:
+    - Caesar chronicle
+  essay-rome-augustus.md:
+    - Augustus chronicle · principate institutionalization
+
+not_this_file:
+  - constitutional Part 1 alone
+  - term rosters
+  - hex six-pass blocks
+  - principate as settled form
+
+reading_posture_scope: |
+  Italian federation, Punic ordeal, provincial and citizenship grammar, late republic strain from Gallic recovery to Rubicon threshold—not principate resolution. Standalone — complete without peer essays.
+
+membrane:
+  - empire overreach ≠ entropy
+  - transformation ≠ rupture
+  - defer rosters to term depth
+
+routing:
+  hub: connectivity-rome.md
+  registry: essay-rome.registry.yaml
+  peer_essays:
+    - essay-rome-genesis.md
+    - essay-rome-caesar.md
+    - essay-rome-augustus.md
+  hex_frame: hexagonal-republic-principate-rome.md
+  term_depth:
+    - ../rome-memory.md#chain-spine
+    - ../rome-civilization.md#sovereignty-chain-civilization-lens
+    - ../rome-empire.md#sovereignty-chain-empire-lens
+  constitutional:
+    - civilization-rome.md
+  sources:
+    - ../../../sources/rome/primary/ancient.md
+    - ../../../sources/rome/secondary/ancient.md
+    - ../shelf-reader.md
+  sub_lens:
+    - military-history-rome.md
+    - dual-language-heritage-rome.md
+    - geo-strategy-rome.md
+    - science-history-rome.md
+  return_path:
+    - connectivity-rome.md
+    - hexagonal-republic-principate-rome.md
+    - essay-rome-genesis.md
+    - ../rome-memory.md
+    - README.md
+    - ../README.md
+
+close_when: Mediterranean hegemony and constitutional strain are both legible — not when autocracy replaces collegial form
