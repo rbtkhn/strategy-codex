@@ -190,6 +190,8 @@ Some volume interpretive nodes split **reader-facing prose** from **editor/machi
 
 **Read the `.md` file** when you want the essay. **Open the sidecar or registry** when you need placement, peers, or deferrals. Civic-chain read order (when narrative continuity helps): genesis → republic → caesar → augustus — see [essay-rome.registry.yaml](../volumes/rome/essays/essay-rome.registry.yaml).
 
+**Standalone prose rule:** Essay bodies must read as if each file may be the only one opened—direct historical statements, no cross-essay dependency language or internal markdown links in interpretive prose (before `## Scholarship`). Chain logic lives in `.meta.yaml` and the registry, not in thesis sentences.
+
 ## What This Work Must Prevent
 
 It must prevent five errors:

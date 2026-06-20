@@ -1,12 +1,16 @@
 # Augustus (Rome)
 
-What [essay-rome-caesar](essay-rome-caesar.md) proved as **personalized command**, Augustus proves as **concealed command**—Caesar **displayed** power and was destroyed; Augustus **withdraws violence from view** once rivals are eliminated and teaches Rome that monarchy can survive by **never admitting its existence**.[^1] Goldsworthy frames the opening problem: Octavian inherited Caesar's **name and enemies**, not his **authority**—no one yet knew what legitimate power looked like or how it could transfer without renewed violence.[^2]
+Caesar had made personal command visible and paid for it with his life. Augustus learned the opposite lesson: one-man rule could survive only if it preserved republican language while withdrawing violence from view.
 
-Syme's structural read leads: a **revolution disguised as restoration**.[^3] The essay stacks vacancy → sequential elimination → settlement rhetoric → *princeps* machinery → succession test. Mommsen names the shell: republican **form**, monarchic **substance**.[^4] Gibbon and Tacitus record the bargain—security preferred to participation; constitutional **forms** reconcile lost *libertas*.[^5][^6] Durant supplies one civilizational clause: competent administration built to outlast the man—not spectacle.[^7]
+After the Ides, Octavian inherited Caesar's name and enemies, not Caesar's authority.[^2] The old republic could still denounce tyrants, name enemies, and invoke liberty, but it could no longer transfer legitimate power without violence. Philippi and Actium eliminated rival claims; the settlement of 27 BC turned victory into constitutional disguise.
+
+Augustus built a monarchy that refused the name of monarchy. Republican offices remained, senatorial honors continued, and the language of restoration endured; but sovereignty had migrated into tribunician power, proconsular command, military control, and the prestige of the *princeps*. The result was not a restored republic, but a durable settlement that taught Rome how to accept one-man rule without admitting it had done so.
+
+Syme's structural read leads: a **revolution disguised as restoration**.[^3] Mommsen names the shell: republican **form**, monarchic **substance**.[^4] Gibbon and Tacitus record the bargain—security preferred to participation; constitutional **forms** reconcile lost *libertas*.[^5][^6] Durant supplies one civilizational clause: competent administration built to outlast the man—not spectacle.[^7]
 
 ## Vacancy — name without authority
 
-[essay-rome-caesar](essay-rome-caesar.md) closes with liberty proclaimed and **armies still the arguer**. At Apollonia the young Octavian learns Caesar was **slain in the Senate**; the **rest of the story is untold**, and fear outruns knowledge.[^8] He inherits adoption and a name—**Caesar**—before he inherits a republic that can **enforce** either.
+After the Ides, liberty was proclaimed in Rome while **armies still the arguer**. At Apollonia the young Octavian learns Caesar was **slain in the Senate**; the **rest of the story is untold**, and fear outruns knowledge.[^8] He inherits adoption and a name—**Caesar**—before he inherits a republic that can **enforce** either.
 
 Republican form still **speaks**. Cicero's *Philippics* treat Antony as **hostis**—enemy of the *res publica*—after senatorial decree; if Antony seeks the name of Romulus, he will find Tarquin.[^9][^10] Private letters preserve live confusion: *O puer egregie audax!*—what **astonishing nerve** in the boy, useful against Antony, dangerous if he wins.[^11] Octavian is not yet the institutionalizer; he is a **claimant** in a city where Antony can be all-powerful and the murderers **unpunished** by decree.[^12]
 
@@ -16,9 +20,9 @@ The Second Triumvirate is **one sentence**: private pact, proscription, civil wa
 
 Philippi and Actium belong in **one paragraph**, not a chronicle. Dio closes the Brutus arc: after the second battle, Brutus **falls on his sword**—the stake was whether **liberty and popular government** could survive at all, not which faction held the better roster.[^13] At Actium, Cleopatra **raises the flight signal**; Antony follows; fire and pursuit decide what deliberation cannot—naval **decision**, not eastern romance.[^14] Suetonius compresses the sea-fight: Antony declared enemy, Octavian **won at Actium** and passed the night on board.[^15]
 
-Everitt's anti-Caesar lesson applies: force was **necessary to win the state**, but peace required force to **disappear from view** as quickly as possible—no visible master over Roman political life.[^1] Antony and Cleopatra defer **one line**; Egypt belongs elsewhere.
+Everitt's anti-Caesar lesson applies: force was **necessary to win the state**, but peace required force to **disappear from view** as quickly as possible—no visible master over Roman political life.[^1] Antony and Cleopatra receive **one line** here.
 
-Transformation, not rupture: the **chain continues**; rivals are eliminated so **concealment** can begin.
+Rivals eliminated, **concealment** could begin.
 
 ## Settlement — restoration rhetoric
 
@@ -32,13 +36,13 @@ Syme's revolution **disguised as restoration** becomes machinery: tribunician po
 
 Virgil sponsors the same order as **fated mission**—*imperium sine fine* on the shield of Roman rule, epic legitimation complementing constitutional disguise.[^19] Everitt's contrast holds: Caesar ruled **openly** and was destroyed; Augustus ruled **indirectly** and taught Rome how monarchy could survive by **never admitting its existence**.[^1] Durant's synthesis—competent statesmanship, Pax as governing achievement—clarifies without replacing the primary spine.[^7]
 
-This is **anti-Caesar** in form: not less power, but power **denied rhetorically**. Genesis epic substrate: [essay-rome-genesis](essay-rome-genesis.md)—do not reopen Troy here.
+This is **anti-Caesar** in form: not less power, but power **denied rhetorically**. Epic substrate was already laid in Rome's founding memory—Troy, duty, founding through loss; Augustus inherits that grammar without reopening the mythic archive here.
 
 ## Succession — inheritance without law
 
 The principate endured because Augustus **lived**; it lacked the legal machinery to endure because he **died**.[^20] Suetonius: at the height of confidence, **Fortune proved fickle**—Gaius and Lucius lost within eighteen months; adoption of Agrippa Postumus and Tiberius was **compulsion**, not a fixed design.[^21]
 
-The chain continues: **Tiberius** inherits a disguised monarchy, not a solved succession law.
+**Tiberius** inherits a disguised monarchy, not a solved succession law.
 
 ## Scholarship
 

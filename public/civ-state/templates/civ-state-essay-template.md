@@ -2,6 +2,8 @@
 
 <!-- Reader-facing essay only. Routing, scope, deferrals → {slug}.meta.yaml (editor/machine). Registry → essay-rome.registry.yaml (Rome) or volume equivalent. -->
 
+<!-- Standalone prose: body (before ## Scholarship) must not use essay-rome-* links, chain/defer voice ("what essay-X proved", "chain continues", "defer belongs to"), essay-self voice ("The essay stacks/closes"), or internal markdown links to peer essays/sub-lenses. State history directly; each essay readable alone. -->
+
 <!-- EXECUTE checklist (agent): No parallel tools; Write before Read; no broad git. Plan SSOT locked → Write first; one bounded step per turn; git add explicit paths only — no repo-wide status/diff; one hang → operator terminal handoff. -->
 
 {Opening lede — 2–4 paragraphs: thesis and reader contract in interpretive prose. No codex routing vocabulary.}

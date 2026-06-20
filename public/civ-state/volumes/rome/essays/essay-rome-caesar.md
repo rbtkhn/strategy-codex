@@ -1,12 +1,16 @@
 # Caesar (Rome)
 
-What [essay-rome-genesis](essay-rome-genesis.md) proved as **anti-monarchical habit** and [essay-rome-republic](essay-rome-republic.md) proved as **scaling collegial form**, Caesar proves as **decision under arms**—precedent (Sulla and Pompey normalized exceptional command), legitimation (popular alignment and *Commentarii* *dignitas* defense), resolution (Rubicon → Pharsalus → dictatorship), then **test** when moral restoration (the Ides) cannot re-seat sovereignty in the Senate. Caesar's command worked because it was not merely military: **veterans**, debtors, provincials, **populares**, and ambitious elites all found paths through him that senatorial procedure could no longer credibly supply.
+Rome had long defined itself against kings. Its republic rested on collegial office, senatorial authority, assemblies, law, and a citizen army whose commanders were supposed to return power to the civic order. By Caesar's generation, that system could still speak in republican forms, but it could no longer reliably decide between rival claims backed by armies.
 
-Gruen's late republic reminds us the system was contested, not pre-dead, before 49 BC—this essay still argues that **Pharsalus reveals** where loyalty and tempo already pointed; it did not **create** the migration of sovereignty, but made it **visible** in a form no decree could reverse. Modern military readers—Keegan on **mask of command**, Napoleon on **campaign mechanics** (interpretive lenses only), Goldsworthy on **command vs institution**—converge on Pharsalus as the moment **personal command** outweighs senatorial authorization.
+Caesar's career exposes the hinge. Sulla and Pompey had already normalized exceptional command; Caesar made the question unavoidable. He justified himself through wounded *dignitas*, popular alignment, and the language of necessity, but his real force came from veterans, debtors, provincials, *populares*, and ambitious elites who found paths through him that senatorial procedure could no longer credibly supply.
+
+The Rubicon, Pharsalus, dictatorship, and the Ides mark the sequence: procedure fails, personal command decides, republican offices become masks for concentrated power, and assassination proves that killing the man cannot restore the system.
+
+Gruen's late republic reminds us the system was contested, not pre-dead, before 49 BC—**Pharsalus reveals** where loyalty and tempo already pointed; it did not **create** the migration of sovereignty, but made it **visible** in a form no decree could reverse. Modern military readers—Keegan on **mask of command**, Napoleon on **campaign mechanics** (interpretive lenses only), Goldsworthy on **command vs institution**—converge on Pharsalus as the moment **personal command** outweighs senatorial authorization.
 
 ## Rubicon — procedural nullification
 
-[essay-rome-republic](essay-rome-republic.md) closes with rival generals and legions whose loyalty already strains collegial habit. In **49 BC** the Senate's ultimatum forces a choice: disband the army and face prosecution, or **cross the Rubicon** and make war constitutional argument obsolete.
+By the late Republic, rival generals and legions already strained collegial habit. In **49 BC** the Senate's ultimatum forces a choice: disband the army and face prosecution, or **cross the Rubicon** and make war constitutional argument obsolete.
 
 Caesar's *Commentarii* frame necessity and wounded *dignitas*—not a Gallic chronicle, but a **procedural defense** that the state itself has become unjust.[^1] **Gaul** is not narrated here, but it supplies the hinge's material engine: **veterans**, wealth, prestige, and a command identity independent of senatorial trust. Suetonius marks the threshold: once the bridge is crossed, **arms decide everything**.[^2] Cicero's maxim names the physics beneath the rhetoric—among arms, the laws fall silent.[^3]
 
@@ -14,7 +18,7 @@ Sulla marched on Rome to **restore senatorial supremacy** through terror; Caesar
 
 ## Pompey — legitimacy without cohesion
 
-**Pompey** is not this essay's biography. He is the **senate's authorized exceptionalist**—eastern triumph, legal command, prestige without the cohesion to convert resources into decisive war.
+**Pompey** is not the subject here; he is the **senate's authorized exceptionalist**—eastern triumph, legal command, prestige without the cohesion to convert resources into decisive war.
 
 The First Triumvirate is **one sentence** of political outsourcing: Caesar, Pompey, and Crassus manage the republic by private pact until the pact breaks. When war comes, Pompey holds **senatorial legitimacy**, eastern levies, and naval weight; he lacks the **veteran nucleus** and operational tempo Caesar brings from Gaul. Gibbon's Pompey hesitates when boldness is required—safety mistaken for strategy.[^5]
 
@@ -22,21 +26,21 @@ Goldsworthy compresses the asymmetry: Pompey commanded **resources**; Caesar com
 
 ## Pharsalus — command made visible
 
-**9 August 48 BC**, Thessaly: Pompey's coalition outnumbers Caesar's veterans on paper. **Pharsalus** did not create the migration of sovereignty; it made the migration **visible** in a form no decree could reverse. Plutarch's tactical beat is the anchor—Caesar pulls cohorts from the third line to meet Pompey's cavalry shock; the reserve holds, charges, and the battle **turns**.[^7] Goldsworthy's civil-war chapters treat Pharsalus as **revelation**, not cause: legions loyal to the commander, not the *res publica*, expose that republican institutions cannot outmatch cohesive veterans in open battle.[^8] Dio writes plainly—the senatorial cause was **lost** with Pompey's flight.[^9] Appian catches the post-battle psychology: deliberation survives only as **spectacle** once arms have spoken.[^10] Pompey flees east; his murder in Egypt is **one line** deferred—Cleopatra belongs elsewhere.
+**9 August 48 BC**, Thessaly: Pompey's coalition outnumbers Caesar's veterans on paper. **Pharsalus** did not create the migration of sovereignty; it made the migration **visible** in a form no decree could reverse. Plutarch's tactical beat is the anchor—Caesar pulls cohorts from the third line to meet Pompey's cavalry shock; the reserve holds, charges, and the battle **turns**.[^7] Goldsworthy's civil-war chapters treat Pharsalus as **revelation**, not cause: legions loyal to the commander, not the *res publica*, expose that republican institutions cannot outmatch cohesive veterans in open battle.[^8] Dio writes plainly—the senatorial cause was **lost** with Pompey's flight.[^9] Appian catches the post-battle psychology: deliberation survives only as **spectacle** once arms have spoken.[^10] Pompey flees east; his murder in Egypt is **one line** here.
 
-Transformation, not empire born ex nihilo: the **chain continues**; deciding power has already migrated—Pharsalus **confirms** what Rubicon and veteran loyalty had begun.
+Deciding power has already migrated—Pharsalus **confirms** what Rubicon and veteran loyalty had begun.
 
 ## Dictatorship — monarchic function, republican mask
 
 Victory does not restore collegial balance—it **concentrates** it. Suetonius records the magisterial absurdity made normal: Caesar named **dictator for life**—offices persist, but sovereignty sits in the person.[^11] Mommsen's paradox: he governed as a **monarch** because the state could no longer be governed otherwise, yet without legal monarchy his position was simultaneously indispensable and intolerable.[^12]
 
-Mechanism matters in one breath—calendar reform, debt relief, colonial settlement—**administrative rationalization** without a crown's name. Scipio Africanus, optional contrast, returned command to civitas; Caesar **does not**. This is **not** *princeps* yet: no Augustan settlement, no machinery of one-man rule fully dressed in republican titles—that defer belongs to [essay-rome-augustus](essay-rome-augustus.md).
+Mechanism matters in one breath—calendar reform, debt relief, colonial settlement—**administrative rationalization** without a crown's name. Scipio Africanus, optional contrast, returned command to civitas; Caesar **does not**. This is **not** *princeps* yet: no Augustan settlement, no machinery of one-man rule fully dressed in republican titles.
 
 ## Ides — failed restoration
 
 Gibbon's verdict on the Ides is constitutional, not heroic: Caesar's death was the **sentence** of the constitution, not its salvation.[^13] Brutus and the liberators strike a **tyrant** in Roman moral grammar; Plutarch and Suetonius supply the narrow narrative—senators as sacrificers, Caesar as hubris.[^14][^15] Cato's virtue and Cicero's law survive as **principles**; they do not re-seat **force**. Appian records the city's shock—liberty proclaimed, armies still the arguer.[^16] Florus moralizes the arc—Caesar's rise and fall as **culmination** of republican disease, liberty wounded rather than restored—not Ides chronicle but rhetorical compression.[^17] Tacitus, a century later, opens his imperial history from civil-war concentration—the rule of Pompey and Crassus **yielded before Caesar**; weary strife ended in empire under the title of **Prince**—memory that killing one man did not reverse the trajectory.[^18]
 
-The chain continues: **Augustus** will **institutionalize** what Caesar **personalized**—[essay-rome-augustus](essay-rome-augustus.md) owns that settlement.
+**Augustus** will **institutionalize** what Caesar **personalized**—concealed command where Caesar made personal command visible.
 
 ## Scholarship
 

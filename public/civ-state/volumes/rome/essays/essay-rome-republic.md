@@ -1,10 +1,10 @@
 # Republic (Rome)
 
-Around **390 BC** Gauls burned Rome; the city **rebuilt without kings**. What [essay-rome-genesis](essay-rome-genesis.md) proved as **anti-monarchical habit** on the Tiber, the Republic proves as **scaling form**—collegial office that binds a peninsula, passes a sea-exam, absorbs a Hellenic world, and argues internally over law, citizenship, and who commands. By the late Republic Rome has ordered the Mediterranean; the **city-form** that survived sack now **strains** under offices, armies, provinces, and wealth it was never built to hold at that scale.
+Around **390 BC** Gauls burned Rome; the city **rebuilt without kings**. Rome had long defined itself against kings on the Tiber; now it had to prove that **anti-monarchical habit** could **scale**—collegial office binding a peninsula, passing a sea-exam, absorbing a Hellenic world, and arguing internally over law, citizenship, and who commands. By the late Republic Rome has ordered the Mediterranean; the **city-form** that survived sack now **strains** under offices, armies, provinces, and wealth it was never built to hold at that scale.
 
 The republican arc stacks **alliance** (treaty federation), **constitution** (mixed government, public law), and **command** (Punic survival, provincial *imperium*, material order) into one proof—then **tests** it when armies, citizenship, and elite competition outrun collegial habit.
 
-Polybius supplies structure; Livy supplies moral memory; Gibbon names what happens when exempla fade. The essay closes when **republican form is visibly strained**—rival generals, shifting legion loyalties—not when autocracy has won.
+Polybius supplies structure; Livy supplies moral memory; Gibbon names what happens when exempla fade. By the end of this period, republican form is visibly strained—rival generals, shifting legion loyalties—not yet autocracy.
 
 ## Italian federation after 390
 
@@ -14,7 +14,7 @@ What survival proved at **c. 390**, federation must now prove at peninsula scale
 
 Livy's republican books train **exempla** under expansion—discipline, oath, shared sacrifice.[^2] Gibbon reads the same archive across centuries: the annalist recalls virtues citizens can no longer imitate—**moral memory**, not chronicle alone.[^3]
 
-Roads bind the peninsula: censor Appius Claudius paves the Appian Way and brings the Aqua Appia—public utility as sovereignty argument.[^4] Federation is **material** as well as legal: allies linked by *viae* as well as oaths. Campaign depth: [military-history-rome](military-history-rome.md).
+Roads bind the peninsula: censor Appius Claudius paves the Appian Way and brings the Aqua Appia—public utility as sovereignty argument.[^4] Federation is **material** as well as legal: allies linked by *viae* as well as oaths.
 
 ## Conflict of Orders and constitutional deepening
 
@@ -28,7 +28,7 @@ Aristotle's middle-regime theory names why mixed forms endure—they stand betwe
 
 Polybius writes when Rome has broken Greek independence—and explains **why** Greek categories fit Roman practice. Taken hostage, he becomes Rome's **Greek analyst**: the constitution distributes power among people, senate, and magistrates so that **no part plainly dominates**—each checks the other by necessity of survival.[^9] Consuls command armies but serve one year, two at a time; the senate holds continuity over finance and foreign policy; assemblies elect magistrates and ratify law; tribunes veto and speak for plebeian power—**mechanism**, not metaphor.
 
-That balance, he argues, explains endurance where brilliant single-regime cities fail. He also records reciprocal penetration: language, education, habit—**conquerors adopt conquered culture**.[^10] At republic scale this is **operational assimilation**: Greek philosophical and historical grammar runs **co-primary** with Latin civic-public law. Full dual-carrier doctrine: [dual-language-heritage-rome](dual-language-heritage-rome.md).
+That balance, he argues, explains endurance where brilliant single-regime cities fail. He also records reciprocal penetration: language, education, habit—**conquerors adopt conquered culture**.[^10] At republic scale this is **operational assimilation**: Greek philosophical and historical grammar runs **co-primary** with Latin civic-public law.
 
 Herodotus prepared the reader for **nomos** in every community Rome meets; Thucydides prepared the reader for **fragility** in brilliant arrangements. Polybius shows Rome institutionalizing both lessons.
 
@@ -36,7 +36,7 @@ Herodotus prepared the reader for **nomos** in every community Rome meets; Thucy
 
 The Punic sequence is the republic's **sea exam**. **Carthage** holds naval commerce and African grain; Rome holds the legion and Italian manpower. The **First Punic War** teaches humility—and forces Rome to become a naval power, leaving Italy for Sicily and the sea. The **Second Punic War** is existential **near-death**—**Hannibal at Cannae** as memory wound in Livy's Rome.[^11] Scipio's answer is **strategic re-foundation**: war in Africa, alliance geometry, institution over revenge—Zama closes the arc by name, not campaign roster here. The **Third Punic War** ends rivalry by **elimination**—harsher than assimilation, proof the republic can choose annihilation when security demands it (contrast Hellenic east).
 
-Mediterranean hegemony follows: Spain, Greece, Macedon, Asia—each annexation asks **what Rome is now**. Governors with *imperium*, graded allies, booty through senatorial and popular channels—**republican acquisition grammar**. Florus compresses the arc rhetorically—Hannibal's ordeal as the republic's **dramatic ascent** toward Mediterranean hegemony in a single moralized breath, not chronicle detail.[^18] Rival-city depth: planned carthage node. Military roster: [military-history-rome](military-history-rome.md).
+Mediterranean hegemony follows: Spain, Greece, Macedon, Asia—each annexation asks **what Rome is now**. Governors with *imperium*, graded allies, booty through senatorial and popular channels—**republican acquisition grammar**. Florus compresses the arc rhetorically—Hannibal's ordeal as the republic's **dramatic ascent** toward Mediterranean hegemony in a single moralized breath, not chronicle detail.[^18]
 
 ## Provinces and citizenship grammar
 
@@ -46,7 +46,7 @@ The **Social War** (91–88 BC) is citizenship grammar under maximum pressure: I
 
 Cicero's prosecution of Verres is exemplary: a governor may not treat a province as private farm.[^12] That is republican ethics pressed against empire-scale temptation—Civilization's ethic before Empire's machinery fully separates.
 
-Strabo sees the mature emporium—the Tiber receiving the world's merchandise—**logic** republican expansion makes inevitable at scale.[^13] Aqueducts and roads carry the same argument: order visible, shared, maintained; water to the city; *viae* to the province. Procedural depth: [rome-science](../rome-science.md) · [science-history-rome](science-history-rome.md).
+Strabo sees the mature emporium—the Tiber receiving the world's merchandise—**logic** republican expansion makes inevitable at scale.[^13] Aqueducts and roads carry the same argument: order visible, shared, maintained; water to the city; *viae* to the province.
 
 ## Late republic strain — form under pressure
 
@@ -58,9 +58,7 @@ Success breeds scale; scale breeds **competition for offices** that control armi
 
 Sallust on Catiline: luxury and faction corrode *virtus*.[^15] On Jugurtha: Rome's armies corrupted by provincial greed and senatorial folly—Marius emerges from that stain.[^16] Appian foreshadows civil war as recurring grammar—rival commanders with legions, not one Tarquin.[^17]
 
-That is **strain**, not universal rupture—the chain continues; the instrument creaks. **Caesar** is named only as **threshold** at the close; triumvirate and Pharsalus belong to [essay-rome-caesar](essay-rome-caesar.md) and [essay-rome-augustus](essay-rome-augustus.md).
-
-Standalone closure: the reader sees **what the republic achieved** (Italian union, Punic victory, Mediterranean order, mixed constitution at work) and **where it strained**—without principate resolution inside this file.
+That is **strain**, not universal rupture—the instrument creaks. **Caesar** names the threshold: when procedure can no longer decide between armies, personal command will expose what collegial form could still debate but not enforce.
 
 ## Scholarship
 
