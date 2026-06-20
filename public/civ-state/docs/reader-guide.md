@@ -178,6 +178,18 @@ Then return downstream to:
 
 Do not try to spend the whole work directly when a narrower lane object now governs.
 
+## Essay vs meta sidecar (Rome essay-rome pilot)
+
+Some volume interpretive nodes split **reader-facing prose** from **editor/machine routing**:
+
+| File | Job |
+|------|-----|
+| `essay-rome-{slug}.md` | Argument — title, lede, body, Scholarship, Notes |
+| `essay-rome-{slug}.meta.yaml` | Scope, deferrals, membrane, links, return path |
+| `essay-rome.registry.yaml` | Lattice registry and chain read order |
+
+**Read the `.md` file** when you want the essay. **Open the sidecar or registry** when you need placement, peers, or deferrals. Civic-chain read order (when narrative continuity helps): genesis → republic → caesar → augustus — see [essay-rome.registry.yaml](../volumes/rome/essays/essay-rome.registry.yaml).
+
 ## What This Work Must Prevent
 
 It must prevent five errors:

@@ -1,0 +1,43 @@
+# Essay-rome {slug} — sidecar template (editor / machine)
+
+title: "{Topic} (Rome)"
+volume: rome
+essay_id: "{slug}"
+status: planned
+period: ""
+tier: ""
+hex_link: null
+standalone: true
+
+role:
+  type: ""
+  function: ""
+  chain_position: ""
+  opens_after: null
+  closes_before: null
+
+proves_here: []
+
+defers_to: {}
+
+not_this_file: []
+
+membrane: []
+
+routing:
+  hub: connectivity-rome.md
+  registry: essay-rome.registry.yaml
+  peer_essays: []
+  hex_frame: null
+  term_depth: []
+  constitutional:
+    - civilization-rome.md
+    - empire-rome.md
+  sources:
+    - ../../../sources/rome/primary/ancient.md
+    - ../../../sources/rome/secondary/ancient.md
+    - ../shelf-reader.md
+  sub_lens: []
+  return_path:
+    - connectivity-rome.md
+    - README.md

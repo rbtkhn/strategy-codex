@@ -1,0 +1,226 @@
+version: 1
+volume: rome
+
+chains:
+  civic-chain:
+    read_order: [genesis, republic, caesar, augustus]
+    description: formation → scale → command hinge → institutionalizer
+
+hex_link_map:
+  "1453": hexagonal-1453-rome.md
+  "1054-schism": hexagonal-1054-schism-rome.md
+  republic-principate: hexagonal-republic-principate-rome.md
+  justinian-529: hexagonal-justinian-codification-rome.md
+  italian-wars: hexagonal-italian-wars-rome.md
+  colonial-tail: hexagonal-colonial-tail-rome.md
+
+essays:
+  - id: abraham
+    file: essay-rome-abraham.md
+    meta: null
+    h1: Abraham (Rome)
+    tier: faith-hinge
+    hex_link: null
+    status: planned
+    period: null
+    role: null
+
+  - id: africa
+    file: essay-rome-africa.md
+    meta: null
+    h1: Africa (Rome)
+    tier: geo-branch
+    hex_link: colonial-tail
+    status: planned
+    period: null
+    role: null
+
+  - id: augustus
+    file: essay-rome-augustus.md
+    meta: essay-rome-augustus.meta.yaml
+    h1: Augustus (Rome)
+    tier: civic-chain
+    hex_link: republic-principate
+    status: active
+    period: "44 BC–AD 14"
+    role: institutionalizer
+
+  - id: britannia
+    file: essay-rome-britannia.md
+    meta: null
+    h1: Britannia (Rome)
+    tier: geo-branch
+    hex_link: colonial-tail
+    status: planned
+    period: null
+    role: null
+
+  - id: caesar
+    file: essay-rome-caesar.md
+    meta: essay-rome-caesar.meta.yaml
+    h1: Caesar (Rome)
+    tier: civic-chain
+    hex_link: republic-principate
+    status: active
+    period: "49–44 BC"
+    role: command hinge
+
+  - id: carthage
+    file: essay-rome-carthage.md
+    meta: null
+    h1: Carthage (Rome)
+    tier: geo-branch
+    hex_link: null
+    status: planned
+    period: null
+    role: null
+
+  - id: charlemagne
+    file: essay-rome-charlemagne.md
+    meta: null
+    h1: Charlemagne (Rome)
+    tier: geo-branch
+    hex_link: null
+    status: planned
+    period: null
+    role: null
+
+  - id: constantinople
+    file: essay-rome-constantinople.md
+    meta: null
+    h1: Constantinople (Rome)
+    tier: east-imperial
+    hex_link: "1453, justinian-529"
+    status: planned
+    period: null
+    role: null
+
+  - id: crusades
+    file: essay-rome-crusades.md
+    meta: null
+    h1: Crusades (Rome)
+    tier: faith-hinge
+    hex_link: null
+    status: planned
+    period: null
+    role: null
+
+  - id: egypt
+    file: essay-rome-egypt.md
+    meta: null
+    h1: Egypt (Rome)
+    tier: geo-branch
+    hex_link: null
+    status: planned
+    period: null
+    role: null
+
+  - id: francia
+    file: essay-rome-francia.md
+    meta: null
+    h1: Francia (Rome)
+    tier: geo-branch
+    hex_link: colonial-tail
+    status: planned
+    period: null
+    role: null
+
+  - id: genesis
+    file: essay-rome-genesis.md
+    meta: essay-rome-genesis.meta.yaml
+    h1: Genesis (Rome)
+    tier: civic-chain
+    hex_link: null
+    status: active
+    period: "foundation through early Republic (~753–390 BC)"
+    role: formation proof
+
+  - id: germania
+    file: essay-rome-germania.md
+    meta: null
+    h1: Germania (Rome)
+    tier: geo-branch
+    hex_link: null
+    status: planned
+    period: null
+    role: null
+
+  - id: iberia
+    file: essay-rome-iberia.md
+    meta: null
+    h1: Iberia (Rome)
+    tier: geo-branch
+    hex_link: colonial-tail
+    status: planned
+    period: null
+    role: null
+
+  - id: italia
+    file: essay-rome-italia.md
+    meta: null
+    h1: Italia (Rome)
+    tier: peninsula
+    hex_link: italian-wars
+    status: planned
+    period: null
+    role: null
+
+  - id: napoleon
+    file: essay-rome-napoleon.md
+    meta: null
+    h1: Napoleon (Rome)
+    tier: geo-branch
+    hex_link: colonial-tail
+    status: planned
+    period: null
+    role: null
+
+  - id: persia
+    file: essay-rome-persia.md
+    meta: null
+    h1: Persia (Rome)
+    tier: geo-branch
+    hex_link: null
+    status: planned
+    period: null
+    role: null
+
+  - id: republic
+    file: essay-rome-republic.md
+    meta: essay-rome-republic.meta.yaml
+    h1: Republic (Rome)
+    tier: civic-chain
+    hex_link: republic-principate
+    status: active
+    period: "Italian expansion through late Republic (~390–49 BC)"
+    role: scale proof
+
+  - id: renaissance
+    file: essay-rome-renaissance.md
+    meta: null
+    h1: Renaissance (Rome)
+    tier: peninsula
+    hex_link: italian-wars
+    status: planned
+    period: null
+    role: null
+
+  - id: schism
+    file: essay-rome-schism.md
+    meta: null
+    h1: Schism (Rome)
+    tier: faith-hinge
+    hex_link: 1054-schism
+    status: planned
+    period: null
+    role: null
+
+  - id: slavia
+    file: essay-rome-slavia.md
+    meta: null
+    h1: Slavia (Rome)
+    tier: geo-branch
+    hex_link: 1054-schism
+    status: planned
+    period: null
+    role: null
