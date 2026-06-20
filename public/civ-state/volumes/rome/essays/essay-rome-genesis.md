@@ -20,7 +20,7 @@ On the volume chain, Romulus and Aeneas remain **substrate** ([rome-memory — c
 |-------------|---------------------------|
 | Myth, Greek upstream, regal synthesis, Tiber/city-form | Punic wars · Samnite campaigns · full Conflict of Orders |
 | 509 expulsion · consuls/tribunes named | Institutional arc at depth |
-| Polybius VI + Aristotle IV.11 as formation proof | Full Book VI exegesis |
+| Polybius VI + Aristotle IV.11 as **retrospective** formation markers (teaser) | Full Book VI exegesis · Twelve Tables at depth |
 | c. 390 Gallic recovery as **standalone close** | Later republican crisis pattern |
 
 **Not:** constitutional Part 1, term rosters, hex six-pass, late republic, principate.
@@ -29,7 +29,9 @@ On the volume chain, Romulus and Aeneas remain **substrate** ([rome-memory — c
 
 Read this essay **standalone**—complete without peer essays. It covers inheritance (epic and Greek), regal synthesis on the Tiber, king-expulsion, and **first republican habits** until early survival is legible.
 
-Rome does not begin when a constitution is written; it begins when a **city-form** learns to treat order as **public, bounded, and durable**—first in story, then on the Tiber, then in institutions that refuse kings. The founding layer stacks **myth** (Troy → Latium, Romulus), **inquiry** (Greek epic and history), and **material argument** (boundary, road, water) into a regal synthesis Rome **breaks** at expulsion—then **tests** until survival itself proves the new form can hold. Genesis ends around **c. 390**: not Rome at empire, but Rome **knowing what it is**—a republican city that endures without a king.
+Rome does not begin when a constitution is written; it begins when a **city-form** learns to treat order as **public, bounded, and durable**—first in story, then on the Tiber, then in institutions that refuse kings. Genesis is not the invention of empire, nor the full articulation of the Republic: it is the formation of a city-form that converts inherited myth, Greek inquiry, Etruscan technique, and Latin public order into a durable **anti-monarchical habit**. By **c. 390**, after sack and recovery, Rome has not yet mastered the Mediterranean—but it has proved the city can **survive without a king**.
+
+The founding layer stacks **myth** (Troy → Latium, Romulus), **inquiry** (Greek epic and history), and **material argument** (boundary, road, water) into a regal synthesis Rome **breaks** at expulsion—then **tests** until survival itself proves the new form can hold.
 
 **Membrane:** empire overreach ≠ entropy; defer rosters to term depth. Optional depth on expansion: [essay-rome-republic](essay-rome-republic.md).
 
@@ -45,7 +47,7 @@ Epic here is **memory operator**, not news report. Full civilizational continuit
 
 ## Greek heritage — inquiry before rule
 
-Rome grows into a power that **thinks in Greek categories** before it commands in Latin. Genesis names that debt early—before empire, before universal law in Roman dress.
+Rome **later** learns to interpret itself through Greek categories; genesis names the **upstream inheritance** before that habit becomes self-conscious—not a claim that archaic Romans already “thought in Greek.”
 
 Herodotus opens history as **inquiry** (*historia*): peoples differ, and **nomos**—custom, habit, unwritten law—often binds more fiercely than decree. Rome will meet nomos in every conquered community; Herodotus prepares the reader for an empire that must reckon with cultures it did not author.
 
@@ -89,7 +91,7 @@ The Tiber trades inland defensibility for river access; the island ford; an ethn
 
 The city is **legitimacy machine**: walls alone do not make urbs—**community under law** does.[^9] Strabo sees the mature emporium; genesis names the **logic** earlier: public order at a node where merchandise and meaning converge.[^8]
 
-The **form promise** pairs road and water: censor Appius Claudius paves the Appian Way and brings the Aqua Appia—public utility as sovereignty argument, republican scale.[^15] Imperial engineering chronicle waits; genesis **names the promise**.
+The **form promise** names road and water as public utility—logic genesis states here; a **forward glance** to **312 BC** shows the promise maturing when censor Appius Claudius paves the Appian Way and brings the Aqua Appia (republic essay scale; outside genesis close).[^15] Imperial engineering chronicle waits; genesis **names the argument**, not the full network.
 
 Procedural depth on water and infrastructure: [rome-science](../rome-science.md). Mediterranean site context (light touch): [geo-strategy-rome](geo-strategy-rome.md).
 
@@ -105,11 +107,11 @@ The reader should feel **before/after** inside genesis. Mixed constitutional dep
 
 Standalone closure: show **what the Republic is** in embryo—enough institutions and ordeal that genesis feels **finished**.
 
-Consuls, tribunes, the Conflict of Orders **named**—not narrated at campaign length. Aristotle’s mixed constitution theory: the middle class and middle-ground regime endure because they stand between extremes.[^12] Polybius then gives Rome’s **practice**: people, senate, magistrates balanced so that no part plainly dominates.[^13] Theory → practice in two pins; republic essay owns exegesis.
+Consuls, tribunes, the Conflict of Orders **named**—not narrated at campaign length. The **Twelve Tables** are the obvious marker of “public, bounded, durable” law posted for the community; genesis **names** them as hinge, not exegesis—tables, plebeian access, and full Orders arc belong to [essay-rome-republic](essay-rome-republic.md).
+
+Aristotle’s mixed constitution theory: the middle class and middle-ground regime endure because they stand between extremes.[^12] Polybius, writing after Rome’s Mediterranean rise, supplies **later diagnosis** of the pattern early habits made possible—not evidence that Romans consciously designed a mixed constitution in 509–390 BC.[^13] He reads people, senate, magistrates balanced so that no part plainly dominates. Theory → retrospective practice in two pins; republic essay owns full Book VI exegesis.
 
 Civic militarism seeds early: Romans fight for honor, liberty, safety—not mercenary pay alone.[^14] Scholarship (Goldsworthy, Everitt) supports the ethic without replacing Livy.
-
-The form promise **pays off** in 312 BC public works—road and aqueduct as **republican** utility, inheritance now constitutionalized.[^15]
 
 **c. 390** closes genesis: Gauls sack the city; recovery is debated—relocate to Veii or rebuild? The people vote to **rebuild**.[^16] No king returns; the republic survives by choosing the harder urban continuity. Endurance is proof of form.
 
@@ -144,21 +146,21 @@ Mediterranean expansion and late republic depth live in [essay-rome-republic](es
 
 [^8]: Strabo, *Geography*, V.3.8: "The Tiber receives the merchandise of the whole world… The city has become the emporium of the world."
 
-[^9]: Cicero, *De Re Publica*: "The city is not walls, but the community of citizens united by law."
+[^9]: Cicero, *De Re Publica* 1.39 (Scipio): "The city is not walls, but the community of citizens united by law."
 
-[^10]: Tacitus, *Annals*, I.79: "When it was proposed to divert the tributaries of the Tiber to reduce flooding, the towns upstream protested that they would lose their water. The proposal was abandoned."
+[^10]: Tacitus, *Annals* 1.79: "When it was proposed to divert the tributaries of the Tiber to reduce flooding, the towns upstream protested that they would lose their water. The proposal was abandoned."
 
-[^11]: Plutarch, *Life of Publicola*: "The Romans… had never known what it meant to be free… but now, having got rid of the tyrant, they desired at once to enjoy full liberty."
+[^11]: Plutarch, *Life of Publicola* 9: "The Romans… had never known what it meant to be free… but now, having got rid of the tyrant, they desired at once to enjoy full liberty."
 
-[^12]: Aristotle, *Politics*, IV.11 (1295b): "A constitution based on the middle class is superior to all… for the same reason that the middle class is superior to the other classes."
+[^12]: Aristotle, *Politics* 4.11 (1295b20–24): "A constitution based on the middle class is superior to all… for the same reason that the middle class is superior to the other classes."
 
-[^13]: Polybius, *Histories*, VI: "The Roman constitution is of a threefold nature… distributed among the people, the senate, and the magistrates… so balanced… that no one can say with certainty which part is predominant."
+[^13]: Polybius, *Histories* 6.11–18: "The Roman constitution is of a threefold nature… distributed among the people, the senate, and the magistrates… so balanced… that no one can say with certainty which part is predominant." *(Later Greek analysis of Rome’s rise—not early republican self-description.)*
 
-[^14]: Livy, *Ab Urbe Condita*, II: "The Romans fought not for pay but for honor, for liberty, and for the safety of the state…"
+[^14]: Livy, *Ab Urbe Condita* 2.30: "The Romans fought not for pay but for honor, for liberty, and for the safety of the state…"
 
-[^15]: Livy, *Ab Urbe Condita*, IX.29: "The censor Appius Claudius carried out two works of immense utility: he paved the Appian Way and brought water into the City…"
+[^15]: Livy, *Ab Urbe Condita* 9.29.6: "The censor Appius Claudius carried out two works of immense utility: he paved the Appian Way and brought water into the City…" *(Forward glance—312 BC; genesis closes at c. 390.)*
 
-[^16]: Livy, *Ab Urbe Condita*, V: "The matter was referred to the people… they voted with one accord that the city should be rebuilt."
+[^16]: Livy, *Ab Urbe Condita* 5.51: "The matter was referred to the people… they voted with one accord that the city should be rebuilt."
 
 ## Links
 

@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.37** — Rome essay-rome genesis hygiene: anti-anachronism (Greek upstream, Polybius retrospective), 312 BC forward glance, Twelve Tables defer, tighter Notes refs.
+
 **v0.1.36** — Rome essay-rome republic rewrite: standalone civic-chain essay (~390–49 BC) — Italian federation, Conflict of Orders, Polybius VI, Punic arc, provinces, late-republic strain; 17 primary pins · full Scholarship table.
 
 **v0.1.35** — Rome hexagonal registry self-describe: archetype headers A–C on wave-1 demonstrators (1453 · Italian Wars/Sack · Justinian 529) under Reading Posture — registry readable without RLJ.
@@ -11,6 +13,15 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.37 — essay-rome genesis hygiene
+
+| Change | Detail |
+|--------|--------|
+| `essay-rome-genesis.md` | Review pass: sharpened thesis · Greek upstream vs operative Hellenization |
+| Chronology | Polybius as later diagnosis · 312 BC forward glance (not genesis close) |
+| Defer | Twelve Tables named → republic essay |
+| Notes | Tighter book/chapter refs (Livy, Polybius 6.11–18, Cicero Rep. 1.39) |
 
 ### v0.1.36 — essay-rome republic rewrite
 
