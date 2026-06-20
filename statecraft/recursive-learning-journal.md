@@ -2980,3 +2980,40 @@ Routing: [wire-verify SKILL v1.5.4](../skills/wire-verify/SKILL.md) · [singular
 **Ship discipline (unchanged):** EXECUTE = one shell batched with `;`; one `StrReplace` per file per turn; wire-verify = frontmatter `verify:` only.
 
 **Related:** [agent-tool-latency-discipline § parallel ban](../../.cursor/rules/agent-tool-latency-discipline.mdc) · [agent-execution-hygiene § menu pick = same turn](../../.cursor/rules/agent-execution-hygiene.mdc)
+
+---
+
+## 2026-06-19 - civ-state essay template ladder + agent git handoff
+
+**Cross-link:** [§ parallel ban (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [§ post-success parallel relapse (2026-06-19)](#2026-06-19---post-success-parallel-relapse--wire-verify-dual-profile) — **narrows**; does not replace base EXECUTE law.
+
+### Trigger
+
+Genesis EXECUTE: `civ-state-essay-template`, Rome overlay, active `essay-rome-genesis.md`, registry + shelf. Parallel agent tools hung; plan mode blocked writes until Agent mode; operator terminal committed/pushed (`e265c8906`); PowerShell needs `;` not `&&`.
+
+### Extracted law
+
+**Create-from-plan:** plan SSOT locked → Write first; no parallel discovery reads.
+
+**Template ladder:** `templates/civ-state-essay-template.md` → volume overlay → first consumer essay. Primary pins → footnotes + Notes; secondary → Scholarship; internal Links only.
+
+**Agent git handoff:** one hang/interrupt → stop retrying; give operator paths + message. PowerShell: `;` not `&&`.
+
+### Reapplication
+
+Next essay-rome (republic) and next civ volume: overlay + plan SSOT + sequential Write. Windows EXECUTE after hang: Write-only; git to operator terminal.
+
+### Structural changes
+
+`e265c8906` — template, genesis essay, registry active, shelf (Beard out, clarifiers in), pushed to `origin/main`.
+
+### Guardrail
+
+No duplicate full scaffold in overlay; no retry agent git after hang; cross-link parallel-ban entries — do not duplicate prose.
+
+### Current lesson
+
+Template before instance, write before read, operator terminal for git.
+
+Routing: [civ-state-essay-template.md](../public/civ-state/templates/civ-state-essay-template.md) · [essay-rome-genesis.md](../public/civ-state/volumes/rome/essays/essay-rome-genesis.md)
+
