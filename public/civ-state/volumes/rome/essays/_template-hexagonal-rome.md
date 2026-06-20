@@ -1,6 +1,6 @@
 # Hexagonal {Friction node title} (Rome)
 
-<!-- Copy this file to hexagonal-{slug}-rome.md. Delete this comment block on ship. Register in essays/README.md § Hexagonal demonstrators. -->
+<!-- Copy this file to hexagonal-{slug}-rome.md. Delete this comment block on ship. Register in essays/README.md § hex-frame. -->
 
 ## Where This Sits
 
@@ -53,6 +53,6 @@ Ask six governing questions in order — **memory placement first**, then the le
 ## Return Path
 
 - [Connectivity Rome](connectivity-rome.md) · [Essays index](README.md)
-- [Hexagonal demonstrators registry](README.md#hexagonal-demonstrators)
+- [hex-frame registry](README.md#hex-frame-hexagonal-demonstrators)
 - Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)
 - Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)

@@ -93,10 +93,42 @@ Seven-node **Civilization ↔ Empire ↔ Entropy** choreography (prose SSOT): [C
 | Type | Examples | Job |
 |------|----------|-----|
 | **Constitutional** | [civilization-rome.md](civilization-rome.md) · [empire-rome.md](empire-rome.md) | Transformed continuity · outward machinery — volume Parts 1–2 |
+| **Term depth** | [`../rome-{term}.md`](../README.md#term-depth-volume-root) | Whole-work projection of each governing term — roster SSOT · membrane hub |
 | **History sub-lenses** | [language](dual-language-heritage-rome.md) · [military](military-history-rome.md) · [faith](faith-history-rome.md) · [science](science-history-rome.md) | Single-dimension depth on one parallel spine |
-| **Hexagonal demonstrators** | [registry](README.md#hexagonal-demonstrators) · [_template](_template-hexagonal-rome.md) | **One friction node × six term lenses** — shows membrane in action; links rosters, never duplicates them |
+| **hex-frame** | [registry](README.md#hex-frame-hexagonal-demonstrators) · [_template-hexagonal-rome](_template-hexagonal-rome.md) | **One friction node × six term passes** — nodal demonstrator; links rosters, never duplicates them |
+| **Essay-rome** | [registry](#essay-rome-registry) · [_template-essay-rome](_template-essay-rome.md) | Standalone lattice nodes — narrative / geographic / hinge prose; **no global read order** |
 
-Open a demonstrator when the operator needs to see **the same node diagnosed six ways**; open a history essay when **one dimension** needs essay-length treatment.
+Open **hex-frame** when the operator needs **the same node diagnosed six ways**; open a **history sub-lens** when **one dimension** needs essay-length treatment; open **essay-rome** for **standalone lattice** depth (wire via `## Links`, not volume-wide sequence).
+
+## Essay-rome registry
+
+**Civilizational Statecraft** lattice — **21** planned nodes. Sort is **alphabetical by slug** (not read order). **`hex_link`** = hex-frame peer id(s) — link in essay `## Links`; do **not** re-run six-pass blocks.
+
+| slug | file | H1 | tier | hex_link | status |
+|------|------|-----|------|----------|--------|
+| abraham | [essay-rome-abraham.md](essay-rome-abraham.md) | Abraham (Rome) | faith-hinge | — | planned |
+| africa | [essay-rome-africa.md](essay-rome-africa.md) | Africa (Rome) | geo-branch | colonial-tail | planned |
+| augustus | [essay-rome-augustus.md](essay-rome-augustus.md) | Augustus (Rome) | civic-chain | republic-principate | planned |
+| britannia | [essay-rome-britannia.md](essay-rome-britannia.md) | Britannia (Rome) | geo-branch | colonial-tail | planned |
+| caesar | [essay-rome-caesar.md](essay-rome-caesar.md) | Caesar (Rome) | civic-chain | republic-principate | planned |
+| carthage | [essay-rome-carthage.md](essay-rome-carthage.md) | Carthage (Rome) | geo-branch | — | planned |
+| charlemagne | [essay-rome-charlemagne.md](essay-rome-charlemagne.md) | Charlemagne (Rome) | geo-branch | — | planned |
+| constantinople | [essay-rome-constantinople.md](essay-rome-constantinople.md) | Constantinople (Rome) | east-imperial | 1453, justinian-529 | planned |
+| crusades | [essay-rome-crusades.md](essay-rome-crusades.md) | Crusades (Rome) | faith-hinge | — | planned |
+| egypt | [essay-rome-egypt.md](essay-rome-egypt.md) | Egypt (Rome) | geo-branch | — | planned |
+| francia | [essay-rome-francia.md](essay-rome-francia.md) | Francia (Rome) | geo-branch | colonial-tail | planned |
+| genesis | [essay-rome-genesis.md](essay-rome-genesis.md) | Genesis (Rome) | civic-chain | — | planned |
+| germania | [essay-rome-germania.md](essay-rome-germania.md) | Germania (Rome) | geo-branch | — | planned |
+| iberia | [essay-rome-iberia.md](essay-rome-iberia.md) | Iberia (Rome) | geo-branch | colonial-tail | planned |
+| italia | [essay-rome-italia.md](essay-rome-italia.md) | Italia (Rome) | peninsula | italian-wars | planned |
+| napoleon | [essay-rome-napoleon.md](essay-rome-napoleon.md) | Napoleon (Rome) | geo-branch | colonial-tail | planned |
+| persia | [essay-rome-persia.md](essay-rome-persia.md) | Persia (Rome) | geo-branch | — | planned |
+| republic | [essay-rome-republic.md](essay-rome-republic.md) | Republic (Rome) | civic-chain | republic-principate | planned |
+| renaissance | [essay-rome-renaissance.md](essay-rome-renaissance.md) | Renaissance (Rome) | peninsula | italian-wars | planned |
+| schism | [essay-rome-schism.md](essay-rome-schism.md) | Schism (Rome) | faith-hinge | 1054-schism | planned |
+| slavia | [essay-rome-slavia.md](essay-rome-slavia.md) | Slavia (Rome) | geo-branch | 1054-schism | planned |
+
+**hex_link ids → hex-frame files:** `1453` → [hexagonal-1453-rome.md](hexagonal-1453-rome.md) · `1054-schism` → [hexagonal-1054-schism-rome.md](hexagonal-1054-schism-rome.md) · `republic-principate` → [hexagonal-republic-principate-rome.md](hexagonal-republic-principate-rome.md) · `justinian-529` → [hexagonal-justinian-codification-rome.md](hexagonal-justinian-codification-rome.md) · `italian-wars` → [hexagonal-italian-wars-rome.md](hexagonal-italian-wars-rome.md) · `colonial-tail` → [hexagonal-colonial-tail-rome.md](hexagonal-colonial-tail-rome.md)
 
 ## Return Path
 
@@ -105,5 +137,7 @@ Open a demonstrator when the operator needs to see **the same node diagnosed six
 - Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)
 - Four history essays: [language](dual-language-heritage-rome.md) · [military](military-history-rome.md) · [faith](faith-history-rome.md) · [science](science-history-rome.md)
 - Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)
-- Hexagonal demonstrators: [registry](README.md#hexagonal-demonstrators) · [template](_template-hexagonal-rome.md)
+- hex-frame: [registry](README.md#hex-frame-hexagonal-demonstrators) · [template](_template-hexagonal-rome.md)
+- Essay-rome: [registry](#essay-rome-registry) · [template](_template-essay-rome.md)
+- Term depth: [volume root](../README.md#term-depth-volume-root)
 - [Theory shelf](../../../theory/README.md)

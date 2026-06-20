@@ -37,12 +37,24 @@ Maturing interpretive chapters — open after Civilization and Empire:
 
 | Essay | File | Role |
 |-------|------|------|
-| Connectivity Rome | [connectivity-rome.md](connectivity-rome.md) | Six-term membrane · cross-read matrix · segment anchor index |
-| Hexagonal template | [_template-hexagonal-rome.md](_template-hexagonal-rome.md) | Copy scaffold for demonstrator essays |
+| Connectivity Rome | [connectivity-rome.md](connectivity-rome.md) | Term-depth membrane · cross-read matrix · essay-rome registry |
+| Hexagonal template | [_template-hexagonal-rome.md](_template-hexagonal-rome.md) | Copy scaffold for **hex-frame** essays |
+| Essay-rome template | [_template-essay-rome.md](_template-essay-rome.md) | Copy scaffold for **essay-rome** lattice nodes |
 
-## Hexagonal demonstrators
+## Civilizational Statecraft — demonstrator stack
 
-One friction node × six lenses — membrane visible; link term SSOT, do not duplicate rosters. Template: [_template-hexagonal-rome.md](_template-hexagonal-rome.md). **Wave 1 (first ship):** 1453 · Italian Wars · Justinian 529.
+**Theory:** [Civilizational Statecraft Framework](../../../theory/README.md#civilizational-statecraft-framework) — six governing terms applied to the Rome case.
+
+| Layer | Location | Job |
+|-------|----------|-----|
+| **Constitutional** | [civilization-rome.md](civilization-rome.md) · [empire-rome.md](empire-rome.md) | Volume Parts 1–2 — read first |
+| **Term depth** | [volume root `rome-{term}.md`](../README.md#term-depth-volume-root) | Whole-work term projection · roster SSOT |
+| **hex-frame** | [§ below](#hex-frame-hexagonal-demonstrators) | One friction node × six term passes |
+| **Essay-rome** | [§ below](#essay-rome) | Standalone lattice — **no global read order** |
+
+## hex-frame (hexagonal demonstrators)
+
+Informal name: **hex-frame**. On-disk: `hexagonal-*-rome.md`. One friction node × six term passes — membrane visible; link term SSOT, do not duplicate rosters. Template: [_template-hexagonal-rome.md](_template-hexagonal-rome.md). **Wave 1 (first ship):** 1453 · Italian Wars · Justinian 529.
 
 | Node | File | Status |
 |------|------|--------|
@@ -53,6 +65,38 @@ One friction node × six lenses — membrane visible; link term SSOT, do not dup
 | Republic → principate | [hexagonal-republic-principate-rome.md](hexagonal-republic-principate-rome.md) | active (wave 2) |
 | Colonial procedural tail | [hexagonal-colonial-tail-rome.md](hexagonal-colonial-tail-rome.md) | active (wave 2) |
 
+## Essay-rome
+
+Twenty-one standalone lattice nodes under **Civilizational Statecraft**. Registry SSOT: [connectivity-rome.md § Essay-rome registry](connectivity-rome.md#essay-rome-registry). Template: [_template-essay-rome.md](_template-essay-rome.md). **Alphabetical by slug — not read order.**
+
+| slug | file | H1 | tier | hex_link | status |
+|------|------|-----|------|----------|--------|
+| abraham | [essay-rome-abraham.md](essay-rome-abraham.md) | Abraham (Rome) | faith-hinge | — | planned |
+| africa | [essay-rome-africa.md](essay-rome-africa.md) | Africa (Rome) | geo-branch | colonial-tail | planned |
+| augustus | [essay-rome-augustus.md](essay-rome-augustus.md) | Augustus (Rome) | civic-chain | republic-principate | planned |
+| britannia | [essay-rome-britannia.md](essay-rome-britannia.md) | Britannia (Rome) | geo-branch | colonial-tail | planned |
+| caesar | [essay-rome-caesar.md](essay-rome-caesar.md) | Caesar (Rome) | civic-chain | republic-principate | planned |
+| carthage | [essay-rome-carthage.md](essay-rome-carthage.md) | Carthage (Rome) | geo-branch | — | planned |
+| charlemagne | [essay-rome-charlemagne.md](essay-rome-charlemagne.md) | Charlemagne (Rome) | geo-branch | — | planned |
+| constantinople | [essay-rome-constantinople.md](essay-rome-constantinople.md) | Constantinople (Rome) | east-imperial | 1453, justinian-529 | planned |
+| crusades | [essay-rome-crusades.md](essay-rome-crusades.md) | Crusades (Rome) | faith-hinge | — | planned |
+| egypt | [essay-rome-egypt.md](essay-rome-egypt.md) | Egypt (Rome) | geo-branch | — | planned |
+| francia | [essay-rome-francia.md](essay-rome-francia.md) | Francia (Rome) | geo-branch | colonial-tail | planned |
+| genesis | [essay-rome-genesis.md](essay-rome-genesis.md) | Genesis (Rome) | civic-chain | — | planned |
+| germania | [essay-rome-germania.md](essay-rome-germania.md) | Germania (Rome) | geo-branch | — | planned |
+| iberia | [essay-rome-iberia.md](essay-rome-iberia.md) | Iberia (Rome) | geo-branch | colonial-tail | planned |
+| italia | [essay-rome-italia.md](essay-rome-italia.md) | Italia (Rome) | peninsula | italian-wars | planned |
+| napoleon | [essay-rome-napoleon.md](essay-rome-napoleon.md) | Napoleon (Rome) | geo-branch | colonial-tail | planned |
+| persia | [essay-rome-persia.md](essay-rome-persia.md) | Persia (Rome) | geo-branch | — | planned |
+| republic | [essay-rome-republic.md](essay-rome-republic.md) | Republic (Rome) | civic-chain | republic-principate | planned |
+| renaissance | [essay-rome-renaissance.md](essay-rome-renaissance.md) | Renaissance (Rome) | peninsula | italian-wars | planned |
+| schism | [essay-rome-schism.md](essay-rome-schism.md) | Schism (Rome) | faith-hinge | 1054-schism | planned |
+| slavia | [essay-rome-slavia.md](essay-rome-slavia.md) | Slavia (Rome) | geo-branch | 1054-schism | planned |
+
+## Term depth (volume root)
+
+Six whole-work term files — **`../rome-{term}.md`** (not under `essays/`): [civilization](../rome-civilization.md) · [empire](../rome-empire.md) · [faith](../rome-faith.md) · [science](../rome-science.md) · [memory](../rome-memory.md) · [entropy](../rome-entropy.md). Hub: [connectivity-rome.md](connectivity-rome.md).
+
 ## Keep at volume root
 
 | File | Why |
@@ -62,7 +106,7 @@ One friction node × six lenses — membrane visible; link term SSOT, do not dup
 | `shelf-reader.md` | Source-navigation apparatus |
 | `bibliography.md` | Redirect to `sources/rome/` |
 | `sacred-grammar.md` | Export-validator redirect stub |
-| `rome-{term}.md` (six lenses) | Theory case depth — orchestrated from [theory/](../../../theory/README.md) |
+| `rome-{term}.md` (six terms) | Term depth — [§ Term depth](#term-depth-volume-root) · [theory/](../../../theory/README.md) |
 
 ## Archive
 
