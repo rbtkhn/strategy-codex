@@ -12,7 +12,7 @@ hex_link: republic-principate
 
 ## Where This Sits
 
-**Essay-rome** · tier **civic-chain** · `hex_link`: **republic-principate**. This is a **standalone hinge essay**: from the Rubicon crossing through perpetual dictatorship to the Ides—**49–44 BC**—not principate settlement. Opens where [essay-rome-republic](essay-rome-republic.md) closes (Rubicon threshold; Caesar named, not developed). Closes where [essay-rome-augustus](essay-rome-augustus.md) (planned) will institutionalize what Caesar **personalized**.
+**Essay-rome** · tier **civic-chain** · `hex_link`: **republic-principate**. This is a **standalone hinge essay**: from the Rubicon crossing through perpetual dictatorship to the Ides—**49–44 BC**—not principate settlement. Opens where [essay-rome-republic](essay-rome-republic.md) closes (Rubicon threshold; Caesar named, not developed). Closes where [essay-rome-augustus](essay-rome-augustus.md) institutionalizes what Caesar **personalized**.
 
 On the volume chain, Caesar is the **command hinge** ([rome-memory — chain spine](../rome-memory.md#chain-spine)): collegial form still speaks; **deciding power** migrates to the general.
 
@@ -36,7 +36,7 @@ What [essay-rome-genesis](essay-rome-genesis.md) proved as **anti-monarchical ha
 
 Gruen’s late republic reminds us the system was contested, not pre-dead, before 49 BC—this essay still argues that **Pharsalus reveals** where loyalty and tempo already pointed; it did not **create** the migration of sovereignty, but made it **visible** in a form no decree could reverse. Modern military readers—Keegan on **mask of command**, Napoleon on **campaign mechanics** (interpretive lenses only), Goldsworthy on **command vs institution**—converge on Pharsalus as the moment **personal command** outweighs senatorial authorization.
 
-The essay closes when **Caesar is dead and the republic does not return**—[essay-rome-augustus](essay-rome-augustus.md) (planned) owns institutional settlement. For the transformation hinge: [hexagonal-republic-principate](hexagonal-republic-principate-rome.md).
+The essay closes when **Caesar is dead and the republic does not return**—[essay-rome-augustus](essay-rome-augustus.md) owns institutional settlement. For the transformation hinge: [hexagonal-republic-principate](hexagonal-republic-principate-rome.md).
 
 **Membrane:** transformation ≠ rupture; empire overreach ≠ entropy; defer rosters to term depth. Republic handoff: [essay-rome-republic](essay-rome-republic.md).
 
@@ -66,7 +66,7 @@ Transformation, not empire born ex nihilo: the **chain continues**; deciding pow
 
 Victory does not restore collegial balance—it **concentrates** it. Suetonius records the magisterial absurdity made normal: Caesar named **dictator for life**—offices persist, but sovereignty sits in the person.[^14] Mommsen’s paradox: he governed as a **monarch** because the state could no longer be governed otherwise, yet without legal monarchy his position was simultaneously indispensable and intolerable.[^15]
 
-Mechanism matters in one breath—calendar reform, debt relief, colonial settlement—**administrative rationalization** without a crown’s name. Scipio Africanus, optional contrast, returned command to civitas; Caesar **does not**. This is **not** *princeps* yet: no Augustan settlement, no machinery of one-man rule fully dressed in republican titles—that defer belongs to [essay-rome-augustus](essay-rome-augustus.md) (planned).
+Mechanism matters in one breath—calendar reform, debt relief, colonial settlement—**administrative rationalization** without a crown’s name. Scipio Africanus, optional contrast, returned command to civitas; Caesar **does not**. This is **not** *princeps* yet: no Augustan settlement, no machinery of one-man rule fully dressed in republican titles—that defer belongs to [essay-rome-augustus](essay-rome-augustus.md).
 
 ## Ides — failed restoration
 
@@ -144,14 +144,14 @@ The chain continues: **Augustus** (named once) will **institutionalize** what Ca
 | **Hub** | [Connectivity Rome](connectivity-rome.md) · [Essay-rome registry](connectivity-rome.md#essay-rome-registry) |
 | **hex-frame** | [hexagonal-republic-principate](hexagonal-republic-principate-rome.md) |
 | **Term depth** | [rome-memory — chain spine](../rome-memory.md#chain-spine) · [rome-empire — sovereignty chain](../rome-empire.md#sovereignty-chain-empire-lens) · [rome-civilization — sovereignty chain](../rome-civilization.md#sovereignty-chain-civilization-lens) |
-| **Peer essay-rome** | [essay-rome-republic](essay-rome-republic.md) · [essay-rome-genesis](essay-rome-genesis.md) · [essay-rome-augustus](essay-rome-augustus.md) (planned) · [essay-rome-napoleon](essay-rome-napoleon.md) (comparative defer) |
+| **Peer essay-rome** | [essay-rome-republic](essay-rome-republic.md) · [essay-rome-genesis](essay-rome-genesis.md) · [essay-rome-augustus](essay-rome-augustus.md) · [essay-rome-napoleon](essay-rome-napoleon.md) (comparative defer) |
 | **Constitutional** | [civilization-rome](civilization-rome.md) (Part 1 · republican ethic) |
 | **Sources** | [primary/ancient.md](../../../sources/rome/primary/ancient.md) · [secondary/ancient.md](../../../sources/rome/secondary/ancient.md) · [shelf-reader](../shelf-reader.md) |
 | **Sub-lens** | [military-history-rome](military-history-rome.md) |
 
 ## Return Path
 
-Caesar ends when **personal command has refuted senatorial sovereignty**—not when the *princeps* settles the form. Return to [Connectivity Rome](connectivity-rome.md) for lattice routing, or to [hexagonal-republic-principate](hexagonal-republic-principate-rome.md) for the transformation hinge. Republic handoff: [essay-rome-republic](essay-rome-republic.md). Institutionalizer defer: [essay-rome-augustus](essay-rome-augustus.md) (planned). Chain doctrine: [rome-memory](../rome-memory.md).
+Caesar ends when **personal command has refuted senatorial sovereignty**—not when the *princeps* settles the form. Return to [Connectivity Rome](connectivity-rome.md) for lattice routing, or to [hexagonal-republic-principate](hexagonal-republic-principate-rome.md) for the transformation hinge. Republic handoff: [essay-rome-republic](essay-rome-republic.md). Institutionalizer defer: [essay-rome-augustus](essay-rome-augustus.md). Chain doctrine: [rome-memory](../rome-memory.md).
 
 - [Essays index](README.md) · [Essay-rome registry](README.md#essay-rome)
 - [Rome volume](../README.md) · [Term depth](../README.md#term-depth-volume-root)

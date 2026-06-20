@@ -73,7 +73,7 @@ Twenty-one standalone lattice nodes under **Civilizational Statecraft**. Registr
 |------|------|-----|------|----------|--------|
 | abraham | [essay-rome-abraham.md](essay-rome-abraham.md) | Abraham (Rome) | faith-hinge | — | planned |
 | africa | [essay-rome-africa.md](essay-rome-africa.md) | Africa (Rome) | geo-branch | colonial-tail | planned |
-| augustus | [essay-rome-augustus.md](essay-rome-augustus.md) | Augustus (Rome) | civic-chain | republic-principate | planned |
+| augustus | [essay-rome-augustus.md](essay-rome-augustus.md) | Augustus (Rome) | civic-chain | republic-principate | active |
 | britannia | [essay-rome-britannia.md](essay-rome-britannia.md) | Britannia (Rome) | geo-branch | colonial-tail | planned |
 | caesar | [essay-rome-caesar.md](essay-rome-caesar.md) | Caesar (Rome) | civic-chain | republic-principate | active |
 | carthage | [essay-rome-carthage.md](essay-rome-carthage.md) | Carthage (Rome) | geo-branch | — | planned |
