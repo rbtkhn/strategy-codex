@@ -67,31 +67,18 @@ Informal name: **hex-frame**. On-disk: `hexagonal-*-rome.md`. One friction node 
 
 ## Essay-rome
 
-Twenty-one standalone lattice nodes under **Civilizational Statecraft**. Registry SSOT: [connectivity-rome.md § Essay-rome registry](connectivity-rome.md#essay-rome-registry). Template: [_template-essay-rome.md](_template-essay-rome.md). **Alphabetical by slug — not read order.**
+Twenty-one standalone lattice nodes under **Civilizational Statecraft**. **Registry SSOT:** [`essay-rome.registry.yaml`](essay-rome.registry.yaml) · human hub: [connectivity-rome.md § Essay-rome registry](connectivity-rome.md#essay-rome-registry). Templates: [_template-essay-rome.md](_template-essay-rome.md) · [_template-essay-rome.meta.yaml](_template-essay-rome.meta.yaml).
 
-| slug | file | H1 | tier | hex_link | status |
-|------|------|-----|------|----------|--------|
-| abraham | [essay-rome-abraham.md](essay-rome-abraham.md) | Abraham (Rome) | faith-hinge | — | planned |
-| africa | [essay-rome-africa.md](essay-rome-africa.md) | Africa (Rome) | geo-branch | colonial-tail | planned |
-| augustus | [essay-rome-augustus.md](essay-rome-augustus.md) | Augustus (Rome) | civic-chain | republic-principate | active |
-| britannia | [essay-rome-britannia.md](essay-rome-britannia.md) | Britannia (Rome) | geo-branch | colonial-tail | planned |
-| caesar | [essay-rome-caesar.md](essay-rome-caesar.md) | Caesar (Rome) | civic-chain | republic-principate | active |
-| carthage | [essay-rome-carthage.md](essay-rome-carthage.md) | Carthage (Rome) | geo-branch | — | planned |
-| charlemagne | [essay-rome-charlemagne.md](essay-rome-charlemagne.md) | Charlemagne (Rome) | geo-branch | — | planned |
-| constantinople | [essay-rome-constantinople.md](essay-rome-constantinople.md) | Constantinople (Rome) | east-imperial | 1453, justinian-529 | planned |
-| crusades | [essay-rome-crusades.md](essay-rome-crusades.md) | Crusades (Rome) | faith-hinge | — | planned |
-| egypt | [essay-rome-egypt.md](essay-rome-egypt.md) | Egypt (Rome) | geo-branch | — | planned |
-| francia | [essay-rome-francia.md](essay-rome-francia.md) | Francia (Rome) | geo-branch | colonial-tail | planned |
-| genesis | [essay-rome-genesis.md](essay-rome-genesis.md) | Genesis (Rome) | civic-chain | — | active |
-| germania | [essay-rome-germania.md](essay-rome-germania.md) | Germania (Rome) | geo-branch | — | planned |
-| iberia | [essay-rome-iberia.md](essay-rome-iberia.md) | Iberia (Rome) | geo-branch | colonial-tail | planned |
-| italia | [essay-rome-italia.md](essay-rome-italia.md) | Italia (Rome) | peninsula | italian-wars | planned |
-| napoleon | [essay-rome-napoleon.md](essay-rome-napoleon.md) | Napoleon (Rome) | geo-branch | colonial-tail | planned |
-| persia | [essay-rome-persia.md](essay-rome-persia.md) | Persia (Rome) | geo-branch | — | planned |
-| republic | [essay-rome-republic.md](essay-rome-republic.md) | Republic (Rome) | civic-chain | republic-principate | active |
-| renaissance | [essay-rome-renaissance.md](essay-rome-renaissance.md) | Renaissance (Rome) | peninsula | italian-wars | planned |
-| schism | [essay-rome-schism.md](essay-rome-schism.md) | Schism (Rome) | faith-hinge | 1054-schism | planned |
-| slavia | [essay-rome-slavia.md](essay-rome-slavia.md) | Slavia (Rome) | geo-branch | 1054-schism | planned |
+**Civic-chain read order** (when narrative continuity helps): genesis → republic → caesar → augustus — each active node has a `.meta.yaml` sidecar for routing.
+
+| slug | essay | meta | status |
+|------|-------|------|--------|
+| genesis | [essay-rome-genesis.md](essay-rome-genesis.md) | [essay-rome-genesis.meta.yaml](essay-rome-genesis.meta.yaml) | active |
+| republic | [essay-rome-republic.md](essay-rome-republic.md) | [essay-rome-republic.meta.yaml](essay-rome-republic.meta.yaml) | active |
+| caesar | [essay-rome-caesar.md](essay-rome-caesar.md) | [essay-rome-caesar.meta.yaml](essay-rome-caesar.meta.yaml) | active |
+| augustus | [essay-rome-augustus.md](essay-rome-augustus.md) | [essay-rome-augustus.meta.yaml](essay-rome-augustus.meta.yaml) | active |
+
+Full lattice (21 nodes, alphabetical by slug in YAML): [`essay-rome.registry.yaml`](essay-rome.registry.yaml).
 
 ## Term depth (volume root)
 

@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.38** — Rome civic-chain essay/meta split: reader-facing `.md` (lede · body · Scholarship · Notes) + `.meta.yaml` sidecars; registry SSOT [`essay-rome.registry.yaml`](../volumes/rome/essays/essay-rome.registry.yaml).
+
 **v0.1.37** — Rome essay-rome genesis hygiene: anti-anachronism (Greek upstream, Polybius retrospective), 312 BC forward glance, Twelve Tables defer, tighter Notes refs.
 
 **v0.1.36** — Rome essay-rome republic rewrite: standalone civic-chain essay (~390–49 BC) — Italian federation, Conflict of Orders, Polybius VI, Punic arc, provinces, late-republic strain; 17 primary pins · full Scholarship table.
@@ -13,6 +15,17 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.38 — civic-chain essay/meta split
+
+| Change | Detail |
+|--------|--------|
+| `essay-rome.registry.yaml` | Machine SSOT for 21 essay-rome nodes · civic-chain read order |
+| `essay-rome-{genesis,republic,caesar,augustus}.meta.yaml` | Routing · deferrals · membrane · links migrated from essay bodies |
+| Civic-chain `.md` files | Thesis-first lede · no Where This Sits / Links / Return Path / YAML frontmatter |
+| Templates | `civ-state-essay-template.md` · `_template-essay-rome.md` · `_template-essay-rome.meta.yaml` |
+| `connectivity-rome.md` · `README.md` | Registry table dedup → YAML pointer |
+| `reader-guide.md` | Essay vs meta sidecar doctrine |
 
 ### v0.1.37 — essay-rome genesis hygiene
 
