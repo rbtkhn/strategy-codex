@@ -200,6 +200,8 @@ Some volume interpretive nodes split **reader-facing prose** from **editor/machi
 
 **Literary-academic prose:** Essay bodies should read as finished historical writing—concrete institutions, actors, and events before abstraction; complete sentences rather than colon chains or planning shorthand; section headings that sound like essay titles, not internal labels. Earn large claims through narration. Editor scaffolding vocabulary lives in `.meta.yaml`, not reader prose. Rome civic-chain essays (genesis–augustus) target roughly **1,850–2,150 words** in the body before `## Notes`.
 
+**Geo-strategic prose (Rome civic-chain):** Geography is not background scenery. Each paragraph should show how place shaped power—river crossings, peninsula federation, sea lanes, provinces, grain routes, frontiers—as constraint or incentive, narrated before interpretation.
+
 ## What This Work Must Prevent
 
 It must prevent five errors:

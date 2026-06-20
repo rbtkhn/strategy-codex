@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.47** — Geo-strategic prose pass: Rome genesis, republic, caesar, augustus — place-as-power narration, causal constraints, de-schematic body language; template + reader-guide geo-strategic doctrine.
+
 **v0.1.46** — Civic-chain expansion: Rome genesis, republic, caesar, augustus expanded to ~1,850–2,150 words body each — new sections (Gaul; Peace/Religion; Gallic rebuild split), deeper Punic/province/Social War and settlement/succession narration; appended primary footnotes; template + reader-guide length guidance.
 
 **v0.1.45** — Literary-academic prose: civic-chain four — essay H2 titles, ledes, and body rewritten from schematic to historical narration; prose-voice doctrine in template + reader-guide.
@@ -31,6 +33,13 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.47 — geo-strategic prose pass (civic-chain four)
+
+| Change | Detail |
+|--------|--------|
+| Civic-chain `.md` bodies | Geo-strategic emphasis — Tiber/Italy/Mediterranean/provinces/frontiers as constraints on power; causal not moral-biography; de-schematic (shell, machinery, smaller world) |
+| `civ-state-essay-template.md` · `reader-guide.md` | Geo-strategic prose doctrine documented |
 
 ### v0.1.46 — civic-chain expansion (~2k words)
 

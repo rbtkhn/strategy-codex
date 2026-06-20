@@ -4,19 +4,19 @@ Around 390 BC, after the Gallic sack, Rome chose to rebuild rather than abandon 
 
 The Republic that followed was not a fixed constitution imposed all at once. It was a working order of magistrates, Senate, assemblies, allies, soldiers, creditors, debtors, patrons, and litigants. As Rome expanded through Italy and then across the sea, those arrangements were repeatedly altered by war. The same institutions that bound citizens and allies together also created new prizes: commands, provinces, contracts, courts, booty, land, and military loyalty.
 
-By the late Republic, Rome had defeated Carthage, absorbed the Hellenistic east, and ordered much of the Mediterranean. Yet the city's political forms had been made for a smaller world. The offices remained; the language of liberty remained; the Senate and assemblies still acted. But armies, provincial wealth, and aristocratic competition increasingly gave decisive power to men who could command outside the old civic limits.
+By the late Republic, Rome had defeated Carthage, absorbed the Hellenistic east, and ordered much of the Mediterranean. The offices of the Republic were created for a ruling class that competed within the city. Expansion changed the stakes. Roads and colonies extended Roman authority through Italy; Sicily drew the city into naval war; Spain and the eastern Mediterranean turned magistracy into provincial command. The institutions remained formally civic, but the geography of Roman power had become imperial. The language of liberty endured; the Senate and assemblies still met. Yet commands, provinces, booty, tax contracts, and military loyalty gave decisive power to men who could operate beyond the peninsula's old civic habits.
 
 ## Italy After the Sack
 
-What the recovery of c. 390 had proved at city scale, federation now had to prove across the peninsula. Rome did not conquer Italy in a single campaign. It fought a long series of wars—against Latins, Samnites, Etruscans, and Greek cities of the south—and learned to win by alliance as much as by battle.
+What the recovery of c. 390 had proved at city scale, federation now had to prove across the peninsula. Rome did not conquer Italy in a single campaign. It fought a long series of wars—against Latins, Samnites, Etruscans, and Greek cities of the south—and learned to win by alliance as much as by battle. The Apennines divided the land into mountain strongholds and local identities; Rome had to hold the peninsula with treaties, colonies, and roads that could move legions as well as decrees.
 
 Allies were bound by treaty. Some received citizenship; others received Latin rights short of full membership; others remained federated states under Roman leadership. Rome demanded military service and loyalty in war; in return it offered protection, a share in spoils, and gradual access to Roman institutions. Incorporation became an advantage: defeated communities could be absorbed rather than destroyed, their manpower added to Roman armies, their elites given paths into Roman patronage networks.
 
 The Samnite wars in particular taught Rome to fight on difficult ground and to hold allies when campaigns lasted years. Pyrrhus brought Hellenistic kingship against the legion: brilliant, theatrical, and unable to leave behind institutions that could outlast his campaign. Plutarch records the king's bitter recognition that one more such victory would ruin him.[^1] Rome won by attrition and alliance, by legion and treaty network rather than by the personal charisma of a single commander.
 
-Livy's republican books trained readers in discipline, oath, and shared sacrifice under expansion.[^2] The annalist did not merely record events; he held up virtues citizens were expected to imitate. When those exempla faded, moral instruction thinned into lament for a character later Romans could admire but no longer reproduce.[^3]
+Livy's republican books trained readers in discipline, oath, and shared sacrifice under expansion.[^2] When those exempla faded, moral instruction thinned into lament for a character later Romans could admire but no longer reproduce.[^3]
 
-Roads and colonies bound the peninsula as surely as oaths did. Roman colonies secured conquered territory; the censor Appius Claudius paved the Appian Way and brought the Aqua Appia into the city—works of public utility that made Roman order visible in stone and water.[^4] Federation was material as well as legal: allies were linked by *viae* as well as by treaty.
+Roads and colonies bound the peninsula as surely as oaths did. Roman colonies secured conquered territory and served as military corridors; the censor Appius Claudius paved the Appian Way and brought the Aqua Appia into the city—works of public utility that made Roman order visible in stone and water.[^4] Federation was material as well as legal: allies were linked by *viae* as well as by treaty.
 
 ## The Conflict of the Orders
 
@@ -36,7 +36,7 @@ That balance, Polybius argued, explained endurance where brilliant single-regime
 
 ## The Punic Wars and the Mediterranean
 
-The wars with Carthage tested whether Rome could become a sea power as well as a land power. Carthage held naval commerce, African grain, and a maritime empire; Rome held the legion and the manpower of Italy.
+The wars with Carthage tested whether Rome could become a sea power as well as a land power. Carthage held naval commerce, African grain, fleets, and ports across the western Mediterranean; Rome held the legion and the manpower of Italy. Once Rome crossed into Sicily, it entered a maritime struggle for grain, sea lanes, and overseas garrisons. The Republic was no longer only an Italian power.
 
 The First Punic War (264–241 BC) forced Rome to build a fleet and fight for Sicily. Rome learned seamanship painfully, lost ships to storms and inexperience, and finally won by persistence. Sicily became the first province outside Italy—a precedent that mattered as much as the victory itself. Roman senators who had thought in terms of Italian land now debated naval bases, grain routes, and overseas garrisons.
 
@@ -52,9 +52,9 @@ Mediterranean hegemony followed: Spain, Greece, Macedon, Asia. The republic had 
 
 Expansion forced Rome to decide who counted as Roman. Allies became citizens; citizens became soldiers; soldiers became voters—sometimes far from the city itself. Long before Rome accepted an emperor, it had created the offices, provinces, tax systems, courts, and military commands through which imperial power would later operate: province, governor, *provincia*, publicani.
 
-A province was not merely conquered land. It was a field of administration governed by a Roman magistrate or pro-magistrate with *imperium*, supported by quaestors, clerks, and soldiers. Tax collection was often contracted to publicani—private companies that bid for the right to collect and kept the difference between what they gathered and what they owed the state. That system enriched contractors and governors alike when unchecked. Cicero's prosecution of Verres made the ethic visible at empire scale: a governor was sent to administer a province, not to rob it.[^12]
+A province was not merely conquered land. It was a field of administration governed by a Roman magistrate or pro-magistrate with *imperium*, supported by quaestors, clerks, and soldiers. Tax collection was often contracted to publicani—private companies that bid for the right to collect and kept the difference between what they gathered and what they owed the state. That system enriched contractors and governors alike when unchecked. Cicero's prosecution of Verres made the ethic visible at empire scale: a governor was sent to administer a province, not to rob it.[^12] Commands in Spain, Greece, and Asia could last years and return wealth, clients, and military reputation that a consulship alone had never promised.
 
-The Social War of 91–88 BC brought the citizenship question to crisis. Italian allies who had fought Rome's wars for generations demanded entry into the Roman people itself. When negotiation failed, they rebelled under their own consuls and coinage. Rome won, but the price was further extension of citizenship—recognition that military participation could no longer be separated from political membership.[^20]
+The Social War of 91–88 BC brought the citizenship question to crisis. Italian allies who had marched on Rome's roads and fought in Rome's wars for generations demanded entry into the Roman people itself. When negotiation failed, they rebelled under their own consuls and coinage. Rome won, but the price was further extension of citizenship—recognition that military service across the peninsula could no longer be separated from political membership.[^20]
 
 Strabo saw the mature emporium—the Tiber receiving the merchandise of the world—and republican expansion had made such a city imaginable.[^13] Roman power did not remain an abstraction of magistracies and decrees. It appeared in paved roads, in water brought across valleys into the city, and in the routes by which soldiers, governors, merchants, and litigants moved through an expanding world.
 
@@ -68,9 +68,9 @@ Marius professionalized the army and saved the state in the Jugurthine and Cimbr
 
 Sallust, writing of Catiline, saw luxury and faction corrode *virtus*.[^15] In the Jugurthine War he traced how provincial greed and senatorial folly corrupted Rome's armies, and how Marius emerged from that stain.[^16] Appian foreshadowed civil war as a recurring pattern: rival commanders with legions, not a single Tarquin to expel.[^17]
 
-The Republic did not cease to function all at once. Its offices, assemblies, laws, and ceremonies remained. Yet the rewards of empire—commands, provinces, contracts, land, and military loyalty—gave ambitious men means of power that the older civic order could no longer reliably contain.
+The Republic did not fail because its language disappeared. Its offices, assemblies, laws, and ceremonies remained. It failed because its institutions could no longer control the powers and rewards created by conquest—provinces, commands, booty, tax contracts, land, clients, and military reputation. The Mediterranean had given Rome fleets, grain routes, eastern kingdoms, Spanish wars, and long commands; the geography of Roman power changed faster than the political habits that were supposed to govern it.
 
-By the 60s and 50s BC, elections cost fortunes; courts prosecuted rivals; tribunes vetoed; generals held provinces for years. The same aristocracy that had governed Italy now competed for prizes that could raise or ruin a family in a single season. When procedure could no longer decide between armies, personal command would expose what collegial office could still debate but not enforce—and Caesar would cross that line.
+By the 60s and 50s BC, elections cost fortunes; courts prosecuted rivals; tribunes vetoed; generals held provinces for years. When procedure could no longer decide between armies, personal command would expose what collegial office could still debate but not enforce—and Caesar would cross that line.
 
 ## Notes
 
