@@ -30,8 +30,31 @@ source_note: Operator-pasted YouTube transcript; Dialogue Works host self-dates 
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained (Marandi/Miranda/Mendi spellings); not human-verified verbatim against audio. Misfiled Nawfal host corrected to Dialogue Works (Nima Alkhorshid).
+editorial_note: Operator-pasted transcript; ASR artifacts retained (Marandi/Miranda/Mendi spellings); not human-verified verbatim against audio. Misfiled Nawfal host corrected to Dialogue Works (Nima Alkhorshid). Wire-verify header pass 2026-06-19.
 transcript_wrapper_tier: clean
+verify_receipt: 2026-06-19
+verify:
+  - claim: Bürgenstock/Switzerland US–Iran technical talks postponed Fri 19 Jun
+    verdict: supported
+    note: BBC · AP · Swiss FDFA carry · cross-ref J19-2 · J17-5 Fri window did not convene
+  - claim: Lebanon health ministry ≥47 killed Jun 19 (Nabatiyeh district mesh)
+    verdict: supported
+    note: BBC Jun 19 · cross-ref J19-10; wounded count 97 vs 106 host carry partial
+  - claim: Four IDF soldiers killed near Nabatiyeh
+    verdict: supported
+    note: AP · BBC Jun 19 · cross-ref J19-11
+  - claim: Ceasefire holds cleanly after declared deadline
+    verdict: contested
+    note: BBC live post-16:00 strikes · cross-ref J19-5
+  - claim: IRGC VHF Strait closed until Lebanon/MOU conditions met
+    verdict: contested
+    note: desk/transcript carry · dual grammar with partial transit · cross-ref J19-8
+  - claim: Iran delayed talks until Lebanon hostilities stop / MOU implementation visible
+    verdict: partial
+    note: AP regional officials · Anadolu Pakistani mediation · cross-ref J19-3
+  - claim: Trump — Iran will not receive unfrozen assets / no money transfer
+    verdict: partial
+    note: Truth Social same-day carry · transfer rumor not verified · cross-ref J19-12 · falsifier #2 open
 ---
 
 # Seyed M. Marandi & Larry Johnson: BREAKING: Iran SHUTS DOWN Geneva Talks Over MoU Implementation

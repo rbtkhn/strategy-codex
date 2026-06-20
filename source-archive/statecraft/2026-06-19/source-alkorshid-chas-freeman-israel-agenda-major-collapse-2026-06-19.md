@@ -28,8 +28,19 @@ source_note: Operator-pasted transcript; host self-dates Friday 19 June 2026. Le
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio.
+editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Wire-verify header pass 2026-06-19.
 transcript_wrapper_tier: clean
+verify_receipt: 2026-06-19
+verify:
+  - claim: Bürgenstock / US–Iran technical talks planned Fri 19 Jun postponed; Vance travel off
+    verdict: supported
+    note: BBC Jun 19 · AP · ToI · cross-ref [J19-2 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md)
+  - claim: State Dept discussed holding Iran negotiations in Washington DC next week
+    verdict: unclear
+    note: Host/desk carry only — no wire-primary in triage · cross-ref [J19-13 venue child note](../../../statecraft/daily/2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md)
+  - claim: J17-5 Fri 19 Jun ceremony window — talks did not convene
+    verdict: supported
+    note: Postponement resolves Jun 19 branch · cross-ref J19-15
 ---
 
 # Amb. Chas Freeman: Israel's Agenda Suffers MAJOR Collapse

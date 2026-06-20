@@ -26,9 +26,20 @@ source_note: Operator-pasted YouTube transcript; Nawfal×Weichert 19 Jun 2026. W
 evidence_grade: transcript-bearing
 opening_tier: heavy-banter
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Closing lineup promo trimmed in place; SSOT body otherwise preserved.
+editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Closing lineup promo trimmed in place; SSOT body otherwise preserved. Wire-verify header pass 2026-06-19.
 transcript_wrapper_tier: clean
 opening_trim_applied: true
+verify_receipt: 2026-06-19
+verify:
+  - claim: WaPo — US intelligence warned Trump admin Netanyahu likely to undermine US–Iran MOU (Lebanon focus)
+    verdict: supported
+    note: Ynet/Mediaite/News18 WaPo carry · cross-ref [J19-1 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md)
+  - claim: Bürgenstock / US–Iran talks planned Fri 19 Jun postponed; Vance travel off
+    verdict: supported
+    note: BBC Jun 19 · AP · cross-ref J19-2 · same news cycle as sabotage intel lane
+  - claim: State Dept discussed holding Iran negotiations in Washington DC next week
+    verdict: unclear
+    note: Host/desk carry only — no wire-primary in triage · cross-ref [J19-13 venue child note](../../../statecraft/daily/2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md)
 ---
 
 # BREAKING: U.S. INTEL WARNS OF ISRAELI SABOTAGE – w/ Geopolitics Expert Brandon Weichert
