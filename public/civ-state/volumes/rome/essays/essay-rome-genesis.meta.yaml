@@ -1,0 +1,73 @@
+title: Genesis (Rome)
+volume: rome
+essay_id: genesis
+status: active
+period: "foundation through early Republic (~753–390 BC)"
+tier: civic-chain
+hex_link: null
+standalone: true
+
+role:
+  type: standalone formation essay
+  function: substrate through early republican proof (to c. 390 BC)
+  chain_position: shows Republic opener in embryo; peer to republic essay, not prerequisite chapter
+  opens_after: null
+  closes_before: essay-rome-republic.md
+
+where_this_sits: |
+  Essay-rome · tier civic-chain · no hex_link. On the volume chain, Romulus and Aeneas remain substrate (rome-memory chain spine); the Republic is the political chain opener. Genesis shows that opener working in embryo; the republic essay runs it at Mediterranean scale.
+
+proves_here:
+  - myth, Greek upstream, regal synthesis, Tiber/city-form
+  - 509 expulsion · consuls/tribunes named
+  - Polybius VI + Aristotle IV.11 as retrospective formation markers (teaser)
+  - c. 390 Gallic recovery as standalone close
+
+defers_to:
+  essay-rome-republic.md:
+    - Punic wars · Samnite campaigns · full Conflict of Orders
+    - institutional arc at depth
+    - full Book VI exegesis · Twelve Tables at depth
+    - later republican crisis pattern
+
+not_this_file:
+  - constitutional Part 1
+  - term rosters
+  - hex six-pass
+  - late republic
+  - principate
+
+reading_posture_scope: |
+  Inheritance (epic and Greek), regal synthesis on the Tiber, king-expulsion, and first republican habits until early survival is legible. Standalone — complete without peer essays.
+
+membrane:
+  - empire overreach ≠ entropy
+  - defer rosters to term depth
+
+routing:
+  hub: connectivity-rome.md
+  registry: essay-rome.registry.yaml
+  peer_essays:
+    - essay-rome-republic.md
+  hex_frame: null
+  term_depth:
+    - ../rome-memory.md#chain-spine
+    - ../rome-civilization.md#dual-language-heritage-civilization-lens
+  constitutional:
+    - civilization-rome.md
+  sources:
+    - ../../../sources/rome/primary/ancient.md
+    - ../../../sources/rome/secondary/ancient.md
+    - ../shelf-reader.md
+  sub_lens:
+    - dual-language-heritage-rome.md
+    - geo-strategy-rome.md
+  return_path:
+    - connectivity-rome.md
+    - civilization-rome.md
+    - ../rome-memory.md
+    - essay-rome-republic.md
+    - README.md
+    - ../README.md
+
+close_when: formation is legible — not when empire begins
