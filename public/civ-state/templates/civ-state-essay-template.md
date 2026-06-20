@@ -6,7 +6,7 @@
 
 <!-- Citation doctrine: modern secondary sources (including Gibbon, Mommsen, Syme, Goldsworthy, etc.) must not appear as named authorities in body prose. They belong in footnotes under ## Notes only. Body = authorial synthesis + ancient/medieval/official voices; pattern: [authorial claim][^n]. -->
 
-<!-- Prose voice: literary-academic historical essay — interpretive but not schematic. Concrete before abstract (magistrates, provinces, armies, places before "form"). Complete sentences; avoid colon chains and slogan compression. H2 headings = essay titles (wars, places, offices, dates), not internal labels — no em-dash taxonomy suffixes. Avoid in body unless earned: grammar, hinge, apparatus, sequence, strain, proof, logic, stacks, substrate, nullification, category work, city-form. Opening lede: 2–4 paragraphs — event → working order → expansion → late pressure. -->
+<!-- Prose voice: literary-academic historical essay — interpretive but not schematic. Concrete before abstract (magistrates, provinces, armies, places before "form"). Complete sentences; avoid colon chains and slogan compression. H2 headings = essay titles (wars, places, offices, dates), not internal labels — no em-dash taxonomy suffixes. Avoid in body unless earned: grammar, hinge, apparatus, sequence, strain, proof, logic, stacks, substrate, nullification, category work, city-form. Opening lede: 2–4 paragraphs — event → working order → expansion → late pressure. Civic-chain essays (Rome genesis–augustus): target ~1,850–2,150 words body (before ## Notes). -->
 
 <!-- Rome essay-rome nodes (volume-local only — same reader scaffold as all volumes):
      H1: {Topic} — one word; no volume suffix (volume is implicit from path)

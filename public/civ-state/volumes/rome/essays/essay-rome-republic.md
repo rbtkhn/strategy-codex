@@ -8,43 +8,53 @@ By the late Republic, Rome had defeated Carthage, absorbed the Hellenistic east,
 
 ## Italy After the Sack
 
-What the recovery of c. 390 had proved at city scale, federation now had to prove across the peninsula. The Samnite wars taught Rome to bind allies by treaty, to extend citizenship in degrees, and to preserve Roman primacy even while absorbing former enemies as participants in order rather than as subjects alone—a habit of incorporation empire would later extend far beyond Italy.
+What the recovery of c. 390 had proved at city scale, federation now had to prove across the peninsula. Rome did not conquer Italy in a single campaign. It fought a long series of wars—against Latins, Samnites, Etruscans, and Greek cities of the south—and learned to win by alliance as much as by battle.
 
-Pyrrhus brought Hellenistic kingship against the legion: brilliant, theatrical, and unable to leave behind institutions that could outlast his campaign. Plutarch records the king's bitter recognition that one more such victory would ruin him.[^1] Rome won by attrition and alliance, by legion and treaty network rather than by the personal charisma of a single commander. Greek kingship offered a mirror of Alexander's universalism without durable transmission; Rome kept the institutions that could survive the general who founded them.
+Allies were bound by treaty. Some received citizenship; others received Latin rights short of full membership; others remained federated states under Roman leadership. Rome demanded military service and loyalty in war; in return it offered protection, a share in spoils, and gradual access to Roman institutions. Incorporation became an advantage: defeated communities could be absorbed rather than destroyed, their manpower added to Roman armies, their elites given paths into Roman patronage networks.
+
+The Samnite wars in particular taught Rome to fight on difficult ground and to hold allies when campaigns lasted years. Pyrrhus brought Hellenistic kingship against the legion: brilliant, theatrical, and unable to leave behind institutions that could outlast his campaign. Plutarch records the king's bitter recognition that one more such victory would ruin him.[^1] Rome won by attrition and alliance, by legion and treaty network rather than by the personal charisma of a single commander.
 
 Livy's republican books trained readers in discipline, oath, and shared sacrifice under expansion.[^2] The annalist did not merely record events; he held up virtues citizens were expected to imitate. When those exempla faded, moral instruction thinned into lament for a character later Romans could admire but no longer reproduce.[^3]
 
-Roads bound the peninsula as surely as oaths did. The censor Appius Claudius paved the Appian Way and brought the Aqua Appia into the city—works of public utility that made Roman order visible in stone and water.[^4] Federation was material as well as legal: allies were linked by *viae* as well as by treaty.
+Roads and colonies bound the peninsula as surely as oaths did. Roman colonies secured conquered territory; the censor Appius Claudius paved the Appian Way and brought the Aqua Appia into the city—works of public utility that made Roman order visible in stone and water.[^4] Federation was material as well as legal: allies were linked by *viae* as well as by treaty.
 
 ## The Conflict of the Orders
 
-Much of this internal deepening preceded and ran parallel with outward expansion. The fracture was republican, not regal. Plebeians refused to remain a permanent military underclass; patricians refused to surrender privilege without compensation. Tribunes, the concilium plebis, and written law culminating in the Twelve Tables made law a public thing rather than a patrician secret.[^5]
+Much of this internal deepening preceded and ran parallel with outward expansion. The fracture was republican, not regal. Plebeians refused to remain a permanent military underclass; patricians refused to surrender privilege without compensation. Tribunes, the concilium plebis, and written law culminating in the Twelve Tables made law a public thing rather than a patrician secret.[^5] Posted law meant that rights and penalties could be known outside the houses of elite families—a visible standard the community could invoke.
 
-Cicero stated the republican ideal plainly: the state exists for the common good, and office is a trust.[^6] In *De Officiis* he sharpened the ethic further: those who administer the republic must serve justice, not private advantage.[^7]
+Cicero stated the republican ideal plainly: the state exists for the common good, and office is a trust.[^6] In *De Officiis* he sharpened the ethic further: those who administer the republic must serve justice, not private advantage.[^7] The Conflict of the Orders was not a single event but generations of pressure: access to magistracies, debt relief, marriage law, and the right to know the law that governed life and death.
 
 Aristotle's theory of the middle regime named why mixed forms endure—they stand between extremes.[^8] At Rome the theory worked under expansion: consuls led armies, the Senate allocated provinces, assemblies ratified war and law. This was neither Athenian maritime democracy nor Macedonian monarchy, but collegial office renewed year by year.
 
 ## Polybius and the Mixed Constitution
 
-Polybius wrote after Rome had broken Greek independence, and he explained why Greek categories fit Roman practice. Taken hostage in Rome, he became the city's Greek analyst: power was distributed among people, Senate, and magistrates so that no part plainly dominated, each checking the others by the necessity of survival.[^9] Consuls commanded armies but held office for a single year, two at a time; the Senate carried continuity in finance and foreign policy; assemblies elected magistrates and ratified law; tribunes vetoed and spoke for plebeian power. This was mechanism, not metaphor.
+Polybius wrote after Rome had broken Greek independence, and he explained why Greek categories fit Roman practice. Taken hostage in Rome, he became the city's Greek analyst: power was distributed among people, Senate, and magistrates so that no part plainly dominated, each checking the others by the necessity of survival.[^9]
+
+Consuls commanded armies but held office for a single year, two at a time, and had to answer to the Senate and assemblies when they returned. The Senate carried continuity in finance, foreign embassies, and the administration of Italy. Assemblies elected magistrates, ratified law, and declared war. Tribunes vetoed and spoke for plebeian power, interrupting magisterial action in the name of the people. Each part needed the others; each could obstruct the others; none could safely ignore the rest.
 
 That balance, Polybius argued, explained endurance where brilliant single-regime cities failed. He also recorded reciprocal penetration: language, education, and habit flowed upward as well as outward, until in many respects the conquerors adopted the culture of the conquered.[^10] At republican scale this meant that Greek philosophical and historical inquiry ran alongside Latin civic law as Rome learned to interpret itself through categories it had not invented.
 
-Herodotus had prepared readers for *nomos*—custom and unwritten law—in every community Rome would meet. Thucydides had prepared them for the fragility of brilliant arrangements. Polybius showed Rome institutionalizing both lessons.
-
 ## The Punic Wars and the Mediterranean
 
-The wars with Carthage tested whether Rome could become a sea power as well as a land power. Carthage held naval commerce and African grain; Rome held the legion and Italian manpower. The First Punic War forced Rome to build a fleet and to leave Italy for Sicily and the sea. The Second Punic War brought existential danger—Hannibal at Cannae left a memory wound in Livy's Rome.[^11] Scipio answered by taking war to Africa, by alliance geometry and institutional patience rather than revenge alone; Zama closed the rivalry by name, not by campaign roster here. The Third Punic War ended Carthage by destruction—harsher than assimilation, and evidence that the republic could choose annihilation when its leaders believed security required it.
+The wars with Carthage tested whether Rome could become a sea power as well as a land power. Carthage held naval commerce, African grain, and a maritime empire; Rome held the legion and the manpower of Italy.
 
-Mediterranean hegemony followed: Spain, Greece, Macedon, Asia. Each annexation altered what Rome was. Governors held *imperium*; allies were graded; booty flowed through senatorial and popular channels. Florus compressed the arc rhetorically, treating Hannibal's ordeal as the republic's dramatic ascent toward Mediterranean mastery in a single moralized breath rather than as chronicle detail.[^18]
+The First Punic War (264–241 BC) forced Rome to build a fleet and fight for Sicily. Rome learned seamanship painfully, lost ships to storms and inexperience, and finally won by persistence. Sicily became the first province outside Italy—a precedent that mattered as much as the victory itself. Roman senators who had thought in terms of Italian land now debated naval bases, grain routes, and overseas garrisons.
+
+The Second Punic War (218–201 BC) brought existential danger. Hannibal crossed the Alps, defeated Roman armies in Italy, and at Cannae destroyed a massive Roman force in a single afternoon. Livy preserves the panic in the city: never before, while Rome itself was still safe, had there been such terror within the walls.[^11] Rome refused to negotiate on Hannibal's terms, raised new legions, and fought abroad while Hannibal remained in Italy. Scipio eventually took the war to Africa, defeated Hannibal at Zama, and closed the rivalry by breaking Carthage's power rather than by annihilating the city—yet.
+
+The Third Punic War (149–146 BC) ended differently. Rome besieged Carthage, destroyed the city, and erased its independence. Incorporation was not Rome's only instrument; when security seemed to require annihilation, the republic could choose annihilation.
+
+Victory in the east brought kingdoms, leagues, and Hellenistic courts under Roman oversight. Macedon and Greece lost independent foreign policy; Asia Minor passed through bequests and wars into provincial or client arrangements; Spain continued to supply metals and soldiers. Roman governors, tax farmers, and merchants followed the legions. Each annexation altered what Rome was—not only on maps, but in the daily competition for office at home.
+
+Mediterranean hegemony followed: Spain, Greece, Macedon, Asia. The republic had become an overseas power as well as an Italian one. Governors held *imperium*; allies were graded; booty flowed through senatorial and popular channels. Florus compressed the arc rhetorically, treating Hannibal's ordeal as the republic's dramatic ascent toward Mediterranean mastery in a single moralized breath rather than as chronicle detail.[^18]
 
 ## Provinces and Citizenship
 
-Expansion forced Rome to decide who counted as Roman. Allies became citizens; citizens became soldiers; soldiers became voters—sometimes far from the city itself. Long before Rome accepted an emperor, it had created the offices, provinces, tax systems, courts, and military commands through which imperial power would later operate: province, governor, *provincia*, publicani. Provinces turned magistracy from a temporary civic office into access to wealth, patronage, armies, and extraction, and senatorial competition followed the prize.
+Expansion forced Rome to decide who counted as Roman. Allies became citizens; citizens became soldiers; soldiers became voters—sometimes far from the city itself. Long before Rome accepted an emperor, it had created the offices, provinces, tax systems, courts, and military commands through which imperial power would later operate: province, governor, *provincia*, publicani.
 
-The Social War of 91–88 BC brought that question to crisis. Italian allies who had fought Rome's wars demanded entry into the Roman people itself.
+A province was not merely conquered land. It was a field of administration governed by a Roman magistrate or pro-magistrate with *imperium*, supported by quaestors, clerks, and soldiers. Tax collection was often contracted to publicani—private companies that bid for the right to collect and kept the difference between what they gathered and what they owed the state. That system enriched contractors and governors alike when unchecked. Cicero's prosecution of Verres made the ethic visible at empire scale: a governor was sent to administer a province, not to rob it.[^12]
 
-Cicero's prosecution of Verres made the ethic visible at empire scale: a governor was sent to administer a province, not to rob it.[^12] Republican morality was being tested against the temptations of provincial rule.
+The Social War of 91–88 BC brought the citizenship question to crisis. Italian allies who had fought Rome's wars for generations demanded entry into the Roman people itself. When negotiation failed, they rebelled under their own consuls and coinage. Rome won, but the price was further extension of citizenship—recognition that military participation could no longer be separated from political membership.[^20]
 
 Strabo saw the mature emporium—the Tiber receiving the merchandise of the world—and republican expansion had made such a city imaginable.[^13] Roman power did not remain an abstraction of magistracies and decrees. It appeared in paved roads, in water brought across valleys into the city, and in the routes by which soldiers, governors, merchants, and litigants moved through an expanding world.
 
@@ -52,11 +62,15 @@ Strabo saw the mature emporium—the Tiber receiving the merchandise of the worl
 
 Success bred scale, and scale bred competition for the offices that controlled armies and provinces.
 
-The Gracchi tested whether the republic could reform without breaking. As tribunes they turned confrontation into policy; Plutarch names the brothers' fatal insistence that the people's good required direct challenge to senatorial order.[^14] Marius professionalized the army and saved the state, but he also risked shifting loyalty from the *res publica* to the general. Sulla suspended republican forms in order to "restore" them—dictatorship, proscription, and civil-war habits before the Rubicon. Pompey held eastern *imperium* and senatorial prestige without a crown, yet proved unsafe once rival legions foreshadowed what armed competition would mean.
+The Gracchi tested whether the republic could reform without breaking. As tribunes they turned confrontation into policy; Plutarch names the brothers' fatal insistence that the people's good required direct challenge to senatorial order.[^14] Tiberius Gracchus was killed in a riot on the Capitoline; Gaius Gracchus followed and died in a still more violent confrontation. Reform and repression had both entered Roman political habit.
+
+Marius professionalized the army and saved the state in the Jugurthine and Cimbric wars, but he also opened the door to armies loyal to generals who could recruit landless men with promises of pay and land. Sulla marched on Rome, proscribed enemies, and ruled as dictator in the name of restoration—then retired, leaving the precedent that armed entry into the city could reset politics. Pompey held eastern *imperium* and senatorial prestige without a crown, yet proved unsafe once rival legions foreshadowed what armed competition would mean.
 
 Sallust, writing of Catiline, saw luxury and faction corrode *virtus*.[^15] In the Jugurthine War he traced how provincial greed and senatorial folly corrupted Rome's armies, and how Marius emerged from that stain.[^16] Appian foreshadowed civil war as a recurring pattern: rival commanders with legions, not a single Tarquin to expel.[^17]
 
-The Republic had not yet disappeared, but its older habits no longer answered the pressures created by conquest. This was not yet the end of the Republic. It was the period in which institutions that had carried Rome across Italy and the Mediterranean began to serve ambitions larger than the civic order they were meant to protect. When procedure could no longer decide between armies, personal command would expose what collegial office could still debate but not enforce—and Caesar would cross that line.
+The Republic did not cease to function all at once. Its offices, assemblies, laws, and ceremonies remained. Yet the rewards of empire—commands, provinces, contracts, land, and military loyalty—gave ambitious men means of power that the older civic order could no longer reliably contain.
+
+By the 60s and 50s BC, elections cost fortunes; courts prosecuted rivals; tribunes vetoed; generals held provinces for years. The same aristocracy that had governed Italy now competed for prizes that could raise or ruin a family in a single season. When procedure could no longer decide between armies, personal command would expose what collegial office could still debate but not enforce—and Caesar would cross that line.
 
 ## Notes
 
@@ -97,3 +111,5 @@ The Republic had not yet disappeared, but its older habits no longer answered th
 [^18]: Florus, *Epitome of Roman History* I.18 (Second Punic / Hannibal ordeal compressed). *(Rhetorical compression—not chronicle SSOT.)*
 
 [^19]: Modern framing for republic scale and mixed constitution: Adrian Goldsworthy, *The Rise of Rome* · *In the Name of Rome*; Anthony Everitt, *The Rise of Rome* · *The Rise of Athens* · *Alexander the Great*; Andrew Lintott, *The Constitution of the Roman Republic*; Ronald Syme, *The Roman Revolution* (late republic → principate form change); Will Durant, *Caesar and Christ* · *The Life of Greece*.
+
+[^20]: Appian, *Civil Wars* I.39 (Social War / Italian allies demand citizenship; war follows refusal). *(Paraphrase composite—citizenship extension as price of victory.)*

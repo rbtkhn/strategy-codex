@@ -2,7 +2,7 @@
 
 Rome does not begin when a constitution is written. It begins when a city on the Tiber learns to treat order as public, bounded, and durable—first in story, then in ritual and law, then in institutions that refuse kings. Early Rome is not yet empire, nor the full Republic of later centuries. It is the long formation of a civic habit that converts inherited myth, Greek inquiry, Etruscan technique, and Latin public order into a durable refusal of permanent monarchy. By c. 390, after sack and recovery, Rome has not yet mastered the Mediterranean, but it has proved that the city can survive without a king.
 
-That formation drew on three inheritances at once: Trojan and Latin myth, Greek epic and history, and the material life of walls, roads, and water at a river crossing. Regal Rome synthesized them; the expulsion of the kings broke monarchy while retaining much of what kings had built; the early Republic tested whether the new order could endure when invasion threatened the city itself.
+That formation drew on three inheritances at once: Trojan and Latin myth, Greek epic and history, and the material life of walls, roads, and water at a river crossing. Regal Rome drew on all three; the expulsion of the kings broke monarchy while retaining much of what kings had built; the early Republic tested whether the new order could endure when invasion threatened the city itself.
 
 ## The Epic Inheritance
 
@@ -10,9 +10,9 @@ Rome's moral imagination arrived long before Roman magistracy. Before written la
 
 Homer's *Iliad* and *Odyssey* taught that war is tragedy as well as triumph, that the hero pays a price, and that homecoming matters as much as victory. Rome did not invent that inheritance. It took it from the Greek Mediterranean and made it foundational to how Romans would later narrate themselves. Achilles' rage and Odysseus' cunning were pre-political templates: force without limit destroys; cleverness without duty wanders.
 
-Virgil's *Aeneid* reworked that inheritance for Rome. Troy falls; Aeneas carries duty over rage—exile toward Italy, founding through loss rather than annihilation of the other. Aeneas disciplines the Achillean temptation: obligation to gods, ancestors, and a future city outweighs personal fury. The journey from Troy to Latium is not precise chronology but founding myth: Rome uses epic to sanctify site and descent before annalistic history takes over.
+Virgil's *Aeneid* reworked that inheritance for Rome. Troy falls; Aeneas carries duty over rage—exile toward Italy, founding through loss rather than annihilation of the other. Aeneas is not Achilles. He is the exile who carries gods and ancestors toward a future city he will not fully see. The journey from Troy to Latium is not precise chronology but founding myth: Rome uses epic to sanctify site and descent before annalistic history takes over.
 
-Epic here is instructive memory, not news report. Full civilizational continuity through transformed carriers belongs to Rome's later self-understanding; in this period what matters is the pre-political school Rome refused to outgrow.
+Romulus belongs to the same epic world. Livy and later writers remembered him as founder and as killer of Remus—foundation marked by violence as well as ritual. Epic here is instructive memory, not news report. What matters in this period is the pre-political school Rome refused to outgrow: duty, loss, ancestry, and the cost of founding.
 
 ## Greek Inquiry Before Roman Rule
 
@@ -26,7 +26,7 @@ Polybius, writing after Rome had conquered Greece, stated the reciprocal truth: 
 
 Lucretius gave Rome a Latin philosophic voice beside epic inheritance: nature and an inner law by which mental terror might be scattered—not replacing sacral myth in this period, but showing that Roman seriousness would also speak in reason's register.[^7]
 
-Dionysius of Halicarnassus, writing in Greek for Greek readers, made early Rome intelligible as worthy antiquity—declaring his purpose to show that Roman origins deserve Hellenic attention and tracing Italian peoples to Pelasgian connection, not as literal proof of descent but as an explicit Greek explanatory frame for regal institutions.[^17]
+Dionysius of Halicarnassus, writing in Greek for Greek readers, made early Rome intelligible as worthy antiquity—declaring his purpose to show that Roman origins deserve Hellenic attention and tracing Italian peoples to Pelasgian connection, not as literal proof of descent but as an explicit Greek explanatory frame for regal institutions.[^17] He treated Roman kingship, customs, and early laws as subjects a Greek educated reader could respect even while Rome was still rising.
 
 Greek supplied categories; Latin would supply law, command, and public record.
 
@@ -40,17 +40,15 @@ Alexander universalized conquest and charisma—and fragmented at death. The Dia
 
 ## Romulus, kings, and the Etruscan layer
 
-Regal Rome was synthesis at a seam—Latin, Etruscan, Sabine—held by sacral city-boundary rather than by modern nationality.
+Regal Rome was a mixed world—Latin, Etruscan, Sabine—held by sacral city-boundary rather than by modern nationality.
 
 Livy framed the regal past as exempla: history as conspicuous monument, teaching profit from every kind of experience.[^1] That method made kings instructive memory, not contemporary politics. By recalling ancient virtues, the annalist taught citizens to lament what they could no longer imitate.[^2]
 
-Romulus and Remus belong to the Tiber's mythic geography: exposure, site choice at the crossing, the *pomerium*—law as sacred enclosure of the city.[^3] Kingship followed as Etruscan-layer prestige: engineering, ritual, urban order. Rome was learner at the regal stage, not pure autochthon.
+Romulus and Remus belong to the Tiber's mythic geography: exposure, site choice at the crossing, the *pomerium*—law as sacred enclosure of the city.[^3] Kingship followed as Etruscan-layer prestige: engineering, ritual, urban order. The Cloaca Maxima and the early forum works belong to regal Rome as much as to legend—drainage, space, and public cult making a city livable at a flood-prone bend of the river.
 
 Xenophon's *Cyropaedia* offered a mirror: leadership as ordered duty—the ruler must bind followers by belief that his safety is theirs, not by caprice alone.[^4] Tarquin's tyranny later supplied the counter-example. Regal Rome held both models in memory.
 
-Plutarch's Numa embodied the pious alternative: a king who governed himself before governing others.[^5]
-
-Varro's antiquarian etymologies treated names, rites, and sacred places as compressed civic memory—institutional vocabulary legible to those who knew the language of ritual and law.[^18] Ovid's *Fasti* located Romulus and Numa in sacred time—the calendar as performed memory of kings, not annalistic chronicle.[^19]
+Plutarch's Numa embodied the pious alternative: a king who governed himself before governing others.[^5] Varro's antiquarian etymologies treated names, rites, and sacred places as compressed civic memory—institutional vocabulary legible to those who knew the language of ritual and law.[^18] Ovid's *Fasti* located Romulus and Numa in sacred time—the calendar as performed memory of kings, not annalistic chronicle.[^19]
 
 The tension this period preserved was clear: regal grandeur, then expulsion. Rome would keep Etruscan technique; it would reject permanent monarchy.
 
@@ -58,7 +56,7 @@ The tension this period preserved was clear: regal grandeur, then expulsion. Rom
 
 Geography and infrastructure were early arguments for Roman civic order: power had to be visible, shared, and maintained.
 
-The Tiber traded inland defensibility for river access at the island ford—a seam where peoples met. Flood was permanent constraint, answered not by hubris but by adaptation in works such as the Cloaca Maxima. Tacitus, centuries later, recorded a proposal to divert tributaries against flood; upstream towns protested that they would lose their water, and the project died.[^10] The river still governed policy.
+The Tiber offered a defensible hill country with access to the sea through a navigable river. The island ford and the surrounding hills—Capitoline, Palatine, Aventine—made a natural meeting place for Latin peoples. Early settlement clustered where salt routes, river crossing, and high ground met. Flood was permanent constraint, answered not by hubris but by adaptation in drainage works and embankments—the Cloaca Maxima belongs to this early layer of making a marshy bend livable. Tacitus, centuries later, recorded a proposal to divert tributaries against flood; upstream towns protested that they would lose their water, and the project died.[^10] The river still governed policy.
 
 The city was more than walls. Cicero would later say that a city is not stones but the community of citizens united by law.[^9] Strabo saw the mature emporium—the Tiber receiving the merchandise of the world—and that possibility was already implicit in Rome's position as a node where trade and meaning converged.[^8]
 
@@ -66,21 +64,25 @@ Road and water were public promises. A forward glance to 312 BC shows the promis
 
 ## The Expulsion of the Kings
 
-The expulsion of the kings converted regal inheritance into republican office—still one arc, not a sudden break with the past.
+The expulsion of the kings in 509 BC converted regal inheritance into republican office—still one arc, not a sudden break with the past. The historical details are uncertain; the memory became central.
 
-Tarquin's rupture, the memory of Brutus, and the refusal of permanent kingship meant that Etruscan technique was retained while monarchy was rejected. Plutarch's Publicola caught the psychological turn: Romans had not known liberty; once the tyrant fell, they desired it whole.[^11]
+Livy told the story of Lucretia and Tarquin the Proud: royal violence in the household provoked revolt; Brutus became the face of liberty restored.[^21] Whether or not the tale preserves exact events, it taught Romans what they were supposed to fear: power that could not be checked, shared, or returned. The rape and suicide of Lucretia in Roman memory were not private scandal alone but a political accusation against kingship itself—proof in story that monarchy corrupted the household and the state together.
 
-Anti-monarchy memory was fixed in place before the mixed constitutional depth Cicero would later describe belonged to the republic's Mediterranean expansion.
+Tarquin's rupture and Brutus memory fixed anti-monarchy in place.
+
+Plutarch's Publicola caught the psychological turn after expulsion: Romans had not known liberty; once the tyrant fell, they desired it whole.[^11] Etruscan technique was retained—ritual, engineering, urban habits—while permanent kingship was rejected. Consuls replaced kings for a year at a time; the *interrex* bridged gaps; the Senate carried continuity. Liberty meant not being ruled by a king; it did not yet mean the mixed Mediterranean republic Polybius would later describe.
 
 ## The Early Republic
 
-Consuls, tribunes, and the Conflict of the Orders are named here, not narrated at campaign length. The Twelve Tables marked law posted for the community—public, bounded, durable—rather than patrician secret; plebeian access and the full arc of the Orders belong to the republic's later expansion.
+Consuls, tribunes, and the Conflict of the Orders are named here, not narrated at campaign length. The Twelve Tables marked law posted for the community—public, bounded, durable—rather than patrician secret; plebeian access and the full arc of the Orders belong to the republic's later expansion. The first consuls replaced the king's annual command; the tribunate gave plebeians a veto and a voice; intermarriage and office access were won over generations rather than in a single reform.
 
-Aristotle's theory of the mixed constitution held that the middle class and middle-ground regime endure because they stand between extremes.[^12] Polybius, writing after Rome's Mediterranean rise, supplied later diagnosis of a pattern early habits made possible—not evidence that Romans consciously designed a mixed constitution in 509–390 BC.[^13] He read people, Senate, and magistrates balanced so that no part plainly dominated; that Book VI analysis belongs to Rome after Mediterranean rise.
+Aristotle's theory of the mixed constitution held that the middle class and middle-ground regime endure because they stand between extremes.[^12] Polybius, writing after Rome's Mediterranean rise, supplied later diagnosis of a pattern early habits made possible—not evidence that Romans consciously designed a mixed constitution in 509–390 BC.[^13] Civic militarism appeared early: Romans fought for honor, liberty, and safety—not mercenary pay alone.[^14] The city that would later feed armies from Italy first learned to arm its own citizens and call that service a duty rather than a trade.
 
-Civic militarism appeared early: Romans fought for honor, liberty, and safety—not mercenary pay alone.[^14]
+## The Gallic Sack and the Decision to Rebuild
 
-Around 390 BC the Gauls sacked the city. Recovery was debated: relocate to Veii or rebuild? The people voted to rebuild.[^16] No king returned. The republic survived by choosing the harder urban continuity, and that endurance showed what the new order could bear.
+Around 390 BC the Gauls sacked the city. The event entered Roman memory as catastrophe and test. Defenders on the Capitoline held out while geese, in legend, warned of a night assault; the lower city burned; gold changed hands in the famous ransom story. When the invaders withdrew, Romans faced a choice that defined the next centuries: abandon the ruined site for Veii, where Etruscan walls still stood, or rebuild on the Tiber.
+
+The matter was referred to the people; they voted with one accord that the city should be rebuilt.[^16] No king returned to organize recovery. Consuls, Senate, and citizen body carried the decision. Some families had already begun to settle at Veii; the vote recalled them to the ancestral hills. The rebuild was not merely masonry. Priests restored public cult on the Capitoline; the Senate reconstituted deliberation; the citizen levy prepared again to meet invaders from the north. Later annalists treated the ransom and the geese as moral lessons—that civic religion and vigilance mattered as much as walls. Veii offered safety; Rome chose identity. Rome was not yet master of Italy, let alone the Mediterranean. But it had learned the habit on which later power would depend: the city would endure without returning to kingship. Endurance was not yet empire. It was proof that the republican order could survive its worst day—and choose continuity over convenience.
 
 ## Notes
 
@@ -123,3 +125,5 @@ Around 390 BC the Gauls sacked the city. Recovery was debated: relocate to Veii 
 [^19]: Ovid, *Fasti* I.3–26 (Janus; Kalends; Romulus in calendar lore). *(Ritual calendar as civic memory.)*
 
 [^20]: Modern framing for comparative horizon and formation ethic: Will Durant, *The Life of Greece*; Adrian Goldsworthy, *The Rise of Rome*; Anthony Everitt, *The Rise of Rome* · *The Rise of Athens* · *Alexander the Great*.
+
+[^21]: Livy, *Ab Urbe Condita* I.57–60 (Lucretia; expulsion of Tarquin; Brutus and liberty). *(Founding memory—not forensic proof of 509 BC chronology.)*

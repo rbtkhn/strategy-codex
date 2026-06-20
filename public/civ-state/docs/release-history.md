@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.46** — Civic-chain expansion: Rome genesis, republic, caesar, augustus expanded to ~1,850–2,150 words body each — new sections (Gaul; Peace/Religion; Gallic rebuild split), deeper Punic/province/Social War and settlement/succession narration; appended primary footnotes; template + reader-guide length guidance.
+
 **v0.1.45** — Literary-academic prose: civic-chain four — essay H2 titles, ledes, and body rewritten from schematic to historical narration; prose-voice doctrine in template + reader-guide.
 
 **v0.1.44** — Notes-only apparatus: civic-chain four (genesis, republic, caesar, augustus) — remove `## Scholarship` tables; orphan modern works in sparing end notes; template + reader-guide aligned.
@@ -29,6 +31,14 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.46 — civic-chain expansion (~2k words)
+
+| Change | Detail |
+|--------|--------|
+| Civic-chain `.md` bodies | Genesis, republic, caesar, augustus expanded to ~1,850–2,150 words; new H2 sections (Gaul; Peace/Religion; Gallic rebuild); deeper Italy/Punic/provinces/Social War, Rubicon–Ides, settlement/succession |
+| Footnotes | New primary pins appended (no renumbering) |
+| `civ-state-essay-template.md` · `reader-guide.md` | Target body length documented |
 
 ### v0.1.45 — literary-academic prose (civic-chain four)
 
