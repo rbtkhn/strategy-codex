@@ -1,0 +1,84 @@
+title: Caesar (Rome)
+volume: rome
+essay_id: caesar
+status: active
+period: "49–44 BC"
+tier: civic-chain
+hex_link: republic-principate
+standalone: true
+
+role:
+  type: standalone hinge essay
+  function: Rubicon through perpetual dictatorship to the Ides
+  chain_position: command hinge — collegial form still speaks; deciding power migrates to the general
+  opens_after: essay-rome-republic.md
+  closes_before: essay-rome-augustus.md
+
+where_this_sits: |
+  Essay-rome · tier civic-chain · hex_link republic-principate. 49–44 BC — not principate settlement. Opens where republic closes (Rubicon threshold). Closes where augustus institutionalizes what Caesar personalized.
+
+proves_here:
+  - Rubicon as procedural nullification
+  - Pompey pole — legitimacy without cohesion
+  - Pharsalus — command refutation (revelation, not cause; one paragraph)
+  - Dictatorship — monarchic function, republican mask
+  - Ides — failed restoration
+  - military command analysis (Keegan · Napoleon · Goldsworthy)
+  - chain continuity under mutation
+
+defers_to:
+  hexagonal-republic-principate-rome.md:
+    - six-pass blocks
+  essay-rome-augustus.md:
+    - principate machinery · 27 BC settlement
+    - triumvirate · Philippi · Actium
+  rome-empire.md:
+    - emperor roster
+  essay-rome-napoleon.md:
+    - full Gallic chronicle (comparative)
+
+not_this_file:
+  - triumvirate chronicle
+  - Augustan settlement
+  - hex six-pass reproduction
+  - empire roster SSOT
+
+reading_posture_scope: |
+  Hinge command — when the republic can debate but no longer decide, and personal generalship carries sovereignty until assassination proves killing the man does not restore the system. Standalone — complete without peer essays.
+
+membrane:
+  - transformation ≠ rupture
+  - empire overreach ≠ entropy
+  - defer rosters to term depth
+
+routing:
+  hub: connectivity-rome.md
+  registry: essay-rome.registry.yaml
+  peer_essays:
+    - essay-rome-republic.md
+    - essay-rome-genesis.md
+    - essay-rome-augustus.md
+    - essay-rome-napoleon.md
+  hex_frame: hexagonal-republic-principate-rome.md
+  term_depth:
+    - ../rome-memory.md#chain-spine
+    - ../rome-empire.md#sovereignty-chain-empire-lens
+    - ../rome-civilization.md#sovereignty-chain-civilization-lens
+  constitutional:
+    - civilization-rome.md
+  sources:
+    - ../../../sources/rome/primary/ancient.md
+    - ../../../sources/rome/secondary/ancient.md
+    - ../shelf-reader.md
+  sub_lens:
+    - military-history-rome.md
+  return_path:
+    - connectivity-rome.md
+    - hexagonal-republic-principate-rome.md
+    - essay-rome-republic.md
+    - essay-rome-augustus.md
+    - ../rome-memory.md
+    - README.md
+    - ../README.md
+
+close_when: personal command has refuted senatorial sovereignty — not when the princeps settles the form

@@ -1,44 +1,8 @@
----
-title: "Caesar (Rome)"
-volume: rome
-essay_id: caesar
-status: active
-standalone: true
-period: "49–44 BC"
-hex_link: republic-principate
----
-
 # Caesar (Rome)
-
-## Where This Sits
-
-**Essay-rome** · tier **civic-chain** · `hex_link`: **republic-principate**. This is a **standalone hinge essay**: from the Rubicon crossing through perpetual dictatorship to the Ides—**49–44 BC**—not principate settlement. Opens where [essay-rome-republic](essay-rome-republic.md) closes (Rubicon threshold; Caesar named, not developed). Closes where [essay-rome-augustus](essay-rome-augustus.md) institutionalizes what Caesar **personalized**.
-
-On the volume chain, Caesar is the **command hinge** ([rome-memory — chain spine](../rome-memory.md#chain-spine)): collegial form still speaks; **deciding power** migrates to the general.
-
-| Proves here | Defers to hex-frame + registry peers |
-|-------------|--------------------------------------|
-| Rubicon as procedural nullification | *Princeps* machinery · 27 BC settlement |
-| Pompey pole — legitimacy without cohesion | Full Pompey biography · eastern settlement |
-| Pharsalus — command refutation (**revelation**, not cause; one paragraph) | Egypt/Cleopatra arc |
-| Dictatorship — monarchic function, republican mask | Emperor roster → [rome-empire](../rome-empire.md) |
-| Ides — failed restoration | Triumvirate · Philippi · Actium |
-| Military command analysis (Keegan · Napoleon · Goldsworthy) | Full Gallic chronicle · [essay-rome-napoleon](essay-rome-napoleon.md) |
-| Chain continuity under mutation | [hexagonal-republic-principate](hexagonal-republic-principate-rome.md) six-pass blocks |
-
-**Not:** triumvirate chronicle, Augustan settlement, hex six-pass reproduction, empire roster SSOT.
-
-## Reading Posture
-
-Read this essay **standalone**—complete without peer essays. It covers **hinge command**: when the republic can **debate** but no longer **decide**, and personal generalship carries sovereignty until assassination proves that killing the man does not restore the system.
 
 What [essay-rome-genesis](essay-rome-genesis.md) proved as **anti-monarchical habit** and [essay-rome-republic](essay-rome-republic.md) proved as **scaling collegial form**, Caesar proves as **decision under arms**—precedent (Sulla and Pompey normalized exceptional command), legitimation (popular alignment and *Commentarii* *dignitas* defense), resolution (Rubicon → Pharsalus → dictatorship), then **test** when moral restoration (the Ides) cannot re-seat sovereignty in the Senate. Caesar's command worked because it was not merely military: **veterans**, debtors, provincials, **populares**, and ambitious elites all found paths through him that senatorial procedure could no longer credibly supply.
 
 Gruen's late republic reminds us the system was contested, not pre-dead, before 49 BC—this essay still argues that **Pharsalus reveals** where loyalty and tempo already pointed; it did not **create** the migration of sovereignty, but made it **visible** in a form no decree could reverse. Modern military readers—Keegan on **mask of command**, Napoleon on **campaign mechanics** (interpretive lenses only), Goldsworthy on **command vs institution**—converge on Pharsalus as the moment **personal command** outweighs senatorial authorization.
-
-The essay closes when **Caesar is dead and the republic does not return**—[essay-rome-augustus](essay-rome-augustus.md) owns institutional settlement. For the transformation hinge: [hexagonal-republic-principate](hexagonal-republic-principate-rome.md).
-
-**Membrane:** transformation ≠ rupture; empire overreach ≠ entropy; defer rosters to term depth. Republic handoff: [essay-rome-republic](essay-rome-republic.md).
 
 ## Rubicon — procedural nullification
 
@@ -72,7 +36,7 @@ Mechanism matters in one breath—calendar reform, debt relief, colonial settlem
 
 Gibbon's verdict on the Ides is constitutional, not heroic: Caesar's death was the **sentence** of the constitution, not its salvation.[^13] Brutus and the liberators strike a **tyrant** in Roman moral grammar; Plutarch and Suetonius supply the narrow narrative—senators as sacrificers, Caesar as hubris.[^14][^15] Cato's virtue and Cicero's law survive as **principles**; they do not re-seat **force**. Appian records the city's shock—liberty proclaimed, armies still the arguer.[^16] Florus moralizes the arc—Caesar's rise and fall as **culmination** of republican disease, liberty wounded rather than restored—not Ides chronicle but rhetorical compression.[^17] Tacitus, a century later, opens his imperial history from civil-war concentration—the rule of Pompey and Crassus **yielded before Caesar**; weary strife ended in empire under the title of **Prince**—memory that killing one man did not reverse the trajectory.[^18]
 
-The chain continues: **Augustus** (named once) will **institutionalize** what Caesar **personalized**. Hex-frame: [hexagonal-republic-principate](hexagonal-republic-principate-rome.md); empire hinge: [rome-empire — sovereignty chain](../rome-empire.md#sovereignty-chain-empire-lens).
+The chain continues: **Augustus** will **institutionalize** what Caesar **personalized**—[essay-rome-augustus](essay-rome-augustus.md) owns that settlement.
 
 ## Scholarship
 
@@ -129,22 +93,3 @@ The chain continues: **Augustus** (named once) will **institutionalize** what Ca
 [^17]: Florus, *Epitome of Roman History* II.13 (Caesar's rise and fall; liberty's wound). *(Rhetorical compression—not Ides chronicle SSOT.)*
 
 [^18]: Tacitus, *Annals* I.1 (trans. Church & Brodribb): "The despotisms of Cinna and Sulla were brief; the rule of Pompeius and of Crassus soon yielded before Caesar; the arms of Lepidus and Antonius before Augustus; who, when the world was wearied by civil strife, subjected it to empire under the title of 'Prince.'"
-
-## Links
-
-| Kind | Target |
-|------|--------|
-| **Hub** | [Connectivity Rome](connectivity-rome.md) · [Essay-rome registry](connectivity-rome.md#essay-rome-registry) |
-| **hex-frame** | [hexagonal-republic-principate](hexagonal-republic-principate-rome.md) |
-| **Term depth** | [rome-memory — chain spine](../rome-memory.md#chain-spine) · [rome-empire — sovereignty chain](../rome-empire.md#sovereignty-chain-empire-lens) · [rome-civilization — sovereignty chain](../rome-civilization.md#sovereignty-chain-civilization-lens) |
-| **Peer essay-rome** | [essay-rome-republic](essay-rome-republic.md) · [essay-rome-genesis](essay-rome-genesis.md) · [essay-rome-augustus](essay-rome-augustus.md) · [essay-rome-napoleon](essay-rome-napoleon.md) (comparative defer) |
-| **Constitutional** | [civilization-rome](civilization-rome.md) (Part 1 · republican ethic) |
-| **Sources** | [primary/ancient.md](../../../sources/rome/primary/ancient.md) · [secondary/ancient.md](../../../sources/rome/secondary/ancient.md) · [shelf-reader](../shelf-reader.md) |
-| **Sub-lens** | [military-history-rome](military-history-rome.md) |
-
-## Return Path
-
-Caesar ends when **personal command has refuted senatorial sovereignty**—not when the *princeps* settles the form. Return to [Connectivity Rome](connectivity-rome.md) for lattice routing, or to [hexagonal-republic-principate](hexagonal-republic-principate-rome.md) for the transformation hinge. Republic handoff: [essay-rome-republic](essay-rome-republic.md). Institutionalizer defer: [essay-rome-augustus](essay-rome-augustus.md). Chain doctrine: [rome-memory](../rome-memory.md).
-
-- [Essays index](README.md) · [Essay-rome registry](README.md#essay-rome)
-- [Rome volume](../README.md) · [Term depth](../README.md#term-depth-volume-root)
