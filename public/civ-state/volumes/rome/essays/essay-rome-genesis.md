@@ -1,86 +1,86 @@
 # Genesis
 
-Rome does not begin when a constitution is written; it begins when a **city-form** learns to treat order as **public, bounded, and durable**—first in story, then on the Tiber, then in institutions that refuse kings. Early Rome is not the invention of empire, nor the full articulation of the Republic: it is the formation of a city-form that converts inherited myth, Greek inquiry, Etruscan technique, and Latin public order into a durable **anti-monarchical habit**. By **c. 390**, after sack and recovery, Rome has not yet mastered the Mediterranean—but it has proved the city can **survive without a king**.
+Rome does not begin when a constitution is written. It begins when a city on the Tiber learns to treat order as public, bounded, and durable—first in story, then in ritual and law, then in institutions that refuse kings. Early Rome is not yet empire, nor the full Republic of later centuries. It is the long formation of a civic habit that converts inherited myth, Greek inquiry, Etruscan technique, and Latin public order into a durable refusal of permanent monarchy. By c. 390, after sack and recovery, Rome has not yet mastered the Mediterranean, but it has proved that the city can survive without a king.
 
-The founding layer stacks **myth** (Troy → Latium, Romulus), **inquiry** (Greek epic and history), and **material argument** (boundary, road, water) into a regal synthesis Rome **breaks** at expulsion—then **tests** until survival itself proves the new form can hold.
+That formation drew on three inheritances at once: Trojan and Latin myth, Greek epic and history, and the material life of walls, roads, and water at a river crossing. Regal Rome synthesized them; the expulsion of the kings broke monarchy while retaining much of what kings had built; the early Republic tested whether the new order could endure when invasion threatened the city itself.
 
-## Epic substrate — Homer to Virgil
+## The Epic Inheritance
 
-Rome's moral imagination arrives **pre-Roman**. Before magistrates, before written law in the Roman sense, there is **epic**—a school of endurance, obligation, and loss that Rome will later translate into Latin destiny.
+Rome's moral imagination arrived long before Roman magistracy. Before written law in the Roman sense, there was epic—a school of endurance, obligation, and loss that Rome would later translate into Latin destiny.
 
-Homer's *Iliad* and *Odyssey* teach that war is tragedy, not triumph alone; that the hero pays; that homecoming matters as much as victory. Rome did not invent this grammar. It **inherits** it from the Greek Mediterranean and makes it foundational to how Romans will later narrate themselves. Achilles' rage and Odysseus' cunning are pre-political templates: force without limit destroys; cleverness without duty wanders.
+Homer's *Iliad* and *Odyssey* taught that war is tragedy as well as triumph, that the hero pays a price, and that homecoming matters as much as victory. Rome did not invent that inheritance. It took it from the Greek Mediterranean and made it foundational to how Romans would later narrate themselves. Achilles' rage and Odysseus' cunning were pre-political templates: force without limit destroys; cleverness without duty wanders.
 
-Virgil's *Aeneid* reworks that inheritance for Rome. Troy falls; Aeneas carries **duty over rage**—exile toward Italy, founding through loss rather than annihilation of the other. Aeneas disciplines the Achillean temptation: obligation to gods, ancestors, and future city outweighs personal fury. Troy → Latium is **substrate**, not precise chronology: Rome uses myth to encode endurance before institutions exist, to sanctify site and descent before annalistic history takes over.
+Virgil's *Aeneid* reworked that inheritance for Rome. Troy falls; Aeneas carries duty over rage—exile toward Italy, founding through loss rather than annihilation of the other. Aeneas disciplines the Achillean temptation: obligation to gods, ancestors, and a future city outweighs personal fury. The journey from Troy to Latium is not precise chronology but founding myth: Rome uses epic to sanctify site and descent before annalistic history takes over.
 
-Epic here is **memory operator**, not news report. Full civilizational continuity through transformed carriers belongs to Rome's later self-understanding; here the **pre-political school** is what Rome refuses to outgrow.
+Epic here is instructive memory, not news report. Full civilizational continuity through transformed carriers belongs to Rome's later self-understanding; in this period what matters is the pre-political school Rome refused to outgrow.
 
-## Greek heritage — inquiry before rule
+## Greek Inquiry Before Roman Rule
 
-Rome **later** learns to interpret itself through Greek categories; this period holds the **upstream inheritance** before that habit becomes self-conscious—not a claim that archaic Romans already "thought in Greek."
+Rome would later learn to interpret itself through Greek categories. This period holds the upstream inheritance before that habit became self-conscious—not a claim that archaic Romans already thought in Greek.
 
-Herodotus opens history as **inquiry** (*historia*): peoples differ, and **nomos**—custom, habit, unwritten law—often binds more fiercely than decree. Rome will meet nomos in every conquered community; Herodotus prepares the reader for an empire that must reckon with cultures it did not author.
+Herodotus opened history as inquiry (*historia*): peoples differ, and *nomos*—custom, habit, unwritten law—often binds more fiercely than decree. Rome would meet *nomos* in every community it conquered; Herodotus prepared readers for an empire that had to reckon with cultures it did not author.
 
-Thucydides supplies structural history: fear, interest, honor; the fragility of brilliant arrangements. Rome later **operationalizes** this manual at scale. Here the temper matters—the structural warning—not the Melian dialogue in full.
+Thucydides supplied structural history: fear, interest, honor, and the fragility of brilliant arrangements. Rome would later apply that warning at Mediterranean scale. Here the temper matters—the structural caution—not the Melian dialogue in full.
 
-Polybius, writing when Rome has already conquered Greece, states the reciprocal truth: Greek language, education, and habits of thought penetrate the conquerors—**the conquered reshape the conqueror's culture**.[^6] That line pairs with Herodotus: nomos travels upward as well as outward.
+Polybius, writing after Rome had conquered Greece, stated the reciprocal truth: Greek language, education, and habits of thought penetrated the conquerors until in many respects the conquered reshaped the conqueror's culture.[^6] That line pairs with Herodotus: custom travels upward as well as outward.
 
-Lucretius gives Rome a **Latin philosophic voice** beside epic inheritance: nature and an inner law by which mental terror may be scattered—not replacing sacral myth here, but proving that Roman gravitas will also speak in reason's register.[^7]
+Lucretius gave Rome a Latin philosophic voice beside epic inheritance: nature and an inner law by which mental terror might be scattered—not replacing sacral myth in this period, but showing that Roman seriousness would also speak in reason's register.[^7]
 
-Dionysius of Halicarnassus, writing in Greek for Greek readers, makes early Rome **intelligible as worthy antiquity**—declaring his purpose to show that Roman origins deserve Hellenic attention and tracing Italian peoples to Pelasgian connection, not as literal proof of descent but as **explicit Hellenic explanatory frame** for regal institutions.[^17]
+Dionysius of Halicarnassus, writing in Greek for Greek readers, made early Rome intelligible as worthy antiquity—declaring his purpose to show that Roman origins deserve Hellenic attention and tracing Italian peoples to Pelasgian connection, not as literal proof of descent but as an explicit Greek explanatory frame for regal institutions.[^17]
 
-Latin itself is named here as future **command language**—law, command, public record. Greek supplies categories; Latin will supply **legibility**.
+Greek supplied categories; Latin would supply law, command, and public record.
 
-## Comparative horizon — Athens, Alexander, and the roads not taken
+## Athens, Alexander, and Roads Not Taken
 
-Rome defines itself by **comparison** with Greek precedents that are brilliant but unstable.
+Rome defined itself by comparison with Greek precedents that were brilliant but unstable.
 
-Athens concentrates culture and participatory legitimacy in one maritime democracy—and **breaks** under war, plague, and imperial temptation. Thucydides' Athens is admired, not copied: brilliance without durable transmission. Rome will choose **collegial office and mixed habit** over direct democratic theater.
+Athens concentrated culture and participatory legitimacy in one maritime democracy—and broke under war, plague, and imperial temptation. Thucydides' Athens was admired, not copied: brilliance without durable transmission. Rome would choose collegial office and mixed habit over direct democratic theater.
 
-Alexander universalizes conquest and charisma—and **fragments** at death. The Diadochi inherit armies, not institutions. Rome's later choice, visible even in this formation period as foreshadow, is **institution over charisma**: forms that survive the founder.
+Alexander universalized conquest and charisma—and fragmented at death. The Diadochi inherited armies, not institutions. Even in this formation period one can see the choice Rome would later make: institutions that survive the founder rather than charisma that dies with him.
 
 ## Romulus, kings, and the Etruscan layer
 
-Regal Rome is **synthesis at a seam**—Latin, Etruscan, Sabine—held by sacral city-boundary rather than modern nationality.
+Regal Rome was synthesis at a seam—Latin, Etruscan, Sabine—held by sacral city-boundary rather than by modern nationality.
 
-Livy frames the regal past as **exempla**: history as conspicuous monument, teaching profit from every kind of experience.[^1] That method makes kings **instructive memory**, not contemporary politics. By recalling ancient virtues, the annalist teaches citizens to lament what they can no longer imitate—**moral archive**, not newspaper.[^2]
+Livy framed the regal past as exempla: history as conspicuous monument, teaching profit from every kind of experience.[^1] That method made kings instructive memory, not contemporary politics. By recalling ancient virtues, the annalist taught citizens to lament what they could no longer imitate.[^2]
 
-Romulus and Remus belong to the Tiber's mythic geography: exposure, site choice at crossing, the **pomerium**—law as sacred enclosure of the city.[^3] Kingship follows as **Etruscan-layer** prestige: engineering, ritual, urban order. Rome is **learner** at the regal stage, not pure autochthon.
+Romulus and Remus belong to the Tiber's mythic geography: exposure, site choice at the crossing, the *pomerium*—law as sacred enclosure of the city.[^3] Kingship followed as Etruscan-layer prestige: engineering, ritual, urban order. Rome was learner at the regal stage, not pure autochthon.
 
-Xenophon's *Cyropaedia* offers a mirror: leadership as **ordered duty**—the ruler must bind followers by belief that his safety is theirs, not by caprice alone.[^4] Contrast Tarquin's tyranny later: regal Rome holds both models.
+Xenophon's *Cyropaedia* offered a mirror: leadership as ordered duty—the ruler must bind followers by belief that his safety is theirs, not by caprice alone.[^4] Tarquin's tyranny later supplied the counter-example. Regal Rome held both models in memory.
 
-Plutarch's Numa embodies the pious alternative: a king who **governed himself before governing others**—instructional regal past, not republic yet.[^5]
+Plutarch's Numa embodied the pious alternative: a king who governed himself before governing others.[^5]
 
-Varro's antiquarian etymologies treat **names, rites, and sacred places** as compressed civic memory—institutional vocabulary legible to those who know the language of ritual and law.[^18] Ovid's *Fasti* locates Romulus and Numa in **sacred time**—the calendar as performed memory of kings, not annalistic chronicle.[^19]
+Varro's antiquarian etymologies treated names, rites, and sacred places as compressed civic memory—institutional vocabulary legible to those who knew the language of ritual and law.[^18] Ovid's *Fasti* located Romulus and Numa in sacred time—the calendar as performed memory of kings, not annalistic chronicle.[^19]
 
-The tension this period preserves: regal grandeur → expulsion. Rome will keep Etruscan **technique**; it will reject **permanent monarchy**.
+The tension this period preserved was clear: regal grandeur, then expulsion. Rome would keep Etruscan technique; it would reject permanent monarchy.
 
-## Tiber, city-form, and public utility
+## The Tiber and the City
 
-Geography and infrastructure are **early arguments** for Roman civilizational logic: order must be visible, shared, maintained.
+Geography and infrastructure were early arguments for Roman civic order: power had to be visible, shared, and maintained.
 
-The Tiber trades inland defensibility for river access; the island ford; an ethnic **seam** where peoples meet. Flood is permanent constraint—not hubris to "defeat" the river, but adaptation (Cloaca Maxima and the like). Tacitus, centuries later, records a proposal to divert tributaries against flood—upstream towns protest; the project dies.[^10] The river **still governs** policy.
+The Tiber traded inland defensibility for river access at the island ford—a seam where peoples met. Flood was permanent constraint, answered not by hubris but by adaptation in works such as the Cloaca Maxima. Tacitus, centuries later, recorded a proposal to divert tributaries against flood; upstream towns protested that they would lose their water, and the project died.[^10] The river still governed policy.
 
-The city is **legitimacy machine**: walls alone do not make urbs—**community under law** does.[^9] Strabo sees the mature emporium; the **logic** appears earlier: public order at a node where merchandise and meaning converge.[^8]
+The city was more than walls. Cicero would later say that a city is not stones but the community of citizens united by law.[^9] Strabo saw the mature emporium—the Tiber receiving the merchandise of the world—and that possibility was already implicit in Rome's position as a node where trade and meaning converged.[^8]
 
-The **form promise** names road and water as public utility; a **forward glance** to **312 BC** shows the promise maturing when censor Appius Claudius paves the Appian Way and brings the Aqua Appia.[^15] Imperial engineering chronicle waits; the argument is stated here, not the full network.
+Road and water were public promises. A forward glance to 312 BC shows the promise maturing when the censor Appius Claudius paved the Appian Way and brought the Aqua Appia into the city.[^15] The full engineering chronicle belongs to later centuries; here the argument is stated, not the network completed.
 
-## King-expulsion — 509 and anti-monarchy memory
+## The Expulsion of the Kings
 
-Expulsion is the **break** that converts regal inheritance into republican form—still inside one arc, not a cliffhanger.
+The expulsion of the kings converted regal inheritance into republican office—still one arc, not a sudden break with the past.
 
-Tarquin's rupture, Brutus memory, the **refusal of permanent kingship**: Etruscan technique retained, monarchy rejected. Plutarch's Publicola catches the psychological hinge—Romans had not known liberty; once the tyrant fell, they desired it **whole**.[^11]
+Tarquin's rupture, the memory of Brutus, and the refusal of permanent kingship meant that Etruscan technique was retained while monarchy was rejected. Plutarch's Publicola caught the psychological turn: Romans had not known liberty; once the tyrant fell, they desired it whole.[^11]
 
-The hinge is **anti-monarchy memory** nailed in place—before mixed constitutional depth in Cicero belongs to the republic's later expansion.
+Anti-monarchy memory was fixed in place before the mixed constitutional depth Cicero would later describe belonged to the republic's Mediterranean expansion.
 
-## Early Republic — constitutional habits (509–c. 390)
+## The Early Republic
 
-Consuls, tribunes, the Conflict of Orders **named**—not narrated at campaign length. The **Twelve Tables** are the obvious marker of "public, bounded, durable" law posted for the community—a hinge, not full exegesis; plebeian access and the full Orders arc belong to the republic's later expansion.
+Consuls, tribunes, and the Conflict of the Orders are named here, not narrated at campaign length. The Twelve Tables marked law posted for the community—public, bounded, durable—rather than patrician secret; plebeian access and the full arc of the Orders belong to the republic's later expansion.
 
-Aristotle's mixed constitution theory: the middle class and middle-ground regime endure because they stand between extremes.[^12] Polybius, writing after Rome's Mediterranean rise, supplies **later diagnosis** of the pattern early habits made possible—not evidence that Romans consciously designed a mixed constitution in 509–390 BC.[^13] He reads people, senate, magistrates balanced so that no part plainly dominates. Polybius's later Book VI diagnosis belongs to Rome after Mediterranean rise.
+Aristotle's theory of the mixed constitution held that the middle class and middle-ground regime endure because they stand between extremes.[^12] Polybius, writing after Rome's Mediterranean rise, supplied later diagnosis of a pattern early habits made possible—not evidence that Romans consciously designed a mixed constitution in 509–390 BC.[^13] He read people, Senate, and magistrates balanced so that no part plainly dominated; that Book VI analysis belongs to Rome after Mediterranean rise.
 
-Civic militarism seeds early: Romans fight for honor, liberty, safety—not mercenary pay alone.[^14]
+Civic militarism appeared early: Romans fought for honor, liberty, and safety—not mercenary pay alone.[^14]
 
-**c. 390** marks the close: Gauls sack the city; recovery is debated—relocate to Veii or rebuild? The people vote to **rebuild**.[^16] No king returns; the republic survives by choosing the harder urban continuity. Endurance is proof of form.
+Around 390 BC the Gauls sacked the city. Recovery was debated: relocate to Veii or rebuild? The people voted to rebuild.[^16] No king returned. The republic survived by choosing the harder urban continuity, and that endurance showed what the new order could bear.
 
 ## Notes
 

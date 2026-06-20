@@ -1,64 +1,62 @@
 # Republic
 
-Around **390 BC** Gauls burned Rome; the city **rebuilt without kings**. Rome had long defined itself against kings on the Tiber; now it had to prove that **anti-monarchical habit** could **scale**—collegial office binding a peninsula, passing a sea-exam, absorbing a Hellenic world, and arguing internally over law, citizenship, and who commands. By the late Republic Rome has ordered the Mediterranean; the **city-form** that survived sack now **strains** under offices, armies, provinces, and wealth it was never built to hold at that scale.
+Around 390 BC, after the Gallic sack, Rome chose to rebuild rather than abandon the city. That decision did not make Rome a Mediterranean power, but it revealed the habit on which later power would depend: the city would endure without returning to kingship.
 
-The republican arc stacks **alliance** (treaty federation), **constitution** (mixed government, public law), and **command** (Punic survival, provincial *imperium*, material order) into one proof—then **tests** it when armies, citizenship, and elite competition outrun collegial habit.
+The Republic that followed was not a fixed constitution imposed all at once. It was a working order of magistrates, Senate, assemblies, allies, soldiers, creditors, debtors, patrons, and litigants. As Rome expanded through Italy and then across the sea, those arrangements were repeatedly altered by war. The same institutions that bound citizens and allies together also created new prizes: commands, provinces, contracts, courts, booty, land, and military loyalty.
 
-Polybius supplies structure; Livy supplies moral memory; when **exempla** fade, moral instruction thins into lament for virtues citizens can no longer imitate.[^3] By the end of this period, republican form is visibly strained—rival generals, shifting legion loyalties—not yet autocracy.
+By the late Republic, Rome had defeated Carthage, absorbed the Hellenistic east, and ordered much of the Mediterranean. Yet the city's political forms had been made for a smaller world. The offices remained; the language of liberty remained; the Senate and assemblies still acted. But armies, provincial wealth, and aristocratic competition increasingly gave decisive power to men who could command outside the old civic limits.
 
-## Italian federation after 390
+## Italy After the Sack
 
-What survival proved at **c. 390**, federation must now prove at peninsula scale. Recovery is **re-foundation under republican habit**. Samnite wars teach federation by ordeal: allies bound by treaty, citizenship graduated, Latin rights extended without dissolving Roman primacy. Rome absorbs enemies as **participants in order**, not only as subjects—technique empire will later universalize.
+What the recovery of c. 390 had proved at city scale, federation now had to prove across the peninsula. The Samnite wars taught Rome to bind allies by treaty, to extend citizenship in degrees, and to preserve Roman primacy even while absorbing former enemies as participants in order rather than as subjects alone—a habit of incorporation empire would later extend far beyond Italy.
 
-**Pyrrhus** brings Hellenistic kingship against the legion—brilliant, theatrical, **without transmission**. Plutarch catches the moral: one more such victory and the king is undone.[^1] Rome wins by **attrition and alliance**, institution over charisma again. Greek kingship mirrors Alexander's universalism without durable form; Rome keeps the legion and the treaty network.
+Pyrrhus brought Hellenistic kingship against the legion: brilliant, theatrical, and unable to leave behind institutions that could outlast his campaign. Plutarch records the king's bitter recognition that one more such victory would ruin him.[^1] Rome won by attrition and alliance, by legion and treaty network rather than by the personal charisma of a single commander. Greek kingship offered a mirror of Alexander's universalism without durable transmission; Rome kept the institutions that could survive the general who founded them.
 
-Livy's republican books train **exempla** under expansion—discipline, oath, shared sacrifice.[^2] The annalist recalls virtues citizens can no longer imitate—**moral memory**, not chronicle alone.[^3]
+Livy's republican books trained readers in discipline, oath, and shared sacrifice under expansion.[^2] The annalist did not merely record events; he held up virtues citizens were expected to imitate. When those exempla faded, moral instruction thinned into lament for a character later Romans could admire but no longer reproduce.[^3]
 
-Roads bind the peninsula: censor Appius Claudius paves the Appian Way and brings the Aqua Appia—public utility as sovereignty argument.[^4] Federation is **material** as well as legal: allies linked by *viae* as well as oaths.
+Roads bound the peninsula as surely as oaths did. The censor Appius Claudius paved the Appian Way and brought the Aqua Appia into the city—works of public utility that made Roman order visible in stone and water.[^4] Federation was material as well as legal: allies were linked by *viae* as well as by treaty.
 
-## Conflict of Orders and constitutional deepening
+## The Conflict of the Orders
 
-Much of this deepening **precedes and runs parallel with** outward federation—not a separate track from expansion. Internal fracture is republican, not regal. Plebeians refuse permanent military underclass; patricians refuse privilege dissolved without compensation. Tribunes, concilium plebis, written law toward the **Twelve Tables**—law as public thing, not patrician secret.[^5]
+Much of this internal deepening preceded and ran parallel with outward expansion. The fracture was republican, not regal. Plebeians refused to remain a permanent military underclass; patricians refused to surrender privilege without compensation. Tribunes, the concilium plebis, and written law culminating in the Twelve Tables made law a public thing rather than a patrician secret.[^5]
 
-Cicero states the republican ideal: the state exists for the **common good**; office is trust.[^6] *De Officiis* sharpens the ethic: those who administer the republic must serve justice, not private advantage.[^7]
+Cicero stated the republican ideal plainly: the state exists for the common good, and office is a trust.[^6] In *De Officiis* he sharpened the ethic further: those who administer the republic must serve justice, not private advantage.[^7]
 
-Aristotle's middle-regime theory names why mixed forms endure—they stand between extremes.[^8] Here the theory **works under expansion**: consuls lead armies; senate allocates provinces; assemblies ratify war and law. Not maritime democratic theater—not Macedonian monarchy—**collegial endurance**.
+Aristotle's theory of the middle regime named why mixed forms endure—they stand between extremes.[^8] At Rome the theory worked under expansion: consuls led armies, the Senate allocated provinces, assemblies ratified war and law. This was neither Athenian maritime democracy nor Macedonian monarchy, but collegial office renewed year by year.
 
-## Polybius VI — mixed constitution at work
+## Polybius and the Mixed Constitution
 
-Polybius writes when Rome has broken Greek independence—and explains **why** Greek categories fit Roman practice. Taken hostage, he becomes Rome's **Greek analyst**: the constitution distributes power among people, senate, and magistrates so that **no part plainly dominates**—each checks the other by necessity of survival.[^9] Consuls command armies but serve one year, two at a time; the senate holds continuity over finance and foreign policy; assemblies elect magistrates and ratify law; tribunes veto and speak for plebeian power—**mechanism**, not metaphor.
+Polybius wrote after Rome had broken Greek independence, and he explained why Greek categories fit Roman practice. Taken hostage in Rome, he became the city's Greek analyst: power was distributed among people, Senate, and magistrates so that no part plainly dominated, each checking the others by the necessity of survival.[^9] Consuls commanded armies but held office for a single year, two at a time; the Senate carried continuity in finance and foreign policy; assemblies elected magistrates and ratified law; tribunes vetoed and spoke for plebeian power. This was mechanism, not metaphor.
 
-That balance, he argues, explains endurance where brilliant single-regime cities fail. He also records reciprocal penetration: language, education, habit—**conquerors adopt conquered culture**.[^10] At republic scale this is **operational assimilation**: Greek philosophical and historical grammar runs **co-primary** with Latin civic-public law.
+That balance, Polybius argued, explained endurance where brilliant single-regime cities failed. He also recorded reciprocal penetration: language, education, and habit flowed upward as well as outward, until in many respects the conquerors adopted the culture of the conquered.[^10] At republican scale this meant that Greek philosophical and historical inquiry ran alongside Latin civic law as Rome learned to interpret itself through categories it had not invented.
 
-Herodotus prepared the reader for **nomos** in every community Rome meets; Thucydides prepared the reader for **fragility** in brilliant arrangements. Polybius shows Rome institutionalizing both lessons.
+Herodotus had prepared readers for *nomos*—custom and unwritten law—in every community Rome would meet. Thucydides had prepared them for the fragility of brilliant arrangements. Polybius showed Rome institutionalizing both lessons.
 
-## Punic sequence and Mediterranean hegemony
+## The Punic Wars and the Mediterranean
 
-The Punic sequence is the republic's **sea exam**. **Carthage** holds naval commerce and African grain; Rome holds the legion and Italian manpower. The **First Punic War** teaches humility—and forces Rome to become a naval power, leaving Italy for Sicily and the sea. The **Second Punic War** is existential **near-death**—**Hannibal at Cannae** as memory wound in Livy's Rome.[^11] Scipio's answer is **strategic re-foundation**: war in Africa, alliance geometry, institution over revenge—Zama closes the arc by name, not campaign roster here. The **Third Punic War** ends rivalry by **elimination**—harsher than assimilation, proof the republic can choose annihilation when security demands it (contrast Hellenic east).
+The wars with Carthage tested whether Rome could become a sea power as well as a land power. Carthage held naval commerce and African grain; Rome held the legion and Italian manpower. The First Punic War forced Rome to build a fleet and to leave Italy for Sicily and the sea. The Second Punic War brought existential danger—Hannibal at Cannae left a memory wound in Livy's Rome.[^11] Scipio answered by taking war to Africa, by alliance geometry and institutional patience rather than revenge alone; Zama closed the rivalry by name, not by campaign roster here. The Third Punic War ended Carthage by destruction—harsher than assimilation, and evidence that the republic could choose annihilation when its leaders believed security required it.
 
-Mediterranean hegemony follows: Spain, Greece, Macedon, Asia—each annexation asks **what Rome is now**. Governors with *imperium*, graded allies, booty through senatorial and popular channels—**republican acquisition grammar**. Florus compresses the arc rhetorically—Hannibal's ordeal as the republic's **dramatic ascent** toward Mediterranean hegemony in a single moralized breath, not chronicle detail.[^18]
+Mediterranean hegemony followed: Spain, Greece, Macedon, Asia. Each annexation altered what Rome was. Governors held *imperium*; allies were graded; booty flowed through senatorial and popular channels. Florus compressed the arc rhetorically, treating Hannibal's ordeal as the republic's dramatic ascent toward Mediterranean mastery in a single moralized breath rather than as chronicle detail.[^18]
 
-## Provinces and citizenship grammar
+## Provinces and Citizenship
 
-Expansion forces **category work**. Allies become citizens; citizens become soldiers; soldiers become voters—sometimes far from Rome. The republic grows **imperial vocabulary** before it grows an emperor: province, governor, *provincia*, publicani. Provinces convert magistracy from temporary civic office into access to wealth, patronage, armies, and extraction—senatorial competition follows the prize.
+Expansion forced Rome to decide who counted as Roman. Allies became citizens; citizens became soldiers; soldiers became voters—sometimes far from the city itself. Long before Rome accepted an emperor, it had created the offices, provinces, tax systems, courts, and military commands through which imperial power would later operate: province, governor, *provincia*, publicani. Provinces turned magistracy from a temporary civic office into access to wealth, patronage, armies, and extraction, and senatorial competition followed the prize.
 
-The **Social War** (91–88 BC) is citizenship grammar under maximum pressure: Italian allies who fought Rome's wars demand entry into the Roman people itself.
+The Social War of 91–88 BC brought that question to crisis. Italian allies who had fought Rome's wars demanded entry into the Roman people itself.
 
-Cicero's prosecution of Verres is exemplary: a governor may not treat a province as private farm.[^12] That is republican ethics pressed against empire-scale temptation—Civilization's ethic before Empire's machinery fully separates.
+Cicero's prosecution of Verres made the ethic visible at empire scale: a governor was sent to administer a province, not to rob it.[^12] Republican morality was being tested against the temptations of provincial rule.
 
-Strabo sees the mature emporium—the Tiber receiving the world's merchandise—**logic** republican expansion makes inevitable at scale.[^13] Aqueducts and roads carry the same argument: order visible, shared, maintained; water to the city; *viae* to the province.
+Strabo saw the mature emporium—the Tiber receiving the merchandise of the world—and republican expansion had made such a city imaginable.[^13] Roman power did not remain an abstraction of magistracies and decrees. It appeared in paved roads, in water brought across valleys into the city, and in the routes by which soldiers, governors, merchants, and litigants moved through an expanding world.
 
-## Late republic strain — form under pressure
+## The Republic Under Pressure
 
-Success breeds scale; scale breeds **competition for offices** that control armies and provinces.
+Success bred scale, and scale bred competition for the offices that controlled armies and provinces.
 
-**Gracchi** test redistribution—can the republic reform without breaking? Tribune weapon against senatorial order; Plutarch names the brothers' fatal insistence that the people's good requires confrontation.[^14]
+The Gracchi tested whether the republic could reform without breaking. As tribunes they turned confrontation into policy; Plutarch names the brothers' fatal insistence that the people's good required direct challenge to senatorial order.[^14] Marius professionalized the army and saved the state, but he also risked shifting loyalty from the *res publica* to the general. Sulla suspended republican forms in order to "restore" them—dictatorship, proscription, and civil-war habits before the Rubicon. Pompey held eastern *imperium* and senatorial prestige without a crown, yet proved unsafe once rival legions foreshadowed what armed competition would mean.
 
-**Marius** professionalizes the army—saves the state, risks loyalty shifting from *res publica* to general. **Sulla** suspends form to "restore" it—dictatorship-as-restoration, proscriptions, civil-war grammar before the Rubicon. **Pompey** is general without crown—eastern *imperium*, senate's strongman who proves unsafe; rival legions foreshadow the threshold.
+Sallust, writing of Catiline, saw luxury and faction corrode *virtus*.[^15] In the Jugurthine War he traced how provincial greed and senatorial folly corrupted Rome's armies, and how Marius emerged from that stain.[^16] Appian foreshadowed civil war as a recurring pattern: rival commanders with legions, not a single Tarquin to expel.[^17]
 
-Sallust on Catiline: luxury and faction corrode *virtus*.[^15] On Jugurtha: Rome's armies corrupted by provincial greed and senatorial folly—Marius emerges from that stain.[^16] Appian foreshadows civil war as recurring grammar—rival commanders with legions, not one Tarquin.[^17]
-
-That is **strain**, not universal rupture—the instrument creaks. **Caesar** names the threshold: when procedure can no longer decide between armies, personal command will expose what collegial form could still debate but not enforce.
+The Republic had not yet disappeared, but its older habits no longer answered the pressures created by conquest. This was not yet the end of the Republic. It was the period in which institutions that had carried Rome across Italy and the Mediterranean began to serve ambitions larger than the civic order they were meant to protect. When procedure could no longer decide between armies, personal command would expose what collegial office could still debate but not enforce—and Caesar would cross that line.
 
 ## Notes
 

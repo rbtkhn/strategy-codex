@@ -198,6 +198,8 @@ Some volume interpretive nodes split **reader-facing prose** from **editor/machi
 
 **Citation doctrine:** Modern secondary sources may shape interpretation but must not appear as named authorities in essay body prose (before `## Notes`). They belong in footnotes under `## Notes`. Verbatim body quotation comes primarily from ancient, medieval, or official sources. Pattern: authorial claim in prose, modern support below the line — `[claim][^n]`.
 
+**Literary-academic prose:** Essay bodies should read as finished historical writing—concrete institutions, actors, and events before abstraction; complete sentences rather than colon chains or planning shorthand; section headings that sound like essay titles, not internal labels. Earn large claims through narration. Editor scaffolding vocabulary lives in `.meta.yaml`, not reader prose.
+
 ## What This Work Must Prevent
 
 It must prevent five errors:

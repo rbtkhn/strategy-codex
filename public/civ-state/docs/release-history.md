@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.45** — Literary-academic prose: civic-chain four — essay H2 titles, ledes, and body rewritten from schematic to historical narration; prose-voice doctrine in template + reader-guide.
+
 **v0.1.44** — Notes-only apparatus: civic-chain four (genesis, republic, caesar, augustus) — remove `## Scholarship` tables; orphan modern works in sparing end notes; template + reader-guide aligned.
 
 **v0.1.43** — Citation doctrine (max purity): civic-chain essay bodies — authorial + ancient voices only; modern secondary (incl. Gibbon, Mommsen) in footnotes.
@@ -27,6 +29,13 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.45 — literary-academic prose (civic-chain four)
+
+| Change | Detail |
+|--------|--------|
+| Civic-chain `.md` bodies | H2 essay titles; ledes and sections rewritten — concrete narration over planning shorthand |
+| `civ-state-essay-template.md` · `reader-guide.md` | Prose-voice doctrine documented |
 
 ### v0.1.44 — Notes-only apparatus (civic-chain four)
 

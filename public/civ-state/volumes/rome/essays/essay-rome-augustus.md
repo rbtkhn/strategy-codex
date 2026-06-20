@@ -6,43 +6,41 @@ After the Ides, Octavian inherited Caesar's name and enemies, not Caesar's autho
 
 Augustus built a monarchy that refused the name of monarchy. Republican offices remained, senatorial honors continued, and the language of restoration endured; but sovereignty had migrated into tribunician power, proconsular command, military control, and the prestige of the *princeps*. The result was not a restored republic, but a durable settlement that taught Rome how to accept one-man rule without admitting it had done so.
 
-The settlement announced restoration, but its machinery made one-man rule durable behind republican language.[^3] Republican **form** persisted; monarchic **substance** had already moved beneath it.[^4] Tacitus records the bargain: when the old constitution was gone, foremost men **accepted the new order**; the mass preferred **present security** to past peril.[^6] Romans learned to accept a monarch without resigning the **name and ensigns of freedom**; long tranquillity reconciled the loss of ancient liberty.[^5] Peace brought competent administration built to outlast the man—not spectacle.[^7]
+## After the Ides
 
-## Vacancy — name without authority
+After the Ides, liberty was proclaimed in Rome while armies still decided disputes. At Apollonia the young Octavian learned that Caesar had been slain in the Senate; the rest of the story was untold, and fear outran knowledge.[^8] He inherited adoption and a name—Caesar—before he inherited a republic that could enforce either.
 
-After the Ides, liberty was proclaimed in Rome while **armies still the arguer**. At Apollonia the young Octavian learns Caesar was **slain in the Senate**; the **rest of the story is untold**, and fear outruns knowledge.[^8] He inherits adoption and a name—**Caesar**—before he inherits a republic that can **enforce** either.
+Republican institutions still spoke. Cicero's *Philippics* treated Antony as *hostis*, enemy of the *res publica*, after senatorial decree; if Antony sought the name of Romulus, he would find Tarquin.[^9][^10] Private letters preserved live confusion: *O puer egregie audax!*—what astonishing nerve in the boy, useful against Antony, dangerous if he won.[^11] Octavian was not yet the institutionalizer; he was a claimant in a city where Antony could be all-powerful and the murderers remained unpunished by decree.[^12]
 
-Republican form still **speaks**. Cicero's *Philippics* treat Antony as **hostis**—enemy of the *res publica*—after senatorial decree; if Antony seeks the name of Romulus, he will find Tarquin.[^9][^10] Private letters preserve live confusion: *O puer egregie audax!*—what **astonishing nerve** in the boy, useful against Antony, dangerous if he wins.[^11] Octavian is not yet the institutionalizer; he is a **claimant** in a city where Antony can be all-powerful and the murderers **unpunished** by decree.[^12]
+The Second Triumvirate was a private pact, proscription, and civil war as the only adjudicator left. The republic was not an empty curia but a field of rival armed names where legitimacy had to be won, not read from office alone.
 
-The Second Triumvirate is **one sentence**: private pact, proscription, civil war as the only adjudicator left. Vacancy is not an empty curia—it is **multiple armed names** where legitimacy must be **won**, not read.
+## Philippi and Actium
 
-## Civil wars — controlled elimination
+Philippi and Actium belong in one paragraph, not a chronicle. Dio closed the Brutus arc: after the second battle, Brutus fell on his sword—the stake was whether liberty and popular government could survive at all, not which faction held the better roster.[^13] At Actium, Cleopatra raised the flight signal; Antony followed; fire and pursuit decided what deliberation could not—naval decision, not eastern romance.[^14] Suetonius compressed the sea-fight: Antony declared enemy, Octavian won at Actium and passed the night on board.[^15]
 
-Philippi and Actium belong in **one paragraph**, not a chronicle. Dio closes the Brutus arc: after the second battle, Brutus **falls on his sword**—the stake was whether **liberty and popular government** could survive at all, not which faction held the better roster.[^13] At Actium, Cleopatra **raises the flight signal**; Antony follows; fire and pursuit decide what deliberation cannot—naval **decision**, not eastern romance.[^14] Suetonius compresses the sea-fight: Antony declared enemy, Octavian **won at Actium** and passed the night on board.[^15]
+Force was necessary to win the state, but peace required force to disappear from view as quickly as possible—no visible master over Roman political life.[^1] Antony and Cleopatra receive one line here.
 
-Force was **necessary to win the state**, but peace required force to **disappear from view** as quickly as possible—no visible master over Roman political life.[^1] Antony and Cleopatra receive **one line** here.
+With rivals eliminated, concealment could begin.
 
-Rivals eliminated, **concealment** could begin.
+## The Settlement
 
-## Settlement — restoration rhetoric
+In his own account, after extinguishing civil wars Augustus transferred the republic to the dominion of Senate and people—and received the name Augustus by senatorial decree.[^16] Beneath the rhetoric, republican offices remained while monarchical power continued to act through them; the republic survived as the shell within which one man ruled.[^4]
 
-In his own account, after extinguishing civil wars Augustus **transferred the republic** to the dominion of Senate and people—and received the name **Augustus** by senatorial decree.[^16] Beneath the rhetoric, the constitution remained republican in **form** and monarchic in **substance**; the republic survived only as the **shell** within which a monarch ruled.[^4]
+Suetonius recorded the psychology of disguise: Augustus twice thought of restoring the republic, yet kept power because retirement seemed unsafe and the state could not be trusted to the many; his edict promised foundations that would remain unshaken.[^17] Horace's *Carmen Saeculare* ratified the same order in public cult—Faith and Peace dared return.[^18] Ovid's *Fasti* performed the same restoration in sacred time—August honored in the calendar as reordering civic ritual, pairing Horace's public cult.[^23] Restoration was performed, not merely argued.
 
-Suetonius records the psychology of disguise: Augustus **twice thought of restoring the republic**, yet kept power because retirement seemed unsafe and the state could not be trusted to the many; his edict promised foundations that would **remain unshaken**.[^17] Horace's *Carmen Saeculare* ratifies the same order in **public cult**—Faith and Peace **dare return**.[^18] Ovid's *Fasti* performs the same restoration in **sacred time**—August honored in the calendar as reordering civic ritual, pairing Horace's public cult.[^23] Restoration is **performed**, not merely argued.
+## The Principate
 
-## Principate — power without crown
+Restoration rhetoric became machinery: tribunician power, proconsular *imperium*, *princeps* as first citizen—offices without a crown, sovereignty without a king's name.[^3] Tacitus named the bargain plainly: when the old constitution was gone, foremost men accepted the new order; the mass preferred present security to past peril.[^6] Velleius Paterculus, the insider loyalist, named the settlement differently: Augustus restored dignity and universal peace; the state was saved, not merely deprived of liberty—a counterweight to critical memory.[^22]
 
-Restoration rhetoric became **machinery**: tribunician power, proconsular *imperium*, *princeps* as **first citizen**—offices without a crown, sovereignty without a king's name.[^3] Tacitus names the bargain: when the old constitution was gone, foremost men **accepted the new order**; the mass preferred **present security** to past peril.[^6] Velleius Paterculus, the insider loyalist, names the settlement differently: Augustus restored dignity and universal peace; the state was **saved**, not merely deprived of liberty—a counterweight to critical memory.[^22] Romans received a **monarch** without resigning the **name and ensigns of freedom**; long tranquillity reconciled the loss of ancient liberty.[^5]
+Virgil sponsored the same order as fated mission—*imperium sine fine* on the shield of Roman rule, epic legitimation complementing constitutional disguise.[^19] Caesar had ruled openly and been destroyed; Augustus ruled indirectly and taught Rome how monarchy could survive by never admitting its existence.[^1] Romans learned to accept a monarch without resigning the name and ensigns of freedom; long tranquillity reconciled the loss of ancient liberty.[^5] Durable peace rested on competent statesmanship and administration—not spectacle alone.[^7]
 
-Virgil sponsors the same order as **fated mission**—*imperium sine fine* on the shield of Roman rule, epic legitimation complementing constitutional disguise.[^19] Caesar had ruled **openly** and been destroyed; Augustus ruled **indirectly** and taught Rome how monarchy could survive by **never admitting its existence**.[^1] Durable peace rested on competent statesmanship and administration—not spectacle alone.[^7]
+Caesar had displayed power and paid with his life; Augustus held comparable authority while denying it rhetorically. Rome's founding epic memory—Troy, duty, founding through loss—already supplied a language of mission; Augustus inherited it without reopening the mythic archive here.
 
-This is **anti-Caesar** in form: not less power, but power **denied rhetorically**. Epic substrate was already laid in Rome's founding memory—Troy, duty, founding through loss; Augustus inherits that grammar without reopening the mythic archive here.
+## Succession
 
-## Succession — inheritance without law
+The principate endured because Augustus lived; it lacked the legal machinery to endure because he died.[^20] Suetonius wrote that at the height of confidence Fortune proved fickle—Gaius and Lucius lost within eighteen months; adoption of Agrippa Postumus and Tiberius was compulsion, not a fixed design.[^21]
 
-The principate endured because Augustus **lived**; it lacked the legal machinery to endure because he **died**.[^20] Suetonius: at the height of confidence, **Fortune proved fickle**—Gaius and Lucius lost within eighteen months; adoption of Agrippa Postumus and Tiberius was **compulsion**, not a fixed design.[^21]
-
-**Tiberius** inherits a disguised monarchy, not a solved succession law.
+Tiberius inherited a disguised monarchy, not a solved succession law.
 
 ## Notes
 
