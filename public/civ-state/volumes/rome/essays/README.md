@@ -75,7 +75,7 @@ Twenty-one standalone lattice nodes under **Civilizational Statecraft**. Registr
 | africa | [essay-rome-africa.md](essay-rome-africa.md) | Africa (Rome) | geo-branch | colonial-tail | planned |
 | augustus | [essay-rome-augustus.md](essay-rome-augustus.md) | Augustus (Rome) | civic-chain | republic-principate | planned |
 | britannia | [essay-rome-britannia.md](essay-rome-britannia.md) | Britannia (Rome) | geo-branch | colonial-tail | planned |
-| caesar | [essay-rome-caesar.md](essay-rome-caesar.md) | Caesar (Rome) | civic-chain | republic-principate | planned |
+| caesar | [essay-rome-caesar.md](essay-rome-caesar.md) | Caesar (Rome) | civic-chain | republic-principate | active |
 | carthage | [essay-rome-carthage.md](essay-rome-carthage.md) | Carthage (Rome) | geo-branch | — | planned |
 | charlemagne | [essay-rome-charlemagne.md](essay-rome-charlemagne.md) | Charlemagne (Rome) | geo-branch | — | planned |
 | constantinople | [essay-rome-constantinople.md](essay-rome-constantinople.md) | Constantinople (Rome) | east-imperial | 1453, justinian-529 | planned |

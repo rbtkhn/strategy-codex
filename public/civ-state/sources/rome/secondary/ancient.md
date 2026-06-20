@@ -15,7 +15,9 @@ Use this shelf after the ancient Rome primary shelf when republic-to-empire conv
 - Edward Gibbon, *The History of the Decline and Fall of the Roman Empire*, for Enlightenment framing of Roman virtue memory and Livy as moral archivist of early Rome (formation / exempla—not founding chronology SSOT).
 - Will Durant, *The Life of Greece*, for Hellenic civilizational upstream of Roman formation (genesis comparative horizon).
 - Adrian Goldsworthy, *The Rise of Rome*, for regal-to-republic formation and civic-military ethic.
+- Adrian Goldsworthy, *Caesar: Life of a Colossus* (Weidenfeld & Nicolson / Yale UP, 2006), for **Caesar hinge** command-and-politics read — promoted essay footnotes: **Part 3, ch. 18** (Pompey pole / Italy 49 BC) and **ch. 19** (Pharsalus / Macedonia 48 BC). Tier B only; pair with primaries. Not *The Rise of Rome* (genesis/republic formation).
 - Anthony Everitt, *The Rise of Rome* · *The Rise of Athens* · *Alexander the Great*, for comparative polis-to-empire framing.
+- Napoleon I, *Commentaries on the Wars of Julius Caesar* (trans. R. A. Maguire, Pen & Sword, 2018; orig. *Précis des guerres de César*, 1836), for **peer military analysis** of Caesar’s campaigns — especially Civil War **Ch. 11** (Thessaly / Pharsalus reserve cohorts, pp. 67–68) and **Ch. 16** (assassination / failed restoration, pp. 103–107). Tier B only; pair with primaries. Cross-ref [essay-rome-napoleon](../../../volumes/rome/essays/essay-rome-napoleon.md) for full comparative essay.
 
 ## Counterweights And Corrections
 
@@ -25,6 +27,8 @@ Use this shelf after the ancient Rome primary shelf when republic-to-empire conv
 ## Use Rule
 
 Stay with the primary shelf when the issue is law, annalistic memory, constitutional wording, or imperial self-description. Open this shelf when the difficulty is transition sequencing, institutional form, or resisting theatrical decline storytelling. Open **Public-domain clarifiers** for genesis-style formation essays and Livy-as-memory questions.
+Open **Napoleon *Commentaries*** when the live question is **tactical command**, reserve use, or professional general-to-general read of Caesar (especially Pharsalus and Ides chapters) — not for republican constitutional SSOT.
+Open ***Caesar: Life of a Colossus*** when the live question is **Pompey vs Caesar command asymmetry**, **Pharsalus as institutional reveal**, or dictatorship-as-personal-sovereignty — not republic formation SSOT.
 
 ## Where To Go Next
 

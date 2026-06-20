@@ -22,7 +22,7 @@ On the volume chain, the **Republic is the political chain opener** ([rome-memor
 | Full Conflict of Orders · Twelve Tables grammar | Principate institutionalization |
 | Polybius VI exegesis · Hellenic assimilation at scale | Full six-pass transformation read |
 | Provinces · citizenship · roads/aqueducts habit | [hexagonal-republic-principate](hexagonal-republic-principate-rome.md) |
-| Gracchi · Marius · Sulla · Pompey strain types | Essay-rome registry: caesar · augustus (planned) |
+| Gracchi · Marius · Sulla · Pompey strain types | Principate institutionalization · [essay-rome-caesar](essay-rome-caesar.md) (active) · augustus (planned) |
 
 **Not:** constitutional Part 1 alone, term rosters, hex six-pass blocks, principate as settled form.
 
