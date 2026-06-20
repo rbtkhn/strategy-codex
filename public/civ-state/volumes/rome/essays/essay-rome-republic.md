@@ -68,7 +68,7 @@ Herodotus prepared the reader for **nomos** in every community Rome meets; Thucy
 
 The Punic sequence is the republic’s **sea exam**. **Carthage** holds naval commerce and African grain; Rome holds the legion and Italian manpower. The **First Punic War** teaches humility—and forces Rome to become a naval power, leaving Italy for Sicily and the sea. The **Second Punic War** is existential **near-death**—**Hannibal at Cannae** as memory wound in Livy’s Rome.[^11] Scipio’s answer is **strategic re-foundation**: war in Africa, alliance geometry, institution over revenge—Zama closes the arc by name, not campaign roster here. The **Third Punic War** ends rivalry by **elimination**—harsher than assimilation, proof the republic can choose annihilation when security demands it (contrast Hellenic east).
 
-Mediterranean hegemony follows: Spain, Greece, Macedon, Asia—each annexation asks **what Rome is now**. Governors with *imperium*, graded allies, booty through senatorial and popular channels—**republican acquisition grammar**. Rival-city depth: planned carthage node in [Essay-rome registry](connectivity-rome.md#essay-rome-registry). Military roster: [military-history-rome](military-history-rome.md).
+Mediterranean hegemony follows: Spain, Greece, Macedon, Asia—each annexation asks **what Rome is now**. Governors with *imperium*, graded allies, booty through senatorial and popular channels—**republican acquisition grammar**. Florus compresses the arc rhetorically—Hannibal’s ordeal as the republic’s **dramatic ascent** toward Mediterranean hegemony in a single moralized breath, not chronicle detail.[^18] Rival-city depth: planned carthage node in [Essay-rome registry](connectivity-rome.md#essay-rome-registry). Military roster: [military-history-rome](military-history-rome.md).
 
 ## Provinces and citizenship grammar
 
@@ -108,6 +108,7 @@ Standalone closure: the reader sees **what the republic achieved** (Italian unio
 | Ronald Syme, *The Roman Revolution* | Late republic → principate form change (hinge defer) |
 | Will Durant, *Caesar and Christ* | Broad republic-crisis synthesis |
 | Will Durant, *The Life of Greece* | Hellenic upstream · assimilation context |
+| Florus, *Epitome of Roman History* | Rhetorical compression of expansion arc — see [^18] |
 
 ## Notes
 
@@ -144,6 +145,8 @@ Standalone closure: the reader sees **what the republic achieved** (Italian unio
 [^16]: Sallust, *Bellum Jugurthinum* XLI.5: "For the nobles began to abuse their position and the people their liberty, and every man for himself robbed, pillaged, and plundered. Thus the community was split into two parties, and between these the state was torn to pieces."
 
 [^17]: Appian, *Roman History*, *Civil Wars* I.2.1: "The sword was never carried into the assembly, and there was no civil butchery until Tiberius Gracchus, while serving as tribune and bringing forward new laws, was the first to fall a victim to internal commotion."
+
+[^18]: Florus, *Epitome of Roman History* I.18 (Second Punic / Hannibal ordeal compressed). *(Rhetorical compression—not chronicle SSOT.)*
 
 ## Links
 
