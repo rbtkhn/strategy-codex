@@ -2796,3 +2796,187 @@ archetype headers make the registry readable without opening RLJ.
 Routing: [civ-state skill v0.2.0](../.cursor/skills/civ-state/SKILL.md) · [hexagonal registry](../public/civ-state/volumes/rome/essays/README.md#hexagonal-demonstrators) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md) · RLJ [hexagonal encode A–F](#2026-06-19---rome-hexagonal-encode-six-node-archetypes-a–f)
 
 **Pattern promotion:** defer until second civ reuses A–F without new archetype.
+
+---
+
+## 2026-06-19 - Operator dashboard aggregators + coffee Dashboard nudge
+
+**Cross-link:** [§ parallel ban on file tools and Shell calls (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — EXECUTE discipline during multi-phase dashboard ships.
+
+### Trigger
+
+Shipped operator dashboard consolidation **Phases 2–3** (Statecraft War Room, Operator Command Deck) atop Phase 1 Repo Surgeon; operator starts every session with **`coffee`** and cannot be expected to remember when to run each producer. Follow-up wired **Dashboard nudge** into coffee Step 1 and [`docs/operator-dashboard-when-to-use.md`](../docs/operator-dashboard-when-to-use.md). Commits: `7ca576dfa` (war room), `2d31c7c2f` (command deck), `e63a94d39` (coffee nudge).
+
+### Extracted law
+
+**1. Aggregator ship pattern (derived runtime dashboards)**
+
+```text
+SSOT inputs unchanged
+  → importable build_* (tests call directly; no subprocess peer producers on Windows)
+  → latest.md + latest.json under runtime/artifacts/<bucket>/ (gitignored)
+  → RebuildTarget in derived_regeneration.py
+  → bucket README + phase0 status line
+```
+
+Command Deck **composes** Surgeon + War Room in-process; it does not replace SSOT surfaces or mutate archive/daily/gate.
+
+**2. Coffee medium ≠ dashboard medium**
+
+```text
+coffee Step 1 = chat paste (warmup, handoff, rhythm, hub seeds)
+dashboards = on-disk cockpit (persistent, reopenable)
+```
+
+Bridge = **mandatory Dashboard nudge** after Step 1 — not auto-run inside `operator_coffee.py` (keeps coffee fast; agent owns "when?").
+
+**3. Default nudge rule**
+
+```text
+every work-start coffee → suggest Command Deck (ranked next actions)
++ at most one drill-down (War Room | Surgeon) when Step 1 signals match
+operator: run deck | run war room | run surgeon → run same turn, summarize only
+```
+
+**4. Weak-confidence cap**
+
+Filter **`object_confidence == weak`** only when capping War Room objects — not `lane_confidence`, or daily objects disappear from deck output.
+
+### Reapplication
+
+- **Phase 4** `operator_dashboard.py --all`: umbrella runs producers sequentially; still no chat-paste replacement.
+- **New aggregator**: same ship pattern + registry row + when-to-use nudge line.
+- **Hub B — Test**: nudge Repo Surgeon (`--scope docs`; `--full-surgeon` before large docs ship).
+- **Hub C — Deepen**: nudge Statecraft War Room (`--latest-days 7`).
+- **Mid-session stuck operator**: one-line nudge per `operator-style.mdc` Dashboard nudge section.
+
+### Structural changes
+
+| Ship | Path / commit |
+|------|----------------|
+| War Room | `scripts/statecraft_war_room.py`, `tests/test_statecraft_war_room.py`, `RebuildTarget` `statecraft-war-room` — `7ca576dfa` |
+| Command Deck | `scripts/operator_command_deck.py`, `tests/test_operator_command_deck.py`, `RebuildTarget` `operator-command-deck` — `2d31c7c2f` |
+| Coffee nudge | `docs/operator-dashboard-when-to-use.md`, `.cursor/skills/coffee/SKILL.md`, `.cursor/rules/operator-style.mdc`, `docs/operator-dashboards.md` — `e63a94d39` |
+| Phase 1 (prior) | Repo Surgeon — `8d6e83e1b` |
+
+### Guardrail
+
+```text
+Do not auto-run all three dashboards every coffee — harness cost + operator fatigue;
+Do not paste full latest.md into chat unless operator asks;
+Do not treat dashboard next_actions as gate merge or Record truth;
+Do not subprocess repo_surgeon.py / statecraft_war_room.py from deck on Windows by default;
+Do not filter lane_confidence weak when hiding weak objects — object_confidence only;
+Do not wire --include-gate on deck unless fork-revive / operator explicit.
+```
+
+**Falsification:** If operators ignore nudges and never open latest.md, add `--with-deck` on `operator_coffee.py` or `assess_session_load` seeds — nudge-only failed.
+
+### Current lesson
+
+```text
+Three dashboards answer structural / statecraft / what-next;
+coffee answers orientation — the agent bridges them with a short nudge, not operator memory.
+```
+
+Routing: [operator-dashboard-when-to-use.md](../docs/operator-dashboard-when-to-use.md) · [operator-dashboard-consolidation-phase0.md](../docs/skill-work/work-dev/operator-dashboard-consolidation-phase0.md) · [coffee SKILL Dashboard nudge](../.cursor/skills/coffee/SKILL.md) · RLJ [parallel ban EXECUTE ship](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship)
+
+**Pattern promotion:** defer until Phase 4 umbrella or second aggregator reuse proves the ladder without new law.
+
+---
+
+## 2026-06-19 - Post-success parallel relapse + wire-verify dual profile
+
+**Cross-link:** [§ parallel ban on file tools and Shell calls (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — **narrows** with post-success verify rule and section-anchored idempotency; does not replace base EXECUTE law.
+
+### Trigger
+
+`wire-verify` singularity MR-VOL profile ship on Windows harness: **eight parallel `StrReplace`** on one skill file → ~513s interrupt, zero bytes written. Sequential recovery (in-process Python patch → one routing `StrReplace` → one sync) succeeded; commit `9dd94c0db`. **After operator corrected parallel discipline**, agent still batched parallel `Delete` + `Grep`×2 and `Grep` + `Shell` on the success turn — same failure class, smaller blast radius.
+
+### Extracted law
+
+**1. Parallel ban covers post-success verification — not only edit phase**
+
+```text
+edit phase: one path per turn (StrReplace | Write | in-process sequential patch)
+verify phase: same law — no parallel Delete/Grep/Shell batch to "confirm landing"
+chain: git status; git diff --stat; git log inside one Shell when needed
+```
+
+**2. Recovery success ≠ discipline reset**
+
+```text
+problem → sequential fix → commit → recursive-learn
+  → do not "catch up" with parallel tool batch on the success turn
+```
+
+**3. Idempotency guards must be section-anchored**
+
+Patch skip keyed on global substring (e.g. `wire verify — singularity` anywhere in file) can miss **partial** ships (stub landed, routing table did not). Guard on **section anchor** (routing table row present?) not file-wide phrase presence.
+
+**4. wire-verify: profiles, not forked skills** *(encoding cash-out)*
+
+```text
+one portable wire-verify
+  → statecraft profile (CIV-STATE default)
+  → singularity profile (MR-VOL, hook-scoped)
+  → crossover hooks → split receipts (sheet vs statecraft note)
+```
+
+Activation: `wire verify — singularity` · v1.5.4 stub in portable + Cursor sync.
+
+### Reapplication
+
+- **Next Windows multi-hunk skill ship:** one patch path per turn; defer all verify reads/greps to following turns or one chained Shell.
+- **After any hang/interrupt:** strict until one patch lands — no parallel verify batch.
+- **Portable skill + routing table + body stub:** patch routing with **table-header idempotency**, not global keyword skip.
+- **Moonshots / Innermost Loop verify:** singularity profile; export-control → statecraft crossover receipt separate from panel numbers.
+- **Agent tempted to parallelize for speed:** contention, not optimization — unless operator says `parallel ok` for that turn.
+
+### Structural changes
+
+| Change | Path / receipt |
+|--------|----------------|
+| wire-verify v1.5.4 singularity MR-VOL stub | `skills/wire-verify/SKILL.md`, `.cursor/skills/wire-verify/SKILL.md` |
+| fact-check routing mirror | `.cursor/skills/fact-check/SKILL.md` |
+| Commit (slice-only) | `9dd94c0db` |
+| Always-on (pre-existing) | `.cursor/rules/agent-tool-latency-discipline.mdc` **#3**, **#10**; `agent-execution-hygiene.mdc` |
+
+**Open:** singularity archive README still says fact-check only; `WIRE-VERIFY-SINGULARITY-SOURCES.md` planned not landed.
+
+### Guardrail
+
+```text
+Do not parallelize post-success verification — same law as edit phase;
+Do not use file-wide substring skip for partial skill patches — anchor the section;
+Do not fork wire-verify-singularity — profiles only;
+Do not append duplicate parallel-ban prose without cross-link + narrow cash-out;
+Do not treat one successful sequential rescue as license to resume parallel batching next turn.
+```
+
+**Falsification:** If sequential-only verify turns prove slower *and* parallel batches reliably complete on this harness, revisit — until then, operator + RLJ 2026-06-18 law stands.
+
+### Current lesson
+
+```text
+The harness fails on concurrency, not on diff size —
+discipline must survive the success turn, not only the rescue turn.
+```
+
+Routing: [wire-verify SKILL v1.5.4](../skills/wire-verify/SKILL.md) · [singularity work-membrane verify gate](../singularity/work-membrane.md#rsi--high-velocity-intake-routing) · RLJ [parallel ban EXECUTE ship](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
+
+**Pattern promotion:** defer until second distinct ship proves post-success relapse without adding new law beyond this narrow.
+
+---
+
+## 2026-06-19 — agent session start: no parallel Read+Shell; fail over when skill Read hangs
+
+**Context:** Windows Cursor agent; `coffee` / `recursive-learn` / skill `Read` repeatedly interrupted (84s–224s); `git push` interrupted ~15m; branch stayed `ahead 5`.
+
+**Invariant:** Session bootstrap (`coffee`, `recursive-learn`, handoff) — **never** parallel `Read` + `Shell`. One bounded step per turn; skill file optional if embedded SSOT suffices.
+
+**Failover:** Operator says **`fast tools`** → deliver **A–D** hub + orient from thread memory; run `operator_handoff_check.py --fast` and `git push` **only** in a **dedicated single-shell turn**, or operator runs locally when SSH interactive.
+
+**Ship discipline (unchanged):** EXECUTE = one shell batched with `;`; one `StrReplace` per file per turn; wire-verify = frontmatter `verify:` only.
+
+**Related:** [agent-tool-latency-discipline § parallel ban](../../.cursor/rules/agent-tool-latency-discipline.mdc) · [agent-execution-hygiene § menu pick = same turn](../../.cursor/rules/agent-execution-hygiene.mdc)
