@@ -1,6 +1,18 @@
+---
+title: "{Topic} (Rome)"
+volume: rome
+essay_id: "{slug}"
+status: planned
+standalone: true
+period: ""
+hex_link: ""
+---
+
 # {Topic} (Rome)
 
-<!-- Copy to essay-rome-{slug}.md. Delete this comment on ship. Register in essays/README.md § Essay-rome and connectivity-rome.md § Essay-rome registry. -->
+**Generic scaffold:** [civ-state-essay-template.md](../../../templates/civ-state-essay-template.md) — YAML, Scholarship, Notes (footnotes), Links law.
+
+<!-- Copy to essay-rome-{slug}.md. Register in essays/README.md § Essay-rome and connectivity-rome.md § Essay-rome registry. -->
 
 ## Where This Sits
 
@@ -16,16 +28,29 @@
 
 **Membrane laws:** Empire overreach ≠ entropy · ethic (civ) ≠ institution (emp) · defer rosters to term depth · link hex-frame, do not re-run six passes.
 
-## Links
+<!-- BODY: Rome-specific H2 sections -->
 
-<!-- Peer essays by slug · term depth segment anchors · hex-frame when registered -->
+## Scholarship
+
+| Work | Use in this essay |
+|------|-------------------|
+| | |
+
+## Notes
+
+<!-- Primary pins: [^n] in body; definitions here. Secondary clarifiers → Scholarship table. -->
+
+## Links
 
 | Kind | Target |
 |------|--------|
 | **Hub** | [Connectivity Rome](connectivity-rome.md) · [Essay-rome registry](connectivity-rome.md#essay-rome-registry) |
-| **hex-frame** | {— or e.g. [hexagonal-1453-rome.md](hexagonal-1453-rome.md) — link only; no six-pass duplication} |
-| **Term depth** | {e.g. [rome-empire.md](../rome-empire.md#segment) — cross-ref only} |
+| **hex-frame** | {— or e.g. [hexagonal-1453-rome.md](hexagonal-1453-rome.md)} |
+| **Term depth** | {e.g. [rome-memory.md](../rome-memory.md#chain-spine)} |
 | **Peer essay-rome** | {e.g. [essay-rome-republic.md](essay-rome-republic.md)} |
+| **Constitutional** | [civilization-rome.md](civilization-rome.md) · [empire-rome.md](empire-rome.md) |
+| **Sources** | [primary/ancient.md](../../../sources/rome/primary/ancient.md) · [secondary/ancient.md](../../../sources/rome/secondary/ancient.md) · [shelf-reader](../shelf-reader.md) |
+| **Sub-lens** | {optional sub-lens essays} |
 
 ## Return Path
 
@@ -33,3 +58,5 @@
 - [Essay-rome registry](README.md#essay-rome)
 - [hex-frame registry](README.md#hex-frame-hexagonal-demonstrators) · [Term depth](../README.md#term-depth-volume-root)
 - Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)
+
+<!-- Example genesis arc (civic-chain formation): Epic substrate → Greek heritage → Comparative horizon → Romulus/kings → Tiber/city-form → 509 expulsion → Early Republic soft tail → Scholarship → Notes → Links -->

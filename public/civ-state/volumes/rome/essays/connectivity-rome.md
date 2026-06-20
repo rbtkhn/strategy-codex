@@ -117,7 +117,7 @@ Open **hex-frame** when the operator needs **the same node diagnosed six ways**;
 | crusades | [essay-rome-crusades.md](essay-rome-crusades.md) | Crusades (Rome) | faith-hinge | — | planned |
 | egypt | [essay-rome-egypt.md](essay-rome-egypt.md) | Egypt (Rome) | geo-branch | — | planned |
 | francia | [essay-rome-francia.md](essay-rome-francia.md) | Francia (Rome) | geo-branch | colonial-tail | planned |
-| genesis | [essay-rome-genesis.md](essay-rome-genesis.md) | Genesis (Rome) | civic-chain | — | planned |
+| genesis | [essay-rome-genesis.md](essay-rome-genesis.md) | Genesis (Rome) | civic-chain | — | active |
 | germania | [essay-rome-germania.md](essay-rome-germania.md) | Germania (Rome) | geo-branch | — | planned |
 | iberia | [essay-rome-iberia.md](essay-rome-iberia.md) | Iberia (Rome) | geo-branch | colonial-tail | planned |
 | italia | [essay-rome-italia.md](essay-rome-italia.md) | Italia (Rome) | peninsula | italian-wars | planned |

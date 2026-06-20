@@ -8,10 +8,16 @@ Use this shelf after the ancient Rome primary shelf when republic-to-empire conv
 
 ## Core Clarifiers
 
-- Mary Beard, *SPQR*, for broad republican-to-imperial continuity and social-political framing.
 - Ronald Syme, *The Roman Revolution*, for republic-to-principate conversion and political form change.
 - Fergus Millar and related Roman-state scholarship, for imperial administration and legal-political scale.
 - Will Durant, *Caesar and Christ*, as a broad civilizational synthesis clarifier for republic crisis, Caesar, Augustus, and classical Roman continuity.
+
+## Public-domain clarifiers
+
+- Edward Gibbon, *The History of the Decline and Fall of the Roman Empire*, for Enlightenment framing of Roman virtue memory and Livy as moral archivist of early Rome (formation / exempla—not founding chronology SSOT).
+- Will Durant, *The Life of Greece*, for Hellenic civilizational upstream of Roman formation (genesis comparative horizon).
+- Adrian Goldsworthy, *The Rise of Rome*, for regal-to-republic formation and civic-military ethic.
+- Anthony Everitt, *The Rise of Rome* · *The Rise of Athens* · *Alexander the Great*, for comparative polis-to-empire framing.
 
 ## Counterweights And Corrections
 
@@ -20,7 +26,7 @@ Use this shelf after the ancient Rome primary shelf when republic-to-empire conv
 
 ## Use Rule
 
-Stay with the primary shelf when the issue is law, annalistic memory, constitutional wording, or imperial self-description. Open this shelf when the difficulty is transition sequencing, institutional form, or resisting theatrical decline storytelling.
+Stay with the primary shelf when the issue is law, annalistic memory, constitutional wording, or imperial self-description. Open this shelf when the difficulty is transition sequencing, institutional form, or resisting theatrical decline storytelling. Open **Public-domain clarifiers** for genesis-style formation essays and Livy-as-memory questions.
 
 ## Where To Go Next
 

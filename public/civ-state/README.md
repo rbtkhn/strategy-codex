@@ -62,6 +62,7 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 
 ## Essays
 
+- **New volume essays:** start from [civ-state-essay-template.md](templates/civ-state-essay-template.md); Rome essay-rome nodes extend [_template-essay-rome.md](volumes/rome/essays/_template-essay-rome.md).
 - [High-skill labor compression and civilizational statecraft](essays/high-skill-labor-compression-and-civilizational-statecraft.md)
 - [Hormuz recognition / transit restraint](essays/hormuz-recognition-transit-restraint.md)
 
