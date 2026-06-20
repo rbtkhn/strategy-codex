@@ -13,6 +13,7 @@ hex_link: ""
 **Generic scaffold:** [civ-state-essay-template.md](../../../templates/civ-state-essay-template.md) — YAML, Scholarship, Notes (footnotes), Links law.
 
 <!-- Copy to essay-rome-{slug}.md. Register in essays/README.md § Essay-rome and connectivity-rome.md § Essay-rome registry. -->
+<!-- EXECUTE (agent): No parallel tools; Write before Read; no broad git — see civ-state-essay-template.md. -->
 
 ## Where This Sits
 

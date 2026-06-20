@@ -8,6 +8,8 @@ period: ""
 hex_link: ""
 ---
 
+<!-- EXECUTE checklist (agent): No parallel tools; Write before Read; no broad git. Plan SSOT locked → Write first; one bounded step per turn; git add explicit paths only — no repo-wide status/diff; one hang → operator terminal handoff. -->
+
 # <H1 title>
 
 ## Where This Sits

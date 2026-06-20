@@ -2969,51 +2969,177 @@ Routing: [wire-verify SKILL v1.5.4](../skills/wire-verify/SKILL.md) · [singular
 
 ---
 
-## 2026-06-19 — agent session start: no parallel Read+Shell; fail over when skill Read hangs
-
-**Context:** Windows Cursor agent; `coffee` / `recursive-learn` / skill `Read` repeatedly interrupted (84s–224s); `git push` interrupted ~15m; branch stayed `ahead 5`.
-
-**Invariant:** Session bootstrap (`coffee`, `recursive-learn`, handoff) — **never** parallel `Read` + `Shell`. One bounded step per turn; skill file optional if embedded SSOT suffices.
-
-**Failover:** Operator says **`fast tools`** → deliver **A–D** hub + orient from thread memory; run `operator_handoff_check.py --fast` and `git push` **only** in a **dedicated single-shell turn**, or operator runs locally when SSH interactive.
-
-**Ship discipline (unchanged):** EXECUTE = one shell batched with `;`; one `StrReplace` per file per turn; wire-verify = frontmatter `verify:` only.
-
-**Related:** [agent-tool-latency-discipline § parallel ban](../../.cursor/rules/agent-tool-latency-discipline.mdc) · [agent-execution-hygiene § menu pick = same turn](../../.cursor/rules/agent-execution-hygiene.mdc)
-
----
-
 ## 2026-06-19 - civ-state essay template ladder + agent git handoff
 
-**Cross-link:** [§ parallel ban (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [§ post-success parallel relapse (2026-06-19)](#2026-06-19---post-success-parallel-relapse--wire-verify-dual-profile) — **narrows**; does not replace base EXECUTE law.
+**Cross-link:** [§ parallel ban on file tools and Shell calls (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [§ post-success parallel relapse (2026-06-19)](#2026-06-19---post-success-parallel-relapse--wire-verify-dual-profile) — **narrows** with create-from-plan, template ladder, and git handoff; does not replace base EXECUTE law.
 
 ### Trigger
 
-Genesis EXECUTE: `civ-state-essay-template`, Rome overlay, active `essay-rome-genesis.md`, registry + shelf. Parallel agent tools hung; plan mode blocked writes until Agent mode; operator terminal committed/pushed (`e265c8906`); PowerShell needs `;` not `&&`.
+Plan EXECUTE for Rome **genesis**: create generic `civ-state-essay-template`, volume overlay, active `essay-rome-genesis.md`, registry + shelf. Session load:
+
+- Parallel `Read`/`Glob`/`git` from agent → multi-minute interrupts.
+- Plan mode blocked writes until Agent mode confirmed.
+- Operator: **create something** while agent was **reading**; **why parallel?** after batched tools.
+- Agent `git status` / `git add` hung; operator terminal: commit + push in ~8s.
+- PowerShell: `&&` invalid → commit succeeded with `;`.
 
 ### Extracted law
 
-**Create-from-plan:** plan SSOT locked → Write first; no parallel discovery reads.
+**1. Create-from-plan — no discovery reads when SSOT is locked**
 
-**Template ladder:** `templates/civ-state-essay-template.md` → volume overlay → first consumer essay. Primary pins → footnotes + Notes; secondary → Scholarship; internal Links only.
+```text
+operator: EXECUTE / create / ship
+  + plan SSOT has outline + pin map
+    → Write first (template, essay, registry)
+    → Read only on failure or single bounded verify (limit ≤40)
+    → not parallel Glob/Grep "to calibrate"
+```
 
-**Agent git handoff:** one hang/interrupt → stop retrying; give operator paths + message. PowerShell: `;` not `&&`.
+**2. civ-state essay template ladder**
+
+```text
+public/civ-state/templates/civ-state-essay-template.md  (cross-volume SSOT)
+  → volumes/{vol}/essays/_template-essay-{vol}.md       (thin overlay + pointer)
+  → essay-{vol}-{slug}.md                               (first consumer proves template)
+```
+
+Citation law baked into template:
+
+- **Primary pins** → `[^n]` in body + `## Notes`
+- **Secondary clarifiers** → `## Scholarship` table
+- **Internal Links only** — no CMC/MEM/outbound repo URLs
+
+**3. Agent git on Windows — hand off after first hang**
+
+```text
+git Shell from agent:
+  PowerShell → ; not &&
+  one chained add + commit + log -1 per turn
+  first hang/interrupt → stop retrying
+  → give operator exact paths + message; operator terminal owns git
+```
+
+Harness git failure ≠ repo failure (operator proved with `e265c8906` + push).
+
+**4. Post-success discipline (extends 2026-06-19 relapse entry)**
+
+After files land on disk, do **not** "catch up" with parallel `git status` + `diff` + `log` batches — operator commit path is faster and reliable.
 
 ### Reapplication
 
-Next essay-rome (republic) and next civ volume: overlay + plan SSOT + sequential Write. Windows EXECUTE after hang: Write-only; git to operator terminal.
+- **Next essay-rome node** (republic): copy overlay → draft from plan SSOT → footnotes → one sequential Write; no parallel template-neighbor reads.
+- **Next civ volume** (Persia/China essay lattice): generic template + volume overlay before first active essay.
+- **Any Windows EXECUTE** after tool hang: sequential Write only; git handoff script in reply, not agent retry loop.
+- **Plan mode + EXECUTE**: confirm Agent mode once; do not read repo to "prepare" when plan already specifies paths and pins.
 
 ### Structural changes
 
-`e265c8906` — template, genesis essay, registry active, shelf (Beard out, clarifiers in), pushed to `origin/main`.
+| Ship | Path / receipt |
+|------|----------------|
+| Generic template | `public/civ-state/templates/civ-state-essay-template.md` |
+| Rome overlay | `public/civ-state/volumes/rome/essays/_template-essay-rome.md` |
+| First consumer | `public/civ-state/volumes/rome/essays/essay-rome-genesis.md` (`active`) |
+| Registry | `essays/README.md`, `connectivity-rome.md` |
+| Shelf | Beard out · Public-domain clarifiers · mirrors |
+| Commit + push | `e265c8906` → `origin/main` |
+
+**Not landed:** `templates/README.md` author guide (optional follow-up).
 
 ### Guardrail
 
-No duplicate full scaffold in overlay; no retry agent git after hang; cross-link parallel-ban entries — do not duplicate prose.
+```text
+Do not repo-grep or parallel Read to "discover" template shape when plan SSOT exists;
+Do not retry agent git after one hang — operator terminal owns ship;
+Do not duplicate full scaffold in volume overlay — pointer + delta only;
+Do not put primary pins only in Scholarship or blockquotes when footnote law applies;
+Do not append duplicate parallel-ban prose — cross-link + narrow (git handoff, create-first).
+```
+
+**Falsification:** If agent git becomes reliably <10s on this harness, git handoff law softens to "prefer operator terminal when dirty tree is large" — until then, one hang = handoff.
 
 ### Current lesson
 
-Template before instance, write before read, operator terminal for git.
+```text
+Template before instance, write before read, operator terminal for git —
+the genesis ship proved the ladder; the harness proved the handoff.
+```
 
-Routing: [civ-state-essay-template.md](../public/civ-state/templates/civ-state-essay-template.md) · [essay-rome-genesis.md](../public/civ-state/volumes/rome/essays/essay-rome-genesis.md)
+Routing: [civ-state-essay-template.md](../public/civ-state/templates/civ-state-essay-template.md) · [essay-rome-genesis.md](../public/civ-state/volumes/rome/essays/essay-rome-genesis.md) · RLJ [parallel ban EXECUTE ship](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
+
+**Pattern promotion:** defer until second essay-rome ship reuses template ladder without new law; optional wire to `templates/README.md` or civ-state skill on reuse.
+
+---
+
+## 2026-06-19 — civ-state EXECUTE checklist wired; parallel Read batch = same ban
+
+**Tag:** `civ-state-execute-checklist-2026-06-19` · `parallel-read-batch-ban-2026-06-19`  
+**Cross-link:** [§ civ-state essay template ladder](#2026-06-19---civ-state-essay-template-ladder--agent-git-handoff) · [§ parallel ban EXECUTE ship](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — **narrows**; does not replace.
+
+### Trigger
+
+Republic + genesis essay arc shipped (`9425c78ea`, `930f8cbdf`, pushed `930f8cbdf`). Repeated harness failures: batched parallel `Read`/`Grep`/`git status` → multi-minute interrupts (~170–300s); operator: *why parallel again?* Operator requested EXECUTE one-liner on civ-state essay template.
+
+### Extracted law
+
+**1. Parallel Read batch = parallel ban**
+
+```text
+Banned in one turn:
+  Read + Shell
+  Read + Read + Read (same as parallel discovery)
+  Grep/Glob repo-wide "to find template"
+Allowed:
+  one Read (limit≤40) OR one Write OR one Shell — then stop
+```
+
+**2. EXECUTE checklist (template SSOT)**
+
+```text
+public/civ-state/templates/civ-state-essay-template.md
+  → HTML comment after frontmatter:
+     No parallel tools; Write before Read; no broad git
+volumes/{vol}/essays/_template-essay-{vol}.md
+  → pointer comment to generic template
+```
+
+**3. Git: never open with status/diff on large dirty tree**
+
+```text
+Ship path: git add <explicit paths>; git commit -m "..."; optional git push
+Skip: git status, git diff (whole repo) unless operator asks
+```
+
+### Reapplication
+
+- **Next essay-rome EXECUTE:** open template comment only if needed; Write essay body from plan SSOT; one commit with explicit paths.
+- **recursive learn invoke:** one journal Read (tail limit) — not parallel with template Read + skill Read + Grep.
+- **Operator "what is happening":** answer + single StrReplace; do not "investigate" with batched tools.
+
+### Structural changes
+
+| Ship | Path |
+|------|------|
+| EXECUTE comment | `public/civ-state/templates/civ-state-essay-template.md` |
+| Rome pointer | `public/civ-state/volumes/rome/essays/_template-essay-rome.md` |
+| Essays shipped | `essay-rome-republic.md` (v0.1.36) · `essay-rome-genesis.md` hygiene (v0.1.37) |
+| Push | `origin/main` @ `930f8cbdf` |
+
+### Guardrail
+
+```text
+Do not batch Read tools to "be efficient" on Windows EXECUTE;
+Do not repo-Grep when plan SSOT lists paths;
+Do not retry Read after interrupt — Write from plan or operator handoff;
+Cross-link parallel-ban entries — do not duplicate full prose.
+```
+
+**Falsification:** If parallel Read batch becomes reliably <5s on harness, soften to "prefer sequential" — until then, one tool class per turn.
+
+### Current lesson
+
+```text
+Parallel Read is still parallel — Write first, one tool, stop.
+```
+
+Routing: [civ-state-essay-template.md](../public/civ-state/templates/civ-state-essay-template.md) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
 
