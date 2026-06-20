@@ -39,7 +39,6 @@ Maturing interpretive chapters — open after Civilization and Empire:
 |-------|------|------|
 | Connectivity Rome | [connectivity-rome.md](connectivity-rome.md) | Term-depth membrane · cross-read matrix · essay-rome registry |
 | Hexagonal template | [_template-hexagonal-rome.md](_template-hexagonal-rome.md) | Copy scaffold for **hex-frame** essays |
-| Essay-rome template | [_template-essay-rome.md](_template-essay-rome.md) | Rome overlay on [civ-state-essay-template.md](../../../templates/civ-state-essay-template.md) |
 
 ## Civilizational Statecraft — demonstrator stack
 
@@ -67,7 +66,7 @@ Informal name: **hex-frame**. On-disk: `hexagonal-*-rome.md`. One friction node 
 
 ## Essay-rome
 
-Twenty-one standalone lattice nodes under **Civilizational Statecraft**. **Registry SSOT:** [`essay-rome.registry.yaml`](essay-rome.registry.yaml) · human hub: [connectivity-rome.md § Essay-rome registry](connectivity-rome.md#essay-rome-registry). Templates: [_template-essay-rome.md](_template-essay-rome.md) · [_template-essay-rome.meta.yaml](_template-essay-rome.meta.yaml).
+Twenty-one standalone lattice nodes under **Civilizational Statecraft**. **Registry SSOT:** [`essay-rome.registry.yaml`](essay-rome.registry.yaml) · human hub: [connectivity-rome.md § Essay-rome registry](connectivity-rome.md#essay-rome-registry). **Reader essay SSOT:** [civ-state-essay-template.md](../../../templates/civ-state-essay-template.md) · **Meta sidecar:** [_template-essay-rome.meta.yaml](_template-essay-rome.meta.yaml).
 
 **Civic-chain read order** (when narrative continuity helps): genesis → republic → caesar → augustus — each active node has a `.meta.yaml` sidecar for routing.
 

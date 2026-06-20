@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.40** — Essay template SSOT: remove `_template-essay-rome.md`; all reader-facing essays use [civ-state-essay-template.md](../templates/civ-state-essay-template.md) only; Rome meta sidecar unchanged.
+
 **v0.1.39** — Rome civic-chain standalone prose pass: remove implicit metadata voice and internal body links from genesis, republic, caesar, augustus; historical argument only in essay bodies.
 
 **v0.1.38** — Rome civic-chain essay/meta split: reader-facing `.md` (lede · body · Scholarship · Notes) + `.meta.yaml` sidecars; registry SSOT [`essay-rome.registry.yaml`](../volumes/rome/essays/essay-rome.registry.yaml).
@@ -17,6 +19,15 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.40 — essay template SSOT consolidation
+
+| Change | Detail |
+|--------|--------|
+| `_template-essay-rome.md` | Removed — duplicate of civ-state-essay-template |
+| `civ-state-essay-template.md` | Rome essay-rome naming/registry comments added |
+| `README.md` · `connectivity-rome.md` · `public/civ-state/README.md` | Pointers → single essay template SSOT |
+| `_template-essay-rome.meta.yaml` | Unchanged — Rome meta sidecar only |
 
 ### v0.1.39 — civic-chain standalone prose pass
 

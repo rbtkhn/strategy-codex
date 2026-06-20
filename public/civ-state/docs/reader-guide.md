@@ -192,6 +192,8 @@ Some volume interpretive nodes split **reader-facing prose** from **editor/machi
 
 **Standalone prose rule:** Essay bodies must read as if each file may be the only one opened—direct historical statements, no cross-essay dependency language or internal markdown links in interpretive prose (before `## Scholarship`). Chain logic lives in `.meta.yaml` and the registry, not in thesis sentences.
 
+**Reader essay SSOT (all volumes):** [civ-state-essay-template.md](../templates/civ-state-essay-template.md) — no volume-specific reader template overlays.
+
 ## What This Work Must Prevent
 
 It must prevent five errors:
