@@ -60,22 +60,6 @@ Sallust on Catiline: luxury and faction corrode *virtus*.[^15] On Jugurtha: Rome
 
 That is **strain**, not universal rupture—the instrument creaks. **Caesar** names the threshold: when procedure can no longer decide between armies, personal command will expose what collegial form could still debate but not enforce.
 
-## Scholarship
-
-| Work | Use in republic |
-|------|----------------|
-| Edward Gibbon, *The History of the Decline and Fall of the Roman Empire* | Livy as republican moral archive — see [^3] |
-| Adrian Goldsworthy, *The Rise of Rome* | Expansion · civic-military ethic |
-| Adrian Goldsworthy, *In the Name of Rome* | Legion habit · command culture |
-| Anthony Everitt, *The Rise of Rome* | Republic as power statement · institutional arc |
-| Anthony Everitt, *The Rise of Athens* | Democracy brilliance / fragility vs mixed constitution |
-| Anthony Everitt, *Alexander the Great* | Universalism without transmission · Pyrrhus mirror |
-| Andrew Lintott, *The Constitution of the Roman Republic* | Mixed constitution · office mechanics · structural change |
-| Ronald Syme, *The Roman Revolution* | Late republic → principate form change (hinge defer) |
-| Will Durant, *Caesar and Christ* | Broad republic-crisis synthesis |
-| Will Durant, *The Life of Greece* | Hellenic upstream · assimilation context |
-| Florus, *Epitome of Roman History* | Rhetorical compression of expansion arc — see [^18] |
-
 ## Notes
 
 [^1]: Plutarch, *Life of Pyrrhus*: "If we are victorious in one more battle with the Romans, we shall be utterly ruined."
@@ -113,3 +97,5 @@ That is **strain**, not universal rupture—the instrument creaks. **Caesar** na
 [^17]: Appian, *Roman History*, *Civil Wars* I.2.1: "The sword was never carried into the assembly, and there was no civil butchery until Tiberius Gracchus, while serving as tribune and bringing forward new laws, was the first to fall a victim to internal commotion."
 
 [^18]: Florus, *Epitome of Roman History* I.18 (Second Punic / Hannibal ordeal compressed). *(Rhetorical compression—not chronicle SSOT.)*
+
+[^19]: Modern framing for republic scale and mixed constitution: Adrian Goldsworthy, *The Rise of Rome* · *In the Name of Rome*; Anthony Everitt, *The Rise of Rome* · *The Rise of Athens* · *Alexander the Great*; Andrew Lintott, *The Constitution of the Roman Republic*; Ronald Syme, *The Roman Revolution* (late republic → principate form change); Will Durant, *Caesar and Christ* · *The Life of Greece*.

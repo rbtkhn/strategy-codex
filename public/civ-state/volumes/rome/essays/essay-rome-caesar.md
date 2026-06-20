@@ -42,24 +42,6 @@ Caesar's death was the **sentence** of the constitution, not its salvation.[^13]
 
 **Augustus** will **institutionalize** what Caesar **personalized**—concealed command where Caesar made personal command visible.
 
-## Scholarship
-
-| Work | Use in this essay |
-|------|-------------------|
-| Adrian Goldsworthy, *Caesar: Life of a Colossus* | Pompey pole (Part 3, ch. 18) · Pharsalus reveal (ch. 19) — see [^6] [^8] |
-| Adrian Goldsworthy, *In the Name of Rome* | Command tradition · Caesar vs Scipio contrast |
-| Anthony Everitt, *Cicero* | Procedural tragedy · law after viability |
-| Edward Gibbon, *Decline and Fall* | **Interpretive lens** (Tier B) — Rubicon · Pompey hesitation · Ides — see [^4] [^5] [^13] |
-| Erich Gruen, *The Last Generation of the Roman Republic* | Counterweight — system contested pre-49 — see [^19] |
-| John Keegan, *The Mask of Command* | **Military-interpretive lens** — Pharsalus command presence — scholarship mention only |
-| Christian Meier, *Caesar* | *Res publica amissa* — structural counterweight |
-| Theodor Mommsen, *History of Rome* | Dictatorship paradox · authorized vs embodied power — see [^12] [^20] |
-| Napoleon I, *Commentaries on the Wars of Julius Caesar* (Maguire trans., 2018) | **Military-interpretive lens** (Tier B; not primary evidence) — scholarship mention only |
-| Ronald Syme, *The Roman Revolution* | Late republic → personal power |
-| Tacitus, *Annals* I.1 (optional) | Retrospective clarifier — civil-war concentration — see [^18] |
-| Florus, *Epitome of Roman History* | Rhetorical compression — civil-war culmination — see [^17] |
-| Will Durant, *Caesar and Christ* | Broad synthesis — secondary, not driver |
-
 ## Notes
 
 [^1]: Caesar, *Commentarii de Bello Civili* I.22: war accepted to defend the honour of himself and the Roman people against those who have disregarded it.
@@ -98,6 +80,8 @@ Caesar's death was the **sentence** of the constitution, not its salvation.[^13]
 
 [^18]: Tacitus, *Annals* I.1 (trans. Church & Brodribb): "The despotisms of Cinna and Sulla were brief; the rule of Pompeius and of Crassus soon yielded before Caesar; the arms of Lepidus and Antonius before Augustus; who, when the world was wearied by civil strife, subjected it to empire under the title of 'Prince.'"
 
-[^19]: Erich Gruen, *The Last Generation of the Roman Republic* (paraphrase composite): the late republic remained contested, not pre-dead, before 49 BC—Pharsalus revealed where loyalty and tempo already pointed rather than creating the migration of sovereignty.
+[^19]: Erich Gruen, *The Last Generation of the Roman Republic* (paraphrase composite): the late republic remained contested, not pre-dead, before 49 BC—useful as a counterweight to interpretations that treat the late Republic as already dead before Caesar crossed the Rubicon; Pharsalus revealed where loyalty and tempo already pointed rather than creating the migration of sovereignty.
 
 [^20]: Theodor Mommsen, *History of Rome*, Vol. V (paraphrase composite): the republic could authorize power long before it could embody that power in the field.
+
+[^21]: Further modern framing behind this essay: Adrian Goldsworthy, *In the Name of Rome* (command tradition · Caesar vs Scipio contrast); Anthony Everitt, *Cicero* (procedural tragedy · law after viability); John Keegan, *The Mask of Command*; Napoleon I, *Commentaries on the Wars of Julius Caesar* (Maguire trans., 2018); Christian Meier, *Caesar* (*res publica amissa*); Ronald Syme, *The Roman Revolution* (late republic → personal power); Will Durant, *Caesar and Christ* (broad synthesis).

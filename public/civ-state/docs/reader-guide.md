@@ -184,17 +184,19 @@ Some volume interpretive nodes split **reader-facing prose** from **editor/machi
 
 | File | Job |
 |------|-----|
-| `essay-rome-{slug}.md` | Argument — title, lede, body, Scholarship, Notes |
+| `essay-rome-{slug}.md` | Argument — title, lede, body, Notes |
 | `essay-rome-{slug}.meta.yaml` | Scope, deferrals, membrane, links, return path |
 | `essay-rome.registry.yaml` | Lattice registry and chain read order |
 
 **Read the `.md` file** when you want the essay. **Open the sidecar or registry** when you need placement, peers, or deferrals. Civic-chain read order (when narrative continuity helps): genesis → republic → caesar → augustus — see [essay-rome.registry.yaml](../volumes/rome/essays/essay-rome.registry.yaml).
 
-**Standalone prose rule:** Essay bodies must read as if each file may be the only one opened—direct historical statements, no cross-essay dependency language or internal markdown links in interpretive prose (before `## Scholarship`). Chain logic lives in `.meta.yaml` and the registry, not in thesis sentences.
+**Standalone prose rule:** Essay bodies must read as if each file may be the only one opened—direct historical statements, no cross-essay dependency language or internal markdown links in interpretive prose (before `## Notes`). Chain logic lives in `.meta.yaml` and the registry, not in thesis sentences.
+
+**Notes-only apparatus:** Research support lives in footnotes under `## Notes` only—no separate Scholarship table. Orphan modern works may appear as sparing end notes; editor bibliography remains in `.meta.yaml` `routing.sources`.
 
 **Reader essay SSOT (all volumes):** [civ-state-essay-template.md](../templates/civ-state-essay-template.md) — no volume-specific reader template overlays.
 
-**Citation doctrine:** Modern secondary sources may shape interpretation but must not appear as named authorities in essay body prose (before `## Scholarship`). They belong in footnotes and the Scholarship table. Verbatim body quotation comes primarily from ancient, medieval, or official sources. Pattern: authorial claim in prose, modern support below the line — `[claim][^n]`.
+**Citation doctrine:** Modern secondary sources may shape interpretation but must not appear as named authorities in essay body prose (before `## Notes`). They belong in footnotes under `## Notes`. Verbatim body quotation comes primarily from ancient, medieval, or official sources. Pattern: authorial claim in prose, modern support below the line — `[claim][^n]`.
 
 ## What This Work Must Prevent
 

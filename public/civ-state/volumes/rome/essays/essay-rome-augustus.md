@@ -44,26 +44,6 @@ The principate endured because Augustus **lived**; it lacked the legal machinery
 
 **Tiberius** inherits a disguised monarchy, not a solved succession law.
 
-## Scholarship
-
-| Work | Use in this essay |
-|------|-------------------|
-| Ronald Syme, *The Roman Revolution* | Structural lead — revolution disguised as restoration — see [^3] |
-| Anthony Everitt, *Augustus* | Anti-Caesar concealment · force then peace — see [^1] |
-| Adrian Goldsworthy, *Augustus: First Emperor of Rome* | Vacancy — name vs authority — see [^2] |
-| Theodor Mommsen, *History of Rome* | Settlement form/substance · succession machinery — see [^4] [^20] |
-| Edward Gibbon, *Decline and Fall* | **Interpretive lens** — Principate disguise · peace bargain — see [^5] |
-| Will Durant, *Caesar and Christ* | **Civilizational synthesis** — one clause — see [^7] |
-| Tacitus, *Annals* I.2 | Peace bargain · *princeps* titles (caesar owns I.1) — see [^6] |
-| Cicero, *Philippics* | Last republican thunder — Antony — see [^9] [^10] |
-| Cicero, *Ad Atticum* | Vacancy uncertainty — see [^11] |
-| Horace, *Carmen Saeculare* | Settlement sacral ratification — see [^18] |
-| Ovid, *Fasti* | Augustan sacred-time reordering — see [^23] |
-| Virgil, *Aeneid* VI | Principate legitimation — one clause — see [^19] |
-| Velleius Paterculus, *Roman History* | Loyalist counterweight to Tacitus — see [^22] |
-| Horace, *Odes* 3.30 | Succession — *exegi monumentum* — scholarship mention only |
-| Erich Gruen, *The Last Generation of the Roman Republic* | Counterweight — contested pre-49 memory |
-
 ## Notes
 
 [^1]: Anthony Everitt, *Augustus* (paraphrase composite): unlike Caesar, Augustus understood open display of power was destabilizing; force won the state but peace required force to disappear from view; Caesar ruled openly and was destroyed—Augustus ruled indirectly and taught Rome monarchy could survive by never admitting its existence.
@@ -111,3 +91,5 @@ The principate endured because Augustus **lived**; it lacked the legal machinery
 [^22]: Velleius Paterculus, *Roman History* II.89.3–6 (Augustus restores peace and dignity; *libertas* in name, *principatus* in fact; universal consent). *(Loyalist imperial voice—counterweight to Tacitus Ann. I.2.)*
 
 [^23]: Ovid, *Fasti* I.589–608 (August month; honors to Augustus). *(Augustan reordering of sacred time—pairs Carmen Saeculare.)*
+
+[^24]: Further modern framing: Erich Gruen, *The Last Generation of the Roman Republic* (contested pre-49 memory as counterweight); Horace, *Odes* 3.30 (*exegi monumentum* — succession and durable monument as Augustan theme).

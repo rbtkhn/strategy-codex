@@ -82,20 +82,6 @@ Civic militarism seeds early: Romans fight for honor, liberty, safety—not merc
 
 **c. 390** marks the close: Gauls sack the city; recovery is debated—relocate to Veii or rebuild? The people vote to **rebuild**.[^16] No king returns; the republic survives by choosing the harder urban continuity. Endurance is proof of form.
 
-## Scholarship
-
-| Work | Use in genesis |
-|------|----------------|
-| Will Durant, *The Life of Greece* | Hellenic civilizational upstream |
-| Adrian Goldsworthy, *The Rise of Rome* | Formation · civic-military ethic seeds |
-| Anthony Everitt, *The Rise of Rome* | City as power statement · republic preview |
-| Anthony Everitt, *The Rise of Athens* | Democracy brilliance / fragility contrast |
-| Anthony Everitt, *Alexander the Great* | Universalism without transmission |
-| Edward Gibbon, *The History of the Decline and Fall of the Roman Empire* | Livy as moral archivist — see [^2] at Romulus/kings |
-| Dionysius of Halicarnassus, *Roman Antiquities* | Greek explanatory frame for early Rome — see [^17]; not factual SSOT |
-| Varro, *De Lingua Latina* | Antiquarian vocabulary of rites and places — see [^18] |
-| Ovid, *Fasti* | Calendar as regal civic memory — see [^19] |
-
 ## Notes
 
 [^1]: Livy, *Ab Urbe Condita*, Preface: "What chiefly makes the study of history wholesome and profitable is this, that you behold the lessons of every kind of experience set forth as on a conspicuous monument…"
@@ -135,3 +121,5 @@ Civic militarism seeds early: Romans fight for honor, liberty, safety—not merc
 [^18]: Varro, *De Lingua Latina* V.74–75; VI.6 (religious/legal vocabulary; place-names). *(Antiquarian composite; extant books V–X; fragmentary transmission.)*
 
 [^19]: Ovid, *Fasti* I.3–26 (Janus; Kalends; Romulus in calendar lore). *(Ritual calendar as civic memory.)*
+
+[^20]: Modern framing for comparative horizon and formation ethic: Will Durant, *The Life of Greece*; Adrian Goldsworthy, *The Rise of Rome*; Anthony Everitt, *The Rise of Rome* · *The Rise of Athens* · *Alexander the Great*.

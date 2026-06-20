@@ -4,7 +4,9 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
-**v0.1.43** — Citation doctrine (max purity): civic-chain essay bodies — authorial + ancient voices only; modern secondary (incl. Gibbon, Mommsen) in footnotes and Scholarship table.
+**v0.1.44** — Notes-only apparatus: civic-chain four (genesis, republic, caesar, augustus) — remove `## Scholarship` tables; orphan modern works in sparing end notes; template + reader-guide aligned.
+
+**v0.1.43** — Citation doctrine (max purity): civic-chain essay bodies — authorial + ancient voices only; modern secondary (incl. Gibbon, Mommsen) in footnotes.
 
 **v0.1.42** — Essay-rome titles: one-word H1s (Genesis, Republic, Caesar, Augustus, …) — no `(Rome)` volume suffix; registry + meta sidecars aligned.
 
@@ -14,7 +16,7 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 **v0.1.39** — Rome civic-chain standalone prose pass: remove implicit metadata voice and internal body links from genesis, republic, caesar, augustus; historical argument only in essay bodies.
 
-**v0.1.38** — Rome civic-chain essay/meta split: reader-facing `.md` (lede · body · Scholarship · Notes) + `.meta.yaml` sidecars; registry SSOT [`essay-rome.registry.yaml`](../volumes/rome/essays/essay-rome.registry.yaml).
+**v0.1.38** — Rome civic-chain essay/meta split: reader-facing `.md` (lede · body · Notes) + `.meta.yaml` sidecars; registry SSOT [`essay-rome.registry.yaml`](../volumes/rome/essays/essay-rome.registry.yaml).
 
 **v0.1.37** — Rome essay-rome genesis hygiene: anti-anachronism (Greek upstream, Polybius retrospective), 312 BC forward glance, Twelve Tables defer, tighter Notes refs.
 
@@ -25,6 +27,13 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.44 — Notes-only apparatus (civic-chain four)
+
+| Change | Detail |
+|--------|--------|
+| Civic-chain `.md` | Remove `## Scholarship`; research in `## Notes` only (+ sparing framing notes [^19]–[^24] per essay) |
+| `civ-state-essay-template.md` · `reader-guide.md` | Two-part essay shape (body + Notes); citation doctrine → footnotes only |
 
 ### v0.1.43 — citation doctrine (civic-chain four)
 

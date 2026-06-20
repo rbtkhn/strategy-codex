@@ -2,9 +2,9 @@
 
 <!-- Reader-facing essay only. Routing, scope, deferrals → {slug}.meta.yaml (editor/machine). Registry → essay-rome.registry.yaml (Rome) or volume equivalent. -->
 
-<!-- Standalone prose: body (before ## Scholarship) must not use essay-rome-* links, chain/defer voice ("what essay-X proved", "chain continues", "defer belongs to"), essay-self voice ("The essay stacks/closes"), or internal markdown links to peer essays/sub-lenses. State history directly; each essay readable alone. -->
+<!-- Standalone prose: body (before ## Notes) must not use essay-rome-* links, chain/defer voice ("what essay-X proved", "chain continues", "defer belongs to"), essay-self voice ("The essay stacks/closes"), or internal markdown links to peer essays/sub-lenses. State history directly; each essay readable alone. -->
 
-<!-- Citation doctrine: modern secondary sources (including Gibbon, Mommsen, Syme, Goldsworthy, etc.) must not appear as named authorities in body prose. They belong in footnotes and Scholarship table. Body = authorial synthesis + ancient/medieval/official voices; pattern: [authorial claim][^n]. -->
+<!-- Citation doctrine: modern secondary sources (including Gibbon, Mommsen, Syme, Goldsworthy, etc.) must not appear as named authorities in body prose. They belong in footnotes under ## Notes only. Body = authorial synthesis + ancient/medieval/official voices; pattern: [authorial claim][^n]. -->
 
 <!-- Rome essay-rome nodes (volume-local only — same reader scaffold as all volumes):
      H1: {Topic} — one word; no volume suffix (volume is implicit from path)
@@ -19,16 +19,8 @@
 
 <!-- BODY: volume-specific H2 sections -->
 
-## Scholarship
-
-<!-- table: secondary clarifiers only; no primary pin anchors here -->
-
-| Work | Use in this essay |
-|------|-------------------|
-| | |
-
 ## Notes
 
-<!-- Primary and retrospective pin anchors. Body uses [^n]; definitions live here. -->
+<!-- Primary and retrospective pin anchors. Body uses [^n]; definitions live here. Modern secondary clarifiers may appear as end notes or sparing framing notes — not in body prose. -->
 
 [^1]: Author, *Work*, reference: "anchor quote…"
