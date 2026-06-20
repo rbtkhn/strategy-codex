@@ -20,7 +20,7 @@ On the volume chain, Caesar is the **command hinge** ([rome-memory — chain spi
 |-------------|--------------------------------------|
 | Rubicon as procedural nullification | *Princeps* machinery · 27 BC settlement |
 | Pompey pole — legitimacy without cohesion | Full Pompey biography · eastern settlement |
-| Pharsalus — command refutation (one paragraph) | Egypt/Cleopatra arc |
+| Pharsalus — command refutation (**revelation**, not cause; one paragraph) | Egypt/Cleopatra arc |
 | Dictatorship — monarchic function, republican mask | Emperor roster → [rome-empire](../rome-empire.md) |
 | Ides — failed restoration | Triumvirate · Philippi · Actium |
 | Military command analysis (Keegan · Napoleon · Goldsworthy) | Full Gallic chronicle · [essay-rome-napoleon](essay-rome-napoleon.md) |
@@ -32,9 +32,9 @@ On the volume chain, Caesar is the **command hinge** ([rome-memory — chain spi
 
 Read this essay **standalone**—complete without peer essays. It covers **hinge command**: when the republic can **debate** but no longer **decide**, and personal generalship carries sovereignty until assassination proves that killing the man does not restore the system.
 
-What [essay-rome-genesis](essay-rome-genesis.md) proved as **anti-monarchical habit** and [essay-rome-republic](essay-rome-republic.md) proved as **scaling collegial form**, Caesar proves as **decision under arms**—precedent (Sulla and Pompey normalized exceptional command), legitimation (popular alignment and *Commentarii* *dignitas* defense), resolution (Rubicon → Pharsalus → dictatorship), then **test** when moral restoration (the Ides) cannot re-seat sovereignty in the Senate.
+What [essay-rome-genesis](essay-rome-genesis.md) proved as **anti-monarchical habit** and [essay-rome-republic](essay-rome-republic.md) proved as **scaling collegial form**, Caesar proves as **decision under arms**—precedent (Sulla and Pompey normalized exceptional command), legitimation (popular alignment and *Commentarii* *dignitas* defense), resolution (Rubicon → Pharsalus → dictatorship), then **test** when moral restoration (the Ides) cannot re-seat sovereignty in the Senate. Caesar’s command worked because it was not merely military: **veterans**, debtors, provincials, **populares**, and ambitious elites all found paths through him that senatorial procedure could no longer credibly supply.
 
-Gruen’s late republic reminds us the system was contested, not pre-dead, before 49 BC—this essay still argues that **Pharsalus reveals** where loyalty and tempo already pointed. Modern military readers—Keegan on **mask of command**, Napoleon on **campaign mechanics**, Goldsworthy on **command vs institution**—converge on Pharsalus as the moment **personal command** outweighs senatorial authorization.
+Gruen’s late republic reminds us the system was contested, not pre-dead, before 49 BC—this essay still argues that **Pharsalus reveals** where loyalty and tempo already pointed; it did not **create** the migration of sovereignty, but made it **visible** in a form no decree could reverse. Modern military readers—Keegan on **mask of command**, Napoleon on **campaign mechanics** (interpretive lenses only), Goldsworthy on **command vs institution**—converge on Pharsalus as the moment **personal command** outweighs senatorial authorization.
 
 The essay closes when **Caesar is dead and the republic does not return**—[essay-rome-augustus](essay-rome-augustus.md) (planned) owns institutional settlement. For the transformation hinge: [hexagonal-republic-principate](hexagonal-republic-principate-rome.md).
 
@@ -44,9 +44,9 @@ The essay closes when **Caesar is dead and the republic does not return**—[ess
 
 [essay-rome-republic](essay-rome-republic.md) closes with rival generals and legions whose loyalty already strains collegial habit. In **49 BC** the Senate’s ultimatum forces a choice: disband the army and face prosecution, or **cross the Rubicon** and make war constitutional argument obsolete.
 
-Caesar’s *Commentarii* frame necessity and wounded *dignitas*—not a Gallic chronicle, but a **procedural defense** that the state itself has become unjust.[^1] Suetonius marks the threshold: once the bridge is crossed, **arms decide everything**.[^2] Cicero, writing to Atticus, knows the physics beneath the rhetoric—**laws are silent among arms**.[^3]
+Caesar’s *Commentarii* frame necessity and wounded *dignitas*—not a Gallic chronicle, but a **procedural defense** that the state itself has become unjust.[^1] **Gaul** is not narrated here, but it supplies the hinge’s material engine: **veterans**, wealth, prestige, and a command identity independent of senatorial trust. Suetonius marks the threshold: once the bridge is crossed, **arms decide everything**.[^2] Cicero’s maxim names the physics beneath the rhetoric—among arms, the laws fall silent.[^3]
 
-Sulla already taught Rome that a general could **march on the city** and call dictatorship restoration; the Rubicon is not invention ex nihilo but **nullification**—collegial process cannot adjudicate between two armies. Gibbon names the structural read: the choice is between **masters**, not liberty against a single usurper; the republic is too exhausted to hold its own freedom.[^4]
+Sulla marched on Rome to **restore senatorial supremacy** through terror; Caesar marches to preserve his own *dignitas* and will discover that restored legality can no longer contain him. The Rubicon is not invention ex nihilo but **nullification**—collegial process cannot adjudicate between two armies. Gibbon names the structural read: the choice is between **masters**, not liberty against a single usurper; the republic is too exhausted to hold its own freedom.[^4]
 
 ## Pompey — legitimacy without cohesion
 
@@ -56,11 +56,11 @@ The First Triumvirate is **one sentence** of political outsourcing: Caesar, Pomp
 
 Goldsworthy compresses the asymmetry: Pompey commanded **resources**; Caesar commanded **men**—the Senate trusted the man who seemed safe, but safety was no substitute for **decisiveness** once war began.[^6] Napoleon, reading the civil war as a professional, would have kept Rome and concentrated legions at the start—mass without unity is vulnerability.[^7] Mommsen’s preview holds: the republic could **authorize** power long before it could **embody** it in the field.
 
-## Pharsalus — command refutation
+## Pharsalus — command made visible
 
-**9 August 48 BC**, Thessaly: Pompey’s coalition outnumbers Caesar’s veterans on paper; **Pharsalus** refutes paper. Plutarch’s tactical beat is the anchor—Caesar pulls cohorts from the third line to meet Pompey’s cavalry shock; the reserve holds, charges, and the battle **turns**.[^8] Keegan reads the same moment as **command presence**: the general visible where collapse begins.[^9] Napoleon’s *Précis* grades the reserve discipline—six cohorts held firm against cavalry until flight decided the day.[^10] Goldsworthy’s civil-war chapters treat Pharsalus as **revelation**, not cause: legions loyal to the commander, not the *res publica*, expose that republican institutions cannot outmatch cohesive veterans in open battle.[^11] Dio writes plainly—the senatorial cause was **lost** with Pompey’s flight.[^12] Appian catches the post-battle psychology: deliberation survives only as **spectacle** once arms have spoken.[^13] Pompey flees east; his murder in Egypt is **one line** deferred—Cleopatra belongs elsewhere.
+**9 August 48 BC**, Thessaly: Pompey’s coalition outnumbers Caesar’s veterans on paper. **Pharsalus** did not create the migration of sovereignty; it made the migration **visible** in a form no decree could reverse. Plutarch’s tactical beat is the anchor—Caesar pulls cohorts from the third line to meet Pompey’s cavalry shock; the reserve holds, charges, and the battle **turns**.[^8] Keegan reads the same moment as **command presence**: the general visible where collapse begins.[^9] Napoleon’s *Précis* grades the reserve discipline—six cohorts held firm against cavalry until flight decided the day.[^10] Goldsworthy’s civil-war chapters treat Pharsalus as **revelation**, not cause: legions loyal to the commander, not the *res publica*, expose that republican institutions cannot outmatch cohesive veterans in open battle.[^11] Dio writes plainly—the senatorial cause was **lost** with Pompey’s flight.[^12] Appian catches the post-battle psychology: deliberation survives only as **spectacle** once arms have spoken.[^13] Pompey flees east; his murder in Egypt is **one line** deferred—Cleopatra belongs elsewhere.
 
-Transformation, not empire born ex nihilo: the **chain continues**; deciding power has migrated.
+Transformation, not empire born ex nihilo: the **chain continues**; deciding power has already migrated—Pharsalus **confirms** what Rubicon and veteran loyalty had begun.
 
 ## Dictatorship — monarchic function, republican mask
 
@@ -83,12 +83,12 @@ The chain continues: **Augustus** (named once) will **institutionalize** what Ca
 | Adrian Goldsworthy, *Caesar: Life of a Colossus* | Pompey pole (Part 3, ch. 18) · Pharsalus reveal (ch. 19) — see [^6] [^11] |
 | Adrian Goldsworthy, *In the Name of Rome* | Command tradition · Caesar vs Scipio contrast |
 | Anthony Everitt, *Cicero* | Procedural tragedy · law after viability |
-| Edward Gibbon, *Decline and Fall* | Rubicon · Pompey hesitation · Ides — see [^4] [^5] [^16] |
+| Edward Gibbon, *Decline and Fall* | **Interpretive lens** (Tier B) — Rubicon · Pompey hesitation · Ides — see [^4] [^5] [^16] |
 | Erich Gruen, *The Last Generation of the Roman Republic* | Counterweight — system contested pre-49 |
-| John Keegan, *The Mask of Command* | Pharsalus command presence — see [^9] |
+| John Keegan, *The Mask of Command* | **Military-interpretive lens** — Pharsalus command presence — see [^9] |
 | Christian Meier, *Caesar* | *Res publica amissa* — structural counterweight |
 | Theodor Mommsen, *History of Rome* | Dictatorship paradox · authorized vs embodied power — see [^15] |
-| Napoleon I, *Commentaries on the Wars of Julius Caesar* (Maguire trans., 2018) | Military analysis — Pompey · Pharsalus · Ides — see [^7] [^10] [^20] |
+| Napoleon I, *Commentaries on the Wars of Julius Caesar* (Maguire trans., 2018) | **Military-interpretive lens** (Tier B; not primary evidence) — Pompey · Pharsalus · Ides — see [^7] [^10] [^20] |
 | Ronald Syme, *The Roman Revolution* | Late republic → personal power |
 | Tacitus, *Annals* I.1 (optional) | Retrospective clarifier — civil-war concentration — see [^21] |
 | Will Durant, *Caesar and Christ* | Broad synthesis — secondary, not driver |
@@ -99,7 +99,7 @@ The chain continues: **Augustus** (named once) will **institutionalize** what Ca
 
 [^2]: Suetonius, *Divus Iulius* 32: "When he came to the river Rubicon … 'The die is cast,' said he, and crossed the stream."
 
-[^3]: Cicero, *Epistulae ad Atticum* IX.18.2: "For laws are silent in the midst of arms."
+[^3]: Cicero, *Pro Milone* 11: *Silent enim leges inter arma* ("For among arms the laws are silent"). Canonical locus for the maxim; applied here thematically to civil-war procedural collapse—not the forensic context of Milo's trial.
 
 [^4]: Edward Gibbon, *Decline and Fall of the Roman Empire*, I.3 (Rubicon; paraphrase composite): the choice was no longer between liberty and usurpation but between different masters; the republic could no longer maintain its own freedom.
 
