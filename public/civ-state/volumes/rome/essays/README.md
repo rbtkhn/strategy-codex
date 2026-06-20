@@ -88,7 +88,7 @@ Twenty-one standalone lattice nodes under **Civilizational Statecraft**. Registr
 | italia | [essay-rome-italia.md](essay-rome-italia.md) | Italia (Rome) | peninsula | italian-wars | planned |
 | napoleon | [essay-rome-napoleon.md](essay-rome-napoleon.md) | Napoleon (Rome) | geo-branch | colonial-tail | planned |
 | persia | [essay-rome-persia.md](essay-rome-persia.md) | Persia (Rome) | geo-branch | — | planned |
-| republic | [essay-rome-republic.md](essay-rome-republic.md) | Republic (Rome) | civic-chain | republic-principate | planned |
+| republic | [essay-rome-republic.md](essay-rome-republic.md) | Republic (Rome) | civic-chain | republic-principate | active |
 | renaissance | [essay-rome-renaissance.md](essay-rome-renaissance.md) | Renaissance (Rome) | peninsula | italian-wars | planned |
 | schism | [essay-rome-schism.md](essay-rome-schism.md) | Schism (Rome) | faith-hinge | 1054-schism | planned |
 | slavia | [essay-rome-slavia.md](essay-rome-slavia.md) | Slavia (Rome) | geo-branch | 1054-schism | planned |

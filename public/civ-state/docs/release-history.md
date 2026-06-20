@@ -4,11 +4,21 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.36** — Rome essay-rome republic rewrite: standalone civic-chain essay (~390–49 BC) — Italian federation, Conflict of Orders, Polybius VI, Punic arc, provinces, late-republic strain; 17 primary pins · full Scholarship table.
+
 **v0.1.35** — Rome hexagonal registry self-describe: archetype headers A–C on wave-1 demonstrators (1453 · Italian Wars/Sack · Justinian 529) under Reading Posture — registry readable without RLJ.
 
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.36 — essay-rome republic rewrite
+
+| Change | Detail |
+|--------|--------|
+| `essay-rome-republic.md` | Clean rewrite — civic-chain · hex_link republic-principate · standalone (~390–49 BC) |
+| Body | Italian federation · Conflict of Orders · Polybius VI · Punic/Carthage/Hannibal · provinces · late-republic strain |
+| Sources | 17 primary Notes pins · Gibbon + Goldsworthy · Everitt · Syme · Durant Scholarship rows |
 
 ### v0.1.35 — Hexagonal archetype headers (wave 1)
 
