@@ -57,6 +57,8 @@ Polybius, writing when Rome has already conquered Greece, states the reciprocal 
 
 Lucretius gives Rome a **Latin philosophic voice** beside epic inheritance: nature and an inner law by which mental terror may be scattered—not replacing sacral myth in genesis, but proving that Roman gravitas will also speak in reason’s register.[^7]
 
+Dionysius of Halicarnassus, writing in Greek for Greek readers, makes early Rome **intelligible as worthy antiquity**—declaring his purpose to show that Roman origins deserve Hellenic attention and tracing Italian peoples to Pelasgian connection, not as literal proof of descent but as **explicit Hellenic explanatory frame** for regal institutions.[^17]
+
 Latin itself is named here as future **command language**—law, command, public record. Greek supplies categories; Latin will supply **legibility**. Full dual-language civilizational treatment: [dual-language-heritage-rome](dual-language-heritage-rome.md).
 
 ## Comparative horizon — Athens, Alexander, and the roads not taken
@@ -80,6 +82,8 @@ Romulus and Remus belong to the Tiber’s mythic geography: exposure, site choic
 Xenophon’s *Cyropaedia* offers a mirror: leadership as **ordered duty**—the ruler must bind followers by belief that his safety is theirs, not by caprice alone.[^4] Contrast Tarquin’s tyranny later: regal Rome holds both models.
 
 Plutarch’s Numa embodies the pious alternative: a king who **governed himself before governing others**—instructional regal past, not republic yet.[^5]
+
+Varro’s antiquarian etymologies treat **names, rites, and sacred places** as compressed civic memory—institutional vocabulary legible to those who know the language of ritual and law.[^18] Ovid’s *Fasti* locates Romulus and Numa in **sacred time**—the calendar as performed memory of kings, not annalistic chronicle.[^19]
 
 The tension genesis preserves: regal grandeur → expulsion. Rome will keep Etruscan **technique**; it will reject **permanent monarchy**.
 
@@ -127,6 +131,9 @@ Mediterranean expansion and late republic depth live in [essay-rome-republic](es
 | Anthony Everitt, *The Rise of Athens* | Democracy brilliance / fragility contrast |
 | Anthony Everitt, *Alexander the Great* | Universalism without transmission |
 | Edward Gibbon, *The History of the Decline and Fall of the Roman Empire* | Livy as moral archivist — see [^2] at Romulus/kings |
+| Dionysius of Halicarnassus, *Roman Antiquities* | Greek explanatory frame for early Rome — see [^17]; not factual SSOT |
+| Varro, *De Lingua Latina* | Antiquarian vocabulary of rites and places — see [^18] |
+| Ovid, *Fasti* | Calendar as regal civic memory — see [^19] |
 
 ## Notes
 
@@ -161,6 +168,12 @@ Mediterranean expansion and late republic depth live in [essay-rome-republic](es
 [^15]: Livy, *Ab Urbe Condita* 9.29.6: "The censor Appius Claudius carried out two works of immense utility: he paved the Appian Way and brought water into the City…" *(Forward glance—312 BC; genesis closes at c. 390.)*
 
 [^16]: Livy, *Ab Urbe Condita* 5.51: "The matter was referred to the people… they voted with one accord that the city should be rebuilt."
+
+[^17]: Dionysius of Halicarnassus, *Roman Antiquities* I.6–7 (purpose: Roman antiquity worthy of Greek attention); II.1–2 (Pelasgian/Greek connection to Italian peoples). *(Greek explanatory frame—not annalistic proof of origins.)*
+
+[^18]: Varro, *De Lingua Latina* V.74–75; VI.6 (religious/legal vocabulary; place-names). *(Antiquarian composite; extant books V–X; fragmentary transmission.)*
+
+[^19]: Ovid, *Fasti* I.3–26 (Janus; Kalends; Romulus in calendar lore). *(Ritual calendar as civic memory.)*
 
 ## Links
 

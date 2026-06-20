@@ -28,6 +28,8 @@ Roman self-narration, republic, and empire formation:
 
 - Polybius, *Histories*
 - Livy, *Ab Urbe Condita*, especially the republic-and-founding books
+- Dionysius of Halicarnassus, *Roman Antiquities* *(genesis — Greek frame for regal Rome; pair Livy)*
+- Varro, *De Lingua Latina* *(genesis — names, rites, institutional vocabulary; extant books V–X)*
 - Lucretius, *De Rerum Natura* *(science-spine-formation — Latin natural philosophy)*
 - Cicero, *De Re Publica*
 - Cicero, *De Legibus*
@@ -38,13 +40,16 @@ Roman self-narration, republic, and empire formation:
 - Julius Caesar, *Commentarii de Bello Gallico*
 - Julius Caesar, *Commentarii de Bello Civili*
 - Virgil, *Aeneid*
-- Ovid, *Metamorphoses*
+- Ovid, *Metamorphoses* *(myth catalogue — defer to *Fasti* for civic-chain calendar pins)*
+- Ovid, *Fasti* *(genesis · augustus — ritual calendar / sacred time; not *Metamorphoses*)*
 - Augustus, *Res Gestae Divi Augusti*
 - Seneca, *On Clemency*
 - Seneca, *Letters to Lucilius*
 - Suetonius, *De Vita Caesarum*
 - Tacitus, *Annals*
 - Tacitus, *Histories*
+- Velleius Paterculus, *Roman History* *(augustus — loyalist imperial voice; counterweight to Tacitus Ann. I.2)*
+- Florus, *Epitome of Roman History* *(republic · caesar — rhetorical compression; not chronicle SSOT)*
 - Plutarch, *Lives*
 - Pliny the Elder, *Natural History* *(science-spine-formation — encyclopedic observation)*
 - Marcus Aurelius, *Meditations*
