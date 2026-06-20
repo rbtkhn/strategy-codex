@@ -18,7 +18,7 @@ essays:
   - id: abraham
     file: essay-rome-abraham.md
     meta: null
-    h1: Abraham (Rome)
+    h1: Abraham
     tier: faith-hinge
     hex_link: null
     status: planned
@@ -28,7 +28,7 @@ essays:
   - id: africa
     file: essay-rome-africa.md
     meta: null
-    h1: Africa (Rome)
+    h1: Africa
     tier: geo-branch
     hex_link: colonial-tail
     status: planned
@@ -38,7 +38,7 @@ essays:
   - id: augustus
     file: essay-rome-augustus.md
     meta: essay-rome-augustus.meta.yaml
-    h1: Augustus (Rome)
+    h1: Augustus
     tier: civic-chain
     hex_link: republic-principate
     status: active
@@ -48,7 +48,7 @@ essays:
   - id: britannia
     file: essay-rome-britannia.md
     meta: null
-    h1: Britannia (Rome)
+    h1: Britannia
     tier: geo-branch
     hex_link: colonial-tail
     status: planned
@@ -58,7 +58,7 @@ essays:
   - id: caesar
     file: essay-rome-caesar.md
     meta: essay-rome-caesar.meta.yaml
-    h1: Caesar (Rome)
+    h1: Caesar
     tier: civic-chain
     hex_link: republic-principate
     status: active
@@ -68,7 +68,7 @@ essays:
   - id: carthage
     file: essay-rome-carthage.md
     meta: null
-    h1: Carthage (Rome)
+    h1: Carthage
     tier: geo-branch
     hex_link: null
     status: planned
@@ -78,7 +78,7 @@ essays:
   - id: charlemagne
     file: essay-rome-charlemagne.md
     meta: null
-    h1: Charlemagne (Rome)
+    h1: Charlemagne
     tier: geo-branch
     hex_link: null
     status: planned
@@ -88,7 +88,7 @@ essays:
   - id: constantinople
     file: essay-rome-constantinople.md
     meta: null
-    h1: Constantinople (Rome)
+    h1: Constantinople
     tier: east-imperial
     hex_link: "1453, justinian-529"
     status: planned
@@ -98,7 +98,7 @@ essays:
   - id: crusades
     file: essay-rome-crusades.md
     meta: null
-    h1: Crusades (Rome)
+    h1: Crusades
     tier: faith-hinge
     hex_link: null
     status: planned
@@ -108,7 +108,7 @@ essays:
   - id: egypt
     file: essay-rome-egypt.md
     meta: null
-    h1: Egypt (Rome)
+    h1: Egypt
     tier: geo-branch
     hex_link: null
     status: planned
@@ -118,7 +118,7 @@ essays:
   - id: francia
     file: essay-rome-francia.md
     meta: null
-    h1: Francia (Rome)
+    h1: Francia
     tier: geo-branch
     hex_link: colonial-tail
     status: planned
@@ -128,7 +128,7 @@ essays:
   - id: genesis
     file: essay-rome-genesis.md
     meta: essay-rome-genesis.meta.yaml
-    h1: Genesis (Rome)
+    h1: Genesis
     tier: civic-chain
     hex_link: null
     status: active
@@ -138,7 +138,7 @@ essays:
   - id: germania
     file: essay-rome-germania.md
     meta: null
-    h1: Germania (Rome)
+    h1: Germania
     tier: geo-branch
     hex_link: null
     status: planned
@@ -148,7 +148,7 @@ essays:
   - id: iberia
     file: essay-rome-iberia.md
     meta: null
-    h1: Iberia (Rome)
+    h1: Iberia
     tier: geo-branch
     hex_link: colonial-tail
     status: planned
@@ -158,7 +158,7 @@ essays:
   - id: italia
     file: essay-rome-italia.md
     meta: null
-    h1: Italia (Rome)
+    h1: Italia
     tier: peninsula
     hex_link: italian-wars
     status: planned
@@ -168,7 +168,7 @@ essays:
   - id: napoleon
     file: essay-rome-napoleon.md
     meta: null
-    h1: Napoleon (Rome)
+    h1: Napoleon
     tier: geo-branch
     hex_link: colonial-tail
     status: planned
@@ -178,7 +178,7 @@ essays:
   - id: persia
     file: essay-rome-persia.md
     meta: null
-    h1: Persia (Rome)
+    h1: Persia
     tier: geo-branch
     hex_link: null
     status: planned
@@ -188,7 +188,7 @@ essays:
   - id: republic
     file: essay-rome-republic.md
     meta: essay-rome-republic.meta.yaml
-    h1: Republic (Rome)
+    h1: Republic
     tier: civic-chain
     hex_link: republic-principate
     status: active
@@ -198,7 +198,7 @@ essays:
   - id: renaissance
     file: essay-rome-renaissance.md
     meta: null
-    h1: Renaissance (Rome)
+    h1: Renaissance
     tier: peninsula
     hex_link: italian-wars
     status: planned
@@ -208,7 +208,7 @@ essays:
   - id: schism
     file: essay-rome-schism.md
     meta: null
-    h1: Schism (Rome)
+    h1: Schism
     tier: faith-hinge
     hex_link: 1054-schism
     status: planned
@@ -218,7 +218,7 @@ essays:
   - id: slavia
     file: essay-rome-slavia.md
     meta: null
-    h1: Slavia (Rome)
+    h1: Slavia
     tier: geo-branch
     hex_link: 1054-schism
     status: planned

@@ -1,4 +1,4 @@
-# Genesis (Rome)
+# Genesis
 
 Rome does not begin when a constitution is written; it begins when a **city-form** learns to treat order as **public, bounded, and durable**—first in story, then on the Tiber, then in institutions that refuse kings. Early Rome is not the invention of empire, nor the full articulation of the Republic: it is the formation of a city-form that converts inherited myth, Greek inquiry, Etruscan technique, and Latin public order into a durable **anti-monarchical habit**. By **c. 390**, after sack and recovery, Rome has not yet mastered the Mediterranean—but it has proved the city can **survive without a king**.
 

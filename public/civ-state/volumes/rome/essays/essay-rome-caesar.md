@@ -1,4 +1,4 @@
-# Caesar (Rome)
+# Caesar
 
 Rome had long defined itself against kings. Its republic rested on collegial office, senatorial authority, assemblies, law, and a citizen army whose commanders were supposed to return power to the civic order. By Caesar's generation, that system could still speak in republican forms, but it could no longer reliably decide between rival claims backed by armies.
 

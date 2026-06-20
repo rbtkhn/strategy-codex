@@ -1,4 +1,4 @@
-# Augustus (Rome)
+# Augustus
 
 Caesar had made personal command visible and paid for it with his life. Augustus learned the opposite lesson: one-man rule could survive only if it preserved republican language while withdrawing violence from view.
 

@@ -1,4 +1,4 @@
-# Republic (Rome)
+# Republic
 
 Around **390 BC** Gauls burned Rome; the city **rebuilt without kings**. Rome had long defined itself against kings on the Tiber; now it had to prove that **anti-monarchical habit** could **scale**—collegial office binding a peninsula, passing a sea-exam, absorbing a Hellenic world, and arguing internally over law, citizenship, and who commands. By the late Republic Rome has ordered the Mediterranean; the **city-form** that survived sack now **strains** under offices, armies, provinces, and wealth it was never built to hold at that scale.
 

@@ -5,7 +5,7 @@
 <!-- Standalone prose: body (before ## Scholarship) must not use essay-rome-* links, chain/defer voice ("what essay-X proved", "chain continues", "defer belongs to"), essay-self voice ("The essay stacks/closes"), or internal markdown links to peer essays/sub-lenses. State history directly; each essay readable alone. -->
 
 <!-- Rome essay-rome nodes (volume-local only — same reader scaffold as all volumes):
-     H1: {Topic} (Rome)
+     H1: {Topic} — one word; no volume suffix (volume is implicit from path)
      File: essay-rome-{slug}.md
      Meta sidecar: essay-rome-{slug}.meta.yaml — copy from _template-essay-rome.meta.yaml
      Register in essay-rome.registry.yaml on create
