@@ -83,6 +83,7 @@ Review resolutions **commit** to `public/civ-state/`. Mention `publish_public_ci
 ## Book-authoring escape hatch
 
 - [civ-state-volume-architect](../civ-state-volume-architect/SKILL.md)
+- [civ-state-essay](../civ-state-essay/SKILL.md) — essay prose passes (civic-chain, hex-frame, sub-lens, cross-volume QA)
 - [civilization-part-writer](../civilization-part-writer/SKILL.md)
 - [empire-part-writer](../empire-part-writer/SKILL.md)
 - [statecraft-guidebook-writer](../statecraft-guidebook-writer/SKILL.md)
