@@ -35,6 +35,8 @@ Use this table **before** choosing a pass. Bare **`verify`** is ambiguous — as
 | **Primary doc** needed (full MFA readout, court filing, official PDF) beyond triage | **[fact check deep](#fact-check-deep-pass)** (or lane primary skill) | Escalate from wire-verify or thin fact-check triage |
 | **Campaign / Massie-shaped** copy from today's news | **[politics-massie](../politics-massie/SKILL.md)** | Not neutral verification |
 | **Before** `state synthesis` or promoting into Judgment on a **same-week** seam | **wire-verify** (batch mode) | Pre-synthesis gate on wire hooks |
+| **`source-archive/singularity/`** ingest or workshop sheet | **`wire verify — singularity`** | [Singularity sweep profile](../wire-verify/SKILL.md#singularity-sweep-profile-stub) — MR-VOL, not full CIV-STATE by default |
+| Singularity ingest + **statecraft crossover** hooks | **Split receipts** | Singularity sheet vs statecraft crossover note — do not merge |
 
 **Verdict vocabulary (align across skills):**
 

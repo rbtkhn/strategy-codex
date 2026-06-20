@@ -3,10 +3,11 @@ name: wire-verify
 preferred_activation: wire verify
 description: "Triage wire- and desk-reported facts in ingests and briefs before synthesis: extract media hooks, fence interpretation, score developing-story claims (supported/contradicted/unclear/contested), optional verify receipts. Triggers: wire verify, verify wires, verify tier, strategy + verify on breaking seams. Complements fact-check."
 portable: true
-version: 1.5.3
+version: 1.5.4
 tags:
   - verification
   - statecraft
+  - singularity
   - strategy
   - provenance
 ---
@@ -44,7 +45,7 @@ Use this table **before** choosing a pass. Bare **`verify`** is ambiguous — as
 | Operator input | Route | Why |
 | --- | --- | --- |
 | **One claim** pasted or named (sentence, stat, quote, URL summary, draft line) | **`fact check`** | Discrete triage; operator supplies the claim |
-| **Full ingest**, day archive, daily brief, or **wire matrix** | **`wire verify`** (this skill) | Auto-extract tier-**3** hooks; five-lane sweep; optional `verify:` receipts; **capture-gap pre-pass** when body may be partial |
+| **Full ingest**, day archive, daily brief, or **wire matrix** | **`wire verify`** (this skill) | Auto-extract tier-**3** hooks; profile sweep (CIV-STATE or MR-VOL); optional `verify:` receipts; **capture-gap pre-pass** when body may be partial |
 | **`fact check`** on a **wire-heavy capture** but job is "grade hooks before synthesis" | **`wire verify`** (prefer) | Batch hook inventory + developing-story handling |
 | **Single fork** from a matrix row ("is J17-7 supported?") | **`wire verify`** sub-hook **or** **`fact check`** | Sub-hook when lane-sweep context matters; fact-check when the claim is isolated |
 | **Analyst voice** (Mercouris, Diesen, Davis, landed commentary) stating mechanism, forecast, or doctrine | **Label tier 4 / interpretation** — **do not score as wire fact** | Corpus tier 4; synthesis may use; verification does not grade |
@@ -52,6 +53,8 @@ Use this table **before** choosing a pass. Bare **`verify`** is ambiguous — as
 | **Primary doc** needed (full MFA readout, court filing, official PDF) beyond triage | **fact check deep** ([deep pass anchor in fact-check skill]) | Escalate from wire-verify or thin fact-check triage |
 | **Campaign / Massie-shaped** copy from today's news | **politics-massie** | Not neutral verification |
 | **Before** `state synthesis` or promoting into Judgment on a **same-week** seam | **`wire verify`** (batch mode) | Pre-synthesis gate on wire hooks |
+| **`source-archive/singularity/`** ingest or workshop sheet; markets / vendor / regulator hooks | **`wire verify — singularity`** (singularity profile) | [Singularity sweep profile](#singularity-sweep-profile-stub) — not full CIV-STATE mesh by default |
+| Same ingest, **statecraft crossover** hooks (export control, sovereign-AI law) | **Split receipts** — singularity profile on sheet; **statecraft profile** on crossover note / statecraft path | Do not merge panel numbers across captures |
 
 **Verdict vocabulary (align across skills):**
 
@@ -88,17 +91,31 @@ When the operator says **`fact check`** on wire-only material, you may run **eit
 - Before **`state synthesis`**, **`strategy` EOD compose**, or promoting a claim into **`days.md` Judgment**.
 - When **`strategy + verify`** is named and the load-bearing rows are **wire-sourced**.
 - When the operator asks to **wire-verify** specific seams (Apache, infiltration, Houthi statement, non-intercept, roster, counts).
+- After **singularity archive** land or before promoting a **workshop sheet** claim ([intake triad](../../../source-archive/singularity/README.md#intake-triad-operator-protocol)).
+
+## Sweep profiles (overview)
+
+One portable skill; **two sweep grammars**. Shared: tier **3** vs tier **4** fence, verdict vocabulary, capture-gap pre-pass, optional `verify:` receipts.
+
+| Profile | Default when | Sweep model | SSOT |
+|---------|--------------|-------------|------|
+| **Statecraft** (default) | `source-archive/statecraft/`, wire matrices, daily briefs, combatant seams | **CIV-STATE** five lanes — cite or **`-absent`** each | [CIV-STATE registry](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) |
+| **Singularity** (stub v0.1) | `source-archive/singularity/`, workshop sheets, RSI / markets / vendor seams | **MR-VOL** — cite or **`-absent`** only for **hook-touched** surfaces | [§ Singularity sweep profile (stub)](#singularity-sweep-profile-stub) |
+
+**Operator shorthand:** `wire verify` or `wire verify — statecraft` = CIV-STATE default; **`wire verify — singularity`** = singularity profile. Infer from path when unqualified.
+
+**Crossover:** singularity ingest with statecraft load-bearing hooks → **split receipts**; do not merge into one mesh row.
 
 ## Pass modes (batch vs sub-hook)
 
-| Mode | When | Hooks | Five-lane sweep |
-|------|------|-------|-----------------|
-| **Batch** (default) | Full ingest, day batch, matrix gate, pre-**`state synthesis`** | Inventory all wire hooks in scope | **Full** — all five lanes; cite or **`-absent`** each |
-| **Sub-hook** | Operator names **one claim** or narrow fork (e.g. "Iran intentional credit?", "America refute denial?") | 1–5 rows only; merge near-duplicates | **Combatant lanes required** (America · Persia when hook is bilateral); **PRC · Russia · Rome** = mesh-if-spoke — still run registry search, honest **`-absent`** + "searched, silent" note |
+| Mode | When | Hooks | Sweep |
+|------|------|-------|-------|
+| **Batch** (default) | Full ingest, day batch, matrix gate, pre-**`state synthesis`** | Inventory all wire hooks in scope | **Profile-full** — statecraft: all five CIV-STATE lanes; singularity: MR-VOL lanes **when any hook touches that surface** |
+| **Sub-hook** | Operator names **one claim** or narrow fork (e.g. "Iran intentional credit?", "ICE futures live?") | 1–5 rows only; merge near-duplicates | **Hook-scoped** — statecraft: combatant + mesh-if-spoke; singularity: MR-VOL lanes the hook touches |
 
-**Sub-hook law:** Do not skip the mesh line or **Confidence** / **Escalate** blocks because the question is narrow. Do not claim **full sweep** without the [execution checklist](#sweep-execution-checklist) below.
+**Sub-hook law:** Do not skip the mesh line or **Confidence** / **Escalate** blocks because the question is narrow. Do not claim **full sweep** without the profile checklist (statecraft: [execution checklist](#sweep-execution-checklist); singularity: [stub](#singularity-sweep-profile-stub)).
 
-**Operator shorthand:** `wire verify — full mesh` = batch sweep on named seam; `wire verify — intent only` (or similar) = sub-hook; default to **sub-hook** when the message is a single yes/no fork.
+**Operator shorthand:** `wire verify — full mesh` = batch statecraft profile; `wire verify — singularity` = singularity profile; `wire verify — intent only` = sub-hook; default to **sub-hook** when the message is a single yes/no fork.
 
 <a id="capture-gap-pre-pass"></a>
 
@@ -157,13 +174,15 @@ Scan for:
 
 **High misstatement risk (prioritize):** casualty counts, **who** did **what**, **when**, **how many**, delegation **rosters/titles**, **mechanism** (SAM vs drone vs malfunction), **affiliation** (Hezbollah vs unknown terrorist), **first time since** claims.
 
-## CIV-STATE sweep (every pass)
+**Singularity hook classes (when profile = singularity):** IPO / mkt-cap figures; **announced vs live** product or contract; vendor **access tier** / kill-switch; model **release** names and dates; **regulatory approval pending** vs **cleared**; issuer **first-ever** uniqueness; control-plane **observability** without primary.
+
+## Statecraft profile — CIV-STATE sweep (default)
 
 **Do not** close wire-verify on **English-only Western wires** alone when hooks are **regime- or institution-attributed**.
 
 **Source registry (SSOT):** [WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) — **corpus tier 3** per-lane outlet tables (**3a/3b/3c**; legacy T1/T2/T3), URLs, native-lang law, and verify tokens. **Do not** maintain parallel outlet lists in chat; extend the registry when a lane gains a new stable **3a**.
 
-**Fixed lanes — search all five on every `wire verify` pass** (same story window as the hooks; **no topic triggers**):
+**Fixed lanes — search all five on every `wire verify` pass using the statecraft profile** (same story window as the hooks; **no topic triggers**):
 
 | Lane | Repo surface | Registry | If lane silent in window |
 |------|--------------|----------|---------------------------|
@@ -215,6 +234,32 @@ Full outlet tables live in the **registry**; this table fixes **common mis-tiers
 | **Xinhua** repeating Trump/CENTCOM | PRC | **3b** | Mesh framing — not independent causation adjudication |
 | Commentator transcript | — | **tier 4** | Interpretation fence only — not wire grade |
 
+<a id="singularity-sweep-profile-stub"></a>
+
+## Singularity sweep profile (stub v0.1)
+
+**Status:** stub — do not fork a second skill. Activation: **`wire verify — singularity`**. Default infer: `source-archive/singularity/**` → singularity profile; statecraft archive → CIV-STATE default (§ Statecraft profile below).
+
+**Shared law:** tier **3** hooks only; tier **4** panel/newsletter → **Interpretation** fence; same verdicts and `verify:` receipts as statecraft.
+
+### MR-VOL lanes (Markets · Regulators · Vendors · Operators · Labs)
+
+Search **only lanes the hook touches**. Do **not** run CIV-STATE Persia/PRC/Rome `-absent` theater on pure markets/regulatory seams.
+
+| Lane | Typical surfaces | If silent |
+|------|------------------|-----------|
+| **Markets** | Exchange IR, SEC filings, CNBC/Reuters/Bloomberg | `verify:markets-lane-absent` |
+| **Regulators** | SEC, CFTC, Commerce/White House export notices | `verify:regulators-lane-absent` |
+| **Vendors** | Lab policy pages, API status, model/system cards | `verify:vendors-lane-absent` |
+| **Operators** | Issuer site, Business Wire/AP releases | `verify:operators-lane-absent` |
+| **Labs** | Named frontier-lab official posts when hook names a lab | `verify:labs-lane-absent` |
+
+**Stub law:** *announced vs live* → **partial** until **3a** cleared; panel numbers → **contested** until Markets/Regulators **3b+**; vendor kill-switch/downgrade → **Unclear** without vendor **3a**. **Crossover** (export control, sovereign-AI law) → statecraft profile on crossover note; **split receipts** from singularity sheet.
+
+**Chat header:** `Profile: singularity · MR-VOL sweep: n/n (hook-scoped)` — not `CIV-STATE 5/5`.
+
+**Registry (planned):** `docs/skill-work/work-singularity/WIRE-VERIFY-SINGULARITY-SOURCES.md` — ad hoc cites until EXECUTE.
+
 ## Attribution duel subroutine
 
 When hooks are **denial vs accusation** or **intent forks** (e.g. Tehran "not deliberate" vs Trump "shot down"):
@@ -236,7 +281,7 @@ When hooks are **denial vs accusation** or **intent forks** (e.g. Tehran "not de
    - **Developing** — cause/mechanism/count still moving; note **interview/publication time** if transcript predates later wires.
    - **Settled** — multiple independents align; official statement landed.
    - **Contested** — credible outlets disagree (e.g. "did not intercept" vs "fired interceptors in self-defense"; **America vs Persia** primary mismatch).
-4. **CIV-STATE sweep** — Per [pass mode](#pass-modes-batch-vs-sub-hook): run registry searches; complete [execution checklist](#sweep-execution-checklist). Record **lane** + **lang** on each cite. Lane absent → **`-absent`** token. If native primary not found in triage time on a wording row → **Unclear** + **Escalate** (`fact check deep` or operator native pull). Apply [attribution duel](#attribution-duel-subroutine) when denial/intent load-bears.
+4. **Profile sweep** — **Statecraft:** CIV-STATE per [pass mode](#pass-modes-batch-vs-sub-hook); complete [execution checklist](#sweep-execution-checklist). **Singularity:** MR-VOL per [stub](#singularity-sweep-profile-stub). Record **lane** + **lang** on each cite. Lane absent → **`-absent`** token. If native primary not found in triage time on a wording row → **Unclear** + **Escalate** (`fact check deep` or operator native pull). Apply [attribution duel](#attribution-duel-subroutine) when denial/intent load-bears (statecraft profile).
 5. **Search (triage)** — One solid cite per **lane** (or absent receipt); second cite on the **claim row** when **contested** or **high-stakes**. Prefer: **3a native official** > **3a EN** > **3b** wire > **3c** syndicated.
 6. **Verdict table**
 
@@ -307,7 +352,9 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 - Assistant + web output is **not** Record truth. Cite what you found and where.
 - Do not upgrade **commentator monologue** or **analyst essays** to wire grade without tagged sources.
 - Do not collapse **Hebrew-media speculation** into confirmed IDF fact without Spokesperson alignment.
-- Do not close a **batch** without the **five-lane CIV-STATE sweep** — cite or **`-absent`** per lane with [checklist](#sweep-execution-checklist) evidence.
+- Do not close a **statecraft batch** without the **five-lane CIV-STATE sweep** — cite or **`-absent`** per lane with [checklist](#sweep-execution-checklist) evidence.
+- Do not run **CIV-STATE 5/5 `-absent` theater** on **singularity-only** seams — use [singularity profile](#singularity-sweep-profile-stub); hand off crossover hooks to statecraft profile.
+- Do not mark singularity **announced** products (`plans to launch`, `ticker reserved`) as **Supported/live** without **3a** cleared-effective proof.
 - Do not mark **5/5 sweep** on a **sub-hook** pass unless all five lanes were actually searched; use **combatant+mesh** honestly.
 - Do not satisfy **Persia-lane** receipt with **Araghchi X** or foreign-wire denial alone — escalate **`fa`** per registry.
 - Do not grade **lane-attributed** facts from **another lane's** outlets alone (e.g. Tehran from CNN only; CENTCOM from IRNA only).
@@ -317,6 +364,8 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 ## Related
 
 - **[source-lattice-beyond-the-repo.md](../../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex)** — corpus tiers **1–4** (wire-verify = tier **3** only).
-- **[WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md)** — per-lane wire source SSOT (America, Persia, China, Russia, Rome; **3a–3c**).
+- **[WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md)** — statecraft profile SSOT (America, Persia, China, Russia, Rome; **3a–3c**).
+- **[source-archive/singularity/README.md](../../../source-archive/singularity/README.md#intake-triad-operator-protocol)** — intake triad; singularity verify before promote.
+- **`WIRE-VERIFY-SINGULARITY-SOURCES.md`** — *planned* MR-VOL registry under `docs/skill-work/work-singularity/` (stub cites ad hoc until landed).
 - **fact-check** (host skill) — general triage; native-primary discipline; **`fact check deep`** escalation.
 - Host appendix — repo paths for inbox tokens, statecraft `source_note`, `strategy + verify` gate (Cursor install only).
