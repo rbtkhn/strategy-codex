@@ -101,12 +101,6 @@ Short term stubs for recurring Moonshots / EXO vocabulary — [glossary/README.m
 
 Full local captures live here for close reading. Interpretive source sheets stay in `sheets/`; this folder preserves the newsletter text used to build them.
 
-**Archive boundary:** local Innermost Loop truth ends at [2026-05-17](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-17.md) until operator-run `python scripts/backfill_innermost_loop_academy_raw.py --today 2026-06-07 --days 25 --apply` closes the gap.
-
-**Moonshots verbatim:** [moonshots-emerging-anthropic-pause-ai-personhood-2026-06-09.md](../../source-archive/singularity/moonshots/moonshots-emerging-anthropic-pause-ai-personhood-2026-06-09.md) — pairs with the unscheduled Anthropic pause / personhood workshop sheet. · [moonshots-265-spacex-ipo-anthropic-export-control-2026-06-19.md](../../source-archive/singularity/moonshots/moonshots-265-spacex-ipo-anthropic-export-control-2026-06-19.md) — pairs with ep. 265 workshop sheet + MTP glossary.
-
-**Intake triad:** archive → workshop sheet → `fact-check` before note promotion. SSOT: [source-archive/singularity/README.md](../../source-archive/singularity/README.md#intake-triad-operator-protocol).
-
 - [The Innermost Loop raw - 2025-12-11](../../source-archive/singularity/innermost-loop/innermost-loop-2025-12-11.md) - full newsletter capture.
 - [The Innermost Loop raw - 2025-12-12](../../source-archive/singularity/innermost-loop/innermost-loop-2025-12-12.md) - full newsletter capture.
 - [The Innermost Loop raw - 2025-12-13](../../source-archive/singularity/innermost-loop/innermost-loop-2025-12-13.md) - full newsletter capture.
@@ -242,6 +236,34 @@ Full local captures live here for close reading. Interpretive source sheets stay
 - [The Innermost Loop raw - 2026-05-15](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-15.md) - full newsletter capture.
 - [The Innermost Loop raw - 2026-05-16](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-16.md) - full newsletter capture.
 - [The Innermost Loop raw - 2026-05-17](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-17.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-18](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-18.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-19](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-19.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-20](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-20.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-21](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-21.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-22](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-22.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-23](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-23.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-24](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-24.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-25](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-25.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-26](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-26.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-28](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-28.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-05-29](../../source-archive/singularity/innermost-loop/innermost-loop-2026-05-29.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-01](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-01.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-02](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-02.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-03](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-03.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-04](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-04.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-05](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-05.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-07](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-07.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-08](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-08.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-09](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-09.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-10](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-10.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-12](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-12.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-13](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-13.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-14](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-14.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-15](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-15.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-16](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-16.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-17](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-17.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-18](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-18.md) - full newsletter capture.
+- [The Innermost Loop raw - 2026-06-19](../../source-archive/singularity/innermost-loop/innermost-loop-2026-06-19.md) - full newsletter capture.
 
 ## Longitudinal Views
 
