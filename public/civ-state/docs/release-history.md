@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.57** — Augustus humanizing prose pass: unified `Later reception` weave (Goldsworthy, Syme, Mommsen, Everitt, Gibbon, Durant), removed analyst/meta frames, embodied annona/settlement beats; `civic-chain-rome-humanize` QA (body 2,421 · quoted 453).
+
 **v0.1.56** — Augustus light prose pass: fix duplicate [^2] pin, merge Actium geo duplicate, dedupe Peace administration/spectacle loop, trim restoration-thesis repeats; `civic-chain-rome-v2` QA (body 2,419 · quoted 451).
 
 **v0.1.55** — Republic light human-prose pass: trim liberty/elections formula loop, Florus meta, Punic geography list; vary Athens foil and Polybius tail; align closing with Caesar chain; `civic-chain-rome-humanize` QA (body 2,597 · quoted 479).

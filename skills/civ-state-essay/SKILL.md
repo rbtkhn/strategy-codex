@@ -73,7 +73,7 @@ Pin from target file + [`release-history.md`](../../public/civ-state/docs/releas
 | Genesis | `essay-rome-genesis.md` | **`civic-chain-rome-humanize`** | v0.1.49 humanizing · v0.1.50 light |
 | Republic | `essay-rome-republic.md` | **`civic-chain-rome-humanize`** | v0.1.51 humanizing · v0.1.55 light |
 | Caesar | `essay-rome-caesar.md` | **`civic-chain-rome-humanize`** | v0.1.52–54 light + humanizing |
-| Augustus | `essay-rome-augustus.md` | **`civic-chain-rome-v2`** | v0.1.48 source-bearing only — humanize pending |
+| Augustus | `essay-rome-augustus.md` | **`civic-chain-rome-humanize`** | v0.1.56 light · v0.1.57 humanizing |
 
 After any **humanizing** pass on a node, default QA class for later edits on that file → **humanize** until operator folds bands.
 
