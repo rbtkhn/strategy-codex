@@ -1,36 +1,3 @@
 # Statecraft Archive - 2025-07-02
 
-_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
-
-## Stats
-
-- Source files: `1`
-- Helper notes (excluded from source count): `0`
-- Body kind mix: `source` (1)
-- Source form mix: `interview` (1)
-- Distinct channels/shows: `0`
-- Distinct hosts: `1`
-- Distinct guests: `1`
-- Distinct threads: `2`
-
-## Channel / Show Rollup
-
-- (none)
-
-## Host / Guest / Thread Rollup
-
-- Hosts: `Glenn Diesen` (1)
-- Guests: `Larry Johnson` (1)
-- Threads: `diesen` (1), `johnson` (1)
-
-## Ingest register
-
-_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
-
-| Guest / voice | Show | Thread | YouTube |
-| --- | --- | --- | --- |
-| Larry Johnson | — | `diesen`, `johnson` | [watch](https://www.youtube.com/watch?v=GUjckivz8S4) |
-
-## Files
-
-- `source-glenn-diesen-larry-johnson-larry-johnson-extensive-damage-to-israel-s-defense-industry-economy-2025-07-02.md`
+_Day inventory moved to [day-index.md](./day-index.md). Rebuild: `python scripts/build_statecraft_day_indices.py --day 2025-07-02`._

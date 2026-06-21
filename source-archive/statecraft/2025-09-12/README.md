@@ -1,38 +1,3 @@
 # Statecraft Archive - 2025-09-12
 
-_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
-
-## Stats
-
-- Source files: `2`
-- Helper notes (excluded from source count): `0`
-- Body kind mix: `source` (2)
-- Source form mix: `interview` (2)
-- Distinct channels/shows: `0`
-- Distinct hosts: `2`
-- Distinct guests: `2`
-- Distinct threads: `4`
-
-## Channel / Show Rollup
-
-- (none)
-
-## Host / Guest / Thread Rollup
-
-- Hosts: `Glenn Diesen` (1), `Nima Alkhorshid` (1)
-- Guests: `Alastair Crooke` (1), `Lawrence Wilkerson` (1)
-- Threads: `crooke` (1), `diesen` (1), `nima` (1), `wilkerson` (1)
-
-## Ingest register
-
-_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
-
-| Guest / voice | Show | Thread | YouTube |
-| --- | --- | --- | --- |
-| Alastair Crooke | — | `nima`, `crooke` | [watch](https://www.youtube.com/watch?v=TtZr_v4rWBo) |
-| Lawrence Wilkerson | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=MujCTLhegRk) |
-
-## Files
-
-- `source-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md`
-- `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-america-is-retrenching-and-alliances-fall-apart-2025-09-12.md`
+_Day inventory moved to [day-index.md](./day-index.md). Rebuild: `python scripts/build_statecraft_day_indices.py --day 2025-09-12`._

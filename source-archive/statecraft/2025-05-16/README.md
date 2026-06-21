@@ -1,38 +1,3 @@
 # Statecraft Archive - 2025-05-16
 
-_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
-
-## Stats
-
-- Source files: `2`
-- Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (2)
-- Source form mix: `panel` (1), `solo` (1)
-- Distinct channels/shows: `2`
-- Distinct hosts: `2`
-- Distinct guests: `2`
-- Distinct threads: `3`
-
-## Channel / Show Rollup
-
-- `Alexander Mercouris` (1), `Dialogue Works` (1)
-
-## Host / Guest / Thread Rollup
-
-- Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
-- Guests: `Larry C. Johnson` (1), `Lawrence Wilkerson` (1)
-- Threads: `johnson` (1), `mercouris` (1), `wilkerson` (1)
-
-## Ingest register
-
-_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
-
-| Guest / voice | Show | Thread | YouTube |
-| --- | --- | --- | --- |
-| Alexander Mercouris | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=cpxCZDBLBPI) |
-| Lawrence Wilkerson, Larry C. Johnson | Dialogue Works | `wilkerson`, `johnson` | [watch](https://www.youtube.com/watch?v=wksOI_KEaAU) |
-
-## Files
-
-- `source-alex-mercouris-moscow-appoints-tough-general-as-prepares-big-offensive-zelensky-capitulates-agrees-to-direct-talks-2025-05-16.md`
-- `source-dialogue-works-larry-c-johnson-col-larry-wilkerson-trumps-bold-middle-east-gambit-russia-ukraine-collapse-2025-05-16.md`
+_Day inventory moved to [day-index.md](./day-index.md). Rebuild: `python scripts/build_statecraft_day_indices.py --day 2025-05-16`._

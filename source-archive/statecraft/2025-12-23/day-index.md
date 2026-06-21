@@ -1,0 +1,55 @@
+# Statecraft Archive - Day Index - 2025-12-23
+
+_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
+
+## Stats
+
+- Source files: `1`
+- Channel sources: `1`
+- Writer sources: `0`
+- Other sources: `0`
+- Helper notes (excluded from source count): `0`
+- Body kind mix: `transcript` (1)
+- Source form mix: `solo` (1)
+- Distinct channels/shows: `1`
+- Distinct hosts: `1`
+- Distinct guests: `0`
+- Distinct threads: `1`
+
+## Channel / Show Rollup
+
+- `Mercouris` (1)
+
+## Host / Guest / Thread Rollup
+
+- Hosts: `Alexander Mercouris` (1)
+- Guests: (none)
+- Threads: `mercouris` (1)
+
+## Channel sources
+
+_YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
+
+| Channel slug | Show | Thread | Source link | File |
+| --- | --- | --- | --- | --- |
+| `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jTT9tlCchk4) | `source-alex-mercouris-massive-strike-russia-quick-advance-kharkov-and-zaporozhye-orban-logic-o-2025-12-23.md` |
+
+## Writer sources
+
+_Configured prose / check-written roster captures for this day._
+
+| Writer slug | Thread | Feed host | Source link | File |
+| --- | --- | --- | --- | --- |
+| _none_ | — | — | — | — |
+
+## Other sources
+
+_Prose or archive lands outside channel-index and writer-index rosters._
+
+| Voice / show | Thread | Source link | File |
+| --- | --- | --- | --- |
+| _none_ | — | — | — |
+
+## Files
+
+- `source-alex-mercouris-massive-strike-russia-quick-advance-kharkov-and-zaporozhye-orban-logic-o-2025-12-23.md`

@@ -1,38 +1,3 @@
 # Statecraft Archive - 2025-11-24
 
-_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._
-
-## Stats
-
-- Source files: `2`
-- Helper notes (excluded from source count): `0`
-- Body kind mix: `source` (1), `transcript` (1)
-- Source form mix: `article` (1), `interview` (1)
-- Distinct channels/shows: `1`
-- Distinct hosts: `1`
-- Distinct guests: `2`
-- Distinct threads: `3`
-
-## Channel / Show Rollup
-
-- `Judging Freedom` (1)
-
-## Host / Guest / Thread Rollup
-
-- Hosts: `Andrew Napolitano` (2)
-- Guests: `Jeffrey Sachs` (1), `Larry Johnson` (1)
-- Threads: `napolitano` (2), `johnson` (1), `sachs` (1)
-
-## Ingest register
-
-_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._
-
-| Guest / voice | Show | Thread | YouTube |
-| --- | --- | --- | --- |
-| Larry Johnson | — | `johnson`, `napolitano` | [watch](https://www.youtube.com/watch?v=OJsrJhA0mTw) |
-| Jeffrey Sachs | Judging Freedom | `napolitano`, `sachs` | [watch]('https://www.youtube.com/watch?v=0nfBJGatAhM') |
-
-## Files
-
-- `source-napolitano-johnson-28-point-plan-is-dead-on-arrival-2025-11-24.md`
-- `source-napolitano-sachs-us-still-woefully-ignorant-of-russia-2025-11-24.md`
+_Day inventory moved to [day-index.md](./day-index.md). Rebuild: `python scripts/build_statecraft_day_indices.py --day 2025-11-24`._
