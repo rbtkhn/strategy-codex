@@ -15,10 +15,11 @@ These are the canonical input channels for strategy-notebook. The queue is a rol
 - Alex Mercouris
 - The Duran / Mercouris
 - Judging Freedom / Judge Napolitano
+- Redacted News
 
 ## Additional channels
 
-Other channels can be added when useful, but they are not part of the canonical five above.
+Other channels can be added when useful, but they are not part of the canonical daily watchlist above.
 
 - The Grayzone
 - Breaking Points

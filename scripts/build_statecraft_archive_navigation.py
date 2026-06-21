@@ -33,8 +33,10 @@ from statecraft_youtube_discovery import (  # noqa: E402
     load_canonical_channel_urls,
     load_daily_watchlist_keys,
     load_index_slug_canonical,
+    load_channel_index_misc_slugs,
     resolve_host_index_slug,
     resolve_filename_prefix_index_slug,
+    resolve_series_index_slug,
 )
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
@@ -190,6 +192,11 @@ def _channel_registry_key(meta: dict[str, Any], filename: str = "") -> tuple[str
         host_slug = resolve_host_index_slug(host)
         if host_slug:
             return host_slug, host, False
+    series = norm_scalar(meta.get("series"))
+    if series:
+        series_slug = resolve_series_index_slug(series)
+        if series_slug:
+            return series_slug, series, False
     if filename:
         prefix_slug = resolve_filename_prefix_index_slug(filename)
         if prefix_slug:
@@ -246,11 +253,41 @@ def collect_channel_stats(root: Path) -> dict[str, ChannelStats]:
     return dict(sorted(stats.items()))
 
 
+def _channel_index_table_rows(
+    channel_stats: dict[str, ChannelStats],
+    watchlist_keys: set[str],
+) -> list[str]:
+    rows: list[str] = []
+    for entry in sorted(channel_stats.values(), key=lambda item: (-item.file_count, item.slug)):
+        url = entry.channel_url or ""
+        if url and not url.startswith("http"):
+            url = f"https://{url}"
+        url_cell = f"[open]({url})" if url.startswith("http") else ""
+        watchlist_cell = "yes" if is_daily_watchlist_slug(entry.slug, watchlist_keys) else ""
+        slug_note = "" if entry.explicit_slug else " *"
+        rows.append(
+            f"| `{entry.slug}`{slug_note} | {entry.label} | {entry.file_count} | "
+            f"{len(entry.days)} | {watchlist_cell} | {url_cell} | `{entry.first_day or ''}` | `{entry.last_day or ''}` |"
+        )
+    return rows
+
+
+def _partition_channel_stats(
+    channel_stats: dict[str, ChannelStats],
+    misc_slugs: set[str],
+) -> tuple[dict[str, ChannelStats], dict[str, ChannelStats]]:
+    main = {slug: entry for slug, entry in channel_stats.items() if slug not in misc_slugs}
+    misc = {slug: entry for slug, entry in channel_stats.items() if slug in misc_slugs}
+    return main, misc
+
+
 def build_channel_index(root: Path) -> str:
     channel_stats = collect_channel_stats(root)
+    misc_slugs = load_channel_index_misc_slugs()
+    main_stats, _misc_stats = _partition_channel_stats(channel_stats, misc_slugs)
     watchlist_keys = load_daily_watchlist_keys()
-    total_files = sum(entry.file_count for entry in channel_stats.values())
-    explicit_slug_count = sum(1 for entry in channel_stats.values() if entry.explicit_slug)
+    total_files = sum(entry.file_count for entry in main_stats.values())
+    explicit_slug_count = sum(1 for entry in main_stats.values() if entry.explicit_slug)
 
     lines = [
         "# Statecraft Archive - YouTube Channel Index",
@@ -260,7 +297,9 @@ def build_channel_index(root: Path) -> str:
         "Flat registry of **YouTube channels** seen in `source-*.md` captures (`source_type: youtube`,",
         "`youtube_id`, or YouTube `source_url`). Articles, Substack, and other non-YouTube surfaces are excluded.",
         "Primary key: YAML `channel_slug` when present; otherwise derived from `channel_name` / `show`,",
-        "or configured `host` / filename prefix when listed in discovery config.",
+        "or configured `host`, YAML `series`, or filename prefix when listed in discovery config.",
+        "",
+        "Low-volume / occasional channels live in [channel-index-misc.md](./channel-index-misc.md).",
         "",
         "Curated daily watchlist (subset): "
         "[statecraft_youtube_discovery.json](../../platform/config/statecraft_youtube_discovery.json) · "
@@ -269,29 +308,17 @@ def build_channel_index(root: Path) -> str:
         "",
         "## Stats",
         "",
-        f"- Distinct YouTube channel keys: `{len(channel_stats)}`",
+        f"- Distinct YouTube channel keys: `{len(main_stats)}`",
         f"- YouTube source files mapped: `{total_files}`",
         f"- Rows with explicit `channel_slug`: `{explicit_slug_count}`",
-        f"- Watchlist channels (matched): `{sum(1 for e in channel_stats.values() if is_daily_watchlist_slug(e.slug, watchlist_keys))}`",
+        f"- Watchlist channels (matched): `{sum(1 for e in main_stats.values() if is_daily_watchlist_slug(e.slug, watchlist_keys))}`",
         "",
         "## Channels",
         "",
         "| Channel slug | Label | Files | Days | Watchlist | Channel URL | First day | Last day |",
         "| --- | --- | ---: | ---: | --- | --- | --- | --- |",
     ]
-
-    for entry in sorted(channel_stats.values(), key=lambda item: (-item.file_count, item.slug)):
-        url = entry.channel_url or ""
-        if url and not url.startswith("http"):
-            url = f"https://{url}"
-        url_cell = f"[open]({url})" if url.startswith("http") else ""
-        watchlist_cell = "yes" if is_daily_watchlist_slug(entry.slug, watchlist_keys) else ""
-        slug_note = "" if entry.explicit_slug else " *"
-        lines.append(
-            f"| `{entry.slug}`{slug_note} | {entry.label} | {entry.file_count} | "
-            f"{len(entry.days)} | {watchlist_cell} | {url_cell} | `{entry.first_day or ''}` | `{entry.last_day or ''}` |"
-        )
-
+    lines.extend(_channel_index_table_rows(main_stats, watchlist_keys))
     lines.extend(
         [
             "",
@@ -301,6 +328,51 @@ def build_channel_index(root: Path) -> str:
             "",
             "- Root archive: [source-archive/statecraft/README.md](./README.md)",
             "- Thread index: [thread-index.md](./thread-index.md)",
+            "- Miscellaneous channels: [channel-index-misc.md](./channel-index-misc.md)",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def build_channel_index_misc(root: Path) -> str:
+    channel_stats = collect_channel_stats(root)
+    misc_slugs = load_channel_index_misc_slugs()
+    _main_stats, misc_stats = _partition_channel_stats(channel_stats, misc_slugs)
+    watchlist_keys = load_daily_watchlist_keys()
+    total_files = sum(entry.file_count for entry in misc_stats.values())
+    explicit_slug_count = sum(1 for entry in misc_stats.values() if entry.explicit_slug)
+
+    lines = [
+        "# Statecraft Archive - YouTube Channel Index (Miscellaneous)",
+        "",
+        "_Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archive_indices.py`._",
+        "",
+        "Low-volume or occasional YouTube channels excluded from the main [channel-index.md](./channel-index.md).",
+        "Slug list: `channel_index_misc_slugs` in "
+        "[statecraft_youtube_discovery.json](../../platform/config/statecraft_youtube_discovery.json).",
+        "",
+        "## Stats",
+        "",
+        f"- Miscellaneous channel keys: `{len(misc_stats)}`",
+        f"- YouTube source files mapped: `{total_files}`",
+        f"- Rows with explicit `channel_slug`: `{explicit_slug_count}`",
+        "",
+        "## Channels",
+        "",
+        "| Channel slug | Label | Files | Days | Watchlist | Channel URL | First day | Last day |",
+        "| --- | --- | ---: | ---: | --- | --- | --- | --- |",
+    ]
+    lines.extend(_channel_index_table_rows(misc_stats, watchlist_keys))
+    lines.extend(
+        [
+            "",
+            "_`*` = slug derived from label; no explicit `channel_slug` in frontmatter._",
+            "",
+            "## Return",
+            "",
+            "- Main channel index: [channel-index.md](./channel-index.md)",
+            "- Root archive: [source-archive/statecraft/README.md](./README.md)",
             "",
         ]
     )
@@ -403,6 +475,8 @@ def build_stale_index_audit(root: Path) -> str:
     thread_status = _render_compare_status(thread_path, build_thread_index(root))
     channel_path = root / "channel-index.md"
     channel_status = _render_compare_status(channel_path, build_channel_index(root))
+    channel_misc_path = root / "channel-index-misc.md"
+    channel_misc_status = _render_compare_status(channel_misc_path, build_channel_index_misc(root))
 
     day_counter = Counter(status for _, status in day_rows)
     month_counter = Counter(status for _, status in month_rows)
@@ -420,6 +494,7 @@ def build_stale_index_audit(root: Path) -> str:
         f"- Year indices: {fmt_counter(year_counter)}",
         f"- Thread index: `{thread_status}`",
         f"- Channel index: `{channel_status}`",
+        f"- Channel index (misc): `{channel_misc_status}`",
         "",
         "## Day Index Status",
         "",
@@ -454,6 +529,7 @@ def build_stale_index_audit(root: Path) -> str:
             "",
             f"- `thread-index.md`: `{thread_status}`",
             f"- `channel-index.md`: `{channel_status}`",
+            f"- `channel-index-misc.md`: `{channel_misc_status}`",
             "",
             "## Return",
             "",
@@ -510,6 +586,16 @@ def main() -> int:
         changed_paths.append(channel_path)
         if args.check:
             print(f"stale {channel_path}")
+
+    channel_misc_path, channel_misc_changed = write_rendered(
+        root / "channel-index-misc.md",
+        build_channel_index_misc(root),
+        check=args.check,
+    )
+    if channel_misc_changed:
+        changed_paths.append(channel_misc_path)
+        if args.check:
+            print(f"stale {channel_misc_path}")
 
     audit_path, audit_changed = write_rendered(root / "stale-index-audit.md", build_stale_index_audit(root), check=args.check)
     if audit_changed:

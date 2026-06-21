@@ -1,7 +1,8 @@
 {
   "schema_version": 1,
   "slug_aliases": {
-    "judging-freedom": "napolitano",
+    "napolitano": "judging-freedom",
+    "judge-napolitano-judging-freedom": "judging-freedom",
     "alex-mercouris": "alexander-mercouris",
     "the-duran": "alexander-mercouris",
     "mercouris": "alexander-mercouris",
@@ -15,8 +16,8 @@
     "glenn-diesen-channel-program-pin-canonical-series-title-when-pinned": "glenn-diesen",
     "glenn-diesen-channel-program-pin-canonical-series-title-when-known": "glenn-diesen",
     "diesen-host-pepe-escobar-guest-not-strategy-expert-id-named-in-copy": "glenn-diesen",
-    "judging-freedom": "napolitano",
-    "judge-napolitano-judging-freedom": "napolitano",
+    "napolitano": "judging-freedom",
+    "judge-napolitano-judging-freedom": "judging-freedom",
     "alex-mercouris": "alexander-mercouris",
     "the-duran": "alexander-mercouris",
     "mercouris": "alexander-mercouris",
@@ -29,18 +30,41 @@
     "daniel-davis": "daniel-davis",
     "Glenn Diesen": "glenn-diesen",
     "glenn-diesen": "glenn-diesen",
-    "Judge Andrew Napolitano": "napolitano",
+    "Judge Andrew Napolitano": "judging-freedom",
     "Dialogue Works": "dialogue-works",
     "Nima Alkhorshid": "dialogue-works"
+  },
+  "series_index_canonical": {
+    "The Duran": "alexander-mercouris",
+    "Judging Freedom": "judging-freedom",
+    "Redacted": "redacted-news",
+    "Redacted News": "redacted-news"
   },
   "filename_prefix_index_canonical": [
     ["source-dialogue-works-", "dialogue-works"],
     ["source-glenn-diesen-", "glenn-diesen"],
     ["source-diesen-", "glenn-diesen"],
-    ["source-napolitano-", "napolitano"],
-    ["transcript-napolitano-", "napolitano"],
+    ["source-napolitano-", "judging-freedom"],
+    ["transcript-napolitano-", "judging-freedom"],
     ["source-davis-", "daniel-davis"],
-    ["source-alkorshid-", "dialogue-works"]
+    ["source-alkorshid-", "dialogue-works"],
+    ["source-redacted-", "redacted-news"]
+  ],
+  "channel_index_misc_slugs": [
+    "jeffrey-sachs",
+    "al-arabiya-english",
+    "americano",
+    "cirsd",
+    "counter-currents",
+    "fidias",
+    "garland-nixon",
+    "going-underground",
+    "let-s-talk-geopolitics",
+    "reinvent-money",
+    "shaun-attwood",
+    "switzerland-with-tom-switzer",
+    "the-chris-hedges-report",
+    "the-source"
   ],
   "channels": [
     {
@@ -98,7 +122,7 @@
       ]
     },
     {
-      "channel_key": "napolitano",
+      "channel_key": "judging-freedom",
       "channel_name": "Judge Napolitano - Judging Freedom",
       "channel_id": "UCDkEYb-TXJVWLvOokshtlsw",
       "uploads_playlist_id": "UUDkEYb-TXJVWLvOokshtlsw",
@@ -125,6 +149,24 @@
       "host": "Alexander Mercouris",
       "thread": "mercouris",
       "file_prefix": "youtube-alex-mercouris",
+      "daily_watchlist": true,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "redacted-news",
+      "channel_name": "Redacted News",
+      "channel_id": "UCoJhK5kMc4LjBKdiYrDtzlA",
+      "uploads_playlist_id": "UUoJhK5kMc4LjBKdiYrDtzlA",
+      "handle_url": "https://www.youtube.com/@RedactedNews",
+      "show": "Redacted News",
+      "host": "Clayton Morris",
+      "thread": "redacted",
+      "file_prefix": "source-redacted",
       "daily_watchlist": true,
       "discovery_priority": [
         "uploads_playlist",

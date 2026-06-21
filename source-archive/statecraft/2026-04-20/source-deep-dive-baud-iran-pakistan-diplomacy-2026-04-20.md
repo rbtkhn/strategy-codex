@@ -1,13 +1,22 @@
 ---
 ingest_date: 2026-04-20
 pub_date: 2026-04-20
-thread: baud
-source_url: https://www.youtube.com/watch?v=Vbmtt9LkJLo
 kind: transcript
-source_form: solo
-source_path: operator paste (Cursor)
-hosts: Daniel Davis (host); Col. Jacques Baud (guest)
-note: Canonical YouTube URL pinned from stream recovery. Transcript is operator-provided.
+source_type: youtube
+source_form: interview
+thread: baud
+threads:
+  - davis
+  - baud
+show: Daniel Davis Deep Dive
+host: Daniel Davis
+guest: Col. Jacques Baud
+channel_slug: daniel-davis
+channel_url: "https://www.youtube.com/@DanielDavisDeepDive"
+youtube_id: Vbmtt9LkJLo
+source_url: "https://www.youtube.com/watch?v=Vbmtt9LkJLo"
+title: "Reigniting the Iran War / Col Jacques Baud & Lt Col Daniel Davis"
+source_note: "Operator paste; canonical YouTube URL pinned from stream recovery. Davis Deep Dive × Baud — Pakistan diplomacy / Trump sign-tonight claim vs Araghchi negotiation frame."
 ---
 # Reigniting the Iran War /Col Jacques Baud & Lt Col Daniel Davis
 

@@ -184,7 +184,7 @@ def test_channel_registry_key_routes_configured_host_only_davis_captures() -> No
         "host": "Judge Andrew Napolitano",
     }
     slug, _, _ = nav._channel_registry_key(napolitano_meta)
-    assert slug == "napolitano"
+    assert slug == "judging-freedom"
 
     diesen_fname_meta = {
         "source_type": "youtube",
@@ -195,3 +195,30 @@ def test_channel_registry_key_routes_configured_host_only_davis_captures() -> No
         "source-diesen-wilkerson-ceasefire-fails-2026-04-10.md",
     )
     assert slug == "glenn-diesen"
+
+
+def test_channel_registry_key_routes_configured_series_values() -> None:
+    duran_meta = {
+        "source_url": "https://www.youtube.com/watch?v=abc123",
+        "series": "The Duran",
+    }
+    slug, label, explicit = nav._channel_registry_key(duran_meta)
+    assert slug == "alexander-mercouris"
+    assert label == "The Duran"
+    assert explicit is False
+
+    jf_meta = {
+        "source_url": "https://www.youtube.com/watch?v=def456",
+        "series": "Judging Freedom",
+    }
+    slug, _, _ = nav._channel_registry_key(jf_meta)
+    assert slug == "judging-freedom"
+
+
+def test_channel_index_excludes_misc_slugs_from_main_index() -> None:
+    root = REPO_ROOT / "source-archive" / "statecraft"
+    rendered = nav.build_channel_index(root)
+    misc = nav.build_channel_index_misc(root)
+    assert "jeffrey-sachs" not in rendered
+    assert "jeffrey-sachs" in misc
+    assert "channel-index-misc.md" in rendered

@@ -96,6 +96,20 @@ def resolve_host_index_slug(host: str, host_map: dict[str, str] | None = None) -
     return mapping.get(host)
 
 
+def load_series_index_canonical(payload: dict[str, Any] | None = None) -> dict[str, str]:
+    data = payload or load_discovery_payload()
+    raw = data.get("series_index_canonical") or {}
+    return {str(key): str(value) for key, value in raw.items()}
+
+
+def resolve_series_index_slug(series: str, series_map: dict[str, str] | None = None) -> str | None:
+    mapping = series_map if series_map is not None else load_series_index_canonical()
+    series = str(series or "").strip()
+    if not series:
+        return None
+    return mapping.get(series)
+
+
 def load_filename_prefix_index_canonical(payload: dict[str, Any] | None = None) -> list[tuple[str, str]]:
     data = payload or load_discovery_payload()
     entries: list[tuple[str, str]] = []
@@ -123,6 +137,12 @@ def resolve_filename_prefix_index_slug(
         if name.startswith(prefix.casefold()):
             return slug
     return None
+
+
+def load_channel_index_misc_slugs(payload: dict[str, Any] | None = None) -> set[str]:
+    data = payload or load_discovery_payload()
+    raw = data.get("channel_index_misc_slugs") or []
+    return {str(slug) for slug in raw}
 
 
 def load_discovery_channels(path: Path | None = None) -> list[dict[str, Any]]:

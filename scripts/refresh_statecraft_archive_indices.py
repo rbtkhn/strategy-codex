@@ -114,6 +114,16 @@ def refresh_or_check(root: Path, *, check: bool) -> tuple[int, list[Path]]:
         if check:
             print(f"stale {channel_path}")
 
+    channel_misc_path, channel_misc_changed = nav.write_rendered(
+        root / "channel-index-misc.md",
+        nav.build_channel_index_misc(root),
+        check=check,
+    )
+    if channel_misc_changed:
+        changed_paths.append(channel_misc_path)
+        if check:
+            print(f"stale {channel_misc_path}")
+
     audit_path, audit_changed = nav.write_rendered(
         root / "stale-index-audit.md",
         nav.build_stale_index_audit(root),

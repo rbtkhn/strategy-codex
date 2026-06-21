@@ -1,13 +1,19 @@
 ---
 ingest_date: 2026-06-04
 pub_date: 2026-06-04
-transcript_type: ai_assisted_operator_pasted_youtube_transcript
 kind: cleaned-transcript
+source_type: youtube
 source_form: interview
 thread: pape
+show: Mario Nawfal
+host: Mario Nawfal
 guest: Robert Pape
+channel_slug: mario-nawfal
+channel_url: "https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA"
+youtube_id: 6VaTuSpPisE
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 source_url: https://www.youtube.com/watch?v=6VaTuSpPisE
-source_note: "Operator paste; canonical watch URL preserved (YouTube). · ASR pass 2026-06-15."
+source_note: "Operator paste; canonical watch URL preserved (YouTube). Nawfal × Pape — fourth center of world power / escalation-trap branch. · ASR pass 2026-06-15."
 title_slug: pape-professor-pape-iran-has-become-fourth-world-superpower-due-to-trump-war-failures-2026-06-04
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 1 substitutions; not human-verified verbatim; verify before quotation. Nawfal host close promo (Substack/subscribe/next-guest tease) trimmed 2026-06-17."
