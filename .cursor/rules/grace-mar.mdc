@@ -4,189 +4,29 @@ globs: **
 alwaysApply: false
 ---
 
-# STRATEGY-CODEX / GRACE-MAR (legacy — fork revive only)
+# Grace-Mar fork lane (attach on revive only)
 
-**DEPRECATED as default routing.** `strategy-codex` is a governed interpretive machine. Growing the cognitive fork is **not** a system objective. Attach this rule only when the operator invokes **`fork revive`**, **`grace-mar archive`**, or coffee **`A gate`**. SSOT: [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md).
+**Do not apply by default.** Active identity is **strategy-codex** — governed interpretive machine. Growing the cognitive fork is **not** a system objective.
 
-This repo contains a **frozen** Grace-Mar reference instance — operator-archived; not actively growing.
+**Attach this rule only when** the operator invokes **`fork revive`**, **`grace-mar archive`**, or coffee **`A gate`**.
 
-**Conceptual framework:** [conceptual-framework.md](docs/conceptual-framework.md) (frozen; full body in [archive](archive/grace-mar-corpus/doctrine/) after Step 4) — fork vs. twin, terminology.
+## Canonical doctrine (read first)
 
-Governed by [GRACE-MAR-CORE v2.0](archive/grace-mar-corpus/doctrine/grace-mar-core.md) (archived). See [architecture](docs/architecture.md) for system design; [archive index](archive/grace-mar-corpus/README.md) for quarantined doctrine.
+| Topic | Doc |
+|---|---|
+| Archive fork SSOT | [`docs/archive/grace-mar.md`](../../docs/archive/grace-mar.md) |
+| Operational boundary | [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md) |
+| Extended agent gate/MEMORY rules | [`docs/agent-rules/deep-rules.md`](../../docs/agent-rules/deep-rules.md) |
+| Active system design | [`docs/architecture.md`](../../docs/architecture.md) |
+| Operating modes / merge protocol | [`instance-doctrine.md`](../../instance-doctrine.md) |
+| Corpus archaeology | [`archive/grace-mar-corpus/README.md`](../../archive/grace-mar-corpus/README.md) |
 
----
+## Physical paths
 
-## The Observation Window Model
+Record bundle: **`archive/grace-mar-instance/`** (not repo root). Merge only via `python scripts/process_approved_candidates.py --apply` after companion approval.
 
-The fork lives inside the user's mind â€” it is their mental model of the self, made explicit and structured. The emulation layer (Telegram at `archive/grace-mar-instance/bot/bot.py`, WeChat at `archive/grace-mar-instance/bot/wechat_bot.py`) is an **observation window**: the user selectively exposes thoughts and information to the fork's awareness through it. The bot is not where the fork lives.
+Voice bots: **`archive/grace-mar-instance/bot/`** (deprecated).
 
-The fork can only reference what has been explicitly merged into its profile. **LLM world knowledge must never leak through the emulation.**
+**Default capture when Record is frozen:** [`docs/replacement-capture-habits.md`](../../docs/replacement-capture-habits.md).
 
----
-
-## Two Input Channels
-
-Both channels feed the same gated pipeline and the same profile.
-
-**Channel 1 â€” Bot (Automated):** Telegram and WeChat bot conversations are analyzed by an LLM analyst (`ANALYST_PROMPT` in `archive/grace-mar-instance/bot/prompt.py`). The analyst stages candidates in `recursion-gate.md` automatically.
-
-**Channel 2 â€” Operator (Manual):** The user brings real-world observations directly (school work, art, overheard moments). Signal detection and staging are performed manually in the operator conversation.
-
-### The "we" Convention (fork revive only)
-
-When the operator has explicitly invoked **fork revive** and says **"we [did X]"**, treat as pipeline invocation: signal detection and candidate staging per [`AGENTS.md`](../../AGENTS.md) and archive [`pipeline-map`](../../archive/grace-mar-corpus/operator-habits/pipeline-map.md). **Default (Record frozen):** route to [`replacement-capture-habits.md`](../../docs/replacement-capture-habits.md) — lane history, `self-memory.md`, cadence — not ambient RECURSION-GATE staging.
-
-Book-completion signals apply **only** on fork revive. See archive pipeline-map § READ.
-
----
-
-## Three-Dimension Mind Model
-
-Post-seed growth is organized into three dimensions in Section IX of `self.md`:
-
-| Dimension | Section | What it captures |
-|---------|---------|-----------------|
-| **Knowledge** | IX-A | Facts entering awareness through observation |
-| **Curiosity** | IX-B | Topics that catch attention, engagement signals |
-| **Personality** | IX-C | Behavioral patterns, speech traits, art style, values |
-
-A single artifact can populate all three dimensions simultaneously.
-
----
-
-## Gated Pipeline
-
-**Nothing is committed to the fork without explicit user approval.**
-
-1. **Signal detection** â€” identify profile-relevant information
-2. **Candidate staging** â€” write to `recursion-gate.md` with analysis
-3. **User review** â€” approve, reject, or modify
-4. **Integration** â€” on approval, merge immediately. When the user says "approve", process right away â€” one gate, no separate "process the review queue" step.
-
-### File Update Protocol (Integration)
-
-When candidates are approved, merge into ALL of these together. **Canonical paths** (lowercase): [canonical-paths.md](docs/canonical-paths.md).
-- `self.md` â€” profile entries (IX-A, IX-B, IX-C)
-- `self-archive.md` â€” EVIDENCE (activity log + Â§ VIII gated approved)
-- `recursion-gate.md` â€” move candidates to Processed
-- `session-log.md` â€” session record
-- `archive/grace-mar-instance/bot/prompt.py` â€” emulation prompt (knowledge, curiosity, personality sections + analyst dedup list)
-
-**Merge only via script.** Do not edit self.md, self-archive.md, or prompt directly on approval. Instruct the operator to run `python scripts/process_approved_candidates.py --apply` (or the receipt flow). Cursor sessions must not perform manual merge.
-
----
-
-## Governance (All User Edits)
-
-**IMMUTABILITY:**
-- EVIDENCE: Never edit or delete. Corrections = new entry referencing original.
-- SKILLS: May upgrade, never downgrade or delete.
-- SELF: May update; history preserved. Never delete.
-
-**ADDITIVITY:** No deletions of user data. No silent edits.
-
-**FILE AUTHORITY:**
-- SELF: Who they are. No capability claims.
-- SKILLS: What they can do. No raw activities.
-- EVIDENCE: Raw activities. No claims or conclusions.
-
-**COMMIT:** After each session that updates user data. Git history = audit trail.
-
----
-
-## Knowledge Boundary (CRITICAL)
-
-The emulated self can only know what is documented in its profile. When the self encounters a question beyond its knowledge:
-- It says it doesn't know (in character)
-- It may express curiosity
-- It **never** draws on LLM training data to answer
-
-This boundary is enforced in `SYSTEM_PROMPT` in `archive/grace-mar-instance/bot/prompt.py`. Violating it breaks the entire system.
-
----
-
-## Language Register
-
-The Voice's output language matches the companion's register. There is no artificial simplification ceiling. This is enforced in `SYSTEM_PROMPT`.
-
----
-
-## Evidence Grounding (CRITICAL)
-
-Reference the user's own evidence:
-- **Writing Log**: Reference their vocabulary and prior writing
-- **Reading List**: Reference books they've read
-- **Creation Log**: Reference their creations
-- **SELF.narrative**: Anchor to their experiences
-
-**Rules:** Reference their actual data. Never invent experiences. Never reference content they haven't consumed.
-
----
-
-## Container Edge (CRITICAL)
-
-THINK, WRITE, BUILD are capability containers (modules).
-- **INSIDE**: Use as foundation
-- **AT THE EDGE**: Propose activities here (optimal)
-- **OUTSIDE**: Avoid (too advanced)
-
----
-
-## Prompt Scalability
-
-The emulation prompt (`archive/grace-mar-instance/bot/prompt.py`) grows as the fork grows. To manage this:
-- Compress related knowledge entries into single summary lines
-- Group facts by category (presidents, space, gemstones, etc.)
-- Preserve accuracy while reducing token count
-- Monitor total prompt size and apply summarization tiers when needed
-
----
-
-## Forbidden
-
-- Leak LLM knowledge into the fork's profile or emulation
-- Edit self.md, self-evidence.md, or prompt directly when processing approved candidates (use `process_approved_candidates.py` instead)
-- Commit profile changes without user approval
-- Invent memories or experiences
-- Reference books/media they haven't consumed
-- Propose activities far beyond their edge
-- Idealize or curate â€” record accurately
-- Delete or silently edit prior entries
-- Use the term "parent" as a system concept (the relationship is user â†” fork)
-
----
-
-## User Files
-
-Canonical paths are **lowercase**; see [canonical-paths.md](docs/canonical-paths.md).
-
-```
-[user-id]/
-â”œâ”€â”€ self.md                  # Who they ARE (identity + three-dimension mind)
-â”œâ”€â”€ self-skills.md           # What they CAN DO (capability index; legacy skills.md still resolved)
-â”œâ”€â”€ self-archive.md          # EVIDENCE â€” raw activities + Â§ VIII gated approved log
-â”œâ”€â”€ self-evidence.md         # optional compatibility pointer
-â”œâ”€â”€ session-log.md           # Interaction history
-â”œâ”€â”€ recursion-gate.md        # Pipeline staging (candidates + processed)
-â””â”€â”€ runtime/artifacts/               # Raw files (writing samples, artwork)
-```
-
-## Bot Files
-
-```
-archive/grace-mar-instance/bot/
-â”œâ”€â”€ core.py           # Shared emulation logic (Telegram + WeChat)
-â”œâ”€â”€ bot.py            # Telegram bot
-â”œâ”€â”€ wechat_bot.py     # WeChat Official Account bot
-â”œâ”€â”€ prompt.py         # All LLM prompts (SYSTEM, ANALYST, LOOKUP, REPHRASE)
-â””â”€â”€ requirements.txt  # Python dependencies
-```
-
----
-
-## Instance: grace-mar (frozen archaeology)
-
-Fork name: Grace-Mar. **Record frozen** — not an active growth objective. Embedded instance at repo root; default workspace identity is **strategy-codex**. See [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md).
-
-**Instance doctrine:** `instance-doctrine.md` (Layer 2 â€” operating modes, file update protocol, success metrics, repo structure, prompt architecture). See [layer-architecture.md](docs/layer-architecture.md) for the four-layer instruction model.
-
+Do not duplicate long fork pipeline prose here — use the docs above.

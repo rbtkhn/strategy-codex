@@ -11,6 +11,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 ARCHIVE_POINTER = "docs/archive/grace-mar.md"
+DEEP_RULES_POINTER = "docs/agent-rules/deep-rules.md"
+ARCHIVE_POINTERS = (ARCHIVE_POINTER, DEEP_RULES_POINTER)
 
 PRIMARY_GLOBS = (
     "README.md",
@@ -52,12 +54,19 @@ def _iter_primary_files() -> list[Path]:
             if rel in SKIP_EXACT or any(rel.startswith(p) for p in SKIP_PREFIXES):
                 continue
             out.add(path)
-    # .cursor/rules mention budget deferred to Sprint 5 (AGENTS slim + rules reconciliation).
+    rules = REPO_ROOT / ".cursor" / "rules"
+    if rules.is_dir():
+        for path in rules.glob("*.mdc"):
+            rel = path.relative_to(REPO_ROOT).as_posix()
+            if rel in SKIP_EXACT:
+                continue
+            out.add(path)
     return sorted(out)
 
 
 def _has_pointer(text: str) -> bool:
-    return ARCHIVE_POINTER in text.replace("\\", "/")
+    norm = text.replace("\\", "/")
+    return any(p in norm for p in ARCHIVE_POINTERS)
 
 
 def _scan_file(path: Path, *, max_block: int, max_mentions: int) -> list[str]:

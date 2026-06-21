@@ -39,7 +39,7 @@ At the **start of a new chat** when work touches **operator state** (integrity, 
 
 ## Relation to bootstrap
 
-`archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md` = legacy procedure. Prefer [`docs/start-here.md`](../../docs/start-here.md). Warmup = **current state** (integrity, ship, interpretive-machine health). Policy lives in `AGENTS.md` and [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md).
+`archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md` = legacy procedure. Prefer [`docs/start-here.md`](../../docs/start-here.md). Warmup = **current state** (integrity, ship, interpretive-machine health). Policy: slim [`AGENTS.md`](../../AGENTS.md) · [`docs/archive/grace-mar.md`](../../docs/archive/grace-mar.md).
 
 ## Do not
 

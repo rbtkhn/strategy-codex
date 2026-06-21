@@ -17,4 +17,4 @@ When drafting or editing **repo-root essays** under `essays/`:
 4. **Close** — Kissinger warning (declarative); align with [drafting-no-rhetorical-question-closer.mdc](drafting-no-rhetorical-question-closer.mdc).
 5. **Before ship** — run `python3 scripts/prose_slop_lint.py <path>` or `python3 scripts/prose_forge.py lint <path>` ([prose-forge.md](../../docs/prose-forge.md)).
 
-Do not duplicate the full doctrine here — edit **`docs/essay-voice.md`** if the rule changes.
+Do not duplicate the full doctrine here — edit **`docs/essay-voice.md`** if the rule changes. Record/fork: [`docs/archive/grace-mar.md`](../../docs/archive/grace-mar.md).

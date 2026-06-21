@@ -7,7 +7,7 @@ alwaysApply: true
 
 **`tri-mind` / `tri-frame` / `tutti` are deprecated** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md).
 
-**Voices supersede minds** — [VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md). For new work, **`statecraft/voices/<speaker>/<speaker>-profile.md`** is SSOT; **`strategy-expert-*-mind.md`** is compatibility only.
+**Voices supersede minds** — [VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md). Fork/gate: [`docs/archive/grace-mar.md`](../../docs/archive/grace-mar.md). For new work, **`statecraft/voices/<speaker>/<speaker>-profile.md`** is SSOT; **`strategy-expert-*-mind.md`** is compatibility only.
 
 Do **not** assume **tri-frame** on every **`strategy`**, **`strategy pass`**, or **skill-strategy** pass.
 

@@ -21,7 +21,9 @@ Applies when editing or drafting under `docs/skill-work/work-cici/` or `.cursor/
 
 ## Boundaries
 
-- **Retrieval ≠ merge:** Open Brain–style **capture, embeddings, RAG, MCP** do **not** authorize writing **identity truth** into `xavier/` or grace-mar **SELF / EVIDENCE / `archive/grace-mar-instance/bot/prompt.py`** without **RECURSION-GATE → companion approval →** `process_approved_candidates.py`. See [LEAKAGE-CHECKLIST.md](../../docs/skill-work/work-cici/LEAKAGE-CHECKLIST.md) and [companion-self-for-open-brain-users.md](../../docs/skill-work/work-companion-self/companion-self-for-open-brain-users.md).
+Fork / Record merge law (frozen default): [`docs/archive/grace-mar.md`](../../docs/archive/grace-mar.md) · [`docs/agent-rules/deep-rules.md`](../../docs/agent-rules/deep-rules.md).
+
+- **Retrieval ≠ merge:** Open Brain–style **capture, embeddings, RAG, MCP** do **not** authorize writing **identity truth** into `xavier/` or **`archive/grace-mar-instance/`** Record surfaces without **RECURSION-GATE → companion approval →** `process_approved_candidates.py`. See [LEAKAGE-CHECKLIST.md](../../docs/skill-work/work-cici/LEAKAGE-CHECKLIST.md).
 - **Coaching vs surveillance:** [cici-progress-log.md](../../docs/skill-work/work-cici/cici-progress-log.md) and [archive/placeholders/evidence/](../../docs/skill-work/work-cici/archive/placeholders/evidence/) are for **actionable, respectful** operator notes — not performance theater.
 
 ---

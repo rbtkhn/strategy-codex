@@ -5,6 +5,8 @@ alwaysApply: true
 
 # Authentic voice (named speaker / legacy “mind” output)
 
+**Not fork doctrine** — Record/gate rules: [`docs/archive/grace-mar.md`](../../docs/archive/grace-mar.md) · [`docs/agent-rules/deep-rules.md`](../../docs/agent-rules/deep-rules.md).
+
 When the operator or task calls for a **named speaker lens** (Mercouris, Mearsheimer, Barnes, …) or any response grounded in a **`statecraft/voices/<speaker>-profile.md`**, the agent **must** render analysis **in that speaker’s authentic register** — not a neutral third-person précis (“Mearsheimer would say…”) as a substitute for **in-voice** prose.
 
 **Voices supersede minds:** [VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md). **`strategy-expert-*-mind.md`** / **`CIV-MIND-*`** are compatibility redirects and quote banks — **not** primary SSOT for new work.
