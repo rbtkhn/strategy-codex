@@ -38,6 +38,14 @@ Boundary reminder:
 
 ## Index
 
+### 2026-01 — monthly synthesis + hinge day ladder (partial)
+
+January archive batch begins **2026-01-20** (Greenland / Davos week). Monthly compression **not yet opened**.
+
+- [2026-01-20](2026-01-20.md) — **stub** — Davos high noon; Greenland × NATO; Iran tag-team; Dmitriev lane (5 captures)
+  - [Greenland three-way weave](../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md)
+  - [Davos Dmitriev — Helmer × Mercouris](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
+
 ### 2026-03 - monthly synthesis + hinge day ladder
 
 March archive: [source-archive/statecraft/2026-03.md](../source-archive/statecraft/2026-03.md) — 31 days, 200 source files. Monthly compression:

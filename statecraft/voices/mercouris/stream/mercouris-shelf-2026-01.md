@@ -20,6 +20,8 @@ Month status: `continuity carryover` with explicit setup value for the later Feb
   - Europe's strategic disorientation and rhetoric-reality mismatch become visible in the native stream.
 - [source-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md](../../../../source-archive/statecraft/2026-01-19/source-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md)
   - The same Europe / Trump / negotiation geometry keeps gathering without yet becoming the February rupture.
+- [source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md](../../../../source-archive/statecraft/2026-01-20/source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md)
+  - **Full transcript** (2026-06-20 intake). Cross-weave: [Jan 20 Greenland three-way](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) × Helmer × Freeman.
 - [source-alex-mercouris-russia-hits-kiev-biggest-strike-as-us-military-joins-us-russia-ukraine-t-2026-01-24.md](../../../../source-archive/statecraft/2026-01-24/source-alex-mercouris-russia-hits-kiev-biggest-strike-as-us-military-joins-us-russia-ukraine-t-2026-01-24.md)
   - Ukraine pressure and negotiation theater are now clearly interacting.
 - [source-alex-mercouris-moscow-says-no-progress-abu-dhabi-talks-zelensky-won-t-give-up-territory-2026-01-26.md](../../../../source-archive/statecraft/2026-01-26/source-alex-mercouris-moscow-says-no-progress-abu-dhabi-talks-zelensky-won-t-give-up-territory-2026-01-26.md)

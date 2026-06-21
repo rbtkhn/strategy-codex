@@ -2,11 +2,11 @@ WORK only; not Record.
 
 # Helmer Source Index
 
-Purpose: canonical route map for materialized John Helmer appearances in **Statecraft Archive**. Primary hosts: **Dialogue Works / Nima** and **Reason to Resist / Lascaris** — Moscow insider-reporting register, Kremlin faction reads, deterrence / drone-war lanes.
+Purpose: canonical route map for materialized John Helmer appearances in **Statecraft Archive**. **Identity / voice hub:** [helmer-profile.md](helmer-profile.md). Primary hosts: **Dialogue Works / Nima** and **Reason to Resist / Lascaris** — Moscow insider-reporting register, Kremlin faction reads, deterrence / drone-war lanes.
 
 ## Corpus note
 
-- **8** direct captures on disk (2026-04-28 → 2026-06-16): **6** `source-alkorshid-helmer-*`, **2** `source-lascaris-helmer-*`
+- **9** direct captures on disk (2026-01-20 → 2026-06-16): **7** `source-alkorshid-helmer-*`, **2** `source-lascaris-helmer-*`
 - **0** authored Substack / solo-site captures in archive (Helmer blog cited in-interview only)
 - **`thread: helmer`** on Jun 09+ lands; earlier rows **`thread: nima`** only — both route here for guest appearances
 
@@ -15,6 +15,10 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 ## Direct Materialized Appearances
 
 ### Dialogue Works / Nima
+
+#### 2026-01
+
+- [2026-01-20 - Two Fronts, One Collapsing EU? Greenland's Choice & Ukraine's War](../../../source-archive/statecraft/2026-01-20/source-alkorshid-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md)
 
 #### 2026-04
 
@@ -51,9 +55,9 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 | Jun 13 | Restore deterrence (Lascaris) | Domestic recession + Duma election; Nabiev/Siluanov vs military; Lavrov May 25 systemic strikes repudiated; **no NATO-target strikes** while Dmitriev–Witkoff Anchorage line holds; Karaganov cited via Oslo Glendes; cross-ref [Diesen Karaganov/Mearsheimer same day](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md) |
 | Jun 16 | MOU reaction | MOU-week Moscow read: Dmitriev/Anchorage vs Lavrov/military; Lebanon 60-day; $300B fund; GCC protection buying; Ukraine two-track |
 
-**Pattern:** ~weekly **Tuesday** Dialogue Works plus **May 24** and **Jun 13** Reason to Resist (Lascaris); **5** May–June dialogue rows through Jun 16 MOU land.
+**Pattern:** earliest 2026 land **Jan 20** (Dialogue Works); then **Apr 28** resume; ~weekly **Tuesday** Dialogue Works through Jun 16 plus **May 24** and **Jun 13** Reason to Resist (Lascaris).
 
-**Cross-weave:** Jun 16 pairs with [MOU-week Napolitano bench](../../notes/2026-06-15-mou-week-napolitano-bench-seam.md) (McGovern/Crooke/Sachs/Pape) — Helmer supplies **Kremlin domestic faction** lane; Pape supplies leverage math.
+**Cross-weave:** Jun 16 pairs with [MOU-week Napolitano bench](../../notes/2026-06-15-mou-week-napolitano-bench-seam.md) (McGovern/Crooke/Sachs/Pape) — Helmer supplies **Kremlin domestic faction** lane; Pape supplies leverage math. **Jan 20** — [Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) (Helmer × Freeman × Mercouris — all transcript-tier); [Davos Dmitriev — Helmer × Mercouris](../../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md).
 
 ## Host / compatibility entries
 
@@ -70,5 +74,5 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 
 ## Boundary notes
 
-- No `helmer-arc.md` yet — shelf is **index-first** until month density warrants arc/helix.
+- No `helmer-arc.md` yet — shelf is **profile + index** until month density warrants arc/helix.
 - Helmer Substack (`johnhelmer.net`) not mirrored in archive; in-interview citations only.

@@ -51,3 +51,17 @@ Use these when the task is tracing how the January setup month compresses into a
 Best first-open for February 2025 continuity:
 
 - [stream/mercouris-shelf-2025-02.md](stream/mercouris-shelf-2025-02.md)
+
+## 2026-01 Greenland week — Jan 20 cross-weave
+
+Same-day **Greenland crisis** — route Mercouris **solo institutional braid** against guest-pair registers; do **not** collapse into one verdict.
+
+| Register | Shelf | Capture / note |
+| --- | --- | --- |
+| **Mercouris** (solo) | this index · [Jan 2026 shelf](stream/mercouris-shelf-2026-01.md) | [2026-01-20 — Starmer/Macron humiliation; Greenland; Kiev AD/offensive](../../../source-archive/statecraft/2026-01-20/source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) — **full transcript** (2026-06-20 intake) |
+| **Helmer** (Moscow sea-war) | [Helmer index](../helmer/helmer-source-index.md) | [2026-01-20 Dialogue Works](../../../source-archive/statecraft/2026-01-20/source-alkorshid-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) |
+| **Freeman** (alliance law) | [Freeman index](../freeman/freeman-source-index.md) | [2026-01-20 Davis Deep Dive](../../../source-archive/statecraft/2026-01-20/source-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md) |
+
+**Synthesis object:** [Jan 20 Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) · [Jan 20 Davos Dmitriev — Helmer × Mercouris](../../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
+
+**January Greenland arc (solo stream):** [2026-01-18 tariffs](../../../source-archive/statecraft/2026-01-18/source-alex-mercouris-trump-hits-uk-eu-big-greenland-tariffs-uk-eu-rage-in-shock-without-plan-2026-01-18.md) · [2026-01-19 Nobel/Gaza board](../../../source-archive/statecraft/2026-01-19/source-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md) · **2026-01-20** (stub) · prehistory [2025-01-08 Greenland](../../../source-archive/statecraft/2025-01-08/source-alex-mercouris-trump-shock-fortress-america-greenland-no-ukraine-nato-europe-shock-iran-2025-01-08.md)
