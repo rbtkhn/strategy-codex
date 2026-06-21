@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.51** — Republic humanizing prose pass: in-place rhythm, lived institutions (tribune, *imperium*, publicani), Polybius as later hostage-scholar, active Florus weave, deduped prize catalogues; `civic-chain-rome-humanize` QA (body 2,644 · quoted 479).
+
 **v0.1.50** — Genesis light human-prose pass: motif variation, transition dedupe, micro-asides (*pomerium*, *fasces*, Tiber, Livy), sharper paragraph endings, conversational Lucretia weave.
 
 **v0.1.49** — Genesis humanizing prose pass: in-place rhythm, verb, lived-institution, causality, and active-quotation revision; Polybius framed as later writer; `civic-chain-rome-humanize` QA band (body 2,400–2,800).
