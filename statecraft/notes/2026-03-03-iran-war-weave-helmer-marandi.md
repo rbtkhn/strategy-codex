@@ -85,6 +85,7 @@ Same-day **US–Israel war on Iran** (post-Khamenei assassination) — two Dialo
 - [Feb 17 Iran bench — Marandi × Mearsheimer × Helmer coda](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) — Hormuz **partial** → Mar 3 **closed**
 - [Feb 17 Geneva weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) — same **Witkoff** bandwidth week before war
 - [Dmitriev arc Jan 20 → Feb 17 → Mar 3](./2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md) — **Anchorage dead** row (extend on pick **E**)
+- [Helmer Mar 3 → Mar 24 arc — Russia/China two-track](./2026-03-helmer-mar3-mar24-russia-china-two-track-arc.md) — five terms + two-track upgrade (~week 4)
 
 ## Falsifiers
 
