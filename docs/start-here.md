@@ -8,11 +8,7 @@
 
 ## What this repo is
 
-**strategy-codex** is a **governed interpretive machine**: verbatim sources land in archive; bounded synthesis and transactions carry judgment under **statecraft** and **singularity**.
-
-**External name:** an **intelligence harness** for the same system — [intelligence-harness.md](intelligence-harness.md).
-
-Growing a personal cognitive fork is **not** a system objective. The Grace-Mar Record is **frozen** — see [`docs/archive/grace-mar.md`](archive/grace-mar.md). Gate promotion applies only on explicit **`fork revive`**.
+Canonical product definition: [product-identity.md](product-identity.md). **Default path:** **C** (operator) — system map, promotion ladder, and ship loop below.
 
 **SELF / library / memory:** Record identity under [`archive/grace-mar-instance/self.md`](../archive/grace-mar-instance/self.md) is **frozen**; [`self-library.md`](../self-library.md) stays **active for reference** routing; [`self-memory.md`](../self-memory.md) is **session continuity** — not SELF, not Record.
 
@@ -28,7 +24,7 @@ Growing a personal cognitive fork is **not** a system objective. The Grace-Mar R
 
 ## Choose your path {#choose-your-path}
 
-Pick **one letter** (same A–F as [README § Choose your path](../README.md#choose-your-path)). **Default:** **C** (operator). Seed-phase calibration: [seed-phase-survey § Calibrate](seed-phase-survey.md#calibrate-from-your-start-here-path).
+Pick **one letter**. **Default:** **C** (operator). Seed-phase calibration: [seed-phase-survey § Calibrate](seed-phase-survey.md#calibrate-from-your-start-here-path).
 
 | Pick | You are… | Start here |
 |------|----------|------------|
@@ -43,9 +39,9 @@ Pick **one letter** (same A–F as [README § Choose your path](../README.md#cho
 
 ### Door F — public-safe orientation
 
-Public-safe entry only — no seed intake, gate queues, or private operator material. Safe entry points: [harness-architecture-map.md](harness-architecture-map.md), [intelligence-harness.md](intelligence-harness.md), [product-identity.md](product-identity.md), [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md), [README door F](../README.md#door-f).
+Public-safe entry only — no seed intake, gate queues, or private operator material. Safe entry points: [harness-architecture-map.md](harness-architecture-map.md), [intelligence-harness.md](intelligence-harness.md), [product-identity.md](product-identity.md), [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md), public Predictive History ([ph-civ](https://github.com/rbtkhn/ph-civ)).
 
-**Cross-channel essays:** full index at [README § Essays index](../README.md#essays-index) · shelf law at [essays/README.md](../essays/README.md) · note vs essay routing at [prose-index.md](prose-index.md).
+**Cross-channel essays:** [essays/README.md](../essays/README.md) · [prose-index.md](prose-index.md).
 
 ---
 
@@ -128,64 +124,18 @@ Conventions: [work-menu-conventions — Ship receipt](skill-work/work-menu-conve
 
 ## Operator commands
 
-### Archive indices (derived; regenerate after intake)
+Lane scripts and preflight: [contributing.md](../contributing.md) · [skill-work/work-dev/](skill-work/work-dev/).
 
-```bash
-# Refresh all day/month/year/thread/stale-audit indices
-python3 scripts/refresh_statecraft_archive_indices.py
+| Task | Entry |
+|------|--------|
+| Refresh archive indices | `python3 scripts/refresh_statecraft_archive_indices.py` (`--check` for CI) |
+| Archive ↔ daily sync | `python3 scripts/check_statecraft_intake_daily_sync.py --day YYYY-MM-DD` or `--latest` |
+| Intake queue report | `python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD` — [spec](statecraft-intake-queue.md) |
+| Daily synthesis check | `python3 scripts/validate_statecraft_daily_synthesis.py` (advisory in CI) |
+| Session warmup | `python3 scripts/harness_warmup.py -u strategy-codex --compact` |
+| Gate review | **Fork revive only** — `grace-mar gate board` · [archive/grace-mar.md](archive/grace-mar.md) |
 
-# CI guard — exit 1 if any index is stale
-python3 scripts/refresh_statecraft_archive_indices.py --check
-```
-
-### Gate review (fork revive only — Record frozen by default)
-
-```bash
-grace-mar gate board [-u USER]          # Kanban view → runtime/artifacts/gate-board.md
-grace-mar gate list [-u USER]
-grace-mar gate diff CANDIDATE-XXXX [-u USER]
-grace-mar gate merge [-u USER]          # process_approved_candidates.py --apply
-```
-
-### Session warmup
-
-```bash
-python3 scripts/operator_coffee.py -u strategy-codex --compact
-python3 scripts/harness_warmup.py -u strategy-codex --compact
-```
-
-### Daily synthesis structure (advisory in CI until shelf retrofit)
-
-```bash
-python3 scripts/validate_statecraft_daily_synthesis.py
-```
-
-Skips legacy daily notes; enforces five-volume contract on migrated `YYYY-MM-DD.md` files only.
-
-### Archive vs daily sync (advisory in CI)
-
-```bash
-python3 scripts/check_statecraft_intake_daily_sync.py --day YYYY-MM-DD
-python3 scripts/check_statecraft_intake_daily_sync.py --latest   # CI advisory default
-python3 scripts/check_statecraft_intake_daily_sync.py --all                # backlog audit
-python3 scripts/check_statecraft_intake_daily_sync.py --all --desync-only  # desync rows only
-# Or after index refresh:
-python3 scripts/refresh_statecraft_archive_indices.py --check-daily-sync YYYY-MM-DD
-```
-
-Exit `1` on desync; does not auto-edit daily synthesis. `--latest` picks the newest archive day with at least one source file.
-
-### Intake queue report (after sync check)
-
-```bash
-python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD
-python3 scripts/statecraft_intake_queue.py --latest
-python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --json
-python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --emit-sidecars
-python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD --write-digest --digest-out runtime/artifacts/statecraft-intake-queue/digest-YYYY-MM-DD.md
-```
-
-Spec: [statecraft-intake-queue.md](statecraft-intake-queue.md). Default Kleiber compact conductor pass runs sync + queue report in **A. Allegro** ([conductor SKILL](../.cursor/skills/conductor/SKILL.md)).
+Flags and conductor cadence: [statecraft-intake-queue.md](statecraft-intake-queue.md) · [conductor SKILL](../.cursor/skills/conductor/SKILL.md)
 
 ---
 
@@ -193,15 +143,13 @@ Spec: [statecraft-intake-queue.md](statecraft-intake-queue.md). Default Kleiber 
 
 | Need | Path |
 |------|------|
-| Product identity | [product-identity.md](product-identity.md) |
-| Intelligence harness (curious visitor) | [intelligence-harness.md](intelligence-harness.md) · [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md) |
-| **Essays (primary shelf)** | [essays/README.md](../essays/README.md) · canonical product essay: [from-accumulation-to-governed-interpretive-machine.md](../essays/from-accumulation-to-governed-interpretive-machine.md) |
-| Prose class chooser | [prose-index.md](prose-index.md) |
-| Grace-Mar freeze / revive | [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md) |
-| Deprecated surfaces index | [deprecated-surfaces.md](deprecated-surfaces.md) |
-| Statecraft front door | [statecraft/README.md](../statecraft/README.md) |
+| **Operator default (C)** | [statecraft/README.md](../statecraft/README.md) · promotion ladder above |
 | Archive SSOT | [source-archive/statecraft/README.md](../source-archive/statecraft/README.md) |
 | Daily method | [statecraft/daily/METHOD.md](../statecraft/daily/METHOD.md) |
-| Record paths | [canonical-paths.md](canonical-paths.md) |
 | Full architecture | [architecture.md](architecture.md) |
-| Redesign wedge / phases | [strategy-codex-redesign-brief.md](strategy-codex-redesign-brief.md) |
+| Product identity | [product-identity.md](product-identity.md) |
+| Essays shelf | [essays/README.md](../essays/README.md) |
+| Grace-Mar freeze / revive | [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md) |
+| Route registry detail | [routing-reference.md](routing-reference.md) |
+
+More indexes and doctrine: [LLM-ROUTING.md](../LLM-ROUTING.md) · [harness-architecture-map.md](harness-architecture-map.md) · [deprecated-surfaces.md](deprecated-surfaces.md)

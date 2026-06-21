@@ -8,41 +8,11 @@
 
 **External name:** an **intelligence harness** for the same system — [intelligence-harness.md](intelligence-harness.md).
 
-It is **not** primarily a system for growing a personal cognitive fork. The embedded Grace-Mar Record is a **frozen legacy sidecar**. See [`docs/archive/grace-mar.md`](archive/grace-mar.md) · [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md).
+It is **not** primarily a system for growing a personal cognitive fork. The embedded Grace-Mar Record is a **frozen legacy sidecar** — [`docs/archive/grace-mar.md`](archive/grace-mar.md) · [`grace-mar-instance-boundary.md`](grace-mar-instance-boundary.md). Gate promotion: explicit **`fork revive`** only.
 
 ## System map
 
-```mermaid
-flowchart TB
-  subgraph membrane [Work membrane active]
-    Archive[source-archive/statecraft]
-    Voices[statecraft/voices]
-    States[statecraft/states]
-    Daily[statecraft/daily]
-    Tx[statecraft lane transactions]
-  end
-
-  subgraph channels [Operator channels]
-    SC[statecraft]
-    SG[singularity]
-  end
-
-  Essays[essays/ primary prose shelf]
-
-  subgraph frozen [Frozen sidecar]
-    Record[archive/grace-mar-instance Record]
-  end
-
-  Archive --> Voices --> States
-  Voices --> Daily --> Tx
-  SC --> membrane
-  SG --> singularity/
-  SC --> Essays
-  SG --> Essays
-  Tx -.fork revive only.-> Record
-```
-
-Cross-channel theses at [`essays/README.md`](../essays/README.md); bounded notes stay in channel `notes/` only ([`prose-index.md`](prose-index.md)). Full operator map: [`start-here.md — System map`](start-here.md#system-map).
+Operator topology (mermaid + membrane notes): [start-here.md — System map](start-here.md#system-map). Do not duplicate the diagram here.
 
 ## Canonical essay
 

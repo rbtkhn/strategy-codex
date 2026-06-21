@@ -84,6 +84,8 @@ Detailed doctrine belongs under `docs/archive/` and `archive/grace-mar-corpus/`.
 2. **Fail mode** — promote to required after proof-slice gate (post Sprint 3) and operator legibility check.
 3. **Exceptions** — time-boxed allowlist entries in this file with expiry date; no permanent exceptions.
 
+**Workflow:** [`.github/workflows/repo-health.yml`](../.github/workflows/repo-health.yml) — **Required** job (routing, generated headers, layout, path adoption) + **Advisory** job (archive boundary, root budget, complexity `--check`, drift orchestrator). Mirrors `python3 scripts/check_repo_health.py --quick` / `--full`.
+
 ## Related
 
 - Complexity mitigation plan (Cursor): `complexity_mitigation_plan_e3d72ba0.plan.md`
@@ -93,4 +95,5 @@ Detailed doctrine belongs under `docs/archive/` and `archive/grace-mar-corpus/`.
 - `scripts/check_repo_path_strict.py` (warn mode; `--strict` Sprint 6+)
 - `scripts/check_generated_surfaces.py` — manifest + header + drift (`--strict` Sprint 9 fail)
 - [`root-file-budget.yaml`](../root-file-budget.yaml) + `scripts/assert_root_file_budget.py` (warn; `--strict` Phase 9)
+- Phase 8 doc trim plan: [complexity-readme-start-here-trim-plan.md](complexity-readme-start-here-trim-plan.md) · `scripts/check_doc_duplication.py` (warn)
 - `runtime/artifacts/complexity-audit/`

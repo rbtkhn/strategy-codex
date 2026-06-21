@@ -1,0 +1,91 @@
+# Complexity mitigation CI — consolidated preflight (Sprint 9 scaffold).
+# Rollout: advisory steps use continue-on-error until promoted in docs/complexity-budget.md.
+# Local mirror: python3 scripts/check_repo_health.py --quick | --full
+name: Repo health
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  required:
+    name: Required
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dev dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Root folder layout
+        run: python3 scripts/assert_root_folder_layout.py
+
+      - name: Repo routing (strict)
+        run: python3 scripts/validate_repo_routing.py --strict
+
+      - name: LLM-ROUTING generator drift
+        run: python3 scripts/generate_llm_routing.py --check
+
+      - name: Repo path adoption (zero literals)
+        run: python3 scripts/check_repo_path_adoption.py --max-literals 0
+
+      - name: Generated manifest schema
+        run: python3 scripts/check_generated_surfaces.py --manifest-only
+
+      - name: Generated surface headers (strict)
+        run: python3 scripts/check_generated_surfaces.py --headers-only --strict
+
+      - name: Pytest — routing and generated surfaces
+        run: |
+          python3 -m pytest \
+            tests/test_routing_generated.py \
+            tests/test_check_generated_surfaces.py \
+            tests/test_assert_root_file_budget.py \
+            -q
+
+  advisory:
+    name: Advisory (warn mode)
+    runs-on: ubuntu-latest
+    needs: required
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dev dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Archive boundary
+        run: python3 scripts/check_archive_boundary.py
+
+      - name: Repo path strict scan
+        run: python3 scripts/check_repo_path_strict.py
+
+      - name: Root file budget
+        run: python3 scripts/assert_root_file_budget.py
+
+      - name: Generated surface drift orchestrator
+        run: python3 scripts/check_generated_surfaces.py --check
+
+      - name: Complexity audit thresholds
+        run: python3 scripts/audit_repo_complexity.py --check
+
+      - name: Doc duplication (warn)
+        run: python3 scripts/check_doc_duplication.py
+
+      - name: Pytest — path strict and archive boundary
+        run: |
+          python3 -m pytest \
+            tests/test_repo_path_strict.py \
+            tests/test_check_archive_boundary.py \
+            tests/test_strategy_codex_cli.py \
+            -q

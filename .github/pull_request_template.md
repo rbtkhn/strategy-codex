@@ -40,3 +40,16 @@ If the diff **intentionally crosses lanes**, also add **`lane/cross`** and fill 
 
 - [ ] Tests / validation run locally where relevant
 - [ ] Docs updated if behavior or operator workflow changed
+
+## Complexity impact (repo-health)
+
+Local preflight: `python3 scripts/check_repo_health.py --quick` (required-style) or `--full` (includes advisory checks).
+
+CI: [`.github/workflows/repo-health.yml`](.github/workflows/repo-health.yml) — **Required** job must pass; **Advisory** job is warn-mode until Phase 9 promotion ([`docs/complexity-budget.md`](docs/complexity-budget.md)).
+
+- [ ] **No complexity impact** — typo, localized fix, or docs outside primary routing/agent surfaces
+- [ ] **Generated surfaces** — ran relevant generator `--check` (see [`generated-manifest.yaml`](generated-manifest.yaml))
+- [ ] **Routing / repo-map** — `validate_repo_routing.py --strict` and `generate_llm_routing.py --check`
+- [ ] **New root file** — added to [`root-file-budget.yaml`](root-file-budget.yaml) with category + relocation note if applicable
+- [ ] **Grace-Mar / fork mentions** — primary-path docs use short pointers only ([`docs/archive/grace-mar.md`](docs/archive/grace-mar.md))
+- [ ] **Root count / budget** — acknowledged over-budget state (33/20) or reduced count toward target ≤ 20

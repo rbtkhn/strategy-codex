@@ -32,6 +32,8 @@ python3 scripts/check_repo_health.py --quick
 python3 scripts/check_repo_health.py --full   # before large PRs
 ```
 
+CI equivalent: [`.github/workflows/repo-health.yml`](.github/workflows/repo-health.yml).
+
 ## Record and pipeline (fork revive only)
 
 - **Default:** capture via WORK lanes — see [docs/replacement-capture-habits.md](docs/replacement-capture-habits.md).
