@@ -297,6 +297,25 @@ Canonical method: [skills/civ-state/SKILL.md](civ-state/SKILL.md)
 
 ---
 
+## civ-state-note
+
+- **What it is**
+  - Bounded **CIV-STATE-adjacent** note promotion to `statecraft/notes/` — parallel discipline to **`civ-state-essay`**, but WORK shelf not public prose.
+- **When to use it**
+  - Use when the operator says **`civ-state note`**, **`civ-state-note`**, or when a mechanism seam needs **`public/civ-state/`** retrieve framing + archive anchors before (or instead of) essay work.
+- **Inputs you'll need**
+  - One promotable wedge, archive paths (or parent daily), optional wire-verify rows, named public shelf doors for retrieve pre-pass.
+- **What you get**
+  - One argument-shaped note with retrieve posture, source anchors, falsifiers, and README wiring — not civic-chain word bands.
+- **Boundary**
+  - WORK only; not Record; does not edit `public/civ-state/` (hand off to **`civ-state-essay`**). Use **`state-note`** when CIV-STATE pre-pass is not load-bearing.
+- **Current status**
+  - `promoted`
+
+Canonical method: [skills/civ-state-note/SKILL.md](civ-state-note/SKILL.md)
+
+---
+
 ## civ-state-primary-text-acquisition
 
 - **What it is**

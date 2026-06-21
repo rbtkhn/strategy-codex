@@ -226,6 +226,13 @@ skills:
     verify_forbidden_substrings:
       - platform/users/grace-mar/
       - process_approved_candidates
+  - name: civ-state-note
+    source: civ-state-note/SKILL.md
+    appendix: .cursor/skills/civ-state-note/CURSOR_APPENDIX.md
+    target: .cursor/skills/civ-state-note/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
   - name: civ-state-primary-text-acquisition
     source: civ-state-primary-text-acquisition/SKILL.md
     appendix: .cursor/skills/civ-state-primary-text-acquisition/CURSOR_APPENDIX.md

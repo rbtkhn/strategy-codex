@@ -41,6 +41,9 @@ verify:
   - claim: J17-5 Fri 19 Jun ceremony window — talks did not convene
     verdict: supported
     note: Postponement resolves Jun 19 branch · cross-ref J19-15
+  - claim: Israel Hayom (Adelson) open letter to Trump — "you failed" / MOU surrender / "betrayed us"
+    verdict: supported
+    note: Israel Hayom Jun 18 · Newsweek carry · cross-ref [J19-20 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md) · [Vance routing note](../../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md)
 ---
 
 # Amb. Chas Freeman: Israel's Agenda Suffers MAJOR Collapse

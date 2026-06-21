@@ -40,6 +40,9 @@ verify:
   - claim: State Dept discussed holding Iran negotiations in Washington DC next week
     verdict: unclear
     note: Host/desk carry only — no wire-primary in triage · cross-ref [J19-13 venue child note](../../../statecraft/daily/2026-06-19-washington-talks-venue-fork-j19-13-freeman-weichert-parsi.md)
+  - claim: Miriam Adelson Israel Hayom open letter to Trump — "you failed" / MOU betrayal read
+    verdict: supported
+    note: Israel Hayom Jun 18 · Newsweek carry · cross-ref [J19-20 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md) · [Vance routing note](../../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md)
 ---
 
 # BREAKING: U.S. INTEL WARNS OF ISRAELI SABOTAGE – w/ Geopolitics Expert Brandon Weichert

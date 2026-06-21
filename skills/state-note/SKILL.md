@@ -15,7 +15,7 @@ tags:
 
 Use this skill when one statecraft argument has become **reusable enough to stand alone as a note**, but not yet broad or settled enough for repo-root essay or the full daily shelf.
 
-**Sibling:** `singularity-note-promotion` — same promotion discipline, **`statecraft/notes/`** shelf instead of `singularity/notes/`.
+**Sibling:** `singularity-note-promotion` — same promotion discipline, **`statecraft/notes/`** shelf instead of `singularity/notes/`. **`civ-state-note`** when CIV-STATE retrieve pre-pass is load-bearing (parallel to **`civ-state-essay`**).
 
 ## Boundary
 
@@ -45,6 +45,7 @@ Use when **all** of the following are true:
 | Skill | Job |
 |---|---|
 | **state-note** (this) | One bounded note under `statecraft/notes/` |
+| **civ-state-note** | Same shelf; **mandatory CIV-STATE retrieve pre-pass** when civilizational shelf is load-bearing — parallel to **`civ-state-essay`** |
 | **state-synthesis** | Operator daily surface for a full archive day |
 | **statecraft-multi-lens** | Live comparison across named lenses; may **hand off** here when method-bearing |
 | **statecraft-intelligence-essay** | Synthetic essay-class object, not a bounded note |

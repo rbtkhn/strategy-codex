@@ -5,6 +5,7 @@
 - Multi-lens handoff source: [.cursor/skills/statecraft-multi-lens/SKILL.md](/C:/dev/strategy-codex/.cursor/skills/statecraft-multi-lens/SKILL.md) — bounded `statecraft/notes/` when comparison is method-bearing
 - Daily parent (when promoting from a full day): [state-synthesis](/C:/dev/strategy-codex/.cursor/skills/state-synthesis/SKILL.md)
 - **civ-state return:** when note exposes civilizational retrieval gap → [civ-state skill](../civ-state/SKILL.md) **D. Review** with named `public/civ-state/` edit target (operator appendix only — do not embed in note prose unless claim is explicitly civilizational)
+- **CIV-STATE note (retrieve required):** [civ-state-note](../civ-state-note/SKILL.md) — same shelf; mandatory retrieve pre-pass when civilizational framing is load-bearing
 - Singularity sibling: [singularity-note-promotion](/C:/dev/strategy-codex/.cursor/skills/singularity-note-promotion/SKILL.md)
 
 **Examples (shelf-native)**

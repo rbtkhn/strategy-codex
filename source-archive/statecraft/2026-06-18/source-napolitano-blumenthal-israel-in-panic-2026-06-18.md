@@ -35,6 +35,17 @@ transcript_wrapper_tier: paste-prefix
 napolitano_cold_open_trim_applied: true
 napolitano_close_promo_trim_applied: true
 napolitano_leading_noise_trim_applied: true
+verify_receipt: 2026-06-20
+verify:
+  - claim: Vance rebukes Israeli cabinet critics; Zionist logic vs reality register (MOU-day)
+    verdict: supported
+    note: Wire-primary J19-16 · ingest tier-4 framing on "Zionist logic" · cross-ref [J19-16 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md)
+  - claim: FDD / hawk stack rejects MOU — "financial reprieve" (Israel lobby seam in ingest)
+    verdict: partial
+    note: Al Jazeera 18 Jun NY Post/FDD carry · cross-ref [J19-19 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md) · Levin named in body vs Trump not wire-scored here
+  - claim: Mark Levin / Republican proxy lane pushes back on MOU (ingest characterization)
+    verdict: partial
+    note: Tier-4 ingest mesh only · not J19-17 direct Levin→Vance row · cross-ref Johnson sEoIzK51T3U for J19-17 archive anchor
 ---
 
 # Max Blumenthal : Israel In Panic

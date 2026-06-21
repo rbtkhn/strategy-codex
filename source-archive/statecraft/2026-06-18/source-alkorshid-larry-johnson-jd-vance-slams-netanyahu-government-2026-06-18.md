@@ -32,11 +32,17 @@ caption_wrapper_normalize_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
 editorial_note: "AI-assisted ASR repair (common + series tiers + statecraft entity pass); 10 substitutions; not human-verified verbatim; verify before quotation."
 quality_note: "ASR normalization pass 2026-06-18; ph-civ replacement SSOT."
-verify_receipt: 2026-06-19
+verify_receipt: 2026-06-20
 verify:
-  - claim: Vance twothirds defensive weapons / smell the reality (MOU-day hinge)
+  - claim: Vance rebukes Smotrich/Ben-Gvir; twothirds defensive weapons / smell the reality (MOU-day hinge)
     verdict: supported
-    note: The Hill 18 Jun; Ynet 18 Jun reads twothirds as implied weapons leverage not formal pause
+    note: JTA · Haaretz · JPost · Al Jazeera 18 Jun · cross-ref [J19-16 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md)
+  - claim: Mark Levin attacks Vance directly after WH presser (MOU / Israel framing)
+    verdict: supported
+    note: Newsmax · Mediaite 18 Jun · cross-ref [J19-17 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md) · ingest mesh Levin/Shapiro backlash lane
+  - claim: Rep. Randy Fine — Vance comments "inappropriate and frankly disgusting" (reaction to 18 Jun briefing)
+    verdict: supported
+    note: Newsmax · Israel Hayom · Mediaite 19 Jun · cross-ref [J19-18 matrix](../../../statecraft/daily/2026-06-19-wire-verify-matrix.md) · [Vance routing note](../../../statecraft/notes/june-2026-vance-lightning-rod-rubio-optionality-note.md)
   - claim: Material US weapons pause or embargo on Israel (convergence falsifier #4)
     verdict: contradicted
     note: No DoD/State hold; Breaking Defense Jun $8.6B emergency FMS includes Israel; Trump dismisses embargo (Yeshiva World/CNN 18–19 Jun); Maariv Israeli-official fear ≠ enacted policy

@@ -175,7 +175,7 @@ Offer **one line** only when the branch actually shipped structural change:
 | After | Offer |
 |-------|-------|
 | Book encode / review-queue fix / wire-bridge law landed | *Machine law implicit — say `recursive learn` for session review.* |
-| One bounded mechanism seam ready for notes shelf | *One mechanism seam ready — say `state-note` to promote with archive anchors.* |
+| One bounded mechanism seam ready for notes shelf | *One mechanism seam ready — say `civ-state-note` when CIV-STATE retrieve is load-bearing, else `state-note`.* |
 
 Do not offer publish unless operator said **ship**, **publish**, or **VERSION**.
 
@@ -184,7 +184,9 @@ Do not offer publish unless operator said **ship**, **publish**, or **VERSION**.
 | Operation | Relationship |
 |-----------|--------------|
 | **state-synthesis** | Upstream archive batch; hand off **to** civ-state when civilizational layer unsettled; civ-state hands **back** when archive thin |
-| **state-note** | Downstream when one mechanism seam ready; note may return when public retrieval gap |
+| **state-note** | Downstream when one mechanism seam ready; no mandatory CIV-STATE pre-pass |
+| **civ-state-note** | Downstream when seam needs **retrieve posture + public anchors** on `statecraft/notes/` |
+| **civ-state-essay** | When note graduates to reader-facing `public/civ-state/` prose |
 | **recursive-learn** | Post-encode machine law; close offer only — not mid-menu |
 | **statecraft-framework** | Secondary frame supplement when public theory insufficient |
 
