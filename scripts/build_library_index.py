@@ -21,7 +21,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from repo_io import ARTIFACTS_DIR
 
-from operator_dashboard_common import REPO_ROOT, load_self_library_entries  # noqa: E402
+from operator_dashboard_common import REPO_ROOT, load_self_library_entries, resolve_self_library_path  # noqa: E402
 
 # Dashboard layout (plain Markdown; no schema changes)
 COMPACT_LANE_PREVIEW = 10
@@ -51,7 +51,8 @@ def _git_last_commit_iso_for_file(repo_root: Path, rel_path: str) -> str | None:
 
 def _generated_at_stamp(repo_root: Path, user_id: str) -> str:
     """Stable for a given git commit: last commit time on self-library.md, else UTC now."""
-    rel = f"{user_id}/self-library.md"
+    lib_path = resolve_self_library_path(repo_root, user_id)
+    rel = lib_path.relative_to(repo_root).as_posix() if lib_path else f"{user_id}/self-library.md"
     iso = _git_last_commit_iso_for_file(repo_root, rel)
     if iso:
         try:
@@ -136,11 +137,17 @@ def render_markdown(
     repo_root: Path,
     generated_at: str,
 ) -> str:
+    lib_path = resolve_self_library_path(repo_root, user_id)
+    lib_link = (
+        lib_path.relative_to(repo_root).as_posix()
+        if lib_path
+        else f"{user_id}/self-library.md"
+    )
     lines: list[str] = [
         "<!-- GENERATED — run: python3 scripts/build_library_index.py -->\n\n",
         "# Library index — operator dashboard (SELF-LIBRARY)\n\n",
         "**Derived artifact — not canonical.** Regenerate after editing "
-        f"[{user_id}/self-library.md]({user_id}/self-library.md). "
+        f"[{lib_link}]({lib_link}). "
         "Canonical library truth stays in that file and in [docs/library-schema.md](../docs/library-schema.md).\n\n",
     ]
 

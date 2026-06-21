@@ -23,9 +23,24 @@ def extract_yaml_scalar(blob: str, key: str) -> str | None:
     return val or None
 
 
+def resolve_self_library_path(repo_root: Path, user_id: str) -> Path | None:
+    """Resolve SELF-LIBRARY entries source for dashboard generation."""
+    from repo_io import profile_dir
+
+    candidates = (
+        repo_root / "platform" / "users" / user_id / "self-library.md",
+        profile_dir(user_id) / "self-library.md",
+        repo_root / "self-library.md",
+    )
+    for path in candidates:
+        if path.is_file():
+            return path
+    return None
+
+
 def load_self_library_entries(repo_root: Path, user_id: str) -> list[dict[str, Any]]:
-    path = repo_root / "platform/users" / user_id / "self-library.md"
-    if not path.is_file():
+    path = resolve_self_library_path(repo_root, user_id)
+    if path is None:
         return []
     text = path.read_text(encoding="utf-8")
     idx = text.find("## Entries")
