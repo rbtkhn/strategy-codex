@@ -25,7 +25,8 @@ Use these when the question is about how the shelf works, not only which note to
 
 The compact distinction is:
 
-- daily note = one archive day judged into an object
+- daily register = one archive day oriented (source base, links, checklist) before or without full executive pass
+- daily synthesis = one archive day judged into an object (Mar 16 density)
 - week hinge = month-aligned week re-entry (`YYYY-MM-weekN-start-here.md`; not weekly synthesis)
 - monthly note = one archive month compressed into governing objects
 - statecraft note = one bounded follow-on comparison or mechanism note opened by a parent daily or month synthesis (legacy: *statecraft note*)
@@ -42,47 +43,59 @@ Boundary reminder:
 
 January archive batch begins **2026-01-20** (Greenland / Davos week). Monthly compression **not yet opened**.
 
-- [2026-01-20](2026-01-20.md) — **stub** — Davos high noon; Greenland × NATO; Iran tag-team; Dmitriev lane (5 captures)
+- [2026-01-20](2026-01-20.md) — **register** — Davos high noon; Greenland × NATO; Iran tag-team; Dmitriev lane (5 captures)
   - [Greenland three-way weave](../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md)
   - [Davos Dmitriev — Helmer × Mercouris](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
 
 ### 2026-02 — pre-war + Geneva week hinge (partial)
 
-February archive: pre-war **2026-02-03** (Helmer power formula) + **2026-02-17** (Geneva + Iran bench). Monthly compression **not yet opened**.
+February archive: [source-archive/statecraft/2026-02.md](../source-archive/statecraft/2026-02.md) — 28 days, 98 source files. Monthly compression (**partial** — two hinge days):
 
-- [2026-02-03](2026-02-03.md) — **stub** — pre-war **money/votes/bullets**; Witkoff/Cooper/Miami trust lane (3 captures)
+- [2026-02 Monthly Synthesis](2026-02.md)
+- [2026-02-03](2026-02-03.md) — **synthesis** — pre-war **money/votes/bullets**; Witkoff/Cooper/Miami trust lane (3 captures)
   - [Helmer × Marandi — Turkey / Kurd / regional wedge](../notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md)
   - [Helmer Feb 3 → Mar 24 arc — power → five terms](../notes/2026-02-helmer-feb3-mar24-power-terms-arc.md)
   - [Dmitriev arc Feb 3 §](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md#feb-3-arc-pre-war-witkoff-discredited--miami-bagman--cooper-demand)
   - [Wire verify matrix](./2026-02-03-wire-verify-matrix.md)
-- [2026-02-17](2026-02-17.md) — **stub** — Geneva bifurcation; Kartapolov annexation float; Hormuz parallel (5 captures)
+- [2026-02-17](2026-02-17.md) — **synthesis** — Geneva bifurcation; Kartapolov annexation float; Hormuz parallel (5 captures)
   - [Geneva day weave — Helmer × Mercouris](../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md)
   - [Iran bench weave — Marandi × Mearsheimer × Helmer](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md)
   - [Freeman × Mearsheimer — Kabuki vs empire](../notes/2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md)
   - [Dmitriev arc Jan 20 → Feb 17](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
   - [Wire verify matrix](./2026-02-17-wire-verify-matrix.md)
+- [2026-02-28](2026-02-28.md) — **synthesis** — kinetic opening; Pape trap pair; Crooke diplomacy end (7 captures)
+  - **Forward:** [Mar 1 trap synthesis](./2026-03-01.md) · [Mar 3 opening synthesis](./2026-03-03.md)
+  - **Return:** [Feb 17 bench](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · [Feb 3 synthesis](./2026-02-03.md)
 
 ### 2026-03 - monthly synthesis + hinge day ladder
 
 March archive: [source-archive/statecraft/2026-03.md](../source-archive/statecraft/2026-03.md) — 31 days, 200 source files. Monthly compression:
 
 - [2026-03 Monthly Synthesis](2026-03.md)
-- [2026-03-03](2026-03-03.md) — **war opening day 4** — attrition; Hormuz/LNG shock; Anchorage dead (13 captures)
+- [2026-03-01](2026-03-01.md) — **synthesis** — war day 2; Smart Bomb Trap confirmed; miscalculation bench (8 captures)
+  - **Return:** [Feb 28 kinetic synthesis](./2026-02-28.md)
+  - **Forward:** [Mar 3 opening synthesis](./2026-03-03.md) · [Mar 16 Pape × Crooke trap](./2026-03-16-pape-vs-crooke-mosaic-trap.md)
+- [2026-03-03](2026-03-03.md) — **synthesis** — **war opening day 4** — attrition; Hormuz/LNG shock; Anchorage dead (13 captures)
   - [Helmer × Marandi — Iran war weave](../notes/2026-03-03-iran-war-weave-helmer-marandi.md)
   - [Mercouris × Wilkerson — attrition / downed warplanes](../notes/2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md)
   - [Davis bench — Macgregor × Henningsen × Hormuz solo](../notes/2026-03-03-davis-macgregor-henningsen-iran-war-bench-weave.md)
   - [Crooke × Pape × Simplicius — air-power bench](../notes/2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md)
   - [Dmitriev arc Jan 20 → Mar 24](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
   - [Wire verify matrix](./2026-03-03-wire-verify-matrix.md)
-- [2026-03-24](2026-03-24.md) — **war week ~4** — talk fiction vs kinetic escalation; five terms; Stage 3 ground indicators (5 captures)
+- [2026-03-16](2026-03-16.md) — **synthesis** — densest archive day (19 captures)
+  - [2026-03-16 - Pape Escalation Trap Vs Crooke Mosaic](2026-03-16-pape-vs-crooke-mosaic-trap.md)
+  - [2026-03-16 - Ritter Implementation × Trap × Mosaic](2026-03-16-ritter-implementation-trap-mosaic.md)
+- [2026-03-17](2026-03-17.md) — **synthesis** — week ~3 hinge: escort collapse, Mar 31 clock, Larijani (9 captures)
+  - [Mar 17 bench weave](../notes/2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano.md)
+  - [Davis × Henningsen wedge](../notes/2026-03-17-davis-henningsen-global-reset-wedge.md)
+  - [Helmer Mar 17→Mar 24 clock arc](../notes/2026-03-helmer-mar17-mar24-two-week-clock-arc.md)
+  - [Wire verify matrix](./2026-03-17-wire-verify-matrix.md)
+- [2026-03-24](2026-03-24.md) — **synthesis** — war week ~4: talk fiction vs kinetic escalation; five terms; Stage 3 ground (5 captures)
   - [Helmer × Marandi — five terms / energy / Hormuz weave](../notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md)
   - [Mercouris × Helmer × Marandi — Dimona / ground wedge](../notes/2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md)
   - [Helmer Mar 3 → Mar 24 arc — Russia/China two-track](../notes/2026-03-helmer-mar3-mar24-russia-china-two-track-arc.md)
   - [Wire verify matrix](./2026-03-24-wire-verify-matrix.md)
   - [Pape × Mercouris — deployments / gambler's conceit wedge](../notes/2026-03-24-pape-deployments-gamblers-conceit-mercouris-wedge.md)
-- [2026-03-16](2026-03-16.md) — densest archive day (19 captures)
-  - [2026-03-16 - Pape Escalation Trap Vs Crooke Mosaic](2026-03-16-pape-vs-crooke-mosaic-trap.md)
-  - [2026-03-16 - Ritter Implementation × Trap × Mosaic](2026-03-16-ritter-implementation-trap-mosaic.md)
 - [2026-03-19](2026-03-19.md) — Crooke wheels-off essay + South Pars energy pivot (4 captures)
   - [Dollar-Hormuz Terms × Trap–Mosaic Lattice](2026-03-19-dollar-hormuz-terms-trap-mosaic-lattice.md) (arc statecraft note: 16 → 19 → 23)
 - [2026-03-23](2026-03-23.md) — Freeman walk-back + Postol air-defense collapse (7 captures)

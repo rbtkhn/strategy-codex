@@ -3,7 +3,7 @@ WORK only; not Record.
 # Feb 17 2026 — Iran bench weave (Marandi × Mearsheimer × Helmer coda)
 
 **Pub date:** 2026-02-17  
-**Parent:** [2026-02-17 daily synthesis](../daily/2026-02-17.md) · [Feb 3 pre-war stub](../daily/2026-02-03.md) · [Geneva day weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) · [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md)
+**Parent:** [2026-02-17 daily synthesis](../daily/2026-02-17.md) · [Feb 3 pre-war synthesis](../daily/2026-02-03.md) · [Geneva day weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) · [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md)
 
 **Sources:**
 
@@ -86,7 +86,7 @@ Same-day **Iran / Hormuz** bench — **not** Geneva Ukraine table. Route by regi
 
 ## Cross-day return
 
-- [Feb 3 pre-war — Helmer power formula / Witkoff poisoned](../notes/2026-02-helmer-feb3-mar24-power-terms-arc.md) · [regional wedge](../notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md) · [daily stub](../daily/2026-02-03.md) · [JF03 wire matrix](../daily/2026-02-03-wire-verify-matrix.md) — **no-attack bet** → Feb 17 **Hormuz maneuver** → Mar 3 **war**
+- [Feb 3 pre-war — Helmer power formula / Witkoff poisoned](../notes/2026-02-helmer-feb3-mar24-power-terms-arc.md) · [regional wedge](../notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md) · [daily synthesis](../daily/2026-02-03.md) · [JF03 wire matrix](../daily/2026-02-03-wire-verify-matrix.md) — **no-attack bet** → Feb 17 **Hormuz maneuver** → Mar 3 **war**
 - [Jan 20 Greenland weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) — Helmer **Iran regime-change phase** (Nima in Tehran)
 - [Jan 20 Mearsheimer tag-team](../../source-archive/statecraft/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md) — external **regime-change mechanism** vs Marandi **internal legitimacy** gatherings
 - [Mar 3 2026 — Helmer × Marandi Iran war weave](./2026-03-03-iran-war-weave-helmer-marandi.md) — post-Khamenei opening (war replaces Hormuz maneuver)
