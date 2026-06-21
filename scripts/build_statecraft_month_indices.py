@@ -268,18 +268,18 @@ def build_month_readme(root: Path, month: str, day_dirs: list[Path]) -> str:
         "",
         "## Days",
         "",
-        "| Day | Files | Top channels/shows | Top threads | README |",
+        "| Day | Files | Top channels/shows | Top threads | Day index |",
         "| --- | ---: | --- | --- | --- |",
     ]
 
     for day_dir, summary in zip(day_dirs, day_summaries, strict=True):
         day_name = day_dir.name
-        readme_rel = f"./{day_name}/README.md"
+        index_rel = f"./{day_name}/day-index.md"
         lines.append(
             f"| `{day_name}` | {summary.source_count} | "
             f"{top_counter_text(summary.channel_counter)} | "
             f"{top_counter_text(summary.thread_counter)} | "
-            f"[open]({readme_rel}) |"
+            f"[open]({index_rel}) |"
         )
 
     lines.extend(

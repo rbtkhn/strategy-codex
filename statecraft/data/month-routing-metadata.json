@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T03:22:51+00:00",
+  "generated_at": "2026-06-21T13:01:33+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -490,11 +490,11 @@
     },
     "2026-01": {
       "captured_days": 31,
-      "source_count": 106,
+      "source_count": 107,
       "thread_count": 22,
       "channel_or_show_count": 14,
       "host_count": 9,
-      "guest_count": 18,
+      "guest_count": 19,
       "guest_label_variants": [
         {
           "signature": "johnson",
@@ -521,11 +521,11 @@
     },
     "2026-02": {
       "captured_days": 28,
-      "source_count": 96,
+      "source_count": 97,
       "thread_count": 25,
       "channel_or_show_count": 14,
       "host_count": 10,
-      "guest_count": 23,
+      "guest_count": 24,
       "guest_label_variants": [
         {
           "signature": "johnson",
@@ -552,11 +552,11 @@
     },
     "2026-03": {
       "captured_days": 31,
-      "source_count": 200,
+      "source_count": 202,
       "thread_count": 30,
       "channel_or_show_count": 17,
       "host_count": 10,
-      "guest_count": 43,
+      "guest_count": 44,
       "guest_label_variants": [
         {
           "signature": "crooke",
@@ -669,7 +669,7 @@
       "source_count": 201,
       "thread_count": 32,
       "channel_or_show_count": 26,
-      "host_count": 24,
+      "host_count": 23,
       "guest_count": 40,
       "guest_label_variants": [
         {
@@ -844,10 +844,10 @@
     },
     "2026-06": {
       "captured_days": 20,
-      "source_count": 226,
-      "thread_count": 43,
-      "channel_or_show_count": 22,
-      "host_count": 22,
+      "source_count": 251,
+      "thread_count": 44,
+      "channel_or_show_count": 23,
+      "host_count": 23,
       "guest_count": 36,
       "guest_label_variants": [
         {

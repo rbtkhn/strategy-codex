@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Print the canonical statecraft archive day source-index (ingest register).
+"""Print the canonical statecraft archive day-index for one calendar day.
 
 One bounded path — no repo scan:
-  source-archive/statecraft/YYYY-MM-DD/README.md
+  source-archive/statecraft/YYYY-MM-DD/day-index.md
 
 Optional intake queue report for the same day (read-only).
 
@@ -25,12 +25,19 @@ _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from statecraft_day_archive import DEFAULT_ROOT  # noqa: E402
+from statecraft_day_archive import DAY_INDEX_FILENAME, DEFAULT_ROOT  # noqa: E402
 
 DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
+def day_index_file_path(day: str, root: Path = DEFAULT_ROOT) -> Path:
+    if not DAY_RE.match(day):
+        raise ValueError(f"invalid day (expected YYYY-MM-DD): {day}")
+    return root / day / DAY_INDEX_FILENAME
+
+
 def day_readme_path(day: str, root: Path = DEFAULT_ROOT) -> Path:
+    """Legacy README stub path (pointer only after day-index migration)."""
     if not DAY_RE.match(day):
         raise ValueError(f"invalid day (expected YYYY-MM-DD): {day}")
     return root / day / "README.md"
@@ -47,11 +54,11 @@ def resolve_day(args: argparse.Namespace) -> str:
     return latest
 
 
-def load_day_index(day: str, *, root: Path = DEFAULT_ROOT) -> tuple[Path, str]:
-    path = day_readme_path(day, root)
+def load_day_index(day: str, *, root: Path = DEFAULT_ROOT, use_readme: bool = False) -> tuple[Path, str]:
+    path = day_readme_path(day, root) if use_readme else day_index_file_path(day, root)
     if not path.is_file():
         raise FileNotFoundError(
-            f"day source-index not found: {path.relative_to(REPO_ROOT).as_posix()} "
+            f"day index not found: {path.relative_to(REPO_ROOT).as_posix()} "
             f"(rebuild: python scripts/build_statecraft_day_indices.py --day {day})"
         )
     return path, path.read_text(encoding="utf-8")
@@ -63,7 +70,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--latest", action="store_true", help="Use latest captured archive day.")
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft archive root.")
     parser.add_argument("--queue", action="store_true", help="Append intake queue report.")
-    parser.add_argument("--json", action="store_true", help="Emit JSON (readme path + body; optional queue).")
+    parser.add_argument("--json", action="store_true", help="Emit JSON (index path + body; optional queue).")
+    parser.add_argument(
+        "--readme",
+        action="store_true",
+        help="Read legacy README stub instead of day-index.md.",
+    )
     parser.add_argument(
         "--allow-desync",
         action="store_true",
@@ -83,7 +95,7 @@ def main() -> int:
 
     try:
         day = resolve_day(args)
-        readme_path, readme_text = load_day_index(day, root=args.root)
+        index_path, index_text = load_day_index(day, root=args.root, use_readme=args.readme)
     except (ValueError, FileNotFoundError) as exc:
         print(str(exc), file=sys.stderr)
         return 1
@@ -92,11 +104,12 @@ def main() -> int:
     queue_payload: dict | None = None
     if args.queue:
         try:
+            from dataclasses import asdict
+
             from statecraft_intake_queue import (  # noqa: PLC0415
                 build_queue_report,
                 format_human,
             )
-            from dataclasses import asdict
 
             rows, sync = build_queue_report(day, root=args.root, allow_desync=args.allow_desync)
             queue_human = format_human(day, rows, sync)
@@ -108,22 +121,24 @@ def main() -> int:
         except (FileNotFoundError, RuntimeError) as exc:
             print(f"queue report skipped: {exc}", file=sys.stderr)
 
-    rel = readme_path.relative_to(REPO_ROOT).as_posix()
+    rel = index_path.relative_to(REPO_ROOT).as_posix()
     if args.json:
         payload = {
             "day": day,
+            "index_path": rel,
+            "index_markdown": index_text,
             "readme_path": rel,
-            "readme_markdown": readme_text,
+            "readme_markdown": index_text,
         }
         if queue_payload:
             payload["queue"] = queue_payload
         print(json.dumps(payload, indent=2))
         return 0
 
-    print(f"statecraft day source-index — {day}")
+    print(f"statecraft day-index — {day}")
     print(f"path: {rel}")
     print("")
-    print(readme_text.rstrip())
+    print(index_text.rstrip())
     if queue_human:
         print("")
         print(queue_human.rstrip())

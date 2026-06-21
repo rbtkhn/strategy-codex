@@ -8,7 +8,7 @@ from collections import Counter
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 import build_speaker_routing_queue as speaker_routing
 
@@ -40,6 +40,7 @@ PERSON_LABEL_ALIASES = {
 
 CANONICAL_SOURCE_PREFIX = "source-"
 HELPER_NOTE_PREFIXES = ("verify-",)
+DAY_INDEX_FILENAME = "day-index.md"
 
 
 @dataclass(frozen=True)
@@ -58,6 +59,17 @@ class ArchiveFile:
     has_frontmatter: bool
     source_url: str
     youtube_id: str
+
+
+@dataclass(frozen=True)
+class DayCaptureRoster:
+    path: Path
+    record: ArchiveFile
+    meta: dict[str, Any]
+    bucket: Literal["channel", "writer", "other"]
+    channel_slug: str = ""
+    writer_slug: str = ""
+    feed_host: str = ""
 
 
 @dataclass(frozen=True)
@@ -498,18 +510,83 @@ def _source_index_thread_label(record: ArchiveFile) -> str:
     return ", ".join(f"`{value}`" for value in record.thread_values)
 
 
-def _source_index_youtube_cell(record: ArchiveFile) -> str:
+def _source_link_cell(record: ArchiveFile) -> str:
     if record.source_url:
         label = record.youtube_id or "watch"
         return f"[{label}]({record.source_url})"
     return "—"
 
 
-def build_day_readme(day_dir: Path) -> str:
-    summary = summarize_day_dir(day_dir)
-    records = [collect_archive_file(path) for path in iter_source_files(day_dir)]
-    stats = [
+def _resolve_channel_index_slug(meta: dict[str, Any], filename: str) -> str:
+    from build_statecraft_archive_navigation import _channel_registry_key
+    from statecraft_youtube_discovery import canonical_channel_index_slug, load_index_slug_canonical
+
+    slug, _, _ = _channel_registry_key(meta, filename)
+    return canonical_channel_index_slug(slug, load_index_slug_canonical())
+
+
+def classify_day_captures(day_dir: Path) -> list[DayCaptureRoster]:
+    from statecraft_writer_index import (
+        load_writer_roster,
+        load_writer_slug_aliases,
+        match_configured_writer_slug,
+    )
+
+    roster = load_writer_roster()
+    aliases = load_writer_slug_aliases()
+    classified: list[DayCaptureRoster] = []
+    for path in iter_source_files(day_dir):
+        meta = parse_frontmatter(path)
+        record = collect_archive_file(path)
+        if is_youtube_capture(meta):
+            classified.append(
+                DayCaptureRoster(
+                    path=path,
+                    record=record,
+                    meta=meta,
+                    bucket="channel",
+                    channel_slug=_resolve_channel_index_slug(meta, path.name),
+                )
+            )
+            continue
+        writer_slug = match_configured_writer_slug(meta, path.name, roster=roster, aliases=aliases)
+        if writer_slug:
+            feed_host = ""
+            for row in roster:
+                if str(row.get("writer_slug") or "") == writer_slug:
+                    feed_host = str(row.get("feed_host") or "")
+                    break
+            classified.append(
+                DayCaptureRoster(
+                    path=path,
+                    record=record,
+                    meta=meta,
+                    bucket="writer",
+                    writer_slug=writer_slug,
+                    feed_host=feed_host,
+                )
+            )
+            continue
+        classified.append(
+            DayCaptureRoster(
+                path=path,
+                record=record,
+                meta=meta,
+                bucket="other",
+            )
+        )
+    return classified
+
+
+def _day_index_stats_lines(summary: DaySummary, classified: list[DayCaptureRoster]) -> list[str]:
+    channel_count = sum(1 for item in classified if item.bucket == "channel")
+    writer_count = sum(1 for item in classified if item.bucket == "writer")
+    other_count = sum(1 for item in classified if item.bucket == "other")
+    return [
         f"- Source files: `{summary.source_count}`",
+        f"- Channel sources: `{channel_count}`",
+        f"- Writer sources: `{writer_count}`",
+        f"- Other sources: `{other_count}`",
         f"- Helper notes (excluded from source count): `{summary.helper_count}`",
         f"- Body kind mix: {fmt_counter(summary.kind_counter)}",
         f"- Source form mix: {fmt_counter(summary.source_form_counter)}",
@@ -519,14 +596,22 @@ def build_day_readme(day_dir: Path) -> str:
         f"- Distinct threads: `{len(summary.thread_counter)}`",
     ]
 
+
+def build_day_index(day_dir: Path) -> str:
+    summary = summarize_day_dir(day_dir)
+    classified = classify_day_captures(day_dir)
+    channel_rows = [item for item in classified if item.bucket == "channel"]
+    writer_rows = [item for item in classified if item.bucket == "writer"]
+    other_rows = [item for item in classified if item.bucket == "other"]
+
     lines = [
-        f"# Statecraft Archive - {day_dir.name}",
+        f"# Statecraft Archive - Day Index - {day_dir.name}",
         "",
         "_Generated inventory note. Rebuild with `python scripts/build_statecraft_day_indices.py`._",
         "",
         "## Stats",
         "",
-        *stats,
+        *_day_index_stats_lines(summary, classified),
         "",
         "## Channel / Show Rollup",
         "",
@@ -538,33 +623,97 @@ def build_day_readme(day_dir: Path) -> str:
         f"- Guests: {fmt_counter(summary.guest_counter)}",
         f"- Threads: {fmt_counter(summary.thread_counter)}",
         "",
-        "## Ingest register",
+        "## Channel sources",
         "",
-        "_One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not the speaker source bench (`*-source-index.md`); exhaustive lands for this day only._",
+        "_YouTube / check-sources roster captures for this day (`is_youtube_capture`)._",
         "",
-        "| Guest / voice | Show | Thread | YouTube |",
-        "| --- | --- | --- | --- |",
+        "| Channel slug | Show | Thread | Source link | File |",
+        "| --- | --- | --- | --- | --- |",
     ]
-    for record in records:
-        lines.append(
-            "| "
-            + " | ".join(
-                [
-                    _source_index_voice_label(record).replace("|", "\\|"),
-                    (record.show or "—").replace("|", "\\|"),
-                    _source_index_thread_label(record),
-                    _source_index_youtube_cell(record),
-                ]
+    if channel_rows:
+        for item in channel_rows:
+            record = item.record
+            lines.append(
+                "| "
+                + " | ".join(
+                    [
+                        f"`{item.channel_slug}`",
+                        (record.show or "—").replace("|", "\\|"),
+                        _source_index_thread_label(record),
+                        _source_link_cell(record),
+                        f"`{record.name}`",
+                    ]
+                )
+                + " |"
             )
-            + " |"
-        )
+    else:
+        lines.append("| _none_ | — | — | — | — |")
+
     lines.extend(
         [
-        "",
-        "## Files",
-        "",
+            "",
+            "## Writer sources",
+            "",
+            "_Configured prose / check-written roster captures for this day._",
+            "",
+            "| Writer slug | Thread | Feed host | Source link | File |",
+            "| --- | --- | --- | --- | --- |",
         ]
     )
+    if writer_rows:
+        for item in writer_rows:
+            record = item.record
+            thread = _source_index_thread_label(record)
+            feed = f"`{item.feed_host}`" if item.feed_host else "—"
+            lines.append(
+                "| "
+                + " | ".join(
+                    [
+                        f"`{item.writer_slug}`",
+                        thread,
+                        feed,
+                        _source_link_cell(record),
+                        f"`{record.name}`",
+                    ]
+                )
+                + " |"
+            )
+    else:
+        lines.append("| _none_ | — | — | — | — |")
+
+    lines.extend(
+        [
+            "",
+            "## Other sources",
+            "",
+            "_Prose or archive lands outside channel-index and writer-index rosters._",
+            "",
+            "| Voice / show | Thread | Source link | File |",
+            "| --- | --- | --- | --- |",
+        ]
+    )
+    if other_rows:
+        for item in other_rows:
+            record = item.record
+            voice = _source_index_voice_label(record).replace("|", "\\|")
+            show = (record.show or "—").replace("|", "\\|")
+            label = voice if voice != record.name else show
+            lines.append(
+                "| "
+                + " | ".join(
+                    [
+                        label,
+                        _source_index_thread_label(record),
+                        _source_link_cell(record),
+                        f"`{record.name}`",
+                    ]
+                )
+                + " |"
+            )
+    else:
+        lines.append("| _none_ | — | — | — |")
+
+    lines.extend(["", "## Files", ""])
     lines.extend(f"- `{name}`" for name in summary.file_names)
     if summary.helper_file_names:
         lines.extend(
@@ -579,6 +728,28 @@ def build_day_readme(day_dir: Path) -> str:
         lines.extend(f"- `{name}`" for name in summary.helper_file_names)
     lines.append("")
     return "\n".join(lines)
+
+
+def build_day_readme_stub(day_dir: Path) -> str:
+    day = day_dir.name
+    return "\n".join(
+        [
+            f"# Statecraft Archive - {day}",
+            "",
+            f"_Day inventory moved to [day-index.md](./day-index.md). "
+            f"Rebuild: `python scripts/build_statecraft_day_indices.py --day {day}`._",
+            "",
+        ]
+    )
+
+
+def build_day_readme(day_dir: Path) -> str:
+    """Deprecated alias — prefer :func:`build_day_index`."""
+    return build_day_index(day_dir)
+
+
+def day_index_path(day_dir: Path) -> Path:
+    return day_dir / DAY_INDEX_FILENAME
 
 
 def iter_day_dirs(root: Path, year: str) -> list[Path]:
@@ -613,13 +784,12 @@ def _extract_section_block(text: str, heading: str) -> str | None:
     return match.group(1).strip()
 
 
-def parse_day_readme(day_dir: Path) -> DaySummary | None:
-    readme_path = day_dir / "README.md"
-    if not readme_path.is_file():
-        return None
-    text = readme_path.read_text(encoding="utf-8", errors="replace")
-
-    title_match = re.search(r"^# Statecraft Archive - (\d{4}-\d{2}-\d{2})$", text, re.MULTILINE)
+def _parse_day_inventory_text(text: str) -> DaySummary | None:
+    title_match = re.search(
+        r"^# Statecraft Archive - (?:Day Index - )?(\d{4}-\d{2}-\d{2})$",
+        text,
+        re.MULTILINE,
+    )
     source_match = re.search(r"^- Source files: `(\d+)`$", text, re.MULTILINE)
     helper_match = re.search(r"^- Helper notes \(excluded from source count\): `(\d+)`$", text, re.MULTILINE)
     kind_match = re.search(r"^- Body kind mix: (.+)$", text, re.MULTILINE)
@@ -657,6 +827,18 @@ def parse_day_readme(day_dir: Path) -> DaySummary | None:
     )
 
 
+def parse_day_readme(day_dir: Path) -> DaySummary | None:
+    index_path = day_index_path(day_dir)
+    if index_path.is_file():
+        parsed = _parse_day_inventory_text(index_path.read_text(encoding="utf-8", errors="replace"))
+        if parsed is not None:
+            return parsed
+    readme_path = day_dir / "README.md"
+    if not readme_path.is_file():
+        return None
+    return _parse_day_inventory_text(readme_path.read_text(encoding="utf-8", errors="replace"))
+
+
 def load_day_summary(day_dir: Path) -> DaySummary:
     parsed = parse_day_readme(day_dir)
     if parsed is not None:
@@ -670,4 +852,4 @@ def load_day_summary(day_dir: Path) -> DaySummary:
         ):
             return summarize_day_dir(day_dir, has_readme=True, readme_parse_ok=True)
         return parsed
-    return summarize_day_dir(day_dir, has_readme=(day_dir / "README.md").is_file(), readme_parse_ok=False)
+    return summarize_day_dir(day_dir, has_readme=(day_index_path(day_dir).is_file() or (day_dir / "README.md").is_file()), readme_parse_ok=False)

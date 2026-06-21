@@ -190,12 +190,12 @@ routes:
     search_hints: [thread index, archive inventory]
 
   - id: statecraft-day-source-index
-    title: Statecraft archive day source-index (ingest register)
-    path_pattern: source-archive/statecraft/YYYY-MM-DD/README.md
+    title: Statecraft archive day-index (channel + writer partitions)
+    path_pattern: source-archive/statecraft/YYYY-MM-DD/day-index.md
     kind: generated_inventory
     authority: derived
-    tags: [statecraft, archive, day-index, ingest-register, source-index]
-    search_hints: [day source index, june 17 source index, 2026-06-17 source index, ingest register, archive day README]
+    tags: [statecraft, archive, day-index, channel-sources, writer-sources]
+    search_hints: [day index, day-index, june 17 day index, 2026-06-17 day index, archive day inventory]
     script: scripts/statecraft_day_source_index.py
 
   - id: barnes-source-index

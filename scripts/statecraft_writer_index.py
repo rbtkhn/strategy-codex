@@ -178,6 +178,21 @@ def _has_substack_signal(meta: dict[str, Any]) -> bool:
     return "substack.com" in url
 
 
+def match_configured_writer_slug(
+    meta: dict[str, Any],
+    filename: str,
+    *,
+    roster: list[dict[str, Any]] | None = None,
+    aliases: dict[str, str] | None = None,
+) -> str:
+    rows = roster if roster is not None else load_writer_roster()
+    mapping = aliases if aliases is not None else load_writer_slug_aliases()
+    for row in rows:
+        if capture_matches_writer(meta, filename, row, aliases=mapping):
+            return str(row.get("writer_slug") or "")
+    return ""
+
+
 def capture_matches_writer(
     meta: dict[str, Any],
     filename: str,

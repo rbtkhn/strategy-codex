@@ -19,7 +19,7 @@ Use this tree for source-bearing captures only. Route control, bridge, continuit
 
 **Intake queue (derived):** After land, run `python3 scripts/statecraft_intake_queue.py --day YYYY-MM-DD` to see which captures are not yet in daily synthesis. Sidecar metadata lives under `artifacts/statecraft-intake-queue/` — spec: [docs/statecraft-intake-queue.md](../../docs/statecraft-intake-queue.md).
 
-Dated day folders may also contain generated local `README.md` **day archive inventory** notes (including an **Ingest register** section — one row per land; not the synthesis-side speaker **source bench**). These are derived navigation aids, not source captures.
+Dated day folders may also contain generated **`day-index.md`** **day archive inventory** notes (channel / writer / other partitions) plus a short **`README.md`** stub pointing at the day-index. These are derived navigation aids, not source captures.
 Generated **month archive rollups** live at `source-archive/statecraft/YYYY-MM.md`. Drill down via each day's README ingest register. These are derived navigation aids, not source captures.
 Generated year indices now live at `source-archive/statecraft/YYYY.md`. **Thread rollup** and staleness navigation also live at the archive root as derived indices.
 
@@ -32,6 +32,7 @@ Useful indices:
 - Channel index: [channel-index.md](/C:/dev/strategy-codex/source-archive/statecraft/channel-index.md)
 - Miscellaneous channel index: [channel-index-misc.md](/C:/dev/strategy-codex/source-archive/statecraft/channel-index-misc.md)
 - Writer index (Substack roster v1): [writer-index.md](/C:/dev/strategy-codex/source-archive/statecraft/writer-index.md) · [writer-index-spec.md](/C:/dev/strategy-codex/source-archive/statecraft/writer-index-spec.md)
+- Day index spec: [day-index-spec.md](/C:/dev/strategy-codex/source-archive/statecraft/day-index-spec.md)
 - Stale audit: [stale-index-audit.md](/C:/dev/strategy-codex/source-archive/statecraft/stale-index-audit.md)
 - Jiang / Predictive History raw-capture master index: [jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md)
 - Public Predictive History lecture index inside the official Jiang mirror: [statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md)

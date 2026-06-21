@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import sys
 from pathlib import Path
 
@@ -9,6 +10,7 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 import build_statecraft_day_indices as idx  # noqa: E402
+import statecraft_day_source_index as day_source  # noqa: E402
 
 
 def _write(path: Path, text: str) -> None:
@@ -16,7 +18,7 @@ def _write(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8", newline="\n")
 
 
-def test_build_day_readme_uses_frontmatter_rollups_and_excludes_readme(tmp_path: Path) -> None:
+def test_build_day_index_uses_frontmatter_rollups_and_partitions_channel_sources(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-05-26"
     _write(
         day / "transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md",
@@ -52,56 +54,92 @@ def test_build_day_readme_uses_frontmatter_rollups_and_excludes_readme(tmp_path:
     )
     _write(day / "README.md", "# old\n")
 
-    text = idx.build_day_readme(day)
+    text = idx.build_day_index(day)
 
-    assert "# Statecraft Archive - 2026-05-26" in text
+    assert "# Statecraft Archive - Day Index - 2026-05-26" in text
     assert "- Source files: `2`" in text
+    assert "- Channel sources: `2`" in text
+    assert "- Writer sources: `0`" in text
     assert "`transcript` (1)" in text and "`youtube` (1)" in text
-    assert "`Judging Freedom` (1)" in text and "`Daniel Davis Deep Dive` (1)" in text
-    assert "Hosts:" in text and "`Andrew Napolitano` (1)" in text and "`Daniel Davis` (1)" in text
-    assert (
-        "Guests:" in text
-        and "`Daniel Davis` (1)" in text
-        and "`Matt Hoh` (1)" in text
-        and "`Seyed M. Marandi` (1)" in text
-    )
-    assert "Threads:" in text and "`davis` (1)" in text and "`hoh` (1)" in text
-    assert "## Ingest register" in text
-    assert "Not the speaker source bench" in text
-    assert "Matt Hoh" in text and "[abc123test](https://www.youtube.com/watch?v=abc123test)" in text
+    assert "## Channel sources" in text
+    assert "## Writer sources" in text
+    assert "## Other sources" in text
+    assert "Matt Hoh" not in text or "abc123test" in text
+    assert "[abc123test](https://www.youtube.com/watch?v=abc123test)" in text
     assert "- `README.md`" not in text
     assert "- `transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md`" in text
     assert "- `youtube-daniel-davis-deep-dive-us-must-stop-the-siege-of-iran-2026-05-26.md`" in text
 
 
-def test_build_day_readme_uses_family_fallback_for_metadata_thin_files(tmp_path: Path) -> None:
-    day = tmp_path / "source-archive" / "statecraft" / "2026-01-12"
+def test_build_day_index_partitions_writer_and_channel_without_overlap(
+    tmp_path: Path, monkeypatch
+) -> None:
+    import statecraft_writer_index as writer_index
+
+    day = tmp_path / "source-archive" / "statecraft" / "2026-06-18"
     _write(
-        day / "transcript-napolitano-johnson-is-the-cia-fueling-irans-chaos-2026-01-12.md",
+        day / "source-crooke-israel-picking-up-pieces-2026-06-18.md",
         (
             "---\n"
-            'title: "Larry Johnson: Is the CIA Fueling Iran\'s Chaos?"\n'
-            "host: Judge Andrew Napolitano\n"
-            "thread: johnson\n"
+            "kind: substack-post\n"
+            "source_form: newsletter\n"
+            "source_type: substack\n"
+            "thread: crooke\n"
+            'source_url: "https://conflictsforum.substack.com/p/israel-picking-up-the-pieces-of-its"\n'
             "---\n\n"
-            "Summary body.\n"
+            "Body.\n"
         ),
     )
     _write(
-        day / "youtube-alex-mercouris-russia-10-kms-from-zaporozhzhye-city-evacuations-begin-putin-returns-ira-2026-01-12.md",
-        "No frontmatter here.\n",
+        day / "source-alex-mercouris-sample-2026-06-18.md",
+        (
+            "---\n"
+            'title: "Mercouris sample"\n'
+            "source_type: youtube\n"
+            "youtube_id: abc123\n"
+            "thread: mercouris\n"
+            "---\n\n"
+            "Body.\n"
+        ),
     )
+    config = tmp_path / "writers.json"
+    config.write_text(
+        json.dumps(
+            {
+                "writer_slug_aliases": {},
+                "writers": [
+                    {
+                        "writer_slug": "crooke",
+                        "label": "Alastair Crooke",
+                        "thread": "crooke",
+                        "feed_url": "https://conflictsforum.substack.com/",
+                        "feed_host": "conflictsforum.substack.com",
+                        "check_written": True,
+                    },
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(writer_index, "WRITER_DISCOVERY_CONFIG_PATH", config)
 
-    text = idx.build_day_readme(day)
+    text = idx.build_day_index(day)
 
-    assert "## Filename Family Fallbacks" in text
-    assert "`transcript-napolitano-*` (1)" in text
-    assert "`youtube-alex-mercouris-*` (1)" in text
-    assert "Hosts: `Andrew Napolitano` (1)" in text
-    assert "Threads: `johnson` (1)" in text
+    assert "- Channel sources: `1`" in text
+    assert "- Writer sources: `1`" in text
+    assert "`crooke`" in text
+    assert "conflictsforum.substack.com" in text
+    assert "`mercouris`" in text or "abc123" in text
 
 
-def test_write_day_index_overwrites_existing_readme_deterministically(tmp_path: Path) -> None:
+def test_build_day_readme_stub_points_at_day_index(tmp_path: Path) -> None:
+    day = tmp_path / "source-archive" / "statecraft" / "2026-06-18"
+    day.mkdir(parents=True)
+    stub = idx.build_day_readme_stub(day)
+    assert "[day-index.md](./day-index.md)" in stub
+
+
+def test_write_day_index_writes_day_index_and_readme_stub(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-03-16"
     _write(
         day / "substack-pape-irans-new-battlefield-the-global-2026-03-16.md",
@@ -117,15 +155,22 @@ def test_write_day_index_overwrites_existing_readme_deterministically(tmp_path: 
     )
     _write(day / "README.md", "placeholder\n")
 
-    out_path = idx.write_day_index(day)
-    first = out_path.read_text(encoding="utf-8")
-    second_path = idx.write_day_index(day)
-    second = second_path.read_text(encoding="utf-8")
+    out_path, _changed = idx.write_day_index(day)
+    index_text = (day / "day-index.md").read_text(encoding="utf-8")
+    stub_text = (day / "README.md").read_text(encoding="utf-8")
 
-    assert out_path == day / "README.md"
-    assert first == second
-    assert "placeholder" not in first
-    assert "# Statecraft Archive - 2026-03-16" in first
+    assert out_path == day / "day-index.md"
+    assert "# Statecraft Archive - Day Index - 2026-03-16" in index_text
+    assert "placeholder" not in stub_text
+    assert "[day-index.md](./day-index.md)" in stub_text
+
+
+def test_statecraft_day_source_index_reads_day_index_file(tmp_path: Path) -> None:
+    day = tmp_path / "source-archive" / "statecraft" / "2026-06-17"
+    _write(day / "day-index.md", "# Statecraft Archive - Day Index - 2026-06-17\n")
+    path, text = day_source.load_day_index("2026-06-17", root=tmp_path / "source-archive" / "statecraft")
+    assert path.name == "day-index.md"
+    assert "Day Index" in text
 
 
 def test_iter_day_dirs_filters_to_requested_year(tmp_path: Path) -> None:
@@ -138,3 +183,15 @@ def test_iter_day_dirs_filters_to_requested_year(tmp_path: Path) -> None:
     got = idx._iter_day_dirs(root, "2026")
 
     assert [p.name for p in got] == ["2026-01-01", "2026-02-01"]
+
+
+def test_iter_day_dirs_for_scope_filters_month(tmp_path: Path) -> None:
+    root = tmp_path / "source-archive" / "statecraft"
+    (root / "2026-05-31").mkdir(parents=True)
+    (root / "2026-06-01").mkdir()
+    (root / "2026-06-02").mkdir()
+    (root / "2026-07-01").mkdir()
+
+    got = idx.iter_day_dirs_for_scope(root, year="2026", month="2026-06")
+
+    assert [p.name for p in got] == ["2026-06-01", "2026-06-02"]

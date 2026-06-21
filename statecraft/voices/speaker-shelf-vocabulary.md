@@ -69,14 +69,15 @@ Use **different surface classes** on opposite sides of the archive ↔ synthesis
 
 | Layer | Surface class | Surface name | Surface role | Interior grain |
 | --- | --- | --- | --- | --- |
-| Archive | Day inventory | `YYYY-MM-DD/README.md` | day archive inventory | stats, rollups, file list |
-| Archive | Ingest register | `## Ingest register` (day README section) | ingest register | one row per land; YouTube |
+| Archive | Day inventory | `YYYY-MM-DD/day-index.md` | day archive inventory | stats; channel / writer / other partitions; file list |
+| Archive | Day README stub | `YYYY-MM-DD/README.md` | pointer to day-index | link compat only |
+| Archive | Ingest register | _(legacy; merged into day-index)_ | — | — |
 | Archive | Month rollup | `YYYY-MM.md` | month archive rollup | one row per **day** |
 | Archive | Thread rollup | `thread-index.md` | thread rollup | one row per `thread` slug |
 | Synthesis | Source bench | `{speaker}-source-index.md` | voice source bench | curated archive anchors |
 
 Navigation chain in prose:
 
-`month rollup → day inventory → ingest register → source-*.md` → (promotion) → `voice source bench`
+`month rollup → day-index → source-*.md` → (promotion) → `voice source bench`
 
 Rebuild SSOT after lands: `python3 scripts/refresh_statecraft_archive_indices.py` (day + month + year + thread + stale audit).

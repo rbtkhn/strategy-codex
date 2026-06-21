@@ -24,8 +24,10 @@ from statecraft_day_archive import (
     REPO_ROOT,
     ArchiveFile,
     DaySummary,
-    build_day_readme,
+    build_day_index,
+    build_day_readme_stub,
     collect_archive_file,
+    day_index_path,
     fmt_counter,
     is_youtube_capture,
     iter_day_dirs,
@@ -564,14 +566,24 @@ def _render_compare_status(path: Path, rendered: str) -> str:
 
 
 def build_stale_index_audit(root: Path) -> str:
-    day_rows: list[tuple[str, str]] = []
+    day_rows: list[tuple[str, str, str, str]] = []
     month_rows: list[tuple[str, str]] = []
     year_rows: list[tuple[str, str]] = []
 
     for day_dir in iter_all_day_dirs(root):
-        path = day_dir / "README.md"
-        rendered = build_day_readme(day_dir)
-        day_rows.append((day_dir.name, _render_compare_status(path, rendered)))
+        index_path = day_index_path(day_dir)
+        readme_path = day_dir / "README.md"
+        index_rendered = build_day_index(day_dir)
+        stub_rendered = build_day_readme_stub(day_dir)
+        index_status = _render_compare_status(index_path, index_rendered)
+        stub_status = _render_compare_status(readme_path, stub_rendered)
+        if index_status == "ok" and stub_status == "ok":
+            combined = "ok"
+        elif "missing" in {index_status, stub_status}:
+            combined = "missing"
+        else:
+            combined = "stale"
+        day_rows.append((day_dir.name, combined, index_status, stub_status))
 
     for year in list_years(root):
         month_groups = group_day_dirs_by_month(root, year)
@@ -604,7 +616,7 @@ def build_stale_index_audit(root: Path) -> str:
         else ("missing" if not writer_json_path.exists() else "stale")
     )
 
-    day_counter = Counter(status for _, status in day_rows)
+    day_counter = Counter(status for _, status, _, _ in day_rows)
     month_counter = Counter(status for _, status in month_rows)
     year_counter = Counter(status for _, status in year_rows)
 
@@ -627,10 +639,13 @@ def build_stale_index_audit(root: Path) -> str:
         "",
         "## Day Index Status",
         "",
-        "| Day | Status |",
-        "| --- | --- |",
+        "| Day | Status | day-index.md | README stub |",
+        "| --- | --- | --- | --- |",
     ]
-    lines.extend(f"| `{day}` | `{status}` |" for day, status in day_rows)
+    lines.extend(
+        f"| `{day}` | `{status}` | `{index_status}` | `{stub_status}` |"
+        for day, status, index_status, stub_status in day_rows
+    )
     lines.extend(
         [
             "",

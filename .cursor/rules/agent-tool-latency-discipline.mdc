@@ -22,7 +22,8 @@ alwaysApply: true
 
 ## Bounded paths (always `Read`)
 
-- `source-archive/statecraft/YYYY-MM-DD/README.md` — **day source-index** (ingest register); never Glob/Grep for a dated `source-index` query
+- `source-archive/statecraft/YYYY-MM-DD/day-index.md` — **day-index** (channel / writer / other partitions); never Glob/Grep for a dated day-index query
+- `source-archive/statecraft/YYYY-MM-DD/README.md` — legacy stub pointer to day-index only
 - `statecraft/daily/*.md`, watch sheets, wire matrices
 - Single `source-archive/statecraft/<day>/source-*.md` — **read for synthesis/verify after land**, not for pre-land family calibration during intake; **wire-verify / falsifier `verify:`** → frontmatter only (hard rule 9), not full transcript `Read`/`Grep`
 - Files the operator has open — `Read` them; don't repo-wide `Grep`
