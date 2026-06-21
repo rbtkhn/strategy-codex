@@ -46,10 +46,15 @@ January archive batch begins **2026-01-20** (Greenland / Davos week). Monthly co
   - [Greenland three-way weave](../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md)
   - [Davos Dmitriev — Helmer × Mercouris](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
 
-### 2026-02 — Geneva week hinge (partial)
+### 2026-02 — pre-war + Geneva week hinge (partial)
 
-February archive batch anchored **2026-02-17** (Geneva opening + Iran bench). Monthly compression **not yet opened**.
+February archive: pre-war **2026-02-03** (Helmer power formula) + **2026-02-17** (Geneva + Iran bench). Monthly compression **not yet opened**.
 
+- [2026-02-03](2026-02-03.md) — **stub** — pre-war **money/votes/bullets**; Witkoff/Cooper/Miami trust lane (3 captures)
+  - [Helmer × Marandi — Turkey / Kurd / regional wedge](../notes/2026-02-03-helmer-marandi-turkey-kurd-regional-wedge.md)
+  - [Helmer Feb 3 → Mar 24 arc — power → five terms](../notes/2026-02-helmer-feb3-mar24-power-terms-arc.md)
+  - [Dmitriev arc Feb 3 §](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md#feb-3-arc-pre-war-witkoff-discredited--miami-bagman--cooper-demand)
+  - [Wire verify matrix](./2026-02-03-wire-verify-matrix.md)
 - [2026-02-17](2026-02-17.md) — **stub** — Geneva bifurcation; Kartapolov annexation float; Hormuz parallel (5 captures)
   - [Geneva day weave — Helmer × Mercouris](../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md)
   - [Iran bench weave — Marandi × Mearsheimer × Helmer](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md)
@@ -67,8 +72,14 @@ March archive: [source-archive/statecraft/2026-03.md](../source-archive/statecra
   - [Mercouris × Wilkerson — attrition / downed warplanes](../notes/2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md)
   - [Davis bench — Macgregor × Henningsen × Hormuz solo](../notes/2026-03-03-davis-macgregor-henningsen-iran-war-bench-weave.md)
   - [Crooke × Pape × Simplicius — air-power bench](../notes/2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md)
-  - [Dmitriev arc Jan 20 → Mar 3](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
+  - [Dmitriev arc Jan 20 → Mar 24](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
   - [Wire verify matrix](./2026-03-03-wire-verify-matrix.md)
+- [2026-03-24](2026-03-24.md) — **war week ~4** — talk fiction vs kinetic escalation; five terms; Stage 3 ground indicators (5 captures)
+  - [Helmer × Marandi — five terms / energy / Hormuz weave](../notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md)
+  - [Mercouris × Helmer × Marandi — Dimona / ground wedge](../notes/2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md)
+  - [Helmer Mar 3 → Mar 24 arc — Russia/China two-track](../notes/2026-03-helmer-mar3-mar24-russia-china-two-track-arc.md)
+  - [Wire verify matrix](./2026-03-24-wire-verify-matrix.md)
+  - [Pape × Mercouris — deployments / gambler's conceit wedge](../notes/2026-03-24-pape-deployments-gamblers-conceit-mercouris-wedge.md)
 - [2026-03-16](2026-03-16.md) — densest archive day (19 captures)
   - [2026-03-16 - Pape Escalation Trap Vs Crooke Mosaic](2026-03-16-pape-vs-crooke-mosaic-trap.md)
   - [2026-03-16 - Ritter Implementation × Trap × Mosaic](2026-03-16-ritter-implementation-trap-mosaic.md)

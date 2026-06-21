@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T13:05:39+00:00",
+  "generated_at": "2026-06-21T13:14:44+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -490,7 +490,7 @@
     },
     "2026-01": {
       "captured_days": 31,
-      "source_count": 138,
+      "source_count": 107,
       "thread_count": 22,
       "channel_or_show_count": 14,
       "host_count": 9,
@@ -521,7 +521,7 @@
     },
     "2026-02": {
       "captured_days": 28,
-      "source_count": 126,
+      "source_count": 98,
       "thread_count": 25,
       "channel_or_show_count": 14,
       "host_count": 10,
@@ -552,7 +552,7 @@
     },
     "2026-03": {
       "captured_days": 31,
-      "source_count": 233,
+      "source_count": 202,
       "thread_count": 30,
       "channel_or_show_count": 17,
       "host_count": 10,
@@ -666,7 +666,7 @@
     },
     "2026-04": {
       "captured_days": 30,
-      "source_count": 231,
+      "source_count": 201,
       "thread_count": 32,
       "channel_or_show_count": 26,
       "host_count": 23,
@@ -751,7 +751,7 @@
     },
     "2026-05": {
       "captured_days": 31,
-      "source_count": 274,
+      "source_count": 243,
       "thread_count": 41,
       "channel_or_show_count": 26,
       "host_count": 22,
@@ -844,7 +844,7 @@
     },
     "2026-06": {
       "captured_days": 20,
-      "source_count": 251,
+      "source_count": 231,
       "thread_count": 44,
       "channel_or_show_count": 23,
       "host_count": 23,
