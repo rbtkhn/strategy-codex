@@ -29,14 +29,18 @@ Other volumes: start at `public/civ-state/volumes/{vol}/essays/README.md` before
 ```powershell
 python scripts/check_civ_state_essay_prose.py --rome-civic-chain-four
 python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-genesis.md --class civic-chain-rome-humanize
-python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-republic.md --class civic-chain-rome-v2
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-republic.md --class civic-chain-rome-humanize
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-caesar.md --class civic-chain-rome-humanize
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-augustus.md --class civic-chain-rome-v2
 ```
 
 Reports: `body_words`, `quoted_words`, `quote_pct`, `authorial_words`, schematic hits, modern-surname violations (Gibbon/Mommsen allowed only inside `"…"`), footnote resolution.
 
+**Essay state (Rome civic-chain four — v0.2.2):** genesis · republic · caesar → **`civic-chain-rome-humanize`**; augustus → **`civic-chain-rome-v2`** until humanized. SSOT table: SKILL § Rome civic-chain essay state · milestones: [release-history.md](../../../public/civ-state/docs/release-history.md).
+
 **Bands (civic-chain-rome-v2):** body 2,400–2,600 · quoted 450–550 · ~18–22% quote ratio.
 
-**Humanizing / light human-prose:** `--class civic-chain-rome-humanize` — body 2,400–2,800 · quoted 450–550 unchanged. Default for genesis post v0.1.49+; other civic-chain four stay on **v2** until explicitly humanized.
+**Humanizing / light human-prose:** `--class civic-chain-rome-humanize` — body 2,400–2,800 · quoted 450–550 unchanged. Light pass: optional anti-pattern pre-flight; band-floor restore via embodied beats after dedupe (SKILL § Execution order).
 
 **Inline fallback** (one path only, if script unavailable):
 

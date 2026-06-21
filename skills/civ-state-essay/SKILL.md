@@ -3,7 +3,7 @@ name: civ-state-essay
 preferred_activation: civ-state essay
 description: "Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake."
 portable: true
-version: 0.2.1
+version: 0.2.2
 tags:
   - operator
   - work-strategy
@@ -54,6 +54,8 @@ If class is unsettled, open volume connectivity / essays README (host appendix p
 
 For **`essay-{vol}-{slug}.md`** civic-chain nodes, pick **one pass** before editing. Later passes assume structure and quote weave from earlier passes are **frozen** unless operator says otherwise.
 
+**Recommended sequence:** source-bearing (v2) → **humanizing** (humanize) → optional **light human-prose** (humanize). Light pass may run on v2 only when deduping before humanizing; post-humanizing light pass targets formula tails and reception stacks.
+
 | Pass | Operator phrases | Scope | QA `--class` |
 |------|------------------|-------|----------------|
 | **Source-bearing** | `civic-chain pass`, source-bearing expansion, v0.1.48-style | Expand body + woven `"…"` quotes; geo-strategic + standalone | `civic-chain-rome-v2` |
@@ -62,9 +64,34 @@ For **`essay-{vol}-{slug}.md`** civic-chain nodes, pick **one pass** before edit
 
 **Quoted band (all civic-chain passes):** **450–550** words in `"…"` — humanize band does **not** waive quote limits.
 
-**Default body band by essay state:** Republic, Caesar, Augustus (post v0.1.48, not yet humanized) → **v2** (2,400–2,600). Genesis (post v0.1.49+) and any essay after an explicit humanizing pass → **humanize** (2,400–2,800) until operator folds bands.
+### Rome civic-chain essay state (QA class — check before edit)
 
-**Human-prose anti-patterns (checklist — detail in template/reader-guide):** repeated motif phrases (`public, bounded, returnable`); formula transitions (`The point is not…`, `What matters here…`); neat thesis-summary paragraph closings; abstract noun clusters without verbs. Cap formula stock phrases at **≤2** per essay on light passes.
+Pin from target file + [`release-history.md`](../../public/civ-state/docs/release-history.md) when unsure.
+
+| Essay | File | QA `--class` (current) | Pass notes |
+|-------|------|------------------------|------------|
+| Genesis | `essay-rome-genesis.md` | **`civic-chain-rome-humanize`** | v0.1.49 humanizing · v0.1.50 light |
+| Republic | `essay-rome-republic.md` | **`civic-chain-rome-humanize`** | v0.1.51 humanizing · v0.1.55 light |
+| Caesar | `essay-rome-caesar.md` | **`civic-chain-rome-humanize`** | v0.1.52–54 light + humanizing |
+| Augustus | `essay-rome-augustus.md` | **`civic-chain-rome-v2`** | v0.1.48 source-bearing only — humanize pending |
+
+After any **humanizing** pass on a node, default QA class for later edits on that file → **humanize** until operator folds bands.
+
+**Human-prose anti-patterns (checklist — detail in template/reader-guide):** repeated motif phrases (`public, bounded, returnable`; prize catalogues; liberty/elections thesis loops); formula transitions (`The point is not…`, `What matters here…`, `Memory that…`); neat thesis-summary paragraph closings; **meta quote wrappers** (`moralized… compressed rhetoric`, `One modern analyst would later write`); abstract noun clusters without verbs. Cap formula stock phrases at **≤2** per essay on light passes.
+
+### Reception weave (Gibbon / Mommsen / paraphrase composites)
+
+- **Authorial prose:** no modern surnames (Syme, Goldsworthy, Everitt, Durant, Gruen, etc.).
+- **Allowed glue:** `Later reception would add` · `Later reception would also add` · `Later reception fixed the verdict` — with Gibbon/Mommsen or labeled paraphrase composite inside `"…"` + `[^n]`; full attribution in `## Notes`.
+- **Light pass cap:** **≤3** `Later reception…` blocks per essay; consolidate stacked reception in one paragraph when possible.
+- **Ban:** `One modern analyst` · `Later constitutional history would add` · `Later analysis compressed` as authorial frames; meta description of quotes instead of weave.
+- **Florus / epitome witnesses:** embed `"…"` in body; do not describe compression in meta voice only.
+
+### Cross-chain voice (Rome civic-chain four)
+
+Essays remain **standalone** — no peer-essay links, `essay-rome-*` body links, or defer voice (`as the previous essay showed`). **Voice continuity** is allowed: later nodes may assume institutional strain the reader already met (federation → provincial command → legions vs Senate) without re-proving the full arc. Dedupe re-argument in lede/closing when an earlier node already load-bears the same thesis.
+
+**Pass focus hints (not prose templates):** early nodes — institutions, Polybius as later writer; middle — provincial *imperium*, prize pressure; Caesar — *dignitas*, reception dedupe, forms without control; Augustus — settlement/restoration (TBD).
 
 ## Prose doctrine (pointer — read SSOT)
 
@@ -77,8 +104,8 @@ Before editing civic-chain or long prose essays, read the host appendix paths fo
 
 1. **Narrate first, interpret second** — institution → place → pressure → conclusion
 2. **Geo-strategic** — every place name carries constraint or incentive; not map trivia
-3. **Source weave** — ~20% body = verbatim primary/pre-modern in `"…"` at turning points; modern scholarship (except Gibbon/Mommsen as quoted reception) in `## Notes` only
-4. **Standalone** — no peer-essay links, chain/defer voice, or codex routing in body
+3. **Source weave** — ~20% body = verbatim primary/pre-modern in `"…"` at turning points; modern scholarship in `## Notes` except Gibbon/Mommsen (and labeled paraphrase composites) inside `"…"` via reception glue
+4. **Standalone + chain voice** — no internal essay links or defer voice; assume prior-node strain when later civic-chain node
 5. **Swap, don't pad** — at fixed word band, replace schematic/abstract lines when adding quotes or geo depth
 6. **Later passes, surgical only** — humanizing and light human-prose passes edit **inside** existing H2s; do not re-expand word count on v2 band essays without operator approval
 
@@ -86,12 +113,14 @@ Before editing civic-chain or long prose essays, read the host appendix paths fo
 
 ## Execution order (Windows-safe)
 
-1. **Classify** essay class (router table) **and civic-chain pass type** when applicable.
-2. **Read SSOT** — template comment block and/or class template (bounded read; host appendix).
-3. **One essay file per turn** — no parallel StrReplace/Write on multiple essay paths.
-4. **Write before broad Read** when plan SSOT is locked.
-5. **Git** — explicit paths only; no repo-wide status/diff unless operator asks.
-6. **One hang** → narrow to single Write or operator terminal handoff (cross-link RLJ parallel-ban — host appendix).
+1. **Classify** essay class (router table) **and civic-chain pass type** when applicable; read **essay state** table for QA `--class`.
+2. **Light pass optional pre-flight:** read-only anti-pattern inventory (formula motifs, reception stack count, catalogue repeats) before edit when operator requests grep/inventory or pass is light human-prose.
+3. **Read SSOT** — template comment block and/or class template (bounded read; host appendix).
+4. **One essay file per turn** — no parallel StrReplace/Write on multiple essay paths.
+5. **Write before broad Read** when plan SSOT is locked.
+6. **Git** — explicit paths only; no repo-wide status/diff unless operator asks.
+7. **One hang** → narrow to single Write or operator terminal handoff (cross-link RLJ parallel-ban — host appendix).
+8. **Band floor after dedupe:** if light pass drops body or quoted words below band floor, restore with **embodied beats or quote weave** — not catalogue/prize lists.
 
 For **validator-first** menu picks (word count, validate public tree), run in the same turn after the pick.
 
@@ -100,23 +129,23 @@ For **validator-first** menu picks (word count, validate public tree), run in th
 ### All prose classes
 
 - All body `[^n]` resolve in `## Notes`
-- **Modern-surname rule:** fail Syme, Goldsworthy, Everitt, Durant in body; **allow Gibbon/Mommsen only inside `"…"`** as quoted reception
+- **Modern-surname rule:** fail Syme, Goldsworthy, Everitt, Durant in authorial prose; **allow Gibbon/Mommsen only inside `"…"`** as quoted reception; paraphrase composites via reception glue + Notes label
 - Schematic grep clean (ban list above)
 - Standalone — no internal essay links or defer voice
 - Optional before mirror: read-aloud one section per essay
 
 ### Civic-chain only
 
-Run `check_civ_state_essay_prose.py` with the **`--class`** matching the pass (host appendix).
+Run `check_civ_state_essay_prose.py` with the **`--class`** from essay state table (host appendix).
 
 | QA class | Body words | Quoted words | When |
 |----------|------------|--------------|------|
-| **`civic-chain-rome-v2`** | 2,400–2,600 | 450–550 | Source-bearing pass; republic/caesar/augustus default |
-| **`civic-chain-rome-humanize`** | 2,400–2,800 | 450–550 | Humanizing or light human-prose pass; genesis post v0.1.49+ |
+| **`civic-chain-rome-v2`** | 2,400–2,600 | 450–550 | Source-bearing pass; augustus default until humanized |
+| **`civic-chain-rome-humanize`** | 2,400–2,800 | 450–550 | Humanizing or light human-prose; genesis / republic / caesar post-humanize |
 
 - Authorial prose (body minus quoted) **~1,950–2,050** on v2 band at ~20% quote ratio
 - Geo-strategic swap-don't-pad at band
-- Re-count after surgical trim (de-dup may drop below floor)
+- Re-count after surgical trim (de-dup may drop below floor — see band-floor restore)
 - Meta sidecar unchanged unless operator scoped routing edits
 - Registry anchor matches file slug
 
@@ -144,12 +173,12 @@ Run `check_civ_state_essay_prose.py` with the **`--class`** matching the pass (h
 **CIV-STATE Essay**
 - Essay class:
 - Civic-chain pass (if any):
+- Essay state / QA `--class`:
 - Target file(s):
 - Scaffold SSOT:
-- QA `--class`:
 - QA gates to run:
 
-**Next:** [edit | QA only | ship | classify unclear → civ-state Retrieve]
+**Next:** [edit | QA only | pre-flight grep | ship | classify unclear → civ-state Retrieve]
 ```
 
 ## Related operations
@@ -170,7 +199,7 @@ Host-specific paths, QA recipes, and publish commands: **CURSOR_APPENDIX** (gene
 
 1. Essay class stated and matching scaffold opened (or handoff named).
 2. Class-appropriate QA gates run; failures reported with file + gate name.
-3. No schematic or modern-surname body violations on touched essays (Gibbon/Mommsen exception: inside `"…"` only).
+3. No schematic or modern-surname body violations on touched essays (Gibbon/Mommsen / reception composites exception: inside `"…"` only).
 4. Civic-chain edits stay in word + quoted bands for the **pass-appropriate `--class`**, or operator explicitly waived.
 5. `validate_skills.py` clean after skill file changes; public validator run when registry/structure changed.
 
