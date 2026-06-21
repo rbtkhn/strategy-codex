@@ -214,6 +214,25 @@ def test_channel_registry_key_routes_configured_series_values() -> None:
     slug, _, _ = nav._channel_registry_key(jf_meta)
     assert slug == "judging-freedom"
 
+    ritter_meta = {
+        "source_url": "https://www.youtube.com/watch?v=7pXI52jKcOU",
+        "series": "Ritter's Rant",
+    }
+    slug, label, explicit = nav._channel_registry_key(ritter_meta)
+    assert slug == "scott-ritter"
+    assert label == "Ritter's Rant"
+    assert explicit is False
+
+    kiriakou_meta = {
+        "source_type": "youtube",
+        "source_url": "https://www.youtube.com/watch?v=DuZALiYzcmA",
+    }
+    slug, _, _ = nav._channel_registry_key(
+        kiriakou_meta,
+        "source-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md",
+    )
+    assert slug == "john-kiriakou"
+
 
 def test_channel_index_excludes_misc_slugs_from_main_index() -> None:
     root = REPO_ROOT / "source-archive" / "statecraft"
@@ -221,4 +240,7 @@ def test_channel_index_excludes_misc_slugs_from_main_index() -> None:
     misc = nav.build_channel_index_misc(root)
     assert "jeffrey-sachs" not in rendered
     assert "jeffrey-sachs" in misc
+    assert "john-kiriakou" in misc
+    assert "scott-ritter" in misc
+    assert "`unknown`" not in rendered
     assert "channel-index-misc.md" in rendered

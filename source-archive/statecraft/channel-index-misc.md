@@ -7,8 +7,8 @@ Slug list: `channel_index_misc_slugs` in [statecraft_youtube_discovery.json](../
 
 ## Stats
 
-- Miscellaneous channel keys: `14`
-- YouTube source files mapped: `15`
+- Miscellaneous channel keys: `16`
+- YouTube source files mapped: `17`
 - Rows with explicit `channel_slug`: `6`
 
 ## Channels
@@ -23,8 +23,10 @@ Slug list: `channel_index_misc_slugs` in [statecraft_youtube_discovery.json](../
 | `fidias` | Fidias Podcast | 1 | 1 |  | [open](https://www.youtube.com/@FidiasCyprus) | `2025-11-01` | `2025-11-01` |
 | `garland-nixon` | Garland Nixon | 1 | 1 |  | [open](https://www.youtube.com/@GarlandNixon) | `2026-05-28` | `2026-05-28` |
 | `going-underground` * | Going Underground | 1 | 1 |  |  | `2025-06-09` | `2025-06-09` |
+| `john-kiriakou` * | John Kiriakou | 1 | 1 |  |  | `2026-02-27` | `2026-02-27` |
 | `let-s-talk-geopolitics` * | Let's Talk Geopolitics | 1 | 1 |  |  | `2026-05-10` | `2026-05-10` |
 | `reinvent-money` | Reinvent Money | 1 | 1 |  |  | `2026-06-05` | `2026-06-05` |
+| `scott-ritter` * | Ritter's Rant | 1 | 1 |  |  | `2026-04-20` | `2026-04-20` |
 | `shaun-attwood` * | Shaun Attwood | 1 | 1 |  |  | `2026-04-29` | `2026-04-29` |
 | `switzerland-with-tom-switzer` * | Switzerland with Tom Switzer | 1 | 1 |  |  | `2026-05-28` | `2026-05-28` |
 | `the-chris-hedges-report` * | The Chris Hedges Report | 1 | 1 |  |  | `2026-06-08` | `2026-06-08` |

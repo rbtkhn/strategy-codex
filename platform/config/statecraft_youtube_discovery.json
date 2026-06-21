@@ -38,7 +38,8 @@
     "The Duran": "alexander-mercouris",
     "Judging Freedom": "judging-freedom",
     "Redacted": "redacted-news",
-    "Redacted News": "redacted-news"
+    "Redacted News": "redacted-news",
+    "Ritter's Rant": "scott-ritter"
   },
   "filename_prefix_index_canonical": [
     ["source-dialogue-works-", "dialogue-works"],
@@ -48,7 +49,8 @@
     ["transcript-napolitano-", "judging-freedom"],
     ["source-davis-", "daniel-davis"],
     ["source-alkorshid-", "dialogue-works"],
-    ["source-redacted-", "redacted-news"]
+    ["source-redacted-", "redacted-news"],
+    ["source-kiriakou-", "john-kiriakou"]
   ],
   "channel_index_misc_slugs": [
     "jeffrey-sachs",
@@ -59,8 +61,10 @@
     "fidias",
     "garland-nixon",
     "going-underground",
+    "john-kiriakou",
     "let-s-talk-geopolitics",
     "reinvent-money",
+    "scott-ritter",
     "shaun-attwood",
     "switzerland-with-tom-switzer",
     "the-chris-hedges-report",

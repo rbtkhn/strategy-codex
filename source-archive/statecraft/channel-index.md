@@ -13,8 +13,8 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 
 ## Stats
 
-- Distinct YouTube channel keys: `15`
-- YouTube source files mapped: `1415`
+- Distinct YouTube channel keys: `14`
+- YouTube source files mapped: `1413`
 - Rows with explicit `channel_slug`: `13`
 - Watchlist channels (matched): `6`
 
@@ -36,7 +36,6 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 | `redacted-news` | Redacted News | 5 | 4 | yes | [open](https://www.youtube.com/@RedactedNews) | `2026-04-20` | `2026-06-16` |
 | `india-and-global-left` | India and Global Left | 3 | 3 |  |  | `2026-05-20` | `2026-06-11` |
 | `moral-resistance` | Moral Resistance | 3 | 3 |  |  | `2026-05-31` | `2026-06-18` |
-| `unknown` * | (none) | 2 | 2 |  |  | `2026-02-27` | `2026-04-20` |
 
 _`*` = slug derived from label; no explicit `channel_slug` in frontmatter._
 
