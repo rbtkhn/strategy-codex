@@ -3223,3 +3223,188 @@ Routing: [civ-state-essay SKILL v0.2.4](../skills/civ-state-essay/SKILL.md) · [
 
 **Pattern promotion:** defer until second volume essay pass reuses source-discipline without new law.
 
+---
+
+## 2026-06-19 — Rome essay citation inventory downstream + PD URL audit discipline
+
+**Tag:** `rome-bibliography-downstream` · `source-shelf-rename` · `pd-url-audit-verify` · `civ-state-essay-v0.2.5`  
+**Cross-link:** [§ parallel ban EXECUTE ship](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [§ wire-verify header-only](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts) · [§ Rome source-discipline v0.1.59](#2026-06-19---rome-source-discipline-pass-quoted-band-cliff--ides-metonym-ban) — **narrows** bibliography/inventory routing only.
+
+### Trigger
+
+1. **First-half harness tax:** Full bibliography URL audit (52 links × long timeouts) — mostly dead guessed Archive slugs, intermittent SSL; felt stuck despite real work.
+2. **Naming collision:** `bibliography.md` (retrieve redirect) vs `rome-bibliography.md` (essay inventory) confused agent routing.
+3. **Operator verify:** Inventory must be **downstream of active essays**, not shelf-imported; extend when next `essay-rome-*` node goes active.
+4. **Day shape:** Horrific first half (latency, ambiguous done) → extremely productive second half (4 URL swaps → 52/52 pass → rename → skill wire → commit/push).
+
+### Extracted law
+
+**1. Essay citation inventory is downstream, not retrieve**
+
+```text
+rome-bibliography.md = rollup of sources USED in active essay-rome-* nodes (body + ## Notes)
+sources/rome/bibliography.md + source-shelf.md = upstream retrieve (era doors, full corpus)
+→ never bulk-import shelf into inventory
+→ append deduped entries when essay adds sources OR when next node → active
+→ PD URLs live in inventory; modern secondary = plain text, no link
+```
+
+**2. PD URL audit — verify, don't guess Archive slugs**
+
+```text
+Do not populate bibliography with unverified archive.org/details/{slug} paths
+→ HEAD/GET with bounded timeout (~12s) + User-Agent
+→ prefer Gutenberg / Perseus URN / Lacus paths confirmed by audit
+→ one-shot script over full file; fix failures only — not 52×25s as opening move
+→ no link > dead link (drop or substitute verified edition)
+```
+
+**3. Split-day harness pattern (bounded ship after wide audit fails)**
+
+```text
+Wide verification before scope lock = latency trap on Windows harness
+→ if full audit stalls: sample failures → fix known 404s → re-run bounded audit
+→ afternoon productivity tracked bounded tasks with clear done states (0 FAIL, commit, push)
+→ front-load ONE bounded verification before multi-file wiring
+```
+
+### Reapplication
+
+- **Next `essay-rome-*` activation:** scan new essay body + Notes → append inventory only; run `scripts/_bib_url_audit_once.py` on touched URLs before commit.
+- **Next volume bibliography:** separate **retrieve door** (`source-shelf.md` or `{vol}-source-shelf.md`) from **essay inventory** (`{vol}-bibliography.md`) at creation — do not reuse generic `bibliography.md` for both jobs.
+- **Next harness-heavy audit:** cap first pass to failing candidates or 10-link sample; full sweep only after fix pattern is proven.
+- **civ-state-essay v0.2.5:** inventory procedure already wired — enforce on source-bearing passes.
+
+### Structural changes
+
+| Ship | Receipt |
+|------|---------|
+| URL fix + audit helper | `592de6b93` — 52/52 pass |
+| Downstream wiring + rename | `ac56fc2f9` — v0.1.60, skill **v0.2.5** |
+| `bibliography.md` → `source-shelf.md` | Rome volume root |
+| Inventory provenance | `rome-bibliography.md` header |
+| Validator/export | `volume_bibliography_door("rome")` |
+| Skill | `civ-state-essay` § Essay citation inventory |
+
+Verified: all **59** inventory entries trace to civic-chain four (body + Notes); **0** shelf-only orphans.
+
+### Guardrail
+
+```text
+Do not treat rome-bibliography.md as retrieve SSOT;
+Do not guess Archive identifiers without audit receipt;
+Do not open full URL sweeps before narrowing failure set on Windows harness;
+Do not duplicate parallel-ban / wire-verify prose — cross-link + narrow (bibliography + audit scope);
+Inventory scope label must match active nodes (currently civic-chain four, not all 21 lattice nodes).
+```
+
+**Falsification:** If Archive metadata API becomes reliably fast from harness, law (2) softens to "verify sample + spot-check" — until then, audit-before-ship on bibliography URLs.
+
+### Current lesson
+
+```text
+Inventory follows essays, not shelves —
+and afternoon ships when morning stops guessing URLs.
+```
+
+Routing: [rome-bibliography.md](../public/civ-state/volumes/rome/rome-bibliography.md) · [source-shelf.md](../public/civ-state/volumes/rome/source-shelf.md) · [civ-state-essay SKILL v0.2.5](../skills/civ-state-essay/SKILL.md) · [release-history v0.1.60](../public/civ-state/docs/release-history.md)
+
+**Pattern promotion:** defer until second volume uses split retrieve/inventory doors without new law.
+
+---
+
+## 2026-06-20 — Opening-week daily shelf: register→synthesis ladder + triple-nav
+
+**Tag:** `daily-shelf-tier-ladder` · `opening-week-triple-nav` · `falsifier-arc-preservation` · `execute-slice-boundary`  
+**Cross-link:** [§ parallel ban EXECUTE ship](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — **narrows** to index/nav StrReplace batching; does not replace one-Shell-per-turn rule.
+
+### Trigger
+
+Operator menu-drove **Feb–Mar opening-week arc** (Feb 3 → Feb 17 → Feb 28 → Mar 1 → Mar 3): each hinge day moved **archive day-index → daily register → daily synthesis** before monthly folds and README indexing. Ship: bounded slice **`c0224d4b4`** (9 files) then push to `origin/main`. Handoff check flagged **parallel StrReplace** on README/monthly/daily nav from earlier turns; final commit/push turns held one-path discipline.
+
+### Extracted law
+
+**1. Daily shelf tier ladder**
+
+```text
+archive day-index → daily register → daily synthesis
+Upgrade register → synthesis when:
+  • capture table + executive read + lane/speaker sections exist
+  • falsifier hooks named (wire matrix may still be open on checklist)
+  • weaves may stay open — synthesis does not require all weaves done
+Density target: nearest hinge synthesis (e.g. Feb 28 / Mar 3), not stub length.
+```
+
+**2. Cross-month arc = triple-nav sync**
+
+```text
+When arc spans months, patch THREE surfaces on tier upgrade:
+  1. daily Source Base Return/Forward
+  2. monthly fold (e.g. 2026-02.md / 2026-03.md opening-week return)
+  3. statecraft/daily/README.md hinge ladder
+Also patch weave Parent / Cross-day lines — or nav drifts (Feb 3 "register" lingered in Iran bench after synthesis).
+```
+
+**3. Falsifier preservation across the arc**
+
+```text
+Earlier daily bets (e.g. Feb 3 no-attack) invalidated by later kinetic days
+→ preserve partial truth + override layer (Israel permanent-war vs Trump retreat)
+→ do not collapse to "analyst wrong" when bullets-formula still load-bears later attrition shelf
+```
+
+**4. Same-calendar-day dual objects**
+
+```text
+One archive day may hold unrelated dominant objects (Feb 3: Helmer Iran vs Mercouris Ukraine)
+→ separate executive rows; do not merge lane read without operator cash-out
+```
+
+**5. EXECUTE slice boundary (statecraft daily hinge week)**
+
+```text
+Hinge-week commit = named daily + monthly + README + weave parent patches only
+Exclude: unrelated daily tweaks, skills/runtime/RLJ, land sidecars
+Push after slice when operator picks — wire matrices still open on checklist do not block ship
+```
+
+### Reapplication
+
+- **Next hinge week** (e.g. Mar 16–24): register only if no daily; else expand synthesis; sync triple-nav + weave parents in same session.
+- **`2026-03-week1-start-here`:** one re-entry doc → committed chain; do not duplicate full synthesis bodies.
+- **Feb 28 / Mar 1 wire matrices:** checklist-open compatible with synthesis tier — matrix follows, does not block upgrade.
+- **Index patches on Windows:** one file per turn StrReplace — cross-link parallel-ban; no batched README + monthly + daily in one turn.
+
+### Structural changes
+
+| Ship | Receipt |
+|------|---------|
+| Opening-week synthesis chain | `c0224d4b4` — Feb 3/17/28, Mar 1/3 + `2026-02.md` + `2026-03.md` fold + README |
+| Weave parent fix | `2026-02-17-iran-bench-weave-*.md` → Feb 3 **synthesis** |
+| Remote | `3760e30b3..c0224d4b4` pushed `origin/main` |
+
+**Not yet structural:** Pape trilogy weave; `2026-02-28` / `2026-03-01` wire matrices; `state-synthesis` skill register-tier docs (local WIP).
+
+### Guardrail
+
+```text
+Do not treat "synthesis complete" as "weaves + wire done";
+Do not ship unrelated WIP inside a hinge-week commit;
+Do not merge same-day dual objects without separate rows;
+Do not rewrite falsified bets as analyst error — preserve override layer;
+Do not batch parallel StrReplace on nav surfaces — cross-link parallel-ban.
+```
+
+**Falsification:** If daily shelf drops register tier (archive → synthesis only), laws (1)(2) narrow to dual-tier + triple-nav until operator restores register staging.
+
+### Current lesson
+
+```text
+Opening week ships as a chain: register → synthesis per day,
+triple-nav when the arc crosses months,
+bounded commit before push — wire matrices can follow.
+```
+
+Routing: [statecraft/daily/README.md](../statecraft/daily/README.md) · [state-synthesis SKILL](../.cursor/skills/state-synthesis/SKILL.md) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
+
+**Pattern promotion:** defer until second cross-month hinge week reuses triple-nav without new law.
