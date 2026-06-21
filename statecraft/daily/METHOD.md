@@ -22,6 +22,19 @@ Its job is to:
 
 It is not a transcript recap and it is not a month-level compression.
 
+### Daily register vs daily synthesis
+
+Same path family: `statecraft/daily/YYYY-MM-DD.md`. Two explicit tiers:
+
+| Tier | When | Contains |
+| --- | --- | --- |
+| **Daily register** | Archive landed; weaves/matrix may exist; executive prose deferred | `Status: register` · source base · short executive read · companion links · falsifiers (register tier) · **Register Completion Checklist** |
+| **Daily synthesis** | Register complete or operator requests full pass | Dominant themes · lane read · five-volume CIV-STATE · speaker value · falsifiers (full) — Mar 16 density |
+
+**Archive day-index** (`source-archive/statecraft/<day>/day-index.md`) = *what captured*. **Daily register** = *how synthesis is tracking that day*. Do not call register-tier files **stubs** — they are intentional orientation surfaces, not throwaway placeholders.
+
+**Upgrade verb:** *expand register to synthesis* (same file path, richer shape).
+
 **Intake digest (precursor):** An [intake digest](intake-digest-TEMPLATE.md) ranks queue-eligible sources before the daily note exists. It is **not** a substitute for daily synthesis — use [statecraft-intake-queue.md](../../docs/statecraft-intake-queue.md) and `statecraft_intake_queue.py --write-digest`.
 
 ### Monthly note

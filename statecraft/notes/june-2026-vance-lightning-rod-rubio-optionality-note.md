@@ -1,12 +1,12 @@
 WORK only; not Record.
 
-# June 2026 — Vance Lightning Rod, Rubio Optionality (Helmer × Wire)
+# June 2026 — Vance Lightning Rod, Rubio Optionality (Helmer × Johnson × Wire)
 
 ## Purpose
 
-Preserve one **bounded routing seam** from the MOU week (~16–20 Jun 2026): why **pro-Israel / Zionist pushback concentrates on JD Vance** while **Marco Rubio retains exit ramps**, and how **John Helmer’s succession frame** (pair → split → compress) interacts with **wire-supported** Washington behavior — without collapsing analyst tier into wire-primary fact.
+Preserve one **bounded routing seam** from the MOU week (~16–20 Jun 2026): why **pro-Israel / Zionist pushback concentrates on JD Vance** while **Marco Rubio retains exit ramps**, and how **John Helmer’s succession frame** (**pair → split → rank → compress**) and **Larry Johnson’s ex-intel ops read** (material termination vs faction chess) **reconcile without flattening** — analyst tier and wire-primary fact stay separated.
 
-**Note type:** CIV-STATE-bridge + comparison (speaker-function × wire routing).
+**Note type:** CIV-STATE-bridge + comparison (speaker-function × ex-intel ops × wire routing).
 
 **Parent context:**
 
@@ -50,6 +50,48 @@ The object is **memory-heavy succession** under **empire-heavy** permanent-war c
 
 **Helmer does not name Miriam Adelson or Rubio’s donor history in these captures** — Adelson–Rubio adjacency is **external falsifier**, not Helmer-sourced.
 
+### Helmer four-mode router (analyst tier — not one faction map)
+
+Helmer **reuses labels** (“Catholic succession,” “Jewish/Kabad faction”) for **different analytical jobs**. Do **not** merge the modes into a single stable taxonomy.
+
+| Mode | When Helmer uses it | Primary capture | Question answered | Wire-week read (Jun 18–19) |
+| --- | --- | --- | --- | --- |
+| **Pair** | Grand-strategy / 2028 exit ramp | [Jun 02](../../source-archive/statecraft/2026-06-02/source-alkorshid-helmer-irans-unthinkable-move-middle-east-never-same-2026-06-02.md) | Can **Rubio + Vance** bloc sequence **out** of Iran/Ukraine permanent war vs **Miller/Kushner** bloc? | **Strained** by Adelson–Rubio history + Rubio **State optionality** — pair = **coalition shorthand**, not funding purity |
+| **Split** | White House **campaign technique** | [May 26](../../source-archive/statecraft/2026-05-26/source-alkorshid-helmer-trumps-iran-deal-fails-russias-oreshnik-delivers-final-blow-2026-05-26.md) | How do **successors behave** when war is electoral liability? (Vance silence = blame Trump; Rubio visibility = peacemaker pose) | **Supported in spirit** — Rubio **adjacent** not **MOU-face**; Vance **named** in hawk stack (**J19-17/18**) |
+| **Rank** | Tehran **negotiability** ranking | [Jun 09](../../source-archive/statecraft/2026-06-09/source-alkorshid-helmer-putins-crisis-of-confidence-2026-06-09.md) | Among Kushner/Witkoff/**Rubio**/Vance, who is **less poisonous** for Palestine/Lebanon **short-term pause**? | **Vance better** line **aligns** with MOU **discipline** register (**J19-16**); Rubio **not upgraded** to deal-owner |
+| **Compress** | MOU-week **operative shorthand** | [Jun 16](../../source-archive/statecraft/2026-06-16/source-alkorshid-helmer-russia-reacted-iran-us-mou-ending-war-all-fronts-2026-06-16.md) | Who **owns the deal face** while Lebanon smoke-screens run? (**Vance** vs **Jewish faction around Trump**; Rubio **absent** from dyad) | **Supported** — lightning-rod on Vance (**J19-16–21**); donor lane hits **Trump** first (**J19-20**) |
+
+**Usage rule:** **Pair** for succession-as-battlefield teaching · **Split** for technique · **Rank** for Iranian patience calculus · **Compress** for same-week routing. **Wire** adjudicates **compress**; **pair** remains **interpretation** unless independent donor/funding receipts land.
+
+**Index return:** [Helmer source index](../voices/helmer/helmer-source-index.md) · in-voice choreography pass (2026-06-20) indexed here — not wire-scored.
+
+## Johnson owns here (ex-intel ops tier — partial wire; verify before promotion)
+
+| Capture | Date | Johnson move | Load on this note |
+| --- | --- | --- | --- |
+| [Jun 18 Vance slams Netanyahu](../../source-archive/statecraft/2026-06-18/source-alkorshid-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md) | 2026-06-18 | **Administration pivot** — Vance line is **true** (Israel as entitled child); **Trump** finally **distancing**; Levin/Shapiro/Ted Cruz backlash **overstated** (audiences shrinking); **2028 + SPR four-week** fuse drives MOU; **wishful** aid recall / aircraft pull | **Material fuse** + **Vance discipline supported** (**J19-16–18**); **aid pull contradicted** on wire |
+| [Jun 18 Lebanon / JOC teardown](../../source-archive/statecraft/2026-06-18/source-alkorshid-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md) | 2026-06-18 | **Operational termination** — JOC/talks **coming down**; CENTCOM aircraft **leaving**; Marines redeploying; **Art. 1** read → Iran may strike **Israeli positions in Lebanon** post-sign; **defeat admission** not **Israel divorce** (guest counter-frame preserved) | **Ops geometry** for MOU enforcement; **JOC teardown tier-4** until independent receipt |
+
+**Johnson does not own:** Helmer-style **Catholic/Jewish succession dyad**; **Rubio optionality** routing; **Adelson → Trump** donor lane (**J19-20**). **Rubio** barely appears in Johnson Jun 18 captures — **State not load-bearing** in his read.
+
+**Wire fence on Johnson:** Vance public discipline **supported** (**J19-16–18**). **Material aid embargo / full aircraft recall** as **enacted policy** → **contradicted** or **unclear** in Jun 19 matrix — treat Johnson **hardball prescription** (12-hour Lebanon withdrawal, suspend aid) as **ex-intel wish**, not wire-primary fact.
+
+## Helmer × Johnson reconciliation (MOU-week adjacent — not same calendar day)
+
+Both Dialogue Works / Nima; **Jun 16 Helmer** vs **Jun 18 Johnson**. Shared ground: MOU **real enough to fight over**; Israeli cabinet hawks **out of step**; **Vance Jun 18 presser** = strongest admin rebuke so far; **Lebanon** = document live/die lane.
+
+| Dimension | **Helmer owns** | **Johnson owns** | **Reconciliation rule** |
+| --- | --- | --- | --- |
+| **Primary lens** | **US faction war** → succession / 2028 | **Material war termination** → SPR, oil, mines, JOC | **Do not merge** — Helmer = **incentive map**; Johnson = **material fuse** |
+| **Vance’s job** | **Deal-face owner**; Iran should **“ask Vice President Vance”** and play **Catholic vs Jewish** for 60 days | **Trump instrument** delivering hardball; **same ship**, not separate 2028 actor yet | **Wire** adjudicates **who gets named** (**compress** supported); Johnson explains **why rhetoric is credible** (SPR panic) |
+| **Trump** | Permanent-war empire; MOU may be **smoke** + Lebanon clandestine war | **Briefed on catastrophe**; **180°** because **balls in a vice** | **Both true at different layers** — performative peace (**Helmer**) atop material ceiling (**Johnson**) |
+| **Rubio** | **Absent** from Jun 16 compress dyad; **visible peacemaker** technique (May 26) | **Absent** from Jun 18 load — State **not load-bearing** | **Optionality** row stays **wire + Helmer split/rank**; Johnson **silent** ≠ falsifier |
+| **Hawk pushback** | **Faction grammar** — who absorbs cost when deal threatens embedded war carriage | **Levin/Shapiro shrinking**; Trump can **ignore**; bipartisan **“abandoning Israel”** panic | **Wire** names Levin → **Vance** (**J19-17**); Johnson **audience-size** claim = **interpretation** |
+| **Iran move** | Wait; **60 days of podcasts** expose smoke-screens | Post-sign **Art. 1** enforcement in **Lebanon** against Israeli positions | **Helmer = patience clock**; **Johnson = enforcement hook** — Lebanon strikes **contested** on wire |
+| **Good faith** | Low — Kushner bribery, GCC **buying protection** | Low — but **five red lines conceded** in document if enforced | **Johnson** for **document text**; **Helmer** for **implementation sabotage** register |
+
+**Usage rule:** Ask **Helmer** → *Why is hawk rage **named at Vance** while donor media hits **Trump**?* Ask **Johnson** → *What would **actually** change Israeli behavior?* **Tension to preserve:** Johnson = **administration-level** distancing; Helmer = **intra-administration** war (Vance bloc vs Trump/Kushner bloc). Wire **partially splits** — Vance lightning rod **supported**; Trump **not immune** in Adelson lane (**J19-20**).
+
 ## Wire owns here (MOU week ~18–20 Jun 2026)
 
 | Layer | Carrier | Verdict | Routing read |
@@ -72,7 +114,8 @@ The object is **memory-heavy succession** under **empire-heavy** permanent-war c
 | **Rubio** | **State** visibility; Lebanon/Geneva **adjacent** diplomacy; **“visible peacemaker”** succession technique (Helmer May 26); **blame-shifting** to Israel/Ukraine heads | MOU **architect** label in wire week; **first** target of Levin/Fine/FDD stack in triaged ingests |
 | **Trump** | **Performative** control (Axios expletive call register — Helmer Jun 02); **Truth Social** asset withhold (**J19-12 partial**) | **Immunity** from donor-media attack (Adelson letter hits **Trump**) |
 | **Miller/Kushner bloc** | **Permanent war** / Chabad-adjacent White House carriage (Helmer Jun 02, Jun 16) | Clean **wire-primary** naming in Jun 19 matrix — **analyst + ingest tier** |
-| **Helmer** | **Succession-as-battlefield** frame; pair/split/compress **choreography** over May–Jun | Adelson–Rubio **funding map**; wire-primary **Levin/Fine** receipts |
+| **Helmer** | **Succession-as-battlefield** frame; pair/split/rank/compress **choreography** over May–Jun | Adelson–Rubio **funding map**; wire-primary **Levin/Fine** receipts |
+| **Johnson** | **Material fuse** (SPR/oil/JOC); **Art. 1** Lebanon enforcement logic; Vance line **credibility** (ex-intel) | **Faction succession dyad**; **Rubio optionality**; **enacted** aid/air recall (**wire contradicted**) |
 
 ## Mechanism (one paragraph)
 
@@ -106,12 +149,13 @@ The object is **memory-heavy succession** under **empire-heavy** permanent-war c
 ## Best use
 
 - **Do not** flatten J18 **Seam 2** (Vance “reality”) into one voice — use parent [convergence note](./june-18-2026-mou-convergence.md).
-- **Do** cite this note when comparing **Helmer succession** claims to **same-week wire routing** (who is **named** in hawk press vs **insulated**).
+- **Do** cite this note when comparing **Helmer succession** claims to **Johnson ops/material** reads and **same-week wire routing** (who is **named** in hawk press vs **insulated**).
 - **Do not** promote Helmer **Catholic/Jewish** dyad to wire-primary **faction registry** without **capture verify** + **Adelson–Rubio** counter-receipt.
+- **Do not** promote Johnson **aid recall / JOC teardown** to **Supported** without **independent wire receipt** — Vance **discipline** rows only are wire-primary.
 
 ## Next use
 
-- Return: [2026-06-19 daily](../daily/2026-06-19.md) · [Helmer source index](../voices/helmer/helmer-source-index.md)
+- Return: [2026-06-19 daily](../daily/2026-06-19.md) · [Helmer source index](../voices/helmer/helmer-source-index.md) · Johnson Jun 18 captures (Vance slams · Lebanon/JOC)
 - Upgrade path: **`civ-state-essay`** on America succession / client-state carriage **only** if thesis must travel without MOU parent context
 - **`civ-state` D. Review** if Rome/America volume essays need a **public** succession paragraph
 

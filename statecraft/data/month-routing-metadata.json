@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T13:31:11+00:00",
+  "generated_at": "2026-06-21T14:35:09+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -446,10 +446,10 @@
     },
     "2025-12": {
       "captured_days": 29,
-      "source_count": 78,
-      "thread_count": 22,
-      "channel_or_show_count": 9,
-      "host_count": 7,
+      "source_count": 79,
+      "thread_count": 23,
+      "channel_or_show_count": 10,
+      "host_count": 8,
       "guest_count": 21,
       "guest_label_variants": [
         {
@@ -521,10 +521,10 @@
     },
     "2026-02": {
       "captured_days": 28,
-      "source_count": 98,
+      "source_count": 99,
       "thread_count": 25,
-      "channel_or_show_count": 14,
-      "host_count": 10,
+      "channel_or_show_count": 15,
+      "host_count": 11,
       "guest_count": 24,
       "guest_label_variants": [
         {
@@ -552,10 +552,10 @@
     },
     "2026-03": {
       "captured_days": 31,
-      "source_count": 203,
+      "source_count": 205,
       "thread_count": 30,
-      "channel_or_show_count": 17,
-      "host_count": 10,
+      "channel_or_show_count": 18,
+      "host_count": 11,
       "guest_count": 42,
       "guest_label_variants": [
         {
@@ -751,8 +751,8 @@
     },
     "2026-05": {
       "captured_days": 31,
-      "source_count": 243,
-      "thread_count": 41,
+      "source_count": 244,
+      "thread_count": 42,
       "channel_or_show_count": 26,
       "host_count": 22,
       "guest_count": 46,
@@ -775,7 +775,7 @@
           "labels": [
             {
               "label": "Chas Freeman",
-              "count": 8
+              "count": 9
             },
             {
               "label": "Charles Freeman",

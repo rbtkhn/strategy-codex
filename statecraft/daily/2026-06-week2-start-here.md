@@ -16,7 +16,7 @@ One entry point for re-entering month-week 2 of June 2026. Open before the day l
 
 **Convergence (one line):** `trap + threshold + legitimacy + inverse-lever` — Pape **trap-confirmed**; Marandi/Johnson **five demands** gate; Barnes **dual-channel**; **§224 inverse-pair** (`aid-cut absent` · `mesh advancing` — J12-7 supported, J12-8 partial).
 
-**Archive checkpoint:** [source-archive/statecraft/2026-06.md](../../source-archive/statecraft/2026-06.md) — **6** daily syntheses in week2 range (**08–13** + **14**); archive **7** captures on Jun 13. First capture in week2 **2026-06-08**. **Month compression:** [2026-06.md](./2026-06.md) (partial through Jun 9 — lags week2 close).
+**Archive checkpoint:** [source-archive/statecraft/2026-06.md](../../source-archive/statecraft/2026-06.md) — **6** daily syntheses in week2 range (**08–13** + **14**); archive **7** captures on Jun 13. First capture in week2 **2026-06-08**. **Month compression:** [2026-06.md](./2026-06.md) (partial through **2026-06-19** — includes MOU week; week2 hub ends Jun 14).
 
 **Method:** [METHOD.md § Week Hinge](./METHOD.md#week-hinge-contract)
 
