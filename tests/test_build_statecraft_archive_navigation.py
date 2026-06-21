@@ -260,6 +260,8 @@ def test_build_channel_index_json_main_roster_excludes_misc() -> None:
     assert "scott-ritter" not in slugs
     assert all(row["check_sources"] is True for row in payload["channels"])
     assert payload["stats"]["watchlist_count"] == sum(1 for row in payload["channels"] if row["watchlist"])
+    assert payload["stats"]["discoverable_count"] == 14
+    assert all(row["discoverable"] for row in payload["channels"])
 
 
 def test_load_check_sources_roster_reads_json_or_rebuilds(tmp_path: Path) -> None:

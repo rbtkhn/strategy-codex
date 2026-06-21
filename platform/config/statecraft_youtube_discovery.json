@@ -32,14 +32,23 @@
     "glenn-diesen": "glenn-diesen",
     "Judge Andrew Napolitano": "judging-freedom",
     "Dialogue Works": "dialogue-works",
-    "Nima Alkhorshid": "dialogue-works"
+    "Nima Alkhorshid": "dialogue-works",
+    "Jiang Xueqin": "predictive-history",
+    "Dimitri Lascaris": "reason-to-resist",
+    "Judish Raj": "india-and-global-left",
+    "Sulaiman Ahmed": "moral-resistance",
+    "Moral Resistance": "moral-resistance"
   },
   "series_index_canonical": {
     "The Duran": "alexander-mercouris",
     "Judging Freedom": "judging-freedom",
     "Redacted": "redacted-news",
     "Redacted News": "redacted-news",
-    "Ritter's Rant": "scott-ritter"
+    "Ritter's Rant": "scott-ritter",
+    "Predictive History": "predictive-history",
+    "Reason to Resist": "reason-to-resist",
+    "India and Global Left": "india-and-global-left",
+    "Moral Resistance": "moral-resistance"
   },
   "filename_prefix_index_canonical": [
     ["source-dialogue-works-", "dialogue-works"],
@@ -50,7 +59,12 @@
     ["source-davis-", "daniel-davis"],
     ["source-alkorshid-", "dialogue-works"],
     ["source-redacted-", "redacted-news"],
-    ["source-kiriakou-", "john-kiriakou"]
+    ["source-kiriakou-", "john-kiriakou"],
+    ["source-lascaris-", "reason-to-resist"],
+    ["source-india-and-global-left-", "india-and-global-left"],
+    ["source-moral-resistance-", "moral-resistance"],
+    ["source-game-theory-", "predictive-history"],
+    ["source-interviews-", "predictive-history"]
   ],
   "channel_index_misc_slugs": [
     "jeffrey-sachs",
@@ -172,6 +186,78 @@
       "thread": "redacted",
       "file_prefix": "source-redacted",
       "daily_watchlist": true,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "predictive-history",
+      "channel_name": "Predictive History",
+      "channel_id": "UC11aHtNnc5bEPLI4jf6mnYg",
+      "uploads_playlist_id": "UU11aHtNnc5bEPLI4jf6mnYg",
+      "handle_url": "https://www.youtube.com/@PredictiveHistory",
+      "show": "Predictive History",
+      "host": "Jiang Xueqin",
+      "thread": "jiang",
+      "file_prefix": "source-game-theory",
+      "daily_watchlist": false,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "reason-to-resist",
+      "channel_name": "Reason to Resist",
+      "channel_id": "UCcLnmCiZ691HyvB6UvZq69A",
+      "uploads_playlist_id": "UUcLnmCiZ691HyvB6UvZq69A",
+      "handle_url": "https://www.youtube.com/@reason2resist",
+      "show": "Reason to Resist",
+      "host": "Dimitri Lascaris",
+      "thread": "lascaris",
+      "file_prefix": "source-lascaris",
+      "daily_watchlist": false,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "india-and-global-left",
+      "channel_name": "India and Global Left",
+      "channel_id": "UCBqd_VSxqDngXahpcRp7daA",
+      "uploads_playlist_id": "UUBqd_VSxqDngXahpcRp7daA",
+      "handle_url": "https://www.youtube.com/@IndiaGlobalLeft",
+      "show": "India and Global Left",
+      "host": "Judish Raj",
+      "thread": "india-and-global-left",
+      "file_prefix": "source-india-and-global-left",
+      "daily_watchlist": false,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "moral-resistance",
+      "channel_name": "Moral Resistance",
+      "channel_id": "UCw0Frdh6NPLUnTfE07IqjhA",
+      "uploads_playlist_id": "UUw0Frdh6NPLUnTfE07IqjhA",
+      "handle_url": "https://www.youtube.com/@MoralResistance",
+      "show": "Moral Resistance",
+      "host": "Sulaiman Ahmed",
+      "thread": "moral-resistance",
+      "file_prefix": "source-moral-resistance",
+      "daily_watchlist": false,
       "discovery_priority": [
         "uploads_playlist",
         "channel_feed",

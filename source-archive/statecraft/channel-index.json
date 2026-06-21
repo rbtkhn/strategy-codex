@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-21T11:38:12+00:00",
+  "generated_at": "2026-06-21T11:45:06+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "channel-index.md",
@@ -8,8 +8,8 @@
     "main_channel_count": 14,
     "file_count": 1413,
     "watchlist_count": 6,
-    "discoverable_count": 10,
-    "explicit_slug_count": 13
+    "discoverable_count": 14,
+    "explicit_slug_count": 14
   },
   "channels": [
     {
@@ -102,11 +102,12 @@
       "day_count": 9,
       "watchlist": false,
       "check_sources": true,
-      "discoverable": false,
-      "explicit_slug": false,
-      "channel_url": "",
+      "discoverable": true,
+      "explicit_slug": true,
+      "channel_url": "https://www.youtube.com/@PredictiveHistory",
       "first_day": "2026-04-14",
-      "last_day": "2026-06-10"
+      "last_day": "2026-06-10",
+      "channel_id": "UC11aHtNnc5bEPLI4jf6mnYg"
     },
     {
       "slug": "breaking-points",
@@ -154,11 +155,12 @@
       "day_count": 5,
       "watchlist": false,
       "check_sources": true,
-      "discoverable": false,
+      "discoverable": true,
       "explicit_slug": true,
-      "channel_url": "",
+      "channel_url": "https://www.youtube.com/@reason2resist",
       "first_day": "2026-05-18",
-      "last_day": "2026-06-18"
+      "last_day": "2026-06-18",
+      "channel_id": "UCcLnmCiZ691HyvB6UvZq69A"
     },
     {
       "slug": "redacted-news",
@@ -181,11 +183,12 @@
       "day_count": 3,
       "watchlist": false,
       "check_sources": true,
-      "discoverable": false,
+      "discoverable": true,
       "explicit_slug": true,
-      "channel_url": "",
+      "channel_url": "https://www.youtube.com/@IndiaGlobalLeft",
       "first_day": "2026-05-20",
-      "last_day": "2026-06-11"
+      "last_day": "2026-06-11",
+      "channel_id": "UCBqd_VSxqDngXahpcRp7daA"
     },
     {
       "slug": "moral-resistance",
@@ -194,11 +197,12 @@
       "day_count": 3,
       "watchlist": false,
       "check_sources": true,
-      "discoverable": false,
+      "discoverable": true,
       "explicit_slug": true,
-      "channel_url": "",
+      "channel_url": "https://www.youtube.com/@MoralResistance",
       "first_day": "2026-05-31",
-      "last_day": "2026-06-18"
+      "last_day": "2026-06-18",
+      "channel_id": "UCw0Frdh6NPLUnTfE07IqjhA"
     }
   ]
 }
