@@ -6,7 +6,7 @@ Purpose: canonical route map for materialized John Helmer appearances in **State
 
 ## Corpus note
 
-- **10** direct captures on disk (2026-01-20 → 2026-06-16): **8** `source-alkorshid-helmer-*`, **2** `source-lascaris-helmer-*`
+- **11** direct captures on disk (2026-01-20 → 2026-06-16): **9** `source-alkorshid-helmer-*`, **2** `source-lascaris-helmer-*`
 - **0** authored Substack / solo-site captures in archive (Helmer blog cited in-interview only)
 - **`thread: helmer`** on Jun 09+ lands; earlier rows **`thread: nima`** only — both route here for guest appearances
 
@@ -23,6 +23,10 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 #### 2026-02
 
 - [2026-02-17 - The Kremlin's New Strategy Before Geneva; Madness in the Middle East](../../../source-archive/statecraft/2026-02-17/source-alkorshid-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) — Geneva bifurcated talks; Dmitriev re-dollarization vs Medinsky/Kostikov Ukraine track; Anchorage formula; sea-war / India oil; Iran kill-switch seam
+
+#### 2026-03
+
+- [2026-03-03 - China, Russia & the Iran War: The Nuclear Option](../../../source-archive/statecraft/2026-03-03/source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) — post-Khamenei war; Russia-China non-deterrence; Witkoff deception / Anchorage dead; Lavrov nuclear proliferation warning; Rubio missile aim; China Wang Yi vs Mao Ning; Peskov fifth-column row — [Mar 3 Helmer × Marandi weave](../../notes/2026-03-03-iran-war-weave-helmer-marandi.md) · [Dmitriev arc Feb 17](../../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
 
 #### 2026-04
 
