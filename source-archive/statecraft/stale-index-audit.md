@@ -9,6 +9,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 - Year indices: `ok` (4)
 - Thread index: `ok`
 - Channel index: `ok`
+- Channel index JSON: `ok`
 - Channel index (misc): `ok`
 
 ## Day Index Status
@@ -520,6 +521,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 
 - `thread-index.md`: `ok`
 - `channel-index.md`: `ok`
+- `channel-index.json`: `ok`
 - `channel-index-misc.md`: `ok`
 
 ## Return

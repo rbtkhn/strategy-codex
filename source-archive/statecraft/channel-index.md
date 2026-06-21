@@ -17,6 +17,8 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 - YouTube source files mapped: `1413`
 - Rows with explicit `channel_slug`: `13`
 - Watchlist channels (matched): `6`
+- Check-sources roster (main, misc excluded): `14` — [channel-index.json](./channel-index.json)
+- Discoverable on roster: `10` (YouTube URL or discovery `channel_id` / `handle_url`)
 
 ## Channels
 

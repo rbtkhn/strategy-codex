@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import sys
@@ -244,3 +245,62 @@ def test_channel_index_excludes_misc_slugs_from_main_index() -> None:
     assert "scott-ritter" in misc
     assert "`unknown`" not in rendered
     assert "channel-index-misc.md" in rendered
+    assert "channel-index.json" in rendered
+
+
+def test_build_channel_index_json_main_roster_excludes_misc() -> None:
+    root = REPO_ROOT / "source-archive" / "statecraft"
+    payload = nav.build_channel_index_json(root)
+    slugs = {row["slug"] for row in payload["channels"]}
+
+    assert payload["check_sources_scope"] == "main"
+    assert payload["stats"]["main_channel_count"] == len(payload["channels"])
+    assert "jeffrey-sachs" not in slugs
+    assert "john-kiriakou" not in slugs
+    assert "scott-ritter" not in slugs
+    assert all(row["check_sources"] is True for row in payload["channels"])
+    assert payload["stats"]["watchlist_count"] == sum(1 for row in payload["channels"] if row["watchlist"])
+
+
+def test_load_check_sources_roster_reads_json_or_rebuilds(tmp_path: Path) -> None:
+    import statecraft_youtube_discovery as discovery
+
+    archive_root = tmp_path / "source-archive" / "statecraft"
+    day_dir = archive_root / "2026-05-26"
+    _write(
+        day_dir / "transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md",
+        (
+            "---\n"
+            'title: "Matt Hoh: Why the Pentagon Lies"\n'
+            "source_type: youtube\n"
+            "youtube_id: abc123\n"
+            "show: Judging Freedom\n"
+            "host: Judge Andrew Napolitano\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+    _write(
+        day_dir / "source-kiriakou-anthony-aguilar-gaza-whistleblower-death-by-design-2026-02-27.md",
+        (
+            "---\n"
+            'title: "Gaza whistleblower"\n'
+            "source_type: youtube\n"
+            "youtube_id: def456\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+
+    payload = nav.build_channel_index_json(archive_root)
+    json_path = archive_root / "channel-index.json"
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
+
+    roster = discovery.load_check_sources_roster(root=archive_root)
+    slugs = {row["slug"] for row in roster}
+    assert "judging-freedom" in slugs
+    assert "john-kiriakou" not in slugs
+
+    rebuilt = discovery.load_check_sources_roster(root=archive_root, rebuild=True)
+    assert {row["slug"] for row in rebuilt} == slugs

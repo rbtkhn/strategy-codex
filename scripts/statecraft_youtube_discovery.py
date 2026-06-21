@@ -18,6 +18,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DISCOVERY_CONFIG_PATH = REPO_ROOT / "platform" / "config" / "statecraft_youtube_discovery.json"
 LEGACY_WATCHLIST_PATH = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "cognition-streams-watchlist.json"
 
+try:
+    from statecraft_day_archive import DEFAULT_ROOT as ARCHIVE_DEFAULT_ROOT
+except ImportError:  # pragma: no cover - script import order
+    ARCHIVE_DEFAULT_ROOT = REPO_ROOT / "source-archive" / "statecraft"
+
 
 def resolve_discovery_config_path() -> Path:
     if DISCOVERY_CONFIG_PATH.exists():
@@ -174,3 +179,67 @@ def is_daily_watchlist_slug(slug: str, watchlist_keys: set[str] | None = None) -
         return True
     mapped = load_slug_aliases().get(slug)
     return bool(mapped and mapped in keys)
+
+
+def load_discovery_channel_rows_by_key(path: Path | None = None) -> dict[str, dict[str, Any]]:
+    rows: dict[str, dict[str, Any]] = {}
+    for row in load_discovery_channels(path):
+        key = str(row.get("channel_key") or "").strip()
+        if key:
+            rows[key] = row
+    return rows
+
+
+def is_discoverable_channel(
+    slug: str,
+    channel_url: str = "",
+    discovery_row: dict[str, Any] | None = None,
+    *,
+    discovery_by_key: dict[str, dict[str, Any]] | None = None,
+) -> bool:
+    """True when live YouTube discovery can target this roster slug."""
+    row = discovery_row
+    if row is None:
+        row = (discovery_by_key or load_discovery_channel_rows_by_key()).get(slug) or {}
+    if str(row.get("channel_id") or "").strip():
+        return True
+    if str(row.get("handle_url") or "").strip():
+        return True
+    url = channel_url.strip()
+    if url and not url.startswith("http"):
+        url = f"https://{url}"
+    lowered = url.lower()
+    return "youtube.com" in lowered or "youtu.be" in lowered
+
+
+def channel_index_json_path(root: Path | None = None) -> Path:
+    archive_root = (root or ARCHIVE_DEFAULT_ROOT).resolve()
+    return archive_root / "channel-index.json"
+
+
+def load_channel_index_json(path: Path | None = None) -> dict[str, Any]:
+    json_path = path or channel_index_json_path()
+    return json.loads(json_path.read_text(encoding="utf-8"))
+
+
+def load_check_sources_roster(
+    *,
+    root: Path | None = None,
+    json_path: Path | None = None,
+    rebuild: bool = False,
+) -> list[dict[str, Any]]:
+    """Main channel-index roster for check-sources (misc slugs excluded).
+
+    Reads ``channel-index.json`` when present unless ``rebuild=True``.
+    """
+    if not rebuild:
+        path = json_path or channel_index_json_path(root)
+        if path.is_file():
+            payload = load_channel_index_json(path)
+            return list(payload.get("channels") or [])
+
+    from build_statecraft_archive_navigation import build_channel_index_json
+
+    archive_root = (root or ARCHIVE_DEFAULT_ROOT).resolve()
+    payload = build_channel_index_json(archive_root)
+    return list(payload.get("channels") or [])

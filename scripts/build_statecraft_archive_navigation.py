@@ -5,13 +5,20 @@ from __future__ import annotations
 
 import argparse
 import errno
+import json
 import re
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from build_statecraft_month_indices import build_month_readme, group_day_dirs_by_month, month_key_from_day
+from build_statecraft_month_indices import (
+    build_month_readme,
+    group_day_dirs_by_month,
+    month_key_from_day,
+    write_json_payload,
+)
 from statecraft_day_archive import (
     DEFAULT_ROOT,
     REPO_ROOT,
@@ -29,9 +36,11 @@ from statecraft_day_archive import (
 from statecraft_youtube_discovery import (  # noqa: E402
     canonical_channel_index_slug,
     is_daily_watchlist_slug,
+    is_discoverable_channel,
     load_canonical_channel_labels,
     load_canonical_channel_urls,
     load_daily_watchlist_keys,
+    load_discovery_channel_rows_by_key,
     load_index_slug_canonical,
     load_channel_index_misc_slugs,
     resolve_host_index_slug,
@@ -281,13 +290,110 @@ def _partition_channel_stats(
     return main, misc
 
 
-def build_channel_index(root: Path) -> str:
+def collect_main_channel_stats(root: Path) -> dict[str, ChannelStats]:
+    """Main channel-index stats only; ``channel_index_misc_slugs`` excluded."""
     channel_stats = collect_channel_stats(root)
     misc_slugs = load_channel_index_misc_slugs()
     main_stats, _misc_stats = _partition_channel_stats(channel_stats, misc_slugs)
+    return main_stats
+
+
+def _normalize_channel_url(url: str) -> str:
+    cleaned = url.strip()
+    if cleaned and not cleaned.startswith("http"):
+        return f"https://{cleaned}"
+    return cleaned
+
+
+def _count_discoverable_main(main_stats: dict[str, ChannelStats]) -> int:
+    discovery_by_key = load_discovery_channel_rows_by_key()
+    count = 0
+    for entry in main_stats.values():
+        url = _normalize_channel_url(entry.channel_url or "")
+        if is_discoverable_channel(entry.slug, url, discovery_by_key=discovery_by_key):
+            count += 1
+    return count
+
+
+def build_channel_index_json(root: Path) -> dict[str, Any]:
+    """Machine roster for check-sources — main index only, misc excluded."""
+    main_stats = collect_main_channel_stats(root)
+    watchlist_keys = load_daily_watchlist_keys()
+    discovery_by_key = load_discovery_channel_rows_by_key()
+
+    channels: list[dict[str, Any]] = []
+    discoverable_count = 0
+    watchlist_count = 0
+    for entry in sorted(main_stats.values(), key=lambda item: (-item.file_count, item.slug)):
+        url = _normalize_channel_url(entry.channel_url or "")
+        discovery_row = discovery_by_key.get(entry.slug, {})
+        discoverable = is_discoverable_channel(entry.slug, url, discovery_row)
+        watchlist = is_daily_watchlist_slug(entry.slug, watchlist_keys)
+        if discoverable:
+            discoverable_count += 1
+        if watchlist:
+            watchlist_count += 1
+        row: dict[str, Any] = {
+            "slug": entry.slug,
+            "label": entry.label,
+            "file_count": entry.file_count,
+            "day_count": len(entry.days),
+            "watchlist": watchlist,
+            "check_sources": True,
+            "discoverable": discoverable,
+            "explicit_slug": entry.explicit_slug,
+            "channel_url": url,
+            "first_day": entry.first_day or "",
+            "last_day": entry.last_day or "",
+        }
+        channel_id = str(discovery_row.get("channel_id") or "").strip()
+        if channel_id:
+            row["channel_id"] = channel_id
+        channels.append(row)
+
+    return {
+        "schema_version": 1,
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "check_sources_scope": "main",
+        "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
+        "source_markdown": "channel-index.md",
+        "stats": {
+            "main_channel_count": len(channels),
+            "file_count": sum(item["file_count"] for item in channels),
+            "watchlist_count": watchlist_count,
+            "discoverable_count": discoverable_count,
+            "explicit_slug_count": sum(1 for item in channels if item["explicit_slug"]),
+        },
+        "channels": channels,
+    }
+
+
+def _json_payload_semantically_changed(path: Path, payload: dict[str, object]) -> bool:
+    rendered = json.dumps(payload, indent=2, ensure_ascii=True) + "\n"
+    if not path.exists():
+        return True
+    existing = json.loads(path.read_text(encoding="utf-8"))
+    fresh = json.loads(rendered)
+    for blob in (existing, fresh):
+        blob.pop("generated_at", None)
+    return existing != fresh
+
+
+def write_channel_index_json(path: Path, root: Path, *, check: bool = False) -> tuple[Path, bool]:
+    payload = build_channel_index_json(root)
+    if check:
+        changed = _json_payload_semantically_changed(path, payload)
+        return path, changed
+    return write_json_payload(path, payload, check=False)
+
+
+def build_channel_index(root: Path) -> str:
+    main_stats = collect_main_channel_stats(root)
     watchlist_keys = load_daily_watchlist_keys()
     total_files = sum(entry.file_count for entry in main_stats.values())
     explicit_slug_count = sum(1 for entry in main_stats.values() if entry.explicit_slug)
+    watchlist_matched = sum(1 for entry in main_stats.values() if is_daily_watchlist_slug(entry.slug, watchlist_keys))
+    discoverable_count = _count_discoverable_main(main_stats)
 
     lines = [
         "# Statecraft Archive - YouTube Channel Index",
@@ -311,7 +417,9 @@ def build_channel_index(root: Path) -> str:
         f"- Distinct YouTube channel keys: `{len(main_stats)}`",
         f"- YouTube source files mapped: `{total_files}`",
         f"- Rows with explicit `channel_slug`: `{explicit_slug_count}`",
-        f"- Watchlist channels (matched): `{sum(1 for e in main_stats.values() if is_daily_watchlist_slug(e.slug, watchlist_keys))}`",
+        f"- Watchlist channels (matched): `{watchlist_matched}`",
+        f"- Check-sources roster (main, misc excluded): `{len(main_stats)}` — [channel-index.json](./channel-index.json)",
+        f"- Discoverable on roster: `{discoverable_count}` (YouTube URL or discovery `channel_id` / `handle_url`)",
         "",
         "## Channels",
         "",
@@ -475,6 +583,12 @@ def build_stale_index_audit(root: Path) -> str:
     thread_status = _render_compare_status(thread_path, build_thread_index(root))
     channel_path = root / "channel-index.md"
     channel_status = _render_compare_status(channel_path, build_channel_index(root))
+    channel_json_path = root / "channel-index.json"
+    channel_json_status = (
+        "ok"
+        if not _json_payload_semantically_changed(channel_json_path, build_channel_index_json(root))
+        else ("missing" if not channel_json_path.exists() else "stale")
+    )
     channel_misc_path = root / "channel-index-misc.md"
     channel_misc_status = _render_compare_status(channel_misc_path, build_channel_index_misc(root))
 
@@ -494,6 +608,7 @@ def build_stale_index_audit(root: Path) -> str:
         f"- Year indices: {fmt_counter(year_counter)}",
         f"- Thread index: `{thread_status}`",
         f"- Channel index: `{channel_status}`",
+        f"- Channel index JSON: `{channel_json_status}`",
         f"- Channel index (misc): `{channel_misc_status}`",
         "",
         "## Day Index Status",
@@ -529,6 +644,7 @@ def build_stale_index_audit(root: Path) -> str:
             "",
             f"- `thread-index.md`: `{thread_status}`",
             f"- `channel-index.md`: `{channel_status}`",
+            f"- `channel-index.json`: `{channel_json_status}`",
             f"- `channel-index-misc.md`: `{channel_misc_status}`",
             "",
             "## Return",
@@ -586,6 +702,16 @@ def main() -> int:
         changed_paths.append(channel_path)
         if args.check:
             print(f"stale {channel_path}")
+
+    channel_json_path, channel_json_changed = write_channel_index_json(
+        root / "channel-index.json",
+        root,
+        check=args.check,
+    )
+    if channel_json_changed:
+        changed_paths.append(channel_json_path)
+        if args.check:
+            print(f"stale {channel_json_path}")
 
     channel_misc_path, channel_misc_changed = write_rendered(
         root / "channel-index-misc.md",

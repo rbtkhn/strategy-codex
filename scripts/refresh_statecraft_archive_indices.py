@@ -114,6 +114,16 @@ def refresh_or_check(root: Path, *, check: bool) -> tuple[int, list[Path]]:
         if check:
             print(f"stale {channel_path}")
 
+    channel_json_path, channel_json_changed = nav.write_channel_index_json(
+        root / "channel-index.json",
+        root,
+        check=check,
+    )
+    if channel_json_changed:
+        changed_paths.append(channel_json_path)
+        if check:
+            print(f"stale {channel_json_path}")
+
     channel_misc_path, channel_misc_changed = nav.write_rendered(
         root / "channel-index-misc.md",
         nav.build_channel_index_misc(root),
