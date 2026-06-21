@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.54** — Caesar light human-prose pass: consolidate triple `Later reception` in Pompey, dedupe *dignitas*/ultimatum repeats, vary Ides closing, trim Pharsalus redundancy; `civic-chain-rome-humanize` QA (body 2,400 · quoted 455).
+
 **v0.1.53** — Caesar humanizing prose pass: tightened lede (assumes republic strain), unified `Later reception` weave for Gibbon/Mommsen, removed modern-analyst frames, embodied dictatorship honours; `civic-chain-rome-humanize` QA (body 2,438 · quoted 455).
 
 **v0.1.52** — Caesar light human-prose pass: dedupe Pompey strategy triplet, Pharsalus geo duplicate, Gaul ultimatum, Tacitus tail, Florus meta wrapper; fold pre-H2 Pharsalus block into section; v2 QA (body 2,461 · quoted 455).
