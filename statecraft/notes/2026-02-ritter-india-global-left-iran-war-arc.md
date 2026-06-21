@@ -175,12 +175,14 @@ Apr 9:   PROCESS — no ceasefire; Lebanon spike; Islamabad terms; 40-day read; 
 
 ## Cross-links
 
+- [Ritter × IGL Trump pivot (Feb 22→Mar 2 2025)](./2025-02-ritter-india-global-left-trump-pivot-arc.md) — **upstream separate lane**
+- [**2025 vs 2026 register seam**](./2025-vs-2026-ritter-india-global-left-register-seam.md) — **Mar 2 2025 ≠ Mar 2 2026**; citation split
 - [Freeman × IGL Iran arc (Feb 24→Jun 11)](./2026-02-freeman-india-global-left-iran-war-arc.md) — **same channel**, **order / toll-governance** vs Ritter **attrition / military honesty**
 - [Freeman source index](../voices/freeman/freeman-source-index.md) — **India Global Left** Freeman lane (Feb 24→Jun 11 arc + Dec 2025 NSS)
 - [Ritter source index](../voices/ritter/ritter-source-index.md) — **India Global Left** Ritter rows (this arc + 2025 Trump lane)
 - [Mar 2 source day-index](../../source-archive/statecraft/2026-03-02/day-index.md) — **Pape day-3**, Mercouris, Diesen same **compose day**
 - [Dialogue Works 8 Apr Ritter](../../source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md) — **same-week** ceasefire lane pair for **Apr 9**
-- [India Global Left channel index](../../source-archive/statecraft/channel-index.md) — **13** files: **7** Freeman · **5** Ritter · **1** Marandi (`2025-02-22` → `2026-06-11`)
+- [India Global Left channel index](../../source-archive/statecraft/channel-index.md) — **14** files (`2025-02-22` → `2026-06-11`)
 
 ## Falsifiers
 

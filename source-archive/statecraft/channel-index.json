@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-21T15:28:13+00:00",
+  "generated_at": "2026-06-21T16:03:13+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "channel-index.md",
   "stats": {
     "main_channel_count": 14,
-    "file_count": 1430,
+    "file_count": 1436,
     "watchlist_count": 6,
     "discoverable_count": 14,
     "explicit_slug_count": 14
@@ -99,8 +99,8 @@
     {
       "slug": "india-and-global-left",
       "label": "India and Global Left",
-      "file_count": 14,
-      "day_count": 14,
+      "file_count": 20,
+      "day_count": 20,
       "watchlist": false,
       "check_sources": true,
       "discoverable": true,

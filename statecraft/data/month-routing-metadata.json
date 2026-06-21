@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T15:28:12+00:00",
+  "generated_at": "2026-06-21T16:03:12+00:00",
   "generated_by": "scripts/build_statecraft_month_indices.py",
   "registry_path": "statecraft/data/month-maturity-routing-registry.json",
   "months": {
@@ -125,7 +125,7 @@
     },
     "2025-03": {
       "captured_days": 19,
-      "source_count": 29,
+      "source_count": 32,
       "thread_count": 16,
       "channel_or_show_count": 9,
       "host_count": 9,
@@ -135,11 +135,11 @@
           "signature": "freeman",
           "labels": [
             {
-              "label": "Charles Freeman",
-              "count": 3
+              "label": "Chas Freeman",
+              "count": 4
             },
             {
-              "label": "Chas Freeman",
+              "label": "Charles Freeman",
               "count": 3
             }
           ]
@@ -202,10 +202,10 @@
     },
     "2025-05": {
       "captured_days": 31,
-      "source_count": 63,
-      "thread_count": 17,
-      "channel_or_show_count": 7,
-      "host_count": 7,
+      "source_count": 64,
+      "thread_count": 18,
+      "channel_or_show_count": 8,
+      "host_count": 8,
       "guest_count": 14,
       "guest_label_variants": [
         {
@@ -213,7 +213,7 @@
           "labels": [
             {
               "label": "Chas Freeman",
-              "count": 6
+              "count": 7
             },
             {
               "label": "Charles Freeman",
@@ -231,21 +231,21 @@
     },
     "2025-06": {
       "captured_days": 22,
-      "source_count": 42,
-      "thread_count": 22,
-      "channel_or_show_count": 11,
-      "host_count": 10,
+      "source_count": 43,
+      "thread_count": 23,
+      "channel_or_show_count": 12,
+      "host_count": 11,
       "guest_count": 15,
       "guest_label_variants": [
         {
           "signature": "freeman",
           "labels": [
             {
-              "label": "Charles Freeman",
-              "count": 4
+              "label": "Chas Freeman",
+              "count": 5
             },
             {
-              "label": "Chas Freeman",
+              "label": "Charles Freeman",
               "count": 4
             }
           ]
@@ -357,10 +357,10 @@
     },
     "2025-10": {
       "captured_days": 25,
-      "source_count": 56,
-      "thread_count": 20,
-      "channel_or_show_count": 8,
-      "host_count": 6,
+      "source_count": 57,
+      "thread_count": 21,
+      "channel_or_show_count": 9,
+      "host_count": 7,
       "guest_count": 18,
       "guest_label_variants": [
         {
