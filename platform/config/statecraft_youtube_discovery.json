@@ -37,7 +37,12 @@
     "Dimitri Lascaris": "reason-to-resist",
     "Judish Raj": "india-and-global-left",
     "Sulaiman Ahmed": "moral-resistance",
-    "Moral Resistance": "moral-resistance"
+    "Moral Resistance": "moral-resistance",
+    "Mario Nawfal": "mario-nawfal",
+    "Breaking Points": "breaking-points",
+    "Tucker Carlson": "tucker-carlson",
+    "Pascal Lottaz": "neutrality-studies",
+    "Neutrality Studies": "neutrality-studies"
   },
   "series_index_canonical": {
     "The Duran": "alexander-mercouris",
@@ -48,7 +53,8 @@
     "Predictive History": "predictive-history",
     "Reason to Resist": "reason-to-resist",
     "India and Global Left": "india-and-global-left",
-    "Moral Resistance": "moral-resistance"
+    "Moral Resistance": "moral-resistance",
+    "Breaking Points": "breaking-points"
   },
   "filename_prefix_index_canonical": [
     ["source-dialogue-works-", "dialogue-works"],
@@ -64,7 +70,10 @@
     ["source-india-and-global-left-", "india-and-global-left"],
     ["source-moral-resistance-", "moral-resistance"],
     ["source-game-theory-", "predictive-history"],
-    ["source-interviews-", "predictive-history"]
+    ["source-interviews-", "predictive-history"],
+    ["source-breaking-points-", "breaking-points"],
+    ["source-nawfal-", "mario-nawfal"],
+    ["source-neutrality-studies-", "neutrality-studies"]
   ],
   "channel_index_misc_slugs": [
     "jeffrey-sachs",
@@ -257,6 +266,78 @@
       "host": "Sulaiman Ahmed",
       "thread": "moral-resistance",
       "file_prefix": "source-moral-resistance",
+      "daily_watchlist": false,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "mario-nawfal",
+      "channel_name": "Mario Nawfal",
+      "channel_id": "UCTWBp-39z6tvz4-LQB-Z_QA",
+      "uploads_playlist_id": "UUTWBp-39z6tvz4-LQB-Z_QA",
+      "handle_url": "https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA",
+      "show": "Mario Nawfal",
+      "host": "Mario Nawfal",
+      "thread": "nawfal",
+      "file_prefix": "source-nawfal",
+      "daily_watchlist": false,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "breaking-points",
+      "channel_name": "Breaking Points",
+      "channel_id": "UCDRIjKy6eZOvKtOELtTdeUA",
+      "uploads_playlist_id": "UUDRIjKy6eZOvKtOELtTdeUA",
+      "handle_url": "https://www.youtube.com/@BreakingPoints",
+      "show": "Breaking Points",
+      "host": "Breaking Points",
+      "thread": "breaking-points",
+      "file_prefix": "source-breaking-points",
+      "daily_watchlist": false,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "neutrality-studies",
+      "channel_name": "Neutrality Studies",
+      "channel_id": "UCHdLVKdAeG6zAeZMGZh91bg",
+      "uploads_playlist_id": "UUHdLVKdAeG6zAeZMGZh91bg",
+      "handle_url": "https://www.youtube.com/@neutralitystudies",
+      "show": "Neutrality Studies",
+      "host": "Pascal Lottaz",
+      "thread": "neutrality-studies",
+      "file_prefix": "source-neutrality-studies",
+      "daily_watchlist": false,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "tucker-carlson",
+      "channel_name": "Tucker Carlson",
+      "channel_id": "UCGttrUON87gWfU6dMWm1fcA",
+      "uploads_playlist_id": "UUGttrUON87gWfU6dMWm1fcA",
+      "handle_url": "https://www.youtube.com/@TuckerCarlson",
+      "show": "Tucker Carlson",
+      "host": "Tucker Carlson",
+      "thread": "carlson",
+      "file_prefix": "source-carlson",
       "daily_watchlist": false,
       "discovery_priority": [
         "uploads_playlist",

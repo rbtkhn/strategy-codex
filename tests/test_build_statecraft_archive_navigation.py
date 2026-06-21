@@ -264,6 +264,19 @@ def test_build_channel_index_json_main_roster_excludes_misc() -> None:
     assert all(row["discoverable"] for row in payload["channels"])
 
 
+def test_main_roster_slugs_have_full_discovery_rows() -> None:
+    import statecraft_youtube_discovery as discovery
+
+    roster = discovery.load_check_sources_roster(rebuild=True)
+    by_key = discovery.load_discovery_channel_rows_by_key()
+    slugs = {row["slug"] for row in roster}
+    assert len(slugs) == 14
+    for slug in slugs:
+        assert slug in by_key, slug
+        assert str(by_key[slug].get("channel_id") or "").startswith("UC"), slug
+        assert str(by_key[slug].get("handle_url") or "").startswith("http"), slug
+
+
 def test_load_check_sources_roster_reads_json_or_rebuilds(tmp_path: Path) -> None:
     import statecraft_youtube_discovery as discovery
 
