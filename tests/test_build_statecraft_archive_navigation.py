@@ -165,3 +165,33 @@ def test_stale_index_audit_marks_ok_stale_and_missing(tmp_path: Path) -> None:
     assert "- Month indices: `ok` (1)" in rendered
     assert "- Year indices: `ok` (1)" in rendered
     assert "- Thread index: `ok`" in rendered
+
+
+def test_channel_registry_key_routes_configured_host_only_davis_captures() -> None:
+    davis_meta = {
+        "source_type": "youtube",
+        "youtube_id": "abc123",
+        "host": "Daniel Davis / Deep Dive",
+    }
+    slug, label, explicit = nav._channel_registry_key(davis_meta)
+    assert slug == "daniel-davis"
+    assert label == "Daniel Davis / Deep Dive"
+    assert explicit is False
+
+    napolitano_meta = {
+        "source_type": "youtube",
+        "youtube_id": "xyz789",
+        "host": "Judge Andrew Napolitano",
+    }
+    slug, _, _ = nav._channel_registry_key(napolitano_meta)
+    assert slug == "napolitano"
+
+    diesen_fname_meta = {
+        "source_type": "youtube",
+        "youtube_id": "def456",
+    }
+    slug, _, _ = nav._channel_registry_key(
+        diesen_fname_meta,
+        "source-diesen-wilkerson-ceasefire-fails-2026-04-10.md",
+    )
+    assert slug == "glenn-diesen"

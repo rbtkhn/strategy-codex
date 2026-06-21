@@ -39,14 +39,11 @@ from youtube_transcripts.ytdlp_adapter import (  # noqa: E402
     normalize_upload_date,
     watch_url,
 )
-
-WATCHLIST_PATH = (
-    REPO_ROOT
-    / "docs"
-    / "skill-work"
-    / "work-strategy"
-    / "cognition-streams-watchlist.json"
+from statecraft_youtube_discovery import (  # noqa: E402
+    load_discovery_channels,
+    resolve_discovery_config_path,
 )
+
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "youtube-raw-input"
 DEFAULT_ROUTING_OUT = ARTIFACTS_DIR / "speaker-routing"
@@ -124,11 +121,13 @@ def canonical_watch_url(value: str) -> str:
     return watch_url(video_id) if video_id else value.strip()
 
 
-def load_watchlist(path: Path = WATCHLIST_PATH) -> dict[str, WatchlistSpec]:
-    data = json.loads(path.read_text(encoding="utf-8"))
+def load_watchlist(path: Path | None = None) -> dict[str, WatchlistSpec]:
+    config_path = path or resolve_discovery_config_path()
     out: dict[str, WatchlistSpec] = {}
-    for row in data.get("channels") or []:
-        spec = WatchlistSpec(**row)
+    field_names = {field.name for field in WatchlistSpec.__dataclass_fields__.values()}
+    for row in load_discovery_channels(config_path):
+        filtered = {key: row[key] for key in field_names if key in row}
+        spec = WatchlistSpec(**filtered)
         out[spec.channel_key] = spec
     return out
 

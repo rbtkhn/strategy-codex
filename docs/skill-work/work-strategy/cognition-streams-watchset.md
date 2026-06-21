@@ -23,3 +23,5 @@ What binds them is that, taken together, they provide a repeatable daily spread 
 That is enough difference to make the set useful, but not so much sprawl that the daily pass becomes diffuse.
 
 So the watchset is intentionally smaller than the full cognition-stream lattice. It is a **daily operating quintet**, not a claim that these are the only important streams in the notebook.
+
+**Config / listing:** Daily discovery metadata lives in [`platform/config/statecraft_youtube_discovery.json`](../../../platform/config/statecraft_youtube_discovery.json) (`daily_watchlist: true`). YouTube channel registry: [`source-archive/statecraft/channel-index.md`](../../../source-archive/statecraft/channel-index.md) (YouTube only). Deprecated: [COGNITION-STREAMS-WATCHLIST-DEPRECATED.md](COGNITION-STREAMS-WATCHLIST-DEPRECATED.md).

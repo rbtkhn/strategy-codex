@@ -36,14 +36,11 @@ from youtube_transcripts.ytdlp_adapter import (  # noqa: E402
     normalize_upload_date,
     watch_url,
 )
-
-WATCHLIST_PATH = (
-    REPO_ROOT
-    / "docs"
-    / "skill-work"
-    / "work-strategy"
-    / "cognition-streams-watchlist.json"
+from statecraft_youtube_discovery import (  # noqa: E402
+    load_discovery_channels,
+    resolve_discovery_config_path,
 )
+
 DEFAULT_OUT_DIR = ARTIFACTS_DIR / "cognition-streams"
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / str(date.today().year)
 DEFAULT_RECEIPT_ROOT = REPO_ROOT / ".codex-tmp" / "cognition-streams"
@@ -128,11 +125,13 @@ def _window_slug(start: date, end: date) -> str:
     return f"{start.isoformat()}_to_{end.isoformat()}"
 
 
-def _load_watchlist(path: Path = WATCHLIST_PATH) -> dict[str, ChannelSpec]:
-    data = json.loads(path.read_text(encoding="utf-8"))
+def _load_watchlist(path: Path | None = None) -> dict[str, ChannelSpec]:
+    config_path = path or resolve_discovery_config_path()
     out: dict[str, ChannelSpec] = {}
-    for row in data.get("channels") or []:
-        spec = ChannelSpec(**row)
+    field_names = {field.name for field in ChannelSpec.__dataclass_fields__.values()}
+    for row in load_discovery_channels(config_path):
+        filtered = {key: row[key] for key in field_names if key in row}
+        spec = ChannelSpec(**filtered)
         out[spec.channel_key] = spec
     return out
 
@@ -424,7 +423,7 @@ def _is_upcoming(row: dict[str, Any]) -> bool:
 
 def _find_companion_parent(row: dict[str, Any], peers: list[dict[str, Any]]) -> tuple[dict[str, Any] | None, str | None]:
     channel_key = str(row.get("channel_key") or "")
-    if channel_key in {"glenn-diesen", "alex-mercouris"}:
+    if channel_key in {"glenn-diesen", "alexander-mercouris", "alex-mercouris"}:
         return None, None
 
     title = str(row.get("title") or "")
@@ -456,7 +455,7 @@ def _find_companion_parent(row: dict[str, Any], peers: list[dict[str, Any]]) -> 
         lead_overlap = len(lead_tokens & cand_lead_tokens)
         narrower = len(tokens & NARROWER_CUES) > 0
 
-        if channel_key == "daniel-davis-deep-dive":
+        if channel_key in {"daniel-davis", "daniel-davis-deep-dive"}:
             if lead_overlap >= 1 and cand_duration >= duration + 300:
                 score = 10 + lead_overlap + overlap
                 if score > best_score:
@@ -525,7 +524,7 @@ def _classify_rows(
             parent, reason = _find_companion_parent(row, peers)
             if parent is not None:
                 classification = "hidden-companion"
-                confidence = "high" if channel_key == "daniel-davis-deep-dive" else "medium"
+                confidence = "high" if channel_key in {"daniel-davis", "daniel-davis-deep-dive"} else "medium"
                 priority = "hide-default"
                 same_day_parent_id = str(parent.get("youtube_id") or parent.get("id") or "")
                 if reason:
@@ -748,7 +747,7 @@ def run_audit(
     fmt: str,
     offline: bool,
     receipt_root: Path = DEFAULT_RECEIPT_ROOT,
-    watchlist_path: Path = WATCHLIST_PATH,
+    watchlist_path: Path | None = None,
 ) -> dict[str, Any]:
     watchlist = _load_watchlist(watchlist_path)
     selected = [watchlist[key] for key in (channel_keys or list(watchlist.keys()))]

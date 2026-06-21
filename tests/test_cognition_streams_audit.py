@@ -16,11 +16,11 @@ def test_default_watchlist_is_five_stream_daily_set() -> None:
     watchlist = csa._load_watchlist()
 
     assert list(watchlist) == [
-        "daniel-davis-deep-dive",
+        "daniel-davis",
         "glenn-diesen",
         "dialogue-works",
         "napolitano",
-        "alex-mercouris",
+        "alexander-mercouris",
     ]
     napolitano = watchlist["napolitano"]
     assert napolitano.channel_id == "UCDkEYb-TXJVWLvOokshtlsw"
@@ -222,8 +222,8 @@ def test_may_regression_classifications_and_queue(tmp_path: Path) -> None:
         json.dumps(_receipt("glenn-diesen", "Glenn Diesen", glenn_rows), indent=2),
         encoding="utf-8",
     )
-    (receipts / "daniel-davis-deep-dive.discovery.json").write_text(
-        json.dumps(_receipt("daniel-davis-deep-dive", "Daniel Davis / Deep Dive", davis_rows), indent=2),
+    (receipts / "daniel-davis.discovery.json").write_text(
+        json.dumps(_receipt("daniel-davis", "Daniel Davis / Deep Dive", davis_rows), indent=2),
         encoding="utf-8",
     )
     (receipts / "dialogue-works.discovery.json").write_text(
@@ -249,7 +249,7 @@ def test_may_regression_classifications_and_queue(tmp_path: Path) -> None:
                         "discovery_priority": csa.DISCOVERY_SOURCE_ORDER,
                     },
                     {
-                        "channel_key": "daniel-davis-deep-dive",
+                        "channel_key": "daniel-davis",
                         "channel_name": "Daniel Davis / Deep Dive",
                         "channel_id": "UCWDN5zr5ttctoIAhZwW6tcQ",
                         "uploads_playlist_id": "UUWDN5zr5ttctoIAhZwW6tcQ",
@@ -382,7 +382,7 @@ def test_summary_reports_target_date_even_when_undated_backlog_is_below_threshol
         },
         {
             "date": "2026-05-16",
-            "channel_key": "daniel-davis-deep-dive",
+            "channel_key": "daniel-davis",
             "classification": "captured-main",
             "priority": "none",
             "captured": 1,

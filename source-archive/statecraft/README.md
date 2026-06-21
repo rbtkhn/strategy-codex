@@ -27,6 +27,7 @@ Useful indices:
 
 - Year indices: [2025.md](/C:/dev/strategy-codex/source-archive/statecraft/2025.md), [2026.md](/C:/dev/strategy-codex/source-archive/statecraft/2026.md)
 - Thread index: [thread-index.md](/C:/dev/strategy-codex/source-archive/statecraft/thread-index.md)
+- Channel index: [channel-index.md](/C:/dev/strategy-codex/source-archive/statecraft/channel-index.md)
 - Stale audit: [stale-index-audit.md](/C:/dev/strategy-codex/source-archive/statecraft/stale-index-audit.md)
 - Jiang / Predictive History raw-capture master index: [jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md)
 - Public Predictive History lecture index inside the official Jiang mirror: [statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md)

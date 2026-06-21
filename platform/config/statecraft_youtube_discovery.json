@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "slug_aliases": {
+    "judging-freedom": "napolitano",
+    "alex-mercouris": "alexander-mercouris",
+    "the-duran": "alexander-mercouris",
+    "mercouris": "alexander-mercouris",
+    "daniel-davis-deep-dive": "daniel-davis",
+    "youtube-deep-dive-daniel-davis-confirm-channel": "daniel-davis"
+  },
+  "index_slug_canonical": {
+    "diesen": "glenn-diesen",
+    "diesen-greater-eurasia": "glenn-diesen",
+    "diesen-greater-eurasia-podcast": "glenn-diesen",
+    "glenn-diesen-channel-program-pin-canonical-series-title-when-pinned": "glenn-diesen",
+    "glenn-diesen-channel-program-pin-canonical-series-title-when-known": "glenn-diesen",
+    "diesen-host-pepe-escobar-guest-not-strategy-expert-id-named-in-copy": "glenn-diesen",
+    "judging-freedom": "napolitano",
+    "judge-napolitano-judging-freedom": "napolitano",
+    "alex-mercouris": "alexander-mercouris",
+    "the-duran": "alexander-mercouris",
+    "mercouris": "alexander-mercouris",
+    "daniel-davis-deep-dive": "daniel-davis",
+    "youtube-deep-dive-daniel-davis-confirm-channel": "daniel-davis"
+  },
+  "host_index_canonical": {
+    "Daniel Davis": "daniel-davis",
+    "Daniel Davis / Deep Dive": "daniel-davis",
+    "daniel-davis": "daniel-davis",
+    "Glenn Diesen": "glenn-diesen",
+    "glenn-diesen": "glenn-diesen",
+    "Judge Andrew Napolitano": "napolitano",
+    "Dialogue Works": "dialogue-works",
+    "Nima Alkhorshid": "dialogue-works"
+  },
+  "filename_prefix_index_canonical": [
+    ["source-dialogue-works-", "dialogue-works"],
+    ["source-glenn-diesen-", "glenn-diesen"],
+    ["source-diesen-", "glenn-diesen"],
+    ["source-napolitano-", "napolitano"],
+    ["transcript-napolitano-", "napolitano"],
+    ["source-davis-", "daniel-davis"],
+    ["source-alkorshid-", "dialogue-works"]
+  ],
+  "channels": [
+    {
+      "channel_key": "daniel-davis",
+      "channel_name": "Daniel Davis / Deep Dive",
+      "channel_id": "UCWDN5zr5ttctoIAhZwW6tcQ",
+      "uploads_playlist_id": "UUWDN5zr5ttctoIAhZwW6tcQ",
+      "handle_url": "https://www.youtube.com/@DanielDavisDeepDive",
+      "show": "Daniel Davis Deep Dive",
+      "host": "Daniel Davis",
+      "thread": "davis",
+      "file_prefix": "youtube-daniel-davis-deep-dive",
+      "daily_watchlist": true,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "glenn-diesen",
+      "channel_name": "Glenn Diesen",
+      "channel_id": "UCZFCDIHTe9HGxtIuVDpBz7g",
+      "uploads_playlist_id": "UUZFCDIHTe9HGxtIuVDpBz7g",
+      "handle_url": "https://www.youtube.com/@GDiesen1",
+      "show": "Glenn Diesen",
+      "host": "Glenn Diesen",
+      "thread": "diesen",
+      "file_prefix": "youtube-glenn-diesen",
+      "daily_watchlist": true,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "dialogue-works",
+      "channel_name": "Dialogue Works",
+      "channel_id": "UCkF-6h_Zgf9zXNUmUB-MzTw",
+      "uploads_playlist_id": "UUkF-6h_Zgf9zXNUmUB-MzTw",
+      "handle_url": "https://www.youtube.com/@dialogueworks01",
+      "show": "Dialogue Works",
+      "host": "Nima Alkhorshid",
+      "thread": "nima",
+      "file_prefix": "transcript-dialogue-works",
+      "daily_watchlist": true,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "napolitano",
+      "channel_name": "Judge Napolitano - Judging Freedom",
+      "channel_id": "UCDkEYb-TXJVWLvOokshtlsw",
+      "uploads_playlist_id": "UUDkEYb-TXJVWLvOokshtlsw",
+      "handle_url": "https://www.youtube.com/@judgingfreedom",
+      "show": "Judging Freedom",
+      "host": "Judge Andrew Napolitano",
+      "thread": "napolitano",
+      "file_prefix": "transcript-napolitano",
+      "daily_watchlist": true,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    },
+    {
+      "channel_key": "alexander-mercouris",
+      "channel_name": "Alexander Mercouris",
+      "channel_id": "UCwGpHa6rMLjSSCBlckm5khw",
+      "uploads_playlist_id": "UUwGpHa6rMLjSSCBlckm5khw",
+      "handle_url": "https://www.youtube.com/@AlexMercouris",
+      "show": "Alexander Mercouris",
+      "host": "Alexander Mercouris",
+      "thread": "mercouris",
+      "file_prefix": "youtube-alex-mercouris",
+      "daily_watchlist": true,
+      "discovery_priority": [
+        "uploads_playlist",
+        "channel_feed",
+        "videos_page",
+        "inventory_appendix"
+      ]
+    }
+  ]
+}
