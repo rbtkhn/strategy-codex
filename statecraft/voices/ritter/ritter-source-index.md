@@ -10,11 +10,11 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 ## 2025-02
 
-- [india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22](../../../source-archive/statecraft/2025-02-22/source-india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md) — **India Global Left** · cleaned-transcript · **2025 Trump pivot lane** (pair 2025-03-02; not 2026 Iran arc)
+- [india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22](../../../source-archive/statecraft/2025-02-22/source-india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md) — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/2025-02-ritter-india-global-left-trump-pivot-arc.md) beat 1 (pair 2025-03-02; **not** 2026 Iran arc)
 
 ## 2025-03
 
-- [india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02](../../../source-archive/statecraft/2025-03-02/source-india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md) — **India Global Left** · cleaned-transcript · post–Oval Office fiasco; **2025 Trump pivot lane**
+- [india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02](../../../source-archive/statecraft/2025-03-02/source-india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md) — **India Global Left** · cleaned-transcript · [2025 Trump pivot arc](../../notes/2025-02-ritter-india-global-left-trump-pivot-arc.md) beat 2 (Oval fiasco receipt)
 
 ## 2025-05
 
@@ -144,7 +144,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [substack-ritter-the-revenge-tour-2026-2026-06-01](../../../source-archive/statecraft/2026-06-01/source-ritter-the-revenge-tour-2026-2026-06-01.md)
 - [substack-ritter-shoot-the-dog-2026-06-10](../../../source-archive/statecraft/2026-06-10/source-ritter-shoot-the-dog-2026-06-10.md)
 
-**Doctrine arc:** [Ritter × Karaganov (2026 H1 → SPIEF fence)](../../notes/ritter-karaganov-doctrine-arc-2026.md) · [Ritter × India Global Left Iran war (Feb 20→Apr 9 2026)](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) · [Freeman × IGL Iran arc (Feb 24→Jun 11)](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · **2025 IGL Trump pivot (separate):** 2025-02-22 + 2025-03-02 above
+**Doctrine arc:** [Ritter × Karaganov (2026 H1 → SPIEF fence)](../../notes/ritter-karaganov-doctrine-arc-2026.md) · [Ritter × India Global Left Iran war (Feb 20→Apr 9 2026)](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) · [Ritter × IGL Trump pivot (Feb 22→Mar 2 2025)](../../notes/2025-02-ritter-india-global-left-trump-pivot-arc.md) · [Freeman × IGL Iran arc (Feb 24→Jun 11)](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md)
 
 ## Discovery Surfaces
 
