@@ -9,12 +9,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Writer sources: `1`
 - Other sources: `2`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (3), `operator-transcript` (1), `substack-post` (1)
+- Body kind mix: `transcript` (2), `cleaned-transcript` (1), `operator-transcript` (1), `substack-post` (1)
 - Source form mix: `post` (2), `interview` (1), `newsletter` (1), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `1`
-- Distinct threads: `4`
+- Distinct threads: `5`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Judish Raj` (1), `Robert Pape` (1)
 - Guests: `Chas Freeman` (1)
-- Threads: `davis` (2), `freeman` (1), `mercouris` (1), `pape` (1)
+- Threads: `davis` (2), `freeman` (1), `india-and-global-left` (1), `mercouris` (1), `pape` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=apJGoK1HqIU) | `source-alex-mercouris-russia-aids-iran-target-us-bases-oil-crisis-gulf-states-call-russia-us-e-2026-03-07.md` |
-| `india-and-global-left` | India and Global Left | `freeman` | [gltqzfUnhFg](https://www.youtube.com/watch?v=gltqzfUnhFg) | `source-india-and-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md` |
+| `india-and-global-left` | India and Global Left | `freeman`, `india-and-global-left` | [gltqzfUnhFg](https://www.youtube.com/watch?v=gltqzfUnhFg) | `source-india-and-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md` |
 
 ## Writer sources
 

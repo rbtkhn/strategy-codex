@@ -4,27 +4,27 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `1`
-- Channel sources: `0`
+- Source files: `2`
+- Channel sources: `1`
 - Writer sources: `0`
 - Other sources: `1`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `youtube` (1)
-- Source form mix: `interview` (1)
-- Distinct channels/shows: `1`
-- Distinct hosts: `1`
-- Distinct guests: `1`
-- Distinct threads: `1`
+- Body kind mix: `cleaned-transcript` (1), `youtube` (1)
+- Source form mix: `interview` (2)
+- Distinct channels/shows: `2`
+- Distinct hosts: `2`
+- Distinct guests: `2`
+- Distinct threads: `3`
 
 ## Channel / Show Rollup
 
-- `Jeffrey Sachs` (1)
+- `India and Global Left` (1), `Jeffrey Sachs` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Jeffrey Sachs` (1)
-- Guests: `Jeffrey Sachs` (1)
-- Threads: `sachs` (1)
+- Hosts: `Jeffrey Sachs` (1), `Judish Raj` (1)
+- Guests: `Jeffrey Sachs` (1), `Scott Ritter` (1)
+- Threads: `india-and-global-left` (1), `ritter` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| _none_ | — | — | — | — |
+| `india-and-global-left` | India and Global Left | `ritter`, `india-and-global-left` | [J15KBqfx1Ic](https://www.youtube.com/watch?v=J15KBqfx1Ic) | `source-india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md` |
 
 ## Writer sources
 
@@ -52,4 +52,5 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
+- `source-india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md`
 - `source-sachs-trump-zelenskyy-meeting-and-what-comes-next-2025-03-02.md`

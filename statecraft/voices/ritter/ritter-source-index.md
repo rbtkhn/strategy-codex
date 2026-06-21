@@ -8,6 +8,14 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 - [transcript-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05](../../../source-archive/statecraft/2025-01-05/source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md)
 
+## 2025-02
+
+- [india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22](../../../source-archive/statecraft/2025-02-22/source-india-and-global-left-trump-russia-ukraine-war-scott-ritter-2025-02-22.md) — **India Global Left** · cleaned-transcript · **2025 Trump pivot lane** (pair 2025-03-02; not 2026 Iran arc)
+
+## 2025-03
+
+- [india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02](../../../source-archive/statecraft/2025-03-02/source-india-and-global-left-trump-zelensky-fiasco-scott-ritter-2025-03-02.md) — **India Global Left** · cleaned-transcript · post–Oval Office fiasco; **2025 Trump pivot lane**
+
 ## 2025-05
 
 - [youtube-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24](../../../source-archive/statecraft/2025-05-24/source-glenn-diesen-scott-ritter-scott-ritter-will-trump-own-the-ukraine-war-or-walk-away-2025-05-24.md)
@@ -71,6 +79,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [transcript-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11](../../../source-archive/statecraft/2026-02-11/source-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md)
 - [transcript-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18](../../../source-archive/statecraft/2026-02-18/source-dialogue-works-scott-ritter-hormuz-blocked-iran-s-missile-fire-can-leave-the-us-navy-de-2026-02-18.md)
 - [youtube-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19](../../../source-archive/statecraft/2026-02-19/source-glenn-diesen-scott-ritter-u-s-revives-empire-europe-is-no-longer-an-ally-2026-02-19.md)
+- [india-and-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20](../../../source-archive/statecraft/2026-02-20/source-india-and-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md) — **India Global Left** · cleaned-transcript · [IGL Iran arc](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) beat 1 (pre-kinetic)
 - [substack-ritter-dead-at-27-2026-02-20](../../../source-archive/statecraft/2026-02-20/source-ritter-dead-at-27-2026-02-20.md)
 - [substack-ritter-the-flamingo-effect-2026-02-22](../../../source-archive/statecraft/2026-02-22/source-ritter-the-flamingo-effect-2026-02-22.md)
 - [transcript-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23](../../../source-archive/statecraft/2026-02-23/source-napolitano-ritter-what-war-with-iran-will-look-like-2026-02-23.md)
@@ -78,6 +87,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 ## 2026-03
 
+- [india-and-global-left-prove-me-wrong-scott-ritter-2026-03-02](../../../source-archive/statecraft/2026-03-02/source-india-and-global-left-prove-me-wrong-scott-ritter-2026-03-02.md) — **India Global Left** · cleaned-transcript · [IGL Iran arc](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) beat 2 (day ~3 kinetic)
 - [substack-ritter-regime-change-double-edged-sword-2026-03-01](../../../source-archive/statecraft/2026-03-01/source-ritter-regime-change-double-edged-sword-2026-03-01.md)
 - [youtube-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04](../../../source-archive/statecraft/2026-03-04/source-dialogue-works-scott-ritter-iran-wins-the-long-war-us-israel-losing-ground-2026-03-04.md)
 - [youtube-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06](../../../source-archive/statecraft/2026-03-06/source-daniel-davis-deep-dive-scott-ritter-lt-col-daniel-davis-iran-hitting-our-bases-like-no-enemy-be-2026-03-06.md)
@@ -95,6 +105,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 
 ## 2026-04
 
+- [india-and-global-left-no-ceasefire-scott-ritter-2026-04-09](../../../source-archive/statecraft/2026-04-09/source-india-and-global-left-no-ceasefire-scott-ritter-2026-04-09.md) — **India Global Left** · cleaned-transcript · [IGL Iran arc](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) beat 3 (ceasefire fiction)
 - [substack-ritter-why-i-no-longer-stand-with-israel-redux-2026-04-01](../../../source-archive/statecraft/2026-04-01/source-ritter-why-i-no-longer-stand-with-israel-redux-2026-04-01.md)
 - [transcript-dialogue-works-scott-ritter-will-iran-force-the-us-out-of-the-middle-east-2026-04-02](../../../source-archive/statecraft/2026-04-02/source-dialogue-works-scott-ritter-will-iran-force-the-us-out-of-the-middle-east-2026-04-02.md)
 - [substack-ritter-combat-search-and-rescue-prequel-2026-04-03](../../../source-archive/statecraft/2026-04-03/source-ritter-combat-search-and-rescue-prequel-2026-04-03.md)
@@ -133,7 +144,7 @@ Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott
 - [substack-ritter-the-revenge-tour-2026-2026-06-01](../../../source-archive/statecraft/2026-06-01/source-ritter-the-revenge-tour-2026-2026-06-01.md)
 - [substack-ritter-shoot-the-dog-2026-06-10](../../../source-archive/statecraft/2026-06-10/source-ritter-shoot-the-dog-2026-06-10.md)
 
-**Doctrine arc:** [Ritter × Karaganov (2026 H1 → SPIEF fence)](../../notes/ritter-karaganov-doctrine-arc-2026.md)
+**Doctrine arc:** [Ritter × Karaganov (2026 H1 → SPIEF fence)](../../notes/ritter-karaganov-doctrine-arc-2026.md) · [Ritter × India Global Left Iran war (Feb 20→Apr 9 2026)](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) · [Freeman × IGL Iran arc (Feb 24→Jun 11)](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · **2025 IGL Trump pivot (separate):** 2025-02-22 + 2025-03-02 above
 
 ## Discovery Surfaces
 

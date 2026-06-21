@@ -9,12 +9,12 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Writer sources: `3`
 - Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (5), `substack-post` (2), `paste-bundle` (1)
+- Body kind mix: `transcript` (4), `substack-post` (2), `cleaned-transcript` (1), `paste-bundle` (1)
 - Source form mix: `interview` (4), `newsletter` (3), `solo` (1)
 - Distinct channels/shows: `6`
 - Distinct hosts: `5`
 - Distinct guests: `3`
-- Distinct threads: `9`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Judish Raj` (1), `Robert Pape` (1)
 - Guests: `Chas Freeman` (2), `Jacques Baud` (1), `Ted Postol` (1)
-- Threads: `freeman` (2), `nima` (2), `baud` (1), `crooke` (1), `diesen` (1), `mercouris` (1), `pape` (1), `postol` (1), `simplicius` (1)
+- Threads: `freeman` (2), `nima` (2), `baud` (1), `crooke` (1), `diesen` (1), `india-and-global-left` (1), `mercouris` (1), `pape` (1), `postol` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `dialogue-works` | Dialogue Works | `nima`, `baud` | [w00jitzvnTM](https://www.youtube.com/watch?v=w00jitzvnTM) | `source-dialogue-works-col-jacques-baud-iran-s-billion-power-move-monetizing-the-wo-2026-03-23.md` |
 | `dialogue-works` | Dialogue Works | `nima`, `postol` | [FOs4skvj5F8](https://www.youtube.com/watch?v=FOs4skvj5F8) | `source-dialogue-works-prof-ted-postol-israel-s-air-defense-in-total-collapse-2026-03-23.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=CxwzzS5K2o0) | `source-glenn-diesen-chas-freeman-trump-back-down-armageddon-postponed-2026-03-23.md` |
-| `india-and-global-left` | India and Global Left | `freeman` | [m3J53lNJiFk](https://www.youtube.com/watch?v=m3J53lNJiFk) | `source-india-and-global-left-geo-historical-shift-chas-freeman-2026-03-23.md` |
+| `india-and-global-left` | India and Global Left | `freeman`, `india-and-global-left` | [m3J53lNJiFk](https://www.youtube.com/watch?v=m3J53lNJiFk) | `source-india-and-global-left-geo-historical-shift-chas-freeman-2026-03-23.md` |
 
 ## Writer sources
 
