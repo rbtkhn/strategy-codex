@@ -391,6 +391,7 @@ def iter_source_files(day_dir: Path) -> list[Path]:
             path
             for path in day_dir.glob("*.md")
             if path.name != "README.md"
+            and path.name != DAY_INDEX_FILENAME
             and not any(path.name.startswith(prefix) for prefix in HELPER_NOTE_PREFIXES)
         ],
         key=lambda path: path.name,

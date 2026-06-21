@@ -4,13 +4,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `6`
+- Source files: `5`
 - Channel sources: `3`
 - Writer sources: `2`
-- Other sources: `1`
+- Other sources: `0`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (2), `day` (1), `operator-transcript` (1), `source` (1), `substack-post` (1)
-- Source form mix: `interview` (2), `newsletter` (2), `post` (1), `solo` (1)
+- Body kind mix: `transcript` (2), `operator-transcript` (1), `source` (1), `substack-post` (1)
+- Source form mix: `interview` (2), `newsletter` (2), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -51,11 +51,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| — | — | — | `day-index.md` |
+| _none_ | — | — | — |
 
 ## Files
 
-- `day-index.md`
 - `source-alex-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md`
 - `source-alkorshid-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md`
 - `source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md`

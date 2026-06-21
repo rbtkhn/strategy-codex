@@ -4,13 +4,13 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `4`
+- Source files: `3`
 - Channel sources: `2`
 - Writer sources: `0`
-- Other sources: `2`
+- Other sources: `1`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `day` (1), `operator-transcript` (1), `transcript` (1), `youtube` (1)
-- Source form mix: `interview` (2), `post` (1), `solo` (1)
+- Body kind mix: `operator-transcript` (1), `transcript` (1), `youtube` (1)
+- Source form mix: `interview` (2), `solo` (1)
 - Distinct channels/shows: `3`
 - Distinct hosts: `3`
 - Distinct guests: `2`
@@ -49,12 +49,10 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 | Voice / show | Thread | Source link | File |
 | --- | --- | --- | --- |
-| — | — | — | `day-index.md` |
 | Jeffrey Sachs | `napolitano`, `sachs` | [watch]('https://podscripts.co/podcasts/judging-freedom/prof-jeffrey-sachs-the-global-cost-of-maga-politics') | `source-napolitano-sachs-the-global-cost-of-maga-politics-2026-02-03.md` |
 
 ## Files
 
-- `day-index.md`
 - `source-alex-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md`
 - `source-alkorshid-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md`
 - `source-napolitano-sachs-the-global-cost-of-maga-politics-2026-02-03.md`

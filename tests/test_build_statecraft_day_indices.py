@@ -139,6 +139,29 @@ def test_build_day_readme_stub_points_at_day_index(tmp_path: Path) -> None:
     assert "[day-index.md](./day-index.md)" in stub
 
 
+def test_write_day_index_excludes_day_index_from_source_inventory(tmp_path: Path) -> None:
+    day = tmp_path / "source-archive" / "statecraft" / "2026-06-18"
+    _write(
+        day / "source-alex-mercouris-sample-2026-06-18.md",
+        (
+            "---\n"
+            'title: "Mercouris sample"\n'
+            "source_type: youtube\n"
+            "youtube_id: abc123\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+
+    idx.write_day_index(day)
+    index_text = (day / "day-index.md").read_text(encoding="utf-8")
+
+    assert "- Source files: `1`" in index_text
+    assert "## Other sources" in index_text
+    assert "| _none_ | — | — | — |" in index_text
+    assert "- `day-index.md`" not in index_text
+
+
 def test_write_day_index_writes_day_index_and_readme_stub(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-03-16"
     _write(
