@@ -36,4 +36,4 @@ Default operator capture: [`docs/replacement-capture-habits.md`](../replacement-
 
 ## Canonical archive doctrine
 
-See [`grace-mar.md`](grace-mar.md) (Sprint 2) and [`../grace-mar-instance-boundary.md`](../grace-mar-instance-boundary.md).
+See [`grace-mar.md`](grace-mar.md) and [`../grace-mar-instance-boundary.md`](../grace-mar-instance-boundary.md).

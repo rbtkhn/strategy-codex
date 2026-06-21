@@ -63,7 +63,7 @@ Record markdown and bot code **no longer live at the repository root**. Scripts 
 | `archive/grace-mar-instance/bootstrap/` | Legacy bootstrap docs |
 | `archive/grace-mar-instance/recursion-gate-staging/` | Gate staging aids |
 
-Basenames unchanged — see [canonical-paths.md](canonical-paths.md). **Default:** Record is frozen; fork growth is not a system objective ([grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)).
+Basenames unchanged — see [canonical-paths.md](canonical-paths.md). **Default:** Record is frozen; fork growth is not a system objective — [docs/archive/grace-mar.md](archive/grace-mar.md) · [grace-mar-instance-boundary.md](grace-mar-instance-boundary.md).
 
 ---
 

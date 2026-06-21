@@ -57,4 +57,5 @@ Detailed doctrine belongs under `docs/archive/` and `archive/grace-mar-corpus/`.
 
 - Complexity mitigation plan (Cursor): `complexity_mitigation_plan_e3d72ba0.plan.md`
 - `scripts/audit_repo_complexity.py`
+- `scripts/check_archive_boundary.py` (warn mode; `--strict` after Phase 5)
 - `runtime/artifacts/complexity-audit/`

@@ -12,9 +12,9 @@
 
 **External name:** an **intelligence harness** for the same system — [intelligence-harness.md](intelligence-harness.md).
 
-Growing a personal cognitive fork is **not** a system objective. The Grace-Mar Record is **frozen** ([grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)). Gate promotion applies only on explicit **`fork revive`**.
+Growing a personal cognitive fork is **not** a system objective. The Grace-Mar Record is **frozen** — see [`docs/archive/grace-mar.md`](archive/grace-mar.md). Gate promotion applies only on explicit **`fork revive`**.
 
-**SELF / library / memory:** [`self.md`](../self.md) (identity) is **frozen**; [`self-library.md`](../self-library.md) stays **active for reference** routing; [`self-memory.md`](../self-memory.md) is **session continuity** — not SELF, not Record. Split: [boundary-self-knowledge-self-library.md](boundary-self-knowledge-self-library.md).
+**SELF / library / memory:** Record identity under [`archive/grace-mar-instance/self.md`](../archive/grace-mar-instance/self.md) is **frozen**; [`self-library.md`](../self-library.md) stays **active for reference** routing; [`self-memory.md`](../self-memory.md) is **session continuity** — not SELF, not Record.
 
 ## Namespace map (statecraft paths)
 

@@ -35,3 +35,6 @@ jobs:
       - name: Complexity audit (baseline report)
         run: python3 scripts/audit_repo_complexity.py
 
+      - name: Archive boundary (warn mode)
+        run: python3 scripts/check_archive_boundary.py
+

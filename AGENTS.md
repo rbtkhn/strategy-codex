@@ -8,7 +8,7 @@ This file defines rules for any AI coding assistant working on this repository.
 
 **Repo vs template (legacy only):** Older docs describe an upstream `companion-self` template relationship and an embedded Grace-Mar reference instance. Treat those as historical context for migration archaeology, not a standing instruction to clone, diff, or reconcile companion-self during active strategy-codex sessions.
 
-**Product identity:** [`docs/product-identity.md`](docs/product-identity.md) — governed interpretive machine (`statecraft` + `singularity`). **Grace-Mar fork freeze:** [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md) — growing the cognitive fork is not a system objective; Record is operator-archived (`platform/config/strategy_codex.yaml`: `record_frozen: true`).
+**Product identity:** [`docs/product-identity.md`](docs/product-identity.md) — governed interpretive machine (`statecraft` + `singularity`). **Grace-Mar fork freeze:** [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md) · full archive doctrine [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) — growing the cognitive fork is not a system objective; Record is operator-archived (`platform/config/strategy_codex.yaml`: `record_frozen: true`).
 
 **For conceptual clarity (legacy instance):** Read `docs/conceptual-framework.md` â€” Record vs. fork, Voice vs. bot, fork vs. twin, terminology. Applies when operator explicitly invokes **`fork revive`** or **`grace-mar archive`**.
 

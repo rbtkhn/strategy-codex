@@ -8,7 +8,7 @@
 
 Distinct modes govern what the agent may do. Avoid mixing them.
 
-**Active identity:** Default all operator work to `strategy-codex` as a **governed interpretive machine** ([`docs/product-identity.md`](docs/product-identity.md)). **Grace-Mar cognitive fork is frozen** — not a growth objective ([`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md), `platform/platform/config/strategy_codex.yaml`). Fork/gate/pipeline modes apply only on explicit **`fork revive`**. Mentions of `grace-mar` or `companion-self` in older docs are legacy unless the operator names that archive lane.
+**Active identity:** Default all operator work to `strategy-codex` as a **governed interpretive machine** ([`docs/product-identity.md`](docs/product-identity.md)). **Grace-Mar cognitive fork is frozen** — see [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md). Fork/gate/pipeline modes apply only on explicit **`fork revive`**.
 
 **Shared membrane:** For the typed `Record` / `governed adjacent` / `instrumental work` / `runtime / derived` / `external complements` model, see [docs/work-membrane-v2.md](docs/work-membrane-v2.md). Use [statecraft/work-membrane.md](statecraft/work-membrane.md) and [singularity/work-membrane.md](singularity/work-membrane.md) when the session is lane-specific.
 

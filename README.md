@@ -10,7 +10,7 @@ Model intelligence is getting cheaper. The scarce layer is the harness around it
 
 **Deeper read:** [docs/intelligence-harness.md](docs/intelligence-harness.md) · [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md)
 
-**Grace-Mar fork (frozen archaeology):** Growing a personal cognitive fork is **not** a system objective. Record lives under [archive/grace-mar-instance/](archive/grace-mar-instance/); full doctrine quarantined under [archive/grace-mar-corpus/README.md](archive/grace-mar-corpus/README.md). See [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md) · CLI compatibility [docs/archive/grace-mar-compatibility.md](docs/archive/grace-mar-compatibility.md).
+**Grace-Mar fork (frozen archaeology):** Not a system objective. Record under [`archive/grace-mar-instance/`](archive/grace-mar-instance/). **Canonical archive doctrine:** [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) · boundary [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md) · CLI [`docs/archive/grace-mar-compatibility.md`](docs/archive/grace-mar-compatibility.md).
 
 **Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
 
@@ -22,7 +22,7 @@ Pick **one letter**, then open the linked surface. **Default for strategy-codex 
 
 | Pick | You are… | Start here |
 |------|----------|------------|
-| **A** | Companion (fork revive / seed) | [grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md) · frozen [self.md](self.md) |
+| **A** | Companion (fork revive / seed) | [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) · [`archive/grace-mar-instance/self.md`](archive/grace-mar-instance/self.md) |
 | **B** | Parent or guardian | [seed-phase-survey.md](docs/seed-phase-survey.md) — read guardrail rows before JSON capture |
 | **C** | **Operator (default)** | [docs/start-here.md](docs/start-here.md) · [statecraft/README.md](statecraft/README.md) · archive → daily → lane objects |
 | **D** | Technical contributor | [docs/skill-work/work-dev/](docs/skill-work/work-dev/) · [agent-control-plane essay](essays/agent-control-plane.md) |
@@ -191,20 +191,9 @@ See [Architecture](docs/architecture.md), [boundary-self-knowledge-self-library]
 
 ## Gated Pipeline (frozen legacy — fork revive only)
 
-Growing the embedded Grace-Mar Record through the gated pipeline is **not** the active strategy-codex objective. `recursion-gate.md`, `process_approved_candidates.py`, and gate-review apps remain for **archaeology** and explicit **`fork revive`** only. See [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md) and [docs/deprecated-surfaces.md](docs/deprecated-surfaces.md).
+Grace-Mar Record growth through the gated pipeline is **not** the active objective. Full fork doctrine, merge law, and Voice archaeology: [docs/archive/grace-mar.md](docs/archive/grace-mar.md).
 
-**Active promotion ladder:** source archive → daily synthesis → statecraft lane objects → transactions ([docs/start-here.md](docs/start-here.md)).
-
-Historical fork pipeline (when revived):
-
-1. **Signal detection** — knowledge, curiosity, personality signals
-2. **Candidate staging** — `recursion-gate.md`
-3. **Companion review** — approve / reject / defer
-4. **Integration** — `process_approved_candidates.py --apply` only after approval
-
-Voice bots ([archive/grace-mar-instance/bot/DEPRECATED.md](archive/grace-mar-instance/bot/DEPRECATED.md)) fed the pipeline when active; they are deprecated for operator work.
-
-**Template alignment (companion-self):** A **state proposal** is Change Proposal v1 JSON under `archive/queues/review-queue/proposals/` â€” [docs/state-proposals.md](docs/state-proposals.md). Reference pipeline: [docs/pipeline/evidence-to-proposal.md](docs/pipeline/evidence-to-proposal.md), [proposal-to-review.md](docs/pipeline/proposal-to-review.md), [review-to-merge.md](docs/pipeline/review-to-merge.md). Layer precedence when sources disagree: [docs/source-of-truth.md](docs/source-of-truth.md), [docs/conflict-resolution-order.md](docs/conflict-resolution-order.md). **Authority:** [docs/authority-map.md](docs/authority-map.md), [`platform/config/authority-map.json`](platform/config/authority-map.json). **Observability:** [docs/observability.md](docs/observability.md), `scripts/build-observability-report.py`. **Legibility / receipts:** [docs/legible-surfaces.md](docs/legible-surfaces.md), [docs/action-receipts.md](docs/action-receipts.md).
+**Active promotion ladder:** source archive → daily synthesis → statecraft lane objects ([docs/start-here.md](docs/start-here.md)).
 
 ## Status
 
@@ -212,7 +201,7 @@ Voice bots ([archive/grace-mar-instance/bot/DEPRECATED.md](archive/grace-mar-ins
 
 **Active work:** [source-archive/statecraft/](source-archive/statecraft/README.md) → [statecraft/daily/](statecraft/daily/METHOD.md) → lane objects under [statecraft/](statecraft/README.md) and [singularity/](singularity/README.md). See [docs/operator-two-channel-architecture.md](docs/operator-two-channel-architecture.md).
 
-**Embedded Grace-Mar Record:** **Frozen** at repository root for archaeology and explicit **`fork revive`** only. Voice/bot deprecated — [archive/grace-mar-instance/bot/DEPRECATED.md](archive/grace-mar-instance/bot/DEPRECATED.md), [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md).
+**Embedded Grace-Mar Record:** **Frozen** under [`archive/grace-mar-instance/`](archive/grace-mar-instance/) — [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md).
 
 **Reference (active):** `self-library.md`, CIV-MEM, and related retrieval surfaces for statecraft work.
 
@@ -220,7 +209,7 @@ Voice bots ([archive/grace-mar-instance/bot/DEPRECATED.md](archive/grace-mar-ins
 
 ### Root layout
 
-Record-era paths remain at repo root (`self.md`, `self-archive.md`, `recursion-gate.md`, `self-skills.md`, `self-library.md`, `self-memory.md`, …). Path helpers in [`scripts/repo_io.py`](scripts/repo_io.py) resolve the embedded profile to this workspace. **Do not treat root SELF/EVIDENCE edits as normal operator work** unless reviving the fork.
+Record surfaces live under [`archive/grace-mar-instance/`](archive/grace-mar-instance/). Path helpers: [`scripts/repo_io.py`](scripts/repo_io.py). **Do not treat Record edits as normal operator work** unless reviving the fork — [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md).
 
 ## Quick Start — strategy-codex operator
 
