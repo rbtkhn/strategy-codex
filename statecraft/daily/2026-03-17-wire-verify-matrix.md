@@ -6,7 +6,7 @@ WORK only; not Record.
 
 **Scope:** **Week ~3 pass** — **Hormuz escort rejection**; **Larijani** kill; **~2-week US clock** (Mar 31); **ground-invasion** discourse; **Netanyahu command** mystery; **Witkoff/Ravid fiction**; **Postol** Israel defenseless; **Kent** resignation thread.
 
-**CIV-STATE sweep:** America · Persia · Russia · PRC · Adjacent (Gulf/Europe/NATO) — **5/5 spoke** · **Confidence:** medium on **3a/3b** Mar 15–17 window · **Developing:** **Mar 31** summit cancel · Bessent Paris remarks · Netanyahu video authenticity
+**CIV-STATE sweep:** America · Persia · Russia · PRC · Rome — **5/5** (Mar 17 Mercouris pass) · **Confidence:** **medium-high** on Larijani/Basij KIA · **medium** on escort/100k ORBAT · **Developing:** **Mar 31** summit cancel · Bessent Paris remarks · Netanyahu video authenticity
 
 ## Lane sweep receipts
 
@@ -43,8 +43,8 @@ WORK only; not Record.
 
 | ID | Claim | Lane | Lang | Verdict | Cite |
 | --- | --- | --- | --- | --- | --- |
-| **J17-B1** | **Israel** confirms / reports **Ali Larijani** (SNSC secretary) **killed** in strike | Persia / America-adjacent | en | **Partial** | Israeli media + US desk carry Mar 16–17 · **individual KIA** **Partial** — IRGC/SNSC **confirmation tier** varies by outlet |
-| **J17-B2** | Larijani was **war conductor**; **Moscow Feb** arrangements; **martyrdom/successor** logic; **Tehran demo** visibility → targetable (Mercouris) | Persia | en | **Partial** | **J17-B1** **Partial** · institutional role **desk synthesis** · **successor pre-picked** **tier 4** until wire-primary succession act |
+| **J17-B1** | **Israel** confirms / reports **Ali Larijani** (SNSC secretary) **killed** in strike | Persia / America-adjacent | en | **Supported** | [BBC 17 Mar 2026](https://www.bbc.com/news/articles/c24deezq6meo) · [AP](https://apnews.com/article/ali-larijani-dead-be5f46c171b2f9bf1dbd8325261a92a6) · [Al Jazeera](https://www.aljazeera.com/news/2026/3/17/israel-says-it-has-killed-ali-larijani-irans-top-security-official) · Iran SNSC confirms |
+| **J17-B2** | Larijani was **war conductor**; **Moscow Feb** arrangements; **martyrdom/successor** logic; **Tehran demo** visibility → targetable (Mercouris) | Persia | en | **Partial** | **J17-B1 Supported** · institutional role **desk synthesis** · **successor pre-picked** **tier 4** until wire-primary succession act (Bagher Zolghadr forward on Mar 24) |
 | **J17-B3** | Parsi: Larijani killed to **narrow Trump off-ramps**; possible **decapitation pivot** when military Hormuz reopen fails | America / Persia | en | **Unclear** | **Interpretation tier** — motive **not wire-verifiable**; **compatible** with **J17-B1 Partial** |
 
 ## Sub-seam C — Two-week US clock / Mar 31 (Helmer **J17-C1 – C3** · Freeman cross)
@@ -60,7 +60,7 @@ WORK only; not Record.
 | ID | Claim | Lane | Lang | Verdict | Cite |
 | --- | --- | --- | --- | --- | --- |
 | **J17-D1** | US **mulling ground invasion** as **options run out**; Pentagon planning discourse active | America | en | **Partial** | [CNN/AP Mar 16–17 — Iran ground options planning](https://www.apnews.com/) · **planning Partial** · **ordered invasion Contradicted** at Mar 17 |
-| **J17-D2** | **~100k** troops needed to **force Hormuz** open; **months**; **controversial/unpopular**; allies **won't help** (Mercouris) | America | en | **Unclear** | **Force-structure analyst tier** · **J17-A1 Partial** supports **no coalition** · ORBAT **not wire-primary** Mar 17 |
+| **J17-D2** | **~100k** troops needed to **force Hormuz** open; **months**; **controversial/unpopular**; allies **won't help** (Mercouris) | America | en | **Unclear / partial** | Mercouris: "I read somewhere…" — Mar 18 Reuters/Al-Monitor on **options** + **~10k** reinforcements · **100k invasion** **not wire-primary** Mar 17 · **J17-A1 Partial** supports **no coalition** |
 
 ## Sub-seam E — Netanyahu command mystery (Helmer **J17-E1 – E2**)
 
@@ -73,7 +73,7 @@ WORK only; not Record.
 
 | ID | Claim | Lane | Lang | Verdict | Cite |
 | --- | --- | --- | --- | --- | --- |
-| **J17-F1** | **Ravid** as **Witkoff mouthpiece**; **Araghchi** denies US negotiations (Helmer/Freeman/Maté) | America / Persia | en | **Contested** | [Mar 3 **J03-E2** Supported](./2026-03-03-wire-verify-matrix.md) FM no-talks continuity · **Ravid channel** **desk tier** · **denial Supported** pattern |
+| **J17-F1** | **Ravid** as **Witkoff mouthpiece**; **Araghchi** denies US negotiations (Helmer/Freeman/Maté/Mercouris) | America / Persia | en | **Supported** (Tehran frame) · **Contested** (Axios/US) | [Reuters 16 Mar — Araghchi X](https://www.marketscreener.com/news/iran-foreign-minister-says-his-last-contact-with-witkoff-was-before-war-began-ce7e5edbd98ef427) · [Anadolu 17 Mar](https://www.aa.com.tr/en/americas/araghchi-says-his-last-contact-with-us-envoy-witkoff-was-before-illegal-military-attack-on-iran/3867341) · Axios back-channel **contested** |
 | **J17-F2** | **Dmitriev Miami** meeting = **Russian parallel track** vs US **fiction** (Helmer) | Russia / America | en | **Unclear** | Dmitriev travel **desk tier** Mar 17 · [Dmitriev arc](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md) — **not 3a MOU** |
 
 ## Sub-seam G — Israel defense / escalation (Helmer **J17-G1 – G2** · Postol frame)
@@ -111,6 +111,6 @@ WORK only; not Record.
 
 ## Receipt tokens (optional archive YAML)
 
-- `verify:J17-A1-partial` · `verify:J17-A2-partial` · `verify:J17-A4-partial` · `verify:J17-B1-partial` · `verify:J17-C1-partial` · `verify:J17-C2-partial` · `verify:J17-D1-partial` · `verify:J17-F1-contested` · `verify:J17-G1-partial` · `verify:J17-H1-partial`
+- `verify:J17-A1-partial` · `verify:J17-A2-partial` · `verify:J17-A4-partial` · `verify:J17-B1-supported` · `verify:J17-B2-partial` · `verify:J17-C1-partial` · `verify:J17-C2-partial` · `verify:J17-D1-partial` · `verify:J17-D2-unclear` · `verify:J17-F1-supported-contested` · `verify:J17-G1-partial` · `verify:J17-H1-partial`
 
-**Promoted via:** [`wire-verify`](../../.cursor/skills/wire-verify/SKILL.md) · **Opened:** 2026-06-21
+**Promoted via:** [`wire-verify`](../../.cursor/skills/wire-verify/SKILL.md) · **Updated:** 2026-06-21 (Mercouris solo pass) · **Opened:** 2026-06-21
