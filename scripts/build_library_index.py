@@ -288,6 +288,11 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Build library-index.md from self-library.md entries YAML.")
     ap.add_argument("-u", "--user", default="grace-mar")
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
+    ap.add_argument(
+        "--check",
+        action="store_true",
+        help="Exit 1 if runtime/artifacts/library-index.md differs from generated output",
+    )
     args = ap.parse_args()
     root = args.repo_root.resolve()
     uid = args.user.strip()
@@ -295,6 +300,19 @@ def main() -> int:
     ts = _generated_at_stamp(root, uid)
     md = render_markdown(entries, user_id=uid, repo_root=root, generated_at=ts)
     out = ARTIFACTS_DIR / "library-index.md"
+    if args.check:
+        if not out.is_file():
+            print(f"error: missing {out.relative_to(root)}", file=sys.stderr)
+            return 1
+        current = out.read_text(encoding="utf-8")
+        if current != md:
+            print(
+                "error: library-index.md is out of date; run build_library_index.py -u strategy-codex",
+                file=sys.stderr,
+            )
+            return 1
+        print("ok: library-index.md matches generator output")
+        return 0
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(md, encoding="utf-8")
     print(f"wrote {out} ({len(entries)} entries)")

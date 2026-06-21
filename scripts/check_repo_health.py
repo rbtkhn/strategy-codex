@@ -28,6 +28,7 @@ def run_quick() -> int:
     checks = [
         (["python3", "scripts/validate_repo_routing.py"], "repo routing"),
         (["python3", "scripts/generate_llm_routing.py", "--check"], "LLM-ROUTING drift"),
+        (["python3", "scripts/check_generated_surfaces.py", "--headers-only"], "generated headers"),
         (["python3", "scripts/check_archive_boundary.py"], "archive boundary"),
         (["python3", "scripts/check_repo_path_strict.py"], "path strict scan"),
         (["python3", "scripts/check_repo_path_adoption.py", "--max-literals", "0"], "path adoption"),
@@ -51,6 +52,7 @@ def run_full() -> int:
                 "tests/test_routing_generated.py",
                 "tests/test_repo_path_strict.py",
                 "tests/test_check_archive_boundary.py",
+                "tests/test_check_generated_surfaces.py",
                 "tests/test_strategy_codex_cli.py",
                 "-q",
             ],

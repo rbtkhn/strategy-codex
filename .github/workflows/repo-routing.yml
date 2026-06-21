@@ -24,3 +24,10 @@ jobs:
 
       - name: LLM routing generator drift check
         run: python3 scripts/generate_llm_routing.py --check
+
+      - name: Generated surface manifest (headers)
+        run: python3 scripts/check_generated_surfaces.py --headers-only --strict
+
+      - name: Generated surface drift orchestrator (warn)
+        run: python3 scripts/check_generated_surfaces.py --check
+        continue-on-error: true

@@ -35,6 +35,21 @@ Do not introduce new authority labels without updating this table and the audit 
 | Grace-Mar mentions outside archive docs (bounded scan) | ~11,785 | ≤ 3 (short pointers) | Phase 5 |
 | Generated files without manifest entry | n/a | 0 | Phase 6 |
 
+Run `python3 scripts/check_generated_surfaces.py --check` (warn mode) or `--strict` (fail). Manifest: [`generated-manifest.yaml`](../generated-manifest.yaml).
+
+## Generated surface header convention (Sprint 6)
+
+Rebuildable outputs must declare their generator near the top of the file:
+
+| Format | When | Example |
+|--------|------|---------|
+| HTML comment | Markdown routing/dashboard files | `<!-- GENERATED FILE. DO NOT EDIT DIRECTLY. … -->` |
+| HTML comment (short) | Derived dashboards | `<!-- GENERATED — run: python3 scripts/build_library_index.py -->` |
+| Italic line | Statecraft archive inventory indexes | `_Generated inventory note. Rebuild with \`python scripts/refresh_statecraft_archive_indices.py\`._` |
+| JSON field | Machine-readable indexes | `"generated_at"` and optional `"generated_by"` |
+
+Do not hand-edit manifest-listed surfaces; regenerate via the script named in the header or manifest.
+
 Run baseline: `python3 scripts/audit_repo_complexity.py --write-baseline runtime/artifacts/complexity-audit/baseline-YYYY-MM-DD.md`
 
 ## Grace-Mar / fork-revive mention budget
@@ -76,4 +91,4 @@ Detailed doctrine belongs under `docs/archive/` and `archive/grace-mar-corpus/`.
 - `scripts/check_archive_boundary.py` (warn mode; `--strict` after Phase 5)
 - `scripts/generate_llm_routing.py` — hybrid [`LLM-ROUTING.md`](../LLM-ROUTING.md) from [`repo-map.yaml`](../repo-map.yaml)
 - `scripts/check_repo_path_strict.py` (warn mode; `--strict` Sprint 6+)
-- `runtime/artifacts/complexity-audit/`
+- `scripts/check_generated_surfaces.py` — manifest + header + drift (`--strict` Sprint 9 fail)

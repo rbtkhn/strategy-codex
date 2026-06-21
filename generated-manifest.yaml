@@ -1,0 +1,73 @@
+# Generated surface manifest — SSOT for scripts/check_generated_surfaces.py
+# Authority: generated (rebuildable, non-authoritative). See docs/complexity-budget.md.
+schema_version: "1.0"
+
+entries:
+  - id: llm-routing
+    path: LLM-ROUTING.md
+    category: generated
+    generator: scripts/generate_llm_routing.py
+    check_args: ["--check"]
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED FILE"
+        - "generate_llm_routing.py"
+
+  - id: library-index
+    path: runtime/artifacts/library-index.md
+    category: generated
+    generator: scripts/build_library_index.py
+    check_args: ["-u", "strategy-codex", "--check"]
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED"
+        - "build_library_index.py"
+
+  - id: statecraft-thread-index
+    path: source-archive/statecraft/thread-index.md
+    category: generated
+    generator: scripts/refresh_statecraft_archive_indices.py
+    check_args: ["--check"]
+    drift_group: statecraft-archive-indices
+    header:
+      type: italic
+      patterns:
+        - "_Generated inventory note"
+        - "refresh_statecraft_archive_indices.py"
+
+  - id: statecraft-channel-index-md
+    path: source-archive/statecraft/channel-index.md
+    category: generated
+    generator: scripts/refresh_statecraft_archive_indices.py
+    check_args: ["--check"]
+    drift_group: statecraft-archive-indices
+    header:
+      type: italic
+      patterns:
+        - "_Generated inventory note"
+        - "refresh_statecraft_archive_indices.py"
+
+  - id: statecraft-channel-index-json
+    path: source-archive/statecraft/channel-index.json
+    category: generated
+    generator: scripts/refresh_statecraft_archive_indices.py
+    check_args: ["--check"]
+    drift_group: statecraft-archive-indices
+    header:
+      type: json
+      patterns:
+        - '"generated_at"'
+
+  - id: statecraft-month-routing-metadata
+    path: statecraft/data/month-routing-metadata.json
+    category: generated
+    generator: scripts/refresh_statecraft_archive_indices.py
+    check_args: ["--check"]
+    drift_group: statecraft-archive-indices
+    header:
+      type: json
+      patterns:
+        - '"generated_at"'
+        - "build_statecraft_month_indices.py"
