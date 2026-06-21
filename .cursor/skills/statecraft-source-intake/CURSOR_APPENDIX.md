@@ -38,7 +38,7 @@
 - When a transcript is already supplied in chat, this skill can proceed without YouTube fetching.
 - **Post-land optional:** [wire-verify](../wire-verify/SKILL.md) — **`wire verify`** on breaking wire hooks; land **`verify:`** tails in `source_note` / `editorial_note` when operator ships receipts.
 - In same-day batch mode, the minimum expected rebuild set is:
-  - `source-archive/statecraft/YYYY-MM-DD/README.md`
+  - `source-archive/statecraft/YYYY-MM-DD/day-index.md` (+ README stub via `build_statecraft_day_indices.py --day`)
   - `source-archive/statecraft/YYYY-MM.md`
   - `source-archive/statecraft/thread-index.md`
   - `source-archive/statecraft/stale-index-audit.md` only if the navigation builder touches it

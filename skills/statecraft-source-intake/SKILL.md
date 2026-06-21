@@ -3,7 +3,7 @@ name: statecraft-source-intake
 preferred_activation: source-intake
 description: "Manual invoke: source-intake. Land operator transcripts via sidecar Write + land_statecraft_source_body.py (Windows-safe). Also: statecraft source intake, statecraft daily intake. Not for synthesis or YouTube fetch."
 portable: true
-version: 0.4.11
+version: 0.4.12
 scope_class: repo-governed
 tags:
   - operator
@@ -280,7 +280,7 @@ Structured-field law:
    - If the landed object or checkpoint clearly creates a later interpretive seam, name it only as a `next route`; do not silently fold synthesis into the intake closeout.
 
 8. **Refresh the smallest still-live archive surfaces**
-   - In `single-source safe mode`, refresh the touched day-folder `README.md` immediately.
+   - In `single-source safe mode`, refresh the touched day `day-index.md` immediately (`python scripts/build_statecraft_day_indices.py --day YYYY-MM-DD` — also writes the README stub pointer).
    - In `single-source safe mode`, refresh the touched month index and archive navigation when the new source changes those rollups.
    - In `batch-throughput mode`, defer these refreshes until the batch checkpoint.
    - Keep the rebuild bounded to the touched day/month/navigation surfaces rather than drifting into downstream synthesis.
@@ -349,7 +349,7 @@ Short rule:
 
 When the operator asks for **source-index**, **ingest register**, or **what landed on YYYY-MM-DD**, resolve **one bounded path** — not `thread-index.md`, not month Glob, not voices `*-source-index.md` unless they named an **analyst**.
 
-**Canonical day surface:** `source-archive/statecraft/YYYY-MM-DD/README.md` (stats + ingest register + file list).
+**Canonical day surface:** `source-archive/statecraft/YYYY-MM-DD/day-index.md` (channel / writer / other partitions + stats + file list). Same-folder `README.md` is a stub pointer only — spec: [day-index-spec.md](../../../source-archive/statecraft/day-index-spec.md).
 
 **Preferred agent command (one shell):**
 
@@ -361,7 +361,7 @@ python scripts/statecraft_day_source_index.py --latest --queue
 
 **Agent discipline:**
 
-- **Read** the day README directly when the path is known; or run the script above.
+- **Read** `day-index.md` directly when the path is known; or run the script above.
 - **Do not** `Glob`, `Grep`, or parallel-read `thread-index.md` / `YYYY-MM/` for a dated day query.
 - **Analyst source-index** (`statecraft/voices/<speaker>/*-source-index.md`) is a different object — use only when scope is voice/corpus, not archive-day inventory.
 
@@ -378,7 +378,8 @@ Use a simple Windows-safe verification sequence matched to the active mode.
   - confirm the header/frontmatter matches the chosen family pattern
   - confirm the file is not a shell or partial write
 - `Checkpoint verification`:
-  - confirm the target day `README.md` includes the filename after rebuild
+  - confirm the target day `day-index.md` includes the filename after rebuild
+  - confirm the README stub still points at `day-index.md`
   - confirm the touched month/year/navigation surfaces reflect the new file when those surfaces were part of the rebuild
   - confirm the required host bench and/or speaker bench entry exists when that lane expects one
 - Archive intake is not complete until the required downstream routing surfaces are updated when the lane calls for them.
@@ -423,7 +424,7 @@ Before any final intake closeout, perform a fresh same-turn readback of the rele
 Minimum same-turn readback set:
 
 - the landed archive file itself
-- the touched day `README.md` when it was rebuilt
+- the touched day `day-index.md` when it was rebuilt (README stub when pointer verification matters)
 - the touched month rollup when it was rebuilt
 - the global `thread-index.md` when thread-facing claims are being made
 - any touched watchlist or month note when the answer claims queue movement, month counts, or status changes
@@ -729,7 +730,7 @@ Evidence to report:
 
 - final archive path
 - frontmatter keys present
-- index/README refresh run or explicit deferral stated
+- day-index refresh run or explicit deferral stated
 - land command exit code when script path used
 
 If verification cannot be completed:
