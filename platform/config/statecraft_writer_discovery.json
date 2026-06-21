@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "writer_slug_aliases": {
+    "predictive-history": "jiang",
+    "trita-parsi": "parsi",
+    "alastair-crooke": "crooke",
+    "prof-robert-pape": "pape",
+    "scott-ritter": "ritter",
+    "simplicius76": "simplicius"
+  },
+  "writer_index_misc_slugs": [],
+  "writers": [
+    {
+      "writer_slug": "parsi",
+      "label": "Trita Parsi",
+      "thread": "parsi",
+      "feed_url": "https://tritaparsi.substack.com/",
+      "feed_host": "tritaparsi.substack.com",
+      "check_written": true,
+      "discoverable": false
+    },
+    {
+      "writer_slug": "crooke",
+      "label": "Alastair Crooke / Conflicts Forum",
+      "thread": "crooke",
+      "feed_url": "https://conflictsforum.substack.com/",
+      "feed_host": "conflictsforum.substack.com",
+      "check_written": true,
+      "discoverable": false
+    },
+    {
+      "writer_slug": "pape",
+      "label": "Prof Robert Pape / Escalation Trap",
+      "thread": "pape",
+      "feed_url": "https://escalationtrap.substack.com/",
+      "feed_host": "escalationtrap.substack.com",
+      "check_written": true,
+      "discoverable": false
+    },
+    {
+      "writer_slug": "jiang",
+      "label": "Professor Jiang (Predictive History)",
+      "thread": "jiang",
+      "feed_url": "https://predictivehistory.substack.com/",
+      "feed_host": "predictivehistory.substack.com",
+      "filename_prefixes": ["predictive-history"],
+      "check_written": true,
+      "discoverable": false
+    },
+    {
+      "writer_slug": "ritter",
+      "label": "Scott Ritter / Real Scott Ritter",
+      "thread": "ritter",
+      "feed_url": "https://scottritter.substack.com/",
+      "feed_host": "scottritter.substack.com",
+      "require_substack_signal": true,
+      "check_written": true,
+      "discoverable": false
+    },
+    {
+      "writer_slug": "simplicius",
+      "label": "Simplicius",
+      "thread": "simplicius",
+      "feed_url": "https://simplicius76.substack.com/",
+      "feed_host": "simplicius76.substack.com",
+      "filename_prefixes": ["simplicius"],
+      "check_written": true,
+      "discoverable": false
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-21T12:35:51+00:00",
+  "check_written_scope": "configured_roster",
+  "check_written_notes": "Writer-index v1 lists configured Substack feeds only; see statecraft_writer_discovery.json.",
+  "source_markdown": "writer-index.md",
+  "stats": {
+    "writer_count": 6,
+    "file_count": 196
+  },
+  "writers": [
+    {
+      "writer_slug": "simplicius",
+      "label": "Simplicius",
+      "thread": "simplicius",
+      "feed_url": "https://simplicius76.substack.com/",
+      "file_count": 63,
+      "day_count": 62,
+      "source_types": {
+        "substack-post": 59,
+        "paste-bundle": 1,
+        "operator-transcript": 3
+      },
+      "check_written": true,
+      "discoverable": false,
+      "first_day": "2026-01-02",
+      "last_day": "2026-04-27"
+    },
+    {
+      "writer_slug": "pape",
+      "label": "Prof Robert Pape / Escalation Trap",
+      "thread": "pape",
+      "feed_url": "https://escalationtrap.substack.com/",
+      "file_count": 53,
+      "day_count": 44,
+      "source_types": {
+        "substack-post": 36,
+        "(none)": 6,
+        "x-post-text": 1,
+        "substack": 10
+      },
+      "check_written": true,
+      "discoverable": false,
+      "first_day": "2026-02-25",
+      "last_day": "2026-06-17"
+    },
+    {
+      "writer_slug": "crooke",
+      "label": "Alastair Crooke / Conflicts Forum",
+      "thread": "crooke",
+      "feed_url": "https://conflictsforum.substack.com/",
+      "file_count": 29,
+      "day_count": 29,
+      "source_types": {
+        "paste-bundle": 23,
+        "substack": 6
+      },
+      "check_written": true,
+      "discoverable": false,
+      "first_day": "2026-01-08",
+      "last_day": "2026-06-18"
+    },
+    {
+      "writer_slug": "ritter",
+      "label": "Scott Ritter / Real Scott Ritter",
+      "thread": "ritter",
+      "feed_url": "https://scottritter.substack.com/",
+      "file_count": 26,
+      "day_count": 25,
+      "source_types": {
+        "operator-transcript": 22,
+        "transcript": 1,
+        "article": 1,
+        "cleaned-transcript": 1,
+        "substack": 1
+      },
+      "check_written": true,
+      "discoverable": false,
+      "first_day": "2026-01-03",
+      "last_day": "2026-06-10"
+    },
+    {
+      "writer_slug": "parsi",
+      "label": "Trita Parsi",
+      "thread": "parsi",
+      "feed_url": "https://tritaparsi.substack.com/",
+      "file_count": 23,
+      "day_count": 21,
+      "source_types": {
+        "article": 1,
+        "substack-post": 11,
+        "substack": 11
+      },
+      "check_written": true,
+      "discoverable": false,
+      "first_day": "2026-01-09",
+      "last_day": "2026-06-17"
+    },
+    {
+      "writer_slug": "jiang",
+      "label": "Professor Jiang (Predictive History)",
+      "thread": "jiang",
+      "feed_url": "https://predictivehistory.substack.com/",
+      "file_count": 2,
+      "day_count": 2,
+      "source_types": {
+        "substack": 2
+      },
+      "check_written": true,
+      "discoverable": false,
+      "first_day": "2026-05-23",
+      "last_day": "2026-06-13"
+    }
+  ]
+}

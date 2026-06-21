@@ -319,3 +319,76 @@ def test_load_check_sources_roster_reads_json_or_rebuilds(tmp_path: Path) -> Non
 
     rebuilt = discovery.load_check_sources_roster(root=archive_root, rebuild=True)
     assert {row["slug"] for row in rebuilt} == slugs
+
+
+def test_build_writer_index_counts_configured_substack_feeds(tmp_path: Path, monkeypatch) -> None:
+    import statecraft_writer_index as writer_index
+
+    root = tmp_path / "source-archive" / "statecraft"
+    day = root / "2026-06-18"
+    _write(
+        day / "source-crooke-israel-picking-up-pieces-2026-06-18.md",
+        (
+            "---\n"
+            "kind: substack-post\n"
+            "source_form: newsletter\n"
+            "source_type: substack\n"
+            "thread: crooke\n"
+            'source_url: "https://conflictsforum.substack.com/p/israel-picking-up-the-pieces-of-its"\n'
+            "author: Alastair Crooke\n"
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+    _write(
+        day / "source-pape-stage-iv-begins-2026-06-17.md",
+        (
+            "---\n"
+            "kind: substack-post\n"
+            "source_type: substack-post\n"
+            "thread: pape\n"
+            'source_url: "https://escalationtrap.substack.com/p/stage-iv-begins"\n'
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+
+    config = tmp_path / "writers.json"
+    config.write_text(
+        json.dumps(
+            {
+                "writer_slug_aliases": {},
+                "writers": [
+                    {
+                        "writer_slug": "crooke",
+                        "label": "Alastair Crooke",
+                        "thread": "crooke",
+                        "feed_url": "https://conflictsforum.substack.com/",
+                        "feed_host": "conflictsforum.substack.com",
+                        "check_written": True,
+                    },
+                    {
+                        "writer_slug": "pape",
+                        "label": "Prof Robert Pape",
+                        "thread": "pape",
+                        "feed_url": "https://escalationtrap.substack.com/",
+                        "feed_host": "escalationtrap.substack.com",
+                        "check_written": True,
+                    },
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(writer_index, "WRITER_DISCOVERY_CONFIG_PATH", config)
+
+    payload = writer_index.build_writer_index_json(root, config)
+    by_slug = {row["writer_slug"]: row for row in payload["writers"]}
+    assert payload["stats"]["writer_count"] == 2
+    assert by_slug["crooke"]["file_count"] == 1
+    assert by_slug["pape"]["file_count"] == 1
+
+    rendered = writer_index.build_writer_index(root, config)
+    assert "# Statecraft Archive - Writer Index" in rendered
+    assert "`crooke`" in rendered
+    assert "`pape`" in rendered

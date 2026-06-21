@@ -31,6 +31,7 @@ Useful indices:
 - Thread index: [thread-index.md](/C:/dev/strategy-codex/source-archive/statecraft/thread-index.md)
 - Channel index: [channel-index.md](/C:/dev/strategy-codex/source-archive/statecraft/channel-index.md)
 - Miscellaneous channel index: [channel-index-misc.md](/C:/dev/strategy-codex/source-archive/statecraft/channel-index-misc.md)
+- Writer index (Substack roster v1): [writer-index.md](/C:/dev/strategy-codex/source-archive/statecraft/writer-index.md) · [writer-index-spec.md](/C:/dev/strategy-codex/source-archive/statecraft/writer-index-spec.md)
 - Stale audit: [stale-index-audit.md](/C:/dev/strategy-codex/source-archive/statecraft/stale-index-audit.md)
 - Jiang / Predictive History raw-capture master index: [jiang-predictive-history-index.md](/C:/dev/strategy-codex/source-archive/statecraft/jiang-predictive-history-index.md)
 - Public Predictive History lecture index inside the official Jiang mirror: [statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md](/C:/dev/strategy-codex/statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md)

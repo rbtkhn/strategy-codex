@@ -33,6 +33,10 @@ from statecraft_day_archive import (
     parse_frontmatter,
     summarize_day_dir,
 )
+from statecraft_writer_index import (  # noqa: E402
+    build_writer_index,
+    build_writer_index_json,
+)
 from statecraft_youtube_discovery import (  # noqa: E402
     canonical_channel_index_slug,
     is_daily_watchlist_slug,
@@ -387,6 +391,14 @@ def write_channel_index_json(path: Path, root: Path, *, check: bool = False) -> 
     return write_json_payload(path, payload, check=False)
 
 
+def write_writer_index_json(path: Path, root: Path, *, check: bool = False) -> tuple[Path, bool]:
+    payload = build_writer_index_json(root)
+    if check:
+        changed = _json_payload_semantically_changed(path, payload)
+        return path, changed
+    return write_json_payload(path, payload, check=False)
+
+
 def build_channel_index(root: Path) -> str:
     main_stats = collect_main_channel_stats(root)
     watchlist_keys = load_daily_watchlist_keys()
@@ -591,6 +603,14 @@ def build_stale_index_audit(root: Path) -> str:
     )
     channel_misc_path = root / "channel-index-misc.md"
     channel_misc_status = _render_compare_status(channel_misc_path, build_channel_index_misc(root))
+    writer_path = root / "writer-index.md"
+    writer_status = _render_compare_status(writer_path, build_writer_index(root))
+    writer_json_path = root / "writer-index.json"
+    writer_json_status = (
+        "ok"
+        if not _json_payload_semantically_changed(writer_json_path, build_writer_index_json(root))
+        else ("missing" if not writer_json_path.exists() else "stale")
+    )
 
     day_counter = Counter(status for _, status in day_rows)
     month_counter = Counter(status for _, status in month_rows)
@@ -610,6 +630,8 @@ def build_stale_index_audit(root: Path) -> str:
         f"- Channel index: `{channel_status}`",
         f"- Channel index JSON: `{channel_json_status}`",
         f"- Channel index (misc): `{channel_misc_status}`",
+        f"- Writer index: `{writer_status}`",
+        f"- Writer index JSON: `{writer_json_status}`",
         "",
         "## Day Index Status",
         "",
@@ -646,6 +668,8 @@ def build_stale_index_audit(root: Path) -> str:
             f"- `channel-index.md`: `{channel_status}`",
             f"- `channel-index.json`: `{channel_json_status}`",
             f"- `channel-index-misc.md`: `{channel_misc_status}`",
+            f"- `writer-index.md`: `{writer_status}`",
+            f"- `writer-index.json`: `{writer_json_status}`",
             "",
             "## Return",
             "",
@@ -722,6 +746,22 @@ def main() -> int:
         changed_paths.append(channel_misc_path)
         if args.check:
             print(f"stale {channel_misc_path}")
+
+    writer_path, writer_changed = write_rendered(root / "writer-index.md", build_writer_index(root), check=args.check)
+    if writer_changed:
+        changed_paths.append(writer_path)
+        if args.check:
+            print(f"stale {writer_path}")
+
+    writer_json_path, writer_json_changed = write_writer_index_json(
+        root / "writer-index.json",
+        root,
+        check=args.check,
+    )
+    if writer_json_changed:
+        changed_paths.append(writer_json_path)
+        if args.check:
+            print(f"stale {writer_json_path}")
 
     audit_path, audit_changed = write_rendered(root / "stale-index-audit.md", build_stale_index_audit(root), check=args.check)
     if audit_changed:
