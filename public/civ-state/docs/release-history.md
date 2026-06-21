@@ -4,6 +4,8 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 
 ## Current release
 
+**v0.1.49** — Genesis humanizing prose pass: in-place rhythm, verb, lived-institution, causality, and active-quotation revision; Polybius framed as later writer; `civic-chain-rome-humanize` QA band (body 2,400–2,800).
+
 **v0.1.48** — Source-bearing expansion: Rome civic-chain four (genesis, republic, caesar, augustus) — ~2,500-word bodies with ~20% woven primary/pre-modern quotation; template + reader-guide + `civ-state-essay` v0.2.0 gates; `check_civ_state_essay_prose.py`.
 
 **v0.1.47** — Geo-strategic prose pass: Rome genesis, republic, caesar, augustus — place-as-power narration, causal constraints, de-schematic body language; template + reader-guide geo-strategic doctrine.
@@ -35,6 +37,13 @@ Public reshape milestones for [rbtkhn/civ-state](https://github.com/rbtkhn/civ-s
 **v0.1.34** — Rome hexagonal wave 2 complete: Republic→principate (E) · colonial procedural tail (F) · registry all active · six archetypes A–F in recursive-learn ladder.
 
 **v0.1.33** — Rome hexagonal wave 2 (partial): 1054 Great Schism demonstrator — archetype D (faith-primary schism) confirmed.
+
+### v0.1.49 — genesis humanizing pass
+
+| Change | Detail |
+|--------|--------|
+| `essay-rome-genesis.md` | Prose humanization in place — rhythm variation, abstract→verb rewrites, *pomerium*/*fasces*/tribune/Tables texture, causal bridges, active quote intro/interpret; structure and source weave preserved |
+| `check_civ_state_essay_prose.py` | `civic-chain-rome-humanize` band — body 2,400–2,800 · quoted 450–550 |
 
 ### v0.1.48 — source-bearing expansion (civic-chain four)
 

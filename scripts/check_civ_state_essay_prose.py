@@ -44,6 +44,12 @@ BANDS = {
         "quoted_min": 450,
         "quoted_max": 550,
     },
+    "civic-chain-rome-humanize": {
+        "body_min": 2400,
+        "body_max": 2800,
+        "quoted_min": 450,
+        "quoted_max": 550,
+    },
 }
 
 

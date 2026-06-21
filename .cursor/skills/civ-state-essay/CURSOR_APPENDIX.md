@@ -28,6 +28,12 @@ Reports: `body_words`, `quoted_words`, `quote_pct`, `authorial_words`, schematic
 
 **Bands (civic-chain-rome-v2):** body 2,400–2,600 · quoted 450–550 · ~18–22% quote ratio.
 
+**Genesis humanizing pass (temporary):** `--class civic-chain-rome-humanize` — body 2,400–2,800 · quoted 450–550 unchanged. Use for in-place prose humanization only; fold or revert after operator review.
+
+```powershell
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-genesis.md --class civic-chain-rome-humanize
+```
+
 **Inline fallback** (one path only, if script unavailable):
 
 ```powershell
