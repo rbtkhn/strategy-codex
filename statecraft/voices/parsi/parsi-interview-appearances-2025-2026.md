@@ -12,6 +12,11 @@ Purpose: canonical interview-pressure surface for the Parsi shelf.
 - `Napolitano` for Washington misread and legal-political responsibility
 - `Duran / Mercouris` for blockade failure and diplomatic architecture
 - `Diesen` for order-transition consequence
+- `India Global Left` for long-form **E3 / Europe escalatory-turn** and post-kinetic **snapback** pressure (left-host register; pair Freeman/Ritter on same channel separately)
+
+## September 2025
+
+- [2025-09-02 India Global Left — E3 snapback / unstoppable Israeli-Western war](../../../source-archive/statecraft/2025-09-02/source-india-and-global-left-europe-snapback-sanctions-israel-war-trita-parsi-2025-09-02.md) — https://www.youtube.com/watch?v=9YRw0U4wyV4 · cleaned-transcript · **Load-bearing:** E3 history (2003 suspension); Europe **escalation for escalation**; Trump **May caving** vs helicopter pushback; **Israel restart before Dec**; zero enrichment as cover; Gaza/ICC multilateral close · **Cross-channel:** [Freeman IGL Iran arc](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · [Ritter IGL](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md)
 
 ## Best first openings
 
