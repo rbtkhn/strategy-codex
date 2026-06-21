@@ -7,7 +7,7 @@ alwaysApply: true
 
 New Cursor threads have **no memory** of prior operator state. Warmup fixes that.
 
-**Record frozen:** Grace-Mar fork growth is not a system objective. Default user is **`strategy-codex`**. See [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md). Use `--territory companion` only on explicit fork revive.
+**Record frozen:** Grace-Mar fork growth is not a system objective. Default user is **`strategy-codex`**. See [`docs/archive/grace-mar.md`](../../docs/archive/grace-mar.md) · [`docs/grace-mar-instance-boundary.md`](../../docs/grace-mar-instance-boundary.md). Extended agent fork/gate rules: [`docs/agent-rules/deep-rules.md`](../../docs/agent-rules/deep-rules.md). Use `--territory companion` only on explicit fork revive.
 
 ## When to run
 
@@ -29,7 +29,7 @@ At the **start of a new chat** when work touches **operator state** (integrity, 
 
 **`dream` (end-of-day maintenance):** Follow `.cursor/skills/dream/SKILL.md`. **End-of-day bundle:** `python3 scripts/operator_end_of_day.py -u strategy-codex` runs dream + handoff-check in one pass.
 
-**Architecture questions** (harness vs model, membrane, queue, AFK): read [docs/harness-architecture-map.md](../../docs/harness-architecture-map.md) before parallel doctrine greps.
+**Architecture questions** (harness vs model, membrane, queue, AFK): read [`docs/architecture.md`](../../docs/architecture.md) and [`docs/harness-architecture-map.md`](../../docs/harness-architecture-map.md) before parallel doctrine greps.
 
 ## When you may skip
 

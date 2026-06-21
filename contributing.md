@@ -8,10 +8,29 @@ The embedded Grace-Mar **Record** under [`archive/grace-mar-instance/`](archive/
 
 ## Before you start
 
-1. Read [docs/start-here.md](docs/start-here.md) and [AGENTS.md](AGENTS.md) — active operator surface, knowledge boundary, merge law when fork is revived.
+1. Read [docs/start-here.md](docs/start-here.md) and [AGENTS.md](AGENTS.md) — slim always-on contract; extended rules in [docs/agent-rules/deep-rules.md](docs/agent-rules/deep-rules.md).
 2. Legacy fork doctrine (archived): [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md).
 3. Canonical on-disk paths: [docs/canonical-paths.md](docs/canonical-paths.md).
 4. **Public-facing tone:** [docs/contributing-public-copy.md](docs/contributing-public-copy.md).
+
+## Choose your change type
+
+| If you are changing… | Checklist |
+|---|---|
+| Docs / doctrine | [docs/contributors/docs.md](docs/contributors/docs.md) |
+| Python scripts | [docs/contributors/scripts.md](docs/contributors/scripts.md) |
+| Source archive captures | [docs/contributors/source-archive.md](docs/contributors/source-archive.md) |
+| Essays / notes / prose | [docs/contributors/essays.md](docs/contributors/essays.md) |
+| Generated indexes / routing output | [docs/contributors/generated.md](docs/contributors/generated.md) |
+| Archive / Grace-Mar / fork | [docs/contributors/archive.md](docs/contributors/archive.md) |
+| Unsure | `python3 scripts/check_repo_health.py --quick` |
+
+## Preflight
+
+```bash
+python3 scripts/check_repo_health.py --quick
+python3 scripts/check_repo_health.py --full   # before large PRs
+```
 
 ## Record and pipeline (fork revive only)
 
