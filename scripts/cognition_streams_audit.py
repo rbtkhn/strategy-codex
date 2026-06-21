@@ -502,7 +502,15 @@ def _discover_channel_online(spec: ChannelSpec, start: date, end: date) -> dict[
     }
 
 
-def _load_receipt(path: Path) -> dict[str, Any]:
+def _load_receipt(path: Path, *, allow_missing: bool = False) -> dict[str, Any]:
+    if not path.exists():
+        if allow_missing:
+            return {
+                "items": [],
+                "source_used": "offline_missing_receipt",
+                "errors": [f"missing receipt: {path.name}"],
+            }
+        raise FileNotFoundError(path)
     return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -897,9 +905,20 @@ def run_audit(
     capture_index = _merge_capture_indexes(*capture_indexes) if capture_indexes else {}
     discovered_rows: list[dict[str, Any]] = []
     receipt_manifest: dict[str, str] = {}
+    receipts_present = 0
+    receipts_missing = 0
     for spec in selected:
         receipt_path = receipt_dir / f"{spec.channel_key}.discovery.json"
-        receipt = _load_receipt(receipt_path) if offline else _discover_channel_online(spec, start, end)
+        receipt = (
+            _load_receipt(receipt_path, allow_missing=True)
+            if offline
+            else _discover_channel_online(spec, start, end)
+        )
+        if offline:
+            if receipt_path.exists():
+                receipts_present += 1
+            else:
+                receipts_missing += 1
         if not offline:
             _write_json(receipt_path, receipt)
         receipt_manifest[spec.channel_key] = str(receipt_path)
@@ -925,6 +944,9 @@ def run_audit(
     summary["roster_scope"] = roster
     summary["roster_channel_count"] = len(selected)
     summary["capture_surface"] = capture_surface
+    if offline:
+        summary["receipts_present"] = receipts_present
+        summary["receipts_missing"] = receipts_missing
     queue_rows = [row for row in rows if row["priority"] in {"must-capture", "probably-capture"} and not row["captured"]]
     queue_rows.sort(key=lambda row: (PRIORITY_ORDER[row["priority"]], row["date"], row["channel_key"], row["youtube_id"]))
     queue_groups = {
