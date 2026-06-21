@@ -3143,3 +3143,83 @@ Parallel Read is still parallel — Write first, one tool, stop.
 
 Routing: [civ-state-essay-template.md](../public/civ-state/templates/civ-state-essay-template.md) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
 
+---
+
+## 2026-06-19 — Rome source-discipline pass: quoted-band cliff + Ides metonym ban
+
+**Tag:** `rome-source-discipline-v0.1.59` · `civ-state-quoted-band-restore` · `ides-metonym-ban`  
+**Cross-link:** [§ parallel ban EXECUTE ship](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [§ civ-state essay template ladder](#2026-06-19---civ-state-essay-template-ladder--agent-git-handoff) — **narrows** reception/QA only; does not replace.
+
+### Trigger
+
+Plan EXECUTE: Rome civic-chain **v0.1.59** — strip body `Later reception` and modern `"…"` from four essays; Gibbon/Mommsen/Syme/Goldsworthy/Everitt/Durant → `## Notes` only. QA failures after strip: Augustus **quoted 284** (floor 450); Caesar similar before ancient restore. Operator rejected bare **"the Ides" / "After the Ides"** as assassination shorthand (scope: bare only; keep **"The Ides of March"** when naming the date).
+
+### Extracted law
+
+**1. Reception removal → quoted-band cliff → same-turn ancient restore**
+
+```text
+Removing body Later reception / modern "…" often drops quoted words 100–170 below floor
+→ restore in SAME turn with expanded ancient/medieval witness quotes + embodied beats
+→ never backfill quoted band with Gibbon/Mommsen/modern composites (Notes only)
+→ re-run check_civ_state_essay_prose.py per essay before next file
+```
+
+**2. Source-discipline body hierarchy (Rome civic-chain)**
+
+```text
+Body "…" = primary ancient (+ load-bearing medieval secondary)
+Modern reception = ## Notes only + *(Modern / reception framing — not body SSOT)*
+Deprecated body glue: Later reception would add / would also add / fixed the verdict
+Authorial prose carries modern insight; Notes keep composite text
+```
+
+**3. Calendar metonym ban (operator prose — Rome Caesar/Augustus handoff)**
+
+```text
+Do not use bare "the Ides" / "After the Ides" for Caesar's killing
+→ name the event (assassination, murder in the Senate, Caesar fell in the Senate)
+→ or full "Ides of March" only when the calendar date is load-bearing
+Spot-read: event-naming H2 that repeats lede → prefer motion/place title
+```
+
+### Reapplication
+
+- **Next civ-state essay reception strip:** budget ~150 quoted words ancient expansion per essay; one file per turn + QA.
+- **civ-state-essay skill + template L7:** source hierarchy + Ides checklist (wired v0.2.4).
+- **Augustus H2 optional:** retitle when lede already names assassination (*The heir at Apollonia*).
+
+### Structural changes
+
+| Ship | Path / receipt |
+|------|----------------|
+| Four essays source-discipline | `f92f4f992` v0.1.59 |
+| Skill v0.2.3 source hierarchy | `skills/civ-state-essay/SKILL.md` |
+| Template L7 | `public/civ-state/templates/civ-state-essay-template.md` |
+| Ides prose fix (Augustus, Caesar L59) | uncommitted at RLJ append |
+| Ides checklist wire | `civ-state-essay` v0.2.4 |
+
+QA at v0.1.59: genesis 2,734·462 · republic 2,607·461 · caesar 2,490·450 · augustus 2,630·451.
+
+### Guardrail
+
+```text
+Do not treat reception removal as dedupe-only — it is quoted-band surgery;
+Do not backfill quoted band with modern Notes composites in body;
+Do not use insider calendar metonym for assassination without operator OK;
+Cross-link parallel-ban / template-ladder — do not duplicate full prose.
+```
+
+**Falsification:** If humanize QA bands drop quoted floor requirement, law (1) softens to restore-when-below-floor only.
+
+### Current lesson
+
+```text
+Strip modern reception from the body, expand ancient witnesses in the same turn —
+and name the killing, not "the Ides."
+```
+
+Routing: [civ-state-essay SKILL v0.2.4](../skills/civ-state-essay/SKILL.md) · [release-history v0.1.59](../public/civ-state/docs/release-history.md) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
+
+**Pattern promotion:** defer until second volume essay pass reuses source-discipline without new law.
+

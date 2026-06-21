@@ -3,7 +3,7 @@ name: civ-state-essay
 preferred_activation: civ-state essay
 description: "Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake."
 portable: true
-version: 0.2.3
+version: 0.2.4
 tags:
   - operator
   - work-strategy
@@ -77,7 +77,7 @@ Pin from target file + [`release-history.md`](../../public/civ-state/docs/releas
 
 After any **humanizing** pass on a node, default QA class for later edits on that file → **humanize** until operator folds bands.
 
-**Human-prose anti-patterns (checklist — detail in template/reader-guide):** repeated motif phrases (`public, bounded, returnable`; prize catalogues; liberty/elections thesis loops); formula transitions (`The point is not…`, `What matters here…`, `Memory that…`); neat thesis-summary paragraph closings; **meta quote wrappers** (`moralized… compressed rhetoric`, `One modern analyst would later write`); abstract noun clusters without verbs. Cap formula stock phrases at **≤2** per essay on light passes.
+**Human-prose anti-patterns (checklist — detail in template/reader-guide):** repeated motif phrases (`public, bounded, returnable`; prize catalogues; liberty/elections thesis loops); formula transitions (`The point is not…`, `What matters here…`, `Memory that…`); neat thesis-summary paragraph closings; **meta quote wrappers** (`moralized… compressed rhetoric`, `One modern analyst would later write`); abstract noun clusters without verbs; **calendar metonym for assassination** (bare `the Ides` / `After the Ides` — name the event or use full **Ides of March** only when the date is load-bearing). Cap formula stock phrases at **≤2** per essay on light passes.
 
 ### Source discipline (body vs Notes — Rome civic-chain)
 
