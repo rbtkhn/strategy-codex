@@ -127,7 +127,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 - source indexes (disk): 24
 - host shelves (disk): 3
-- markdown links (INDEX + source-index files): 922
+- markdown links (INDEX + source-index files): 927
 - repo-map routes: 47 (canonical_reference=1, directory_index=1, essay=8, generated_dashboard=1, generated_inventory=2, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=6, source_index=24)
 - source_index routes in repo-map: 24
 - host_shelf routes in repo-map: 3

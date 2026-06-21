@@ -39,6 +39,8 @@ try:
 except ImportError:
     build_night_pulse_lines = None  # type: ignore[misc, assignment]
 
+from repo_io import profile_dir, profile_rel_posix  # noqa: E402
+
 RUNTIME_NOISE_MARKERS = (
     "runtime/operator-events/",
     "pipeline-events.jsonl",
@@ -330,7 +332,7 @@ def _gate_detail_lines(recursion_gate_md: str, user_id: str) -> list[str]:
             "See `docs/grace-mar-instance-boundary.md`. Say **`fork revive`** or coffee **`A gate`** to reopen.",
             "",
         ]
-    gate_rel = f"{user_id}/recursion-gate.md"
+    gate_rel = f"{profile_rel_posix(user_id)}/recursion-gate.md"
     politics_rows, companion_rows = pending_by_territory(recursion_gate_md)
     total = len(politics_rows) + len(companion_rows)
     lines: list[str] = [
@@ -517,7 +519,7 @@ def build_handoff_check(
 ) -> str:
     if fast:
         return build_fast_receipt(user_id=user_id, skip_discipline=skip_discipline)
-    user_dir = USERS_DIR / user_id
+    user_dir = profile_dir(user_id)
     recursion_gate = _read(user_dir / "recursion-gate.md")
     evidence = _read(user_dir / "self-archive.md") or _read(user_dir / "self-evidence.md")
     gate_pending = _pending_candidates(recursion_gate, "all")

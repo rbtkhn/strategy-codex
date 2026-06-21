@@ -2,13 +2,14 @@
 """
 Shared I/O and path helpers for strategy-codex scripts.
 
-The repository now uses a sole-operator layout: canonical Record surfaces live
-at the repository root. This module remains the single place for REPO_ROOT and
-the canonical path helpers used by scripts and docs.
+Canonical Record surfaces live under `archive/grace-mar-instance/` when relocated.
+This module is the single place for REPO_ROOT and path helpers used by scripts and docs.
 """
 
 import json
 import os
+import sys
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
@@ -17,8 +18,7 @@ DEFAULT_PROFILE_ID = (os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() o
 # Back-compat alias for scripts that still import the older constant name.
 DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
-# Authoritative on-disk names live at the repository root. Docs may say SELF/EVIDENCE
-# as concepts; filenames are always these. See docs/canonical-paths.md.
+# Authoritative on-disk names under the profile bundle (see docs/canonical-paths.md).
 CANONICAL_EVIDENCE_BASENAME = "self-archive.md"
 CANONICAL_RECORD_FILES_REQUIRED: tuple[str, ...] = (
     "self.md",
@@ -26,6 +26,42 @@ CANONICAL_RECORD_FILES_REQUIRED: tuple[str, ...] = (
     CANONICAL_EVIDENCE_BASENAME,
     "recursion-gate.md",
 )
+
+# Sprint 4 classification for REPO_PATH_MIGRATIONS retirement (see docs/complexity-budget.md).
+REPO_PATH_CLASSIFICATION: dict[str, str] = {
+    "artifacts": "active_canonical",
+    "daily-handoff": "active_canonical",
+    "prepared-context": "active_canonical",
+    "runtime-bundle": "active_canonical",
+    "src": "active_canonical",
+    "skills": "active_canonical",
+    "skills-portable": "active_canonical",
+    "apps": "active_canonical",
+    "app": "active_canonical",
+    "bin": "active_canonical",
+    "deployment": "active_canonical",
+    "config": "active_canonical",
+    "extension": "active_canonical",
+    "integrations": "active_canonical",
+    "miniapp": "active_canonical",
+    "users": "active_canonical",
+    "template": "active_canonical",
+    "profile": "active_canonical",
+    "auto-research": "active_canonical",
+    "bridges": "active_canonical",
+    "schema-registry": "active_canonical",
+    "styles": "active_canonical",
+    "evidence": "archive_placeholder",
+    "reflection-proposals": "archive_placeholder",
+    "review-queue": "archive_placeholder",
+    "bot": "grace_mar_compat",
+    "recursion-gate-staging": "grace_mar_compat",
+    "bootstrap": "grace_mar_compat",
+    "grace-mar-instance": "grace_mar_compat",
+}
+
+_LEGACY_PATH_WARNED: set[str] = set()
+_LEGACY_PATH_RESOLVE_COUNT: Counter[str] = Counter()
 
 # Operator append-only ledgers (moved from repo root — see docs/root-directory-map.md).
 OPERATOR_EVENTS_DIR = REPO_ROOT / "runtime" / "operator-events"
@@ -102,6 +138,43 @@ REPO_PATH_MIGRATIONS: dict[str, tuple[str, ...]] = {
 GRACE_MAR_INSTANCE_DIR = REPO_ROOT / "archive" / "grace-mar-instance"
 
 
+def strict_paths_enabled() -> bool:
+    return os.environ.get("STRATEGY_CODEX_STRICT_PATHS", "").strip() == "1"
+
+
+def legacy_path_resolve_count() -> dict[str, int]:
+    """Return per-key counts of legacy fallback resolutions this process."""
+    return dict(_LEGACY_PATH_RESOLVE_COUNT)
+
+
+def reset_legacy_path_resolve_count() -> None:
+    _LEGACY_PATH_RESOLVE_COUNT.clear()
+    _LEGACY_PATH_WARNED.clear()
+
+
+def scan_legacy_path_layout() -> list[str]:
+    """
+    Report legacy or dual-layout path keys without mutating resolver state.
+
+    Used by check_repo_path_strict.py and complexity audit.
+    """
+    issues: list[str] = []
+    for key, entry in REPO_PATH_MIGRATIONS.items():
+        if len(entry) < 2:
+            continue
+        canonical = REPO_ROOT / entry[0]
+        legacy_hits = [rel for rel in entry[1:] if (REPO_ROOT / rel).exists()]
+        if not legacy_hits:
+            continue
+        if canonical.exists():
+            for rel in legacy_hits:
+                issues.append(f"{key}: dual layout ({entry[0]} + {rel})")
+        else:
+            for rel in legacy_hits:
+                issues.append(f"{key}: legacy-only ({rel}; canonical {entry[0]} missing)")
+    return issues
+
+
 def resolve_repo_path(logical_key: str, *, prefer_existing: bool = True) -> Path:
     """Resolve consolidated repo path by logical key (canonical + legacy fallback)."""
     entry = REPO_PATH_MIGRATIONS.get(logical_key)
@@ -115,6 +188,19 @@ def resolve_repo_path(logical_key: str, *, prefer_existing: bool = True) -> Path
     for legacy_rel in entry[1:]:
         legacy = REPO_ROOT / legacy_rel
         if legacy.exists():
+            if strict_paths_enabled():
+                raise RuntimeError(
+                    "strategy-codex: STRATEGY_CODEX_STRICT_PATHS=1 but legacy path resolved for "
+                    f"{logical_key!r}: {legacy_rel} (canonical: {entry[0]})"
+                )
+            _LEGACY_PATH_RESOLVE_COUNT[logical_key] += 1
+            if logical_key not in _LEGACY_PATH_WARNED:
+                _LEGACY_PATH_WARNED.add(logical_key)
+                print(
+                    f"repo-path: legacy fallback for {logical_key!r}: {legacy_rel} "
+                    f"(canonical {entry[0]} missing)",
+                    file=sys.stderr,
+                )
             return legacy
     return canonical
 
@@ -249,6 +335,11 @@ def profile_dir(user_id: str) -> Path:
     return REPO_ROOT
 
 
+def profile_rel_posix(user_id: str) -> str:
+    """Repo-relative POSIX path to the operator profile / Record bundle directory."""
+    return profile_dir(user_id).relative_to(REPO_ROOT).as_posix()
+
+
 def dream_handoff_root(users_dir: Path, user_id: str) -> Path:
     """Filesystem root for dream handoff JSON (sole-operator root vs platform/users/<id>)."""
     if users_dir.resolve() == DEFAULT_USERS_DIR.resolve():
@@ -325,9 +416,7 @@ def fork_config_path(fork_id: str) -> Path:
 
 
 def missing_canonical_record_files(user_id: str) -> list[str]:
-    """
-    Return basenames missing under the repository root. Empty list if all required exist.
-    """
+    """Return required Record basenames missing under the profile bundle."""
     root = profile_dir(user_id)
     return [name for name in CANONICAL_RECORD_FILES_REQUIRED if not (root / name).is_file()]
 
@@ -457,9 +546,10 @@ def assert_canonical_record_layout(user_id: str, *, context: str = "") -> None:
     missing = missing_canonical_record_files(user_id)
     if missing:
         ctx = f" ({context})" if context else ""
-        fix = "See docs/canonical-paths.md. If you have legacy uppercase filenames, migrate them to the root-level canonical names."
+        rel = profile_rel_posix(user_id)
+        fix = "See docs/canonical-paths.md and docs/root-directory-map.md."
         raise RuntimeError(
-            f"strategy-codex: canonical Record files missing at the repository root: {missing}.{ctx}\n{fix}"
+            f"strategy-codex: canonical Record files missing under {rel}: {missing}.{ctx}\n{fix}"
         )
     enforce_canonical_self_skills_layout(profile_dir(user_id))
 

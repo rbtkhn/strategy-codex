@@ -47,6 +47,22 @@ Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork.
 
 Detailed doctrine belongs under `docs/archive/` and `archive/grace-mar-corpus/`.
 
+## Legacy path fallback retirement (Sprint 4)
+
+`scripts/repo_io.py` → `REPO_PATH_MIGRATIONS` maps logical keys to `(canonical, legacy…)`.
+
+| Classification | Keys (examples) | Sprint 4 policy |
+|---|---|---|
+| `active_canonical` | `artifacts`, `src`, `skills`, `users`, … | Canonical under `runtime/`, `platform/`, `skills/` — retire root legacy when dual layout gone |
+| `archive_placeholder` | `evidence`, `review-queue`, `reflection-proposals` | Keep under `archive/` until fork revive traffic is zero |
+| `grace_mar_compat` | `bot`, `bootstrap`, `recursion-gate-staging` | Resolve via `strategy_codex.compat.grace_mar_paths` for Voice archaeology only |
+
+**Strict mode:** `STRATEGY_CODEX_STRICT_PATHS=1` → `resolve_repo_path()` raises if legacy fallback would be used.
+
+**CI (warn):** `python3 scripts/check_repo_path_strict.py` — reports dual/legacy-only layouts; `--strict` fails (Sprint 6+).
+
+**Record bundle:** Profile / Record files → `archive/grace-mar-instance/` via `profile_dir()` — not repo root, not `platform/users/<id>` unless that tree holds `self.md`.
+
 ## CI rollout policy
 
 1. **Warning mode** — new checks run in CI with `continue-on-error: true` or without `--check` for two clean passes.
@@ -59,4 +75,5 @@ Detailed doctrine belongs under `docs/archive/` and `archive/grace-mar-corpus/`.
 - `scripts/audit_repo_complexity.py`
 - `scripts/check_archive_boundary.py` (warn mode; `--strict` after Phase 5)
 - `scripts/generate_llm_routing.py` — hybrid [`LLM-ROUTING.md`](../LLM-ROUTING.md) from [`repo-map.yaml`](../repo-map.yaml)
+- `scripts/check_repo_path_strict.py` (warn mode; `--strict` Sprint 6+)
 - `runtime/artifacts/complexity-audit/`

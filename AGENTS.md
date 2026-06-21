@@ -42,7 +42,7 @@ When uncertain, stage with an explicit note that **human sensemaking** may be re
 
 A **governed interpretive machine** — verbatim sources land in archive; bounded synthesis and transaction objects carry judgment under **statecraft** and **singularity**. Durable operator work ends at **governed adjacent** surfaces unless the operator explicitly revives the Grace-Mar fork lane. See [`docs/product-identity.md`](docs/product-identity.md) and [`essays/from-accumulation-to-governed-interpretive-machine.md`](essays/from-accumulation-to-governed-interpretive-machine.md).
 
-**Legacy — Grace-Mar cognitive fork (frozen sidecar):** A versioned personal Record (`self.md`, `self-archive.md`, …) and deprecated Voice (`archive/grace-mar-instance/bot/`) remain at repo root for archaeology and explicit revive only. Do not treat fork growth as the product objective. [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
+**Legacy — Grace-Mar cognitive fork (frozen sidecar):** A versioned personal Record (`archive/grace-mar-instance/self.md`, `self-archive.md`, …) and deprecated Voice (`archive/grace-mar-instance/bot/`) remain for archaeology and explicit revive only. Do not treat fork growth as the product objective. [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md) · [`docs/grace-mar-instance-boundary.md`](docs/grace-mar-instance-boundary.md).
 
 **Legacy conceptual distinctions** (Grace-Mar instance; fork revive only — see conceptual-framework.md):
 - **Companion** â€” The person whose Record it is (the human in **triadic cognition** â€” Mind in the triad). Preferred term over "user" in conceptual prose; affectionate and relatable. **Framing:** The human is Grace-Mar's companion â€” the Record and Voice are accompanied by the human, who holds authority and meaning. Grace-Mar serves the companion; the companion serves Grace-Mar.
@@ -61,7 +61,7 @@ Four modes: **Session** (conversational, no merges â€” default), **Pipeline
 
 ### Repo focus
 
-`strategy-codex` is the active development repo. Treat Grace-Mar-specific runtime and Record surfaces at the repository root (`self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, `self-skills.md`, `self-library.md`, and `grace-mar-llm.txt`) as embedded instance material, not the repo's top-level public identity.
+`strategy-codex` is the active development repo. Grace-Mar Record surfaces live under [`archive/grace-mar-instance/`](archive/grace-mar-instance/) (not the repo's top-level public identity). See [`docs/archive/grace-mar.md`](docs/archive/grace-mar.md).
 
 ### Default work lane (operator)
 
@@ -249,7 +249,7 @@ This is **execution hygiene**, not authority relaxation: safety boundaries still
 
 Instance-specific. See [instance-doctrine.md](instance-doctrine.md) for the full success metrics table, file update protocol, merge-via-script rules, provenance requirements, and prompt architecture.
 
-**Key invariant (repeated here for safety):** The agent must **not** edit `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, or `archive/grace-mar-instance/bot/prompt.py` directly. Merge only via `python scripts/process_approved_candidates.py --apply`.
+**Key invariant (repeated here for safety):** The agent must **not** edit `archive/grace-mar-instance/self.md`, `archive/grace-mar-instance/self-archive.md`, `archive/grace-mar-instance/recursion-gate.md`, `session-log.md`, or `archive/grace-mar-instance/bot/prompt.py` directly. Merge only via `python scripts/process_approved_candidates.py --apply`.
 
 ---
 

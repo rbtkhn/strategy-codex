@@ -54,9 +54,9 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from recursion_gate_territory import normalize_territory_cli, pending_by_territory
 try:
-    from repo_io import read_path, profile_dir, DEFAULT_USER_ID
+    from repo_io import read_path, profile_dir, profile_rel_posix, DEFAULT_USER_ID
 except ImportError:
-    from scripts.repo_io import read_path, profile_dir, DEFAULT_USER_ID
+    from scripts.repo_io import read_path, profile_dir, profile_rel_posix, DEFAULT_USER_ID
 
 _read = read_path  # backward compat for operator_daily_warmup, operator_handoff_check
 DEFAULT_TAIL = 12
@@ -316,7 +316,7 @@ def render_compact_warmup(
     bits: list[str] = []
     if fresh_judge:
         bits.append(
-            f"[FRESH JUDGE · canonical=repo · gate={user}/recursion-gate.md · receipt={receipt_one or 'none'}]"
+            f"[FRESH JUDGE · canonical={profile_rel_posix(user)} · gate=recursion-gate.md · receipt={receipt_one or 'none'}]"
         )
     bits.append(f"[strategy-codex warmup · {user} · {ts} · territory={territory}]")
     if frozen:
@@ -427,10 +427,10 @@ def main() -> int:
             "### Fresh judge (clean context)\n\n"
             "**Ignore prior thread assumptions** about RECURSION-GATE, pending candidates, or last merge. "
             "Canonical state is **only** what appears in the repo paths below (and git).\n\n"
-            f"- **Gate:** `{args.user}/recursion-gate.md`\n"
-            f"- **Last merge receipt:** `{args.user}/merge-receipts.jsonl` (tail) — "
+            f"- **Gate:** `{profile_rel_posix(args.user)}/recursion-gate.md`\n"
+            f"- **Last merge receipt:** `{profile_rel_posix(args.user)}/merge-receipts.jsonl` (tail) — "
             f"{receipt_one or '_no receipts yet_'}\n"
-            f"- **SELF / EVIDENCE:** `{args.user}/self.md`, `self-archive.md`\n\n"
+            f"- **SELF / EVIDENCE:** `{profile_rel_posix(args.user)}/self.md`, `self-archive.md`\n\n"
             "---\n\n"
         )
 
@@ -527,7 +527,7 @@ def main() -> int:
         for cid, summ in pending_list[:8]:
             lines.append(f"  - **{cid}** — {summ}")
         if len(pending_list) > 8:
-            lines.append(f"  - … and {len(pending_list) - 8} more (open `{args.user}/recursion-gate.md`)")
+            lines.append(f"  - … and {len(pending_list) - 8} more (open `{profile_rel_posix(args.user)}/recursion-gate.md`)")
     if stale:
         lines.append("")
         lines.append(f"- **STALE candidates (>{STALE_THRESHOLD_DAYS} days):**")
@@ -561,7 +561,7 @@ def main() -> int:
             "",
             "### For the agent",
             "",
-            f"- Canonical paths: `{args.user}/self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`.",
+            f"- Canonical Record paths: `{profile_rel_posix(args.user)}/self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`.",
             "- **Do not merge** without companion approval. Stage-only handback: `platform/integrations/openclaw_stage.py`.",
             "- After approved merges: refresh PRP / OpenClaw export if this instance uses them.",
             "",

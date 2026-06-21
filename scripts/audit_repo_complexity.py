@@ -17,7 +17,7 @@ _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from repo_io import REPO_PATH_MIGRATIONS, TARGET_ROOT_FOLDERS  # noqa: E402
+from repo_io import REPO_PATH_MIGRATIONS, TARGET_ROOT_FOLDERS, scan_legacy_path_layout  # noqa: E402
 
 PRIMARY_DOC_PATHS = (
     "README.md",
@@ -89,6 +89,7 @@ class ComplexityMetrics:
     routing_index_surfaces: int
     repo_map_routes: int
     legacy_fallback_entries: int
+    legacy_path_layout_issues: int
     repo_path_migration_keys: int
     always_read_docs: int
     always_read_lines: int
@@ -176,6 +177,7 @@ def collect_metrics() -> ComplexityMetrics:
     legacy_fallback_entries = sum(
         1 for _key, entry in REPO_PATH_MIGRATIONS.items() if len(entry) > 1
     )
+    legacy_path_layout_issues = len(scan_legacy_path_layout())
 
     always_read_lines = 0
     always_read_docs = 0
@@ -209,6 +211,7 @@ def collect_metrics() -> ComplexityMetrics:
         routing_index_surfaces=routing_present,
         repo_map_routes=repo_map_routes,
         legacy_fallback_entries=legacy_fallback_entries,
+        legacy_path_layout_issues=legacy_path_layout_issues,
         repo_path_migration_keys=len(REPO_PATH_MIGRATIONS),
         always_read_docs=always_read_docs,
         always_read_lines=always_read_lines,
@@ -250,6 +253,7 @@ def format_report(metrics: ComplexityMetrics) -> str:
         "",
         f"- REPO_PATH_MIGRATIONS keys: {metrics.repo_path_migration_keys}",
         f"- Keys with legacy fallback tuples: {metrics.legacy_fallback_entries}",
+        f"- Active legacy/dual path layouts on disk: {metrics.legacy_path_layout_issues}",
         "",
         "## Agent / contributor preflight",
         "",
