@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Atomically materialize approved YouTube URLs into the statecraft source-archive.
 
+DEPRECATED for new archive writes (2026-06-20): use source-intake + source-* filenames.
+See docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md.
+
 WORK only; not Record. This script consumes operator-approved URLs. It does
 not decide which stream items deserve capture.
 """

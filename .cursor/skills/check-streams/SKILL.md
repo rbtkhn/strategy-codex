@@ -1,9 +1,9 @@
 ---
 name: check-streams
 preferred_activation: check streams
-description: Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris. Use for daily or bounded roster discovery, operator selection, clip filtering, and handoff of approved watch URLs to transcript materialization. Do not use for one-off YouTube URL capture, archive family filing, or month-slice deepening unless the operator explicitly wants the roster layer first.
+description: Check the daily tracked YouTube stream roster for Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris. Use for daily or bounded roster discovery, operator selection, clip filtering, and handoff of approved watch URLs to source-intake (not materialize). Do not use for one-off archive filing unless the operator explicitly wants the roster layer first.
 portable: true
-version: 0.3.0
+version: 0.4.0
 tags:
 - operator
 - strategy
@@ -17,9 +17,11 @@ synced_by: sync_portable_skills.py
 
 **Preferred activation (operator):** say **`check streams`**.
 
-Use this skill for the **daily stream check / daily ingest routine** across the fixed main-stream watchlist. It discovers today's Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris uploads, filters likely highlight clips and same-day companion clips, presents a list-first view, materializes only the operator-approved subset into canonical `raw-input`, and then suggests speaker-folder routing hints.
+Use this skill for the **daily stream check / daily ingest routine** across the fixed main-stream watchlist. It discovers today's Davis, Diesen, Alkorshid/Dialogue Works, Napolitano/Judging Freedom, and Mercouris uploads, filters likely highlight clips and same-day companion clips, presents a list-first view, and hands off only the operator-approved subset to **`source-intake`** for canonical archive land (`source-*` under `source-archive/statecraft/`).
 
-Use the single-URL YouTube transcript workflow for one-off URLs. Use this skill when the operator wants the **daily roster**.
+Do **not** use the deprecated **`youtube-raw-input-transcript`** / **`materialize_youtube_raw_input.py --apply`** path. See [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md).
+
+For a single URL with transcript already in hand, use **`source-intake`** directly. Use this skill when the operator wants the **daily roster**.
 
 **Legacy activation:** `cognition streams` remains accepted as a compatibility alias. Treat `check streams` as canonical in new docs, Coffee C routing, and operator-facing prose.
 
@@ -441,38 +443,22 @@ If a stream has no upload on the target day, say so explicitly.
 4. **Wait for operator selection**
    - Support selections such as `all`, `all except X`, channel-specific subsets, and explicit clip inclusion.
 
-5. **Materialize the approved subset**
-   - Use the atomic materializer as the default command path for approved YouTube URLs:
-     - single URL: `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --apply --with-appearances --purpose daily`
-     - approved batch: `python scripts/materialize_youtube_raw_input.py --input <approved-urls.jsonl> --apply --with-appearances --purpose daily`
-     - dry-run/probe: `python scripts/materialize_youtube_raw_input.py --url "<youtube-url>" --no-apply --run-id <label>`
-   - **Do not materialize from podcast-directory URLs or transcript-mirror URLs.** For transcript-grade or transcript-bearing raw-input, the approved source must be the direct YouTube watch URL.
+5. **Land the approved subset (`source-intake`)**
+   - After operator approval, obtain a **full transcript body** for each URL (operator paste in thread, session-log extraction, or bounded subtitle fetch — same provenance rules as before).
+   - Land each capture with **`source-intake`**: sidecar `header.md` + body → `python scripts/land_statecraft_source_body.py` → `source-archive/statecraft/YYYY-MM-DD/source-<slug>.md`.
+   - Run the source-intake post-land chain (day README, intake queue) per [statecraft-source-intake](../statecraft-source-intake/SKILL.md).
+   - **Do not** call `python scripts/materialize_youtube_raw_input.py --apply` for new archive writes. That path is deprecated ([YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md)).
+   - **Do not materialize from podcast-directory URLs or transcript-mirror URLs.** The approved source must be the direct YouTube watch URL in frontmatter.
    - For each approved URL:
-     - resolve metadata first
-     - if metadata fetch fails but the operator supplied title, publication date, and lane/file metadata, let the materializer bypass metadata and try subtitle extraction from the URL's video id
-     - fetch the best subtitle source available
-     - preserve extraction receipts locally
-     - write canonical date-folder raw-input
-     - verify the written raw-input has a non-stub transcript body before reporting success
-   - Review `.codex-tmp/youtube-raw-input/<run-id>/materialization-summary.md` and `capture-summary.md` before claiming capture.
-   - For apply-mode runs with `--with-appearances`, expect the materializer to refresh `runtime/artifacts/host-shelf-quality/<year>/<host>/<YYYY-MM>/quality-summary.md/json` unless `--no-quality-report` was explicitly used.
-   - For all apply-mode materialization runs, expect the materializer to refresh `codex/years/2026/raw-input/raw-input-master-index.md` and `raw-input-master-index.json`.
-   - Close materialization/densification claims with the mandatory quality line from the capture summary: `Structure: <delta> | Purity: <delta/%> | Unresolved: <count> | Git: on-disk/verified/not-committed/not-pushed`.
-   - Preserve the receipt scope: materializer host-quality closeouts are `full-host-month`, even when the capture run started from one transcript.
-   - Do not treat new routeable appearances as textual purity gains unless the quality report shows transcript-grade, cleaned-transcript, or transcript-bearing improvement.
-   - After every successful transcript raw-input completion, include an **item-level transcript quality receipt** in the operator-facing result. Prefer `python scripts/report_raw_input_quality.py --path <raw-input-file>`; if that helper is unavailable, use the host-shelf quality artifact or run a dry-run host-month report such as `python scripts/host_shelf_quality.py --host <host> --year <YYYY> --month <YYYY-MM>` and quote the matching artifact row. The receipt must include: raw-input path, evidence grade (`transcript-grade`, `cleaned-transcript`, `transcript-bearing`, `summary-grade`, or `legacy-appearance-only`), word count, routeable yes/no, unresolved speaker yes/no, residual noise terms, quality/provenance note, and the host-month `Structure | Purity | Unresolved | Git` closeout line.
-   - Residual-noise repair loop: if the item-level receipt reports residual noise terms, inspect each occurrence before closing. Automatically patch obvious speech-to-text/proper-noun artefacts when the local context makes the intended correction clear (for example known analyst names, public figures, or recurring transcript noise such as `Zalinski` -> `Zelensky` and `Mandi` in a professor/guest context -> `Marandi`). Rerun `python scripts/report_raw_input_quality.py --path <raw-input-file>` after the patch. Close with `residual noise: none` only after the rerun confirms it; if a term is ambiguous, leave it unchanged and list it as unresolved in the receipt.
-   - If a transcript body is present but metadata causes the quality classifier to return `legacy-appearance-only`, say that explicitly and do not call it transcript-valid until the metadata is normalized.
-   - Legacy transcript normalization rule: when an existing raw-input file has a real transcript body plus enough provenance to identify host, title, date, and source URL, normalize metadata before closeout unless the operator asked for read-only inspection. Add `source_type`, `transcript_type`, quality/provenance notes, and an explicit transcript marker while preserving the transcript body; then rerun `report_raw_input_quality.py --path <raw-input-file>` and close with the updated receipt.
-   - When the approved subset is really a guest-host tranche rather than "today's whole roster," preserve that exact tranche shape instead of reopening discovery or broad channel slicing.
-   - If materialization returns `failed-fetch` or `failed-verification`, report the failure and stop before speaker routing, lattice updates, or completion claims.
-   - For `failed-fetch` cases where a human will paste the transcript later, use the materializer's receipt-side `manual-curation-queue.md` and `manual-transcript-scaffolds/` outputs. Keep those scaffold files outside canonical raw-input until the paste marker is replaced and verification passes.
-   - If YouTube discovery fails but secondary listings strongly suggest a same-day upload exists, report it as **missing-watch-url / unresolved**, not as transcript-captured. Recover the YouTube watch URL before claiming transcript completion.
-   - If the operator has already pasted the full transcript in the current Codex thread, treat that paste as a valid transcript source and hand the item down to the YouTube transcript workflow's **operator-paste fallback**. Prefer mechanical extraction from the local Codex session log over hand-copying long chat text. Do not call the result `partial-chat-capture` merely because the paste is long or awkward to patch.
-   - For full operator-paste repairs, require an exact-match receipt before closing the item: `sourceChars`, `bodyChars`, and `exactMatch=True` between the extracted session transcript and the body written after `## Transcript`.
-   - After exact-match verification passes, update the check-stream receipts as captured with `capture_status: full-operator-paste`; move the item out of the open repair queue. Use `partial-chat-capture` only when the source is truly incomplete or exact extraction cannot be verified, and leave that item queued as `full-transcript-import-needed`.
-   - After any successful apply-mode or operator-paste materialization into `source-archive/statecraft/`, refresh the touched day `README.md` and then refresh any already-existing live speaker `*-raw-input-index.md` bench that the new capture clearly strengthens.
-   - If the bench refresh changes the shelf's practical first-open logic or current-motion story, patch the narrowest relevant live shelf files, usually `*-arc.md` and `*-routing.md`, in the same pass.
+     - resolve metadata first (title, `pub_date`, channel / host)
+     - if subtitle fetch fails, report failure and offer operator-paste **`source-intake`** — do not invent stub archive files
+     - preserve extraction receipts locally when fetch was used
+     - verify the landed archive file has a non-stub transcript body before reporting success
+   - If the operator has already pasted the full transcript in the current Codex thread, run **`source-intake`** with mechanical session-log extraction when available. Require exact-match verification before closing: `sourceChars`, `bodyChars`, `exactMatch=True`.
+   - After exact-match verification passes, update check-stream receipts as captured with `capture_status: full-operator-paste`. Use `partial-chat-capture` only when the source is truly incomplete or exact extraction cannot be verified.
+   - After successful **`source-intake`**, refresh the touched day `README.md` (included in post-land chain).
+   - If materialization returns `failed-fetch` or `failed-verification`, report the failure and stop before synthesis or completion claims.
+   - If YouTube discovery fails but secondary listings strongly suggest a same-day upload exists, report it as **missing-watch-url / unresolved**, not as captured.
 
 6. **Default transcript class**
    - Default to `auto_subtitles_vtt`.
@@ -480,16 +466,16 @@ If a stream has no upload on the target day, say so explicitly.
    - Upgrade to stronger normalization only when the operator explicitly asks.
 
 7. **Suggest speaker-folder routing**
-   - After approved items are materialized and verified as non-stub raw-input, inspect metadata, title, host, guest, and obvious `thread:` identity.
-   - Treat each verified capture as an **appearance**: one host/speaker/date/source event derived from raw-input, not a durable interpretation by itself.
-   - The atomic materializer now emits the first durable appearance packet for approved items when run with `--with-appearances`: `appearance-ledger.jsonl`, speaker-routing queue, speaker-memory action queue, and capture summary.
+   - After approved items are landed via **`source-intake`** and verified as non-stub archive captures, inspect metadata, title, host, guest, and obvious `thread:` identity.
+   - Treat each verified capture as an **appearance**: one host/speaker/date/source event derived from the archive capture, not a durable interpretation by itself.
+   - Appearance / routing queues are **not** auto-emitted by source-intake; run routing builders manually when the operator wants them (see below).
    - Treat the host-shelf quality summary as the benchmark surface for structural gain, transcript-purity gain, unresolved speaker count, and scoped git state.
    - Suggest the route stack: primary route first, then any speaker object, stream-local speaker arc, helix, or cross-host note the same appearance also strengthens.
    - For a durable advisory queue, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `runtime/artifacts/speaker-routing/<start>_to_<end>/speaker-routing-queue.md` plus `appearance-ledger.jsonl`.
    - When the operator wants concrete follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD` and review `runtime/artifacts/speaker-memory-actions/<start>_to_<end>/memory-action-queue.md`.
    - Prefer existing host-local speaker arcs as the primary route when host + guest match; list matching speaker objects or helix/cross-host notes as additional strengthened surfaces.
    - Distinguish the surface type: use **host-local arc** for one host x guest braid, **thread atlas** for recurring strands across months or hosts, and **speaker helix** for cross-host comparison of multiple host-local arcs.
-   - If no clear speaker route exists, say so and stop at raw-input.
+   - If no clear speaker route exists, say so and stop at archive land.
    - Treat lattice rows as lookup pointers; update them only after the speaker object or arc path is clear and the operator asks for that follow-up.
    - If the only available suggestion is a roster mention or vague lattice presence, say the route is still thin rather than implying completion.
 
@@ -632,27 +618,26 @@ If the operator asks to see clips:
 - <channel> — <title> — <why flagged> — <url>
 ```
 
-After operator selection, report only the approved items being materialized and the resulting raw-input outcome. When materialization succeeds and a speaker route is clear, add:
+After operator selection, report only the approved items being landed and the resulting archive outcome. When **`source-intake`** succeeds and a speaker route is clear, add:
 
 ```markdown
 ## Capture closeout
 - target: <date or item> - <target_date_status or target_window_status> - <captured>/<main_total> captured - must-capture remaining: <N>
-- raw-input: <path(s)>
+- archive: <source-archive path(s)>
 - audit artifact: <summary/repair queue path>
 - backlog: <overall_backlog_status>; probably-capture backlog remains: <yes/no>
-- capture mode: <online discovery / cached offline audit / exact-URL materialization / metadata-bypass materialization / operator-paste materialization>
+- capture mode: <online discovery / cached offline audit / operator-paste source-intake / subtitle-fetch then source-intake>
 
 ## Transcript quality
-- raw-input: <path>
+- archive: <path>
 - evidence grade: <transcript-grade / cleaned-transcript / transcript-bearing / summary-grade / legacy-appearance-only>
 - word count: <N>
 - routeable: <yes/no>; unresolved speaker: <yes/no>
 - residual noise: <none or terms>
 - quality note: <source_note/editorial_note/quality_note>
-- host-month closeout: Structure: <delta> routeable | Purity: <delta> transcript-valid / <pct>% (<delta pp>) | Unresolved: <N> | Git: <state>
 
 ## Speaker routing hints
-- <raw-input file> -> <primary speaker route> - <next action> - <why>
+- <archive capture> -> <primary speaker route> - <next action> - <why>
 - also strengthens: <speaker object / speaker arc / helix / cross-host note paths, if any>
 - action queue: <memory-action-queue.md path, when generated>
 ```
@@ -661,7 +646,7 @@ After operator selection, report only the approved items being materialized and 
 
 When a check-stream repair becomes a commit candidate, keep the ship slice narrow:
 
-- stage only raw-input files, check-stream audit artifacts, speaker-routing/action receipts, and cadence lines
+- stage only source-archive captures, check-stream audit artifacts, speaker-routing/action receipts, and cadence lines
 - leave runtime observability, memory, handoff, host-quality background churn, and unrelated benchmark artifacts untouched unless explicitly scoped
 - before suggesting push safety, report branch ahead count and any remaining untracked capture artifacts
 
@@ -674,16 +659,16 @@ Use "candidate" when the target does not exist yet or would require a new speake
 - Never auto-materialize everything by default.
 - Never treat clip suspicion as certainty.
 - Never silently promote subtitle-derived outputs into stronger transcript classes.
-- Never claim a stream item is captured when the raw-input file is header-only, index-only, placeholder text, or otherwise fails non-stub body verification.
+- Never claim a stream item is captured when the archive file is header-only, index-only, placeholder text, or otherwise fails non-stub body verification.
 - Never downgrade a full operator-pasted transcript to partial just because it was supplied in chat, too long for a comfortable patch, or unavailable from YouTube. Extract it mechanically from the local session log when available, then verify exact body match.
-- Never remove an item from the repair queue on operator-paste evidence unless the canonical raw-input body is non-stub and exact-match verification has passed.
+- Never remove an item from the repair queue on operator-paste evidence unless the canonical archive body is non-stub and exact-match verification has passed.
 - Never create or update speaker folders, speaker objects, speaker arcs, helixes, or lattice rows from the daily check unless the operator explicitly asks.
-- Do not let the lattice become the first durable destination. Raw-input comes first; speaker-folder routing comes next; lattice updates are secondary pointers.
+- Do not let the lattice become the first durable destination. Archive land comes first; speaker-folder routing comes next; lattice updates are secondary pointers.
 - Never continue into repair, capture, dependency, or routing work after a bounded retrieval ask has already been satisfied, unless the operator explicitly asks for the next step.
 
 ## Success condition
 
-The operator gets a clean daily upload list for the tracked main streams, with obvious clips filtered into a secondary bucket, only the approved subset materialized into provenance-safe canonical `raw-input` that passes non-stub body verification, and clear speaker-folder routing hints for any material that strengthens an existing or candidate speaker object.
+The operator gets a clean daily upload list for the tracked main streams, with obvious clips filtered into a secondary bucket, only the approved subset landed via **`source-intake`** into provenance-safe canonical **`source-*`** archive captures that pass non-stub body verification, and clear speaker-folder routing hints for any material that strengthens an existing or candidate speaker object.
 
 
 ## Cursor / strategy-codex instance
@@ -692,10 +677,10 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-str
 
 | Topic | Path |
 |--------|------|
-| Canonical raw-input tree | [codex/](../../codex/) |
-| Date-bucket target pattern | `codex/YYYY/raw-input/YYYY-MM-DD/` |
-| Existing lower-layer ingest skill | [skills/youtube-raw-input-transcript/SKILL.md](../../../skills/youtube-raw-input-transcript/SKILL.md) |
-| Generated lower-layer Cursor skill | [\.cursor/skills/youtube-raw-input-transcript/SKILL.md](../youtube-raw-input-transcript/SKILL.md) |
+| Canonical source archive | [source-archive/statecraft/](../../source-archive/statecraft/) |
+| Archive land skill | [statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
+| Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
+| Legacy raw-input tree (staging) | [docs/skill-work/work-strategy/strategy-notebook/raw-input/](../../../docs/skill-work/work-strategy/strategy-notebook/raw-input/) |
 | Speaker folder shelf | [codex/speakers/](../../../codex/speakers/) |
 | Speaker arc boundary | [docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md](../../../docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md) |
 | Raw-input vs speaker arc boundary | [docs/skill-work/work-strategy/raw-input-ownership-vs-speaker-arc.md](../../../docs/skill-work/work-strategy/raw-input-ownership-vs-speaker-arc.md) |
@@ -708,21 +693,21 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-str
 
 **Repo notes**
 
-- This skill is the **daily wrapper** over the single-URL YouTube transcript workflow.
+- This skill is the **daily roster wrapper**; approved captures close with **`source-intake`**, not `materialize_youtube_raw_input.py --apply`.
 - `check streams` is the canonical activation; `cognition streams` remains a legacy compatibility alias.
-- After raw-input materialization, speaker folders are the durable routing layer. Lattice/cognition-streams surfaces are secondary lookup views, not the first update target.
+- After archive land, speaker folders are the durable routing layer. Lattice/cognition-streams surfaces are secondary lookup views, not the first update target.
 - In v1, the fixed default watchlist is:
   - Glenn Diesen
   - Daniel Davis
   - Alexander Mercouris
   - Dialogue Works
+  - Judge Napolitano / Judging Freedom
+  - Redacted News (sixth channel on discovery config)
 - The operator-facing rule is:
   - `check streams` for daily roster checks
   - `cognition streams` as a legacy alias
-  - `youtube transcript` for one-off URLs
-- Default output class should remain conservative:
-  - `auto_subtitles_vtt`
-- When the operator asks for stronger cleanup later, follow the lower-layer transcript skill rather than inventing a second transcript doctrine here.
+  - `source-intake` for canonical archive land (paste or post-fetch body)
+- Default transcript provenance on subtitle fetch should remain conservative (`auto_subtitles_vtt`).
 
 **Common local command pattern**
 

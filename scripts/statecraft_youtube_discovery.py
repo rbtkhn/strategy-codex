@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Load statecraft YouTube discovery config (replaces cognition-streams-watchlist.json)."""
+"""Load statecraft YouTube discovery config (replaces cognition-streams-watchlist.json).
+
+Each channel row may include ``file_prefix`` for raw-input / backfill automation
+(``strategy-notebook/raw-input/`` — often legacy ``youtube-*`` or ``transcript-*``).
+Statecraft archive lands use ``source-<topic-slug>-YYYY-MM-DD.md`` regardless; see
+``source-archive/statecraft/README.md`` and ``youtube-transcript-queue.md`` § Filename surfaces.
+``filename_prefix_index_canonical`` plus per-channel ``file_prefix`` entries feed channel-index routing only.
+"""
 
 from __future__ import annotations
 

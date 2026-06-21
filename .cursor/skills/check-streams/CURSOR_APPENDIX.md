@@ -2,10 +2,10 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-str
 
 | Topic | Path |
 |--------|------|
-| Canonical raw-input tree | [codex/](../../codex/) |
-| Date-bucket target pattern | `codex/YYYY/raw-input/YYYY-MM-DD/` |
-| Existing lower-layer ingest skill | [skills/youtube-raw-input-transcript/SKILL.md](../../../skills/youtube-raw-input-transcript/SKILL.md) |
-| Generated lower-layer Cursor skill | [\.cursor/skills/youtube-raw-input-transcript/SKILL.md](../youtube-raw-input-transcript/SKILL.md) |
+| Canonical source archive | [source-archive/statecraft/](../../source-archive/statecraft/) |
+| Archive land skill | [statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
+| Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
+| Legacy raw-input tree (staging) | [docs/skill-work/work-strategy/strategy-notebook/raw-input/](../../../docs/skill-work/work-strategy/strategy-notebook/raw-input/) |
 | Speaker folder shelf | [codex/speakers/](../../../codex/speakers/) |
 | Speaker arc boundary | [docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md](../../../docs/skill-work/work-strategy/speaker-arc-thread-lattice-boundaries.md) |
 | Raw-input vs speaker arc boundary | [docs/skill-work/work-strategy/raw-input-ownership-vs-speaker-arc.md](../../../docs/skill-work/work-strategy/raw-input-ownership-vs-speaker-arc.md) |
@@ -18,21 +18,21 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-str
 
 **Repo notes**
 
-- This skill is the **daily wrapper** over the single-URL YouTube transcript workflow.
+- This skill is the **daily roster wrapper**; approved captures close with **`source-intake`**, not `materialize_youtube_raw_input.py --apply`.
 - `check streams` is the canonical activation; `cognition streams` remains a legacy compatibility alias.
-- After raw-input materialization, speaker folders are the durable routing layer. Lattice/cognition-streams surfaces are secondary lookup views, not the first update target.
+- After archive land, speaker folders are the durable routing layer. Lattice/cognition-streams surfaces are secondary lookup views, not the first update target.
 - In v1, the fixed default watchlist is:
   - Glenn Diesen
   - Daniel Davis
   - Alexander Mercouris
   - Dialogue Works
+  - Judge Napolitano / Judging Freedom
+  - Redacted News (sixth channel on discovery config)
 - The operator-facing rule is:
   - `check streams` for daily roster checks
   - `cognition streams` as a legacy alias
-  - `youtube transcript` for one-off URLs
-- Default output class should remain conservative:
-  - `auto_subtitles_vtt`
-- When the operator asks for stronger cleanup later, follow the lower-layer transcript skill rather than inventing a second transcript doctrine here.
+  - `source-intake` for canonical archive land (paste or post-fetch body)
+- Default transcript provenance on subtitle fetch should remain conservative (`auto_subtitles_vtt`).
 
 **Common local command pattern**
 

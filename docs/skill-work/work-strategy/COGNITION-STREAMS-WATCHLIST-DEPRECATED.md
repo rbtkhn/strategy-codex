@@ -21,5 +21,6 @@ WORK only; not Record.
 ## Migration notes for agents
 
 - **Listing question** (“what YouTube channels have we used?”) → **`channel-index.md`** (YouTube captures only), not the old JSON.
-- **Discovery / audit / materialize** → **`statecraft_youtube_discovery.json`** via `scripts/statecraft_youtube_discovery.py`.
+- **Discovery / audit** → **`statecraft_youtube_discovery.json`** via `scripts/statecraft_youtube_discovery.py`.
+- **Archive land** → **`source-intake`** — not `materialize_youtube_raw_input.py --apply` ([YOUTUBE-MATERIALIZE-DEPRECATED.md](YOUTUBE-MATERIALIZE-DEPRECATED.md)).
 - Legacy path [`cognition-streams-watchlist.json`](cognition-streams-watchlist.json) is a **stub redirect only**; scripts should not rely on it containing `channels`.
