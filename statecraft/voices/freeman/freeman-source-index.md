@@ -48,7 +48,11 @@ Full chronology remains on host shelves and [freeman-support-spine-2025-2026.md]
 
 ### India and Global Left
 
-**Arc:** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · **Cross-register:** [Ritter × IGL Iran arc (Feb 20→Apr 9)](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) · [Ritter source index](../ritter/ritter-source-index.md) · [channel index](../../../source-archive/statecraft/channel-index.md) (`india-and-global-left`, 13 files)
+**Arc:** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · **Cross-register:** [Ritter × IGL Iran arc (Feb 20→Apr 9)](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) · [Ritter source index](../ritter/ritter-source-index.md) · [channel index](../../../source-archive/statecraft/channel-index.md) (`india-and-global-left`, 15 files)
+
+#### 2025-03 (Oval Office — out of Iran arc)
+
+- [2025-03-01 — Trump and Zelensky argued (Oval Office)](../../../source-archive/statecraft/2025-03-01/source-india-and-global-left-trump-zelensky-oval-office-chas-freeman-2025-03-01.md) — https://www.youtube.com/watch?v=ZPyoLPEroOo — **cleaned-transcript** · `thread: freeman`, `india-and-global-left` · **Cross-register:** [Ritter 2025 Trump pivot arc](../../notes/2025-02-ritter-india-global-left-trump-pivot-arc.md) (pair [Ritter Mar 2 Oval fiasco](../ritter/ritter-source-index.md))
 
 #### 2025-12 (NSS / China — out of Iran arc)
 

@@ -67,7 +67,7 @@ Bounded **voice-profile-panel** smoke tests — register QA only; not wire truth
 | 2026-06-13 | [karaganov-solo-smoke-2026-06-13.md](../_scratch/karaganov-solo-smoke-2026-06-13.md) | Solo · × Mercouris duet · × Mearsheimer duet · tri-voice chain (wire-fenced) |
 | 2026-06-13 | [triad-roundtable-demo-2026-06-13.md](../_scratch/triad-roundtable-demo-2026-06-13.md) | Barnes × Mercouris × Mearsheimer MOU panel (orthogonal triad) |
 
-Skill: [voice-profile-panel](../../../skills-portable/voice-profile-panel/SKILL.md) · Profile: [karaganov-profile.md](karaganov-profile.md)
+Skill: [voice-profile-panel](../../../.cursor/skills/voice-profile-panel/SKILL.md) · Profile: [karaganov-profile.md](karaganov-profile.md)
 
 ## Reading rule
 
