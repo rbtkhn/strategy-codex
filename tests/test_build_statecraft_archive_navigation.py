@@ -392,3 +392,132 @@ def test_build_writer_index_counts_configured_substack_feeds(tmp_path: Path, mon
     assert "# Statecraft Archive - Writer Index" in rendered
     assert "`crooke`" in rendered
     assert "`pape`" in rendered
+
+
+def test_is_youtube_capture_shared_membrane_helper() -> None:
+    from statecraft_day_archive import is_youtube_capture
+
+    assert is_youtube_capture({"source_type": "youtube"}) is True
+    assert is_youtube_capture({"youtube_id": "abc123"}) is True
+    assert is_youtube_capture({"source_url": "https://www.youtube.com/watch?v=abc"}) is True
+    assert is_youtube_capture({"source_url": "https://youtu.be/abc"}) is True
+    assert is_youtube_capture({"source_type": "substack", "source_url": "https://conflictsforum.substack.com/p/x"}) is False
+
+
+def test_writer_index_includes_ritter_prose_on_transcript(tmp_path: Path, monkeypatch) -> None:
+    import statecraft_writer_index as writer_index
+
+    root = tmp_path / "source-archive" / "statecraft"
+    day = root / "2026-06-18"
+    _write(
+        day / "source-ritter-essay-on-geneva-2026-06-18.md",
+        (
+            "---\n"
+            "kind: operator-transcript\n"
+            "source_form: newsletter\n"
+            "source_type: substack\n"
+            "thread: ritter\n"
+            'source_url: "https://scottritter.substack.com/p/geneva"\n'
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+    config = tmp_path / "writers.json"
+    config.write_text(
+        json.dumps(
+            {
+                "writer_slug_aliases": {},
+                "writers": [
+                    {
+                        "writer_slug": "ritter",
+                        "label": "Scott Ritter",
+                        "thread": "ritter",
+                        "feed_url": "https://scottritter.substack.com/",
+                        "feed_host": "scottritter.substack.com",
+                        "check_written": True,
+                        "require_substack_signal": True,
+                    },
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(writer_index, "WRITER_DISCOVERY_CONFIG_PATH", config)
+
+    payload = writer_index.build_writer_index_json(root, config)
+    by_slug = {row["writer_slug"]: row for row in payload["writers"]}
+    assert by_slug["ritter"]["file_count"] == 1
+
+
+def test_load_check_written_roster_reads_json_or_rebuilds(tmp_path: Path, monkeypatch) -> None:
+    import statecraft_writer_index as writer_index
+
+    archive_root = tmp_path / "source-archive" / "statecraft"
+    day = archive_root / "2026-06-18"
+    _write(
+        day / "source-crooke-israel-picking-up-pieces-2026-06-18.md",
+        (
+            "---\n"
+            "kind: substack-post\n"
+            "source_form: newsletter\n"
+            "source_type: substack\n"
+            "thread: crooke\n"
+            'source_url: "https://conflictsforum.substack.com/p/israel-picking-up-the-pieces-of-its"\n'
+            "---\n\n"
+            "Body.\n"
+        ),
+    )
+    config = tmp_path / "writers.json"
+    config.write_text(
+        json.dumps(
+            {
+                "writer_slug_aliases": {},
+                "writer_index_misc_slugs": ["one-off"],
+                "writers": [
+                    {
+                        "writer_slug": "crooke",
+                        "label": "Alastair Crooke",
+                        "thread": "crooke",
+                        "feed_url": "https://conflictsforum.substack.com/",
+                        "feed_host": "conflictsforum.substack.com",
+                        "check_written": True,
+                    },
+                    {
+                        "writer_slug": "one-off",
+                        "label": "One-off outlet",
+                        "thread": "one-off",
+                        "feed_url": "https://example.substack.com/",
+                        "feed_host": "example.substack.com",
+                        "check_written": True,
+                    },
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(writer_index, "WRITER_DISCOVERY_CONFIG_PATH", config)
+
+    payload = writer_index.build_writer_index_json(archive_root, config)
+    json_path = archive_root / "writer-index.json"
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
+
+    roster = writer_index.load_check_written_roster(root=archive_root, config_path=config)
+    slugs = {row["writer_slug"] for row in roster}
+    assert slugs == {"crooke"}
+
+    rebuilt = writer_index.load_check_written_roster(root=archive_root, config_path=config, rebuild=True)
+    assert {row["writer_slug"] for row in rebuilt} == slugs
+
+
+def test_configured_writer_roster_slugs_have_discovery_rows() -> None:
+    import statecraft_writer_index as writer_index
+
+    roster = writer_index.load_check_written_roster(rebuild=True)
+    by_slug = writer_index.load_writer_rows_by_slug()
+    slugs = {row["writer_slug"] for row in roster}
+    assert len(slugs) == 6
+    for slug in slugs:
+        assert slug in by_slug, slug
+        assert str(by_slug[slug].get("feed_url") or "").startswith("http"), slug
+        assert str(by_slug[slug].get("feed_host") or ""), slug

@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from statecraft_day_archive import DEFAULT_ROOT, iter_source_files, norm_scalar, parse_frontmatter
+from statecraft_day_archive import DEFAULT_ROOT, is_youtube_capture, iter_source_files, norm_scalar, parse_frontmatter
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 WRITER_DISCOVERY_CONFIG_PATH = REPO_ROOT / "platform" / "config" / "statecraft_writer_discovery.json"
@@ -76,15 +76,6 @@ def _slugify_channel_key(text: str) -> str:
     return key or "unknown"
 
 
-def _is_youtube_capture(meta: dict[str, Any]) -> bool:
-    if norm_scalar(meta.get("source_type")).casefold() == "youtube":
-        return True
-    if norm_scalar(meta.get("youtube_id")):
-        return True
-    url = norm_scalar(meta.get("source_url")).casefold()
-    return "youtube.com" in url or "youtu.be" in url
-
-
 def load_writer_discovery_payload(path: Path | None = None) -> dict[str, Any]:
     config_path = path or WRITER_DISCOVERY_CONFIG_PATH
     return json.loads(config_path.read_text(encoding="utf-8"))
@@ -94,6 +85,12 @@ def load_writer_slug_aliases(payload: dict[str, Any] | None = None) -> dict[str,
     data = payload or load_writer_discovery_payload()
     raw = data.get("writer_slug_aliases") or {}
     return {str(key): str(value) for key, value in raw.items()}
+
+
+def load_writer_index_misc_slugs(payload: dict[str, Any] | None = None) -> set[str]:
+    data = payload or load_writer_discovery_payload()
+    raw = data.get("writer_index_misc_slugs") or []
+    return {str(slug) for slug in raw}
 
 
 def canonical_writer_slug(slug: str, aliases: dict[str, str] | None = None) -> str:
@@ -116,7 +113,7 @@ def load_writer_rows_by_slug(path: Path | None = None) -> dict[str, dict[str, An
 
 
 def is_hard_excluded_writer(meta: dict[str, Any]) -> bool:
-    if _is_youtube_capture(meta):
+    if is_youtube_capture(meta):
         return True
     source_form = norm_scalar(meta.get("source_form")).casefold()
     kind = norm_scalar(meta.get("kind")).casefold()
@@ -362,3 +359,49 @@ def build_writer_index(root: Path, config_path: Path | None = None) -> str:
         ]
     )
     return "\n".join(lines)
+
+
+def writer_index_json_path(root: Path | None = None) -> Path:
+    archive_root = (root or DEFAULT_ROOT).resolve()
+    return archive_root / "writer-index.json"
+
+
+def load_writer_index_json(path: Path | None = None) -> dict[str, Any]:
+    json_path = path or writer_index_json_path()
+    return json.loads(json_path.read_text(encoding="utf-8"))
+
+
+def load_check_written_roster(
+    *,
+    root: Path | None = None,
+    json_path: Path | None = None,
+    config_path: Path | None = None,
+    rebuild: bool = False,
+) -> list[dict[str, Any]]:
+    """Main writer-index roster for check-written (misc slugs excluded).
+
+    Reads ``writer-index.json`` when present unless ``rebuild=True``.
+    """
+    misc_slugs = load_writer_index_misc_slugs(
+        load_writer_discovery_payload(config_path) if config_path else None
+    )
+    archive_root = (root or DEFAULT_ROOT).resolve()
+
+    if not rebuild:
+        path = json_path or writer_index_json_path(archive_root)
+        if path.is_file():
+            payload = load_writer_index_json(path)
+            writers = list(payload.get("writers") or [])
+            return [
+                row
+                for row in writers
+                if row.get("check_written", True) and str(row.get("writer_slug") or "") not in misc_slugs
+            ]
+
+    payload = build_writer_index_json(archive_root, config_path)
+    writers = list(payload.get("writers") or [])
+    return [
+        row
+        for row in writers
+        if row.get("check_written", True) and str(row.get("writer_slug") or "") not in misc_slugs
+    ]

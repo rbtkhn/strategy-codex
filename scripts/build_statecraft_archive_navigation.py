@@ -27,6 +27,7 @@ from statecraft_day_archive import (
     build_day_readme,
     collect_archive_file,
     fmt_counter,
+    is_youtube_capture,
     iter_day_dirs,
     iter_source_files,
     norm_scalar,
@@ -180,15 +181,6 @@ def _slugify_channel_key(text: str) -> str:
     return key or "unknown"
 
 
-def _is_youtube_capture(meta: dict[str, Any]) -> bool:
-    if norm_scalar(meta.get("source_type")).casefold() == "youtube":
-        return True
-    if norm_scalar(meta.get("youtube_id")):
-        return True
-    url = norm_scalar(meta.get("source_url")).casefold()
-    return "youtube.com" in url or "youtu.be" in url
-
-
 def _channel_registry_key(meta: dict[str, Any], filename: str = "") -> tuple[str, str, bool]:
     slug = norm_scalar(meta.get("channel_slug"))
     label = (
@@ -227,7 +219,7 @@ def collect_channel_stats(root: Path) -> dict[str, ChannelStats]:
         month = month_key_from_day(day)
         for path in iter_source_files(day_dir):
             meta = parse_frontmatter(path)
-            if not _is_youtube_capture(meta):
+            if not is_youtube_capture(meta):
                 continue
             slug, label, explicit_slug = _channel_registry_key(meta, path.name)
             index_slug = canonical_channel_index_slug(slug, canonical_map)

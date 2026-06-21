@@ -132,6 +132,16 @@ def norm_scalar(value: Any) -> str:
     return " ".join(str(value or "").split()).strip()
 
 
+def is_youtube_capture(meta: dict[str, Any]) -> bool:
+    """Shared channel-index / writer-index membrane: True when capture is YouTube-shaped."""
+    if norm_scalar(meta.get("source_type")).casefold() == "youtube":
+        return True
+    if norm_scalar(meta.get("youtube_id")):
+        return True
+    url = norm_scalar(meta.get("source_url")).casefold()
+    return "youtube.com" in url or "youtu.be" in url
+
+
 def as_values(value: Any) -> tuple[str, ...]:
     if value is None:
         return ()

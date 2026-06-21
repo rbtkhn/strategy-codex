@@ -24,7 +24,7 @@ It does **not** replace **thread-index** for guest-on-video or cross-host appear
 
 Apply **before** inclusion rules. A capture is **out of scope** when any of the following is true:
 
-1. **`_is_youtube_capture(meta)`** — same helper as [build_statecraft_archive_navigation.py](../../scripts/build_statecraft_archive_navigation.py): `source_type: youtube`, non-empty `youtube_id`, or YouTube host in `source_url`.
+1. **`is_youtube_capture(meta)`** — shared membrane helper in [statecraft_day_archive.py](../../scripts/statecraft_day_archive.py) (imported by channel-index and writer-index builders): `source_type: youtube`, non-empty `youtube_id`, or YouTube host in `source_url`.
 2. **`source_form`** ∈ `{solo, interview, panel, livestream}` **and** `kind` ∈ `{transcript, operator-transcript, cleaned-transcript}` — video-shaped speech capture even if `source_type` was mistyped.
 3. **Operator transcript recovery** whose primary identity is a **watch URL** or host-stream episode (route to **channel-index** + **thread-index** instead).
 
@@ -57,6 +57,22 @@ Future **`statecraft_writer_discovery.json`** (or `writers[]` in a shared discov
 Non-empty **`writer_slug`** or **`publication_slug`** on the capture (operator or intake sets when landing).
 
 **Tie-break:** If both prose signals (A/B/C) and video-shaped signals (hard exclude #2) appear, **hard exclude wins** unless `source_form` is clearly prose (`newsletter`, `essay`, …).
+
+### Membrane case — Ritter prose-on-transcript
+
+Some Substack essays land with **`kind: operator-transcript`** (intake recovery vocabulary) while **`source_form: newsletter`** and **`source_url`** on `*.substack.com`. They are **not** YouTube captures (`is_youtube_capture` is false) and **pass** writer-index because `newsletter` overrides the video-shaped hard exclude in rule #2. Config row **`require_substack_signal: true`** (Ritter) requires a Substack host in `source_url` or filename prefix match — keeps stray operator-transcript recovery out of the writer roster.
+
+Example frontmatter shape:
+
+```yaml
+kind: operator-transcript
+source_form: newsletter
+source_type: substack
+thread: ritter
+source_url: "https://scottritter.substack.com/p/..."
+```
+
+Route **YouTube** Scott Ritter episodes to **channel-index** + **thread-index**; route **Substack essays** to **writer-index** under `writer_slug: ritter`.
 
 ---
 
@@ -126,6 +142,8 @@ Extend **`refresh_statecraft_archive_indices.py`** / **`build_statecraft_archive
 - `collect_writer_stats(root)` — apply hard excludes + inclusion rules above
 - emit `writer-index.md`, `writer-index-misc.md`, optional `writer-index.json`
 - rebuild alongside channel-index; never mix rosters in one JSON file
+
+**Loader (Python):** `load_check_written_roster()` in [statecraft_writer_index.py](../../scripts/statecraft_writer_index.py) — reads `writer-index.json` or rebuilds live via `build_writer_index_json()`. Misc slugs from `writer_index_misc_slugs` in discovery config are excluded (parallel to `load_check_sources_roster()`).
 
 ---
 
