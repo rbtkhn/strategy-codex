@@ -14,7 +14,7 @@ Allies were bound by treaty, not by a single uniform status. Some received citiz
 
 The Samnite wars in particular taught Rome to fight on difficult ground and to hold allies when campaigns lasted years. Pyrrhus brought Hellenistic kingship against the legion: brilliant, theatrical, and unable to leave behind institutions that could outlast his campaign. Plutarch preserved the king's bitter recognition after another costly victory: "If we are victorious in one more battle with the Romans, we shall be utterly ruined."[^1] Rome won by attrition and alliance, by legion and treaty network rather than by the personal charisma of a single commander.
 
-Livy's republican books trained readers in discipline, oath, and shared sacrifice under expansion. He opened his work with the claim that "what chiefly makes the study of history wholesome and profitable is this, that you behold the lessons of every kind of experience set forth as on a conspicuous monument…"[^2] Later reception would add of the same annalist: "The labours of Livy were not dictated by the ambition of a courtier, but by the feelings of a citizen… By recalling the virtues of ancient Rome, he insensibly taught his contemporaries to lament their loss, and to admire the character which they could no longer imitate."[^3]
+Livy's republican books trained readers in discipline, oath, and shared sacrifice under expansion. He opened his work with the claim that "what chiefly makes the study of history wholesome and profitable is this, that you behold the lessons of every kind of experience set forth as on a conspicuous monument… from these you may select for yourself and for your country what to imitate, and what, as being mischievous in its inception and disastrous in its issue, to avoid."[^2] The annalist turned that archive into republican habit—exempla of oath, discipline, and shared sacrifice as Italy federated, not court spectacle alone.
 
 Roads and colonies bound the peninsula as surely as oaths did. Roman colonies secured conquered territory and served as military corridors; the censor Appius Claudius, Livy wrote, "carried out two works of immense utility: he paved the Appian Way and brought water into the City."[^4] Federation was material as well as legal: allies were linked by *viae* as well as by treaty, and the peninsula's mountain barriers made those roads instruments of command as much as commerce.
 
@@ -78,9 +78,7 @@ By the 60s and 50s BC, elections cost fortunes; courts prosecuted rivals; tribun
 
 [^1]: Plutarch, *Life of Pyrrhus*: "If we are victorious in one more battle with the Romans, we shall be utterly ruined."
 
-[^2]: Livy, *Ab Urbe Condita*, Preface: "What chiefly makes the study of history wholesome and profitable is this, that you behold the lessons of every kind of experience set forth as on a conspicuous monument…"
-
-[^3]: Edward Gibbon, *Decline and Fall of the Roman Empire*, I.3 (on Livy): "The labours of Livy were not dictated by the ambition of a courtier, but by the feelings of a citizen… By recalling the virtues of ancient Rome, he insensibly taught his contemporaries to lament their loss, and to admire the character which they could no longer imitate."
+[^2]: Livy, *Ab Urbe Condita*, Preface: "What chiefly makes the study of history wholesome and profitable is this, that you behold the lessons of every kind of experience set forth as on a conspicuous monument… from these you may select for yourself and for your country what to imitate, and what, as being mischievous in its inception and disastrous in its issue, to avoid."
 
 [^4]: Livy, *Ab Urbe Condita*, IX.29: "The censor Appius Claudius carried out two works of immense utility: he paved the Appian Way and brought water into the City…"
 

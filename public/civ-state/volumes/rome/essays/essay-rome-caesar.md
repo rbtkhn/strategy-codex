@@ -34,7 +34,7 @@ The First Triumvirate had been political outsourcing in a single pact: Caesar, P
 
 Pompey was not a fool. He was a man with real advantages who misread the kind of war he was in. He hoped to wear Caesar down, to let famine and distance destroy an invading army, to keep Italy intact while eastern wealth accumulated. Caesar moved faster, divided Pompey's allies in Spain, and forced the decisive encounter at Pharsalus sooner than Pompey's strategy intended. Later reception would add of such hesitation that when fortune required boldness, "prestige without decisive command" was "safety mistaken for strategy," and that the Senate had trusted "the man who seemed safe when the field required immediate speed."[^5]
 
-Pompey commanded eastern networks and the sea; Caesar commanded veterans and a direct line into Italy. Later reception would also add that "Pompey commanded resources and senatorial trust; Caesar commanded veteran cohesion and operational tempo," that once war began "safety was no substitute for decisiveness once war began," and that "the republic could authorize power long before it could embody that power in the field"—immediacy won before legitimacy could convert eastern wealth into victory.[^6][^20]
+Pompey commanded eastern networks and the sea; Caesar commanded veterans and a direct line into Italy. Later reception would also add that "Pompey commanded resources and senatorial trust; Caesar commanded veteran cohesion and operational tempo," that "safety was no substitute for decisiveness once war began," and that "the republic could authorize power long before it could embody that power in the field"—immediacy won on the peninsula before legitimacy could convert eastern wealth into victory.[^6][^20]
 
 ## Pharsalus
 
