@@ -57,9 +57,15 @@ def _parse_quoted_field(line: str) -> str:
     return raw.strip('"')
 
 
-def _merge_editorial_note(existing: str | None, sub_count: int) -> str:
+def _merge_editorial_note(
+    existing: str | None,
+    sub_count: int,
+    *,
+    pass_name: str = "ASR repair",
+    pass_detail: str = "common + series tiers + statecraft entity pass",
+) -> str:
     base = (
-        f"AI-assisted ASR repair (common + series tiers + statecraft entity pass); "
+        f"AI-assisted {pass_name} ({pass_detail}); "
         f"{sub_count} substitutions; not human-verified verbatim; verify before quotation."
     )
     if not existing:
@@ -70,8 +76,8 @@ def _merge_editorial_note(existing: str | None, sub_count: int) -> str:
     return base
 
 
-def _append_source_note_asr_pass(fm_block: str, today: str) -> str:
-    marker = f"ASR pass {today}"
+def _append_source_note_asr_pass(fm_block: str, today: str, marker_prefix: str = "ASR pass") -> str:
+    marker = f"{marker_prefix} {today}"
     if marker in fm_block:
         return fm_block
     match = SOURCE_NOTE_RE.search(fm_block)
@@ -82,7 +88,15 @@ def _append_source_note_asr_pass(fm_block: str, today: str) -> str:
     return fm_block[: match.start()] + f'source_note: "{new_val}"' + fm_block[match.end() :]
 
 
-def patch_frontmatter(fm_block: str, *, sub_count: int, prior_editorial: str | None = None) -> str:
+def patch_frontmatter(
+    fm_block: str,
+    *,
+    sub_count: int,
+    prior_editorial: str | None = None,
+    pass_name: str = "ASR repair",
+    pass_detail: str = "common + series tiers + statecraft entity pass",
+    pass_note_prefix: str = "ASR pass",
+) -> str:
     today = date.today().isoformat()
     lines = fm_block.splitlines()
     body_lines: list[str] = []
@@ -121,12 +135,14 @@ def patch_frontmatter(fm_block: str, *, sub_count: int, prior_editorial: str | N
         body_lines.insert(1 if not seen_kind else 2, "transcript_type: ai_assisted_operator_pasted_youtube_transcript")
     if not seen_norm:
         body_lines.append("normalization_state: ai_assisted_proper_noun_cleanup")
-    merged_edit = _merge_editorial_note(captured_editorial, sub_count)
+    merged_edit = _merge_editorial_note(
+        captured_editorial, sub_count, pass_name=pass_name, pass_detail=pass_detail
+    )
     body_lines.append(f'editorial_note: "{merged_edit}"')
     if not seen_quality:
         body_lines.append(f'quality_note: "ASR normalization pass {today}; ph-civ replacement SSOT."')
     block = "---\n" + "\n".join(body_lines) + "\n---"
-    return _append_source_note_asr_pass(block, today)
+    return _append_source_note_asr_pass(block, today, marker_prefix=pass_note_prefix)
 
 
 def run(path: Path, *, series: str | None, write: bool) -> int:
@@ -190,7 +206,15 @@ def main() -> int:
         print(f"Not a file: {path}", file=sys.stderr)
         return 1
     series = None if args.series == "none" else args.series
-    return run(path, series=series, write=args.write)
+    from source_clean_statecraft import clean_capture  # noqa: WPS433
+
+    return clean_capture(
+        path,
+        write=args.write,
+        scaffold=False,
+        series=series,
+        dry_run=not args.write,
+    )
 
 
 if __name__ == "__main__":

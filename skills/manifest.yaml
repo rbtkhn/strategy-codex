@@ -112,6 +112,12 @@ skills:
     verify_forbidden_substrings:
       - platform/users/grace-mar/
       - process_approved_candidates
+  - name: source-clean
+    source: source-clean/SKILL.md
+    target: .cursor/skills/source-clean/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
   - name: transcript-cleanup
     source: transcript-cleanup/SKILL.md
     appendix: .cursor/skills/transcript-cleanup/CURSOR_APPENDIX.md
