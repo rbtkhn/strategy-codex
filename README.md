@@ -10,7 +10,7 @@ Model intelligence is getting cheaper. The scarce layer is the harness around it
 
 **Deeper read:** [docs/intelligence-harness.md](docs/intelligence-harness.md) · [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md)
 
-**Grace-Mar fork (frozen archaeology):** Growing a personal cognitive fork is **not** a system objective. Embedded Record at repo root; full doctrine quarantined under [archive/grace-mar-corpus/README.md](archive/grace-mar-corpus/README.md). See [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md).
+**Grace-Mar fork (frozen archaeology):** Growing a personal cognitive fork is **not** a system objective. Record lives under [archive/grace-mar-instance/](archive/grace-mar-instance/); full doctrine quarantined under [archive/grace-mar-corpus/README.md](archive/grace-mar-corpus/README.md). See [docs/grace-mar-instance-boundary.md](docs/grace-mar-instance-boundary.md) · CLI compatibility [docs/archive/grace-mar-compatibility.md](docs/archive/grace-mar-compatibility.md).
 
 **Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
 

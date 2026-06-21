@@ -1,4 +1,4 @@
-# Run pytest and integrity/governance checks on push and PR.
+﻿# Run pytest and integrity/governance checks on push and PR.
 name: Tests
 
 on:
@@ -63,10 +63,11 @@ jobs:
 
       - name: Verify package CLI (strategy-codex warmup default)
         run: |
-          python -c "from pathlib import Path; from grace_mar.repo_io import repo_root; r = repo_root(); assert (r / 'platform/users').is_dir(), r"
-          grace-mar --help
-          grace-mar warmup -u strategy-codex --compact | head -1
-          grace-mar reflect --help | head -1
+          python -c "from pathlib import Path; from grace_mar.repo_io import repo_root; r = repo_root(); assert (r'/platform/users').is_dir(), r"
+          strategy-codex --help
+          strategy-codex warmup -u strategy-codex --compact | head -1
+          grace-mar warmup -u strategy-codex --compact 2>&1 | head -1
+          strategy-codex reflect --help | head -1
 
       - name: Fork-language audit (strict)
         run: python3 scripts/audit_fork_language.py --strict --errors-only
@@ -81,7 +82,7 @@ jobs:
       - name: Assert canonical paths
         run: python scripts/assert_canonical_paths.py --user grace-mar
 
-      - name: Validate integrity (frozen Grace-Mar Record — archaeology)
+      - name: Validate integrity (frozen Grace-Mar Record ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â archaeology)
         run: python scripts/validate-integrity.py --user grace-mar --require-proposal-class
 
       - name: Validate template sync contract
@@ -160,3 +161,6 @@ jobs:
           out=$(python3 scripts/work_dev/evaluate_autonomy_tiers.py)
           echo "$out"
           test "$out" = "insufficient_data"
+
+
+

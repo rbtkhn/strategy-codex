@@ -37,12 +37,14 @@ python3 scripts/cleanup_dev_temp_dirs.py --apply
 
 ## Python package (optional)
 
-The repo includes a minimal installable package under [platform/src/grace_mar/](platform/src/grace_mar/) ([pyproject.toml](pyproject.toml)):
+The repo includes an installable package ([pyproject.toml](pyproject.toml)) — active identity **`strategy-codex`**, wrapper under [platform/src/strategy_codex/](platform/src/strategy_codex/), internal module [platform/src/grace_mar/](platform/src/grace_mar/):
 
 ```bash
 pip install -e .
-grace-mar warmup -u strategy-codex --compact
+strategy-codex warmup -u strategy-codex --compact
 ```
+
+Deprecated alias: `grace-mar` (warns once). See [docs/archive/grace-mar-compatibility.md](docs/archive/grace-mar-compatibility.md).
 
 Mini App / bot dependencies are optional: `pip install -e ".[miniapp]"`. Most scripts run with `python scripts/...` without an editable install.
 

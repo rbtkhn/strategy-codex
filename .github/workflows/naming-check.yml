@@ -1,4 +1,4 @@
-# Fail if deprecated COG-EM naming appears — GRACE-MAR is canonical
+﻿# Naming, layout, path adoption, and complexity baseline (strategy-codex active)
 name: Naming check
 
 on:
@@ -30,3 +30,8 @@ jobs:
 
       - name: Root profile export nest
         run: python scripts/assert_root_profile_exports.py
+
+
+      - name: Complexity audit (baseline report)
+        run: python3 scripts/audit_repo_complexity.py
+

@@ -30,7 +30,7 @@ flowchart TB
   Essays[essays/ primary prose shelf]
 
   subgraph frozen [Frozen sidecar]
-    Record[self.md recursion-gate.md]
+    Record[archive/grace-mar-instance Record]
   end
 
   Archive --> Voices --> States
