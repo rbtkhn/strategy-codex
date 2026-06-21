@@ -38,7 +38,7 @@ The pattern becomes one of Persia's clearest statecraft lessons: survive the equ
 
 ## Key source doors
 
-- [Rome bibliography](../../volumes/rome/bibliography.md)
+- [Rome source shelf](../../volumes/rome/source-shelf.md)
 - [Persia bibliography](../../volumes/persia/bibliography.md)
 - Plutarch, *Life of Crassus*
 - Procopius, *Wars*

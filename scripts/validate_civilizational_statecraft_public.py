@@ -148,10 +148,14 @@ def check_strict_theory(export: Path) -> list[str]:
     return errors
 
 
+def volume_bibliography_door(slug: str) -> str:
+    return "source-shelf.md" if slug == "rome" else "bibliography.md"
+
+
 def check_volume(export: Path, slug: str, eras: list[str], stub: bool) -> list[str]:
     errors: list[str] = []
     base = export / "volumes" / slug
-    for name in ["README.md", "introduction.md", "sacred-grammar.md", "shelf-reader.md", "bibliography.md"]:
+    for name in ["README.md", "introduction.md", "sacred-grammar.md", "shelf-reader.md", volume_bibliography_door(slug)]:
         if not (base / name).is_file():
             errors.append(f"volumes/{slug}: missing {name}")
     for legacy in base.glob("statecraft-*.md"):

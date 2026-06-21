@@ -70,6 +70,8 @@ Twenty-one standalone lattice nodes under **Civilizational Statecraft**. **Regis
 
 **Civic-chain read order** (when narrative continuity helps): genesis → republic → caesar → augustus — each active node has a `.meta.yaml` sidecar for routing.
 
+**Essay citation inventory (PD URLs):** [../rome-bibliography.md](../rome-bibliography.md) — downstream of **active** `essay-rome-*` nodes (currently civic-chain four); append new sources when the next node goes active — reuse URL sub-lines when adding quotes or Notes entries. **Retrieve shelf (era doors):** [../../../sources/rome/bibliography.md](../../../sources/rome/bibliography.md) via [../source-shelf.md](../source-shelf.md) — upstream `civ-state` retrieve, not essay inventory.
+
 | slug | essay | meta | status |
 |------|-------|------|--------|
 | genesis | [essay-rome-genesis.md](essay-rome-genesis.md) | [essay-rome-genesis.meta.yaml](essay-rome-genesis.meta.yaml) | active |
@@ -90,7 +92,8 @@ Six whole-work term files — **`../rome-{term}.md`** (not under `essays/`): [ci
 | `README.md` | Volume spine and era blocks |
 | `introduction.md` | Constitutional door (Pax Romana) |
 | `shelf-reader.md` | Source-navigation apparatus |
-| `bibliography.md` | Redirect to `sources/rome/` |
+| `source-shelf.md` | Redirect to `sources/rome/` retrieve shelf |
+| `rome-bibliography.md` | Essay citation inventory — PD URLs for civic-chain sources (see [§ Essay-rome](#essay-rome)) |
 | `sacred-grammar.md` | Export-validator redirect stub |
 | `rome-{term}.md` (six terms) | Term depth — [§ Term depth](#term-depth-volume-root) · [theory/](../../../theory/README.md) |
 

@@ -10,6 +10,7 @@ Cursor-only wiring for [civ-state-essay/SKILL.md](../../../skills/civ-state-essa
 | Rome essays README | [public/civ-state/volumes/rome/essays/README.md](../../../public/civ-state/volumes/rome/essays/README.md) |
 | Rome registry | [public/civ-state/volumes/rome/essays/essay-rome.registry.yaml](../../../public/civ-state/volumes/rome/essays/essay-rome.registry.yaml) |
 | Rome connectivity / essay types | [public/civ-state/volumes/rome/essays/connectivity-rome.md](../../../public/civ-state/volumes/rome/essays/connectivity-rome.md) |
+| Rome essay citation inventory | [public/civ-state/volumes/rome/rome-bibliography.md](../../../public/civ-state/volumes/rome/rome-bibliography.md) |
 | Hex template | [public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md](../../../public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md) |
 | Meta sidecar template | [public/civ-state/volumes/rome/essays/_template-essay-rome.meta.yaml](../../../public/civ-state/volumes/rome/essays/_template-essay-rome.meta.yaml) |
 

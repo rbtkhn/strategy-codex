@@ -1,17 +1,18 @@
 ---
 name: civ-state-essay
 preferred_activation: civ-state essay
-description: "Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake."
+description: Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake.
 portable: true
-version: 0.2.4
+version: 0.2.5
 tags:
-  - operator
-  - work-strategy
-  - civ-state
-  - prose
+- operator
+- work-strategy
+- civ-state
+- prose
 scope_class: repo-governed
+portable_source: skills/civ-state-essay/SKILL.md
+synced_by: sync_portable_skills.py
 ---
-
 # CIV-STATE Essay
 
 **WORK only; not Record.**
@@ -89,6 +90,17 @@ After any **humanizing** pass on a node, default QA class for later edits on tha
 - **Ban:** `One modern analyst` · `Later constitutional history would add` · `Later analysis compressed` as authorial frames; modern surnames outside `"…"` in authorial prose.
 - **Florus / epitome witnesses:** embed ancient `"…"` in body; do not describe compression in meta voice only.
 - **Band floor after reception removal:** expand **ancient** quotes and embodied beats in the same turn — do not backfill quoted band with modern reception.
+
+### Essay citation inventory (Rome — downstream of active essays)
+
+**SSOT:** `public/civ-state/volumes/rome/rome-bibliography.md` — flat chronological list of sources **used across active `essay-rome-*` nodes**, with public-domain URL sub-lines (English default; Latin/Greek second line when essays quote heavily in original). **Derived from essays** (body authorial references + `## Notes`) — not imported from the retrieve shelf. **Not** the upstream retrieve shelf — that remains [`sources/rome/bibliography.md`](../../public/civ-state/sources/rome/bibliography.md) (`civ-state` Frame/Retrieve); volume door [`source-shelf.md`](../../public/civ-state/volumes/rome/source-shelf.md).
+
+**Current coverage (v0.2):** civic-chain four — genesis · republic · caesar · augustus.
+
+- **Before source-bearing or new ancient quotes:** check the inventory for an existing PD edition; reuse its URL sub-line.
+- **After a pass adds a new cited work in `## Notes` or body:** append the work to `rome-bibliography.md` in the same turn if not already listed (plain title bullet + indented URL sub-lines; copyrighted modern secondary = plain text, no link).
+- **When the next `essay-rome-*` node goes active** (registry / essays README status → active): scan that essay's body + `## Notes` for sources; **append only new works** to `rome-bibliography.md` — dedupe by author + title; do **not** bulk-import from `sources/rome/`.
+- **Essay body:** remains standalone — no links to the inventory in body prose; routing pointers live in volume/essays README and meta sidecar only.
 
 ### Cross-chain voice (Rome civic-chain four)
 
@@ -189,6 +201,7 @@ Run `check_civ_state_essay_prose.py` with the **`--class`** from essay state tab
 | Operation | When |
 |-----------|------|
 | **civ-state** | Essay class unsettled; need shelf / primary / theory retrieve |
+| **civ-state-note** | Bounded WORK note on `statecraft/notes/` with CIV-STATE retrieve pre-pass — not public essay |
 | **civ-state-volume-architect** | Volume part law or chapter-family change |
 | **civilization-part-writer** / **empire-part-writer** | New constitutional part authoring |
 | **recursive-learn** | Post-ship machine law; geo-strategic revision law cross-link |
@@ -207,3 +220,91 @@ Host-specific paths, QA recipes, and publish commands: **CURSOR_APPENDIX** (gene
 5. `validate_skills.py` clean after skill file changes; public validator run when registry/structure changed.
 
 **Fail when:** civic-chain word/quote band applied to hex-frame; doctrine pasted into skill instead of template; parallel multi-file essay edits on Windows EXECUTE; mirror publish without operator ship verb.
+
+
+## Cursor / strategy-codex instance
+
+Cursor-only wiring for [civ-state-essay/SKILL.md](../../../skills/civ-state-essay/SKILL.md). Portable SSOT body stays in `skills/`.
+
+## Instance paths (essay SSOT)
+
+| Topic | Path |
+|-------|------|
+| Generic essay template | [public/civ-state/templates/civ-state-essay-template.md](../../../public/civ-state/templates/civ-state-essay-template.md) |
+| Reader guide | [public/civ-state/docs/reader-guide.md](../../../public/civ-state/docs/reader-guide.md) |
+| Cross-volume essays shelf | [public/civ-state/essays/README.md](../../../public/civ-state/essays/README.md) |
+| Rome essays README | [public/civ-state/volumes/rome/essays/README.md](../../../public/civ-state/volumes/rome/essays/README.md) |
+| Rome registry | [public/civ-state/volumes/rome/essays/essay-rome.registry.yaml](../../../public/civ-state/volumes/rome/essays/essay-rome.registry.yaml) |
+| Rome connectivity / essay types | [public/civ-state/volumes/rome/essays/connectivity-rome.md](../../../public/civ-state/volumes/rome/essays/connectivity-rome.md) |
+| Rome essay citation inventory | [public/civ-state/volumes/rome/rome-bibliography.md](../../../public/civ-state/volumes/rome/rome-bibliography.md) |
+| Hex template | [public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md](../../../public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md) |
+| Meta sidecar template | [public/civ-state/volumes/rome/essays/_template-essay-rome.meta.yaml](../../../public/civ-state/volumes/rome/essays/_template-essay-rome.meta.yaml) |
+
+Other volumes: start at `public/civ-state/volumes/{vol}/essays/README.md` before editing.
+
+## QA — civic-chain prose check
+
+**Primary gate:** `scripts/check_civ_state_essay_prose.py`
+
+**Pass → `--class` (see SKILL § Civic-chain pass router):**
+
+| Pass | `--class` | Body | Quoted |
+|------|-----------|------|--------|
+| Source-bearing (v2 default) | `civic-chain-rome-v2` | 2,400–2,600 | 450–550 |
+| Humanizing / light human-prose | `civic-chain-rome-humanize` | 2,400–2,800 | 450–550 |
+
+```powershell
+python scripts/check_civ_state_essay_prose.py --rome-civic-chain-four
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-genesis.md --class civic-chain-rome-humanize
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-republic.md --class civic-chain-rome-humanize
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-caesar.md --class civic-chain-rome-humanize
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-augustus.md --class civic-chain-rome-v2
+```
+
+Reports: `body_words`, `quoted_words`, `quote_pct`, `authorial_words`, schematic hits, modern-surname violations (Gibbon/Mommsen allowed only inside `"…"`), footnote resolution.
+
+**Essay state (Rome civic-chain four — v0.2.2):** genesis · republic · caesar → **`civic-chain-rome-humanize`**; augustus → **`civic-chain-rome-v2`** until humanized. SSOT table: SKILL § Rome civic-chain essay state · milestones: [release-history.md](../../../public/civ-state/docs/release-history.md).
+
+**Bands (civic-chain-rome-v2):** body 2,400–2,600 · quoted 450–550 · ~18–22% quote ratio.
+
+**Humanizing / light human-prose:** `--class civic-chain-rome-humanize` — body 2,400–2,800 · quoted 450–550 unchanged. Light pass: optional anti-pattern pre-flight; band-floor restore via embodied beats after dedupe (SKILL § Execution order).
+
+**Inline fallback** (one path only, if script unavailable):
+
+```powershell
+python -c "import re,sys; p=sys.argv[1]; t=open(p,encoding='utf-8').read(); b=t.split('## Notes')[0]; q=sum(len(re.findall(r'\b\w+\b',s)) for s in re.findall(r'\"([^\"]+)\"',b)); w=len(re.findall(r'\b\w+\b',b)); print(f'body={w} quoted={q} pct={q/w*100:.1f}')" public/civ-state/volumes/rome/essays/essay-rome-genesis.md
+```
+
+**Footnotes:** every `[^n]` in body resolves in `## Notes`.
+
+## Validate and publish
+
+```powershell
+python scripts/validate_civilizational_statecraft_public.py public/civ-state
+python scripts/publish_public_civ_state.py -m "civ-state: …" --push
+```
+
+Mirror publish only when operator says **ship**, **publish**, or **VERSION**.
+
+## RLJ cross-links
+
+- [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md) — geo-strategic revision law (append on operator `append RLJ` / `log this`); parallel-ban Windows EXECUTE discipline
+- After substantive essay ship, offer **`recursive learn`** — do not auto-append
+
+## Related skills (instance)
+
+| Skill | When |
+|-------|------|
+| [civ-state](../civ-state/SKILL.md) | Essay class unsettled; retrieve / frame |
+| [civ-state-volume-architect](../civ-state-volume-architect/SKILL.md) | Volume architecture — not single-essay polish |
+| [civilization-part-writer](../civilization-part-writer/SKILL.md) | New civilization part |
+| [empire-part-writer](../empire-part-writer/SKILL.md) | New empire part |
+| [validator-first](../validator-first/SKILL.md) | Menu pick = run validate same turn |
+
+## Maintenance
+
+```powershell
+python scripts/sync_portable_skills.py --skill civ-state-essay
+python scripts/sync_portable_skills.py --verify --skill civ-state-essay
+python scripts/validate_skills.py
+```

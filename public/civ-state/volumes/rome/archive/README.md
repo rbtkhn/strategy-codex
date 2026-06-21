@@ -17,7 +17,7 @@ Volume-local **legacy** surfaces — not the constitutional read path.
 
 Keep at volume root:
 
-- `README.md`, `introduction.md`, `shelf-reader.md`, `bibliography.md`
+- `README.md`, `introduction.md`, `shelf-reader.md`, `source-shelf.md`
 - `sacred-grammar.md` (redirect stub — export validator), `rome-theory.md` (redirect stub)
 - `rome-{term}.md` (six volume-local theory lenses — orchestrated from [theory/](../../../theory/README.md))
 

@@ -127,8 +127,13 @@ def strip_ph_civ_prose(text: str) -> str:
     return text
 
 
+def volume_bibliography_door(slug: str) -> str:
+    return "source-shelf.md" if slug == "rome" else "bibliography.md"
+
+
 def rewrite_public_volume_asset_links(text: str, volume_slugs: dict[str, str]) -> str:
     for slug in volume_slugs.values():
+        door = volume_bibliography_door(slug)
         text = re.sub(
             rf"volumes/{re.escape(slug)}/civ-state-{re.escape(slug)}-shelf-reader\.md",
             f"volumes/{slug}/shelf-reader.md",
@@ -136,7 +141,7 @@ def rewrite_public_volume_asset_links(text: str, volume_slugs: dict[str, str]) -
         )
         text = re.sub(
             rf"volumes/{re.escape(slug)}/civ-state-{re.escape(slug)}-bibliography\.md",
-            f"volumes/{slug}/bibliography.md",
+            f"volumes/{slug}/{door}",
             text,
         )
     return text
@@ -387,15 +392,16 @@ def link_prefix(dest_rel: Path) -> str:
 def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, str]) -> str:
     prefix = link_prefix(dest_rel)
     for folder, slug in volume_slugs.items():
+        door = volume_bibliography_door(slug)
         text = text.replace(f"volumes/{folder}/", f"volumes/{slug}/")
         text = re.sub(
             rf"volumes/{re.escape(folder)}/{re.escape(folder)}-bibliography\.md",
-            f"volumes/{slug}/bibliography.md",
+            f"volumes/{slug}/{door}",
             text,
         )
         text = re.sub(
             rf"volumes/{re.escape(slug)}/civ-state-{slug}-bibliography\.md",
-            f"volumes/{slug}/bibliography.md",
+            f"volumes/{slug}/{door}",
             text,
         )
         text = re.sub(
@@ -798,6 +804,7 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
 
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", strip_bad_link, text)
     for slug in volume_slugs.values():
+        door = volume_bibliography_door(slug)
         text = re.sub(
             rf"\]\(civ-state-{slug}-primary-sources-([a-z]+)\.md\)",
             r"](sources/primary/\1.md)",
@@ -815,7 +822,7 @@ def finalize_public_markdown(text: str, dest_rel: Path, volume_slugs: dict[str, 
         )
         text = re.sub(
             rf"\]\(civ-state-{slug}-bibliography\.md\)",
-            r"](bibliography.md)",
+            rf"]({door})",
             text,
         )
 
@@ -904,7 +911,7 @@ def volume_dest_path(src_name: str, vol_folder: str, slug: str) -> Path | None:
         if rest == "shelf-reader.md":
             return Path("volumes") / slug / "shelf-reader.md"
         if rest == "bibliography.md":
-            return Path("volumes") / slug / "bibliography.md"
+            return Path("volumes") / slug / volume_bibliography_door(slug)
         pm = re.match(r"primary-sources-([a-z]+)\.md$", rest)
         if pm:
             return Path("volumes") / slug / "sources" / "primary" / f"{pm.group(1)}.md"

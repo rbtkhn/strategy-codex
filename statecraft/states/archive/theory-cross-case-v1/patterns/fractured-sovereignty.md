@@ -36,7 +36,7 @@ Persia shows the pattern partially in some later phases, especially under conces
 
 ## Key source doors
 
-- [Rome bibliography](../../volumes/rome/bibliography.md)
+- [Rome source shelf](../../volumes/rome/source-shelf.md)
 - [Continuity Mechanism](../continuity.md)
 - Boniface VIII, *Unam Sanctam*
 - *Peace of Westphalia*

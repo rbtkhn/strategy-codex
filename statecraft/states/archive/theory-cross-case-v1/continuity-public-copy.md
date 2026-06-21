@@ -35,7 +35,7 @@ This means Rome's continuity mechanism is structurally dispersed. It can survive
 
 ### Key source doors
 
-- [Rome bibliography](../volumes/rome/bibliography.md)
+- [Rome source shelf](../volumes/rome/source-shelf.md)
 - Procopius, *Wars*
 - *Corpus Juris Civilis*
 - Augustine, *City of God*

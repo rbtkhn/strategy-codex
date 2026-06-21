@@ -1,6 +1,12 @@
 # Rome Bibliography
 
-This file inventories the primary, pre-modern, and modern secondary sources used across the Rome essays. It is ordered roughly by date of composition or publication. Dates for ancient works are approximate where necessary.
+**Downstream citation inventory** — sources used in **active `essay-rome-*` nodes** (body + `## Notes`). Append-only from essay work; do not bulk-import from the retrieve shelf.
+
+**Current coverage:** civic-chain four — genesis · republic · caesar · augustus (verified 2026-06).
+
+For the upstream retrieve shelf (era doors, full corpus), see [source-shelf.md](source-shelf.md) → [`sources/rome/bibliography.md`](../../sources/rome/bibliography.md).
+
+**When the next `essay-rome-*` node goes active:** scan that essay for new sources; append deduped entries here in the same ship turn (`civ-state-essay` § Essay citation inventory).
 
 Where a stable public-domain edition exists online, an indented line links to that edition (English by default). Latin or Greek text appears as a second indented link when the Rome essays quote that work heavily in the original language. Copyrighted modern secondary works are listed without links.
 

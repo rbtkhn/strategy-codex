@@ -3,7 +3,7 @@ name: civ-state-essay
 preferred_activation: civ-state essay
 description: "Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake."
 portable: true
-version: 0.2.4
+version: 0.2.5
 tags:
   - operator
   - work-strategy
@@ -89,6 +89,17 @@ After any **humanizing** pass on a node, default QA class for later edits on tha
 - **Ban:** `One modern analyst` · `Later constitutional history would add` · `Later analysis compressed` as authorial frames; modern surnames outside `"…"` in authorial prose.
 - **Florus / epitome witnesses:** embed ancient `"…"` in body; do not describe compression in meta voice only.
 - **Band floor after reception removal:** expand **ancient** quotes and embodied beats in the same turn — do not backfill quoted band with modern reception.
+
+### Essay citation inventory (Rome — downstream of active essays)
+
+**SSOT:** `public/civ-state/volumes/rome/rome-bibliography.md` — flat chronological list of sources **used across active `essay-rome-*` nodes**, with public-domain URL sub-lines (English default; Latin/Greek second line when essays quote heavily in original). **Derived from essays** (body authorial references + `## Notes`) — not imported from the retrieve shelf. **Not** the upstream retrieve shelf — that remains [`sources/rome/bibliography.md`](../../public/civ-state/sources/rome/bibliography.md) (`civ-state` Frame/Retrieve); volume door [`source-shelf.md`](../../public/civ-state/volumes/rome/source-shelf.md).
+
+**Current coverage (v0.2):** civic-chain four — genesis · republic · caesar · augustus.
+
+- **Before source-bearing or new ancient quotes:** check the inventory for an existing PD edition; reuse its URL sub-line.
+- **After a pass adds a new cited work in `## Notes` or body:** append the work to `rome-bibliography.md` in the same turn if not already listed (plain title bullet + indented URL sub-lines; copyrighted modern secondary = plain text, no link).
+- **When the next `essay-rome-*` node goes active** (registry / essays README status → active): scan that essay's body + `## Notes` for sources; **append only new works** to `rome-bibliography.md` — dedupe by author + title; do **not** bulk-import from `sources/rome/`.
+- **Essay body:** remains standalone — no links to the inventory in body prose; routing pointers live in volume/essays README and meta sidecar only.
 
 ### Cross-chain voice (Rome civic-chain four)
 
@@ -189,6 +200,7 @@ Run `check_civ_state_essay_prose.py` with the **`--class`** from essay state tab
 | Operation | When |
 |-----------|------|
 | **civ-state** | Essay class unsettled; need shelf / primary / theory retrieve |
+| **civ-state-note** | Bounded WORK note on `statecraft/notes/` with CIV-STATE retrieve pre-pass — not public essay |
 | **civ-state-volume-architect** | Volume part law or chapter-family change |
 | **civilization-part-writer** / **empire-part-writer** | New constitutional part authoring |
 | **recursive-learn** | Post-ship machine law; geo-strategic revision law cross-link |
