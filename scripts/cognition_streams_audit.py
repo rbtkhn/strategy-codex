@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
-"""Audit cognition-stream coverage with durable receipts and scoreable ledgers.
+"""Audit check-sources / YouTube channel coverage with durable receipts and scoreable ledgers.
 
-This is advisory automation only. It discovers channel uploads, reconciles them
-against local raw-input capture truth, classifies each published object, and
-emits machine-readable completeness outputs. It never performs ingest itself.
+Advisory automation only. Discovers channel uploads via the main channel-index roster
+(``load_check_sources_roster``; misc excluded), reconciles against local
+``source-archive/statecraft`` captures (and optional legacy ``raw-input``), classifies
+each published object, and emits machine-readable completeness outputs. Never performs
+ingest itself.
+
+Legacy name: cognition-streams audit.
 """
 
 from __future__ import annotations
@@ -37,8 +41,16 @@ from youtube_transcripts.ytdlp_adapter import (  # noqa: E402
     watch_url,
 )
 from statecraft_youtube_discovery import (  # noqa: E402
+    load_check_sources_roster,
     load_discovery_channels,
     resolve_discovery_config_path,
+)
+from statecraft_day_archive import (  # noqa: E402
+    DEFAULT_ROOT as DEFAULT_ARCHIVE_ROOT,
+    iter_all_day_dirs,
+    iter_source_files,
+    norm_scalar,
+    parse_frontmatter,
 )
 
 DEFAULT_OUT_DIR = ARTIFACTS_DIR / "cognition-streams"
@@ -125,7 +137,7 @@ def _window_slug(start: date, end: date) -> str:
     return f"{start.isoformat()}_to_{end.isoformat()}"
 
 
-def _load_watchlist(path: Path | None = None) -> dict[str, ChannelSpec]:
+def _load_discovery_specs(path: Path | None = None) -> dict[str, ChannelSpec]:
     config_path = path or resolve_discovery_config_path()
     out: dict[str, ChannelSpec] = {}
     field_names = {field.name for field in ChannelSpec.__dataclass_fields__.values()}
@@ -134,6 +146,88 @@ def _load_watchlist(path: Path | None = None) -> dict[str, ChannelSpec]:
         spec = ChannelSpec(**filtered)
         out[spec.channel_key] = spec
     return out
+
+
+def _channel_id_from_url(url: str) -> str:
+    match = re.search(r"/channel/(UC[\w-]+)", url or "")
+    return match.group(1) if match else ""
+
+
+def _normalize_handle_url(url: str) -> str:
+    cleaned = (url or "").strip().rstrip("/")
+    if cleaned.endswith("/videos"):
+        return cleaned[: -len("/videos")]
+    return cleaned
+
+
+def _spec_from_roster_row(row: dict[str, Any], discovery: dict[str, ChannelSpec]) -> ChannelSpec | None:
+    key = str(row.get("slug") or "").strip()
+    if not key:
+        return None
+    if key in discovery:
+        return discovery[key]
+    handle_url = _normalize_handle_url(str(row.get("channel_url") or ""))
+    channel_id = str(row.get("channel_id") or "").strip() or _channel_id_from_url(handle_url)
+    if not handle_url and not channel_id:
+        return None
+    uploads = f"UU{channel_id[2:]}" if channel_id.startswith("UC") else ""
+    label = str(row.get("label") or key)
+    return ChannelSpec(
+        channel_key=key,
+        channel_name=label,
+        channel_id=channel_id,
+        uploads_playlist_id=uploads,
+        handle_url=handle_url,
+        show=label,
+        host="",
+        thread=key.replace("-", "_"),
+        file_prefix=f"source-{key}",
+        discovery_priority=list(DISCOVERY_SOURCE_ORDER),
+    )
+
+
+def _load_roster(
+    *,
+    archive_root: Path,
+    watchlist_only: bool = False,
+    discoverable_only: bool = True,
+    watchlist_path: Path | None = None,
+) -> dict[str, ChannelSpec]:
+    """Build audit channel specs from check-sources roster + discovery config."""
+    discovery = _load_discovery_specs(watchlist_path)
+    json_path = archive_root / "channel-index.json"
+    if not json_path.is_file():
+        specs = discovery
+        if watchlist_only:
+            watchlist_keys = {
+                str(row.get("channel_key") or "")
+                for row in load_discovery_channels(watchlist_path)
+                if row.get("daily_watchlist")
+            }
+            if watchlist_keys:
+                specs = {key: spec for key, spec in specs.items() if key in watchlist_keys}
+        return dict(sorted(specs.items()))
+
+    roster_rows = load_check_sources_roster(root=archive_root, json_path=json_path)
+    out: dict[str, ChannelSpec] = {}
+    for row in roster_rows:
+        if discoverable_only and not row.get("discoverable"):
+            continue
+        if watchlist_only and not row.get("watchlist"):
+            continue
+        spec = _spec_from_roster_row(row, discovery)
+        if spec is not None:
+            out[spec.channel_key] = spec
+    return dict(sorted(out.items()))
+
+
+def _load_watchlist(path: Path | None = None) -> dict[str, ChannelSpec]:
+    """Daily watchlist subset (six ``daily_watchlist`` channels) via check-sources roster."""
+    return _load_roster(
+        archive_root=DEFAULT_ARCHIVE_ROOT,
+        watchlist_only=True,
+        watchlist_path=path,
+    )
 
 
 def _canonical_watch_url(value: str) -> str | None:
@@ -203,6 +297,35 @@ def _scan_raw_input_index(notebook_root: Path) -> dict[str, list[str]]:
         if raw_video_id:
             matches.setdefault(raw_video_id, []).append(str(md))
     return matches
+
+
+def _scan_source_archive_index(archive_root: Path) -> dict[str, list[str]]:
+    matches: dict[str, list[str]] = {}
+    if not archive_root.is_dir():
+        return matches
+    for day_dir in iter_all_day_dirs(archive_root):
+        for path in iter_source_files(day_dir):
+            meta = parse_frontmatter(path)
+            source_url = _canonical_watch_url(norm_scalar(meta.get("source_url")) or "")
+            if source_url:
+                matches.setdefault(source_url, []).append(str(path))
+                video_id = _youtube_id_from_url(source_url)
+                if video_id:
+                    matches.setdefault(video_id, []).append(str(path))
+            youtube_id = norm_scalar(meta.get("youtube_id")) or ""
+            if youtube_id:
+                matches.setdefault(youtube_id, []).append(str(path))
+    return matches
+
+
+def _merge_capture_indexes(*indexes: dict[str, list[str]]) -> dict[str, list[str]]:
+    merged: dict[str, list[str]] = {}
+    for index in indexes:
+        for key, paths in index.items():
+            merged.setdefault(key, []).extend(paths)
+    for key, paths in merged.items():
+        merged[key] = sorted({path for path in paths})
+    return merged
 
 
 def _guess_limit(start: date, end: date) -> int:
@@ -535,7 +658,7 @@ def _classify_rows(
                 priority = "must-capture" if (classification == "uncaptured-main" and is_recent) else (
                     "probably-capture" if classification == "uncaptured-main" else "none"
                 )
-                notes.append("main upload present in raw-input" if captured else "main upload missing from raw-input")
+                notes.append("main upload present in capture index" if captured else "main upload missing from capture index")
 
         rows.append(
             {
@@ -664,7 +787,7 @@ def _compute_summary(rows: list[dict[str, Any]], recent_start: date, target_star
 
 
 def _render_queue_markdown(queue_groups: dict[str, list[dict[str, Any]]]) -> str:
-    lines = ["# Cognition streams repair queue", ""]
+    lines = ["# Check-sources repair queue", ""]
     for label in ("must-capture", "probably-capture"):
         rows = queue_groups.get(label, [])
         lines.append(f"## {label}")
@@ -743,19 +866,35 @@ def run_audit(
     recent_start: date,
     channel_keys: list[str] | None,
     out_dir: Path,
+    archive_root: Path,
     notebook_root: Path,
     fmt: str,
     offline: bool,
     receipt_root: Path = DEFAULT_RECEIPT_ROOT,
     watchlist_path: Path | None = None,
+    roster: str = "watchlist",
+    capture_surface: str = "archive",
 ) -> dict[str, Any]:
-    watchlist = _load_watchlist(watchlist_path)
-    selected = [watchlist[key] for key in (channel_keys or list(watchlist.keys()))]
+    watchlist_only = roster == "watchlist"
+    roster_specs = _load_roster(
+        archive_root=archive_root,
+        watchlist_only=watchlist_only,
+        watchlist_path=watchlist_path,
+    )
+    if channel_keys:
+        selected = [roster_specs[key] for key in channel_keys if key in roster_specs]
+    else:
+        selected = list(roster_specs.values())
     window = _window_slug(start, end)
     receipt_dir = receipt_root / window
     output_dir = out_dir / window
 
-    raw_index = _scan_raw_input_index(notebook_root)
+    capture_indexes: list[dict[str, list[str]]] = []
+    if capture_surface in {"archive", "both"}:
+        capture_indexes.append(_scan_source_archive_index(archive_root))
+    if capture_surface in {"raw-input", "both"}:
+        capture_indexes.append(_scan_raw_input_index(notebook_root))
+    capture_index = _merge_capture_indexes(*capture_indexes) if capture_indexes else {}
     discovered_rows: list[dict[str, Any]] = []
     receipt_manifest: dict[str, str] = {}
     for spec in selected:
@@ -781,8 +920,11 @@ def run_audit(
                 }
             )
 
-    rows = _classify_rows(discovered_rows, raw_index, recent_start)
+    rows = _classify_rows(discovered_rows, capture_index, recent_start)
     summary = _compute_summary(rows, recent_start, start, end)
+    summary["roster_scope"] = roster
+    summary["roster_channel_count"] = len(selected)
+    summary["capture_surface"] = capture_surface
     queue_rows = [row for row in rows if row["priority"] in {"must-capture", "probably-capture"} and not row["captured"]]
     queue_rows.sort(key=lambda row: (PRIORITY_ORDER[row["priority"]], row["date"], row["channel_key"], row["youtube_id"]))
     queue_groups = {
@@ -804,6 +946,8 @@ def run_audit(
         "summary": summary,
         "queue_groups": queue_groups,
         "receipt_manifest": receipt_manifest,
+        "roster_scope": roster,
+        "roster_channel_keys": [spec.channel_key for spec in selected],
     }
 
 
@@ -813,8 +957,31 @@ def _build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--end", required=True, help="YYYY-MM-DD")
     ap.add_argument("--recent-start", required=True, help="YYYY-MM-DD")
     ap.add_argument("--channel", action="append", default=[], help="Repeatable channel_key filter")
+    ap.add_argument(
+        "--roster",
+        choices=("watchlist", "main"),
+        default="watchlist",
+        help="Channel scope: daily watchlist (6) or full main channel-index roster (misc excluded)",
+    )
     ap.add_argument("--out-dir", type=Path, default=DEFAULT_OUT_DIR, help="Durable output root")
-    ap.add_argument("--notebook-root", type=Path, default=DEFAULT_NOTEBOOK_ROOT, help="Active strategy notebook root")
+    ap.add_argument(
+        "--archive-root",
+        type=Path,
+        default=DEFAULT_ARCHIVE_ROOT,
+        help="Statecraft source-archive root for roster + capture reconciliation",
+    )
+    ap.add_argument(
+        "--notebook-root",
+        type=Path,
+        default=DEFAULT_NOTEBOOK_ROOT,
+        help="Legacy strategy notebook root (raw-input when --capture-surface includes raw-input)",
+    )
+    ap.add_argument(
+        "--capture-surface",
+        choices=("archive", "raw-input", "both"),
+        default="archive",
+        help="Local capture truth: source-archive (default), legacy raw-input, or both",
+    )
     ap.add_argument("--format", choices=("jsonl", "csv", "md"), default="jsonl", help="Ledger export format")
     ap.add_argument("--offline", action="store_true", help="Score from existing receipts without fetching discovery")
     return ap
@@ -828,9 +995,12 @@ def main(argv: list[str] | None = None) -> int:
         recent_start=_parse_date(args.recent_start),
         channel_keys=args.channel or None,
         out_dir=args.out_dir,
+        archive_root=args.archive_root,
         notebook_root=args.notebook_root,
         fmt=args.format,
         offline=args.offline,
+        roster=args.roster,
+        capture_surface=args.capture_surface,
     )
     print(json.dumps(result["summary"], indent=2, ensure_ascii=True))
     print(f"Receipts: {result['receipt_dir']}", file=sys.stderr)

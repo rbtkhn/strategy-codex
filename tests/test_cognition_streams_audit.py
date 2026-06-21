@@ -15,19 +15,27 @@ import cognition_streams_audit as csa  # noqa: E402
 def test_default_watchlist_is_six_stream_daily_set() -> None:
     watchlist = csa._load_watchlist()
 
-    assert list(watchlist) == [
+    assert set(watchlist) == {
+        "alexander-mercouris",
+        "dialogue-works",
         "daniel-davis",
         "glenn-diesen",
-        "dialogue-works",
         "judging-freedom",
-        "alexander-mercouris",
         "redacted-news",
-    ]
+    }
     judging_freedom = watchlist["judging-freedom"]
     assert judging_freedom.channel_id == "UCDkEYb-TXJVWLvOokshtlsw"
     assert judging_freedom.uploads_playlist_id == "UUDkEYb-TXJVWLvOokshtlsw"
     assert judging_freedom.thread == "napolitano"
     assert judging_freedom.file_prefix == "transcript-napolitano"
+
+
+def test_main_roster_loads_fourteen_discoverable_channels() -> None:
+    roster = csa._load_roster(archive_root=REPO_ROOT / "source-archive" / "statecraft", watchlist_only=False)
+    assert len(roster) == 14
+    assert "predictive-history" in roster
+    assert "mario-nawfal" in roster
+    assert "jeffrey-sachs" not in roster
 
 
 def _receipt(channel_key: str, channel_name: str, rows: list[dict[str, object]]) -> dict[str, object]:
@@ -286,11 +294,14 @@ def test_may_regression_classifications_and_queue(tmp_path: Path) -> None:
         recent_start=csa._parse_date("2026-05-12"),
         channel_keys=None,
         out_dir=out_dir,
+        archive_root=tmp_path / "source-archive" / "statecraft",
         notebook_root=notebook,
         fmt="jsonl",
         offline=True,
         receipt_root=tmp_path / "receipts",
         watchlist_path=watchlist,
+        roster="watchlist",
+        capture_surface="raw-input",
     )
 
     ledger_path = Path(result["ledger_paths"]["jsonl"])
@@ -476,11 +487,14 @@ def test_offline_rerun_is_stable(tmp_path: Path) -> None:
         recent_start=csa._parse_date("2026-05-12"),
         channel_keys=None,
         out_dir=out_a,
+        archive_root=tmp_path / "source-archive" / "statecraft",
         notebook_root=notebook,
         fmt="jsonl",
         offline=True,
         receipt_root=tmp_path / "receipts",
         watchlist_path=watchlist,
+        roster="watchlist",
+        capture_surface="raw-input",
     )
     result_b = csa.run_audit(
         start=csa._parse_date("2026-05-12"),
@@ -488,11 +502,14 @@ def test_offline_rerun_is_stable(tmp_path: Path) -> None:
         recent_start=csa._parse_date("2026-05-12"),
         channel_keys=None,
         out_dir=out_b,
+        archive_root=tmp_path / "source-archive" / "statecraft",
         notebook_root=notebook,
         fmt="jsonl",
         offline=True,
         receipt_root=tmp_path / "receipts",
         watchlist_path=watchlist,
+        roster="watchlist",
+        capture_surface="raw-input",
     )
 
     assert result_a["summary"] == result_b["summary"]

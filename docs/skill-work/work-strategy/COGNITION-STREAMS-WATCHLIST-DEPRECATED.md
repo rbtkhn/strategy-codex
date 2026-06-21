@@ -16,7 +16,7 @@ WORK only; not Record.
 
 - **`check streams`** daily quintet (Davis, Diesen, Dialogue Works, Napolitano, Mercouris) — behavior unchanged; config now lives in `statecraft_youtube_discovery.json` (`daily_watchlist: true`)
 - **[`cognition-streams-watchset.md`](cognition-streams-watchset.md)** — prose rationale for the five-stream daily aperture
-- **`python scripts/cognition_streams_audit.py`** — still valid; reads discovery config from `platform/config/statecraft_youtube_discovery.json`
+- **`python scripts/cognition_streams_audit.py`** — still valid; roster from `channel-index.json` via `load_check_sources_roster()` (main or `--roster watchlist`); reconciles against `source-archive/statecraft` by default (`--capture-surface archive`)
 
 ## Migration notes for agents
 

@@ -612,7 +612,7 @@ When checking whether a day is complete:
 - report the requested target date or item first; historical backlog is secondary context
 - when `summary.json` includes `target_date_*` or `target_window_*`, use those fields for the operator-facing verdict
 - treat `overall_backlog_status` as a backlog-health signal, not as the answer to a date-scoped request
-- when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD` against the active `/codex/<year>` notebook root
+- when you need a computed score, repair queue, and durable receipts, run `python scripts/cognition_streams_audit.py --start YYYY-MM-DD --end YYYY-MM-DD --recent-start YYYY-MM-DD --roster watchlist` (default reconciles `source-archive/statecraft`; use `--roster main` for full channel-index roster)
 - when you need a derived speaker-routing queue after materialization, run `python scripts/build_speaker_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory queue and appearance-ledger artifacts only and does not edit speaker folders
 - when you need concrete speaker-memory follow-up proposals, run `python scripts/build_speaker_memory_actions.py --start YYYY-MM-DD --end YYYY-MM-DD`; this emits advisory action artifacts only and does not edit speaker folders
 
