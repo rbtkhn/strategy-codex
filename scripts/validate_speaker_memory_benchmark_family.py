@@ -163,11 +163,11 @@ def check_portable_skill_verify(
             str(SYNC_SCRIPT_PATH),
             "--verify",
             "--skill",
-            "check-streams",
+            "check-sources",
         ]
     )
     ok = proc.returncode == 0
-    detail = "Portable skill verify passed for check-streams." if ok else (proc.stderr.strip() or proc.stdout.strip() or "Portable skill verify failed.")
+    detail = "Portable skill verify passed for check-sources." if ok else (proc.stderr.strip() or proc.stdout.strip() or "Portable skill verify failed.")
     return CheckResult("portable_skill_verify", ok, detail)
 
 

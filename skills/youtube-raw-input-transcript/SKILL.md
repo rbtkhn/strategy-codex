@@ -1,7 +1,7 @@
 ---
 name: youtube-raw-input-transcript
 preferred_activation: youtube transcript
-description: 'DEPRECATED 2026-06-20. Do not use for new strategy-codex capture. Redirect: source-intake for archive land; check streams for daily roster. See YOUTUBE-MATERIALIZE-DEPRECATED.md.'
+description: 'DEPRECATED 2026-06-20. Do not use for new strategy-codex capture. Redirect: source-intake for archive land; check sources for daily roster. See YOUTUBE-MATERIALIZE-DEPRECATED.md.'
 portable: true
 version: 0.2.0
 deprecated: 2026-06-20
@@ -24,8 +24,8 @@ Full spec: [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strate
 | Task | Skill / path |
 |------|----------------|
 | Land pasted or fetched transcript to canonical archive | **`source-intake`** ([`statecraft-source-intake`](../statecraft-source-intake/SKILL.md)) |
-| Daily Davis / Diesen / Dialogue Works / Napolitano / Mercouris roster | **`check streams`** ([`check-streams`](../check-streams/SKILL.md)) → approved URLs → **`source-intake`** |
-| Channel inventory | [`source-archive/statecraft/channel-index.md`](../../source-archive/statecraft/channel-index.md) |
+| Daily YouTube roster → source-intake | **`check sources`** ([`check-sources`](../check-sources/SKILL.md)) → approved URLs → **`source-intake`** |
+| Channel inventory | [`source-archive/statecraft/channel-index.md`](../../source-archive/statecraft/channel-index.md) · [`channel-index.json`](../../source-archive/statecraft/channel-index.json) |
 
 ## Legacy script (no new archive writes)
 

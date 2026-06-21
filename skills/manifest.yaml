@@ -119,6 +119,14 @@ skills:
     verify_forbidden_substrings:
       - platform/users/grace-mar/
       - process_approved_candidates
+  - name: check-sources
+    source: check-sources/SKILL.md
+    appendix: .cursor/skills/check-sources/CURSOR_APPENDIX.md
+    target: .cursor/skills/check-sources/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  # Legacy compatibility slug. Active concept: check-sources.
   - name: check-streams
     source: check-streams/SKILL.md
     appendix: .cursor/skills/check-streams/CURSOR_APPENDIX.md
@@ -126,7 +134,7 @@ skills:
     verify_forbidden_substrings:
       - platform/users/grace-mar/
       - process_approved_candidates
-  # Legacy compatibility slug. Active concept: check-streams.
+  # Legacy compatibility slug. Active concept: check-sources.
   - name: cognition-streams
     source: cognition-streams/SKILL.md
     appendix: .cursor/skills/cognition-streams/CURSOR_APPENDIX.md
