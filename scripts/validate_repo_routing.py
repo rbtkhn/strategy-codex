@@ -52,6 +52,41 @@ def host_shelf_route_id(slug: str) -> str:
     return f"{slug}-host-shelf"
 
 
+CATEGORY_ENUM = frozenset({"source", "work", "generated", "archive"})
+
+
+def infer_route_category(kind: str, authority: str) -> str:
+    """Map kind + authority to the four-way category model (Sprint 3 inference)."""
+    if kind in {"generated_inventory", "generated_dashboard"}:
+        return "generated"
+    if kind in {"essay", "prose_shelf"}:
+        return "work"
+    if kind == "local_index_script" or authority == "derived_local":
+        return "generated"
+    if authority == "derived":
+        return "generated"
+    return "work"
+
+
+def validate_route_categories(data: dict[str, Any], errors: list[str]) -> None:
+    for route in data.get("routes", []):
+        kind = str(route.get("kind", ""))
+        authority = str(route.get("authority", ""))
+        declared = route.get("category")
+        inferred = infer_route_category(kind, authority)
+        if declared is None:
+            continue
+        if declared not in CATEGORY_ENUM:
+            _err(errors, f"repo-map invalid category on {route.get('id')}: {declared}")
+            continue
+        if declared != inferred:
+            _err(
+                errors,
+                f"repo-map category mismatch on {route.get('id')}: "
+                f"declared={declared} inferred={inferred} (kind={kind}, authority={authority})",
+            )
+
+
 def load_repo_map() -> dict[str, Any]:
     return safe_load_path(REPO_MAP_PATH, feature="validate_repo_routing.py")
 
@@ -78,7 +113,13 @@ def validate_required_files(errors: list[str]) -> None:
 def validate_route_paths(data: dict[str, Any], errors: list[str]) -> dict[str, dict[str, Any]]:
     by_path: dict[str, dict[str, Any]] = {}
     for route in data.get("routes", []):
-        path = route.get("path", "")
+        path_pattern = route.get("path_pattern")
+        path = str(route.get("path") or "")
+        if path_pattern and not path:
+            continue
+        if not path:
+            _err(errors, f"repo-map route missing path: {route.get('id')}")
+            continue
         full = REPO_ROOT / path.replace("\\", "/")
         if not full.is_file():
             _err(errors, f"repo-map path missing: {path}")
@@ -403,6 +444,7 @@ def validate_all(
 
     data = load_repo_map()
     validate_schema(data, errors)
+    validate_route_categories(data, errors)
     validate_route_paths(data, errors)
     validate_required_routes(data, errors)
 

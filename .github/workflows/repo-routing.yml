@@ -21,3 +21,6 @@ jobs:
 
       - name: Validate LLM routing surfaces
         run: python3 scripts/validate_repo_routing.py --strict
+
+      - name: LLM routing generator drift check
+        run: python3 scripts/generate_llm_routing.py --check

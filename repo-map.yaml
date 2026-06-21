@@ -158,7 +158,7 @@ routes:
 
   - id: self-library
     title: SELF-LIBRARY
-    path: self-library.md
+    path: archive/grace-mar-instance/self-library.md
     kind: canonical_reference
     authority: canonical_self_library
     tags: [self-library, library, reference, canon, books]
@@ -169,7 +169,7 @@ routes:
     path: runtime/artifacts/library-index.md
     kind: generated_dashboard
     authority: derived
-    canonical_source: self-library.md
+    canonical_source: archive/grace-mar-instance/self-library.md
     tags: [generated, dashboard, library-index, self-library]
     search_hints: [library dashboard, generated library index]
 
@@ -348,3 +348,24 @@ routes:
     authority: work_only
     tags: [weichert, source-index, statecraft, civ-lens, nawfal]
     search_hints: [Weichert index, weichert source index, Nawfal Weichert]
+  - id: helmer-source-index
+    title: Helmer source index
+    path: statecraft/voices/helmer/helmer-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [helmer, source-index, statecraft, voices]
+    search_hints: [Helmer index, helmer source index]
+  - id: karaganov-source-index
+    title: Karaganov source index
+    path: statecraft/voices/karaganov/karaganov-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [karaganov, source-index, statecraft, voices]
+    search_hints: [Karaganov index, karaganov source index]
+  - id: lascaris-source-index
+    title: Lascaris source index
+    path: statecraft/voices/lascaris/lascaris-source-index.md
+    kind: source_index
+    authority: work_only
+    tags: [lascaris, source-index, statecraft, voices]
+    search_hints: [Lascaris index, lascaris source index]

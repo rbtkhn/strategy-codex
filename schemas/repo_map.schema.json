@@ -14,11 +14,13 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "title", "path", "kind", "authority"],
+        "required": ["id", "title", "kind", "authority"],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
           "title": { "type": "string", "minLength": 1 },
-          "path": { "type": "string", "minLength": 1 },
+          "path": { "type": "string" },
+          "path_pattern": { "type": "string" },
+          "script": { "type": "string" },
           "kind": {
             "type": "string",
             "enum": [
@@ -29,7 +31,9 @@
               "canonical_reference",
               "generated_dashboard",
               "generated_inventory",
-              "local_index_script"
+              "local_index_script",
+              "essay",
+              "prose_shelf"
             ]
           },
           "authority": {
@@ -41,6 +45,10 @@
               "derived_local",
               "canonical_self_library"
             ]
+          },
+          "category": {
+            "type": "string",
+            "enum": ["source", "work", "generated", "archive"]
           },
           "canonical_source": { "type": "string" },
           "domain": {
