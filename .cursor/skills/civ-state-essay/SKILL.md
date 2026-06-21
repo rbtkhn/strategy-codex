@@ -1,9 +1,9 @@
 ---
 name: civ-state-essay
 preferred_activation: civ-state essay
-description: Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, civ-state-essay, essay prose pass, or civic-chain pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake.
+description: Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake.
 portable: true
-version: 0.2.0
+version: 0.2.1
 tags:
 - operator
 - work-strategy
@@ -17,9 +17,9 @@ synced_by: sync_portable_skills.py
 
 **WORK only; not Record.**
 
-**Activation:** `civ-state essay` · `civ-state-essay` · `essay prose pass` · `civic-chain pass` (when class is clear)
+**Activation:** `civ-state essay` · `civ-state-essay` · `essay prose pass` · `civic-chain pass` · **`humanizing pass`** · **`light prose pass`** · **`essay humanize`** (when class is clear)
 
-Procedure skill for **reader-facing essay prose** under the staged public CIV-STATE book tree. Classify the essay **before** editing. Doctrine lives in the generic essay template and reader guide — this skill owns **workflow, boundaries, and QA gates**, not a second copy of prose law.
+Procedure skill for **reader-facing essay prose** under the staged public CIV-STATE book tree. Classify the essay **and pass type** before editing. Doctrine lives in the generic essay template and reader guide — this skill owns **workflow, boundaries, and QA gates**, not a second copy of prose law.
 
 **Default calibration:** Rome pilot (literary-academic, geo-strategic, source-bearing weave, civic-chain word + quote bands). Other volumes follow volume `essays/README.md` when rules differ.
 
@@ -51,6 +51,22 @@ Procedure skill for **reader-facing essay prose** under the staged public CIV-ST
 
 If class is unsettled, open volume connectivity / essays README (host appendix paths) or **`civ-state` B. Retrieve** — do not guess.
 
+## Civic-chain pass router (Rome pilot — classify after essay class)
+
+For **`essay-{vol}-{slug}.md`** civic-chain nodes, pick **one pass** before editing. Later passes assume structure and quote weave from earlier passes are **frozen** unless operator says otherwise.
+
+| Pass | Operator phrases | Scope | QA `--class` |
+|------|------------------|-------|----------------|
+| **Source-bearing** | `civic-chain pass`, source-bearing expansion, v0.1.48-style | Expand body + woven `"…"` quotes; geo-strategic + standalone | `civic-chain-rome-v2` |
+| **Humanizing** | `humanizing pass`, `essay humanize`, v0.1.49-style | In-place rhythm, verbs, lived institutions, causality, active quote intro/interpret; **no new H2s** | `civic-chain-rome-humanize` |
+| **Light human-prose** | `light prose pass`, light human-prose, v0.1.50-style | Surgical: motif variation, dedupe formula transitions, micro-asides, sharper closings; **no structural rewrite** | `civic-chain-rome-humanize` |
+
+**Quoted band (all civic-chain passes):** **450–550** words in `"…"` — humanize band does **not** waive quote limits.
+
+**Default body band by essay state:** Republic, Caesar, Augustus (post v0.1.48, not yet humanized) → **v2** (2,400–2,600). Genesis (post v0.1.49+) and any essay after an explicit humanizing pass → **humanize** (2,400–2,800) until operator folds bands.
+
+**Human-prose anti-patterns (checklist — detail in template/reader-guide):** repeated motif phrases (`public, bounded, returnable`); formula transitions (`The point is not…`, `What matters here…`); neat thesis-summary paragraph closings; abstract noun clusters without verbs. Cap formula stock phrases at **≤2** per essay on light passes.
+
 ## Prose doctrine (pointer — read SSOT)
 
 Before editing civic-chain or long prose essays, read the host appendix paths for:
@@ -65,12 +81,13 @@ Before editing civic-chain or long prose essays, read the host appendix paths fo
 3. **Source weave** — ~20% body = verbatim primary/pre-modern in `"…"` at turning points; modern scholarship (except Gibbon/Mommsen as quoted reception) in `## Notes` only
 4. **Standalone** — no peer-essay links, chain/defer voice, or codex routing in body
 5. **Swap, don't pad** — at fixed word band, replace schematic/abstract lines when adding quotes or geo depth
+6. **Later passes, surgical only** — humanizing and light human-prose passes edit **inside** existing H2s; do not re-expand word count on v2 band essays without operator approval
 
 **Schematic ban (body):** grammar, hinge, apparatus, sequence, strain, logic, stacks, substrate, nullification, category work, city-form, machinery, shell, smaller world (and similar planning shorthand unless earned in context). *Proof* allowed when earned in narrative context.
 
 ## Execution order (Windows-safe)
 
-1. **Classify** essay class (router table).
+1. **Classify** essay class (router table) **and civic-chain pass type** when applicable.
 2. **Read SSOT** — template comment block and/or class template (bounded read; host appendix).
 3. **One essay file per turn** — no parallel StrReplace/Write on multiple essay paths.
 4. **Write before broad Read** when plan SSOT is locked.
@@ -91,14 +108,18 @@ For **validator-first** menu picks (word count, validate public tree), run in th
 
 ### Civic-chain only
 
-- Body word count **2,400–2,600** (split on `## Notes`)
-- Quoted words in `"…"` **450–550** (~18–22% of body)
-- Authorial prose (body minus quoted) **~1,950–2,050**
+Run `check_civ_state_essay_prose.py` with the **`--class`** matching the pass (host appendix).
+
+| QA class | Body words | Quoted words | When |
+|----------|------------|--------------|------|
+| **`civic-chain-rome-v2`** | 2,400–2,600 | 450–550 | Source-bearing pass; republic/caesar/augustus default |
+| **`civic-chain-rome-humanize`** | 2,400–2,800 | 450–550 | Humanizing or light human-prose pass; genesis post v0.1.49+ |
+
+- Authorial prose (body minus quoted) **~1,950–2,050** on v2 band at ~20% quote ratio
 - Geo-strategic swap-don't-pad at band
 - Re-count after surgical trim (de-dup may drop below floor)
 - Meta sidecar unchanged unless operator scoped routing edits
 - Registry anchor matches file slug
-- Run `check_civ_state_essay_prose.py` when available (host appendix)
 
 ### Hex-frame only
 
@@ -123,9 +144,10 @@ For **validator-first** menu picks (word count, validate public tree), run in th
 ```markdown
 **CIV-STATE Essay**
 - Essay class:
+- Civic-chain pass (if any):
 - Target file(s):
 - Scaffold SSOT:
-- Prose pass (if any):
+- QA `--class`:
 - QA gates to run:
 
 **Next:** [edit | QA only | ship | classify unclear → civ-state Retrieve]
@@ -150,7 +172,7 @@ Host-specific paths, QA recipes, and publish commands: **CURSOR_APPENDIX** (gene
 1. Essay class stated and matching scaffold opened (or handoff named).
 2. Class-appropriate QA gates run; failures reported with file + gate name.
 3. No schematic or modern-surname body violations on touched essays (Gibbon/Mommsen exception: inside `"…"` only).
-4. Civic-chain edits stay in word + quoted bands or operator explicitly waived.
+4. Civic-chain edits stay in word + quoted bands for the **pass-appropriate `--class`**, or operator explicitly waived.
 5. `validate_skills.py` clean after skill file changes; public validator run when registry/structure changed.
 
 **Fail when:** civic-chain word/quote band applied to hex-frame; doctrine pasted into skill instead of template; parallel multi-file essay edits on Windows EXECUTE; mirror publish without operator ship verb.
@@ -179,14 +201,24 @@ Other volumes: start at `public/civ-state/volumes/{vol}/essays/README.md` before
 
 **Primary gate:** `scripts/check_civ_state_essay_prose.py`
 
+**Pass → `--class` (see SKILL § Civic-chain pass router):**
+
+| Pass | `--class` | Body | Quoted |
+|------|-----------|------|--------|
+| Source-bearing (v2 default) | `civic-chain-rome-v2` | 2,400–2,600 | 450–550 |
+| Humanizing / light human-prose | `civic-chain-rome-humanize` | 2,400–2,800 | 450–550 |
+
 ```powershell
 python scripts/check_civ_state_essay_prose.py --rome-civic-chain-four
-python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-genesis.md
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-genesis.md --class civic-chain-rome-humanize
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-republic.md --class civic-chain-rome-v2
 ```
 
 Reports: `body_words`, `quoted_words`, `quote_pct`, `authorial_words`, schematic hits, modern-surname violations (Gibbon/Mommsen allowed only inside `"…"`), footnote resolution.
 
 **Bands (civic-chain-rome-v2):** body 2,400–2,600 · quoted 450–550 · ~18–22% quote ratio.
+
+**Humanizing / light human-prose:** `--class civic-chain-rome-humanize` — body 2,400–2,800 · quoted 450–550 unchanged. Default for genesis post v0.1.49+; other civic-chain four stay on **v2** until explicitly humanized.
 
 **Inline fallback** (one path only, if script unavailable):
 

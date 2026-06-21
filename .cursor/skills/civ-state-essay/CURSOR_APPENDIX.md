@@ -19,20 +19,24 @@ Other volumes: start at `public/civ-state/volumes/{vol}/essays/README.md` before
 
 **Primary gate:** `scripts/check_civ_state_essay_prose.py`
 
+**Pass → `--class` (see SKILL § Civic-chain pass router):**
+
+| Pass | `--class` | Body | Quoted |
+|------|-----------|------|--------|
+| Source-bearing (v2 default) | `civic-chain-rome-v2` | 2,400–2,600 | 450–550 |
+| Humanizing / light human-prose | `civic-chain-rome-humanize` | 2,400–2,800 | 450–550 |
+
 ```powershell
 python scripts/check_civ_state_essay_prose.py --rome-civic-chain-four
-python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-genesis.md
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-genesis.md --class civic-chain-rome-humanize
+python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-republic.md --class civic-chain-rome-v2
 ```
 
 Reports: `body_words`, `quoted_words`, `quote_pct`, `authorial_words`, schematic hits, modern-surname violations (Gibbon/Mommsen allowed only inside `"…"`), footnote resolution.
 
 **Bands (civic-chain-rome-v2):** body 2,400–2,600 · quoted 450–550 · ~18–22% quote ratio.
 
-**Genesis humanizing pass (temporary):** `--class civic-chain-rome-humanize` — body 2,400–2,800 · quoted 450–550 unchanged. Use for in-place prose humanization only; fold or revert after operator review.
-
-```powershell
-python scripts/check_civ_state_essay_prose.py --path public/civ-state/volumes/rome/essays/essay-rome-genesis.md --class civic-chain-rome-humanize
-```
+**Humanizing / light human-prose:** `--class civic-chain-rome-humanize` — body 2,400–2,800 · quoted 450–550 unchanged. Default for genesis post v0.1.49+; other civic-chain four stay on **v2** until explicitly humanized.
 
 **Inline fallback** (one path only, if script unavailable):
 
