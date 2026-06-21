@@ -3,7 +3,7 @@ name: civ-state-essay
 preferred_activation: civ-state essay
 description: "Write, revise, or QA reader-facing CIV-STATE essays in the public book tree — civic-chain, hex-frame, sub-lenses, constitutional parts, cross-volume shelf. Use when the operator says civ-state essay, essay prose pass, civic-chain pass, humanizing pass, or light prose pass. Do not use for upstream retrieve/frame (civ-state), volume architecture (civ-state-volume-architect), or archive intake."
 portable: true
-version: 0.2.2
+version: 0.2.3
 tags:
   - operator
   - work-strategy
@@ -70,22 +70,25 @@ Pin from target file + [`release-history.md`](../../public/civ-state/docs/releas
 
 | Essay | File | QA `--class` (current) | Pass notes |
 |-------|------|------------------------|------------|
-| Genesis | `essay-rome-genesis.md` | **`civic-chain-rome-humanize`** | v0.1.49 humanizing · v0.1.50 light |
-| Republic | `essay-rome-republic.md` | **`civic-chain-rome-humanize`** | v0.1.51 humanizing · v0.1.55 light |
-| Caesar | `essay-rome-caesar.md` | **`civic-chain-rome-humanize`** | v0.1.52–54 light + humanizing |
-| Augustus | `essay-rome-augustus.md` | **`civic-chain-rome-humanize`** | v0.1.56 light · v0.1.57 humanizing |
+| Genesis | `essay-rome-genesis.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · Gibbon Notes-only |
+| Republic | `essay-rome-republic.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · L55 institutions |
+| Caesar | `essay-rome-caesar.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · reception → Notes |
+| Augustus | `essay-rome-augustus.md` | **`civic-chain-rome-humanize`** | v0.1.59 source-discipline · reception → Notes |
 
 After any **humanizing** pass on a node, default QA class for later edits on that file → **humanize** until operator folds bands.
 
 **Human-prose anti-patterns (checklist — detail in template/reader-guide):** repeated motif phrases (`public, bounded, returnable`; prize catalogues; liberty/elections thesis loops); formula transitions (`The point is not…`, `What matters here…`, `Memory that…`); neat thesis-summary paragraph closings; **meta quote wrappers** (`moralized… compressed rhetoric`, `One modern analyst would later write`); abstract noun clusters without verbs. Cap formula stock phrases at **≤2** per essay on light passes.
 
-### Reception weave (Gibbon / Mommsen / paraphrase composites)
+### Source discipline (body vs Notes — Rome civic-chain)
 
-- **Authorial prose:** no modern surnames (Syme, Goldsworthy, Everitt, Durant, Gruen, etc.).
-- **Allowed glue:** `Later reception would add` · `Later reception would also add` · `Later reception fixed the verdict` — with Gibbon/Mommsen or labeled paraphrase composite inside `"…"` + `[^n]`; full attribution in `## Notes`.
-- **Light pass cap:** **≤3** `Later reception…` blocks per essay; consolidate stacked reception in one paragraph when possible.
-- **Ban:** `One modern analyst` · `Later constitutional history would add` · `Later analysis compressed` as authorial frames; meta description of quotes instead of weave.
-- **Florus / epitome witnesses:** embed `"…"` in body; do not describe compression in meta voice only.
+**Body `"…"` quotes:** primary ancient sources (historians, poets, speeches, laws, inscriptions, official documents, Roman legal language) **plus medieval secondary** when load-bearing (e.g. early chroniclers used as witness text).
+
+**Notes only (never body):** Gibbon, Mommsen, Syme, Goldsworthy, Everitt, Durant, Gruen, and all modern paraphrase composites. Preserve substance as **authorial synthesis** in body; keep full attribution and composite text in `## Notes` with `*(Modern / reception framing — not body SSOT)*` or equivalent label.
+
+- **Deprecated in body:** `Later reception would add` · `Later reception would also add` · `Later reception fixed the verdict` — migrate modern reception to Notes; replace with authorial prose + ancient quote weave.
+- **Ban:** `One modern analyst` · `Later constitutional history would add` · `Later analysis compressed` as authorial frames; modern surnames outside `"…"` in authorial prose.
+- **Florus / epitome witnesses:** embed ancient `"…"` in body; do not describe compression in meta voice only.
+- **Band floor after reception removal:** expand **ancient** quotes and embodied beats in the same turn — do not backfill quoted band with modern reception.
 
 ### Cross-chain voice (Rome civic-chain four)
 
@@ -104,7 +107,7 @@ Before editing civic-chain or long prose essays, read the host appendix paths fo
 
 1. **Narrate first, interpret second** — institution → place → pressure → conclusion
 2. **Geo-strategic** — every place name carries constraint or incentive; not map trivia
-3. **Source weave** — ~20% body = verbatim primary/pre-modern in `"…"` at turning points; modern scholarship in `## Notes` except Gibbon/Mommsen (and labeled paraphrase composites) inside `"…"` via reception glue
+3. **Source weave** — ~20% body = verbatim primary/pre-modern in `"…"` at turning points; **modern scholarship (incl. Gibbon, Mommsen, Syme, Goldsworthy, Everitt, Durant) in `## Notes` only** — authorial synthesis carries modern insight in body
 4. **Standalone + chain voice** — no internal essay links or defer voice; assume prior-node strain when later civic-chain node
 5. **Swap, don't pad** — at fixed word band, replace schematic/abstract lines when adding quotes or geo depth
 6. **Later passes, surgical only** — humanizing and light human-prose passes edit **inside** existing H2s; do not re-expand word count on v2 band essays without operator approval
@@ -129,7 +132,7 @@ For **validator-first** menu picks (word count, validate public tree), run in th
 ### All prose classes
 
 - All body `[^n]` resolve in `## Notes`
-- **Modern-surname rule:** fail Syme, Goldsworthy, Everitt, Durant in authorial prose; **allow Gibbon/Mommsen only inside `"…"`** as quoted reception; paraphrase composites via reception glue + Notes label
+- **Modern-surname rule:** fail Syme, Goldsworthy, Everitt, Durant, Gibbon, Mommsen in authorial prose outside `"…"`; modern reception and paraphrase composites in `## Notes` only with label
 - Schematic grep clean (ban list above)
 - Standalone — no internal essay links or defer voice
 - Optional before mirror: read-aloud one section per essay
