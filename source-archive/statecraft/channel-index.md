@@ -14,7 +14,7 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 ## Stats
 
 - Distinct YouTube channel keys: `14`
-- YouTube source files mapped: `1419`
+- YouTube source files mapped: `1424`
 - Rows with explicit `channel_slug`: `14`
 - Watchlist channels (matched): `6`
 - Check-sources roster (main, misc excluded): `14` — [channel-index.json](./channel-index.json)
@@ -31,12 +31,12 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 | `judging-freedom` | Judge Napolitano - Judging Freedom | 203 | 135 | yes | [open](https://www.youtube.com/@judgingfreedom) | `2025-01-07` | `2026-06-19` |
 | `mario-nawfal` | Mario Nawfal | 46 | 27 |  | [open](https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA) | `2026-05-12` | `2026-06-19` |
 | `predictive-history` | Predictive History | 11 | 9 |  | [open](https://www.youtube.com/@PredictiveHistory) | `2026-04-14` | `2026-06-10` |
+| `india-and-global-left` | India and Global Left | 8 | 8 |  | [open](https://www.youtube.com/@IndiaGlobalLeft) | `2025-12-09` | `2026-06-11` |
 | `breaking-points` | Breaking Points | 7 | 6 |  | [open](https://www.youtube.com/@BreakingPoints) | `2026-04-29` | `2026-06-17` |
 | `neutrality-studies` | Neutrality Studies | 7 | 6 |  | [open](https://www.youtube.com/@neutralitystudies) | `2025-02-06` | `2026-06-20` |
 | `tucker-carlson` | Tucker Carlson | 6 | 6 |  | [open](https://www.youtube.com/@TuckerCarlson) | `2025-03-11` | `2026-06-15` |
 | `reason-to-resist` | Reason to Resist | 5 | 5 |  | [open](https://www.youtube.com/@reason2resist) | `2026-05-18` | `2026-06-18` |
 | `redacted-news` | Redacted News | 5 | 4 | yes | [open](https://www.youtube.com/@RedactedNews) | `2026-04-20` | `2026-06-16` |
-| `india-and-global-left` | India and Global Left | 3 | 3 |  | [open](https://www.youtube.com/@IndiaGlobalLeft) | `2026-05-20` | `2026-06-11` |
 | `moral-resistance` | Moral Resistance | 3 | 3 |  | [open](https://www.youtube.com/@MoralResistance) | `2026-05-31` | `2026-06-18` |
 
 _`*` = slug derived from label; no explicit `channel_slug` in frontmatter._

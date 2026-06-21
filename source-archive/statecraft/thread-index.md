@@ -5,7 +5,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 ## Stats
 
 - Distinct threads: `67`
-- Thread-linked source files: `2778`
+- Thread-linked source files: `2785`
 - Covered days: `464`
 - Covered months: `22`
 
@@ -18,7 +18,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `nima` | 280 | 174 | 16 | `Dialogue Works` (256) | `Nima Alkhorshid` (261) | `2025-01-04` | `2026-06-20` |
 | `diesen` | 225 | 178 | 21 | `Glenn Diesen` (143), `Diesen` (11), `Diesen (Greater Eurasia)` (9) | `Glenn Diesen` (192), `Diesen` (25), `Mario Nawfal` (1) | `2023-01-14` | `2026-06-19` |
 | `napolitano` | 218 | 146 | 18 | `Judging Freedom` (181), `Judging Freedom (Judge Napolitano)` (1) | `Andrew Napolitano` (196), `napolitano` (3) | `2025-01-07` | `2026-06-19` |
-| `freeman` | 139 | 130 | 18 | `Dialogue Works` (50), `Judging Freedom` (43), `Glenn Diesen` (23) | `Nima Alkhorshid` (51), `Andrew Napolitano` (46), `Glenn Diesen` (24) | `2025-01-07` | `2026-06-19` |
+| `freeman` | 144 | 132 | 18 | `Dialogue Works` (50), `Judging Freedom` (43), `Glenn Diesen` (23) | `Nima Alkhorshid` (51), `Andrew Napolitano` (46), `Glenn Diesen` (24) | `2025-01-07` | `2026-06-19` |
 | `johnson` | 105 | 86 | 16 | `Dialogue Works` (51), `Daniel Davis Deep Dive` (14), `Judging Freedom` (8) | `Nima Alkhorshid` (52), `Daniel Davis` (14), `Andrew Napolitano` (11) | `2025-01-04` | `2026-06-20` |
 | `wilkerson` | 95 | 92 | 17 | `Dialogue Works` (46), `Judging Freedom` (18), `Glenn Diesen` (5) | `Nima Alkhorshid` (50), `Andrew Napolitano` (21), `Glenn Diesen` (13) | `2025-01-04` | `2026-06-12` |
 | `ritter` | 92 | 77 | 15 | `Dialogue Works` (19), `Daniel Davis Deep Dive` (11), `Glenn Diesen` (9) | `Nima Alkhorshid` (24), `Glenn Diesen` (14), `Daniel Davis` (11) | `2025-01-05` | `2026-06-10` |
@@ -60,6 +60,7 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `berletic` | 3 | 3 | 3 | `Glenn Diesen` (2), `The Duran` (1) | `Glenn Diesen` (2), `Alex Christoforou` (1) | `2025-06-17` | `2026-05-24` |
 | `breaking-points` | 3 | 2 | 1 | `Breaking Points` (3) | `Breaking Points` (3) | `2026-06-11` | `2026-06-16` |
 | `glenn-diesen` | 3 | 2 | 2 | `Glenn Diesen` (3) | `Glenn Diesen` (3) | `2025-09-20` | `2025-10-20` |
+| `india-and-global-left` | 3 | 3 | 3 | `India and Global Left` (3) | `Judish Raj` (3) | `2025-12-09` | `2026-06-11` |
 | `pope-leo` | 3 | 3 | 3 | (none) | (none) | `2024-12-16` | `2026-05-15` |
 | `redacted` | 3 | 2 | 1 | `Redacted News` (3) | `Clayton Morris` (3), `Natali Morris` (3) | `2026-06-11` | `2026-06-16` |
 | `vatican` | 3 | 3 | 3 | (none) | (none) | `2024-12-16` | `2026-05-15` |
@@ -72,7 +73,6 @@ _Generated inventory note. Rebuild with `python scripts/refresh_statecraft_archi
 | `gao` | 1 | 1 | 1 | `Danny Haiphong (YouTube)` (1) | `Danny Haiphong` (1) | `2026-04-24` | `2026-04-24` |
 | `going-underground` | 1 | 1 | 1 | `Going Underground` (1) | `Afshin Rattansi` (1) | `2025-06-09` | `2025-06-09` |
 | `horizons` | 1 | 1 | 1 | `HORIZONS Discussion` (1) | `Vuk Jeremic` (1) | `2025-12-19` | `2025-12-19` |
-| `india-and-global-left` | 1 | 1 | 1 | `India and Global Left` (1) | `Judish Raj` (1) | `2026-06-11` | `2026-06-11` |
 | `matlock` | 1 | 1 | 1 | `Diesen - Greater Eurasia Podcast` (1) | `Diesen` (1) | `2026-04-19` | `2026-04-19` |
 | `neutrality` | 1 | 1 | 1 | `Neutrality Studies` (1) | `Pascal Lottaz` (1) | `2025-12-09` | `2025-12-09` |
 | `paul` | 1 | 1 | 1 | `Reinvent Money` (1) | `Paul Buitink` (1) | `2026-06-05` | `2026-06-05` |
