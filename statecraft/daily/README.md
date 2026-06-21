@@ -62,6 +62,13 @@ February archive batch anchored **2026-02-17** (Geneva opening + Iran bench). Mo
 March archive: [source-archive/statecraft/2026-03.md](../source-archive/statecraft/2026-03.md) — 31 days, 200 source files. Monthly compression:
 
 - [2026-03 Monthly Synthesis](2026-03.md)
+- [2026-03-03](2026-03-03.md) — **war opening day 4** — attrition; Hormuz/LNG shock; Anchorage dead (13 captures)
+  - [Helmer × Marandi — Iran war weave](../notes/2026-03-03-iran-war-weave-helmer-marandi.md)
+  - [Mercouris × Wilkerson — attrition / downed warplanes](../notes/2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md)
+  - [Davis bench — Macgregor × Henningsen × Hormuz solo](../notes/2026-03-03-davis-macgregor-henningsen-iran-war-bench-weave.md)
+  - [Crooke × Pape × Simplicius — air-power bench](../notes/2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md)
+  - [Dmitriev arc Jan 20 → Mar 3](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
+  - [Wire verify matrix](./2026-03-03-wire-verify-matrix.md)
 - [2026-03-16](2026-03-16.md) — densest archive day (19 captures)
   - [2026-03-16 - Pape Escalation Trap Vs Crooke Mosaic](2026-03-16-pape-vs-crooke-mosaic-trap.md)
   - [2026-03-16 - Ritter Implementation × Trap × Mosaic](2026-03-16-ritter-implementation-trap-mosaic.md)

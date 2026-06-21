@@ -4,14 +4,14 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `12`
+- Source files: `13`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `transcript` (4), `operator-transcript` (3), `substack-post` (2), `paste-bundle` (1), `source` (1), `youtube` (1)
-- Source form mix: `interview` (6), `newsletter` (3), `solo` (2), `article` (1)
+- Body kind mix: `operator-transcript` (5), `transcript` (3), `substack-post` (2), `paste-bundle` (1), `source` (1), `youtube` (1)
+- Source form mix: `interview` (7), `newsletter` (3), `solo` (2), `article` (1)
 - Distinct channels/shows: `7`
 - Distinct hosts: `6`
-- Distinct guests: `7`
-- Distinct threads: `12`
+- Distinct guests: `8`
+- Distinct threads: `13`
 
 ## Channel / Show Rollup
 
@@ -20,8 +20,8 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 ## Host / Guest / Thread Rollup
 
 - Hosts: `Daniel Davis` (3), `Andrew Napolitano` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Robert Pape` (1)
-- Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Lawrence Wilkerson` (1), `Mohammad Marandi` (1), `Patrick Henningsen` (1), `Seyed M. Marandi` (1)
-- Threads: `davis` (3), `marandi` (2), `napolitano` (2), `crooke` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `mercouris` (1), `pape` (1), `sachs` (1), `simplicius` (1), `wilkerson` (1)
+- Guests: `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `John Helmer` (1), `Lawrence Wilkerson` (1), `Mohammad Marandi` (1), `Patrick Henningsen` (1), `Seyed M. Marandi` (1)
+- Threads: `davis` (3), `marandi` (2), `napolitano` (2), `crooke` (1), `diesen` (1), `freeman` (1), `macgregor` (1), `mercouris` (1), `nima` (1), `pape` (1), `sachs` (1), `simplicius` (1), `wilkerson` (1)
 
 ## Ingest register
 
@@ -29,7 +29,8 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 
 | Guest / voice | Show | Thread | YouTube |
 | --- | --- | --- | --- |
-| Alexander Mercouris | Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=p2kBG8i_Knw) |
+| Alexander Mercouris | Mercouris | `mercouris` | [p2kBG8i_Knw](https://www.youtube.com/watch?v=p2kBG8i_Knw) |
+| John Helmer | — | `nima` | [watch](https://www.youtube.com/watch?v=cds5p875iNs) |
 | source-crooke-if-iran-survives-and-stays-steadfast-2026-03-03.md | — | `crooke` | [watch](https://conflictsforum.substack.com/p/if-iran-survives-and-stays-steadfast) |
 | Patrick Henningsen | Daniel Davis Deep Dive | `davis` | — |
 | Douglas Macgregor | Daniel Davis Deep Dive | `davis`, `macgregor` | — |
@@ -45,6 +46,7 @@ _One row per ingest. YouTube from frontmatter `source_url` / `youtube_id`. Not t
 ## Files
 
 - `source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md`
+- `source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md`
 - `source-crooke-if-iran-survives-and-stays-steadfast-2026-03-03.md`
 - `source-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md`
 - `source-davis-macgregor-iran-war-us-losing-position-in-the-world-2026-03-03.md`

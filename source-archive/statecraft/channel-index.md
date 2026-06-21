@@ -14,7 +14,7 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 ## Stats
 
 - Distinct YouTube channel keys: `14`
-- YouTube source files mapped: `1413`
+- YouTube source files mapped: `1416`
 - Rows with explicit `channel_slug`: `14`
 - Watchlist channels (matched): `6`
 - Check-sources roster (main, misc excluded): `14` — [channel-index.json](./channel-index.json)
@@ -25,7 +25,7 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 | Channel slug | Label | Files | Days | Watchlist | Channel URL | First day | Last day |
 | --- | --- | ---: | ---: | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | 365 | 336 | yes | [open](https://www.youtube.com/@AlexMercouris) | `2025-01-03` | `2026-06-20` |
-| `dialogue-works` | Dialogue Works | 298 | 190 | yes | [open](https://www.youtube.com/@dialogueworks01) | `2025-01-04` | `2026-06-20` |
+| `dialogue-works` | Dialogue Works | 301 | 191 | yes | [open](https://www.youtube.com/@dialogueworks01) | `2025-01-04` | `2026-06-20` |
 | `daniel-davis` | Daniel Davis / Deep Dive | 245 | 141 | yes | [open](https://www.youtube.com/@DanielDavisDeepDive) | `2025-01-01` | `2026-06-20` |
 | `glenn-diesen` | Glenn Diesen | 209 | 171 | yes | [open](https://www.youtube.com/@GDiesen1) | `2023-01-14` | `2026-06-19` |
 | `judging-freedom` | Judge Napolitano - Judging Freedom | 203 | 135 | yes | [open](https://www.youtube.com/@judgingfreedom) | `2025-01-07` | `2026-06-19` |

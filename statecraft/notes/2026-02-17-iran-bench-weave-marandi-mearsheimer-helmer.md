@@ -88,7 +88,7 @@ Same-day **Iran / Hormuz** bench — **not** Geneva Ukraine table. Route by regi
 
 - [Jan 20 Greenland weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) — Helmer **Iran regime-change phase** (Nima in Tehran)
 - [Jan 20 Mearsheimer tag-team](../../source-archive/statecraft/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md) — external **regime-change mechanism** vs Marandi **internal legitimacy** gatherings
-- [Geneva wire matrix](../daily/2026-02-17-wire-verify-matrix.md) — **Sub-seam E** Persia hooks (**J17-P1 – P8**)
+- [Mar 3 2026 — Helmer × Marandi Iran war weave](./2026-03-03-iran-war-weave-helmer-marandi.md) — post-Khamenei opening (war replaces Hormuz maneuver)
 
 ## Falsifiers
 

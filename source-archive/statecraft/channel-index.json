@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-21T11:54:19+00:00",
+  "generated_at": "2026-06-21T12:35:50+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "channel-index.md",
   "stats": {
     "main_channel_count": 14,
-    "file_count": 1413,
+    "file_count": 1416,
     "watchlist_count": 6,
     "discoverable_count": 14,
     "explicit_slug_count": 14
@@ -29,8 +29,8 @@
     {
       "slug": "dialogue-works",
       "label": "Dialogue Works",
-      "file_count": 298,
-      "day_count": 190,
+      "file_count": 301,
+      "day_count": 191,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,

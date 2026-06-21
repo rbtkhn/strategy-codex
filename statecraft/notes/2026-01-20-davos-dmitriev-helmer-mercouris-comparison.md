@@ -1,9 +1,9 @@
 WORK only; not Record.
 
-# Jan 20 – Feb 17 2026 — Dmitriev lane (Helmer × Mercouris)
+# Jan 20 – Mar 3 2026 — Dmitriev lane (Helmer × Mercouris)
 
-**Pub date anchor:** 2026-01-20 (Davos) · **Arc upgrade:** 2026-02-17 (Geneva bifurcation)  
-**Parent:** [Greenland three-way weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) · [Geneva day weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) · [Helmer source index](../voices/helmer/helmer-source-index.md) · [Mercouris Jan 2026 shelf](../voices/mercouris/stream/mercouris-shelf-2026-01.md)
+**Pub date anchor:** 2026-01-20 (Davos) · **Arc upgrades:** 2026-02-17 (Geneva bifurcation) · 2026-03-03 (Anchorage dead / Gulf–Putin panic)  
+**Parent:** [Greenland three-way weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) · [Geneva day weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) · [Mar 3 Helmer × Marandi](./2026-03-03-iran-war-weave-helmer-marandi.md) · [Mar 3 wire matrix](../daily/2026-03-03-wire-verify-matrix.md) · [Helmer source index](../voices/helmer/helmer-source-index.md) · [Mercouris Jan 2026 shelf](../voices/mercouris/stream/mercouris-shelf-2026-01.md)
 
 **Sources:**
 
@@ -11,13 +11,14 @@ WORK only; not Record.
 | --- | --- | --- |
 | **Jan 20** | [Two Fronts / Greenland / Ukraine](../../source-archive/statecraft/2026-01-20/source-alkorshid-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) — [6uV3p9nD8D8](https://www.youtube.com/watch?v=6uV3p9nD8D8) | [Starmer/Macron; Greenland; Kiev AD](../../source-archive/statecraft/2026-01-20/source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) — [uoMt5q2mXzU](https://www.youtube.com/watch?v=uoMt5q2mXzU) |
 | **Feb 17** | [Kremlin strategy before Geneva](../../source-archive/statecraft/2026-02-17/source-alkorshid-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) — [YQrBhZf2TXI](https://www.youtube.com/watch?v=YQrBhZf2TXI) | [Annexation float; Geneva; Konstantinovka](../../source-archive/statecraft/2026-02-17/source-alex-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md) — [8PGeNwFTTwc](https://www.youtube.com/watch?v=8PGeNwFTTwc) |
+| **Mar 3** | [China, Russia & Iran War: Nuclear Option](../../source-archive/statecraft/2026-03-03/source-alkorshid-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md) — [cds5p875iNs](https://www.youtube.com/watch?v=cds5p875iNs) | [Attrition; stockpiles; Gulf panic; MBS–Putin](../../source-archive/statecraft/2026-03-03/source-alex-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md) — [p2kBG8i_Knw](https://www.youtube.com/watch?v=p2kBG8i_Knw) |
 
 ## Purpose
 
-**Kirill Dmitriev × Kushner/Witkoff** track across **Davos (Jan 20)** → **Geneva (Feb 17)**. Route by lens:
+**Kirill Dmitriev × Kushner/Witkoff** track across **Davos (Jan 20)** → **Geneva (Feb 17)** → **Iran war day 4 (Mar 3)**. Route by lens:
 
-- **Helmer** → **faction / capital-war** map: Dmitriev as **oligarch economic envoy** who **cannot** negotiate Ukraine land war; arc **hardens** into formal **bifurcation** + Bloomberg MOU + **trust-Trump wager**
-- **Mercouris** → **institutional continuity** map: Jan 20 **routine Davos RDIF** → Feb 17 **confirmed off-plenary** economic working party; **skeptical** that US–Russia commercial lane ever delivers
+- **Helmer** → **faction / capital-war** map: Dmitriev as **oligarch economic envoy** who **cannot** negotiate Ukraine land war; arc **hardens** into formal **bifurcation** + Bloomberg MOU + **trust-Trump wager** → Mar 3 **Anchorage dead**, **Dmitriev pro-Gulf tweets**, **Witkoff deception**
+- **Mercouris** → **institutional continuity** map: Jan 20 **routine Davos RDIF** → Feb 17 **confirmed off-plenary** economic working party → Mar 3 **Gulf–Putin panic calls**, **Abu Dhabi dead**, **equipment drain to Middle East**; **skeptical** that US–Russia commercial lane ever delivers
 
 ## Shared spine
 
@@ -96,11 +97,52 @@ WORK only; not Record.
 
 **Usage (Feb 17):** **Helmer** → *What does Putin bet via Dmitriev and who in Moscow disbelieves?* **Mercouris** → *Why is the economic working party parallel to a plenary that cannot bridge the gap?*
 
+## Mar 3 arc (Anchorage dead / Gulf–Putin lane)
+
+**Continuity claim:** Feb 17 **bifurcated trust wager** collapses under **US–Israel–Iran war** — Witkoff/Kushner **deception** (Helmer) + **Iran/Oman talks → strike** (Marandi parallel) kill **Anchorage formula** for both **Ukraine** and **Gulf**. **Dmitriev** pivots **public** lane to **Gulf/Europe** (not Iran); **Putin** becomes **Gulf exit-ramp** interlocutor (**MBS/UAE/Qatar** calls) while **Lavrov** holds **aggression** label + **proliferation** warning.
+
+### Arc table (Feb 17 → Mar 3)
+
+| Hook | Feb 17 Helmer | Feb 17 Mercouris | Mar 3 Helmer | Mar 3 Mercouris |
+| --- | --- | --- | --- | --- |
+| **Trust lane** | **Trust-Trump** + Bloomberg MOU; Lavrov **can't trust Americans** post-Anchorage | **Anchorage concession invisible**; hidden **US–Ukraine guarantee** poisons process | **Anchorage formula dead** — Trump+Netanyahu killed lane; **Witkoff deception** (missile-destruction mask) | **Total collapse of trust** on Iranian side; Moscow **little trust** toward US either |
+| **Witkoff/Kushner** | Economic **bifurcation** with Dmitriev | **Absurdly overworked** dual Geneva | **Negotiation dead** for Ukraine — **unacceptable** negotiator | **Abu Dhabi** tripartite **dead**; unlikely to attend while **Middle East crisis** |
+| **Dmitriev placement** | **In Geneva** — re-dollarization / reconstruction | **Separate working party** with Witkoff | **Tweets UAE/Saudi/Europe** — **not Iran**; **faction split** in Kremlin | (Minimal direct mention — infer **economic/Gulf** lane not **Iran military** lane) |
+| **Putin diplomacy** | **Trust wager** on Trump commercial track | Clock: **midterms + Iran** absorb Trump | Putin called **MBS/UAE** — **not Pezeshkian**; **Peskov** vs **fifth-column** charge | **Qatar/UAE** (+ maybe Kuwait) called Putin; **MBS** urgent **ceasefire**; reports **private pro-war / public oppose** |
+| **FM / military split** | Lavrov–Ryabkov **no FM** in Dmitriev loop | Lavrov demands **maximal** at plenary | **Lavrov** Gaddafi vs **NK** → **proliferation** if war continues | **Lavrov/Wang Yi** coordinate; attack = **aggression**; elite calls to **cut US dialogue** — **Peskov** insists continue |
+| **Ukraine crossover** | Sea-war / MOU gamble | **Konstantinovka** while talking | General Staff restrictions **lifted**? Equipment **diverted** to Middle East | **April summer offensive**; Ukrainians face Russia **mostly alone**; **Patriot/interceptor** pipeline **Middle East not Kiev** |
+| **Battlefield economics** | CBR **−5% to −7%** risk | Sanctions **never lift** skepticism | Russia **oil zoom**; resupply **Iran** debate | **Stockpile exhaustion** helps Russia in **Ukraine**; **Hormuz/LNG** shock |
+
+### Mar 3 same object (two registers)
+
+| Claim | Helmer | Mercouris |
+| --- | --- | --- |
+| **Anchorage status** | **Dead** — deception + strike during talks | Trust collapse; Russians **use Iran fight for leverage** before mediating |
+| **Dmitriev signal** | **Pro-Gulf tweets** — economic envoy **not** Iran war commander | Gulf sees Russia as **mediator**; **RDIF lane** implicit in **Gulf panic** not battlefield |
+| **Putin calls** | **MBS/UAE** — **not** Iranian leadership | **MBS** ceasefire plea; **different tale** to Putin vs Trump (private urge attack **unclear** wire) |
+| **Witkoff viability** | **Unacceptable** for Ukraine; same **deceit** frame as Iran | **Abu Dhabi** venue **obsolete**; no new tripartite site |
+| **Moscow debate** | **Peskov** answers **fifth-column** — dialogue **must** continue | **Peskov** admission: voices demand **cut off** US talks — debate **renewed** |
+| **End-state risk** | Israel **nuclear** if conventional fails (Lavrov hint) | **Nuclear war** taboo > US **political defeat** |
+
+### Mar 3 reconciliation
+
+| Question | Helmer | Mercouris | Rule |
+| --- | --- | --- | --- |
+| Is **Anchorage** recoverable? | **No** — formula **killed** by strike timing + Rubio aim | **No** — leverage play first, **mediation later** | **Converge** on dead lane; **split** on Moscow **strategy** (resupply vs wait) |
+| **Dmitriev** role Mar 3 | **Public Gulf/Europe** tweets — **faction** marker | **Implicit** — Gulf calls **Putin** not Dmitriev | Helmer names **Dmitriev**; Mercouris names **Putin** — same **economic-diplomatic** object |
+| **MBS–Putin** | **Ceasefire** panic; Putin **not** calling Iran | **Urgent end hostilities**; Hormuz **crisis** for Saudi | **Supported** wire — [J03-E1](../daily/2026-03-03-wire-verify-matrix.md#sub-seam-e--gulf-panic--diplomacy-mercouris-j03-e1--e2--wilkerson-j03-e3) |
+| Ukraine equipment | **Diverted** / Witkoff dead | **Middle East consumes** US production | Strengthens Feb 17 **skeptic** rows |
+
+**Usage (Mar 3):** **Helmer** → *Who in Moscow still bets on Witkoff-Dmitriev after Anchorage dies and Dmitriev tweets the Gulf?* **Mercouris** → *Why do Gulf rulers call Putin while Abu Dhabi Ukraine talks freeze and interceptors flow to the Middle East?*
+
 ## Cross-links
 
 - **Freeman** Jan 20 ([Davis Deep Dive](../../source-archive/statecraft/2026-01-20/source-daniel-davis-deep-dive-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md)) — **Rasmussen–Vance/Rubio** Greenland path; **no Dmitriev**
-- **Later Helmer** ([Jun 16 MOU](../../source-archive/statecraft/2026-06-16/source-alkorshid-helmer-russia-reacted-iran-us-mou-ending-war-all-fronts-2026-06-16.md)) — **Dmitriev/Anchorage vs Lavrov/military** compress
 - **Feb 17 full weave:** [Geneva day — Helmer × Mercouris](./2026-02-17-geneva-day-weave-helmer-mercouris.md) (territory, Kartapolov, Konstantinovka — beyond Dmitriev scope)
+- **Mar 3 Iran weave:** [Helmer × Marandi](./2026-03-03-iran-war-weave-helmer-marandi.md) — operational Iran object; **Anchorage dead** load-bearer here
+- **Mar 3 attrition wedge:** [Mercouris × Wilkerson](./2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) — stockpile drain → Ukraine spillover
+- **Mar 3 wire:** [J03-E1 MBS–Putin](../daily/2026-03-03-wire-verify-matrix.md) · [Feb 17 J17-G2 Dmitriev off plenary](../daily/2026-02-17-wire-verify-matrix.md)
+- **Later Helmer** ([Jun 16 MOU](../../source-archive/statecraft/2026-06-16/source-alkorshid-helmer-russia-reacted-iran-us-mou-ending-war-all-fronts-2026-06-16.md)) — **Dmitriev/Anchorage vs Lavrov/military** compress
 
 ## Falsifiers
 
@@ -118,11 +160,19 @@ WORK only; not Record.
 7. **US publishes security guarantee** shared with Russian delegation — closes Mercouris hidden-doc row
 8. **Documented sea-lane relief** tied to Dmitriev-Witkoff signing — upgrades economic track beyond skeptic reads
 
+### Mar 3 (arc)
+
+9. **Anchorage formula** formally revived — US–Russia **published** terms matching Feb MOU + **Iran ceasefire** — downgrades **dead lane** rows
+10. **Dmitriev–Pezeshkian** (or IR leadership) **public** channel opens — downgrades **Gulf-only tweet** read
+11. **Abu Dhabi tripartite** resumes with **Witkoff** attendance — downgrades **negotiation dead** row
+12. **Wire-primary** disproving **J03-E1** MBS–Putin Mar 2 call — downgrades Gulf–Putin panic spine
+
 ## Best use
 
 - **Do not** merge Helmer **pygmy/fifth-column** vocabulary into Mercouris **routine visitor** frame without this note
-- **Do** cite for **Jan 20 Davos** *or* **Feb 17 Geneva** Dmitriev-Witkoff continuity — use **arc table** when the question spans both days
+- **Do** cite for **Jan 20 Davos** *or* **Feb 17 Geneva** *or* **Mar 3 Iran-war** Dmitriev-Witkoff continuity — use **arc table** when the question spans days
 - **Do** pair with [Geneva day weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) for territory/Medinsky/Kartapolov hooks outside Dmitriev scope
+- **Do** pair with [Mar 3 Helmer × Marandi](./2026-03-03-iran-war-weave-helmer-marandi.md) when **Anchorage dead** or **resupply** hooks load-bearing
 - Return: [Greenland weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) · [Helmer profile](../voices/helmer/helmer-profile.md)
 
-**Promoted via:** [`state-note`](../../skills/state-note/SKILL.md) — citation-split (Dmitriev sub-hook).
+**Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) — Dmitriev arc Jan 20 → Mar 3. **Opened:** prior session · **Mar 3 upgrade:** 2026-06-20.
