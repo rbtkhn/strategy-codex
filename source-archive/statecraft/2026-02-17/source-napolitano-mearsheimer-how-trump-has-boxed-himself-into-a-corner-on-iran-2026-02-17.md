@@ -10,7 +10,7 @@ source_form: interview
 transcript_type: operator_pasted_transcript
 status: raw-input
 source_note: Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24.
-editorial_note: Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity.
+editorial_note: Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity. verify:J17-P2-partial J17-P5-supported J17-P7-supported (see 2026-02-17-wire-verify-matrix.md Sub-seam E).
 evidence_grade: transcript-bearing
 opening_tier: host-tease
 ---

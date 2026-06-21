@@ -34,6 +34,8 @@ February matters because it carries a visible phase transition inside the native
   - Full transcript-grade bridge anchor: Oreshnik fear, Europe war rhetoric, and Russia-China-Iran-Cuba coupling.
 - [youtube-alex-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15](../../../../source-archive/statecraft/2026-02-15/source-alex-mercouris-moscow-ridicules-uk-navalny-frog-poison-claim-gerasimov-talks-dnepro-off-2026-02-15.md)
   - Full transcript-grade bridge anchor: hardening Russia line, war-preparation logic, and widening confrontation.
+- [source-alex-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17](../../../../source-archive/statecraft/2026-02-17/source-alex-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md)
+  - **Full transcript** (2026-06-20 intake) — Geneva theater; Kartapolov annexation; Konstantinovka. Cross-weave: [Feb 17 Geneva — Helmer × Mercouris](../../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md).
 - [youtube-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19](../../../../source-archive/statecraft/2026-02-19/source-alex-mercouris-uk-shock-as-andrew-arrested-russian-chinese-warships-join-iran-navy-medi-2026-02-19.md)
   - Full transcript-grade bridge anchor: UK internal crisis, Medinsky hardening, and visible fusion of theaters.
 - [youtube-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21](../../../../source-archive/statecraft/2026-02-21/source-alex-mercouris-putin-orders-medinsky-tough-line-zelensky-meltdown-wants-3-year-war-kiev-2026-02-21.md)

@@ -46,6 +46,17 @@ January archive batch begins **2026-01-20** (Greenland / Davos week). Monthly co
   - [Greenland three-way weave](../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md)
   - [Davos Dmitriev — Helmer × Mercouris](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
 
+### 2026-02 — Geneva week hinge (partial)
+
+February archive batch anchored **2026-02-17** (Geneva opening + Iran bench). Monthly compression **not yet opened**.
+
+- [2026-02-17](2026-02-17.md) — **stub** — Geneva bifurcation; Kartapolov annexation float; Hormuz parallel (5 captures)
+  - [Geneva day weave — Helmer × Mercouris](../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md)
+  - [Iran bench weave — Marandi × Mearsheimer × Helmer](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md)
+  - [Freeman × Mearsheimer — Kabuki vs empire](../notes/2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md)
+  - [Dmitriev arc Jan 20 → Feb 17](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
+  - [Wire verify matrix](./2026-02-17-wire-verify-matrix.md)
+
 ### 2026-03 - monthly synthesis + hinge day ladder
 
 March archive: [source-archive/statecraft/2026-03.md](../source-archive/statecraft/2026-03.md) — 31 days, 200 source files. Monthly compression:

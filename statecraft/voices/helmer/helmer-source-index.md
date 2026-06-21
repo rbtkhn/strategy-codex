@@ -6,7 +6,7 @@ Purpose: canonical route map for materialized John Helmer appearances in **State
 
 ## Corpus note
 
-- **9** direct captures on disk (2026-01-20 → 2026-06-16): **7** `source-alkorshid-helmer-*`, **2** `source-lascaris-helmer-*`
+- **10** direct captures on disk (2026-01-20 → 2026-06-16): **8** `source-alkorshid-helmer-*`, **2** `source-lascaris-helmer-*`
 - **0** authored Substack / solo-site captures in archive (Helmer blog cited in-interview only)
 - **`thread: helmer`** on Jun 09+ lands; earlier rows **`thread: nima`** only — both route here for guest appearances
 
@@ -19,6 +19,10 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 #### 2026-01
 
 - [2026-01-20 - Two Fronts, One Collapsing EU? Greenland's Choice & Ukraine's War](../../../source-archive/statecraft/2026-01-20/source-alkorshid-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md)
+
+#### 2026-02
+
+- [2026-02-17 - The Kremlin's New Strategy Before Geneva; Madness in the Middle East](../../../source-archive/statecraft/2026-02-17/source-alkorshid-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md) — Geneva bifurcated talks; Dmitriev re-dollarization vs Medinsky/Kostikov Ukraine track; Anchorage formula; sea-war / India oil; Iran kill-switch seam
 
 #### 2026-04
 
@@ -55,9 +59,9 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 | Jun 13 | Restore deterrence (Lascaris) | Domestic recession + Duma election; Nabiev/Siluanov vs military; Lavrov May 25 systemic strikes repudiated; **no NATO-target strikes** while Dmitriev–Witkoff Anchorage line holds; Karaganov cited via Oslo Glendes; cross-ref [Diesen Karaganov/Mearsheimer same day](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md) |
 | Jun 16 | MOU reaction | MOU-week Moscow read: Dmitriev/Anchorage vs Lavrov/military; Lebanon 60-day; $300B fund; GCC protection buying; Ukraine two-track |
 
-**Pattern:** earliest 2026 land **Jan 20** (Dialogue Works); then **Apr 28** resume; ~weekly **Tuesday** Dialogue Works through Jun 16 plus **May 24** and **Jun 13** Reason to Resist (Lascaris).
+**Pattern:** earliest 2026 land **Jan 20** (Dialogue Works); **Feb 17** Geneva week; then **Apr 28** resume; ~weekly **Tuesday** Dialogue Works through Jun 16 plus **May 24** and **Jun 13** Reason to Resist (Lascaris).
 
-**Cross-weave:** Jun 16 pairs with [MOU-week Napolitano bench](../../notes/2026-06-15-mou-week-napolitano-bench-seam.md) (McGovern/Crooke/Sachs/Pape) — Helmer supplies **Kremlin domestic faction** lane; Pape supplies leverage math. **Jan 20** — [Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) (Helmer × Freeman × Mercouris — all transcript-tier); [Davos Dmitriev — Helmer × Mercouris](../../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md).
+**Cross-weave:** Jun 16 pairs with [MOU-week Napolitano bench](../../notes/2026-06-15-mou-week-napolitano-bench-seam.md) (McGovern/Crooke/Sachs/Pape) — Helmer supplies **Kremlin domestic faction** lane; Pape supplies leverage math. **Jan 20** — [Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) (Helmer × Freeman × Mercouris — all transcript-tier); [Davos Dmitriev — Helmer × Mercouris](../../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md). **Feb 17** — [Geneva day weave — Helmer × Mercouris](../../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md) (both **transcript-tier**).
 
 ## Host / compatibility entries
 

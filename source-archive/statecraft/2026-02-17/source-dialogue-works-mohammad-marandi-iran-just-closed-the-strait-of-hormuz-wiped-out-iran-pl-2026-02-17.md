@@ -14,7 +14,7 @@ channel_url: "https://www.youtube.com/@dialogueworks01/videos"
 channel_slug: "dialogue-works"
 source_url: "https://www.youtube.com/watch?v=7Oy1q6zGcQs"
 source_note: "Direct YouTube watch URL already on disk; transcript body confirmed from operator paste in Codex chat on 2026-05-24."
-editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity."
+editorial_note: "Treat as a transcript-grade raw-input capture. Operator-supplied transcript body resolved prior audit ambiguity. verify:J17-P1-supported J17-P3-supported J17-P4-partial J17-P6-partial (see 2026-02-17-wire-verify-matrix.md Sub-seam E)."
 evidence_grade: transcript-bearing
 ---
 # Mohammad Marandi: Iran JUST Closed the Strait of Hormuz - Wiped Out: Iran Plans to Sink the US Navy
