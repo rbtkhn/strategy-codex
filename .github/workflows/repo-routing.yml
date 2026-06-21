@@ -31,3 +31,7 @@ jobs:
       - name: Generated surface drift orchestrator (warn)
         run: python3 scripts/check_generated_surfaces.py --check
         continue-on-error: true
+
+      - name: Root file budget (warn)
+        run: python3 scripts/assert_root_file_budget.py
+        continue-on-error: true

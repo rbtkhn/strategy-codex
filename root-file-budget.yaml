@@ -1,0 +1,98 @@
+# Root file budget — inventory + allowlist for scripts/assert_root_file_budget.py
+# Authority: work (governance). Target: max_root_files after relocation passes (Phase 9 fail).
+schema_version: "1.0"
+max_root_files: 20
+
+categories:
+  required_public: Public / onboarding surfaces
+  agent: Agent contract and instance doctrine
+  build: Build, test, and deploy config
+  routing: Machine-readable routing registries
+  generated: Rebuildable routing outputs committed at root
+  operator: Operator-local ledgers and runtime config (relocation candidates)
+  compatibility: Template / legacy / skill-split compatibility
+  archived: Frozen or archaeology-only root files
+
+files:
+  - path: README.md
+    category: required_public
+  - path: LICENSE
+    category: required_public
+  - path: contributing.md
+    category: required_public
+
+  - path: AGENTS.md
+    category: agent
+  - path: instance-doctrine.md
+    category: agent
+
+  - path: pyproject.toml
+    category: build
+  - path: pytest.ini
+    category: build
+  - path: requirements.txt
+    category: build
+  - path: requirements-dev.txt
+    category: build
+  - path: Dockerfile
+    category: build
+  - path: docker-compose.yml
+    category: build
+  - path: docker-compose.transcripts.yml
+    category: build
+  - path: mkdocs.yml
+    category: build
+  - path: render.yaml
+    category: build
+  - path: procfile
+    category: build
+  - path: runtime_config.example.json
+    category: build
+
+  - path: repo-map.yaml
+    category: routing
+  - path: lanes.yaml
+    category: routing
+  - path: generated-manifest.yaml
+    category: routing
+  - path: root-file-budget.yaml
+    category: routing
+
+  - path: LLM-ROUTING.md
+    category: generated
+    generator: scripts/generate_llm_routing.py
+
+  - path: harness-events.jsonl
+    category: operator
+    relocation_target: runtime/operator-events/harness-events.jsonl
+  - path: compute-ledger.jsonl
+    category: operator
+    relocation_target: runtime/operator-events/compute-ledger.jsonl
+  - path: instance-contract.json
+    category: operator
+
+  - path: skill-think.md
+    category: compatibility
+    relocation_target: codex/skill-think.md
+  - path: skill-write.md
+    category: compatibility
+    relocation_target: codex/skill-write.md
+  - path: skill-steward.md
+    category: compatibility
+    relocation_target: codex/skill-steward.md
+  - path: template-manifest.json
+    category: compatibility
+  - path: template-source.json
+    category: compatibility
+  - path: how-instances-consume-upgrades.md
+    category: compatibility
+  - path: DESIGN.md
+    category: compatibility
+  - path: grace-mar.code-workspace
+    category: compatibility
+  - path: license-record
+    category: compatibility
+
+# Local / untracked noise — ignored by budget checker when present on disk
+ignore_local:
+  - gcm-diagnose.log

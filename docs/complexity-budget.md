@@ -27,7 +27,7 @@ Do not introduce new authority labels without updating this table and the audit 
 
 | Metric | Baseline (2026-06-21) | Target | Fail CI (phase) |
 |--------|----------------------:|-------:|-----------------|
-| Root files | 32 | ≤ 20 | Phase 9 |
+| Root files | 33 | ≤ 20 | Phase 9 (`assert_root_file_budget.py --strict`) |
 | Root directories (contract) | 20 | ≤ 20 | Enforced (`assert_root_folder_layout`) |
 | Primary routing front doors | 8 listed | ≤ 3 | Phase 9 |
 | Always-read agent doc lines (`AGENTS.md`) | ~286 | ≤ 150 | Phase 5 |
@@ -92,3 +92,5 @@ Detailed doctrine belongs under `docs/archive/` and `archive/grace-mar-corpus/`.
 - `scripts/generate_llm_routing.py` — hybrid [`LLM-ROUTING.md`](../LLM-ROUTING.md) from [`repo-map.yaml`](../repo-map.yaml)
 - `scripts/check_repo_path_strict.py` (warn mode; `--strict` Sprint 6+)
 - `scripts/check_generated_surfaces.py` — manifest + header + drift (`--strict` Sprint 9 fail)
+- [`root-file-budget.yaml`](../root-file-budget.yaml) + `scripts/assert_root_file_budget.py` (warn; `--strict` Phase 9)
+- `runtime/artifacts/complexity-audit/`

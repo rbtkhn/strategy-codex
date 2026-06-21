@@ -221,6 +221,58 @@ def collect_metrics() -> ComplexityMetrics:
     )
 
 
+def _root_budget_section() -> list[str]:
+    manifest = REPO_ROOT / "root-file-budget.yaml"
+    if not manifest.is_file():
+        return [
+            "## Root file inventory",
+            "",
+            "- root-file-budget.yaml: missing",
+            "",
+        ]
+    try:
+        import assert_root_file_budget as rfb  # noqa: PLC0415
+
+        budget = rfb.load_budget(manifest)
+        _issues, report = rfb.evaluate_budget(budget)
+    except (OSError, ValueError, RuntimeError) as exc:
+        return [
+            "## Root file inventory",
+            "",
+            f"- root-file-budget.yaml: error ({exc})",
+            "",
+        ]
+
+    lines = [
+        "## Root file inventory",
+        "",
+        f"- Count on disk: {report['root_file_count']} (budget max {report['max_root_files']})",
+        f"- Over budget by: {report['over_budget_by']}",
+        "",
+        "### By category",
+        "",
+    ]
+    by_category = report.get("by_category") or {}
+    if by_category:
+        for category, count in sorted(by_category.items()):
+            lines.append(f"- {category}: {count}")
+    else:
+        lines.append("- (none)")
+    lines.append("")
+    relocation = report.get("relocation_candidates_on_disk") or []
+    if relocation:
+        lines.append("### Relocation candidates on disk")
+        lines.append("")
+        for path in relocation:
+            lines.append(f"- `{path}`")
+        lines.append("")
+    unlisted = report.get("unlisted") or []
+    if unlisted:
+        lines.append(f"- Unlisted root files: {', '.join(unlisted)}")
+        lines.append("")
+    return lines
+
+
 def format_report(metrics: ComplexityMetrics) -> str:
     lines = [
         "# Complexity Audit",
@@ -260,6 +312,7 @@ def format_report(metrics: ComplexityMetrics) -> str:
         f"- Always-read candidate docs: {metrics.always_read_docs} ({metrics.always_read_lines} lines)",
         f"- `.cursor/rules/*.mdc`: {metrics.cursor_rules_count} files, {metrics.cursor_rules_lines} lines total",
         "",
+        *_root_budget_section(),
         "## Threshold reference",
         "",
         "See docs/complexity-budget.md for mitigation targets and CI rollout.",

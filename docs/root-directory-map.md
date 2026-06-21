@@ -173,6 +173,7 @@ GitHub `main` keeps **doctrine, build, deploy, and lane-governance** files at th
 **Checks:**
 
 - Layout cap: `python3 scripts/assert_root_folder_layout.py`
+- Root file budget: `python3 scripts/assert_root_file_budget.py` (warn) · `--strict` (Phase 9)
 - Adoption: `python3 scripts/check_repo_path_adoption.py` (CI: `--max-literals 0`)
 - Profile exports: `python3 scripts/assert_root_profile_exports.py`
 - Batch adopt: `python3 scripts/adopt_repo_path_constants.py --apply`
