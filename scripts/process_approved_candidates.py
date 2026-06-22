@@ -56,7 +56,8 @@ from pipeline_correlation import find_staged_event_id_for_candidate
 from recursion_gate_review import split_gate_sections
 from recursion_gate_territory import TERRITORY_WORK_POLITICS, normalize_territory_cli, territory_from_yaml_block
 from identity_library_boundary_rules import collect_ix_a_violations_from_self_md
-from repo_io import CANONICAL_EVIDENCE_BASENAME, operator_ledger_write_path, BOT_DIR, SRC_DIR
+from repo_io import CANONICAL_EVIDENCE_BASENAME, operator_ledger_write_path, SRC_DIR
+from grace_mar_compat_paths import BOT_DIR
 from stage_gate_candidate import PROPOSAL_CLASS_RUNTIME_OBSERVATION
 
 USER_ID = os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex"

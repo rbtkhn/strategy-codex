@@ -51,13 +51,13 @@ from validate_identity_library_boundary import (
 )
 from validate_library_domain_registry import validate_library_domain_registry
 from repo_io import (
-    BOT_DIR,
     DEFAULT_PROFILE_ID,
     profile_dir,
     resolve_prp_export_path,
     resolve_surface_markdown_path,
     self_skills_layout_warnings,
 )
+from grace_mar_compat_paths import BOT_DIR
 
 ALLOWED_PROPOSAL_CLASS = frozenset({
     "SELF_KNOWLEDGE_ADD",

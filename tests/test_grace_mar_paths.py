@@ -22,3 +22,15 @@ def test_grace_mar_compat_paths_exist():
     assert bootstrap_dir().is_dir()
     assert recursion_gate_staging_dir().is_dir()
     assert grace_mar_instance_dir().is_dir()
+
+
+def test_scripts_grace_mar_compat_paths_shim():
+    import sys
+    from pathlib import Path
+
+    scripts = Path(__file__).resolve().parent.parent / "scripts"
+    if str(scripts) not in sys.path:
+        sys.path.insert(0, str(scripts))
+    from grace_mar_compat_paths import BOT_DIR as shim_bot  # noqa: PLC0415
+
+    assert shim_bot == bot_dir()

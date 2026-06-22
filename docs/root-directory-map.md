@@ -168,7 +168,7 @@ GitHub `main` keeps **doctrine, build, deploy, and lane-governance** files at th
 | `resolve_profile_export_path(user_id, basename)` | Profile-derived export with optional legacy root read fallback |
 | `derived_export_dir(user_id)` | Alias for `profile_dir(user_id)` (export home) |
 
-**Module constants** (prefer over string paths): `ARTIFACTS_DIR`, `SRC_DIR`, `PREPARED_CONTEXT_DIR`, `SKILLS_DIR`, `APPS_DIR`, `BOT_DIR`, …
+**Module constants** (prefer over string paths): `ARTIFACTS_DIR`, `SRC_DIR`, `PREPARED_CONTEXT_DIR`, `SKILLS_DIR`, `APPS_DIR`, … — from `scripts/repo_io.py`. Voice archaeology bot paths: `scripts/grace_mar_compat_paths.py` → `strategy_codex.compat.grace_mar_paths`.
 
 **Checks:**
 

@@ -35,7 +35,8 @@ if str(REPO_ROOT) not in sys.path:
 
 from dotenv import load_dotenv
 
-from repo_io import fork_root, load_fork_config, BOT_DIR, artifacts_dir
+from repo_io import fork_root, load_fork_config, artifacts_dir
+from grace_mar_compat_paths import BOT_DIR
 
 MODES = ("conservative", "exploratory", "value-aligned")
 

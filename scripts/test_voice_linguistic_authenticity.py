@@ -22,7 +22,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
-from repo_io import BOT_DIR
+from grace_mar_compat_paths import BOT_DIR
 
 # Load env before bot
 from dotenv import load_dotenv

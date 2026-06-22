@@ -33,7 +33,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
-from repo_io import ARTIFACTS_DIR, BOT_DIR
+from repo_io import ARTIFACTS_DIR
+from grace_mar_compat_paths import BOT_DIR
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 

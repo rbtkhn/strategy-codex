@@ -29,7 +29,8 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from recursion_gate_territory import normalize_territory_cli  # noqa: E402
-from repo_io import (  # noqa: E402, BOT_DIR
+from repo_io import (  # noqa: E402
+from grace_mar_compat_paths import BOT_DIR
     CANONICAL_EVIDENCE_BASENAME,
     assert_canonical_record_layout,
     profile_dir,

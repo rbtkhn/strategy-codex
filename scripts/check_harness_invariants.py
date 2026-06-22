@@ -1,4 +1,3 @@
-from repo_io import BOT_DIR
 #!/usr/bin/env python3
 """
 Check harness invariants (run before model upgrades or when auditing the stack).
@@ -12,6 +11,11 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+_SCRIPTS = REPO_ROOT / "scripts"
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+
+from grace_mar_compat_paths import BOT_DIR
 
 # Optional: warn if core files exceed these lines (auditable surface)
 LINE_LIMITS = {

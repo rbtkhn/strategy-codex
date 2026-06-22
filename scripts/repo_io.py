@@ -489,7 +489,6 @@ RUNTIME_BUNDLE_DIR = resolve_repo_path("runtime-bundle")
 SRC_DIR = resolve_repo_path("src")
 SKILLS_DIR = resolve_repo_path("skills")
 APPS_DIR = resolve_repo_path("apps")
-BOT_DIR = GRACE_MAR_INSTANCE_DIR / "bot"
 SCHEMA_REGISTRY_DIR = resolve_repo_path("schema-registry")
 AUTO_RESEARCH_DIR = resolve_repo_path("auto-research")
 REVIEW_QUEUE_DIR = resolve_repo_path("review-queue")

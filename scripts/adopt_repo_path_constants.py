@@ -30,10 +30,22 @@ REPLACEMENTS: list[tuple[str, str]] = [
 IMPORT_FROM_RE = re.compile(r"^from repo_io import (.+)$", re.MULTILINE)
 
 
+GRACE_MAR_CONSTANTS = frozenset({"BOT_DIR"})
+
+
 def ensure_imports(text: str, constants: set[str]) -> str:
     if not constants:
         return text
-    needed = sorted(constants)
+    repo_io_names = sorted(c for c in constants if c not in GRACE_MAR_CONSTANTS)
+    grace_mar_names = sorted(c for c in constants if c in GRACE_MAR_CONSTANTS)
+    if repo_io_names:
+        text = _ensure_repo_io_imports(text, repo_io_names)
+    if grace_mar_names:
+        text = _ensure_grace_mar_imports(text, grace_mar_names)
+    return text
+
+
+def _ensure_repo_io_imports(text: str, needed: list[str]) -> str:
     match = IMPORT_FROM_RE.search(text)
     if match:
         existing = [x.strip() for x in match.group(1).split(",")]
@@ -62,6 +74,30 @@ def ensure_imports(text: str, constants: set[str]) -> str:
     block = "from repo_io import " + ", ".join(needed) + "\n"
     if block.strip() in text:
         return text
+    return text[:insert] + block + text[insert:]
+
+
+def _ensure_grace_mar_imports(text: str, needed: list[str]) -> str:
+    marker = "from grace_mar_compat_paths import "
+    if marker in text:
+        return text
+    anchor = "sys.path.insert(0,"
+    idx = text.find(anchor)
+    if idx == -1:
+        anchor2 = 'if str(_SCRIPTS) not in sys.path:'
+        idx = text.find(anchor2)
+    if idx == -1:
+        insert_at = 0
+        for line in text.splitlines(True):
+            if line.startswith("import ") or line.startswith("from "):
+                insert_at += len(line)
+            else:
+                break
+        block = "from grace_mar_compat_paths import " + ", ".join(needed) + "\n"
+        return text[:insert_at] + block + text[insert_at:]
+    line_end = text.find("\n", idx)
+    insert = line_end + 1 if line_end != -1 else len(text)
+    block = "from grace_mar_compat_paths import " + ", ".join(needed) + "\n"
     return text[:insert] + block + text[insert:]
 
 

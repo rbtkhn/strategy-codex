@@ -23,7 +23,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
-from repo_io import BOT_DIR, profile_dir as record_profile_dir  # noqa: E402
+from repo_io import profile_dir as record_profile_dir  # noqa: E402
+from grace_mar_compat_paths import BOT_DIR
 try:
     from export_intent_snapshot import export_intent_snapshot
 except ImportError:

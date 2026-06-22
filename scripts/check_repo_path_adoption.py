@@ -36,6 +36,8 @@ ADOPTED_MARKERS = [
     "SKILLS_DIR",
     "APPS_DIR",
     "BOT_DIR",
+    "grace_mar_compat_paths",
+    "strategy_codex.compat.grace_mar_paths",
     "resolve_repo_path(",
 ]
 

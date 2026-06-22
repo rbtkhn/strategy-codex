@@ -24,7 +24,8 @@ for path in (REPO_ROOT / "scripts", SELF_PROPOSALS_DIR):
 
 from gate_block_parser import iter_candidate_yaml_blocks, split_gate_sections
 from proposal_io import validate_grounding, validate_payload
-from repo_io import DEFAULT_PROFILE_ID, profile_dir, BOT_DIR
+from repo_io import DEFAULT_PROFILE_ID, profile_dir
+from grace_mar_compat_paths import BOT_DIR
 
 RULES_PATH = BOT_DIR / "conflict_rules.yaml"
 DEFAULT_USER = DEFAULT_PROFILE_ID
