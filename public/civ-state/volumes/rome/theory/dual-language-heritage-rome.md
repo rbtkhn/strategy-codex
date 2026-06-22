@@ -2,7 +2,7 @@
 
 ## Where This Sits
 
-Interpretive essay for Volume III — Rome. SSOT for language placement lives on [rome-memory — language spine](../theory/rome-memory.md#language-spine) and [rome-civilization](../theory/rome-civilization.md#dual-language-heritage-civilization-lens). This chapter smoke-tests reader-facing prose for operator judgments that exceed textbook consensus.
+Interpretive essay for Volume III — Rome. SSOT for language placement lives on [rome-memory — language spine](rome-memory.md#language-spine) and [rome-civilization](rome-civilization.md#dual-language-heritage-civilization-lens). This chapter smoke-tests reader-facing prose for operator judgments that exceed textbook consensus.
 
 ## Reading Posture
 
@@ -22,10 +22,10 @@ On the **sacred-language dimension** alone, **papal Latin** and **Orthodox Greek
 
 ## Return Path
 
-- [Language spine (SSOT)](../theory/rome-memory.md#language-spine)
-- [Greek and Latin rosters](../theory/rome-civilization.md#dual-language-heritage-civilization-lens)
-- [Faith — sacred language](../theory/rome-faith.md#dual-language-heritage-faith-lens)
-- [Chain spine](../theory/rome-memory.md#chain-spine)
+- [Language spine (SSOT)](rome-memory.md#language-spine)
+- [Greek and Latin rosters](rome-civilization.md#dual-language-heritage-civilization-lens)
+- [Faith — sacred language](rome-faith.md#dual-language-heritage-faith-lens)
+- [Chain spine](rome-memory.md#chain-spine)
 
 ## Limits of the Frame
 

@@ -52,7 +52,7 @@ membrane:
   - defer rosters to term depth
 
 routing:
-  hub: connectivity-rome.md
+  hub: ../theory/connectivity-rome.md
   registry: essay-rome.registry.yaml
   peer_essays:
     - essay-rome-republic.md
@@ -65,7 +65,7 @@ routing:
     - ../theory/rome-empire.md#sovereignty-chain-empire-lens
     - ../theory/rome-civilization.md#sovereignty-chain-civilization-lens
   constitutional:
-    - civilization-rome.md
+    - ../theory/civilization-rome.md
   sources:
     - ../../../sources/rome/primary/ancient.md
     - ../../../sources/rome/secondary/ancient.md
@@ -73,7 +73,7 @@ routing:
   sub_lens:
     - ../theory/military-history-rome.md
   return_path:
-    - connectivity-rome.md
+    - ../theory/connectivity-rome.md
     - ../theory/hexagonal-republic-principate-rome.md
     - essay-rome-republic.md
     - essay-rome-augustus.md

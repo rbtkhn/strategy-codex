@@ -24,5 +24,5 @@ Stay with the primary shelf when the issue is papal encyclical language, concord
 
 - Return to [Industrial primary sources](../primary/industrial.md) once the clarification or counterweight has been taken.
 - Return to the [Rome bibliography](../bibliography.md) for the rest of the Rome evidence stack.
-- Open [Rome civilization](../../../volumes/rome/essays/civilization-rome.md) when the live question is continuity under narrowing carrier conditions.
-- Open [Rome empire](../../../volumes/rome/essays/empire-rome.md) when the live question is successor-order comparison under modern fragmentation.
+- Open [Rome civilization](../../../volumes/rome/theory/civilization-rome.md) when the live question is continuity under narrowing carrier conditions.
+- Open [Rome empire](../../../volumes/rome/theory/empire-rome.md) when the live question is successor-order comparison under modern fragmentation.

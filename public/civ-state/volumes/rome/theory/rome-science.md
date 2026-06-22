@@ -88,7 +88,7 @@ Full spine routing + codification/engineering depth. Placement SSOT: [Science sp
 
 ## Whole-work term
 
-[Science](../../theory/science.md) — procedural and evidentiary truth-order.
+[Science](../../../theory/science.md) — procedural and evidentiary truth-order.
 
 ## Roman law — science lens
 
@@ -116,13 +116,13 @@ Expert class destroyed, courts collapsed — [Entropy (Rome)](rome-entropy.md).
 
 ## Bridge
 
-- [Connectivity Rome](../essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](../theory/README.md#hex-frame-hexagonal-demonstrators)
-- [Cross-cutting objects — Roman law row](../../theory/README.md#cross-cutting-objects)
-- [Rome sources — Medieval](../../sources/rome/primary/medieval.md) — *Corpus Juris Civilis*
+- [Connectivity Rome](connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](README.md#hex-frame-hexagonal-demonstrators)
+- [Cross-cutting objects — Roman law row](../../../theory/README.md#cross-cutting-objects)
+- [Rome sources — Medieval](../../../sources/rome/primary/medieval.md) — *Corpus Juris Civilis*
 
 ## Return paths
 
-- [Whole-work science](../../theory/science.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
+- [Whole-work science](../../../theory/science.md) · [Theory shelf — Roman law](../../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

@@ -95,10 +95,10 @@ Rome six-term volume — civ-state **v0.1.31** encode plus routing scaffold:
 
 | Artifact | Path |
 |----------|------|
-| Routing map | [connectivity-rome.md](../../public/civ-state/volumes/rome/essays/connectivity-rome.md) |
-| Copy scaffold | [_template-hexagonal-rome.md](../../public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md) |
+| Routing map | [connectivity-rome.md](../../public/civ-state/volumes/rome/theory/connectivity-rome.md) |
+| Copy scaffold | [_template-hexagonal-rome.md](../../public/civ-state/volumes/rome/theory/_template-hexagonal-rome.md) |
 | Registry | [essays/README.md § Hexagonal demonstrators](../../public/civ-state/volumes/rome/essays/README.md#hexagonal-demonstrators) |
-| Essay-type law | [connectivity-rome.md § Essay types](../../public/civ-state/volumes/rome/essays/connectivity-rome.md#essay-types-do-not-conflate) |
+| Essay-type law | [connectivity-rome.md § Essay types](../../public/civ-state/volumes/rome/theory/connectivity-rome.md#essay-types-do-not-conflate) |
 
 **Promotion gate:** adaptive reuse on a **second** fractured-sovereignty volume
 with the same `{term}` file family — until then, treat Rome as canonical

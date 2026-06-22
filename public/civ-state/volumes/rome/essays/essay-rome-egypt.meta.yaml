@@ -56,7 +56,7 @@ membrane:
   - Eastern Roman Empire (not Byzantine) in operator framing
 
 routing:
-  hub: connectivity-rome.md
+  hub: ../theory/connectivity-rome.md
   registry: essay-rome.registry.yaml
   peer_essays:
     - essay-rome-carthage.md
@@ -66,8 +66,8 @@ routing:
     - ../theory/rome-empire.md
     - ../theory/rome-memory.md
   constitutional:
-    - civilization-rome.md
-    - empire-rome.md
+    - ../theory/civilization-rome.md
+    - ../theory/empire-rome.md
   sources:
     - ../../../sources/rome/primary/ancient.md
     - ../../../sources/rome/secondary/ancient.md
@@ -75,7 +75,7 @@ routing:
   sub_lens:
     - ../theory/geo-strategy-rome.md
   return_path:
-    - connectivity-rome.md
+    - ../theory/connectivity-rome.md
     - README.md
     - ../README.md
 

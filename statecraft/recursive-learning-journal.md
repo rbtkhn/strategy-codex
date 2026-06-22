@@ -2042,7 +2042,7 @@ Cross-read: [2026-06-17 Rome fractured-sovereignty entry](#2026-06-17---rome-fra
 - `rome-memory.md` — `#language-spine` + tagged boundary rules
 - `rome-civilization.md` — dual rosters + language carrier types SSOT
 - Six `rome-{term}.md` — **Dual language heritage — {term} lens**
-- `essays/dual-language-heritage-rome.md`, theory Volume depth links, `governing-term-first` language placement
+- `theory/dual-language-heritage-rome.md`, theory Volume depth links, `governing-term-first` language placement
 - `public/civ-state/docs/release-history.md` — **v0.1.27**
 
 ### Guardrail
@@ -2222,7 +2222,7 @@ Routing: civ-state **v0.1.30** · [science spine](../public/civ-state/volumes/ro
 - `rome-civilization.md` · `rome-empire.md` — ethic/institutional roster expansion + bridges
 - `rome-entropy.md` — Italian Wars / Sack 1527 faith + science entropy rows
 - `rome-faith.md` · `rome-memory.md` — cross-refs
-- `essays/civilization-rome.md` · `essays/empire-rome.md` — Return Path + delineation
+- `theory/civilization-rome.md` · `theory/empire-rome.md` — Return Path + delineation
 - `public/civ-state/docs/VERSION` — **v0.1.31**
 
 ### Guardrail
@@ -2287,7 +2287,7 @@ Routing: civ-state **v0.1.31** · [civilization lens](../public/civ-state/volume
 
 | Ship | Path / commit |
 |------|----------------|
-| Connectivity essay | `essays/connectivity-rome.md` · `4e7a0b1f3` |
+| Connectivity essay | `theory/connectivity-rome.md` · `4e7a0b1f3` |
 | Hexagonal prep | `_template-hexagonal-rome.md`, README registry, essay-type section, Bridge on six term files · `e9bd85aa2` |
 | Volume pointer | `README.md` one-line → connectivity essay |
 | Skill rename | `.cursor/skills/recursive-learn/`, `skills-portable/recursive-learn/`, manifest, doc links · `5ddef0d64` |
@@ -2313,7 +2313,7 @@ routing essay + copy template + registry + Bridge pointers first —
 then wave-1 demonstrators prove the membrane without touching term rosters again.
 ```
 
-Routing: [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md) · [hexagonal template](../public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md) · civ-state **v0.1.31** (encode) · commits `4e7a0b1f3` · `e9bd85aa2` · `5ddef0d64`.
+Routing: [connectivity-rome](../public/civ-state/volumes/rome/theory/connectivity-rome.md) · [hexagonal template](../public/civ-state/volumes/rome/theory/_template-hexagonal-rome.md) · [recursive-learn skill v0.2.2](../.cursor/skills/recursive-learn/SKILL.md) · civ-state **v0.1.31** (encode) · commits `4e7a0b1f3` · `e9bd85aa2` · `5ddef0d64`.
 
 **Pattern promotion:** [essay-membrane-law.md](../patterns/essay-membrane-law.md) — Rome proof object; full ladder gate = second multi-term volume reuse.
 
@@ -2645,7 +2645,7 @@ Routing: [civ-state skill v0.2.0](../.cursor/skills/civ-state/SKILL.md) · [publ
 
 ### Trigger
 
-Operator completed **wave 1** hexagonal demonstrators after Jun 19 prep (template, registry, [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md)). Three nodes encoded: **1453** · **Italian Wars / Sack 1527** · **Justinian 529** — registry `planned` → `active`. Public validator caught export-root escape on `essay-membrane-law` link → fixed to `connectivity-rome.md#essay-types-do-not-conflate` (template + essays). `recursive learn` session review extracted archetype law. **Amend (same arc):** wave 2 complete — **1054** (`908fbd647`, v0.1.33) · **Republic→principate** · **colonial tail** (v0.1.34) — archetypes **D–F** proven; full registry **active**.
+Operator completed **wave 1** hexagonal demonstrators after Jun 19 prep (template, registry, [connectivity-rome](../public/civ-state/volumes/rome/theory/connectivity-rome.md)). Three nodes encoded: **1453** · **Italian Wars / Sack 1527** · **Justinian 529** — registry `planned` → `active`. Public validator caught export-root escape on `essay-membrane-law` link → fixed to `connectivity-rome.md#essay-types-do-not-conflate` (template + essays). `recursive learn` session review extracted archetype law. **Amend (same arc):** wave 2 complete — **1054** (`908fbd647`, v0.1.33) · **Republic→principate** · **colonial tail** (v0.1.34) — archetypes **D–F** proven; full registry **active**.
 
 ### Extracted law
 
@@ -2714,7 +2714,7 @@ Six shapes on one table — classify before the entropy row;
 wave 2 complete: all hexagonal demonstrators active on Rome volume.
 ```
 
-Routing: [connectivity-rome](../public/civ-state/volumes/rome/essays/connectivity-rome.md) · [hexagonal registry](../public/civ-state/volumes/rome/essays/README.md#hexagonal-demonstrators) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md) · RLJ [hexagonal scaffold](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename)
+Routing: [connectivity-rome](../public/civ-state/volumes/rome/theory/connectivity-rome.md) · [hexagonal registry](../public/civ-state/volumes/rome/essays/README.md#hexagonal-demonstrators) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md) · RLJ [hexagonal scaffold](#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename)
 
 **Pattern promotion:** defer until second civ reuses A–F without new archetype.
 

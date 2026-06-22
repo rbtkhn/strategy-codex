@@ -49,7 +49,7 @@ membrane:
   - defer Africa depth to essay-rome-africa
 
 routing:
-  hub: connectivity-rome.md
+  hub: ../theory/connectivity-rome.md
   registry: essay-rome.registry.yaml
   peer_essays:
     - essay-rome-republic.md
@@ -58,8 +58,8 @@ routing:
     - ../theory/rome-memory.md#military-spine
     - ../theory/rome-empire.md#military-history-empire-lens
   constitutional:
-    - civilization-rome.md
-    - empire-rome.md
+    - ../theory/civilization-rome.md
+    - ../theory/empire-rome.md
   sources:
     - ../../../sources/rome/primary/ancient.md
     - ../../../sources/rome/secondary/ancient.md
@@ -68,7 +68,7 @@ routing:
     - ../theory/geo-strategy-rome.md
     - ../theory/military-history-rome.md
   return_path:
-    - connectivity-rome.md
+    - ../theory/connectivity-rome.md
     - README.md
     - ../README.md
 

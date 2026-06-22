@@ -8,7 +8,7 @@ Cursor-only wiring for [civ-state-note/SKILL.md](../../../skills/civ-state-note/
 | Prose-class chooser | [docs/prose-index.md](../../../docs/prose-index.md) |
 | Public book root | [public/civ-state/README.md](../../../public/civ-state/README.md) |
 | Rome essays README | [public/civ-state/volumes/rome/essays/README.md](../../../public/civ-state/volumes/rome/essays/README.md) |
-| Rome connectivity | [public/civ-state/volumes/rome/essays/connectivity-rome.md](../../../public/civ-state/volumes/rome/essays/connectivity-rome.md) |
+| Rome connectivity | [public/civ-state/volumes/rome/theory/connectivity-rome.md](../../../public/civ-state/volumes/rome/theory/connectivity-rome.md) |
 | Reader guide (geo-strategic habit pointer) | [public/civ-state/docs/reader-guide.md](../../../public/civ-state/docs/reader-guide.md) |
 | Archive day index | `source-archive/statecraft/<YYYY-MM-DD>/README.md` |
 | Wire-verify registry | [docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md) |

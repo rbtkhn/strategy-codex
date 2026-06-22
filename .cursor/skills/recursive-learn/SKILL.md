@@ -271,7 +271,7 @@ elicitation MCQs → master table + tension pass
 
 **Use when:** encoding or reviewing a **hexagonal demonstrator** (one friction node × six term lenses). Open [RLJ wave-1 archetypes](../../statecraft/recursive-learning-journal.md#2026-06-19---rome-hexagonal-wave-1-encode-three-node-archetypes) and [hexagonal scaffold RLJ](../../statecraft/recursive-learning-journal.md#2026-06-19---rome-six-term-routing-hexagonal-scaffold-recursive-learn-rename) before drafting.
 
-**Prep SSOT:** [connectivity-rome](../../public/civ-state/volumes/rome/essays/connectivity-rome.md) → [_template-hexagonal-rome](../../public/civ-state/volumes/rome/essays/_template-hexagonal-rome.md) → [essays/README registry](../../public/civ-state/volumes/rome/essays/README.md#hexagonal-demonstrators).
+**Prep SSOT:** [connectivity-rome](../../public/civ-state/volumes/rome/theory/connectivity-rome.md) → [_template-hexagonal-rome](../../public/civ-state/volumes/rome/theory/_template-hexagonal-rome.md) → [essays/README registry](../../public/civ-state/volumes/rome/theory/README.md#hex-frame-hexagonal-demonstrators).
 
 ### Node archetypes (classify before entropy row)
 

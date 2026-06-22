@@ -2,9 +2,9 @@
 
 ## Where This Sits
 
-**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](../essays/connectivity-rome.md). Machine law: [essay types — do not conflate](../essays/connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
+**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](connectivity-rome.md). Machine law: [essay types — do not conflate](connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
 
-**Not:** constitutional continuity ([Civilization Rome](../essays/civilization-rome.md) · [Empire Rome](../essays/empire-rome.md)) · single-dimension depth ([history essays](../essays/README.md#optional-sub-lenses)).
+**Not:** constitutional continuity ([Civilization Rome](civilization-rome.md) · [Empire Rome](empire-rome.md)) · single-dimension depth ([history essays](README.md#history-sub-lenses)).
 
 ## Reading Posture
 
@@ -44,7 +44,7 @@ Ask six governing questions in order — **memory placement first**, then the le
 
 - Do **not** duplicate parallel-carrier tables, Greek/Latin rosters, or full `#military-spine` / `#faith-spine` rows.
 - **Primary rupture:** entropy (1453 East terminus); faith owns **1054** only.
-- **Tri-spine / choreography:** 1453 triple-home (`operator-gunpowder-1453`) — cross-ref [Science spine](rome-memory.md#science-spine) · [Delineation](../essays/civilization-rome.md#delineation--civilization--empire--entropy) node **M3** (gunpowder co-equal with East terminus).
+- **Tri-spine / choreography:** 1453 triple-home (`operator-gunpowder-1453`) — cross-ref [Science spine](rome-memory.md#science-spine) · [Delineation](civilization-rome.md#delineation--civilization--empire--entropy) node **M3** (gunpowder co-equal with East terminus).
 - **Dual-year span:** Castillon (France) ║ Constantinople (Turk) — cross-link only; do not merge into one actor row.
 
 ## Short synthesis
@@ -57,7 +57,7 @@ The membrane lesson: one calendar year, six honest answers — inheritance witho
 
 ## Return Path
 
-- [Connectivity Rome](../essays/connectivity-rome.md) · [Essays index](../essays/README.md)
-- [Hexagonal demonstrators registry](../theory/README.md#hex-frame-hexagonal-demonstrators)
+- [Connectivity Rome](connectivity-rome.md) · [Essays index](../essays/README.md)
+- [Hexagonal demonstrators registry](README.md#hex-frame-hexagonal-demonstrators)
 - Five spines: [chain](rome-memory.md#chain-spine) · [language](rome-memory.md#language-spine) · [military](rome-memory.md#military-spine) · [faith](rome-memory.md#faith-spine) · [science](rome-memory.md#science-spine)
-- Constitutional essays: [civilization](../essays/civilization-rome.md) · [empire](../essays/empire-rome.md)
+- Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)

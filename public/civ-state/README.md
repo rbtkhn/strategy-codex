@@ -62,7 +62,7 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 
 ## Essays
 
-- **New volume essays:** start from [civ-state-essay-template.md](templates/civ-state-essay-template.md) (all volumes, including Rome essay-rome nodes). Rome meta sidecar: [_template-essay-rome.meta.yaml](volumes/rome/essays/_template-essay-rome.meta.yaml).
+- **New volume essays:** start from [civ-state-essay-template.md](templates/civ-state-essay-template.md) (all volumes, including Rome essay-rome nodes). Rome meta sidecar: [_template-essay-rome.meta.yaml](volumes/rome/theory/_template-essay-rome.meta.yaml).
 - [High-skill labor compression and civilizational statecraft](essays/high-skill-labor-compression-and-civilizational-statecraft.md)
 - [Hormuz recognition / transit restraint](essays/hormuz-recognition-transit-restraint.md)
 

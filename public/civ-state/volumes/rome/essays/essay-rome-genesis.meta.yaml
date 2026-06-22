@@ -45,7 +45,7 @@ membrane:
   - defer rosters to term depth
 
 routing:
-  hub: connectivity-rome.md
+  hub: ../theory/connectivity-rome.md
   registry: essay-rome.registry.yaml
   peer_essays:
     - essay-rome-republic.md
@@ -54,17 +54,17 @@ routing:
     - ../theory/rome-memory.md#chain-spine
     - ../theory/rome-civilization.md#dual-language-heritage-civilization-lens
   constitutional:
-    - civilization-rome.md
+    - ../theory/civilization-rome.md
   sources:
     - ../../../sources/rome/primary/ancient.md
     - ../../../sources/rome/secondary/ancient.md
     - ../shelf-reader.md
   sub_lens:
-    - dual-language-heritage-rome.md
+    - ../theory/dual-language-heritage-rome.md
     - ../theory/geo-strategy-rome.md
   return_path:
-    - connectivity-rome.md
-    - civilization-rome.md
+    - ../theory/connectivity-rome.md
+    - ../theory/civilization-rome.md
     - ../theory/rome-memory.md
     - essay-rome-republic.md
     - README.md

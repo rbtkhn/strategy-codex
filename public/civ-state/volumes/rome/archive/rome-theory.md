@@ -7,7 +7,7 @@
 Status: Retired shelf door (Roman law mirror pilot)  
 Last updated: 2026-06-17
 
-**Naming:** `rome-{term}.md` — volume theory lenses. Interpretive essays under [essays/](../essays/README.md) (e.g. [Civilization Rome](../essays/civilization-rome.md)).
+**Naming:** `rome-{term}.md` — volume theory lenses. Interpretive essays under [essays/](../essays/README.md) (e.g. [Civilization Rome](../theory/civilization-rome.md)).
 
 ## When to open this shelf
 
@@ -30,7 +30,7 @@ Rhythm and era law: whole-work [Memory — Civilizational rhythm](../../../theor
 
 ## Volume prose bridge
 
-- [Pax Romana](../introduction.md) · [Civilization Rome](../essays/civilization-rome.md) · [Empire Rome](../essays/empire-rome.md)
+- [Pax Romana](../introduction.md) · [Civilization Rome](../theory/civilization-rome.md) · [Empire Rome](../theory/empire-rome.md)
 - Sacred grammar (merged): [rome-faith](../theory/rome-faith.md) · [rome-civilization](../theory/rome-civilization.md) · [rome-memory](../theory/rome-memory.md) · [Rome sources](../../../sources/rome/README.md)
 
 ## Return paths

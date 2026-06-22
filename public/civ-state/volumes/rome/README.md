@@ -8,7 +8,7 @@ Rome is currently a source-memory volume rather than a full repo-root lane peer.
 
 **Table of contents (human-readable):** [rome-table-of-contents.md](rome-table-of-contents.md)
 
-**New interpretive essays:** [civ-state-essay-template.md](../../templates/civ-state-essay-template.md) — reader SSOT · meta sidecar [_template-essay-rome.meta.yaml](essays/_template-essay-rome.meta.yaml) · lattice [essays/README.md](essays/README.md).
+**New interpretive essays:** [civ-state-essay-template.md](../../templates/civ-state-essay-template.md) — reader SSOT · meta sidecar [_template-essay-rome.meta.yaml](theory/_template-essay-rome.meta.yaml) · lattice [essays/README.md](essays/README.md).
 
 **Volume subfolders:** [essays](essays/README.md) · [theory](theory/README.md) · [archive](archive/README.md)
 
@@ -22,8 +22,8 @@ Primary source base: Rome source corpus
 - Deep grammar retrieval: [rome-faith](theory/rome-faith.md) · [rome-civilization](theory/rome-civilization.md) · [rome-memory](theory/rome-memory.md) — via [theory shelf](../../theory/README.md#cross-cutting-objects)
 - Sovereign opening: **Republic** as political chain opener; Romulus as mythic founding figure (substrate)
 - Current carrier: Catholic Church
-- Civilization chapter: [Rome civilization](essays/civilization-rome.md)
-- Empire chapter: [Rome empire](essays/empire-rome.md)
+- Civilization chapter: [Rome civilization](theory/civilization-rome.md)
+- Empire chapter: [Rome empire](theory/empire-rome.md)
 - Shelf reader: [Rome shelf reader](shelf-reader.md)
 - Volume retrieve shelf: [Rome bibliography](../../sources/rome/bibliography.md) · volume door [source-shelf.md](source-shelf.md)
 - Essay citation inventory (PD URLs, civic-chain): [rome-bibliography.md](rome-bibliography.md) — see [essays README § Essay-rome](essays/README.md#essay-rome)
@@ -32,7 +32,7 @@ Primary source base: Rome source corpus
 - Volume-local theory: `rome-{term}.md` — orchestrated from [whole-work theory](../../theory/README.md) (Roman law mirror pilot); shelf [theory/](theory/README.md)
   - [rome-civilization](theory/rome-civilization.md) · [rome-empire](theory/rome-empire.md) · [rome-entropy](theory/rome-entropy.md)
   - [rome-faith](theory/rome-faith.md) · [rome-science](theory/rome-science.md) · [rome-memory](theory/rome-memory.md)
-- Term connectivity (six-term membrane): [Connectivity Rome](essays/connectivity-rome.md)
+- Term connectivity (six-term membrane): [Connectivity Rome](theory/connectivity-rome.md)
 - Continuity state: Eastern Roman Empire as the indispensable continuity state
 
 **Civilization-State Diagnostic**

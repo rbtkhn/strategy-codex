@@ -4,7 +4,7 @@ Human-readable navigation for **Civilizational Statecraft**, Volume III. This fi
 
 **Thematic entry:** [Pax Romana](introduction.md) · **Volume spine (era blocks, diagnostic):** [README.md](README.md)
 
-**Authoritative detail elsewhere:** full essay-rome lattice → [`essay-rome.registry.yaml`](essays/essay-rome.registry.yaml) · term membrane → [Connectivity Rome](essays/connectivity-rome.md) · essays hub → [essays/README.md](essays/README.md)
+**Authoritative detail elsewhere:** full essay-rome lattice → [`essay-rome.registry.yaml`](essays/essay-rome.registry.yaml) · term membrane → [Connectivity Rome](theory/connectivity-rome.md) · essays hub → [essays/README.md](essays/README.md)
 
 ---
 
@@ -25,12 +25,12 @@ Human-readable navigation for **Civilizational Statecraft**, Volume III. This fi
 Read in order when the volume itself is the object:
 
 1. [Pax Romana](introduction.md) — volume door
-2. [Civilization Rome](essays/civilization-rome.md) — Part 1, civilizational form
-3. [Empire Rome](essays/empire-rome.md) — Part 2, outward machinery
+2. [Civilization Rome](theory/civilization-rome.md) — Part 1, civilizational form
+3. [Empire Rome](theory/empire-rome.md) — Part 2, outward machinery
 
-Then open **optional sub-lenses** only when one dimension needs essay-length depth ([essays README](essays/README.md)):
+Then open **optional sub-lenses** only when one dimension needs essay-length depth ([theory README](theory/README.md#history-sub-lenses)):
 
-- [Dual language heritage](essays/dual-language-heritage-rome.md)
+- [Dual language heritage](theory/dual-language-heritage-rome.md)
 - [Military history](theory/military-history-rome.md)
 - [Faith history](theory/faith-history-rome.md)
 - [Science history](theory/science-history-rome.md)
@@ -70,7 +70,7 @@ Each active civic-chain node has a `.meta.yaml` sidecar (scope, deferrals, retur
 
 ## Path C — hex-frame
 
-One friction node read through all six `rome-{term}.md` lenses. Template: [_template-hexagonal-rome.md](essays/_template-hexagonal-rome.md).
+One friction node read through all six `rome-{term}.md` lenses. Template: [_template-hexagonal-rome.md](theory/_template-hexagonal-rome.md).
 
 | Node | File |
 |------|------|
@@ -92,7 +92,7 @@ Six whole-work term projections — link rosters here; do not duplicate in essay
 
 **Spine index** on memory: [chain](theory/rome-memory.md#chain-spine) · [language](theory/rome-memory.md#language-spine) · [military](theory/rome-memory.md#military-spine) · [faith](theory/rome-memory.md#faith-spine) · [science](theory/rome-memory.md#science-spine)
 
-**Cross-term routing:** [Connectivity Rome](essays/connectivity-rome.md)
+**Cross-term routing:** [Connectivity Rome](theory/connectivity-rome.md)
 
 ---
 

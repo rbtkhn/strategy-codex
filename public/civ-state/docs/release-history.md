@@ -228,7 +228,7 @@ Wave 2 essays (D–F) already carried archetype headers at v0.1.33–34.
 | `rome-entropy.md` | Italian Wars + Sack 1527 rows · Borgia–Medici rivalry · 1494/Florence theocracy · French kings comparative |
 | `rome-faith.md` | Michelangelo + Alexander VI cross-refs |
 | `rome-memory.md` | Italy branch Medici cross-ref |
-| `essays/civilization-rome.md` · `essays/empire-rome.md` | Five-spine Return Path · term-lens cross-links · Civ↔Empire↔Entropy delineation table |
+| `theory/civilization-rome.md` · `theory/empire-rome.md` | Five-spine Return Path · term-lens cross-links · Civ↔Empire↔Entropy delineation table |
 | Doctrine | Blocks A–K: peninsula Italian Wars encode cap; empire overreach ≠ entropy |
 
 **v0.1.28** — Rome military history: `#military-spine`, split rosters, six term military segments; Eastern Roman Empire terminology alignment.
@@ -328,7 +328,7 @@ Historical causes and manifestations: war, revolution, disease, famine, ecologic
 | `rome-memory.md` | **Language spine (cross-term index)** `#language-spine` — parallel Greek/Latin carriers + tagged boundary rules |
 | `rome-civilization.md` | **Dual rosters** (14 Greek + 10 Latin) + **language carrier types** SSOT |
 | `rome-{term}.md` | **Dual language heritage — {term} lens** on all six theory files |
-| `essays/dual-language-heritage-rome.md` | Reader smoke-test essay (Q4 sacred dual-carrier, Q6 reframe) |
+| `theory/dual-language-heritage-rome.md` | Reader smoke-test essay (Q4 sacred dual-carrier, Q6 reframe) |
 | `sources/rome/primary/ancient.md` | Euripides, Aeschylus, Appian; Polybius/Plutarch cross-list under Greek inheritance |
 | `theory/{term}.md` | Volume depth (Rome) → `#language-spine` + language segment anchors |
 | `cross-case-recurrence-and-sovereignty.md` | **Language fork** sub-mechanism under fractured sovereignty |

@@ -25,10 +25,10 @@ This chapter does not claim that Rome survives unchanged in a simple political s
 ## Return Path
 
 - Return to [Volume III — Rome](../README.md) for the full volume spine.
-- Five spines: [Chain](../theory/rome-memory.md#chain-spine) · [Language](../theory/rome-memory.md#language-spine) · [Military](../theory/rome-memory.md#military-spine) · [Faith](../theory/rome-memory.md#faith-spine) · [Science](../theory/rome-memory.md#science-spine).
-- Four history essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](../theory/military-history-rome.md) · [Faith history](../theory/faith-history-rome.md) · [Science history](../theory/science-history-rome.md).
-- Term lenses: [Civilization](../theory/rome-civilization.md) · [Empire](../theory/rome-empire.md) · [Faith](../theory/rome-faith.md) · [Science](../theory/rome-science.md) · [Memory](../theory/rome-memory.md) · [Entropy](../theory/rome-entropy.md).
-- Parallel dimension cross-reads: [#military-history-civilization-lens](../theory/rome-civilization.md#military-history-civilization-lens) · [#faith-history-civilization-lens](../theory/rome-civilization.md#faith-history-civilization-lens) · [#science-history-civilization-lens](../theory/rome-civilization.md#science-history-civilization-lens) · [#dual-language-heritage-civilization-lens](../theory/rome-civilization.md#dual-language-heritage-civilization-lens).
+- Five spines: [Chain](rome-memory.md#chain-spine) · [Language](rome-memory.md#language-spine) · [Military](rome-memory.md#military-spine) · [Faith](rome-memory.md#faith-spine) · [Science](rome-memory.md#science-spine).
+- Four history essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](military-history-rome.md) · [Faith history](faith-history-rome.md) · [Science history](science-history-rome.md).
+- Term lenses: [Civilization](rome-civilization.md) · [Empire](rome-empire.md) · [Faith](rome-faith.md) · [Science](rome-science.md) · [Memory](rome-memory.md) · [Entropy](rome-entropy.md).
+- Parallel dimension cross-reads: [#military-history-civilization-lens](rome-civilization.md#military-history-civilization-lens) · [#faith-history-civilization-lens](rome-civilization.md#faith-history-civilization-lens) · [#science-history-civilization-lens](rome-civilization.md#science-history-civilization-lens) · [#dual-language-heritage-civilization-lens](rome-civilization.md#dual-language-heritage-civilization-lens).
 - Return to [Empire Rome](empire-rome.md) when outward instrument governs.
 - Return to the [statecraft root](../README.md) when the Rome case is being used comparatively rather than lane-locally.
 
@@ -48,7 +48,7 @@ This chapter does not claim that Rome survives unchanged in a simple political s
 
 **Term-file law:** Do not duplicate full sovereignty chronicle on civilization · do not duplicate ethic rosters on empire · do not assign rupture-primary rows to civilization/empire for node 7.
 
-See also [Empire Rome — delineation](empire-rome.md#delineation--civilization--empire--entropy) · [Entropy (Rome)](../theory/rome-entropy.md).
+See also [Empire Rome — delineation](empire-rome.md#delineation--civilization--empire--entropy) · [Entropy (Rome)](rome-entropy.md).
 
 ## Core Thesis
 
@@ -60,7 +60,7 @@ Rome's civilizational logic is form-bearing universality. It insists that order 
 
 ## Sovereign Continuity
 
-Chain doctrine lives on the volume theory files — this chapter stays narrative. See [rome-memory — chain spine](../theory/rome-memory.md#chain-spine) and term segments on each `rome-{term}.md`.
+Chain doctrine lives on the volume theory files — this chapter stays narrative. See [rome-memory — chain spine](rome-memory.md#chain-spine) and term segments on each `rome-{term}.md`.
 
 The sovereign backbone opens with **Republic** as political chain opener; Romulus and Aeneas/Troy remain **substrate** (mythic founding, not tracked political opener).
 
@@ -106,7 +106,7 @@ Open Rome correctly by asking whether the problem involves territorial power, or
 
 ## Key evidence spine Anchors
 
-- [rome-faith](../theory/rome-faith.md) · [rome-civilization](../theory/rome-civilization.md) · [rome-memory](../theory/rome-memory.md)
+- [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md)
 - Rome volume writing brief
 - [Statecraft front door](../README.md)
 - [Civilization](../../../theory/civilization.md) · [Empire](../../../theory/empire.md) · [theory shelf](../../../theory/README.md)

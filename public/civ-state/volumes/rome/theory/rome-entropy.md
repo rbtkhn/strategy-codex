@@ -95,7 +95,7 @@ Shock and censorship degrading procedural carry. SSOT rupture rows on entropy; s
 
 ## Whole-work term
 
-[Entropy](../../theory/entropy.md) — historical causes and manifestations of civilizational degradation.
+[Entropy](../../../theory/entropy.md) — historical causes and manifestations of civilizational degradation.
 
 ## Roman law — entropy lens
 
@@ -127,13 +127,13 @@ Inheritance rhetoric without carry — [Civilization (Rome)](rome-civilization.m
 
 ## Bridge
 
-- [Connectivity Rome](../essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](../essays/README.md#hexagonal-demonstrators)
+- [Connectivity Rome](connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](README.md#hex-frame-hexagonal-demonstrators)
 - [Secret-history Rome](secret-history-rome.md)
-- [Empire Rome](../essays/empire-rome.md) — maintenance exhaustion
+- [Empire Rome](empire-rome.md) — maintenance exhaustion
 
 ## Return paths
 
-- [Whole-work entropy](../../theory/entropy.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
+- [Whole-work entropy](../../../theory/entropy.md) · [Theory shelf — Roman law](../../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

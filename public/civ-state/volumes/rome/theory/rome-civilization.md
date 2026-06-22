@@ -99,7 +99,7 @@ Flat co-equal rank; **Rome-facing** tags volume salience only.
 - Geographic **Latin-Catholic** / **Latin-American** ≠ classical Latin heritage — see [Memory language spine](rome-memory.md#language-spine).
 - Full language-spine table lives on [memory](rome-memory.md#language-spine) only.
 
-**Cross-reads:** [Memory — language spine](rome-memory.md#language-spine) · [Faith (Rome)](rome-faith.md#dual-language-heritage-faith-lens) · [Dual language heritage (essay)](../essays/dual-language-heritage-rome.md) · [Greek shelf](../../sources/rome/primary/ancient.md)
+**Cross-reads:** [Memory — language spine](rome-memory.md#language-spine) · [Faith (Rome)](rome-faith.md#dual-language-heritage-faith-lens) · [Dual language heritage (essay)](dual-language-heritage-rome.md) · [Greek shelf](../../../sources/rome/primary/ancient.md)
 
 ## Military history — civilization lens {#military-history-civilization-lens}
 
@@ -190,7 +190,7 @@ Public works ethic, humanist recovery, artisan-observer procedural grammar. **No
 
 ## Whole-work term
 
-[Civilization](../../theory/civilization.md) — inherited order and legitimacy substrate.
+[Civilization](../../../theory/civilization.md) — inherited order and legitimacy substrate.
 
 ## Sacred grammar — core grammar (Rome)
 
@@ -222,17 +222,17 @@ Legal continuity across East/West split — see [Memory (Rome)](rome-memory.md).
 
 ## Bridge
 
-- [Connectivity Rome](../essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](../essays/README.md#hexagonal-demonstrators)
-- [Civilization Rome](../essays/civilization-rome.md)
+- [Connectivity Rome](connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](README.md#hex-frame-hexagonal-demonstrators)
+- [Civilization Rome](civilization-rome.md)
 - [Faith (Rome)](rome-faith.md) — legitimating image
 - [Memory (Rome)](rome-memory.md) — five spines SSOT
-- History essays: [Dual language heritage](../essays/dual-language-heritage-rome.md) · [Military history](military-history-rome.md) · [Faith history](faith-history-rome.md) · [Science history](science-history-rome.md)
+- History essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](military-history-rome.md) · [Faith history](faith-history-rome.md) · [Science history](science-history-rome.md)
 - Spine cross-reads: [Chain](rome-memory.md#chain-spine) · [Language](rome-memory.md#language-spine) · [Military](rome-memory.md#military-spine) · [Faith](rome-memory.md#faith-spine) · [Science](rome-memory.md#science-spine)
-- [Cross-cutting objects — Roman law](../../theory/README.md#cross-cutting-objects)
+- [Cross-cutting objects — Roman law](../../../theory/README.md#cross-cutting-objects)
 
 ## Return paths
 
-- [Whole-work civilization](../../theory/civilization.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
+- [Whole-work civilization](../../../theory/civilization.md) · [Theory shelf — Roman law](../../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

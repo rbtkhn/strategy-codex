@@ -21,7 +21,7 @@ On a **new thread** with no prior warmup in chat:
 
 Whole-work: [theory/README.md](../../../public/civ-state/theory/README.md) · [sources/source-lattice.md](../../../public/civ-state/sources/source-lattice.md) · [volumes/README.md](../../../public/civ-state/volumes/README.md) · [docs/era-spine.md](../../../public/civ-state/docs/era-spine.md)
 
-**Rome hexagonal (book maint):** [connectivity-rome.md](../../../public/civ-state/volumes/rome/essays/connectivity-rome.md) · RLJ Rome parallel-spine ladder in [recursive-learn](../recursive-learn/SKILL.md) — link, do not duplicate table.
+**Rome hexagonal (book maint):** [connectivity-rome.md](../../../public/civ-state/volumes/rome/theory/connectivity-rome.md) · RLJ Rome parallel-spine ladder in [recursive-learn](../recursive-learn/SKILL.md) — link, do not duplicate table.
 
 ## P0 public skill cards → operator letters
 

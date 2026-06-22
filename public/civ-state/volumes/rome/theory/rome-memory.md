@@ -7,7 +7,7 @@ Last updated: 2026-06-19
 
 ## Whole-work term
 
-[Memory](../../theory/memory.md) — continuity, rhythm, era law, retrieval entry.
+[Memory](../../../theory/memory.md) — continuity, rhythm, era law, retrieval entry.
 
 ## Sacred grammar — continuity and chain (Rome)
 
@@ -110,7 +110,7 @@ When **which linguistic medium carries Roman grammar** governs, open here first,
 | Renaissance | `historical-grounded` | Latin reception of Greek — [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) |
 | Latin-America | `historical-grounded` | partial inheritance / instrument — not classical Latin revival |
 
-**Cross-reads:** [Civilization (Rome)](rome-civilization.md#dual-language-heritage-civilization-lens) · [Faith (Rome)](rome-faith.md#dual-language-heritage-faith-lens) · [Empire (Rome)](rome-empire.md#dual-language-heritage-empire-lens) · [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) · [Entropy (Rome)](rome-entropy.md#dual-language-heritage-entropy-lens) · [Dual language heritage (essay)](../essays/dual-language-heritage-rome.md)
+**Cross-reads:** [Civilization (Rome)](rome-civilization.md#dual-language-heritage-civilization-lens) · [Faith (Rome)](rome-faith.md#dual-language-heritage-faith-lens) · [Empire (Rome)](rome-empire.md#dual-language-heritage-empire-lens) · [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) · [Entropy (Rome)](rome-entropy.md#dual-language-heritage-entropy-lens) · [Dual language heritage (essay)](dual-language-heritage-rome.md)
 
 **Boundary rules (language-spine):**
 - Full rosters live on **civilization only** — do not duplicate here.
@@ -256,7 +256,7 @@ When **which sacred order carries Roman faith grammar** governs, open [Faith spi
 | **1054 Great Schism** | Primary rupture | East/West split | faith · entropy · memory | `historical-grounded` |
 | **1204 Fourth Crusade** | Dual encode: eastern sacral wound + western instrument | Constantinople sack | faith · entropy · memory | `historical-grounded` |
 | Orthodox present | Co-primary sacred carry | Greek liturgy present | faith · memory | **`operator-sacred-doctrine`** |
-| Russia / Church Slavonic handoff | Orthodox carry beyond Greek | Moscow · [Russia volume](../../volumes/russia/README.md) | faith · eastern | `historical-grounded` |
+| Russia / Church Slavonic handoff | Orthodox carry beyond Greek | Moscow · [Russia volume](../../russia/README.md) | faith · eastern | `historical-grounded` |
 | Non-Chalcedonian mini-leg | Coptic · Armenian · Nestorian | parallel ancient churches | faith · eastern | **`contested-weight`** |
 | **Islam — early conquest** | Rashidun → Abbasid | 632–c.750 · dhimmī · Shia/Sunni footnote | faith · empire | `civ-state-placement` · `operator-islam-rival-row` |
 | **Islam — Ottoman phase** | Seljuk → Ottoman | 1299+ · **1453** · Vienna (1683) | faith · empire · entropy | `operator-islam-ottoman-phase` |
@@ -452,7 +452,7 @@ Roman law is **legal continuity**: succession of codes, East/West split, and res
 - **East/West split** — one grammar, fractured administration
 - **Restitution** — what humiliation or rupture must be reversed in law-memory
 
-When the seam is continuity claim, successor order, or forbidden loss, govern **memory** first; place era via [Era law](../../theory/memory.md#era-law) (Ancient → Medieval hinge load-bearing for codification).
+When the seam is continuity claim, successor order, or forbidden loss, govern **memory** first; place era via [Era law](../../../theory/memory.md#era-law) (Ancient → Medieval hinge load-bearing for codification).
 
 ## Causal connections
 
@@ -470,14 +470,14 @@ Rupture distorting legal memory — [Entropy (Rome)](rome-entropy.md).
 
 ## Bridge
 
-- [Connectivity Rome](../essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](../essays/README.md#hexagonal-demonstrators)
-- [Pax Romana](introduction.md)
-- [Whole-work — Civilizational rhythm](../../theory/memory.md#civilizational-rhythm)
-- [Rome shelf reader](shelf-reader.md)
+- [Connectivity Rome](connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](README.md#hex-frame-hexagonal-demonstrators)
+- [Pax Romana](../introduction.md)
+- [Whole-work — Civilizational rhythm](../../../theory/memory.md#civilizational-rhythm)
+- [Rome shelf reader](../shelf-reader.md)
 
 ## Return paths
 
-- [Whole-work memory](../../theory/memory.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
+- [Whole-work memory](../../../theory/memory.md) · [Theory shelf — Roman law](../../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

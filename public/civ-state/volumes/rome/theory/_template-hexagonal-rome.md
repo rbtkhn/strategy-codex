@@ -1,12 +1,12 @@
 # Hexagonal {Friction node title} (Rome)
 
-<!-- Copy this file to ../theory/hexagonal-{slug}-rome.md. Delete this comment block on ship. Register in theory/README.md § hex-frame. -->
+<!-- Copy this file to hexagonal-{slug}-rome.md (same folder). Delete this comment block on ship. Register in theory/README.md § hex-frame. -->
 
 ## Where This Sits
 
 **Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](connectivity-rome.md). Machine law: [essay types — do not conflate](connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
 
-**Not:** constitutional continuity ([Civilization Rome](civilization-rome.md) · [Empire Rome](empire-rome.md)) · single-dimension depth ([history essays](README.md#optional-sub-lenses)).
+**Not:** constitutional continuity ([Civilization Rome](civilization-rome.md) · [Empire Rome](empire-rome.md)) · single-dimension depth ([history sub-lenses](README.md#history-sub-lenses)).
 
 ## Reading Posture
 
@@ -33,12 +33,12 @@ Ask six governing questions in order — **memory placement first**, then the le
 
 | Lens | Governing question | This node — owns | Defers to | Term anchor |
 |------|-------------------|----------------|-----------|-------------|
-| **Memory** | Where on the spine? | {placement} | {…} | [link](../theory/rome-memory.md#{segment}) |
-| **Civilization** | What inheritance is at stake? | {ethic / partial-inheritance} | {…} | [link](../theory/rome-civilization.md#{segment}) |
-| **Empire** | What outward instrument? | {chronicle / institutional} | {…} | [link](../theory/rome-empire.md#{segment}) |
-| **Faith** | What sacred truth-order? | {…} | {…} | [link](../theory/rome-faith.md#{segment}) |
-| **Science** | What procedural truth-order? | {…} | {…} | [link](../theory/rome-science.md#{segment}) |
-| **Entropy** | Which shock broke carry? | {rupture-primary · comparative · —} | {…} | [link](../theory/rome-entropy.md#{segment}) |
+| **Memory** | Where on the spine? | {placement} | {…} | [link](rome-memory.md#{segment}) |
+| **Civilization** | What inheritance is at stake? | {ethic / partial-inheritance} | {…} | [link](rome-civilization.md#{segment}) |
+| **Empire** | What outward instrument? | {chronicle / institutional} | {…} | [link](rome-empire.md#{segment}) |
+| **Faith** | What sacred truth-order? | {…} | {…} | [link](rome-faith.md#{segment}) |
+| **Science** | What procedural truth-order? | {…} | {…} | [link](rome-science.md#{segment}) |
+| **Entropy** | Which shock broke carry? | {rupture-primary · comparative · —} | {…} | [link](rome-entropy.md#{segment}) |
 
 ## Cross-ref law (this node)
 
@@ -52,7 +52,7 @@ Ask six governing questions in order — **memory placement first**, then the le
 
 ## Return Path
 
-- [Connectivity Rome](connectivity-rome.md) · [Essays index](README.md)
+- [Connectivity Rome](connectivity-rome.md) · [Essays index](../essays/README.md)
 - [hex-frame registry](README.md#hex-frame-hexagonal-demonstrators)
-- Five spines: [chain](../theory/rome-memory.md#chain-spine) · [language](../theory/rome-memory.md#language-spine) · [military](../theory/rome-memory.md#military-spine) · [faith](../theory/rome-memory.md#faith-spine) · [science](../theory/rome-memory.md#science-spine)
+- Five spines: [chain](rome-memory.md#chain-spine) · [language](rome-memory.md#language-spine) · [military](rome-memory.md#military-spine) · [faith](rome-memory.md#faith-spine) · [science](rome-memory.md#science-spine)
 - Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)

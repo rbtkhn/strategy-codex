@@ -57,8 +57,8 @@ The classical hinge and transformed-continuity case.
 - [Volume front door](../volumes/rome/README.md)
 - [Rome table of contents](../volumes/rome/rome-table-of-contents.md) — human-readable volume map
 - [Pax Romana](../volumes/rome/introduction.md)
-- [Civilization](../volumes/rome/essays/civilization-rome.md)
-- [Empire](../volumes/rome/essays/empire-rome.md)
+- [Civilization](../volumes/rome/theory/civilization-rome.md)
+- [Empire](../volumes/rome/theory/empire-rome.md)
 - Optional sub-lenses ([essays](../volumes/rome/essays/README.md)): [geo-strategy](../volumes/rome/theory/geo-strategy-rome.md) · [secret-history](../volumes/rome/theory/secret-history-rome.md) · [game-theory](../volumes/rome/theory/game-theory-rome.md)
 - Volume-local theory (via [theory shelf](../theory/README.md#cross-cutting-objects)): [rome-civilization](../volumes/rome/theory/rome-civilization.md) · [rome-empire](../volumes/rome/theory/rome-empire.md) · [rome-entropy](../volumes/rome/theory/rome-entropy.md) · [rome-faith](../volumes/rome/theory/rome-faith.md) · [rome-science](../volumes/rome/theory/rome-science.md) · [rome-memory](../volumes/rome/theory/rome-memory.md)
 - Source-lattice: [shelf reader](../volumes/rome/shelf-reader.md) · [bibliography](../sources/rome/bibliography.md)

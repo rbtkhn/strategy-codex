@@ -43,9 +43,9 @@ Switchboard rule:
 
 - Open the [Rome bibliography](../../sources/rome/bibliography.md) for era entry and source doors (shelves live under [../../sources/rome/](../../sources/rome/README.md)).
 - Open the era-matched `secondary-sources` file from the bibliography when chronology, transformed-continuity interpretation, or counterweight is the real need rather than direct source descent alone.
-- Open [Dual language heritage Rome](essays/dual-language-heritage-rome.md) if the live question is Greek/Latin medium, rosters, or sacred-language fork.
+- Open [Dual language heritage Rome](theory/dual-language-heritage-rome.md) if the live question is Greek/Latin medium, rosters, or sacred-language fork.
 - Open [Science history Rome](theory/science-history-rome.md) if the live question is evidentiary procedure, codification, university formation, or faith/science/entropy delineation.
-- Open [Rome civilization](essays/civilization-rome.md) if the live question is legitimacy, continuity, or category membership.
-- Open [Rome empire](essays/empire-rome.md) if the live question is universality, projection, or imperial residue.
-- Open [Rome empire](essays/empire-rome.md) if the live question is present-tense successor-order comparison.
+- Open [Rome civilization](theory/civilization-rome.md) if the live question is legitimacy, continuity, or category membership.
+- Open [Rome empire](theory/empire-rome.md) if the live question is universality, projection, or imperial residue.
+- Open [Rome empire](theory/empire-rome.md) if the live question is present-tense successor-order comparison.
 - Return to [Cross-case recurrence and sovereignty](../../essays/cross-case-recurrence-and-sovereignty.md) or the [theory shelf](../../theory/README.md) only after the Roman shelf has been read as transformed continuity.

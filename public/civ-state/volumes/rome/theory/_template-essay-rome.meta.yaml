@@ -1,4 +1,5 @@
 # Essay-rome {slug} — sidecar template (editor / machine)
+# Paths relative to volumes/rome/essays/ when the sidecar ships beside essay-rome-{slug}.md
 
 title: "{Topic}"
 volume: rome
@@ -25,19 +26,21 @@ not_this_file: []
 membrane: []
 
 routing:
-  hub: connectivity-rome.md
+  hub: ../theory/connectivity-rome.md
   registry: essay-rome.registry.yaml
   peer_essays: []
   hex_frame: null
   term_depth: []
   constitutional:
-    - civilization-rome.md
-    - empire-rome.md
+    - ../theory/civilization-rome.md
+    - ../theory/empire-rome.md
   sources:
     - ../../../sources/rome/primary/ancient.md
     - ../../../sources/rome/secondary/ancient.md
     - ../shelf-reader.md
   sub_lens: []
   return_path:
-    - connectivity-rome.md
+    - ../theory/connectivity-rome.md
+    - ../theory/civilization-rome.md
     - README.md
+    - ../README.md

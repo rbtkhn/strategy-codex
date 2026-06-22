@@ -2,9 +2,9 @@
 
 ## Where This Sits
 
-**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](../essays/connectivity-rome.md). Machine law: [essay types — do not conflate](../essays/connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
+**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](connectivity-rome.md). Machine law: [essay types — do not conflate](connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
 
-**Not:** constitutional continuity ([Civilization Rome](../essays/civilization-rome.md) · [Empire Rome](../essays/empire-rome.md)) · single-dimension depth ([history essays](../essays/README.md#optional-sub-lenses)).
+**Not:** constitutional continuity ([Civilization Rome](civilization-rome.md) · [Empire Rome](empire-rome.md)) · single-dimension depth ([history essays](README.md#history-sub-lenses)).
 
 ## Reading Posture
 
@@ -47,7 +47,7 @@ Ask six governing questions in order — **memory placement first**, then the le
 - **Latin-America ≠ classical Latin** — partial inheritance / dispersion, not revival of republican chain opener.
 - **Shared `contested-weight`:** colonial history mainstream; operator Roman framing — mandatory on faith mission tail, science export, memory oceanic-colonial index.
 - **Empire overreach ≠ entropy (delineation node 4):** overreach thins inheritance while machinery expands — **this node** is **wind-down** (node 6), not expansion phase.
-- **Choreography:** [Delineation — Civilization ↔ Empire ↔ Entropy](../essays/civilization-rome.md#delineation--civilization--empire--entropy) node **6** · contrast [Republic→principate](hexagonal-republic-principate-rome.md) (transformation) and [1453](hexagonal-1453-rome.md) (bridge rupture).
+- **Choreography:** [Delineation — Civilization ↔ Empire ↔ Entropy](civilization-rome.md#delineation--civilization--empire--entropy) node **6** · contrast [Republic→principate](hexagonal-republic-principate-rome.md) (transformation) and [1453](hexagonal-1453-rome.md) (bridge rupture).
 
 ## Short synthesis
 
@@ -59,9 +59,9 @@ The **colonial procedural tail** shows Rome's grammar **exporting** through **in
 
 ## Return Path
 
-- [Connectivity Rome](../essays/connectivity-rome.md) · [Essays index](../essays/README.md)
-- [Hexagonal demonstrators registry](../theory/README.md#hex-frame-hexagonal-demonstrators)
+- [Connectivity Rome](connectivity-rome.md) · [Essays index](../essays/README.md)
+- [Hexagonal demonstrators registry](README.md#hex-frame-hexagonal-demonstrators)
 - Wave 1: [1453](hexagonal-1453-rome.md) · [Italian Wars / Sack](hexagonal-italian-wars-rome.md) · [Justinian 529](hexagonal-justinian-codification-rome.md)
 - Wave 2: [1054](hexagonal-1054-schism-rome.md) · [Republic→principate](hexagonal-republic-principate-rome.md)
 - Five spines: [chain](rome-memory.md#chain-spine) · [language](rome-memory.md#language-spine) · [military](rome-memory.md#military-spine) · [faith](rome-memory.md#faith-spine) · [science](rome-memory.md#science-spine)
-- Constitutional essays: [civilization](../essays/civilization-rome.md) · [empire](../essays/empire-rome.md)
+- Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)

@@ -118,7 +118,7 @@ Optional sub-lenses beneath **Empire**:
 
 When a volume adds parallel term theory files (civilization · empire · faith · science · memory · entropy), essays split into **three tiers** — constitutional · history sub-lens · hexagonal demonstrator. Stand up **connectivity map → hexagonal template → registry → bodies → Bridge blocks** before demonstrator encode; essays **link term SSOT**, never extend rosters.
 
-Machine law: [essay-membrane-law.md](../../../statecraft/patterns/essay-membrane-law.md) · Rome proof: [connectivity-rome.md](../../../public/civ-state/volumes/rome/essays/connectivity-rome.md).
+Machine law: [essay-membrane-law.md](../../../statecraft/patterns/essay-membrane-law.md) · Rome proof: [connectivity-rome.md](../../../public/civ-state/volumes/rome/theory/connectivity-rome.md).
 
 Legacy (workshop merge target, not reader-facing):
 

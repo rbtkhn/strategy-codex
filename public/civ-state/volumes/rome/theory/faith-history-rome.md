@@ -16,14 +16,14 @@ Polytheism and Stoic/Epicurean philosophical religion are **co-primary** on the 
 
 ## Delineation
 
-- **[Dual language heritage Rome](../essays/dual-language-heritage-rome.md)** — Greek/Latin **medium** and sacred dual-carrier; cross-ref only when liturgical medium governs, not truth-order placement.
+- **[Dual language heritage Rome](dual-language-heritage-rome.md)** — Greek/Latin **medium** and sacred dual-carrier; cross-ref only when liturgical medium governs, not truth-order placement.
 - **[Science (Rome)](rome-science.md)** — canon law, evidentiary procedure, Avicenna/Averroes transmission; cross-ref when procedural truth-order governs.
 - **[Military spine](rome-memory.md#military-spine)** — faith **licenses** force; crusades and holy war instruments cross-ref here — do not duplicate campaign bodies.
 - **[Entropy (Rome)](rome-entropy.md)** — heresies, expulsions, Manichaeism, Gnosticism, 1789 sacred rupture; schism shocks that degrade order.
 
 ## Sacred Dual-Carrier
 
-Extend [dual-language-heritage-rome.md](../essays/dual-language-heritage-rome.md): **political chain head** remains Papacy (Pope Leo XIV). On the **sacred-order dimension**, papal Latin and Orthodox Greek are **co-primary present carriers** (`operator-sacred-doctrine`) — fractured sovereignty in the sacred lane, not a second territorial sovereign. Do not re-litigate medium vs doctrine here; Filioque/azymes prelude rows live on `#faith-spine-eastern` with `#language-spine` dual encode.
+Extend [dual-language-heritage-rome.md](dual-language-heritage-rome.md): **political chain head** remains Papacy (Pope Leo XIV). On the **sacred-order dimension**, papal Latin and Orthodox Greek are **co-primary present carriers** (`operator-sacred-doctrine`) — fractured sovereignty in the sacred lane, not a second territorial sovereign. Do not re-litigate medium vs doctrine here; Filioque/azymes prelude rows live on `#faith-spine-eastern` with `#language-spine` dual encode.
 
 ## Framework vs History
 
@@ -50,7 +50,7 @@ The Christianization compound row carries **`operator-synthesis-chain`**: **Phil
 - [Institutional roster](rome-empire.md#faith-history-empire-lens)
 - [Sacred ethic roster](rome-civilization.md#faith-history-civilization-lens)
 - [Chain spine](rome-memory.md#chain-spine)
-- [Dual language heritage (essay)](../essays/dual-language-heritage-rome.md)
+- [Dual language heritage (essay)](dual-language-heritage-rome.md)
 
 ## Limits of the Frame
 

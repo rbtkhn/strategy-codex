@@ -39,9 +39,9 @@ Last updated: 2026-06-18
 | Papal Latin universalism | Medieval → present | sacred_medium | Present co-primary sacred carrier — Pope Leo XIV |
 | Orthodox Greek liturgy | Medieval → present | sacred_medium | Present co-primary sacred carrier — parallel to papal Latin (`operator-sacred-doctrine`) |
 | Canon law (Latin procedural home) | Medieval → present | codification_medium | Distinct from **ecclesiastical Latin** vs **civil Latin** — cross-ref [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) |
-| Church Slavonic expansion | Medieval → present | cross-ref | Orthodox carry beyond Greek — see [Russia volume](../../volumes/russia/README.md) handoff |
+| Church Slavonic expansion | Medieval → present | cross-ref | Orthodox carry beyond Greek — see [Russia volume](../../russia/README.md) handoff |
 
-**Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Civilization rosters](rome-civilization.md#dual-language-heritage-civilization-lens) · [Dual language heritage (essay)](../essays/dual-language-heritage-rome.md)
+**Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Civilization rosters](rome-civilization.md#dual-language-heritage-civilization-lens) · [Dual language heritage (essay)](dual-language-heritage-rome.md)
 
 ## Military history — faith lens {#military-history-faith-lens}
 
@@ -98,7 +98,7 @@ Cross-ref when procedural truth-order hybridizes with sacred order. SSOT on [Sci
 
 ## Whole-work term
 
-[Faith](../../theory/faith.md) — sacred and moral truth-order.
+[Faith](../../../theory/faith.md) — sacred and moral truth-order.
 
 ## Sacred grammar — legitimating image (Rome)
 
@@ -130,12 +130,12 @@ Covenant wound and forbidden restitution — [Memory (Rome)](rome-memory.md).
 
 ## Bridge
 
-- [Connectivity Rome](../essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](../essays/README.md#hexagonal-demonstrators)
-- [Rome sources — Medieval](../../sources/rome/primary/medieval.md)
+- [Connectivity Rome](connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](README.md#hex-frame-hexagonal-demonstrators)
+- [Rome sources — Medieval](../../../sources/rome/primary/medieval.md)
 
 ## Return paths
 
-- [Whole-work faith](../../theory/faith.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
+- [Whole-work faith](../../../theory/faith.md) · [Theory shelf — Roman law](../../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 

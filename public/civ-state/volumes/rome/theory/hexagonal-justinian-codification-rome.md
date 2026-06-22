@@ -2,9 +2,9 @@
 
 ## Where This Sits
 
-**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](../essays/connectivity-rome.md). Machine law: [essay types — do not conflate](../essays/connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
+**Hexagonal demonstrator** — one friction node read through all six `rome-{term}.md` lenses. Routing SSOT: [Connectivity Rome](connectivity-rome.md). Machine law: [essay types — do not conflate](connectivity-rome.md#essay-types-do-not-conflate). Do **not** duplicate term-file rosters; link segment anchors only.
 
-**Not:** constitutional continuity ([Civilization Rome](../essays/civilization-rome.md) · [Empire Rome](../essays/empire-rome.md)) · single-dimension depth ([history essays](../essays/README.md#optional-sub-lenses)).
+**Not:** constitutional continuity ([Civilization Rome](civilization-rome.md) · [Empire Rome](empire-rome.md)) · single-dimension depth ([history essays](README.md#history-sub-lenses)).
 
 ## Reading Posture
 
@@ -58,8 +58,8 @@ The hexagonal lesson: not every load-bearing Roman moment is a rupture — some 
 
 ## Return Path
 
-- [Connectivity Rome](../essays/connectivity-rome.md) · [Essays index](../essays/README.md)
-- [Hexagonal demonstrators registry](../theory/README.md#hex-frame-hexagonal-demonstrators)
+- [Connectivity Rome](connectivity-rome.md) · [Essays index](../essays/README.md)
+- [Hexagonal demonstrators registry](README.md#hex-frame-hexagonal-demonstrators)
 - Wave 1 peers: [1453 East terminus](hexagonal-1453-rome.md) · [Italian Wars / Sack 1527](hexagonal-italian-wars-rome.md)
 - Five spines: [chain](rome-memory.md#chain-spine) · [language](rome-memory.md#language-spine) · [military](rome-memory.md#military-spine) · [faith](rome-memory.md#faith-spine) · [science](rome-memory.md#science-spine)
-- Constitutional essays: [civilization](../essays/civilization-rome.md) · [empire](../essays/empire-rome.md)
+- Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)

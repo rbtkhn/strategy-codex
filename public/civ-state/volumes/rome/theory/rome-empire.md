@@ -220,7 +220,7 @@ Institutional procedural carriers — codification commissions, translation bure
 
 ## Whole-work term
 
-[Empire](../../theory/empire.md) — outward instrument and amplification.
+[Empire](../../../theory/empire.md) — outward instrument and amplification.
 
 ## Roman law — empire lens
 
@@ -248,16 +248,16 @@ Fall and fracture of imperial carry — [Entropy (Rome)](rome-entropy.md).
 
 ## Bridge
 
-- [Connectivity Rome](../essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](../essays/README.md#hexagonal-demonstrators)
-- [Empire Rome](../essays/empire-rome.md)
+- [Connectivity Rome](connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](README.md#hex-frame-hexagonal-demonstrators)
+- [Empire Rome](empire-rome.md)
 - [Geo-strategy Rome](geo-strategy-rome.md)
 - [Memory (Rome)](rome-memory.md) — five spines SSOT
-- History essays: [Dual language heritage](../essays/dual-language-heritage-rome.md) · [Military history](military-history-rome.md) · [Faith history](faith-history-rome.md) · [Science history](science-history-rome.md)
+- History essays: [Dual language heritage](dual-language-heritage-rome.md) · [Military history](military-history-rome.md) · [Faith history](faith-history-rome.md) · [Science history](science-history-rome.md)
 - Spine cross-reads: [Chain](rome-memory.md#chain-spine) · [Language](rome-memory.md#language-spine) · [Military](rome-memory.md#military-spine) · [Faith](rome-memory.md#faith-spine) · [Science](rome-memory.md#science-spine)
 
 ## Return paths
 
-- [Whole-work empire](../../theory/empire.md) · [Theory shelf — Roman law](../../theory/README.md#cross-cutting-objects)
+- [Whole-work empire](../../../theory/empire.md) · [Theory shelf — Roman law](../../../theory/README.md#cross-cutting-objects)
 
 ## Bottom line
 
