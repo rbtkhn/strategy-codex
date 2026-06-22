@@ -126,6 +126,7 @@ Examples:
 
 - `arc-freeman-india-global-left-iran.md` — span in YAML (`2026-02-24` → `2026-06-11`)
 - `arc-jermy-iran-naval.md`
+- `arc-pape-escalation-trap.md`
 - `thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md`
 - `thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md`
 

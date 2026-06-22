@@ -8,6 +8,7 @@ primary_voice: pape
 topic: smart-bomb-trap
 span_start: 2026-02-28
 span_end: 2026-03-16
+parent_arc: arc-pape-escalation-trap.md
 nodes:
   - source-archive/statecraft/2026-02-28/source-pape-the-day-1-mirage-2026-02-28.md
   - source-archive/statecraft/2026-02-28/source-pape-the-illusion-of-control-2026-02-28.md
@@ -16,6 +17,7 @@ nodes:
 ```
 
 **Pub span:** 2026-02-28 → 2026-03-16 (~16 days; **thread** tier)  
+**Parent arc:** [Escalation Trap arc](./arc-pape-escalation-trap.md) (Feb 25 → Jun 4 season)  
 **Parent:** [Feb 28 kinetic synthesis](../daily/2026-02-28.md) · [Mar 1 trap synthesis](../daily/2026-03-01.md) · [Mar 3 attrition day 4](../daily/2026-03-03.md) · [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) · [Pape source index](../voices/pape/pape-source-index.md)
 
 **Sources (Pape — Escalation Trap series):**
