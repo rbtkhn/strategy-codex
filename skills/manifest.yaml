@@ -303,6 +303,14 @@ skills:
     verify_forbidden_substrings:
       - platform/users/grace-mar/
       - process_approved_candidates
+  - name: news-verify
+    source: news-verify/SKILL.md
+    appendix: .cursor/skills/news-verify/CURSOR_APPENDIX.md
+    target: .cursor/skills/news-verify/SKILL.md
+    verify_forbidden_substrings:
+      - platform/users/grace-mar/
+      - process_approved_candidates
+  # Legacy slug — stub points at news-verify procedure.
   - name: wire-verify
     source: wire-verify/SKILL.md
     appendix: .cursor/skills/wire-verify/CURSOR_APPENDIX.md

@@ -18,38 +18,40 @@ Use when the operator wants a **quick external sanity check** on something **the
 
 <a id="verification-routing-shared"></a>
 
-## Verification routing (shared — fact-check ↔ wire-verify)
+## Verification routing (shared — fact-check ↔ news-verify)
 
-**SSOT:** identical block in this file and [wire-verify](../wire-verify/SKILL.md#verification-routing-shared). Update **both** when routing law changes.
+**SSOT:** identical block in this file and [news-verify](../news-verify/SKILL.md#verification-routing-shared). Update **both** when routing law changes. Legacy alias: [news-verify](../news-verify/SKILL.md).
 
 Use this table **before** choosing a pass. Bare **`verify`** is ambiguous — ask once or infer from **input shape**.
 
 | Operator input | Route | Why |
 | --- | --- | --- |
 | **One claim** pasted or named (sentence, stat, quote, URL summary, draft line) | **`fact check`** (this skill) | Discrete triage; operator supplies the claim |
-| **Full ingest**, day archive, daily brief, or **wire matrix** | **[wire-verify](../wire-verify/SKILL.md)** | Auto-extract tier-**3** hooks; five-lane sweep; optional `verify:` receipts |
-| **`fact check`** on a **wire-heavy capture** but job is "grade hooks before synthesis" | **wire-verify** (prefer) | Batch hook inventory + developing-story handling |
-| **Single fork** from a matrix row ("is J17-7 supported?") | **wire-verify** sub-hook **or** **fact check** | Sub-hook when lane-sweep context matters; fact-check when the claim is isolated |
-| **Analyst voice** (Mercouris, Diesen, Davis, landed commentary) stating mechanism, forecast, or doctrine | **Label tier 4 / interpretation** — **do not score as wire fact** | Corpus tier 4; synthesis may use; verification does not grade |
-| **Historical** primary/secondary cited inside commentary | **Out of scope** for wire-verify; **fact check** only if operator names the historical claim | Corpus tiers 1–2 |
-| **Primary doc** needed (full MFA readout, court filing, official PDF) beyond triage | **[fact check deep](#fact-check-deep-pass)** (or lane primary skill) | Escalate from wire-verify or thin fact-check triage |
+| **Full ingest**, day archive, daily brief, or **verification matrix** | **[news-verify](../news-verify/SKILL.md)** | Auto-extract tier-**3** report hooks; five-lane sweep; optional `verify:` receipts |
+| **`fact check`** on a **news-heavy capture** but job is "grade hooks before synthesis" | **news-verify** (prefer) | Batch hook inventory + developing-story handling |
+| **Single fork** from a matrix row ("is J17-7 supported?") | **news-verify** sub-hook **or** **fact check** | Sub-hook when lane-sweep context matters; fact-check when the claim is isolated |
+| **Analyst voice** (Mercouris, Diesen, Davis, landed commentary) stating mechanism, forecast, or doctrine | **Label tier 4 / interpretation** — **do not score as news fact** | Corpus tier 4; synthesis may use; verification does not grade |
+| **Historical** primary/secondary cited inside commentary | **Out of scope** for news-verify; **fact check** only if operator names the historical claim | Corpus tiers 1–2 |
+| **Primary doc** needed (full MFA readout, court filing, official PDF) beyond triage | **[fact check deep](#fact-check-deep-pass)** (or lane primary skill) | Escalate from news-verify or thin fact-check triage |
 | **Campaign / Massie-shaped** copy from today's news | **[politics-massie](../politics-massie/SKILL.md)** | Not neutral verification |
-| **Before** `state synthesis` or promoting into Judgment on a **same-week** seam | **wire-verify** (batch mode) | Pre-synthesis gate on wire hooks |
-| **`source-archive/singularity/`** ingest or workshop sheet | **`wire verify — singularity`** | [Singularity sweep profile](../wire-verify/SKILL.md#singularity-sweep-profile-stub) — MR-VOL, not full CIV-STATE by default |
+| **Before** `state synthesis` or promoting into Judgment on a **same-week** seam | **news-verify** (batch mode) | Pre-synthesis gate on tier-3 report hooks |
+| **`source-archive/singularity/`** ingest or workshop sheet | **`news verify — singularity`** | [Singularity sweep profile](../news-verify/SKILL.md#singularity-sweep-profile-stub) — MR-VOL, not full CIV-STATE by default |
 | Singularity ingest + **statecraft crossover** hooks | **Split receipts** | Singularity sheet vs statecraft crossover note — do not merge |
 
 **Verdict vocabulary (align across skills):**
 
-| fact-check | wire-verify | Meaning |
+| fact-check | news-verify | Meaning |
 | --- | --- | --- |
 | Supported | supported | Corroborated within pass budget |
 | Contradicted | contradicted | Clear counter-evidence |
 | Unclear | unclear | Thin, noisy, or not locatable in triage time |
-| Out of scope | *(label only)* | Prediction, opinion, tier 4 — not a wire row |
+| Out of scope | *(label only)* | Prediction, opinion, tier 4 — not a news row |
 | — | contested | Credible sources conflict |
 | — | partial | Some elements supported; hook incomplete |
 
-**Ambiguity rule:** If both a **named claim** and a **full ingest path** appear, prefer **wire-verify** when the ingest is the primary object; prefer **fact check** when only the claim matters and archive context is optional.
+**Ambiguity rule:** If both a **named claim** and a **full ingest path** appear, prefer **news-verify** when the ingest is the primary object; prefer **fact check** when only the claim matters and archive context is optional.
+
+**Legacy triggers:** `wire verify`, `news-verify`, `verify wires` → same as **news-verify**.
 
 ## Lane
 
@@ -82,7 +84,7 @@ Use this table **before** choosing a pass. Bare **`verify`** is ambiguous — as
 
 ## Procedure (deep pass)
 
-**Activation:** **`fact check deep`**, **`deep fact check`**, or explicit acceptance after a triage **Escalate** block. **wire-verify** routes here for **tier-3a primary** pulls (full MFA readout, court filing, official PDF, treaty text) that exceed wire triage budget — see [wire-verify capture-gap](../wire-verify/SKILL.md#capture-gap-pre-pass) when the blocker is **missing archive body**, not missing sources.
+**Activation:** **`fact check deep`**, **`deep fact check`**, or explicit acceptance after a triage **Escalate** block. **news-verify** routes here for **tier-3a primary** pulls (full MFA readout, court filing, official PDF, treaty text) that exceed wire triage budget — see [news-verify capture-gap](../news-verify/SKILL.md#capture-gap-pre-pass) when the blocker is **missing archive body**, not missing sources.
 
 ### When to use deep pass
 
@@ -90,7 +92,7 @@ Use this table **before** choosing a pass. Bare **`verify`** is ambiguous — as
 | --- | --- |
 | Wording/scope turns on **official primary** (MFA, Kremlin, Vatican, OFAC bulletin) | Tier-4 **analyst interpretation** — label only |
 | Triage returned **Unclear** but claim is **high-stakes** (attribution, legal, election, casualty count, treaty clause) | **Capture-gap** — complete archive first; deep cannot score absent transcript |
-| **Two credible wires conflict** and primary would break tie | Full ingest hook inventory — **wire-verify** batch/sub-hook |
+| **Two credible wires conflict** and primary would break tie | Full ingest hook inventory — **news-verify** batch/sub-hook |
 | Operator names **one claim** and wants **primary + one independent** | Campaign copy — **politics-massie** |
 | **Historical primary** (tier 1–2) — operator names the document/period | Open-ended research with no named claim |
 
@@ -120,19 +122,19 @@ Deep pass is **bounded audit**, not unlimited investigation.
 7. **Confidence** — **low / medium / high** with explicit **what would falsify** or **what doc is still missing**.
 8. **Handoff** — If result should live on archive: offer **Ship** footnote (`verify:` tail, matrix row upgrade) — **not** automatic repo edit.
 
-### Relationship to wire-verify
+### Relationship to news-verify
 
 | From | To deep when |
 | --- | --- |
-| **wire-verify** triage | Hook needs **3a primary** beyond desk sweep |
-| **wire-verify** capture-gap | **Archive completion** first — not deep |
-| **wire-verify** sub-hook | Operator wants primary on **one matrix fork** — deep OK if claim isolated |
+| **news-verify** triage | Hook needs **3a primary** beyond desk sweep |
+| **news-verify** capture-gap | **Archive completion** first — not deep |
+| **news-verify** sub-hook | Operator wants primary on **one matrix fork** — deep OK if claim isolated |
 
-Deep pass **does not** replace wire-verify's **five-lane sweep** on a full day batch unless the operator narrows to named claim(s).
+Deep pass **does not** replace news-verify's **five-lane sweep** on a full day batch unless the operator narrows to named claim(s).
 
 ### Related skills (do not duplicate)
 
-- **[wire-verify](../wire-verify/SKILL.md)** — batch/sub-hook on ingests and matrices.
+- **[news-verify](../news-verify/SKILL.md)** — batch/sub-hook on ingests and matrices.
 - **[civ-state-primary-text-acquisition](../civ-state-primary-text-acquisition/SKILL.md)** — sustained tier-1–2 corpus work, not same-week wire hooks.
 - Lane watches — [iran-watch](../../../docs/skill-work/work-strategy/daily-brief-iran-watch.md), [prc-watch](../../../docs/skill-work/work-strategy/daily-brief-prc-watch.md), [putin-watch](../../../docs/skill-work/work-strategy/daily-brief-putin-watch.md).
 
@@ -155,7 +157,7 @@ If the thread is clearly **WORK** and the operator did not say **no menu**, end 
 
 ## Related
 
-- [wire-verify](../wire-verify/SKILL.md) — scoped pass on **wire/desk hooks** inside ingests and briefs before synthesis; escalates **3a primary** work to [Deep pass](#fact-check-deep-pass). Routing: [Verification routing (shared)](#verification-routing-shared).
+- [news-verify](../news-verify/SKILL.md) — scoped pass on **wire/desk hooks** inside ingests and briefs before synthesis; escalates **3a primary** work to [Deep pass](#fact-check-deep-pass). Routing: [Verification routing (shared)](#verification-routing-shared).
 - [politics-massie](../politics-massie/SKILL.md) — news hooks + X drafts for the Massie analysis lane.
 - **Massie news hooks:** If your Cursor install includes **massie-x-news-search-draft** (optional user skill), use it for **today's** KY-4 / Massie-relevant cited briefs; **fact check** stays **claim-neutral**.
 - [pros-and-cons](../pros-and-cons/SKILL.md) — tradeoffs when the question is **should we**, not **is it true**.
