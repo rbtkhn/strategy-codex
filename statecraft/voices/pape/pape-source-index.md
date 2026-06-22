@@ -12,7 +12,7 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 - [2026-02-27 From Kosovo to Iran](../../../source-archive/statecraft/2026-02-27/source-pape-from-kosovo-to-iran-the-smart-bomb-2026-02-27.md)
 - [2026-02-28 The Day 1 Mirage](../../../source-archive/statecraft/2026-02-28/source-pape-the-day-1-mirage-2026-02-28.md)
 - [2026-02-28 The Illusion of Control](../../../source-archive/statecraft/2026-02-28/source-pape-the-illusion-of-control-2026-02-28.md)
-- **Arc companion:** [Escalation Trap arc (Feb 25 → Jun 15)](../../notes/arc-pape-escalation-trap.md)
+- **Arc companion:** [Escalation Trap arc (Feb 25 → Jun 17)](../../notes/arc-pape-escalation-trap.md)
 - **Thread companion (opening week):** [Smart Bomb Trap thread (Feb 28 → Mar 16)](../../notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md)
 
 ### Systemic Escalation and Threshold Tracking
@@ -56,6 +56,8 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 - [2026-06-06 The New Phase](../../../source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md)
 - [2026-06-08 Day 100: Why Iran's Strategy Is Expanding](../../../source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md)
 - [2026-06-15 Uncertain Deal—And Iran Enters Its Period of Maximum Leverage](../../../source-archive/statecraft/2026-06-15/source-pape-uncertain-deal-iran-maximum-leverage-2026-06-15.md)
+- [2026-06-17 Stage IV Begins — Bloomberg MOU](../../../source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md)
+- [2026-06-17 Day 60 — Hidden Deadline in Official Agreement](../../../source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md)
 
 ## Interview-Pressure Anchors
 

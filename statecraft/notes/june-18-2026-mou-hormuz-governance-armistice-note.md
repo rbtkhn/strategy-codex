@@ -8,7 +8,7 @@ Preserve **Pape Day 60** as a bounded **mechanism note**: official MOU Pt. 5 con
 
 The aim is not to re-synthesize J17 or J18 dailies. The aim is to stop **flattening** Hormuz into “open vs closed” when the load-bearing object is **administration, fees, and institutional leverage** after the toll-free window.
 
-**Parent surfaces:** [2026-06-17 daily](../daily/2026-06-17.md) (Pape Day 60 folded) · [J18 convergence spine](./june-18-2026-mou-convergence.md) (Seam 3 SPR/Hormuz) · [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) (Hormuz as economic forcing).
+**Parent surfaces:** [Escalation Trap arc](./arc-pape-escalation-trap.md) (Phase XIV) · [2026-06-17 daily](../daily/2026-06-17.md) (Pape Day 60 folded) · [J18 convergence spine](./june-18-2026-mou-convergence.md) (Seam 3 SPR/Hormuz) · [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) (Hormuz as economic forcing).
 
 **Sibling watch:** [falsifier #3 standoff watch](./june-18-2026-mou-falsifier-3-standoff-watch.md) — **material** 2–4 wk fuse (~Jul 2–9); this note owns **Pt. 5 sixty-day governance** fuse (~mid-Aug).
 
