@@ -3,7 +3,7 @@ WORK only; not Record.
 # Mar 3 2026 — Newsletter bench weave (Crooke × Pape × Simplicius)
 
 **Pub date:** 2026-03-03  
-**Parent:** [2026-03-03 daily synthesis](../daily/2026-03-03.md) · [Pape Escalation Trap arc](./arc-pape-escalation-trap.md) · [Smart Bomb Trap thread](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) (Leg IV) · [2026-03-03 archive day](../../source-archive/statecraft/2026-03-03/README.md) · [Davis bench](./2026-03-03-davis-macgregor-henningsen-iran-war-bench-weave.md) · [Helmer × Marandi](./2026-03-03-iran-war-weave-helmer-marandi.md)
+**Parent:** [2026-03-03 daily synthesis](../daily/2026-03-03.md) · [Pape Escalation Trap arc](./arc-pape-escalation-trap.md) ([Leg IV](./arc-pape-escalation-trap.md#bridge--mar-3-air-power-illusion)) · [2026-03-03 archive day](../../source-archive/statecraft/2026-03-03/README.md) · [Davis bench](./2026-03-03-davis-macgregor-henningsen-iran-war-bench-weave.md) · [Helmer × Marandi](./2026-03-03-iran-war-weave-helmer-marandi.md)
 
 **Sources:**
 
@@ -11,7 +11,7 @@ WORK only; not Record.
 - [Pape — The Air-Power Illusion](../../source-archive/statecraft/2026-03-03/source-pape-the-air-power-illusion-2026-03-03.md) — https://escalationtrap.substack.com/p/the-air-power-illusion — **newsletter** (Escalation Trap series)
 - [Simplicius — U.S. Suffers Worst Day of Air Losses](../../source-archive/statecraft/2026-03-03/source-simplicius-us-suffers-worst-day-of-air-losses-2026-03-03.md) — https://simplicius76.substack.com/p/us-suffers-worst-day-of-air-losses — **newsletter**
 
-**Series context:** [Escalation Trap arc](./arc-pape-escalation-trap.md) · [Smart Bomb Trap thread](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) (Legs I–IV) · Pape **Day 3 ledger** (2026-03-02) · **Air-Power Illusion** (2026-03-03 — Leg IV) · forward [Mar 16 Pape × Crooke mosaic trap](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md)
+**Series context:** [Escalation Trap arc](./arc-pape-escalation-trap.md) (Legs I–IV) · Pape **Day 3 ledger** (2026-03-02) · **Air-Power Illusion** (2026-03-03 — Leg IV) · forward [Mar 16 Pape × Crooke mosaic trap](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md)
 
 ## Purpose
 
@@ -81,7 +81,7 @@ Same-day **newsletter bench** — three registers on **Epic Fury day 4**:
 | US war purpose | **China/BRICS resource war** | **Illusion of rapid collapse** | **Israel blackmail** | **Stack** — Crooke **grand strategy** · Pape **coercion theory** · Simplicius **agency** |
 | If Iran survives | **NSS collapse** | **Escalation trap** deepens | **Regional chaos** prolonged | [Mar 16 lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) · [Escalation Trap arc](./arc-pape-escalation-trap.md) |
 
-**Usage:** **Crooke** → **why Hormuz/Fifth Fleet** matters to **China/BRICS** · **Pape** → **why bombing won't topple regime** → [opening thread Leg IV](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md#bridge--mar-3-air-power-illusion) or full season [Escalation Trap arc](./arc-pape-escalation-trap.md) · **Simplicius** → **day-4 loss/casualty receipts** + **negotiation-dead** chaos read
+**Usage:** **Crooke** → **why Hormuz/Fifth Fleet** matters to **China/BRICS** · **Pape** → **why bombing won't topple regime** → [Escalation Trap arc](./arc-pape-escalation-trap.md#bridge--mar-3-air-power-illusion) or full season [Escalation Trap arc](./arc-pape-escalation-trap.md) · **Simplicius** → **day-4 loss/casualty receipts** + **negotiation-dead** chaos read
 
 ## Same-day bench
 
@@ -91,7 +91,7 @@ Same-day **newsletter bench** — three registers on **Epic Fury day 4**:
 
 ## Cross-day return
 
-- **Back:** [Smart Bomb Trap thread](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) (Legs I–III) · [Escalation Trap arc](./arc-pape-escalation-trap.md) (Phases 0–III)
+- **Back:** [Escalation Trap arc](./arc-pape-escalation-trap.md#opening-week-phases-i-v) (Phases 0–III)
 - [Mercouris Mar 3 — Crooke expel-US-bases float](./2026-03-03-mercouris-wilkerson-attrition-downed-warplanes-wedge.md) cites **Crooke** political horizon
 - [Feb 17 Iran bench](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) — pre-war **Hormuz** → Crooke **closure**
 

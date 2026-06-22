@@ -127,7 +127,6 @@ Examples:
 - `arc-freeman-india-global-left-iran.md` — span in YAML (`2026-02-24` → `2026-06-11`)
 - `arc-jermy-iran-naval.md`
 - `arc-pape-escalation-trap.md`
-- `thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md`
 - `thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md`
 
 Omit hosts and guest names from the slug when primary + topic suffice.
@@ -146,7 +145,9 @@ parent_arc: <notes-relative-path>   # threads only, when nested
 
 ### Parent and child
 
-An **arc** may own one or more **threads** (narrower topic, shorter clock inside the same season). Link with `parent_arc:` on the thread and a reciprocal pointer in the arc prose — do not duplicate full spine bodies.
+An **arc** may own one or more **threads** when the thread is a **different sub-topic** inside the same season (narrower slug, shorter clock). Link with `parent_arc:` on the thread and a reciprocal pointer in the arc prose — do not duplicate full spine bodies.
+
+**Extend → retype:** When the **same** voice + topic outgrows ~30 days, **absorb** the thread into the arc (merge opening-week body, stub the old `thread-*` path, update links). Do **not** keep a parallel thread file for the same object.
 
 ### Three senses of “thread” (do not conflate)
 

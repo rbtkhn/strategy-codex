@@ -32,23 +32,21 @@ nodes:
   - source-archive/statecraft/2026-06-16/source-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md
   - source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md
   - source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md
-child_threads:
-  - thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md
 ```
 
 **Pub span:** 2026-02-25 → 2026-06-17 (~112 days; **arc** tier)  
 **Series:** [escalationtrap.substack.com](https://escalationtrap.substack.com)  
 **Parent:** [Pape source index](../voices/pape/pape-source-index.md) · [Pape person arc](../voices/pape/pape-arc.md) · [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md)
 
-**Child thread (opening-week Smart Bomb Trap — do not duplicate body here):** [thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md)
+**Hook prefix (opening essay tier):** **JF28-T1** (mirage) · **J01-T1** (trap confirmed) · forward **J16-T*** on Mar 16 matrix when run.
 
-**Reconciled:** 2026-06-22 · **Promoted from** [Smart Bomb Trap thread](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) · **Extended** through Day 100 / maximum-leverage phase per [Thread and arc](./README.md#thread-and-arc-canonical-draft)
+**Reconciled:** 2026-06-22 · **Absorbed** prior `arc-pape-escalation-trap.md` (extend → retype, not nest) · **Extended** through Phase XIV per [Thread and arc](./README.md#thread-and-arc-canonical-draft)
 
 ## Purpose
 
 Single-voice **season arc** for Pape’s **Escalation Trap** forecast object — the full ratchet grammar from pre-kinetic naming through kinetic opening, horizontal widen, chokepoint clocks, mid-war ledger, renewed smart-bomb-trap warning, ceasefire-breakdown horizontal escalation, and **survival-to-dominance** pivot at Day 100.
 
-**Smart Bomb Trap** = tactical-precision ratchet **inside** Escalation Trap (Feb 25 names it; May 23 re-enters at higher level). Opening-week density lives in the **child thread**; this arc owns **phase ladder + cross-month falsifiers**.
+**Smart Bomb Trap** = tactical-precision ratchet **inside** Escalation Trap (Feb 25 names it; May 23 re-enters at higher level). **Opening week (Phases I–V)** lives **in this arc** — see [§ Opening week](#opening-week-phases-i-v).
 
 **Not a substitute for:** [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) (Crooke **mosaic machine**) · Freeman/Ritter IGL arcs (multi-voice) · [pape-on-china-ai.md](./pape-on-china-ai.md) (industrial-AI topic).
 
@@ -56,7 +54,7 @@ Single-voice **season arc** for Pape’s **Escalation Trap** forecast object —
 
 ```text
 0    Feb 25–27   NAME + pattern — Smart Bomb Trap essay; Kosovo→Iran historical weight (pre-kinetic)
-I–V  Feb 28–16  OPENING — child thread: mirage → illusion → confirmed → air-power → global battlefield
+I–V  Feb 28–16  OPENING — mirage → illusion → confirmed → air-power → global battlefield (§ below)
 VI   Mar 7      WIDEN — quiet decisions redraw battlefield (Russia intel lifeline; horizontal trap)
 VII  Mar 27     THRESHOLD — Marine deployment line; ground-escalation fork
 VIII Apr 16–24  SUPPLY + DUAL CLOCK — supply wall; two blockades / two clocks
@@ -68,7 +66,7 @@ XIII Jun 15     MAX LEVERAGE — uncertain deal; Iran's peak bargaining window
 XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 governance deadline (+ BP interview adjacent)
 ```
 
-**Stacking rule:** Route **opening-week SBT reconciliation** → child thread. Route **why the war keeps widening** → this arc. Route **perfidy / trust** → Crooke weaves, not Pape alone.
+**Stacking rule:** Route **opening-week SBT reconciliation** → [§ Opening week](#opening-week-phases-i-v). Route **full season ratchet** → this arc. Route **perfidy / trust** → Crooke weaves, not Pape alone.
 
 ## Phase table (load-bearing anchors)
 
@@ -76,8 +74,7 @@ XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 go
 | --- | --- | --- | --- |
 | **0 — Name** | Feb 25 | [The Smart Bomb Trap](../../source-archive/statecraft/2026-02-25/source-pape-the-smart-bomb-trap-2026-02-25.md) | Precision expands wars it aims to contain; Stage I ≠ nuclear objective met |
 | **0 — Pattern** | Feb 27 | [From Kosovo to Iran](../../source-archive/statecraft/2026-02-27/source-pape-from-kosovo-to-iran-the-smart-bomb-2026-02-27.md) | Century template before kinetic proof |
-| **I–IV — Opening** | Feb 28 → Mar 3 | [Smart Bomb Trap thread](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) | Mirage → confirmed trap → air-power attrition |
-| **V — Global battlefield** | Mar 16 | [Iran's New Battlefield: Global Economy](../../source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md) | **16 days** vs **2–3 day** rhetoric; Hormuz → economic shock → political pressure — compare [trap × mosaic lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) |
+| **I–V — Opening** | Feb 28 → Mar 16 | [§ Opening week](#opening-week-phases-i-v) | Mirage → confirmed trap → air-power → global battlefield |
 | **VI — Widen** | Mar 7 | [Escalation Trap Widens](../../source-archive/statecraft/2026-03-07/source-pape-the-escalation-trap-widens-russias-2026-03-07.md) | Wars expand through quiet decisions, not announcements |
 | **VII — Threshold** | Mar 27 | [Marine Threshold](../../source-archive/statecraft/2026-03-27/source-pape-the-marine-threshold-5000-marines-2026-03-27.md) | Ground-escalation line; 5k Marines as strategic fork |
 | **VIII — Clocks** | Apr 16 | [Supply Wall](../../source-archive/statecraft/2026-04-16/source-pape-the-iran-war-is-about-to-hit-a-supply-2026-04-16.md) | Industrial/supply constraint enters center of gravity |
@@ -98,9 +95,94 @@ XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 go
 
 **Adjacent (index only — not arc YAML nodes):** May 27 oil repricing · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) · other interview-pressure anchors in [source index](../voices/pape/pape-source-index.md).
 
+## Opening week (Phases I–V)
+
+March **`trap` functional owner** (Pape). Three calendar days name the mechanism; Mar 3 and Mar 16 **extend** without replacing Legs I–III.
+
+### Trilogy spine (load-bearing sequence)
+
+| Leg | Title | Core claim | Quote anchor |
+| --- | --- | --- | --- |
+| **I** | Day 1 Mirage | **Spectacle ≠ strategy** — C2/missile hits; **408 kg 60% uranium** chain-of-custody **unchanged**; repression machinery **intact** → no paralysis | *Precision creates pressure for escalation without closure* |
+| **II** | Illusion of Control | Century pattern — **no modern regime** from air alone; foreign attack → **Iran first** nationalism; retaliation clock **not cable-news time** (Lockerbie lag) | *Strikes change internal politics first — rarely in the attacker's favor* |
+| **III** | Trap Confirmed | **Tactical success exactly as expected**; **strategic containment slipping** before first news cycle ends; **92M state math** — decapitation **activates** apparatus; **Epic Fury → Epic Escalation** | *Control was the premise. Momentum is the reality.* |
+| **IV** (bridge) | Air-Power Illusion (Mar 3) | Day 4 — **100% pattern** holds; **Mosaic Defense** + **escalation trap** when collapse absent | Bench with Crooke/Simplicius — do not merge here |
+| **V** (mature) | Mar 16 global battlefield | **16 days** vs **2–3 day** rhetoric; **Hormuz → economic shock → political pressure** chain | *That was 16 days ago* |
+
+**Preserved tension:** Leg I **same night** as kinetic strikes (event tier); Leg III **confirms** within hours — mechanism runs **faster** than historical Lockerbie lag (Leg II warning).
+
+### Leg I — Day 1 Mirage (Feb 28)
+
+Pape owns **material + coercive continuity**:
+
+- Targets: AD, missiles, intel HQ, drone plants — **not** enrichment storage
+- **60% / 20% / 3.5%** stockpiles unaccounted ≠ destroyed
+- If war aim was nuclear, Day 1 **did not change material reality**
+- Basij, armor, missiles, mining — **not paralyzed**; 3k–30k protester repression scale cited
+- **Smart Bomb Trap** named in closing — tactical precision **substitutes** for strategic problem
+
+**Same-day context (do not merge into Pape row):** [Crooke diplomacy end](../../source-archive/statecraft/2026-02-28/source-crooke-the-end-to-deceptive-trumpian-diplomacy-2026-02-28.md) = **trust lane**; Mercouris/Davis = **live fog** tier.
+
+### Leg II — Illusion of Control (Feb 28)
+
+Pape owns **historical weight + political physics**:
+
+- Kosovo-to-Iran: **decisive / clean / controlled** feel vs **strategic momentum**
+- Milošević 1999 — 51 targets → **million displaced** in two weeks
+- Reagan 1986 Libya — Qaddafi missed; **Lockerbie two years later**
+- 1991 **Instant Thunder** — 250 targets; Saddam **core held**
+- **Rise up** calls (Bush 1991 Shia) — **who pays** when repression machinery intact (links Leg I)
+
+**Forward falsifier:** If **IRGC mass defection** or **regime collapse** in week 1, Leg II–III **partially falsified** — [Mar 3 negative space](../daily/2026-03-03.md) watches.
+
+### Leg III — Smart Bomb Trap Confirmed (Mar 1)
+
+Pape owns **phase transition + state math**:
+
+- **30–40** senior kills — **expected** tactically
+- Retaliation **within hours** — Tel Aviv, Al Udeid, Al Dhafra, Kuwait, Jordan, Bahrain
+- **92M** population; **~1/8** in state-linked institutions — killing dozens touches **fraction** of mesh
+- Succession **activated**; IRGC **cohesive**; nationalism **replaces uncertainty**
+- **Greater tactical success → stronger political necessity to answer**
+- Administration frame: **speed + containment** vs events → **Epic Escalation**
+
+**Mercouris correction row (parallel tier, not Pape error):** Feb 28 early **officials alive** → Mar 1 **mass death confirmed** — trap mechanism **independent** of kill-claim tier fork.
+
+### Bridge — Mar 3 air-power illusion
+
+Opening-week **day 4** receipt — full bench in [Crooke × Pape × Simplicius](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md).
+
+Pape-only carry:
+
+- **No regime fell from bombing alone** in modern history — **uniform pattern**
+- Decapitation **hardens loyalty**; **Mosaic Defense** institutionalized
+- **Escalation trap** when promised collapse **absent**
+
+### Mature form — Mar 16 lattice (Pape leg only)
+
+Primary capture: [Iran's New Battlefield: Global Economy](../../source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md) · Compare register: [Mar 16 Pape × Crooke](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md).
+
+Pape additions at mid-month:
+
+- **Two or three days** rhetoric vs **sixteen days** elapsed
+- **Control Hormuz → economic shocks → political pressure** — center of gravity **migrates**
+- Tactical opening **as planners expected** — then **widening strategic obligation**
+
+**Stacking rule:** Pape arc (opening I–V) = **why opening success compels ratchet**; Crooke Mar 16 = **why opening success did not touch operating system** — use **both** at Mar 16; do not collapse to single voice.
+
+### Opening-week reconciliation
+
+| Question | Leg I | Leg II | Leg III | Rule |
+| --- | --- | --- | --- | --- |
+| Uranium / nuclear aim | **Unchanged** materially | (secondary) | Trap **irrelevant** to fissile chain | I owns **material** |
+| Regime paralysis | **No** — repression intact | Politics **reorganize** outward | **Activation** not fracture | I **fact** · II **pattern** · III **mechanism** |
+| Retaliation timing | Same day regional | **Years** possible (Lockerbie) | **Hours** — trap **visible** fast | **Preserve** — II warning ≠ III speed |
+| Trump bounded war | (silent) | History **weight** | **Epic Escalation** vs Vance | III vs admin **fiction** |
+| Crooke trust/deception | [Separate weave target](../daily/2026-02-28.md) | — | Perfidy **compatible** with trap | Trap ≠ trust lane |
+
 ## Reconciliation (arc tier)
 
-| Question | Opening thread | Mid arc (Mar–Apr) | Late arc (May–Jun) | Rule |
+| Question | Opening (I–V) | Mid arc (Mar–Apr) | Late arc (May–Jun) | Rule |
 | --- | --- | --- | --- | --- |
 | Mechanism name | **Smart Bomb Trap** | **Escalation Trap widens** | **Trap gets worse** → **survival→dominance** | SBT ⊂ Escalation Trap |
 | Center of gravity | Material + coercive state | Chokepoints + supply | Diplomacy-under-fire → **leverage peak** → **MoU governance clock** | Clock **migrates** |
@@ -111,23 +193,25 @@ XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 go
 
 ## Falsifiers (arc tier)
 
-1. **Quick regime collapse / mass IRGC defection** — falsifies opening Legs II–III; child thread watches
-2. **Clean 48h / 72h war** — falsifies clock migration (Leg V + arc Phases VIII–IX)
-3. **Hormuz sustained open + no Gulf entanglement** — narrows Phases VI–VIII
-4. **No ground threshold crossed by Apr** — softens Phase VII
-5. **Durable ceasefire holding through Jun** — falsifies Phases XI–XII; Jun 2–3 **bombing-while-talking** nodes load-bear
-6. **May 23 strike wave absent** — Phase X **warning branch** only (forecast tier)
-7. **Iran still in pure survival mode at Day 100** — falsifies Phase XII dominance pivot
-8. **US secures favorable deal before leverage peak** — falsifies Phase XIII; **partially falsified** if MOU ratified on Iranian terms (Phase XIV)
-9. **MoU produces durable Hormuz settlement** — falsifies Phase XIV **governance-deadline** read; watch [Jun 18 MOU seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) Pt. 5 sixty-day fuse
-10. **CIA/Ratcliffe seriousness read wrong — Iran fully concedes nuclear lane** — falsifies Phase XIV interview branch (verify tier)
+1. **Quick regime collapse / mass IRGC defection** — falsifies opening Legs II–III; [Mar 3 negative space](../daily/2026-03-03.md) watches
+2. **Clean 48h / 72h war** — falsifies Leg V clock + Phases VIII–IX
+3. **Ceasefire within 72h of Mar 1** — falsifies opening ratchet; **JF03-F2** / perfidy arc
+4. **Hormuz sustained open + no Gulf entanglement** — narrows Phases VI–VIII
+5. **No ground threshold crossed by Apr** — softens Phase VII
+6. **Durable ceasefire holding through Jun** — falsifies Phases XI–XII; Jun 2–3 **bombing-while-talking** nodes load-bear
+7. **May 23 strike wave absent** — Phase X **warning branch** only (forecast tier)
+8. **Iran still in pure survival mode at Day 100** — falsifies Phase XII dominance pivot
+9. **US secures favorable deal before leverage peak** — falsifies Phase XIII; **partially falsified** if MOU ratified on Iranian terms (Phase XIV)
+10. **MoU produces durable Hormuz settlement** — falsifies Phase XIV **governance-deadline** read; watch [Jun 18 MOU seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) Pt. 5 sixty-day fuse
+11. **CIA/Ratcliffe seriousness read wrong — Iran fully concedes nuclear lane** — falsifies Phase XIV interview branch (verify tier)
+12. **Wire debunk leadership kill** — tier fork only; **trap mechanism** may still load-bear on retaliation + entanglement (opening Leg III)
 
 ## Cross-day return
 
-- **Child:** [Smart Bomb Trap thread](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) — Legs I–V reconciliation table
-- **Mid-month compare:** [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) — trap vs mosaic (use with thread Leg V)
+- **Opening week:** [Feb 3 power formula](../daily/2026-02-03.md) · [Feb 17 Hormuz partial](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · [Feb 28](../daily/2026-02-28.md) · [Mar 1](../daily/2026-03-01.md) · [Mar 3](../daily/2026-03-03.md)
+- **Mid-month compare:** [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) — trap vs mosaic (Phase V)
 - **Bench:** [Pape × Crooke opening-strike](./2026-02-28-pape-crooke-opening-strike-bench-weave.md) · [Crooke × Pape × Simplicius Mar 3](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md)
-- **Adjacent:** May 27 energy repricing · [Helmer five terms](./arc-helmer-iran-five-terms.md) · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md)
+- **Forward:** [Mar 24 five terms](../daily/2026-03-24.md) · May 27 energy repricing · [Helmer five terms](./arc-helmer-iran-five-terms.md) · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md)
 - **Person shelf:** [pape-arc.md](../voices/pape/pape-arc.md) · [forecast ledger](../voices/pape/stream/pape-forecast-ledger-2026.md)
 
-**Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) · **Opened:** 2026-06-22 · **Extended:** 2026-06-22 (Phases XII–XIII) · **2026-06-22** (Phase XIV — MoU / Stage IV)
+**Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) · **Opened:** 2026-06-22 · **Consolidated:** 2026-06-22 (thread absorbed into arc)
