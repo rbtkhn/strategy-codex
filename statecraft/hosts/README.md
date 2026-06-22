@@ -29,6 +29,7 @@ Do not flatten guest-on-host reads into `voices/` when host law changes retrieva
 - [Davis](davis/README.md)
 - [Napolitano](napolitano/README.md)
 - [Nima (Dialogue Works)](nima/README.md)
+- [Neutrality Studies](neutrality-studies/README.md)
 
 [Davis](davis/README.md) and [Napolitano](napolitano/README.md) are the highest-leverage hosts for feasibility vs legal/process pressure:
 

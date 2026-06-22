@@ -52,6 +52,18 @@ Best first-open for February 2025 continuity:
 
 - [stream/mercouris-shelf-2025-02.md](stream/mercouris-shelf-2025-02.md)
 
+## 2025-11 — Pokrovsk inflection month
+
+November solo run = **energy strikes + Pokrovsk/Kupyansk/Zaporozhye collapse geometry** — pairs with **Jermy strategic forecast** one week earlier on Davis.
+
+**Cross-weave:** [Jermy × Mercouris Pokrovsk week (2025-11-06)](../../notes/2025-11-06-jermy-mercouris-pokrovsk-strategic-weave.md) · [November benchmark](../../notes/november-2025-benchmark-note.md) · [November repair note](../../notes/mercouris-november-2025-repair-note.md)
+
+**Pokrovsk-week hinge anchors:**
+
+- [2025-11-10 | Inflection point; Pokrovsk surrender; Zaporozhye/Kharkov](../../../source-archive/statecraft/2025-11-10/source-alex-mercouris-kiev-faces-worst-defeat-russia-tells-pokrovsk-troops-to-surrender-breaks-through-zaporozhye-kharkov-2025-11-10.md)
+- [2025-11-14 | Kiev darkest day; gives up Pokrovsk](../../../source-archive/statecraft/2025-11-14/source-alex-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md)
+- [2025-11-20 | Istanbul+ / Kellogg quit / EU stunned](../../../source-archive/statecraft/2025-11-20/source-alex-mercouris-kiev-defeats-force-us-u-turn-accept-istanbul-plus-kellogg-quits-kiev-eu-stunned-say-no-war-crisis-2025-11-20.md)
+
 ## 2026-01 Greenland week — Jan 20 cross-weave
 
 Same-day **Greenland crisis** — route Mercouris **solo institutional braid** against guest-pair registers; do **not** collapse into one verdict.
@@ -65,3 +77,18 @@ Same-day **Greenland crisis** — route Mercouris **solo institutional braid** a
 **Synthesis object:** [Jan 20 Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) · [Jan 20 Davos Dmitriev — Helmer × Mercouris](../../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
 
 **January Greenland arc (solo stream):** [2026-01-18 tariffs](../../../source-archive/statecraft/2026-01-18/source-alex-mercouris-trump-hits-uk-eu-big-greenland-tariffs-uk-eu-rage-in-shock-without-plan-2026-01-18.md) · [2026-01-19 Nobel/Gaza board](../../../source-archive/statecraft/2026-01-19/source-alex-mercouris-trump-mocks-eu-on-nobel-prize-and-greenland-invites-putin-gaza-board-big-2026-01-19.md) · **2026-01-20** (stub) · prehistory [2025-01-08 Greenland](../../../source-archive/statecraft/2025-01-08/source-alex-mercouris-trump-shock-fortress-america-greenland-no-ukraine-nato-europe-shock-iran-2025-01-08.md)
+
+## 2026-06 — Konstantinovka / Oreshnik / MOU month
+
+June should be read as the month where **Donbas collapse geometry**, **Oreshnik industrial scaling**, **Iran–US MOU theater**, and **Anchorage closure** braid into one escalation object — negotiation door shut, battlefield and strike tempo forward.
+
+Best first-open for June 2026 continuity:
+
+- [stream/mercouris-shelf-2026-06.md](stream/mercouris-shelf-2026-06.md)
+
+**June hinge anchors:**
+
+- [2026-06-01 | Syrsky/Budanov; Konstantinovka crisis; drones fade](../../../source-archive/statecraft/2026-06-01/source-alex-mercouris-zelensky-to-sack-syrsky-appoint-budanov-kiev-army-chief-kiev-s-konstantinovka-crisis-drones-fade-2026-06-01.md)
+- [2026-06-05 | Putin uncompromising; Oreshnik will strike Kiev; Russia winning](../../../source-archive/statecraft/2026-06-05/source-alex-mercouris-putin-uncompromising-tells-west-msm-oreshnik-will-strike-kiev-russia-winning-zelensky-pleads-summit-2026-06-05.md)
+- [2026-06-16 | US–Iran agree MOU; sea blockade; neocons/Israel furious](../../../source-archive/statecraft/2026-06-16/source-alex-mercouris-us-iran-agree-mou-sea-blockade-neocons-israel-furious-putin-trump-ignore-uk-eu-2026-06-16.md)
+- [2026-06-21 | Ushakov: Anchorage over; military victory; Oreshnik scale; Starmer goes](../../../source-archive/statecraft/2026-06-21/source-alex-mercouris-kremlin-says-talks-with-us-failed-russia-seeks-victory-kiev-strike-starmer-goes-2026-06-21.md) — **cleaned transcript** (2026-06-22 intake; source-clean + Oreshnik ASR spot-fix)

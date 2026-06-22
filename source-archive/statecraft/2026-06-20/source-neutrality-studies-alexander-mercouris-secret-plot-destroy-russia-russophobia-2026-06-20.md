@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-20
 pub_date: 2026-06-12
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 host_people:
   - Pascal Lottaz
 guest_people:
@@ -24,12 +24,14 @@ channel_slug: neutrality-studies
 channel_url: "https://www.youtube.com/@NeutralityStudies"
 source_url: "https://www.youtube.com/watch?v=Vf85Vvu1ym8"
 youtube_id: Vf85Vvu1ym8
-source_note: Operator-pasted YouTube transcript; Neutrality Studies × Mercouris; host self-date 12 Jun 2026 (Russophobia conference follow-on). Post-Napoleon British/French manufactured Russophobia; Custine/Doré tropes; political-geopolitical driver vs cultural embed; good Russian vs evil Russia; 1917 agency denial; fear+hate dual strain; Gorbachev/West asymmetry; NATO exclusion subtext; antidotes (UN/Global South call-out, society-building, cultural contact); EU flight ban fragility; Killing Eve / From Russia with Love / Fleming shift.
+source_note: "Operator-pasted YouTube transcript; Neutrality Studies × Mercouris; host self-date 12 Jun 2026 (Russophobia conference follow-on). Post-Napoleon British/French manufactured Russophobia; Custine/Doré tropes; political-geopolitical driver vs cultural embed; good Russian vs evil Russia; 1917 agency denial; fear+hate dual strain; Gorbachev/West asymmetry; NATO exclusion subtext; antidotes (UN/Global South call-out, society-building, cultural contact); EU flight ban fragility; Killing Eve / From Russia with Love / Fleming shift. · source-clean pass 2026-06-22."
 evidence_grade: transcript-bearing
 opening_tier: host-guest-interview
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio.
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (mercouris, lottaz, channel:neutrality-studies)); 2 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-22; ph-civ replacement SSOT."
 ---
 # The Secret Plot to Destroy Russia | Alexander Mercouris
 

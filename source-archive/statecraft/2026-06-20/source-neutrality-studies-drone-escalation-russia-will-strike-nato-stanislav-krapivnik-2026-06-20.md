@@ -1,10 +1,10 @@
 ---
 ingest_date: 2026-06-20
 pub_date: 2026-06-20
-kind: transcript
+kind: cleaned-transcript
 source_form: interview
 source_type: youtube
-transcript_type: operator_pasted_youtube_transcript
+transcript_type: ai_assisted_operator_pasted_youtube_transcript
 title: "Drone Escalation: Russia Will Strike NATO | Stas Krapivnik"
 source_url: "https://www.youtube.com/watch?v=IkhHGmRJ_jg"
 youtube_id: IkhHGmRJ_jg
@@ -20,14 +20,15 @@ channel_name: Neutrality Studies
 thread: krapivnik
 threads: ""
 thread_expert: krapivnik
-source_note: Operator-pasted transcript; Neutrality Studies × Krapivnik; pub_date pinned to ingest day 2026-06-20 (no spoken self-date in body). Moscow drone wave mood; Europe drone mass-production; Konstantinovka/Slavyansk front read; terrorism register (Sarab dormitory, buses, memorial); NATO spillover (Romania Constanta near-miss); Slovakia-first-strike ladder; Iran MOU theater + Vance Geneva off; Larry Johnson generals “won Iran” delusion.
+source_note: "Operator-pasted transcript; Neutrality Studies × Krapivnik; pub_date pinned to ingest day 2026-06-20 (no spoken self-date in body). Moscow drone wave mood; Europe drone mass-production; Konstantinovka/Slavyansk front read; terrorism register (Sarab dormitory, buses, memorial); NATO spillover (Romania Constanta near-miss); Slovakia-first-strike ladder; Iran MOU theater + Vance Geneva off; Larry Johnson generals “won Iran” delusion. · source-clean pass 2026-06-22."
 evidence_grade: transcript-bearing
 opening_tier: host-guest-interview
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio.
 transcript_wrapper_tier: clean
+normalization_state: ai_assisted_proper_noun_cleanup
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (krapivnik, channel:neutrality-studies)); 7 substitutions; not human-verified verbatim; verify before quotation."
+quality_note: "ASR normalization pass 2026-06-22; ph-civ replacement SSOT."
 ---
-
 # Drone Escalation: Russia Will Strike NATO | Stas Krapivnik
 
 **Show:** Neutrality Studies · **Host:** Pascal Lottaz · **Guest:** Stanislav Krapivnik  
@@ -51,9 +52,9 @@ actually changing the the forcing a change of the calculation right I mean winni
  Obviously uh I think the realization's finally starting to hit in that no matter what is left of Ukraine, it's just going to be used as a terrorist uh base. What is not being told uh in when you were in Russia recently uh maybe you saw it on the news is the total switch toward terrorism. absolute abject terrorism by the West uh and their proxy in Ukraine.
  And I'm going to say the West because the West is absolutely guilty and swimming in Russian blood. It's the West that's producing these drones. It's the West that's enabling the terrorism. Uh and just a few incidents uh just to run down a few incidents outside of the strike on Moscow which except for a couple strikes on the Moscow uh uh oil uh oil refinery uh which were strikes if you look at they again they they weren't strikes in the refinery they were strikes on the storage facilities.
  Uh there's picture one of the lids flying off. Uh these are relatively easy to replace. Refineries, like I' I've said many times, are very difficult to destroy. Uh they're easy to damage, but they're equally easy to re repair. Uh and the problem is uh you know, pipes, blasted pipes with no fire don't make a good picture for Western media.
- Uh they that's where they strike the storage facilities. They go boom really big. Uh and it makes a big picture which then the West spreads all over. uh to to keep from having to talk about Constantinfka falling uh from uh Djinka which is the southern uh town of the Djinka Kmatorsk um Slavinsk conglomeration glamoration being surrounded now uh from two sides Russia's breaking through north to it uh from Doia DNR they've broken away started going north so they're coming behind this conglomeration.
+ Uh they that's where they strike the storage facilities. They go boom really big. Uh and it makes a big picture which then the West spreads all over. uh to to keep from having to talk about Konstantinovka falling uh from uh Djinka which is the southern uh town of the Djinka Kmatorsk um Slavinsk conglomeration glamoration being surrounded now uh from two sides Russia's breaking through north to it uh from Doia DNR they've broken away started going north so they're coming behind this conglomeration.
  Uh and then there's Russian forces about six kilometers away from Kromatsk itself and that and Slavins and Karan is basically almost fully in Russian hands uh which opens up strikes directly on the Slavins from the north. So they keep talking from that or the is surrounded from three directions or that it's while Russian forces aren't quite up to Roof itself.
- They're about 5 kilometers out. Drone wise, Rohov is and artillery wise, it's in full tactical uh surround fully tactically u surrounded um and cut off by drones and artillery on N08 uh highway. Uh so that's the last uh in Zaporosia in central Zaporosia. It's the last big fortress uh that fortifying town.
+ They're about 5 kilometers out. Drone wise, Rohov is and artillery wise, it's in full tactical uh surround fully tactically u surrounded um and cut off by drones and artillery on N08 uh highway. Uh so that's the last uh in Zaporozhye in central Zaporozhye. It's the last big fortress uh that fortifying town.
  after that it's just villages up to Zaparosa city itself the or that Russian forces are now within about five kilometers of Sunumi uh to keep to talking that they've moved into total terrorism and just as a few examples of terrorism first of all uh those flights the majority of the drones that did get through they weren't striking order fighters they're striking apartment buildings uh I I don't know if I sent you one of the videos uh you might have seen them uh I mean these drones they're not falling on apartment buildings buildings are not uh clipping up
 apartment buildings by mistake. They they're targeted uh directly into the center of apartment buildings, large apartment buildings. Occasionally uh uh single family residence houses to also sorry about that. Um but a quick rundown on uh just a few terrorist uh incidents over the last uh two weeks.
  Uh well, we all know about Sarab except in the west nobody knows about Sarab. That's the dormatory. Uh 21 children uh killed, 19 girls, three boys, uh 40 plus injured, 16 drones. So when the West was finally trying to acknowledge that, well, yeah, it is something the rocket went off course or something didn't go right.

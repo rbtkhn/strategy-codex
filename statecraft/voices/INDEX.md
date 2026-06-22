@@ -19,9 +19,11 @@ For LLM/agent dispatch across the whole repo, open [LLM-ROUTING.md](../../LLM-RO
 | Helmer | [helmer/helmer-source-index.md](helmer/helmer-source-index.md) |
 | Hoh | [hoh/hoh-source-index.md](hoh/hoh-source-index.md) |
 | Jiang | [jiang/jiang-source-index.md](jiang/jiang-source-index.md) |
+| Jermy | [jermy/jermy-source-index.md](jermy/jermy-source-index.md) |
 | Johnson | [johnson/johnson-source-index.md](johnson/johnson-source-index.md) |
 | Karaganov | [karaganov/karaganov-source-index.md](karaganov/karaganov-source-index.md) |
 | Kent | [kent/kent-source-index.md](kent/kent-source-index.md) |
+| Krapivnik | [krapivnik/krapivnik-source-index.md](krapivnik/krapivnik-source-index.md) |
 | Lascaris | [lascaris/lascaris-source-index.md](lascaris/lascaris-source-index.md) |
 | Macgregor | [macgregor/macgregor-source-index.md](macgregor/macgregor-source-index.md) |
 | Marandi | [marandi/marandi-source-index.md](marandi/marandi-source-index.md) |
