@@ -31,7 +31,7 @@ Boundary note: this file is the canonical **source-index** and therefore the ord
 
 ## 2026-01
 - [transcript-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06](../../../source-archive/statecraft/2026-01-06/source-diesen-crooke-decline-irrationality-war-on-iran-2026-01-06.md)
-- [substack-crooke-the-rubican-crossed-team-trumps-nihilistic-2026-01-08](../../../source-archive/statecraft/2026-01-08/source-crooke-the-rubican-crossed-team-trumps-nihilistic-2026-01-08.md)
+- [substack-crooke-the-rubican-crossed-team-trumps-nihilistic-2026-01-08](../../../source-archive/statecraft/2026-01-08/source-crooke-the-rubican-crossed-team-trumps-nihilistic-2026-01-08.md) — Rubicon / Maduro abduction; vulture co-opt (Rodriguez); nihilistic anti-values; Greenland acquire; EU moral pose ripped · **cross-weave:** [Jermy × Mercouris × Crooke Jan-8](../../notes/2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave.md)
 - [substack-crooke-deciphering-trumps-externalised-internal-2026-01-15](../../../source-archive/statecraft/2026-01-15/source-crooke-deciphering-trumps-externalised-internal-2026-01-15.md)
 - [substack-crooke-what-may-be-the-greenland-endgame-2026-01-21](../../../source-archive/statecraft/2026-01-21/source-crooke-what-may-be-the-greenland-endgame-2026-01-21.md)
 - [substack-crooke-will-he-wont-he-taco-on-iran-2026-01-24](../../../source-archive/statecraft/2026-01-24/source-crooke-will-he-wont-he-taco-on-iran-2026-01-24.md)

@@ -14,7 +14,7 @@ Purpose: canonical statecraft-side source index for **Commodore Steve Jermy** wh
 
 ## Corpus note
 
-- **3** materialized captures on disk (2025-11-06, 2025-12-12 Davis; 2026-06-20 Neutrality); recurring guest on **Neutrality Studies** and **Daniel Davis Deep Dive**
+- **4** materialized captures on disk (2025-11-06, 2025-12-12, 2026-01-08 Davis; 2026-06-20 Neutrality); recurring guest on **Neutrality Studies** and **Daniel Davis Deep Dive**
 - **`thread: jermy`** on Neutrality Studies lands from 2026-06-20 intake onward; Davis Deep Dive from 2025-11-06
 - Substack **Mor Gallas** — cited in-interview only; no authored capture in archive yet
 
@@ -25,6 +25,10 @@ Purpose: canonical statecraft-side source index for **Commodore Steve Jermy** wh
 ## 2025-12
 
 - [2025-12-12 | Davis Deep Dive × Jermy | Oil, drugs Venezuela & Colombia; Trump NSS](../../../source-archive/statecraft/2025-12-12/source-daniel-davis-deep-dive-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md) — Caribbean buildup (C-5/F-35/Iwo Jima); Weinberger fail; counter-drug pretext vs oil; Machado unpopular; tripolar NSS; E3 vs US interest; Starmer Commons; cult thinking / Radakin heart-vs-head · **cross-weave:** [Jermy × Mercouris × Freeman/Wilkerson Dec-12](../../notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md)
+
+## 2026-01
+
+- [2026-01-08 | Davis Deep Dive × Jermy | Fate of Greenland & Venezuela (post-Maduro snatch)](../../../source-archive/statecraft/2026-01-08/source-daniel-davis-deep-dive-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md) — Miller/Biggs predator hemisphere; Greenland Article 5 / European tripwire; Starmer special-relationship bind (Wilson Vietnam / Blair Iraq); Paris 800k army theatre; Austria neutrality; Venezuela EROEI / 50–100B / 7–15y; tripolar energy-industrial balance; peak oil (Berman/Doomberg); CIA-inside-regime read · **cross-weave:** [Jermy × Mercouris × Crooke Jan-8](../../notes/2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave.md)
 
 ## 2026-06
 

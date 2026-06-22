@@ -24,6 +24,12 @@ Open Davis first when the dominant failure mode is:
 
 Use **`source-archive/statecraft/YYYY-MM-DD/day-index.md`** for full day lists.
 
+### 2026-01-08 — Jermy (Greenland / Venezuela post-Maduro)
+
+| Guest | Capture |
+| --- | --- |
+| **Commodore Steve Jermy** | [Fate of Greenland & Venezuela; post-Maduro snatch](../../../source-archive/statecraft/2026-01-08/source-daniel-davis-deep-dive-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · [Jan-8 three-way weave](../../notes/2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave.md) |
+
 ### 2025-12-12 — Jermy (Venezuela / NSS week)
 
 | Guest | Capture |
