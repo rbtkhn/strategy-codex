@@ -235,6 +235,36 @@ Cross-speaker AI object set — **do not merge speaker bodies**. Open [risk-arti
 
 Legacy redirect: [jiang-on-china-ai.md](./jiang-on-china-ai.md) → `jiang-on-ai.md`.
 
+### MOU enforcement cluster (J18+)
+
+Cross-speaker MOU / settlement enforcement — **do not merge guest registers**. Open [risk-mou-enforcement.md](./risk-mou-enforcement.md) first for **risk register + agent routing**; open [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) for **J18 convergence spine**.
+
+| Role | Note |
+| --- | --- |
+| **Entry / risk routing** | [risk-mou-enforcement.md](./risk-mou-enforcement.md) |
+| **Convergence spine** | [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) |
+| **Episode / citation splits** | [june-18-2026-mou-guest-pair-citation-split.md](./june-18-2026-mou-guest-pair-citation-split.md) |
+| **Dual-register clocks** | [june-18-2026-mou-material-vs-sabotage-lens.md](./june-18-2026-mou-material-vs-sabotage-lens.md) |
+| **Live falsifier (#3)** | [june-18-2026-mou-falsifier-3-standoff-watch.md](./june-18-2026-mou-falsifier-3-standoff-watch.md) |
+| **Hormuz governance fuse** | [june-18-2026-mou-hormuz-governance-armistice-note.md](./june-18-2026-mou-hormuz-governance-armistice-note.md) |
+| **Dahhiya backfire** | [june-18-2026-mou-dahhiya-backfire-mou-terms-note.md](./june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) |
+| **Dem torpedo seam** | [june-17-2026-mou-dem-co-ownership-torpedo-note.md](./june-17-2026-mou-dem-co-ownership-torpedo-note.md) |
+| **§224 legislative bind** | [barnes-johnson-aguilar-kent-on-section-224.md](./barnes-johnson-aguilar-kent-on-section-224.md) · [us-israel-military-integration-captured-command-risk.md](./us-israel-military-integration-captured-command-risk.md) |
+| **Pape tripwires** | [arc-pape-escalation-trap.md](./arc-pape-escalation-trap.md) (Phase XV) |
+
+### Hormuz / chokepoint cluster
+
+Cross-temporal chokepoint object (Feb maneuver → Jun MOU Pt. 5 → wire dual-grammar). Open [risk-hormuz-chokepoint.md](./risk-hormuz-chokepoint.md) first for **chokepoint risk register**; open [risk-mou-enforcement.md](./risk-mou-enforcement.md) when MOU registers beyond Hormuz are load-bearing.
+
+| Role | Note |
+| --- | --- |
+| **Entry / risk routing** | [risk-hormuz-chokepoint.md](./risk-hormuz-chokepoint.md) |
+| **Feb 17 bench weave** | [2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) |
+| **Inquiry ladder stress test** | [iran-war-inquiry-ladder-stress-test.md](./iran-war-inquiry-ladder-stress-test.md) |
+| **Pt. 5 governance trap** | [june-18-2026-mou-hormuz-governance-armistice-note.md](./june-18-2026-mou-hormuz-governance-armistice-note.md) |
+| **MOU enforcement (full)** | [risk-mou-enforcement.md](./risk-mou-enforcement.md) |
+| **Five-terms / root causes** | [2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md](./2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) |
+
 ### Speaker-Derived And Machine Notes
 
 - **AI cluster** — canonical set at [§ Artificial intelligence cluster](#artificial-intelligence-cluster); entry [risk-artificial-intelligence.md](./risk-artificial-intelligence.md)

@@ -8,6 +8,8 @@ Preserve the **J18 MOU-day convergence map** across landed guest registers: wher
 
 This note is the **convergence spine** for `2026-06-18`. It does not replace daily synthesis or archive truth.
 
+**Cluster entry (agent routing):** [risk-mou-enforcement.md](./risk-mou-enforcement.md) — cross-voice enforcement risk register + do-not-flatten law. Open **this note** for J18 agreement/divergence map; open **risk register** for register allocation without re-reading the full spine.
+
 **Child notes:**
 
 - [june-18-2026-mou-guest-pair-citation-split.md](./june-18-2026-mou-guest-pair-citation-split.md) — Johnson ×2 and Blumenthal/Macgregor episode routing
