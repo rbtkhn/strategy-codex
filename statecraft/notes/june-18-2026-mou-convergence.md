@@ -13,8 +13,10 @@ This note is the **convergence spine** for `2026-06-18`. It does not replace dai
 - [june-18-2026-mou-guest-pair-citation-split.md](./june-18-2026-mou-guest-pair-citation-split.md) — Johnson ×2 and Blumenthal/Macgregor episode routing
 - [june-18-2026-mou-material-vs-sabotage-lens.md](./june-18-2026-mou-material-vs-sabotage-lens.md) — Macgregor/Davis fuse clock vs Blumenthal/Henningsen process clock
 - [june-18-2026-mou-falsifier-3-standoff-watch.md](./june-18-2026-mou-falsifier-3-standoff-watch.md) — only live falsifier (#3); retest ~Jul 2–9
-- [june-18-2026-mou-hormuz-governance-armistice-note.md](./june-18-2026-mou-hormuz-governance-armistice-note.md) — Pape Day 60 Pt. 5 governance fuse (~mid-Aug)
+- [june-18-2026-mou-hormuz-governance-armistice-note.md](./june-18-2026-mou-hormuz-governance-armistice-note.md) — Pape Day 60 Pt. 5 governance fuse (~mid-Aug); **Phase XV tripwire #3**
 - [june-18-2026-mou-dahhiya-backfire-mou-terms-note.md](./june-18-2026-mou-dahhiya-backfire-mou-terms-note.md) — Crooke Dahhiya provocation → Trump improved MOU terms (tier 4 until wire)
+
+**Pape Phase XV (Jun 22):** [Getting the Framework Right](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) · [Escalation Trap arc](./arc-pape-escalation-trap.md) — power-not-money framework; three tripwires mapped to J18 seams below.
 
 **Parent context:** twelve sources in `source-archive/statecraft/2026-06-18/`; [2026-06-18 daily](../daily/2026-06-18.md) published; **Crooke hubris** + **Aguilar Moral Resistance** + **Krainer Dialogue Works** patch 2026-06-19; **`verify:`** on MOU-core captures including Krainer.
 
@@ -169,6 +171,19 @@ The MOU is **real on the battlefield, thin on paper**. Iran won a **material-str
 | Vance words vs NDAA/IAA action; Huckabee split | **Aguilar** Moral Resistance J18 |
 | Capitulation register; midnight sanctions lift; §224/622 bind | **Krainer** Dialogue Works J18 |
 | Coupled US–Israel track / constraint spectrum | **Aguilar** + **Johnson** Lebanon ep |
+| Pape **power-not-money** framework + three tripwires | [Jun 22 framework essay](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md); tripwire map → [Hormuz governance note](./june-18-2026-mou-hormuz-governance-armistice-note.md#phase-xv-tripwire-map-pape-jun-22) |
+
+## Phase XV tripwire overlay (Pape Jun 22)
+
+Load-bearing **operational red lines** from [Getting the Framework Right](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) — route to J18 seams, not a second convergence spine:
+
+| Tripwire | MOU | J18 seam / child note | Wire hook (2026-06-19 pass) |
+|---|---|---|---|
+| **#1 S. Lebanon ops** | Art. 1 | **Seam 1** Lebanon; [material vs sabotage](./june-18-2026-mou-material-vs-sabotage-lens.md) process clock | Falsifier #1 **Contradicted** — security zone holds |
+| **#2 Asset delay ~10d** | Art. 11 | **Seam 3** frozen-funds row; **Davis** perform-first | Falsifier #2 **Contradicted** — no upfront release |
+| **#3 Hormuz fee interference** | Art. 5 | **Seam 3** Hormuz; [Hormuz governance note](./june-18-2026-mou-hormuz-governance-armistice-note.md) | Pt. 5 sixty-day fuse ~mid-Aug; WSJ Fri traffic dip (Pape cite — verify) |
+
+**Enrichment (ultimate red line):** Art. 8 — Phase XV; outside J18 convergence batch. **Arc:** [Escalation Trap Phase XV](./arc-pape-escalation-trap.md).
 
 ## Source anchors
 
@@ -235,7 +250,7 @@ All paths under `source-archive/statecraft/2026-06-18/`.
 
 **Open falsifiers:** **#3 only** (time-gated — standoff fuse running); #1–2, #4–6 **not triggered** at 2026-06-19 wire pass. **#10 watch** — legislative bind **partial** (bills advancing; Vance block unclear); retest floor vote.
 
-**Child notes (2026-06-19):** [falsifier #3 standoff watch](./june-18-2026-mou-falsifier-3-standoff-watch.md) · [Hormuz governance armistice](./june-18-2026-mou-hormuz-governance-armistice-note.md) (Pape Day 60)
+**Child notes (2026-06-19):** [falsifier #3 standoff watch](./june-18-2026-mou-falsifier-3-standoff-watch.md) · [Hormuz governance armistice](./june-18-2026-mou-hormuz-governance-armistice-note.md) (Pape Day 60) · [Pape Phase XV framework](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) (tripwire overlay above)
 
 ## Next use
 

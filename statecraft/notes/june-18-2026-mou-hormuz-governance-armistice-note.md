@@ -8,11 +8,11 @@ Preserve **Pape Day 60** as a bounded **mechanism note**: official MOU Pt. 5 con
 
 The aim is not to re-synthesize J17 or J18 dailies. The aim is to stop **flattening** Hormuz into “open vs closed” when the load-bearing object is **administration, fees, and institutional leverage** after the toll-free window.
 
-**Parent surfaces:** [Escalation Trap arc](./arc-pape-escalation-trap.md) (Phase XIV) · [2026-06-17 daily](../daily/2026-06-17.md) (Pape Day 60 folded) · [J18 convergence spine](./june-18-2026-mou-convergence.md) (Seam 3 SPR/Hormuz) · [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) (Hormuz as economic forcing).
+**Parent surfaces:** [Escalation Trap arc](./arc-pape-escalation-trap.md) (Phase XIV–XV) · [2026-06-17 daily](../daily/2026-06-17.md) (Pape Day 60 folded) · [J18 convergence spine](./june-18-2026-mou-convergence.md) (Seam 3 SPR/Hormuz) · [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) (Hormuz as economic forcing) · [Pape Jun 22 framework essay](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) (Phase XV tripwire #3).
 
 **Sibling watch:** [falsifier #3 standoff watch](./june-18-2026-mou-falsifier-3-standoff-watch.md) — **material** 2–4 wk fuse (~Jul 2–9); this note owns **Pt. 5 sixty-day governance** fuse (~mid-Aug).
 
-**Provenance:** promoted from Pape Substack intake + J17 daily patch (2026-06-19).
+**Provenance:** promoted from Pape Substack intake + J17 daily patch (2026-06-19); **Phase XV cross-link** 2026-06-22 (Jun 22 framework essay landed).
 
 ## Shared object
 
@@ -60,6 +60,19 @@ Full verbatim block: [Pape Day 60 capture](../../source-archive/statecraft/2026-
 | Demining / insurance / ship movement **now**? | **Johnson×Marandi**, **Aguilar** — ops lag |
 | Does Washington **have exit** if talks fail? | **Pape Day 60** trap fork; **Mercouris** Minsk trap (adjacent) |
 | Material forcing vs process sabotage? | [material vs sabotage lens](./june-18-2026-mou-material-vs-sabotage-lens.md) — Hormuz row in Seam 3 |
+| Which **Pape tripwire** owns Hormuz fees post-60d? | **This note** (Pt. 5) + [Phase XV framework essay](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) — red line #3 (US interference in Iran–Oman fee talks) |
+
+## Phase XV tripwire map (Pape Jun 22)
+
+[Getting the Framework Right](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) names **three operational red lines** under a **power-not-money** MOU read. Cross-route to J18 seams — do not collapse:
+
+| Pape tripwire | MOU art. | J18 owner | This note |
+|---|---|---|---|
+| **#1 — S. Lebanon ops** (not Beirut alone) | Art. 1 territorial integrity | [Convergence Seam 1](./june-18-2026-mou-convergence.md#seam-1--lebanon-strongest-convergence); [material vs sabotage](./june-18-2026-mou-material-vs-sabotage-lens.md) process clock | Enforcement seam — **not** Hormuz governance |
+| **#2 — Asset-release delay** (~10d post-sign) | Art. 11 | [Convergence Seam 3](./june-18-2026-mou-convergence.md#seam-3--spr--hormuz--economic-forcing) frozen-funds row; **Davis** perform-first | Delay read = **power** not technical dispute |
+| **#3 — US interference in Iran–Oman fee talks** | Art. 5 | Seam 3 Hormuz / Fifth Fleet–Oman band | **Primary owner here** — Pt. 5 sixty-day bridge → fee **governance** |
+
+**Ultimate red line (enrichment):** Art. 8 — Phase XV; not this note's fuse. **Middle-game frame:** trap shifts to **diplomacy** ([Escalation Trap arc](./arc-pape-escalation-trap.md) Phase XV).
 
 ## Falsifiers
 
@@ -78,6 +91,7 @@ Full verbatim block: [Pape Day 60 capture](../../source-archive/statecraft/2026-
 ## Source anchors
 
 - [Pape Day 60](../../source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md) · [Pape Stage IV Bloomberg](../../source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md)
+- [Pape Phase XV — Getting the Framework Right](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md)
 - [Johnson×Marandi 14-pt](../../source-archive/statecraft/2026-06-17/source-alkorshid-larry-johnson-marandi-white-house-full-14-point-mou-2026-06-17.md)
 - [Escobar MOU beat](../../source-archive/statecraft/2026-06-17/source-alkorshid-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md)
 - [Davis J18 mechanics](../../source-archive/statecraft/2026-06-18/source-daniel-davis-deep-dive-tough-road-iran-deal-lays-out-2026-06-18.md)

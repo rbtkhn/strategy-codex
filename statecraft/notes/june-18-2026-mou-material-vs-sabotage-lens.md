@@ -10,6 +10,8 @@ The aim is not to re-synthesize the full convergence map. The aim is to stop **f
 
 **Parent convergence note:** [june-18-2026-mou-convergence.md](./june-18-2026-mou-convergence.md) — full J18 register map, five seams, post-wire tiers.
 
+**Pape Phase XV:** [Getting the Framework Right](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) · [tripwire map](./june-18-2026-mou-hormuz-governance-armistice-note.md#phase-xv-tripwire-map-pape-jun-22) — process clock ≈ tripwire **#1** (Lebanon); perform-first / fuse ≈ tripwire **#2** (assets).
+
 **Sibling child note:** [june-18-2026-mou-guest-pair-citation-split.md](./june-18-2026-mou-guest-pair-citation-split.md) — Johnson ×2 and Napolitano pair episode routing.
 
 **Provenance:** promoted from chat `statecraft-multi-lens` pass (2026-06-18 session).
@@ -106,6 +108,7 @@ Material ceiling **forces** the off-ramp; sabotage register **predicates** where
 | Legal trap / Horowitz / disarm / Oslo sabotage | **Henningsen** (+ Lascaris Lebanon desk) |
 | Episode-level Napolitano clips | [Pair citation split](./june-18-2026-mou-guest-pair-citation-split.md) |
 | Full-day register map | [Convergence spine](./june-18-2026-mou-convergence.md) |
+| Pape tripwire #1 / #2 vs dual clocks | [Phase XV tripwire overlay](./june-18-2026-mou-convergence.md#phase-xv-tripwire-overlay-pape-jun-22); **#1** → process clock + Seam 1; **#2** → Davis perform-first + Seam 3 |
 
 ## What the combined read adds
 

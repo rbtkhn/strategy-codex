@@ -1,13 +1,13 @@
 WORK only; not Record.
 
-# Feb 25 → Jun 17 2026 — Pape arc (Escalation Trap)
+# Feb 25 → Jun 22 2026 — Pape arc (Escalation Trap)
 
 ```yaml
 note_type: arc
 primary_voice: pape
 topic: escalation-trap
 span_start: 2026-02-25
-span_end: 2026-06-17
+span_end: 2026-06-22
 nodes:
   - source-archive/statecraft/2026-02-25/source-pape-the-smart-bomb-trap-2026-02-25.md
   - source-archive/statecraft/2026-02-27/source-pape-from-kosovo-to-iran-the-smart-bomb-2026-02-27.md
@@ -32,9 +32,10 @@ nodes:
   - source-archive/statecraft/2026-06-16/source-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md
   - source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md
   - source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md
+  - source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md
 ```
 
-**Pub span:** 2026-02-25 → 2026-06-17 (~112 days; **arc** tier)  
+**Pub span:** 2026-02-25 → 2026-06-22 (~118 days; **arc** tier)  
 **Series:** [escalationtrap.substack.com](https://escalationtrap.substack.com)  
 **Parent:** [Pape source index](../voices/pape/pape-source-index.md) · [Pape person arc](../voices/pape/pape-arc.md) · [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md)
 
@@ -64,6 +65,7 @@ XI   Jun 1–4    CEASEFIRE TRAP — trap gets worse; Jun 2–3 bombing while ta
 XII  Jun 6–8    SURVIVAL→DOMINANCE — new phase; Day 100 expanding strategy; ceasefire breakdown
 XIII Jun 15     MAX LEVERAGE — uncertain deal; Iran's peak bargaining window
 XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 governance deadline (+ BP interview adjacent)
+XV   Jun 22      MIDDLE GAME — power-not-money framework; MOU as rising-power conversion; three tripwires + enrichment ultimate red line
 ```
 
 **Stacking rule:** Route **opening-week SBT reconciliation** → [§ Opening week](#opening-week-phases-i-v). Route **full season ratchet** → this arc. Route **perfidy / trust** → Crooke weaves, not Pape alone.
@@ -92,8 +94,9 @@ XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 go
 | **XIV — Stage IV** | Jun 17 | [Stage IV Begins — Bloomberg MOU](../../source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md) | MOU as **Iranian sphere-of-influence** architecture; negotiation = power maximization |
 | **XIV — Day 60** | Jun 17 | [Day 60 — Hidden Deadline](../../source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md) | Official MOU = **armistice not settlement**; 60-day toll-free → **governance crisis** on Hormuz admin/fees |
 | **XIV — Interview** (adjacent) | Jun 17 | [Breaking Points — Unconditional Surrender](../../source-archive/statecraft/2026-06-17/source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md) | G7 live reaction to MOU leak; **Trump lost bombing → at risk of losing deal**; Iran gains power **through** deal terms |
+| **XV — Framework** | Jun 22 | [Getting the Framework Right](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md) | **Power not money** — MOU converts survival into regional influence; April→June direction toward Tehran; **three tripwires** (S. Lebanon, asset delay, Hormuz-fee interference); enrichment = ultimate red line; **middle game** not endgame |
 
-**Adjacent (index only — not arc YAML nodes):** May 27 oil repricing · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) · other interview-pressure anchors in [source index](../voices/pape/pape-source-index.md).
+**Adjacent (index only — not arc YAML nodes):** May 27 oil repricing · [Jun 18 MOU cluster](./june-18-2026-mou-convergence.md) (tripwires → [Hormuz governance](./june-18-2026-mou-hormuz-governance-armistice-note.md#phase-xv-tripwire-map-pape-jun-22)) · other interview-pressure anchors in [source index](../voices/pape/pape-source-index.md).
 
 ## Opening week (Phases I–V)
 
@@ -203,15 +206,17 @@ Pape additions at mid-month:
 8. **Iran still in pure survival mode at Day 100** — falsifies Phase XII dominance pivot
 9. **US secures favorable deal before leverage peak** — falsifies Phase XIII; **partially falsified** if MOU ratified on Iranian terms (Phase XIV)
 10. **MoU produces durable Hormuz settlement** — falsifies Phase XIV **governance-deadline** read; watch [Jun 18 MOU seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) Pt. 5 sixty-day fuse
-11. **CIA/Ratcliffe seriousness read wrong — Iran fully concedes nuclear lane** — falsifies Phase XIV interview branch (verify tier)
-12. **Wire debunk leadership kill** — tier fork only; **trap mechanism** may still load-bear on retaliation + entanglement (opening Leg III)
+11. **Inducement framework correct — Iran settles for economic relief only** — falsifies Phase XV **power-conversion** read
+12. **All three tripwires respected through Day 60** — softens Phase XV collapse forecast; watch S. Lebanon ops, asset release (~10d), Iran–Oman fee talks
+13. **CIA/Ratcliffe seriousness read wrong — Iran fully concedes nuclear lane** — falsifies Phase XIV interview branch (verify tier)
+14. **Wire debunk leadership kill** — tier fork only; **trap mechanism** may still load-bear on retaliation + entanglement (opening Leg III)
 
 ## Cross-day return
 
 - **Opening week:** [Feb 3 power formula](../daily/2026-02-03.md) · [Feb 17 Hormuz partial](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · [Feb 28](../daily/2026-02-28.md) · [Mar 1](../daily/2026-03-01.md) · [Mar 3](../daily/2026-03-03.md)
 - **Mid-month compare:** [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) — trap vs mosaic (Phase V)
 - **Bench:** [Pape × Crooke opening-strike](./2026-02-28-pape-crooke-opening-strike-bench-weave.md) · [Crooke × Pape × Simplicius Mar 3](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md)
-- **Forward:** [Mar 24 five terms](../daily/2026-03-24.md) · May 27 energy repricing · [Helmer five terms](./arc-helmer-iran-five-terms.md) · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md)
+- **Forward:** [Mar 24 five terms](../daily/2026-03-24.md) · May 27 energy repricing · [Helmer five terms](./arc-helmer-iran-five-terms.md) · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) · [Jun 22 framework essay](../../source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md)
 - **Person shelf:** [pape-arc.md](../voices/pape/pape-arc.md) · [forecast ledger](../voices/pape/stream/pape-forecast-ledger-2026.md)
 
 **Promoted via:** [`state-note`](../../.cursor/skills/state-note/SKILL.md) · **Opened:** 2026-06-22 · **Consolidated:** 2026-06-22 (thread absorbed into arc)
