@@ -1987,11 +1987,11 @@ Cross-read: [spine-and-support-ring](patterns/spine-and-support-ring.md) — spi
 
 - **Next civ chain encode** (Persia dual centers, China tributary layers): elicit co-primary vs instrument vs partial-inheritance tiers **before** writing segments; never promote colonial branches to chain-head without operator cash-out.
 - **Chain placement queries:** `governing-term-first` → open memory spine first, then governing term segment — not volume theory door or duplicate spine rows on every term file.
-- **Node vocabulary:** reuse types from [rome-civilization.md](../public/civ-state/volumes/rome/rome-civilization.md#sovereignty-chain-civilization-lens) only after elicitation adapts labels to the civ's fracture geometry.
+- **Node vocabulary:** reuse types from [rome-civilization.md](../public/civ-state/volumes/rome/theory/rome-civilization.md#sovereignty-chain-civilization-lens) only after elicitation adapts labels to the civ's fracture geometry.
 
 ### Structural changes
 
-- Six `public/civ-state/volumes/rome/rome-{term}.md` — **Sovereignty chain — {term} lens** segments
+- Six `public/civ-state/volumes/rome/theory/rome-{term}.md` — **Sovereignty chain — {term} lens** segments
 - `rome-memory.md` — **Chain spine (cross-term index)** + parallel carriers table + branch lifecycle column
 - `rome-civilization.md` — **Chain node types** SSOT (substrate, opener, hinge, rupture, bridge-carrier, branch, instrument, present-carrier)
 - `public/civ-state/docs/release-history.md` — **v0.1.26** milestone
@@ -2061,7 +2061,7 @@ encode the fork once on memory, diagnose it six ways on the terms,
 keep political and sacred-language carriers explicitly separated.
 ```
 
-Routing: civ-state **v0.1.27** · [language spine](../public/civ-state/volumes/rome/rome-memory.md#language-spine).
+Routing: civ-state **v0.1.27** · [language spine](../public/civ-state/volumes/rome/theory/rome-memory.md#language-spine).
 
 ## 2026-06-19 - Rome faith history (faith-spine parallel dimension)
 
@@ -2101,7 +2101,7 @@ Cross-read: [2026-06-18 Rome military history entry](#2026-06-18---rome-military
 
 ### Routing
 
-- civ-state **v0.1.29** · [faith spine](../public/civ-state/volumes/rome/rome-memory.md#faith-spine).
+- civ-state **v0.1.29** · [faith spine](../public/civ-state/volumes/rome/theory/rome-memory.md#faith-spine).
 
 ---
 
@@ -2152,7 +2152,7 @@ Military grammar mutates through institutions, not through one unbroken legion �
 encode force carriers once on memory, rosters on empire/civilization, diagnose six ways on the terms.
 ```
 
-Routing: civ-state **v0.1.28** · [military spine](../public/civ-state/volumes/rome/rome-memory.md#military-spine).
+Routing: civ-state **v0.1.28** · [military spine](../public/civ-state/volumes/rome/theory/rome-memory.md#military-spine).
 
 ## 2026-06-18 — Rome science history: science-spine fifth parallel dimension
 
@@ -2202,7 +2202,7 @@ encode procedure carriers once on memory, rosters on empire/civilization, diagno
 faith trial and entropy censorship cross-ref, not duplicate, on hot nodes (Galileo, Index).
 ```
 
-Routing: civ-state **v0.1.30** · [science spine](../public/civ-state/volumes/rome/rome-memory.md#science-spine).
+Routing: civ-state **v0.1.30** · [science spine](../public/civ-state/volumes/rome/theory/rome-memory.md#science-spine).
 
 ---
 
@@ -2243,7 +2243,7 @@ entropy owns comparative peninsula strain and Sack rupture-primary —
 encode once per lane, cross-ref the rivalry arc (I2) without duplicating sovereign chronicle.
 ```
 
-Routing: civ-state **v0.1.31** · [civilization lens](../public/civ-state/volumes/rome/rome-civilization.md) · [empire lens](../public/civ-state/volumes/rome/rome-empire.md) · [entropy lens](../public/civ-state/volumes/rome/rome-entropy.md).
+Routing: civ-state **v0.1.31** · [civilization lens](../public/civ-state/volumes/rome/theory/rome-civilization.md) · [empire lens](../public/civ-state/volumes/rome/theory/rome-empire.md) · [entropy lens](../public/civ-state/volumes/rome/theory/rome-entropy.md).
 
 ---
 

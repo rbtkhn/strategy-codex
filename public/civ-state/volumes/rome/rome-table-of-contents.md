@@ -83,7 +83,7 @@ One friction node read through all six `rome-{term}.md` lenses. Template: [_temp
 
 ---
 
-## Term depth (volume root)
+## Term depth (`theory/`)
 
 Six whole-work term projections — link rosters here; do not duplicate in essays:
 

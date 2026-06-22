@@ -10,4 +10,4 @@ Volume-local theory lenses are **orchestrated from the whole-work theory shelf**
 
 **Six lenses:** [rome-civilization.md](rome-civilization.md) · [rome-empire.md](rome-empire.md) · [rome-entropy.md](rome-entropy.md) · [rome-faith.md](rome-faith.md) · [rome-science.md](rome-science.md) · [rome-memory.md](rome-memory.md)
 
-Narrative prose: [../essays/](../essays/README.md). Volume redirect stub: [../rome-theory.md](../rome-theory.md). Archive copy: [../archive/rome-theory.md](../archive/rome-theory.md).
+Narrative prose: [../essays/](../essays/README.md). Archive copy: [../archive/rome-theory.md](../archive/rome-theory.md).

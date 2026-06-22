@@ -11,14 +11,15 @@ Volume-local **legacy** surfaces — not the constitutional read path.
 | Retired path | Replacement |
 |--------------|-------------|
 | [sources-redirect/](sources-redirect/README.md) | [Rome sources](../../../sources/rome/README.md) (v0.1.13+) |
-| [rome-theory.md](rome-theory.md) | [theory/README.md](../../../theory/README.md) (v0.1.25+) |
+| Volume-root `rome-theory.md` | [theory/rome-theory.md](../theory/rome-theory.md) (v0.1.63+) |
+| Volume-root `rome-{term}.md` | [theory/rome-{term}.md](../theory/README.md#six-term-lenses) (v0.1.63+) |
 
 ## Do not archive
 
 Keep at volume root:
 
-- `README.md`, `introduction.md`, `shelf-reader.md`, `source-shelf.md`
-- `sacred-grammar.md` (redirect stub — export validator), `rome-theory.md` (redirect stub)
-- `rome-{term}.md` redirect stubs (six) — canonical lenses under [../theory/](../theory/README.md)
+- `README.md`, `introduction.md`, `shelf-reader.md`, `source-shelf.md`, `rome-table-of-contents.md`, `rome-bibliography.md`
+- `sacred-grammar.md` (redirect stub — export validator)
+- Term lenses: [../theory/](../theory/README.md) — not at volume root (v0.1.63+)
 
 Interpretive prose lives under [../essays/](../essays/README.md).

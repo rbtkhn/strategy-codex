@@ -8,7 +8,7 @@ Volume-local **theory shelf** for Civilizational Statecraft, Volume III — Rome
 
 ## Six-term lenses
 
-All `rome-{term}.md` files live here. Volume-root paths are **redirect stubs** for legacy links.
+All `rome-{term}.md` files live in this folder.
 
 | Term | Page |
 |------|------|
@@ -19,7 +19,7 @@ All `rome-{term}.md` files live here. Volume-root paths are **redirect stubs** f
 | science | [rome-science.md](rome-science.md) |
 | memory | [rome-memory.md](rome-memory.md) |
 
-Orchestration door: [rome-theory.md](rome-theory.md) · redirect stub: [../rome-theory.md](../rome-theory.md)
+Orchestration door: [rome-theory.md](rome-theory.md)
 
 ## History sub-lenses
 

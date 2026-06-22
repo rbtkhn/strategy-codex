@@ -1,6 +1,6 @@
 # Rome — Volume-local theory (archived door)
 
-**Archived v0.1.25** — volume-local theory is orchestrated from [whole-work theory](../../../theory/README.md). Active redirect: [../rome-theory.md](../rome-theory.md).
+**Archived v0.1.25** — volume-local theory is orchestrated from [whole-work theory](../../../theory/README.md). Active door: [../theory/rome-theory.md](../theory/rome-theory.md).
 
 **Volume III** case lenses on the six governing terms. These pages mirror the [Roman law — cross-cutting table](../../../theory/README.md#cross-cutting-objects) at Rome depth.
 
