@@ -84,7 +84,7 @@ Grace-mar and companion-self are **not** chasing full file parity. Use these thr
 **Goal:** Either promote instance-proven UI spec to the template **once**, or keep it **instance-local** without implied parity.
 
 - **Upstream port:** If new instances should share the same agent-readable UI tokens and checks, open a single companion-self change set: template-appropriate `DESIGN.md` (e.g. under `platform/template/` or `docs/`) + optional validator under `scripts/`, wired in template CI if desired.
-- **Instance-local:** Keep [`DESIGN.md`](../../../DESIGN.md) and [`scripts/validate-design-md.py`](../../../scripts/validate-design-md.py) only in grace-mar; do not block template sync on DESIGN parity.
+- **Instance-local:** Keep [`DESIGN.md`](../work-dev/DESIGN.md) and [`scripts/validate-design-md.py`](../../../scripts/validate-design-md.py) only in grace-mar; do not block template sync on DESIGN parity.
 
 This track is **discretionary** â€” unlike Track 1 and 2, it is not a recurring merge obligation.
 

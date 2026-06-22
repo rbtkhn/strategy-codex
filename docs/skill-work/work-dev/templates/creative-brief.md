@@ -19,7 +19,7 @@ Who consumes this (long-session operator, portfolio reviewer, job application, p
 ## Success criteria (measurable)
 
 - **Functional:** e.g. shows recursion-gate state clearly; tells one story; links resolve.
-- **Aesthetic:** Matches [`DESIGN.md`](../../../../DESIGN.md) (or document intentional deviations in â€œRisksâ€).
+- **Aesthetic:** Matches [`DESIGN.md`](../DESIGN.md) (or document intentional deviations in â€œRisksâ€).
 - **Technical:** Export paths known; version-controlled or reproducible from prompts + repo.
 - **Eval:** How you will know it passed (human rubric, `validate-design-md.py`, screenshots diff, etc.).
 

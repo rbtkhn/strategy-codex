@@ -182,7 +182,7 @@ def main() -> int:
     parser.add_argument(
         "--file",
         type=Path,
-        default=ROOT / "DESIGN.md",
+        default=ROOT / "docs/skill-work/work-dev/DESIGN.md",
         help="Path to DESIGN.md",
     )
     parser.add_argument(

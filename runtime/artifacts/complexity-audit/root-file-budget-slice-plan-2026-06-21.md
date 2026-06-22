@@ -6,10 +6,9 @@
 
 | Signal | Value |
 |---|---|
-| Root files on disk (non-dot) | **29** (was 30) |
-| Over budget by | **4** (was 5) |
-| Wedge 2 (upgrade doc + license) | **Done** 2026-06-21 |
-| Wedge 4 (workspace file) | **Done** 2026-06-21 |
+| Root files on disk (non-dot) | **28** (was 29) |
+| Over budget by | **3** (was 4) |
+| Wedge 3 (DESIGN.md) | **Done** 2026-06-21 |
 
 Preflight: `python scripts/assert_root_file_budget.py` · `--strict` fails.
 
@@ -52,7 +51,7 @@ Move to documented archive/template paths; update links:
 | `license-record` | `docs/archive/license-record` | **Done** |
 | `template-manifest.json` | `platform/template/template-manifest.json` | **Done** |
 | `template-source.json` | `platform/template/template-source.json` | **Done** |
-| `DESIGN.md` | `docs/skill-work/work-dev/DESIGN.md` (update creative-pipeline links) |
+| `DESIGN.md` | `docs/skill-work/work-dev/DESIGN.md` (update creative-pipeline links) | **Done** |
 | `grace-mar.code-workspace` | `.vscode/grace-mar.code-workspace` | **Done** |
 | `instance-contract.json` | `platform/config/instance-contract.json` |
 

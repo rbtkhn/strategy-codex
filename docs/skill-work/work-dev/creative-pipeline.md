@@ -23,7 +23,7 @@ This pipeline supports the seven high-value agentic skills (spec precision, eval
 
 Creative outputs should **reference** the canonical `DESIGN.md` and **update** it when the visual system changes, with gate discipline when those changes are Record-facing.
 
-**Location:** [`DESIGN.md`](../../../DESIGN.md) (operator / interface spec draft until merged through the pipeline).
+**Location:** [`DESIGN.md`](DESIGN.md) (operator / interface spec draft until merged through the pipeline).
 
 **Rule:** Generated UI should be checked against this file. Deviations that affect product or public presentation need explicit companion reviewâ€”not silent drift.
 
