@@ -138,12 +138,12 @@ Same-day **week ~3 hinge** — coalition failure, **Larijani** kill, **Hormuz ga
 | **Dialogue Works pair** | Nima hosts **Helmer + Crooke** same day — **Helmer** clock/coalition · **Crooke** doctrine/psychology |
 | **Kent resignation** | Threads through **Hoh, Maté, Ritter** — single **Mar 17** news object |
 | **Larijani** | Opens every lane — **Parsi** motive · **Crooke** replacement · **Mercouris** martyr/continuity · **Maté** off-ramp kill |
-| **Mar 17 forward** | [Two-week clock arc](./2026-03-helmer-mar17-mar24-two-week-clock-arc.md) — **Mar 31** bet → Mar 24 **terms + Lavrov alarm** |
+| **Mar 17 forward** | [Two-week clock arc](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md#two-week-clock-mar-1724-slice) — **Mar 31** bet → Mar 24 **terms + Lavrov alarm** |
 | **Mercouris Mar 17 → Mar 24** | Mar 17 **~100k / months** ground math → Mar 24 **4-division** deploy rumor — [Dimona wedge](./2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md) |
 | **Feb 17 bench** | [Hormuz maneuver](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) → Mar 17 **full gatekeeper** |
 | **Mar 24 forward** | [Five-terms weave](./2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) · [Mercouris Dimona wedge](./2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md) |
 | **Davis × Henningsen** | [Global Reset wedge](./2026-03-17-davis-henningsen-global-reset-wedge.md) — **Keane** + escort + **Kent echo chamber** |
-| **Feb 3 arc** | [Helmer power formula](./2026-02-helmer-feb3-mar24-power-terms-arc.md) — **Witkoff poison** → Mar 17 **Ravid fiction** |
+| **Feb 3 arc** | [Helmer power formula](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md) — **Witkoff poison** → Mar 17 **Ravid fiction** |
 
 ## Falsifiers
 
@@ -158,5 +158,5 @@ Same-day **week ~3 hinge** — coalition failure, **Larijani** kill, **Hormuz ga
 
 - [Mar 17 daily synthesis](../daily/2026-03-17.md) · [Wire verify matrix](../daily/2026-03-17-wire-verify-matrix.md) — **J17-*** hooks
 - [Mar 17 day-index](../../source-archive/statecraft/2026-03-17/day-index.md)
-- [Helmer Mar 17→Mar 24 two-week-clock arc](./2026-03-helmer-mar17-mar24-two-week-clock-arc.md)
-- [Dmitriev arc](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
+- [Helmer Mar 17→Mar 24 two-week-clock arc](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md#two-week-clock-mar-1724-slice)
+- [Dmitriev arc](../notes/arc-helmer-2026-01-to-2026-03-dmitriev-lane.md)

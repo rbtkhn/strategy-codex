@@ -70,6 +70,107 @@ Machine-constitutional files stay where they already belong:
 - bridges stay in `bridges/`
 - transactions stay in transaction surfaces
 
+## Thread and arc (canonical draft)
+
+**Status:** shelf-native type law for temporal companions. **Forward-only** filenames (`thread-` / `arc-` prefixes); legacy `*-weave.md` and `*-arc-weave.md` paths may persist until recanonicalization ([Later Phases](#later-phases)).
+
+### Placement
+
+- **All threads and arcs live in `statecraft/notes/`** — including single-voice and guest-heavy objects.
+- Do **not** place thread/arc companions under `statecraft/voices/<guest>/`. Voice shelves keep **source bench** and retrieval; notes keep **phased analytical continuity**.
+
+### Shared grammar (both types)
+
+| Invariant | Rule |
+| --- | --- |
+| **Primary voice** | Exactly **one** owner — the analyst whose register carries the phase spine, falsifiers, and routing |
+| **Topic** | One **bounded** object (kebab slug in filename) |
+| **Nodes** | **≥ 3** — see [Node](#node) |
+| **Shape** | **Solo** (primary alone across time) **or** **hosted/braided** (primary + hosts/interlocutors on the **same topic** across time). Other voices are receipt or counter-register layers, not co-primary owners |
+| **Evidence** | Each node anchors to a **landed archive capture** (or a named phase row that cites one) |
+
+**Not thread/arc:** same-moment multi-voice allocation → **compare**; two-beat continuity only → **compare** or a section inside a parent thread/arc; rolling open-ended chronology → **watch** / benchmark surfaces.
+
+### Span split
+
+| Type | Calendar span | Prefix |
+| --- | --- | --- |
+| **Thread** | **≤ 30 days** (inclusive) | `thread-` |
+| **Arc** | **> 30 days** | `arc-` |
+
+Span uses **publication dates** of nodes (object span), not ingest date. Exactly **30 days** = **thread**.
+
+### Node
+
+A **node** is one beat in the phased spine:
+
+- a **landed** `source-archive/statecraft/…` capture listed as a spine row, **or**
+- a **named phase** in the spine table that **points at** such a capture (not prose-only filler).
+
+Hosts/channels do not add a second primary voice. Three Mercouris dailies inside a Jermy-primary Pokrovsk thread = three nodes; the channel slug is routing metadata, not a filename segment.
+
+**Minimum:** fewer than three nodes → **not** a thread or arc. Merge into a parent, add a third landed beat, or retype as **compare**.
+
+### Filename shape
+
+```text
+thread-<primary>-<start>-to-<end>-<topic-slug>.md
+arc-<primary>-<start>-to-<end>-<topic-slug>.md
+```
+
+Examples:
+
+- `arc-freeman-2026-02-to-2026-06-iran-war.md`
+- `thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md`
+- `thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md`
+
+Use **month** precision when beats are episodic (`2026-02-to-2026-06`); use **full ISO** when the clock is week-scale (`2026-03-17-to-2026-03-24`). Omit hosts and guest names from the slug when primary + topic suffice.
+
+### Optional YAML (recommended on promote/rename)
+
+```yaml
+note_type: thread | arc
+primary_voice: <speaker-slug>
+topic: <kebab-slug>
+span_start: YYYY-MM-DD
+span_end: YYYY-MM-DD
+nodes: [<capture-relative-paths or stable ids>]
+parent_arc: <notes-relative-path>   # threads only, when nested
+```
+
+### Parent and child
+
+An **arc** may own one or more **threads** (narrower topic, shorter clock inside the same season). Link with `parent_arc:` on the thread and a reciprocal pointer in the arc prose — do not duplicate full spine bodies.
+
+### Three senses of “thread” (do not conflate)
+
+| Sense | What it is |
+| --- | --- |
+| **`thread:` capture YAML** | Archive **retrieval slug** — [thread-index.md](../../source-archive/statecraft/thread-index.md); not analytical content |
+| **`thread-` note filename** | **Day–week phased companion** (this section) |
+| **`arc-threads` (speaker shelf)** | **Interior strands** named inside a [thread atlas](../voices/speaker-shelf-vocabulary.md) or braided inside an arc — vocabulary only, not a separate notes-folder class |
+
+### vs compare
+
+| | **Compare** | **Thread / arc** |
+| --- | --- | --- |
+| **Time** | One moment or one day | **≥ 3 nodes** over days (thread) or months (arc) |
+| **Voices** | Multi-voice allocation; **no single owner** | **One primary voice** |
+| **Job** | Who owns what **here** | How **one register** moves on **one topic** |
+
+### Qualification checklist
+
+Before `thread-` or `arc-` promotion:
+
+1. One primary voice named?
+2. One bounded topic?
+3. Count nodes (≥ 3)?
+4. Measure span (first node pub date → last node pub date)?
+5. Apply prefix: ≤ 30 days → `thread-`; else → `arc-`.
+6. Confirm path is `statecraft/notes/`.
+
+If step 3 fails, use **compare** or fold into an existing qualified parent.
+
 ## Best Entry Points
 
 Read this shelf through a few live clusters rather than as one flat list.

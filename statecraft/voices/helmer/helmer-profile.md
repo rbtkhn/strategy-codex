@@ -87,7 +87,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 | Object | Path |
 |--------|------|
-| **Jan 20 Dmitriev comparison** | [2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md](../../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md) |
+| **Jan 20 Dmitriev comparison** | [arc-helmer-2026-01-to-2026-03-dmitriev-lane.md](../../notes/arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) |
 | **Jan 20 Greenland weave** | [2026-01-20-greenland-same-day-weave-helmer-freeman.md](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) |
 | **Vance lightning rod / four-mode router** | [june-2026-vance-lightning-rod-rubio-optionality-note.md](../../notes/june-2026-vance-lightning-rod-rubio-optionality-note.md) |
 | **MOU-week Napolitano bench** | [2026-06-15-mou-week-napolitano-bench-seam.md](../../notes/2026-06-15-mou-week-napolitano-bench-seam.md) |

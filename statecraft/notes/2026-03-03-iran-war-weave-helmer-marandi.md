@@ -17,7 +17,7 @@ Same-day **US–Israel war on Iran** (post-Khamenei assassination) — two Dialo
 - **Helmer** → **Moscow insider** map: Russia/China **non-deterrence**; secret **resupply** debate; **Witkoff/Kushner deception**; **Anchorage dead**; **Dmitriev** pro-Gulf tweets; **Lavrov** Gaddafi/NK → nuclear proliferation; **Rubio** missile-destruction aim; **Israel nuclear** hypothesis; **China** anodyne (Wang Yi vs Mao Ning); Trump **election/oil** trap
 - **Marandi** → **Adversary operational** map (live Tehran): assassination → **unity** not collapse; **underground** arsenal mostly unused; **Hormuz closed**; **no ceasefire** — strategic defeat required; **months** attrition; Gulf bases **complicit**; **integrated** RU/CN/IR air defense; **Israel** under regular heavy strikes; regional **allies self-mobilized**
 
-**Arc:** Closes [Feb 17 pre-war bench](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) (Hormuz maneuver → **open war**) and [Dmitriev arc](./2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md) (**Anchorage/Witkoff trust collapses**).
+**Arc:** Closes [Feb 17 pre-war bench](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) (Hormuz maneuver → **open war**) and [Dmitriev arc](./arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) (**Anchorage/Witkoff trust collapses**).
 
 ## Shared spine (Iran war object)
 
@@ -84,8 +84,8 @@ Same-day **US–Israel war on Iran** (post-Khamenei assassination) — two Dialo
 
 - [Feb 17 Iran bench — Marandi × Mearsheimer × Helmer coda](./2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) — Hormuz **partial** → Mar 3 **closed**
 - [Feb 17 Geneva weave](./2026-02-17-geneva-day-weave-helmer-mercouris.md) — same **Witkoff** bandwidth week before war
-- [Dmitriev arc Jan 20 → Feb 17 → Mar 3](./2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md) — **Anchorage dead** row (extend on pick **E**)
-- [Helmer Mar 3 → Mar 24 arc — Russia/China two-track](./2026-03-helmer-mar3-mar24-russia-china-two-track-arc.md) — five terms + two-track upgrade (~week 4)
+- [Dmitriev arc Jan 20 → Feb 17 → Mar 3](./arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) — **Anchorage dead** row (extend on pick **E**)
+- [Helmer Mar 3 → Mar 24 arc — Russia/China two-track](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md#russiachina-two-track-mar-324-slice) — five terms + two-track upgrade (~week 4)
 
 ## Falsifiers
 

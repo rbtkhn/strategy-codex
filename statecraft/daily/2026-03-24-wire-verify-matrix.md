@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Wire Verify Matrix — 2026-03-24
 
-**Parent:** [2026-03-24 archive day](../../source-archive/statecraft/2026-03-24/README.md) · **Bench:** [Helmer × Marandi](../notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) · **Wedge:** [Mercouris × Helmer × Marandi](../notes/2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md) · **Trust arc:** [Dmitriev Jan 20 → Mar 24](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md#mar-24-arc-witkoff-indirect-fiction--gcc-mediation--market-layer) · **Return:** [Mar 3 matrix](./2026-03-03-wire-verify-matrix.md)
+**Parent:** [2026-03-24 archive day](../../source-archive/statecraft/2026-03-24/README.md) · **Bench:** [Helmer × Marandi](../notes/2026-03-24-helmer-marandi-energy-hormuz-five-terms-weave.md) · **Wedge:** [Mercouris × Helmer × Marandi](../notes/2026-03-24-mercouris-helmer-marandi-dimona-ground-wedge.md) · **Trust arc:** [Dmitriev Jan 20 → Mar 24](../notes/arc-helmer-2026-01-to-2026-03-dmitriev-lane.md#mar-24-arc-witkoff-indirect-fiction--gcc-mediation--market-layer) · **Return:** [Mar 3 matrix](./2026-03-03-wire-verify-matrix.md)
 
 **Scope:** **Week ~4 pass** — Trump **talk fiction** + **market timing**; **Lavrov** (Araghchi + WW3); **Dimona/AD**; **4-division ground** deploy; **energy tit-for-tat**; **Gulf** (WSJ base · Bahrain UNSC).
 
@@ -86,7 +86,7 @@ WORK only; not Record.
 | --- | --- |
 | **J03-C1** Hormuz closure | **Still Supported** — **J24-E3** |
 | **J03-E2** Larijani / FM no talks | **Still Supported** — **J24-A3** |
-| **J03-E1** MBS–Putin | **Superseded by** Gulf **pay/hold-back** grammar — [Dmitriev Mar 24 §](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md#mar-24-arc-witkoff-indirect-fiction--gcc-mediation--market-layer) |
+| **J03-E1** MBS–Putin | **Superseded by** Gulf **pay/hold-back** grammar — [Dmitriev Mar 24 §](../notes/arc-helmer-2026-01-to-2026-03-dmitriev-lane.md#mar-24-arc-witkoff-indirect-fiction--gcc-mediation--market-layer) |
 
 ## Interpretation fence (tier 4 — not wire-scored)
 

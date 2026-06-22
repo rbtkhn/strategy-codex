@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Wire Verify Matrix — 2026-02-17
 
-**Parent:** [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md) · **Geneva weave:** [Helmer × Mercouris](../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md) · **Iran bench weave:** [Marandi × Mearsheimer × Helmer](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · **Dmitriev arc:** [Jan 20 – Feb 17](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md)
+**Parent:** [2026-02-17 archive day](../../source-archive/statecraft/2026-02-17/README.md) · **Geneva weave:** [Helmer × Mercouris](../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md) · **Iran bench weave:** [Marandi × Mearsheimer × Helmer](../notes/2026-02-17-iran-bench-weave-marandi-mearsheimer-helmer.md) · **Dmitriev arc:** [Jan 20 – Feb 17](../notes/arc-helmer-2026-01-to-2026-03-dmitriev-lane.md)
 
 **Scope:** **Geneva pass** — Helmer + Mercouris (Kartapolov/TASS, Bloomberg MOU, US–Ukraine security guarantee, bifurcation). **Iran bench pass (Sub-seam E)** — Marandi + Mearsheimer + Freeman timing hooks (Hormuz, Netanyahu Jan 14, trilateral drill).
 

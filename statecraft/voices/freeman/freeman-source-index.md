@@ -89,7 +89,7 @@ Same-day **Greenland crisis** — route Freeman **alliance-law / credibility** a
 | **Helmer** (Moscow sea-war) | [Helmer index](../helmer/helmer-source-index.md) | [2026-01-20 Dialogue Works](../../../source-archive/statecraft/2026-01-20/source-alkorshid-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md) |
 | **Mercouris** (institutional solo) | [Mercouris index](../mercouris/mercouris-source-index.md) | [2026-01-20 solo — Starmer/Macron; Greenland; Kiev AD](../../../source-archive/statecraft/2026-01-20/source-alex-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md) |
 
-**Synthesis objects:** [Jan 20 Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) · [Jan 20 Davos Dmitriev — Helmer × Mercouris](../../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md) · [2026-01-20 daily synthesis](../../daily/2026-01-20.md)
+**Synthesis objects:** [Jan 20 Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) · [Jan 20 Davos Dmitriev — Helmer × Mercouris](../../notes/arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) · [2026-01-20 daily synthesis](../../daily/2026-01-20.md)
 
 **January Greenland arc (Freeman lane):** Jan 20 Davis (Greenland + Davos week) · [Jan 22 Dialogue Works — Iran vows huge response](../../../source-archive/statecraft/2026-01-22/source-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22.md) · [Jan 7 Diesen — collapse of law/reason](../../../source-archive/statecraft/2026-01-07/source-glenn-diesen-chas-freeman-collapse-of-law-reason-return-to-war-2026-01-07.md)
 

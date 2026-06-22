@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Span:** ~107 days (**pre-kinetic → ceasefire fiction → regional rearrangement**)  
 **Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: freeman`)  
-**Parent (adjacent):** [Ritter × IGL Iran arc (Feb 20→Apr 9)](./2026-02-ritter-india-global-left-iran-war-arc.md) · [Feb 17 Freeman × Mearsheimer — Kabuki vs empire](./2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md) · [Helmer Feb 3→Mar 24 power→terms arc](./2026-02-helmer-feb3-mar24-power-terms-arc.md) · [Mar 3 Iran war opening](../daily/2026-03-03.md)
+**Parent (adjacent):** [Ritter × IGL Iran arc (Feb 20→Apr 9)](./2026-02-ritter-india-global-left-iran-war-arc.md) · [Feb 17 Freeman × Mearsheimer — Kabuki vs empire](./2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md) · [Helmer Feb 3→Mar 24 power→terms arc](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md) · [Mar 3 Iran war opening](../daily/2026-03-03.md)
 
 **Freeman sources (India Global Left — cleaned-transcript tier):**
 
@@ -178,7 +178,7 @@ Named **outcomes** while war **impasse**:
 - [Ritter source index](../voices/ritter/ritter-source-index.md) — **IGL Ritter** rows (2026 arc + separate 2025 Trump lane)
 - [Feb 17 Freeman × Mearsheimer — Kabuki vs empire](./2026-02-17-freeman-mearsheimer-kabuki-vs-empire-geneva-week.md) — same **Freeman order** register on **negotiation failure**
 - [Feb 17 Freeman × Diesen — empire on Eurasia](../../source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md) — **multi-war bundle** (same week as Feb 24 IGL opener)
-- [Helmer Feb 3→Mar 24 arc](./2026-02-helmer-feb3-mar24-power-terms-arc.md) — **parallel clock** on **money/votes/bullets**
+- [Helmer Feb 3→Mar 24 arc](./arc-helmer-2026-02-to-2026-03-iran-five-terms.md) — **parallel clock** on **money/votes/bullets**
 - [Dec 2025 Freeman — China/NSS](../../source-archive/statecraft/2025-12-09/source-india-and-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md) — **separate lane** (Indo-Pacific / Monroe); do not merge into Iran arc body
 - [2025 vs 2026 Freeman IGL register seam](./2025-vs-2026-freeman-igl-register-seam.md) — **year routing** for 2025 bridge vs 2026 arc
 - [India Global Left channel index](../../source-archive/statecraft/channel-index.md) — **13** files: **7** Freeman · **5** Ritter · **1** Marandi (`2025-02-22` → `2026-06-11`)

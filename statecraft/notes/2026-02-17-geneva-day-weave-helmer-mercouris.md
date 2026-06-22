@@ -57,7 +57,7 @@ Same-day **Geneva 2026 opening** — route by register:
 | --- | --- | --- | --- |
 | Territorial end-state | **Compromise leak** (partial Novorossiya) | **Public maximal** + **Kartapolov annexation** float | Helmer = **back-channel leak**; Mercouris = **public + military signal** — both can be true simultaneously |
 | Is Geneva serious? | **High-risk gambit** on Trump | **Theater** — talks yes, breakthrough **no** | Compatible |
-| Dmitriev | **Parallel economic** — sea-war relief if accepted | Same split; **skeptical** sanctions ever lift | [Jan 20 → Feb 17 Dmitriev arc](./2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md) |
+| Dmitriev | **Parallel economic** — sea-war relief if accepted | Same split; **skeptical** sanctions ever lift | [Jan 20 → Feb 17 Dmitriev arc](./arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) |
 | Russian economy | **Risk scenario** severe | **Nabiullina stable** read | **Do not merge** — Helmer = faction/risk; Mercouris = CBR public report |
 | Who blocks peace | **Not Europe alone** — US+NATO **sea war** continues | **Zelensky + Europeans** hostile; gap **unbridgeable** | Helmer = **strategic** consensus; Mercouris = **room + clock** |
 
@@ -73,7 +73,7 @@ Same-day **Geneva 2026 opening** — route by register:
 
 ## Cross-day return
 
-- [Jan 20 Dmitriev arc — Helmer × Mercouris](./2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md) — Davos → Geneva **bifurcation** (Feb 17 arc table)
+- [Jan 20 Dmitriev arc — Helmer × Mercouris](./arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) — Davos → Geneva **bifurcation** (Feb 17 arc table)
 - [Jan 20 Greenland three-way weave](./2026-01-20-greenland-same-day-weave-helmer-freeman.md) — Helmer **Golden Dome / Greenland** sea-war line
 - Jun 16 Helmer MOU — Dmitriev/Anchorage compress ([Vance note](./june-2026-vance-lightning-rod-rubio-optionality-note.md))
 

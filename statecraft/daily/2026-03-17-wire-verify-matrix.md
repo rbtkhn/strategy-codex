@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Wire Verify Matrix — 2026-03-17
 
-**Parent:** [2026-03-17 archive day](../../source-archive/statecraft/2026-03-17/day-index.md) · **Bench:** [Helmer × Crooke × Napolitano](../notes/2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano.md) · **Practitioner:** [Davis × Henningsen](../notes/2026-03-17-davis-henningsen-global-reset-wedge.md) · **Clock arc:** [Helmer Mar 17→Mar 24](../notes/2026-03-helmer-mar17-mar24-two-week-clock-arc.md) · **Return:** [Mar 3 matrix](./2026-03-03-wire-verify-matrix.md) · **Forward:** [Mar 24 matrix](./2026-03-24-wire-verify-matrix.md)
+**Parent:** [2026-03-17 archive day](../../source-archive/statecraft/2026-03-17/day-index.md) · **Bench:** [Helmer × Crooke × Napolitano](../notes/2026-03-17-iran-war-bench-weave-helmer-crooke-napolitano.md) · **Practitioner:** [Davis × Henningsen](../notes/2026-03-17-davis-henningsen-global-reset-wedge.md) · **Clock arc:** [Helmer Mar 17→Mar 24](../notes/arc-helmer-2026-02-to-2026-03-iran-five-terms.md#two-week-clock-mar-1724-slice) · **Return:** [Mar 3 matrix](./2026-03-03-wire-verify-matrix.md) · **Forward:** [Mar 24 matrix](./2026-03-24-wire-verify-matrix.md)
 
 **Scope:** **Week ~3 pass** — **Hormuz escort rejection**; **Larijani** kill; **~2-week US clock** (Mar 31); **ground-invasion** discourse; **Netanyahu command** mystery; **Witkoff/Ravid fiction**; **Postol** Israel defenseless; **Kent** resignation thread.
 
@@ -53,7 +53,7 @@ WORK only; not Record.
 | --- | --- | --- | --- | --- | --- |
 | **J17-C1** | Trump **cancels/postpones** China summit — target **~Mar 31**; stays **DC** for war management (Helmer/Freeman) | America / PRC | en | **Partial** | White House / scheduling carry Mar 15–17 **Partial** · exact **Mar 31** date **desk tier** until official readout |
 | **J17-C2** | **Bessent Paris**: **10–14M bpd** Hormuz deficit; **~14 days** strategic surplus before **inflation** breaks **votes** (Helmer) | America | en | **Partial** | Treasury/IEA-adjacent **desk tier** · **20M bpd** Hormuz normal flow **Supported** from prior energy wire · **14-day runway** = Helmer arithmetic **Partial** |
-| **J17-C3** | Trump **~2-week** bet for **negotiated exit** by **~Mar 31** vs Israel **destroy Iran in 2 weeks** clock (Helmer) | America / Adjacent | en | **Unclear** | **Forward falsifier** — [master arc #9–10](../notes/2026-02-helmer-feb3-mar24-power-terms-arc.md#falsifiers) · Mar 17 = **prediction tier** not yet gradable |
+| **J17-C3** | Trump **~2-week** bet for **negotiated exit** by **~Mar 31** vs Israel **destroy Iran in 2 weeks** clock (Helmer) | America / Adjacent | en | **Supported (miss)** | **Adjudicated @ Mar 31** — [Helmer clock arc § Mar 31](../notes/arc-helmer-2026-02-to-2026-03-iran-five-terms.md#two-week-clock-mar-1724-slice#mar-31-adjudication--final-verdict-calendar-close) · [Mar 31 daily](./2026-03-31.md): no terms-compliant exit; Trump **drops Hormuz reopen** (WSJ/Mercouris); war **day 31–32** continues |
 
 ## Sub-seam D — Ground invasion discourse (Mercouris **J17-D1 – D2**)
 
@@ -74,7 +74,7 @@ WORK only; not Record.
 | ID | Claim | Lane | Lang | Verdict | Cite |
 | --- | --- | --- | --- | --- | --- |
 | **J17-F1** | **Ravid** as **Witkoff mouthpiece**; **Araghchi** denies US negotiations (Helmer/Freeman/Maté/Mercouris) | America / Persia | en | **Supported** (Tehran frame) · **Contested** (Axios/US) | [Reuters 16 Mar — Araghchi X](https://www.marketscreener.com/news/iran-foreign-minister-says-his-last-contact-with-witkoff-was-before-war-began-ce7e5edbd98ef427) · [Anadolu 17 Mar](https://www.aa.com.tr/en/americas/araghchi-says-his-last-contact-with-us-envoy-witkoff-was-before-illegal-military-attack-on-iran/3867341) · Axios back-channel **contested** |
-| **J17-F2** | **Dmitriev Miami** meeting = **Russian parallel track** vs US **fiction** (Helmer) | Russia / America | en | **Unclear** | Dmitriev travel **desk tier** Mar 17 · [Dmitriev arc](../notes/2026-01-20-davos-dmitriev-helmer-mercouris-comparison.md) — **not 3a MOU** |
+| **J17-F2** | **Dmitriev Miami** meeting = **Russian parallel track** vs US **fiction** (Helmer) | Russia / America | en | **Unclear** | Dmitriev travel **desk tier** Mar 17 · [Dmitriev arc](../notes/arc-helmer-2026-01-to-2026-03-dmitriev-lane.md) — **not 3a MOU** |
 
 ## Sub-seam G — Israel defense / escalation (Helmer **J17-G1 – G2** · Postol frame)
 

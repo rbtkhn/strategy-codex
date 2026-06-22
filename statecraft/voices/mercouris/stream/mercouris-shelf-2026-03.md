@@ -25,7 +25,7 @@ Month status: `mature dense-core month`
 - [source-alex-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md](../../../../source-archive/statecraft/2026-03-14/source-alex-mercouris-eu-uk-furious-as-russia-exports-soar-sanctions-unravel-aid-to-kiev-stops-2026-03-14.md)
   - Sanctions and energy self-damage become explicit inside the same month object.
 - [source-alex-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md](../../../../source-archive/statecraft/2026-03-18/source-alex-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md)
-  - Ukraine attrition is now visibly downstream of the same war-and-arsenal exhaustion field.
+  - Ukraine attrition downstream of war-and-arsenal exhaustion; **cleaned full transcript** (2026-06-22). **Cross-weave:** [Jermy × Mercouris Mar-18](../../notes/2026-03-18-jermy-mercouris-iran-energy-arsenal-weave.md).
 - [source-alex-mercouris-iran-zero-restraint-after-israel-attacks-huge-gas-field-hits-mideast-ene-2026-03-19.md](../../../../source-archive/statecraft/2026-03-19/source-alex-mercouris-iran-zero-restraint-after-israel-attacks-huge-gas-field-hits-mideast-ene-2026-03-19.md)
   - Escalation hardening node.
 - [source-alex-mercouris-russia-steps-up-iran-aid-iran-hits-f35-energy-crisis-causes-recession-fe-2026-03-20.md](../../../../source-archive/statecraft/2026-03-20/source-alex-mercouris-russia-steps-up-iran-aid-iran-hits-f35-energy-crisis-causes-recession-fe-2026-03-20.md)
