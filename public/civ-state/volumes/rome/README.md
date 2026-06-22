@@ -10,6 +10,8 @@ Rome is currently a source-memory volume rather than a full repo-root lane peer.
 
 **New interpretive essays:** [civ-state-essay-template.md](../../templates/civ-state-essay-template.md) — reader SSOT · meta sidecar [_template-essay-rome.meta.yaml](essays/_template-essay-rome.meta.yaml) · lattice [essays/README.md](essays/README.md).
 
+**Volume subfolders:** [essays](essays/README.md) · [theory](theory/README.md) · [misc](misc/README.md) · [archive](archive/README.md)
+
 Read [Pax Romana](../../docs/introduction.md) for the volume entry. Transformed continuity case: sovereignty through republic, empire, Eastern Roman bridge, and Catholic residue — not one uninterrupted territorial state.
 
 Primary source base: Rome source corpus
@@ -27,9 +29,10 @@ Primary source base: Rome source corpus
 - Essay citation inventory (PD URLs, civic-chain): [rome-bibliography.md](rome-bibliography.md) — see [essays README § Essay-rome](essays/README.md#essay-rome)
 - Sovereign continuity support note: [Rome chain spine](rome-memory.md#chain-spine) · [Rome military spine](rome-memory.md#military-spine) · [Rome faith spine](rome-memory.md#faith-spine) · [Rome science spine](rome-memory.md#science-spine)
 - Optional sub-lenses: [essays](essays/README.md) — dual language heritage, military history, faith history, science history, geo-strategy, secret-history, game-theory
-- Volume-local theory: `rome-{term}.md` — orchestrated from [whole-work theory](../../theory/README.md) (Roman law mirror pilot)
+- Volume-local theory: `rome-{term}.md` — orchestrated from [whole-work theory](../../theory/README.md) (Roman law mirror pilot); overflow [theory/](theory/README.md)
   - [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
   - [rome-faith](rome-faith.md) · [rome-science](rome-science.md) · [rome-memory](rome-memory.md)
+- Volume overflow: [misc](misc/README.md)
 - Term connectivity (six-term membrane): [Connectivity Rome](essays/connectivity-rome.md)
 - Continuity state: Eastern Roman Empire as the indispensable continuity state
 
