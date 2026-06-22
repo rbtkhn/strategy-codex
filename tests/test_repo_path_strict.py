@@ -16,6 +16,8 @@ from repo_io import (  # noqa: E402
     GRACE_MAR_COMPAT_KEYS,
     GRACE_MAR_INSTANCE_DIR,
     REPO_PATH_CLASSIFICATION,
+    REPO_PATH_MIGRATIONS,
+    load_path_fallback_retirement,
     profile_dir,
     profile_rel_posix,
     reset_legacy_path_resolve_count,
@@ -24,6 +26,23 @@ from repo_io import (  # noqa: E402
     strict_paths_enabled,
     validate_path_fallback_retirement,
     validate_repo_path_classification,
+)
+
+WAVE_1_KEYS = frozenset(
+    {
+        "artifacts",
+        "daily-handoff",
+        "prepared-context",
+        "runtime-bundle",
+        "apps",
+        "src",
+        "skills",
+        "skills-portable",
+        "schema-registry",
+        "styles",
+        "auto-research",
+        "bridges",
+    }
 )
 
 
@@ -98,3 +117,15 @@ def test_check_repo_path_strict_json():
     assert "summary" in payload
     assert payload["summary"]["total_keys"] == 29
     assert "retirement_candidates" in payload
+
+
+def test_wave_1_fallbacks_removed():
+    for key in WAVE_1_KEYS:
+        assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
+
+
+def test_wave_1_retirement_policy_has_no_legacy():
+    retirement = load_path_fallback_retirement()
+    for key in WAVE_1_KEYS:
+        assert retirement[key]["legacy"] == [], key
+        assert retirement[key]["retirement_status"] == "keep_no_legacy", key

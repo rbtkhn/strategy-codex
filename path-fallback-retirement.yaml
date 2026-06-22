@@ -11,26 +11,23 @@ entries:
 - key: apps
   category: active_canonical
   canonical: platform/apps
-  legacy:
-  - apps
-  retirement_status: remove_when_clean
-  notes: Platform apps under platform/apps.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: artifacts
   category: active_canonical
   canonical: runtime/artifacts
-  legacy:
-  - artifacts
-  retirement_status: remove_when_clean
-  notes: Active runtime path should be canonical only.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: auto-research
   category: active_canonical
   canonical: research/auto-research
-  legacy:
-  - auto-research
-  retirement_status: remove_when_clean
-  notes: Research auto-research under research/auto-research.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: bin
   category: active_canonical
@@ -59,10 +56,9 @@ entries:
 - key: bridges
   category: active_canonical
   canonical: research/bridges
-  legacy:
-  - bridges
-  retirement_status: remove_when_clean
-  notes: Research bridges under research/bridges.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: config
   category: active_canonical
@@ -75,10 +71,9 @@ entries:
 - key: daily-handoff
   category: active_canonical
   canonical: runtime/daily-handoff
-  legacy:
-  - daily-handoff
-  retirement_status: remove_when_clean
-  notes: Runtime handoff under runtime/daily-handoff.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: deployment
   category: active_canonical
@@ -129,10 +124,9 @@ entries:
 - key: prepared-context
   category: active_canonical
   canonical: runtime/prepared-context
-  legacy:
-  - prepared-context
-  retirement_status: remove_when_clean
-  notes: Prepared context under runtime/prepared-context.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: profile
   category: active_canonical
@@ -169,50 +163,44 @@ entries:
 - key: runtime-bundle
   category: active_canonical
   canonical: runtime/bundle
-  legacy:
-  - runtime-bundle
-  retirement_status: remove_when_clean
-  notes: Runtime bundle under runtime/bundle.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: schema-registry
   category: active_canonical
   canonical: schemas/registry
-  legacy:
-  - schema-registry
-  retirement_status: remove_when_clean
-  notes: Schemas registry under schemas/registry.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: skills
   category: active_canonical
   canonical: skills
-  legacy:
-  - skills-portable
-  retirement_status: remove_when_clean
-  notes: Canonical skills dir; legacy skills-portable name.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: skills-portable
   category: active_canonical
   canonical: skills
-  legacy:
-  - skills-portable
-  retirement_status: remove_when_clean
-  notes: Legacy alias key for skills-portable name.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: src
   category: active_canonical
   canonical: platform/src
-  legacy:
-  - src
-  retirement_status: remove_when_clean
-  notes: Active package source under platform/src.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: styles
   category: active_canonical
   canonical: templates/styles
-  legacy:
-  - styles
-  retirement_status: remove_when_clean
-  notes: Template styles under templates/styles.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 1 fallback removed; canonical path only.
   wave: 1
 - key: template
   category: active_canonical

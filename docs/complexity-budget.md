@@ -97,8 +97,17 @@ No new fallback tuple may be added without:
 | Metric | Current | Target |
 |---|---:|---:|
 | `REPO_PATH_MIGRATIONS` keys | 29 | 0 active legacy fallbacks |
+| Keys with legacy fallback tuples (`len(entry) > 1`) | 16 | 0 |
 | Unclassified migration keys | 0 | 0 |
 | Grace-Mar compatibility fallbacks in active resolver | 4 | moved to compat module (Wave 4) |
+
+### Wave 1 removal (2026-06-21)
+
+Wave 1 active canonical fallback tails removed: **12** keys (`artifacts` through `bridges` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)).
+
+Remaining fallback-bearing keys: **16** (Wave 2 platform subpaths: 10; Wave 3 archive placeholders: 3; Wave 4 Grace-Mar compat: 3). `grace-mar-instance` is canonical-only.
+
+Note: `audit_repo_complexity.py --check` still warns on `legacy_fallback_entries` until all waves complete (advisory CI).
 
 Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict` (fail when clean + operator approves CI promotion).
 
