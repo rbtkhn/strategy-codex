@@ -77,6 +77,21 @@ Report:
 - idempotent re-run (expect **0** subs when already clean)
 - git durability: on disk / not committed / not pushed
 
+## Cursor / strategy-codex instance
+
+**Windows fail-over (manual ASR after `source-clean`):** if Shell or `python -c` batch replace **interrupts** on the capture path, stop Shell for that thread and patch via `StrReplace` or one full-file `Write` (post-land cleanup only — not initial sidecar intake); do not retry the same batch shape. RLJ: [§ 2026-06-21 post-land ASR fail-over](../../statecraft/recursive-learning-journal.md#2026-06-21---post-land-asr-cleanup-shell-fail-over-windows) · [agent-tool-latency-discipline.mdc](../../.cursor/rules/agent-tool-latency-discipline.mdc).
+
+## Verification / Proof Standard
+
+**Pass when:**
+
+1. `python scripts/source_clean_statecraft.py --path <capture>` exits 0 (or `--dry-run` preview matches intent).
+2. Closeout reports **series / entity / thread** substitution counts and whether body/frontmatter changed.
+3. Re-run on same file yields **0** new substitutions when already clean.
+4. Transcript argument preserved; `editorial_note` still marks not human-verified verbatim.
+
+**Fail when:** synthesis or summarization in body; upgraded to human-verified without audio check; Shell/`python -c` batch retried on same path after interrupt (use Cursor fail-over above).
+
 ## Related
 
 - Intake: [`statecraft-source-intake`](../statecraft-source-intake/SKILL.md) — optional post-land **`source-clean`**

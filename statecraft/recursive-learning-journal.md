@@ -3507,3 +3507,80 @@ Workspace harness beats generic parallel User Rules on EXECUTE.
 Routing: [2026-06-20 wire matrix](../statecraft/daily/2026-06-20-wire-verify-matrix.md) · [2026-06-20 daily](../statecraft/daily/2026-06-20.md) · [wire-verify SKILL v1.5.4](../skills/wire-verify/SKILL.md) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [wire-verify header-only](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts)
 
 **Pattern promotion:** defer until second distinct MOU week reuses J20 dual-grammar rows without new law beyond (1)(2).
+
+---
+
+## 2026-06-21 - Post-land ASR cleanup Shell fail-over (Windows)
+
+**Tag:** `post-land-asr-cleanup-failover-2026-06-21` · `python-c-batch-hang` · `write-after-shell-interrupt`  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [§ post-success parallel relapse (2026-06-19)](#2026-06-19---post-success-parallel-relapse--wire-verify-dual-profile) · [§ User Rules vs workspace (2026-06-20)](#2026-06-20---mou-hormuz-dual-grammar-wire-verify--user-rules-parallel-precedence) — **narrows**; does not replace base parallel-ban law.
+
+### Trigger
+
+Operator menu-drove Switzer × Mearsheimer × Parsi intake on `2026-06-21`: sidecar land + post-chain (~8s OK) → `source_clean_statecraft.py` (~6s OK) → manual intro/Beinart/MOU `python -c` batch OK → second ASR sweep (option B) **`python -c` multi-replace interrupted ×2** (~150s, ~259s). Operator: *taking too long* / *still failing*. Failover: `StrReplace` + full-file `Write` on landed capture (~40KB) succeeded same thread.
+
+### Extracted law
+
+**1. Post-land ASR cleanup — Shell fail-over**
+
+```text
+After Shell/python interrupt on a landed source-archive capture:
+  → stop Shell on that path for the rest of the thread
+  → patch via StrReplace (one hunk) or one Write of the full capture (≤~45KB OK for cleanup)
+  → do not retry python -c multi-replace or the same batch script shape on that path
+Named repo CLIs that already succeeded (source_clean_statecraft.py, land_* post-chain)
+  remain OK on a fresh turn — ban = hung shape + same-path retry, not all Python.
+```
+
+**2. Intake monolithic-write ban ≠ cleanup ban**
+
+```text
+statecraft-source-intake forbids monolithic Write on initial land (sidecar merge only).
+Post-land manual ASR / second sweep is cleanup, not intake:
+  → full-file Write allowed when Shell has hung on that path
+  → prefer bounded StrReplace when one pattern covers most drift (e.g. straight → Strait)
+```
+
+**3. Operator latency signal**
+
+```text
+"taking too long" / "still failing" mid-cleanup:
+  → abort Shell; switch to Read + Write/StrReplace
+  → report what landed on disk; no "running now" without completed tool result
+```
+
+### Reapplication
+
+- Next long interview intake with manual ASR follow-up: plan cleanup as Write/StrReplace if any prior Shell hang in thread.
+- Menu pick B/C cleanup forks: in-editor patch, not `python -c` replacement loops.
+- Fresh thread, no hang: single-path `source_clean_statecraft.py --path …` remains default.
+- Wire candidate (defer): one line in `source-clean` CURSOR appendix after second reuse.
+
+### Structural changes
+
+| Ship | Receipt |
+|------|---------|
+| Switzer/Mearsheimer/Parsi capture + source-clean + manual + second sweep | `source-archive/statecraft/2026-06-21/source-switzer-mearsheimer-parsi-us-iran-peace-deal-hold-2026-06-21.md` — **local, not committed** |
+| RLJ append | this entry |
+
+### Guardrail
+
+```text
+Do not retry the same python -c batch after interrupt;
+Do not forbid full-file Write for post-land cleanup when sidecar intake law already satisfied;
+Do not duplicate parallel-ban essay — cross-link + narrow;
+Do not run source_clean + batch -c + git in one turn after any hang.
+```
+
+**Falsification:** If agent Shell reliably completes `python -c` multi-replace on ~40KB archive files in <15s, soften law (1) to "prefer repo CLI, -c as fallback" — until measured, fail-over stands.
+
+### Current lesson
+
+```text
+Intake lands through sidecar Shell; cleanup patches through the editor after the first hang —
+not a second python -c batch.
+```
+
+Routing: [source-clean SKILL v1.0.0](../.cursor/skills/source-clean/SKILL.md) · [statecraft-source-intake SKILL v0.4.12](../.cursor/skills/statecraft-source-intake/SKILL.md) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · [agent-execution-hygiene.mdc](../.cursor/rules/agent-execution-hygiene.mdc) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship)
+
+**Pattern promotion:** defer until second distinct capture hits the same `python -c` hang + Write fail-over without new law.
