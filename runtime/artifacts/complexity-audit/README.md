@@ -8,6 +8,7 @@ Baseline and final complexity metrics for the mitigation program.
 | Routing category normalization | [routing-category-normalization-2026-06-21.md](routing-category-normalization-2026-06-21.md) |
 | Path fallback retirement prep | [path-fallback-retirement-2026-06-21.md](path-fallback-retirement-2026-06-21.md) |
 | Wave 1 path fallback removal | [wave-1-path-fallback-removal-2026-06-21.md](wave-1-path-fallback-removal-2026-06-21.md) |
+| Wave 2 platform readiness | [wave-2-platform-readiness-2026-06-21.md](wave-2-platform-readiness-2026-06-21.md) |
 
 Regenerate:
 

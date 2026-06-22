@@ -17,6 +17,8 @@ from repo_io import (  # noqa: E402
     GRACE_MAR_INSTANCE_DIR,
     REPO_PATH_CLASSIFICATION,
     REPO_PATH_MIGRATIONS,
+    collect_wave_readiness_report,
+    keys_for_wave,
     load_path_fallback_retirement,
     profile_dir,
     profile_rel_posix,
@@ -129,3 +131,38 @@ def test_wave_1_retirement_policy_has_no_legacy():
     for key in WAVE_1_KEYS:
         assert retirement[key]["legacy"] == [], key
         assert retirement[key]["retirement_status"] == "keep_no_legacy", key
+
+
+def test_wave_2_keys_still_have_fallbacks_for_now():
+    for key in keys_for_wave(2):
+        assert len(REPO_PATH_MIGRATIONS[key]) > 1, key
+
+
+def test_wave_2_canonical_paths_exist():
+    for key in keys_for_wave(2):
+        canonical = REPO_ROOT / REPO_PATH_MIGRATIONS[key][0]
+        assert canonical.exists(), key
+
+
+def test_wave_2_readiness_report_covers_all_keys():
+    report = collect_wave_readiness_report(wave=2)
+    assert set(report["keys"]) == keys_for_wave(2)
+
+
+def test_wave_2_readiness_all_ready():
+    report = collect_wave_readiness_report(wave=2)
+    retirement = load_path_fallback_retirement()
+    for key, item in report["keys"].items():
+        assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
+        assert retirement[key].get("readiness") == "ready", key
+
+
+def test_check_repo_path_strict_wave_2():
+    proc = subprocess.run(
+        [sys.executable, "scripts/check_repo_path_strict.py", "--wave", "2"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stderr or proc.stdout
+    assert "Wave 2 platform readiness" in proc.stdout

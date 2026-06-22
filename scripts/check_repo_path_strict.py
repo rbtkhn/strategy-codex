@@ -18,6 +18,7 @@ if str(_SCRIPTS) not in sys.path:
 from repo_io import (  # noqa: E402
     REPO_PATH_CLASSIFICATION,
     REPO_PATH_MIGRATIONS,
+    collect_wave_readiness_report,
     load_path_fallback_retirement,
     scan_legacy_path_layout,
     validate_path_fallback_retirement,
@@ -127,6 +128,40 @@ def _print_text_report(report: dict[str, Any]) -> None:
         print("ok: no active legacy repo path layouts detected")
 
 
+def _yes_no(value: bool) -> str:
+    return "yes" if value else "no"
+
+
+def _print_wave_readiness_report(report: dict[str, Any]) -> None:
+    wave = report["wave"]
+    print(f"Wave {wave} platform readiness")
+    print("=" * (len(f"Wave {wave} platform readiness")))
+    print(
+        f"{'Key':<14}{'Canonical exists':<20}{'Legacy exists':<16}"
+        f"{'Active refs':<14}{'Status'}"
+    )
+    for key, item in report["keys"].items():
+        active_count = len(item.get("active_refs") or [])
+        print(
+            f"{key:<14}"
+            f"{_yes_no(item['canonical_exists']):<20}"
+            f"{_yes_no(item['legacy_exists']):<16}"
+            f"{active_count:<14}"
+            f"{item['status']}"
+        )
+    summary = report.get("summary") or {}
+    if summary:
+        print("")
+        print("Summary:")
+        for status, count in sorted(summary.items()):
+            print(f"- {status}: {count}")
+
+
+def _wave_readiness_has_blockers(report: dict[str, Any]) -> bool:
+    allowed = {"ready", "ready_docs_only_refs"}
+    return any(item.get("status") not in allowed for item in report["keys"].values())
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -139,7 +174,30 @@ def main() -> int:
         action="store_true",
         help="Emit machine-readable scan report as JSON",
     )
+    parser.add_argument(
+        "--wave",
+        type=int,
+        metavar="N",
+        help="Emit fallback removal readiness report for retirement wave N",
+    )
+    parser.add_argument(
+        "--strict-readiness",
+        action="store_true",
+        help="With --wave, exit 1 when any key is not ready or ready_docs_only_refs",
+    )
     args = parser.parse_args()
+
+    if args.wave is not None:
+        wave_report = collect_wave_readiness_report(args.wave)
+        if args.json:
+            print(json.dumps(wave_report, indent=2, sort_keys=True))
+        else:
+            _print_wave_readiness_report(wave_report)
+        if args.strict_readiness and _wave_readiness_has_blockers(wave_report):
+            if not args.json:
+                print("repo-path-strict: wave readiness blocked", file=sys.stderr)
+            return 1
+        return 0
 
     report = collect_scan_report()
 

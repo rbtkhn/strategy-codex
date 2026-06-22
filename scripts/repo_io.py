@@ -8,10 +8,11 @@ This module is the single place for REPO_ROOT and path helpers used by scripts a
 
 import json
 import os
+import re
 import sys
 from collections import Counter
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterator
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_PROFILE_ID = (os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex")
@@ -190,6 +191,33 @@ RETIREMENT_STATUSES = frozenset(
         "keep_no_legacy",
     }
 )
+WAVE_READINESS_STATUSES = frozenset(
+    {
+        "ready",
+        "ready_docs_only_refs",
+        "blocked_missing_canonical",
+        "blocked_active_refs",
+        "not_checked",
+    }
+)
+_WAVE_SCAN_EXTENSIONS = frozenset({".py", ".sh", ".yaml", ".yml", ".json", ".toml"})
+_WAVE_SCAN_ROOTS = ("scripts", "tests", "platform", ".github")
+_WAVE_SCAN_EXCLUDE_FILES = frozenset(
+    {
+        "path-fallback-retirement.yaml",
+        "docs/path-fallback-retirement.md",
+        "docs/complexity-budget.md",
+        "scripts/repo_io.py",
+        "scripts/migrate_root_layout.py",
+        "scripts/check_repo_path_strict.py",
+    }
+)
+_WAVE_SCAN_EXCLUDE_DIR_PREFIXES = (
+    ".git/",
+    "runtime/artifacts/complexity-audit/",
+    "archive/grace-mar-instance/",
+    "archive/grace-mar-corpus/",
+)
 
 
 def validate_repo_path_classification() -> list[str]:
@@ -282,12 +310,139 @@ def validate_path_fallback_retirement() -> list[str]:
             issues.append(f"{key}: grace_mar_compat category on unexpected key")
         if category != "grace_mar_compat" and key in GRACE_MAR_COMPAT_KEYS:
             issues.append(f"{key}: expected grace_mar_compat category")
+        readiness = entry.get("readiness")
+        if readiness is not None:
+            readiness_s = str(readiness).strip()
+            if readiness_s not in WAVE_READINESS_STATUSES:
+                issues.append(f"{key}: invalid readiness: {readiness_s!r}")
 
     for key, category in REPO_PATH_CLASSIFICATION.items():
         if category == "grace_mar_compat" and key not in GRACE_MAR_COMPAT_KEYS:
             issues.append(f"{key}: grace_mar_compat classification outside compat set")
 
     return issues
+
+
+def keys_for_wave(wave: int) -> frozenset[str]:
+    """Load wave N keys from path-fallback-retirement.yaml."""
+    by_key = load_path_fallback_retirement()
+    return frozenset(k for k, entry in by_key.items() if entry.get("wave") == wave)
+
+
+def _wave_scan_rel_path(path: Path) -> str:
+    return path.relative_to(REPO_ROOT).as_posix()
+
+
+def _wave_scan_is_excluded(rel_posix: str) -> bool:
+    if rel_posix in _WAVE_SCAN_EXCLUDE_FILES:
+        return True
+    return any(rel_posix.startswith(prefix) for prefix in _WAVE_SCAN_EXCLUDE_DIR_PREFIXES)
+
+
+def _iter_wave_scan_files() -> Iterator[Path]:
+    for root_name in _WAVE_SCAN_ROOTS:
+        root = REPO_ROOT / root_name
+        if not root.is_dir():
+            continue
+        for path in root.rglob("*"):
+            if not path.is_file():
+                continue
+            if path.suffix.lower() not in _WAVE_SCAN_EXTENSIONS:
+                continue
+            rel = _wave_scan_rel_path(path)
+            if _wave_scan_is_excluded(rel):
+                continue
+            yield path
+
+
+def _legacy_active_ref_patterns(legacy: str) -> list[re.Pattern[str]]:
+    escaped = re.escape(legacy)
+    return [
+        re.compile(rf'REPO_ROOT\s*/\s*["\']({escaped})["\']'),
+        re.compile(rf'Path\(["\']({escaped})["\']\)'),
+    ]
+
+
+def _line_has_platform_prefix(line: str, legacy: str) -> bool:
+    return f"platform/{legacy}" in line or f'platform\\{legacy}' in line
+
+
+def _scan_active_legacy_refs(legacy: str) -> list[dict[str, Any]]:
+    """Find hardcoded repo-root legacy path references in active code."""
+    refs: list[dict[str, Any]] = []
+    patterns = _legacy_active_ref_patterns(legacy)
+    for path in _iter_wave_scan_files():
+        rel = _wave_scan_rel_path(path)
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        for line_no, line in enumerate(text.splitlines(), start=1):
+            if _line_has_platform_prefix(line, legacy):
+                continue
+            for pattern in patterns:
+                if pattern.search(line):
+                    refs.append(
+                        {
+                            "path": rel,
+                            "line": line_no,
+                            "pattern": pattern.pattern,
+                            "text": line.strip(),
+                        }
+                    )
+                    break
+    return refs
+
+
+def _derive_wave_key_status(
+    *,
+    canonical_exists: bool,
+    active_refs: list[dict[str, Any]],
+) -> str:
+    if not canonical_exists:
+        return "blocked_missing_canonical"
+    if active_refs:
+        return "blocked_active_refs"
+    return "ready"
+
+
+def collect_wave_readiness_report(wave: int) -> dict[str, Any]:
+    """Audit fallback removal readiness for a retirement wave."""
+    wave_keys = keys_for_wave(wave)
+    key_reports: dict[str, Any] = {}
+    summary: Counter[str] = Counter()
+
+    for key in sorted(wave_keys):
+        entry = REPO_PATH_MIGRATIONS.get(key)
+        if entry is None:
+            raise ValueError(f"wave {wave} key missing from REPO_PATH_MIGRATIONS: {key!r}")
+        canonical_rel = entry[0]
+        legacy_rels = list(entry[1:])
+        canonical = REPO_ROOT / canonical_rel
+        canonical_exists = canonical.exists()
+        legacy_exists = any((REPO_ROOT / rel).exists() for rel in legacy_rels)
+        active_refs: list[dict[str, Any]] = []
+        for legacy in legacy_rels:
+            active_refs.extend(_scan_active_legacy_refs(legacy))
+        status = _derive_wave_key_status(
+            canonical_exists=canonical_exists,
+            active_refs=active_refs,
+        )
+        key_reports[key] = {
+            "canonical": canonical_rel,
+            "legacy": legacy_rels,
+            "canonical_exists": canonical_exists,
+            "legacy_exists": legacy_exists,
+            "active_refs": active_refs,
+            "status": status,
+        }
+        summary[status] += 1
+
+    return {
+        "wave": wave,
+        "keys": key_reports,
+        "summary": dict(summary),
+    }
 
 
 def resolve_repo_path(logical_key: str, *, prefer_existing: bool = True) -> Path:

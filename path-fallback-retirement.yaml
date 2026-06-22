@@ -6,7 +6,8 @@ entries:
   legacy:
   - app
   retirement_status: remove_when_clean
-  notes: Platform app subpath; verify apps first.
+  readiness: ready
+  notes: Platform app subpath; canonical exists; no active root fallback refs.
   wave: 2
 - key: apps
   category: active_canonical
@@ -35,7 +36,8 @@ entries:
   legacy:
   - bin
   retirement_status: remove_when_clean
-  notes: Platform bin subpath.
+  readiness: ready
+  notes: Platform bin subpath; canonical exists; no active root fallback refs.
   wave: 2
 - key: bootstrap
   category: grace_mar_compat
@@ -66,7 +68,8 @@ entries:
   legacy:
   - config
   retirement_status: remove_when_clean
-  notes: Platform config subpath.
+  readiness: ready
+  notes: Platform config subpath; canonical exists; no active root fallback refs.
   wave: 2
 - key: daily-handoff
   category: active_canonical
@@ -81,7 +84,8 @@ entries:
   legacy:
   - deployment
   retirement_status: remove_when_clean
-  notes: Platform deployment subpath.
+  readiness: ready
+  notes: Platform deployment subpath; canonical exists; no active root fallback refs.
   wave: 2
 - key: evidence
   category: archive_placeholder
@@ -97,7 +101,8 @@ entries:
   legacy:
   - extension
   retirement_status: remove_when_clean
-  notes: Platform extension subpath.
+  readiness: ready
+  notes: Platform extension subpath; canonical exists; no active root fallback refs.
   wave: 2
 - key: grace-mar-instance
   category: grace_mar_compat
@@ -111,7 +116,8 @@ entries:
   legacy:
   - integrations
   retirement_status: remove_when_clean
-  notes: Platform integrations subpath.
+  readiness: ready
+  notes: Platform integrations subpath; canonical exists; no active root fallback refs.
   wave: 2
 - key: miniapp
   category: active_canonical
@@ -119,7 +125,8 @@ entries:
   legacy:
   - miniapp
   retirement_status: remove_when_clean
-  notes: Platform miniapp subpath.
+  readiness: ready
+  notes: Platform miniapp subpath; canonical exists; no active root fallback refs.
   wave: 2
 - key: prepared-context
   category: active_canonical
@@ -134,7 +141,8 @@ entries:
   legacy:
   - profile
   retirement_status: remove_when_clean
-  notes: Platform profile subpath.
+  readiness: ready
+  notes: Platform profile subpath; canonical exists; no active root fallback refs.
   wave: 2
 - key: recursion-gate-staging
   category: grace_mar_compat
@@ -208,7 +216,8 @@ entries:
   legacy:
   - _template
   retirement_status: remove_when_clean
-  notes: Platform template; legacy _template at repo root.
+  readiness: ready
+  notes: Platform template; legacy _template at repo root; no active root fallback refs.
   wave: 2
 - key: users
   category: active_canonical
@@ -216,5 +225,6 @@ entries:
   legacy:
   - users
   retirement_status: remove_when_clean
-  notes: Platform users profiles root.
+  readiness: ready
+  notes: Platform users profiles root; canonical exists; no active root fallback refs.
   wave: 2

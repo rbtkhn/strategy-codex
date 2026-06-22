@@ -107,9 +107,13 @@ Wave 1 active canonical fallback tails removed: **12** keys (`artifacts` through
 
 Remaining fallback-bearing keys: **16** (Wave 2 platform subpaths: 10; Wave 3 archive placeholders: 3; Wave 4 Grace-Mar compat: 3). `grace-mar-instance` is canonical-only.
 
+### Wave 2 readiness (2026-06-21)
+
+All **10** Wave 2 platform subpath keys audited **ready** for fallback removal (canonical paths exist; no active root-level legacy refs). Fallback tuples remain until the follow-up removal PR. Receipt: [`runtime/artifacts/complexity-audit/wave-2-platform-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-2-platform-readiness-2026-06-21.md).
+
 Note: `audit_repo_complexity.py --check` still warns on `legacy_fallback_entries` until all waves complete (advisory CI).
 
-Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict` (fail when clean + operator approves CI promotion).
+Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict` · `--wave 2` (readiness audit).
 
 ## CI rollout policy
 

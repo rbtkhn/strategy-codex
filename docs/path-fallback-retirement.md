@@ -61,9 +61,30 @@ artifacts, daily-handoff, prepared-context, runtime-bundle, apps, src, skills, s
 
 artifacts, daily-handoff, prepared-context, runtime-bundle, apps, src, skills, skills-portable, schema-registry, styles, auto-research, bridges
 
-### Wave 2 — Platform subpaths (verify apps first)
+### Wave 2 — Platform subpaths (readiness verified 2026-06-21)
 
 app, bin, deployment, config, extension, integrations, miniapp, users, template, profile
+
+Fallback tuples **not removed yet** — removal is the next PR.
+
+Audit: `python scripts/check_repo_path_strict.py --wave 2` · `--wave 2 --json`
+
+#### Wave 2 readiness
+
+Status as of 2026-06-21:
+
+| Key | Status | Notes |
+|---|---|---|
+| `app` | ready | canonical path exists; no active legacy refs |
+| `bin` | ready | canonical path exists; no active legacy refs |
+| `config` | ready | canonical path exists; no active legacy refs |
+| `deployment` | ready | canonical path exists; no active legacy refs |
+| `extension` | ready | canonical path exists; no active legacy refs |
+| `integrations` | ready | canonical path exists; no active legacy refs |
+| `miniapp` | ready | canonical path exists; no active legacy refs |
+| `profile` | ready | canonical path exists; no active legacy refs |
+| `template` | ready | canonical path exists; no active legacy refs |
+| `users` | ready | canonical path exists; no active legacy refs |
 
 ### Wave 3 — Archive placeholders
 
@@ -79,3 +100,4 @@ bot, recursion-gate-staging, bootstrap -> future `platform/src/strategy_codex/co
 
 - [`docs/complexity-budget.md`](complexity-budget.md)
 - `python scripts/check_repo_path_strict.py`
+- `python scripts/check_repo_path_strict.py --wave 2`
