@@ -40,7 +40,7 @@ Shared vocabulary for all six `rome-{term}.md` chain segments (civilization owns
 | Code civil lineage | Industrial | comparative memory | French branch residue — post-Revolution civil-law carry |
 | **Latin-American civil-law + Catholic dispersion** | Industrial → Cybernetic | partial inheritance | Iberian colonial **instrument** carry (Hispano- + Lusophone; Brazil folded); not chain head |
 
-**Cross-reads:** [Empire (Rome)](rome-empire.md#sovereignty-chain-empire-lens) · [Faith (Rome)](rome-faith.md#sovereignty-chain-faith-lens) · [Science (Rome)](rome-science.md#sovereignty-chain-science-lens) · [Memory (Rome)](rome-memory.md#chain-spine) · [Entropy (Rome)](rome-entropy.md#sovereignty-chain-entropy-lens)
+**Cross-reads:** [Empire (Rome)](rome-empire.md#sovereignty-chain-empire-lens) · [Faith (Rome)](rome-faith.md#sovereignty-chain-faith-lens) · [Science (Rome)](theory/rome-science.md#sovereignty-chain-science-lens) · [Memory (Rome)](rome-memory.md#chain-spine) · [Entropy (Rome)](rome-entropy.md#sovereignty-chain-entropy-lens)
 
 ## Dual language heritage — civilization lens {#dual-language-heritage-civilization-lens}
 
@@ -130,7 +130,7 @@ Civic-military ethic — *virtus*, triumph, citizenship-as-service. **Not** camp
 
 **Boundary (civilization · military):** Ethic roster ≠ command chronicle — cross-read [empire military roster](rome-empire.md#military-history-empire-lens).
 
-**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Science — civilization lens](#science-history-civilization-lens) · [Military history (essay)](misc/military-history-rome.md)
+**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Science — civilization lens](#science-history-civilization-lens) · [Military history (essay)](theory/military-history-rome.md)
 
 ## Faith history — civilization lens {#faith-history-civilization-lens}
 
@@ -157,11 +157,11 @@ Civic-sacred ethic — public cult, priesthoods, liturgical calendar, citizenshi
 | **Savonarola** | yes | Florence theocracy interval (1494–1498) · bonfire-of-vanities · prophetic civic-sacred shock — **partial-inheritance rupture-adjacent** · **`contested-weight`** | civilization · faith · entropy |
 | **Michelangelo** | yes | Sacral-classical art ethic — Sistine / monumental grammar; papal commission cross-ref [Faith (Rome)](rome-faith.md#faith-history-faith-lens) | civilization · faith · empire |
 
-**Analyst chain (roster-indexed):** Philo → Augustine → Aquinas — spine-tagged on Christianization cluster; Avicenna/Averroes on [Science faith lens](rome-science.md#faith-history-science-lens) (E6).
+**Analyst chain (roster-indexed):** Philo → Augustine → Aquinas — spine-tagged on Christianization cluster; Avicenna/Averroes on [Science faith lens](theory/rome-science.md#faith-history-science-lens) (E6).
 
 **Boundary (civilization · faith):** Ethic roster ≠ institutional chronicle — cross-read [empire faith roster](rome-empire.md#faith-history-empire-lens).
 
-**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](misc/faith-history-rome.md)
+**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](theory/faith-history-rome.md)
 
 ## Science history — civilization lens {#science-history-civilization-lens}
 
@@ -186,7 +186,7 @@ Public works ethic, humanist recovery, artisan-observer procedural grammar. **No
 
 **Boundary (civilization · science):** Ethic roster ≠ institutional chronicle — cross-read [empire science roster](rome-empire.md#science-history-empire-lens).
 
-**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science history (essay)](misc/science-history-rome.md)
+**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science history (essay)](theory/science-history-rome.md)
 
 ## Whole-work term
 
@@ -204,13 +204,13 @@ Roman law is **civilizational grammar** before it is procedure or empire: citize
 - **Civic order** — public duty, magistracy, republican form remembered under empire
 - **Inherited Roman form** — law as continuity-bearing pattern, not only as enforcement
 
-When the seam is “what makes this Roman,” govern **civilization** first; widen to [Science (Rome)](rome-science.md) when codification carries the inheritance.
+When the seam is “what makes this Roman,” govern **civilization** first; widen to [Science (Rome)](theory/rome-science.md) when codification carries the inheritance.
 
 ## Causal connections
 
 ### Science (Rome)
 
-Law **codified** is still civilization-bearing — see [Science (Rome)](rome-science.md). Distinguish grammar (civilization) from governable text (science).
+Law **codified** is still civilization-bearing — see [Science (Rome)](theory/rome-science.md). Distinguish grammar (civilization) from governable text (science).
 
 ### Empire (Rome)
 
@@ -226,7 +226,7 @@ Legal continuity across East/West split — see [Memory (Rome)](rome-memory.md).
 - [Civilization Rome](essays/civilization-rome.md)
 - [Faith (Rome)](rome-faith.md) — legitimating image
 - [Memory (Rome)](rome-memory.md) — five spines SSOT
-- History essays: [Dual language heritage](essays/dual-language-heritage-rome.md) · [Military history](misc/military-history-rome.md) · [Faith history](misc/faith-history-rome.md) · [Science history](misc/science-history-rome.md)
+- History essays: [Dual language heritage](essays/dual-language-heritage-rome.md) · [Military history](theory/military-history-rome.md) · [Faith history](theory/faith-history-rome.md) · [Science history](theory/science-history-rome.md)
 - Spine cross-reads: [Chain](rome-memory.md#chain-spine) · [Language](rome-memory.md#language-spine) · [Military](rome-memory.md#military-spine) · [Faith](rome-memory.md#faith-spine) · [Science](rome-memory.md#science-spine)
 - [Cross-cutting objects — Roman law](../../theory/README.md#cross-cutting-objects)
 

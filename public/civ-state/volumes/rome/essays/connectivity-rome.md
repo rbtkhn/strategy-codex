@@ -23,7 +23,7 @@ Each term file **deepens** one whole-work lens from [theory shelf](../../../theo
 | [`rome-civilization`](../rome-civilization.md) | What **inheritance** is at stake? | Chain node-type vocabulary; Greek/Latin **rosters SSOT**; military/faith/science **ethic** rosters | Command chronicle · pontificate machinery · academies → empire |
 | [`rome-empire`](../rome-empire.md) | What **outward instrument** carries this? | Sovereignty hinge chronicle; parallel carriers; campaign / institutional rosters | Language rosters · *virtus* ethic · public cult ethic → civilization |
 | [`rome-faith`](../rome-faith.md) | What **sacred truth-order** authorizes? | **1054 primary**; faith-spine routing; sacred dual-medium present doctrine | Institutional sacred roster → empire; sacred ethic → civilization |
-| [`rome-science`](../rome-science.md) | What **procedural truth-order** encodes? | Science-lens diagnosis; tri-spine footnotes (1204/1453); faith↔science choreography pointers | Spine tables → memory; institutional science → empire |
+| [`rome-science`](../theory/rome-science.md) | What **procedural truth-order** encodes? | Science-lens diagnosis; tri-spine footnotes (1204/1453); faith↔science choreography pointers | Spine tables → memory; institutional science → empire |
 | [`rome-entropy`](../rome-entropy.md) | Which **shock** broke carry? | Rupture-primary rows (476 · 1204 · 1453 · Reformation · 1789 · …); Italian Wars / Sack 1527 | Empire-overreach rhythm → empire + civilization |
 
 ## Six×six cross-read matrix
@@ -62,7 +62,7 @@ Direct links for routing — one anchor per cell above.
 | **Civilization** | [link](../rome-civilization.md#sovereignty-chain-civilization-lens) | [link](../rome-civilization.md#dual-language-heritage-civilization-lens) | [link](../rome-civilization.md#military-history-civilization-lens) | [link](../rome-civilization.md#faith-history-civilization-lens) | [link](../rome-civilization.md#science-history-civilization-lens) |
 | **Empire** | [link](../rome-empire.md#sovereignty-chain-empire-lens) | [link](../rome-empire.md#dual-language-heritage-empire-lens) | [link](../rome-empire.md#military-history-empire-lens) | [link](../rome-empire.md#faith-history-empire-lens) | [link](../rome-empire.md#science-history-empire-lens) |
 | **Faith** | [link](../rome-faith.md#sovereignty-chain-faith-lens) | [link](../rome-faith.md#dual-language-heritage-faith-lens) | [link](../rome-faith.md#military-history-faith-lens) | [link](../rome-faith.md#faith-history-faith-lens) | [link](../rome-faith.md#faith-history-science-lens) |
-| **Science** | [link](../rome-science.md#sovereignty-chain-science-lens) | [link](../rome-science.md#dual-language-heritage-science-lens) | [link](../rome-science.md#military-history-science-lens) | [link](../rome-science.md#faith-history-science-lens) | [link](../rome-science.md#science-history-science-lens) |
+| **Science** | [link](../theory/rome-science.md#sovereignty-chain-science-lens) | [link](../theory/rome-science.md#dual-language-heritage-science-lens) | [link](../theory/rome-science.md#military-history-science-lens) | [link](../theory/rome-science.md#faith-history-science-lens) | [link](../theory/rome-science.md#science-history-science-lens) |
 | **Memory** | [link](../rome-memory.md#sovereignty-chain-memory-lens) | [link](../rome-memory.md#dual-language-heritage-memory-lens) | [link](../rome-memory.md#military-history-memory-lens) | [link](../rome-memory.md#faith-history-memory-lens) | [link](../rome-memory.md#science-history-memory-lens) |
 | **Entropy** | [link](../rome-entropy.md#sovereignty-chain-entropy-lens) | [link](../rome-entropy.md#dual-language-heritage-entropy-lens) | [link](../rome-entropy.md#military-history-entropy-lens) | [link](../rome-entropy.md#faith-history-entropy-lens) | [link](../rome-entropy.md#science-history-entropy-lens) |
 
@@ -94,8 +94,8 @@ Seven-node **Civilization ↔ Empire ↔ Entropy** choreography (prose SSOT): [C
 |------|----------|-----|
 | **Constitutional** | [civilization-rome.md](civilization-rome.md) · [empire-rome.md](empire-rome.md) | Transformed continuity · outward machinery — volume Parts 1–2 |
 | **Term depth** | [`../rome-{term}.md`](../README.md#term-depth-volume-root) | Whole-work projection of each governing term — roster SSOT · membrane hub |
-| **History sub-lenses** | [language](dual-language-heritage-rome.md) · [military](../misc/military-history-rome.md) · [faith](../misc/faith-history-rome.md) · [science](../misc/science-history-rome.md) | Single-dimension depth on one parallel spine |
-| **hex-frame** | [misc registry](../misc/README.md#hex-frame-hexagonal-demonstrators) · [_template-hexagonal-rome](_template-hexagonal-rome.md) | **One friction node × six term passes** — nodal demonstrator; links rosters, never duplicates them |
+| **History sub-lenses** | [language](dual-language-heritage-rome.md) · [military](../theory/military-history-rome.md) · [faith](../theory/faith-history-rome.md) · [science](../theory/science-history-rome.md) | Single-dimension depth on one parallel spine |
+| **hex-frame** | [theory registry](../theory/README.md#hex-frame-hexagonal-demonstrators) · [_template-hexagonal-rome](_template-hexagonal-rome.md) | **One friction node × six term passes** — nodal demonstrator; links rosters, never duplicates them |
 | **Essay-rome** | [registry](#essay-rome-registry) · [civ-state-essay-template](../../../templates/civ-state-essay-template.md) | Standalone lattice nodes — narrative / geographic / hinge prose; **no global read order** |
 
 Open **hex-frame** when the operator needs **the same node diagnosed six ways**; open a **history sub-lens** when **one dimension** needs essay-length treatment; open **essay-rome** for **standalone lattice** depth (wire via `## Links`, not volume-wide sequence).
@@ -114,16 +114,16 @@ Active civic-chain nodes ship **reader-facing** `essay-rome-{slug}.md` plus edit
 
 **Active geo-branch:** [carthage](essay-rome-carthage.md) — rival western Mediterranean system (Punic trial · annihilation · African inheritance); [egypt](essay-rome-egypt.md) — dependency system (Nile · grain · Alexandria · imperial recurrence); `prose_qa` receipts on registry rows (verified 2026-06-22).
 
-**hex_link ids → hex-frame files:** `1453` → [hexagonal-1453-rome.md](../misc/hexagonal-1453-rome.md) · `1054-schism` → [hexagonal-1054-schism-rome.md](../misc/hexagonal-1054-schism-rome.md) · `republic-principate` → [hexagonal-republic-principate-rome.md](../misc/hexagonal-republic-principate-rome.md) · `justinian-529` → [hexagonal-justinian-codification-rome.md](../misc/hexagonal-justinian-codification-rome.md) · `italian-wars` → [hexagonal-italian-wars-rome.md](../misc/hexagonal-italian-wars-rome.md) · `colonial-tail` → [hexagonal-colonial-tail-rome.md](../misc/hexagonal-colonial-tail-rome.md)
+**hex_link ids → hex-frame files:** `1453` → [hexagonal-1453-rome.md](../theory/hexagonal-1453-rome.md) · `1054-schism` → [hexagonal-1054-schism-rome.md](../theory/hexagonal-1054-schism-rome.md) · `republic-principate` → [hexagonal-republic-principate-rome.md](../theory/hexagonal-republic-principate-rome.md) · `justinian-529` → [hexagonal-justinian-codification-rome.md](../theory/hexagonal-justinian-codification-rome.md) · `italian-wars` → [hexagonal-italian-wars-rome.md](../theory/hexagonal-italian-wars-rome.md) · `colonial-tail` → [hexagonal-colonial-tail-rome.md](../theory/hexagonal-colonial-tail-rome.md)
 
 ## Return Path
 
 - [Rome volume README](../README.md) — era blocks and opener
 - [Essays index](README.md) — constitutional + history sub-lenses
 - Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)
-- Four history essays: [language](dual-language-heritage-rome.md) · [military](../misc/military-history-rome.md) · [faith](../misc/faith-history-rome.md) · [science](../misc/science-history-rome.md)
+- Four history essays: [language](dual-language-heritage-rome.md) · [military](../theory/military-history-rome.md) · [faith](../theory/faith-history-rome.md) · [science](../theory/science-history-rome.md)
 - Constitutional essays: [civilization](civilization-rome.md) · [empire](empire-rome.md)
-- hex-frame: [misc registry](../misc/README.md#hex-frame-hexagonal-demonstrators) · [template](_template-hexagonal-rome.md)
+- hex-frame: [theory registry](../theory/README.md#hex-frame-hexagonal-demonstrators) · [template](_template-hexagonal-rome.md)
 - Essay-rome: [registry](#essay-rome-registry) · [civ-state-essay-template](../../../templates/civ-state-essay-template.md)
 - Term depth: [volume root](../README.md#term-depth-volume-root)
 - [Theory shelf](../../../theory/README.md)

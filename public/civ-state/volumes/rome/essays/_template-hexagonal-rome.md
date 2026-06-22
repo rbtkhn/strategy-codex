@@ -1,6 +1,6 @@
 # Hexagonal {Friction node title} (Rome)
 
-<!-- Copy this file to ../misc/hexagonal-{slug}-rome.md. Delete this comment block on ship. Register in misc/README.md § hex-frame. -->
+<!-- Copy this file to ../theory/hexagonal-{slug}-rome.md. Delete this comment block on ship. Register in theory/README.md § hex-frame. -->
 
 ## Where This Sits
 
@@ -37,7 +37,7 @@ Ask six governing questions in order — **memory placement first**, then the le
 | **Civilization** | What inheritance is at stake? | {ethic / partial-inheritance} | {…} | [link](../rome-civilization.md#{segment}) |
 | **Empire** | What outward instrument? | {chronicle / institutional} | {…} | [link](../rome-empire.md#{segment}) |
 | **Faith** | What sacred truth-order? | {…} | {…} | [link](../rome-faith.md#{segment}) |
-| **Science** | What procedural truth-order? | {…} | {…} | [link](../rome-science.md#{segment}) |
+| **Science** | What procedural truth-order? | {…} | {…} | [link](../theory/rome-science.md#{segment}) |
 | **Entropy** | Which shock broke carry? | {rupture-primary · comparative · —} | {…} | [link](../rome-entropy.md#{segment}) |
 
 ## Cross-ref law (this node)

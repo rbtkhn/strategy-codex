@@ -31,10 +31,10 @@ Read in order when the volume itself is the object:
 Then open **optional sub-lenses** only when one dimension needs essay-length depth ([essays README](essays/README.md)):
 
 - [Dual language heritage](essays/dual-language-heritage-rome.md)
-- [Military history](misc/military-history-rome.md)
-- [Faith history](misc/faith-history-rome.md)
-- [Science history](misc/science-history-rome.md)
-- [Geo-strategy](misc/geo-strategy-rome.md) · [Secret-history](misc/secret-history-rome.md) · [Game-theory](misc/game-theory-rome.md)
+- [Military history](theory/military-history-rome.md)
+- [Faith history](theory/faith-history-rome.md)
+- [Science history](theory/science-history-rome.md)
+- [Geo-strategy](theory/geo-strategy-rome.md) · [Secret-history](theory/secret-history-rome.md) · [Game-theory](theory/game-theory-rome.md)
 
 ---
 
@@ -64,7 +64,7 @@ Each active civic-chain node has a `.meta.yaml` sidecar (scope, deferrals, retur
 
 **Other planned lattice nodes** (africa, constantinople, schism, and others): see [`essay-rome.registry.yaml`](essays/essay-rome.registry.yaml).
 
-**hex-frame peer** for this chain: [Republic → principate](misc/hexagonal-republic-principate-rome.md) — six-term read of the same hinge, not a substitute for the civic essays.
+**hex-frame peer** for this chain: [Republic → principate](theory/hexagonal-republic-principate-rome.md) — six-term read of the same hinge, not a substitute for the civic essays.
 
 ---
 
@@ -74,12 +74,12 @@ One friction node read through all six `rome-{term}.md` lenses. Template: [_temp
 
 | Node | File |
 |------|------|
-| 1453 East terminus | [hexagonal-1453-rome.md](misc/hexagonal-1453-rome.md) |
-| Italian Wars / Sack 1527 | [hexagonal-italian-wars-rome.md](misc/hexagonal-italian-wars-rome.md) |
-| Justinian codification (529) | [hexagonal-justinian-codification-rome.md](misc/hexagonal-justinian-codification-rome.md) |
-| 1054 Great Schism | [hexagonal-1054-schism-rome.md](misc/hexagonal-1054-schism-rome.md) |
-| Republic → principate | [hexagonal-republic-principate-rome.md](misc/hexagonal-republic-principate-rome.md) |
-| Colonial procedural tail | [hexagonal-colonial-tail-rome.md](misc/hexagonal-colonial-tail-rome.md) |
+| 1453 East terminus | [hexagonal-1453-rome.md](theory/hexagonal-1453-rome.md) |
+| Italian Wars / Sack 1527 | [hexagonal-italian-wars-rome.md](theory/hexagonal-italian-wars-rome.md) |
+| Justinian codification (529) | [hexagonal-justinian-codification-rome.md](theory/hexagonal-justinian-codification-rome.md) |
+| 1054 Great Schism | [hexagonal-1054-schism-rome.md](theory/hexagonal-1054-schism-rome.md) |
+| Republic → principate | [hexagonal-republic-principate-rome.md](theory/hexagonal-republic-principate-rome.md) |
+| Colonial procedural tail | [hexagonal-colonial-tail-rome.md](theory/hexagonal-colonial-tail-rome.md) |
 
 ---
 
@@ -88,7 +88,7 @@ One friction node read through all six `rome-{term}.md` lenses. Template: [_temp
 Six whole-work term projections — link rosters here; do not duplicate in essays:
 
 - [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
-- [rome-faith](rome-faith.md) · [rome-science](rome-science.md) · [rome-memory](rome-memory.md)
+- [rome-faith](rome-faith.md) · [rome-science](theory/rome-science.md) · [rome-memory](rome-memory.md)
 
 **Spine index** on memory: [chain](rome-memory.md#chain-spine) · [language](rome-memory.md#language-spine) · [military](rome-memory.md#military-spine) · [faith](rome-memory.md#faith-spine) · [science](rome-memory.md#science-spine)
 

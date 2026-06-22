@@ -14,7 +14,7 @@ Read Rome as a migration shelf. Start with founding law, empire, and universalit
 
 **Faith note:** Institutional and sacred-ethic rosters live on [rome-empire](rome-empire.md#faith-history-empire-lens) and [rome-civilization](rome-civilization.md#faith-history-civilization-lens); placement index: [faith spine](rome-memory.md#faith-spine).
 
-**Science note:** Institutional and procedural-ethic rosters live on [rome-empire](rome-empire.md#science-history-empire-lens) and [rome-civilization](rome-civilization.md#science-history-civilization-lens); placement index: [science spine](rome-memory.md#science-spine). Essay: [Science history Rome](misc/science-history-rome.md).
+**Science note:** Institutional and procedural-ethic rosters live on [rome-empire](rome-empire.md#science-history-empire-lens) and [rome-civilization](rome-civilization.md#science-history-civilization-lens); placement index: [science spine](rome-memory.md#science-spine). Essay: [Science history Rome](theory/science-history-rome.md).
 
 ## What Each Era Is Doing
 
@@ -44,7 +44,7 @@ Switchboard rule:
 - Open the [Rome bibliography](../../sources/rome/bibliography.md) for era entry and source doors (shelves live under [../../sources/rome/](../../sources/rome/README.md)).
 - Open the era-matched `secondary-sources` file from the bibliography when chronology, transformed-continuity interpretation, or counterweight is the real need rather than direct source descent alone.
 - Open [Dual language heritage Rome](essays/dual-language-heritage-rome.md) if the live question is Greek/Latin medium, rosters, or sacred-language fork.
-- Open [Science history Rome](misc/science-history-rome.md) if the live question is evidentiary procedure, codification, university formation, or faith/science/entropy delineation.
+- Open [Science history Rome](theory/science-history-rome.md) if the live question is evidentiary procedure, codification, university formation, or faith/science/entropy delineation.
 - Open [Rome civilization](essays/civilization-rome.md) if the live question is legitimacy, continuity, or category membership.
 - Open [Rome empire](essays/empire-rome.md) if the live question is universality, projection, or imperial residue.
 - Open [Rome empire](essays/empire-rome.md) if the live question is present-tense successor-order comparison.

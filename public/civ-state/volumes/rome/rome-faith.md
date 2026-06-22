@@ -20,7 +20,7 @@ Last updated: 2026-06-18
 | Colonial mission (Iberian) | Colonial | instrument | Sacral authorization of overseas incorporation — Spanish + Portuguese instruments |
 | Vatican / concordats | Industrial → Cybernetic | present-carrier | Papal residue narrowed to sacral-universal carry without territorial Roman totality |
 
-**Cross-reads:** [Civilization (Rome)](rome-civilization.md#sovereignty-chain-civilization-lens) · [Empire (Rome)](rome-empire.md#sovereignty-chain-empire-lens) · [Science (Rome)](rome-science.md#sovereignty-chain-science-lens) · [Memory (Rome)](rome-memory.md#chain-spine) · [Entropy (Rome)](rome-entropy.md#sovereignty-chain-entropy-lens)
+**Cross-reads:** [Civilization (Rome)](rome-civilization.md#sovereignty-chain-civilization-lens) · [Empire (Rome)](rome-empire.md#sovereignty-chain-empire-lens) · [Science (Rome)](theory/rome-science.md#sovereignty-chain-science-lens) · [Memory (Rome)](rome-memory.md#chain-spine) · [Entropy (Rome)](rome-entropy.md#sovereignty-chain-entropy-lens)
 
 **Boundary rules (faith):**
 - **1054** primary row lives here — other lenses cross-ref only.
@@ -38,7 +38,7 @@ Last updated: 2026-06-18
 | Filioque / azymes | Medieval | sacred_medium | Latin doctrinal insertion vs Greek liturgical continuity |
 | Papal Latin universalism | Medieval → present | sacred_medium | Present co-primary sacred carrier — Pope Leo XIV |
 | Orthodox Greek liturgy | Medieval → present | sacred_medium | Present co-primary sacred carrier — parallel to papal Latin (`operator-sacred-doctrine`) |
-| Canon law (Latin procedural home) | Medieval → present | codification_medium | Distinct from **ecclesiastical Latin** vs **civil Latin** — cross-ref [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) |
+| Canon law (Latin procedural home) | Medieval → present | codification_medium | Distinct from **ecclesiastical Latin** vs **civil Latin** — cross-ref [Science (Rome)](theory/rome-science.md#dual-language-heritage-science-lens) |
 | Church Slavonic expansion | Medieval → present | cross-ref | Orthodox carry beyond Greek — see [Russia volume](../../volumes/russia/README.md) handoff |
 
 **Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Civilization rosters](rome-civilization.md#dual-language-heritage-civilization-lens) · [Dual language heritage (essay)](essays/dual-language-heritage-rome.md)
@@ -55,7 +55,7 @@ Faith licenses force; does not replace political head (Papacy on `#chain-spine`)
 | Thirty Years' War | Post-crusade intra-Latin-Christian war | `operator-tyw-faith-fracture` · **`contested-weight`** |
 | Reconquista | Cross-ref — chain retrieval-primary | cross-ref Iberia row |
 
-**Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Military history (essay)](misc/military-history-rome.md)
+**Cross-reads:** [Military spine — formation](rome-memory.md#military-spine-formation) · [Military history (essay)](theory/military-history-rome.md)
 
 ## Faith history — faith lens {#faith-history-faith-lens}
 
@@ -81,7 +81,7 @@ Full spine routing + council depth. Placement SSOT: [Faith spine](rome-memory.md
 | Orthodox present | `operator-sacred-doctrine` — pairs language spine | `operator-sacred-doctrine` |
 | Christianization (324–380) | `operator-supersessionism-boundary` · `operator-synthesis-chain` | `historical-grounded` |
 
-**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Institutional roster](rome-empire.md#faith-history-empire-lens) · [Sacred ethic roster](rome-civilization.md#faith-history-civilization-lens) · [Faith history (essay)](misc/faith-history-rome.md)
+**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Institutional roster](rome-empire.md#faith-history-empire-lens) · [Sacred ethic roster](rome-civilization.md#faith-history-civilization-lens) · [Faith history (essay)](theory/faith-history-rome.md)
 
 ## Science history — faith lens {#science-history-faith-lens}
 
@@ -94,7 +94,7 @@ Cross-ref when procedural truth-order hybridizes with sacred order. SSOT on [Sci
 | Galileo trial / Index | Sacred boundary — science owns observation (E3) | cross-ref entropy |
 | Trent | Faith western primary — science scholastic cross-ref only (K1) | cross-ref |
 
-**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science — faith lens](rome-science.md#faith-history-science-lens) · [Science history (essay)](misc/science-history-rome.md)
+**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science — faith lens](theory/rome-science.md#faith-history-science-lens) · [Science history (essay)](theory/science-history-rome.md)
 
 ## Whole-work term
 
@@ -112,13 +112,13 @@ Roman law carries **sacred authorization**: natural law, Christian empire synthe
 - **Christian empire synthesis** — imperial law Christianized without ending Roman universal claim
 - **Canon overlap** — church law beside civil law; papal residue after territorial contraction
 
-When the seam is mandate, doctrinal universality, or forbidden humiliation, govern **faith** first; pair with [Science (Rome)](rome-science.md) when procedure and sacred order hybridize.
+When the seam is mandate, doctrinal universality, or forbidden humiliation, govern **faith** first; pair with [Science (Rome)](theory/rome-science.md) when procedure and sacred order hybridize.
 
 ## Causal connections
 
 ### Science (Rome)
 
-Canon law and civil codification — [Science (Rome)](rome-science.md). Faith without procedural carry → rhetoric.
+Canon law and civil codification — [Science (Rome)](theory/rome-science.md). Faith without procedural carry → rhetoric.
 
 ### Civilization (Rome)
 

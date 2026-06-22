@@ -37,7 +37,7 @@ Ask six governing questions in order — **memory placement first**, then the le
 | **Civilization** | What inheritance is at stake? | **Partial-inheritance** acceleration on peninsula (classical retrieval); Greek **reception_medium** shift — ethic rosters unchanged | Greek/Latin roster SSOT | [sovereignty chain — civilization](../rome-civilization.md#sovereignty-chain-civilization-lens) · [dual language — civilization](../rome-civilization.md#dual-language-heritage-civilization-lens) |
 | **Empire** | What outward instrument? | Eastern bridge-carrier **terminus** (476–1453 block ends); parallel table flips to Papacy + HRE/France without East column | Named emperor roster · campaign chronicle | [sovereignty chain — empire](../rome-empire.md#sovereignty-chain-empire-lens) |
 | **Faith** | What sacred truth-order? | **Co-primary sacred** post-bridge: Orthodox Greek carry vs papal Latin — civil-law dispersion ≠ sacred extinction | 1054 primary (schism) | [faith history — faith](../rome-faith.md#faith-history-faith-lens) · cross-ref [language spine sacred row](../rome-memory.md#language-spine) |
-| **Science** | What procedural truth-order? | **Tri-spine footnote** (N2): gunpowder/siege co-equal with terminus; Greek→Latin **code migration** cross-ref — not new rupture row | `#science-spine` table SSOT | [science history — science](../rome-science.md#science-history-science-lens) · [dual language — science](../rome-science.md#dual-language-heritage-science-lens) |
+| **Science** | What procedural truth-order? | **Tri-spine footnote** (N2): gunpowder/siege co-equal with terminus; Greek→Latin **code migration** cross-ref — not new rupture row | `#science-spine` table SSOT | [science history — science](theory/rome-science.md#science-history-science-lens) · [dual language — science](theory/rome-science.md#dual-language-heritage-science-lens) |
 | **Entropy** | Which shock broke carry? | **Rupture (primary)** — Eastern Roman Empire terminates; expert-class Greek-medium continuity ruptures | Faith 1054 primary · empire overreach | [sovereignty chain — entropy](../rome-entropy.md#sovereignty-chain-entropy-lens) · [military history — entropy](../rome-entropy.md#military-history-entropy-lens) |
 
 ## Cross-ref law (this node)
@@ -58,6 +58,6 @@ The membrane lesson: one calendar year, six honest answers — inheritance witho
 ## Return Path
 
 - [Connectivity Rome](../essays/connectivity-rome.md) · [Essays index](../essays/README.md)
-- [Hexagonal demonstrators registry](../essays/README.md#hexagonal-demonstrators)
+- [Hexagonal demonstrators registry](../theory/README.md#hex-frame-hexagonal-demonstrators)
 - Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)
 - Constitutional essays: [civilization](../essays/civilization-rome.md) · [empire](../essays/empire-rome.md)

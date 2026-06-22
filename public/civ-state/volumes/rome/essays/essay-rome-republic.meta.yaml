@@ -53,7 +53,7 @@ routing:
     - essay-rome-genesis.md
     - essay-rome-caesar.md
     - essay-rome-augustus.md
-  hex_frame: ../misc/hexagonal-republic-principate-rome.md
+  hex_frame: ../theory/hexagonal-republic-principate-rome.md
   term_depth:
     - ../rome-memory.md#chain-spine
     - ../rome-civilization.md#sovereignty-chain-civilization-lens
@@ -65,13 +65,13 @@ routing:
     - ../../../sources/rome/secondary/ancient.md
     - ../shelf-reader.md
   sub_lens:
-    - ../misc/military-history-rome.md
+    - ../theory/military-history-rome.md
     - dual-language-heritage-rome.md
-    - ../misc/geo-strategy-rome.md
-    - ../misc/science-history-rome.md
+    - ../theory/geo-strategy-rome.md
+    - ../theory/science-history-rome.md
   return_path:
     - connectivity-rome.md
-    - ../misc/hexagonal-republic-principate-rome.md
+    - ../theory/hexagonal-republic-principate-rome.md
     - essay-rome-genesis.md
     - ../rome-memory.md
     - README.md

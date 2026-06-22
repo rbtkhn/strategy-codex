@@ -17,7 +17,7 @@ Polytheism and Stoic/Epicurean philosophical religion are **co-primary** on the 
 ## Delineation
 
 - **[Dual language heritage Rome](../essays/dual-language-heritage-rome.md)** — Greek/Latin **medium** and sacred dual-carrier; cross-ref only when liturgical medium governs, not truth-order placement.
-- **[Science (Rome)](../rome-science.md)** — canon law, evidentiary procedure, Avicenna/Averroes transmission; cross-ref when procedural truth-order governs.
+- **[Science (Rome)](theory/rome-science.md)** — canon law, evidentiary procedure, Avicenna/Averroes transmission; cross-ref when procedural truth-order governs.
 - **[Military spine](../rome-memory.md#military-spine)** — faith **licenses** force; crusades and holy war instruments cross-ref here — do not duplicate campaign bodies.
 - **[Entropy (Rome)](../rome-entropy.md)** — heresies, expulsions, Manichaeism, Gnosticism, 1789 sacred rupture; schism shocks that degrade order.
 

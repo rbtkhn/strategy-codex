@@ -21,12 +21,12 @@ Optional sub-lenses open **after** Civilization and Empire when the seam needs t
 
 ## Optional sub-lenses
 
-Maturing interpretive chapters — open after Civilization and Empire. **Dual language heritage** stays here; other history sub-lenses and geo/strategy lenses live under [misc](../misc/README.md#history-sub-lenses).
+Maturing interpretive chapters — open after Civilization and Empire. **Dual language heritage** stays here; other history sub-lenses and geo/strategy lenses live under [theory](../theory/README.md#history-sub-lenses).
 
 | Lens | File |
 |------|------|
 | Dual language heritage | [dual-language-heritage-rome.md](dual-language-heritage-rome.md) |
-| Military · faith · science · geo · secret · game | [misc](../misc/README.md#history-sub-lenses) |
+| Military · faith · science · geo · secret · game | [theory](../theory/README.md#history-sub-lenses) |
 
 ## Routing essays
 
@@ -43,12 +43,12 @@ Maturing interpretive chapters — open after Civilization and Empire. **Dual la
 |-------|----------|-----|
 | **Constitutional** | [civilization-rome.md](civilization-rome.md) · [empire-rome.md](empire-rome.md) | Volume Parts 1–2 — read first |
 | **Term depth** | [volume root `rome-{term}.md`](../README.md#term-depth-volume-root) | Whole-work term projection · roster SSOT |
-| **hex-frame** | [misc § hex-frame](../misc/README.md#hex-frame-hexagonal-demonstrators) | One friction node × six term passes |
+| **hex-frame** | [theory § hex-frame](../theory/README.md#hex-frame-hexagonal-demonstrators) | One friction node × six term passes |
 | **Essay-rome** | [§ below](#essay-rome) | Standalone lattice — **no global read order** |
 
 ## hex-frame (hexagonal demonstrators)
 
-On-disk under [misc/](../misc/README.md#hex-frame-hexagonal-demonstrators) — `hexagonal-*-rome.md`. Copy scaffold: [_template-hexagonal-rome.md](_template-hexagonal-rome.md).
+On-disk under [theory/](../theory/README.md#hex-frame-hexagonal-demonstrators) — `hexagonal-*-rome.md`. Copy scaffold: [_template-hexagonal-rome.md](_template-hexagonal-rome.md).
 
 ## Essay-rome
 
@@ -75,7 +75,7 @@ Full lattice (21 nodes, alphabetical by slug in YAML): [`essay-rome.registry.yam
 
 ## Term depth (volume root)
 
-Six whole-work term files — **`../rome-{term}.md`** (not under `essays/`): [civilization](../rome-civilization.md) · [empire](../rome-empire.md) · [faith](../rome-faith.md) · [science](../rome-science.md) · [memory](../rome-memory.md) · [entropy](../rome-entropy.md). Hub: [connectivity-rome.md](connectivity-rome.md).
+Six whole-work term files — **`../rome-{term}.md`** at volume root (science: [../theory/rome-science.md](../theory/rome-science.md)): [civilization](../rome-civilization.md) · [empire](../rome-empire.md) · [faith](../rome-faith.md) · [science](../theory/rome-science.md) · [memory](../rome-memory.md) · [entropy](../rome-entropy.md). Hub: [connectivity-rome.md](connectivity-rome.md).
 
 ## Keep at volume root
 

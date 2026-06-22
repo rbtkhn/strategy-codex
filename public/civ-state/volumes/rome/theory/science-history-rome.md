@@ -85,7 +85,7 @@ Many rows are **civ-state placement law**, not neutral history-of-science consen
 - [Institutional roster](../rome-empire.md#science-history-empire-lens)
 - [Procedural ethic roster](../rome-civilization.md#science-history-civilization-lens)
 - [Chain spine](../rome-memory.md#chain-spine)
-- [Roman law mirror — science term](../rome-science.md)
+- [Roman law mirror — science term](theory/rome-science.md)
 
 ## Limits of the Frame
 

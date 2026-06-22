@@ -28,11 +28,10 @@ Primary source base: Rome source corpus
 - Volume retrieve shelf: [Rome bibliography](../../sources/rome/bibliography.md) · volume door [source-shelf.md](source-shelf.md)
 - Essay citation inventory (PD URLs, civic-chain): [rome-bibliography.md](rome-bibliography.md) — see [essays README § Essay-rome](essays/README.md#essay-rome)
 - Sovereign continuity support note: [Rome chain spine](rome-memory.md#chain-spine) · [Rome military spine](rome-memory.md#military-spine) · [Rome faith spine](rome-memory.md#faith-spine) · [Rome science spine](rome-memory.md#science-spine)
-- Optional sub-lenses: [essays](essays/README.md) (dual language heritage) · [misc](misc/README.md) (history sub-lenses · geo-strategy · secret-history · game-theory · hex-frame)
-- Volume-local theory: `rome-{term}.md` — orchestrated from [whole-work theory](../../theory/README.md) (Roman law mirror pilot); overflow [theory/](theory/README.md)
+- Optional sub-lenses: [essays](essays/README.md) (dual language heritage) · [theory](theory/README.md) (history sub-lenses · geo-strategy · secret-history · game-theory · hex-frame · rome-science)
+- Volume-local theory: `rome-{term}.md` — orchestrated from [whole-work theory](../../theory/README.md) (Roman law mirror pilot); shelf [theory/](theory/README.md)
   - [rome-civilization](rome-civilization.md) · [rome-empire](rome-empire.md) · [rome-entropy](rome-entropy.md)
-  - [rome-faith](rome-faith.md) · [rome-science](rome-science.md) · [rome-memory](rome-memory.md)
-- Volume overflow: [misc](misc/README.md)
+  - [rome-faith](rome-faith.md) · [rome-science](theory/rome-science.md) · [rome-memory](rome-memory.md)
 - Term connectivity (six-term membrane): [Connectivity Rome](essays/connectivity-rome.md)
 - Continuity state: Eastern Roman Empire as the indispensable continuity state
 

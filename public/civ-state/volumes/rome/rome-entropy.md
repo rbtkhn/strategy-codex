@@ -21,7 +21,7 @@ Last updated: 2026-06-19
 | 1898 (Spain) | Industrial | wound (secondary) | Empire loss — Spanish branch stays **partial-active**, not terminated |
 | Colonial overreach / decolonization | Industrial → Cybernetic | instrument wind-down | Iberian colonial instruments terminate; carry **disperses** to Latin America |
 
-**Cross-reads:** [Civilization (Rome)](rome-civilization.md#sovereignty-chain-civilization-lens) · [Empire (Rome)](rome-empire.md#sovereignty-chain-empire-lens) · [Faith (Rome)](rome-faith.md#sovereignty-chain-faith-lens) · [Science (Rome)](rome-science.md#sovereignty-chain-science-lens) · [Memory (Rome)](rome-memory.md#chain-spine)
+**Cross-reads:** [Civilization (Rome)](rome-civilization.md#sovereignty-chain-civilization-lens) · [Empire (Rome)](rome-empire.md#sovereignty-chain-empire-lens) · [Faith (Rome)](rome-faith.md#sovereignty-chain-faith-lens) · [Science (Rome)](theory/rome-science.md#sovereignty-chain-science-lens) · [Memory (Rome)](rome-memory.md#chain-spine)
 
 **Boundary rules (entropy):**
 - **476, 1204, Reformation** primary rows live here; faith/science/memory cross-ref.
@@ -37,7 +37,7 @@ Last updated: 2026-06-19
 | **1204** | Medieval | rupture | Constantinople codex shock — Greek text survival threatened |
 | **1453** | Medieval | rupture | Greek bridge ends; expert-class and Greek-medium state continuity ruptures |
 | Reformation | Colonial | rupture | Latin universal law-bearing fragments |
-| Vulgar Latin / Romance decay | Medieval → Industrial | medium decay | Vernacularization — full treatment deferred; ecclesiastical vs civil Latin distinguished on [Science (Rome)](rome-science.md#dual-language-heritage-science-lens) |
+| Vulgar Latin / Romance decay | Medieval → Industrial | medium decay | Vernacularization — full treatment deferred; ecclesiastical vs civil Latin distinguished on [Science (Rome)](theory/rome-science.md#dual-language-heritage-science-lens) |
 | Law as rhetoric | Industrial → Cybernetic | rupture | Medium and institution decouple — sacred grammar without procedural carry |
 
 **Cross-reads:** [Language spine](rome-memory.md#language-spine) · [Empire (Rome)](rome-empire.md#dual-language-heritage-empire-lens)
@@ -56,7 +56,7 @@ Defeats, frontier collapse, civil war, gunpowder terminus. Placement: [Military 
 | Thirty Years' War | European confessional rupture | **`contested-weight`** |
 | NATO comparative footnote | `operator-present-residue-stretch` — frontier-maintenance analogy only; **not** present period row | `operator-present-residue-stretch` |
 
-**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Military history (essay)](misc/military-history-rome.md)
+**Cross-reads:** [Military spine](rome-memory.md#military-spine) · [Military history (essay)](theory/military-history-rome.md)
 
 ## Faith history — entropy lens {#faith-history-entropy-lens}
 
@@ -76,7 +76,7 @@ Heresies, expulsions, dualist rivals, sacred ruptures. Placement: [Faith spine](
 | **Italian Wars (1494–1559)** | Peninsula comparative strain — **1494 Charles VIII hinge** (cross-ref [Empire — Italian Wars term node](rome-empire.md#military-history-empire-lens)) · **Florence theocracy (1494–1498)** · **`contested-weight`** · **Borgia–Medici rivalry** (cross-ref [civilization Medici ethic](rome-civilization.md#faith-history-civilization-lens) · [empire Borgia rows](rome-empire.md#faith-history-empire-lens)) · Lucrezia marriage-diplomacy cross-ref · **French Valois kings** comparative one-liner · Savonarola adjacency — **not** 476/1204/1453-class universal rupture | **`contested-weight`** · **`comparative`** |
 | **Sack of Rome (1527)** | **`rupture-primary`** — peninsula sacred-art / papal carry shock (Michelangelo adjacency); cross-ref [civilization Michelangelo ethic](rome-civilization.md#faith-history-civilization-lens) · [Faith — Michelangelo](rome-faith.md#faith-history-faith-lens) · Medici instrument cross-ref — **no duplicate Borgia co-primary** (H10-C) | **`rupture-primary`** |
 
-**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](misc/faith-history-rome.md)
+**Cross-reads:** [Faith spine](rome-memory.md#faith-spine) · [Faith history (essay)](theory/faith-history-rome.md)
 
 ## Science history — entropy lens {#science-history-entropy-lens}
 
@@ -91,7 +91,7 @@ Shock and censorship degrading procedural carry. SSOT rupture rows on entropy; s
 | **Sack of Rome (1527)** | Sacred-monument / workshop shock — cross-ref [civilization Michelangelo](rome-civilization.md#science-history-civilization-lens) · Medici patronage cross-ref; Italian Wars comparative parent row | cross-ref faith |
 | Law as rhetoric | Medium/institution decouple — courts collapsed → science | cross-ref science |
 
-**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science — military lens](rome-science.md#military-history-science-lens) · [Science (Rome)](rome-science.md) · [Science history (essay)](misc/science-history-rome.md)
+**Cross-reads:** [Science spine](rome-memory.md#science-spine) · [Science — military lens](theory/rome-science.md#military-history-science-lens) · [Science (Rome)](theory/rome-science.md) · [Science history (essay)](theory/science-history-rome.md)
 
 ## Whole-work term
 
@@ -119,7 +119,7 @@ Sacred language without institution — [Faith (Rome)](rome-faith.md).
 
 ### Entropy (Rome)
 
-Courts and jurists collapsed — [Science (Rome)](rome-science.md).
+Courts and jurists collapsed — [Science (Rome)](theory/rome-science.md).
 
 ### Civilization (Rome)
 
@@ -128,7 +128,7 @@ Inheritance rhetoric without carry — [Civilization (Rome)](rome-civilization.m
 ## Bridge
 
 - [Connectivity Rome](essays/connectivity-rome.md) — six-term membrane · [hexagonal demonstrators](essays/README.md#hexagonal-demonstrators)
-- [Secret-history Rome](misc/secret-history-rome.md)
+- [Secret-history Rome](theory/secret-history-rome.md)
 - [Empire Rome](essays/empire-rome.md) — maintenance exhaustion
 
 ## Return paths

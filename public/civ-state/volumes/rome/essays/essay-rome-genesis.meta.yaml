@@ -61,7 +61,7 @@ routing:
     - ../shelf-reader.md
   sub_lens:
     - dual-language-heritage-rome.md
-    - ../misc/geo-strategy-rome.md
+    - ../theory/geo-strategy-rome.md
   return_path:
     - connectivity-rome.md
     - civilization-rome.md

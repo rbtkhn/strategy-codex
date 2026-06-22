@@ -37,7 +37,7 @@ Ask six governing questions in order — **memory placement first**, then the le
 | **Civilization** | What inheritance is at stake? | **Partial inheritance** — Latin-American civil-law + Catholic dispersion; **not** chain head; geographic Latin-America ≠ classical Latin revival | Ethic rosters | [sovereignty chain — civilization](../rome-civilization.md#sovereignty-chain-civilization-lens) |
 | **Empire** | What outward instrument? | **Owns instrument chronicle** — 1492 Castilian Atlantic · Portuguese discovery · Charles V parallel-habsburg · colonial instrument merge — **`instrument` not co-primary** | Peninsular branch roster | [sovereignty chain — empire](../rome-empire.md#sovereignty-chain-empire-lens) · [military history — empire](../rome-empire.md#military-history-empire-lens) |
 | **Faith** | What sacred truth-order? | **Colonial mission tail** — patronato · Jesuit/Franciscan mission instrument; **`contested-weight` mandatory** | Papal present-carrier | [faith history — faith](../rome-faith.md#faith-history-faith-lens) · [faith history — entropy](../rome-entropy.md#faith-history-entropy-lens) |
-| **Science** | What procedural truth-order? | **Colonial codification export** — Siete Partidas / Ordenações · Indies transplantation · Latin-American civil-law **carry** (dispersion, not live head beside Papacy) | `#science-spine` western tail | [science history — science](../rome-science.md#science-history-science-lens) · [science-spine western](../rome-memory.md#science-spine-western) |
+| **Science** | What procedural truth-order? | **Colonial codification export** — Siete Partidas / Ordenações · Indies transplantation · Latin-American civil-law **carry** (dispersion, not live head beside Papacy) | `#science-spine` western tail | [science history — science](theory/rome-science.md#science-history-science-lens) · [science-spine western](../rome-memory.md#science-spine-western) |
 | **Entropy** | Which shock broke carry? | **Instrument wind-down** — colonial overreach / decolonization; carry disperses to Latin America; **`contested-weight`** parallel to science tail (M5) — **not** 476-class universal rupture | Full rupture-primary rows | [sovereignty chain — entropy](../rome-entropy.md#sovereignty-chain-entropy-lens) · [science history — entropy](../rome-entropy.md#science-history-entropy-lens) |
 
 ## Cross-ref law (this node)
@@ -60,7 +60,7 @@ The **colonial procedural tail** shows Rome's grammar **exporting** through **in
 ## Return Path
 
 - [Connectivity Rome](../essays/connectivity-rome.md) · [Essays index](../essays/README.md)
-- [Hexagonal demonstrators registry](../essays/README.md#hexagonal-demonstrators)
+- [Hexagonal demonstrators registry](../theory/README.md#hex-frame-hexagonal-demonstrators)
 - Wave 1: [1453](hexagonal-1453-rome.md) · [Italian Wars / Sack](hexagonal-italian-wars-rome.md) · [Justinian 529](hexagonal-justinian-codification-rome.md)
 - Wave 2: [1054](hexagonal-1054-schism-rome.md) · [Republic→principate](hexagonal-republic-principate-rome.md)
 - Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)

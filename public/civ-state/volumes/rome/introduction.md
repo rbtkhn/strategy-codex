@@ -10,11 +10,11 @@ Civilization beautifies through law, citizenship, and imperial universality; emp
 
 **Dual language heritage:** Greek and Latin as co-primary media from Republic onward; language placement: [rome-memory — language spine](rome-memory.md#language-spine). Essay: [Dual language heritage Rome](essays/dual-language-heritage-rome.md).
 
-**Military history:** Force-structure parallel dimension; military placement: [rome-memory — military spine](rome-memory.md#military-spine). Essay: [Military history Rome](misc/military-history-rome.md).
+**Military history:** Force-structure parallel dimension; military placement: [rome-memory — military spine](rome-memory.md#military-spine). Essay: [Military history Rome](theory/military-history-rome.md).
 
-**Faith history:** Sacred-order parallel dimension; faith placement: [rome-memory — faith spine](rome-memory.md#faith-spine). Essay: [Faith history Rome](misc/faith-history-rome.md).
+**Faith history:** Sacred-order parallel dimension; faith placement: [rome-memory — faith spine](rome-memory.md#faith-spine). Essay: [Faith history Rome](theory/faith-history-rome.md).
 
-**Science history:** Evidentiary/procedural parallel dimension; science placement: [rome-memory — science spine](rome-memory.md#science-spine). Essay: [Science history Rome](misc/science-history-rome.md).
+**Science history:** Evidentiary/procedural parallel dimension; science placement: [rome-memory — science spine](rome-memory.md#science-spine). Essay: [Science history Rome](theory/science-history-rome.md).
 
 **Sacred / civilizational grammar:** Roman law, citizenship, imperial universality, Christianity, papal residue. See [rome-faith](rome-faith.md) · [rome-civilization](rome-civilization.md) · [rome-memory](rome-memory.md).
 
@@ -22,4 +22,4 @@ Civilization beautifies through law, citizenship, and imperial universality; emp
 
 **Failure mode to avoid:** reading Rome as dead antiquity, or as nostalgia detached from actual continuity carriers.
 
-**Read path:** [Civilization Rome](essays/civilization-rome.md) → [Empire Rome](essays/empire-rome.md) → [Dual language heritage Rome](essays/dual-language-heritage-rome.md) → [Military history Rome](misc/military-history-rome.md) → [Faith history Rome](misc/faith-history-rome.md) → [Science history Rome](misc/science-history-rome.md) → optional [geo-strategy](misc/geo-strategy-rome.md), [secret-history](misc/secret-history-rome.md), [game-theory](misc/game-theory-rome.md). Source shelf: [shelf reader](shelf-reader.md).
+**Read path:** [Civilization Rome](essays/civilization-rome.md) → [Empire Rome](essays/empire-rome.md) → [Dual language heritage Rome](essays/dual-language-heritage-rome.md) → [Military history Rome](theory/military-history-rome.md) → [Faith history Rome](theory/faith-history-rome.md) → [Science history Rome](theory/science-history-rome.md) → optional [geo-strategy](theory/geo-strategy-rome.md), [secret-history](theory/secret-history-rome.md), [game-theory](theory/game-theory-rome.md). Source shelf: [shelf reader](shelf-reader.md).

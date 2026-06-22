@@ -59,7 +59,7 @@ This node teaches **split rupture ownership** inside one peninsula arc. **Empire
 ## Return Path
 
 - [Connectivity Rome](../essays/connectivity-rome.md) · [Essays index](../essays/README.md)
-- [Hexagonal demonstrators registry](../essays/README.md#hexagonal-demonstrators)
+- [Hexagonal demonstrators registry](../theory/README.md#hex-frame-hexagonal-demonstrators)
 - Prior wave-1 node: [1453 East terminus](hexagonal-1453-rome.md)
 - Five spines: [chain](../rome-memory.md#chain-spine) · [language](../rome-memory.md#language-spine) · [military](../rome-memory.md#military-spine) · [faith](../rome-memory.md#faith-spine) · [science](../rome-memory.md#science-spine)
 - Constitutional essays: [civilization](../essays/civilization-rome.md) · [empire](../essays/empire-rome.md)

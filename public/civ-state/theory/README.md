@@ -52,7 +52,7 @@ Some objects legitimately touch **all six terms** in full depth — law, treaty,
 | [civilization](civilization.md) | **Civilizational grammar** — citizenship, civic order, inherited Roman form ([Rome — civilization](../volumes/rome/rome-civilization.md)) |
 | [empire](empire.md) | **Imperial jurisdiction** — universal claim, provincial administration, coercive reach ([Rome — empire](../volumes/rome/rome-empire.md)) |
 | [faith](faith.md) | **Sacred authorization** — natural law, Christian empire synthesis, canon overlap, moral limit ([Rome — faith](../volumes/rome/rome-faith.md)) |
-| [science](science.md) | **Codification and procedure** — *Twelve Tables* → praetorian edicts → *Corpus Juris Civilis*; jurists, institutes, governable text ([Rome — science](../volumes/rome/rome-science.md)) |
+| [science](science.md) | **Codification and procedure** — *Twelve Tables* → praetorian edicts → *Corpus Juris Civilis*; jurists, institutes, governable text ([Rome — science](../volumes/rome/theory/rome-science.md)) |
 | [memory](memory.md) | **Legal continuity** — succession of codes, East/West split, restitution of what must not be lost ([Rome — memory](../volumes/rome/rome-memory.md)) |
 | [entropy](entropy.md) | **Rupture** — western fall, reformation fracture, revolution; law as rhetoric without carry after shock ([Rome — entropy](../volumes/rome/rome-entropy.md)) |
 

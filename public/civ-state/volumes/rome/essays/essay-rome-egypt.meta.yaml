@@ -73,7 +73,7 @@ routing:
     - ../../../sources/rome/secondary/ancient.md
     - ../shelf-reader.md
   sub_lens:
-    - ../misc/geo-strategy-rome.md
+    - ../theory/geo-strategy-rome.md
   return_path:
     - connectivity-rome.md
     - README.md

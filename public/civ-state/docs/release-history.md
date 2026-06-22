@@ -242,7 +242,7 @@ Wave 2 essays (D–F) already carried archetype headers at v0.1.33–34.
 | `rome-memory.md` | **`#science-spine`** four sub-tables (inheritance · formation · eastern · western) + boundary rules + choreography tags |
 | `rome-empire.md` · `rome-civilization.md` | Split science rosters (institutional · procedural ethic) |
 | `rome-{term}.md` | **`#science-history-{term}-lens`** segments on all six term files |
-| `misc/science-history-rome.md` | Interpretive essay + Faith/Entropy/Language delineation tables |
+| `theory/science-history-rome.md` | Interpretive essay + Faith/Entropy/Language delineation tables |
 | `sources/rome/primary/*.md` | Shelf **S1–S8** science-spine tags |
 | `governing-term-first.md` | Step 8 science placement |
 | Doctrine | Fifth parallel spine; Italy ║ France branches; Rosetta colonial tail; no present science rows (E2) |
@@ -299,7 +299,7 @@ Historical causes and manifestations: war, revolution, disease, famine, ecologic
 | `rome-empire.md` | **Institutional sacred roster** + faith carrier types SSOT |
 | `rome-civilization.md` | **Sacred ethic roster** SSOT (Philo → Augustine → Aquinas synthesis chain) |
 | `rome-{term}.md` | **Faith history — {term} lens** on all six theory files |
-| `misc/faith-history-rome.md` | Reader smoke-test essay (framework vs history, eastern trilogy, supersessionism boundary) |
+| `theory/faith-history-rome.md` | Reader smoke-test essay (framework vs history, eastern trilogy, supersessionism boundary) |
 | `sources/rome/primary/ancient.md` | Patristic Latin/Greek, Jewish-in-Empire shelf (S1–S3) |
 | `sources/rome/primary/medieval.md` | al-Tabari, Gratian/Trent/Index canon shelf (S4–S5) |
 | `theory/{term}.md` | Volume depth (Rome) → `#faith-spine` + faith segment anchors |
@@ -314,7 +314,7 @@ Historical causes and manifestations: war, revolution, disease, famine, ecologic
 | `rome-empire.md` | **Campaign roster** + military carrier types SSOT |
 | `rome-civilization.md` | **Civic-military ethic roster** SSOT |
 | `rome-{term}.md` | **Military history — {term} lens** on all six theory files |
-| `misc/military-history-rome.md` | Reader smoke-test essay (framework vs history, Herodotus synthesis) |
+| `theory/military-history-rome.md` | Reader smoke-test essay (framework vs history, Herodotus synthesis) |
 | `sources/rome/primary/ancient.md` | Vegetius, Frontinus, Ammianus, Agathias, Procopius, Maurice, Nikephoros Phokas |
 | `theory/{term}.md` | Volume depth (Rome) → `#military-spine` + military segment anchors |
 | `governing-term-first.md` | Military placement fork → formation / eastern / western |

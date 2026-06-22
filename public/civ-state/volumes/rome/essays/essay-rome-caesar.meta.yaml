@@ -59,7 +59,7 @@ routing:
     - essay-rome-genesis.md
     - essay-rome-augustus.md
     - essay-rome-napoleon.md
-  hex_frame: ../misc/hexagonal-republic-principate-rome.md
+  hex_frame: ../theory/hexagonal-republic-principate-rome.md
   term_depth:
     - ../rome-memory.md#chain-spine
     - ../rome-empire.md#sovereignty-chain-empire-lens
@@ -71,10 +71,10 @@ routing:
     - ../../../sources/rome/secondary/ancient.md
     - ../shelf-reader.md
   sub_lens:
-    - ../misc/military-history-rome.md
+    - ../theory/military-history-rome.md
   return_path:
     - connectivity-rome.md
-    - ../misc/hexagonal-republic-principate-rome.md
+    - ../theory/hexagonal-republic-principate-rome.md
     - essay-rome-republic.md
     - essay-rome-augustus.md
     - ../rome-memory.md

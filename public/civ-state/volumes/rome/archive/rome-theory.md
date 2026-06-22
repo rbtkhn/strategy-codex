@@ -22,7 +22,7 @@ Open a whole-work term page first ([Governing term first](../../../skills/govern
 | civilization | [rome-civilization.md](../rome-civilization.md) | Civilizational grammar — citizenship, civic order |
 | empire | [rome-empire.md](../rome-empire.md) | Imperial jurisdiction — universal claim, provinces |
 | faith | [rome-faith.md](../rome-faith.md) | Sacred authorization — natural law, canon |
-| science | [rome-science.md](../rome-science.md) | Codification — *Corpus Juris Civilis*, jurists |
+| science | [rome-science.md](../theory/rome-science.md) | Codification — *Corpus Juris Civilis*, jurists |
 | memory | [rome-memory.md](../rome-memory.md) | Legal continuity — East/West, restitution |
 | entropy | [rome-entropy.md](../rome-entropy.md) | Rupture — fall, schism; law without carry |
 

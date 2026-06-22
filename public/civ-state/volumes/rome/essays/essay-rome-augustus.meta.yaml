@@ -55,7 +55,7 @@ routing:
     - essay-rome-caesar.md
     - essay-rome-republic.md
     - essay-rome-genesis.md
-  hex_frame: ../misc/hexagonal-republic-principate-rome.md
+  hex_frame: ../theory/hexagonal-republic-principate-rome.md
   term_depth:
     - ../rome-memory.md#chain-spine
     - ../rome-empire.md#sovereignty-chain-empire-lens
@@ -70,7 +70,7 @@ routing:
   sub_lens: []
   return_path:
     - connectivity-rome.md
-    - ../misc/hexagonal-republic-principate-rome.md
+    - ../theory/hexagonal-republic-principate-rome.md
     - essay-rome-caesar.md
     - ../rome-empire.md
     - ../rome-memory.md
