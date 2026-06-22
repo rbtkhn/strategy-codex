@@ -123,6 +123,9 @@ Where a stable public-domain edition exists online, an indented line links to th
 - c. AD 100–120s — Plutarch, *Life of Tiberius Gracchus*.
   - https://archive.org/details/plutarchslives00plut
 
+- c. AD 100–120s — Plutarch, *Life of Cato the Elder*.
+  - https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Lives/Cato_the_Elder*.html
+
 - c. AD 100–120s — Plutarch, *Life of Caesar*.
   - https://archive.org/details/plutarchslives00plut
 
@@ -137,6 +140,10 @@ Where a stable public-domain edition exists online, an indented line links to th
 
 - c. AD 140s–160s — Appian, *Roman History* / *Civil Wars*.
   - https://www.gutenberg.org/ebooks/9779
+
+- c. AD 140s–160s — Appian, *Punic Wars* (*Roman History*, Book VI — Horace White trans.).
+  - https://www.livius.org/sources/content/appian/appian-the-punic-wars/
+  - https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/home.html
 
 - c. AD 2nd century — Florus, *Epitome of Roman History*.
   - https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Florus/Epitome/home.html
