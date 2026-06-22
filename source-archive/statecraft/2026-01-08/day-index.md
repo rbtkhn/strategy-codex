@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [tH6Llc4xGBk](https://www.youtube.com/watch?v=tH6Llc4xGBk) | `source-alex-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md` |
+| `alexander-mercouris` | Alexander Mercouris | `mercouris` | [tH6Llc4xGBk](https://www.youtube.com/watch?v=tH6Llc4xGBk) | `source-alexander-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `jermy`, `davis` | [BgPKfkTK_p4](https://www.youtube.com/watch?v=BgPKfkTK_p4) | `source-daniel-davis-deep-dive-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md` |
 
 ## Writer sources
@@ -54,7 +54,7 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 
 ## Files
 
-- `source-alex-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md`
+- `source-alexander-mercouris-moscow-strikes-us-assets-in-ukraine-warns-will-protect-its-ships-calls-s-2026-01-08.md`
 - `source-crooke-the-rubican-crossed-team-trumps-nihilistic-2026-01-08.md`
 - `source-daniel-davis-deep-dive-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md`
 - `source-simplicius-escalation-mad-trumps-coast-guard-2026-01-08.md`

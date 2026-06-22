@@ -1,6 +1,6 @@
 # Source-Archive index architecture audit
 
-Generated: `2026-06-04T14:12:25Z`
+Generated: `2026-06-22T14:40:42Z`
 
 WORK only; not Record. This is a heuristic audit over the secondary source-archive analytic layer and speaker routing surfaces.
 

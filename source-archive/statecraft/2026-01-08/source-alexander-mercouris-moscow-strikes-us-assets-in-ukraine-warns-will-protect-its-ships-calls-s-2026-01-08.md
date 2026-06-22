@@ -10,7 +10,7 @@ show: Alexander Mercouris
 host: Alexander Mercouris
 title: Moscow Strikes US Assets In Ukraine; Warns Will Protect Its Ships; Calls Starmer Macron Axis Of War
 channel_url: "https://www.youtube.com/@AlexMercouris/videos"
-channel_slug: alex-mercouris
+channel_slug: alexander-mercouris
 source_url: "https://www.youtube.com/watch?v=tH6Llc4xGBk"
 youtube_id: tH6Llc4xGBk
 source_note: "Operator-pasted YouTube transcript; upgrade from index stub 2026-06-22. Spoken self-date 8 Jan 2026. Marinera/Bella 2 seizure Scotland; Russian FM ship-protection line; US-owned assets struck Ukraine (Sonar 26/Larry Johnson); Paris 6 Jan coalition axis-of-war FM trash; Starmer/Macron hubs; Kushner/Witkoff Paris; Graham bone-crushing sanctions; Zaporozhye/Kupiansk front; Venezuela neo-colonial oil squeeze. · source-clean pass 2026-06-22 (21 subs); manual ASR tier; manual ASR tier 2 (audio-first: Marinera, Novgorod/Valdai, Kupiansk/Oskil, Bunge/Olimpex)."
@@ -20,7 +20,7 @@ capture_note: Operator paste; replaces automated index mirror stub.
 transcript_wrapper_tier: clean
 mercouris_close_promo_trim_applied: true
 normalization_state: ai_assisted_proper_noun_cleanup
-editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (mercouris, channel:alex-mercouris)); 21 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved."
+editorial_note: "AI-assisted source-clean (scaffold + ph-civ series + entity + thread tiers (mercouris, channel:alexander-mercouris)); 21 substitutions; not human-verified verbatim; verify before quotation. Prior provenance: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Routine Mercouris solo subscribe/platform close trimmed in place; SSOT body otherwise preserved."
 quality_note: "ASR normalization pass 2026-06-22; ph-civ replacement SSOT."
 ---
 # Moscow Strikes US Assets In Ukraine; Warns Will Protect Its Ships; Calls Starmer Macron Axis Of War

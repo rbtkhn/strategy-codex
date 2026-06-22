@@ -1,8 +1,9 @@
-from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Build an aggregate statecraft day dashboard from day indices."""
 
 from __future__ import annotations
+
+from repo_io import ARTIFACTS_DIR
 
 import argparse
 import json
