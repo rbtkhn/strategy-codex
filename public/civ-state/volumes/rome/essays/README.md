@@ -86,7 +86,6 @@ Six term lenses under [../theory/](../theory/README.md#six-term-lenses): [civili
 | `shelf-reader.md` | Source-navigation apparatus |
 | `source-shelf.md` | Redirect to `sources/rome/` retrieve shelf |
 | `rome-bibliography.md` | Essay citation inventory — PD URLs for civic-chain sources (see [§ Essay-rome](#essay-rome)) |
-| `sacred-grammar.md` | Export-validator redirect stub |
 
 Term lenses live under [../theory/](../theory/README.md) — not at volume root.
 

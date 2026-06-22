@@ -1,6 +1,6 @@
 # Sacred Grammar
 
-**Archived v0.1.23** — book-native prose merged into [rome-faith.md](../theory/rome-faith.md), [rome-civilization.md](../theory/rome-civilization.md), and [rome-memory.md](../theory/rome-memory.md). Active redirect: [../sacred-grammar.md](../sacred-grammar.md).
+**Archived v0.1.23** — book-native prose merged into [rome-faith.md](../theory/rome-faith.md), [rome-civilization.md](../theory/rome-civilization.md), and [rome-memory.md](../theory/rome-memory.md). Active doors: [theory/README.md](../theory/README.md).
 
 Volume-local deep grammar for **Civilizational Statecraft**, Volume III — Rome.
 

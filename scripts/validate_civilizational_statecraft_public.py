@@ -155,7 +155,10 @@ def volume_bibliography_door(slug: str) -> str:
 def check_volume(export: Path, slug: str, eras: list[str], stub: bool) -> list[str]:
     errors: list[str] = []
     base = export / "volumes" / slug
-    for name in ["README.md", "introduction.md", "sacred-grammar.md", "shelf-reader.md", volume_bibliography_door(slug)]:
+    required = ["README.md", "introduction.md", "shelf-reader.md", volume_bibliography_door(slug)]
+    if slug != "rome":
+        required.insert(2, "sacred-grammar.md")
+    for name in required:
         if not (base / name).is_file():
             errors.append(f"volumes/{slug}: missing {name}")
     for legacy in base.glob("statecraft-*.md"):
