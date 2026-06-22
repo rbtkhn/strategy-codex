@@ -42,7 +42,7 @@ Maturing interpretive chapters — open after Civilization and Empire. **Dual la
 | Layer | Location | Job |
 |-------|----------|-----|
 | **Constitutional** | [civilization-rome.md](civilization-rome.md) · [empire-rome.md](empire-rome.md) | Volume Parts 1–2 — read first |
-| **Term depth** | [volume root `rome-{term}.md`](../README.md#term-depth-volume-root) | Whole-work term projection · roster SSOT |
+| **Term depth** | [theory `rome-{term}.md`](../theory/README.md#six-term-lenses) | Whole-work term projection · roster SSOT |
 | **hex-frame** | [theory § hex-frame](../theory/README.md#hex-frame-hexagonal-demonstrators) | One friction node × six term passes |
 | **Essay-rome** | [§ below](#essay-rome) | Standalone lattice — **no global read order** |
 
@@ -73,9 +73,9 @@ Twenty-one standalone lattice nodes under **Civilizational Statecraft**. **Regis
 
 Full lattice (21 nodes, alphabetical by slug in YAML): [`essay-rome.registry.yaml`](essay-rome.registry.yaml).
 
-## Term depth (volume root)
+## Term depth (`theory/`)
 
-Six whole-work term files — **`../rome-{term}.md`** at volume root (science: [../theory/rome-science.md](../theory/rome-science.md)): [civilization](../theory/rome-civilization.md) · [empire](../theory/rome-empire.md) · [faith](../theory/rome-faith.md) · [science](../theory/rome-science.md) · [memory](../theory/rome-memory.md) · [entropy](../theory/rome-entropy.md). Hub: [connectivity-rome.md](connectivity-rome.md).
+Six term lenses under [../theory/](../theory/README.md#six-term-lenses): [civilization](../theory/rome-civilization.md) · [empire](../theory/rome-empire.md) · [faith](../theory/rome-faith.md) · [science](../theory/rome-science.md) · [memory](../theory/rome-memory.md) · [entropy](../theory/rome-entropy.md). Hub: [connectivity-rome.md](connectivity-rome.md).
 
 ## Keep at volume root
 
