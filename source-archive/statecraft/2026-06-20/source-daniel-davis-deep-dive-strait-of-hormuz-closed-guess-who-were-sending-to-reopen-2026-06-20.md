@@ -24,8 +24,25 @@ source_note: Operator-pasted YouTube transcript; Davis solo Saturday 20 Jun 2026
 evidence_grade: transcript-bearing
 opening_tier: host-monologue
 capture_note: Operator paste; full solo program body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio.
+editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Wire-verify header pass 2026-06-20.
 transcript_wrapper_tier: clean
+verify_receipt: 2026-06-20
+verify:
+  - claim: IRGC Khatam al-Anbiya declares Strait of Hormuz closed to vessel traffic (MOU Art. 1 breach)
+    verdict: supported
+    note: BBC Jun 20 · Euractiv · JPost/Mehr · cross-ref [J20-1 matrix](../../../statecraft/daily/2026-06-20-wire-verify-matrix.md)
+  - claim: FM Baghaei — closure reports unfounded; navigation continues
+    verdict: supported
+    note: Firstpost · Baku.ws MFA carry · cross-ref J20-2 · verify:denial-duel-contested
+  - claim: Hormuz physically closed — commercial traffic halted
+    verdict: contested
+    note: CENTCOM 55 ships / >17M bbl Jun 20 · BBC traffic continues · cross-ref J20-3
+  - claim: Vance 16M bbl record vs ~12 ships/day pre-war traffic
+    verdict: partial
+    note: CENTCOM volume mesh · record/throughput norm contested · cross-ref J20-6
+  - claim: Despite truce IDF hits Lebanon overnight; ≥27 killed (ToI carry)
+    verdict: partial
+    note: AP ≥16 · BBC ~20 Jun 20 · count drift · cross-ref J20-10
 ---
 # STRAIT of HORMUZ CLOSED: Guess Who We're Sending to Get it Re-Opened? / Lt Col Daniel Davis
 

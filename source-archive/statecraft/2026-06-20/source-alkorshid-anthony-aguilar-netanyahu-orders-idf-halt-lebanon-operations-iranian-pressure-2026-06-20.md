@@ -28,8 +28,19 @@ source_note: Operator-pasted YouTube transcript; Dialogue Works host self-dates 
 evidence_grade: transcript-bearing
 opening_tier: host-guest-interview
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained (Agular/Edon spellings); not human-verified verbatim against audio.
+editorial_note: Operator-pasted transcript; ASR artifacts retained (Agular/Edon spellings); not human-verified verbatim against audio. Wire-verify header pass 2026-06-20.
 transcript_wrapper_tier: clean
+verify_receipt: 2026-06-20
+verify:
+  - claim: Iran closed Hormuz trade again to pressure US over Lebanon ops
+    verdict: supported
+    note: IRGC declaration mesh · cross-ref [J20-1 matrix](../../../statecraft/daily/2026-06-20-wire-verify-matrix.md)
+  - claim: Iran skips / pressure off Switzerland until US compels Israel
+    verdict: partial
+    note: delegations travel proceeds · cross-ref J20-14 vs J20-11/12/13
+  - claim: Netanyahu ordered IDF halt Lebanon operations (~20 min before air)
+    verdict: partial
+    note: IDF anonymous cease-fire directive J20-7 supported · proactive halt contested J20-8
 ---
 # Lt. Col. Anthony Aguilar: Netanyahu Orders IDF to Halt Lebanon Operations Amid Iranian Pressure
 

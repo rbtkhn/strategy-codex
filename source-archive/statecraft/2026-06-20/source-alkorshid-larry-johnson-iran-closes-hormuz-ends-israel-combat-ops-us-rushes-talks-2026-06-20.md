@@ -28,8 +28,22 @@ source_note: Operator-pasted YouTube transcript; Dialogue Works host self-dates 
 evidence_grade: transcript-bearing
 opening_tier: host-guest-interview
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript.
-editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio.
+editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-verified verbatim against audio. Wire-verify header pass 2026-06-20.
 transcript_wrapper_tier: clean
+verify_receipt: 2026-06-20
+verify:
+  - claim: Israel stopped southern Lebanon bombing (Trump admin pressure)
+    verdict: partial
+    note: IDF political cease-fire directive supported · ground strikes contested · cross-ref [J20-9 matrix](../../../statecraft/daily/2026-06-20-wire-verify-matrix.md)
+  - claim: Araghchi / Iranian delegation landed Switzerland
+    verdict: supported
+    note: BBC Jun 20 · PBS · cross-ref J20-11
+  - claim: Vance en route Switzerland; Kushner/Witkoff already on ground
+    verdict: supported
+    note: PBS · Straits Times · cross-ref J20-12 · J20-13
+  - claim: Pentagon leak — US military efforts = withdraw personnel/planes from region
+    verdict: unclear
+    note: transcript/host carry only · cross-ref J20-16 · verify:wire-unclear
 ---
 # Larry Johnson: Iran Closes Hormuz AND Ends Israel's Combat Ops - US Rushes to Talks!
 

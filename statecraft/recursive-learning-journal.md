@@ -3408,3 +3408,102 @@ bounded commit before push — wire matrices can follow.
 Routing: [statecraft/daily/README.md](../statecraft/daily/README.md) · [state-synthesis SKILL](../.cursor/skills/state-synthesis/SKILL.md) · [recursive-learn skill v0.2.5](../.cursor/skills/recursive-learn/SKILL.md)
 
 **Pattern promotion:** defer until second cross-month hinge week reuses triple-nav without new law.
+
+---
+
+## 2026-06-20 - MOU Hormuz dual-grammar wire-verify + user-rules parallel precedence
+
+**Tag:** `hormuz-dual-grammar-j20` · `wire-verify-matrix-daily-couple` · `user-rules-workspace-precedence` · `verify-yaml-header-receipts`  
+**Cross-link:** [§ post-success parallel relapse (2026-06-19)](#2026-06-19---post-success-parallel-relapse--wire-verify-dual-profile) · [§ wire-verify header-only (2026-06-19)](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts) · [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [§ opening-week daily shelf (2026-06-20)](#2026-06-20--opening-week-daily-shelf-registersynthesis-ladder--triple-nav) — **narrows** Jun 20 Iran fuse; does not replace base wire-verify or parallel-ban law.
+
+### Trigger
+
+Operator menu-drove **Jun 20 six-source close** after Mercouris source-clean (`13f9bbfe9`): daily synthesis → wire-verify matrix (16 hooks, 5/5 CIV-STATE) → daily Executive Read spine table → archive `verify:` YAML on Davis/Johnson/Aguilar. Session also surfaced **global Cursor User Rules** (“batch independent tool calls in parallel”) **conflicting** with strategy-codex **one Shell / no parallel file tools** on Windows; operator received draft User Rules replacement blocks. **Git commit attempt** for verify slice hung ~32m (interrupted) — cross-link agent git handoff law.
+
+### Extracted law
+
+**1. Hormuz dual-grammar — score rows separately; mesh stays contested**
+
+```text
+Same seam, same day — three wire rows minimum:
+  A) IRGC/military closure declaration     → Supported when ISNA/Mehr/Euractiv align (J20-1)
+  B) MFA Baghaei "unfounded" / shipping normal → Supported when MFA syndication aligns (J20-2)
+  C) Physical closure / throughput halted  → Contested when CENTCOM transit continues (J20-3/5)
+Do not flatten A+B into Contradicted;
+Do not upgrade C to Supported from A alone.
+Tokens: verify:denial-duel-contested · verify:dual-lane-contested
+Lebanon halt fork mirrors: political cease-fire directive (Supported) vs same-day strikes (Partial/Contested) — J20-7/9/10.
+```
+
+**2. Wire-verify ship chain on same-week MOU seams**
+
+```text
+state synthesis (falsifiers named)
+  → wire-verify matrix (J20-* hooks + lane sweep)
+  → daily Executive Read spine table (mirror Jun 19)
+  → optional archive verify: YAML (header only; cross-ref matrix)
+Matrix may follow synthesis; daily spine couples after matrix lands.
+Checklist "wire retest needed" → "wire-verified" when matrix + spine exist.
+```
+
+**3. User Rules vs workspace harness — workspace wins on EXECUTE**
+
+```text
+When global User Rules say "parallel independent tool calls"
+  and .cursor/rules/agent-tool-latency-discipline.mdc + agent-execution-hygiene.mdc forbid parallel Shell / parallel StrReplace on Windows:
+    → follow workspace rules on strategy-codex EXECUTE turns
+    → one Shell chained with ; · one StrReplace per file per turn · run scripts before reading them
+Operator override for one turn: parallel ok · fast tools · read only
+Draft User Rules should encode workspace precedence explicitly — not duplicate full parallel-ban prose (cross-link RLJ 2026-06-18).
+```
+
+**4. Agent git on Windows — hand off after hang (reapplication)**
+
+```text
+First git Shell interrupt on commit prep → stop retrying parallel status/diff/log
+→ operator terminal or single chained: git add … ; git commit … ; git log -1
+Cross-link civ-state essay git handoff (2026-06-19); PowerShell uses ; not heredoc.
+```
+
+### Reapplication
+
+- **Next MOU/Lebanon/Hormuz day** with IRGC + MFA lines: run attribution duel subroutine; preserve contested mesh in daily falsifiers until physical-closure row resolves.
+- **Pre-synthesis gate:** wire-verify batch before promoting Hormuz/Lebanon claims into notebook Judgment.
+- **Archive receipts:** patch `verify:` + `verify_receipt:` only in frontmatter; link `../../../statecraft/daily/YYYY-MM-DD-wire-verify-matrix.md`.
+- **New Cursor threads on this repo:** paste workspace-aligned User Rules block; do not rely on generic “batch parallel tools” alone.
+- **Jun 20 verify YAML slice:** commit as bounded slice when operator picks — separate from unrelated statecraft WIP dailies.
+
+### Structural changes
+
+| Ship | Receipt |
+|------|---------|
+| Mercouris source-clean | `13f9bbfe9` |
+| Daily synthesis + wire matrix | `bcd93e049` — `2026-06-20.md` + `2026-06-20-wire-verify-matrix.md` |
+| Archive verify: YAML (3 captures) | **local WIP** at append — Davis/Johnson/Aguilar header pass 2026-06-20 |
+| User Rules draft | operator paste (Cursor Settings) — not repo file |
+
+**Cross-day carry:** J19-8 contested Hormuz grammar → J20-1/2/3 **upgrades** with clearer Jun 20 receipts; J19-5 contested ceasefire hold **persists** through J20-7/10.
+
+### Guardrail
+
+```text
+Do not merge IRGC Supported + MFA Supported into "Hormuz closed" single verdict;
+Do not treat Johnson "stopped bombing" Partial as Supported without J20-10 strike row;
+Do not parallelize git status + diff + log on Windows after any prior hang;
+Do not append duplicate parallel-ban or wire-verify skill prose — cross-link + narrow;
+Do not rewrite tier-4 analyst frames as wire Supported without tier-3 cite.
+```
+
+**Falsification:** If Tehran military and MFA lines converge on one dated EN/fa readout and CENTCOM confirms zero transits for 24h, collapse J20-3 to Supported and narrow law (1) to historical dual-grammar window only.
+
+### Current lesson
+
+```text
+Jun 20 MOU fuse: declaration and denial can both be wire-supported while the strait stays operationally contested —
+couple matrix → daily spine → archive verify: so contested tiers survive synthesis compression.
+Workspace harness beats generic parallel User Rules on EXECUTE.
+```
+
+Routing: [2026-06-20 wire matrix](../statecraft/daily/2026-06-20-wire-verify-matrix.md) · [2026-06-20 daily](../statecraft/daily/2026-06-20.md) · [wire-verify SKILL v1.5.4](../skills/wire-verify/SKILL.md) · [agent-tool-latency-discipline.mdc](../.cursor/rules/agent-tool-latency-discipline.mdc) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · [wire-verify header-only](#2026-06-19---wire-verify-header-only-path-archive-yaml-receipts)
+
+**Pattern promotion:** defer until second distinct MOU week reuses J20 dual-grammar rows without new law beyond (1)(2).
