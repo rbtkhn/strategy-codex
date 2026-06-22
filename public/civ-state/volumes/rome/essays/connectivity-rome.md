@@ -112,6 +112,8 @@ genesis → republic → caesar → augustus
 
 Active civic-chain nodes ship **reader-facing** `essay-rome-{slug}.md` plus editor/machine **`essay-rome-{slug}.meta.yaml`** (scope · deferrals · routing). Reader essay SSOT: [civ-state-essay-template.md](../../../templates/civ-state-essay-template.md) · meta: [_template-essay-rome.meta.yaml](_template-essay-rome.meta.yaml).
 
+**First active geo-branch:** [carthage](essay-rome-carthage.md) — rival western Mediterranean system (Punic trial · annihilation · African inheritance); `prose_qa` receipt on registry row (verified 2026-06-22).
+
 **hex_link ids → hex-frame files:** `1453` → [hexagonal-1453-rome.md](hexagonal-1453-rome.md) · `1054-schism` → [hexagonal-1054-schism-rome.md](hexagonal-1054-schism-rome.md) · `republic-principate` → [hexagonal-republic-principate-rome.md](hexagonal-republic-principate-rome.md) · `justinian-529` → [hexagonal-justinian-codification-rome.md](hexagonal-justinian-codification-rome.md) · `italian-wars` → [hexagonal-italian-wars-rome.md](hexagonal-italian-wars-rome.md) · `colonial-tail` → [hexagonal-colonial-tail-rome.md](hexagonal-colonial-tail-rome.md)
 
 ## Return Path

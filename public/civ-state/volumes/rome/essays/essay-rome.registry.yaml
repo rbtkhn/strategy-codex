@@ -74,6 +74,13 @@ essays:
     status: active
     period: "Phoenician foundation through destruction (146 BC)"
     role: "rival system · Rome's Mediterranean trial"
+    prose_qa:
+      class: civic-chain-rome-humanize
+      body_words: 2782
+      quoted_words: 521
+      footnotes: 16
+      verified: 2026-06-22
+      note: "body ceiling operator-waived ~3000 (geo-branch humanize pilot)"
 
   - id: charlemagne
     file: essay-rome-charlemagne.md

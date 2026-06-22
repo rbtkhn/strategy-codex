@@ -78,7 +78,9 @@ Twenty-one standalone lattice nodes under **Civilizational Statecraft**. **Regis
 | republic | [essay-rome-republic.md](essay-rome-republic.md) | [essay-rome-republic.meta.yaml](essay-rome-republic.meta.yaml) | active |
 | caesar | [essay-rome-caesar.md](essay-rome-caesar.md) | [essay-rome-caesar.meta.yaml](essay-rome-caesar.meta.yaml) | active |
 | augustus | [essay-rome-augustus.md](essay-rome-augustus.md) | [essay-rome-augustus.meta.yaml](essay-rome-augustus.meta.yaml) | active |
-| carthage | [essay-rome-carthage.md](essay-rome-carthage.md) | [essay-rome-carthage.meta.yaml](essay-rome-carthage.meta.yaml) | active |
+| carthage | [essay-rome-carthage.md](essay-rome-carthage.md) | [essay-rome-carthage.meta.yaml](essay-rome-carthage.meta.yaml) | active (geo-branch · QA 2026-06-22) |
+
+**Carthage activation (2026-06-22):** first active geo-branch node — humanized rival-system read; Polybius mercenary witnesses I.66/I.65/I.76; epic *Aeneid* I + IV; Appian *Punic Wars* 133 SSOT; quoted 521w / body 2782 (humanize ceiling waived). Registry `prose_qa` on carthage row in YAML.
 
 Full lattice (21 nodes, alphabetical by slug in YAML): [`essay-rome.registry.yaml`](essay-rome.registry.yaml).
 

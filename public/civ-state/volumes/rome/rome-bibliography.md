@@ -2,7 +2,7 @@
 
 **Downstream citation inventory** — sources used in **active `essay-rome-*` nodes** (body + `## Notes`). Append-only from essay work; do not bulk-import from the retrieve shelf.
 
-**Current coverage:** civic-chain four — genesis · republic · caesar · augustus (verified 2026-06).
+**Current coverage:** civic-chain four + **carthage** — genesis · republic · caesar · augustus · carthage (verified 2026-06-22).
 
 For the upstream retrieve shelf (era doors, full corpus), see [source-shelf.md](source-shelf.md) → [`sources/rome/bibliography.md`](../../sources/rome/bibliography.md).
 
@@ -193,3 +193,18 @@ Where a stable public-domain edition exists online, an indented line links to th
 - 2018 — Adrian Goldsworthy, *The Rise of Rome*.
 
 - 2019 — Anthony Everitt, *Alexander the Great*.
+
+- 2000 — Adrian Goldsworthy, *The Punic Wars*.
+
+- 2003 — Adrian Goldsworthy, *The Fall of Carthage*.
+
+- 2010 — Richard Miles, *Carthage Must Be Destroyed*.
+
+- 2011 — Dexter Hoyos, *Mastering the West*.
+
+- 1995 — Serge Lancel, *Carthage: A History*.
+
+- 1990 — Nigel Bagnall, *The Punic Wars*.
+
+- 1970 — H. H. Scullard, *Scipio Africanus*.
+

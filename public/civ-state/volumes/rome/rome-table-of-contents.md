@@ -53,7 +53,15 @@ genesis → republic → caesar → augustus
 | [Caesar](essays/essay-rome-caesar.md) | 49–44 BC | command hinge |
 | [Augustus](essays/essay-rome-augustus.md) | 44 BC–AD 14 | institutionalizer |
 
-Each active node has a `.meta.yaml` sidecar (scope, deferrals, return path). **First active geo-branch lattice node:** [Carthage](essays/essay-rome-carthage.md) (rival system · Punic trial — not in civic-chain order). **Other planned lattice nodes** (africa, constantinople, schism, and others): see [`essay-rome.registry.yaml`](essays/essay-rome.registry.yaml).
+Each active civic-chain node has a `.meta.yaml` sidecar (scope, deferrals, return path).
+
+**Geo-branch (standalone — not in civic-chain order):**
+
+| Essay | Period (approx.) | Role |
+|-------|------------------|------|
+| [Carthage](essays/essay-rome-carthage.md) | Phoenician foundation through destruction (146 BC) | rival system · Rome's Mediterranean trial |
+
+**Other planned lattice nodes** (africa, constantinople, schism, and others): see [`essay-rome.registry.yaml`](essays/essay-rome.registry.yaml).
 
 **hex-frame peer** for this chain: [Republic → principate](essays/hexagonal-republic-principate-rome.md) — six-term read of the same hinge, not a substitute for the civic essays.
 
