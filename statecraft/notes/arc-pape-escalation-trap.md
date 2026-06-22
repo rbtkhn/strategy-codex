@@ -65,7 +65,7 @@ X    May 23     RE-ENTRY — biggest Smart Bomb Trap yet (tactical intel → str
 XI   Jun 1–4    CEASEFIRE TRAP — trap gets worse; Jun 2–3 bombing while talking; Lebanon fuse
 XII  Jun 6–8    SURVIVAL→DOMINANCE — new phase; Day 100 expanding strategy; ceasefire breakdown
 XIII Jun 15     MAX LEVERAGE — uncertain deal; Iran's peak bargaining window
-XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 governance deadline
+XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 governance deadline (+ BP interview adjacent)
 ```
 
 **Stacking rule:** Route **opening-week SBT reconciliation** → child thread. Route **why the war keeps widening** → this arc. Route **perfidy / trust** → Crooke weaves, not Pape alone.
@@ -94,8 +94,9 @@ XIV  Jun 16–17  MoU TRAP — CIA seriousness split; Stage IV sphere; Day 60 go
 | **XIV — MoU pressure** | Jun 16 | [CIA: Iran Not Serious on MoU](../../source-archive/statecraft/2026-06-16/source-nawfal-robert-pape-cia-chief-warns-iran-not-serious-mou-2026-06-16.md) | Ratcliffe/CIA vs Vance/Witkoff split; Iran **driver's seat**; inventory drawdown amplifies mid-Aug leverage |
 | **XIV — Stage IV** | Jun 17 | [Stage IV Begins — Bloomberg MOU](../../source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md) | MOU as **Iranian sphere-of-influence** architecture; negotiation = power maximization |
 | **XIV — Day 60** | Jun 17 | [Day 60 — Hidden Deadline](../../source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md) | Official MOU = **armistice not settlement**; 60-day toll-free → **governance crisis** on Hormuz admin/fees |
+| **XIV — Interview** (adjacent) | Jun 17 | [Breaking Points — Unconditional Surrender](../../source-archive/statecraft/2026-06-17/source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md) | G7 live reaction to MOU leak; **Trump lost bombing → at risk of losing deal**; Iran gains power **through** deal terms |
 
-**Adjacent (index only — not arc nodes):** May 27 oil repricing · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) · other interview-pressure anchors in [source index](../voices/pape/pape-source-index.md).
+**Adjacent (index only — not arc YAML nodes):** May 27 oil repricing · [Jun 18 MOU governance seam](./june-18-2026-mou-hormuz-governance-armistice-note.md) · other interview-pressure anchors in [source index](../voices/pape/pape-source-index.md).
 
 ## Reconciliation (arc tier)
 

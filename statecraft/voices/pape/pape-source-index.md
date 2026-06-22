@@ -58,6 +58,7 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 - [2026-06-15 Uncertain Deal—And Iran Enters Its Period of Maximum Leverage](../../../source-archive/statecraft/2026-06-15/source-pape-uncertain-deal-iran-maximum-leverage-2026-06-15.md)
 - [2026-06-17 Stage IV Begins — Bloomberg MOU](../../../source-archive/statecraft/2026-06-17/source-pape-stage-iv-begins-inside-bloombergs-iran-mou-2026-06-17.md)
 - [2026-06-17 Day 60 — Hidden Deadline in Official Agreement](../../../source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md)
+- **Arc Phase XIV adjacent:** [2026-06-17 Breaking Points — Unconditional Surrender](../../../source-archive/statecraft/2026-06-17/source-pape-breaking-points-trump-unconditional-surrender-iran-2026-06-17.md) · [Escalation Trap arc](../../notes/arc-pape-escalation-trap.md)
 
 ## Interview-Pressure Anchors
 
