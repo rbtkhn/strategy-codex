@@ -111,11 +111,13 @@ Remaining fallback-bearing keys: **6** (Wave 3 archive placeholders: 3; Wave 4 G
 
 Wave 2 platform subpath fallback tails removed: **10** keys (`app` through `profile` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)). Readiness audit: [`wave-2-platform-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-2-platform-readiness-2026-06-21.md). Removal receipt: [`wave-2-path-fallback-removal-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-2-path-fallback-removal-2026-06-21.md).
 
-**Fallback tuple count:** 16 → **6** keys with `len(entry) > 1`.
+### Wave 3 readiness (2026-06-21)
+
+All **3** Wave 3 archive placeholder keys audited **ready** for fallback removal (canonical paths exist; no active root-level legacy refs). Fallback tuples remain until the follow-up removal PR. Receipt: [`wave-3-archive-placeholder-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-3-archive-placeholder-readiness-2026-06-21.md).
 
 Note: `audit_repo_complexity.py --check` still warns on `legacy_fallback_entries` until all waves complete (advisory CI).
 
-Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict` · `--wave 2` (readiness audit).
+Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict` · `--wave 3` (readiness audit).
 
 ## CI rollout policy
 

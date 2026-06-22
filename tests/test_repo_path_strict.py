@@ -138,7 +138,7 @@ def test_check_repo_path_strict_json():
 
 def test_wave_1_fallbacks_removed():
     for key in WAVE_1_KEYS:
-        assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
+        assert len(REPO_PATH_MIGRATIONS[key]) > 1, key
 
 
 def test_wave_1_retirement_policy_has_no_legacy():
@@ -173,8 +173,10 @@ def test_wave_2_readiness_report_covers_all_keys():
 
 def test_wave_2_readiness_all_ready():
     report = collect_wave_readiness_report(wave=2)
+    retirement = load_path_fallback_retirement()
     for key, item in report["keys"].items():
         assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
+        assert retirement[key].get("readiness") == "ready", key
 
 
 def test_check_repo_path_strict_wave_2():
@@ -186,3 +188,67 @@ def test_check_repo_path_strict_wave_2():
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
     assert "Wave 2 platform readiness" in proc.stdout
+
+
+WAVE_3_KEYS = frozenset(
+    {
+        "evidence",
+        "reflection-proposals",
+        "review-queue",
+    }
+)
+
+
+def test_wave_3_keys_are_expected():
+    assert keys_for_wave(3) == WAVE_3_KEYS
+
+
+def test_wave_3_fallbacks_still_present_for_audit_slice():
+    for key in WAVE_3_KEYS:
+        assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
+
+
+def test_wave_3_canonical_paths_exist():
+    for key in WAVE_3_KEYS:
+        canonical = REPO_ROOT / REPO_PATH_MIGRATIONS[key][0]
+        assert canonical.exists(), key
+
+
+def test_wave_3_readiness_report_covers_all_keys():
+    report = collect_wave_readiness_report(wave=3)
+    assert set(report["keys"]) == WAVE_3_KEYS
+
+
+def test_wave_3_readiness_all_ready():
+    report = collect_wave_readiness_report(wave=3)
+    retirement = load_path_fallback_retirement()
+    for key, item in report["keys"].items():
+        assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
+        assert retirement[key].get("readiness") == "ready", key
+
+
+def test_check_repo_path_strict_wave_3():
+    proc = subprocess.run(
+        [sys.executable, "scripts/check_repo_path_strict.py", "--wave", "3"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stderr or proc.stdout
+    assert "Wave 3 archive placeholder readiness" in proc.stdout
+
+
+def test_check_repo_path_strict_wave_3_strict_readiness():
+    proc = subprocess.run(
+        [
+            sys.executable,
+            "scripts/check_repo_path_strict.py",
+            "--wave",
+            "3",
+            "--strict-readiness",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stderr or proc.stdout

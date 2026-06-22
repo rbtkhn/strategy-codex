@@ -85,8 +85,9 @@ entries:
   legacy:
   - evidence
   retirement_status: keep_temporarily
-  notes: Archive placeholder until queue usage audited.
+  notes: Archive placeholder; canonical exists; no active root fallback refs.
   wave: 3
+  readiness: ready
 - key: extension
   category: active_canonical
   canonical: platform/extension
@@ -142,16 +143,18 @@ entries:
   legacy:
   - reflection-proposals
   retirement_status: keep_temporarily
-  notes: Archive queue placeholder.
+  notes: Archive placeholder; canonical exists; no active root fallback refs.
   wave: 3
+  readiness: ready
 - key: review-queue
   category: archive_placeholder
   canonical: archive/queues/review-queue
   legacy:
   - review-queue
   retirement_status: keep_temporarily
-  notes: Archive queue placeholder.
+  notes: Archive placeholder; canonical exists; no active root fallback refs.
   wave: 3
+  readiness: ready
 - key: runtime-bundle
   category: active_canonical
   canonical: runtime/bundle

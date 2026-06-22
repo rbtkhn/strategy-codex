@@ -367,7 +367,13 @@ def _line_has_platform_prefix(line: str, legacy: str) -> bool:
     return f"platform/{legacy}" in line or f'platform\\{legacy}' in line
 
 
-def _scan_active_legacy_refs(legacy: str) -> list[dict[str, Any]]:
+def _line_has_canonical_path_prefix(line: str, canonical_rel: str) -> bool:
+    if not canonical_rel:
+        return False
+    return canonical_rel in line or canonical_rel.replace("/", "\\") in line
+
+
+def _scan_active_legacy_refs(legacy: str, *, canonical_rel: str = "") -> list[dict[str, Any]]:
     """Find hardcoded repo-root legacy path references in active code."""
     refs: list[dict[str, Any]] = []
     patterns = _legacy_active_ref_patterns(legacy)
@@ -379,6 +385,8 @@ def _scan_active_legacy_refs(legacy: str) -> list[dict[str, Any]]:
             continue
         for line_no, line in enumerate(text.splitlines(), start=1):
             if _line_has_platform_prefix(line, legacy):
+                continue
+            if _line_has_canonical_path_prefix(line, canonical_rel):
                 continue
             for pattern in patterns:
                 if pattern.search(line):
@@ -423,7 +431,7 @@ def collect_wave_readiness_report(wave: int) -> dict[str, Any]:
         legacy_exists = any((REPO_ROOT / rel).exists() for rel in legacy_rels)
         active_refs: list[dict[str, Any]] = []
         for legacy in legacy_rels:
-            active_refs.extend(_scan_active_legacy_refs(legacy))
+            active_refs.extend(_scan_active_legacy_refs(legacy, canonical_rel=canonical_rel))
         status = _derive_wave_key_status(
             canonical_exists=canonical_exists,
             active_refs=active_refs,

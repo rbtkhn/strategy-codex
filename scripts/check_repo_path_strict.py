@@ -132,18 +132,32 @@ def _yes_no(value: bool) -> str:
     return "yes" if value else "no"
 
 
+_WAVE_READINESS_TITLES: dict[int, str] = {
+    2: "Wave 2 platform readiness",
+    3: "Wave 3 archive placeholder readiness",
+    4: "Wave 4 Grace-Mar compatibility readiness",
+}
+
+
+def _wave_readiness_title(wave: int) -> str:
+    return _WAVE_READINESS_TITLES.get(wave, f"Wave {wave} readiness")
+
+
 def _print_wave_readiness_report(report: dict[str, Any]) -> None:
     wave = report["wave"]
-    print(f"Wave {wave} platform readiness")
-    print("=" * (len(f"Wave {wave} platform readiness")))
+    title = _wave_readiness_title(wave)
+    keys = report.get("keys") or {}
+    key_width = max(14, max((len(k) for k in keys), default=0) + 2)
+    print(title)
+    print("=" * len(title))
     print(
-        f"{'Key':<14}{'Canonical exists':<20}{'Legacy exists':<16}"
+        f"{'Key':<{key_width}}{'Canonical exists':<20}{'Legacy exists':<16}"
         f"{'Active refs':<14}{'Status'}"
     )
-    for key, item in report["keys"].items():
+    for key, item in keys.items():
         active_count = len(item.get("active_refs") or [])
         print(
-            f"{key:<14}"
+            f"{key:<{key_width}}"
             f"{_yes_no(item['canonical_exists']):<20}"
             f"{_yes_no(item['legacy_exists']):<16}"
             f"{active_count:<14}"

@@ -44,7 +44,7 @@ Readiness audit receipt: [`runtime/artifacts/complexity-audit/wave-2-platform-re
 | `config` | `active_canonical` | `platform/config` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `daily-handoff` | `active_canonical` | `runtime/daily-handoff` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `deployment` | `active_canonical` | `platform/deployment` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
-| `evidence` | `archive_placeholder` | `archive/placeholders/evidence` | `evidence` | `keep_temporarily` | 3 | Archive placeholder until queue usage audited. |
+| `evidence` | `archive_placeholder` | `archive/placeholders/evidence` | `evidence` | `keep_temporarily` | 3 | Archive placeholder; readiness verified 2026-06-21. |
 | `extension` | `active_canonical` | `platform/extension` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `grace-mar-instance` | `grace_mar_compat` | `archive/grace-mar-instance` | `—` | `keep_no_legacy` | — | Single canonical tuple; Record bundle root. |
 | `integrations` | `active_canonical` | `platform/integrations` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
@@ -52,8 +52,8 @@ Readiness audit receipt: [`runtime/artifacts/complexity-audit/wave-2-platform-re
 | `prepared-context` | `active_canonical` | `runtime/prepared-context` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `profile` | `active_canonical` | `platform/profile` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `recursion-gate-staging` | `grace_mar_compat` | `archive/grace-mar-instance/recursion-gate-staging` | `recursion-gate-staging` | `move_to_grace_mar_compat` | 4 | Archive-only gate staging. |
-| `reflection-proposals` | `archive_placeholder` | `archive/queues/reflection-proposals` | `reflection-proposals` | `keep_temporarily` | 3 | Archive queue placeholder. |
-| `review-queue` | `archive_placeholder` | `archive/queues/review-queue` | `review-queue` | `keep_temporarily` | 3 | Archive queue placeholder. |
+| `reflection-proposals` | `archive_placeholder` | `archive/queues/reflection-proposals` | `reflection-proposals` | `keep_temporarily` | 3 | Archive placeholder; readiness verified 2026-06-21. |
+| `review-queue` | `archive_placeholder` | `archive/queues/review-queue` | `review-queue` | `keep_temporarily` | 3 | Archive placeholder; readiness verified 2026-06-21. |
 | `runtime-bundle` | `active_canonical` | `runtime/bundle` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `schema-registry` | `active_canonical` | `schemas/registry` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `skills` | `active_canonical` | `skills` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
@@ -75,9 +75,23 @@ app, bin, deployment, config, extension, integrations, miniapp, users, template,
 
 Readiness verified before removal — see [`wave-2-platform-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-2-platform-readiness-2026-06-21.md).
 
-### Wave 3 — Archive placeholders
+### Wave 3 — Archive placeholders (readiness verified 2026-06-21)
 
 evidence, reflection-proposals, review-queue
+
+Fallback tuples **not removed yet** — removal is the next PR.
+
+Audit: `python scripts/check_repo_path_strict.py --wave 3` · `--wave 3 --json` · `--wave 3 --strict-readiness`
+
+#### Wave 3 readiness
+
+Status as of 2026-06-21:
+
+| Key | Status | Notes |
+|---|---|---|
+| `evidence` | ready | canonical exists; no active root fallback refs |
+| `reflection-proposals` | ready | canonical exists; no active root fallback refs |
+| `review-queue` | ready | canonical exists; no active root fallback refs |
 
 ### Wave 4 — Grace-Mar compatibility relocation
 
@@ -90,3 +104,4 @@ bot, recursion-gate-staging, bootstrap -> future `platform/src/strategy_codex/co
 - [`docs/complexity-budget.md`](complexity-budget.md)
 - `python scripts/check_repo_path_strict.py`
 - `python scripts/check_repo_path_strict.py --wave 2`
+- `python scripts/check_repo_path_strict.py --wave 3`
