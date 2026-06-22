@@ -3,11 +3,9 @@ entries:
 - key: app
   category: active_canonical
   canonical: platform/app
-  legacy:
-  - app
-  retirement_status: remove_when_clean
-  readiness: ready
-  notes: Platform app subpath; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 2 fallback removed; canonical path only.
   wave: 2
 - key: apps
   category: active_canonical
@@ -33,11 +31,9 @@ entries:
 - key: bin
   category: active_canonical
   canonical: platform/bin
-  legacy:
-  - bin
-  retirement_status: remove_when_clean
-  readiness: ready
-  notes: Platform bin subpath; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 2 fallback removed; canonical path only.
   wave: 2
 - key: bootstrap
   category: grace_mar_compat
@@ -65,11 +61,9 @@ entries:
 - key: config
   category: active_canonical
   canonical: platform/config
-  legacy:
-  - config
-  retirement_status: remove_when_clean
-  readiness: ready
-  notes: Platform config subpath; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 2 fallback removed; canonical path only.
   wave: 2
 - key: daily-handoff
   category: active_canonical
@@ -81,11 +75,9 @@ entries:
 - key: deployment
   category: active_canonical
   canonical: platform/deployment
-  legacy:
-  - deployment
-  retirement_status: remove_when_clean
-  readiness: ready
-  notes: Platform deployment subpath; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 2 fallback removed; canonical path only.
   wave: 2
 - key: evidence
   category: archive_placeholder
@@ -98,11 +90,9 @@ entries:
 - key: extension
   category: active_canonical
   canonical: platform/extension
-  legacy:
-  - extension
-  retirement_status: remove_when_clean
-  readiness: ready
-  notes: Platform extension subpath; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 2 fallback removed; canonical path only.
   wave: 2
 - key: grace-mar-instance
   category: grace_mar_compat
@@ -113,20 +103,16 @@ entries:
 - key: integrations
   category: active_canonical
   canonical: platform/integrations
-  legacy:
-  - integrations
-  retirement_status: remove_when_clean
-  readiness: ready
-  notes: Platform integrations subpath; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 2 fallback removed; canonical path only.
   wave: 2
 - key: miniapp
   category: active_canonical
   canonical: platform/miniapp
-  legacy:
-  - miniapp
-  retirement_status: remove_when_clean
-  readiness: ready
-  notes: Platform miniapp subpath; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 2 fallback removed; canonical path only.
   wave: 2
 - key: prepared-context
   category: active_canonical
@@ -138,11 +124,9 @@ entries:
 - key: profile
   category: active_canonical
   canonical: platform/profile
-  legacy:
-  - profile
-  retirement_status: remove_when_clean
-  readiness: ready
-  notes: Platform profile subpath; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 2 fallback removed; canonical path only.
   wave: 2
 - key: recursion-gate-staging
   category: grace_mar_compat
@@ -213,18 +197,14 @@ entries:
 - key: template
   category: active_canonical
   canonical: platform/template
-  legacy:
-  - _template
-  retirement_status: remove_when_clean
-  readiness: ready
-  notes: Platform template; legacy _template at repo root; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 2 fallback removed; canonical path only.
   wave: 2
 - key: users
   category: active_canonical
   canonical: platform/users
-  legacy:
-  - users
-  retirement_status: remove_when_clean
-  readiness: ready
-  notes: Platform users profiles root; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 2 fallback removed; canonical path only.
   wave: 2

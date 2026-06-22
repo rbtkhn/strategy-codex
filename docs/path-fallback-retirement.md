@@ -21,28 +21,36 @@ The following active canonical fallbacks have been removed from `REPO_PATH_MIGRA
 
 artifacts, daily-handoff, prepared-context, runtime-bundle, apps, src, skills, skills-portable, schema-registry, styles, auto-research, bridges.
 
+### Wave 2 — completed 2026-06-21
+
+The following platform subpath fallbacks have been removed from `REPO_PATH_MIGRATIONS`:
+
+app, bin, deployment, config, extension, integrations, miniapp, users, template, profile.
+
+Readiness audit receipt: [`runtime/artifacts/complexity-audit/wave-2-platform-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-2-platform-readiness-2026-06-21.md).
+
 ## Retirement table
 
 | Key | Category | Canonical | Legacy | Status | Wave | Notes |
 |---|---|---|---|---|---|---|
-| `app` | `active_canonical` | `platform/app` | `app` | `remove_when_clean` | 2 | Platform app subpath; verify apps first. |
+| `app` | `active_canonical` | `platform/app` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `apps` | `active_canonical` | `platform/apps` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `artifacts` | `active_canonical` | `runtime/artifacts` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `auto-research` | `active_canonical` | `research/auto-research` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
-| `bin` | `active_canonical` | `platform/bin` | `bin` | `remove_when_clean` | 2 | Platform bin subpath. |
+| `bin` | `active_canonical` | `platform/bin` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `bootstrap` | `grace_mar_compat` | `archive/grace-mar-instance/bootstrap` | `bootstrap` | `move_to_grace_mar_compat` | 4 | Archive-only bootstrap fallback. |
 | `bot` | `grace_mar_compat` | `archive/grace-mar-instance/bot` | `bot` | `move_to_grace_mar_compat` | 4 | Voice archaeology only; relocate to compat module. |
 | `bridges` | `active_canonical` | `research/bridges` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
-| `config` | `active_canonical` | `platform/config` | `config` | `remove_when_clean` | 2 | Platform config subpath. |
+| `config` | `active_canonical` | `platform/config` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `daily-handoff` | `active_canonical` | `runtime/daily-handoff` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
-| `deployment` | `active_canonical` | `platform/deployment` | `deployment` | `remove_when_clean` | 2 | Platform deployment subpath. |
+| `deployment` | `active_canonical` | `platform/deployment` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `evidence` | `archive_placeholder` | `archive/placeholders/evidence` | `evidence` | `keep_temporarily` | 3 | Archive placeholder until queue usage audited. |
-| `extension` | `active_canonical` | `platform/extension` | `extension` | `remove_when_clean` | 2 | Platform extension subpath. |
+| `extension` | `active_canonical` | `platform/extension` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `grace-mar-instance` | `grace_mar_compat` | `archive/grace-mar-instance` | `—` | `keep_no_legacy` | — | Single canonical tuple; Record bundle root. |
-| `integrations` | `active_canonical` | `platform/integrations` | `integrations` | `remove_when_clean` | 2 | Platform integrations subpath. |
-| `miniapp` | `active_canonical` | `platform/miniapp` | `miniapp` | `remove_when_clean` | 2 | Platform miniapp subpath. |
+| `integrations` | `active_canonical` | `platform/integrations` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
+| `miniapp` | `active_canonical` | `platform/miniapp` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `prepared-context` | `active_canonical` | `runtime/prepared-context` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
-| `profile` | `active_canonical` | `platform/profile` | `profile` | `remove_when_clean` | 2 | Platform profile subpath. |
+| `profile` | `active_canonical` | `platform/profile` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 | `recursion-gate-staging` | `grace_mar_compat` | `archive/grace-mar-instance/recursion-gate-staging` | `recursion-gate-staging` | `move_to_grace_mar_compat` | 4 | Archive-only gate staging. |
 | `reflection-proposals` | `archive_placeholder` | `archive/queues/reflection-proposals` | `reflection-proposals` | `keep_temporarily` | 3 | Archive queue placeholder. |
 | `review-queue` | `archive_placeholder` | `archive/queues/review-queue` | `review-queue` | `keep_temporarily` | 3 | Archive queue placeholder. |
@@ -52,8 +60,8 @@ artifacts, daily-handoff, prepared-context, runtime-bundle, apps, src, skills, s
 | `skills-portable` | `active_canonical` | `skills` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `src` | `active_canonical` | `platform/src` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
 | `styles` | `active_canonical` | `templates/styles` | `—` | `keep_no_legacy` | 1 | Wave 1 fallback removed; canonical path only. |
-| `template` | `active_canonical` | `platform/template` | `_template` | `remove_when_clean` | 2 | Platform template; legacy _template at repo root. |
-| `users` | `active_canonical` | `platform/users` | `users` | `remove_when_clean` | 2 | Platform users profiles root. |
+| `template` | `active_canonical` | `platform/template` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
+| `users` | `active_canonical` | `platform/users` | `—` | `keep_no_legacy` | 2 | Wave 2 fallback removed; canonical path only. |
 
 ## Removal waves
 
@@ -61,30 +69,11 @@ artifacts, daily-handoff, prepared-context, runtime-bundle, apps, src, skills, s
 
 artifacts, daily-handoff, prepared-context, runtime-bundle, apps, src, skills, skills-portable, schema-registry, styles, auto-research, bridges
 
-### Wave 2 — Platform subpaths (readiness verified 2026-06-21)
+### Wave 2 — Platform subpaths (retired 2026-06-21)
 
 app, bin, deployment, config, extension, integrations, miniapp, users, template, profile
 
-Fallback tuples **not removed yet** — removal is the next PR.
-
-Audit: `python scripts/check_repo_path_strict.py --wave 2` · `--wave 2 --json`
-
-#### Wave 2 readiness
-
-Status as of 2026-06-21:
-
-| Key | Status | Notes |
-|---|---|---|
-| `app` | ready | canonical path exists; no active legacy refs |
-| `bin` | ready | canonical path exists; no active legacy refs |
-| `config` | ready | canonical path exists; no active legacy refs |
-| `deployment` | ready | canonical path exists; no active legacy refs |
-| `extension` | ready | canonical path exists; no active legacy refs |
-| `integrations` | ready | canonical path exists; no active legacy refs |
-| `miniapp` | ready | canonical path exists; no active legacy refs |
-| `profile` | ready | canonical path exists; no active legacy refs |
-| `template` | ready | canonical path exists; no active legacy refs |
-| `users` | ready | canonical path exists; no active legacy refs |
+Readiness verified before removal — see [`wave-2-platform-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-2-platform-readiness-2026-06-21.md).
 
 ### Wave 3 — Archive placeholders
 

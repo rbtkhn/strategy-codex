@@ -47,6 +47,21 @@ WAVE_1_KEYS = frozenset(
     }
 )
 
+WAVE_2_KEYS = frozenset(
+    {
+        "app",
+        "bin",
+        "deployment",
+        "config",
+        "extension",
+        "integrations",
+        "miniapp",
+        "users",
+        "template",
+        "profile",
+    }
+)
+
 
 def test_profile_dir_points_at_grace_mar_instance():
     root = profile_dir("strategy-codex")
@@ -133,13 +148,20 @@ def test_wave_1_retirement_policy_has_no_legacy():
         assert retirement[key]["retirement_status"] == "keep_no_legacy", key
 
 
-def test_wave_2_keys_still_have_fallbacks_for_now():
-    for key in keys_for_wave(2):
-        assert len(REPO_PATH_MIGRATIONS[key]) > 1, key
+def test_wave_2_fallbacks_removed():
+    for key in WAVE_2_KEYS:
+        assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
+
+
+def test_wave_2_retirement_policy_has_no_legacy():
+    retirement = load_path_fallback_retirement()
+    for key in WAVE_2_KEYS:
+        assert retirement[key]["legacy"] == [], key
+        assert retirement[key]["retirement_status"] == "keep_no_legacy", key
 
 
 def test_wave_2_canonical_paths_exist():
-    for key in keys_for_wave(2):
+    for key in WAVE_2_KEYS:
         canonical = REPO_ROOT / REPO_PATH_MIGRATIONS[key][0]
         assert canonical.exists(), key
 
@@ -151,10 +173,8 @@ def test_wave_2_readiness_report_covers_all_keys():
 
 def test_wave_2_readiness_all_ready():
     report = collect_wave_readiness_report(wave=2)
-    retirement = load_path_fallback_retirement()
     for key, item in report["keys"].items():
         assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
-        assert retirement[key].get("readiness") == "ready", key
 
 
 def test_check_repo_path_strict_wave_2():
