@@ -97,7 +97,7 @@ No new fallback tuple may be added without:
 | Metric | Current | Target |
 |---|---:|---:|
 | `REPO_PATH_MIGRATIONS` keys | 29 | 0 active legacy fallbacks |
-| Keys with legacy fallback tuples (`len(entry) > 1`) | 6 | 0 |
+| Keys with legacy fallback tuples (`len(entry) > 1`) | 3 | 0 |
 | Unclassified migration keys | 0 | 0 |
 | Grace-Mar compatibility fallbacks in active resolver | 4 | moved to compat module (Wave 4) |
 
@@ -105,17 +105,19 @@ No new fallback tuple may be added without:
 
 Wave 1 active canonical fallback tails removed: **12** keys (`artifacts` through `bridges` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)).
 
-Remaining fallback-bearing keys: **6** (Wave 3 archive placeholders: 3; Wave 4 Grace-Mar compat: 3). `grace-mar-instance` is canonical-only.
+Remaining fallback-bearing keys: **3** (Wave 4 Grace-Mar compat only). `grace-mar-instance` is canonical-only.
 
 ### Wave 2 removal (2026-06-21)
 
 Wave 2 platform subpath fallback tails removed: **10** keys (`app` through `profile` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)). Readiness audit: [`wave-2-platform-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-2-platform-readiness-2026-06-21.md). Removal receipt: [`wave-2-path-fallback-removal-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-2-path-fallback-removal-2026-06-21.md).
 
-### Wave 3 readiness (2026-06-21)
+### Wave 3 removal (2026-06-21)
 
-All **3** Wave 3 archive placeholder keys audited **ready** for fallback removal (canonical paths exist; no active root-level legacy refs). Fallback tuples remain until the follow-up removal PR. Receipt: [`wave-3-archive-placeholder-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-3-archive-placeholder-readiness-2026-06-21.md).
+Wave 3 archive placeholder fallback tails removed: **3** keys (`evidence`, `reflection-proposals`, `review-queue` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)). Readiness audit: [`wave-3-archive-placeholder-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-3-archive-placeholder-readiness-2026-06-21.md). Removal receipt: [`wave-3-path-fallback-removal-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-3-path-fallback-removal-2026-06-21.md).
 
-Note: `audit_repo_complexity.py --check` still warns on `legacy_fallback_entries` until all waves complete (advisory CI).
+**Fallback tuple count:** 6 → **3** keys with `len(entry) > 1`.
+
+Note: `audit_repo_complexity.py --check` still warns on `legacy_fallback_entries` until Wave 4 completes (advisory CI).
 
 Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict` · `--wave 3` (readiness audit).
 

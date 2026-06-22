@@ -138,7 +138,7 @@ def test_check_repo_path_strict_json():
 
 def test_wave_1_fallbacks_removed():
     for key in WAVE_1_KEYS:
-        assert len(REPO_PATH_MIGRATIONS[key]) > 1, key
+        assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
 
 
 def test_wave_1_retirement_policy_has_no_legacy():
@@ -173,10 +173,8 @@ def test_wave_2_readiness_report_covers_all_keys():
 
 def test_wave_2_readiness_all_ready():
     report = collect_wave_readiness_report(wave=2)
-    retirement = load_path_fallback_retirement()
     for key, item in report["keys"].items():
         assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
-        assert retirement[key].get("readiness") == "ready", key
 
 
 def test_check_repo_path_strict_wave_2():
@@ -203,9 +201,16 @@ def test_wave_3_keys_are_expected():
     assert keys_for_wave(3) == WAVE_3_KEYS
 
 
-def test_wave_3_fallbacks_still_present_for_audit_slice():
+def test_wave_3_fallbacks_removed():
     for key in WAVE_3_KEYS:
         assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
+
+
+def test_wave_3_retirement_policy_has_no_legacy():
+    retirement = load_path_fallback_retirement()
+    for key in WAVE_3_KEYS:
+        assert retirement[key]["legacy"] == [], key
+        assert retirement[key]["retirement_status"] == "keep_no_legacy", key
 
 
 def test_wave_3_canonical_paths_exist():
@@ -221,10 +226,8 @@ def test_wave_3_readiness_report_covers_all_keys():
 
 def test_wave_3_readiness_all_ready():
     report = collect_wave_readiness_report(wave=3)
-    retirement = load_path_fallback_retirement()
     for key, item in report["keys"].items():
         assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
-        assert retirement[key].get("readiness") == "ready", key
 
 
 def test_check_repo_path_strict_wave_3():

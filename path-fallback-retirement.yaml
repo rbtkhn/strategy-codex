@@ -82,12 +82,10 @@ entries:
 - key: evidence
   category: archive_placeholder
   canonical: archive/placeholders/evidence
-  legacy:
-  - evidence
-  retirement_status: keep_temporarily
-  notes: Archive placeholder; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 3 fallback removed; canonical path only.
   wave: 3
-  readiness: ready
 - key: extension
   category: active_canonical
   canonical: platform/extension
@@ -140,21 +138,17 @@ entries:
 - key: reflection-proposals
   category: archive_placeholder
   canonical: archive/queues/reflection-proposals
-  legacy:
-  - reflection-proposals
-  retirement_status: keep_temporarily
-  notes: Archive placeholder; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 3 fallback removed; canonical path only.
   wave: 3
-  readiness: ready
 - key: review-queue
   category: archive_placeholder
   canonical: archive/queues/review-queue
-  legacy:
-  - review-queue
-  retirement_status: keep_temporarily
-  notes: Archive placeholder; canonical exists; no active root fallback refs.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 3 fallback removed; canonical path only.
   wave: 3
-  readiness: ready
 - key: runtime-bundle
   category: active_canonical
   canonical: runtime/bundle
