@@ -112,7 +112,7 @@ Pape-only carry:
 
 ## Mature form — Mar 16 lattice (Pape leg only)
 
-See [Mar 16 Pape × Crooke](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md).
+Primary capture: [Iran's New Battlefield: Global Economy](../../source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md) · Compare register: [Mar 16 Pape × Crooke](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md).
 
 Pape additions at mid-month:
 
