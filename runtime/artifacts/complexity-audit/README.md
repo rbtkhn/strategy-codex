@@ -16,6 +16,7 @@ Baseline and final complexity metrics for the mitigation program.
 | Wave 4 path fallback removal | [wave-4-path-fallback-removal-2026-06-21.md](wave-4-path-fallback-removal-2026-06-21.md) |
 | Path fallback CI enforcement | [path-fallback-retirement-ci-enforcement-2026-06-21.md](path-fallback-retirement-ci-enforcement-2026-06-21.md) |
 | Root file budget slice plan | [root-file-budget-slice-plan-2026-06-21.md](root-file-budget-slice-plan-2026-06-21.md) |
+| **Root file budget program complete** | [root-file-budget-program-complete-2026-06-21.md](root-file-budget-program-complete-2026-06-21.md) |
 | Root file budget CI enforcement | [root-file-budget-ci-enforcement-2026-06-21.md](root-file-budget-ci-enforcement-2026-06-21.md) |
 
 Regenerate:

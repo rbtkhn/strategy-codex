@@ -131,7 +131,7 @@ Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict`.
 
 ### Root file budget (Phase 9 — complete)
 
-Active root file count **25** on disk (at `max_root_files` target). Phased relocations: [`root-file-budget-slice-plan-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-slice-plan-2026-06-21.md). **`assert_root_file_budget.py --strict` is required CI** (promoted 2026-06-21). Receipt: [`root-file-budget-ci-enforcement-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-ci-enforcement-2026-06-21.md).
+Active root file count **25** on disk (at `max_root_files` target). Phased relocations: [`root-file-budget-slice-plan-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-slice-plan-2026-06-21.md). **Program complete:** [`root-file-budget-program-complete-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-program-complete-2026-06-21.md). **`assert_root_file_budget.py --strict` is required CI** (promoted 2026-06-21). CI slice receipt: [`root-file-budget-ci-enforcement-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-ci-enforcement-2026-06-21.md).
 
 Scan: `python3 scripts/assert_root_file_budget.py` · `--strict` · `--json`.
 

@@ -9,7 +9,7 @@
 | Root files on disk (non-dot) | **25** (at target) |
 | Over budget by | **0** |
 
-Preflight: `python scripts/assert_root_file_budget.py` · `--strict` fails.
+Preflight: `python scripts/assert_root_file_budget.py --strict` · **passes at target** (Phase 4 complete).
 
 ## Doctrine floor (why 20 is tight)
 
@@ -87,7 +87,7 @@ Promoted `assert_root_file_budget.py --strict` to required job; aligned `check_r
 
 1. `assert_root_file_budget.py --strict` passes locally and in CI.
 2. Required CI job includes `--strict` root file budget step.
-3. Receipt: `root-file-budget-ci-enforcement-YYYY-MM-DD.md`.
+3. Receipt: [`root-file-budget-program-complete-2026-06-21.md`](root-file-budget-program-complete-2026-06-21.md) (combined) · [`root-file-budget-ci-enforcement-2026-06-21.md`](root-file-budget-ci-enforcement-2026-06-21.md) (CI slice).
 
 ## Commands
 
