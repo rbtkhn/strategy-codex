@@ -56,7 +56,7 @@ Best first-open for February 2025 continuity:
 
 November solo run = **energy strikes + Pokrovsk/Kupyansk/Zaporozhye collapse geometry** — pairs with **Jermy strategic forecast** one week earlier on Davis.
 
-**Cross-weave:** [Jermy × Mercouris Pokrovsk week (2025-11-06)](../../notes/2025-11-06-jermy-mercouris-pokrovsk-strategic-weave.md) · [November benchmark](../../notes/november-2025-benchmark-note.md) · [November repair note](../../notes/mercouris-november-2025-repair-note.md)
+**Cross-weave:** [Jermy × Mercouris Pokrovsk week (2025-11-06)](../../notes/thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md) · [November benchmark](../../notes/november-2025-benchmark-note.md) · [November repair note](../../notes/mercouris-november-2025-repair-note.md)
 
 **Pokrovsk-week hinge anchors:**
 

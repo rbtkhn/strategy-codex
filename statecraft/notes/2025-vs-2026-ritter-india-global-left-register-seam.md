@@ -8,10 +8,10 @@ WORK only; not Record.
 
 | Year lane | Note | Captures | Span |
 | --- | --- | --- | --- |
-| **2025 Trump pivot** | [Feb 22→Mar 2 2025 arc](./2025-02-ritter-india-global-left-trump-pivot-arc.md) | 2 | OODA forecast → Oval fiasco |
-| **2026 Iran war** | [Feb 20→Apr 9 2026 arc](./2026-02-ritter-india-global-left-iran-war-arc.md) | 3 | Geneva trap → day ~3 → ceasefire fiction |
+| **2025 Trump pivot** | [Feb 22→Mar 2 2025 arc](./arc-ritter-2025-02-to-2025-03-trump-pivot.md) | 2 | OODA forecast → Oval fiasco |
+| **2026 Iran war** | [Feb 20→Apr 9 2026 arc](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) | 3 | Geneva trap → day ~3 → ceasefire fiction |
 
-**Channel bench:** [India Global Left channel index](../../source-archive/statecraft/channel-index.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · **Cross-guest:** [Freeman IGL Iran arc](./2026-02-freeman-india-global-left-iran-war-arc.md) · [Parsi IGL Sep 2025](../voices/parsi/parsi-interview-appearances-2025-2026.md)
+**Channel bench:** [India Global Left channel index](../../source-archive/statecraft/channel-index.md) · [Ritter source index](../voices/ritter/ritter-source-index.md) · **Cross-guest:** [Freeman IGL Iran arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) · [Parsi IGL Sep 2025](../voices/parsi/parsi-interview-appearances-2025-2026.md)
 
 ## Purpose
 
@@ -55,7 +55,7 @@ Both lanes still carry **Ritter-stable** moves — cite as **family resemblance*
 
 | Guest | Lane | Relation to Ritter 2025 | Relation to Ritter 2026 |
 | --- | --- | --- | --- |
-| **Freeman** | [IGL Iran arc](./2026-02-freeman-india-global-left-iran-war-arc.md) · [2025 vs 2026 Freeman seam](./2025-vs-2026-freeman-igl-register-seam.md) | Out of year (starts Feb 2026) | **Order / toll** vs Ritter **attrition** — **pair, don’t merge** |
+| **Freeman** | [IGL Iran arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) · [2025 vs 2026 Freeman seam](./2025-vs-2026-freeman-igl-register-seam.md) | Out of year (starts Feb 2026) | **Order / toll** vs Ritter **attrition** — **pair, don’t merge** |
 | **Parsi** | [Sep 2025 IGL](../voices/parsi/parsi-interview-appearances-2025-2026.md) | **Between** 2025 Ritter pair and 2026 war — **E3/Europe escalatory** | **Upstream** of 2026 Freeman/Ritter Iran lanes |
 | **Marandi** | May 2026 IGL capture | — | Same **Iran war** calendar — **different guest register** |
 
@@ -63,10 +63,10 @@ Both lanes still carry **Ritter-stable** moves — cite as **family resemblance*
 
 | Question | Open first | Not first |
 | --- | --- | --- |
-| Witkoff/Dmitriev/Riyadh, Ukraine-as-economic | [2025 pivot arc](./2025-02-ritter-india-global-left-trump-pivot-arc.md) | 2026 Iran arc |
-| Oval Office Zelensky blow-up, DOGE/USAID model | [2025 pivot arc](./2025-02-ritter-india-global-left-trump-pivot-arc.md) | 2026 prove-me-wrong |
-| Geneva trap, Venezuela template, succession thesis | [2026 Iran arc](./2026-02-ritter-india-global-left-iran-war-arc.md) | 2025 pair |
-| Interceptor bankruptcy, exit Gulf, no ceasefire | [2026 Iran arc](./2026-02-ritter-india-global-left-iran-war-arc.md) | 2025 Big Four |
+| Witkoff/Dmitriev/Riyadh, Ukraine-as-economic | [2025 pivot arc](./arc-ritter-2025-02-to-2025-03-trump-pivot.md) | 2026 Iran arc |
+| Oval Office Zelensky blow-up, DOGE/USAID model | [2025 pivot arc](./arc-ritter-2025-02-to-2025-03-trump-pivot.md) | 2026 prove-me-wrong |
+| Geneva trap, Venezuela template, succession thesis | [2026 Iran arc](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) | 2025 pair |
+| Interceptor bankruptcy, exit Gulf, no ceasefire | [2026 Iran arc](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) | 2025 Big Four |
 
 ## Reconciliation (preserve tension)
 
@@ -79,9 +79,9 @@ Both lanes still carry **Ritter-stable** moves — cite as **family resemblance*
 
 ## Cross-links
 
-- [2025 Trump pivot arc](./2025-02-ritter-india-global-left-trump-pivot-arc.md)
-- [2026 Iran war arc](./2026-02-ritter-india-global-left-iran-war-arc.md)
-- [Freeman IGL Iran arc](./2026-02-freeman-india-global-left-iran-war-arc.md)
+- [2025 Trump pivot arc](./arc-ritter-2025-02-to-2025-03-trump-pivot.md)
+- [2026 Iran war arc](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md)
+- [Freeman IGL Iran arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md)
 - [Ritter source index](../voices/ritter/ritter-source-index.md)
 
 ## Falsifiers (merge errors)

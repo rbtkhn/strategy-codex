@@ -76,7 +76,7 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 ## Reading rule
 
 1. Open **Statecraft Archive** direct files first.
-2. Treat Helmer as **Moscow reporting + faction inference** — orthogonal to McGovern ease-at-SPIEF and Ritter Karaganov fence ([ritter-karaganov-doctrine-arc-2026.md](../../notes/ritter-karaganov-doctrine-arc-2026.md)).
+2. Treat Helmer as **Moscow reporting + faction inference** — orthogonal to McGovern ease-at-SPIEF and Ritter Karaganov fence ([arc-ritter-2026-01-to-2026-06-karaganov-doctrine.md](../../notes/arc-ritter-2026-01-to-2026-06-karaganov-doctrine.md)).
 3. Same-day **guest mentions** (e.g. Krapivnik on Helmer) = continuity signal, **not** index rows.
 4. Apply [source-lattice](../../../docs/source-lattice-beyond-the-repo.md) before lane judgment.
 

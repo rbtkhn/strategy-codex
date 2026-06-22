@@ -30,6 +30,18 @@ Use **`source-archive/statecraft/YYYY-MM-DD/day-index.md`** for full day lists.
 | --- | --- |
 | **Commodore Steve Jermy** | [Fate of Greenland & Venezuela; post-Maduro snatch](../../../source-archive/statecraft/2026-01-08/source-daniel-davis-deep-dive-fate-greenland-venezuela-steve-jermy-lt-col-daniel-davis-2026-01-08.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · [Jan-8 three-way weave](../../notes/2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave.md) |
 
+### 2026-02-27 — Jermy (Iran strike eve / Ford–Lincoln split)
+
+| Guest | Capture |
+| --- | --- |
+| **Commodore Steve Jermy** | [Iran not buckling — Ford off Haifa; regime change without ground force](../../../source-archive/statecraft/2026-02-27/source-daniel-davis-deep-dive-iran-not-buckling-not-giving-in-steve-jermy-lt-col-daniel-davis-2026-02-27.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · same-day [Mercouris Iran/embassies](../../../source-archive/statecraft/2026-02-27/source-alex-mercouris-us-iran-talks-fail-embassies-evacuated-attack-imminent-konstaninovka-def-2026-02-27.md) |
+
+### 2026-01-30 — Jermy (Iran armada / Lincoln CSG)
+
+| Guest | Capture |
+| --- | --- |
+| **Commodore Steve Jermy** | [Trump's massive armada to Iran — what it can do](../../../source-archive/statecraft/2026-01-30/source-daniel-davis-deep-dive-navy-combat-vet-what-trumps-massive-armada-to-iran-can-do-steve-jermy-lt-col-daniel-davis-2026-01-30.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · [Jan-30 Jermy × Mercouris weave](../../notes/2026-01-30-jermy-mercouris-iran-armada-kiev-weave.md) · same-day [Mercouris Iran/Kiev](../../../source-archive/statecraft/2026-01-30/source-alex-mercouris-moscow-rejects-us-kiev-security-guarantees-says-kiev-energy-truce-ends-s-2026-01-30.md) |
+
 ### 2025-12-12 — Jermy (Venezuela / NSS week)
 
 | Guest | Capture |
@@ -40,7 +52,7 @@ Use **`source-archive/statecraft/YYYY-MM-DD/day-index.md`** for full day lists.
 
 | Guest | Capture |
 | --- | --- |
-| **Commodore Steve Jermy** | [Russia true war objectives; Novorossiya; NATO wet paper bag](../../../source-archive/statecraft/2025-11-06/source-daniel-davis-deep-dive-russia-true-war-objectives-revealed-steve-jermy-lt-col-daniel-davis-2025-11-06.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · cross-weave [Nov Pokrovsk week](../../notes/2025-11-06-jermy-mercouris-pokrovsk-strategic-weave.md) |
+| **Commodore Steve Jermy** | [Russia true war objectives; Novorossiya; NATO wet paper bag](../../../source-archive/statecraft/2025-11-06/source-daniel-davis-deep-dive-russia-true-war-objectives-revealed-steve-jermy-lt-col-daniel-davis-2025-11-06.md) → [jermy index](../../voices/jermy/jermy-source-index.md) · cross-weave [Nov Pokrovsk week](../../notes/thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md) |
 
 ### Earlier Davis anchors (archive)
 

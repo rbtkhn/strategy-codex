@@ -6,7 +6,7 @@ WORK only; not Record.
 **Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: freeman`)  
 **Capture:** [What's Really Behind the Push for War with Iran?](../../source-archive/statecraft/2025-06-21/source-india-and-global-left-push-war-iran-chas-freeman-2025-06-21.md) — https://www.youtube.com/watch?v=4yt1Vq3BruA · `verify_receipt: 2026-06-21`
 
-**Out of arc (do not merge body):** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](./2026-02-freeman-india-global-left-iran-war-arc.md) — **2026 kinetic calendar**, Hormuz toll-governance spine, six-beat arc. This register is **2025 pre-arc bridge only**.
+**Out of arc (do not merge body):** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) — **2026 kinetic calendar**, Hormuz toll-governance spine, six-beat arc. This register is **2025 pre-arc bridge only**.
 
 **Adjacent 2025 IGL (pair, don’t collapse):**
 
@@ -67,14 +67,14 @@ Freeman: Capitulation framing at Geneva; Islamic-world unity via MBS; attrition 
 | **Attrition** mention | **Full attrition spine** | Do not import **2026 clocks** into 2025 |
 | MBS **solidarity** | Gulf **must reconcile** / Pezeshkian halt | **Gulf politics** continuity — **different episode objects** |
 
-**Forbidden:** Treat Jun 21 as **beat 0** of [2026 Freeman IGL arc](./2026-02-freeman-india-global-left-iran-war-arc.md). Use **bridge table** only.
+**Forbidden:** Treat Jun 21 as **beat 0** of [2026 Freeman IGL arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md). Use **bridge table** only.
 
 ## Cross-links
 
 - [Freeman source index](../voices/freeman/freeman-source-index.md) — IGL **2025-06-21** row
-- [Freeman × IGL Iran war arc (Feb 24→Jun 11 2026)](./2026-02-freeman-india-global-left-iran-war-arc.md) — **downstream** arc; do not merge
-- [Ritter × IGL Iran arc (Feb 20→Apr 9 2026)](./2026-02-ritter-india-global-left-iran-war-arc.md) — same channel, **attrition** register vs Freeman **order**
-- [Ritter 2025 Trump pivot](./2025-02-ritter-india-global-left-trump-pivot-arc.md) · [2025 vs 2026 Ritter seam](./2025-vs-2026-ritter-india-global-left-register-seam.md) · [2025 vs 2026 Freeman IGL seam](./2025-vs-2026-freeman-igl-register-seam.md) — **year-discipline**
+- [Freeman × IGL Iran war arc (Feb 24→Jun 11 2026)](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) — **downstream** arc; do not merge
+- [Ritter × IGL Iran arc (Feb 20→Apr 9 2026)](./arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) — same channel, **attrition** register vs Freeman **order**
+- [Ritter 2025 Trump pivot](./arc-ritter-2025-02-to-2025-03-trump-pivot.md) · [2025 vs 2026 Ritter seam](./2025-vs-2026-ritter-india-global-left-register-seam.md) · [2025 vs 2026 Freeman IGL seam](./2025-vs-2026-freeman-igl-register-seam.md) — **year-discipline**
 - [May 15 Freeman Gulf](../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md) — upstream
 - [Oct 10 Freeman Gaza](../../source-archive/statecraft/2025-10-10/source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) · [Gaza ceasefire register](./2025-freeman-igl-gaza-ceasefire-register.md) — **paired 2025 register**
 

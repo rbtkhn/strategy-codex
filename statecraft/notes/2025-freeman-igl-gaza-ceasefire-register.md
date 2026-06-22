@@ -6,7 +6,7 @@ WORK only; not Record.
 **Channel:** [India and Global Left](../../source-archive/statecraft/channel-index.md) (`thread: freeman`)  
 **Capture:** [Why This Gaza Ceasefire Won't Last](../../source-archive/statecraft/2025-10-10/source-india-and-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) — https://www.youtube.com/watch?v=jm1kxCygFmw · `verify_receipt: 2026-06-21`
 
-**Out of arc (do not merge body):** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](./2026-02-freeman-india-global-left-iran-war-arc.md) — **2026 Iran kinetic / Hormuz** spine. This register is **Gaza hostage-frame** only.
+**Out of arc (do not merge body):** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) — **2026 Iran kinetic / Hormuz** spine. This register is **Gaza hostage-frame** only.
 
 **Paired 2025 register:** [Jun 21 Iran-war push](./2025-freeman-igl-iran-war-push-register.md) — **different war object**; link via [2025 vs 2026 Freeman IGL seam](./2025-vs-2026-freeman-igl-register-seam.md), not one weave body.
 
@@ -72,14 +72,14 @@ Freeman: Arab state pivot; diaspora/globalization risk; Mizrahim politics
 | **Hasbara / media** | **Gasoline / midterm** constraint | **US domestic** different lever |
 | **Arab raison d'état** | **Gulf must reconcile with Iran** | **2025 pivot read** → **2026 endgame #1** — **year tag required** |
 
-**Forbidden:** Import **Hormuz toll**, **four endgames**, or **Israeli campaign plan** language from [2026 arc](./2026-02-freeman-india-global-left-iran-war-arc.md) into this register body.
+**Forbidden:** Import **Hormuz toll**, **four endgames**, or **Israeli campaign plan** language from [2026 arc](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) into this register body.
 
 ## Cross-links
 
 - [Freeman source index](../voices/freeman/freeman-source-index.md) — IGL **2025-10-10** row
 - [Jun 2025 Iran-war push register](./2025-freeman-igl-iran-war-push-register.md) — **paired** 2025 register
 - [2025 vs 2026 Freeman IGL seam](./2025-vs-2026-freeman-igl-register-seam.md) — **Gaza lane** routing
-- [Freeman × IGL Iran war arc (2026)](./2026-02-freeman-india-global-left-iran-war-arc.md) — out of scope for Gaza body
+- [Freeman × IGL Iran war arc (2026)](./arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) — out of scope for Gaza body
 - [May 15 Freeman Gulf](../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md)
 
 ## Falsifiers

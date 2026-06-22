@@ -80,7 +80,7 @@ Read **Jermy** for feasibility, NSS tripolar read, and **cult vs open-source ana
 
 ## Cross-day return
 
-- [Nov 6 Jermy × Mercouris Pokrovsk weave](./2025-11-06-jermy-mercouris-pokrovsk-strategic-weave.md) — earlier **forecast → receipt** pattern
+- [Nov 6 Jermy × Mercouris Pokrovsk weave](./thread-jermy-2025-11-06-to-2025-11-14-pokrovsk.md) — earlier **forecast → receipt** pattern
 - [Nov 2025 Mercouris repair note](./mercouris-november-2025-repair-note.md) — Pokrovsk → Siversk arc
 - [Jermy Nov 6 — Russia objectives](../voices/jermy/jermy-source-index.md#2025-11) — **Novorossiya ceiling** vs Dec **Donbass is ours** line
 

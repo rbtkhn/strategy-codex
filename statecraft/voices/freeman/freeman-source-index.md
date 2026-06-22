@@ -48,11 +48,11 @@ Full chronology remains on host shelves and [freeman-support-spine-2025-2026.md]
 
 ### India and Global Left
 
-**Arc:** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · **2025 registers:** [Jun Iran push](../../notes/2025-freeman-igl-iran-war-push-register.md) · [Oct Gaza ceasefire](../../notes/2025-freeman-igl-gaza-ceasefire-register.md) · [2025 vs 2026 seam](../../notes/2025-vs-2026-freeman-igl-register-seam.md) · **Cross-register:** [Ritter × IGL Iran arc (Feb 20→Apr 9)](../../notes/2026-02-ritter-india-global-left-iran-war-arc.md) · [Ritter 2025 Trump pivot](../../notes/2025-02-ritter-india-global-left-trump-pivot-arc.md) · [Ritter 2025 vs 2026 seam](../../notes/2025-vs-2026-ritter-india-global-left-register-seam.md) · [Ritter source index](../ritter/ritter-source-index.md) · [channel index](../../../source-archive/statecraft/channel-index.md) (`india-and-global-left`, 20 files)
+**Arc:** [Freeman × IGL Iran war (Feb 24→Jun 11 2026)](../../notes/arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) · **2025 registers:** [Jun Iran push](../../notes/2025-freeman-igl-iran-war-push-register.md) · [Oct Gaza ceasefire](../../notes/2025-freeman-igl-gaza-ceasefire-register.md) · [2025 vs 2026 seam](../../notes/2025-vs-2026-freeman-igl-register-seam.md) · **Cross-register:** [Ritter × IGL Iran arc (Feb 20→Apr 9)](../../notes/arc-ritter-2026-02-to-2026-04-india-global-left-iran.md) · [Ritter 2025 Trump pivot](../../notes/arc-ritter-2025-02-to-2025-03-trump-pivot.md) · [Ritter 2025 vs 2026 seam](../../notes/2025-vs-2026-ritter-india-global-left-register-seam.md) · [Ritter source index](../ritter/ritter-source-index.md) · [channel index](../../../source-archive/statecraft/channel-index.md) (`india-and-global-left`, 20 files)
 
 #### 2025-03 (Oval Office — out of Iran arc)
 
-- [2025-03-01 — Trump and Zelensky argued (Oval Office)](../../../source-archive/statecraft/2025-03-01/source-india-and-global-left-trump-zelensky-oval-office-chas-freeman-2025-03-01.md) — https://www.youtube.com/watch?v=ZPyoLPEroOo — **cleaned-transcript** · `thread: freeman`, `india-and-global-left` · **Cross-register:** [Ritter 2025 Trump pivot arc](../../notes/2025-02-ritter-india-global-left-trump-pivot-arc.md) (pair [Ritter Mar 2 Oval fiasco](../ritter/ritter-source-index.md))
+- [2025-03-01 — Trump and Zelensky argued (Oval Office)](../../../source-archive/statecraft/2025-03-01/source-india-and-global-left-trump-zelensky-oval-office-chas-freeman-2025-03-01.md) — https://www.youtube.com/watch?v=ZPyoLPEroOo — **cleaned-transcript** · `thread: freeman`, `india-and-global-left` · **Cross-register:** [Ritter 2025 Trump pivot arc](../../notes/arc-ritter-2025-02-to-2025-03-trump-pivot.md) (pair [Ritter Mar 2 Oval fiasco](../ritter/ritter-source-index.md))
 
 #### 2025-05 (Trump Gulf visit — out of Iran arc)
 
@@ -60,7 +60,7 @@ Full chronology remains on host shelves and [freeman-support-spine-2025-2026.md]
 
 #### 2025-06 (Israel–Iran war push — pre-2026 arc register)
 
-- [2025-06-21 — What's Really Behind the Push for War with Iran?](../../../source-archive/statecraft/2025-06-21/source-india-and-global-left-push-war-iran-chas-freeman-2025-06-21.md) — https://www.youtube.com/watch?v=4yt1Vq3BruA — **cleaned-transcript** · `thread: freeman`, `india-and-global-left` · **Register:** [2025 IGL Iran-war push](../../notes/2025-freeman-igl-iran-war-push-register.md) (`verify_receipt: 2026-06-21`) · **Bridge:** [Freeman 2026 IGL Iran arc](../../notes/2026-02-freeman-india-global-left-iran-war-arc.md) · pair [May 15 Gulf](../../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md)
+- [2025-06-21 — What's Really Behind the Push for War with Iran?](../../../source-archive/statecraft/2025-06-21/source-india-and-global-left-push-war-iran-chas-freeman-2025-06-21.md) — https://www.youtube.com/watch?v=4yt1Vq3BruA — **cleaned-transcript** · `thread: freeman`, `india-and-global-left` · **Register:** [2025 IGL Iran-war push](../../notes/2025-freeman-igl-iran-war-push-register.md) (`verify_receipt: 2026-06-21`) · **Bridge:** [Freeman 2026 IGL Iran arc](../../notes/arc-freeman-2026-02-to-2026-06-india-global-left-iran.md) · pair [May 15 Gulf](../../../source-archive/statecraft/2025-05-15/source-india-and-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md)
 
 #### 2025-10 (Gaza ceasefire — hostage frame skepticism)
 

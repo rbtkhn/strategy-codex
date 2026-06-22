@@ -12,6 +12,7 @@ Purpose: route map for the materialized Pape corpus in `source-archive/statecraf
 - [2026-02-27 From Kosovo to Iran](../../../source-archive/statecraft/2026-02-27/source-pape-from-kosovo-to-iran-the-smart-bomb-2026-02-27.md)
 - [2026-02-28 The Day 1 Mirage](../../../source-archive/statecraft/2026-02-28/source-pape-the-day-1-mirage-2026-02-28.md)
 - [2026-02-28 The Illusion of Control](../../../source-archive/statecraft/2026-02-28/source-pape-the-illusion-of-control-2026-02-28.md)
+- **Thread companion:** [Smart Bomb Trap thread (Feb 28 → Mar 16)](../../notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md)
 
 ### Systemic Escalation and Threshold Tracking
 
