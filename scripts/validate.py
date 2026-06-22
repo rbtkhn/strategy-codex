@@ -187,7 +187,7 @@ def run_group(
         },
     }
     # Optional: surface template commit from template-source.json
-    ts = REPO_ROOT / "template-source.json"
+    ts = REPO_ROOT / "platform/template/template-source.json"
     if ts.is_file():
         try:
             data = json.loads(ts.read_text(encoding="utf-8"))

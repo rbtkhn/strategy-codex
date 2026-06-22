@@ -107,7 +107,7 @@ def main() -> int:
         "syncedPaths": [f"docs/skill-work/self-work/sync-pack/{name}" for name in changed],
     }
     if not args.dry_run and changed:
-        template_source_path = grace_root / "template-source.json"
+        template_source_path = grace_root / "platform/template/template-source.json"
         existing = _read_json(template_source_path)
         merged = _template_source_base()
         merged.update(existing)

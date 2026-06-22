@@ -6,12 +6,11 @@
 
 | Signal | Value |
 |---|---|
-| Root files on disk (non-dot) | **34** |
-| Git-tracked root files | **33** |
-| `max_root_files` | **25** (reconciled 2026-06-21) |
-| Over budget by | **9** (34 on disk; 33 tracked) |
-| Unlisted | `path-fallback-retirement.yaml` (fixed in Phase 0 manifest) |
-| Local-only (gitignored) | `harness-events.jsonl`, `compute-ledger.jsonl` |
+| Root files on disk (non-dot) | **32** (was 34) |
+| Git-tracked root files | **~31** (after template JSON wedge) |
+| `max_root_files` | **25** |
+| Over budget by | **7** (was 9) |
+| Wedge 1 (template JSON) | **Done** 2026-06-21 — `platform/template/template-{manifest,source}.json` |
 
 Preflight: `python scripts/assert_root_file_budget.py` · `--strict` fails.
 
@@ -52,8 +51,8 @@ Move to documented archive/template paths; update links:
 |---|---|
 | `how-instances-consume-upgrades.md` | `docs/archive/how-instances-consume-upgrades.md` |
 | `license-record` | `docs/archive/license-record` |
-| `template-manifest.json` | `platform/template/template-manifest.json` |
-| `template-source.json` | `platform/template/template-source.json` |
+| `template-manifest.json` | `platform/template/template-manifest.json` | **Done** |
+| `template-source.json` | `platform/template/template-source.json` | **Done** |
 | `DESIGN.md` | `docs/skill-work/work-dev/DESIGN.md` (update creative-pipeline links) |
 | `grace-mar.code-workspace` | `.vscode/grace-mar.code-workspace` or `docs/archive/` |
 | `instance-contract.json` | `platform/config/instance-contract.json` |

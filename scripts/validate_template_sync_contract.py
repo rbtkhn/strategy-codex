@@ -193,8 +193,8 @@ def validate_sync_contract(
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate template sync contract vs applied provenance.")
     parser.add_argument("--instance-contract", type=Path, default=REPO_ROOT / "instance-contract.json")
-    parser.add_argument("--template-source", type=Path, default=REPO_ROOT / "template-source.json")
-    parser.add_argument("--template-manifest", type=Path, default=REPO_ROOT / "template-manifest.json")
+    parser.add_argument("--template-source", type=Path, default=REPO_ROOT / "platform/template/template-source.json")
+    parser.add_argument("--template-manifest", type=Path, default=REPO_ROOT / "platform/template/template-manifest.json")
     parser.add_argument("--require-target-applied-match", action="store_true")
     parser.add_argument("--json", action="store_true", help="Emit machine-readable JSON")
     args = parser.parse_args()

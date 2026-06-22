@@ -83,10 +83,6 @@ files:
   - path: skill-steward.md
     category: compatibility
     relocation_target: codex/skill-steward.md
-  - path: template-manifest.json
-    category: compatibility
-  - path: template-source.json
-    category: compatibility
   - path: how-instances-consume-upgrades.md
     category: compatibility
   - path: DESIGN.md

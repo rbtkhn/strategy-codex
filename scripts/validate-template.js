@@ -15,13 +15,13 @@ const fs = require("fs");
 const { execSync } = require("child_process");
 
 const REPO_ROOT = path.resolve(__dirname, "..");
-const MANIFEST_PATH = path.join(REPO_ROOT, "template-manifest.json");
+const MANIFEST_PATH = path.join(REPO_ROOT, "platform", "template", "template-manifest.json");
 
 function main() {
   let failed = false;
 
   if (!fs.existsSync(MANIFEST_PATH)) {
-    console.error("template-manifest.json not found at repo root");
+    console.error("template-manifest.json not found at platform/template/");
     process.exit(1);
   }
 

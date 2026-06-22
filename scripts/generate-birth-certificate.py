@@ -56,7 +56,7 @@ def compute_genesis_hash(seed_dir: Path) -> str:
 
 
 def _read_template_version() -> str:
-    p = REPO_ROOT / "template-manifest.json"
+    p = REPO_ROOT / "platform/template/template-manifest.json"
     if not p.is_file():
         return "unknown"
     meta = json.loads(p.read_text(encoding="utf-8"))

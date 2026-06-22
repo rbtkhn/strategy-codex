@@ -138,7 +138,7 @@ GitHub `main` keeps **doctrine, build, deploy, and lane-governance** files at th
 |--------------|----------|
 | Doctrine / routing | `AGENTS.md`, `LLM-ROUTING.md`, `instance-doctrine.md`, `README.md` |
 | Build / deploy | `pyproject.toml`, `Dockerfile`, `requirements*.txt`, `render.yaml` |
-| Lane / template governance | `lanes.yaml`, `template-manifest.json`, `template-source.json` |
+| Lane / template governance | `lanes.yaml`, `platform/template/template-manifest.json`, `platform/template/template-source.json` |
 | Skill split surfaces | `skill-think.md`, `skill-write.md`, `skill-steward.md` |
 
 | Nest under profile bundle | Examples |
