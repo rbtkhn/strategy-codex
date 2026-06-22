@@ -43,12 +43,12 @@
 
 ### Grace-mar (this repo)
 
-- Multi-root workspace file: **[`grace-mar.code-workspace`](../grace-mar.code-workspace)** at the repo root (roots: this repo + optional `companion-self/`).
+- Multi-root workspace file: **[`.vscode/grace-mar.code-workspace`](../.vscode/grace-mar.code-workspace)** (roots: this repo + optional `companion-self/`).
 
 ### Companion-self (template upstream)
 
 - If the template still ships **`companion-self-and-grace-mar.code-workspace`**, rename it in the **companion-self repository** to **`companion-self.code-workspace`** or **`template.code-workspace`** for clarity. That rename is **not** performed inside grace-mar; grace-mar only consumes the clone path `companion-self/`.
-- See [merging-from-companion-self.md](merging-from-companion-self.md) for opening `grace-mar.code-workspace` and template layout.
+- See [merging-from-companion-self.md](merging-from-companion-self.md) for opening `.vscode/grace-mar.code-workspace` and template layout.
 
 ---
 

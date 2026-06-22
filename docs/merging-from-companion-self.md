@@ -28,8 +28,8 @@ Template → instance sync in grace-mar uses **four layers**, each with a differ
    - **Submodule (tracked pin):** remove `/companion-self/` from `.gitignore` if present, then  
      `git submodule add https://github.com/rbtkhn/companion-self.git companion-self`  
      and commit the submodule metadata.
-2. **Open the multi-root workspace** in Cursor / VS Code: **File → Open Workspace from File…** → choose **`grace-mar.code-workspace`**. You get two roots: **grace-mar** (`.`) and **companion-self** (`./companion-self`).
-3. **Template workspace filename (companion-self repo only):** If the upstream template still uses a long name such as `companion-self-and-grace-mar.code-workspace`, rename it in **companion-self** to `companion-self.code-workspace` or `template.code-workspace` and update template README links there. Grace-mar’s own workspace file stays **`grace-mar.code-workspace`**. See [naming-convention.md](naming-convention.md).
+2. **Open the multi-root workspace** in Cursor / VS Code: **File → Open Workspace from File…** → choose **`.vscode/grace-mar.code-workspace`**. You get **strategy-codex** (repo root via `..` from the workspace file) and optional **companion-self** (`../companion-self`) when that clone exists.
+3. **Template workspace filename (companion-self repo only):** If the upstream template still uses a long name such as `companion-self-and-grace-mar.code-workspace`, rename it in **companion-self** to `companion-self.code-workspace` or `template.code-workspace` and update template README links there. Grace-mar’s own workspace file stays **`.vscode/grace-mar.code-workspace`**. See [naming-convention.md](naming-convention.md).
 4. **Template diff default path:** `python scripts/template_diff.py` uses **`./companion-self`** (under the grace-mar repo root). Override with `--companion-self /path` or **`GRACE_MAR_COMPANION_SELF`**. If `companion-self/` is missing and clone is enabled, the script still clones into that path (same as before).
 
 The default clone-on-miss behavior targets **`./companion-self`** instead of `/tmp/companion-self`, so edits and diffs stay inside your tree when you use the workspace file.

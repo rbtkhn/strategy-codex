@@ -85,8 +85,6 @@ files:
     relocation_target: codex/skill-steward.md
   - path: DESIGN.md
     category: compatibility
-  - path: grace-mar.code-workspace
-    category: compatibility
 
 # Local / untracked noise — ignored by budget checker when present on disk
 ignore_local:
