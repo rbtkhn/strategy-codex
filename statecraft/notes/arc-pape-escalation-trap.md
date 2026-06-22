@@ -108,6 +108,7 @@ XIII Jun 15     MAX LEVERAGE — uncertain deal; Iran's peak bargaining window
 ## Cross-day return
 
 - **Child:** [Smart Bomb Trap thread](./thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) — Legs I–V reconciliation table
+- **Mid-month compare:** [Mar 16 Pape × Crooke lattice](../daily/2026-03-16-pape-vs-crooke-mosaic-trap.md) — trap vs mosaic (use with thread Leg V)
 - **Bench:** [Pape × Crooke opening-strike](./2026-02-28-pape-crooke-opening-strike-bench-weave.md) · [Crooke × Pape × Simplicius Mar 3](./2026-03-03-crooke-pape-simplicius-air-power-survival-bench-weave.md)
 - **Adjacent:** May 27 energy repricing · [Helmer five terms](./arc-helmer-iran-five-terms.md) · Jun 16+ MoU / CIA-seriousness interview tier
 - **Person shelf:** [pape-arc.md](../voices/pape/pape-arc.md) · [forecast ledger](../voices/pape/stream/pape-forecast-ledger-2026.md)

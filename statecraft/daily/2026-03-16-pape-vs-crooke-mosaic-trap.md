@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Pape Escalation Trap Vs Crooke Mosaic — 2026-03-16
 
-**Parent daily:** [2026-03-16](./2026-03-16.md) · **Monthly:** [2026-03](./2026-03.md) · **March 1 Pape anchor:** [smart-bomb trap](../source-archive/statecraft/2026-03-01/source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md)
+**Parent daily:** [2026-03-16](./2026-03-16.md) · **Monthly:** [2026-03](./2026-03.md) · **Pape season:** [Escalation Trap arc](../notes/arc-pape-escalation-trap.md) · [Smart Bomb Trap thread](../notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) (Leg V) · **March 1 Pape anchor:** [smart-bomb trap](../source-archive/statecraft/2026-03-01/source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md)
 
 ## Purpose
 
@@ -11,7 +11,7 @@ Compare two reads of the **same mid-March crisis object** after Epic Fury decapi
 - **Pape's escalation-trap / economic-center-of-gravity frame** (newsletter, March 1 + March 16)
 - **Crooke's mosaic-asymmetric / no-plan frame** (Judging Freedom, March 16)
 
-Goal: preserve **non-substitutable mechanism** — not pick a winner.
+Goal: preserve **non-substitutable mechanism** — not pick a winner. **Stacking:** [Escalation Trap arc](../notes/arc-pape-escalation-trap.md) owns Pape **season ratchet**; [Smart Bomb Trap thread](../notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) owns opening-week Leg V; this lattice owns **Pape × Crooke mid-month compare**.
 
 ## Shared Ground
 
@@ -34,13 +34,13 @@ Pape is strongest when the problem is:
 - what sequential stages (disruption → shock → political pressure) make coercion cumulative
 - what clocks falsify victory claims (e.g. "two or three days" vs sixteen days)
 
-March 1 smart-bomb trap essay:
+March 1 smart-bomb trap essay ([Leg III — thread](../notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md#leg-iii--smart-bomb-trap-confirmed-mar-1)):
 
 - "This was tactical success exactly as expected" but "tactical success does not equal strategic control."
 - "The greater the tactical success, the stronger the political necessity to answer it."
 - "Control was the premise. Momentum is the reality."
 
-March 16 global battlefield essay:
+March 16 global battlefield essay ([Leg V — thread](../notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md#mature-form--mar-16-lattice-pape-leg-only) · [arc Phase I–V](../notes/arc-pape-escalation-trap.md)):
 
 - War opened "almost exactly as military planners expected" — shock-and-awe grammar
 - "That was 16 days ago" after Trump said war could end in two or three days
@@ -105,6 +105,7 @@ March 16 is the proof night both are true at once: sixteen days in (Pape clock),
 
 ## Best Next Uses
 
+- **Back:** [Escalation Trap arc](../notes/arc-pape-escalation-trap.md) (Phases 0–IV) · [Smart Bomb Trap thread](../notes/thread-pape-2026-02-28-to-2026-03-16-smart-bomb-trap.md) (Legs I–IV)
 - **May/June back-read:** May's command-unreliability presupposes March's trap + mosaic convergence — do not collapse into single-voice "Iran winning."
 - **Third leg (written):** [Ritter implementation × trap × mosaic](./2026-03-16-ritter-implementation-trap-mosaic.md).
 - **Attribution discipline:** Pape = newsletter/analytic tier; Crooke = interview + Conflicts Forum essay lane — do not merge claims without layer label.

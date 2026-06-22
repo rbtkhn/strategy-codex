@@ -2,7 +2,7 @@ WORK only; not Record.
 
 # Ritter Implementation × Pape Trap × Crooke Mosaic — 2026-03-16
 
-**Parent daily:** [2026-03-16](./2026-03-16.md) · **Trap × mosaic pair:** [Pape vs Crooke](./2026-03-16-pape-vs-crooke-mosaic-trap.md) · **Monthly:** [2026-03](./2026-03.md)
+**Parent daily:** [2026-03-16](./2026-03-16.md) · **Trap × mosaic pair:** [Pape vs Crooke](./2026-03-16-pape-vs-crooke-mosaic-trap.md) · **Pape season:** [Escalation Trap arc](../notes/arc-pape-escalation-trap.md) · **Monthly:** [2026-03](./2026-03.md)
 
 **Sources (March 16):**
 
