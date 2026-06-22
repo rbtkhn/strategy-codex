@@ -1,5 +1,5 @@
 # Complexity mitigation CI — consolidated preflight (Sprint 9 scaffold).
-# Strict repo path scan is required; other advisory steps use continue-on-error until promoted.
+# Strict repo path scan and root file budget are required; other advisory steps use continue-on-error until promoted.
 # Local mirror: python3 scripts/check_repo_health.py --quick | --full
 name: Repo health
 
@@ -38,6 +38,9 @@ jobs:
       - name: Repo path strict scan
         run: python3 scripts/check_repo_path_strict.py --strict
 
+      - name: Root file budget (strict)
+        run: python3 scripts/assert_root_file_budget.py --strict
+
       - name: Generated manifest schema
         run: python3 scripts/check_generated_surfaces.py --manifest-only
 
@@ -71,9 +74,6 @@ jobs:
 
       - name: Archive boundary
         run: python3 scripts/check_archive_boundary.py
-
-      - name: Root file budget
-        run: python3 scripts/assert_root_file_budget.py
 
       - name: Generated surface drift orchestrator
         run: python3 scripts/check_generated_surfaces.py --check

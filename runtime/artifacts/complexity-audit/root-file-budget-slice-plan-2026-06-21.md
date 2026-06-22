@@ -73,9 +73,9 @@ Remaining options if count must fall further:
 - **B)** Relocate skill splits to `codex/` + update [`docs/canonical-paths.md`](../../../docs/canonical-paths.md) (doctrine change).
 - **C)** Consolidate build manifests under `platform/deployment/` (higher risk for CI/Docker).
 
-### Phase 4 — CI promotion
+### Phase 4 — CI promotion — **Done** 2026-06-21
 
-Promote `assert_root_file_budget.py --strict` to required job (mirror path-fallback enforcement) **only after** Phase 1–3 bring count ≤ target.
+Promoted `assert_root_file_budget.py --strict` to required job; aligned `check_repo_health.py --quick`. Receipt: [`root-file-budget-ci-enforcement-2026-06-21.md`](root-file-budget-ci-enforcement-2026-06-21.md).
 
 ## Out of scope
 

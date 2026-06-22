@@ -27,7 +27,7 @@ Do not introduce new authority labels without updating this table and the audit 
 
 | Metric | Baseline (2026-06-21) | Target | Fail CI (phase) |
 |--------|----------------------:|-------:|-----------------|
-| Root files | 33 | ≤ 25 (doctrine floor; reconciled 2026-06-21) | Phase 9 (`assert_root_file_budget.py --strict`) |
+| Root files | 25 (at target) | ≤ 25 (doctrine floor; was 20) | **Enforced** (`assert_root_file_budget.py --strict`) |
 | Root directories (contract) | 20 | ≤ 20 | Enforced (`assert_root_folder_layout`) |
 | Primary routing front doors | 8 listed | ≤ 3 | Phase 9 |
 | Always-read agent doc lines (`AGENTS.md`) | ~286 | ≤ 150 | Phase 5 |
@@ -129,9 +129,11 @@ Wave 4 Grace-Mar compatibility fallback tails removed: **3** keys (`bot`, `recur
 
 Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict`.
 
-### Root file budget (Phase 9 — in progress)
+### Root file budget (Phase 9 — complete)
 
-**Target reconciled (2026-06-21):** `max_root_files` raised **20 → 25** to match documented doctrine floor ([`docs/canonical-paths.md`](canonical-paths.md) skill splits at root + build/routing minimum). Active count **34** on disk (**33** tracked) — **9 over** reconciled target until Phase 1–2 relocations. Plan: [`root-file-budget-slice-plan-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-slice-plan-2026-06-21.md). `assert_root_file_budget.py --strict` remains advisory until count ≤ 25.
+Active root file count **25** on disk (at `max_root_files` target). Phased relocations: [`root-file-budget-slice-plan-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-slice-plan-2026-06-21.md). **`assert_root_file_budget.py --strict` is required CI** (promoted 2026-06-21). Receipt: [`root-file-budget-ci-enforcement-2026-06-21.md`](../runtime/artifacts/complexity-audit/root-file-budget-ci-enforcement-2026-06-21.md).
+
+Scan: `python3 scripts/assert_root_file_budget.py` · `--strict` · `--json`.
 
 ## CI rollout policy
 
@@ -139,9 +141,11 @@ Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict`.
 2. **Fail mode** — promote to required after proof-slice gate (post Sprint 3) and operator legibility check.
 3. **Exceptions** — time-boxed allowlist entries in this file with expiry date; no permanent exceptions.
 
-**Workflow:** [`.github/workflows/repo-health.yml`](../.github/workflows/repo-health.yml) — **Required** job (routing, generated headers, layout, path adoption, **strict path scan**, path regression pytest) + **Advisory** job (archive boundary, root budget, complexity `--check`, drift orchestrator). Mirrors `python3 scripts/check_repo_health.py --quick` / `--full`.
+**Workflow:** [`.github/workflows/repo-health.yml`](../.github/workflows/repo-health.yml) — **Required** job (routing, generated headers, layout, path adoption, **strict path scan**, **strict root file budget**, path/budget regression pytest) + **Advisory** job (archive boundary, complexity `--check`, drift orchestrator). Mirrors `python3 scripts/check_repo_health.py --quick` / `--full`.
 
 **Promoted (2026-06-21):** `python3 scripts/check_repo_path_strict.py --strict` — required; no longer in advisory job.
+
+**Promoted (2026-06-21):** `python3 scripts/assert_root_file_budget.py --strict` — required; no longer in advisory job.
 
 ## Related
 
@@ -151,6 +155,6 @@ Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict`.
 - `scripts/generate_llm_routing.py` — hybrid [`LLM-ROUTING.md`](../LLM-ROUTING.md) from [`repo-map.yaml`](../repo-map.yaml)
 - `scripts/check_repo_path_strict.py` (**required** `--strict` in CI; promoted 2026-06-21)
 - `scripts/check_generated_surfaces.py` — manifest + header + drift (`--strict` Sprint 9 fail)
-- [`root-file-budget.yaml`](../root-file-budget.yaml) + `scripts/assert_root_file_budget.py` (warn; `--strict` Phase 9)
+- [`root-file-budget.yaml`](../root-file-budget.yaml) + `scripts/assert_root_file_budget.py` (**required** `--strict` in CI; promoted 2026-06-21)
 - Phase 8 doc trim plan: [complexity-readme-start-here-trim-plan.md](complexity-readme-start-here-trim-plan.md) · `scripts/check_doc_duplication.py` (warn)
 - `runtime/artifacts/complexity-audit/`

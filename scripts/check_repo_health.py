@@ -29,7 +29,7 @@ def run_quick() -> int:
         (["python3", "scripts/validate_repo_routing.py"], "repo routing"),
         (["python3", "scripts/generate_llm_routing.py", "--check"], "LLM-ROUTING drift"),
         (["python3", "scripts/check_generated_surfaces.py", "--headers-only"], "generated headers"),
-        (["python3", "scripts/assert_root_file_budget.py"], "root file budget"),
+        (["python3", "scripts/assert_root_file_budget.py", "--strict"], "root file budget"),
         (["python3", "scripts/check_doc_duplication.py"], "doc duplication"),
         (["python3", "scripts/check_archive_boundary.py"], "archive boundary"),
         (["python3", "scripts/check_repo_path_strict.py", "--strict"], "path strict scan"),

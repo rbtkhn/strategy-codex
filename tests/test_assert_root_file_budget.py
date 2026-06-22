@@ -29,12 +29,12 @@ def test_root_file_budget_warn_mode_allows_over_budget():
     assert "Over budget by:" in proc.stdout or "over_budget_by" in proc.stdout
 
 
-def test_root_file_budget_strict_fails_while_over_target():
+def test_root_file_budget_strict_passes_at_target():
     proc = subprocess.run(
         [sys.executable, "scripts/assert_root_file_budget.py", "--strict"],
         cwd=REPO_ROOT,
         capture_output=True,
         text=True,
     )
-    assert proc.returncode == 1
-    assert "root-file-budget:" in proc.stderr
+    assert proc.returncode == 0, proc.stderr or proc.stdout
+    assert "within limits" in proc.stdout or "Over budget by: 0" in proc.stdout
