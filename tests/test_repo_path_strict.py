@@ -270,9 +270,16 @@ def test_wave_4_keys_are_expected():
     assert keys_for_wave(4) == WAVE_4_KEYS
 
 
-def test_wave_4_fallbacks_still_present_for_audit_slice():
+def test_wave_4_fallbacks_removed():
     for key in WAVE_4_KEYS:
-        assert len(REPO_PATH_MIGRATIONS[key]) > 1, key
+        assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
+
+
+def test_wave_4_retirement_policy_has_no_legacy():
+    retirement = load_path_fallback_retirement()
+    for key in WAVE_4_KEYS:
+        assert retirement[key]["legacy"] == [], key
+        assert retirement[key]["retirement_status"] == "keep_no_legacy", key
 
 
 def test_wave_4_canonical_paths_exist():
@@ -288,10 +295,13 @@ def test_wave_4_readiness_report_covers_all_keys():
 
 def test_wave_4_readiness_all_ready():
     report = collect_wave_readiness_report(wave=4)
-    retirement = load_path_fallback_retirement()
     for key, item in report["keys"].items():
         assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
-        assert retirement[key].get("readiness") == "ready", key
+
+
+def test_no_legacy_fallback_tuples_remain():
+    count = sum(1 for entry in REPO_PATH_MIGRATIONS.values() if len(entry) > 1)
+    assert count == 0
 
 
 def test_check_repo_path_strict_wave_4():

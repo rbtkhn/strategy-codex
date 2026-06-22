@@ -127,12 +127,9 @@ REPO_PATH_MIGRATIONS: dict[str, tuple[str, ...]] = {
     "skills": ("skills",),
     "schema-registry": ("schemas/registry",),
     "styles": ("templates/styles",),
-    "bot": ("archive/grace-mar-instance/bot", "bot"),
-    "recursion-gate-staging": (
-        "archive/grace-mar-instance/recursion-gate-staging",
-        "recursion-gate-staging",
-    ),
-    "bootstrap": ("archive/grace-mar-instance/bootstrap", "bootstrap"),
+    "bot": ("archive/grace-mar-instance/bot",),
+    "recursion-gate-staging": ("archive/grace-mar-instance/recursion-gate-staging",),
+    "bootstrap": ("archive/grace-mar-instance/bootstrap",),
     "grace-mar-instance": ("archive/grace-mar-instance",),
 }
 
@@ -492,7 +489,7 @@ RUNTIME_BUNDLE_DIR = resolve_repo_path("runtime-bundle")
 SRC_DIR = resolve_repo_path("src")
 SKILLS_DIR = resolve_repo_path("skills")
 APPS_DIR = resolve_repo_path("apps")
-BOT_DIR = resolve_repo_path("bot")
+BOT_DIR = GRACE_MAR_INSTANCE_DIR / "bot"
 SCHEMA_REGISTRY_DIR = resolve_repo_path("schema-registry")
 AUTO_RESEARCH_DIR = resolve_repo_path("auto-research")
 REVIEW_QUEUE_DIR = resolve_repo_path("review-queue")

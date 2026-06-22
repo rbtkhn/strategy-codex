@@ -97,15 +97,15 @@ No new fallback tuple may be added without:
 | Metric | Current | Target |
 |---|---:|---:|
 | `REPO_PATH_MIGRATIONS` keys | 29 | 0 active legacy fallbacks |
-| Keys with legacy fallback tuples (`len(entry) > 1`) | 3 | 0 |
+| Keys with legacy fallback tuples (`len(entry) > 1`) | 0 | 0 |
 | Unclassified migration keys | 0 | 0 |
-| Grace-Mar compatibility fallbacks in active resolver | 4 | moved to compat module (Wave 4) |
+| Grace-Mar compatibility fallbacks in active resolver | 0 | moved to compat module (Wave 4) |
 
 ### Wave 1 removal (2026-06-21)
 
 Wave 1 active canonical fallback tails removed: **12** keys (`artifacts` through `bridges` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)).
 
-Remaining fallback-bearing keys: **3** (Wave 4 Grace-Mar compat only). `grace-mar-instance` is canonical-only.
+Remaining fallback-bearing keys: **0** — path-fallback retirement program complete.
 
 ### Wave 2 removal (2026-06-21)
 
@@ -115,15 +115,13 @@ Wave 2 platform subpath fallback tails removed: **10** keys (`app` through `prof
 
 Wave 3 archive placeholder fallback tails removed: **3** keys (`evidence`, `reflection-proposals`, `review-queue` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)). Readiness audit: [`wave-3-archive-placeholder-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-3-archive-placeholder-readiness-2026-06-21.md). Removal receipt: [`wave-3-path-fallback-removal-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-3-path-fallback-removal-2026-06-21.md).
 
-**Fallback tuple count:** 6 → **3** keys with `len(entry) > 1`.
+**Fallback tuple count:** 6 → **3** → **0** keys with `len(entry) > 1`.
 
-### Wave 4 readiness (2026-06-21)
+### Wave 4 removal (2026-06-21)
 
-Wave 4 Grace-Mar compatibility fallback readiness verified: **3** keys (`bot`, `recursion-gate-staging`, `bootstrap` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)). Compat module fixed: [`platform/src/strategy_codex/compat/grace_mar_paths.py`](../platform/src/strategy_codex/compat/grace_mar_paths.py). Readiness audit: [`wave-4-grace-mar-compat-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-4-grace-mar-compat-readiness-2026-06-21.md). **Fallback tuples remain** until follow-up removal PR.
+Wave 4 Grace-Mar compatibility fallback tails removed: **3** keys (`bot`, `recursion-gate-staging`, `bootstrap` — see [`docs/path-fallback-retirement.md`](path-fallback-retirement.md)). Readiness audit: [`wave-4-grace-mar-compat-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-4-grace-mar-compat-readiness-2026-06-21.md). Removal receipt: [`wave-4-path-fallback-removal-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-4-path-fallback-removal-2026-06-21.md). `BOT_DIR` now resolves via `GRACE_MAR_INSTANCE_DIR / "bot"` (canonical only).
 
-Note: `audit_repo_complexity.py --check` still warns on `legacy_fallback_entries` until Wave 4 removal completes (advisory CI).
-
-Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict` · `--wave 4` (readiness audit).
+Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict`.
 
 ## CI rollout policy
 

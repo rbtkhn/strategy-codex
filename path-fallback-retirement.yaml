@@ -38,20 +38,16 @@ entries:
 - key: bootstrap
   category: grace_mar_compat
   canonical: archive/grace-mar-instance/bootstrap
-  legacy:
-  - bootstrap
-  retirement_status: move_to_grace_mar_compat
-  readiness: ready
-  notes: Voice archaeology only; compat helper in strategy_codex.compat.grace_mar_paths.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 4 fallback removed; use strategy_codex.compat.grace_mar_paths for archaeology.
   wave: 4
 - key: bot
   category: grace_mar_compat
   canonical: archive/grace-mar-instance/bot
-  legacy:
-  - bot
-  retirement_status: move_to_grace_mar_compat
-  readiness: ready
-  notes: Voice archaeology only; compat helper in strategy_codex.compat.grace_mar_paths.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 4 fallback removed; use strategy_codex.compat.grace_mar_paths for archaeology.
   wave: 4
 - key: bridges
   category: active_canonical
@@ -132,11 +128,9 @@ entries:
 - key: recursion-gate-staging
   category: grace_mar_compat
   canonical: archive/grace-mar-instance/recursion-gate-staging
-  legacy:
-  - recursion-gate-staging
-  retirement_status: move_to_grace_mar_compat
-  readiness: ready
-  notes: Voice archaeology only; compat helper in strategy_codex.compat.grace_mar_paths.
+  legacy: []
+  retirement_status: keep_no_legacy
+  notes: Wave 4 fallback removed; use strategy_codex.compat.grace_mar_paths for archaeology.
   wave: 4
 - key: reflection-proposals
   category: archive_placeholder
