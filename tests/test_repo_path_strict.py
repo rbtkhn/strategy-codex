@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import os
+import json
 import subprocess
 import sys
 from pathlib import Path
@@ -13,13 +13,17 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from repo_io import (  # noqa: E402
+    GRACE_MAR_COMPAT_KEYS,
     GRACE_MAR_INSTANCE_DIR,
+    REPO_PATH_CLASSIFICATION,
     profile_dir,
     profile_rel_posix,
     reset_legacy_path_resolve_count,
     resolve_repo_path,
     scan_legacy_path_layout,
     strict_paths_enabled,
+    validate_path_fallback_retirement,
+    validate_repo_path_classification,
 )
 
 
@@ -56,3 +60,41 @@ def test_strict_paths_raises_on_legacy(monkeypatch: pytest.MonkeyPatch, tmp_path
 def test_scan_legacy_path_layout_is_list():
     issues = scan_legacy_path_layout()
     assert isinstance(issues, list)
+
+
+def test_every_repo_path_migration_has_classification():
+    issues = validate_repo_path_classification()
+    assert issues == []
+
+
+def test_no_classification_without_migration_key():
+    issues = validate_repo_path_classification()
+    missing = [i for i in issues if i.startswith("missing classification")]
+    orphan = [i for i in issues if i.startswith("classification without")]
+    assert missing == []
+    assert orphan == []
+
+
+def test_legacy_fallback_keys_have_retirement_policy():
+    issues = validate_path_fallback_retirement()
+    assert issues == [], issues
+
+
+def test_grace_mar_compat_keys_are_isolated():
+    compat_keys = {k for k, v in REPO_PATH_CLASSIFICATION.items() if v == "grace_mar_compat"}
+    assert compat_keys == set(GRACE_MAR_COMPAT_KEYS)
+    assert compat_keys <= set(REPO_PATH_CLASSIFICATION)
+
+
+def test_check_repo_path_strict_json():
+    proc = subprocess.run(
+        [sys.executable, "scripts/check_repo_path_strict.py", "--json"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stderr or proc.stdout
+    payload = json.loads(proc.stdout)
+    assert "summary" in payload
+    assert payload["summary"]["total_keys"] == 29
+    assert "retirement_candidates" in payload

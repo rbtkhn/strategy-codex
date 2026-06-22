@@ -31,7 +31,7 @@ Do not introduce new authority labels without updating this table and the audit 
 | Root directories (contract) | 20 | ≤ 20 | Enforced (`assert_root_folder_layout`) |
 | Primary routing front doors | 8 listed | ≤ 3 | Phase 9 |
 | Always-read agent doc lines (`AGENTS.md`) | ~286 | ≤ 150 | Phase 5 |
-| Legacy path fallback tuples in `repo_io` | 28 | 0 | Phase 10 |
+| Legacy path fallback tuples in `repo_io` | 29 | 0 | Phase 10 |
 | Grace-Mar mentions outside archive docs (bounded scan) | ~11,785 | ≤ 3 (short pointers) | Phase 5 |
 | Generated files without manifest entry | n/a | 0 | Phase 6 |
 
@@ -77,6 +77,30 @@ Detailed doctrine belongs under `docs/archive/` and `archive/grace-mar-corpus/`.
 **CI (warn):** `python3 scripts/check_repo_path_strict.py` — reports dual/legacy-only layouts; `--strict` fails (Sprint 6+).
 
 **Record bundle:** Profile / Record files → `archive/grace-mar-instance/` via `profile_dir()` — not repo root, not `platform/users/<id>` unless that tree holds `self.md`.
+
+## Path fallback retirement budget
+
+Active resolver fallback tuples should trend to zero.
+
+**SSOT:** [`path-fallback-retirement.yaml`](../path-fallback-retirement.yaml) (machine) · [`docs/path-fallback-retirement.md`](path-fallback-retirement.md) (human mirror).
+
+### Policy
+
+No new fallback tuple may be added without:
+
+1. Classification in `REPO_PATH_CLASSIFICATION` ([`scripts/repo_io.py`](../scripts/repo_io.py))
+2. Retirement entry in `path-fallback-retirement.yaml`
+3. Test coverage in [`tests/test_repo_path_strict.py`](../tests/test_repo_path_strict.py)
+
+### Target
+
+| Metric | Current | Target |
+|---|---:|---:|
+| `REPO_PATH_MIGRATIONS` keys | 29 | 0 active legacy fallbacks |
+| Unclassified migration keys | 0 | 0 |
+| Grace-Mar compatibility fallbacks in active resolver | 4 | moved to compat module (Wave 4) |
+
+Scan: `python3 scripts/check_repo_path_strict.py` · `--json` · `--strict` (fail when clean + operator approves CI promotion).
 
 ## CI rollout policy
 

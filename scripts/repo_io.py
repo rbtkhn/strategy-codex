@@ -175,6 +175,121 @@ def scan_legacy_path_layout() -> list[str]:
     return issues
 
 
+PATH_FALLBACK_RETIREMENT_PATH = REPO_ROOT / "path-fallback-retirement.yaml"
+GRACE_MAR_COMPAT_KEYS = frozenset(
+    {"bot", "recursion-gate-staging", "bootstrap", "grace-mar-instance"}
+)
+RETIREMENT_CATEGORIES = frozenset(
+    {"active_canonical", "archive_placeholder", "grace_mar_compat"}
+)
+RETIREMENT_STATUSES = frozenset(
+    {
+        "remove_when_clean",
+        "keep_temporarily",
+        "move_to_grace_mar_compat",
+        "keep_no_legacy",
+    }
+)
+
+
+def validate_repo_path_classification() -> list[str]:
+    """Ensure REPO_PATH_CLASSIFICATION bijects with REPO_PATH_MIGRATIONS keys."""
+    migration_keys = set(REPO_PATH_MIGRATIONS)
+    classification_keys = set(REPO_PATH_CLASSIFICATION)
+    issues: list[str] = []
+    for key in sorted(migration_keys - classification_keys):
+        issues.append(f"missing classification for repo path key: {key}")
+    for key in sorted(classification_keys - migration_keys):
+        issues.append(f"classification without migration key: {key}")
+    return issues
+
+
+def load_path_fallback_retirement() -> dict[str, Any]:
+    """Load path-fallback-retirement.yaml entries keyed by logical path key."""
+    if not PATH_FALLBACK_RETIREMENT_PATH.is_file():
+        raise FileNotFoundError(
+            f"missing retirement policy: {PATH_FALLBACK_RETIREMENT_PATH.relative_to(REPO_ROOT)}"
+        )
+    try:
+        import yaml
+    except ImportError as exc:  # pragma: no cover
+        raise RuntimeError("PyYAML required for path fallback retirement") from exc
+    raw = yaml.safe_load(PATH_FALLBACK_RETIREMENT_PATH.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        raise ValueError("path-fallback-retirement.yaml must be a mapping")
+    entries = raw.get("entries")
+    if not isinstance(entries, list):
+        raise ValueError("path-fallback-retirement.yaml must define entries list")
+    by_key: dict[str, Any] = {}
+    for item in entries:
+        if not isinstance(item, dict):
+            raise ValueError("each retirement entry must be a mapping")
+        key = str(item.get("key") or "").strip()
+        if not key:
+            raise ValueError("retirement entry missing key")
+        if key in by_key:
+            raise ValueError(f"duplicate retirement entry key: {key}")
+        by_key[key] = item
+    return by_key
+
+
+def validate_path_fallback_retirement() -> list[str]:
+    """Validate retirement YAML against migrations and classification."""
+    issues: list[str] = []
+    try:
+        by_key = load_path_fallback_retirement()
+    except (OSError, ValueError, RuntimeError) as exc:
+        return [str(exc)]
+
+    migration_keys = set(REPO_PATH_MIGRATIONS)
+    retirement_keys = set(by_key)
+
+    for key in sorted(migration_keys - retirement_keys):
+        issues.append(f"missing retirement policy for repo path key: {key}")
+    for key in sorted(retirement_keys - migration_keys):
+        issues.append(f"retirement policy without migration key: {key}")
+
+    for key, entry in sorted(by_key.items()):
+        if key not in REPO_PATH_MIGRATIONS:
+            continue
+        category = str(entry.get("category") or "")
+        if category not in RETIREMENT_CATEGORIES:
+            issues.append(f"{key}: invalid retirement category: {category}")
+        elif category != REPO_PATH_CLASSIFICATION.get(key):
+            issues.append(
+                f"{key}: retirement category {category} != "
+                f"classification {REPO_PATH_CLASSIFICATION.get(key)}"
+            )
+        status = str(entry.get("retirement_status") or "")
+        if status not in RETIREMENT_STATUSES:
+            issues.append(f"{key}: invalid retirement_status: {status}")
+        canonical = str(entry.get("canonical") or "").replace("\\", "/")
+        legacy_raw = entry.get("legacy") or []
+        if not isinstance(legacy_raw, list):
+            issues.append(f"{key}: legacy must be a list")
+            continue
+        legacy = [str(p).replace("\\", "/") for p in legacy_raw]
+        expected = REPO_PATH_MIGRATIONS[key]
+        if canonical != expected[0]:
+            issues.append(
+                f"{key}: retirement canonical {canonical!r} != migration {expected[0]!r}"
+            )
+        if tuple(legacy) != tuple(expected[1:]):
+            issues.append(
+                f"{key}: retirement legacy {legacy!r} != migration {list(expected[1:])!r}"
+            )
+        if category == "grace_mar_compat" and key not in GRACE_MAR_COMPAT_KEYS:
+            issues.append(f"{key}: grace_mar_compat category on unexpected key")
+        if category != "grace_mar_compat" and key in GRACE_MAR_COMPAT_KEYS:
+            issues.append(f"{key}: expected grace_mar_compat category")
+
+    for key, category in REPO_PATH_CLASSIFICATION.items():
+        if category == "grace_mar_compat" and key not in GRACE_MAR_COMPAT_KEYS:
+            issues.append(f"{key}: grace_mar_compat classification outside compat set")
+
+    return issues
+
+
 def resolve_repo_path(logical_key: str, *, prefer_existing: bool = True) -> Path:
     """Resolve consolidated repo path by logical key (canonical + legacy fallback)."""
     entry = REPO_PATH_MIGRATIONS.get(logical_key)
